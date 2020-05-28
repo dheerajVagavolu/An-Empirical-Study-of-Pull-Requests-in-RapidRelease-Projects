@@ -1,0 +1,1042 @@
+Clarify the contribution licensing |-\|/-| 2019-12-05T18:56:22Z Merged pull request |-\|/-| 2914 +2 −0 md 0|-\|/-| 
+[CI] GitHub actions |-\|/-| 2019-12-15T10:05:50Z Closed pull request |-\|/-| 2904 +54 −36 yml bats zip 7|-\|/-| 
+Revert "[CI] Use GitHub Actions (#2884)" |-\|/-| 2019-11-07T16:20:21Z Merged pull request |-\|/-| 2903 +32 −50 yml 3|-\|/-| 
+Consider module stability when building frameworks |-\|/-| 2019-11-05T14:56:07Z Closed pull request |-\|/-| 2901 +8 −1 swift 1|-\|/-| 
+Release for 0.34.0 |-\|/-| 2019-10-21T17:17:47Z Merged pull request |-\|/-| 2893 +336 −261 swift-version bats Makefile resolved swift 14|-\|/-| 
+Update ikesyo/CarthageCopyFrameworksFixture for compatibility with Xcode 10.2 or above |-\|/-| 2019-10-03T17:09:42Z Merged pull request |-\|/-| 2886 +1 −1 bats 1|-\|/-| 
+[CI] Use GitHub Actions |-\|/-| 2019-10-07T15:55:39Z Merged pull request |-\|/-| 2884 +54 −36 yml bats zip 7|-\|/-| 
+FIX: Colon cause the build to fail #2879 |-\|/-| 2019-11-24T08:49:59Z Closed pull request |-\|/-| 2880 +7 −1 swift 2|-\|/-| 
+Fixup `cleanup` command |-\|/-| 2019-09-25T13:18:23Z Merged pull request |-\|/-| 2878 +42 −2 swift zip 3|-\|/-| 
+Add alternative content type for zip archives |-\|/-| 2019-09-26T08:58:20Z Merged pull request |-\|/-| 2877 +1 −1 swift 1|-\|/-| 
+Fix typo in README.md |-\|/-| 2019-09-24T13:10:29Z Merged pull request |-\|/-| 2875 +1 −1 md 0|-\|/-| 
+Add `carthage cleanup` command again |-\|/-| 2019-09-24T10:11:30Z Merged pull request |-\|/-| 2872 +308 −18 swift Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion 13|-\|/-| 
+Revert "For users named «travis» (case-insensitively), return early in `RemoteVersionSpec` rather than expose tests to the flakey interference currently seen" |-\|/-| 2019-09-15T20:04:58Z Merged pull request |-\|/-| 2869 +0 −1 json 1|-\|/-| 
+Gaustin/mac catalyst |-\|/-| 2019-12-27T02:37:04Z Closed pull request |-\|/-| 2868 +219 −37 swift 5|-\|/-| 
+Fall back to dSYM Swift version parsing |-\|/-| 2019-09-11T08:21:06Z Merged pull request |-\|/-| 2865 +20 −8 swift 3|-\|/-| 
+Swift Package Manager: Suppress `sandbox-exec` under Homebrew. |-\|/-| 2019-09-10T12:43:37Z Merged pull request |-\|/-| 2864 +4 −8 yml Makefile 2|-\|/-| 
+Remove — as a library dependency — `SwiftPM` and `llbuild` and reinstate `struct Carthage.SemanticVersion` |-\|/-| 2019-09-10T12:36:39Z Merged pull request |-\|/-| 2863 +268 −204 Makefile resolved swift 11|-\|/-| 
+For users named «travis» (case-insensitively), return early in `RemoteVersionSpec` rather than expose tests to the flakey interference currently seen |-\|/-| 2019-09-15T18:59:11Z Merged pull request |-\|/-| 2862 +1 −0 json 1|-\|/-| 
+Add workaround for Swift 5.1 compiler crash |-\|/-| 2019-09-07T03:40:12Z Merged pull request |-\|/-| 2859 +6 −1 swift 1|-\|/-| 
+Use libSwiftPM 0.4.0 and Xcode 10.2 to avoid build errors |-\|/-| 2019-09-10T17:50:42Z Closed pull request |-\|/-| 2854 +19 −19 yml bats Makefile resolved swift zip 9|-\|/-| 
+Refer to SWIFTPM_BOOTSTRAP in CONTRIBUTING.md |-\|/-| 2019-09-15T18:16:56Z Closed pull request |-\|/-| 2853 +1 −1 md 0|-\|/-| 
+Improve submodule performance when --use-submodule |-\|/-| 2019-10-12T12:39:45Z Closed pull request |-\|/-| 2842 +38 −24 swift 2|-\|/-| 
+Update swift-package-manager dependency |-\|/-| 2019-08-02T12:49:43Z Closed pull request |-\|/-| 2838 +19 −19 resolved swift 17|-\|/-| 
+Fix fetching race condition |-\|/-| 2019-07-31T08:17:35Z Merged pull request |-\|/-| 2832 +56 −40 swift 1|-\|/-| 
+Remove pipe in carthage outdated step |-\|/-| 2019-07-24T08:05:02Z Merged pull request |-\|/-| 2830 +1 −1 md 0|-\|/-| 
+Fix building with SPM |-\|/-| 2019-07-25T20:03:33Z Merged pull request |-\|/-| 2823 +14 −9 yml Makefile resolved swift 4|-\|/-| 
+How to get github for termux |-\|/-| 2019-07-15T09:01:17Z Closed pull request |-\|/-| 2822 +0 −0 png 1|-\|/-| 
+Delete step01.png |-\|/-| 2019-07-15T12:46:33Z Closed pull request |-\|/-| 2821 +0 −0 png 1|-\|/-| 
+WIP - Create single XCFramework for all platforms |-\|/-| 2019-12-29T02:23:03Z Closed pull request |-\|/-| 2820 +832 −102 swift 5|-\|/-| 
+Bugfix/concurrent dsym stripping |-\|/-| 2019-06-17T16:46:24Z Merged pull request |-\|/-| 2809 +27 −12 swift 2|-\|/-| 
+Add w character to asciiAlphabeth |-\|/-| 2019-06-07T10:58:31Z Merged pull request |-\|/-| 2806 +1 −1 swift 1|-\|/-| 
+Feature/skip archive and custom cartfile |-\|/-| 2019-06-05T06:18:41Z Closed pull request |-\|/-| 2802 +68 −29 swift 9|-\|/-| 
+Update code to be Swift 5.1 compatible |-\|/-| 2019-06-04T23:07:08Z Merged pull request |-\|/-| 2800 +8 −8 swift 7|-\|/-| 
+Add .xcfilelist documentation |-\|/-| 2019-06-05T07:56:01Z Merged pull request |-\|/-| 2798 +7 −2 md 0|-\|/-| 
+Update Swift version to 4.2 with necessary dependency updates |-\|/-| 2019-06-04T13:09:10Z Merged pull request |-\|/-| 2797 +23 −24 swift-version Makefile resolved swift 4|-\|/-| 
+Bugfix 2788 |-\|/-| 2019-05-28T22:28:56Z Merged pull request |-\|/-| 2796 +72 −4 swift 2|-\|/-| 
+Improve submodule performance when --use-submodules is not used |-\|/-| 2019-07-26T10:52:31Z Merged pull request |-\|/-| 2795 +140 −60 swift 2|-\|/-| 
+Reject invalid archives - Fix |-\|/-| 2019-05-20T14:34:15Z Merged pull request |-\|/-| 2791 +24 −3 bats swift 2|-\|/-| 
+Modify packages atomically |-\|/-| 2019-05-21T18:10:06Z Closed pull request |-\|/-| 2789 +47 −4 swift 2|-\|/-| 
+Address SwiftLint violations |-\|/-| 2019-05-14T12:00:26Z Merged pull request |-\|/-| 2785 +12 −13 swift 4|-\|/-| 
+[SwiftLint] Add a custom rule to detect possible Carthage typos |-\|/-| 2019-05-14T12:08:01Z Merged pull request |-\|/-| 2784 +14 −8 yml 1|-\|/-| 
+Resolves #2780 - Resolve build failures in ProjectSpec tests due to SWIFT_VERSION |-\|/-| 2019-05-13T12:38:59Z Merged pull request |-\|/-| 2781 +0 −0 zip 2|-\|/-| 
+Readme: "If you're building for OS X" |-\|/-| 2019-04-30T06:29:45Z Merged pull request |-\|/-| 2778 +3 −3 md 0|-\|/-| 
+Copy dSYMs that are incomplete |-\|/-| 2019-05-13T12:33:15Z Merged pull request |-\|/-| 2776 +4 −3 swift 1|-\|/-| 
+Installing module manually only |-\|/-| 2019-05-13T12:09:38Z Closed pull request |-\|/-| 2770 +53 −4 md swift 2|-\|/-| 
+Update to README. Pipe `carthage outdated` errors to dev/null |-\|/-| 2019-05-13T12:35:49Z Merged pull request |-\|/-| 2766 +1 −1 md 0|-\|/-| 
+Reject archives containing duplicated framework names |-\|/-| 2019-05-14T14:17:20Z Merged pull request |-\|/-| 2765 +120 −22 md swift 3|-\|/-| 
+Avoid warnings on Xcode 10.2 in CarthageKit |-\|/-| 2019-04-07T08:25:27Z Merged pull request |-\|/-| 2761 +16 −16 swift 5|-\|/-| 
+Swift Package Manager: Under Homebrew, pass `--disable-sandbox` flag. |-\|/-| 2019-04-01T19:30:38Z Merged pull request |-\|/-| 2754 +4 −0 Makefile 1|-\|/-| 
+Fix merging Swift header files for Xcode 10.2 |-\|/-| 2019-04-01T17:01:24Z Merged pull request |-\|/-| 2748 +8 −1 swift 1|-\|/-| 
+Revert passing authorization headers for redirected URLSession requests |-\|/-| 2019-04-01T19:46:20Z Merged pull request |-\|/-| 2741 +1 −58 swift 2|-\|/-| 
+Swift Package Manager: Accommodate any swift toolchain without a `swift_static` directory for the standard library |-\|/-| 2019-03-25T13:54:43Z Merged pull request |-\|/-| 2740 +8 −2 Makefile 1|-\|/-| 
+Update resolved PrettyColors and Curry |-\|/-| 2019-03-25T12:57:51Z Merged pull request |-\|/-| 2739 +6 −6 resolved swift 2|-\|/-| 
+Use ssh batch mode so git doesn't attempt to prompt the user and hang. |-\|/-| 2019-03-20T12:13:25Z Merged pull request |-\|/-| 2734 +3 −0 swift 1|-\|/-| 
+Fix issue where `carthage build` does not download binaries for dependencies in a specific situation |-\|/-| 2019-06-29T02:59:23Z Closed pull request |-\|/-| 2725 +26 −2 bats swift 2|-\|/-| 
+Add functionality to merge Swift header files |-\|/-| 2019-03-24T01:01:30Z Merged pull request |-\|/-| 2723 +47 −0 swift 1|-\|/-| 
+Use specific SwiftPM tag |-\|/-| 2019-03-15T13:33:05Z Merged pull request |-\|/-| 2720 +34 −34 resolved swift 21|-\|/-| 
+Pass the Authorization header across to the redirected request |-\|/-| 2019-02-26T18:34:06Z Merged pull request |-\|/-| 2713 +58 −1 swift 2|-\|/-| 
+Add "skip-simulators" option |-\|/-| 2019-02-20T21:13:14Z Closed pull request |-\|/-| 2712 +13 −2 swift 3|-\|/-| 
+Make swiftToolchainVersion Optional |-\|/-| 2019-03-29T06:56:22Z Closed pull request |-\|/-| 2708 +29 −20 swift 1|-\|/-| 
+Make swiftToolchainVersion optional for ObjC only frameworks |-\|/-| 2019-02-27T14:06:31Z Merged pull request |-\|/-| 2707 +40 −3 swift 4|-\|/-| 
+Add Allow HTTP Flag |-\|/-| 2019-04-29T07:27:48Z Closed pull request |-\|/-| 2706 +143 −61 md swift 8|-\|/-| 
+Mention MacPorts in README |-\|/-| 2019-02-17T12:24:06Z Merged pull request |-\|/-| 2704 +2 −0 md 0|-\|/-| 
+Fix issue where Carthage cannot find simulators when using Xcode 10.1 after installing 10.2 beta |-\|/-| 2019-02-01T02:41:04Z Merged pull request |-\|/-| 2696 +565 −0 swift 1|-\|/-| 
+Fix CONTRIBUTING “make bootstrap” instructions |-\|/-| 2019-01-28T16:23:50Z Merged pull request |-\|/-| 2695 +13 −6 md Makefile 1|-\|/-| 
+Add Xcode 10.2 beta simulator support |-\|/-| 2019-01-29T14:43:47Z Merged pull request |-\|/-| 2693 +263 −79 swift json 6|-\|/-| 
+add link to binary specification JSON |-\|/-| 2019-01-23T13:17:59Z Merged pull request |-\|/-| 2689 +1 −1 md 0|-\|/-| 
+remove wrong xcscheme file existence check |-\|/-| 2019-01-15T03:40:09Z Closed pull request |-\|/-| 2681 +0 −8 swift 1|-\|/-| 
+Add a "Reviewed by Hound" badge |-\|/-| 2019-01-10T16:49:52Z Merged pull request |-\|/-| 2678 +1 −1 md 0|-\|/-| 
+Remove Carthage.xcodeproj |-\|/-| 2019-01-06T08:01:00Z Merged pull request |-\|/-| 2672 +1 −8,030 gitignore 1|-\|/-| 
+Use Version type from SwiftPM |-\|/-| 2019-01-22T11:41:34Z Merged pull request |-\|/-| 2670 +208 −333 yml bats resolved swift 12|-\|/-| 
+Show error when input file list is not readable |-\|/-| 2018-12-27T19:47:38Z Merged pull request |-\|/-| 2668 +5 −1 swift 1|-\|/-| 
+Clean up model types |-\|/-| 2018-12-26T16:18:18Z Merged pull request |-\|/-| 2667 +17 −173 swift 9|-\|/-| 
+Only build with SwiftPM |-\|/-| 2018-12-31T16:19:49Z Merged pull request |-\|/-| 2665 +7,793 −2,418 gitignore gitmodules yml Cartfile private resolved pbxproj xcworkspacedata xcscheme plist 12|-\|/-| 
+Build with SwiftPM without specifying the deployment target |-\|/-| 2018-12-31T08:17:17Z Merged pull request |-\|/-| 2664 +13 −10 pbxproj Makefile swift 3|-\|/-| 
+Fix a typo "lauch" -> "launch" in the README.md file |-\|/-| 2018-12-13T08:07:22Z Merged pull request |-\|/-| 2660 +1 −1 md 0|-\|/-| 
+Remove existing items before git cloning submodules |-\|/-| 2018-12-04T22:20:59Z Merged pull request |-\|/-| 2654 +8 −0 swift 1|-\|/-| 
+[Issue #2641] Delete zip archive before creating a new one |-\|/-| 2018-11-19T13:36:28Z Merged pull request |-\|/-| 2648 +3 −0 swift 1|-\|/-| 
+Sync submodules from the submodule directory |-\|/-| 2018-11-19T14:43:30Z Merged pull request |-\|/-| 2643 +1 −1 swift 1|-\|/-| 
+Produce .version file for current project |-\|/-| 2018-12-13T13:07:44Z Merged pull request |-\|/-| 2636 +130 −12 swift 3|-\|/-| 
+Update code style in Simulator decoding |-\|/-| 2018-11-01T16:13:07Z Merged pull request |-\|/-| 2633 +11 −11 swift 1|-\|/-| 
+Fixes simctl support on Xcode >= 10.1 #2606 |-\|/-| 2018-10-30T22:26:57Z Closed pull request |-\|/-| 2631 +18 −13 swift json 2|-\|/-| 
+Fix Xcode 10.1 available simulators |-\|/-| 2018-10-30T22:11:17Z Merged pull request |-\|/-| 2630 +117 −46 swift json 4|-\|/-| 
+Update function and error for copy frameworks to reflect file lists support |-\|/-| 2018-10-26T00:46:25Z Merged pull request |-\|/-| 2625 +2 −2 swift 1|-\|/-| 
+Fix a warning of "String interpolation produces a debug description f… |-\|/-| 2018-10-24T01:19:45Z Merged pull request |-\|/-| 2624 +1 −1 swift 1|-\|/-| 
+Fall back to get swiftlang & clang version from dSYM  |-\|/-| 2018-11-13T13:29:56Z Merged pull request |-\|/-| 2622 +118 −9 swift 5|-\|/-| 
+Fix an ls-tree issue |-\|/-| 2019-02-11T12:01:16Z Merged pull request |-\|/-| 2617 +6 −4 swift 1|-\|/-| 
+[Reference PR] Update spm support |-\|/-| 2018-10-25T09:54:13Z Closed pull request |-\|/-| 2614 +49 −1 swift zip script/copy-fixtures 4|-\|/-| 
+Issue #2400 Shared cache for built dependencies |-\|/-| 2019-02-11T12:54:17Z Closed pull request |-\|/-| 2608 +0 −0 0|-\|/-| 
+[DO NOT MERGE] Xcode Simulator Mapping Update for Xcode 10.* Build Tools |-\|/-| 2018-10-06T17:27:04Z Closed pull request |-\|/-| 2607 +3 −7 swift 1|-\|/-| 
+Fix the issue can't find available simulators on Xcode 10.1 beta |-\|/-| 2018-10-06T17:33:12Z Merged pull request |-\|/-| 2606 +101 −30 swift json 4|-\|/-| 
+[ValidateSpec] Don't rely on a dictionary's order |-\|/-| 2018-10-04T12:12:35Z Merged pull request |-\|/-| 2601 +4 −2 swift 1|-\|/-| 
+Add support for `*.xcfilelist` file in copy-frameworks |-\|/-| 2018-09-25T04:44:45Z Merged pull request |-\|/-| 2591 +29 −9 swift 1|-\|/-| 
+Add support for forcing legacy build system. |-\|/-| 2018-11-11T16:04:05Z Closed pull request |-\|/-| 2588 +52 −3 swift 4|-\|/-| 
+Support HoundCI |-\|/-| 2018-10-02T10:13:33Z Merged pull request |-\|/-| 2586 +8 −6 yml swift 5|-\|/-| 
+Add Xcode version information to VersionFile |-\|/-| 2018-11-19T09:00:49Z Merged pull request |-\|/-| 2585 +51 −15 swift Tests/CarthageKitTests/Resources/TestVersionFile 5|-\|/-| 
+Refactor `buildScheme` a bit |-\|/-| 2018-09-11T14:28:13Z Merged pull request |-\|/-| 2574 +6 −10 swift 1|-\|/-| 
+Remove now-unnecessary Swift 4.1 shim |-\|/-| 2018-09-10T13:21:27Z Merged pull request |-\|/-| 2571 +1 −7 swift 1|-\|/-| 
+[BREAKING][Cartfile] Reject `git` or `ssh` protocol as a `github` origin as it does not make sense |-\|/-| 2018-09-25T18:56:54Z Merged pull request |-\|/-| 2569 +46 −0 pbxproj md swift 3|-\|/-| 
+Update README.md |-\|/-| 2018-08-31T12:31:07Z Merged pull request |-\|/-| 2563 +2 −2 md 0|-\|/-| 
+[BREAKING] Fix the issue any packages for watchOS couldn't be built on Xcode 10 beta |-\|/-| 2018-09-04T01:57:38Z Merged pull request |-\|/-| 2561 +204 −19 pbxproj swift json 7|-\|/-| 
+Updated documentation of the --no-use-binaries option |-\|/-| 2018-08-20T20:12:07Z Merged pull request |-\|/-| 2556 +1 −1 swift 1|-\|/-| 
+Symlink the Build folder for binary downloads |-\|/-| 2018-09-03T13:41:24Z Merged pull request |-\|/-| 2551 +19 −10 swift 1|-\|/-| 
+[Archive] add xz to the supported pathExtensions for untar |-\|/-| 2018-08-01T14:47:06Z Merged pull request |-\|/-| 2548 +1 −1 swift 1|-\|/-| 
+Add option to skip remote version check |-\|/-| 2018-10-20T11:12:52Z Closed pull request |-\|/-| 2547 +38 −1 pbxproj swift 3|-\|/-| 
+Use different queue for version check timeouts |-\|/-| 2018-08-05T07:55:09Z Merged pull request |-\|/-| 2546 +76 −27 pbxproj swift 5|-\|/-| 
+Use `Bundle.executableURL` instead of `object(forInfoDictionaryKey: "CFBundleExecutable")` |-\|/-| 2018-07-30T17:19:04Z Merged pull request |-\|/-| 2542 +4 −9 swift 1|-\|/-| 
+[BREAKING] Update dependencies |-\|/-| 2018-09-06T00:33:30Z Merged pull request |-\|/-| 2538 +46 −77 swift-version yml Cartfile private resolved Carthage/Checkouts/Commandant Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/Tentacle swift md 15|-\|/-| 
+[Docs] Add warning to not use `copy-frameworks` in non-applications |-\|/-| 2018-07-26T15:43:40Z Merged pull request |-\|/-| 2537 +1 −1 md 0|-\|/-| 
+[SwiftLint] Fix various violations |-\|/-| 2018-07-25T20:21:55Z Merged pull request |-\|/-| 2535 +33 −37 editorconfig yml swift 6|-\|/-| 
+Binary dependencies are now downloaded and copied to Carthage/Checkout folder |-\|/-| 2018-12-26T19:09:34Z Closed pull request |-\|/-| 2532 +166 −3 swift 2|-\|/-| 
+[SwiftLint] Run `$ swiftlint autocorrect` |-\|/-| 2018-07-23T13:44:45Z Merged pull request |-\|/-| 2527 +69 −73 swift 3|-\|/-| 
+Improve instructions for prebuilding frameworks |-\|/-| 2018-07-22T07:19:39Z Merged pull request |-\|/-| 2524 +9 −3 md 0|-\|/-| 
+Proposal for (and implementation of) a "carthage validate" command |-\|/-| 2018-08-29T15:16:53Z Merged pull request |-\|/-| 2523 +349 −5 pbxproj swift Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion 10|-\|/-| 
+[SwiftLint] Remove unnecessary_case_break custom rule in favor of unn… |-\|/-| 2018-07-22T18:33:23Z Merged pull request |-\|/-| 2522 +0 −6 yml 1|-\|/-| 
+[SwiftLint] Remove unnecessary_nil_assignment custom rule in favor of… |-\|/-| 2018-07-20T07:59:32Z Merged pull request |-\|/-| 2520 +0 −6 yml 1|-\|/-| 
+Resolver diagnostics |-\|/-| 2019-03-25T15:24:09Z Closed pull request |-\|/-| 2519 +8,687 −772 gitignore swift 3|-\|/-| 
+ Fix SemVer parsing with too many dots |-\|/-| 2018-07-18T12:14:54Z Merged pull request |-\|/-| 2518 +17 −4 swift 2|-\|/-| 
+[CI] Use Xcode 9.4 image alongside Xcode 9.2. |-\|/-| 2018-07-06T23:36:55Z Merged pull request |-\|/-| 2510 +31 −0 yml 1|-\|/-| 
+Use archive action instead to load build settings |-\|/-| 2018-07-23T03:29:20Z Merged pull request |-\|/-| 2507 +5 −2 swift 1|-\|/-| 
+Add config for StaleBot https://github.com/apps/stale |-\|/-| 2018-06-29T09:28:03Z Merged pull request |-\|/-| 2504 +18 −0 yml 1|-\|/-| 
+Use `objdump` to determine whether a binary blob from a compressed archive should be handled by Carthage |-\|/-| 2018-06-29T22:33:41Z Merged pull request |-\|/-| 2502 +313 −37 pbxproj swift 4|-\|/-| 
+[CI] Use Xcode 9.4 image. |-\|/-| 2018-07-04T15:17:22Z Closed pull request |-\|/-| 2501 +4 −4 yml 1|-\|/-| 
+Static frameworks support information in README. |-\|/-| 2018-07-02T09:19:20Z Merged pull request |-\|/-| 2499 +21 −2 md 0|-\|/-| 
+Sanitizing dependency names |-\|/-| 2018-06-21T22:52:26Z Merged pull request |-\|/-| 2496 +8 −1 swift 2|-\|/-| 
+[CI] Unify CI_BUILD_(PACKAGE-SWIFTPM) into INTEGRATION_TESTS to reduce test duration |-\|/-| 2018-06-21T15:31:14Z Merged pull request |-\|/-| 2495 +4 −16 yml 1|-\|/-| 
+Update ReactiveSwift to 3.1.0 |-\|/-| 2018-06-21T11:00:10Z Merged pull request |-\|/-| 2494 +6 −6 Cartfile resolved Carthage/Checkouts/ReactiveSwift swift 5|-\|/-| 
+Update Quick and Nimble |-\|/-| 2018-06-20T13:19:37Z Merged pull request |-\|/-| 2492 +12 −12 private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift 6|-\|/-| 
+Update Commandant |-\|/-| 2018-06-19T14:39:15Z Merged pull request |-\|/-| 2490 +12 −12 Cartfile resolved Carthage/Checkouts/Commandant swift 8|-\|/-| 
+Make use of --new-resolver flag in bootstrap command |-\|/-| 2018-06-14T13:05:45Z Merged pull request |-\|/-| 2486 +4 −1 swift 1|-\|/-| 
+Proposed Behavior Change: Binary Only Downloads |-\|/-| 2018-07-20T01:21:35Z Closed pull request |-\|/-| 2478 +13 −5 swift 4|-\|/-| 
+Consider `XCODE_PRODUCT_BUILD_VERSION` alongside `EXPANDED_CODE_SIGN_IDENTITY` to address Xcode 10. |-\|/-| 2018-06-26T00:17:57Z Merged pull request |-\|/-| 2476 +22 −6 swift 1|-\|/-| 
+Fix build error with Xcode 10 |-\|/-| 2018-06-06T08:59:37Z Merged pull request |-\|/-| 2475 +2 −2 swift 1|-\|/-| 
+Truncate log file before writing new one |-\|/-| 2018-06-06T06:26:12Z Merged pull request |-\|/-| 2474 +1 −4 swift 1|-\|/-| 
+Ignore errors when getting EXPANDED_CODE_SIGN_IDENTITY |-\|/-| 2018-06-26T14:29:41Z Closed pull request |-\|/-| 2473 +14 −10 swift 2|-\|/-| 
+Add additional StaticFrameworks linker workarounds |-\|/-| 2018-06-04T13:43:20Z Merged pull request |-\|/-| 2471 +2 −0 md 0|-\|/-| 
+Refactor detection of Cartfile comments |-\|/-| 2018-06-02T16:45:08Z Merged pull request |-\|/-| 2469 +127 −74 pbxproj swift 5|-\|/-| 
+Fix errant UTF-16 offset use by ranging with converted `NSRange`. |-\|/-| 2018-06-01T12:42:23Z Merged pull request |-\|/-| 2465 +23 −25 swift 1|-\|/-| 
+Add test for non-semver reference with number sign |-\|/-| 2018-05-26T16:10:43Z Merged pull request |-\|/-| 2464 +6 −2 swift Tests/CarthageKitTests/Resources/TestCartfile 3|-\|/-| 
+Fix install instructions link |-\|/-| 2018-05-23T18:41:20Z Merged pull request |-\|/-| 2463 +1 −1 md 0|-\|/-| 
+Use `#` token for comment detection instead of space when parsing semver |-\|/-| 2018-05-22T14:32:55Z Merged pull request |-\|/-| 2459 +69 −18 swift Tests/CarthageKitTests/Resources/TestCartfile 4|-\|/-| 
+Discard fullwidth digits in semver parsing |-\|/-| 2018-05-22T14:31:31Z Merged pull request |-\|/-| 2458 +12 −4 swift 2|-\|/-| 
+Completely new resolver implementation which is faster and eliminates a lot of the bugs both in the original and new resolver |-\|/-| 2019-03-25T15:26:20Z Closed pull request |-\|/-| 2455 +1,794 −43 swift 2|-\|/-| 
+Stricter validation of pre-release and build metadata according to SemVer |-\|/-| 2018-05-17T12:52:09Z Merged pull request |-\|/-| 2453 +77 −9 swift 2|-\|/-| 
+Ignore anything after a space when parsing semantic versions |-\|/-| 2018-05-17T12:51:56Z Merged pull request |-\|/-| 2452 +40 −3 swift Tests/CarthageKitTests/Resources/TestCartfile 4|-\|/-| 
+Generate a version file for projects with no shared schemes |-\|/-| 2018-05-23T12:55:25Z Merged pull request |-\|/-| 2450 +48 −11 swift zip script/copy-fixtures 5|-\|/-| 
+Allow Github releases archieves with  `application/octect-stream` MIME type |-\|/-| 2018-05-23T12:54:38Z Merged pull request |-\|/-| 2448 +1 −1 swift 1|-\|/-| 
+[README] Add Table of Contents and others |-\|/-| 2018-05-11T14:27:51Z Merged pull request |-\|/-| 2447 +76 −15 md 0|-\|/-| 
+To destination is a symlink when archiving on macOS |-\|/-| 2018-05-11T19:44:34Z Merged pull request |-\|/-| 2445 +3 −1 swift 1|-\|/-| 
+Discard invalid build metadata and pre-release semantic version |-\|/-| 2018-05-03T08:03:56Z Merged pull request |-\|/-| 2439 +12 −0 swift 2|-\|/-| 
+Add --archive option to the build command. |-\|/-| 2018-05-04T16:58:39Z Merged pull request |-\|/-| 2438 +25 −4 swift 3|-\|/-| 
+Filter out improper directories passing as frameworks |-\|/-| 2018-05-02T12:23:10Z Merged pull request |-\|/-| 2436 +39 −8 pbxproj swift zip script/copy-fixtures 7|-\|/-| 
+Remove BITCODE_GENERATION_MODE handling which should not be needed an… |-\|/-| 2018-04-29T20:07:57Z Merged pull request |-\|/-| 2435 +0 −19 swift 3|-\|/-| 
+Try to improve `skippedInstallingBinaries` error message |-\|/-| 2018-04-27T23:25:45Z Merged pull request |-\|/-| 2434 +7 −2 swift 1|-\|/-| 
+Lenient framework platform check.  |-\|/-| 2018-05-01T17:32:32Z Closed pull request |-\|/-| 2432 +79 −20 swift 3|-\|/-| 
+Update Curry |-\|/-| 2018-04-24T07:54:56Z Merged pull request |-\|/-| 2431 +3 −3 Cartfile resolved Carthage/Checkouts/Curry 3|-\|/-| 
+[WIP] Build dependencies as paths |-\|/-| 2018-04-23T11:43:26Z Closed pull request |-\|/-| 2429 +24 −1 swift 1|-\|/-| 
+Use just the host part of the URL for proxy values, drop the scheme |-\|/-| 2018-04-24T14:19:27Z Merged pull request |-\|/-| 2428 +6 −6 swift 2|-\|/-| 
+Skip schemes |-\|/-| 2018-04-22T05:08:26Z Closed pull request |-\|/-| 2427 +405 −48 pbxproj swift 4|-\|/-| 
+Minor change to make the README examples standout |-\|/-| 2018-04-25T16:34:19Z Merged pull request |-\|/-| 2426 +2 −2 md 0|-\|/-| 
+Complete support building static frameworks |-\|/-| 2018-05-17T12:39:31Z Merged pull request |-\|/-| 2415 +137 −11 swift zip script/copy-fixtures 8|-\|/-| 
+Xcode 9.3 |-\|/-| 2018-04-10T00:09:27Z Merged pull request |-\|/-| 2413 +41 −18 pbxproj xcscheme plist swift 9|-\|/-| 
+Semantic Version Support Enhancements |-\|/-| 2018-06-26T14:30:42Z Merged pull request |-\|/-| 2412 +623 −51 pbxproj swift 2|-\|/-| 
+Prefer SSH over HTTPS by default |-\|/-| 2018-04-05T23:37:54Z Closed pull request |-\|/-| 2407 +15 −18 Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion swift 5|-\|/-| 
+Implement comparison and intersection of pre-release and build versions |-\|/-| 2018-04-09T13:08:15Z Merged pull request |-\|/-| 2406 +228 −46 swift 1|-\|/-| 
+Add notice to run chown on /usr/local |-\|/-| 2018-03-30T12:18:29Z Merged pull request |-\|/-| 2399 +1 −1 md 0|-\|/-| 
+JSON specification file name recommendation for binary projects |-\|/-| 2018-03-28T13:24:47Z Merged pull request |-\|/-| 2396 +1 −0 md 0|-\|/-| 
+Expand `VersionSpec` tests to include pre-release and non-semantic versions |-\|/-| 2018-03-29T12:55:36Z Merged pull request |-\|/-| 2394 +103 −0 swift 1|-\|/-| 
+ Add support for pre-release and build metadata, as per SemVer specs |-\|/-| 2018-04-01T12:52:19Z Merged pull request |-\|/-| 2392 +72 −15 yml swift 3|-\|/-| 
+Provide information on linker warning workaround for static framework script |-\|/-| 2018-03-28T13:07:14Z Merged pull request |-\|/-| 2390 +5 −0 md 0|-\|/-| 
+Update RELEASE.md homebrew release process documentation |-\|/-| 2018-03-22T23:32:11Z Merged pull request |-\|/-| 2386 +3 −1 md 0|-\|/-| 
+Update Artifacts.md |-\|/-| 2018-03-22T12:11:00Z Merged pull request |-\|/-| 2385 +4 −4 md 0|-\|/-| 
+[BinaryProject] Relative Path Cartfile.resolved Support |-\|/-| 2018-04-16T12:39:57Z Merged pull request |-\|/-| 2383 +91 −36 swift 4|-\|/-| 
+Fix swiftlint comma warnings |-\|/-| 2018-03-18T00:42:11Z Merged pull request |-\|/-| 2378 +3 −3 swift 1|-\|/-| 
+Fix for segmentation fault when bootstrapping |-\|/-| 2018-03-15T20:35:13Z Merged pull request |-\|/-| 2376 +45 −31 swift 1|-\|/-| 
+Resolve all swiftlint violations. |-\|/-| 2018-03-14T00:03:00Z Merged pull request |-\|/-| 2374 +66 −51 yml swift 13|-\|/-| 
+Check if schemes are buildable with projects, not workspaces |-\|/-| 2018-03-19T17:24:06Z Merged pull request |-\|/-| 2372 +27 −19 swift 1|-\|/-| 
+Add support for proxied environments |-\|/-| 2018-03-12T15:43:17Z Merged pull request |-\|/-| 2371 +154 −5 pbxproj swift 5|-\|/-| 
+Don't create Carthage/Build symlink if project doesn't use Carthage |-\|/-| 2018-03-11T14:59:45Z Merged pull request |-\|/-| 2368 +93 −126 swift 4|-\|/-| 
+Strip debug symbols when copying frameworks using "carthage copy-frameworks" |-\|/-| 2018-03-05T18:44:32Z Merged pull request |-\|/-| 2361 +43 −7 swift 3|-\|/-| 
+[BinaryProject] Relative file Support |-\|/-| 2018-03-07T21:44:23Z Merged pull request |-\|/-| 2360 +44 −15 pbxproj md Makefile swift 4|-\|/-| 
+Minor fixes - Address change request |-\|/-| 2018-02-22T16:55:18Z Merged pull request |-\|/-| 2356 +16 −16 md 0|-\|/-| 
+Improve Issue Template |-\|/-| 2018-02-21T16:18:00Z Merged pull request |-\|/-| 2355 +9 −0 md 0|-\|/-| 
+Speed up build command |-\|/-| 2018-02-21T14:22:20Z Closed pull request |-\|/-| 2353 +8 −15 swift 2|-\|/-| 
+Update Branch - static framework support |-\|/-| 2018-02-21T21:02:06Z Merged pull request |-\|/-| 2352 +0 −0 0|-\|/-| 
+Pull/1935 |-\|/-| 2018-02-14T10:32:58Z Closed pull request |-\|/-| 2351 +3,123 −1,704 gitmodules swift-version yml Cartfile private resolved 7|-\|/-| 
+Add aliases for SDK rawValue |-\|/-| 2018-02-08T14:03:30Z Merged pull request |-\|/-| 2346 +77 −0 swift pbxproj 3|-\|/-| 
+Only check for buildables schemes once workspace filter has occured |-\|/-| 2018-02-12T14:22:50Z Merged pull request |-\|/-| 2344 +56 −71 swift 2|-\|/-| 
+Limit parallelism in discovery of build settings |-\|/-| 2018-02-03T20:07:54Z Merged pull request |-\|/-| 2343 +1 −1 swift 1|-\|/-| 
+Move binary download to build process |-\|/-| 2018-03-09T13:25:19Z Merged pull request |-\|/-| 2342 +67 −93 swift 5|-\|/-| 
+Update Commandant |-\|/-| 2018-02-02T05:16:23Z Merged pull request |-\|/-| 2341 +3 −3 Cartfile resolved Carthage/Checkouts/Commandant 3|-\|/-| 
+New debugger entitlement on Xcode 9.3 |-\|/-| 2018-02-10T23:53:37Z Closed pull request |-\|/-| 2336 +4 −0 swift 1|-\|/-| 
+Minor fixes |-\|/-| 2018-02-22T14:33:26Z Closed pull request |-\|/-| 2335 +14 −14 md 0|-\|/-| 
+Disable the "Strip Linked Product" build setting when using the "archive" command to build. |-\|/-| 2018-02-09T00:21:29Z Merged pull request |-\|/-| 2334 +4 −0 swift 1|-\|/-| 
+[WIP] Add `carthage cleanup` command |-\|/-| 2019-09-24T10:11:35Z Merged pull request |-\|/-| 2333 +246 −20 pbxproj swift 12|-\|/-| 
+Update version file doc |-\|/-| 2018-01-22T20:25:54Z Merged pull request |-\|/-| 2332 +1 −2 md 0|-\|/-| 
+[Bug] Fix a bug that carthage outdated fails |-\|/-| 2018-02-02T13:46:53Z Merged pull request |-\|/-| 2328 +28 −3 swift 1|-\|/-| 
+Update X's dependencies when running carthage update X. |-\|/-| 2018-03-09T14:07:07Z Merged pull request |-\|/-| 2321 +55 −1 swift 2|-\|/-| 
+No longer need to send completed |-\|/-| 2018-01-27T17:32:50Z Merged pull request |-\|/-| 2318 +0 −4 swift 1|-\|/-| 
+[Proposal] Skip binary download & checkout if valid cache exists |-\|/-| 2018-02-25T14:34:53Z Closed pull request |-\|/-| 2317 +13 −0 swift 1|-\|/-| 
+[Feature]Add configuration support for Carthage |-\|/-| 2018-01-29T01:32:37Z Closed pull request |-\|/-| 2312 +338 −22 gitignore pbxproj swift 7|-\|/-| 
+Fixed local project can not build at second time and add Skip feature. |-\|/-| 2018-01-06T15:49:45Z Closed pull request |-\|/-| 2310 +96 −30 gitignore swift 8|-\|/-| 
+Cached lastest remote version to avoid blocked fetching in poor network environment |-\|/-| 2018-08-03T11:37:04Z Closed pull request |-\|/-| 2307 +43 −2 swift 2|-\|/-| 
+Minor fix |-\|/-| 2017-12-31T19:47:40Z Merged pull request |-\|/-| 2303 +2 −2 swift 2|-\|/-| 
+[gardening][BinaryProject] Use `JSONDecoder` |-\|/-| 2017-12-28T00:04:27Z Merged pull request |-\|/-| 2300 +12 −19 swift 3|-\|/-| 
+Refactor `isSwiftFramework(_:)` not to use `SignalProducer` |-\|/-| 2017-12-13T14:11:17Z Merged pull request |-\|/-| 2290 +16 −23 swift 3|-\|/-| 
+Document how to create a release |-\|/-| 2017-12-10T15:26:09Z Merged pull request |-\|/-| 2288 +46 −0 md 0|-\|/-| 
+[Nimble] Migrate to Predicate API |-\|/-| 2017-12-08T17:27:24Z Merged pull request |-\|/-| 2287 +36 −27 swift 2|-\|/-| 
+[CI] Use Xcode 9.2 image |-\|/-| 2017-12-07T16:47:05Z Merged pull request |-\|/-| 2283 +7 −7 swift-version yml 2|-\|/-| 
+Support Swift toolchains that report a prerelease version |-\|/-| 2018-01-08T19:19:56Z Merged pull request |-\|/-| 2282 +149 −1 pbxproj swift h swiftmodule 5|-\|/-| 
+Replace deprecated `Observer.action` with `Observer.send` |-\|/-| 2017-11-28T19:57:59Z Merged pull request |-\|/-| 2272 +2 −2 swift 1|-\|/-| 
+[CI] Use Xcode 9.1 image |-\|/-| 2017-11-28T17:10:46Z Merged pull request |-\|/-| 2271 +7 −7 swift-version yml 2|-\|/-| 
+Use Xcode 9's New Build System |-\|/-| 2017-11-25T21:01:44Z Merged pull request |-\|/-| 2269 +8 −0 xcsettings 1|-\|/-| 
+Remove unnecessary code&&adjust indentation |-\|/-| 2017-11-28T01:11:54Z Merged pull request |-\|/-| 2268 +12 −17 swift 7|-\|/-| 
+Update ReactiveSwift to 3.0 |-\|/-| 2017-11-25T20:59:53Z Merged pull request |-\|/-| 2262 +33 −34 Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/PrettyColors Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/Tentacle swift 12|-\|/-| 
+Revert "Fix fetching a local repository with relative path" |-\|/-| 2017-11-14T23:51:24Z Merged pull request |-\|/-| 2260 +15 −16 swift 2|-\|/-| 
+Outdated Colors |-\|/-| 2017-12-21T18:04:33Z Merged pull request |-\|/-| 2257 +80 −6 swift 2|-\|/-| 
+`String.characters` is now deprecated in Swift 4.0.2 |-\|/-| 2017-11-14T19:28:23Z Merged pull request |-\|/-| 2256 +2 −3 swift 2|-\|/-| 
+Include incompatible dependencies in `outdated` output |-\|/-| 2017-12-18T01:18:16Z Merged pull request |-\|/-| 2254 +284 −114 pbxproj swift 5|-\|/-| 
+Update readme to mention the new resolver flag |-\|/-| 2017-11-13T20:07:11Z Merged pull request |-\|/-| 2253 +11 −0 md 0|-\|/-| 
+Strip string terminator from result of git command |-\|/-| 2017-11-16T01:49:59Z Merged pull request |-\|/-| 2252 +1 −0 swift 1|-\|/-| 
+Fix that `.xcarchive` is generated in parent directory of working directory |-\|/-| 2017-11-07T04:57:43Z Merged pull request |-\|/-| 2239 +1 −1 swift 1|-\|/-| 
+Correctly handle static framework binaries |-\|/-| 2017-12-15T23:06:17Z Merged pull request |-\|/-| 2235 +79 −6 pbxproj swift framework/Alamofire 4|-\|/-| 
+- added the ability to only download  binary dependencies (#2229) |-\|/-| 2017-10-27T19:33:04Z Closed pull request |-\|/-| 2232 +81 −1 swift 4|-\|/-| 
+Update Tentacle to 0.10.0 |-\|/-| 2017-10-26T17:33:34Z Merged pull request |-\|/-| 2228 +9 −70 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/Runes Carthage/Checkouts/Tentacle swift plist 11|-\|/-| 
+Transitive binary dependencies have invalid symlink |-\|/-| 2018-06-05T20:00:22Z Closed pull request |-\|/-| 2217 +77 −2 swift 1|-\|/-| 
+Add README info about `outdated --xcode-warnings` |-\|/-| 2017-10-14T17:28:29Z Merged pull request |-\|/-| 2214 +10 −0 md 0|-\|/-| 
+Fix CocoaPods-generated projects support when running `archive` action |-\|/-| 2017-10-14T01:55:15Z Merged pull request |-\|/-| 2213 +27 −12 swift 1|-\|/-| 
+Set `SKIP_INSTALL=YES` when running `archive` action |-\|/-| 2017-10-12T18:51:04Z Merged pull request |-\|/-| 2210 +5 −0 swift 1|-\|/-| 
+Add option to Outdated to output Xcode-compatible warnings |-\|/-| 2017-10-12T19:06:21Z Merged pull request |-\|/-| 2209 +7 −1 swift 1|-\|/-| 
+[gardening] Prefer `first(where:)` over lazy-filter-first |-\|/-| 2017-10-10T17:38:18Z Merged pull request |-\|/-| 2202 +5 −7 swift 2|-\|/-| 
+[gardening] Don't need to use `String.characters` now |-\|/-| 2017-10-07T01:38:59Z Merged pull request |-\|/-| 2199 +11 −15 swift 6|-\|/-| 
+ReadMe: Upgrading frameworks automatically. |-\|/-| 2017-10-06T19:26:52Z Closed pull request |-\|/-| 2194 +14 −0 md 0|-\|/-| 
+Update Quick and Nimble |-\|/-| 2017-10-03T11:04:16Z Merged pull request |-\|/-| 2189 +13 −15 yml private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift 7|-\|/-| 
+Add support for standard `http_proxy` and `https_proxy` environment |-\|/-| 2017-10-02T12:37:14Z Closed pull request |-\|/-| 2186 +52 −7 swift 4|-\|/-| 
+Update Tentacle to 0.9.0 |-\|/-| 2017-09-27T00:48:59Z Merged pull request |-\|/-| 2182 +6 −6 Cartfile resolved Carthage/Checkouts/Tentacle swift 5|-\|/-| 
+[SwiftPM] Use V4 PackageDescription |-\|/-| 2017-10-05T04:47:05Z Merged pull request |-\|/-| 2180 +44 −34 Makefile swift 2|-\|/-| 
+Migrate to Swift 4 |-\|/-| 2017-10-06T00:25:24Z Merged pull request |-\|/-| 2178 +40 −57 pbxproj swift md 14|-\|/-| 
+[gardening] Extract Dependency into its own file |-\|/-| 2017-09-24T07:34:34Z Merged pull request |-\|/-| 2177 +201 −196 pbxproj swift 2|-\|/-| 
+[gardening] Utilize `reduce(into:)` |-\|/-| 2017-09-24T07:33:56Z Merged pull request |-\|/-| 2176 +3 −7 swift 2|-\|/-| 
+Update StaticFrameworks.md |-\|/-| 2017-09-22T14:30:16Z Merged pull request |-\|/-| 2174 +1 −1 md 0|-\|/-| 
+[VersionFile] Use `Codable` |-\|/-| 2017-09-26T01:32:14Z Merged pull request |-\|/-| 2172 +25 −55 swift 2|-\|/-| 
+Use the new `Predicate` type for Nimble matchers |-\|/-| 2017-09-22T04:27:43Z Merged pull request |-\|/-| 2168 +6 −6 swift 2|-\|/-| 
+[gardening] Remove unused `buildCountedSet` |-\|/-| 2017-09-24T07:28:12Z Merged pull request |-\|/-| 2167 +0 −15 swift 1|-\|/-| 
+[gardening] Utilize the conversion between Range<String.Index> and NSRange on Swift 4 |-\|/-| 2017-09-21T22:51:37Z Merged pull request |-\|/-| 2166 +15 −15 swift 4|-\|/-| 
+Migrate to Xcode 9 |-\|/-| 2017-09-21T14:16:10Z Merged pull request |-\|/-| 2164 +171 −93 swift-version yml resolved pbxproj xcscheme Carthage/Checkouts/ReactiveSwift bats Makefile pins md swift 12|-\|/-| 
+[gardening] Introduce typed `Scheme` |-\|/-| 2017-10-04T23:37:31Z Merged pull request |-\|/-| 2160 +64 −31 swift pbxproj 10|-\|/-| 
+Use `archive` action when building device SDKs to disable LLVM Instrumentation |-\|/-| 2017-09-20T16:10:33Z Merged pull request |-\|/-| 2158 +137 −27 swift 4|-\|/-| 
+[gardening] Address some SwiftLint violations |-\|/-| 2017-09-10T01:43:06Z Merged pull request |-\|/-| 2152 +17 −14 yml swift 6|-\|/-| 
+[gardening] Utilize `filterMap` and `flatMap` for map-then-filter (or filter-then-map) patterns |-\|/-| 2017-09-09T12:02:46Z Closed pull request |-\|/-| 2151 +27 −22 swift 1|-\|/-| 
+[gardening] Replace `forEach` with for-in loop |-\|/-| 2017-09-08T09:37:02Z Merged pull request |-\|/-| 2149 +8 −4 swift 3|-\|/-| 
+Set the Run configuration in Xcode to Debug |-\|/-| 2017-09-07T10:54:46Z Merged pull request |-\|/-| 2147 +3 −1 xcscheme 1|-\|/-| 
+Updated the readme to help people with issue #2062 that has been closed |-\|/-| 2017-09-06T13:14:13Z Closed pull request |-\|/-| 2146 +14 −0 md 0|-\|/-| 
+[gardening][BuildCommand] Use `loadResolvedCartfile` over `loadCombinedCartfile` |-\|/-| 2017-09-06T12:44:38Z Merged pull request |-\|/-| 2145 +3 −3 swift 1|-\|/-| 
+[gardening] SwiftLint 0.22 |-\|/-| 2017-09-06T23:42:42Z Merged pull request |-\|/-| 2144 +26 −115 yml swift 7|-\|/-| 
+[BinaryProject] Add `file` scheme support in `Dependency`  #1853 |-\|/-| 2017-09-04T12:26:08Z Merged pull request |-\|/-| 2142 +12 −4 swift 2|-\|/-| 
+[BinaryProject] Add `file` scheme support |-\|/-| 2017-09-01T11:37:54Z Merged pull request |-\|/-| 2140 +12 −1 swift 2|-\|/-| 
+Update Quick and use the `Behavior` |-\|/-| 2017-08-26T00:48:16Z Merged pull request |-\|/-| 2135 +276 −272 yml private resolved Carthage/Checkouts/Quick 4|-\|/-| 
+Restrictively match non-semver commitish'es |-\|/-| 2017-08-24T15:34:21Z Closed pull request |-\|/-| 2134 +11 −3 swift 1|-\|/-| 
+Update resolver signature and update/add tests |-\|/-| 2017-08-24T01:00:22Z Merged pull request |-\|/-| 2133 +326 −222 swift 2|-\|/-| 
+[gardening] Use `PinnedVersion` when installing binaries |-\|/-| 2017-08-24T12:31:10Z Merged pull request |-\|/-| 2132 +13 −11 swift 1|-\|/-| 
+[BinaryProject] Remove unused `url` parameter from `from` |-\|/-| 2017-08-23T08:09:17Z Merged pull request |-\|/-| 2131 +8 −10 swift 3|-\|/-| 
+[gardening] Extract Submodule into its own file |-\|/-| 2017-08-22T12:25:14Z Merged pull request |-\|/-| 2128 +42 −39 pbxproj swift 3|-\|/-| 
+[WIP] Validating Cartfile name correctness |-\|/-| 2018-06-07T03:12:30Z Closed pull request |-\|/-| 2126 +36 −2 swift zip script/copy-fixtures 4|-\|/-| 
+Fix fetching a local repository with relative path |-\|/-| 2017-08-25T12:32:40Z Merged pull request |-\|/-| 2125 +16 −15 swift 2|-\|/-| 
+[GitURL] Fix relative path handling in `normalizedURLString` |-\|/-| 2017-08-21T11:50:28Z Merged pull request |-\|/-| 2123 +32 −4 swift 2|-\|/-| 
+Resolver performance |-\|/-| 2017-11-02T18:27:56Z Merged pull request |-\|/-| 2122 +676 −67 pbxproj swift 2|-\|/-| 
+[GitURL] Improve `normalizedURLString` tests to be more granular |-\|/-| 2017-08-16T11:59:25Z Merged pull request |-\|/-| 2121 +13 −6 swift 2|-\|/-| 
+[gardening] Remove obsolete macOS version check |-\|/-| 2017-08-15T14:38:12Z Merged pull request |-\|/-| 2117 +1 −7 swift 1|-\|/-| 
+[ResolverSpec] Add some examples to a pending test |-\|/-| 2017-08-16T04:38:46Z Merged pull request |-\|/-| 2116 +17 −3 swift 1|-\|/-| 
+[gardening] Extract GitURL into its own file |-\|/-| 2017-08-15T18:26:05Z Merged pull request |-\|/-| 2115 +86 −81 pbxproj swift 4|-\|/-| 
+Introduce CarthageKitVersion and don't rely on Bundle's Info.plist |-\|/-| 2017-08-16T05:00:08Z Merged pull request |-\|/-| 2114 +16 −18 pbxproj swift 6|-\|/-| 
+Private Cache for concurrency |-\|/-| 2017-08-16T12:02:03Z Closed pull request |-\|/-| 2112 +55 −4 swift 3|-\|/-| 
+[BREAKING] Make git tags parsing stricter on `SemanticVersion.from(_:)` |-\|/-| 2017-08-24T13:23:24Z Closed pull request |-\|/-| 2111 +4 −3 swift 2|-\|/-| 
+[gardening] Remove unavailable APIs |-\|/-| 2017-08-09T18:15:19Z Merged pull request |-\|/-| 2110 +0 −97 swift 1|-\|/-| 
+Support `tgz` extension for unarchiving |-\|/-| 2017-08-09T14:31:00Z Merged pull request |-\|/-| 2109 +4 −3 swift 1|-\|/-| 
+[Makefile] Add safety to `rm -rf` with `zsh` command |-\|/-| 2017-08-14T13:08:04Z Merged pull request |-\|/-| 2108 +21 −14 Makefile 1|-\|/-| 
+Add tests for XcodeVersion |-\|/-| 2017-08-08T14:20:42Z Merged pull request |-\|/-| 2106 +37 −0 swift pbxproj 2|-\|/-| 
+[PoC] Split derived data directory by Xcode version |-\|/-| 2017-08-08T12:22:44Z Merged pull request |-\|/-| 2102 +66 −4 swift pbxproj 4|-\|/-| 
+[gardening] Utilize `curry` over `static func create` |-\|/-| 2017-08-06T17:59:30Z Merged pull request |-\|/-| 2100 +52 −83 swift 7|-\|/-| 
+[Makefile] Use variables for specifying repeated commands |-\|/-| 2017-08-09T13:36:10Z Merged pull request |-\|/-| 2098 +27 −19 Makefile 1|-\|/-| 
+`NSTextCheckingResult.range(at:)` is only available in Swift 4 (not in Swift 3.2) |-\|/-| 2017-08-03T01:26:36Z Merged pull request |-\|/-| 2095 +1 −1 swift 1|-\|/-| 
+Add Bzip2 support for carthage |-\|/-| 2017-08-09T11:45:33Z Merged pull request |-\|/-| 2092 +7 −7 swift 1|-\|/-| 
+[Tests] Remove `var`, collect schemes in `buildDependencyTest`. |-\|/-| 2017-08-02T04:48:17Z Merged pull request |-\|/-| 2090 +4 −5 swift 1|-\|/-| 
+Improve build time a bit by adding some explicit type annotations |-\|/-| 2017-08-01T13:22:33Z Merged pull request |-\|/-| 2088 +22 −13 swift 4|-\|/-| 
+Update carthage-fixtures-ReactiveCocoaLayout-master.zip to shorten CI duration |-\|/-| 2017-08-01T13:27:48Z Merged pull request |-\|/-| 2086 +0 −0 zip 1|-\|/-| 
+Utilize `FlattenStrategy.concurrent(limit:)` |-\|/-| 2017-07-30T18:23:46Z Merged pull request |-\|/-| 2082 +1 −11 swift 1|-\|/-| 
+[gardening] Utilize `SignalProducer.reduce(into:_:)` |-\|/-| 2017-07-27T20:41:56Z Merged pull request |-\|/-| 2081 +9 −24 swift 4|-\|/-| 
+[gardening] Utilize `Lifetime.hasEnded` introduced in ReactiveSwift 2.0 |-\|/-| 2017-07-26T23:23:40Z Merged pull request |-\|/-| 2079 +8 −32 swift 5|-\|/-| 
+Update ReactiveSwift to 2.0 |-\|/-| 2017-07-26T12:56:01Z Merged pull request |-\|/-| 2077 +52 −63 Cartfile resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Tentacle pins swift 15|-\|/-| 
+`Result<(), E>.success()` is not valid in Swift 4 |-\|/-| 2017-07-25T12:02:02Z Merged pull request |-\|/-| 2076 +2 −2 swift 1|-\|/-| 
+Preliminary task for ReactiveSwift 2.0 migration |-\|/-| 2017-07-24T12:44:11Z Merged pull request |-\|/-| 2074 +51 −16 swift 5|-\|/-| 
+Avoid breaking for-loop on Result’s value, only break on error in `symlinkCheckoutPaths` |-\|/-| 2017-07-20T20:35:28Z Merged pull request |-\|/-| 2072 +4 −2 swift 1|-\|/-| 
+[gardening] Refactor: extend Result attempting a throwing closure taking a URL, failing with `CarthageError` |-\|/-| 2017-07-19T12:45:50Z Merged pull request |-\|/-| 2070 +89 −129 swift 4|-\|/-| 
+[gardening] Refactor always successful `SignalProducer.attempt`s with value initializer |-\|/-| 2017-07-18T19:24:23Z Merged pull request |-\|/-| 2069 +3 −3 swift 1|-\|/-| 
+[gardening] Refactor with `Result(attempt:)` |-\|/-| 2017-07-19T12:50:29Z Merged pull request |-\|/-| 2068 +35 −42 swift 4|-\|/-| 
+[gardening] Postpone unneeded optional until after `reduce` |-\|/-| 2017-07-15T13:32:29Z Merged pull request |-\|/-| 2066 +2 −7 swift 1|-\|/-| 
+Update Tentacle and ReactiveSwift |-\|/-| 2017-07-15T03:34:48Z Merged pull request |-\|/-| 2065 +6 −6 Cartfile resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Tentacle 4|-\|/-| 
+Disambiguate Swift.Decodable and Argo.Decodable |-\|/-| 2017-07-15T01:49:10Z Merged pull request |-\|/-| 2064 +2 −2 swift 1|-\|/-| 
+Add `NSTextCheckingResult.range(at:)` shim to prepare for Xcode 9 |-\|/-| 2017-07-14T14:59:14Z Merged pull request |-\|/-| 2063 +13 −5 swift 4|-\|/-| 
+[gardening] Avoid labeled if `break` in `Repository.fromIdentifier`. |-\|/-| 2017-07-14T12:17:03Z Merged pull request |-\|/-| 2061 +18 −19 swift 1|-\|/-| 
+[gardening] Refactor `cloneSubmoduleInWorkingDirectory` with `attemptMap`. |-\|/-| 2017-07-16T21:19:45Z Merged pull request |-\|/-| 2060 +32 −68 swift 1|-\|/-| 
+[Makefile] Improve `prefix_install` rpath handling |-\|/-| 2017-07-15T13:11:35Z Merged pull request |-\|/-| 2059 +3 −1 Makefile 1|-\|/-| 
+[xcodebuild] Disable Code Coverage explicitly |-\|/-| 2017-07-11T12:56:07Z Closed pull request |-\|/-| 2057 +9 −3 swift 2|-\|/-| 
+cli-prog used old dylib from /Library/Frameworks |-\|/-| 2017-07-10T11:58:08Z Merged pull request |-\|/-| 2055 +1 −1 Makefile 1|-\|/-| 
+cp command failed on copying hard links if prefix_install already exists |-\|/-| 2017-07-11T12:30:20Z Merged pull request |-\|/-| 2054 +1 −1 Makefile 1|-\|/-| 
+Avoid clean between sdks |-\|/-| 2017-07-07T13:10:50Z Merged pull request |-\|/-| 2053 +91 −88 swift 1|-\|/-| 
+Include Swift compiler version in addition to swiftlang version and clang version |-\|/-| 2017-07-10T17:50:51Z Merged pull request |-\|/-| 2052 +146 −8 pbxproj swift h swiftmodule 6|-\|/-| 
+Update Nimble to v7.0.1 |-\|/-| 2017-07-05T11:39:34Z Merged pull request |-\|/-| 2050 +5 −5 private resolved Carthage/Checkouts/Nimble pins swift 5|-\|/-| 
+Update ReactiveTask to 0.12.0 |-\|/-| 2017-07-04T16:42:30Z Merged pull request |-\|/-| 2048 +11 −11 Cartfile resolved Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/Runes pins swift 7|-\|/-| 
+[BuildSettings] Rename `loadWithArguments(_:)` to `load(with:)` |-\|/-| 2017-07-03T16:24:41Z Merged pull request |-\|/-| 2047 +13 −6 swift 4|-\|/-| 
+[SwiftLint] Remove `single_line_guard` custom rule |-\|/-| 2017-07-11T12:31:00Z Merged pull request |-\|/-| 2046 +78 −37 yml swift 11|-\|/-| 
+[gardening] Simplify `volumeSupportsFileCloning()` implementation |-\|/-| 2017-07-05T13:07:28Z Merged pull request |-\|/-| 2045 +6 −6 swift 1|-\|/-| 
+[gardening] Move operators into types |-\|/-| 2017-07-02T16:02:58Z Merged pull request |-\|/-| 2044 +34 −30 swift 1|-\|/-| 
+[Travis] Remove an unused secure variable |-\|/-| 2017-07-01T16:34:03Z Merged pull request |-\|/-| 2043 +0 −3 yml 1|-\|/-| 
+[DO NOT MERGE] Revert "Improve Code Quality by using SwiftLint" |-\|/-| 2017-07-01T10:04:28Z Closed pull request |-\|/-| 2042 +504 −1,082 yml pbxproj swift 8|-\|/-| 
+Use checked out cartfile |-\|/-| 2017-07-06T01:34:00Z Merged pull request |-\|/-| 2041 +67 −20 swift 2|-\|/-| 
+fix small typo |-\|/-| 2017-06-30T00:59:22Z Merged pull request |-\|/-| 2038 +1 −1 md 0|-\|/-| 
+[WIP] Adding Git Output for Verbosity #630 |-\|/-| 2018-07-07T06:04:24Z Closed pull request |-\|/-| 2035 +29 −2 swift 2|-\|/-| 
+Workaround copy bug for APFS volumes |-\|/-| 2017-06-30T17:02:18Z Merged pull request |-\|/-| 2032 +48 −2 swift 2|-\|/-| 
+[gardening] Move operators into types |-\|/-| 2017-07-02T00:37:23Z Merged pull request |-\|/-| 2030 +25 −23 swift 1|-\|/-| 
+[gardening] Replace flatMap with map |-\|/-| 2017-07-01T17:12:04Z Merged pull request |-\|/-| 2029 +1 −1 swift 1|-\|/-| 
+Fix checkout removal |-\|/-| 2017-07-06T00:17:49Z Merged pull request |-\|/-| 2027 +7 −4 swift 1|-\|/-| 
+copy-frameworks Output Files |-\|/-| 2017-06-22T14:32:55Z Merged pull request |-\|/-| 2025 +23 −12 md 0|-\|/-| 
+[SwiftLint] Address `trailing_newline` violations |-\|/-| 2017-06-21T17:18:28Z Merged pull request |-\|/-| 2022 +1 −6 swift 1|-\|/-| 
+[SwiftLint] Address `redundant_optional_initialization` violations |-\|/-| 2017-06-21T15:50:19Z Merged pull request |-\|/-| 2021 +7 −7 swift 4|-\|/-| 
+[SwiftLint] Address `empty_enum_arguments` violations |-\|/-| 2017-06-21T15:49:48Z Merged pull request |-\|/-| 2020 +4 −2 swift 2|-\|/-| 
+[SwiftLint] Address `compiler_protocol_init` violations |-\|/-| 2017-06-21T13:48:41Z Merged pull request |-\|/-| 2019 +1 −1 swift 1|-\|/-| 
+[SwiftLint] Address `empty_parentheses_with_trailing_closure` violations |-\|/-| 2017-06-21T13:44:58Z Merged pull request |-\|/-| 2018 +1 −1 swift 1|-\|/-| 
+[SwiftLint] Address `first_where` violations |-\|/-| 2017-06-21T19:03:47Z Merged pull request |-\|/-| 2017 +2 −2 swift 1|-\|/-| 
+[SwiftLint] Address `vertical_whitespace` violations |-\|/-| 2017-06-21T13:44:40Z Merged pull request |-\|/-| 2016 +0 −6 swift 5|-\|/-| 
+[SwiftLint] Address `statement_position` violations |-\|/-| 2017-06-21T13:46:49Z Merged pull request |-\|/-| 2015 +3 −6 swift 2|-\|/-| 
+[SwiftLint] Address `no_extension_access_modifier` violations |-\|/-| 2017-06-21T16:58:15Z Merged pull request |-\|/-| 2014 +13 −15 swift 5|-\|/-| 
+[SwiftLint] Address `redundant_discardable_let` violations |-\|/-| 2017-06-21T13:41:04Z Merged pull request |-\|/-| 2013 +3 −3 swift 1|-\|/-| 
+[SwiftLint] Address `colon` violations |-\|/-| 2017-06-21T13:40:26Z Merged pull request |-\|/-| 2012 +2 −2 swift 2|-\|/-| 
+[SwiftLint] Address `comma` violations |-\|/-| 2017-06-21T13:39:49Z Merged pull request |-\|/-| 2011 +2 −2 swift 2|-\|/-| 
+[SwiftLint] Address `unused_closure_parameter` violations |-\|/-| 2017-06-21T15:48:14Z Merged pull request |-\|/-| 2010 +8 −8 swift 4|-\|/-| 
+[SwiftLint] Address `trailing_whitespace` violations |-\|/-| 2017-06-21T11:39:42Z Merged pull request |-\|/-| 2009 +176 −176 swift 11|-\|/-| 
+[SwiftLint] Address `operator_whitespace` violations |-\|/-| 2017-06-21T11:38:35Z Merged pull request |-\|/-| 2008 +15 −15 swift 7|-\|/-| 
+Add trailing commas |-\|/-| 2017-06-21T11:37:22Z Merged pull request |-\|/-| 2007 +18 −18 swift 7|-\|/-| 
+Use NSRange initializer |-\|/-| 2017-06-21T11:37:57Z Merged pull request |-\|/-| 2006 +2 −2 swift 2|-\|/-| 
+Prefer Dictionary shorthand syntax |-\|/-| 2017-06-20T20:50:50Z Merged pull request |-\|/-| 2005 +3 −4 swift 1|-\|/-| 
+Prefer `Void` for return types |-\|/-| 2017-06-20T17:18:28Z Merged pull request |-\|/-| 2004 +2 −2 swift 2|-\|/-| 
+Remove file headers |-\|/-| 2017-06-20T16:56:55Z Merged pull request |-\|/-| 2003 +0 −336 swift h c 33|-\|/-| 
+Improve Code Quality by using SwiftLint |-\|/-| 2017-06-24T19:22:21Z Merged pull request |-\|/-| 2001 +1,082 −504 yml pbxproj swift 8|-\|/-| 
+Prefer `==` operator over `to(equal(...))` |-\|/-| 2017-06-18T17:45:19Z Merged pull request |-\|/-| 1999 +73 −70 swift 4|-\|/-| 
+Add `-uo` option to `unzip` command |-\|/-| 2017-06-18T17:41:41Z Merged pull request |-\|/-| 1997 +1 −1 swift 1|-\|/-| 
+Try to support standard `http_proxy` environment variable |-\|/-| 2018-03-12T15:47:26Z Closed pull request |-\|/-| 1996 +37 −5 swift 2|-\|/-| 
+Git dependencies containing github.com |-\|/-| 2017-06-18T17:44:32Z Merged pull request |-\|/-| 1995 +78 −3 swift 4|-\|/-| 
+Extend concrete types |-\|/-| 2017-06-18T01:22:56Z Merged pull request |-\|/-| 1994 +11 −11 md swift 4|-\|/-| 
+[gardening] Move Source/CarthageIntegration to IntegrationTests |-\|/-| 2017-06-17T18:10:44Z Merged pull request |-\|/-| 1993 +3 −4 yml bash bats swift 11|-\|/-| 
+Exclude specific schemes via Cartfile.ignore |-\|/-| 2019-04-03T11:24:13Z Closed pull request |-\|/-| 1990 +440 −52 pbxproj md swift 4|-\|/-| 
+Check swift compiler |-\|/-| 2017-06-09T18:16:46Z Merged pull request |-\|/-| 1984 +3 −3 swift 3|-\|/-| 
+Pre-build Scripts |-\|/-| 2017-06-11T19:54:21Z Closed pull request |-\|/-| 1976 +0 −0 0|-\|/-| 
+Integration tests with the SwiftPM-built binary |-\|/-| 2017-06-02T13:13:15Z Merged pull request |-\|/-| 1972 +14 −0 yml Makefile 2|-\|/-| 
+[CI] Run `swift test` |-\|/-| 2017-05-31T19:22:43Z Merged pull request |-\|/-| 1965 +67 −13 yml pbxproj Makefile pins swift script/copy-fixtures 7|-\|/-| 
+Remove __MACOSX directory from fixtures |-\|/-| 2017-05-30T16:49:36Z Merged pull request |-\|/-| 1964 +0 −0 zip 4|-\|/-| 
+Group test resources |-\|/-| 2017-05-30T12:51:52Z Merged pull request |-\|/-| 1962 +21 −48 pbxproj swift json Tests/CarthageKitTests/DuplicateDependencies/Cartfile → Tests/CarthageKitTests/Resources/DuplicateDependencies/Cartfile private Tests/CarthageKitTests/DuplicateDependenciesCartfile → Tests/CarthageKitTests/Resources/DuplicateDependenciesCartfile modulemap h swiftmodule Tests/CarthageKitTests/TestCartfile → Tests/CarthageKitTests/Resources/TestCartfile resolved Tests/CarthageKitTests/TestVersionFile → Tests/CarthageKitTests/Resources/TestVersionFile 15|-\|/-| 
+[gardening] Remove obsolete `#if swift(>=3)` conditional blocks |-\|/-| 2017-05-29T22:23:33Z Merged pull request |-\|/-| 1960 +2 −28 swift 6|-\|/-| 
+Fix --log-path option |-\|/-| 2017-05-30T16:46:29Z Merged pull request |-\|/-| 1958 +26 −21 swift 1|-\|/-| 
+[CI] Use xcpretty to save build logs |-\|/-| 2017-05-27T06:18:53Z Closed pull request |-\|/-| 1957 +8 −7 yml Makefile 2|-\|/-| 
+Update Tentacle to 0.7.0 |-\|/-| 2017-05-25T04:40:06Z Merged pull request |-\|/-| 1953 +83 −80 Cartfile resolved Carthage/Checkouts/Tentacle pins swift 11|-\|/-| 
+Change test directories layout for SwiftPM |-\|/-| 2017-05-26T15:01:25Z Merged pull request |-\|/-| 1952 +13 −14 pbxproj swift bash gitignore json Source/CarthageKitTests/DuplicateDependencies/Cartfile → Tests/CarthageKitTests/DuplicateDependencies/Cartfile private Source/CarthageKitTests/DuplicateDependenciesCartfile → Tests/CarthageKitTests/DuplicateDependenciesCartfile modulemap h swiftmodule plist Source/CarthageKitTests/TestCartfile → Tests/CarthageKitTests/TestCartfile resolved Source/CarthageKitTests/TestVersionFile → Tests/CarthageKitTests/TestVersionFile zip script/copy-fixtures 44|-\|/-| 
+SwiftPM 3.1 |-\|/-| 2017-05-24T00:00:31Z Merged pull request |-\|/-| 1950 +63 −2 yml pins 2|-\|/-| 
+Use Swift 3.1 |-\|/-| 2017-05-23T12:12:33Z Merged pull request |-\|/-| 1949 +1 −1 swift-version 1|-\|/-| 
+Switch to Xcode 8.3 |-\|/-| 2017-05-20T01:26:47Z Merged pull request |-\|/-| 1943 +2 −7 yml 1|-\|/-| 
+[Makefile] Add `swiftpm` task |-\|/-| 2017-05-19T11:47:48Z Merged pull request |-\|/-| 1942 +7 −1 yml Makefile 2|-\|/-| 
+[Integration Tests] Remove a tweak which was for supporting both Xcode 7 and Xcode 8 |-\|/-| 2017-05-19T01:42:43Z Merged pull request |-\|/-| 1941 +1 −2 yml bats 2|-\|/-| 
+Update ReactiveSwift and Result |-\|/-| 2017-05-19T01:41:18Z Merged pull request |-\|/-| 1940 +4 −4 resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result 3|-\|/-| 
+Document static frameworks workflow |-\|/-| 2017-05-18T19:29:48Z Merged pull request |-\|/-| 1939 +82 −18 md 0|-\|/-| 
+Build carthage with SwiftPM |-\|/-| 2017-05-18T23:57:41Z Merged pull request |-\|/-| 1938 +48 −5 gitignore swift-version yml swift 13|-\|/-| 
+[WIP] Support building static frameworks |-\|/-| 2018-05-17T12:39:38Z Merged pull request |-\|/-| 1935 +4 −4 swift 2|-\|/-| 
+Fix regression causing sorted build order to be lost |-\|/-| 2017-05-17T01:11:10Z Merged pull request |-\|/-| 1933 +118 −101 swift zip 3|-\|/-| 
+Gracefully handle frameworks with no debug symbols |-\|/-| 2017-05-15T19:49:37Z Merged pull request |-\|/-| 1932 +19 −2 swift 1|-\|/-| 
+Reduce unnecessary calls of `gitRootDirectoryForRepository` in `submodulesInRepository` |-\|/-| 2017-05-15T19:50:13Z Merged pull request |-\|/-| 1924 +12 −6 yml swift 2|-\|/-| 
+[Cartfile] Remove unnecessary CustomStringConvertible conformance |-\|/-| 2017-05-10T12:52:14Z Merged pull request |-\|/-| 1921 +0 −6 swift 1|-\|/-| 
+Rename `project` to `dependency` for `Dependency` type |-\|/-| 2017-05-07T16:47:52Z Merged pull request |-\|/-| 1919 +142 −143 swift 10|-\|/-| 
+Log the version warning to stderr |-\|/-| 2017-05-09T20:41:00Z Merged pull request |-\|/-| 1918 +1 −2 swift 1|-\|/-| 
+Rename ProjectIdentifier to Dependency |-\|/-| 2017-05-06T06:45:21Z Merged pull request |-\|/-| 1915 +181 −178 pbxproj swift 5|-\|/-| 
+Remove Dependency type |-\|/-| 2017-05-03T12:23:02Z Merged pull request |-\|/-| 1914 +32 −72 swift 2|-\|/-| 
+Reduce Dependency type usages |-\|/-| 2017-05-02T11:38:49Z Merged pull request |-\|/-| 1913 +26 −26 swift 3|-\|/-| 
+Reduce Dependency type usages |-\|/-| 2017-05-01T12:15:39Z Merged pull request |-\|/-| 1912 +40 −42 swift 3|-\|/-| 
+Reduce Dependency type usages |-\|/-| 2017-04-30T15:31:49Z Merged pull request |-\|/-| 1911 +20 −24 swift 4|-\|/-| 
+Checkout concurrently (~2.5x speedup) |-\|/-| 2017-05-03T14:53:36Z Merged pull request |-\|/-| 1910 +94 −14 swift 2|-\|/-| 
+Implemented toolchain-aware swift version check |-\|/-| 2017-04-28T12:55:50Z Merged pull request |-\|/-| 1906 +39 −29 swift 8|-\|/-| 
+Ensure input files to copy-frameworks are unique |-\|/-| 2017-04-26T17:18:19Z Merged pull request |-\|/-| 1902 +3 −8 swift 1|-\|/-| 
+Address compiler warnings |-\|/-| 2017-04-26T16:26:47Z Merged pull request |-\|/-| 1900 +13 −6 swift 6|-\|/-| 
+Replace Xcode version in version files with inferring Swift version at build time |-\|/-| 2017-04-24T14:35:43Z Merged pull request |-\|/-| 1896 +124 −77 pbxproj swift Source/CarthageKitTests/TestVersionFile zip script/copy-fixtures 8|-\|/-| 
+[Minor Bugfix] Unwrap  currentLine  in ScannableError's description method |-\|/-| 2017-04-16T11:07:33Z Merged pull request |-\|/-| 1884 +1 −1 swift 1|-\|/-| 
+Extract temporary directory creation into reactive FileManager extension |-\|/-| 2017-04-12T22:39:05Z Merged pull request |-\|/-| 1881 +37 −22 swift 2|-\|/-| 
+Revert "Update XCode Scheme Share link." |-\|/-| 2017-04-10T02:11:58Z Closed pull request |-\|/-| 1879 +1 −1 md 0|-\|/-| 
+[CI] Don't try to delete simulator that no longer exists |-\|/-| 2017-04-06T01:47:01Z Merged pull request |-\|/-| 1875 +0 −2 yml 1|-\|/-| 
+Remove hardcoding of swift version in tests. |-\|/-| 2017-04-07T11:49:21Z Merged pull request |-\|/-| 1873 +7 −8 swift 1|-\|/-| 
+Update Tentacle to avoid Swift 3.1 compiler crash. |-\|/-| 2017-04-21T23:16:12Z Merged pull request |-\|/-| 1866 +8 −3 yml Cartfile resolved Carthage/Checkouts/Tentacle 4|-\|/-| 
+Add support for custom log paths. |-\|/-| 2017-04-04T11:53:49Z Merged pull request |-\|/-| 1863 +32 −19 swift 2|-\|/-| 
+Small change to README.md to save development time |-\|/-| 2017-03-31T17:42:06Z Closed pull request |-\|/-| 1862 +4 −2 md 0|-\|/-| 
+Update dependencies |-\|/-| 2017-03-29T12:30:42Z Merged pull request |-\|/-| 1856 +9 −9 Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Tentacle 6|-\|/-| 
+Create version files for prebuilt binaries |-\|/-| 2017-04-25T13:06:21Z Merged pull request |-\|/-| 1850 +37 −12 swift 2|-\|/-| 
+Print Carthage version into resolved file |-\|/-| 2018-07-01T04:44:09Z Closed pull request |-\|/-| 1842 +59 −12 pbxproj swift resolved 7|-\|/-| 
+Copy frameworks concurrently (~4x speedup) |-\|/-| 2017-03-25T22:34:28Z Merged pull request |-\|/-| 1841 +4 −2 swift 1|-\|/-| 
+Use Dictionary instead of Dependency in cartfiles |-\|/-| 2017-03-21T04:50:56Z Merged pull request |-\|/-| 1835 +94 −142 swift 4|-\|/-| 
+Fix typo |-\|/-| 2017-03-14T22:17:33Z Merged pull request |-\|/-| 1832 +1 −1 md 0|-\|/-| 
+Workspace nested dependency builds |-\|/-| 2017-03-16T12:11:00Z Merged pull request |-\|/-| 1831 +34 −5 swift zip script/copy-fixtures 5|-\|/-| 
+[gardening] Remove `URL.carthage_path` shim |-\|/-| 2017-03-13T12:54:35Z Merged pull request |-\|/-| 1828 +70 −88 pbxproj swift 7|-\|/-| 
+Fix no shared schemes error |-\|/-| 2017-03-11T02:14:26Z Merged pull request |-\|/-| 1827 +32 −11 bats swift 2|-\|/-| 
+Fix spelling of translucent |-\|/-| 2017-03-10T00:53:53Z Merged pull request |-\|/-| 1826 +0 −0 svg 1|-\|/-| 
+[gardening] Extract DuplicateDependency into its own file |-\|/-| 2017-03-09T12:28:11Z Merged pull request |-\|/-| 1825 +67 −65 pbxproj swift 3|-\|/-| 
+Update Commandant to 0.12.0 |-\|/-| 2017-03-08T13:36:12Z Merged pull request |-\|/-| 1823 +5 −5 Cartfile resolved Carthage/Checkouts/Commandant Carthage/Checkouts/Result 4|-\|/-| 
+[gardening] Remove `URL.carthage_absoluteString` shim |-\|/-| 2017-03-08T13:07:53Z Merged pull request |-\|/-| 1821 +3 −7 swift 4|-\|/-| 
+[gardening] Remove `URL.carthage_lastPathComponent` shim |-\|/-| 2017-03-08T13:07:37Z Merged pull request |-\|/-| 1820 +8 −12 swift 6|-\|/-| 
+Restore the original implementation of `SignalProducerProtocol.permute(with:)` |-\|/-| 2017-03-07T12:43:56Z Merged pull request |-\|/-| 1819 +2 −20 Makefile swift 2|-\|/-| 
+[gardening] Remove unused `moveItemInPossibleRepository` func |-\|/-| 2017-03-07T12:44:32Z Merged pull request |-\|/-| 1818 +3 −36 swift 2|-\|/-| 
+[gardening] Extract BinaryJSONError into its own file |-\|/-| 2017-03-07T12:43:23Z Merged pull request |-\|/-| 1816 +55 −52 pbxproj swift 3|-\|/-| 
+[gardening] Extract ScannableError into its own file |-\|/-| 2017-03-06T22:24:21Z Merged pull request |-\|/-| 1814 +28 −25 pbxproj swift 3|-\|/-| 
+[gardening] Remove `URL.carthage_pathComponents` shim |-\|/-| 2017-03-06T22:20:00Z Merged pull request |-\|/-| 1813 +5 −9 swift 4|-\|/-| 
+Update Nimble to be built with Swift 3.1 |-\|/-| 2017-03-06T13:28:10Z Merged pull request |-\|/-| 1812 +6 −6 private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick 4|-\|/-| 
+Change md5 to sha256 |-\|/-| 2017-03-04T01:04:08Z Merged pull request |-\|/-| 1811 +50 −49 md swift Source/CarthageKitTests/TestVersionFile 4|-\|/-| 
+Fix crashing URL unwrapping received from git top level |-\|/-| 2017-04-02T00:00:53Z Merged pull request |-\|/-| 1806 +8 −2 swift 1|-\|/-| 
+Execute `git ls-tree` to list just the directory contents, without recursion |-\|/-| 2017-03-10T13:30:27Z Merged pull request |-\|/-| 1805 +293 −15 bash bats swift 7|-\|/-| 
+Update Result to 3.2 |-\|/-| 2017-03-01T13:27:21Z Merged pull request |-\|/-| 1804 +3 −12 Cartfile resolved Carthage/Checkouts/Result swift 4|-\|/-| 
+Add question for --cache-builds to ISSUE_TEMPLATE. |-\|/-| 2017-03-01T13:44:05Z Merged pull request |-\|/-| 1803 +4 −3 md 0|-\|/-| 
+Fix swift2 cache test |-\|/-| 2017-03-01T13:50:28Z Merged pull request |-\|/-| 1801 +22 −15 swift zip 2|-\|/-| 
+Update ReactiveSwift to 1.1 |-\|/-| 2017-02-28T13:17:55Z Merged pull request |-\|/-| 1796 +11 −13 Cartfile resolved Carthage/Checkouts/ReactiveSwift swift 5|-\|/-| 
+Ignore draft releases for the new Carthage release check |-\|/-| 2017-03-01T13:42:55Z Merged pull request |-\|/-| 1795 +4 −3 swift 2|-\|/-| 
+Add documentation for how to specify the default Swift toolchain for binary compatibility. |-\|/-| 2017-02-28T00:12:28Z Merged pull request |-\|/-| 1793 +6 −0 md 0|-\|/-| 
+Update README for cache and submodule incompatibility. |-\|/-| 2017-02-25T01:03:00Z Merged pull request |-\|/-| 1790 +2 −0 md 0|-\|/-| 
+Carthago delenda est |-\|/-| 2017-02-25T00:10:16Z Closed pull request |-\|/-| 1789 +1 −14,623 md Cartfile private resolved pbxproj xcworkspacedata xcscheme 7|-\|/-| 
+Add support for .tar.gz binary archives |-\|/-| 2017-02-25T18:58:10Z Merged pull request |-\|/-| 1786 +51 −15 swift 3|-\|/-| 
+Calculate the pkg version from git |-\|/-| 2017-02-27T13:09:21Z Merged pull request |-\|/-| 1784 +1 −1 Makefile 1|-\|/-| 
+Readme: Added leading slash for shell example |-\|/-| 2017-02-22T20:02:40Z Merged pull request |-\|/-| 1780 +1 −1 md 0|-\|/-| 
+Use checked out cartfile when appropriate |-\|/-| 2017-02-25T21:08:58Z Closed pull request |-\|/-| 1779 +34 −18 swift 1|-\|/-| 
+Fix docs for VersionFile |-\|/-| 2017-02-22T15:23:06Z Merged pull request |-\|/-| 1777 +3 −3 md 0|-\|/-| 
+Fix typo |-\|/-| 2017-02-21T17:44:08Z Merged pull request |-\|/-| 1775 +1 −1 md 0|-\|/-| 
+Restrict installation to volumes with macOS |-\|/-| 2017-02-20T13:35:23Z Merged pull request |-\|/-| 1772 +32 −3 Makefile plist 2|-\|/-| 
+Update to recommended settings |-\|/-| 2017-02-16T12:53:49Z Merged pull request |-\|/-| 1767 +47 −31 pbxproj xcscheme 4|-\|/-| 
+Allow installation to any Volume |-\|/-| 2017-02-20T11:09:57Z Closed pull request |-\|/-| 1765 +4 −4 pbxproj 1|-\|/-| 
+Fix printing of newIssueURL |-\|/-| 2017-02-15T13:19:34Z Merged pull request |-\|/-| 1764 +2 −2 swift 1|-\|/-| 
+[gardening] Move operators into types |-\|/-| 2017-02-15T13:37:29Z Merged pull request |-\|/-| 1762 +175 −158 swift 4|-\|/-| 
+Don't filter output so it still makes it to the log file |-\|/-| 2017-02-15T13:25:34Z Merged pull request |-\|/-| 1761 +2 −13 swift 1|-\|/-| 
+Implementing binary origin |-\|/-| 2017-02-14T14:03:41Z Merged pull request |-\|/-| 1760 +924 −131 pbxproj md swift 2|-\|/-| 
+Only use prebuilt binaries when they are compatible with the local version of Swift |-\|/-| 2017-02-18T17:49:17Z Merged pull request |-\|/-| 1755 +383 −43 pbxproj md swift 3|-\|/-| 
+Remove shims for Swift 2.3 |-\|/-| 2017-02-06T13:49:35Z Merged pull request |-\|/-| 1752 +0 −669 0|-\|/-| 
+ReactiveTask 0.11 |-\|/-| 2017-02-02T11:54:20Z Merged pull request |-\|/-| 1746 +3 −3 Cartfile resolved Carthage/Checkouts/ReactiveTask 3|-\|/-| 
+Update PrettyColors |-\|/-| 2017-02-01T23:33:45Z Merged pull request |-\|/-| 1743 +3 −3 Cartfile resolved Carthage/Checkouts/PrettyColors 3|-\|/-| 
+Start a framework for using xcodebuild: XCDBLD |-\|/-| 2017-02-06T13:47:23Z Merged pull request |-\|/-| 1742 +930 −123 pbxproj xcscheme xcworkspacedata swift 8|-\|/-| 
+Utilize ReactiveExtensionsProvider for FileManager extension |-\|/-| 2017-01-31T13:57:14Z Merged pull request |-\|/-| 1741 +21 −10 swift 6|-\|/-| 
+[gardening] Remove conditionally importing ReactiveCocoa |-\|/-| 2017-01-31T13:56:18Z Merged pull request |-\|/-| 1740 +0 −116 swift 29|-\|/-| 
+[gardening] Backticks are not needed anymore at the call sites on Swift 3 |-\|/-| 2017-01-31T03:21:15Z Merged pull request |-\|/-| 1739 +68 −68 swift 4|-\|/-| 
+Swift 3 migration |-\|/-| 2017-01-30T17:22:14Z Merged pull request |-\|/-| 1736 +361 −346 gitmodules yml Cartfile private resolved pbxproj xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/Commandant Carthage/Checkouts/Curry Carthage/Checkouts/Nimble Carthage/Checkouts/PrettyColors Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/Runes Carthage/Checkouts/Tentacle md bats swift 24|-\|/-| 
+[swift3-prep] Add Commandant shims for protocol names |-\|/-| 2017-01-28T14:24:23Z Merged pull request |-\|/-| 1735 +28 −21 swift 12|-\|/-| 
+[swift3-prep] Make first parameters unnamed explicitly |-\|/-| 2017-01-28T13:08:41Z Merged pull request |-\|/-| 1734 +170 −170 swift 6|-\|/-| 
+Don't pass Xcode errors through |-\|/-| 2017-01-22T02:08:34Z Merged pull request |-\|/-| 1718 +62 −52 swift 3|-\|/-| 
+Before symlinking, filter submodules in `CarthageProjectCheckoutsPath` which would conflict with dependencies. |-\|/-| 2017-02-24T13:14:04Z Merged pull request |-\|/-| 1715 +88 −49 swift 2|-\|/-| 
+[swift3-prep][URL] Add `carthage_...` property shims in Swift 3 |-\|/-| 2017-01-17T12:55:03Z Merged pull request |-\|/-| 1714 +24 −5 swift 2|-\|/-| 
+[swift3-prep] Conditionally import ReactiveSwift |-\|/-| 2017-01-16T15:32:08Z Merged pull request |-\|/-| 1711 +116 −0 swift 29|-\|/-| 
+Added a header |-\|/-| 2017-01-16T13:36:52Z Merged pull request |-\|/-| 1710 +2 −0 md 0|-\|/-| 
+Add pending (i.e. failing) test for #1707 |-\|/-| 2017-01-17T00:09:26Z Merged pull request |-\|/-| 1708 +18 −0 swift 1|-\|/-| 
+[SemanticVersion] Rename `fromPinnedVersion(_:)` to `from(_:)` |-\|/-| 2017-01-08T18:40:29Z Merged pull request |-\|/-| 1698 +18 −13 swift 4|-\|/-| 
+Use `SignalProducer.concat(value:)` overload |-\|/-| 2017-01-08T17:49:20Z Merged pull request |-\|/-| 1697 +3 −3 swift 2|-\|/-| 
+Make `locateProjectsInDirectory` a static method of ProjectLocator |-\|/-| 2017-01-08T18:41:43Z Merged pull request |-\|/-| 1696 +44 −39 swift 4|-\|/-| 
+Make `schemesInProject` an instance method of ProjectLocator |-\|/-| 2017-01-08T11:49:53Z Merged pull request |-\|/-| 1695 +43 −36 swift 3|-\|/-| 
+README: removed Box.framework example |-\|/-| 2017-02-27T00:15:13Z Closed pull request |-\|/-| 1693 +2 −3 md 0|-\|/-| 
+Rewrite ResolverSpec to contain all its data |-\|/-| 2017-01-07T08:23:41Z Merged pull request |-\|/-| 1689 +289 −229 pbxproj Source/CarthageKitTests/EmbeddedFrameworksCartfile Source/CarthageKitTests/EmbeddedFrameworksContainerCartfile 3|-\|/-| 
+Fail build if the dependency isn't in the Cartfile |-\|/-| 2017-04-21T13:38:34Z Closed pull request |-\|/-| 1686 +7 −0 swift 1|-\|/-| 
+[swift3-prep] Add Commandant shims |-\|/-| 2017-01-02T05:32:41Z Merged pull request |-\|/-| 1685 +40 −20 swift 8|-\|/-| 
+[CarthageKit/SDK.swift] Adopt API Design Guidelines |-\|/-| 2017-01-02T05:33:30Z Merged pull request |-\|/-| 1684 +11 −4 swift 4|-\|/-| 
+Extract MachOType into its own file |-\|/-| 2017-01-02T05:31:51Z Merged pull request |-\|/-| 1683 +37 −25 pbxproj swift 5|-\|/-| 
+Sort Cartfile.resolved |-\|/-| 2017-01-01T15:45:59Z Merged pull request |-\|/-| 1681 +39 −29 swift 3|-\|/-| 
+Remove SemanticVersion.pinnedVersion |-\|/-| 2017-01-02T01:08:39Z Merged pull request |-\|/-| 1680 +63 −60 swift 2|-\|/-| 
+[CarthageKit/ProductType.swift] Adopt API Design Guidelines |-\|/-| 2016-12-31T17:27:43Z Merged pull request |-\|/-| 1678 +9 −2 swift 3|-\|/-| 
+Nest BitcodeGenerationMode into BuildArguments |-\|/-| 2016-12-31T17:27:17Z Merged pull request |-\|/-| 1677 +10 −10 swift 2|-\|/-| 
+[swift3-prep] Add `Result.fanout` shim |-\|/-| 2016-12-30T23:10:40Z Merged pull request |-\|/-| 1675 +15 −11 swift 3|-\|/-| 
+Don't use Cartfiles in Resolver |-\|/-| 2016-12-31T07:36:29Z Merged pull request |-\|/-| 1674 +117 −80 swift 3|-\|/-| 
+Use a Set for Cartfile.dependencies |-\|/-| 2016-12-29T15:25:50Z Merged pull request |-\|/-| 1672 +79 −52 swift 3|-\|/-| 
+[swift3-prep] Add `SignalProducer.init` shims |-\|/-| 2016-12-29T06:47:06Z Merged pull request |-\|/-| 1671 +39 −29 swift 9|-\|/-| 
+[swift3-prep] Add missing TaskEvent shims |-\|/-| 2016-12-29T15:26:17Z Merged pull request |-\|/-| 1670 +15 −3 swift 2|-\|/-| 
+[swift3-prep] Add missing Foundation shims |-\|/-| 2016-12-28T17:28:52Z Merged pull request |-\|/-| 1669 +47 −19 swift 6|-\|/-| 
+Detect duplicates early |-\|/-| 2016-12-29T00:05:15Z Merged pull request |-\|/-| 1668 +62 −41 pbxproj swift Source/CarthageKitTests/DuplicateDependencies/Cartfile Source/CarthageKitTests/DuplicateDependenciesCartfile 8|-\|/-| 
+Extract BuildSettings into its own file |-\|/-| 2016-12-27T23:13:25Z Merged pull request |-\|/-| 1666 +221 −214 pbxproj swift 2|-\|/-| 
+Extract ProductType into its own file |-\|/-| 2016-12-26T17:44:46Z Merged pull request |-\|/-| 1665 +23 −18 pbxproj swift 3|-\|/-| 
+Extract SDK into its own file |-\|/-| 2016-12-25T22:56:55Z Merged pull request |-\|/-| 1663 +101 −95 pbxproj swift 3|-\|/-| 
+Extract Platform into its own file |-\|/-| 2016-12-25T01:31:36Z Merged pull request |-\|/-| 1662 +92 −75 pbxproj swift 5|-\|/-| 
+Extract ProjectLocator into its own file |-\|/-| 2016-12-24T19:51:13Z Merged pull request |-\|/-| 1661 +73 −68 pbxproj swift 3|-\|/-| 
+Refactor `SemanticVersion.from(_:)` a bit |-\|/-| 2016-12-24T19:50:17Z Merged pull request |-\|/-| 1660 +17 −12 swift 1|-\|/-| 
+Prefer `isEmpty` over `count == 0` |-\|/-| 2016-12-24T04:47:02Z Merged pull request |-\|/-| 1659 +3 −3 swift 3|-\|/-| 
+BuildVersion.swift is not a part of CarthageKit |-\|/-| 2016-12-24T02:02:23Z Merged pull request |-\|/-| 1658 +5 −9 pbxproj swift 2|-\|/-| 
+[CarthageKit/Cartfile.swift] Adopt API Design Guidelines |-\|/-| 2016-12-23T22:48:19Z Merged pull request |-\|/-| 1656 +56 −28 swift 6|-\|/-| 
+Revert 1 fix integration test |-\|/-| 2016-12-22T04:57:48Z Closed pull request |-\|/-| 1653 +0 −0 0|-\|/-| 
+[swift3-prep] Add String shims |-\|/-| 2016-12-23T13:51:52Z Merged pull request |-\|/-| 1650 +90 −40 swift 16|-\|/-| 
+[CarthageKit/Scannable] Adopt API Design Guidelines |-\|/-| 2016-12-15T13:01:46Z Merged pull request |-\|/-| 1646 +17 −27 swift 4|-\|/-| 
+[swift3-prep] Rename `permuteWith(_:)` to `permute(with:)` |-\|/-| 2016-12-15T04:52:38Z Merged pull request |-\|/-| 1645 +6 −6 swift 1|-\|/-| 
+[swift3-prep] Add Foundation.NSString shims |-\|/-| 2016-12-14T16:43:05Z Merged pull request |-\|/-| 1643 +58 −32 swift 13|-\|/-| 
+[swift3-prep] Add (some) Sequence and Collection shims |-\|/-| 2016-12-13T01:34:38Z Merged pull request |-\|/-| 1640 +71 −35 swift 15|-\|/-| 
+[swift3-prep] Rename `satisfiedBy` to `isSatisfied(by:)` |-\|/-| 2016-12-13T13:25:26Z Merged pull request |-\|/-| 1639 +34 −27 swift 4|-\|/-| 
+[swift3-prep] Make scan's `into` default to `nil` |-\|/-| 2016-12-13T12:10:11Z Closed pull request |-\|/-| 1638 +28 −28 swift 5|-\|/-| 
+Only build pushes to master and PRs on CI |-\|/-| 2016-12-09T15:06:43Z Merged pull request |-\|/-| 1634 +3 −0 yml 1|-\|/-| 
+[swift3-prep] Add missing Foundation.FileManager shims |-\|/-| 2016-12-09T04:26:34Z Merged pull request |-\|/-| 1633 +18 −2 swift 2|-\|/-| 
+Reduce NSString API usages |-\|/-| 2016-12-08T16:22:36Z Merged pull request |-\|/-| 1631 +28 −29 swift 7|-\|/-| 
+[swift3-prep] Add Foundation.URL shims |-\|/-| 2016-12-08T04:35:36Z Merged pull request |-\|/-| 1630 +470 −378 swift 6|-\|/-| 
+allow frameworks to specify which schemes Carthage should build |-\|/-| 2017-01-10T22:00:38Z Closed pull request |-\|/-| 1616 +12 −0 swift 1|-\|/-| 
+[swift3-prep] Add PrettyColors shims |-\|/-| 2016-11-24T06:18:12Z Merged pull request |-\|/-| 1613 +19 −5 swift 2|-\|/-| 
+[swift3-prep] Rename `URL` to `url` to avoid conflict with `Foundation.URL` |-\|/-| 2016-11-23T23:20:38Z Merged pull request |-\|/-| 1612 +111 −111 swift 4|-\|/-| 
+Allow the user to cache build artefacts for a particular revision of a dependency  |-\|/-| 2017-02-22T14:07:53Z Closed pull request |-\|/-| 1611 +76 −22 swift 6|-\|/-| 
+[swift3-prep] Adopt SE-0066 |-\|/-| 2016-11-23T18:00:47Z Merged pull request |-\|/-| 1609 +17 −17 swift 12|-\|/-| 
+[swift3-prep] Add `is` prefix to some Bool variables |-\|/-| 2016-11-22T14:20:38Z Merged pull request |-\|/-| 1605 +37 −32 swift 7|-\|/-| 
+[CarthageKit/Archive.swift] Adopt API Design Guidelines |-\|/-| 2016-11-21T15:15:41Z Merged pull request |-\|/-| 1602 +33 −16 pbxproj swift 6|-\|/-| 
+[swift3-prep] Add Tentacle shims |-\|/-| 2016-11-19T18:04:43Z Merged pull request |-\|/-| 1601 +41 −11 swift 5|-\|/-| 
+[swift3-prep] Rename some missing FlattenStrategy values |-\|/-| 2016-11-19T18:03:54Z Merged pull request |-\|/-| 1600 +3 −3 swift 2|-\|/-| 
+[swift3-prep] Add Foundation.UUID shims |-\|/-| 2016-11-19T18:03:21Z Merged pull request |-\|/-| 1599 +22 −13 swift 3|-\|/-| 
+[swift3-prep] Add Foundation.ProcessInfo shims |-\|/-| 2016-11-19T01:49:55Z Merged pull request |-\|/-| 1598 +13 −8 swift 8|-\|/-| 
+[swift3-prep] Add some Foundation shims |-\|/-| 2016-11-18T17:37:12Z Merged pull request |-\|/-| 1597 +32 −18 swift 4|-\|/-| 
+[swift3-prep] Add Foundation.Scanner shims |-\|/-| 2016-11-18T16:08:47Z Merged pull request |-\|/-| 1595 +76 −55 swift 7|-\|/-| 
+[swift3-prep] Add Foundation.ComparisonResult shims |-\|/-| 2016-11-18T14:33:48Z Merged pull request |-\|/-| 1594 +11 −4 swift 5|-\|/-| 
+[swift3-prep] Add NSRegularExpression and NSTextCheckingResult shims |-\|/-| 2016-11-18T14:12:30Z Merged pull request |-\|/-| 1593 +23 −7 swift 3|-\|/-| 
+[swift3-prep] Add Foundation.CharacterSet shims |-\|/-| 2016-11-18T13:51:30Z Merged pull request |-\|/-| 1592 +50 −24 swift 6|-\|/-| 
+[swift3-prep] Add Foundation.FileManager shims |-\|/-| 2016-11-17T18:13:22Z Merged pull request |-\|/-| 1591 +149 −92 swift 4|-\|/-| 
+[swift3-prep] Add Foundation.Bundle shims |-\|/-| 2016-11-17T04:27:28Z Merged pull request |-\|/-| 1586 +56 −33 swift 12|-\|/-| 
+Disable binary downloads if `--toolchain` option is given |-\|/-| 2016-11-17T00:52:36Z Merged pull request |-\|/-| 1585 +5 −3 swift 1|-\|/-| 
+[swift3-prep] Add FlattenStrategy shims |-\|/-| 2016-11-17T00:38:13Z Merged pull request |-\|/-| 1584 +138 −132 swift 5|-\|/-| 
+[swift3-prep] Add ReactiveSwift shims |-\|/-| 2016-11-16T13:26:08Z Merged pull request |-\|/-| 1582 +153 −60 swift 6|-\|/-| 
+[swift3-prep] Add `Observer.send(value:)` and `Observer.send(error:)` shims |-\|/-| 2016-11-15T17:15:40Z Merged pull request |-\|/-| 1580 +36 −24 swift 6|-\|/-| 
+[swift3-prep] Add ReactiveTask shims |-\|/-| 2016-11-15T12:59:04Z Merged pull request |-\|/-| 1579 +43 −19 swift 7|-\|/-| 
+[swift3-prep] Add `Result.success` and `Result.failure` shims |-\|/-| 2016-11-14T17:21:31Z Merged pull request |-\|/-| 1578 +130 −107 pbxproj swift 6|-\|/-| 
+[swift3-prep][VersionSpecifier] Make enum cases lowerCamelCase |-\|/-| 2016-11-13T20:07:07Z Merged pull request |-\|/-| 1577 +87 −87 swift 3|-\|/-| 
+[swift3-prep][ProjectIdentifier] Make enum cases lowerCamelCase |-\|/-| 2016-11-13T02:24:27Z Merged pull request |-\|/-| 1576 +49 −49 swift 10|-\|/-| 
+[swift3-prep][ProjectLocator] Make enum cases lowerCamelCase |-\|/-| 2016-11-13T02:04:06Z Merged pull request |-\|/-| 1575 +26 −26 swift 4|-\|/-| 
+[swift3-prep][ProjectEvent] Make enum cases lowerCamelCase |-\|/-| 2016-11-13T02:02:57Z Merged pull request |-\|/-| 1574 +21 −21 swift 4|-\|/-| 
+Adds the -skipUnavailableActions flag when retrieving build settings |-\|/-| 2016-11-13T07:56:16Z Merged pull request |-\|/-| 1572 +1 −1 swift 1|-\|/-| 
+[swift3-prep] Make enum cases lowerCamelCase |-\|/-| 2016-11-11T12:51:41Z Merged pull request |-\|/-| 1571 +44 −44 swift 6|-\|/-| 
+[swift3-prep] Make enum cases lowerCamelCase |-\|/-| 2016-11-11T04:15:11Z Merged pull request |-\|/-| 1570 +33 −33 swift 4|-\|/-| 
+[swift3-prep][CarthageError] Make enum cases lowerCamelCase |-\|/-| 2016-11-10T14:55:11Z Merged pull request |-\|/-| 1568 +172 −172 swift 4|-\|/-| 
+[swift3-prep] Replace `dynamicType` with `type(of:)` |-\|/-| 2016-11-10T13:15:09Z Merged pull request |-\|/-| 1566 +23 −16 swift 5|-\|/-| 
+[swift3-prep] Integrate Runes in advance |-\|/-| 2016-11-09T16:01:41Z Merged pull request |-\|/-| 1564 +22 −1 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Runes plist 7|-\|/-| 
+Add docs on how to run carthage from Xcode. |-\|/-| 2016-11-09T14:01:50Z Merged pull request |-\|/-| 1563 +23 −0 md png 5|-\|/-| 
+Drop Swift 2.2 / Xcode 7.3 support |-\|/-| 2016-11-09T12:10:39Z Merged pull request |-\|/-| 1562 +7 −41 yml md swift 3|-\|/-| 
+Update README's Known issues section |-\|/-| 2016-11-09T02:10:13Z Merged pull request |-\|/-| 1561 +2 −3 md 0|-\|/-| 
+Add support for pre-release and build metadata, as per SemVer specs |-\|/-| 2018-03-26T07:54:24Z Closed pull request |-\|/-| 1553 +288 −22 swift 1|-\|/-| 
+Completely remove git submodules when using prebuilt binaries |-\|/-| 2016-10-27T22:57:41Z Closed pull request |-\|/-| 1549 +18 −3 swift 2|-\|/-| 
+Clear up installation instructions |-\|/-| 2016-10-24T12:36:48Z Merged pull request |-\|/-| 1540 +4 −4 md 0|-\|/-| 
+Code simplification using map. |-\|/-| 2016-10-17T14:42:43Z Merged pull request |-\|/-| 1535 +1 −7 swift 1|-\|/-| 
+Update XCode Scheme Share link. |-\|/-| 2016-10-17T01:14:58Z Merged pull request |-\|/-| 1534 +1 −1 md 0|-\|/-| 
+Remote Version Validation |-\|/-| 2016-11-06T20:48:31Z Merged pull request |-\|/-| 1533 +65 −0 pbxproj swift 5|-\|/-| 
+Increasing Xcode timeout from 30 to 60 seconds |-\|/-| 2016-10-16T01:27:23Z Merged pull request |-\|/-| 1532 +1 −1 swift 1|-\|/-| 
+Fix a failing integration test |-\|/-| 2016-10-24T12:35:38Z Merged pull request |-\|/-| 1530 +6 −5 bats 1|-\|/-| 
+Remove the travis deploy step |-\|/-| 2016-10-13T13:59:11Z Merged pull request |-\|/-| 1529 +0 −11 yml 1|-\|/-| 
+Git: added underlying error when generating CarthageError.RepositoryCheckoutFailed |-\|/-| 2016-10-07T01:27:39Z Merged pull request |-\|/-| 1519 +2 −2 swift 1|-\|/-| 
+Eliminate redundant builds |-\|/-| 2016-10-04T14:08:52Z Merged pull request |-\|/-| 1512 +5 −6 swift 1|-\|/-| 
+Update Tentacle |-\|/-| 2016-09-27T13:53:16Z Merged pull request |-\|/-| 1507 +5 −5 Cartfile resolved Carthage/Checkouts/Argo Carthage/Checkouts/Tentacle 4|-\|/-| 
+Modify help message for platform options |-\|/-| 2016-09-24T18:50:40Z Merged pull request |-\|/-| 1499 +1 −1 swift 1|-\|/-| 
+Before symlinking, filter submodules in `CarthageProjectCheckoutsPath` which would conflict with dependencies. |-\|/-| 2017-01-17T18:50:20Z Closed pull request |-\|/-| 1493 +98 −67 swift 2|-\|/-| 
+Avoid rebuilding frameworks unnecessarily |-\|/-| 2017-02-22T14:04:26Z Merged pull request |-\|/-| 1489 +773 −58 Cartfile pbxproj md swift 5|-\|/-| 
+add support for schemes with spaces |-\|/-| 2016-09-19T15:32:20Z Closed pull request |-\|/-| 1486 +2 −2 swift 1|-\|/-| 
+Replace full-width apostrophe (\uff07) with apostrophe (\u0027) |-\|/-| 2016-09-15T12:59:14Z Merged pull request |-\|/-| 1476 +4 −4 bats swift 4|-\|/-| 
+Update shell completion |-\|/-| 2016-09-14T12:53:35Z Merged pull request |-\|/-| 1474 +54 −23 Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion 3|-\|/-| 
+Replace quotation with apostrophe |-\|/-| 2016-09-14T13:12:41Z Merged pull request |-\|/-| 1472 +2 −2 swift 2|-\|/-| 
+Update CONTRIBUTING.md |-\|/-| 2016-09-14T01:54:08Z Merged pull request |-\|/-| 1471 +1 −1 md 0|-\|/-| 
+Fix how tags are listed. |-\|/-| 2016-09-07T01:19:48Z Merged pull request |-\|/-| 1463 +1 −1 swift 1|-\|/-| 
+Use `NSURL.URLByStandardizingPath` in `NSURL.hasSubdirectory` extension |-\|/-| 2016-09-04T21:00:25Z Merged pull request |-\|/-| 1459 +29 −1 swift 2|-\|/-| 
+Default project directory to relative path "." |-\|/-| 2016-08-25T12:52:12Z Closed pull request |-\|/-| 1454 +1 −1 swift 1|-\|/-| 
+Fix crash when repository not found |-\|/-| 2016-08-24T02:16:16Z Merged pull request |-\|/-| 1451 +12 −14 swift 2|-\|/-| 
+Added "clean" to xcodebuild -showBuildSettings to work around rdar://27052195 |-\|/-| 2016-08-24T02:32:11Z Merged pull request |-\|/-| 1447 +6 −1 swift 1|-\|/-| 
+Configured stdout to always flush the buffer at the end of each line |-\|/-| 2016-08-17T23:14:28Z Merged pull request |-\|/-| 1444 +2 −0 swift 1|-\|/-| 
+Support Swift 2.3 and Xcode 8 |-\|/-| 2016-09-01T14:23:43Z Merged pull request |-\|/-| 1442 +176 −89 yml Cartfile resolved pbxproj xcscheme Carthage/Checkouts/PrettyColors bats swift 13|-\|/-| 
+#1427 README upd: link dependencies from embedded frameworks to the app target |-\|/-| 2016-08-24T12:50:44Z Merged pull request |-\|/-| 1441 +2 −0 md 0|-\|/-| 
+Ensure that we handle symbolic links correctly when filtering file paths for projects/workspaces |-\|/-| 2016-09-04T21:00:49Z Closed pull request |-\|/-| 1431 +37 −3 md swift 2|-\|/-| 
+Redundant update fetches |-\|/-| 2016-08-24T13:40:20Z Merged pull request |-\|/-| 1429 +47 −2 swift 3|-\|/-| 
+Make a simple package manager for Linux as well? |-\|/-| 2016-08-10T11:17:51Z Closed pull request |-\|/-| 1425 +58 −9 yml script/brew-publish 2|-\|/-| 
+Symlink checkout folders |-\|/-| 2016-09-07T01:00:21Z Merged pull request |-\|/-| 1421 +222 −77 swift 3|-\|/-| 
+Add BuildOptions to share common options between `build` and `update` commands |-\|/-| 2016-08-05T16:59:51Z Merged pull request |-\|/-| 1420 +88 −50 pbxproj swift 6|-\|/-| 
+Per-dependency, per-commitish DerivedData |-\|/-| 2017-02-24T13:28:37Z Merged pull request |-\|/-| 1419 +22 −7 swift 2|-\|/-| 
+Update Quick to v0.9.3 |-\|/-| 2016-07-29T12:33:54Z Merged pull request |-\|/-| 1410 +3 −3 private resolved Carthage/Checkouts/Quick 3|-\|/-| 
+Update Quick |-\|/-| 2016-07-26T20:27:00Z Merged pull request |-\|/-| 1406 +4 −4 gitmodules private resolved Carthage/Checkouts/Quick 4|-\|/-| 
+Added troubleshooting solution to ReadMe file (for "Module file was created by an older/newer version of the compiler” compile error). |-\|/-| 2016-07-26T12:09:06Z Merged pull request |-\|/-| 1405 +6 −0 md 0|-\|/-| 
+Update Tentacle to 0.4 |-\|/-| 2016-07-24T18:30:39Z Merged pull request |-\|/-| 1404 +7 −7 Cartfile resolved Carthage/Checkouts/Argo Carthage/Checkouts/Curry Carthage/Checkouts/Tentacle 5|-\|/-| 
+Use plain xcodebuild instead of xctool |-\|/-| 2016-07-22T11:44:46Z Merged pull request |-\|/-| 1399 +4 −9 yml Makefile 2|-\|/-| 
+Update Quick and Nimble |-\|/-| 2016-07-21T20:00:26Z Merged pull request |-\|/-| 1398 +7 −7 gitmodules private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick 5|-\|/-| 
+Update ReactiveTask and ReactiveCocoa |-\|/-| 2016-07-21T01:21:06Z Merged pull request |-\|/-| 1397 +6 −6 Cartfile resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask 4|-\|/-| 
+Update Commandant to 0.10.1 |-\|/-| 2016-07-20T21:17:31Z Merged pull request |-\|/-| 1395 +3 −3 Cartfile resolved Carthage/Checkouts/Commandant 3|-\|/-| 
+Checkout subtrees |-\|/-| 2016-07-19T02:05:03Z Closed pull request |-\|/-| 1393 +217 −42 swift 2|-\|/-| 
+[Travis] Split `make test` and `make package` into each job |-\|/-| 2016-07-18T13:11:41Z Merged pull request |-\|/-| 1392 +8 −20 yml script/cibuild 2|-\|/-| 
+[carthage] Accept `appletv(os|simulator)` for `--platform` option |-\|/-| 2016-07-18T12:57:28Z Merged pull request |-\|/-| 1391 +1 −1 swift 1|-\|/-| 
+[carthage] Accept `macOS` for `--platform` option |-\|/-| 2016-07-18T12:09:05Z Merged pull request |-\|/-| 1390 +7 −7 Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion swift 4|-\|/-| 
+Update ReactiveTask |-\|/-| 2016-07-18T11:46:25Z Merged pull request |-\|/-| 1389 +5 −5 Cartfile resolved Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result 4|-\|/-| 
+Fixes issue with archive command adding absolute path directories to zip |-\|/-| 2016-09-02T12:21:29Z Merged pull request |-\|/-| 1386 +22 −16 swift 3|-\|/-| 
+Add --no-clean option to update and build commands |-\|/-| 2016-07-06T12:52:17Z Closed pull request |-\|/-| 1382 +47 −44 swift 3|-\|/-| 
+Remove script/bootstrap |-\|/-| 2016-07-04T18:17:37Z Merged pull request |-\|/-| 1381 +1 −148 Makefile md script/bootstrap 2|-\|/-| 
+Strip PrivateHeaders directory from copied frameworks |-\|/-| 2016-07-03T14:41:58Z Merged pull request |-\|/-| 1380 +9 −1 swift 1|-\|/-| 
+Strip “Headers” directory in copy-frameworks |-\|/-| 2016-06-30T12:26:28Z Merged pull request |-\|/-| 1377 +16 −5 swift 1|-\|/-| 
+Update to RAC 4.2.1 |-\|/-| 2016-06-30T06:57:20Z Merged pull request |-\|/-| 1376 +9 −9 Cartfile resolved Carthage/Checkouts/Curry Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result 6|-\|/-| 
+Make archive command use options.directoryPath to look for frameworks |-\|/-| 2016-06-30T02:09:03Z Merged pull request |-\|/-| 1373 +1 −1 swift 1|-\|/-| 
+Add a test for #1366 |-\|/-| 2016-06-30T09:47:34Z Merged pull request |-\|/-| 1371 +56 −31 swift zip script/copy-fixtures 4|-\|/-| 
+[WIP] Include incompatible dependencies in `outdated` output |-\|/-| 2017-11-14T04:29:42Z Closed pull request |-\|/-| 1369 +47 −14 swift 2|-\|/-| 
+Don't require Cartfile.private |-\|/-| 2016-06-24T02:27:20Z Merged pull request |-\|/-| 1367 +21 −11 swift 1|-\|/-| 
+WIP: Adds support and tests for http keyword in cartfile (CarthageKit) |-\|/-| 2017-03-13T23:40:08Z Closed pull request |-\|/-| 1363 +129 −32 swift Source/CarthageKitTests/TestCartfile resolved 7|-\|/-| 
+Refactor parts of Project.swift and Xcode.swift |-\|/-| 2016-06-20T21:49:07Z Merged pull request |-\|/-| 1353 +29 −45 swift 2|-\|/-| 
+Add support for completion dependency name with zsh |-\|/-| 2016-06-20T11:45:04Z Merged pull request |-\|/-| 1346 +8 −2 Source/Scripts/carthage-zsh-completion 1|-\|/-| 
+Add support for completion dependency name with zsh |-\|/-| 2016-06-14T06:44:28Z Closed pull request |-\|/-| 1345 +8 −2 Source/Scripts/carthage-zsh-completion 1|-\|/-| 
+Fix carthage update silently fails when attempted for a package which does not yet exist in Cartfile |-\|/-| 2016-06-19T01:15:30Z Merged pull request |-\|/-| 1344 +28 −2 swift 2|-\|/-| 
+Improve error messaging around malformed dependency graphs |-\|/-| 2016-09-07T01:08:10Z Closed pull request |-\|/-| 1335 +5 −5 swift 2|-\|/-| 
+Clarify Run Script build phase |-\|/-| 2016-06-06T00:57:28Z Merged pull request |-\|/-| 1333 +1 −1 md 0|-\|/-| 
+Remove unnecessary `promoteErrors`s |-\|/-| 2016-06-03T00:42:16Z Merged pull request |-\|/-| 1330 +7 −15 swift 6|-\|/-| 
+Update ReactiveCocoa to v4.2.0 |-\|/-| 2016-06-02T13:04:22Z Merged pull request |-\|/-| 1329 +17 −17 Cartfile resolved Carthage/Checkouts/ReactiveCocoa swift 9|-\|/-| 
+Add `--toolchain` option |-\|/-| 2016-05-13T21:41:04Z Merged pull request |-\|/-| 1303 +36 −20 swift 6|-\|/-| 
+Fixes issue with archive command trying to include xctest files |-\|/-| 2016-05-22T00:43:13Z Merged pull request |-\|/-| 1302 +1 −1 swift 1|-\|/-| 
+Update ReadMe to add note about @loader_path/Frameworks |-\|/-| 2016-05-12T23:47:03Z Merged pull request |-\|/-| 1301 +2 −0 md 0|-\|/-| 
+Minor tweaks for Bootstrap.swift |-\|/-| 2016-05-12T00:59:36Z Merged pull request |-\|/-| 1300 +2 −3 swift 2|-\|/-| 
+Remove SignalProducer.buffer usage |-\|/-| 2016-05-11T22:55:54Z Merged pull request |-\|/-| 1298 +2 −1 swift 1|-\|/-| 
+Fix to https://github.com/Carthage/Carthage/issues/1292 |-\|/-| 2016-05-11T23:19:57Z Merged pull request |-\|/-| 1294 +30 −3 swift 2|-\|/-| 
+Skip building for device SDKs on platforms that require bitcode when bitcode is disabled |-\|/-| 2016-04-27T00:37:36Z Merged pull request |-\|/-| 1280 +23 −9 swift 1|-\|/-| 
+Fix CI steps in readme |-\|/-| 2016-04-18T14:56:46Z Merged pull request |-\|/-| 1277 +1 −1 md 0|-\|/-| 
+[Travis] Split into multiple jobs to reduce running times |-\|/-| 2016-04-16T17:25:55Z Merged pull request |-\|/-| 1276 +19 −10 yml Makefile 2|-\|/-| 
+Remove unneeded NSURLSession related code |-\|/-| 2016-04-14T01:11:18Z Merged pull request |-\|/-| 1271 +0 −84 pbxproj swift 3|-\|/-| 
+Tentacle 0.3 |-\|/-| 2016-04-13T03:23:49Z Merged pull request |-\|/-| 1267 +5 −5 Cartfile resolved Carthage/Checkouts/Argo Carthage/Checkouts/Tentacle 4|-\|/-| 
+Don't error if a GitHub Release doesn't exist |-\|/-| 2016-04-12T06:02:55Z Merged pull request |-\|/-| 1262 +3 −0 swift 1|-\|/-| 
+Fix copy-frameworks when archiving |-\|/-| 2016-04-12T00:52:14Z Merged pull request |-\|/-| 1261 +49 −7 bats swift 2|-\|/-| 
+Extract outputPathWithOptions into a free function |-\|/-| 2016-04-11T12:37:18Z Merged pull request |-\|/-| 1256 +21 −21 swift 1|-\|/-| 
+Update Quick to v0.9.2 |-\|/-| 2016-04-10T13:08:42Z Merged pull request |-\|/-| 1255 +3 −3 private resolved Carthage/Checkouts/Quick 3|-\|/-| 
+Tidy up XcodeSpec |-\|/-| 2016-04-10T13:16:39Z Merged pull request |-\|/-| 1254 +43 −71 swift 2|-\|/-| 
+Minor fixes for #598 |-\|/-| 2016-04-10T13:28:38Z Merged pull request |-\|/-| 1253 +26 −24 swift 2|-\|/-| 
+[archive] Accept a directory path input for `--output` option |-\|/-| 2016-04-10T13:40:53Z Merged pull request |-\|/-| 1251 +59 −5 bats swift 2|-\|/-| 
+Minor fixes for #1154 |-\|/-| 2016-04-09T03:42:07Z Merged pull request |-\|/-| 1249 +4 −4 swift 1|-\|/-| 
+Fix Cartfile.resolved outputs for GitHub origin |-\|/-| 2016-04-07T23:00:52Z Merged pull request |-\|/-| 1244 +31 −6 bats swift 3|-\|/-| 
+[copy-frameworks] Ignore frameworks that do not support the current build architecture |-\|/-| 2016-04-13T12:26:51Z Merged pull request |-\|/-| 1241 +26 −5 swift 1|-\|/-| 
+Only fetch for branches, not tags |-\|/-| 2016-04-04T23:56:35Z Merged pull request |-\|/-| 1239 +25 −10 swift 4|-\|/-| 
+Swift 2.2 |-\|/-| 2016-04-08T01:16:11Z Merged pull request |-\|/-| 1238 +61 −42 yml Cartfile private resolved Carthage/Checkouts/Argo Carthage/Checkouts/Commandant Carthage/Checkouts/Curry Carthage/Checkouts/Nimble Carthage/Checkouts/PrettyColors Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/Tentacle Carthage/Checkouts/xcconfigs md bats swift 18|-\|/-| 
+Create ISSUE_TEMPLATE.md |-\|/-| 2016-03-29T13:09:28Z Merged pull request |-\|/-| 1224 +15 −0 md 0|-\|/-| 
+Update .travis.yml |-\|/-| 2016-04-04T04:27:56Z Closed pull request |-\|/-| 1217 +1 −1 yml 1|-\|/-| 
+Add a missing test case for #1202 |-\|/-| 2016-03-27T03:22:51Z Merged pull request |-\|/-| 1216 +10 −0 swift 1|-\|/-| 
+Copy frameworks to ${TARGET_BUILD_DIR} |-\|/-| 2016-03-28T17:51:36Z Merged pull request |-\|/-| 1214 +9 −9 swift 1|-\|/-| 
+Use QueueScheduler.init(qos:name:) |-\|/-| 2016-03-25T14:59:18Z Merged pull request |-\|/-| 1212 +7 −7 swift 2|-\|/-| 
+Correctly fetch repository when the specified git object is a branch |-\|/-| 2016-03-26T16:28:01Z Merged pull request |-\|/-| 1202 +135 −28 swift 3|-\|/-| 
+Use Tentacle for the GitHub API |-\|/-| 2016-03-24T13:44:32Z Merged pull request |-\|/-| 1197 +168 −733 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/Curry Carthage/Checkouts/Tentacle swift 11|-\|/-| 
+Fix integration tests |-\|/-| 2016-03-18T15:09:12Z Merged pull request |-\|/-| 1193 +2 −2 bats 2|-\|/-| 
+Double the xcodebuild -showBuildSettings timeout |-\|/-| 2016-03-18T12:40:52Z Merged pull request |-\|/-| 1192 +1 −1 swift 1|-\|/-| 
+Clarify where build script should be added |-\|/-| 2016-03-17T13:50:35Z Merged pull request |-\|/-| 1190 +1 −1 md 0|-\|/-| 
+[README] Update "Adding frameworks to unit tests or a framework" section |-\|/-| 2016-03-09T00:40:09Z Merged pull request |-\|/-| 1177 +1 −1 md 0|-\|/-| 
+Fixes #1172, duplicate dependency entries |-\|/-| 2016-03-04T13:27:07Z Merged pull request |-\|/-| 1174 +1 −1 swift 1|-\|/-| 
+Fix `Unrecognized arguments: -DnouvMtSdbiNmcResg` when running from XCode |-\|/-| 2016-03-02T15:34:50Z Merged pull request |-\|/-| 1169 +1 −1 xcscheme 1|-\|/-| 
+Resolve tags directly |-\|/-| 2016-03-08T15:10:29Z Merged pull request |-\|/-| 1168 +19 −13 swift 2|-\|/-| 
+Avoid deleting resource when trying to copy to and from the same path |-\|/-| 2016-03-01T23:52:06Z Merged pull request |-\|/-| 1160 +20 −3 swift 1|-\|/-| 
+Fix building with transitive dependencies |-\|/-| 2016-04-02T17:11:44Z Merged pull request |-\|/-| 1158 +140 −48 swift 3|-\|/-| 
+#1148 - Add CARTHAGE_PATH env var with executable path |-\|/-| 2016-04-08T01:14:37Z Merged pull request |-\|/-| 1154 +4 −0 swift 1|-\|/-| 
+Add `CARTHAGE` build setting to xcodebuild arguments |-\|/-| 2016-02-26T15:43:47Z Merged pull request |-\|/-| 1151 +4 −1 swift 2|-\|/-| 
+Check for bare repo when running --show-toplevel |-\|/-| 2016-02-24T13:51:08Z Merged pull request |-\|/-| 1150 +13 −3 swift 1|-\|/-| 
+Create a Network file to handle all network requests |-\|/-| 2016-03-31T02:31:47Z Closed pull request |-\|/-| 1149 +394 −235 gitmodules private resolved pbxproj xcworkspacedata Carthage/Checkouts/OHHTTPStubs swift 10|-\|/-| 
+Added support for derivedDataPath. |-\|/-| 2016-03-31T02:49:26Z Merged pull request |-\|/-| 1143 +54 −25 Cartfile resolved Carthage/Checkouts/Commandant swift Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion 12|-\|/-| 
+Add an integration test suite |-\|/-| 2016-02-26T16:09:24Z Merged pull request |-\|/-| 1140 +49 −1 yml Makefile bats 4|-\|/-| 
+Fix dependency resolution when building |-\|/-| 2016-02-22T02:27:31Z Merged pull request |-\|/-| 1139 +177 −30 pbxproj swift 6|-\|/-| 
+Remove --no-use-binaries from Known Issues |-\|/-| 2016-02-18T21:40:29Z Merged pull request |-\|/-| 1137 +1 −1 md 0|-\|/-| 
+Inject instances of NSURLSession in GitHub.swift |-\|/-| 2016-02-22T19:29:25Z Merged pull request |-\|/-| 1136 +303 −11 pbxproj swift 4|-\|/-| 
+Extract out the BuildArguments struct into it's own file |-\|/-| 2016-02-19T03:49:19Z Merged pull request |-\|/-| 1134 +206 −100 pbxproj swift 4|-\|/-| 
+Cleanup Resolver |-\|/-| 2016-02-18T14:42:38Z Merged pull request |-\|/-| 1127 +126 −111 swift 3|-\|/-| 
+Fixes: 1063, Run ls-tree in repo root instead of current directory |-\|/-| 2016-02-18T21:52:31Z Merged pull request |-\|/-| 1125 +13 −2 swift 1|-\|/-| 
+Update Quick to v0.9.1 |-\|/-| 2016-02-12T16:20:05Z Merged pull request |-\|/-| 1122 +2 −2 resolved Carthage/Checkouts/Quick 2|-\|/-| 
+Use SignalProducer.replayLazily for multicasting in buildInDirectory |-\|/-| 2016-02-12T16:22:43Z Merged pull request |-\|/-| 1121 +5 −10 swift 1|-\|/-| 
+Add a timeout for xcodebuild -showBuildSettings |-\|/-| 2016-02-12T04:52:12Z Merged pull request |-\|/-| 1120 +15 −16 swift 2|-\|/-| 
+Restore `var` bindings |-\|/-| 2016-02-11T18:42:30Z Merged pull request |-\|/-| 1116 +3 −6 swift 3|-\|/-| 
+[WIP] Add a unit test target for the CLI, with some tests |-\|/-| 2016-04-29T20:34:10Z Closed pull request |-\|/-| 1115 +651 −23 pbxproj xcscheme swift plist 13|-\|/-| 
+Carthage version should display output of git describe |-\|/-| 2016-02-22T00:45:03Z Merged pull request |-\|/-| 1114 +26 −2 pbxproj swift script/update-cli-version 3|-\|/-| 
+Improve the logic to detect the platform for a framework bundle |-\|/-| 2016-02-09T19:14:18Z Merged pull request |-\|/-| 1110 +18 −63 swift 2|-\|/-| 
+Skip unspecified dependencies in buildOrderForResolvedCartfile |-\|/-| 2016-02-09T15:06:35Z Merged pull request |-\|/-| 1108 +23 −4 swift 1|-\|/-| 
+Don't use a localized sort |-\|/-| 2016-02-06T20:15:04Z Merged pull request |-\|/-| 1103 +1 −1 swift 1|-\|/-| 
+Improve the message of CarthageError.IncompatibleRequirements |-\|/-| 2016-02-05T22:40:48Z Merged pull request |-\|/-| 1101 +18 −3 swift 2|-\|/-| 
+Don't use Resolver to determine build order |-\|/-| 2016-02-05T04:52:00Z Merged pull request |-\|/-| 1100 +51 −113 swift 3|-\|/-| 
+Skip "Carthage/Checkouts", not "Carthage" directory |-\|/-| 2016-02-04T14:49:34Z Merged pull request |-\|/-| 1099 +2 −2 swift 2|-\|/-| 
+[README] There should not be any comma for `carthage update` |-\|/-| 2016-02-03T07:10:07Z Merged pull request |-\|/-| 1091 +2 −2 md 0|-\|/-| 
+Update "Upgrading frameworks" section |-\|/-| 2016-02-02T22:36:45Z Merged pull request |-\|/-| 1089 +12 −0 md 0|-\|/-| 
+Permit dependency nodes match those have incompatible version specifiers, but have the same proposed version |-\|/-| 2016-02-08T03:06:31Z Merged pull request |-\|/-| 1086 +57 −10 pbxproj swift Source/CarthageKitTests/TestCartfileProposedVersion 4|-\|/-| 
+Clarify wording in Known Issues |-\|/-| 2016-02-18T22:55:20Z Closed pull request |-\|/-| 1085 +2 −3 md 0|-\|/-| 
+Commandant 0.8.3 |-\|/-| 2016-02-02T04:42:10Z Merged pull request |-\|/-| 1083 +7 −6 Cartfile resolved Carthage/Checkouts/Commandant Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result 5|-\|/-| 
+Accept "BNDL" value of `CFBundlePackageType` in `binaryURL` |-\|/-| 2016-02-01T14:01:26Z Merged pull request |-\|/-| 1078 +9 −2 swift 1|-\|/-| 
+Update Quick to v0.9.0 |-\|/-| 2016-01-30T16:35:50Z Merged pull request |-\|/-| 1074 +3 −3 private resolved Carthage/Checkouts/Quick 3|-\|/-| 
+Use octal notation when specifying permissions for the Caches directory |-\|/-| 2016-01-30T01:15:05Z Merged pull request |-\|/-| 1073 +1 −1 swift 1|-\|/-| 
+RAC4.0 |-\|/-| 2016-01-30T01:57:17Z Merged pull request |-\|/-| 1071 +5 −5 resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask swift 4|-\|/-| 
+Fix typo |-\|/-| 2016-01-24T03:00:05Z Merged pull request |-\|/-| 1062 +1 −1 md 0|-\|/-| 
+Adds UseSanitizedBuildSystemEnvironment=YES |-\|/-| 2017-07-11T14:29:27Z Closed pull request |-\|/-| 1057 +5 −0 swift 1|-\|/-| 
+Increase xcodebuild list timeout |-\|/-| 2016-01-29T20:06:09Z Merged pull request |-\|/-| 1055 +2 −2 swift 2|-\|/-| 
+Update Nimble to v3.1.0 |-\|/-| 2016-01-19T14:57:02Z Merged pull request |-\|/-| 1054 +3 −3 private resolved Carthage/Checkouts/Nimble 3|-\|/-| 
+Prune git tags on fetch |-\|/-| 2016-01-18T14:20:09Z Merged pull request |-\|/-| 1051 +5 −1 swift 1|-\|/-| 
+Fix parsing scp syntax in GitURL |-\|/-| 2016-01-13T14:53:44Z Merged pull request |-\|/-| 1040 +41 −6 pbxproj swift 3|-\|/-| 
+Fix picking up submodules in locateProjectsInDirectory() |-\|/-| 2016-01-15T19:24:56Z Merged pull request |-\|/-| 1035 +27 −10 swift 2|-\|/-| 
+Commandant 0.8.2 |-\|/-| 2016-01-09T02:16:29Z Merged pull request |-\|/-| 1033 +3 −3 Cartfile resolved Carthage/Checkouts/Commandant 3|-\|/-| 
+Fix crash when running any command that relies on Cartfile.resolved without a cache |-\|/-| 2016-01-27T23:01:58Z Merged pull request |-\|/-| 1032 +56 −62 swift 3|-\|/-| 
+Cleanup a few things from #892 |-\|/-| 2016-01-08T04:37:58Z Merged pull request |-\|/-| 1030 +7 −7 swift 2|-\|/-| 
+Always clean before building |-\|/-| 2016-01-07T22:57:11Z Merged pull request |-\|/-| 1028 +8 −2 swift 1|-\|/-| 
+Use Xcode 7.2 in Travis |-\|/-| 2016-01-07T13:54:08Z Merged pull request |-\|/-| 1025 +1 −1 yml 1|-\|/-| 
+Refactor using Result.init(attempt:) |-\|/-| 2016-01-07T13:53:52Z Merged pull request |-\|/-| 1024 +3 −5 swift 1|-\|/-| 
+Copy and strip dSYM files in copy-frameworks |-\|/-| 2016-01-13T02:18:30Z Merged pull request |-\|/-| 1023 +83 −35 md swift 3|-\|/-| 
+[WIP] Copy dSYM and only keep valid architectures |-\|/-| 2016-01-06T22:51:38Z Closed pull request |-\|/-| 1022 +17 −1 swift 2|-\|/-| 
+Clarifies the error message to the 'expected submodule commit SHA in ls-tree output' |-\|/-| 2016-01-07T01:41:01Z Merged pull request |-\|/-| 1015 +3 −2 swift 1|-\|/-| 
+Add Instruction for tvOS |-\|/-| 2015-12-29T03:38:58Z Merged pull request |-\|/-| 1013 +1 −1 md 0|-\|/-| 
+Update completion scripts |-\|/-| 2016-01-15T19:46:54Z Merged pull request |-\|/-| 1011 +18 −7 Source/Scripts/carthage-bash-completion Source/Scripts/carthage-fish-completion Source/Scripts/carthage-zsh-completion 3|-\|/-| 
+when collecting scheme names from xcodebuild -list output,  only cons… |-\|/-| 2016-01-08T01:52:42Z Closed pull request |-\|/-| 1010 +1 −1 swift 1|-\|/-| 
+[Specs] Replace some Nimble matchers with equivalent operators |-\|/-| 2015-12-22T17:22:25Z Merged pull request |-\|/-| 1009 +125 −117 swift 5|-\|/-| 
+Clean up `Dependency` |-\|/-| 2015-12-21T09:30:10Z Merged pull request |-\|/-| 1007 +20 −29 swift 3|-\|/-| 
+Support multiple frameworks in `archive` command |-\|/-| 2016-01-18T01:41:13Z Merged pull request |-\|/-| 1005 +143 −86 swift 2|-\|/-| 
+Make all Options structs into inner structs |-\|/-| 2015-12-18T02:17:12Z Merged pull request |-\|/-| 1004 +179 −179 swift 5|-\|/-| 
+Update to Commandant 0.8.1 |-\|/-| 2015-12-18T02:03:52Z Merged pull request |-\|/-| 1003 +3 −3 Cartfile resolved Carthage/Checkouts/Commandant 3|-\|/-| 
+Making --no-use-binaries the default |-\|/-| 2016-01-25T18:37:36Z Closed pull request |-\|/-| 1000 +1 −1 swift 1|-\|/-| 
+Avoid var binding which will be removed in Swift 3.0 |-\|/-| 2015-12-16T23:37:31Z Merged pull request |-\|/-| 998 +37 −16 swift 6|-\|/-| 
+Specify concrete `Options` type instead of explicit `typealias`es |-\|/-| 2015-12-16T23:26:01Z Merged pull request |-\|/-| 997 +9 −18 swift 8|-\|/-| 
+[README] Minor tweaks for Travis integration |-\|/-| 2015-12-16T06:58:31Z Merged pull request |-\|/-| 996 +21 −17 md 0|-\|/-| 
+Add "Known Issues" section |-\|/-| 2015-12-12T18:13:53Z Merged pull request |-\|/-| 989 +5 −0 md 0|-\|/-| 
+Remove pre-0.4 migrations |-\|/-| 2015-12-12T02:28:30Z Merged pull request |-\|/-| 988 +1 −87 swift 3|-\|/-| 
+Update Commandant |-\|/-| 2015-12-15T00:25:34Z Merged pull request |-\|/-| 987 +115 −183 Cartfile resolved Carthage/Checkouts/Commandant swift 10|-\|/-| 
+Update ReactiveTask |-\|/-| 2015-12-19T16:25:14Z Merged pull request |-\|/-| 986 +31 −25 Cartfile resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result swift 12|-\|/-| 
+Change the positional argument of `directoryPath` to a named argument |-\|/-| 2015-12-09T15:49:02Z Merged pull request |-\|/-| 982 +4 −4 swift 2|-\|/-| 
+Update README.md |-\|/-| 2015-12-07T23:34:02Z Merged pull request |-\|/-| 979 +2 −1 md 0|-\|/-| 
+listing possible platform parameters in help for the update command |-\|/-| 2015-12-08T01:16:07Z Merged pull request |-\|/-| 978 +1 −1 swift 1|-\|/-| 
+Determine the build order when building the dependencies in Cartfile.resolved |-\|/-| 2015-12-09T16:52:46Z Merged pull request |-\|/-| 974 +149 −30 pbxproj swift resolved 6|-\|/-| 
+Avoid curried function syntax |-\|/-| 2015-12-05T15:10:56Z Merged pull request |-\|/-| 973 +41 −29 swift 7|-\|/-| 
+Support specifying dependencies list in `build` / `checkout` / `update` commands |-\|/-| 2015-12-17T19:37:39Z Merged pull request |-\|/-| 972 +232 −64 swift 5|-\|/-| 
+Fix link in README |-\|/-| 2015-12-04T19:46:47Z Merged pull request |-\|/-| 970 +1 −1 md 0|-\|/-| 
+Allow multiple platform list to contain spaces |-\|/-| 2015-12-04T16:03:40Z Merged pull request |-\|/-| 966 +11 −11 swift 1|-\|/-| 
+Fish completions |-\|/-| 2015-12-13T19:19:59Z Merged pull request |-\|/-| 962 +80 −5 pbxproj md Source/Scripts/carthage-fish-completion 2|-\|/-| 
+Adds xcode_sdk: to the example travis |-\|/-| 2015-12-02T01:19:49Z Merged pull request |-\|/-| 955 +4 −1 md 0|-\|/-| 
+Xcode 7.1 recommended settings |-\|/-| 2015-12-02T00:06:23Z Merged pull request |-\|/-| 954 +26 −18 pbxproj xcscheme plist 6|-\|/-| 
+Documentation for travis-ci framework uploads |-\|/-| 2015-12-01T21:31:07Z Merged pull request |-\|/-| 953 +58 −0 md 0|-\|/-| 
+Fix merge order of frameworks to ensure that the device build should be the base (destination) one |-\|/-| 2015-12-02T01:33:18Z Merged pull request |-\|/-| 952 +22 −13 swift 1|-\|/-| 
+Clean up the things related to #947 |-\|/-| 2015-12-01T03:44:55Z Merged pull request |-\|/-| 951 +40 −99 swift script/cibuild 4|-\|/-| 
+Adds CODE_SIGNING_REQUIRED=NO for builds |-\|/-| 2015-11-30T22:05:03Z Merged pull request |-\|/-| 947 +10 −171 swift gitignore p12 script/cibuild 6|-\|/-| 
+Fix #851: Signal handler is not signal-safe |-\|/-| 2016-01-15T19:45:05Z Merged pull request |-\|/-| 944 +13 −6 c 1|-\|/-| 
+Workaround for carthage build error (XCode 7.1.1). |-\|/-| 2015-11-26T14:16:39Z Closed pull request |-\|/-| 943 +3 −0 swift 1|-\|/-| 
+Specify destination for simulator builds |-\|/-| 2015-11-27T18:57:09Z Merged pull request |-\|/-| 941 +17 −3 swift 1|-\|/-| 
+[WIP] Update LD_RUNPATH_SEARCH_PATHS and Makefile to setup separate rpaths for pkg installation and homebrew installation |-\|/-| 2016-04-03T05:02:03Z Closed pull request |-\|/-| 938 +10 −5 pbxproj Makefile 2|-\|/-| 
+Modify LD_RUNPATH_SEARCH_PATHS to prioritize Homebrew installation |-\|/-| 2015-11-21T14:19:02Z Closed pull request |-\|/-| 935 +4 −5 pbxproj Makefile 2|-\|/-| 
+Use `cp -Rf` instead of `cp -rf` in Makefile |-\|/-| 2015-11-20T10:02:52Z Merged pull request |-\|/-| 932 +1 −1 Makefile 1|-\|/-| 
+Ensure that required git version is used |-\|/-| 2015-11-21T14:31:28Z Merged pull request |-\|/-| 931 +28 −1 swift 2|-\|/-| 
+Loosen VersionType constraint |-\|/-| 2015-11-20T06:40:21Z Merged pull request |-\|/-| 927 +5 −11 swift 2|-\|/-| 
+Check if a submodule is initialized/updated when adding it to a repository |-\|/-| 2015-11-20T07:04:52Z Merged pull request |-\|/-| 925 +4 −0 swift 1|-\|/-| 
+Use guard syntax in Comparable implementation for ProjectLocator |-\|/-| 2015-11-16T02:24:23Z Merged pull request |-\|/-| 923 +2 −4 swift 1|-\|/-| 
+Clean up Xcode data types |-\|/-| 2015-11-16T01:01:48Z Merged pull request |-\|/-| 922 +92 −145 swift 3|-\|/-| 
+Remove the section on copying dSYM files |-\|/-| 2015-11-16T00:53:36Z Closed pull request |-\|/-| 919 +0 −10 md 0|-\|/-| 
+Accept ad hoc code signing |-\|/-| 2015-11-11T21:51:21Z Merged pull request |-\|/-| 912 +20 −1 swift 2|-\|/-| 
+Add “OSX” alias for --platform option |-\|/-| 2015-11-10T00:41:12Z Merged pull request |-\|/-| 910 +1 −1 swift 1|-\|/-| 
+Update Readme for homebrew installation |-\|/-| 2015-11-06T15:01:36Z Merged pull request |-\|/-| 899 +3 −1 md 0|-\|/-| 
+Skip building static frameworks by checking Mach-O type |-\|/-| 2015-11-06T04:23:12Z Merged pull request |-\|/-| 894 +68 −12 swift 1|-\|/-| 
+Add support for multiple subprojects of a workspace |-\|/-| 2015-12-22T05:56:05Z Merged pull request |-\|/-| 892 +130 −9 pbxproj swift zip script/copy-fixtures 9|-\|/-| 
+Uses github access token to clone https URLs for github repos |-\|/-| 2015-11-05T16:27:49Z Merged pull request |-\|/-| 891 +7 −1 swift 1|-\|/-| 
+[WIP] Ability to build only one dependency |-\|/-| 2015-12-17T19:38:03Z Closed pull request |-\|/-| 886 +39 −11 swift 3|-\|/-| 
+Implement copyFileURLsIntoDirectory() as a producer extension method |-\|/-| 2015-10-31T11:39:59Z Merged pull request |-\|/-| 885 +25 −22 swift 3|-\|/-| 
+Use String APIs, not NSString ones |-\|/-| 2015-10-31T01:01:06Z Merged pull request |-\|/-| 884 +3 −5 swift 1|-\|/-| 
+Remove deploy:on:all_branches from .travis.yml |-\|/-| 2015-10-30T12:07:08Z Merged pull request |-\|/-| 883 +0 −1 yml 1|-\|/-| 
+Refactor copying bcsymbolmap files and others |-\|/-| 2015-10-29T00:04:52Z Merged pull request |-\|/-| 874 +33 −36 swift 3|-\|/-| 
+Fix "fatal: destination path … already exists" on checkout |-\|/-| 2015-10-24T13:03:22Z Merged pull request |-\|/-| 861 +8 −3 swift 1|-\|/-| 
+Add documentation about Bash/Zsh completion (PR #731) |-\|/-| 2015-10-27T12:52:36Z Merged pull request |-\|/-| 855 +54 −0 md 0|-\|/-| 
+Copy bcsymbolmap files when building |-\|/-| 2015-10-27T12:49:51Z Merged pull request |-\|/-| 853 +153 −19 md swift 4|-\|/-| 
+Added note to only use homebrew install on Xcode 6.x |-\|/-| 2015-10-15T14:08:23Z Merged pull request |-\|/-| 849 +1 −1 md 0|-\|/-| 
+Use native swift String version of enumerateLines |-\|/-| 2015-10-13T15:23:46Z Merged pull request |-\|/-| 841 +4 −3 swift 1|-\|/-| 
+More direct way of returning string description. |-\|/-| 2015-10-12T19:03:30Z Merged pull request |-\|/-| 840 +1 −1 swift 1|-\|/-| 
+Support embedding bitcode when ENABLE_BITCODE=YES |-\|/-| 2015-10-13T18:20:12Z Merged pull request |-\|/-| 839 +52 −10 swift 1|-\|/-| 
+Add make command for building homebrew tarball |-\|/-| 2016-03-26T17:35:02Z Closed pull request |-\|/-| 838 +8 −0 Makefile 1|-\|/-| 
+Strip `Modules` directory too in copy-frameworks |-\|/-| 2015-10-10T17:22:55Z Merged pull request |-\|/-| 837 +30 −2 swift 2|-\|/-| 
+Fix error on `carthage update` |-\|/-| 2015-10-09T04:16:35Z Merged pull request |-\|/-| 835 +5 −2 swift 1|-\|/-| 
+Use GITHUB_ACCESS_TOKEN as auth for cloning github.com private repos in HTTPS |-\|/-| 2015-11-04T18:17:39Z Closed pull request |-\|/-| 834 +7 −1 swift 1|-\|/-| 
+Fix "no identity found" on `copy-frameworks` for watchOS Simulator |-\|/-| 2015-10-06T13:54:28Z Merged pull request |-\|/-| 829 +1 −1 swift 1|-\|/-| 
+Update to Swift 2 |-\|/-| 2015-10-30T11:10:14Z Merged pull request |-\|/-| 822 +1,248 −1,247 gitignore gitmodules yml Cartfile private resolved pbxproj xcscheme xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/Box Carthage/Checkouts/Commandant Carthage/Checkouts/Nimble Carthage/Checkouts/PrettyColors Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/Runes Carthage/Checkouts/xcconfigs swift 21|-\|/-| 
+Revise phrasing in OS X getting started |-\|/-| 2015-10-06T20:27:09Z Merged pull request |-\|/-| 821 +1 −1 md 0|-\|/-| 
+Reject a submodule directory which is not initialized in isGitRepository() |-\|/-| 2015-10-03T13:51:06Z Merged pull request |-\|/-| 819 +4 −1 swift 1|-\|/-| 
+Bump scheme timeout to 15 seconds |-\|/-| 2015-09-29T14:18:56Z Merged pull request |-\|/-| 810 +1 −1 swift 1|-\|/-| 
+Avoid crashing with unknown SDKs for universal framework targets |-\|/-| 2015-10-02T01:12:39Z Merged pull request |-\|/-| 798 +34 −22 swift 4|-\|/-| 
+Restore per-platform SDKs handling |-\|/-| 2015-09-24T15:31:37Z Merged pull request |-\|/-| 793 +23 −9 swift 1|-\|/-| 
+Use raw values of String for Platform enum |-\|/-| 2015-09-20T20:57:25Z Merged pull request |-\|/-| 780 +7 −34 swift 1|-\|/-| 
+Remove parenthesis from `if` / `switch` statements |-\|/-| 2015-09-20T20:55:43Z Merged pull request |-\|/-| 779 +7 −7 swift 3|-\|/-| 
+Works around the test failure in CI environment |-\|/-| 2015-09-21T03:14:39Z Merged pull request |-\|/-| 778 +29 −6 swift 1|-\|/-| 
+Remove useless specs from XcodeSpec.swift |-\|/-| 2015-09-18T00:06:20Z Merged pull request |-\|/-| 770 +0 −33 swift 1|-\|/-| 
+Checks if cache dependency folder is writable. |-\|/-| 2015-09-18T21:54:16Z Merged pull request |-\|/-| 766 +36 −10 swift 1|-\|/-| 
+Fix precompiled framework platform determination |-\|/-| 2015-09-17T15:50:05Z Merged pull request |-\|/-| 760 +75 −7 swift 3|-\|/-| 
+Update ReactiveTask and ReactiveCocoa |-\|/-| 2015-09-16T20:09:13Z Merged pull request |-\|/-| 758 +6 −6 Cartfile resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask 4|-\|/-| 
+Omit ProjectEvent enum name |-\|/-| 2015-09-14T13:55:54Z Merged pull request |-\|/-| 753 +3 −3 swift 1|-\|/-| 
+Handle nonexistent directory in `isGitRepository` |-\|/-| 2015-09-13T18:21:41Z Merged pull request |-\|/-| 752 +4 −0 swift 1|-\|/-| 
+Strip .git suffix from GitHub repository name as GitURL does |-\|/-| 2015-09-12T11:42:57Z Merged pull request |-\|/-| 747 +29 −14 swift Source/CarthageKitTests/TestCartfile 5|-\|/-| 
+Added support for tvOS |-\|/-| 2015-09-13T01:05:07Z Merged pull request |-\|/-| 742 +42 −3 swift 2|-\|/-| 
+Simpler name and directory check |-\|/-| 2015-09-10T00:02:26Z Merged pull request |-\|/-| 739 +4 −10 swift 1|-\|/-| 
+Follow up to #583 |-\|/-| 2015-09-09T13:32:52Z Merged pull request |-\|/-| 738 +13 −21 swift 2|-\|/-| 
+Add bash/zsh completion scripts |-\|/-| 2015-10-17T22:29:22Z Merged pull request |-\|/-| 731 +188 −0 pbxproj Source/Scripts/carthage-bash-completion Source/Scripts/carthage-zsh-completion 3|-\|/-| 
+Shorten NSComparisonResult cases |-\|/-| 2015-09-02T12:23:21Z Merged pull request |-\|/-| 729 +1 −1 swift 1|-\|/-| 
+Accept multiple platforms in BuildOptions |-\|/-| 2015-09-01T21:05:28Z Merged pull request |-\|/-| 726 +110 −36 swift 6|-\|/-| 
+Refactor NSURL's typeIdentifier handling |-\|/-| 2015-08-30T14:04:54Z Merged pull request |-\|/-| 724 +23 −33 swift 3|-\|/-| 
+fix formatting |-\|/-| 2015-08-30T14:31:41Z Merged pull request |-\|/-| 723 +12 −13 swift 1|-\|/-| 
+Replace nested if statement with where clause |-\|/-| 2015-08-27T18:04:09Z Merged pull request |-\|/-| 720 +4 −5 swift 1|-\|/-| 
+More concise phrasing for ProjectLocator description. |-\|/-| 2015-08-27T17:56:32Z Merged pull request |-\|/-| 719 +1 −2 swift 1|-\|/-| 
+remove needless optional cast |-\|/-| 2015-08-26T00:31:18Z Merged pull request |-\|/-| 714 +2 −2 swift 1|-\|/-| 
+Use NSFileManager.moveItemAtURL() as a fallback of rename() system call when EXDEV error occurred |-\|/-| 2015-09-09T22:40:02Z Merged pull request |-\|/-| 713 +16 −1 swift 1|-\|/-| 
+[README] Refer to `archive` command |-\|/-| 2015-08-25T20:54:35Z Merged pull request |-\|/-| 712 +7 −0 md 0|-\|/-| 
+cleaner implementation of stripGitSuffix function |-\|/-| 2015-08-24T20:23:02Z Merged pull request |-\|/-| 709 +1 −2 swift 1|-\|/-| 
+Work around an indeterministic NSFileWriteFileExistsError when downloading binaries |-\|/-| 2015-08-24T12:44:29Z Merged pull request |-\|/-| 707 +9 −1 swift 1|-\|/-| 
+Safer optional chaining, fix for somewhat dangerous if-let   |-\|/-| 2015-08-23T02:22:57Z Merged pull request |-\|/-| 703 +2 −2 swift 1|-\|/-| 
+Fix wrong build order with nested dependencies |-\|/-| 2015-08-24T11:59:19Z Merged pull request |-\|/-| 702 +16 −1 swift 1|-\|/-| 
+Revert 42ccb03 |-\|/-| 2015-08-21T01:07:20Z Merged pull request |-\|/-| 701 +1 −1 md 0|-\|/-| 
+Use a more descriptive description for downloads |-\|/-| 2015-08-21T01:21:58Z Merged pull request |-\|/-| 699 +2 −2 swift 1|-\|/-| 
+Use ignoreTaskData() in launchGitTask() |-\|/-| 2015-08-20T15:04:38Z Merged pull request |-\|/-| 696 +3 −5 swift 1|-\|/-| 
+If a directory in repository caches is not a valid repository, remove that directory then clone the project |-\|/-| 2015-08-20T20:09:11Z Merged pull request |-\|/-| 695 +38 −23 swift 2|-\|/-| 
+Disable binary downloads when using submodules |-\|/-| 2015-08-21T17:52:32Z Merged pull request |-\|/-| 692 +15 −3 swift 2|-\|/-| 
+`let` can be used here from Swift 1.2 |-\|/-| 2015-08-18T13:45:37Z Merged pull request |-\|/-| 690 +1 −1 swift 1|-\|/-| 
+Implement --no-checkout flag for bootstrap/update commands |-\|/-| 2015-08-18T02:08:55Z Merged pull request |-\|/-| 686 +21 −15 swift 3|-\|/-| 
+Copy dSYMs from downloaded archives to build folders |-\|/-| 2015-08-19T09:28:39Z Merged pull request |-\|/-| 684 +145 −20 swift 5|-\|/-| 
+Completely remove git submodules when using prebuilt binaries |-\|/-| 2015-08-16T23:47:06Z Closed pull request |-\|/-| 682 +18 −3 swift 2|-\|/-| 
+[README] iOS application targets also have the “Embedded Binaries” section in their build settings |-\|/-| 2015-08-15T12:39:00Z Merged pull request |-\|/-| 681 +3 −2 md 0|-\|/-| 
+Warn .NoSharedFrameworkSchemes error, not to error out |-\|/-| 2015-08-18T13:29:08Z Merged pull request |-\|/-| 679 +45 −7 swift 5|-\|/-| 
+Suppress NosharedFrameworkSchemes error in order to continue building dependencies |-\|/-| 2015-08-17T09:23:39Z Closed pull request |-\|/-| 675 +7 −8 swift 1|-\|/-| 
+Run `git submodule sync` recursively |-\|/-| 2015-08-14T01:31:39Z Merged pull request |-\|/-| 674 +1 −1 swift 1|-\|/-| 
+Make Commandant and PrettyColors as the public dependencies of CarthageKit |-\|/-| 2015-08-17T20:56:33Z Merged pull request |-\|/-| 672 +4 −4 Cartfile private resolved 3|-\|/-| 
+Make a GitHub API request failure a warning and non-fatal |-\|/-| 2015-08-12T13:59:05Z Merged pull request |-\|/-| 669 +20 −0 swift 2|-\|/-| 
+[README] Prebuilt frameworks of prerelease versions are not ignored now |-\|/-| 2015-08-11T13:07:58Z Merged pull request |-\|/-| 666 +1 −1 md 0|-\|/-| 
+[Refactor] Use NSRegularExpression.firstMatchInString() |-\|/-| 2015-08-10T12:47:38Z Merged pull request |-\|/-| 663 +6 −10 swift 1|-\|/-| 
+Upgrade Commandant |-\|/-| 2015-08-08T02:08:02Z Merged pull request |-\|/-| 661 +3 −3 private resolved Carthage/Checkouts/Commandant 3|-\|/-| 
+Add a section to the README about using dSYM files |-\|/-| 2015-08-06T12:30:57Z Merged pull request |-\|/-| 659 +11 −1 md 0|-\|/-| 
+Add support for GitHub Enterprise |-\|/-| 2015-08-11T17:52:40Z Merged pull request |-\|/-| 657 +171 −36 md swift Source/CarthageKitTests/TestCartfile 6|-\|/-| 
+Build schemes from workspaces, not projects |-\|/-| 2015-08-04T17:03:55Z Merged pull request |-\|/-| 655 +10 −6 swift 1|-\|/-| 
+Accept binary frameworks of pre-release versions |-\|/-| 2015-08-04T14:23:04Z Merged pull request |-\|/-| 654 +1 −1 swift 1|-\|/-| 
+Add -destination flag to build arguments when building for the simulator |-\|/-| 2015-08-12T01:23:51Z Merged pull request |-\|/-| 653 +53 −3 swift 1|-\|/-| 
+Fix error descriptions of some `.ParseError` |-\|/-| 2015-07-31T01:03:25Z Merged pull request |-\|/-| 651 +2 −2 swift 1|-\|/-| 
+[Travis] Switch to Xcode 6.4 |-\|/-| 2015-08-09T15:19:49Z Merged pull request |-\|/-| 650 +1 −1 yml 1|-\|/-| 
+Use the tag name instead of its SHA for Cartfile.resolved when pinned to an exact tag |-\|/-| 2015-08-04T03:11:58Z Merged pull request |-\|/-| 649 +13 −4 swift 1|-\|/-| 
+Set `GIT_TERMINAL_PROMPT=0` for all git tasks |-\|/-| 2015-08-03T02:05:31Z Merged pull request |-\|/-| 648 +6 −5 swift 2|-\|/-| 
+[WIP] Build all projects schemes instead of first project only |-\|/-| 2015-07-30T08:40:57Z Closed pull request |-\|/-| 646 +7 −3 swift 1|-\|/-| 
+Update Xcode version checker |-\|/-| 2015-08-03T02:12:39Z Merged pull request |-\|/-| 645 +1 −1 script/check-xcode-version 1|-\|/-| 
+[Refactor] Use sorted() in locateProjectsInDirectory() |-\|/-| 2015-07-27T02:50:22Z Merged pull request |-\|/-| 641 +1 −4 swift 1|-\|/-| 
+Include dSYMS when archiving built frameworks |-\|/-| 2015-08-05T13:17:37Z Merged pull request |-\|/-| 640 +5 −1 swift 1|-\|/-| 
+Allow dependencies which have no projects, not to error out with `.NoSharedFrameworkSchemes` |-\|/-| 2015-07-25T12:43:02Z Merged pull request |-\|/-| 637 +19 −13 swift 2|-\|/-| 
+Upgrade ReactiveTask and ReactiveCocoa |-\|/-| 2015-07-23T18:03:11Z Merged pull request |-\|/-| 634 +7 −7 Cartfile resolved Carthage/Checkouts/Argo Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask 5|-\|/-| 
+Add .NoSharedFrameworkSchemes error related to #570 |-\|/-| 2015-07-25T02:02:52Z Merged pull request |-\|/-| 632 +63 −2 swift zip script/copy-fixtures 5|-\|/-| 
+Extended use of "--verbose" flag to invocations of Git |-\|/-| 2016-02-05T18:39:02Z Closed pull request |-\|/-| 631 +376 −213 gitignore pbxproj swift 8|-\|/-| 
+Added instructions to CONTRIBUTING.md |-\|/-| 2015-07-17T14:27:40Z Merged pull request |-\|/-| 627 +16 −1 md 0|-\|/-| 
+Support universal framework targets. |-\|/-| 2015-08-09T22:10:16Z Merged pull request |-\|/-| 622 +19 −9 swift 1|-\|/-| 
+Fix string interpolation typo. |-\|/-| 2015-07-31T01:03:26Z Merged pull request |-\|/-| 621 +1 −1 swift 1|-\|/-| 
+Remove useless map() phase |-\|/-| 2015-07-15T02:47:27Z Merged pull request |-\|/-| 619 +1 −2 swift 1|-\|/-| 
+[WIP] Ability to build only one dependency |-\|/-| 2015-10-31T20:19:10Z Closed pull request |-\|/-| 618 +38 −9 swift 3|-\|/-| 
+Minor refactoring for optional binding |-\|/-| 2015-07-14T13:05:42Z Merged pull request |-\|/-| 617 +3 −5 swift 1|-\|/-| 
+Update to RAC beta 9 |-\|/-| 2015-07-08T13:58:23Z Merged pull request |-\|/-| 606 +2 −2 resolved Carthage/Checkouts/ReactiveCocoa 2|-\|/-| 
+Adds support to configure the GitHub access token to be used for GitHub API calls |-\|/-| 2015-07-14T03:53:29Z Merged pull request |-\|/-| 605 +63 −60 swift 2|-\|/-| 
+Fix license badge |-\|/-| 2015-07-06T18:10:14Z Merged pull request |-\|/-| 601 +1 −1 md 0|-\|/-| 
+Add remote branch example |-\|/-| 2015-07-05T12:57:55Z Merged pull request |-\|/-| 600 +3 −0 md 0|-\|/-| 
+Add an 'outdated' command |-\|/-| 2016-04-09T12:37:30Z Merged pull request |-\|/-| 598 +117 −0 pbxproj swift 4|-\|/-| 
+Inherit the environment of the parent |-\|/-| 2015-06-24T19:19:35Z Merged pull request |-\|/-| 584 +5 −2 swift 1|-\|/-| 
+Allow builds to skip iOS and watchOS device SDKs when the codesigning identity is not installed |-\|/-| 2015-09-09T07:44:33Z Merged pull request |-\|/-| 583 +247 −47 swift 3|-\|/-| 
+Set ONLY_ACTIVE_ARCH=NO when building |-\|/-| 2015-07-17T19:23:56Z Merged pull request |-\|/-| 580 +41 −4 swift 1|-\|/-| 
+Use raw values of String for SDK and ProductType enums |-\|/-| 2015-06-23T04:53:36Z Merged pull request |-\|/-| 574 +14 −53 swift 1|-\|/-| 
+Upload CarthageKit.framework to releases with Travis |-\|/-| 2015-06-18T05:27:29Z Merged pull request |-\|/-| 573 +13 −7 yml Makefile 2|-\|/-| 
+Put collect() operator in its place |-\|/-| 2015-06-18T05:46:25Z Merged pull request |-\|/-| 572 +10 −12 swift 7|-\|/-| 
+Use mapError() instead of catch() where enabled |-\|/-| 2015-06-18T04:30:21Z Merged pull request |-\|/-| 571 +17 −17 swift 4|-\|/-| 
+Skip projects without shared dynamic framework schemes |-\|/-| 2015-07-23T01:35:13Z Merged pull request |-\|/-| 570 +106 −38 swift zip script/copy-fixtures 4|-\|/-| 
+Added a section to the CONTRIBUTING.md about opening the project |-\|/-| 2015-06-19T03:23:43Z Merged pull request |-\|/-| 568 +7 −0 gitignore md 1|-\|/-| 
+Use native Set type in Resolver |-\|/-| 2015-06-18T02:21:31Z Merged pull request |-\|/-| 567 +20 −23 swift 1|-\|/-| 
+Use Himotoki as a JSON decoder |-\|/-| 2015-06-18T05:40:38Z Closed pull request |-\|/-| 565 +40 −69 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/Himotoki Carthage/Checkouts/Runes swift plist 11|-\|/-| 
+Mentioned xcode-select |-\|/-| 2015-06-16T13:59:15Z Merged pull request |-\|/-| 562 +2 −0 md 0|-\|/-| 
+Restore Travis |-\|/-| 2015-06-16T04:54:50Z Merged pull request |-\|/-| 561 +25 −0 yml 1|-\|/-| 
+Use multiple optional bindings |-\|/-| 2015-06-16T04:53:37Z Merged pull request |-\|/-| 560 +4 −5 swift 1|-\|/-| 
+Remove Equatable implementations for enums without associated values |-\|/-| 2015-06-16T04:52:47Z Merged pull request |-\|/-| 556 +4 −59 swift 2|-\|/-| 
+Update README header |-\|/-| 2015-07-06T17:59:52Z Merged pull request |-\|/-| 555 +9 −1 md png 1|-\|/-| 
+Remove redundant watchOS definition from BuildPlatform.acceptedStrings |-\|/-| 2015-06-14T03:37:32Z Merged pull request |-\|/-| 554 +1 −1 swift 1|-\|/-| 
+Support for watchOS builds |-\|/-| 2015-06-13T18:33:07Z Merged pull request |-\|/-| 552 +60 −4 swift 2|-\|/-| 
+Use Result conjunction operator |-\|/-| 2015-06-14T03:37:07Z Merged pull request |-\|/-| 547 +21 −23 resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result swift 5|-\|/-| 
+Don't add an @rpath that's already set |-\|/-| 2015-06-06T05:58:32Z Merged pull request |-\|/-| 531 +0 −1 Makefile 1|-\|/-| 
+++ReactiveTask |-\|/-| 2015-06-06T05:18:39Z Merged pull request |-\|/-| 530 +5 −5 Cartfile resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask 4|-\|/-| 
+Fix release downloads by using GitHub API rather than browser URL |-\|/-| 2015-06-06T00:59:09Z Merged pull request |-\|/-| 529 +13 −9 swift 1|-\|/-| 
+Remove explicit unwrap of optional when looking for framework source |-\|/-| 2015-07-07T00:18:30Z Merged pull request |-\|/-| 526 +3 −3 swift 1|-\|/-| 
+Use case insensitive comparison for GitHub repository names |-\|/-| 2015-06-05T03:14:17Z Merged pull request |-\|/-| 525 +4 −4 swift Source/CarthageKitTests/DuplicateDependencies/Cartfile 2|-\|/-| 
+Allow github releases with null names |-\|/-| 2015-06-06T12:11:11Z Merged pull request |-\|/-| 524 +8 −5 swift 1|-\|/-| 
+Clarify how to build before creating archive. |-\|/-| 2015-06-03T17:39:10Z Merged pull request |-\|/-| 521 +1 −1 swift 1|-\|/-| 
+TaskDescription.waitForAllTaskTermination() on waitOnCommand() |-\|/-| 2015-06-05T14:28:56Z Merged pull request |-\|/-| 519 +5 −3 Cartfile resolved Carthage/Checkouts/ReactiveTask swift 4|-\|/-| 
+Style: Convert errant spaces to tab. |-\|/-| 2015-06-03T13:33:47Z Merged pull request |-\|/-| 518 +1 −1 swift 1|-\|/-| 
+Copy dSYM files alongside built frameworks |-\|/-| 2015-07-13T12:58:08Z Merged pull request |-\|/-| 516 +27 −0 swift 2|-\|/-| 
+Refactored `userAgent` closure |-\|/-| 2015-06-02T13:08:58Z Merged pull request |-\|/-| 512 +6 −13 swift 1|-\|/-| 
+[Version] Only strip leading "v" or "version-" when parsing SemVer |-\|/-| 2015-06-01T20:44:52Z Merged pull request |-\|/-| 508 +10 −2 swift 2|-\|/-| 
+Add a first novice take on supporting -pre |-\|/-| 2015-06-08T08:20:08Z Closed pull request |-\|/-| 499 +78 −3 swift 2|-\|/-| 
+Call TaskDescription.waitForAllTaskTermination() on waitOnCommand() |-\|/-| 2015-05-28T07:56:20Z Closed pull request |-\|/-| 496 +3 −4 swift 2|-\|/-| 
+Add ContentsOfFileCache to contentsOfFileInRepository |-\|/-| 2015-05-26T04:00:56Z Closed pull request |-\|/-| 492 +39 −1 swift 1|-\|/-| 
+Treat symlinks to projects like regular projects. |-\|/-| 2015-05-27T01:08:05Z Merged pull request |-\|/-| 489 +15 −11 swift 1|-\|/-| 
+Limit schemes being built to shared ones. |-\|/-| 2015-05-27T01:06:53Z Merged pull request |-\|/-| 488 +6 −0 swift 1|-\|/-| 
+Add `DebugSinkOf` |-\|/-| 2015-05-28T09:22:13Z Closed pull request |-\|/-| 483 +8 −8 swift 4|-\|/-| 
+Fix hanging during `carthage update` |-\|/-| 2015-06-01T03:31:54Z Merged pull request |-\|/-| 474 +592 −715 gitmodules Cartfile resolved pbxproj xcscheme xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Runes Carthage/Checkouts/runes Carthage/Checkouts/xcconfigs swift 13|-\|/-| 
+Bump ReactiveTask to 0.5.1. |-\|/-| 2015-05-18T02:39:23Z Merged pull request |-\|/-| 472 +5 −5 Cartfile resolved Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result 4|-\|/-| 
+Fix multiple fetches for projects without tags |-\|/-| 2015-05-17T17:40:48Z Merged pull request |-\|/-| 471 +15 −1 swift 1|-\|/-| 
+Tighten version constraints for graph permutations |-\|/-| 2015-05-16T23:53:59Z Merged pull request |-\|/-| 470 +15 −6 swift 1|-\|/-| 
+permuteWith notifies its observer outside of the lock. |-\|/-| 2015-05-17T18:52:13Z Closed pull request |-\|/-| 461 +21 −10 swift 1|-\|/-| 
+[WIP] Politer interrupts |-\|/-| 2015-05-15T01:27:21Z Closed pull request |-\|/-| 460 +24 −4 swift 1|-\|/-| 
+Fix hanging on cloning or fetching which was introduced from 0.7 |-\|/-| 2015-05-12T13:34:20Z Merged pull request |-\|/-| 454 +1 −0 swift 1|-\|/-| 
+Fix #452 |-\|/-| 2015-05-11T21:12:23Z Merged pull request |-\|/-| 453 +3 −0 md 0|-\|/-| 
+Ask git not to prompt for credentials |-\|/-| 2015-05-11T16:47:49Z Merged pull request |-\|/-| 450 +1 −1 swift 1|-\|/-| 
+Don't count nested frameworks in frameworksInDirectory(_:) |-\|/-| 2015-05-11T20:22:01Z Merged pull request |-\|/-| 446 +7 −0 swift 1|-\|/-| 
+Fix building in symlinked checkouts |-\|/-| 2015-05-06T19:10:37Z Merged pull request |-\|/-| 440 +31 −17 swift 2|-\|/-| 
+Fix Authenticated GitHub API Usage |-\|/-| 2015-05-07T05:22:29Z Merged pull request |-\|/-| 434 +83 −25 swift 3|-\|/-| 
+build tools could use a clean function |-\|/-| 2015-05-03T23:05:51Z Closed pull request |-\|/-| 427 +262 −54 pbxproj swift 7|-\|/-| 
+When enumerating schemes, increase timeout for `xcodebuild -list` from 4s to 8s |-\|/-| 2015-04-13T04:59:06Z Merged pull request |-\|/-| 423 +25 −10 swift 2|-\|/-| 
+grep for and forward error-like messages from Xcode |-\|/-| 2015-04-07T05:11:26Z Merged pull request |-\|/-| 414 +16 −0 swift 1|-\|/-| 
+Use a refspec when fetching existing submodules |-\|/-| 2015-04-07T04:09:02Z Merged pull request |-\|/-| 413 +1 −1 swift 1|-\|/-| 
+Added link to directions on how to share a scheme |-\|/-| 2015-03-17T15:11:18Z Merged pull request |-\|/-| 392 +2 −1 md 0|-\|/-| 
+Add fallback to show a tag when the release title is empty |-\|/-| 2015-03-13T17:28:24Z Merged pull request |-\|/-| 388 +6 −1 swift 2|-\|/-| 
+Documented --use-ssh flag in README |-\|/-| 2015-03-07T22:36:41Z Closed pull request |-\|/-| 379 +1 −1 md 0|-\|/-| 
+Encapsulate log streaming in a FileSink type |-\|/-| 2015-03-09T15:17:33Z Merged pull request |-\|/-| 376 +181 −31 pbxproj swift 4|-\|/-| 
+[WIP] Show all projects that require a dependency |-\|/-| 2016-04-03T00:09:35Z Closed pull request |-\|/-| 375 +0 −0 0|-\|/-| 
+[WIP] Test the CLI |-\|/-| 2015-03-06T20:12:08Z Closed pull request |-\|/-| 369 +989 −8 pbxproj xcscheme swift plist zsh 9|-\|/-| 
+Upgrade dependencies |-\|/-| 2015-05-06T19:34:55Z Merged pull request |-\|/-| 368 +1,770 −1,418 gitmodules yml Cartfile private resolved pbxproj xcscheme xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/Box Carthage/Checkouts/Commandant Carthage/Checkouts/LlamaKit Carthage/Checkouts/Nimble Carthage/Checkouts/PrettyColors Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask Carthage/Checkouts/Result Carthage/Checkouts/runes Carthage/Checkouts/xcconfigs 21|-\|/-| 
+Detect duplicate Cartfile.private dependencies |-\|/-| 2015-03-05T18:41:01Z Merged pull request |-\|/-| 364 +244 −3 pbxproj swift Source/CarthageKitTests/DuplicateDependencies/Cartfile private 9|-\|/-| 
+Issue #234: suggest GitHub issue when no shared schemes in GitHub repository |-\|/-| 2015-02-26T06:09:26Z Merged pull request |-\|/-| 360 +24 −0 swift 2|-\|/-| 
+[WIP] Use per-project settings specified in Cartfile.private |-\|/-| 2016-04-03T00:10:42Z Closed pull request |-\|/-| 359 +103 −61 swift 7|-\|/-| 
+Don't synchronize every `stdoutHandle`. |-\|/-| 2015-03-07T06:59:51Z Closed pull request |-\|/-| 355 +38 −6 swift 2|-\|/-| 
+Don't pass in -sdk macosx |-\|/-| 2015-02-20T05:51:20Z Merged pull request |-\|/-| 349 +7 −1 swift 1|-\|/-| 
+Disable all Swift optimization for now |-\|/-| 2015-02-20T05:51:34Z Merged pull request |-\|/-| 348 +4 −0 pbxproj 1|-\|/-| 
+Include symlinks as-is in `carthage archive` |-\|/-| 2015-02-18T08:39:59Z Merged pull request |-\|/-| 344 +21 −2 swift 2|-\|/-| 
+Describe how to add a Carthage badge to a README |-\|/-| 2015-02-16T23:58:56Z Merged pull request |-\|/-| 338 +12 −0 md 0|-\|/-| 
+Use ogdl-swift for Cartfile parsing |-\|/-| 2015-02-17T22:38:09Z Merged pull request |-\|/-| 337 +278 −189 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Box Carthage/Checkouts/Commandant Carthage/Checkouts/Either Carthage/Checkouts/Madness Carthage/Checkouts/Prelude Carthage/Checkouts/ReactiveTask Carthage/Checkouts/ogdl-swift Carthage/Checkouts/xcconfigs 13|-\|/-| 
+[WIP] 0.8: Frogdl |-\|/-| 2016-04-03T00:10:34Z Closed pull request |-\|/-| 336 +280 −191 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Box Carthage/Checkouts/Commandant Carthage/Checkouts/Either Carthage/Checkouts/Madness Carthage/Checkouts/Prelude Carthage/Checkouts/ReactiveTask Carthage/Checkouts/ogdl-swift Carthage/Checkouts/xcconfigs 13|-\|/-| 
+Remove xcconfigs from public Cartfile. |-\|/-| 2015-02-15T06:01:08Z Merged pull request |-\|/-| 332 +0 −1 Cartfile 1|-\|/-| 
+Move dependencies for CLI tools into Cartfile.private |-\|/-| 2015-02-15T06:13:08Z Merged pull request |-\|/-| 331 +2 −2 Cartfile private 2|-\|/-| 
+Add `carthage archive` for packaging releases |-\|/-| 2015-02-13T22:11:35Z Merged pull request |-\|/-| 318 +155 −19 pbxproj swift 8|-\|/-| 
+Fix RACError.Empty for private repository checkouts |-\|/-| 2015-02-13T21:06:22Z Merged pull request |-\|/-| 316 +4 −3 swift 3|-\|/-| 
+Fetch GitHub Releases by specific tag |-\|/-| 2015-02-13T21:02:54Z Merged pull request |-\|/-| 315 +11 −14 swift 2|-\|/-| 
+Add a few lines about transitive dependencies |-\|/-| 2015-02-12T18:27:21Z Merged pull request |-\|/-| 310 +4 −0 md 0|-\|/-| 
+Explain how to create a Run Script |-\|/-| 2015-02-10T05:59:36Z Merged pull request |-\|/-| 306 +1 −1 md 0|-\|/-| 
+Document how to automatically rebuild dependencies |-\|/-| 2015-02-10T14:30:08Z Merged pull request |-\|/-| 303 +10 −0 md 0|-\|/-| 
+Add --platform flag to limit a build |-\|/-| 2015-02-10T14:29:58Z Merged pull request |-\|/-| 302 +267 −76 swift 1|-\|/-| 
+Fix duplicate repository fetching when using ref pins |-\|/-| 2015-02-13T19:13:49Z Merged pull request |-\|/-| 301 +4 −5 swift 1|-\|/-| 
+Add --verbose option to Update (and Bootstrap) |-\|/-| 2015-02-04T18:02:39Z Merged pull request |-\|/-| 297 +5 −3 swift 1|-\|/-| 
+PrettyColors — Take advantage of the terminal |-\|/-| 2015-02-08T06:54:21Z Merged pull request |-\|/-| 292 +205 −33 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/PrettyColors swift plist 14|-\|/-| 
+Build Option: --verbose  |-\|/-| 2015-02-03T20:03:15Z Merged pull request |-\|/-| 291 +18 −7 swift 2|-\|/-| 
+Set DSTROOT to TEMPORARY_FOLDER in XCODEFLAGS |-\|/-| 2015-01-20T04:27:24Z Merged pull request |-\|/-| 284 +3 −3 Makefile 1|-\|/-| 
+Fix copy-frameworks help bug |-\|/-| 2015-01-14T22:13:06Z Merged pull request |-\|/-| 280 +21 −15 swift 1|-\|/-| 
+Fix typo in copy-frameworks help |-\|/-| 2015-01-12T10:50:06Z Merged pull request |-\|/-| 276 +1 −1 swift 1|-\|/-| 
+Fix `copy-frameworks` segfault |-\|/-| 2015-01-15T19:49:14Z Merged pull request |-\|/-| 274 +7 −1 swift 1|-\|/-| 
+Lfsajlkdsjf |-\|/-| 2015-01-09T23:29:06Z Closed pull request |-\|/-| 272 +0 −4 md 0|-\|/-| 
+dsafjsdlk |-\|/-| 2015-01-09T23:29:08Z Closed pull request |-\|/-| 271 +0 −2 md 0|-\|/-| 
+Quick typo fix in readme for Run Script commands |-\|/-| 2015-01-09T17:46:38Z Closed pull request |-\|/-| 269 +2 −2 md 0|-\|/-| 
+Switch to relative symlinks between build folders |-\|/-| 2015-01-04T13:57:25Z Merged pull request |-\|/-| 265 +12 −3 swift 1|-\|/-| 
+Check if codesigning is allowed |-\|/-| 2014-12-30T23:13:20Z Merged pull request |-\|/-| 261 +11 −1 swift 1|-\|/-| 
+Automatically use binary frameworks from GitHub Releases |-\|/-| 2015-01-26T04:10:44Z Merged pull request |-\|/-| 257 +749 −106 gitmodules Cartfile resolved pbxproj xcworkspacedata Carthage/Checkouts/Argo Carthage/Checkouts/ReactiveCocoa md 7|-\|/-| 
+Make Cartfile optional if Cartfile.private exists |-\|/-| 2014-12-29T00:32:19Z Merged pull request |-\|/-| 256 +86 −23 pbxproj swift zip script/copy-fixtures 8|-\|/-| 
+[WIP] 0.6: If You Build It… |-\|/-| 2015-02-13T22:16:04Z Merged pull request |-\|/-| 255 +449 −114 pbxproj md swift plist 6|-\|/-| 
+[WIP] 0.6: If You Build It… |-\|/-| 2014-12-25T22:51:01Z Merged pull request |-\|/-| 253 +33 −9 Cartfile private md swift plist 6|-\|/-| 
+Migrate entry point and HelpCommand to Commandant |-\|/-| 2014-12-25T23:35:56Z Merged pull request |-\|/-| 252 +15 −107 Cartfile resolved pbxproj Carthage/Checkouts/Commandant swift 6|-\|/-| 
+Migrate HelpCommand to Commandant |-\|/-| 2014-12-25T23:03:04Z Closed pull request |-\|/-| 251 +3 −75 Cartfile resolved pbxproj Carthage/Checkouts/Commandant swift 5|-\|/-| 
+Explain why the Run Script phase is necessary |-\|/-| 2014-12-25T13:35:09Z Merged pull request |-\|/-| 250 +2 −0 md 0|-\|/-| 
+Add `carthage fetch` command |-\|/-| 2015-01-01T15:50:19Z Merged pull request |-\|/-| 249 +190 −128 pbxproj swift 4|-\|/-| 
+Cartfile.private |-\|/-| 2014-12-25T18:23:04Z Merged pull request |-\|/-| 247 +37 −13 Cartfile private resolved Carthage/Checkouts/Commandant Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask md swift 8|-\|/-| 
+Fix Cartfile.resolved anchor |-\|/-| 2014-12-25T00:59:14Z Merged pull request |-\|/-| 246 +1 −1 md 0|-\|/-| 
+Check minimum required Xcode version |-\|/-| 2014-12-25T01:03:57Z Merged pull request |-\|/-| 245 +27 −0 pbxproj script/check-xcode-version 2|-\|/-| 
+[WIP] Check out dependencies as Git subtrees |-\|/-| 2014-12-25T01:00:57Z Closed pull request |-\|/-| 242 +217 −42 swift 2|-\|/-| 
+Bump ReactiveCocoa |-\|/-| 2014-12-23T22:11:11Z Merged pull request |-\|/-| 241 +10 −15 resolved Carthage/Checkouts/Commandant Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/ReactiveTask swift 7|-\|/-| 
+0.5: Pit of Loneliness |-\|/-| 2014-12-25T22:51:00Z Merged pull request |-\|/-| 240 +33 −9 Cartfile private md swift plist 6|-\|/-| 
+Skip Git move/rename errors in migration |-\|/-| 2014-12-22T21:04:12Z Merged pull request |-\|/-| 238 +1 −1 swift 1|-\|/-| 
+Use Xcode 6.1.1 on Travis |-\|/-| 2014-12-23T05:09:41Z Merged pull request |-\|/-| 236 +1 −0 yml 1|-\|/-| 
+Zip RCL fixture (redux) |-\|/-| 2014-12-22T05:59:34Z Merged pull request |-\|/-| 232 +3 −70,492 zip gitattributes gitignore yml h plist m md Source/CarthageKitTests/fixtures/ReactiveCocoaLayout/Cartfile resolved 12|-\|/-| 
+Build using `xctool` in Travis-CI. |-\|/-| 2014-12-22T05:20:13Z Merged pull request |-\|/-| 230 +6 −5 yml Makefile 2|-\|/-| 
+Zip RCL fixture |-\|/-| 2014-12-22T05:52:24Z Closed pull request |-\|/-| 228 +329 −73,767 gitignore gitmodules resolved pbxproj xcworkspacedata checkout/Commandant → Carthage/Checkouts/Commandant checkout/LlamaKit → Carthage/Checkouts/LlamaKit checkout/Nimble → Carthage/Checkouts/Nimble checkout/Quick → Carthage/Checkouts/Quick checkout/ReactiveCocoa → Carthage/Checkouts/ReactiveCocoa checkout/ReactiveTask → Carthage/Checkouts/ReactiveTask checkout/xcconfigs → Carthage/Checkouts/xcconfigs gitattributes yml h plist 18|-\|/-| 
+Improve errors when no schemes are found |-\|/-| 2014-12-21T11:58:02Z Merged pull request |-\|/-| 227 +29 −5 swift 2|-\|/-| 
+Join build signals using concat(), not then() |-\|/-| 2014-12-21T11:59:46Z Merged pull request |-\|/-| 226 +1 −1 swift 1|-\|/-| 
+Automatically upload package via Travis when a tag is pushed |-\|/-| 2014-12-21T13:10:07Z Merged pull request |-\|/-| 225 +20 −197 yml script/cibuild awk 4|-\|/-| 
+Change Carthage paths |-\|/-| 2014-12-22T17:28:57Z Merged pull request |-\|/-| 224 +335 −73,773 gitignore gitmodules resolved pbxproj xcworkspacedata checkout/Commandant → Carthage/Checkouts/Commandant checkout/LlamaKit → Carthage/Checkouts/LlamaKit checkout/Nimble → Carthage/Checkouts/Nimble checkout/Quick → Carthage/Checkouts/Quick checkout/ReactiveCocoa → Carthage/Checkouts/ReactiveCocoa checkout/ReactiveTask → Carthage/Checkouts/ReactiveTask checkout/xcconfigs → Carthage/Checkouts/xcconfigs gitattributes yml h plist 18|-\|/-| 
+Updated install instructions |-\|/-| 2014-12-19T21:05:48Z Merged pull request |-\|/-| 223 +2 −0 md 0|-\|/-| 
+Use /usr/bin/env git |-\|/-| 2014-12-19T18:18:10Z Merged pull request |-\|/-| 221 +2 −2 swift 2|-\|/-| 
+Bump Commandant and ReactiveTask |-\|/-| 2014-12-19T18:33:17Z Merged pull request |-\|/-| 220 +8 −8 Cartfile lock checkout/Commandant checkout/ReactiveCocoa checkout/ReactiveTask 5|-\|/-| 
+Fix Implicitly Unwrapped nil value error in `XcodeSpec` using Optional NSString |-\|/-| 2014-12-18T05:05:37Z Merged pull request |-\|/-| 211 +7 −7 swift 1|-\|/-| 
+Fix Implicitly Unwrapped nil value error in `XcodeSpec` |-\|/-| 2014-12-15T18:20:48Z Closed pull request |-\|/-| 209 +12 −3 swift 1|-\|/-| 
+Add `copy-framework` |-\|/-| 2014-12-22T05:35:01Z Merged pull request |-\|/-| 208 +315 −32 pbxproj swift md 4|-\|/-| 
+Makefile: add prefix_install target. |-\|/-| 2014-12-09T04:19:55Z Merged pull request |-\|/-| 205 +11 −1 Makefile 1|-\|/-| 
+Use zipWith instead of combineLatestWith where appropriate |-\|/-| 2014-12-19T18:27:08Z Merged pull request |-\|/-| 204 +19 −24 Cartfile lock checkout/ReactiveCocoa checkout/ReactiveTask checkout/xcconfigs swift 10|-\|/-| 
+Add checks for 0.x SemVer incompatibility |-\|/-| 2014-12-08T16:38:15Z Merged pull request |-\|/-| 202 +36 −0 swift md 2|-\|/-| 
+Add a TaggedVersionNotFound error |-\|/-| 2014-12-07T17:28:52Z Merged pull request |-\|/-| 200 +43 −9 swift 2|-\|/-| 
+Update README.md |-\|/-| 2014-12-08T16:19:59Z Merged pull request |-\|/-| 198 +2 −0 md 0|-\|/-| 
+Homebrewable |-\|/-| 2014-12-11T19:02:46Z Merged pull request |-\|/-| 197 +23 −33 script/bootstrap script/cibuild 2|-\|/-| 
+Extend Cartfile syntax to support pinning to arbitrary branches/tags/commits |-\|/-| 2014-12-04T16:04:58Z Merged pull request |-\|/-| 196 +198 −143 swift 3|-\|/-| 
+0.4 |-\|/-| 2014-12-22T21:14:17Z Merged pull request |-\|/-| 195 +871 −73,969 gitignore gitmodules resolved pbxproj xcworkspacedata checkout/Commandant → Carthage/Checkouts/Commandant checkout/LlamaKit → Carthage/Checkouts/LlamaKit checkout/Nimble → Carthage/Checkouts/Nimble checkout/Quick → Carthage/Checkouts/Quick checkout/ReactiveCocoa → Carthage/Checkouts/ReactiveCocoa checkout/ReactiveTask → Carthage/Checkouts/ReactiveTask checkout/xcconfigs → Carthage/Checkouts/xcconfigs lock gitattributes yml h 18|-\|/-| 
+[WAITING] Extend Cartfile syntax to support pinning to arbitrary branches/tags/commits |-\|/-| 2014-12-04T04:40:18Z Closed pull request |-\|/-| 193 +192 −124 swift 3|-\|/-| 
+Explain --use-submodules in README and Artifacts doc |-\|/-| 2014-12-04T03:16:29Z Merged pull request |-\|/-| 192 +13 −3 md 0|-\|/-| 
+Fix nondeterministic Cartfile.lock ordering |-\|/-| 2014-12-04T04:37:06Z Merged pull request |-\|/-| 191 +103 −29 pbxproj swift CarthageKitTests/EmbeddedFrameworksCartfile CarthageKitTests/EmbeddedFrameworksContainerCartfile 5|-\|/-| 
+Add note on dependencies requiring an Xcode project |-\|/-| 2014-12-02T15:20:26Z Merged pull request |-\|/-| 186 +1 −1 md 0|-\|/-| 
+Always rewrite & sync submodule URL upon checkout |-\|/-| 2014-12-02T16:48:07Z Merged pull request |-\|/-| 185 +2 −0 swift 1|-\|/-| 
+Replace Task.swift with ReactiveTask framework |-\|/-| 2014-12-02T05:14:40Z Merged pull request |-\|/-| 182 +25 −429 gitmodules Cartfile lock checkout/ReactiveTask pbxproj xcworkspacedata swift 8|-\|/-| 
+Use installer for make install |-\|/-| 2014-12-01T22:41:41Z Merged pull request |-\|/-| 180 +3 −10 Makefile md 1|-\|/-| 
+Ignore the build directory. |-\|/-| 2014-12-01T20:21:44Z Merged pull request |-\|/-| 172 +1 −0 gitignore 1|-\|/-| 
+Display logo in README |-\|/-| 2014-12-01T20:32:45Z Merged pull request |-\|/-| 171 +1 −1 md 0|-\|/-| 
+Update LlamaKit to our fork |-\|/-| 2014-12-01T19:00:22Z Merged pull request |-\|/-| 168 +10 −9 gitmodules Cartfile lock checkout/Commandant checkout/LlamaKit checkout/Nimble checkout/ReactiveCocoa 7|-\|/-| 
+Always flush async output before exit |-\|/-| 2014-12-01T12:25:48Z Merged pull request |-\|/-| 167 +13 −4 swift 1|-\|/-| 
+Revert xcodebuild invocation logging |-\|/-| 2014-12-01T17:24:59Z Merged pull request |-\|/-| 165 +5 −8 swift 1|-\|/-| 
+Refactor for new ColdSignal API |-\|/-| 2014-12-01T19:23:13Z Closed pull request |-\|/-| 156 +132 −107 checkout/ReactiveCocoa swift 4|-\|/-| 
+Fix empty build logs |-\|/-| 2014-12-01T19:41:39Z Merged pull request |-\|/-| 155 +124 −149 Cartfile lock checkout/ReactiveCocoa swift 6|-\|/-| 
+Refactor to use dispatch_io for tasks, and wait for EOF |-\|/-| 2014-12-01T18:50:18Z Merged pull request |-\|/-| 153 +219 −60 swift 2|-\|/-| 
+Add Xcode version requirement for `make package` |-\|/-| 2014-11-27T16:21:23Z Closed pull request |-\|/-| 149 +1 −1 md 0|-\|/-| 
+Shadow print() and println() with thread-safe variants |-\|/-| 2014-11-27T16:33:28Z Merged pull request |-\|/-| 148 +51 −11 pbxproj swift 7|-\|/-| 
+Incorporate build settings from each target in a scheme |-\|/-| 2014-11-27T16:25:46Z Merged pull request |-\|/-| 146 +987 −621 swift 1|-\|/-| 
+Only build framework schemes |-\|/-| 2014-11-26T23:04:46Z Merged pull request |-\|/-| 141 +719 −12 swift h m 3|-\|/-| 
+Use pkgbuild instead of productbuild |-\|/-| 2014-11-30T17:53:35Z Merged pull request |-\|/-| 131 +55 −1 pbxproj Makefile plist 3|-\|/-| 
+Set up Travis CI |-\|/-| 2014-12-01T18:51:20Z Merged pull request |-\|/-| 130 +73 −17 yml swift gitignore p12 script/cibuild script/copy-fixtures 7|-\|/-| 
+Extract Command and ArgumentParser into Commandant.framework |-\|/-| 2014-11-22T13:30:35Z Merged pull request |-\|/-| 129 +30 −823 gitmodules Cartfile lock checkout/Commandant checkout/xcconfigs pbxproj xcscheme xcworkspacedata swift 11|-\|/-| 
+Add a logo |-\|/-| 2014-12-01T19:56:55Z Merged pull request |-\|/-| 123 +125 −0 png svg 10|-\|/-| 
+Add --use-submodules option to `carthage checkout` |-\|/-| 2014-11-21T21:27:33Z Merged pull request |-\|/-| 118 +143 −51 swift 3|-\|/-| 
+Improve Command implementation and user-visible help |-\|/-| 2014-11-21T20:54:39Z Merged pull request |-\|/-| 117 +139 −134 pbxproj swift 7|-\|/-| 
+Run test and uninstall using make |-\|/-| 2014-11-19T23:12:11Z Merged pull request |-\|/-| 110 +8 −1 Makefile 1|-\|/-| 
+Add a version command |-\|/-| 2014-11-19T22:51:04Z Merged pull request |-\|/-| 109 +39 −5 pbxproj plist Makefile swift 8|-\|/-| 
+Check dependencies out in the user’s `Caches` directory |-\|/-| 2014-12-01T22:29:50Z Merged pull request |-\|/-| 104 +32 −2 swift 2|-\|/-| 
+Stop writing console messages in CarthageKit |-\|/-| 2014-11-19T18:37:37Z Merged pull request |-\|/-| 103 +207 −135 pbxproj swift 9|-\|/-| 
+Scrub public APIs |-\|/-| 2014-11-19T00:05:51Z Merged pull request |-\|/-| 99 +27 −23 swift 7|-\|/-| 
+Describe differences from CocoaPods in the README |-\|/-| 2014-11-18T23:56:00Z Merged pull request |-\|/-| 98 +16 −0 md 0|-\|/-| 
+Document iOS 8, dynamic framework, and tag naming requirements |-\|/-| 2014-11-18T22:26:31Z Merged pull request |-\|/-| 97 +20 −4 md 0|-\|/-| 
+Delete existing submodule checkouts |-\|/-| 2014-11-18T06:36:05Z Merged pull request |-\|/-| 93 +8 −1 swift 1|-\|/-| 
+Note that Carthage.checkout can be overwritten |-\|/-| 2014-11-18T06:25:23Z Merged pull request |-\|/-| 92 +2 −0 md 0|-\|/-| 
+Add `make package` for building an installer package |-\|/-| 2014-11-18T06:07:46Z Merged pull request |-\|/-| 90 +22 −4 Makefile 1|-\|/-| 
+Serialize Git operations, add --use-ssh flag |-\|/-| 2014-11-18T05:19:00Z Merged pull request |-\|/-| 86 +72 −31 swift 6|-\|/-| 
+Way better documentation |-\|/-| 2014-11-17T22:55:57Z Merged pull request |-\|/-| 84 +157 −52 md 0|-\|/-| 
+Self-hosting Carthage |-\|/-| 2014-11-21T22:02:10Z Merged pull request |-\|/-| 83 +36 −10 gitmodules Cartfile lock checkout/LlamaKit checkout/Nimble checkout/Quick checkout/ReactiveCocoa checkout/xcconfigs pbxproj xcworkspacedata External/ReactiveCocoa 11|-\|/-| 
+Merge Swift modules for iOS Device and Simulator builds |-\|/-| 2014-11-17T20:57:12Z Merged pull request |-\|/-| 82 +117 −14 swift 1|-\|/-| 
+Fix building of nested dependencies |-\|/-| 2014-11-17T20:34:23Z Merged pull request |-\|/-| 78 +195 −121 swift gitattributes gitignore yml pbxproj xcscheme plist h m strings md xib json checkout/Archimedes/External/Quick/Externals/Nimble/test checkout/Archimedes/External/Quick/LICENSE icns checkout/Archimedes/External/Quick/Rakefile xcconfig checkout/Archimedes/script/bootstrap checkout/Archimedes/script/cibuild awk checkout/ReactiveCocoa/External/Quick/Externals/Nimble/test checkout/ReactiveCocoa/External/Quick/LICENSE 276|-\|/-| 
+`carthage bootstrap` implementation |-\|/-| 2014-11-16T23:41:16Z Merged pull request |-\|/-| 77 +142 −43 gitignore pbxproj swift 6|-\|/-| 
+Add support for `git` specifier in Cartfiles |-\|/-| 2014-11-17T04:34:48Z Merged pull request |-\|/-| 75 +208 −86 swift 3|-\|/-| 
+Add informative errors where missing |-\|/-| 2014-11-16T06:51:28Z Merged pull request |-\|/-| 74 +72 −42 swift 8|-\|/-| 
+Xcode.swift: Don't unwrap non-optional |-\|/-| 2014-11-15T15:20:40Z Closed pull request |-\|/-| 72 +1 −1 swift 1|-\|/-| 
+Automatically checkout dependencies' submodules |-\|/-| 2014-11-16T06:51:17Z Merged pull request |-\|/-| 69 +186 −4 swift 1|-\|/-| 
+Automatically build when updating, various command improvements |-\|/-| 2014-11-16T05:17:08Z Merged pull request |-\|/-| 65 +78 −26 swift 3|-\|/-| 
+Chain the builtDependencies signal with the locatorSignal |-\|/-| 2014-11-13T08:18:16Z Merged pull request |-\|/-| 58 +2 −5 swift 1|-\|/-| 
+carthage update |-\|/-| 2014-11-14T18:56:16Z Merged pull request |-\|/-| 57 +326 −44 Cartfile pbxproj swift 6|-\|/-| 
+Checkout tweaks |-\|/-| 2014-11-13T05:55:37Z Merged pull request |-\|/-| 55 +64 −84 swift 5|-\|/-| 
+Build only dependencies by default with `carthage build` |-\|/-| 2014-11-13T07:15:42Z Merged pull request |-\|/-| 54 +278 −146 xcscheme swift 3|-\|/-| 
+Suppress xcodebuild output from the terminal |-\|/-| 2014-11-11T19:47:50Z Merged pull request |-\|/-| 53 +110 −34 swift 5|-\|/-| 
+Dependency resolution algorithm |-\|/-| 2014-11-11T21:12:10Z Merged pull request |-\|/-| 52 +1,098 −412 pbxproj 1|-\|/-| 
+Automatically build a project's Carthage dependencies |-\|/-| 2014-11-10T19:28:15Z Merged pull request |-\|/-| 47 +72,065 −1,343 pbxproj swift 2|-\|/-| 
+Cartfile.lock parsing |-\|/-| 2014-11-10T19:27:27Z Merged pull request |-\|/-| 46 +178 −64 pbxproj swift 2|-\|/-| 
+Build for all platforms |-\|/-| 2014-11-07T21:55:35Z Merged pull request |-\|/-| 45 +2,046 −93 pbxproj swift 4|-\|/-| 
+Parse command line options, implement `carthage help` |-\|/-| 2014-10-31T19:53:05Z Merged pull request |-\|/-| 43 +590 −122 pbxproj xcscheme swift External/ReactiveCocoa 7|-\|/-| 
+VersionSpecifier.satisfiedBy(Version) |-\|/-| 2014-10-25T05:29:00Z Merged pull request |-\|/-| 42 +83 −24 swift 2|-\|/-| 
+Add intersection() over VersionSpecifiers |-\|/-| 2014-10-25T05:23:28Z Merged pull request |-\|/-| 41 +149 −18 swift 2|-\|/-| 
+Move to simpler Cartfile format |-\|/-| 2014-10-25T05:18:49Z Merged pull request |-\|/-| 34 +148 −136 pbxproj swift 5|-\|/-| 
+Add Makefile for easy building/installation of CLI |-\|/-| 2014-10-25T04:13:38Z Merged pull request |-\|/-| 33 +50 −0 pbxproj Makefile 2|-\|/-| 
+README-driven development |-\|/-| 2014-10-25T04:13:04Z Merged pull request |-\|/-| 32 +33 −8 md 0|-\|/-| 
+Update to the new RAC.Swift API |-\|/-| 2014-10-24T20:37:21Z Merged pull request |-\|/-| 31 +141 −79 pbxproj swift External/ReactiveCocoa 5|-\|/-| 
+Use SequenceType for CommandType's initializer |-\|/-| 2014-10-22T19:05:17Z Merged pull request |-\|/-| 30 +11 −8 swift 3|-\|/-| 
+Command different |-\|/-| 2014-10-15T21:51:48Z Merged pull request |-\|/-| 28 +23 −19 swift 3|-\|/-| 
+Checkout dependencies |-\|/-| 2014-11-13T05:06:33Z Merged pull request |-\|/-| 27 +180 −6 pbxproj swift 8|-\|/-| 
+Build project directories using xcodebuild |-\|/-| 2014-10-25T05:12:02Z Merged pull request |-\|/-| 26 +992 −18 pbxproj swift 2|-\|/-| 
+Create Task module for shelling out |-\|/-| 2014-10-13T11:25:00Z Merged pull request |-\|/-| 25 +196 −1 pbxproj swift External/ReactiveCocoa 4|-\|/-| 
+Create enclosing xcworkspace, add ReactiveCocoa |-\|/-| 2014-10-12T17:44:26Z Merged pull request |-\|/-| 24 +50 −249 gitmodules pbxproj xcworkspacedata External/LlamaKit External/Quick External/ReactiveCocoa External/xcconfigs 7|-\|/-| 
+Lexicographical compare |-\|/-| 2014-10-11T18:53:58Z Merged pull request |-\|/-| 23 +21 −9 swift 2|-\|/-| 
+Do commands a little differently |-\|/-| 2014-10-12T10:03:58Z Closed pull request |-\|/-| 22 +23 −16 swift 1|-\|/-| 
+Add ReactiveCocoa, create Task module for shelling out |-\|/-| 2014-10-12T03:06:10Z Closed pull request |-\|/-| 21 +381 −119 gitmodules pbxproj swift External/LlamaKit External/Quick External/ReactiveCocoa External/xcconfigs 8|-\|/-| 
+We're a dependency manager, not a package manager |-\|/-| 2014-10-11T04:40:56Z Merged pull request |-\|/-| 17 +2 −2 md 0|-\|/-| 
+Implement a basic structure for CLI commands |-\|/-| 2014-10-12T02:30:51Z Merged pull request |-\|/-| 16 +506 −97 pbxproj xcscheme h swift plist script/extract-tool 10|-\|/-| 
+[WIP] Script Xcode to add dependencies automatically |-\|/-| 2014-11-19T19:19:36Z Closed pull request |-\|/-| 14 +108 −25 pbxproj swift 3|-\|/-| 
+Cartfile |-\|/-| 2014-10-11T00:14:54Z Merged pull request |-\|/-| 13 +591 −45 gitmodules pbxproj xcscheme swift json External/LlamaKit External/Quick 12|-\|/-| 
+Bootstrap Xcode project |-\|/-| 2014-10-10T20:44:59Z Merged pull request |-\|/-| 4 +1,300 −0 gitmodules pbxproj xcworkspacedata xcscheme swift h plist External/xcconfigs md 11|-\|/-| 
+Suggest a CONTRIBUTING.md |-\|/-| 2014-10-10T20:35:48Z Merged pull request |-\|/-| 2 +20 −0 md 0|-\|/-| 
+First draft of a README |-\|/-| 2014-10-10T20:13:32Z Merged pull request |-\|/-| 1 +20 −5 md 0|-\|/-| 

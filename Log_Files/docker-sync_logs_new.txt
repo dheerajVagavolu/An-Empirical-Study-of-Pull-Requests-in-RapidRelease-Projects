@@ -1,0 +1,171 @@
+Bumping eugenmayer/unison image for native_osx too |-\|/-| 2019-12-10T09:46:38Z Merged pull request |-\|/-| 703 +1 −1 rb 1|-\|/-| 
+Unison needs to compile with ocaml 4.08.1 |-\|/-| 2019-12-03T06:26:00Z Merged pull request |-\|/-| 700 +7 −4 rst 1|-\|/-| 
+Address issue #695 |-\|/-| 2019-11-23T17:34:26Z Merged pull request |-\|/-| 698 +1 −1 thor 1|-\|/-| 
+Check the exit code of upgrade command and handle it appropriately |-\|/-| 2019-11-23T17:36:58Z Merged pull request |-\|/-| 693 +7 −3 rb 1|-\|/-| 
+Use ocaml 4.08.1 compiled Unison image |-\|/-| 2019-11-02T13:00:17Z Merged pull request |-\|/-| 689 +1 −1 rb 1|-\|/-| 
+Fix spelling mistakes |-\|/-| 2019-10-08T19:29:02Z Merged pull request |-\|/-| 682 +5 −5 rst 5|-\|/-| 
+Add troubleshooting docs for sync stopping |-\|/-| 2019-08-23T17:05:16Z Merged pull request |-\|/-| 672 +76 −47 docs/Makefile md py rst 6|-\|/-| 
+Added non-root installation path notes. |-\|/-| 2019-07-26T16:53:40Z Merged pull request |-\|/-| 669 +19 −0 rst 1|-\|/-| 
+Correct typo |-\|/-| 2019-06-18T15:58:00Z Merged pull request |-\|/-| 664 +1 −1 rst 1|-\|/-| 
+Update installation.rst |-\|/-| 2019-04-22T20:14:37Z Merged pull request |-\|/-| 657 +3 −1 rst 1|-\|/-| 
+[RST Doc] Fix mispelling |-\|/-| 2019-04-05T10:04:06Z Merged pull request |-\|/-| 656 +1 −1 rst 1|-\|/-| 
+remove leftover call to check_unison_image |-\|/-| 2019-02-08T07:47:24Z Merged pull request |-\|/-| 643 +0 −10 rb 1|-\|/-| 
+Fix rspec |-\|/-| 2019-02-07T10:27:20Z Merged pull request |-\|/-| 640 +123 −68 lock rb 12|-\|/-| 
+Migrate wiki content to Read The Docs |-\|/-| 2019-02-07T10:28:35Z Merged pull request |-\|/-| 638 +2,462 −0 gitignore docs/Makefile md png rst 7|-\|/-| 
+allow to specific multiple time the sync_name when start |-\|/-| 2019-02-25T08:07:47Z Merged pull request |-\|/-| 637 +9 −2 thor 1|-\|/-| 
+brew is mac specific tools |-\|/-| 2019-02-06T07:44:27Z Merged pull request |-\|/-| 636 +6 −1 rb 1|-\|/-| 
+Fix logic for detecting brew unox installation |-\|/-| 2019-02-05T11:31:01Z Closed pull request |-\|/-| 634 +10 −3 rb 1|-\|/-| 
+WIP: Fix launching of docker-sync via Linux and WSL |-\|/-| 2019-01-27T11:58:08Z Merged pull request |-\|/-| 630 +1 −1 rb 1|-\|/-| 
+Fix exit-code |-\|/-| 2018-11-28T19:07:14Z Merged pull request |-\|/-| 622 +2 −2 thor 1|-\|/-| 
+Fixed regression of 9ffd23b |-\|/-| 2018-10-02T11:21:20Z Merged pull request |-\|/-| 606 +1 −1 rb 1|-\|/-| 
+Na wait for rsync daemon |-\|/-| 2018-09-07T11:45:32Z Merged pull request |-\|/-| 604 +17 −2 rb 1|-\|/-| 
+WIP: Provide the means to support 1-way synchronization of files from cont… |-\|/-| 2019-02-06T08:19:06Z Closed pull request |-\|/-| 602 +197 −1 rb 3|-\|/-| 
+Fix exception thrown on docker-sync stop with unison setup |-\|/-| 2018-05-27T09:47:19Z Merged pull request |-\|/-| 578 +5 −2 rb 1|-\|/-| 
+replaced &> /dev/null with 2>&1 > /dev/null |-\|/-| 2018-05-14T22:29:45Z Merged pull request |-\|/-| 577 +3 −3 rb 3|-\|/-| 
+Change image modification example |-\|/-| 2018-03-28T17:15:23Z Closed pull request |-\|/-| 563 +4 −4 yml 1|-\|/-| 
+Improve grammar |-\|/-| 2018-03-16T15:12:06Z Merged pull request |-\|/-| 549 +13 −13 html 1|-\|/-| 
+setup native_osx and unisson to work with the same docker image |-\|/-| 2018-03-14T19:11:28Z Merged pull request |-\|/-| 544 +21 −5 rb 2|-\|/-| 
+Fix monit_enabled typo / docs mismatch |-\|/-| 2018-03-14T18:44:04Z Closed pull request |-\|/-| 543 +1 −1 rb 1|-\|/-| 
+Fix docker environment vars for unison strategy |-\|/-| 2018-03-14T14:34:02Z Merged pull request |-\|/-| 542 +1 −1 rb 1|-\|/-| 
+Foreground typo? |-\|/-| 2018-03-07T17:33:51Z Merged pull request |-\|/-| 535 +1 −1 thor 1|-\|/-| 
+Use Monit to auto restart if CPU usage high in Native OSX strategy |-\|/-| 2018-01-24T09:44:14Z Merged pull request |-\|/-| 521 +18 −0 yml rb 2|-\|/-| 
+Fix typo. |-\|/-| 2017-12-01T09:39:49Z Merged pull request |-\|/-| 510 +1 −1 rb 1|-\|/-| 
+Fix Docker configuration detection in RSpec |-\|/-| 2017-11-10T07:58:49Z Merged pull request |-\|/-| 496 +1 −1 rb 1|-\|/-| 
+Update readme with d4m issue |-\|/-| 2017-11-09T09:20:27Z Closed pull request |-\|/-| 495 +3 −0 md 0|-\|/-| 
+fix broken rspec |-\|/-| 2017-11-08T07:14:22Z Merged pull request |-\|/-| 490 +4 −4 rb 1|-\|/-| 
+Use pgrep for Docker for Mac detection |-\|/-| 2018-03-11T06:44:11Z Closed pull request |-\|/-| 487 +2 −2 rb 2|-\|/-| 
+Fix sync config checks (unison, rsync, fswatch) |-\|/-| 2017-11-01T07:36:22Z Merged pull request |-\|/-| 484 +4 −3 rb 1|-\|/-| 
+Fix D4M edge strategy detection |-\|/-| 2017-10-31T08:44:42Z Merged pull request |-\|/-| 478 +3 −5 rb 2|-\|/-| 
+Fixing prefer dest |-\|/-| 2018-03-11T06:51:15Z Merged pull request |-\|/-| 475 +6 −5 rb 1|-\|/-| 
+Updating the stack start note |-\|/-| 2017-10-20T17:48:51Z Merged pull request |-\|/-| 474 +1 −1 thor 1|-\|/-| 
+Add native osx diagram |-\|/-| 2017-10-23T08:03:21Z Merged pull request |-\|/-| 465 +0 −1 gitkeep png 2|-\|/-| 
+Edit native_osx to support spaced directories. |-\|/-| 2017-09-09T20:08:08Z Merged pull request |-\|/-| 459 +2 −2 rb 1|-\|/-| 
+FreeBSD support using rsync mechanism |-\|/-| 2017-09-11T16:51:20Z Merged pull request |-\|/-| 458 +49 −2 yml rb 7|-\|/-| 
+fix default host ip detection in non osx environment |-\|/-| 2017-08-29T07:15:43Z Merged pull request |-\|/-| 445 +7 −9 rb 1|-\|/-| 
+Added support for --sync-prefix to add to sync_name |-\|/-| 2017-08-20T22:00:33Z Closed pull request |-\|/-| 440 +24 −21 rb thor 3|-\|/-| 
+unison volume mount destination |-\|/-| 2017-07-16T13:56:19Z Merged pull request |-\|/-| 433 +1 −1 yml 1|-\|/-| 
+Fix typo: enaugh -> enough. |-\|/-| 2017-07-06T05:32:43Z Merged pull request |-\|/-| 432 +1 −1 rb 1|-\|/-| 
+Print the current sync time along with the watcher's output |-\|/-| 2017-07-06T22:23:55Z Merged pull request |-\|/-| 431 +15 −38 gitignore rb 5|-\|/-| 
+Fix bug with unison with spaces in the "prefer" option |-\|/-| 2017-07-06T22:25:23Z Merged pull request |-\|/-| 426 +3 −3 rb 1|-\|/-| 
+Add integration tests |-\|/-| 2017-07-11T08:45:27Z Merged pull request |-\|/-| 422 +381 −58 gitignore rspec yml Gemfile lock md bin/console iml rb spec/fixtures/app_skeleton/Makefile c 15|-\|/-| 
+Added .idea to .gitignore |-\|/-| 2017-05-29T10:23:36Z Closed pull request |-\|/-| 412 +1 −1 gitignore 1|-\|/-| 
+Fix link |-\|/-| 2017-05-24T08:50:48Z Merged pull request |-\|/-| 409 +1 −1 html 1|-\|/-| 
+Add specs for dependencies |-\|/-| 2017-05-29T18:51:09Z Merged pull request |-\|/-| 407 +700 −19 lock rb 16|-\|/-| 
+Change 'raise' to 'say_status' in native_osx.rb |-\|/-| 2017-05-23T17:55:37Z Merged pull request |-\|/-| 406 +1 −1 rb 1|-\|/-| 
+Fix typo related to overlays |-\|/-| 2017-05-20T19:07:37Z Merged pull request |-\|/-| 404 +1 −1 html 1|-\|/-| 
+set max_attempt option in `@config_syncs` using value from `@config_global` |-\|/-| 2017-05-20T07:15:04Z Merged pull request |-\|/-| 403 +8 −1 rb 2|-\|/-| 
+Fix license in gemspec to be consistent with https://spdx.org/licenses/ |-\|/-| 2017-05-16T04:13:50Z Merged pull request |-\|/-| 396 +1 −1 gemspec 1|-\|/-| 
+Release/0.4 |-\|/-| 2017-05-15T16:34:22Z Merged pull request |-\|/-| 394 +2 −7 VERSION iml rb 3|-\|/-| 
+Refactor preconditions |-\|/-| 2017-05-15T20:16:11Z Merged pull request |-\|/-| 391 +393 −508 lock rb 17|-\|/-| 
+Fix a typo in operator passed to Hash#key? |-\|/-| 2017-05-14T11:11:46Z Merged pull request |-\|/-| 390 +1 −1 rb 1|-\|/-| 
+Add a development console |-\|/-| 2017-05-13T06:02:26Z Merged pull request |-\|/-| 389 +25 −2 Gemfile lock bin/console gemspec 4|-\|/-| 
+Fix RubyVersionMismatch error when using RVM |-\|/-| 2017-05-11T20:51:25Z Merged pull request |-\|/-| 381 +6 −1 rb 1|-\|/-| 
+Don't enforce update by default |-\|/-| 2017-05-09T19:18:30Z Closed pull request |-\|/-| 379 +1 −1 rb 1|-\|/-| 
+Wait for Unison to start before tailing its log |-\|/-| 2017-05-07T20:18:19Z Closed pull request |-\|/-| 362 +22 −1 rb 1|-\|/-| 
+Fix 'private method get_container_name' error in remotelogs watch strategy |-\|/-| 2017-05-07T19:50:57Z Merged pull request |-\|/-| 361 +4 −4 rb 1|-\|/-| 
+Fix typo in sync.thor |-\|/-| 2017-05-07T09:00:09Z Merged pull request |-\|/-| 359 +1 −1 thor 1|-\|/-| 
+Tweak: cleanup grammar |-\|/-| 2017-05-05T19:27:10Z Merged pull request |-\|/-| 352 +2 −2 rb 1|-\|/-| 
+Fix typos in deprecations warnings... |-\|/-| 2017-05-05T07:02:38Z Merged pull request |-\|/-| 338 +3 −3 thor 1|-\|/-| 
+Make preconditions more readable |-\|/-| 2017-05-12T08:04:30Z Closed pull request |-\|/-| 337 +43 −114 rb 2|-\|/-| 
+Delete idea folder |-\|/-| 2017-05-02T16:39:23Z Closed pull request |-\|/-| 327 +0 −124 xml 12|-\|/-| 
+raise error instead of failing silently when unison failed to start in time |-\|/-| 2017-05-01T15:34:30Z Merged pull request |-\|/-| 325 +1 −1 rb 1|-\|/-| 
+bugfix: undefined local variable or method `config_path' for #<Sync: **> |-\|/-| 2017-05-01T15:34:58Z Merged pull request |-\|/-| 324 +1 −1 thor 1|-\|/-| 
+Fix wrong link to upgrade guide |-\|/-| 2017-04-27T06:24:14Z Merged pull request |-\|/-| 315 +1 −1 rb 1|-\|/-| 
+bugfix: src should be expanded relative to where the config is found |-\|/-| 2017-04-28T06:01:33Z Merged pull request |-\|/-| 314 +111 −16 yml rb gitkeep 7|-\|/-| 
+Remove unused install_pip method |-\|/-| 2017-04-26T12:41:34Z Closed pull request |-\|/-| 312 +0 −36 rb 1|-\|/-| 
+add sync strategy for native docker volume |-\|/-| 2017-05-03T12:44:17Z Merged pull request |-\|/-| 310 +141 −35 yml rb 6|-\|/-| 
+bugfix: method_missing watch_fork on dummy & fswatch watch strategy |-\|/-| 2017-04-26T09:59:56Z Merged pull request |-\|/-| 309 +11 −0 rb 2|-\|/-| 
+bugfix on missing config_path when using fswatch as watch_strategy |-\|/-| 2017-04-26T06:41:10Z Merged pull request |-\|/-| 307 +40 −10 rb 7|-\|/-| 
+Add `max_attempt` options |-\|/-| 2017-04-25T12:56:30Z Merged pull request |-\|/-| 306 +2 −0 yml 1|-\|/-| 
+fix some typo |-\|/-| 2017-04-25T05:14:20Z Merged pull request |-\|/-| 303 +4 −4 rb 2|-\|/-| 
+implemented precondition os based strategy, implemented brew being ma… |-\|/-| 2017-04-24T19:23:27Z Merged pull request |-\|/-| 301 +418 −162 lock VERSION gemspec iml rb 9|-\|/-| 
+Refactor config loading process by turning config into a PORO instead of hash |-\|/-| 2017-04-22T20:42:36Z Merged pull request |-\|/-| 299 +984 −280 xml rspec Gemfile lock iml rb 10|-\|/-| 
+Refactored pip install method and added watchdog installation to fix … |-\|/-| 2017-04-13T14:47:27Z Merged pull request |-\|/-| 295 +65 −16 gitignore iml rb 3|-\|/-| 
+Return an error exit code when trying to stop a daemon which is not running |-\|/-| 2017-04-13T13:04:11Z Merged pull request |-\|/-| 294 +2 −3 thor 1|-\|/-| 
+Make docker-sync-daemon stop synchronously |-\|/-| 2017-04-24T14:51:28Z Merged pull request |-\|/-| 293 +27 −2 rb thor 2|-\|/-| 
+add `max_attempt` options |-\|/-| 2017-04-25T12:56:51Z Merged pull request |-\|/-| 291 +2 −1 rb 1|-\|/-| 
+Updating precondition checks for unison-fsmonitor compatibility |-\|/-| 2017-04-13T14:56:42Z Closed pull request |-\|/-| 290 +11 −11 rb 2|-\|/-| 
+make name of env-file configureable |-\|/-| 2017-03-20T17:39:29Z Merged pull request |-\|/-| 274 +9 −3 rb 2|-\|/-| 
+Make 'dest' optional in sync configuration |-\|/-| 2017-03-20T17:41:35Z Merged pull request |-\|/-| 271 +10 −20 yml rb 2|-\|/-| 
+fix: parameter config_string of interpolate_config_string |-\|/-| 2017-03-13T20:07:01Z Merged pull request |-\|/-| 270 +1 −1 rb 1|-\|/-| 
+Feature/inline configuration |-\|/-| 2017-03-13T07:25:27Z Merged pull request |-\|/-| 268 +15 −6 rb 2|-\|/-| 
+Show a warning rather than an error |-\|/-| 2017-02-24T07:19:13Z Merged pull request |-\|/-| 262 +1 −1 thor 1|-\|/-| 
+Print version even with no command (fixes #255) |-\|/-| 2017-02-22T07:09:47Z Merged pull request |-\|/-| 261 +13 −24 thor 1|-\|/-| 
+Better handle an unclean stop of the daemon |-\|/-| 2017-02-21T17:27:00Z Merged pull request |-\|/-| 257 +1 −1 thor 1|-\|/-| 
+fix checking for 'default' as value for sync_prefer |-\|/-| 2017-02-20T09:33:55Z Merged pull request |-\|/-| 251 +2 −6 rb 1|-\|/-| 
+disable unison auto-detection in non osx environment |-\|/-| 2017-02-21T10:07:28Z Closed pull request |-\|/-| 250 +16 −6 rb 2|-\|/-| 
+Add docker-sync log task |-\|/-| 2017-02-16T16:15:01Z Merged pull request |-\|/-| 241 +32 −7 thor 1|-\|/-| 
+Mention the availability of daemon mode when starting in non-daemon mode (resolves #234) |-\|/-| 2017-02-15T21:10:14Z Merged pull request |-\|/-| 240 +7 −1 thor 2|-\|/-| 
+docker-sync-daemon stub (resolves #235) |-\|/-| 2017-02-17T13:21:35Z Closed pull request |-\|/-| 239 +43 −1 bin/docker-sync-daemon gemspec thor 3|-\|/-| 
+'clean' now also removes the .docker-sync directory (resolves #232) |-\|/-| 2017-02-15T17:00:31Z Merged pull request |-\|/-| 237 +11 −0 thor 1|-\|/-| 
+Rename log file to be .log (Resolves #233) |-\|/-| 2017-02-15T22:59:12Z Merged pull request |-\|/-| 236 +2 −1 thor 1|-\|/-| 
+Be able to use environment variables in docker-sync.yml |-\|/-| 2017-02-12T10:54:59Z Merged pull request |-\|/-| 230 +36 −5 lock gemspec rb 5|-\|/-| 
+Add daemonize option to 'docker-sync start', closes #51, replaces #65 |-\|/-| 2017-02-14T08:01:16Z Merged pull request |-\|/-| 229 +102 −69 lock gemspec rb thor 5|-\|/-| 
+support passing & auto-translating prefer options to unison |-\|/-| 2017-02-17T10:11:22Z Merged pull request |-\|/-| 225 +9 −0 rb 1|-\|/-| 
+Update unison strategy to use -testserver instead of sleep |-\|/-| 2017-02-14T23:09:11Z Merged pull request |-\|/-| 224 +12 −2 rb 1|-\|/-| 
+Support arrays in compose file paths |-\|/-| 2017-01-26T16:55:32Z Merged pull request |-\|/-| 222 +27 −10 rb 1|-\|/-| 
+Fix typo, condiguration => configuration |-\|/-| 2017-01-17T06:01:04Z Merged pull request |-\|/-| 215 +1 −1 rb 1|-\|/-| 
+Change docker-compose req to '~> 1.0.2' in gemspec |-\|/-| 2016-12-15T03:34:57Z Closed pull request |-\|/-| 197 +1 −1 gemspec 1|-\|/-| 
+Fix the 'compose-force-build' global option |-\|/-| 2016-12-12T07:35:20Z Merged pull request |-\|/-| 196 +2 −2 rb 1|-\|/-| 
+change error message on use of sync_group for unison strategy issue #193 |-\|/-| 2016-12-08T10:47:02Z Merged pull request |-\|/-| 194 +1 −1 rb 1|-\|/-| 
+Preserve forward slash in sync src after expanding path |-\|/-| 2016-12-01T08:28:28Z Merged pull request |-\|/-| 188 +8 −3 rb 1|-\|/-| 
+Rsync single file |-\|/-| 2016-12-02T16:56:11Z Merged pull request |-\|/-| 179 +16 −2 yml 1|-\|/-| 
+Capitalize lowercased letter |-\|/-| 2016-11-22T22:45:28Z Merged pull request |-\|/-| 178 +1 −1 rb 1|-\|/-| 
+remove rsync trailing slash in command args |-\|/-| 2016-11-15T10:04:32Z Merged pull request |-\|/-| 173 +2 −2 yml rb 2|-\|/-| 
+Add y/N choice message |-\|/-| 2016-11-11T08:50:12Z Merged pull request |-\|/-| 171 +2 −2 rb 2|-\|/-| 
+simplify check for new images |-\|/-| 2016-11-07T15:15:10Z Merged pull request |-\|/-| 168 +34 −19 rb 1|-\|/-| 
+Don't hardcode the path for sed - e.g. sed is in /bin on most Linux systems |-\|/-| 2016-11-15T10:06:51Z Merged pull request |-\|/-| 166 +2 −1 rb 1|-\|/-| 
+Fix typo in command output |-\|/-| 2016-11-01T16:50:56Z Merged pull request |-\|/-| 165 +2 −2 thor 2|-\|/-| 
+Capitalize Docker word |-\|/-| 2016-10-15T22:25:37Z Merged pull request |-\|/-| 158 +4 −4 html 1|-\|/-| 
+Typo fixes |-\|/-| 2016-10-05T08:56:07Z Merged pull request |-\|/-| 154 +3 −3 html 1|-\|/-| 
+configuration to pass --build flag to `docker-compose up` |-\|/-| 2016-09-22T14:53:14Z Merged pull request |-\|/-| 141 +12 −8 lock gemspec rb 3|-\|/-| 
+Update README.md |-\|/-| 2016-09-12T18:04:22Z Merged pull request |-\|/-| 140 +1 −1 md 0|-\|/-| 
+Support configuring rsync allowed hosts and copying symlinks |-\|/-| 2016-10-04T12:18:36Z Closed pull request |-\|/-| 139 +14 −2 gemspec rb 2|-\|/-| 
+do no longer use localhost, use 127.0.0.1 instead |-\|/-| 2016-08-30T15:03:52Z Merged pull request |-\|/-| 134 +4 −4 yml rb 2|-\|/-| 
+Feature/unison better path ignore |-\|/-| 2016-08-30T14:44:59Z Merged pull request |-\|/-| 132 +55 −34 yml rb 3|-\|/-| 
+fix container detection |-\|/-| 2016-08-30T10:56:45Z Merged pull request |-\|/-| 129 +6 −6 rb 3|-\|/-| 
+[TASK] Add GPL v3 license file |-\|/-| 2016-08-20T09:38:49Z Merged pull request |-\|/-| 123 +674 −0 0|-\|/-| 
+[TASK] Unison: fix & improve documentation example |-\|/-| 2016-08-30T14:40:13Z Merged pull request |-\|/-| 122 +18 −2 yml 1|-\|/-| 
+[BUGFIX] Use sync_host_ip for docker run command |-\|/-| 2016-08-20T12:08:55Z Merged pull request |-\|/-| 121 +1 −1 rb 1|-\|/-| 
+Specify gemspec in Gemfile |-\|/-| 2016-08-17T11:01:25Z Merged pull request |-\|/-| 113 +13 −12 Gemfile lock 2|-\|/-| 
+[BUGFIX] Unison output not displayed on initial sync #109 |-\|/-| 2016-08-20T12:09:09Z Merged pull request |-\|/-| 110 +1 −0 rb 1|-\|/-| 
+[BUGFIX #103] Unison reports too many roots |-\|/-| 2016-08-09T20:51:57Z Merged pull request |-\|/-| 104 +1 −1 rb 1|-\|/-| 
+implemented upgrade checks hooks, inform user about the unison rename… |-\|/-| 2016-08-09T17:58:42Z Merged pull request |-\|/-| 102 +72 −1 rb thor 3|-\|/-| 
+[TASK] Update warning message about unox |-\|/-| 2016-08-09T17:35:04Z Closed pull request |-\|/-| 101 +1 −1 rb 1|-\|/-| 
+[BUGFIX] Unison doesn't check for notify_terminal |-\|/-| 2016-08-09T17:05:07Z Merged pull request |-\|/-| 100 +3 −1 rb 1|-\|/-| 
+[BUGFIX] Missing unox requirement |-\|/-| 2016-08-09T17:05:17Z Merged pull request |-\|/-| 96 +2 −1 rb 1|-\|/-| 
+[BUGFIX] osx vanilla sed doesn't support the -r option |-\|/-| 2016-08-09T17:05:25Z Merged pull request |-\|/-| 95 +1 −1 rb 1|-\|/-| 
+[FEATURE #84] Pass the timezone of host as env var |-\|/-| 2016-08-02T22:29:24Z Merged pull request |-\|/-| 89 +3 −2 rb 3|-\|/-| 
+[BUGFIX #87] Container may fails to start |-\|/-| 2016-08-02T22:30:28Z Merged pull request |-\|/-| 88 +6 −7 rb 3|-\|/-| 
+remove unison-dualiside #78 |-\|/-| 2016-08-01T16:35:37Z Merged pull request |-\|/-| 82 +1 −230 yml rb 5|-\|/-| 
+rename unison to unison-onesided, #75 |-\|/-| 2016-08-01T16:38:25Z Merged pull request |-\|/-| 81 +18 −10 yml rb 4|-\|/-| 
+refactor Docker_Rsync to Docker_sync, will break scaffolding though! |-\|/-| 2016-08-01T16:47:59Z Merged pull request |-\|/-| 67 +7 −7 rb thor 3|-\|/-| 
+implemented cli-mode selection, important for dev but also when using… |-\|/-| 2016-07-25T12:38:11Z Merged pull request |-\|/-| 66 +43 −24 VERSION sh iml yml rb 7|-\|/-| 
+Add daemonize option to 'docker-sync start', closes #51 |-\|/-| 2017-02-12T09:08:32Z Closed pull request |-\|/-| 65 +71 −67 lock gemspec thor 3|-\|/-| 
+Unison dual-sync feature `unox` for efficient syncing and with user/id mapping |-\|/-| 2016-08-02T16:24:25Z Merged pull request |-\|/-| 64 +351 −13 sh txt yml rb 8|-\|/-| 
+Add terminal-notifier in order to notify when synced |-\|/-| 2016-07-21T11:38:51Z Merged pull request |-\|/-| 63 +22 −1 gitignore Gemfile lock gemspec yml rb 8|-\|/-| 
+[BUGFIX] Bad phrase about initial sync |-\|/-| 2016-07-17T09:48:19Z Merged pull request |-\|/-| 62 +2 −2 rb 2|-\|/-| 
+[FEATURE] Add project-name like -p option of docker-compose |-\|/-| 2016-07-16T16:59:11Z Closed pull request |-\|/-| 61 +48 −11 md iml yml rb 7|-\|/-| 
+Add a Gitter chat badge to README.md |-\|/-| 2016-07-15T19:32:24Z Merged pull request |-\|/-| 59 +3 −0 md 0|-\|/-| 
+[TASK] Reduce unison verbosity and enable for dual |-\|/-| 2016-07-15T19:05:08Z Merged pull request |-\|/-| 58 +2 −2 rb 2|-\|/-| 
+[FEATURE] Start / wtop watch from sync_manager |-\|/-| 2016-07-15T19:06:55Z Merged pull request |-\|/-| 57 +12 −0 rb 1|-\|/-| 
+[BUGFIX] Relative path should be from config file |-\|/-| 2016-07-15T19:19:53Z Merged pull request |-\|/-| 55 +1 −1 rb 1|-\|/-| 
+[BUGFIX] strategy needs next version of unison |-\|/-| 2016-07-15T13:23:47Z Merged pull request |-\|/-| 54 +1 −1 rb 1|-\|/-| 
+fix the symlink fix, since the filname of Thorfile  |-\|/-| 2016-07-15T13:24:06Z Merged pull request |-\|/-| 52 +2 −0 bin/docker-sync bin/docker-sync-stack 2|-\|/-| 
+Strategy unison-dualside with container events |-\|/-| 2016-07-14T22:56:15Z Merged pull request |-\|/-| 50 +254 −1 example/create-data/Dockerfile sh txt yml rb 7|-\|/-| 
+Feature unison fsevents |-\|/-| 2016-07-14T22:58:10Z Closed pull request |-\|/-| 47 +64 −6 bin/docker-sync yml rb 3|-\|/-| 
+[FEATURE] Watch only useful events |-\|/-| 2016-07-13T22:33:00Z Merged pull request |-\|/-| 46 +2 −0 rb 1|-\|/-| 
+[BUGFIX] #44 Fails whan docker-sync is symlinked |-\|/-| 2016-07-13T22:00:52Z Merged pull request |-\|/-| 45 +7 −4 bin/docker-sync bin/docker-sync-stack 2|-\|/-| 
+Feature/new unison image based on alpine |-\|/-| 2016-07-12T20:32:09Z Merged pull request |-\|/-| 38 +9 −10 yml rb 2|-\|/-| 
+Feature: compose stack support |-\|/-| 2016-07-10T21:33:20Z Merged pull request |-\|/-| 27 +203 −22 Gemfile lock Thorfile VERSION bin/docker-sync bin/docker-sync-stack gemspec iml rb sh thor 16|-\|/-| 
+[TASK] Unison Remove outdated warn about excludes |-\|/-| 2016-07-10T13:12:34Z Merged pull request |-\|/-| 22 +0 −1 rb 1|-\|/-| 
+Unison > option to map uid from host |-\|/-| 2016-07-13T23:10:02Z Closed pull request |-\|/-| 21 +5 −1 rb 1|-\|/-| 
+[FEATURE] unison > sync uid/gid numerically |-\|/-| 2016-07-10T13:20:43Z Closed pull request |-\|/-| 19 +3 −0 rb 1|-\|/-| 
+[FEATURE] Unison excludes |-\|/-| 2016-07-10T09:55:11Z Merged pull request |-\|/-| 18 +1 −2 rb 1|-\|/-| 
+Feature/container name suffix |-\|/-| 2016-07-10T00:41:01Z Merged pull request |-\|/-| 17 +81 −50 md rb 2|-\|/-| 
+Feature/update checker |-\|/-| 2016-07-10T00:23:42Z Merged pull request |-\|/-| 16 +327 −247 xml Gemfile lock md Thorfile bin/docker-sync gemspec iml rb thor version 11|-\|/-| 
+[FEATURE #14] Adds more verbosity to unison |-\|/-| 2016-07-10T00:23:22Z Merged pull request |-\|/-| 15 +1 −0 rb 1|-\|/-| 
+Issue #11 |-\|/-| 2016-07-09T22:26:47Z Merged pull request |-\|/-| 12 +5 −5 rb 1|-\|/-| 
+[BUGFIX #9] fails to start with verbose option |-\|/-| 2016-07-09T22:26:47Z Merged pull request |-\|/-| 10 +5 −5 rb 1|-\|/-| 
+[BUGFIX #4] Start fails with error |-\|/-| 2016-07-09T20:27:55Z Merged pull request |-\|/-| 7 +2 −0 rb 2|-\|/-| 
+[BUGFIX #4] Start fails with error |-\|/-| 2016-07-09T20:11:23Z Closed pull request |-\|/-| 6 +2 −0 rb 2|-\|/-| 

@@ -1,0 +1,658 @@
+MTLS Update |-\|/-| 2020-01-05T17:46:35Z Merged pull request |-\|/-| 3962 +308 −1,512 gitignore sh xml csproj cs p12 targets 7|-\|/-| 
+Bump FluentAssertions from 5.9.0 to 5.10.0 |-\|/-| 2020-01-03T09:18:53Z Merged pull request |-\|/-| 3959 +1 −1 targets 1|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.4.4 to 2.5.0 |-\|/-| 2020-01-02T12:03:06Z Merged pull request |-\|/-| 3953 +1 −1 targets 1|-\|/-| 
+ensure correct project packed during build |-\|/-| 2019-12-23T13:09:15Z Merged pull request |-\|/-| 3941 +10 −10 cs 5|-\|/-| 
+Added MS fix for SameSite Cookies to host |-\|/-| 2019-12-23T13:30:31Z Merged pull request |-\|/-| 3940 +78 −0 cs 2|-\|/-| 
+Update PKCE and Consent default settings on Client |-\|/-| 2019-12-27T16:56:57Z Merged pull request |-\|/-| 3939 +25 −8 cs 11|-\|/-| 
+Bump SimpleExec from 6.1.0 to 6.2.0 |-\|/-| 2019-12-23T14:11:04Z Merged pull request |-\|/-| 3938 +1 −1 targets 1|-\|/-| 
+Fix user code param name in DeviceController |-\|/-| 2019-12-24T12:24:10Z Merged pull request |-\|/-| 3935 +48 −6 cs 6|-\|/-| 
+Fixes inconsistency in example code |-\|/-| 2019-12-21T15:28:12Z Closed pull request |-\|/-| 3931 +1 −1 rst 1|-\|/-| 
+IdentityErrorCode added to IdentityServer4.Constants |-\|/-| 2019-12-20T07:48:23Z Closed pull request |-\|/-| 3926 +26 −0 cs 1|-\|/-| 
+Session Cookies need to be LAX |-\|/-| 2019-12-17T07:21:23Z Closed pull request |-\|/-| 3914 +3 −3 cs 2|-\|/-| 
+Remove outdated project from Community Docs |-\|/-| 2019-12-16T08:16:16Z Merged pull request |-\|/-| 3910 +0 −5 rst 1|-\|/-| 
+Small spelling fix |-\|/-| 2019-12-12T17:35:49Z Merged pull request |-\|/-| 3903 +1 −1 cs 1|-\|/-| 
+use asynchronous EF methods |-\|/-| 2019-12-12T17:26:28Z Merged pull request |-\|/-| 3895 +119 −167 cs 3|-\|/-| 
+V4: Multiple signing keys |-\|/-| 2019-12-27T16:52:11Z Merged pull request |-\|/-| 3892 +363 −64 cs 16|-\|/-| 
+Add option to prevent automatic lower-casing of Issuer url #3600 |-\|/-| 2019-12-20T14:13:02Z Merged pull request |-\|/-| 3891 +35 −1 rst cs 4|-\|/-| 
+Cleanup SignInAsync extension methods |-\|/-| 2019-12-21T08:24:29Z Merged pull request |-\|/-| 3888 +39 −247 cs 6|-\|/-| 
+V4: Make client claims serialization friendly |-\|/-| 2019-12-27T15:20:28Z Merged pull request |-\|/-| 3887 +107 −7 cs json 7|-\|/-| 
+Bump Bullseye from 3.0.0 to 3.1.0 |-\|/-| 2019-12-09T06:46:22Z Merged pull request |-\|/-| 3886 +1 −1 targets 1|-\|/-| 
+make TokenCleanupInterval more realistic |-\|/-| 2019-12-05T14:14:49Z Merged pull request |-\|/-| 3875 +1 −1 rst 1|-\|/-| 
+Update crypto.rst |-\|/-| 2019-12-03T06:59:21Z Merged pull request |-\|/-| 3871 +1 −1 rst 1|-\|/-| 
+Replaces my name with my company name |-\|/-| 2019-12-02T14:28:45Z Merged pull request |-\|/-| 3870 +1 −1 md 0|-\|/-| 
+Workaround for native redirect problem |-\|/-| 2019-11-29T13:59:25Z Merged pull request |-\|/-| 3863 +359 −6 sln cs csproj 6|-\|/-| 
+Bump Microsoft.SourceLink.GitHub from 1.0.0-beta2-19554-01 to 1.0.0 |-\|/-| 2019-11-27T07:41:50Z Merged pull request |-\|/-| 3861 +1 −1 targets 1|-\|/-| 
+Updated Jwt.io link to jwt.ms link |-\|/-| 2019-11-26T06:59:24Z Merged pull request |-\|/-| 3855 +1 −1 rst 1|-\|/-| 
+Revert "Blazor Sample Added" |-\|/-| 2019-11-21T10:13:48Z Merged pull request |-\|/-| 3848 +0 −331 sln razor csproj cshtml cs json 13|-\|/-| 
+Added invalid target token request error |-\|/-| 2019-11-25T21:05:53Z Merged pull request |-\|/-| 3842 +7 −1 cs 2|-\|/-| 
+Add remarks about custom implementation of IResourceOwnerPasswordValidator for the corresponding flow. |-\|/-| 2019-11-28T11:37:56Z Closed pull request |-\|/-| 3840 +10 −0 cs 2|-\|/-| 
+Bump EntityFrameworkVersion from 3.0.0 to 3.0.1 |-\|/-| 2019-11-28T11:38:24Z Closed pull request |-\|/-| 3835 +1 −1 targets 1|-\|/-| 
+Bump ExtensionsVersion from 3.0.0 to 3.0.1 |-\|/-| 2019-11-28T11:38:29Z Closed pull request |-\|/-| 3834 +1 −1 targets 1|-\|/-| 
+Cache the CheckSessionResult Script string |-\|/-| 2019-12-20T14:12:14Z Merged pull request |-\|/-| 3823 +31 −1 cs 2|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.4 |-\|/-| 2019-11-12T07:48:26Z Merged pull request |-\|/-| 3812 +1 −1 targets 1|-\|/-| 
+Bump Serilog.AspNetCore from 3.1.0 to 3.2.0 |-\|/-| 2019-11-12T07:46:59Z Merged pull request |-\|/-| 3811 +3 −3 csproj 3|-\|/-| 
+Updated EF Quickstart |-\|/-| 2019-11-12T07:48:10Z Merged pull request |-\|/-| 3809 +64,232 −184 rst 3|-\|/-| 
+Bump Newtonsoft.Json from 12.0.1 to 12.0.3 |-\|/-| 2019-12-10T15:52:29Z Closed pull request |-\|/-| 3807 +1 −1 targets 1|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.3.0 to 16.4.0 |-\|/-| 2019-11-07T07:36:05Z Merged pull request |-\|/-| 3800 +1 −1 targets 1|-\|/-| 
+Bump IdentityModel from 4.0.0 to 4.1.0 |-\|/-| 2019-11-06T07:06:35Z Closed pull request |-\|/-| 3798 +1 −1 targets 1|-\|/-| 
+Docs: Install the current "v2" version of the IdentityServer templates (#3795) |-\|/-| 2019-11-05T19:34:35Z Merged pull request |-\|/-| 3796 +2 −2 rst 2|-\|/-| 
+Some backslashes needed quoting |-\|/-| 2019-11-05T19:14:15Z Merged pull request |-\|/-| 3794 +1 −1 rst 1|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.3 |-\|/-| 2019-11-12T05:59:04Z Closed pull request |-\|/-| 3790 +1 −1 targets 1|-\|/-| 
+Bump Microsoft.SourceLink.GitHub from 1.0.0-beta2-19367-01 to 1.0.0-beta2-19554-01 |-\|/-| 2019-11-04T12:50:41Z Merged pull request |-\|/-| 3789 +1 −1 targets 1|-\|/-| 
+Blazor Sample Added |-\|/-| 2019-11-21T10:03:23Z Merged pull request |-\|/-| 3786 +331 −0 sln razor csproj cshtml cs json 13|-\|/-| 
+fix typo 'font-channel' in grant_types.rst |-\|/-| 2019-10-24T14:35:42Z Merged pull request |-\|/-| 3767 +1 −1 rst 1|-\|/-| 
+Docs: Update 6_javascript_client.rst |-\|/-| 2019-10-24T11:44:13Z Merged pull request |-\|/-| 3764 +1 −1 rst 1|-\|/-| 
+Docs: Update 3_aspnetcore_and_apis.rst |-\|/-| 2019-10-24T11:45:25Z Merged pull request |-\|/-| 3763 +2 −2 rst 1|-\|/-| 
+Bring back /resources audience for legacy token validation scenarios |-\|/-| 2019-10-23T07:58:02Z Merged pull request |-\|/-| 3760 +20 −0 rst cs 3|-\|/-| 
+Adding the nuget package dependency |-\|/-| 2019-10-24T14:57:29Z Merged pull request |-\|/-| 3759 +6 −1 rst 1|-\|/-| 
+generate and return session_state for error authorization responses that are prompt=none |-\|/-| 2019-12-10T19:15:31Z Merged pull request |-\|/-| 3756 +28,461 −328 js 1|-\|/-| 
+Bump Microsoft.IdentityModel.Protocols.OpenIdConnect from 5.5.0 to 5.6.0 |-\|/-| 2019-11-28T11:38:42Z Closed pull request |-\|/-| 3755 +1 −1 targets 1|-\|/-| 
+Update nuget package project urls |-\|/-| 2019-10-18T06:08:44Z Merged pull request |-\|/-| 3748 +4 −4 csproj 4|-\|/-| 
+Bump Serilog.Sinks.File from 4.0.0 to 4.1.0 |-\|/-| 2019-10-22T10:21:31Z Merged pull request |-\|/-| 3747 +3 −3 csproj 3|-\|/-| 
+Update Quickstarts 1-3 for ASP.NET Core 3 |-\|/-| 2019-10-22T09:42:57Z Merged pull request |-\|/-| 3746 +60,395 −73,826 rst 3|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2019-10-17T10:08:09Z Closed pull request |-\|/-| 3744 +9 −4 rst 1|-\|/-| 
+Bump Serilog.AspNetCore from 2.1.1 to 3.1.0 |-\|/-| 2019-10-15T18:25:17Z Merged pull request |-\|/-| 3737 +3 −3 csproj 3|-\|/-| 
+Bump Serilog from 2.8.0 to 2.9.0 |-\|/-| 2019-10-14T18:14:18Z Merged pull request |-\|/-| 3731 +3 −3 csproj 3|-\|/-| 
+trim and align top-level build scripts |-\|/-| 2019-10-14T06:04:00Z Merged pull request |-\|/-| 3730 +36 −121 ps1 sh 2|-\|/-| 
+EF Core 3.0 Performance Fix |-\|/-| 2019-10-18T21:34:54Z Merged pull request |-\|/-| 3727 +106 −29 cs 2|-\|/-| 
+small text change in grant types |-\|/-| 2019-10-13T13:18:32Z Closed pull request |-\|/-| 3724 +1 −1 rst 1|-\|/-| 
+Add more comments to 'claims' parameter of GrantValidationResult constructor. |-\|/-| 2019-11-03T12:36:44Z Closed pull request |-\|/-| 3713 +4 −2 cs 1|-\|/-| 
+Change HttpRequest/Response extension method namespace |-\|/-| 2019-10-23T13:27:56Z Merged pull request |-\|/-| 3704 +13 −4 cs 11|-\|/-| 
+Replace GetApis() with GetApiResources() |-\|/-| 2019-10-07T12:08:27Z Merged pull request |-\|/-| 3703 +3 −3 rst 1|-\|/-| 
+Update grant type guidance |-\|/-| 2019-10-07T08:44:40Z Merged pull request |-\|/-| 3702 +63 −81 rst 1|-\|/-| 
+Provide details on claims parameter. |-\|/-| 2019-10-07T12:22:51Z Merged pull request |-\|/-| 3701 +4 −2 cs 1|-\|/-| 
+Removed obsolete code |-\|/-| 2019-12-27T17:04:27Z Merged pull request |-\|/-| 3692 +22 −127 cs 8|-\|/-| 
+update Bullseye and SimpleExec to RC1 |-\|/-| 2019-09-30T05:35:58Z Merged pull request |-\|/-| 3688 +7 −7 csproj targets 6|-\|/-| 
+Updated identityserver.com commercial support |-\|/-| 2019-09-28T06:47:32Z Merged pull request |-\|/-| 3683 +2 −2 rst 1|-\|/-| 
+Removed recommendation to use implicit/hybrid Grant Types |-\|/-| 2019-10-09T06:37:23Z Closed pull request |-\|/-| 3675 +1 −1 rst 1|-\|/-| 
+EF Async |-\|/-| 2019-12-11T21:00:58Z Closed pull request |-\|/-| 3674 +110 −127 cs 3|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.2 |-\|/-| 2019-09-25T14:06:41Z Closed pull request |-\|/-| 3667 +1 −1 targets 1|-\|/-| 
+Check user active/passive from IPassiveable first on ProfileService |-\|/-| 2019-12-10T15:57:22Z Closed pull request |-\|/-| 3657 +24 −0 csproj cs 3|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.2.0 to 16.3.0 |-\|/-| 2019-09-20T06:52:56Z Merged pull request |-\|/-| 3650 +1 −1 targets 1|-\|/-| 
+Honour EnableDeviceAuthorizationEndpoint in IsEndpointEnabled |-\|/-| 2019-10-22T19:23:46Z Merged pull request |-\|/-| 3645 +138 −1 cs 2|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.1 |-\|/-| 2019-09-25T06:05:37Z Closed pull request |-\|/-| 3641 +1 −1 targets 1|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.3.4 to 2.4.0 |-\|/-| 2019-09-16T06:45:08Z Merged pull request |-\|/-| 3635 +1 −1 targets 1|-\|/-| 
+use just .NET Core 3.0 SDK for CI |-\|/-| 2019-09-15T08:14:49Z Merged pull request |-\|/-| 3631 +5 −15 yml csproj targets 6|-\|/-| 
+move entirely to netcoreapp3.0 |-\|/-| 2019-09-14T16:30:48Z Closed pull request |-\|/-| 3630 +56 −66 yml csproj 42|-\|/-| 
+Pointing to the maintained migration scripts |-\|/-| 2019-09-13T15:02:41Z Merged pull request |-\|/-| 3629 +1 −1 rst 1|-\|/-| 
+Sample support access token refresh failure |-\|/-| 2019-09-09T17:34:21Z Merged pull request |-\|/-| 3617 +2 −1 cs 1|-\|/-| 
+Bump FluentAssertions from 5.7.0 to 5.9.0 |-\|/-| 2019-09-09T17:33:45Z Merged pull request |-\|/-| 3616 +1 −1 targets 1|-\|/-| 
+Bump McMaster.Extensions.CommandLineUtils from 2.3.3 to 2.3.4 |-\|/-| 2019-09-09T17:33:25Z Merged pull request |-\|/-| 3615 +1 −1 targets 1|-\|/-| 
+Bump Newtonsoft.Json from 12.0.1 to 12.0.2 |-\|/-| 2019-09-09T17:32:58Z Closed pull request |-\|/-| 3614 +1 −1 targets 1|-\|/-| 
+Switch to ASP.NET Core 3 |-\|/-| 2019-09-08T09:33:50Z Merged pull request |-\|/-| 3609 +3,041 −2,062 yml ps1 rst json jpg snk sln targets csproj 22|-\|/-| 
+key management samples |-\|/-| 2019-09-07T12:34:53Z Merged pull request |-\|/-| 3606 +790 −1 gitignore cs csproj json sln 11|-\|/-| 
+Microsoft.AspNetCore.Authentication.Abstractions nuget package deleted |-\|/-| 2019-09-07T12:32:03Z Merged pull request |-\|/-| 3602 +2 −3 csproj 2|-\|/-| 
+Fixed Typo |-\|/-| 2019-09-05T06:59:10Z Merged pull request |-\|/-| 3595 +2 −2 rst 1|-\|/-| 
+Clarify the purpose of claimTypes parameter of IdentityResource constructor |-\|/-| 2019-09-06T13:29:31Z Closed pull request |-\|/-| 3591 +2 −2 cs 1|-\|/-| 
+Clarify the purpose of claimTypes parameter of ApiResource constructor. |-\|/-| 2019-09-06T13:29:23Z Closed pull request |-\|/-| 3588 +2 −2 cs 1|-\|/-| 
+identify the builds for each solution in the logs |-\|/-| 2019-09-07T12:27:18Z Merged pull request |-\|/-| 3586 +32 −27 cs csproj targets 11|-\|/-| 
+Re-factor logic to turn Secrets into SecurityKeys |-\|/-| 2019-09-01T10:26:26Z Merged pull request |-\|/-| 3584 +47 −87 cs 3|-\|/-| 
+Updated tests for EF Core 3 |-\|/-| 2019-09-05T14:24:40Z Merged pull request |-\|/-| 3582 +197 −26 cs 8|-\|/-| 
+Bump Serilog.AspNetCore from 2.1.1 to 3.0.0 |-\|/-| 2019-08-28T13:40:30Z Closed pull request |-\|/-| 3570 +3 −3 csproj 3|-\|/-| 
+EF Tests  |-\|/-| 2019-08-27T10:27:33Z Merged pull request |-\|/-| 3565 +4 −1 cs 1|-\|/-| 
+Emit Integer64 for Epoch Time |-\|/-| 2019-08-27T07:04:27Z Merged pull request |-\|/-| 3563 +7 −7 cs 6|-\|/-| 
+Added test for validation keys with different algorithms |-\|/-| 2019-08-26T18:35:36Z Merged pull request |-\|/-| 3562 +25 −0 cs 1|-\|/-| 
+Support specific signing algorithms per validation key |-\|/-| 2019-08-26T11:24:48Z Merged pull request |-\|/-| 3561 +81 −52 cs 9|-\|/-| 
+Removed scheme checking in cors origin validation. |-\|/-| 2019-12-06T15:33:34Z Closed pull request |-\|/-| 3559 +31 −35 cs 4|-\|/-| 
+Update specs.rst |-\|/-| 2019-08-22T15:09:51Z Merged pull request |-\|/-| 3556 +1 −1 rst 1|-\|/-| 
+Update specs.rst |-\|/-| 2019-08-22T15:07:56Z Closed pull request |-\|/-| 3555 +1 −1 rst 1|-\|/-| 
+Update 6_aspnet_identity.rst |-\|/-| 2019-08-27T07:06:59Z Closed pull request |-\|/-| 3545 +1 −1 rst 1|-\|/-| 
+Fix typo in ConsentGrantedEvent xml document |-\|/-| 2019-08-27T07:07:47Z Merged pull request |-\|/-| 3540 +2 −2 cs 1|-\|/-| 
+Bump AutoMapper from 8.1.1 to 9.0.0 |-\|/-| 2019-09-07T12:32:28Z Closed pull request |-\|/-| 3538 +1 −1 csproj 1|-\|/-| 
+Ecdsa curve handling |-\|/-| 2019-08-24T06:33:05Z Merged pull request |-\|/-| 3534 +161 −7 cs csproj 7|-\|/-| 
+Update readme.md |-\|/-| 2019-08-09T04:59:32Z Merged pull request |-\|/-| 3525 +1 −1 md 0|-\|/-| 
+move logging before removal so the PromptMode is included in the logging |-\|/-| 2019-08-27T07:11:42Z Merged pull request |-\|/-| 3523 +3 −3 cs 1|-\|/-| 
+Move HTTP context accessor access to a later point in JwtRequestValidator |-\|/-| 2019-08-06T06:23:08Z Merged pull request |-\|/-| 3517 +19 −3 cs 1|-\|/-| 
+Update to IdentityModel v4 |-\|/-| 2019-08-05T14:59:17Z Merged pull request |-\|/-| 3514 +6 −6 targets cs 4|-\|/-| 
+Set typ header for access tokens |-\|/-| 2019-08-06T11:57:03Z Merged pull request |-\|/-| 3513 +183 −122 cs 8|-\|/-| 
+Add support for additional signing algorithms |-\|/-| 2019-08-05T14:57:07Z Merged pull request |-\|/-| 3511 +412 −119 targets cs 4|-\|/-| 
+Update request_object.rst |-\|/-| 2019-08-02T15:11:06Z Merged pull request |-\|/-| 3509 +8 −1 rst 1|-\|/-| 
+Update add_apis.rst |-\|/-| 2019-08-02T15:10:53Z Merged pull request |-\|/-| 3508 +26 −2 rst 1|-\|/-| 
+Introduce option to omit ~/resources in JWT access tokens |-\|/-| 2019-08-05T14:07:08Z Closed pull request |-\|/-| 3503 +78 −13 rst cs 6|-\|/-| 
+Update Quickstart Overview |-\|/-| 2019-07-30T19:11:42Z Closed pull request |-\|/-| 3498 +5 −3 rst 1|-\|/-| 
+Fix log exception while user authentication failed |-\|/-| 2019-07-30T13:57:21Z Merged pull request |-\|/-| 3494 +1 −1 cs 1|-\|/-| 
+Merge pull request #1 from IdentityServer/master |-\|/-| 2019-07-30T05:44:35Z Closed pull request |-\|/-| 3493 +0 −0 0|-\|/-| 
+fix JS for automatic signout redirect |-\|/-| 2019-07-30T01:55:47Z Merged pull request |-\|/-| 3491 +1 −1 js 1|-\|/-| 
+ensure SDK version for MinVer is installed |-\|/-| 2019-07-28T15:12:58Z Merged pull request |-\|/-| 3490 +12 −0 yml 1|-\|/-| 
+test MinVer in isolation in CI |-\|/-| 2019-07-28T15:13:34Z Closed pull request |-\|/-| 3489 +18 −145 yml ps1 sh 3|-\|/-| 
+Update Startup.cs |-\|/-| 2019-07-29T14:20:58Z Closed pull request |-\|/-| 3488 +1 −1 cs 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2019-07-27T13:15:19Z Merged pull request |-\|/-| 3486 +1 −1 rst 1|-\|/-| 
+CORS validation handling normalized URIs |-\|/-| 2019-07-30T01:17:03Z Merged pull request |-\|/-| 3478 +7 −7 cs 2|-\|/-| 
+Update 8_aspnet_identity.rst |-\|/-| 2019-08-27T07:09:26Z Merged pull request |-\|/-| 3476 +1 −1 rst 1|-\|/-| 
+Since ClientId was introduced on the base class (for impersonation) -… |-\|/-| 2019-07-24T06:35:26Z Merged pull request |-\|/-| 3471 +0 −8 cs 1|-\|/-| 
+3445 refresh token logs |-\|/-| 2019-07-24T06:21:19Z Merged pull request |-\|/-| 3468 +44 −3 cs 3|-\|/-| 
+Fix/3431 |-\|/-| 2019-07-30T14:01:56Z Merged pull request |-\|/-| 3467 +33 −7 cs 2|-\|/-| 
+Easier support for impersonating clients |-\|/-| 2019-07-23T14:27:14Z Merged pull request |-\|/-| 3464 +58 −3 cs 4|-\|/-| 
+Easier Authorization Code extensibility |-\|/-| 2019-07-23T14:26:46Z Merged pull request |-\|/-| 3463 +17 −9 cs 2|-\|/-| 
+Introduce separate property to hold the values of the request object |-\|/-| 2019-07-23T11:51:56Z Merged pull request |-\|/-| 3462 +51 −4 cs 4|-\|/-| 
+update aspnet_identity doc |-\|/-| 2019-07-18T15:00:41Z Merged pull request |-\|/-| 3452 +2 −0 rst 1|-\|/-| 
+Set client id in user login events from resource owner password validator |-\|/-| 2019-07-23T14:10:12Z Merged pull request |-\|/-| 3442 +6 −5 cs 1|-\|/-| 
+check that HttpContext is set before setting AudienceUri (#3436) |-\|/-| 2019-08-05T15:44:56Z Closed pull request |-\|/-| 3437 +5 −2 cs 1|-\|/-| 
+grammar fix |-\|/-| 2019-07-14T12:48:33Z Merged pull request |-\|/-| 3432 +1 −1 rst 1|-\|/-| 
+Tiny spelling fix |-\|/-| 2019-07-13T00:39:44Z Merged pull request |-\|/-| 3428 +1 −1 rst 1|-\|/-| 
+Fix the scheme name for external providers |-\|/-| 2019-11-02T06:24:14Z Closed pull request |-\|/-| 3424 +2 −2 cs 1|-\|/-| 
+Add claims transformation event to local API authN handler |-\|/-| 2019-07-12T13:07:49Z Merged pull request |-\|/-| 3422 +97 −6 cs 5|-\|/-| 
+add AddValidationKeys signature accepting X509Certificate2[] (#3383) |-\|/-| 2019-07-10T08:41:58Z Merged pull request |-\|/-| 3409 +16 −1 cs 1|-\|/-| 
+add scope to all token responses |-\|/-| 2019-07-09T13:45:41Z Merged pull request |-\|/-| 3406 +8 −13 cs 1|-\|/-| 
+Update 6_javascript_client.rst |-\|/-| 2019-07-05T13:07:26Z Merged pull request |-\|/-| 3394 +1 −1 rst 1|-\|/-| 
+Added scope param to token endpoint for device grant type |-\|/-| 2019-07-09T13:23:00Z Merged pull request |-\|/-| 3392 +20 −1 cs 3|-\|/-| 
+Added check to scope validator for missing identity and api scopes |-\|/-| 2019-07-09T13:49:32Z Merged pull request |-\|/-| 3391 +18 −0 cs 2|-\|/-| 
+Update community.rst |-\|/-| 2019-07-03T12:55:15Z Merged pull request |-\|/-| 3389 +1 −1 rst 1|-\|/-| 
+repro PR for Incorrect secret type for missing secret in BasicAuth #2975 |-\|/-| 2019-07-04T13:02:58Z Merged pull request |-\|/-| 3388 +31 −10 cs 2|-\|/-| 
+add message store abstraction on authorization request params |-\|/-| 2019-07-02T06:32:41Z Merged pull request |-\|/-| 3382 +297 −23 cs 9|-\|/-| 
+Authentication errors should redirect by default |-\|/-| 2019-07-08T12:00:56Z Closed pull request |-\|/-| 3381 +4 −4 cs 1|-\|/-| 
+JwtRequestValidator extensibility |-\|/-| 2019-07-02T06:32:25Z Merged pull request |-\|/-| 3373 +126 −79 cs 2|-\|/-| 
+Bump Serilog from 2.7.1 to 2.8.0 |-\|/-| 2019-06-26T12:16:14Z Merged pull request |-\|/-| 3371 +3 −3 csproj 3|-\|/-| 
+Bump Microsoft.Extensions.Http.Polly from 2.1.0 to 2.2.0 |-\|/-| 2019-06-26T12:19:26Z Merged pull request |-\|/-| 3370 +1 −1 csproj 1|-\|/-| 
+Bump AutoMapper from 8.1.0 to 8.1.1 |-\|/-| 2019-07-03T00:38:42Z Merged pull request |-\|/-| 3369 +1 −1 csproj 1|-\|/-| 
+Update ef.rst |-\|/-| 2019-06-21T16:08:23Z Merged pull request |-\|/-| 3357 +1 −1 rst 1|-\|/-| 
+Update broken links in Quickstarts Sample. |-\|/-| 2019-06-20T12:37:06Z Merged pull request |-\|/-| 3352 +9 −9 md 0|-\|/-| 
+update sample readme.md |-\|/-| 2019-08-07T05:53:05Z Closed pull request |-\|/-| 3346 +0 −0 0|-\|/-| 
+Docs: Add API Resources appsettings.json similar to client |-\|/-| 2019-06-24T18:15:59Z Merged pull request |-\|/-| 3345 +27 −0 rst 1|-\|/-| 
+Restricted nuget sources so that private repos do not break the comma… |-\|/-| 2019-06-23T07:14:46Z Merged pull request |-\|/-| 3344 +1 −0 config 1|-\|/-| 
+Fix broken links to IdentityServer4.Samples |-\|/-| 2019-06-06T12:46:23Z Merged pull request |-\|/-| 3318 +9 −9 cshtml 9|-\|/-| 
+fix(Quickstarts): Docs contained broken links |-\|/-| 2019-06-04T11:31:40Z Merged pull request |-\|/-| 3313 +7 −7 rst 2|-\|/-| 
+should never cache temporary data with no expiration |-\|/-| 2019-06-30T01:09:45Z Merged pull request |-\|/-| 3298 +8 −2 cs 1|-\|/-| 
+Improvements to Protecting an API using Client Credentials quick-start. |-\|/-| 2019-05-29T06:44:47Z Merged pull request |-\|/-| 3295 +57 −35 rst 1|-\|/-| 
+Null check for Ensure extension methods |-\|/-| 2019-05-25T06:47:22Z Merged pull request |-\|/-| 3277 +2 −2 cs 1|-\|/-| 
+Handle unknown idp at login |-\|/-| 2019-05-20T14:11:29Z Merged pull request |-\|/-| 3276 +2 −2 cs 1|-\|/-| 
+upgrade to MinVer 1.0.0 RC1 |-\|/-| 2019-05-22T14:16:02Z Merged pull request |-\|/-| 3275 +1 −3 targets 1|-\|/-| 
+Docs: Add developer Signing Credential during the IdentityServer configuration |-\|/-| 2019-09-07T12:34:24Z Closed pull request |-\|/-| 3273 +7 −0 rst 1|-\|/-| 
+Fix link formatting |-\|/-| 2019-05-17T05:06:20Z Merged pull request |-\|/-| 3271 +3 −2 rst 1|-\|/-| 
+Update to current nuget packages |-\|/-| 2019-05-11T07:50:54Z Closed pull request |-\|/-| 3260 +9 −9 csproj 1|-\|/-| 
+Fix duplicating word: "the" |-\|/-| 2019-05-10T11:38:24Z Merged pull request |-\|/-| 3258 +9 −9 rst cs 6|-\|/-| 
+Prototype for pluggable authN MW |-\|/-| 2019-07-09T13:47:56Z Merged pull request |-\|/-| 3254 +23 −2 cs 2|-\|/-| 
+Use Task.CompletedTask to reduce allocations |-\|/-| 2019-05-02T12:52:10Z Merged pull request |-\|/-| 3243 +2 −2 cs 1|-\|/-| 
+Add support for signed authorize requests |-\|/-| 2019-05-01T16:31:54Z Merged pull request |-\|/-| 3241 +1,418 −26 csproj cs config 10|-\|/-| 
+Add Client.Id and to UserLoginSuccessEvent and UserLoginFailureEvent |-\|/-| 2019-04-30T15:14:53Z Merged pull request |-\|/-| 3234 +49 −16 cs 5|-\|/-| 
+Fix typos in mtls.rst |-\|/-| 2019-04-29T13:14:35Z Merged pull request |-\|/-| 3232 +3 −3 rst 1|-\|/-| 
+allow fragment response_type for code grant type #2875 |-\|/-| 2019-04-29T06:02:53Z Merged pull request |-\|/-| 3230 +46 −20 cs 4|-\|/-| 
+Make back channel signout a first class service |-\|/-| 2019-04-30T14:43:29Z Merged pull request |-\|/-| 3229 +255 −115 targets csproj cs 11|-\|/-| 
+Updating automapper version sorry Brock :( |-\|/-| 2019-04-30T13:49:43Z Merged pull request |-\|/-| 3228 +1 −1 csproj 1|-\|/-| 
+Fix comment typos |-\|/-| 2019-04-26T12:59:10Z Merged pull request |-\|/-| 3224 +2 −2 cs 2|-\|/-| 
+Update sample code in docs for G+ deprecation |-\|/-| 2019-04-30T15:17:47Z Closed pull request |-\|/-| 3222 +17 −2 rst 1|-\|/-| 
+LogInformation changed to LogDebug |-\|/-| 2019-04-25T10:49:59Z Merged pull request |-\|/-| 3215 +1 −1 cs 1|-\|/-| 
+add ability to reuse dependencies of `ResourceOwnerPasswordValidator` |-\|/-| 2019-04-28T22:20:53Z Closed pull request |-\|/-| 3202 +22 −22 cs 1|-\|/-| 
+Allowed usage of relative and absolute verification URIs for device authorization |-\|/-| 2019-04-30T13:54:06Z Merged pull request |-\|/-| 3201 +21 −2 cs 2|-\|/-| 
+Device Code Cleanup |-\|/-| 2019-05-03T19:12:14Z Merged pull request |-\|/-| 3200 +70 −34 cs 1|-\|/-| 
+Added scottbrady91.com blog posts |-\|/-| 2019-04-23T05:47:18Z Merged pull request |-\|/-| 3189 +4 −1 rst 1|-\|/-| 
+Updated support link |-\|/-| 2019-04-23T05:48:55Z Merged pull request |-\|/-| 3188 +1 −1 md 0|-\|/-| 
+Add support to carry an error description back to third party clients on authorize error results |-\|/-| 2019-04-30T15:25:29Z Merged pull request |-\|/-| 3183 +35 −1 cs 4|-\|/-| 
+Fix documentation hyperlink |-\|/-| 2019-04-10T04:58:45Z Merged pull request |-\|/-| 3182 +1 −1 rst 1|-\|/-| 
+Minor doc formatting |-\|/-| 2019-04-08T12:51:31Z Merged pull request |-\|/-| 3176 +1 −1 rst 1|-\|/-| 
+remove some redundant file entries |-\|/-| 2019-04-04T13:35:37Z Merged pull request |-\|/-| 3168 +1 −3 gitignore sln 2|-\|/-| 
+Creating question option template for issues |-\|/-| 2019-04-04T13:54:50Z Merged pull request |-\|/-| 3167 +27 −1 md 0|-\|/-| 
+Add link to templates repository |-\|/-| 2019-04-24T06:06:44Z Closed pull request |-\|/-| 3164 +1 −1 rst 1|-\|/-| 
+[WIP] remove hardcoded package dependency version |-\|/-| 2019-04-04T13:51:31Z Closed pull request |-\|/-| 3163 +21 −7 targets 1|-\|/-| 
+make UserClaimsFactory public #2696 |-\|/-| 2019-04-30T13:40:06Z Closed pull request |-\|/-| 3149 +2 −2 cs 1|-\|/-| 
+call flush async #3096 |-\|/-| 2019-04-11T13:03:46Z Merged pull request |-\|/-| 3148 +6 −2 cs 2|-\|/-| 
+Log request details on more log messages |-\|/-| 2019-04-30T16:25:12Z Merged pull request |-\|/-| 3143 +21 −7 cs 1|-\|/-| 
+broken link fixed |-\|/-| 2019-03-29T11:59:38Z Merged pull request |-\|/-| 3141 +1 −1 rst 1|-\|/-| 
+Make config.cs a link |-\|/-| 2019-03-29T12:00:05Z Merged pull request |-\|/-| 3138 +2 −2 rst 1|-\|/-| 
+Adding code-block formatting to clients.rst |-\|/-| 2019-03-29T12:00:43Z Merged pull request |-\|/-| 3136 +2 −2 rst 1|-\|/-| 
+Add appsettings.json sample to clients.rst |-\|/-| 2019-03-28T12:24:40Z Merged pull request |-\|/-| 3133 +25 −0 rst 1|-\|/-| 
+fix typo in startup topic |-\|/-| 2019-03-26T20:14:47Z Merged pull request |-\|/-| 3123 +1 −1 rst 1|-\|/-| 
+Switch to Bullseye/Simple-Exec/MinVer |-\|/-| 2019-03-25T01:21:01Z Merged pull request |-\|/-| 3117 +675 −2,449 gitignore targets yml ps1 sh json 8|-\|/-| 
+Re-structure to mono repo |-\|/-| 2019-03-19T17:48:31Z Merged pull request |-\|/-| 3109 +58,770 −715 editorconfig yml 2|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2019-04-04T13:37:06Z Merged pull request |-\|/-| 3104 +1 −1 rst 1|-\|/-| 
+Add community post |-\|/-| 2019-03-14T06:48:22Z Merged pull request |-\|/-| 3098 +1 −0 rst 1|-\|/-| 
+Update blogs.rst |-\|/-| 2019-03-13T13:17:27Z Merged pull request |-\|/-| 3095 +1 −0 rst 1|-\|/-| 
+Docs Adding some community posts |-\|/-| 2019-03-13T13:15:28Z Merged pull request |-\|/-| 3094 +5 −0 rst 1|-\|/-| 
+Added Code and Text for Changing Default Schema |-\|/-| 2019-03-12T12:52:46Z Merged pull request |-\|/-| 3091 +8 −1 rst 1|-\|/-| 
+Clearer instructions, more n00b friendly. |-\|/-| 2019-04-04T13:58:23Z Merged pull request |-\|/-| 3088 +15 −3 rst 1|-\|/-| 
+Added Code and Text for Changing Default Schema |-\|/-| 2019-03-12T01:50:13Z Closed pull request |-\|/-| 3087 +9 −0 rst 1|-\|/-| 
+Update api_resource.rst |-\|/-| 2019-03-05T17:02:19Z Closed pull request |-\|/-| 3074 +1 −1 rst 1|-\|/-| 
+Fix StringExtensions.GetOrigin throws for malformed URI #3065 |-\|/-| 2019-03-03T09:48:38Z Merged pull request |-\|/-| 3066 +36 −2 cs 2|-\|/-| 
+Fixed bug where the Subject was not being set on the ValidatedRequest and would not end up in the TokenIssuedSuccessEvent using Code flow |-\|/-| 2019-04-30T15:30:50Z Closed pull request |-\|/-| 3059 +2 −1 cs 1|-\|/-| 
+Provide a client application that handles cancel option from Identity Server/HomeController.Login |-\|/-| 2019-02-27T12:50:44Z Closed pull request |-\|/-| 3040 +1,256 −291 cake ps1 sh rst cs csproj json 15|-\|/-| 
+Point to correct download url |-\|/-| 2019-02-14T13:14:51Z Merged pull request |-\|/-| 3030 +1 −1 rst 1|-\|/-| 
+Add LocalAccessTokenValidation authentication scheme |-\|/-| 2019-02-14T07:52:05Z Merged pull request |-\|/-| 3028 +181 −0 cs 4|-\|/-| 
+Add LocalAccessTokenValidation authentication scheme |-\|/-| 2019-02-14T07:31:40Z Closed pull request |-\|/-| 3027 +181 −0 cs 4|-\|/-| 
+Added OIDC check to Default Client Config Validator |-\|/-| 2019-02-14T07:51:41Z Merged pull request |-\|/-| 3024 +15 −12 cs 1|-\|/-| 
+Changed deprecated DiscoveryClient to HttpClient with GetDiscoveryDoc… |-\|/-| 2019-02-12T05:30:34Z Closed pull request |-\|/-| 3022 +5 −4 cs 1|-\|/-| 
+Adds "zero config" support for local APIs that use JWTs |-\|/-| 2019-02-11T14:47:43Z Closed pull request |-\|/-| 3016 +160 −2 cs csproj 8|-\|/-| 
+Fix typo in 1_client_credentials.rst |-\|/-| 2019-02-07T13:34:39Z Merged pull request |-\|/-| 3007 +1 −1 rst 1|-\|/-| 
+mutual TLS support |-\|/-| 2019-02-11T14:45:21Z Merged pull request |-\|/-| 3006 +438 −7 cs csproj json config 14|-\|/-| 
+typo - response change to tokenResponse |-\|/-| 2019-02-01T13:49:27Z Merged pull request |-\|/-| 2997 +1 −1 rst 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2019-02-11T09:05:58Z Merged pull request |-\|/-| 2992 +21 −21 rst 1|-\|/-| 
+Support for ECDSA-based signatures (ES256, ES384, ES512) |-\|/-| 2019-04-04T13:51:30Z Closed pull request |-\|/-| 2983 +680 −409 gitignore cs csproj 7|-\|/-| 
+Incorrect secret type for missing secret in BasicAuth |-\|/-| 2019-07-04T13:04:35Z Closed pull request |-\|/-| 2975 +32 −13 cs 2|-\|/-| 
+Revert JWK content type change |-\|/-| 2019-02-14T07:55:29Z Closed pull request |-\|/-| 2961 +5 −5 cs 2|-\|/-| 
+[WIP] Add pair wise subject support |-\|/-| 2019-04-04T13:51:30Z Closed pull request |-\|/-| 2959 +97 −8 cs 8|-\|/-| 
+updated source code example |-\|/-| 2019-02-22T09:52:19Z Closed pull request |-\|/-| 2949 +1 −1 rst 1|-\|/-| 
+Minor typo fix |-\|/-| 2019-01-11T13:18:12Z Merged pull request |-\|/-| 2941 +1 −1 rst 1|-\|/-| 
+Add server_error and temporarily_unavailable error codes |-\|/-| 2019-01-08T03:12:21Z Closed pull request |-\|/-| 2932 +12 −2 cs 1|-\|/-| 
+Fixed variable name mismatch |-\|/-| 2019-01-07T03:09:33Z Merged pull request |-\|/-| 2928 +1 −1 rst 1|-\|/-| 
+Updated text to refer to the 'AddJwtBearer()' method |-\|/-| 2019-01-07T03:09:05Z Merged pull request |-\|/-| 2927 +2 −2 rst 1|-\|/-| 
+Code example updates and required NuGet package notice |-\|/-| 2019-01-05T16:54:20Z Closed pull request |-\|/-| 2926 +7 −3 rst 1|-\|/-| 
+Correct GetApiResources to GetApis |-\|/-| 2019-01-04T14:42:37Z Merged pull request |-\|/-| 2924 +1 −1 rst 1|-\|/-| 
+Outdated property name .ApiName now .Audience |-\|/-| 2019-01-04T14:43:15Z Merged pull request |-\|/-| 2923 +1 −1 rst 1|-\|/-| 
+Scrub id token hint from endsession request log |-\|/-| 2019-01-07T03:10:20Z Merged pull request |-\|/-| 2917 +1 −1 cs 1|-\|/-| 
+Fix link to sponsors |-\|/-| 2019-01-02T18:22:44Z Merged pull request |-\|/-| 2915 +1 −1 md 0|-\|/-| 
+Add note about .net Core 2.1 on adding EF Tooling |-\|/-| 2019-01-04T14:12:06Z Closed pull request |-\|/-| 2914 +3 −3 rst 3|-\|/-| 
+Update documentation to not use deprecated methods |-\|/-| 2019-01-03T17:29:20Z Closed pull request |-\|/-| 2913 +13 −6 rst 1|-\|/-| 
+Replace deprecated code |-\|/-| 2019-01-11T13:31:47Z Closed pull request |-\|/-| 2912 +18 −13 rst 1|-\|/-| 
+Update signin_external_providers.rst |-\|/-| 2018-12-18T09:34:49Z Merged pull request |-\|/-| 2904 +1 −1 rst 1|-\|/-| 
+Add support to carry an error description back to third party clients on authorize error results |-\|/-| 2019-04-04T13:51:30Z Closed pull request |-\|/-| 2902 +36 −2 rst cs 5|-\|/-| 
+Fix firefox back navigation error after authorize |-\|/-| 2019-01-15T09:10:58Z Closed pull request |-\|/-| 2881 +7 −7 cs 2|-\|/-| 
+AddDeviceFlowStore extension |-\|/-| 2018-12-07T11:23:59Z Merged pull request |-\|/-| 2880 +13 −0 cs 1|-\|/-| 
+Update sponsors.md with a twitter handle |-\|/-| 2018-12-06T13:20:56Z Merged pull request |-\|/-| 2874 +1 −1 md 0|-\|/-| 
+Device code lifetime check |-\|/-| 2018-12-06T08:28:06Z Merged pull request |-\|/-| 2868 +6 −0 cs 1|-\|/-| 
+Update client docs for UserSsoLifetime |-\|/-| 2019-04-04T13:59:37Z Merged pull request |-\|/-| 2867 +2 −1 rst 1|-\|/-| 
+Fix link to Quickstart repository |-\|/-| 2018-12-02T20:44:03Z Merged pull request |-\|/-| 2862 +2 −2 rst 1|-\|/-| 
+Update Quickstarts |-\|/-| 2019-01-02T15:53:06Z Merged pull request |-\|/-| 2856 +476 −600 rst 3|-\|/-| 
+Fix Docs broken link of Config.cs |-\|/-| 2018-11-30T07:26:14Z Merged pull request |-\|/-| 2854 +3 −2 rst 2|-\|/-| 
+text readme refer to a broken link |-\|/-| 2018-11-30T07:26:34Z Merged pull request |-\|/-| 2840 +3 −2 rst 2|-\|/-| 
+Fix broken links for #2837 |-\|/-| 2018-11-30T07:27:02Z Merged pull request |-\|/-| 2838 +5 −4 rst 2|-\|/-| 
+link to the release branch is broken. |-\|/-| 2018-11-30T07:28:15Z Merged pull request |-\|/-| 2836 +3 −2 rst 2|-\|/-| 
+Updated ConsentPageResult to use GetIdentityServerBasePath |-\|/-| 2018-11-29T13:56:09Z Merged pull request |-\|/-| 2835 +2 −2 cs 1|-\|/-| 
+Correct URL for direct download of library |-\|/-| 2018-11-30T07:27:48Z Merged pull request |-\|/-| 2817 +1 −1 rst 1|-\|/-| 
+Documentation updates from IdentityServer4.EntityFramework to IdentityServer4.EntityFramework.Storage |-\|/-| 2018-11-30T07:28:58Z Merged pull request |-\|/-| 2816 +2 −2 rst 1|-\|/-| 
+Support hosting the identity server as a WebAPI |-\|/-| 2018-12-08T22:46:59Z Closed pull request |-\|/-| 2808 +27 −0 cs 3|-\|/-| 
+Null check for device flow interaction service |-\|/-| 2018-11-13T15:45:42Z Merged pull request |-\|/-| 2798 +1 −0 cs 1|-\|/-| 
+Device flow docs |-\|/-| 2018-11-13T15:14:59Z Merged pull request |-\|/-| 2797 +93 −5 rst 8|-\|/-| 
+Add AddPersistedGrantStore<T> extension method for IIdentityServerBuilder |-\|/-| 2018-11-07T11:03:47Z Merged pull request |-\|/-| 2783 +14 −0 cs 1|-\|/-| 
+unnecessary boolean literals |-\|/-| 2018-11-05T07:24:29Z Closed pull request |-\|/-| 2777 +91 −89 cs 13|-\|/-| 
+Device flow (take 2) |-\|/-| 2018-10-30T13:44:04Z Merged pull request |-\|/-| 2760 +3,743 −21 cs cshtml 6|-\|/-| 
+Endpoint returns wrong WwwAuthentication header |-\|/-| 2018-11-04T15:05:41Z Merged pull request |-\|/-| 2752 +3 −2 cs 1|-\|/-| 
+Enhance object logging |-\|/-| 2018-11-04T15:25:17Z Merged pull request |-\|/-| 2745 +49 −71 cs csproj 10|-\|/-| 
+Fix a typo in TokenErrorResult.cs |-\|/-| 2018-11-04T15:29:38Z Merged pull request |-\|/-| 2742 +2 −2 cs 1|-\|/-| 
+Unify empty string |-\|/-| 2018-11-04T15:30:38Z Merged pull request |-\|/-| 2730 +18 −18 cs 11|-\|/-| 
+Add null check on Consent page |-\|/-| 2018-10-18T20:32:52Z Merged pull request |-\|/-| 2729 +2 −2 cs 1|-\|/-| 
+Resolution of Documentation version 1.0.0 PDF (2018-05-15) has incorrect document structure |-\|/-| 2018-10-10T05:51:37Z Merged pull request |-\|/-| 2699 +21 −41 rst 1|-\|/-| 
+Changed level from error to warn on refresh token |-\|/-| 2018-11-04T15:32:51Z Merged pull request |-\|/-| 2695 +23 −3 cs 2|-\|/-| 
+Review1 changes |-\|/-| 2018-10-25T16:15:30Z Merged pull request |-\|/-| 2694 +3,773 −4,538 md gitignore yml sln MD cake 5|-\|/-| 
+Fixed SQL scripts link |-\|/-| 2018-10-05T19:00:18Z Merged pull request |-\|/-| 2688 +1 −1 rst 1|-\|/-| 
+Revert "Make some internal types public to facilitate custom service implementations" |-\|/-| 2018-10-02T12:13:47Z Closed pull request |-\|/-| 2668 +11 −14 cs 7|-\|/-| 
+Corrected internal value for ParsedSecretTypes.JwtBearer |-\|/-| 2018-10-02T12:29:49Z Merged pull request |-\|/-| 2658 +1 −1 cs 1|-\|/-| 
+Update 8_entity_framework.rst |-\|/-| 2018-10-02T12:25:59Z Closed pull request |-\|/-| 2648 +11 −3 rst 1|-\|/-| 
+External PR test |-\|/-| 2018-09-22T07:39:41Z Closed pull request |-\|/-| 2639 +0 −1 gitignore 1|-\|/-| 
+(maint) Testing GitVersion from external repository |-\|/-| 2018-09-22T07:55:02Z Closed pull request |-\|/-| 2638 +215 −213 0|-\|/-| 
+Changing cake file to skip versioning on non-Windows |-\|/-| 2018-09-22T06:36:04Z Merged pull request |-\|/-| 2637 +54 −32 gitignore cake 2|-\|/-| 
+[brock: do-not-merge] Use Mono for GitVersion if Unix & .NET Core |-\|/-| 2019-01-22T12:27:27Z Closed pull request |-\|/-| 2636 +63 −43 cake 1|-\|/-| 
+Update 3_interactive_login.rst |-\|/-| 2018-10-02T12:23:55Z Merged pull request |-\|/-| 2630 +5 −0 rst 1|-\|/-| 
+Add ApiController attribute |-\|/-| 2018-09-19T14:43:09Z Closed pull request |-\|/-| 2627 +1 −0 rst 1|-\|/-| 
+Change: error code in TokenValidator class |-\|/-| 2018-10-10T05:45:25Z Merged pull request |-\|/-| 2617 +2 −2 cs 1|-\|/-| 
+Update secrets.rst |-\|/-| 2018-09-11T06:46:24Z Merged pull request |-\|/-| 2611 +2 −2 rst 1|-\|/-| 
+Change: Made DefaultUserSession.AuthenticateAsync overrideable |-\|/-| 2018-10-02T12:17:09Z Merged pull request |-\|/-| 2607 +4 −4 cs 1|-\|/-| 
+Update introspection.rst |-\|/-| 2018-09-10T12:09:36Z Merged pull request |-\|/-| 2606 +1 −1 rst 1|-\|/-| 
+Create jwk document when signing with JsonWebKey |-\|/-| 2018-09-10T06:46:02Z Merged pull request |-\|/-| 2604 +17 −0 cs 1|-\|/-| 
+Add strong name |-\|/-| 2018-09-07T07:51:33Z Merged pull request |-\|/-| 2597 +26 −11 snk csproj cs 5|-\|/-| 
+Switch to new cake build version |-\|/-| 2018-09-06T09:32:17Z Merged pull request |-\|/-| 2593 +99 −451 ps1 1|-\|/-| 
+6_aspnet_identity.rst |-\|/-| 2018-08-23T16:03:20Z Merged pull request |-\|/-| 2570 +1 −1 rst 1|-\|/-| 
+Update path to SQL scripts |-\|/-| 2018-10-02T12:15:55Z Merged pull request |-\|/-| 2561 +1 −1 rst 1|-\|/-| 
+Make some internal types public to facilitate custom service implementations |-\|/-| 2018-10-02T12:12:17Z Merged pull request |-\|/-| 2545 +14 −11 cs 7|-\|/-| 
+resolve login/logout url, et al from named options |-\|/-| 2018-08-12T14:22:03Z Merged pull request |-\|/-| 2540 +35 −28 cs 3|-\|/-| 
+Allow replacing tokenEnd point with my customToken End point #2273 |-\|/-| 2018-10-04T12:23:11Z Closed pull request |-\|/-| 2534 +99 −6 cs 7|-\|/-| 
+Fixes 404 |-\|/-| 2018-08-08T02:03:44Z Merged pull request |-\|/-| 2527 +1 −1 rst 1|-\|/-| 
+enable default client validator by default |-\|/-| 2018-08-07T12:34:57Z Merged pull request |-\|/-| 2525 +10 −6 cs 5|-\|/-| 
+Remove obsolete constructor on DefaultCustomTokenValidator |-\|/-| 2018-08-07T12:22:10Z Merged pull request |-\|/-| 2524 +5 −14 cs 2|-\|/-| 
+add option to explicitly configure the cookie auth scheme for interac… |-\|/-| 2018-08-06T14:06:49Z Merged pull request |-\|/-| 2516 +42 −6 cs 6|-\|/-| 
+add better/more error descriptions to authorize response validator #2218 |-\|/-| 2018-08-06T13:38:07Z Merged pull request |-\|/-| 2515 +16 −15 cs 2|-\|/-| 
+Add parameters to IntrospectionRequestValidationResult - #2388 |-\|/-| 2018-08-06T14:14:49Z Merged pull request |-\|/-| 2512 +7 −4 cs 1|-\|/-| 
+add invalid uri scheme validation |-\|/-| 2018-08-06T14:03:25Z Merged pull request |-\|/-| 2506 +169 −3 cs 5|-\|/-| 
+fix ??-operator priority |-\|/-| 2018-08-07T07:28:47Z Closed pull request |-\|/-| 2499 +36 −3 cs 2|-\|/-| 
+Make EndSession public |-\|/-| 2018-08-02T20:48:49Z Closed pull request |-\|/-| 2470 +1 −1 cs 1|-\|/-| 
+Device Flow User Interaction |-\|/-| 2018-07-10T12:00:01Z Merged pull request |-\|/-| 2449 +201 −5 cs cshtml 13|-\|/-| 
+Fix grammar/spelling mistakes in log statements |-\|/-| 2018-07-09T21:21:49Z Merged pull request |-\|/-| 2447 +4 −4 cs 2|-\|/-| 
+Add built-in support for Confirmation (cnf) |-\|/-| 2018-07-15T09:12:51Z Merged pull request |-\|/-| 2440 +186 −51 cs 12|-\|/-| 
+Device Flow Response Validator |-\|/-| 2018-07-06T09:45:23Z Merged pull request |-\|/-| 2422 +1,027 −9 cs 8|-\|/-| 
+Code refactoring on UpdateRefreshTokenAsync |-\|/-| 2019-04-04T13:51:30Z Closed pull request |-\|/-| 2418 +195 −42 cs 3|-\|/-| 
+Device Flow Authorization Endpoint |-\|/-| 2018-06-20T12:40:50Z Merged pull request |-\|/-| 2403 +560 −21 cs 7|-\|/-| 
+Update extension_grants.rst |-\|/-| 2018-06-19T12:52:56Z Merged pull request |-\|/-| 2396 +1 −1 rst 1|-\|/-| 
+Response generator & tests |-\|/-| 2018-06-19T04:37:48Z Merged pull request |-\|/-| 2395 +1,043 −7 cs 9|-\|/-| 
+Add details to logError in TokenRequestValidator |-\|/-| 2018-07-06T08:31:26Z Merged pull request |-\|/-| 2393 +13 −9 cs 1|-\|/-| 
+Validator tests |-\|/-| 2018-06-18T06:24:08Z Merged pull request |-\|/-| 2391 +309 −83 cs 3|-\|/-| 
+Documentation: Added claimsaction to map website claim |-\|/-| 2018-08-04T14:14:09Z Merged pull request |-\|/-| 2377 +3 −1 rst 1|-\|/-| 
+Documentation: Added claimsaction to map website claim |-\|/-| 2018-06-12T10:24:27Z Closed pull request |-\|/-| 2376 +3 −1 rst 1|-\|/-| 
+Documentation: Added claimsaction to map website claim |-\|/-| 2018-06-12T10:22:37Z Closed pull request |-\|/-| 2375 +3 −1 rst 1|-\|/-| 
+Make client secret optional while parsing basic authentication secret |-\|/-| 2018-06-22T10:00:40Z Merged pull request |-\|/-| 2374 +73 −30 cs 4|-\|/-| 
+Patch 1 |-\|/-| 2018-06-07T14:08:15Z Merged pull request |-\|/-| 2368 +2 −2 rst 2|-\|/-| 
+Fixed typo |-\|/-| 2018-06-05T22:28:55Z Merged pull request |-\|/-| 2360 +1 −1 rst 1|-\|/-| 
+Filter identity scopes and offline_access when no explicit scopes are specificed in client credentials |-\|/-| 2018-06-05T11:44:15Z Merged pull request |-\|/-| 2358 +45 −19 cs 4|-\|/-| 
+Dont log SecurityTokenExpiredException as error, since it is not |-\|/-| 2018-06-05T09:06:59Z Merged pull request |-\|/-| 2357 +5 −0 cs 1|-\|/-| 
+Change sdk version from 2 to 2.x |-\|/-| 2018-06-05T11:45:14Z Merged pull request |-\|/-| 2355 +1 −1 md 0|-\|/-| 
+Use AppVeyor for Linux builds |-\|/-| 2018-06-03T10:34:44Z Merged pull request |-\|/-| 2354 +144 −204 yml ps1 3|-\|/-| 
+Update to ASP.NET Core 2.1 |-\|/-| 2018-06-04T05:47:30Z Merged pull request |-\|/-| 2344 +47 −46 csproj cs 6|-\|/-| 
+Fix incorrect log message |-\|/-| 2018-06-05T08:32:00Z Merged pull request |-\|/-| 2336 +2 −2 cs 1|-\|/-| 
+adds check for Client credentials and removes open id scopes |-\|/-| 2018-06-05T08:29:13Z Closed pull request |-\|/-| 2324 +9 −1 cs 2|-\|/-| 
+Adds AllowAccessTokensViaBrowser to Implicit client example |-\|/-| 2018-05-17T12:14:56Z Closed pull request |-\|/-| 2320 +5 −1 rst 2|-\|/-| 
+API example uses userinfo endpoint |-\|/-| 2018-05-16T16:41:19Z Merged pull request |-\|/-| 2318 +2 −0 rst 1|-\|/-| 
+Update refresh_tokens.rst |-\|/-| 2018-08-07T07:35:14Z Merged pull request |-\|/-| 2316 +1 −1 rst 1|-\|/-| 
+Add device flow authorize request validator |-\|/-| 2018-05-13T12:03:39Z Merged pull request |-\|/-| 2306 +296 −0 cs 5|-\|/-| 
+Extension Grant flows need all the data of the request at the final build of the claims. |-\|/-| 2018-06-19T04:38:33Z Merged pull request |-\|/-| 2298 +21 −6 cs 2|-\|/-| 
+Add Serilog instructions for ASP.NET Core 2 |-\|/-| 2018-05-13T12:56:24Z Merged pull request |-\|/-| 2297 +38 −3 rst 1|-\|/-| 
+Add support for OAuth 2.0 Device Flow [WIP] |-\|/-| 2018-11-04T15:31:36Z Closed pull request |-\|/-| 2284 +6,310 −3,739 md gitignore yml sln MD cake 5|-\|/-| 
+Add descscription to client |-\|/-| 2018-08-03T21:35:06Z Closed pull request |-\|/-| 2282 +27 −9 cs cshtml 5|-\|/-| 
+Changed AddScriptCspHeaders and AddStyleCspHeaders from internal to p… |-\|/-| 2018-08-04T14:23:53Z Closed pull request |-\|/-| 2260 +3 −3 cs 1|-\|/-| 
+Fix setting BearerToken |-\|/-| 2018-04-17T14:19:24Z Merged pull request |-\|/-| 2239 +1 −1 rst 1|-\|/-| 
+Add more strict cache control headers when softer headers are already added by HttpContext.SignInAsync |-\|/-| 2018-08-04T14:36:12Z Closed pull request |-\|/-| 2234 +4 −1 cs 1|-\|/-| 
+Removed await from synchronous test. |-\|/-| 2018-04-14T11:56:04Z Merged pull request |-\|/-| 2230 +1 −1 cs 1|-\|/-| 
+Split controllers in local login/logout and external challenge/callback |-\|/-| 2018-04-05T06:46:34Z Merged pull request |-\|/-| 2204 +285 −216 csproj cs 2|-\|/-| 
+Add client configuration validation infrastructure |-\|/-| 2018-04-05T14:46:15Z Merged pull request |-\|/-| 2200 +266 −5 cs 9|-\|/-| 
+Added events for granted/denied consent |-\|/-| 2018-04-05T09:56:08Z Merged pull request |-\|/-| 2199 +177 −29 rst cs 8|-\|/-| 
+IdentityModel example correction in documentation |-\|/-| 2018-03-28T12:50:20Z Merged pull request |-\|/-| 2182 +2 −2 rst 1|-\|/-| 
+Spelling corrections in documentation |-\|/-| 2018-03-14T05:45:59Z Merged pull request |-\|/-| 2148 +14 −14 rst 13|-\|/-| 
+Fix invalid grant type validation result |-\|/-| 2018-03-02T08:29:43Z Merged pull request |-\|/-| 2127 +2 −2 cs 1|-\|/-| 
+explicitly set the default value of base target in html response from AuthorizeResult |-\|/-| 2018-03-31T22:15:46Z Merged pull request |-\|/-| 2121 +3 −2 cs 2|-\|/-| 
+Minor documentation fix |-\|/-| 2018-02-28T22:00:12Z Closed pull request |-\|/-| 2119 +8 −3 rst 4|-\|/-| 
+Update authorize.rst Fix IdentityModel example |-\|/-| 2018-02-26T12:33:28Z Merged pull request |-\|/-| 2109 +1 −1 rst 1|-\|/-| 
+Use HttpMethods.IsGet() and HttpMethods.IsPost() instead of string comparison |-\|/-| 2018-02-22T21:44:21Z Merged pull request |-\|/-| 2099 +23 −23 cs 11|-\|/-| 
+Update 8_entity_framework.rst Fix templates link |-\|/-| 2018-02-22T17:50:33Z Merged pull request |-\|/-| 2097 +1 −1 rst 1|-\|/-| 
+ Better exception logging in TokenValidator |-\|/-| 2018-02-22T17:51:03Z Merged pull request |-\|/-| 2095 +2 −2 cs 1|-\|/-| 
+Better exception logging in TokenValidator |-\|/-| 2018-02-21T23:17:27Z Closed pull request |-\|/-| 2094 +3 −3 cs 1|-\|/-| 
+Update unhandled exception logging |-\|/-| 2018-02-21T02:25:30Z Merged pull request |-\|/-| 2091 +2 −2 cs 1|-\|/-| 
+update log of valdiation with the expected values |-\|/-| 2018-02-27T14:31:13Z Merged pull request |-\|/-| 2081 +12 −11 cs 1|-\|/-| 
+fixed typo |-\|/-| 2018-02-15T13:53:37Z Merged pull request |-\|/-| 2075 +1 −1 rst 1|-\|/-| 
+Updates fluent assertions to v5 and fixes complile errors |-\|/-| 2018-02-06T10:37:39Z Merged pull request |-\|/-| 2054 +35 −35 cs csproj 17|-\|/-| 
+Fix Basic Authentication encoding to fully comply with RFC6749 |-\|/-| 2018-02-06T07:22:32Z Merged pull request |-\|/-| 2052 +15 −6 csproj cs 4|-\|/-| 
+Unlimited refresh lifetime in 1.5.2 |-\|/-| 2018-02-12T06:50:39Z Closed pull request |-\|/-| 2049 +248 −104 cs 3|-\|/-| 
+Format headings and add bash script build information |-\|/-| 2018-02-04T13:19:49Z Merged pull request |-\|/-| 2048 +9 −8 md 0|-\|/-| 
+Update aspnet_identity.rst |-\|/-| 2018-02-01T23:27:07Z Merged pull request |-\|/-| 2041 +1 −1 rst 1|-\|/-| 
+Add  Content-Security-Policy options |-\|/-| 2018-04-14T13:54:51Z Merged pull request |-\|/-| 2035 +253 −43 cs 9|-\|/-| 
+Quickstarts: devDependencies should be dependencies in package.json |-\|/-| 2018-01-25T14:09:00Z Merged pull request |-\|/-| 2027 +3 −3 rst 1|-\|/-| 
+remove extra blank line |-\|/-| 2018-01-19T20:23:15Z Merged pull request |-\|/-| 2011 +0 −1 cs 1|-\|/-| 
+Updates to ASP.NET Identity quickstart docs |-\|/-| 2018-11-30T07:35:16Z Closed pull request |-\|/-| 2008 +39 −158 rst png 14|-\|/-| 
+Suggestion for an update to the documentation for using the IdentityServer4.EntityFramework NuGet package. |-\|/-| 2018-01-17T16:43:52Z Merged pull request |-\|/-| 2003 +2 −0 rst 1|-\|/-| 
+Update AccessTokenTypes to AccessTokenType |-\|/-| 2018-01-17T16:43:07Z Merged pull request |-\|/-| 2000 +1 −1 rst 1|-\|/-| 
+Correct link in docs |-\|/-| 2018-01-11T12:29:35Z Merged pull request |-\|/-| 1974 +1 −1 rst 1|-\|/-| 
+Add missing word 'request' in grant_types.rst |-\|/-| 2018-01-10T09:06:59Z Merged pull request |-\|/-| 1966 +2 −2 rst 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2018-01-08T10:33:40Z Merged pull request |-\|/-| 1954 +1 −1 rst 1|-\|/-| 
+Log full exceptions when available to aid in debugging |-\|/-| 2018-01-08T18:06:39Z Merged pull request |-\|/-| 1948 +15 −15 cs 7|-\|/-| 
+Fix string concat problem in log messages |-\|/-| 2018-01-03T10:34:37Z Merged pull request |-\|/-| 1936 +238 −15 cs csproj 4|-\|/-| 
+Wrong link in documentation |-\|/-| 2018-01-04T13:23:11Z Closed pull request |-\|/-| 1928 +2 −1 md rst 1|-\|/-| 
+Fix doc to set AllowedGrantTypes line |-\|/-| 2017-12-26T17:02:53Z Closed pull request |-\|/-| 1912 +1 −1 rst 1|-\|/-| 
+Formatting |-\|/-| 2017-12-27T21:04:11Z Merged pull request |-\|/-| 1910 +5 −5 rst 1|-\|/-| 
+only emit session id cookie if check session endpoint is enabled |-\|/-| 2017-12-21T15:44:18Z Merged pull request |-\|/-| 1903 +8 −5 cs 1|-\|/-| 
+Add ClientName to LogutMessage and LogoutRequest |-\|/-| 2017-12-20T20:24:52Z Merged pull request |-\|/-| 1893 +16 −4 cs 2|-\|/-| 
+Fix #1882 |-\|/-| 2017-12-18T18:28:55Z Merged pull request |-\|/-| 1886 +1 −1 cs 1|-\|/-| 
+Unlimited refresh lifetime |-\|/-| 2017-12-21T17:05:46Z Merged pull request |-\|/-| 1879 +251 −5 rst cs 3|-\|/-| 
+fixed typo |-\|/-| 2017-12-14T12:51:44Z Merged pull request |-\|/-| 1874 +1 −1 rst 1|-\|/-| 
+Spelling correction in startup.rst |-\|/-| 2017-12-08T22:25:42Z Merged pull request |-\|/-| 1845 +1 −1 rst 1|-\|/-| 
+BackchannelLogoutClient throws exception while generating the logout token |-\|/-| 2017-12-04T17:46:32Z Merged pull request |-\|/-| 1829 +31 −15 cs 5|-\|/-| 
+fix incorrect comment about default grant type |-\|/-| 2017-12-04T14:47:13Z Merged pull request |-\|/-| 1827 +1 −1 cs 1|-\|/-| 
+Pass requested resources to profile service (where available) |-\|/-| 2017-12-21T15:37:38Z Merged pull request |-\|/-| 1817 +41 −10 cs 3|-\|/-| 
+Doc update: Fix Configure after quickstart ui download |-\|/-| 2017-11-29T12:44:28Z Merged pull request |-\|/-| 1813 +1 −2 rst 1|-\|/-| 
+Allows overriding methods in default services |-\|/-| 2017-12-20T16:22:11Z Merged pull request |-\|/-| 1798 +93 −84 cs 4|-\|/-| 
+Update 6_aspnet_identity.rst |-\|/-| 2017-11-23T15:15:21Z Merged pull request |-\|/-| 1796 +1 −1 rst 1|-\|/-| 
+Updated extension grant docs  |-\|/-| 2017-11-17T15:47:27Z Closed pull request |-\|/-| 1771 +3 −3 rst 1|-\|/-| 
+add flag to relax frame-src csp header on signout response #1647 |-\|/-| 2017-12-21T15:02:42Z Merged pull request |-\|/-| 1766 +77 −7 cs 3|-\|/-| 
+two errant sentences left unmodified |-\|/-| 2017-11-16T18:09:48Z Merged pull request |-\|/-| 1761 +3 −3 rst 1|-\|/-| 
+supporting NameIdentifier |-\|/-| 2017-11-19T14:02:16Z Closed pull request |-\|/-| 1759 +10 −3 cs 1|-\|/-| 
+where angels fear to trod |-\|/-| 2017-11-16T12:57:40Z Closed pull request |-\|/-| 1755 +3 −3 rst 1|-\|/-| 
+could be off... |-\|/-| 2017-11-19T14:14:41Z Merged pull request |-\|/-| 1752 +3 −3 rst 1|-\|/-| 
+Add redirect_uri parameter to ErrorUrl #1564 |-\|/-| 2017-12-20T18:01:21Z Merged pull request |-\|/-| 1736 +248 −5 cs 3|-\|/-| 
+pass ui_locales to error and logout pages #1480 |-\|/-| 2017-12-20T16:50:10Z Closed pull request |-\|/-| 1735 +195 −2 cs 7|-\|/-| 
+detect non-unique scope names #1583 |-\|/-| 2017-12-20T16:30:34Z Merged pull request |-\|/-| 1733 +40 −1 cs 2|-\|/-| 
+added warning regarding static users list |-\|/-| 2017-11-10T01:52:04Z Merged pull request |-\|/-| 1731 +3 −1 rst 1|-\|/-| 
+Update standard IDistributedCache implementation. |-\|/-| 2017-11-09T23:34:12Z Merged pull request |-\|/-| 1730 +1 −1 rst 1|-\|/-| 
+lost a day on this |-\|/-| 2017-11-09T23:56:51Z Closed pull request |-\|/-| 1729 +2 −2 rst 1|-\|/-| 
+because perfection is our goal... |-\|/-| 2017-11-09T16:51:18Z Merged pull request |-\|/-| 1726 +2 −2 rst 1|-\|/-| 
+excise seemingly superfluous instructions |-\|/-| 2017-11-19T16:18:30Z Closed pull request |-\|/-| 1725 +1 −19 rst 1|-\|/-| 
+small clarification |-\|/-| 2017-11-09T16:49:05Z Merged pull request |-\|/-| 1723 +1 −1 rst 1|-\|/-| 
+Move the IsActive call from the custom token validator to the core token validatator |-\|/-| 2017-12-20T16:24:01Z Merged pull request |-\|/-| 1718 +74 −82 cs 2|-\|/-| 
+Fix #1697 |-\|/-| 2017-11-11T19:19:52Z Merged pull request |-\|/-| 1706 +5 −5 cs 1|-\|/-| 
+per email to Brock, fix incorrect documentation |-\|/-| 2017-11-03T20:29:00Z Closed pull request |-\|/-| 1705 +1 −2 rst 1|-\|/-| 
+Patch 2 |-\|/-| 2017-11-04T17:10:53Z Merged pull request |-\|/-| 1702 +8 −5 rst 2|-\|/-| 
+Release |-\|/-| 2017-10-24T10:16:03Z Closed pull request |-\|/-| 1668 +41 −15 sln rst cs csproj 6|-\|/-| 
+Update 6_aspnet_identity.rst |-\|/-| 2017-10-23T15:06:46Z Merged pull request |-\|/-| 1664 +1 −1 rst 1|-\|/-| 
+Remove name claim requirement |-\|/-| 2017-10-24T15:42:54Z Closed pull request |-\|/-| 1661 +430 −154 cs cshtml 4|-\|/-| 
+Fix for One-Time refresh token not being removed from PersistedGrants store |-\|/-| 2017-10-25T16:38:26Z Closed pull request |-\|/-| 1646 +7 −6 cs 1|-\|/-| 
+Make secret validation more pluggable |-\|/-| 2017-10-23T06:55:26Z Merged pull request |-\|/-| 1644 +60 −11 cs 9|-\|/-| 
+Fix User Claim image in Quickstart3 |-\|/-| 2017-10-16T12:13:16Z Merged pull request |-\|/-| 1629 +0 −0 png 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2017-10-16T06:32:47Z Closed pull request |-\|/-| 1621 +130 −0 rst 1|-\|/-| 
+Update apis.rst |-\|/-| 2017-10-11T11:14:13Z Merged pull request |-\|/-| 1612 +1 −1 rst 1|-\|/-| 
+Moving IdentityServerMiddleware IEventService parameter from constructor to Invoke |-\|/-| 2017-10-10T06:55:17Z Merged pull request |-\|/-| 1604 +5 −7 cs 1|-\|/-| 
+Fix minor typos in the documentation |-\|/-| 2017-10-07T05:53:38Z Merged pull request |-\|/-| 1601 +2 −2 md rst 1|-\|/-| 
+Set NoCache headers for discovery document if CacheInterval is set to 0 |-\|/-| 2017-11-11T15:28:03Z Merged pull request |-\|/-| 1598 +5 −2 cs 2|-\|/-| 
+Changed .NET Core Version to 2.0 in Readme.md |-\|/-| 2017-10-06T08:46:46Z Merged pull request |-\|/-| 1593 +2 −2 md 0|-\|/-| 
+add options validation at startup time |-\|/-| 2017-10-04T14:04:27Z Merged pull request |-\|/-| 1580 +18 −0 cs 1|-\|/-| 
+Adding Getting Started with ASP.NET Core and OAuth |-\|/-| 2017-10-02T07:15:35Z Merged pull request |-\|/-| 1579 +1 −0 rst 1|-\|/-| 
+Implemented PairWise Subject |-\|/-| 2018-04-10T14:44:42Z Closed pull request |-\|/-| 1578 +1,308 −1,028 ncrunchsolution cs 15|-\|/-| 
+Separate callback route endpoints from base route endpoints |-\|/-| 2017-10-03T17:07:28Z Merged pull request |-\|/-| 1576 +887 −623 cs 3|-\|/-| 
+Added link Platform scenario sample |-\|/-| 2017-11-19T14:20:54Z Closed pull request |-\|/-| 1569 +6 −1 rst 1|-\|/-| 
+Added link Platform scenario sample |-\|/-| 2017-09-27T09:19:51Z Closed pull request |-\|/-| 1568 +5 −0 rst 1|-\|/-| 
+Add new Node API sample to community quickstarts |-\|/-| 2017-11-19T14:20:49Z Closed pull request |-\|/-| 1558 +8 −1 rst 1|-\|/-| 
+making client claims prefix value configurable #1534 |-\|/-| 2017-09-27T15:30:43Z Merged pull request |-\|/-| 1546 +7 −8 cs 3|-\|/-| 
+Added IdentityServer 4 blog posts to team section |-\|/-| 2017-09-20T13:19:47Z Merged pull request |-\|/-| 1543 +2 −1 rst 1|-\|/-| 
+adding vs template |-\|/-| 2017-09-19T05:38:36Z Closed pull request |-\|/-| 1540 +46,654 −0 json vstemplate csproj cs 11|-\|/-| 
+A superfluous space caused bad formatting when markdown rendered |-\|/-| 2017-09-14T15:11:28Z Merged pull request |-\|/-| 1530 +1 −1 rst 1|-\|/-| 
+use ISystemClock |-\|/-| 2017-09-14T11:45:35Z Merged pull request |-\|/-| 1524 +186 −126 cs 10|-\|/-| 
+Fixed CLA link in README. |-\|/-| 2017-09-13T04:04:09Z Merged pull request |-\|/-| 1516 +1 −1 md 0|-\|/-| 
+Made Endpoint public so it can be used in custom routing. |-\|/-| 2017-09-14T00:25:41Z Merged pull request |-\|/-| 1515 +2 −2 cs 1|-\|/-| 
+Add AlwaysIncludeUserClaimsInIdToken to docs |-\|/-| 2017-09-11T19:45:54Z Merged pull request |-\|/-| 1510 +2 −0 rst 1|-\|/-| 
+Correct minor documentation typo |-\|/-| 2017-09-08T09:24:25Z Merged pull request |-\|/-| 1504 +1 −1 rst 1|-\|/-| 
+fixed a typo |-\|/-| 2017-09-08T07:22:01Z Merged pull request |-\|/-| 1503 +2 −2 rst 1|-\|/-| 
+Update introspection.rst |-\|/-| 2017-09-07T15:21:18Z Closed pull request |-\|/-| 1499 +2 −2 rst 1|-\|/-| 
+Fixes issue where SessionIdKey is not present in the properties dictionary |-\|/-| 2017-09-04T19:59:53Z Merged pull request |-\|/-| 1488 +1 −1 cs 1|-\|/-| 
+Add refresh token validator as part of ITokenValidator |-\|/-| 2017-09-19T07:20:46Z Merged pull request |-\|/-| 1487 +159 −107 cs 5|-\|/-| 
+user session rework to allow changing user from custom authorize logic |-\|/-| 2017-09-01T14:45:28Z Merged pull request |-\|/-| 1475 +299 −125 cs 10|-\|/-| 
+support using configuration binder |-\|/-| 2017-08-31T21:46:53Z Merged pull request |-\|/-| 1473 +92 −2 cs json 5|-\|/-| 
+Add my new PS course (extensively uses IdSrv4) |-\|/-| 2017-08-24T09:42:09Z Merged pull request |-\|/-| 1454 +1 −0 rst 1|-\|/-| 
+Use default schemes plumbing |-\|/-| 2017-08-23T08:32:49Z Merged pull request |-\|/-| 1446 +35 −109 cs 7|-\|/-| 
+Typo in code snippet |-\|/-| 2017-08-23T07:44:43Z Merged pull request |-\|/-| 1444 +2 −2 rst 1|-\|/-| 
+Run tests for netcoreapp2.0 and net461 |-\|/-| 2017-08-22T16:12:00Z Merged pull request |-\|/-| 1441 +20 −43 yml cs csproj 7|-\|/-| 
+Remove Microsoft.AspNet.WebApi.Client dependency |-\|/-| 2017-08-23T05:05:04Z Merged pull request |-\|/-| 1424 +1 −2 cs csproj 2|-\|/-| 
+Updating Dependencies to 2.0.0 release |-\|/-| 2017-08-23T05:08:15Z Closed pull request |-\|/-| 1420 +39 −40 csproj cs 11|-\|/-| 
+include username in ExtensionGrantValidationContext |-\|/-| 2017-09-03T08:54:29Z Closed pull request |-\|/-| 1414 +43 −1 cs 2|-\|/-| 
+Fixed typo in class name |-\|/-| 2017-08-14T21:41:42Z Merged pull request |-\|/-| 1413 +6 −6 cs 4|-\|/-| 
+AuthenticateAsync do not return null anymore |-\|/-| 2017-08-30T02:02:17Z Closed pull request |-\|/-| 1409 +1 −1 cs 1|-\|/-| 
+make it easier to reject an authorization request from the login page… |-\|/-| 2017-08-07T14:30:00Z Merged pull request |-\|/-| 1395 +79 −85 cs cshtml 11|-\|/-| 
+Update to ASP.NET Core v2 |-\|/-| 2017-08-07T14:39:32Z Merged pull request |-\|/-| 1394 +621 −597 sln yml csproj cs 7|-\|/-| 
+Show Default in comment/docs for booleans |-\|/-| 2017-08-06T12:52:03Z Merged pull request |-\|/-| 1392 +16 −13 cs 1|-\|/-| 
+make endpoint router extensible #1364 |-\|/-| 2017-08-07T14:21:36Z Merged pull request |-\|/-| 1391 +160 −172 cs 17|-\|/-| 
+remove XFO from end session callback iframe #1224 |-\|/-| 2017-08-07T14:16:35Z Merged pull request |-\|/-| 1389 +0 −17 cs 1|-\|/-| 
+add state data formatter for OIDC state param #1066 |-\|/-| 2017-08-30T02:01:12Z Closed pull request |-\|/-| 1387 +78 −0 cs 3|-\|/-| 
+Only revoke specific refresh token (not all for client) |-\|/-| 2017-08-01T15:25:48Z Merged pull request |-\|/-| 1375 +1 −1 cs 1|-\|/-| 
+Propagate parsed secret throughout token validation pipeline |-\|/-| 2017-08-01T14:28:51Z Merged pull request |-\|/-| 1367 +114 −74 cs 10|-\|/-| 
+Logging instructions |-\|/-| 2017-07-25T18:13:46Z Merged pull request |-\|/-| 1362 +6 −6 rst 1|-\|/-| 
+Quickstart overview update |-\|/-| 2017-08-06T14:55:02Z Merged pull request |-\|/-| 1357 +19 −15 rst png 4|-\|/-| 
+automatically add store implementations to DI when adding cached stores |-\|/-| 2017-08-01T14:34:31Z Merged pull request |-\|/-| 1354 +71 −0 cs 2|-\|/-| 
+remove duplicate entries from scopes_supported element in discovery doc |-\|/-| 2017-07-19T05:43:34Z Closed pull request |-\|/-| 1341 +1 −1 cs 1|-\|/-| 
+Adding new blog links |-\|/-| 2017-07-18T05:37:17Z Merged pull request |-\|/-| 1339 +5 −1 rst 1|-\|/-| 
+Update community.rst |-\|/-| 2017-07-17T05:15:13Z Merged pull request |-\|/-| 1335 +6 −1 rst 1|-\|/-| 
+added "alg" to JsonWebKey and DiscoveryResponseGenerator |-\|/-| 2017-07-13T13:36:08Z Merged pull request |-\|/-| 1326 +31 −2 cs 3|-\|/-| 
+slightly cleaner GetOrigin implementation |-\|/-| 2017-08-30T13:42:42Z Merged pull request |-\|/-| 1317 +95 −9 cs 2|-\|/-| 
+Included ui_locales as query parameter to ErrorUrl and LogoutUrl |-\|/-| 2017-09-03T08:56:20Z Closed pull request |-\|/-| 1308 +54 −15 cs csproj 3|-\|/-| 
+Update resources.rst |-\|/-| 2017-06-28T13:44:16Z Merged pull request |-\|/-| 1284 +1 −1 rst 1|-\|/-| 
+Design a better UTC now helper |-\|/-| 2017-07-13T13:32:36Z Merged pull request |-\|/-| 1279 +280 −117 cs 13|-\|/-| 
+Spelling error in log message. |-\|/-| 2017-06-22T17:45:57Z Merged pull request |-\|/-| 1273 +2 −2 cs 1|-\|/-| 
+Feature: Allow PKCE on demand |-\|/-| 2017-06-23T10:37:18Z Merged pull request |-\|/-| 1270 +232 −157 cs 2|-\|/-| 
+Replace user to access token |-\|/-| 2017-06-19T06:51:25Z Merged pull request |-\|/-| 1265 +1 −1 rst 1|-\|/-| 
+Updates for SLO and session management |-\|/-| 2017-06-22T16:38:37Z Merged pull request |-\|/-| 1262 +1,476 −1,201 cs 9|-\|/-| 
+Merge remote-tracking branch 'refs/remotes/IdentityServer/dev' into dev |-\|/-| 2017-06-07T14:21:54Z Closed pull request |-\|/-| 1240 +0 −0 0|-\|/-| 
+Removed duplicate scopes |-\|/-| 2017-06-22T16:55:09Z Closed pull request |-\|/-| 1217 +2 −2 cs 1|-\|/-| 
+Slightly more precise error message |-\|/-| 2017-05-28T07:04:15Z Merged pull request |-\|/-| 1206 +2 −2 cs 1|-\|/-| 
+Normalize custom authorize validator API style |-\|/-| 2017-05-29T15:18:52Z Merged pull request |-\|/-| 1203 +58 −33 cs 7|-\|/-| 
+Add error descriptions for certain validation scenarios on authorize endpoint |-\|/-| 2017-05-29T14:19:04Z Merged pull request |-\|/-| 1202 +638 −129 cs 1|-\|/-| 
+Enforcing unique names/ids in in memory stores |-\|/-| 2017-05-29T14:05:07Z Merged pull request |-\|/-| 1200 +123 −0 cs 5|-\|/-| 
+Enhanced docs |-\|/-| 2017-05-24T07:03:32Z Merged pull request |-\|/-| 1192 +4 −4 cs 1|-\|/-| 
+修复vs for mac打开问题，主要更改.csproj文件的TargetFrameworks标签 |-\|/-| 2017-05-15T14:42:49Z Closed pull request |-\|/-| 1172 +13 −13 sln csproj 4|-\|/-| 
+Consent expiration setting |-\|/-| 2017-06-01T15:11:55Z Merged pull request |-\|/-| 1161 +61 −9 cs 3|-\|/-| 
+Validate scoped services: true |-\|/-| 2017-05-10T09:32:42Z Merged pull request |-\|/-| 1149 +1 −3 cs 1|-\|/-| 
+Update package versions |-\|/-| 2017-05-09T19:51:05Z Merged pull request |-\|/-| 1146 +25 −25 csproj 4|-\|/-| 
+fixed typos |-\|/-| 2017-05-09T15:19:56Z Merged pull request |-\|/-| 1145 +3 −3 rst 1|-\|/-| 
+Add condition to logging in IntrospectionResponseGenerator.AreExpectedScopesPresent  |-\|/-| 2017-05-29T13:50:45Z Merged pull request |-\|/-| 1144 +3 −1 cs 1|-\|/-| 
+Consistent expiration handling |-\|/-| 2017-05-29T13:31:43Z Merged pull request |-\|/-| 1135 +39 −105 cs 7|-\|/-| 
+fixed typo |-\|/-| 2017-05-04T17:29:49Z Merged pull request |-\|/-| 1131 +1 −1 rst 1|-\|/-| 
+fixed typos |-\|/-| 2017-05-04T17:30:18Z Merged pull request |-\|/-| 1130 +4 −4 rst 1|-\|/-| 
+fixed typo and formatting (two lines displaying on one) |-\|/-| 2017-05-04T17:30:38Z Merged pull request |-\|/-| 1129 +7 −4 rst 1|-\|/-| 
+fixed typos |-\|/-| 2017-05-09T19:30:52Z Merged pull request |-\|/-| 1128 +2 −2 rst 1|-\|/-| 
+fixing typo |-\|/-| 2017-05-04T16:17:52Z Merged pull request |-\|/-| 1125 +1 −1 rst 1|-\|/-| 
+Update videos.rst && add NDC Mini Copenhagen |-\|/-| 2017-05-03T15:04:35Z Merged pull request |-\|/-| 1120 +4 −3 rst 1|-\|/-| 
+Fixed AddDeveloperSigningCredential on full framework |-\|/-| 2017-05-04T16:37:18Z Merged pull request |-\|/-| 1119 +62 −3 cs 2|-\|/-| 
+Update apis.rst |-\|/-| 2017-04-27T15:25:51Z Merged pull request |-\|/-| 1109 +10 −10 rst 1|-\|/-| 
+Update reference_tokens.rst |-\|/-| 2017-04-27T15:28:06Z Merged pull request |-\|/-| 1108 +2 −2 rst 1|-\|/-| 
+Fixed some typos |-\|/-| 2017-04-21T22:33:38Z Merged pull request |-\|/-| 1096 +2 −2 rst 1|-\|/-| 
+Update cors.rst |-\|/-| 2017-04-21T22:33:24Z Merged pull request |-\|/-| 1095 +1 −1 rst 1|-\|/-| 
+Consent page: Add fallback to ClientId if ClientName is left empty |-\|/-| 2017-04-19T08:02:30Z Merged pull request |-\|/-| 1080 +1 −1 cs 1|-\|/-| 
+Fix for issue#1068. Redact client secret in events. |-\|/-| 2017-04-19T06:42:30Z Merged pull request |-\|/-| 1076 +1 −0 cs 1|-\|/-| 
+Token revocation cleanup |-\|/-| 2017-04-18T18:33:56Z Merged pull request |-\|/-| 1073 +353 −202 cs 5|-\|/-| 
+Update 6_aspnet_identity.rst |-\|/-| 2017-04-18T14:54:23Z Merged pull request |-\|/-| 1072 +1 −1 rst 1|-\|/-| 
+Update title of big_picture.rst |-\|/-| 2017-04-18T01:56:46Z Merged pull request |-\|/-| 1069 +2 −2 rst 1|-\|/-| 
+Typo in ref docs. Contributing.md grammar. |-\|/-| 2017-04-14T08:44:23Z Merged pull request |-\|/-| 1063 +2 −2 md rst 1|-\|/-| 
+make resource base class for api and identity resources |-\|/-| 2017-04-13T13:53:46Z Merged pull request |-\|/-| 1060 +41 −57 cs 7|-\|/-| 
+UserInfo cleanup |-\|/-| 2017-04-13T13:35:11Z Merged pull request |-\|/-| 1059 +266 −79 cs 6|-\|/-| 
+Update api_resource.rst |-\|/-| 2017-04-12T06:59:42Z Merged pull request |-\|/-| 1052 +2 −2 rst 1|-\|/-| 
+Refactor token response generator for cleaner extensibility |-\|/-| 2017-04-12T14:05:45Z Merged pull request |-\|/-| 1042 +170 −95 csproj 1|-\|/-| 
+Update logging.rst |-\|/-| 2017-04-09T15:35:11Z Merged pull request |-\|/-| 1040 +7 −1 rst 1|-\|/-| 
+Create new collection when implying all scopes if none requested |-\|/-| 2017-04-10T16:12:51Z Merged pull request |-\|/-| 1030 +3 −3 cs 1|-\|/-| 
+removing excess bracket in resource example |-\|/-| 2017-04-06T05:38:24Z Merged pull request |-\|/-| 1027 +1 −2 rst 1|-\|/-| 
+Update identity_resource.rst |-\|/-| 2017-04-03T18:07:49Z Merged pull request |-\|/-| 1016 +1 −1 rst 1|-\|/-| 
+Update reference_tokens.rst |-\|/-| 2017-04-03T15:39:43Z Merged pull request |-\|/-| 1014 +3 −3 rst 1|-\|/-| 
+Update crypto.rst |-\|/-| 2017-03-31T14:06:49Z Merged pull request |-\|/-| 1007 +3 −3 rst 1|-\|/-| 
+Removed redundant client parameter from IClaimsService |-\|/-| 2017-04-12T14:05:31Z Merged pull request |-\|/-| 1003 +22 −34 cs 4|-\|/-| 
+Introspection re-work |-\|/-| 2017-04-12T14:05:19Z Merged pull request |-\|/-| 1001 +140 −121 cs 7|-\|/-| 
+Update IdentityModel version |-\|/-| 2017-03-29T17:27:44Z Merged pull request |-\|/-| 997 +1 −1 csproj 1|-\|/-| 
+Update clients.rst |-\|/-| 2017-03-28T20:38:42Z Merged pull request |-\|/-| 993 +1 −1 rst 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2017-03-27T21:14:39Z Merged pull request |-\|/-| 988 +1 −1 rst 1|-\|/-| 
+Added a note to the external authentication docs. |-\|/-| 2017-03-26T11:20:11Z Merged pull request |-\|/-| 981 +2 −0 rst 1|-\|/-| 
+Fix space in IMG link |-\|/-| 2017-03-23T15:31:34Z Merged pull request |-\|/-| 972 +1 −1 md 0|-\|/-| 
+Add fixes for documentation |-\|/-| 2017-03-22T20:56:38Z Merged pull request |-\|/-| 968 +7 −7 rst 4|-\|/-| 
+Update index.rst |-\|/-| 2017-03-22T15:25:23Z Merged pull request |-\|/-| 966 +2 −2 rst 1|-\|/-| 
+Add validated request to token result |-\|/-| 2017-03-22T05:43:17Z Merged pull request |-\|/-| 963 +3 −2 cs 2|-\|/-| 
+Add option to persists temp key |-\|/-| 2017-03-21T14:48:38Z Merged pull request |-\|/-| 957 +74 −4 gitignore cs 3|-\|/-| 
+Update 8_entity_framework.rst |-\|/-| 2017-03-21T02:08:33Z Merged pull request |-\|/-| 955 +1 −1 rst 1|-\|/-| 
+New Events Design |-\|/-| 2017-03-21T16:51:57Z Merged pull request |-\|/-| 953 +561 −1,005 cs json 11|-\|/-| 
+Fixed spelling |-\|/-| 2017-03-19T19:45:58Z Merged pull request |-\|/-| 944 +1 −1 rst 1|-\|/-| 
+Note to add IdentityModel to MVC client |-\|/-| 2017-03-20T06:46:20Z Closed pull request |-\|/-| 940 +12 −0 rst 1|-\|/-| 
+Add IdentityServer and API unavailable experiments |-\|/-| 2017-03-17T05:54:33Z Merged pull request |-\|/-| 935 +2 −0 rst 1|-\|/-| 
+Add nuget package restore note to apis.rst |-\|/-| 2017-03-17T06:12:46Z Closed pull request |-\|/-| 933 +7 −1 rst 1|-\|/-| 
+Fix typo in the X-Frame-Options directive. |-\|/-| 2017-03-18T03:47:34Z Merged pull request |-\|/-| 932 +1 −1 cs 1|-\|/-| 
+Changed the comment to the corresponding default. |-\|/-| 2017-03-14T07:23:13Z Merged pull request |-\|/-| 915 +1 −1 cs 1|-\|/-| 
+Update videos.rst |-\|/-| 2017-03-13T06:57:32Z Closed pull request |-\|/-| 908 +1 −0 rst 1|-\|/-| 
+Revert "Remove NET452 Target" |-\|/-| 2017-03-10T15:33:37Z Merged pull request |-\|/-| 902 +44 −9 md cake csproj 4|-\|/-| 
+Remove NET452 Target |-\|/-| 2017-03-10T14:42:37Z Merged pull request |-\|/-| 901 +9 −44 md cake csproj 4|-\|/-| 
+sync |-\|/-| 2017-03-09T05:00:07Z Closed pull request |-\|/-| 898 +0 −0 0|-\|/-| 
+update to vs2017 hotness |-\|/-| 2017-03-08T14:34:11Z Merged pull request |-\|/-| 889 +194 −317 sln md cake json csproj xproj 10|-\|/-| 
+Pass LoginUrl/LogoutUrl from IdentityServerOptions to auth cookie |-\|/-| 2017-03-22T17:07:47Z Merged pull request |-\|/-| 887 +18 −0 cs 1|-\|/-| 
+Use response generator pattern for discovery endpoint |-\|/-| 2017-03-07T15:21:01Z Merged pull request |-\|/-| 886 +351 −231 cs 4|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2017-03-06T16:53:44Z Merged pull request |-\|/-| 880 +1 −1 rst 1|-\|/-| 
+fix misspell cacue to cache |-\|/-| 2017-03-05T12:08:50Z Merged pull request |-\|/-| 876 +2 −2 rst 1|-\|/-| 
+Change client allowed grant types to ICollection |-\|/-| 2017-04-12T14:04:58Z Merged pull request |-\|/-| 874 +116 −15 cs 3|-\|/-| 
+Ran against Grammarly |-\|/-| 2017-02-22T11:30:56Z Merged pull request |-\|/-| 837 +13 −15 rst 1|-\|/-| 
+Make certain access token creation parameters dynamic |-\|/-| 2017-02-26T16:53:32Z Merged pull request |-\|/-| 832 +343 −75 cs 11|-\|/-| 
+Add more flexibility to token request pipeline [WIP] |-\|/-| 2017-02-19T18:35:39Z Closed pull request |-\|/-| 831 +60 −17 cs 3|-\|/-| 
+Improve logging when grant validation error occurs. |-\|/-| 2017-02-16T16:58:34Z Merged pull request |-\|/-| 827 +1 −1 cs 1|-\|/-| 
+Validate scoped services |-\|/-| 2017-02-22T11:25:27Z Merged pull request |-\|/-| 825 +16 −8 cs 1|-\|/-| 
+Added additional info on exception thrown |-\|/-| 2017-02-28T06:21:14Z Closed pull request |-\|/-| 806 +22 −1 rst 1|-\|/-| 
+Add external cookie middleware when default signin scheme is used |-\|/-| 2017-02-16T10:13:02Z Merged pull request |-\|/-| 802 +34 −13 cs json 6|-\|/-| 
+Adding note about NET452 runtime errors. |-\|/-| 2017-02-10T08:32:39Z Closed pull request |-\|/-| 799 +230 −30 rst cs json 18|-\|/-| 
+fixed extra '}' typo in code block |-\|/-| 2017-02-07T18:58:19Z Merged pull request |-\|/-| 793 +1 −2 rst 1|-\|/-| 
+Reference to IdSvr version incorrect |-\|/-| 2017-02-07T13:21:26Z Merged pull request |-\|/-| 792 +1 −1 rst 1|-\|/-| 
+Minor edit to Quickstart docs, code block formatting |-\|/-| 2017-02-07T13:21:57Z Merged pull request |-\|/-| 790 +4 −2 rst 1|-\|/-| 
+Fix log message ambiguity in TokenRequestValidator |-\|/-| 2017-02-04T13:33:44Z Merged pull request |-\|/-| 778 +2 −2 cs 1|-\|/-| 
+Add option for having additional claims included when issuing a clien… |-\|/-| 2017-02-05T13:07:11Z Closed pull request |-\|/-| 777 +10 −2 cs 1|-\|/-| 
+allow JsonWebKeys that contain an asymmetric key |-\|/-| 2017-02-05T13:16:38Z Merged pull request |-\|/-| 772 +62 −2 cs 2|-\|/-| 
+Update extension_grants.rst |-\|/-| 2017-02-01T06:58:21Z Merged pull request |-\|/-| 761 +2 −2 rst 1|-\|/-| 
+Improve grammar |-\|/-| 2017-01-27T12:46:18Z Merged pull request |-\|/-| 748 +1 −1 md 0|-\|/-| 
+Update 0_overview.rst |-\|/-| 2017-01-24T15:40:10Z Merged pull request |-\|/-| 737 +2 −2 rst 1|-\|/-| 
+correction to spelling in logmessage |-\|/-| 2017-01-22T12:46:51Z Merged pull request |-\|/-| 729 +1 −1 cs 1|-\|/-| 
+add bower.json |-\|/-| 2017-02-01T15:04:39Z Closed pull request |-\|/-| 723 +15 −18,395 gitignore bowerrc cshtml json 4|-\|/-| 
+Update 2_resource_owner_passwords.rst |-\|/-| 2017-01-18T19:59:10Z Merged pull request |-\|/-| 713 +1 −1 rst 1|-\|/-| 
+Update 2_resource_owner_passwords.rst |-\|/-| 2017-02-05T13:14:54Z Closed pull request |-\|/-| 711 +1 −1 rst 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2017-01-18T20:02:47Z Merged pull request |-\|/-| 710 +1 −1 rst 1|-\|/-| 
+Update 2_resource_owner_passwords.rst |-\|/-| 2017-01-18T20:03:03Z Merged pull request |-\|/-| 709 +3 −1 rst 1|-\|/-| 
+Return id_token on refresh token request (see #690) |-\|/-| 2017-01-25T17:07:22Z Merged pull request |-\|/-| 694 +77 −2 cs 2|-\|/-| 
+Update resources.rst |-\|/-| 2017-01-15T07:44:58Z Merged pull request |-\|/-| 688 +1 −1 rst 1|-\|/-| 
+Always invoke profile service in DefaultClaimsService |-\|/-| 2017-01-15T11:11:10Z Closed pull request |-\|/-| 684 +61 −22 cs 3|-\|/-| 
+Fixed wrong null check |-\|/-| 2017-01-11T19:16:31Z Merged pull request |-\|/-| 676 +1 −1 cs 1|-\|/-| 
+Fix typo in consent options |-\|/-| 2017-01-11T10:39:26Z Merged pull request |-\|/-| 675 +2 −2 cs 2|-\|/-| 
+Update documentation according to your latest blog post (redone against dev) |-\|/-| 2017-01-08T18:25:33Z Merged pull request |-\|/-| 667 +17 −1 rst 1|-\|/-| 
+Update documentation according to your latest blog post |-\|/-| 2017-01-08T17:31:42Z Closed pull request |-\|/-| 666 +17 −1 rst 1|-\|/-| 
+Fixed authorization endpoint typo in docs |-\|/-| 2017-01-04T23:27:21Z Merged pull request |-\|/-| 657 +1 −1 rst 1|-\|/-| 
+Typo in log message in EndpointRouter.cs |-\|/-| 2017-01-02T15:13:29Z Merged pull request |-\|/-| 646 +1 −1 cs 1|-\|/-| 
+Correct use of IHttpContextAccessor |-\|/-| 2017-01-02T14:07:38Z Merged pull request |-\|/-| 645 +14 −14 cs 2|-\|/-| 
+fix SetConsentedScopes |-\|/-| 2017-02-01T15:16:40Z Closed pull request |-\|/-| 635 +29 −33 cs 10|-\|/-| 
+Get Ip from HTTP_X_FORWARDED_FOR if present, to handle proxies |-\|/-| 2016-12-20T03:29:56Z Closed pull request |-\|/-| 605 +5 −1 cs 1|-\|/-| 
+docs: update ef quickstart image to rc5 |-\|/-| 2016-12-10T22:03:52Z Merged pull request |-\|/-| 563 +0 −0 png 1|-\|/-| 
+Improve definition of standard scopes from OIDC spec. |-\|/-| 2016-12-22T02:58:42Z Closed pull request |-\|/-| 552 +89 −99 cs 16|-\|/-| 
+Update to ASP.NET 1.1 |-\|/-| 2016-12-06T17:12:43Z Merged pull request |-\|/-| 542 +44 −47 cake json cs 7|-\|/-| 
+Include API resource names in access token audiences |-\|/-| 2016-12-02T16:23:48Z Merged pull request |-\|/-| 524 +145 −52 cs 10|-\|/-| 
+Docs for RC4 |-\|/-| 2016-12-01T14:35:39Z Merged pull request |-\|/-| 516 +175 −260 rst png 9|-\|/-| 
+Fix typo in 1_client_credentials.rst |-\|/-| 2016-12-01T03:33:03Z Merged pull request |-\|/-| 514 +1 −1 rst 1|-\|/-| 
+new resource based configuration changes |-\|/-| 2016-11-29T20:02:37Z Merged pull request |-\|/-| 509 +1,657 −1,340 rst 8|-\|/-| 
+Update ProcessSignoutCallbackAsync |-\|/-| 2016-11-28T15:07:44Z Merged pull request |-\|/-| 506 +2 −2 cs 1|-\|/-| 
+Fixes #487 - Name of the session cookie is derived from EffeciveAuthenticationScheme |-\|/-| 2016-11-29T23:06:47Z Merged pull request |-\|/-| 502 +6 −3 cs 2|-\|/-| 
+add clarity on AddInMemoryUsers method |-\|/-| 2016-11-30T20:05:50Z Closed pull request |-\|/-| 486 +2 −0 rst 1|-\|/-| 
+Detailed project.json editting |-\|/-| 2016-11-19T11:36:48Z Merged pull request |-\|/-| 485 +7 −2 rst 1|-\|/-| 
+Updated docs for code that doesn't break the program |-\|/-| 2016-11-29T23:06:07Z Closed pull request |-\|/-| 482 +7 −7 rst 1|-\|/-| 
+DefaultSessionIdService.GetCookieName is now configurable |-\|/-| 2016-11-30T14:11:56Z Closed pull request |-\|/-| 457 +13 −4 cs 4|-\|/-| 
+Improved naming of variables |-\|/-| 2016-11-01T05:41:03Z Merged pull request |-\|/-| 454 +5 −5 rst 1|-\|/-| 
+Add VSCode workspace to gitignore |-\|/-| 2016-10-30T14:34:36Z Merged pull request |-\|/-| 452 +3 −0 gitignore 1|-\|/-| 
+Removed exception from XML doc |-\|/-| 2016-10-27T13:43:12Z Merged pull request |-\|/-| 445 +1 −2 cs 1|-\|/-| 
+Added clearing of JWT handler claim type mappings |-\|/-| 2016-10-22T10:41:12Z Merged pull request |-\|/-| 434 +3 −1 rst 1|-\|/-| 
+Fixed Claims property on InMemoryUser initializer |-\|/-| 2016-10-22T10:41:44Z Merged pull request |-\|/-| 433 +2 −2 rst 1|-\|/-| 
+generate EF Migrations to be more aligned with the file new project |-\|/-| 2016-10-21T12:30:22Z Merged pull request |-\|/-| 432 +4 −3 rst 1|-\|/-| 
+reworked persisted grant service and split into separate interfaces |-\|/-| 2016-11-14T17:54:53Z Merged pull request |-\|/-| 429 +1,017 −642 cs 6|-\|/-| 
+reworked persisted grant service/store as extension methods |-\|/-| 2016-11-05T14:36:53Z Closed pull request |-\|/-| 428 +583 −548 cs 6|-\|/-| 
+Merge pull request #1 from IdentityServer/dev |-\|/-| 2016-10-20T15:56:12Z Closed pull request |-\|/-| 427 +0 −0 0|-\|/-| 
+Update 6_aspnet_identity.rst |-\|/-| 2016-10-20T00:27:25Z Merged pull request |-\|/-| 422 +1 −1 rst 1|-\|/-| 
+add token validation cache |-\|/-| 2016-10-09T13:56:15Z Closed pull request |-\|/-| 387 +107 −7 cs 7|-\|/-| 
+AuthenticationScheme and SignInScheme is case sensitive |-\|/-| 2016-10-09T00:00:29Z Closed pull request |-\|/-| 386 +2 −2 rst 1|-\|/-| 
+Rename InMemoryLoginService.cs |-\|/-| 2016-10-08T07:09:07Z Merged pull request |-\|/-| 384 +0 −0 cs 1|-\|/-| 
+potentially solves #19 |-\|/-| 2017-03-06T15:54:58Z Closed pull request |-\|/-| 382 +124 −15 json cs 11|-\|/-| 
+Fixed the Configure method contents |-\|/-| 2016-10-03T07:19:45Z Closed pull request |-\|/-| 362 +1 −0 rst 1|-\|/-| 
+Fix typo on package name |-\|/-| 2016-09-30T11:53:23Z Merged pull request |-\|/-| 360 +2 −2 rst 1|-\|/-| 
+Consistently check for Enabled in Clients and Scopes |-\|/-| 2016-09-30T13:24:19Z Merged pull request |-\|/-| 359 +159 −112 cs 17|-\|/-| 
+Minor typo in docs |-\|/-| 2016-09-30T06:27:11Z Merged pull request |-\|/-| 358 +1 −1 rst 1|-\|/-| 
+Wording clarity and link fix |-\|/-| 2016-09-30T06:27:59Z Merged pull request |-\|/-| 357 +2 −2 rst 1|-\|/-| 
+updated to DotnetCore 1.0.1 |-\|/-| 2016-10-20T07:35:38Z Closed pull request |-\|/-| 338 +2 −2 sln json 2|-\|/-| 
+Invalid URL in docs for InMemoryUserProfileService |-\|/-| 2016-09-23T06:30:26Z Merged pull request |-\|/-| 337 +1 −1 rst 1|-\|/-| 
+Port "private_key_jwt" from IdentityServer3 |-\|/-| 2016-09-28T06:29:55Z Merged pull request |-\|/-| 325 +934 −4 cs 4|-\|/-| 
+use client config on login page (enable local; allowed providers) |-\|/-| 2016-09-22T17:49:12Z Merged pull request |-\|/-| 321 +97 −59 cs cshtml 3|-\|/-| 
+add IdP as part of authorize request validation |-\|/-| 2016-09-22T17:48:42Z Merged pull request |-\|/-| 320 +102 −1 cs 4|-\|/-| 
+Housekeeping refactoring, replacing IsNullOrWhitespace-checks |-\|/-| 2016-09-22T17:34:01Z Merged pull request |-\|/-| 309 +8 −7 cs 4|-\|/-| 
+Update 6_aspnet_identity.rst |-\|/-| 2016-09-14T18:35:03Z Closed pull request |-\|/-| 304 +5 −5 rst 1|-\|/-| 
+rename quickstart to developer, moved in-mem |-\|/-| 2016-09-14T14:10:56Z Merged pull request |-\|/-| 301 +48 −51 cs 35|-\|/-| 
+Authorization result refactor |-\|/-| 2016-09-14T01:19:22Z Merged pull request |-\|/-| 297 +864 −818 config cs 6|-\|/-| 
+Update 5_hybrid_and_api_access.rst |-\|/-| 2016-09-14T00:01:37Z Merged pull request |-\|/-| 296 +1 −1 rst 1|-\|/-| 
+Update 4_external_authentication.rst |-\|/-| 2016-09-14T00:01:20Z Merged pull request |-\|/-| 295 +1 −1 rst 1|-\|/-| 
+Update 3_interactive_login.rst |-\|/-| 2016-09-14T00:01:01Z Merged pull request |-\|/-| 294 +6 −6 rst 1|-\|/-| 
+Merge remote-tracking branch 'refs/remotes/IdentityServer/dev' into dev |-\|/-| 2016-09-14T14:12:30Z Closed pull request |-\|/-| 293 +0 −0 0|-\|/-| 
+Update 2_resource_owner_passwords.rst |-\|/-| 2016-09-13T18:40:38Z Merged pull request |-\|/-| 292 +1 −1 rst 1|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2016-09-13T13:44:16Z Merged pull request |-\|/-| 291 +5 −5 rst 1|-\|/-| 
+Update 2_resource_owner_passwords.rst |-\|/-| 2016-09-13T00:57:52Z Merged pull request |-\|/-| 289 +1 −1 rst 1|-\|/-| 
+Scope claim is always a string array |-\|/-| 2016-09-12T14:19:25Z Merged pull request |-\|/-| 286 +35 −11 cs 5|-\|/-| 
+pull rc1 |-\|/-| 2016-09-08T06:20:41Z Closed pull request |-\|/-| 273 +11 −33 cs json 3|-\|/-| 
+Update 1_client_credentials.rst |-\|/-| 2016-09-13T15:59:39Z Merged pull request |-\|/-| 261 +4 −4 rst 1|-\|/-| 
+Move semicolon to fix syntax error |-\|/-| 2016-09-02T07:30:04Z Merged pull request |-\|/-| 255 +3 −3 rst 1|-\|/-| 
+rework how client list is maintained |-\|/-| 2016-08-31T21:33:43Z Merged pull request |-\|/-| 251 +356 −209 cs 11|-\|/-| 
+More Quickstart refactor |-\|/-| 2016-08-31T18:01:55Z Merged pull request |-\|/-| 249 +89 −51 cs cshtml 27|-\|/-| 
+Ui path rework |-\|/-| 2016-08-31T14:33:14Z Merged pull request |-\|/-| 248 +302 −376 cs 11|-\|/-| 
+CORS rework to mix with hosting cors provider (if present) |-\|/-| 2016-08-29T20:02:35Z Merged pull request |-\|/-| 245 +220 −51 cs 8|-\|/-| 
+Quickstart refactoring |-\|/-| 2016-08-29T17:26:24Z Merged pull request |-\|/-| 244 +228 −203 cs 2|-\|/-| 
+Making scope parameter optional at the token endpoint  |-\|/-| 2016-08-29T13:03:04Z Merged pull request |-\|/-| 241 +187 −3 cs 7|-\|/-| 
+Add support for custom token response fields for resource owner and extension grants |-\|/-| 2016-08-26T12:22:59Z Merged pull request |-\|/-| 238 +688 −97 cs 12|-\|/-| 
+remove the IdentityServerContext class |-\|/-| 2016-08-25T05:35:50Z Merged pull request |-\|/-| 237 +339 −272 cs 6|-\|/-| 
+Remove i localization service |-\|/-| 2016-08-24T18:57:58Z Merged pull request |-\|/-| 235 +23 −264 cs 12|-\|/-| 
+Retrieval of Clients and Scopes for Token and AuthorizationCode |-\|/-| 2016-08-24T13:32:33Z Merged pull request |-\|/-| 233 +180 −277 cs 14|-\|/-| 
+Ref links fix |-\|/-| 2016-08-24T06:44:20Z Merged pull request |-\|/-| 229 +3 −2 rst 2|-\|/-| 
+Response type comparer |-\|/-| 2016-08-22T12:59:54Z Merged pull request |-\|/-| 216 +353 −3 cs 5|-\|/-| 
+Adding error description to authorize endpoint results which allows for completing pkce test migration |-\|/-| 2016-08-15T14:43:43Z Merged pull request |-\|/-| 207 +68 −49 cs 9|-\|/-| 
+Use basic collection types |-\|/-| 2016-08-24T21:07:05Z Closed pull request |-\|/-| 203 +47 −41 cs 6|-\|/-| 
+Fix spelling errors in index.rst |-\|/-| 2016-08-09T17:22:18Z Merged pull request |-\|/-| 198 +3 −3 rst 1|-\|/-| 
+ClientAuthenticationFailure Event Constant duplicate |-\|/-| 2016-08-13T16:49:41Z Merged pull request |-\|/-| 188 +1 −1 cs 1|-\|/-| 
+scopes.rst Grammar changes and link to openID site |-\|/-| 2016-08-13T16:49:15Z Merged pull request |-\|/-| 186 +6 −7 rst 1|-\|/-| 
+Docs fix 182 |-\|/-| 2016-07-27T07:32:38Z Merged pull request |-\|/-| 184 +2 −1 rst 2|-\|/-| 
+add PKCE support [WIP] |-\|/-| 2016-07-27T09:55:24Z Merged pull request |-\|/-| 181 +946 −155 rst cs 9|-\|/-| 
+Add tests for grant types validation |-\|/-| 2016-07-22T06:41:51Z Closed pull request |-\|/-| 170 +317 −31 cs 8|-\|/-| 
+Support for public clients |-\|/-| 2016-07-21T13:57:15Z Merged pull request |-\|/-| 168 +174 −29 cs 10|-\|/-| 
+Initial Cake Build Script |-\|/-| 2016-07-22T09:01:00Z Merged pull request |-\|/-| 165 +287 −1 gitignore cake ps1 config 4|-\|/-| 
+SLO |-\|/-| 2016-07-17T14:47:50Z Merged pull request |-\|/-| 159 +1,781 −253 cs cshtml 12|-\|/-| 
+Ui rework |-\|/-| 2016-07-14T15:48:04Z Merged pull request |-\|/-| 156 +820 −775 cs cshtml 11|-\|/-| 
+Bug Fix |-\|/-| 2016-07-08T06:03:47Z Closed pull request |-\|/-| 152 +2 −2 cs 1|-\|/-| 
+Rework crypto to MS.IdentityModel |-\|/-| 2016-06-05T12:50:52Z Merged pull request |-\|/-| 116 +184 −225 cs 7|-\|/-| 
+Added PublicOrigin back to IdentityServerOptions |-\|/-| 2016-05-27T18:50:05Z Closed pull request |-\|/-| 108 +17 −0 cs 2|-\|/-| 
+.NET Core RC2 - .NET 4.6 Support |-\|/-| 2016-05-30T07:00:19Z Closed pull request |-\|/-| 101 +7 −5 json 1|-\|/-| 
+Dev |-\|/-| 2016-05-19T07:18:07Z Merged pull request |-\|/-| 82 +1,133 −1,164 gitignore sln cmd json ps1 6|-\|/-| 
+New grant type handling |-\|/-| 2016-04-11T04:59:52Z Merged pull request |-\|/-| 68 +211 −204 cs 8|-\|/-| 
+Convert the JSON ScopesString into seperate claims |-\|/-| 2016-06-28T06:32:45Z Closed pull request |-\|/-| 57 +40 −11 cs 3|-\|/-| 
+EndSession endpoint |-\|/-| 2016-06-28T06:33:08Z Closed pull request |-\|/-| 47 +1,273 −623 cs cshtml 2|-\|/-| 
+Split IUserService into profile and resource owner validation services |-\|/-| 2016-02-07T15:00:21Z Merged pull request |-\|/-| 35 +312 −535 cs licenseheader 10|-\|/-| 
+Endpoint scoped service are not resolved properly |-\|/-| 2016-01-28T18:40:00Z Merged pull request |-\|/-| 30 +47 −1 cs 2|-\|/-| 
+Use Path.Combine for cross-platform certificate path |-\|/-| 2016-01-18T10:52:09Z Merged pull request |-\|/-| 11 +1 −1 cs 1|-\|/-| 
+Changed IdentityServerName constant to IdentityServer4 |-\|/-| 2016-01-16T15:33:37Z Merged pull request |-\|/-| 6 +1 −1 cs 1|-\|/-| 
+Add a Gitter chat badge to README.md |-\|/-| 2016-01-16T15:34:05Z Closed pull request |-\|/-| 5 +2 −0 md 0|-\|/-| 
+Added initial build scripts |-\|/-| 2015-12-20T03:32:44Z Merged pull request |-\|/-| 2 +132 −1 gitignore cmd ps1 4|-\|/-| 
+ignore lock files |-\|/-| 2015-12-18T13:17:59Z Merged pull request |-\|/-| 1 +3 −26,823 gitignore 1|-\|/-| 

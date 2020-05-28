@@ -1,0 +1,1429 @@
+CheckCommand ssl: s/-N/--sni/ |-\|/-| 2020-01-08T12:17:49Z Merged pull request |-\|/-| 7741 +1 −1 conf 1|-\|/-| 
+cope with OS which don't fill in si_pid in siginfo |-\|/-| 2020-01-08T09:11:46Z Merged pull request |-\|/-| 7739 +4 −4 cpp 1|-\|/-| 
+IcingaDB - Runtime updates: Use one pub/sub channel per config object type |-\|/-| 2020-01-07T16:13:31Z Merged pull request |-\|/-| 7738 +35 −36 cpp 1|-\|/-| 
+Revert NotificationResult |-\|/-| 2020-01-09T09:06:39Z Merged pull request |-\|/-| 7737 +37 −183 md cpp hpp txt ti 16|-\|/-| 
+IcingaDB: suppress state sync until config sync finished |-\|/-| 2020-01-08T16:30:23Z Merged pull request |-\|/-| 7721 +42 −1 cpp hpp 4|-\|/-| 
+RedisConnection: replace std::shared_ptr<T> with Shared<T>::Ptr |-\|/-| 2019-12-18T12:32:17Z Merged pull request |-\|/-| 7717 +14 −12 cpp hpp 2|-\|/-| 
+RedisConnection: shorten log messages |-\|/-| 2019-12-18T12:31:52Z Merged pull request |-\|/-| 7716 +5 −1 cpp 1|-\|/-| 
+Document RedisConnection |-\|/-| 2019-12-18T12:31:21Z Merged pull request |-\|/-| 7715 +151 −1 cpp hpp 2|-\|/-| 
+Boost Coroutines: Increase the default stack size from 64 to 256KB |-\|/-| 2019-12-13T16:30:24Z Merged pull request |-\|/-| 7713 +4 −1 hpp 1|-\|/-| 
+JSON: Update to nlohmann/json 3.7.3 |-\|/-| 2019-12-13T16:26:38Z Merged pull request |-\|/-| 7712 +12,571 −10,102 0|-\|/-| 
+IcingaDB: update icinga:nextupdate:* on Checkable#next_check changes |-\|/-| 2019-12-10T17:51:24Z Merged pull request |-\|/-| 7708 +11 −0 cpp hpp 2|-\|/-| 
+Fix notification scripts to stay compatible with Dash  |-\|/-| 2019-12-10T08:58:41Z Merged pull request |-\|/-| 7706 +16 −62 sh 2|-\|/-| 
+IcingaDB history: Add cancelled_by & removed_by to downtime & comment history |-\|/-| 2019-12-09T12:59:38Z Merged pull request |-\|/-| 7702 +5 −2 cpp 1|-\|/-| 
+Fix bash line continuation in mail-host-notification.sh |-\|/-| 2019-12-09T18:24:47Z Merged pull request |-\|/-| 7701 +1 −1 sh 1|-\|/-| 
+IcingaDB: don't hash hashes |-\|/-| 2019-12-10T12:39:13Z Merged pull request |-\|/-| 7700 +59 −29 cpp hpp 3|-\|/-| 
+Get rid of IcingaDB#CalculateCheckSum*() |-\|/-| 2019-12-06T15:37:25Z Merged pull request |-\|/-| 7699 +21 −62 cpp hpp 3|-\|/-| 
+Metrics: Always send '0' as value for thresholds |-\|/-| 2019-12-06T10:01:36Z Merged pull request |-\|/-| 7696 +21 −21 cpp 5|-\|/-| 
+Refuse acking an already acked checkable |-\|/-| 2019-12-09T18:23:41Z Merged pull request |-\|/-| 7695 +57 −1 md cpp 4|-\|/-| 
+IcingaDB: Add timestamp to stats stream |-\|/-| 2019-12-05T14:04:00Z Merged pull request |-\|/-| 7694 +1 −0 cpp 1|-\|/-| 
+IcingaDB: Remove unnecessary service_/host_ids |-\|/-| 2019-12-05T14:04:53Z Merged pull request |-\|/-| 7693 +2 −5 cpp 1|-\|/-| 
+IcingaDB: include consistent IDs, start time and end time in icinga:history:stream:{flapping,acknowledgement} |-\|/-| 2019-12-10T13:49:18Z Merged pull request |-\|/-| 7690 +109 −56 cpp hpp ti 10|-\|/-| 
+Fix open connections when agent waits for CA approval |-\|/-| 2019-12-09T18:25:14Z Merged pull request |-\|/-| 7686 +2 −0 cpp 1|-\|/-| 
+Checkable#GetProblem(): consider PENDING not a problem |-\|/-| 2019-12-03T16:27:02Z Merged pull request |-\|/-| 7685 +3 −1 cpp 1|-\|/-| 
+IcingaDB: update service state on Host#problem change |-\|/-| 2019-12-04T13:43:10Z Merged pull request |-\|/-| 7684 +24 −4 cpp hpp 4|-\|/-| 
+Documentation: Some small typo fixes |-\|/-| 2019-12-03T12:03:02Z Merged pull request |-\|/-| 7682 +3 −3 md 0|-\|/-| 
+Improve error message for POST queries |-\|/-| 2019-12-03T12:14:24Z Merged pull request |-\|/-| 7681 +2 −1 cpp 1|-\|/-| 
+IcingaDB#PublishStats(): make icinga:stats a stream |-\|/-| 2019-12-03T11:53:41Z Merged pull request |-\|/-| 7678 +30 −2 cpp 1|-\|/-| 
+IcingaDB#SendAddedComment(): suppress ack comments |-\|/-| 2019-12-02T15:09:25Z Merged pull request |-\|/-| 7677 +1 −1 cpp 1|-\|/-| 
+IcingaDB#GetStats(): add endpoint_id to IcingaApplication |-\|/-| 2019-12-06T15:59:37Z Merged pull request |-\|/-| 7676 +9 −0 cpp 1|-\|/-| 
+IcingaDB: Remove unused checksums |-\|/-| 2019-12-02T15:38:28Z Merged pull request |-\|/-| 7674 +0 −44 cpp 1|-\|/-| 
+IcingaApplication#StatsFunc(): tell whether the instance is_part_of_a_cluster |-\|/-| 2019-12-02T13:53:48Z Closed draft pull request |-\|/-| 7670 +2 −0 cpp 1|-\|/-| 
+IcingaDB: Add notification recipients |-\|/-| 2019-12-04T10:00:54Z Merged pull request |-\|/-| 7669 +25 −1 cpp 1|-\|/-| 
+Fix TLS context copies in ApiListener |-\|/-| 2019-12-02T09:24:06Z Merged pull request |-\|/-| 7668 +4 −8 cpp 1|-\|/-| 
+IcingaDB: populate icinga:history:stream:acknowledgement |-\|/-| 2019-12-05T08:20:36Z Merged pull request |-\|/-| 7667 +149 −17 cpp hpp 11|-\|/-| 
+Docs: clarify CRITICAL vs. UNKNOWN |-\|/-| 2019-12-02T16:06:01Z Merged pull request |-\|/-| 7665 +1 −1 md 0|-\|/-| 
+Docs: explicitly explain how to disable freshness checks |-\|/-| 2019-12-02T16:06:21Z Merged pull request |-\|/-| 7664 +1 −1 md 0|-\|/-| 
+IcingaDB: populate icinga:nextupdate:* |-\|/-| 2019-12-03T14:38:18Z Merged pull request |-\|/-| 7662 +136 −55 cpp hpp 3|-\|/-| 
+RedisConnection: introduce extensible priorities |-\|/-| 2019-12-03T06:12:30Z Merged pull request |-\|/-| 7661 +64 −55 cpp hpp 5|-\|/-| 
+IcingaDB: get rid of icinga:{subscription,event}* |-\|/-| 2019-12-02T09:31:54Z Merged pull request |-\|/-| 7660 +0 −144 cpp hpp 2|-\|/-| 
+Notification_history: Rename event_time to send_time |-\|/-| 2019-11-27T09:44:57Z Merged pull request |-\|/-| 7659 +1 −1 cpp 1|-\|/-| 
+IcingaDB: always set *#host_id |-\|/-| 2019-11-27T13:38:23Z Merged pull request |-\|/-| 7657 +29 −20 cpp 1|-\|/-| 
+IcingaDB: don't always set icinga:config:*command:{argument,envvar}#value |-\|/-| 2019-12-03T11:53:04Z Merged pull request |-\|/-| 7656 +18 −2 cpp 1|-\|/-| 
+CommentType: remove unused variants |-\|/-| 2019-11-26T14:47:45Z Merged pull request |-\|/-| 7655 +0 −2 ti 1|-\|/-| 
+Fix TLS context not being updated on signed certificate messages on agents |-\|/-| 2019-11-27T08:18:17Z Merged pull request |-\|/-| 7654 +1 −1 cpp 1|-\|/-| 
+IcingaDB: don't always set Comment#expire_time |-\|/-| 2019-12-02T09:30:10Z Merged pull request |-\|/-| 7653 +24 −3 cpp 1|-\|/-| 
+IcingaDB#SendStatusUpdate(): don't always set icinga:history:stream:state#{,long_}output |-\|/-| 2019-11-27T13:29:27Z Merged pull request |-\|/-| 7652 +13 −17 cpp 1|-\|/-| 
+IcingaDB#SendStatusUpdate(): avoid CheckResult::Ptr(nullptr)->GetCheckSource() |-\|/-| 2019-11-26T09:09:37Z Merged pull request |-\|/-| 7651 +5 −1 cpp 1|-\|/-| 
+Fix notification scripts string comparison |-\|/-| 2019-11-22T08:15:47Z Merged pull request |-\|/-| 7647 +2 −2 sh 2|-\|/-| 
+/v1/actions/remove-comment: let users specify themselves |-\|/-| 2019-11-26T15:07:10Z Merged pull request |-\|/-| 7646 +34 −7 md cpp hpp ti 5|-\|/-| 
+/v1/actions/remove-downtime: let users specify themselves |-\|/-| 2019-11-26T14:41:45Z Merged pull request |-\|/-| 7645 +19 −2 md cpp ti 3|-\|/-| 
+IcingaDB: handle Redis restarts |-\|/-| 2019-11-26T15:05:05Z Merged pull request |-\|/-| 7643 +49 −23 cpp hpp 2|-\|/-| 
+IcingaDB: Update Redis port to use Icinga-Redis |-\|/-| 2019-11-21T09:34:33Z Merged pull request |-\|/-| 7641 +4 −4 md conf ti 2|-\|/-| 
+Docs: Update installation for RHEL/CentOS 8 and SLES 15 |-\|/-| 2019-11-20T15:12:04Z Merged pull request |-\|/-| 7640 +172 −106 0|-\|/-| 
+DSL: Add get_template{,s} |-\|/-| 2019-11-15T13:42:49Z Merged pull request |-\|/-| 7632 +108 −0 md cpp hpp 2|-\|/-| 
+IcingaDB: Remove redundant last_{hard/soft}_state |-\|/-| 2019-11-14T11:10:17Z Merged pull request |-\|/-| 7626 +2 −7 cpp 1|-\|/-| 
+IcingaDB: Fix state on unchecked objects |-\|/-| 2019-11-11T14:36:00Z Merged pull request |-\|/-| 7616 +19 −10 cpp 1|-\|/-| 
+IcingaDB: Add user notification history |-\|/-| 2019-11-08T10:09:43Z Merged pull request |-\|/-| 7611 +31 −8 cpp hpp 2|-\|/-| 
+IcingaDB: avoid duplicates in icinga:history:stream:downtime |-\|/-| 2019-11-12T10:40:46Z Merged pull request |-\|/-| 7608 +1 −3 cpp 1|-\|/-| 
+Main(): don't call Process::InitializeSpawnHelper() |-\|/-| 2019-11-13T11:58:45Z Merged pull request |-\|/-| 7606 +0 −2 cpp 1|-\|/-| 
+IcingaDB: correct icinga:history:stream:state#{,last_}soft_state and icinga:history:stream:notification#state for hosts |-\|/-| 2019-11-04T17:33:44Z Merged pull request |-\|/-| 7605 +3 −3 cpp 1|-\|/-| 
+IcingaDB#SendStatusUpdate(): add icinga:history:stream:state#previous_soft_state |-\|/-| 2019-11-04T12:57:58Z Merged pull request |-\|/-| 7604 +14 −6 cpp ti 3|-\|/-| 
+Powershell example to validate the certificate |-\|/-| 2019-11-07T11:32:27Z Merged pull request |-\|/-| 7603 +99 −31 md 0|-\|/-| 
+Add extended checks options to snmp-interface command template |-\|/-| 2019-11-15T12:35:09Z Merged pull request |-\|/-| 7602 +6 −0 md conf 1|-\|/-| 
+Add IcingaDB |-\|/-| 2019-11-02T17:39:14Z Merged pull request |-\|/-| 7601 +3,581 −59 txt md conf cpp hpp ti 7|-\|/-| 
+I like to move it, move it |-\|/-| 2019-10-31T15:16:36Z Merged pull request |-\|/-| 7593 +28 −27 yy 1|-\|/-| 
+Docs: Add the link from object type joins to URL endpoints |-\|/-| 2019-10-25T07:41:48Z Merged pull request |-\|/-| 7591 +2 −1 md 0|-\|/-| 
+Clarify the installation of EPEL repository on CentOS vs RHEL |-\|/-| 2019-10-24T13:18:56Z Merged pull request |-\|/-| 7589 +10 −2 md 0|-\|/-| 
+Docs: Add upgrading notes for 2.11.x bugfix releases |-\|/-| 2019-10-24T07:25:01Z Merged pull request |-\|/-| 7588 +23 −0 md 0|-\|/-| 
+Cluster Config Sync: Check the timestamp prior to config file checksums for changes |-\|/-| 2019-10-22T15:22:28Z Merged pull request |-\|/-| 7584 +58 −40 cpp 1|-\|/-| 
+Minor doc fix |-\|/-| 2019-10-22T10:18:32Z Merged pull request |-\|/-| 7583 +1 −1 md 0|-\|/-| 
+Align the docs with GitHub details on Zone Inception |-\|/-| 2019-10-17T12:08:27Z Merged pull request |-\|/-| 7578 +56 −14 md 0|-\|/-| 
+MacroProcessor::ResolveArguments(): skip null argument values |-\|/-| 2019-11-15T13:43:34Z Merged pull request |-\|/-| 7567 +2 −0 cpp 1|-\|/-| 
+doc typo: path to error.log |-\|/-| 2019-10-08T11:32:53Z Merged pull request |-\|/-| 7564 +1 −1 md 0|-\|/-| 
+Performing a reload might result in zombie processes |-\|/-| 2019-11-13T12:00:04Z Closed pull request |-\|/-| 7561 +85 −8 cpp hpp 6|-\|/-| 
+Avoid syncing .authorititative marker received from < 2.11 parent nodes |-\|/-| 2019-10-17T11:50:48Z Merged pull request |-\|/-| 7552 +4 −0 cpp 1|-\|/-| 
+DaemonUtility#ValidateConfigFiles(): re-try unknown zones once they may have become known |-\|/-| 2019-10-31T15:34:09Z Merged pull request |-\|/-| 7546 +56 −13 cpp 1|-\|/-| 
+Zone#OnAllConfigLoaded(): warn on zones in zones |-\|/-| 2019-11-02T17:11:31Z Closed pull request |-\|/-| 7545 +10 −0 cpp 1|-\|/-| 
+Avoid loading the authoritative marker for syncs at all cost |-\|/-| 2019-10-17T11:05:38Z Merged pull request |-\|/-| 7544 +4 −0 cpp 1|-\|/-| 
+Docs: Fix URL for memcached ITL CheckCommand |-\|/-| 2019-09-27T11:59:41Z Merged pull request |-\|/-| 7543 +4 −2 md 0|-\|/-| 
+Config lexer: complain on EOF in heredocs, i.e. {{{abc<EOF> |-\|/-| 2019-10-22T15:19:28Z Merged pull request |-\|/-| 7541 +4 −0 ll 1|-\|/-| 
+Add file age check for Windows command definition |-\|/-| 2019-12-03T16:06:24Z Merged pull request |-\|/-| 7540 +43 −0 md conf 1|-\|/-| 
+Dependency#OnAllConfigLoaded(): don't link *this with the child if *this is going to be dropped |-\|/-| 2019-09-25T10:12:23Z Merged pull request |-\|/-| 7538 +1 −2 cpp 1|-\|/-| 
+API /v1/config/stages 'activate' parameter |-\|/-| 2019-11-15T11:58:04Z Merged pull request |-\|/-| 7535 +32 −14 md cpp hpp 3|-\|/-| 
+Introduce Checkable#next_update |-\|/-| 2019-09-25T09:50:37Z Merged pull request |-\|/-| 7534 +19 −0 md cpp hpp ti 3|-\|/-| 
+WarnOnImplicitlySetGlobalVar(): warn only on sins inside actual DSL code |-\|/-| 2019-09-25T10:11:27Z Merged pull request |-\|/-| 7529 +1 −1 cpp 1|-\|/-| 
+API: Handle permission exceptions soon enough, returning 404 |-\|/-| 2019-11-15T10:54:00Z Merged pull request |-\|/-| 7528 +15 −4 cpp 1|-\|/-| 
+Improve error message/docs for command endpoints requiring a zone |-\|/-| 2019-09-23T08:16:43Z Merged pull request |-\|/-| 7527 +12 −3 d/README cpp 2|-\|/-| 
+Docs: Add upgrading/troubleshooting details for repos, config sync, agents |-\|/-| 2019-09-23T07:40:34Z Merged pull request |-\|/-| 7526 +199 −7 md 0|-\|/-| 
+Fix spelling error |-\|/-| 2019-09-20T07:12:00Z Merged pull request |-\|/-| 7518 +1 −1 md 0|-\|/-| 
+Update README.md |-\|/-| 2019-09-19T07:12:26Z Closed pull request |-\|/-| 7508 +1 −1 md 0|-\|/-| 
+CSR Auto-signing: Add debug logging for skipped signing |-\|/-| 2019-09-18T10:27:16Z Merged pull request |-\|/-| 7507 +22 −4 cpp 1|-\|/-| 
+Docs: Update product URLs and missing bits |-\|/-| 2019-09-17T10:59:17Z Merged pull request |-\|/-| 7504 +139 −92 md 0|-\|/-| 
+API: Add AES128-GCM-SHA256 compatible cipher for el6 |-\|/-| 2019-09-16T12:54:58Z Merged pull request |-\|/-| 7503 +3 −3 md ti 1|-\|/-| 
+Docs: Update debugging instructions for 2.11 |-\|/-| 2019-09-16T08:36:53Z Merged pull request |-\|/-| 7502 +15 −11 md 0|-\|/-| 
+Docu fix |-\|/-| 2019-09-13T06:42:12Z Merged pull request |-\|/-| 7496 +3 −3 md 0|-\|/-| 
+Revert: Always reset Boost beast buffer in HttpServerConnection#ProcessMessages #7476 |-\|/-| 2019-09-12T15:03:12Z Merged pull request |-\|/-| 7495 +5 −4 cpp 1|-\|/-| 
+Introduce IoEngine::SpawnCoroutine wrapping asio::spawn and Boost exceptions |-\|/-| 2019-09-09T15:48:13Z Merged pull request |-\|/-| 7491 +92 −13 hpp cpp 4|-\|/-| 
+Quality: Replace deprecated Boost IO service code |-\|/-| 2019-09-09T14:05:39Z Merged pull request |-\|/-| 7490 +52 −51 cpp hpp 18|-\|/-| 
+API: Avoid I/O on shutdown |-\|/-| 2019-09-09T12:21:25Z Merged pull request |-\|/-| 7487 +41 −19 cpp 2|-\|/-| 
+Rewrite error handling in HttpServerConnection#EnsureValidHeaders() |-\|/-| 2019-09-09T09:40:45Z Merged pull request |-\|/-| 7486 +18 −24 cpp 1|-\|/-| 
+Avoid the Defer-Disconnect destructor pattern with Boost.Coroutines |-\|/-| 2019-09-09T09:41:35Z Merged pull request |-\|/-| 7485 +10 −7 cpp 3|-\|/-| 
+Windows: Workaround for MSVC stdlib and coroutines with Boost Beast calls |-\|/-| 2019-09-09T14:36:34Z Closed pull request |-\|/-| 7484 +7 −0 cpp 1|-\|/-| 
+JsonRpcConnection: Don't swallow exceptions in Boost.Coroutine |-\|/-| 2019-09-09T08:21:22Z Merged pull request |-\|/-| 7483 +21 −12 cpp 2|-\|/-| 
+Add summarized performance data to check_network |-\|/-| 2019-09-09T07:47:38Z Merged pull request |-\|/-| 7481 +1 −0 cpp 1|-\|/-| 
+Dev Docs: Update Windows to Visual Studio 2019 |-\|/-| 2019-09-12T14:05:33Z Merged pull request |-\|/-| 7480 +172 −131 0|-\|/-| 
+Build: Add Powershell script for development config for building Windows debug packages |-\|/-| 2019-09-06T10:52:48Z Merged pull request |-\|/-| 7479 +68 −0 ps1 1|-\|/-| 
+HttpServerConnection: Prefer error codes over Boost exceptions |-\|/-| 2019-09-06T08:22:43Z Merged pull request |-\|/-| 7477 +48 −37 cpp 1|-\|/-| 
+Always reset Boost beast buffer in HttpServerConnection#ProcessMessages |-\|/-| 2019-09-06T07:56:30Z Merged pull request |-\|/-| 7476 +4 −0 cpp 1|-\|/-| 
+Docs: Update Linux and Windows Dev instructions for 2.11 |-\|/-| 2019-09-02T07:36:48Z Merged pull request |-\|/-| 7467 +118 −24 md 0|-\|/-| 
+Docs: Update supported Windows agent versions |-\|/-| 2019-08-30T14:37:10Z Merged pull request |-\|/-| 7464 +12 −10 md 0|-\|/-| 
+Docs: Prefer the Powershell commands on Windows |-\|/-| 2019-08-30T12:21:20Z Merged pull request |-\|/-| 7463 +56 −22 md png 1|-\|/-| 
+Metrics: Expose problem/handled counts for hosts/services |-\|/-| 2019-08-30T07:04:03Z Merged pull request |-\|/-| 7459 +37 −2 cpp hpp 4|-\|/-| 
+Config parser: introduce optional_newlines |-\|/-| 2019-10-22T15:30:00Z Merged pull request |-\|/-| 7458 +24 −42 yy 1|-\|/-| 
+Config parser: save some memory allocations |-\|/-| 2019-10-17T15:19:30Z Merged pull request |-\|/-| 7457 +14 −18 yy 1|-\|/-| 
+Allow HTTP requests only from localhost on WinNT |-\|/-| 2019-09-09T11:39:21Z Closed pull request |-\|/-| 7455 +77 −11 md cpp ti 3|-\|/-| 
+Update docs: Fix online URL, cipher list |-\|/-| 2019-08-28T06:59:28Z Merged pull request |-\|/-| 7451 +5 −5 md cpp 3|-\|/-| 
+Windows binary: Also update the exe icon |-\|/-| 2019-08-27T13:15:19Z Merged pull request |-\|/-| 7450 +0 −0 ico 1|-\|/-| 
+DSL: warn on x=y if x is a global variable |-\|/-| 2019-08-27T12:53:30Z Merged pull request |-\|/-| 7449 +55 −1 conf cpp 2|-\|/-| 
+check_nscp_api: read HTTP response via Boost.Beast |-\|/-| 2019-08-27T11:58:03Z Merged pull request |-\|/-| 7447 +122 −54 cpp 1|-\|/-| 
+JsonRpcConnection#Disconnect(): unregister the connection ASAP |-\|/-| 2019-08-28T06:59:15Z Merged pull request |-\|/-| 7445 +10 −9 cpp 1|-\|/-| 
+DSL: introduce x?y:z |-\|/-| 2019-11-15T13:34:28Z Merged pull request |-\|/-| 7442 +58 −0 md yy 1|-\|/-| 
+LegacyTimePeriod: support specifying seconds |-\|/-| 2019-11-15T12:02:06Z Merged pull request |-\|/-| 7439 +68 −73 cpp 2|-\|/-| 
+Add check_uptime to ITL |-\|/-| 2019-08-27T11:02:52Z Merged pull request |-\|/-| 7437 +44 −0 md conf 1|-\|/-| 
+CMake: Fix LTO flags for shared linking |-\|/-| 2019-08-27T11:03:26Z Merged pull request |-\|/-| 7435 +1 −1 txt 0|-\|/-| 
+CMake: Fix CXX flags for AIX |-\|/-| 2019-08-27T11:04:04Z Merged pull request |-\|/-| 7434 +1 −1 txt 0|-\|/-| 
+Link against libatomic if building with Clang on Linux |-\|/-| 2019-08-26T08:23:02Z Closed pull request |-\|/-| 7433 +1 −2 txt 0|-\|/-| 
+ITL: Add sar-perf |-\|/-| 2019-08-19T13:49:37Z Merged pull request |-\|/-| 7428 +34 −1 md conf 1|-\|/-| 
+WIP |-\|/-| 2019-08-16T10:26:47Z Closed pull request |-\|/-| 7424 +151 −94 0|-\|/-| 
+Fix and improve logging for runtime object sync |-\|/-| 2019-08-15T08:23:23Z Merged pull request |-\|/-| 7423 +63 −27 cpp 3|-\|/-| 
+Correct current_concurrent_checks to actually running checks |-\|/-| 2019-08-16T11:44:26Z Merged pull request |-\|/-| 7422 +12 −3 cpp hpp 5|-\|/-| 
+Expose metric current_pending_callbacks |-\|/-| 2019-08-15T08:51:32Z Merged pull request |-\|/-| 7421 +22 −2 cpp hpp 4|-\|/-| 
+Docs: Add cluster message routing details |-\|/-| 2019-08-14T14:51:51Z Merged pull request |-\|/-| 7420 +65 −3 md 0|-\|/-| 
+Fix object create/delete config object cluster loop (missing message origin) |-\|/-| 2019-08-14T14:29:09Z Merged pull request |-\|/-| 7419 +68 −24 cpp hpp 7|-\|/-| 
+Fix minimum version parsing in the 'icinga' check |-\|/-| 2019-08-14T11:49:58Z Merged pull request |-\|/-| 7418 +42 −5 cpp hpp txt 4|-\|/-| 
+DSL: Add support for Lambda Closures ()use(x)=>x and ()use(x)=>{return x} |-\|/-| 2019-12-03T15:05:58Z Merged pull request |-\|/-| 7417 +53 −5 md yy 1|-\|/-| 
+WIP Downtimes & Comment loop |-\|/-| 2019-08-16T11:54:43Z Closed pull request |-\|/-| 7411 +30 −14 cpp hpp 6|-\|/-| 
+CMake: If target arch cannot be detected, don't throw an error |-\|/-| 2019-08-12T09:02:34Z Merged pull request |-\|/-| 7409 +3 −3 txt 0|-\|/-| 
+Docs: Add a note to icinga check about failed reload detection |-\|/-| 2019-08-08T09:10:41Z Merged pull request |-\|/-| 7406 +1 −1 md 0|-\|/-| 
+Explicitly write the 1.x legacy attribute 'interval_length' for Livestatus |-\|/-| 2019-08-07T15:32:40Z Merged pull request |-\|/-| 7404 +14 −5 cpp hpp 5|-\|/-| 
+Enhance Agent best practices throughout the documentation |-\|/-| 2019-08-07T14:36:16Z Merged pull request |-\|/-| 7403 +247 −207 md 0|-\|/-| 
+Fix missing stats for current_concurrent_checks via REST API |-\|/-| 2019-08-06T13:25:45Z Merged pull request |-\|/-| 7400 +2 −0 cpp 1|-\|/-| 
+Improve logging for downtime/ack events (add, remove, expire) |-\|/-| 2019-08-06T13:06:06Z Merged pull request |-\|/-| 7399 +31 −7 cpp 3|-\|/-| 
+icinga2 daemon --close-stdio: keep console log open during first config validation |-\|/-| 2019-08-07T11:44:08Z Merged pull request |-\|/-| 7397 +35 −7 cpp 1|-\|/-| 
+DB IDO: Fix upgrade script for 2.11.0 (drop index only if existing) |-\|/-| 2019-08-05T11:14:37Z Merged pull request |-\|/-| 7396 +82 −27 md sql 1|-\|/-| 
+Docs: Enhance Troubleshooting with TLS handshake, CSR signing, checks, notifications, cluster sync |-\|/-| 2019-08-02T14:56:53Z Merged pull request |-\|/-| 7392 +320 −40 0|-\|/-| 
+Cluster sync: Only sync valid UTF8 content (text config, no binaries) |-\|/-| 2019-08-05T14:48:50Z Merged pull request |-\|/-| 7391 +29 −3 md cpp 1|-\|/-| 
+Docs: Syncing binaries with the config sync are not supported |-\|/-| 2019-08-02T09:36:05Z Merged pull request |-\|/-| 7390 +21 −0 md 0|-\|/-| 
+Fix name of 'timeperiods' livestatus table in doc |-\|/-| 2019-08-02T15:14:07Z Merged pull request |-\|/-| 7389 +1 −1 md 0|-\|/-| 
+Revert schedule-downtime action time checks |-\|/-| 2019-08-01T14:27:52Z Merged pull request |-\|/-| 7385 +0 −10 cpp 1|-\|/-| 
+Add missing options to 'nwc_health' ITL CheckCommand |-\|/-| 2019-08-01T11:26:19Z Merged pull request |-\|/-| 7383 +10 −0 md conf 1|-\|/-| 
+Refine the term 'TLS' instead of 'SSL' |-\|/-| 2019-08-01T07:43:11Z Merged pull request |-\|/-| 7381 +27 −42 md 0|-\|/-| 
+Windows agent: Enhance and update docs |-\|/-| 2019-07-31T13:46:12Z Merged pull request |-\|/-| 7379 +1,945 −179 cs resx 4|-\|/-| 
+Docs: Add Powershell Git integration for Windows dev environment |-\|/-| 2019-07-31T11:30:32Z Merged pull request |-\|/-| 7376 +42 −3 md png 1|-\|/-| 
+Windows Agent: Update icon |-\|/-| 2019-07-30T16:03:45Z Merged pull request |-\|/-| 7373 +1 −1 cs ico 2|-\|/-| 
+Docs: Improve signing modes with preparation hints |-\|/-| 2019-07-30T13:31:54Z Merged pull request |-\|/-| 7371 +24 −1 md 0|-\|/-| 
+Fix el7 not loading ECDHE cipher suites |-\|/-| 2019-07-30T11:56:44Z Merged pull request |-\|/-| 7369 +8 −0 cpp 1|-\|/-| 
+TLS Ciphers: Add compatibility suites for older agents (el7, Windows 2.10.x) |-\|/-| 2019-07-30T11:56:14Z Merged pull request |-\|/-| 7368 +2 −2 md ti 1|-\|/-| 
+Fix spelling errors. |-\|/-| 2019-07-29T13:59:31Z Merged pull request |-\|/-| 7365 +2 −2 md cpp 1|-\|/-| 
+Replace classic shared pointers to Expression and NamespaceValue with intrusive ones |-\|/-| 2019-10-22T06:55:38Z Merged pull request |-\|/-| 7364 +183 −103 txt hpp cpp yy 12|-\|/-| 
+Replace some classic shared pointers with intrusive ones |-\|/-| 2019-10-21T15:02:29Z Merged pull request |-\|/-| 7360 +186 −79 txt cpp hpp 15|-\|/-| 
+OpenTsdbWriter - Custom Tag Support |-\|/-| 2019-11-15T13:52:50Z Merged pull request |-\|/-| 7357 +420 −19 md conf 1|-\|/-| 
+InfluxdbWriter: clone less |-\|/-| 2019-08-28T07:16:20Z Merged pull request |-\|/-| 7356 +15 −10 cpp 1|-\|/-| 
+Docs: Mention that Raspbian 4+ / Debian Buster is required |-\|/-| 2019-07-23T16:51:27Z Merged pull request |-\|/-| 7354 +6 −2 md 0|-\|/-| 
+InfluxdbWriter: skip non-resolvable tags |-\|/-| 2019-08-07T15:15:25Z Merged pull request |-\|/-| 7353 +3 −1 cpp 1|-\|/-| 
+Only include SSL_CTX_set_ecdh_auto for OpenSSL < 1.1.0 |-\|/-| 2019-07-23T16:50:14Z Merged pull request |-\|/-| 7352 +5 −2 cpp 1|-\|/-| 
+Docs: Better explanation of command arguments |-\|/-| 2019-07-22T14:39:44Z Merged pull request |-\|/-| 7348 +328 −129 0|-\|/-| 
+Docs: Improve security chapters |-\|/-| 2019-07-22T13:57:39Z Merged pull request |-\|/-| 7347 +11 −2 md 0|-\|/-| 
+DaemonCommand#Run(): set code page to UTF-8 |-\|/-| 2019-08-27T12:51:32Z Merged pull request |-\|/-| 7346 +7 −1 cpp 1|-\|/-| 
+ITL: Align plugins-contrib.d to PluginContribDir |-\|/-| 2019-07-22T09:12:51Z Merged pull request |-\|/-| 7345 +17 −17 conf 7|-\|/-| 
+Upgrading docs: Mention the doc changes |-\|/-| 2019-07-20T13:50:10Z Merged pull request |-\|/-| 7344 +8 −0 md 0|-\|/-| 
+Docs: Update our About chapter |-\|/-| 2019-07-20T13:41:11Z Merged pull request |-\|/-| 7343 +35 −13 md 0|-\|/-| 
+Docs: Enhance distributed monitoring chapter |-\|/-| 2019-07-20T13:21:48Z Merged pull request |-\|/-| 7342 +867 −528 cs md 2|-\|/-| 
+Tests: _Exit() in main() |-\|/-| 2019-07-23T12:13:29Z Merged pull request |-\|/-| 7340 +17 −1 cpp 1|-\|/-| 
+Docs: Rename 'custom attribute' to 'custom variable' |-\|/-| 2019-07-19T12:39:40Z Merged pull request |-\|/-| 7339 +395 −375 md 0|-\|/-| 
+Docs: Getting Started -> Installation, Configuring Icinga 2 -> Configuration |-\|/-| 2019-07-19T09:27:52Z Merged pull request |-\|/-| 7338 +103 −103 md 0|-\|/-| 
+Tests: Ensure that the IcingaApplication TP is stopped on exit |-\|/-| 2019-07-23T10:37:56Z Closed pull request |-\|/-| 7337 +3 −0 cpp 1|-\|/-| 
+Docs: Add Ubuntu 18 dev playground |-\|/-| 2019-07-18T16:23:02Z Merged pull request |-\|/-| 7336 +60 −0 md 0|-\|/-| 
+Shutdown timers cleanly on exit |-\|/-| 2019-07-17T13:16:05Z Merged pull request |-\|/-| 7331 +3 −0 cpp 1|-\|/-| 
+Rework reload handling on *nix |-\|/-| 2019-07-18T16:24:23Z Merged pull request |-\|/-| 7320 +661 −170 md txt cpp hpp 3|-\|/-| 
+Docs: Add cipher analysis to troubleshooting docs |-\|/-| 2019-07-15T13:09:31Z Merged pull request |-\|/-| 7319 +117 −1 md 0|-\|/-| 
+TLS: Ensure to specify options in one place |-\|/-| 2019-07-15T13:08:59Z Merged pull request |-\|/-| 7318 +25 −13 cpp 1|-\|/-| 
+WIP: Tests: Checkresults should use non-paused objects |-\|/-| 2019-07-17T12:17:41Z Closed pull request |-\|/-| 7316 +11 −0 cpp 1|-\|/-| 
+TLS: Fetch the cipher list and log them for debugging (OpenSSL 1.1.x) |-\|/-| 2019-07-12T14:55:08Z Merged pull request |-\|/-| 7315 +39 −16 cpp hpp 4|-\|/-| 
+Docs: Update macOS dev environment |-\|/-| 2019-07-12T11:36:51Z Merged pull request |-\|/-| 7314 +48 −6 md 0|-\|/-| 
+Docs: Update Windows build development environment |-\|/-| 2019-07-12T10:17:31Z Merged pull request |-\|/-| 7313 +52 −63 md 0|-\|/-| 
+Document `no shared cipher` error |-\|/-| 2019-07-12T07:27:01Z Closed pull request |-\|/-| 7311 +6 −0 md 0|-\|/-| 
+DB IDO: Fix possible crash with program status updates before IcingaApplication is loaded |-\|/-| 2019-07-12T06:48:26Z Merged pull request |-\|/-| 7310 +12 −7 cpp 1|-\|/-| 
+Cluster Config Sync: Ensure that empty production environment is populated with new sync |-\|/-| 2019-07-11T09:56:40Z Closed pull request |-\|/-| 7306 +35 −12 cpp 1|-\|/-| 
+Internal methods must update the 'command' key in the check result |-\|/-| 2019-07-10T09:04:35Z Merged pull request |-\|/-| 7305 +22 −7 cpp 6|-\|/-| 
+Cluster config sync: Fix new files not being moved |-\|/-| 2019-07-15T08:53:23Z Merged pull request |-\|/-| 7303 +72 −30 cpp 1|-\|/-| 
+Rewrite tests for Timeperiods with Boost.DateTime and fix "day -X" specification |-\|/-| 2019-07-10T06:18:03Z Merged pull request |-\|/-| 7302 +246 −89 cpp hpp 2|-\|/-| 
+Quality: Prefer BOOST_{,UN}LIKELY gcc optimizer macros over our own |-\|/-| 2019-07-09T11:57:59Z Merged pull request |-\|/-| 7300 +2 −10 hpp 2|-\|/-| 
+CMake: Detect ARM target architecture and set required -latomic |-\|/-| 2019-07-10T06:21:50Z Merged pull request |-\|/-| 7299 +48 −0 txt 0|-\|/-| 
+Stash notifications until object authority has been updated once |-\|/-| 2019-07-12T06:47:51Z Merged pull request |-\|/-| 7297 +114 −16 cpp ti hpp 5|-\|/-| 
+Docs: Clarify on when a manual initial cluster sync is needed |-\|/-| 2019-07-08T11:55:16Z Merged pull request |-\|/-| 7295 +11 −1 md 0|-\|/-| 
+doc: Add notes about the `instance_name` IDO field |-\|/-| 2019-07-08T11:56:02Z Merged pull request |-\|/-| 7294 +3 −2 md 0|-\|/-| 
+Service: don't rely on the own host being already set during derivative state calculation |-\|/-| 2019-07-08T07:31:16Z Merged pull request |-\|/-| 7287 +2 −2 cpp 1|-\|/-| 
+Cluster: Avoid checking for checksum length with internal files in use |-\|/-| 2019-07-08T13:53:18Z Merged pull request |-\|/-| 7283 +1 −5 cpp 1|-\|/-| 
+Use SSL_CTX_set_ecdh_auto only if available |-\|/-| 2019-07-04T12:27:46Z Merged pull request |-\|/-| 7281 +2 −0 cpp 1|-\|/-| 
+Docs: Fix example for cluster health dependency |-\|/-| 2019-07-04T15:08:43Z Merged pull request |-\|/-| 7279 +2 −2 md 0|-\|/-| 
+Buildfix for Windows with non-unity builds |-\|/-| 2019-07-03T13:40:20Z Merged pull request |-\|/-| 7276 +4 −0 cpp 1|-\|/-| 
+Clarify "Not set by default" of config object attributes referring to a time period |-\|/-| 2019-07-03T10:51:23Z Merged pull request |-\|/-| 7275 +4 −4 md 0|-\|/-| 
+Docs: Improve API clients; add Powershell example |-\|/-| 2019-07-03T08:30:25Z Merged pull request |-\|/-| 7273 +192 −93 md png 1|-\|/-| 
+Improve type logging for notifications |-\|/-| 2019-07-17T13:16:46Z Merged pull request |-\|/-| 7272 +84 −59 cpp hpp txt 10|-\|/-| 
+API: Improve error handling for 'schedule-downtime' action |-\|/-| 2019-07-02T09:52:41Z Merged pull request |-\|/-| 7271 +10 −0 cpp 1|-\|/-| 
+Re-send suppressed notifications |-\|/-| 2019-07-11T08:47:00Z Merged pull request |-\|/-| 7270 +321 −16 md cpp hpp ti 5|-\|/-| 
+Add printer_health CheckCommand definition |-\|/-| 2019-07-08T06:47:54Z Merged pull request |-\|/-| 7268 +213 −0 md conf 1|-\|/-| 
+Add security issue URL to README/About in the docs |-\|/-| 2019-06-28T15:50:39Z Merged pull request |-\|/-| 7267 +8 −0 md 0|-\|/-| 
+Fix out-of-bounds crash with Array#remove |-\|/-| 2019-06-28T15:13:56Z Merged pull request |-\|/-| 7266 +3 −0 cpp 1|-\|/-| 
+Add memcached CheckCommand definition |-\|/-| 2019-07-01T08:37:19Z Merged pull request |-\|/-| 7264 +78 −1 md conf 1|-\|/-| 
+Fix syntax (missing ") |-\|/-| 2019-06-28T07:11:34Z Merged pull request |-\|/-| 7262 +1 −1 md 0|-\|/-| 
+Avoid "~Class() throw() = default;" |-\|/-| 2019-07-02T10:33:55Z Merged pull request |-\|/-| 7261 +0 −2 hpp 2|-\|/-| 
+Spelling mistake corrected |-\|/-| 2019-07-02T10:06:51Z Closed pull request |-\|/-| 7260 +1 −1 md 0|-\|/-| 
+Fix Path to staged files |-\|/-| 2019-06-27T06:20:45Z Merged pull request |-\|/-| 7259 +1 −1 cpp 1|-\|/-| 
+Fix type in nanorc syntax file |-\|/-| 2019-06-24T07:48:47Z Merged pull request |-\|/-| 7252 +1 −1 nanorc 1|-\|/-| 
+Disable stack traces for WQ exceptions (used in config compiler) |-\|/-| 2019-06-24T15:34:54Z Merged pull request |-\|/-| 7251 +3 −3 cpp hpp 2|-\|/-| 
+SSL Context: Explicitly load ECC ciphers on el7 |-\|/-| 2019-06-18T14:42:43Z Merged pull request |-\|/-| 7248 +3 −0 cpp 1|-\|/-| 
+Create SECURITY.md |-\|/-| 2019-06-28T15:50:02Z Closed pull request |-\|/-| 7245 +10 −0 md 0|-\|/-| 
+Fix build errors with Boost v1.70 |-\|/-| 2019-06-18T11:43:54Z Merged pull request |-\|/-| 7238 +31 −11 hpp cpp 6|-\|/-| 
+[WIP] Feature/notification rework |-\|/-| 2019-08-29T09:33:16Z Closed pull request |-\|/-| 7236 +770 −217 cpp hpp 6|-\|/-| 
+Docs: Add new runtime checkable attributes and explain severity in tech concepts |-\|/-| 2019-06-06T09:11:40Z Merged pull request |-\|/-| 7233 +90 −2 md 0|-\|/-| 
+Doc: Add missing closing code tag |-\|/-| 2019-06-05T19:42:18Z Merged pull request |-\|/-| 7232 +1 −1 md 0|-\|/-| 
+Docs: Update technical concepts for TLS Network IO and Boost Asio, Beast and Coroutines |-\|/-| 2019-06-05T15:31:57Z Merged pull request |-\|/-| 7231 +94 −167 md 0|-\|/-| 
+Avoid concurrent cluster config sync transactions |-\|/-| 2019-06-05T15:35:52Z Merged pull request |-\|/-| 7230 +9 −0 cpp hpp 2|-\|/-| 
+Docs: Improve the service monitoring chapter (plugin API, new plugin, integration, etc.) |-\|/-| 2019-06-05T13:12:53Z Merged pull request |-\|/-| 7229 +722 −50 0|-\|/-| 
+Docs: Mark include_zones as internal consumed functionality |-\|/-| 2019-06-04T11:13:21Z Merged pull request |-\|/-| 7224 +8 −0 md 0|-\|/-| 
+Add check_logfiles to ITL |-\|/-| 2019-07-12T08:25:39Z Merged pull request |-\|/-| 7223 +135 −0 md conf 1|-\|/-| 
+Add check_logfiles plugin to ITL |-\|/-| 2019-06-04T08:39:03Z Closed pull request |-\|/-| 7222 +152 −0 md conf 1|-\|/-| 
+Improve error handling with network connections (Boost ASIO) |-\|/-| 2019-06-05T12:43:32Z Merged pull request |-\|/-| 7220 +19 −9 cpp 2|-\|/-| 
+API: Harden default cipher list |-\|/-| 2019-06-05T09:40:16Z Merged pull request |-\|/-| 7219 +35 −3 md ti 1|-\|/-| 
+API Actions: Add downtime for all host services (child objects) |-\|/-| 2019-06-06T10:53:43Z Merged pull request |-\|/-| 7218 +78 −2 md cpp 1|-\|/-| 
+Provide the snmpv3_context option |-\|/-| 2019-06-03T14:06:14Z Merged pull request |-\|/-| 7216 +5 −0 md conf 1|-\|/-| 
+Docs: Fix typo |-\|/-| 2019-06-03T07:39:40Z Merged pull request |-\|/-| 7214 +1 −1 md 0|-\|/-| 
+Docs: Add note about not to use director-global for own configuration |-\|/-| 2019-06-04T07:34:33Z Merged pull request |-\|/-| 7213 +4 −0 md 0|-\|/-| 
+Require TLS 1.2 for Cluster & REST API |-\|/-| 2019-06-03T14:19:23Z Merged pull request |-\|/-| 7211 +25 −31 md cpp ti 3|-\|/-| 
+Quality: Replace deprecated get_io_service() with get_executor().context() for Boost ASIO |-\|/-| 2019-05-29T13:40:20Z Merged pull request |-\|/-| 7210 +10 −10 hpp cpp 5|-\|/-| 
+Close server connections and shutdown coroutines immediately on disconnect |-\|/-| 2019-06-05T12:40:25Z Merged pull request |-\|/-| 7209 +34 −13 cpp hpp 5|-\|/-| 
+Actually wait for running checks |-\|/-| 2019-06-06T09:16:35Z Merged pull request |-\|/-| 7208 +2 −2 cpp 1|-\|/-| 
+CLI: Remove broken troubleshoot command |-\|/-| 2019-05-28T13:25:26Z Merged pull request |-\|/-| 7205 +10 −787 md 8 txt 1|-\|/-| 
+Allow setting the SNMP version for check_iftraffic.pl |-\|/-| 2019-06-03T09:20:31Z Merged pull request |-\|/-| 7204 +6 −1 md conf 1|-\|/-| 
+Unify copyright headers |-\|/-| 2019-05-27T07:57:52Z Merged pull request |-\|/-| 7201 +5 −54 cpp hpp ti 4|-\|/-| 
+Docs: Replace 'training whitespaces' with 'trailing whitespaces' |-\|/-| 2019-05-27T07:58:26Z Merged pull request |-\|/-| 7200 +1 −1 md 0|-\|/-| 
+Docs: Add styleguide with development details |-\|/-| 2019-05-24T13:08:37Z Merged pull request |-\|/-| 7199 +543 −59 md 0|-\|/-| 
+Cleanup old code (HTTP, Cluster) |-\|/-| 2019-05-29T12:50:41Z Merged pull request |-\|/-| 7196 +287 −2,562 txt hpp cpp 3|-\|/-| 
+Remove double whitespaces for notifications log message |-\|/-| 2019-06-19T14:42:59Z Merged pull request |-\|/-| 7192 +12 −12 cpp 2|-\|/-| 
+Disable program option guessing in check_service |-\|/-| 2019-05-20T14:09:43Z Merged pull request |-\|/-| 7190 +4 −2 cpp 1|-\|/-| 
+Use --description instead of -d for check_service.exe |-\|/-| 2019-05-20T14:08:20Z Merged pull request |-\|/-| 7189 +1 −1 conf 1|-\|/-| 
+Fix wrong facility in GelfWriter log message |-\|/-| 2019-05-17T06:33:35Z Merged pull request |-\|/-| 7185 +1 −1 cpp 1|-\|/-| 
+Strip '\r' in notification messages to avoid 'Content-Type: application/octet-stream' |-\|/-| 2019-06-05T13:22:58Z Merged pull request |-\|/-| 7184 +10 −6 sh 2|-\|/-| 
+Fix System-V return codes according to LSB |-\|/-| 2019-06-06T11:31:42Z Merged pull request |-\|/-| 7183 +4 −3 cmake 1|-\|/-| 
+Add check command for x509's host check |-\|/-| 2019-05-16T08:02:52Z Merged pull request |-\|/-| 7181 +48 −0 md conf 1|-\|/-| 
+Revert "CLI: Return non-zero on unknown sub commands" |-\|/-| 2019-05-10T13:17:52Z Merged pull request |-\|/-| 7180 +3 −11 cpp 2|-\|/-| 
+Add new -r parameter for esxi_hardware command |-\|/-| 2019-05-10T14:22:55Z Merged pull request |-\|/-| 7179 +8 −2 md conf 1|-\|/-| 
+API: Automatically repair broken _api package |-\|/-| 2019-05-10T12:40:49Z Merged pull request |-\|/-| 7178 +109 −38 md cpp hpp 5|-\|/-| 
+Docs: Use jo to format JSON body for API actions, esp. unix timestamps |-\|/-| 2019-05-09T15:56:30Z Merged pull request |-\|/-| 7175 +33 −0 md 0|-\|/-| 
+Account for OpenSSL library evolution |-\|/-| 2019-05-10T11:24:02Z Merged pull request |-\|/-| 7172 +31 −9 cpp 3|-\|/-| 
+Docs: Add Master-Master-Replication as option for mysql |-\|/-| 2019-05-09T12:25:32Z Merged pull request |-\|/-| 7171 +4 −2 md 0|-\|/-| 
+Docs: Improve distributed, features HA, reachability chapters |-\|/-| 2019-05-08T16:25:25Z Merged pull request |-\|/-| 7169 +302 −108 md 0|-\|/-| 
+Fix deadlock in API config packages |-\|/-| 2019-05-08T16:18:22Z Merged pull request |-\|/-| 7168 +50 −13 cpp hpp 5|-\|/-| 
+cmake: Update MySQL autodetection to support MariaDB |-\|/-| 2019-05-08T10:03:23Z Merged pull request |-\|/-| 7166 +7 −1 cmake 1|-\|/-| 
+Doc: Improve the development chapter |-\|/-| 2019-05-09T12:47:50Z Merged pull request |-\|/-| 7165 +49 −44 md 0|-\|/-| 
+Improve validation for times.{begin,end} in notification objects |-\|/-| 2019-05-07T13:58:45Z Merged pull request |-\|/-| 7164 +30 −0 cpp hpp 2|-\|/-| 
+DB IDO: Use cached reachable state |-\|/-| 2019-05-07T13:21:22Z Merged pull request |-\|/-| 7163 +3 −3 cpp 2|-\|/-| 
+CLI: Return non-zero on unknown sub commands |-\|/-| 2019-05-07T11:23:06Z Merged pull request |-\|/-| 7162 +11 −3 cpp 2|-\|/-| 
+CLI: Fix updates for NodeName/ZoneName constants |-\|/-| 2019-05-07T09:14:29Z Merged pull request |-\|/-| 7158 +16 −15 cpp 2|-\|/-| 
+DB IDO: Do not deactivate objects during application reload/restart |-\|/-| 2019-05-03T14:52:11Z Merged pull request |-\|/-| 7157 +30 −2 cpp hpp 3|-\|/-| 
+Implement sleep CheckCommand |-\|/-| 2019-05-24T13:42:47Z Merged pull request |-\|/-| 7156 +103 −1 md conf txt cpp hpp 4|-\|/-| 
+use current frame scope for permission filter function calls |-\|/-| 2019-05-03T14:53:41Z Merged pull request |-\|/-| 7155 +3 −3 cpp 1|-\|/-| 
+Lock all kind of Objects during serialization |-\|/-| 2019-05-10T12:39:28Z Merged pull request |-\|/-| 7154 +6 −1 cpp 2|-\|/-| 
+Fix compiler warnings in Windows plugins |-\|/-| 2019-04-30T12:21:24Z Merged pull request |-\|/-| 7153 +59 −61 cpp 5|-\|/-| 
+account for adjusted interface of mysql8 |-\|/-| 2019-04-30T12:20:18Z Merged pull request |-\|/-| 7152 +2 −2 cpp hpp 2|-\|/-| 
+Documentation: add missing argument to chkconfig command. |-\|/-| 2019-04-29T07:01:53Z Merged pull request |-\|/-| 7151 +1 −1 md 0|-\|/-| 
+Ensure that runtime created API objects survive a restart |-\|/-| 2019-04-30T12:22:14Z Merged pull request |-\|/-| 7150 +295 −9 md cpp hpp 4|-\|/-| 
+Add --cn parameter to 'api setup' CLI command allowing hostname overrides |-\|/-| 2019-04-26T10:04:59Z Merged pull request |-\|/-| 7148 +27 −16 md cpp hpp 2|-\|/-| 
+Update release procedure |-\|/-| 2019-04-26T08:26:26Z Merged pull request |-\|/-| 7146 +34 −261 md py 1|-\|/-| 
+Raise .NET target version to 4.6 |-\|/-| 2019-04-29T15:01:16Z Merged pull request |-\|/-| 7145 +36 −25 txt config csproj cs md cmake 5|-\|/-| 
+Use I/O engine in debug console CLI command |-\|/-| 2019-05-22T11:52:10Z Merged pull request |-\|/-| 7143 +272 −107 0|-\|/-| 
+ check_nscp_api: Rewrite using Boost ASIO and Beast |-\|/-| 2019-05-23T12:15:48Z Merged pull request |-\|/-| 7142 +251 −115 0|-\|/-| 
+Add log message for log rotate; update docs |-\|/-| 2019-04-24T09:54:55Z Merged pull request |-\|/-| 7140 +19 −3 md cpp 1|-\|/-| 
+JsonRpcConnection: reduce log spam on disconnect |-\|/-| 2019-04-23T12:50:19Z Merged pull request |-\|/-| 7137 +1 −13 cpp 1|-\|/-| 
+Use new I/O engine in ElasticsearchWriter |-\|/-| 2019-04-23T12:53:00Z Merged pull request |-\|/-| 7135 +89 −64 cpp hpp 2|-\|/-| 
+Use new I/O engine in InfluxdbWriter |-\|/-| 2019-04-23T12:31:42Z Merged pull request |-\|/-| 7134 +117 −55 hpp cpp 4|-\|/-| 
+Use new I/O engine in PkiUtility::FetchCert() and PkiUtility::RequestCertificate() |-\|/-| 2019-04-23T12:27:49Z Merged pull request |-\|/-| 7133 +222 −46 cpp hpp 9|-\|/-| 
+StreamLogger#BindStream(): set #m_FlushLogTimer only if needed |-\|/-| 2019-04-24T09:49:33Z Merged pull request |-\|/-| 7130 +6 −4 cpp 1|-\|/-| 
+avoid incrementing Ptr which could be already be in destruction-phase |-\|/-| 2019-04-24T09:45:17Z Merged pull request |-\|/-| 7129 +4 −6 cpp hpp 3|-\|/-| 
+Re-write ObjectLock's implementation details |-\|/-| 2019-04-23T09:53:41Z Merged pull request |-\|/-| 7128 +13 −93 cpp hpp 4|-\|/-| 
+ApiListener#RotateLogFile(): don't overwrite previous log |-\|/-| 2019-04-23T10:08:13Z Merged pull request |-\|/-| 7127 +20 −17 cpp 1|-\|/-| 
+ApiListener#ApiTimerHandler(): delete all replayed logs |-\|/-| 2019-04-23T10:07:03Z Merged pull request |-\|/-| 7126 +8 −0 cpp 1|-\|/-| 
+Namespace: place ObjectLock in all methods |-\|/-| 2019-04-26T06:26:59Z Merged pull request |-\|/-| 7124 +18 −0 cpp 1|-\|/-| 
+FilterUtility::EvaluateFilter(): ensure not to modify the global namespace |-\|/-| 2019-04-16T15:40:21Z Merged pull request |-\|/-| 7122 +4 −4 cpp 1|-\|/-| 
+Fix that MaxConcurrentChecks constant is overridden from 'checker' feature |-\|/-| 2019-04-17T11:14:33Z Merged pull request |-\|/-| 7121 +59 −93 md cpp hpp ti 12|-\|/-| 
+Ignore synced config zones where no config item exists |-\|/-| 2019-04-16T09:08:16Z Merged pull request |-\|/-| 7120 +18 −0 cpp 1|-\|/-| 
+Systemd: don't kill any running check plugins |-\|/-| 2019-06-06T10:55:02Z Merged pull request |-\|/-| 7118 +1 −0 cmake 1|-\|/-| 
+Drop Checkable#reachable in favor of #last_reachable |-\|/-| 2019-04-15T11:40:07Z Merged pull request |-\|/-| 7116 +0 −9 cpp hpp ti 3|-\|/-| 
+Improve REST API docs |-\|/-| 2019-04-12T13:28:49Z Merged pull request |-\|/-| 7115 +399 −152 md 0|-\|/-| 
+use dedicated permissions namespace for scriptframe in filterutility |-\|/-| 2019-04-16T14:02:17Z Merged pull request |-\|/-| 7113 +4 −2 cpp 2|-\|/-| 
+Include host state in Service#handled and Service#severity |-\|/-| 2019-04-17T11:16:24Z Merged pull request |-\|/-| 7112 +9 −0 hpp cpp 3|-\|/-| 
+Improve code docs for cluster message routing conditions |-\|/-| 2019-04-11T09:20:47Z Merged pull request |-\|/-| 7109 +44 −30 cpp hpp 2|-\|/-| 
+Doc: command attribute can be a string |-\|/-| 2019-04-11T08:00:15Z Closed pull request |-\|/-| 7108 +1 −1 md 0|-\|/-| 
+Replace self-written filesystem ops with boost.filesystem |-\|/-| 2019-04-25T13:53:56Z Merged pull request |-\|/-| 7102 +66 −343 txt cpp hpp 7|-\|/-| 
+JsonRpcConnection: reduce log spam on disconnect |-\|/-| 2019-04-09T14:57:32Z Merged pull request |-\|/-| 7097 +13 −1 cpp 1|-\|/-| 
+Expose derivative states via API |-\|/-| 2019-04-09T14:55:48Z Merged pull request |-\|/-| 7096 +32 −5 cpp hpp ti 7|-\|/-| 
+Docs: Update version specific changes for 2.11 |-\|/-| 2019-04-08T12:52:59Z Merged pull request |-\|/-| 7093 +74 −104 md 0|-\|/-| 
+Implement new event queue for ASIO consumers |-\|/-| 2019-04-25T14:54:44Z Merged pull request |-\|/-| 7088 +401 −94 cpp 1|-\|/-| 
+HttpServerConnection: Log the user agent field for new requests too |-\|/-| 2019-04-05T14:00:37Z Merged pull request |-\|/-| 7087 +3 −1 cpp 1|-\|/-| 
+Remove not needed inline code tag |-\|/-| 2019-04-05T07:12:51Z Merged pull request |-\|/-| 7085 +1 −1 md 0|-\|/-| 
+WIP: Fix check_swap on x86 |-\|/-| 2019-04-05T07:13:11Z Closed pull request |-\|/-| 7084 +1 −1 cpp 1|-\|/-| 
+Troubleshooting docs: Add Windows agents without NodeName constant |-\|/-| 2019-04-04T13:42:53Z Merged pull request |-\|/-| 7082 +27 −0 md 0|-\|/-| 
+Docs: Improve config object types chapter |-\|/-| 2019-04-03T17:53:27Z Merged pull request |-\|/-| 7080 +1,106 −1,083 0|-\|/-| 
+Build Windows with Visual Studio 2017 |-\|/-| 2019-04-05T14:38:13Z Merged pull request |-\|/-| 7079 +167 −138 txt csproj yml cmake cpp ps1 7|-\|/-| 
+Deprecate ExternalCommandListener feature ('command') and adjust log warnings to the roadmap |-\|/-| 2019-04-03T12:59:37Z Merged pull request |-\|/-| 7078 +37 −7 md cpp 4|-\|/-| 
+Always update object authority & don't skip notifications in non-API setups |-\|/-| 2019-04-03T12:22:57Z Merged pull request |-\|/-| 7077 +13 −8 cpp 2|-\|/-| 
+/v1/events: terminate on disconnect |-\|/-| 2019-04-05T08:31:31Z Merged pull request |-\|/-| 7076 +111 −58 cpp hpp 24|-\|/-| 
+Impersonate as Icinga user, not root |-\|/-| 2019-04-03T07:52:10Z Merged pull request |-\|/-| 7074 +22 −5 md cpp 5|-\|/-| 
+Improve docs for 2.11: Development, test snapshot packages & installation repos |-\|/-| 2019-04-09T12:16:39Z Merged pull request |-\|/-| 7073 +420 −222 md 0|-\|/-| 
+Upgrading docs: Add Boost dependencies |-\|/-| 2019-04-01T16:10:46Z Merged pull request |-\|/-| 7072 +25 −12 md 0|-\|/-| 
+Technical Concepts: Add config compiler references |-\|/-| 2019-04-01T11:23:39Z Merged pull request |-\|/-| 7071 +9 −0 md 0|-\|/-| 
+Fix logrotate "Operation not permitted" |-\|/-| 2019-07-08T07:47:18Z Merged pull request |-\|/-| 7065 +4 −4 txt cmake 1|-\|/-| 
+Add command `icingacli-elasticsearch` to ITL |-\|/-| 2019-04-01T11:27:10Z Merged pull request |-\|/-| 7064 +52 −0 md conf 1|-\|/-| 
+Improve DB IDO HA failover behaviour |-\|/-| 2019-04-01T08:30:12Z Merged pull request |-\|/-| 7062 +146 −43 md hpp cpp ti 5|-\|/-| 
+Document check_command may be a string |-\|/-| 2019-04-01T11:24:30Z Merged pull request |-\|/-| 7059 +1 −1 md 0|-\|/-| 
+Document check_command may be a string |-\|/-| 2019-03-28T12:57:38Z Closed pull request |-\|/-| 7057 +1 −1 md 0|-\|/-| 
+Disable feature HA by default (InfluxDB, Graphite, Gelf, Elasticsearch, OpenTSDB, Perfdata) |-\|/-| 2019-03-27T16:16:19Z Merged pull request |-\|/-| 7052 +16 −15 md ti 6|-\|/-| 
+InfluxDB/Elasticsearch: Flush only if there's data in the buffer |-\|/-| 2019-03-27T11:16:07Z Merged pull request |-\|/-| 7051 +8 −4 cpp 2|-\|/-| 
+Implement previous_state_change |-\|/-| 2019-04-17T11:17:42Z Merged pull request |-\|/-| 7050 +6 −0 cpp ti 2|-\|/-| 
+REST API Docs: Add Golang client code example |-\|/-| 2019-03-26T08:48:53Z Merged pull request |-\|/-| 7049 +77 −4 md 0|-\|/-| 
+Update issue templates |-\|/-| 2019-03-26T08:50:22Z Merged pull request |-\|/-| 7047 +60 −0 md 0|-\|/-| 
+Document that `ca list` is not an inventory, add cleanup cycle |-\|/-| 2019-03-25T10:01:26Z Merged pull request |-\|/-| 7046 +5 −0 md 0|-\|/-| 
+SELinux: add a boolean to allow execution of plugins via sudo |-\|/-| 2019-03-25T10:38:05Z Merged pull request |-\|/-| 7042 +78 −2 md te 1|-\|/-| 
+Unify *nix and WinNT CheckCommand#command handling |-\|/-| 2019-12-03T08:10:10Z Closed pull request |-\|/-| 7038 +2 −2 md cpp 1|-\|/-| 
+Fix incorrect title in API docs |-\|/-| 2019-03-21T10:30:40Z Merged pull request |-\|/-| 7037 +19 −19 md 0|-\|/-| 
+DaemonCommand: don't fork() until CloseStdIO() |-\|/-| 2019-07-18T16:31:12Z Closed pull request |-\|/-| 7036 +57 −16 cpp hpp 3|-\|/-| 
+Elasticsearch: Change Content-Type header to 'application/x-ndjson' for bulk streams |-\|/-| 2019-03-20T09:49:55Z Merged pull request |-\|/-| 7035 +7 −1 md cpp 1|-\|/-| 
+Update NSClient++ to 0.5.2.39 |-\|/-| 2019-03-19T15:59:03Z Merged pull request |-\|/-| 7034 +4 −4 txt 0|-\|/-| 
+Docs: Update supported package repos in Getting Started chapter |-\|/-| 2019-03-19T11:25:59Z Merged pull request |-\|/-| 7033 +85 −72 md 0|-\|/-| 
+Backport Defer class for 2.10 |-\|/-| 2019-03-19T10:28:49Z Merged pull request |-\|/-| 7032 +46 −0 hpp 1|-\|/-| 
+Improve logging for parsing metrics in features |-\|/-| 2019-03-19T10:34:49Z Merged pull request |-\|/-| 7031 +97 −71 cpp hpp 8|-\|/-| 
+SELinux: add unreserved_port_type attribute to icinga2_port_t |-\|/-| 2019-03-19T08:26:05Z Merged pull request |-\|/-| 7030 +4 −1 te 1|-\|/-| 
+Fix heading level in development chapter |-\|/-| 2019-03-19T08:26:30Z Merged pull request |-\|/-| 7028 +1 −1 md 0|-\|/-| 
+Elasticsearch: Improve error handling/logging |-\|/-| 2019-03-19T07:35:16Z Merged pull request |-\|/-| 7027 +10 −7 cpp 1|-\|/-| 
+CLI: 'ca list' lists pending CSRs by default, add '--all' parameter |-\|/-| 2019-05-10T14:41:54Z Merged pull request |-\|/-| 7026 +63 −6 md cpp 1|-\|/-| 
+Update .gitignore |-\|/-| 2019-03-18T10:10:49Z Merged pull request |-\|/-| 7025 +10 −9 gitignore 1|-\|/-| 
+ElasticsearchWriter: don't leak sockets |-\|/-| 2019-03-18T15:39:44Z Merged pull request |-\|/-| 7020 +3 −0 cpp 1|-\|/-| 
+Replace YAJL with nlohmann::json |-\|/-| 2019-03-18T16:26:58Z Merged pull request |-\|/-| 7019 +20,900 −4,468 yml txt cmake md 3|-\|/-| 
+Utility::ValidateUTF8(): use UTF8-CPP |-\|/-| 2019-03-18T09:57:03Z Merged pull request |-\|/-| 7014 +3,181 −29 txt cmake cpp gitignore third-party/utf8cpp/LICENSE 5|-\|/-| 
+Utility::ValidateUTF8(): reduce memory allocations |-\|/-| 2019-03-15T10:36:35Z Closed pull request |-\|/-| 7013 +20 −11 cpp txt 2|-\|/-| 
+LegacyTimePeriod::ProcessTimeRangeRaw(): support ranges across midnight |-\|/-| 2019-06-06T12:30:36Z Merged pull request |-\|/-| 7011 +78 −1 md cpp txt 2|-\|/-| 
+Use new I/O engine in CLI commands and features |-\|/-| 2019-04-25T14:25:57Z Closed pull request |-\|/-| 7010 +534 −157 cpp hpp 5|-\|/-| 
+Use C++11 atomics for our intrusive pointers |-\|/-| 2019-04-02T13:15:57Z Merged pull request |-\|/-| 7008 +17 −17 cpp hpp 2|-\|/-| 
+ApiListener: use Boost ASIO and coroutines for net I/O |-\|/-| 2019-04-01T14:49:45Z Merged pull request |-\|/-| 7005 +2,350 −952 yml txt md cpp 3|-\|/-| 
+Timer::TimerThreadProc(): use C++11 lambda instead of bind() |-\|/-| 2019-04-24T09:52:17Z Merged pull request |-\|/-| 7004 +1 −1 cpp 1|-\|/-| 
+check_network -h: drop non-existent feature |-\|/-| 2019-03-19T08:27:56Z Merged pull request |-\|/-| 7002 +0 −5 cpp 1|-\|/-| 
+Assignment operators doc: tell what the { } are for |-\|/-| 2019-03-12T13:12:45Z Merged pull request |-\|/-| 7001 +1 −1 md 0|-\|/-| 
+Don't abuse goto for building simple loops |-\|/-| 2019-04-03T07:46:17Z Merged pull request |-\|/-| 7000 +45 −52 cpp 2|-\|/-| 
+Suppress or fix compiler warnings |-\|/-| 2019-03-18T07:44:31Z Merged pull request |-\|/-| 6999 +29 −16 cpp 11|-\|/-| 
+Unify documentation code formatting |-\|/-| 2019-03-26T08:40:17Z Merged pull request |-\|/-| 6998 +4,660 −3,521 md 0|-\|/-| 
+[WIP] Doc: correct default of ApiListener#bind_host |-\|/-| 2019-03-07T14:34:16Z Closed pull request |-\|/-| 6997 +1 −1 md 0|-\|/-| 
+Typo and link fix |-\|/-| 2019-03-06T18:14:43Z Merged pull request |-\|/-| 6995 +2 −2 md 0|-\|/-| 
+PkiUtility::NewCa(): just warn if the CA files already exist |-\|/-| 2019-03-11T09:57:45Z Merged pull request |-\|/-| 6991 +1 −1 cpp 1|-\|/-| 
+InfluxdbWriter: don't leak sockets |-\|/-| 2019-03-18T13:38:05Z Merged pull request |-\|/-| 6990 +8 −1 hpp cpp 2|-\|/-| 
+ThreadPool: use the Boost ASIO thread pool under the hood |-\|/-| 2019-04-25T12:20:43Z Merged pull request |-\|/-| 6988 +74 −438 cpp hpp 6|-\|/-| 
+Cluster log replay fixes (#6932) |-\|/-| 2019-06-06T11:26:16Z Closed pull request |-\|/-| 6984 +81 −50 cpp hpp 5|-\|/-| 
+Changed default storage regex |-\|/-| 2019-02-27T19:30:58Z Closed pull request |-\|/-| 6983 +1 −1 md 0|-\|/-| 
+[WIP] Doc: add dependencies matrix |-\|/-| 2019-03-11T14:07:59Z Closed pull request |-\|/-| 6982 +96 −0 md 0|-\|/-| 
+Doc: write systemd lower-case |-\|/-| 2019-03-11T10:44:21Z Merged pull request |-\|/-| 6979 +20 −20 md 0|-\|/-| 
+Doc: SLES 11 requires a newer boost version, too |-\|/-| 2019-03-18T10:11:46Z Merged pull request |-\|/-| 6978 +1 −1 md 0|-\|/-| 
+Ignore failure of unit test base_utility/comparepasswords_issafe |-\|/-| 2019-03-13T09:31:49Z Merged pull request |-\|/-| 6977 +1 −1 cpp 1|-\|/-| 
+Don't require OS headers to provide SO_REUSEPORT |-\|/-| 2019-03-13T09:30:08Z Merged pull request |-\|/-| 6976 +2 −2 cpp 1|-\|/-| 
+Fix nested hostgroup example |-\|/-| 2019-02-26T08:06:59Z Merged pull request |-\|/-| 6975 +1 −1 md 0|-\|/-| 
+Update to generic copyright header |-\|/-| 2019-02-26T08:07:36Z Merged pull request |-\|/-| 6974 +767 −13,127 txt cs cmake contrib/GPLHeader py 8 sh cpp rc 13|-\|/-| 
+Fix formatting in development docs |-\|/-| 2019-02-25T12:48:51Z Merged pull request |-\|/-| 6972 +9 −9 md 0|-\|/-| 
+Activate downtimes before any checkable object |-\|/-| 2019-02-25T09:14:31Z Merged pull request |-\|/-| 6971 +2 −0 ti 1|-\|/-| 
+Improve reload handling for features (metric & queue flush, activation priority) |-\|/-| 2019-02-26T14:38:16Z Merged pull request |-\|/-| 6970 +223 −88 md cpp hpp ti 10|-\|/-| 
+Secure ApiUser::GetByAuthHeader() against timing attacks |-\|/-| 2019-02-25T12:34:22Z Merged pull request |-\|/-| 6968 +113 −1 cpp hpp txt 4|-\|/-| 
+Add missing args for apache-status and fix a few typos |-\|/-| 2019-02-22T10:43:41Z Merged pull request |-\|/-| 6963 +30 −10 md conf 1|-\|/-| 
+Activate downtimes before any checkable object |-\|/-| 2019-02-25T08:48:22Z Closed pull request |-\|/-| 6960 +2 −0 ti 1|-\|/-| 
+Debug: Log calls to ConfigObject::Deactivate() |-\|/-| 2019-02-19T12:52:40Z Merged pull request |-\|/-| 6958 +4 −0 cpp 1|-\|/-| 
+Escape pipe symbol in api documentation |-\|/-| 2019-02-19T08:39:46Z Merged pull request |-\|/-| 6956 +10 −10 md 0|-\|/-| 
+Forward local log position if no messages in a replay log apply to an endpoint |-\|/-| 2019-02-15T18:23:47Z Closed pull request |-\|/-| 6954 +8 −0 cpp 1|-\|/-| 
+Fix indent in configcompiler.cpp |-\|/-| 2019-02-20T10:32:30Z Merged pull request |-\|/-| 6953 +2 −1 cpp 1|-\|/-| 
+Delete empty replay log files |-\|/-| 2019-02-27T21:46:00Z Closed pull request |-\|/-| 6952 +14 −1 cpp 1|-\|/-| 
+1test |-\|/-| 2019-02-15T08:57:47Z Closed pull request |-\|/-| 6951 +273 −0 1test 1|-\|/-| 
+Create icinga 2 |-\|/-| 2019-02-15T08:57:59Z Closed pull request |-\|/-| 6950 +53 −0 icinga 2 1|-\|/-| 
+Doc fix: update check_rbl parameter |-\|/-| 2019-02-13T07:13:03Z Merged pull request |-\|/-| 6949 +1 −1 md 0|-\|/-| 
+Do not keep replay logs for endnodes that are not directly connected |-\|/-| 2019-02-27T21:44:57Z Closed pull request |-\|/-| 6946 +7 −0 cpp 1|-\|/-| 
+Troubleshooting: Add notes on ephemeral port range blocking on Windows agents |-\|/-| 2019-02-11T13:38:34Z Merged pull request |-\|/-| 6944 +30 −0 md 0|-\|/-| 
+Avoid duplicating non-zero count message replay messages in the debug log |-\|/-| 2019-02-11T14:32:51Z Merged pull request |-\|/-| 6943 +4 −3 cpp 1|-\|/-| 
+Add timestamp to all messages sent out via JSON-RPC |-\|/-| 2019-02-27T21:46:13Z Closed pull request |-\|/-| 6941 +5 −0 cpp 1|-\|/-| 
+Fix check_swap percentage calculation |-\|/-| 2019-02-11T08:47:00Z Merged pull request |-\|/-| 6940 +4 −1 cpp 1|-\|/-| 
+Enhance notification logging |-\|/-| 2019-02-08T10:54:10Z Merged pull request |-\|/-| 6935 +82 −51 cpp 3|-\|/-| 
+Raise required Boost version to 1.53 |-\|/-| 2019-02-11T15:53:28Z Merged pull request |-\|/-| 6934 +3 −3 txt md 0|-\|/-| 
+Doc: Add .NET 3.5 to the windows build stack |-\|/-| 2019-02-04T14:50:05Z Merged pull request |-\|/-| 6928 +6 −0 md 0|-\|/-| 
+Feature/itl cloudera checks |-\|/-| 2019-01-31T15:20:10Z Merged pull request |-\|/-| 6926 +94 −0 md conf 1|-\|/-| 
+Fix check_swap formatting |-\|/-| 2019-01-31T08:13:42Z Merged pull request |-\|/-| 6925 +1 −1 cpp 1|-\|/-| 
+Fix double to long conversions |-\|/-| 2019-01-30T14:18:14Z Merged pull request |-\|/-| 6924 +7 −0 hpp cpp 2|-\|/-| 
+Downtime::AddDowntime(): place Downtimes in the same zone as the origin ScheduledDowntimes |-\|/-| 2019-01-29T12:35:33Z Merged pull request |-\|/-| 6920 +17 −1 cpp 1|-\|/-| 
+Add technical concept docs for our internal JSON-RPC API messages |-\|/-| 2019-04-03T08:52:45Z Merged pull request |-\|/-| 6918 +786 −8 0|-\|/-| 
+Cluster: Delete object message should log that |-\|/-| 2019-01-29T12:37:51Z Merged pull request |-\|/-| 6917 +4 −4 cpp 1|-\|/-| 
+Don't allow retry_interval <= 0 |-\|/-| 2019-01-30T14:28:27Z Merged pull request |-\|/-| 6916 +9 −0 cpp hpp 2|-\|/-| 
+Ensure that programmer's don't pass <= 0 to localtime() |-\|/-| 2019-04-02T10:11:22Z Closed pull request |-\|/-| 6915 +2 −0 cpp 1|-\|/-| 
+ClusterEvents::AcknowledgementSet event should forward 'persistent' attribute |-\|/-| 2019-02-04T12:52:44Z Merged pull request |-\|/-| 6914 +1 −0 cpp 1|-\|/-| 
+Make the NSCP CheckDisk --exclude option available to Icinga 2 |-\|/-| 2019-01-29T08:43:07Z Merged pull request |-\|/-| 6911 +6 −1 md conf 1|-\|/-| 
+Ensure all perfdata to be written |-\|/-| 2019-02-11T16:27:44Z Merged pull request |-\|/-| 6908 +91 −10 cpp hpp ti 10|-\|/-| 
+Use std::to_string for Convert::ToString() |-\|/-| 2019-04-02T10:38:18Z Closed pull request |-\|/-| 6904 +18 −2 cpp hpp 3|-\|/-| 
+TcpSocket#Bind(): also set SO_REUSEPORT |-\|/-| 2019-02-04T13:21:21Z Merged pull request |-\|/-| 6901 +3 −0 cpp 1|-\|/-| 
+Use std::stol in Convert::ToLong(const String&) |-\|/-| 2019-04-02T14:13:59Z Closed pull request |-\|/-| 6900 +18 −0 hpp cpp 2|-\|/-| 
+Log: Ensure not to pass negative values to localtime() |-\|/-| 2019-01-24T09:58:43Z Merged pull request |-\|/-| 6899 +2 −1 cpp 1|-\|/-| 
+Validate Zone::GetLocalZone() before using |-\|/-| 2019-01-25T07:31:58Z Merged pull request |-\|/-| 6897 +5 −1 cpp 1|-\|/-| 
+Notification#BeginExecuteNotification(): SetNextNotification() correctly |-\|/-| 2019-02-22T08:28:01Z Merged pull request |-\|/-| 6896 +2 −4 cpp 1|-\|/-| 
+Fix checkresults from the future breaking checks |-\|/-| 2019-02-08T12:48:13Z Merged pull request |-\|/-| 6894 +28 −3 cpp 1|-\|/-| 
+Add new "-us" option to ipmi-sensor CheckCommand |-\|/-| 2019-01-11T16:01:29Z Merged pull request |-\|/-| 6893 +5 −0 md conf 1|-\|/-| 
+Added snmp_exclude option to manubulon snmp-storage check |-\|/-| 2019-01-11T16:03:59Z Merged pull request |-\|/-| 6890 +6 −0 md conf 1|-\|/-| 
+Implement {Host,Service}#plugin_cache_dir |-\|/-| 2019-01-16T08:10:26Z Closed pull request |-\|/-| 6889 +15 −0 ti 2|-\|/-| 
+Don't run UpdateObjectAuthority for Comments and Downtimes |-\|/-| 2019-01-16T13:57:35Z Merged pull request |-\|/-| 6885 +7 −1 cpp 1|-\|/-| 
+Allow Checkable#retry_interval to be 0 |-\|/-| 2019-01-16T14:00:04Z Merged pull request |-\|/-| 6883 +2 −1 cpp 1|-\|/-| 
+InfluxdbWriter#Stop(): flush buffer |-\|/-| 2019-02-11T16:32:06Z Merged pull request |-\|/-| 6882 +9 −0 cpp hpp 2|-\|/-| 
+Don't limit the backlog for listen(2) |-\|/-| 2019-03-15T12:07:39Z Closed pull request |-\|/-| 6881 +2 −1 cpp 1|-\|/-| 
+pki::RequestCertificate: handle missing certificate/CSR |-\|/-| 2019-01-09T08:30:28Z Merged pull request |-\|/-| 6880 +9 −0 cpp 1|-\|/-| 
+Update copyright to generic header |-\|/-| 2019-02-25T15:31:33Z Closed pull request |-\|/-| 6878 +729 −728 txt cmake contrib/GPLHeader py sh cpp conf itl/hangman itl/itl itl/manubulon itl/nscp itl/plugins itl/plugins-contrib 31|-\|/-| 
+HttpServerConnection#DataAvailableHandler(): reduce log spam |-\|/-| 2019-01-07T14:49:24Z Merged pull request |-\|/-| 6877 +1 −1 cpp 1|-\|/-| 
+Add haproxy-status CheckCommand definition |-\|/-| 2019-01-24T10:02:25Z Merged pull request |-\|/-| 6865 +69 −0 md conf 1|-\|/-| 
+Add phpfpm-status CheckCommand definition |-\|/-| 2018-12-23T11:16:43Z Merged pull request |-\|/-| 6864 +96 −0 md conf 1|-\|/-| 
+Add hddtemp CheckCommand definition |-\|/-| 2018-12-23T11:17:36Z Merged pull request |-\|/-| 6863 +81 −0 md conf 1|-\|/-| 
+Add proxysql CheckCommand definition |-\|/-| 2018-12-23T11:19:08Z Merged pull request |-\|/-| 6862 +83 −0 md conf 1|-\|/-| 
+Add lmsensors CheckCommand definition |-\|/-| 2019-01-24T10:01:49Z Merged pull request |-\|/-| 6861 +38 −0 md conf 1|-\|/-| 
+WIP: ApiListener#ListenerThreadProc(): accept(2) ASAP |-\|/-| 2019-01-08T16:08:54Z Closed pull request |-\|/-| 6860 +123 −7 txt hpp cpp 3|-\|/-| 
+Make string builder reusable |-\|/-| 2019-02-04T15:05:21Z Merged pull request |-\|/-| 6858 +119 −14 txt cpp hpp 3|-\|/-| 
+Url#m_Query: preserve order |-\|/-| 2019-02-11T16:57:33Z Merged pull request |-\|/-| 6857 +67 −104 cpp hpp 5|-\|/-| 
+Make UnameHelper() efficient |-\|/-| 2019-02-11T15:57:18Z Merged pull request |-\|/-| 6854 +18 −22 cpp 1|-\|/-| 
+Checkable: require zone to be set if command_endpoint is set |-\|/-| 2019-02-04T12:51:31Z Merged pull request |-\|/-| 6853 +9 −7 cpp 1|-\|/-| 
+Add haproxy CheckCommand definition |-\|/-| 2018-12-21T11:05:31Z Merged pull request |-\|/-| 6852 +58 −0 md conf 1|-\|/-| 
+Fix ITL CheckCommand disk |-\|/-| 2018-12-21T11:04:41Z Merged pull request |-\|/-| 6850 +6 −0 md conf 1|-\|/-| 
+Add fail2ban CheckCommand definition |-\|/-| 2019-01-24T10:00:51Z Merged pull request |-\|/-| 6848 +60 −0 md conf 1|-\|/-| 
+Improve AppVeyor builds |-\|/-| 2018-12-18T13:53:15Z Merged pull request |-\|/-| 6843 +10 −1 yml ps1 2|-\|/-| 
+CheckResult#output: auto-sanitize UTF-8 |-\|/-| 2019-03-15T10:35:41Z Closed pull request |-\|/-| 6831 +7 −1 ti 1|-\|/-| 
+API Event Streams: Add 'command' for Notification events |-\|/-| 2018-12-17T12:58:17Z Merged pull request |-\|/-| 6829 +7 −0 md cpp 1|-\|/-| 
+ApiListener#Stop(): wait for all requests to finish |-\|/-| 2019-06-06T11:25:01Z Closed pull request |-\|/-| 6827 +56 −3 cpp hpp 4|-\|/-| 
+Downtime#HasValidConfigOwner(): wait for ScheduledDowntimes |-\|/-| 2018-12-18T15:12:34Z Merged pull request |-\|/-| 6826 +17 −0 cpp hpp 3|-\|/-| 
+Document that retry_interval is only used after an active check result |-\|/-| 2018-12-06T10:25:41Z Merged pull request |-\|/-| 6825 +2 −2 md 0|-\|/-| 
+ITL: Support --list argument to check_apt |-\|/-| 2018-12-05T10:32:32Z Merged pull request |-\|/-| 6823 +5 −0 md conf 1|-\|/-| 
+service and host mail-notifications, add line-breaks to very long out… |-\|/-| 2019-11-14T12:18:21Z Merged pull request |-\|/-| 6822 +48 −8 sh 2|-\|/-| 
+Don't delete downtimes in satellite zones |-\|/-| 2018-12-18T15:13:37Z Merged pull request |-\|/-| 6821 +6 −1 cpp ti 2|-\|/-| 
+Only create downtimes from non-paused ScheduledDowntime objects in HA enabled cluster zones |-\|/-| 2018-12-05T10:33:30Z Merged pull request |-\|/-| 6820 +10 −2 cpp 1|-\|/-| 
+Enhance and unify development docs for debug, develop, package |-\|/-| 2018-12-04T15:07:18Z Merged pull request |-\|/-| 6819 +1,517 −707 md 0|-\|/-| 
+HttpServerConnection#DataAvailableHandler(): be aware of being called multiple times concurrently |-\|/-| 2018-12-05T10:35:36Z Merged pull request |-\|/-| 6817 +5 −1 cpp 1|-\|/-| 
+ThreadPool#Stop(): discard non-processed queue items |-\|/-| 2018-12-05T10:11:50Z Merged pull request |-\|/-| 6815 +1 −0 cpp 1|-\|/-| 
+Restore 'Connection: close' behaviour in HTTP responses |-\|/-| 2018-12-04T15:06:54Z Merged pull request |-\|/-| 6814 +9 −7 cpp 2|-\|/-| 
+ Implement TLS support for the GelfWriter feature |-\|/-| 2019-05-24T13:50:19Z Merged pull request |-\|/-| 6813 +71 −16 md cpp hpp ti 3|-\|/-| 
+WIP: Replace JSON library |-\|/-| 2019-03-18T10:13:06Z Closed pull request |-\|/-| 6812 +50,068 −333 txt cmake cpp 2|-\|/-| 
+Fix state conditions in check_memory and check_swap |-\|/-| 2018-12-03T14:06:31Z Merged pull request |-\|/-| 6811 +22 −17 cpp hpp 4|-\|/-| 
+HttpUtility::SendJsonBody(): auto-sanitize non-UTF-8 JSON |-\|/-| 2019-03-15T10:35:51Z Closed pull request |-\|/-| 6809 +46 −17 cpp hpp 3|-\|/-| 
+Remove redundand check for object existence on creation via API |-\|/-| 2018-11-30T12:21:22Z Merged pull request |-\|/-| 6808 +0 −5 cpp 1|-\|/-| 
+Add lsyncd CheckCommand definition |-\|/-| 2018-12-18T13:23:52Z Merged pull request |-\|/-| 6806 +37 −0 md conf 1|-\|/-| 
+Add btrfs CheckCommand definition |-\|/-| 2019-01-24T10:03:49Z Merged pull request |-\|/-| 6803 +60 −0 md conf 1|-\|/-| 
+Revert "Remove Downtime objects w/o reference to ScheduledDowntime objects" |-\|/-| 2018-12-05T09:01:40Z Closed pull request |-\|/-| 6802 +1 −9 cpp hpp 2|-\|/-| 
+Add varnish CheckCommand definition |-\|/-| 2018-12-05T09:52:29Z Merged pull request |-\|/-| 6801 +51 −0 md conf 1|-\|/-| 
+Fix check_perfmon to support non-localized names |-\|/-| 2018-11-29T12:01:10Z Merged pull request |-\|/-| 6800 +5 −1 cpp 1|-\|/-| 
+[Feature] Add restart option to icinga2 systemd unit on failure |-\|/-| 2018-11-21T14:50:36Z Closed pull request |-\|/-| 6792 +1 −0 cmake 1|-\|/-| 
+Docs: Add a section for DB IDO Cleanup |-\|/-| 2018-11-22T08:32:01Z Merged pull request |-\|/-| 6791 +24 −0 md 0|-\|/-| 
+DSL: Implement getenv() |-\|/-| 2018-12-04T15:08:38Z Merged pull request |-\|/-| 6786 +45 −16 md cpp hpp 7|-\|/-| 
+WIP: Relay cluster messages related to checkables to the responsible zones |-\|/-| 2019-05-07T14:02:01Z Closed pull request |-\|/-| 6782 +3 −0 cpp 1|-\|/-| 
+ApiListener#RelayMessageOne(): fix wrong condition |-\|/-| 2019-04-10T12:18:37Z Closed pull request |-\|/-| 6781 +1 −1 cpp 1|-\|/-| 
+Make mail-{host,service}-notification.sh as POSIX-compliant as possible. |-\|/-| 2019-01-24T09:59:53Z Merged pull request |-\|/-| 6780 +18 −12 sh 2|-\|/-| 
+Doc fix: update apache section |-\|/-| 2018-11-21T10:24:48Z Merged pull request |-\|/-| 6776 +5 −5 md 0|-\|/-| 
+Add technical docs for the check scheduler (general, initial check, offsets) |-\|/-| 2018-11-14T13:41:24Z Merged pull request |-\|/-| 6775 +190 −0 md 0|-\|/-| 
+Initialize ICINGA2_ERROR_LOG inside the systemd environment |-\|/-| 2018-11-13T15:36:55Z Merged pull request |-\|/-| 6773 +1 −0 cmake 1|-\|/-| 
+Implement unit tests for Dictionary initializers |-\|/-| 2018-11-13T10:48:56Z Merged pull request |-\|/-| 6771 +24 −0 txt cpp 1|-\|/-| 
+Fix deadlock in GraphiteWriter |-\|/-| 2018-11-13T07:36:51Z Merged pull request |-\|/-| 6770 +3 −1 cpp hpp 2|-\|/-| 
+fixes #6758 |-\|/-| 2018-11-09T12:50:22Z Merged pull request |-\|/-| 6762 +1 −0 cmake 1|-\|/-| 
+armhf: Apply workaround for timer tests with std::bind callbacks |-\|/-| 2018-11-09T10:50:07Z Merged pull request |-\|/-| 6760 +6 −6 cpp 1|-\|/-| 
+Fix possible double free in StreamLogger::BindStream() |-\|/-| 2018-11-09T10:50:39Z Merged pull request |-\|/-| 6759 +2 −2 cpp 1|-\|/-| 
+Fix that no_more_notifications gets reset when Recovery notifications are filtered away |-\|/-| 2018-12-05T10:05:45Z Merged pull request |-\|/-| 6757 +10 −0 cpp 1|-\|/-| 
+ITL: Add repeat_key for check_nwc_health |-\|/-| 2018-11-12T16:02:54Z Merged pull request |-\|/-| 6756 +2 −0 conf 1|-\|/-| 
+Doc fix: documentation link for apt |-\|/-| 2018-11-02T10:12:21Z Merged pull request |-\|/-| 6751 +1 −1 md 0|-\|/-| 
+#6749 Wrong operator on stride variable causing incorrect behaviour |-\|/-| 2018-12-05T10:05:06Z Merged pull request |-\|/-| 6750 +1 −1 cpp 1|-\|/-| 
+Fix api setup to automatically create the conf.d directory |-\|/-| 2019-02-11T15:35:58Z Merged pull request |-\|/-| 6748 +9 −0 cpp 1|-\|/-| 
+Add support for -q argument to Manubulon snmp-storage commmand |-\|/-| 2018-11-05T08:10:13Z Merged pull request |-\|/-| 6745 +6 −1 md conf 1|-\|/-| 
+Doc fix: error in example path. |-\|/-| 2018-11-05T08:07:15Z Merged pull request |-\|/-| 6743 +1 −1 md 0|-\|/-| 
+DB IDO: Don't enqueue queries when the feature is paused (HA) |-\|/-| 2018-10-30T12:40:11Z Merged pull request |-\|/-| 6740 +57 −0 cpp 2|-\|/-| 
+Ensure that API/JSON-RPC messages in the same session are processed and not stalled |-\|/-| 2018-10-29T12:24:41Z Merged pull request |-\|/-| 6738 +3 −45 cpp hpp 6|-\|/-| 
+db ido: remove redundant mysql indexes |-\|/-| 2019-04-29T07:13:23Z Merged pull request |-\|/-| 6734 +42 −30 sql 2|-\|/-| 
+Doc: warn about not setting Comment#entry_time |-\|/-| 2018-10-30T12:43:18Z Merged pull request |-\|/-| 6733 +2 −1 md 0|-\|/-| 
+Update Windows Agent with new design |-\|/-| 2018-10-25T16:53:20Z Merged pull request |-\|/-| 6732 +0 −0 png bmp 17|-\|/-| 
+Fix typo |-\|/-| 2018-10-30T12:43:31Z Merged pull request |-\|/-| 6731 +1 −1 md 0|-\|/-| 
+Improve cluster config sync |-\|/-| 2019-06-19T15:37:31Z Merged pull request |-\|/-| 6727 +917 −195 md cpp txt 2|-\|/-| 
+Silence the debug log a bit for IDO events |-\|/-| 2018-10-24T14:11:39Z Merged pull request |-\|/-| 6726 +0 −43 cpp 1|-\|/-| 
+Enable HA for features: Elasticsearch, Gelf, Graphite, InfluxDB, OpenTSDB, Perfdata |-\|/-| 2018-10-24T14:10:01Z Merged pull request |-\|/-| 6725 +289 −61 md cpp hpp ti 3|-\|/-| 
+Improve docs about core dumps |-\|/-| 2018-12-06T10:30:09Z Closed pull request |-\|/-| 6724 +19 −4 md 0|-\|/-| 
+Add notification result store/sync |-\|/-| 2019-04-25T13:56:15Z Merged pull request |-\|/-| 6722 +183 −37 md cpp hpp txt ti 16|-\|/-| 
+WIP: Send the local timestamp to the remote endpoint to view time differences |-\|/-| 2019-07-09T10:16:36Z Closed pull request |-\|/-| 6721 +13 −1 cpp 1|-\|/-| 
+WIP: Store the application version for configured and directly connected endpoints |-\|/-| 2019-04-10T11:12:37Z Closed pull request |-\|/-| 6720 +21 −1 cpp ti 2|-\|/-| 
+Do not send 'finished reconnecting...' if failed |-\|/-| 2018-10-24T09:51:34Z Merged pull request |-\|/-| 6719 +2 −3 cpp 1|-\|/-| 
+Call SSL_shutdown() at least twice |-\|/-| 2018-10-24T09:46:33Z Merged pull request |-\|/-| 6718 +14 −1 cpp 1|-\|/-| 
+Improve error handling for invalid child_options for API downtime actions |-\|/-| 2018-10-24T09:54:25Z Merged pull request |-\|/-| 6717 +9 −4 cpp 1|-\|/-| 
+Docs: Add package related changes to the upgrading docs |-\|/-| 2018-10-23T11:57:38Z Merged pull request |-\|/-| 6714 +17 −1 md 0|-\|/-| 
+Fix typo |-\|/-| 2018-10-23T12:00:19Z Merged pull request |-\|/-| 6713 +1 −1 cpp 1|-\|/-| 
+ Fix the Icinga2 version check for versions with more than 5 characters |-\|/-| 2018-10-29T12:46:37Z Merged pull request |-\|/-| 6709 +6 −2 cpp 1|-\|/-| 
+Docs: Alpine needs 'edge/main' repository too |-\|/-| 2018-10-19T10:30:36Z Merged pull request |-\|/-| 6708 +1 −0 md 0|-\|/-| 
+Fix regression for wrong objects.cache path overwriting icinga2.debug file |-\|/-| 2018-10-19T10:30:54Z Merged pull request |-\|/-| 6707 +2 −1 cpp 1|-\|/-| 
+Put newly configured already running ScheduledDowntime immediately in effect |-\|/-| 2018-10-19T10:29:51Z Merged pull request |-\|/-| 6704 +140 −19 cpp hpp 4|-\|/-| 
+Add GitHub release tag to README |-\|/-| 2018-10-18T09:06:58Z Merged pull request |-\|/-| 6701 +1 −0 md 0|-\|/-| 
+Enhance the addon chapter in the docs |-\|/-| 2018-10-18T08:40:18Z Merged pull request |-\|/-| 6700 +73 −29 md png 5|-\|/-| 
+Update to https://icinga.com/ |-\|/-| 2018-10-18T08:19:51Z Merged pull request |-\|/-| 6699 +827 −813 txt md NEWS cmake contrib/GPLHeader py 7|-\|/-| 
+Remove default environment, regression from e678fa1aa5 |-\|/-| 2018-10-17T11:01:25Z Merged pull request |-\|/-| 6696 +0 −2 cpp 1|-\|/-| 
+WIP: Don't allow to view/modify the ApiListener's ticket salt via REST API |-\|/-| 2019-05-10T12:51:54Z Closed pull request |-\|/-| 6693 +4 −1 ti cpp 2|-\|/-| 
+Update release docs for Chocolatey |-\|/-| 2018-10-16T10:40:39Z Merged pull request |-\|/-| 6692 +6 −4 md 0|-\|/-| 
+Add missing shutdown/program state dumps for SIGUSR2 reload handler |-\|/-| 2018-10-16T12:05:18Z Merged pull request |-\|/-| 6691 +7 −0 cpp 1|-\|/-| 
+Extend 09-object-types.md with argument array |-\|/-| 2018-10-16T10:42:02Z Merged pull request |-\|/-| 6690 +6 −0 md 0|-\|/-| 
+Fix regression with API permission filters and namespaces in v2.10 |-\|/-| 2018-10-15T15:02:15Z Merged pull request |-\|/-| 6685 +22 −14 cpp 1|-\|/-| 
+Fix spelling errors. |-\|/-| 2018-10-15T07:30:17Z Merged pull request |-\|/-| 6681 +1 −1 cpp 1|-\|/-| 
+Initialize Configuration::InitRunDir for Windows and writing the PID file |-\|/-| 2018-10-15T07:38:36Z Merged pull request |-\|/-| 6679 +4 −1 cpp 1|-\|/-| 
+Add a note to the docs on >2 endpoints in a zone |-\|/-| 2018-10-12T08:53:37Z Merged pull request |-\|/-| 6674 +6 −0 md 0|-\|/-| 
+Update RELEASE docs |-\|/-| 2018-10-12T08:22:21Z Merged pull request |-\|/-| 6673 +87 −18 md 0|-\|/-| 
+Extend upgrade docs |-\|/-| 2018-10-12T08:10:36Z Merged pull request |-\|/-| 6672 +16 −1 md 0|-\|/-| 
+Add technical concepts for the config compiler and daemon CLI command |-\|/-| 2018-10-11T11:20:52Z Merged pull request |-\|/-| 6670 +156 −6 md 0|-\|/-| 
+Don't throw an error when namespace indexers don't find a valid key |-\|/-| 2018-10-11T11:21:11Z Merged pull request |-\|/-| 6669 +1 −1 cpp 1|-\|/-| 
+Enhance vim syntax highlighting for 2.10 |-\|/-| 2018-10-10T13:57:34Z Merged pull request |-\|/-| 6668 +193 −65 vim 1|-\|/-| 
+Increase dependency recursion limit to 256 |-\|/-| 2018-10-24T08:30:47Z Merged pull request |-\|/-| 6667 +5 −2 cpp 1|-\|/-| 
+Make the two modes of check_http more obvious. |-\|/-| 2018-10-10T07:11:44Z Merged pull request |-\|/-| 6665 +3 −1 md 0|-\|/-| 
+Revert "Initialize Socket Event Engine on application startup" |-\|/-| 2018-10-09T18:00:01Z Merged pull request |-\|/-| 6664 +4 −4 cpp hpp 2|-\|/-| 
+Silence config compiler logging for runtime created objects |-\|/-| 2018-10-09T15:10:22Z Merged pull request |-\|/-| 6663 +10 −5 cpp hpp 4|-\|/-| 
+Keep the HTTP server connection open until the stream is EOF |-\|/-| 2018-10-24T09:31:07Z Merged pull request |-\|/-| 6662 +1 −1 cpp 1|-\|/-| 
+Cache the peer address in the HTTP server |-\|/-| 2018-10-09T14:00:27Z Merged pull request |-\|/-| 6661 +14 −4 cpp hpp 2|-\|/-| 
+Ensure that HTTP/1.0 or 'Connection: close' headers are properly disconnecting the client |-\|/-| 2018-10-09T11:49:23Z Merged pull request |-\|/-| 6658 +7 −3 cpp 2|-\|/-| 
+Enable the HTTP request body debug log entry for release builds |-\|/-| 2018-10-09T11:29:01Z Merged pull request |-\|/-| 6657 +1 −2 cpp 1|-\|/-| 
+Improve logging for disconnected HTTP clients |-\|/-| 2018-10-09T10:37:42Z Merged pull request |-\|/-| 6655 +2 −1 cpp 1|-\|/-| 
+added csr request location and a little explanation |-\|/-| 2018-10-10T08:09:53Z Closed pull request |-\|/-| 6653 +28 −0 md 0|-\|/-| 
+Fix check_memory thresholds in 'used' mode |-\|/-| 2018-10-08T11:18:27Z Merged pull request |-\|/-| 6652 +5 −1 cpp 1|-\|/-| 
+Add 'used' feature to check_swap |-\|/-| 2018-10-09T06:36:23Z Merged pull request |-\|/-| 6651 +43 −26 md conf cpp 2|-\|/-| 
+node setup: always respect --accept-config and --accept-commands |-\|/-| 2018-10-08T11:12:03Z Merged pull request |-\|/-| 6647 +12 −6 cpp 1|-\|/-| 
+Update ITL and Docs for memory-windows - show used |-\|/-| 2018-10-08T14:55:10Z Merged pull request |-\|/-| 6646 +5 −0 md conf 1|-\|/-| 
+Fix that check_timeout was used for Event/Notification commands too |-\|/-| 2018-09-28T14:21:06Z Merged pull request |-\|/-| 6643 +15 −10 cpp hpp 5|-\|/-| 
+Allow to override MaxConcurrentChecks constant |-\|/-| 2018-09-28T07:34:54Z Merged pull request |-\|/-| 6642 +1 −1 cpp 1|-\|/-| 
+Explicitly close inherited FDs in Process::Run() |-\|/-| 2018-09-28T07:28:04Z Closed pull request |-\|/-| 6641 +4 −0 cpp 1|-\|/-| 
+Ensure to _unlink before renaming replay log on Windows |-\|/-| 2018-09-27T06:02:01Z Merged pull request |-\|/-| 6639 +7 −0 cpp 1|-\|/-| 
+Use a dynamic thread pool for API connections |-\|/-| 2018-09-25T15:06:41Z Merged pull request |-\|/-| 6633 +30 −5 cpp hpp 2|-\|/-| 
+Increase the cluster reconnect frequency to 10s |-\|/-| 2018-09-25T15:07:02Z Merged pull request |-\|/-| 6632 +1 −1 cpp 1|-\|/-| 
+Initialize Socket Event Engine on application startup |-\|/-| 2018-09-25T09:57:36Z Merged pull request |-\|/-| 6630 +4 −4 cpp hpp 2|-\|/-| 
+Ensure to use UTC timestamps for IDO PgSQL cleanup queries |-\|/-| 2018-09-17T09:20:50Z Merged pull request |-\|/-| 6622 +1 −1 cpp 1|-\|/-| 
+Remove unused timestamp function in DB IDO |-\|/-| 2018-09-17T09:16:48Z Merged pull request |-\|/-| 6621 +0 −21 cpp hpp 4|-\|/-| 
+Limit parallel TLS connections |-\|/-| 2018-09-25T10:50:07Z Closed pull request |-\|/-| 6619 +59 −6 cpp hpp 2|-\|/-| 
+Silence compiler warning for nice() |-\|/-| 2018-09-17T09:16:30Z Merged pull request |-\|/-| 6618 +1 −1 cpp 1|-\|/-| 
+Add ApiListener#tls_handshake_timeout option |-\|/-| 2018-09-17T09:20:13Z Merged pull request |-\|/-| 6616 +57 −3 md cpp hpp ti 7|-\|/-| 
+Update distributed monitoring docs for 2.10 |-\|/-| 2018-09-13T16:37:46Z Merged pull request |-\|/-| 6615 +234 −168 0|-\|/-| 
+WIP: Limit parallel TLS connections |-\|/-| 2018-09-13T14:42:30Z Closed pull request |-\|/-| 6613 +35 −7 cpp hpp 2|-\|/-| 
+Add "TLS Network IO" into technical concepts docs |-\|/-| 2018-09-13T11:10:36Z Merged pull request |-\|/-| 6610 +195 −0 md 0|-\|/-| 
+Enhance development docs with GDB backtrace and thread list |-\|/-| 2018-09-12T10:40:17Z Merged pull request |-\|/-| 6607 +14 −1 md 0|-\|/-| 
+Enhance contributing docs |-\|/-| 2018-09-11T08:55:36Z Merged pull request |-\|/-| 6606 +23 −20 md 0|-\|/-| 
+Improve TLS handshake exception logging |-\|/-| 2018-09-06T15:01:23Z Merged pull request |-\|/-| 6602 +8 −6 cpp hpp 5|-\|/-| 
+Add doc for the config compiler |-\|/-| 2018-10-17T08:17:51Z Closed pull request |-\|/-| 6601 +14 −1 md 0|-\|/-| 
+doc/09-object-types: states filter ignored for Acknowledgements |-\|/-| 2018-09-06T08:40:40Z Merged pull request |-\|/-| 6598 +1 −1 md 0|-\|/-| 
+Add Fedora to development docs for debuginfo packages |-\|/-| 2018-09-06T08:40:11Z Merged pull request |-\|/-| 6597 +4 −0 md 0|-\|/-| 
+Fix crash on API queries with Fedora 28 hardening and GCC 8 |-\|/-| 2018-09-11T18:44:13Z Merged pull request |-\|/-| 6596 +24 −19 cpp 1|-\|/-| 
+Allow to configure anonymous clients limit inside the ApiListener object |-\|/-| 2018-09-06T11:26:47Z Merged pull request |-\|/-| 6595 +22 −6 md cpp ti 3|-\|/-| 
+Replace Load Dependency with Load Priority |-\|/-| 2019-06-05T13:10:24Z Closed pull request |-\|/-| 6594 +112 −178 cpp hpp ti 15|-\|/-| 
+Fix static initializer priority for namespaces in LTO builds |-\|/-| 2018-09-04T14:54:31Z Merged pull request |-\|/-| 6591 +22 −4 hpp cpp 9|-\|/-| 
+Update workaround for custom vars |-\|/-| 2018-09-04T14:41:56Z Merged pull request |-\|/-| 6590 +6 −4 md 0|-\|/-| 
+Fix using full path in prepare-dirs/safe-reload scripts |-\|/-| 2018-09-04T09:04:03Z Merged pull request |-\|/-| 6588 +4 −4 cmake 2|-\|/-| 
+Fix non-unity builds on CentOS 7 with std::shared_ptr |-\|/-| 2018-09-03T13:47:46Z Merged pull request |-\|/-| 6586 +1 −0 hpp 1|-\|/-| 
+Update PostgreSQL library path variable in INSTALL.md |-\|/-| 2018-09-03T13:48:55Z Merged pull request |-\|/-| 6583 +1 −1 md 0|-\|/-| 
+Shuffle items before config validation |-\|/-| 2018-09-04T09:15:14Z Merged pull request |-\|/-| 6581 +6 −0 cpp 1|-\|/-| 
+WIP: Merge adjacent downtime segments |-\|/-| 2019-11-14T12:17:13Z Closed pull request |-\|/-| 6579 +177 −20 cpp hpp 4|-\|/-| 
+Include api user configuration file during api setup |-\|/-| 2019-02-11T15:41:47Z Merged pull request |-\|/-| 6577 +53 −0 cpp hpp 3|-\|/-| 
+Move new downtime constants into the Icinga namespace |-\|/-| 2018-09-03T07:28:17Z Merged pull request |-\|/-| 6574 +3 −3 cpp 1|-\|/-| 
+Fix operator precedence table |-\|/-| 2018-09-11T07:12:16Z Merged pull request |-\|/-| 6573 +32 −32 md 0|-\|/-| 
+Add note about workaround for broken custom vars |-\|/-| 2018-08-24T09:25:08Z Merged pull request |-\|/-| 6572 +16 −0 md 0|-\|/-| 
+Increase limit for simultaneously connected anonymous TLS clients |-\|/-| 2018-08-23T15:13:41Z Merged pull request |-\|/-| 6570 +1 −1 cpp 1|-\|/-| 
+Ensure that config object types are committed in dependent load order |-\|/-| 2018-09-04T11:39:41Z Merged pull request |-\|/-| 6568 +76 −12 cpp 1|-\|/-| 
+ApiListener: Dump the state file port detail as number |-\|/-| 2018-08-22T12:04:15Z Merged pull request |-\|/-| 6567 +1 −1 cpp 1|-\|/-| 
+[Feature] Cloudera service health CheckCommand |-\|/-| 2018-08-22T10:39:57Z Merged pull request |-\|/-| 6563 +88 −1 md txt conf 1|-\|/-| 
+[Feature] Ceph health CheckCommand |-\|/-| 2018-08-22T10:51:50Z Merged pull request |-\|/-| 6561 +64 −0 md conf 1|-\|/-| 
+Ensure committing object types on load order |-\|/-| 2018-08-22T13:10:01Z Closed pull request |-\|/-| 6560 +76 −12 cpp 1|-\|/-| 
+socket/apilistener: Use integer for service identification |-\|/-| 2018-08-22T10:59:27Z Closed pull request |-\|/-| 6558 +12 −12 cpp hpp 3|-\|/-| 
+windows: Allow suppression of extra actions in the MSI package |-\|/-| 2018-08-22T11:03:25Z Merged pull request |-\|/-| 6556 +7 −7 cmake 1|-\|/-| 
+Overridden path constants not passed to config validation in /v1/config/stages API call |-\|/-| 2018-09-28T07:31:08Z Merged pull request |-\|/-| 6546 +15 −4 cpp 1|-\|/-| 
+Remove #include for deprecated header file |-\|/-| 2018-08-22T09:50:26Z Merged pull request |-\|/-| 6544 +1 −1 cpp 1|-\|/-| 
+Build fix for CentOS 7 and non-unity builds |-\|/-| 2018-08-09T15:06:46Z Merged pull request |-\|/-| 6539 +1 −0 hpp 1|-\|/-| 
+SerializeStack::Push(): make == type-safe |-\|/-| 2018-08-09T15:06:28Z Closed pull request |-\|/-| 6538 +1 −1 cpp 1|-\|/-| 
+Add child_options to ScheduledDowntime |-\|/-| 2018-08-24T13:14:59Z Merged pull request |-\|/-| 6532 +95 −11 md cpp hpp ti 6|-\|/-| 
+Expose Zone#all_parents via API |-\|/-| 2018-08-09T11:11:23Z Merged pull request |-\|/-| 6531 +18 −3 cpp hpp ti 4|-\|/-| 
+IDO/MySQL: avoid empty queries |-\|/-| 2018-08-08T12:41:58Z Merged pull request |-\|/-| 6530 +4 −3 cpp 1|-\|/-| 
+WIP: Implement db_connect functionality |-\|/-| 2018-08-08T08:24:31Z Closed pull request |-\|/-| 6529 +185 −0 txt cpp hpp 2|-\|/-| 
+Document default of User#enable_notifications |-\|/-| 2018-08-07T14:08:59Z Merged pull request |-\|/-| 6528 +1 −1 md 0|-\|/-| 
+Acknowledgment notifications should only be send if problem notification has been send |-\|/-| 2018-09-12T15:27:20Z Merged pull request |-\|/-| 6527 +46 −2 md cpp 1|-\|/-| 
+icinga::PackObject(): shorten conversion to string |-\|/-| 2018-08-07T08:05:19Z Merged pull request |-\|/-| 6526 +1 −3 cpp 1|-\|/-| 
+Implement references |-\|/-| 2018-08-07T10:00:20Z Merged pull request |-\|/-| 6521 +251 −0 md txt cpp hpp yy 6|-\|/-| 
+Reset terminal on erroneous console exit |-\|/-| 2018-09-13T11:34:59Z Merged pull request |-\|/-| 6519 +13 −0 cpp hpp 2|-\|/-| 
+Implement GetAllParents() with level support |-\|/-| 2018-08-08T12:39:13Z Closed pull request |-\|/-| 6518 +29 −6 cpp hpp ti 4|-\|/-| 
+Refactor environment for API connections |-\|/-| 2018-08-10T11:15:48Z Merged pull request |-\|/-| 6512 +109 −18 md cpp txt hpp ti 8|-\|/-| 
+ApiListener: Add support for dynamic port handling |-\|/-| 2018-08-09T10:09:23Z Merged pull request |-\|/-| 6511 +104 −28 md cpp hpp ti 5|-\|/-| 
+Update windows build scripts |-\|/-| 2018-08-24T12:31:58Z Merged pull request |-\|/-| 6510 +111 −54 gitignore yml ps1 6|-\|/-| 
+Implement support for namespaces |-\|/-| 2018-08-24T10:10:10Z Merged pull request |-\|/-| 6509 +2,043 −675 md cpp itl/hangman 2|-\|/-| 
+Implement the Dictionary#clear script function |-\|/-| 2018-08-02T08:30:09Z Merged pull request |-\|/-| 6508 +17 −0 md cpp 1|-\|/-| 
+Improve path handling in cmake and daemon |-\|/-| 2018-08-08T07:48:31Z Merged pull request |-\|/-| 6506 +616 −763 yml txt md cmake 4|-\|/-| 
+Fix clusterzonecheck if not connected |-\|/-| 2018-08-01T09:00:53Z Merged pull request |-\|/-| 6505 +13 −13 cpp 1|-\|/-| 
+squashfs ignored |-\|/-| 2018-08-02T08:37:44Z Merged pull request |-\|/-| 6504 +3 −2 md conf 1|-\|/-| 
+Reduce the log level for missing env macros to debug |-\|/-| 2018-10-08T12:09:19Z Merged pull request |-\|/-| 6503 +8 −1 cpp 1|-\|/-| 
+Update 17-language-reference.md |-\|/-| 2018-08-24T12:37:01Z Merged pull request |-\|/-| 6502 +2 −2 md 0|-\|/-| 
+Update 03-monitoring-basics.md |-\|/-| 2018-08-24T12:36:46Z Merged pull request |-\|/-| 6501 +1 −1 md 0|-\|/-| 
+Implemented `ca remove` cli command + documentation. |-\|/-| 2019-06-07T09:30:43Z Merged pull request |-\|/-| 6500 +327 −9 md txt cpp hpp 5|-\|/-| 
+Fix regression with MatchAny false conditions on match/regex/cidr_match |-\|/-| 2018-07-27T15:28:14Z Merged pull request |-\|/-| 6498 +6 −3 cpp 1|-\|/-| 
+Improve error logging for match/regex/cidr_match functions and unsupported dictionary usage |-\|/-| 2018-07-27T15:26:13Z Merged pull request |-\|/-| 6497 +15 −3 cpp 1|-\|/-| 
+Test PackObject |-\|/-| 2018-07-27T13:47:03Z Merged pull request |-\|/-| 6494 +289 −0 txt cpp 1|-\|/-| 
+Feature/itl vmware health |-\|/-| 2018-07-27T09:50:18Z Merged pull request |-\|/-| 6491 +8 −0 md conf 1|-\|/-| 
+Revert "Implement support for the --env command-line argument" |-\|/-| 2018-07-26T15:19:05Z Merged pull request |-\|/-| 6490 +27 −211 md cpp cmake hpp 9|-\|/-| 
+Implement object packer for consistent hashing |-\|/-| 2018-07-27T10:49:29Z Merged pull request |-\|/-| 6489 +304 −0 txt cpp hpp 2|-\|/-| 
+Fix typo with the CheckCommand cert |-\|/-| 2018-07-27T09:50:57Z Merged pull request |-\|/-| 6488 +1 −1 md 0|-\|/-| 
+Fix "Discard" message being warning |-\|/-| 2018-07-26T07:52:34Z Merged pull request |-\|/-| 6487 +1 −1 cpp 1|-\|/-| 
+Modify windows check_update command to allow specifying thresholds. |-\|/-| 2018-11-13T15:40:27Z Merged pull request |-\|/-| 6480 +45 −33 md conf cpp 2|-\|/-| 
+SocketEvents: inherit from Stream |-\|/-| 2018-11-12T16:06:38Z Merged pull request |-\|/-| 6479 +18 −23 cpp hpp 6|-\|/-| 
+Reduced the log level for undefined macros to debug |-\|/-| 2018-07-29T13:01:43Z Closed pull request |-\|/-| 6478 +701 −294 AUTHORS md VERSION conf txt cpp 6|-\|/-| 
+lib->compat->statusdatawriter: fix notifications_enabled |-\|/-| 2018-07-26T08:03:57Z Merged pull request |-\|/-| 6475 +1 −1 cpp 1|-\|/-| 
+Make SocketEventDescriptor#LifesupportObject an Object::Ptr |-\|/-| 2018-10-31T11:50:28Z Closed pull request |-\|/-| 6472 +1 −1 hpp 1|-\|/-| 
+Fix spelling errors. |-\|/-| 2018-07-23T15:59:45Z Merged pull request |-\|/-| 6470 +11 −11 cpp h 9|-\|/-| 
+Fix Windows Agent resize behavior |-\|/-| 2018-08-22T10:49:45Z Merged pull request |-\|/-| 6469 +7 −1 cs 2|-\|/-| 
+Start and stop the timer thread lazily |-\|/-| 2018-07-23T09:35:49Z Merged pull request |-\|/-| 6467 +33 −2 cpp hpp 2|-\|/-| 
+Fix debug build log entry for ConfigItem activation priority |-\|/-| 2018-07-26T07:57:20Z Merged pull request |-\|/-| 6458 +1 −1 cpp 1|-\|/-| 
+Ensure that timer thread is initialized after Daemonize() |-\|/-| 2018-07-19T11:45:54Z Merged pull request |-\|/-| 6457 +20 −21 cpp hpp te 5|-\|/-| 
+Keep notes for immediately log flushing |-\|/-| 2018-07-26T07:58:59Z Merged pull request |-\|/-| 6456 +5 −0 cpp 1|-\|/-| 
+Log something when the Filelogger has been started |-\|/-| 2018-07-26T08:01:07Z Merged pull request |-\|/-| 6455 +3 −0 cpp 1|-\|/-| 
+Daemonize(): reset the child process once, immediately |-\|/-| 2018-09-05T08:54:46Z Closed pull request |-\|/-| 6454 +20 −1 cpp 1|-\|/-| 
+Fix initscripts |-\|/-| 2018-07-18T12:08:14Z Merged pull request |-\|/-| 6451 +9 −9 cmake 3|-\|/-| 
+SELinux: allow systemd notify |-\|/-| 2018-07-18T07:26:16Z Merged pull request |-\|/-| 6444 +2 −1 te 1|-\|/-| 
+Fix typo |-\|/-| 2018-07-26T07:59:21Z Merged pull request |-\|/-| 6440 +1 −1 cpp 1|-\|/-| 
+Revert "Fix obsolete parameter in Systemd script" |-\|/-| 2018-07-17T12:13:51Z Merged pull request |-\|/-| 6439 +2 −2 cmake 1|-\|/-| 
+Update tested Elasticsearch version |-\|/-| 2018-07-16T14:45:58Z Merged pull request |-\|/-| 6436 +4 −1 md 0|-\|/-| 
+Add note on sysconfig shell variables for Systemd to the Upgrading docs |-\|/-| 2018-07-16T12:25:12Z Merged pull request |-\|/-| 6435 +19 −0 md 0|-\|/-| 
+Docs: Fix typos in 03-monitoring-basics.md |-\|/-| 2018-07-16T07:41:39Z Merged pull request |-\|/-| 6433 +1 −1 md 0|-\|/-| 
+Fix negative 'empty in' value in WorkQueue log message |-\|/-| 2018-07-26T07:59:54Z Merged pull request |-\|/-| 6430 +2 −1 cpp 1|-\|/-| 
+Make HttpServerConnection#m_DataHandlerMutex a boost::recursive_mutex |-\|/-| 2018-07-09T14:58:52Z Merged pull request |-\|/-| 6429 +4 −3 cpp hpp 2|-\|/-| 
+Improve error message for serializing objects with recursive references |-\|/-| 2018-08-03T09:03:43Z Merged pull request |-\|/-| 6427 +108 −10 cpp hpp 3|-\|/-| 
+Update 'Upgrading to 2.9' docs |-\|/-| 2018-07-04T08:58:31Z Merged pull request |-\|/-| 6426 +60 −4 md 0|-\|/-| 
+Fix missing next check update causing the scheduler to execute checks too often |-\|/-| 2018-07-02T15:08:48Z Merged pull request |-\|/-| 6423 +27 −2 cpp 2|-\|/-| 
+Add support for using the 'in' operator for substring checks |-\|/-| 2018-06-27T08:38:56Z Closed pull request |-\|/-| 6416 +24 −10 md cpp 2|-\|/-| 
+Implement support for the --env command-line argument |-\|/-| 2018-07-26T08:09:43Z Merged pull request |-\|/-| 6414 +211 −27 md cpp cmake hpp 9|-\|/-| 
+Fix table in Livestatus Filters |-\|/-| 2018-06-25T11:41:25Z Merged pull request |-\|/-| 6413 +1 −1 md 0|-\|/-| 
+Fix output formatting in windows plugins |-\|/-| 2018-06-26T07:54:44Z Merged pull request |-\|/-| 6412 +24 −4 cpp hpp 4|-\|/-| 
+Windows: Conform to the Plugin API spec for performance label quoting |-\|/-| 2018-06-25T14:55:59Z Merged pull request |-\|/-| 6411 +28 −27 cpp 10|-\|/-| 
+Remove unused code |-\|/-| 2018-07-27T13:56:52Z Merged pull request |-\|/-| 6410 +0 −256 cpp hpp 2|-\|/-| 
+ObjectLock#Unlock(): don't reset m_Object->m_LockOwner too early |-\|/-| 2018-07-26T08:02:26Z Merged pull request |-\|/-| 6408 +7 −3 hpp cpp 2|-\|/-| 
+Fix wrong UOM in check_uptime windows plugin |-\|/-| 2018-06-26T12:09:31Z Merged pull request |-\|/-| 6407 +50 −9 cpp hpp 3|-\|/-| 
+TcpSocket#Bind(): reuse socket addresses on Windows, too |-\|/-| 2018-06-22T10:25:30Z Merged pull request |-\|/-| 6405 +0 −2 cpp 1|-\|/-| 
+Conform to RFC for CRLF in HTTP requests |-\|/-| 2018-06-21T15:08:17Z Merged pull request |-\|/-| 6403 +3 −3 cpp 1|-\|/-| 
+Use SSL_pending() for remaining TLS stream data |-\|/-| 2018-06-21T14:43:04Z Merged pull request |-\|/-| 6402 +20 −1 cpp 1|-\|/-| 
+Fix connection error handling in Elasticsearch and InfluxDB features |-\|/-| 2018-06-21T13:53:34Z Merged pull request |-\|/-| 6401 +22 −2 cpp 2|-\|/-| 
+Enhance debug logging for check_nscp_api |-\|/-| 2018-06-21T13:28:25Z Merged pull request |-\|/-| 6400 +12 −3 cpp 1|-\|/-| 
+Docs: Notification Troubleshooitng: Host/Service |-\|/-| 2018-07-03T09:33:14Z Closed pull request |-\|/-| 6398 +13 −0 md 0|-\|/-| 
+TlsStream#IsEof(): fix false positive EOF indicator |-\|/-| 2018-06-21T13:04:56Z Merged pull request |-\|/-| 6397 +1 −1 cpp 1|-\|/-| 
+Stream#ReadLine(): fix false positive buffer underflow indicator |-\|/-| 2018-06-21T13:06:22Z Merged pull request |-\|/-| 6393 +7 −19 cpp 1|-\|/-| 
+Rewrite check_nscp_api and fix TLS stream/HTTP request problems |-\|/-| 2018-06-21T13:02:41Z Closed pull request |-\|/-| 6392 +155 −59 cpp 3|-\|/-| 
+Docs: Fix icinga.com link |-\|/-| 2018-06-19T16:02:18Z Merged pull request |-\|/-| 6391 +1 −1 md 0|-\|/-| 
+Docs: Update Windows wizard images |-\|/-| 2018-06-19T16:04:19Z Merged pull request |-\|/-| 6390 +1 −0 md png 4|-\|/-| 
+New ITL command nscp-local-tasksched |-\|/-| 2018-06-27T10:47:13Z Merged pull request |-\|/-| 6389 +84 −0 md conf 1|-\|/-| 
+Remove ApiUser password_hash functionality |-\|/-| 2018-06-19T12:26:33Z Merged pull request |-\|/-| 6387 +8 −298 md cpp hpp txt ti 7|-\|/-| 
+Fix that TimePeriod segments are not cleared on restart |-\|/-| 2018-07-26T08:02:47Z Merged pull request |-\|/-| 6386 +3 −1 cpp 1|-\|/-| 
+Remove leftover for sysconfig file parsing |-\|/-| 2018-06-19T06:49:25Z Merged pull request |-\|/-| 6384 +0 −32 cpp hpp 3|-\|/-| 
+HttpRequest#ParseBody(): indicate success on complete body |-\|/-| 2018-06-18T14:43:41Z Merged pull request |-\|/-| 6383 +3 −3 cpp 1|-\|/-| 
+Fix sysconfig not being handled correctly by sysvinit |-\|/-| 2018-06-21T13:36:11Z Merged pull request |-\|/-| 6381 +22 −2 cmake 3|-\|/-| 
+Throw config error when using global zones as parent |-\|/-| 2018-07-26T08:01:46Z Merged pull request |-\|/-| 6379 +3 −0 cpp 1|-\|/-| 
+Fix missing name for workqueue while creating runtime objects via API |-\|/-| 2018-06-15T12:32:36Z Merged pull request |-\|/-| 6377 +2 −0 cpp 1|-\|/-| 
+some minor fixes in the flapping documentation |-\|/-| 2018-06-15T12:32:17Z Merged pull request |-\|/-| 6375 +2 −3 md 0|-\|/-| 
+Docs: Add an additional note for VMWare timeouts on Ubuntu 16.04 LTS |-\|/-| 2018-06-15T12:31:44Z Merged pull request |-\|/-| 6374 +2 −0 md 0|-\|/-| 
+Drop command template imports for versions < 2.6 in the docs |-\|/-| 2018-06-15T09:03:25Z Merged pull request |-\|/-| 6373 +0 −12 md 0|-\|/-| 
+Remove the import of 'legacy-timeperiod' in the docs |-\|/-| 2018-06-15T08:52:59Z Merged pull request |-\|/-| 6372 +89 −101 md 0|-\|/-| 
+ApiListener#NewClientHandlerInternal(): Explicitly close the TLS stream on any failure |-\|/-| 2018-06-15T12:35:49Z Merged pull request |-\|/-| 6371 +4 −0 cpp 1|-\|/-| 
+Set correct utf-8 email subject header (RFC1342) |-\|/-| 2019-11-14T12:14:21Z Merged pull request |-\|/-| 6369 +9 −7 sh 2|-\|/-| 
+Fix program option parsing |-\|/-| 2018-06-15T14:09:14Z Merged pull request |-\|/-| 6368 +1 −1 cpp 1|-\|/-| 
+Revert "Fix Windows reload" |-\|/-| 2018-06-14T08:37:36Z Merged pull request |-\|/-| 6367 +1 −41 cpp 2|-\|/-| 
+Fix ScheduledDowntimes replicating on restart |-\|/-| 2018-06-08T14:26:47Z Merged pull request |-\|/-| 6359 +7 −0 cpp ti 2|-\|/-| 
+Increase header size to 8KB for HTTP requests |-\|/-| 2018-06-07T09:00:10Z Merged pull request |-\|/-| 6357 +10 −2 md cpp 1|-\|/-| 
+Fix logging under systemd |-\|/-| 2018-09-04T13:24:44Z Merged pull request |-\|/-| 6356 +55 −26 md cmake cpp 3|-\|/-| 
+Fix reload on Windows |-\|/-| 2018-06-12T11:46:42Z Closed pull request |-\|/-| 6353 +104 −6 cpp 3|-\|/-| 
+clarify the permision system of the api in the docs |-\|/-| 2018-06-05T14:34:13Z Merged pull request |-\|/-| 6350 +4 −2 md 0|-\|/-| 
+Fix for catalogued locally databases. Fixes #6338 |-\|/-| 2018-06-28T12:40:54Z Merged pull request |-\|/-| 6348 +4 −1 md conf 1|-\|/-| 
+SELinux: Allow notification plugins to read local users … |-\|/-| 2018-06-04T13:50:36Z Merged pull request |-\|/-| 6347 +9 −2 te 1|-\|/-| 
+README: Fix broken community link |-\|/-| 2018-05-30T11:57:42Z Merged pull request |-\|/-| 6344 +1 −1 md 0|-\|/-| 
+Fix that checks with command_endpoint don't return any check results |-\|/-| 2018-06-07T09:42:41Z Merged pull request |-\|/-| 6343 +4 −1 cpp 1|-\|/-| 
+Fix unnecessary blank in log message |-\|/-| 2018-05-25T07:08:39Z Merged pull request |-\|/-| 6336 +1 −1 cpp 1|-\|/-| 
+Fix $ipaddress6$ attribute name typo in the docs |-\|/-| 2018-05-24T07:56:29Z Merged pull request |-\|/-| 6330 +1 −1 md 0|-\|/-| 
+Rework sysconfig file/startup environment |-\|/-| 2018-06-05T11:27:37Z Merged pull request |-\|/-| 6328 +98 −136 txt cmake cpp hpp 8|-\|/-| 
+Use pseudo random bytes for RandomString |-\|/-| 2018-09-13T12:39:52Z Closed pull request |-\|/-| 6325 +3 −3 cpp 1|-\|/-| 
+Ensure that password hash generation from OpenSSL is atomic |-\|/-| 2018-05-23T09:25:54Z Merged pull request |-\|/-| 6324 +8 −0 cpp 1|-\|/-| 
+Update log message for skipped certificate renewal |-\|/-| 2018-05-22T07:22:01Z Merged pull request |-\|/-| 6321 +2 −2 cpp 1|-\|/-| 
+Ensure that icinga_min_version parameter is optional |-\|/-| 2018-05-18T14:30:11Z Merged pull request |-\|/-| 6320 +4 −2 cpp 1|-\|/-| 
+Add a note on Windows NSClient++ CPU checks to the docs |-\|/-| 2018-05-18T08:46:34Z Merged pull request |-\|/-| 6317 +12 −0 md 0|-\|/-| 
+Fix wrong calculation of check_swap windows plugin |-\|/-| 2018-09-27T08:08:48Z Merged pull request |-\|/-| 6313 +29 −7 cpp 1|-\|/-| 
+Bugfixing Timeperiods |-\|/-| 2018-06-19T08:29:28Z Merged pull request |-\|/-| 6311 +3 −1 cpp 1|-\|/-| 
+Fix compiler warning in checkercomponent.ti |-\|/-| 2018-05-16T08:42:32Z Merged pull request |-\|/-| 6309 +1 −1 ti 1|-\|/-| 
+Update lsi-raid ITL command |-\|/-| 2018-06-27T10:45:09Z Merged pull request |-\|/-| 6308 +103 −6 md conf 1|-\|/-| 
+Adjust message for CheckResultReader deprecation |-\|/-| 2018-05-15T12:05:17Z Merged pull request |-\|/-| 6306 +4 −2 md cpp 1|-\|/-| 
+Introduce the 'Environment' variable |-\|/-| 2018-05-15T12:04:51Z Merged pull request |-\|/-| 6305 +12 −2 md cpp 3|-\|/-| 
+Fix for logrotate on error.log |-\|/-| 2018-07-03T09:37:12Z Closed pull request |-\|/-| 6303 +1 −2 cmake 1|-\|/-| 
+Adjust deprecation removal for compat features |-\|/-| 2018-05-14T14:04:33Z Merged pull request |-\|/-| 6301 +4 −4 md cpp 2|-\|/-| 
+Change log level for failed event command execution |-\|/-| 2018-05-11T13:55:15Z Merged pull request |-\|/-| 6299 +1 −1 cpp 1|-\|/-| 
+Execute event commands only on actively checked host/service objects in an HA zone |-\|/-| 2018-05-11T11:13:38Z Merged pull request |-\|/-| 6297 +8 −1 cpp 1|-\|/-| 
+Deprecate compatlog feature |-\|/-| 2018-05-09T15:52:56Z Merged pull request |-\|/-| 6295 +10 −2 md cpp 2|-\|/-| 
+Ensure that group memberships on API object creation are unique |-\|/-| 2018-05-09T15:36:04Z Merged pull request |-\|/-| 6294 +63 −21 cpp hpp txt 8|-\|/-| 
+Fix problem with reminder notifications if the checkable is flapping |-\|/-| 2018-05-17T11:52:29Z Merged pull request |-\|/-| 6292 +2 −1 cpp 1|-\|/-| 
+Fixed opentsdb metric name with colon chars |-\|/-| 2018-05-22T13:46:05Z Merged pull request |-\|/-| 6290 +1 −0 cpp 1|-\|/-| 
+Update release documentation with git tag signing key configuration |-\|/-| 2018-05-08T09:03:14Z Merged pull request |-\|/-| 6289 +14 −6 md 0|-\|/-| 
+Add support for config validation log timestamps |-\|/-| 2018-05-03T12:22:40Z Merged pull request |-\|/-| 6285 +11 −6 cpp hpp 4|-\|/-| 
+edit Icinga license info so that GitHub recognizes it |-\|/-| 2018-05-03T07:30:17Z Merged pull request |-\|/-| 6283 +16 −16 txt Exceptions md 1|-\|/-| 
+Revert "Implement support for ECC certificates" |-\|/-| 2018-05-03T11:34:17Z Merged pull request |-\|/-| 6281 +16 −50 cpp 1|-\|/-| 
+Revert "Implement support for ECC certificates" |-\|/-| 2018-05-02T14:55:38Z Closed pull request |-\|/-| 6280 +19 −53 cpp 1|-\|/-| 
+Implement support for template strings |-\|/-| 2019-05-10T12:59:53Z Closed pull request |-\|/-| 6276 +156 −13 cpp hpp ll yy 7|-\|/-| 
+Bash completion/environment on startup |-\|/-| 2018-07-03T09:41:37Z Closed pull request |-\|/-| 6275 +70 −63 cpp 1|-\|/-| 
+Enhance advanced topics with (scheduled) downtimes |-\|/-| 2018-04-27T14:50:36Z Merged pull request |-\|/-| 6271 +54 −30 md png 1|-\|/-| 
+Add activation priority for config object types |-\|/-| 2018-05-04T09:41:59Z Merged pull request |-\|/-| 6270 +92 −8 ti cpp hpp ll yy 25|-\|/-| 
+Update docs to reflect required user* attributes for notification objects |-\|/-| 2018-04-27T09:41:15Z Merged pull request |-\|/-| 6267 +4 −3 md 0|-\|/-| 
+Enhance "Getting Started" chapter |-\|/-| 2018-04-26T11:55:06Z Merged pull request |-\|/-| 6264 +466 −301 0|-\|/-| 
+ITL: Add default thresholds to windows check commands |-\|/-| 2018-04-26T14:05:26Z Merged pull request |-\|/-| 6263 +17 −8 md conf 1|-\|/-| 
+Enhance the environment variables chapter |-\|/-| 2018-04-25T15:18:08Z Merged pull request |-\|/-| 6262 +44 −6 md 0|-\|/-| 
+Revert "fixup set rlimit stack failed condition" |-\|/-| 2018-04-25T12:47:02Z Merged pull request |-\|/-| 6260 +19 −20 cpp 1|-\|/-| 
+Enhance release documentation |-\|/-| 2018-04-24T13:44:00Z Merged pull request |-\|/-| 6254 +156 −49 md 0|-\|/-| 
+Doc: Add note for not fully supported Plugin collections |-\|/-| 2018-04-24T13:11:42Z Merged pull request |-\|/-| 6253 +5 −3 md 0|-\|/-| 
+Add my gpg fingerprint to release docs |-\|/-| 2018-04-23T09:37:27Z Merged pull request |-\|/-| 6251 +6 −0 md 0|-\|/-| 
+Fix typo |-\|/-| 2018-04-23T08:35:14Z Merged pull request |-\|/-| 6250 +1 −1 cpp 1|-\|/-| 
+Remove '-n' option from check_swap |-\|/-| 2018-04-23T08:31:43Z Closed pull request |-\|/-| 6249 +0 −5 md conf 1|-\|/-| 
+Propagate Downtimes to Hosts: API/ExternalCommand |-\|/-| 2019-11-14T12:04:18Z Closed pull request |-\|/-| 6244 +109 −7 md cpp hpp 4|-\|/-| 
+Update PostgreSQL documentation |-\|/-| 2018-04-25T09:00:36Z Merged pull request |-\|/-| 6243 +1 −4 md 0|-\|/-| 
+Fix Sysconfig file detection for Icinga 2 settings |-\|/-| 2018-04-19T09:17:38Z Merged pull request |-\|/-| 6241 +22 −5 txt cpp 3|-\|/-| 
+Fix Windows check_memory rounding |-\|/-| 2018-05-04T14:38:22Z Merged pull request |-\|/-| 6239 +2 −2 cpp 1|-\|/-| 
+Implement better way to check parameters in notification scripts |-\|/-| 2018-05-03T13:37:00Z Merged pull request |-\|/-| 6238 +14 −15 sh 2|-\|/-| 
+Add TLS support for DB IDO PostgreSQL feature |-\|/-| 2018-04-24T14:02:40Z Merged pull request |-\|/-| 6236 +52 −18 md cpp ti hpp 4|-\|/-| 
+Unbreak build against Boost 1.67 |-\|/-| 2018-04-16T07:36:45Z Merged pull request |-\|/-| 6230 +3 −3 cpp 3|-\|/-| 
+Don't use shell variables in sysconfig |-\|/-| 2018-04-17T07:08:04Z Merged pull request |-\|/-| 6229 +5 −5 cmake 1|-\|/-| 
+Fix missing anchors in CLI commands chapter |-\|/-| 2018-04-12T17:13:59Z Merged pull request |-\|/-| 6227 +2 −2 md 0|-\|/-| 
+Fix broken SELinux anchor in the documentation |-\|/-| 2018-04-12T17:01:44Z Merged pull request |-\|/-| 6226 +1 −1 md 0|-\|/-| 
+Update volatile docs |-\|/-| 2018-04-12T17:02:08Z Merged pull request |-\|/-| 6224 +19 −16 md 0|-\|/-| 
+Add support for Elasticsearch 6 |-\|/-| 2018-04-17T13:05:01Z Merged pull request |-\|/-| 6219 +14 −10 md cpp 1|-\|/-| 
+attempt to fix issue #5277 |-\|/-| 2018-04-12T12:50:12Z Merged pull request |-\|/-| 6218 +5 −6 cpp 1|-\|/-| 
+Fix check behavior on restart |-\|/-| 2018-04-17T18:59:04Z Merged pull request |-\|/-| 6217 +19 −6 cpp 4|-\|/-| 
+Unify zone name settings in node setup/wizard; add connection-less mode for node setup |-\|/-| 2018-04-11T18:10:41Z Merged pull request |-\|/-| 6209 +290 −114 md 0|-\|/-| 
+Fix multiple parameter problems for check_nscp_api |-\|/-| 2018-04-09T08:07:05Z Merged pull request |-\|/-| 6207 +26 −4 cpp hpp 4|-\|/-| 
+Add ApplicationVersion built-in constant |-\|/-| 2018-04-06T12:14:17Z Merged pull request |-\|/-| 6206 +3 −0 md cpp 1|-\|/-| 
+API: Unify verbose error messages |-\|/-| 2018-04-17T14:40:12Z Merged pull request |-\|/-| 6205 +191 −79 md cpp hpp 8|-\|/-| 
+API: Check if objects exists and return proper error message |-\|/-| 2018-04-06T10:47:32Z Merged pull request |-\|/-| 6204 +7 −0 cpp 1|-\|/-| 
+Add docs for script debugger and API filters |-\|/-| 2018-04-05T19:02:20Z Merged pull request |-\|/-| 6203 +53 −0 md 0|-\|/-| 
+Use VERSION instead of icinga2.spec |-\|/-| 2018-04-06T06:18:04Z Merged pull request |-\|/-| 6202 +10 −31 txt md VERSION spec 2|-\|/-| 
+Handle exceptions from X509Certificate2 |-\|/-| 2018-04-06T08:56:28Z Merged pull request |-\|/-| 6201 +6 −3 cs 1|-\|/-| 
+Return 500 when no api action is successful |-\|/-| 2018-04-06T09:20:44Z Merged pull request |-\|/-| 6199 +13 −1 cpp 1|-\|/-| 
+Deprecate Statusdatawriter |-\|/-| 2018-04-05T13:32:33Z Merged pull request |-\|/-| 6198 +6 −1 md cpp 1|-\|/-| 
+Add timeout for client console |-\|/-| 2018-06-25T08:14:11Z Closed pull request |-\|/-| 6197 +12 −2 cpp 1|-\|/-| 
+Fix InfluxDB backslash escaping |-\|/-| 2018-04-05T13:27:07Z Merged pull request |-\|/-| 6196 +11 −0 cpp 1|-\|/-| 
+Fix crash in remote api console |-\|/-| 2018-04-05T13:34:48Z Merged pull request |-\|/-| 6195 +1 −1 cpp 1|-\|/-| 
+Elasticsearch/GELF: Add metric unit to performance data fields |-\|/-| 2018-04-03T15:12:30Z Merged pull request |-\|/-| 6194 +6 −0 cpp 2|-\|/-| 
+GelfWriter: Fix crash on invalid performance data metrics |-\|/-| 2018-04-03T12:52:13Z Merged pull request |-\|/-| 6193 +1 −0 cpp 1|-\|/-| 
+Elasticsearch: Fix crash with invalid performance data metrics |-\|/-| 2018-04-03T12:51:03Z Merged pull request |-\|/-| 6192 +1 −0 cpp 1|-\|/-| 
+Remove Icinga Studio Screenshots |-\|/-| 2018-03-29T13:46:36Z Merged pull request |-\|/-| 6187 +0 −0 png 2|-\|/-| 
+[WIP] Add more options to pass a password to the "icinga2 api user" command |-\|/-| 2018-07-03T09:39:57Z Closed pull request |-\|/-| 6186 +66 −4 cpp 1|-\|/-| 
+tests: Ensure IcingaApplication is initialized before adding config |-\|/-| 2018-03-26T12:45:01Z Merged pull request |-\|/-| 6181 +95 −25 txt cpp hpp 4|-\|/-| 
+Doc: fixed wrong information about defaulting |-\|/-| 2018-03-26T08:04:38Z Merged pull request |-\|/-| 6180 +1 −1 md 0|-\|/-| 
+Fix crash in api user command |-\|/-| 2018-03-23T11:31:20Z Merged pull request |-\|/-| 6179 +5 −6 cpp 1|-\|/-| 
+Doc: Fix typo in API user creation example |-\|/-| 2018-03-23T11:36:09Z Merged pull request |-\|/-| 6177 +1 −1 md 0|-\|/-| 
+hashed_password -> password_hash. Fixes #6175 |-\|/-| 2018-03-23T11:34:20Z Merged pull request |-\|/-| 6176 +1 −1 md 0|-\|/-| 
+Fix crash without CORS setting |-\|/-| 2018-03-21T19:50:49Z Merged pull request |-\|/-| 6174 +1 −1 cpp 1|-\|/-| 
+Docs: Add a note to only query the NSClient++ API from the local Icinga 2 client |-\|/-| 2018-03-21T15:04:40Z Merged pull request |-\|/-| 6172 +11 −3 md 0|-\|/-| 
+Update copyright of the Windows Agent to 2018 |-\|/-| 2018-03-21T07:55:08Z Merged pull request |-\|/-| 6171 +1 −1 cs 1|-\|/-| 
+Add option to windows installer to add global zones |-\|/-| 2018-04-03T15:19:50Z Merged pull request |-\|/-| 6170 +457 −34 cs resx csproj 4|-\|/-| 
+appveyor: Clean cache when updating appveyor.yml |-\|/-| 2018-03-17T17:41:01Z Merged pull request |-\|/-| 6169 +1 −1 yml 1|-\|/-| 
+Fix broken link in README |-\|/-| 2018-03-15T16:17:29Z Merged pull request |-\|/-| 6166 +1 −1 md 0|-\|/-| 
+Fix reload handling by updating the PID file before process overtake |-\|/-| 2018-04-03T15:18:31Z Merged pull request |-\|/-| 6163 +23 −20 cpp 2|-\|/-| 
+Replace std::vector:push_back calls with initializer list |-\|/-| 2018-03-13T08:22:11Z Merged pull request |-\|/-| 6160 +4 −16 cpp 2|-\|/-| 
+Improve error handling for empty packages in /v1/config/packages |-\|/-| 2018-03-13T08:23:02Z Merged pull request |-\|/-| 6153 +18 −2 cpp 2|-\|/-| 
+Fix ApiUser unit test |-\|/-| 2018-03-06T08:36:31Z Merged pull request |-\|/-| 6148 +4 −6 cpp 1|-\|/-| 
+Fix incorrect argument type for JsonRpc::SendMessage |-\|/-| 2018-03-06T08:01:48Z Merged pull request |-\|/-| 6147 +3 −2 hpp cpp 3|-\|/-| 
+Ensure that SetCorked() works properly |-\|/-| 2018-03-06T08:33:47Z Merged pull request |-\|/-| 6146 +22 −10 cpp 4|-\|/-| 
+Fix incorrect parameter name in the API documentation |-\|/-| 2018-03-05T08:00:09Z Merged pull request |-\|/-| 6145 +3 −3 md 0|-\|/-| 
+Documentation for multiple notes url |-\|/-| 2018-04-03T12:52:50Z Closed pull request |-\|/-| 6143 +13 −0 md 0|-\|/-| 
+itl/disk: Ignore overlay and netfs filesystems |-\|/-| 2018-03-05T07:38:00Z Merged pull request |-\|/-| 6139 +19 −3 md conf 1|-\|/-| 
+Add counter for current concurrent checks to Icinga check |-\|/-| 2018-03-01T14:47:26Z Merged pull request |-\|/-| 6136 +2 −0 cpp 1|-\|/-| 
+Limit JSON RPC message size |-\|/-| 2018-03-05T12:24:10Z Merged pull request |-\|/-| 6135 +32 −10 cpp hpp 7|-\|/-| 
+Fix incorrect HTTP content length limits |-\|/-| 2018-02-28T13:16:15Z Merged pull request |-\|/-| 6134 +28 −20 md cpp 1|-\|/-| 
+Limit the number of HTTP/JSON-RPC requests we read in parallel |-\|/-| 2018-02-28T11:48:07Z Merged pull request |-\|/-| 6133 +43 −3 cpp hpp 6|-\|/-| 
+Fix HTTP parser crash/hang |-\|/-| 2018-02-28T11:21:10Z Merged pull request |-\|/-| 6132 +17 −8 cpp hpp 4|-\|/-| 
+Log which ticket was invalid on the master |-\|/-| 2018-02-28T11:22:35Z Merged pull request |-\|/-| 6131 +1 −1 cpp 1|-\|/-| 
+Adding documentation for configurable global zones during setup |-\|/-| 2018-02-28T08:46:46Z Merged pull request |-\|/-| 6128 +19 −2 md 0|-\|/-| 
+Require systemd headers |-\|/-| 2018-02-28T08:45:06Z Merged pull request |-\|/-| 6126 +11 −0 md txt 0|-\|/-| 
+Fix description of the NotificationComponent in notification.conf |-\|/-| 2018-02-27T13:54:34Z Merged pull request |-\|/-| 6125 +1 −1 conf 1|-\|/-| 
+fixup set rlimit stack failed condition |-\|/-| 2018-03-21T08:56:48Z Merged pull request |-\|/-| 6119 +20 −19 cpp 1|-\|/-| 
+Fix Windows reload |-\|/-| 2018-02-28T11:23:54Z Merged pull request |-\|/-| 6116 +41 −1 cpp 2|-\|/-| 
+Fix incorrect size of request limits |-\|/-| 2018-02-23T13:42:26Z Merged pull request |-\|/-| 6115 +7 −7 cpp 1|-\|/-| 
+Fix typo in prepare-dirs |-\|/-| 2018-02-23T13:42:16Z Merged pull request |-\|/-| 6114 +1 −1 etc/initsystem/prepare-dirs 1|-\|/-| 
+appveyor: Disable artifacts until we use them |-\|/-| 2018-02-22T13:38:56Z Merged pull request |-\|/-| 6113 +7 −4 yml 1|-\|/-| 
+Add Upgrading to Icinga 2.8.2 chapter |-\|/-| 2018-02-22T14:10:29Z Merged pull request |-\|/-| 6111 +23 −7 md 0|-\|/-| 
+Implement support for optionally specifying the 'var' keyword in 'for' loops |-\|/-| 2018-07-26T08:05:18Z Merged pull request |-\|/-| 6110 +26 −19 md yy 1|-\|/-| 
+Add 'used' feature to check_memory |-\|/-| 2018-02-21T14:48:38Z Merged pull request |-\|/-| 6109 +35 −22 cpp h 2|-\|/-| 
+Allow MYSQL_LIB to be specified by ENV variable |-\|/-| 2018-02-26T07:09:36Z Merged pull request |-\|/-| 6107 +2 −0 cmake 1|-\|/-| 
+Fix nullptr dereferences |-\|/-| 2018-02-21T12:56:10Z Merged pull request |-\|/-| 6104 +103 −47 cpp hpp 10|-\|/-| 
+HTTP Security fixes |-\|/-| 2018-02-21T14:04:03Z Merged pull request |-\|/-| 6103 +381 −218 md cpp hpp 7|-\|/-| 
+Fix typo in Apply for Rules documentation |-\|/-| 2018-02-20T10:08:06Z Merged pull request |-\|/-| 6102 +2 −2 md 0|-\|/-| 
+Add word in operator documentation |-\|/-| 2018-02-21T08:54:53Z Merged pull request |-\|/-| 6101 +1 −1 md 0|-\|/-| 
+Clean up CORS implementation |-\|/-| 2018-03-19T15:00:37Z Merged pull request |-\|/-| 6098 +19 −23 md ti cpp 2|-\|/-| 
+Fixed URL encoding for HOSTNAME and SERVICENAME in mail notification |-\|/-| 2018-02-15T09:46:28Z Merged pull request |-\|/-| 6090 +24 −2 sh 2|-\|/-| 
+Docs: Fix bracket in notification example |-\|/-| 2018-02-14T12:06:09Z Merged pull request |-\|/-| 6089 +1 −1 md 0|-\|/-| 
+Upgrading: Make it more clear that the Director script is just an example |-\|/-| 2018-02-12T12:44:30Z Merged pull request |-\|/-| 6086 +5 −2 md 0|-\|/-| 
+Fix crash with anonymous clients on certificate signing request and storing sent bytes |-\|/-| 2018-02-09T16:30:06Z Merged pull request |-\|/-| 6085 +6 −1 cpp 1|-\|/-| 
+Fix wrong type logging in ConfigItem::Commit |-\|/-| 2018-02-09T13:57:46Z Merged pull request |-\|/-| 6083 +7 −6 cpp 1|-\|/-| 
+Document the 'ignore_on_error' attribute for object creation |-\|/-| 2018-02-06T17:10:13Z Merged pull request |-\|/-| 6080 +5 −4 md 0|-\|/-| 
+WIP: Implement AppVersion constant; add compare_version as global function |-\|/-| 2018-04-06T11:30:16Z Closed pull request |-\|/-| 6079 +80 −0 md cpp hpp 4|-\|/-| 
+Add more metrics and details to built-in 'random' check |-\|/-| 2018-02-09T13:08:50Z Merged pull request |-\|/-| 6078 +15 −4 cpp 1|-\|/-| 
+Allow to pass raw performance data in 'process-check-result' API action |-\|/-| 2018-02-06T16:40:52Z Merged pull request |-\|/-| 6077 +10 −2 md cpp 1|-\|/-| 
+Explain how to register functions in the global scope |-\|/-| 2018-02-06T12:30:45Z Merged pull request |-\|/-| 6075 +197 −114 md 0|-\|/-| 
+Fix the explanation of `types` and `states` for user objects |-\|/-| 2018-02-05T06:50:54Z Merged pull request |-\|/-| 6068 +2 −2 md 0|-\|/-| 
+Improve Windows builds and testing |-\|/-| 2018-02-13T07:11:11Z Merged pull request |-\|/-| 6067 +329 −22 gitignore md yml txt cpp ps1 7|-\|/-| 
+Deprecate CheckResultReader |-\|/-| 2018-02-05T06:54:52Z Merged pull request |-\|/-| 6063 +5 −0 md cpp 1|-\|/-| 
+Remove the obsolete 'make-agent-config.py' script |-\|/-| 2018-02-02T06:40:57Z Merged pull request |-\|/-| 6062 +0 −68 py 1|-\|/-| 
+Remove jenkins test scripts |-\|/-| 2018-02-02T10:26:03Z Merged pull request |-\|/-| 6061 +0 −3,055 test/jenkins/README test sh 4|-\|/-| 
+Remove Icinga development docker scripts |-\|/-| 2018-02-02T10:27:16Z Merged pull request |-\|/-| 6060 +0 −64 gitignore tools/docker/README tools/docker/clean tools/docker/docker/build tools/docker/run 5|-\|/-| 
+Remove Icinga Studio |-\|/-| 2018-02-02T10:35:42Z Merged pull request |-\|/-| 6059 +1 −3,295 txt md 0|-\|/-| 
+Clean up the Icinga plugins a bit |-\|/-| 2018-03-19T14:57:58Z Merged pull request |-\|/-| 6058 +1,226 −1,612 txt 0|-\|/-| 
+methods: Remove unused clrchecktask feature |-\|/-| 2018-02-01T19:18:33Z Merged pull request |-\|/-| 6055 +0 −308 cs txt cpp hpp 3|-\|/-| 
+WIP: doc: Add Windows build instructions |-\|/-| 2018-02-04T13:43:26Z Closed pull request |-\|/-| 6053 +101 −0 md 0|-\|/-| 
+Set FOLDER cmake property for the icingaloader target |-\|/-| 2018-02-26T07:27:42Z Merged pull request |-\|/-| 6051 +5 −0 txt 0|-\|/-| 
+Replace boost::algorithm::split calls with String::Split |-\|/-| 2018-02-26T07:37:47Z Merged pull request |-\|/-| 6050 +0 −1 cpp 1|-\|/-| 
+Move the "passive" check command to command-icinga.conf |-\|/-| 2018-02-01T10:22:11Z Merged pull request |-\|/-| 6045 +18 −18 md conf 2|-\|/-| 
+Implement support for frozen arrays and dictionaries |-\|/-| 2018-01-31T08:34:18Z Merged pull request |-\|/-| 6044 +98 −2 md cpp hpp 6|-\|/-| 
+WIP: Remove the ITL from the Icinga 2 code tree |-\|/-| 2019-11-14T12:02:45Z Closed pull request |-\|/-| 6042 +56 −14,101 yml txt md conf 2|-\|/-| 
+Improve location info for some error messages |-\|/-| 2018-01-29T12:12:36Z Merged pull request |-\|/-| 6039 +3 −3 yy 1|-\|/-| 
+Fix missing include for boost::split |-\|/-| 2018-01-29T05:31:44Z Merged pull request |-\|/-| 6038 +1 −0 cpp 1|-\|/-| 
+Fix build error on Windows |-\|/-| 2018-01-29T07:28:19Z Merged pull request |-\|/-| 6037 +2 −0 cpp 1|-\|/-| 
+Fix missing include |-\|/-| 2018-01-27T12:29:43Z Merged pull request |-\|/-| 6036 +2 −0 cpp hpp 2|-\|/-| 
+ITL by_ssh add -E parameter |-\|/-| 2018-01-25T04:06:06Z Merged pull request |-\|/-| 6034 +20 −15 md conf 1|-\|/-| 
+Implement support for user-defined post-creation validators/rules |-\|/-| 2019-05-10T12:53:21Z Closed pull request |-\|/-| 6030 +292 −1 conf txt ll yy cpp hpp 8|-\|/-| 
+Remove duplicate semicolons |-\|/-| 2018-01-24T11:55:57Z Merged pull request |-\|/-| 6029 +4 −4 cpp 4|-\|/-| 
+Fix flapping support for Windows |-\|/-| 2018-02-09T14:12:37Z Merged pull request |-\|/-| 6026 +34 −9 cpp 1|-\|/-| 
+Update default config and documentation for the "library" keyword |-\|/-| 2018-01-22T08:53:33Z Merged pull request |-\|/-| 6022 +8 −70 md conf 14|-\|/-| 
+Fix crash when running 'icinga2 console' without HOME environment variable |-\|/-| 2018-01-29T15:37:25Z Merged pull request |-\|/-| 6020 +17 −10 cpp 1|-\|/-| 
+Remove build breaking include |-\|/-| 2018-01-19T17:53:03Z Merged pull request |-\|/-| 6017 +0 −4 txt 0|-\|/-| 
+Check notification state filters for problems only, not for Custom, etc. |-\|/-| 2018-03-19T14:52:38Z Merged pull request |-\|/-| 6016 +2 −2 cpp 1|-\|/-| 
+Fix whitespaces in CMakeLists files |-\|/-| 2018-01-19T10:11:43Z Merged pull request |-\|/-| 6015 +181 −180 txt 0|-\|/-| 
+Docs: Add IDO DB tuning tips |-\|/-| 2018-01-18T16:53:42Z Merged pull request |-\|/-| 6014 +77 −24 md 0|-\|/-| 
+Move the endpoint list into a new line for the 'cluster' check |-\|/-| 2018-01-18T14:51:04Z Merged pull request |-\|/-| 6010 +13 −7 cpp 1|-\|/-| 
+Build fix for ancient versions of GCC |-\|/-| 2018-01-18T14:29:51Z Merged pull request |-\|/-| 6009 +4 −4 cpp hpp 2|-\|/-| 
+Fix compatibility with CMake < 3.1 |-\|/-| 2018-01-18T14:26:11Z Merged pull request |-\|/-| 6008 +199 −199 txt cpp hpp 29|-\|/-| 
+Fix missing include |-\|/-| 2018-01-18T14:06:41Z Merged pull request |-\|/-| 6007 +1 −0 hpp 1|-\|/-| 
+Fix wrong nscp-local include in the docs |-\|/-| 2018-01-18T12:31:07Z Merged pull request |-\|/-| 6006 +1 −1 md 0|-\|/-| 
+Fix incorrect dependencies for mkunity targets |-\|/-| 2018-01-18T10:46:56Z Merged pull request |-\|/-| 6005 +1 −1 txt 0|-\|/-| 
+Add newline to COPYING to fix Github license detection |-\|/-| 2018-01-17T14:47:01Z Merged pull request |-\|/-| 6000 +1 −1 COPYING 1|-\|/-| 
+Build fix |-\|/-| 2018-01-17T14:31:58Z Merged pull request |-\|/-| 5999 +2 −4 txt 0|-\|/-| 
+Build all remaining libraries as object libraries |-\|/-| 2018-01-17T14:01:21Z Merged pull request |-\|/-| 5998 +18 −13 txt 0|-\|/-| 
+Use gcc-ar and gcc-ranlib when building with -flto |-\|/-| 2018-01-17T13:28:30Z Merged pull request |-\|/-| 5997 +5 −0 txt 0|-\|/-| 
+Add systemd watchdog and adjust reload behaviour |-\|/-| 2018-01-21T04:18:14Z Merged pull request |-\|/-| 5996 +69 −45 txt cmake md cpp hpp 5|-\|/-| 
+Fix InfluxDB requests |-\|/-| 2018-01-17T09:28:15Z Merged pull request |-\|/-| 5995 +8 −0 cpp 2|-\|/-| 
+InfluxDBWriter: Fix macro in template |-\|/-| 2018-01-17T09:27:55Z Merged pull request |-\|/-| 5994 +1 −1 ti 1|-\|/-| 
+Use CMake object libraries for our libs |-\|/-| 2018-01-17T09:27:00Z Merged pull request |-\|/-| 5993 +101 −111 txt 0|-\|/-| 
+Remove unused includes |-\|/-| 2018-01-25T08:13:03Z Merged pull request |-\|/-| 5992 +98 −208 cpp hpp 27|-\|/-| 
+changelog.py: Adjust categories and labels: Enhancement, Bug, ITL, Documentation, Support |-\|/-| 2018-01-16T15:02:30Z Merged pull request |-\|/-| 5989 +45 −8 py 1|-\|/-| 
+Fix concurrent checks limit while using command_endpoint |-\|/-| 2018-02-06T13:13:50Z Merged pull request |-\|/-| 5988 +323 −112 md cpp hpp ti txt 7|-\|/-| 
+Fix wrong schema constraint for fresh 2.8.0 installations |-\|/-| 2018-01-16T09:13:22Z Merged pull request |-\|/-| 5986 +99 −16 md sql 4|-\|/-| 
+Add query thresholds for the 'ido' check: Rate and pending queries |-\|/-| 2018-01-16T07:06:22Z Merged pull request |-\|/-| 5985 +80 −22 md cpp 1|-\|/-| 
+Fix missing static libraries for DB IDO |-\|/-| 2018-01-15T15:06:29Z Merged pull request |-\|/-| 5984 +4 −0 txt 0|-\|/-| 
+Use initializer lists for arrays and dictionaries |-\|/-| 2018-01-16T11:40:30Z Merged pull request |-\|/-| 5983 +1,683 −1,741 cpp hpp 11|-\|/-| 
+SELinux: Allows icinga2_t to send sigkill to all domains it transitions to |-\|/-| 2018-01-18T09:38:02Z Merged pull request |-\|/-| 5982 +2 −1 if te 2|-\|/-| 
+SELinux: Add InfluxDB as example for services requiring `icinga2_can_connect_all`. |-\|/-| 2018-02-15T13:30:37Z Merged pull request |-\|/-| 5981 +6 −3 md 0|-\|/-| 
+Explicitly pass 1 or 0 for notification filters in DB IDO |-\|/-| 2018-01-17T12:50:49Z Merged pull request |-\|/-| 5980 +26 −26 cpp 3|-\|/-| 
+Add quit, exit and help |-\|/-| 2018-01-29T15:41:10Z Merged pull request |-\|/-| 5979 +15 −4 cpp 1|-\|/-| 
+Fix non-unity builds with the icinga check |-\|/-| 2018-01-12T10:39:51Z Merged pull request |-\|/-| 5974 +2 −0 cpp 1|-\|/-| 
+Add 'ttl' support for check result freshness via REST API |-\|/-| 2018-01-15T13:25:15Z Merged pull request |-\|/-| 5973 +23 −3 md cpp ti 3|-\|/-| 
+Update 08-advanced-topics.md |-\|/-| 2018-01-12T20:37:42Z Merged pull request |-\|/-| 5972 +1 −1 md 0|-\|/-| 
+Remove libdemo and libhello |-\|/-| 2018-01-11T12:52:02Z Merged pull request |-\|/-| 5971 +0 −371 txt cpp hpp ti 5|-\|/-| 
+Allocate ConfigItemBuilder objects on the stack |-\|/-| 2018-01-11T12:50:23Z Merged pull request |-\|/-| 5970 +69 −69 cpp hpp 7|-\|/-| 
+Remove the WorkQueue::m_StatsMutex instance variable |-\|/-| 2018-01-11T12:38:40Z Merged pull request |-\|/-| 5969 +1 −6 cpp hpp 2|-\|/-| 
+Update the RingBuffer class to use a regular mutex instead of ObjectLock |-\|/-| 2018-01-11T12:37:35Z Merged pull request |-\|/-| 5968 +24 −9 cpp hpp 2|-\|/-| 
+Avoid accessing attributes for validators where not necessary |-\|/-| 2018-01-11T12:36:29Z Merged pull request |-\|/-| 5967 +222 −162 cpp hpp 24|-\|/-| 
+Avoid unnecessary casts in the JSON encoder |-\|/-| 2018-01-11T08:37:20Z Merged pull request |-\|/-| 5965 +18 −6 cpp 1|-\|/-| 
+OpenTSDB writer - Fix function for escaping host tag chars. |-\|/-| 2018-01-20T11:17:26Z Merged pull request |-\|/-| 5964 +1 −1 cpp 1|-\|/-| 
+Fix macro warning from the icinga check |-\|/-| 2018-01-09T08:33:08Z Merged pull request |-\|/-| 5961 +2 −0 conf 1|-\|/-| 
+API: Add 'pretty' parameter for beautified JSON response bodies |-\|/-| 2018-01-09T04:12:32Z Merged pull request |-\|/-| 5959 +145 −131 md cpp hpp 9|-\|/-| 
+Add minimum version check to the built-in icinga command |-\|/-| 2018-01-09T04:32:18Z Merged pull request |-\|/-| 5958 +44 −10 md cpp hpp 2|-\|/-| 
+Change a bunch more copyright headers for 2018 |-\|/-| 2018-01-09T03:58:26Z Merged pull request |-\|/-| 5957 +15 −15 cmake cpp hpp sql txt 13|-\|/-| 
+Avoid mutex contention in the config parser |-\|/-| 2018-01-08T16:11:43Z Merged pull request |-\|/-| 5955 +119 −77 cpp hpp 3|-\|/-| 
+ITL: Add mongodb --authdb parameter support |-\|/-| 2018-01-08T13:24:25Z Merged pull request |-\|/-| 5954 +5 −0 md conf 1|-\|/-| 
+itl: Add command parameters for snmp-memory |-\|/-| 2018-01-05T16:38:50Z Merged pull request |-\|/-| 5951 +12 −0 md conf 1|-\|/-| 
+doc: Improve INSTALL documentation |-\|/-| 2018-01-04T15:06:10Z Merged pull request |-\|/-| 5948 +181 −118 0|-\|/-| 
+Use clang-tidy to add some more C++11 features |-\|/-| 2018-01-04T11:40:51Z Merged pull request |-\|/-| 5946 +2,876 −3,162 cpp hpp h 9|-\|/-| 
+Fix incorrect indentation for code generated by mkclass |-\|/-| 2018-01-04T11:41:52Z Merged pull request |-\|/-| 5945 +1 −1 cpp 1|-\|/-| 
+Add the final keyword to classes |-\|/-| 2018-01-04T11:08:31Z Merged pull request |-\|/-| 5944 +237 −292 hpp cpp 42|-\|/-| 
+Fix incorrect ::Start call |-\|/-| 2018-01-03T19:12:52Z Merged pull request |-\|/-| 5943 +2 −2 cpp 1|-\|/-| 
+Add some technical insights into the cluster-zone health check and log lag |-\|/-| 2018-01-04T15:06:39Z Merged pull request |-\|/-| 5942 +58 −0 md 0|-\|/-| 
+Remove deprecated Chocolatey functions |-\|/-| 2018-01-15T10:36:54Z Merged pull request |-\|/-| 5940 +16 −24 ps1 1|-\|/-| 
+Build fix for Debian wheezy |-\|/-| 2018-01-03T10:28:57Z Merged pull request |-\|/-| 5939 +30 −30 cpp hpp 20|-\|/-| 
+Remove inline methods and use explicit template instantiation to minimize the number of weak symbols |-\|/-| 2018-01-03T10:24:35Z Merged pull request |-\|/-| 5937 +1,111 −838 txt cpp hpp 4|-\|/-| 
+Clean up source lists in the CMakeLists.txt files |-\|/-| 2018-01-03T10:59:35Z Merged pull request |-\|/-| 5936 +385 −141 txt 0|-\|/-| 
+Implement support for precompiled headers |-\|/-| 2018-01-29T15:31:09Z Closed pull request |-\|/-| 5935 +866 −201 yml txt md cpp hpp 13|-\|/-| 
+Add more include/library paths for MySQL and PostgreSQL |-\|/-| 2018-01-03T09:58:31Z Merged pull request |-\|/-| 5934 +14 −1 cmake 2|-\|/-| 
+Change copyright headers for 2018 |-\|/-| 2018-01-02T12:39:46Z Merged pull request |-\|/-| 5933 +731 −731 txt contrib/GPLHeader py cs sh cpp hpp spec conf itl/hangman itl/itl itl/manubulon itl/nscp itl/plugins itl/plugins-contrib 32|-\|/-| 
+Fix copyright header in cli/troubleshootcommand.hpp |-\|/-| 2018-01-03T09:56:07Z Merged pull request |-\|/-| 5932 +17 −17 hpp 1|-\|/-| 
+Improve detection for linker flags |-\|/-| 2018-01-02T13:03:09Z Merged pull request |-\|/-| 5931 +51 −7 txt 0|-\|/-| 
+Replace boost::function with std::function |-\|/-| 2018-01-02T12:46:24Z Merged pull request |-\|/-| 5930 +3 −4 hpp cpp 3|-\|/-| 
+Get rid of boost::assign::list_of in mkclass |-\|/-| 2018-01-02T12:47:19Z Merged pull request |-\|/-| 5929 +3 −4 cpp 1|-\|/-| 
+Fix build problem with MSVC |-\|/-| 2018-01-02T13:01:16Z Merged pull request |-\|/-| 5928 +5 −4 hpp 1|-\|/-| 
+Build libraries as static libraries |-\|/-| 2018-01-03T09:55:11Z Merged pull request |-\|/-| 5927 +1,364 −1,024 txt cpp hpp ti 9|-\|/-| 
+Fix a few race conditions |-\|/-| 2018-06-28T13:37:43Z Closed pull request |-\|/-| 5926 +154 −183 hpp cpp 9|-\|/-| 
+Fix missing variable name in ApiListener::Start |-\|/-| 2018-01-02T12:48:31Z Merged pull request |-\|/-| 5925 +1 −1 cpp 1|-\|/-| 
+Fix link format in documentation |-\|/-| 2018-01-01T12:40:18Z Merged pull request |-\|/-| 5922 +1 −1 md 0|-\|/-| 
+Add icingacli-director check to ITL |-\|/-| 2018-01-05T16:49:59Z Merged pull request |-\|/-| 5921 +29 −0 md conf 1|-\|/-| 
+Fix typo in SELinux documentation |-\|/-| 2018-01-01T12:39:23Z Merged pull request |-\|/-| 5918 +1 −1 md 0|-\|/-| 
+Add 3rd party notifications scripts |-\|/-| 2018-04-03T12:53:26Z Closed pull request |-\|/-| 5917 +495 −0 md sh 1|-\|/-| 
+Fix for wrong attribute in ITL mongodb CheckCommand |-\|/-| 2018-01-05T16:17:27Z Merged pull request |-\|/-| 5914 +13 −2 conf 1|-\|/-| 
+Enhance http_certificate parameter documentation |-\|/-| 2018-01-05T16:13:13Z Merged pull request |-\|/-| 5913 +1 −1 md 0|-\|/-| 
+Update ElasticsearchWriter docs for 5.x support only |-\|/-| 2017-12-22T09:23:21Z Merged pull request |-\|/-| 5911 +1 −1 md 0|-\|/-| 
+WIP: Improve build times |-\|/-| 2018-01-29T15:31:46Z Closed pull request |-\|/-| 5909 +2,532 −1,868 yml txt md cpp hpp 8|-\|/-| 
+Windows plugin check_swap build fix |-\|/-| 2017-12-24T17:41:40Z Merged pull request |-\|/-| 5907 +2 −2 cpp 2|-\|/-| 
+Add check_openmanage command to ITL. |-\|/-| 2018-01-08T12:46:48Z Merged pull request |-\|/-| 5906 +149 −0 md conf 1|-\|/-| 
+Cleanup CompatUtility class and features |-\|/-| 2018-01-15T12:51:08Z Merged pull request |-\|/-| 5903 +1,111 −1,525 cpp hpp 4|-\|/-| 
+Add parameter --octetlength to snmp-storage command. |-\|/-| 2018-01-05T16:05:29Z Merged pull request |-\|/-| 5902 +6 −1 md conf 1|-\|/-| 
+Do not replace colons in plugin output |-\|/-| 2017-12-21T12:46:33Z Merged pull request |-\|/-| 5901 +0 −12 cpp 1|-\|/-| 
+WIP: PluginPath as replacement for absolute paths |-\|/-| 2019-11-14T12:01:46Z Closed pull request |-\|/-| 5899 +625 −283 yml txt md cmake 2|-\|/-| 
+Remove unnecessary inline statements |-\|/-| 2017-12-20T13:14:32Z Merged pull request |-\|/-| 5897 +103 −103 hpp 8|-\|/-| 
+Remove string_iless |-\|/-| 2017-12-20T10:33:40Z Merged pull request |-\|/-| 5894 +0 −17 hpp 1|-\|/-| 
+Whitespace fix |-\|/-| 2017-12-20T14:02:31Z Merged pull request |-\|/-| 5893 +2,969 −2,985 cs hpp cpp 5|-\|/-| 
+Enable installing the init scripts on Solaris |-\|/-| 2017-12-20T13:10:40Z Merged pull request |-\|/-| 5892 +1 −1 txt 0|-\|/-| 
+Update .gitignore |-\|/-| 2017-12-20T06:57:11Z Merged pull request |-\|/-| 5891 +1 −0 gitignore 1|-\|/-| 
+Fix for Notification Begin and End Times |-\|/-| 2019-02-22T10:36:09Z Closed pull request |-\|/-| 5890 +141 −27 cpp hpp ti 7|-\|/-| 
+execvpe: Fixup indention for readability |-\|/-| 2017-12-20T06:53:56Z Merged pull request |-\|/-| 5889 +102 −102 c 1|-\|/-| 
+FindMySQL: Support mariadbclient implementation |-\|/-| 2018-01-15T09:04:22Z Merged pull request |-\|/-| 5888 +25 −4 md cmake 1|-\|/-| 
+Windows build fix |-\|/-| 2017-12-20T09:50:28Z Merged pull request |-\|/-| 5887 +4 −0 hpp 1|-\|/-| 
+Workaround for GCC bug 61321 |-\|/-| 2017-12-20T08:59:46Z Merged pull request |-\|/-| 5885 +91 −69 hpp cpp 9|-\|/-| 
+Added NSCP query method using NSCP's NRPEServer and its local check_nrpe.exe |-\|/-| 2018-03-19T15:09:16Z Closed pull request |-\|/-| 5883 +200 −6 md png conf 3|-\|/-| 
+Avoid unnecessary allocations |-\|/-| 2017-12-18T16:11:28Z Merged pull request |-\|/-| 5882 +82 −73 cpp hpp 5|-\|/-| 
+Fix package error message |-\|/-| 2017-12-18T10:30:08Z Merged pull request |-\|/-| 5881 +1 −0 cpp 1|-\|/-| 
+Replace incorrect fclose() call with pclose() |-\|/-| 2017-12-17T14:40:13Z Merged pull request |-\|/-| 5872 +2 −1 cpp 1|-\|/-| 
+Unit tests for the LegacyTimePeriod class |-\|/-| 2017-12-20T07:28:20Z Merged pull request |-\|/-| 5871 +109 −2 txt cpp 1|-\|/-| 
+Use std::unique_ptr for Expression objects |-\|/-| 2017-12-18T08:54:31Z Merged pull request |-\|/-| 5868 +384 −616 cpp 3|-\|/-| 
+Avoid generating cluster messages when the local instance doesn't have a parent/HA peer |-\|/-| 2017-12-18T12:37:40Z Closed pull request |-\|/-| 5867 +22 −10 cpp hpp 3|-\|/-| 
+Remove redundant FreeBSD from restart instructions and add openSUSE |-\|/-| 2017-12-15T07:37:39Z Merged pull request |-\|/-| 5866 +6 −18 md 0|-\|/-| 
+Add missing initializer in Utility::NewUniqueID() |-\|/-| 2017-12-15T08:08:26Z Merged pull request |-\|/-| 5865 +2 −2 cpp 1|-\|/-| 
+Add missing initdb to PostgreSQL documentation |-\|/-| 2017-12-15T07:38:17Z Merged pull request |-\|/-| 5864 +3 −0 md 0|-\|/-| 
+Fix glob error handling |-\|/-| 2017-12-14T18:08:54Z Merged pull request |-\|/-| 5863 +1 −1 cpp 1|-\|/-| 
+Replace a few more NULLs with nullptr |-\|/-| 2017-12-14T16:11:18Z Merged pull request |-\|/-| 5862 +258 −262 cpp 3|-\|/-| 
+Fix incorrect memory access |-\|/-| 2017-12-15T05:25:11Z Merged pull request |-\|/-| 5861 +6 −1 cpp 1|-\|/-| 
+Fix memory leaks in the unit tests |-\|/-| 2017-12-14T16:31:03Z Merged pull request |-\|/-| 5860 +18 −16 cpp 1|-\|/-| 
+Travis: Add support for Coverity |-\|/-| 2017-12-15T09:06:47Z Merged pull request |-\|/-| 5858 +28 −8 yml 1|-\|/-| 
+Fix compiler warnings |-\|/-| 2017-12-14T12:49:26Z Merged pull request |-\|/-| 5857 +320 −296 cs cpp rc 4|-\|/-| 
+Implement AppLocal deployment support for UCRT |-\|/-| 2017-12-14T11:59:35Z Merged pull request |-\|/-| 5856 +3 −16 txt cmake 1|-\|/-| 
+Fix build problems with Visual Studio 2017 |-\|/-| 2017-12-14T12:15:25Z Merged pull request |-\|/-| 5855 +21 −33 txt cpp hpp 4|-\|/-| 
+changed LivestatusLogUtility::CreateLogCache log file select criteria |-\|/-| 2018-04-30T09:13:54Z Closed pull request |-\|/-| 5854 +22 −3 cpp 1|-\|/-| 
+Fix missing space in check_service output |-\|/-| 2017-12-14T08:11:42Z Merged pull request |-\|/-| 5853 +2 −2 cpp 1|-\|/-| 
+Fix check_service returning Warning instead of Critical |-\|/-| 2017-12-14T10:41:21Z Merged pull request |-\|/-| 5851 +3 −5 cpp 1|-\|/-| 
+init script security fixes |-\|/-| 2018-02-21T12:02:41Z Merged pull request |-\|/-| 5850 +363 −128 cmake md txt sh 6|-\|/-| 
+Fix COPYING format |-\|/-| 2017-12-13T11:14:53Z Merged pull request |-\|/-| 5848 +7 −7 COPYING 1|-\|/-| 
+'icinga2 wizard node' creates another directory |-\|/-| 2017-12-12T15:01:31Z Closed pull request |-\|/-| 5847 +1 −1 md 0|-\|/-| 
+Fix compiler warnings |-\|/-| 2017-12-13T10:34:21Z Merged pull request |-\|/-| 5846 +3 −1 cpp 2|-\|/-| 
+Added documentation notes for Classic UI |-\|/-| 2017-12-11T07:32:21Z Closed pull request |-\|/-| 5845 +20 −0 md 0|-\|/-| 
+Assign disk check to local node. |-\|/-| 2017-12-18T16:13:40Z Closed pull request |-\|/-| 5844 +2 −0 conf 1|-\|/-| 
+Fix newline terminator for bulk requests in ElasticsearchWriter |-\|/-| 2017-12-07T16:07:02Z Merged pull request |-\|/-| 5840 +17 −6 md cpp 1|-\|/-| 
+services.conf has also be moved to zones.d/global-templates/ |-\|/-| 2017-12-14T12:35:16Z Merged pull request |-\|/-| 5838 +1 −1 md 0|-\|/-| 
+Fixes permissions for cachedir |-\|/-| 2017-12-14T13:39:19Z Closed pull request |-\|/-| 5836 +1 −1 etc/initsystem/prepare-dirs 1|-\|/-| 
+Fixes postgres schema upgrade path |-\|/-| 2017-12-06T08:58:20Z Merged pull request |-\|/-| 5835 +1 −1 md 0|-\|/-| 
+fix formatting error |-\|/-| 2017-12-05T10:34:15Z Merged pull request |-\|/-| 5833 +4 −4 md 0|-\|/-| 
+Correct path of node certificates |-\|/-| 2017-12-03T16:05:16Z Closed pull request |-\|/-| 5830 +1 −1 md 0|-\|/-| 
+Replace StatsFunction with Function |-\|/-| 2017-11-30T20:28:33Z Merged pull request |-\|/-| 5827 +24 −87 txt cpp hpp 4|-\|/-| 
+Implement support for async function calls |-\|/-| 2019-01-11T16:05:33Z Closed pull request |-\|/-| 5826 +270 −0 md txt cpp hpp ti 6|-\|/-| 
+Replace boost::assign::list_of with initializer lists |-\|/-| 2017-11-30T20:20:47Z Merged pull request |-\|/-| 5825 +46 −49 cpp 19|-\|/-| 
+Replace a few Boost features with equivalent C++11 features |-\|/-| 2017-11-30T19:39:22Z Merged pull request |-\|/-| 5824 +756 −881 cpp hpp 20|-\|/-| 
+adjusted language precedence table |-\|/-| 2017-12-14T09:51:20Z Closed pull request |-\|/-| 5820 +5 −5 md 0|-\|/-| 
+Avoid unnecessary allocations in the FunctionCallExpression class |-\|/-| 2017-11-29T13:24:47Z Merged pull request |-\|/-| 5819 +2 −0 cpp 1|-\|/-| 
+Re-implement WrapFunction() using C++11 features |-\|/-| 2017-11-29T13:17:11Z Merged pull request |-\|/-| 5816 +179 −490 txt cpp hpp 8|-\|/-| 
+Update NodeName/ZoneName constants with 'api setup' |-\|/-| 2017-12-07T16:35:47Z Merged pull request |-\|/-| 5811 +29 −30 cpp hpp 6|-\|/-| 
+Raise required OpenSSL version to 1.0.1 |-\|/-| 2017-11-28T10:39:17Z Merged pull request |-\|/-| 5809 +1 −1 md 0|-\|/-| 
+Fix missing variable name which can lead to segfaults |-\|/-| 2017-11-28T10:05:26Z Merged pull request |-\|/-| 5808 +6 −6 cpp 1|-\|/-| 
+Fix incorrect value for the Dictionary::type attribute |-\|/-| 2017-11-27T14:50:13Z Closed pull request |-\|/-| 5806 +2 −2 cpp 1|-\|/-| 
+Add support for LD_LIBRARY_PATH env variable in oracle_health ITL CheckCommand |-\|/-| 2017-12-20T08:48:41Z Merged pull request |-\|/-| 5805 +5 −2 md conf 1|-\|/-| 
+Silence UpdateRepository message errors |-\|/-| 2017-11-28T10:27:13Z Merged pull request |-\|/-| 5804 +4 −3 cpp 1|-\|/-| 
+Replace boost::bind/boost::function with std::bind/std::function |-\|/-| 2017-11-29T07:28:45Z Merged pull request |-\|/-| 5803 +365 −378 cpp hpp 11|-\|/-| 
+Fix error reporting for 'icinga2 console -r' |-\|/-| 2017-11-24T12:03:12Z Merged pull request |-\|/-| 5796 +17 −8 cpp hpp 2|-\|/-| 
+ITL: Add check_rpc |-\|/-| 2017-11-27T09:29:29Z Merged pull request |-\|/-| 5792 +57 −0 md conf 1|-\|/-| 
+Fix Windows client requirements |-\|/-| 2017-11-24T06:40:03Z Closed pull request |-\|/-| 5791 +1 −0 md 0|-\|/-| 
+Documentation fixes |-\|/-| 2017-11-27T09:30:33Z Merged pull request |-\|/-| 5790 +2 −2 md 0|-\|/-| 
+ITL: Drop ssl_sni default setting |-\|/-| 2017-11-24T14:59:17Z Merged pull request |-\|/-| 5785 +1 −2 md conf 1|-\|/-| 
+Fix formatting in value types docs |-\|/-| 2017-11-28T10:37:00Z Merged pull request |-\|/-| 5783 +2 −2 md 0|-\|/-| 
+Update Windows Client requirements for 2.8 |-\|/-| 2017-11-17T13:45:03Z Merged pull request |-\|/-| 5773 +9 −6 md cmake cpp 2|-\|/-| 
+Release version 2.8.0 |-\|/-| 2017-11-16T10:01:09Z Merged pull request |-\|/-| 5770 +142 −1 md spec 1|-\|/-| 
+Update .mailmap and AUTHORS |-\|/-| 2017-11-16T09:43:43Z Merged pull request |-\|/-| 5768 +15 −17 mailmap AUTHORS 2|-\|/-| 
+Implement ability to make global zones configurable during node wizard/setup |-\|/-| 2018-02-26T07:36:34Z Closed pull request |-\|/-| 5767 +132 −5 cpp 2|-\|/-| 
+Fix default configuration example for ElasticsearchWriter |-\|/-| 2017-11-15T21:08:30Z Merged pull request |-\|/-| 5765 +1 −1 conf 1|-\|/-| 
+Improve InfluxdbWriter performance |-\|/-| 2017-12-12T09:57:49Z Merged pull request |-\|/-| 5764 +91 −106 cpp hpp 2|-\|/-| 
+Fix wrong anchors in the documentation |-\|/-| 2017-11-15T10:23:01Z Merged pull request |-\|/-| 5761 +4 −4 md 0|-\|/-| 
+Fix incorrect socket handling for the HTTP client |-\|/-| 2017-12-08T11:51:51Z Merged pull request |-\|/-| 5760 +27 −15 cpp 2|-\|/-| 
+Make default getters and setters non-virtual |-\|/-| 2017-11-27T09:19:44Z Merged pull request |-\|/-| 5759 +24 −8 ll cpp hpp 3|-\|/-| 
+Add documentation about automatic service restarts with systemd |-\|/-| 2017-12-18T08:57:45Z Merged pull request |-\|/-| 5757 +18 −0 md 0|-\|/-| 
+Fix missing Accept header in troubleshooting docs |-\|/-| 2017-11-14T13:48:47Z Merged pull request |-\|/-| 5755 +3 −3 md 0|-\|/-| 
+Improve documentation of cipher_list |-\|/-| 2017-11-14T09:44:13Z Merged pull request |-\|/-| 5754 +9 −1 md 0|-\|/-| 
+Fix that RingBuffer does not get updated and add metrics about communication between endpoints |-\|/-| 2017-12-12T10:32:19Z Merged pull request |-\|/-| 5753 +183 −24 cpp hpp 14|-\|/-| 
+Add Noah Hilverling to .mailmap |-\|/-| 2017-11-14T07:05:10Z Merged pull request |-\|/-| 5752 +1 −0 mailmap 1|-\|/-| 
+Fix missing word in pin checks in a zone doc chapter |-\|/-| 2017-11-13T12:49:44Z Merged pull request |-\|/-| 5748 +1 −1 md 0|-\|/-| 
+livestatus: custom variables return empty arrays instead of strings |-\|/-| 2017-11-27T09:33:33Z Merged pull request |-\|/-| 5746 +45 −45 cpp 5|-\|/-| 
+Implement DummyCheckTask and move dummy into embedded in-memory checks |-\|/-| 2017-11-27T09:25:44Z Merged pull request |-\|/-| 5744 +153 −39 md conf txt cpp hpp 5|-\|/-| 
+Fix manual certificate creation chapter in the docs |-\|/-| 2017-11-09T14:36:02Z Merged pull request |-\|/-| 5741 +45 −24 md 0|-\|/-| 
+Rename ElasticWriter to ElasticsearchWriter |-\|/-| 2017-11-09T14:42:38Z Merged pull request |-\|/-| 5739 +84 −84 md conf txt 1|-\|/-| 
+Update release docs |-\|/-| 2017-11-13T12:49:02Z Merged pull request |-\|/-| 5738 +9 −19 md 0|-\|/-| 
+Remove spec file |-\|/-| 2017-11-09T10:48:13Z Merged pull request |-\|/-| 5736 +1 −709 0|-\|/-| 
+Fix broken links inside the documentation |-\|/-| 2017-11-09T07:07:13Z Merged pull request |-\|/-| 5734 +2 −2 md 0|-\|/-| 
+Make --perf-syntax also change short message |-\|/-| 2017-11-28T12:47:05Z Merged pull request |-\|/-| 5733 +6 −6 cpp 1|-\|/-| 
+Fix flapping calculation and events |-\|/-| 2017-11-08T14:10:56Z Merged pull request |-\|/-| 5732 +40 −23 md cpp hpp ti 5|-\|/-| 
+Add missing trims to GetMasterHostPort and remove Convert.ToString from variables that are strings already |-\|/-| 2017-11-09T08:29:12Z Merged pull request |-\|/-| 5730 +12 −12 cs 1|-\|/-| 
+Correct node wizard output formatting |-\|/-| 2017-11-27T09:19:14Z Merged pull request |-\|/-| 5729 +15 −7 cpp 1|-\|/-| 
+Fix check_service not working with names |-\|/-| 2017-11-07T17:17:15Z Merged pull request |-\|/-| 5728 +1 −1 cpp 1|-\|/-| 
+Update upgrading documentation for 2.8 |-\|/-| 2017-11-08T15:12:46Z Merged pull request |-\|/-| 5727 +41 −2 md 0|-\|/-| 
+Use real UUIDs for Utility::NewUniqueID |-\|/-| 2017-11-27T09:18:53Z Merged pull request |-\|/-| 5725 +4 −22 txt cpp 1|-\|/-| 
+Update Windows Wizard for 2.8 and new signing methods |-\|/-| 2017-11-03T16:44:05Z Merged pull request |-\|/-| 5719 +313 −317 md cs 1|-\|/-| 
+API: Fix http status codes |-\|/-| 2017-11-27T13:41:30Z Merged pull request |-\|/-| 5718 +11 −11 cpp 1|-\|/-| 
+add order tags to disk check |-\|/-| 2017-12-19T08:22:23Z Merged pull request |-\|/-| 5717 +3 −0 conf 1|-\|/-| 
+add bogus zero reply in livestatus when aggregate and non matching filter |-\|/-| 2017-11-27T09:35:06Z Merged pull request |-\|/-| 5716 +11 −0 cpp 1|-\|/-| 
+Hash API password and comparison |-\|/-| 2018-02-21T15:21:15Z Merged pull request |-\|/-| 5715 +328 −10 md cpp hpp txt ti 8|-\|/-| 
+rough fix for ServicesTable::AddColumns replacing LogTable::HostNameA… |-\|/-| 2018-04-30T09:13:32Z Closed pull request |-\|/-| 5711 +4 −3 cpp 1|-\|/-| 
+Include default global zones during node wizard/setup |-\|/-| 2017-10-31T11:24:16Z Merged pull request |-\|/-| 5710 +49 −8 cpp hpp 4|-\|/-| 
+fixes minor typos in flapping detection documentation |-\|/-| 2017-10-30T16:42:59Z Merged pull request |-\|/-| 5709 +4 −4 md 0|-\|/-| 
+Fixed grammar and spelling mistakes |-\|/-| 2017-10-31T10:34:41Z Merged pull request |-\|/-| 5708 +145 −148 md 0|-\|/-| 
+Fix fork error handling |-\|/-| 2017-10-24T10:50:30Z Merged pull request |-\|/-| 5696 +18 −8 cpp 1|-\|/-| 
+Enhance Security chapter for Distributed Monitoring documentation |-\|/-| 2017-10-20T15:35:21Z Merged pull request |-\|/-| 5695 +19 −0 md 0|-\|/-| 
+Re-implement flapping |-\|/-| 2017-10-24T14:59:00Z Merged pull request |-\|/-| 5693 +465 −100 md cpp hpp ti 8|-\|/-| 
+Fixed doc formatting |-\|/-| 2017-10-19T09:54:34Z Merged pull request |-\|/-| 5691 +1 −1 md 0|-\|/-| 
+Fixed typos and punctuation |-\|/-| 2017-10-18T13:34:44Z Merged pull request |-\|/-| 5688 +71 −71 0|-\|/-| 
+Improve error message for unknown cluster message functions |-\|/-| 2017-10-18T15:10:38Z Merged pull request |-\|/-| 5687 +4 −3 cpp 1|-\|/-| 
+Implement support for migrating certificates to /var/lib/icinga2/certs |-\|/-| 2017-10-20T12:26:17Z Merged pull request |-\|/-| 5682 +216 −48 md conf ti hpp cpp 6|-\|/-| 
+Added missing "-q" parameter to check_ntp_peer |-\|/-| 2017-11-02T14:32:08Z Merged pull request |-\|/-| 5678 +5 −0 md conf 1|-\|/-| 
+Fix typo in threshold syntax documentation |-\|/-| 2017-10-16T10:00:20Z Merged pull request |-\|/-| 5677 +1 −1 md 0|-\|/-| 
+Add pdv unit to influxdbwriter if not empty + doc |-\|/-| 2017-11-27T09:32:45Z Merged pull request |-\|/-| 5675 +4 −1 md cpp 1|-\|/-| 
+add itl snmp-service for manubulon plugin check_snmp_win.pl |-\|/-| 2017-10-13T07:59:59Z Merged pull request |-\|/-| 5672 +58 −0 md conf 1|-\|/-| 
+Enhance Monitoring Basics in the documentation |-\|/-| 2017-10-11T07:51:22Z Merged pull request |-\|/-| 5668 +1,896 −1,210 0|-\|/-| 
+Enhance documentation with more details on value types for object attributes |-\|/-| 2017-10-10T15:53:56Z Merged pull request |-\|/-| 5655 +1,396 −1,127 md 0|-\|/-| 
+add command parameter check_snmp_mem |-\|/-| 2018-01-05T16:33:08Z Closed pull request |-\|/-| 5654 +12 −0 md conf 1|-\|/-| 
+Docs: Fix default value for `snmp_nocrypt` for Manubulon CheckCommand definitions |-\|/-| 2017-10-09T11:10:38Z Merged pull request |-\|/-| 5653 +6 −6 md 0|-\|/-| 
+Docs: Fix missing default value for cluster-zone checks |-\|/-| 2017-10-09T11:11:59Z Merged pull request |-\|/-| 5652 +7 −7 md 0|-\|/-| 
+Add command definition for "check_snmp_win.pl" |-\|/-| 2017-10-13T11:08:37Z Closed pull request |-\|/-| 5651 +38 −0 conf 1|-\|/-| 
+Allow to disable thresholds for ipmi CheckCommand |-\|/-| 2017-10-13T12:05:32Z Merged pull request |-\|/-| 5647 +5 −0 md conf 1|-\|/-| 
+Fix debug builds on Apple Clang 9.0.0 (macOS High Sierra) |-\|/-| 2017-10-02T12:57:50Z Merged pull request |-\|/-| 5643 +3 −0 cpp 3|-\|/-| 
+Fix compiler warnings on macOS 10.13 |-\|/-| 2017-10-02T11:14:48Z Merged pull request |-\|/-| 5641 +0 −4 cpp 1|-\|/-| 
+ITL: Support weathermap data in snmp_interface CheckCommand |-\|/-| 2017-10-12T14:57:44Z Merged pull request |-\|/-| 5640 +5 −0 md conf 1|-\|/-| 
+Add support for check_address as default in database CheckCommand objects |-\|/-| 2017-10-19T07:23:49Z Merged pull request |-\|/-| 5638 +44 −30 md conf 1|-\|/-| 
+Fix unnecessary String() casts in InfluxdbWriter |-\|/-| 2017-10-12T11:22:44Z Merged pull request |-\|/-| 5637 +18 −18 cpp 1|-\|/-| 
+Fix unique constraint matching for UPDATE downtime/comment runtime tables in DB IDO |-\|/-| 2017-10-10T15:47:48Z Merged pull request |-\|/-| 5636 +4 −4 cpp 1|-\|/-| 
+Fix match(), regex(), cidr_match() behaviour with MatchAll and empty arrays |-\|/-| 2017-10-10T15:46:53Z Merged pull request |-\|/-| 5635 +9 −0 cpp 1|-\|/-| 
+Docs: Mention SELinux in Getting Started chapter |-\|/-| 2017-09-29T08:47:20Z Merged pull request |-\|/-| 5632 +27 −2 md 0|-\|/-| 
+update address check for multiple commands |-\|/-| 2017-09-29T15:38:47Z Closed pull request |-\|/-| 5631 +16 −1 conf 1|-\|/-| 
+Add pdv unit to influxdbwriter #5627 |-\|/-| 2017-10-13T12:45:03Z Closed pull request |-\|/-| 5630 +3,515 −2,394 txt md py 1|-\|/-| 
+Feature/influxdbwriter perf unit 5627 |-\|/-| 2017-09-28T07:21:08Z Closed pull request |-\|/-| 5628 +2 −1 cpp 1|-\|/-| 
+Fixed missing include statement in unit test |-\|/-| 2017-10-02T11:27:05Z Merged pull request |-\|/-| 5624 +1 −0 cpp 1|-\|/-| 
+Ensure that the REST API config package/stage creation is atomic |-\|/-| 2017-10-24T10:51:10Z Merged pull request |-\|/-| 5620 +29 −12 cpp hpp 5|-\|/-| 
+Exit early in changelog.py if GitHub API fetch fails |-\|/-| 2017-09-26T05:40:10Z Merged pull request |-\|/-| 5619 +12 −4 py 1|-\|/-| 
+Fix a build warning |-\|/-| 2017-09-25T10:23:07Z Merged pull request |-\|/-| 5616 +1 −1 ti 1|-\|/-| 
+Fixed missing include statement in unit tests |-\|/-| 2017-09-25T05:48:05Z Merged pull request |-\|/-| 5614 +1 −0 cpp 1|-\|/-| 
+Improve documentation and systemd config on TaskMax |-\|/-| 2017-09-29T15:36:58Z Merged pull request |-\|/-| 5612 +63 −25 md cmake conf 2|-\|/-| 
+Command definition enhacements |-\|/-| 2017-09-24T01:48:01Z Closed pull request |-\|/-| 5609 +5 −1 conf 2|-\|/-| 
+Fix certificate paths for installers |-\|/-| 2017-09-22T14:39:23Z Merged pull request |-\|/-| 5608 +4 −3 txt cpp 1|-\|/-| 
+Remove bottom-up client mode |-\|/-| 2017-09-22T12:48:52Z Merged pull request |-\|/-| 5606 +497 −3,920 md 0|-\|/-| 
+Remove the icinga2-classicui-package and update documentation |-\|/-| 2017-09-22T10:35:10Z Merged pull request |-\|/-| 5604 +28 −315 md txt etc/icinga/README cfg cmake htpasswd 4|-\|/-| 
+Add windows process elevation and log message if user does not have privileges to read/write files |-\|/-| 2017-10-13T14:31:13Z Merged pull request |-\|/-| 5602 +139 −7 cpp hpp 5|-\|/-| 
+Ensure that the cache directory always is set and add a note to upgrading docs |-\|/-| 2017-09-22T07:43:21Z Merged pull request |-\|/-| 5601 +20 −0 md etc/initsystem/prepare-dirs 1|-\|/-| 
+changelog.py: Add "backported" to the list of ignored labels |-\|/-| 2017-09-21T08:49:06Z Merged pull request |-\|/-| 5599 +3 −1 py 1|-\|/-| 
+Docs: Enhance certificate and configuration troubleshooting chapter |-\|/-| 2017-09-20T15:13:04Z Merged pull request |-\|/-| 5594 +440 −250 md 0|-\|/-| 
+Docs: Add a note for upgrading to 2.7 |-\|/-| 2017-09-20T13:46:21Z Merged pull request |-\|/-| 5593 +9 −0 md 0|-\|/-| 
+Silence log level for configuration file updates |-\|/-| 2017-09-20T12:06:21Z Merged pull request |-\|/-| 5590 +1 −1 cpp 1|-\|/-| 
+SyslogLogger: Implement option to set syslog facility |-\|/-| 2017-09-20T15:25:58Z Merged pull request |-\|/-| 5587 +113 −2 md cpp hpp ti 3|-\|/-| 
+Ensure that /var is created with proper permissions in prepare-dirs script |-\|/-| 2017-09-22T07:32:56Z Closed pull request |-\|/-| 5586 +4 −0 etc/initsystem/prepare-dirs 1|-\|/-| 
+Fix where clause for non-matching {downtime,comment}history IDO database updates |-\|/-| 2017-09-20T10:24:47Z Merged pull request |-\|/-| 5585 +19 −15 cpp 1|-\|/-| 
+Docs: Add example for Windows service monitoring with check_nscp_api |-\|/-| 2017-09-18T14:58:10Z Merged pull request |-\|/-| 5583 +32 −0 md 0|-\|/-| 
+Docs: Add firewall details for check_nscp_api |-\|/-| 2017-09-18T14:27:42Z Merged pull request |-\|/-| 5582 +10 −0 md 0|-\|/-| 
+Fix possible race condition in ApiListener locking |-\|/-| 2017-10-12T11:41:00Z Merged pull request |-\|/-| 5581 +10 −6 cpp hpp 2|-\|/-| 
+Implement new script functions: path_exists, glob and glob_recursive |-\|/-| 2017-09-18T12:26:34Z Merged pull request |-\|/-| 5580 +110 −0 md cpp hpp 2|-\|/-| 
+ITL: Re-Add ssl_sni attribute for check_tcp |-\|/-| 2017-09-25T14:07:56Z Merged pull request |-\|/-| 5578 +4 −0 conf 1|-\|/-| 
+Fixed downtime example in documentation |-\|/-| 2017-09-18T06:14:39Z Merged pull request |-\|/-| 5576 +4 −2 md 0|-\|/-| 
+Don't use deprecated RSA_generate_key |-\|/-| 2017-12-12T10:23:41Z Closed pull request |-\|/-| 5574 +29 −8 cpp 1|-\|/-| 
+Implement support for forwarding certificate signing requests in the cluster |-\|/-| 2017-09-12T12:01:00Z Merged pull request |-\|/-| 5571 +3,019 −964 md 0|-\|/-| 
+check_esxi_hardware.py with new --no-lcd parameter |-\|/-| 2017-09-13T08:41:17Z Merged pull request |-\|/-| 5570 +6 −0 md conf 1|-\|/-| 
+ElasticWriter: Add basic auth and TLS support for Elasticsearch behind an HTTP proxy |-\|/-| 2017-09-12T10:29:38Z Merged pull request |-\|/-| 5569 +98 −25 md txt cpp hpp ti 8|-\|/-| 
+Add documentation for multi-line plugin output for API actions |-\|/-| 2017-11-02T15:05:05Z Merged pull request |-\|/-| 5568 +7 −1 md 0|-\|/-| 
+Logs: Change config sync update to highlight an information, not an error |-\|/-| 2017-09-08T11:39:40Z Merged pull request |-\|/-| 5566 +3 −2 cpp 1|-\|/-| 
+Add ElasticsearchWriter feature |-\|/-| 2017-09-11T12:50:40Z Merged pull request |-\|/-| 5564 +767 −290 md conf txt 1|-\|/-| 
+Implement additional logging for the JsonRpc class |-\|/-| 2017-09-07T12:45:14Z Merged pull request |-\|/-| 5563 +40 −0 cpp 1|-\|/-| 
+remove -a option at mail notification |-\|/-| 2017-11-02T14:48:04Z Closed pull request |-\|/-| 5560 +6 −4 sh 2|-\|/-| 
+Exclude configfs from disk checks |-\|/-| 2017-09-07T10:32:23Z Merged pull request |-\|/-| 5559 +2 −2 md conf 1|-\|/-| 
+Don't sent scheme and hostname in request |-\|/-| 2017-09-06T14:18:37Z Merged pull request |-\|/-| 5558 +12 −10 cpp hpp 4|-\|/-| 
+Implement support for ECC certificates |-\|/-| 2017-11-27T14:11:04Z Merged pull request |-\|/-| 5555 +51 −17 cpp 1|-\|/-| 
+Add subjectAltName extension for all non-CA certificates |-\|/-| 2017-10-10T15:50:01Z Merged pull request |-\|/-| 5554 +2 −2 cpp 1|-\|/-| 
+Fix cli command used to enable debuglog feature on windows |-\|/-| 2017-09-05T10:11:56Z Merged pull request |-\|/-| 5549 +1 −1 md 0|-\|/-| 
+Add optional reload parameter to config stage upload |-\|/-| 2017-09-20T12:30:23Z Merged pull request |-\|/-| 5547 +24 −13 md cpp hpp 3|-\|/-| 
+Add Edit button to Windows Setup Wizard |-\|/-| 2017-10-16T13:09:06Z Merged pull request |-\|/-| 5545 +51 −5 cs png 5|-\|/-| 
+ITL: Correct arguments for ipmi-sensor CheckCommand |-\|/-| 2017-09-05T06:38:04Z Merged pull request |-\|/-| 5543 +3 −3 conf 1|-\|/-| 
+Fixed URL encoding for SERVICENAME |-\|/-| 2018-02-15T09:46:28Z Closed pull request |-\|/-| 5540 +1 −1 sh 1|-\|/-| 
+check_nscp_api: Allow arguments containing spaces |-\|/-| 2017-09-18T14:46:03Z Merged pull request |-\|/-| 5539 +9 −9 cpp 1|-\|/-| 
+Fixed nscp-disk service example |-\|/-| 2017-09-05T06:40:37Z Merged pull request |-\|/-| 5536 +1 −1 md 0|-\|/-| 
+Implement get_services(host {name,object}) and add host object support for get_service() |-\|/-| 2017-08-28T18:04:26Z Merged pull request |-\|/-| 5534 +76 −6 md cpp hpp 2|-\|/-| 
+Change last hard state logic |-\|/-| 2018-11-13T15:48:01Z Closed pull request |-\|/-| 5533 +3 −1 cpp 1|-\|/-| 
+Update checkable-check.cpp |-\|/-| 2017-08-26T18:14:29Z Closed pull request |-\|/-| 5532 +3 −1 cpp 1|-\|/-| 
+Change two more loglines for checkables so checkable is quoted |-\|/-| 2017-08-24T13:30:42Z Merged pull request |-\|/-| 5529 +2 −2 cpp 1|-\|/-| 
+Change loglines for checkables so checkable is quoted |-\|/-| 2017-08-23T17:49:03Z Merged pull request |-\|/-| 5528 +2 −2 cpp 1|-\|/-| 
+API: Add execution_{start,end} attribute to 'process-check-result' action |-\|/-| 2017-08-22T07:12:08Z Merged pull request |-\|/-| 5527 +8 −0 md cpp 1|-\|/-| 
+WIP: Fix Icinga ignoring updates with current timestamp |-\|/-| 2017-09-08T11:30:29Z Closed pull request |-\|/-| 5526 +1 −1 cpp 1|-\|/-| 
+Reduce client disconnect frequency |-\|/-| 2017-10-16T12:10:25Z Closed pull request |-\|/-| 5525 +4 −2 cpp 1|-\|/-| 
+Change FIFO::Optimize() frequency for large messages |-\|/-| 2017-08-21T09:36:33Z Merged pull request |-\|/-| 5524 +1 −1 cpp 1|-\|/-| 
+Enhance client connect/sync logging and include bytes/zone in logs |-\|/-| 2017-08-21T09:36:53Z Merged pull request |-\|/-| 5523 +48 −17 cpp 2|-\|/-| 
+Docs: Update freshness checks; add chapter for external check results |-\|/-| 2017-08-18T15:05:18Z Merged pull request |-\|/-| 5522 +57 −7 md png 1|-\|/-| 
+Updates the install dependencies for Debian 9 'stretch' |-\|/-| 2017-08-17T16:17:59Z Merged pull request |-\|/-| 5516 +1 −1 md 0|-\|/-| 
+Docs: Fix wrong parameter for ITL CheckCommand nscp_api |-\|/-| 2017-08-15T09:13:46Z Merged pull request |-\|/-| 5506 +1 −1 md 0|-\|/-| 
+Fix TLS Race Connecting to InfluxDB |-\|/-| 2017-08-17T16:25:18Z Merged pull request |-\|/-| 5504 +4 −17 md cpp hpp ti 3|-\|/-| 
+Fix grouping for Livestatus queries with 'Stats' |-\|/-| 2017-08-14T14:19:19Z Merged pull request |-\|/-| 5503 +341 −106 cpp hpp 10|-\|/-| 
+Fix duplicate variable in notification scripts |-\|/-| 2017-08-14T15:36:09Z Merged pull request |-\|/-| 5502 +4 −4 sh 2|-\|/-| 
+SELinux: fixes for 2.7.0 |-\|/-| 2017-08-14T14:56:07Z Merged pull request |-\|/-| 5501 +3 −1 te 1|-\|/-| 
+Process: Fix JSON parsing error on process helper crash |-\|/-| 2017-08-14T09:41:50Z Merged pull request |-\|/-| 5500 +3 −3 cpp 1|-\|/-| 
+API: Fix requested attrs/joins/meta type errors in object query response |-\|/-| 2017-08-15T10:52:34Z Merged pull request |-\|/-| 5497 +26 −3 cpp 1|-\|/-| 
+Docs: Update examples for match/regex/cidr_match and mode for arrays (Match{All,Any}) |-\|/-| 2017-08-11T13:09:35Z Merged pull request |-\|/-| 5496 +81 −39 md 0|-\|/-| 
+Fix parameter order for AcknowledgeSvcProblem / AcknowledgeHostProblem / apiactions:AcknowledgeProblem |-\|/-| 2017-09-05T09:13:33Z Merged pull request |-\|/-| 5495 +3 −3 cpp 2|-\|/-| 
+Docs: Add section for multiple template imports |-\|/-| 2017-08-11T10:50:33Z Merged pull request |-\|/-| 5494 +50 −0 md 0|-\|/-| 
+Update "Getting Started" documentation with Alpine Linux |-\|/-| 2017-08-11T11:31:39Z Merged pull request |-\|/-| 5491 +113 −10 md 0|-\|/-| 
+Docs: Add instructions for Alpine Linux |-\|/-| 2017-08-11T11:17:33Z Closed pull request |-\|/-| 5490 +109 −10 md 0|-\|/-| 
+Implement additional functions for printing values with LLDB/GDB |-\|/-| 2017-08-10T08:27:34Z Merged pull request |-\|/-| 5488 +36 −0 cpp 1|-\|/-| 
+Docs: Enhance Troubleshooting with nscp-local, check_source, wrong thresholds |-\|/-| 2017-08-09T18:54:51Z Merged pull request |-\|/-| 5487 +126 −0 md 0|-\|/-| 
+Graphite: Remove deprecated legacy schema mode |-\|/-| 2017-08-17T18:06:48Z Merged pull request |-\|/-| 5486 +39 −158 md cpp hpp ti 3|-\|/-| 
+Ensure that expired/removed downtimes/comments are correctly updated in DB IDO |-\|/-| 2017-11-07T16:50:20Z Merged pull request |-\|/-| 5485 +190 −39 md hpp cpp sql 6|-\|/-| 
+Fix config validation for DB IDO categories 'DbCatEverything' |-\|/-| 2017-08-09T14:57:27Z Merged pull request |-\|/-| 5483 +1 −1 cpp 1|-\|/-| 
+Systemd: Add DefaultTasksMax=infinity to service file |-\|/-| 2017-08-08T14:23:25Z Merged pull request |-\|/-| 5477 +8 −1 md cmake 1|-\|/-| 
+Docs: Fix ITL chapter TOC; add introduction with mini TOC |-\|/-| 2017-08-08T12:46:12Z Merged pull request |-\|/-| 5476 +36 −15 md 0|-\|/-| 
+Docs: Add a note on required configuration updates for new notification scripts in v2.7.0 |-\|/-| 2017-08-08T10:19:14Z Merged pull request |-\|/-| 5475 +48 −1 md 0|-\|/-| 
+Notification scripts - make HOSTADDRESS optional |-\|/-| 2017-08-14T15:21:59Z Merged pull request |-\|/-| 5474 +74 −18 md conf sh 3|-\|/-| 
+Make notification mails more readable. Remove redundancy and cruft. |-\|/-| 2017-08-14T15:30:14Z Merged pull request |-\|/-| 5468 +9 −11 sh 2|-\|/-| 
+DB IDO: Fix host's unreachable state in history tables |-\|/-| 2017-08-07T09:22:13Z Merged pull request |-\|/-| 5466 +24 −6 cpp 1|-\|/-| 
+Update Icinga repository release rpm location |-\|/-| 2017-08-07T08:32:58Z Merged pull request |-\|/-| 5461 +12 −13 md 0|-\|/-| 
+Add Changelog generation script for GitHub API |-\|/-| 2017-08-03T16:53:30Z Merged pull request |-\|/-| 5457 +775 −548 0|-\|/-| 
+Change cluster check output |-\|/-| 2017-11-03T11:51:29Z Closed pull request |-\|/-| 5454 +6 −4 cpp 1|-\|/-| 
+Update documentation for 2.7.0 |-\|/-| 2017-08-02T10:05:40Z Merged pull request |-\|/-| 5448 +23 −241 md 0|-\|/-| 
+Add CORS support and set response header 'Access-Control-Allow-Origin' |-\|/-| 2017-09-20T11:20:23Z Merged pull request |-\|/-| 5443 +81 −20 md ti cpp hpp 4|-\|/-| 
+Add missing notification state filter to documentation  |-\|/-| 2017-07-27T08:27:05Z Merged pull request |-\|/-| 5440 +1 −1 md 0|-\|/-| 
+Add -d option to check_service |-\|/-| 2017-08-07T09:36:21Z Merged pull request |-\|/-| 5435 +124 −25 md conf cpp h 3|-\|/-| 
+Fix: update feature list help text |-\|/-| 2017-07-27T08:28:26Z Merged pull request |-\|/-| 5433 +2 −2 cpp 1|-\|/-| 
+Add check_fortigate.pl Fortinet CheckCommand definition |-\|/-| 2017-11-02T14:44:24Z Closed pull request |-\|/-| 5432 +114 −0 md conf 1|-\|/-| 
+Add the ability to disable the conf.d inclusion through the node wizard |-\|/-| 2018-05-08T15:16:36Z Merged pull request |-\|/-| 5426 +308 −39 cs md cpp hpp 4|-\|/-| 
+Fix formatting in API docs |-\|/-| 2017-07-20T08:47:11Z Merged pull request |-\|/-| 5425 +2 −2 md 0|-\|/-| 
+Windows Plugins: Add new parameter to check_disk to show used space |-\|/-| 2017-07-24T08:22:39Z Merged pull request |-\|/-| 5421 +98 −37 md conf cpp h 3|-\|/-| 
+Feedback: Fix/API Eventshandler thread leak includes #5416 |-\|/-| 2018-04-18T07:08:01Z Closed pull request |-\|/-| 5419 +70 −22 cpp hpp 5|-\|/-| 
+Fix for API crashing when stressing it (racecondition/deadlock)? |-\|/-| 2017-09-18T13:30:38Z Closed pull request |-\|/-| 5416 +3 −2 cpp hpp 2|-\|/-| 
+Resolve #5408 and #5148 |-\|/-| 2017-07-14T22:35:08Z Closed pull request |-\|/-| 5415 +13 −12 cpp hpp 4|-\|/-| 
+Update docs for better compatibility with mkdocs |-\|/-| 2017-07-13T11:50:46Z Merged pull request |-\|/-| 5409 +1,437 −1,437 md 0|-\|/-| 
+itl: Add manubulon/check_snmp_env.pl as CheckCommand snmp-env |-\|/-| 2017-08-15T10:54:34Z Merged pull request |-\|/-| 5401 +61 −0 md conf 1|-\|/-| 
+Indent curl command |-\|/-| 2017-07-20T08:42:21Z Closed pull request |-\|/-| 5400 +0 −0 0|-\|/-| 
+itl: add additional mssql_health arguments |-\|/-| 2017-08-15T18:56:11Z Merged pull request |-\|/-| 5394 +127 −42 md conf 1|-\|/-| 
+Fix typo in the documentation |-\|/-| 2017-07-20T13:31:31Z Merged pull request |-\|/-| 5393 +1 −1 md 0|-\|/-| 
+Ensure the cache directory exists |-\|/-| 2017-08-09T16:22:08Z Merged pull request |-\|/-| 5392 +5 −0 cmake etc/initsystem/prepare-dirs 2|-\|/-| 
+Handle mis-detection with clang on RHEL/CentOS 7 |-\|/-| 2017-11-27T09:17:53Z Merged pull request |-\|/-| 5388 +6 −0 hpp 1|-\|/-| 
+Add missing options to snmp CheckCommand definition |-\|/-| 2017-08-14T15:51:24Z Merged pull request |-\|/-| 5387 +15 −0 md conf 1|-\|/-| 
+Remove default value for 'dns_query_type' |-\|/-| 2017-06-28T12:04:45Z Merged pull request |-\|/-| 5384 +0 −1 conf 1|-\|/-| 
+Set shell prompt for commands to be # |-\|/-| 2017-08-07T12:19:37Z Merged pull request |-\|/-| 5379 +8 −8 md 0|-\|/-| 
+Fixed warnings when using mkdocs |-\|/-| 2017-06-29T07:18:09Z Merged pull request |-\|/-| 5378 +27 −26 yml 1|-\|/-| 
+Parents who are non-active should not be rescheduled |-\|/-| 2018-09-27T05:52:38Z Merged pull request |-\|/-| 5375 +7 −2 cpp 1|-\|/-| 
+Make rlimits configurable by adding three variables: RLimitFiles, RLimitProcesses and RLimitStack |-\|/-| 2017-06-23T10:56:05Z Merged pull request |-\|/-| 5373 +208 −70 md cpp hpp 3|-\|/-| 
+Update ITL CheckCommand description attribute, part 2 |-\|/-| 2017-06-21T10:20:36Z Merged pull request |-\|/-| 5372 +67 −56 conf 2|-\|/-| 
+Fix Travis CI build  |-\|/-| 2017-06-20T18:20:47Z Merged pull request |-\|/-| 5371 +1 −1 txt 0|-\|/-| 
+Rename ChangeLog to CHANGELOG.md |-\|/-| 2017-06-20T14:39:54Z Merged pull request |-\|/-| 5370 +6 −8 md spec 1|-\|/-| 
+Remove experimental redis feature before 2.7 release |-\|/-| 2017-06-20T13:19:24Z Merged pull request |-\|/-| 5369 +1 −9,107 txt conf cpp 2|-\|/-| 
+Fixed wrong node in documentation chapter Client/Satellite Linux Setup |-\|/-| 2017-06-21T14:32:38Z Merged pull request |-\|/-| 5366 +1 −1 md 0|-\|/-| 
+Update package documentation for Debian Stretch |-\|/-| 2017-06-19T15:28:19Z Merged pull request |-\|/-| 5365 +22 −19 md 0|-\|/-| 
+Update missing description attributes for ITL CheckCommand definitions |-\|/-| 2017-06-20T17:07:51Z Merged pull request |-\|/-| 5363 +142 −69 conf 2|-\|/-| 
+livestatus/minaggregator: Buildfix for Debian wheezy |-\|/-| 2017-06-19T15:27:12Z Merged pull request |-\|/-| 5360 +1 −0 hpp 1|-\|/-| 
+Fixed missing closing bracket in CLI command pki new-cert. |-\|/-| 2017-06-19T07:15:54Z Merged pull request |-\|/-| 5359 +1 −1 cpp 1|-\|/-| 
+Add documentation for securing mysql on Debian/Ubuntu. |-\|/-| 2017-06-19T07:17:12Z Merged pull request |-\|/-| 5358 +2 −1 md 0|-\|/-| 
+Notification Scripts: Ensure that mail from address works on Debian/RHEL/SUSE (mailutils vs mailx) |-\|/-| 2017-06-16T19:11:37Z Merged pull request |-\|/-| 5357 +58 −15 md conf sh 3|-\|/-| 
+Build fix for Debian Wheezy |-\|/-| 2017-06-16T15:17:15Z Merged pull request |-\|/-| 5356 +2 −0 cpp 2|-\|/-| 
+Docs: Fix built-in template description and URLs |-\|/-| 2017-06-16T08:40:39Z Merged pull request |-\|/-| 5354 +4 −4 md 0|-\|/-| 
+icinga2.spec: Cleanup and explicitely enable unity builds |-\|/-| 2017-06-14T16:10:01Z Closed pull request |-\|/-| 5351 +6 −5 spec 1|-\|/-| 
+Docs: Fix broken format for notes/tips in CLI command chapter |-\|/-| 2017-06-13T20:12:27Z Merged pull request |-\|/-| 5349 +3 −14 md 0|-\|/-| 
+Implement support for handling exceptions in user scripts |-\|/-| 2017-06-13T14:21:54Z Merged pull request |-\|/-| 5348 +72 −5 md cpp ll yy hpp 5|-\|/-| 
+Improve ITL CheckCommand description attribute |-\|/-| 2017-06-12T08:48:16Z Merged pull request |-\|/-| 5347 +895 −224 0|-\|/-| 
+Add ip4-or-ipv6 import to logstash ITL command |-\|/-| 2017-06-12T06:22:00Z Merged pull request |-\|/-| 5344 +3 −1 conf 1|-\|/-| 
+Add accept_cname to dns CheckCommand |-\|/-| 2017-06-08T14:57:18Z Merged pull request |-\|/-| 5339 +6 −0 md conf 1|-\|/-| 
+Support/2.6 |-\|/-| 2017-06-07T18:24:18Z Closed pull request |-\|/-| 5337 +1,604 −380 md cmake 1|-\|/-| 
+Docs: Fix formatting issues and broken URLs |-\|/-| 2017-06-07T12:30:09Z Merged pull request |-\|/-| 5336 +16 −20 md 0|-\|/-| 
+Windows build fix for InfluxdbWriter |-\|/-| 2017-06-07T12:38:01Z Merged pull request |-\|/-| 5335 +1 −1 cpp 1|-\|/-| 
+Update documentation for enhanced notification scripts |-\|/-| 2017-06-16T15:19:24Z Merged pull request |-\|/-| 5333 +143 −80 md 0|-\|/-| 
+Notification Scripts: notification_type is always required |-\|/-| 2017-06-07T08:21:34Z Merged pull request |-\|/-| 5332 +4 −1 conf 1|-\|/-| 
+GelfWriter: Add 'check_command' to CHECK RESULT/* NOTIFICATION/STATE CHANGE messages |-\|/-| 2017-06-06T18:36:48Z Merged pull request |-\|/-| 5331 +17 −0 cpp 1|-\|/-| 
+GraphiteWriter: Add 'connected' to stats; fix reconnect exceptions |-\|/-| 2017-06-06T18:13:34Z Merged pull request |-\|/-| 5330 +8 −6 cpp hpp 2|-\|/-| 
+GelfWriter: Use async work queue and add feature metric stats |-\|/-| 2017-06-06T18:11:31Z Merged pull request |-\|/-| 5329 +182 −38 cpp hpp 2|-\|/-| 
+Install the images directory containing the needed PNGs for the markd… |-\|/-| 2017-06-06T16:25:59Z Merged pull request |-\|/-| 5326 +5 −0 txt 0|-\|/-| 
+Fix phrasing in Getting Started chapter |-\|/-| 2017-06-06T16:27:16Z Merged pull request |-\|/-| 5324 +1 −1 md 0|-\|/-| 
+zones.conf: Add global-templates & director-global by default |-\|/-| 2017-06-02T08:56:27Z Merged pull request |-\|/-| 5320 +30 −6 md conf 1|-\|/-| 
+Fix typo in INSTALL.md |-\|/-| 2017-06-01T17:32:28Z Merged pull request |-\|/-| 5317 +1 −1 md 0|-\|/-| 
+Fix for stats min operator |-\|/-| 2017-06-16T19:02:18Z Merged pull request |-\|/-| 5316 +5 −2 cpp 1|-\|/-| 
+Docs: Replace nagios-plugins by monitoring-plugins for Debian/Ubuntu |-\|/-| 2017-06-02T07:16:59Z Merged pull request |-\|/-| 5315 +2 −2 md 0|-\|/-| 
+Document Common name (CN) in client setup |-\|/-| 2017-06-01T14:47:28Z Merged pull request |-\|/-| 5314 +2 −0 md 0|-\|/-| 
+Fix for stats min operator |-\|/-| 2017-06-01T17:27:41Z Closed pull request |-\|/-| 5313 +9 −6 cpp 1|-\|/-| 
+WIP: Update API event stream docs for type attributes |-\|/-| 2017-10-09T19:56:22Z Closed pull request |-\|/-| 5311 +125 −0 md 0|-\|/-| 
+RPM: Disable SELinux policy hardlink |-\|/-| 2017-05-31T14:20:38Z Merged pull request |-\|/-| 5310 +2 −1 spec 1|-\|/-| 
+Docs: Replace the command pipe w/ the REST API as Icinga Web 2 requirement in 'Getting Started' chapter |-\|/-| 2017-05-31T14:21:33Z Merged pull request |-\|/-| 5309 +29 −32 md png 1|-\|/-| 
+Improve validation for attributes which must not be 'null' |-\|/-| 2017-05-30T13:03:25Z Merged pull request |-\|/-| 5308 +6 −6 ti 5|-\|/-| 
+Config validation: don't tolerate Host.groups = null |-\|/-| 2017-05-30T12:51:48Z Closed pull request |-\|/-| 5307 +10 −0 cpp hpp 2|-\|/-| 
+Remove CentOS 5 from 'Getting started' docs |-\|/-| 2017-05-30T11:41:31Z Merged pull request |-\|/-| 5306 +6 −14 md 0|-\|/-| 
+command-plugins.conf: make "by_ssh" use host ssh_port by default |-\|/-| 2017-08-15T10:58:00Z Closed pull request |-\|/-| 5305 +1 −0 conf 1|-\|/-| 
+Update INSTALL.md for RPM builds |-\|/-| 2017-05-30T15:16:58Z Merged pull request |-\|/-| 5304 +64 −9 md 0|-\|/-| 
+RPM: Fix builds on Amazon Linux |-\|/-| 2017-05-31T17:09:25Z Merged pull request |-\|/-| 5303 +28 −8 spec 1|-\|/-| 
+DEPRECATE icinga2-classicui-config package and config files |-\|/-| 2017-05-29T18:35:31Z Merged pull request |-\|/-| 5302 +21 −0 etc/icinga/README cfg cmake htpasswd spec 5|-\|/-| 
+Fix compiler warnings |-\|/-| 2017-05-29T07:17:12Z Merged pull request |-\|/-| 5297 +3 −5 cpp 2|-\|/-| 
+Fix missing apostrophe in notification log |-\|/-| 2017-05-29T05:52:17Z Merged pull request |-\|/-| 5295 +1 −1 cpp 1|-\|/-| 
+Build fix for OpenSSL 0.9.8 and stack_st_X509_EXTENSION |-\|/-| 2017-05-29T07:45:34Z Merged pull request |-\|/-| 5292 +2 −1 cpp 1|-\|/-| 
+Use workqueues in Graphite and InfluxDB features |-\|/-| 2017-05-26T15:17:01Z Merged pull request |-\|/-| 5287 +136 −130 cpp hpp ti 5|-\|/-| 
+Fix verbose mode in notifications scripts |-\|/-| 2017-05-24T12:38:31Z Merged pull request |-\|/-| 5286 +2 −2 conf 1|-\|/-| 
+Fix sysstat installation in troubleshooting docs |-\|/-| 2017-05-24T12:05:25Z Merged pull request |-\|/-| 5285 +2 −2 md 0|-\|/-| 
+Add feature stats to 'icinga' check as performance data metrics |-\|/-| 2017-05-23T15:32:40Z Merged pull request |-\|/-| 5284 +4 −1 cpp 1|-\|/-| 
+Revert LogstashWriter feature |-\|/-| 2017-05-23T11:26:39Z Merged pull request |-\|/-| 5283 +276 −631 md conf txt cpp hpp 4|-\|/-| 
+Implement WorkQueue metric stats and periodic logging |-\|/-| 2017-05-23T14:11:00Z Merged pull request |-\|/-| 5280 +62 −6 cpp hpp 2|-\|/-| 
+Docs: Add API query example for acknowledgements w/o expire time |-\|/-| 2017-05-22T15:51:00Z Merged pull request |-\|/-| 5279 +27 −0 md 0|-\|/-| 
+Build fix for I2_LEAK_DEBUG |-\|/-| 2017-05-22T11:02:19Z Merged pull request |-\|/-| 5278 +2 −2 hpp 1|-\|/-| 
+Add troubleshooting hints for cgroup fork errors |-\|/-| 2017-05-19T13:27:24Z Merged pull request |-\|/-| 5275 +28 −0 md 0|-\|/-| 
+Add API & Cluster metric stats to /v1/status & icinga check incl. performance data |-\|/-| 2017-05-24T14:32:18Z Merged pull request |-\|/-| 5266 +89 −9 cpp hpp 6|-\|/-| 
+Move PerfdataValue() class into base library |-\|/-| 2017-05-15T14:44:58Z Merged pull request |-\|/-| 5265 +36 −33 txt cpp hpp ti 24|-\|/-| 
+Implement new array match functionality |-\|/-| 2017-05-16T12:22:36Z Merged pull request |-\|/-| 5264 +223 −17 md cpp hpp 4|-\|/-| 
+Fix performance data processing in GelfWriter feature |-\|/-| 2017-05-15T12:08:39Z Merged pull request |-\|/-| 5262 +30 −26 cpp 1|-\|/-| 
+Don't allow acknowledgement expire timestamps in the past |-\|/-| 2017-05-15T08:33:26Z Merged pull request |-\|/-| 5259 +11 −2 cpp 2|-\|/-| 
+Fix clang compiler detection on Fedora and macOS |-\|/-| 2017-09-28T14:57:55Z Merged pull request |-\|/-| 5258 +7 −0 txt 0|-\|/-| 
+[needs upstream release] Add check_mailq -d argument for mailq_configdir |-\|/-| 2017-12-19T10:46:53Z Closed pull request |-\|/-| 5255 +6 −1 md conf 1|-\|/-| 
+Fix typo |-\|/-| 2017-05-15T11:49:47Z Closed pull request |-\|/-| 5253 +1 −1 cpp 1|-\|/-| 
+travis: Update to trusty as CI environment |-\|/-| 2017-05-12T14:14:01Z Merged pull request |-\|/-| 5252 +6 −4 yml 1|-\|/-| 
+Fix cluster crash w/ config sync |-\|/-| 2017-05-12T08:55:30Z Merged pull request |-\|/-| 5249 +19 −2 cpp hpp 3|-\|/-| 
+Travis: Run config validation at the end |-\|/-| 2017-05-11T14:53:49Z Merged pull request |-\|/-| 5248 +1 −1 yml 1|-\|/-| 
+Add target object in cluster error messages to debug log |-\|/-| 2017-05-11T14:13:02Z Merged pull request |-\|/-| 5247 +20 −10 cpp 1|-\|/-| 
+Add subjectAltName X509 ext for certificate requests |-\|/-| 2017-05-11T13:46:16Z Merged pull request |-\|/-| 5246 +11 −0 cpp 1|-\|/-| 
+Fix that host downtimes might be triggered even if their state is Up |-\|/-| 2017-05-11T13:07:38Z Merged pull request |-\|/-| 5245 +1 −1 cpp 1|-\|/-| 
+Add a PR review section to CONTRIBUTING.md |-\|/-| 2017-05-11T13:09:54Z Merged pull request |-\|/-| 5244 +56 −0 md 0|-\|/-| 
+Fix that host downtimes might be triggered even if their state is Up |-\|/-| 2017-05-11T12:44:58Z Merged pull request |-\|/-| 5243 +1 −1 cpp 1|-\|/-| 
+Allow expressions for the type in object/template declarations |-\|/-| 2017-05-11T12:30:30Z Merged pull request |-\|/-| 5242 +72 −71 cpp yy hpp 8|-\|/-| 
+Verbose InfluxDB Error Logging |-\|/-| 2017-05-11T11:33:03Z Merged pull request |-\|/-| 5241 +41 −0 cpp hpp 3|-\|/-| 
+Add NSCP API check plugin for NSClient++ HTTP API |-\|/-| 2017-06-13T19:56:59Z Merged pull request |-\|/-| 5239 +549 −52 yml md png spec 3|-\|/-| 
+Remove deprecated "DbCat1 | DbCat2" notation for DB IDO categories |-\|/-| 2017-05-10T12:36:13Z Merged pull request |-\|/-| 5238 +16 −25 md cpp hpp ti 3|-\|/-| 
+Docs: Add a note for Windows debuglog to the troubleshooting chapter |-\|/-| 2017-05-09T15:26:03Z Merged pull request |-\|/-| 5237 +14 −0 md 0|-\|/-| 
+ITL: Add some missing arguments to ssl_cert |-\|/-| 2017-05-09T15:31:46Z Merged pull request |-\|/-| 5236 +22 −3 md conf 1|-\|/-| 
+InfluxdbWriter: Use a work queue for async message processing; add stats log/api |-\|/-| 2017-05-05T16:04:56Z Merged pull request |-\|/-| 5232 +184 −48 md conf cpp 2|-\|/-| 
+Report failure to kill check command after exceeding timeout |-\|/-| 2017-10-13T11:57:27Z Merged pull request |-\|/-| 5231 +19 −5 cpp 1|-\|/-| 
+CMake: require a GCC version according to INSTALL.md |-\|/-| 2017-05-12T15:15:28Z Merged pull request |-\|/-| 5229 +2 −2 txt 0|-\|/-| 
+Allow to run Icinga as unprivileged user |-\|/-| 2017-06-16T19:04:49Z Closed pull request |-\|/-| 5228 +80 −68 txt cpp 1|-\|/-| 
+feature/itl-vmware-esx-storage-path-standbyok |-\|/-| 2017-05-09T05:43:31Z Closed pull request |-\|/-| 5227 +4 −0 md conf 1|-\|/-| 
+RPM spec: don't enable features after an upgrade |-\|/-| 2017-05-11T08:27:15Z Closed pull request |-\|/-| 5226 +7 −4 spec 1|-\|/-| 
+Don't call mysql_error() after a failure of mysql_init() |-\|/-| 2017-05-04T12:58:55Z Merged pull request |-\|/-| 5225 +1 −1 cpp 1|-\|/-| 
+WIP: ConfigObjectUtility::CreateObject(): ignore empty files |-\|/-| 2017-09-06T07:32:49Z Closed pull request |-\|/-| 5221 +24 −3 cpp 1|-\|/-| 
+WIP: Implement Utility::RenameFile() |-\|/-| 2017-09-06T07:30:53Z Closed pull request |-\|/-| 5220 +45 −178 cpp hpp 16|-\|/-| 
+Remove "... is is ..." in CONTRIBUTING.md |-\|/-| 2017-05-03T09:19:19Z Merged pull request |-\|/-| 5216 +1 −1 md 0|-\|/-| 
+Implement Utility::MoveFile() |-\|/-| 2017-05-03T11:06:22Z Closed pull request |-\|/-| 5215 +150 −177 cpp hpp 9|-\|/-| 
+Add report mode to db2_health |-\|/-| 2017-05-09T12:37:44Z Merged pull request |-\|/-| 5210 +6 −1 md conf 1|-\|/-| 
+Add report mode to mssql_health |-\|/-| 2017-05-09T12:52:56Z Merged pull request |-\|/-| 5209 +6 −0 md conf 1|-\|/-| 
+DB IDO: Disable external command history by default |-\|/-| 2017-04-28T07:40:39Z Merged pull request |-\|/-| 5207 +8 −9 md ti 1|-\|/-| 
+Fix typo in Getting Started chapter |-\|/-| 2017-04-28T07:06:45Z Merged pull request |-\|/-| 5203 +1 −1 md 0|-\|/-| 
+Refined documentation for the "update-windows" check plugin |-\|/-| 2017-04-26T15:00:01Z Merged pull request |-\|/-| 5191 +13 −3 md 0|-\|/-| 
+Added information to the "update-windows" check documentation |-\|/-| 2017-04-25T13:44:19Z Closed pull request |-\|/-| 5190 +10 −3 md 0|-\|/-| 
+RPM packaging updates |-\|/-| 2017-05-03T11:47:27Z Closed pull request |-\|/-| 5189 +40 −17 md spec 1|-\|/-| 
+Fix absolute include paths for windows |-\|/-| 2017-04-26T15:00:47Z Merged pull request |-\|/-| 5187 +16 −5 cpp hpp 2|-\|/-| 
+Doc/appendix: fix malformed markdown links |-\|/-| 2017-04-28T08:55:17Z Merged pull request |-\|/-| 5184 +6 −6 md 0|-\|/-| 
+List SELinux packages required for building RPMs |-\|/-| 2017-05-09T14:16:49Z Merged pull request |-\|/-| 5181 +8 −0 md 0|-\|/-| 
+Add missing object type to Apply Rules doc example |-\|/-| 2017-04-20T08:58:24Z Merged pull request |-\|/-| 5174 +1 −1 md 0|-\|/-| 
+Enhance mail notifications scripts and add support for command line parameters |-\|/-| 2017-05-10T11:29:20Z Merged pull request |-\|/-| 5170 +403 −51 conf sh 4|-\|/-| 
+Syntax error In Dependencies chapter |-\|/-| 2017-04-12T09:39:59Z Closed pull request |-\|/-| 5165 +1 −1 md 0|-\|/-| 
+ITL: Add CheckCommand ssl_cert, fix ssl attributes |-\|/-| 2017-05-09T14:11:06Z Merged pull request |-\|/-| 5164 +312 −70 md conf 1|-\|/-| 
+ITL documentation - disk-windows usage note with % thresholds |-\|/-| 2017-04-12T09:46:57Z Closed pull request |-\|/-| 5161 +5 −0 md 0|-\|/-| 
+Changed dependency of selinux subpackage |-\|/-| 2017-04-12T09:49:50Z Merged pull request |-\|/-| 5153 +2 −2 spec 1|-\|/-| 
+Replace http:// links with https:// links where a secure website exists |-\|/-| 2017-04-20T09:34:12Z Closed pull request |-\|/-| 5151 +27 −27 md hpp sql cpp 17|-\|/-| 
+Update documentation, change http:// links to https:// links where a website exists |-\|/-| 2017-04-20T09:34:12Z Closed pull request |-\|/-| 5149 +53 −53 md 0|-\|/-| 
+Add more options to ldap CheckCommand |-\|/-| 2017-04-20T10:20:02Z Closed pull request |-\|/-| 5139 +26 −16 md conf 1|-\|/-| 
+Enhance event command docs with more examples on remote clients |-\|/-| 2017-05-09T15:23:04Z Merged pull request |-\|/-| 5136 +278 −17 md 0|-\|/-| 
+manubulon requires exec permission on satellites & cpu/mem thres |-\|/-| 2017-04-20T09:44:49Z Closed pull request |-\|/-| 5130 +41 −24 md conf 1|-\|/-| 
+Improve systemd service file |-\|/-| 2017-04-12T09:51:59Z Merged pull request |-\|/-| 5127 +1 −1 cmake 1|-\|/-| 
+Added support to NRPE v2 in NRPE CheckCommand |-\|/-| 2017-04-20T09:40:52Z Closed pull request |-\|/-| 5126 +6 −1 md conf 1|-\|/-| 
+Correct link to nscp documentation |-\|/-| 2017-03-30T09:49:05Z Closed pull request |-\|/-| 5104 +1 −1 md 0|-\|/-| 
+RedisWriter: JSON-encode event once |-\|/-| 2017-05-15T12:18:33Z Closed pull request |-\|/-| 5099 +354 −167 cpp hpp txt 3|-\|/-| 
+RedisWriter: publish CIB as a simple "keepalive" |-\|/-| 2017-03-29T09:41:08Z Closed pull request |-\|/-| 5098 +380 −166 cpp hpp txt 3|-\|/-| 
+WIP: Execute initial checks immediately |-\|/-| 2017-08-14T15:56:01Z Closed pull request |-\|/-| 5089 +5 −2 cpp 1|-\|/-| 
+Add LogstashWriter feature |-\|/-| 2017-03-20T15:09:11Z Merged pull request |-\|/-| 5085 +738 −102 md conf txt cpp hpp 4|-\|/-| 
+Add option to let parent downtimes suppress child notifications |-\|/-| 2017-06-16T19:10:54Z Closed pull request |-\|/-| 5079 +16 −0 cpp ti 2|-\|/-| 
+fix mitigation for nwc_health |-\|/-| 2017-03-22T10:16:10Z Closed pull request |-\|/-| 5075 +2 −2 md conf 1|-\|/-| 
+Fixed --details switch |-\|/-| 2017-03-16T09:17:36Z Closed pull request |-\|/-| 5074 +4 −4 conf 1|-\|/-| 
+Add additional arguments to mssql_health |-\|/-| 2017-03-14T14:27:50Z Closed pull request |-\|/-| 5063 +17 −0 md conf 1|-\|/-| 
+Fix missing documentation for mysql_socket attribute |-\|/-| 2017-03-09T13:53:57Z Merged pull request |-\|/-| 5056 +1 −0 md 0|-\|/-| 
+Update command-plugins.conf to add querytype to 'dns' |-\|/-| 2017-03-06T10:12:11Z Closed pull request |-\|/-| 5047 +6 −0 md conf 1|-\|/-| 
+API: Fix error code for invalid 'attrs' type for POST requests |-\|/-| 2017-03-01T10:38:29Z Merged pull request |-\|/-| 5044 +9 −1 cpp 1|-\|/-| 
+Add link to upgrade documentation to log message |-\|/-| 2017-05-09T14:17:59Z Merged pull request |-\|/-| 5042 +4 −2 cpp 2|-\|/-| 
+Fixed return code check in CRL loading (#5040). |-\|/-| 2017-02-28T13:08:48Z Closed pull request |-\|/-| 5041 +1 −1 cpp 1|-\|/-| 
+Docs: Fix typo in Distributed Monitoring chapter |-\|/-| 2017-02-24T15:08:46Z Merged pull request |-\|/-| 5036 +1 −1 md 0|-\|/-| 
+DB IDO: Fix actual_end_time update for non-triggered flexible downtimes |-\|/-| 2017-02-24T14:31:13Z Merged pull request |-\|/-| 5034 +6 −2 cpp 1|-\|/-| 
+add --if-names option to check_interfaces |-\|/-| 2017-02-28T13:15:16Z Closed pull request |-\|/-| 5032 +5 −0 md conf 1|-\|/-| 
+Docs: Fixes and enhancements for acks, comments and downtimes |-\|/-| 2017-02-23T16:55:05Z Merged pull request |-\|/-| 5031 +61 −16 md 0|-\|/-| 
+Add an advanced example for apply rules to the docs |-\|/-| 2017-02-23T12:46:28Z Merged pull request |-\|/-| 5027 +82 −0 md 0|-\|/-| 
+Fix notify/sticky parameter handling in 'acknowledge-problem' API action |-\|/-| 2017-02-23T11:33:27Z Merged pull request |-\|/-| 5026 +5 −5 md cpp 1|-\|/-| 
+Fix IDO MySQL "command out of sync" error with lots of comments/downtimes upsert queries |-\|/-| 2017-02-23T11:06:42Z Merged pull request |-\|/-| 5025 +84 −1 cpp 1|-\|/-| 
+Added CheckCommand definitions for SMART, RAID controller and IPMI ping check |-\|/-| 2017-03-09T16:36:40Z Closed pull request |-\|/-| 5019 +121 −3 md conf 3|-\|/-| 
+Add fuse.gvfs-fuse-daemon to disk_exclude_type |-\|/-| 2017-02-20T13:39:00Z Closed pull request |-\|/-| 5016 +2 −2 md conf 1|-\|/-| 
+nwc_health_report attribute requires a value |-\|/-| 2017-03-09T15:35:30Z Closed pull request |-\|/-| 5015 +3 −3 md conf 1|-\|/-| 
+WIP: Make strings valid UTF-8 before JSON-encoding them |-\|/-| 2017-10-09T11:58:32Z Closed pull request |-\|/-| 5014 +5 −1 cpp 1|-\|/-| 
+Adding a forgotten parameter in manubulon doc : snmp_v3_use_authprotocol |-\|/-| 2017-02-16T11:00:54Z Closed pull request |-\|/-| 5012 +5 −0 md 0|-\|/-| 
+Allow to run CLI without root |-\|/-| 2017-02-16T10:40:00Z Closed pull request |-\|/-| 5009 +9 −9 cpp 9|-\|/-| 
+WIP: Don't disconnect API clients (HTTP) automatically (after 10s) |-\|/-| 2017-09-25T14:26:30Z Closed pull request |-\|/-| 5008 +0 −35 cpp hpp 2|-\|/-| 
+Add a log message for RedisWriter on start and stop. |-\|/-| 2017-02-15T13:33:18Z Closed pull request |-\|/-| 5006 +12 −0 cpp hpp 2|-\|/-| 
+Fix hostnames in docs for distriuted monitoring |-\|/-| 2017-02-14T11:54:06Z Closed pull request |-\|/-| 5001 +16 −16 md 0|-\|/-| 
+change `dummy` CheckCommand. fixes #4987 |-\|/-| 2017-02-13T12:53:17Z Closed pull request |-\|/-| 4993 +16 −5 conf 1|-\|/-| 
+Added CheckCommand definitions for SMART, RAID controller and IPMI ping check |-\|/-| 2017-02-21T12:58:09Z Closed pull request |-\|/-| 4990 +99 −0 md conf 3|-\|/-| 
+Unify the JSON structures of responses… |-\|/-| 2017-02-09T12:53:49Z Closed pull request |-\|/-| 4988 +3 −8 cpp 1|-\|/-| 
+Allow to use local mode of hpasm. fixes #4985 |-\|/-| 2017-03-10T17:54:14Z Closed pull request |-\|/-| 4986 +9 −3 md conf 1|-\|/-| 
+Fix Check Output Parsing |-\|/-| 2017-05-15T12:20:28Z Closed pull request |-\|/-| 4970 +20 −12 cpp 2|-\|/-| 
+ITL: check_icmp: add missing TTL attribute |-\|/-| 2017-02-07T15:59:54Z Closed pull request |-\|/-| 4964 +3 −1 md conf 1|-\|/-| 
+ITL: Add report option to shorten output for oracle_health CheckCommand |-\|/-| 2017-02-07T16:03:27Z Closed pull request |-\|/-| 4963 +7 −1 md conf 1|-\|/-| 
+WIP: Support for Windows Server Nano |-\|/-| 2017-12-19T10:45:28Z Closed pull request |-\|/-| 4957 +46 −14 txt cpp hpp 3|-\|/-| 
+Fix persistent comments for Acknowledgements |-\|/-| 2017-05-10T15:15:56Z Merged pull request |-\|/-| 4956 +55 −34 md cpp hpp ti 13|-\|/-| 
+IDO compliance for MySQL 5.7 |-\|/-| 2017-01-27T13:16:41Z Merged pull request |-\|/-| 4951 +165 −165 0|-\|/-| 
+doc/6-distributed-monitoring.md: Fix typo |-\|/-| 2017-01-27T13:27:46Z Closed pull request |-\|/-| 4944 +1 −1 md 0|-\|/-| 
+PerfData: Server Timeouts for InfluxDB Writer |-\|/-| 2017-02-07T16:08:03Z Closed pull request |-\|/-| 4941 +16 −4 md cpp hpp ti 3|-\|/-| 
+fix ssl cert check when SNI is used |-\|/-| 2017-02-07T09:58:36Z Closed pull request |-\|/-| 4936 +3 −0 md conf 1|-\|/-| 
+Use OpenSSL 1.1 binaries on Windows if available. |-\|/-| 2017-04-06T12:03:36Z Closed pull request |-\|/-| 4932 +22 −3 txt 0|-\|/-| 
+adds configfs to vars.disk_exclude_type |-\|/-| 2017-02-02T09:52:02Z Closed pull request |-\|/-| 4928 +1 −1 conf 1|-\|/-| 
+FreeBSD's /dev/fd can either be inside devfs, or be of type fdescfs. |-\|/-| 2017-02-07T16:10:08Z Closed pull request |-\|/-| 124 +1 −1 conf 1|-\|/-| 
+ITL: Update ipmi CheckCommand attributes  |-\|/-| 2017-02-07T16:14:43Z Closed pull request |-\|/-| 123 +38 −3 md conf 2|-\|/-| 
+Update event handler example for SSH |-\|/-| 2017-05-10T12:48:36Z Merged pull request |-\|/-| 122 +10 −31 md 0|-\|/-| 
+give only warnings if feature is already disabled |-\|/-| 2017-02-02T13:24:46Z Closed pull request |-\|/-| 121 +2 −3 cpp 1|-\|/-| 
+Add new parameter for check_http: -L: Wrap output in HTML link |-\|/-| 2017-02-07T16:18:07Z Closed pull request |-\|/-| 120 +7 −1 md conf 1|-\|/-| 
+Don't crash on large IPC control messages |-\|/-| 2017-02-02T13:04:59Z Closed pull request |-\|/-| 119 +65 −12 cpp 1|-\|/-| 
+WIP: Flapping: added doc, screenshot, and three bugfixes |-\|/-| 2017-11-02T14:33:13Z Closed pull request |-\|/-| 118 +21 −8 md png cpp 2|-\|/-| 
+Support --only-critical for check_apt |-\|/-| 2017-02-16T10:08:33Z Closed pull request |-\|/-| 117 +5 −0 md conf 1|-\|/-| 
+Update links to icinga repository |-\|/-| 2017-01-10T16:20:32Z Closed pull request |-\|/-| 116 +19 −18 md 0|-\|/-| 
+Inverse Interface Switch for snmp-interface |-\|/-| 2017-02-07T16:34:55Z Closed pull request |-\|/-| 115 +4 −0 md conf 1|-\|/-| 
+Adding -A to snmp interfaces check |-\|/-| 2017-02-07T16:26:59Z Closed pull request |-\|/-| 114 +4 −0 conf 1|-\|/-| 
+fix template for pnp-hst |-\|/-| 2016-12-05T13:53:27Z Closed pull request |-\|/-| 113 +1 −1 md 0|-\|/-| 
+Update: ITL: Add timeout option for mysql_health CheckCommand |-\|/-| 2016-12-06T16:54:27Z Closed pull request |-\|/-| 112 +1 −0 md 0|-\|/-| 
+WIP: Increase limit for large scale/high performance |-\|/-| 2017-06-21T14:36:22Z Closed pull request |-\|/-| 111 +2 −2 cpp 1|-\|/-| 
+Add possibility to set verbose parameter for check_http |-\|/-| 2016-12-06T17:01:17Z Closed pull request |-\|/-| 110 +44 −16 conf cpp 3|-\|/-| 
+Add sudo option on check_mailq |-\|/-| 2016-12-06T17:04:59Z Closed pull request |-\|/-| 109 +5 −0 md conf 1|-\|/-| 
+ITL: Add timeout option for mysql_health CheckCommand |-\|/-| 2016-12-06T16:54:11Z Closed pull request |-\|/-| 108 +4 −0 conf 1|-\|/-| 
+Fix a typo in 11-cli-commands.md |-\|/-| 2016-11-21T12:40:03Z Closed pull request |-\|/-| 107 +1 −1 md 0|-\|/-| 
+Fix bad heading level for {commands,groups}.conf |-\|/-| 2016-10-17T08:33:19Z Closed pull request |-\|/-| 106 +2 −2 md 0|-\|/-| 
+add concurrent_checks in CheckerComponent example config so it shows … |-\|/-| 2016-12-06T17:08:04Z Closed pull request |-\|/-| 105 +3 −1 md 0|-\|/-| 
+Docs: fix typo |-\|/-| 2016-09-30T08:23:50Z Closed pull request |-\|/-| 104 +1 −1 md 0|-\|/-| 
+Add an example of multi-parents configuration. |-\|/-| 2016-09-30T08:28:24Z Closed pull request |-\|/-| 103 +28 −0 md 0|-\|/-| 
+Fixes a typo |-\|/-| 2016-09-29T06:33:22Z Closed pull request |-\|/-| 102 +5 −5 md cpp 1|-\|/-| 
+Radius CheckCommand |-\|/-| 2016-09-29T06:43:15Z Closed pull request |-\|/-| 101 +70 −0 md conf 1|-\|/-| 
+Upadate 10-icinga-template-library.md adding iostats |-\|/-| 2016-09-01T13:31:51Z Closed pull request |-\|/-| 100 +20 −0 md 0|-\|/-| 
+add the checkCommand for check_iostats |-\|/-| 2016-09-29T06:40:05Z Closed pull request |-\|/-| 99 +56 −0 md conf 1|-\|/-| 
+Update 10-icinga-template-library.md |-\|/-| 2016-09-01T09:54:49Z Closed pull request |-\|/-| 98 +4 −4 md 0|-\|/-| 
+Remove inode default values |-\|/-| 2016-08-29T16:11:04Z Closed pull request |-\|/-| 97 +0 −2 conf 1|-\|/-| 
+Fixes 12586 - Adds bool switch for procurve / HP memory |-\|/-| 2016-08-29T16:24:58Z Closed pull request |-\|/-| 96 +5 −0 md conf 1|-\|/-| 
+fix description of -a and -n for check_swap |-\|/-| 2016-08-28T06:03:35Z Closed pull request |-\|/-| 95 +2 −2 conf 1|-\|/-| 
+Detect logrotate not installed in /usr/sbin |-\|/-| 2016-08-24T19:12:11Z Closed pull request |-\|/-| 94 +2 −1 txt 0|-\|/-| 
+Docs: fix typo in Notification object |-\|/-| 2016-08-19T11:18:07Z Closed pull request |-\|/-| 93 +1 −1 md 0|-\|/-| 
+changes to the documentation chapter 6 |-\|/-| 2016-08-20T18:59:24Z Closed pull request |-\|/-| 92 +23 −7 md 0|-\|/-| 
+Don't violate POSIX by ensuring that the argument to usleep(3) is less than 1000000 |-\|/-| 2016-08-10T10:31:07Z Closed pull request |-\|/-| 91 +5 −1 cpp 1|-\|/-| 
+Don't violate POSIX by ensuring that the argument to usleep(3) is less than 1000000 |-\|/-| 2016-08-10T09:53:44Z Closed pull request |-\|/-| 90 +5 −1 cpp 1|-\|/-| 
+Add vars for all check_swap args |-\|/-| 2016-08-11T07:08:43Z Closed pull request |-\|/-| 89 +23 −4 conf 1|-\|/-| 
+added the retries parameter to check_snmp command |-\|/-| 2016-08-05T12:51:45Z Closed pull request |-\|/-| 88 +2 −0 md conf 1|-\|/-| 
+Update command-plugins.conf |-\|/-| 2016-08-01T13:49:11Z Closed pull request |-\|/-| 87 +4 −1 conf 1|-\|/-| 
+Fixing wrong variable name |-\|/-| 2016-06-27T08:46:17Z Closed pull request |-\|/-| 86 +29 −29 md 0|-\|/-| 
+Adding option to access ifName. |-\|/-| 2016-06-27T07:28:26Z Closed pull request |-\|/-| 85 +5 −0 md conf 1|-\|/-| 
+Update 6-object-types.md |-\|/-| 2016-06-07T06:27:23Z Closed pull request |-\|/-| 84 +10 −1 md 0|-\|/-| 
+fix varios typos |-\|/-| 2016-06-13T14:44:07Z Closed pull request |-\|/-| 83 +7 −7 md cpp 1|-\|/-| 
+fix the formatting of `systemctl reload icinga2` |-\|/-| 2016-06-06T12:04:30Z Closed pull request |-\|/-| 82 +1 −0 md 0|-\|/-| 
+Updated command definition and documentation for check_esxi_hardware |-\|/-| 2016-06-06T11:48:34Z Closed pull request |-\|/-| 81 +6 −0 md conf 1|-\|/-| 
+Revert "use HTTPS for debmon.org" |-\|/-| 2016-05-17T13:25:07Z Closed pull request |-\|/-| 80 +0 −0 0|-\|/-| 
+use HTTPS for debmon.org |-\|/-| 2016-05-17T12:21:08Z Merged pull request |-\|/-| 79 +2 −2 md 0|-\|/-| 
+fix typo in vim syntax highlighting |-\|/-| 2016-04-19T10:03:02Z Closed pull request |-\|/-| 78 +1 −1 vim 1|-\|/-| 
+Add SSL support to MySQL connections via IDO |-\|/-| 2016-05-03T13:15:33Z Closed pull request |-\|/-| 77 +66 −1 md conf cpp ti 4|-\|/-| 
+InfluxDB Writer |-\|/-| 2016-05-03T13:16:32Z Closed pull request |-\|/-| 76 +617 −2 md conf txt 1|-\|/-| 
+Re-add the 'su' directive to logrotate if supported |-\|/-| 2016-03-29T12:59:47Z Closed pull request |-\|/-| 75 +18 −2 txt cmake 1|-\|/-| 
+implements the feature for making the supported ciphers configureable |-\|/-| 2016-08-08T20:27:16Z Closed pull request |-\|/-| 74 +46 −0 md cpp hpp ti 4|-\|/-| 
+Feature/feature api tls ciphers define 11063 |-\|/-| 2016-03-11T18:06:42Z Closed pull request |-\|/-| 73 +179 −35 md cpp hpp 6|-\|/-| 
+snmp: added the "-e" parameter to allow setting retries |-\|/-| 2016-04-14T09:54:47Z Closed pull request |-\|/-| 72 +1 −0 conf 1|-\|/-| 
+Implement exclude and include ability for timeranges |-\|/-| 2016-05-21T21:50:10Z Closed pull request |-\|/-| 71 +35 −1 md cpp ti 2|-\|/-| 
+Implement exclude and include ability for timeranges |-\|/-| 2016-02-28T22:51:53Z Closed pull request |-\|/-| 70 +35 −0 md cpp ti 2|-\|/-| 
+Added query option to check_postgres |-\|/-| 2016-02-23T22:31:26Z Closed pull request |-\|/-| 69 +15 −0 md conf 1|-\|/-| 
+Fix parsing of YYYY-MM-DD in LegacyTimePeriod::ParseTimeSpec |-\|/-| 2016-02-10T15:47:06Z Closed pull request |-\|/-| 68 +9 −4 cpp 1|-\|/-| 
+Make check_source a varchar(255) column |-\|/-| 2016-06-27T08:46:56Z Closed pull request |-\|/-| 67 +47 −5 sql 4|-\|/-| 
+Add SSL support to MySQL connections via IDO |-\|/-| 2016-05-03T13:15:17Z Closed pull request |-\|/-| 66 +60 −0 md conf cpp ti 4|-\|/-| 
+Add SSL support to MySQL connections via IDO |-\|/-| 2016-01-22T00:55:25Z Closed pull request |-\|/-| 65 +61 −0 md conf cpp ti 4|-\|/-| 
+Reload logs after logrotate across distros |-\|/-| 2016-01-21T09:16:54Z Closed pull request |-\|/-| 64 +1 −5 cmake 1|-\|/-| 
+Bug #10979 |-\|/-| 2016-01-18T14:45:51Z Closed pull request |-\|/-| 63 +3 −1 md conf 1|-\|/-| 
+#10975 - Add the exclude drive parameter for CheckCommand "disk-windows" |-\|/-| 2016-01-18T09:09:32Z Closed pull request |-\|/-| 62 +11 −6 md conf 1|-\|/-| 
+Memory leaks |-\|/-| 2016-01-15T11:41:46Z Closed pull request |-\|/-| 61 +3 −1 cpp 2|-\|/-| 
+Add network.target to unit file |-\|/-| 2016-01-14T09:13:11Z Closed pull request |-\|/-| 60 +1 −1 cmake 1|-\|/-| 
+Update logrotate conf to supress stderr output |-\|/-| 2016-01-21T09:16:06Z Closed pull request |-\|/-| 59 +1 −1 cmake 1|-\|/-| 
+Remove superfluous ifdef |-\|/-| 2015-12-18T10:17:10Z Closed pull request |-\|/-| 58 +0 −4 cpp 1|-\|/-| 
+Add timeout to snmpv3 check |-\|/-| 2016-01-14T16:56:14Z Closed pull request |-\|/-| 57 +3 −0 md conf 1|-\|/-| 
+Allow overwriting expected answer of dns check |-\|/-| 2016-12-06T17:20:16Z Closed pull request |-\|/-| 56 +4 −1 conf 1|-\|/-| 
+doc/5-advanced-topics: add example how to use custom functions in attributes |-\|/-| 2016-01-14T16:36:40Z Closed pull request |-\|/-| 55 +26 −0 md 0|-\|/-| 
+doc: minor typo fixes |-\|/-| 2015-11-20T15:15:14Z Closed pull request |-\|/-| 54 +24 −25 md 0|-\|/-| 
+check_network fixed performance data |-\|/-| 2016-01-11T08:52:54Z Closed pull request |-\|/-| 53 +2 −2 cpp 1|-\|/-| 
+Don't try to use --gc-sections on SunOS |-\|/-| 2015-11-06T16:04:02Z Closed pull request |-\|/-| 52 +1 −1 txt 0|-\|/-| 
+Make check apt command timeout configurable |-\|/-| 2015-10-23T13:08:42Z Closed pull request |-\|/-| 51 +12 −1 md conf 1|-\|/-| 
+Make check apt command timeout configurable |-\|/-| 2015-10-22T15:35:14Z Closed pull request |-\|/-| 50 +13 −1 md conf 1|-\|/-| 
+Update 3-monitoring-basics.md |-\|/-| 2015-10-26T06:50:30Z Closed pull request |-\|/-| 49 +1 −1 md 0|-\|/-| 
+Add port configuration to snmp checks (Feature #10423) |-\|/-| 2015-10-21T16:08:37Z Closed pull request |-\|/-| 48 +2 −0 md conf 1|-\|/-| 
+Add notes on FreeBSD setup |-\|/-| 2015-10-08T01:08:39Z Closed pull request |-\|/-| 47 +47 −1 md 0|-\|/-| 
+Rather use SID for setting rights on $INSTALLDIR |-\|/-| 2015-09-24T06:47:02Z Closed pull request |-\|/-| 46 +1 −1 txt 0|-\|/-| 
+Update icinga2.te |-\|/-| 2015-08-26T13:22:55Z Closed pull request |-\|/-| 45 +25 −1 te 1|-\|/-| 
+Update 3-monitoring-basics.md |-\|/-| 2015-10-13T07:55:24Z Closed pull request |-\|/-| 44 +0 −31 md 0|-\|/-| 
+Issue 9858: Gelf module: exposed 'perfdata' fields and 'reachable' field for 'CHECK_RESULT' events |-\|/-| 2015-12-18T10:12:27Z Closed pull request |-\|/-| 43 +43 −0 conf cpp ti 3|-\|/-| 
+snmpv3 CheckCommand section improved |-\|/-| 2015-08-07T11:41:28Z Closed pull request |-\|/-| 42 +86 −25 md conf 1|-\|/-| 
+Added "-r" parameter to the check_load command for dividing the load averages by the number of CPUs. |-\|/-| 2015-07-22T08:06:57Z Closed pull request |-\|/-| 41 +15 −2 md conf 1|-\|/-| 
+Making the disk check only run on icinga node. |-\|/-| 2015-07-08T10:53:06Z Closed pull request |-\|/-| 40 +2 −0 conf 1|-\|/-| 
+9443 Added examples for dynamic notification apply rule |-\|/-| 2015-07-08T11:11:14Z Closed pull request |-\|/-| 39 +45 −1 md 0|-\|/-| 
+Update 10-icinga2-client.md regarding update-config |-\|/-| 2015-10-13T08:02:46Z Closed pull request |-\|/-| 38 +1 −1 md 0|-\|/-| 
+grammer fix in doc/3-monitoring-basics.md |-\|/-| 2015-06-19T02:53:08Z Closed pull request |-\|/-| 37 +1 −1 md 0|-\|/-| 
+Typo fix. |-\|/-| 2015-06-19T02:52:56Z Closed pull request |-\|/-| 36 +1 −1 md 0|-\|/-| 
+indent accept_config and accept_commands |-\|/-| 2015-06-19T07:23:46Z Closed pull request |-\|/-| 35 +8 −4 cpp 2|-\|/-| 
+Update 22-appendix.md |-\|/-| 2015-06-09T08:40:04Z Closed pull request |-\|/-| 34 +4 −3 md 0|-\|/-| 
+Removed seemingly unnecessary paths in spec |-\|/-| 2015-05-19T16:44:24Z Closed pull request |-\|/-| 33 +0 −2 spec 1|-\|/-| 
+Add Agent System Requirements to Docs 10-icinga2-client.md |-\|/-| 2015-06-09T08:35:27Z Closed pull request |-\|/-| 32 +1 −0 md 0|-\|/-| 
+typo fix |-\|/-| 2015-06-09T08:25:29Z Closed pull request |-\|/-| 31 +1 −1 md 0|-\|/-| 
+Add "ldap" CheckCommand |-\|/-| 2015-04-25T11:37:54Z Closed pull request |-\|/-| 30 +50 −0 md conf 1|-\|/-| 
+Terminate string literals |-\|/-| 2015-04-24T06:32:14Z Closed pull request |-\|/-| 29 +2 −2 conf 1|-\|/-| 
+change user/service objDef order |-\|/-| 2015-04-11T09:28:18Z Closed pull request |-\|/-| 28 +1 −1 vim 1|-\|/-| 
+Added possibility to set securityLevel, e.g. if using snmpv3 without enc... |-\|/-| 2015-06-19T07:01:05Z Closed pull request |-\|/-| 27 +4 −2 md conf 1|-\|/-| 
+update perf data host macros |-\|/-| 2015-03-26T11:06:29Z Closed pull request |-\|/-| 26 +1 −1 md 0|-\|/-| 
+Update 7-configuring-icinga-2.md |-\|/-| 2015-03-09T12:50:06Z Closed pull request |-\|/-| 25 +1 −0 md 0|-\|/-| 
+ITL: Implement various options for the Snmp CheckCommand, including mib-list |-\|/-| 2015-02-24T20:54:16Z Closed pull request |-\|/-| 24 +23,935 −15,603 mailmap AUTHORS txt ChangeLog md 3|-\|/-| 
+Add macro "check_source" for hosts and services to use them in notification mails |-\|/-| 2015-01-25T15:07:04Z Closed pull request |-\|/-| 23 +8 −0 md cpp 2|-\|/-| 
+Removed mail_from from check_ssmtp command. |-\|/-| 2015-01-21T09:28:08Z Merged pull request |-\|/-| 22 +0 −2 md conf 1|-\|/-| 
+get agent checks working inside an ha zone |-\|/-| 2015-02-12T16:57:31Z Closed pull request |-\|/-| 21 +77 −23 cpp hpp 3|-\|/-| 
+Fix rpmspec build for el7-like machines |-\|/-| 2015-02-08T11:07:42Z Closed pull request |-\|/-| 20 +3 −0 spec 1|-\|/-| 
+Fix failures for ido-mysql upgrades |-\|/-| 2015-02-08T11:07:54Z Closed pull request |-\|/-| 19 +4 −6 sql 2|-\|/-| 
+Fix group permission in prepare-dirs |-\|/-| 2014-11-29T19:18:32Z Closed pull request |-\|/-| 18 +1 −1 etc/initsystem/prepare-dirs 1|-\|/-| 
+Adding missing command |-\|/-| 2014-11-26T16:39:58Z Closed pull request |-\|/-| 17 +1 −1 md 0|-\|/-| 
+Fix Remote Client Documentation |-\|/-| 2014-11-27T10:09:10Z Closed pull request |-\|/-| 16 +0 −2 md 0|-\|/-| 
+Un-Bashify mail-{host,service}-notification.sh |-\|/-| 2014-12-02T09:00:36Z Closed pull request |-\|/-| 15 +6 −6 sh 2|-\|/-| 
+Conditionally enable MySQL and PostgresSQL, add support for FreeBSD and DragonFlyBSD |-\|/-| 2014-11-14T09:48:13Z Closed pull request |-\|/-| 14 +30 −8 txt md cmake 1|-\|/-| 
+[#7338] Docs. Default command timeout is 60 seconds, not 5 minutes. |-\|/-| 2014-10-11T16:39:00Z Closed pull request |-\|/-| 13 +3 −3 md 0|-\|/-| 
+Fix reading perfdata in compat/checkresultreader |-\|/-| 2014-10-11T16:48:46Z Closed pull request |-\|/-| 12 +1 −1 cpp 1|-\|/-| 
+Make reload timeout configurable via command-line arg |-\|/-| 2015-02-08T11:08:46Z Closed pull request |-\|/-| 11 +18 −1 cpp hpp 3|-\|/-| 
+Fixing some config errors |-\|/-| 2014-09-18T11:22:42Z Closed pull request |-\|/-| 10 +2 −2 conf 1|-\|/-| 
+Fix/doc getting started service systemctl |-\|/-| 2014-09-18T11:23:01Z Closed pull request |-\|/-| 9 +50 −1 md cpp 1|-\|/-| 
+Further differentiation between service and systemctl |-\|/-| 2014-09-18T11:23:09Z Closed pull request |-\|/-| 8 +17 −5 md cpp 1|-\|/-| 
+Fix perfdata double value type formatting exported to graphite |-\|/-| 2014-07-18T07:58:57Z Closed pull request |-\|/-| 7 +1 −1 cpp 1|-\|/-| 
+Added check_ide_smart command |-\|/-| 2014-07-25T16:03:11Z Closed pull request |-\|/-| 6 +27 −0 md conf 1|-\|/-| 
+Icinga spec fixes |-\|/-| 2014-07-11T07:15:18Z Closed pull request |-\|/-| 5 +74 −67 txt spec 1|-\|/-| 
+Extend http CheckCommand to accept --expected http status return codes |-\|/-| 2014-07-28T06:45:18Z Closed pull request |-\|/-| 4 +2 −0 conf 1|-\|/-| 
+Adding ports to checks pop/imap/smtp and new check dig |-\|/-| 2014-06-22T12:30:13Z Closed pull request |-\|/-| 3 +16 −0 conf 1|-\|/-| 
+Add notes about certificate permission |-\|/-| 2014-03-31T16:13:45Z Closed pull request |-\|/-| 2 +3 −1 md 0|-\|/-| 
+Add notes about certificate permission  |-\|/-| 2014-02-04T10:53:39Z Closed pull request |-\|/-| 1 +6 −0 md 0|-\|/-| 

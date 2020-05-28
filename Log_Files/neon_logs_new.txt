@@ -1,0 +1,80 @@
+Add legal discontinuation notice |-\|/-| 2019-05-22T18:27:55Z Merged pull request |-\|/-| 468 +2 −0 md 0|-\|/-| 
+Update tox_requirements.txt |-\|/-| 2019-04-18T21:32:54Z Merged pull request |-\|/-| 466 +2 −2 txt 0|-\|/-| 
+Update requirements to use jinja 2.8.1 |-\|/-| 2019-04-10T20:43:44Z Closed pull request |-\|/-| 465 +1 −1 txt 0|-\|/-| 
+MKL build for Windows(msys64) |-\|/-| 2017-11-17T05:32:17Z Closed pull request |-\|/-| 407 +79 −24 sh neon/backends/mklEngine/Makefile bat py 6|-\|/-| 
+docker with MKL |-\|/-| 2017-10-16T12:44:23Z Closed pull request |-\|/-| 403 +1 −0 rst 1|-\|/-| 
+Resolves issue #401 |-\|/-| 2017-10-16T12:44:38Z Closed pull request |-\|/-| 402 +1 −1 py 1|-\|/-| 
+docfix code-block directive renders as serif font on linux oses; fix … |-\|/-| 2017-10-02T02:38:35Z Closed pull request |-\|/-| 399 +2 −2 css 1|-\|/-| 
+Fix regexp left brack escape for Perl 5.26 |-\|/-| 2017-11-18T15:58:09Z Closed pull request |-\|/-| 397 +1 −1 pm 1|-\|/-| 
+Add dist to .gitignore |-\|/-| 2017-09-26T01:44:46Z Closed pull request |-\|/-| 396 +1 −0 gitignore 1|-\|/-| 
+Raise ValueError on shape mismatch in CrossEntropyBinary |-\|/-| 2017-09-26T01:44:52Z Closed pull request |-\|/-| 395 +7 −1 py 1|-\|/-| 
+Documentation of examples and minor modifications to scripts. |-\|/-| 2017-08-16T17:15:02Z Closed pull request |-\|/-| 392 +255 −17 md py 5|-\|/-| 
+Fixed use of reset_cells hyperparameter in examples/imdb_lstm.py |-\|/-| 2017-10-02T02:39:35Z Closed pull request |-\|/-| 391 +14 −4 Makefile py loader/Makefile 3|-\|/-| 
+Makefiles now check for virtualenv and pkg-config. |-\|/-| 2017-08-17T16:52:48Z Closed pull request |-\|/-| 383 +10 −0 Makefile loader/Makefile 2|-\|/-| 
+fix duplicate dir name when saving image in examples/cifar10_msra/data.py |-\|/-| 2017-10-16T17:29:48Z Closed pull request |-\|/-| 380 +1 −1 py 1|-\|/-| 
+Documentation_update |-\|/-| 2017-09-27T07:47:03Z Closed pull request |-\|/-| 378 +5 −4 md rst 1|-\|/-| 
+Clean cifar10 docs |-\|/-| 2017-11-27T19:50:11Z Closed pull request |-\|/-| 377 +1 −1 rst 1|-\|/-| 
+Implement Randomized Leaky ReLU |-\|/-| 2017-10-02T04:31:52Z Closed pull request |-\|/-| 373 +24 −12 py 2|-\|/-| 
+Fix missing links in api.rst. |-\|/-| 2017-05-04T06:43:23Z Closed pull request |-\|/-| 366 +5 −11 rst py 2|-\|/-| 
+Fixed docstring for --datatype option. |-\|/-| 2017-05-04T06:43:52Z Closed pull request |-\|/-| 357 +1 −1 bin/neon 1|-\|/-| 
+More general perl shebang, allow to build with numpy 1.12 |-\|/-| 2017-05-04T06:43:38Z Closed pull request |-\|/-| 356 +6 −6 pl py 3|-\|/-| 
+Replace `os.path.join` with `'/'.join` |-\|/-| 2017-05-04T06:44:08Z Closed pull request |-\|/-| 351 +1 −1 py 1|-\|/-| 
+replace `type is` check with `isinstance` check |-\|/-| 2017-02-08T22:03:04Z Closed pull request |-\|/-| 348 +2 −2 py 1|-\|/-| 
+Add test only for cpu |-\|/-| 2017-10-02T04:32:07Z Closed pull request |-\|/-| 343 +218 −80 py 3|-\|/-| 
+put const calculation out from loop |-\|/-| 2017-10-02T04:32:36Z Closed pull request |-\|/-| 340 +1 −1 py 1|-\|/-| 
+use xrange based range |-\|/-| 2017-11-02T22:49:26Z Closed pull request |-\|/-| 339 +22 −20 Makefile py 10|-\|/-| 
+fix documentation errors |-\|/-| 2016-12-29T18:53:51Z Closed pull request |-\|/-| 331 +18 −4 rst md 4|-\|/-| 
+fixed typo in data loading docs |-\|/-| 2016-11-21T17:08:26Z Closed pull request |-\|/-| 319 +1 −1 rst 1|-\|/-| 
+Fix a typo in the doc "Convolutional Neural Network example" |-\|/-| 2016-11-21T17:09:35Z Closed pull request |-\|/-| 315 +1 −1 rst 1|-\|/-| 
+fix incorrect comments for deconv_layer in cpu backend |-\|/-| 2016-09-21T18:06:39Z Closed pull request |-\|/-| 301 +15 −14 py 1|-\|/-| 
+fix conv/deconv tests for CPU execution and fix i32 data type |-\|/-| 2016-09-06T19:47:50Z Closed pull request |-\|/-| 291 +14 −4 py 2|-\|/-| 
+Fix broken link in mnist docs |-\|/-| 2016-09-06T20:51:33Z Closed pull request |-\|/-| 284 +1 −1 rst 1|-\|/-| 
+Fix for PrecisionRecall.__call__ unexpected calcrange kwarg |-\|/-| 2016-07-15T17:47:13Z Closed pull request |-\|/-| 268 +1 −1 py 1|-\|/-| 
+python3 compatibility changes |-\|/-| 2016-06-22T22:08:58Z Closed pull request |-\|/-| 256 +7 −7 py 3|-\|/-| 
+add prototype installdeps.sh, works for ubuntu 16.04 |-\|/-| 2017-11-23T21:31:27Z Closed pull request |-\|/-| 247 +36 −0 sh 1|-\|/-| 
+Updating API in MNIST tutorial |-\|/-| 2016-06-22T22:16:05Z Closed pull request |-\|/-| 225 +1 −1 rst 1|-\|/-| 
+Give information about depth if present when printing Convolution layers |-\|/-| 2016-04-13T21:59:20Z Closed pull request |-\|/-| 222 +17 −6 py 1|-\|/-| 
+Add support for FreeBSD |-\|/-| 2016-04-13T21:59:20Z Closed pull request |-\|/-| 219 +4 −0 neon/data/loader/Makefile 1|-\|/-| 
+Update tutorials.rst |-\|/-| 2016-03-17T17:15:24Z Closed pull request |-\|/-| 215 +1 −1 rst 1|-\|/-| 
+Fix typos in `tests` module (except `backend.py`). |-\|/-| 2016-03-08T19:25:52Z Merged pull request |-\|/-| 211 +22 −22 py 20|-\|/-| 
+Fix typos in comments and strings in `examples` module. |-\|/-| 2016-03-04T05:12:12Z Closed pull request |-\|/-| 209 +7 −7 py md 6|-\|/-| 
+small typo in docstring for pool_layer (str_d -> str_j) |-\|/-| 2016-03-04T02:00:20Z Merged pull request |-\|/-| 207 +1 −1 py 1|-\|/-| 
+Merge pull request #1 from NervanaSystems/master |-\|/-| 2016-02-26T17:40:54Z Closed pull request |-\|/-| 205 +0 −0 0|-\|/-| 
+Correct "validation_freq" to "eval_freq" |-\|/-| 2016-01-30T02:33:26Z Merged pull request |-\|/-| 190 +1 −1 py 1|-\|/-| 
+Add Docker images to docs |-\|/-| 2016-01-14T20:22:12Z Merged pull request |-\|/-| 187 +9 −0 rst 1|-\|/-| 
+Update loader Makefile |-\|/-| 2016-01-13T01:48:52Z Closed pull request |-\|/-| 181 +1 −1 neon/data/loader/Makefile 1|-\|/-| 
+check next_error's shape consistant with output |-\|/-| 2016-01-31T18:57:20Z Closed pull request |-\|/-| 174 +3 −0 py 1|-\|/-| 
+Support transpose in autodiff |-\|/-| 2016-01-31T18:56:57Z Closed pull request |-\|/-| 173 +49 −28 py 4|-\|/-| 
+PreTrained initializer |-\|/-| 2016-03-29T18:04:24Z Closed pull request |-\|/-| 167 +42 −1 rst py 4|-\|/-| 
+PreTrained initializer |-\|/-| 2015-12-19T14:18:27Z Closed pull request |-\|/-| 166 +42 −1 rst py 4|-\|/-| 
+PreTrained initializer |-\|/-| 2015-12-19T13:36:54Z Closed pull request |-\|/-| 165 +217 −3 rst py 7|-\|/-| 
+Parameter alpha is not found in Explin |-\|/-| 2015-12-16T17:11:48Z Closed pull request |-\|/-| 164 +2 −1 py 2|-\|/-| 
+Quick fix for the DeconvCallback |-\|/-| 2015-12-16T17:04:59Z Closed pull request |-\|/-| 162 +4 −4 py 1|-\|/-| 
+Masked data iterator |-\|/-| 2015-12-19T14:19:18Z Closed pull request |-\|/-| 149 +175 −2 py 3|-\|/-| 
+Precision Recall callback and metrics fixes #147 |-\|/-| 2015-12-17T05:39:02Z Closed pull request |-\|/-| 148 +111 −0 py 2|-\|/-| 
+image: Allow undefined global_mean in ImageEndpoint |-\|/-| 2015-11-18T04:57:10Z Merged pull request |-\|/-| 140 +2 −1 py 1|-\|/-| 
+Allow subclassing BatchWriter |-\|/-| 2015-11-18T04:56:17Z Merged pull request |-\|/-| 137 +13 −13 py 1|-\|/-| 
+Fix for #122 |-\|/-| 2015-11-16T23:32:54Z Closed pull request |-\|/-| 136 +3 −2 py 1|-\|/-| 
+Instruction error in bin/neon |-\|/-| 2015-11-08T09:37:35Z Closed pull request |-\|/-| 133 +1 −1 bin/neon 1|-\|/-| 
+Makefile changes to simplify builds for default CUDA installations |-\|/-| 2015-11-18T04:54:03Z Merged pull request |-\|/-| 132 +18 −0 Makefile 1|-\|/-| 
+Fix Callback parameter in IMDB LSTM example |-\|/-| 2015-11-03T19:25:17Z Merged pull request |-\|/-| 130 +1 −1 py 1|-\|/-| 
+Bug fix in bin/neon |-\|/-| 2015-11-02T06:27:25Z Merged pull request |-\|/-| 127 +1 −1 bin/neon 1|-\|/-| 
+Filled in variable name in declaration line |-\|/-| 2015-11-02T06:30:15Z Closed pull request |-\|/-| 123 +2 −2 py 1|-\|/-| 
+Add the patch to C-interface for the modified interface of the gemm kernels. |-\|/-| 2015-10-19T19:58:47Z Closed pull request |-\|/-| 120 +6 −4 cu 1|-\|/-| 
+Possibility to print the model. Closes #113 |-\|/-| 2015-10-13T18:14:10Z Closed pull request |-\|/-| 114 +5 −2 py 1|-\|/-| 
+Add python-dev to the list of requirements. |-\|/-| 2015-10-12T17:54:37Z Merged pull request |-\|/-| 101 +1 −1 rst 1|-\|/-| 
+Fix bug in examples/text_generation_lstm.py |-\|/-| 2015-09-16T07:31:22Z Merged pull request |-\|/-| 92 +1 −1 py 1|-\|/-| 
+The name is Graves. |-\|/-| 2015-09-12T02:34:16Z Merged pull request |-\|/-| 87 +2 −2 py 1|-\|/-| 
+[WIP] Adam optimizer |-\|/-| 2015-09-09T19:48:07Z Closed pull request |-\|/-| 67 +103 −2 py 6|-\|/-| 
+Prints validation metric. Closes issue #56. |-\|/-| 2015-07-28T16:35:26Z Closed pull request |-\|/-| 61 +168 −4 yaml py 4|-\|/-| 
+Adds split_set to datasets. Closes issue #57 including comments from #58 |-\|/-| 2015-07-20T06:25:11Z Closed pull request |-\|/-| 60 +153 −2 yaml py 11|-\|/-| 
+Adds split_set to datasets. Closes issue #57 |-\|/-| 2015-07-15T04:39:12Z Closed pull request |-\|/-| 58 +71 −0 py 3|-\|/-| 
+fix broken link in README |-\|/-| 2015-06-03T23:49:09Z Merged pull request |-\|/-| 46 +1 −1 md 0|-\|/-| 
+fix `sudo make install` on ubuntu with GPU enabled |-\|/-| 2015-05-22T06:20:12Z Closed pull request |-\|/-| 38 +5 −3 Makefile 1|-\|/-| 
+Adds CIFAR100. Closes #28 and comments in #29. |-\|/-| 2015-05-18T07:40:24Z Merged pull request |-\|/-| 31 +23 −8 rst yaml py 6|-\|/-| 
+Added CIFAR100 loader. Closes issue #28. |-\|/-| 2015-05-18T05:52:25Z Merged pull request |-\|/-| 29 +168 −0 py 3|-\|/-| 
+Update readme with Docker images. Addresses issue #24. |-\|/-| 2015-05-18T03:47:55Z Merged pull request |-\|/-| 27 +4 −0 md 0|-\|/-| 
+Adds Docker images for CPU and CUDA environments.  Closes issue #24 |-\|/-| 2015-05-16T15:23:16Z Closed pull request |-\|/-| 25 +209 −0 md rst sh docker/neon-cpu/Dockerfile docker/neon-cuda/Dockerfile 7|-\|/-| 
+Change GPU check to CUDA SDK check. Closes issue #19 |-\|/-| 2015-05-11T17:12:47Z Merged pull request |-\|/-| 20 +1 −1 Makefile 1|-\|/-| 
+Update readme with correct using neon link |-\|/-| 2015-05-06T20:27:26Z Merged pull request |-\|/-| 13 +1 −1 md 0|-\|/-| 
+LReLU |-\|/-| 2015-03-24T06:26:41Z Merged pull request |-\|/-| 5 +14 −15 0|-\|/-| 

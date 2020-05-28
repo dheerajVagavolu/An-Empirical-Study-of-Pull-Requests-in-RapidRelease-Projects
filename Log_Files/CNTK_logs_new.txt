@@ -1,0 +1,460 @@
+Chashu/msra face dist log |-\|/-| 2019-10-20T13:04:51Z Closed pull request |-\|/-| 3760 +9,223 −1,112 Makefile h cpp 6|-\|/-| 
+add FutureValue Op's custom attributes into Scan node's description |-\|/-| 2019-07-26T00:34:59Z Merged pull request |-\|/-| 3725 +28 −1 cpp 1|-\|/-| 
+remove an assert that seems to be too conservative |-\|/-| 2019-07-19T02:24:08Z Merged pull request |-\|/-| 3723 +1 −2 cpp 1|-\|/-| 
+added a mapping from onnx outputs to cntk outputs into the graph's description |-\|/-| 2019-07-18T22:11:01Z Merged pull request |-\|/-| 3722 +30 −3 cpp 1|-\|/-| 
+Distributed training update |-\|/-| 2019-07-09T13:35:33Z Merged pull request |-\|/-| 3711 +3,741 −568 h bs cpp 8|-\|/-| 
+Export custom attributes on Times node to ONNX file |-\|/-| 2019-07-05T20:33:46Z Merged pull request |-\|/-| 3709 +83 −3 cpp 1|-\|/-| 
+Lewlu/msra face dist |-\|/-| 2019-06-28T15:47:34Z Merged pull request |-\|/-| 3706 +1,025 −410 bs h cpp 9|-\|/-| 
+Lewlu/msra face dist |-\|/-| 2019-06-28T13:23:09Z Merged pull request |-\|/-| 3705 +856 −409 bs h cpp 9|-\|/-| 
+bug fix |-\|/-| 2019-06-18T07:47:28Z Merged pull request |-\|/-| 3701 +5 −5 h 1|-\|/-| 
+bug fix |-\|/-| 2019-06-18T07:42:39Z Merged pull request |-\|/-| 3700 +5 −5 h 1|-\|/-| 
+bug fix |-\|/-| 2019-06-17T06:25:52Z Merged pull request |-\|/-| 3699 +2 −2 h 1|-\|/-| 
+bug fix |-\|/-| 2019-06-17T06:18:00Z Merged pull request |-\|/-| 3698 +2 −2 h 1|-\|/-| 
+bug fix |-\|/-| 2019-06-16T19:06:53Z Merged pull request |-\|/-| 3697 +2 −7 h 1|-\|/-| 
+bug fix |-\|/-| 2019-06-16T19:04:35Z Merged pull request |-\|/-| 3696 +2 −7 h 1|-\|/-| 
+refix dropout node |-\|/-| 2019-06-14T06:52:50Z Merged pull request |-\|/-| 3695 +8 −8 bs h 2|-\|/-| 
+refix dropout node |-\|/-| 2019-06-14T06:06:15Z Merged pull request |-\|/-| 3694 +7 −7 h 1|-\|/-| 
+bug fix |-\|/-| 2019-06-12T09:32:49Z Merged pull request |-\|/-| 3692 +1 −1 bs 1|-\|/-| 
+bug fix |-\|/-| 2019-06-11T18:19:50Z Merged pull request |-\|/-| 3689 +1 −1 h 1|-\|/-| 
+Globalconcat layer |-\|/-| 2019-06-11T18:11:19Z Merged pull request |-\|/-| 3688 +83 −93 h 1|-\|/-| 
+Distributed FC |-\|/-| 2019-06-11T17:30:49Z Merged pull request |-\|/-| 3687 +3,078 −294 h bs cpp 11|-\|/-| 
+Distributed FC |-\|/-| 2019-06-11T17:21:12Z Closed pull request |-\|/-| 3686 +7,940 −1,009 Makefile h cpp bs vcxproj 11|-\|/-| 
+test |-\|/-| 2019-06-11T17:19:03Z Closed pull request |-\|/-| 3685 +3,077 −299 h bs cpp 11|-\|/-| 
+Distributed FC |-\|/-| 2019-06-11T16:45:58Z Closed pull request |-\|/-| 3684 +3,092 −296 h bs cpp 11|-\|/-| 
+Distributed FC |-\|/-| 2019-06-11T16:32:15Z Closed pull request |-\|/-| 3683 +3,081 −297 h bs cpp 11|-\|/-| 
+dropout node |-\|/-| 2019-06-11T16:26:35Z Merged pull request |-\|/-| 3682 +1 −1 h 1|-\|/-| 
+bn momentum |-\|/-| 2019-06-11T15:59:06Z Merged pull request |-\|/-| 3681 +23 −1 cpp h 4|-\|/-| 
+add adabound and amsbound |-\|/-| 2019-06-04T09:47:31Z Merged pull request |-\|/-| 3677 +352 −24 h cu cuh cpp 10|-\|/-| 
+fix bug in adamUpdate |-\|/-| 2019-06-04T09:00:55Z Merged pull request |-\|/-| 3675 +33 −7 cuh cpp 2|-\|/-| 
+change eps 1e-6 to 1e-12 |-\|/-| 2019-06-07T06:55:09Z Merged pull request |-\|/-| 3663 +1 −1 h 1|-\|/-| 
+fix load final model file |-\|/-| 2019-04-19T06:03:52Z Merged pull request |-\|/-| 3645 +4 −1 cpp 1|-\|/-| 
+fix noisy bug, add subfolder, load model from whatever subfolder |-\|/-| 2019-04-11T08:24:11Z Merged pull request |-\|/-| 3635 +69 −13 cpp h 4|-\|/-| 
+Lewlu/msra face |-\|/-| 2019-04-11T07:43:46Z Closed pull request |-\|/-| 3634 +68 −14 cpp h vcxproj bat 6|-\|/-| 
+Rpengms/fp16 bs bugfix |-\|/-| 2019-04-09T16:25:38Z Merged pull request |-\|/-| 3632 +163 −157 0|-\|/-| 
+Newenv |-\|/-| 2019-06-06T01:30:53Z Closed pull request |-\|/-| 3625 +159 −9 bs cpp h cuh cu configure 13|-\|/-| 
+Newenv |-\|/-| 2019-04-06T12:52:01Z Closed pull request |-\|/-| 3624 +157 −7 bs cpp h cuh cu configure 13|-\|/-| 
+Lewlu/msra face |-\|/-| 2019-04-10T03:42:58Z Merged pull request |-\|/-| 3623 +151 −2 bs cpp h cu 10|-\|/-| 
+Newenv |-\|/-| 2019-04-06T11:42:18Z Closed pull request |-\|/-| 3622 +5,153 −998 Makefile cpp bs vcxproj h 6|-\|/-| 
+Newenv |-\|/-| 2019-04-06T11:42:18Z Closed pull request |-\|/-| 3621 +163 −12 Makefile bs cpp h cuh cu configure 14|-\|/-| 
+Newenv |-\|/-| 2019-04-06T10:47:41Z Closed pull request |-\|/-| 3620 +5,153 −998 Makefile cpp bs vcxproj h 6|-\|/-| 
+Lewlu/msra face |-\|/-| 2019-04-06T11:21:53Z Closed pull request |-\|/-| 3619 +151 −2 bs cpp h cu 10|-\|/-| 
+fp16 - brain script add to CNTK.core.bs |-\|/-| 2019-04-01T17:14:07Z Merged pull request |-\|/-| 3617 +56 −11 bs cpp h 3|-\|/-| 
+Tizhan/msra face disable reg |-\|/-| 2019-06-05T06:29:38Z Merged pull request |-\|/-| 3612 +23 −14 bs cpp csproj 4|-\|/-| 
+merge fp16_bs fix |-\|/-| 2019-03-22T09:07:52Z Merged pull request |-\|/-| 3609 +45 −9 h cpp 4|-\|/-| 
+Merge fp16 brainscript work |-\|/-| 2019-03-20T18:36:17Z Merged pull request |-\|/-| 3606 +769 −187 Makefile h cpp 9|-\|/-| 
+Lewlu/msra face |-\|/-| 2019-03-18T09:23:56Z Merged pull request |-\|/-| 3602 +20 −7 cpp h 6|-\|/-| 
+Lewlu/msra face |-\|/-| 2019-03-18T07:45:06Z Closed pull request |-\|/-| 3600 +20 −7 cpp h 6|-\|/-| 
+Lewlu/msra face |-\|/-| 2019-03-13T03:27:10Z Merged pull request |-\|/-| 3594 +53 −15 h cpp 3|-\|/-| 
+Add adam and adaMax optimizer for BS |-\|/-| 2019-05-07T08:02:36Z Merged pull request |-\|/-| 3591 +405 −117 h cu cuh 5|-\|/-| 
+Add useV2Aggregator to SGD config |-\|/-| 2019-02-28T21:30:11Z Merged pull request |-\|/-| 3574 +7 −2 cpp h 3|-\|/-| 
+Rpengms/fp16 bmuf |-\|/-| 2019-03-01T02:07:39Z Merged pull request |-\|/-| 3573 +33 −11 h cpp 4|-\|/-| 
+Fix typo |-\|/-| 2019-02-26T21:07:59Z Merged pull request |-\|/-| 3561 +1 −1 md 0|-\|/-| 
+Free nnzPerRowOrCol at end of SetValue |-\|/-| 2019-02-25T18:46:54Z Merged pull request |-\|/-| 3558 +1 −0 cu 1|-\|/-| 
+hide protobuf library symbols |-\|/-| 2019-02-08T16:37:37Z Merged pull request |-\|/-| 3550 +5 −1 Makefile 1|-\|/-| 
+Fix several DeprecationWarning: invalid escape sequence |-\|/-| 2019-01-06T07:08:09Z Merged pull request |-\|/-| 3549 +42 −42 py 24|-\|/-| 
+Fix typo |-\|/-| 2019-02-27T22:40:09Z Merged pull request |-\|/-| 3514 +1 −1 md 0|-\|/-| 
+Fix typo |-\|/-| 2018-11-24T03:44:07Z Merged pull request |-\|/-| 3512 +1 −1 lyx 1|-\|/-| 
+Bmuf float16 |-\|/-| 2018-11-16T19:17:35Z Merged pull request |-\|/-| 3506 +12 −8 h cpp 2|-\|/-| 
+add disableMomentumUnitGain |-\|/-| 2018-11-05T09:53:16Z Merged pull request |-\|/-| 3495 +13 −8 cpp h 2|-\|/-| 
+final rmsprop update |-\|/-| 2018-11-05T05:55:48Z Merged pull request |-\|/-| 3494 +152 −376 h cpp 5|-\|/-| 
+Rmsprop optimizer |-\|/-| 2018-11-05T05:44:37Z Closed pull request |-\|/-| 3493 +4,924 −976 Makefile bs cpp vcxproj h 5|-\|/-| 
+fix typo |-\|/-| 2019-02-27T23:59:58Z Merged pull request |-\|/-| 3492 +1 −1 md 0|-\|/-| 
+Fix some typos on Tutorials README |-\|/-| 2019-02-28T00:43:28Z Merged pull request |-\|/-| 3491 +3 −3 md 0|-\|/-| 
+add disableMomentumUnitGain |-\|/-| 2018-11-05T06:07:48Z Closed pull request |-\|/-| 3490 +11 −6 cpp h 2|-\|/-| 
+PReLU activation was not supported by the caffe conversion tools. |-\|/-| 2019-02-23T18:06:09Z Closed pull request |-\|/-| 3487 +40 −1 py 4|-\|/-| 
+Fix several grammar errors |-\|/-| 2019-02-28T02:24:31Z Merged pull request |-\|/-| 3486 +3 −3 md 0|-\|/-| 
+RMSprop update |-\|/-| 2018-10-29T09:14:58Z Closed pull request |-\|/-| 3485 +178 −403 h cpp 5|-\|/-| 
+Update README.md |-\|/-| 2019-10-14T15:43:22Z Closed pull request |-\|/-| 3484 +1 −1 md 0|-\|/-| 
+fixed errors |-\|/-| 2019-02-28T09:04:39Z Merged pull request |-\|/-| 3482 +17 −17 md 0|-\|/-| 
+code comments typo correction |-\|/-| 2019-02-28T06:49:52Z Merged pull request |-\|/-| 3477 +7 −7 cpp 1|-\|/-| 
+Added better documentation to forward_backward |-\|/-| 2018-10-31T23:44:07Z Merged pull request |-\|/-| 3476 +72 −6 py 1|-\|/-| 
+readme_hin.md |-\|/-| 2019-02-28T00:48:36Z Closed pull request |-\|/-| 3459 +4 −0 md 0|-\|/-| 
+Spelling issue |-\|/-| 2019-02-28T04:39:09Z Merged pull request |-\|/-| 3458 +1 −1 md 0|-\|/-| 
+ Fix typo "evalutaion" => "evaluation" |-\|/-| 2019-02-28T04:27:18Z Merged pull request |-\|/-| 3455 +2 −2 ipynb 1|-\|/-| 
+Fix documentation misspellings |-\|/-| 2019-10-15T23:52:19Z Closed pull request |-\|/-| 3434 +8 −8 lyx md 1|-\|/-| 
+Fix typo |-\|/-| 2019-02-28T09:45:55Z Merged pull request |-\|/-| 3431 +2 −2 md 0|-\|/-| 
+fix network graph plotting for Python > 3.4 |-\|/-| 2018-10-17T04:08:38Z Closed pull request |-\|/-| 3414 +11 −4 py 1|-\|/-| 
+Update to 2.6.0 |-\|/-| 2018-09-24T07:42:25Z Merged pull request |-\|/-| 3406 +13,224 −3,156 gitattributes props md csproj config vcxproj 6|-\|/-| 
+Fix issue#3228 and #3363 which found when build with MSVC+ permissive- |-\|/-| 2018-08-28T07:18:15Z Merged pull request |-\|/-| 3374 +7 −7 h cpp 2|-\|/-| 
+Fmeasure |-\|/-| 2018-08-10T15:50:44Z Merged pull request |-\|/-| 3343 +5 −4 py 1|-\|/-| 
+fix parameter sharing bug |-\|/-| 2018-08-07T09:54:18Z Merged pull request |-\|/-| 3339 +3 −2 cpp 1|-\|/-| 
+Add more logging into HTKDeserializer |-\|/-| 2018-08-04T00:08:44Z Merged pull request |-\|/-| 3337 +4 −0 cpp 1|-\|/-| 
+Fix overlapping memcpy reported by valgrind in SmallVector |-\|/-| 2018-08-01T05:50:29Z Merged pull request |-\|/-| 3331 +2 −0 h 1|-\|/-| 
+Release/latest |-\|/-| 2018-09-15T01:16:15Z Closed pull request |-\|/-| 3297 +257 −229 clang-format gitignore props md csproj config vcxproj 11|-\|/-| 
+added fmeasure loss function |-\|/-| 2018-08-01T04:48:29Z Merged pull request |-\|/-| 3284 +75 −1 py 2|-\|/-| 
+Fix saved model name output |-\|/-| 2018-07-04T03:50:07Z Merged pull request |-\|/-| 3277 +1 −1 py 1|-\|/-| 
+Tix fix restored test failures |-\|/-| 2018-06-27T17:45:45Z Closed pull request |-\|/-| 3272 +36 −46 csproj Tests/EndToEndTests/CNTKv2CSharp/ExampleTests/CifarResNetClassifierTest/run-test yml 10|-\|/-| 
+updatre onnx 1.2.1 |-\|/-| 2018-06-08T21:27:53Z Merged pull request |-\|/-| 3252 +9,765 −7,281 Makefile vcxproj filters cpp h 6|-\|/-| 
+Make it to build in VS. |-\|/-| 2018-06-07T18:06:20Z Merged pull request |-\|/-| 3245 +60 −25 vcxproj cpp cu h 13|-\|/-| 
+Release/latest |-\|/-| 2018-07-04T05:20:09Z Closed pull request |-\|/-| 3225 +257 −229 clang-format gitignore props md csproj config vcxproj 11|-\|/-| 
+Release/latest |-\|/-| 2018-05-22T20:11:11Z Closed pull request |-\|/-| 3215 +257 −229 clang-format gitignore props md csproj config vcxproj 11|-\|/-| 
+Handle intermediate directory creation properly |-\|/-| 2019-05-04T21:18:56Z Closed pull request |-\|/-| 3192 +1 −1 ipynb 1|-\|/-| 
+Introduce EditorConfig settings for C# |-\|/-| 2018-05-14T17:17:53Z Closed pull request |-\|/-| 3165 +6 −0 editorconfig 1|-\|/-| 
+Upgrade C# projects to MSBuild 15 format |-\|/-| 2018-05-14T17:17:30Z Closed pull request |-\|/-| 3164 +147 −885 props sln csproj json config cs 8|-\|/-| 
+Increased the number of state variable accepted by Recurrence |-\|/-| 2018-05-18T03:54:47Z Merged pull request |-\|/-| 3163 +49 −5 py 2|-\|/-| 
+Allow to add some extra cxxflags via env |-\|/-| 2018-04-25T17:59:23Z Merged pull request |-\|/-| 3156 +2 −2 Makefile 1|-\|/-| 
+(chore) Cleanup ./README.md |-\|/-| 2018-04-23T17:35:45Z Merged pull request |-\|/-| 3140 +113 −101 0|-\|/-| 
+Remove unnecessary sys/io.h |-\|/-| 2018-04-27T01:47:22Z Merged pull request |-\|/-| 3126 +0 −2 cpp h 2|-\|/-| 
+change cprintf to use vsnprintf |-\|/-| 2018-04-19T20:05:55Z Merged pull request |-\|/-| 3124 +13 −14 h 1|-\|/-| 
+fix math test error |-\|/-| 2018-04-17T18:10:48Z Merged pull request |-\|/-| 3121 +31 −19 h cpp cu 5|-\|/-| 
+Kedeng/mkldnn |-\|/-| 2018-04-12T03:20:33Z Merged pull request |-\|/-| 3117 +1,479 −259 bs cntk Makefile 6|-\|/-| 
+fix the cntk version in the sample |-\|/-| 2018-03-26T22:06:07Z Merged pull request |-\|/-| 3065 +1 −1 csproj 1|-\|/-| 
+Release/latest |-\|/-| 2018-04-17T18:48:05Z Closed pull request |-\|/-| 3064 +257 −224 gitignore props md csproj config vcxproj 10|-\|/-| 
+Release/latest |-\|/-| 2018-03-20T15:23:22Z Closed pull request |-\|/-| 3050 +257 −224 gitignore props md csproj config vcxproj 10|-\|/-| 
+remove unnecessary MKL data conversion in resize and setvalue |-\|/-| 2018-03-13T20:50:38Z Merged pull request |-\|/-| 3036 +4 −1 h 1|-\|/-| 
+MKLDNN primitive support for VGG model |-\|/-| 2018-04-13T22:55:55Z Closed pull request |-\|/-| 3021 +5,155 −530 props cntk Makefile vcxproj cpp bs 9|-\|/-| 
+Fix copy paste bug |-\|/-| 2018-03-09T01:45:51Z Merged pull request |-\|/-| 3018 +2 −2 i 1|-\|/-| 
+Release/latest |-\|/-| 2018-03-16T22:26:01Z Closed pull request |-\|/-| 3014 +198 −161 props csproj config vcxproj 9|-\|/-| 
+Dev |-\|/-| 2018-03-05T05:17:03Z Closed pull request |-\|/-| 3006 +64 −143 sln md h cpp docx 5|-\|/-| 
+Automate Maven Deployment |-\|/-| 2018-03-05T01:43:32Z Merged pull request |-\|/-| 3000 +87 −1 gitignore Makefile md sh xml 4|-\|/-| 
+Include <functional> in EvaluatorWrapper |-\|/-| 2018-02-27T02:30:52Z Merged pull request |-\|/-| 2988 +1 −0 h 1|-\|/-| 
+Fix Java Dependencies and Java Tests |-\|/-| 2018-02-26T22:23:38Z Merged pull request |-\|/-| 2979 +5 −1 Makefile java 2|-\|/-| 
+Fixing typo in Manual_How_to_feed_data.ipynb |-\|/-| 2018-03-08T00:33:53Z Merged pull request |-\|/-| 2978 +2 −2 ipynb 1|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2018-02-17T20:42:48Z Closed pull request |-\|/-| 2967 +0 −0 0|-\|/-| 
+removed dead link easons to switch to CNTK from Tensorflow from read… |-\|/-| 2018-03-08T00:34:16Z Merged pull request |-\|/-| 2959 +0 −1 md 0|-\|/-| 
+Fix typo |-\|/-| 2018-03-08T00:34:57Z Merged pull request |-\|/-| 2951 +1 −1 ipynb 1|-\|/-| 
+Fix typo in C# examples |-\|/-| 2018-02-09T00:25:22Z Merged pull request |-\|/-| 2940 +16 −15 gitignore cs 8|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2018-07-04T05:16:30Z Closed pull request |-\|/-| 2935 +0 −0 0|-\|/-| 
+Release/latest |-\|/-| 2018-02-14T01:29:18Z Closed pull request |-\|/-| 2925 +198 −161 props csproj config vcxproj 9|-\|/-| 
+Nikosk/bidaf |-\|/-| 2018-02-05T05:36:25Z Merged pull request |-\|/-| 2919 +12 −3 md 0|-\|/-| 
+Do not allow BlockRandomizer to cross sweeps |-\|/-| 2018-01-30T19:44:17Z Closed pull request |-\|/-| 2906 +1 −1 cpp 1|-\|/-| 
+Release/latest |-\|/-| 2018-01-31T22:43:43Z Closed pull request |-\|/-| 2888 +134 −84 props csproj config vcxproj 18|-\|/-| 
+Update post-build.cmd |-\|/-| 2018-01-30T03:13:02Z Merged pull request |-\|/-| 2887 +11 −2 Makefile vcxproj cmd 3|-\|/-| 
+Remove redundant code in CNTK_204_Sequence_To_Sequence.ipynb |-\|/-| 2018-02-09T00:30:07Z Merged pull request |-\|/-| 2881 +1 −7 ipynb 1|-\|/-| 
+Fix TensorBoard on_write_test_summary method |-\|/-| 2018-02-09T00:27:18Z Merged pull request |-\|/-| 2880 +1 −1 py 1|-\|/-| 
+filter some query by type |-\|/-| 2018-01-22T00:48:45Z Merged pull request |-\|/-| 2865 +9,689 −38 model ckp json md py 10|-\|/-| 
+Translated tutorial notebooks with new pytest fixture notebook_path |-\|/-| 2018-01-17T08:53:01Z Closed pull request |-\|/-| 2851 +2,332 −59 py 20|-\|/-| 
+Fixed typos in tutorials. |-\|/-| 2018-02-09T00:33:47Z Merged pull request |-\|/-| 2843 +7 −7 ipynb 3|-\|/-| 
+Small changes for CUDA 9 compatibility |-\|/-| 2018-01-15T03:04:14Z Closed pull request |-\|/-| 2840 +20 −4 props h 2|-\|/-| 
+Grammar fix. |-\|/-| 2018-02-09T00:24:12Z Merged pull request |-\|/-| 2822 +1 −1 md 0|-\|/-| 
+Fixes #2704 |-\|/-| 2018-01-12T08:34:04Z Merged pull request |-\|/-| 2805 +3 −3 Makefile 1|-\|/-| 
+Test Automatic build trigger |-\|/-| 2017-12-18T21:53:00Z Closed pull request |-\|/-| 2785 +1 −0 md 0|-\|/-| 
+Bug fixes: fp16 default behavior |-\|/-| 2017-12-12T05:27:38Z Merged pull request |-\|/-| 2759 +15 −4 cu h 3|-\|/-| 
+Changes required to build on Ubuntu 16.04/gcc 5.4, plus javadoc |-\|/-| 2018-02-14T19:01:35Z Closed pull request |-\|/-| 2754 +5 −4 Makefile cpp 2|-\|/-| 
+Release/2.3 |-\|/-| 2017-12-06T04:05:26Z Closed pull request |-\|/-| 2738 +469 −88 props md csproj config vcxproj 17|-\|/-| 
+fix readonly bug in Value::Create(); adapt and add tests |-\|/-| 2017-12-17T21:32:45Z Closed pull request |-\|/-| 2720 +136,464 −6,251 gitignore props sln txt md sh cmd 6|-\|/-| 
+distributed Faster R-CNN modules |-\|/-| 2017-12-06T00:51:51Z Merged pull request |-\|/-| 2718 +42 −6 py md 4|-\|/-| 
+always need to update data size |-\|/-| 2017-12-13T04:34:36Z Closed pull request |-\|/-| 2701 +1 −5 cpp 1|-\|/-| 
+Adding ResNet101_ImageNet_CNTK/ResNet152_ImageNet_CNTK in download_model.py. |-\|/-| 2018-02-09T00:42:08Z Merged pull request |-\|/-| 2690 +2 −0 py 1|-\|/-| 
+Fixing bug in GroupConvolution. |-\|/-| 2018-02-08T00:35:34Z Closed pull request |-\|/-| 2686 +3 −3 cpp 1|-\|/-| 
+Add new dependencies to build docker image |-\|/-| 2017-11-23T02:30:20Z Merged pull request |-\|/-| 2655 +1 −1 sh 1|-\|/-| 
+fix typos and update links |-\|/-| 2017-11-29T01:27:40Z Merged pull request |-\|/-| 2652 +70 −102 0|-\|/-| 
+Update 2.3 iteration |-\|/-| 2017-12-22T06:21:37Z Closed pull request |-\|/-| 2644 +24 −4 md 0|-\|/-| 
+Fix Dockerfiles --with-mkl path for Intel MKL-DNN(2017-11-10). |-\|/-| 2017-11-17T21:46:21Z Merged pull request |-\|/-| 2628 +6 −3 Tools/docker/CNTK-CPUOnly-Image/Dockerfile Tools/docker/CNTK-GPU-1bit-Image/Dockerfile Tools/docker/CNTK-GPU-Image/Dockerfile 3|-\|/-| 
+Fix libzip download url |-\|/-| 2017-11-17T21:47:41Z Merged pull request |-\|/-| 2627 +3 −3 Tools/docker/CNTK-CPUOnly-Image/Dockerfile Tools/docker/CNTK-GPU-1bit-Image/Dockerfile Tools/docker/CNTK-GPU-Image/Dockerfile 3|-\|/-| 
+change libzip download url |-\|/-| 2017-11-17T05:15:29Z Closed pull request |-\|/-| 2626 +1 −1 Tools/docker/CNTK-GPU-1bit-Image/Dockerfile 1|-\|/-| 
+change --with-mkl path |-\|/-| 2017-11-17T05:24:52Z Closed pull request |-\|/-| 2625 +2 −1 Tools/docker/CNTK-GPU-1bit-Image/Dockerfile 1|-\|/-| 
+Disable UCF11 test |-\|/-| 2017-11-13T23:34:08Z Merged pull request |-\|/-| 2615 +3 −2 py 1|-\|/-| 
+Upgrade imageio to 2.2.0 |-\|/-| 2017-11-10T07:55:15Z Merged pull request |-\|/-| 2605 +11 −237 md yml 8|-\|/-| 
+Vgg comment |-\|/-| 2017-11-07T06:19:56Z Closed pull request |-\|/-| 2580 +3 −1 py 2|-\|/-| 
+fix the bug where CNTK throws out a warning; also fix the bug where the Jupyter notebook cannot run |-\|/-| 2017-11-03T21:17:14Z Merged pull request |-\|/-| 2579 +7 −5 ipynb 1|-\|/-| 
+eanble CNTK build with mklml library |-\|/-| 2017-11-08T18:49:32Z Merged pull request |-\|/-| 2570 +33 −78 props Makefile h cpp vcxproj Tools/make_binary_drop_linux bat configure 8|-\|/-| 
+BrainScript: Softmax() leverages ReduceLogSum() on parametric axis |-\|/-| 2017-12-05T20:10:07Z Merged pull request |-\|/-| 2568 +3 −8 bs 1|-\|/-| 
+Distributed learning for Fast R-CNN with BrainScript |-\|/-| 2017-11-01T20:18:25Z Merged pull request |-\|/-| 2564 +35 −3 py md 2|-\|/-| 
+Changed setting in selecting VGGNet16 as base_model for Fast/Faster R-CNN |-\|/-| 2017-11-02T00:22:46Z Closed pull request |-\|/-| 2562 +5 −3 py 2|-\|/-| 
+Updated distributed learning for Fast R-CNN. |-\|/-| 2017-10-28T14:25:52Z Closed pull request |-\|/-| 2561 +36 −4 py md 2|-\|/-| 
+MKL2017 BatchNorm Fwd+Bwd* Pass implementation  |-\|/-| 2017-11-30T05:28:30Z Closed pull request |-\|/-| 2541 +3,910 −1,284 props sh txt 2|-\|/-| 
+MKL2017 BatchNorm Fwd Pass implementation |-\|/-| 2017-11-30T05:29:21Z Closed pull request |-\|/-| 2540 +669 −1 0|-\|/-| 
+MKL2017 BatchNorm Fwd Pass implementation |-\|/-| 2017-10-24T23:52:57Z Closed pull request |-\|/-| 2539 +416 −1 cpp h 2|-\|/-| 
+Update README.md |-\|/-| 2018-02-09T00:44:48Z Closed pull request |-\|/-| 2536 +2 −2 md 0|-\|/-| 
+Updated Super Resolution tutorial on CNTK |-\|/-| 2018-02-27T01:42:34Z Closed pull request |-\|/-| 2504 +2,840 −0 py 4|-\|/-| 
+Added a ImageTransformer to resize images without altering the aspect ratio |-\|/-| 2017-10-16T10:08:02Z Closed pull request |-\|/-| 2493 +105 −1 h cpp py 6|-\|/-| 
+fixed a mistake in Tutorials\CNTK_101_LogisticRegression.ipynb |-\|/-| 2017-11-07T03:39:50Z Merged pull request |-\|/-| 2486 +2 −2 ipynb 1|-\|/-| 
+change return RuntimeError to raise RuntimeError |-\|/-| 2017-10-12T16:55:03Z Merged pull request |-\|/-| 2483 +3 −3 py 2|-\|/-| 
+Fix typos |-\|/-| 2017-10-13T05:00:40Z Merged pull request |-\|/-| 2470 +14 −14 sh h cpp py 6|-\|/-| 
+fix combine java impl |-\|/-| 2017-10-11T20:23:07Z Merged pull request |-\|/-| 2466 +1 −1 i 1|-\|/-| 
+Fix typos |-\|/-| 2017-10-04T05:00:27Z Merged pull request |-\|/-| 2434 +12 −12 h cpp ipynb py 11|-\|/-| 
+Super-resolution tutorial |-\|/-| 2018-02-27T01:42:52Z Closed pull request |-\|/-| 2431 +2,835 −0 py 4|-\|/-| 
+fix building issus with cub 1.7.4(or 1.7.x) and cudnn 7 |-\|/-| 2018-02-14T19:00:17Z Closed pull request |-\|/-| 2429 +16 −3 cuh h 2|-\|/-| 
+Modified Fast R-CNN scripts for distributed learning. |-\|/-| 2017-11-07T23:57:08Z Closed pull request |-\|/-| 2414 +40 −6 py md 4|-\|/-| 
+minor bug fix |-\|/-| 2017-09-24T12:36:26Z Merged pull request |-\|/-| 2402 +1 −1 py 1|-\|/-| 
+Minor Bug In PARAMETERS.py in Examples/Image/Detection/FastRCNN/PARAMETERS.py |-\|/-| 2017-09-23T21:47:51Z Closed pull request |-\|/-| 2401 +2,095,148 −2,888,250 gitattributes gitignore gitmodules props 4|-\|/-| 
+Adding cntk 209 super-resolution tutorial |-\|/-| 2018-02-27T01:45:46Z Closed pull request |-\|/-| 2399 +2,835 −0 py 4|-\|/-| 
+'Reader' object has no attribute '_frame_catcher' |-\|/-| 2017-12-01T00:14:25Z Closed pull request |-\|/-| 2385 +4 −3 yml 1|-\|/-| 
+Adding data preparation notebook for super resolution tutorial. |-\|/-| 2017-09-22T23:41:50Z Closed pull request |-\|/-| 2377 +543 −0 py 3|-\|/-| 
+Fix typos |-\|/-| 2017-09-18T05:12:00Z Merged pull request |-\|/-| 2370 +2 −2 cpp 1|-\|/-| 
+Cosmetic typo fix in C# training ReadMe |-\|/-| 2017-09-17T19:37:42Z Merged pull request |-\|/-| 2366 +3 −3 md 0|-\|/-| 
+Fixes error: ‘openblas_set_num_threads’ was not declared in this scope |-\|/-| 2018-12-27T01:56:32Z Closed pull request |-\|/-| 2365 +5 −0 h 1|-\|/-| 
+Fixes "'exp' was not declared" |-\|/-| 2017-09-17T01:06:26Z Merged pull request |-\|/-| 2364 +1 −0 h 1|-\|/-| 
+Minor fixes (proposal) |-\|/-| 2017-09-17T01:07:39Z Merged pull request |-\|/-| 2357 +4 −4 md 0|-\|/-| 
+Fix typos |-\|/-| 2017-09-17T01:08:09Z Merged pull request |-\|/-| 2338 +1 −1 h 1|-\|/-| 
+numeric_limits::min returns positive value for floats - breaks argmax |-\|/-| 2017-09-12T01:50:42Z Merged pull request |-\|/-| 2280 +2 −2 h 1|-\|/-| 
+Fix typos |-\|/-| 2017-08-30T03:36:27Z Merged pull request |-\|/-| 2275 +1 −1 md 0|-\|/-| 
+MKL2017 integration for convolutions. |-\|/-| 2017-08-29T16:41:30Z Closed pull request |-\|/-| 2274 +747 −239 txt 0|-\|/-| 
+Update folder link in docs |-\|/-| 2017-08-23T14:32:51Z Merged pull request |-\|/-| 2254 +1 −1 md 0|-\|/-| 
+update folder link in docs |-\|/-| 2017-08-23T06:44:37Z Closed pull request |-\|/-| 2253 +442 −99 gitignore py ipynb cntk md h 16|-\|/-| 
+Fix cudnn convolution crash when workspace size is not properly tracked |-\|/-| 2017-08-23T20:09:31Z Merged pull request |-\|/-| 2239 +137 −109 0|-\|/-| 
+implement atanh operation |-\|/-| 2017-10-13T05:52:50Z Merged pull request |-\|/-| 2227 +172 −2 cpp bs h cu cuh i 25|-\|/-| 
+Fix typos |-\|/-| 2017-09-17T19:38:47Z Merged pull request |-\|/-| 2212 +12 −12 lyx sh cpp h cu py 11|-\|/-| 
+implement asinh operation |-\|/-| 2017-10-20T19:04:52Z Merged pull request |-\|/-| 2207 +167 −3 cpp bs h cu cuh i 25|-\|/-| 
+Release/2.1 |-\|/-| 2017-08-10T08:12:01Z Closed pull request |-\|/-| 2206 +6,711 −738 gitattributes props sln csproj config vcxproj 17|-\|/-| 
+Fix typos |-\|/-| 2017-08-11T16:07:10Z Merged pull request |-\|/-| 2205 +12 −12 cpp py h ipynb 9|-\|/-| 
+Basic CShape API for Training |-\|/-| 2017-09-07T20:34:52Z Closed pull request |-\|/-| 2203 +26,093 −1,444 sln config csproj cs nupkg 12|-\|/-| 
+Fix typos |-\|/-| 2017-08-04T10:38:45Z Merged pull request |-\|/-| 2188 +5 −5 h cpp py 5|-\|/-| 
+Tweaks for cuda9 build support |-\|/-| 2018-02-13T23:51:19Z Closed pull request |-\|/-| 2186 +40 −17 cuh h cu 3|-\|/-| 
+Examples/Image/Detection/FasterRCNN/README.md misspelled command fix |-\|/-| 2017-08-04T16:30:13Z Merged pull request |-\|/-| 2185 +1 −1 md 0|-\|/-| 
+Release/2.1 |-\|/-| 2017-08-03T05:21:10Z Closed pull request |-\|/-| 2183 +6,711 −738 gitattributes props sln csproj config vcxproj 17|-\|/-| 
+optimize AggregateGradientsImpl (async pipeline) for non-GDR & GPU sc… |-\|/-| 2017-09-27T10:51:22Z Closed pull request |-\|/-| 2182 +99 −65 h 1|-\|/-| 
+Release/2.1 |-\|/-| 2017-08-02T07:04:09Z Closed pull request |-\|/-| 2177 +6,710 −737 gitattributes props sln csproj config vcxproj 17|-\|/-| 
+Fix typos |-\|/-| 2017-08-01T16:35:53Z Merged pull request |-\|/-| 2171 +5 −5 ipynb cpp h 4|-\|/-| 
+install multiverso and install to CMAKE_INSTALL_PREFIX |-\|/-| 2017-07-30T13:02:16Z Closed pull request |-\|/-| 2168 +3 −1 Makefile 1|-\|/-| 
+implement asin and acos functions, ref: #2109 |-\|/-| 2017-08-01T17:49:59Z Closed pull request |-\|/-| 2162 +339 −8 cpp bs h cu cuh 18|-\|/-| 
+Fix typos |-\|/-| 2017-07-24T07:35:23Z Merged pull request |-\|/-| 2153 +11 −11 cpp h cu 11|-\|/-| 
+Remove unavalible link |-\|/-| 2017-07-24T07:37:02Z Merged pull request |-\|/-| 2146 +1 −1 ipynb 1|-\|/-| 
+wip: add R bindings |-\|/-| 2017-08-12T00:05:11Z Closed pull request |-\|/-| 2138 +27,647 −0 gitignore Rbuildignore bindings/R/DESCRIPTION 4|-\|/-| 
+BS.Constants.Range(dims) as 1D constant tensor |-\|/-| 2017-07-20T02:50:30Z Merged pull request |-\|/-| 2135 +2 −0 bs 1|-\|/-| 
+Add C# API for CopyVariableValueTo for sparse data |-\|/-| 2017-08-03T02:16:20Z Closed pull request |-\|/-| 2134 +148 −2 cs i csproj 6|-\|/-| 
+fix getitem for multioutput to fallback to outputs |-\|/-| 2017-07-19T18:37:39Z Closed pull request |-\|/-| 2131 +10 −0 py 1|-\|/-| 
+Fix combine to accept tuple |-\|/-| 2017-07-19T18:37:06Z Closed pull request |-\|/-| 2130 +17 −2 py 1|-\|/-| 
+Fix typos |-\|/-| 2017-07-18T16:54:24Z Merged pull request |-\|/-| 2127 +7 −7 h bs cpp py 5|-\|/-| 
+Fixing missing std namespace errors (for KaldiReader) |-\|/-| 2017-07-17T14:59:15Z Merged pull request |-\|/-| 2120 +5 −5 h 3|-\|/-| 
+implement hyperbolic functions |-\|/-| 2017-07-22T00:02:35Z Merged pull request |-\|/-| 2117 +333 −2 cpp bs h 15|-\|/-| 
+Resolves: Undefined Reference to GetTensorView |-\|/-| 2017-07-12T17:28:28Z Merged pull request |-\|/-| 2104 +3 −0 cpp 1|-\|/-| 
+Adding 'template' keyword (compiling with GCC) |-\|/-| 2017-08-03T12:23:34Z Merged pull request |-\|/-| 2103 +2 −1 h 1|-\|/-| 
+add unit test for operation from caffe to cntk |-\|/-| 2017-07-10T11:17:19Z Merged pull request |-\|/-| 2100 +677 −0 0|-\|/-| 
+add test case for operations from caffe2cntk |-\|/-| 2017-07-10T11:02:10Z Closed pull request |-\|/-| 2099 +718 −0 0|-\|/-| 
+Fix typos |-\|/-| 2017-07-10T11:39:22Z Merged pull request |-\|/-| 2097 +5 −5 cpp 3|-\|/-| 
+Fix load_model for python3.6 with pathlib |-\|/-| 2017-07-09T18:42:53Z Merged pull request |-\|/-| 2095 +1 −1 py 1|-\|/-| 
+Improve exception msg for load_model |-\|/-| 2017-07-09T18:28:11Z Merged pull request |-\|/-| 2094 +1 −1 py 1|-\|/-| 
+Added files to create train_map and val_map files for Alexnet in CNTK |-\|/-| 2017-09-20T21:34:44Z Closed pull request |-\|/-| 2093 +124 −0 md py 2|-\|/-| 
+Fix typos |-\|/-| 2017-07-07T15:52:58Z Merged pull request |-\|/-| 2092 +3 −3 ipynb txt h 2|-\|/-| 
+README added to clarify BinaryReader vs CNTKBinaryReader |-\|/-| 2017-10-30T12:26:55Z Closed pull request |-\|/-| 2089 +0 −0 0|-\|/-| 
+Fix typos |-\|/-| 2017-07-06T06:40:32Z Merged pull request |-\|/-| 2086 +9 −9 py cpp h ipynb 9|-\|/-| 
+'totalSamplesSeen' cast as Int64 instead of Int32 to avoid overflow |-\|/-| 2017-07-05T20:20:16Z Merged pull request |-\|/-| 2082 +1 −1 cpp 1|-\|/-| 
+Fix typos |-\|/-| 2017-07-05T02:19:29Z Merged pull request |-\|/-| 2080 +11 −11 h cpp cu cuh 11|-\|/-| 
+'totalSamplesSeen' cast as Int64 instead of Int32 to avoid overflow |-\|/-| 2017-07-04T20:09:28Z Closed pull request |-\|/-| 2078 +1 −1 cpp 1|-\|/-| 
+Fix typos |-\|/-| 2017-07-04T00:59:21Z Merged pull request |-\|/-| 2076 +23 −23 h cpp 11|-\|/-| 
+implement selu activation function |-\|/-| 2017-07-11T23:57:43Z Merged pull request |-\|/-| 2072 +67 −6 h cpp i py 5|-\|/-| 
+added sample python notebook for composite data readers |-\|/-| 2017-08-22T16:13:23Z Closed pull request |-\|/-| 2069 +874 −0 ipynb png ctf map 10|-\|/-| 
+Fix typos |-\|/-| 2017-06-29T18:35:19Z Merged pull request |-\|/-| 2065 +16 −16 cs md ipynb cpp h txt py 12|-\|/-| 
+Add a Gitter chat badge to README.md |-\|/-| 2017-06-28T18:53:17Z Merged pull request |-\|/-| 2059 +2 −0 md 0|-\|/-| 
+ctf2bin.py upgraded to Python 3.3+ |-\|/-| 2017-06-27T17:15:20Z Merged pull request |-\|/-| 2053 +4 −4 py 1|-\|/-| 
+Add Native Files to Evaluation Jar |-\|/-| 2017-10-13T20:37:46Z Merged pull request |-\|/-| 2032 +322 −74 Makefile Tests/EndToEndTests/EvalClientTests/JavaEvalTest/run-test vcxproj java i 5|-\|/-| 
+Fix typos |-\|/-| 2017-06-23T11:01:30Z Merged pull request |-\|/-| 2030 +20 −20 lyx ipynb h cpp bat Tools/generate_build_info i py 18|-\|/-| 
+rewrote a few sentences and fixed typos |-\|/-| 2017-08-11T23:30:25Z Closed pull request |-\|/-| 2022 +28 −26 0|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2017-06-21T03:17:41Z Closed pull request |-\|/-| 2020 +0 −0 0|-\|/-| 
+Minor revisions to CNTK_101_LogisticRegression.ipynb (phrasing/clarification) |-\|/-| 2017-06-21T17:54:33Z Merged pull request |-\|/-| 2011 +62 −62 0|-\|/-| 
+Fix: past_value/future_value dtype of initial_state |-\|/-| 2017-06-23T23:03:25Z Merged pull request |-\|/-| 2004 +2 −2 py 1|-\|/-| 
+Update to more idiomatic python in tutorial 101 |-\|/-| 2017-06-16T01:43:06Z Merged pull request |-\|/-| 2003 +76 −58 0|-\|/-| 
+Fix typos |-\|/-| 2017-06-16T09:47:35Z Merged pull request |-\|/-| 1998 +20 −20 md cpp h ipynb 15|-\|/-| 
+Small typo fixes |-\|/-| 2017-06-28T04:35:22Z Merged pull request |-\|/-| 1997 +5 −5 ipynb 2|-\|/-| 
+Fix GCC compilation issues |-\|/-| 2017-08-04T16:27:07Z Merged pull request |-\|/-| 1996 +9 −10 h cpp 3|-\|/-| 
+Fix typos |-\|/-| 2017-06-12T09:12:57Z Merged pull request |-\|/-| 1989 +30 −30 md cs cpp h ipynb py 18|-\|/-| 
+Add distributed version of TransferLearning |-\|/-| 2017-08-08T16:34:14Z Closed pull request |-\|/-| 1977 +275 −0 py 1|-\|/-| 
+Update MNIST_Complex_Training.py |-\|/-| 2017-06-06T18:28:24Z Merged pull request |-\|/-| 1974 +1 −1 py 1|-\|/-| 
+Bug: You can not borrow a temporary array. |-\|/-| 2017-06-10T05:59:57Z Merged pull request |-\|/-| 1971 +4 −1 py 1|-\|/-| 
+Nikosk/tuned bidaf |-\|/-| 2017-06-13T16:07:25Z Closed pull request |-\|/-| 1969 +1,800 −0 md py 3|-\|/-| 
+add missing import sanitize_dynamic_axes |-\|/-| 2017-06-03T06:35:54Z Merged pull request |-\|/-| 1957 +1 −1 py 1|-\|/-| 
+Fix broadcast_as_operand for float64 and scalar |-\|/-| 2017-06-23T23:04:12Z Merged pull request |-\|/-| 1956 +1 −1 py 1|-\|/-| 
+Bugfix for get_data_type |-\|/-| 2017-06-24T00:26:52Z Merged pull request |-\|/-| 1955 +11 −2 py 2|-\|/-| 
+change to more idiomatic python in tutorial 101 |-\|/-| 2017-06-14T20:39:05Z Closed pull request |-\|/-| 1952 +76 −58 0|-\|/-| 
+Fix typo for Animals dataset description |-\|/-| 2017-06-02T01:45:59Z Merged pull request |-\|/-| 1943 +3 −3 md 0|-\|/-| 
+improve exception msg |-\|/-| 2017-06-23T23:07:50Z Merged pull request |-\|/-| 1939 +2 −2 py 1|-\|/-| 
+Better heartbeat for ProgressPrinter. See Issue #1928 |-\|/-| 2017-10-12T20:53:57Z Closed pull request |-\|/-| 1929 +2 −1 py 1|-\|/-| 
+Fix a error in the introduction of Performance Profiler Usage |-\|/-| 2017-06-28T04:38:10Z Merged pull request |-\|/-| 1914 +1 −1 h 1|-\|/-| 
+Added NATIVE_LOAD_MANIFEST |-\|/-| 2017-05-23T15:02:19Z Merged pull request |-\|/-| 1907 +20 −5 java 1|-\|/-| 
+Unified CNTKNativeUtils class |-\|/-| 2017-05-22T17:18:14Z Merged pull request |-\|/-| 1902 +55 −69 java i 3|-\|/-| 
+minor updates to more idiomatic python in tutorial 101 |-\|/-| 2017-06-02T08:10:15Z Closed pull request |-\|/-| 1883 +0 −0 0|-\|/-| 
+Expose members in java with get |-\|/-| 2017-05-17T09:32:02Z Merged pull request |-\|/-| 1875 +314 −95 java i 2|-\|/-| 
+Test an internal optimization method: SGD |-\|/-| 2017-07-13T05:14:55Z Closed pull request |-\|/-| 1854 +177 −0 py 1|-\|/-| 
+implemented proximal gradient descent learner |-\|/-| 2018-10-09T20:39:24Z Closed pull request |-\|/-| 1853 +16 −0 py 1|-\|/-| 
+Create zsn16-homework2 |-\|/-| 2017-07-13T04:40:28Z Closed pull request |-\|/-| 1851 +1 −0 zsn16-homework2 1|-\|/-| 
+Marhamil/java bindings |-\|/-| 2017-05-10T08:31:13Z Merged pull request |-\|/-| 1846 +1,526 −571 gitattributes gitignore props sln Makefile h txt Tests/EndToEndTests/EvalClientTests/JavaEvalTest/run-test java yml 9|-\|/-| 
+Close Memory Share |-\|/-| 2017-05-05T09:39:19Z Merged pull request |-\|/-| 1844 +1 −0 h 1|-\|/-| 
+Adding Nadam Optimization Method |-\|/-| 2017-05-22T17:33:19Z Closed pull request |-\|/-| 1828 +43 −0 py 1|-\|/-| 
+optimized SGD algorithm and comparison of  four kinds of method |-\|/-| 2017-05-22T17:33:10Z Closed pull request |-\|/-| 1827 +1,019 −1 ipynb py 4|-\|/-| 
+Adamax Learner |-\|/-| 2017-05-06T05:12:14Z Closed pull request |-\|/-| 1826 +42 −5 py 1|-\|/-| 
+Add a new optimization method:Adamax |-\|/-| 2017-05-06T05:13:32Z Closed pull request |-\|/-| 1825 +249 −0 py 1|-\|/-| 
+add ProximalGradientDescentOptimizer |-\|/-| 2017-05-22T17:32:22Z Closed pull request |-\|/-| 1824 +19 −1 py 1|-\|/-| 
+User defined learner for optimization. A proximal gradient descent learner implementation |-\|/-| 2017-05-22T17:32:13Z Closed pull request |-\|/-| 1823 +20 −0 py 1|-\|/-| 
+resnet_cifar10 using a new optimizaton method:prograd  |-\|/-| 2017-05-22T17:32:04Z Closed pull request |-\|/-| 1822 +41 −2 py 2|-\|/-| 
+MomentumWindowSGD |-\|/-| 2017-05-22T17:31:53Z Closed pull request |-\|/-| 1821 +39 −0 bindings/python/cntk/learners/MomentumWindowSGD 1|-\|/-| 
+MySgdExample.py |-\|/-| 2017-05-22T17:31:37Z Closed pull request |-\|/-| 1819 +24 −0 py 1|-\|/-| 
+new_sgd |-\|/-| 2017-05-22T17:31:24Z Closed pull request |-\|/-| 1818 +23 −0 py 1|-\|/-| 
+A simple implementation of Adamax |-\|/-| 2017-05-06T05:14:23Z Closed pull request |-\|/-| 1817 +33 −0 py 1|-\|/-| 
+Add a new leaner：normalized momentum sgd |-\|/-| 2017-05-22T17:31:07Z Closed pull request |-\|/-| 1816 +26 −1 py 1|-\|/-| 
+Implement proximal gradient descent optimizer |-\|/-| 2017-05-22T17:30:51Z Closed pull request |-\|/-| 1813 +13 −0 py 1|-\|/-| 
+Add adamax option for Adam learner. |-\|/-| 2017-05-06T05:05:53Z Merged pull request |-\|/-| 1812 +111 −38 h cpp cu cuh 14|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2017-04-27T05:22:43Z Closed pull request |-\|/-| 1807 +0 −0 0|-\|/-| 
+Implement Adamax Optimizer Method for CNTK |-\|/-| 2017-05-06T05:14:55Z Closed pull request |-\|/-| 1804 +395 −1 h cpp h$$ cu cuh 11|-\|/-| 
+Adding Adamax Optimization Method to CNTK Code |-\|/-| 2017-05-06T05:16:10Z Closed pull request |-\|/-| 1795 +244 −9 md h$$ h cu cuh cpp py 9|-\|/-| 
+updated |-\|/-| 2017-07-13T04:39:59Z Closed pull request |-\|/-| 1791 +1 −1 py 1|-\|/-| 
+Add Nadam method |-\|/-| 2017-07-13T05:28:45Z Closed pull request |-\|/-| 1790 +61,659 −76 props vcxproj config csproj md Makefile cpp h 18|-\|/-| 
+add nadam optimization methods |-\|/-| 2017-04-24T16:07:38Z Closed pull request |-\|/-| 1787 +76,849 −7,339 cpp h py bs cntk md 8|-\|/-| 
+Add an example of user defined learning algorithm. |-\|/-| 2017-05-22T17:30:18Z Closed pull request |-\|/-| 1784 +30 −0 py 1|-\|/-| 
+merge RC2 release |-\|/-| 2017-04-22T07:25:45Z Closed pull request |-\|/-| 1783 +3,302 −3,479 gitattributes md ps1 h cpp 5|-\|/-| 
+Fix typo in Examples/Image/DataSets/Grocery/install_grocery.py |-\|/-| 2017-05-02T09:16:23Z Merged pull request |-\|/-| 1778 +3 −3 py 2|-\|/-| 
+my 1bit sgd |-\|/-| 2017-05-22T17:30:03Z Closed pull request |-\|/-| 1773 +47 −0 py 1|-\|/-| 
+Release/2.0.rc2 |-\|/-| 2017-05-22T17:29:53Z Closed pull request |-\|/-| 1772 +272 −99 props vcxproj config csproj md Makefile cpp h 19|-\|/-| 
+Eldak/adding hash corpus |-\|/-| 2017-05-10T12:43:15Z Merged pull request |-\|/-| 1771 +1,106 −1,012 vcxproj cpp h 9|-\|/-| 
+CNTK Function Approximation Tutorial |-\|/-| 2017-08-11T23:53:27Z Closed pull request |-\|/-| 1767 +652 −0 0|-\|/-| 
+Tutorial CNTK 106: Part A - Time series prediction with LSTM (Basics) bug fix |-\|/-| 2017-06-16T21:37:09Z Closed pull request |-\|/-| 1743 +1,613 −85 config txt cpp vcxproj filters h 7|-\|/-| 
+Updated distributed examples to save the final trained models |-\|/-| 2018-01-16T05:40:51Z Closed pull request |-\|/-| 1730 +24 −12 py 1|-\|/-| 
+Adding dilated convolution support |-\|/-| 2017-08-30T08:20:33Z Merged pull request |-\|/-| 1715 +490 −411 bs h cpp 4|-\|/-| 
+[WIP] Refine CNTK build process. |-\|/-| 2017-07-17T11:43:40Z Closed pull request |-\|/-| 1714 +179 −36 Makefile configure 2|-\|/-| 
+Fix corruption in multi-GPU training |-\|/-| 2017-03-27T19:57:50Z Merged pull request |-\|/-| 1654 +2 −2 cpp 1|-\|/-| 
+Update CNTK_103B_MNIST_FeedForwardNetwork.ipynb |-\|/-| 2017-03-23T15:15:42Z Merged pull request |-\|/-| 1647 +1 −1 ipynb 1|-\|/-| 
+Fix a typo in README.md |-\|/-| 2017-04-06T13:52:45Z Merged pull request |-\|/-| 1646 +1 −1 md 0|-\|/-| 
+Update README.md |-\|/-| 2017-04-06T13:57:54Z Merged pull request |-\|/-| 1645 +1 −1 md 0|-\|/-| 
+fix workspace corner case and reduce memory footprint |-\|/-| 2017-03-23T01:46:39Z Merged pull request |-\|/-| 1644 +13 −6 cu 1|-\|/-| 
+add include_pad_pool support for avg pooling layer |-\|/-| 2017-03-20T06:47:42Z Merged pull request |-\|/-| 1636 +133 −63 cpp bs h 11|-\|/-| 
+Rename parameter for python API. |-\|/-| 2017-03-20T04:24:00Z Closed pull request |-\|/-| 1635 +14,198 −22,933 gitattributes gitignore vcxproj cpp config csproj 8|-\|/-| 
+Perform selected action at each time step |-\|/-| 2017-03-14T21:23:08Z Merged pull request |-\|/-| 1597 +1 −1 ipynb 1|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2017-07-04T10:15:16Z Closed pull request |-\|/-| 1586 +0 −0 0|-\|/-| 
+Enable NCCL support for Python in V2 gradients aggregation |-\|/-| 2017-04-07T22:42:23Z Closed pull request |-\|/-| 1582 +69 −26 cpp h 4|-\|/-| 
+Nluehr/misc fixes feb |-\|/-| 2017-04-07T21:56:52Z Closed pull request |-\|/-| 1581 +10 −12 md py cu 5|-\|/-| 
+Add nccl support to MASGD. |-\|/-| 2017-07-14T01:08:13Z Closed pull request |-\|/-| 1580 +46 −13 h 2|-\|/-| 
+Java Bindings |-\|/-| 2017-05-04T21:44:43Z Closed pull request |-\|/-| 1579 +0 −0 0|-\|/-| 
+fix avg-pooling-include-pad bug for BS script |-\|/-| 2017-03-07T01:18:49Z Merged pull request |-\|/-| 1570 +2 −2 bs 1|-\|/-| 
+add include_pad_pool support for average pooling layer |-\|/-| 2017-03-06T09:59:19Z Merged pull request |-\|/-| 1569 +131 −60 cpp bs h 11|-\|/-| 
+add include_pad_pool support for average pooling layer |-\|/-| 2017-03-06T06:16:54Z Merged pull request |-\|/-| 1567 +38 −11 h cpp h$$ py 8|-\|/-| 
+add include_pad_pool support for average pooling layer |-\|/-| 2017-03-04T01:58:54Z Merged pull request |-\|/-| 1560 +133 −68 cpp bs h 11|-\|/-| 
+add include_pad_pool support for average pooling layer |-\|/-| 2017-03-03T15:53:03Z Closed pull request |-\|/-| 1559 +135 −70 cpp bs h 11|-\|/-| 
+add environment and replay memory |-\|/-| 2017-03-03T00:47:00Z Closed pull request |-\|/-| 1554 +69 −0 py 1|-\|/-| 
+Fast-RCNN CNTK Python evaluation tutorial |-\|/-| 2017-02-26T11:45:27Z Closed pull request |-\|/-| 1532 +528 −0 ipynb py 3|-\|/-| 
+Allow for non-percentage metric in ProgressPrinter |-\|/-| 2017-03-07T01:15:14Z Merged pull request |-\|/-| 1520 +25 −8 py 1|-\|/-| 
+Fix for Stochastic CUDNN_STATUS_EXECUTION_FAILED |-\|/-| 2017-03-19T21:27:25Z Merged pull request |-\|/-| 1516 +164 −152 0|-\|/-| 
+Adding transfer learning notebook |-\|/-| 2017-06-05T06:09:28Z Closed pull request |-\|/-| 1499 +948 −15 py json 2|-\|/-| 
+Fixing typos |-\|/-| 2017-03-06T05:55:52Z Merged pull request |-\|/-| 1498 +3 −3 md ps1 2|-\|/-| 
+corrected ROI output format |-\|/-| 2017-08-08T16:24:12Z Merged pull request |-\|/-| 1472 +2 −5 py 1|-\|/-| 
+Added "anaconda-prefix" argument to linux installation script. |-\|/-| 2017-02-22T09:24:13Z Merged pull request |-\|/-| 1461 +17 −14 sh 1|-\|/-| 
+modify swig to generate more C# classes |-\|/-| 2017-08-02T15:00:38Z Closed pull request |-\|/-| 1459 +479 −243 csproj vcxproj filters 3|-\|/-| 
+LabelMe Parsing |-\|/-| 2017-02-16T08:09:02Z Merged pull request |-\|/-| 1455 +1 −1 py 1|-\|/-| 
+Add another check for end of epoch. |-\|/-| 2017-05-18T07:49:37Z Closed pull request |-\|/-| 1450 +10 −10 cpp 1|-\|/-| 
+Adding useRandomDropout option into SGD block |-\|/-| 2017-03-07T16:27:53Z Closed pull request |-\|/-| 1448 +17 −5 cpp h 4|-\|/-| 
+Small language change to comments |-\|/-| 2017-02-15T22:31:54Z Merged pull request |-\|/-| 1444 +1 −1 ipynb 1|-\|/-| 
+Fix a dangling pointer problem in CNTKv2LibraryDll. |-\|/-| 2017-03-18T11:31:57Z Merged pull request |-\|/-| 1441 +12 −11 h cpp 4|-\|/-| 
+Add optional kw argument to ProgressPrinter |-\|/-| 2017-02-24T01:37:55Z Closed pull request |-\|/-| 1438 +0 −0 0|-\|/-| 
+nluehr/examplefixes |-\|/-| 2017-02-17T02:55:32Z Merged pull request |-\|/-| 1437 +59 −58 cntk py cu ipynb 14|-\|/-| 
+MSharman |-\|/-| 2017-02-13T09:09:44Z Merged pull request |-\|/-| 1428 +70 −0 py 1|-\|/-| 
+Pack gradients into continous buffer |-\|/-| 2017-03-03T20:24:21Z Closed pull request |-\|/-| 1420 +352 −81 h cpp 7|-\|/-| 
+Added ability to change progress printer metric treatment |-\|/-| 2017-02-04T02:12:59Z Closed pull request |-\|/-| 1399 +23 −8 py 1|-\|/-| 
+Declare deleted functions public in C++ API header file. |-\|/-| 2017-08-17T18:09:26Z Closed pull request |-\|/-| 1378 +10 −6 h 2|-\|/-| 
+restore_from_checkpoint description mistake |-\|/-| 2017-01-26T08:44:36Z Merged pull request |-\|/-| 1364 +1 −1 py 1|-\|/-| 
+Added NCCL to V2SimpleDistGradAggregator |-\|/-| 2017-01-27T00:18:17Z Merged pull request |-\|/-| 1357 +29 −13 h cpp 5|-\|/-| 
+Fix a tiny typo error in comment. |-\|/-| 2017-01-26T14:17:38Z Merged pull request |-\|/-| 1330 +1 −1 h 1|-\|/-| 
+Fix a tiny typo error in comment. |-\|/-| 2017-01-20T07:29:22Z Closed pull request |-\|/-| 1329 +3 −3 h 1|-\|/-| 
+A couple of bugs fixed in CNTK_203_Reinforcement_Learning_Basics tutorial |-\|/-| 2017-01-23T18:02:33Z Merged pull request |-\|/-| 1311 +5 −7 ipynb 1|-\|/-| 
+Merge pull request #2 from Microsoft/master (Beta 8) |-\|/-| 2017-01-17T10:41:17Z Closed pull request |-\|/-| 1305 +0 −0 0|-\|/-| 
+Timeseries examples |-\|/-| 2017-01-20T20:04:18Z Closed pull request |-\|/-| 1292 +951 −0 0|-\|/-| 
+Flushing stderr on no cmd args given |-\|/-| 2017-01-26T14:17:38Z Merged pull request |-\|/-| 1274 +1 −0 cpp 1|-\|/-| 
+FastRCNN - Bad bonding box read when there is only one ground truth annotation |-\|/-| 2017-01-10T08:30:24Z Merged pull request |-\|/-| 1272 +6 −0 py 1|-\|/-| 
+Build fix for Linux |-\|/-| 2017-01-18T09:48:23Z Merged pull request |-\|/-| 1264 +1 −1 cpp 1|-\|/-| 
+Pkranen/feat extract |-\|/-| 2017-01-09T12:54:26Z Closed pull request |-\|/-| 1261 +239 −38 gitignore py md json 7|-\|/-| 
+Add deviceId=localRank mode, enabling process select GPU by its local rank |-\|/-| 2017-06-05T20:22:20Z Closed pull request |-\|/-| 1258 +53 −11 cpp h 3|-\|/-| 
+Update CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy.ipynb |-\|/-| 2017-03-15T05:54:19Z Closed pull request |-\|/-| 1257 +4 −4 ipynb 1|-\|/-| 
+Revert "Revert "Add ReasoNet model as example"" |-\|/-| 2017-07-13T05:46:40Z Closed pull request |-\|/-| 1254 +1,225 −3 py 3|-\|/-| 
+Undo ReasoNet changes  to master |-\|/-| 2017-01-06T14:58:45Z Merged pull request |-\|/-| 1253 +3 −1,225 py 3|-\|/-| 
+Penhe/reasonet |-\|/-| 2017-01-06T14:34:40Z Merged pull request |-\|/-| 1252 +1,225 −3 py 3|-\|/-| 
+Initial divmod implementation |-\|/-| 2017-01-12T19:09:07Z Merged pull request |-\|/-| 1246 +249 −30 0|-\|/-| 
+Fast-RCNN Example: Added use of path.join to better accomodate windows scenarios |-\|/-| 2017-01-04T15:13:05Z Merged pull request |-\|/-| 1240 +18 −18 py 5|-\|/-| 
+Bug in script 06_OneConvRegrMultiNode.cntk  |-\|/-| 2017-01-05T14:40:06Z Merged pull request |-\|/-| 1234 +1 −0 cntk 1|-\|/-| 
+Merge pull request #2 from Microsoft/master |-\|/-| 2017-01-03T11:06:21Z Closed pull request |-\|/-| 1233 +0 −0 0|-\|/-| 
+Update docstring for eval in functions.py |-\|/-| 2017-01-04T17:05:45Z Merged pull request |-\|/-| 1227 +2 −1 py 1|-\|/-| 
+Fixed bug in ConvNet_MNIST.py |-\|/-| 2017-01-05T16:50:33Z Merged pull request |-\|/-| 1217 +1 −1 py 1|-\|/-| 
+beta7 |-\|/-| 2017-01-03T13:38:18Z Closed pull request |-\|/-| 1203 +5,047 −1,705 gitattributes props sln cpp csproj config md py 7|-\|/-| 
+Clean up README |-\|/-| 2017-01-04T17:01:01Z Merged pull request |-\|/-| 1201 +22 −16 md 0|-\|/-| 
+Fix an example |-\|/-| 2017-01-05T14:40:06Z Merged pull request |-\|/-| 1182 +1 −0 cntk 1|-\|/-| 
+reserve CNTK_MODEL_VERSION_18 for dilated convolution |-\|/-| 2016-12-21T22:30:44Z Merged pull request |-\|/-| 1170 +10 −1 h 2|-\|/-| 
+Slayton58/divmod |-\|/-| 2016-12-13T21:32:04Z Closed pull request |-\|/-| 1167 +1,276,607 −79,522 gitattributes gitignore props sln txt lyx cs gitkeep csproj 11|-\|/-| 
+Fixing Docker CPU image to working with Speech example |-\|/-| 2017-01-04T16:45:32Z Closed pull request |-\|/-| 1145 +2 −1 Tools/docker/CNTK-CPUOnly-Image/Dockerfile 1|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2016-12-05T00:05:41Z Closed pull request |-\|/-| 1127 +0 −0 0|-\|/-| 
+Python delay fix |-\|/-| 2017-01-04T16:49:20Z Closed pull request |-\|/-| 1126 +2 −2 py rst 2|-\|/-| 
+Bugfix for python graph.output_function_graph for rnn's |-\|/-| 2016-12-22T03:00:42Z Merged pull request |-\|/-| 1121 +2 −2 py rst 2|-\|/-| 
+Use https:// URLs |-\|/-| 2016-12-02T18:20:48Z Merged pull request |-\|/-| 1120 +5 −5 md 0|-\|/-| 
+Update README.md |-\|/-| 2016-11-28T15:43:37Z Merged pull request |-\|/-| 1099 +1 −2 md 0|-\|/-| 
+Use num_samples to accumulate metric_numer and metric_denom |-\|/-| 2016-11-23T21:05:02Z Closed pull request |-\|/-| 1065 +2 −2 py 1|-\|/-| 
+Add windows baseline for ASGD e2e test |-\|/-| 2016-11-16T08:14:59Z Merged pull request |-\|/-| 1043 +1,462 −0 0|-\|/-| 
+Fixed formatting errors in  CNTK_203_Reinforcement_Learning_Basics.ipynb |-\|/-| 2016-11-15T11:20:13Z Merged pull request |-\|/-| 1039 +2 −2 ipynb 1|-\|/-| 
+Fixed broken link in the tutorial docs |-\|/-| 2016-11-15T10:53:35Z Merged pull request |-\|/-| 1038 +1 −1 rst 1|-\|/-| 
+Fix missing space and submodule |-\|/-| 2016-11-14T13:44:18Z Merged pull request |-\|/-| 1030 +2 −1 Tools/docker/CNTK-GPU-Image/Dockerfile configure 2|-\|/-| 
+Removed "using namespace std" from basetypes.h |-\|/-| 2016-11-11T11:01:43Z Merged pull request |-\|/-| 1023 +205 −207 h 4|-\|/-| 
+Updated Docker files to include Python bindings |-\|/-| 2016-11-11T00:35:32Z Merged pull request |-\|/-| 997 +290 −5 Makefile yml Tools/docker/CNTK-CPUOnly-Image/Dockerfile Tools/docker/CNTK-GPU-1bit-Image/Dockerfile Tools/docker/CNTK-GPU-Image/Dockerfile 5|-\|/-| 
+Adding a fast method to invoke the EvalWrapper for images |-\|/-| 2016-11-21T18:13:07Z Merged pull request |-\|/-| 952 +888 −6,410 cs 2|-\|/-| 
+Fix link on Readme.md |-\|/-| 2016-10-26T15:54:03Z Closed pull request |-\|/-| 950 +1 −1 md 0|-\|/-| 
+Update Dockerfiles to reference sample data in new location |-\|/-| 2016-10-28T10:28:18Z Closed pull request |-\|/-| 910 +8 −10 Tools/docker/CNTK-CPUOnly-Image/Dockerfile Tools/docker/CNTK-GPU-Image/Dockerfile 2|-\|/-| 
+WARNING on dataReader Qiwye/asgd dev |-\|/-| 2016-11-01T13:24:30Z Closed pull request |-\|/-| 900 +44,979 −106 gitmodules sln Makefile cpp vcxproj 5|-\|/-| 
+add CPPEvalExtendedClient |-\|/-| 2016-11-11T10:30:14Z Closed pull request |-\|/-| 899 +507 −0 cpp 1|-\|/-| 
+Updating README.md |-\|/-| 2016-10-05T18:44:53Z Closed pull request |-\|/-| 878 +3 −3 md 0|-\|/-| 
+support max utterance length in HTK Reader |-\|/-| 2016-12-05T09:48:28Z Closed pull request |-\|/-| 877 +14 −0 cpp h 2|-\|/-| 
+NCCL support in SimpleDistGradAggregator |-\|/-| 2016-11-09T15:59:36Z Merged pull request |-\|/-| 874 +327 −42 Makefile vcxproj h cpp 8|-\|/-| 
+added missing regression data for 06_RegressionSimple to CifarConvert… |-\|/-| 2016-10-03T22:38:50Z Merged pull request |-\|/-| 873 +19 −12 py 1|-\|/-| 
+add example that show how to use extended eval interface |-\|/-| 2016-10-08T07:51:47Z Closed pull request |-\|/-| 852 +514 −0 cpp 1|-\|/-| 
+add end empty line and delete spaces |-\|/-| 2016-09-25T20:07:57Z Closed pull request |-\|/-| 851 +2 −2 cpp 1|-\|/-| 
+fix CPPEvalClient build issue |-\|/-| 2016-09-19T01:12:50Z Closed pull request |-\|/-| 849 +4 −3 vcxproj 1|-\|/-| 
+Removing #define for min() function |-\|/-| 2016-09-14T22:54:26Z Closed pull request |-\|/-| 843 +0 −4 cpp 1|-\|/-| 
+V-yuxgu/resnet rc |-\|/-| 2016-09-08T09:40:20Z Closed pull request |-\|/-| 827 +378 −4,264 txt ndl md cntk h cpp 9|-\|/-| 
+Remove huge matrix dump |-\|/-| 2016-10-28T10:20:30Z Merged pull request |-\|/-| 824 +0 −1 h 1|-\|/-| 
+CNTKTextFormatReader and SquareError node can now handle NaN labels  |-\|/-| 2017-08-11T16:26:43Z Closed pull request |-\|/-| 823 +5,681 −5 h cpp png 300|-\|/-| 
+G2P example fixed when running with CNTKTextFormatReader |-\|/-| 2017-08-02T14:53:22Z Closed pull request |-\|/-| 822 +1,208,445 −31 cntk 1|-\|/-| 
+fix in fileutil.cpp: close file & mkdir support in Linux |-\|/-| 2016-09-08T19:10:17Z Closed pull request |-\|/-| 800 +27 −2 cpp 1|-\|/-| 
+Optimization of TensorView class |-\|/-| 2016-08-26T01:39:05Z Closed pull request |-\|/-| 789 +249 −30 0|-\|/-| 
+Linux build fix |-\|/-| 2016-09-08T19:10:23Z Closed pull request |-\|/-| 778 +13 −6 cpp h 2|-\|/-| 
+Exceptions fix: Handle exception codes |-\|/-| 2016-09-08T19:10:29Z Closed pull request |-\|/-| 777 +93 −26 cpp h 9|-\|/-| 
+Pull Commits from Microsoft/CNTK  |-\|/-| 2016-08-20T11:32:31Z Closed pull request |-\|/-| 776 +0 −0 0|-\|/-| 
+Avoid double definition of atomicAdd on modern GPUs |-\|/-| 2016-08-26T01:08:33Z Merged pull request |-\|/-| 771 +3 −2 cuh 1|-\|/-| 
+add example that show how to use extended eval interface |-\|/-| 2016-09-19T02:20:23Z Closed pull request |-\|/-| 770 +311 −0 cpp vcxproj filters 3|-\|/-| 
+Added support for regression in ImageDataDeserializer |-\|/-| 2016-09-06T14:29:09Z Closed pull request |-\|/-| 719 +5,879 −389 h cpp 5|-\|/-| 
+Moved MNIST example from NDL to BrainScript |-\|/-| 2016-09-07T15:11:40Z Merged pull request |-\|/-| 686 +1,625,709 −2,498,798 gitattributes gitignore props 3|-\|/-| 
+Update Dockerfile-GPU |-\|/-| 2016-06-13T18:27:04Z Closed pull request |-\|/-| 573 +1 −1 Tools/docker/Dockerfile-GPU 1|-\|/-| 
+POS example |-\|/-| 2016-06-09T16:32:48Z Closed pull request |-\|/-| 566 +193 −0 cntk gitignore Examples/SequenceToSequence/POS/Data/Makefile pl 4|-\|/-| 
+Make exceptions serializable |-\|/-| 2016-06-08T14:15:17Z Merged pull request |-\|/-| 528 +41 −1 cpp 1|-\|/-| 
+Merge pull request #1 from Microsoft/master |-\|/-| 2016-06-08T12:46:16Z Closed pull request |-\|/-| 490 +0 −0 0|-\|/-| 
+Sub-linear memory optimization on ResNet |-\|/-| 2016-09-07T02:02:59Z Closed pull request |-\|/-| 482 +765 −17 gitignore cntk ndl Makefile cpp h 6|-\|/-| 
+bugfix: multiview in ImageReader now disabled by default (as intended) |-\|/-| 2016-05-11T21:52:27Z Closed pull request |-\|/-| 467 +1 −1 cpp 1|-\|/-| 
+bugfix: grayscale image now assumed by default if number of channels … |-\|/-| 2016-05-11T21:47:53Z Merged pull request |-\|/-| 466 +1 −1 cpp 1|-\|/-| 
+baseline |-\|/-| 2016-05-10T06:04:28Z Closed pull request |-\|/-| 459 +228 −10 gitignore h cpp cu vcxproj filters 11|-\|/-| 
+FIXED: error: expected ')' before 'PRIu64' on Linux CPU-only |-\|/-| 2016-05-02T12:34:36Z Merged pull request |-\|/-| 397 +43 −20 cpp h 25|-\|/-| 
+WIP |-\|/-| 2016-05-18T19:19:03Z Closed pull request |-\|/-| 396 +104 −298 props vcxproj 3|-\|/-| 
+Update Network Description Language.md |-\|/-| 2017-01-04T16:59:30Z Closed pull request |-\|/-| 395 +13 −22 md 0|-\|/-| 
+Alexeyk/max gpus |-\|/-| 2016-04-27T18:48:20Z Closed pull request |-\|/-| 386 +13,393,241 −458,642 clang-format gitattributes 2|-\|/-| 
+Wrapping the native EvaluateModel interface for Python |-\|/-| 2016-10-11T11:03:17Z Closed pull request |-\|/-| 363 +391 −2 sln vcxproj filters 3|-\|/-| 
+Stdc format macros fix |-\|/-| 2016-05-02T12:44:26Z Closed pull request |-\|/-| 355 +29 −1 h cpp 6|-\|/-| 
+Update mnist_convert_python3.py |-\|/-| 2016-03-30T16:36:10Z Merged pull request |-\|/-| 304 +1 −1 py 1|-\|/-| 
+Add OpenMPI selection in configure and Makefile.  |-\|/-| 2017-01-06T23:23:53Z Closed pull request |-\|/-| 301 +53 −0 Makefile configure 2|-\|/-| 
+revised docker files |-\|/-| 2016-03-29T20:37:28Z Merged pull request |-\|/-| 293 +137 −0 Tools/docker/Dockerfile-CPU Tools/docker/Dockerfile-GPU 2|-\|/-| 
+fix 1bitsgd default in configure help text |-\|/-| 2016-03-27T19:43:30Z Merged pull request |-\|/-| 289 +1 −1 configure 1|-\|/-| 
+Makefile and configure changes for docker and for using alternative install paths |-\|/-| 2017-06-28T14:14:32Z Closed pull request |-\|/-| 283 +8 −5 Makefile configure 2|-\|/-| 
+Adding error handling when parsing image map files |-\|/-| 2016-03-24T13:13:59Z Closed pull request |-\|/-| 281 +12 −2 cpp 1|-\|/-| 
+Fixed the SquareError value calculation and the documentation formulas. |-\|/-| 2016-03-30T07:20:36Z Closed pull request |-\|/-| 279 +7 −7 lyx h 2|-\|/-| 
+Fixed the projects that were always considered out of date. |-\|/-| 2016-03-30T07:21:04Z Closed pull request |-\|/-| 278 +2 −10 vcxproj filters 6|-\|/-| 
+CPU and GPU dockerfiles |-\|/-| 2016-03-26T23:35:51Z Closed pull request |-\|/-| 275 +7 −4 Makefile configure 2|-\|/-| 
+Initial dockerfile -- cpu only |-\|/-| 2016-03-23T00:52:05Z Closed pull request |-\|/-| 259 +0 −0 0|-\|/-| 
+When we execute the plot action, It shows "The syntax of the command is incorrect." |-\|/-| 2016-03-20T23:04:56Z Merged pull request |-\|/-| 258 +2 −2 cpp 1|-\|/-| 
+Fix Missing api-ms-win-core-path-l1-1-0.dll #224 |-\|/-| 2016-03-23T18:29:02Z Merged pull request |-\|/-| 237 +43 −7 cpp 1|-\|/-| 
+Fix Kaldi2Reader Building |-\|/-| 2016-03-15T01:53:11Z Merged pull request |-\|/-| 207 +9,121 −29 h cu cpp ark 7|-\|/-| 
+Fix issue https://github.com/Microsoft/CNTK/issues/171 |-\|/-| 2016-11-04T18:18:28Z Closed pull request |-\|/-| 204 +1 −1 cntk 1|-\|/-| 
+Py3K compliant TestDriver |-\|/-| 2016-03-15T12:15:23Z Closed pull request |-\|/-| 197 +1,729 −551 sln cntk ndl 5|-\|/-| 
+MaxGpus was hardcoded to 8 GPUs |-\|/-| 2016-04-01T17:53:06Z Merged pull request |-\|/-| 172 +5 −1 h 1|-\|/-| 
+Fix Kaldi2Reader building. |-\|/-| 2016-03-03T20:25:01Z Closed pull request |-\|/-| 154 +7 −3 cu cpp h 4|-\|/-| 
+Upgrade the cuDNN version from 4.0 rc to 4.0 prod |-\|/-| 2016-02-29T23:50:32Z Closed pull request |-\|/-| 130 +1 −1 cu 1|-\|/-| 
+Added reinterpret_cast<long int*>(&info) to [d,s]gesvd() of CPUMatrix.cpp |-\|/-| 2016-02-11T16:49:13Z Closed pull request |-\|/-| 108 +2 −2 cpp 1|-\|/-| 
+Mac port |-\|/-| 2017-08-02T14:49:05Z Closed pull request |-\|/-| 100 +252 −313 Makefile cpp h 16|-\|/-| 
+Added missing quote in case OPENCV_PATH contains spaces. |-\|/-| 2016-02-11T08:41:21Z Merged pull request |-\|/-| 96 +2 −2 vcxproj 1|-\|/-| 
+Fixed the build errors (on Linux): |-\|/-| 2016-02-23T01:25:37Z Merged pull request |-\|/-| 93 +9 −11 cpp h cu 7|-\|/-| 
+Fix a typo: lanugage -> language |-\|/-| 2016-02-11T15:17:21Z Merged pull request |-\|/-| 90 +1 −1 cu 1|-\|/-| 
+Add node 'ClassPrediction(labels,output)' |-\|/-| 2016-02-12T17:35:45Z Closed pull request |-\|/-| 88 +163 −3 cntk ndl cpp h 11|-\|/-| 
+Input(2)->HasMBLayout |-\|/-| 2016-02-04T00:47:00Z Closed pull request |-\|/-| 87 +1 −1 h 1|-\|/-| 
+forgot `throw` keyword |-\|/-| 2016-02-03T20:03:26Z Closed pull request |-\|/-| 86 +1 −1 cpp 1|-\|/-| 
+Update README.md |-\|/-| 2016-02-02T22:05:43Z Merged pull request |-\|/-| 72 +2 −2 md 0|-\|/-| 
+Merge pull request #2 from Microsoft/master |-\|/-| 2016-02-01T00:40:17Z Closed pull request |-\|/-| 68 +0 −0 0|-\|/-| 
+Master |-\|/-| 2016-02-12T17:36:18Z Closed pull request |-\|/-| 66 +120 −78 md cpp h cu 10|-\|/-| 
+Add experimental support for OpenBLAS library |-\|/-| 2016-02-13T15:28:24Z Merged pull request |-\|/-| 63 +142 −74 Makefile 1|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-02-02T22:10:58Z Merged pull request |-\|/-| 60 +25 −25 py 1|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-01-29T17:06:53Z Merged pull request |-\|/-| 58 +2 −2 py 1|-\|/-| 
+Add printMetadata flag to the dumpnode action.  |-\|/-| 2016-02-07T11:10:27Z Closed pull request |-\|/-| 56 +89 −61 cpp h 9|-\|/-| 
+Fix the compile issue for Kaldi2Reader. |-\|/-| 2016-01-29T18:22:51Z Merged pull request |-\|/-| 51 +6 −2 cpp 1|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-01-29T11:21:21Z Merged pull request |-\|/-| 50 +2 −2 py 1|-\|/-| 
+CTNK - deep learning  |-\|/-| 2016-02-09T10:00:47Z Closed pull request |-\|/-| 46 +18,077,118 −269,351 clang-format gitattributes 2|-\|/-| 
+Cuda elementwise rework |-\|/-| 2016-01-28T16:00:00Z Closed pull request |-\|/-| 45 +264 −263 sln md cu h 3|-\|/-| 
+Update Model Editing Language.md |-\|/-| 2016-01-28T04:51:44Z Merged pull request |-\|/-| 41 +1 −1 md 0|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-01-28T06:23:35Z Merged pull request |-\|/-| 39 +1 −1 py 1|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-01-28T06:25:49Z Merged pull request |-\|/-| 38 +5 −5 py 1|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-01-26T18:07:31Z Merged pull request |-\|/-| 28 +15 −15 py 1|-\|/-| 
+python 3 compatibility fix |-\|/-| 2016-01-26T18:05:52Z Merged pull request |-\|/-| 27 +2 −2 py 1|-\|/-| 
+Doc spellcheck |-\|/-| 2016-01-26T00:18:19Z Merged pull request |-\|/-| 23 +53 −53 lyx 5|-\|/-| 
+Add Markdown versions of documentation Word files |-\|/-| 2016-01-26T18:15:06Z Merged pull request |-\|/-| 20 +2,984 −0 docx md 3|-\|/-| 
+Fixed Source/Math/ConvolutionEngine.cpp error: format ‘%d’ expects argument of type ‘int’ |-\|/-| 2016-01-26T00:02:06Z Merged pull request |-\|/-| 16 +1 −1 cpp 1|-\|/-| 
+grammar edit |-\|/-| 2016-01-26T00:19:27Z Merged pull request |-\|/-| 14 +1 −1 md 0|-\|/-| 
+Update CppCntk.vssettings (wolfma) |-\|/-| 2016-01-22T09:11:05Z Merged pull request |-\|/-| 4 +10 −10 vssettings 1|-\|/-| 
+Update README.md |-\|/-| 2016-01-20T09:23:52Z Merged pull request |-\|/-| 3 +1 −1 md 0|-\|/-| 

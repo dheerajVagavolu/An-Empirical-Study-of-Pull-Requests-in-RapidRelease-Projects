@@ -1,0 +1,272 @@
+Fix channel ID problem with multiple gateways (discord). Fixes #953 |-\|/-| 2020-01-09T22:54:05Z Merged pull request |-\|/-| 977 +9 −19 go 3|-\|/-| 
+Update to tengo v2 |-\|/-| 2020-01-09T20:52:20Z Merged pull request |-\|/-| 976 +11,404 −11,830 go mod sum yml 14|-\|/-| 
+Update dependencies |-\|/-| 2020-01-09T20:02:56Z Merged pull request |-\|/-| 975 +72,952 −42,722 mod sum md go 3|-\|/-| 
+Whatsapp media (jpeg/png/gif) bridging (rebase) |-\|/-| 2020-01-09T17:14:02Z Merged pull request |-\|/-| 974 +205 −43 go mod 4|-\|/-| 
+ move stripCustomoji logic to default Tengo script |-\|/-| 2020-01-09T17:02:54Z Merged pull request |-\|/-| 973 +7 −7 go tengo 3|-\|/-| 
+README: Add link to Ansible role for Matterbridge |-\|/-| 2020-01-01T20:38:26Z Merged pull request |-\|/-| 968 +1 −1 md 0|-\|/-| 
+Return when we have only WebhookURL (mattermost). Fixes #954 |-\|/-| 2019-12-15T22:49:17Z Merged pull request |-\|/-| 960 +1 −2 go 1|-\|/-| 
+Update slack vendor to fix regression |-\|/-| 2019-12-08T20:05:03Z Merged pull request |-\|/-| 959 +5 −3 mod sum go txt 3|-\|/-| 
+Update slack vendor to master |-\|/-| 2019-12-07T21:54:37Z Merged pull request |-\|/-| 958 +263 −60 mod sum yml go 15|-\|/-| 
+Re-add binary to .gitignore |-\|/-| 2019-11-25T23:16:41Z Merged pull request |-\|/-| 951 +2 −0 gitignore 1|-\|/-| 
+Upgrade linter and travis to go1.13 |-\|/-| 2019-11-17T22:16:07Z Merged pull request |-\|/-| 949 +7 −6 yaml yml sh 3|-\|/-| 
+Switch to new emoji library kyokomi/emoji |-\|/-| 2019-11-17T22:01:03Z Merged pull request |-\|/-| 948 +4,381 −20,600 gitignore go mod sum com/matterbridge/emoji/LICENSE md 7|-\|/-| 
+Update shazow/ssh-chat dependency |-\|/-| 2019-11-17T20:42:42Z Merged pull request |-\|/-| 947 +1,518 −16 mod sum com/shazow/ssh-chat/NOTICE go com/shazow/ssh-chat/sshd/terminal/LICENSE 8|-\|/-| 
+Update markdown parsing library to github.com/gomarkdown/markdown. Fixes (#927) |-\|/-| 2019-11-17T20:18:02Z Merged pull request |-\|/-| 944 +8,282 −47,873 go mod sum gitignore gitpod yml txt 6|-\|/-| 
+Use own slack fork to fix #937 |-\|/-| 2019-11-13T23:04:40Z Merged pull request |-\|/-| 943 +37 −4 mod sum go txt 6|-\|/-| 
+Update vendor |-\|/-| 2019-10-26T23:45:58Z Merged pull request |-\|/-| 932 +5,087 −2,538 go mod sum 3|-\|/-| 
+Remove obsolete file upload links (discord). Fixes #908 |-\|/-| 2019-10-26T23:10:43Z Merged pull request |-\|/-| 931 +0 −12 go 1|-\|/-| 
+Convert slack bold/strike to correct markdown (slack). Fixes #918 |-\|/-| 2019-10-26T23:11:00Z Merged pull request |-\|/-| 930 +31 −0 go 2|-\|/-| 
+Add support for uploading application/x and audio/x (matrix). Fixes #925 |-\|/-| 2019-10-26T22:06:45Z Merged pull request |-\|/-| 929 +14 −1 go 1|-\|/-| 
+Update vendor matterbridge/gomatrix fork |-\|/-| 2019-10-26T21:31:44Z Merged pull request |-\|/-| 928 +212 −89 mod sum yml 3|-\|/-| 
+Update gitlab.com/golang-commonmark/linkify vendor and use upstream again. Fixes #924 |-\|/-| 2019-10-26T20:08:03Z Merged pull request |-\|/-| 926 +15 −11 mod sum yml go txt 4|-\|/-| 
+Add support for receiving attachments (keybase) |-\|/-| 2019-11-01T21:29:53Z Merged pull request |-\|/-| 923 +27 −4 go 1|-\|/-| 
+Fix panic on WebhookURL only setting (mattermost). Closes #916 |-\|/-| 2019-10-03T23:01:25Z Merged pull request |-\|/-| 917 +5 −0 go 1|-\|/-| 
+discord: user typing messages |-\|/-| 2019-10-03T22:18:56Z Merged pull request |-\|/-| 914 +24 −1 go 3|-\|/-| 
+slack: suppress unhandled HelloEvent message |-\|/-| 2019-10-03T22:19:51Z Merged pull request |-\|/-| 913 +4 −3 go 2|-\|/-| 
+Specify correct GuildID on unknown user query.  Fixes #879 |-\|/-| 2019-09-15T18:25:43Z Merged pull request |-\|/-| 894 +4 −4 go 2|-\|/-| 
+RocketChat: add token support. |-\|/-| 2019-09-13T21:41:02Z Merged pull request |-\|/-| 892 +8 −0 go sample 2|-\|/-| 
+Do configuration validation on start-up. Fixes #888 |-\|/-| 2019-09-09T21:48:00Z Merged pull request |-\|/-| 889 +38 −1 go 4|-\|/-| 
+Update dependencies |-\|/-| 2019-09-07T20:46:59Z Merged pull request |-\|/-| 886 +24,318 −16,607 go sh mod 3|-\|/-| 
+Update lrstanley/girc vendor |-\|/-| 2019-09-07T19:35:46Z Merged pull request |-\|/-| 884 +420 −101 mod sum go 5|-\|/-| 
+Bail if incorrect Jid (xmpp). Fixes #869 |-\|/-| 2019-09-07T19:36:26Z Merged pull request |-\|/-| 883 +3 −0 go 1|-\|/-| 
+Replace bwmarrin/discordgo with matterbridge/discordgo |-\|/-| 2019-08-26T21:47:51Z Merged pull request |-\|/-| 878 +74 −7 mod sum go txt 4|-\|/-| 
+Keybase Chat support |-\|/-| 2019-08-26T19:00:31Z Merged pull request |-\|/-| 877 +5,408 −566 md go mod sum sample com/keybase/go-keybase-chat-bot/LICENSE 8|-\|/-| 
+Update Rhymen/go-whatsapp vendor |-\|/-| 2019-08-26T21:22:34Z Merged pull request |-\|/-| 876 +509 −40 mod sum md go 5|-\|/-| 
+make getChannelIdTeam behave like GetChannelId for groups |-\|/-| 2019-09-07T19:38:45Z Merged pull request |-\|/-| 873 +13 −14 go 1|-\|/-| 
+Support for webhook files in discord |-\|/-| 2019-08-28T22:13:10Z Merged pull request |-\|/-| 872 +69 −36 go mod 3|-\|/-| 
+Fix regression (discord). Closes #864 |-\|/-| 2019-07-29T21:37:39Z Merged pull request |-\|/-| 866 +1 −1 go 1|-\|/-| 
+Add support for discord category channels (discord) |-\|/-| 2019-07-15T19:56:36Z Merged pull request |-\|/-| 863 +54 −23 go sample 3|-\|/-| 
+Fix #860: discord channel & category name clash |-\|/-| 2019-07-14T17:53:10Z Merged pull request |-\|/-| 861 +24 −6 go 2|-\|/-| 
+Fix panic by checking slice bounds in handleEntities (telegram). Fixes #857 |-\|/-| 2019-07-08T20:19:46Z Merged pull request |-\|/-| 858 +9 −3 go 1|-\|/-| 
+Support webhook message deletions (discord) |-\|/-| 2019-07-08T20:18:38Z Merged pull request |-\|/-| 853 +53 −9 go 3|-\|/-| 
+Update vendor |-\|/-| 2019-06-16T21:33:26Z Merged pull request |-\|/-| 852 +71,442 −6,856 mod sum md go 12|-\|/-| 
+Support bulk deletions (discord) |-\|/-| 2019-06-16T14:07:49Z Merged pull request |-\|/-| 851 +22 −0 go 2|-\|/-| 
+Add .gitignore |-\|/-| 2019-06-16T14:37:39Z Merged pull request |-\|/-| 850 +5 −0 gitignore 1|-\|/-| 
+Add an option to skip the Mattermost server version check |-\|/-| 2019-06-16T14:23:51Z Merged pull request |-\|/-| 849 +21 −14 go 4|-\|/-| 
+Fix regression in autojoining with legacy tokens (slack). Fixes #651 |-\|/-| 2019-06-13T22:42:56Z Merged pull request |-\|/-| 848 +18 −2 go 2|-\|/-| 
+Allow messages with timestamp (xmpp). Fixes #835 |-\|/-| 2019-06-13T22:24:43Z Merged pull request |-\|/-| 847 +1 −1 go 1|-\|/-| 
+Revert xmpp to orig behaviour. Closes #844 |-\|/-| 2019-06-13T21:35:05Z Merged pull request |-\|/-| 846 +1 −1 go 1|-\|/-| 
+Update github.com/Rhymen/go-whatsapp vendor. Fixes #843 |-\|/-| 2019-06-13T22:02:33Z Merged pull request |-\|/-| 845 +217 −58 go mod sum md 9|-\|/-| 
+Fixing #835 and writing config.go and matterbridge.toml.sample entries |-\|/-| 2019-07-29T21:28:26Z Closed pull request |-\|/-| 839 +13 −2 go sample 3|-\|/-| 
+Fix go mod issue by removing whatsapp-ext |-\|/-| 2019-06-02T08:35:21Z Merged pull request |-\|/-| 838 +34 −1,486 go mod sum 6|-\|/-| 
+Fix broken go.mod |-\|/-| 2019-06-01T21:01:22Z Closed pull request |-\|/-| 837 +71,983 −8,886 go mod sum matterbridge md 4|-\|/-| 
+Xmpp stamp.is zero fixing issue #835 |-\|/-| 2019-06-02T21:41:28Z Closed pull request |-\|/-| 836 +134 −78 go 1|-\|/-| 
+XMPP: verify TLS against JID domain, not the host. |-\|/-| 2019-06-13T23:10:44Z Merged pull request |-\|/-| 834 +1 −1 go 1|-\|/-| 
+Merge upstream changes. |-\|/-| 2019-05-28T16:00:19Z Closed pull request |-\|/-| 833 +1 −1 go 1|-\|/-| 
+Only forward user-typing messages if supported by protocol |-\|/-| 2019-05-30T13:00:41Z Merged pull request |-\|/-| 832 +45 −30 go 2|-\|/-| 
+Clean-up XMPP handling code |-\|/-| 2019-05-30T10:31:54Z Merged pull request |-\|/-| 831 +129 −77 go 1|-\|/-| 
+Disable user lookups on delete messages (slack) |-\|/-| 2019-04-23T21:29:15Z Merged pull request |-\|/-| 812 +11 −11 go 1|-\|/-| 
+Add lacking clean-up in Slack synchronisation |-\|/-| 2019-04-23T21:08:35Z Merged pull request |-\|/-| 811 +5 −4 go 1|-\|/-| 
+Use upstream whatsapp again |-\|/-| 2019-05-30T10:20:57Z Merged pull request |-\|/-| 809 +2,145 −1,257 go mod sum gitignore com/Rhymen/go-whatsapp/LICENSE md proto 13|-\|/-| 
+Per default don't strip IRC colors to IRC channels (tengo) |-\|/-| 2019-04-19T17:33:51Z Closed pull request |-\|/-| 807 +26 −3 tengo 4|-\|/-| 
+Add scripting (tengo) support for every outgoing message |-\|/-| 2019-04-19T16:27:32Z Merged pull request |-\|/-| 806 +383 −7 go tengo 5|-\|/-| 
+Add verbose IRC joins/parts (ident@host) |-\|/-| 2019-04-18T21:56:06Z Merged pull request |-\|/-| 805 +13 −2 go sample 3|-\|/-| 
+Show IRC colors when bridging to IRC |-\|/-| 2019-08-29T19:28:09Z Closed pull request |-\|/-| 801 +42 −6 go 14|-\|/-| 
+Add remotenickformat-zerowidth.tengo to contrib |-\|/-| 2019-04-14T21:42:17Z Merged pull request |-\|/-| 799 +16 −0 tengo 1|-\|/-| 
+Add useraction support (rocketchat). Closes #772 |-\|/-| 2019-04-08T21:30:23Z Merged pull request |-\|/-| 794 +5 −0 go 1|-\|/-| 
+Add tengo support to RemoteNickFormat |-\|/-| 2019-04-08T18:58:22Z Merged pull request |-\|/-| 793 +98 −0 go tengo sample 4|-\|/-| 
+Update tengo vendor and load the stdlib. Fixes #789 |-\|/-| 2019-04-06T20:18:25Z Merged pull request |-\|/-| 792 +7,008 −1,292 go mod sum com/d5/tengo/Makefile md 6|-\|/-| 
+CI fixes and improvements |-\|/-| 2019-04-04T20:54:52Z Merged pull request |-\|/-| 780 +74 −61 yaml yml sh 5|-\|/-| 
+Ignore message_replied and hidden messages (slack). Fixes #709 |-\|/-| 2019-03-27T21:54:19Z Merged pull request |-\|/-| 779 +12 −6 go 1|-\|/-| 
+telegram: bail if any vars are nil, not if all |-\|/-| 2019-03-27T20:00:58Z Merged pull request |-\|/-| 778 +2 −2 go 1|-\|/-| 
+Look up #channel too (rocketchat). Fix #773 |-\|/-| 2019-03-24T19:15:16Z Merged pull request |-\|/-| 775 +1 −1 go 1|-\|/-| 
+fix double unlock |-\|/-| 2019-03-21T16:30:29Z Merged pull request |-\|/-| 771 +0 −1 go 1|-\|/-| 
+Allow the # in rocketchat channels (backward compatible) |-\|/-| 2019-03-20T22:19:28Z Merged pull request |-\|/-| 769 +7 −2 go 1|-\|/-| 
+Fix regression for legacy slack by #766 |-\|/-| 2019-03-20T21:52:23Z Merged pull request |-\|/-| 768 +6 −2 go 1|-\|/-| 
+Fix race-condition in populateUser() |-\|/-| 2019-03-20T21:54:32Z Merged pull request |-\|/-| 767 +38 −12 go 1|-\|/-| 
+Refactor channel and user management |-\|/-| 2019-03-15T20:23:10Z Merged pull request |-\|/-| 766 +138 −94 go 3|-\|/-| 
+Force Slack link unfurling |-\|/-| 2019-03-12T21:56:44Z Merged pull request |-\|/-| 763 +5 −1 go 1|-\|/-| 
+Split-out Slack user and channel management |-\|/-| 2019-03-12T21:52:37Z Merged pull request |-\|/-| 762 +239 −230 yaml go 3|-\|/-| 
+Check module files in CI run |-\|/-| 2019-03-12T21:47:18Z Merged pull request |-\|/-| 761 +8 −2 yml sum 2|-\|/-| 
+Trim <p> and </p> tags (matrix). Closes #686 |-\|/-| 2019-03-02T23:29:30Z Merged pull request |-\|/-| 753 +8 −1 yml go 2|-\|/-| 
+Do not send duplicate messages (rocketchat). Fixes #745 |-\|/-| 2019-03-02T21:58:14Z Merged pull request |-\|/-| 752 +21 −7 go 2|-\|/-| 
+Need to specify /topic:mytopic for channel configuration (zulip). |-\|/-| 2019-03-02T19:31:39Z Merged pull request |-\|/-| 751 +21 −29 go sample 3|-\|/-| 
+Use whatsapp forks |-\|/-| 2019-03-02T12:04:29Z Merged pull request |-\|/-| 750 +1,857 −796 go mod sum gitignore com/matterbridge/go-whatsapp/LICENSE md proto 23|-\|/-| 
+#747 Hotfix: websocket close |-\|/-| 2019-03-02T10:30:45Z Closed pull request |-\|/-| 749 +1 −1 go 1|-\|/-| 
+Do not relay any bot messages (discord) |-\|/-| 2019-02-28T11:59:53Z Merged pull request |-\|/-| 743 +1 −1 go 1|-\|/-| 
+Handle file upload/download only once for each message |-\|/-| 2019-02-27T19:52:06Z Merged pull request |-\|/-| 742 +5 −1 go 1|-\|/-| 
+Add MediaConvertWebPToPNG option (telegram). |-\|/-| 2019-02-26T23:41:51Z Merged pull request |-\|/-| 741 +4,317 −0 yml go mod sum sample org/x/image/AUTHORS org/x/image/CONTRIBUTORS org/x/image/LICENSE org/x/image/PATENTS 13|-\|/-| 
+Fail gracefully on incorrect human input. Fixes #739 |-\|/-| 2019-02-26T17:03:51Z Merged pull request |-\|/-| 740 +3 −0 go 1|-\|/-| 
+Print errors as string instead of %#v (discord) |-\|/-| 2019-02-26T16:21:24Z Merged pull request |-\|/-| 738 +4 −4 go 2|-\|/-| 
+Keep reconnecting until succeed (zulip) |-\|/-| 2019-02-26T16:08:21Z Merged pull request |-\|/-| 737 +7 −5 go 1|-\|/-| 
+Add support for URL in messageEntities (telegram). Fixes #735 |-\|/-| 2019-03-02T21:38:44Z Merged pull request |-\|/-| 736 +24 −0 yml go 2|-\|/-| 
+Do not send topic changes on connect (xmpp). Fixes #732 |-\|/-| 2019-02-23T22:03:22Z Merged pull request |-\|/-| 733 +20 −1 go 1|-\|/-| 
+Add scripting (tengo) support for every incoming message |-\|/-| 2019-02-23T15:39:45Z Merged pull request |-\|/-| 731 +14,201 −0 md go tengo mod sum sample com/d5/tengo/LICENSE 17|-\|/-| 
+Support rewriting messages from relaybots using ExtractNicks. Fixes #466 |-\|/-| 2019-02-23T15:35:54Z Merged pull request |-\|/-| 730 +248 −0 go sample 4|-\|/-| 
+Make all loggers derive from non-default instance (rebase) |-\|/-| 2019-02-23T21:51:28Z Merged pull request |-\|/-| 728 +2,932 −268 go 5|-\|/-| 
+allow sending discriminator with Discord username |-\|/-| 2019-02-22T13:28:28Z Merged pull request |-\|/-| 726 +9 −1 go sample 3|-\|/-| 
+Support quits from irc correctly. Fixes #722 |-\|/-| 2019-02-17T21:43:05Z Merged pull request |-\|/-| 724 +21 −1 go 2|-\|/-| 
+Allow zulip bridge to specify topic per channel. Closes #701 |-\|/-| 2019-02-17T20:50:06Z Merged pull request |-\|/-| 723 +26 −1 go sample 3|-\|/-| 
+Support join/leaves from discord. Closes #654 |-\|/-| 2019-02-17T20:49:46Z Merged pull request |-\|/-| 721 +56 −0 go 3|-\|/-| 
+Allow regexs in ignoreNicks. Closes #690 |-\|/-| 2019-02-17T20:49:29Z Merged pull request |-\|/-| 720 +45 −45 go sample 3|-\|/-| 
+Detect html nicks in RemoteNickFormat (matrix). Fixes #696 |-\|/-| 2019-02-17T20:48:32Z Merged pull request |-\|/-| 719 +8 −1 go 1|-\|/-| 
+Upgrade to latest girc version |-\|/-| 2019-02-16T16:24:05Z Merged pull request |-\|/-| 718 +171 −188 go mod sum 9|-\|/-| 
+Send username when uploading video/images (matrix). Fixes #715 |-\|/-| 2019-02-16T17:35:36Z Merged pull request |-\|/-| 717 +6 −0 go 1|-\|/-| 
+Send notices on join/parts (matrix). Fixes #712 |-\|/-| 2019-02-16T17:36:09Z Merged pull request |-\|/-| 716 +9 −0 go 1|-\|/-| 
+WhatsApp support |-\|/-| 2019-02-21T19:28:14Z Merged pull request |-\|/-| 711 +24,187 −3,456 md go 3|-\|/-| 
+Refactor and update RocketChat bridge |-\|/-| 2019-02-15T17:20:32Z Merged pull request |-\|/-| 707 +6,201 −43 go 2|-\|/-| 
+Clarify dev chat info |-\|/-| 2019-02-05T19:40:58Z Merged pull request |-\|/-| 700 +1 −1 md 0|-\|/-| 
+Allow clients to bridge non-bot Discord users |-\|/-| 2019-01-14T18:27:50Z Merged pull request |-\|/-| 689 +5 −0 go 1|-\|/-| 
+matrix: fix displaying usernames for plain text clients. |-\|/-| 2019-01-09T22:15:26Z Merged pull request |-\|/-| 685 +1 −1 go 1|-\|/-| 
+Hint at thread replies when messages are unthreaded |-\|/-| 2019-02-10T16:23:51Z Merged pull request |-\|/-| 684 +19 −0 go 3|-\|/-| 
+Slack: Mark edited messages with a pencil icon |-\|/-| 2019-03-11T03:20:05Z Closed pull request |-\|/-| 683 +1 −0 go 1|-\|/-| 
+Discord: Mark edited webhook messages with a pencil icon |-\|/-| 2019-03-11T03:19:05Z Closed pull request |-\|/-| 682 +18 −4 go 1|-\|/-| 
+Discord: Only require one webhook |-\|/-| 2019-01-09T20:28:48Z Merged pull request |-\|/-| 681 +42 −8 go 1|-\|/-| 
+Improve error reporting on failure to join Discord |-\|/-| 2019-01-07T20:39:54Z Merged pull request |-\|/-| 680 +15 −1 go 1|-\|/-| 
+Add initial support for getting ChannelMember info of all bridges |-\|/-| 2019-01-18T17:35:32Z Merged pull request |-\|/-| 678 +189 −21 go 7|-\|/-| 
+xmpp.org #676 |-\|/-| 2019-01-06T18:34:48Z Merged pull request |-\|/-| 677 +1 −1 md 0|-\|/-| 
+Sshchat fixes |-\|/-| 2019-01-05T14:42:37Z Merged pull request |-\|/-| 675 +6 −3 go 1|-\|/-| 
+Fix #668 strip lang in code fences sent to Slack |-\|/-| 2019-01-04T19:32:58Z Merged pull request |-\|/-| 673 +7 −0 go 2|-\|/-| 
+Add support for markdown to HTML conversion (matrix). Closes #663 |-\|/-| 2019-01-06T21:25:20Z Merged pull request |-\|/-| 670 +40,959 −6 go mod sum yml com/golang-commonmark/html/LICENSE md 7|-\|/-| 
+Update pinned golangci-lint version |-\|/-| 2018-12-30T20:29:06Z Merged pull request |-\|/-| 666 +1 −1 yml 1|-\|/-| 
+Logging rewiring - derive from non-default root logger |-\|/-| 2019-02-23T21:57:20Z Closed pull request |-\|/-| 664 +2,930 −266 go 5|-\|/-| 
+Logging rewiring - Import linting |-\|/-| 2018-12-26T14:16:10Z Merged pull request |-\|/-| 662 +42 −43 go 10|-\|/-| 
+SSHChat - fix connection logic and remove send bug |-\|/-| 2018-12-26T14:09:37Z Merged pull request |-\|/-| 661 +28 −13 go 1|-\|/-| 
+Slack download issue |-\|/-| 2018-12-19T21:01:06Z Merged pull request |-\|/-| 656 +8 −2 go 1|-\|/-| 
+Add wait option for populateUsers/Channels. Fixes #579 |-\|/-| 2018-12-15T22:11:03Z Merged pull request |-\|/-| 653 +16 −10 go 3|-\|/-| 
+Refactor sshchat bridge |-\|/-| 2018-12-12T22:47:07Z Merged pull request |-\|/-| 650 +20 −18 go 1|-\|/-| 
+Refactor telegram bridge |-\|/-| 2018-12-12T22:50:08Z Merged pull request |-\|/-| 649 +46 −35 go 2|-\|/-| 
+Refactor gateway |-\|/-| 2018-12-12T22:57:18Z Merged pull request |-\|/-| 648 +435 −237 go 1|-\|/-| 
+Enable errcheck linter |-\|/-| 2018-12-08T16:04:11Z Merged pull request |-\|/-| 646 +37 −25 yaml go 7|-\|/-| 
+Enable gosec linter |-\|/-| 2018-12-05T23:40:56Z Merged pull request |-\|/-| 645 +14 −9 yaml go 5|-\|/-| 
+[slack] populate users on member channel join |-\|/-| 2018-12-15T21:57:55Z Merged pull request |-\|/-| 644 +23 −0 go 2|-\|/-| 
+[readme] Add FOSSRIT/infrastructure, alphabetically sort related project list |-\|/-| 2018-12-04T22:39:32Z Merged pull request |-\|/-| 643 +5 −4 md 0|-\|/-| 
+Add lightweight Swagger API docs |-\|/-| 2019-01-09T08:11:30Z Closed pull request |-\|/-| 637 +183 −5 md go png yaml 3|-\|/-| 
+Move golangci-lint configuration to file |-\|/-| 2018-12-05T10:34:35Z Merged pull request |-\|/-| 635 +221 −7 yaml yml go 3|-\|/-| 
+Add note about slack/slack-legacy issues on threading |-\|/-| 2018-12-03T15:50:38Z Merged pull request |-\|/-| 634 +2 −0 sample 1|-\|/-| 
+Clean-up TravisCI config and add test coverage |-\|/-| 2018-12-02T23:07:15Z Merged pull request |-\|/-| 633 +17 −16 yml 1|-\|/-| 
+Split Discord bridge in multiple files |-\|/-| 2018-12-07T22:36:02Z Merged pull request |-\|/-| 632 +412 −257 go 1|-\|/-| 
+Refactor steam bridge |-\|/-| 2018-12-07T22:48:25Z Merged pull request |-\|/-| 630 +131 −90 go 2|-\|/-| 
+Refactor handleUploadFile (matrix) |-\|/-| 2018-12-03T15:51:11Z Merged pull request |-\|/-| 629 +46 −37 go 1|-\|/-| 
+Add support for mattermost threading |-\|/-| 2019-01-09T20:50:03Z Merged pull request |-\|/-| 627 +12 −11 go 3|-\|/-| 
+Make slack-legacy change less restrictive |-\|/-| 2018-12-02T22:09:22Z Merged pull request |-\|/-| 626 +3 −8 go 1|-\|/-| 
+[Slack] Threading breaks on complex gateways with multiple sub-protocols |-\|/-| 2018-12-01T23:07:55Z Closed pull request |-\|/-| 624 +28 −119 go 4|-\|/-| 
+Refactor mattermost |-\|/-| 2018-11-30T23:49:09Z Merged pull request |-\|/-| 622 +422 −344 go 1|-\|/-| 
+Tidy up fetching of config values |-\|/-| 2018-11-30T23:24:07Z Merged pull request |-\|/-| 616 +6 −12 go 1|-\|/-| 
+Refactor matterclient |-\|/-| 2018-11-29T22:53:44Z Merged pull request |-\|/-| 613 +848 −783 go 1|-\|/-| 
+Refactor irc handlers. Fix linting |-\|/-| 2018-11-28T09:58:57Z Merged pull request |-\|/-| 611 +304 −259 go 1|-\|/-| 
+DRY out getChannelsByX functions to make codeclimate happy |-\|/-| 2018-11-28T10:04:26Z Merged pull request |-\|/-| 610 +7 −9 go 1|-\|/-| 
+Refactor telegram handlers. Fix linting |-\|/-| 2018-11-28T09:58:00Z Merged pull request |-\|/-| 609 +306 −278 go 2|-\|/-| 
+Remove double " from Discord gateway webhookurl= |-\|/-| 2018-11-25T09:37:15Z Merged pull request |-\|/-| 607 +1 −1 sample 1|-\|/-| 
+Make sure threaded files stay in thread (slack). Fixes #590 |-\|/-| 2018-11-25T19:40:23Z Merged pull request |-\|/-| 606 +13 −4 go 1|-\|/-| 
+Handle deleted/edited thread starting messages (slack). Fixes #600 |-\|/-| 2018-11-25T10:08:57Z Merged pull request |-\|/-| 605 +8 −0 go 2|-\|/-| 
+Add option to send RAW commands after connection (irc). Fixes #490 |-\|/-| 2018-11-25T18:32:17Z Merged pull request |-\|/-| 604 +16 −0 go sample 3|-\|/-| 
+Add option to ignore failing bridge on start. Fixes #455 |-\|/-| 2018-11-25T09:35:36Z Merged pull request |-\|/-| 603 +38 −2 go sample 3|-\|/-| 
+Extract bridgeMap into own package to improve testability |-\|/-| 2018-11-30T22:53:01Z Merged pull request |-\|/-| 601 +43 −34 go 5|-\|/-| 
+Upgrade logrus / testify to stable versions |-\|/-| 2018-11-18T16:32:27Z Merged pull request |-\|/-| 598 +57,744 −14,202 mod sum gitignore yml com/BurntSushi/toml/COMPATIBLE com/BurntSushi/toml/COPYING com/BurntSushi/toml/Makefile 7|-\|/-| 
+Fix message threading (with tests) |-\|/-| 2018-11-17T13:32:04Z Closed pull request |-\|/-| 597 +58 −25 go 6|-\|/-| 
+Add protocol to msg.ID in cache |-\|/-| 2018-11-19T20:28:24Z Merged pull request |-\|/-| 596 +20 −25 go 5|-\|/-| 
+Update nlopes/slack to 4.1-dev |-\|/-| 2018-12-01T18:55:36Z Merged pull request |-\|/-| 595 +674 −514 go mod sum yml 8|-\|/-| 
+[WIP] add base protocol concept to improve shared state between compatible bridge protocols |-\|/-| 2018-11-17T13:32:27Z Closed pull request |-\|/-| 594 +6 −2 go 2|-\|/-| 
+Fix golint linter issues and enable it in CI |-\|/-| 2018-11-15T19:43:44Z Merged pull request |-\|/-| 593 +147 −145 yml go 8|-\|/-| 
+Bugfixed regression in skip logic |-\|/-| 2018-11-15T18:23:47Z Merged pull request |-\|/-| 592 +6 −1 go 1|-\|/-| 
+Fix and enable goimports linter |-\|/-| 2018-11-15T18:24:22Z Merged pull request |-\|/-| 591 +7 −9 yml go 3|-\|/-| 
+#584 Fix IRC line splitting |-\|/-| 2018-11-14T21:43:52Z Merged pull request |-\|/-| 587 +158 −91 go 5|-\|/-| 
+Make config.Config more unit-test friendly |-\|/-| 2018-11-13T22:30:56Z Merged pull request |-\|/-| 586 +188 −70 go 4|-\|/-| 
+Sync channel topics over gateway (slack) |-\|/-| 2018-11-26T09:47:05Z Merged pull request |-\|/-| 585 +123 −9 go sample 7|-\|/-| 
+Restore file comments coming from Slack |-\|/-| 2018-11-12T14:58:01Z Merged pull request |-\|/-| 583 +25 −29 go 2|-\|/-| 
+#510 New Slack connection and forked legacy Slack bridge |-\|/-| 2018-11-13T19:51:19Z Merged pull request |-\|/-| 582 +136 −66 go 4|-\|/-| 
+#579 Add Slack rate-limit handling |-\|/-| 2018-11-10T21:09:42Z Merged pull request |-\|/-| 581 +138 −55 go 2|-\|/-| 
+Improved user_typing botname suggestion |-\|/-| 2018-11-09T20:52:38Z Merged pull request |-\|/-| 580 +2 −2 sample 1|-\|/-| 
+Improve README formatting (incl codeclimate badges) |-\|/-| 2018-11-09T20:19:37Z Merged pull request |-\|/-| 578 +72 −42 md gif 1|-\|/-| 
+[Slack] Bugfix for file sharings (recursive upload spam) |-\|/-| 2018-11-14T20:00:21Z Merged pull request |-\|/-| 575 +24 −13 go 2|-\|/-| 
+Fix Slack edit usernames |-\|/-| 2018-11-08T19:07:22Z Merged pull request |-\|/-| 570 +29 −19 go 2|-\|/-| 
+Do not join Slack channel without API access |-\|/-| 2018-11-07T16:25:00Z Merged pull request |-\|/-| 563 +5 −0 go 1|-\|/-| 
+Clean up config loading |-\|/-| 2018-11-07T21:32:13Z Merged pull request |-\|/-| 561 +18 −22 go 1|-\|/-| 
+Add ability to show when user is typing across Slack bridges |-\|/-| 2018-11-08T19:45:41Z Merged pull request |-\|/-| 559 +55 −3 go sample 5|-\|/-| 
+Hint at thread replies when messages are unthreaded |-\|/-| 2019-01-10T00:51:30Z Closed pull request |-\|/-| 557 +61 −10 go 4|-\|/-| 
+Add a ping keepalive endpoint to API |-\|/-| 2018-11-07T08:12:00Z Merged pull request |-\|/-| 554 +5 −0 go 1|-\|/-| 
+Crash with divide by zero error if message sent before API endpoint viewed |-\|/-| 2018-11-05T20:53:52Z Merged pull request |-\|/-| 552 +4 −1 go sample 2|-\|/-| 
+Add auto-generated Swagger API docs |-\|/-| 2018-12-03T13:23:01Z Closed pull request |-\|/-| 551 +42,514 −19 yml md go sh 4|-\|/-| 
+[API] respond with message on connect |-\|/-| 2018-11-02T15:35:14Z Merged pull request |-\|/-| 550 +9 −0 go 2|-\|/-| 
+Use mainline gitter |-\|/-| 2018-10-31T21:17:46Z Closed pull request |-\|/-| 547 +1 −1 go 1|-\|/-| 
+When auto-loading envvars from viper config, remove hyphens |-\|/-| 2018-11-03T13:42:28Z Merged pull request |-\|/-| 545 +1 −1 go 1|-\|/-| 
+Split up cookie token and personal token. Fixes #530 |-\|/-| 2018-10-26T14:47:57Z Merged pull request |-\|/-| 540 +29 −10 go 2|-\|/-| 
+Prevent Slack API rate-limit overflow |-\|/-| 2018-11-01T20:28:23Z Merged pull request |-\|/-| 539 +35 −0 go 1|-\|/-| 
+CodeClimate test PR |-\|/-| 2018-10-23T13:01:32Z Closed pull request |-\|/-| 538 +261 −246 go 1|-\|/-| 
+Add editorconfig support |-\|/-| 2018-10-24T03:32:12Z Closed pull request |-\|/-| 537 +2 −0 editorconfig 1|-\|/-| 
+Slack bridge no longer POSTing username and avatar |-\|/-| 2018-10-24T19:12:21Z Merged pull request |-\|/-| 536 +4 −2 go 1|-\|/-| 
+Refactor and clean-up handlers. |-\|/-| 2018-11-07T20:35:59Z Merged pull request |-\|/-| 533 +245 −212 go 1|-\|/-| 
+Update Blackfriday dependency |-\|/-| 2018-10-22T17:48:29Z Merged pull request |-\|/-| 532 +2,532 −2,287 go mod sum yml md 4|-\|/-| 
+Clean-up message send logic. |-\|/-| 2018-10-22T17:43:58Z Merged pull request |-\|/-| 531 +94 −87 go 1|-\|/-| 
+Opportunistically preserve threading between Slack instances |-\|/-| 2018-11-07T08:14:32Z Merged pull request |-\|/-| 529 +66 −11 md go sample 5|-\|/-| 
+[WIP] Allow toml configuration to be parsed from remote/local URL |-\|/-| 2018-11-07T14:28:07Z Closed pull request |-\|/-| 525 +125 −13 go sample 4|-\|/-| 
+Clean-up user and channel information management |-\|/-| 2018-10-16T18:34:10Z Merged pull request |-\|/-| 521 +99 −72 go 3|-\|/-| 
+Gateway test race fix. |-\|/-| 2018-10-12T22:47:19Z Merged pull request |-\|/-| 520 +132 −29 go 1|-\|/-| 
+Code clean-up and strengthening |-\|/-| 2018-10-12T23:02:15Z Merged pull request |-\|/-| 519 +243 −172 go 1|-\|/-| 
+Bump Go version in Travis CI |-\|/-| 2018-10-12T21:14:37Z Merged pull request |-\|/-| 518 +3 −5 yml sh go 3|-\|/-| 
+Slack bridge file shuffle |-\|/-| 2018-10-12T21:16:35Z Merged pull request |-\|/-| 517 +453 −447 go 1|-\|/-| 
+Allow origin CHANNEL to be used in RemoteNickFormat |-\|/-| 2018-10-23T19:53:12Z Merged pull request |-\|/-| 515 +16 −66 go sample 2|-\|/-| 
+[WIP] Add Google Translation ability |-\|/-| 2018-11-17T14:14:04Z Closed pull request |-\|/-| 512 +148,538 −13,175 editorconfig md go 5|-\|/-| 
+Update of nlopes/slack dependency |-\|/-| 2018-10-07T21:17:47Z Merged pull request |-\|/-| 511 +992 −92 mod sum toml md lock go 7|-\|/-| 
+various cleanups |-\|/-| 2018-11-07T19:36:50Z Merged pull request |-\|/-| 508 +77 −54 go 11|-\|/-| 
+Test travis conf |-\|/-| 2018-09-27T09:18:15Z Closed pull request |-\|/-| 507 +29 −0 yaml 1|-\|/-| 
+fix discord mentions cuttíng off all text after the mention |-\|/-| 2018-09-29T18:02:59Z Merged pull request |-\|/-| 506 +1 −1 go 1|-\|/-| 
+Add Gateway's name to RemoteNickFormat |-\|/-| 2018-10-07T13:22:16Z Merged pull request |-\|/-| 501 +2 −1 go 2|-\|/-| 
+fix Discord mentions by populating the nickMemberMap at connect |-\|/-| 2018-09-17T19:25:06Z Merged pull request |-\|/-| 498 +19 −1 go 1|-\|/-| 
+Add Mattereddit to README.md |-\|/-| 2018-09-01T16:45:41Z Merged pull request |-\|/-| 493 +2 −1 md 0|-\|/-| 
+Replace @... string with user mention if match found |-\|/-| 2018-09-12T20:30:14Z Merged pull request |-\|/-| 492 +46 −0 go 1|-\|/-| 
+Stop numbers being stripped after non-color control codes |-\|/-| 2018-07-11T20:50:50Z Merged pull request |-\|/-| 465 +1 −1 go 1|-\|/-| 
+Add channel password support for XMPP |-\|/-| 2018-06-18T20:55:46Z Merged pull request |-\|/-| 451 +13 −8 go sample 3|-\|/-| 
+Readme - link fix and minor clarification added.  |-\|/-| 2018-06-18T21:00:13Z Merged pull request |-\|/-| 450 +3 −1 md 0|-\|/-| 
+Add Title from attachment slack message |-\|/-| 2018-06-13T19:58:52Z Merged pull request |-\|/-| 446 +4 −1 go 1|-\|/-| 
+Reconnect on quit 431 |-\|/-| 2018-06-09T10:47:41Z Merged pull request |-\|/-| 445 +69 −54 go 15|-\|/-| 
+Add config option MediaUploadPath |-\|/-| 2018-06-08T20:30:36Z Merged pull request |-\|/-| 443 +87 −38 go sample 4|-\|/-| 
+Add message correction support for XMPP |-\|/-| 2018-05-29T21:29:52Z Merged pull request |-\|/-| 437 +17 −3 go 1|-\|/-| 
+Fix small regexp bug |-\|/-| 2018-05-29T20:49:11Z Merged pull request |-\|/-| 435 +1 −1 go 1|-\|/-| 
+quick fix - prevent white or black IRC nickname foreground colors |-\|/-| 2018-05-29T20:52:02Z Merged pull request |-\|/-| 434 +2 −1 go 1|-\|/-| 
+Fix issue #432 - Avatar spoofing from Slack with uppercase in nick |-\|/-| 2018-05-26T11:25:27Z Merged pull request |-\|/-| 433 +1 −1 go 1|-\|/-| 
+Fix format string bug |-\|/-| 2018-05-18T19:45:40Z Merged pull request |-\|/-| 428 +1 −1 go 1|-\|/-| 
+End IRC username formatting with a total formatting reset |-\|/-| 2018-05-18T19:33:38Z Merged pull request |-\|/-| 425 +1 −1 go 1|-\|/-| 
+Solve light-on-light and dark-on-dark nickname colors problem |-\|/-| 2018-06-14T10:37:45Z Closed pull request |-\|/-| 424 +55 −2 go sample 2|-\|/-| 
+Colorize username sent to IRC using its crc32 IEEE checksum |-\|/-| 2018-05-11T21:02:44Z Merged pull request |-\|/-| 423 +13 −2 go sample 3|-\|/-| 
+Send attached files to XMPP in different message with OOB data and without body |-\|/-| 2018-05-09T21:04:11Z Merged pull request |-\|/-| 421 +5 −0 go 1|-\|/-| 
+Send mediaserver link to Discord in Webhook mode |-\|/-| 2018-04-17T21:52:49Z Merged pull request |-\|/-| 405 +6 −0 go 1|-\|/-| 
+Properly set Slack user who initiated slash command |-\|/-| 2018-04-25T19:27:34Z Merged pull request |-\|/-| 394 +13 −8 go 1|-\|/-| 
+Strip markdown URLs with blank text |-\|/-| 2018-03-22T21:28:27Z Merged pull request |-\|/-| 392 +11 −6 go 1|-\|/-| 
+Print list of valid team names when team not found |-\|/-| 2018-03-15T19:50:33Z Merged pull request |-\|/-| 390 +5 −1 go 1|-\|/-| 
+Truncate messages sent to IRC based on byte count |-\|/-| 2018-02-08T22:28:34Z Merged pull request |-\|/-| 368 +6 −2 go 1|-\|/-| 
+Add space between colon and URL for uploaded media |-\|/-| 2018-02-01T16:46:11Z Merged pull request |-\|/-| 360 +4 −4 go 4|-\|/-| 
+Allow ShowJoinPart config to work for Slack bridges |-\|/-| 2018-02-02T21:14:42Z Closed pull request |-\|/-| 352 +1 −1 sample 1|-\|/-| 
+Enable Long Polling for Telegram. Reduces bandwidth consumption. |-\|/-| 2018-01-29T11:07:27Z Merged pull request |-\|/-| 350 +3 −1 go 1|-\|/-| 
+Use cmosh/alpine-arm to build arm docker images |-\|/-| 2018-01-27T12:49:14Z Merged pull request |-\|/-| 347 +1 −1 docker/arm/Dockerfile 1|-\|/-| 
+Convert received IRC channel names to lowercase. Fixes #329 |-\|/-| 2018-01-06T21:55:03Z Merged pull request |-\|/-| 330 +1 −1 go 1|-\|/-| 
+allow matrix to send localpart of username |-\|/-| 2017-12-08T14:36:43Z Closed pull request |-\|/-| 312 +2 −0 go 1|-\|/-| 
+Add support for bridging to individual steam chats. |-\|/-| 2017-11-07T23:36:20Z Merged pull request |-\|/-| 294 +7 −2 go 1|-\|/-| 
+Slack <=> gitter bridge is confusing machine name with human-readable gitter channel name |-\|/-| 2017-11-07T23:35:09Z Merged pull request |-\|/-| 293 +1 −1 go 1|-\|/-| 
+Add systemd service file |-\|/-| 2017-11-03T19:42:51Z Merged pull request |-\|/-| 291 +11 −0 service 1|-\|/-| 
+Fix build on go1.9.2 |-\|/-| 2017-11-03T11:32:48Z Closed pull request |-\|/-| 290 +1 −1 go 1|-\|/-| 
+Handle variables (@here, @channel, etc.) in Slack message |-\|/-| 2017-11-03T19:32:29Z Merged pull request |-\|/-| 288 +14 −0 go 1|-\|/-| 
+Remove angle-brackets from urls coming out of slack |-\|/-| 2017-10-26T19:58:44Z Merged pull request |-\|/-| 287 +1 −1 go 1|-\|/-| 
+Slack channels should be resolved to human-readable format (when piped into Telegram) |-\|/-| 2017-11-02T20:21:47Z Merged pull request |-\|/-| 282 +9 −0 go 1|-\|/-| 
+Fixed outdated sample config on slack channel format |-\|/-| 2017-10-20T19:01:12Z Merged pull request |-\|/-| 280 +1 −1 sample 1|-\|/-| 
+[general] settings should be default, not total override (specifically RemoteNickFormat) |-\|/-| 2017-10-20T18:58:39Z Merged pull request |-\|/-| 279 +3 −3 go sample 2|-\|/-| 
+Use bot username if specified (slack). Closes #273 |-\|/-| 2017-10-12T18:33:38Z Merged pull request |-\|/-| 275 +3 −0 go 1|-\|/-| 
+remove comment about useAPI in sample configuration |-\|/-| 2017-09-04T13:16:59Z Merged pull request |-\|/-| 251 +0 −1 sample 1|-\|/-| 
+remove useAPI from sample configuration |-\|/-| 2017-09-04T13:16:30Z Merged pull request |-\|/-| 250 +0 −1 simple 1|-\|/-| 
+Added new file_ids parameter for Mattermost outgoing webhook |-\|/-| 2017-08-16T19:27:18Z Merged pull request |-\|/-| 240 +1 −0 go 1|-\|/-| 
+Add UseUserName option (discord) |-\|/-| 2017-08-01T16:18:55Z Merged pull request |-\|/-| 234 +11 −1 go sample 3|-\|/-| 
+Suppress parent message when child message is received |-\|/-| 2017-07-17T16:33:28Z Merged pull request |-\|/-| 218 +1 −1 go 1|-\|/-| 
+Add webhook posting mode for discord. |-\|/-| 2017-06-26T18:07:28Z Merged pull request |-\|/-| 204 +32 −1 go sample 3|-\|/-| 
+remove second flag.Parse() |-\|/-| 2017-06-14T15:15:36Z Merged pull request |-\|/-| 196 +0 −1 go 1|-\|/-| 
+Matterbridge as a linux systemd service |-\|/-| 2017-11-03T19:44:00Z Closed pull request |-\|/-| 176 +123 −0 md d/matterbridge 1|-\|/-| 
+Fix JoinChannel argument to use IRC channel key |-\|/-| 2017-05-21T13:23:57Z Merged pull request |-\|/-| 172 +1 −1 go 1|-\|/-| 
+Add Compatibility for Cisco Jabber |-\|/-| 2017-05-11T18:10:54Z Merged pull request |-\|/-| 166 +1 −1 go 1|-\|/-| 
+Add http.ProxyFromEnvironment to use default env var like in net/http… |-\|/-| 2017-05-08T19:20:53Z Merged pull request |-\|/-| 162 +1 −1 go 1|-\|/-| 
+[TO CLOSE] Add http.ProxyFromEnvironment to use default env var like in net/http… |-\|/-| 2017-05-04T19:45:41Z Closed pull request |-\|/-| 157 +1 −1 go 1|-\|/-| 
+Fix tls in xmpp by setting ServerName |-\|/-| 2017-01-18T20:01:43Z Merged pull request |-\|/-| 114 +1 −0 go 1|-\|/-| 
+Handle SkipTLSVerify for XMPP client |-\|/-| 2017-01-13T23:35:46Z Merged pull request |-\|/-| 106 +10 −0 go sample 2|-\|/-| 
+Update matterbridge.toml.sample |-\|/-| 2017-01-03T22:07:26Z Merged pull request |-\|/-| 104 +4 −0 sample 1|-\|/-| 
+Telegram: add markdown |-\|/-| 2017-01-06T22:32:20Z Merged pull request |-\|/-| 103 +63 −3 go 1|-\|/-| 
+Telegram: Fix the missing username |-\|/-| 2016-12-17T14:44:26Z Merged pull request |-\|/-| 102 +1 −1 go 1|-\|/-| 
+Allow PrefixMessagesWithNick on Telegram |-\|/-| 2016-12-17T14:44:27Z Closed pull request |-\|/-| 93 +6 −1 go 1|-\|/-| 
+Add SkipTLSVerify in xmpp |-\|/-| 2017-01-13T23:35:46Z Closed pull request |-\|/-| 81 +1 −0 go 1|-\|/-| 
+Close open strings in matterbridge.conf.sample |-\|/-| 2016-10-24T10:55:43Z Merged pull request |-\|/-| 54 +3 −3 sample 1|-\|/-| 
+Gather all names before printing them. |-\|/-| 2016-03-24T12:37:11Z Closed pull request |-\|/-| 17 +22 −8 go 1|-\|/-| 
+Add Freenode style NickServ-based authentication. |-\|/-| 2016-03-21T23:04:26Z Merged pull request |-\|/-| 16 +26 −13 go 2|-\|/-| 
+Handle connects asynchroneously. |-\|/-| 2016-03-21T22:49:52Z Merged pull request |-\|/-| 15 +24 −13 go 1|-\|/-| 
+Enable users take 2 |-\|/-| 2016-03-18T22:48:05Z Merged pull request |-\|/-| 14 +94 −23 md go sample 3|-\|/-| 
+Enable !users command and add a table formatter |-\|/-| 2016-03-18T22:27:06Z Closed pull request |-\|/-| 13 +55 −2 md go sample 3|-\|/-| 
+Add config option to prefix messages (IRC->MM) with nick |-\|/-| 2016-03-18T11:50:52Z Merged pull request |-\|/-| 12 +17 −9 md go sample 3|-\|/-| 
+Add PASS support as per RFC1459 |-\|/-| 2016-01-28T23:45:01Z Merged pull request |-\|/-| 8 +4 −0 go 2|-\|/-| 
+Add authorization and parametrize nick names. |-\|/-| 2016-02-18T20:48:11Z Closed pull request |-\|/-| 2 +19 −3 go sample 3|-\|/-| 

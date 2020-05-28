@@ -1,0 +1,256 @@
+Add build script for Android |-\|/-| 2019-03-02T09:37:37Z Merged pull request |-\|/-| 1060 +133 −0 md mk h 5|-\|/-| 
+Add setting of LEDs |-\|/-| 2019-01-08T03:48:15Z Merged pull request |-\|/-| 1052 +77 −0 txt h hpp cpp 4|-\|/-| 
+homebrew/versions formulae were migrated to hombrew-core |-\|/-| 2018-12-05T04:11:36Z Merged pull request |-\|/-| 1044 +0 −1 md 0|-\|/-| 
+Fix contructor usage in C++98 |-\|/-| 2018-11-03T03:05:00Z Merged pull request |-\|/-| 1036 +7 −9 h 1|-\|/-| 
+Add exposure control of the color camera |-\|/-| 2018-10-31T13:14:44Z Merged pull request |-\|/-| 1033 +281 −0 txt h hpp cpp 5|-\|/-| 
+Cuda9.0 |-\|/-| 2018-09-22T13:53:17Z Closed pull request |-\|/-| 1022 +46 −2 rst txt xml 2|-\|/-| 
+Pull forward build arguments hint required by downstream libs |-\|/-| 2018-06-20T01:04:16Z Closed pull request |-\|/-| 1003 +7 −0 md 0|-\|/-| 
+Update FindTegraJPEG.cmake for 28.2 Linux4Tegra |-\|/-| 2018-06-09T02:54:27Z Merged pull request |-\|/-| 999 +2 −0 cmake 1|-\|/-| 
+Add support for modern target-based CMake linking |-\|/-| 2019-09-27T03:54:33Z Closed pull request |-\|/-| 995 +65 −34 txt in 1|-\|/-| 
+fix headline/anchor for MacOS instructions |-\|/-| 2018-05-15T01:20:01Z Merged pull request |-\|/-| 994 +2 −2 md 0|-\|/-| 
+fix OSX RPATH handling |-\|/-| 2018-04-22T01:46:46Z Merged pull request |-\|/-| 982 +4 −0 txt 0|-\|/-| 
+add libusb_set_option for using usbdk on windows |-\|/-| 2018-02-24T03:15:53Z Closed pull request |-\|/-| 970 +4 −0 cpp 1|-\|/-| 
+remove commands for building libusb usbdk dlls |-\|/-| 2018-02-20T20:02:12Z Merged pull request |-\|/-| 969 +0 −2 cmd 2|-\|/-| 
+Are you earthdarkness from the gba |-\|/-| 2017-12-21T08:36:20Z Closed pull request |-\|/-| 949 +95 −0 cpp 1|-\|/-| 
+Fix an error that std::bind is not a member of std in GCC7 |-\|/-| 2017-12-12T15:57:18Z Closed pull request |-\|/-| 945 +1 −1 cpp 1|-\|/-| 
+Freenect2Replay continued |-\|/-| 2017-12-06T22:22:40Z Merged pull request |-\|/-| 942 +491 −0 hpp 1|-\|/-| 
+Freenect2ReplayDevice: API aligned with Freenect2Device |-\|/-| 2017-12-06T21:18:21Z Closed pull request |-\|/-| 937 +577 −0 hpp 1|-\|/-| 
+fix memory leak in DumpDepthPacketProcessor |-\|/-| 2017-11-25T10:13:38Z Merged pull request |-\|/-| 934 +4 −0 cpp 1|-\|/-| 
+add osx library path for brew install |-\|/-| 2017-10-25T18:06:18Z Merged pull request |-\|/-| 922 +1 −0 cmake 1|-\|/-| 
+Add compatibility for L4T 28.1, added make install for udev rules |-\|/-| 2017-10-25T18:10:43Z Closed pull request |-\|/-| 914 +6 −0 txt cmake 1|-\|/-| 
+Changed MIN GL Version from 3 to 2 |-\|/-| 2017-09-16T09:15:50Z Merged pull request |-\|/-| 903 +1 −1 cpp 1|-\|/-| 
+Fixes memory leak in VT processor |-\|/-| 2017-09-16T09:09:15Z Merged pull request |-\|/-| 900 +4 −1 cpp 1|-\|/-| 
+Fixed missing include |-\|/-| 2017-08-06T08:52:34Z Closed pull request |-\|/-| 882 +48 −4 gitignore aur/PKGBUILD h rules 4|-\|/-| 
+fix the cmake conditional expression error |-\|/-| 2017-06-27T02:36:08Z Merged pull request |-\|/-| 859 +2 −2 txt 0|-\|/-| 
+Fix version check when trying to find freenect2 with find_package |-\|/-| 2017-05-03T19:17:24Z Merged pull request |-\|/-| 837 +13 −1 txt in 2|-\|/-| 
+usb: Retry a few times with libusb_open() |-\|/-| 2017-04-24T17:54:35Z Merged pull request |-\|/-| 830 +14 −1 cpp 1|-\|/-| 
+Update README.md |-\|/-| 2017-03-31T15:46:20Z Merged pull request |-\|/-| 819 +1 −1 md 0|-\|/-| 
+typo preventing correct display of markdown |-\|/-| 2017-03-23T08:15:15Z Merged pull request |-\|/-| 815 +1 −1 md 0|-\|/-| 
+Find libOpenCL with CUDA 8.0 |-\|/-| 2017-02-21T22:59:55Z Closed pull request |-\|/-| 796 +3 −1 cmake 1|-\|/-| 
+Turbojpeg is compiled with PIC on Linux |-\|/-| 2016-12-26T03:42:01Z Closed pull request |-\|/-| 768 +4 −0 txt 0|-\|/-| 
+Disable default copy and assignment constructors |-\|/-| 2016-12-13T14:01:17Z Merged pull request |-\|/-| 765 +12 −0 h hpp 3|-\|/-| 
+Add serial to uri, fix for loop variable re-use |-\|/-| 2016-12-05T17:39:08Z Closed pull request |-\|/-| 762 +11 −4 cpp 1|-\|/-| 
+implemented VideoStream::convertDepthToColorCoordinates (openni2) |-\|/-| 2016-12-05T17:39:08Z Closed pull request |-\|/-| 760 +53 −19 cpp hpp 4|-\|/-| 
+Fix OpenNI2 enumeration softlocking sensors |-\|/-| 2016-10-25T15:21:34Z Merged pull request |-\|/-| 745 +2 −1 cpp 1|-\|/-| 
+New depth packet processor |-\|/-| 2016-11-02T19:05:11Z Closed pull request |-\|/-| 742 +3,205 −3 txt md cpp h 3|-\|/-| 
+Added TegraJPEG supporting for TK1 L4T r21.5. |-\|/-| 2016-10-21T03:37:54Z Merged pull request |-\|/-| 739 +2 −0 cmake 1|-\|/-| 
+Fixed typo in CUDA related part in the CMake file |-\|/-| 2016-10-08T14:09:59Z Merged pull request |-\|/-| 734 +1 −1 txt 0|-\|/-| 
+Optimize OpenGL depth packet processor image flipping |-\|/-| 2016-09-12T13:07:43Z Closed pull request |-\|/-| 716 +0 −0 0|-\|/-| 
+Added gstjpeg sources also for L4T 24.1 |-\|/-| 2016-11-02T22:28:50Z Closed pull request |-\|/-| 701 +9 −1 cmake 1|-\|/-| 
+ubuntu 16.04 |-\|/-| 2016-10-31T21:04:05Z Closed pull request |-\|/-| 690 +1,453 −1 txt cu 1|-\|/-| 
+Avoid overriding the PKG_CONFIG_PATH environment variable |-\|/-| 2016-10-31T20:32:23Z Merged pull request |-\|/-| 655 +1 −1 cmake 1|-\|/-| 
+Implement non-default pipeline selection from OpenNI2 side. |-\|/-| 2016-04-27T17:22:06Z Closed pull request |-\|/-| 646 +24 −8 cpp 2|-\|/-| 
+Add 5 seconds limit to the status 0x90000 checking loop |-\|/-| 2016-03-13T09:12:48Z Merged pull request |-\|/-| 614 +5 −1 cpp 1|-\|/-| 
+Protonect: Add timeout arg for waitForNewFrame() |-\|/-| 2016-03-13T00:11:52Z Merged pull request |-\|/-| 612 +5 −1 cpp 1|-\|/-| 
+Added options to Protonect - [UDP Streamer] and [Image recording to Disk] |-\|/-| 2017-12-19T15:07:57Z Merged pull request |-\|/-| 602 +2,423 −0 txt 0|-\|/-| 
+Reboot device |-\|/-| 2016-02-29T03:41:57Z Closed pull request |-\|/-| 597 +228 −86 h cpp 6|-\|/-| 
+Issue reboot command on Mac OS X |-\|/-| 2016-02-28T04:32:14Z Merged pull request |-\|/-| 594 +7 −1 cpp 1|-\|/-| 
+10.8 compatibility |-\|/-| 2016-02-24T15:34:10Z Merged pull request |-\|/-| 592 +1 −11 cpp 1|-\|/-| 
+Add -frames option to the Protonect |-\|/-| 2016-02-22T19:48:59Z Closed pull request |-\|/-| 585 +14 −2 cpp 1|-\|/-| 
+Using 10.9 available API for VideoToolbox |-\|/-| 2016-02-20T14:36:42Z Merged pull request |-\|/-| 583 +4 −1 cpp 1|-\|/-| 
+Opencl improvements |-\|/-| 2016-02-21T01:23:55Z Closed pull request |-\|/-| 579 +367 −265 h cl 2|-\|/-| 
+Create ISSUE_TEMPLATE.md |-\|/-| 2016-02-21T19:18:22Z Closed pull request |-\|/-| 577 +11 −0 md 0|-\|/-| 
+Tegrajpeg and perf code |-\|/-| 2016-02-18T20:50:57Z Merged pull request |-\|/-| 576 +594 −31 txt md cmake cpp h in 9|-\|/-| 
+Error when using C++11 std threading |-\|/-| 2016-02-16T16:11:21Z Merged pull request |-\|/-| 575 +1 −1 cpp 1|-\|/-| 
+Delay start stream in OpenNI2 driver |-\|/-| 2016-02-14T21:39:19Z Merged pull request |-\|/-| 574 +77 −50 cpp hpp 9|-\|/-| 
+Fix CMake's UPPERCASE_FOUND package detection and resulting segfaults |-\|/-| 2016-02-10T14:33:29Z Merged pull request |-\|/-| 566 +15 −11 cmake cpp 5|-\|/-| 
+Add VA-API JPEG decoder again |-\|/-| 2016-02-15T16:15:20Z Merged pull request |-\|/-| 563 +859 −205 txt md cmake h 4|-\|/-| 
+Some fixes to #365 |-\|/-| 2016-02-06T22:51:47Z Closed pull request |-\|/-| 562 +6 −5 cpp 2|-\|/-| 
+Add ability to disable RGB or depth stream |-\|/-| 2016-02-06T23:07:46Z Closed pull request |-\|/-| 557 +96 −21 cpp h hpp 5|-\|/-| 
+Usb error reporting |-\|/-| 2016-02-06T23:18:25Z Closed pull request |-\|/-| 556 +200 −207 cpp h 5|-\|/-| 
+Add a simple frame driver. |-\|/-| 2017-12-06T22:21:36Z Closed pull request |-\|/-| 555 +177 −0 hpp cpp 2|-\|/-| 
+Add accessors for the various depth tables. |-\|/-| 2016-02-03T05:16:08Z Merged pull request |-\|/-| 554 +30 −0 h cpp 2|-\|/-| 
+Add a dump depth processor.  Reactivate the RGB dump processor. |-\|/-| 2016-02-03T01:10:39Z Merged pull request |-\|/-| 551 +129 −15 h hpp cpp 6|-\|/-| 
+registration: Add depth-only methods |-\|/-| 2016-02-04T23:25:15Z Merged pull request |-\|/-| 549 +79 −5 h cpp 2|-\|/-| 
+Adding in CLI -help and -version options |-\|/-| 2016-01-25T08:36:52Z Merged pull request |-\|/-| 540 +26 −12 cpp in 2|-\|/-| 
+Release cleanup |-\|/-| 2016-01-18T08:51:51Z Merged pull request |-\|/-| 530 +791 −2,537 txt 0|-\|/-| 
+Update libusb build script for msvc 2015 |-\|/-| 2016-01-07T17:14:17Z Merged pull request |-\|/-| 526 +0 −2 cmd 1|-\|/-| 
+OpenNI2 driver cleaned up |-\|/-| 2016-01-25T18:05:04Z Merged pull request |-\|/-| 523 +2,017 −1 txt md cmake cpp 2|-\|/-| 
+Usb troubleshooting docs |-\|/-| 2016-01-04T07:48:45Z Merged pull request |-\|/-| 521 +14 −4 md cmake cpp 3|-\|/-| 
+opengl: Lower version to 3.2 for older Mac OSX |-\|/-| 2016-01-10T14:00:57Z Merged pull request |-\|/-| 520 +1 −1 cpp 1|-\|/-| 
+OpenNI2 driver |-\|/-| 2016-01-04T03:10:43Z Closed pull request |-\|/-| 518 +1,924 −0 txt cmake md cpp 2|-\|/-| 
+Plug memory leaks |-\|/-| 2016-01-07T09:17:12Z Closed pull request |-\|/-| 510 +32 −5 cpp 9|-\|/-| 
+Preemptive API expansion |-\|/-| 2015-12-17T09:38:05Z Merged pull request |-\|/-| 507 +39 −17 hpp cpp 3|-\|/-| 
+Fix Memory Leak in Viewer.cpp |-\|/-| 2015-12-17T09:36:58Z Merged pull request |-\|/-| 499 +3 −0 cpp 1|-\|/-| 
+Mostly usb fixes |-\|/-| 2015-12-17T09:36:41Z Merged pull request |-\|/-| 494 +101 −32 cpp h hpp 7|-\|/-| 
+Fix MSVC FTBFS |-\|/-| 2015-12-03T09:39:50Z Merged pull request |-\|/-| 490 +1 −22 h hpp cpp 5|-\|/-| 
+Viewer Scaling Fix |-\|/-| 2015-12-04T08:58:08Z Merged pull request |-\|/-| 486 +42 −9 cpp h 2|-\|/-| 
+registration.cpp merge fix |-\|/-| 2015-11-27T22:28:43Z Merged pull request |-\|/-| 484 +2 −2 cpp 1|-\|/-| 
+Forward ABI compatibility of Frame |-\|/-| 2015-11-27T18:45:11Z Merged pull request |-\|/-| 479 +13 −3 hpp 1|-\|/-| 
+API documentation |-\|/-| 2015-11-28T13:41:47Z Merged pull request |-\|/-| 477 +563 −134 txt css in 2|-\|/-| 
+API cleanup/refactoring |-\|/-| 2015-11-21T20:05:07Z Merged pull request |-\|/-| 476 +174 −138 txt in h hpp cpp 8|-\|/-| 
+Add some OpenCL instructions to README |-\|/-| 2015-11-21T14:06:28Z Merged pull request |-\|/-| 472 +5 −2 md 0|-\|/-| 
+Update depth_packet_processor.cpp |-\|/-| 2015-11-17T09:10:07Z Merged pull request |-\|/-| 470 +1 −1 cpp 1|-\|/-| 
+quick README fix |-\|/-| 2015-11-17T09:13:01Z Merged pull request |-\|/-| 469 +1 −0 md 0|-\|/-| 
+Protonect Window Fix |-\|/-| 2015-11-30T10:13:20Z Closed pull request |-\|/-| 467 +35 −9 cpp h 2|-\|/-| 
+Feature/camera settings |-\|/-| 2015-11-21T19:54:48Z Merged pull request |-\|/-| 465 +18 −2 hpp h cpp 4|-\|/-| 
+Updating README to remove no-longer relevant section |-\|/-| 2015-11-09T09:57:51Z Merged pull request |-\|/-| 463 +0 −6 md 0|-\|/-| 
+Add doxygen configuration and target to cmake |-\|/-| 2015-11-06T12:07:18Z Merged pull request |-\|/-| 450 +13 −16 txt Doxyfile 1|-\|/-| 
+makes the map for storing the color offset for each depth pixel a function parameter in order to make the user decide the allocation policy |-\|/-| 2015-11-27T18:46:38Z Merged pull request |-\|/-| 441 +5 −4 h cpp 2|-\|/-| 
+fixes missing std::string include in libfreenect2.hpp |-\|/-| 2015-10-22T08:39:27Z Merged pull request |-\|/-| 440 +1 −0 hpp 1|-\|/-| 
+removes unused memory allocation in the registration |-\|/-| 2015-10-23T08:35:53Z Closed pull request |-\|/-| 436 +1 −2 cpp 1|-\|/-| 
+Fixes missing subpackets in OS X |-\|/-| 2015-10-28T08:48:29Z Merged pull request |-\|/-| 435 +11 −3 cpp 1|-\|/-| 
+Assorted fixes and cleanup for 0.1 |-\|/-| 2015-11-06T12:00:49Z Merged pull request |-\|/-| 429 +13,422 −196 txt md cmake 1|-\|/-| 
+Add teapot configuration file |-\|/-| 2018-02-06T22:54:00Z Closed pull request |-\|/-| 423 +29 −0 rb 1|-\|/-| 
+Simplifying decodePixelMeasurement |-\|/-| 2016-01-25T18:32:51Z Closed pull request |-\|/-| 405 +17 −49 cpp 1|-\|/-| 
+Refactor processMeasurementTriple |-\|/-| 2016-01-25T18:33:09Z Closed pull request |-\|/-| 404 +40 −32 cpp 1|-\|/-| 
+fixed tinythread include |-\|/-| 2015-09-24T12:43:06Z Closed pull request |-\|/-| 403 +1 −1 h 1|-\|/-| 
+Get rid of CL_DEVICE_TYPE_CUSTOM |-\|/-| 2015-09-24T12:48:10Z Merged pull request |-\|/-| 402 +1 −4 cpp 1|-\|/-| 
+First prototype of computeCoordinates of point cloud, yet to be tested |-\|/-| 2015-09-22T11:51:33Z Merged pull request |-\|/-| 397 +41 −0 h cpp 2|-\|/-| 
+Fix GLFW setup on Mac OSX |-\|/-| 2015-09-17T06:22:53Z Merged pull request |-\|/-| 393 +6 −3 cpp 1|-\|/-| 
+Check NULL filename in the custom logger |-\|/-| 2015-09-15T18:11:45Z Merged pull request |-\|/-| 391 +3 −2 cpp 1|-\|/-| 
+PR #383 fixed |-\|/-| 2015-09-12T15:48:04Z Merged pull request |-\|/-| 385 +20 −14 txt cpp h 3|-\|/-| 
+Fix class LogMessage link error in windows and compile error |-\|/-| 2015-09-12T15:48:05Z Closed pull request |-\|/-| 383 +18 −12 txt h cpp 3|-\|/-| 
+Fix class LogMessage link error in windows and compile error |-\|/-| 2015-09-11T13:41:17Z Closed pull request |-\|/-| 382 +6 −3 txt h cpp 2|-\|/-| 
+Add: Doxygen documentation comment for many of the classes. |-\|/-| 2015-09-11T17:33:00Z Merged pull request |-\|/-| 380 +2,795 −66 Doxyfile cpp h hpp 9|-\|/-| 
+Generate depth tables with camera parameters |-\|/-| 2015-10-22T08:44:58Z Merged pull request |-\|/-| 379 +209 −276 txt bin h hpp cpp 6|-\|/-| 
+0.1 release build system restructuring |-\|/-| 2015-09-24T12:43:31Z Merged pull request |-\|/-| 376 +211 −653 gitignore txt md cmake bin 10|-\|/-| 
+Fixes Windows compilation |-\|/-| 2015-09-02T11:07:31Z Merged pull request |-\|/-| 374 +3 −0 cpp 3|-\|/-| 
+stdlib threading is only available for c++11 |-\|/-| 2015-09-12T15:50:28Z Merged pull request |-\|/-| 372 +3 −1 cmake 1|-\|/-| 
+Intel Mesa OpenGL bug fixes and cleanup |-\|/-| 2015-09-10T08:09:47Z Merged pull request |-\|/-| 368 +260 −390 h cpp c 4|-\|/-| 
+New VideoToolbox rgb packet processor |-\|/-| 2016-02-06T21:38:21Z Merged pull request |-\|/-| 365 +268 −13 txt md h in cpp 4|-\|/-| 
+Logging refactoring continued |-\|/-| 2015-09-04T11:21:35Z Merged pull request |-\|/-| 364 +776 −531 txt cpp h 5|-\|/-| 
+Update OpenCV docs |-\|/-| 2015-08-19T07:21:58Z Merged pull request |-\|/-| 362 +4 −66 md txt 0|-\|/-| 
+Removes opencv dependency |-\|/-| 2015-08-18T13:07:04Z Merged pull request |-\|/-| 361 +897 −110 txt cpp in h 5|-\|/-| 
+Add postfix to have both debug and release libraries. |-\|/-| 2015-08-18T13:09:57Z Merged pull request |-\|/-| 360 +6 −0 txt 0|-\|/-| 
+Corrected handling of DEPENDS_DIR and extended description of it |-\|/-| 2015-08-12T08:28:18Z Merged pull request |-\|/-| 357 +2 −2 txt cmake 1|-\|/-| 
+changed minimal opengl version to 3.1 |-\|/-| 2015-09-04T11:24:16Z Closed pull request |-\|/-| 352 +91 −74 c h cpp fs vs 7|-\|/-| 
+Correct find_scrpipt for libusb |-\|/-| 2015-08-06T17:14:03Z Merged pull request |-\|/-| 351 +8 −2 cmake 1|-\|/-| 
+Remove `roundf()` use from Registration |-\|/-| 2015-07-28T20:39:16Z Merged pull request |-\|/-| 345 +3 −3 cpp 1|-\|/-| 
+Exit on opengl errors |-\|/-| 2015-07-23T11:02:45Z Merged pull request |-\|/-| 341 +16 −2 cpp 1|-\|/-| 
+Quick windows docs update, address #330 |-\|/-| 2015-07-23T04:11:13Z Closed pull request |-\|/-| 339 +2 −2 md 0|-\|/-| 
+Mac OS X docs update |-\|/-| 2015-07-20T10:27:56Z Merged pull request |-\|/-| 328 +17 −6 md 0|-\|/-| 
+make sure data pointer in Frame object is 64-byte aligned  |-\|/-| 2015-07-16T08:26:51Z Merged pull request |-\|/-| 326 +12 −3 hpp 1|-\|/-| 
+fix opencl rebuild after config change |-\|/-| 2015-07-15T18:46:13Z Merged pull request |-\|/-| 324 +2 −1 cpp 1|-\|/-| 
+Use newer OpenCL include path to save cl.hpp |-\|/-| 2015-07-13T19:12:09Z Merged pull request |-\|/-| 318 +3 −1 sh 1|-\|/-| 
+allow supplying an external Frame for the depth buffer |-\|/-| 2015-07-14T10:53:11Z Merged pull request |-\|/-| 317 +4 −4 h cpp 2|-\|/-| 
+fixed memory leak in openDevice |-\|/-| 2015-07-09T09:45:31Z Merged pull request |-\|/-| 315 +11 −2 hpp cpp 2|-\|/-| 
+rename examples/protonect to src |-\|/-| 2015-08-18T13:10:50Z Closed pull request |-\|/-| 314 +6 −6 gitignore cpp bin txt cmake in h hpp c cl fs vs 66|-\|/-| 
+[RFC] refactor logging |-\|/-| 2015-09-04T11:22:17Z Closed pull request |-\|/-| 309 +464 −103 txt cpp h hpp 11|-\|/-| 
+Raise required CMake version to 2.8.12 |-\|/-| 2015-06-26T08:40:08Z Merged pull request |-\|/-| 308 +1 −1 txt 0|-\|/-| 
+OpenNI2 driver |-\|/-| 2015-12-30T23:42:05Z Closed pull request |-\|/-| 302 +3,151 −0 gitmodules txt md drivers/OpenNI2-Freenect2Driver/extern/OpenNI2 cpp hpp 4|-\|/-| 
+Added comments for lib-names |-\|/-| 2015-06-17T13:35:58Z Merged pull request |-\|/-| 301 +3 −0 cmake 1|-\|/-| 
+Extended name of libtubrojpeg for debian packaging |-\|/-| 2015-06-17T13:35:27Z Merged pull request |-\|/-| 300 +1 −1 cmake 1|-\|/-| 
+Fix Ubuntu 14.04 installation issues |-\|/-| 2015-06-17T13:03:51Z Merged pull request |-\|/-| 299 +3 −3 md sh 1|-\|/-| 
+Various small fixes |-\|/-| 2015-06-17T13:11:36Z Merged pull request |-\|/-| 294 +5 −6 cpp 3|-\|/-| 
+Build OpenCL program as soon as the OpenCL device is initialized |-\|/-| 2015-07-09T19:19:01Z Merged pull request |-\|/-| 293 +59 −18 cpp 1|-\|/-| 
+separate between static and shared libs, make it configureable |-\|/-| 2015-09-02T11:13:11Z Closed pull request |-\|/-| 292 +49 −21 txt cmake 1|-\|/-| 
+Fix compile error in libfreenect2.h |-\|/-| 2015-06-14T14:14:51Z Merged pull request |-\|/-| 290 +2 −2 h 1|-\|/-| 
+Added pkg-config file to support external library usages |-\|/-| 2015-06-17T13:15:56Z Merged pull request |-\|/-| 289 +15 −0 gitignore txt in 2|-\|/-| 
+Create (mostly) static Protonect.exe on Windows |-\|/-| 2015-08-25T04:13:57Z Closed pull request |-\|/-| 284 +65 −16 txt cmake cpp 5|-\|/-| 
+Link local libusb statically on Linux/Mac |-\|/-| 2015-08-25T04:10:40Z Closed pull request |-\|/-| 283 +40 −6 sh txt cmake 2|-\|/-| 
+Copy DLLs for Protonect on Windows |-\|/-| 2015-10-16T04:35:07Z Closed pull request |-\|/-| 282 +23 −1 txt 0|-\|/-| 
+Documentation update |-\|/-| 2015-06-09T10:40:35Z Merged pull request |-\|/-| 279 +72 −5 md 0|-\|/-| 
+Move loadBufferFromResources() to resource.h from OpenCL depth processor |-\|/-| 2015-06-09T10:48:59Z Merged pull request |-\|/-| 278 +25 −21 h cpp 3|-\|/-| 
+Add libusb as a path_suffixes - as libusb doesn't have a include folder. |-\|/-| 2015-06-08T12:30:58Z Merged pull request |-\|/-| 277 +2 −1 cmake 1|-\|/-| 
+create static and shared library from same source build |-\|/-| 2015-06-09T11:14:24Z Merged pull request |-\|/-| 276 +16 −7 gitignore txt cpp 2|-\|/-| 
+Fix transfer pool thread safety |-\|/-| 2015-06-08T11:50:56Z Merged pull request |-\|/-| 275 +73 −45 h cpp 3|-\|/-| 
+CMake cleanup |-\|/-| 2015-06-08T06:43:41Z Merged pull request |-\|/-| 274 +142 −165 txt cmake 4|-\|/-| 
+Getting dependencies on windows. |-\|/-| 2015-06-07T19:14:14Z Merged pull request |-\|/-| 272 +28 −10 txt 0|-\|/-| 
+More modular solution for dependency installation |-\|/-| 2015-06-07T18:55:31Z Merged pull request |-\|/-| 271 +46 −25 gitignore md sh txt cmake 6|-\|/-| 
+Added depends search path. |-\|/-| 2015-06-07T21:06:14Z Merged pull request |-\|/-| 270 +11 −10 cmake 1|-\|/-| 
+Added default install path to glfw on windows  |-\|/-| 2015-06-07T19:15:02Z Merged pull request |-\|/-| 269 +7 −2 cmake 1|-\|/-| 
+add libusb directory to RPATH |-\|/-| 2015-06-07T18:52:03Z Merged pull request |-\|/-| 268 +2 −0 txt 0|-\|/-| 
+Better solution for dependency installation |-\|/-| 2015-06-07T18:35:43Z Closed pull request |-\|/-| 267 +46 −25 gitignore md sh txt cmake 6|-\|/-| 
+Make install script abort on errors |-\|/-| 2015-06-07T11:54:06Z Merged pull request |-\|/-| 266 +1 −0 sh 1|-\|/-| 
+Quick documentation fix |-\|/-| 2015-06-07T11:53:17Z Merged pull request |-\|/-| 265 +6 −20 md sh 1|-\|/-| 
+fix GLFW3 conditional |-\|/-| 2015-06-06T20:06:18Z Merged pull request |-\|/-| 264 +1 −1 txt 0|-\|/-| 
+build static library libfreenect2.a as well |-\|/-| 2015-06-08T12:39:10Z Closed pull request |-\|/-| 263 +5 −0 txt 0|-\|/-| 
+build static library libfreenect2.a as well |-\|/-| 2015-06-06T03:47:53Z Closed pull request |-\|/-| 262 +5 −0 txt 0|-\|/-| 
+[WIB] Glviewer |-\|/-| 2015-08-18T13:07:38Z Closed pull request |-\|/-| 261 +760 −88 txt cpp in 2|-\|/-| 
+Missing include and lib for default path on windows. |-\|/-| 2015-06-06T19:49:00Z Merged pull request |-\|/-| 260 +2 −2 cmake 1|-\|/-| 
+search for libusb-1.0 instead of libusb |-\|/-| 2015-06-05T18:56:26Z Merged pull request |-\|/-| 259 +1 −1 txt cmake 1|-\|/-| 
+Streamlined the JPEG and added environment to work on linux/mac too. |-\|/-| 2015-06-04T12:26:24Z Merged pull request |-\|/-| 257 +2 −21 cmake 1|-\|/-| 
+Added filtering of shadowed color regions to registration |-\|/-| 2015-06-14T14:09:44Z Merged pull request |-\|/-| 253 +108 −35 cpp h 4|-\|/-| 
+Renamed contrib folder to rules |-\|/-| 2015-05-22T09:28:49Z Merged pull request |-\|/-| 241 +0 −0 rules 1|-\|/-| 
+add a brief (linux-centric) FAQ section |-\|/-| 2015-05-22T09:43:34Z Merged pull request |-\|/-| 240 +33 −7 md 0|-\|/-| 
+add udev rules file by @wiedemeyer |-\|/-| 2015-05-22T08:35:01Z Merged pull request |-\|/-| 239 +5 −0 rules 1|-\|/-| 
+commented out unused variable from cpu_depth_packet_processor.cpp |-\|/-| 2015-05-22T08:14:42Z Merged pull request |-\|/-| 238 +1 −1 cpp 1|-\|/-| 
+Extension of Protonect to allow selection of pipeline and device |-\|/-| 2015-05-22T07:12:09Z Merged pull request |-\|/-| 236 +58 −3 cpp 1|-\|/-| 
+Updated error reporting messages |-\|/-| 2015-05-13T13:00:56Z Merged pull request |-\|/-| 227 +11 −11 cpp 4|-\|/-| 
+add convenience method & sample code for registration |-\|/-| 2015-05-12T20:10:38Z Merged pull request |-\|/-| 226 +61 −7 cpp h 3|-\|/-| 
+Use cl_device_type for clGetDeviceInfo(CL_DEVICE_TYPE) instead of size_t... |-\|/-| 2015-05-12T12:53:42Z Merged pull request |-\|/-| 225 +3 −3 cpp 1|-\|/-| 
+Fixed shebang for all the depends scripts |-\|/-| 2015-05-07T14:00:09Z Merged pull request |-\|/-| 224 +5 −5 sh 3|-\|/-| 
+Add CUDA depth processor |-\|/-| 2016-02-14T02:58:29Z Closed pull request |-\|/-| 222 +1,293 −33 gitignore txt cpp h in hpp 10|-\|/-| 
+Improve RGB and depth stream parsers |-\|/-| 2015-05-20T19:51:08Z Merged pull request |-\|/-| 221 +112 −59 h hpp cpp 9|-\|/-| 
+Handling race condition for pending_transfers_ and its iterators. |-\|/-| 2015-06-08T11:51:41Z Closed pull request |-\|/-| 212 +16 −0 h cpp 2|-\|/-| 
+Add VA-API JPEG decoder |-\|/-| 2016-02-07T21:03:11Z Closed pull request |-\|/-| 210 +666 −74 txt cpp h in hpp 15|-\|/-| 
+Update build instructions for Windows with MSVC and OpenCL |-\|/-| 2015-05-22T12:53:26Z Closed pull request |-\|/-| 208 +88 −16 md txt cmake 1|-\|/-| 
+Fix FTBFS on ARM introduced in PR #103 |-\|/-| 2015-04-22T12:06:15Z Merged pull request |-\|/-| 207 +0 −4 h 2|-\|/-| 
+add basic Registration class |-\|/-| 2015-03-27T08:40:56Z Merged pull request |-\|/-| 190 +218 −0 txt hpp h cpp 4|-\|/-| 
+fix for opencl implementation of the bilateral filter |-\|/-| 2015-03-25T21:18:15Z Merged pull request |-\|/-| 189 +1 −1 cl 1|-\|/-| 
+Added <limit> header missing and preventing compiling on Ubuntu 14.04.2 |-\|/-| 2015-03-27T08:49:21Z Merged pull request |-\|/-| 180 +2 −0 cpp 1|-\|/-| 
+Added automake to list of dependencies for Ubuntu 14.04 |-\|/-| 2015-03-10T14:03:54Z Merged pull request |-\|/-| 179 +1 −1 md 0|-\|/-| 
+Example code to stream video feeds to v4l using v4l2loopback |-\|/-| 2015-03-31T06:36:03Z Closed pull request |-\|/-| 177 +11,919 −0 bin txt md cmake in 5|-\|/-| 
+fixed OpenGLDepthPacketProcessor texture upload |-\|/-| 2015-03-31T10:53:25Z Merged pull request |-\|/-| 171 +3 −0 cpp 1|-\|/-| 
+fixed char comparison warning |-\|/-| 2015-03-27T08:45:08Z Merged pull request |-\|/-| 170 +1 −1 h 1|-\|/-| 
+test_opengl input data dump |-\|/-| 2016-02-03T01:13:00Z Closed pull request |-\|/-| 169 +152 −3 txt cpp 2|-\|/-| 
+Make opencl processor compiling on newer linux nvidia CL version |-\|/-| 2015-03-30T18:57:15Z Merged pull request |-\|/-| 167 +3 −0 cpp 1|-\|/-| 
+Remove the VS solution as it is outdated. |-\|/-| 2015-04-01T09:48:07Z Merged pull request |-\|/-| 166 +2 −327 md sln filters vcxproj 6|-\|/-| 
+fix typo in shell script variable |-\|/-| 2015-02-11T21:06:46Z Merged pull request |-\|/-| 162 +2 −2 sh 1|-\|/-| 
+added --dump option for exporting input data for test_opengl |-\|/-| 2015-02-19T14:39:55Z Closed pull request |-\|/-| 161 +73 −12 txt cpp h 6|-\|/-| 
+add info about intrinsic structure |-\|/-| 2015-02-09T09:02:36Z Merged pull request |-\|/-| 158 +33 −6 h cpp 2|-\|/-| 
+remove OpenCV dependency |-\|/-| 2015-06-23T18:04:23Z Closed pull request |-\|/-| 151 +241 −91 txt cpp 1|-\|/-| 
+updated libusb dependency |-\|/-| 2015-02-10T17:09:01Z Merged pull request |-\|/-| 149 +1 −27 sh patch 2|-\|/-| 
+Added sequence in Frame |-\|/-| 2015-05-21T18:31:57Z Closed pull request |-\|/-| 148 +13 −1 hpp cpp 5|-\|/-| 
+Added timestamp support in Frame(but only Depth and IR) |-\|/-| 2015-02-26T03:19:25Z Closed pull request |-\|/-| 147 +16 −1 h hpp cpp 7|-\|/-| 
+Fix for OpenCL depth packet processor ignoring min and max depth values from config. |-\|/-| 2015-01-29T11:10:53Z Merged pull request |-\|/-| 145 +34 −28 cpp 1|-\|/-| 
+updated freenect2.cmake.in |-\|/-| 2015-02-02T08:39:17Z Merged pull request |-\|/-| 138 +4 −8 in 1|-\|/-| 
+optional OpenGL dependency |-\|/-| 2015-02-02T09:41:17Z Merged pull request |-\|/-| 130 +53 −38 txt cpp in h 6|-\|/-| 
+removed GLEW dependency and use OpenGL function loader generated with flextGL |-\|/-| 2015-02-02T09:24:48Z Merged pull request |-\|/-| 129 +2,234 −297 sh txt cpp h c 5|-\|/-| 
+fix for wrong define name: WITH_OPENCL_SUPPORT -> LIBFREENECT2_WITH_OPENCL_SUPPORT |-\|/-| 2015-01-12T15:12:28Z Merged pull request |-\|/-| 128 +2 −2 cpp 1|-\|/-| 
+renamed global variable shutdown to protonect_shutdown |-\|/-| 2015-01-12T12:49:54Z Merged pull request |-\|/-| 127 +5 −5 cpp 1|-\|/-| 
+Update README.md - Ubuntu Dependencies |-\|/-| 2015-02-02T14:19:38Z Merged pull request |-\|/-| 125 +2 −0 md 0|-\|/-| 
+added posibility to select openCL device for depth processing and improved openCL device listing  |-\|/-| 2015-01-12T12:44:26Z Merged pull request |-\|/-| 124 +102 −36 h cpp 4|-\|/-| 
+Fix conflicting name of variable "shutdown" |-\|/-| 2015-01-12T12:50:01Z Closed pull request |-\|/-| 121 +341 −5 cpp txt xml 3|-\|/-| 
+OpenCL fixes |-\|/-| 2015-01-12T12:44:07Z Merged pull request |-\|/-| 119 +9 −11 cmake cpp 2|-\|/-| 
+Fix openDevice idx |-\|/-| 2015-01-12T12:42:21Z Merged pull request |-\|/-| 113 +1 −1 cpp 1|-\|/-| 
+test_opengl OSX fix |-\|/-| 2015-03-27T09:01:04Z Merged pull request |-\|/-| 111 +3 −0 cpp 1|-\|/-| 
+Do not download cl.hpp if it exists |-\|/-| 2014-11-20T09:55:02Z Merged pull request |-\|/-| 104 +2 −1 sh 1|-\|/-| 
+generate header file with platform and build configuration macros |-\|/-| 2015-01-12T12:44:47Z Merged pull request |-\|/-| 103 +100 −69 gitignore txt cmake in h hpp 11|-\|/-| 
+ignore generated resource file |-\|/-| 2014-11-19T08:18:49Z Merged pull request |-\|/-| 99 +3 −0 gitignore 1|-\|/-| 
+moved DataReceivedCallback from TransferPool to separate header |-\|/-| 2014-11-19T08:18:37Z Merged pull request |-\|/-| 98 +55 −15 h cpp 6|-\|/-| 
+added option to hide the debug window of OpenGLDepthPacketProcessor |-\|/-| 2014-11-19T08:18:25Z Merged pull request |-\|/-| 95 +13 −11 h cpp 5|-\|/-| 
+fix compilation without OpenCL support |-\|/-| 2014-11-17T09:18:01Z Merged pull request |-\|/-| 94 +9 −2 txt h cpp 2|-\|/-| 
+protonect: added install target and use pkg-config to find dependancis |-\|/-| 2014-11-19T08:14:22Z Closed pull request |-\|/-| 90 +39 −16 txt h cpp 5|-\|/-| 
+[WIB] Added methods to query for serialNumber and Camera parameters without starting device. |-\|/-| 2015-06-13T06:51:50Z Closed pull request |-\|/-| 82 +72 −1 cpp 1|-\|/-| 
+added cmake option to enable c++11 |-\|/-| 2014-11-15T16:19:22Z Merged pull request |-\|/-| 81 +15 −0 txt 0|-\|/-| 
+fix device identification |-\|/-| 2014-11-01T16:44:32Z Merged pull request |-\|/-| 80 +4 −4 cpp 1|-\|/-| 
+Formatting README to Markdown format |-\|/-| 2014-11-01T12:05:27Z Merged pull request |-\|/-| 77 +69 −21 md 0|-\|/-| 
+Added Ubuntu documentation |-\|/-| 2014-11-01T12:05:28Z Merged pull request |-\|/-| 76 +25 −0 txt 0|-\|/-| 
+A go at making the depth_packet_stream_parser better. |-\|/-| 2015-05-05T12:40:14Z Closed pull request |-\|/-| 75 +74 −105 h hpp cpp 6|-\|/-| 
+Rgb packet handling |-\|/-| 2015-05-05T12:41:43Z Closed pull request |-\|/-| 73 +57 −22 hpp h cpp 4|-\|/-| 
+Robust check for arrived color frame. |-\|/-| 2015-05-21T18:31:27Z Closed pull request |-\|/-| 72 +39 −25 cpp 1|-\|/-| 
+Add timestamps to Frame data. |-\|/-| 2015-05-21T18:30:54Z Closed pull request |-\|/-| 71 +18 −1 h hpp cpp 8|-\|/-| 
+Added header files so they are visible in VS solution tree. |-\|/-| 2015-05-22T11:17:59Z Merged pull request |-\|/-| 70 +26 −5 txt 0|-\|/-| 
+Added a libfreenect2_api export macro - to apply __declspec(dllexport) i... |-\|/-| 2015-01-12T12:45:01Z Closed pull request |-\|/-| 69 +53 −12 h hpp 7|-\|/-| 
+Added FindLibrary files for various libraries |-\|/-| 2015-06-03T13:36:50Z Merged pull request |-\|/-| 68 +234 −60 gitignore txt cmake 5|-\|/-| 
+Added include <algorithm> in ifdef WIN32 and VS2013 |-\|/-| 2014-11-01T15:24:11Z Merged pull request |-\|/-| 67 +12 −5 h cpp 3|-\|/-| 
+Made a ifdef for packing data to work on windows also. |-\|/-| 2014-11-15T15:34:34Z Merged pull request |-\|/-| 66 +50 −10 h cpp 4|-\|/-| 
+opencl depth packet processor |-\|/-| 2014-11-15T16:12:38Z Merged pull request |-\|/-| 58 +1,241 −37 sh txt cmake h cpp 6|-\|/-| 
+SyncMultiFrameListener changes |-\|/-| 2014-10-03T11:13:14Z Merged pull request |-\|/-| 57 +76 −22 hpp h cpp 3|-\|/-| 
+CMAKE Headers in ADD_LIBRARY |-\|/-| 2014-09-16T00:34:00Z Closed pull request |-\|/-| 55 +4 −0 txt 0|-\|/-| 
+make install enabled |-\|/-| 2014-11-15T15:31:52Z Merged pull request |-\|/-| 52 +31 −0 txt in 1|-\|/-| 
+Avoid linking problem with libturbojpeg by compiling it during installation of dependencies |-\|/-| 2014-11-12T20:19:05Z Closed pull request |-\|/-| 51 +28 −1 sh txt 1|-\|/-| 
+FrameListener pullrequest |-\|/-| 2014-09-28T12:21:04Z Closed pull request |-\|/-| 48 +18 −5 hpp h cpp 3|-\|/-| 
+OpenCL based DepthPacketProcessor pullrequest |-\|/-| 2014-09-28T16:56:54Z Closed pull request |-\|/-| 47 +959 −5 txt h cpp 2|-\|/-| 
+CMake based restructuring - enhanced for Linux |-\|/-| 2014-08-20T12:12:13Z Closed pull request |-\|/-| 43 +2,401 −636 gitignore APACHE20 txt sln filters 5|-\|/-| 
+Updated readme |-\|/-| 2014-08-15T07:37:59Z Merged pull request |-\|/-| 40 +1 −1 txt 0|-\|/-| 
+use pkg-config to find glfw libs |-\|/-| 2014-11-12T20:19:49Z Closed pull request |-\|/-| 39 +5 −6 txt 0|-\|/-| 
+make packet processing pipeline configurable |-\|/-| 2014-10-03T11:35:56Z Merged pull request |-\|/-| 38 +313 −61 txt h hpp cpp 10|-\|/-| 
+Workaround for libusb_reset_device behaviour |-\|/-| 2014-08-08T09:05:30Z Merged pull request |-\|/-| 34 +69 −31 hpp cpp 2|-\|/-| 
+libjpeg_turbo fails to configure |-\|/-| 2014-08-08T07:33:25Z Merged pull request |-\|/-| 32 +2 −2 sh 1|-\|/-| 
+reimplement custom version of libusb_get_max_iso_packet_size |-\|/-| 2014-08-17T19:17:52Z Merged pull request |-\|/-| 30 +77 −9 sh txt h cpp 4|-\|/-| 
+enhance device enumeration |-\|/-| 2014-07-29T10:23:21Z Merged pull request |-\|/-| 29 +119 −40 cpp 2|-\|/-| 
+renamed filter functions in GLSL shader code, fixes #27 |-\|/-| 2014-07-25T07:43:53Z Merged pull request |-\|/-| 28 +4 −4 fs 2|-\|/-| 
+Mac OSX Fixes |-\|/-| 2014-07-25T07:41:33Z Merged pull request |-\|/-| 26 +127 −49 txt sh cmake hpp cpp 8|-\|/-| 
+refactored Kinect v2 control command functions and implemented c++ api |-\|/-| 2014-07-21T18:23:03Z Merged pull request |-\|/-| 23 +1,961 −1,045 txt 0|-\|/-| 
+explicitly link in pthread on Linux/MacOSX |-\|/-| 2014-06-12T08:04:50Z Merged pull request |-\|/-| 20 +6 −2 cmake 1|-\|/-| 
+implemented DepthPacketProcessor using OpenGL shaders |-\|/-| 2014-06-29T12:26:56Z Merged pull request |-\|/-| 19 +2,767 −136 sh txt cpp cmake h 6|-\|/-| 
+implemented second filter stage in depth packet processor |-\|/-| 2014-06-08T20:29:15Z Merged pull request |-\|/-| 17 +214 −33 h 1|-\|/-| 
+fixed segfault in DepthPacketStreamParser |-\|/-| 2014-05-06T15:07:37Z Merged pull request |-\|/-| 16 +5 −3 cpp 1|-\|/-| 
+Removed boost thread dependency |-\|/-| 2014-05-09T08:57:51Z Merged pull request |-\|/-| 14 +1,182 −29 txt cpp cmake h 8|-\|/-| 
+initial draft for libfreenect2 api based on libfreenect api |-\|/-| 2014-06-12T08:06:11Z Merged pull request |-\|/-| 12 +498 −0 0|-\|/-| 
+Initial working version of libfreenect2 |-\|/-| 2014-03-04T01:27:14Z Merged pull request |-\|/-| 9 +3,342 −876 txt sh patch bin examples/protonect/Makefile 4|-\|/-| 
+fix KSendCommandReadResponse |-\|/-| 2013-12-08T22:57:31Z Closed pull request |-\|/-| 2 +2 −1 cpp 1|-\|/-| 
+minor hotfixes for Linux support |-\|/-| 2013-12-08T22:55:02Z Merged pull request |-\|/-| 1 +7 −2 examples/protonect/Makefile cpp h 3|-\|/-| 

@@ -1,0 +1,984 @@
+ExceptionLayoutRenderer - Improve Format-token parsing error message |-\|/-| 2020-01-06T23:54:18Z Merged pull request |-\|/-| 3750 +4 −6 cs 1|-\|/-| 
+AsyncTaskTarget - Skip AsyncWrapper since already having internal queue |-\|/-| 2020-01-06T23:54:48Z Merged pull request |-\|/-| 3748 +102 −5 cs 2|-\|/-| 
+AutoFlushWrapper - Set AutoFlush=false for AsyncTaskTarget by default |-\|/-| 2020-01-06T23:57:12Z Merged pull request |-\|/-| 3747 +37 −1 cs 2|-\|/-| 
+Renamed folder StringBuilderPools to ObjectPools |-\|/-| 2020-01-01T21:08:06Z Merged pull request |-\|/-| 3745 +0 −0 cs 18|-\|/-| 
+JsonLayout - EscapeForwardSlash should be nullable |-\|/-| 2020-01-01T10:42:22Z Merged pull request |-\|/-| 3743 +72 −15 cs 4|-\|/-| 
+TraceTarget - Introduced EnableTraceFail=false to avoid Environment.FailFast |-\|/-| 2020-01-01T19:48:08Z Merged pull request |-\|/-| 3742 +72 −5 cs 2|-\|/-| 
+LogFactory.Setup - SetupInternalLogger |-\|/-| 2019-12-23T22:40:23Z Merged pull request |-\|/-| 3740 +307 −3 cs 5|-\|/-| 
+NetworkTarget - Copy into buffer to avoid Encoding doing String.ToCharArray |-\|/-| 2019-12-22T00:04:19Z Merged pull request |-\|/-| 3739 +42 −34 cs 2|-\|/-| 
+Added Layout.CreateFromMethod to allow custom layoutrenders using Config API |-\|/-| 2019-12-22T21:41:35Z Merged pull request |-\|/-| 3737 +204 −14 cs 6|-\|/-| 
+Drop old Sonar and Open cover integration |-\|/-| 2019-12-27T02:19:21Z Merged pull request |-\|/-| 3736 +5 −64 yml ps1 3|-\|/-| 
+WebServiceTarget - Skip delegate capture for beginGetRequest + getRequestStream |-\|/-| 2019-12-13T21:17:44Z Merged pull request |-\|/-| 3735 +31 −31 cs 2|-\|/-| 
+FileTarget - Write time details to InternalLogger when file is older than MaxArchiveDays |-\|/-| 2019-12-13T21:17:18Z Merged pull request |-\|/-| 3734 +16 −7 cs 5|-\|/-| 
+FileTarget - enable test ArchiveAboveSizeWithArchiveNumberingModeDate_maxfiles_o |-\|/-| 2019-12-11T23:42:57Z Merged pull request |-\|/-| 3733 +1 −1 cs 1|-\|/-| 
+DatabaseTarget - DbType enum parsing should not be case-sensitive |-\|/-| 2019-12-22T21:08:37Z Merged pull request |-\|/-| 3732 +20 −118 cs 5|-\|/-| 
+LogLevel - Recognize LogLevel names that matches Format.FullName |-\|/-| 2019-12-08T20:36:30Z Merged pull request |-\|/-| 3730 +21 −1 cs 3|-\|/-| 
+Enable Source Link |-\|/-| 2019-12-08T20:37:08Z Merged pull request |-\|/-| 3728 +5 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Security from 4.4.0 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:47Z Closed pull request |-\|/-| 3725 +3 −3 csproj 2|-\|/-| 
+Bump Microsoft.Data.Sqlite from 3.0.1 to 3.1.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:47Z Closed pull request |-\|/-| 3724 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Duplex from 4.0.1 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:46Z Closed pull request |-\|/-| 3723 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Primitives from 4.4.0 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:46Z Closed pull request |-\|/-| 3722 +3 −3 csproj 2|-\|/-| 
+Bump System.Reflection.TypeExtensions from 4.1.0 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:45Z Closed pull request |-\|/-| 3721 +2 −2 csproj 1|-\|/-| 
+Bump System.Security.Principal.Windows from 4.0.0 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:45Z Closed pull request |-\|/-| 3720 +2 −2 csproj 1|-\|/-| 
+Bump System.Data.SqlClient from 4.7.0 to 4.8.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:45Z Closed pull request |-\|/-| 3719 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.NetTcp from 4.4.0 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:44Z Closed pull request |-\|/-| 3718 +3 −3 csproj 2|-\|/-| 
+FileTarget - Added support for MaxArchiveDays |-\|/-| 2019-12-06T22:15:03Z Merged pull request |-\|/-| 3714 +216 −156 cs 6|-\|/-| 
+Level LayoutRenderer Format extended with FullName |-\|/-| 2019-11-28T21:59:46Z Merged pull request |-\|/-| 3713 +42 −2 cs 3|-\|/-| 
+Bump Microsoft.Owin.Hosting from 4.0.1 to 4.1.0 in /tests/NLog.UnitTests |-\|/-| 2019-12-06T22:22:44Z Closed pull request |-\|/-| 3708 +1 −1 csproj 1|-\|/-| 
+LongDateLayoutRenderer - Implement IRawValue-interface |-\|/-| 2019-11-27T15:38:37Z Merged pull request |-\|/-| 3706 +40 −8 cs 2|-\|/-| 
+JsonSerializer - Write DateTime directly to StringBuilder instead of allocating string  |-\|/-| 2019-11-27T15:38:54Z Merged pull request |-\|/-| 3705 +1 −1 cs 1|-\|/-| 
+EventLogTarget - Improve diagnostics logging when using dynamic source |-\|/-| 2019-11-27T15:39:42Z Merged pull request |-\|/-| 3704 +233 −282 cs 1|-\|/-| 
+ExceptionLayoutRenderer - Added Format option called HResult (Fix NetCore) |-\|/-| 2019-11-27T15:40:01Z Merged pull request |-\|/-| 3700 +6 −6 cs 2|-\|/-| 
+#2796  Made Url a layout |-\|/-| 2019-11-25T11:50:02Z Closed pull request |-\|/-| 3699 +50 −3 cs 2|-\|/-| 
+JsonSerializer - Write DateTime directly to StringBuilder instead of allocating string |-\|/-| 2019-11-21T20:15:57Z Merged pull request |-\|/-| 3694 +146 −15 cs 3|-\|/-| 
+Bump Microsoft.Data.Sqlite from 2.2.6 to 3.0.1 in /tests/NLog.UnitTests |-\|/-| 2019-11-20T21:56:05Z Merged pull request |-\|/-| 3693 +1 −1 csproj 1|-\|/-| 
+XmlLayout - Removed unnecessary double conversion to string |-\|/-| 2019-11-27T15:40:20Z Merged pull request |-\|/-| 3692 +1 −1 cs 1|-\|/-| 
+FileTarget - ConcurrentWrites should use FileStream.Length in archive-check |-\|/-| 2019-11-27T15:40:55Z Merged pull request |-\|/-| 3691 +107 −321 cs 10|-\|/-| 
+LoggingConfiguration - Moved CheckUnusedTargets to InitializeAll  |-\|/-| 2019-11-18T21:54:18Z Merged pull request |-\|/-| 3689 +25 −10 cs 4|-\|/-| 
+LogFactory.Setup to allow fluent configuration of LogFactory options |-\|/-| 2019-12-22T23:06:13Z Merged pull request |-\|/-| 3686 +720 −1 cs 7|-\|/-| 
+LogBuilder - Removed Caller-properties since they are available with ${callsite} |-\|/-| 2019-11-16T20:44:20Z Merged pull request |-\|/-| 3685 +3 −112 cs 4|-\|/-| 
+${message} renders Exception.GetType + Exception.Message when single exception parameter |-\|/-| 2019-11-16T11:18:18Z Merged pull request |-\|/-| 3684 +89 −0 cs 3|-\|/-| 
+ObjectGraphScanner - Avoid holding list.SyncRoot lock while scanning |-\|/-| 2019-11-16T00:05:34Z Merged pull request |-\|/-| 3683 +2 −2 cs 1|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.2.0 to 16.4.0 in /tests/NLog.UnitTests |-\|/-| 2019-11-08T22:48:29Z Closed pull request |-\|/-| 3677 +1 −1 csproj 1|-\|/-| 
+Fix setter ConfigurationItemFactory.Default |-\|/-| 2019-11-16T23:23:32Z Merged pull request |-\|/-| 3676 +1 −1 cs 1|-\|/-| 
+DI Support ctor injection & added NLogResolveException |-\|/-| 2019-11-07T00:57:22Z Merged pull request |-\|/-| 3672 +307 −52 cs 8|-\|/-| 
+Decouple LogEventInfo from other classes (WIP) |-\|/-| 2019-11-06T21:14:21Z Closed pull request |-\|/-| 3669 +277 −130 cs 12|-\|/-| 
+Update CHANGELOG.md |-\|/-| 2019-11-05T19:48:22Z Merged pull request |-\|/-| 3668 +1 −1 md 0|-\|/-| 
+Tryout DI ctor injection (WIP) |-\|/-| 2019-11-06T23:11:13Z Closed pull request |-\|/-| 3667 +1,766 −1,745 cs 2|-\|/-| 
+Refactor resolve & register for DI |-\|/-| 2019-11-07T00:17:49Z Merged pull request |-\|/-| 3666 +96 −82 cs 16|-\|/-| 
+Port 4.6.8 to dev |-\|/-| 2019-11-10T22:29:59Z Merged pull request |-\|/-| 3665 +2,720 −659 md ps1 DotSettings cs 7|-\|/-| 
+Version 4.6.8 |-\|/-| 2019-11-04T20:47:05Z Merged pull request |-\|/-| 3664 +1 −1 ps1 1|-\|/-| 
+FileTarget - Extra logging when FileName Layout returns empty filename |-\|/-| 2019-11-04T16:27:37Z Merged pull request |-\|/-| 3662 +1 −0 cs 1|-\|/-| 
+ObjectHandleSerializer - GetObjectData should have SerializationFormatter=true |-\|/-| 2019-11-04T16:27:11Z Merged pull request |-\|/-| 3660 +7 −5 cs 2|-\|/-| 
+Version 4.6.8 changelog |-\|/-| 2019-11-04T19:25:54Z Merged pull request |-\|/-| 3657 +63 −15 md csproj 1|-\|/-| 
+ObjectPathRendererWrapper - Refactoring to reduce code complexity |-\|/-| 2019-11-04T16:26:36Z Merged pull request |-\|/-| 3654 +6 −61 cs 2|-\|/-| 
+Fixes NullReferenceException in SimpleLayout PreCalculate after TryGetRawValue |-\|/-| 2019-11-04T18:18:11Z Merged pull request |-\|/-| 3653 +60 −28 cs 2|-\|/-| 
+Bump System.Data.SQLite.Core from 1.0.111 to 1.0.112 in /tests/NLog.UnitTests |-\|/-| 2019-10-28T19:36:24Z Merged pull request |-\|/-| 3652 +1 −1 csproj 1|-\|/-| 
+ConcurrentRequestQueue - DequeueBatch should handle that input list is non-empty |-\|/-| 2019-10-28T22:06:56Z Merged pull request |-\|/-| 3651 +26 −2 cs 2|-\|/-| 
+Single file publish with ${basedir:fixTempDir=true} and prioritize process-dir for auto-loading exe.nlog |-\|/-| 2019-10-28T22:06:05Z Merged pull request |-\|/-| 3649 +129 −13 cs 7|-\|/-| 
+${substring}: length should not be mandatory |-\|/-| 2019-10-25T21:23:35Z Merged pull request |-\|/-| 3647 +0 −1 cs 1|-\|/-| 
+More robust GetCurrentClassLogger when we get lambda_method |-\|/-| 2019-10-25T18:54:00Z Merged pull request |-\|/-| 3642 +21 −4 cs 2|-\|/-| 
+${CallSite} - Handle MoveNext More robust |-\|/-| 2019-10-25T18:53:20Z Merged pull request |-\|/-| 3641 +198 −33 cs 3|-\|/-| 
+Add null and recursive tests for ValueFormatter |-\|/-| 2019-10-25T18:44:18Z Merged pull request |-\|/-| 3640 +49 −9 cs 1|-\|/-| 
+ApplicationEnvironment subfolder for process- and appdomain renderers |-\|/-| 2019-11-04T19:35:57Z Merged pull request |-\|/-| 3638 +0 −0 cs 26|-\|/-| 
+TargetWithLayout changed default layout to have withexception=true, changed WithException to use | as exception separator as default |-\|/-| 2019-11-07T21:56:45Z Merged pull request |-\|/-| 3637 +38 −44 cs 17|-\|/-| 
+AsyncTargetWrapper - Eject writers on close incase timer thread is blocked |-\|/-| 2019-10-25T18:52:42Z Merged pull request |-\|/-| 3636 +70 −0 cs 4|-\|/-| 
+Console target thread safe and support for batch writing |-\|/-| 2019-10-25T18:52:09Z Merged pull request |-\|/-| 3635 +185 −50 cs 6|-\|/-| 
+Fixes bug in ExceptionLayoutRenderer where separator is excluded |-\|/-| 2019-10-25T20:09:50Z Merged pull request |-\|/-| 3631 +64 −9 cs 2|-\|/-| 
+#3181 TimeSource ToString() tests |-\|/-| 2019-10-14T21:49:43Z Merged pull request |-\|/-| 3623 +25 −0 cs 1|-\|/-| 
+ConcurrentRequestQueue - Consumer should always pulse waiting producers |-\|/-| 2019-10-14T21:50:37Z Merged pull request |-\|/-| 3622 +20 −37 cs 2|-\|/-| 
+Faster reflection of NLog configuration items by skipping Type.IsDefined  |-\|/-| 2019-10-14T21:53:50Z Merged pull request |-\|/-| 3618 +95 −49 cs 3|-\|/-| 
+LogFactory.ServiceRepository for better dependency injection support |-\|/-| 2019-11-04T23:18:32Z Merged pull request |-\|/-| 3616 +643 −103 cs 4|-\|/-| 
+TypeDescriptor.GetConverter can throw after linker tree shake on Mono |-\|/-| 2019-10-11T19:44:42Z Merged pull request |-\|/-| 3613 +27 −18 cs 1|-\|/-| 
+${Exception} - Added Format options: HResult and Properties |-\|/-| 2019-10-11T19:43:53Z Merged pull request |-\|/-| 3611 +117 −6 cs 3|-\|/-| 
+FileTarget - Improve handling of relative path in ArchiveFileName |-\|/-| 2019-10-07T20:36:56Z Merged pull request |-\|/-| 3609 +19 −9 cs 4|-\|/-| 
+Bump System.Security.Principal.Windows from 4.0.0 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:18Z Closed pull request |-\|/-| 3603 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Duplex from 4.0.1 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:17Z Closed pull request |-\|/-| 3602 +2 −2 csproj 1|-\|/-| 
+Bump Microsoft.Data.Sqlite from 2.2.6 to 3.0.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:17Z Closed pull request |-\|/-| 3601 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Security from 4.4.0 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:17Z Closed pull request |-\|/-| 3600 +3 −3 csproj 2|-\|/-| 
+Bump System.Reflection.TypeExtensions from 4.1.0 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:17Z Closed pull request |-\|/-| 3599 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.NetTcp from 4.4.0 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:16Z Closed pull request |-\|/-| 3598 +3 −3 csproj 2|-\|/-| 
+Bump System.ServiceModel.Primitives from 4.4.0 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-10-14T22:07:16Z Closed pull request |-\|/-| 3597 +3 −3 csproj 2|-\|/-| 
+Bump System.Data.SqlClient from 4.6.1 to 4.7.0 in /tests/NLog.UnitTests |-\|/-| 2019-09-28T00:53:07Z Merged pull request |-\|/-| 3596 +1 −1 csproj 1|-\|/-| 
+AllEventPropertiesLayoutRenderer - Added support for Exclude with OrdinalIgnoreCase |-\|/-| 2019-09-24T21:00:18Z Merged pull request |-\|/-| 3593 +205 −100 cs 4|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.2.0 to 16.3.0 in /tests/NLog.UnitTests |-\|/-| 2019-09-21T21:59:00Z Closed pull request |-\|/-| 3589 +1 −1 csproj 1|-\|/-| 
+JSON layout and ${json-encode}, added EscapeForwardSlash (default true).  |-\|/-| 2019-09-25T18:40:44Z Merged pull request |-\|/-| 3586 +91 −21 cs 6|-\|/-| 
+Improve docs for Loggertype |-\|/-| 2019-09-20T20:23:49Z Merged pull request |-\|/-| 3585 +23 −10 cs 3|-\|/-| 
+LoggingRule.SetLoggingLevels() fixed IndexOutOfRangeException when using LogLevel.Off |-\|/-| 2019-09-16T19:53:05Z Merged pull request |-\|/-| 3584 +23 −9 cs 3|-\|/-| 
+Added  ${local-ip}  and cachedSeconds ambient property |-\|/-| 2019-09-24T21:03:15Z Merged pull request |-\|/-| 3583 +691 −11 cs 4|-\|/-| 
+PerformanceCounterLayoutRenderer - Added Layout support for Instance |-\|/-| 2019-09-08T15:08:42Z Merged pull request |-\|/-| 3579 +122 −48 cs 2|-\|/-| 
+LogFactory - AutoShutdown to allow users to control shutdown logic |-\|/-| 2019-09-15T19:58:32Z Merged pull request |-\|/-| 3578 +90 −21 cs 5|-\|/-| 
+Fix some typos in comments |-\|/-| 2019-09-02T23:04:17Z Merged pull request |-\|/-| 3575 +111 −81 DotSettings cs tt 26|-\|/-| 
+Added adapter for layout transformations |-\|/-| 2019-09-15T19:59:05Z Merged pull request |-\|/-| 3574 +130 −25 cs 2|-\|/-| 
+DatabaseTarget: escape specials chars password properly, handle empty username and database correctly |-\|/-| 2019-09-01T18:44:27Z Merged pull request |-\|/-| 3566 +151 −13 cs 2|-\|/-| 
+Port 4.6.7 to dev |-\|/-| 2019-08-26T22:28:42Z Merged pull request |-\|/-| 3563 +1,933 −441 md ps1 cs 6|-\|/-| 
+XmlLoggingConfiguration - Support ThrowConfigExceptions=true when invalid xml |-\|/-| 2019-08-25T18:09:55Z Merged pull request |-\|/-| 3562 +268 −151 cs 2|-\|/-| 
+Version 4.6.7 |-\|/-| 2019-08-25T19:03:46Z Merged pull request |-\|/-| 3561 +41 −6 md ps1 csproj 2|-\|/-| 
+WhenMethodFilter - Support dynamic filtering using lambda |-\|/-| 2019-08-24T10:05:21Z Merged pull request |-\|/-| 3560 +86 −3 cs 3|-\|/-| 
+${Exception} - Added format=Source and format=TargetSite |-\|/-| 2019-08-22T18:00:04Z Merged pull request |-\|/-| 3558 +37 −12 cs 3|-\|/-| 
+NetworkTarget - HttpNetworkSender no longer sends out-of-order |-\|/-| 2019-08-22T18:29:47Z Merged pull request |-\|/-| 3546 +343 −175 cs 4|-\|/-| 
+MessageTemplateParameters - Improve validation of parameters when isPositional |-\|/-| 2019-08-22T18:32:01Z Merged pull request |-\|/-| 3541 +66 −5 cs 2|-\|/-| 
+MessageTemplateParameters - Skip object allocation when no parameters |-\|/-| 2019-08-09T19:17:59Z Merged pull request |-\|/-| 3540 +16 −6 cs 2|-\|/-| 
+MessageTemplateParameters.IsValidTemplate is behaving funky #3375 |-\|/-| 2019-08-17T08:37:51Z Closed pull request |-\|/-| 3534 +47 −3 cs 2|-\|/-| 
+MessageTemplateParameters.IsValidTemplate is behaving funky #3375 |-\|/-| 2019-07-30T15:32:37Z Closed pull request |-\|/-| 3533 +437 −3 cs 2|-\|/-| 
+Fix summary of NoRawValueLayoutRendererWrapper class |-\|/-| 2019-08-01T18:53:50Z Merged pull request |-\|/-| 3532 +2 −1 cs 1|-\|/-| 
+Added ${object-path} / ${exception:objectpath=PropertyName}, for rendering a property of an object (e.g. an exception) |-\|/-| 2019-08-24T11:21:16Z Merged pull request |-\|/-| 3531 +380 −24 cs 4|-\|/-| 
+Added test cases for ValueFormatter |-\|/-| 2019-08-01T19:05:14Z Merged pull request |-\|/-| 3530 +390 −0 cs 1|-\|/-| 
+XmlLayout - Defer allocation of ObjectReflectionCache until needed |-\|/-| 2019-07-24T21:27:32Z Merged pull request |-\|/-| 3527 +4 −3 cs 1|-\|/-| 
+Retry / improve unstable tests |-\|/-| 2019-07-24T15:38:14Z Merged pull request |-\|/-| 3524 +189 −171 cs 4|-\|/-| 
+ColoredConsoleTarget - Added DetectOutputRedirected to skip coloring on redirect |-\|/-| 2019-07-24T19:06:06Z Merged pull request |-\|/-| 3523 +61 −12 cs 3|-\|/-| 
+NetworkTarget - Fix InternalLogger.Trace to include Target name |-\|/-| 2019-07-23T21:09:37Z Merged pull request |-\|/-| 3522 +1 −1 cs 1|-\|/-| 
+XmlLoggingConfiguration - Constructors with ignoreErrors parameter are obsolete |-\|/-| 2019-12-06T22:16:32Z Merged pull request |-\|/-| 3521 +42 −31 cs 1|-\|/-| 
+Custom renderer for exceptions |-\|/-| 2019-09-17T00:28:20Z Closed pull request |-\|/-| 3520 +45 −0 cs 1|-\|/-| 
+Bump NSubstitute from 4.2.0 to 4.2.1 in /tests/NLog.UnitTests |-\|/-| 2019-07-16T22:12:06Z Merged pull request |-\|/-| 3518 +1 −1 csproj 1|-\|/-| 
+Port NLog 4.6.6 to dev |-\|/-| 2019-07-14T20:42:25Z Merged pull request |-\|/-| 3516 +122 −54 md yml ps1 cs csproj 9|-\|/-| 
+Release 4.6.6 |-\|/-| 2019-07-14T19:21:04Z Merged pull request |-\|/-| 3515 +113 −38 md ps1 cs csproj 7|-\|/-| 
+Added XmlLoggingConfiguration(XmlReader reader) ctor, improved docs and annotations |-\|/-| 2019-07-14T16:41:38Z Merged pull request |-\|/-| 3514 +25 −18 cs 1|-\|/-| 
+AutoFlushTargetWrapper - Added FlushOnConditionOnly property |-\|/-| 2019-07-14T16:41:12Z Merged pull request |-\|/-| 3513 +73 −5 cs 4|-\|/-| 
+Bump Microsoft.Data.Sqlite from 2.2.4 to 2.2.6 in /tests/NLog.UnitTests |-\|/-| 2019-07-10T17:07:12Z Merged pull request |-\|/-| 3507 +1 −1 csproj 1|-\|/-| 
+Supporting contruction of  XmlLoggingConfiguration from XmlReader |-\|/-| 2019-07-12T19:32:11Z Closed pull request |-\|/-| 3505 +7 −0 cs 1|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.1.1 to 16.2.0 in /tests/NLog.UnitTests |-\|/-| 2019-06-29T12:45:19Z Merged pull request |-\|/-| 3502 +1 −1 csproj 1|-\|/-| 
+Deploy snupkg on AppVeyor without custom script |-\|/-| 2019-06-26T12:56:44Z Merged pull request |-\|/-| 3498 +0 −5 yml 1|-\|/-| 
+Print current building TargetFramework to log |-\|/-| 2019-06-26T12:58:33Z Merged pull request |-\|/-| 3497 +4 −0 csproj 1|-\|/-| 
+GroupByTargetWrapper - Allow one to group by request-identifier |-\|/-| 2019-07-11T20:27:41Z Merged pull request |-\|/-| 3494 +191 −0 cs 2|-\|/-| 
+FileTarget - improvements when ConcurrentWrites=false + Extra test MessageTemplate.Render |-\|/-| 2019-06-24T23:40:45Z Merged pull request |-\|/-| 3492 +5 −11 cs 3|-\|/-| 
+XSD test for NLog.Schema |-\|/-| 2019-06-13T23:18:55Z Merged pull request |-\|/-| 3487 +65 −0 ps1 2|-\|/-| 
+Fix XSD generation  |-\|/-| 2019-06-13T23:13:40Z Merged pull request |-\|/-| 3486 +1 −1 cs 1|-\|/-| 
+Fix typos in comments and test code |-\|/-| 2019-06-13T10:12:50Z Merged pull request |-\|/-| 3483 +123 −117 DotSettings cs 29|-\|/-| 
+Fix typos in docs |-\|/-| 2019-06-13T10:10:56Z Merged pull request |-\|/-| 3482 +11 −11 cs xml 11|-\|/-| 
+Added test: <variable> with both value attribute and <value> |-\|/-| 2019-06-13T00:04:14Z Merged pull request |-\|/-| 3479 +13 −0 cs 1|-\|/-| 
+XSD: Support <value> in <variable> |-\|/-| 2019-06-13T00:36:54Z Merged pull request |-\|/-| 3478 +8 −1 xml 1|-\|/-| 
+AppSettingLayoutRenderer2 - Added support for ConnectionStrings Lookup |-\|/-| 2019-06-12T22:10:56Z Merged pull request |-\|/-| 3477 +137 −8 cs 4|-\|/-| 
+FilteringTargetWrapper - Fix XSD for Filter-property |-\|/-| 2019-06-13T01:10:34Z Merged pull request |-\|/-| 3476 +73 −15 cs 2|-\|/-| 
+FilteringWrapper - Fix XSD for Filter-property |-\|/-| 2019-06-12T21:41:43Z Closed pull request |-\|/-| 3475 +56 −2 cs 3|-\|/-| 
+FilteringTargetWrapper - Fix XSD for Filter-property |-\|/-| 2019-06-12T12:23:56Z Closed pull request |-\|/-| 3474 +1 −1 cs 1|-\|/-| 
+Added testcase for <variable> with inner <value> |-\|/-| 2019-06-12T15:53:28Z Merged pull request |-\|/-| 3471 +23 −0 cs 1|-\|/-| 
+LogLevel - Added support for TypeConverter |-\|/-| 2019-06-11T15:31:13Z Merged pull request |-\|/-| 3469 +112 −8 cs csproj 5|-\|/-| 
+Bump System.Data.SQLite.Core from 1.0.110 to 1.0.111 in /tests/NLog.UnitTests |-\|/-| 2019-06-11T00:28:19Z Merged pull request |-\|/-| 3468 +1 −1 csproj 1|-\|/-| 
+LoggingConfigurationParser - Moved attribute validation from Xml-Config |-\|/-| 2019-07-02T20:47:23Z Merged pull request |-\|/-| 3466 +292 −259 cs 7|-\|/-| 
+Release 4.6.5 |-\|/-| 2019-06-13T23:56:53Z Merged pull request |-\|/-| 3465 +539 −183 md ps1 DotSettings cs 17|-\|/-| 
+Improve warning in VariableLayoutRenderer |-\|/-| 2019-06-09T07:53:59Z Merged pull request |-\|/-| 3462 +1 −1 cs 1|-\|/-| 
+Set default of JsonLayout.MaxRecursionLimit to 1 |-\|/-| 2019-06-08T19:28:44Z Merged pull request |-\|/-| 3461 +1 −1 cs 1|-\|/-| 
+Remove unneeded [CLSCompliant(false)] |-\|/-| 2019-06-08T12:14:20Z Merged pull request |-\|/-| 3460 +0 −3 cs 1|-\|/-| 
+Support layouts (e.g. JSON) and inner text in <variable> |-\|/-| 2019-06-08T11:13:30Z Merged pull request |-\|/-| 3459 +158 −43 cs 8|-\|/-| 
+Change default format of ${exception} to ToString,Data (was Message) |-\|/-| 2019-06-07T23:12:46Z Merged pull request |-\|/-| 3458 +49 −32 cs 5|-\|/-| 
+Make AppDomainWrapper internal |-\|/-| 2019-06-07T21:34:46Z Merged pull request |-\|/-| 3457 +1 −1 cs 1|-\|/-| 
+Improve exceptions on LoggingConfiguration.AddTarget |-\|/-| 2019-06-07T23:12:33Z Merged pull request |-\|/-| 3456 +14 −3 cs 2|-\|/-| 
+Added null terminator line ending mode |-\|/-| 2019-06-09T07:58:49Z Merged pull request |-\|/-| 3453 +20 −0 cs 2|-\|/-| 
+Partly decouple LogFactory from FileLoaders |-\|/-| 2019-06-07T20:00:48Z Merged pull request |-\|/-| 3450 +51 −5 cs 2|-\|/-| 
+Decouple LoggingConfiguration from XmlLoggingConfiguration |-\|/-| 2019-06-05T06:24:43Z Merged pull request |-\|/-| 3449 +45 −2 cs 3|-\|/-| 
+Move ILoggerExtensions.cs out of Abstractions folder |-\|/-| 2019-05-30T12:36:59Z Merged pull request |-\|/-| 3445 +0 −0 cs 1|-\|/-| 
+RetryingMultiProcessFileAppender - better init BufferSize  |-\|/-| 2019-06-02T19:24:47Z Merged pull request |-\|/-| 3444 +11 −9 cs 2|-\|/-| 
+split part of Platformdetector into MutexDetector |-\|/-| 2019-05-30T13:04:06Z Merged pull request |-\|/-| 3443 +118 −76 cs 4|-\|/-| 
+Log4JXmlEventLayout - Added IncludeCallSite + IncludeSourceInfo |-\|/-| 2019-05-30T19:02:19Z Merged pull request |-\|/-| 3442 +20 −0 cs 1|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.1.0 to 16.1.1 in /tests/NLog.UnitTests |-\|/-| 2019-05-30T18:51:38Z Merged pull request |-\|/-| 3441 +1 −1 csproj 1|-\|/-| 
+Backport 4.6.4 to dev  |-\|/-| 2019-05-29T06:36:00Z Merged pull request |-\|/-| 3439 +1,833 −576 md ps1 cs 9|-\|/-| 
+Removed AllowPartiallyTrustedCallers-attribute for NetCore1 |-\|/-| 2019-05-29T15:12:28Z Closed pull request |-\|/-| 3438 +1 −1 cs 1|-\|/-| 
+Release 4.6.4 |-\|/-| 2019-05-28T20:38:59Z Merged pull request |-\|/-| 3437 +1,628 −513 md ps1 cs 6|-\|/-| 
+AsyncWrapper: Improve performance when blocking |-\|/-| 2019-05-27T21:00:43Z Merged pull request |-\|/-| 3435 +9 −10 cs 1|-\|/-| 
+ObjectReflectionCache - Skip property-reflection for IFormattable |-\|/-| 2019-05-26T03:18:14Z Merged pull request |-\|/-| 3434 +1 −4 cs 1|-\|/-| 
+Added support for StackTraceUsage With CallSite only (e.g. Caller Information attributes) + Improve CLScomplaint |-\|/-| 2019-10-14T22:06:40Z Merged pull request |-\|/-| 3431 +288 −145 cs 5|-\|/-| 
+Added "Properties" property on Logger for reading and editing properties. |-\|/-| 2019-05-28T06:04:23Z Merged pull request |-\|/-| 3430 +278 −34 cs 3|-\|/-| 
+Remove obsolete methodes, properties and classes |-\|/-| 2019-05-29T16:03:41Z Merged pull request |-\|/-| 3429 +76 −1,672 cs 2|-\|/-| 
+Build projects in Parallel, improve build script |-\|/-| 2019-05-25T21:45:48Z Merged pull request |-\|/-| 3428 +8 −6 ps1 1|-\|/-| 
+Expose logger properties on Logger |-\|/-| 2019-05-25T19:36:33Z Closed pull request |-\|/-| 3424 +30 −21 cs 1|-\|/-| 
+${all-event-properties}: Added IncludeEmptyValues option |-\|/-| 2019-05-24T22:02:05Z Merged pull request |-\|/-| 3423 +57 −6 cs 2|-\|/-| 
+Async / buffering wrapper: Improve performance when blocking on NetCore |-\|/-| 2019-05-24T19:34:21Z Merged pull request |-\|/-| 3416 +77 −49 cs 4|-\|/-| 
+AsyncWrapper in Blocking Mode can cause deadlock on NetCore |-\|/-| 2019-05-22T16:48:46Z Merged pull request |-\|/-| 3415 +4 −12 cs 1|-\|/-| 
+BufferingTargetWrapper - Avoid Timer starvation when SlidingTimeout = true |-\|/-| 2019-05-24T20:06:20Z Merged pull request |-\|/-| 3412 +24 −6 cs 2|-\|/-| 
+ LoggingConfigurationParser - Recognize LoggingRule.RuleName property |-\|/-| 2019-05-22T20:06:02Z Merged pull request |-\|/-| 3411 +3 −0 cs 1|-\|/-| 
+Various XSD improvements (NLog.Schema package) |-\|/-| 2019-05-24T19:43:21Z Merged pull request |-\|/-| 3409 +5 −5 xml 1|-\|/-| 
+Bump NSubstitute from 4.1.0 to 4.2.0 in /tests/NLog.UnitTests |-\|/-| 2019-05-22T20:06:43Z Merged pull request |-\|/-| 3408 +1 −1 csproj 1|-\|/-| 
+FilteringTargetWrapper: Add support for batch writing + PostFilteringTargetWrapper: performance optimizations |-\|/-| 2019-05-20T21:48:39Z Merged pull request |-\|/-| 3405 +286 −73 cs 4|-\|/-| 
+Serialization: improved support for custom expando objects |-\|/-| 2019-05-24T19:42:57Z Merged pull request |-\|/-| 3404 +628 −329 cs 3|-\|/-| 
+Bump System.Data.SqlClient from 4.6.0 to 4.6.1 in /tests/NLog.UnitTests |-\|/-| 2019-05-15T15:09:31Z Merged pull request |-\|/-| 3401 +1 −1 csproj 1|-\|/-| 
+Release 4.6.4 (WIP) |-\|/-| 2019-05-24T19:35:15Z Closed pull request |-\|/-| 3399 +600 −99 md cs 7|-\|/-| 
+${whenEmpty} implemented IRawValue and IStringValueRenderer |-\|/-| 2019-05-14T20:13:41Z Merged pull request |-\|/-| 3398 +108 −2 cs 2|-\|/-| 
+Implement IRawValue on ${whenEmpty} |-\|/-| 2019-05-13T22:09:03Z Closed pull request |-\|/-| 3395 +43 −1 cs 2|-\|/-| 
+${when}, support for RawValue on Inner and Else (backport) |-\|/-| 2019-05-13T22:07:06Z Merged pull request |-\|/-| 3394 +77 −4 cs 2|-\|/-| 
+Update package descriptions to note the issues with <PackageReference> |-\|/-| 2019-05-13T22:07:16Z Merged pull request |-\|/-| 3393 +19 −4 nuspec 2|-\|/-| 
+Update xsd: Added defaultAction attribute on filters element |-\|/-| 2019-05-14T19:13:41Z Merged pull request |-\|/-| 3392 +6 −1 cs xml 2|-\|/-| 
+Added ${environment-user} |-\|/-| 2019-05-12T20:39:44Z Merged pull request |-\|/-| 3391 +209 −8 cs 3|-\|/-| 
+Log4JXmlEventLayout - Added support for configuration of Parameters |-\|/-| 2019-05-12T20:37:47Z Merged pull request |-\|/-| 3389 +76 −19 cs 5|-\|/-| 
+Log4JXmlEvent - Changed AppInfo to be Layout |-\|/-| 2019-05-12T21:51:32Z Merged pull request |-\|/-| 3388 +23 −10 cs 4|-\|/-| 
+Move files into (sub)folders |-\|/-| 2019-05-23T19:08:25Z Merged pull request |-\|/-| 3386 +73 −7 gitignore cs DotSettings 217|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 16.0.1 to 16.1.0 in /tests/NLog.UnitTests |-\|/-| 2019-05-10T19:04:47Z Merged pull request |-\|/-| 3385 +1 −1 csproj 1|-\|/-| 
+Implement FasterAccurateLocalTimeSource |-\|/-| 2019-07-11T20:37:13Z Closed pull request |-\|/-| 3378 +96 −0 cs 1|-\|/-| 
+Scan for process specific nlog-config first |-\|/-| 2019-05-07T20:50:36Z Merged pull request |-\|/-| 3376 +20 −17 cs 2|-\|/-| 
+${when}, support for RawValue on Inner and Else |-\|/-| 2019-05-06T23:18:28Z Merged pull request |-\|/-| 3373 +77 −4 cs 2|-\|/-| 
+Drop NLog.Extended, Introduce NLog.MSMQ |-\|/-| 2019-05-06T22:50:45Z Merged pull request |-\|/-| 3371 +31 −214 md yml ps1 shfbproj xml cs csproj sln 13|-\|/-| 
+Bump NSubstitute from 4.0.0 to 4.1.0 in /tests/NLog.UnitTests |-\|/-| 2019-05-06T10:19:12Z Merged pull request |-\|/-| 3370 +1 −1 csproj 1|-\|/-| 
+XML configuration: variables are now case insensitive |-\|/-| 2019-05-06T20:58:50Z Merged pull request |-\|/-| 3369 +110 −12 cs 4|-\|/-| 
+Removed reference on Microsoft.CSharp for net45 + net40 |-\|/-| 2019-05-05T18:43:59Z Merged pull request |-\|/-| 3368 +0 −2 csproj 1|-\|/-| 
+Moved Wcf-source-files into NLog.Wcf-folder and removed WCF_SUPPORTED |-\|/-| 2019-05-04T20:35:55Z Merged pull request |-\|/-| 3367 +44 −165 cs 16|-\|/-| 
+${callsite} set clean options default to true |-\|/-| 2019-05-04T00:19:32Z Merged pull request |-\|/-| 3364 +4 −5 cs 1|-\|/-| 
+Change Simplelayout.ToString - skip additional quotes |-\|/-| 2019-05-05T20:51:52Z Merged pull request |-\|/-| 3361 +39 −34 cs 11|-\|/-| 
+Filetarget: default encoding changed to UTF8 - was Encoding.Default |-\|/-| 2019-05-03T22:57:20Z Merged pull request |-\|/-| 3360 +0 −4 cs 1|-\|/-| 
+Changed default action for filters to ignore when there are filters configured |-\|/-| 2019-05-06T21:33:04Z Merged pull request |-\|/-| 3359 +42 −45 cs 11|-\|/-| 
+LoggingConfigurationChangedEventArgs: removed obsolete OldConfiguration and NewConfiguration properties (replaced with ActivatedConfiguration and DeactivatedConfiguration in NLog 4.5) |-\|/-| 2019-05-03T22:09:26Z Merged pull request |-\|/-| 3358 +2 −16 cs 1|-\|/-| 
+Removed obsolete ExceptionLoggingOldStyle |-\|/-| 2019-05-03T23:21:35Z Merged pull request |-\|/-| 3357 +4 −174 cs tt 8|-\|/-| 
+Check MustBeRethrown for exception in ConfigurationItemFactory |-\|/-| 2019-05-03T21:38:40Z Merged pull request |-\|/-| 3356 +4 −1 cs 1|-\|/-| 
+ConfigSectionHandler, implement on non-obsolete way |-\|/-| 2019-05-03T22:18:18Z Merged pull request |-\|/-| 3355 +32 −21 cs 1|-\|/-| 
+Enabled SimpleFileDeleteTest on Travis - Verify that FileSystemWatcher works on .NET Core |-\|/-| 2019-05-03T18:09:06Z Merged pull request |-\|/-| 3354 +7 −5 cs 1|-\|/-| 
+StringBuilderPool - Added unit test of MaxCapacity checks |-\|/-| 2019-05-03T16:43:29Z Merged pull request |-\|/-| 3353 +77 −0 cs 1|-\|/-| 
+Release 4.6.3 |-\|/-| 2019-04-30T19:47:23Z Merged pull request |-\|/-| 3348 +2,947 −1,500 yml md ps1 sln cs 7|-\|/-| 
+Fixed potential memory issue and message duplication with large strings |-\|/-| 2019-04-29T19:03:37Z Merged pull request |-\|/-| 3345 +2 −4 cs 1|-\|/-| 
+Reduce code complexity, small code improvements |-\|/-| 2019-04-28T22:35:30Z Merged pull request |-\|/-| 3344 +264 −191 cs 4|-\|/-| 
+Make TemplateParserException proper Serializable |-\|/-| 2019-05-03T18:19:04Z Closed pull request |-\|/-| 3341 +15 −0 cs 1|-\|/-| 
+Rename internal EscapeEncodingFlags |-\|/-| 2019-04-27T22:21:21Z Merged pull request |-\|/-| 3340 +35 −35 cs 5|-\|/-| 
+Small code improvements |-\|/-| 2019-04-27T20:17:27Z Merged pull request |-\|/-| 3339 +55 −97 cs 20|-\|/-| 
+Update docs of various context classes |-\|/-| 2019-04-27T13:03:10Z Merged pull request |-\|/-| 3338 +11 −10 cs 10|-\|/-| 
+ShortDateLayoutRenderer with support for IRawValue + IStringValueRenderer |-\|/-| 2019-04-27T11:15:57Z Merged pull request |-\|/-| 3337 +29 −7 cs 2|-\|/-| 
+CallSiteTests are now working on Mono after Travis upgrade |-\|/-| 2019-04-27T01:45:59Z Merged pull request |-\|/-| 3336 +0 −16 cs 1|-\|/-| 
+LoggingConfiguration - Rollback static Reload-method |-\|/-| 2019-04-28T12:04:55Z Merged pull request |-\|/-| 3335 +22 −35 cs 3|-\|/-| 
+LogFactory - GetLogger should null-check logger name |-\|/-| 2019-04-24T20:36:03Z Merged pull request |-\|/-| 3332 +10 −0 cs 2|-\|/-| 
+${event-properties} - Added ObjectPath for extracting nested object property |-\|/-| 2019-04-26T19:27:03Z Merged pull request |-\|/-| 3329 +133 −8 cs 3|-\|/-| 
+Added truncate ambient property, e.g. ${message:truncate=80} |-\|/-| 2019-04-22T18:52:47Z Merged pull request |-\|/-| 3328 +19 −6 cs 2|-\|/-| 
+Fix Travis build |-\|/-| 2019-04-21T20:24:09Z Merged pull request |-\|/-| 3325 +1 −1 yml 1|-\|/-| 
+Fix typo in documentation of AddRuleForAllLevels |-\|/-| 2019-04-21T20:44:45Z Merged pull request |-\|/-| 3323 +3 −3 cs 1|-\|/-| 
+FileTarget - Skip FileSystemWatcher unless ConcurrentWrites=true |-\|/-| 2019-04-26T19:28:50Z Merged pull request |-\|/-| 3322 +100 −36 cs 10|-\|/-| 
+FallbackGroupTarget - Fixed spelling of WINDOWS_PHONE define + improvement GarbageCollection2Test() unit test on Travis |-\|/-| 2019-04-21T21:51:55Z Merged pull request |-\|/-| 3320 +3 −3 yml cs 3|-\|/-| 
+${event-properties}: Added evaluateAsNestedProperties option |-\|/-| 2019-04-26T19:27:21Z Closed pull request |-\|/-| 3318 +154 −2 cs 3|-\|/-| 
+TargetWithContext - serialize MDC and MDLC values properly |-\|/-| 2019-04-16T19:43:21Z Merged pull request |-\|/-| 3316 +64 −14 cs 2|-\|/-| 
+Fix various Sonar warnings |-\|/-| 2019-04-16T20:12:42Z Merged pull request |-\|/-| 3312 +254 −247 cs 16|-\|/-| 
+Split string -  avoid allocation of object array. Added StringHelpers.SplitAndTrimTokens |-\|/-| 2019-04-14T22:26:14Z Merged pull request |-\|/-| 3311 +52 −30 cs 10|-\|/-| 
+Refactor ParseAttributes |-\|/-| 2019-04-16T19:23:05Z Merged pull request |-\|/-| 3310 +16 −7 cs 1|-\|/-| 
+AsyncTaskTarget - Unit test MDLC |-\|/-| 2019-04-14T18:06:53Z Merged pull request |-\|/-| 3309 +20 −9 cs 1|-\|/-| 
+AsyncTaskTarget_TestThrottleOnTaskDelay - Changed to ConcurrentQueue |-\|/-| 2019-04-14T11:41:43Z Merged pull request |-\|/-| 3307 +12 −18 cs 1|-\|/-| 
+XmlLoggingConfiguration - Respect KeepVariablesOnReload for manual reload (note: reverted) |-\|/-| 2019-04-14T11:42:51Z Merged pull request |-\|/-| 3306 +35 −6 cs 3|-\|/-| 
+AppSettingLayoutRenderer - Mark as ThreadSafe and ThreadAgnostic |-\|/-| 2019-04-14T11:43:41Z Merged pull request |-\|/-| 3305 +17 −9 cs 2|-\|/-| 
+WIP: Support configuration that includes of remote URIs. |-\|/-| 2019-04-23T17:27:22Z Closed pull request |-\|/-| 3302 +387 −203 cs 2|-\|/-| 
+AsyncTaskTarget_TestThrottleOnTaskDelay - More waiting for timers added |-\|/-| 2019-04-10T21:06:17Z Merged pull request |-\|/-| 3299 +7 −5 cs 1|-\|/-| 
+Added WithProperty and SetProperty on Logger |-\|/-| 2019-04-16T19:53:45Z Merged pull request |-\|/-| 3298 +262 −136 cs tt 4|-\|/-| 
+Bump Microsoft.Data.Sqlite from 2.2.3 to 2.2.4 in /tests/NLog.UnitTests |-\|/-| 2019-04-10T14:25:45Z Merged pull request |-\|/-| 3297 +1 −1 csproj 1|-\|/-| 
+Moved NLogAutoLoadExtension to tests folder & added solution folders |-\|/-| 2019-04-08T17:32:08Z Merged pull request |-\|/-| 3296 +20 −7 yml ps1 sln csproj cs 7|-\|/-| 
+LogFactory - Reduce code complexity of GetLogger |-\|/-| 2019-04-07T21:06:26Z Merged pull request |-\|/-| 3295 +41 −40 cs 3|-\|/-| 
+AsyncTaskTargetTest Wait on Event |-\|/-| 2019-04-07T17:41:32Z Merged pull request |-\|/-| 3294 +42 −26 cs 2|-\|/-| 
+Move to xUnit 2.4 and Microsoft.NET.Test.Sdk 16 |-\|/-| 2019-04-07T19:01:28Z Merged pull request |-\|/-| 3293 +29 −20 cs csproj 4|-\|/-| 
+Added MessageTemplateParametersTests  (IsPositionalTest, IndexerTest, EnumeratorTest) |-\|/-| 2019-04-07T17:42:43Z Merged pull request |-\|/-| 3291 +70 −6 cs 1|-\|/-| 
+Move NLogPackageLoaders for better unittest debugging experience |-\|/-| 2019-04-07T08:54:19Z Merged pull request |-\|/-| 3288 +159 −102 sln cs csproj 6|-\|/-| 
+Cleanup unused ctor |-\|/-| 2019-04-07T01:25:52Z Merged pull request |-\|/-| 3287 +0 −4 cs 1|-\|/-| 
+Added MessageTemplateParameter IsValidTemplateTest unit test |-\|/-| 2019-05-06T22:05:19Z Closed pull request |-\|/-| 3286 +39 −0 cs 1|-\|/-| 
+Added MessageTemplateParameterTests.PositionalIndex unittest |-\|/-| 2019-04-07T00:20:07Z Merged pull request |-\|/-| 3285 +75 −0 cs 1|-\|/-| 
+Disable KeepAliveTimeConfigTest on Travis |-\|/-| 2019-04-05T15:55:30Z Merged pull request |-\|/-| 3282 +6 −0 cs 1|-\|/-| 
+Remove duplicate testcase |-\|/-| 2019-04-05T19:35:50Z Merged pull request |-\|/-| 3280 +0 −1 cs 1|-\|/-| 
+AsyncTaskTarget_TestThrottleOnTaskDelay - More logging and increase treshold |-\|/-| 2019-04-05T00:22:08Z Merged pull request |-\|/-| 3279 +2 −2 cs 1|-\|/-| 
+ConsoleTarget & ColoredConsoleTarget  - Added AutoFlush and improve default flush behavior |-\|/-| 2019-04-05T05:59:56Z Merged pull request |-\|/-| 3278 +99 −3 cs 4|-\|/-| 
+Make HttpNetworkSender mockable, add unit test, introduce NSubsitute |-\|/-| 2019-04-04T23:35:18Z Merged pull request |-\|/-| 3274 +394 −2 cs 6|-\|/-| 
+Version 4.6.2 |-\|/-| 2019-04-02T22:26:43Z Merged pull request |-\|/-| 3272 +92 −32 md ps1 cs csproj 8|-\|/-| 
+NLog config - Fixed bug where empty xml-elements were ignored |-\|/-| 2019-04-02T21:55:31Z Merged pull request |-\|/-| 3271 +50 −9 cs 2|-\|/-| 
+Refactor WindowsIdentityLayoutRenderer |-\|/-| 2019-04-03T14:36:09Z Merged pull request |-\|/-| 3265 +40 −28 cs 1|-\|/-| 
+SonarLint and CodeFactor warning reduction + better internal logging |-\|/-| 2019-04-03T18:34:17Z Merged pull request |-\|/-| 3263 +94 −134 cs 9|-\|/-| 
+AssemblyVersionLayoutRenderer - Tests should reuse the in-memory built assembly |-\|/-| 2019-03-31T18:27:06Z Merged pull request |-\|/-| 3262 +7 −4 cs 1|-\|/-| 
+NLog config file loading: use process name (e.g. applicationname.exe.nlog) when app.config is not available |-\|/-| 2019-04-07T14:26:23Z Merged pull request |-\|/-| 3261 +532 −337 cs 4|-\|/-| 
+Fix escaping nested close brackets when parsing layout renderers |-\|/-| 2019-04-01T22:44:21Z Merged pull request |-\|/-| 3260 +21 −1 cs 2|-\|/-| 
+FileTarget refactoring removing CodeFactor issues |-\|/-| 2019-03-29T21:52:40Z Merged pull request |-\|/-| 3259 +53 −37 cs 1|-\|/-| 
+Fix error with Embedded Assembly in LogAssemblyVersion |-\|/-| 2019-03-29T21:52:29Z Merged pull request |-\|/-| 3258 +4 −3 cs 1|-\|/-| 
+Release 4.6.1 |-\|/-| 2019-03-29T22:59:35Z Merged pull request |-\|/-| 3257 +755 −338 yml md ps1 cs 4|-\|/-| 
+${NDLC} + ${NDC} - Faster checking when TopFrames = 1 |-\|/-| 2019-03-29T00:23:52Z Merged pull request |-\|/-| 3256 +32 −4 cs 2|-\|/-| 
+Auto-flush on process exit improvements |-\|/-| 2019-03-29T16:48:47Z Merged pull request |-\|/-| 3255 +65 −10 cs 3|-\|/-| 
+Fix wrong warnings on <nlog> element |-\|/-| 2019-03-28T22:20:06Z Closed pull request |-\|/-| 3254 +60 −8 cs 3|-\|/-| 
+Fix wrong warnings on <nlog> element + refactoring |-\|/-| 2019-03-29T20:55:11Z Merged pull request |-\|/-| 3253 +131 −101 cs 3|-\|/-| 
+added code of conduct |-\|/-| 2019-03-28T09:02:53Z Merged pull request |-\|/-| 3249 +76 −0 md 0|-\|/-| 
+Bump xunit+xunit.runner.visualstudio from 2.3.1 to 2.4.1, bump Microsoft.NET.Test.Sdk to 16.0.1 |-\|/-| 2019-04-07T14:38:15Z Closed pull request |-\|/-| 3248 +3 −3 csproj 1|-\|/-| 
+Bump Microsoft.NET.Test.Sdk from 15.5.0 to 16.0.1 in /tests/NLog.UnitTests |-\|/-| 2019-04-04T22:50:55Z Closed pull request |-\|/-| 3247 +1 −1 csproj 1|-\|/-| 
+Bump xunit.runner.visualstudio from 2.3.1 to 2.4.1 in /tests/NLog.UnitTests |-\|/-| 2019-04-04T22:50:58Z Closed pull request |-\|/-| 3246 +1 −1 csproj 1|-\|/-| 
+Bump Microsoft.Owin.Hosting from 3.0.1 to 4.0.1 in /tests/NLog.UnitTests |-\|/-| 2019-03-31T00:40:56Z Merged pull request |-\|/-| 3245 +1 −1 csproj 1|-\|/-| 
+Bump System.Data.SQLite.Core from 1.0.105.2 to 1.0.110 in /tests/NLog.UnitTests |-\|/-| 2019-04-07T14:40:46Z Merged pull request |-\|/-| 3244 +1 −1 csproj 1|-\|/-| 
+Bump Microsoft.Data.Sqlite from 2.0.1 to 2.2.3 in /tests/NLog.UnitTests |-\|/-| 2019-04-07T17:43:02Z Merged pull request |-\|/-| 3243 +1 −1 csproj 1|-\|/-| 
+Bump Microsoft.AspNet.WebApi.OwinSelfHost from 5.2.3 to 5.2.7 in /tests/NLog.UnitTests |-\|/-| 2019-04-07T17:46:20Z Merged pull request |-\|/-| 3242 +1 −1 csproj 1|-\|/-| 
+Bump System.Data.SqlClient from 4.4.0 to 4.6.0 in /tests/NLog.UnitTests |-\|/-| 2019-04-04T23:04:15Z Merged pull request |-\|/-| 3241 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Http from 4.1.0 to 4.3.3 in /tests/NLog.UnitTests |-\|/-| 2019-03-27T22:58:35Z Closed pull request |-\|/-| 3240 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Http from 4.1.0 to 4.4.4 |-\|/-| 2019-03-27T15:44:43Z Closed pull request |-\|/-| 3238 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.NetTcp from 4.1.0 to 4.4.4 |-\|/-| 2019-03-27T15:44:32Z Closed pull request |-\|/-| 3237 +2 −2 csproj 1|-\|/-| 
+Bump System.Security.Principal.Windows from 4.0.0 to 4.3.0 |-\|/-| 2019-03-27T15:44:28Z Closed pull request |-\|/-| 3236 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Duplex from 4.0.1 to 4.0.4 |-\|/-| 2019-03-27T15:44:19Z Closed pull request |-\|/-| 3235 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Http from 4.1.0 to 4.5.3 |-\|/-| 2019-03-27T15:41:50Z Closed pull request |-\|/-| 3234 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Primitives from 4.1.0 to 4.1.3 |-\|/-| 2019-03-27T15:41:43Z Closed pull request |-\|/-| 3233 +2 −2 csproj 1|-\|/-| 
+Bump System.Security.Principal.Windows from 4.0.0 to 4.4.1 |-\|/-| 2019-03-27T15:43:08Z Closed pull request |-\|/-| 3232 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Duplex from 4.0.1 to 4.3.3 |-\|/-| 2019-03-27T15:43:04Z Closed pull request |-\|/-| 3231 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Security from 4.0.1 to 4.0.4 |-\|/-| 2019-03-27T15:43:00Z Closed pull request |-\|/-| 3230 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.NetTcp from 4.1.0 to 4.5.3 |-\|/-| 2019-03-27T15:42:56Z Closed pull request |-\|/-| 3229 +2 −2 csproj 1|-\|/-| 
+Bump System.Reflection.TypeExtensions from 4.1.0 to 4.3.0 |-\|/-| 2019-03-27T15:42:50Z Closed pull request |-\|/-| 3228 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Duplex from 4.0.1 to 4.4.4 |-\|/-| 2019-03-27T15:36:18Z Closed pull request |-\|/-| 3227 +2 −2 csproj 1|-\|/-| 
+Bump System.Net.NameResolution from 4.0.0 to 4.3.0 |-\|/-| 2019-03-27T15:36:31Z Closed pull request |-\|/-| 3226 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Primitives from 4.1.0 to 4.3.3 |-\|/-| 2019-03-27T15:36:43Z Closed pull request |-\|/-| 3225 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Security from 4.0.1 to 4.3.3 |-\|/-| 2019-03-27T15:36:39Z Closed pull request |-\|/-| 3224 +2 −2 csproj 1|-\|/-| 
+Bump System.Threading.Thread from 4.0.0 to 4.3.0 |-\|/-| 2019-03-27T15:36:35Z Closed pull request |-\|/-| 3223 +1 −1 csproj 1|-\|/-| 
+Bump System.Reflection.TypeExtensions from 4.1.0 to 4.4.0 |-\|/-| 2019-03-27T15:28:09Z Closed pull request |-\|/-| 3222 +2 −2 csproj 1|-\|/-| 
+Bump System.Diagnostics.StackTrace from 4.0.1 to 4.3.0 |-\|/-| 2019-03-27T15:28:05Z Closed pull request |-\|/-| 3221 +2 −2 csproj 1|-\|/-| 
+Bump System.Security.Principal.Windows from 4.0.0 to 4.5.1 |-\|/-| 2019-03-27T15:28:01Z Closed pull request |-\|/-| 3220 +2 −2 csproj 1|-\|/-| 
+Bump System.Runtime.Loader from 4.0.0 to 4.3.0 |-\|/-| 2019-03-27T15:27:56Z Closed pull request |-\|/-| 3219 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Primitives from 4.1.0 to 4.4.4 |-\|/-| 2019-03-27T15:27:39Z Closed pull request |-\|/-| 3218 +2 −2 csproj 1|-\|/-| 
+Bump System.Reflection.TypeExtensions from 4.1.0 to 4.5.1 |-\|/-| 2019-03-27T15:24:35Z Closed pull request |-\|/-| 3217 +2 −2 csproj 1|-\|/-| 
+Bump System.IO.FileSystem.Watcher from 4.0.0 to 4.3.0 |-\|/-| 2019-03-27T15:24:32Z Closed pull request |-\|/-| 3216 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Primitives from 4.1.0 to 4.5.3 |-\|/-| 2019-03-27T15:24:28Z Closed pull request |-\|/-| 3215 +2 −2 csproj 1|-\|/-| 
+Bump System.Xml.XmlSerializer from 4.0.11 to 4.3.0 |-\|/-| 2019-03-27T15:24:24Z Closed pull request |-\|/-| 3214 +1 −1 csproj 1|-\|/-| 
+Bump System.Diagnostics.Process from 4.1.0 to 4.3.0 |-\|/-| 2019-03-27T15:24:00Z Closed pull request |-\|/-| 3213 +1 −1 csproj 1|-\|/-| 
+Bump System.Net.Requests from 4.0.11 to 4.3.0 |-\|/-| 2019-03-27T15:15:23Z Closed pull request |-\|/-| 3212 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Security from 4.0.1 to 4.4.4 |-\|/-| 2019-03-27T15:15:55Z Closed pull request |-\|/-| 3211 +2 −2 csproj 1|-\|/-| 
+Bump System.Data.Common from 4.1.0 to 4.3.0 |-\|/-| 2019-03-27T15:15:47Z Closed pull request |-\|/-| 3210 +2 −2 csproj 1|-\|/-| 
+Bump System.Diagnostics.TraceSource from 4.0.0 to 4.3.0 |-\|/-| 2019-03-27T15:15:42Z Closed pull request |-\|/-| 3209 +1 −1 csproj 1|-\|/-| 
+Bump Microsoft.Extensions.PlatformAbstractions from 1.0.0 to 1.1.0 |-\|/-| 2019-03-27T15:16:23Z Closed pull request |-\|/-| 3208 +1 −1 csproj 1|-\|/-| 
+Bump System.ComponentModel.TypeConverter from 4.1.0 to 4.3.0 |-\|/-| 2019-03-27T15:09:12Z Closed pull request |-\|/-| 3207 +1 −1 csproj 1|-\|/-| 
+Bump System.ServiceModel.Duplex from 4.0.1 to 4.5.3 |-\|/-| 2019-03-27T15:09:08Z Closed pull request |-\|/-| 3206 +2 −2 csproj 1|-\|/-| 
+Bump System.Xml.XmlDocument from 4.0.1 to 4.3.0 |-\|/-| 2019-03-27T15:09:05Z Closed pull request |-\|/-| 3205 +2 −2 csproj 1|-\|/-| 
+Bump System.ServiceModel.Security from 4.0.1 to 4.5.3 |-\|/-| 2019-03-27T15:08:31Z Closed pull request |-\|/-| 3204 +2 −2 csproj 1|-\|/-| 
+Bump System.ComponentModel.Primitives from 4.1.0 to 4.3.0 |-\|/-| 2019-03-27T15:08:07Z Closed pull request |-\|/-| 3203 +2 −2 csproj 1|-\|/-| 
+NLogTraceListener - Reduce code complexity of ProcessLogEventInfo |-\|/-| 2019-03-28T03:40:51Z Merged pull request |-\|/-| 3202 +32 −29 cs 1|-\|/-| 
+${GDC} reading is now lockfree |-\|/-| 2019-03-28T23:26:45Z Merged pull request |-\|/-| 3201 +60 −29 cs 2|-\|/-| 
+LoggingConfigurationParser - Fixed bug in handling of extensions prefix |-\|/-| 2019-03-25T21:28:07Z Merged pull request |-\|/-| 3199 +35 −21 cs 2|-\|/-| 
+XmlLayout - Fixed missing encode of xml element value |-\|/-| 2019-03-25T21:20:00Z Merged pull request |-\|/-| 3198 +70 −6 cs 5|-\|/-| 
+Fix link |-\|/-| 2019-03-24T20:05:00Z Merged pull request |-\|/-| 3196 +1 −1 csproj 1|-\|/-| 
+SimpleStringReader: fix DebuggerDisplay value |-\|/-| 2019-03-25T21:20:51Z Merged pull request |-\|/-| 3195 +88 −7 cs 2|-\|/-| 
+VariableLayoutRenderer - Fixed typo in internal logger warning message |-\|/-| 2019-03-24T21:49:44Z Merged pull request |-\|/-| 3191 +1 −1 cs 1|-\|/-| 
+AsyncTaskTarget - Respect TaskDelayMilliseconds on low activity |-\|/-| 2019-03-25T21:21:36Z Merged pull request |-\|/-| 3189 +42 −14 cs 3|-\|/-| 
+Release 4.6 |-\|/-| 2019-03-20T23:38:34Z Merged pull request |-\|/-| 3188 +70 −39 md ps1 csproj cs 8|-\|/-| 
+AsyncTaskTarget - Fixed unwanted delay caused by slow writer |-\|/-| 2019-03-20T20:49:25Z Merged pull request |-\|/-| 3187 +60 −21 cs 2|-\|/-| 
+Added support for dynamic layout renderer in log level filters (e.g. minLevel, maxLevel)  |-\|/-| 2019-08-24T10:04:01Z Merged pull request |-\|/-| 3184 +633 −46 cs 3|-\|/-| 
+Added nuget deploy secret |-\|/-| 2019-03-18T22:16:01Z Merged pull request |-\|/-| 3183 +2 −0 yml 1|-\|/-| 
+UnitTest - Debug mode should not suppress evil exceptions |-\|/-| 2019-03-15T18:00:05Z Merged pull request |-\|/-| 3176 +77 −47 cs 7|-\|/-| 
+LoggerTests - Testing reset of parseMessageTemplates state |-\|/-| 2019-03-15T18:00:39Z Merged pull request |-\|/-| 3175 +5 −5 cs 1|-\|/-| 
+Release 4.6 rc3 |-\|/-| 2019-03-15T20:30:11Z Merged pull request |-\|/-| 3173 +344 −262 md yml ps1 shfbproj cs 6|-\|/-| 
+FileTarget - Reduce code-complexity of DoAutoArchive |-\|/-| 2019-03-14T19:48:32Z Merged pull request |-\|/-| 3169 +37 −27 cs 1|-\|/-| 
+Database target: dropped UseRawValue option on parameters, introduced ${myRenderer:noRawValue=true} |-\|/-| 2019-03-14T19:47:14Z Merged pull request |-\|/-| 3165 +127 −96 cs 4|-\|/-| 
+ObjectGraphScanner - Reduce complexity for ScanProperties |-\|/-| 2019-03-14T19:43:40Z Merged pull request |-\|/-| 3164 +36 −31 cs 1|-\|/-| 
+NLog 4.6 RC 2 |-\|/-| 2019-03-10T10:08:41Z Merged pull request |-\|/-| 3163 +1,527 −1,076 md yml ps1 txt cs 10|-\|/-| 
+ContextProperty with IncludeEmptyValue means default value for ValueType |-\|/-| 2019-03-09T20:29:42Z Merged pull request |-\|/-| 3162 +79 −32 cs 3|-\|/-| 
+Add flush logic based on level |-\|/-| 2019-03-14T19:49:19Z Closed pull request |-\|/-| 3161 +181 −8 cs 4|-\|/-| 
+Refactor filetarget + target to reduce code complexity |-\|/-| 2019-03-09T20:28:03Z Merged pull request |-\|/-| 3160 +84 −78 cs 3|-\|/-| 
+AppSettingLayoutRenderer - Include Item for NLog.Extended |-\|/-| 2019-03-08T22:50:43Z Merged pull request |-\|/-| 3159 +5 −0 cs 1|-\|/-| 
+Callsite class-name lookup should not include assembly-info |-\|/-| 2019-03-05T20:48:17Z Closed pull request |-\|/-| 3157 +16 −13 cs 1|-\|/-| 
+PlatformDetector - Introduced detection of MacOSX, and removed WindowsCE |-\|/-| 2019-03-05T19:06:10Z Merged pull request |-\|/-| 3155 +19 −35 cs 6|-\|/-| 
+WIP: DataTableTarget - Bulk-insert using DbDataAdapter and DataTable |-\|/-| 2019-05-29T15:41:49Z Closed pull request |-\|/-| 3150 +1,025 −89 0|-\|/-| 
+TryGetRawValue instead of GetRawValue |-\|/-| 2019-03-04T22:16:52Z Merged pull request |-\|/-| 3144 +130 −26 cs 16|-\|/-| 
+upgrade to C# 7.2 |-\|/-| 2019-03-04T22:03:49Z Closed pull request |-\|/-| 3142 +2 −1 yml csproj 2|-\|/-| 
+AppSettingLayoutRenderer2 - Use Item instead of Name as it matches GDC |-\|/-| 2019-02-24T20:16:50Z Merged pull request |-\|/-| 3141 +12 −6 cs 1|-\|/-| 
+IRawvalue support in ${when} |-\|/-| 2019-05-06T21:24:54Z Closed pull request |-\|/-| 3140 +80 −4 cs 2|-\|/-| 
+Split XML layout to XMLELement and XmlElementBase |-\|/-| 2019-02-26T03:06:18Z Merged pull request |-\|/-| 3138 +881 −723 cs 2|-\|/-| 
+XmlLayout - Renamed ElementName to NodeName |-\|/-| 2019-02-23T21:06:43Z Closed pull request |-\|/-| 3137 +136 −137 0|-\|/-| 
+Fix Opencover on AppVeyor |-\|/-| 2019-02-21T20:58:31Z Merged pull request |-\|/-| 3132 +1 −1 yml 1|-\|/-| 
+DatabaseTarget - Removed logEvent-parameter from CreateDatabaseParameter |-\|/-| 2019-03-09T20:32:51Z Merged pull request |-\|/-| 3131 +64 −62 cs 2|-\|/-| 
+ConfigSetting - Preregister so it can be accessed without extension registration |-\|/-| 2019-02-21T21:09:20Z Merged pull request |-\|/-| 3129 +9 −10 yml cs 2|-\|/-| 
+LogFactory.ServiceRepository for better dependency injection support |-\|/-| 2019-05-29T15:41:38Z Closed pull request |-\|/-| 3128 +672 −141 cs 4|-\|/-| 
+NetworkTarget - Added support for KeepAliveTimeSeconds |-\|/-| 2019-03-05T21:39:00Z Merged pull request |-\|/-| 3124 +124 −13 cs 5|-\|/-| 
+Hyperlinks to https:/ |-\|/-| 2019-02-22T14:18:11Z Merged pull request |-\|/-| 3121 +27 −27 txt cs 18|-\|/-| 
+Improve build script |-\|/-| 2019-02-22T14:18:47Z Merged pull request |-\|/-| 3120 +11 −12 ps1 1|-\|/-| 
+IntLayout try (WIP) + LongLayout + EnumLayout |-\|/-| 2019-10-28T22:34:56Z Closed pull request |-\|/-| 3119 +1,008 −12 cs 2|-\|/-| 
+Release 4.6.0 rc1 |-\|/-| 2019-02-08T18:53:26Z Merged pull request |-\|/-| 3112 +18,615 −8,136 md txt yml ps1 gitignore Config exe 6|-\|/-| 
+Version 4.6 rc1 changelog and numbers |-\|/-| 2019-02-08T11:45:06Z Merged pull request |-\|/-| 3111 +157 −56 md yml ps1 shfbproj csproj 5|-\|/-| 
+Reduce code complexity & small refactorings |-\|/-| 2019-02-07T21:51:10Z Merged pull request |-\|/-| 3110 +170 −106 cs 4|-\|/-| 
+2018 -> 2019 |-\|/-| 2019-02-07T19:28:10Z Merged pull request |-\|/-| 3109 +781 −781 txt shfbproj cs tt 54|-\|/-| 
+Removed old todos and added missing docgen + Reduce code complexity of ParseRuleElement |-\|/-| 2019-02-07T13:46:35Z Merged pull request |-\|/-| 3107 +73 −59 cs 13|-\|/-| 
+NLog 4.6 dev to master (WIP) |-\|/-| 2019-02-08T11:45:31Z Closed pull request |-\|/-| 3106 +18,615 −8,136 md txt yml ps1 gitignore Config exe 6|-\|/-| 
+Reduce code complexity & small code cleanup |-\|/-| 2019-02-06T13:23:09Z Merged pull request |-\|/-| 3105 +315 −177 cs 3|-\|/-| 
+SonarLint - Remove old todo noise |-\|/-| 2019-02-06T09:57:15Z Merged pull request |-\|/-| 3104 +1 −19 cs tt 4|-\|/-| 
+StringBuilderPool - Reduce memory overhead until required |-\|/-| 2019-02-05T08:21:21Z Merged pull request |-\|/-| 3103 +3 −3 cs 2|-\|/-| 
+(Partial) Update of shfbproj for NLog 4.6 |-\|/-| 2019-02-07T21:06:22Z Closed pull request |-\|/-| 3101 +3 −3 shfbproj 1|-\|/-| 
+WebService target allow override of SoapAction through Headers |-\|/-| 2019-02-03T00:54:46Z Merged pull request |-\|/-| 3100 +70 −119 cs 3|-\|/-| 
+<rule> support for one or more '*' and '?' wildcards and in any position |-\|/-| 2019-02-07T14:14:30Z Merged pull request |-\|/-| 3098 +440 −86 cs 1|-\|/-| 
+Improve support for custom IDictionary implementation (JSON, XML and structured logging) |-\|/-| 2019-02-01T16:51:12Z Merged pull request |-\|/-| 3096 +298 −12 cs 8|-\|/-| 
+Fix AutoReload (never released bug) |-\|/-| 2019-02-01T16:07:34Z Merged pull request |-\|/-| 3094 +90 −24 cs 2|-\|/-| 
+Support ${tempdir} for internalLogFile (nlog.config) |-\|/-| 2019-01-27T22:06:54Z Merged pull request |-\|/-| 3092 +9 −0 cs 2|-\|/-| 
+IDatabaseValueConverter.cs → IPropertyTypeConverter, implement in DatabaseTarget, TargetWithContext & MethodCallTargetBase |-\|/-| 2019-02-05T18:33:32Z Merged pull request |-\|/-| 3091 +373 −461 cs 4|-\|/-| 
+SonarLint - Refactoring to reduce code complexity (Fix performance) |-\|/-| 2019-01-22T12:44:51Z Merged pull request |-\|/-| 3089 +6 −6 cs 1|-\|/-| 
+SonarLint - Refactoring to reduce code complexity |-\|/-| 2019-01-21T16:31:05Z Merged pull request |-\|/-| 3088 +78 −59 cs 2|-\|/-| 
+DatabaseTarget - Added support for PropertyName in DbType  |-\|/-| 2019-01-25T12:04:05Z Merged pull request |-\|/-| 3085 +133 −194 cs 3|-\|/-| 
+MemoryTarget - Added property MaxLogsCount |-\|/-| 2019-01-16T15:43:48Z Merged pull request |-\|/-| 3083 +46 −160 cs 6|-\|/-| 
+WebService target: added support for custom SOAPAction property (Soap11+Soap12 protocol) |-\|/-| 2019-02-01T16:10:37Z Merged pull request |-\|/-| 3082 +262 −19 cs 2|-\|/-| 
+File target: Handle UnauthorizedAccessException for multi-process mutexes (e.g. Xamarin and UWP) |-\|/-| 2019-01-28T09:49:26Z Merged pull request |-\|/-| 3079 +80 −10 cs 3|-\|/-| 
+Fixed test LogEventDropped_OnRequestqueueOverflow when fast async |-\|/-| 2019-01-12T23:38:33Z Merged pull request |-\|/-| 3078 +5 −3 cs 1|-\|/-| 
+Fixed tests for LogEventDropped and EventQueueGrow |-\|/-| 2019-01-12T16:25:24Z Merged pull request |-\|/-| 3077 +32 −32 cs 1|-\|/-| 
+Fix crash on empty Continuation |-\|/-| 2019-01-12T16:25:46Z Closed pull request |-\|/-| 3076 +3 −3 cs 1|-\|/-| 
+LogLevel.GetTypeCode to Object, added tests |-\|/-| 2019-01-13T10:58:21Z Merged pull request |-\|/-| 3075 +30 −1 cs 2|-\|/-| 
+LogLevel implement IConvertible |-\|/-| 2019-01-12T10:03:59Z Merged pull request |-\|/-| 3074 +91 −2 cs 1|-\|/-| 
+Small improvements (debugging, gitignore, DocFileBuilder) |-\|/-| 2019-01-12T10:01:09Z Merged pull request |-\|/-| 3073 +18 −9 gitignore cs 4|-\|/-| 
+Added ${HostName} Layout Renderer |-\|/-| 2019-01-11T23:35:24Z Merged pull request |-\|/-| 3071 +179 −0 cs 2|-\|/-| 
+AppDomainWrapper - BaseDirectory = null for Xamarin Android |-\|/-| 2019-01-06T23:15:45Z Merged pull request |-\|/-| 3067 +1 −2 cs csproj 2|-\|/-| 
+Improve EventLogTarget installation logic. Make public const values internal |-\|/-| 2019-01-05T00:20:48Z Merged pull request |-\|/-| 3064 +16 −20 ps1 csproj cs 5|-\|/-| 
+File target: Handle UnauthorizedAccessException for multi-process mutexes (e.g. Xamarin and UPW) |-\|/-| 2019-01-13T00:16:39Z Closed pull request |-\|/-| 3063 +35 −10 cs 1|-\|/-| 
+FileTarget - AutoClosingTimerCallback should ignore zero sec interval |-\|/-| 2018-12-29T20:19:03Z Merged pull request |-\|/-| 3062 +3 −3 cs config 2|-\|/-| 
+TempDirLayoutRenderer - Avoid exception on static class initialization |-\|/-| 2018-12-30T00:59:53Z Merged pull request |-\|/-| 3061 +20 −10 cs 3|-\|/-| 
+TargetWithContext: support for IRawValue  |-\|/-| 2018-12-29T20:09:37Z Merged pull request |-\|/-| 3060 +96 −20 cs config 6|-\|/-| 
+LogFactory - Extracted config file loading and reloading logic |-\|/-| 2019-01-13T10:58:11Z Merged pull request |-\|/-| 3058 +734 −542 cs 2|-\|/-| 
+WIP Fix tests in prep for moving file access in LogFactory into ConfigurationProvider  |-\|/-| 2019-03-08T23:05:37Z Closed pull request |-\|/-| 3056 +27 −19 cs 1|-\|/-| 
+Added ${appsetting} - LayoutRenderer for easier access to app.config settings |-\|/-| 2019-01-12T23:42:35Z Merged pull request |-\|/-| 3053 +133 −50 cs 6|-\|/-| 
+Added IncludeGdc property in JsonLayout |-\|/-| 2018-12-30T01:12:45Z Merged pull request |-\|/-| 3050 +52 −0 cs 2|-\|/-| 
+FileTarget- Make AutoClosingTimerCallback more relaxed when file path problems |-\|/-| 2018-12-20T18:25:38Z Merged pull request |-\|/-| 3047 +72 −30 cs 1|-\|/-| 
+Create snupkg packages and use portable PDB |-\|/-| 2018-12-28T23:11:51Z Merged pull request |-\|/-| 3045 +12 −12 yml ps1 csproj 3|-\|/-| 
+DebuggerTarget - Print internal log when Debugger.IsLogging() is not active |-\|/-| 2018-12-20T18:29:17Z Merged pull request |-\|/-| 3044 +6 −0 cs 1|-\|/-| 
+Added Xamarin PreserveAttribute for the entire Assembly to improve AOT-linking |-\|/-| 2018-12-17T12:33:55Z Merged pull request |-\|/-| 3039 +58 −0 cs 2|-\|/-| 
+TargetWithContext - GetAllProperties should initialize dictionary capacity |-\|/-| 2018-12-04T16:15:39Z Merged pull request |-\|/-| 3035 +11 −6 cs 1|-\|/-| 
+Support ${currentdir},${basedir} and Environment Variables for internalLogFile when parsing nlog.config |-\|/-| 2018-12-17T08:23:58Z Merged pull request |-\|/-| 3031 +57 −0 cs 2|-\|/-| 
+Recognize Utf8 without hyphen as valid Encoding |-\|/-| 2018-11-28T16:47:50Z Merged pull request |-\|/-| 3027 +20 −3 cs 2|-\|/-| 
+LayoutRendererWrappers - Almost always support AppDomainFixedOutput |-\|/-| 2018-11-21T16:19:36Z Merged pull request |-\|/-| 3022 +74 −15 cs 21|-\|/-| 
+ColoredConsoleTarget - Added EnableAnsiOutput option (VS Code support) |-\|/-| 2018-12-17T08:24:45Z Merged pull request |-\|/-| 3018 +768 −148 cs 2|-\|/-| 
+Improve EventLogTarget installation logic - handle MaximumKilobytes for apps without elevated privileges |-\|/-| 2018-12-30T14:50:03Z Merged pull request |-\|/-| 3017 +465 −270 0|-\|/-| 
+Refactor: MappedDiagnosticsLogicalContext.Dispose |-\|/-| 2018-11-12T21:33:04Z Merged pull request |-\|/-| 3015 +27 −22 cs 1|-\|/-| 
+XmlLayout - Added object reflection using ObjectReflectionCache |-\|/-| 2018-11-15T09:51:52Z Merged pull request |-\|/-| 3014 +460 −36 cs 4|-\|/-| 
+Removed use of lock(this), removed dead code |-\|/-| 2018-11-12T21:40:17Z Merged pull request |-\|/-| 3013 +56 −78 cs 13|-\|/-| 
+Small refactorings |-\|/-| 2018-11-17T00:17:44Z Merged pull request |-\|/-| 3010 +103 −106 cs DotSettings 16|-\|/-| 
+Better checks and error handling when applying xml variables |-\|/-| 2018-11-09T19:45:58Z Merged pull request |-\|/-| 3008 +12 −9 cs 2|-\|/-| 
+Support for aliases for LayoutRenderer, targets, conditions etc. + Added some aliases |-\|/-| 2019-05-06T21:30:01Z Merged pull request |-\|/-| 3004 +96 −31 cs 24|-\|/-| 
+${json-encode} support for rawValue |-\|/-| 2018-12-28T23:59:52Z Closed pull request |-\|/-| 3003 +57 −4 cs 2|-\|/-| 
+Added Fluent configuration API |-\|/-| 2018-12-29T00:02:05Z Closed pull request |-\|/-| 3000 +1,059 −14 cs 1|-\|/-| 
+Improve EventLogTarget installation logic |-\|/-| 2018-11-28T19:58:02Z Closed pull request |-\|/-| 2999 +11 −34 cs 1|-\|/-| 
+Added LoggingConfiguration.Configure(..) |-\|/-| 2018-12-29T00:00:52Z Closed pull request |-\|/-| 2998 +84 −5 cs 3|-\|/-| 
+Added XmlLoggingConfiguration.CreateFromXmlString(xml) helper |-\|/-| 2018-11-07T22:11:50Z Merged pull request |-\|/-| 2997 +482 −397 cs 7|-\|/-| 
+Improve null handling and annotations for LogEventInfo |-\|/-| 2018-11-08T22:30:38Z Merged pull request |-\|/-| 2996 +9 −1 cs 1|-\|/-| 
+LogBuilder - Support Fluent API where message-template (Fix bug) |-\|/-| 2018-11-05T21:28:31Z Merged pull request |-\|/-| 2994 +2 −1 cs 1|-\|/-| 
+Version 4.5.11 |-\|/-| 2018-11-06T17:05:00Z Merged pull request |-\|/-| 2993 +21 −2 md ps1 csproj 2|-\|/-| 
+SubstringLayoutRenderer - Fixed bug when Start is higher than actual length + improve tests |-\|/-| 2018-11-05T17:32:00Z Merged pull request |-\|/-| 2991 +744 −569 cs 5|-\|/-| 
+Travis test build - WIP |-\|/-| 2018-11-04T18:35:51Z Closed pull request |-\|/-| 2990 +9,498 −4,313 gitignore md yml ps1 Config exe targets csproj 10|-\|/-| 
+JSON: improve performance, refactor, support objects implementing IDictionary<string,object>, added "Type" as implicit property for Exception-objects.  |-\|/-| 2018-11-07T19:23:46Z Merged pull request |-\|/-| 2989 +530 −184 cs 1|-\|/-| 
+NullAppender - Added missing SecuritySafeCritical |-\|/-| 2018-11-02T14:58:47Z Merged pull request |-\|/-| 2988 +6 −2 cs 2|-\|/-| 
+JSON encoding should create valid JSON for non-string dictionary-keys |-\|/-| 2018-11-02T14:56:46Z Merged pull request |-\|/-| 2987 +193 −130 cs 1|-\|/-| 
+Ignore DateArchive_UsesDateFromCurrentTimeSource on Travis with NetCore |-\|/-| 2018-11-01T22:19:15Z Merged pull request |-\|/-| 2986 +8 −0 cs 1|-\|/-| 
+LogBuilder - Fluent assignment of message-template after properties |-\|/-| 2018-11-02T14:59:32Z Merged pull request |-\|/-| 2985 +18 −7 cs 3|-\|/-| 
+LogBuilder - Fluent assignment of message-template after properties |-\|/-| 2018-11-01T21:50:17Z Closed pull request |-\|/-| 2984 +0 −0 0|-\|/-| 
+JsonSerializer - Use ReferenceEquals instead of object.Equals |-\|/-| 2018-11-04T17:35:28Z Merged pull request |-\|/-| 2983 +51 −18 cs 4|-\|/-| 
+NetCore Native reflection works better when attributes are allocated |-\|/-| 2018-10-31T17:28:57Z Merged pull request |-\|/-| 2979 +14 −5 cs 1|-\|/-| 
+ExceptionLayoutRenderer - Skip "One or more errors occurred" for a AggregateException with a single exception |-\|/-| 2018-10-31T17:30:31Z Merged pull request |-\|/-| 2978 +78 −12 cs 4|-\|/-| 
+Feature/rename message template format method attribute to resharper like |-\|/-| 2018-11-07T18:21:51Z Closed pull request |-\|/-| 2975 +1,639 −1,201 cs 8|-\|/-| 
+Feature/update resharper annotations |-\|/-| 2018-10-31T20:13:23Z Merged pull request |-\|/-| 2974 +1,068 −575 0|-\|/-| 
+LayoutRenderer - Introduced IStringValueRenderer-interface to skip extra string allocation, removed IRawValue from non-ThreadAgnostic layout renderers |-\|/-| 2018-11-08T22:08:41Z Merged pull request |-\|/-| 2973 +559 −537 cs 9|-\|/-| 
+DatabaseTarget - Auto Load System.Data.Odbc for DbProvider=ODBC/SYSTEM.DATA.ODBC |-\|/-| 2018-10-31T17:19:21Z Merged pull request |-\|/-| 2972 +11 −5 cs 1|-\|/-| 
+ConfigurationItemFactory - Skip unneeded RegisterExtendedItems on .NET Core |-\|/-| 2018-10-31T17:31:25Z Merged pull request |-\|/-| 2971 +6 −1 cs 1|-\|/-| 
+... |-\|/-| 2018-10-26T15:35:17Z Closed pull request |-\|/-| 2969 +65,308 −190,307 yml md gitignore 3|-\|/-| 
+MethodCallTarget - Added fluent constructor with Layout params |-\|/-| 2018-10-22T17:42:05Z Closed pull request |-\|/-| 2964 +32 −0 cs 2|-\|/-| 
+LogBuilder - Support Fluent API where message-template is assigned later |-\|/-| 2018-11-01T21:38:31Z Closed pull request |-\|/-| 2963 +0 −0 0|-\|/-| 
+MappedDiagnosticsLogicalContext - SetScoped with IReadOnlyList |-\|/-| 2018-10-14T21:42:33Z Merged pull request |-\|/-| 2949 +189 −19 cs 3|-\|/-| 
+SourceLink + fix attributes on internallogger methods |-\|/-| 2018-11-01T21:09:12Z Merged pull request |-\|/-| 2945 +72 −65 csproj 1|-\|/-| 
+UnixMultiProcessFileAppender - Added missing SecuritySafeCritical |-\|/-| 2018-10-01T14:56:24Z Merged pull request |-\|/-| 2942 +2 −0 cs 1|-\|/-| 
+TargetWithContext - Include all properties even when duplicate names (rename with postfix: _1, _2 etc) |-\|/-| 2018-11-15T20:43:31Z Merged pull request |-\|/-| 2941 +76 −34 cs 2|-\|/-| 
+JSON encoding should create valid JSON for string dictionary-keys |-\|/-| 2018-10-07T15:19:29Z Merged pull request |-\|/-| 2940 +19 −13 cs 2|-\|/-| 
+JSON encoding should create valid JSON for non-string dictionary-keys |-\|/-| 2018-09-26T22:09:31Z Merged pull request |-\|/-| 2937 +105 −61 cs 3|-\|/-| 
+InternalLogger.LogLevel should default to LogLevel.Off when not configured |-\|/-| 2018-09-26T15:43:05Z Merged pull request |-\|/-| 2935 +20 −5 cs 4|-\|/-| 
+CsvLayout - Performance&docs improvements, added Quoting also on Column. |-\|/-| 2018-10-06T19:58:46Z Merged pull request |-\|/-| 2934 +136 −79 cs 6|-\|/-| 
+Invalid attribute values in the `<NLog>` element should not break logging & better attribute parsing order |-\|/-| 2018-09-24T21:45:22Z Merged pull request |-\|/-| 2931 +312 −149 0|-\|/-| 
+Retry unstable integration tests |-\|/-| 2018-09-24T18:46:21Z Merged pull request |-\|/-| 2929 +283 −228 cs 4|-\|/-| 
+NullAppender - Added missing SecuritySafeCritical |-\|/-| 2018-09-20T20:32:27Z Merged pull request |-\|/-| 2926 +4 −2 cs 1|-\|/-| 
+Fixed minor README typos |-\|/-| 2018-09-20T14:20:44Z Merged pull request |-\|/-| 2923 +2 −2 md 0|-\|/-| 
+AppVeyor - Skip publish on PullRequest and add suffix |-\|/-| 2018-09-19T20:11:37Z Merged pull request |-\|/-| 2922 +8 −0 yml ps1 2|-\|/-| 
+Version 4.5.10 |-\|/-| 2018-09-17T20:36:03Z Merged pull request |-\|/-| 2920 +9 −5 md ps1 csproj 2|-\|/-| 
+Introduced NLog.AppConfig for .NET 45 + .NET Standard 2.0 |-\|/-| 2018-12-25T22:30:02Z Closed pull request |-\|/-| 2919 +261 −10 ps1 cs csproj sln 9|-\|/-| 
+PerformanceCounter - Improve behavior for CPU usage calculation + Format and Culture options |-\|/-| 2018-09-18T20:45:06Z Merged pull request |-\|/-| 2918 +157 −10 cs 2|-\|/-| 
+Logger.Log should initialize LogEventInfo.LoggerName |-\|/-| 2018-09-15T19:33:10Z Merged pull request |-\|/-| 2917 +510 −481 cs 1|-\|/-| 
+Reduce code complexity in different locations |-\|/-| 2018-09-18T20:43:14Z Merged pull request |-\|/-| 2915 +328 −285 cs 4|-\|/-| 
+AsyncTaskTarget - Retry WriteAsyncTask should be protected with SyncRoot |-\|/-| 2018-09-15T19:46:26Z Merged pull request |-\|/-| 2914 +138 −61 cs 2|-\|/-| 
+NLog.UnitTests - Configure internalLogLevel to Off by default |-\|/-| 2018-09-13T10:44:11Z Merged pull request |-\|/-| 2912 +3 −1 cs 3|-\|/-| 
+ObjectHandle - LifeTime avoid remoting exception: has been disconnected |-\|/-| 2018-09-12T19:37:10Z Merged pull request |-\|/-| 2910 +122 −9 cs 3|-\|/-| 
+AsyncTaskTarget: Added support for BatchSize and RetryCount |-\|/-| 2018-09-12T19:39:35Z Merged pull request |-\|/-| 2909 +489 −68 0|-\|/-| 
+Layout Wrappers should not throw when Inner-Layout is null |-\|/-| 2018-09-12T19:39:51Z Merged pull request |-\|/-| 2908 +31 −6 cs 3|-\|/-| 
+New Substring, Left & Right Wrappers |-\|/-| 2018-11-02T15:38:55Z Merged pull request |-\|/-| 2907 +470 −0 cs 4|-\|/-| 
+Cleanup |-\|/-| 2018-09-19T12:33:00Z Merged pull request |-\|/-| 2905 +0 −530 Config exe targets pdb 5|-\|/-| 
+JSON serialize: support for DynamicObject + Improve JSON tests |-\|/-| 2018-09-09T14:09:00Z Merged pull request |-\|/-| 2902 +711 −515 csproj cs 4|-\|/-| 
+Database target: support for DbType for parameters (including SqlDbType, OracleDbType etc.) |-\|/-| 2019-01-16T15:42:50Z Merged pull request |-\|/-| 2899 +935 −45 cs 2|-\|/-| 
+Removed System.Collections.NonGeneric dependency + InternalLogger - Faster filtering when configured LogLevel is Off |-\|/-| 2018-09-05T22:20:16Z Merged pull request |-\|/-| 2897 +22 −15 cs csproj 3|-\|/-| 
+LoggingConfigurationParser - Extracted from XmlLoggingConfiguration + rule name for `<rule>` + logger attribute for filtering |-\|/-| 2018-09-23T20:34:14Z Merged pull request |-\|/-| 2891 +1,238 −832 cs 2|-\|/-| 
+AsyncTargetWrapper - TimeToSleepBetweenBatches changed default to 1ms |-\|/-| 2018-09-18T20:47:08Z Merged pull request |-\|/-| 2890 +19 −14 cs 3|-\|/-| 
+NDLC and NDC should use local LoggingConfiguration for FormatProvider |-\|/-| 2018-09-01T14:33:20Z Merged pull request |-\|/-| 2886 +24 −10 cs 4|-\|/-| 
+Compact logging of logging levels for loggers with no active targets |-\|/-| 2018-09-01T14:34:13Z Merged pull request |-\|/-| 2885 +26 −13 cs 1|-\|/-| 
+Fix LoadConfiguration for not found config file |-\|/-| 2018-09-17T19:25:15Z Merged pull request |-\|/-| 2883 +138 −39 cs 3|-\|/-| 
+TryLoadFromFilePaths - Improve exception handling |-\|/-| 2018-08-29T19:17:24Z Closed pull request |-\|/-| 2882 +0 −0 0|-\|/-| 
+TryLoadFromFilePaths - Improve exception handling |-\|/-| 2018-08-29T18:51:44Z Closed pull request |-\|/-| 2881 +0 −0 0|-\|/-| 
+Fix loadConfig with not found config file |-\|/-| 2018-09-17T19:23:50Z Closed pull request |-\|/-| 2880 +57 −16 cs 3|-\|/-| 
+Updated Nuget RepositoryUrl to https address |-\|/-| 2018-08-29T15:46:24Z Merged pull request |-\|/-| 2877 +29 −29 csproj nuspec 7|-\|/-| 
+AsyncTargetWrapper - Allow ForceLockingQueue = false on Net45 |-\|/-| 2018-08-28T21:03:46Z Merged pull request |-\|/-| 2876 +5 −7 cs 1|-\|/-| 
+Version 4.5.9 |-\|/-| 2018-08-24T20:59:49Z Merged pull request |-\|/-| 2869 +11 −12 md ps1 csproj 2|-\|/-| 
+JSON encoding should create valid JSON for special double values (hotfix) |-\|/-| 2018-08-24T08:19:42Z Merged pull request |-\|/-| 2865 +71 −17 cs 3|-\|/-| 
+JSON encoding should create valid JSON for special double values |-\|/-| 2018-08-24T08:19:57Z Merged pull request |-\|/-| 2864 +71 −17 cs 3|-\|/-| 
+Don't create unneeded static compiled Regex |-\|/-| 2018-08-24T08:21:07Z Merged pull request |-\|/-| 2863 +1 −4 cs 1|-\|/-| 
+Include Entry Assembly File Location when loading candidate NLog.config (Hotfix) |-\|/-| 2018-08-24T15:30:48Z Merged pull request |-\|/-| 2862 +121 −86 cs 4|-\|/-| 
+JSON encoding should create valid JSON for special double values |-\|/-| 2018-08-24T15:31:40Z Closed pull request |-\|/-| 2861 +65 −11 cs 3|-\|/-| 
+LogFactory - LoadConfiguration with better support for relative paths |-\|/-| 2018-09-26T22:33:18Z Merged pull request |-\|/-| 2858 +321 −33 cs 5|-\|/-| 
+Added support for complex objects in MDLC and NDLC using ObjectHandle |-\|/-| 2018-08-24T15:37:43Z Merged pull request |-\|/-| 2857 +92 −16 cs 3|-\|/-| 
+adding <repository> to nuspec NLog.Config and NLog.Schema |-\|/-| 2018-08-19T18:50:57Z Merged pull request |-\|/-| 2853 +9 −42 ps1 nuspec exe 6|-\|/-| 
+NLogTraceListener - Reduce allocations for TraceData with single param |-\|/-| 2018-08-15T22:10:48Z Merged pull request |-\|/-| 2850 +22 −13 cs 1|-\|/-| 
+IRawValue + dbNullLayoutRenderer |-\|/-| 2018-09-03T21:11:13Z Merged pull request |-\|/-| 2849 +621 −131 cs 8|-\|/-| 
+Added defaultAction for <filter> |-\|/-| 2018-08-16T20:53:09Z Merged pull request |-\|/-| 2848 +84 −11 cs 6|-\|/-| 
+TargetWithContext - Allow custom target to provide their own dictionary |-\|/-| 2018-08-14T20:00:41Z Merged pull request |-\|/-| 2847 +24 −3 cs 1|-\|/-| 
+Include Entry Assembly File Location when loading candidate NLog.config (master port) |-\|/-| 2018-08-14T20:12:24Z Merged pull request |-\|/-| 2846 +121 −86 cs 4|-\|/-| 
+Version 4.5.8 |-\|/-| 2018-08-05T11:18:36Z Merged pull request |-\|/-| 2839 +25 −13 md ps1 csproj 2|-\|/-| 
+Fix NLog.WindowsIdentity Package |-\|/-| 2018-08-03T17:14:36Z Merged pull request |-\|/-| 2838 +4 −4 csproj cs 2|-\|/-| 
+WrapperLayoutRendererBuilderBase methods marked as obsolete |-\|/-| 2018-08-05T13:41:15Z Merged pull request |-\|/-| 2836 +12 −0 cs 10|-\|/-| 
+Unit test after fixing ConfigurationItemFactory auto loading of assemblies |-\|/-| 2018-08-03T07:47:09Z Merged pull request |-\|/-| 2835 +4 −2 cs 2|-\|/-| 
+Fix NLog.WindowsEventLog Package |-\|/-| 2018-08-03T16:23:00Z Merged pull request |-\|/-| 2834 +4 −4 csproj cs 3|-\|/-| 
+Unit test after fixing ConfigurationItemFactory auto loading of assemblies |-\|/-| 2018-08-02T14:15:03Z Merged pull request |-\|/-| 2833 +41 −23 cs 2|-\|/-| 
+Improve NLogTraceListener setters  |-\|/-| 2018-08-02T09:19:46Z Merged pull request |-\|/-| 2831 +6 −6 cs 1|-\|/-| 
+Auto loading of assemblies was broken in some cases |-\|/-| 2018-08-01T20:15:13Z Merged pull request |-\|/-| 2830 +15 −12 cs 1|-\|/-| 
+FileTarget - Failing to CreateArchiveMutex should not stop logging |-\|/-| 2018-08-01T20:20:37Z Merged pull request |-\|/-| 2827 +1 −1 cs 1|-\|/-| 
+${AssemblyVersion}: added format option |-\|/-| 2018-08-05T13:41:58Z Merged pull request |-\|/-| 2825 +104 −2 cs 2|-\|/-| 
+Optimize LayoutRendererWrappers to reduce string allocations |-\|/-| 2018-08-02T09:40:21Z Merged pull request |-\|/-| 2817 +312 −246 cs 9|-\|/-| 
+MessageTemplates - Support rendering of alignment + padding |-\|/-| 2018-08-01T20:35:23Z Merged pull request |-\|/-| 2816 +40 −10 cs 3|-\|/-| 
+LoggingConfiguration - Improves CheckUnusedTargets to handle target wrappers |-\|/-| 2018-08-01T20:36:36Z Merged pull request |-\|/-| 2814 +115 −82 cs 3|-\|/-| 
+MethodCallTarget - Support for Lamba method |-\|/-| 2018-08-01T20:38:39Z Merged pull request |-\|/-| 2809 +77 −31 cs 3|-\|/-| 
+Version 4.5.7 |-\|/-| 2018-07-19T09:16:16Z Merged pull request |-\|/-| 2808 +37 −10 md ps1 csproj 2|-\|/-| 
+Fix XML documentation for partial class Logger |-\|/-| 2018-07-18T14:50:33Z Merged pull request |-\|/-| 2807 +5 −5 cs 1|-\|/-| 
+FileTarget - Do not trust Last File Write TimeStamp when AutoFlush=false |-\|/-| 2018-07-17T18:38:26Z Merged pull request |-\|/-| 2804 +8 −8 cs 2|-\|/-| 
+Better performance with Activator.CreateInstance |-\|/-| 2018-07-17T18:36:44Z Merged pull request |-\|/-| 2797 +4 −5 cs 1|-\|/-| 
+Disable WindowsIdentityTest |-\|/-| 2018-07-08T23:27:54Z Merged pull request |-\|/-| 2793 +2 −2 cs 1|-\|/-| 
+OutputDebugStringTarget - Support Xamarin iOS and Android |-\|/-| 2018-07-17T18:43:02Z Merged pull request |-\|/-| 2792 +4 −8 cs 1|-\|/-| 
+${Assembly-version} make GetAssembly protected and virtual |-\|/-| 2018-07-05T20:55:27Z Merged pull request |-\|/-| 2788 +14 −5 cs csproj 4|-\|/-| 
+FileTarget - Introduced OpenFileFlushTimeout to help when AutoFlush = false |-\|/-| 2018-07-08T23:36:42Z Merged pull request |-\|/-| 2776 +213 −248 cs 7|-\|/-| 
+[WIP] Configuration Serialization |-\|/-| 2018-09-18T20:55:22Z Closed pull request |-\|/-| 2771 +528 −2 cs 1|-\|/-| 
+Issue 522: Added DbType  |-\|/-| 2018-09-18T20:57:50Z Closed pull request |-\|/-| 2767 +64 −5 cs 4|-\|/-| 
+Throw better error when target name is null |-\|/-| 2018-07-05T21:05:50Z Merged pull request |-\|/-| 2763 +2 −0 cs 1|-\|/-| 
+${Callsite} fix class naming when includeNamespace=false and cleanNamesOfAnonymousDelegates=true |-\|/-| 2018-07-05T21:07:47Z Merged pull request |-\|/-| 2761 +41 −0 cs 2|-\|/-| 
+LongDateLayoutRenderer: Improve comments |-\|/-| 2018-06-03T12:08:51Z Merged pull request |-\|/-| 2756 +2 −2 cs 1|-\|/-| 
+Logging with mmm as intended (vs.mmmm) |-\|/-| 2018-06-01T12:55:33Z Closed pull request |-\|/-| 2755 +1 −1 cs 1|-\|/-| 
+JSON: Fixes issue where char types are not properly escaped |-\|/-| 2018-05-30T18:59:32Z Merged pull request |-\|/-| 2752 +39 −2 cs 2|-\|/-| 
+DistinctlyThrottlingWrapperTarget |-\|/-| 2018-09-18T20:56:01Z Closed pull request |-\|/-| 2751 +462 −0 0|-\|/-| 
+NLog.WindowsEventLog: Update dependency System.Diagnostics.EventLog to RTM version |-\|/-| 2018-05-30T19:00:11Z Merged pull request |-\|/-| 2749 +1 −1 csproj 1|-\|/-| 
+Update issue templates |-\|/-| 2018-05-30T18:46:51Z Merged pull request |-\|/-| 2748 +71 −0 md 0|-\|/-| 
+JsonSerializer - Generate valid Json when hitting the MaxRecursionLimit |-\|/-| 2018-05-29T20:12:31Z Merged pull request |-\|/-| 2747 +29 −1 cs 2|-\|/-| 
+Release 4.5.6 |-\|/-| 2018-05-29T21:02:24Z Merged pull request |-\|/-| 2746 +25 −10 md ps1 csproj 2|-\|/-| 
+FileTarget - Improve support for Linux FileSystem without BirthTime |-\|/-| 2018-05-28T22:03:11Z Merged pull request |-\|/-| 2745 +29 −9 cs 2|-\|/-| 
+LogEventInfo - HasProperties should allocate PropertiesDicitonary when needed |-\|/-| 2018-05-29T15:42:44Z Merged pull request |-\|/-| 2744 +3 −3 cs 1|-\|/-| 
+JsonLayout - Reduce allocations when needing to escape string (44% time improvement) |-\|/-| 2018-05-29T15:24:17Z Merged pull request |-\|/-| 2743 +104 −40 cs 5|-\|/-| 
+Fix Sonar badges |-\|/-| 2018-05-25T16:17:50Z Merged pull request |-\|/-| 2741 +6 −6 md 0|-\|/-| 
+Fix Nuget install of OpenCover |-\|/-| 2018-05-25T14:13:43Z Merged pull request |-\|/-| 2740 +1 −1 yml 1|-\|/-| 
+Target.WriteAsyncLogEvents(IList<AsyncLogEventInfo>) to public |-\|/-| 2018-05-25T14:19:45Z Merged pull request |-\|/-| 2739 +1 −1 cs 1|-\|/-| 
+FileTarget - Calculate correct archive date when multiple file appenders |-\|/-| 2018-05-24T09:55:04Z Merged pull request |-\|/-| 2736 +104 −39 cs 2|-\|/-| 
+Release 4.5.5 |-\|/-| 2018-05-25T16:09:16Z Merged pull request |-\|/-| 2734 +34 −11 md ps1 csproj 2|-\|/-| 
+ReconfigExistingLoggers should not block for new Loggers |-\|/-| 2018-05-22T20:20:53Z Closed pull request |-\|/-| 2733 +18 −18 cs 3|-\|/-| 
+Support for custom targets that implements IUsesStackTrace |-\|/-| 2018-05-16T22:37:47Z Merged pull request |-\|/-| 2727 +41 −0 cs 2|-\|/-| 
+WhenRepeated - Support logging rules with multiple targets |-\|/-| 2018-05-22T21:42:54Z Merged pull request |-\|/-| 2726 +43 −5 cs 2|-\|/-| 
+Fix Sonar token |-\|/-| 2018-05-22T21:42:41Z Merged pull request |-\|/-| 2724 +1 −1 yml 1|-\|/-| 
+Database target: allow parameters on install commands |-\|/-| 2018-05-15T21:23:39Z Merged pull request |-\|/-| 2719 +209 −48 cs csproj 3|-\|/-| 
+JsonLayout - Always stringify when requested |-\|/-| 2018-05-15T18:38:16Z Merged pull request |-\|/-| 2718 +1 −1 cs 1|-\|/-| 
+ Added file target with special chars test, improved  FileInRoot test |-\|/-| 2018-05-10T19:40:07Z Merged pull request |-\|/-| 2714 +45 −24 cs 1|-\|/-| 
+Rewrite Asserts for concurrenttest for better diag |-\|/-| 2018-05-15T06:38:56Z Merged pull request |-\|/-| 2712 +57 −17 cs 1|-\|/-| 
+Update tokens |-\|/-| 2018-05-10T17:49:12Z Merged pull request |-\|/-| 2711 +2 −2 yml 1|-\|/-| 
+XML Config: Support for constant variable in level attributes (level, minlevel, etc) |-\|/-| 2018-08-05T13:42:59Z Merged pull request |-\|/-| 2709 +61 −8 cs 2|-\|/-| 
+Variables ignore case |-\|/-| 2019-05-05T21:32:01Z Closed pull request |-\|/-| 2708 +112 −13 cs 4|-\|/-| 
+enabled VariablesTest_string_expanding unit test |-\|/-| 2018-05-08T22:02:12Z Merged pull request |-\|/-| 2707 +2 −2 cs 1|-\|/-| 
+skip building tags |-\|/-| 2018-05-08T19:55:36Z Merged pull request |-\|/-| 2706 +2 −1 yml 1|-\|/-| 
+Improve run-sonar.ps1 + enabled PR comments |-\|/-| 2018-05-08T18:35:28Z Merged pull request |-\|/-| 2705 +17 −11 ps1 1|-\|/-| 
+Allocation improvement in precalculating layouts |-\|/-| 2018-05-15T18:39:07Z Merged pull request |-\|/-| 2704 +99 −52 cs 4|-\|/-| 
+Refactor:  reduce code complexity, cleanup, deduplicate |-\|/-| 2018-05-08T21:07:11Z Merged pull request |-\|/-| 2703 +165 −104 cs 2|-\|/-| 
+Preload, support ConfigurationItemFactory as argument |-\|/-| 2018-08-16T21:00:00Z Merged pull request |-\|/-| 2702 +20 −9 cs 2|-\|/-| 
+Sonar: revert version parameter |-\|/-| 2018-05-05T23:19:20Z Closed pull request |-\|/-| 2701 +1 −1 ps1 1|-\|/-| 
+sonarqube.com -> sonarcloud.io, analysis version |-\|/-| 2018-05-05T22:03:06Z Merged pull request |-\|/-| 2700 +4 −4 ps1 1|-\|/-| 
+Move Sonar to NLog organization  |-\|/-| 2018-05-05T18:43:21Z Closed pull request |-\|/-| 2699 +2 −2 ps1 1|-\|/-| 
+FileTarget - Calculate correct archive date, when using Monthly archive |-\|/-| 2018-05-05T18:37:40Z Merged pull request |-\|/-| 2698 +86 −10 cs 2|-\|/-| 
+Version 4.5.4 |-\|/-| 2018-05-05T22:30:54Z Merged pull request |-\|/-| 2697 +31 −13 md ps1 csproj 2|-\|/-| 
+Fixed Sonar warnings |-\|/-| 2018-05-05T12:11:41Z Merged pull request |-\|/-| 2696 +20 −31 cs 10|-\|/-| 
+LogEventInfo - Structured logging parameters are not always immutable |-\|/-| 2018-05-04T20:38:10Z Merged pull request |-\|/-| 2695 +21 −11 cs 7|-\|/-| 
+branchmode sonar |-\|/-| 2018-05-04T12:01:12Z Merged pull request |-\|/-| 2694 +10 −3 ps1 1|-\|/-| 
+Deduplicate AppendIntegerAsString |-\|/-| 2018-05-04T11:57:50Z Merged pull request |-\|/-| 2693 +4 −41 cs 2|-\|/-| 
+NetworkTarget - Added SslProtocols option to support for SSL/TLS for TCP |-\|/-| 2018-11-01T21:46:18Z Closed pull request |-\|/-| 2692 +331 −253 cs 5|-\|/-| 
+Sonar warning fixes + C# 6 + 7 improvements |-\|/-| 2018-05-04T12:51:18Z Merged pull request |-\|/-| 2691 +130 −174 cs 14|-\|/-| 
+SonarLint - Fixed different warnings from SonarQube |-\|/-| 2018-05-03T14:53:39Z Merged pull request |-\|/-| 2690 +4 −4 cs 2|-\|/-| 
+LogEventInfo - Structured logging parameters are not always immutable |-\|/-| 2018-05-03T14:54:00Z Merged pull request |-\|/-| 2689 +147 −15 cs 15|-\|/-| 
+Faulty invalidate of FormattedMessage when getting PropertiesDictionary |-\|/-| 2018-05-03T14:54:27Z Merged pull request |-\|/-| 2688 +20 −4 cs 2|-\|/-| 
+Fixed NLog.Config package: build-action and copy for non-core projects, it's now "copy if newer" |-\|/-| 2018-05-02T20:39:24Z Merged pull request |-\|/-| 2687 +3 −2 nuspec ps1 2|-\|/-| 
+SonarLint - Fixed different warnings from SonarQube |-\|/-| 2018-05-02T13:25:00Z Merged pull request |-\|/-| 2685 +50 −57 cs 13|-\|/-| 
+DatabaseTarget - Skip static assembly lookup for .Net Standard |-\|/-| 2018-05-02T20:46:33Z Merged pull request |-\|/-| 2684 +18 −11 cs 1|-\|/-| 
+SonarQube WARNING: The following projects do not have a valid ProjectGuid |-\|/-| 2018-04-30T09:30:14Z Merged pull request |-\|/-| 2683 +2 −0 csproj 1|-\|/-| 
+Removed obsolete static Assembly lookup caching |-\|/-| 2018-04-30T09:16:14Z Merged pull request |-\|/-| 2682 +0 −3 cs 1|-\|/-| 
+SonarQube change to SonarScanner.MSBuild.exe |-\|/-| 2018-04-29T21:02:56Z Merged pull request |-\|/-| 2681 +7 −8 ps1 1|-\|/-| 
+Target.WriteAsyncThreadSafe should always have exception handler |-\|/-| 2018-04-29T21:10:41Z Merged pull request |-\|/-| 2679 +49 −37 cs 1|-\|/-| 
+NetworkTarget - Support for SSL & TLS |-\|/-| 2018-11-02T15:39:25Z Merged pull request |-\|/-| 2678 +338 −257 cs 5|-\|/-| 
+DatabaseTarget - InitializeTarget with more logging |-\|/-| 2018-04-30T09:31:09Z Merged pull request |-\|/-| 2675 +42 −17 cs 1|-\|/-| 
+TargetWithContext - Easier to use without needing to override ContextProperties |-\|/-| 2018-04-29T12:55:33Z Merged pull request |-\|/-| 2673 +11 −7 cs 1|-\|/-| 
+Log4JXml - Removed redundant logging of exception, default IncludeNLogData to false |-\|/-| 2019-05-05T20:26:36Z Merged pull request |-\|/-| 2672 +99 −73 cs 5|-\|/-| 
+XmlLayout - Render LogEventInfo.Properties as XML  |-\|/-| 2018-11-02T15:40:11Z Merged pull request |-\|/-| 2670 +1,250 −73 cs 3|-\|/-| 
+Allow skipping tests in build. |-\|/-| 2018-11-06T18:19:45Z Closed pull request |-\|/-| 2666 +14 −8 md yml ps1 3|-\|/-| 
+${AppSetting} for .NET standard 2 (NLog.Extended) |-\|/-| 2018-09-18T21:01:08Z Closed pull request |-\|/-| 2665 +29 −9 cs csproj 3|-\|/-| 
+Version 4.5.3 |-\|/-| 2018-04-16T17:00:39Z Merged pull request |-\|/-| 2664 +24 −9 md ps1 csproj 2|-\|/-| 
+FileTarget - Improve handling of archives with multiple active files |-\|/-| 2018-04-15T19:39:53Z Merged pull request |-\|/-| 2662 +97 −68 cs 3|-\|/-| 
+Move all WCF targets to NLog.Wcf  |-\|/-| 2019-05-03T20:00:05Z Merged pull request |-\|/-| 2658 +83 −508 csproj cs 11|-\|/-| 
+LayoutRenderer ThreadSafe Attribute introduced to allow lock free Precalculate + other small performance improvements |-\|/-| 2018-04-12T21:22:38Z Merged pull request |-\|/-| 2653 +382 −147 cs 13|-\|/-| 
+Searching for  NLog Extension Files should handle DirectoryNotFoundException  |-\|/-| 2018-04-12T21:23:41Z Merged pull request |-\|/-| 2651 +11 −2 cs 1|-\|/-| 
+Better Async performance with many concurrent logger threads (up to 500%+)  - Async attribute and AsyncWrapper |-\|/-| 2018-08-14T20:08:33Z Merged pull request |-\|/-| 2650 +393 −21 cs 2|-\|/-| 
+Version 4.5.2 |-\|/-| 2018-04-06T22:10:40Z Merged pull request |-\|/-| 2649 +34 −4 md yml ps1 csproj 3|-\|/-| 
+${processtime} and ${time} added invariant option |-\|/-| 2018-04-06T21:00:42Z Merged pull request |-\|/-| 2648 +28 −29 cs 2|-\|/-| 
+Minor performance optimization of some layoutrenderers |-\|/-| 2018-04-06T07:24:57Z Merged pull request |-\|/-| 2645 +17 −36 cs 5|-\|/-| 
+FallbackGroupTarget: handle async state on fallback correctly |-\|/-| 2018-04-06T07:25:15Z Merged pull request |-\|/-| 2644 +83 −26 cs 2|-\|/-| 
+UWP with NetStandard2 on Net Native does not support Assembly.CodeBase + Handle native methods in StackTrace |-\|/-| 2018-04-06T21:15:00Z Merged pull request |-\|/-| 2643 +183 −145 cs 5|-\|/-| 
+FileTarget - InitializeFile should skip dictionary lookup when same file |-\|/-| 2018-04-05T21:18:32Z Merged pull request |-\|/-| 2642 +18 −3 cs 1|-\|/-| 
+Version 4.5.1 |-\|/-| 2018-04-03T21:12:00Z Merged pull request |-\|/-| 2641 +32 −65 md ps1 csproj 2|-\|/-| 
+FileTarget - InitializeFile no longer need justData parameter + dispose fileapenders earlier |-\|/-| 2018-04-02T20:40:27Z Merged pull request |-\|/-| 2640 +22 −25 cs 1|-\|/-| 
+MessageTemplates - Optimize ParseHole for positional templates |-\|/-| 2018-04-02T20:42:42Z Merged pull request |-\|/-| 2639 +29 −15 cs 1|-\|/-| 
+Handle null values correctly in LogReceiverSecureService |-\|/-| 2018-04-02T20:38:00Z Merged pull request |-\|/-| 2638 +55 −6 cs 2|-\|/-| 
+Fix IndexOutOfRangeException in NestedDiagnosticsLogicalContext |-\|/-| 2018-04-01T22:45:35Z Merged pull request |-\|/-| 2637 +34 −12 cs 2|-\|/-| 
+Update SHFB for NLog 4.5 |-\|/-| 2018-03-28T21:32:57Z Merged pull request |-\|/-| 2634 +41 −24 shfbproj 1|-\|/-| 
+Added NLog.MailKit Badge to ReadMe |-\|/-| 2018-03-28T21:11:00Z Merged pull request |-\|/-| 2633 +1 −0 md 0|-\|/-| 
+RoundRobinGroupTarget - Replaced lock with Interlocked for performance |-\|/-| 2018-04-01T22:46:38Z Merged pull request |-\|/-| 2628 +11 −10 cs 1|-\|/-| 
+Version 4.5 and changelog |-\|/-| 2018-03-25T21:36:59Z Merged pull request |-\|/-| 2625 +114 −181 md ps1 1|-\|/-| 
+LoggingConfigurationReader - Extracted from XmlLoggingConfiguration |-\|/-| 2018-08-24T15:39:08Z Closed pull request |-\|/-| 2624 +1,300 −881 cs 1|-\|/-| 
+NetworkTarget - Http / Https should not throw on async error response |-\|/-| 2018-03-25T18:55:08Z Merged pull request |-\|/-| 2622 +7 −4 cs 1|-\|/-| 
+Single Target optimization logic refactored to reuse optimization approval |-\|/-| 2018-03-25T18:56:08Z Merged pull request |-\|/-| 2621 +10 −15 cs 3|-\|/-| 
+Single Target optimization should only be done when parseMessageTemplate = null |-\|/-| 2018-03-15T21:50:51Z Merged pull request |-\|/-| 2620 +10 −17 cs 4|-\|/-| 
+NetworkTarget - Reduce allocation when buffer is less than MaxMessageSize |-\|/-| 2018-03-15T21:52:55Z Merged pull request |-\|/-| 2619 +19 −7 cs 1|-\|/-| 
+LogManager.Shutdown - Should disable file watcher and avoid auto reload |-\|/-| 2018-03-15T21:51:32Z Merged pull request |-\|/-| 2616 +35 −30 cs 2|-\|/-| 
+LogManager.Shutdown - Should disable file watcher and avoid auto reload |-\|/-| 2018-03-08T01:15:34Z Closed pull request |-\|/-| 2615 +21 −29 cs 1|-\|/-| 
+NLog 4.5 RC7 changelog & version |-\|/-| 2018-03-07T22:46:53Z Merged pull request |-\|/-| 2614 +18 −1 ps1 csproj 2|-\|/-| 
+Attempt to make some unit-tests more stable |-\|/-| 2018-03-05T11:01:31Z Merged pull request |-\|/-| 2613 +25 −10 cs 3|-\|/-| 
+add final param to `AddRule` Methods |-\|/-| 2018-03-07T19:04:45Z Merged pull request |-\|/-| 2612 +47 −8 cs 1|-\|/-| 
+Update LoggingConfiguration.cs |-\|/-| 2018-03-02T17:15:52Z Closed pull request |-\|/-| 2611 +13 −13 cs 1|-\|/-| 
+Add notifications when Target drops LogEvent or cache size grows, grow *2 instead of +1  |-\|/-| 2019-01-12T12:14:46Z Merged pull request |-\|/-| 2610 +592 −80 cs 4|-\|/-| 
+NLog - Fix Callsite when wrapping ILogger in Microsoft Extension Logging |-\|/-| 2018-03-05T11:16:30Z Merged pull request |-\|/-| 2609 +32 −5 cs 2|-\|/-| 
+FileTarget - Failing to CreateArchiveMutex should not stop logging |-\|/-| 2018-03-07T17:11:24Z Merged pull request |-\|/-| 2604 +22 −6 cs 2|-\|/-| 
+MultiFileWatcher - Improve error handling if FileSystemWatcher fails |-\|/-| 2018-02-28T19:57:09Z Merged pull request |-\|/-| 2603 +49 −24 cs 1|-\|/-| 
+Changelog NLog 4.4.13 |-\|/-| 2018-02-27T23:50:24Z Merged pull request |-\|/-| 2601 +8 −1 md 0|-\|/-| 
+Fix 'System.ReadOnlySpan`1[System.Char]' cannot be converted to type 'System.String'.  |-\|/-| 2018-02-27T23:51:01Z Merged pull request |-\|/-| 2600 +30 −11 yml cs 2|-\|/-| 
+TryImplicitConversion should only check object types |-\|/-| 2018-03-05T11:18:05Z Merged pull request |-\|/-| 2599 +7 −3 cs 1|-\|/-| 
+Replace WINDOWS_UWP with NETSTANDARD1_3 to support UWP10 shared libraries |-\|/-| 2018-03-05T22:01:59Z Merged pull request |-\|/-| 2597 +118 −128 ps1 cs 21|-\|/-| 
+LogFactory - Assign Configuration should only perform a single InitializeAll |-\|/-| 2018-02-25T19:48:24Z Merged pull request |-\|/-| 2596 +2 −6 cs 1|-\|/-| 
+IsSafeToDeferFormatting - Convert.GetTypeCode is faster and better |-\|/-| 2018-03-05T11:17:38Z Merged pull request |-\|/-| 2595 +1 −6 cs 1|-\|/-| 
+Make Set methods of MDC and MDLC return IDisposable |-\|/-| 2018-03-07T17:10:32Z Merged pull request |-\|/-| 2592 +163 −0 cs 4|-\|/-| 
+callsite-filename renderer |-\|/-| 2018-03-07T17:09:08Z Merged pull request |-\|/-| 2591 +253 −0 cs 2|-\|/-| 
+WebServiceTarget - JsonPost with support for single nameless parameter |-\|/-| 2018-03-07T19:04:10Z Merged pull request |-\|/-| 2590 +31 −56 cs 1|-\|/-| 
+Internal Log - Include target type and target name in the log messages |-\|/-| 2018-04-15T21:58:57Z Merged pull request |-\|/-| 2587 +159 −153 cs 3|-\|/-| 
+Target.MergeEventProperties is now obsolete |-\|/-| 2018-04-29T18:29:20Z Merged pull request |-\|/-| 2586 +24 −27 cs 8|-\|/-| 
+NLog 4.5 rc6 version and changelog |-\|/-| 2018-02-20T09:19:26Z Merged pull request |-\|/-| 2585 +7 −1 ps1 csproj 2|-\|/-| 
+ColoredConsoleTarget.cs: Whitespace cleanups |-\|/-| 2018-02-22T10:50:39Z Merged pull request |-\|/-| 2584 +6 −6 cs 1|-\|/-| 
+MessageTemplateParameter(s)  ctors to internal |-\|/-| 2018-02-20T08:24:19Z Merged pull request |-\|/-| 2581 +3 −4 cs 2|-\|/-| 
+ColoredConsoleTarget.cs: Fix typo |-\|/-| 2018-02-19T21:46:57Z Merged pull request |-\|/-| 2580 +2 −2 cs 1|-\|/-| 
+Fix possible infinite loop in message template parser + better handling incorrect templates |-\|/-| 2018-02-19T21:53:16Z Merged pull request |-\|/-| 2576 +93 −11 cs 2|-\|/-| 
+copyright 2018 |-\|/-| 2018-02-13T00:22:17Z Merged pull request |-\|/-| 2572 +592 −592 txt cs tt 56|-\|/-| 
+4.5 rc5 version and release notes |-\|/-| 2018-02-13T00:22:28Z Merged pull request |-\|/-| 2571 +51 −2 ps1 csproj 2|-\|/-| 
+Update nuspec NLog.Config and NLog.Schema |-\|/-| 2018-02-12T14:23:01Z Merged pull request |-\|/-| 2570 +21 −4 nuspec 2|-\|/-| 
+WebServiceTarget - Rollback added Group-Layout |-\|/-| 2018-02-12T09:19:37Z Merged pull request |-\|/-| 2568 +16 −365 cs 3|-\|/-| 
+WebService-Target fails internally with PlatformNotSupportedException on NetCore |-\|/-| 2018-02-05T10:01:53Z Merged pull request |-\|/-| 2563 +15 −15 cs 2|-\|/-| 
+Network/NLogViewer/Chainsaw Target - Enabled OptimizeBufferReuse by default, but not for sub classes |-\|/-| 2018-02-05T09:58:22Z Merged pull request |-\|/-| 2560 +60 −22 cs 15|-\|/-| 
+JsonLayout - Use capturetype and added MaxRecursionLimit and set default to 0 |-\|/-| 2018-02-12T09:24:45Z Merged pull request |-\|/-| 2555 +304 −69 cs 3|-\|/-| 
+LogBuilder - Check level before allocation of Properties-dictionary |-\|/-| 2018-02-05T10:14:34Z Merged pull request |-\|/-| 2554 +13 −13 cs 1|-\|/-| 
+Blackhole LoggingRule without targets |-\|/-| 2018-01-28T19:27:28Z Merged pull request |-\|/-| 2551 +31 −0 cs 2|-\|/-| 
+DefaultJsonSerializer - Reflection should skip index-item-properties |-\|/-| 2018-02-05T10:13:55Z Merged pull request |-\|/-| 2550 +17 −2 cs 3|-\|/-| 
+LoggingConfiguration - FindTargetByName should also find target + fix for logging on a target even after removed  |-\|/-| 2018-02-05T10:13:13Z Merged pull request |-\|/-| 2549 +152 −30 cs 4|-\|/-| 
+IAppDomain.FriendlyName should also work on NetStandard15 |-\|/-| 2018-02-05T10:11:02Z Merged pull request |-\|/-| 2548 +37 −0 cs 1|-\|/-| 
+Windows EventLog for NetStandard2.0 - new NLog.WindowsEventLog package |-\|/-| 2018-05-25T16:17:09Z Merged pull request |-\|/-| 2547 +193 −33 yml ps1 csproj cs sln 9|-\|/-| 
+MessageTemplate renderer with support for mixed mode templates |-\|/-| 2018-02-06T19:45:42Z Merged pull request |-\|/-| 2544 +146 −36 cs 4|-\|/-| 
+Added TooManyStructuredParametersShouldKeepBeInParamList testcase |-\|/-| 2018-02-12T12:21:25Z Merged pull request |-\|/-| 2542 +34 −14 cs 1|-\|/-| 
+Added mixed structured logging tests |-\|/-| 2018-02-06T19:46:07Z Closed pull request |-\|/-| 2540 +69 −16 cs 4|-\|/-| 
+Renamed ValueSerializer to ValueFormatter |-\|/-| 2018-02-05T10:17:22Z Merged pull request |-\|/-| 2538 +52 −88 cs 7|-\|/-| 
+Docs for DefaultJsonSerializer/(i)ValueSerializer |-\|/-| 2018-01-22T14:00:34Z Merged pull request |-\|/-| 2534 +79 −12 cs 3|-\|/-| 
+FileTarget - Dynamic archive mode with more strict file-mask for cleanup |-\|/-| 2018-01-19T22:54:18Z Merged pull request |-\|/-| 2524 +94 −19 cs 3|-\|/-| 
+RegisterItemsFromAssembly - Include assemblies from nuget packages (Strict) |-\|/-| 2018-01-20T00:08:39Z Merged pull request |-\|/-| 2519 +11 −5 cs 2|-\|/-| 
+DatabaseTarget - Added DbProvider System.Data.SqlClient for NetStandard |-\|/-| 2018-01-15T19:09:12Z Merged pull request |-\|/-| 2518 +1 −0 cs 1|-\|/-| 
+Update nuspec NLog.Config and NLog.Schema |-\|/-| 2018-02-12T10:34:16Z Closed pull request |-\|/-| 2517 +21 −20 proj nuspec exe 4|-\|/-| 
+Added missing docgen for different options (Less noise in appveyor) |-\|/-| 2018-01-15T14:48:02Z Merged pull request |-\|/-| 2514 +119 −63 cs 20|-\|/-| 
+Update docs for [AppDomainFixedOutput], remove [AppDomainFixedOutput] on ${currentDir} |-\|/-| 2018-01-15T09:38:20Z Merged pull request |-\|/-| 2513 +6 −1 cs 2|-\|/-| 
+LogManager.LoadConfiguration - Support relative paths by default |-\|/-| 2018-01-14T22:39:37Z Merged pull request |-\|/-| 2512 +12 −4 cs 2|-\|/-| 
+Database target entity framework connection string |-\|/-| 2018-01-15T09:39:29Z Merged pull request |-\|/-| 2510 +62 −6 cs 2|-\|/-| 
+Reduce string allocations for logevents with single target destination |-\|/-| 2018-01-14T19:42:33Z Merged pull request |-\|/-| 2507 +196 −70 cs 5|-\|/-| 
+${gdc}, ${mdc} & {mdlc} - Support Format parameter |-\|/-| 2018-01-10T23:26:58Z Merged pull request |-\|/-| 2500 +76 −9 cs 6|-\|/-| 
+RegisterItemsFromAssembly - Include assemblies from nuget packages (Fix) |-\|/-| 2018-01-10T20:00:16Z Merged pull request |-\|/-| 2497 +2 −2 cs 1|-\|/-| 
+Logger with support for WithProperty and WithLogicalContext |-\|/-| 2019-04-22T00:28:16Z Closed pull request |-\|/-| 2496 +135 −6 cs 3|-\|/-| 
+MultiFileWatcher - Detach from FileSystemWatcher before disposing |-\|/-| 2018-01-09T23:43:38Z Merged pull request |-\|/-| 2495 +14 −9 cs 2|-\|/-| 
+RegisterItemsFromAssembly - Include assemblies from nuget packages |-\|/-| 2018-01-09T22:56:04Z Merged pull request |-\|/-| 2493 +61 −2 cs csproj 6|-\|/-| 
+Added ${currentDir} |-\|/-| 2018-01-11T23:44:58Z Merged pull request |-\|/-| 2491 +140 −0 cs 2|-\|/-| 
+LogEventInfo.MessageTemplateParameters as class instead of interface |-\|/-| 2018-01-15T12:44:43Z Merged pull request |-\|/-| 2490 +4 −61 cs 3|-\|/-| 
+${AssemblyVersion}: add type (File, Assembly, Informational) option |-\|/-| 2018-01-04T21:27:45Z Merged pull request |-\|/-| 2487 +303 −25 cs 4|-\|/-| 
+JsonConverter- Sanitize Exception.Data dictionary keys option (on by default) |-\|/-| 2018-01-10T19:34:11Z Merged pull request |-\|/-| 2486 +74 −36 cs 4|-\|/-| 
+FileTarget - Dispose Archive-Mutex after completing file-archive |-\|/-| 2018-01-03T23:50:13Z Merged pull request |-\|/-| 2485 +38 −39 cs 3|-\|/-| 
+fix typo |-\|/-| 2018-01-03T23:50:28Z Merged pull request |-\|/-| 2477 +1 −1 cs 1|-\|/-| 
+Fix XmlLoggingConfiguration reloading |-\|/-| 2018-01-03T23:29:33Z Merged pull request |-\|/-| 2475 +35 −2 cs 2|-\|/-| 
+LogManager.LoadConfiguration - Prepare for custom config file readers |-\|/-| 2018-01-10T19:36:06Z Merged pull request |-\|/-| 2472 +44 −24 cs 2|-\|/-| 
+TreatWarningsAsErrors = true |-\|/-| 2018-01-03T23:28:56Z Merged pull request |-\|/-| 2471 +10 −5 csproj cs 5|-\|/-| 
+TargetWithContext - Easier to capture snapshot of MDLC and NDLC context |-\|/-| 2018-02-12T12:20:53Z Merged pull request |-\|/-| 2467 +1,170 −62 cs 15|-\|/-| 
+Add methods to enabling/disabling LogLevels |-\|/-| 2018-01-03T23:51:24Z Merged pull request |-\|/-| 2464 +52 −0 cs 2|-\|/-| 
+AsyncLogEventInfo - Removed private setter |-\|/-| 2017-12-12T23:58:18Z Merged pull request |-\|/-| 2462 +2 −3 cs 1|-\|/-| 
+NLog 4.5 rc3 version and changelog |-\|/-| 2017-12-11T22:59:55Z Merged pull request |-\|/-| 2460 +9 −3 ps1 csproj 2|-\|/-| 
+StringBuilderExt.CopyToStream - Optimize MemoryStream allocation |-\|/-| 2017-12-11T20:29:20Z Merged pull request |-\|/-| 2459 +9 −9 cs 3|-\|/-| 
+Document and (minor) refactor on MruCache class |-\|/-| 2017-12-11T20:21:36Z Merged pull request |-\|/-| 2458 +22 −22 cs 1|-\|/-| 
+FileTarget: Support byte order mark (optional) |-\|/-| 2017-12-11T20:27:26Z Merged pull request |-\|/-| 2456 +56 −9 cs 2|-\|/-| 
+NestedDiagnosticsContext - Only allocate Stack-object on Write |-\|/-| 2017-12-11T20:22:42Z Merged pull request |-\|/-| 2453 +20 −8 cs 1|-\|/-| 
+ThreadLocalStorageHelper - NetStandard only allocate when needed |-\|/-| 2017-12-11T20:19:59Z Merged pull request |-\|/-| 2452 +6 −2 cs 1|-\|/-| 
+FileTarget - Improved and less internal logging |-\|/-| 2017-12-04T08:39:33Z Merged pull request |-\|/-| 2451 +12 −10 cs 2|-\|/-| 
+No need to call  type(T) |-\|/-| 2017-12-04T08:39:44Z Merged pull request |-\|/-| 2450 +4 −1 cs 1|-\|/-| 
+Refactor: fix comment, remove unused, cleanup, String -> string etc |-\|/-| 2017-12-03T23:28:58Z Merged pull request |-\|/-| 2449 +114 −199 cs 17|-\|/-| 
+CallSiteInformation - Prepare for fast classname lookup from filename and linenumber |-\|/-| 2017-12-03T22:17:12Z Merged pull request |-\|/-| 2447 +51 −28 cs 5|-\|/-| 
+Refactor - split methodes, remove duplicates |-\|/-| 2017-12-03T21:19:17Z Merged pull request |-\|/-| 2446 +471 −392 cs 4|-\|/-| 
+NLog 4.5 RC2 version and changelog |-\|/-| 2017-12-04T08:39:58Z Merged pull request |-\|/-| 2444 +59 −6 ps1 csproj 2|-\|/-| 
+Support for UWP platform |-\|/-| 2017-12-03T00:11:33Z Merged pull request |-\|/-| 2441 +366 −306 ps1 csproj cs 15|-\|/-| 
+Better config Better Code Hub |-\|/-| 2017-12-03T00:11:18Z Merged pull request |-\|/-| 2439 +5 −2 yml 1|-\|/-| 
+Added "regex-matches" condition method for filtering |-\|/-| 2017-12-03T00:17:16Z Merged pull request |-\|/-| 2437 +49 −0 cs 2|-\|/-| 
+.NET Core  - Improve auto loading of NLog extension dlls |-\|/-| 2017-12-01T23:30:33Z Merged pull request |-\|/-| 2431 +111 −25 cs 1|-\|/-| 
+License should explicit state BSD 3 Clause |-\|/-| 2017-11-27T19:33:35Z Closed pull request |-\|/-| 2429 +6 −5 txt 0|-\|/-| 
+Avoid unnecessary string-allocation, skip unnecessary lock |-\|/-| 2017-11-27T21:36:19Z Merged pull request |-\|/-| 2422 +58 −15 cs 4|-\|/-| 
+Changed IIncludeContext to internal interface until someone needs it |-\|/-| 2017-11-26T22:48:59Z Merged pull request |-\|/-| 2421 +1 −5 cs 1|-\|/-| 
+Merged CallSite Test from PR1812 |-\|/-| 2017-11-25T20:13:19Z Merged pull request |-\|/-| 2420 +22 −0 cs 1|-\|/-| 
+Logger - Added missing MessageTemplateFormatMethodAttribute + removed obsolete internal method |-\|/-| 2017-11-27T21:33:59Z Merged pull request |-\|/-| 2419 +27 −25 cs tt 3|-\|/-| 
+LoggingConfiguration - Modify and clone LoggingRules under lock |-\|/-| 2017-11-29T21:06:23Z Merged pull request |-\|/-| 2418 +52 −42 cs 5|-\|/-| 
+IsMono - Cache Type.GetType to avoid constant AppDomain.TypeResolve events |-\|/-| 2017-11-25T20:15:16Z Merged pull request |-\|/-| 2417 +45 −1 cs 2|-\|/-| 
+NetStandard15 - Moved dependency System.Xml.XmlSerializer to NLog.Wcf |-\|/-| 2017-11-22T23:02:09Z Merged pull request |-\|/-| 2415 +2 −3 csproj cs 3|-\|/-| 
+Revert breaking change of NestedDiagnosticsLogicalContext.Pop() |-\|/-| 2017-11-23T11:06:54Z Merged pull request |-\|/-| 2414 +6 −4 cs 2|-\|/-| 
+NestedDiagnosticsLogicalContext - Protect against double dispose |-\|/-| 2017-11-22T23:01:50Z Merged pull request |-\|/-| 2413 +7 −3 cs 1|-\|/-| 
+MessageTemplate - Render test of DateTime, TimeSpan, DateTimeOffset |-\|/-| 2017-11-22T23:00:26Z Merged pull request |-\|/-| 2412 +33 −0 cs 1|-\|/-| 
+Create SequenceIdLayoutRenderer |-\|/-| 2017-11-22T21:25:27Z Merged pull request |-\|/-| 2411 +106 −0 cs 2|-\|/-| 
+Revert "Avoid struct copy on readonly field access" |-\|/-| 2017-11-22T21:23:09Z Merged pull request |-\|/-| 2409 +14 −14 cs 5|-\|/-| 
+Feature 2049: Added DatabaseTargetWritten event to LogEventInfo w/ Tests |-\|/-| 2017-11-22T17:09:17Z Closed pull request |-\|/-| 2408 +201 −4 cs 4|-\|/-| 
+NLogTraceListener - set DisableFlush true by default |-\|/-| 2017-11-19T09:51:38Z Merged pull request |-\|/-| 2407 +8 −0 cs 1|-\|/-| 
+From [StringFormatMethod] to [MessageTemplateFormatMethod] |-\|/-| 2017-11-20T07:17:33Z Merged pull request |-\|/-| 2406 +638 −561 cs 5|-\|/-| 
+Added unit test for JsonLayout - serialize of objects |-\|/-| 2017-11-19T09:52:06Z Merged pull request |-\|/-| 2405 +33 −0 cs 1|-\|/-| 
+Updated NLog viewer target defaults |-\|/-| 2017-11-19T09:52:30Z Merged pull request |-\|/-| 2404 +2 −1 cs 2|-\|/-| 
+NLog 4.5 beta 8 |-\|/-| 2017-11-20T07:18:40Z Merged pull request |-\|/-| 2403 +5 −2 ps1 csproj 2|-\|/-| 
+Introduced NLog.Wcf and Nlog.WindowsIdentity for .NET standard |-\|/-| 2017-11-19T21:52:43Z Merged pull request |-\|/-| 2402 +364 −41 ps1 csproj cs sln 8|-\|/-| 
+MailTarget is supported by NetStandard2.0 (but without SmtpSection) |-\|/-| 2017-11-18T21:52:03Z Merged pull request |-\|/-| 2401 +22 −14 cs 5|-\|/-| 
+Avoid struct copy on readonly field access |-\|/-| 2017-11-18T20:26:51Z Merged pull request |-\|/-| 2399 +17 −18 cs 7|-\|/-| 
+Log4JXml - Fixed initalization of XmlWriterSettings for IndentXml |-\|/-| 2017-11-18T20:30:45Z Merged pull request |-\|/-| 2398 +11 −2 cs 2|-\|/-| 
+Update xunit and Microsoft.NET.Test.Sdk |-\|/-| 2017-11-18T18:05:48Z Merged pull request |-\|/-| 2396 +4 −4 csproj 1|-\|/-| 
+Removed unneeded default references like System.Drawing for NetFramework |-\|/-| 2017-11-17T21:14:08Z Merged pull request |-\|/-| 2392 +16 −3 csproj 2|-\|/-| 
+NLogViewerTarget - Enable override of the Logger-name |-\|/-| 2017-11-17T21:13:36Z Merged pull request |-\|/-| 2390 +19 −2 cs 3|-\|/-| 
+Fixed Sonar Lint code analysis warnings |-\|/-| 2017-11-18T18:06:50Z Merged pull request |-\|/-| 2389 +148 −162 cs 13|-\|/-| 
+PropertiesDictionary - Removed obsolete (private) method |-\|/-| 2017-11-17T21:00:37Z Merged pull request |-\|/-| 2388 +3 −20 cs 1|-\|/-| 
+JsonConverter - Do not include static properties by default |-\|/-| 2017-11-17T22:34:15Z Merged pull request |-\|/-| 2387 +1 −1 cs 1|-\|/-| 
+LogEventInfo.StackTrace moved into CallSiteInformation |-\|/-| 2017-11-18T20:30:13Z Merged pull request |-\|/-| 2386 +482 −229 cs 4|-\|/-| 
+FileTarget - ArchiveMutex only created when needed |-\|/-| 2017-11-17T21:01:40Z Merged pull request |-\|/-| 2385 +15 −9 cs 3|-\|/-| 
+InternalLogger should work when NetCore loads NetFramework DLL |-\|/-| 2017-11-17T20:59:54Z Merged pull request |-\|/-| 2384 +96 −39 cs 4|-\|/-| 
+Target - Precalculate Layout should ignore sub-layouts for complex layouts |-\|/-| 2017-11-17T21:00:59Z Merged pull request |-\|/-| 2378 +95 −43 cs 9|-\|/-| 
+NDLC - Perform low resolution scope timing |-\|/-| 2017-11-17T20:59:12Z Merged pull request |-\|/-| 2377 +239 −19 cs 4|-\|/-| 
+WebServiceTarget - Allow configuration of proxy address |-\|/-| 2017-11-02T16:41:24Z Merged pull request |-\|/-| 2375 +128 −5 cs 2|-\|/-| 
+Log4JXmlEventLayoutRenderer - Minor platform fixes for IncludeNdlc |-\|/-| 2017-11-02T16:48:26Z Merged pull request |-\|/-| 2372 +34 −19 cs 3|-\|/-| 
+FileTarget - Enable archive mutex for Unix File Appender (if available) |-\|/-| 2017-11-02T16:43:18Z Merged pull request |-\|/-| 2371 +105 −100 cs 7|-\|/-| 
+ support database parameter DbType and value convertion |-\|/-| 2018-09-18T20:58:30Z Closed pull request |-\|/-| 2363 +357 −16 cs 3|-\|/-| 
+NLog - NETSTANDARD1_5 (Cleanup package references) |-\|/-| 2017-10-16T10:44:16Z Merged pull request |-\|/-| 2362 +24 −25 cs csproj 8|-\|/-| 
+Use expression-bodied members |-\|/-| 2017-10-16T10:41:05Z Merged pull request |-\|/-| 2361 +341 −751 cs tt 13|-\|/-| 
+WrapperLayoutRendererBase - Transform with access to LogEventInfo |-\|/-| 2017-10-15T12:08:17Z Merged pull request |-\|/-| 2359 +12 −2 cs 1|-\|/-| 
+WrapperLayoutRendererBuilderBase - Transform with access to LogEventInfo |-\|/-| 2017-10-14T16:56:11Z Merged pull request |-\|/-| 2358 +12 −2 cs 1|-\|/-| 
+ExceptionLayoutRenderer - Support Serialize Format |-\|/-| 2017-10-14T23:20:38Z Merged pull request |-\|/-| 2357 +176 −110 cs 3|-\|/-| 
+NLog - MessageTemplates - Renamed config to parseMessageTemplates |-\|/-| 2017-10-14T16:52:08Z Merged pull request |-\|/-| 2356 +16 −11 cs xml 4|-\|/-| 
+NLog - NETSTANDARD1_5 (revert breaking change) |-\|/-| 2017-10-14T13:13:58Z Merged pull request |-\|/-| 2354 +6 −1 cs 1|-\|/-| 
+remove old package.config |-\|/-| 2017-10-14T16:51:09Z Merged pull request |-\|/-| 2353 +0 −5 config 1|-\|/-| 
+Hubo:DatabaseTarget |-\|/-| 2017-10-13T08:52:39Z Closed pull request |-\|/-| 2351 +354 −13 cs 3|-\|/-| 
+NLog - NETSTANDARD1_5 (Fix uppercase with culture) |-\|/-| 2017-10-12T21:52:57Z Merged pull request |-\|/-| 2349 +1 −1 cs 1|-\|/-| 
+NLog MessageTemplateParameter with CaptureType |-\|/-| 2017-10-12T16:17:14Z Merged pull request |-\|/-| 2348 +145 −99 cs 6|-\|/-| 
+Add messageTemplateParser to XSD |-\|/-| 2017-10-12T16:17:49Z Merged pull request |-\|/-| 2346 +5 −0 xml 1|-\|/-| 
+Remove redundant qualifiers |-\|/-| 2017-10-13T15:49:52Z Merged pull request |-\|/-| 2342 +3,751 −3,753 cs 10|-\|/-| 
+NLog - NETSTANDARD1_5 |-\|/-| 2017-10-12T19:00:27Z Merged pull request |-\|/-| 2341 +896 −148 ps1 cs 14|-\|/-| 
+NLog - MessageTemplateParameters - Always parse when IsPositional |-\|/-| 2017-10-12T14:02:39Z Merged pull request |-\|/-| 2340 +43 −52 cs 3|-\|/-| 
+Use string interpolation |-\|/-| 2017-10-12T07:42:27Z Merged pull request |-\|/-| 2337 +162 −131 cs 22|-\|/-| 
+Remove redundant qualifiers |-\|/-| 2017-10-12T02:01:26Z Closed pull request |-\|/-| 2336 +0 −0 0|-\|/-| 
+fix xunit warning |-\|/-| 2017-10-10T12:52:07Z Merged pull request |-\|/-| 2328 +1 −1 cs 1|-\|/-| 
+Naming: consistent private fields |-\|/-| 2017-10-11T07:41:36Z Merged pull request |-\|/-| 2327 +1,236 −1,232 cs 2|-\|/-| 
+NLog - ValueSerializer - Faster integer and enum |-\|/-| 2017-10-10T18:41:28Z Merged pull request |-\|/-| 2326 +97 −28 cs 3|-\|/-| 
+ValueSerializer: support bool |-\|/-| 2017-10-09T22:24:42Z Closed pull request |-\|/-| 2320 +0 −0 0|-\|/-| 
+NLog - MessageTemplateParameter - IsReservedFormat |-\|/-| 2017-10-09T22:16:47Z Merged pull request |-\|/-| 2319 +72 −5 cs 5|-\|/-| 
+NLog 4.5 beta 4 |-\|/-| 2017-10-10T18:49:27Z Merged pull request |-\|/-| 2318 +4 −3 ps1 csproj 2|-\|/-| 
+More explicit side effect |-\|/-| 2017-10-09T22:46:25Z Merged pull request |-\|/-| 2317 +4 −3 cs 1|-\|/-| 
+LogManager.LogFactory public |-\|/-| 2017-10-09T19:17:07Z Merged pull request |-\|/-| 2316 +3 −2 cs 1|-\|/-| 
+Fix typo in NLogTraceListener.ProcessLogEventInfo |-\|/-| 2019-05-03T18:18:14Z Merged pull request |-\|/-| 2315 +4 −4 cs 1|-\|/-| 
+Refactor InternalLogger class |-\|/-| 2017-10-14T16:53:01Z Merged pull request |-\|/-| 2314 +133 −68 cs 1|-\|/-| 
+Removal of old package.config files |-\|/-| 2017-10-07T07:32:27Z Merged pull request |-\|/-| 2313 +0 −24 config 2|-\|/-| 
+Improve stability of unstable test on Travis: BufferingTargetWrapperA… |-\|/-| 2017-10-07T08:59:01Z Merged pull request |-\|/-| 2312 +2 −2 cs 1|-\|/-| 
+Upgrade xUnit to 2.3.0 RTM |-\|/-| 2017-10-07T07:33:44Z Merged pull request |-\|/-| 2310 +4 −4 csproj 1|-\|/-| 
+2017 copyright in T4 files |-\|/-| 2017-10-07T08:58:12Z Merged pull request |-\|/-| 2309 +4 −4 tt 3|-\|/-| 
+EntityFrameworkTarget fixes #98 |-\|/-| 2018-01-15T22:31:16Z Closed pull request |-\|/-| 2308 +113 −0 cs 1|-\|/-| 
+Copyright to 2017 |-\|/-| 2017-10-02T23:05:49Z Merged pull request |-\|/-| 2302 +555 −555 txt cs 56|-\|/-| 
+Docs, rename and refactor of PropertiesDictionary/MessageTemplateParameters |-\|/-| 2017-10-03T06:16:21Z Merged pull request |-\|/-| 2301 +97 −104 cs 1|-\|/-| 
+Fixed title |-\|/-| 2017-10-01T22:00:30Z Merged pull request |-\|/-| 2300 +1 −1 csproj 1|-\|/-| 
+Search also for lowercase nlog.config |-\|/-| 2017-09-30T21:14:43Z Merged pull request |-\|/-| 2298 +19 −19 cs 1|-\|/-| 
+WhenRepeatedFilter - Log after timeout |-\|/-| 2017-09-30T20:27:38Z Merged pull request |-\|/-| 2297 +116 −21 cs 2|-\|/-| 
+${callsite} added CleanNamesOfAsyncContinuations  option |-\|/-| 2017-10-07T07:39:31Z Merged pull request |-\|/-| 2292 +122 −11 cs 2|-\|/-| 
+Improve Unit test performance |-\|/-| 2017-09-23T19:16:49Z Merged pull request |-\|/-| 2291 +366 −111 cs 4|-\|/-| 
+Do not report wrapped targets as unused targets |-\|/-| 2017-10-09T22:26:31Z Merged pull request |-\|/-| 2290 +71 −1 cs 3|-\|/-| 
+${Exception} allowing Layouts for Separators |-\|/-| 2017-09-23T19:20:43Z Closed pull request |-\|/-| 2285 +87 −35 cs 2|-\|/-| 
+Fix xUnit 2 warnings |-\|/-| 2017-09-19T22:29:30Z Merged pull request |-\|/-| 2284 +404 −388 cs 7|-\|/-| 
+VS2017 - NetCore2 (Fixed package dependency) |-\|/-| 2017-09-19T18:31:14Z Merged pull request |-\|/-| 2283 +1 −1 csproj 1|-\|/-| 
+Fix for garbled callsite info after await-calls  |-\|/-| 2017-10-07T00:12:55Z Closed pull request |-\|/-| 2281 +922 −421 md cs csproj 8|-\|/-| 
+NetStandard -  ${WindowsIdentity} and System.Security.Principal.Windows dependency |-\|/-| 2017-09-16T18:55:42Z Merged pull request |-\|/-| 2277 +2 −4 cs json 3|-\|/-| 
+Adding OverflowAction options to BufferingTargetWrapper |-\|/-| 2017-09-19T21:26:03Z Merged pull request |-\|/-| 2276 +137 −1 cs 3|-\|/-| 
+Travis NET core (without sudo) |-\|/-| 2017-09-04T22:24:17Z Closed pull request |-\|/-| 2273 +1 −2 yml 1|-\|/-| 
+Fix: ReconfigExistingLoggers sometimes throws an Exception #2228 |-\|/-| 2017-09-03T15:15:11Z Merged pull request |-\|/-| 2269 +36 −19 cs json 4|-\|/-| 
+Update NLog 5.0 with NLog 4.4.12 |-\|/-| 2017-09-03T15:20:40Z Closed pull request |-\|/-| 2268 +6,370 −1,994 md yml ps1 proj cs 10|-\|/-| 
+FallbackGroup loses events with async targets |-\|/-| 2017-09-16T19:00:21Z Merged pull request |-\|/-| 2265 +62 −4 cs 2|-\|/-| 
+ Issue #2091 - Create common interface for Log4JXmlEventLayout and Re… |-\|/-| 2017-10-10T07:27:21Z Closed pull request |-\|/-| 2264 +74 −2 cs csproj 15|-\|/-| 
+Support .NET Standard 2.0 and move to VS 2017 |-\|/-| 2017-09-16T13:17:46Z Merged pull request |-\|/-| 2263 +2,237 −11,334 gitignore yml ps1 cmd shfbproj testrunconfig 12|-\|/-| 
+LogEventInfo.MessageTemplate - Subset of LogEventInfo.Properties |-\|/-| 2017-10-02T20:26:20Z Merged pull request |-\|/-| 2262 +1,374 −27 cs 2|-\|/-| 
+Bugfix for logging on a target even after removed #2227 |-\|/-| 2017-11-02T16:49:04Z Closed pull request |-\|/-| 2259 +120 −15 cs 4|-\|/-| 
+${exception} -  only include separator when items are available  |-\|/-| 2017-09-16T19:01:39Z Merged pull request |-\|/-| 2257 +55 −3 cs 2|-\|/-| 
+Fixed the parameter value parser (ParseParameterValue) #2249 |-\|/-| 2017-09-19T22:06:46Z Closed pull request |-\|/-| 2256 +64 −3 cs 2|-\|/-| 
+Update master with Release 4.4.12 |-\|/-| 2017-08-13T21:10:27Z Merged pull request |-\|/-| 2245 +6 −7 yml cs 2|-\|/-| 
+LogEventInfo.MessageFormatter - External Structured Logging Formatter |-\|/-| 2017-08-13T21:25:08Z Merged pull request |-\|/-| 2244 +196 −39 cs csproj 17|-\|/-| 
+NestedDiagnosticsLogicalContext - Support remote AppDomain (NLog 5) |-\|/-| 2017-08-13T21:51:05Z Merged pull request |-\|/-| 2243 +9 −1 cs 2|-\|/-| 
+NestedDiagnosticsLogicalContext - Support remote AppDomain (NLog 4.4) |-\|/-| 2017-08-13T21:30:47Z Closed pull request |-\|/-| 2242 +7 −1 cs 2|-\|/-| 
+EventPropertiesLayoutRenderer - Support Json Format |-\|/-| 2017-08-13T22:29:54Z Merged pull request |-\|/-| 2241 +53 −57 cs 8|-\|/-| 
+TraceTarget - Configure to always use Trace.WriteLine |-\|/-| 2017-09-17T22:03:25Z Merged pull request |-\|/-| 2233 +48 −4 cs 2|-\|/-| 
+Fix: ReconfigExistingLoggers sometimes throws an Exception #2228 |-\|/-| 2017-08-08T17:08:16Z Merged pull request |-\|/-| 2229 +5 −6 cs 1|-\|/-| 
+${guid}, added GeneratedFromLogEvent |-\|/-| 2017-09-17T21:02:39Z Merged pull request |-\|/-| 2226 +98 −1 cs 2|-\|/-| 
+WebServiceTarget - Write multiple LogEvents in single request |-\|/-| 2017-08-13T21:13:17Z Merged pull request |-\|/-| 2223 +371 −29 cs 3|-\|/-| 
+NestedDiagnosticsLogicalContext - Support remote AppDomain |-\|/-| 2017-08-04T19:10:58Z Merged pull request |-\|/-| 2221 +7 −1 cs 2|-\|/-| 
+Option to throw exceptions when installation failed (ThrowExceptions on InstallationContext) |-\|/-| 2017-07-13T19:39:56Z Merged pull request |-\|/-| 2214 +81 −15 cs 3|-\|/-| 
+Hubo |-\|/-| 2017-07-14T04:35:30Z Closed pull request |-\|/-| 2212 +64 −5 cs 2|-\|/-| 
+Added Structured events / Message Templates |-\|/-| 2017-10-09T19:05:37Z Merged pull request |-\|/-| 2208 +2,985 −270 cs 6|-\|/-| 
+Move file archive modes to separate folder |-\|/-| 2017-07-07T08:01:40Z Merged pull request |-\|/-| 2205 +144 −148 csproj cs 15|-\|/-| 
+more stable ValueWithVariableMustNotCauseInfiniteRecursion test |-\|/-| 2017-07-05T07:05:28Z Merged pull request |-\|/-| 2204 +6 −3 cs 1|-\|/-| 
+Migrate To Automatic Package Restore |-\|/-| 2017-07-05T07:05:51Z Merged pull request |-\|/-| 2203 +6 −10 proj csproj 9|-\|/-| 
+Allow configuring type of parameters for the database target (including fix for Oracle) |-\|/-| 2018-09-18T20:58:49Z Closed pull request |-\|/-| 2201 +453 −61 cs 2|-\|/-| 
+Improve code complexity |-\|/-| 2017-07-02T17:37:36Z Merged pull request |-\|/-| 2200 +251 −203 cs 1|-\|/-| 
+implement IEquatable for LineEndingMode |-\|/-| 2017-07-04T20:49:10Z Merged pull request |-\|/-| 2199 +58 −35 cs 2|-\|/-| 
+Codecov less picky |-\|/-| 2017-07-01T17:59:22Z Merged pull request |-\|/-| 2197 +6 −0 yml 1|-\|/-| 
+Dispose enumerator |-\|/-| 2017-07-02T20:11:32Z Merged pull request |-\|/-| 2196 +1 −0 cs 1|-\|/-| 
+Improve sonar build script |-\|/-| 2017-07-02T13:56:12Z Merged pull request |-\|/-| 2195 +25 −7 ps1 1|-\|/-| 
+New Substring, Left & Right Wrappers |-\|/-| 2018-11-01T22:15:44Z Closed pull request |-\|/-| 2194 +516 −2 cs 5|-\|/-| 
+Move to MSbuild 14 (VS2015) / C# 6 |-\|/-| 2017-07-01T12:28:12Z Merged pull request |-\|/-| 2192 +8 −8 proj 1|-\|/-| 
+Improve code quality by fixing Sonar warnings |-\|/-| 2017-07-01T12:19:28Z Merged pull request |-\|/-| 2191 +168 −175 ps1 cs 15|-\|/-| 
+Fix SonarQube report results |-\|/-| 2017-06-30T15:16:24Z Merged pull request |-\|/-| 2188 +219 −252 cs 6|-\|/-| 
+adding overflow event handlers |-\|/-| 2017-09-16T19:08:34Z Closed pull request |-\|/-| 2186 +84 −1 cs 4|-\|/-| 
+GetCurrentClassLogger - Fix NetCore 2.0 |-\|/-| 2017-06-22T11:42:52Z Merged pull request |-\|/-| 2182 +95 −18 cs 4|-\|/-| 
+JsonSerializer - Serialize Object Properties into StringBuilder |-\|/-| 2017-06-28T09:19:55Z Merged pull request |-\|/-| 2179 +1,718 −158 cs 3|-\|/-| 
+NdcLayoutRenderer - Defer format to string |-\|/-| 2017-06-23T22:28:56Z Merged pull request |-\|/-| 2176 +7 −5 cs 1|-\|/-| 
+Upgrade to xUnit 2  |-\|/-| 2017-09-07T20:25:08Z Closed pull request |-\|/-| 2175 +34 −35 yml proj csproj config cs 14|-\|/-| 
+Fix FileNotFoundException when loading extension DLLs.  |-\|/-| 2017-06-17T23:34:32Z Merged pull request |-\|/-| 2174 +11 −1 cs 1|-\|/-| 
+NLog 5 - Up-to-date with NLog 4.4.11 |-\|/-| 2017-06-17T23:34:12Z Merged pull request |-\|/-| 2173 +45 −14 cs 2|-\|/-| 
+NLog 5 - Up-to-date with NLog 4.4.10 |-\|/-| 2017-06-17T10:57:09Z Merged pull request |-\|/-| 2172 +2,888 −3,245 md Makefile ps1 cs 3|-\|/-| 
+Don't run SonarQube on forks |-\|/-| 2017-06-16T22:06:16Z Merged pull request |-\|/-| 2171 +26 −7 yml ps1 2|-\|/-| 
+Create README.md |-\|/-| 2017-06-15T12:15:45Z Closed pull request |-\|/-| 2167 +1 −0 md 0|-\|/-| 
+Running Database Target tests on SQLite (Mono and .NET) |-\|/-| 2017-07-05T16:28:54Z Merged pull request |-\|/-| 2165 +323 −10 csproj 4|-\|/-| 
+ JsonLayout - Don't mark ThreadAgnostic when IncludeMdc or IncludeMdlc is enabled |-\|/-| 2017-06-17T10:55:17Z Merged pull request |-\|/-| 2164 +62 −13 cs 3|-\|/-| 
+JsonLayout - IncludeMdc and IncludeMdlc are not ThreadAgnostic |-\|/-| 2017-06-15T22:38:25Z Closed pull request |-\|/-| 2163 +48 −12 cs 2|-\|/-| 
+Upgrade to xUnit 2, update package restore method |-\|/-| 2017-09-07T20:25:16Z Closed pull request |-\|/-| 2154 +567 −401 yml Config exe targets config sln proj csproj 13|-\|/-| 
+Fix sonar cache on AppVeyor |-\|/-| 2017-06-05T00:39:21Z Merged pull request |-\|/-| 2153 +1 −1 yml 1|-\|/-| 
+GetCurrentClassLogger based on Environment.StackTrace |-\|/-| 2017-06-15T22:00:11Z Merged pull request |-\|/-| 2146 +138 −183 cs 5|-\|/-| 
+NLogTraceListener - DisableFlush should be true by default |-\|/-| 2017-11-18T22:48:47Z Closed pull request |-\|/-| 2142 +0 −0 0|-\|/-| 
+Fix 	ImpersonatingTargetWrapper unit tests |-\|/-| 2017-05-29T21:25:31Z Merged pull request |-\|/-| 2140 +1 −1 cs 1|-\|/-| 
+ReloadConfigOnTimer - fix potential NullReferenceException |-\|/-| 2017-05-29T15:25:19Z Merged pull request |-\|/-| 2138 +9 −6 cs 1|-\|/-| 
+NLogTraceListener - Reduce overhead by checking LogLevel |-\|/-| 2017-05-30T22:17:35Z Merged pull request |-\|/-| 2137 +73 −38 cs 3|-\|/-| 
+Ignore loader errors in dump api tool |-\|/-| 2017-05-25T22:32:37Z Merged pull request |-\|/-| 2136 +89 −12 cs csproj config 3|-\|/-| 
+Enable SonarQube.com integration |-\|/-| 2017-05-31T16:04:46Z Merged pull request |-\|/-| 2133 +17 −3 yml 1|-\|/-| 
+Fix : LogManager.ReconfigureExistingLoggers() could throw InvalidOperationException  |-\|/-| 2017-05-21T13:21:26Z Merged pull request |-\|/-| 2131 +5 −2 cs 1|-\|/-| 
+JSON serializer: support objects, improvements and formatting, add memoryCache |-\|/-| 2017-06-23T22:33:48Z Closed pull request |-\|/-| 2128 +864 −61 cs csproj 11|-\|/-| 
+[WIP] Structured events (NLog 4.5 - alpha5) |-\|/-| 2017-10-06T23:51:13Z Closed pull request |-\|/-| 2126 +526 −127 yml csproj cs 7|-\|/-| 
+WhenRepeatedFilter - Filtering of identical LogEvents |-\|/-| 2017-06-23T22:35:51Z Merged pull request |-\|/-| 2123 +865 −4 cs csproj 13|-\|/-| 
+NdlcLayoutRenderer - Removed premature optimization |-\|/-| 2017-05-19T07:49:15Z Merged pull request |-\|/-| 2118 +22 −64 cs 2|-\|/-| 
+Added IIncludeContext, implemented missing properties, added includeNdlc, sync NDLC and NDC |-\|/-| 2017-10-10T07:22:30Z Merged pull request |-\|/-| 2117 +254 −26 cs 5|-\|/-| 
+Log4JXmlEventLayout code improvements |-\|/-| 2017-10-10T07:27:57Z Closed pull request |-\|/-| 2116 +63 −4 cs csproj 4|-\|/-| 
+Log4JXmlEventLayout code improvements |-\|/-| 2017-05-17T18:21:14Z Closed pull request |-\|/-| 2115 +1,934 −3 testrunconfig targets sln 9|-\|/-| 
+EventlogTarget: Support for MaximumKilobytes |-\|/-| 2017-05-17T19:43:04Z Merged pull request |-\|/-| 2114 +30 −1 cs 1|-\|/-| 
+BugFix: <targets> after <rules> won't work |-\|/-| 2017-05-22T19:19:40Z Merged pull request |-\|/-| 2113 +86 −4 cs csproj 6|-\|/-| 
+LogReceiverWebServiceTarget - Ensure PrecalculateVolatileLayouts |-\|/-| 2017-05-17T20:52:53Z Merged pull request |-\|/-| 2112 +59 −35 cs 1|-\|/-| 
+NdlcLayoutRenderer - Nested Diagnostics Logical Context |-\|/-| 2017-05-17T20:50:58Z Merged pull request |-\|/-| 2110 +638 −6 cs csproj 13|-\|/-| 
+JsonLayout - IncludeMdc and IncludeMdlc |-\|/-| 2017-05-17T08:38:55Z Merged pull request |-\|/-| 2109 +99 −16 cs 4|-\|/-| 
+Merged 4.4.9 into Structured Events |-\|/-| 2017-05-13T16:34:29Z Closed pull request |-\|/-| 2107 +3,412 −3,624 md yml Makefile 2|-\|/-| 
+Improve Install of targets / crash Install on Databasetarget. |-\|/-| 2017-05-17T19:46:42Z Merged pull request |-\|/-| 2103 +85 −20 cs 2|-\|/-| 
+LogFactory.Shutdown - Add warning on target flush timeout |-\|/-| 2017-05-10T08:02:43Z Merged pull request |-\|/-| 2101 +5 −1 cs 1|-\|/-| 
+MailTarget - Flush should wait for SmtpClient.SendCompleted |-\|/-| 2017-05-09T20:59:24Z Closed pull request |-\|/-| 2100 +186 −28 cs 2|-\|/-| 
+Fixes #2045 by moving rule elements of List<NLogXmlElement> children … |-\|/-| 2017-05-22T19:18:54Z Closed pull request |-\|/-| 2096 +83 −1 cs csproj 3|-\|/-| 
+Fix: include ignoreErrors attribute not working for non-existent file |-\|/-| 2017-05-05T20:44:01Z Merged pull request |-\|/-| 2095 +38 −4 cs 2|-\|/-| 
+Fixed bug to logging by day of week [Исправлена ошибка с логированием… |-\|/-| 2017-05-05T20:44:41Z Merged pull request |-\|/-| 2093 +7 −1 cs 1|-\|/-| 
+Log4JXmlEventLayout - Fixed bug with empty nlog:properties.  Log4JXmlEventLayoutRenderer : added IncludeAllProperties option. Log4JXmlEventLayout: added IncludeAllProperties, IncludeMdlc  and IncludeMdc option   |-\|/-| 2017-05-04T20:47:37Z Merged pull request |-\|/-| 2090 +143 −33 cs 8|-\|/-| 
+Up to date NLog 5 with NLog 4.4.8 |-\|/-| 2017-06-17T10:55:54Z Closed pull request |-\|/-| 2085 +1,458 −2,979 md Makefile cs 2|-\|/-| 
+Up to date NLog 5 with NLog 4.4.8 |-\|/-| 2017-04-29T23:38:54Z Closed pull request |-\|/-| 2084 +1,630 −3,110 md Makefile yml cs 4|-\|/-| 
+Include MDLC in log4j renderer |-\|/-| 2017-04-26T17:55:12Z Merged pull request |-\|/-| 2078 +48 −1 cs 3|-\|/-| 
+StackTraceLayoutRenderer with Raw format should display source FileName |-\|/-| 2017-04-25T19:14:00Z Merged pull request |-\|/-| 2075 +4 −8 cs 2|-\|/-| 
+LayoutRenderer Initialize should swallow exceptions when configured |-\|/-| 2019-05-03T22:44:09Z Merged pull request |-\|/-| 2069 +30 −5 cs 3|-\|/-| 
+${EventProperties}, ${newline}, ${basedir} & ${tempdir} as ThreadAgnostic |-\|/-| 2017-04-24T21:04:14Z Merged pull request |-\|/-| 2067 +6 −3 cs 4|-\|/-| 
+JsonLayout - Added JsonAttribute property EscapeUnicode |-\|/-| 2017-04-24T20:56:50Z Merged pull request |-\|/-| 2063 +62 −18 cs 5|-\|/-| 
+MethodCallTarget - Fixed possible null-reference-exception on initialize |-\|/-| 2017-04-18T21:25:31Z Merged pull request |-\|/-| 2061 +5 −4 cs 1|-\|/-| 
+Support UWP, fix unit tests on AppVeyor, enabled more layoutrenderers on netstandard |-\|/-| 2017-04-28T20:18:52Z Merged pull request |-\|/-| 2055 +1,463 −1,046 ps1 cs 7|-\|/-| 
+Add UWP support |-\|/-| 2017-04-28T20:22:02Z Closed pull request |-\|/-| 2053 +77 −13 cs json 13|-\|/-| 
+Added LogMessageGenerator overloads for exceptions |-\|/-| 2017-04-09T18:35:29Z Merged pull request |-\|/-| 2051 +249 −37 cs csproj 13|-\|/-| 
+Layout - Ensure StackTraceUsage works for all types of Layout |-\|/-| 2017-04-11T20:32:08Z Merged pull request |-\|/-| 2048 +189 −152 cs 5|-\|/-| 
+Updated T4 with changes from #1719 and #1814 |-\|/-| 2017-04-03T08:58:52Z Merged pull request |-\|/-| 2046 +59 −45 cs tt csproj xml config 17|-\|/-| 
+AutoFlushTargetWrapper - Added AsyncFlush property |-\|/-| 2017-03-30T18:29:14Z Merged pull request |-\|/-| 2042 +66 −17 cs 2|-\|/-| 
+ Reduce memory allocations (AsyncContinuation exceptionHandler) & refactor |-\|/-| 2017-03-30T21:13:52Z Merged pull request |-\|/-| 2041 +126 −168 cs csproj 13|-\|/-| 
+WebServiceTarget - Avoid re-throwing exceptions in async completion method |-\|/-| 2017-03-30T19:25:52Z Merged pull request |-\|/-| 2040 +4 −4 cs 1|-\|/-| 
+Enabled more NLog features for NETSTANDARD1_3 |-\|/-| 2017-04-03T21:35:26Z Merged pull request |-\|/-| 2039 +238 −272 cs 16|-\|/-| 
+Remove old Wix installer / makefile |-\|/-| 2017-04-11T16:26:40Z Merged pull request |-\|/-| 2038 +0 −2,644 Makefile bmp design ico wixproj txt rtf 7|-\|/-| 
+${level} add format option (full, single char and ordinal) |-\|/-| 2017-03-30T21:15:48Z Merged pull request |-\|/-| 2034 +209 −1 cs csproj 16|-\|/-| 
+Bring NLog 5.0 up-to-date with NLog 4.4.5 |-\|/-| 2017-04-03T21:00:54Z Merged pull request |-\|/-| 2033 +1,483 −520 md config nlog cs sln xml csproj xaml properties 24|-\|/-| 
+Re-implement GetCulture(LogEventInfo, CultureInfo) in LayoutRenderer |-\|/-| 2017-03-27T17:19:59Z Merged pull request |-\|/-| 2030 +1 −12 cs 1|-\|/-| 
+Layout class refactoring |-\|/-| 2017-03-28T20:24:49Z Merged pull request |-\|/-| 2029 +52 −55 cs 4|-\|/-| 
+MdlcLayoutRenderer - AsyncLocal for NET4_6 and NETSTANDARD1_3 |-\|/-| 2017-03-28T20:23:12Z Merged pull request |-\|/-| 2025 +64 −34 cs 4|-\|/-| 
+Cleanup folders |-\|/-| 2017-03-22T22:37:28Z Merged pull request |-\|/-| 2023 +0 −15 config nlog csproj cs sln xml xaml 33|-\|/-| 
+Remove Sonar integration |-\|/-| 2017-03-22T22:37:03Z Merged pull request |-\|/-| 2022 +0 −20 yml properties 2|-\|/-| 
+Refactoring of LayoutRenderer class |-\|/-| 2017-03-27T16:40:27Z Closed pull request |-\|/-| 2021 +29 −39 cs 1|-\|/-| 
+Layout class refactoring |-\|/-| 2017-03-27T16:37:18Z Closed pull request |-\|/-| 2020 +80 −78 cs 4|-\|/-| 
+WebServiceTarget - Fix boolean parameter conversion for Xml and Json (lowercase) & merged the JSON serializer code into DefaultJsonSerializer |-\|/-| 2017-03-22T19:30:19Z Merged pull request |-\|/-| 2017 +366 −272 cs 3|-\|/-| 
+Merge pull request #1 from NLog/master |-\|/-| 2017-03-16T11:45:10Z Closed pull request |-\|/-| 2015 +0 −0 0|-\|/-| 
+LogFactory - Ensure to flush and close on shutdown (enhancement) |-\|/-| 2017-03-15T21:45:25Z Merged pull request |-\|/-| 2011 +39 −42 cs 1|-\|/-| 
+LogFactory - Ensure to flush and close on shutdown |-\|/-| 2017-03-12T00:41:51Z Merged pull request |-\|/-| 2010 +26 −24 cs 3|-\|/-| 
+Load assembly event |-\|/-| 2017-03-10T21:35:43Z Merged pull request |-\|/-| 2009 +165 −5 cs csproj 15|-\|/-| 
+Target.Close() - Extra logging to investigate shutdown order |-\|/-| 2017-03-08T22:25:45Z Merged pull request |-\|/-| 2007 +2 −0 cs 1|-\|/-| 
+Added AsyncTaskTarget - Base class for using async methods |-\|/-| 2017-04-03T20:38:49Z Merged pull request |-\|/-| 2006 +555 −0 csproj 12|-\|/-| 
+Update XSD for <NLog> options |-\|/-| 2017-03-05T19:15:17Z Merged pull request |-\|/-| 2003 +23 −5 cs xml 2|-\|/-| 
+Add weekly archival option to FileTarget |-\|/-| 2017-03-10T21:33:28Z Merged pull request |-\|/-| 2000 +92 −8 cs 3|-\|/-| 
+Proper apply default-target-parameters to nested targets in WrappedTargets |-\|/-| 2017-02-27T22:54:28Z Merged pull request |-\|/-| 1995 +35 −11 cs 2|-\|/-| 
+FileArchiveModeFactory - Extracted from FileTarget |-\|/-| 2017-06-23T22:43:56Z Merged pull request |-\|/-| 1993 +1,760 −888 cs csproj 14|-\|/-| 
+Fixed merge error of XML documentation for Target Write-methods |-\|/-| 2017-02-27T21:13:41Z Merged pull request |-\|/-| 1992 +5 −8 cs 1|-\|/-| 
+Pass activity ID into child thread to preserve correlation |-\|/-| 2017-02-23T13:02:39Z Closed pull request |-\|/-| 1985 +10 −0 cs 1|-\|/-| 
+update xsd template (internallogger) for 4.4.3 version |-\|/-| 2017-02-21T21:23:28Z Merged pull request |-\|/-| 1977 +6 −2 xml 1|-\|/-| 
+NuGet package: release notes to link |-\|/-| 2017-03-16T11:44:37Z Merged pull request |-\|/-| 1974 +18 −17 nuspec 1|-\|/-| 
+Forward port of #1966 into CoreCLR |-\|/-| 2017-02-18T20:55:50Z Closed pull request |-\|/-| 1967 +5,230 −1,401 md json shfbproj gitignore txt cs 5|-\|/-| 
+System.UriFormatException on load (Mono) |-\|/-| 2017-02-15T20:16:00Z Merged pull request |-\|/-| 1966 +8 −1 cs 1|-\|/-| 
+Fix TimeZoneTest for negative offset |-\|/-| 2017-02-15T20:07:19Z Merged pull request |-\|/-| 1964 +1 −1 cs 1|-\|/-| 
+Add a note on building unit test project to README |-\|/-| 2017-02-13T23:00:57Z Merged pull request |-\|/-| 1961 +17 −18 md 0|-\|/-| 
+EventLogTarget: Properly parse and set EventLog category |-\|/-| 2017-02-15T20:09:23Z Merged pull request |-\|/-| 1960 +56 −3 cs 2|-\|/-| 
+fix small typo at xml docs |-\|/-| 2017-02-13T17:05:13Z Merged pull request |-\|/-| 1957 +3 −3 cs 1|-\|/-| 
+Improve docs ThreadAgnosticAttribute |-\|/-| 2017-02-27T21:14:13Z Merged pull request |-\|/-| 1956 +13 −5 cs 2|-\|/-| 
+[WIP] Structured events (NLog 4.5) |-\|/-| 2017-10-06T23:51:55Z Closed pull request |-\|/-| 1951 +677 −63 yml csproj cs 9|-\|/-| 
+netstandard beta6- up-to-date with NLog 4.4.2 |-\|/-| 2017-02-18T20:56:29Z Merged pull request |-\|/-| 1944 +5,632 −1,460 md json 1|-\|/-| 
+RetryingWrapper - Reintroduced Write-method to make it almost non-breaking |-\|/-| 2017-02-05T20:41:19Z Merged pull request |-\|/-| 1943 +43 −32 cs 1|-\|/-| 
+FileTarget - KeepFileOpen should watch for file deletion, but not every second |-\|/-| 2017-02-04T09:17:39Z Merged pull request |-\|/-| 1942 +20 −7 cs 2|-\|/-| 
+FileTarget - Archive mutex tests, and adjusted some timings |-\|/-| 2017-02-05T20:45:43Z Merged pull request |-\|/-| 1941 +169 −86 cs 5|-\|/-| 
+AsyncTargetWrapper - Always use timerLockObject when changing Timer |-\|/-| 2017-02-03T17:55:18Z Merged pull request |-\|/-| 1938 +65 −75 cs 1|-\|/-| 
+LogManager.Shutdown - Verify that active config exists |-\|/-| 2017-02-03T17:56:24Z Merged pull request |-\|/-| 1937 +13 −4 cs 2|-\|/-| 
+RetryingWrapper  backwardscomp with 4.4.1 |-\|/-| 2017-02-05T20:41:32Z Closed pull request |-\|/-| 1933 +45 −31 cs 1|-\|/-| 
+FilePathLayout - Faster rendering of filename, when not ThreadAgnostic |-\|/-| 2017-02-03T17:57:34Z Merged pull request |-\|/-| 1932 +7 −0 cs 1|-\|/-| 
+FileTarget - Validate File CreationTimeUtc when non-Windows |-\|/-| 2017-02-05T20:43:40Z Merged pull request |-\|/-| 1931 +45 −21 cs 4|-\|/-| 
+Fix canonicalName for Mutex |-\|/-| 2017-01-24T16:30:16Z Merged pull request |-\|/-| 1930 +4 −3 cs json 2|-\|/-| 
+InternalLogger - Better support for multiple threads when using file |-\|/-| 2017-02-05T20:46:45Z Merged pull request |-\|/-| 1927 +14 −5 cs 1|-\|/-| 
+RetryingWrapper - Allow closing target, even when busy retrying |-\|/-| 2017-01-26T20:58:57Z Merged pull request |-\|/-| 1926 +125 −23 cs 4|-\|/-| 
+JsonLayout - Support Precalculate for async processing |-\|/-| 2017-01-26T20:57:47Z Merged pull request |-\|/-| 1925 +96 −76 cs 8|-\|/-| 
+Enable OptimizeBufferReuse for simple Target Wrappers (but not inherited) |-\|/-| 2017-06-23T22:42:28Z Merged pull request |-\|/-| 1923 +8 −0 cs 7|-\|/-| 
+Target.Write(AsyncLogEventInfo[]) marked obsolete |-\|/-| 2017-06-23T22:41:39Z Merged pull request |-\|/-| 1922 +21 −12 cs 8|-\|/-| 
+Func overloads for InternalLogger |-\|/-| 2017-01-21T13:20:48Z Merged pull request |-\|/-| 1919 +409 −16 cs tt 3|-\|/-| 
+Call NLogPackageLoader.Preload (static) for NLog packages on load |-\|/-| 2017-03-09T23:20:51Z Merged pull request |-\|/-| 1917 +194 −4 cs 3|-\|/-| 
+allow wildcard in <include> |-\|/-| 2017-01-15T23:57:18Z Merged pull request |-\|/-| 1915 +106 −19 cs 2|-\|/-| 
+basedir: added option processDir=true |-\|/-| 2017-01-14T18:25:40Z Merged pull request |-\|/-| 1914 +39 −2 cs 2|-\|/-| 
+TraceTarget - Enable OptimizeBufferReuse by default |-\|/-| 2017-06-23T22:41:14Z Merged pull request |-\|/-| 1913 +8 −6 cs 1|-\|/-| 
+WebServiceTarget - Enable OptimizeBufferReuse by default & Ability to add HTTP request headers |-\|/-| 2017-06-23T22:40:49Z Merged pull request |-\|/-| 1912 +121 −34 cs 4|-\|/-| 
+MemoryTarget - Enable OptimizeBufferReuse by default |-\|/-| 2017-06-23T22:40:14Z Merged pull request |-\|/-| 1911 +2 −3 cs 1|-\|/-| 
+EventLogTarget - Enable OptimizeBufferReuse by default |-\|/-| 2017-06-25T22:20:30Z Merged pull request |-\|/-| 1910 +4 −3 cs 1|-\|/-| 
+DebuggerTarget -  Enable OptimizeBufferReuse by default |-\|/-| 2017-06-23T22:39:51Z Merged pull request |-\|/-| 1909 +25 −6 cs 4|-\|/-| 
+DatabaseTarget - Enable OptimizeBufferReuse by default |-\|/-| 2017-06-23T22:38:22Z Merged pull request |-\|/-| 1908 +63 −59 cs 2|-\|/-| 
+Colored- & ConsoleTarget - Enable OptimizeBufferReuse by default |-\|/-| 2017-06-23T22:39:05Z Merged pull request |-\|/-| 1907 +13 −11 cs 2|-\|/-| 
+Inject basedir - allow injecting IAppDomain |-\|/-| 2017-01-14T17:46:58Z Merged pull request |-\|/-| 1906 +223 −124 cs 7|-\|/-| 
+WebServiceTargetTests - Fixed WebserviceTest_restapi_json |-\|/-| 2017-01-13T18:46:33Z Merged pull request |-\|/-| 1903 +4 −6 cs 1|-\|/-| 
+LogManager.Shutdown - Use the official method for closing down |-\|/-| 2017-01-11T22:51:00Z Merged pull request |-\|/-| 1899 +47 −11 cs 3|-\|/-| 
+LogFactory - Fixed EventArgs for ConfigurationChanged |-\|/-| 2017-10-05T15:57:19Z Merged pull request |-\|/-| 1897 +52 −15 cs 2|-\|/-| 
+FileTarget - MONO doesn't like using the native Win32 API |-\|/-| 2017-01-11T22:47:11Z Merged pull request |-\|/-| 1893 +2 −2 cs 2|-\|/-| 
+FileTarget - FileLockMultiProcessFileAppender Experimental |-\|/-| 2017-03-01T21:50:41Z Closed pull request |-\|/-| 1892 +809 −196 cs 2|-\|/-| 
+LogFactory - Fix ConfigurationChanged-event has flipped the values |-\|/-| 2017-01-10T16:38:42Z Closed pull request |-\|/-| 1891 +33 −9 cs 2|-\|/-| 
+FileTarget - Perform archive retry when concurrent file access |-\|/-| 2017-07-04T19:59:02Z Merged pull request |-\|/-| 1889 +65 −66 cs 6|-\|/-| 
+FileTarget - WindowsMultiProcessFileAppender should also use ArchiveMutex |-\|/-| 2017-01-11T22:35:24Z Merged pull request |-\|/-| 1888 +51 −17 cs 2|-\|/-| 
+FileTarget - Archive should not fail when ArchiveFileName matches FileName |-\|/-| 2017-01-11T22:58:19Z Merged pull request |-\|/-| 1886 +15 −9 cs 2|-\|/-| 
+EnvironmentLayoutRenderer - Faster rendering using caching |-\|/-| 2017-01-02T07:26:09Z Closed pull request |-\|/-| 1885 +15 −13 cs 1|-\|/-| 
+LogFactory.Dispose - Should always close down created targets |-\|/-| 2017-01-03T21:28:34Z Merged pull request |-\|/-| 1883 +23 −16 cs 2|-\|/-| 
+WindowsPhone is Silverlight with more file access |-\|/-| 2017-01-03T23:03:19Z Merged pull request |-\|/-| 1881 +27 −29 cs 20|-\|/-| 
+FileTarget - Rename to tmp file before starting actual compression |-\|/-| 2017-01-02T07:21:26Z Closed pull request |-\|/-| 1880 +56 −45 cs 4|-\|/-| 
+FileTarget - KeepFileOpen should watch for file deletion |-\|/-| 2017-01-11T23:09:56Z Merged pull request |-\|/-| 1878 +256 −123 cs 2|-\|/-| 
+FileTarget - Faster archive check by caching the static file-create-time (60-70% improvement) |-\|/-| 2017-01-13T18:49:17Z Merged pull request |-\|/-| 1876 +182 −75 cs 9|-\|/-| 
+Fix medium trust |-\|/-| 2016-12-22T21:55:28Z Merged pull request |-\|/-| 1874 +47 −18 cs 3|-\|/-| 
+PartialTrustDomain - Handle SecurityException to allow startup |-\|/-| 2016-12-22T00:36:51Z Merged pull request |-\|/-| 1873 +209 −15 cs csproj 8|-\|/-| 
+FileTarget: more internal logging |-\|/-| 2017-10-06T23:03:28Z Merged pull request |-\|/-| 1872 +37 −3 cs 3|-\|/-| 
+Filetarget allocations optimization (up to 15% speed improvement) |-\|/-| 2017-01-11T23:08:41Z Merged pull request |-\|/-| 1871 +29 −2 cs 1|-\|/-| 
+WebServiceTarget - FlushAsync - Avoid premature flush |-\|/-| 2017-01-11T23:03:50Z Merged pull request |-\|/-| 1868 +355 −57 cs csproj 13|-\|/-| 
+FileTarget - Failing to delete old archive files, should not stop logging |-\|/-| 2016-12-21T20:58:43Z Merged pull request |-\|/-| 1867 +79 −59 cs 1|-\|/-| 
+Compile MethodInfo into LateBoundMethod-delegate (ReflectedType is deprecated) |-\|/-| 2016-12-18T21:44:42Z Merged pull request |-\|/-| 1865 +1 −1 cs 1|-\|/-| 
+FileTarget - RetryingMultiProcessFileAppender should use BufferSize=1024 |-\|/-| 2016-12-21T22:39:41Z Closed pull request |-\|/-| 1864 +2 −2 cs 1|-\|/-| 
+Minor cosmetic changes on FileTarget class |-\|/-| 2016-12-17T20:14:51Z Merged pull request |-\|/-| 1863 +11 −15 cs 1|-\|/-| 
+SHFB config cleanup & simplify |-\|/-| 2016-12-17T20:15:03Z Merged pull request |-\|/-| 1862 +51 −41 shfbproj gitignore txt 2|-\|/-| 
+Helper class ParameterUtils removed |-\|/-| 2016-12-17T18:47:15Z Merged pull request |-\|/-| 1861 +8 −77 cs csproj 14|-\|/-| 
+FileAppenderCache implements IDisposable |-\|/-| 2016-12-17T16:28:57Z Merged pull request |-\|/-| 1860 +8 −1 cs 1|-\|/-| 
+FileTarget - MONO should also check SupportsSharableMutex |-\|/-| 2016-12-21T22:26:09Z Merged pull request |-\|/-| 1859 +8 −6 cs 3|-\|/-| 
+FileTarget - Reopen filehandle when file write fails |-\|/-| 2016-12-21T22:15:04Z Merged pull request |-\|/-| 1858 +154 −36 cs 7|-\|/-| 
+Fix immutability of LogLevel properties |-\|/-| 2016-12-17T16:46:25Z Merged pull request |-\|/-| 1857 +34 −4 cs 2|-\|/-| 
+Fix immutability of LogLevel properties |-\|/-| 2016-12-15T00:21:27Z Closed pull request |-\|/-| 1854 +64 −17 cs 2|-\|/-| 
+AsyncTargetWrapper - Flush should start immediately without waiting |-\|/-| 2016-12-21T22:17:12Z Merged pull request |-\|/-| 1853 +194 −175 cs 2|-\|/-| 
+ConsoleTarget - Apply Encoding on InitializeTarget, if Console available |-\|/-| 2016-12-18T19:56:00Z Merged pull request |-\|/-| 1850 +118 −13 cs 4|-\|/-| 
+NetworkTarget - UdpNetworkSender should exercise the provided Close-callback |-\|/-| 2016-12-17T16:49:39Z Merged pull request |-\|/-| 1849 +21 −11 cs 1|-\|/-| 
+Standarise implementation of events |-\|/-| 2016-12-14T15:54:43Z Merged pull request |-\|/-| 1848 +71 −42 cs 7|-\|/-| 
+LogManager shutdown should flush and close within 2 secs |-\|/-| 2016-12-17T16:54:09Z Merged pull request |-\|/-| 1847 +114 −62 cs 3|-\|/-| 
+FileTarget - Mono2 runtime detection to skip using named archive-mutex |-\|/-| 2016-12-14T15:49:53Z Merged pull request |-\|/-| 1844 +26 −4 cs 3|-\|/-| 
+Remove unneeded finalizer in NetworkSender |-\|/-| 2016-12-12T00:03:23Z Merged pull request |-\|/-| 1843 +0 −8 cs 1|-\|/-| 
+Move mutex functionality into BaseMutexFileAppender |-\|/-| 2016-12-11T22:26:03Z Merged pull request |-\|/-| 1841 +170 −100 cs csproj 15|-\|/-| 
+Add conditional tags for IOS and Android |-\|/-| 2016-12-10T19:29:49Z Merged pull request |-\|/-| 1840 +11 −9 md 0|-\|/-| 
+Add missing exception to AddTarget method |-\|/-| 2016-12-10T17:05:44Z Merged pull request |-\|/-| 1839 +38 −13 cs 2|-\|/-| 
+Document some public methods on FileAppenders |-\|/-| 2016-12-10T17:07:30Z Merged pull request |-\|/-| 1838 +134 −41 cs 7|-\|/-| 
+Minor code cleanup in LogFactory class |-\|/-| 2016-12-10T11:22:18Z Merged pull request |-\|/-| 1837 +20 −21 cs 1|-\|/-| 
+Callsite: add includeNamespace option |-\|/-| 2016-12-10T00:02:52Z Merged pull request |-\|/-| 1836 +28 −4 cs 2|-\|/-| 
+Improve flush API docs |-\|/-| 2016-12-09T23:42:15Z Merged pull request |-\|/-| 1834 +3 −3 cs 3|-\|/-| 
+WebServiceTarget - Cache the lazy generated HttpPostFormatter |-\|/-| 2016-12-10T01:02:10Z Merged pull request |-\|/-| 1831 +23 −21 cs 1|-\|/-| 
+Sonarqube.com intergration |-\|/-| 2016-12-06T23:24:55Z Merged pull request |-\|/-| 1830 +22 −0 yml properties 2|-\|/-| 
+Log4jXmlEvent - Improve performance (CPU & memory) |-\|/-| 2016-12-10T01:02:57Z Merged pull request |-\|/-| 1829 +156 −28 cs 4|-\|/-| 
+Update NLog.Extended.nuspec |-\|/-| 2016-12-04T23:56:14Z Merged pull request |-\|/-| 1825 +1 −1 nuspec 1|-\|/-| 
+Move null logger to separate class to isolate the logic |-\|/-| 2016-12-04T23:15:09Z Merged pull request |-\|/-| 1824 +81 −5 cs csproj 14|-\|/-| 
+new wrappers substring/left |-\|/-| 2017-07-05T16:34:07Z Closed pull request |-\|/-| 1820 +191 −1 cs csproj 4|-\|/-| 
+Added test case for #1805 |-\|/-| 2016-12-04T21:43:33Z Merged pull request |-\|/-| 1819 +29 −0 cs 1|-\|/-| 
+Added testcase for Timespan from XML config |-\|/-| 2016-12-04T20:31:01Z Merged pull request |-\|/-| 1818 +36 −0 cs 1|-\|/-| 
+added condition to AutoFlushWrappper |-\|/-| 2016-12-04T20:59:58Z Merged pull request |-\|/-| 1817 +89 −9 cs config 4|-\|/-| 
+EventLogTarget: don't crash with invalid Category / EventId |-\|/-| 2017-01-14T14:07:15Z Merged pull request |-\|/-| 1816 +2 −12 cs 1|-\|/-| 
+Better parsing for Layouts with int/bool type. |-\|/-| 2017-01-13T19:41:17Z Merged pull request |-\|/-| 1815 +499 −1 cs tt csproj 12|-\|/-| 
+Improve [Obsolete] warnings - include the Nlog version when it became obsolete |-\|/-| 2016-12-04T22:10:30Z Merged pull request |-\|/-| 1814 +100 −50 cs 11|-\|/-| 
+test for Callsite.cs--Show_correct_filename_with_async (issue #1813) |-\|/-| 2016-12-04T13:13:05Z Merged pull request |-\|/-| 1812 +19 −0 cs 1|-\|/-| 
+EventlogTarget: Support for MaximumKilobytes |-\|/-| 2017-05-16T21:39:51Z Closed pull request |-\|/-| 1810 +24 −1 cs 1|-\|/-| 
+FileTarget - Close stale file handles outside archive mutex lock |-\|/-| 2016-12-04T13:10:52Z Merged pull request |-\|/-| 1809 +5 −4 cs 1|-\|/-| 
+FlushTriggerWrapper is implemented |-\|/-| 2016-12-02T09:28:08Z Closed pull request |-\|/-| 1807 +275 −3 csproj cs 17|-\|/-| 
+%APPVEYOR_BUILD_NUMBER% |-\|/-| 2016-11-30T22:11:14Z Merged pull request |-\|/-| 1804 +2 −2 yml 1|-\|/-| 
+Release/4.4 |-\|/-| 2016-11-30T19:02:17Z Closed pull request |-\|/-| 1802 +469 −109 cs 6|-\|/-| 
+Update 4.4 branch |-\|/-| 2016-11-30T18:46:18Z Merged pull request |-\|/-| 1801 

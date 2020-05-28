@@ -1,0 +1,806 @@
+expose TCP lifo runtime config via log |-\|/-| 2020-01-13T14:05:56Z Merged pull request |-\|/-| 1271 +6 −0 go 1|-\|/-| 
+Fix/kube multicolor traffic switch |-\|/-| 2020-01-13T13:53:21Z Merged pull request |-\|/-| 1267 +269 −25 go 6|-\|/-| 
+Forward headers from webhook filter responses |-\|/-| 2020-01-07T09:45:25Z Merged pull request |-\|/-| 1261 +96 −26 md go 4|-\|/-| 
+fix two small issues in redis usage by cluster*Ratelimit filters |-\|/-| 2020-01-06T18:33:37Z Merged pull request |-\|/-| 1260 +16 −11 mod sum go 3|-\|/-| 
+Fix: CPU hot busyloop by setting a default timeout to 30s, if not set |-\|/-| 2019-12-19T16:19:07Z Merged pull request |-\|/-| 1259 +9 −1 go 1|-\|/-| 
+list was no rendered correctly |-\|/-| 2019-12-17T09:24:35Z Merged pull request |-\|/-| 1257 +2 −0 md 0|-\|/-| 
+Remove excplict set of GOPROXY |-\|/-| 2019-12-13T15:58:35Z Merged pull request |-\|/-| 1256 +18 −19 Makefile 1|-\|/-| 
+implement skipper httpclient and use it in all auth filters |-\|/-| 2019-12-16T12:59:42Z Merged pull request |-\|/-| 1255 +541 −230 go 1|-\|/-| 
+enhance opentracing support in auth filters  |-\|/-| 2019-12-16T16:31:39Z Merged pull request |-\|/-| 1254 +651 −206 png md 8|-\|/-| 
+Added new filter backendIsProxy |-\|/-| 2019-12-04T15:33:00Z Merged pull request |-\|/-| 1252 +220 −8 md go 6|-\|/-| 
+Added option to disable HTTP keepalives |-\|/-| 2019-11-28T11:45:47Z Merged pull request |-\|/-| 1251 +20 −0 go md 3|-\|/-| 
+close unused route and group lifo queues |-\|/-| 2019-11-28T13:33:16Z Merged pull request |-\|/-| 1250 +27 −1 go 2|-\|/-| 
+document security consideration |-\|/-| 2019-11-24T16:46:42Z Merged pull request |-\|/-| 1248 +16 −0 md 0|-\|/-| 
+improve error messages for the tracingTag filter tests |-\|/-| 2019-11-11T11:40:31Z Merged pull request |-\|/-| 1247 +2 −2 go 1|-\|/-| 
+add tracingTag filter |-\|/-| 2019-11-11T10:53:13Z Merged pull request |-\|/-| 1246 +114 −0 md go 3|-\|/-| 
+doc: fix operations toc |-\|/-| 2019-11-10T20:56:51Z Merged pull request |-\|/-| 1245 +25 −26 md 0|-\|/-| 
+create result.csv on bench run by report.lua used in wrk |-\|/-| 2019-11-06T16:25:55Z Merged pull request |-\|/-| 1244 +35 −1 inc lua 2|-\|/-| 
+fix docker command run |-\|/-| 2019-11-06T16:25:41Z Merged pull request |-\|/-| 1243 +1 −1 yaml 1|-\|/-| 
+automate changelog for GH release |-\|/-| 2019-11-05T16:43:48Z Merged pull request |-\|/-| 1242 +13 −1 yaml 1|-\|/-| 
+Experiment/queue listener |-\|/-| 2019-11-05T14:00:10Z Merged pull request |-\|/-| 1241 +2,165 −6 go md 3|-\|/-| 
+fix bug when having at least 3 prepend filters |-\|/-| 2019-10-31T20:25:23Z Merged pull request |-\|/-| 1239 +39 −2 go 2|-\|/-| 
+doc: add redirectTo https example |-\|/-| 2019-10-25T08:50:11Z Merged pull request |-\|/-| 1236 +9 −3 md 0|-\|/-| 
+add major and minor from a fixed VERSION file |-\|/-| 2019-10-24T16:50:21Z Merged pull request |-\|/-| 1235 +8 −13 Makefile VERSION yaml 3|-\|/-| 
+show example yaml files and add a how to deploy all of these files |-\|/-| 2019-10-24T16:40:10Z Merged pull request |-\|/-| 1234 +401 −266 yaml 8|-\|/-| 
+Allowed origin header should be a single value, not a list |-\|/-| 2019-10-23T15:06:19Z Merged pull request |-\|/-| 1232 +33 −2 go 2|-\|/-| 
+Move config code to own package |-\|/-| 2019-10-22T11:56:42Z Merged pull request |-\|/-| 1231 +18 −18 go yaml 17|-\|/-| 
+Fix flaky tests |-\|/-| 2019-10-18T08:54:02Z Merged pull request |-\|/-| 1229 +14 −0 go 1|-\|/-| 
+doc fix typo  |-\|/-| 2019-10-17T15:23:25Z Merged pull request |-\|/-| 1228 +1 −1 md 0|-\|/-| 
+Allow wildcard name collision |-\|/-| 2019-10-30T18:59:47Z Merged pull request |-\|/-| 1227 +502 −640 go 2|-\|/-| 
+use the version and commit hash in each build output |-\|/-| 2019-10-22T11:56:33Z Merged pull request |-\|/-| 1225 +38 −6 packaging/Makefile 1|-\|/-| 
+improve config.yaml documentation |-\|/-| 2019-10-15T16:05:56Z Merged pull request |-\|/-| 1223 +13 −0 md 0|-\|/-| 
+remove reporting deprecated filter from startup |-\|/-| 2019-10-22T11:55:08Z Merged pull request |-\|/-| 1221 +0 −1 go 1|-\|/-| 
+Feature to include additional data to the access log |-\|/-| 2019-10-14T16:23:39Z Merged pull request |-\|/-| 1220 +32 −6 go 6|-\|/-| 
+trim origin markers after evaluated |-\|/-| 2019-10-10T13:27:07Z Merged pull request |-\|/-| 1219 +164 −2 go 3|-\|/-| 
+Clarify that flowIds must be of a certain format to be reusable |-\|/-| 2019-10-09T16:24:40Z Merged pull request |-\|/-| 1218 +10 −2 md go 1|-\|/-| 
+set origin markers only when there were any changes to the routes |-\|/-| 2019-10-14T13:29:21Z Merged pull request |-\|/-| 1216 +124 −8 go 2|-\|/-| 
+set the go.mod go version to the automatically applied one |-\|/-| 2019-10-09T08:44:36Z Merged pull request |-\|/-| 1215 +1 −1 mod 1|-\|/-| 
+update go version in go.mod |-\|/-| 2019-10-08T18:53:46Z Merged pull request |-\|/-| 1214 +1 −1 mod 1|-\|/-| 
+update security reporting mechanism |-\|/-| 2019-10-07T16:18:36Z Merged pull request |-\|/-| 1213 +8 −1 md 0|-\|/-| 
+updated security reporting mechanism |-\|/-| 2019-10-07T15:42:06Z Closed pull request |-\|/-| 1212 +2 −1 md 0|-\|/-| 
+keep the trailing slash in the path for regexp matching |-\|/-| 2019-10-08T11:59:13Z Merged pull request |-\|/-| 1211 +84 −37 go 3|-\|/-| 
+Using YAML configuration file to pass args for skipper binary |-\|/-| 2019-10-14T16:39:29Z Merged pull request |-\|/-| 1205 +1,565 −902 go 3|-\|/-| 
+Fix broken link in docs |-\|/-| 2019-10-02T08:59:29Z Merged pull request |-\|/-| 1204 +1 −1 md 0|-\|/-| 
+Add regex example for modPath |-\|/-| 2019-10-02T07:53:37Z Merged pull request |-\|/-| 1203 +1 −0 md 0|-\|/-| 
+Note that inlineContent filter is special |-\|/-| 2019-10-02T07:53:57Z Merged pull request |-\|/-| 1202 +3 −0 md 0|-\|/-| 
+Fix links to dataclients docs |-\|/-| 2019-10-02T07:12:43Z Merged pull request |-\|/-| 1201 +4 −4 md 0|-\|/-| 
+fix conflict between Path("/**") and PathSubtree("/") |-\|/-| 2019-10-09T16:04:47Z Merged pull request |-\|/-| 1200 +773 −36 go 2|-\|/-| 
+logging auth errors |-\|/-| 2019-10-01T16:47:02Z Merged pull request |-\|/-| 1199 +239 −92 go 3|-\|/-| 
+set origin markers only when there were any changes to the routes |-\|/-| 2019-09-30T10:09:39Z Merged pull request |-\|/-| 1197 +28 −14 go 1|-\|/-| 
+add more unit test coverage for scheduler filters |-\|/-| 2019-09-30T08:27:19Z Merged pull request |-\|/-| 1196 +170 −12 go 1|-\|/-| 
+increase cluster ratelimit coverage report |-\|/-| 2019-09-25T07:14:59Z Merged pull request |-\|/-| 1194 +100 −1 Makefile go 2|-\|/-| 
+delete routes only on ENOEXIST when using file watching |-\|/-| 2019-09-22T18:42:28Z Merged pull request |-\|/-| 1193 +1 −1 go 1|-\|/-| 
+monitor route creation time |-\|/-| 2019-10-15T08:33:01Z Merged pull request |-\|/-| 1192 +16 −15 go 3|-\|/-| 
+monitor route creation time |-\|/-| 2019-09-18T11:39:19Z Merged pull request |-\|/-| 1191 +42 −31 go 2|-\|/-| 
+add logging for route creation time |-\|/-| 2019-09-18T07:28:38Z Merged pull request |-\|/-| 1190 +19 −3 go 1|-\|/-| 
+small doc fixes |-\|/-| 2019-09-16T09:33:38Z Merged pull request |-\|/-| 1189 +9 −5 md 0|-\|/-| 
+fix route creation time |-\|/-| 2019-09-12T11:27:14Z Merged pull request |-\|/-| 1188 +10 −9 go 2|-\|/-| 
+doc: add missing annotation and some minor fixes in docs |-\|/-| 2019-09-12T12:17:17Z Merged pull request |-\|/-| 1186 +12 −9 go md 1|-\|/-| 
+fix warning on multiple lifo filters |-\|/-| 2019-09-11T14:01:59Z Merged pull request |-\|/-| 1185 +1 −2 go 1|-\|/-| 
+Update owning team for skipper in zappr |-\|/-| 2019-09-10T10:22:01Z Closed pull request |-\|/-| 1183 +1 −1 yaml 1|-\|/-| 
+Use Errorf when port defition is wrong |-\|/-| 2019-09-06T15:39:29Z Merged pull request |-\|/-| 1181 +1 −1 go 1|-\|/-| 
+use fixed version of staticcheck for Go1.13 |-\|/-| 2019-09-04T20:39:14Z Merged pull request |-\|/-| 1179 +3 −3 Makefile 1|-\|/-| 
+Feature/routegroup crd transform |-\|/-| 2019-09-04T16:36:16Z Closed pull request |-\|/-| 1178 +448 −203 go 1|-\|/-| 
+Feature/routegroup crd transform |-\|/-| 2019-09-04T16:01:01Z Merged pull request |-\|/-| 1177 +337 −111 go 1|-\|/-| 
+Feature/routegroup crd transform |-\|/-| 2019-09-04T11:27:56Z Merged pull request |-\|/-| 1176 +316 −17 go 2|-\|/-| 
+Update skipper build for Go 1.13 |-\|/-| 2019-09-04T10:59:15Z Merged pull request |-\|/-| 1175 +16 −23 yml Makefile go mod sum 5|-\|/-| 
+Feature/routegroup crd transform |-\|/-| 2019-09-03T17:41:59Z Closed pull request |-\|/-| 1174 +394 −0 go 4|-\|/-| 
+initial stubs for the CRD client |-\|/-| 2019-09-03T15:29:01Z Merged pull request |-\|/-| 1173 +95 −0 go 3|-\|/-| 
+fix: allow ratelimiting for shunt routes |-\|/-| 2019-08-30T12:49:13Z Merged pull request |-\|/-| 1171 +94 −5 go 2|-\|/-| 
+feat: Update baggageItemToTag filter name |-\|/-| 2019-08-29T14:34:28Z Merged pull request |-\|/-| 1168 +4 −4 md go 1|-\|/-| 
+fix issues identified in a workshop |-\|/-| 2019-08-29T06:09:42Z Merged pull request |-\|/-| 1166 +13 −4 md 0|-\|/-| 
+Refactor lifo |-\|/-| 2019-09-02T14:12:17Z Merged pull request |-\|/-| 1165 +592 −182 go md 1|-\|/-| 
+Fix link to auth tutorial |-\|/-| 2019-08-28T14:35:02Z Merged pull request |-\|/-| 1164 +1 −1 md 0|-\|/-| 
+Add support for tags in jaeger tracing implementation |-\|/-| 2019-08-27T16:26:03Z Merged pull request |-\|/-| 1163 +185 −4 go 2|-\|/-| 
+feat: Add baggageItemToTag filter |-\|/-| 2019-08-26T14:04:55Z Merged pull request |-\|/-| 1160 +218 −6 md go 4|-\|/-| 
+refactor kube data client |-\|/-| 2019-08-28T14:36:55Z Merged pull request |-\|/-| 1155 +241 −181 0|-\|/-| 
+benchmark tokeninfo client baseline cost |-\|/-| 2019-08-15T11:47:05Z Merged pull request |-\|/-| 1154 +205 −39 go eskip sh 7|-\|/-| 
+Add JWTPayloadAllKVRegexp, JWTPayloadAnyKVRegexp |-\|/-| 2019-08-13T13:17:51Z Merged pull request |-\|/-| 1153 +374 −208 md go 1|-\|/-| 
+add option to provide a metrics backend instance (#1151) |-\|/-| 2019-08-13T15:35:36Z Merged pull request |-\|/-| 1152 +9 −1 go 1|-\|/-| 
+dummy PR |-\|/-| 2019-08-05T08:34:32Z Closed pull request |-\|/-| 1150 +1 −0 go 1|-\|/-| 
+monitor route creation time |-\|/-| 2019-08-30T11:31:41Z Merged pull request |-\|/-| 1149 +527 −32 go md 10|-\|/-| 
+update apiVersion to apps/v1 |-\|/-| 2019-08-01T11:27:27Z Merged pull request |-\|/-| 1148 +3 −3 md 0|-\|/-| 
+fix doc build and wire egress to reference section |-\|/-| 2019-07-31T15:59:17Z Merged pull request |-\|/-| 1147 +1 −0 yml 1|-\|/-| 
+Docs/egress features |-\|/-| 2019-07-31T15:31:52Z Merged pull request |-\|/-| 1146 +162 −0 gitignore svg md 2|-\|/-| 
+recognize api monitoring tag |-\|/-| 2019-08-12T09:20:35Z Merged pull request |-\|/-| 1144 +182 −87 md go 1|-\|/-| 
+fix credentials poll should not be 0 for library users |-\|/-| 2019-07-31T08:59:29Z Merged pull request |-\|/-| 1143 +39 −16 Makefile go 3|-\|/-| 
+Build/improve performance |-\|/-| 2019-07-29T14:46:41Z Merged pull request |-\|/-| 1142 +24 −23 Makefile 1|-\|/-| 
+fix ineffassign in throttle filter |-\|/-| 2019-07-26T15:37:39Z Merged pull request |-\|/-| 1141 +1 −1 go 1|-\|/-| 
+make docs more clear and add links from reference to tutorial |-\|/-| 2019-07-26T09:57:08Z Merged pull request |-\|/-| 1138 +18 −4 md 0|-\|/-| 
+Reduce delay to when throttle type is bandwidth |-\|/-| 2019-07-26T15:02:36Z Closed pull request |-\|/-| 1136 +12 −0 go 3|-\|/-| 
+handle string on list flags when called on nil |-\|/-| 2019-07-25T16:50:10Z Merged pull request |-\|/-| 1135 +12 −0 go 3|-\|/-| 
+do retries only if the request is retrieable |-\|/-| 2019-07-26T09:58:04Z Merged pull request |-\|/-| 1132 +53 −1 go 2|-\|/-| 
+add route id to filter context |-\|/-| 2019-07-19T17:44:24Z Closed pull request |-\|/-| 1127 +10 −0 go 5|-\|/-| 
+add listflag parser |-\|/-| 2019-07-17T15:00:38Z Merged pull request |-\|/-| 1126 +224 −245 go 6|-\|/-| 
+Feature/secrets from files |-\|/-| 2019-07-26T09:57:16Z Merged pull request |-\|/-| 1125 +714 −12 go mod 6|-\|/-| 
+add armv7 and armv8 docker containers to release process |-\|/-| 2019-07-12T17:09:05Z Merged pull request |-\|/-| 1123 +8 −1 yaml 1|-\|/-| 
+fix shell var needs double $ to access |-\|/-| 2019-07-11T20:59:50Z Merged pull request |-\|/-| 1122 +1 −1 packaging/Makefile 1|-\|/-| 
+fix upload flag |-\|/-| 2019-07-11T19:01:05Z Merged pull request |-\|/-| 1121 +1 −1 yaml 1|-\|/-| 
+fix bash syntax missing "done" |-\|/-| 2019-07-11T17:27:31Z Merged pull request |-\|/-| 1120 +1 −1 packaging/Makefile 1|-\|/-| 
+fix release version var |-\|/-| 2019-07-11T16:18:06Z Merged pull request |-\|/-| 1119 +3 −3 Makefile 1|-\|/-| 
+Apiusagemonitoring context |-\|/-| 2019-07-19T17:50:38Z Closed pull request |-\|/-| 1118 +155 −77 go 4|-\|/-| 
+Release/automate git tag and release |-\|/-| 2019-07-11T15:34:54Z Merged pull request |-\|/-| 1117 +15 −40 Makefile yaml packaging/Makefile 3|-\|/-| 
+differentiate error from backend and error during roundtrip |-\|/-| 2019-07-11T09:32:54Z Merged pull request |-\|/-| 1116 +1 −0 go 1|-\|/-| 
+Fix/build release |-\|/-| 2019-07-10T08:45:34Z Merged pull request |-\|/-| 1114 +7 −6 yaml 1|-\|/-| 
+Add the missing new line Cron predicate documentation |-\|/-| 2019-07-10T07:22:20Z Merged pull request |-\|/-| 1113 +1 −0 md 0|-\|/-| 
+add create flag for log output files |-\|/-| 2019-07-09T15:23:09Z Merged pull request |-\|/-| 1112 +1 −1 go 1|-\|/-| 
+Add "Cron" pred. that supports cron-like expressions to match routes |-\|/-| 2019-07-09T15:00:47Z Merged pull request |-\|/-| 1111 +178 −0 md mod sum go 5|-\|/-| 
+Docs/path predicates details |-\|/-| 2019-07-08T15:39:50Z Merged pull request |-\|/-| 1110 +72 −31 md 0|-\|/-| 
+refactor OIDC filters enc/dec handling into secrets module |-\|/-| 2019-07-10T08:25:13Z Merged pull request |-\|/-| 1108 +327 −101 go 2|-\|/-| 
+build armv7 and armv8 containers and binary releases to GH |-\|/-| 2019-07-08T15:37:41Z Merged pull request |-\|/-| 1107 +58 −2 Makefile yaml packaging/Makefile 3|-\|/-| 
+fix format check to be as strict as format |-\|/-| 2019-06-26T12:51:17Z Merged pull request |-\|/-| 1106 +3 −3 Makefile go 2|-\|/-| 
+fix: benchmark startup |-\|/-| 2019-06-25T14:55:35Z Merged pull request |-\|/-| 1105 +2 −1 inc 1|-\|/-| 
+fix chunked transfer-encoding |-\|/-| 2019-06-25T13:25:45Z Merged pull request |-\|/-| 1104 +10 −9 go 2|-\|/-| 
+go mod tidy and update dependencies |-\|/-| 2019-07-04T19:43:12Z Merged pull request |-\|/-| 1101 +196 −178 mod 1|-\|/-| 
+clarify ratelimit fitler docs |-\|/-| 2019-06-21T13:41:36Z Merged pull request |-\|/-| 1100 +6 −5 md 0|-\|/-| 
+feature: unverifiedAuditLog filter with varargs |-\|/-| 2019-06-21T10:40:44Z Merged pull request |-\|/-| 1099 +39 −29 go 2|-\|/-| 
+support ingress with service type ExternalName |-\|/-| 2019-06-20T16:06:49Z Merged pull request |-\|/-| 1098 +88 −18 go 3|-\|/-| 
+Add roundtrip start/end span logs |-\|/-| 2019-06-20T10:17:27Z Merged pull request |-\|/-| 1097 +2 −0 go 1|-\|/-| 
+fix: use path from request chain (#1094) |-\|/-| 2019-06-19T15:00:13Z Merged pull request |-\|/-| 1095 +130 −60 go 3|-\|/-| 
+Set secure directive if request is receive on https |-\|/-| 2019-06-17T11:47:59Z Merged pull request |-\|/-| 1093 +7 −4 go 1|-\|/-| 
+refactor error vars in proxy to be constants |-\|/-| 2019-06-17T17:34:09Z Merged pull request |-\|/-| 1092 +34 −16 Makefile mod sum go 4|-\|/-| 
+fix upgrade headers for kubectl exec |-\|/-| 2019-06-14T09:08:03Z Merged pull request |-\|/-| 1091 +1 −6 go 1|-\|/-| 
+Fix/rfc patch path |-\|/-| 2019-06-11T11:44:53Z Merged pull request |-\|/-| 1088 +400 −0 go md 8|-\|/-| 
+Fix span event name |-\|/-| 2019-06-07T15:54:06Z Merged pull request |-\|/-| 1087 +1 −1 go 1|-\|/-| 
+fix stuck lifo() -> done() notifications |-\|/-| 2019-06-07T15:05:18Z Merged pull request |-\|/-| 1086 +12 −12 go 2|-\|/-| 
+initialization order, metrics |-\|/-| 2019-06-06T10:23:38Z Merged pull request |-\|/-| 1084 +186 −54 go 4|-\|/-| 
+fix leftovers from comments |-\|/-| 2019-06-03T14:51:36Z Merged pull request |-\|/-| 1081 +3 −4 md go 1|-\|/-| 
+Remove X-Zalando-team from open source skipper |-\|/-| 2019-05-31T15:53:38Z Closed pull request |-\|/-| 1080 +0 −1 yaml 1|-\|/-| 
+fix source from last predicate |-\|/-| 2019-06-03T09:18:43Z Merged pull request |-\|/-| 1078 +88 −81 go 3|-\|/-| 
+add init flags to pass certificates files to connect with backend |-\|/-| 2019-06-03T08:42:32Z Merged pull request |-\|/-| 1077 +33 −0 go 1|-\|/-| 
+tuple client ratelimit |-\|/-| 2019-06-01T08:00:07Z Merged pull request |-\|/-| 1075 +370 −37 md go 2|-\|/-| 
+fix JWTPayloadAnyKV should have multi key assignment similar to token*AnyKV filters |-\|/-| 2019-05-31T07:36:43Z Merged pull request |-\|/-| 1073 +279 −42 go 1|-\|/-| 
+remove dependency |-\|/-| 2019-05-28T17:42:41Z Merged pull request |-\|/-| 1072 +0 −3 mod sum 2|-\|/-| 
+add lb annotation to ingress user docs |-\|/-| 2019-05-28T17:06:13Z Merged pull request |-\|/-| 1071 +37 −3 md 0|-\|/-| 
+Enrich forwardToken filter |-\|/-| 2019-06-03T13:32:47Z Merged pull request |-\|/-| 1070 +85 −10 md go 2|-\|/-| 
+MID-855: Enrich forwardToken filter with masking abilities |-\|/-| 2019-05-27T10:22:27Z Closed pull request |-\|/-| 1069 +536 −154 go md 3|-\|/-| 
+Add missing opentracing related flags |-\|/-| 2019-05-25T11:18:09Z Merged pull request |-\|/-| 1067 +5 −0 go 1|-\|/-| 
+Add options to reduce the payload shipped per request |-\|/-| 2019-05-24T15:32:15Z Merged pull request |-\|/-| 1066 +456 −142 go 1|-\|/-| 
+Drop `skipper.route` tag to reduce the size of the messages shipped |-\|/-| 2019-05-22T13:06:59Z Merged pull request |-\|/-| 1064 +0 −1 go 1|-\|/-| 
+add config options grpc max buffer and min/max report times |-\|/-| 2019-05-22T08:59:34Z Merged pull request |-\|/-| 1062 +269 −18 go 2|-\|/-| 
+Log important events emitted by LightStep tracer |-\|/-| 2019-05-21T15:08:03Z Merged pull request |-\|/-| 1061 +24 −1 go 1|-\|/-| 
+tokenin*AnyKV filters should be able to check same keys |-\|/-| 2019-05-22T12:28:32Z Merged pull request |-\|/-| 1058 +53 −18 md go 6|-\|/-| 
+add more operations documentation including tutorial for starters |-\|/-| 2019-05-27T11:31:03Z Merged pull request |-\|/-| 1057 +174 −2 png md yml 4|-\|/-| 
+Fix/lifo self healing |-\|/-| 2019-05-14T15:46:08Z Merged pull request |-\|/-| 1054 +18 −10 go 3|-\|/-| 
+remove log output in tests (#1045) |-\|/-| 2019-05-13T09:27:10Z Merged pull request |-\|/-| 1052 +0 −1 go 1|-\|/-| 
+fix #1049: fix potential nil dereference |-\|/-| 2019-05-09T16:38:32Z Merged pull request |-\|/-| 1050 +11 −7 go 1|-\|/-| 
+feat: provide the first stack trace on filter panic (#1045) |-\|/-| 2019-05-10T12:15:45Z Merged pull request |-\|/-| 1047 +64 −8 go 3|-\|/-| 
+add tag= parameter for lightstep plugin |-\|/-| 2019-05-14T09:32:34Z Merged pull request |-\|/-| 1046 +14 −0 go 1|-\|/-| 
+Set URL from Host and TLS in dynamic backend |-\|/-| 2019-04-30T12:14:38Z Merged pull request |-\|/-| 1042 +72 −1 md go 2|-\|/-| 
+limit number of inflight requests per route |-\|/-| 2019-04-17T09:51:23Z Closed pull request |-\|/-| 1038 +14 −2 mod go 4|-\|/-| 
+Differentiate authentication and authorization issues in response codes |-\|/-| 2019-04-17T09:22:28Z Merged pull request |-\|/-| 1037 +47 −17 md go 3|-\|/-| 
+enhance opentracing |-\|/-| 2019-04-15T07:42:51Z Merged pull request |-\|/-| 1031 +14 −2 go 1|-\|/-| 
+lifo filters, concept |-\|/-| 2019-05-03T14:27:30Z Merged pull request |-\|/-| 1030 +1,016 −40 md go 3|-\|/-| 
+chore(api-usage-monitoring filter): remove deprecated parameter (#949) |-\|/-| 2019-04-24T15:59:15Z Merged pull request |-\|/-| 1029 +18 −9 go 2|-\|/-| 
+Update authclient.go |-\|/-| 2019-04-24T13:18:46Z Merged pull request |-\|/-| 1027 +427 −15 md go 3|-\|/-| 
+increase codecoverage to 80% required by silver cii bestpractices |-\|/-| 2019-04-10T15:39:52Z Merged pull request |-\|/-| 1025 +608 −4 yml go 6|-\|/-| 
+Skipper subtree generation when already present |-\|/-| 2019-10-30T21:48:06Z Closed pull request |-\|/-| 1023 +5 −1 go 1|-\|/-| 
+define key roles and cleanup maintainers file |-\|/-| 2019-04-07T20:53:57Z Merged pull request |-\|/-| 1022 +18 −4 md MAINTAINERS 1|-\|/-| 
+Little update to the readme file concerning eskip check |-\|/-| 2019-04-04T07:29:13Z Merged pull request |-\|/-| 1020 +2 −0 md 0|-\|/-| 
+fix memory spike in east west route creation |-\|/-| 2019-04-04T12:28:36Z Merged pull request |-\|/-| 1019 +72 −61 go 1|-\|/-| 
+doc: fix A/B example as mentioned by @fpozzobon |-\|/-| 2019-04-01T16:46:09Z Merged pull request |-\|/-| 1017 +2 −2 md 0|-\|/-| 
+use hostname from host header |-\|/-| 2019-04-01T16:31:46Z Merged pull request |-\|/-| 1016 +11 −1 go 1|-\|/-| 
+Feature/lb algorithms |-\|/-| 2019-04-02T13:17:26Z Merged pull request |-\|/-| 1015 +442 −84 go 2|-\|/-| 
+Make unverifiedAuditLog configurable |-\|/-| 2019-04-01T16:16:10Z Merged pull request |-\|/-| 1008 +90 −22 md go 2|-\|/-| 
+A / B test example |-\|/-| 2019-04-01T09:29:07Z Closed pull request |-\|/-| 1007 +1 −1 md 0|-\|/-| 
+default filters as routing.PreProcessors |-\|/-| 2019-03-23T05:00:27Z Merged pull request |-\|/-| 1003 +270 −11 go 8|-\|/-| 
+Stop being graceful on SIGINT |-\|/-| 2019-03-21T11:13:15Z Merged pull request |-\|/-| 1001 +1 −1 go 1|-\|/-| 
+Formatting and cleanup of Ingress comparison docs |-\|/-| 2019-03-23T17:20:15Z Merged pull request |-\|/-| 999 +91 −112 md 0|-\|/-| 
+fix close-idle-conns-period flag |-\|/-| 2019-03-21T10:35:19Z Merged pull request |-\|/-| 998 +60 −64 go md 5|-\|/-| 
+Update travis config to use Go 1.12.x |-\|/-| 2019-03-19T21:19:20Z Merged pull request |-\|/-| 996 +1 −1 yml 1|-\|/-| 
+Log access filter |-\|/-| 2019-03-19T10:23:38Z Closed pull request |-\|/-| 995 +43 −20 go 4|-\|/-| 
+Create issue templates |-\|/-| 2019-03-20T10:49:25Z Merged pull request |-\|/-| 994 +44 −0 md 0|-\|/-| 
+Add tests for HTTP Upgrade. |-\|/-| 2019-03-19T09:52:44Z Merged pull request |-\|/-| 993 +156 −29 go 2|-\|/-| 
+Doc/comparision with other ingress ctl |-\|/-| 2019-03-16T12:39:55Z Merged pull request |-\|/-| 989 +129 −2 md 0|-\|/-| 
+Fix/graceful shutdown |-\|/-| 2019-03-13T06:56:52Z Merged pull request |-\|/-| 988 +133 −1 go 3|-\|/-| 
+Support loadbalancing routes for HTTP Upgrade handling. |-\|/-| 2019-03-11T14:44:10Z Merged pull request |-\|/-| 986 +31 −11 go 2|-\|/-| 
+OIDC filter enhancements and tutorial |-\|/-| 2019-03-21T22:51:49Z Merged pull request |-\|/-| 985 +129 −33 md go 2|-\|/-| 
+feat: add cache for retry after value |-\|/-| 2019-03-27T08:36:55Z Closed pull request |-\|/-| 984 +1,000 −232 Makefile go svg md mod sum 7|-\|/-| 
+k8s dataclient default filter config via config map |-\|/-| 2019-04-03T13:24:23Z Merged pull request |-\|/-| 983 +274 −2 go md 3|-\|/-| 
+Feature/redis based cluster ratelimit |-\|/-| 2019-03-13T13:37:33Z Merged pull request |-\|/-| 981 +1,132 −244 Makefile go yaml svg md 6|-\|/-| 
+fix: reduced memory allocations for east-west-route creation (#979) |-\|/-| 2019-03-05T15:34:53Z Merged pull request |-\|/-| 980 +73 −76 go 2|-\|/-| 
+k8s dataclient default filter config via config map |-\|/-| 2019-03-07T09:05:36Z Closed pull request |-\|/-| 977 +261 −38 go 4|-\|/-| 
+doc fix rbac |-\|/-| 2019-02-28T17:18:59Z Merged pull request |-\|/-| 975 +8 −8 md 0|-\|/-| 
+Fix/cluster ratelimits with central sharded redis |-\|/-| 2019-03-03T18:30:29Z Closed pull request |-\|/-| 974 +217 −159 mod sum go 3|-\|/-| 
+fix: protect concurrent map access in apimonitoring (#968) |-\|/-| 2019-02-28T10:48:30Z Merged pull request |-\|/-| 973 +32 −13 go 3|-\|/-| 
+968 fix unprotected map access in monitoring |-\|/-| 2019-02-28T10:20:00Z Closed pull request |-\|/-| 972 +32 −38 go 3|-\|/-| 
+sync.Map to protect `metricPrefixedPerClient` against concurrent calls |-\|/-| 2019-02-26T12:42:16Z Closed pull request |-\|/-| 971 +7 −10 go 2|-\|/-| 
+shortcheck: run with -race |-\|/-| 2019-03-11T17:08:22Z Merged pull request |-\|/-| 970 +602 −415 Makefile go 5|-\|/-| 
+fix(apiusagemonitoring): add doc entry about no-op filter in case of invalid config |-\|/-| 2019-02-25T15:10:25Z Merged pull request |-\|/-| 967 +2 −1 md 0|-\|/-| 
+Create noop filter in case of invalid monitoring filter config |-\|/-| 2019-02-25T14:23:39Z Merged pull request |-\|/-| 966 +44 −55 go 3|-\|/-| 
+Fix rendering of filter docs and add a little more description |-\|/-| 2019-02-22T12:10:13Z Merged pull request |-\|/-| 963 +7 −1 md 0|-\|/-| 
+Fix/cluster ratelimits  |-\|/-| 2019-03-05T17:42:38Z Closed pull request |-\|/-| 961 +210 −69 mod sum go eskip 9|-\|/-| 
+Fix ingress_controller.md  ClusterRole not enough settings. |-\|/-| 2019-02-20T13:45:07Z Merged pull request |-\|/-| 959 +2 −1 md 0|-\|/-| 
+drop not required comment |-\|/-| 2019-02-24T17:40:49Z Merged pull request |-\|/-| 958 +0 −1 go 1|-\|/-| 
+fix support listener not ready |-\|/-| 2019-02-19T15:59:33Z Merged pull request |-\|/-| 957 +5 −1 go 1|-\|/-| 
+Use native Mkdocs page references |-\|/-| 2019-02-19T21:14:49Z Merged pull request |-\|/-| 955 +38 −37 md yml 1|-\|/-| 
+Warning against multiple Ingresses |-\|/-| 2019-02-15T12:45:41Z Merged pull request |-\|/-| 954 +44 −0 md 0|-\|/-| 
+use Debugf instead of Debug, since the message uses formatting |-\|/-| 2019-02-14T16:46:12Z Merged pull request |-\|/-| 953 +1 −1 go 1|-\|/-| 
+kubernetes: fetch endpoints/services once |-\|/-| 2019-02-17T22:04:51Z Merged pull request |-\|/-| 951 +472 −394 go 2|-\|/-| 
+API usage monitoring filter improvements |-\|/-| 2019-02-13T14:13:14Z Merged pull request |-\|/-| 950 +286 −252 go md 3|-\|/-| 
+fix non rfc compliant websocket requests |-\|/-| 2019-02-08T12:49:02Z Merged pull request |-\|/-| 947 +2 −1 go 1|-\|/-| 
+Build/check gosec |-\|/-| 2019-05-09T11:44:01Z Merged pull request |-\|/-| 946 +29 −4 Makefile yaml go 6|-\|/-| 
+fix #943 clientRatelimit was registered |-\|/-| 2019-02-07T13:00:35Z Merged pull request |-\|/-| 944 +32 −8 go 3|-\|/-| 
+safe memory space and simplify code |-\|/-| 2019-02-05T12:43:57Z Merged pull request |-\|/-| 941 +57 −51 yaml mod sum go 5|-\|/-| 
+silver cii badge - coc, contributing |-\|/-| 2019-02-04T11:45:55Z Merged pull request |-\|/-| 940 +91 −3 md 0|-\|/-| 
+refactor loadbalancer to be a single route |-\|/-| 2019-02-05T20:22:28Z Merged pull request |-\|/-| 938 +1,471 −1,538 go 1|-\|/-| 
+Make proxy client TLS work with skipper.Options |-\|/-| 2019-01-30T12:38:38Z Merged pull request |-\|/-| 937 +1 −0 go 1|-\|/-| 
+Add command line flags for all etcd options |-\|/-| 2019-01-30T09:30:55Z Merged pull request |-\|/-| 936 +37 −4 go 2|-\|/-| 
+provide documentation on etcd usage |-\|/-| 2019-01-31T10:10:28Z Merged pull request |-\|/-| 934 +114 −2 md 0|-\|/-| 
+fix static check for type switch |-\|/-| 2019-01-25T12:34:08Z Merged pull request |-\|/-| 932 +11 −9 go 1|-\|/-| 
+Expose ClientTLS in skipper options for passing client TLS settings |-\|/-| 2019-01-24T13:51:39Z Merged pull request |-\|/-| 928 +15 −1 go 2|-\|/-| 
+Expose ClientTLS in skipper options for passing client TLS settings |-\|/-| 2019-01-21T16:52:33Z Closed pull request |-\|/-| 927 +15 −1 go 2|-\|/-| 
+Expose ClientTLS in skipper options for passing client TLS settings |-\|/-| 2019-01-21T16:08:35Z Closed pull request |-\|/-| 926 +15 −1 go 2|-\|/-| 
+Access log disable filter |-\|/-| 2019-01-24T15:19:41Z Merged pull request |-\|/-| 925 +307 −92 md go 5|-\|/-| 
+Remove useless JSON and String serialisation |-\|/-| 2019-01-19T11:45:35Z Merged pull request |-\|/-| 922 +0 −52 go 4|-\|/-| 
+Test/idle connection |-\|/-| 2019-01-22T15:24:15Z Merged pull request |-\|/-| 921 +172 −5 go inc eskip sh 6|-\|/-| 
+Full TLS Config for proxy server in skipper options |-\|/-| 2019-01-18T16:02:06Z Merged pull request |-\|/-| 919 +10 −3 go 1|-\|/-| 
+feature: support requests forwarding |-\|/-| 2019-01-28T10:48:16Z Merged pull request |-\|/-| 918 +656 −116 go md 7|-\|/-| 
+Full TLS Config for proxy server in skipper options |-\|/-| 2019-01-18T06:30:37Z Closed pull request |-\|/-| 917 +10 −3 go 1|-\|/-| 
+Add files via upload |-\|/-| 2019-01-17T05:29:26Z Closed pull request |-\|/-| 916 +981 −974 0|-\|/-| 
+add passing cii badge |-\|/-| 2019-01-16T13:54:53Z Merged pull request |-\|/-| 915 +1 −0 md 0|-\|/-| 
+fix clusterRatelimit with more than one ratelimit instance |-\|/-| 2019-01-25T13:53:02Z Merged pull request |-\|/-| 913 +323 −106 md go 2|-\|/-| 
+test dco |-\|/-| 2019-01-13T18:35:24Z Closed pull request |-\|/-| 907 +173 −2 go 2|-\|/-| 
+add PATCH method to not confuse users |-\|/-| 2019-01-09T19:05:48Z Merged pull request |-\|/-| 902 +1 −1 md 0|-\|/-| 
+fixed several |-\|/-| 2019-01-07T16:03:36Z Merged pull request |-\|/-| 900 +1 −1 md 0|-\|/-| 
+fix indentation level of oidc filters |-\|/-| 2019-01-06T20:39:24Z Merged pull request |-\|/-| 899 +4 −4 md 0|-\|/-| 
+fix findings from staticcheck |-\|/-| 2019-01-07T13:22:14Z Merged pull request |-\|/-| 897 +247 −549 Makefile go yaml 14|-\|/-| 
+Added opentracing spans to calls to tokeninfo and tokenintrospection endpoints |-\|/-| 2019-01-07T11:53:16Z Merged pull request |-\|/-| 896 +50 −11 go 3|-\|/-| 
+feature: derive default application from api usage monitoring filter configuration (#888) |-\|/-| 2019-01-03T10:27:48Z Merged pull request |-\|/-| 895 +132 −64 md go 4|-\|/-| 
+add explanation of the path handling for custom routes |-\|/-| 2019-01-02T14:32:37Z Merged pull request |-\|/-| 894 +8 −0 md 0|-\|/-| 
+docs: Fix the Host predicate regex example |-\|/-| 2019-01-02T13:42:11Z Merged pull request |-\|/-| 893 +3 −3 md 0|-\|/-| 
+Fix the Host predicate regex example |-\|/-| 2018-12-30T13:49:58Z Closed pull request |-\|/-| 892 +3 −3 md 0|-\|/-| 
+Fix Docker command example |-\|/-| 2018-12-30T20:14:57Z Merged pull request |-\|/-| 891 +1 −1 md 0|-\|/-| 
+Added parent span to context so that it can be used in filters |-\|/-| 2019-01-02T16:53:06Z Merged pull request |-\|/-| 890 +48 −26 go 7|-\|/-| 
+doc fix #824 |-\|/-| 2018-12-30T11:08:30Z Merged pull request |-\|/-| 889 +6 −2 md 0|-\|/-| 
+enhance tracing |-\|/-| 2018-12-20T15:09:12Z Merged pull request |-\|/-| 887 +36 −10 go 2|-\|/-| 
+fix ratelimit filter header configuration |-\|/-| 2018-12-21T12:28:02Z Merged pull request |-\|/-| 886 +25 −1 go 2|-\|/-| 
+doc fix ingress-multi-routes |-\|/-| 2018-12-21T12:56:30Z Merged pull request |-\|/-| 885 +30 −0 md 0|-\|/-| 
+static swarm |-\|/-| 2018-12-17T16:28:08Z Merged pull request |-\|/-| 884 +99 −6 go mod sum 8|-\|/-| 
+doc: fix ratelimit tutorial |-\|/-| 2018-12-18T10:17:19Z Merged pull request |-\|/-| 883 +5 −3 md 0|-\|/-| 
+858 added flowid |-\|/-| 2018-12-14T13:34:46Z Merged pull request |-\|/-| 882 +3 −0 go 1|-\|/-| 
+858 added flowid |-\|/-| 2018-12-13T11:10:52Z Closed pull request |-\|/-| 881 +3 −0 go 1|-\|/-| 
+Fix a small typo in the docs |-\|/-| 2018-12-13T14:06:14Z Merged pull request |-\|/-| 880 +1 −1 md 0|-\|/-| 
+Update readme to install skipper |-\|/-| 2019-07-19T17:45:46Z Closed pull request |-\|/-| 878 +7 −1 md 0|-\|/-| 
+This bug was fixed and there is no need for the hack anymore |-\|/-| 2018-12-11T13:38:21Z Merged pull request |-\|/-| 877 +0 −4 go 1|-\|/-| 
+Update readme with mac-specific info on tests |-\|/-| 2018-12-11T14:25:36Z Merged pull request |-\|/-| 876 +3 −0 md 0|-\|/-| 
+fix swarm/clusterClient reatlimit integration |-\|/-| 2018-12-11T15:06:36Z Merged pull request |-\|/-| 875 +167 −65 go mod sum 7|-\|/-| 
+docs add how to create redirects in ingress usage |-\|/-| 2018-12-10T17:23:46Z Merged pull request |-\|/-| 874 +69 −0 md 0|-\|/-| 
+docs: fix build |-\|/-| 2018-12-05T14:29:55Z Merged pull request |-\|/-| 872 +2 −2 md 0|-\|/-| 
+add missing available in http.Transport timeouts |-\|/-| 2018-12-03T16:56:45Z Merged pull request |-\|/-| 870 +107 −62 go 3|-\|/-| 
+add possibility to set east west domain |-\|/-| 2018-12-10T18:41:38Z Merged pull request |-\|/-| 869 +109 −10 go md 4|-\|/-| 
+Doc/fix build example |-\|/-| 2018-12-04T16:25:53Z Merged pull request |-\|/-| 865 +83 −4 md 0|-\|/-| 
+fix: client timeouts should be counted as 499 errors |-\|/-| 2018-11-28T11:29:13Z Merged pull request |-\|/-| 864 +64 −1 go 2|-\|/-| 
+add lb test proxy bench |-\|/-| 2018-11-26T11:22:33Z Merged pull request |-\|/-| 862 +47 −0 sh eskip 2|-\|/-| 
+Add OpenTracing spans to filter req/resp |-\|/-| 2019-04-12T17:38:27Z Closed pull request |-\|/-| 860 +26 −0 go 1|-\|/-| 
+skptesting fix |-\|/-| 2018-11-22T18:45:52Z Merged pull request |-\|/-| 859 +13 −1 gitignore sh inc 3|-\|/-| 
+preserve only the span not the entire context of the incoming request |-\|/-| 2018-11-21T14:07:16Z Merged pull request |-\|/-| 857 +4 −1 go 1|-\|/-| 
+Clearer JSON Serialization? |-\|/-| 2019-01-18T16:52:12Z Closed pull request |-\|/-| 855 +14 −20 go 3|-\|/-| 
+Fix kubernetes rule name hashing |-\|/-| 2018-11-22T12:48:32Z Merged pull request |-\|/-| 854 +363 −355 go 2|-\|/-| 
+fix doc pipeline and add east-west to TOC |-\|/-| 2018-11-13T21:29:16Z Merged pull request |-\|/-| 849 +1 −2 yaml yml 2|-\|/-| 
+doc: fix TOC and links |-\|/-| 2018-11-13T15:54:04Z Merged pull request |-\|/-| 848 +70 −57 md 0|-\|/-| 
+fixing html escape sequences in code renderings |-\|/-| 2018-11-13T14:36:44Z Merged pull request |-\|/-| 847 +390 −320 md 0|-\|/-| 
+last step was missing to deploy on merge to master |-\|/-| 2018-11-13T12:14:15Z Merged pull request |-\|/-| 846 +2 −0 yaml 1|-\|/-| 
+fix some comments in the docs |-\|/-| 2018-11-13T12:04:53Z Merged pull request |-\|/-| 845 +2 −2 md 0|-\|/-| 
+API Usage Monitoring: Client Metrics |-\|/-| 2018-11-14T15:15:33Z Merged pull request |-\|/-| 844 +1,633 −448 go md 3|-\|/-| 
+docs rebuild |-\|/-| 2018-11-13T07:43:04Z Merged pull request |-\|/-| 843 +336 −233 yaml md ico svg 4|-\|/-| 
+API Usage Monitoring: Client Metrics |-\|/-| 2018-11-12T10:22:34Z Closed pull request |-\|/-| 842 +1,607 −445 go md 3|-\|/-| 
+east-west svc-to-svc communication in kubernetes |-\|/-| 2018-11-13T17:29:30Z Merged pull request |-\|/-| 841 +841 −31 go 2|-\|/-| 
+replace the usage of X-Forwarded-Port for HTTPS redirects in Kubernetes |-\|/-| 2018-11-07T12:11:07Z Merged pull request |-\|/-| 840 +62 −42 go 2|-\|/-| 
+wait for first routes loaded before starting the listener |-\|/-| 2018-11-06T13:46:08Z Merged pull request |-\|/-| 837 +125 −4 go 4|-\|/-| 
+add conference talk |-\|/-| 2018-11-06T10:18:32Z Merged pull request |-\|/-| 836 +9 −1 md 0|-\|/-| 
+fix typo in tutorial |-\|/-| 2018-11-04T19:30:04Z Merged pull request |-\|/-| 834 +1 −1 md 0|-\|/-| 
+Fix/disable audit log in experimental upgrade |-\|/-| 2018-11-02T21:43:05Z Merged pull request |-\|/-| 833 +186 −60 go 5|-\|/-| 
+Doc/tutorial  |-\|/-| 2018-11-02T21:37:25Z Merged pull request |-\|/-| 832 +890 −3 svg md 3|-\|/-| 
+apiUsageMonitoring: Accept '/' in path pattern variable parts |-\|/-| 2018-10-31T12:27:25Z Merged pull request |-\|/-| 830 +262 −131 go 3|-\|/-| 
+Updated Docker section |-\|/-| 2018-10-29T21:16:05Z Merged pull request |-\|/-| 829 +16 −0 md 0|-\|/-| 
+fix typo retrieable -> retrievable |-\|/-| 2018-10-29T12:17:37Z Merged pull request |-\|/-| 826 +1 −1 go 1|-\|/-| 
+Activate compatibility defaults on Prometheus metrics |-\|/-| 2018-10-29T10:40:22Z Merged pull request |-\|/-| 823 +2 −0 go 1|-\|/-| 
+Fix links to predicates |-\|/-| 2018-10-24T16:56:15Z Merged pull request |-\|/-| 821 +5 −5 md 0|-\|/-| 
+API Monitoring Filter: MVP |-\|/-| 2018-10-30T10:09:43Z Merged pull request |-\|/-| 818 +1,496 −32 Makefile go md 5|-\|/-| 
+Fix filter documentation (bullet lists) |-\|/-| 2018-10-09T15:38:44Z Merged pull request |-\|/-| 816 +5 −0 md 0|-\|/-| 
+ Add link to zalando tech blog |-\|/-| 2018-10-09T12:57:34Z Merged pull request |-\|/-| 815 +4 −0 md 0|-\|/-| 
+doc auditLog filter |-\|/-| 2018-10-04T16:07:45Z Merged pull request |-\|/-| 813 +13 −1 md 0|-\|/-| 
+fix dropRequestHeaders in kubernetes should be applied before user filters |-\|/-| 2018-10-04T14:02:48Z Merged pull request |-\|/-| 812 +5 −5 go 2|-\|/-| 
+Fix introspection token key  |-\|/-| 2018-10-03T18:56:34Z Merged pull request |-\|/-| 811 +8 −9 go 3|-\|/-| 
+Fix logging regression after #752 |-\|/-| 2018-09-25T12:36:35Z Merged pull request |-\|/-| 806 +78 −18 go 4|-\|/-| 
+Revert/logging filter |-\|/-| 2018-09-25T10:10:16Z Closed pull request |-\|/-| 803 +150 −467 go md 8|-\|/-| 
+Feature/configurable http redirect code in kubernetes |-\|/-| 2018-09-20T13:36:46Z Merged pull request |-\|/-| 799 +801 −65 go 1|-\|/-| 
+Filter for fowarding tokeninfo and token introspection results. |-\|/-| 2018-09-17T16:00:29Z Merged pull request |-\|/-| 793 +390 −1 md go 4|-\|/-| 
+Add doc for using debugger. |-\|/-| 2018-09-17T09:06:27Z Merged pull request |-\|/-| 792 +44 −0 md 0|-\|/-| 
+Added CDP build step for publishing docs. |-\|/-| 2018-09-14T12:45:58Z Closed pull request |-\|/-| 790 +17 −0 yaml yml 2|-\|/-| 
+Deprecate accessLogDisabled in favor of disableAccessLog and enableAccessLog filters |-\|/-| 2018-09-18T07:43:18Z Merged pull request |-\|/-| 789 +149 −20 md go 8|-\|/-| 
+godoc link |-\|/-| 2018-09-13T15:33:33Z Merged pull request |-\|/-| 788 +1 −1 md 0|-\|/-| 
+Doc/gh release |-\|/-| 2018-09-13T15:11:25Z Merged pull request |-\|/-| 787 +20 −18 md 0|-\|/-| 
+Retry After Header |-\|/-| 2018-09-12T15:22:07Z Merged pull request |-\|/-| 786 +146 −50 go mod sum 8|-\|/-| 
+Docs/restructure tree |-\|/-| 2018-09-13T07:58:01Z Merged pull request |-\|/-| 785 +153 −135 md yml 1|-\|/-| 
+fix: add go modules to all tasks |-\|/-| 2018-09-11T11:51:39Z Merged pull request |-\|/-| 784 +14 −14 Makefile go md 2|-\|/-| 
+Update prometheus library |-\|/-| 2018-09-11T09:24:38Z Merged pull request |-\|/-| 783 +4 −9 mod sum go 3|-\|/-| 
+Avoid re-calculation of `count-1` in the response filter loop |-\|/-| 2018-09-10T14:23:43Z Merged pull request |-\|/-| 782 +2 −3 go 1|-\|/-| 
+Switch back to upstream of github.com/opentracing/opentracing-go |-\|/-| 2018-09-10T08:10:57Z Merged pull request |-\|/-| 780 +3 −3 mod sum 2|-\|/-| 
+Proposal: build opentracing tracers into main binary |-\|/-| 2018-09-10T09:25:07Z Merged pull request |-\|/-| 779 +35 −174 Makefile yaml opentracingplugin/LICENSE opentracingplugin/Makefile md go packaging/Makefile 12|-\|/-| 
+fix comment that I missed in the forst PR |-\|/-| 2018-09-07T12:10:41Z Merged pull request |-\|/-| 778 +2 −2 md 0|-\|/-| 
+Correctly build skipper binary for lightstep image |-\|/-| 2018-09-07T11:31:19Z Merged pull request |-\|/-| 777 +2 −2 yaml 1|-\|/-| 
+doc known skipper users |-\|/-| 2018-09-07T11:16:33Z Merged pull request |-\|/-| 776 +10 −0 md 0|-\|/-| 
+change connection-reset-by-peer handling to be not retried |-\|/-| 2018-09-07T10:24:03Z Merged pull request |-\|/-| 775 +4 −6 go 1|-\|/-| 
+fix opentracing wireformat |-\|/-| 2018-09-07T08:28:26Z Merged pull request |-\|/-| 774 +4 −0 mod sum 2|-\|/-| 
+Fix/build |-\|/-| 2018-09-05T15:45:59Z Merged pull request |-\|/-| 772 +21 −15 yaml mod sum 3|-\|/-| 
+fix build to create non dirty containers |-\|/-| 2018-09-05T14:36:31Z Merged pull request |-\|/-| 771 +1 −0 gitignore 1|-\|/-| 
+Speedup CI buildtime |-\|/-| 2018-09-04T19:37:41Z Merged pull request |-\|/-| 770 +17 −26 yaml sh 2|-\|/-| 
+handle connection reset by peer  |-\|/-| 2018-09-05T11:45:58Z Merged pull request |-\|/-| 769 +11 −2 go 1|-\|/-| 
+Go1.11 modules enabled tracer build |-\|/-| 2018-09-04T14:54:03Z Merged pull request |-\|/-| 766 +509 −16 gitignore Makefile yaml mod sum opentracingplugin/LICENSE opentracingplugin/Makefile md go 10|-\|/-| 
+Use Go 1.11 modules |-\|/-| 2018-09-02T19:28:45Z Merged pull request |-\|/-| 764 +161 −184 yml Makefile yaml lock mod sum alpine packaging/Makefile 9|-\|/-| 
+Build lightstep image based on alpine |-\|/-| 2018-09-01T21:51:31Z Merged pull request |-\|/-| 762 +38 −15 yaml alpine lightstep packaging/Makefile 4|-\|/-| 
+Build the lightstep image with ubuntu base image. |-\|/-| 2018-08-31T08:25:11Z Merged pull request |-\|/-| 761 +8 −5 lightstep packaging/Makefile 2|-\|/-| 
+simplfiy as suggested |-\|/-| 2018-08-30T10:29:41Z Merged pull request |-\|/-| 760 +1 −7 lightstep sh 2|-\|/-| 
+add queryToHeader filter |-\|/-| 2018-08-29T15:42:52Z Merged pull request |-\|/-| 759 +162 −0 md go 3|-\|/-| 
+Added dockerfile for building skipper with lightstep integration. |-\|/-| 2018-08-29T16:00:30Z Merged pull request |-\|/-| 758 +53 −6 gitignore yaml lightstep packaging/Makefile sh 5|-\|/-| 
+Added dockerfile for building skipper with lightstep integration. [WIP] |-\|/-| 2018-08-29T13:30:03Z Closed pull request |-\|/-| 757 +48 −4 gitignore yaml lightstep packaging/Makefile sh 5|-\|/-| 
+add RequestContext(ctx context.Context) to filtercontext |-\|/-| 2019-07-19T17:48:37Z Closed pull request |-\|/-| 756 +97 −33 go 8|-\|/-| 
+fix preserveHost filter documentation |-\|/-| 2018-08-28T11:30:46Z Merged pull request |-\|/-| 755 +7 −3 md 0|-\|/-| 
+feat: Add headerToQuery filter #748 |-\|/-| 2018-08-28T10:33:23Z Merged pull request |-\|/-| 754 +111 −0 md go 3|-\|/-| 
+developer doc: how to build a filter |-\|/-| 2018-08-29T14:19:08Z Merged pull request |-\|/-| 753 +421 −0 0|-\|/-| 
+Feature/access log filter |-\|/-| 2018-09-05T11:00:11Z Merged pull request |-\|/-| 752 +338 −150 go md 10|-\|/-| 
+implment a simple webhook |-\|/-| 2018-08-29T13:43:20Z Merged pull request |-\|/-| 747 +278 −5 go md 7|-\|/-| 
+Fix docs about PathRegexp |-\|/-| 2018-08-21T08:35:35Z Merged pull request |-\|/-| 746 +4 −4 md 0|-\|/-| 
+feature: openIDConnect authcode flow |-\|/-| 2018-12-18T12:39:59Z Merged pull request |-\|/-| 743 +1,073 −3 go md 5|-\|/-| 
+Simplify CDP build with golang overlay |-\|/-| 2018-08-16T10:00:41Z Merged pull request |-\|/-| 742 +18 −43 yaml 1|-\|/-| 
+cache authclient per tokeninfoURL |-\|/-| 2018-08-16T09:31:24Z Merged pull request |-\|/-| 740 +32 −4 go 2|-\|/-| 
+doc: fix link and build of mkdocs |-\|/-| 2018-08-12T12:36:21Z Merged pull request |-\|/-| 738 +0 −0 md 0|-\|/-| 
+add request and response counters for http versions |-\|/-| 2018-08-13T12:19:40Z Merged pull request |-\|/-| 736 +2 −0 go 1|-\|/-| 
+Fix Metrics interface |-\|/-| 2018-08-01T08:42:12Z Merged pull request |-\|/-| 733 +6 −0 go 2|-\|/-| 
+Fix Gauges not exposed |-\|/-| 2018-07-31T15:12:27Z Closed pull request |-\|/-| 732 +6 −0 go 2|-\|/-| 
+ #709 Fix typo for innkeeper |-\|/-| 2018-07-31T10:00:42Z Merged pull request |-\|/-| 731 +7 −7 md yml go 2|-\|/-| 
+add docs about the route matching mechanism |-\|/-| 2018-07-31T09:56:25Z Merged pull request |-\|/-| 730 +57 −0 md 0|-\|/-| 
+Update ingress-controller.md |-\|/-| 2018-07-30T14:36:49Z Merged pull request |-\|/-| 729 +3 −4 md 0|-\|/-| 
+docs add oauth timeout |-\|/-| 2018-07-27T14:42:18Z Merged pull request |-\|/-| 727 +10 −3 go md 2|-\|/-| 
+Adds Gauges to metrics |-\|/-| 2018-07-30T11:54:21Z Merged pull request |-\|/-| 726 +52 −0 go 5|-\|/-| 
+docs: link plugins and vendoring problem |-\|/-| 2018-07-26T10:07:48Z Merged pull request |-\|/-| 725 +5 −0 md 0|-\|/-| 
+add setQuery(string) #723 |-\|/-| 2018-07-25T10:53:36Z Merged pull request |-\|/-| 724 +34 −5 go 2|-\|/-| 
+Add -histogram-metric-buckets option |-\|/-| 2018-07-25T14:41:16Z Merged pull request |-\|/-| 722 +52 −2 go 4|-\|/-| 
+fix kube dataclient: custom-routes should set path according to ingress |-\|/-| 2018-08-01T10:11:49Z Merged pull request |-\|/-| 720 +336 −43 go 2|-\|/-| 
+docs: fix custom-routes and add auth to ingress use docs  |-\|/-| 2018-07-26T12:37:37Z Merged pull request |-\|/-| 718 +65 −22 md 0|-\|/-| 
+fix #714 ingress backends same svc name but different ports |-\|/-| 2018-07-23T16:41:21Z Merged pull request |-\|/-| 717 +97 −1 go 2|-\|/-| 
+removing old TODO item: kubernetes LB + custom filters |-\|/-| 2018-07-23T17:43:18Z Merged pull request |-\|/-| 716 +0 −3 go 1|-\|/-| 
+Improve the routing table information documentation |-\|/-| 2018-07-23T16:42:17Z Merged pull request |-\|/-| 715 +8 −0 md 0|-\|/-| 
+Update readme.md |-\|/-| 2018-07-23T16:43:23Z Merged pull request |-\|/-| 712 +3 −171 md 0|-\|/-| 
+Fix custom routes for multiple hosts |-\|/-| 2018-07-24T12:57:18Z Merged pull request |-\|/-| 711 +15 −4 go 2|-\|/-| 
+add predicates to match based on jwt content |-\|/-| 2018-07-22T20:21:16Z Merged pull request |-\|/-| 710 +431 −0 md go 1|-\|/-| 
+client closed request should not be reported as 5xx |-\|/-| 2018-07-19T09:42:13Z Merged pull request |-\|/-| 708 +13 −11 go 1|-\|/-| 
+Add flag for Oauth request timeout |-\|/-| 2018-07-27T10:20:35Z Merged pull request |-\|/-| 707 +227 −57 go 3|-\|/-| 
+fix invalid connection header issue reported via slack channel |-\|/-| 2018-07-04T09:45:45Z Merged pull request |-\|/-| 699 +4 −0 go 1|-\|/-| 
+doc: add filter documentation for tokeninfo filter |-\|/-| 2018-07-03T15:26:09Z Merged pull request |-\|/-| 698 +66 −0 md 0|-\|/-| 
+typo in godoc |-\|/-| 2018-07-03T12:45:26Z Merged pull request |-\|/-| 697 +1 −1 go 1|-\|/-| 
+use 308 in Kubernetes HTTPS redirect instead of 301 |-\|/-| 2018-06-29T08:41:55Z Merged pull request |-\|/-| 695 +1 −1 go 1|-\|/-| 
+don't add annotation filters to LB decision routes |-\|/-| 2018-06-28T09:17:51Z Merged pull request |-\|/-| 694 +133 −3 go 2|-\|/-| 
+use go1.10.x in travis |-\|/-| 2018-06-28T06:36:29Z Merged pull request |-\|/-| 693 +1 −1 yml 1|-\|/-| 
+Added ID of the matching route to open tracing span |-\|/-| 2018-06-28T07:18:26Z Merged pull request |-\|/-| 692 +1 −0 go 1|-\|/-| 
+Fix Header and HeaderRegexp examples |-\|/-| 2018-06-25T16:03:41Z Merged pull request |-\|/-| 690 +3 −3 md 0|-\|/-| 
+Support for Limiting Ingress Lookups to a Single Namespace |-\|/-| 2018-06-25T14:54:10Z Merged pull request |-\|/-| 688 +61 −3 go md 4|-\|/-| 
+Testing/export test tracer |-\|/-| 2018-06-21T11:55:40Z Merged pull request |-\|/-| 684 +219 −161 go 2|-\|/-| 
+sort routing table output on support endpoint |-\|/-| 2018-06-15T14:09:56Z Merged pull request |-\|/-| 681 +5 −0 go 1|-\|/-| 
+Fix broken link |-\|/-| 2018-06-15T03:52:01Z Closed pull request |-\|/-| 680 +1 −1 md 0|-\|/-| 
+prevent multiple load balancer groups to match |-\|/-| 2018-06-15T08:29:17Z Merged pull request |-\|/-| 679 +62 −7 go 2|-\|/-| 
+wire in missing connection, timeout parameters |-\|/-| 2018-06-13T15:20:25Z Merged pull request |-\|/-| 678 +15 −10 go 1|-\|/-| 
+do less route updates |-\|/-| 2018-06-14T09:11:12Z Merged pull request |-\|/-| 676 +19 −0 go 1|-\|/-| 
+include the response streaming duration in the proxy span |-\|/-| 2018-06-12T09:12:22Z Merged pull request |-\|/-| 675 +174 −21 go 5|-\|/-| 
+refactor tracing tests |-\|/-| 2018-06-11T15:57:55Z Merged pull request |-\|/-| 673 +166 −152 go 1|-\|/-| 
+move the traffic predicate to the decision route |-\|/-| 2018-06-11T09:22:24Z Merged pull request |-\|/-| 672 +181 −9 go 2|-\|/-| 
+fix tokeninfo filters |-\|/-| 2018-06-08T11:56:32Z Merged pull request |-\|/-| 670 +1 −1 go 1|-\|/-| 
+fix proper nouns |-\|/-| 2018-06-08T08:44:12Z Merged pull request |-\|/-| 669 +29 −29 md 0|-\|/-| 
+ #32 Check if file exists and log a warning |-\|/-| 2018-10-10T20:32:50Z Merged pull request |-\|/-| 668 +17 −1 go 1|-\|/-| 
+provide path modes for Kubernetes ingress paths |-\|/-| 2018-06-08T12:41:08Z Merged pull request |-\|/-| 667 +626 −43 go 2|-\|/-| 
+document teardown strategy for applications |-\|/-| 2018-06-06T14:25:06Z Merged pull request |-\|/-| 666 +77 −4 md yml 1|-\|/-| 
+fix #654 - return gw timeout |-\|/-| 2018-06-06T12:13:21Z Merged pull request |-\|/-| 665 +12 −0 go 1|-\|/-| 
+group command line options |-\|/-| 2018-06-03T19:35:59Z Merged pull request |-\|/-| 663 +309 −259 0|-\|/-| 
+create filter for setting custom span name for distributed tracing |-\|/-| 2018-06-01T09:37:16Z Merged pull request |-\|/-| 661 +254 −36 go 5|-\|/-| 
+teardown background process |-\|/-| 2018-05-30T13:05:29Z Merged pull request |-\|/-| 659 +99 −8 go 2|-\|/-| 
+fix goroutine leak in kubernetes dataclient |-\|/-| 2018-05-29T12:14:47Z Merged pull request |-\|/-| 658 +10 −2 go 1|-\|/-| 
+Add internal ip whitelist option to healthcheck to be appended to the default |-\|/-| 2018-06-03T12:09:45Z Merged pull request |-\|/-| 657 +27 −2 go 3|-\|/-| 
+return proxyError after retry of a loadbalanced route  |-\|/-| 2018-05-28T19:21:33Z Merged pull request |-\|/-| 656 +4 −4 go 3|-\|/-| 
+Improve trace tags in ingress and proxy spans |-\|/-| 2018-05-28T09:34:48Z Merged pull request |-\|/-| 655 +19 −8 go 1|-\|/-| 
+Resolved #650 Kubernetes quickstart with Helm chart |-\|/-| 2018-05-27T20:20:41Z Merged pull request |-\|/-| 651 +45 −0 md 0|-\|/-| 
+set timeouts to kubernetes api access |-\|/-| 2018-05-15T12:47:21Z Merged pull request |-\|/-| 649 +15 −6 go 1|-\|/-| 
+enhance kubernetes ingress deployment docs |-\|/-| 2018-05-15T14:36:42Z Merged pull request |-\|/-| 648 +40 −11 0|-\|/-| 
+Update readme.md |-\|/-| 2018-05-14T14:13:51Z Merged pull request |-\|/-| 646 +16 −15 md 0|-\|/-| 
+add ignore-trailing-slash as skipper cmd arg |-\|/-| 2018-05-12T20:51:00Z Merged pull request |-\|/-| 645 +4 −1 go 1|-\|/-| 
+Fix/unverified auditlog base64 encoding |-\|/-| 2018-05-08T16:25:25Z Merged pull request |-\|/-| 641 +1 −1 go 1|-\|/-| 
+fix prepared wrong garbage in unverified auditlog |-\|/-| 2018-05-03T10:01:02Z Merged pull request |-\|/-| 639 +24 −1 go 2|-\|/-| 
+Feature/oauth2 token introspection RFC7662 |-\|/-| 2018-08-13T09:55:47Z Merged pull request |-\|/-| 638 +1,566 −397 go md 2|-\|/-| 
+unverifiedAuditLog - fix #631  |-\|/-| 2018-05-02T10:06:39Z Merged pull request |-\|/-| 637 +167 −22 go 6|-\|/-| 
+Document how to deploy with enabled RBAC |-\|/-| 2018-05-07T11:38:01Z Merged pull request |-\|/-| 636 +120 −2 md 0|-\|/-| 
+enhance filters doc |-\|/-| 2018-04-27T17:28:29Z Merged pull request |-\|/-| 635 +9 −0 md 0|-\|/-| 
+doc: add predicates documentation |-\|/-| 2018-04-27T17:28:04Z Merged pull request |-\|/-| 634 +349 −0 md yml 1|-\|/-| 
+doc: multiple skipper deployments |-\|/-| 2018-04-27T08:33:09Z Merged pull request |-\|/-| 632 +31 −0 md 0|-\|/-| 
+run the plugin compilation for the coverprofile and benchmark tasks |-\|/-| 2018-04-18T10:05:19Z Merged pull request |-\|/-| 627 +2 −2 Makefile 1|-\|/-| 
+[WIP] Filter docs |-\|/-| 2018-04-27T07:47:54Z Merged pull request |-\|/-| 626 +563 −24 md 0|-\|/-| 
+Allow multiple certs |-\|/-| 2018-04-16T13:14:23Z Merged pull request |-\|/-| 622 +26 −4 go 2|-\|/-| 
+Fix balancer route update |-\|/-| 2018-04-16T12:34:09Z Merged pull request |-\|/-| 620 +183 −48 go 3|-\|/-| 
+Doc: Add slack channel |-\|/-| 2018-04-14T22:08:42Z Merged pull request |-\|/-| 619 +2 −0 md 0|-\|/-| 
+Fix/unnecessary healthcheck updates |-\|/-| 2018-04-14T19:55:58Z Merged pull request |-\|/-| 618 +47 −7 go 3|-\|/-| 
+fix etcd auth header test |-\|/-| 2018-04-14T13:06:27Z Merged pull request |-\|/-| 617 +39 −21 go 1|-\|/-| 
+add a concurrent test case with multple routes |-\|/-| 2018-04-14T20:04:21Z Merged pull request |-\|/-| 616 +133 −3 go 1|-\|/-| 
+do not leak decision header to backends |-\|/-| 2018-04-12T20:17:04Z Merged pull request |-\|/-| 615 +22 −5 go 4|-\|/-| 
+Fix wrong error message for Static filter |-\|/-| 2018-04-10T13:11:22Z Merged pull request |-\|/-| 611 +1 −1 go 1|-\|/-| 
+document inlineContent filter in ingress-usage |-\|/-| 2018-04-09T12:32:46Z Merged pull request |-\|/-| 609 +19 −0 md 0|-\|/-| 
+Add basic auth |-\|/-| 2018-04-06T21:29:31Z Merged pull request |-\|/-| 607 +79 −12 go 2|-\|/-| 
+Add documentation for `compress()` to usage |-\|/-| 2018-03-29T13:49:30Z Merged pull request |-\|/-| 605 +8 −0 md 0|-\|/-| 
+fix formatting |-\|/-| 2018-03-28T20:22:20Z Merged pull request |-\|/-| 604 +1 −1 go 1|-\|/-| 
+doc(doc.go) fix hello world code example |-\|/-| 2018-03-28T17:04:12Z Merged pull request |-\|/-| 603 +10 −6 go 1|-\|/-| 
+fix typo in ingress docs |-\|/-| 2018-03-28T11:34:38Z Merged pull request |-\|/-| 602 +1 −1 md 0|-\|/-| 
+fix build |-\|/-| 2018-03-27T16:49:27Z Merged pull request |-\|/-| 601 +1 −0 yaml 1|-\|/-| 
+plugins dir does not exist |-\|/-| 2018-03-27T15:40:15Z Closed pull request |-\|/-| 600 +1 −0 packaging/Dockerfile 1|-\|/-| 
+prevent startup failure when default plugin dir is missing |-\|/-| 2018-03-27T15:41:31Z Merged pull request |-\|/-| 599 +8 −1 go 3|-\|/-| 
+Multi plugins, plugin .conf filles |-\|/-| 2018-04-18T09:02:03Z Merged pull request |-\|/-| 598 +617 −87 gitignore Makefile go 9|-\|/-| 
+Multi plugins |-\|/-| 2018-03-26T13:07:42Z Closed pull request |-\|/-| 597 +456 −64 gitignore Makefile go 7|-\|/-| 
+[WIP] Add 'Retry-After' header |-\|/-| 2018-09-12T15:23:55Z Closed pull request |-\|/-| 596 +130 −16 go lock yaml 7|-\|/-| 
+Add cors origin filter. |-\|/-| 2018-03-25T19:35:29Z Merged pull request |-\|/-| 595 +148 −0 go 4|-\|/-| 
+fix flaky tests relying on etcdtest |-\|/-| 2018-03-21T18:18:48Z Merged pull request |-\|/-| 594 +93 −6 go 4|-\|/-| 
+Swarm ratelimiter |-\|/-| 2018-10-23T08:39:10Z Merged pull request |-\|/-| 593 +4,606 −111 go md 3|-\|/-| 
+load dataclients, filters and predicates from plugins |-\|/-| 2018-03-26T11:55:16Z Merged pull request |-\|/-| 592 +500 −14 gitignore go md yml 4|-\|/-| 
+more tracing details |-\|/-| 2018-03-21T13:58:12Z Merged pull request |-\|/-| 591 +19 −0 go 1|-\|/-| 
+Conn refused is bad gateway |-\|/-| 2018-03-20T13:40:51Z Merged pull request |-\|/-| 590 +10 −6 go 3|-\|/-| 
+File watch |-\|/-| 2018-03-26T15:48:22Z Merged pull request |-\|/-| 588 +496 −52 go eskip 7|-\|/-| 
+remove concurrent test specs from https redirect test |-\|/-| 2018-03-18T12:36:54Z Merged pull request |-\|/-| 587 +56 −22 go 1|-\|/-| 
+fixing routing config recovery after differential update errors |-\|/-| 2018-03-18T18:12:58Z Merged pull request |-\|/-| 586 +73 −5 Makefile go 4|-\|/-| 
+Fix: empty group when no target endpoints + fix: id formatting for default backends with target endpoints + small improvements |-\|/-| 2018-03-16T09:53:32Z Merged pull request |-\|/-| 582 +301 −126 go 1|-\|/-| 
+Add annotation for specifying custom routes on ingress |-\|/-| 2018-03-17T13:48:49Z Merged pull request |-\|/-| 581 +161 −16 go md 4|-\|/-| 
+fix test timeout in kubernetes http redirect |-\|/-| 2018-03-15T19:51:50Z Merged pull request |-\|/-| 580 +3 −2 go 1|-\|/-| 
+docs videos tab |-\|/-| 2018-03-16T09:38:20Z Merged pull request |-\|/-| 579 +19 −0 md yml 1|-\|/-| 
+Using regex delimiter fails in character list in eskip #134 |-\|/-| 2018-03-15T16:08:08Z Merged pull request |-\|/-| 578 +66 −4 go 2|-\|/-| 
+Support legacy predicates in generic list |-\|/-| 2018-03-15T17:29:24Z Merged pull request |-\|/-| 576 +464 −0 go 1|-\|/-| 
+fix formatting, use -s switch |-\|/-| 2018-03-13T21:38:07Z Merged pull request |-\|/-| 575 +16 −16 go 1|-\|/-| 
+initial tests that are based on the filesystem |-\|/-| 2019-07-19T17:44:53Z Closed pull request |-\|/-| 574 +722 −48 Makefile go 3|-\|/-| 
+implementing the -indent option #270 |-\|/-| 2018-03-09T16:30:43Z Merged pull request |-\|/-| 573 +67 −40 go 6|-\|/-| 
+Expose default port 9090 in the Dockerfile |-\|/-| 2018-03-08T20:39:56Z Merged pull request |-\|/-| 572 +2 −0 packaging/Dockerfile 1|-\|/-| 
+Using regex delimiter fails in character list in eskip #134 |-\|/-| 2018-03-08T20:31:41Z Closed pull request |-\|/-| 571 +67 −4 go 2|-\|/-| 
+Fix/groupsize check in lb filter |-\|/-| 2018-03-07T13:46:53Z Merged pull request |-\|/-| 570 +22 −4 go 2|-\|/-| 
+Feature/add migration path for metrics |-\|/-| 2018-03-08T14:19:08Z Merged pull request |-\|/-| 569 +266 −67 go 4|-\|/-| 
+implementing the -indent option #270 |-\|/-| 2018-03-08T20:31:51Z Closed pull request |-\|/-| 568 +65 −41 go 6|-\|/-| 
+fix dataclient part of the "no endpoints" problem |-\|/-| 2018-03-09T16:40:05Z Merged pull request |-\|/-| 567 +224 −48 go 2|-\|/-| 
+Doc/architecture |-\|/-| 2018-03-08T13:55:55Z Merged pull request |-\|/-| 565 +66 −2 svg md 2|-\|/-| 
+fix endpoint.Targets() to filter selected targets also by ports |-\|/-| 2018-03-05T17:03:11Z Merged pull request |-\|/-| 564 +135 −6 go 3|-\|/-| 
+[doc] add modPath  |-\|/-| 2018-03-01T23:20:23Z Merged pull request |-\|/-| 561 +6 −0 md 0|-\|/-| 
+Remove hop headers |-\|/-| 2018-03-02T15:02:04Z Merged pull request |-\|/-| 558 +134 −10 go 3|-\|/-| 
+computeBackendWeights: avoid rounding issues |-\|/-| 2018-02-27T09:32:44Z Merged pull request |-\|/-| 555 +86 −8 go 2|-\|/-| 
+Fixed eskip examples to use camelCase |-\|/-| 2018-02-13T20:40:20Z Merged pull request |-\|/-| 553 +10 −10 md 0|-\|/-| 
+document ingress-controller deployment |-\|/-| 2018-02-13T16:01:17Z Merged pull request |-\|/-| 552 +52 −14 svg md 2|-\|/-| 
+Docs - kubernetes service types supported and oneline proxy  |-\|/-| 2018-02-07T16:01:54Z Merged pull request |-\|/-| 550 +25 −1 md 0|-\|/-| 
+Docs/k8s ingress-controller deployment |-\|/-| 2018-02-05T16:40:57Z Merged pull request |-\|/-| 548 +2 −2 md 0|-\|/-| 
+split docs |-\|/-| 2018-02-05T15:19:56Z Merged pull request |-\|/-| 547 +834 −660 0|-\|/-| 
+Fix tee test typo. |-\|/-| 2018-01-23T17:12:33Z Merged pull request |-\|/-| 545 +1 −1 go 1|-\|/-| 
+Add scaled images |-\|/-| 2018-01-19T16:01:20Z Merged pull request |-\|/-| 543 +1 −1 png md 2|-\|/-| 
+Fix sample demo-ing.yaml |-\|/-| 2018-01-17T14:35:49Z Merged pull request |-\|/-| 541 +2 −2 md 0|-\|/-| 
+Docs/operations |-\|/-| 2018-01-19T11:11:47Z Merged pull request |-\|/-| 540 +357 −0 md yml 1|-\|/-| 
+Conn handling |-\|/-| 2018-01-15T13:24:37Z Merged pull request |-\|/-| 538 +275 −132 0|-\|/-| 
+all: drop underscore if param or receiver is unused |-\|/-| 2018-01-09T10:09:11Z Merged pull request |-\|/-| 537 +17 −16 go 6|-\|/-| 
+LoadBalancer feature |-\|/-| 2018-02-26T22:12:38Z Merged pull request |-\|/-| 536 +2,569 −515 Makefile go 4|-\|/-| 
+Source predicate can be by passed in AWS |-\|/-| 2018-01-17T19:58:31Z Merged pull request |-\|/-| 533 +285 −63 go 4|-\|/-| 
+Scripts docs |-\|/-| 2018-01-04T10:11:46Z Merged pull request |-\|/-| 530 +234 −0 md yml 1|-\|/-| 
+serve's body= parameter accepts a table |-\|/-| 2018-01-04T10:11:09Z Merged pull request |-\|/-| 529 +26 −19 lock yaml go 3|-\|/-| 
+[lua] add body="string" to ctx.serve() |-\|/-| 2018-01-03T09:51:13Z Merged pull request |-\|/-| 527 +13 −0 go 1|-\|/-| 
+Improve error logs for invalid routes |-\|/-| 2018-01-02T22:57:35Z Merged pull request |-\|/-| 526 +1 −1 go 1|-\|/-| 
+all: simplifications |-\|/-| 2018-01-02T09:02:49Z Merged pull request |-\|/-| 524 +11 −15 go 7|-\|/-| 
+LUA Scripting |-\|/-| 2017-12-28T13:30:59Z Merged pull request |-\|/-| 522 +910 −3 go lock md 3|-\|/-| 
+proxy: simplify satisfying an interface |-\|/-| 2017-12-28T14:54:37Z Merged pull request |-\|/-| 521 +7 −19 go 1|-\|/-| 
+all: fix typos |-\|/-| 2017-12-28T13:38:33Z Merged pull request |-\|/-| 520 +19 −19 go md 10|-\|/-| 
+Doc/kube use cases |-\|/-| 2017-12-28T14:59:00Z Merged pull request |-\|/-| 519 +141 −7 md 0|-\|/-| 
+document use cases A/B test and auth header based rate limits |-\|/-| 2017-12-22T14:32:48Z Merged pull request |-\|/-| 518 +135 −7 md 0|-\|/-| 
+uncenter skipper figure |-\|/-| 2017-12-20T14:20:16Z Merged pull request |-\|/-| 517 +1 −2 md 0|-\|/-| 
+recover skipper image |-\|/-| 2017-12-20T12:58:35Z Merged pull request |-\|/-| 516 +0 −0 png 3|-\|/-| 
+all: gofmt -s |-\|/-| 2017-12-22T09:21:22Z Merged pull request |-\|/-| 515 +79 −79 Makefile go 13|-\|/-| 
+eskip, filters: use `fmt.Errorf` directly |-\|/-| 2017-12-18T22:38:05Z Merged pull request |-\|/-| 514 +3 −4 go 2|-\|/-| 
+routing: Replace for loop with expansion in append |-\|/-| 2017-12-18T09:30:32Z Merged pull request |-\|/-| 513 +1 −3 go 1|-\|/-| 
+doc IP whitelisting |-\|/-| 2017-12-14T09:58:54Z Merged pull request |-\|/-| 510 +30 −12 md 0|-\|/-| 
+Minor fixes for prometheus metrics |-\|/-| 2017-12-07T15:42:49Z Merged pull request |-\|/-| 509 +7 −7 go 4|-\|/-| 
+Enable eskip to handle OAuth when working with etcd |-\|/-| 2017-12-14T11:32:32Z Merged pull request |-\|/-| 508 +63 −29 go 11|-\|/-| 
+Prometheus metrics |-\|/-| 2017-12-06T20:36:51Z Merged pull request |-\|/-| 507 +2,244 −947 go lock yaml 3|-\|/-| 
+re-add our logo.. |-\|/-| 2017-11-30T13:03:29Z Merged pull request |-\|/-| 506 +0 −0 png 1|-\|/-| 
+doc plugins and opentracing |-\|/-| 2017-11-30T11:42:17Z Merged pull request |-\|/-| 505 +5 −1 md go 1|-\|/-| 
+show how to run skipper using the routes file |-\|/-| 2017-11-27T16:08:42Z Merged pull request |-\|/-| 503 +5 −0 md 0|-\|/-| 
+Remove unnecessary quotes from app name in the doc |-\|/-| 2017-11-27T15:21:39Z Merged pull request |-\|/-| 502 +2 −2 md 0|-\|/-| 
+(WIP) add methods DecCounter & GetOrRegister |-\|/-| 2017-11-27T15:54:59Z Closed pull request |-\|/-| 501 +0 −0 0|-\|/-| 
+fix build for osx/win |-\|/-| 2017-11-27T12:41:41Z Merged pull request |-\|/-| 498 +7 −1 Makefile 1|-\|/-| 
+add more links and docs |-\|/-| 2017-11-21T16:21:42Z Merged pull request |-\|/-| 497 +48 −13 md 0|-\|/-| 
+Added initial MkDocs structure |-\|/-| 2017-11-21T09:46:51Z Merged pull request |-\|/-| 496 +11 −0 gitignore md yml 2|-\|/-| 
+Fix link to docs  |-\|/-| 2017-11-20T19:39:18Z Merged pull request |-\|/-| 495 +1 −1 md 0|-\|/-| 
+initial docs |-\|/-| 2017-11-20T16:38:01Z Merged pull request |-\|/-| 494 +574 −1 md 0|-\|/-| 
+fix naming of new functions |-\|/-| 2017-11-19T13:22:55Z Merged pull request |-\|/-| 493 +1 −1 go 1|-\|/-| 
+Properly log the state of the circuits breakers. |-\|/-| 2017-11-19T13:22:19Z Merged pull request |-\|/-| 492 +8 −26 go 2|-\|/-| 
+header copy filters  |-\|/-| 2017-11-13T11:53:12Z Merged pull request |-\|/-| 488 +376 −0 go 3|-\|/-| 
+Ordering bug |-\|/-| 2017-11-09T22:27:54Z Merged pull request |-\|/-| 484 +194 −21 go 2|-\|/-| 
+Increase etcd index if delete the route root |-\|/-| 2017-11-09T19:21:37Z Merged pull request |-\|/-| 483 +3 −0 go 1|-\|/-| 
+intro guides in readme |-\|/-| 2017-11-05T18:33:23Z Merged pull request |-\|/-| 481 +229 −8 md 0|-\|/-| 
+create a filter for inline content |-\|/-| 2017-11-02T12:23:22Z Merged pull request |-\|/-| 480 +249 −0 go 4|-\|/-| 
+create a data client for inline routes |-\|/-| 2017-11-02T15:52:37Z Merged pull request |-\|/-| 479 +208 −0 go 5|-\|/-| 
+Feature/service ratelimit |-\|/-| 2017-11-01T10:42:03Z Merged pull request |-\|/-| 478 +363 −24 go lock yaml 9|-\|/-| 
+try to fix godoc formatting |-\|/-| 2017-10-30T17:11:54Z Merged pull request |-\|/-| 477 +3 −1 go 1|-\|/-| 
+Kubernetes - shadow traffic |-\|/-| 2017-10-30T15:37:56Z Merged pull request |-\|/-| 476 +23 −0 go 1|-\|/-| 
+changes readme.md to enable users |-\|/-| 2017-10-30T16:26:59Z Merged pull request |-\|/-| 475 +23 −5 md 0|-\|/-| 
+set predicates using ingress annotation |-\|/-| 2017-10-24T09:54:28Z Merged pull request |-\|/-| 472 +140 −24 go 2|-\|/-| 
+create a flag to disable detailed route update logging |-\|/-| 2017-10-23T11:40:49Z Merged pull request |-\|/-| 469 +162 −4 go 6|-\|/-| 
+set arbitrary skipper filters from ingress annotation |-\|/-| 2017-10-22T17:57:07Z Merged pull request |-\|/-| 468 +84 −11 go 2|-\|/-| 
+function for parsing predicates individually |-\|/-| 2017-10-22T16:21:38Z Merged pull request |-\|/-| 467 +102 −24 go 2|-\|/-| 
+set arbitrary skipper filters from ingress annotation |-\|/-| 2017-10-22T16:37:18Z Closed pull request |-\|/-| 466 +378 −51 go 4|-\|/-| 
+Fix route printing |-\|/-| 2017-10-20T15:54:41Z Merged pull request |-\|/-| 462 +294 −40 go 2|-\|/-| 
+use latest go version in travis builds |-\|/-| 2017-10-18T16:49:36Z Merged pull request |-\|/-| 461 +1 −1 yml 1|-\|/-| 
+Update readme.md |-\|/-| 2017-10-18T13:22:50Z Merged pull request |-\|/-| 460 +4 −0 md 0|-\|/-| 
+Allow using an exponentially decaying sample for histograms |-\|/-| 2017-10-16T11:10:40Z Merged pull request |-\|/-| 456 +35 −4 go 3|-\|/-| 
+fix metrics timing issue in metrics test check |-\|/-| 2017-10-16T08:58:45Z Merged pull request |-\|/-| 455 +43 −16 go 1|-\|/-| 
+rate limit support in ingress |-\|/-| 2017-10-15T20:37:37Z Merged pull request |-\|/-| 453 +152 −16 go 2|-\|/-| 
+compatibility fix to the public builtin.Redirect() function |-\|/-| 2017-10-13T13:26:25Z Merged pull request |-\|/-| 452 +7 −3 go 1|-\|/-| 
+add metrics for backend 5xx |-\|/-| 2017-10-13T14:00:21Z Merged pull request |-\|/-| 451 +9 −0 go 2|-\|/-| 
+Allow non-TTY applications to execute eskip commands |-\|/-| 2017-10-13T11:27:48Z Merged pull request |-\|/-| 450 +8 −7 go 2|-\|/-| 
+Add redirectToLower filter for case-insensitive redirects |-\|/-| 2017-10-13T11:06:18Z Merged pull request |-\|/-| 448 +139 −33 go 3|-\|/-| 
+Fix broken markdown links in CONTRIBUTING.md |-\|/-| 2017-10-10T20:09:53Z Merged pull request |-\|/-| 447 +12 −12 md 0|-\|/-| 
+Add combined filter processing metrics |-\|/-| 2017-10-10T13:52:52Z Merged pull request |-\|/-| 446 +17 −13 go 1|-\|/-| 
+Add visualization Tree built from pathmux |-\|/-| 2017-10-06T13:37:05Z Merged pull request |-\|/-| 445 +334 −8 go 3|-\|/-| 
+Provide access to backend metrics from filters |-\|/-| 2017-10-06T08:01:21Z Closed pull request |-\|/-| 444 +81 −27 go 4|-\|/-| 
+Check length of flag.Args() to ensure the were parsed correctly |-\|/-| 2017-10-05T12:37:52Z Merged pull request |-\|/-| 442 +5 −0 go 1|-\|/-| 
+show package ratelimit docs |-\|/-| 2017-10-01T18:36:40Z Merged pull request |-\|/-| 441 +0 −1 go 1|-\|/-| 
+Create catchall per host instead of per ingress |-\|/-| 2017-09-30T17:46:26Z Merged pull request |-\|/-| 440 +29 −24 go 2|-\|/-| 
+Document rate limiters |-\|/-| 2017-09-27T15:36:18Z Merged pull request |-\|/-| 439 +94 −0 go md 1|-\|/-| 
+Remove catchAll route for kube ingress |-\|/-| 2017-09-30T12:46:25Z Closed pull request |-\|/-| 437 +1 −88 go 2|-\|/-| 
+set default tracer to noop |-\|/-| 2017-09-20T09:48:30Z Merged pull request |-\|/-| 435 +1 −1 go 1|-\|/-| 
+ratelimit support via args |-\|/-| 2017-09-22T14:33:17Z Merged pull request |-\|/-| 434 +1,031 −14 go 5|-\|/-| 
+Add opentracing to skipper |-\|/-| 2017-09-19T09:04:05Z Merged pull request |-\|/-| 433 +456 −15 Makefile go lock yaml 10|-\|/-| 
+add combined metrics for backend latency and response streaming |-\|/-| 2017-09-15T12:20:46Z Merged pull request |-\|/-| 431 +32 −12 go 3|-\|/-| 
+Accept integers in programmatically created filter/predicate arguments. #296 |-\|/-| 2018-12-11T13:22:53Z Closed pull request |-\|/-| 430 +82 −15 go y 9|-\|/-| 
+make route based metrics optional |-\|/-| 2017-09-06T16:27:10Z Merged pull request |-\|/-| 429 +181 −59 go 3|-\|/-| 
+add community to readme |-\|/-| 2017-09-04T11:36:49Z Merged pull request |-\|/-| 427 +9 −0 md 0|-\|/-| 
+Make default HTTP status configurable |-\|/-| 2017-09-01T13:02:12Z Merged pull request |-\|/-| 425 +129 −3 go 7|-\|/-| 
+update dependencies |-\|/-| 2017-08-15T13:56:17Z Merged pull request |-\|/-| 417 +8 −5 lock 1|-\|/-| 
+remove outdated examples |-\|/-| 2017-08-15T13:49:47Z Closed pull request |-\|/-| 416 +1 −85 go 1|-\|/-| 
+add Makefile target "lint" |-\|/-| 2017-08-15T13:55:42Z Merged pull request |-\|/-| 415 +4 −0 gitignore Makefile 2|-\|/-| 
+Treat network errors as transient and defer updating routes |-\|/-| 2017-08-10T12:52:51Z Merged pull request |-\|/-| 410 +32 −28 go lock yaml 4|-\|/-| 
+Error early when apiserver is unreachable |-\|/-| 2017-08-09T14:10:03Z Merged pull request |-\|/-| 409 +29 −27 go 2|-\|/-| 
+Routes count |-\|/-| 2017-08-09T09:51:14Z Merged pull request |-\|/-| 405 +115 −34 go 2|-\|/-| 
+Reduce branding |-\|/-| 2017-08-09T09:51:06Z Merged pull request |-\|/-| 404 +116 −28 go 3|-\|/-| 
+fix tests |-\|/-| 2017-08-08T15:19:15Z Merged pull request |-\|/-| 403 +3 −9 Makefile go 2|-\|/-| 
+preserve incoming content length settings |-\|/-| 2017-08-08T13:52:22Z Merged pull request |-\|/-| 401 +84 −0 go 2|-\|/-| 
+Small README edits |-\|/-| 2017-08-08T13:07:50Z Merged pull request |-\|/-| 397 +7 −9 md 0|-\|/-| 
+Kubernetes ingress - health check handling change |-\|/-| 2017-08-07T15:10:33Z Merged pull request |-\|/-| 396 +2 −11 go 1|-\|/-| 
+add an additional new line to the pretty printing separator |-\|/-| 2017-08-08T17:05:27Z Merged pull request |-\|/-| 393 +24 −7 go 3|-\|/-| 
+add option to strip query strings from request URIs in the access logs |-\|/-| 2018-06-19T13:48:44Z Merged pull request |-\|/-| 392 +123 −26 go 5|-\|/-| 
+Readme update |-\|/-| 2017-08-04T21:20:40Z Merged pull request |-\|/-| 391 +48 −28 md 0|-\|/-| 
+Fix typo in Kubernetes data client |-\|/-| 2017-08-04T10:19:11Z Merged pull request |-\|/-| 389 +2 −2 go 1|-\|/-| 
+fix typo |-\|/-| 2017-08-04T07:49:19Z Closed pull request |-\|/-| 388 +2 −2 go 1|-\|/-| 
+remove rx copying from route lookup |-\|/-| 2017-08-03T14:13:47Z Merged pull request |-\|/-| 387 +2 −6 go 1|-\|/-| 
+use shared compiled regular expressions |-\|/-| 2017-08-02T13:06:13Z Merged pull request |-\|/-| 385 +237 −74 go 5|-\|/-| 
+Provide option to collect custom metrics inside filters |-\|/-| 2017-09-04T11:37:05Z Merged pull request |-\|/-| 384 +75 −2 go 6|-\|/-| 
+Fix subtree conflict |-\|/-| 2017-07-31T11:29:25Z Merged pull request |-\|/-| 383 +287 −21 go 3|-\|/-| 
+remove unnecessary logs for 404 route lookup failures |-\|/-| 2017-07-28T12:42:41Z Merged pull request |-\|/-| 381 +49 −13 go 2|-\|/-| 
+fix benchmark scripts |-\|/-| 2017-07-25T20:14:46Z Merged pull request |-\|/-| 380 +12 −6 Makefile sh inc md 5|-\|/-| 
+Fixing typo in enableBreakersUsage description |-\|/-| 2017-07-25T15:09:10Z Merged pull request |-\|/-| 379 +1 −1 go 1|-\|/-| 
+use proper netmasks for private subnets |-\|/-| 2017-07-20T20:30:52Z Merged pull request |-\|/-| 378 +2 −2 go 1|-\|/-| 
+Fix metrics endpoint |-\|/-| 2017-07-18T09:27:51Z Merged pull request |-\|/-| 374 +4 −0 go 1|-\|/-| 
+Add internal tests for routing package |-\|/-| 2017-07-18T09:28:55Z Merged pull request |-\|/-| 373 +86 −2 lock yaml go 3|-\|/-| 
+add vendoring check |-\|/-| 2017-07-18T09:31:33Z Merged pull request |-\|/-| 372 +7 −2 Makefile 1|-\|/-| 
+add dependency which was not added in the PR |-\|/-| 2017-07-18T07:31:08Z Merged pull request |-\|/-| 371 +6 −3 lock yaml 2|-\|/-| 
+provide a shortcut flag to enable breakers without global settings |-\|/-| 2017-07-20T20:35:52Z Merged pull request |-\|/-| 370 +13 −1 go 3|-\|/-| 
+reference the Kubernetes route source |-\|/-| 2017-07-13T06:56:43Z Merged pull request |-\|/-| 369 +6 −0 go 1|-\|/-| 
+Add X-Flow-Id to the access logs |-\|/-| 2017-07-12T15:56:08Z Merged pull request |-\|/-| 368 +32 −14 go 2|-\|/-| 
+raw migration of the skoap code to skipper |-\|/-| 2018-04-27T19:10:17Z Merged pull request |-\|/-| 367 +1,157 −21 go 3|-\|/-| 
+List current rules  |-\|/-| 2017-07-13T13:47:21Z Merged pull request |-\|/-| 364 +475 −101 go 7|-\|/-| 
+Circuit breaker |-\|/-| 2017-07-13T13:41:49Z Merged pull request |-\|/-| 362 +2,843 −89 go 3|-\|/-| 
+Move pathmux |-\|/-| 2017-06-30T16:47:08Z Merged pull request |-\|/-| 361 +916 −2 LICENSE pathmux/LICENSE pathmux/Makefile md 3|-\|/-| 
+replace godeps with glide |-\|/-| 2017-06-29T06:55:25Z Merged pull request |-\|/-| 359 +101 −52 gitignore json Godeps/Readme Makefile lock yaml 6|-\|/-| 
+Add flag for logs in json format #326 |-\|/-| 2017-06-27T08:21:19Z Merged pull request |-\|/-| 357 +51 −13 go 4|-\|/-| 
+add license to the readme for compliance |-\|/-| 2017-06-26T12:23:51Z Merged pull request |-\|/-| 356 +16 −0 md 0|-\|/-| 
+fix eskip patch append |-\|/-| 2017-06-23T08:36:20Z Merged pull request |-\|/-| 354 +1 −1 go 1|-\|/-| 
+provide deps for coverage generator |-\|/-| 2017-06-20T12:25:31Z Merged pull request |-\|/-| 350 +3 −3 Makefile 1|-\|/-| 
+fix license badge, provide coverage for sub packages |-\|/-| 2017-06-20T12:08:44Z Merged pull request |-\|/-| 349 +23 −5 gitignore Makefile md 2|-\|/-| 
+Create SECURITY.md |-\|/-| 2017-06-20T09:50:25Z Merged pull request |-\|/-| 347 +1 −0 md 0|-\|/-| 
+make Zappr compliant |-\|/-| 2017-06-19T07:43:31Z Merged pull request |-\|/-| 345 +8 −7 yaml 1|-\|/-| 
+build with CDP |-\|/-| 2017-06-19T09:52:48Z Merged pull request |-\|/-| 344 +42 −0 yaml 1|-\|/-| 
+consistency fix for metrics keys |-\|/-| 2017-06-19T09:57:59Z Merged pull request |-\|/-| 343 +1 −1 go 1|-\|/-| 
+use metrics keys only from known hosts and methods |-\|/-| 2017-06-13T18:48:56Z Merged pull request |-\|/-| 342 +31 −2 go 3|-\|/-| 
+update the logrus dependency |-\|/-| 2017-06-17T19:02:20Z Merged pull request |-\|/-| 340 +23 −23 json go 19|-\|/-| 
+Add ca-certificates to Docker image |-\|/-| 2017-06-02T19:20:10Z Closed pull request |-\|/-| 338 +1 −0 packaging/Dockerfile 1|-\|/-| 
+Updating docs with loopback info |-\|/-| 2017-05-29T16:43:09Z Merged pull request |-\|/-| 337 +13 −5 go md 3|-\|/-| 
+flag for ignoring the ingress class |-\|/-| 2017-06-06T12:40:21Z Merged pull request |-\|/-| 336 +76 −17 go 4|-\|/-| 
+small documentation related fixes |-\|/-| 2017-05-26T15:08:25Z Merged pull request |-\|/-| 335 +5 −4 go 2|-\|/-| 
+Add support for kubernetes.io/ingress.class annotation |-\|/-| 2017-05-26T14:26:34Z Merged pull request |-\|/-| 334 +206 −2 go 4|-\|/-| 
+add illustrator source and svg for skipper logo |-\|/-| 2017-05-25T10:46:11Z Closed pull request |-\|/-| 333 +2,244 −0 0|-\|/-| 
+Tiny eskip doc update for loopback |-\|/-| 2017-05-23T09:46:15Z Merged pull request |-\|/-| 332 +2 −1 go 1|-\|/-| 
+Loop backend |-\|/-| 2017-05-22T15:46:53Z Merged pull request |-\|/-| 331 +1,030 −359 go 3|-\|/-| 
+Implement traffic switching in kubernetes dataclient |-\|/-| 2017-05-19T15:20:07Z Merged pull request |-\|/-| 330 +537 −83 go 2|-\|/-| 
+Fix eskip usage text for -innkeeper-url |-\|/-| 2017-05-18T20:22:20Z Merged pull request |-\|/-| 329 +1 −1 go 1|-\|/-| 
+Proxy refactor |-\|/-| 2017-05-22T14:09:44Z Merged pull request |-\|/-| 327 +463 −311 go 2|-\|/-| 
+refresh github travis token |-\|/-| 2017-05-12T11:01:19Z Merged pull request |-\|/-| 325 +1 −1 yml 1|-\|/-| 
+remove failing docker build |-\|/-| 2017-05-11T10:49:50Z Merged pull request |-\|/-| 323 +0 −3 Makefile 1|-\|/-| 
+update travis github key |-\|/-| 2017-05-11T09:49:50Z Merged pull request |-\|/-| 322 +1 −1 yml 1|-\|/-| 
+Added timeout option for tee filter |-\|/-| 2017-05-11T09:49:09Z Merged pull request |-\|/-| 321 +37 −13 go 1|-\|/-| 
+implement traffic switching based on internal code |-\|/-| 2017-05-08T18:33:35Z Merged pull request |-\|/-| 319 +871 −1 go 2|-\|/-| 
+tee filter does not follow redirects if user prefers so |-\|/-| 2017-05-08T12:28:14Z Merged pull request |-\|/-| 318 +127 −17 go 3|-\|/-| 
+Fix escaping when unmarshal json |-\|/-| 2017-04-21T15:00:53Z Closed pull request |-\|/-| 317 +7 −1 go 1|-\|/-| 
+silence the command expression for the format check in the Makefile |-\|/-| 2017-04-19T17:57:48Z Merged pull request |-\|/-| 316 +1 −1 Makefile 1|-\|/-| 
+bump go version in travis builds |-\|/-| 2017-04-19T17:13:07Z Merged pull request |-\|/-| 315 +1 −1 yml 1|-\|/-| 
+Etcd install script |-\|/-| 2017-04-19T17:11:33Z Merged pull request |-\|/-| 314 +24 −11 Makefile sh 2|-\|/-| 
+Install etcd in Travis |-\|/-| 2017-04-19T17:06:00Z Closed pull request |-\|/-| 313 +19 −1 yml sh 2|-\|/-| 
+Implement caching for kubernetes service endpoints |-\|/-| 2017-04-18T16:58:53Z Closed pull request |-\|/-| 312 +23 −6 go 1|-\|/-| 
+Implement caching for kubernetes service endpoints |-\|/-| 2017-04-19T16:35:14Z Merged pull request |-\|/-| 311 +74 −6 go 2|-\|/-| 
+add missing an |-\|/-| 2017-04-13T14:39:03Z Merged pull request |-\|/-| 310 +1 −1 md 0|-\|/-| 
+add a small section kube ingress |-\|/-| 2017-04-13T11:43:04Z Merged pull request |-\|/-| 309 +8 −1 md 0|-\|/-| 
+use a select for the signal in the goroutine from which the routing calls Load* |-\|/-| 2017-04-06T09:18:35Z Merged pull request |-\|/-| 307 +153 −2 go 2|-\|/-| 
+add sigterm handler to change the return value for kubernetes |-\|/-| 2017-04-06T07:32:04Z Closed pull request |-\|/-| 306 +18 −2 go 1|-\|/-| 
+Add '^' to start of path when getting them from kubernetes |-\|/-| 2017-04-05T14:58:40Z Merged pull request |-\|/-| 305 +1 −1 go 1|-\|/-| 
+fix-backend-host-metrics |-\|/-| 2017-03-24T11:03:25Z Merged pull request |-\|/-| 303 +8 −7 go 1|-\|/-| 
+Wire backend host metrics |-\|/-| 2017-03-21T16:54:50Z Merged pull request |-\|/-| 302 +8 −0 go 2|-\|/-| 
+tee filter fixes |-\|/-| 2017-03-16T10:00:05Z Merged pull request |-\|/-| 300 +120 −17 go 2|-\|/-| 
+packaging in a clean directory does not work |-\|/-| 2017-03-13T15:13:46Z Merged pull request |-\|/-| 299 +1 −1 packaging/Makefile 1|-\|/-| 
+HTTP->HTTPS redirect for Kubernetes |-\|/-| 2017-03-13T13:33:23Z Merged pull request |-\|/-| 297 +236 −21 go 5|-\|/-| 
+remove unnecessary defer |-\|/-| 2017-03-15T18:27:02Z Merged pull request |-\|/-| 295 +1 −1 go 1|-\|/-| 
+avoid copying unknown fields for the tee() request |-\|/-| 2017-03-09T12:27:47Z Merged pull request |-\|/-| 294 +62 −27 go 2|-\|/-| 
+Unit tests for kubernetes client related functions  |-\|/-| 2017-03-07T18:34:27Z Merged pull request |-\|/-| 293 +473 −54 go 2|-\|/-| 
+patch for stdlib profile path handling |-\|/-| 2017-03-06T15:15:14Z Merged pull request |-\|/-| 292 +6 −6 go 2|-\|/-| 
+expose profile info |-\|/-| 2017-03-06T13:31:34Z Merged pull request |-\|/-| 291 +33 −6 go 5|-\|/-| 
+Get rid of kubectl proxy in skipper |-\|/-| 2017-03-07T11:30:02Z Merged pull request |-\|/-| 290 +245 −53 go 2|-\|/-| 
+remove Raffo from maintainers list |-\|/-| 2017-03-03T22:00:36Z Merged pull request |-\|/-| 289 +0 −1 MAINTAINERS 1|-\|/-| 
+Support HTTPS requests in the Docker image |-\|/-| 2017-06-07T10:35:07Z Merged pull request |-\|/-| 288 +5 −4 packaging/Dockerfile packaging/Makefile md 2|-\|/-| 
+try to fix ci build |-\|/-| 2017-02-28T11:47:11Z Closed pull request |-\|/-| 285 +1 −1 packaging/Makefile 1|-\|/-| 
+Automatic docker on release |-\|/-| 2017-02-27T12:43:29Z Merged pull request |-\|/-| 281 +9 −8 Makefile packaging/Makefile 2|-\|/-| 
+automatically create docker images on releases |-\|/-| 2017-02-23T16:37:16Z Merged pull request |-\|/-| 280 +24 −17 Makefile packaging/Makefile 2|-\|/-| 
+set the default command to skipper |-\|/-| 2017-02-22T16:27:12Z Merged pull request |-\|/-| 279 +2 −0 packaging/Dockerfile 1|-\|/-| 
+set the body to nil for outgoing requests, when the content length is zero |-\|/-| 2017-02-22T11:27:33Z Merged pull request |-\|/-| 277 +94 −2 go 2|-\|/-| 
+go vet fix: check error before using response |-\|/-| 2017-02-22T08:04:17Z Merged pull request |-\|/-| 276 +6 −2 go 1|-\|/-| 
+Prototype for watching files & directories for routes |-\|/-| 2018-03-26T15:56:57Z Closed pull request |-\|/-| 275 +370 −12 go 1|-\|/-| 
+Updating link to packaging readme |-\|/-| 2017-02-17T12:44:44Z Merged pull request |-\|/-| 273 +1 −1 md 0|-\|/-| 
+Add filters and predicates from debug listener |-\|/-| 2017-02-03T14:11:25Z Merged pull request |-\|/-| 267 +32 −15 go 2|-\|/-| 
+add prefix to error messages where it was missing |-\|/-| 2017-02-06T10:45:10Z Merged pull request |-\|/-| 266 +7 −7 Makefile go 4|-\|/-| 
+Configure Zappr |-\|/-| 2017-02-02T14:28:45Z Closed pull request |-\|/-| 265 +24 −0 yaml 1|-\|/-| 
+add prefix to error messages where it was missing |-\|/-| 2017-02-02T14:46:12Z Closed pull request |-\|/-| 264 +7 −7 Makefile go 4|-\|/-| 
+Adding zappr config file |-\|/-| 2017-02-02T14:44:52Z Merged pull request |-\|/-| 262 +8 −0 yaml 1|-\|/-| 
+Changed handling of transient kube apiserver errors |-\|/-| 2017-01-27T15:08:17Z Merged pull request |-\|/-| 261 +0 −55 go 2|-\|/-| 
+fix versioning variable |-\|/-| 2017-01-27T13:07:52Z Merged pull request |-\|/-| 259 +3 −3 Makefile 1|-\|/-| 
+Introducing sem ver |-\|/-| 2017-01-27T12:59:57Z Merged pull request |-\|/-| 258 +186 −19 yml Makefile go 6|-\|/-| 
+first draft of fswatch on the routes file |-\|/-| 2018-03-26T15:52:50Z Closed pull request |-\|/-| 257 +84 −23 go 3|-\|/-| 
+Flowid generators interface |-\|/-| 2017-01-20T20:32:01Z Closed pull request |-\|/-| 256 +57 −35 go 6|-\|/-| 
+go vet fixes |-\|/-| 2017-01-20T20:32:38Z Merged pull request |-\|/-| 255 +69 −31 Makefile go 11|-\|/-| 
+refactored flowid to support having custom generators |-\|/-| 2017-01-20T20:31:34Z Merged pull request |-\|/-| 253 +474 −178 go 3|-\|/-| 
+Service unavailable error |-\|/-| 2017-01-16T23:09:33Z Merged pull request |-\|/-| 247 +36 −4 go 2|-\|/-| 
+Basic per backend host metrics |-\|/-| 2017-01-20T20:32:56Z Merged pull request |-\|/-| 245 +22 −10 go 2|-\|/-| 
+Setting Content-Type header to application/json in debug |-\|/-| 2016-12-16T12:31:13Z Merged pull request |-\|/-| 238 +3 −0 go 1|-\|/-| 
+Kube client |-\|/-| 2016-12-15T15:13:23Z Merged pull request |-\|/-| 236 +465 −9 go 2|-\|/-| 
+log level in cli options |-\|/-| 2016-12-12T19:57:01Z Merged pull request |-\|/-| 234 +10 −0 go 1|-\|/-| 
+change dockerfile: support eskip and skipper, change to alpine base image |-\|/-| 2016-12-09T18:08:17Z Merged pull request |-\|/-| 233 +57 −13 gitignore dockerignore packaging/Dockerfile packaging/Makefile md 4|-\|/-| 
+Kube client - kubernetes flag in the skipper command |-\|/-| 2016-12-08T19:35:46Z Merged pull request |-\|/-| 232 +6 −3 go 2|-\|/-| 
+Non-existence predicate for query parameters |-\|/-| 2016-12-08T15:12:13Z Closed pull request |-\|/-| 231 +182 −1 go 3|-\|/-| 
+Kube client |-\|/-| 2016-12-08T17:32:13Z Merged pull request |-\|/-| 229 +1,149 −16 go 1|-\|/-| 
+Go formatting |-\|/-| 2016-12-05T14:39:38Z Merged pull request |-\|/-| 228 +5 −5 go 3|-\|/-| 
+fix the documentation of the diag filters:  |-\|/-| 2016-11-28T11:44:46Z Merged pull request |-\|/-| 226 +3 −3 go 1|-\|/-| 
+fix query param predicate documentation |-\|/-| 2016-11-22T15:00:11Z Merged pull request |-\|/-| 224 +4 −4 go 1|-\|/-| 
+Eskip json |-\|/-| 2016-11-23T21:02:06Z Merged pull request |-\|/-| 223 +243 −21 go 7|-\|/-| 
+Decimal printing |-\|/-| 2016-11-21T14:52:33Z Merged pull request |-\|/-| 221 +46 −2 go 2|-\|/-| 
+force decimal notation in printin numbers |-\|/-| 2016-11-11T12:52:57Z Closed pull request |-\|/-| 220 +46 −2 go 2|-\|/-| 
+Added a check for repeating route ids to `eskip check` |-\|/-| 2016-11-09T10:21:54Z Merged pull request |-\|/-| 219 +31 −2 go 2|-\|/-| 
+bump travis go version |-\|/-| 2016-11-06T20:49:59Z Merged pull request |-\|/-| 218 +1 −1 yml 1|-\|/-| 
+create metrics for total serve time per host and route |-\|/-| 2016-11-08T16:50:47Z Merged pull request |-\|/-| 217 +296 −8 go 3|-\|/-| 
+Added support for basic auth |-\|/-| 2016-10-26T07:54:23Z Merged pull request |-\|/-| 216 +172 −0 go filters/auth/testdata/htpasswd 5|-\|/-| 
+Added support for transformation with path params |-\|/-| 2016-12-04T22:06:56Z Merged pull request |-\|/-| 215 +387 −10 go 6|-\|/-| 
+export redirect logic as a standalone function |-\|/-| 2016-10-25T10:49:13Z Merged pull request |-\|/-| 214 +14 −12 go 1|-\|/-| 
+rename tee to follow conventions |-\|/-| 2016-11-06T22:55:22Z Merged pull request |-\|/-| 213 +39 −17 go 5|-\|/-| 
+update tee filter docs |-\|/-| 2016-10-17T21:51:06Z Merged pull request |-\|/-| 212 +16 −9 go 1|-\|/-| 
+Replace ReplaceAll with ReplaceAllString |-\|/-| 2016-10-10T15:00:24Z Merged pull request |-\|/-| 211 +11 −4 go 2|-\|/-| 
+Set path filter |-\|/-| 2016-10-10T12:42:12Z Merged pull request |-\|/-| 210 +160 −60 go 4|-\|/-| 
+Pathsubtree |-\|/-| 2016-10-10T16:08:21Z Merged pull request |-\|/-| 209 +2,354 −88 go 4|-\|/-| 
+Fix error handling on failed tee requests |-\|/-| 2016-10-05T14:52:32Z Merged pull request |-\|/-| 207 +3 −1 go 1|-\|/-| 
+Tee filter |-\|/-| 2016-09-10T15:01:54Z Merged pull request |-\|/-| 206 +394 −0 go 3|-\|/-| 
+#203 Share TLSClientConfig with upgrade protocol proxy |-\|/-| 2016-09-02T13:17:39Z Merged pull request |-\|/-| 204 +21 −26 go 2|-\|/-| 
+Add replicateTo filter. Which can be used for shadow backends |-\|/-| 2016-09-06T06:40:19Z Closed pull request |-\|/-| 201 +225 −0 go 3|-\|/-| 
+Priority trees |-\|/-| 2016-08-30T13:33:40Z Closed pull request |-\|/-| 200 +321 −74 go 5|-\|/-| 
+Add Weights to predicates |-\|/-| 2016-08-19T14:14:06Z Closed pull request |-\|/-| 197 +26 −1 go 6|-\|/-| 
+Query |-\|/-| 2016-08-12T10:50:17Z Merged pull request |-\|/-| 196 +253 −1 go 3|-\|/-| 
+Glob standard in docs |-\|/-| 2016-08-11T07:19:21Z Merged pull request |-\|/-| 195 +4 −16 go 1|-\|/-| 
+apply cookie predicate |-\|/-| 2016-08-12T11:24:17Z Merged pull request |-\|/-| 193 +7 −1 go 1|-\|/-| 
+Close current body |-\|/-| 2016-08-30T13:32:56Z Merged pull request |-\|/-| 192 +12 −7 go 2|-\|/-| 
+add warning to the docker readme |-\|/-| 2016-08-12T11:53:36Z Merged pull request |-\|/-| 190 +4 −0 md 0|-\|/-| 
+Fixing tests by improving resource handling |-\|/-| 2016-08-15T15:14:00Z Merged pull request |-\|/-| 189 +859 −643 go 10|-\|/-| 
+fix go formatting |-\|/-| 2016-08-06T21:04:02Z Merged pull request |-\|/-| 187 +1 −1 go 1|-\|/-| 
+remove notifications from travis file |-\|/-| 2016-08-06T20:57:46Z Merged pull request |-\|/-| 186 +0 −4 yml 1|-\|/-| 
+create cookie predicate |-\|/-| 2016-08-09T16:28:43Z Merged pull request |-\|/-| 185 +166 −0 go 2|-\|/-| 
+doc: Update Contributing.md |-\|/-| 2016-07-29T12:41:38Z Merged pull request |-\|/-| 183 +40 −7 md 0|-\|/-| 
+Diag refactor |-\|/-| 2016-08-14T23:32:58Z Merged pull request |-\|/-| 181 +67 −23 go 2|-\|/-| 
+Added pretty print functionality |-\|/-| 2016-08-09T19:54:59Z Merged pull request |-\|/-| 180 +101 −8 go 5|-\|/-| 
+Disable the keep alive for innkeeper connections |-\|/-| 2016-07-08T13:22:22Z Merged pull request |-\|/-| 177 +2 −1 go 1|-\|/-| 
+Flush in compress() |-\|/-| 2016-07-08T09:30:47Z Merged pull request |-\|/-| 176 +117 −1 go 2|-\|/-| 
+Diagnostics tools - Network throttling |-\|/-| 2016-07-14T11:26:50Z Merged pull request |-\|/-| 174 +962 −0 go 2|-\|/-| 
+Innkeeper |-\|/-| 2016-07-05T09:47:36Z Merged pull request |-\|/-| 173 +275 −160 go 1|-\|/-| 
+accept innkeeper update action |-\|/-| 2016-06-23T21:26:32Z Merged pull request |-\|/-| 172 +17 −8 go sh 3|-\|/-| 
+Innkeeper |-\|/-| 2016-06-22T14:07:22Z Merged pull request |-\|/-| 171 +289 −548 go 1|-\|/-| 
+Fixed error handling in applyPredicates |-\|/-| 2016-06-21T16:32:22Z Merged pull request |-\|/-| 170 +6 −1 go 2|-\|/-| 
+fix command line flags in benchmark scripts |-\|/-| 2016-06-19T20:59:23Z Merged pull request |-\|/-| 168 +2 −2 inc 1|-\|/-| 
+Feature handle upgrade requests |-\|/-| 2016-06-20T11:42:52Z Merged pull request |-\|/-| 167 +440 −29 go 3|-\|/-| 
+Dockerize |-\|/-| 2016-06-16T16:26:24Z Merged pull request |-\|/-| 166 +39 −0 packaging/Dockerfile md 1|-\|/-| 
+Connection pooling |-\|/-| 2016-06-07T12:51:52Z Merged pull request |-\|/-| 164 +560 −177 go 11|-\|/-| 
+Local Benchmarking |-\|/-| 2016-06-06T10:11:17Z Merged pull request |-\|/-| 163 +502 −102 sh eskip inc skptesting/cpu conf 9|-\|/-| 
+Create CONTRIBUTING.md |-\|/-| 2016-06-04T15:23:34Z Merged pull request |-\|/-| 162 +12 −0 md 0|-\|/-| 
+Compression |-\|/-| 2016-06-02T16:58:22Z Merged pull request |-\|/-| 161 +1,034 −158 go 2|-\|/-| 
+Compression |-\|/-| 2016-05-30T17:07:07Z Closed pull request |-\|/-| 160 +1,667 −19 go 2|-\|/-| 
+Extract delayed |-\|/-| 2016-05-30T11:38:30Z Merged pull request |-\|/-| 158 +385 −96 go 3|-\|/-| 
+Simplify static filter |-\|/-| 2016-05-25T15:54:05Z Merged pull request |-\|/-| 156 +41 −92 go 1|-\|/-| 
+fix race condition in listener tests |-\|/-| 2016-05-19T20:31:58Z Merged pull request |-\|/-| 152 +78 −18 go 1|-\|/-| 
+Implemented TLS support |-\|/-| 2016-05-18T14:58:37Z Merged pull request |-\|/-| 150 +195 −13 go crt key 5|-\|/-| 
+Added write flag to log file |-\|/-| 2016-05-02T13:46:26Z Merged pull request |-\|/-| 147 +1 −1 go 1|-\|/-| 
+Predicates that allow temporary routes. Between predicate makes the r… |-\|/-| 2016-04-29T09:47:18Z Merged pull request |-\|/-| 146 +510 −1 gitignore go 2|-\|/-| 
+test |-\|/-| 2016-04-22T12:12:30Z Closed pull request |-\|/-| 145 +1 −0 test 1|-\|/-| 
+disable time sensitive test |-\|/-| 2016-04-22T11:30:38Z Merged pull request |-\|/-| 144 +5 −1 go 2|-\|/-| 
+fix developer installation in readme |-\|/-| 2016-04-23T16:02:39Z Merged pull request |-\|/-| 143 +1 −0 md 0|-\|/-| 
+less return arguments in matchPathTree |-\|/-| 2016-04-21T14:49:16Z Merged pull request |-\|/-| 142 +13 −14 go 2|-\|/-| 
+update pathmux godep entry |-\|/-| 2016-04-21T14:56:25Z Merged pull request |-\|/-| 141 +8 −4 json go 2|-\|/-| 
+Update go version |-\|/-| 2016-04-21T13:37:40Z Merged pull request |-\|/-| 140 +76 −37 yml json go 7|-\|/-| 
+provide an option to set custom data clients |-\|/-| 2016-04-21T09:55:09Z Merged pull request |-\|/-| 139 +7 −1 go 1|-\|/-| 
+Debug doc fieldnames |-\|/-| 2016-04-13T11:02:20Z Merged pull request |-\|/-| 138 +3 −3 go 1|-\|/-| 
+update readme to show the full size mascot |-\|/-| 2016-04-11T16:27:16Z Merged pull request |-\|/-| 137 +2 −2 md 0|-\|/-| 
+Debug endpoint |-\|/-| 2016-04-11T16:26:58Z Merged pull request |-\|/-| 136 +622 −100 go 4|-\|/-| 
+add served set for new shunting |-\|/-| 2016-04-07T10:08:24Z Merged pull request |-\|/-| 135 +4 −4 go 2|-\|/-| 
+Fix matcher |-\|/-| 2016-04-21T14:30:58Z Merged pull request |-\|/-| 133 +66 −14 go 3|-\|/-| 
+Small fix to filtertest mocks |-\|/-| 2016-04-23T16:49:08Z Merged pull request |-\|/-| 131 +1 −0 go 1|-\|/-| 
+test for #116 |-\|/-| 2016-04-19T14:17:34Z Closed pull request |-\|/-| 130 +35 −0 go 1|-\|/-| 
+#124: add enpoints rotation tests |-\|/-| 2016-03-14T10:43:15Z Merged pull request |-\|/-| 129 +101 −0 go 1|-\|/-| 
+Path params |-\|/-| 2016-03-14T12:32:06Z Closed pull request |-\|/-| 128 +234 −29 go 9|-\|/-| 
+Eskip patch filters |-\|/-| 2016-06-07T10:24:29Z Merged pull request |-\|/-| 127 +405 −204 go 4|-\|/-| 
+Adding badges |-\|/-| 2016-03-11T11:08:00Z Merged pull request |-\|/-| 126 +2 −0 md 0|-\|/-| 
+Added requested host to the access log |-\|/-| 2016-03-10T13:44:16Z Merged pull request |-\|/-| 125 +25 −20 go 2|-\|/-| 
+client try endpoints optimization |-\|/-| 2016-03-14T12:06:45Z Merged pull request |-\|/-| 123 +22 −21 go 1|-\|/-| 
+simple endpointErrors to string convertation |-\|/-| 2016-03-10T10:09:15Z Merged pull request |-\|/-| 122 +17 −6 go 2|-\|/-| 
+Upgrade static |-\|/-| 2016-03-08T17:29:54Z Merged pull request |-\|/-| 121 +319 −28 go 2|-\|/-| 
+Status filter |-\|/-| 2016-03-08T17:30:07Z Merged pull request |-\|/-| 120 +88 −0 go 4|-\|/-| 
+Header filters |-\|/-| 2016-03-08T22:50:36Z Merged pull request |-\|/-| 119 +347 −110 go 3|-\|/-| 
+Etcd authorization header |-\|/-| 2016-03-06T19:30:46Z Closed pull request |-\|/-| 118 +17,224 −2,374 yaml gitignore yml json Godeps/Readme LICENSE MAINTAINERS go 8|-\|/-| 
+add test proxy |-\|/-| 2016-03-03T17:20:10Z Merged pull request |-\|/-| 117 +22 −2 go 2|-\|/-| 
+re-enable real numbers for innkeeper |-\|/-| 2016-03-03T15:04:55Z Merged pull request |-\|/-| 115 +20 −85 go 4|-\|/-| 
+extend innkeeper marshaling with custom predicates |-\|/-| 2016-03-03T12:22:08Z Merged pull request |-\|/-| 114 +164 −16 go 4|-\|/-| 
+Documentation updates |-\|/-| 2016-02-23T12:35:11Z Merged pull request |-\|/-| 113 +131 −103 go 2|-\|/-| 
+Update readme.md |-\|/-| 2016-02-24T15:05:58Z Merged pull request |-\|/-| 112 +29 −36 md 0|-\|/-| 
+Update LICENSE |-\|/-| 2016-02-18T17:00:23Z Merged pull request |-\|/-| 111 +4 −199 LICENSE 1|-\|/-| 
+Update the Innkeeper client to support other errors and status codes |-\|/-| 2016-02-10T16:00:38Z Merged pull request |-\|/-| 109 +11 −7 go 2|-\|/-| 
+Source predicate |-\|/-| 2016-02-10T15:28:09Z Merged pull request |-\|/-| 108 +308 −0 go 5|-\|/-| 
+Upgrade redirect header to new proxy |-\|/-| 2016-02-22T18:05:05Z Merged pull request |-\|/-| 107 +158 −142 go 4|-\|/-| 
+Add some useful metrics |-\|/-| 2016-02-08T10:19:46Z Merged pull request |-\|/-| 106 +60 −0 go 3|-\|/-| 
+Update readme.md |-\|/-| 2016-02-01T20:57:12Z Merged pull request |-\|/-| 104 +1 −2 md 0|-\|/-| 
+Use the standard header for innkeeper authorization |-\|/-| 2016-02-02T13:56:15Z Merged pull request |-\|/-| 103 +8 −3 go 2|-\|/-| 
+add insecure flag for eskip connections |-\|/-| 2016-02-02T13:56:29Z Merged pull request |-\|/-| 102 +63 −18 go 8|-\|/-| 
+fix etcd timeout when etcd host in proxy mode |-\|/-| 2016-02-01T10:36:03Z Merged pull request |-\|/-| 101 +37 −5 go 4|-\|/-| 
+Update README URLs based on HTTP redirects |-\|/-| 2016-02-01T20:53:25Z Merged pull request |-\|/-| 100 +1 −1 md 0|-\|/-| 
+Host header: revert default, support preserveHost |-\|/-| 2016-01-21T14:28:18Z Merged pull request |-\|/-| 95 +484 −37 go 9|-\|/-| 
+Etcd client |-\|/-| 2016-01-21T10:31:00Z Merged pull request |-\|/-| 94 +560 −185 json go 5|-\|/-| 
+fine tune deprected filter shunting |-\|/-| 2016-01-15T16:25:20Z Merged pull request |-\|/-| 93 +27 −24 go 1|-\|/-| 
+Deprecated Served() and now branding errors |-\|/-| 2016-01-15T13:51:30Z Merged pull request |-\|/-| 92 +21 −13 go 2|-\|/-| 
+Added possibility to break the filter chain |-\|/-| 2016-01-15T12:18:25Z Merged pull request |-\|/-| 91 +155 −62 json go 6|-\|/-| 
+Custom predicates |-\|/-| 2016-01-21T14:23:53Z Merged pull request |-\|/-| 90 +784 −309 go 2|-\|/-| 
+Eskip lexer refactor |-\|/-| 2016-01-14T10:08:27Z Merged pull request |-\|/-| 88 +327 −202 0|-\|/-| 
+add x-forwarded-for override for access log remote addr value |-\|/-| 2015-12-11T12:26:26Z Merged pull request |-\|/-| 79 +25 −2 go 2|-\|/-| 
+Always set the Host header from the original request by default |-\|/-| 2015-12-08T11:46:16Z Merged pull request |-\|/-| 78 +1 −1 go 1|-\|/-| 
+fix header setting in the header filter |-\|/-| 2015-12-11T12:36:55Z Closed pull request |-\|/-| 77 +94 −3 go 3|-\|/-| 
+Add innkeeper cli |-\|/-| 2016-01-04T13:27:54Z Merged pull request |-\|/-| 76 +1,185 −325 go 5|-\|/-| 
+Route settings log |-\|/-| 2015-12-06T23:25:54Z Merged pull request |-\|/-| 75 +7 −4 go 2|-\|/-| 
+update godep file with zal repo |-\|/-| 2015-12-04T17:09:36Z Merged pull request |-\|/-| 74 +1 −286 json 1|-\|/-| 
+Added Godeps |-\|/-| 2015-12-04T16:59:20Z Merged pull request |-\|/-| 73 +323 −0 gitignore json Godeps/Readme 3|-\|/-| 
+fix lexer to trim comments in last position |-\|/-| 2015-12-04T13:48:21Z Merged pull request |-\|/-| 72 +8 −1 go 2|-\|/-| 
+Fixed the bug in the metrics and switched to the UniformSample |-\|/-| 2015-12-03T12:15:20Z Merged pull request |-\|/-| 70 +47 −25 go 3|-\|/-| 
+Innkeeper integration |-\|/-| 2015-12-04T10:04:19Z Merged pull request |-\|/-| 68 +311 −288 go 1|-\|/-| 
+Refactored metrics to improve performance |-\|/-| 2015-12-01T18:04:32Z Merged pull request |-\|/-| 67 +51 −62 go 3|-\|/-| 
+introduce atomic for the matcher (routing table) pointer |-\|/-| 2015-12-01T15:44:25Z Merged pull request |-\|/-| 66 +17 −24 go 1|-\|/-| 
+Logging and monitoring |-\|/-| 2015-11-20T17:44:44Z Merged pull request |-\|/-| 60 +1,392 −82 gitignore go 8|-\|/-| 
+Added backend url to the filter context |-\|/-| 2015-11-19T15:10:32Z Merged pull request |-\|/-| 59 +10 −1 go 3|-\|/-| 
+Logging: cli flags, tests and documentation. Metrics: documentation. |-\|/-| 2015-11-18T13:34:15Z Merged pull request |-\|/-| 55 +510 −83 go 7|-\|/-| 
+Logging options flags |-\|/-| 2015-11-17T20:22:41Z Closed pull request |-\|/-| 54 +378 −59 go 6|-\|/-| 
+documentation fixes |-\|/-| 2015-11-17T21:21:02Z Merged pull request |-\|/-| 53 +23 −28 go 9|-\|/-| 
+Access log |-\|/-| 2015-11-13T16:17:55Z Merged pull request |-\|/-| 52 +165 −125 go 8|-\|/-| 
+Update readme.md |-\|/-| 2016-02-01T21:04:21Z Merged pull request |-\|/-| 51 +7 −7 md 0|-\|/-| 
+Update readme.md |-\|/-| 2015-11-11T19:40:55Z Merged pull request |-\|/-| 50 +12 −10 md 0|-\|/-| 
+Application and Access log - initial version |-\|/-| 2015-11-11T16:08:44Z Merged pull request |-\|/-| 48 +180 −14 go 8|-\|/-| 
+Add travis integration |-\|/-| 2015-11-11T11:17:11Z Merged pull request |-\|/-| 47 +76 −2 yml go md 5|-\|/-| 
+Monitoring support |-\|/-| 2015-11-10T12:26:11Z Merged pull request |-\|/-| 46 +22 −14 go 4|-\|/-| 
+remove default etcd dataclient |-\|/-| 2015-11-09T19:51:33Z Merged pull request |-\|/-| 44 +7 −3 go 1|-\|/-| 
+add monitoring info to the constructed filter instances |-\|/-| 2015-11-10T12:07:48Z Merged pull request |-\|/-| 43 +22 −14 go 4|-\|/-| 
+add monitoring info to the constructed filter instances |-\|/-| 2015-11-09T14:48:28Z Closed pull request |-\|/-| 42 +22 −14 go 4|-\|/-| 
+Fix quickstart doc |-\|/-| 2015-11-09T19:08:28Z Merged pull request |-\|/-| 41 +1 −9 go md 1|-\|/-| 
+fix quickstart instruction in the readme |-\|/-| 2015-11-08T19:44:01Z Merged pull request |-\|/-| 39 +2 −2 go md 1|-\|/-| 
+preserving original request and response |-\|/-| 2015-11-06T10:58:00Z Merged pull request |-\|/-| 38 +210 −40 go 9|-\|/-| 
+review fixes |-\|/-| 2015-10-30T14:28:16Z Merged pull request |-\|/-| 36 +2 −1 go 2|-\|/-| 
+Eskip tool |-\|/-| 2015-10-30T12:51:10Z Merged pull request |-\|/-| 35 +2,383 −136 go 2|-\|/-| 
+Release cleanup review |-\|/-| 2015-10-27T17:58:23Z Merged pull request |-\|/-| 34 +7,037 −4,204 LICENSE MAINTAINERS go 5|-\|/-| 
+documentation |-\|/-| 2015-10-27T17:56:01Z Merged pull request |-\|/-| 28 +2,756 −1,223 LICENSE MAINTAINERS go 3|-\|/-| 
+Update the readme to include Innkeeper |-\|/-| 2015-10-23T13:27:16Z Merged pull request |-\|/-| 27 +1 −3 md 0|-\|/-| 
+Release cleanup |-\|/-| 2015-10-19T13:05:50Z Merged pull request |-\|/-| 26 +565 −17 go 4|-\|/-| 
+more flexible location settings for the redirect filter |-\|/-| 2015-10-19T08:58:02Z Merged pull request |-\|/-| 24 +150 −12 go 3|-\|/-| 
+Feature #18 add x flow |-\|/-| 2015-10-19T08:55:52Z Merged pull request |-\|/-| 23 +391 −1 go 5|-\|/-| 
+make header matching case sensitive |-\|/-| 2015-10-19T08:56:10Z Merged pull request |-\|/-| 22 +48 −14 go 3|-\|/-| 
+Release cleanup master merge |-\|/-| 2015-10-14T14:22:56Z Merged pull request |-\|/-| 20 +15 −0 go 2|-\|/-| 
+client polling fixes |-\|/-| 2015-10-16T11:48:13Z Merged pull request |-\|/-| 19 +13 −5 go 4|-\|/-| 
+Release cleanup |-\|/-| 2015-10-12T15:21:00Z Merged pull request |-\|/-| 17 +843 −246 go 5|-\|/-| 
+Added some basic branding (X-Powered-By and Server headers) |-\|/-| 2015-10-12T12:17:50Z Merged pull request |-\|/-| 16 +15 −0 go 2|-\|/-| 
+Release cleanup data client |-\|/-| 2015-10-07T15:28:40Z Merged pull request |-\|/-| 13 +1,616 −1,401 go 6|-\|/-| 
+Strip query |-\|/-| 2015-10-07T12:37:09Z Merged pull request |-\|/-| 12 +176 −0 go 3|-\|/-| 
+Release cleanup |-\|/-| 2015-10-05T10:17:01Z Merged pull request |-\|/-| 11 +3,340 −1,815 go 2|-\|/-| 
+Priority route |-\|/-| 2015-10-03T11:19:39Z Merged pull request |-\|/-| 10 +229 −56 go 4|-\|/-| 
+Release cleanup |-\|/-| 2015-10-03T11:20:17Z Merged pull request |-\|/-| 9 +1,015 −1,947 go 5|-\|/-| 
+Innkeeper data client |-\|/-| 2015-10-02T09:09:14Z Merged pull request |-\|/-| 7 +1,521 −41 gitignore go 5|-\|/-| 
+Added state bag to filter context |-\|/-| 2015-09-15T14:29:45Z Merged pull request |-\|/-| 6 +25 −8 gitignore go 7|-\|/-| 
+create redirect filter |-\|/-| 2015-09-08T13:11:32Z Merged pull request |-\|/-| 5 +78 −1 go 4|-\|/-| 
+Replace mailgun |-\|/-| 2015-09-08T12:56:13Z Merged pull request |-\|/-| 4 +1,929 −164 go md 6|-\|/-| 
+remove temporary disabling of connection pooling |-\|/-| 2015-08-21T14:50:48Z Merged pull request |-\|/-| 3 +1 −3 go 1|-\|/-| 
+added ability to load routes from local file |-\|/-| 2015-08-21T08:44:36Z Merged pull request |-\|/-| 2 +52 −6 go 3|-\|/-| 
+Update readme.md |-\|/-| 2015-08-06T15:33:10Z Merged pull request |-\|/-| 1 +8 −4 md 0|-\|/-| 

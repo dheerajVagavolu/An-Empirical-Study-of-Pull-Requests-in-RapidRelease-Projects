@@ -1,0 +1,459 @@
+Doc typos |-\|/-| 2019-10-09T15:53:08Z Merged pull request |-\|/-| 946 +11 −11 md 0|-\|/-| 
+Enable color output on windows |-\|/-| 2019-03-04T20:37:47Z Merged pull request |-\|/-| 928 +72 −9 lock go 4|-\|/-| 
+Update dep-005.md |-\|/-| 2019-03-05T00:30:36Z Merged pull request |-\|/-| 927 +5 −5 md 0|-\|/-| 
+Packs: update javascript to node:10 |-\|/-| 2019-03-05T00:05:07Z Merged pull request |-\|/-| 924 +1 −1 packs/javascript/Dockerfile 1|-\|/-| 
+Simplify brew install |-\|/-| 2019-02-02T16:57:55Z Merged pull request |-\|/-| 923 +2 −4 md 0|-\|/-| 
+Update brew install to match azure/homebrew-draft |-\|/-| 2018-12-21T23:14:31Z Merged pull request |-\|/-| 918 +1 −1 md 0|-\|/-| 
+Adding authentication to ImageBuild |-\|/-| 2019-01-18T18:44:29Z Merged pull request |-\|/-| 914 +26 −5 go 3|-\|/-| 
+Improvement to the getting started doc |-\|/-| 2018-12-14T00:26:06Z Merged pull request |-\|/-| 911 +1 −1 md 0|-\|/-| 
+feat(Makefile): add install target |-\|/-| 2018-12-10T17:46:24Z Merged pull request |-\|/-| 905 +12 −1 Makefile 1|-\|/-| 
+feat(*): add post up task type |-\|/-| 2018-12-08T22:46:29Z Merged pull request |-\|/-| 904 +12 −1 go 2|-\|/-| 
+Adding new error code to separate local repo from installer errors |-\|/-| 2018-12-17T07:02:25Z Merged pull request |-\|/-| 903 +4 −2 go 2|-\|/-| 
+Fix all warning from test-lint Makefile rule |-\|/-| 2018-10-29T17:25:19Z Merged pull request |-\|/-| 896 +22 −13 go 6|-\|/-| 
+golint cosmetics: error strings should not end with punctuation |-\|/-| 2019-01-24T17:47:50Z Closed pull request |-\|/-| 888 +0 −0 0|-\|/-| 
+Fix golint warning: redundant if ...; err != nil check, just return error instead. |-\|/-| 2018-10-26T19:29:11Z Merged pull request |-\|/-| 887 +1 −5 go 1|-\|/-| 
+Print error code when plugin exits with non-zero error |-\|/-| 2019-07-15T22:20:49Z Closed pull request |-\|/-| 886 +2 −2 go 2|-\|/-| 
+Update chart labels to follow the new convention |-\|/-| 2018-10-31T20:25:27Z Closed pull request |-\|/-| 885 +78 −78 yaml 26|-\|/-| 
+Packs: upgraded to jdk11 |-\|/-| 2018-10-22T18:47:17Z Merged pull request |-\|/-| 881 +4 −4 packs/gradle/Dockerfile packs/java/Dockerfile 2|-\|/-| 
+Update CircleCI golang image to v1.11.1 |-\|/-| 2018-10-03T14:05:40Z Closed pull request |-\|/-| 875 +1 −1 yml 1|-\|/-| 
+Update CircleCI Go version |-\|/-| 2018-10-03T18:41:13Z Merged pull request |-\|/-| 874 +1 −2 yml 1|-\|/-| 
+Add default Dockerfile name in builder |-\|/-| 2018-10-03T03:42:23Z Merged pull request |-\|/-| 872 +5 −0 go 1|-\|/-| 
+feat(add): disable emoji flag |-\|/-| 2018-10-05T17:15:25Z Merged pull request |-\|/-| 871 +368 −54 0|-\|/-| 
+Fix dead link to installation guide and update helm repository link |-\|/-| 2018-10-03T03:03:17Z Merged pull request |-\|/-| 870 +3 −3 md 0|-\|/-| 
+Add quiet flag to up |-\|/-| 2018-10-03T03:30:53Z Merged pull request |-\|/-| 868 +41 −21 go 2|-\|/-| 
+Add Scala pack and example |-\|/-| 2019-05-01T14:35:09Z Closed pull request |-\|/-| 864 +207 −0 sbt properties scala dockerignore packs/scala/Dockerfile helmignore yaml txt tpl 14|-\|/-| 
+Script for testing all examples |-\|/-| 2018-09-13T20:10:23Z Merged pull request |-\|/-| 863 +18 −0 sh 1|-\|/-| 
+Remove onbuild from docs |-\|/-| 2018-09-27T20:39:11Z Merged pull request |-\|/-| 862 +2 −2 md 0|-\|/-| 
+ref(docs): change rc1 -> rc.1 and rc2 -> rc.2 |-\|/-| 2018-08-28T16:06:43Z Merged pull request |-\|/-| 860 +3 −3 md 0|-\|/-| 
+add v0.16.0 CHANGELOG |-\|/-| 2018-08-27T20:31:53Z Merged pull request |-\|/-| 859 +22 −0 md 0|-\|/-| 
+Gradle example app, migrated from example-java |-\|/-| 2018-08-23T15:41:27Z Merged pull request |-\|/-| 858 +295 −0 gradle jar properties examples/example-gradle/gradlew bat java 7|-\|/-| 
+Packs: corrected gradle docker image |-\|/-| 2018-08-23T15:40:48Z Merged pull request |-\|/-| 857 +6 −5 packs/gradle/Dockerfile 1|-\|/-| 
+Fix create permissions |-\|/-| 2018-10-22T18:51:04Z Merged pull request |-\|/-| 851 +46 −24 md go 4|-\|/-| 
+Add skip push flag |-\|/-| 2018-09-13T19:19:26Z Merged pull request |-\|/-| 848 +10 −3 go md 1|-\|/-| 
+add --skip-image-push flag |-\|/-| 2018-07-27T00:23:45Z Closed pull request |-\|/-| 846 +10 −4 go md 1|-\|/-| 
+Allow $VARIABLES to exist in any task argument |-\|/-| 2018-07-25T18:37:31Z Merged pull request |-\|/-| 840 +129 −28 go md 4|-\|/-| 
+Updated gradle pack to java10 |-\|/-| 2018-07-30T20:17:30Z Merged pull request |-\|/-| 838 +2 −2 packs/gradle/Dockerfile 1|-\|/-| 
+Updated maven pack to java 10 |-\|/-| 2018-07-30T20:16:36Z Merged pull request |-\|/-| 837 +2 −2 packs/java/Dockerfile 1|-\|/-| 
+Avoid panic when using config set before draft init |-\|/-| 2018-06-28T20:37:11Z Merged pull request |-\|/-| 828 +3 −0 go 1|-\|/-| 
+Adding example usage of set in draft.toml |-\|/-| 2018-06-26T16:56:53Z Merged pull request |-\|/-| 825 +32 −0 md 0|-\|/-| 
+Using Dockerfile as default for dockerfile in draft.toml |-\|/-| 2018-06-26T16:57:27Z Merged pull request |-\|/-| 822 +9 −5 toml go 7|-\|/-| 
+Reorder tasks and load during draft up |-\|/-| 2018-06-13T21:30:06Z Merged pull request |-\|/-| 813 +14 −13 go 1|-\|/-| 
+Changed up.go to run pre-up tasks before any loading |-\|/-| 2018-06-06T19:11:28Z Closed pull request |-\|/-| 812 +16 −13 go 1|-\|/-| 
+Command-line documentation for draft config set |-\|/-| 2018-06-13T21:31:38Z Merged pull request |-\|/-| 810 +39 −5 go 3|-\|/-| 
+Bumped to dotnet Docker images to 2.1 |-\|/-| 2018-06-13T21:29:11Z Merged pull request |-\|/-| 809 +2 −2 packs/csharp/Dockerfile 1|-\|/-| 
+Adding link to Minikube |-\|/-| 2018-06-01T16:54:55Z Merged pull request |-\|/-| 802 +1 −1 md 0|-\|/-| 
+add CONTRIBUTING.md |-\|/-| 2018-06-26T16:57:57Z Merged pull request |-\|/-| 801 +75 −33 md 0|-\|/-| 
+Use non-onbuild base images in packs |-\|/-| 2018-06-13T21:48:42Z Merged pull request |-\|/-| 800 +35 −6 packs/clojure/Dockerfile packs/go/Dockerfile packs/javascript/Dockerfile packs/python/Dockerfile packs/ruby/Dockerfile 5|-\|/-| 
+remove spring example app |-\|/-| 2018-06-26T16:58:25Z Merged pull request |-\|/-| 799 +0 −475 gitignore jar properties examples/example-spring-boot/mvnw cmd 5|-\|/-| 
+Fix wrong Dockerfile path when running draft up from another directory |-\|/-| 2018-05-30T23:16:46Z Merged pull request |-\|/-| 798 +3 −1 go 1|-\|/-| 
+Low hanging fruit. Fixes #793. Add CONTRIBUTING.md guidelines. |-\|/-| 2018-05-30T21:46:24Z Closed pull request |-\|/-| 797 +22 −0 md 0|-\|/-| 
+Updated getting started guide |-\|/-| 2018-05-30T18:14:19Z Merged pull request |-\|/-| 796 +127 −44 md 0|-\|/-| 
+Add testing for chartname update from #790 |-\|/-| 2018-05-30T18:47:10Z Merged pull request |-\|/-| 795 +22 −1 go 1|-\|/-| 
+Updated getting-started.md |-\|/-| 2018-05-30T17:58:44Z Closed pull request |-\|/-| 794 +127 −44 md 0|-\|/-| 
+WIP: Fix circle memory issues |-\|/-| 2018-05-30T01:29:16Z Merged pull request |-\|/-| 792 +3 −2 sh Makefile 2|-\|/-| 
+add v0.15.0 CHANGELOG |-\|/-| 2018-05-30T01:28:55Z Merged pull request |-\|/-| 791 +24 −0 md 0|-\|/-| 
+[Feature] use cwd for Chartname if appName not given |-\|/-| 2018-05-30T01:34:08Z Merged pull request |-\|/-| 790 +7 −0 go 1|-\|/-| 
+chore(docs): add docs around draft init --config |-\|/-| 2018-05-29T12:17:55Z Merged pull request |-\|/-| 787 +40 −0 md 0|-\|/-| 
+fix(release-checklist): sign commits |-\|/-| 2018-05-25T17:02:23Z Merged pull request |-\|/-| 785 +3 −3 md 0|-\|/-| 
+Set ChartName to appName |-\|/-| 2018-05-29T15:13:40Z Merged pull request |-\|/-| 784 +21 −6 go 4|-\|/-| 
+remove upx from hacking docs |-\|/-| 2018-05-24T21:29:54Z Merged pull request |-\|/-| 783 +0 −2 md 0|-\|/-| 
+add kubernetes client auth plugins |-\|/-| 2018-05-24T19:02:07Z Merged pull request |-\|/-| 782 +56 −1 lock go 2|-\|/-| 
+add erlang pack and example |-\|/-| 2018-05-30T18:10:58Z Merged pull request |-\|/-| 778 +411 −0 args config lock src erl dockerignore packs/erlang/Dockerfile helmignore yaml txt tpl 15|-\|/-| 
+update rjeczalik/notify dependency to address #774 |-\|/-| 2018-05-24T00:58:33Z Merged pull request |-\|/-| 775 +1 −1 lock 1|-\|/-| 
+Implement image build arguments container builder |-\|/-| 2018-05-26T12:36:35Z Merged pull request |-\|/-| 772 +45 −19 md go 4|-\|/-| 
+Allow charts in other directories |-\|/-| 2018-05-21T17:35:23Z Merged pull request |-\|/-| 771 +6 −6 md go 1|-\|/-| 
+add link to Microsoft's Open Source Code of Conduct |-\|/-| 2018-05-17T01:15:07Z Merged pull request |-\|/-| 761 +3 −0 md 0|-\|/-| 
+add Radu Matei as an Admiral of Draft |-\|/-| 2018-05-16T21:24:05Z Merged pull request |-\|/-| 760 +1 −0 OWNERS 1|-\|/-| 
+use strings.TrimSuffix instead of strings.Replace |-\|/-| 2018-05-16T21:30:45Z Merged pull request |-\|/-| 758 +17 −6 go 2|-\|/-| 
+Add Chocolatey and GoFish to the quickstart docs |-\|/-| 2018-05-16T21:31:34Z Merged pull request |-\|/-| 756 +60 −3 md 0|-\|/-| 
+feat(docs): add examples and tutorials page |-\|/-| 2018-05-16T21:52:39Z Merged pull request |-\|/-| 755 +6 −1 md 0|-\|/-| 
+bump helm to v2.9.0 |-\|/-| 2018-05-14T22:39:38Z Merged pull request |-\|/-| 753 +214 −168 0|-\|/-| 
+add appveyor.yml |-\|/-| 2018-05-16T22:05:05Z Merged pull request |-\|/-| 752 +154 −109 yml go 17|-\|/-| 
+fix linter suggestion |-\|/-| 2018-05-18T16:41:57Z Merged pull request |-\|/-| 751 +17 −17 go 1|-\|/-| 
+Changed to use JAR file with dependencies |-\|/-| 2018-05-18T12:52:51Z Merged pull request |-\|/-| 749 +1 −1 packs/java/Dockerfile 1|-\|/-| 
+feat(docs): add quickstart guide & README |-\|/-| 2018-05-14T15:45:04Z Merged pull request |-\|/-| 744 +42 −0 md 0|-\|/-| 
+ref(*): deep copy from draft pack to current dir |-\|/-| 2018-05-14T15:44:40Z Merged pull request |-\|/-| 741 +84 −1 go txt md sh 5|-\|/-| 
+ref(cmd/draft): add test for config flag on init |-\|/-| 2018-05-14T15:43:43Z Merged pull request |-\|/-| 737 +77 −8 go toml 4|-\|/-| 
+ref(docs): mv index.md to README.md for visibility |-\|/-| 2018-05-14T15:44:17Z Merged pull request |-\|/-| 736 +0 −0 md 0|-\|/-| 
+ref(docs): update wait=true by default |-\|/-| 2018-05-14T15:43:29Z Merged pull request |-\|/-| 735 +4 −3 md 0|-\|/-| 
+ref(README): make it easier to find install instru |-\|/-| 2018-05-14T15:43:11Z Merged pull request |-\|/-| 733 +23 −5 md 0|-\|/-| 
+Docs: Dont allow pushing upstream |-\|/-| 2018-05-11T15:57:42Z Closed pull request |-\|/-| 731 +2 −1 md 0|-\|/-| 
+Suppress colorization when it would result in escape sequence noise |-\|/-| 2018-05-04T05:08:03Z Merged pull request |-\|/-| 721 +11 −0 go 1|-\|/-| 
+use strings.Replace instead of strings.Trim in getRegistryName |-\|/-| 2018-05-03T13:43:02Z Merged pull request |-\|/-| 718 +13 −1 go 2|-\|/-| 
+fix init on windows |-\|/-| 2018-05-30T18:23:46Z Merged pull request |-\|/-| 717 +9 −3 go 2|-\|/-| 
+Remove protobuf setup from Makefile |-\|/-| 2018-04-30T13:07:35Z Merged pull request |-\|/-| 711 +0 −9 Makefile sh 2|-\|/-| 
+bump pack-repo to v0.4.2 |-\|/-| 2018-04-27T19:32:29Z Merged pull request |-\|/-| 710 +1 −1 go 1|-\|/-| 
+generate checksums for .zip files |-\|/-| 2018-04-27T19:53:29Z Merged pull request |-\|/-| 709 +1 −1 Makefile 1|-\|/-| 
+ref(docs): .draft/tasks.toml -> .draft-tasks.toml |-\|/-| 2018-04-27T15:40:38Z Merged pull request |-\|/-| 708 +2 −2 md 0|-\|/-| 
+add v0.14.0 CHANGELOG |-\|/-| 2018-04-27T15:27:49Z Merged pull request |-\|/-| 706 +42 −0 md 0|-\|/-| 
+drop setpgid to fix windows build |-\|/-| 2018-04-26T21:38:47Z Merged pull request |-\|/-| 703 +0 −1 go 1|-\|/-| 
+docs for draft connect detach mode |-\|/-| 2018-04-26T20:53:42Z Merged pull request |-\|/-| 702 +24 −0 md 0|-\|/-| 
+enable detaching from draft connect |-\|/-| 2018-04-26T20:41:39Z Merged pull request |-\|/-| 701 +111 −23 go 3|-\|/-| 
+fixup inputs-digest |-\|/-| 2018-04-26T19:47:51Z Merged pull request |-\|/-| 699 +1 −1 lock 1|-\|/-| 
+fix(cmd/draft/up): fix panic when missing task file |-\|/-| 2018-04-24T19:34:34Z Merged pull request |-\|/-| 697 +1 −1 go 1|-\|/-| 
+add windows canary binary to canary list |-\|/-| 2018-04-26T19:47:42Z Merged pull request |-\|/-| 693 +5 −1 sh Makefile md 3|-\|/-| 
+add .dockerignore and .draft-tasks.toml to gitignore |-\|/-| 2018-04-24T14:01:02Z Merged pull request |-\|/-| 692 +2 −0 gitignore 1|-\|/-| 
+Add ACR Build support to Draft |-\|/-| 2018-04-25T16:26:25Z Merged pull request |-\|/-| 691 +5,341 −272 lock toml go md 5|-\|/-| 
+bump pack-repo to 0.4.1 |-\|/-| 2018-04-23T18:32:50Z Merged pull request |-\|/-| 689 +1 −1 go 1|-\|/-| 
+fixup builtin version |-\|/-| 2018-04-23T16:55:42Z Closed pull request |-\|/-| 686 +1 −1 go 1|-\|/-| 
+ref(*): mv pkg/draft/local to pkg/local |-\|/-| 2018-04-23T16:01:46Z Merged pull request |-\|/-| 685 +14 −7 go toml 9|-\|/-| 
+bump pack-repo to 0.4.0 |-\|/-| 2018-04-23T15:57:39Z Merged pull request |-\|/-| 683 +2 −2 go 1|-\|/-| 
+Gopkg.toml: remove errors when running `dep ensure` |-\|/-| 2018-04-19T20:16:25Z Merged pull request |-\|/-| 680 +1 −40 lock toml 2|-\|/-| 
+docs(dep-006): fix formatting |-\|/-| 2018-04-18T16:50:47Z Merged pull request |-\|/-| 678 +2 −2 md 0|-\|/-| 
+docs(install): add short section on using DockerHub |-\|/-| 2018-04-18T01:57:10Z Merged pull request |-\|/-| 677 +18 −3 md 0|-\|/-| 
+enable listing packs in pack repositories |-\|/-| 2018-04-18T13:53:18Z Merged pull request |-\|/-| 676 +163 −0 go txt yaml 7|-\|/-| 
+WIP: pull container builders into a separate package |-\|/-| 2018-04-20T19:56:09Z Closed pull request |-\|/-| 675 +230 −208 go 1|-\|/-| 
+Support for custom image tags |-\|/-| 2018-04-17T22:45:17Z Merged pull request |-\|/-| 674 +44 −16 md go 4|-\|/-| 
+ref(packs): change default replicaCount to 1 |-\|/-| 2018-04-14T03:51:05Z Merged pull request |-\|/-| 673 +11 −11 yaml 11|-\|/-| 
+Fix Golang linter warning on comments in builder.go |-\|/-| 2018-04-13T15:47:49Z Merged pull request |-\|/-| 672 +2 −2 go 1|-\|/-| 
+feat(cmd/draft): override default plugins and pack-repos |-\|/-| 2018-04-19T17:19:40Z Merged pull request |-\|/-| 670 +98 −6 go 2|-\|/-| 
+Add Dockerfile and chart as environment |-\|/-| 2018-04-20T21:55:14Z Merged pull request |-\|/-| 669 +66 −25 toml md go 9|-\|/-| 
+fixup calls to path.Join with filepath.Join |-\|/-| 2018-04-12T17:12:18Z Merged pull request |-\|/-| 668 +5 −6 go 2|-\|/-| 
+docs(pkg/draft/local): add OverridePorts descript |-\|/-| 2018-04-12T17:10:49Z Merged pull request |-\|/-| 667 +2 −0 go 1|-\|/-| 
+Avoid deleting any Helm app and add environment flag for delete |-\|/-| 2018-04-12T17:12:08Z Merged pull request |-\|/-| 666 +15 −9 go 2|-\|/-| 
+Group build logs in directory for each app |-\|/-| 2018-04-12T17:12:30Z Merged pull request |-\|/-| 664 +65 −31 go 5|-\|/-| 
+fix(client): avoid cloning map |-\|/-| 2018-04-10T20:12:01Z Merged pull request |-\|/-| 661 +1 −1 go 1|-\|/-| 
+run plugin hooks using powershell in windows |-\|/-| 2018-04-19T19:45:57Z Merged pull request |-\|/-| 658 +467 −41 lock go yaml 11|-\|/-| 
+inject plugin version into the plugin environment |-\|/-| 2018-04-10T23:03:27Z Merged pull request |-\|/-| 657 +10 −7 go 2|-\|/-| 
+ref(pkg/draft): skip copying pack readme on create |-\|/-| 2018-04-09T18:47:00Z Merged pull request |-\|/-| 656 +7 −1 go md 2|-\|/-| 
+fix(cmd/draft): fix --pack flag |-\|/-| 2018-04-10T19:35:35Z Merged pull request |-\|/-| 654 +90 −2 go txt yaml 5|-\|/-| 
+ref(README): move description up |-\|/-| 2018-04-09T14:35:34Z Merged pull request |-\|/-| 651 +2 −3 md 0|-\|/-| 
+fix broken link |-\|/-| 2018-04-10T22:33:04Z Merged pull request |-\|/-| 649 +1 −1 md 0|-\|/-| 
+Dot 13: updated documentation  |-\|/-| 2018-04-06T20:53:43Z Merged pull request |-\|/-| 647 +38 −28 md 0|-\|/-| 
+fix up release checklist |-\|/-| 2018-04-06T19:20:20Z Merged pull request |-\|/-| 645 +21 −18 md 0|-\|/-| 
+add tail support for draft logs |-\|/-| 2018-04-05T20:31:57Z Merged pull request |-\|/-| 643 +67 −9 lock toml go 3|-\|/-| 
+feat(*): run pre-up, post-deploy, and cleanup tasks in draft |-\|/-| 2018-04-23T15:01:44Z Merged pull request |-\|/-| 642 +454 −8 lock go toml md 16|-\|/-| 
+remove unused HerokuLicenseName constant |-\|/-| 2018-04-03T14:12:53Z Merged pull request |-\|/-| 641 +0 −2 go 1|-\|/-| 
+remove NOTICE and fix chart/ ref |-\|/-| 2018-04-03T14:12:39Z Merged pull request |-\|/-| 640 +11 −22 dockerignore 11|-\|/-| 
+remove dead detect script |-\|/-| 2018-04-03T14:12:22Z Merged pull request |-\|/-| 639 +0 −10 packs/python/detect 1|-\|/-| 
+write logs to file instead of buffer |-\|/-| 2018-04-02T19:39:25Z Merged pull request |-\|/-| 638 +66 −39 go 4|-\|/-| 
+truncate config file on save |-\|/-| 2018-04-01T16:34:44Z Merged pull request |-\|/-| 637 +1 −2 go 1|-\|/-| 
+Add --dry-run flag to draft connect |-\|/-| 2018-04-02T13:48:56Z Merged pull request |-\|/-| 634 +7 −0 go 1|-\|/-| 
+Add --wait flag for connect |-\|/-| 2018-03-30T19:35:28Z Closed pull request |-\|/-| 633 +0 −0 0|-\|/-| 
+ref(pkg/draft/pack): add to pack load err |-\|/-| 2018-03-29T23:57:47Z Merged pull request |-\|/-| 632 +1 −2 go 1|-\|/-| 
+Remove references to draftd in cmd usage |-\|/-| 2018-03-28T20:42:40Z Merged pull request |-\|/-| 630 +4 −10 go 2|-\|/-| 
+re-instate injecting the image pull secret into the namespace |-\|/-| 2018-04-05T03:47:13Z Merged pull request |-\|/-| 629 +189 −1 md go 3|-\|/-| 
+Fix inaccurate connection message order |-\|/-| 2018-03-28T14:26:29Z Merged pull request |-\|/-| 626 +2 −1 go 1|-\|/-| 
+updating documentation to highlight the major changes in 0.12 |-\|/-| 2018-03-29T02:31:30Z Merged pull request |-\|/-| 625 +25 −5 md 0|-\|/-| 
+add v0.12.0 CHANGELOG |-\|/-| 2018-03-28T00:14:12Z Merged pull request |-\|/-| 623 +25 −0 md 0|-\|/-| 
+Fix FindRepositories path issue on Windows |-\|/-| 2018-03-27T22:41:36Z Merged pull request |-\|/-| 622 +1 −1 go 1|-\|/-| 
+delete storage for app on draft delete |-\|/-| 2018-03-27T19:53:06Z Merged pull request |-\|/-| 621 +7 −0 go 1|-\|/-| 
+update inputs-digest |-\|/-| 2018-03-27T19:33:29Z Merged pull request |-\|/-| 619 +1 −1 lock 1|-\|/-| 
+Avoid panic for draft connect and logs when there is no build in logs |-\|/-| 2018-03-27T18:11:14Z Merged pull request |-\|/-| 617 +5 −1 go 1|-\|/-| 
+Fix pack-repo add on Windows |-\|/-| 2018-03-27T15:56:54Z Merged pull request |-\|/-| 614 +1 −2 go 1|-\|/-| 
+Revert "add vendor to `make clean`" |-\|/-| 2018-03-26T23:43:27Z Merged pull request |-\|/-| 609 +0 −1 Makefile 1|-\|/-| 
+chore(cmd/draft): update init description |-\|/-| 2018-03-26T19:50:03Z Merged pull request |-\|/-| 608 +2 −2 go 1|-\|/-| 
+Add docs about draft connect |-\|/-| 2018-03-26T21:05:59Z Merged pull request |-\|/-| 606 +183 −7 md 0|-\|/-| 
+chore(Gopkg.lock): format Gopkg.lock |-\|/-| 2018-03-26T19:00:01Z Closed pull request |-\|/-| 605 +39 −617 0|-\|/-| 
+document container registry setup for Minikube and AKS |-\|/-| 2018-03-27T23:51:15Z Merged pull request |-\|/-| 603 +31 −25 md 0|-\|/-| 
+Simplify draft logs cmd |-\|/-| 2018-03-26T21:42:29Z Merged pull request |-\|/-| 602 +12 −5 go 1|-\|/-| 
+Auto connect for draft up |-\|/-| 2018-03-26T21:14:52Z Merged pull request |-\|/-| 600 +75 −30 go toml yaml 21|-\|/-| 
+Fix root command's pre run not being called |-\|/-| 2018-03-23T00:05:34Z Merged pull request |-\|/-| 599 +2 −1 go 1|-\|/-| 
+remove draft-canary reference |-\|/-| 2018-03-26T17:39:40Z Merged pull request |-\|/-| 598 +0 −9 md 0|-\|/-| 
+add cli/debug to Gopkg.lock |-\|/-| 2018-03-26T18:55:56Z Merged pull request |-\|/-| 597 +2 −1 lock 1|-\|/-| 
+add vendor to `make clean` |-\|/-| 2018-03-26T17:28:39Z Merged pull request |-\|/-| 596 +1 −0 Makefile 1|-\|/-| 
+mv chart charts |-\|/-| 2018-03-26T18:50:15Z Merged pull request |-\|/-| 595 +0 −0 helmignore yaml txt tpl 7|-\|/-| 
+remove Heroku notices |-\|/-| 2018-03-26T19:07:49Z Merged pull request |-\|/-| 594 +0 −92 NOTICE md com/Azure/draft/packs/go/NOTICE packs/csharp/NOTICE packs/go/NOTICE packs/gradle/NOTICE packs/java/NOTICE packs/javascript/NOTICE packs/php/NOTICE packs/python/NOTICE packs/ruby/NOTICE 10|-\|/-| 
+document more on the Naive Bayesian Classifier |-\|/-| 2018-03-26T18:55:30Z Merged pull request |-\|/-| 592 +1 −1 md 0|-\|/-| 
+make java pack accept any target output jarfile |-\|/-| 2018-03-26T19:01:07Z Merged pull request |-\|/-| 590 +4 −3 packs/java/Dockerfile 1|-\|/-| 
+Wait for pod to be ready before connecting |-\|/-| 2018-03-22T21:14:49Z Merged pull request |-\|/-| 583 +78 −22 go 3|-\|/-| 
+add manifest.Load() |-\|/-| 2018-03-22T22:12:49Z Merged pull request |-\|/-| 582 +15 −10 go 2|-\|/-| 
+Add connection message every 5 minutes |-\|/-| 2018-03-22T17:24:30Z Merged pull request |-\|/-| 581 +10 −3 go 1|-\|/-| 
+ Add override-ports flag and use dashes instead of underscores in draft.toml |-\|/-| 2018-03-19T16:48:50Z Merged pull request |-\|/-| 580 +49 −34 go toml md 11|-\|/-| 
+use the sha256 hash algorithm |-\|/-| 2018-03-19T17:26:03Z Merged pull request |-\|/-| 579 +3 −3 go 1|-\|/-| 
+Output CircleCI test results to a JUnit XML files |-\|/-| 2018-03-22T22:02:59Z Closed pull request |-\|/-| 577 +9 −1 yml sh 2|-\|/-| 
+Initial prep work for custom tags for drafted docker images |-\|/-| 2018-03-22T22:02:12Z Closed pull request |-\|/-| 576 +23 −19 lock go 3|-\|/-| 
+Add local port forwarding for draft connect |-\|/-| 2018-03-19T14:42:25Z Merged pull request |-\|/-| 575 +231 −16 go 5|-\|/-| 
+add v0.11.0 CHANGELOG |-\|/-| 2018-03-19T14:29:13Z Merged pull request |-\|/-| 574 +22 −2 md 0|-\|/-| 
+remove draftd |-\|/-| 2018-03-22T21:15:05Z Merged pull request |-\|/-| 573 +1,376 −5,139 yml sh dockerignore draftignore Dockerfile lock toml 7|-\|/-| 
+Fix for ipv6 lookup error |-\|/-| 2018-03-14T22:43:52Z Merged pull request |-\|/-| 572 +2 −2 go 1|-\|/-| 
+draft history |-\|/-| 2018-03-26T22:10:45Z Merged pull request |-\|/-| 571 +245 −32 lock go pkg/storage/Makefile 9|-\|/-| 
+prettify lockfile |-\|/-| 2018-03-14T15:03:24Z Merged pull request |-\|/-| 568 +559 −34 0|-\|/-| 
+fix goimports |-\|/-| 2018-03-14T15:03:14Z Merged pull request |-\|/-| 567 +15 −7 go 8|-\|/-| 
+Fix make rpc target by adding local protobuf include in vendor |-\|/-| 2018-03-13T15:00:03Z Merged pull request |-\|/-| 563 +11 −4 Makefile pkg/rpc/Makefile sh 3|-\|/-| 
+short-circuit image build/push step when image exists |-\|/-| 2018-03-23T16:15:41Z Closed pull request |-\|/-| 562 +17 −9 go 1|-\|/-| 
+Fix context passed to GetLogs |-\|/-| 2018-03-12T22:12:36Z Merged pull request |-\|/-| 561 +3 −3 go 1|-\|/-| 
+add test for archiveSrc() |-\|/-| 2018-03-14T17:53:26Z Merged pull request |-\|/-| 560 +23 −0 go pkg/build/testdata/simple/Dockerfile 2|-\|/-| 
+print output to l.out |-\|/-| 2018-03-13T15:09:10Z Merged pull request |-\|/-| 559 +1 −1 go 1|-\|/-| 
+use draft.toml's environment for `draft logs` |-\|/-| 2018-03-16T17:41:05Z Closed pull request |-\|/-| 558 +21 −12 go 1|-\|/-| 
+add informational message to inspect the logs |-\|/-| 2018-03-13T15:08:27Z Merged pull request |-\|/-| 554 +5 −3 go 1|-\|/-| 
+support git v2.16+ |-\|/-| 2018-03-26T18:55:42Z Merged pull request |-\|/-| 552 +8 −4 go 2|-\|/-| 
+copy all files and folders from pack dir |-\|/-| 2018-05-14T15:46:38Z Closed pull request |-\|/-| 551 +740 −194 lock NOTICE md go dockerignore cmd/draft/testdata/create/generated/simple-go-with-multiple-charts/another-folder/something cmd/draft/testdata/create/generated/simple-go-with-multiple-charts/charts/something yaml cmd/draft/testdata/create/src/simple-go-with-multiple-charts/another-folder/something cmd/draft/testdata/create/src/simple-go-with-multiple-charts/charts/something com/Azure/draft/packs/go/NOTICE packs/csharp/NOTICE packs/go/NOTICE packs/gradle/NOTICE packs/java/NOTICE packs/javascript/NOTICE packs/php/NOTICE packs/python/NOTICE packs/ruby/NOTICE 28|-\|/-| 
+Support packs with multiple files and multiple chart folders - fixes … |-\|/-| 2018-03-05T17:08:29Z Closed pull request |-\|/-| 550 +132 −27 gitignore dockerignore cmd/draft/testdata/create/generated/empty/NOTICE cmd/draft/testdata/create/generated/html-but-actually-go/NOTICE cmd/draft/testdata/create/generated/simple-go-with-draftignore/NOTICE cmd/draft/testdata/create/generated/simple-go/NOTICE go 13|-\|/-| 
+Draft Logs by BuildID |-\|/-| 2018-02-28T17:08:53Z Merged pull request |-\|/-| 539 +474 −112 go 5|-\|/-| 
+Connect to every containerPort in pod |-\|/-| 2018-02-14T17:04:33Z Merged pull request |-\|/-| 537 +63 −26 go 3|-\|/-| 
+Add draft -p flag to specify local port, draft connect to beta |-\|/-| 2018-03-20T14:56:38Z Closed pull request |-\|/-| 536 +617 −137 go toml yaml 18|-\|/-| 
+correct readiness and liveness probe in draftd chart |-\|/-| 2018-02-06T18:32:46Z Merged pull request |-\|/-| 534 +2 −2 yaml 1|-\|/-| 
+fix(512): pull draftd namespace from env |-\|/-| 2018-02-06T17:50:45Z Merged pull request |-\|/-| 533 +12 −1 go 2|-\|/-| 
+Use the Debian based Docker image instead of the Alpine image |-\|/-| 2018-02-06T15:57:39Z Merged pull request |-\|/-| 531 +4 −4 packs/gradle/Dockerfile packs/java/Dockerfile 2|-\|/-| 
+fix(*): specify multiple insecure registries args |-\|/-| 2018-02-05T21:43:11Z Merged pull request |-\|/-| 529 +4 −2 yaml go 2|-\|/-| 
+Add draft connect --container/-c flag (#399) |-\|/-| 2018-02-07T02:43:54Z Merged pull request |-\|/-| 528 +115 −80 go 4|-\|/-| 
+java pack: `mvn` invocation should be non interactive (`--batch-mode`). Fix  #524 |-\|/-| 2018-02-05T22:04:18Z Merged pull request |-\|/-| 525 +1 −1 packs/java/Dockerfile 1|-\|/-| 
+[WIP] Add initial --container/-c flag for connect |-\|/-| 2018-02-05T18:37:49Z Closed pull request |-\|/-| 521 +12 −7 go 3|-\|/-| 
+Add link to install.md in hacking guide |-\|/-| 2018-01-26T17:04:38Z Merged pull request |-\|/-| 520 +1 −0 md 0|-\|/-| 
+add v0.10.0 CHANGELOG |-\|/-| 2018-01-25T19:11:06Z Merged pull request |-\|/-| 518 +28 −0 md 0|-\|/-| 
+Update --insecure-registry CIDR range |-\|/-| 2018-01-25T17:30:28Z Merged pull request |-\|/-| 516 +2 −2 yaml go 2|-\|/-| 
+fix linting errors |-\|/-| 2018-01-24T20:13:27Z Merged pull request |-\|/-| 515 +3 −3 go 1|-\|/-| 
+fix master (dependencies) |-\|/-| 2018-01-24T20:05:21Z Merged pull request |-\|/-| 514 +65 −590 0|-\|/-| 
+add rootCmd variable |-\|/-| 2018-03-08T23:29:42Z Merged pull request |-\|/-| 513 +14 −4 go 2|-\|/-| 
+Fix make test-lint |-\|/-| 2018-01-23T19:09:05Z Merged pull request |-\|/-| 507 +123 −113 sh go 14|-\|/-| 
+Fix e2e tests |-\|/-| 2018-01-24T21:09:36Z Merged pull request |-\|/-| 505 +4 −734 Makefile md sh tests/testdata/bad/dockerfile-build-failure/Dockerfile yaml gitkeep tests/testdata/bad/no-chart/Dockerfile helmignore txt tpl gitignore tests/testdata/good/example-dockerfile-http/Dockerfile 18|-\|/-| 
+`draft init --driver` support |-\|/-| 2018-03-21T00:13:35Z Closed pull request |-\|/-| 500 +239 −35 go 7|-\|/-| 
+select the most popular language found with a pack |-\|/-| 2018-01-23T22:21:28Z Merged pull request |-\|/-| 499 +370 −23 go draftignore cmd/draft/testdata/create/generated/html-but-actually-go/Dockerfile helmignore yaml gitkeep txt tpl toml html 17|-\|/-| 
+prettify lockfile |-\|/-| 2018-01-16T15:28:32Z Merged pull request |-\|/-| 497 +561 −35 0|-\|/-| 
+install libffi-dev to compile pyOpenSSL |-\|/-| 2018-01-12T21:31:29Z Merged pull request |-\|/-| 496 +2 −2 sh 1|-\|/-| 
+install libssl-dev |-\|/-| 2018-01-12T20:56:34Z Merged pull request |-\|/-| 495 +3 −1 sh 1|-\|/-| 
+Revert "remove docker-in-docker container" |-\|/-| 2018-01-23T20:15:39Z Merged pull request |-\|/-| 494 +30 −10 yaml go 2|-\|/-| 
+install the latest 2.x release of azure-cli |-\|/-| 2018-01-11T19:30:51Z Merged pull request |-\|/-| 493 +1 −2 sh 1|-\|/-| 
+Add environment selection flag to connect command |-\|/-| 2018-01-11T19:20:55Z Merged pull request |-\|/-| 492 +67 −21 go 6|-\|/-| 
+inprocess + configmaps storage for draftd |-\|/-| 2018-01-23T22:16:19Z Merged pull request |-\|/-| 491 +850 −1 go 5|-\|/-| 
+chore(pkg/plugin): install exact version not canary |-\|/-| 2018-01-10T21:16:39Z Merged pull request |-\|/-| 490 +2 −7 go 1|-\|/-| 
+added spring-boot example |-\|/-| 2018-01-24T20:16:38Z Merged pull request |-\|/-| 489 +475 −0 gitignore jar properties examples/example-spring-boot/mvnw cmd 5|-\|/-| 
+ref(pkg/plugin): remove 'v' from pack-repo ver |-\|/-| 2018-01-08T17:11:53Z Merged pull request |-\|/-| 483 +1 −1 go 1|-\|/-| 
+feat(cmd/draft): add draft init upgrade flag |-\|/-| 2018-01-12T20:28:30Z Merged pull request |-\|/-| 481 +291 −113 go 5|-\|/-| 
+ignore common java work directories |-\|/-| 2018-01-05T17:09:36Z Merged pull request |-\|/-| 475 +3 −0 dockerignore 1|-\|/-| 
+ref(cmd/draft): break up init for unit tests |-\|/-| 2018-01-05T17:23:00Z Merged pull request |-\|/-| 473 +365 −140 go 4|-\|/-| 
+Clojure support |-\|/-| 2018-01-23T20:19:45Z Merged pull request |-\|/-| 463 +198 −0 gitignore clj dockerignore packs/clojure/Dockerfile helmignore yaml txt tpl 13|-\|/-| 
+bump pack-repo to v0.3.1 |-\|/-| 2018-01-03T01:56:23Z Merged pull request |-\|/-| 462 +1 −1 go 1|-\|/-| 
+Rust support |-\|/-| 2018-03-26T20:54:41Z Merged pull request |-\|/-| 461 +199 −0 gitignore lock toml rs dockerignore packs/rust/Dockerfile helmignore yaml txt tpl 13|-\|/-| 
+feat(cmd/draft): clarify plugin setup in init |-\|/-| 2018-01-04T16:29:16Z Merged pull request |-\|/-| 460 +372 −123 yml go 4|-\|/-| 
+Added comment about filtering for language discovery |-\|/-| 2018-02-28T20:49:38Z Closed pull request |-\|/-| 458 +13 −0 md 0|-\|/-| 
+Replace mention of packs.md with dep-003.md |-\|/-| 2017-12-20T15:11:37Z Merged pull request |-\|/-| 456 +1 −1 md 0|-\|/-| 
+Fix broken URL for packs docs |-\|/-| 2017-12-20T07:29:59Z Merged pull request |-\|/-| 455 +1 −1 md 0|-\|/-| 
+copy all files from pack dir |-\|/-| 2018-04-05T16:04:05Z Merged pull request |-\|/-| 453 +86 −27 dockerignore go txt 11|-\|/-| 
+add link to DEP 006 |-\|/-| 2018-01-04T16:29:05Z Merged pull request |-\|/-| 452 +2 −0 md 0|-\|/-| 
+feat/tls: enable draft/draftd TLS |-\|/-| 2017-12-06T23:26:40Z Merged pull request |-\|/-| 447 +629 −36 go 3|-\|/-| 
+exit non-zero when building branches |-\|/-| 2017-12-13T23:09:28Z Merged pull request |-\|/-| 446 +4 −2 sh 2|-\|/-| 
+add v0.9.0 CHANGELOG |-\|/-| 2017-12-13T23:09:13Z Merged pull request |-\|/-| 445 +20 −0 md 0|-\|/-| 
+fix chart/ rename |-\|/-| 2017-12-13T23:09:07Z Merged pull request |-\|/-| 444 +3 −3 gitignore md 1|-\|/-| 
+fix examples dir |-\|/-| 2017-11-29T01:44:49Z Merged pull request |-\|/-| 442 +0 −79 cs txt csproj 6|-\|/-| 
+Adding some clarifications about the requirements of the application. |-\|/-| 2018-01-11T14:57:26Z Closed pull request |-\|/-| 441 +2 −0 md 0|-\|/-| 
+fix(glide): alias Sirupsen/logrus repo to github.com/sirupsen/logrus |-\|/-| 2018-01-05T16:54:30Z Merged pull request |-\|/-| 440 +19 −16 lock yaml 2|-\|/-| 
+add rbac/namespacing docs |-\|/-| 2017-11-29T01:44:26Z Merged pull request |-\|/-| 439 +145 −0 md 0|-\|/-| 
+Fix ruby example: Wrong port in app.rb |-\|/-| 2017-11-18T14:59:55Z Merged pull request |-\|/-| 435 +1 −1 rb 1|-\|/-| 
+remove docker-in-docker container |-\|/-| 2017-11-17T19:37:39Z Merged pull request |-\|/-| 434 +10 −30 yaml go 2|-\|/-| 
+Bump docker image to node 8.8 to support async etc |-\|/-| 2017-11-01T21:39:23Z Merged pull request |-\|/-| 425 +1 −1 packs/javascript/Dockerfile 1|-\|/-| 
+use the name of the directory for `draft create` |-\|/-| 2017-10-30T17:26:35Z Merged pull request |-\|/-| 424 +31 −20 md cs txt csproj yaml go xml java js json php py examples/ruby/Gemfile → examples/example-ruby/Gemfile lock rb 17|-\|/-| 
+add tmp/ to default .dockerignore for Ruby |-\|/-| 2017-10-30T17:30:09Z Merged pull request |-\|/-| 423 +1 −0 dockerignore 1|-\|/-| 
+Add 'http://' prefix to output message |-\|/-| 2017-10-25T21:16:03Z Closed pull request |-\|/-| 422 +1 −1 go 1|-\|/-| 
+add --dry-run flag to `draft init` |-\|/-| 2017-10-30T17:26:48Z Merged pull request |-\|/-| 419 +16 −8 go 1|-\|/-| 
+re-organize design documents as DEPs |-\|/-| 2017-10-30T19:58:12Z Merged pull request |-\|/-| 418 +626 −522 md 0|-\|/-| 
+add v0.8.0 CHANGELOG |-\|/-| 2017-10-30T17:27:10Z Merged pull request |-\|/-| 417 +23 −0 md 0|-\|/-| 
+fix dirty git tree state in circle builds |-\|/-| 2017-10-20T19:56:40Z Merged pull request |-\|/-| 416 +1 −0 yml 1|-\|/-| 
+Video: Deploying Draft on Azure Container Services |-\|/-| 2017-10-30T17:28:58Z Merged pull request |-\|/-| 415 +6 −0 md 0|-\|/-| 
+purge release on delete |-\|/-| 2017-10-20T19:34:31Z Merged pull request |-\|/-| 414 +2 −1 go 1|-\|/-| 
+add "bump the homebrew formula" to the release checklist |-\|/-| 2017-10-30T17:29:26Z Merged pull request |-\|/-| 413 +9 −1 md 0|-\|/-| 
+add another indentation level |-\|/-| 2017-10-20T16:47:22Z Merged pull request |-\|/-| 412 +3 −3 yml 1|-\|/-| 
+drop Windows support from install guide |-\|/-| 2017-10-20T17:02:59Z Merged pull request |-\|/-| 411 +0 −1 md 0|-\|/-| 
+remove notes about amending commits on release branch |-\|/-| 2017-10-19T15:31:50Z Merged pull request |-\|/-| 409 +2 −16 md 0|-\|/-| 
+bump az to 2.0.19 |-\|/-| 2017-10-19T15:31:31Z Merged pull request |-\|/-| 408 +1 −1 sh 1|-\|/-| 
+use CircleCI's Workflow feature |-\|/-| 2017-10-19T15:28:26Z Merged pull request |-\|/-| 407 +10 −18 yml md 1|-\|/-| 
+implement SymlinkWithFallback |-\|/-| 2017-10-30T20:32:08Z Merged pull request |-\|/-| 402 +70 −5 go 5|-\|/-| 
+ref(draft): fix lint errors |-\|/-| 2017-10-17T12:30:43Z Merged pull request |-\|/-| 400 +3 −9 go 3|-\|/-| 
+rename chart/ to charts/ |-\|/-| 2017-10-20T17:03:50Z Merged pull request |-\|/-| 398 +10 −11 helmignore yaml txt tpl go gitkeep cmd/draft/testdata/create/generated/simple-go-with-chart/chart/something → cmd/draft/testdata/create/generated/simple-go-with-chart/charts/something cmd/draft/testdata/create/src/simple-go-with-chart/chart/something → cmd/draft/testdata/create/src/simple-go-with-chart/charts/something md 105|-\|/-| 
+feat(*): add draft logs command |-\|/-| 2017-10-17T21:37:51Z Merged pull request |-\|/-| 394 +145 −16 go 6|-\|/-| 
+switch default port to 3000 for Ruby apps |-\|/-| 2017-10-13T16:58:46Z Merged pull request |-\|/-| 391 +3 −3 packs/ruby/Dockerfile yaml 2|-\|/-| 
+add global flag `--draft-namespace` |-\|/-| 2017-10-17T22:04:19Z Merged pull request |-\|/-| 390 +34 −24 go 5|-\|/-| 
+fix typo in ingress docs |-\|/-| 2017-10-10T20:53:38Z Merged pull request |-\|/-| 389 +2 −2 md 0|-\|/-| 
+add "How to create and maintain a pack repository" |-\|/-| 2017-10-17T01:46:13Z Merged pull request |-\|/-| 388 +24 −0 md 0|-\|/-| 
+Revert "do not log requests from kubernetes liveness/readiness probes" |-\|/-| 2017-10-05T15:48:00Z Merged pull request |-\|/-| 387 +6 −68 py examples/ruby/Gemfile lock rb 4|-\|/-| 
+replace glide with dep |-\|/-| 2018-01-10T20:52:09Z Merged pull request |-\|/-| 385 +7,500 −817 sh yml gitignore 4|-\|/-| 
+bump max rpc message size to 40 MB |-\|/-| 2017-10-04T16:59:35Z Merged pull request |-\|/-| 383 +6 −4 go 1|-\|/-| 
+fix: return error was shadowed |-\|/-| 2017-10-03T19:43:14Z Merged pull request |-\|/-| 381 +4 −2 go 1|-\|/-| 
+feat(cmd/draft): implement draft delete |-\|/-| 2017-10-04T15:21:41Z Merged pull request |-\|/-| 379 +142 −0 go yaml 5|-\|/-| 
+remove redundant/confusing default values in packs |-\|/-| 2017-11-17T20:05:14Z Merged pull request |-\|/-| 378 +0 −24 yaml 12|-\|/-| 
+remove healthchecks from default packs |-\|/-| 2017-10-05T15:38:37Z Merged pull request |-\|/-| 377 +180 −269 yaml 11|-\|/-| 
+bump ASP.NET to 2.0 |-\|/-| 2017-11-17T21:07:14Z Merged pull request |-\|/-| 376 +95 −8 cs txt csproj packs/csharp/Dockerfile yaml 5|-\|/-| 
+uninstall draftd on `draft init` |-\|/-| 2017-10-05T17:55:06Z Merged pull request |-\|/-| 373 +25 −43 go 4|-\|/-| 
+build binary in PR runs |-\|/-| 2017-10-05T15:47:50Z Merged pull request |-\|/-| 372 +14 −1 sh yml 3|-\|/-| 
+pin cobra version to last known version |-\|/-| 2017-10-04T21:53:24Z Closed pull request |-\|/-| 371 +43 −2 lock yaml 2|-\|/-| 
+add asciicast |-\|/-| 2017-09-27T17:24:43Z Merged pull request |-\|/-| 365 +2 −0 md 0|-\|/-| 
+[WIP] Add support for transparent GCR auth |-\|/-| 2017-11-15T17:17:51Z Closed pull request |-\|/-| 364 +163 −24 go 3|-\|/-| 
+feat(cmd/draft): add flag to override draftd image |-\|/-| 2017-09-27T17:46:33Z Merged pull request |-\|/-| 360 +85 −51 go 3|-\|/-| 
+fix git4go dependency |-\|/-| 2017-09-22T16:28:41Z Merged pull request |-\|/-| 351 +6 −15 lock yaml 2|-\|/-| 
+Clarify how to configure the base domain |-\|/-| 2017-09-21T16:18:20Z Merged pull request |-\|/-| 349 +2 −1 md 0|-\|/-| 
+rewrite `draft init` experience |-\|/-| 2017-10-06T17:51:16Z Merged pull request |-\|/-| 347 +1,018 −2,777 Makefile go 4|-\|/-| 
+add pack.toml for pack detection |-\|/-| 2017-10-06T20:30:24Z Closed pull request |-\|/-| 346 +581 −292 go md toml dockerignore packs/javascript/Dockerfile → packs/nodejs/Dockerfile packs/javascript/NOTICE → packs/nodejs/NOTICE helmignore yaml txt tpl 21|-\|/-| 
+add .draftignore |-\|/-| 2017-09-27T17:24:26Z Merged pull request |-\|/-| 345 +4 −0 draftignore 1|-\|/-| 
+port linguist's .gitattributes support to Go |-\|/-| 2017-11-28T20:25:59Z Merged pull request |-\|/-| 344 +256 −55 md lock go 2|-\|/-| 
+do not log requests from kubernetes liveness/readiness probes for python/ruby apps |-\|/-| 2017-09-19T17:14:42Z Merged pull request |-\|/-| 342 +68 −6 py examples/ruby/Gemfile lock rb 4|-\|/-| 
+add -yq to apt-get install |-\|/-| 2017-09-18T17:40:36Z Merged pull request |-\|/-| 339 +1 −1 sh 1|-\|/-| 
+add v0.7.0 CHANGELOG |-\|/-| 2017-09-19T14:01:03Z Merged pull request |-\|/-| 333 +18 −0 md 0|-\|/-| 
+install pip |-\|/-| 2017-09-15T22:51:47Z Merged pull request |-\|/-| 332 +1 −0 sh 1|-\|/-| 
+add CircleCI build status logo |-\|/-| 2017-09-18T15:05:26Z Merged pull request |-\|/-| 331 +1 −1 md 0|-\|/-| 
+fix DOCKER_USERNAME typo |-\|/-| 2017-09-14T00:36:23Z Merged pull request |-\|/-| 324 +1 −1 yml 1|-\|/-| 
+document `draft connect` |-\|/-| 2017-09-13T21:03:03Z Merged pull request |-\|/-| 323 +74 −176 md 0|-\|/-| 
+Migrate to CircleCI |-\|/-| 2017-09-13T20:45:08Z Merged pull request |-\|/-| 322 +154 −130 sh yml Jenkinsfile go 7|-\|/-| 
+make `make check-then-generate` the default |-\|/-| 2017-09-13T20:45:47Z Merged pull request |-\|/-| 321 +3 −7 Makefile 1|-\|/-| 
+use ./... with Go 1.9 |-\|/-| 2017-09-13T16:24:58Z Closed pull request |-\|/-| 319 +2 −3 Makefile 1|-\|/-| 
+use test-unit target |-\|/-| 2017-09-13T15:02:15Z Merged pull request |-\|/-| 318 +1 −4 Jenkinsfile Makefile 2|-\|/-| 
+ref(pkg/draft): remove ondraft val |-\|/-| 2017-09-12T19:01:40Z Merged pull request |-\|/-| 317 +2 −3 go 2|-\|/-| 
+chore(*): add comments on public funcs for linter |-\|/-| 2017-09-12T18:13:07Z Merged pull request |-\|/-| 316 +19 −11 go 5|-\|/-| 
+chore(docs): fix minikube dev instructions/cmds |-\|/-| 2017-09-12T17:15:44Z Merged pull request |-\|/-| 315 +3 −2 md 0|-\|/-| 
+ref(draft): remove ingress requirement |-\|/-| 2017-09-12T17:16:08Z Merged pull request |-\|/-| 313 +258 −208 go yaml 16|-\|/-| 
+Change imagePullPolicy on `draft init` canary deployments to "Always" |-\|/-| 2017-09-11T20:31:48Z Merged pull request |-\|/-| 312 +15 −15 go md 1|-\|/-| 
+add homebrew install instructions for Draft |-\|/-| 2017-09-13T21:03:27Z Merged pull request |-\|/-| 311 +13 −1 md 0|-\|/-| 
+ref(cmd/draft): make draft install errors pretty |-\|/-| 2017-09-11T16:57:57Z Merged pull request |-\|/-| 310 +13 −2 go 1|-\|/-| 
+implement `draft pack-repo` |-\|/-| 2017-09-07T23:42:16Z Closed pull request |-\|/-| 307 +738 −11 go 8|-\|/-| 
+ref(draft): isolate init steps |-\|/-| 2017-09-11T15:19:07Z Merged pull request |-\|/-| 305 +31 −7 go 2|-\|/-| 
+ref(draft): add success and fail text on draft up |-\|/-| 2017-09-01T16:30:22Z Merged pull request |-\|/-| 301 +2 −2 go 1|-\|/-| 
+feat(*): implement draft connect |-\|/-| 2017-09-01T17:39:49Z Merged pull request |-\|/-| 298 +502 −186 go yaml 16|-\|/-| 
+fix comment |-\|/-| 2017-09-01T11:42:26Z Merged pull request |-\|/-| 297 +1 −1 go 1|-\|/-| 
+add PORT envvar to nodejs example |-\|/-| 2017-09-01T19:26:09Z Merged pull request |-\|/-| 291 +1 −1 js json 2|-\|/-| 
+introduce language aliases |-\|/-| 2017-09-05T18:59:53Z Merged pull request |-\|/-| 290 +364 −337 go dockerignore packs/maven pom/Dockerfile → packs/java/Dockerfile packs/maven pom/NOTICE → packs/java/NOTICE helmignore yaml txt tpl 14|-\|/-| 
+ref(server): isolate registry auth in file |-\|/-| 2017-08-30T19:49:29Z Merged pull request |-\|/-| 286 +146 −118 lock yaml go 5|-\|/-| 
+WIP: implement draft logs |-\|/-| 2017-10-16T22:04:30Z Closed pull request |-\|/-| 283 +238 −43 go proto 5|-\|/-| 
+feat(cli-ux): add basic draft up ux |-\|/-| 2017-08-25T15:57:18Z Merged pull request |-\|/-| 282 +331 −58 go lock yaml 7|-\|/-| 
+remove registry org and image name from generated charts |-\|/-| 2017-09-01T16:02:00Z Merged pull request |-\|/-| 281 +95 −149 Makefile yaml go md 28|-\|/-| 
+ref(docs): update minikube dev docs |-\|/-| 2017-08-31T14:51:07Z Merged pull request |-\|/-| 280 +10 −5 md 0|-\|/-| 
+fix(rpc): bump max recv message size. |-\|/-| 2017-08-22T18:39:45Z Merged pull request |-\|/-| 276 +7 −1 go 1|-\|/-| 
+update docs to use homebrew for minikube/helm/kubectl installs |-\|/-| 2017-08-25T17:33:17Z Merged pull request |-\|/-| 271 +17 −18 md 0|-\|/-| 
+add v0.6.0 CHANGELOG |-\|/-| 2017-08-22T18:52:47Z Merged pull request |-\|/-| 270 +23 −0 md 0|-\|/-| 
+bump to helm 2.6 compatibility |-\|/-| 2017-11-03T20:27:03Z Closed pull request |-\|/-| 269 +214 −203 0|-\|/-| 
+ref(Makefile): add auto gen packs bindata condition |-\|/-| 2017-08-16T17:38:15Z Merged pull request |-\|/-| 267 +7 −1 Makefile 1|-\|/-| 
+fix some verbiage in draft design |-\|/-| 2017-08-16T21:16:11Z Merged pull request |-\|/-| 266 +5 −5 md 0|-\|/-| 
+ref(pkg/draft): print cleaner errors |-\|/-| 2017-08-16T16:43:03Z Merged pull request |-\|/-| 263 +11 −5 go 1|-\|/-| 
+rename c# to csharp |-\|/-| 2017-08-16T22:29:47Z Merged pull request |-\|/-| 262 +279 −272 go cs txt csproj dockerignore packs/c#/Dockerfile → packs/csharp/Dockerfile packs/c#/NOTICE → packs/csharp/NOTICE helmignore yaml tpl 15|-\|/-| 
+add newline between sentences for PHP app |-\|/-| 2017-08-16T22:29:39Z Merged pull request |-\|/-| 261 +1 −1 php 1|-\|/-| 
+add documentation on setting up dnsmasq for Draft |-\|/-| 2017-08-16T19:03:14Z Merged pull request |-\|/-| 259 +98 −16 md 0|-\|/-| 
+docs(contributing): add docs for minikube dev |-\|/-| 2017-08-15T17:33:28Z Merged pull request |-\|/-| 253 +22 −0 md 0|-\|/-| 
+chore(pkg/draft): re-generate packs |-\|/-| 2017-08-15T18:18:40Z Merged pull request |-\|/-| 251 +180 −180 0|-\|/-| 
+fix app context vals not being properly loaded |-\|/-| 2017-08-15T16:33:24Z Merged pull request |-\|/-| 249 +51 −1 go 2|-\|/-| 
+ref(docs): update install doc |-\|/-| 2017-08-10T16:14:58Z Merged pull request |-\|/-| 246 +25 −24 md 0|-\|/-| 
+use go fmt best practices for import statements |-\|/-| 2017-08-14T21:46:22Z Merged pull request |-\|/-| 245 +9 −21 go 2|-\|/-| 
+remove package api since grpc support. |-\|/-| 2017-08-14T16:35:36Z Merged pull request |-\|/-| 244 +0 −619 0|-\|/-| 
+feat(*): add plugin update cmd |-\|/-| 2017-08-09T14:26:17Z Merged pull request |-\|/-| 241 +315 −35 go 9|-\|/-| 
+commit generated pack code |-\|/-| 2017-08-03T13:05:57Z Closed pull request |-\|/-| 240 +194 −194 0|-\|/-| 
+remove detect script from packs, replace with github/linguist |-\|/-| 2017-08-14T16:33:37Z Merged pull request |-\|/-| 239 +809 −1,150 go helmignore yaml gitkeep txt tpl md cs csproj js json php lock dockerignore packs/dotnetcore/Dockerfile → packs/c#/Dockerfile packs/dotnetcore/NOTICE → packs/c#/NOTICE packs/dotnetcore/detect packs/golang/Dockerfile → packs/go/Dockerfile packs/golang/NOTICE → packs/go/NOTICE packs/golang/detect packs/gradle/detect packs/node/Dockerfile → packs/javascript/Dockerfile packs/maven/NOTICE → packs/javascript/NOTICE packs/maven/Dockerfile → packs/maven pom/Dockerfile packs/node/NOTICE → packs/maven pom/NOTICE packs/maven/detect packs/node/detect packs/php/detect packs/ruby/detect 85|-\|/-| 
+Draft gRPC |-\|/-| 2017-08-09T20:17:34Z Merged pull request |-\|/-| 237 +2,358 −954 go 5|-\|/-| 
+make charts generated by draft helm-compatible |-\|/-| 2017-08-12T00:09:39Z Merged pull request |-\|/-| 236 +335 −273 helmignore yaml txt tpl go gitkeep md 45|-\|/-| 
+add PORT to application environments |-\|/-| 2017-08-08T20:35:11Z Merged pull request |-\|/-| 235 +78 −67 cmd/draft/testdata/create/generated/empty/Dockerfile cmd/draft/testdata/create/generated/simple-go-with-draftignore/Dockerfile cmd/draft/testdata/create/generated/simple-go/Dockerfile packs/dotnetcore/Dockerfile packs/golang/Dockerfile packs/gradle/Dockerfile packs/maven/Dockerfile packs/node/Dockerfile packs/php/Dockerfile packs/python/Dockerfile packs/ruby/Dockerfile go 12|-\|/-| 
+add ondraft value to chart |-\|/-| 2017-08-08T17:58:35Z Merged pull request |-\|/-| 234 +4 −2 go md 1|-\|/-| 
+remove video of Draft on ACS |-\|/-| 2017-08-08T17:58:23Z Merged pull request |-\|/-| 233 +0 −4 md 0|-\|/-| 
+call make generate |-\|/-| 2017-08-07T18:58:26Z Merged pull request |-\|/-| 232 +194 −194 0|-\|/-| 
+feat(cmd/draft): add plugin remove cmd |-\|/-| 2017-07-28T19:32:15Z Merged pull request |-\|/-| 231 +131 −5 go 5|-\|/-| 
+chore(*): lock helm dependency version to 2.5.1 |-\|/-| 2017-07-26T19:02:24Z Merged pull request |-\|/-| 230 +2 −2 lock 1|-\|/-| 
+feat(*): install remote and local plugins |-\|/-| 2017-07-28T17:56:43Z Merged pull request |-\|/-| 229 +874 −44 go 4|-\|/-| 
+draft create creates draft.toml if necessary |-\|/-| 2018-04-19T14:03:58Z Closed pull request |-\|/-| 228 +307 −219 go toml 7|-\|/-| 
+fix draft up with set values in environment |-\|/-| 2017-07-11T17:04:46Z Merged pull request |-\|/-| 224 +42 −0 go 2|-\|/-| 
+Fix "file perm denied error" issue |-\|/-| 2017-09-18T22:44:54Z Closed pull request |-\|/-| 221 +2 −2 md 0|-\|/-| 
+disable watch feature by default |-\|/-| 2017-07-06T15:03:41Z Merged pull request |-\|/-| 217 +10 −7 toml go 5|-\|/-| 
+Build error and runtime errors with Java pack fixed |-\|/-| 2017-07-11T15:45:42Z Merged pull request |-\|/-| 216 +195 −195 packs/maven/Dockerfile 1|-\|/-| 
+Fixed Java pack Jar file error |-\|/-| 2017-07-03T10:42:12Z Closed pull request |-\|/-| 215 +1 −1 packs/maven/Dockerfile 1|-\|/-| 
+Adding prerun hook to lowercase application names |-\|/-| 2018-01-06T21:35:21Z Merged pull request |-\|/-| 212 +65 −0 go 2|-\|/-| 
+attach os.Stdin to plugin's stdin |-\|/-| 2017-07-06T15:03:24Z Merged pull request |-\|/-| 208 +5 −3 go 3|-\|/-| 
+rename --yes to --auto-accept |-\|/-| 2017-07-06T15:03:00Z Merged pull request |-\|/-| 204 +5 −5 go 1|-\|/-| 
+add v0.5.1 CHANGELOG |-\|/-| 2017-07-06T22:07:54Z Merged pull request |-\|/-| 203 +10 −0 md 0|-\|/-| 
+Add PORT env variable to the node pack Dockerfile |-\|/-| 2017-09-18T22:46:28Z Closed pull request |-\|/-| 196 +93 −92 js yaml 2|-\|/-| 
+Allow a custom base domain value in draft init |-\|/-| 2017-08-14T15:55:39Z Closed pull request |-\|/-| 194 +9 −1 go 1|-\|/-| 
+Fix draft init --yes being ignored |-\|/-| 2017-06-26T19:43:57Z Merged pull request |-\|/-| 193 +12 −9 go 1|-\|/-| 
+move hack/ scripts to scripts/ |-\|/-| 2017-06-26T19:51:30Z Merged pull request |-\|/-| 190 +0 −0 sh 1|-\|/-| 
+Add swift support |-\|/-| 2017-11-29T01:45:07Z Merged pull request |-\|/-| 189 +273 −0 gitattributes pins swift dockerignore packs/swift/Dockerfile helmignore yaml txt tpl 13|-\|/-| 
+alter project governance: remove bacongobbler as BDFL, add LGTM policy |-\|/-| 2017-07-06T22:08:23Z Merged pull request |-\|/-| 188 +46 −24 md md → OWNERS 1|-\|/-| 
+select storage driver as overlay |-\|/-| 2017-06-26T19:52:40Z Merged pull request |-\|/-| 187 +6 −0 yaml go 2|-\|/-| 
+add v0.5.0 CHANGELOG |-\|/-| 2017-06-26T19:51:39Z Merged pull request |-\|/-| 183 +28 −0 md 0|-\|/-| 
+add insecure registry to dind |-\|/-| 2017-06-23T16:13:15Z Merged pull request |-\|/-| 180 +4 −0 yaml go 2|-\|/-| 
+lower replica count to 1 |-\|/-| 2017-06-22T23:24:14Z Merged pull request |-\|/-| 179 +2 −2 yaml go 2|-\|/-| 
+trim whitespace from answer |-\|/-| 2017-06-22T19:45:32Z Merged pull request |-\|/-| 177 +1 −0 go 1|-\|/-| 
+ref(cmd): add helpful msg on draft up error |-\|/-| 2017-06-22T20:46:31Z Merged pull request |-\|/-| 176 +5 −0 go 1|-\|/-| 
+cast syscall.Stdin to an int |-\|/-| 2017-06-22T17:51:29Z Merged pull request |-\|/-| 173 +5 −3 go 2|-\|/-| 
+run `go generate` |-\|/-| 2017-06-22T15:17:29Z Merged pull request |-\|/-| 172 +476 −194 0|-\|/-| 
+add architecture description |-\|/-| 2017-06-22T15:13:43Z Merged pull request |-\|/-| 171 +42 −12 md 0|-\|/-| 
+Differentiate between gradle and maven projects for Java |-\|/-| 2017-06-22T15:13:04Z Merged pull request |-\|/-| 170 +170 −5 dockerignore packs/gradle/Dockerfile packs/java/NOTICE → packs/gradle/NOTICE helmignore yaml txt tpl packs/gradle/detect packs/java/Dockerfile → packs/maven/Dockerfile packs/maven/NOTICE packs/java/detect → packs/maven/detect 23|-\|/-| 
+Using multi-stage to build the application with composer |-\|/-| 2017-06-22T15:12:34Z Merged pull request |-\|/-| 169 +100 −88 json packs/php/Dockerfile 2|-\|/-| 
+bump to helm v2.5.0 |-\|/-| 2017-06-21T17:08:50Z Merged pull request |-\|/-| 166 +18 −53 md go lock yaml 3|-\|/-| 
+reference 17.05.0-ce tag, rename container to dind |-\|/-| 2017-06-21T17:08:41Z Merged pull request |-\|/-| 165 +18 −18 yaml go 2|-\|/-| 
+fixup java pack |-\|/-| 2017-06-21T17:09:17Z Merged pull request |-\|/-| 164 +87 −87 packs/java/Dockerfile 1|-\|/-| 
+Issue #150 Use docker-in-docker instead of mounting host docker |-\|/-| 2017-06-20T21:58:41Z Merged pull request |-\|/-| 163 +23 −13 yaml go 3|-\|/-| 
+Add .NET Core support |-\|/-| 2017-06-20T21:01:36Z Merged pull request |-\|/-| 159 +608 −76 cs txt csproj dockerignore packs/dotnetcore/Dockerfile packs/dotnetcore/NOTICE helmignore yaml tpl packs/dotnetcore/detect go 15|-\|/-| 
+Add Windows support |-\|/-| 2017-06-19T16:40:54Z Merged pull request |-\|/-| 158 +59 −28 go 6|-\|/-| 
+taking charts to prod, add project scope |-\|/-| 2017-06-16T20:29:14Z Merged pull request |-\|/-| 156 +28 −4 md 0|-\|/-| 
+Basic Swift pack with example |-\|/-| 2017-08-31T16:13:15Z Closed pull request |-\|/-| 155 +534 −73 gitignore swift dockerignore packs/swift/Dockerfile packs/swift/NOTICE helmignore yaml txt tpl packs/swift/detect 14|-\|/-| 
+draft init rewrite |-\|/-| 2017-06-21T22:47:01Z Merged pull request |-\|/-| 154 +297 −246 go yaml 4|-\|/-| 
+Fix trivial typo |-\|/-| 2017-06-15T00:02:38Z Merged pull request |-\|/-| 153 +1 −1 md 0|-\|/-| 
+add .draftignore to .gitignore |-\|/-| 2017-06-14T19:55:53Z Merged pull request |-\|/-| 151 +1 −0 gitignore 1|-\|/-| 
+Added description how to avoid custom DNS zone hosting record modific… |-\|/-| 2017-06-13T15:07:17Z Merged pull request |-\|/-| 149 +2 −1 md 0|-\|/-| 
+.draftignore file support |-\|/-| 2017-06-14T15:30:03Z Merged pull request |-\|/-| 147 +987 −8 go draftignore gitkeep cmd/draft/testdata/create/generated/empty/Dockerfile helmignore yaml txt tpl toml cmd/draft/testdata/create/generated/simple-go-with-chart/chart/something 16|-\|/-| 
+Add watch e2e tests |-\|/-| 2017-06-12T17:08:49Z Merged pull request |-\|/-| 146 +289 −6 sh toml gitignore tests/testdata/watch/example-dockerfile-http/Dockerfile yaml tpl conf gitkeep tests/testdata/watch/example-dockerfile-http/rootfs/usr/share/nginx/html/README test tests/tools 13|-\|/-| 
+E2e test fixes |-\|/-| 2017-06-12T16:56:58Z Merged pull request |-\|/-| 145 +18 −6 sh toml 2|-\|/-| 
+fix(chart): use linux node selector on draftd deployment |-\|/-| 2017-06-12T15:45:40Z Merged pull request |-\|/-| 144 +4 −0 yaml go 2|-\|/-| 
+Using multi-stage to compile the application |-\|/-| 2017-06-20T21:59:31Z Merged pull request |-\|/-| 142 +9 −2 packs/java/Dockerfile 1|-\|/-| 
+(WIP) Packs management |-\|/-| 2017-09-13T21:30:37Z Closed pull request |-\|/-| 141 +358 −16 go 2|-\|/-| 
+remove "isTag" logic from Jenkinsfile |-\|/-| 2017-06-12T21:27:19Z Merged pull request |-\|/-| 140 +3 −7 Jenkinsfile 1|-\|/-| 
+fix changelog typo |-\|/-| 2017-06-09T19:33:44Z Merged pull request |-\|/-| 139 +1 −1 md 0|-\|/-| 
+add v0.4.0 CHANGELOG |-\|/-| 2017-06-09T19:09:17Z Merged pull request |-\|/-| 137 +25 −0 md 0|-\|/-| 
+update release checklist |-\|/-| 2017-06-14T18:17:41Z Merged pull request |-\|/-| 136 +21 −3 Makefile md 1|-\|/-| 
+run make generate |-\|/-| 2017-06-09T17:02:30Z Merged pull request |-\|/-| 134 +13 −13 go 1|-\|/-| 
+implement `draft shipit` |-\|/-| 2017-06-09T21:42:00Z Closed pull request |-\|/-| 133 +138 −9 go 4|-\|/-| 
+call make build |-\|/-| 2017-06-09T15:17:15Z Merged pull request |-\|/-| 132 +83 −83 0|-\|/-| 
+move basedomain to rawVals |-\|/-| 2017-06-09T15:18:04Z Merged pull request |-\|/-| 130 +5 −7 go 1|-\|/-| 
+revert commit 0b44f84 |-\|/-| 2017-06-09T16:58:15Z Merged pull request |-\|/-| 128 +0 −6 yaml 6|-\|/-| 
+add Michelle Noorali as an Admiral |-\|/-| 2017-06-08T16:16:34Z Merged pull request |-\|/-| 126 +1 −0 md 0|-\|/-| 
+ref(draft/create): update app flag description |-\|/-| 2017-06-08T15:39:48Z Merged pull request |-\|/-| 125 +1 −1 go 1|-\|/-| 
+ensure pull secret does get updated |-\|/-| 2017-06-09T20:19:42Z Merged pull request |-\|/-| 124 +42 −28 go 1|-\|/-| 
+Add description of some field |-\|/-| 2017-06-09T16:25:35Z Merged pull request |-\|/-| 123 +4 −1 md 0|-\|/-| 
+blindly check for .go files across the repository |-\|/-| 2017-06-08T17:56:57Z Merged pull request |-\|/-| 119 +1 −1 packs/golang/detect 1|-\|/-| 
+inform user when pack already exists |-\|/-| 2017-06-08T20:27:10Z Merged pull request |-\|/-| 118 +18 −9 go 3|-\|/-| 
+fix unused --app flag on draft create |-\|/-| 2017-06-08T14:16:07Z Merged pull request |-\|/-| 117 +4 −0 go 1|-\|/-| 
+Added instructions for Google Container Registry |-\|/-| 2017-06-19T16:42:26Z Closed pull request |-\|/-| 116 +21 −1 md 0|-\|/-| 
+add codecov |-\|/-| 2017-06-13T16:24:10Z Merged pull request |-\|/-| 115 +21 −1 gitignore Jenkinsfile Makefile sh 4|-\|/-| 
+add link to slack channel |-\|/-| 2017-06-06T22:39:56Z Merged pull request |-\|/-| 114 +2 −0 md 0|-\|/-| 
+add video tutorial on draft |-\|/-| 2017-06-06T21:04:50Z Merged pull request |-\|/-| 113 +4 −0 md 0|-\|/-| 
+fix(defaultpacks): set basedomain |-\|/-| 2017-06-06T18:03:49Z Merged pull request |-\|/-| 110 +6 −0 go 6|-\|/-| 
+feat(packs): use go-bindata to pack builtin packs |-\|/-| 2017-06-06T22:55:27Z Merged pull request |-\|/-| 108 +3,056 −938 gitignore Makefile go md dockerignore packs/golang/Dockerfile packs/golang/NOTICE helmignore yaml txt tpl packs/golang/detect packs/java/Dockerfile packs/java/NOTICE 21|-\|/-| 
+(WIP) Added option to skip docker image push |-\|/-| 2017-06-06T18:11:53Z Closed pull request |-\|/-| 104 +231 −97 go md 2|-\|/-| 
+Added documentation on the steps needed to use minikube |-\|/-| 2017-06-09T15:16:32Z Merged pull request |-\|/-| 103 +56 −8 md 0|-\|/-| 
+feat(packs): use go-bindata to pack builtin packs |-\|/-| 2017-06-05T15:35:42Z Closed pull request |-\|/-| 99 +3,049 −932 gitignore Makefile go md dockerignore packs/golang/Dockerfile packs/golang/NOTICE helmignore yaml txt tpl packs/golang/detect packs/java/Dockerfile packs/java/NOTICE 21|-\|/-| 
+fix(windows): Updated to docker version v17.05.0-ce with the needed dependencies |-\|/-| 2017-06-02T21:15:46Z Merged pull request |-\|/-| 93 +27 −16 Makefile lock yaml go 4|-\|/-| 
+Adding a typescript pack |-\|/-| 2017-12-05T17:40:25Z Closed pull request |-\|/-| 92 +574 −97 gitignore json ts dockerignore packs/typescript/Dockerfile helmignore yaml txt tpl packs/typescript/detect 15|-\|/-| 
+fix(nodejs): Fixing nodejs dockerfile to point to older version |-\|/-| 2017-06-02T17:01:12Z Merged pull request |-\|/-| 88 +1 −1 go 1|-\|/-| 
+docs(install): adding Azure to token generation docs |-\|/-| 2017-06-01T16:45:40Z Merged pull request |-\|/-| 86 +1 −1 md 0|-\|/-| 
+typo |-\|/-| 2017-05-31T23:28:59Z Merged pull request |-\|/-| 81 +1 −1 md 0|-\|/-| 
+fix(install.md): encourage cloud-provided kubernetes clusters |-\|/-| 2017-05-31T16:53:37Z Merged pull request |-\|/-| 76 +1 −1 md 0|-\|/-| 
+docs(install): minor fix |-\|/-| 2017-05-31T16:35:15Z Merged pull request |-\|/-| 75 +1 −1 md 0|-\|/-| 
+docs(ingress): fix link to install guide |-\|/-| 2017-05-31T15:27:48Z Merged pull request |-\|/-| 74 +2 −2 md 0|-\|/-| 
+docs(ingress): fix data column in dns table |-\|/-| 2017-05-31T15:28:55Z Merged pull request |-\|/-| 73 +3 −3 md 0|-\|/-| 
+fix(packs/java): invoke java -jar correctly |-\|/-| 2017-05-31T15:29:39Z Merged pull request |-\|/-| 71 +1 −2 go 1|-\|/-| 
+fix(examples/ruby): use sinatra |-\|/-| 2017-05-31T15:28:36Z Merged pull request |-\|/-| 70 +21 −43 examples/ruby/Gemfile lock rb go 4|-\|/-| 
+fix(examples/nodejs): change to correct port + define node start |-\|/-| 2017-05-31T15:28:50Z Merged pull request |-\|/-| 69 +9 −1 js json 2|-\|/-| 
+fix(examples/php): add ending brace |-\|/-| 2017-05-31T15:29:14Z Merged pull request |-\|/-| 68 +1 −0 php 1|-\|/-| 
+fix(docs): fix a few broken links |-\|/-| 2017-05-31T03:37:47Z Merged pull request |-\|/-| 67 +4 −4 md 0|-\|/-| 
+Cleanup README and docs |-\|/-| 2017-05-31T03:12:54Z Merged pull request |-\|/-| 66 +24 −33 md 0|-\|/-| 
+docs(*): documenting basedomain and ingress setup |-\|/-| 2017-05-31T02:12:23Z Merged pull request |-\|/-| 65 +105 −45 md 0|-\|/-| 
+fix(examples/ruby): add proper Gemfile.lock scaffolding |-\|/-| 2017-05-30T21:50:06Z Merged pull request |-\|/-| 64 +11 −0 lock 1|-\|/-| 
+ref(README): clarify configuration instructions |-\|/-| 2017-05-30T20:35:38Z Merged pull request |-\|/-| 63 +6 −6 md 0|-\|/-| 
+feat(Makefile): remove windows cross compilation target until #61 is fixed |-\|/-| 2017-05-30T18:56:20Z Merged pull request |-\|/-| 62 +1 −1 Makefile 1|-\|/-| 
+chore(docs): update README.md |-\|/-| 2017-05-30T18:46:35Z Merged pull request |-\|/-| 60 +17 −12 md 0|-\|/-| 
+feat(draft): add -o/--dest flag |-\|/-| 2017-06-01T03:50:25Z Merged pull request |-\|/-| 59 +27 −12 go 2|-\|/-| 
+fix(draft): wired client only and server only flags |-\|/-| 2017-06-01T03:50:41Z Merged pull request |-\|/-| 57 +11 −11 go 1|-\|/-| 
+docs(README): add Azure CR |-\|/-| 2017-05-30T22:07:48Z Merged pull request |-\|/-| 56 +1 −1 md 0|-\|/-| 
+fix bump to helm 2.4.1 |-\|/-| 2017-05-27T00:25:00Z Merged pull request |-\|/-| 55 +270 −228 Makefile go 4|-\|/-| 
+bump helm to v2.4.1 |-\|/-| 2017-05-27T00:25:01Z Merged pull request |-\|/-| 54 +256 −223 Makefile go 2|-\|/-| 
+remove --tiller-namespace feature flag |-\|/-| 2017-05-16T21:16:50Z Merged pull request |-\|/-| 53 +11 −20 go 4|-\|/-| 
+stop building app when client closes connection |-\|/-| 2017-05-15T23:39:15Z Merged pull request |-\|/-| 52 +73 −49 go 2|-\|/-| 
+change replicaCount to 3 |-\|/-| 2017-05-16T16:19:50Z Merged pull request |-\|/-| 51 +2 −2 yaml go 2|-\|/-| 
+add v0.3.0 CHANGELOG |-\|/-| 2017-05-10T17:31:49Z Merged pull request |-\|/-| 50 +26 −0 md 0|-\|/-| 
+fixup getting started guide |-\|/-| 2017-05-10T03:25:01Z Merged pull request |-\|/-| 48 +14 −14 md py 1|-\|/-| 
+docs(getting-started): update python pack filenames |-\|/-| 2017-05-09T23:02:20Z Merged pull request |-\|/-| 47 +6 −5 md 0|-\|/-| 
+docs(README.md): clarify that Helm v2.3.1 is a prerequisite |-\|/-| 2017-05-10T01:11:20Z Merged pull request |-\|/-| 46 +7 −0 md 0|-\|/-| 
+fix tagging logic |-\|/-| 2017-05-09T21:24:49Z Merged pull request |-\|/-| 44 +1 −1 Jenkinsfile 1|-\|/-| 
+feat(server): create docker pull secret in application namespace and append imagepullsecret to default service account. |-\|/-| 2017-05-11T16:49:29Z Merged pull request |-\|/-| 43 +231 −39 Makefile NOTICE go lock 5|-\|/-| 
+fix `docker login` |-\|/-| 2017-05-09T18:46:25Z Merged pull request |-\|/-| 41 +1 −2 Jenkinsfile 1|-\|/-| 
+call out helm version |-\|/-| 2017-05-09T18:07:03Z Merged pull request |-\|/-| 40 +1 −1 md 0|-\|/-| 
+feat(draft): add logo for Draft |-\|/-| 2017-05-09T04:56:30Z Merged pull request |-\|/-| 38 +2 −0 md png 1|-\|/-| 
+add Docker Hub credentials |-\|/-| 2017-05-09T16:34:24Z Merged pull request |-\|/-| 37 +6 −6 Jenkinsfile Makefile yaml go 4|-\|/-| 
+publish binaries on tagged releases |-\|/-| 2017-05-09T20:12:41Z Merged pull request |-\|/-| 36 +18 −12 Jenkinsfile 1|-\|/-| 
+update build status link |-\|/-| 2017-05-08T22:48:38Z Merged pull request |-\|/-| 35 +1 −1 md 0|-\|/-| 
+docs(changelog): clean up changelog |-\|/-| 2017-05-08T20:23:36Z Merged pull request |-\|/-| 29 +14 −15 md 0|-\|/-| 
+docs(changelog): clean up changelog and add v0.3.0 notes. |-\|/-| 2017-05-08T20:21:40Z Closed pull request |-\|/-| 28 +41 −15 md 0|-\|/-| 
+fix(examples): ignore draft generated dockerfile, chart, and toml file from git. |-\|/-| 2017-05-08T20:12:22Z Merged pull request |-\|/-| 27 +3 −0 gitignore 1|-\|/-| 
+add codecov |-\|/-| 2017-06-06T18:41:25Z Closed pull request |-\|/-| 26 +24 −0 gitignore Jenkinsfile Makefile sh 4|-\|/-| 
+fix(examples): ignore draft generated dockerfile, chart, and toml file from git. |-\|/-| 2017-05-08T19:37:20Z Closed pull request |-\|/-| 25 +3 −0 0|-\|/-| 
+docs(LICENSE): update license details |-\|/-| 2017-05-08T18:38:33Z Merged pull request |-\|/-| 24 +1 −1 LICENSE 1|-\|/-| 
+docs(cmd): add copyright header to main files |-\|/-| 2017-05-08T18:39:20Z Merged pull request |-\|/-| 23 +8 −0 go 2|-\|/-| 
+add code coverage |-\|/-| 2017-05-08T19:37:19Z Closed pull request |-\|/-| 22 +24 −0 0|-\|/-| 
+Clean changelog and add v0.3.0 notes |-\|/-| 2017-05-08T19:37:19Z Closed pull request |-\|/-| 21 +26 −0 0|-\|/-| 
+rename to Azure |-\|/-| 2017-05-08T18:50:00Z Merged pull request |-\|/-| 20 +57 −62 Jenkinsfile Makefile yaml go md lock sh mk 9|-\|/-| 
+docs(THIRDPARTY): attribute third-party libraries used in draft |-\|/-| 2017-05-08T17:30:18Z Merged pull request |-\|/-| 19 +76 −4 NOTICE md 1|-\|/-| 
+run gomove |-\|/-| 2017-05-08T16:21:48Z Merged pull request |-\|/-| 18 +34 −34 go 22|-\|/-| 
+docs(readme): fix link to license |-\|/-| 2017-05-08T16:22:12Z Closed pull request |-\|/-| 17 +2 −1 md 0|-\|/-| 

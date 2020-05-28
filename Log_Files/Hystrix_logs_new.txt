@@ -1,0 +1,746 @@
+Update thread pool properties |-\|/-| 2019-09-03T15:25:32Z Closed pull request |-\|/-| 1955 +0 −0 0|-\|/-| 
+V.1.5.11 |-\|/-| 2019-07-17T07:34:32Z Closed pull request |-\|/-| 1954 +123 −49 gradle java 14|-\|/-| 
+Updated metrics and updated thread pool metrics at runtime |-\|/-| 2019-07-17T07:42:01Z Closed pull request |-\|/-| 1948 +41 −19 java 5|-\|/-| 
+Re initialise thread pools settings |-\|/-| 2019-05-14T02:31:00Z Closed pull request |-\|/-| 1937 +165 −49 gradle java 11|-\|/-| 
+Reinitialise thread pools |-\|/-| 2019-04-04T02:03:24Z Closed pull request |-\|/-| 1935 +0 −0 0|-\|/-| 
+Update Hystrix Status |-\|/-| 2018-11-19T22:20:36Z Merged pull request |-\|/-| 1904 +16 −2 OSSMETADATA md 1|-\|/-| 
+Enable publishing via travis |-\|/-| 2018-11-16T22:47:39Z Merged pull request |-\|/-| 1901 +60 −5 yml gradle sh 5|-\|/-| 
+Disable test task on travis since the tests are flaky |-\|/-| 2018-11-16T18:52:59Z Merged pull request |-\|/-| 1900 +1 −1 yml 1|-\|/-| 
+Ignore flaky test |-\|/-| 2018-11-10T21:59:05Z Merged pull request |-\|/-| 1893 +26 −1 yml java 9|-\|/-| 
+Ignore flaky test |-\|/-| 2018-11-10T06:44:02Z Closed pull request |-\|/-| 1892 +6 −0 java 3|-\|/-| 
+Adding Diffblue Deeptest generated tests |-\|/-| 2019-04-10T09:50:47Z Closed pull request |-\|/-| 1866 +203 −0 java 1|-\|/-| 
+Fix the misspelling in README.md |-\|/-| 2019-06-02T23:00:20Z Closed pull request |-\|/-| 1865 +1 −1 md 0|-\|/-| 
+V1.5.x |-\|/-| 2018-08-24T15:49:44Z Closed pull request |-\|/-| 1843 +13 −10 gradle 3|-\|/-| 
+Fix hystrix.command.default.metrics.rollingPercentile.enabled=false not working |-\|/-| 2018-12-11T09:38:17Z Closed pull request |-\|/-| 1840 +194 −57 java 4|-\|/-| 
+Stabilize yet another test |-\|/-| 2018-05-04T22:36:18Z Merged pull request |-\|/-| 1797 +6 −2 java 1|-\|/-| 
+Stabilize another test |-\|/-| 2018-04-24T18:00:28Z Merged pull request |-\|/-| 1786 +27 −52 java 1|-\|/-| 
+Stabilize tests |-\|/-| 2018-04-05T16:43:16Z Merged pull request |-\|/-| 1785 +68 −32 yml java properties 5|-\|/-| 
+Create a simple interface for the Hystrix aspects to allow JDK proxying |-\|/-| 2018-03-20T14:33:46Z Closed pull request |-\|/-| 1775 +40 −5 java 3|-\|/-| 
+Fix race condition in HystrixSampleSseServlet for response writes |-\|/-| 2018-04-26T19:39:18Z Merged pull request |-\|/-| 1757 +205 −10 java 2|-\|/-| 
+deprecated and move hystrix-dashboard to Netflix-skunkworks |-\|/-| 2018-01-10T22:12:30Z Merged pull request |-\|/-| 1749 +23 −3,659 md java gradle 6|-\|/-| 
+Add fallbackDisabled metric |-\|/-| 2017-10-14T17:51:48Z Merged pull request |-\|/-| 1676 +19 −1 md java 4|-\|/-| 
+Develop.hujian.0809 |-\|/-| 2017-08-11T12:12:23Z Closed pull request |-\|/-| 1656 +104 −3 gradle xml java 10|-\|/-| 
+Develop.hujian.0809 |-\|/-| 2017-08-09T15:51:01Z Closed pull request |-\|/-| 1652 +49 −0 gradle xml 2|-\|/-| 
+Fixed bug where an unsubscription of a command in half-open state leaves circuit  permanently open |-\|/-| 2017-07-06T17:07:04Z Merged pull request |-\|/-| 1621 +56 −1 java 3|-\|/-| 
+iss1600: Wrong hystrix event type for fallback missing |-\|/-| 2017-07-03T19:58:55Z Merged pull request |-\|/-| 1616 +16 −8 java 2|-\|/-| 
+Updated Gradle to version 4.0 |-\|/-| 2017-07-03T20:30:34Z Merged pull request |-\|/-| 1615 +49 −47 jar properties gradlew bat 4|-\|/-| 
+Escape user entered input to avoid HTML injection. This fixes #1456 |-\|/-| 2017-06-14T21:50:02Z Merged pull request |-\|/-| 1606 +1 −1 html 1|-\|/-| 
+Issue 1603 |-\|/-| 2017-07-03T22:09:47Z Merged pull request |-\|/-| 1605 +143 −1 java 2|-\|/-| 
+Possibility to add custom root node for command and thread pool metrics |-\|/-| 2017-06-11T15:19:23Z Merged pull request |-\|/-| 1595 +24 −15 java 4|-\|/-| 
+Possibility to add custom root node for command and thread pool metrics |-\|/-| 2017-05-29T06:40:29Z Closed pull request |-\|/-| 1594 +24 −15 java 4|-\|/-| 
+throw IllegalStateException if request cache is not available when clearing |-\|/-| 2017-05-31T22:21:33Z Merged pull request |-\|/-| 1587 +7 −2 java 1|-\|/-| 
+Get CodaHale metrics working by starting up the stream consumers |-\|/-| 2017-05-16T20:25:42Z Merged pull request |-\|/-| 1586 +31 −24 java 2|-\|/-| 
+Fix incorrect return value in CodaHale metrics publisher of threadpool config |-\|/-| 2017-05-16T18:12:12Z Merged pull request |-\|/-| 1585 +1 −1 java 1|-\|/-| 
+Added Javanica support for setting allowMaximumSizeToDivergeFromCoreSize in an annotation |-\|/-| 2017-05-16T18:18:31Z Merged pull request |-\|/-| 1584 +11 −2 java 2|-\|/-| 
+Fix to permyriad calculation |-\|/-| 2017-05-15T02:12:03Z Merged pull request |-\|/-| 1576 +1 −1 java 1|-\|/-| 
+Demonstrate using a Completable in HystrixObservableCommand.construct() |-\|/-| 2017-05-09T23:26:04Z Merged pull request |-\|/-| 1574 +52 −6 java 1|-\|/-| 
+iss1545: don't get cause from HystrixBadRequestException if command t… |-\|/-| 2017-05-09T03:24:44Z Merged pull request |-\|/-| 1573 +18 −1 java 2|-\|/-| 
+1565: Set maximumSize using @HystrixCommand annotation |-\|/-| 2017-05-09T23:06:58Z Merged pull request |-\|/-| 1572 +10 −0 java 2|-\|/-| 
+Only create the HystrixContextRunnable for running the timeout fallback... |-\|/-| 2017-05-08T16:42:24Z Merged pull request |-\|/-| 1570 +16 −12 java 2|-\|/-| 
+Made circuit-opening happen in background |-\|/-| 2017-05-08T13:16:09Z Merged pull request |-\|/-| 1568 +172 −78 java 3|-\|/-| 
+Handle not wrapped exceptions same way as all other |-\|/-| 2017-05-16T17:50:25Z Merged pull request |-\|/-| 1567 +69 −32 java 4|-\|/-| 
+Add exception-handling to interactions with servlet writers |-\|/-| 2017-05-03T13:16:42Z Merged pull request |-\|/-| 1561 +9 −5 java 1|-\|/-| 
+bugfix/Fixing typo in fallback error message |-\|/-| 2017-05-02T13:00:39Z Merged pull request |-\|/-| 1556 +1 −1 java 1|-\|/-| 
+Software Engg |-\|/-| 2017-05-03T13:17:15Z Closed pull request |-\|/-| 1555 +30,658 −5,606 yml md txt gradle properties clj java 8|-\|/-| 
+Fixed incorrect color of circuit status in dashboard |-\|/-| 2017-04-27T00:12:11Z Merged pull request |-\|/-| 1551 +1 −1 html 1|-\|/-| 
+Support multiple circuit status for Hystrix Dashboard |-\|/-| 2017-04-26T07:37:46Z Merged pull request |-\|/-| 1547 +5 −1 html 1|-\|/-| 
+Fixed a potential bug in metrics-event-stream-jaxrs |-\|/-| 2017-04-19T18:59:39Z Merged pull request |-\|/-| 1539 +37 −6 java 6|-\|/-| 
+Move markCommandExecution after markEvent SUCCESS. |-\|/-| 2017-04-19T17:45:15Z Merged pull request |-\|/-| 1535 +2 −2 java 1|-\|/-| 
+Move HealthCountsStream subscribe outside synchronized block |-\|/-| 2017-04-07T19:50:55Z Merged pull request |-\|/-| 1532 +6 −3 java 1|-\|/-| 
+assert the circuitBreakerForceClosed property |-\|/-| 2017-04-07T21:13:05Z Merged pull request |-\|/-| 1531 +1 −0 js 1|-\|/-| 
+Remove commons-collection from project |-\|/-| 2017-04-07T19:57:34Z Merged pull request |-\|/-| 1529 +1 −3 gradle java 2|-\|/-| 
+Remove last dependency on commons-collection |-\|/-| 2017-04-05T22:45:16Z Closed pull request |-\|/-| 1528 +1 −2 java 1|-\|/-| 
+Update build.gradle |-\|/-| 2017-04-07T19:51:28Z Merged pull request |-\|/-| 1527 +0 −1 gradle 1|-\|/-| 
+iss1403: Support @HystrixCommand for rx.Single and rx.Completable sim… |-\|/-| 2017-05-09T23:27:29Z Merged pull request |-\|/-| 1524 +207 −8 md java 6|-\|/-| 
+Fix typo in HystrixCommand.java |-\|/-| 2017-03-24T17:24:30Z Merged pull request |-\|/-| 1515 +1 −1 java 1|-\|/-| 
+Fixing https://github.com/Netflix/Hystrix/issues/1508 |-\|/-| 2017-03-24T17:25:43Z Merged pull request |-\|/-| 1513 +50 −2 java 3|-\|/-| 
+Updating codahale metrics-core to 3.2.2 |-\|/-| 2017-03-24T17:22:39Z Merged pull request |-\|/-| 1512 +1 −1 gradle 1|-\|/-| 
+README: fix typo |-\|/-| 2017-03-24T17:10:44Z Merged pull request |-\|/-| 1507 +1 −1 md 0|-\|/-| 
+Fixes #1478 : allow cleaner error propagation |-\|/-| 2017-03-24T16:49:02Z Merged pull request |-\|/-| 1503 +36 −1 java 3|-\|/-| 
+delete unuseful code in HystrixConcurrencyStrategy |-\|/-| 2017-03-20T22:11:50Z Merged pull request |-\|/-| 1502 +1 −2 java 1|-\|/-| 
+Upgrade servo to 0.10.1 |-\|/-| 2017-03-15T18:27:14Z Merged pull request |-\|/-| 1498 +1 −1 gradle 1|-\|/-| 
+Upgrade hystrix-servo-metrics-publisher to 0.10.0 |-\|/-| 2017-03-15T18:09:35Z Closed pull request |-\|/-| 1497 +1 −1 gradle 1|-\|/-| 
+hystrix-metrics-event-stream implementation using JAX-RS |-\|/-| 2017-03-15T23:10:28Z Merged pull request |-\|/-| 1495 +1,106 −0 md gradle java 5|-\|/-| 
+Added exporting of rollingMaxConcurrentExecutionCount value. |-\|/-| 2017-03-01T20:28:02Z Merged pull request |-\|/-| 1489 +7 −0 java 1|-\|/-| 
+Minor spelling fixes. |-\|/-| 2017-03-01T18:31:00Z Merged pull request |-\|/-| 1488 +5 −5 md java 1|-\|/-| 
+iss1446: Ready for review |-\|/-| 2017-03-01T18:41:38Z Merged pull request |-\|/-| 1482 +477 −28 md java 5|-\|/-| 
+iss1458: added sanity checker for the method that detects point cut t… |-\|/-| 2017-03-01T18:42:18Z Merged pull request |-\|/-| 1481 +86 −1 java 2|-\|/-| 
+Just added example usage |-\|/-| 2017-02-10T19:05:15Z Merged pull request |-\|/-| 1475 +5 −1 md 0|-\|/-| 
+Remove possible NPE |-\|/-| 2017-02-07T17:11:59Z Merged pull request |-\|/-| 1469 +3 −2 java 1|-\|/-| 
+2.0.x |-\|/-| 2017-02-07T17:09:26Z Closed pull request |-\|/-| 1462 +3,096 −5,766 yml gradle java 3|-\|/-| 
+Add Javanica test for NotWrapped checked exception |-\|/-| 2017-01-06T13:55:31Z Merged pull request |-\|/-| 1453 +33 −3 java 1|-\|/-| 
+Single method which ensures core less than equal to maximum |-\|/-| 2016-12-21T04:40:52Z Merged pull request |-\|/-| 1449 +229 −54 java 7|-\|/-| 
+Remove dependency of hystrix-serialization on jackson-cbor by depreca… |-\|/-| 2016-12-20T22:07:56Z Merged pull request |-\|/-| 1448 +14 −225 gradle java 6|-\|/-| 
+Allow dynamic update to allow maximum size diverge from core size |-\|/-| 2016-12-20T22:32:26Z Merged pull request |-\|/-| 1447 +67 −38 java 4|-\|/-| 
+Early unsubscribe hook test |-\|/-| 2016-12-15T18:02:18Z Merged pull request |-\|/-| 1445 +82 −1 java 4|-\|/-| 
+Optimize server thread exit |-\|/-| 2016-12-14T23:23:22Z Merged pull request |-\|/-| 1444 +5 −11 java 1|-\|/-| 
+Hystrix dashboard switch jetty to gretty |-\|/-| 2016-12-14T23:23:32Z Merged pull request |-\|/-| 1443 +6 −5 md gradle 1|-\|/-| 
+Fix #1430 by detecting case when client connect/disconnects before me… |-\|/-| 2016-12-14T22:52:51Z Merged pull request |-\|/-| 1442 +9 −0 java 1|-\|/-| 
+Use Gretty for running hystrix-examples-webapp |-\|/-| 2016-12-14T22:36:28Z Merged pull request |-\|/-| 1441 +5 −4 md gradle 1|-\|/-| 
+Publish the value of the maximumSize property |-\|/-| 2016-12-21T07:59:52Z Closed pull request |-\|/-| 1439 +21 −0 java 3|-\|/-| 
+Properly handle default values for allowMaximumSizeToDivergeFromCoreSize |-\|/-| 2016-12-20T22:32:17Z Merged pull request |-\|/-| 1435 +10 −11 java 3|-\|/-| 
+Write to error log actual dynamicMaxPoolSize from properties if maxPo… |-\|/-| 2016-11-21T18:02:08Z Merged pull request |-\|/-| 1423 +6 −5 java 1|-\|/-| 
+When user has not opted in to letting core/maximum threadpools diverge, ensure dynamic updates to coreSize apply to both |-\|/-| 2016-11-10T22:01:16Z Merged pull request |-\|/-| 1419 +6 −0 java 1|-\|/-| 
+Fix a little spell mistake in comments. |-\|/-| 2016-11-08T16:53:37Z Merged pull request |-\|/-| 1415 +1 −1 java 1|-\|/-| 
+Allow exceptions without HystrixRuntimeException wrapper |-\|/-| 2016-12-19T23:49:50Z Merged pull request |-\|/-| 1414 +214 −14 java 10|-\|/-| 
+Javanica/Support raiseHystrixExceptions for Observables |-\|/-| 2016-12-06T18:23:33Z Merged pull request |-\|/-| 1412 +53 −10 md java 2|-\|/-| 
+Removed bad import that snuck in |-\|/-| 2016-11-01T18:31:46Z Merged pull request |-\|/-| 1411 +0 −1 java 1|-\|/-| 
+Fix typo in collapser options keyword name (from shared-fn to shard-fn) |-\|/-| 2016-10-31T21:38:28Z Merged pull request |-\|/-| 1408 +1 −1 clj 1|-\|/-| 
+Clear the percentile snapshot whenever all buckets get cleared |-\|/-| 2016-10-27T03:46:28Z Merged pull request |-\|/-| 1407 +3 −0 java 1|-\|/-| 
+Added unit test that demonstrates calling .retry() on an Observable produced by Hystrix does not result in deadlock |-\|/-| 2016-10-27T02:30:08Z Merged pull request |-\|/-| 1406 +38 −0 java 1|-\|/-| 
+Fix comment in HystrixThreadPoolProperties |-\|/-| 2016-10-26T21:57:15Z Merged pull request |-\|/-| 1405 +1 −1 java 1|-\|/-| 
+#1390 HystrixPlugins.getInstance() returns private instance |-\|/-| 2016-10-25T15:15:33Z Closed pull request |-\|/-| 1401 +37 −37 java 1|-\|/-| 
+Add property to control maximum thread pool size |-\|/-| 2016-10-20T23:49:52Z Merged pull request |-\|/-| 1399 +94 −36 java 8|-\|/-| 
+Add option to raise HystrixRuntimeException |-\|/-| 2016-10-24T20:18:22Z Merged pull request |-\|/-| 1397 +211 −9 java 7|-\|/-| 
+If command is unsubscribed before any work starts, just return Observable.never() |-\|/-| 2016-10-19T23:57:01Z Merged pull request |-\|/-| 1396 +79 −0 java 3|-\|/-| 
+iss:1387: Performance improvement in EnvUtils. Read "weavingMode" system property only one time. |-\|/-| 2016-10-19T17:59:13Z Merged pull request |-\|/-| 1393 +9 −3 java 1|-\|/-| 
+iss1344: send fallback exception to client instead of primary command |-\|/-| 2016-10-19T17:58:42Z Merged pull request |-\|/-| 1389 +202 −12 java 6|-\|/-| 
+Bump JMH gradle plugin to the latest version(0.3.1) |-\|/-| 2016-10-16T17:07:55Z Merged pull request |-\|/-| 1385 +1 −1 gradle 1|-\|/-| 
+Bump JMH to the latest version(1.15) |-\|/-| 2016-10-14T16:39:03Z Merged pull request |-\|/-| 1382 +1 −1 gradle 1|-\|/-| 
+Add jmh test when circuit opened |-\|/-| 2016-10-12T19:17:25Z Merged pull request |-\|/-| 1380 +39 −9 java 1|-\|/-| 
+Cleaner error propagation in hystrix core. |-\|/-| 2016-12-05T08:07:48Z Closed pull request |-\|/-| 1379 +6 −0 java 1|-\|/-| 
+Remove outdated comments regarding thread keep alive. |-\|/-| 2016-10-07T23:14:13Z Merged pull request |-\|/-| 1376 +2 −2 java 2|-\|/-| 
+Remove cancelled work from the threadpool queue |-\|/-| 2016-10-06T19:51:40Z Merged pull request |-\|/-| 1375 +35 −6 java 2|-\|/-| 
+Add threadPool maximumSize configuration |-\|/-| 2016-10-05T20:20:37Z Merged pull request |-\|/-| 1371 +273 −79 java 6|-\|/-| 
+Upgrade jmh to 1.14.1 |-\|/-| 2016-09-28T12:41:08Z Merged pull request |-\|/-| 1368 +1 −1 gradle 1|-\|/-| 
+Upgrade to Gradle 3.1 / Nebula 3.4.0 |-\|/-| 2016-09-27T15:52:39Z Merged pull request |-\|/-| 1365 +35 −60 gradle properties 16|-\|/-| 
+Fix backwards incompatibility for appengine |-\|/-| 2016-09-26T22:23:55Z Merged pull request |-\|/-| 1364 +67 −46 java 3|-\|/-| 
+Filter out all thread pool objects from thread pool metric streams which have not executed a command |-\|/-| 2016-09-26T22:22:09Z Merged pull request |-\|/-| 1363 +47 −35 java 2|-\|/-| 
+jmh test is more accurate when measuring the first command construction |-\|/-| 2016-09-23T03:45:29Z Merged pull request |-\|/-| 1360 +1 −1 java 1|-\|/-| 
+Update PlatformSpecific to only detect App Engine Standard Environment |-\|/-| 2016-09-21T16:18:26Z Merged pull request |-\|/-| 1356 +12 −7 java 4|-\|/-| 
+Upgrade to RxJava 1.2.0 |-\|/-| 2016-09-19T23:42:38Z Merged pull request |-\|/-| 1353 +1 −1 gradle 1|-\|/-| 
+Remove object-pooling from CachedValuesHistogram |-\|/-| 2016-09-16T23:39:21Z Merged pull request |-\|/-| 1351 +2 −22 java 1|-\|/-| 
+iss1328: fix |-\|/-| 2016-09-01T21:05:04Z Merged pull request |-\|/-| 1341 +599 −35 gradle java 2|-\|/-| 
+Made the user-defined fallback calculation more general |-\|/-| 2016-08-31T22:19:52Z Merged pull request |-\|/-| 1340 +44 −25 java 3|-\|/-| 
+Hystrix Dashboard Eureka integration improvements |-\|/-| 2016-09-08T20:42:29Z Merged pull request |-\|/-| 1336 +97 −47 css html 2|-\|/-| 
+Update readme to address jdk7+ |-\|/-| 2016-08-19T14:10:47Z Closed pull request |-\|/-| 1324 +1 −1 md 0|-\|/-| 
+Remove all ReactiveSocket modules - this should allow a build by JDK6/7 |-\|/-| 2016-08-18T21:01:08Z Merged pull request |-\|/-| 1323 +0 −1,443 gradle java 5|-\|/-| 
+Javanica: basic Observable Collapser support |-\|/-| 2016-09-07T19:57:16Z Merged pull request |-\|/-| 1320 +111 −44 md java properties 7|-\|/-| 
+Update nebula.netflixoss Gradle plugin from 3.2.3 to 3.3.0 |-\|/-| 2016-08-04T11:30:30Z Merged pull request |-\|/-| 1310 +1 −1 gradle 1|-\|/-| 
+Update HdrHistogram from 2.1.7 to 2.1.9 |-\|/-| 2016-08-04T11:30:18Z Merged pull request |-\|/-| 1309 +1 −1 gradle 1|-\|/-| 
+Update jmh from 1.11.2 -> 1.13 |-\|/-| 2016-08-05T00:02:02Z Merged pull request |-\|/-| 1308 +1 −1 gradle 1|-\|/-| 
+Update RxJava from 1.1.5 to 1.1.8 |-\|/-| 2016-08-04T02:35:54Z Merged pull request |-\|/-| 1307 +1 −1 gradle 1|-\|/-| 
+Update clojure |-\|/-| 2016-08-04T02:35:45Z Merged pull request |-\|/-| 1306 +4 −4 properties gradle 2|-\|/-| 
+Update Gradle wrapper to 2.14 |-\|/-| 2016-08-04T02:35:34Z Merged pull request |-\|/-| 1305 +1 −1 properties 1|-\|/-| 
+Make sure that metrics streams are multicast  |-\|/-| 2016-08-03T23:12:01Z Merged pull request |-\|/-| 1304 +229 −40 java 5|-\|/-| 
+Update RxNetty version which depends on netty 4.1.3.Final |-\|/-| 2016-08-03T19:27:26Z Merged pull request |-\|/-| 1303 +1 −1 gradle 1|-\|/-| 
+Evaluate pr 1265 |-\|/-| 2016-08-03T18:55:31Z Merged pull request |-\|/-| 1302 +180 −27 java 4|-\|/-| 
+Scalar command terminates in on next |-\|/-| 2016-08-03T18:12:14Z Merged pull request |-\|/-| 1300 +168 −35 java 8|-\|/-| 
+Using longer execution times for unsubscribe unit tests |-\|/-| 2016-08-02T18:14:31Z Merged pull request |-\|/-| 1299 +17 −27 java 1|-\|/-| 
+Spell correction. |-\|/-| 2016-08-02T18:16:37Z Merged pull request |-\|/-| 1297 +1 −1 md 0|-\|/-| 
+fix typo |-\|/-| 2016-08-02T17:06:36Z Merged pull request |-\|/-| 1295 +1 −1 md 0|-\|/-| 
+Make sure thread-pools actually shutdown |-\|/-| 2016-08-02T19:47:07Z Merged pull request |-\|/-| 1294 +8 −7 java 1|-\|/-| 
+Allow scalar commands (HystrixCommand) to set completion state on an onNext |-\|/-| 2016-08-02T23:40:14Z Closed pull request |-\|/-| 1279 +152 −29 java 6|-\|/-| 
+Prevent duplicate arguments from getting into a single collapser RequestBatch |-\|/-| 2016-07-13T18:36:21Z Merged pull request |-\|/-| 1278 +442 −50 java 5|-\|/-| 
+Made HystrixCollapser.toObservable lazy by wrapping all work in an Observable.defer |-\|/-| 2016-07-11T18:37:33Z Merged pull request |-\|/-| 1277 +39 −35 java 1|-\|/-| 
+Moved all work performed in HystrixObservableCollapser.toObservable inside an Observable.defer to make it lazy |-\|/-| 2016-07-11T18:36:39Z Merged pull request |-\|/-| 1276 +37 −31 java 1|-\|/-| 
+Lengthened wait period in shortCircuited HealthCounts unit test |-\|/-| 2016-07-11T13:33:44Z Merged pull request |-\|/-| 1275 +1 −1 java 1|-\|/-| 
+Make AbstractCommand.toObservable lazy.   |-\|/-| 2016-07-10T14:48:31Z Merged pull request |-\|/-| 1274 +65 −80 clj java 5|-\|/-| 
+Corrected ignoreExceptions for Observable returning methods. |-\|/-| 2016-07-13T21:09:02Z Merged pull request |-\|/-| 1273 +387 −2 java 4|-\|/-| 
+Fix race condition in HystrixThreadPoolKey.asKey method |-\|/-| 2016-07-11T13:12:56Z Merged pull request |-\|/-| 1271 +128 −116 gradle java 6|-\|/-| 
+Fix deprecations |-\|/-| 2016-07-07T06:24:47Z Merged pull request |-\|/-| 1270 +8 −8 java 3|-\|/-| 
+Rework hystrix-data-stream module to just include serialization logic |-\|/-| 2016-07-07T03:11:21Z Merged pull request |-\|/-| 1269 +4 −4 gradle java 24|-\|/-| 
+Interrupt execution thread on HystrixCommand#queue()#cancel(true) |-\|/-| 2016-08-03T18:55:33Z Merged pull request |-\|/-| 1265 +180 −27 java 4|-\|/-| 
+Allow to configure threadPoolKey through HystrixObservableCommand.Setter |-\|/-| 2016-07-06T04:08:50Z Closed pull request |-\|/-| 1264 +15 −0 java 1|-\|/-| 
+add toString()s to help debug custom HystrixPropertiesStrategys |-\|/-| 2016-06-29T01:53:29Z Merged pull request |-\|/-| 1261 +15 −3 java 3|-\|/-| 
+iss993: added DefaultProperties annotation [ready for review] |-\|/-| 2016-07-06T23:17:02Z Merged pull request |-\|/-| 1259 +899 −82 md java 6|-\|/-| 
+iss1177: change getMethod to recursively search in parent types |-\|/-| 2016-06-27T13:17:20Z Merged pull request |-\|/-| 1258 +108 −3 java 3|-\|/-| 
+Introduce intermediate data streams module |-\|/-| 2016-06-22T22:11:07Z Merged pull request |-\|/-| 1255 +528 −850 gradle java 4|-\|/-| 
+Allow multiple consumers of sample data to only trigger work once |-\|/-| 2016-06-22T02:45:10Z Merged pull request |-\|/-| 1254 +868 −122 java 7|-\|/-| 
+Fix issue #1251 |-\|/-| 2016-06-21T21:00:44Z Merged pull request |-\|/-| 1253 +1 −4 js 1|-\|/-| 
+Larger metric buckets in unit tests to allow for slower CI processing |-\|/-| 2016-06-21T21:05:39Z Merged pull request |-\|/-| 1250 +69 −68 java 3|-\|/-| 
+Set the thread pool size only when the configuration is changed. |-\|/-| 2016-06-17T17:36:58Z Merged pull request |-\|/-| 1247 +7 −2 java 1|-\|/-| 
+Move HystrixDashboardStream to hystrix-core |-\|/-| 2016-06-14T17:47:24Z Merged pull request |-\|/-| 1246 +117 −48 java 4|-\|/-| 
+fix handling of invalid weavingMode property |-\|/-| 2016-06-14T17:00:45Z Merged pull request |-\|/-| 1244 +5 −4 java 1|-\|/-| 
+Deflake unit tests |-\|/-| 2016-06-14T13:29:34Z Merged pull request |-\|/-| 1243 +130 −185 java 7|-\|/-| 
+minor local variable 'caching' fixups |-\|/-| 2016-06-12T21:25:40Z Merged pull request |-\|/-| 1238 +9 −10 java 3|-\|/-| 
+Deflake unit tests |-\|/-| 2016-06-13T21:58:43Z Closed pull request |-\|/-| 1237 +90 −68 java 6|-\|/-| 
+ReactiveSocket metrics client/server |-\|/-| 2016-06-12T21:24:40Z Merged pull request |-\|/-| 1236 +2,398 −1,146 gradle java 5|-\|/-| 
+Add demo that composes async command executions |-\|/-| 2016-06-06T23:12:13Z Merged pull request |-\|/-| 1235 +199 −0 java 1|-\|/-| 
+compare enums with ==, avoid chances of NPE |-\|/-| 2016-06-06T16:31:58Z Merged pull request |-\|/-| 1232 +6 −6 java 3|-\|/-| 
+make inner classes static where possible, and remove outer class refe… |-\|/-| 2016-06-03T12:51:46Z Merged pull request |-\|/-| 1231 +4 −4 java 4|-\|/-| 
+remove dead Setter class |-\|/-| 2016-06-03T04:45:53Z Merged pull request |-\|/-| 1229 +0 −66 java 1|-\|/-| 
+remove dead allocation of unused thunk |-\|/-| 2016-05-31T21:07:44Z Merged pull request |-\|/-| 1225 +0 −7 java 1|-\|/-| 
+remove dead field defaultNameCache |-\|/-| 2016-05-26T22:58:39Z Merged pull request |-\|/-| 1224 +0 −7 java 1|-\|/-| 
+Upgrade RxJava from 1.1.1 to 1.1.5 |-\|/-| 2016-05-26T20:49:08Z Merged pull request |-\|/-| 1223 +1 −1 gradle 1|-\|/-| 
+Perform Travis builds with Java8 |-\|/-| 2016-05-26T20:34:17Z Merged pull request |-\|/-| 1222 +1 −1 yml 1|-\|/-| 
+improve usages of "its" and "it's" |-\|/-| 2016-05-26T20:03:27Z Merged pull request |-\|/-| 1221 +5 −5 java 4|-\|/-| 
+avoid map lookups, in loops |-\|/-| 2016-05-26T17:42:52Z Merged pull request |-\|/-| 1219 +4 −4 java 1|-\|/-| 
+Fixing unsubscription races by modeling explicit FSMs for command and thread execution state |-\|/-| 2016-05-25T18:34:10Z Merged pull request |-\|/-| 1218 +104 −107 java 2|-\|/-| 
+remove dead code around fetching execution collapse info |-\|/-| 2016-05-25T18:21:25Z Merged pull request |-\|/-| 1217 +0 −2 java 1|-\|/-| 
+Fix Servo percentile calculation |-\|/-| 2016-05-24T19:22:39Z Merged pull request |-\|/-| 1215 +34 −4 java 2|-\|/-| 
+use parameterized logging |-\|/-| 2016-05-24T16:13:53Z Merged pull request |-\|/-| 1213 +34 −34 java 16|-\|/-| 
+fix logging contexts |-\|/-| 2016-05-23T23:47:58Z Merged pull request |-\|/-| 1212 +6 −8 java 4|-\|/-| 
+ReactiveSocket metrics stream |-\|/-| 2016-05-26T17:43:56Z Merged pull request |-\|/-| 1211 +1,415 −2 properties gradle java 7|-\|/-| 
+no need to fetch the method's parameter annotations, if there aren't any |-\|/-| 2016-05-23T03:36:20Z Merged pull request |-\|/-| 1210 +1 −1 java 1|-\|/-| 
+Fixed thread-state cleanup to happen on unsubscribe or terminate |-\|/-| 2016-05-19T20:53:14Z Merged pull request |-\|/-| 1209 +113 −202 java 2|-\|/-| 
+Wired up unsubscription for HystrixCollapsers and HystrixObservableCollapsers |-\|/-| 2016-05-18T18:39:14Z Merged pull request |-\|/-| 1208 +1,864 −319 java 5|-\|/-| 
+Different fix for concurrency count command metric |-\|/-| 2016-05-16T21:13:07Z Merged pull request |-\|/-| 1207 +8 −7 java 2|-\|/-| 
+Added subscribeOn to HystrixObservableCommand in JMH test to make it async |-\|/-| 2016-05-13T23:12:45Z Merged pull request |-\|/-| 1206 +1 −2 java 2|-\|/-| 
+Support unsubscription of HystrixCommands |-\|/-| 2016-05-13T22:36:04Z Merged pull request |-\|/-| 1204 +2,325 −1,502 java 9|-\|/-| 
+Add test cases for unsubscribe of Hystrix commands before terminal events |-\|/-| 2016-05-05T04:13:27Z Merged pull request |-\|/-| 1198 +328 −89 java 3|-\|/-| 
+New Feature -- Eureka Integration to Hystrix Dashbaord |-\|/-| 2016-07-13T20:01:55Z Merged pull request |-\|/-| 1197 +197 −1 gradle java xml html 6|-\|/-| 
+improved tests readbility a bit |-\|/-| 2016-05-02T20:18:32Z Merged pull request |-\|/-| 1194 +157 −423 0|-\|/-| 
+more tests using HystrixRequestContext rule |-\|/-| 2016-05-02T16:51:05Z Merged pull request |-\|/-| 1193 +190 −269 gradle java 4|-\|/-| 
+Added AbstractCollapser |-\|/-| 2017-05-03T13:17:59Z Closed pull request |-\|/-| 1192 +499 −720 java 2|-\|/-| 
+2.0.x |-\|/-| 2016-04-22T03:39:31Z Closed pull request |-\|/-| 1191 +3,096 −5,766 yml gradle java 3|-\|/-| 
+Modify Servo tag "type" -> "class" and "instance" -> "id" |-\|/-| 2016-04-20T19:42:22Z Merged pull request |-\|/-| 1190 +2 −2 java 1|-\|/-| 
+Upgrade Servo to 0.12.4 |-\|/-| 2016-04-20T18:21:23Z Merged pull request |-\|/-| 1188 +1 −1 gradle 1|-\|/-| 
+Removing unused methods for collapsingEnabled on HystrixCollapserProperties |-\|/-| 2016-04-20T17:35:52Z Merged pull request |-\|/-| 1187 +0 −10 java 1|-\|/-| 
+migrating all hystrix-javanica tests to hystrix-junit |-\|/-| 2016-04-20T17:07:54Z Merged pull request |-\|/-| 1186 +30 −36 md gradle java 11|-\|/-| 
+migrating all hystrix-javanica tests to hystrix-junit |-\|/-| 2016-04-20T12:18:33Z Merged pull request |-\|/-| 1184 +15 −36 gradle java 11|-\|/-| 
+HystrixRequestContext junit rule |-\|/-| 2016-04-19T18:43:05Z Merged pull request |-\|/-| 1183 +83 −1 gradle java 4|-\|/-| 
+Deprecate getter and setter for unused collapsingEnabled property in Collapser Setter. |-\|/-| 2016-04-20T13:15:53Z Merged pull request |-\|/-| 1181 +9 −2 java 1|-\|/-| 
+Cleanup execution hook |-\|/-| 2016-04-14T21:43:17Z Merged pull request |-\|/-| 1180 +929 −843 java 2|-\|/-| 
+Failing test case when two requests with the same request argument are collapsed |-\|/-| 2016-07-13T18:36:56Z Merged pull request |-\|/-| 1176 +35 −0 java 1|-\|/-| 
+Add AutoCloseable interface to HystrixRequestContext |-\|/-| 2016-04-11T21:42:28Z Merged pull request |-\|/-| 1175 +1 −1 java 1|-\|/-| 
+Upgrade to Java8 |-\|/-| 2016-04-11T17:23:36Z Merged pull request |-\|/-| 1172 +2,216 −4,962 yml gradle java 3|-\|/-| 
+Do all calculation of histogram values upfront. |-\|/-| 2016-04-08T12:23:35Z Merged pull request |-\|/-| 1171 +32 −60 java 2|-\|/-| 
+Cleanup stream tests |-\|/-| 2016-04-07T18:52:38Z Merged pull request |-\|/-| 1170 +114 −113 java 4|-\|/-| 
+Use getExecutionException to handle timeout, short-circuit, etc... exceptions |-\|/-| 2016-04-04T13:25:46Z Merged pull request |-\|/-| 1169 +5 −5 md java 4|-\|/-| 
+Use getExecutionException to handle timeout, short-circuit, etc... exceptions |-\|/-| 2016-04-04T13:12:16Z Closed pull request |-\|/-| 1168 +63 −45 gradle md java 11|-\|/-| 
+Use getExecutionException to handle timeout, short-circuit, etc... ex… |-\|/-| 2016-04-04T12:36:12Z Merged pull request |-\|/-| 1167 +5 −5 md java 4|-\|/-| 
+Remove release badge, as it doesn't track the actual highest release |-\|/-| 2016-03-25T16:42:02Z Merged pull request |-\|/-| 1160 +0 −1 md 0|-\|/-| 
+HystrixMetricsPoller as a daemon thread |-\|/-| 2016-03-23T17:55:55Z Merged pull request |-\|/-| 1157 +1 −0 java 1|-\|/-| 
+Hystrix Metrics Stream with Vertx |-\|/-| 2016-03-21T20:23:05Z Closed pull request |-\|/-| 1156 +868 −0 md gradle 1|-\|/-| 
+Removed methods and variables with unused annotation |-\|/-| 2016-03-21T17:41:02Z Merged pull request |-\|/-| 1154 +1 −23 java 4|-\|/-| 
+Added logging to HystrixCircuitBreakerTest.testCircuitClosedAfterSuccess |-\|/-| 2016-03-17T03:59:14Z Merged pull request |-\|/-| 1152 +2 −0 java 1|-\|/-| 
+Remove unused method  |-\|/-| 2016-03-17T00:02:53Z Merged pull request |-\|/-| 1151 +0 −8 java 1|-\|/-| 
+Make queue size of MetricJsonListener configurable |-\|/-| 2016-03-16T22:22:27Z Merged pull request |-\|/-| 1149 +9 −2 java 1|-\|/-| 
+Proposal: HystrixRequestContext junit rule |-\|/-| 2016-04-19T18:22:02Z Merged pull request |-\|/-| 1147 +83 −1 gradle java 4|-\|/-| 
+Reducing latency to make sure we're not inducing timeouts |-\|/-| 2016-03-12T00:12:45Z Merged pull request |-\|/-| 1144 +2 −2 java 1|-\|/-| 
+Add logging to CircuitBreaker unit test |-\|/-| 2016-03-11T20:54:00Z Merged pull request |-\|/-| 1143 +1 −0 java 1|-\|/-| 
+Increasing time spent in commands in HealthCountsStreamTest  |-\|/-| 2016-03-11T23:21:23Z Merged pull request |-\|/-| 1142 +2 −2 java 1|-\|/-| 
+Increased the time spent in commands to ensure commands get rejected as expected |-\|/-| 2016-03-11T20:47:14Z Merged pull request |-\|/-| 1141 +1 −1 java 1|-\|/-| 
+Increased time spent in command to allow concurrency check to work as expected |-\|/-| 2016-03-11T20:44:10Z Merged pull request |-\|/-| 1140 +1 −1 java 1|-\|/-| 
+Increased batch command timeout in HystrixCollapserTest to accommodate Travis slowness |-\|/-| 2016-03-11T20:32:14Z Merged pull request |-\|/-| 1139 +2 −2 java 1|-\|/-| 
+Made errors in hook unit tests easier to debug |-\|/-| 2016-03-11T19:23:55Z Merged pull request |-\|/-| 1138 +19 −11 java 2|-\|/-| 
+Made unit test more lenient on timing to accommodate Travis slowness |-\|/-| 2016-03-11T20:29:28Z Merged pull request |-\|/-| 1137 +1 −1 java 1|-\|/-| 
+Made latency check in unit test more lenient to account for Travis slowness |-\|/-| 2016-03-11T18:38:01Z Merged pull request |-\|/-| 1136 +4 −4 java 1|-\|/-| 
+Increased timeout in HystrixRequestLogTest to accommodate Travis slowness |-\|/-| 2016-03-11T13:44:32Z Merged pull request |-\|/-| 1135 +2 −2 java 1|-\|/-| 
+Increased timeout value in HystrixObservableCollapserTest to accommodate slow Travis |-\|/-| 2016-03-11T00:07:37Z Merged pull request |-\|/-| 1134 +1 −1 java 1|-\|/-| 
+Increased the timeout value for commands to accommodate Travis slowness |-\|/-| 2016-03-11T00:08:06Z Merged pull request |-\|/-| 1133 +2 −2 java 1|-\|/-| 
+Deflaked test of semaphore concurrency |-\|/-| 2016-03-10T23:40:35Z Merged pull request |-\|/-| 1132 +1 −1 java 1|-\|/-| 
+Adjusted timing of cumulative thread pool counter stream test |-\|/-| 2016-03-10T23:37:36Z Merged pull request |-\|/-| 1131 +2 −2 java 1|-\|/-| 
+Deflaked ThreadPool max-concurrency metrics tests |-\|/-| 2016-03-10T23:28:03Z Merged pull request |-\|/-| 1130 +3 −3 java 1|-\|/-| 
+Reset command metrics in HystrixCollapserTest |-\|/-| 2016-03-10T23:06:27Z Merged pull request |-\|/-| 1129 +1 −0 java 1|-\|/-| 
+Adding --info to Travis script step |-\|/-| 2016-03-10T22:54:04Z Merged pull request |-\|/-| 1128 +3 −0 yml 1|-\|/-| 
+Removing concurrency check from testRequestCacheWithSlowExecution |-\|/-| 2016-03-10T22:29:48Z Merged pull request |-\|/-| 1127 +0 −1 java 1|-\|/-| 
+Make Travis run unit tests with --info flag |-\|/-| 2016-03-10T22:44:17Z Closed pull request |-\|/-| 1126 +3 −0 yml 1|-\|/-| 
+Added some logging to unit tests to help deflake them when running on CI |-\|/-| 2016-03-10T20:30:44Z Merged pull request |-\|/-| 1125 +13 −8 java 3|-\|/-| 
+Turning down loglevels of metrics streams |-\|/-| 2016-03-10T04:32:10Z Merged pull request |-\|/-| 1124 +5 −5 java 2|-\|/-| 
+Making the HystrixTimeoutException instance per-command, not static |-\|/-| 2016-03-07T14:26:42Z Merged pull request |-\|/-| 1121 +1 −3 java 1|-\|/-| 
+Making the HystrixTimeoutException instance per-command, not static |-\|/-| 2016-03-07T14:26:29Z Merged pull request |-\|/-| 1120 +1 −3 java 1|-\|/-| 
+Revert "Deprecate methods to retrieve userThreadLatency, and remove it from standard metrics being published" |-\|/-| 2016-03-03T21:37:27Z Merged pull request |-\|/-| 1118 +95 −11 java 7|-\|/-| 
+Fix underscore.js URL |-\|/-| 2016-03-03T19:46:17Z Merged pull request |-\|/-| 1116 +2 −2 html 2|-\|/-| 
+Fix a dead link in README.md |-\|/-| 2016-03-03T19:44:54Z Merged pull request |-\|/-| 1115 +1 −1 md txt 0|-\|/-| 
+#1109 Make queue size of MetricJsonListener configurable |-\|/-| 2016-03-11T23:06:30Z Merged pull request |-\|/-| 1114 +18 −13 java 1|-\|/-| 
+Backport #1111 to 1.4.x |-\|/-| 2016-02-29T21:24:09Z Merged pull request |-\|/-| 1113 +17 −4 java 2|-\|/-| 
+Upgrade Nebula OSS Plugin in 1.4.x branch |-\|/-| 2016-02-29T20:36:38Z Merged pull request |-\|/-| 1112 +19 −17 gradle 1|-\|/-| 
+Made HystrixRequestContext Closeable |-\|/-| 2016-02-29T20:59:52Z Merged pull request |-\|/-| 1111 +17 −4 java 2|-\|/-| 
+Upgrade 1.4.x to RxJava 1.1.1 |-\|/-| 2016-02-29T20:23:15Z Merged pull request |-\|/-| 1110 +1 −1 gradle 1|-\|/-| 
+Javanica HystrixRequestCacheManager should use the concurrency strategy from HystrixPlugins |-\|/-| 2016-02-29T14:04:19Z Merged pull request |-\|/-| 1108 +2 −2 java 1|-\|/-| 
+Allow Hystrix  to be used as lambda |-\|/-| 2016-06-22T22:11:44Z Closed pull request |-\|/-| 1105 +189 −3 java 9|-\|/-| 
+Delegate HystrixRequestCache check through concurrency strategy |-\|/-| 2016-02-24T00:18:35Z Merged pull request |-\|/-| 1102 +13 −11 java 1|-\|/-| 
+Removed dashboard references to latencyTotal_mean |-\|/-| 2016-02-16T13:38:30Z Merged pull request |-\|/-| 1099 +0 −4 gradle js 2|-\|/-| 
+Special casing the 2 WAR artifacts to not have POMs rewritten |-\|/-| 2016-02-11T23:37:30Z Merged pull request |-\|/-| 1097 +19 −16 gradle 1|-\|/-| 
+Upgrade to RxJava 1.1.1 |-\|/-| 2016-02-11T22:38:03Z Merged pull request |-\|/-| 1096 +1 −1 gradle 1|-\|/-| 
+Upgrade Nebula netflixoss plugin to 3.2.3 |-\|/-| 2016-02-11T22:24:17Z Merged pull request |-\|/-| 1095 +1 −1 gradle 1|-\|/-| 
+Upgrade netflixoss Nebula plugin to 3.2.2 |-\|/-| 2016-02-08T21:46:18Z Merged pull request |-\|/-| 1094 +1 −1 gradle 1|-\|/-| 
+Fixed NPE on request cache when HystrixRequestContext is not initialized |-\|/-| 2016-02-08T19:39:14Z Merged pull request |-\|/-| 1093 +12 −0 java 2|-\|/-| 
+Updated Nebula plugin to 3.2.0 and Gradle to 2.10 |-\|/-| 2016-02-03T17:58:27Z Merged pull request |-\|/-| 1084 +2 −2 gradle properties 2|-\|/-| 
+Make Archaius a soft dependency through reflection and improve plugin… |-\|/-| 2016-02-11T19:12:29Z Merged pull request |-\|/-| 1083 +1,164 −69 java 5|-\|/-| 
+Removed reference to wrapped HystrixBadRequestException in javanica docs |-\|/-| 2016-02-03T17:49:34Z Merged pull request |-\|/-| 1081 +2 −2 md 0|-\|/-| 
+Allowed for variation in JSON ordering in unit test |-\|/-| 2016-02-01T20:11:28Z Merged pull request |-\|/-| 1080 +7 −3 java 1|-\|/-| 
+Eliminated a dynamic property lookup from HystrixThreadPool |-\|/-| 2016-02-01T19:57:10Z Merged pull request |-\|/-| 1079 +10 −11 java 1|-\|/-| 
+Move logic for deduplicating commands in a request from the JSON serialization to the model object |-\|/-| 2016-01-30T21:27:05Z Merged pull request |-\|/-| 1078 +175 −150 java 2|-\|/-| 
+Renaming thread pool max concurrency stream, for consistency |-\|/-| 2016-01-30T20:28:12Z Merged pull request |-\|/-| 1077 +32 −46 java 5|-\|/-| 
+Deprecate methods to retrieve userThreadLatency, and remove it from standard metrics being published |-\|/-| 2016-01-29T20:45:18Z Merged pull request |-\|/-| 1075 +11 −95 java 7|-\|/-| 
+Modify output for requests stream |-\|/-| 2016-01-29T05:17:45Z Merged pull request |-\|/-| 1073 +757 −92 java 1|-\|/-| 
+Remove requestId from request events JSON |-\|/-| 2016-01-27T00:18:08Z Merged pull request |-\|/-| 1072 +0 −3 java 1|-\|/-| 
+Remove accidental import of sun.misc.Cache |-\|/-| 2016-01-26T21:11:38Z Merged pull request |-\|/-| 1071 +0 −1 java 1|-\|/-| 
+Rename RequestEventsJsonStream  to HystrixRequestEventsJsonStream |-\|/-| 2016-01-26T21:09:13Z Merged pull request |-\|/-| 1070 +15 −7 java 2|-\|/-| 
+Differentiate HystrixCommandKey passed into some unit tests in HystrixCommandTest |-\|/-| 2016-01-26T13:51:30Z Merged pull request |-\|/-| 1069 +19 −11 java 1|-\|/-| 
+Decouple RequestEventsJsonStream from servlet |-\|/-| 2016-01-26T05:47:10Z Merged pull request |-\|/-| 1068 +99 −68 java 2|-\|/-| 
+Decouple SSE servlets from the streams that produce JSON to allow alternate methods of consumption |-\|/-| 2016-01-26T05:26:02Z Merged pull request |-\|/-| 1067 +320 −178 java 2|-\|/-| 
+Added PlatformSpecific class that can detect if it's running in AppEngine |-\|/-| 2016-01-25T08:22:53Z Merged pull request |-\|/-| 1066 +134 −34 java 4|-\|/-| 
+Made HystrixCommandTest.testRejectedThreadWithFallbackFailure more repeatable |-\|/-| 2016-01-25T08:06:47Z Merged pull request |-\|/-| 1065 +13 −21 java 1|-\|/-| 
+Making metric references to enums lazy to prevent NoSuchFieldError, if possible |-\|/-| 2016-01-25T07:22:25Z Merged pull request |-\|/-| 1064 +1,264 −177 java 1|-\|/-| 
+Buffered request stream |-\|/-| 2016-01-25T03:55:02Z Merged pull request |-\|/-| 1061 +2,237 −33 java 1|-\|/-| 
+sample-based SSE streams for configuration/utilization |-\|/-| 2016-01-25T03:50:33Z Closed pull request |-\|/-| 1060 +1,823 −0 java 1|-\|/-| 
+Use separate key for SlowCacheableCommand in HystrixCommandTest and HystrixObservableCommandTest |-\|/-| 2016-01-19T20:32:07Z Merged pull request |-\|/-| 1056 +3 −1 java 1|-\|/-| 
+Made HystrixCommandTest.testRejectedThreadWithFallback more deterministic |-\|/-| 2016-01-18T19:31:05Z Merged pull request |-\|/-| 1055 +204 −313 java 2|-\|/-| 
+Modularized command constructor logic to make it easier to read |-\|/-| 2016-01-18T17:39:12Z Merged pull request |-\|/-| 1050 +333 −325 java 1|-\|/-| 
+Cleanup unused imports from #1032 |-\|/-| 2016-01-13T21:48:08Z Merged pull request |-\|/-| 1049 +0 −11 java 3|-\|/-| 
+Hystrix metrics as streams |-\|/-| 2016-01-14T08:10:56Z Merged pull request |-\|/-| 1047 +10,571 −1,134 clj java txt properties 19|-\|/-| 
+Fix a comment which is a bit confusing |-\|/-| 2016-01-12T16:55:39Z Merged pull request |-\|/-| 1045 +2 −2 java 1|-\|/-| 
+Better measurement of command execution |-\|/-| 2016-01-12T16:55:08Z Merged pull request |-\|/-| 1044 +104 −28 java 1|-\|/-| 
+A couple approaches to fix HystrixObservableCollapser not producing values |-\|/-| 2016-01-11T19:37:58Z Merged pull request |-\|/-| 1043 +167 −103 java 4|-\|/-| 
+Add thread-safety test to TryableSemaphoreActual |-\|/-| 2016-01-07T22:41:28Z Merged pull request |-\|/-| 1040 +50 −0 java 1|-\|/-| 
+Make methods of Hystrix class thread-safe |-\|/-| 2016-01-08T18:33:17Z Merged pull request |-\|/-| 1039 +370 −18 java 1|-\|/-| 
+Reduce map reads |-\|/-| 2016-01-04T22:09:03Z Merged pull request |-\|/-| 1036 +52 −7 gradle java 5|-\|/-| 
+Rename JMH tests for easier execution by regex |-\|/-| 2016-01-04T21:06:31Z Merged pull request |-\|/-| 1035 +32 −214 java 3|-\|/-| 
+Remove SHORT-CIRCUITs from Health check calculation |-\|/-| 2016-01-04T18:31:24Z Merged pull request |-\|/-| 1034 +19 −3 java 1|-\|/-| 
+Implementation for feature request #1013 |-\|/-| 2016-01-13T21:08:54Z Merged pull request |-\|/-| 1032 +185 −13 java 5|-\|/-| 
+Work towards 1.5 |-\|/-| 2016-01-12T23:34:22Z Closed pull request |-\|/-| 1029 +8,371 −718 gradle java 4|-\|/-| 
+Add a sleep to get a more deterministic unit test result |-\|/-| 2015-12-29T05:24:05Z Merged pull request |-\|/-| 1028 +9 −0 java 1|-\|/-| 
+fix example-webapp port typo |-\|/-| 2016-01-04T18:00:00Z Merged pull request |-\|/-| 1027 +1 −1 jsp 1|-\|/-| 
+Swapping out magnifying glass logos for properly-licensed images |-\|/-| 2015-12-17T06:44:41Z Merged pull request |-\|/-| 1019 +0 −0 png 2|-\|/-| 
+Added threshold under which errorPercentage is kept at zero |-\|/-| 2015-12-12T22:41:36Z Closed pull request |-\|/-| 1017 +61 −1 java 4|-\|/-| 
+Upgrade to RxJava 1.1.0 |-\|/-| 2015-12-08T00:58:08Z Merged pull request |-\|/-| 1014 +2 −3 gradle java 2|-\|/-| 
+Stream metrics 1.5 |-\|/-| 2015-12-29T07:36:09Z Closed pull request |-\|/-| 1010 +8,375 −721 gradle java 4|-\|/-| 
+Upgrade to AspectJ 1.8.6 to fix Java8 build issue |-\|/-| 2015-12-03T23:58:39Z Merged pull request |-\|/-| 1009 +1 −1 gradle 1|-\|/-| 
+Added AbstractCommand.getExecutionException to solve #998 |-\|/-| 2015-12-03T23:41:49Z Merged pull request |-\|/-| 1008 +139 −20 java 1|-\|/-| 
+Modify unit tests to assert on event counts and ordering instead of metrics gathered |-\|/-| 2015-12-03T20:01:18Z Merged pull request |-\|/-| 1007 +830 −3,335 java 8|-\|/-| 
+Added Cobertura plugin |-\|/-| 2015-12-03T00:17:15Z Merged pull request |-\|/-| 1006 +37 −30 gradle properties 2|-\|/-| 
+Upgrade to RxJava 1.0.17 |-\|/-| 2015-12-02T23:08:46Z Merged pull request |-\|/-| 1005 +1 −1 gradle 1|-\|/-| 
+Reduce number of trials of observable collapser test |-\|/-| 2015-12-02T22:55:03Z Merged pull request |-\|/-| 1004 +1 −1 java 1|-\|/-| 
+Added AbstractCommand.getExecutionException to solve #998 |-\|/-| 2015-12-03T23:42:11Z Closed pull request |-\|/-| 1003 +158 −30 java 1|-\|/-| 
+Reduce number of trails of long unit tests, to help CI turnaround time |-\|/-| 2015-12-02T22:27:34Z Merged pull request |-\|/-| 1002 +2 −2 java 2|-\|/-| 
+Demonstrate circuit-breaker sleep window property does not get reset |-\|/-| 2015-12-29T05:37:07Z Closed pull request |-\|/-| 1001 +29 −6 java 2|-\|/-| 
+Fixed Javadoc warning in HystrixNetworkAuditorEventListener |-\|/-| 2015-12-02T17:59:07Z Merged pull request |-\|/-| 1000 +1 −0 java 1|-\|/-| 
+Upgrade javassist to 3.19+ in hystrix-network-auditor-agent |-\|/-| 2015-12-02T17:49:04Z Merged pull request |-\|/-| 999 +1 −1 gradle 1|-\|/-| 
+Remove validation error message when adding a stream to monitor |-\|/-| 2015-11-24T20:06:53Z Merged pull request |-\|/-| 992 +2 −0 html 1|-\|/-| 
+Made commands run concurrently in HystrixCommandTimeoutConcurrencyTesting |-\|/-| 2015-11-20T21:20:22Z Merged pull request |-\|/-| 990 +52 −16 java 2|-\|/-| 
+Adding a test of concurrent HystrixObservableCollapsers running |-\|/-| 2015-11-20T21:20:13Z Merged pull request |-\|/-| 989 +77 −3 java 1|-\|/-| 
+Threadpool metrics as stream |-\|/-| 2015-12-05T01:14:59Z Closed pull request |-\|/-| 986 +4,224 −3,895 gradle java 4|-\|/-| 
+Command metrics modeled as a stream |-\|/-| 2015-12-05T01:15:42Z Closed pull request |-\|/-| 981 +3,934 −3,845 gradle java 4|-\|/-| 
+upgrade to commons-collections 3.2.2 |-\|/-| 2015-11-15T15:05:44Z Merged pull request |-\|/-| 978 +1 −1 gradle 1|-\|/-| 
+Iss 948 |-\|/-| 2015-11-24T20:06:07Z Merged pull request |-\|/-| 977 +1,666 −814 md gradle java 5|-\|/-| 
+Prevent execution of run method when an onXXXStart hook throws an exception |-\|/-| 2015-11-13T18:14:27Z Merged pull request |-\|/-| 976 +60 −14 java 2|-\|/-| 
+Reinstate the HystrixObservableCollapserTest stress test  |-\|/-| 2015-11-13T17:49:57Z Merged pull request |-\|/-| 975 +9 −0 java 1|-\|/-| 
+Mark servlet-api as 'provided' in generated POMs |-\|/-| 2015-11-13T17:24:05Z Merged pull request |-\|/-| 972 +13 −4 gradle 1|-\|/-| 
+Added defaultSetter() methods to properties classes as a workaround for GROOVY-6286 |-\|/-| 2015-11-10T22:53:31Z Merged pull request |-\|/-| 968 +27 −0 java 3|-\|/-| 
+Upgrade gradle-extra-configurations-plugin |-\|/-| 2015-11-10T04:06:44Z Merged pull request |-\|/-| 965 +1 −1 gradle 1|-\|/-| 
+Added call to HystrixPlugins.reset() in HystrixCommandTestWithCustomConcurrencyStrategy |-\|/-| 2015-11-10T03:38:40Z Merged pull request |-\|/-| 964 +1 −0 java 1|-\|/-| 
+Splitting up some tests for (hopefully) repeatable CI success |-\|/-| 2015-11-10T00:45:19Z Merged pull request |-\|/-| 963 +91 −32 java 1|-\|/-| 
+Javanica iss 929 |-\|/-| 2015-11-04T05:17:52Z Merged pull request |-\|/-| 962 +883 −111 md java 5|-\|/-| 
+tag *command* as a HystrixCommand |-\|/-| 2015-11-04T05:16:58Z Merged pull request |-\|/-| 960 +1 −1 clj 1|-\|/-| 
+Enable Hystrix Dashboard to monitor multiple independent applications |-\|/-| 2015-11-13T20:42:03Z Merged pull request |-\|/-| 959 +208 −143 css js html 8|-\|/-| 
+Javanica iss 926 |-\|/-| 2015-10-27T17:45:05Z Merged pull request |-\|/-| 957 +1,089 −500 gradle java 7|-\|/-| 
+Upgrade JMH to 1.11.1 from 1.10.3 |-\|/-| 2015-10-21T17:35:13Z Merged pull request |-\|/-| 956 +1 −1 gradle 1|-\|/-| 
+Fix test assertions after fixes in #951 |-\|/-| 2015-10-21T04:05:16Z Merged pull request |-\|/-| 954 +12 −24 java 1|-\|/-| 
+Add unit tests for documenting what happens when custom concurrency plugin is used |-\|/-| 2015-10-20T15:47:37Z Merged pull request |-\|/-| 953 +280 −0 java 1|-\|/-| 
+Add unit test for behavior of HystrixRequestCache without a HystrixRequestContext |-\|/-| 2015-10-19T23:23:46Z Merged pull request |-\|/-| 952 +15 −0 java 1|-\|/-| 
+Push RequestContext tolerance into ConcurrencyStrategy |-\|/-| 2015-10-21T03:44:55Z Merged pull request |-\|/-| 951 +76 −41 java 5|-\|/-| 
+Comment out small queue test cases to unblock CI until I understand how to properly fix them |-\|/-| 2015-10-16T18:28:56Z Merged pull request |-\|/-| 949 +68 −68 java 1|-\|/-| 
+Upgrade RxNetty from 0.4.7 to 0.4.12 |-\|/-| 2015-10-16T17:35:54Z Merged pull request |-\|/-| 947 +1 −1 gradle 1|-\|/-| 
+Refactor HystrixYammerMetricsPublisherCommand to allow subclasses to be less-aware of metrics internals |-\|/-| 2015-10-16T17:17:27Z Merged pull request |-\|/-| 946 +178 −165 java 2|-\|/-| 
+Javanica iss 907 |-\|/-| 2015-10-21T03:45:20Z Merged pull request |-\|/-| 945 +2,186 −1,235 md gradle java txt properties 11|-\|/-| 
+Fix generated pom |-\|/-| 2015-10-15T16:38:13Z Merged pull request |-\|/-| 944 +17 −3 gradle properties 2|-\|/-| 
+Fix metrics stream fallback emit |-\|/-| 2015-10-14T23:29:39Z Merged pull request |-\|/-| 942 +166 −10 java 10|-\|/-| 
+Add fallback-missing outcome |-\|/-| 2015-10-14T23:29:26Z Merged pull request |-\|/-| 941 +165 −9 java 10|-\|/-| 
+Forward port of #931 |-\|/-| 2015-10-14T21:25:47Z Merged pull request |-\|/-| 940 +332 −1,191 java gradle 5|-\|/-| 
+Forward port of #927 |-\|/-| 2015-10-14T21:25:39Z Merged pull request |-\|/-| 939 +296 −1,184 java gradle 5|-\|/-| 
+Forward port of #923 |-\|/-| 2015-10-14T21:25:29Z Merged pull request |-\|/-| 938 +295 −1,183 java gradle 5|-\|/-| 
+Forward port of #922 |-\|/-| 2015-10-14T21:18:58Z Merged pull request |-\|/-| 937 +294 −1,182 java 4|-\|/-| 
+Forward port of #917 |-\|/-| 2015-10-14T21:17:57Z Merged pull request |-\|/-| 936 +294 −1,182 java 4|-\|/-| 
+Revert metrics changes from #843 |-\|/-| 2015-10-14T21:16:00Z Merged pull request |-\|/-| 935 +180 −1,021 java 3|-\|/-| 
+Dashboard: 2 listeners to same EventSource |-\|/-| 2015-10-14T18:47:35Z Merged pull request |-\|/-| 934 +28 −65 html 1|-\|/-| 
+Make HystrixTimeoutException public so that user-defined execution methods may return it |-\|/-| 2015-10-14T18:22:39Z Merged pull request |-\|/-| 931 +36 −7 java 2|-\|/-| 
+Support collapser metrics in HystrixMetricPublisher implementations |-\|/-| 2015-10-14T17:59:24Z Merged pull request |-\|/-| 930 +26 −0 java 3|-\|/-| 
+Support collapser metrics in HystrixMetricPublisher implementations |-\|/-| 2015-10-14T17:49:22Z Merged pull request |-\|/-| 928 +26 −0 java 3|-\|/-| 
+[hystrix-dashboard] isCircuitBreakerOpen is assumed to be a boolean |-\|/-| 2015-10-14T17:48:13Z Merged pull request |-\|/-| 927 +1 −1 html 1|-\|/-| 
+changed HystrixThreadPool.getExecutor() return type |-\|/-| 2016-01-14T08:16:09Z Merged pull request |-\|/-| 925 +5 −3 java 2|-\|/-| 
+fix(title-xss): escaping text acquired from parameters to avoid any xss attacks |-\|/-| 2015-10-06T20:14:43Z Merged pull request |-\|/-| 924 +2 −2 html 1|-\|/-| 
+Upgrade to RxJava 1.0.14 |-\|/-| 2015-10-06T20:09:25Z Merged pull request |-\|/-| 923 +1 −1 gradle 1|-\|/-| 
+Add DEBUG tag to Servo rolling counter and made it a GaugeMetric |-\|/-| 2015-10-06T20:03:58Z Merged pull request |-\|/-| 922 +1 −1 java 1|-\|/-| 
+fix(title-xss): escaping text acquired from parameters to avoid any xss attacks |-\|/-| 2015-10-05T18:57:58Z Merged pull request |-\|/-| 921 +2 −2 html 1|-\|/-| 
+Fix for #918 |-\|/-| 2015-10-05T18:49:20Z Merged pull request |-\|/-| 919 +28 −65 html 1|-\|/-| 
+More extension-friendly HystrixServoMetricsPublisherCommand |-\|/-| 2015-09-28T21:28:04Z Merged pull request |-\|/-| 917 +114 −161 java 2|-\|/-| 
+Unit tests around large threadpool/small queue scenario |-\|/-| 2015-09-27T04:22:24Z Merged pull request |-\|/-| 916 +83 −0 java 1|-\|/-| 
+Adding a layer of abstraction to Servo integration for Hystrix command metrics that doesn't assume a specific implementation |-\|/-| 2015-09-27T04:16:28Z Merged pull request |-\|/-| 915 +228 −149 java 2|-\|/-| 
+Only check the property value of isRequestCacheEnabled() once in HystrixObservableCollapser |-\|/-| 2015-09-27T04:10:07Z Merged pull request |-\|/-| 914 +4 −2 java 1|-\|/-| 
+Forward port hystrix observable collapser example (#905) |-\|/-| 2015-09-27T04:16:08Z Merged pull request |-\|/-| 913 +349 −0 java 2|-\|/-| 
+Only check the property value of isRequestCacheEnabled() once in HystrixObservableCollapser |-\|/-| 2015-09-27T04:01:42Z Merged pull request |-\|/-| 912 +4 −2 java 1|-\|/-| 
+Unit tests around large threadpool/small queue scenario |-\|/-| 2015-09-26T05:51:16Z Merged pull request |-\|/-| 911 +83 −0 java 1|-\|/-| 
+Adding a layer of abstraction to Servo integration for Hystrix command metrics that doesn't assume a specific implementation |-\|/-| 2015-09-26T05:51:03Z Merged pull request |-\|/-| 910 +228 −149 java 2|-\|/-| 
+observable collapser example |-\|/-| 2015-09-23T04:44:08Z Merged pull request |-\|/-| 905 +349 −0 java 2|-\|/-| 
+Forward port #902 from 1.4.x |-\|/-| 2015-09-21T17:38:35Z Merged pull request |-\|/-| 904 +24 −16 java 1|-\|/-| 
+Update unit tests for HystrixObservableCollapser to check HystrixRequestContext |-\|/-| 2015-09-21T17:29:06Z Merged pull request |-\|/-| 902 +24 −16 java 1|-\|/-| 
+Remove commons-collections dependency. (Backport of #899) |-\|/-| 2015-09-17T00:01:22Z Merged pull request |-\|/-| 900 +2 −5 gradle java 3|-\|/-| 
+Remove commons-collections dependency. |-\|/-| 2015-09-16T23:48:04Z Merged pull request |-\|/-| 899 +2 −5 gradle java 3|-\|/-| 
+Backport of #896 |-\|/-| 2015-09-14T16:53:07Z Merged pull request |-\|/-| 897 +1 −1 java 1|-\|/-| 
+Fix missing null check in HystrixCacheKeyGenerator. |-\|/-| 2015-09-14T16:44:27Z Merged pull request |-\|/-| 896 +1 −1 java 1|-\|/-| 
+Allow multiple values per request-arg in a HystrixObservableCollapser |-\|/-| 2015-09-10T04:13:22Z Merged pull request |-\|/-| 893 +728 −197 java 3|-\|/-| 
+Cache HystrixCommand.Setter over benchmark duration in MultiThreadedMetricsTest |-\|/-| 2015-09-09T23:30:41Z Merged pull request |-\|/-| 892 +36 −15 java 1|-\|/-| 
+Added requestContext to all JMH tests, so that command flow uses (and benchmarks) them |-\|/-| 2015-09-09T23:03:18Z Merged pull request |-\|/-| 891 +25 −0 java 3|-\|/-| 
+Multiple responses per collapser arg |-\|/-| 2015-09-10T03:20:20Z Merged pull request |-\|/-| 890 +728 −197 java 3|-\|/-| 
+RequestBatch can use unsafeSubscribe with an empty Subscriber instead of paying cost of subscribe() |-\|/-| 2015-09-09T22:41:08Z Merged pull request |-\|/-| 889 +3 −2 java 1|-\|/-| 
+In HystrixCollapser, only check if request cache is enabled once |-\|/-| 2015-09-09T21:24:37Z Merged pull request |-\|/-| 888 +4 −2 java 1|-\|/-| 
+In HystrixCollapser, only check if request cache is enabled once |-\|/-| 2015-09-09T21:31:36Z Merged pull request |-\|/-| 887 +4 −2 java 1|-\|/-| 
+Only lookup if the request cache is enabled once per command invocation |-\|/-| 2015-09-09T21:18:10Z Merged pull request |-\|/-| 886 +4 −3 java 1|-\|/-| 
+Only lookup if the request cache is enabled once per command invocation |-\|/-| 2015-09-09T21:12:56Z Merged pull request |-\|/-| 885 +4 −3 java 1|-\|/-| 
+JMH benchmarks for collapsers in master |-\|/-| 2015-09-09T01:59:44Z Merged pull request |-\|/-| 884 +395 −0 java 2|-\|/-| 
+Add jmh collapser benchmarks |-\|/-| 2015-09-09T00:19:35Z Merged pull request |-\|/-| 883 +395 −0 java 2|-\|/-| 
+Allow multiple values per request-arg in a HystrixObservableCollapser |-\|/-| 2015-09-09T22:47:29Z Closed pull request |-\|/-| 881 +722 −196 java 2|-\|/-| 
+Fixed #847 by adding BAD_REQUEST to the HystrixRequestLog |-\|/-| 2015-08-25T19:22:47Z Merged pull request |-\|/-| 877 +107 −55 java 2|-\|/-| 
+Fixed #847 by adding BAD_REQUEST to the HystrixRequestLog |-\|/-| 2015-08-25T19:18:22Z Merged pull request |-\|/-| 876 +107 −55 java 2|-\|/-| 
+apply osgi gradle plugin so the we can use javanica in a OSGi Enviroment |-\|/-| 2015-08-14T17:12:13Z Merged pull request |-\|/-| 861 +2 −0 gradle 1|-\|/-| 
+apply osgi gradle plugin so the we can use javanica in a OSGi Enviroment |-\|/-| 2015-08-13T17:55:04Z Merged pull request |-\|/-| 859 +2 −0 gradle 1|-\|/-| 
+Added missing license headers |-\|/-| 2015-08-07T23:12:23Z Merged pull request |-\|/-| 856 +75 −2 java 5|-\|/-| 
+Constructor allocation |-\|/-| 2015-08-07T22:58:37Z Merged pull request |-\|/-| 855 +206 −9 gradle java 4|-\|/-| 
+Added Travis config so it can run in a container |-\|/-| 2015-08-06T18:10:18Z Merged pull request |-\|/-| 853 +1 −0 yml 1|-\|/-| 
+Merge fix 851 |-\|/-| 2015-08-06T17:19:25Z Merged pull request |-\|/-| 852 +1 −1 clj 1|-\|/-| 
+Fix generated arglists |-\|/-| 2015-08-06T17:05:25Z Closed pull request |-\|/-| 851 +1 −1 clj 1|-\|/-| 
+Added unit tests proving that request log, request caching and fallback work as expected when there is a class hierarchy of HystrixCommands |-\|/-| 2015-08-05T23:27:39Z Merged pull request |-\|/-| 849 +172 −0 java 1|-\|/-| 
+Unit test demonstrating racy HystrixRequestLog |-\|/-| 2015-08-06T18:05:32Z Merged pull request |-\|/-| 848 +80 −7 java 2|-\|/-| 
+Added threadpool config to HystrixObservableCommand |-\|/-| 2015-08-04T15:13:57Z Closed pull request |-\|/-| 844 +28 −0 java 1|-\|/-| 
+Make hystrix metrics abstract |-\|/-| 2015-08-07T23:21:32Z Merged pull request |-\|/-| 843 +1,021 −180 java 3|-\|/-| 
+Fix typo in hystrixCommand.js method name |-\|/-| 2015-07-23T17:32:29Z Merged pull request |-\|/-| 839 +2 −2 js 1|-\|/-| 
+Reinstated HystrixTest and added unit test for modifying semaphore count |-\|/-| 2015-07-22T22:45:09Z Merged pull request |-\|/-| 838 +20 −12 java 1|-\|/-| 
+Upgrade to RxJava 1.0.13 |-\|/-| 2015-07-22T22:29:02Z Merged pull request |-\|/-| 837 +1 −1 gradle 1|-\|/-| 
+Add validation for rollingCountBadRequests |-\|/-| 2015-07-22T12:13:01Z Merged pull request |-\|/-| 830 +10 −0 js 1|-\|/-| 
+Safely handle negative input on the delay input to metrics-stream |-\|/-| 2015-06-21T18:51:58Z Merged pull request |-\|/-| 826 +1 −1 java 1|-\|/-| 
+Only allow bucket configuration to take effect on HystrixRollingNumber creation |-\|/-| 2015-06-21T18:40:29Z Merged pull request |-\|/-| 825 +52 −50 java 7|-\|/-| 
+Make values for HystrixRollingPercentile bucket calculation only affect construction |-\|/-| 2015-06-21T18:12:47Z Merged pull request |-\|/-| 824 +56 −31 java 5|-\|/-| 
+fix half hidden mean metric because of container height |-\|/-| 2015-06-21T17:28:35Z Merged pull request |-\|/-| 823 +4 −5 css html 4|-\|/-| 
+Modify logic to only check the dynamic maxQueueSize property on creation of a threadPool |-\|/-| 2015-06-14T02:40:27Z Merged pull request |-\|/-| 818 +12 −2 java 2|-\|/-| 
+Upgrade to RxJava 1.0.12 |-\|/-| 2015-06-10T23:53:45Z Merged pull request |-\|/-| 814 +1 −1 gradle 1|-\|/-| 
+On recoverable java.lang.Error, log something so that application owners are notified, even as Hystrix serves a fallback |-\|/-| 2015-06-10T23:48:44Z Merged pull request |-\|/-| 813 +16 −2 java 2|-\|/-| 
+Fixed issue #811 :can't define overload functions in hystrix-clj. |-\|/-| 2015-06-10T18:29:12Z Merged pull request |-\|/-| 812 +33 −4 clj 2|-\|/-| 
+update readme to latest version |-\|/-| 2015-06-05T17:06:30Z Merged pull request |-\|/-| 808 +3 −3 md 0|-\|/-| 
+Rollback the metrics refactoring |-\|/-| 2015-05-31T07:29:05Z Merged pull request |-\|/-| 804 +449 −377 gradle java 4|-\|/-| 
+Add jmh for rolling number and rolling max |-\|/-| 2015-05-29T14:47:23Z Merged pull request |-\|/-| 803 +275 −1 gradle java 3|-\|/-| 
+Remove all dynamic property lookups from HystrixRollingPercentile |-\|/-| 2015-05-29T13:40:17Z Merged pull request |-\|/-| 801 +27 −27 java 2|-\|/-| 
+Add JMH benchmarks for HystrixRollingPercentile reads/writes |-\|/-| 2015-05-24T05:04:33Z Merged pull request |-\|/-| 800 +156 −0 java 1|-\|/-| 
+Unit test demonstrating unsafe usage of IntCountsHistogram on write path, and corresponding fix |-\|/-| 2015-05-23T21:56:56Z Merged pull request |-\|/-| 799 +59 −10 java 2|-\|/-| 
+Move all reads of Histograms to a single-threaded path |-\|/-| 2015-05-21T03:49:01Z Merged pull request |-\|/-| 797 +164 −23 gradle java 4|-\|/-| 
+Monitoring stream when pressing the enter key |-\|/-| 2015-05-15T21:52:26Z Merged pull request |-\|/-| 794 +8 −1 html 1|-\|/-| 
+Switching HystrixRollingNumber impl from LongAdder/LongMaxUpdater to AtomicLong |-\|/-| 2015-05-29T13:40:04Z Merged pull request |-\|/-| 791 +63 −98 java 2|-\|/-| 
+HystrixMetricsStreamServlet rejects requests after servlet shutdown (fixes #786) |-\|/-| 2015-05-05T13:08:44Z Merged pull request |-\|/-| 787 +51 −1 gradle java 3|-\|/-| 
+Update metrics to the latest version |-\|/-| 2015-05-04T16:26:53Z Merged pull request |-\|/-| 785 +1 −1 gradle 1|-\|/-| 
+Upgrade RxJava to 1.0.10 |-\|/-| 2015-05-01T05:34:06Z Merged pull request |-\|/-| 783 +1 −1 gradle 1|-\|/-| 
+Shorten stress test of HystrixObservableCollapser from 1000 -> 100 to limit OOM problems |-\|/-| 2015-04-30T13:51:03Z Merged pull request |-\|/-| 781 +1 −1 java 1|-\|/-| 
+More precise solution to #771 |-\|/-| 2015-04-30T12:50:46Z Merged pull request |-\|/-| 780 +99 −42 java 4|-\|/-| 
+Use HdrHistogram for latency percentile calculation |-\|/-| 2015-04-29T20:32:12Z Merged pull request |-\|/-| 779 +62 −161 gradle java 4|-\|/-| 
+Use more forks and less iterations/fork in JMH config |-\|/-| 2015-04-29T20:05:30Z Merged pull request |-\|/-| 778 +2 −2 gradle 1|-\|/-| 
+Added Bad Request count to Hystrix dashboard |-\|/-| 2015-04-29T04:47:12Z Merged pull request |-\|/-| 776 +16 −1 css html 4|-\|/-| 
+Add HystrixCounters methods to return number of commands/threadpools/groups |-\|/-| 2015-04-29T04:03:33Z Merged pull request |-\|/-| 775 +44 −0 java 4|-\|/-| 
+Added HystrixCounters to hold global metrics on Hystrix behavior |-\|/-| 2015-04-29T03:52:41Z Merged pull request |-\|/-| 774 +59 −28 java 3|-\|/-| 
+Moved new threadPool metric to end of JSON for metrics stream |-\|/-| 2015-04-28T21:27:50Z Merged pull request |-\|/-| 773 +1 −1 java 1|-\|/-| 
+Handle hook errors |-\|/-| 2015-04-28T21:27:59Z Merged pull request |-\|/-| 772 +73 −25 java 1|-\|/-| 
+Circuit forced open by properties queried properly |-\|/-| 2015-04-23T23:58:36Z Merged pull request |-\|/-| 770 +60 −2 java 2|-\|/-| 
+Add threadpool to hystrix-metrics-event-stream for each command |-\|/-| 2015-04-23T18:54:05Z Merged pull request |-\|/-| 769 +52 −7 java 6|-\|/-| 
+Add multithreaded jmh benchmarks |-\|/-| 2015-04-23T17:41:43Z Merged pull request |-\|/-| 767 +116 −1 gradle java 2|-\|/-| 
+Upgrade RxJava to 1.0.9 |-\|/-| 2015-04-18T03:45:55Z Merged pull request |-\|/-| 764 +1 −1 gradle 1|-\|/-| 
+Upgraded Jackson from 1.x to 2.5.2 and split out HystrixMetricsPoller unit test |-\|/-| 2015-04-18T03:01:05Z Merged pull request |-\|/-| 763 +105 −81 gradle java 3|-\|/-| 
+set threads to daemon as per #759 |-\|/-| 2015-04-17T23:47:25Z Merged pull request |-\|/-| 760 +6 −2 java 2|-\|/-| 
+Updated the RxNetty based version of HystrixMetricsStreamHandler |-\|/-| 2015-04-16T19:33:53Z Merged pull request |-\|/-| 757 +3 −2 gradle java 2|-\|/-| 
+Fixed Javadoc for HystrixThreadPoolProperties.Setter |-\|/-| 2015-04-15T18:56:29Z Merged pull request |-\|/-| 756 +281 −239 html 16|-\|/-| 
+Fixed Javadoc for HystrixThreadPoolProperties.Setter |-\|/-| 2015-04-15T18:49:51Z Merged pull request |-\|/-| 755 +1 −1 java 1|-\|/-| 
+Only fire onFallbackStart/onFallbackError execution hooks if there is a user-supplied fallback |-\|/-| 2015-04-13T22:36:42Z Merged pull request |-\|/-| 754 +199 −102 java 4|-\|/-| 
+Add timed-out metrics to dashboard for semaphore commands |-\|/-| 2015-04-13T18:52:30Z Merged pull request |-\|/-| 753 +1 −1 html 1|-\|/-| 
+Added a first pass at jmh tests for hystrix-core |-\|/-| 2015-04-11T20:44:32Z Merged pull request |-\|/-| 750 +223 −0 gradle java 3|-\|/-| 
+Fix return value of HystrixCircuitBreakerImpl.isOpen when we lose the race to open a circuit |-\|/-| 2015-04-08T20:57:24Z Merged pull request |-\|/-| 748 +4 −3 java 1|-\|/-| 
+Regenerate Javadoc for 1.4.4 |-\|/-| 2015-04-08T20:33:17Z Merged pull request |-\|/-| 747 +199 −193 html 30|-\|/-| 
+Better deprecation documentation for HystrixCommandProperties.Setter |-\|/-| 2015-04-08T20:26:28Z Merged pull request |-\|/-| 746 +6 −3 java 1|-\|/-| 
+Updated Javadoc for Hystrix 1.4.4 |-\|/-| 2015-04-06T22:28:42Z Merged pull request |-\|/-| 744 +506 −424 html 18|-\|/-| 
+Update timeout javadoc |-\|/-| 2015-04-06T20:55:38Z Merged pull request |-\|/-| 743 +7 −1 java 1|-\|/-| 
+Add ability to disable timeout per-command and wire it in |-\|/-| 2015-04-06T20:19:56Z Merged pull request |-\|/-| 742 +80 −3 java 4|-\|/-| 
+Properly check for all unrecoverable types of errors |-\|/-| 2015-04-06T18:03:11Z Merged pull request |-\|/-| 741 +3 −3 java 1|-\|/-| 
+Treat some java.lang.Errors as unrecoverable and immediately propagate |-\|/-| 2015-04-06T16:37:34Z Merged pull request |-\|/-| 739 +219 −183 java 3|-\|/-| 
+Filter out thread pools from metrics stream that have had no commands executed on them |-\|/-| 2015-04-01T19:14:50Z Merged pull request |-\|/-| 738 +8 −2 java 1|-\|/-| 
+BatchHystrixCommand has no sence and doesn't collapse requests #68 |-\|/-| 2015-04-06T17:32:30Z Merged pull request |-\|/-| 735 +389 −334 md java 1|-\|/-| 
+Comment out flaky fallback rejection test |-\|/-| 2015-03-27T20:18:30Z Merged pull request |-\|/-| 732 +78 −78 java 1|-\|/-| 
+Revert back to JDK6 |-\|/-| 2015-03-27T05:28:18Z Merged pull request |-\|/-| 731 +197 −187 gradle java 22|-\|/-| 
+Add semaphore-rejected metric to commands in Hystrix dashboard |-\|/-| 2015-03-26T00:10:22Z Merged pull request |-\|/-| 728 +3 −0 html 1|-\|/-| 
+Up the time before failure in HystrixCommandTest.testFallbackRejectionOccursWithLatentFallback |-\|/-| 2015-03-25T21:29:49Z Merged pull request |-\|/-| 727 +1 −1 java 1|-\|/-| 
+Check if the request log is enabled before requiring the context is initialized. |-\|/-| 2015-03-25T16:25:38Z Merged pull request |-\|/-| 724 +42 −17 java 2|-\|/-| 
+fixed AopUtils#getDeclaredMethod to look for method also in superclasses |-\|/-| 2015-03-25T21:50:27Z Merged pull request |-\|/-| 723 +32 −8 java 2|-\|/-| 
+dummy change |-\|/-| 2015-03-25T14:33:45Z Closed pull request |-\|/-| 721 +1 −0 md 0|-\|/-| 
+Add a new interface, `DefaultRequestLogStrategy`, to disable requestLog for the concurrency strategy. |-\|/-| 2015-03-25T16:06:40Z Closed pull request |-\|/-| 718 +11 −2 java 3|-\|/-| 
+Add error message to HTML when connecting to metrics source fails |-\|/-| 2015-03-20T23:03:36Z Merged pull request |-\|/-| 717 +4 −0 html 1|-\|/-| 
+Make HystrixCommand.execute()/queue() and AbstractCommand.observe()/toObservable() nonfinal |-\|/-| 2015-03-20T04:48:00Z Merged pull request |-\|/-| 716 +4 −4 java 2|-\|/-| 
+Use Archaius for Hystrix plugin setup |-\|/-| 2015-03-25T23:35:28Z Merged pull request |-\|/-| 711 +39 −35 java 1|-\|/-| 
+This fixes #709: JS error: "isNan is not defined" |-\|/-| 2015-03-09T03:48:03Z Merged pull request |-\|/-| 710 +1 −1 js 1|-\|/-| 
+Updated Javadoc for 1.4.0 |-\|/-| 2015-03-06T05:25:56Z Merged pull request |-\|/-| 707 +28,548 −43,760 html 2|-\|/-| 
+Fix Javadoc generation and some Javadoc warnings |-\|/-| 2015-03-06T02:14:15Z Merged pull request |-\|/-| 706 +32 −38 gradle java 6|-\|/-| 
+Fix Javadoc warnings |-\|/-| 2015-03-03T05:09:21Z Merged pull request |-\|/-| 701 +83 −56 java 22|-\|/-| 
+Example code for publishing to Graphite |-\|/-| 2015-03-03T05:06:19Z Merged pull request |-\|/-| 700 +24 −1 md 0|-\|/-| 
+Missing execution event for FALLBACK_REJECTION |-\|/-| 2015-02-24T01:00:41Z Merged pull request |-\|/-| 697 +45 −1 java 2|-\|/-| 
+Upgrade to RxJava 1.0.7 |-\|/-| 2015-02-23T22:11:19Z Merged pull request |-\|/-| 696 +1 −1 gradle 1|-\|/-| 
+Make HystrixCommandProperties backwards-compatible for classes which extend it |-\|/-| 2015-02-23T20:43:43Z Merged pull request |-\|/-| 694 +6 −1 java 1|-\|/-| 
+This fixes #692. If ratePerSecond is NaN, set errorThenVolume to -1 |-\|/-| 2015-02-23T20:39:02Z Merged pull request |-\|/-| 693 +1 −2 js 1|-\|/-| 
+Added a test with higher semaphore counts to detect raciness |-\|/-| 2015-02-20T18:53:00Z Merged pull request |-\|/-| 691 +75 −54 java 2|-\|/-| 
+Reinstate and deprecate exception threading utility |-\|/-| 2015-02-20T00:14:12Z Merged pull request |-\|/-| 690 +31 −0 java 2|-\|/-| 
+Added metrics for EMIT and FALLBACK_EMIT |-\|/-| 2015-02-19T08:48:35Z Merged pull request |-\|/-| 688 +34 −3 java 8|-\|/-| 
+Added unit test for fallback rejection |-\|/-| 2015-02-19T08:14:05Z Merged pull request |-\|/-| 687 +170 −85 java 2|-\|/-| 
+Partial progress on refactoring HystrixCommandTest to use FlexibleTestHystrixCommand |-\|/-| 2015-02-18T20:42:59Z Merged pull request |-\|/-| 686 +156 −302 java 2|-\|/-| 
+Changes to hook API to make it more Observable-friendly |-\|/-| 2015-02-18T04:13:57Z Merged pull request |-\|/-| 683 +3,762 −4,800 java 3|-\|/-| 
+Add execution hook for cache hit |-\|/-| 2015-02-14T04:48:17Z Merged pull request |-\|/-| 681 +199 −102 java 4|-\|/-| 
+Add command rejection metrics to HystrixThreadPoolMetrics |-\|/-| 2015-02-14T00:34:24Z Merged pull request |-\|/-| 680 +72 −0 java 10|-\|/-| 
+Update CHANGELOG.md for 1.4.0-RC7 |-\|/-| 2015-02-13T23:39:40Z Merged pull request |-\|/-| 679 +36 −0 md 0|-\|/-| 
+Fix current concurrent execution count |-\|/-| 2015-02-13T21:56:30Z Merged pull request |-\|/-| 678 +188 −2 java 2|-\|/-| 
+Add test to confirm that bad requests do not affect circuit breaker's computed error percentage |-\|/-| 2015-02-13T01:05:37Z Merged pull request |-\|/-| 676 +20 −0 java 1|-\|/-| 
+Revert timeout property name change |-\|/-| 2015-02-13T00:28:21Z Merged pull request |-\|/-| 675 +66 −72 java md 10|-\|/-| 
+Thread interrupt only on timeout |-\|/-| 2015-02-11T23:37:10Z Merged pull request |-\|/-| 672 +159 −85 java 4|-\|/-| 
+Don't pass on the Transfer-Encoding header when streaming |-\|/-| 2015-03-25T23:09:00Z Merged pull request |-\|/-| 671 +4 −1 java 1|-\|/-| 
+Unit tests demonstrating problems with thread interruptions |-\|/-| 2015-02-11T23:37:12Z Merged pull request |-\|/-| 670 +63 −2 java 2|-\|/-| 
+Added unit tests to demonstrate a non-blocking semaphore timeout |-\|/-| 2015-02-11T04:28:59Z Merged pull request |-\|/-| 669 +17 −5 java 1|-\|/-| 
+Added a rolling max counter for command execution |-\|/-| 2015-02-10T18:59:57Z Merged pull request |-\|/-| 667 +12 −10 java 5|-\|/-| 
+Added missing licenses |-\|/-| 2015-02-10T17:44:43Z Merged pull request |-\|/-| 666 +892 −6 clj java 23|-\|/-| 
+Added comment to HystrixConcurrencyStrategy about non-idempotency of strategy application |-\|/-| 2015-02-10T06:36:16Z Merged pull request |-\|/-| 665 +4 −0 java 1|-\|/-| 
+Favor timeout property that is not thread-specific. (execution.timeoutInMilliseconds) |-\|/-| 2015-02-10T06:30:21Z Merged pull request |-\|/-| 664 +81 −63 java md 8|-\|/-| 
+Tie command property to thread interrupt |-\|/-| 2015-02-10T05:16:23Z Merged pull request |-\|/-| 647 +346 −66 java 4|-\|/-| 
+Tie command property to thread interrupt |-\|/-| 2015-02-07T00:52:29Z Closed pull request |-\|/-| 646 +256 −8 java 3|-\|/-| 
+Remove incorrect reference to async timeout |-\|/-| 2015-02-06T21:14:46Z Merged pull request |-\|/-| 645 +0 −2 java 1|-\|/-| 
+Added RequestCollapser metrics to Yammer Metrics Publisher |-\|/-| 2015-02-06T19:25:31Z Merged pull request |-\|/-| 644 +202 −0 java 1|-\|/-| 
+Stress-test HystrixObservableCollapser |-\|/-| 2015-02-06T01:33:41Z Merged pull request |-\|/-| 643 +11 −0 java 2|-\|/-| 
+Deflaked HystrixObservableCommandTest.testRejectedViaSemaphoreIsolation |-\|/-| 2015-02-06T01:24:16Z Merged pull request |-\|/-| 642 +19 −3 java 1|-\|/-| 
+Fix flakiness of testSemaphorePermitsInUse |-\|/-| 2015-02-05T22:58:08Z Merged pull request |-\|/-| 641 +28 −25 java 2|-\|/-| 
+Both sync and async exceptions for hystrix observable cmd |-\|/-| 2015-02-05T01:21:17Z Merged pull request |-\|/-| 608 +882 −892 java 1|-\|/-| 
+Upgrade RxJava from 1.0.4 -> 1.0.5 |-\|/-| 2015-02-04T17:32:19Z Merged pull request |-\|/-| 607 +1 −1 gradle 1|-\|/-| 
+Added 2 new HystrixEventTypes: EMIT and FALLBACK_EMIT |-\|/-| 2015-02-04T17:11:44Z Merged pull request |-\|/-| 604 +274 −85 java 5|-\|/-| 
+Added metrics to HystrixObservableCollapser |-\|/-| 2015-02-02T23:38:16Z Merged pull request |-\|/-| 599 +66 −38 java 2|-\|/-| 
+Fixed HystrixContextScheduler to conform with RxJava Worker contract |-\|/-| 2015-02-02T18:02:57Z Merged pull request |-\|/-| 596 +125 −38 java 3|-\|/-| 
+Allow for thread interruption |-\|/-| 2015-02-07T00:58:34Z Closed pull request |-\|/-| 593 +264 −12 java 2|-\|/-| 
+Style fixes |-\|/-| 2015-01-28T07:29:00Z Merged pull request |-\|/-| 583 +47 −88 java 19|-\|/-| 
+Add nonblocking HystrixCommandTest.queue() unit tests back |-\|/-| 2015-01-28T06:19:41Z Merged pull request |-\|/-| 582 +54 −14 java 1|-\|/-| 
+Add unit test that demonstrates non-blocking timeout for HystrixCommand.queue() |-\|/-| 2015-01-28T05:41:54Z Merged pull request |-\|/-| 580 +24 −0 java 1|-\|/-| 
+Remove synchronous timeout |-\|/-| 2015-01-28T05:25:21Z Merged pull request |-\|/-| 579 +12 −181 java 2|-\|/-| 
+Upgrade to Java7 |-\|/-| 2015-01-28T04:58:20Z Merged pull request |-\|/-| 577 +162 −169 gradle java 22|-\|/-| 
+Add collapser metrics |-\|/-| 2015-01-28T00:10:54Z Merged pull request |-\|/-| 576 +1,555 −376 java 1|-\|/-| 
+Fix link to CHANGELOG.md in README.md |-\|/-| 2015-01-27T15:35:31Z Merged pull request |-\|/-| 573 +1 −1 md 0|-\|/-| 
+Add bad request exception metrics |-\|/-| 2015-01-27T07:51:13Z Merged pull request |-\|/-| 572 +98 −11 java 9|-\|/-| 
+Collapser metrics |-\|/-| 2015-01-28T00:04:19Z Closed pull request |-\|/-| 571 +990 −188 java 2|-\|/-| 
+Build upgrade for 1.3.x branch |-\|/-| 2015-01-26T20:56:54Z Merged pull request |-\|/-| 570 +103 −603 gradle codequality/HEADER properties jar 12|-\|/-| 
+Commenting out the flaky HystrixTest and HystrixPluginsTest until someone has time to de-flake them |-\|/-| 2015-01-25T17:29:23Z Merged pull request |-\|/-| 567 +14 −14 java 2|-\|/-| 
+Hard-coded group name when publishing CodaHale metrics fixed |-\|/-| 2015-01-25T15:16:10Z Merged pull request |-\|/-| 566 +1 −1 java 1|-\|/-| 
+Build changes to nebula.netflixoss (Manual merge of #469) |-\|/-| 2015-01-22T22:56:56Z Merged pull request |-\|/-| 562 +101 −614 md gradle codequality/HEADER properties jar 12|-\|/-| 
+Bump RxJava to 1.0.4 |-\|/-| 2015-01-21T20:55:33Z Merged pull request |-\|/-| 534 +2 −2 gradle 1|-\|/-| 
+Upgrade to RxJava 1.0.4 |-\|/-| 2015-01-21T20:23:39Z Merged pull request |-\|/-| 533 +2 −2 gradle 1|-\|/-| 
+Fix type in hystrix-clj |-\|/-| 2015-01-20T20:11:33Z Merged pull request |-\|/-| 532 +1 −1 clj 1|-\|/-| 
+Move onThreadStart execution hook after check that wrapping thread timed out |-\|/-| 2015-01-20T20:04:10Z Merged pull request |-\|/-| 531 +2 −2 java 1|-\|/-| 
+Add shutdown hook for WebSphere and checkError() to detect disconnected client |-\|/-| 2015-01-20T19:53:02Z Merged pull request |-\|/-| 530 +20 −1 java 1|-\|/-| 
+Demonstrate how to tell if a user-supplied getFallback() exists |-\|/-| 2015-01-19T22:45:26Z Closed pull request |-\|/-| 529 +9 −0 java 1|-\|/-| 
+Creating a synthetic exception in the semaphore execution and short-circuited case |-\|/-| 2015-01-19T21:39:22Z Merged pull request |-\|/-| 528 +8 −15 java 1|-\|/-| 
+Creating a synthetic exception in the semaphore execution and short-circuited case |-\|/-| 2015-01-19T21:35:31Z Merged pull request |-\|/-| 527 +14 −21 java 3|-\|/-| 
+Port of #520 to master |-\|/-| 2015-01-19T21:10:40Z Merged pull request |-\|/-| 526 +3,369 −1,792 java 2|-\|/-| 
+Change calls from getExecutedCommands() to getAllExecutedCommands() |-\|/-| 2015-01-19T20:02:53Z Merged pull request |-\|/-| 524 +37 −36 java 8|-\|/-| 
+Add comprehensive hook tests |-\|/-| 2015-01-16T18:47:59Z Merged pull request |-\|/-| 520 +1,571 −850 0|-\|/-| 
+Updated HystrixServoMetricsPublisher initalization of singleton |-\|/-| 2015-01-16T14:41:33Z Merged pull request |-\|/-| 516 +13 −1 java 1|-\|/-| 
+Unit test demonstrating that a timeout does not fire properly when command.queue() is called with no blocking performed on the resulting Future |-\|/-| 2015-01-28T05:30:48Z Closed pull request |-\|/-| 515 +23 −0 java 1|-\|/-| 
+Added Javadoc after clarifying #510.  When a Hystrix thread executes, |-\|/-| 2015-01-14T20:58:39Z Merged pull request |-\|/-| 512 +5 −1 java 1|-\|/-| 
+Matching hook orders from 1.3.x |-\|/-| 2015-01-14T20:52:58Z Merged pull request |-\|/-| 511 +112 −19 java 6|-\|/-| 
+Backport of #327 |-\|/-| 2015-01-14T04:17:13Z Merged pull request |-\|/-| 508 +232 −9 0|-\|/-| 
+Fixed Clojure unit tests that failed with RxJava 1.0 (Backport from master) |-\|/-| 2015-01-14T03:56:01Z Merged pull request |-\|/-| 507 +3 −3 clj 2|-\|/-| 
+Backport of #327 onto 1.3.x |-\|/-| 2015-01-14T04:14:18Z Closed pull request |-\|/-| 506 +232 −9 0|-\|/-| 
+Iss380 javanica cache |-\|/-| 2015-01-16T14:40:13Z Merged pull request |-\|/-| 489 +1,911 −169 md java 3|-\|/-| 
+Build changes to nebula.netflixoss |-\|/-| 2015-01-22T22:56:57Z Merged pull request |-\|/-| 469 +101 −614 md gradle codequality/HEADER properties jar 12|-\|/-| 
+Add more comprehensive set of unit tests for HystrixCommand and HystrixObservableCommand |-\|/-| 2015-01-09T00:43:27Z Merged pull request |-\|/-| 466 +493 −628 java 2|-\|/-| 
+Handle an error during construction of a MetricsPoller more gracefully |-\|/-| 2015-01-08T19:35:10Z Merged pull request |-\|/-| 465 +10 −2 java 1|-\|/-| 
+Fixing the resettability of HystrixMetricsPublisherFactory |-\|/-| 2015-01-08T05:00:34Z Merged pull request |-\|/-| 457 +56 −32 java 6|-\|/-| 
+Bypass fallback/circuit breaker for BadRequestExceptions from ExecutionHook |-\|/-| 2015-01-07T18:08:35Z Merged pull request |-\|/-| 456 +62 −0 java 2|-\|/-| 
+Add more unit tests for HystrixRequestLog to HystrixObservableCommandTest |-\|/-| 2015-01-07T06:19:40Z Merged pull request |-\|/-| 454 +76 −18 java 1|-\|/-| 
+Resettable command and thread pool defaults |-\|/-| 2015-01-07T04:37:02Z Merged pull request |-\|/-| 453 +38 −0 java 3|-\|/-| 
+Add the capability to reset HystrixPlugins and make Hystrix.reset() invoke it |-\|/-| 2015-01-07T03:50:38Z Merged pull request |-\|/-| 452 +14 −0 java 2|-\|/-| 
+Removed ExceptionThreadingUtility.  Stack traces are not helpful in an event-loop world |-\|/-| 2015-01-07T18:09:05Z Merged pull request |-\|/-| 451 +0 −175 java 3|-\|/-| 
+Added more comprehensive tests for HystrixObservableCommand.isResponseFromFallback() |-\|/-| 2015-01-07T02:15:43Z Merged pull request |-\|/-| 450 +78 −0 java 1|-\|/-| 
+Move thread completion to end of chain |-\|/-| 2015-01-07T01:07:27Z Merged pull request |-\|/-| 449 +32 −36 java 3|-\|/-| 
+Fixed HystrixThreadPool to always return true for isQueueSpaceAvailable() when size = 0 (the SynchronousQueue case) |-\|/-| 2015-01-06T23:07:40Z Merged pull request |-\|/-| 447 +2 −3 java 2|-\|/-| 
+Failing unit tests for timeouts on HystrixCommands not causing thread interruptions |-\|/-| 2015-01-31T04:29:22Z Closed pull request |-\|/-| 379 +60 −1 java 2|-\|/-| 
+Unit tests for HystrixCommandExecutionHooks (Manual merge of #327) |-\|/-| 2014-12-27T20:53:39Z Merged pull request |-\|/-| 378 +187 −13 java 2|-\|/-| 
+Updated outdated class names in documentation. |-\|/-| 2014-12-27T20:55:46Z Merged pull request |-\|/-| 376 +18 −4 md 0|-\|/-| 
+Updated outdated class names. |-\|/-| 2014-12-19T22:40:18Z Closed pull request |-\|/-| 375 +16 −2 md 0|-\|/-| 
+Change RequestBatch logging from ERROR to DEBUG |-\|/-| 2014-12-18T08:57:40Z Merged pull request |-\|/-| 374 +1 −1 java 1|-\|/-| 
+defer the Creation of ISE, to when an exception needs to be created (Manual merge of #264) |-\|/-| 2014-12-18T05:21:22Z Merged pull request |-\|/-| 371 +22 −2 java 2|-\|/-| 
+Add Javanica back - tests passing again |-\|/-| 2014-12-18T04:52:51Z Merged pull request |-\|/-| 370 +1 −1 gradle 1|-\|/-| 
+Add Basic Auth to Hystrix Dash (Manual Merge of #336) |-\|/-| 2014-12-17T04:31:42Z Merged pull request |-\|/-| 369 +20 −7 java html 3|-\|/-| 
+Added thread pool metrics back to execution flow |-\|/-| 2014-12-17T00:31:22Z Merged pull request |-\|/-| 367 +71 −0 java 2|-\|/-| 
+Added support to get command start time in Nanos |-\|/-| 2015-01-07T16:31:35Z Merged pull request |-\|/-| 366 +23 −0 java 2|-\|/-| 
+Fixed Javadoc suggesting incorrect addEventNotifier method in HystrixCommand.Setter |-\|/-| 2014-12-15T22:03:31Z Merged pull request |-\|/-| 365 +1 −2 java 1|-\|/-| 
+Upgrade Servo to 0.7.5 |-\|/-| 2014-12-15T21:01:55Z Merged pull request |-\|/-| 364 +1 −1 gradle 1|-\|/-| 
+s/toBlockingObservable/toBlocking in hystrix-rxnetty-metrics-stream |-\|/-| 2014-12-15T20:29:03Z Merged pull request |-\|/-| 362 +2 −2 java 1|-\|/-| 
+Race condition exists when constructing a HystrixThreadPool where the Th... |-\|/-| 2014-12-15T20:16:06Z Merged pull request |-\|/-| 361 +109 −10 java 6|-\|/-| 
+Metrics expire after inactivity in milliseconds |-\|/-| 2016-01-14T08:18:18Z Closed pull request |-\|/-| 360 +82 −10 java 3|-\|/-| 
+Got Javanica unit tests compiling (but failing) |-\|/-| 2014-12-15T20:26:05Z Merged pull request |-\|/-| 359 +22 −20 java gradle 8|-\|/-| 
+Fixed Clojure unit tests that failed with RxJava 1.0 |-\|/-| 2014-12-15T20:07:51Z Merged pull request |-\|/-| 358 +3 −3 clj 2|-\|/-| 
+Fixed Clojure unit tests |-\|/-| 2014-12-15T06:05:37Z Closed pull request |-\|/-| 357 +4 −30 clj 2|-\|/-| 
+Changes to support calculation wall-clock time taken by a set of hystrix commands |-\|/-| 2014-12-19T00:38:16Z Closed pull request |-\|/-| 356 +633 −12 java 4|-\|/-| 
+Fixing a hystrix-examples compilation failure. |-\|/-| 2014-12-11T23:49:15Z Merged pull request |-\|/-| 353 +2 −2 java 1|-\|/-| 
+1.3.x Allow for @HystrixCommand to be used on parameterized return type |-\|/-| 2014-12-09T03:06:36Z Merged pull request |-\|/-| 348 +111 −36 java 3|-\|/-| 
+Allow for @HystrixCommand to be used on parameterized return type |-\|/-| 2014-12-11T23:49:34Z Merged pull request |-\|/-| 347 +113 −36 java 3|-\|/-| 
+Upgrade to Gradle 1.12 |-\|/-| 2014-11-19T19:18:03Z Merged pull request |-\|/-| 344 +2 −3 jar properties 2|-\|/-| 
+Added 3 new constructors for common command setup |-\|/-| 2014-12-11T23:50:19Z Merged pull request |-\|/-| 343 +55 −1 java 1|-\|/-| 
+Race condition when creating HystrixThreadPool |-\|/-| 2014-12-11T23:51:26Z Merged pull request |-\|/-| 340 +5 −14 java 1|-\|/-| 
+getRollingCountThreadsExecuted() always returns 0 in master |-\|/-| 2014-12-17T00:31:22Z Merged pull request |-\|/-| 339 +73 −0 java 2|-\|/-| 
+API Changes as per Design Review |-\|/-| 2014-12-11T23:49:00Z Merged pull request |-\|/-| 338 +40 −7,722 java 6|-\|/-| 
+Prevent memory overconsumption on timeouts longer than command execution time |-\|/-| 2014-12-18T05:20:46Z Closed pull request |-\|/-| 337 +7 −2 java 1|-\|/-| 
+Dashboard: custom authorization header  |-\|/-| 2014-12-17T04:31:42Z Merged pull request |-\|/-| 336 +20 −7 java html 3|-\|/-| 
+Fix for issue #332 (Hystrix Javanica Error Propagation does not work cor... |-\|/-| 2014-11-11T03:33:15Z Merged pull request |-\|/-| 334 +517 −81 gradle java 5|-\|/-| 
+allowing configuration of threadPoolProperties through @HystrixCommand annontation |-\|/-| 2014-11-19T07:21:10Z Merged pull request |-\|/-| 329 +90 −2 md java 5|-\|/-| 
+Hook execution sequence issue |-\|/-| 2014-12-27T20:55:02Z Closed pull request |-\|/-| 327 +171 −0 0|-\|/-| 
+Added supports for setting threadPoolProperties through @HystrixCommand annotation |-\|/-| 2014-11-09T05:18:49Z Merged pull request |-\|/-| 326 +90 −2 md java 5|-\|/-| 
+HystrixAsyncCommand and HystrixObservableCommand |-\|/-| 2014-09-25T18:54:24Z Merged pull request |-\|/-| 318 +9,385 −1,627 java 11|-\|/-| 
+Add support for execution.isolation.semaphore.timeoutInMilliseconds |-\|/-| 2014-09-22T20:32:20Z Merged pull request |-\|/-| 316 +35 −2 java 1|-\|/-| 
+RxJava 0.20 and Remove Deprecated Usage |-\|/-| 2014-09-17T17:47:03Z Merged pull request |-\|/-| 314 +155 −161 gradle java 7|-\|/-| 
+Add toObservable() to the common HystrixExecutable interface |-\|/-| 2014-09-27T15:07:43Z Closed pull request |-\|/-| 312 +70 −23 java 6|-\|/-| 
+Osgi-ify hystrix-core, hystrix-examples |-\|/-| 2014-12-11T23:55:04Z Merged pull request |-\|/-| 310 +23 −0 gradle 2|-\|/-| 
+Avoid NPE when 'origin' parameter not present |-\|/-| 2014-09-04T17:38:23Z Merged pull request |-\|/-| 307 +1 −0 java 1|-\|/-| 
+Removing deprecated RxJava usage |-\|/-| 2014-09-03T16:36:09Z Merged pull request |-\|/-| 305 +28 −28 java gradle 9|-\|/-| 
+Change the inner delimiter to make parsing easier |-\|/-| 2014-12-11T23:56:21Z Closed pull request |-\|/-| 304 +5 −5 java 2|-\|/-| 
+Fix Premature Unsubscribe Bug |-\|/-| 2014-08-27T20:26:13Z Merged pull request |-\|/-| 296 +16 −2 java 1|-\|/-| 
+Stabilize randomly failing tests |-\|/-| 2014-08-27T21:10:35Z Merged pull request |-\|/-| 294 +34 −0 java 1|-\|/-| 
+Internalize internet dependencies from hystrix dashboard |-\|/-| 2014-08-11T21:43:28Z Merged pull request |-\|/-| 293 +11 −7 css png html js 6|-\|/-| 
+Remove surplus closing curly brackets at end of file |-\|/-| 2014-08-08T16:18:15Z Merged pull request |-\|/-| 292 +15 −18 css 1|-\|/-| 
+String optimization for HystrixRequestLog |-\|/-| 2014-08-08T16:17:40Z Merged pull request |-\|/-| 291 +27 −16 java 1|-\|/-| 
+Optimize object allocation for the string representation of executed com... |-\|/-| 2014-07-29T18:05:08Z Merged pull request |-\|/-| 288 +28 −18 java 1|-\|/-| 
+Hystrix metrics streaming module for RxNetty. |-\|/-| 2014-08-27T21:11:25Z Merged pull request |-\|/-| 283 +470 −0 gradle java 4|-\|/-| 
+Codahale Metrics Filter configurable with Archaius |-\|/-| 2014-08-27T21:12:17Z Merged pull request |-\|/-| 281 +182 −0 gradle java 3|-\|/-| 
+Upgrade to codahale-metrics 3.0.2 |-\|/-| 2014-12-12T00:13:22Z Closed pull request |-\|/-| 279 +1 −1 gradle 1|-\|/-| 
+Race condition where the HystrixMetricsPublisherThreadPool isn't referencing the correct ThreadPoolExecutor instance |-\|/-| 2014-12-15T20:15:58Z Closed pull request |-\|/-| 270 +109 −11 java 6|-\|/-| 
+implements TODO duplicate with error inside async Observables |-\|/-| 2014-12-27T21:07:50Z Closed pull request |-\|/-| 269 +28 −15 java 1|-\|/-| 
+Add unregister methods for Hystrix plugins |-\|/-| 2014-05-27T16:15:34Z Closed pull request |-\|/-| 266 +41 −6 java 2|-\|/-| 
+Update README.md |-\|/-| 2014-06-09T16:47:37Z Merged pull request |-\|/-| 265 +1 −1 md 0|-\|/-| 
+defer the Creation of ISE, to when an exception needs to be created |-\|/-| 2014-12-18T05:21:22Z Merged pull request |-\|/-| 264 +22 −2 java 2|-\|/-| 
+Compilation fixes |-\|/-| 2014-05-06T03:41:03Z Merged pull request |-\|/-| 262 +2 −2 gradle java 2|-\|/-| 
+New signature for HystrixObservableCollapser |-\|/-| 2014-05-06T03:45:00Z Merged pull request |-\|/-| 261 +190 −168 java 3|-\|/-| 
+RxJava 0.18.2 |-\|/-| 2014-05-05T22:05:59Z Merged pull request |-\|/-| 260 +1 −1 gradle 1|-\|/-| 
+Fix #257 with RxJava 0.18.2 |-\|/-| 2014-05-05T21:42:46Z Merged pull request |-\|/-| 259 +1 −1 gradle 1|-\|/-| 
+Skip CachedObservableOriginal when no getCacheKey() |-\|/-| 2014-05-05T21:38:38Z Merged pull request |-\|/-| 258 +6 −4 java 1|-\|/-| 
+Fix Race Condition on Timeout |-\|/-| 2014-05-05T16:12:02Z Merged pull request |-\|/-| 256 +135 −78 java 2|-\|/-| 
+Updated a img http link to https in the README.md |-\|/-| 2014-05-05T16:12:55Z Merged pull request |-\|/-| 255 +1 −1 md 0|-\|/-| 
+Remove jsr305 Dependency |-\|/-| 2014-04-30T19:27:21Z Merged pull request |-\|/-| 254 +35 −51 gradle java 15|-\|/-| 
+Handling InterruptedExceptions in the HystrixMetricsStreamServlet |-\|/-| 2014-05-05T16:13:16Z Merged pull request |-\|/-| 253 +4 −0 java 1|-\|/-| 
+Tripped CircuitBreaker Wouldn't Close Under Contention |-\|/-| 2014-04-25T21:42:46Z Merged pull request |-\|/-| 250 +110 −5 java 3|-\|/-| 
+Tripped CircuitBreaker Wouldn't Close Under Contention |-\|/-| 2014-04-25T21:36:10Z Merged pull request |-\|/-| 249 +111 −5 java 2|-\|/-| 
+RxJava 0.18 for Hystrix 1.3.15 |-\|/-| 2014-04-25T21:35:25Z Merged pull request |-\|/-| 248 +99 −68 gradle java 9|-\|/-| 
+RxJava 0.18 for Hystrix 1.3.15 |-\|/-| 2014-04-25T19:00:40Z Closed pull request |-\|/-| 247 +98 −67 gradle java 8|-\|/-| 
+RxJava 0.18 |-\|/-| 2014-04-25T05:40:13Z Merged pull request |-\|/-| 246 +102 −69 java gradle 7|-\|/-| 
+HystrixObservableCollapser |-\|/-| 2014-04-23T17:45:45Z Merged pull request |-\|/-| 245 +754 −7 java 1|-\|/-| 
+Fix for issue #241 (leaner error propagation in hystrix javanica) |-\|/-| 2014-04-15T17:13:33Z Merged pull request |-\|/-| 244 +82 −25 gradle java 3|-\|/-| 
+Update servo to 0.6 |-\|/-| 2014-04-15T04:55:57Z Merged pull request |-\|/-| 243 +26 −2 gradle java 2|-\|/-| 
+Fix for issue 241 (Cleaner error propagation in hystrix javanica) |-\|/-| 2014-04-15T04:56:27Z Merged pull request |-\|/-| 242 +82 −25 gradle java 3|-\|/-| 
+Add missing reset for CommandExecutionHook in HystrixPlugins.UnitTest#re... |-\|/-| 2014-04-15T04:57:18Z Merged pull request |-\|/-| 240 +19 −0 java 1|-\|/-| 
+Fix for Semaphore vs Thread Isolation Bug |-\|/-| 2014-04-01T03:48:57Z Merged pull request |-\|/-| 238 +389 −86 java 3|-\|/-| 
+Added support for Request Cache and Reactive Execution |-\|/-| 2014-04-01T03:51:11Z Merged pull request |-\|/-| 230 +1,868 −1,243 md java 3|-\|/-| 
+Added support for Request Cache and Reactive Execution |-\|/-| 2014-04-01T03:52:08Z Merged pull request |-\|/-| 229 +2,376 −1,141 md java 2|-\|/-| 
+Upgrade 1.3.x to RxJava 0.17.1 |-\|/-| 2014-03-22T15:47:59Z Merged pull request |-\|/-| 228 +302 −136 clj gradle java 4|-\|/-| 
+Added support for "Request Cache" feature, updated doc |-\|/-| 2014-03-18T12:44:09Z Closed pull request |-\|/-| 224 +301 −42 md java 6|-\|/-| 
+Future.cancel - Unit Test Fixes |-\|/-| 2014-03-13T19:43:34Z Merged pull request |-\|/-| 222 +17 −10 gradle java 3|-\|/-| 
+RxJava 0.17.1 |-\|/-| 2014-03-13T18:58:42Z Merged pull request |-\|/-| 221 +1 −1 gradle 1|-\|/-| 
+Restore HystrixContext* Constructors without ConcurrencyStrategy |-\|/-| 2014-03-11T05:15:15Z Merged pull request |-\|/-| 219 +17 −0 java 3|-\|/-| 
+Hystrix 1.4 - Async/Non-Blocking |-\|/-| 2014-03-11T05:00:34Z Merged pull request |-\|/-| 218 +20,127 −12,074 clj gradle java 3|-\|/-| 
+Added support for "Reactive Execution" and  "Error Propagation" |-\|/-| 2014-03-11T05:02:45Z Merged pull request |-\|/-| 217 +774 −163 java 9|-\|/-| 
+hystrix-javanica: initial commit |-\|/-| 2014-03-06T17:55:09Z Merged pull request |-\|/-| 216 +2,763 −0 md gradle java 3|-\|/-| 
+hystrix-javanica: initial commit |-\|/-| 2014-03-06T12:47:30Z Closed pull request |-\|/-| 215 +2,763 −0 md gradle java 3|-\|/-| 
+Context Wrapping |-\|/-| 2014-03-05T20:28:06Z Merged pull request |-\|/-| 214 +25 −1 gradle java 5|-\|/-| 
+BugFix: Timeout does not propagate request context |-\|/-| 2014-03-05T05:35:51Z Merged pull request |-\|/-| 213 +187 −25 java 8|-\|/-| 
+Update Javassist version to 3.18.1-GA |-\|/-| 2014-02-25T00:30:27Z Merged pull request |-\|/-| 211 +1 −1 gradle 1|-\|/-| 
+HystrixContextScheduler was not wrapping the Inner Scheduler |-\|/-| 2014-02-07T18:11:34Z Merged pull request |-\|/-| 210 +1 −1 java 1|-\|/-| 
+Hystrix 1.4 - Async/Non-Blocking [Preview] |-\|/-| 2014-03-11T05:00:34Z Merged pull request |-\|/-| 209 +20,097 −11,889 clj gradle java 3|-\|/-| 
+hystrix-contrib: hystrix-javanica (initial commit)  |-\|/-| 2014-03-05T05:38:52Z Closed pull request |-\|/-| 207 +1,504 −0 md gradle java 4|-\|/-| 
+Demonstrates and fixes Issue #205 |-\|/-| 2014-02-07T18:11:25Z Merged pull request |-\|/-| 206 +59 −0 java 1|-\|/-| 
+deploying hystrix dashboard on tomcat, SLF4J complains about a missing implementation |-\|/-| 2014-03-05T05:37:19Z Merged pull request |-\|/-| 204 +1 −1 gradle 1|-\|/-| 
+Made HystrixTimer initialization thread-safe |-\|/-| 2014-02-07T18:04:17Z Merged pull request |-\|/-| 203 +8 −2 java 1|-\|/-| 
+Add new module for publishing metrics to Coda Hale Metrics version 3 |-\|/-| 2014-03-05T05:39:26Z Merged pull request |-\|/-| 199 +568 −1 md gradle java 2|-\|/-| 
+Bugfix: Root cause is no longer replaced in exceptions (Issue #195) |-\|/-| 2014-02-07T18:03:55Z Closed pull request |-\|/-| 196 +24 −10 java 1|-\|/-| 
+Do not overwrite user thread duration in case of timeouts |-\|/-| 2013-11-05T22:44:22Z Merged pull request |-\|/-| 194 +11 −8 java 1|-\|/-| 
+Upgrade to metrics library v3.0.1 |-\|/-| 2014-03-05T05:40:05Z Closed pull request |-\|/-| 193 +572 −0 md gradle java 2|-\|/-| 
+BugFix: ConcurrencyStrategy.wrapCallable was not being used on callbacks |-\|/-| 2013-10-02T06:07:53Z Merged pull request |-\|/-| 190 +52 −15 java 3|-\|/-| 
+BugFix: Race condition between run() and timeout |-\|/-| 2013-10-02T06:08:09Z Merged pull request |-\|/-| 189 +25 −15 java 1|-\|/-| 
+BugFix: Observable.observeOn Scheduler Lost RequestContext |-\|/-| 2013-09-27T04:21:39Z Merged pull request |-\|/-| 185 +177 −3 java 4|-\|/-| 
+BugFix: queue() BadRequestException Handling on Cached Response |-\|/-| 2013-09-27T03:49:31Z Merged pull request |-\|/-| 184 +50 −5 java 1|-\|/-| 
+Bugfix to HystrixBadRequestException handling |-\|/-| 2013-09-27T02:43:37Z Merged pull request |-\|/-| 183 +2 −3 java 1|-\|/-| 
+Removing unused Legend component latent. Removed from html templates/css |-\|/-| 2013-09-27T02:41:17Z Merged pull request |-\|/-| 182 +4 −10 css html 4|-\|/-| 
+[hystrix-contrib/hystrix-clj] Making Command keys quantified by namespaces. |-\|/-| 2013-09-27T03:37:09Z Merged pull request |-\|/-| 181 +2 −2 clj 2|-\|/-| 
+RxJava 0.13 |-\|/-| 2013-09-12T06:29:18Z Merged pull request |-\|/-| 179 +28 −25 clj java 4|-\|/-| 
+Update Hystrix for breaking changes in RxJava 0.12 |-\|/-| 2013-09-12T06:29:19Z Merged pull request |-\|/-| 177 +121 −117 clj gradle 2|-\|/-| 
+Fix Exception vs Throwable typo |-\|/-| 2013-08-20T21:48:37Z Merged pull request |-\|/-| 173 +2 −2 java 1|-\|/-| 
+Adding `observe` to Clojure adapter. |-\|/-| 2013-08-12T15:51:20Z Closed pull request |-\|/-| 171 +26 −1 clj 2|-\|/-| 
+Add rx support to hystrix-clj. |-\|/-| 2013-08-12T19:10:41Z Merged pull request |-\|/-| 170 +115 −2 clj 2|-\|/-| 
+Add RxJava Observable example |-\|/-| 2013-08-03T06:01:16Z Merged pull request |-\|/-| 169 +66 −0 java 1|-\|/-| 
+Another Void response type unit test for collapser |-\|/-| 2013-08-02T20:26:22Z Merged pull request |-\|/-| 168 +18 −3 java 1|-\|/-| 
+More specific assertion on fireAndForget error |-\|/-| 2013-08-02T05:39:46Z Merged pull request |-\|/-| 165 +3 −2 java 1|-\|/-| 
+Support FireAndForget Collapsed Commands |-\|/-| 2013-08-02T05:12:16Z Merged pull request |-\|/-| 164 +184 −17 java 2|-\|/-| 
+Upgrade to RxJava 0.10.0 |-\|/-| 2013-08-01T19:44:48Z Merged pull request |-\|/-| 163 +202 −11 gradle java 3|-\|/-| 
+Fix regex so it includes more than one digit |-\|/-| 2013-07-30T23:22:44Z Merged pull request |-\|/-| 162 +7 −5 java 1|-\|/-| 
+Merge Gradle template |-\|/-| 2013-07-26T21:49:30Z Merged pull request |-\|/-| 159 +129 −102 gradle xml jar properties gradlew 11|-\|/-| 
+Expose current HystrixCommand to fns |-\|/-| 2013-07-26T19:40:47Z Merged pull request |-\|/-| 158 +48 −4 clj 2|-\|/-| 
+Improve hystrix-clj docs. |-\|/-| 2013-07-24T21:43:57Z Merged pull request |-\|/-| 156 +82 −12 clj 1|-\|/-| 
+Reset Hystrix after tests have run. |-\|/-| 2013-07-24T21:45:31Z Merged pull request |-\|/-| 155 +11 −1 clj 1|-\|/-| 
+escape meta-characters to fix dashboard |-\|/-| 2013-07-24T21:43:42Z Merged pull request |-\|/-| 152 +31 −28 js html 4|-\|/-| 
+Version 1.3 - RxJava Observable Integration |-\|/-| 2013-07-26T19:40:24Z Merged pull request |-\|/-| 151 +2,643 −1,686 properties gradle java 7|-\|/-| 
+Allow getFallback to query failure states |-\|/-| 2013-07-05T20:47:15Z Merged pull request |-\|/-| 149 +38 −4 java 1|-\|/-| 
+for your consideration, HystrixProxyFactory |-\|/-| 2014-03-05T05:42:30Z Closed pull request |-\|/-| 148 +250 −0 java 2|-\|/-| 
+Changed requestVariables in HystrixRequestContext to InheritableThreadLo... |-\|/-| 2013-07-24T21:44:06Z Closed pull request |-\|/-| 146 +5 −5 java 1|-\|/-| 
+Updates HystrixCommand to expose an isCommandTimedOut() method. |-\|/-| 2013-07-05T20:48:00Z Closed pull request |-\|/-| 144 +12 −3 java 1|-\|/-| 
+Change IDEA config to use COMPILE instead of PROVIDED |-\|/-| 2013-05-17T06:53:46Z Merged pull request |-\|/-| 142 +11 −10 gradle 9|-\|/-| 
+Update clojuresque and remove test shutdown hack. |-\|/-| 2013-05-17T06:54:03Z Merged pull request |-\|/-| 141 +1 −11 gradle clj 2|-\|/-| 
+Fixed incorrect thread pool rate calculations in dashboard |-\|/-| 2013-06-07T20:42:35Z Merged pull request |-\|/-| 139 +16 −9 js 1|-\|/-| 
+Add intellij idea and eclipse build config |-\|/-| 2013-04-17T06:07:00Z Merged pull request |-\|/-| 138 +110 −0 gradle 6|-\|/-| 
+Limit scope of CurrentThreadExecutingCommand |-\|/-| 2013-04-04T23:29:11Z Merged pull request |-\|/-| 137 +23 −18 java 1|-\|/-| 
+Fixed the mock stream |-\|/-| 2013-04-04T22:53:04Z Merged pull request |-\|/-| 136 +0 −0 stream 1|-\|/-| 
+Add `with-context` macro for conviently wrapping collapsers in thier own context |-\|/-| 2013-04-04T22:36:06Z Merged pull request |-\|/-| 135 +21 −16 clj 2|-\|/-| 
+Fix NoSuchElementException in Hystrix.endCurrentThreadExecutingCommand |-\|/-| 2013-03-31T06:15:55Z Merged pull request |-\|/-| 133 +20 −2 java 1|-\|/-| 
+Mechanism for Auditing Network Access Not Isolated by Hystrix |-\|/-| 2013-03-25T20:31:31Z Merged pull request |-\|/-| 130 +549 −21 md gradle java 4|-\|/-| 
+Implement destroy() method for graceful shutdown of MetricsStreamServlet |-\|/-| 2013-03-20T20:45:18Z Merged pull request |-\|/-| 128 +20 −1 java 1|-\|/-| 
+Fix NPE if Hystrix.reset() called when it's already shutdown |-\|/-| 2013-03-06T19:38:01Z Merged pull request |-\|/-| 126 +7 −1 java 1|-\|/-| 
+Concurrent execution counter |-\|/-| 2013-03-01T20:54:26Z Merged pull request |-\|/-| 121 +19 −13 java 2|-\|/-| 
+Fix for IllegalStateException on Thread Rejection with Response Caching |-\|/-| 2013-02-28T23:30:20Z Merged pull request |-\|/-| 120 +215 −22 java 1|-\|/-| 
+github.com/Netflix/Hystrix/issues/118 |-\|/-| 2013-02-28T21:06:21Z Merged pull request |-\|/-| 119 +164 −6 java 1|-\|/-| 
+HystrixCollapser Refactor for Performance and Concurrency Bug Fixes |-\|/-| 2013-02-27T17:50:44Z Merged pull request |-\|/-| 114 +443 −422 0|-\|/-| 
+More work on HystrixCollapser response not received bug |-\|/-| 2013-02-23T01:22:36Z Merged pull request |-\|/-| 112 +129 −20 java 1|-\|/-| 
+Hystrix.reset() now shuts down the HystrixTimer |-\|/-| 2013-02-22T22:22:26Z Merged pull request |-\|/-| 111 +84 −8 java 1|-\|/-| 
+Cleanup and :init-fn escape hatch |-\|/-| 2013-02-21T16:54:15Z Merged pull request |-\|/-| 110 +79 −24 clj 2|-\|/-| 
+stop using HystrixCollapser/reset-collapser |-\|/-| 2013-02-15T20:45:41Z Merged pull request |-\|/-| 108 +1 −9 clj 1|-\|/-| 
+Fix wiki links in README.md |-\|/-| 2013-02-15T17:15:35Z Merged pull request |-\|/-| 107 +3 −3 md 0|-\|/-| 
+HystrixThreadPool shutdown methods |-\|/-| 2013-02-15T20:49:47Z Merged pull request |-\|/-| 106 +161 −13 java 6|-\|/-| 
+IntelliJ IDEA and Eclipse build config |-\|/-| 2013-02-15T05:05:10Z Merged pull request |-\|/-| 105 +55 −9 gradle 4|-\|/-| 
+improve clarity of javadoc for HystrixCommand.queue() |-\|/-| 2013-02-14T01:08:20Z Merged pull request |-\|/-| 104 +6 −3 java 1|-\|/-| 
+Hystrix clj cleanup |-\|/-| 2013-02-11T17:53:17Z Merged pull request |-\|/-| 103 +21 −43 md gradle clj 3|-\|/-| 
+Experimental Clojure bindings for Hystrix |-\|/-| 2013-02-08T06:49:07Z Merged pull request |-\|/-| 99 +984 −0 md gradle clj 2|-\|/-| 
+Remove 'final' modifiers to allow mocking |-\|/-| 2013-02-05T20:37:41Z Merged pull request |-\|/-| 97 +23 −23 java 2|-\|/-| 
+RequestLog: Reduce Chance of Memory Leak |-\|/-| 2013-02-01T18:28:32Z Merged pull request |-\|/-| 95 +34 −2 java 1|-\|/-| 
+Force character encoding for event stream to utf-8 |-\|/-| 2013-02-01T17:27:05Z Merged pull request |-\|/-| 94 +1 −1 java 1|-\|/-| 
+issue #60 Dashboard: Hover for full name (when shortened with ellipsis) |-\|/-| 2013-01-29T18:20:55Z Merged pull request |-\|/-| 93 +7 −3 html 2|-\|/-| 
+handle null circuit breaker |-\|/-| 2013-01-24T21:58:49Z Merged pull request |-\|/-| 91 +6 −1 java 1|-\|/-| 
+hystrix.stream holds connection open if no metrics |-\|/-| 2013-01-09T23:43:03Z Merged pull request |-\|/-| 86 +22 −13 java 1|-\|/-| 
+Junit and eclipse |-\|/-| 2013-01-09T05:34:43Z Merged pull request |-\|/-| 84 +92 −64 gradle 8|-\|/-| 
+ThreadPool stream should include reportingHosts |-\|/-| 2013-01-09T03:28:34Z Merged pull request |-\|/-| 83 +2 −0 java 1|-\|/-| 
+IllegalStateException: Future Not Started |-\|/-| 2013-01-08T19:13:05Z Merged pull request |-\|/-| 81 +16 −1 java 1|-\|/-| 
+Include more info when collapsed requests remain in queue |-\|/-| 2013-01-08T18:53:12Z Merged pull request |-\|/-| 79 +4 −0 java 1|-\|/-| 
+Fix proxy stream flush bug |-\|/-| 2013-01-07T23:58:47Z Merged pull request |-\|/-| 77 +5 −2 java 1|-\|/-| 
+New Properties (fallbacks and rolling percentile) |-\|/-| 2013-01-07T22:55:22Z Merged pull request |-\|/-| 76 +182 −46 java 3|-\|/-| 
+Make servlet-api a provided dependency |-\|/-| 2013-01-07T17:18:22Z Merged pull request |-\|/-| 73 +1 −1 gradle 1|-\|/-| 
+Execution hooks |-\|/-| 2013-01-07T19:18:15Z Merged pull request |-\|/-| 71 +1,264 −117 java 6|-\|/-| 
+Unit tests |-\|/-| 2013-01-02T18:43:43Z Merged pull request |-\|/-| 67 +221 −8 0|-\|/-| 
+Making provided scope transtive |-\|/-| 2013-01-02T18:22:15Z Merged pull request |-\|/-| 66 +2 −2 gradle 1|-\|/-| 
+Fixed gitignore definition of build output directories |-\|/-| 2013-01-01T18:00:33Z Merged pull request |-\|/-| 65 +1 −4 gitignore 1|-\|/-| 
+Added "throws Exception" to HystrixCommand run() method (Issue #63) |-\|/-| 2012-12-29T01:54:55Z Merged pull request |-\|/-| 64 +2 −1 java 1|-\|/-| 
+applying js fixes to threadPool ui |-\|/-| 2012-12-21T22:15:34Z Merged pull request |-\|/-| 62 +12 −5 html js 3|-\|/-| 
+Request log with timeouts |-\|/-| 2012-12-21T22:15:15Z Merged pull request |-\|/-| 61 +82 −66 java 2|-\|/-| 
+Dashboard js fix |-\|/-| 2012-12-21T17:59:39Z Merged pull request |-\|/-| 57 +6 −0 js html 2|-\|/-| 
+Plugin bootstrapping |-\|/-| 2012-12-18T20:36:35Z Merged pull request |-\|/-| 56 +344 −96 java 1|-\|/-| 
+Fixes for NEBULA-28, NEBULA-30, NEBULA-31 |-\|/-| 2012-12-15T03:11:07Z Merged pull request |-\|/-| 52 +17 −15 gitignore gradle 3|-\|/-| 
+Merging in gradle-template, specifically provided |-\|/-| 2012-12-14T21:22:04Z Merged pull request |-\|/-| 51 +21 −23 gradle 5|-\|/-| 
+Make javax.servlet-api a 'provided' dependency not 'compile' |-\|/-| 2012-12-14T19:17:54Z Merged pull request |-\|/-| 50 +2 −2 gradle 2|-\|/-| 
+Cleaner design by injecting listener into constructor. |-\|/-| 2012-12-13T20:52:52Z Merged pull request |-\|/-| 49 +21 −22 java 2|-\|/-| 
+Fixing non-deterministic unit test |-\|/-| 2012-12-13T00:13:47Z Merged pull request |-\|/-| 48 +1 −1 java 1|-\|/-| 
+Support pausing/resuming metrics poller |-\|/-| 2012-12-13T00:07:22Z Merged pull request |-\|/-| 47 +142 −11 java 2|-\|/-| 
+Hystrix Dashboard |-\|/-| 2012-12-11T16:21:46Z Merged pull request |-\|/-| 44 +3,342 −567 java 2|-\|/-| 
+Fix the wrong percentile for latencyExecute_percentile_75 in the Servo publisher |-\|/-| 2012-12-10T21:21:33Z Merged pull request |-\|/-| 43 +1 −1 java 1|-\|/-| 
+Added module to publish metrics to Yammer Metrics |-\|/-| 2012-12-10T21:42:11Z Merged pull request |-\|/-| 42 +532 −1 gradle java 3|-\|/-| 
+Migrate metrics stream from org.json.JSONObject to Jackson |-\|/-| 2012-12-05T18:09:34Z Merged pull request |-\|/-| 37 +139 −1,164 gradle java 6|-\|/-| 
+example webapp showing how to use ... |-\|/-| 2012-12-05T07:45:03Z Merged pull request |-\|/-| 36 +158 −16 gradle properties xml jsp java 6|-\|/-| 
+Metrics event stream |-\|/-| 2012-12-05T06:15:46Z Merged pull request |-\|/-| 35 +1,220 −265 properties gradle java 3|-\|/-| 
+Remove Servo dependency from core, move to submodule |-\|/-| 2012-12-04T05:40:59Z Merged pull request |-\|/-| 33 +678 −566 gradle java 3|-\|/-| 
+servo-event-stream module |-\|/-| 2012-12-04T05:07:41Z Merged pull request |-\|/-| 32 +988 −1 gradle java 4|-\|/-| 
+Executable demo |-\|/-| 2012-11-30T20:54:50Z Merged pull request |-\|/-| 31 +932 −3 java gradle 4|-\|/-| 
+Simplified access to HystrixCommandMetrics |-\|/-| 2012-11-30T20:07:40Z Merged pull request |-\|/-| 30 +12 −1 java 1|-\|/-| 
+Thread pools lost custom names in opensource refactoring |-\|/-| 2012-11-30T19:01:28Z Merged pull request |-\|/-| 29 +12 −2 java 1|-\|/-| 
+Initialize HealthCounts to non-null value. |-\|/-| 2012-11-30T05:26:56Z Merged pull request |-\|/-| 27 +6 −4 java 2|-\|/-| 
+Default Collapser scope to REQUEST if using Setter |-\|/-| 2012-11-29T04:34:15Z Merged pull request |-\|/-| 23 +1 −1 java 1|-\|/-| 
+Capture exception from run() and expose getter |-\|/-| 2012-11-29T04:09:27Z Merged pull request |-\|/-| 21 +48 −15 java 1|-\|/-| 
+Logger error on fallback failure |-\|/-| 2012-11-28T22:44:51Z Merged pull request |-\|/-| 19 +6 −25 java 2|-\|/-| 
+Documenting a RuntimeException |-\|/-| 2012-11-28T22:45:17Z Merged pull request |-\|/-| 18 +22 −5 java 1|-\|/-| 
+href target so it opens from javadoc frame |-\|/-| 2012-11-27T23:02:18Z Merged pull request |-\|/-| 17 +1 −1 java 1|-\|/-| 
+Change logger from info to debug for property changes |-\|/-| 2012-11-27T21:50:04Z Merged pull request |-\|/-| 16 +5 −5 java 1|-\|/-| 
+Add link from Javadoc to hystrix-contrib/hystrix-request-servlet |-\|/-| 2012-11-27T04:03:09Z Merged pull request |-\|/-| 7 +9 −8 java 1|-\|/-| 
+Update Readme Files for Modules |-\|/-| 2012-11-25T06:22:07Z Merged pull request |-\|/-| 6 +77 −0 md 0|-\|/-| 
+Maven Central and binary download information. |-\|/-| 2012-11-24T22:47:46Z Merged pull request |-\|/-| 5 +63 −17 md 0|-\|/-| 
+Contrib request context servlet filters |-\|/-| 2012-11-24T07:59:33Z Merged pull request |-\|/-| 4 +328 −1 gitignore md gradle java 6|-\|/-| 
+Javadoc generation with custom doclet |-\|/-| 2012-11-22T04:54:14Z Merged pull request |-\|/-| 3 +80 −7 gradle jar css 4|-\|/-| 
+Design change to MetricsPublisher |-\|/-| 2012-11-24T08:01:20Z Closed pull request |-\|/-| 2 +564 −562 java 2|-\|/-| 
+Javadocs and Comments |-\|/-| 2012-11-22T02:53:44Z Merged pull request |-\|/-| 1 +2 −4 java 2|-\|/-| 

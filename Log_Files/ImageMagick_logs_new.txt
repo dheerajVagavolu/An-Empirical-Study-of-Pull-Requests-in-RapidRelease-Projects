@@ -1,0 +1,217 @@
+Fix word repetition in local.md |-\|/-| 2020-01-12T08:39:21Z Merged pull request |-\|/-| 1827 +1 −1 md 0|-\|/-| 
+Fix the format string |-\|/-| 2019-12-28T18:53:53Z Merged pull request |-\|/-| 1818 +1 −1 c 1|-\|/-| 
+Fix bugs (ping/dispose_method/position) in webp coder |-\|/-| 2019-12-21T07:57:23Z Merged pull request |-\|/-| 1810 +73 −20 c 1|-\|/-| 
+Make integer types consistent -- on 32-bit MagickOffsetType is still 64-bits wide, but ssize_t isn't |-\|/-| 2019-11-24T21:25:12Z Merged pull request |-\|/-| 1788 +1 −1 c 1|-\|/-| 
+Rewrite conditional to avoid the possibility of integer overflow |-\|/-| 2019-11-17T15:29:05Z Merged pull request |-\|/-| 1782 +1 −1 c 1|-\|/-| 
+Attempt to fix types in webp decoder to protect against overflow |-\|/-| 2019-11-04T19:51:32Z Merged pull request |-\|/-| 1773 +2 −2 c 1|-\|/-| 
+Add OSS-Fuzz fuzzing badge |-\|/-| 2019-10-15T18:51:52Z Closed pull request |-\|/-| 1728 +1 −1 md 0|-\|/-| 
+fixed a syntax error |-\|/-| 2019-09-30T11:41:01Z Merged pull request |-\|/-| 1709 +1 −1 c 1|-\|/-| 
+Animated WebP encoding/decoding |-\|/-| 2019-09-30T11:08:27Z Closed pull request |-\|/-| 1708 +406 −187 0|-\|/-| 
+Don't link the fuzzing engine while compiling encoder_list |-\|/-| 2019-09-29T14:33:36Z Merged pull request |-\|/-| 1707 +5 −3 sh 3|-\|/-| 
+Don't build libheif's go code for the fuzzers -- it doesn't play well… |-\|/-| 2019-09-29T13:51:52Z Merged pull request |-\|/-| 1706 +1 −1 sh 1|-\|/-| 
+Update the way the fuzzing engine is linked for changes in oss-fuzz |-\|/-| 2019-09-29T11:52:22Z Merged pull request |-\|/-| 1705 +1 −1 sh 1|-\|/-| 
+Added support for DWAA/B EXR compression methods |-\|/-| 2019-08-08T13:47:20Z Merged pull request |-\|/-| 1661 +23 −1 h c 4|-\|/-| 
+Attempt to fix oss-fuzz build by linking libz after libraw |-\|/-| 2019-08-06T22:55:07Z Merged pull request |-\|/-| 1658 +1 −1 sh 1|-\|/-| 
+set default colorspace, fixes #1655 |-\|/-| 2019-08-03T15:37:45Z Merged pull request |-\|/-| 1656 +1 −1 h 1|-\|/-| 
+Use specific version of MagickCore in MagickWand.pc (closes #1637) |-\|/-| 2019-07-16T10:17:20Z Merged pull request |-\|/-| 1638 +1 −1 in 1|-\|/-| 
+fix line through z-index issue |-\|/-| 2019-07-09T23:44:33Z Merged pull request |-\|/-| 1630 +6 −8 c 1|-\|/-| 
+fix font decorate position, thickness issue |-\|/-| 2019-06-29T11:24:28Z Merged pull request |-\|/-| 1619 +33 −20 c 1|-\|/-| 
+Add log format special char %i (thread-id) to "human readable" mode |-\|/-| 2019-05-31T18:24:40Z Merged pull request |-\|/-| 1583 +6 −0 c 1|-\|/-| 
+Correct spelling and remove needless character |-\|/-| 2019-05-30T19:56:26Z Merged pull request |-\|/-| 1582 +3 −3 c ac 2|-\|/-| 
+Implementation of a TIM2 coder |-\|/-| 2019-07-13T13:25:39Z Merged pull request |-\|/-| 1571 +794 −1 h com am 5|-\|/-| 
+Fix rubber banding artifacts in the XSelectWindow function. #1460  |-\|/-| 2019-04-29T18:41:01Z Merged pull request |-\|/-| 1563 +2 −0 c 1|-\|/-| 
+Added MagickLevelizeImage to MagickWand C-API |-\|/-| 2019-04-15T11:56:28Z Merged pull request |-\|/-| 1545 +50 −0 c h 2|-\|/-| 
+initialise ghostscript instances with NULL |-\|/-| 2019-04-06T22:06:20Z Closed pull request |-\|/-| 1538 +2 −2 c 2|-\|/-| 
+Fix: check file fopen_utf8() |-\|/-| 2019-04-06T16:37:46Z Merged pull request |-\|/-| 1536 +3 −2 c 1|-\|/-| 
+Honour SOURCE_DATE_EPOCH |-\|/-| 2019-04-15T18:31:17Z Closed pull request |-\|/-| 1496 +117 −37 c h 11|-\|/-| 
+fit the coding style around. (bmp) |-\|/-| 2019-02-13T05:57:14Z Merged pull request |-\|/-| 1480 +17 −18 c 1|-\|/-| 
+change from WEBP_DECODER_ABI_VERSION to WEBP_ENCODER_ABI_VERSION, because we need encoder feature switch. |-\|/-| 2019-02-10T13:42:16Z Merged pull request |-\|/-| 1476 +9 −9 c 1|-\|/-| 
+support to read BMP embeded ICC profile. |-\|/-| 2019-02-09T13:15:02Z Merged pull request |-\|/-| 1474 +48 −2 c 1|-\|/-| 
+supporting to ICC profile embeded BMP writing. |-\|/-| 2019-02-03T00:44:31Z Closed pull request |-\|/-| 1467 +32 −3 c 1|-\|/-| 
+add exif and xmp metadata support to heic encoder |-\|/-| 2019-01-19T14:42:18Z Merged pull request |-\|/-| 1456 +167 −0 c 1|-\|/-| 
+Typo and broken link |-\|/-| 2019-01-12T20:54:18Z Merged pull request |-\|/-| 1447 +4 −4 md 0|-\|/-| 
+Fix wrong heic width and height when heic:preserve-orientation=true |-\|/-| 2019-01-08T01:00:54Z Closed pull request |-\|/-| 1441 +11 −14 c 1|-\|/-| 
+ignore_transformations when `heic:preserve-orientation=true` |-\|/-| 2019-01-03T11:08:50Z Merged pull request |-\|/-| 1436 +15 −66 c 1|-\|/-| 
+Fix associated alpha handling |-\|/-| 2018-12-17T16:19:42Z Merged pull request |-\|/-| 1424 +1 −1 c 1|-\|/-| 
+Fix heic exif extraction bug where we are seeing 4 unwanted bytes before EXIF magic number |-\|/-| 2018-11-27T20:11:07Z Closed pull request |-\|/-| 1397 +9 −1 c 1|-\|/-| 
+Support for GIMP 2.10 files |-\|/-| 2018-11-13T16:44:04Z Merged pull request |-\|/-| 1381 +154 −53 c 1|-\|/-| 
+Add missing `$` to MAGICK_EXTRA_DEP_LIBS |-\|/-| 2018-10-29T20:00:16Z Merged pull request |-\|/-| 1371 +2 −2 configure ac 2|-\|/-| 
+Revert "cleanup identical conditions (#1339)" |-\|/-| 2018-11-08T23:08:54Z Closed pull request |-\|/-| 1359 +42 −30 c 5|-\|/-| 
+delegates.xml: added missing quality flag for WebP encode |-\|/-| 2018-10-17T09:39:16Z Merged pull request |-\|/-| 1355 +2 −2 c xml 2|-\|/-| 
+TIFF decoder: fix ASsoc/Disassoc setting mismatch |-\|/-| 2018-10-12T23:03:12Z Merged pull request |-\|/-| 1349 +6 −3 c 1|-\|/-| 
+Revert "cleanup identical conditions" |-\|/-| 2018-10-07T12:12:29Z Merged pull request |-\|/-| 1340 +42 −30 c 5|-\|/-| 
+cleanup identical conditions |-\|/-| 2018-10-07T12:02:46Z Merged pull request |-\|/-| 1339 +30 −42 c 5|-\|/-| 
+add EXIF 2.31 Tags |-\|/-| 2018-10-06T13:30:41Z Merged pull request |-\|/-| 1338 +37 −11 c 1|-\|/-| 
+MagickCore/layer.c: resolve null pointer dereference |-\|/-| 2018-10-06T13:36:48Z Closed pull request |-\|/-| 1329 +2 −1 c 1|-\|/-| 
+Magick++/lib/Options.cpp: remove redundant assignment |-\|/-| 2018-10-06T13:38:39Z Merged pull request |-\|/-| 1328 +6 −25 cpp 1|-\|/-| 
+MagickCore/property.c: resolve null pointer dereference |-\|/-| 2018-09-22T22:51:20Z Closed pull request |-\|/-| 1326 +1 −1 c 1|-\|/-| 
+MagickCore/fx.c: resolve possible null pointer dereference |-\|/-| 2018-09-21T22:24:53Z Closed pull request |-\|/-| 1325 +1 −0 c 1|-\|/-| 
+simplify boolean expression, found by PVS analyzer |-\|/-| 2018-09-22T22:57:34Z Merged pull request |-\|/-| 1318 +2 −3 cpp 2|-\|/-| 
+MagickCore/fx.c: revolve null pointer dereference |-\|/-| 2018-09-16T15:10:17Z Closed pull request |-\|/-| 1317 +3 −2 c 1|-\|/-| 
+MagickWand/operation.c: resolve possible null pointer dereference |-\|/-| 2018-09-16T11:41:59Z Closed pull request |-\|/-| 1316 +2 −1 c 1|-\|/-| 
+MagickCore/attribute.c: remove redundant check |-\|/-| 2018-09-15T18:50:03Z Merged pull request |-\|/-| 1313 +1 −2 c 1|-\|/-| 
+coders/xpm.c: remove unused check |-\|/-| 2018-09-14T18:37:40Z Merged pull request |-\|/-| 1312 +1 −4 c 1|-\|/-| 
+MagickCore/pixel-accessor.h: resolve null pointer dereference |-\|/-| 2018-09-14T12:57:38Z Merged pull request |-\|/-| 1311 +20 −20 h 1|-\|/-| 
+coders/pgx.c: remove unused code |-\|/-| 2018-09-14T07:11:55Z Merged pull request |-\|/-| 1308 +0 −2 c 1|-\|/-| 
+coders/cut.c: remove unused code |-\|/-| 2018-09-12T13:44:02Z Merged pull request |-\|/-| 1304 +1 −5 c 1|-\|/-| 
+MagickCore/annotate.c: remove unneeded check |-\|/-| 2018-09-12T11:32:05Z Merged pull request |-\|/-| 1303 +1 −1 c 1|-\|/-| 
+coders/cut.c: remove unused code |-\|/-| 2018-09-10T04:38:05Z Merged pull request |-\|/-| 1299 +0 −2 c 1|-\|/-| 
+Add R's magick package to the list |-\|/-| 2018-09-04T21:30:35Z Merged pull request |-\|/-| 1294 +1 −1 md 0|-\|/-| 
+MagickCore/xwindow.c: remove not needed check |-\|/-| 2018-09-08T13:56:50Z Merged pull request |-\|/-| 1292 +8 −11 c 1|-\|/-| 
+MagickCore/montage.c: resolve null pointer dereference |-\|/-| 2018-09-02T11:45:16Z Closed pull request |-\|/-| 1291 +2 −2 c 1|-\|/-| 
+travis-ci: supress build log if build was successful |-\|/-| 2019-08-11T08:23:27Z Closed pull request |-\|/-| 1290 +2 −3 yml 1|-\|/-| 
+MagickWand/drawing-wand.c: resolve several null pointer dereferences |-\|/-| 2018-09-02T10:39:42Z Merged pull request |-\|/-| 1289 +3 −3 c 1|-\|/-| 
+remove redundant assignments |-\|/-| 2018-09-02T12:54:14Z Closed pull request |-\|/-| 1288 +0 −0 0|-\|/-| 
+MagickCore/draw.c: check against null is not needed here |-\|/-| 2018-09-01T17:53:08Z Merged pull request |-\|/-| 1287 +0 −2 c 1|-\|/-| 
+resolve several null pointer dereferences |-\|/-| 2018-08-30T10:30:12Z Merged pull request |-\|/-| 1284 +9 −12 c 5|-\|/-| 
+MagickCore/constitute.c: resolve possible null pointer dereference |-\|/-| 2018-08-30T09:08:18Z Merged pull request |-\|/-| 1282 +1 −1 c 1|-\|/-| 
+use the gcc_archflag for $CXXFLAGS |-\|/-| 2019-08-11T08:24:06Z Closed pull request |-\|/-| 1278 +7 −1 yml configure ac 3|-\|/-| 
+travis: test on ppc64le, gcc-8 and a few more library dependencies |-\|/-| 2019-08-11T08:22:44Z Closed pull request |-\|/-| 1271 +120 −67 yml in configure m4 4|-\|/-| 
+Make png creation reproducible |-\|/-| 2018-08-31T17:53:30Z Closed pull request |-\|/-| 1270 +9 −6 c 1|-\|/-| 
+Fix compiler warning about unused variable |-\|/-| 2018-09-15T19:03:29Z Closed pull request |-\|/-| 1254 +4 −0 c 1|-\|/-| 
+Fix compiler warning about unused function. |-\|/-| 2018-08-28T19:40:28Z Merged pull request |-\|/-| 1253 +2 −0 c 1|-\|/-| 
+Fix compiler warning about unused variable |-\|/-| 2018-08-19T21:51:47Z Closed pull request |-\|/-| 1252 +0 −6 c 1|-\|/-| 
+Update ChangeLog |-\|/-| 2018-08-13T10:46:55Z Merged pull request |-\|/-| 1246 +1 −1 ChangeLog 1|-\|/-| 
+fix WriteHEICImage bug in HEIC encoder |-\|/-| 2018-08-07T00:26:29Z Merged pull request |-\|/-| 1238 +0 −3 c 1|-\|/-| 
+Align pixel orientation with exif:Orientation in HEIC decoder |-\|/-| 2018-09-03T18:33:16Z Merged pull request |-\|/-| 1233 +68 −0 c 1|-\|/-| 
+adding to image option "gif:frames-limit" |-\|/-| 2018-07-11T14:09:42Z Closed pull request |-\|/-| 1181 +24 −0 c 1|-\|/-| 
+[DO NOT MERGE YET] Add More Pixel Art Upscaling Algorithms |-\|/-| 2019-07-13T13:45:54Z Merged pull request |-\|/-| 1152 +792 −78 0|-\|/-| 
+Fix pdf:page-direction flag |-\|/-| 2018-05-26T08:06:53Z Merged pull request |-\|/-| 1142 +1 −1 c 1|-\|/-| 
+Properly set the compressed data size when encoding JPEG compressed PICT files |-\|/-| 2018-05-26T08:30:12Z Merged pull request |-\|/-| 1137 +3 −2 c 1|-\|/-| 
+XML delegate conditional automatic link for static library |-\|/-| 2018-05-14T08:20:28Z Merged pull request |-\|/-| 1130 +6 −2 h 1|-\|/-| 
+Fixed building fuzzers |-\|/-| 2018-05-11T21:24:19Z Merged pull request |-\|/-| 1129 +1 −1 sh 1|-\|/-| 
+Fixed memory leak in heif |-\|/-| 2018-04-27T20:46:46Z Merged pull request |-\|/-| 1115 +4 −1 c 1|-\|/-| 
+build against libheif |-\|/-| 2018-04-27T20:06:10Z Merged pull request |-\|/-| 1114 +9 −1 sh 1|-\|/-| 
+fix oss-fuzz build with libtiff |-\|/-| 2018-04-23T12:56:20Z Merged pull request |-\|/-| 1106 +3 −2 sh 1|-\|/-| 
+reorder build to make tiff happy |-\|/-| 2018-04-23T12:25:09Z Closed pull request |-\|/-| 1103 +14 −14 sh 1|-\|/-| 
+Add support for dicts for fuzzers, and added a dict for mvg |-\|/-| 2018-04-22T08:50:57Z Merged pull request |-\|/-| 1102 +151 −0 sh dict 2|-\|/-| 
+added HEIF writer and replaced HEIF reader with a more complete HEIF implementation |-\|/-| 2018-04-27T08:26:22Z Merged pull request |-\|/-| 1099 +466 −1,203 am 1|-\|/-| 
+add lcms to the delegate list for oss-fuzz |-\|/-| 2018-04-16T08:33:03Z Merged pull request |-\|/-| 1094 +9 −1 sh 1|-\|/-| 
+add libpng to oss-fuzz + make libtiff use more libs |-\|/-| 2018-04-08T09:20:48Z Merged pull request |-\|/-| 1087 +15 −5 sh cc 2|-\|/-| 
+Fixed memory leak in ReadJP2Image. |-\|/-| 2018-04-05T09:38:42Z Merged pull request |-\|/-| 1086 +4 −1 c 1|-\|/-| 
+Update AppRun |-\|/-| 2018-04-02T09:20:03Z Merged pull request |-\|/-| 1081 +1 −1 AppRun 1|-\|/-| 
+Update AppRun for AppImage (fixes warnings about 'UnableToOpenConfigureFile') |-\|/-| 2018-04-02T05:27:52Z Merged pull request |-\|/-| 1079 +6 −3 AppRun 1|-\|/-| 
+add xz and libraw, change build process for freetype |-\|/-| 2018-04-02T05:27:37Z Merged pull request |-\|/-| 1078 +19 −5 sh 1|-\|/-| 
+temporarily remove bzip2 from the oss-fuzz builds |-\|/-| 2018-03-31T20:22:11Z Merged pull request |-\|/-| 1077 +1 −10 sh 1|-\|/-| 
+use the --with-utilities=no flag with oss-fuzz |-\|/-| 2018-03-31T16:34:51Z Merged pull request |-\|/-| 1076 +1 −1 sh 1|-\|/-| 
+add configure support for disabling utilities with --with-utilities=no |-\|/-| 2018-03-31T16:25:52Z Merged pull request |-\|/-| 1075 +20 −3 ac am 2|-\|/-| 
+add openjp2, webp, zlib, bzip2, freetype, and libjpeg-turbo to the delegate list for oss-fuzz |-\|/-| 2018-03-30T09:17:04Z Merged pull request |-\|/-| 1057 +50 −1 sh 1|-\|/-| 
+temporary workaround to fix ubsan oss-fuzz |-\|/-| 2018-03-30T09:16:35Z Merged pull request |-\|/-| 1056 +1 −1 sh 1|-\|/-| 
+add libtiff and libde265 to the oss-fuzz build scripts |-\|/-| 2018-03-23T09:06:51Z Merged pull request |-\|/-| 1033 +20 −3 sh 1|-\|/-| 
+close stdout/stderr on the fuzzers to reduce noise in oss-fuzz logs |-\|/-| 2018-02-25T09:53:47Z Merged pull request |-\|/-| 1002 +4 −1 sh 1|-\|/-| 
+Revert "Revert "Fix previous image references in OptimizeImageLayers … |-\|/-| 2018-02-22T14:46:41Z Merged pull request |-\|/-| 993 +3 −6 c 1|-\|/-| 
+Assert image page dimension in OptimizeLayerFrames |-\|/-| 2018-02-19T20:03:01Z Merged pull request |-\|/-| 990 +8 −4 c xml 2|-\|/-| 
+Fix undefined behavior when calling isdigit in property.c |-\|/-| 2018-02-18T23:48:47Z Merged pull request |-\|/-| 989 +1 −1 c 1|-\|/-| 
+Fix undefined behavior when calling isdigit |-\|/-| 2018-02-18T16:52:43Z Merged pull request |-\|/-| 988 +1 −1 c 1|-\|/-| 
+Do not refer to page in OptimizeLayerFrames |-\|/-| 2018-02-19T20:02:48Z Merged pull request |-\|/-| 987 +7 −8 c 1|-\|/-| 
+Fixed bit operations for flags. |-\|/-| 2018-02-16T03:31:37Z Closed pull request |-\|/-| 986 +4 −4 c 1|-\|/-| 
+Revert "Fix previous image references in OptimizeImageLayers" |-\|/-| 2018-02-13T15:02:58Z Merged pull request |-\|/-| 984 +6 −3 c 1|-\|/-| 
+Fix previous image references in OptimizeImageLayers |-\|/-| 2018-02-13T14:57:08Z Merged pull request |-\|/-| 983 +3 −6 c 1|-\|/-| 
+Backport JSON fix to v6 branch |-\|/-| 2018-02-09T20:04:45Z Merged pull request |-\|/-| 981 +1 −1 c 1|-\|/-| 
+Fix originGeometry JSON value generation |-\|/-| 2018-02-09T19:54:11Z Merged pull request |-\|/-| 980 +1 −1 c 1|-\|/-| 
+Fixed AVCC to AnnexB conversion in HEIC |-\|/-| 2018-02-08T21:27:43Z Merged pull request |-\|/-| 969 +12 −5 c 1|-\|/-| 
+Apply a missing fix for DSA-4074-1 |-\|/-| 2018-01-31T05:19:08Z Merged pull request |-\|/-| 965 +1 −0 cpp 1|-\|/-| 
+Ensure we initialize a string correctly |-\|/-| 2018-01-29T13:05:43Z Merged pull request |-\|/-| 963 +1 −1 cc 1|-\|/-| 
+add attribute to get in perl doc |-\|/-| 2018-01-30T11:49:05Z Merged pull request |-\|/-| 959 +6 −0 html 1|-\|/-| 
+Handle the null encoder properly in the encoder fuzz |-\|/-| 2018-01-19T14:41:45Z Merged pull request |-\|/-| 951 +10 −3 cc 1|-\|/-| 
+build the fuzzers in travis |-\|/-| 2018-01-16T18:47:14Z Merged pull request |-\|/-| 946 +68 −17 yml sh cc 8|-\|/-| 
+Fixes for the encoder fuzzer so it runs properly |-\|/-| 2018-01-14T19:14:57Z Merged pull request |-\|/-| 943 +4 −3 cc 1|-\|/-| 
+fix memory leaks |-\|/-| 2018-01-11T08:01:30Z Merged pull request |-\|/-| 940 +2 −0 cc 1|-\|/-| 
+Fuzzing fix: make this constructor public so others can use it |-\|/-| 2018-01-10T22:53:15Z Merged pull request |-\|/-| 938 +1 −0 cc 1|-\|/-| 
+[fuzz] Use a static initializer to set the memory limit so it only happens once per process |-\|/-| 2018-01-10T13:29:24Z Merged pull request |-\|/-| 936 +28 −4 cc 6|-\|/-| 
+add fuzzers from oss-fuzz |-\|/-| 2018-01-08T22:06:16Z Merged pull request |-\|/-| 934 +121 −0 cc 6|-\|/-| 
+Revert "Find ImageMagick modules by native shared library suffix" |-\|/-| 2017-12-16T18:42:40Z Closed pull request |-\|/-| 900 +3 −4 c ac 2|-\|/-| 
+Find ImageMagick modules by native shared library suffix |-\|/-| 2017-12-16T18:01:04Z Merged pull request |-\|/-| 895 +4 −3 c ac 2|-\|/-| 
+fix ; same variable i is used in nexted loop |-\|/-| 2017-11-17T12:54:08Z Merged pull request |-\|/-| 866 +3 −2 c 2|-\|/-| 
+Generate AppImage on Travis CI |-\|/-| 2017-11-12T18:11:46Z Merged pull request |-\|/-| 858 +57 −8 yml AppRun desktop 3|-\|/-| 
+Fix iOS URL |-\|/-| 2017-10-28T13:28:38Z Merged pull request |-\|/-| 847 +1 −1 md 0|-\|/-| 
+Added missing comma to data json for delay key |-\|/-| 2017-10-12T23:57:47Z Merged pull request |-\|/-| 836 +1 −1 c 1|-\|/-| 
+Reset magick_list_initialized when needed |-\|/-| 2017-10-03T18:22:47Z Merged pull request |-\|/-| 827 +4 −1 c 1|-\|/-| 
+Reset magick_list_initialized when needed |-\|/-| 2017-10-03T18:22:13Z Merged pull request |-\|/-| 826 +4 −1 c 1|-\|/-| 
+Fix RFG > RGF typo in format docs |-\|/-| 2017-10-01T06:25:27Z Closed pull request |-\|/-| 822 +2 −2 html 2|-\|/-| 
+fix multiple null pointer  |-\|/-| 2017-09-29T08:50:01Z Merged pull request |-\|/-| 788 +26 −0 c 7|-\|/-| 
+fix multiple null pointer |-\|/-| 2017-09-28T19:11:14Z Merged pull request |-\|/-| 787 +14 −0 c 7|-\|/-| 
+[fonts] Update font paths & names for (URW)++ fonts (a.k.a. ghostscript fonts) |-\|/-| 2017-10-02T09:28:02Z Closed pull request |-\|/-| 784 +38 −38 in configure ac 3|-\|/-| 
+Vitaly/orn 253 |-\|/-| 2017-09-19T17:00:36Z Closed pull request |-\|/-| 769 +22,549 −84 gitignore xcconfig 6|-\|/-| 
+fix memory leak |-\|/-| 2017-09-16T13:29:10Z Merged pull request |-\|/-| 763 +141 −26 c 13|-\|/-| 
+fix memory leak in tim.c |-\|/-| 2017-09-15T09:43:25Z Closed pull request |-\|/-| 762 +4 −1 c 1|-\|/-| 
+fix multiple memory leak in ReadTIMImage |-\|/-| 2017-09-15T08:30:03Z Closed pull request |-\|/-| 757 +10 −2 c 2|-\|/-| 
+fix multiple memory leak in ReadYUVImage |-\|/-| 2017-09-14T14:29:22Z Merged pull request |-\|/-| 756 +12 −2 c 1|-\|/-| 
+fix multiple memory leak in ReadYUVImage |-\|/-| 2017-09-14T13:47:51Z Closed pull request |-\|/-| 755 +12 −2 c 1|-\|/-| 
+fix multiple memory leak in ReadYUVImage |-\|/-| 2017-09-14T12:42:18Z Closed pull request |-\|/-| 754 +91 −20 c 2|-\|/-| 
+fix memory leak in ReadYCBCRImage as SetImageExtent failure |-\|/-| 2017-09-13T14:36:54Z Merged pull request |-\|/-| 752 +4 −0 c 1|-\|/-| 
+bugfix: (thread-safty) the id would be changed before it is returned.  |-\|/-| 2017-09-13T12:18:46Z Merged pull request |-\|/-| 751 +4 −3 c 1|-\|/-| 
+bugfix: (thread-safty) the id would be changed before it is returned.  |-\|/-| 2017-09-13T12:19:16Z Merged pull request |-\|/-| 750 +4 −3 c 1|-\|/-| 
+Add .gitattributes file |-\|/-| 2018-05-19T23:40:23Z Closed pull request |-\|/-| 749 +6 −0 gitattributes 1|-\|/-| 
+Clarify import documentation |-\|/-| 2017-09-05T18:44:47Z Merged pull request |-\|/-| 732 +8 −5 html c in 1 5|-\|/-| 
+add link to R bindings |-\|/-| 2017-08-28T11:15:27Z Closed pull request |-\|/-| 700 +6 −2 html 3|-\|/-| 
+Fix to the grammatical error |-\|/-| 2017-08-20T04:10:20Z Closed pull request |-\|/-| 686 +3 −3 html 1|-\|/-| 
+bug fix about word-spacing |-\|/-| 2017-08-18T14:00:40Z Merged pull request |-\|/-| 681 +2 −2 c 1|-\|/-| 
+./coders/bmp.c:1723 says it is bmp3:alpha |-\|/-| 2017-07-30T13:53:37Z Closed pull request |-\|/-| 635 +2 −2 html 1|-\|/-| 
+coders/mat.c: fix build failure due to incomplete #624 patch |-\|/-| 2017-07-29T21:36:10Z Closed pull request |-\|/-| 627 +5 −1 c 1|-\|/-| 
+fix gif loop iterations |-\|/-| 2017-07-29T21:32:17Z Closed pull request |-\|/-| 622 +5 −1 c 1|-\|/-| 
+Fix underlinking in DNG module |-\|/-| 2017-07-26T14:02:45Z Closed pull request |-\|/-| 607 +1 −1 am 1|-\|/-| 
+Fix a typo |-\|/-| 2017-07-26T07:57:35Z Closed pull request |-\|/-| 605 +1 −1 h 1|-\|/-| 
+Add ';' |-\|/-| 2017-06-24T06:12:02Z Merged pull request |-\|/-| 521 +1 −1 c 1|-\|/-| 
+Link zlib (-lz) in delegates tests. |-\|/-| 2017-06-24T06:13:24Z Closed pull request |-\|/-| 516 +1 −0 configure 1|-\|/-| 
+changelog notes for pr485 |-\|/-| 2017-05-11T17:10:38Z Merged pull request |-\|/-| 486 +4 −0 ChangeLog 1|-\|/-| 
+revise dcm rescale and window handling |-\|/-| 2017-05-11T17:12:38Z Merged pull request |-\|/-| 485 +77 −38 ChangeLog c 2|-\|/-| 
+add dcm:window option |-\|/-| 2017-05-10T19:56:47Z Merged pull request |-\|/-| 484 +22 −5 c 1|-\|/-| 
+make DICOM read work for fractional rescale |-\|/-| 2017-05-09T16:01:22Z Merged pull request |-\|/-| 483 +58 −36 c 1|-\|/-| 
+Fixed missing absolute value |-\|/-| 2017-05-07T14:28:09Z Merged pull request |-\|/-| 480 +3 −3 c 1|-\|/-| 
+fix DICOM read with fractional slope |-\|/-| 2017-05-09T11:20:48Z Closed pull request |-\|/-| 477 +5 −29 c 1|-\|/-| 
+fix several typos/pastos in ChangeLog |-\|/-| 2017-03-30T14:45:33Z Closed pull request |-\|/-| 413 +4 −13 ChangeLog 1|-\|/-| 
+status is unused |-\|/-| 2017-02-28T21:16:21Z Merged pull request |-\|/-| 390 +1 −2 c 1|-\|/-| 
+fix fd leak for webp coder |-\|/-| 2017-02-18T11:24:58Z Closed pull request |-\|/-| 382 +1 −0 c 1|-\|/-| 
+png.c: unbreak build without JPEG support |-\|/-| 2017-02-07T06:18:31Z Closed pull request |-\|/-| 373 +0 −2 c 1|-\|/-| 
+Fix variable reuse confusion in WriteTGAImage causing assertion failure |-\|/-| 2017-01-20T06:06:41Z Closed pull request |-\|/-| 359 +5 −3 c 1|-\|/-| 
+Fix compile warning bug for deprecated register |-\|/-| 2017-01-20T06:06:22Z Closed pull request |-\|/-| 358 +3 −0 h 1|-\|/-| 
+Stop overwriting index.html with copy from root directory |-\|/-| 2016-12-30T17:59:37Z Closed pull request |-\|/-| 339 +0 −4 am in 2|-\|/-| 
+Stop overwriting index.html with copy from root directory |-\|/-| 2016-12-28T17:21:11Z Closed pull request |-\|/-| 338 +0 −0 0|-\|/-| 
+Fix #313 |-\|/-| 2016-12-03T18:05:34Z Closed pull request |-\|/-| 315 +129 −131 h 1|-\|/-| 
+Fix bug with missing return |-\|/-| 2016-12-03T09:17:14Z Merged pull request |-\|/-| 314 +1 −0 c 1|-\|/-| 
+fix url missing hyphen |-\|/-| 2016-12-03T09:27:58Z Closed pull request |-\|/-| 311 +3 −3 html 1|-\|/-| 
+don't set TIFFTAG_ROWSPERSTRIP when writing tiled TIFF |-\|/-| 2016-09-15T04:49:28Z Closed pull request |-\|/-| 266 +15 −10 c 1|-\|/-| 
+Fix text wrapping bug |-\|/-| 2016-08-30T18:51:11Z Merged pull request |-\|/-| 260 +1 −1 c 1|-\|/-| 
+Fix misaligned bits when writing .rfg |-\|/-| 2016-07-23T11:53:42Z Closed pull request |-\|/-| 238 +3 −0 c 1|-\|/-| 
+Fix misaligned bits when writing .rfg |-\|/-| 2016-07-23T11:53:33Z Closed pull request |-\|/-| 237 +3 −0 c 1|-\|/-| 
+Fixes for mingw-w64 |-\|/-| 2016-07-17T10:20:52Z Closed pull request |-\|/-| 231 +3 −3 c h 2|-\|/-| 
+Fix abort when writing to rgf format |-\|/-| 2016-06-19T07:04:27Z Closed pull request |-\|/-| 223 +6 −8 c 1|-\|/-| 
+fix cache time limit, fix #217 |-\|/-| 2016-06-13T18:17:41Z Closed pull request |-\|/-| 219 +2 −2 c 1|-\|/-| 
+Fix typo s/width/height/ in resource.c (master branch) |-\|/-| 2016-05-14T07:02:37Z Closed pull request |-\|/-| 200 +3 −3 c 1|-\|/-| 
+Fix typo s/width/height/ in resource.c (ImageMagick-6 branch) |-\|/-| 2016-05-14T07:03:15Z Closed pull request |-\|/-| 199 +1 −1 c 1|-\|/-| 
+typo |-\|/-| 2016-05-05T07:51:19Z Closed pull request |-\|/-| 187 +1 −1 xml 1|-\|/-| 
+add read/write support for FLIF [in ImageMagick-6] |-\|/-| 2016-04-26T20:54:35Z Closed pull request |-\|/-| 175 +1,209 −2,653 in m4 am 3|-\|/-| 
+add read/write support for FLIF |-\|/-| 2016-04-26T20:54:16Z Closed pull request |-\|/-| 174 +580 −2 c h am 5|-\|/-| 
+Fix multiple DDS output issues [port to ImageMagick-6] |-\|/-| 2016-04-25T19:11:15Z Closed pull request |-\|/-| 168 +36 −29 c 1|-\|/-| 
+Fix json output of "clipping path". |-\|/-| 2016-03-13T22:11:11Z Closed pull request |-\|/-| 150 +3 −3 c 1|-\|/-| 
+unlink temporary files after creation |-\|/-| 2016-03-12T07:54:16Z Closed pull request |-\|/-| 140 +1 −0 c 1|-\|/-| 
+Fix multiple DDS output issues. |-\|/-| 2016-04-21T19:14:41Z Closed pull request |-\|/-| 137 +43 −32 c 1|-\|/-| 
+Backport complex text layout from master |-\|/-| 2016-02-14T07:44:19Z Closed pull request |-\|/-| 116 +188 −36 yml ac c h 6|-\|/-| 
+Fix cluster value in fallback code |-\|/-| 2016-02-14T09:14:47Z Closed pull request |-\|/-| 115 +7 −3 c 1|-\|/-| 
+Merge pull request #1 from ImageMagick/master |-\|/-| 2016-01-30T16:49:19Z Closed pull request |-\|/-| 114 +0 −0 0|-\|/-| 
+Add complex text support, take two |-\|/-| 2016-02-01T06:25:40Z Closed pull request |-\|/-| 88 +178 −25 yml c h ac 7|-\|/-| 
+Write correct pitch and channel bitmasks for uncompressed DDS images. |-\|/-| 2016-01-19T21:20:11Z Closed pull request |-\|/-| 87 +17 −7 c 1|-\|/-| 
+remove exec perm on source files |-\|/-| 2016-01-18T18:24:20Z Merged pull request |-\|/-| 86 +0 −0 c h 8|-\|/-| 
+remove exec perm on source files |-\|/-| 2016-01-18T22:09:15Z Closed pull request |-\|/-| 85 +0 −0 c h 4|-\|/-| 
+Resource leak in AcquireVirtualMemory |-\|/-| 2016-01-07T20:24:52Z Closed pull request |-\|/-| 75 +35 −34 c 1|-\|/-| 
+Enabling OpenCL functions |-\|/-| 2016-02-12T11:59:32Z Closed pull request |-\|/-| 73 +92 −8 gitignore h c 9|-\|/-| 
+OpenCL functions enabled |-\|/-| 2016-01-04T16:48:49Z Closed pull request |-\|/-| 72 +98 −19 gitignore h c 8|-\|/-| 
+Fix kerning in fallback text layout |-\|/-| 2015-12-31T09:21:32Z Closed pull request |-\|/-| 70 +6 −9 c 1|-\|/-| 
+Add complex text support |-\|/-| 2015-12-31T09:29:43Z Closed pull request |-\|/-| 69 +972 −25 yml am c 3|-\|/-| 
+Fix build when fchmod is missing |-\|/-| 2015-11-18T12:51:55Z Closed pull request |-\|/-| 56 +4 −0 c 2|-\|/-| 
+(IM7) Fixed TR/TD placement in MVG docs |-\|/-| 2015-11-16T22:12:44Z Closed pull request |-\|/-| 50 +5 −5 html 1|-\|/-| 
+(IM6) Fixed TR/TD placement in MVG docs |-\|/-| 2015-11-16T22:12:26Z Closed pull request |-\|/-| 49 +5 −5 html 1|-\|/-| 
+Corrected type for ExportLongPixel to use long. |-\|/-| 2015-09-27T20:56:23Z Closed pull request |-\|/-| 42 +2 −2 c 1|-\|/-| 
+Improved documentation. |-\|/-| 2015-09-25T21:33:56Z Closed pull request |-\|/-| 39 +9 −8 c 1|-\|/-| 
+Add Manhattan interpolate option for sparse color method (IM-7) |-\|/-| 2015-09-25T20:45:28Z Merged pull request |-\|/-| 37 +41 −1 h c html 5|-\|/-| 
+Add Manhattan interpolate option for sparse color method (IM-6) |-\|/-| 2015-09-25T21:00:34Z Merged pull request |-\|/-| 36 +34 −1 h c html 5|-\|/-| 
+Prevent null pointer access. |-\|/-| 2015-09-28T06:43:38Z Closed pull request |-\|/-| 34 +7 −3 c 1|-\|/-| 
+typo in doc |-\|/-| 2015-07-31T06:38:58Z Closed pull request |-\|/-| 21 +1 −1 txt 0|-\|/-| 
+Rewrite MagickCore-config.1 man page with propper man macro's. |-\|/-| 2015-07-23T19:25:27Z Closed pull request |-\|/-| 20 +63 −61 1 1|-\|/-| 
+Correct install location of the Magick++ headers. |-\|/-| 2015-07-12T08:33:02Z Closed pull request |-\|/-| 17 +1 −1 am 1|-\|/-| 
+First pass at fully escaping all string output in json.c |-\|/-| 2015-06-27T20:48:14Z Closed pull request |-\|/-| 14 +310 −73 0|-\|/-| 
+Add function getHdriEnabled |-\|/-| 2015-06-13T11:10:50Z Closed pull request |-\|/-| 9 +31 −1 c h 2|-\|/-| 
+Remove generated files from IM7 |-\|/-| 2015-06-11T12:07:57Z Closed pull request |-\|/-| 8 +0 −197 sh pm PerlMagick/quantum/typemap 3|-\|/-| 
+Remove files built by build process. |-\|/-| 2015-06-06T10:52:08Z Closed pull request |-\|/-| 2 +0 −2,041 PL 1|-\|/-| 
+Added Travis file to allow CI building on Github. |-\|/-| 2015-06-06T11:28:59Z Closed pull request |-\|/-| 1 +18 −0 yml 1|-\|/-| 

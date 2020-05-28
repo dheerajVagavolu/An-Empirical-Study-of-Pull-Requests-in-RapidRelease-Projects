@@ -1,0 +1,1015 @@
+Develop |-\|/-| 2020-01-13T02:36:36Z Merged pull request |-\|/-| 1952 +30 −9 m 3|-\|/-| 
+Add MIDI Processor AU loading |-\|/-| 2020-01-09T20:24:03Z Merged pull request |-\|/-| 1949 +79 −0 swift 2|-\|/-| 
+Updated Logging system |-\|/-| 2020-01-04T22:36:10Z Merged pull request |-\|/-| 1947 +372 −328 swift 10|-\|/-| 
+Start to replacing print based AKLog with os_log based one |-\|/-| 2020-01-04T10:55:34Z Closed pull request |-\|/-| 1946 +251 −201 yml swift hpp 11|-\|/-| 
+Core FunctionTable: one bug fix, one enhancement |-\|/-| 2019-12-23T23:02:24Z Merged pull request |-\|/-| 1942 +15 −1 cpp hpp 2|-\|/-| 
+AKConverter update |-\|/-| 2019-12-11T01:20:30Z Merged pull request |-\|/-| 1936 +32 −24 swift 2|-\|/-| 
+Basics playground typo fix |-\|/-| 2019-12-09T04:45:00Z Merged pull request |-\|/-| 1935 +1 −1 swift 1|-\|/-| 
+AKMicrophone fix per #1851 |-\|/-| 2019-12-02T19:26:03Z Merged pull request |-\|/-| 1929 +1 −17 swift 1|-\|/-| 
+AKPlayer processingFormat, AKConverter improvements |-\|/-| 2019-11-24T23:23:44Z Merged pull request |-\|/-| 1925 +57 −27 swift 3|-\|/-| 
+AKPlayer: fallback processingFormat |-\|/-| 2019-11-24T22:28:21Z Closed pull request |-\|/-| 1924 +7 −1 swift 1|-\|/-| 
+Fix: Make AKMIDIEvent handle MIDI Clock messages |-\|/-| 2019-11-21T22:00:28Z Merged pull request |-\|/-| 1923 +1 −1 swift 1|-\|/-| 
+Create main.ymlkj |-\|/-| 2019-11-20T07:03:59Z Closed pull request |-\|/-| 1922 +17 −0 yml 1|-\|/-| 
+Core ADSR envelopes: improve handling of zero-length segments |-\|/-| 2019-11-06T23:24:50Z Merged pull request |-\|/-| 1917 +1 −1 cpp 1|-\|/-| 
+Fix AKWaveTable MIDI Response |-\|/-| 2019-11-02T01:00:52Z Merged pull request |-\|/-| 1914 +10 −2 hpp h mm swift 4|-\|/-| 
+Cleanup: Remove EZAudioPlotGL from other Platform Projects |-\|/-| 2019-11-01T17:36:30Z Merged pull request |-\|/-| 1913 +0 −8 pbxproj 2|-\|/-| 
+Remove EZAudioPlotGL from all Platforms |-\|/-| 2019-11-01T17:33:36Z Merged pull request |-\|/-| 1912 +0 −809 h 2|-\|/-| 
+AKPlayer update |-\|/-| 2019-10-29T01:54:29Z Merged pull request |-\|/-| 1906 +76 −39 swift 6|-\|/-| 
+Publicises sequencer functions |-\|/-| 2019-10-23T17:40:30Z Merged pull request |-\|/-| 1904 +4 −4 swift 1|-\|/-| 
+made deviceSampleRate public |-\|/-| 2019-10-16T23:10:38Z Merged pull request |-\|/-| 1901 +2 −2 swift 1|-\|/-| 
+Inter-App Audio is not available in Catalyst |-\|/-| 2019-10-15T20:56:26Z Merged pull request |-\|/-| 1900 +3 −0 swift 1|-\|/-| 
+add reset calls on akapplesampler load functions |-\|/-| 2019-10-15T15:44:18Z Merged pull request |-\|/-| 1899 +7 −0 swift 1|-\|/-| 
+Add CaseIterable Conformance to AKTable |-\|/-| 2019-10-13T01:15:03Z Merged pull request |-\|/-| 1897 +1 −1 swift 1|-\|/-| 
+AKSampler: clamp loop endpoints to valid range |-\|/-| 2019-10-11T18:59:14Z Merged pull request |-\|/-| 1896 +8 −0 cpp 1|-\|/-| 
+sequencer remove note |-\|/-| 2019-10-10T05:33:00Z Merged pull request |-\|/-| 1893 +26 −0 hpp h mm swift 4|-\|/-| 
+AKSampler+SFZ method for loading files using file URL |-\|/-| 2019-10-09T19:09:09Z Merged pull request |-\|/-| 1892 +16 −6 swift 1|-\|/-| 
+AKSampler+SFZ looping bugfix and extended API |-\|/-| 2019-10-09T15:17:38Z Closed pull request |-\|/-| 1891 +0 −0 0|-\|/-| 
+remove from .h |-\|/-| 2019-10-08T00:44:44Z Merged pull request |-\|/-| 1887 +14 −17 h 1|-\|/-| 
+Make swiftlint part of xcode builds |-\|/-| 2019-10-07T20:45:07Z Merged pull request |-\|/-| 1886 +66 −2 pbxproj 3|-\|/-| 
+aksequencer fixes |-\|/-| 2019-10-07T20:44:47Z Merged pull request |-\|/-| 1885 +12 −3 hpp swift 2|-\|/-| 
+AKWAvetable + Sequencer improvements |-\|/-| 2019-10-07T20:17:00Z Merged pull request |-\|/-| 1884 +50 −1 swift hpp 3|-\|/-| 
+Leak fix for AKTimelineTap |-\|/-| 2019-10-06T19:34:11Z Merged pull request |-\|/-| 1882 +2 −14 m 2|-\|/-| 
+Leak fix for AKTimelineTap |-\|/-| 2019-10-03T18:20:13Z Merged pull request |-\|/-| 1881 +48 −46 swift h m mm 10|-\|/-| 
+Add progress for AudioKit.renderToFile and AVAudioEngine.renderToFile |-\|/-| 2019-10-02T18:41:18Z Merged pull request |-\|/-| 1880 +15 −3 swift 2|-\|/-| 
+Add iOS 13 setting setAllowHapticsAndSystemSoundsDuringRecording |-\|/-| 2019-09-26T21:58:28Z Merged pull request |-\|/-| 1876 +25 −0 swift 1|-\|/-| 
+added documentation |-\|/-| 2019-09-19T21:01:13Z Merged pull request |-\|/-| 1871 +2 −0 swift 1|-\|/-| 
+Improve SwiftUI Example & Add Appearances |-\|/-| 2019-09-16T20:30:07Z Merged pull request |-\|/-| 1867 +123 −8 json swift 3|-\|/-| 
+AKPlayer isPlaying, minor fix. |-\|/-| 2019-09-15T21:46:04Z Merged pull request |-\|/-| 1866 +7 −10 swift 3|-\|/-| 
+Update README.md |-\|/-| 2019-09-15T07:20:19Z Merged pull request |-\|/-| 1865 +2 −0 md 0|-\|/-| 
+public / open access and deprecation of stopEnvelopeTime |-\|/-| 2019-09-13T01:57:57Z Merged pull request |-\|/-| 1864 +71 −43 swift 4|-\|/-| 
+AKPlayer refactoring |-\|/-| 2019-09-12T23:38:45Z Merged pull request |-\|/-| 1863 +411 −344 m hpp swift 3|-\|/-| 
+AKPlayer scheduling fix, added AKFader to repository |-\|/-| 2019-09-11T23:56:18Z Merged pull request |-\|/-| 1861 +545 −163 h swift mm m 7|-\|/-| 
+Add SwiftUI Drum Pads Example |-\|/-| 2019-09-11T21:03:06Z Merged pull request |-\|/-| 1859 +814 −0 pbxproj 2|-\|/-| 
+AKPlayer scheduling bug fix |-\|/-| 2019-09-11T18:15:52Z Merged pull request |-\|/-| 1858 +6 −43 swift 1|-\|/-| 
+AKPlayer Scheduling bug in realtime vs offline |-\|/-| 2019-09-11T18:10:24Z Closed pull request |-\|/-| 1857 +7,009 −1,245 swift hpp h 9|-\|/-| 
+Node Automation, Offline Rendering for AKPlayer, and other things |-\|/-| 2019-09-11T07:01:47Z Merged pull request |-\|/-| 1856 +1,363 −693 hpp h mm 5|-\|/-| 
+Restore oscmorph2d as extension to SP |-\|/-| 2019-09-04T21:41:59Z Merged pull request |-\|/-| 1853 +230 −0 hpp c h pbxproj 7|-\|/-| 
+Fix looping glitch in AKSampler |-\|/-| 2019-09-01T00:24:50Z Merged pull request |-\|/-| 1850 +46 −36 cpp hpp 11|-\|/-| 
+AKPlayer: compatibility with offline rendering |-\|/-| 2019-08-28T16:40:32Z Closed pull request |-\|/-| 1847 +22 −6 m swift 3|-\|/-| 
+Low pass resonant filter added to generator banks |-\|/-| 2019-08-31T05:30:04Z Merged pull request |-\|/-| 1846 +4,826 −342 h mm hpp 4|-\|/-| 
+Timestamp for EZMicrophone input |-\|/-| 2019-08-23T00:52:54Z Merged pull request |-\|/-| 1842 +61 −5 h m 2|-\|/-| 
+process noteOffs first |-\|/-| 2019-08-21T22:37:36Z Merged pull request |-\|/-| 1841 +16 −17 hpp 1|-\|/-| 
+added echo cancellation to EZMicrophone & AKSettings |-\|/-| 2019-08-19T16:06:33Z Merged pull request |-\|/-| 1838 +8 −1 swift m 2|-\|/-| 
+Address issue 1836 |-\|/-| 2019-08-18T03:17:29Z Merged pull request |-\|/-| 1837 +9 −1 mm cpp hpp 3|-\|/-| 
+Explain that AKMicrophone nodes have to be created before setting AudioKit.output |-\|/-| 2019-08-16T15:42:40Z Merged pull request |-\|/-| 1835 +5 −0 swift 1|-\|/-| 
+Sequencer improvements |-\|/-| 2019-07-29T20:22:52Z Merged pull request |-\|/-| 1820 +25 −16 swift 1|-\|/-| 
+rearranged function order, added clear function |-\|/-| 2019-07-29T20:21:23Z Closed pull request |-\|/-| 1819 +22 −16 swift 1|-\|/-| 
+Amplitude Tracker Improvements |-\|/-| 2019-07-25T18:47:04Z Merged pull request |-\|/-| 1816 +26 −38 swift h mm hpp 4|-\|/-| 
+Mainly fixed memory leak in AKAudioUnitManager |-\|/-| 2019-07-23T19:42:41Z Merged pull request |-\|/-| 1815 +99 −116 swift m mm 4|-\|/-| 
+StopPlayingNotes moved around sequencer |-\|/-| 2019-07-22T21:15:36Z Merged pull request |-\|/-| 1811 +13 −2 hpp h mm swift 4|-\|/-| 
+Remove redundant noteFrequency argument from AKSampler note-on functions |-\|/-| 2019-07-19T15:36:26Z Merged pull request |-\|/-| 1808 +13 −15 swift hpp mm cpp 6|-\|/-| 
+New AKSequencer |-\|/-| 2019-07-18T04:21:08Z Merged pull request |-\|/-| 1806 +1,105 −180 yaml swift h hpp mm c 26|-\|/-| 
+MIDI timing offsets |-\|/-| 2019-07-09T02:57:17Z Merged pull request |-\|/-| 1801 +115 −75 swift 5|-\|/-| 
+Dont ask for mic input if not needed |-\|/-| 2019-06-26T18:17:47Z Merged pull request |-\|/-| 1797 +79 −41 swift pbxproj 7|-\|/-| 
+AKNodeRecorder crash fix. |-\|/-| 2019-06-26T02:26:27Z Merged pull request |-\|/-| 1795 +55 −45 swift 1|-\|/-| 
+Improve documentation comments. |-\|/-| 2019-06-22T21:05:22Z Merged pull request |-\|/-| 1794 +4 −0 swift 1|-\|/-| 
+added method for computing master set from 12et and deviations in cents |-\|/-| 2019-06-24T07:30:15Z Merged pull request |-\|/-| 1793 +50 −1 swift 1|-\|/-| 
+AKConverter, minor update |-\|/-| 2019-06-14T18:18:27Z Merged pull request |-\|/-| 1790 +16 −3 swift 1|-\|/-| 
+Allow paths with whitespaces for samples in SFZ loader |-\|/-| 2019-06-14T06:57:35Z Merged pull request |-\|/-| 1789 +1 −1 swift 1|-\|/-| 
+AKSampler: allow access to AKSampleBuffer objects after loading samples |-\|/-| 2019-06-14T18:17:54Z Closed pull request |-\|/-| 1788 +62 −45 swift hpp mm cpp h 10|-\|/-| 
+Add MIDIUniqueID to AKMIDIListener callbacks |-\|/-| 2019-05-29T23:48:48Z Merged pull request |-\|/-| 1785 +96 −35 swift 4|-\|/-| 
+Disk streamer |-\|/-| 2019-05-16T00:16:34Z Merged pull request |-\|/-| 1781 +78 −28 swift h mm hpp c 6|-\|/-| 
+AKConverter update |-\|/-| 2019-05-15T23:09:36Z Merged pull request |-\|/-| 1780 +13 −10 swift 1|-\|/-| 
+AKDynamicPlayer: Fixed a bug where the timePitch node would be removed if you disabled… |-\|/-| 2019-05-14T19:21:11Z Merged pull request |-\|/-| 1779 +3 −5 swift 1|-\|/-| 
+AKPlayer documentation update |-\|/-| 2019-05-14T16:34:41Z Merged pull request |-\|/-| 1778 +4 −1 swift 2|-\|/-| 
+AKAmplitudeTap safety checks |-\|/-| 2019-05-14T04:59:58Z Merged pull request |-\|/-| 1776 +47 −15 swift 1|-\|/-| 
+minor improvements to akwavetable |-\|/-| 2019-05-14T03:46:29Z Merged pull request |-\|/-| 1775 +23 −23 swift hpp pbxproj 3|-\|/-| 
+AKLog: realized it was printing Optional() on every content item |-\|/-| 2019-05-11T03:55:47Z Merged pull request |-\|/-| 1773 +33 −36 swift 1|-\|/-| 
+Develop |-\|/-| 2019-05-10T21:24:49Z Merged pull request |-\|/-| 1772 +31 −26 swift 1|-\|/-| 
+Typo + optional AKLog print |-\|/-| 2019-05-09T20:36:58Z Merged pull request |-\|/-| 1771 +3 −3 swift 2|-\|/-| 
+Revert "Improvements to open_filename.c to prevent too many open files" |-\|/-| 2019-05-07T01:35:28Z Merged pull request |-\|/-| 1769 +5 −10 c 1|-\|/-| 
+Kill the Tanker! Kill it with fire! |-\|/-| 2019-05-02T03:07:40Z Merged pull request |-\|/-| 1764 +1 −0 cpp 1|-\|/-| 
+Fix (hopefully) for #1713 |-\|/-| 2019-04-25T18:01:37Z Merged pull request |-\|/-| 1761 +20 −10 swift 4|-\|/-| 
+Fix typo |-\|/-| 2019-04-23T22:17:03Z Merged pull request |-\|/-| 1760 +1 −1 h 1|-\|/-| 
+AKSampler: ensure .wv files are closed after loading |-\|/-| 2019-04-23T16:29:38Z Merged pull request |-\|/-| 1759 +1 −0 mm 1|-\|/-| 
+attempt to fix midi close output port |-\|/-| 2019-04-29T19:07:38Z Merged pull request |-\|/-| 1758 +25 −36 swift 1|-\|/-| 
+Akmidi file timing info |-\|/-| 2019-04-16T20:35:22Z Merged pull request |-\|/-| 1750 +85 −25 swift pbxproj 9|-\|/-| 
+Loop completion handler |-\|/-| 2019-04-16T02:34:48Z Merged pull request |-\|/-| 1748 +5 −0 swift 2|-\|/-| 
+Fix for currentTime starting from zero when resuming from pause https… |-\|/-| 2019-04-14T17:55:30Z Merged pull request |-\|/-| 1746 +20 −6 swift 2|-\|/-| 
+New Notification .AKEngineStarted added (rev.1) |-\|/-| 2019-04-14T01:20:58Z Merged pull request |-\|/-| 1744 +23 −15 swift pbxproj 4|-\|/-| 
+New Notification .AKEngineStarted added. |-\|/-| 2019-04-13T12:41:47Z Closed pull request |-\|/-| 1743 +35 −24 swift pbxproj 6|-\|/-| 
+rearranged build script so device will work, but simulator will fail |-\|/-| 2019-04-09T10:59:01Z Closed pull request |-\|/-| 1737 +5 −5 sh 1|-\|/-| 
+Fix for broken universal frameworks |-\|/-| 2019-04-08T19:47:11Z Merged pull request |-\|/-| 1736 +178 −125 h m cpp hpp pbxproj swift 32|-\|/-| 
+AudioKit Mac Sandbox issue fix |-\|/-| 2019-04-02T03:23:08Z Closed pull request |-\|/-| 1728 +5 −6 swift hpp pbxproj md VERSION 4|-\|/-| 
+Swift5 |-\|/-| 2019-03-31T06:31:20Z Closed pull request |-\|/-| 1726 +477 −415 gitignore yml swift pbxproj xcscheme 13|-\|/-| 
+Swift5 |-\|/-| 2019-03-28T02:00:57Z Closed pull request |-\|/-| 1724 +346 −148 h swift 8|-\|/-| 
+Akmidifile improvements |-\|/-| 2019-03-28T00:01:52Z Merged pull request |-\|/-| 1723 +337 −141 swift 7|-\|/-| 
+Add missing AKCoreSynth.hpp header to Audiounit.h |-\|/-| 2019-03-27T22:28:14Z Merged pull request |-\|/-| 1722 +7 −6 h pbxproj 4|-\|/-| 
+make AKMIDIFile init public |-\|/-| 2019-03-25T19:49:56Z Merged pull request |-\|/-| 1718 +1 −1 swift 1|-\|/-| 
+Made AKMicrohpone init a failable initilizer |-\|/-| 2019-03-25T19:49:44Z Merged pull request |-\|/-| 1717 +48 −20 swift json 2|-\|/-| 
+Made AKMicrophone init a failable initializer |-\|/-| 2019-03-25T18:17:46Z Closed pull request |-\|/-| 1715 +455 −282 swift 13|-\|/-| 
+AudioKit setInputDevice bug fixes [iOS] |-\|/-| 2019-03-25T06:15:44Z Merged pull request |-\|/-| 1714 +219 −46 swift pbxproj 4|-\|/-| 
+Fix for AKKeyboardView initializer ignoring polyphonic parameter. |-\|/-| 2019-03-19T22:07:34Z Merged pull request |-\|/-| 1710 +1 −1 swift 1|-\|/-| 
+Make AKCoreSynth.hpp public again |-\|/-| 2019-03-16T20:34:42Z Merged pull request |-\|/-| 1708 +2 −2 pbxproj 1|-\|/-| 
+Make attributes of public MIDI Events publicly available |-\|/-| 2019-03-15T04:51:46Z Merged pull request |-\|/-| 1707 +7 −7 swift 1|-\|/-| 
+Add RAII to DSP Kernel |-\|/-| 2019-03-15T10:48:04Z Merged pull request |-\|/-| 1704 +14 −1 hpp 1|-\|/-| 
+Move AKCoreSynth.hpp to project scope in iOS project (#1691) |-\|/-| 2019-02-20T23:43:00Z Merged pull request |-\|/-| 1694 +2 −2 pbxproj 1|-\|/-| 
+Add missing AKCoreSynth.hpp import to AudioKit.h |-\|/-| 2019-02-20T22:46:26Z Closed pull request |-\|/-| 1693 +2 −2 pbxproj 1|-\|/-| 
+AKPlayer fixes + extras |-\|/-| 2019-02-20T23:41:53Z Merged pull request |-\|/-| 1692 +51 −16 swift m 5|-\|/-| 
+Updated EZAudioFile.markers and a few other things |-\|/-| 2019-02-15T07:24:11Z Merged pull request |-\|/-| 1686 +141 −161 h 1|-\|/-| 
+fixed exportAsynchronously method. |-\|/-| 2019-02-14T23:40:03Z Merged pull request |-\|/-| 1685 +2 −2 swift 1|-\|/-| 
+Develop |-\|/-| 2019-02-14T23:15:57Z Closed pull request |-\|/-| 1684 +22 −23 swift pbxproj storyboard 6|-\|/-| 
+Added convenience methods to sequence aftertouch events |-\|/-| 2019-02-14T23:34:01Z Merged pull request |-\|/-| 1682 +41 −0 swift 1|-\|/-| 
+Bugfix: MIDI input not working with AKAudioUnitInstrument |-\|/-| 2019-02-14T23:33:37Z Merged pull request |-\|/-| 1681 +87 −30 swift 14|-\|/-| 
+Pass-through MIDITimestamp |-\|/-| 2019-02-14T01:55:39Z Merged pull request |-\|/-| 1679 +22 −21 swift pbxproj storyboard 6|-\|/-| 
+Small refactor in AKAudioUnitManagerDelegate |-\|/-| 2019-02-10T19:16:42Z Merged pull request |-\|/-| 1673 +42 −32 swift 3|-\|/-| 
+Add AKMusicTrack+Events extension to MacOS |-\|/-| 2019-02-09T02:20:04Z Merged pull request |-\|/-| 1672 +6 −2 pbxproj 1|-\|/-| 
+More cleanup |-\|/-| 2019-02-08T20:31:30Z Merged pull request |-\|/-| 1671 +55 −48 swift 8|-\|/-| 
+BPM calculation, BPM smoothing, System Real Time message handling |-\|/-| 2019-02-08T04:52:36Z Merged pull request |-\|/-| 1670 +2,239 −241 gitignore swift 8|-\|/-| 
+Fix: RecordingNodes playground was unable to play recorded sounds |-\|/-| 2019-02-05T18:45:07Z Merged pull request |-\|/-| 1668 +7 −4 swift 1|-\|/-| 
+Improving LoopbackRecording Example (closes #1662) |-\|/-| 2019-02-04T20:35:47Z Merged pull request |-\|/-| 1665 +12 −11 swift 1|-\|/-| 
+AKMicrophone.init() crash on iPhone 6 |-\|/-| 2019-02-04T22:01:12Z Merged pull request |-\|/-| 1664 +15 −9 swift 3|-\|/-| 
+AKPlayer creating loop artifacts in official playground, AKAudioPlayer fixes it |-\|/-| 2019-02-04T00:14:05Z Merged pull request |-\|/-| 1663 +4 −4 swift 2|-\|/-| 
+Midi property change |-\|/-| 2019-01-31T01:16:52Z Merged pull request |-\|/-| 1660 +33 −5 swift 2|-\|/-| 
+Removing EZAudioUtilities import from EZPlot UI file.  |-\|/-| 2019-01-29T17:16:13Z Merged pull request |-\|/-| 1658 +2 −22 pbxproj 1|-\|/-| 
+Make AKCoreSynth public |-\|/-| 2019-01-24T20:33:03Z Merged pull request |-\|/-| 1653 +1 −1 pbxproj 1|-\|/-| 
+Enhancement/akmidievent refactor - forgotten fixes |-\|/-| 2019-01-21T20:43:30Z Merged pull request |-\|/-| 1650 +53 −37 swift pbxproj 11|-\|/-| 
+Forgotten fixes to midi refactor |-\|/-| 2019-01-21T18:35:04Z Closed pull request |-\|/-| 1649 +55 −39 swift pbxproj 12|-\|/-| 
+1 and 2 byte system messages were not being processed correctly |-\|/-| 2019-01-18T23:59:09Z Merged pull request |-\|/-| 1646 +376 −50 gitignore swift pbxproj 10|-\|/-| 
+AKPlayer, completion handler fix |-\|/-| 2019-01-18T19:26:45Z Merged pull request |-\|/-| 1645 +47 −43 swift 1|-\|/-| 
+Fixed multiple MIDI listeners, and fix MIDI open/close methods so that they can open/close all ports |-\|/-| 2019-01-18T01:05:17Z Merged pull request |-\|/-| 1644 +260 −29 swift pbxproj 11|-\|/-| 
+Applied hound style |-\|/-| 2019-01-16T19:41:39Z Closed pull request |-\|/-| 1643 +5,863 −4,625 swift h mm 9|-\|/-| 
+Improvements to AKMIDI port selection and sysex message handling |-\|/-| 2019-01-16T20:39:17Z Merged pull request |-\|/-| 1642 +1,212 −158 swift 2|-\|/-| 
+Remove bias in triangle-wave generation in Core FunctionTable |-\|/-| 2019-01-13T00:09:53Z Merged pull request |-\|/-| 1638 +1 −1 cpp 1|-\|/-| 
+Update "Extending AudioKit" READMEs |-\|/-| 2019-01-12T18:57:48Z Merged pull request |-\|/-| 1637 +8 −4 md 0|-\|/-| 
+Repair "ExtendingAudioKit" projects |-\|/-| 2019-01-12T09:41:25Z Merged pull request |-\|/-| 1635 +37 −18 swift hpp mm pbxproj 7|-\|/-| 
+MIDI Improvements |-\|/-| 2019-01-13T04:00:01Z Merged pull request |-\|/-| 1634 +1,189 −428 swift 2|-\|/-| 
+Rename AKSynth as AKCoreSynth, add Swift AU and Node classes |-\|/-| 2019-01-11T00:01:15Z Merged pull request |-\|/-| 1631 +912 −209 h swift 4|-\|/-| 
+refactoring |-\|/-| 2019-01-06T19:29:23Z Merged pull request |-\|/-| 1628 +6 −9 h mm hpp 6|-\|/-| 
+auparameter |-\|/-| 2019-01-06T03:53:19Z Merged pull request |-\|/-| 1627 +195 −191 swift 18|-\|/-| 
+Master5 |-\|/-| 2019-01-05T22:08:06Z Merged pull request |-\|/-| 1626 +2,024 −3,251 swift h mm 9|-\|/-| 
+Fixing small problem in the macOSDevelopment project |-\|/-| 2019-01-04T09:53:20Z Merged pull request |-\|/-| 1625 +5 −8 swift 1|-\|/-| 
+Master5 |-\|/-| 2019-01-05T02:23:00Z Merged pull request |-\|/-| 1624 +419 −486 swift 8|-\|/-| 
+Cleanup |-\|/-| 2019-01-03T04:58:13Z Closed pull request |-\|/-| 1623 +398 −507 swift 8|-\|/-| 
+Add macOS OSC examples |-\|/-| 2019-01-01T23:40:01Z Merged pull request |-\|/-| 1622 +2,593 −0 touchosc pbxproj xcscheme xcworkspacedata plist swift json png 10|-\|/-| 
+Fixed: #1567 |-\|/-| 2019-01-01T02:21:02Z Merged pull request |-\|/-| 1621 +96 −123 0|-\|/-| 
+AKPlayer fixes for current issues |-\|/-| 2018-12-29T20:29:31Z Merged pull request |-\|/-| 1618 +91 −51 swift 8|-\|/-| 
+Further cleanup of Bank audio units |-\|/-| 2018-12-22T19:01:33Z Merged pull request |-\|/-| 1615 +161 −161 h hpp mm 7|-\|/-| 
+Updates to Banks + add tuning-table support to AKCoreSampler |-\|/-| 2018-12-22T01:37:50Z Merged pull request |-\|/-| 1614 +383 −532 hpp 3|-\|/-| 
+Add new AKStereoDelay effect to Core, plus AU/Node and JUCE example |-\|/-| 2018-12-17T19:14:31Z Merged pull request |-\|/-| 1612 +675 −57 h swift hpp 4|-\|/-| 
+added the currentExportSession class variable to expose progress data… |-\|/-| 2018-12-17T19:13:56Z Merged pull request |-\|/-| 1611 +10 −0 swift 2|-\|/-| 
+Finished AKAmplitudeTap implementation |-\|/-| 2018-12-16T21:23:13Z Merged pull request |-\|/-| 1609 +80 −17 swift 3|-\|/-| 
+Fix AKSampler note-frequency bug |-\|/-| 2018-12-13T02:58:25Z Merged pull request |-\|/-| 1605 +2 −2 cpp 1|-\|/-| 
+Add new AudioKitCore::AKStereoDelay |-\|/-| 2018-12-13T00:11:03Z Merged pull request |-\|/-| 1604 +605 −10 gitignore cpp hpp jucer md 7|-\|/-| 
+AkAudioUnitBase inheritance improvements |-\|/-| 2018-12-08T19:05:36Z Merged pull request |-\|/-| 1602 +51 −234 h mm 4|-\|/-| 
+Replace void * and UnsafeMutableRawPointer with AKDSPRef. |-\|/-| 2018-12-08T17:34:40Z Merged pull request |-\|/-| 1601 +202 −195 h mm hpp m swift 42|-\|/-| 
+Replace void* and UnsafeMutableRawPointer with AKDSPRef. |-\|/-| 2018-12-08T17:16:54Z Closed pull request |-\|/-| 1600 +202 −195 h mm hpp m swift 42|-\|/-| 
+Remove unused AKAudioEffect files. |-\|/-| 2018-12-04T19:51:38Z Merged pull request |-\|/-| 1598 +0 −85 h mm pbxproj 5|-\|/-| 
+Add filterEnvelopeVelocityScaling parameter to AKSampler |-\|/-| 2018-12-03T22:57:42Z Merged pull request |-\|/-| 1597 +52 −7 swift hpp mm cpp 8|-\|/-| 
+Divide by file duration if endTime - startTime is zero |-\|/-| 2018-12-03T13:10:24Z Merged pull request |-\|/-| 1596 +3 −1 swift 1|-\|/-| 
+Move buffer clearing to base class. |-\|/-| 2018-12-03T00:24:55Z Merged pull request |-\|/-| 1595 +30 −15 hpp h m swift mm 6|-\|/-| 
+BufferedAudioUnit as base class for AKAudioUnitBase and AKGeneratorAudioUnitBase (again) |-\|/-| 2018-12-02T18:36:54Z Merged pull request |-\|/-| 1594 +61 −155 h mm hpp m 8|-\|/-| 
+Add "keyTrackingFraction" parameter to AKCoreSampler (corrected) |-\|/-| 2018-12-02T01:57:24Z Merged pull request |-\|/-| 1593 +88 −8 swift hpp mm cpp rc h 13|-\|/-| 
+Add "keyTrackingFraction" parameter to AKCoreSampler |-\|/-| 2018-12-02T01:28:05Z Closed pull request |-\|/-| 1592 +897 −112 swift h m mm 10|-\|/-| 
+Added Output Splitter example |-\|/-| 2018-12-02T02:00:21Z Merged pull request |-\|/-| 1591 +2,398 −0 swift pbxproj 7|-\|/-| 
+Various fixes to Basics.playground |-\|/-| 2018-11-29T16:08:20Z Merged pull request |-\|/-| 1588 +18 −6 swift xcplayground 7|-\|/-| 
+Revert AKAudioUnitBase and AKGeneratorAudioUnitBase to AUAudioUnit base |-\|/-| 2018-11-29T14:01:45Z Merged pull request |-\|/-| 1587 +152 −48 h mm 4|-\|/-| 
+Add setIOFormat, enable manual rendering on init. |-\|/-| 2018-11-28T10:21:38Z Merged pull request |-\|/-| 1586 +25 −23 h m 2|-\|/-| 
+Add smoothing to ADSR envelopes in AKCoreSampler |-\|/-| 2018-11-28T10:23:11Z Merged pull request |-\|/-| 1585 +47 −28 h hpp cpp xcscheme 7|-\|/-| 
+Add AudioEngineUnit.h to umbrella header |-\|/-| 2018-11-27T17:25:15Z Merged pull request |-\|/-| 1583 +1 −0 h 1|-\|/-| 
+Add AudioEngineUnit.h to umbrella header |-\|/-| 2018-11-27T16:09:06Z Closed pull request |-\|/-| 1582 +1 −0 h 1|-\|/-| 
+AudioEngineUnit |-\|/-| 2018-11-27T06:32:15Z Merged pull request |-\|/-| 1581 +130 −4 h m pbxproj 7|-\|/-| 
+BufferedAudioUnit as base class for AKAudioUnitBase and AKGeneratorAudioUnitBase |-\|/-| 2018-11-27T04:17:44Z Merged pull request |-\|/-| 1579 +298 −154 h mm 5|-\|/-| 
+Fix AVAudioFormat init bug |-\|/-| 2018-11-22T09:06:16Z Merged pull request |-\|/-| 1578 +6 −3 swift 1|-\|/-| 
+Fix bug in loading SFZ file with AKSampler |-\|/-| 2018-11-22T09:04:55Z Merged pull request |-\|/-| 1574 +1 −1 swift 1|-\|/-| 
+allow AKKeyboardView to animate programmatic presses |-\|/-| 2018-11-20T06:09:16Z Merged pull request |-\|/-| 1571 +24 −1 swift 1|-\|/-| 
+Added NSMicrophoneUsageDescription to Info.plist |-\|/-| 2018-11-10T18:40:26Z Merged pull request |-\|/-| 1568 +2 −0 plist 1|-\|/-| 
+AKMIDIStatus syntactic sugar and playground update for AKMIDICallbackInstrument |-\|/-| 2018-11-09T19:44:04Z Merged pull request |-\|/-| 1564 +10 −2 swift 2|-\|/-| 
+Fix AKCoreSampler mono-non-legato click bug |-\|/-| 2018-11-08T18:21:21Z Merged pull request |-\|/-| 1563 +55 −13 cpp hpp 4|-\|/-| 
+Merged changes from issue 1544 |-\|/-| 2018-11-07T22:32:25Z Merged pull request |-\|/-| 1561 +31 −39 swift md 12|-\|/-| 
+Sequencable callback instrument |-\|/-| 2018-11-07T22:26:59Z Merged pull request |-\|/-| 1560 +326 −35 h swift mm hpp 8|-\|/-| 
+Choose bundle based on the location of AKAudioFile so we can load fil… |-\|/-| 2018-11-05T06:28:39Z Merged pull request |-\|/-| 1559 +1 −1 swift 1|-\|/-| 
+Adjust access level for AKTiming methods to synchronizing multiple nodes |-\|/-| 2018-10-27T07:02:43Z Merged pull request |-\|/-| 1555 +2 −2 swift 1|-\|/-| 
+Fix EXC_BAD_ACCESS in AKConvolution processing |-\|/-| 2018-10-26T19:18:09Z Merged pull request |-\|/-| 1553 +26 −12 swift h mm hpp 4|-\|/-| 
+New adsr envelope for AKCoreSampler |-\|/-| 2018-10-24T19:21:31Z Merged pull request |-\|/-| 1551 +394 −208 cpp h hpp 3|-\|/-| 
+AKMIDI.outputPort made public |-\|/-| 2018-10-23T19:21:22Z Merged pull request |-\|/-| 1550 +1 −1 swift 1|-\|/-| 
+AKWavetable Leak + midi improvements |-\|/-| 2018-10-20T01:10:06Z Merged pull request |-\|/-| 1548 +46 −22 swift h mm hpp 7|-\|/-| 
+Update README.md with correct Matthew Fecher link (https://github.com/analogcode) |-\|/-| 2018-10-17T20:17:53Z Merged pull request |-\|/-| 1543 +1 −1 md 0|-\|/-| 
+Ensure VST2 Sampler demo still builds |-\|/-| 2018-10-16T23:05:39Z Merged pull request |-\|/-| 1542 +98 −64 hpp cpp h vcxproj 4|-\|/-| 
+More helpful error msg when MIDISourceCreate fails |-\|/-| 2018-10-17T04:27:05Z Merged pull request |-\|/-| 1541 +2 −0 swift 1|-\|/-| 
+Connects microphone using correct sample rate for non 44.1k devices |-\|/-| 2018-10-14T04:23:48Z Merged pull request |-\|/-| 1539 +16 −5 swift 1|-\|/-| 
+Cleanup of AKSettings change for mic sample rate issue |-\|/-| 2018-10-14T01:01:44Z Merged pull request |-\|/-| 1538 +154 −69 swift pbxproj 6|-\|/-| 
+updated doc comment for renderToFile |-\|/-| 2018-10-12T19:39:38Z Merged pull request |-\|/-| 1536 +3 −0 swift 1|-\|/-| 
+add microphone privacy usage for Mojave |-\|/-| 2018-10-12T19:40:17Z Merged pull request |-\|/-| 1535 +4 −0 plist 2|-\|/-| 
+Resume AKDynamicPlayer if it was playing before TimePitch was removed |-\|/-| 2018-10-08T19:51:16Z Merged pull request |-\|/-| 1526 +4 −0 swift 1|-\|/-| 
+Fix typo |-\|/-| 2018-10-07T02:15:42Z Merged pull request |-\|/-| 1524 +1 −1 swift 1|-\|/-| 
+Add a hard shutdown option to AudioKit (e.g. for Media Service Resets) |-\|/-| 2018-10-04T01:12:10Z Merged pull request |-\|/-| 1522 +16 −3 swift 3|-\|/-| 
+Fix input issue and add debug to music track |-\|/-| 2018-10-03T06:58:18Z Merged pull request |-\|/-| 1521 +44 −13 swift 3|-\|/-| 
+Maintain sample rate on simulators |-\|/-| 2018-09-28T23:36:23Z Merged pull request |-\|/-| 1517 +1 −1 swift 1|-\|/-| 
+Reverted AudioKitUI to a static framework |-\|/-| 2018-09-26T17:51:12Z Merged pull request |-\|/-| 1512 +121 −732 pbxproj hpp 6|-\|/-| 
+Remove AKMicrophoneTrackerEngine |-\|/-| 2018-09-22T20:35:31Z Closed pull request |-\|/-| 1509 +31 −122 h swift m pbxproj 6|-\|/-| 
+Renamed node 'disconnect' function overrides to instead override 'detach' |-\|/-| 2018-09-26T17:51:47Z Merged pull request |-\|/-| 1504 +13 −13 swift 13|-\|/-| 
+Prevent error where invalid timestamp is passed to extrapolateTime() |-\|/-| 2018-09-17T23:13:53Z Merged pull request |-\|/-| 1502 +1 −1 c 1|-\|/-| 
+Restructured ModulatedDelay class |-\|/-| 2018-09-17T23:49:48Z Merged pull request |-\|/-| 1501 +207 −185 h hpp mm cpp 7|-\|/-| 
+Minor AKPlayer update. Optional Auto-Fade on stop. |-\|/-| 2018-09-12T02:54:42Z Merged pull request |-\|/-| 1495 +49 −12 swift 5|-\|/-| 
+[WIP] Dynamic AudioKitUI framework |-\|/-| 2018-09-08T03:45:53Z Merged pull request |-\|/-| 1492 +441 −173 swift pbxproj 16|-\|/-| 
+Fix popping issue for input on 6s and above |-\|/-| 2018-09-05T00:15:37Z Merged pull request |-\|/-| 1488 +54 −2 swift md 2|-\|/-| 
+Develop |-\|/-| 2018-08-27T02:02:09Z Merged pull request |-\|/-| 1478 +5 −21 swift c 2|-\|/-| 
+updated docs for clearRange, set Tempo |-\|/-| 2018-08-25T23:46:47Z Merged pull request |-\|/-| 1477 +3 −2 swift 1|-\|/-| 
+Delete _kernel objects in destructor |-\|/-| 2018-08-24T09:50:11Z Merged pull request |-\|/-| 1476 +6 −6 mm 2|-\|/-| 
+Add setting to prevent audio session deactivation |-\|/-| 2018-08-21T19:42:31Z Merged pull request |-\|/-| 1473 +6 −1 swift 2|-\|/-| 
+Added band limiting functionality |-\|/-| 2018-08-21T19:42:09Z Merged pull request |-\|/-| 1471 +1,014 −5 swift 2|-\|/-| 
+Minor AKAudioUnitManager update |-\|/-| 2018-08-16T05:32:43Z Merged pull request |-\|/-| 1468 +36 −3 swift 2|-\|/-| 
+Add printConnections debug function. |-\|/-| 2018-08-15T05:44:35Z Merged pull request |-\|/-| 1467 +50 −0 swift 2|-\|/-| 
+avoid 'is ambiguos for type lookup' error under Xcode 10 |-\|/-| 2018-08-08T12:52:25Z Merged pull request |-\|/-| 1461 +2 −2 swift 1|-\|/-| 
+DSP Object Leak Fix |-\|/-| 2018-08-09T00:05:40Z Merged pull request |-\|/-| 1459 +9 −9 hpp mm 6|-\|/-| 
+AudioUnitManager example update |-\|/-| 2018-08-06T06:41:29Z Merged pull request |-\|/-| 1457 +140 −154 swift pbxproj xib 7|-\|/-| 
+Add a "Reviewed by Hound" badge |-\|/-| 2018-07-31T20:47:48Z Merged pull request |-\|/-| 1456 +1 −0 md 0|-\|/-| 
+Fix: AKNodeRecorder instantiation with existing AKAudioFile |-\|/-| 2018-07-23T18:23:29Z Merged pull request |-\|/-| 1452 +1 −1 swift 1|-\|/-| 
+ Further refinement of sysex handling (retry #1449) |-\|/-| 2018-07-19T21:17:19Z Merged pull request |-\|/-| 1450 +42 −22 swift 4|-\|/-| 
+Further refinement of sysex handling |-\|/-| 2018-07-19T21:17:09Z Closed pull request |-\|/-| 1449 +8,021 −1,771 yml swift h 9|-\|/-| 
+Sysex handling |-\|/-| 2018-07-19T05:44:03Z Merged pull request |-\|/-| 1444 +154 −23 swift pbxproj 7|-\|/-| 
+Added Tap Tempo and set beatTime to 0 when metronome is restarted. |-\|/-| 2018-07-18T05:47:13Z Merged pull request |-\|/-| 1443 +82 −25 pbxproj swift md 4|-\|/-| 
+Fix[Playgrounds]: Playback - Recording Nodes |-\|/-| 2018-07-18T05:46:47Z Merged pull request |-\|/-| 1442 +19 −18 swift xcplayground 4|-\|/-| 
+Updated "Code smell in Swift" URL |-\|/-| 2018-07-13T18:48:10Z Closed pull request |-\|/-| 1439 +1 −1 md 0|-\|/-| 
+Add channel counts to AKDevice |-\|/-| 2018-07-14T03:45:33Z Merged pull request |-\|/-| 1438 +20 −6 swift 2|-\|/-| 
+Sampler docs |-\|/-| 2018-07-12T19:52:27Z Merged pull request |-\|/-| 1436 +14 −2 swift 2|-\|/-| 
+Prevent out-of-bound access in rare cases |-\|/-| 2018-07-12T08:15:17Z Merged pull request |-\|/-| 1434 +11 −2 swift 1|-\|/-| 
+adding function to AKTuningTable to return masterSet values in Cents |-\|/-| 2018-07-10T21:35:52Z Merged pull request |-\|/-| 1431 +6 −0 swift 1|-\|/-| 
+Tuningtable cents metadata |-\|/-| 2018-07-10T21:11:47Z Closed pull request |-\|/-| 1430 +7,744 −1,721 yml swift h 8|-\|/-| 
+ fix for issue #1427, Booster gain clamp removed. |-\|/-| 2018-07-10T18:49:31Z Merged pull request |-\|/-| 1428 +19 −24 swift storyboard 5|-\|/-| 
+Fix incorrect removal of observers in EZMicrophone |-\|/-| 2018-07-08T18:52:20Z Merged pull request |-\|/-| 1425 +14 −8 swift m 2|-\|/-| 
+Fix compile error. |-\|/-| 2018-07-04T04:03:13Z Merged pull request |-\|/-| 1422 +1 −3 swift 1|-\|/-| 
+Develop |-\|/-| 2018-07-03T18:14:41Z Merged pull request |-\|/-| 1420 +54 −30 swift md 1|-\|/-| 
+Fixed incorrect StackOverflow link |-\|/-| 2018-06-22T19:18:06Z Merged pull request |-\|/-| 1414 +1 −1 md 0|-\|/-| 
+Fixed incorrect StackOverflow link |-\|/-| 2018-06-22T09:51:32Z Closed pull request |-\|/-| 1413 +7 −30 md 0|-\|/-| 
+AKDiskStreamer |-\|/-| 2018-06-28T21:23:00Z Merged pull request |-\|/-| 1412 +4,529 −14 h swift 3|-\|/-| 
+AKPlayer: small fix for load() reset start / end times |-\|/-| 2018-06-15T01:49:14Z Merged pull request |-\|/-| 1408 +7 −4 swift 2|-\|/-| 
+AKPlayer: bug fix update |-\|/-| 2018-06-14T18:39:50Z Merged pull request |-\|/-| 1407 +30 −25 swift md 4|-\|/-| 
+AKPlayer: Fader/Gain optimization |-\|/-| 2018-06-14T05:26:08Z Merged pull request |-\|/-| 1406 +64 −34 swift storyboard 5|-\|/-| 
+AKPlayer: Large Refactoring  |-\|/-| 2018-06-13T21:39:32Z Merged pull request |-\|/-| 1405 +1,246 −1,045 swift 9|-\|/-| 
+Ensure any previously created timers are invalidated before creating a new instance |-\|/-| 2018-06-13T21:41:44Z Closed pull request |-\|/-| 1404 +23 −7 swift 1|-\|/-| 
+AKPlayer, one more minor change |-\|/-| 2018-06-12T06:51:42Z Merged pull request |-\|/-| 1401 +6 −3 swift 1|-\|/-| 
+AKPlayer: change to make time pitch support more dynamic |-\|/-| 2018-06-11T21:16:19Z Merged pull request |-\|/-| 1400 +101 −32 swift hpp m 4|-\|/-| 
+Potential fix issue 1311 |-\|/-| 2018-06-11T18:38:39Z Merged pull request |-\|/-| 1399 +8 −9 swift 2|-\|/-| 
+Update README.md |-\|/-| 2018-06-11T18:36:59Z Merged pull request |-\|/-| 1398 +1 −1 md 0|-\|/-| 
+AKSequencer currentRelativePosition  |-\|/-| 2018-06-06T17:07:32Z Closed pull request |-\|/-| 1394 +4 −4 swift 1|-\|/-| 
+sampler tweaks + ui tweaks + default audio session tweaks |-\|/-| 2018-06-07T09:47:21Z Merged pull request |-\|/-| 1392 +29 −8 swift h mm hpp pbxproj 6|-\|/-| 
+Fix for double callback call in `exportAsynchronously` in `AKAudioFile`. |-\|/-| 2018-05-30T22:37:39Z Merged pull request |-\|/-| 1388 +21 −17 swift 1|-\|/-| 
+Develop |-\|/-| 2018-05-30T07:24:48Z Merged pull request |-\|/-| 1386 +208 −10 h swift 5|-\|/-| 
+update aksampler macOS example for filter/eg range |-\|/-| 2018-05-28T20:10:26Z Merged pull request |-\|/-| 1384 +3 −3 storyboard swift 2|-\|/-| 
+whitespace |-\|/-| 2018-05-14T09:50:06Z Closed pull request |-\|/-| 1374 +3,783 −3,783 swift 4|-\|/-| 
+AKTimeSignature and reading time signature events from MIDI file (re issue: #1353, PR #1354) |-\|/-| 2018-05-13T06:15:11Z Merged pull request |-\|/-| 1372 +423 −323 swift 1|-\|/-| 
+AKUI components added and tweaked |-\|/-| 2018-05-11T20:14:15Z Merged pull request |-\|/-| 1371 +485 −93 pbxproj swift 3|-\|/-| 
+Refactoring of Audio Unit Manager |-\|/-| 2018-05-11T01:22:13Z Merged pull request |-\|/-| 1370 +333 −306 swift 1|-\|/-| 
+Many small fixes for AKSequencer/MusicTrack with tests |-\|/-| 2018-05-10T03:00:21Z Merged pull request |-\|/-| 1367 +490 −178 swift 2|-\|/-| 
+Clip recorder refactor |-\|/-| 2018-05-05T00:26:59Z Merged pull request |-\|/-| 1363 +956 −34 swift 3|-\|/-| 
+Clip recorder refactor |-\|/-| 2018-05-04T23:52:03Z Closed pull request |-\|/-| 1362 +4,276 −9,920 gitignore tmpl swift 5|-\|/-| 
+AKPlayer fixes / update |-\|/-| 2018-05-05T00:05:10Z Merged pull request |-\|/-| 1361 +6 −10 swift 1|-\|/-| 
+ Simple Demo Application to show how to load a single external Audio Unit |-\|/-| 2018-05-04T22:35:56Z Merged pull request |-\|/-| 1360 +1,338 −1 wav pbxproj swift 5|-\|/-| 
+Doing a bit of code review while expanding the AudioKit Style Guide |-\|/-| 2018-05-04T20:31:41Z Merged pull request |-\|/-| 1359 +269 −223 swift mm h cpp hpp 16|-\|/-| 
+AKPlayer, Mostly to keep properties in sync |-\|/-| 2018-05-04T01:09:44Z Merged pull request |-\|/-| 1357 +43 −27 swift 2|-\|/-| 
+Time to duration |-\|/-| 2018-05-03T09:13:05Z Merged pull request |-\|/-| 1356 +519 −519 swift hpp mm 5|-\|/-| 
+Develop: read time signature of midi file |-\|/-| 2018-05-10T03:02:35Z Merged pull request |-\|/-| 1354 +100 −1 swift 1|-\|/-| 
+AKSampler code review |-\|/-| 2018-05-02T21:32:39Z Merged pull request |-\|/-| 1352 +329 −303 swift 3|-\|/-| 
+Fleshing out various ramp types to AKParameterRamp |-\|/-| 2018-05-02T05:23:48Z Merged pull request |-\|/-| 1351 +156 −57 swift hpp xcscheme storyboard 8|-\|/-| 
+improvements to akNudger (now with more Int!) |-\|/-| 2018-05-01T01:21:08Z Merged pull request |-\|/-| 1350 +44 −37 swift 3|-\|/-| 
+AUdioKitUI additions and enhancements |-\|/-| 2018-04-28T19:07:18Z Merged pull request |-\|/-| 1348 +325 −158 swift pbxproj 5|-\|/-| 
+Variable type parameter ramper integration |-\|/-| 2018-04-27T22:25:37Z Merged pull request |-\|/-| 1347 +319 −67 swift hpp mm 8|-\|/-| 
+Continuous Deployments from new staging branch |-\|/-| 2018-04-27T07:07:41Z Merged pull request |-\|/-| 1346 +21 −8 sh 3|-\|/-| 
+AKWaveTable |-\|/-| 2018-04-27T07:16:28Z Merged pull request |-\|/-| 1345 +935 −6 h swift 5|-\|/-| 
+PPQN and tests for AKSequencer and AKMusicTrack changes |-\|/-| 2018-04-26T10:17:31Z Merged pull request |-\|/-| 1344 +631 −6 swift 4|-\|/-| 
+Added AKTimePitch into AKPlayer.  New properties: rate and pitch. |-\|/-| 2018-04-26T03:09:35Z Merged pull request |-\|/-| 1343 +48 −6 swift 1|-\|/-| 
+Activating Open Collective |-\|/-| 2018-04-26T03:07:21Z Merged pull request |-\|/-| 1342 +32 −0 md 0|-\|/-| 
+Automated releases with Travis |-\|/-| 2018-04-25T02:43:19Z Merged pull request |-\|/-| 1341 +27 −6 yml json sh 4|-\|/-| 
+Revert "Allow AKSamplePlayer to load and reload files of different sizes" |-\|/-| 2018-04-23T20:05:04Z Merged pull request |-\|/-| 1340 +1 −7 swift hpp 2|-\|/-| 
+Allow AKSamplePlayer to load and reload files of different sizes |-\|/-| 2018-04-23T19:53:14Z Merged pull request |-\|/-| 1339 +7 −1 swift hpp 2|-\|/-| 
+Backwards compatibility for MIDIFileEdit example project |-\|/-| 2018-04-22T22:59:36Z Merged pull request |-\|/-| 1338 +6 −12 pbxproj 1|-\|/-| 
+Frequency Tracker bug fix and AudioKit.swift breakup |-\|/-| 2018-04-20T23:23:55Z Merged pull request |-\|/-| 1337 +544 −418 swift 4|-\|/-| 
+Editing MIDI files with AKSequencer |-\|/-| 2018-04-16T07:18:08Z Merged pull request |-\|/-| 1332 +2,726 −1 swift pbxproj 4|-\|/-| 
+AKError class created |-\|/-| 2018-04-14T06:46:03Z Merged pull request |-\|/-| 1328 +47 −2 swift pbxproj 5|-\|/-| 
+Fix how route/category change observers are managed |-\|/-| 2018-04-26T03:09:18Z Merged pull request |-\|/-| 1323 +83 −94 swift 3|-\|/-| 
+Add clearSysexEvents |-\|/-| 2018-04-10T21:12:10Z Merged pull request |-\|/-| 1322 +10 −2 swift 1|-\|/-| 
+Comments and documentation. |-\|/-| 2018-04-10T18:49:02Z Merged pull request |-\|/-| 1320 +26 −12 swift md 7|-\|/-| 
+Changes to AKSequencer and AKMusicTrack: Set Time Signature, remove MetaEvents |-\|/-| 2018-04-10T09:35:19Z Merged pull request |-\|/-| 1318 +107 −2 swift 2|-\|/-| 
+Clamp AKDynamicsProcessor parameter values to correct ranges |-\|/-| 2018-04-10T08:51:28Z Merged pull request |-\|/-| 1314 +7 −7 swift 1|-\|/-| 
+Fix bypass bug in filters |-\|/-| 2018-04-09T19:08:06Z Merged pull request |-\|/-| 1313 +29 −0 mm hpp 29|-\|/-| 
+Changed file name of the CDelay class from Delay to CDelay |-\|/-| 2018-04-09T19:06:22Z Merged pull request |-\|/-| 1312 +31 −31 cpp h pbxproj 8|-\|/-| 
+updated AudioUnitManager example to show normalization option |-\|/-| 2018-04-07T00:58:45Z Merged pull request |-\|/-| 1308 +76 −11 swift storyboard 5|-\|/-| 
+Normalize buffers and refactoring for AKPlayer and buffer management |-\|/-| 2018-04-06T23:43:09Z Merged pull request |-\|/-| 1306 +251 −133 swift 2|-\|/-| 
+CallbackInstrument can set name correctly |-\|/-| 2018-04-06T18:58:59Z Merged pull request |-\|/-| 1305 +2 −0 swift 2|-\|/-| 
+Fix for non-hidden virtual midi inputs |-\|/-| 2018-04-06T18:53:24Z Merged pull request |-\|/-| 1304 +31 −19 swift 6|-\|/-| 
+Changes to AKPlayer, buffered looping and fades |-\|/-| 2018-04-06T18:27:46Z Merged pull request |-\|/-| 1303 +144 −43 swift pbxproj 5|-\|/-| 
+AKSpeechSynthesis speaks |-\|/-| 2018-04-06T10:21:15Z Merged pull request |-\|/-| 1301 +147 −36 swift pbxproj 2|-\|/-| 
+Change to AKSequencer.loadMIDIFile() for issue 115 |-\|/-| 2018-04-05T17:27:58Z Merged pull request |-\|/-| 1296 +22 −14 swift 1|-\|/-| 
+Changes to AKSequencer.loadMIDIFile() for issue 1155 |-\|/-| 2018-04-05T08:54:38Z Closed pull request |-\|/-| 1295 +22 −14 swift 1|-\|/-| 
+// deleted comments |-\|/-| 2018-04-03T20:31:34Z Merged pull request |-\|/-| 1293 +2 −8 swift 1|-\|/-| 
+Fix for AKPlayer Looping |-\|/-| 2018-04-03T03:59:55Z Merged pull request |-\|/-| 1291 +14 −6 swift 2|-\|/-| 
+Audiobus MIDI Sender example |-\|/-| 2018-03-29T16:59:45Z Merged pull request |-\|/-| 1285 +1,624 −0 pbxproj xcworkspacedata swift json png md 35|-\|/-| 
+Fix AKCompressor connection bug |-\|/-| 2018-03-23T02:34:12Z Merged pull request |-\|/-| 1281 +13 −23 swift 1|-\|/-| 
+pause/resume AKPlayer. |-\|/-| 2018-03-21T05:52:54Z Merged pull request |-\|/-| 1276 +81 −24 swift storyboard 6|-\|/-| 
+made some AudioKit headers public |-\|/-| 2018-03-19T02:26:56Z Merged pull request |-\|/-| 1274 +186 −123 swift 4|-\|/-| 
+EZRecorder / EZMicrophone buffer fix |-\|/-| 2018-03-15T22:24:08Z Merged pull request |-\|/-| 1269 +102 −59 m h 2|-\|/-| 
+AKSamplePlayer + AKMIDIEvent start of improvements |-\|/-| 2018-03-14T04:03:51Z Merged pull request |-\|/-| 1268 +59 −29 swift h mm hpp 8|-\|/-| 
+New sampler |-\|/-| 2018-03-14T04:03:18Z Merged pull request |-\|/-| 1265 +30,128 −122 yaml swift h 5|-\|/-| 
+Adding section about mixing objc and swift |-\|/-| 2018-03-05T10:47:02Z Closed pull request |-\|/-| 1258 +3 −1 md 0|-\|/-| 
+Fix unhandled exception when sending SysEx messages larger than 258 |-\|/-| 2018-03-01T09:32:54Z Merged pull request |-\|/-| 1255 +57 −14 swift 1|-\|/-| 
+README fixes and improvements |-\|/-| 2018-03-05T01:01:56Z Merged pull request |-\|/-| 1253 +38 −42 md 0|-\|/-| 
+Add pitch bend message sending function to MIDI+Sending |-\|/-| 2018-03-01T05:00:55Z Merged pull request |-\|/-| 1251 +13 −0 swift 1|-\|/-| 
+Minor Changes, background Timers in AKPlayer |-\|/-| 2018-02-18T22:44:24Z Merged pull request |-\|/-| 1244 +44 −29 swift 3|-\|/-| 
+Update READMEs for ExtendingAudioKit projects |-\|/-| 2018-02-16T17:48:02Z Merged pull request |-\|/-| 1242 +69 −29 md 0|-\|/-| 
+Have added a gain stage to the player by exposing the gain that is in… |-\|/-| 2018-02-14T19:16:02Z Merged pull request |-\|/-| 1240 +27 −43 swift 1|-\|/-| 
+Modernize chorus and flanger |-\|/-| 2018-02-12T01:58:58Z Merged pull request |-\|/-| 1237 +789 −768 h mm hpp swift 9|-\|/-| 
+Wrap NSException in NSError for AKTry |-\|/-| 2018-02-10T05:38:46Z Merged pull request |-\|/-| 1236 +6 −1 swift 1|-\|/-| 
+Minor fixes |-\|/-| 2018-02-09T19:26:44Z Merged pull request |-\|/-| 1235 +15 −11 swift pbxproj 7|-\|/-| 
+Intercept Objective-C exceptions |-\|/-| 2018-02-10T04:39:07Z Merged pull request |-\|/-| 1234 +176 −42 swift h m pbxproj 10|-\|/-| 
+Add Documentation files for Chorus/Flanger |-\|/-| 2018-02-03T18:15:31Z Merged pull request |-\|/-| 1233 +179 −0 svg md 1|-\|/-| 
+Need help with the AudioTaper Ramper. |-\|/-| 2018-02-09T04:15:51Z Closed pull request |-\|/-| 1231 +60 −9 swift hpp pbxproj 8|-\|/-| 
+Threshold variable in init of AKAmplitudeTracker. |-\|/-| 2018-01-31T21:19:22Z Closed pull request |-\|/-| 1229 +2 −1 swift 1|-\|/-| 
+Fix AKAudioUnitManager.requestInstruments() |-\|/-| 2018-01-30T03:04:00Z Merged pull request |-\|/-| 1225 +3 −4 swift 1|-\|/-| 
+AKPlayer: Changes to remove AKAudioFile properties |-\|/-| 2018-01-27T16:22:43Z Merged pull request |-\|/-| 1220 +18 −14 swift storyboard 3|-\|/-| 
+Exponential Fader in AKPlayer and Booster |-\|/-| 2018-01-27T05:57:27Z Merged pull request |-\|/-| 1219 +208 −107 hpp swift 4|-\|/-| 
+Get normalised position in the same range as old AKSamplePlayer |-\|/-| 2018-01-26T07:38:57Z Merged pull request |-\|/-| 1218 +2 −1 mm 1|-\|/-| 
+Added iOS ExtendingAudioKit example, improved macOS version |-\|/-| 2018-01-26T07:38:15Z Merged pull request |-\|/-| 1217 +1,579 −28 h pbxproj swift json storyboard 7|-\|/-| 
+New example: ExtendingAudioKit (macOS) |-\|/-| 2018-01-24T20:16:13Z Merged pull request |-\|/-| 1215 +2,118 −57 md h 1|-\|/-| 
+Switched AudioKit over to static frameworks |-\|/-| 2018-01-23T19:45:26Z Merged pull request |-\|/-| 1212 +1,224 −641 yml json h hpp 7|-\|/-| 
+Add Chorus and Flanger effects, and a demo program |-\|/-| 2018-01-22T23:55:22Z Merged pull request |-\|/-| 1211 +3,160 −24 h swift mm 5|-\|/-| 
+Making AKSamplePlayer able to be init w/out file |-\|/-| 2018-01-20T08:38:51Z Merged pull request |-\|/-| 1208 +16 −8 swift 1|-\|/-| 
+Allow AKSamplePlayer rate to become negative during playback |-\|/-| 2018-01-20T00:27:47Z Merged pull request |-\|/-| 1207 +6 −2 hpp 1|-\|/-| 
+Added independent volumes for metronome sounds. |-\|/-| 2018-01-20T00:27:34Z Merged pull request |-\|/-| 1206 +54 −2 h m swift 3|-\|/-| 
+Enhanced AKRhinoGuitarProcessor Algorithms (better sounding). |-\|/-| 2018-01-17T00:35:03Z Merged pull request |-\|/-| 1204 +29 −33 cpp hpp 2|-\|/-| 
+Develop |-\|/-| 2018-01-13T02:28:19Z Merged pull request |-\|/-| 1199 +18 −10 mm hpp pbxproj xcscheme 6|-\|/-| 
+AKPlayer bug fix for looping players |-\|/-| 2018-01-12T21:17:23Z Merged pull request |-\|/-| 1198 +41 −25 swift 3|-\|/-| 
+Add ability to override AKRotaryKnob bubble text color |-\|/-| 2018-01-06T03:39:20Z Merged pull request |-\|/-| 1192 +4 −1 swift 1|-\|/-| 
+self? self! to strongSelf |-\|/-| 2018-01-05T02:01:03Z Merged pull request |-\|/-| 1190 +477 −324 swift 17|-\|/-| 
+Allow AudioKit to throw exceptions rather than consume or fail on them |-\|/-| 2018-01-24T02:34:26Z Merged pull request |-\|/-| 1188 +133 −132 swift 2|-\|/-| 
+Suppress umbrella header warnings by including hpp files in the umbre… |-\|/-| 2018-01-04T00:57:23Z Merged pull request |-\|/-| 1187 +12 −3 hpp 3|-\|/-| 
+Make a couple headers public |-\|/-| 2018-01-03T00:47:51Z Merged pull request |-\|/-| 1186 +8 −8 pbxproj 3|-\|/-| 
+Adjust AKMusicTrack.clearRange() method to calculate range duration correctly |-\|/-| 2018-01-02T09:10:07Z Merged pull request |-\|/-| 1185 +190 −12 swift pbxproj 4|-\|/-| 
+AVAudioPCMBuffer extensions refactoring. |-\|/-| 2018-01-01T23:41:58Z Merged pull request |-\|/-| 1184 +59 −43 swift 2|-\|/-| 
+AkRenderTap fix |-\|/-| 2018-01-01T23:04:48Z Merged pull request |-\|/-| 1183 +13 −7 h m 2|-\|/-| 
+Clip completion handler. |-\|/-| 2017-12-30T02:27:17Z Closed pull request |-\|/-| 1181 +11 −4 swift 2|-\|/-| 
+Fixing AudioUnitManager crash with show/hiding windows |-\|/-| 2017-12-30T00:32:14Z Merged pull request |-\|/-| 1180 +73 −61 swift xib 6|-\|/-| 
+Changed AKLog to accept an array of Any instead of a single String |-\|/-| 2017-12-26T21:41:32Z Merged pull request |-\|/-| 1178 +10 −3 swift 1|-\|/-| 
+AudioUnitManager: iOS update |-\|/-| 2017-12-26T19:29:18Z Merged pull request |-\|/-| 1177 +169 −91 swift yml pbxproj 5|-\|/-| 
+Develop |-\|/-| 2017-12-25T08:16:59Z Closed pull request |-\|/-| 1175 +13,799 −7,087 yml 1|-\|/-| 
+AK_ENUM for ObjC/C/C++/Swift enum definition. |-\|/-| 2017-12-22T23:15:44Z Merged pull request |-\|/-| 1174 +47 −0 h pbxproj 5|-\|/-| 
+Fixing start button look and feel #2 |-\|/-| 2017-12-20T03:05:47Z Merged pull request |-\|/-| 1172 +18 −18 storyboard swift 2|-\|/-| 
+Adjusted start button L&F 🆗 |-\|/-| 2017-12-20T00:51:28Z Closed pull request |-\|/-| 1171 +12,967 −6,377 yml 1|-\|/-| 
+ Cleaning up the unit manager, removing the rest of forced optionals |-\|/-| 2017-12-19T20:43:07Z Merged pull request |-\|/-| 1170 +205 −92 swift yml json 6|-\|/-| 
+AKSamplePlayer Tests + Improvement |-\|/-| 2017-12-19T00:22:44Z Merged pull request |-\|/-| 1169 +172 −82 swift h mm hpp pbxproj 5|-\|/-| 
+SamplePlayer parameter adjustments + documentation |-\|/-| 2017-12-18T22:32:10Z Merged pull request |-\|/-| 1168 +52 −39 mm hpp swift wav pbxproj 8|-\|/-| 
+Fixed some typos |-\|/-| 2017-12-18T03:54:47Z Merged pull request |-\|/-| 1166 +120 −120 swift h m hpp cpp 14|-\|/-| 
+Refactoring |-\|/-| 2017-12-17T07:37:25Z Merged pull request |-\|/-| 1165 +311 −330 swift h 13|-\|/-| 
+Removing forced optionals from AudioUnitManager example |-\|/-| 2017-12-16T21:55:09Z Merged pull request |-\|/-| 1162 +109 −86 swift 7|-\|/-| 
+Refactoring |-\|/-| 2017-12-15T22:43:20Z Merged pull request |-\|/-| 1161 +237 −280 swift 9|-\|/-| 
+Fixes, Additions, FileConverter Example |-\|/-| 2017-12-15T21:32:49Z Merged pull request |-\|/-| 1160 +1,863 −288 yml 1|-\|/-| 
+Cleaning up a few things |-\|/-| 2017-12-14T18:08:21Z Closed pull request |-\|/-| 1159 +297 −277 yml 1|-\|/-| 
+Important AKPlayer callback fix 🦔 |-\|/-| 2017-12-13T18:16:06Z Merged pull request |-\|/-| 1158 +18 −20 swift 1|-\|/-| 
+bug fix in AKPlayer if buffered and loading a new audio file of the s… |-\|/-| 2017-12-13T01:03:10Z Merged pull request |-\|/-| 1157 +77 −74 swift xcplayground 6|-\|/-| 
+inflicting style on this macOs development project. |-\|/-| 2017-12-12T18:28:34Z Merged pull request |-\|/-| 1156 +434 −323 swift 1|-\|/-| 
+Change AKTming |-\|/-| 2017-12-10T20:17:09Z Merged pull request |-\|/-| 1154 +170 −104 swift 3|-\|/-| 
+Change AKTiming |-\|/-| 2017-12-10T16:00:54Z Closed pull request |-\|/-| 1153 +7,324 −3,454 swift h mm hpp m 20|-\|/-| 
+Add AKTestTriggers. |-\|/-| 2017-12-09T08:24:42Z Merged pull request |-\|/-| 1151 +138 −4 h m pbxproj 6|-\|/-| 
+AkTimeLine fix |-\|/-| 2017-12-09T01:40:29Z Merged pull request |-\|/-| 1150 +12 −5 c 1|-\|/-| 
+Develop |-\|/-| 2017-12-08T23:48:08Z Merged pull request |-\|/-| 1149 +33 −24 hpp swift 3|-\|/-| 
+Include Bluetooth AD2P and HFP as recognized headphone types |-\|/-| 2017-12-08T06:13:41Z Merged pull request |-\|/-| 1147 +5 −3 swift 1|-\|/-| 
+AKPlayer  |-\|/-| 2017-12-11T22:04:28Z Merged pull request |-\|/-| 1146 +2,168 −1,521 swift 5|-\|/-| 
+Fix ramper (this time for sure!), though not thread safe |-\|/-| 2017-12-06T21:38:50Z Merged pull request |-\|/-| 1144 +8 −9 hpp swift 4|-\|/-| 
+AKSamplePlayer Conversion |-\|/-| 2017-12-06T01:22:14Z Merged pull request |-\|/-| 1143 +157 −167 swift h mm 3|-\|/-| 
+Fix hardcoded MIDI instrument namings |-\|/-| 2017-12-05T07:40:39Z Merged pull request |-\|/-| 1141 +135 −105 swift 7|-\|/-| 
+small fix in AKAudioFile.findPeak |-\|/-| 2017-12-04T18:24:38Z Merged pull request |-\|/-| 1138 +3 −0 swift 1|-\|/-| 
+small bug fix in AKAudioFile.getPeak |-\|/-| 2017-12-04T17:40:31Z Closed pull request |-\|/-| 1137 +6,741 −3,055 swift h mm hpp m 21|-\|/-| 
+More ramper work |-\|/-| 2017-12-04T06:33:28Z Merged pull request |-\|/-| 1136 +5 −5 hpp 2|-\|/-| 
+Develop |-\|/-| 2017-12-03T21:05:59Z Merged pull request |-\|/-| 1135 +25 −8 hpp swift 4|-\|/-| 
+Develop |-\|/-| 2017-12-02T20:57:35Z Closed pull request |-\|/-| 1133 +5,109 −3,098 swift h mm hpp m c 23|-\|/-| 
+Added AKConverter + small marker bug fix in EZAudioFile |-\|/-| 2017-11-29T02:31:30Z Merged pull request |-\|/-| 1131 +498 −5 0|-\|/-| 
+Added start(at) to AKClipPlayer. |-\|/-| 2017-11-21T19:14:41Z Merged pull request |-\|/-| 1129 +5 −0 swift 1|-\|/-| 
+Support for SetParamImmediate |-\|/-| 2017-11-19T00:48:14Z Merged pull request |-\|/-| 1125 +17 −119 h mm hpp swift pbxproj 12|-\|/-| 
+Set param immediate |-\|/-| 2017-11-19T00:44:19Z Closed pull request |-\|/-| 1124 +23,456 −22,026 swift h mm 11|-\|/-| 
+Made AKTiming and AKNodeTiming public |-\|/-| 2017-11-14T10:54:54Z Merged pull request |-\|/-| 1117 +12 −12 swift 1|-\|/-| 
+Deprecated AKOfflineRenderNode in favor of AudioKit.renderToFile. |-\|/-| 2017-11-09T09:00:32Z Merged pull request |-\|/-| 1114 +73 −7 swift h 3|-\|/-| 
+removing empty whitespace lines (for real this time) |-\|/-| 2017-11-07T07:14:33Z Merged pull request |-\|/-| 1111 +20,991 −21,432 swift mm hpp 9|-\|/-| 
+Added completion handler to AKClipPlayer |-\|/-| 2017-11-05T15:53:16Z Closed pull request |-\|/-| 1108 +20 −4 swift 1|-\|/-| 
+fix hard coded key for snare drum sequence track |-\|/-| 2017-10-28T04:36:50Z Merged pull request |-\|/-| 1104 +23 −1 md swift 1|-\|/-| 
+🎶 🛑 Let background audio continue to play when AudioKit is initialized |-\|/-| 2017-11-01T07:24:28Z Merged pull request |-\|/-| 1103 +73 −56 swift 2|-\|/-| 
+Midi Event Fixes + updated aksampleplayer |-\|/-| 2017-10-26T23:53:55Z Merged pull request |-\|/-| 1102 +45 −26 swift hpp 3|-\|/-| 
+fix filter and rez knob alignment in analog synth x |-\|/-| 2017-10-26T23:53:14Z Merged pull request |-\|/-| 1101 +17 −17 storyboard 1|-\|/-| 
+expose more swift methods to objc, etNNPitchBend, @discardableResult, enhance Swift logging |-\|/-| 2017-10-24T06:18:17Z Merged pull request |-\|/-| 1097 +180 −152 swift 6|-\|/-| 
+add btn for AK1 synth to Analog Synth X covering up iPad 2 text |-\|/-| 2017-10-21T22:05:28Z Merged pull request |-\|/-| 1095 +18 −2 storyboard swift 2|-\|/-| 
+Add support for a clip playback completion handler. |-\|/-| 2017-12-30T02:27:42Z Closed pull request |-\|/-| 1091 +11 −4 swift 2|-\|/-| 
+More AudioUnitManager Polishing. |-\|/-| 2017-10-17T19:16:14Z Merged pull request |-\|/-| 1090 +97 −50 swift pbxproj png json 13|-\|/-| 
+making progress on adding definable loop points to aksampleplayer |-\|/-| 2017-10-17T01:09:31Z Merged pull request |-\|/-| 1089 +148 −30 swift h mm hpp pbxproj 7|-\|/-| 
+AU Instrument auto play button |-\|/-| 2017-10-17T00:21:42Z Merged pull request |-\|/-| 1088 +52 −53 xib swift 4|-\|/-| 
+AudioUnitManager update for Bypass development |-\|/-| 2017-10-08T23:29:01Z Merged pull request |-\|/-| 1085 +1,576 −397 swift 2|-\|/-| 
+Fix AK3DPanner and make AKOutput.setOutput format optional |-\|/-| 2017-10-08T23:28:22Z Merged pull request |-\|/-| 1084 +7 −14 swift 2|-\|/-| 
+Find Peak Energy in Time |-\|/-| 2017-10-08T02:09:36Z Merged pull request |-\|/-| 1082 +67 −5 swift pbxproj 4|-\|/-| 
+Andres.fix#1079 |-\|/-| 2017-10-08T02:21:44Z Merged pull request |-\|/-| 1081 +18 −5 swift storyboard m 3|-\|/-| 
+Fix potential AKAudioPlayer crash when using deferred/lazy buffering. |-\|/-| 2017-10-05T23:16:44Z Merged pull request |-\|/-| 1080 +23 −17 swift 1|-\|/-| 
+Updates to Audio Unit Manager |-\|/-| 2017-10-02T08:52:11Z Merged pull request |-\|/-| 1077 +376 −324 0|-\|/-| 
+make AKKeyboard more efficient on TouchesMoved |-\|/-| 2017-09-30T22:06:53Z Merged pull request |-\|/-| 1075 +1 −1 swift 1|-\|/-| 
+Add Display in Analog Synth X to work in iOS 11 |-\|/-| 2017-09-30T20:31:47Z Merged pull request |-\|/-| 1074 +10 −5 storyboard swift 2|-\|/-| 
+Improve checkMixerInputs so that it handles busses > 1 out of range. |-\|/-| 2017-09-30T05:30:54Z Merged pull request |-\|/-| 1072 +12 −5 swift 1|-\|/-| 
+Solving some objc problems |-\|/-| 2017-09-30T05:31:10Z Merged pull request |-\|/-| 1071 +20 −3 swift 3|-\|/-| 
+Built in a workaround for empty mixer on running engine bug. |-\|/-| 2017-09-28T21:56:55Z Merged pull request |-\|/-| 1069 +36 −0 swift 1|-\|/-| 
+Mixer connection saftey |-\|/-| 2017-09-28T06:01:37Z Merged pull request |-\|/-| 1068 +29 −12 swift 3|-\|/-| 
+akmidievent program change length changed from 2->3 |-\|/-| 2017-09-27T20:30:14Z Closed pull request |-\|/-| 1067 +1 −1 swift 1|-\|/-| 
+correct MIDI note output on AKKeyboardView |-\|/-| 2017-09-24T21:11:38Z Merged pull request |-\|/-| 1063 +6 −4 swift 1|-\|/-| 
+Added some missing @objc  |-\|/-| 2017-09-24T06:41:15Z Merged pull request |-\|/-| 1062 +1,191 −2 0|-\|/-| 
+Added some missing @objc |-\|/-| 2017-09-24T00:48:21Z Closed pull request |-\|/-| 1061 +1,191 −2 0|-\|/-| 
+Changed AKClipPlayer's clips property to accept objects that conform … |-\|/-| 2017-09-24T01:06:44Z Merged pull request |-\|/-| 1060 +2 −2 swift 1|-\|/-| 
+fix costello reverb playground xcode 9 |-\|/-| 2017-09-22T22:10:01Z Merged pull request |-\|/-| 1059 +2 −2 swift 1|-\|/-| 
+Documentation Returns -> Return :/ |-\|/-| 2017-09-22T19:12:22Z Merged pull request |-\|/-| 1058 +2 −2 swift 1|-\|/-| 
+Document connection syntax |-\|/-| 2017-09-22T00:35:23Z Merged pull request |-\|/-| 1057 +70 −6 swift 1|-\|/-| 
+Update README.md |-\|/-| 2017-09-21T21:37:30Z Merged pull request |-\|/-| 1055 +1 −1 md 0|-\|/-| 
+FattenConnection |-\|/-| 2017-09-19T06:19:21Z Merged pull request |-\|/-| 1052 +9 −5 swift 1|-\|/-| 
+syntax fix for dataSources in inputDevices |-\|/-| 2017-09-15T22:23:58Z Merged pull request |-\|/-| 1048 +2 −2 swift 1|-\|/-| 
+MIDI Utility and improved sysex sending |-\|/-| 2017-09-14T21:34:24Z Merged pull request |-\|/-| 1045 +939 −191 swift pbxproj xcscheme json png storyboard 11|-\|/-| 
+Swift 4 fixes to example projects for AudioUnitManager |-\|/-| 2017-09-12T19:55:15Z Merged pull request |-\|/-| 1043 +48 −35 swift pbxproj 6|-\|/-| 
+Fixes for AKNodeOutputPlot and HelloWorld examples |-\|/-| 2017-09-12T16:19:45Z Merged pull request |-\|/-| 1042 +20 −26 swift storyboard m 8|-\|/-| 
+Spelling for documentation |-\|/-| 2017-09-12T01:42:56Z Merged pull request |-\|/-| 1041 +1 −1 swift 1|-\|/-| 
+RandomClips add AudioKitUI |-\|/-| 2017-09-10T19:21:12Z Merged pull request |-\|/-| 1040 +6 −0 pbxproj 1|-\|/-| 
+Alternate to ak unit defines |-\|/-| 2017-09-28T08:47:59Z Merged pull request |-\|/-| 1039 +1,279 −9 h mm 3|-\|/-| 
+RandomClips macOS example |-\|/-| 2017-09-09T07:35:45Z Merged pull request |-\|/-| 1038 +1,435 −10 swift 4|-\|/-| 
+AkClipPlayer |-\|/-| 2017-09-08T05:59:44Z Merged pull request |-\|/-| 1037 +1,305 −0 swift 4|-\|/-| 
+Add option to lazilly buffer AKAudioPlayer's AKAudioFile. |-\|/-| 2017-09-06T20:50:56Z Merged pull request |-\|/-| 1034 +10 −5 swift 1|-\|/-| 
+* whitespace + some refactoring |-\|/-| 2017-09-05T21:07:36Z Merged pull request |-\|/-| 1033 +6,292 −6,326 swift 5|-\|/-| 
+aksampleplayer |-\|/-| 2017-09-02T02:43:38Z Merged pull request |-\|/-| 1028 +15 −12 swift hpp 2|-\|/-| 
+AKTimelineTap  |-\|/-| 2017-09-01T19:03:40Z Merged pull request |-\|/-| 1027 +10 −15 swift 1|-\|/-| 
+AKTimelineTap |-\|/-| 2017-09-01T00:42:33Z Merged pull request |-\|/-| 1026 +1,306 −4 h 2|-\|/-| 
+AKTimeline |-\|/-| 2017-08-31T01:56:40Z Merged pull request |-\|/-| 1024 +783 −102 h c 2|-\|/-| 
+AKPresetManager |-\|/-| 2017-08-31T00:07:02Z Closed pull request |-\|/-| 1023 +596 −0 h m 3|-\|/-| 
+notes + aksampleplayer memory leak |-\|/-| 2017-08-31T01:56:20Z Merged pull request |-\|/-| 1021 +9 −9 swift hpp xcscheme 4|-\|/-| 
+AKTimeline |-\|/-| 2017-08-29T05:41:39Z Merged pull request |-\|/-| 1019 +545 −3 c 1|-\|/-| 
+Error logs added to guard let functions |-\|/-| 2017-08-28T23:19:42Z Merged pull request |-\|/-| 1018 +380 −72 swift 14|-\|/-| 
+sysex improvements |-\|/-| 2017-08-28T21:42:03Z Merged pull request |-\|/-| 1017 +6 −9 swift 1|-\|/-| 
+AKAUPresetBuilder cleanup |-\|/-| 2017-08-28T20:52:37Z Merged pull request |-\|/-| 1016 +2 −4 swift 1|-\|/-| 
+Split up UI in its own AudioKitUI framework |-\|/-| 2017-08-27T02:02:57Z Merged pull request |-\|/-| 1014 +1,441 −436 json swift h m 27|-\|/-| 
+AKRenderTapAKLazyTap3rdTry |-\|/-| 2017-08-25T00:18:59Z Merged pull request |-\|/-| 1013 +307 −92 h c m 6|-\|/-| 
+TPCircularBufferUnit |-\|/-| 2017-08-25T00:18:32Z Merged pull request |-\|/-| 1012 +238 −6 h c pbxproj 5|-\|/-| 
+Pulled render notify out of AKLazyTap and into a base class. |-\|/-| 2017-08-24T04:28:03Z Merged pull request |-\|/-| 1011 +242 −81 h m 4|-\|/-| 
+AVLazyTap |-\|/-| 2017-08-23T05:30:44Z Merged pull request |-\|/-| 1010 +1,162 −260 h 1|-\|/-| 
+AKMusicTrack music track init bug fix. |-\|/-| 2017-08-23T05:02:13Z Merged pull request |-\|/-| 1006 +95 −39 swift pbxproj xcscheme storyboard 5|-\|/-| 
+Added lock on microphone while a phone call is in progress |-\|/-| 2017-08-16T07:08:55Z Merged pull request |-\|/-| 1005 +13 −1 swift 1|-\|/-| 
+Fixed potential crash from accessing connectionPoints before attached to engine. |-\|/-| 2017-08-16T05:12:05Z Merged pull request |-\|/-| 1004 +1 −1 swift 1|-\|/-| 
+Implement AKInput for AVAudioNode |-\|/-| 2017-08-15T14:41:32Z Merged pull request |-\|/-| 1003 +16 −1 swift 1|-\|/-| 
+Added instruments to the Host Manager example for iOS |-\|/-| 2017-08-15T03:40:05Z Merged pull request |-\|/-| 1002 +194 −36 swift pbxproj storyboard plist 5|-\|/-| 
+Implement AKInput |-\|/-| 2017-08-14T21:28:01Z Merged pull request |-\|/-| 1001 +361 −339 swift 16|-\|/-| 
+Added the AudioUnitManagerExample-iOS |-\|/-| 2017-08-14T17:30:39Z Merged pull request |-\|/-| 1000 +1,546 −6 swift pbxproj 2|-\|/-| 
+AKConnection changes |-\|/-| 2017-08-13T20:55:53Z Merged pull request |-\|/-| 999 +73 −54 swift 1|-\|/-| 
+animate unhighlighting of AKButton |-\|/-| 2017-08-13T12:29:32Z Merged pull request |-\|/-| 998 +48 −3 swift 2|-\|/-| 
+change button color when highlighted |-\|/-| 2017-08-13T07:01:36Z Merged pull request |-\|/-| 997 +59 −4 swift 2|-\|/-| 
+AkNode io connections |-\|/-| 2017-08-12T18:44:31Z Merged pull request |-\|/-| 996 +150 −24 swift pbxproj 4|-\|/-| 
+Removed input disconnection functions. |-\|/-| 2017-08-12T17:18:35Z Closed pull request |-\|/-| 995 +146 −24 swift pbxproj 3|-\|/-| 
+Ak node io connections |-\|/-| 2017-08-12T00:25:28Z Merged pull request |-\|/-| 993 +66 −25 swift 5|-\|/-| 
+Added Playgrounds for AKDynaRageCompressor and AKRhinoGuitarProcessor |-\|/-| 2017-08-12T00:24:45Z Merged pull request |-\|/-| 992 +180 −0 swift wav xcplayground 4|-\|/-| 
+Develop |-\|/-| 2017-08-11T17:43:45Z Merged pull request |-\|/-| 990 +6,222 −0 h hpp cpp 5|-\|/-| 
+Offlinerender |-\|/-| 2017-08-11T06:03:19Z Merged pull request |-\|/-| 989 +672 −35 h swift mm 4|-\|/-| 
+Song processor update |-\|/-| 2017-08-10T21:35:15Z Merged pull request |-\|/-| 988 +151 −78 swift 4|-\|/-| 
+Song processor update |-\|/-| 2017-08-10T21:24:44Z Closed pull request |-\|/-| 987 +153 −80 swift 5|-\|/-| 
+Refactored AKAudioPlayer for offline render compatibility, and for safer synchronization of start. |-\|/-| 2017-08-10T19:02:31Z Merged pull request |-\|/-| 985 +16 −9 swift 1|-\|/-| 
+Made AKSettings.BufferLength samplesCount and duration public. |-\|/-| 2017-08-10T18:21:48Z Merged pull request |-\|/-| 984 +2 −2 swift 1|-\|/-| 
+Preset and file views for iOS |-\|/-| 2017-08-09T17:46:18Z Merged pull request |-\|/-| 979 +408 −210 swift 1|-\|/-| 
+Minor changes to the Audio Unit Host |-\|/-| 2017-08-09T03:58:55Z Merged pull request |-\|/-| 978 +14 −24 swift m 3|-\|/-| 
+added AbletonLinkDemo example along with AbletonLinkWrapper API |-\|/-| 2017-08-03T18:16:18Z Closed pull request |-\|/-| 975 +62,877 −0 pbxproj swift h 3|-\|/-| 
+Reset engine connections sample rate and channel count when replacing… |-\|/-| 2017-08-03T09:22:36Z Merged pull request |-\|/-| 973 +8 −4 swift 1|-\|/-| 
+Feature/audioplayer seek fix |-\|/-| 2017-08-03T09:19:13Z Merged pull request |-\|/-| 972 +8 −12 swift 1|-\|/-| 
+Set markers in EZAudioFile |-\|/-| 2017-08-02T22:24:30Z Merged pull request |-\|/-| 971 +56 −1 h m pbxproj 3|-\|/-| 
+Additions for AKAudioUnitManager + Example macOS project |-\|/-| 2017-08-01T23:25:55Z Merged pull request |-\|/-| 968 +2,996 −1 swift 1|-\|/-| 
+new design for preset and file loaders, and |-\|/-| 2017-07-31T18:02:33Z Merged pull request |-\|/-| 967 +295 −106 swift 2|-\|/-| 
+AKMixer fix |-\|/-| 2017-07-30T19:09:26Z Merged pull request |-\|/-| 966 +44 −18 swift pbxproj 2|-\|/-| 
+A few small changes, AKBooster |-\|/-| 2017-07-26T18:58:45Z Merged pull request |-\|/-| 965 +48 −34 swift 4|-\|/-| 
+Rotary knob and button |-\|/-| 2017-07-25T07:21:16Z Merged pull request |-\|/-| 964 +1,149 −59 swift pbxproj 4|-\|/-| 
+Update Knobs from PNG to Code! |-\|/-| 2017-07-23T22:59:06Z Merged pull request |-\|/-| 962 +339 −516 pbxproj json png 19|-\|/-| 
+Fix logic problem in AudioKit's start |-\|/-| 2017-07-18T05:30:25Z Merged pull request |-\|/-| 959 +32 −34 swift 2|-\|/-| 
+New property slider |-\|/-| 2017-07-17T21:08:01Z Merged pull request |-\|/-| 958 +577 −166 0|-\|/-| 
+Fixing crash from route/category changes when app is not active  |-\|/-| 2017-07-16T22:46:39Z Merged pull request |-\|/-| 956 +59 −11 swift 3|-\|/-| 
+Refactor of start() for readability and bug fixes. |-\|/-| 2017-07-15T00:12:27Z Merged pull request |-\|/-| 955 +62 −35 swift 2|-\|/-| 
+AKMIDITransformer and playgrounds |-\|/-| 2017-07-10T20:10:53Z Merged pull request |-\|/-| 952 +465 −7 gitignore swift pbxproj wav xcplayground 11|-\|/-| 
+Fixed Two Scala File Parsing Bugs |-\|/-| 2017-07-07T22:44:04Z Closed pull request |-\|/-| 951 +2,152 −2,767 yaml swift h 5|-\|/-| 
+fixed resettointi musictrack bug |-\|/-| 2017-07-06T17:30:04Z Merged pull request |-\|/-| 949 +7 −7 swift pbxproj 2|-\|/-| 
+removed unused in progress code |-\|/-| 2017-07-06T17:02:32Z Merged pull request |-\|/-| 948 +1 −10 swift 1|-\|/-| 
+music tracks |-\|/-| 2017-07-06T02:36:22Z Merged pull request |-\|/-| 947 +68 −75 swift pbxproj 3|-\|/-| 
+Sampler Demo fixes |-\|/-| 2017-07-05T23:16:57Z Merged pull request |-\|/-| 946 +100 −11 swift hpp pbxproj 5|-\|/-| 
+Fix iOS 11 crash when AKAudioPlayer stops internal |-\|/-| 2017-07-05T23:15:22Z Merged pull request |-\|/-| 945 +3 −1 swift 1|-\|/-| 
+Make AKMicrophoneTrackerEngine SoundPipe parameters on par with AKFrequencyTracker |-\|/-| 2017-07-03T01:53:33Z Merged pull request |-\|/-| 943 +4 −1 m 1|-\|/-| 
+Create CODE_OF_CONDUCT.md |-\|/-| 2017-06-28T22:37:05Z Merged pull request |-\|/-| 939 +46 −0 md 0|-\|/-| 
+rename route change handling setting to enableRouteChangeHandling |-\|/-| 2017-06-28T19:05:18Z Merged pull request |-\|/-| 938 +3 −3 swift 2|-\|/-| 
+add setting allowing developer to handle AVAudioSessionRouteChange no… |-\|/-| 2017-06-25T19:11:09Z Merged pull request |-\|/-| 936 +14 −7 swift 2|-\|/-| 
+update effects playgrounds with dry loops |-\|/-| 2017-06-16T23:52:16Z Merged pull request |-\|/-| 934 +4 −4 swift mp3 5|-\|/-| 
+fix playground text ‘makensure’ to ‘make sure’ |-\|/-| 2017-06-14T18:05:33Z Merged pull request |-\|/-| 932 +1 −1 swift 1|-\|/-| 
+Bug fix for AKNode.addConnectionPoint |-\|/-| 2017-06-12T09:11:53Z Merged pull request |-\|/-| 931 +1 −1 swift 1|-\|/-| 
+Offline render feature |-\|/-| 2017-08-10T19:03:45Z Closed pull request |-\|/-| 928 +1,249 −11 h mm swift 7|-\|/-| 
+minor cleanup amplitudetracker |-\|/-| 2017-05-26T22:55:50Z Merged pull request |-\|/-| 921 +16 −4 swift h mm hpp 4|-\|/-| 
+Fix: AKTimePitch CPU usage stay high when bypassed |-\|/-| 2017-05-26T17:15:29Z Merged pull request |-\|/-| 920 +3 −13 swift 1|-\|/-| 
+Remove unnecessary code from AKNodeRecorder.record |-\|/-| 2017-05-26T17:13:41Z Merged pull request |-\|/-| 919 +0 −27 swift 1|-\|/-| 
+Fix: AKNodeRecorder.reset() fail to delete the recorder file |-\|/-| 2017-05-25T18:25:37Z Merged pull request |-\|/-| 916 +1 −1 swift 1|-\|/-| 
+Fix: cannot create an AKAudioFile with space in name via init(writeIn… |-\|/-| 2017-05-24T22:27:46Z Merged pull request |-\|/-| 915 +3 −3 swift 1|-\|/-| 
+updates to aksampler |-\|/-| 2017-05-24T01:28:09Z Merged pull request |-\|/-| 912 +17 −4 swift h mm hpp 4|-\|/-| 
+initial loadSound function for sampleplayer |-\|/-| 2017-05-23T00:39:49Z Merged pull request |-\|/-| 911 +43 −38 swift 1|-\|/-| 
+better init and documentation and safety of aksampleplayer |-\|/-| 2017-05-22T19:03:55Z Merged pull request |-\|/-| 910 +39 −23 swift h mm hpp 4|-\|/-| 
+Add Pitch Bend to AKMusicTrack |-\|/-| 2017-05-22T06:54:18Z Merged pull request |-\|/-| 909 +33 −0 swift 1|-\|/-| 
+Add Pitch Bend To AKMusikTrack |-\|/-| 2017-05-21T19:45:29Z Closed pull request |-\|/-| 908 +25 −0 swift 1|-\|/-| 
+aksampleplayer added |-\|/-| 2017-05-21T03:09:31Z Merged pull request |-\|/-| 906 +601 −0 h swift mm 4|-\|/-| 
+Fix an error when creating a mono AKAudioFile from floats |-\|/-| 2017-05-21T03:09:03Z Merged pull request |-\|/-| 904 +1 −1 swift 1|-\|/-| 
+Updated pull request for Audio Fades + playground |-\|/-| 2017-05-12T00:10:04Z Merged pull request |-\|/-| 895 +44 −12 swift 2|-\|/-| 
+Added default play() method to AKAudioPlayer + playground update |-\|/-| 2017-05-11T21:23:46Z Closed pull request |-\|/-| 894 +159 −16 swift 3|-\|/-| 
+Added sample based fade in/out to AKAudioPlayer |-\|/-| 2017-05-11T19:27:14Z Merged pull request |-\|/-| 893 +88 −1 swift 1|-\|/-| 
+Minor Correction MidiMonitor Example to handle Pitch Wheel (issue #886) |-\|/-| 2017-05-11T17:51:18Z Merged pull request |-\|/-| 892 +1 −1 swift 1|-\|/-| 
+Fix AKMicrophoneTrackerEngine stop method and remove implicit start on init |-\|/-| 2017-05-10T00:38:31Z Merged pull request |-\|/-| 889 +1 −2 m 1|-\|/-| 
+Fix tiny bug in new AKMicrophoneTrackerEngine |-\|/-| 2017-05-09T20:53:32Z Closed pull request |-\|/-| 888 +2,502 −419 md gitignore json swift h m 11|-\|/-| 
+EndpointInfo structure created for having more information about the EndPoint |-\|/-| 2017-05-10T01:23:52Z Merged pull request |-\|/-| 887 +64 −4 swift pbxproj 2|-\|/-| 
+Fix disconnect method for nodes that access _Self.effect |-\|/-| 2017-05-09T09:42:13Z Merged pull request |-\|/-| 885 +49 −14 swift 11|-\|/-| 
+Disconnect AKNode subclasses safely |-\|/-| 2017-05-08T22:06:36Z Merged pull request |-\|/-| 884 +66 −8 swift 6|-\|/-| 
+Add AKFMOscillatorBankMonophonic and AKOscillatorBankMonophonic |-\|/-| 2017-05-08T06:57:04Z Closed pull request |-\|/-| 883 +301 −1 h swift mm 9|-\|/-| 
+Add missing check for engine isRunning after restartEngineAfterRouteChange |-\|/-| 2017-05-08T06:17:10Z Merged pull request |-\|/-| 882 +1 −1 swift 1|-\|/-| 
+A small correction of openOutput() function |-\|/-| 2017-05-06T17:12:39Z Merged pull request |-\|/-| 881 +16 −7 swift 1|-\|/-| 
+openOutput() correction: Select one with given name or all |-\|/-| 2017-05-06T12:23:03Z Closed pull request |-\|/-| 880 +2,173 −395 md gitignore json swift m 8|-\|/-| 
+AKMIDI+SendingMIDI.swift func openOutput() correction |-\|/-| 2017-05-06T02:05:20Z Closed pull request |-\|/-| 879 +2,173 −395 md gitignore json swift m 8|-\|/-| 
+Microtonality release candidate |-\|/-| 2017-05-05T03:50:06Z Merged pull request |-\|/-| 878 +219 −58 swift h mm hpp 10|-\|/-| 
+added microtonality files to macos and tvOS projects |-\|/-| 2017-05-03T02:01:09Z Merged pull request |-\|/-| 874 +72 −27 swift pbxproj 6|-\|/-| 
+Finessing Microtonality |-\|/-| 2017-05-02T19:29:47Z Merged pull request |-\|/-| 873 +221 −65 swift 4|-\|/-| 
+Update Mac OS X AudioKit with new Microtonality subdirectory structure |-\|/-| 2017-05-01T22:24:34Z Closed pull request |-\|/-| 872 +37 −5 pbxproj 1|-\|/-| 
+Split AKTuningTable into extensions, move into Microtonality subdirectory |-\|/-| 2017-05-01T07:11:35Z Merged pull request |-\|/-| 870 +454 −170 swift 4|-\|/-| 
+Fix export error |-\|/-| 2017-04-28T16:13:21Z Closed pull request |-\|/-| 867 +1 −1 swift 1|-\|/-| 
+Fixed exception in Scala file parsing: |-\|/-| 2017-04-28T04:53:38Z Merged pull request |-\|/-| 865 +8 −5 swift 1|-\|/-| 
+Suppressed AKTuningTable warnings...have merge questions |-\|/-| 2017-04-27T06:02:03Z Merged pull request |-\|/-| 863 +167 −10 swift scl pbxproj xcplayground 5|-\|/-| 
+AkTuningTable proposal |-\|/-| 2017-04-26T22:28:27Z Closed pull request |-\|/-| 860 +649 −75 swift 3|-\|/-| 
+Possible fix for issue #856  |-\|/-| 2017-04-22T06:51:23Z Merged pull request |-\|/-| 858 +2 −5 m 1|-\|/-| 
+File asset URL changed to `file://` scheme |-\|/-| 2017-04-22T07:13:54Z Merged pull request |-\|/-| 851 +1 −1 swift 1|-\|/-| 
+Adding rate functionality for MusicPlayer based sequencers |-\|/-| 2017-04-06T05:50:07Z Merged pull request |-\|/-| 840 +20 −12 swift 2|-\|/-| 
+AKTuningTable.swift proposal |-\|/-| 2017-04-25T06:07:56Z Closed pull request |-\|/-| 838 +615 −76 swift 3|-\|/-| 
+Fixed memory leaks in AKSequencer and AKMusicTrack |-\|/-| 2017-04-05T01:11:03Z Merged pull request |-\|/-| 837 +8 −5 swift 2|-\|/-| 
+Added constructor to AKMixer.swift to accept a swift array of AKNode … |-\|/-| 2017-04-03T17:21:17Z Merged pull request |-\|/-| 835 +13 −0 swift 1|-\|/-| 
+Sporth Custom Ugen: Renamed fp to funcPtr to remove ambiguity. |-\|/-| 2017-04-02T02:47:33Z Merged pull request |-\|/-| 834 +3 −3 h hpp 3|-\|/-| 
+Fix AKAudioPlayer Looping Drift |-\|/-| 2017-04-02T04:19:37Z Merged pull request |-\|/-| 833 +106 −19 swift pbxproj 3|-\|/-| 
+Set aftertouch msg length |-\|/-| 2017-04-01T17:42:27Z Closed pull request |-\|/-| 832 +28 −14 yml swift 4|-\|/-| 
+Fixed Typo in README.md |-\|/-| 2017-03-31T02:19:33Z Merged pull request |-\|/-| 829 +1 −1 md 0|-\|/-| 
+fixed midi pitch bend crash |-\|/-| 2017-03-30T23:27:25Z Merged pull request |-\|/-| 827 +3 −3 swift 2|-\|/-| 
+minor midi opening up |-\|/-| 2017-03-30T06:51:19Z Merged pull request |-\|/-| 826 +19 −10 swift 1|-\|/-| 
+Fix #817  |-\|/-| 2017-03-27T18:31:30Z Merged pull request |-\|/-| 818 +8 −0 swift 2|-\|/-| 
+Use actual number of channels instead of hardcoding to 2 |-\|/-| 2017-03-24T01:22:07Z Merged pull request |-\|/-| 816 +2 −2 swift 1|-\|/-| 
+Move notification handling code to main thread/queue |-\|/-| 2017-03-23T01:17:24Z Merged pull request |-\|/-| 811 +32 −25 swift 2|-\|/-| 
+Update ViewController.swift |-\|/-| 2017-03-19T00:25:24Z Merged pull request |-\|/-| 806 +4 −8 swift 1|-\|/-| 
+Update ViewController.swift |-\|/-| 2017-03-18T17:20:35Z Closed pull request |-\|/-| 805 +4 −8 swift 1|-\|/-| 
+Tuning table proposal |-\|/-| 2017-03-18T07:24:44Z Closed pull request |-\|/-| 804 +11,906 −9,789 yml swift 4|-\|/-| 
+Enable adding custom Sporth ugens written in Swift |-\|/-| 2017-03-18T05:42:22Z Merged pull request |-\|/-| 802 +336 −7 h swift mm hpp 14|-\|/-| 
+Allow more precise control of audio session bluetooth options |-\|/-| 2017-03-17T17:48:04Z Merged pull request |-\|/-| 801 +9 −0 swift 2|-\|/-| 
+Silence string interpolation warnings |-\|/-| 2017-03-17T22:45:32Z Closed pull request |-\|/-| 800 +11 −11 swift 4|-\|/-| 
+Correctly set session to use `.defaultToSpeaker` option in recorder demo |-\|/-| 2017-03-16T16:21:30Z Merged pull request |-\|/-| 799 +1 −4 swift 1|-\|/-| 
+Fix memory leak when init() is called more than once |-\|/-| 2017-03-15T02:08:40Z Merged pull request |-\|/-| 794 +5 −3 c hpp 2|-\|/-| 
+Proposed fix to EZAudioPlot continuous redraw of non-rolling waveform |-\|/-| 2017-03-10T08:00:24Z Merged pull request |-\|/-| 788 +4 −1 m 1|-\|/-| 
+brought back in proper tempo adjustment if sequence is not playing |-\|/-| 2017-03-03T20:32:48Z Merged pull request |-\|/-| 773 +5 −2 swift 1|-\|/-| 
+fixing swiftlint issues |-\|/-| 2017-03-03T04:58:57Z Closed pull request |-\|/-| 772 +10 −13 swift 3|-\|/-| 
+Bluetooth updates |-\|/-| 2017-03-01T20:27:02Z Merged pull request |-\|/-| 770 +71 −14 swift 2|-\|/-| 
+[AKRecorderNode] - small refactor |-\|/-| 2017-02-28T05:09:43Z Merged pull request |-\|/-| 765 +7 −11 swift 1|-\|/-| 
+[AKAudioFile+Processing]: use unique random names if no filename is p… |-\|/-| 2017-02-26T08:32:46Z Merged pull request |-\|/-| 764 +8 −8 swift 1|-\|/-| 
+Made Nodes KVO capable |-\|/-| 2017-02-24T22:37:24Z Merged pull request |-\|/-| 761 +400 −400 swift 9|-\|/-| 
+added touch logic polyphonic and mono keyboard modes |-\|/-| 2017-02-24T07:22:00Z Merged pull request |-\|/-| 759 +98 −47 swift 1|-\|/-| 
+Create URL for export session with fileURLWithPath |-\|/-| 2017-02-21T23:23:38Z Merged pull request |-\|/-| 756 +1 −1 swift 1|-\|/-| 
+Change to project settings |-\|/-| 2017-02-17T07:11:19Z Merged pull request |-\|/-| 751 +18 −13 h m pbxproj 7|-\|/-| 
+Added loadBankSoundFont |-\|/-| 2017-02-12T02:16:23Z Merged pull request |-\|/-| 744 +33 −0 swift 1|-\|/-| 
+AKAudioPlayer scheduling fix |-\|/-| 2017-02-11T00:26:40Z Merged pull request |-\|/-| 740 +79 −24 swift 1|-\|/-| 
+Unclamped the detuning multiplier |-\|/-| 2017-02-09T21:46:18Z Merged pull request |-\|/-| 737 +45 −45 mm hpp 18|-\|/-| 
+reversed change that broke midi processing |-\|/-| 2017-02-07T18:12:32Z Merged pull request |-\|/-| 733 +13 −6 swift 1|-\|/-| 
+* code golfing midipacketlist |-\|/-| 2017-02-02T03:32:35Z Merged pull request |-\|/-| 721 +6 −13 swift 1|-\|/-| 
+Develop3 |-\|/-| 2017-02-11T00:27:26Z Closed pull request |-\|/-| 718 +160 −166 swift 8|-\|/-| 
+midipacketlist sequencing 2: the unsuckification |-\|/-| 2017-01-29T07:30:57Z Merged pull request |-\|/-| 716 +46 −104 swift 4|-\|/-| 
+Memory error in DSPKernel |-\|/-| 2017-01-28T02:30:28Z Merged pull request |-\|/-| 715 +13 −6 hpp swift 6|-\|/-| 
+print->aklog |-\|/-| 2017-01-26T17:38:31Z Merged pull request |-\|/-| 714 +2 −2 swift 1|-\|/-| 
+Let AKSampler propagate exceptions |-\|/-| 2017-01-26T17:35:40Z Merged pull request |-\|/-| 712 +29 −26 swift 2|-\|/-| 
+syntax fixes and midiinput rollback |-\|/-| 2017-01-26T01:37:34Z Merged pull request |-\|/-| 711 +26 −11 swift 2|-\|/-| 
+Added deinit methods to cleanup framework references |-\|/-| 2017-01-24T18:54:41Z Merged pull request |-\|/-| 708 +32 −0 swift 4|-\|/-| 
+added resources |-\|/-| 2017-01-24T18:54:11Z Merged pull request |-\|/-| 707 +6 −0 md 0|-\|/-| 
+updated midi monitor to match recent midi changes |-\|/-| 2017-01-24T01:02:33Z Merged pull request |-\|/-| 706 +7 −11 swift 1|-\|/-| 
+AKAudioPlayer reverse playback - pull#2 |-\|/-| 2017-01-24T01:01:27Z Merged pull request |-\|/-| 705 +86 −34 swift xcplayground 7|-\|/-| 
+AKAudioPlayer in reverse |-\|/-| 2017-01-23T18:54:42Z Closed pull request |-\|/-| 703 +75 −29 gitignore yml json yaml swift h mm hpp m c txt AudioKit/Common/Internals/Soundpipe/lib/kissfft/COPYING AudioKit/Common/Internals/Soundpipe/lib/kissfft/README 299|-\|/-| 
+Fix for issue: Pause / Play broken on AKAudioPlayer #686 |-\|/-| 2017-01-20T20:26:45Z Merged pull request |-\|/-| 702 +4 −1 swift 1|-\|/-| 
+* refactored SessionCategory |-\|/-| 2017-01-21T07:06:07Z Merged pull request |-\|/-| 701 +80 −93 swift h 5|-\|/-| 
+Fix crash with AKMIDISampler and AKSequencer |-\|/-| 2017-01-21T06:58:36Z Merged pull request |-\|/-| 700 +69 −18 swift 3|-\|/-| 
+AKMIDIBluetoothWindow |-\|/-| 2017-01-20T04:50:23Z Merged pull request |-\|/-| 699 +93 −9 h swift pbxproj storyboard 7|-\|/-| 
+Fixes for Issue #682 |-\|/-| 2017-01-19T22:23:05Z Merged pull request |-\|/-| 697 +617 −613 m swift 11|-\|/-| 
+Export more of AKSettings to Objective-C APIs |-\|/-| 2017-01-17T04:57:17Z Merged pull request |-\|/-| 694 +49 −32 swift 2|-\|/-| 
+fun times. note that some of this is work in progress (e.g. the avaudionode extension + AKKernelUnit) but i need to keep track of it somewhere |-\|/-| 2017-01-19T23:13:47Z Merged pull request |-\|/-| 692 +120 −125 swift h mm hpp 6|-\|/-| 
+500 LOC more |-\|/-| 2017-01-14T02:59:02Z Merged pull request |-\|/-| 688 +90 −587 hpp swift mm 13|-\|/-| 
+Refactorings |-\|/-| 2017-01-13T20:24:25Z Merged pull request |-\|/-| 687 +248 −339 swift hpp 13|-\|/-| 
+Refactoring |-\|/-| 2017-01-13T05:43:40Z Closed pull request |-\|/-| 685 +232 −292 swift hpp 15|-\|/-| 
+317 LOC more |-\|/-| 2017-01-13T00:45:17Z Merged pull request |-\|/-| 684 +210 −527 swift hpp 10|-\|/-| 
+Removed 388 lines of C++ code |-\|/-| 2017-01-12T20:15:16Z Merged pull request |-\|/-| 683 +79 −467 hpp 13|-\|/-| 
+Develop |-\|/-| 2017-01-12T05:28:31Z Merged pull request |-\|/-| 681 +121 −217 swift h mm hpp 20|-\|/-| 
+Refactoring |-\|/-| 2017-01-10T03:20:51Z Merged pull request |-\|/-| 680 +192 −167 swift mm 12|-\|/-| 
+removed unnecessary usages of self |-\|/-| 2017-01-09T06:14:00Z Merged pull request |-\|/-| 678 +56 −56 swift 28|-\|/-| 
+refactoring |-\|/-| 2017-01-07T08:39:59Z Merged pull request |-\|/-| 677 +99 −155 swift 10|-\|/-| 
+Making cc messages always 3 bytes |-\|/-| 2017-01-05T20:04:52Z Merged pull request |-\|/-| 676 +1 −7 swift 1|-\|/-| 
+Refactoring |-\|/-| 2017-01-04T07:42:30Z Merged pull request |-\|/-| 673 +269 −535 h mm 10|-\|/-| 
+Removed 559 LOC |-\|/-| 2017-01-04T05:00:30Z Merged pull request |-\|/-| 672 +525 −1,084 h mm 7|-\|/-| 
+* refactored attaching to engine into _instantiate |-\|/-| 2017-01-02T23:21:58Z Merged pull request |-\|/-| 671 +13 −83 swift 45|-\|/-| 
+Develop |-\|/-| 2017-01-02T22:02:44Z Merged pull request |-\|/-| 670 +323 −512 swift 9|-\|/-| 
+Opening up MIDI functions |-\|/-| 2016-12-21T23:45:13Z Merged pull request |-\|/-| 666 +88 −4 swift 1|-\|/-| 
+Pevent the script emit errors when all is ok |-\|/-| 2016-12-14T18:32:57Z Merged pull request |-\|/-| 659 +13 −2 sh 1|-\|/-| 
+Fix delay issue with AKFFTTap |-\|/-| 2016-12-14T08:19:40Z Merged pull request |-\|/-| 658 +2 −2 swift 1|-\|/-| 
+* small refactoring of the init callback |-\|/-| 2016-12-12T20:26:56Z Merged pull request |-\|/-| 657 +240 −347 swift 21|-\|/-| 
+Inclusion guards -> #pragma onces |-\|/-| 2016-12-12T09:12:54Z Merged pull request |-\|/-| 655 +159 −449 hpp swift h mm 24|-\|/-| 
+Added support for multi-stream interfaces |-\|/-| 2016-12-12T04:39:21Z Merged pull request |-\|/-| 654 +19 −7 m 1|-\|/-| 
+Added support for multi-stream interfaces |-\|/-| 2016-12-12T03:46:54Z Closed pull request |-\|/-| 653 +19 −7 m 1|-\|/-| 
+Misc. refactorings |-\|/-| 2016-12-11T23:19:48Z Merged pull request |-\|/-| 652 +22 −18 swift 2|-\|/-| 
+Some refactorings |-\|/-| 2016-12-11T22:03:44Z Merged pull request |-\|/-| 651 +53 −13 swift h mm 4|-\|/-| 
+Fixed bug where A5 (880 Hz) was used as temperament reference instead… |-\|/-| 2016-12-09T22:05:58Z Closed pull request |-\|/-| 649 +4 −4 swift 1|-\|/-| 
+AKTable slowdown fix |-\|/-| 2016-12-09T20:09:16Z Merged pull request |-\|/-| 648 +118 −226 swift h mm 23|-\|/-| 
+Adjust length of internaldata on midi event |-\|/-| 2016-12-05T21:03:23Z Merged pull request |-\|/-| 646 +3 −0 swift 1|-\|/-| 
+Sysex |-\|/-| 2016-12-03T21:32:21Z Merged pull request |-\|/-| 641 +33 −41 swift 2|-\|/-| 
+made akcomponent and related classes public |-\|/-| 2016-11-28T03:31:16Z Merged pull request |-\|/-| 637 +82 −82 swift 37|-\|/-| 
+arrayOfFloats -> floatChannelData? |-\|/-| 2016-11-27T22:34:22Z Merged pull request |-\|/-| 636 +27 −17 swift 2|-\|/-| 
+removed unnecessary AUParameterTree variable declarations |-\|/-| 2016-11-17T03:15:00Z Merged pull request |-\|/-| 630 +3 −134 mm 42|-\|/-| 
+Updated about info + extension restriction relaxation |-\|/-| 2016-11-16T19:22:47Z Merged pull request |-\|/-| 629 +5 −5 swift md 1|-\|/-| 
+small refactoring to get rid of the of the repetitive "format: AudioKit.format" |-\|/-| 2016-11-16T00:00:38Z Merged pull request |-\|/-| 628 +28 −24 swift 11|-\|/-| 
+Wrapper for AudioUnits |-\|/-| 2016-11-14T22:09:30Z Merged pull request |-\|/-| 626 +66 −106 swift 3|-\|/-| 
+Things work this time around! |-\|/-| 2016-11-14T20:20:48Z Merged pull request |-\|/-| 625 +442 −385 swift 9|-\|/-| 
+Refactored AU subclass registration |-\|/-| 2016-11-14T05:05:19Z Merged pull request |-\|/-| 623 +248 −530 swift 14|-\|/-| 
+Added Clarinet STK physical model |-\|/-| 2016-11-13T22:35:29Z Merged pull request |-\|/-| 622 +662 −0 h swift 3|-\|/-| 
+Develop |-\|/-| 2016-11-13T20:36:10Z Merged pull request |-\|/-| 621 +53 −80 swift 5|-\|/-| 
+Misc refactorings |-\|/-| 2016-11-13T18:42:51Z Merged pull request |-\|/-| 620 +74 −91 swift 11|-\|/-| 
+Develop |-\|/-| 2016-11-13T09:28:10Z Closed pull request |-\|/-| 619 +848 −310 swift m c h 14|-\|/-| 
+Using clamps all over the place. It cut out like 300 LOC. |-\|/-| 2016-11-13T09:29:01Z Merged pull request |-\|/-| 618 +106 −434 swift 4|-\|/-| 
+Some small refactorings |-\|/-| 2016-11-12T22:53:43Z Merged pull request |-\|/-| 616 +10 −25 swift 2|-\|/-| 
+Added extensions to AudioComponentDescription to simplify construction |-\|/-| 2016-11-12T06:08:15Z Merged pull request |-\|/-| 615 +98 −499 swift 24|-\|/-| 
+Extended AUParameterTree with a subscript method |-\|/-| 2016-11-12T04:27:42Z Merged pull request |-\|/-| 614 +161 −155 swift 33|-\|/-| 
+* added a the clamp method in an extension to closedrange  |-\|/-| 2016-11-11T23:48:35Z Merged pull request |-\|/-| 613 +31 −54 swift 2|-\|/-| 
+Renamed AKToggleable to AKPlayable |-\|/-| 2016-11-11T23:44:01Z Closed pull request |-\|/-| 612 +89 −89 yaml swift 41|-\|/-| 
+more fixing .defaultToSpeaker |-\|/-| 2016-11-09T22:43:55Z Merged pull request |-\|/-| 610 +5 −3 swift 1|-\|/-| 
+another attempt at fixing .defaultToSpeaker |-\|/-| 2016-11-09T21:29:55Z Closed pull request |-\|/-| 609 +4,425 −1,848 swift m c 12|-\|/-| 
+Fixing issue #604, setting startTime before playback breaks expected … |-\|/-| 2016-11-05T17:38:35Z Merged pull request |-\|/-| 604 +57 −25 swift 1|-\|/-| 
+Added quantisation functions to sequencer |-\|/-| 2016-11-03T21:09:21Z Merged pull request |-\|/-| 602 +70 −26 swift 3|-\|/-| 
+EZAudioFile updates |-\|/-| 2016-10-30T18:09:27Z Merged pull request |-\|/-| 596 +134 −43 h m swift pbxproj 7|-\|/-| 
+AKAudioPlayer: refining the buffer filling |-\|/-| 2016-10-29T07:40:54Z Merged pull request |-\|/-| 595 +68 −31 swift 1|-\|/-| 
+AKAudioPlayer updates |-\|/-| 2016-10-28T14:09:59Z Merged pull request |-\|/-| 592 +123 −89 0|-\|/-| 
+AKAudioPlayer changes - scheduling playback in the future |-\|/-| 2016-10-27T23:27:40Z Closed pull request |-\|/-| 591 +3,259 −656 json swift 5|-\|/-| 
+Develop |-\|/-| 2016-10-27T02:46:23Z Merged pull request |-\|/-| 589 +16 −7 swift 3|-\|/-| 
+Develop |-\|/-| 2016-10-26T05:28:37Z Merged pull request |-\|/-| 588 +82 −46 swift h m 6|-\|/-| 
+Retrying Song Processor Pull  |-\|/-| 2016-10-18T00:45:46Z Merged pull request |-\|/-| 582 +2,439 −79 swift xcscheme 11|-\|/-| 
+Song processor updates |-\|/-| 2016-10-17T21:58:15Z Closed pull request |-\|/-| 581 +892 −376 json xcplayground swift storyboard 5|-\|/-| 
+fix DefaultToSpeaker |-\|/-| 2016-10-25T08:04:14Z Closed pull request |-\|/-| 580 +5 −6 swift 2|-\|/-| 
+Song processor issues |-\|/-| 2016-10-11T07:10:22Z Merged pull request |-\|/-| 576 +513 −350 xcplayground swift pbxproj json png storyboard 18|-\|/-| 
+Ignore DerivedData folder |-\|/-| 2016-10-10T04:31:11Z Merged pull request |-\|/-| 574 +1 −0 gitignore 1|-\|/-| 
+Recorder Sliders |-\|/-| 2016-10-07T04:33:06Z Merged pull request |-\|/-| 572 +112 −109 storyboard 1|-\|/-| 
+fix midi songposition status |-\|/-| 2016-10-03T18:42:49Z Merged pull request |-\|/-| 569 +7 −0 swift 3|-\|/-| 
+Changed iOS recorder sliders to AKproperty sliders. |-\|/-| 2016-10-02T05:45:50Z Closed pull request |-\|/-| 568 +83,617 −136 swift framework/AudioKit 4|-\|/-| 
+adding functions to akmusictrack |-\|/-| 2016-09-26T22:38:34Z Merged pull request |-\|/-| 566 +79 −26 swift 2|-\|/-| 
+Couple of small fixes |-\|/-| 2016-09-26T18:17:55Z Merged pull request |-\|/-| 565 +21 −14 swift 2|-\|/-| 
+Small Fixes to Drum Synth playground |-\|/-| 2016-09-24T06:43:03Z Merged pull request |-\|/-| 564 +3 −4 swift 1|-\|/-| 
+Fix issue with loop running x60 slower on iOS10 |-\|/-| 2016-09-23T16:33:10Z Merged pull request |-\|/-| 563 +2 −2 swift 1|-\|/-| 
+Updating Sporth Editor app (iOS) |-\|/-| 2016-09-21T23:39:04Z Merged pull request |-\|/-| 562 +25 −1 swift 1|-\|/-| 
+Updates to Sequencer example |-\|/-| 2016-09-21T16:27:25Z Merged pull request |-\|/-| 561 +43 −25 pbxproj 2|-\|/-| 
+minor updates to akaupresetbuilder to work with dictionaries better |-\|/-| 2016-09-19T22:17:13Z Merged pull request |-\|/-| 559 +2 −3 swift 1|-\|/-| 
+Fixed AKMusicTrack.setLength by removing unused pointer creation - ch… |-\|/-| 2016-09-19T21:42:34Z Merged pull request |-\|/-| 558 +20 −25 swift 2|-\|/-| 
+AUPreset builder minor things |-\|/-| 2016-09-19T20:02:06Z Merged pull request |-\|/-| 557 +37 −10 swift 2|-\|/-| 
+update keyboard delegate argument names |-\|/-| 2016-09-19T08:55:39Z Closed pull request |-\|/-| 555 +6 −6 swift 1|-\|/-| 
+Playground Non-Audio tutorial Swift 3.0 |-\|/-| 2016-09-18T15:33:10Z Merged pull request |-\|/-| 553 +2 −2 swift 1|-\|/-| 
+* ported to swift 3, not much testing yet but compiles |-\|/-| 2016-09-15T06:34:10Z Closed pull request |-\|/-| 552 +2,926 −2,894 swift 4|-\|/-| 
+Changed NSColor to AKColor for the node plotting playgrounds.  |-\|/-| 2016-09-12T16:08:33Z Merged pull request |-\|/-| 549 +4 −4 swift 2|-\|/-| 
+Minor edits to playground text |-\|/-| 2016-09-12T16:08:03Z Merged pull request |-\|/-| 547 +6 −6 swift xcplayground 4|-\|/-| 
+fix High shelf filter UI view typo |-\|/-| 2016-09-09T05:07:11Z Merged pull request |-\|/-| 544 +2 −2 swift 1|-\|/-| 
+Fixes to playgound |-\|/-| 2016-09-09T04:53:38Z Merged pull request |-\|/-| 543 +3 −4 swift xcplayground 3|-\|/-| 
+Removed last forward splash from filePath in AKAudioFile init for Temp Directory |-\|/-| 2016-09-07T23:16:32Z Merged pull request |-\|/-| 541 +1 −1 swift 1|-\|/-| 
+AKCallbackInstrument more usable |-\|/-| 2016-09-05T17:53:19Z Merged pull request |-\|/-| 539 +5 −5 swift 1|-\|/-| 
+reset midi outputs |-\|/-| 2016-09-01T22:08:01Z Merged pull request |-\|/-| 537 +4 −0 swift 1|-\|/-| 
+Minor improvements |-\|/-| 2016-08-30T03:16:47Z Merged pull request |-\|/-| 535 +25 −45 swift 10|-\|/-| 
+Made AKTable conform to CollectionType |-\|/-| 2016-08-30T01:12:42Z Merged pull request |-\|/-| 534 +59 −49 swift 2|-\|/-| 
+Modify knobs & sliders custom controls to appear in IB / Thanks to Aure! |-\|/-| 2016-08-29T18:36:35Z Merged pull request |-\|/-| 532 +205 −160 swift 6|-\|/-| 
+Added the zeroes extension method to array  |-\|/-| 2016-08-29T03:16:38Z Merged pull request |-\|/-| 531 +39 −28 swift 6|-\|/-| 
+memory free error in EZAudioUtilities |-\|/-| 2016-08-19T23:59:16Z Merged pull request |-\|/-| 527 +9 −2 swift m 2|-\|/-| 
+AKAudioFile.export() fixed and updated ! |-\|/-| 2016-08-12T17:33:12Z Merged pull request |-\|/-| 518 +401 −391 swift 1|-\|/-| 
+Some Fixes for AKNodeRecorder |-\|/-| 2016-08-11T16:58:15Z Merged pull request |-\|/-| 517 +73 −41 swift 2|-\|/-| 
+Making remaining test templates pass. |-\|/-| 2016-08-10T18:28:17Z Merged pull request |-\|/-| 516 +32 −32 swift 32|-\|/-| 
+Making some more tests pass... |-\|/-| 2016-08-09T22:39:17Z Merged pull request |-\|/-| 515 +14 −14 swift 14|-\|/-| 
+Filling in tests |-\|/-| 2016-08-09T20:23:32Z Merged pull request |-\|/-| 514 +27 −27 swift 27|-\|/-| 
+Added tests for White and Pink noise generators. |-\|/-| 2016-08-09T18:35:35Z Merged pull request |-\|/-| 513 +36 −0 swift 2|-\|/-| 
+Bit Crusher srate range change. |-\|/-| 2016-08-01T19:55:36Z Merged pull request |-\|/-| 507 +4 −4 mm hpp 2|-\|/-| 
+Bit Crusher sample rate range change |-\|/-| 2016-08-01T19:51:59Z Closed pull request |-\|/-| 506 +3,357 −3,570 swift 4|-\|/-| 
+Updated UI for RecorderDemo example for iOS |-\|/-| 2016-07-25T17:02:47Z Merged pull request |-\|/-| 498 +183 −80 pbxproj 1|-\|/-| 
+Adjusting minimum qualityFactor values |-\|/-| 2016-07-25T16:57:22Z Merged pull request |-\|/-| 497 +2 −2 swift 2|-\|/-| 
+Develop2 |-\|/-| 2016-07-24T19:03:04Z Merged pull request |-\|/-| 496 +29 −8 swift 2|-\|/-| 
+Minor doc addition |-\|/-| 2016-07-23T19:16:37Z Merged pull request |-\|/-| 495 +7 −0 swift 1|-\|/-| 
+Develop2 |-\|/-| 2016-07-23T18:02:38Z Merged pull request |-\|/-| 494 +24 −50 swift 2|-\|/-| 
+Updated UI for RecorderDemo example for iOS |-\|/-| 2016-07-23T17:03:20Z Closed pull request |-\|/-| 493 +488 −346 pbxproj swift json storyboard plist 11|-\|/-| 
+killed some prints that were building up |-\|/-| 2016-07-22T23:36:11Z Merged pull request |-\|/-| 492 +133 −53 swift 4|-\|/-| 
+Master |-\|/-| 2016-07-22T18:58:12Z Merged pull request |-\|/-| 491 +1,212 −0 pbxproj swift json storyboard plist 6|-\|/-| 
+Master |-\|/-| 2016-07-22T18:45:31Z Merged pull request |-\|/-| 489 +793 −579 swift 3|-\|/-| 
+Fixes for sampler demo |-\|/-| 2016-07-21T21:59:34Z Merged pull request |-\|/-| 488 +43 −87 swift 1|-\|/-| 
+Fixed closing the controls window in SporthEditor OSX |-\|/-| 2016-07-19T20:04:29Z Merged pull request |-\|/-| 487 +37 −33 swift 1|-\|/-| 
+Master |-\|/-| 2016-07-19T15:40:46Z Merged pull request |-\|/-| 486 +9 −1 pbxproj swift 2|-\|/-| 
+Pre-release tweaks |-\|/-| 2016-07-17T22:50:02Z Merged pull request |-\|/-| 485 +17 −12 json swift xcplayground md 7|-\|/-| 
+Added both gating system & sliders functionality to SporthEditor OSX example |-\|/-| 2016-07-17T21:50:53Z Merged pull request |-\|/-| 484 +130 −31 pbxproj 1|-\|/-| 
+Various fixes for OS X Playgrounds |-\|/-| 2016-07-17T06:44:35Z Merged pull request |-\|/-| 483 +8 −7 swift 6|-\|/-| 
+Missed a header / TOC on a Playground |-\|/-| 2016-07-15T15:29:37Z Merged pull request |-\|/-| 481 +9 −1 swift 1|-\|/-| 
+Added SporthEditor example for OSX |-\|/-| 2016-07-14T21:22:53Z Merged pull request |-\|/-| 479 +1,789 −0 pbxproj 1|-\|/-| 
+fromSample toSample |-\|/-| 2016-07-14T21:18:30Z Merged pull request |-\|/-| 478 +21 −13 swift pbxproj 4|-\|/-| 
+Develop |-\|/-| 2016-07-14T16:57:25Z Merged pull request |-\|/-| 477 +141 −7 swift mp3 xcplayground 6|-\|/-| 
+Now Record throws ! :-) |-\|/-| 2016-07-14T14:26:24Z Merged pull request |-\|/-| 476 +421 −175 swift 2|-\|/-| 
+Adding footers to banks playgrounds |-\|/-| 2016-07-13T23:47:14Z Merged pull request |-\|/-| 475 +6 −7 swift 5|-\|/-| 
+Adding TOC and header to banks playgrounds |-\|/-| 2016-07-13T20:19:32Z Merged pull request |-\|/-| 474 +18 −2 swift 3|-\|/-| 
+Added SporthEditor example for iOS |-\|/-| 2016-07-13T20:19:07Z Merged pull request |-\|/-| 473 +1,212 −0 pbxproj swift json storyboard 4|-\|/-| 
+Adding resonant filter to AudioKit |-\|/-| 2016-07-14T21:18:03Z Merged pull request |-\|/-| 471 +950 −0 h c swift 5|-\|/-| 
+Added phone detection in AKSettings + some fixes |-\|/-| 2016-07-12T17:50:32Z Merged pull request |-\|/-| 470 +46 −73 swift 7|-\|/-| 
+Typo fix |-\|/-| 2016-07-12T17:50:02Z Merged pull request |-\|/-| 469 +1 −1 swift 1|-\|/-| 
+Removing `timePitch.overlap` parameter for now from T |-\|/-| 2016-07-12T06:00:15Z Merged pull request |-\|/-| 468 +0 −10 swift 2|-\|/-| 
+Added async methods to AKAudioFile+Processing. |-\|/-| 2016-07-11T22:52:35Z Merged pull request |-\|/-| 467 +152 −19 swift 2|-\|/-| 
+AVSession and buffer settings |-\|/-| 2016-07-11T15:55:30Z Merged pull request |-\|/-| 466 +151 −65 swift 4|-\|/-| 
+Updating Table Of Contents for Playgrounds pages. |-\|/-| 2016-07-09T20:20:48Z Merged pull request |-\|/-| 465 +27 −1 swift 2|-\|/-| 
+Update to Xcode 8 Beta 2 syntax. |-\|/-| 2016-07-08T16:55:22Z Merged pull request |-\|/-| 464 +24 −24 swift 10|-\|/-| 
+Fixed build errors in Drum Synthesizer playgrounds. |-\|/-| 2016-07-07T18:21:33Z Merged pull request |-\|/-| 463 +8 −8 swift 2|-\|/-| 
+Playground Preset Edits |-\|/-| 2016-07-07T17:06:39Z Merged pull request |-\|/-| 461 +60 −53 swift 11|-\|/-| 
+Fixing ModalResonanceFilter playground height so the Quality slider is not hidden |-\|/-| 2016-07-07T15:44:32Z Merged pull request |-\|/-| 459 +2 −2 swift 2|-\|/-| 
+remove syntax-breaking space in func call |-\|/-| 2016-07-07T03:44:59Z Closed pull request |-\|/-| 457 +1 −1 swift 1|-\|/-| 
+MIDI command crash fix |-\|/-| 2016-07-06T21:29:30Z Merged pull request |-\|/-| 456 +5 −4 swift 1|-\|/-| 
+Added SamplerDemo example for iOS |-\|/-| 2016-07-06T08:44:07Z Merged pull request |-\|/-| 454 +1,455 −0 pbxproj 1|-\|/-| 
+Minor playground edits. |-\|/-| 2016-07-05T16:54:17Z Merged pull request |-\|/-| 452 +10 −10 swift 6|-\|/-| 
+Began adding preset auditioning in iOS and OS X Playgrounds |-\|/-| 2016-07-05T16:54:10Z Merged pull request |-\|/-| 451 +668 −142 swift 2|-\|/-| 
+Develop |-\|/-| 2016-07-04T16:59:57Z Merged pull request |-\|/-| 450 +587 −175 0|-\|/-| 
+Added `AKMandolin` presets. |-\|/-| 2016-07-04T16:59:00Z Merged pull request |-\|/-| 449 +39 −0 swift pbxproj 2|-\|/-| 
+Adding `AKDecimator` presets |-\|/-| 2016-07-04T00:29:05Z Merged pull request |-\|/-| 448 +12 −3 swift 4|-\|/-| 
+Minor playground fixes |-\|/-| 2016-07-03T19:20:39Z Merged pull request |-\|/-| 447 +32 −2 swift pbxproj 5|-\|/-| 
+Added phase to AKTable. |-\|/-| 2016-07-02T03:04:03Z Merged pull request |-\|/-| 446 +37 −15 swift 1|-\|/-| 
+Added SequencerDemo example for iOS |-\|/-| 2016-07-01T21:02:00Z Merged pull request |-\|/-| 445 +1,278 −0 pbxproj 1|-\|/-| 
+Initial preset work |-\|/-| 2016-07-03T18:00:22Z Merged pull request |-\|/-| 444 +125 −5 swift pbxproj xcplayground 10|-\|/-| 
+AKSequencer and Beat type enhancements |-\|/-| 2016-06-29T22:46:18Z Merged pull request |-\|/-| 443 +64 −13 swift 2|-\|/-| 
+AKNodeRecorder playground |-\|/-| 2016-06-28T18:03:53Z Merged pull request |-\|/-| 442 +167 −280 swift 1|-\|/-| 
+Changes to Drawbar Organ |-\|/-| 2016-06-27T17:27:28Z Merged pull request |-\|/-| 438 +76 −335 swift 2|-\|/-| 
+Updated Drawbar Organ. |-\|/-| 2016-06-25T17:02:39Z Merged pull request |-\|/-| 436 +194 −205 swift 1|-\|/-| 
+Updated AudioPlayer Playground |-\|/-| 2016-06-25T08:41:44Z Merged pull request |-\|/-| 435 +30 −10 swift 1|-\|/-| 
+Develop |-\|/-| 2016-06-25T08:09:47Z Merged pull request |-\|/-| 434 +60 −32 swift 2|-\|/-| 
+Renamed AKAudioFile function parameters. Made AKMicrophoneRecorder an… |-\|/-| 2016-06-24T20:12:32Z Merged pull request |-\|/-| 433 +427 −488 swift 8|-\|/-| 
+Removed andExtension from AKAudioFile, and changed enum baseDirectory to camelCase. |-\|/-| 2016-06-24T01:38:16Z Closed pull request |-\|/-| 432 +392 −392 swift 13|-\|/-| 
+Changes to Drawbar Organ example, and added frequencyToMidiNote. |-\|/-| 2016-06-23T02:08:52Z Merged pull request |-\|/-| 431 +30 −3 swift 2|-\|/-| 
+AKSequencer handles negative values |-\|/-| 2016-06-22T21:31:51Z Merged pull request |-\|/-| 430 +12 −2 swift 2|-\|/-| 
+OSX KeyboardView needed mouseDown. |-\|/-| 2016-06-21T23:40:54Z Merged pull request |-\|/-| 428 +12 −0 swift 1|-\|/-| 
+Added depth parameter to AKTremolo |-\|/-| 2016-06-21T22:55:35Z Merged pull request |-\|/-| 427 +95 −10 c h swift mm hpp 7|-\|/-| 
+Removed unneeded code and fixed playgrounds. |-\|/-| 2016-06-21T17:08:52Z Merged pull request |-\|/-| 426 +231 −383 c swift xctimeline 20|-\|/-| 
+AKNodeRecorder |-\|/-| 2016-06-20T21:19:13Z Merged pull request |-\|/-| 425 +439 −59 swift 2|-\|/-| 
+AKAudioNodeRecorder |-\|/-| 2016-06-20T15:24:26Z Merged pull request |-\|/-| 423 +640 −1,071 swift 2|-\|/-| 
+Added SongProcessor example for iOS |-\|/-| 2016-06-19T22:02:48Z Merged pull request |-\|/-| 422 +975 −0 pbxproj swift 2|-\|/-| 
+Optimized bltriangle crest property |-\|/-| 2016-06-18T22:26:33Z Merged pull request |-\|/-| 420 +24 −17 c swift mm hpp 4|-\|/-| 
+Adding code printing to OS X playgrounds for preset creation. |-\|/-| 2016-06-18T22:25:14Z Merged pull request |-\|/-| 419 +459 −6 swift xctimeline 14|-\|/-| 
+P.R. to remove a duplicated method in the Band Pass Butterworth Filter playground |-\|/-| 2016-06-17T22:13:36Z Merged pull request |-\|/-| 417 +0 −7 swift 1|-\|/-| 
+Quick fixed adsr |-\|/-| 2016-06-17T21:05:07Z Merged pull request |-\|/-| 416 +7 −6 c 1|-\|/-| 
+Added support of AKAudioFile to AKSampler |-\|/-| 2016-06-17T08:02:00Z Merged pull request |-\|/-| 415 +210 −24 swift wav xcplayground 5|-\|/-| 
+Added Drawbar Organ playground example |-\|/-| 2016-06-17T05:41:29Z Merged pull request |-\|/-| 414 +369 −23 swift 2|-\|/-| 
+AKMagneto beta |-\|/-| 2016-06-16T20:18:28Z Merged pull request |-\|/-| 413 +528 −68 swift 2|-\|/-| 
+setNeedsDisplay not needed |-\|/-| 2016-06-16T04:39:34Z Merged pull request |-\|/-| 411 +0 −1 swift 1|-\|/-| 
+Fix 2 bugs with AKAudioFile & AKAudioPlayer |-\|/-| 2016-06-15T19:54:07Z Merged pull request |-\|/-| 410 +5 −4 swift 2|-\|/-| 
+Added crest property to AKTriangleOscillator |-\|/-| 2016-06-15T03:02:20Z Merged pull request |-\|/-| 408 +101 −11 c h swift mm hpp xctimeline 9|-\|/-| 
+Added MicrophoneAnalysis example for OSX |-\|/-| 2016-06-14T17:25:46Z Merged pull request |-\|/-| 407 +1,346 −0 pbxproj swift 2|-\|/-| 
+Added code printing for iOS Playgrounds |-\|/-| 2016-06-14T16:10:20Z Merged pull request |-\|/-| 406 +497 −20 swift xctimeline 14|-\|/-| 
+Render iOS Playground docs by default |-\|/-| 2016-06-14T01:07:39Z Merged pull request |-\|/-| 403 +0 −0 0|-\|/-| 
+Added AKAudioPlayerDelegate |-\|/-| 2016-06-13T23:33:27Z Merged pull request |-\|/-| 402 +44 −19 swift 1|-\|/-| 
+Minor |-\|/-| 2016-06-12T21:17:20Z Merged pull request |-\|/-| 401 +12 −0 pbxproj 3|-\|/-| 
+AKAudioFIle and player updates |-\|/-| 2016-06-12T07:22:12Z Merged pull request |-\|/-| 400 +1,128 −135 0|-\|/-| 
+Minor Playground edits |-\|/-| 2016-06-12T01:30:03Z Merged pull request |-\|/-| 399 +10 −14 swift 6|-\|/-| 
+Broken mixing nodes playground fixed. |-\|/-| 2016-06-12T00:14:28Z Merged pull request |-\|/-| 398 +21 −29 swift 2|-\|/-| 
+Added MicrophoneAnalysis example for iOS |-\|/-| 2016-06-11T14:07:51Z Merged pull request |-\|/-| 397 +760 −0 pbxproj swift 2|-\|/-| 
+second attempt, I'm not sure of my previous one... |-\|/-| 2016-06-11T14:06:10Z Closed pull request |-\|/-| 396 +2,155 −3,155 yaml swift 9|-\|/-| 
+Ak audio file |-\|/-| 2016-06-11T02:48:15Z Closed pull request |-\|/-| 394 +3,126 −1,138 yaml swift 9|-\|/-| 
+Minor AKMicrophoneRecorder change |-\|/-| 2016-06-10T05:47:35Z Merged pull request |-\|/-| 393 +1 −1 swift 1|-\|/-| 
+AKMicrophoneRecorder Fix |-\|/-| 2016-06-09T23:18:20Z Merged pull request |-\|/-| 392 +17 −3 swift 1|-\|/-| 
+added s-curve type to akfader |-\|/-| 2016-06-07T20:17:33Z Merged pull request |-\|/-| 391 +13 −3 swift 1|-\|/-| 
+Updates to AKFader |-\|/-| 2016-06-04T22:20:48Z Merged pull request |-\|/-| 388 +78 −52 swift 1|-\|/-| 
+midi crash |-\|/-| 2016-05-31T17:32:00Z Merged pull request |-\|/-| 386 +6 −1 swift 1|-\|/-| 
+removed most of the waveform stuff, added back in midi stuff |-\|/-| 2016-05-19T17:36:35Z Merged pull request |-\|/-| 381 +98 −8 h m swift 9|-\|/-| 
+fadeout to waveplot and midi clearlisteners |-\|/-| 2016-05-11T17:08:25Z Closed pull request |-\|/-| 376 +63 −12 h m swift 7|-\|/-| 
+plot updates + 1 midi update |-\|/-| 2016-05-10T23:01:25Z Closed pull request |-\|/-| 375 +59 −12 h m swift 7|-\|/-| 
+Update AKAudioPlayer.totalFrameCount upon reloadFile() |-\|/-| 2016-05-10T18:49:53Z Merged pull request |-\|/-| 374 +11 −11 swift 1|-\|/-| 
+added dB setting to booster |-\|/-| 2016-05-05T16:14:04Z Merged pull request |-\|/-| 367 +10 −0 swift 1|-\|/-| 
+made virtualInput public |-\|/-| 2016-05-02T20:10:03Z Merged pull request |-\|/-| 363 +1 −1 swift 1|-\|/-| 
+more sample building options |-\|/-| 2016-04-26T17:53:25Z Merged pull request |-\|/-| 361 +20 −3 swift 1|-\|/-| 
+AKDecimator fix |-\|/-| 2016-04-19T02:14:04Z Merged pull request |-\|/-| 352 +17 −11 swift 4|-\|/-| 
+Added AKNotifications for detecting output change |-\|/-| 2016-04-19T01:00:37Z Merged pull request |-\|/-| 351 +120 −6 swift pbxproj 7|-\|/-| 
+sequencer improvements |-\|/-| 2016-04-18T18:48:17Z Merged pull request |-\|/-| 350 +20 −8 swift pbxproj 3|-\|/-| 
+Fixes an issue with currentTime not being as reliable as it could be. |-\|/-| 2016-04-13T18:11:27Z Merged pull request |-\|/-| 347 +3 −3 swift 1|-\|/-| 
+re-added STK files...  |-\|/-| 2016-06-16T22:07:56Z Merged pull request |-\|/-| 346 +37,251 −5 h cpp 3|-\|/-| 
+layers in akaupresetbuilder |-\|/-| 2016-04-12T22:50:03Z Merged pull request |-\|/-| 345 +248 −199 0|-\|/-| 
+add 'replaceFile' to AKAudioPlayer |-\|/-| 2016-04-09T17:44:54Z Merged pull request |-\|/-| 337 +8 −0 swift 1|-\|/-| 
+AKAUPresetBuilder |-\|/-| 2016-04-08T03:18:46Z Merged pull request |-\|/-| 334 +1,075 −107 0|-\|/-| 
+midisampler supports controller changes |-\|/-| 2016-04-07T03:35:51Z Merged pull request |-\|/-| 333 +13 −0 swift 1|-\|/-| 
+minor loop length tweak to sequences |-\|/-| 2016-04-06T22:54:38Z Merged pull request |-\|/-| 331 +14 −1 swift 1|-\|/-| 
+STK files added |-\|/-| 2016-04-11T02:51:39Z Closed pull request |-\|/-| 330 +51,884 −0 cpp 2|-\|/-| 
+added attack and release to sampler generations |-\|/-| 2016-04-04T15:52:34Z Merged pull request |-\|/-| 328 +9 −4 swift 1|-\|/-| 
+adding support for DefaultToSpeaker |-\|/-| 2016-04-02T17:23:39Z Merged pull request |-\|/-| 324 +58 −1 swift 2|-\|/-| 
+develop sync pr |-\|/-| 2016-03-24T21:10:38Z Merged pull request |-\|/-| 320 +73 −10 swift pbxproj 3|-\|/-| 
+sequencer enhancements |-\|/-| 2016-03-24T02:13:05Z Merged pull request |-\|/-| 319 +23 −2 swift 2|-\|/-| 
+further sequencer enhancements |-\|/-| 2016-03-24T02:12:00Z Closed pull request |-\|/-| 318 +15,131 −4,412 yml yaml swift h m c 14|-\|/-| 
+more sampler improvements |-\|/-| 2016-03-21T22:02:46Z Merged pull request |-\|/-| 316 +18 −1 swift 2|-\|/-| 
+Added indefinite execution |-\|/-| 2016-03-21T18:47:20Z Merged pull request |-\|/-| 315 +2 −0 swift 1|-\|/-| 
+sequencer enhancements |-\|/-| 2016-03-16T19:12:57Z Merged pull request |-\|/-| 313 +49 −7 swift 3|-\|/-| 
+sequencer and sampler improvements |-\|/-| 2016-03-16T02:16:09Z Merged pull request |-\|/-| 312 +173 −12 swift pbxproj 4|-\|/-| 
+sampler aupreset creation |-\|/-| 2016-03-14T05:54:32Z Merged pull request |-\|/-| 310 +773 −0 0|-\|/-| 
+Syntax highlight for README.md |-\|/-| 2016-02-21T05:35:06Z Merged pull request |-\|/-| 300 +22 −22 md 0|-\|/-| 
+Full Carthage support |-\|/-| 2016-02-13T03:24:42Z Merged pull request |-\|/-| 297 +194 −10 xcscheme 3|-\|/-| 
+Add AKVariSpeed node |-\|/-| 2016-02-08T23:44:48Z Merged pull request |-\|/-| 296 +69 −0 swift pbxproj 2|-\|/-| 
+added sliderValue prop & adsr readout to % |-\|/-| 2016-02-04T19:17:02Z Merged pull request |-\|/-| 292 +6 −4 swift 2|-\|/-| 
+Fix an issue with currentTime not being relative to the audio file |-\|/-| 2016-02-03T22:53:56Z Merged pull request |-\|/-| 290 +10 −3 swift 1|-\|/-| 
+added cpu btn and improved crusher scale |-\|/-| 2016-02-03T20:53:44Z Merged pull request |-\|/-| 289 +42 −32 png storyboard swift md 5|-\|/-| 
+fixed midi packet parsing to include realtime system commands again |-\|/-| 2016-02-03T16:09:07Z Merged pull request |-\|/-| 287 +16 −3 swift 1|-\|/-| 
+CoreMidi packet fixes, virtual midi ports, and pitchbend support for AnalogSynthX |-\|/-| 2016-02-03T06:29:11Z Merged pull request |-\|/-| 286 +241 −37 swift 4|-\|/-| 
+Develop |-\|/-| 2016-02-01T22:03:17Z Merged pull request |-\|/-| 284 +18 −0 swift 1|-\|/-| 
+Updated MidiMonitor project to use binary framework |-\|/-| 2016-02-09T05:51:31Z Merged pull request |-\|/-| 282 +154 −90 yaml swift m pbxproj plist 11|-\|/-| 
+3.0.1 Release |-\|/-| 2016-02-01T07:57:36Z Merged pull request |-\|/-| 281 +3,456 −1,662 json xcworkspacedata yaml swift h 14|-\|/-| 
+Plot fixes |-\|/-| 2016-02-01T04:07:20Z Merged pull request |-\|/-| 280 +109 −67 swift 5|-\|/-| 
+Fix frameworks for Bitcode |-\|/-| 2016-01-31T20:04:01Z Merged pull request |-\|/-| 279 +169 −95 h m c hpp 37|-\|/-| 
+upgraded midi monitor |-\|/-| 2016-01-30T23:51:44Z Merged pull request |-\|/-| 278 +48 −40 swift storyboard 4|-\|/-| 
+Midi monitor |-\|/-| 2016-01-30T23:14:18Z Merged pull request |-\|/-| 277 +887 −79 swift pbxproj 4|-\|/-| 
+Midi Monitor app |-\|/-| 2016-01-30T23:09:05Z Merged pull request |-\|/-| 276 +233 −187 h swift 3|-\|/-| 
+Bridge AKSettings to Soundpipe, various fixes |-\|/-| 2016-01-30T10:14:31Z Merged pull request |-\|/-| 275 +128 −22 h m c hpp pbxproj swift xctimeline 11|-\|/-| 
+Updated CocoaPods support |-\|/-| 2016-01-29T22:57:00Z Merged pull request |-\|/-| 274 +30 −19 json sh md 2|-\|/-| 
+Got rid of AKManager and reintroduced AKSettings |-\|/-| 2016-01-29T03:54:19Z Merged pull request |-\|/-| 273 +920 −910 yaml swift h mm hpp 21|-\|/-| 
+Objective-C support and Example Project |-\|/-| 2016-01-28T04:00:00Z Merged pull request |-\|/-| 272 +821 −38 swift 18|-\|/-| 
+Carthage support |-\|/-| 2016-01-27T18:59:12Z Merged pull request |-\|/-| 271 +42 −10 xcworkspacedata gitignore sh md 3|-\|/-| 
+app name change |-\|/-| 2016-01-26T08:03:57Z Merged pull request |-\|/-| 270 +18 −54 pbxproj png json storyboard swift plist 9|-\|/-| 
+added links to Sporth and Soundpipe in README |-\|/-| 2016-01-20T17:55:21Z Merged pull request |-\|/-| 267 +1 −1 md 0|-\|/-| 
+Updating the list of apps that use AudioKit. |-\|/-| 2015-12-26T18:49:36Z Merged pull request |-\|/-| 263 +3 −1 md 0|-\|/-| 
+Move ```AKBeatClock``` notifications over to the main thread so that … |-\|/-| 2015-12-02T19:46:44Z Merged pull request |-\|/-| 260 +6 −4 m 1|-\|/-| 
+OS X fixes |-\|/-| 2015-11-13T10:45:16Z Merged pull request |-\|/-| 254 +21 −12 m 1|-\|/-| 
+Making Csound wait time a parameter for some slower simulators |-\|/-| 2015-11-09T19:45:43Z Merged pull request |-\|/-| 251 +9 −3 m h plist 4|-\|/-| 
+tvOS in Podspec |-\|/-| 2015-11-01T06:45:39Z Merged pull request |-\|/-| 249 +19 −2 json pbxproj 2|-\|/-| 
+Update README |-\|/-| 2015-10-30T00:40:32Z Merged pull request |-\|/-| 248 +7 −7 md 0|-\|/-| 
+Removed LFS, included tvOS libraries |-\|/-| 2015-10-24T08:24:31Z Merged pull request |-\|/-| 245 +0 −7 gitattributes framework/CsoundLib framework/libsndfile 4|-\|/-| 
+tvOS support |-\|/-| 2015-10-22T18:01:19Z Merged pull request |-\|/-| 244 +1,647 −57 pbxproj xcscheme m gitattributes framework/CsoundLib plist framework/libsndfile sh h xib storyboard 15|-\|/-| 
+CPU improvements, Git LFS support |-\|/-| 2015-10-13T06:33:58Z Merged pull request |-\|/-| 240 +13 −7 gitattributes m 3|-\|/-| 
+Maximum note allocation |-\|/-| 2015-10-08T18:02:39Z Merged pull request |-\|/-| 239 +13 −0 m h 2|-\|/-| 
+Created AKMaskedFFT class |-\|/-| 2015-09-19T20:07:59Z Merged pull request |-\|/-| 233 +138 −0 pbxproj h m 4|-\|/-| 
+Added AKMaskedFFT class |-\|/-| 2015-09-19T13:23:07Z Closed pull request |-\|/-| 232 +1,263 −195 yml pbxproj h m 15|-\|/-| 
+FFT classes |-\|/-| 2015-09-14T10:34:55Z Merged pull request |-\|/-| 231 +523 −0 pbxproj h m 5|-\|/-| 
+Changes for Xcode 7 |-\|/-| 2015-09-11T02:49:35Z Merged pull request |-\|/-| 230 +239 −166 yml pbxproj h m 23|-\|/-| 
+Build error fix. |-\|/-| 2015-09-08T01:20:21Z Merged pull request |-\|/-| 229 +1 −1 m 1|-\|/-| 
+Ensure that labels are populated with their initial values. |-\|/-| 2015-09-08T01:17:02Z Merged pull request |-\|/-| 228 +1 −0 m 1|-\|/-| 
+Added default peak scaling to AKAntiresonator |-\|/-| 2015-08-30T06:29:42Z Merged pull request |-\|/-| 224 +3 −1 m 2|-\|/-| 
+Updated Csound binaries |-\|/-| 2015-08-29T21:11:44Z Merged pull request |-\|/-| 223 +0 −1 h 0/CsoundLib dylib framework/CsoundLib a 28|-\|/-| 
+Update README.md |-\|/-| 2015-08-20T23:49:40Z Merged pull request |-\|/-| 220 +8 −0 md 0|-\|/-| 
+Generated AKAntiresonator class  |-\|/-| 2015-08-18T14:10:57Z Merged pull request |-\|/-| 218 +176 −1 h m 3|-\|/-| 
+Couple of small fixes |-\|/-| 2015-08-17T13:10:42Z Merged pull request |-\|/-| 217 +30 −28 m storyboard 2|-\|/-| 
+fixed typo in README.md |-\|/-| 2015-08-11T18:36:59Z Merged pull request |-\|/-| 215 +1 −1 md 0|-\|/-| 
+New Csound binaries with bug fix, interface for Csound debugger |-\|/-| 2015-08-09T20:50:21Z Merged pull request |-\|/-| 214 +141 −3 h m hpp 0/CsoundLib dylib framework/CsoundLib a 31|-\|/-| 
+MIDI / SoundFont tab in iOS AudioKitDemo |-\|/-| 2015-08-04T16:39:26Z Merged pull request |-\|/-| 212 +337 −27 m pbxproj 2|-\|/-| 
+Massive MIDI improvements |-\|/-| 2015-07-24T17:13:26Z Merged pull request |-\|/-| 209 +1,342 −769 pbxproj xcscheme h 6|-\|/-| 
+Few small fixes |-\|/-| 2015-07-16T00:12:51Z Merged pull request |-\|/-| 207 +7 −6 m 3|-\|/-| 
+Updated EZAudio source to 1.1.2, including the FFT class. |-\|/-| 2015-07-15T01:42:23Z Merged pull request |-\|/-| 206 +934 −18 pbxproj h 2|-\|/-| 
+Ezaudio update |-\|/-| 2015-07-14T01:48:21Z Merged pull request |-\|/-| 205 +3,370 −1,081 pbxproj h m 6|-\|/-| 
+Improvements to AKMidi |-\|/-| 2015-07-12T05:20:50Z Merged pull request |-\|/-| 203 +189 −113 h m 3|-\|/-| 
+Added AKClip class (csound opcode 'clip') |-\|/-| 2015-07-11T01:07:54Z Merged pull request |-\|/-| 202 +145 −0 h m 3|-\|/-| 
+Small example project fixes |-\|/-| 2015-07-09T23:58:07Z Merged pull request |-\|/-| 201 +53 −76 0|-\|/-| 
+Updated run script to account for spaces in the file directory |-\|/-| 2015-07-09T01:08:44Z Merged pull request |-\|/-| 197 +8 −8 pbxproj 8|-\|/-| 
+MIDIEnabled setting in AKSettings |-\|/-| 2015-07-06T03:11:45Z Merged pull request |-\|/-| 196 +12 −5 m h plist 4|-\|/-| 
+MIDI notifications fixes |-\|/-| 2015-07-05T15:31:48Z Merged pull request |-\|/-| 195 +13 −13 m 1|-\|/-| 
+Moved AKMidi to a notification center based model |-\|/-| 2015-07-05T08:59:55Z Merged pull request |-\|/-| 194 +101 −238 pbxproj m h 4|-\|/-| 
+Run Phase script improvements |-\|/-| 2015-07-04T14:13:22Z Merged pull request |-\|/-| 193 +48 −27 sh pbxproj md 12|-\|/-| 
+More improvements for AKSoundFont |-\|/-| 2015-07-03T04:42:42Z Merged pull request |-\|/-| 192 +100 −6 0/CsoundLib dylib framework/CsoundLib a h m 8|-\|/-| 
+Improved SoundFont parsing via custom Csound API |-\|/-| 2015-07-02T17:19:39Z Merged pull request |-\|/-| 191 +52 −45 m h 0/CsoundLib dylib framework/CsoundLib a 17|-\|/-| 
+Added MIT License icon to README.md |-\|/-| 2015-07-01T17:25:20Z Merged pull request |-\|/-| 189 +2 −0 md 0|-\|/-| 
+Sound font progress for Stephane to Review |-\|/-| 2015-07-01T08:28:16Z Merged pull request |-\|/-| 188 +625 −102 pbxproj h m sf2 5|-\|/-| 
+Update README.md |-\|/-| 2015-06-29T17:34:09Z Merged pull request |-\|/-| 187 +1 −1 md 0|-\|/-| 
+Travis CI beta support for Xcode 6.3 / OS X 10.10 |-\|/-| 2015-06-19T04:29:23Z Merged pull request |-\|/-| 185 +7 −3 yml sh 2|-\|/-| 
+Adding AKPanner presets and tests |-\|/-| 2015-06-19T04:37:38Z Merged pull request |-\|/-| 184 +139 −2 h m 4|-\|/-| 
+Avoid deadlocks in Csound_Render(). |-\|/-| 2015-06-18T08:53:45Z Merged pull request |-\|/-| 182 +72 −73 m 1|-\|/-| 
+Correct typo |-\|/-| 2015-06-17T19:59:45Z Merged pull request |-\|/-| 181 +1 −1 md 0|-\|/-| 
+Cleaning up preset playground |-\|/-| 2015-06-16T04:56:08Z Merged pull request |-\|/-| 180 +1 −149 m 1|-\|/-| 
+Changed CsoundObj license to MIT |-\|/-| 2015-06-16T04:56:46Z Merged pull request |-\|/-| 179 +44 −32 pbxproj xcscheme h m 6|-\|/-| 
+Preset edits for AKDelay / preset tests |-\|/-| 2015-06-08T06:12:22Z Merged pull request |-\|/-| 177 +70 −19 h m 3|-\|/-| 
+Added remaining filter preset tests |-\|/-| 2015-06-07T17:25:33Z Merged pull request |-\|/-| 175 +357 −0 m 8|-\|/-| 
+Replaced instances of presetReverb with presetFilter where appropriate |-\|/-| 2015-06-06T23:00:09Z Merged pull request |-\|/-| 174 +30 −30 m 7|-\|/-| 
+Added missing physical modeling preset tests |-\|/-| 2015-06-06T22:41:23Z Merged pull request |-\|/-| 173 +113 −0 m 6|-\|/-| 
+Adding some more preset tests  |-\|/-| 2015-06-06T21:08:05Z Merged pull request |-\|/-| 172 +376 −17 h m 11|-\|/-| 
+Added remaining generator preset tests |-\|/-| 2015-06-06T01:09:25Z Merged pull request |-\|/-| 171 +178 −0 m 4|-\|/-| 
+Starting preset tests |-\|/-| 2015-06-04T00:12:52Z Merged pull request |-\|/-| 170 +158 −24 m sh 5|-\|/-| 
+Added AKResonantFilter presets |-\|/-| 2015-05-31T19:46:53Z Merged pull request |-\|/-| 166 +113 −9 h m 3|-\|/-| 
+Added defaults and presets |-\|/-| 2015-05-31T17:56:30Z Merged pull request |-\|/-| 165 +396 −102 h m 28|-\|/-| 
+Bug fix and improvements for some modifier operations and added some more presets. |-\|/-| 2015-05-29T02:45:19Z Merged pull request |-\|/-| 164 +204 −62 h m 4|-\|/-| 
+Added AKEqualizer presets |-\|/-| 2015-05-28T21:37:53Z Merged pull request |-\|/-| 163 +171 −26 h m 3|-\|/-| 
+Renamed the TRAVIS_CI macro to the more generic AK_TESTING. |-\|/-| 2015-05-26T08:39:41Z Merged pull request |-\|/-| 162 +17 −17 pbxproj h m 7|-\|/-| 
+Added new presets |-\|/-| 2015-05-25T18:20:23Z Merged pull request |-\|/-| 161 +822 −108 h m 9|-\|/-| 
+Improvements for unit testing |-\|/-| 2015-05-26T00:01:10Z Merged pull request |-\|/-| 160 +2,791 −412 h m 4|-\|/-| 
+Modifications to PresetPlayground for modifier preset creation, added AKReverb, AKFlatFrequencyResponseReverb, AKDelay, AKCombFilter, and AKMoogLadder presets |-\|/-| 2015-05-25T02:50:46Z Merged pull request |-\|/-| 159 +637 −11 h m 10|-\|/-| 
+New testing system |-\|/-| 2015-05-24T09:05:36Z Merged pull request |-\|/-| 158 +918 −176 h m plist 5|-\|/-| 
+Adding AKFlute presets |-\|/-| 2015-05-23T03:30:11Z Merged pull request |-\|/-| 157 +150 −0 h m 3|-\|/-| 
+Added StruckMetalBar, Vibes, and BowedString presets |-\|/-| 2015-05-22T04:43:20Z Merged pull request |-\|/-| 156 +378 −2 h m 5|-\|/-| 
+Adding AK prefix to a bunch of classes |-\|/-| 2015-05-22T01:39:58Z Merged pull request |-\|/-| 155 +310 −310 pbxproj h m 18|-\|/-| 
+PluckedString presets, adding presets to PresetPlayground |-\|/-| 2015-05-21T03:37:00Z Merged pull request |-\|/-| 154 +156 −0 h m 5|-\|/-| 
+Global amplitude value change to avoid clipping, and some more presets. |-\|/-| 2015-05-21T00:02:54Z Merged pull request |-\|/-| 153 +121 −41 m h 21|-\|/-| 
+Moving all the individual commands that travis runs into one script |-\|/-| 2015-05-18T23:29:57Z Merged pull request |-\|/-| 152 +12 −11 yml sh 2|-\|/-| 
+Exposing 'initWithPreset' methods for existing prests |-\|/-| 2015-05-18T23:02:36Z Merged pull request |-\|/-| 151 +39 −2 h m 4|-\|/-| 
+Adding some more presets |-\|/-| 2015-05-18T19:03:39Z Merged pull request |-\|/-| 150 +380 −1 h m 5|-\|/-| 
+Various plot enhancements |-\|/-| 2015-05-15T05:25:06Z Merged pull request |-\|/-| 148 +69 −61 m 6|-\|/-| 
+Made a Resources folder  |-\|/-| 2015-05-10T06:40:24Z Merged pull request |-\|/-| 146 +8 −8 pbxproj wav dat aif plist 17|-\|/-| 
+Allow audio input to be turned on/off at any moment, expose AKSettings |-\|/-| 2015-05-09T02:25:41Z Merged pull request |-\|/-| 145 +389 −287 h m plist 7|-\|/-| 
+[Podspec] Escape space in folder name |-\|/-| 2015-05-07T00:53:44Z Merged pull request |-\|/-| 143 +2 −7 json 1|-\|/-| 
+Adding PhiSEM operations presets to develop branch |-\|/-| 2015-04-30T19:05:19Z Merged pull request |-\|/-| 140 +475 −8 h m 13|-\|/-| 
+End https://github.com/audiokit/AudioKit/issues/138 |-\|/-| 2015-04-29T09:59:50Z Merged pull request |-\|/-| 139 +8 −2 json 1|-\|/-| 
+Updated Podspec |-\|/-| 2015-04-28T08:43:34Z Merged pull request |-\|/-| 136 +13 −20 json storyboard 2|-\|/-| 
+Making backgroundColor an inspectable property on OSX only |-\|/-| 2015-04-28T07:47:13Z Merged pull request |-\|/-| 135 +146 −63 m h storyboard 10|-\|/-| 
+Various plot improvements, Mac fixes |-\|/-| 2015-04-28T01:00:12Z Merged pull request |-\|/-| 134 +732 −760 pbxproj h m 4|-\|/-| 
+Rolling plots improvements |-\|/-| 2015-04-23T18:56:43Z Merged pull request |-\|/-| 133 +56 −67 m h pbxproj md 11|-\|/-| 
+Dynamic Frameworks for iOS |-\|/-| 2015-04-23T01:41:42Z Merged pull request |-\|/-| 132 +1,259 −175 pbxproj xcscheme 0/CsoundLib dylib framework/CsoundLib plist a framework/libsndfile 36|-\|/-| 
+Testing some sound generation using Tracked Frequency  |-\|/-| 2015-04-21T23:31:26Z Merged pull request |-\|/-| 131 +248 −246 yml h m pbxproj 14|-\|/-| 
+[Travis] more test tweaks |-\|/-| 2015-04-21T05:40:39Z Merged pull request |-\|/-| 130 +12 −12 yml m 5|-\|/-| 
+Table Tests moved to XCTest |-\|/-| 2015-04-21T02:40:49Z Merged pull request |-\|/-| 129 +132 −146 m h swift 7|-\|/-| 
+Various Testing Fixes |-\|/-| 2015-04-20T23:12:41Z Merged pull request |-\|/-| 128 +7 −7 yml m swift sh 5|-\|/-| 
+Compiling Swift Projects on TravisCI |-\|/-| 2015-04-20T20:45:19Z Merged pull request |-\|/-| 127 +10 −2 yml pbxproj storyboard 4|-\|/-| 
+Bunch of cleanups, audits, etc. |-\|/-| 2015-04-20T16:34:41Z Merged pull request |-\|/-| 126 +212 −201 pbxproj h m 6|-\|/-| 
+Limit the spinning through a time delay. |-\|/-| 2015-04-20T03:56:33Z Merged pull request |-\|/-| 125 +0 −7 m 3|-\|/-| 
+Building iOS Test Projects and Playground as part of TravisCI |-\|/-| 2015-04-20T00:35:34Z Merged pull request |-\|/-| 124 +1,254 −3,178 yml pbxproj md kick xcscheme lock h 32|-\|/-| 
+[Travis] misc travis.yml tweaks |-\|/-| 2015-04-19T21:42:17Z Merged pull request |-\|/-| 123 +6 −3 yml 1|-\|/-| 
+Help with Xcode < 6.3 |-\|/-| 2015-04-19T08:35:40Z Merged pull request |-\|/-| 122 +105 −46 yml pbxproj h m 11|-\|/-| 
+A few more fixes to AKTable and AKTablePlot |-\|/-| 2015-04-18T20:06:39Z Merged pull request |-\|/-| 121 +60 −50 h m storyboard 6|-\|/-| 
+Fixes for AKTable and related classes |-\|/-| 2015-04-17T04:17:49Z Merged pull request |-\|/-| 120 +49 −70 h m 10|-\|/-| 
+AKManager and CsoundObj improvements |-\|/-| 2015-04-16T00:24:11Z Merged pull request |-\|/-| 119 +105 −124 h m 8|-\|/-| 
+Added OS X versions of missing plots, AKLevelMeter |-\|/-| 2015-04-14T22:27:45Z Merged pull request |-\|/-| 118 +51 −47 m 4|-\|/-| 
+Fix bug with microphone prompt being shown despite plist setting 'Enable... |-\|/-| 2015-04-14T17:45:16Z Merged pull request |-\|/-| 117 +15 −16 m 1|-\|/-| 
+Various fixes to address warnings and clang analyzer. |-\|/-| 2015-04-14T09:33:46Z Merged pull request |-\|/-| 116 +7 −7 m 2|-\|/-| 
+Fix memory allocation in AKTable |-\|/-| 2015-04-14T08:57:11Z Merged pull request |-\|/-| 115 +41 −23 m 1|-\|/-| 
+New AKSetting to turn on the way Csound messages are displayed |-\|/-| 2015-04-14T08:36:56Z Merged pull request |-\|/-| 114 +13 −3 m h plist 4|-\|/-| 
+Added missing files to the OS X library, slight test project cleanup. |-\|/-| 2015-04-14T06:47:04Z Merged pull request |-\|/-| 113 +32 −5 pbxproj 2|-\|/-| 
+Updated CsoundLib OS X framework with custom build, lots of other improvements |-\|/-| 2015-04-14T03:32:53Z Merged pull request |-\|/-| 112 +695 −9,841 pbxproj h m 7|-\|/-| 
+Update Podspec with Marius Rackwitz' feedback |-\|/-| 2015-04-10T03:09:04Z Closed pull request |-\|/-| 111 +66 −50 json 1|-\|/-| 
+Centralized all AudioKit.plist in AKSettings class, file no longer required |-\|/-| 2015-04-09T23:07:33Z Merged pull request |-\|/-| 110 +196 −183 pbxproj m h 6|-\|/-| 
+Restructured entire project around a new AudioKit static library |-\|/-| 2015-04-08T20:40:45Z Merged pull request |-\|/-| 109 +3,330 −12,029 pbxproj xcscheme wav aif m 14|-\|/-| 
+Convert podspec to JSON and add TPCircularBuffer as dependency |-\|/-| 2015-04-07T20:25:00Z Merged pull request |-\|/-| 106 +54 −29 podspec json 2|-\|/-| 
+Greatly simplified rolling waveform plots |-\|/-| 2015-04-07T00:18:07Z Merged pull request |-\|/-| 105 +154 −264 h m 6|-\|/-| 
+This should make the rolling plots work again in playgrounds |-\|/-| 2015-04-06T07:45:07Z Merged pull request |-\|/-| 104 +18 −7 m 2|-\|/-| 
+Fix EZAudioPlot crashes |-\|/-| 2015-04-06T06:00:48Z Merged pull request |-\|/-| 103 +1 −4 m 1|-\|/-| 
+Fixed the memory drainage |-\|/-| 2015-04-06T04:31:56Z Merged pull request |-\|/-| 102 +123 −90 h m 5|-\|/-| 
+More plot cleanups |-\|/-| 2015-04-05T08:46:54Z Merged pull request |-\|/-| 101 +111 −97 h m 9|-\|/-| 
+More cleanups in plots, fixed a bunch of memory leaks |-\|/-| 2015-04-04T09:55:56Z Merged pull request |-\|/-| 100 +206 −225 m 6|-\|/-| 
+Reworked the plot views so that explicit addBinding: calls to AKManager are no longer needed |-\|/-| 2015-04-03T16:24:22Z Merged pull request |-\|/-| 98 +325 −236 h m 11|-\|/-| 
+Various improvements for the *Plot views |-\|/-| 2015-04-03T02:09:18Z Merged pull request |-\|/-| 97 +240 −94 h m 11|-\|/-| 
+Make the state property @dynamic (silences a warning in Xcode 6.3) |-\|/-| 2015-03-31T00:04:17Z Merged pull request |-\|/-| 95 +0 −4 m 1|-\|/-| 
+Basic operators overloading in Swift |-\|/-| 2015-03-30T18:28:06Z Merged pull request |-\|/-| 94 +60 −0 swift 1|-\|/-| 
+fixes audioInput |-\|/-| 2015-03-29T03:25:04Z Merged pull request |-\|/-| 92 +2 −0 m 1|-\|/-| 
+Changing run script phase to prevent Csound framework linking issue |-\|/-| 2015-03-18T17:26:54Z Merged pull request |-\|/-| 91 +5 −4 pbxproj 4|-\|/-| 
+Made LevelMeter view designable in Interface Builder |-\|/-| 2015-03-18T17:29:21Z Merged pull request |-\|/-| 90 +53 −24 h m storyboard 4|-\|/-| 
+AudioKitDemo (OSX-Swift) Example work  |-\|/-| 2015-03-14T01:41:33Z Merged pull request |-\|/-| 89 +3,256 −33 h m swift pbxproj 6|-\|/-| 
+Specify ADC0 and DAC0 in csound arguments. Resolves GH-70 |-\|/-| 2015-04-19T22:14:10Z Closed pull request |-\|/-| 88 +1 −1 m 1|-\|/-| 
+Completed Swift AudioKitDemo examples  |-\|/-| 2015-03-12T03:50:13Z Merged pull request |-\|/-| 87 +2,938 −1 m swift pbxproj xib 6|-\|/-| 
+Added OSX HelloWorld (Swift) example project |-\|/-| 2015-03-01T01:23:56Z Merged pull request |-\|/-| 86 +2,366 −0 pbxproj swift storyboard h json png plist 9|-\|/-| 
+Finished HelloWorld (Swift) example project |-\|/-| 2015-02-28T21:33:01Z Merged pull request |-\|/-| 85 +1,871 −0 pbxproj swift xib storyboard h json png plist 10|-\|/-| 
+Updated example projects to reflect recent AudioKit changes |-\|/-| 2015-02-01T23:42:02Z Merged pull request |-\|/-| 84 +918 −1,286 pbxproj 17|-\|/-| 
+Example fixes (TouchRegions and SongFilePlayer) |-\|/-| 2015-01-28T03:46:21Z Merged pull request |-\|/-| 82 +40 −19 m storyboard 4|-\|/-| 
+Easy exponential curves |-\|/-| 2015-01-22T03:21:28Z Closed pull request |-\|/-| 81 +209 −0 h m 6|-\|/-| 
+Added podspec file |-\|/-| 2015-01-06T08:57:11Z Merged pull request |-\|/-| 79 +27 −0 podspec 1|-\|/-| 
+Updated example projects to latest AudioKit |-\|/-| 2015-01-05T03:01:13Z Merged pull request |-\|/-| 78 +288 −216 pbxproj 1|-\|/-| 
+Sensible defaults for Keyboard example, deleted unused code in SwiftHarmonizer  |-\|/-| 2015-01-04T01:59:02Z Merged pull request |-\|/-| 77 +12 −25 m swift 3|-\|/-| 
+Added sensible defaults to examples  |-\|/-| 2015-01-03T22:05:09Z Merged pull request |-\|/-| 76 +150 −148 h m storyboard 8|-\|/-| 
+More tests/defaults and logging  |-\|/-| 2015-01-02T03:44:39Z Merged pull request |-\|/-| 75 +611 −86 swift 5|-\|/-| 
+More logging for test |-\|/-| 2015-01-01T17:47:54Z Merged pull request |-\|/-| 74 +67 −36 swift 7|-\|/-| 
+Changed values for timeInterval |-\|/-| 2014-12-31T23:51:13Z Merged pull request |-\|/-| 73 +4 −4 swift 2|-\|/-| 
+Test logging additions  |-\|/-| 2014-12-31T21:25:51Z Merged pull request |-\|/-| 72 +38 −19 swift 5|-\|/-| 
+Added logging to more tests |-\|/-| 2014-12-31T17:42:21Z Merged pull request |-\|/-| 71 +82 −30 swift 5|-\|/-| 
+Added logging to several tests |-\|/-| 2014-12-31T06:43:04Z Merged pull request |-\|/-| 69 +429 −170 swift 9|-\|/-| 
+Fixed misplaced label in Sequences example |-\|/-| 2014-12-28T18:08:24Z Merged pull request |-\|/-| 68 +1 −1 storyboard 1|-\|/-| 
+Improved test projects |-\|/-| 2014-12-27T01:44:45Z Merged pull request |-\|/-| 67 +274 −293 h m pbxproj swift 11|-\|/-| 
+SongPlayerLibrary doesn't show iCloud-purchased songs anymore  |-\|/-| 2014-12-22T21:45:07Z Merged pull request |-\|/-| 66 +3 −4 m 1|-\|/-| 
+Sensible defaults for AKLowPassFilter/AKLowPassControlFilter, AKPortamento |-\|/-| 2014-12-22T21:18:29Z Merged pull request |-\|/-| 65 +3,231 −57 h m 6|-\|/-| 
+Fix typo in AKManager |-\|/-| 2014-12-22T20:18:07Z Merged pull request |-\|/-| 64 +1 −1 m 1|-\|/-| 
+Reson/z operations  |-\|/-| 2014-12-22T19:50:39Z Merged pull request |-\|/-| 63 +1,617 −32 h m storyboard swift 4|-\|/-| 
+Keyboard example changes |-\|/-| 2014-12-22T05:09:03Z Merged pull request |-\|/-| 62 +31 −11 m pbxproj swift 5|-\|/-| 
+Adaptive-layout for SwiftFMOscillator |-\|/-| 2014-12-22T03:00:33Z Merged pull request |-\|/-| 61 +130 −195 storyboard 2|-\|/-| 
+Adaptive-layout  |-\|/-| 2014-12-21T23:18:05Z Merged pull request |-\|/-| 60 +126 −209 pbxproj storyboard 2|-\|/-| 
+Sensible defaults for AKFlanger |-\|/-| 2014-12-21T22:19:47Z Merged pull request |-\|/-| 59 +1,610 −25 h m 2|-\|/-| 
+More sensible defaults and tests |-\|/-| 2014-12-21T21:24:31Z Merged pull request |-\|/-| 58 +3,199 −42 h m 4|-\|/-| 
+More sensible defaults and tests |-\|/-| 2014-12-21T20:52:42Z Merged pull request |-\|/-| 57 +6,398 −67 h m 6|-\|/-| 
+Sensible defaults and test for AKMoogLadder |-\|/-| 2014-12-21T18:34:45Z Merged pull request |-\|/-| 56 +1,606 −19 h m 2|-\|/-| 
+Adaptive-layout |-\|/-| 2014-12-21T01:12:44Z Merged pull request |-\|/-| 55 +118 −229 pbxproj storyboard 3|-\|/-| 
+Upgraded some example storyboards to use adaptive-layout  |-\|/-| 2014-12-20T22:57:37Z Merged pull request |-\|/-| 54 +381 −479 storyboard pbxproj 3|-\|/-| 
+Use of adaptive layout in Continuous Control |-\|/-| 2014-12-20T20:28:28Z Merged pull request |-\|/-| 53 +193 −260 pbxproj 1|-\|/-| 
+Added more sensible defaults |-\|/-| 2014-12-20T17:11:42Z Merged pull request |-\|/-| 52 +6,462 −70 h m 6|-\|/-| 
+More sensible defaults  |-\|/-| 2014-12-20T03:32:09Z Merged pull request |-\|/-| 51 +4,870 −62 h m 5|-\|/-| 
+Sensible defaults and tests for AKParallelCombLowPassFilterReverb |-\|/-| 2014-12-20T00:23:56Z Merged pull request |-\|/-| 50 +4,880 −83 h m 4|-\|/-| 
+Sensible defaults and tests for AKFlatFrequencyResponseReverb |-\|/-| 2014-12-19T22:45:40Z Merged pull request |-\|/-| 49 +1,601 −17 h m 2|-\|/-| 
+Fixes for OS X examples in .pbxproj files |-\|/-| 2014-12-19T21:19:06Z Merged pull request |-\|/-| 48 +8 −8 pbxproj 4|-\|/-| 
+Merge pull request #43 from audiokit/develop |-\|/-| 2014-12-13T06:14:32Z Merged pull request |-\|/-| 44 +0 −0 0|-\|/-| 
+AudioKit Version1.1 |-\|/-| 2014-12-13T06:01:37Z Merged pull request |-\|/-| 43 +53,182 −7,621 h m 6|-\|/-| 
+AudioKitVersion1.1 |-\|/-| 2014-12-13T05:53:10Z Merged pull request |-\|/-| 42 +52,654 −7,297 h m 6|-\|/-| 
+AKSandpaper V2 Tests and Defaults |-\|/-| 2014-11-29T22:38:46Z Closed pull request |-\|/-| 41 +17,989 −1,302 h m 5|-\|/-| 
+Deleted "EnergyReturn" parameter |-\|/-| 2014-11-12T23:20:34Z Merged pull request |-\|/-| 39 +0 −8 h m 2|-\|/-| 
+PhiSEM 'Crunch' edits |-\|/-| 2014-11-12T23:00:26Z Closed pull request |-\|/-| 38 +505 −390 swift h m 15|-\|/-| 
+Parameters get initial, min, and max values. |-\|/-| 2014-11-11T07:55:05Z Merged pull request |-\|/-| 37 +68 −158 h m 6|-\|/-| 
+Musical controls |-\|/-| 2014-11-10T08:28:38Z Merged pull request |-\|/-| 36 +360 −216 h m pbxproj 6|-\|/-| 
+more search path fixes |-\|/-| 2014-11-06T02:56:49Z Merged pull request |-\|/-| 33 +4 −10 pbxproj 2|-\|/-| 
+removed aure file reference |-\|/-| 2014-11-06T02:31:47Z Merged pull request |-\|/-| 32 +6 −6 pbxproj 1|-\|/-| 
+Fixed any reference to "Aure" in library search paths |-\|/-| 2014-11-05T22:38:20Z Merged pull request |-\|/-| 31 +4 −36 pbxproj 11|-\|/-| 
+Delte references to aure library search paths |-\|/-| 2014-11-05T22:33:07Z Closed pull request |-\|/-| 30 +21,969 −30,199 xcworkspacedata xcsettings h m 16|-\|/-| 
+declick added |-\|/-| 2014-11-03T04:08:09Z Merged pull request |-\|/-| 29 +4 −1 m 1|-\|/-| 
+Keyboard Edits |-\|/-| 2014-11-02T17:35:08Z Merged pull request |-\|/-| 28 +5 −5 m 1|-\|/-| 
+Edits to keyboard example |-\|/-| 2014-11-01T01:41:33Z Merged pull request |-\|/-| 27 +1,106 −1,105 pbxproj storyboard m h 6|-\|/-| 
+FMosc storyboard edit |-\|/-| 2014-10-31T21:07:22Z Merged pull request |-\|/-| 26 +70 −90 0|-\|/-| 
+fixed library search paths |-\|/-| 2014-10-31T19:09:56Z Merged pull request |-\|/-| 25 +10 −34 pbxproj 5|-\|/-| 
+Copyright change |-\|/-| 2014-10-28T01:18:47Z Merged pull request |-\|/-| 24 +16 −54 pbxproj h m swift 21|-\|/-| 
+Silence library warnings |-\|/-| 2014-10-28T01:17:54Z Merged pull request |-\|/-| 23 +4 −42 pbxproj 13|-\|/-| 
+Swift MFosc switch |-\|/-| 2014-10-27T20:20:25Z Merged pull request |-\|/-| 22 +28 −18 storyboard swift 3|-\|/-| 
+Deleted demo instruments example, changed description of AKControl |-\|/-| 2014-10-26T22:10:13Z Merged pull request |-\|/-| 21 +1 −4,887 xcworkspacedata h pbxproj m xib plist pch json rtf strings 12|-\|/-| 
+Instrument Rename |-\|/-| 2014-10-26T19:38:52Z Merged pull request |-\|/-| 20 +4 −4 pbxproj swift 2|-\|/-| 
+Swift Toggle Code change |-\|/-| 2014-10-24T00:38:15Z Merged pull request |-\|/-| 19 +1 −8 swift 1|-\|/-| 
+Standardized Swift IBOutlets |-\|/-| 2014-10-23T19:28:03Z Merged pull request |-\|/-| 18 +14 −14 swift 2|-\|/-| 
+Changed ak path in convolution example |-\|/-| 2014-10-16T21:57:30Z Merged pull request |-\|/-| 17 +1,078 −1,084 0|-\|/-| 
+Removed "UsingUDOs" example from examples folder and workspace. |-\|/-| 2014-10-16T18:36:16Z Merged pull request |-\|/-| 16 +0 −2,719 xcworkspacedata pbxproj h m storyboard json 9|-\|/-| 
+Added contribution section to read me |-\|/-| 2014-10-15T22:14:55Z Merged pull request |-\|/-| 15 +5 −0 md 0|-\|/-| 
+Changed target of granular synthesis (obj-c) to 7.1 |-\|/-| 2014-10-14T18:51:03Z Merged pull request |-\|/-| 14 +8 −6 xcworkspacedata pbxproj 2|-\|/-| 
+Changed any projects with deployment targets of iOS8 to iOS 7.1 |-\|/-| 2014-10-13T18:47:06Z Closed pull request |-\|/-| 13 +8 −2 pbxproj 4|-\|/-| 
+Added SwiftVersion of Harmonizer example |-\|/-| 2014-10-13T06:49:59Z Merged pull request |-\|/-| 12 +1,962 −0 xcworkspacedata swift h pbxproj storyboard json plist 9|-\|/-| 
+Deleted original granular instrument from 'Demo Examples' project |-\|/-| 2014-10-11T02:51:24Z Merged pull request |-\|/-| 11 +33 −238 pbxproj wav storyboard 3|-\|/-| 
+Deleted unused lines (20-21) in Instrument file |-\|/-| 2014-10-09T22:17:28Z Merged pull request |-\|/-| 10 +1 −7 m 2|-\|/-| 
+SwiftFMOscillatorCleanup |-\|/-| 2014-10-09T21:57:20Z Merged pull request |-\|/-| 9 +2 −129 pbxproj swift 3|-\|/-| 
+Deleted line 37 in ViewController |-\|/-| 2014-10-09T16:43:25Z Merged pull request |-\|/-| 8 +3 −16 storyboard swift 2|-\|/-| 
+Deleted Line 37 in ViewController |-\|/-| 2014-10-09T14:55:04Z Closed pull request |-\|/-| 7 +0 −2 swift 1|-\|/-| 
+Granular synthesis example in Objective-C |-\|/-| 2014-10-08T23:15:19Z Merged pull request |-\|/-| 6 +2,269 −0 xcworkspacedata pbxproj h m json plist storyboard 9|-\|/-| 
+Granular Synthesis example |-\|/-| 2014-10-08T20:57:43Z Closed pull request |-\|/-| 4 +26,840 −17 xcworkspacedata h m 4|-\|/-| 
+Cleaned up syntax in instrument file |-\|/-| 2014-10-08T21:00:27Z Merged pull request |-\|/-| 3 +3 −17 swift 2|-\|/-| 
+Added Swift convolution example |-\|/-| 2014-10-07T22:05:30Z Merged pull request |-\|/-| 2 +2,013 −0 xcworkspacedata wav swift h pbxproj storyboard json plist 12|-\|/-| 
+Added granular synthesis example in Swift |-\|/-| 2014-10-07T21:31:35Z Merged pull request |-\|/-| 1 +2,043 −0 xcworkspacedata wav h pbxproj swift storyboard json plist 9|-\|/-| 

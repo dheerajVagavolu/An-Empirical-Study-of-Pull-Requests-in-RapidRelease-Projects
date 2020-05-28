@@ -1,0 +1,184 @@
+Merge pull request #1 from CRYTEK/release |-\|/-| 2019-09-20T14:31:51Z Closed pull request |-\|/-| 681 +0 −0 0|-\|/-| 
+Stabilisation |-\|/-| 2019-09-05T13:39:43Z Closed pull request |-\|/-| 653 +1,412,897 −502,999 txt json 1|-\|/-| 
+!B (CryRender) Compilation fails for restrict on reference |-\|/-| 2019-07-05T16:48:10Z Closed pull request |-\|/-| 634 +3 −3 cpp 1|-\|/-| 
+!B (Animation) Bad check for loading causing heap corruption |-\|/-| 2019-06-21T10:01:01Z Merged pull request |-\|/-| 631 +1 −3 cpp 1|-\|/-| 
+!B (System) Logging frame ID on server without Renderer |-\|/-| 2019-06-25T10:46:22Z Merged pull request |-\|/-| 630 +8 −4 cpp 1|-\|/-| 
+!T Ignore qpOASES warnings to build physics |-\|/-| 2019-07-05T16:48:10Z Closed pull request |-\|/-| 629 +9 −1 cpp 1|-\|/-| 
+!B Several more memory bugs with undefined behavior |-\|/-| 2019-07-05T16:48:10Z Closed pull request |-\|/-| 628 +13 −10 cpp 7|-\|/-| 
+!B (Networking) Dedicated server assert for existing sub-mtl shaders |-\|/-| 2019-07-05T16:48:10Z Closed pull request |-\|/-| 627 +1 −1 cpp 1|-\|/-| 
+!F Improved comment syntax on XXX.cfg & .cryproject files |-\|/-| 2019-07-05T16:48:10Z Closed pull request |-\|/-| 626 +47 −35 cpp py exe 5|-\|/-| 
+!ER (CMake) (Alvaro D. Acosta) Replace `file(DOWNLOAD` by the `FetchContent` CMake module. |-\|/-| 2019-07-05T16:48:09Z Closed pull request |-\|/-| 624 +14 −17 cpp md cmake 2|-\|/-| 
+Replace `file(DOWNLOAD` by the `FetchContent` CMake module. |-\|/-| 2019-06-11T09:44:40Z Closed pull request |-\|/-| 623 +12 −15 md cmake 1|-\|/-| 
+Fix unordered_map call to lower_bound with find. |-\|/-| 2019-05-29T14:34:01Z Closed pull request |-\|/-| 621 +1 −1 cpp 1|-\|/-| 
+!XI Integrating CL 1711615 !B (Sandbox) (CE-16303) Now Asset Browser … |-\|/-| 2019-06-25T10:52:08Z Closed pull request |-\|/-| 618 +4 −3 cpp 1|-\|/-| 
+!BF Refactor of the python script that download the sdk |-\|/-| 2019-05-06T10:23:46Z Closed pull request |-\|/-| 616 +116 −0 py 1|-\|/-| 
+Merge pull request #2 from CRYTEK/release |-\|/-| 2019-03-24T09:06:11Z Closed pull request |-\|/-| 610 +0 −0 0|-\|/-| 
+!B (Renderer) AABB Tree not initialized |-\|/-| 2019-07-05T16:48:09Z Closed pull request |-\|/-| 600 +5 −0 cpp 2|-\|/-| 
+Added Comments to `CSampleActorComponent` |-\|/-| 2019-02-06T10:06:58Z Merged pull request |-\|/-| 594 +83 −5 cpp 1|-\|/-| 
+!B (Physics) Variable used before initialization |-\|/-| 2019-07-05T16:48:09Z Closed pull request |-\|/-| 590 +1 −1 cpp 1|-\|/-| 
+!T (CMake) Updated AUTOMOC syntax |-\|/-| 2019-07-05T16:48:09Z Closed pull request |-\|/-| 587 +4 −3 cmake 2|-\|/-| 
+!RF CMake version upgrade and improvement. |-\|/-| 2019-07-05T16:48:09Z Closed pull request |-\|/-| 584 +80,816 −55,705 c txt cmake dll exe conf 12/cmliblzma/COPYING in 19|-\|/-| 
+!BT Extensive cleanup of common Warnings/Errors |-\|/-| 2019-07-05T16:48:08Z Closed pull request |-\|/-| 583 +86 −71 cpp 20|-\|/-| 
+!B Removed hardcoded logging/monitoring/icon paths  |-\|/-| 2019-07-05T16:48:08Z Closed pull request |-\|/-| 582 +61 −35 cpp 14|-\|/-| 
+!B GetProjectFolder() returned wrong path |-\|/-| 2019-07-05T16:48:08Z Closed pull request |-\|/-| 581 +6 −11 h 1|-\|/-| 
+!TF (Sandbox) FBX Management improvements |-\|/-| 2019-07-05T16:48:08Z Closed pull request |-\|/-| 580 +103 −37 txt cpp h cmake 7|-\|/-| 
+!B (CrySystem) Removed m_lBaseTime adjustment and improved logging. |-\|/-| 2019-07-05T16:48:08Z Closed pull request |-\|/-| 579 +7 −7 cpp 3|-\|/-| 
+!F Improved cry_select.exe setup |-\|/-| 2019-06-15T07:21:38Z Closed pull request |-\|/-| 569 +126 −18 cpp h cmake bat 7|-\|/-| 
+!F Improved comment syntax on XXX.cfg & .cryproject files |-\|/-| 2019-06-15T07:21:53Z Closed pull request |-\|/-| 568 +148 −46 gitignore cpp h cmake py exe 12|-\|/-| 
+!AF Improved SDK handling |-\|/-| 2019-06-15T07:02:05Z Closed pull request |-\|/-| 567 +325 −15 gitignore txt cmake json exe py spec bat 9|-\|/-| 
+!T Updated InstallEngine.bat pathing |-\|/-| 2019-06-24T17:10:31Z Merged pull request |-\|/-| 565 +8 −3 bat 1|-\|/-| 
+!FT (CMake) Updated VStudio debug-cli macro |-\|/-| 2019-07-05T16:48:07Z Closed pull request |-\|/-| 564 +10 −10 cmake 1|-\|/-| 
+!F (CMake) Added option to build release RC in a debug-solution |-\|/-| 2019-02-01T17:00:19Z Merged pull request |-\|/-| 563 +10 −1 cmake 1|-\|/-| 
+!FB Improved cry_cmake.exe |-\|/-| 2019-06-15T07:21:16Z Closed pull request |-\|/-| 561 +189 −45 gitignore py spec bat exe 6|-\|/-| 
+!B (DefaultComponents) Matrix isn't orthonormal |-\|/-| 2019-02-01T09:13:27Z Merged pull request |-\|/-| 557 +3 −1 h 1|-\|/-| 
+!B (Sandbox) Corrupt string error |-\|/-| 2019-07-05T16:48:07Z Closed pull request |-\|/-| 556 +1 −1 cpp 1|-\|/-| 
+!B (Renderer) RenderNode invalid iterators |-\|/-| 2019-07-05T16:48:07Z Closed pull request |-\|/-| 555 +4 −5 cpp 1|-\|/-| 
+!B Won't build - missing headers |-\|/-| 2019-06-25T10:49:27Z Merged pull request |-\|/-| 554 +4 −0 h cpp 2|-\|/-| 
+!B (Sandbox) Mannequin fragment viewer dying |-\|/-| 2018-12-19T09:49:45Z Merged pull request |-\|/-| 553 +3 −2 cpp 1|-\|/-| 
+!B (Sandbox) Crash on exiting sandbox |-\|/-| 2019-06-24T17:22:32Z Closed pull request |-\|/-| 552 +5 −0 h 1|-\|/-| 
+!B (Sandbox) Improper file monitoring fixed |-\|/-| 2019-06-15T06:48:45Z Closed pull request |-\|/-| 551 +62 −34 cpp 14|-\|/-| 
+!B (CMake) Missing RC commits, probably important? |-\|/-| 2019-07-05T16:48:07Z Closed pull request |-\|/-| 550 +6 −0 cmake 1|-\|/-| 
+!BT (Networking) Syntax typo fix |-\|/-| 2019-06-24T08:28:00Z Merged pull request |-\|/-| 549 +3 −3 cpp 1|-\|/-| 
+!B (Networking) Dedicated server assert for existing sub-mtl shaders |-\|/-| 2019-02-01T16:57:27Z Merged pull request |-\|/-| 548 +1 −1 cpp 1|-\|/-| 
+!B Relative path not converted to absolute when -project passed |-\|/-| 2019-06-15T07:07:23Z Closed pull request |-\|/-| 547 +6 −11 h 1|-\|/-| 
+!B (FMOD) No banks caused FMod to kill project on launch. |-\|/-| 2018-12-17T03:04:57Z Closed pull request |-\|/-| 546 +6 −3 cpp 1|-\|/-| 
+!B (Sandbox) Switching from mannequin layout to default view crash |-\|/-| 2018-12-19T09:49:12Z Merged pull request |-\|/-| 545 +1 −1 cpp 1|-\|/-| 
+!B (Renderer) Floating point error in camera plane frustrums. |-\|/-| 2019-07-05T16:48:06Z Closed pull request |-\|/-| 544 +28 −0 cpp 1|-\|/-| 
+!B (Renderer) Shader reset did not clear reflected buffer |-\|/-| 2019-01-31T19:45:08Z Closed pull request |-\|/-| 543 +4 −0 cpp 1|-\|/-| 
+!B Fixed vsprintf "unexpected input value" |-\|/-| 2018-12-19T16:29:44Z Merged pull request |-\|/-| 542 +32 −1 h 2|-\|/-| 
+!B (Sandbox) Edits to get main-branch Sandbox built |-\|/-| 2019-07-05T16:48:06Z Closed pull request |-\|/-| 541 +24 −19 cpp h 12|-\|/-| 
+!B (RC) Fixed improper SZip library handling |-\|/-| 2019-07-05T16:48:06Z Closed pull request |-\|/-| 540 +8 −5 txt h 1|-\|/-| 
+!B (Sample Templates) Fixed permanent turning animation |-\|/-| 2018-12-19T09:50:51Z Merged pull request |-\|/-| 539 +3 −3 cpp 1|-\|/-| 
+Main |-\|/-| 2018-11-22T18:37:57Z Closed pull request |-\|/-| 535 +14,805 −14,287 cpp h 23|-\|/-| 
+Improvement and refactoring of core Timer API and times |-\|/-| 2019-07-05T16:48:06Z Closed pull request |-\|/-| 517 +108,070 −72,850 cfg gitignore h cpp 4|-\|/-| 
+Improvement and refactoring of core Timer API and times |-\|/-| 2018-10-25T16:16:19Z Closed pull request |-\|/-| 511 +30,404 −16,797 gitignore cpp h 12|-\|/-| 
+!BA Edits required to have working Main branch. Uses sample FPS project as simple base. |-\|/-| 2018-11-15T14:02:28Z Closed pull request |-\|/-| 510 +5,346 −79 gitignore h cpp txt 17|-\|/-| 
+Standardization and improvement of any Time API's/systems |-\|/-| 2018-10-02T08:19:37Z Closed pull request |-\|/-| 509 +240,365 −209,815 cfg gitignore cpp h 4|-\|/-| 
+!BE (Sandbox) Fix transition editor only showing fragments on one scope |-\|/-| 2018-11-15T11:50:18Z Merged pull request |-\|/-| 505 +1 −1 cpp 1|-\|/-| 
+!BE (3DEngine) Fix objects not correctly rendering when e_streamInsta… |-\|/-| 2018-11-26T09:27:23Z Closed pull request |-\|/-| 496 +2 −2 cpp 1|-\|/-| 
+!F (Default Entities) Added physically based light values |-\|/-| 2019-07-05T16:48:06Z Closed pull request |-\|/-| 484 +111 −3 h cpp 5|-\|/-| 
+Remove GameObject dependency from CActionMap::ReleaseFilteredActions |-\|/-| 2018-12-19T12:35:32Z Merged pull request |-\|/-| 474 +1 −3 cpp 1|-\|/-| 
+Stabilisation |-\|/-| 2018-07-09T11:42:33Z Closed pull request |-\|/-| 469 +1,016,587 −385,084 cfg json 2|-\|/-| 
+ !T (3DEngine) Fix typo in single line comments |-\|/-| 2019-07-05T16:48:05Z Closed pull request |-\|/-| 448 +26 −22 cpp cryproject 2|-\|/-| 
+!FE (AlembicComponent) Play, Pause, Stop features. |-\|/-| 2018-05-15T13:19:23Z Merged pull request |-\|/-| 439 +55 −1 cpp h 2|-\|/-| 
+Pullrequests |-\|/-| 2018-05-11T13:47:36Z Closed pull request |-\|/-| 434 +1,013,551 −394,376 cfg json 2|-\|/-| 
+Remove GameObject dependency from CActionMap::ReleaseFilteredActions |-\|/-| 2018-07-19T17:38:32Z Closed pull request |-\|/-| 433 +1 −3 cpp 1|-\|/-| 
+!AF (Sandbox) Use Qt i18n solution in Sandbox |-\|/-| 2018-06-27T00:58:58Z Closed pull request |-\|/-| 428 +382 −0 cpp qm bat 56|-\|/-| 
+!AF (Sandbox) Qt i18n solution in Sandbox |-\|/-| 2018-04-27T12:21:59Z Closed pull request |-\|/-| 426 +1,029,542 −400,466 cfg json 2|-\|/-| 
+!FE (AlembicComponent) Play, Pause, Stop features. |-\|/-| 2018-05-15T09:58:30Z Closed pull request |-\|/-| 412 +231 −178 cpp 1|-\|/-| 
+!AF(Sandbox) Sandbox multilanguage solution |-\|/-| 2018-04-19T04:50:17Z Closed pull request |-\|/-| 409 +24,038 −0 cpp qm 2|-\|/-| 
+!BORT (3dengine, RenderDll) Mesh stream cleanup |-\|/-| 2019-04-25T20:52:29Z Closed pull request |-\|/-| 366 +2,713 −2,532 cpp h 5|-\|/-| 
+!AFR (Cry3DEngine, ResourceCompiler) Mesh vertex reordering rework |-\|/-| 2019-03-15T17:38:00Z Closed pull request |-\|/-| 365 +1,516 −300 cpp h txt 3|-\|/-| 
+!AFR (RenderDll) Depth bounds test |-\|/-| 2019-04-25T20:52:40Z Closed pull request |-\|/-| 359 +1,769 −169 h txt cpp 5|-\|/-| 
+!ATB (CMake, RenderDll) Added Windows 10 highest installed version SDK detection to CMake |-\|/-| 2018-01-08T12:04:59Z Closed pull request |-\|/-| 358 +168 −0 txt bat 2|-\|/-| 
+[Docs] - Crytek/CryEngine - README.md - minor tweaks (spelling, gramm… |-\|/-| 2018-06-25T07:54:07Z Closed pull request |-\|/-| 356 +6 −6 md 0|-\|/-| 
+Added ability to queue an action |-\|/-| 2018-04-01T16:29:09Z Closed pull request |-\|/-| 348 +10 −0 h 1|-\|/-| 
+!B (CryPhysics) Fix missing CryPhysX terrain collision in GameLauncher |-\|/-| 2018-05-24T17:03:13Z Closed pull request |-\|/-| 333 +3 −0 cpp 1|-\|/-| 
+!B (CryPhysX) Fix shutdown issues |-\|/-| 2017-11-16T15:16:48Z Merged pull request |-\|/-| 332 +21 −16 cpp h 3|-\|/-| 
+Style changes |-\|/-| 2017-11-03T11:22:09Z Closed pull request |-\|/-| 325 +278 −288 0|-\|/-| 
+Fix GetRandomUnitVector. |-\|/-| 2019-06-24T16:58:30Z Closed pull request |-\|/-| 316 +3 −6 h 1|-\|/-| 
+Fix bError not properly handled when logging from non-main thread |-\|/-| 2019-07-05T16:48:03Z Closed pull request |-\|/-| 315 +1 −1 cpp 1|-\|/-| 
+!AF (CMake) Allow for users to cleanly add/remove their game projects without modifying files from Tools/ directory in custom engine versions |-\|/-| 2019-07-05T16:48:05Z Closed pull request |-\|/-| 314 +8 −1 gitignore txt cmake 2|-\|/-| 
+!T (CryPlugins) Fix a pair of misleading function names |-\|/-| 2018-06-15T16:07:01Z Closed pull request |-\|/-| 313 +3 −3 h 2|-\|/-| 
+tweaking README.md - TYPOS & ToC |-\|/-| 2017-10-05T14:52:12Z Closed pull request |-\|/-| 309 +13 −7 md 0|-\|/-| 
+!R (Physics) Upgrade CryPhysX to PhysX 3.4 |-\|/-| 2017-11-14T19:30:27Z Closed pull request |-\|/-| 303 +111 −92 txt cpp h 8|-\|/-| 
+!B (CryAnimation) Fix race-condition crash in PoseAlignerChain |-\|/-| 2017-11-06T09:58:26Z Merged pull request |-\|/-| 281 +17 −18 cpp h 2|-\|/-| 
+!BA (Vulkan) (CMake) Fix Vulkan Compilation |-\|/-| 2018-03-24T02:31:12Z Closed pull request |-\|/-| 274 +2 −0 txt 0|-\|/-| 
+!BA (Vulkan) (WAF) Fix Vulkan Compilation |-\|/-| 2018-03-24T02:31:12Z Closed pull request |-\|/-| 273 +3 −1 waf_files 1|-\|/-| 
+!T (3DEngine) Fix typo in listener name |-\|/-| 2019-07-05T16:48:05Z Closed pull request |-\|/-| 271 +1 −1 cpp 1|-\|/-| 
+!T (Schematyc) Correct typo in log message |-\|/-| 2018-07-10T11:09:19Z Closed pull request |-\|/-| 270 +1 −1 cpp 1|-\|/-| 
+fixed devision by zero DecalPassPs |-\|/-| 2019-07-05T16:48:05Z Closed pull request |-\|/-| 268 +4 −2 cfx 1|-\|/-| 
+fix devision by zero |-\|/-| 2017-08-29T21:43:29Z Closed pull request |-\|/-| 267 +388,101 −479,542 cfg gitignore txt 2|-\|/-| 
+RC_Job should also copy the schematyc entites |-\|/-| 2017-08-28T09:06:45Z Merged pull request |-\|/-| 265 +1 −1 xml 1|-\|/-| 
+RC_Job should also copy the schematyc entities |-\|/-| 2017-08-28T09:02:00Z Closed pull request |-\|/-| 264 +928 −333 cpp h 3|-\|/-| 
+we need a stable version |-\|/-| 2017-11-01T10:57:22Z Closed pull request |-\|/-| 263 +138,105 −173,155 json cpp h 4|-\|/-| 
+!F (DefaultComponents) Add AgentType property for PathfindingComponent |-\|/-| 2017-09-01T11:42:24Z Closed pull request |-\|/-| 259 +8 −2 cpp h 2|-\|/-| 
+!T (git) Thank people in advance for pull requests. |-\|/-| 2018-12-20T10:00:34Z Closed pull request |-\|/-| 257 +1 −1 md 0|-\|/-| 
+!B (CryEntitySystem) Use FragmentID when referring to fragments |-\|/-| 2017-08-23T15:37:20Z Merged pull request |-\|/-| 256 +2 −2 h 1|-\|/-| 
+!R (CMake/CryRun) CMakeLists detection additions |-\|/-| 2018-03-24T02:31:16Z Closed pull request |-\|/-| 252 +110 −39 cmake py 2|-\|/-| 
+Test 3 |-\|/-| 2017-08-18T08:55:07Z Closed pull request |-\|/-| 246 +78,690 −132,574 json cpp h txt 11|-\|/-| 
+Test_4 |-\|/-| 2017-08-15T22:07:39Z Merged pull request |-\|/-| 245 +1,321 −724 cpp inl h 10|-\|/-| 
+Test_2 |-\|/-| 2017-08-18T08:55:15Z Closed pull request |-\|/-| 244 +799 −4,610 cpp 3|-\|/-| 
+Test |-\|/-| 2017-08-15T08:47:59Z Closed pull request |-\|/-| 243 +799 −4,610 cpp 3|-\|/-| 
+!XE (GamePlugin) Missing code block added for registering user defined EntityComponents. |-\|/-| 2018-04-02T12:20:42Z Closed pull request |-\|/-| 241 +257 −179 cpp 1|-\|/-| 
+create change to demo pull request |-\|/-| 2017-08-14T09:17:12Z Closed pull request |-\|/-| 239 +3 −0 md 0|-\|/-| 
+!FE (cry_cmake) Added a check for SDKs and user prompts |-\|/-| 2017-08-23T09:40:11Z Merged pull request |-\|/-| 233 +87 −3 py 1|-\|/-| 
+Update to TActionHandler so it will pass along the return value of th… |-\|/-| 2017-08-11T12:47:56Z Closed pull request |-\|/-| 230 +1 −1 h 1|-\|/-| 
+!B (GameTemplates) Fix ReflectType on CBulletComponent |-\|/-| 2017-08-09T11:55:46Z Merged pull request |-\|/-| 229 +4 −4 h 4|-\|/-| 
+!B (GameTemplates) Fix ReflectType on CBulletComponent in ThirdPerson… |-\|/-| 2017-08-09T11:30:16Z Merged pull request |-\|/-| 228 +2 −2 h 1|-\|/-| 
+Readme |-\|/-| 2017-08-07T14:49:49Z Merged pull request |-\|/-| 223 +2 −0 md 0|-\|/-| 
+Format change |-\|/-| 2017-08-07T14:59:06Z Closed pull request |-\|/-| 222 +0 −0 0|-\|/-| 
+change markup of license.md |-\|/-| 2017-08-07T09:10:17Z Merged pull request |-\|/-| 221 +75 −75 0|-\|/-| 
+Voxel |-\|/-| 2017-08-11T13:30:50Z Merged pull request |-\|/-| 218 +1,917 −6,820 json cpp 5|-\|/-| 
+Introduced non-destructive means of adding additional projects to repository |-\|/-| 2017-10-08T09:07:39Z Closed pull request |-\|/-| 216 +128 −18 gitignore txt cmake 3|-\|/-| 
+fixing minor issues |-\|/-| 2017-08-21T15:06:43Z Closed pull request |-\|/-| 196 +5 −8 md 0|-\|/-| 
+Merge pull request #1 from CRYTEK-CRYENGINE/release |-\|/-| 2017-08-01T07:06:53Z Closed pull request |-\|/-| 195 +0 −0 0|-\|/-| 
+!BE (System) Translate x, y for mousewheel events |-\|/-| 2017-07-31T15:15:35Z Closed pull request |-\|/-| 194 +8 −0 cpp 1|-\|/-| 
+fixing a couple of typos |-\|/-| 2017-08-21T15:09:49Z Merged pull request |-\|/-| 190 +2 −2 md 0|-\|/-| 
+!R (CryPluginManager) Allow specifying (un)load priority. |-\|/-| 2018-03-24T02:31:17Z Closed pull request |-\|/-| 188 +200 −79 h cpp 7|-\|/-| 
+!TE (PluginManager) (uniflare) Unload plugins in FILO order for dependency. |-\|/-| 2017-06-17T09:24:31Z Closed pull request |-\|/-| 187 +3 −3 cpp 1|-\|/-| 
+20170531 |-\|/-| 2017-06-17T09:24:01Z Closed pull request |-\|/-| 184 +3,725 −11,411 gitignore txt cpp h 12|-\|/-| 
+!R (CMake/CryRun) CMakeLists detection additions |-\|/-| 2017-08-21T22:53:28Z Closed pull request |-\|/-| 183 +95 −24 cmake py 2|-\|/-| 
+!FE (CMake) (uniflare) Added (optional) module type tags. |-\|/-| 2017-05-28T04:39:13Z Closed pull request |-\|/-| 182 +50 −7 py 1|-\|/-| 
+!FE (ProjectManager) (uniflare) Allow project file inside asset dir |-\|/-| 2017-06-19T10:52:35Z Closed pull request |-\|/-| 181 +12 −0 cpp 1|-\|/-| 
+(Various) Exit crashes. |-\|/-| 2017-08-11T02:50:28Z Closed pull request |-\|/-| 180 +9 −6 h cpp 3|-\|/-| 
+(MonoRuntime) A Potential startup crash and exit crash. |-\|/-| 2017-06-17T09:20:18Z Closed pull request |-\|/-| 179 +2 −1 cpp 1|-\|/-| 
+Fix wrong comparison & removed unnecessary loop |-\|/-| 2017-05-06T05:03:12Z Closed pull request |-\|/-| 173 +1 −10 cpp h 2|-\|/-| 
+!TE (CMake) (uniflare) Allow VS to locate CryCommon includes |-\|/-| 2019-07-05T16:48:02Z Closed pull request |-\|/-| 169 +48 −1 txt props in 4|-\|/-| 
+make download_sdks.py executable |-\|/-| 2017-05-17T21:54:03Z Closed pull request |-\|/-| 168 +0 −0 exe py 2|-\|/-| 
+make download_sdks.py executable |-\|/-| 2017-03-27T12:48:29Z Closed pull request |-\|/-| 167 +2 −2,795 json 1|-\|/-| 
+make download_sdks.py executable |-\|/-| 2017-03-27T12:29:10Z Closed pull request |-\|/-| 166 +0 −0 py 1|-\|/-| 
+!B (CWE-688) (3DEngine) PVS-Studio: Function Call With Incorrect Variable |-\|/-| 2017-06-17T09:19:11Z Closed pull request |-\|/-| 164 +1 −1 cpp 1|-\|/-| 
+!B (CWE-476) (Movie) PVS-Studio: NULL Pointer Dereference |-\|/-| 2017-06-17T09:18:31Z Closed pull request |-\|/-| 163 +2 −1 cpp 1|-\|/-| 
+!B (CWE-571) (CryPlugins) PVS-Studio: Expression is Always True |-\|/-| 2017-06-17T09:18:47Z Closed pull request |-\|/-| 162 +1 −1 h 1|-\|/-| 
+corrected misaligned bullet-points in LICENSE.md |-\|/-| 2017-09-16T13:38:11Z Closed pull request |-\|/-| 161 +13 −13 md 0|-\|/-| 
+fixed header syntax in LICENSE.md |-\|/-| 2017-08-09T11:51:22Z Closed pull request |-\|/-| 160 +14 −14 md 0|-\|/-| 
+!B (CWE-467) (3DEngine) PVS-Studio: sizeof () evaluates the size of a pointer |-\|/-| 2017-06-17T09:18:03Z Closed pull request |-\|/-| 159 +1 −1 cpp 1|-\|/-| 
+!B (CWE-806) (3DEngine) buffer underflow fixed by PVS-Studio |-\|/-| 2017-06-17T09:17:40Z Closed pull request |-\|/-| 158 +1 −1 cpp 1|-\|/-| 
+Extend DRS SpeakLine to use Context Variable |-\|/-| 2018-06-15T10:27:48Z Closed pull request |-\|/-| 144 +28 −5 cpp h 2|-\|/-| 
+!FE (PluginManager) (uniflare) Allow loading cryplugin.csv from game … |-\|/-| 2017-05-20T16:30:37Z Closed pull request |-\|/-| 133 +15 −1 cpp 1|-\|/-| 
+merge from crytex-cryengine |-\|/-| 2017-06-17T09:16:22Z Closed pull request |-\|/-| 131 +3,725 −11,411 gitignore txt cpp h 12|-\|/-| 
+Stabilisation |-\|/-| 2017-01-10T17:41:08Z Closed pull request |-\|/-| 88 +329 −255 txt cpp h 18|-\|/-| 
+Re-initialise camera vars in UnloadLevel in Cry3DEngine |-\|/-| 2017-09-07T13:01:10Z Closed pull request |-\|/-| 75 +0 −0 0|-\|/-| 
+!B (Tools) Wwise SDK installation expects new directory structure. |-\|/-| 2017-08-11T13:30:01Z Closed pull request |-\|/-| 54 +32 −104 txt bat py 2|-\|/-| 
+!B (System) Wrong warning missing thread configuration when only common configuration is defined. |-\|/-| 2017-10-06T13:31:54Z Merged pull request |-\|/-| 53 +15 −9 cpp 1|-\|/-| 
+Limit editor framerate |-\|/-| 2019-07-05T16:48:04Z Closed pull request |-\|/-| 50 +114 −10 cpp h cmake 7|-\|/-| 
+Typos |-\|/-| 2017-08-11T12:54:01Z Merged pull request |-\|/-| 39 +6 −6 cpp h 5|-\|/-| 
+update |-\|/-| 2016-11-29T12:26:40Z Closed pull request |-\|/-| 38 +3,725 −11,411 gitignore txt cpp h 12|-\|/-| 
+!B (Tools) Wwise SDK installation expects new directory structure. |-\|/-| 2016-12-17T11:02:05Z Closed pull request |-\|/-| 37 +32 −104 txt bat py 2|-\|/-| 
+!B (System) Wrong warning missing thread configuration when only common configuration is defined |-\|/-| 2016-12-17T10:59:21Z Closed pull request |-\|/-| 36 +15 −9 cpp 1|-\|/-| 
+10-12 |-\|/-| 2017-06-17T09:15:22Z Closed pull request |-\|/-| 35 +3,725 −11,411 gitignore txt cpp h 12|-\|/-| 
+Fix for locked head rotation in mp. |-\|/-| 2017-06-17T09:14:32Z Closed pull request |-\|/-| 34 +6 −1 cpp 1|-\|/-| 
+Main |-\|/-| 2016-09-24T10:04:29Z Closed pull request |-\|/-| 33 +45,414 −30,073 gitignore cpp 3|-\|/-| 
+Fixing Asynchronous Time Warp on OSVR |-\|/-| 2017-06-19T10:55:46Z Closed pull request |-\|/-| 32 +14 −1 cpp 1|-\|/-| 
+Fix shader input layout for DirectX 10+ |-\|/-| 2019-07-05T16:48:02Z Closed pull request |-\|/-| 31 +2 −0 h 1|-\|/-| 
+Main |-\|/-| 2016-08-31T18:57:01Z Closed pull request |-\|/-| 30 +155,119 −163,403 txt cpp 2|-\|/-| 
+Use cross-platform path separator for steam_api.h in CrySteamStats.h |-\|/-| 2017-01-09T19:11:23Z Closed pull request |-\|/-| 29 +223,346 −216,375 gitignore 1|-\|/-| 
+Prevent segfault in DX12 renderer |-\|/-| 2016-08-01T15:15:38Z Closed pull request |-\|/-| 28 +11 −11 cpp 1|-\|/-| 
+Update DeviceWrapper12.cpp |-\|/-| 2017-01-09T19:11:08Z Closed pull request |-\|/-| 27 +223,232 −216,326 gitignore 1|-\|/-| 
+Three Mouse Position Nodes |-\|/-| 2017-06-17T09:13:14Z Closed pull request |-\|/-| 26 +5,875 −12,720 gitignore txt cpp h 10|-\|/-| 
+Multiple Camera rendering fixes |-\|/-| 2017-06-17T09:13:00Z Closed pull request |-\|/-| 25 +120,167 −214,766 gitignore 1|-\|/-| 
+IFlashUI SendEvent variadic function |-\|/-| 2017-06-17T09:12:47Z Closed pull request |-\|/-| 24 +5,679 −12,818 gitignore txt cpp h 10|-\|/-| 
+Fix WAF configure failure if MSBUILD is at default location but VS at… |-\|/-| 2017-03-30T12:00:51Z Closed pull request |-\|/-| 23 +118,547 −213,566 gitignore 1|-\|/-| 
+Fix heap corruption in physics IF deleting phys ents before 3D post r… |-\|/-| 2016-09-27T15:43:59Z Closed pull request |-\|/-| 22 +114,285 −209,169 gitignore 1|-\|/-| 
+commented on SetTerrainElevation() |-\|/-| 2016-08-31T09:13:12Z Closed pull request |-\|/-| 21 +9 −1 h 1|-\|/-| 
+error C4703 |-\|/-| 2016-08-31T09:13:38Z Closed pull request |-\|/-| 20 +2 −2 cpp 1|-\|/-| 
+extrection - > extraction |-\|/-| 2016-06-12T03:23:40Z Closed pull request |-\|/-| 19 +1 −1 cpp 1|-\|/-| 
+Support lambdas in console commands |-\|/-| 2017-01-09T19:11:04Z Closed pull request |-\|/-| 18 +59,523 −39,635 gitignore cpp 2|-\|/-| 
+Fix console double paste issue |-\|/-| 2017-06-17T09:12:19Z Closed pull request |-\|/-| 17 +58,977 −38,958 gitignore cpp 2|-\|/-| 
+Added null renderer checks to OpticsManager, FogVolumeRenderNode, and… |-\|/-| 2017-06-17T09:12:05Z Closed pull request |-\|/-| 16 +49,782 −32,131 gitignore cpp 3|-\|/-| 
+Fix case of dangling pointer use in RenderObject |-\|/-| 2017-06-17T09:11:23Z Closed pull request |-\|/-| 15 +45,414 −30,073 gitignore cpp 3|-\|/-| 
+Improved RayCast and RayCastCamera flow nodes. |-\|/-| 2017-06-17T09:11:14Z Closed pull request |-\|/-| 14 +49,686 −32,078 gitignore cpp 3|-\|/-| 
+Add 4 dpad buttons for MotionController |-\|/-| 2016-06-05T09:28:59Z Closed pull request |-\|/-| 13 +57 −20 cpp h 5|-\|/-| 
+fixed some typos |-\|/-| 2016-06-12T15:47:36Z Closed pull request |-\|/-| 12 +21 −21 lua 3|-\|/-| 
+[BUGFIX][GNU/Linux] Compile errors, memory leaks ... |-\|/-| 2017-06-17T09:10:58Z Closed pull request |-\|/-| 11 +72,477 −59,506 gitignore txt 1|-\|/-| 
+ (ActionMapManager) Forced controller device opt-in and added warning… |-\|/-| 2017-06-17T09:09:49Z Closed pull request |-\|/-| 10 +45,430 −30,084 gitignore cpp 3|-\|/-| 
+Partial OS X Support - Engine launches and can run, no rendering (yet) |-\|/-| 2017-06-17T09:09:12Z Closed pull request |-\|/-| 9 +45,613 −30,182 gitignore cpp 3|-\|/-| 
+Zeph main |-\|/-| 2016-05-25T13:01:20Z Closed pull request |-\|/-| 8 +40 −11 gitignore cpp md 2|-\|/-| 
+Rework road serialization to avoid full mesh regeneration in launcher |-\|/-| 2016-09-29T08:03:40Z Closed pull request |-\|/-| 7 +120,153 −214,873 gitignore 1|-\|/-| 
+Fix new character instance processing ignoring full skeleton update |-\|/-| 2016-09-27T15:43:12Z Closed pull request |-\|/-| 6 +45,417 −30,078 gitignore cpp 3|-\|/-| 
+Fix manual seek usage in transition queue breaking animation events |-\|/-| 2016-09-27T15:42:17Z Closed pull request |-\|/-| 5 +45,416 −30,073 gitignore cpp 3|-\|/-| 
+CRYENGINE is |-\|/-| 2016-05-25T18:27:17Z Closed pull request |-\|/-| 4 +1 −1 md 0|-\|/-| 
+Main-Daryl |-\|/-| 2016-05-24T19:39:09Z Closed pull request |-\|/-| 3 +42,778 −19,731 gitignore txt cpp 4|-\|/-| 
+Create LICENSE file |-\|/-| 2016-05-24T14:28:41Z Closed pull request |-\|/-| 2 +198 −0 0|-\|/-| 
+Update README.md to explain what to do with SDKs. |-\|/-| 2016-05-24T09:13:55Z Merged pull request |-\|/-| 1 +7 −1 md 0|-\|/-| 

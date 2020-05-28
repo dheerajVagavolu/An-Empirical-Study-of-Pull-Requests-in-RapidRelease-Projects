@@ -1,0 +1,122 @@
+Potential fix for unblocking the UI in iOS 13 |-\|/-| 2019-10-12T13:52:48Z Merged pull request |-\|/-| 314 +17 −13 swift 1|-\|/-| 
+Fix left-over window bug after dismissing alert |-\|/-| 2019-10-03T02:13:45Z Closed pull request |-\|/-| 310 +2 −2 swift 1|-\|/-| 
+Xcode 11 / iOS 13 / Swift 5.1 Support |-\|/-| 2019-09-15T03:43:20Z Merged pull request |-\|/-| 306 +73 −39 xcworkspacedata yml swift podspec 8|-\|/-| 
+Reword misspell words |-\|/-| 2019-08-18T00:18:01Z Merged pull request |-\|/-| 301 +12 −12 swift 6|-\|/-| 
+Fix for comparing current version with app store of same version |-\|/-| 2019-07-02T02:08:30Z Closed pull request |-\|/-| 291 +6 −3 swift 1|-\|/-| 
+Fixed same version bug found in #288 |-\|/-| 2019-05-15T01:28:44Z Merged pull request |-\|/-| 289 +4,240 −5,811 pbxproj swift plist html 6|-\|/-| 
+Added wail with provided newer version |-\|/-| 2019-05-10T14:15:02Z Closed pull request |-\|/-| 286 +174 −96 pbxproj swift 2|-\|/-| 
+Fixed issue with date offset calculations due to time zone |-\|/-| 2019-04-17T01:16:44Z Merged pull request |-\|/-| 284 +7 −5 swift 1|-\|/-| 
+Update SwiftPM manifest file |-\|/-| 2019-04-03T03:30:00Z Merged pull request |-\|/-| 281 +13 −2 swift md 1|-\|/-| 
+Swift 5 Implementation and Architecture Changes |-\|/-| 2019-03-28T03:13:06Z Merged pull request |-\|/-| 279 +4,604 −846 yml pbxproj 2|-\|/-| 
+Fix missing imports |-\|/-| 2019-03-11T03:37:40Z Merged pull request |-\|/-| 273 +2 −2 swift 2|-\|/-| 
+review zh-Hans, zh-Hant i18n strings. |-\|/-| 2019-03-01T12:34:47Z Closed pull request |-\|/-| 271 +0 −0 strings 2|-\|/-| 
+FIX a conditional statement for the skip action. |-\|/-| 2019-02-09T01:41:53Z Merged pull request |-\|/-| 270 +1 −1 swift 1|-\|/-| 
+add `hinting` static rules configuration |-\|/-| 2019-02-02T20:09:50Z Merged pull request |-\|/-| 269 +10 −5 swift 1|-\|/-| 
+Manual version check and alert presentation |-\|/-| 2019-02-02T20:31:44Z Merged pull request |-\|/-| 268 +3,932 −314 pbxproj swift html 6|-\|/-| 
+[ADD] case in rules manager to prevent alert presenting |-\|/-| 2019-02-01T01:04:50Z Closed pull request |-\|/-| 266 +5 −0 swift 1|-\|/-| 
+Removed shouldPerformVersionCheckOnSubsequentLaunch userdefault to fi… |-\|/-| 2019-01-11T04:46:26Z Merged pull request |-\|/-| 264 +16,818 −2,635 podspec swift html 5|-\|/-| 
+Update Siren.swift |-\|/-| 2018-12-20T22:17:49Z Merged pull request |-\|/-| 254 +2 −1 swift 1|-\|/-| 
+Siren 4.0.0 |-\|/-| 2018-12-27T01:47:04Z Merged pull request |-\|/-| 250 +28,872 −3,425 md ruby-version yml 2|-\|/-| 
+Removed print statement from UserDefaults getter |-\|/-| 2018-11-09T18:02:09Z Merged pull request |-\|/-| 247 +0 −1 swift 1|-\|/-| 
+Add an enum `SirenEitherType` to adjust the type of value for key "tr… |-\|/-| 2018-10-29T00:54:04Z Closed pull request |-\|/-| 240 +42 −2 swift 3|-\|/-| 
+Fix trackId type change from Int to String |-\|/-| 2018-10-26T00:51:57Z Closed pull request |-\|/-| 239 +2 −2 swift 2|-\|/-| 
+Force update based on minimum version set by user |-\|/-| 2018-10-13T00:42:18Z Closed pull request |-\|/-| 236 +32 −6 swift 3|-\|/-| 
+Force update based on minimum version set by user |-\|/-| 2018-10-12T04:50:28Z Closed pull request |-\|/-| 235 +32 −6 swift 3|-\|/-| 
+Force update based on minimum version set by user |-\|/-| 2018-10-12T04:41:18Z Closed pull request |-\|/-| 234 +31 −0 swift 3|-\|/-| 
+Further refactoring for Swift 4.2 |-\|/-| 2018-09-28T01:37:02Z Merged pull request |-\|/-| 231 +584 −329 ruby-version pbxproj swift lock 10|-\|/-| 
+Converted SirenAlertMessaging strings to type of NSAttributedString |-\|/-| 2018-09-22T19:41:33Z Merged pull request |-\|/-| 228 +59 −55 swift lock md podspec 6|-\|/-| 
+Swift 4.2 compatibility |-\|/-| 2018-08-03T13:25:45Z Closed pull request |-\|/-| 222 +3 −3 pbxproj swift 2|-\|/-| 
+Update Siren.swift |-\|/-| 2018-07-28T02:24:45Z Closed pull request |-\|/-| 220 +1 −0 swift 1|-\|/-| 
+Update German localisation |-\|/-| 2018-07-24T13:56:49Z Merged pull request |-\|/-| 218 +0 −0 strings 1|-\|/-| 
+Use method introduced in iOS 10 for opening URLs with UIApplication |-\|/-| 2018-07-02T02:15:34Z Merged pull request |-\|/-| 216 +5 −1 swift 1|-\|/-| 
+Localized title |-\|/-| 2018-06-07T00:06:05Z Merged pull request |-\|/-| 214 +11 −5 swift 3|-\|/-| 
+SirenDelegate Enhancements |-\|/-| 2018-04-28T02:50:12Z Merged pull request |-\|/-| 210 +79 −47 yml md swift 5|-\|/-| 
+HTTPS when supported |-\|/-| 2018-04-27T16:56:47Z Merged pull request |-\|/-| 209 +17 −17 gitignore md swift 2|-\|/-| 
+HTTPS when supported |-\|/-| 2018-04-27T03:34:36Z Closed pull request |-\|/-| 208 +32 −32 gitignore md swift html 17|-\|/-| 
+Added check function that allow to pass custom check performing frequency in days |-\|/-| 2018-04-23T13:44:09Z Closed pull request |-\|/-| 205 +20 −6 swift 1|-\|/-| 
+Changed pt-BR text to be less aggressive. |-\|/-| 2018-03-12T02:09:52Z Merged pull request |-\|/-| 201 +1 −1 strings 1|-\|/-| 
+Check if the return data contains any results |-\|/-| 2018-03-11T00:33:22Z Merged pull request |-\|/-| 200 +9 −0 swift 2|-\|/-| 
+Override Siren's Default Copy/Messaging in UIAlertController/UIAlertActionSheet |-\|/-| 2017-12-08T16:06:09Z Merged pull request |-\|/-| 187 +78 −8 pbxproj swift 4|-\|/-| 
+Annoying alerts everytime app is switched to foreground from background even after clicking "Next Time" button in the alert |-\|/-| 2017-11-27T15:40:28Z Closed pull request |-\|/-| 185 +8 −1 swift 1|-\|/-| 
+Annoying alerts everytime app is switched to foreground from background even after clicking "Next Time" button in the alert |-\|/-| 2017-11-23T08:23:24Z Closed pull request |-\|/-| 184 +8 −1 swift 1|-\|/-| 
+Fix Arabic localization. |-\|/-| 2017-11-22T04:28:10Z Merged pull request |-\|/-| 182 +2 −2 swift strings 2|-\|/-| 
+Update README with phased rollout options |-\|/-| 2017-11-17T21:54:38Z Merged pull request |-\|/-| 181 +6 −2 md 0|-\|/-| 
+Add import UIKit for compilation as static framework. |-\|/-| 2017-11-09T21:05:00Z Merged pull request |-\|/-| 179 +2 −0 swift 2|-\|/-| 
+New Function: Alert for Appstore release notes |-\|/-| 2017-11-08T13:52:27Z Closed pull request |-\|/-| 178 +100 −4 swift strings 5|-\|/-| 
+'characters' is deprecated in Swift 4 |-\|/-| 2017-10-21T14:36:04Z Merged pull request |-\|/-| 176 +2 −2 swift 1|-\|/-| 
+Add Ukrainian localization |-\|/-| 2017-10-20T03:56:39Z Merged pull request |-\|/-| 175 +18 −0 swift strings 3|-\|/-| 
+Add update type information to custom alert delegate function |-\|/-| 2017-10-11T23:34:16Z Merged pull request |-\|/-| 171 +47 −5 swift 3|-\|/-| 
+Resolve accessibility issues |-\|/-| 2017-09-13T17:50:49Z Merged pull request |-\|/-| 162 +4 −4 swift 1|-\|/-| 
+fix: sirenDidFailVersionCheck default implementation |-\|/-| 2017-09-13T08:36:56Z Closed pull request |-\|/-| 160 +1 −1 swift 1|-\|/-| 
+Update ja localization |-\|/-| 2017-08-27T15:43:16Z Merged pull request |-\|/-| 159 +2 −2 swift strings 2|-\|/-| 
+Revert Xcode9 changes on swift3 branch |-\|/-| 2017-08-07T23:27:13Z Closed pull request |-\|/-| 158 +45 −23 pbxproj xcscheme swift 5|-\|/-| 
+Added SirenLog. Removed assertionFailures on default implementations … |-\|/-| 2017-08-05T17:43:06Z Merged pull request |-\|/-| 157 +61 −25 pbxproj swift 4|-\|/-| 
+[Bug fix] set "en_US_POSIX" as the locale of the date formatter |-\|/-| 2017-06-19T17:58:00Z Merged pull request |-\|/-| 150 +1 −0 swift 1|-\|/-| 
+Swift 4 and Xcode 9 Support |-\|/-| 2017-09-13T12:04:49Z Merged pull request |-\|/-| 147 +471 −444 swift-version yml md podspec pbxproj xcscheme swift xib storyboard json plist 13|-\|/-| 
+Swift3.x |-\|/-| 2017-06-04T18:53:31Z Closed pull request |-\|/-| 145 +332 −260 swift strings 7|-\|/-| 
+Persian localization added. |-\|/-| 2017-06-04T18:53:59Z Merged pull request |-\|/-| 144 +54 −0 swift strings 5|-\|/-| 
+Czech language support added |-\|/-| 2017-05-29T18:38:27Z Merged pull request |-\|/-| 143 +1 −0 strings swift 2|-\|/-| 
+Update pt-BR localization |-\|/-| 2017-04-26T14:33:18Z Merged pull request |-\|/-| 140 +0 −0 strings 1|-\|/-| 
+Fixed Enum cases typo |-\|/-| 2017-04-20T13:49:50Z Merged pull request |-\|/-| 139 +7 −7 md 0|-\|/-| 
+2.0.0 |-\|/-| 2017-04-08T05:50:29Z Merged pull request |-\|/-| 136 +371 −277 yml md podspec pbxproj swift 4|-\|/-| 
+Added SirenDateExtension. Improved app safety. |-\|/-| 2017-03-22T03:30:19Z Merged pull request |-\|/-| 134 +35 −30 pbxproj swift 3|-\|/-| 
+Split code into separate files |-\|/-| 2017-03-18T03:29:55Z Merged pull request |-\|/-| 131 +138 −92 podspec pbxproj swift 6|-\|/-| 
+Swifiter Codebase |-\|/-| 2017-03-04T05:58:14Z Merged pull request |-\|/-| 128 +7,275 −43 yml Gemfile lock md podspec swift 7|-\|/-| 
+Repo Improvements |-\|/-| 2017-03-03T21:39:36Z Merged pull request |-\|/-| 127 +2,272 −785 yml DS_Store pbxproj xcscheme plist h 6|-\|/-| 
+Added issue template |-\|/-| 2017-02-28T15:33:03Z Merged pull request |-\|/-| 124 +11 −0 md 0|-\|/-| 
+URL request cached response fixed |-\|/-| 2017-02-03T20:33:44Z Merged pull request |-\|/-| 122 +1 −1 swift 1|-\|/-| 
+Add links to badges |-\|/-| 2017-01-19T21:25:26Z Merged pull request |-\|/-| 118 +2 −2 md 0|-\|/-| 
+translate README.md into Chinese |-\|/-| 2017-01-17T03:11:53Z Merged pull request |-\|/-| 116 +236 −1 md 0|-\|/-| 
+Multiple Alert Bugfix + More |-\|/-| 2017-01-14T21:22:29Z Merged pull request |-\|/-| 114 +117 −217 DS_Store pbxproj xcscheme swift 6|-\|/-| 
+Update README.md with Swift 3 syntax in Setup section |-\|/-| 2016-12-15T02:30:57Z Merged pull request |-\|/-| 109 +3 −3 md 0|-\|/-| 
+It prevents the proposed update due to the cache |-\|/-| 2016-12-09T18:29:24Z Merged pull request |-\|/-| 107 +4 −1 swift 1|-\|/-| 
+Add Norwegian language |-\|/-| 2016-12-09T18:05:27Z Merged pull request |-\|/-| 106 +33 −0 md swift strings 3|-\|/-| 
+support OS X |-\|/-| 2017-02-28T16:06:47Z Closed pull request |-\|/-| 105 +96 −9 podspec swift 2|-\|/-| 
+Add translations in Greek (el), Finnish (fi), and Indonesian (id) |-\|/-| 2016-11-27T02:11:27Z Merged pull request |-\|/-| 103 +68 −2 md DS_Store swift strings 5|-\|/-| 
+Support for Greek Language |-\|/-| 2016-11-14T12:39:29Z Merged pull request |-\|/-| 101 +32 −0 DS_Store swift strings 4|-\|/-| 
+Support of Greek Language |-\|/-| 2016-11-11T18:10:05Z Closed pull request |-\|/-| 100 +2,212 −2,197 md Gemfile lock LICENSE swift 4|-\|/-| 
+Delegate for latest version installed and check for how long current app has been released |-\|/-| 2016-11-14T12:42:11Z Merged pull request |-\|/-| 99 +34 −4 swift 1|-\|/-| 
+Add Serbian (Cyrillic & Latin) localization |-\|/-| 2016-11-10T00:07:43Z Merged pull request |-\|/-| 98 +36 −0 swift strings 4|-\|/-| 
+Use CFBundleDisplayName when available, and keep application status bar style |-\|/-| 2016-11-10T00:07:10Z Merged pull request |-\|/-| 97 +11 −3 swift 1|-\|/-| 
+Bugfix/url components |-\|/-| 2016-10-04T14:51:23Z Closed pull request |-\|/-| 93 +4 −6 swift 1|-\|/-| 
+Fixes #89 |-\|/-| 2016-09-27T04:22:43Z Merged pull request |-\|/-| 90 +5 −5 strings 1|-\|/-| 
+Alternative App Store support. |-\|/-| 2016-09-08T01:49:57Z Closed pull request |-\|/-| 87 +35 −6 swift 1|-\|/-| 
+Continuing influence - doc updates |-\|/-| 2016-08-14T18:30:22Z Merged pull request |-\|/-| 84 +1 −0 md 0|-\|/-| 
+Fix typo |-\|/-| 2016-08-13T18:34:46Z Merged pull request |-\|/-| 83 +0 −0 strings 1|-\|/-| 
+Swift 2.3 Support |-\|/-| 2017-03-18T04:22:16Z Closed pull request |-\|/-| 81 +44 −15 pbxproj xcscheme xib swift 5|-\|/-| 
+Update name from "Harpy" to "Siren" |-\|/-| 2016-08-05T14:13:53Z Merged pull request |-\|/-| 80 +1 −1 md 0|-\|/-| 
+Swift2.3 |-\|/-| 2016-08-06T01:00:18Z Closed pull request |-\|/-| 79 +10 −1 pbxproj swift 2|-\|/-| 
+Add Vietnamese localization |-\|/-| 2016-07-27T03:20:42Z Merged pull request |-\|/-| 78 +18 −0 swift strings 3|-\|/-| 
+Siren 1.0.0 WIP (Swift 3 Support) |-\|/-| 2016-09-12T03:07:08Z Merged pull request |-\|/-| 75 +351 −341 md pbxproj xcscheme swift xib 5|-\|/-| 
+croatianLocalization: Added Croatian Localization |-\|/-| 2016-06-24T04:12:34Z Merged pull request |-\|/-| 73 +14 −0 strings 1|-\|/-| 
+Bugifx/fix crash for new apps |-\|/-| 2016-06-18T15:45:18Z Merged pull request |-\|/-| 72 +14 −9 yml md pbxproj podspec swift 4|-\|/-| 
+Fixed error on apps on under development, not submitted to AppStore |-\|/-| 2016-06-18T15:40:13Z Merged pull request |-\|/-| 71 +1 −1 swift 1|-\|/-| 
+Adding Tests |-\|/-| 2016-06-18T06:10:39Z Merged pull request |-\|/-| 68 +842 −41 md pbxproj xcscheme swift xib plist 5|-\|/-| 
+Minor changes after PR 63 |-\|/-| 2016-05-24T06:06:23Z Merged pull request |-\|/-| 64 +4 −9 md podspec swift 2|-\|/-| 
+ Issue with version checking algorithm |-\|/-| 2016-05-24T06:02:15Z Merged pull request |-\|/-| 63 +9 −11 swift 1|-\|/-| 
+Work in Progress for v0.8.0 |-\|/-| 2016-04-27T06:53:37Z Merged pull request |-\|/-| 56 +70 −82 md pbxproj swift podspec 4|-\|/-| 
+Change SirenDelegate from @objc protocol to swift protocol |-\|/-| 2016-04-27T06:49:34Z Merged pull request |-\|/-| 55 +25 −14 swift 1|-\|/-| 
+Allow (optional) bundleID instead of (required) AppID |-\|/-| 2016-04-27T06:49:28Z Merged pull request |-\|/-| 54 +47 −10 md swift 1|-\|/-| 
+Allow bundleID instead of AppID |-\|/-| 2016-04-22T14:24:06Z Closed pull request |-\|/-| 52 +72 −24 md swift 1|-\|/-| 
+Slight Refactor |-\|/-| 2016-03-28T23:12:26Z Merged pull request |-\|/-| 49 +241 −151 md pbxproj swift xib storyboard podspec 5|-\|/-| 
+Adding delegate method to capture error and no update scenarios |-\|/-| 2016-03-28T06:23:55Z Closed pull request |-\|/-| 48 +10 −0 swift 1|-\|/-| 
+Exposed currentAppStoreVersion |-\|/-| 2016-03-16T00:31:33Z Merged pull request |-\|/-| 47 +7 −3 podspec swift 2|-\|/-| 
+remove semicolon |-\|/-| 2016-03-10T14:08:35Z Merged pull request |-\|/-| 46 +1 −1 swift 1|-\|/-| 
+New delegate method to send new app store version and app name for a custom UI |-\|/-| 2016-03-16T00:28:56Z Closed pull request |-\|/-| 45 +25 −10 md swift 1|-\|/-| 
+Initial attempt at adding Carthage support |-\|/-| 2016-02-08T04:04:50Z Merged pull request |-\|/-| 42 +399 −12 md pbxproj 1|-\|/-| 
+Fix daysSinceLastVersionCheckDate |-\|/-| 2016-01-23T22:20:40Z Merged pull request |-\|/-| 40 +1 −1 swift 1|-\|/-| 
+Add return value in README |-\|/-| 2015-12-20T02:40:07Z Merged pull request |-\|/-| 38 +2 −0 md 0|-\|/-| 
+Added Armenian language support (hy) |-\|/-| 2015-11-10T19:09:37Z Merged pull request |-\|/-| 37 +1 −0 strings swift 2|-\|/-| 
+Added Malay language support (ms_MS) |-\|/-| 2015-11-05T03:22:26Z Merged pull request |-\|/-| 36 +15 −0 strings swift 2|-\|/-| 
+Support Enterprise Distribution |-\|/-| 2015-11-05T03:14:16Z Closed pull request |-\|/-| 35 +218 −24 swift plist podspec 4|-\|/-| 
+Swift 2.0 Updates |-\|/-| 2015-09-09T21:27:13Z Merged pull request |-\|/-| 29 +185 −141 md pbxproj swift xib storyboard plist podspec 6|-\|/-| 
+check nil of updaterWindow on func hideWindow |-\|/-| 2015-09-09T08:33:22Z Closed pull request |-\|/-| 27 +4 −2 swift 1|-\|/-| 
+Search in the correct bundle for resource bundle. |-\|/-| 2015-06-28T15:46:02Z Merged pull request |-\|/-| 22 +1 −1 swift 1|-\|/-| 
+Adds updateAlertType support for apps using only major and minor numb… |-\|/-| 2015-06-01T23:56:11Z Merged pull request |-\|/-| 21 +27 −9 md swift 2|-\|/-| 
+Adding a second UIWindow to display the UIAlertController. |-\|/-| 2015-05-05T01:47:35Z Merged pull request |-\|/-| 18 +27 −15 swift 2|-\|/-| 
+mark API interfaces as public to enable access through a .framework |-\|/-| 2015-04-01T15:10:42Z Merged pull request |-\|/-| 15 +14 −14 swift 1|-\|/-| 
+Added Polish language support |-\|/-| 2015-03-02T02:35:00Z Merged pull request |-\|/-| 10 +1 −0 strings swift 2|-\|/-| 
+Simplify split function |-\|/-| 2015-02-24T16:01:18Z Merged pull request |-\|/-| 8 +2 −2 swift 1|-\|/-| 
+Fixes crash with nil iTunesURL |-\|/-| 2015-01-29T17:03:24Z Merged pull request |-\|/-| 7 +3 −3 podspec swift 2|-\|/-| 
+Fixes issue #3 |-\|/-| 2015-01-21T11:32:29Z Closed pull request |-\|/-| 4 +7 −1 swift 1|-\|/-| 
+Fixes crash if no App Store versions are available |-\|/-| 2015-01-13T17:33:30Z Merged pull request |-\|/-| 2 +12 −12 pbxproj swift 2|-\|/-| 

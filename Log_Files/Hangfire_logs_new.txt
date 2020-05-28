@@ -1,0 +1,352 @@
+fix typo in readme file |-\|/-| 2019-12-20T10:57:52Z Merged pull request |-\|/-| 1588 +1 −1 md 0|-\|/-| 
+Added null checks for expired failed jobs |-\|/-| 2019-12-20T10:59:17Z Merged pull request |-\|/-| 1585 +130 −75 cshtml 1|-\|/-| 
+Add MapHangfireDashboard for ASP.NET Core endpoint routing |-\|/-| 2019-12-03T14:37:10Z Merged pull request |-\|/-| 1577 +56 −5 cs csproj 4|-\|/-| 
+add netcoreapp3.0 target for .Net Core 3 compatibility |-\|/-| 2019-12-03T12:09:36Z Merged pull request |-\|/-| 1575 +16 −3 csproj cs 2|-\|/-| 
+Correct spelling of 'prerequisites' |-\|/-| 2019-10-31T12:44:36Z Merged pull request |-\|/-| 1555 +2 −2 md 0|-\|/-| 
+Add HTML tags on Dashboard title |-\|/-| 2019-10-21T12:14:03Z Merged pull request |-\|/-| 1545 +1 −1 cshtml 1|-\|/-| 
+Recurring Jobs page added start and stop button |-\|/-| 2019-10-16T05:25:40Z Closed pull request |-\|/-| 1537 +508 −192 ps1 cs resx cshtml 5|-\|/-| 
+Use schema from constant in tests |-\|/-| 2019-10-10T10:05:37Z Merged pull request |-\|/-| 1532 +256 −256 cs 2|-\|/-| 
+Permit dashes in SchemaName |-\|/-| 2019-10-10T09:50:04Z Merged pull request |-\|/-| 1531 +3 −3 cs 1|-\|/-| 
+Add GetInstallScript method |-\|/-| 2019-10-10T11:04:14Z Merged pull request |-\|/-| 1527 +9 −2 cs 1|-\|/-| 
+minor changes in readme.md  |-\|/-| 2019-10-10T11:22:07Z Merged pull request |-\|/-| 1526 +1 −1 md 0|-\|/-| 
+Supplementary Chinese Translation |-\|/-| 2019-10-10T11:38:04Z Merged pull request |-\|/-| 1523 +14 −30 resx 1|-\|/-| 
+I found that the most resource hogger for our sql server is the sp_getapplock. |-\|/-| 2019-09-11T14:27:41Z Closed pull request |-\|/-| 1505 +4 −1 cs 2|-\|/-| 
+ _options.NonBlockingFetchSql added |-\|/-| 2019-09-10T14:26:13Z Closed pull request |-\|/-| 1504 +2 −2 cs 1|-\|/-| 
+Return the BackgroundJobId when triggering a RecurringJob |-\|/-| 2019-11-04T13:46:00Z Closed pull request |-\|/-| 1489 +6 −3 cs 2|-\|/-| 
+Enable Net461 for Hangfire.AspNetCore |-\|/-| 2019-08-09T14:26:21Z Merged pull request |-\|/-| 1488 +21 −7 nuspec ps1 cs csproj 5|-\|/-| 
+Expiration Time is Hardcode |-\|/-| 2019-09-21T14:54:07Z Closed pull request |-\|/-| 1486 +7 −5 cs 2|-\|/-| 
+IsJobStateChanged Cancellation Fix |-\|/-| 2019-08-07T20:00:11Z Closed pull request |-\|/-| 1484 +5 −3 cs 1|-\|/-| 
+Add support for dashes `-` in queue names |-\|/-| 2019-07-22T14:32:46Z Merged pull request |-\|/-| 1469 +2 −2 cs 1|-\|/-| 
+dashboard localization support in pt-BR |-\|/-| 2019-05-31T08:25:24Z Merged pull request |-\|/-| 1443 +520 −0 0|-\|/-| 
+Added Cron.Never() |-\|/-| 2019-05-23T14:15:32Z Merged pull request |-\|/-| 1432 +17 −0 cs 2|-\|/-| 
+Added Cron.Never() |-\|/-| 2019-05-10T16:35:25Z Closed pull request |-\|/-| 1431 +17 −0 cs 2|-\|/-| 
+Added Dutch language, and updated missing translation on server page |-\|/-| 2019-05-11T09:01:42Z Merged pull request |-\|/-| 1429 +653 −35 cs 1|-\|/-| 
+fix minor bug in DefaultInstall.sql |-\|/-| 2019-05-23T14:13:37Z Merged pull request |-\|/-| 1424 +2 −2 sql 2|-\|/-| 
+Fix Obsolete UseSerializationSettings comment |-\|/-| 2019-04-10T13:00:27Z Merged pull request |-\|/-| 1398 +1 −1 cs 1|-\|/-| 
+Add verification to job expiration check interval |-\|/-| 2019-03-26T10:47:23Z Merged pull request |-\|/-| 1377 +13 −1 cs 1|-\|/-| 
+Fix for catching DistributedLockTimeoutException based on resource name. |-\|/-| 2019-03-13T11:29:03Z Merged pull request |-\|/-| 1370 +2 −2 cs 2|-\|/-| 
+Use serilog SourceContext naming convention |-\|/-| 2019-02-25T08:01:59Z Merged pull request |-\|/-| 1360 +1 −1 cs 1|-\|/-| 
+Split serializing to internal and user scopes to isolate them |-\|/-| 2019-02-26T15:24:01Z Merged pull request |-\|/-| 1358 +877 −164 cs cshtml 10|-\|/-| 
+Implement IsBatchingAvailable check as a simple property |-\|/-| 2019-02-21T14:24:04Z Closed pull request |-\|/-| 1354 +6 −38 cs 4|-\|/-| 
+Fix IsBatchingAvailable() check |-\|/-| 2019-02-18T11:19:30Z Closed pull request |-\|/-| 1353 +41 −21 cs 2|-\|/-| 
+Fail Appveyor build when unit tests fail |-\|/-| 2019-01-29T01:29:06Z Closed pull request |-\|/-| 1338 +2 −1 bat cs 2|-\|/-| 
+Adding a check to prevent double-commit of the SqlServerTransactionJob instance. |-\|/-| 2019-01-28T11:50:00Z Closed pull request |-\|/-| 1335 +56 −11 cs 3|-\|/-| 
+Optimize implementation of recurring jobs |-\|/-| 2019-01-30T13:59:50Z Merged pull request |-\|/-| 1334 +854 −349 cs 3|-\|/-| 
+System.OutOfMemoryException at System.Type.GetType |-\|/-| 2019-07-16T19:36:21Z Closed pull request |-\|/-| 1332 +1 −1 cs 1|-\|/-| 
+Batch support for AddToQueue method when default queue provider is used |-\|/-| 2019-01-30T13:59:35Z Merged pull request |-\|/-| 1331 +42 −8 cs 2|-\|/-| 
+Optimize implementation of the DelayedJobScheduler class |-\|/-| 2019-01-30T13:59:18Z Merged pull request |-\|/-| 1330 +96 −29 cs 2|-\|/-| 
+Fix to ensure Form values are properly returned |-\|/-| 2019-01-17T14:40:35Z Merged pull request |-\|/-| 1329 +23 −56 cs csproj 3|-\|/-| 
+Add connection factory overload for SqlServerStorage |-\|/-| 2019-01-15T09:41:35Z Merged pull request |-\|/-| 1325 +77 −2 cs 3|-\|/-| 
+Support non assembly qualified name |-\|/-| 2019-01-03T01:42:10Z Closed pull request |-\|/-| 1319 +15 −1 cs 1|-\|/-| 
+Replace Rickshaw with Chart.js |-\|/-| 2019-01-30T13:58:57Z Merged pull request |-\|/-| 1315 +107 −168 NOTICES css js 3|-\|/-| 
+Migrate to the new project format |-\|/-| 2018-12-05T07:51:24Z Merged pull request |-\|/-| 1309 +332 −3,187 config yml sln txt json nuspec 9|-\|/-| 
+Provide MaxArgumentToRenderSize in Dashboard options |-\|/-| 2019-01-17T09:53:54Z Closed pull request |-\|/-| 1302 +7 −6 cs cshtml 4|-\|/-| 
+Allow `Type` to be passed down. |-\|/-| 2018-10-04T21:42:57Z Closed pull request |-\|/-| 1274 +120 −65 cs 1|-\|/-| 
+Adding GetFirstByLowestScoreFromSet overload |-\|/-| 2019-01-15T15:24:27Z Merged pull request |-\|/-| 1251 +96 −8 cs 4|-\|/-| 
+Add Result property to StateData, fixes #1245 |-\|/-| 2018-08-09T23:44:56Z Closed pull request |-\|/-| 1246 +59 −1 cs csproj 3|-\|/-| 
+Fix for #861 Dashboard background polling does not handle 401 responses |-\|/-| 2019-07-18T15:46:25Z Merged pull request |-\|/-| 1242 +185 −46 js cshtml cs 5|-\|/-| 
+Allow modification of the dashboard title |-\|/-| 2019-10-18T14:50:41Z Merged pull request |-\|/-| 1231 +27 −2 cshtml cs csproj 4|-\|/-| 
+Update SqlServerObjectsInstaller.cs |-\|/-| 2018-07-31T09:11:31Z Merged pull request |-\|/-| 1230 +0 −24 cs 1|-\|/-| 
+Replace wall clocks with monotonic ones when calculating local timeouts |-\|/-| 2018-07-31T09:08:09Z Merged pull request |-\|/-| 1226 +7 −5 cs 2|-\|/-| 
+Change all static logger fields to be instance-based |-\|/-| 2018-07-31T09:08:39Z Merged pull request |-\|/-| 1225 +57 −59 cs 11|-\|/-| 
+Fix `_currentLogProvider` field access to use volatile reads/writes |-\|/-| 2018-07-31T09:08:59Z Merged pull request |-\|/-| 1224 +3 −2 cs 1|-\|/-| 
+Avoid resolving types and methods for logging in static ctors |-\|/-| 2018-07-31T09:09:12Z Merged pull request |-\|/-| 1223 +53 −48 cs 1|-\|/-| 
+Update SqlServerObjectsInstaller.cs |-\|/-| 2018-07-13T10:30:53Z Merged pull request |-\|/-| 1222 +2 −1 cs 1|-\|/-| 
+Fix error message typo - missing 't' |-\|/-| 2018-06-27T03:21:29Z Merged pull request |-\|/-| 1210 +1 −1 cs 1|-\|/-| 
+Avoid using the CancellationToken.WaitHandle property |-\|/-| 2018-07-05T17:14:15Z Merged pull request |-\|/-| 1209 +203 −61 nuspec ps1 cs csproj 13|-\|/-| 
+changed Less details to Fewer details |-\|/-| 2018-06-25T15:42:16Z Merged pull request |-\|/-| 1207 +2 −2 js resx 2|-\|/-| 
+Prevent recurring jobs dashboard from throwing null exception. |-\|/-| 2018-06-11T13:09:55Z Merged pull request |-\|/-| 1203 +26 −5 cs 2|-\|/-| 
+Move state change retries to the Worker class |-\|/-| 2018-05-31T21:30:40Z Merged pull request |-\|/-| 1193 +196 −107 cs 3|-\|/-| 
+enable fast scheduler wakeup |-\|/-| 2018-06-11T13:15:10Z Closed pull request |-\|/-| 1158 +14 −6 cs 3|-\|/-| 
+Release 1.6.18 |-\|/-| 2018-04-03T21:18:52Z Merged pull request |-\|/-| 1156 +57 −2 yml nuspec cs 6|-\|/-| 
+Adding ability for a job to throw a Non-Retryable exception type |-\|/-| 2019-11-21T20:46:14Z Closed pull request |-\|/-| 1155 +31 −3 cs 1|-\|/-| 
+Use reflection to get display name of a job |-\|/-| 2018-04-03T21:01:39Z Merged pull request |-\|/-| 1154 +38 −10 cs 1|-\|/-| 
+Don't render arguments whose size is too big in dashboard |-\|/-| 2018-04-03T20:59:17Z Merged pull request |-\|/-| 1153 +10 −1 cs 1|-\|/-| 
+Provide IntValue for all metrics |-\|/-| 2018-03-30T17:56:13Z Merged pull request |-\|/-| 1152 +22 −19 cs 3|-\|/-| 
+Fix compatibility with Newtonsoft.Json 11 / netstandard2.0 |-\|/-| 2018-09-01T11:01:03Z Merged pull request |-\|/-| 1151 +152 −11 cs csproj 8|-\|/-| 
+Let's try Pull Request #755 again... |-\|/-| 2018-03-29T20:14:40Z Closed pull request |-\|/-| 1150 +3,431 −692 DotSettings cs csproj 10|-\|/-| 
+Stop using app locks in transaction to prevent deadlocks |-\|/-| 2018-08-01T16:23:28Z Merged pull request |-\|/-| 1144 +97 −76 cs 1|-\|/-| 
+Use custom lock in SqlConnection.SetRangeInHash to prevent deadlocks |-\|/-| 2018-04-03T21:02:44Z Merged pull request |-\|/-| 1139 +22 −3 cs 2|-\|/-| 
+change log4net method |-\|/-| 2018-03-07T18:43:21Z Merged pull request |-\|/-| 1134 +2 −2 cs 1|-\|/-| 
+Add "Remove" method to RecurringJobManager |-\|/-| 2018-03-05T18:36:02Z Closed pull request |-\|/-| 1128 +2,561 −700 md yml nuspec cs css 14|-\|/-| 
+Resolves #635 by adding a custom "DashboardInfo" attribute. |-\|/-| 2018-03-07T15:43:21Z Closed pull request |-\|/-| 1121 +2,539 −700 DotSettings md yml nuspec cs css 14|-\|/-| 
+Added server announcement to Heartbeat if the server is found not present |-\|/-| 2018-03-07T16:01:08Z Closed pull request |-\|/-| 1117 +2,520 −706 md yml nuspec cs css 13|-\|/-| 
+Add transactional memory abstractions |-\|/-| 2019-02-20T15:17:16Z Closed pull request |-\|/-| 1116 +431 −0 csproj cs 9|-\|/-| 
+Add AddHangfire method overload to allow resolve connection string fr… |-\|/-| 2019-02-21T15:35:59Z Closed pull request |-\|/-| 1114 +2,524 −724 md yml nuspec cs css 14|-\|/-| 
+Add Dashboard UI Resource zh-TW |-\|/-| 2018-03-08T09:25:53Z Merged pull request |-\|/-| 1105 +2,987 −700 md yml nuspec cs css 13|-\|/-| 
+fix for log4net for dotnet standard |-\|/-| 2018-03-07T18:17:24Z Closed pull request |-\|/-| 1096 +2,474 −701 md yml nuspec cs css 13|-\|/-| 
+Fixing issue 1092 - arguments values are duplicated in SQL Server Job table |-\|/-| 2018-03-07T16:43:17Z Closed pull request |-\|/-| 1093 +2,473 −701 md yml nuspec cs css 13|-\|/-| 
+Update README.md to mention Razor Generator |-\|/-| 2018-01-12T18:23:36Z Merged pull request |-\|/-| 1087 +3 −0 md 0|-\|/-| 
+Deprecate `Cron.XXXInterval` methods |-\|/-| 2018-03-10T15:26:18Z Merged pull request |-\|/-| 1084 +4 −0 cs 1|-\|/-| 
+Fix nuspec pointing to version of Newtonsoft.Json that does not exist |-\|/-| 2017-12-25T17:20:59Z Merged pull request |-\|/-| 1083 +1 −1 nuspec 1|-\|/-| 
+Add common model for sync and async processing |-\|/-| 2018-03-01T16:36:06Z Merged pull request |-\|/-| 1082 +2,521 −816 cs csproj 5|-\|/-| 
+Add on option to remove the storage connection string from the footer… |-\|/-| 2018-01-12T18:22:25Z Merged pull request |-\|/-| 1079 +38 −14 cshtml cs 4|-\|/-| 
+Testprojects warnings |-\|/-| 2018-03-10T13:56:54Z Merged pull request |-\|/-| 1058 +2,457 −727 md yml nuspec cs css 12|-\|/-| 
+Added extra quotes around assembly path |-\|/-| 2018-03-07T18:56:22Z Merged pull request |-\|/-| 1057 +2,425 −687 md yml nuspec ps1 cs css 13|-\|/-| 
+Added an extension method that returns a normalized method name |-\|/-| 2018-03-10T14:34:46Z Merged pull request |-\|/-| 1056 +2,507 −686 md yml nuspec cs css 14|-\|/-| 
+Add details to Build instructions |-\|/-| 2018-03-10T14:35:28Z Merged pull request |-\|/-| 1055 +6 −0 md 0|-\|/-| 
+[WIP] Implemented Manual Job (With tests) |-\|/-| 2017-11-01T15:07:44Z Closed pull request |-\|/-| 1036 +1,791 −466 cs 2|-\|/-| 
+Prevent connection string from blowing mobile page layout |-\|/-| 2017-11-08T09:06:32Z Merged pull request |-\|/-| 1030 +1 −0 css 1|-\|/-| 
+Fix server start time tooltip position |-\|/-| 2017-11-08T10:13:27Z Merged pull request |-\|/-| 1029 +3 −13 cshtml cs 2|-\|/-| 
+Update rickshaw css to match js |-\|/-| 2017-11-08T10:13:54Z Merged pull request |-\|/-| 1018 +1 −1 css 1|-\|/-| 
+Fix number of recurring jobs per page |-\|/-| 2017-09-23T16:42:39Z Merged pull request |-\|/-| 1006 +2 −2 cshtml cs 2|-\|/-| 
+Add JobActivator.BeginScope with the full PerformContext |-\|/-| 2017-11-08T10:38:40Z Merged pull request |-\|/-| 995 +7 −2 cs 2|-\|/-| 
+Add JobDisplayNameAttribute |-\|/-| 2018-03-02T15:16:47Z Merged pull request |-\|/-| 993 +84 −1 cs csproj 4|-\|/-| 
+Cancel the CancellationToken when the job is deleted from dashboard |-\|/-| 2019-02-15T14:00:13Z Merged pull request |-\|/-| 976 +336 −31 cs 10|-\|/-| 
+Support async jobs returning ValueTask<T> |-\|/-| 2018-03-02T15:19:39Z Merged pull request |-\|/-| 974 +66 −14 cs json 4|-\|/-| 
+Adjusting deserialization of datetime to use RoundTripKind |-\|/-| 2017-08-31T14:21:12Z Merged pull request |-\|/-| 971 +207 −26 cs 2|-\|/-| 
+Update Cron.cs |-\|/-| 2017-08-18T08:51:04Z Closed pull request |-\|/-| 956 +18 −0 cs 2|-\|/-| 
+Added an overloaded AddHangfire method |-\|/-| 2019-02-21T15:39:12Z Closed pull request |-\|/-| 954 +57 −25 cs 1|-\|/-| 
+more complete fix for issue #871 -  |-\|/-| 2017-09-02T10:27:03Z Merged pull request |-\|/-| 948 +41 −8 cs 1|-\|/-| 
+Add optional date bounds to recurring job |-\|/-| 2018-03-08T09:40:23Z Closed pull request |-\|/-| 939 +1,034 −138 md yml nuspec cs resx 11|-\|/-| 
+Read only view for dashboard |-\|/-| 2017-07-10T17:31:00Z Merged pull request |-\|/-| 934 +2,129 −1,053 DotSettings md cs cshtml 5|-\|/-| 
+Enable custom lock resources via DisableConcurrentExecutionAttribute |-\|/-| 2017-07-10T17:44:52Z Closed pull request |-\|/-| 933 +12 −2 cs 1|-\|/-| 
+Support custom delays for automatic retries |-\|/-| 2017-07-11T11:35:19Z Merged pull request |-\|/-| 931 +249 −14 cs 2|-\|/-| 
+Permissions for dashboard actions |-\|/-| 2017-07-09T15:30:50Z Closed pull request |-\|/-| 920 +2,190 −1,080 DotSettings md cs cshtml 8|-\|/-| 
+Don't leak connection, when distributed lock can't be acquired |-\|/-| 2017-06-07T15:22:30Z Merged pull request |-\|/-| 914 +9 −1 cs 1|-\|/-| 
+JobStorage has a prop to define job expiration timeout |-\|/-| 2017-08-31T14:53:59Z Merged pull request |-\|/-| 913 +66 −2 cs 5|-\|/-| 
+JobStorage has a prop to define job expiration timeout |-\|/-| 2017-06-05T19:15:05Z Closed pull request |-\|/-| 912 +41 −7 cs 4|-\|/-| 
+Add callback method, to allow to open the database with an impersonat… |-\|/-| 2017-06-07T16:33:32Z Merged pull request |-\|/-| 907 +11 −4 cs 2|-\|/-| 
+Change `AutomaticRetryAttribute` filter Order to 20 |-\|/-| 2017-06-07T15:12:37Z Merged pull request |-\|/-| 903 +1 −0 cs 1|-\|/-| 
+Change the order of the AutomaticRetryAttribute filter |-\|/-| 2017-05-26T15:55:50Z Closed pull request |-\|/-| 901 +1 −0 cs 1|-\|/-| 
+Change order of the QueueAttribute state filter |-\|/-| 2017-06-07T15:13:07Z Merged pull request |-\|/-| 900 +2 −0 cs 1|-\|/-| 
+Add migration for Hangfire.SqlServer 1.7.0 |-\|/-| 2018-03-01T17:47:07Z Merged pull request |-\|/-| 898 +1,013 −130 cs sql 4|-\|/-| 
+Reduce serialization size |-\|/-| 2017-07-24T16:16:02Z Merged pull request |-\|/-| 891 +300 −21 cs 11|-\|/-| 
+AspNetCoreJobActivatorScope Resolve using ActivatorUtilities.GetServiceOrCreateInstance |-\|/-| 2017-05-29T15:27:47Z Merged pull request |-\|/-| 887 +1 −1 cs 1|-\|/-| 
+Change calculation for AutomaticRetryAttribute.cs SecondsToDelay |-\|/-| 2017-07-10T16:02:33Z Closed pull request |-\|/-| 869 +2 −3 cs 1|-\|/-| 
+fixed translation mistake HomePage_Title 式表盘 to 仪表盘 |-\|/-| 2017-05-29T15:30:42Z Merged pull request |-\|/-| 868 +2 −2 resx 1|-\|/-| 
+Dnx |-\|/-| 2017-05-29T15:30:54Z Closed pull request |-\|/-| 858 +9,355 −958 sln csproj cs 4|-\|/-| 
+Use Cronos instead of NCrontab |-\|/-| 2017-05-29T15:40:19Z Merged pull request |-\|/-| 853 +100 −1,699 nuspec ps1 txt cs 3|-\|/-| 
+Update lib log and keep structure in existing log messages |-\|/-| 2017-07-11T07:32:20Z Closed pull request |-\|/-| 850 +2,699 −1,623 cs 2|-\|/-| 
+Add Async Overloads of Jobs Creation's Methods |-\|/-| 2017-03-17T06:49:51Z Closed pull request |-\|/-| 837 +211 −122 yml nuspec cs js cshtml 13|-\|/-| 
+Move creating job scope from CoreBackgroundJobPerformer to Worker |-\|/-| 2018-03-07T18:04:44Z Closed pull request |-\|/-| 834 +61 −53 cs 6|-\|/-| 
+Fix number of displayed Records in RecurringJobsPage |-\|/-| 2017-03-13T17:18:10Z Merged pull request |-\|/-| 832 +1 −1 cshtml 1|-\|/-| 
+Replace inline script, because it may violate the Content Security Policy |-\|/-| 2017-03-13T17:23:00Z Merged pull request |-\|/-| 831 +18 −28 js cshtml cs 3|-\|/-| 
+Update LayoutPage.cshtml |-\|/-| 2017-07-07T12:10:36Z Closed pull request |-\|/-| 803 +0 −1 cshtml 1|-\|/-| 
+Ncrontab advanced |-\|/-| 2017-04-29T04:53:52Z Closed pull request |-\|/-| 801 +869 −1,525 ps1 txt cs 2|-\|/-| 
+Fix issue with configuration block not called on .NET Core + reuse services |-\|/-| 2018-03-12T13:29:10Z Merged pull request |-\|/-| 800 +146 −59 cs 7|-\|/-| 
+Fix broken links in Readme file. |-\|/-| 2017-05-29T15:40:57Z Merged pull request |-\|/-| 792 +3 −3 md 0|-\|/-| 
+Catch DistributedLockTimeoutException in some background processes. |-\|/-| 2017-09-02T09:51:27Z Closed pull request |-\|/-| 789 +119 −25 cs 6|-\|/-| 
+Catch DistributedLockTimeoutException in some background processes. |-\|/-| 2017-01-10T13:00:14Z Closed pull request |-\|/-| 788 +114 −44 cs 5|-\|/-| 
+Catch DistributedLockTimeoutException in some background processes. |-\|/-| 2017-01-10T12:32:04Z Closed pull request |-\|/-| 787 +114 −44 cs 5|-\|/-| 
+Updated readme |-\|/-| 2017-01-09T14:55:33Z Closed pull request |-\|/-| 786 +2 −0 txt 0|-\|/-| 
+Run tests inside Mono environment again. |-\|/-| 2017-05-29T15:33:12Z Merged pull request |-\|/-| 777 +25 −43 config yml 2|-\|/-| 
+Adding Job Skip functionality as one way to handle the concurrent job |-\|/-| 2016-12-26T15:38:48Z Closed pull request |-\|/-| 772 +1,564 −39 csproj cs resx cshtml 11|-\|/-| 
+Modify identity columns type to bigint in all tables. |-\|/-| 2017-05-23T13:43:58Z Closed pull request |-\|/-| 769 +843 −39 cs sql 4|-\|/-| 
+Fix Scheduled column title |-\|/-| 2016-12-21T09:47:53Z Merged pull request |-\|/-| 765 +12 −4 cshtml cs 2|-\|/-| 
+Issue #762: Adding setup/teardown methods to background processes, co… |-\|/-| 2016-12-21T10:34:30Z Closed pull request |-\|/-| 763 +156 −14 cs 12|-\|/-| 
+Use local time on Dashboard |-\|/-| 2016-12-21T13:12:00Z Closed pull request |-\|/-| 761 +36 −8 js cs resx cshtml 8|-\|/-| 
+Adding Support for Skipping Job for Concurrent Execution |-\|/-| 2016-12-26T14:57:09Z Closed pull request |-\|/-| 759 +1,172 −39 csproj cs resx cshtml 11|-\|/-| 
+Typo - "Nexts jobs" should be "Next jobs" |-\|/-| 2016-12-02T12:38:00Z Merged pull request |-\|/-| 754 +2 −2 resx 1|-\|/-| 
+Split serializer settings into core and arguments |-\|/-| 2019-02-21T14:23:40Z Closed pull request |-\|/-| 750 +996 −148 cs cshtml 9|-\|/-| 
+Add missing changes to JobDetailsPage.cshtml from JodDetailsPage1.generated.cs |-\|/-| 2016-11-25T13:33:19Z Merged pull request |-\|/-| 742 +88 −80 cshtml 1|-\|/-| 
+Fixes error 500 in the dashboard |-\|/-| 2016-11-24T18:47:01Z Merged pull request |-\|/-| 741 +1 −1 cs 1|-\|/-| 
+Add support an array of generic type as parameter type |-\|/-| 2016-11-24T15:47:22Z Merged pull request |-\|/-| 740 +44 −0 cs 2|-\|/-| 
+Finally fixes line endings problem.  |-\|/-| 2016-11-24T10:53:21Z Merged pull request |-\|/-| 739 +1,511 −1,511 cs 1|-\|/-| 
+Make Queue name accessible from RecurringJobDto |-\|/-| 2016-11-24T15:56:05Z Merged pull request |-\|/-| 737 +7 −1 cs 2|-\|/-| 
+Split json serializer settings into core settings and arguments settings |-\|/-| 2016-11-24T14:34:51Z Closed pull request |-\|/-| 736 +296 −102 DotSettings cs 9|-\|/-| 
+Validate BackgroundJobServerOptions properties |-\|/-| 2016-11-21T12:44:57Z Merged pull request |-\|/-| 733 +336 −9 cs csproj 5|-\|/-| 
+Rethrow JSON exception instead of returning a null value for argument |-\|/-| 2016-11-16T08:23:52Z Merged pull request |-\|/-| 731 +31 −1 cs 2|-\|/-| 
+Fixes occasional crashes of Recurring Jobs page |-\|/-| 2016-11-16T12:18:52Z Merged pull request |-\|/-| 730 +3 −2 DotSettings cshtml cs 3|-\|/-| 
+Update CronExpressionDescriptor to 1.21.0 |-\|/-| 2016-11-15T17:24:22Z Merged pull request |-\|/-| 729 +5 −5 csproj json config 3|-\|/-| 
+Features: use RecurringJobAttribute to build RecurringJob automatically. |-\|/-| 2016-11-15T02:51:45Z Closed pull request |-\|/-| 725 +241 −2 cs csproj 8|-\|/-| 
+Enable autoconversion of files line endings |-\|/-| 2016-11-14T10:56:49Z Merged pull request |-\|/-| 722 +33 −7 gitattributes 1|-\|/-| 
+Fix files which have both crlf and lf line endings |-\|/-| 2016-11-09T13:23:10Z Merged pull request |-\|/-| 721 +288 −288 cs resx 3|-\|/-| 
+Configure AppVeyor and Travis CI build notifications |-\|/-| 2016-11-08T13:40:30Z Merged pull request |-\|/-| 720 +5 −0 yml 2|-\|/-| 
+Add support for complex generic parameters |-\|/-| 2016-11-09T10:10:40Z Merged pull request |-\|/-| 719 +208 −29 cs 2|-\|/-| 
+adding possibility to set retry delay for failed jobs. |-\|/-| 2017-02-11T14:02:31Z Closed pull request |-\|/-| 714 +45 −1 cs 2|-\|/-| 
+Fix bug related to incorrect choosing overloading method |-\|/-| 2016-11-03T12:23:32Z Merged pull request |-\|/-| 713 +7 −10 cs 2|-\|/-| 
+Add tests covering GetNonOpenMatchingMethod method of TypeExtensions class |-\|/-| 2016-11-02T18:31:44Z Merged pull request |-\|/-| 712 +160 −3 cs 2|-\|/-| 
+Window resize cause errors and uncontrolled growth of event and poll listeners |-\|/-| 2016-11-21T09:21:05Z Merged pull request |-\|/-| 711 +65 −65 js 1|-\|/-| 
+Make context constructors public |-\|/-| 2016-10-29T09:12:28Z Merged pull request |-\|/-| 710 +8 −8 cs 8|-\|/-| 
+Fix BeginScope() returning SimpleJobActivatorScope |-\|/-| 2016-10-29T09:14:55Z Merged pull request |-\|/-| 709 +7 −0 cs 1|-\|/-| 
+Worker count test fix |-\|/-| 2016-10-29T09:28:12Z Merged pull request |-\|/-| 701 +1 −1 cs 1|-\|/-| 
+Validate the timeout parameter in SqlServerDistributedLock |-\|/-| 2016-11-14T11:43:17Z Merged pull request |-\|/-| 686 +18 −3 cs 2|-\|/-| 
+Fixes #595 |-\|/-| 2016-12-06T02:27:21Z Closed pull request |-\|/-| 684 +28 −19 cs 1|-\|/-| 
+fixed bug 666 with exception on showing detailes of  Continuation wit… |-\|/-| 2016-09-23T11:14:11Z Merged pull request |-\|/-| 674 +4 −9 cs 3|-\|/-| 
+Add l10n resource files to NuGet packages |-\|/-| 2016-09-23T10:41:10Z Merged pull request |-\|/-| 668 +27 −0 nuspec ps1 2|-\|/-| 
+Add entry point for custom job naming strategies |-\|/-| 2018-03-02T15:07:04Z Merged pull request |-\|/-| 660 +38 −7 cs csproj 6|-\|/-| 
+Add Every X minute method to Cron. |-\|/-| 2016-09-23T12:29:59Z Closed pull request |-\|/-| 659 +9 −0 cs 1|-\|/-| 
+Create Strings.cn.resx |-\|/-| 2016-09-23T16:21:24Z Merged pull request |-\|/-| 653 +524 −0 0|-\|/-| 
+Respond with authentication challenge instead of 401 redirect |-\|/-| 2016-09-23T18:31:33Z Closed pull request |-\|/-| 650 +28 −2 cs json 3|-\|/-| 
+Add Delay property to AutomaticRetryAttribute |-\|/-| 2018-03-07T19:22:27Z Closed pull request |-\|/-| 648 +23 −3 cs 1|-\|/-| 
+Add possibility to detect aborted requests in Dashboard UI |-\|/-| 2019-01-30T15:07:48Z Merged pull request |-\|/-| 631 +14 −3 cs 4|-\|/-| 
+Fixed UI command behaviour |-\|/-| 2016-07-26T15:07:27Z Merged pull request |-\|/-| 626 +2 −2 js 1|-\|/-| 
+Fix Cron.cs for recurring jobs using intervals |-\|/-| 2016-07-19T16:11:56Z Merged pull request |-\|/-| 618 +3 −3 cs 1|-\|/-| 
+Fix Cron.cs for recurring jobs using intervals |-\|/-| 2016-07-19T16:06:13Z Closed pull request |-\|/-| 617 +3 −3 cs 1|-\|/-| 
+Release 1.6.0 |-\|/-| 2016-07-15T12:41:48Z Merged pull request |-\|/-| 614 +14,310 −6,059 gitignore exe config yml sln bat txt json nuspec 10|-\|/-| 
+Notification System with Email Module |-\|/-| 2017-07-07T12:23:37Z Closed pull request |-\|/-| 612 +440 −5 sln cs csproj 13|-\|/-| 
+Update gitignore and remove .lock.json files |-\|/-| 2016-07-13T14:53:50Z Merged pull request |-\|/-| 610 +2 −2,704 gitignore 1|-\|/-| 
+.NET Core support for Hangfire |-\|/-| 2016-07-07T12:35:05Z Merged pull request |-\|/-| 604 +4,207 −504 exe config yml sln bat json nuspec ps1 cs 13|-\|/-| 
+Drop constraints on Server.Id prior to altering it to avoid conflicts |-\|/-| 2016-07-12T12:28:30Z Merged pull request |-\|/-| 603 +21 −3 sql 2|-\|/-| 
+Sql Server abstraction |-\|/-| 2016-06-16T10:13:37Z Closed pull request |-\|/-| 594 +126 −120 cs 4|-\|/-| 
+Fix dashboard crashing when using MSMQ |-\|/-| 2016-05-30T12:23:01Z Merged pull request |-\|/-| 581 +6 −3 cs 1|-\|/-| 
+Allows JobActivator resolve dependencies using DI Container |-\|/-| 2016-07-12T12:32:09Z Closed pull request |-\|/-| 575 +911 −873 0|-\|/-| 
+Add spanish language for the Dashboard |-\|/-| 2016-05-30T12:02:39Z Merged pull request |-\|/-| 574 +702 −42 js cs 2|-\|/-| 
+Add missing transaction to KeepAliveQuery. |-\|/-| 2016-05-23T13:47:25Z Merged pull request |-\|/-| 573 +1 −1 cs 1|-\|/-| 
+passing params in job creation phase |-\|/-| 2019-05-03T21:32:57Z Closed pull request |-\|/-| 570 +12,581 −5,986 config yml sln DotSettings md 5|-\|/-| 
+Changing ScheduleInstant to use UTC to get next run date |-\|/-| 2016-05-13T12:16:02Z Closed pull request |-\|/-| 568 +18 −11 cs 2|-\|/-| 
+Add queue name validation to the RecurringJobScheduler class |-\|/-| 2016-05-30T12:52:27Z Merged pull request |-\|/-| 561 +101 −21 cs csproj 5|-\|/-| 
+Add feature to ensure ordered job dequeing in SQL server |-\|/-| 2016-05-23T11:07:22Z Closed pull request |-\|/-| 557 +9 −1 cs 2|-\|/-| 
+Enable backtracking from background job to recurrent job |-\|/-| 2016-05-30T12:11:02Z Closed pull request |-\|/-| 555 +6 −2 cs 2|-\|/-| 
+Add CreatedAt field for recurring jobs |-\|/-| 2016-04-14T21:55:58Z Merged pull request |-\|/-| 552 +241 −60 cshtml cs 4|-\|/-| 
+Dev |-\|/-| 2016-04-10T14:58:18Z Closed pull request |-\|/-| 547 +7,027 −4,127 yml sln txt nuspec ps1 cs config 14|-\|/-| 
+Add support for async Task methods |-\|/-| 2016-03-26T07:13:05Z Merged pull request |-\|/-| 540 +128 −13 cs 4|-\|/-| 
+Refactored SqlServerStorage to use the more general DbConnection - Take2 |-\|/-| 2016-03-24T10:42:28Z Merged pull request |-\|/-| 539 +31 −25 cs 6|-\|/-| 
+Update from original |-\|/-| 2016-03-18T09:30:31Z Closed pull request |-\|/-| 536 +0 −0 0|-\|/-| 
+Fix for #500, BackgroundJob.Delete may hang forever |-\|/-| 2016-03-22T17:40:28Z Closed pull request |-\|/-| 535 +6 −20 yml cs 3|-\|/-| 
+Updating StackTraceParser to prevent critical flaw |-\|/-| 2016-03-22T14:41:34Z Merged pull request |-\|/-| 533 +139 −133 cs config 2|-\|/-| 
+Add support for async/Task methods |-\|/-| 2016-03-24T15:11:38Z Closed pull request |-\|/-| 526 +4,687 −2,504 yml sln md txt nuspec ps1 config cs js 14|-\|/-| 
+Refactored SqlServerStorage to use the more general DbConnection |-\|/-| 2016-03-24T06:57:55Z Closed pull request |-\|/-| 524 +4,739 −2,538 yml sln txt nuspec ps1 config cs js 13|-\|/-| 
+Add context for JobActivator.BeginScope |-\|/-| 2016-03-23T14:23:09Z Merged pull request |-\|/-| 523 +113 −17 csproj cs 5|-\|/-| 
+Fix for ToGenericTypeString method to support nested classes |-\|/-| 2016-02-29T11:36:19Z Merged pull request |-\|/-| 522 +111 −15 cs csproj 3|-\|/-| 
+Implementing multilanguage support in Dashboard. |-\|/-| 2016-02-29T11:27:46Z Merged pull request |-\|/-| 521 +4,371 −1,098 config js 3|-\|/-| 
+Zero latency processing |-\|/-| 2016-03-23T13:57:44Z Merged pull request |-\|/-| 520 +3 −1 cs 2|-\|/-| 
+Fix for ToGenericTypeString method to support nested classes |-\|/-| 2016-02-29T08:03:42Z Closed pull request |-\|/-| 519 +111 −15 cs csproj 3|-\|/-| 
+Implementing multilanguage support in Dashboard. |-\|/-| 2016-02-26T15:41:58Z Closed pull request |-\|/-| 517 +4,374 −1,099 config js 3|-\|/-| 
+Fixed documentation link |-\|/-| 2016-02-10T15:31:02Z Merged pull request |-\|/-| 513 +1 −1 txt 0|-\|/-| 
+Fix Hangfire.SqlServer dependency version in MSMQ nuspec |-\|/-| 2016-02-26T11:31:58Z Merged pull request |-\|/-| 509 +1 −1 nuspec 1|-\|/-| 
+https://github.com/HangfireIO/Hangfire/issues/505 - Added Args to Job |-\|/-| 2016-02-26T11:34:50Z Closed pull request |-\|/-| 507 +3 −3 cs 1|-\|/-| 
+IRecurringJobManager interface for RecurringJobManager added |-\|/-| 2016-04-05T12:58:54Z Closed pull request |-\|/-| 491 +47 −2 csproj cs 4|-\|/-| 
+Make SqlServerObjectsInstaller public |-\|/-| 2016-04-05T13:22:47Z Closed pull request |-\|/-| 485 +2 −2 cs 1|-\|/-| 
+Dashboard Stats Polling Interval |-\|/-| 2016-04-05T13:17:52Z Closed pull request |-\|/-| 484 +19 −2 cs cshtml 6|-\|/-| 
+Separated SQL Server 2005 code from newer versions |-\|/-| 2015-11-12T13:51:57Z Closed pull request |-\|/-| 481 +387 −31 cs sql csproj 11|-\|/-| 
+SQL Server 2005 |-\|/-| 2017-07-07T12:41:21Z Closed pull request |-\|/-| 479 +387 −31 cs sql csproj 11|-\|/-| 
+Fix 404 for quickstart reference |-\|/-| 2015-11-10T11:35:15Z Merged pull request |-\|/-| 477 +1 −1 txt 0|-\|/-| 
+Prevent infinite loops when trying to change state of a job that doesn't exist |-\|/-| 2015-11-12T13:54:17Z Merged pull request |-\|/-| 469 +2 −1 cs 1|-\|/-| 
+Allow jobs to log directly to the hangfire dashboard |-\|/-| 2016-12-06T08:43:03Z Closed pull request |-\|/-| 466 +36 −1 csproj cs 4|-\|/-| 
+README Grammar Corrections |-\|/-| 2015-10-22T08:08:23Z Merged pull request |-\|/-| 465 +28 −28 md 0|-\|/-| 
+Changed 'were never been' to 'have never been' |-\|/-| 2015-10-14T08:38:53Z Merged pull request |-\|/-| 460 +1 −1 md 0|-\|/-| 
+Update InvocationData.cs |-\|/-| 2015-10-14T10:23:29Z Closed pull request |-\|/-| 455 +6 −1 cs 1|-\|/-| 
+Release 1.5.0 |-\|/-| 2015-10-01T14:11:38Z Merged pull request |-\|/-| 454 +10,159 −7,533 gitignore yml nuspec ps1 cs 10|-\|/-| 
+Simplify writing of embedded resource to response body. |-\|/-| 2015-09-30T10:19:56Z Merged pull request |-\|/-| 451 +1 −7 cs 1|-\|/-| 
+Add the ability to specify the schema for SqlServerStorage. |-\|/-| 2015-09-29T12:50:23Z Merged pull request |-\|/-| 450 +702 −227 cs 2|-\|/-| 
+#1 Commit |-\|/-| 2017-07-07T12:56:33Z Closed pull request |-\|/-| 448 +814 −0 cs csproj 7|-\|/-| 
+Hangfire.Mongo link changed |-\|/-| 2015-09-18T10:46:13Z Merged pull request |-\|/-| 443 +1 −1 md 0|-\|/-| 
+SqlServerDistributedLockTimeout - logical error in value check |-\|/-| 2015-09-03T11:44:25Z Merged pull request |-\|/-| 434 +17 −3 cs 2|-\|/-| 
+State machine refactoring |-\|/-| 2015-08-29T14:18:46Z Merged pull request |-\|/-| 431 +1,911 −2,003 cs 9|-\|/-| 
+Disable concurrent execution command timeout |-\|/-| 2015-08-28T15:22:29Z Merged pull request |-\|/-| 428 +7 −2 cs 1|-\|/-| 
+Fixed an issue where if the DisableConcurrentExecutionAttribute was used then it was impossible to specify a timeout greater than 30 seconds. |-\|/-| 2015-08-27T14:03:34Z Closed pull request |-\|/-| 427 +27 −11 cs 1|-\|/-| 
+Hide delete buttons |-\|/-| 2018-03-12T13:31:40Z Closed pull request |-\|/-| 423 +72 −56 csproj cs 12|-\|/-| 
+The worker now correctly handles the case where it tries to change a … |-\|/-| 2015-08-20T15:50:12Z Merged pull request |-\|/-| 422 +66 −30 cs 8|-\|/-| 
+Stack trace parameters CSS class typo |-\|/-| 2015-08-17T14:58:11Z Merged pull request |-\|/-| 420 +1 −1 cs 1|-\|/-| 
+Use StackTraceFormatter for marking-up stack traces |-\|/-| 2015-08-17T13:40:08Z Merged pull request |-\|/-| 419 +371 −153 cs 2|-\|/-| 
+Updated .gitignore file with VS2015 / ASP.Net vNext entries |-\|/-| 2015-08-13T13:47:46Z Merged pull request |-\|/-| 417 +7 −1,036 gitignore 1|-\|/-| 
+Added Server/BackgroundProcessContextExtensions.cs to Hangfire.Core project |-\|/-| 2015-08-12T11:28:10Z Merged pull request |-\|/-| 416 +1 −0 csproj 1|-\|/-| 
+[414] Corrected an issue created in "Update Bootstrap to 3.3.5" (1c7784d) |-\|/-| 2015-08-12T11:28:31Z Merged pull request |-\|/-| 415 +1 −1 csproj 1|-\|/-| 
+Add DisplayName property to Job |-\|/-| 2016-07-31T08:48:18Z Closed pull request |-\|/-| 413 +277 −177 yml md nuspec ps1 cs 9|-\|/-| 
+Fixes possible crash on Queue Page |-\|/-| 2015-08-05T17:31:23Z Closed pull request |-\|/-| 412 +42 −35 cshtml cs 2|-\|/-| 
+Hangfire.SQLite added to related projects |-\|/-| 2015-07-27T14:37:32Z Merged pull request |-\|/-| 396 +1 −0 md 0|-\|/-| 
+Show more/less button text according to state |-\|/-| 2015-07-27T14:12:32Z Closed pull request |-\|/-| 389 +12 −2 js cshtml 2|-\|/-| 
+Fixing bug in history when duration > int.MaxValue |-\|/-| 2015-07-27T14:17:25Z Closed pull request |-\|/-| 384 +2 −2 cs 1|-\|/-| 
+Run recurrings jobs on per machine basis #379 |-\|/-| 2015-07-27T15:25:43Z Merged pull request |-\|/-| 383 +46 −24 cs 4|-\|/-| 
+Case sensitive changes for BIN collation SQL databases |-\|/-| 2015-05-27T14:45:48Z Merged pull request |-\|/-| 378 +149 −20 csproj config cs 17|-\|/-| 
+Increase SQL JobQueue.Queue column size |-\|/-| 2015-05-19T11:43:21Z Merged pull request |-\|/-| 376 +18 −5 sql cs 2|-\|/-| 
+Dev |-\|/-| 2015-05-18T07:16:34Z Closed pull request |-\|/-| 375 +86 −42 css cs cshtml 8|-\|/-| 
+Allow to custom Filters for each server instance |-\|/-| 2015-07-24T11:02:18Z Closed pull request |-\|/-| 374 +103 −12 cs 10|-\|/-| 
+Allow to custom JobActivator for each server instance |-\|/-| 2015-07-24T11:14:10Z Closed pull request |-\|/-| 373 +27 −3 cs 2|-\|/-| 
+Fix `OverflowException` in `SucceededRenderer` |-\|/-| 2015-05-27T14:32:26Z Merged pull request |-\|/-| 372 +2 −2 cs 1|-\|/-| 
+added support for seconds in NCronTab expressions |-\|/-| 2017-07-07T13:31:40Z Closed pull request |-\|/-| 368 +1,088 −745 cs 4|-\|/-| 
+Fetch recurring jobs using search criteria |-\|/-| 2017-07-07T12:55:18Z Closed pull request |-\|/-| 364 +65 −0 csproj cs 6|-\|/-| 
+Job serialization fix when using TypeNameHandling.All |-\|/-| 2015-05-27T15:44:04Z Merged pull request |-\|/-| 363 +38 −1 cs 2|-\|/-| 
+Release 1.4.2 |-\|/-| 2015-05-06T13:16:42Z Merged pull request |-\|/-| 361 +386 −233 yml nuspec cs csproj 9|-\|/-| 
+Arguments Renderer now supports TimeSpan and DateTime |-\|/-| 2015-05-05T11:55:05Z Merged pull request |-\|/-| 358 +12 −0 cs 1|-\|/-| 
+Added support for generic continuations |-\|/-| 2015-05-05T11:53:16Z Merged pull request |-\|/-| 357 +62 −3 cs 4|-\|/-| 
+Added support for generic continuations |-\|/-| 2015-05-02T23:26:55Z Closed pull request |-\|/-| 356 +62 −3 cs 4|-\|/-| 
+Arguments Render now supports TimeSpan and DateTime |-\|/-| 2015-05-02T23:26:31Z Closed pull request |-\|/-| 354 +12 −0 cs 1|-\|/-| 
+Minor improvements to navigation |-\|/-| 2015-05-05T11:42:43Z Merged pull request |-\|/-| 352 +15 −3 css cshtml cs 3|-\|/-| 
+Minor improvements to navigation  |-\|/-| 2015-04-30T22:44:25Z Closed pull request |-\|/-| 351 +15 −3 css cshtml cs 3|-\|/-| 
+added option to hide the 'Back to site' link |-\|/-| 2015-04-27T13:16:08Z Merged pull request |-\|/-| 349 +60 −40 md cshtml cs 6|-\|/-| 
+Added option to hide the 'Back to site' link |-\|/-| 2015-04-27T13:13:26Z Closed pull request |-\|/-| 348 +59 −39 cshtml cs 6|-\|/-| 
+Fixed incompatibility issue with RabbitMQ.Client >=v3.4.0 |-\|/-| 2015-05-06T13:19:54Z Merged pull request |-\|/-| 340 +8 −7 csproj cs config 5|-\|/-| 
+Retry on deadlocks during automatic migration |-\|/-| 2015-04-09T12:20:15Z Merged pull request |-\|/-| 334 +20 −1 cs 1|-\|/-| 
+Outer context for job execution by UnitOfWorkManager. |-\|/-| 2015-07-27T12:57:28Z Closed pull request |-\|/-| 330 +1,018 −689 cs 2|-\|/-| 
+Add time zone support for recurring jobs |-\|/-| 2015-03-17T11:10:40Z Merged pull request |-\|/-| 327 +388 −119 csproj cs cshtml 4|-\|/-| 
+Use OpenCover and Coveralls.io |-\|/-| 2015-03-02T16:01:40Z Merged pull request |-\|/-| 322 +37 −5 gitignore config yml ps1 4|-\|/-| 
+Allow a URI to be used for RabbitMQConnectionConfiguration |-\|/-| 2015-03-02T11:31:49Z Merged pull request |-\|/-| 321 +34 −7 cs 3|-\|/-| 
+Update README.md |-\|/-| 2015-02-28T10:18:36Z Merged pull request |-\|/-| 320 +1 −0 md 0|-\|/-| 
+Make the expiration check interval configurable |-\|/-| 2015-03-02T11:40:28Z Merged pull request |-\|/-| 319 +17 −5 md cs 3|-\|/-| 
+Remove the `with tablock` hint from the expiration cleanup |-\|/-| 2015-03-02T11:41:59Z Merged pull request |-\|/-| 318 +2 −2 md cs 1|-\|/-| 
+Make the expiration check interval configurable |-\|/-| 2015-03-02T11:40:47Z Closed pull request |-\|/-| 316 +2,001 −1,873 yml cs 6|-\|/-| 
+remove the with tablock hint from the expiration cleanup |-\|/-| 2015-03-02T11:43:03Z Closed pull request |-\|/-| 315 +1,995 −1,870 yml cs 6|-\|/-| 
+Expose deserialized job arguments |-\|/-| 2015-02-24T14:25:10Z Closed pull request |-\|/-| 311 +55 −36 md cs 4|-\|/-| 
+Added prerequisites for building the solution with the build script. Also modified JobActivator to accept the Job parameter so activator has a chance to get some of the original context back before creating an instance. |-\|/-| 2015-02-24T14:26:30Z Closed pull request |-\|/-| 310 +21 −7 md cs 4|-\|/-| 
+Revert 2 revert 1 sjuranek patch 1 |-\|/-| 2015-02-24T01:21:06Z Closed pull request |-\|/-| 309 +2 −0 md 0|-\|/-| 
+Update twitter link |-\|/-| 2015-02-24T08:29:53Z Merged pull request |-\|/-| 307 +1 −1 md 0|-\|/-| 
+Made configurable the 'Back to Site' path in the dashboard |-\|/-| 2015-02-25T09:28:31Z Merged pull request |-\|/-| 305 +67 −12 cs cshtml 10|-\|/-| 
+Monthly cron expression with specific day |-\|/-| 2015-03-03T02:05:53Z Closed pull request |-\|/-| 304 +62 −0 cs 2|-\|/-| 
+Allow a URI to be used for RabbitMQConnectionConfiguration |-\|/-| 2015-02-28T17:58:44Z Closed pull request |-\|/-| 303 +34 −7 cs 3|-\|/-| 
+Making Product Version and File Version on the dll match the Assembly Version |-\|/-| 2015-02-24T15:03:24Z Merged pull request |-\|/-| 302 +0 −1 cs 1|-\|/-| 
+Fix GetTimelineStats / GetHourlyTimelineStats incorrect order |-\|/-| 2015-02-04T18:02:37Z Merged pull request |-\|/-| 297 +15 −34 cs 1|-\|/-| 
+Fix GetTimelineStats / GetHourlyTimelineStats incorrect order |-\|/-| 2015-01-31T15:02:56Z Closed pull request |-\|/-| 296 +15 −34 cs 1|-\|/-| 
+1.3.3 Release |-\|/-| 2015-01-28T21:55:29Z Merged pull request |-\|/-| 295 +94 −6 yml nuspec cs 9|-\|/-| 
+1.3.2 release |-\|/-| 2015-01-27T12:25:13Z Merged pull request |-\|/-| 292 +184 −43 yml nuspec cs cshtml 16|-\|/-| 
+Update Cron.cs |-\|/-| 2015-02-04T18:25:56Z Merged pull request |-\|/-| 289 +1 −1 cs 1|-\|/-| 
+Hangfire.CompositeC1 project link added |-\|/-| 2014-12-10T18:54:37Z Merged pull request |-\|/-| 277 +1 −0 md 0|-\|/-| 
+No business rule changed here, only file headers and code formatting |-\|/-| 2014-12-08T20:35:04Z Merged pull request |-\|/-| 275 +1,800 −878 DotSettings cs 10|-\|/-| 
+Hangfire.Mongo project link added |-\|/-| 2014-12-08T08:59:18Z Merged pull request |-\|/-| 274 +1 −0 md 0|-\|/-| 
+Use psake for building the project |-\|/-| 2014-12-05T14:08:43Z Merged pull request |-\|/-| 271 +401 −18,391 gitignore Config targets config sln md yml cmd bat sh 12|-\|/-| 
+Hangfire.Sql / Hangfire.Oracle - Changing pull request branch from master to sql-oracle |-\|/-| 2014-12-03T14:19:18Z Merged pull request |-\|/-| 269 +3,076 −1,920 sln proj nupkg nuspec config csproj cs 12|-\|/-| 
+Inject a factory to customize component creation |-\|/-| 2015-07-24T11:21:15Z Closed pull request |-\|/-| 263 +139 −87 sln cs csproj 6|-\|/-| 
+Allow to customize serialization settings of Json.NET |-\|/-| 2014-12-01T15:40:20Z Merged pull request |-\|/-| 262 +96 −5 cs 2|-\|/-| 
+Dashboard not crash if a scheduling task is cancelled |-\|/-| 2014-12-08T16:32:36Z Merged pull request |-\|/-| 261 +31 −1 cs csproj 3|-\|/-| 
+Hangfire.Sql: easier way to add IDb providers. Oracle support included! Fixes #250 |-\|/-| 2014-12-03T14:20:37Z Closed pull request |-\|/-| 258 +3,076 −1,920 sln proj nupkg nuspec config csproj cs 12|-\|/-| 
+Updated UseRabbitMq extension method to actually use the VirtualHost property |-\|/-| 2014-11-17T09:17:25Z Merged pull request |-\|/-| 248 +1 −0 cs 1|-\|/-| 
+Public Job ctor and overload Issue #241 |-\|/-| 2014-11-22T13:51:21Z Closed pull request |-\|/-| 243 +27 −6 cs 2|-\|/-| 
+Update Common.Logging |-\|/-| 2014-11-14T13:16:30Z Closed pull request |-\|/-| 238 +753 −768 nuspec config 4|-\|/-| 
+Added logging support to Hangfire |-\|/-| 2016-12-06T08:43:21Z Closed pull request |-\|/-| 232 +715 −188 cs cshtml 4|-\|/-| 
+Support for generics in job types |-\|/-| 2014-10-17T11:33:04Z Merged pull request |-\|/-| 222 +54 −10 cs csproj 8|-\|/-| 
+.NET 4.0 support |-\|/-| 2016-06-16T14:41:13Z Closed pull request |-\|/-| 220 +2,783 −226 sln 2|-\|/-| 
+Add missing assertion in CronFacts.cs |-\|/-| 2014-10-17T15:21:49Z Merged pull request |-\|/-| 219 +1 −0 cs 1|-\|/-| 
+.NET 4.0 Assemblies and Combined 4.5 and 4.0 NuGet Packages |-\|/-| 2016-06-16T14:41:29Z Closed pull request |-\|/-| 216 +546 −99 sh proj targets nuspec config cs 13|-\|/-| 
+Include write isolation level in SqlStorageOptions |-\|/-| 2014-11-14T13:19:02Z Closed pull request |-\|/-| 213 +24 −13 cs 6|-\|/-| 
+Typo in readme.txt |-\|/-| 2014-09-27T11:42:00Z Merged pull request |-\|/-| 212 +1 −1 txt 0|-\|/-| 
+Added GetDescription method to Cron. |-\|/-| 2014-09-27T11:42:48Z Merged pull request |-\|/-| 210 +383 −0 cs 2|-\|/-| 
+Added GetDescription to Cron |-\|/-| 2014-09-15T00:26:10Z Closed pull request |-\|/-| 209 +383 −0 cs 2|-\|/-| 
+Merge pull request #1 from HangfireIO/master |-\|/-| 2014-09-13T22:48:08Z Closed pull request |-\|/-| 208 +0 −0 0|-\|/-| 
+Add a job activation context. |-\|/-| 2015-08-28T11:08:27Z Closed pull request |-\|/-| 204 +131 −15 cs csproj 8|-\|/-| 
+Adding reference to Hangfire.TinyIoC project in Hangfire readme |-\|/-| 2014-10-17T15:22:07Z Merged pull request |-\|/-| 201 +1 −0 md 0|-\|/-| 
+Ability to configure redis collection prefix |-\|/-| 2014-09-04T09:44:11Z Closed pull request |-\|/-| 200 +39 −17 cs 2|-\|/-| 
+Merge and internalize assemblies internal to Hangfire.Core  |-\|/-| 2014-09-03T15:13:55Z Merged pull request |-\|/-| 197 +49 −10 sln cmd proj targets nuspec csproj cs config 9|-\|/-| 
+Add support for global Redis prefix |-\|/-| 2014-11-22T14:45:13Z Closed pull request |-\|/-| 196 +48 −40 cs 3|-\|/-| 
+Recurring jobs workout |-\|/-| 2014-09-02T13:25:41Z Merged pull request |-\|/-| 193 +422 −116 cs cshtml csproj 11|-\|/-| 
+Force IE compatibility to edge for Intranet sites |-\|/-| 2014-09-02T09:10:21Z Merged pull request |-\|/-| 191 +1 −0 cshtml 1|-\|/-| 
+Added missing event argument |-\|/-| 2014-09-02T09:11:11Z Merged pull request |-\|/-| 189 +2 −2 js 1|-\|/-| 
+Add Latency Filter Attribute To Delete job if timeout is exceeded |-\|/-| 2016-06-16T14:28:41Z Closed pull request |-\|/-| 188 +673 −535 cs 1|-\|/-| 
+Add ability to automatically delete job when retry attempts exceeded |-\|/-| 2014-08-27T12:31:09Z Merged pull request |-\|/-| 182 +111 −25 cs 2|-\|/-| 
+Explicit `JobStorage` instance for Dashboard |-\|/-| 2014-08-18T19:22:07Z Merged pull request |-\|/-| 175 +183 −101 cs cshtml 23|-\|/-| 
+Added Cron expressions for regular intervals |-\|/-| 2016-04-05T14:40:39Z Closed pull request |-\|/-| 174 +36 −0 cs 1|-\|/-| 
+Update send-email.rst |-\|/-| 2014-08-08T18:04:37Z Merged pull request |-\|/-| 169 +23 −21 rst 1|-\|/-| 
+Fixes next execution bug in RecurringJobScheduler |-\|/-| 2014-07-15T11:21:14Z Closed pull request |-\|/-| 163 +14 −7 cs 1|-\|/-| 
+Fixed typo. |-\|/-| 2014-08-08T18:06:35Z Merged pull request |-\|/-| 162 +1 −1 rst 1|-\|/-| 
+Store and display value returned from job |-\|/-| 2014-08-18T18:26:58Z Closed pull request |-\|/-| 161 +107 −24 cs 17|-\|/-| 
+Converting job arguments using Json.NET instead of `TypeConverter` |-\|/-| 2014-08-08T18:32:09Z Merged pull request |-\|/-| 155 +355 −65 editorconfig cs csproj 6|-\|/-| 
+CSS and JS resources throw ArgumentOutOfRangeException |-\|/-| 2014-07-01T19:24:18Z Merged pull request |-\|/-| 153 +1 −1 cs 1|-\|/-| 
+Rebranding |-\|/-| 2014-06-29T23:39:42Z Merged pull request |-\|/-| 152 +42,484 −42,506 yml sln DotSettings 4|-\|/-| 
+Descriptive names for background jobs in dashboard #144 |-\|/-| 2014-06-29T20:50:38Z Merged pull request |-\|/-| 148 +33 −13 cs cshtml 7|-\|/-| 
+Remove Russian language html setting |-\|/-| 2014-06-27T16:48:37Z Merged pull request |-\|/-| 146 +1 −1 cs 1|-\|/-| 
+Update writing-unit-tests.rst |-\|/-| 2014-06-24T05:02:51Z Merged pull request |-\|/-| 143 +2 −2 rst 1|-\|/-| 
+Rabbit MQ |-\|/-| 2014-06-29T20:33:00Z Merged pull request |-\|/-| 135 +1,341 −90 yml sln sh png nuspec config 7|-\|/-| 
+Changed html lang from ru to en |-\|/-| 2014-06-16T14:46:10Z Merged pull request |-\|/-| 133 +1 −1 cshtml 1|-\|/-| 
+Prepare documentation for 1.0 release |-\|/-| 2014-06-30T00:41:34Z Merged pull request |-\|/-| 132 +430 −227 md rst py 3|-\|/-| 
+Owin support for HangFire Monitor |-\|/-| 2014-06-15T13:09:21Z Merged pull request |-\|/-| 128 +5,463 −5,103 sln yml proj pp txt transform nuspec nupkg dll config csproj cs 16|-\|/-| 
+Modified sql scripts to the accent sensitivity of the SQL Server for the Turkish collation. |-\|/-| 2014-06-12T09:09:11Z Merged pull request |-\|/-| 123 +5 −5 cs 2|-\|/-| 
+Recurring jobs with HangFire |-\|/-| 2014-06-07T11:16:47Z Merged pull request |-\|/-| 115 +3,285 −899 nuspec cs csproj 7|-\|/-| 
+Cleaned up api |-\|/-| 2014-06-04T12:57:27Z Merged pull request |-\|/-| 114 +68 −92 cs 1|-\|/-| 
+Modified SqlServerStorage constructor to take name or connection string parameter |-\|/-| 2014-06-06T11:42:29Z Merged pull request |-\|/-| 113 +49 −9 csproj cs 4|-\|/-| 
+Update advfeatures.rst for updated API... |-\|/-| 2014-06-02T09:49:01Z Merged pull request |-\|/-| 111 +6 −2 rst 1|-\|/-| 
+Removed IDisposable from IMonitoringAPI |-\|/-| 2014-06-04T09:02:15Z Merged pull request |-\|/-| 110 +4,587 −4,649 cs 1|-\|/-| 
+Improve DateTime resolution for job arguments |-\|/-| 2014-06-01T07:13:02Z Merged pull request |-\|/-| 109 +43 −2 cs 2|-\|/-| 
+Delete Job after Max retries is reached |-\|/-| 2014-05-27T08:46:29Z Closed pull request |-\|/-| 108 +130 −0 cs 1|-\|/-| 
+Cancellation token |-\|/-| 2014-05-23T13:12:42Z Merged pull request |-\|/-| 103 +2,179 −127 DotSettings cs csproj 7|-\|/-| 
+Show latency between state transitions in dashboard |-\|/-| 2014-05-20T13:28:32Z Merged pull request |-\|/-| 94 +204 −125 cs cshtml 2|-\|/-| 
+More love for tables |-\|/-| 2014-05-20T11:30:30Z Merged pull request |-\|/-| 93 +1,160 −684 cs css cshtml 11|-\|/-| 
+Batch operations for HangFire.Monitor |-\|/-| 2014-05-19T15:21:51Z Merged pull request |-\|/-| 92 +766 −516 cs css js csproj 6|-\|/-| 
+Deleting jobs |-\|/-| 2014-05-16T15:16:43Z Merged pull request |-\|/-| 89 +2,334 −943 cs csproj 8|-\|/-| 
+SQL Server + MSMQ Storage Implementation |-\|/-| 2014-05-14T11:18:28Z Merged pull request |-\|/-| 85 +2,240 −380 sln yml proj nuspec config csproj cs 16|-\|/-| 
+Monitor authorization |-\|/-| 2014-04-19T06:47:47Z Merged pull request |-\|/-| 79 +101 −27 transform csproj config cs 8|-\|/-| 
+increase default retry attempts |-\|/-| 2014-04-11T13:50:49Z Merged pull request |-\|/-| 74 +1 −1 cs 1|-\|/-| 
+JobExpirationTimeout into public property |-\|/-| 2014-04-09T23:16:58Z Merged pull request |-\|/-| 70 +2 −2 cs 1|-\|/-| 
+Throw an Exception telling the User to make sure to first Initialize the... |-\|/-| 2014-04-09T12:31:39Z Merged pull request |-\|/-| 65 +2 −2 cs 2|-\|/-| 
+Abstract storage |-\|/-| 2014-02-12T14:31:45Z Merged pull request |-\|/-| 33 +2,108 −948 csproj cs 8|-\|/-| 
+Perform by expression (relates to #30) |-\|/-| 2013-12-13T11:43:09Z Merged pull request |-\|/-| 31 +2,986 −1,541 cs 5|-\|/-| 

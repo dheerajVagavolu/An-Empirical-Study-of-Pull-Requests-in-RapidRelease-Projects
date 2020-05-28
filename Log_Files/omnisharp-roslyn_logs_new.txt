@@ -1,0 +1,933 @@
+Upgraded to Roslyn 3.5.0-beta3-20058-03 and removed Humanizer |-\|/-| 2020-01-11T04:30:38Z Merged pull request |-\|/-| 1680 +2 −3 md props csproj 2|-\|/-| 
+Use Mono 6.6.0 |-\|/-| 2020-01-07T05:38:53Z Merged pull request |-\|/-| 1679 +5 −5 json 1|-\|/-| 
+Do not discover abstract types as candidates for code fix providers |-\|/-| 2020-01-08T05:37:34Z Merged pull request |-\|/-| 1677 +10 −7 cs 1|-\|/-| 
+added implement type options |-\|/-| 2020-01-09T07:00:55Z Merged pull request |-\|/-| 1672 +210 −0 cs 4|-\|/-| 
+fixed symbol decoding from completion items |-\|/-| 2020-01-06T09:41:23Z Merged pull request |-\|/-| 1670 +5 −4 md cs 2|-\|/-| 
+Updated build process to use Mono 6.6.0 |-\|/-| 2019-12-20T06:08:35Z Merged pull request |-\|/-| 1669 +9 −6 md yml json 2|-\|/-| 
+Update CHANGELOG.md |-\|/-| 2019-12-10T17:37:35Z Merged pull request |-\|/-| 1664 +1 −1 md 0|-\|/-| 
+Update Roslyn to 3.5.0-beta2-19606-01 |-\|/-| 2019-12-09T23:14:20Z Merged pull request |-\|/-| 1663 +14 −10 md props cs config 5|-\|/-| 
+updated to msbuild 16.4.0 and Microsoft.NETFramework.ReferenceAssemblies 1.0.0 |-\|/-| 2019-12-09T22:35:40Z Merged pull request |-\|/-| 1662 +8 −7 md props config 2|-\|/-| 
+do not crash on "=" in solution path |-\|/-| 2019-12-04T15:50:43Z Merged pull request |-\|/-| 1661 +49 −2 md cs 2|-\|/-| 
+Support #line directive in find references |-\|/-| 2019-12-05T17:23:07Z Merged pull request |-\|/-| 1660 +80 −3 md cs 2|-\|/-| 
+enabled some GoToDefinitionFacts for CSX |-\|/-| 2019-11-28T18:54:44Z Merged pull request |-\|/-| 1659 +40 −24 cs 1|-\|/-| 
+added #1656 to the changelog |-\|/-| 2019-11-26T13:04:51Z Merged pull request |-\|/-| 1658 +3 −0 md 0|-\|/-| 
+do not set mono paths in standalone mode |-\|/-| 2019-11-23T06:38:43Z Merged pull request |-\|/-| 1656 +6 −67 cs 4|-\|/-| 
+Updated changelog for release |-\|/-| 2019-11-21T21:26:51Z Merged pull request |-\|/-| 1654 +2 −1 md 0|-\|/-| 
+Update Roslyn to 3.5.0-beta1-19571-01 |-\|/-| 2019-11-21T20:45:34Z Merged pull request |-\|/-| 1653 +2 −2 md props 1|-\|/-| 
+updated to Roslyn 3.5.0-beta1-19564-02 |-\|/-| 2019-11-15T19:42:32Z Merged pull request |-\|/-| 1652 +14 −11 md props cs config 5|-\|/-| 
+make platform identification POSIX-compliant |-\|/-| 2019-11-15T09:47:01Z Merged pull request |-\|/-| 1651 +5 −5 cs 1|-\|/-| 
+moved scripting tests and test assets to .NET Core 3.0 |-\|/-| 2019-11-12T19:49:08Z Merged pull request |-\|/-| 1648 +4 −4 json csx cs 4|-\|/-| 
+Updated release date of 1.34.7 to today |-\|/-| 2019-11-06T20:51:50Z Merged pull request |-\|/-| 1646 +1 −1 md 0|-\|/-| 
+Update tools\packages.config |-\|/-| 2019-11-06T05:16:25Z Merged pull request |-\|/-| 1645 +18 −19 Config config 2|-\|/-| 
+Update Roslyn to 3.4.0-beta3-19551-02 |-\|/-| 2019-11-05T01:21:49Z Merged pull request |-\|/-| 1644 +5 −4 md props 1|-\|/-| 
+Added #1640 to changelog |-\|/-| 2019-10-30T18:22:15Z Merged pull request |-\|/-| 1643 +3 −0 md 0|-\|/-| 
+removed project.json left over from symbol finder |-\|/-| 2019-11-13T00:43:13Z Merged pull request |-\|/-| 1642 +1 −2 cs 1|-\|/-| 
+updated release date of 1.34.6 to today |-\|/-| 2019-10-25T18:06:32Z Merged pull request |-\|/-| 1641 +1 −1 md 0|-\|/-| 
+Use mono 6.4.0 |-\|/-| 2019-10-28T21:18:51Z Merged pull request |-\|/-| 1640 +44 −28 json sh 3|-\|/-| 
+removed jabbr link from CONTRIBUTING.md |-\|/-| 2019-10-24T06:52:37Z Merged pull request |-\|/-| 1638 +1 −1 md 0|-\|/-| 
+embed icon into nuget packages |-\|/-| 2019-10-23T06:20:50Z Merged pull request |-\|/-| 1637 +4 −1 props png 2|-\|/-| 
+improved mono 6.4.0 log messages |-\|/-| 2019-10-25T07:32:49Z Merged pull request |-\|/-| 1635 +6 −6 props cs 2|-\|/-| 
+updated to Roslyn 3.4.0-beta3-19516-01 |-\|/-| 2019-10-18T05:02:08Z Merged pull request |-\|/-| 1634 +23 −6 md props cs 5|-\|/-| 
+Moved the build process to .NET Core 3.0 SDK |-\|/-| 2019-10-16T22:35:10Z Merged pull request |-\|/-| 1633 +110 −54 yml json csproj cs 18|-\|/-| 
+correctly use cancellation token in Metadata service |-\|/-| 2019-10-12T16:29:43Z Merged pull request |-\|/-| 1631 +2 −1 md cs 1|-\|/-| 
+Readme updates for latest release and recent changes |-\|/-| 2019-10-11T07:14:44Z Merged pull request |-\|/-| 1630 +8 −3 md 0|-\|/-| 
+raise minimum Mono version to 6.4.0 |-\|/-| 2019-10-10T01:07:34Z Merged pull request |-\|/-| 1629 +7 −7 json cs 4|-\|/-| 
+Use ConcurrentDictionary in CachingScriptMetadataResolver |-\|/-| 2019-10-10T08:57:38Z Merged pull request |-\|/-| 1627 +8 −7 cs 2|-\|/-| 
+Fixed "go to metadata" |-\|/-| 2019-10-05T01:44:58Z Merged pull request |-\|/-| 1625 +5 −1 md cs 2|-\|/-| 
+Remove diagnostic id from message |-\|/-| 2019-10-13T09:03:16Z Merged pull request |-\|/-| 1623 +32 −24 cs 8|-\|/-| 
+fixed default diagnostic suppressions for script project system |-\|/-| 2019-10-08T13:58:23Z Merged pull request |-\|/-| 1621 +19 −6 cs 2|-\|/-| 
+Codify azure devops branch based triggers and pr configuration |-\|/-| 2019-10-01T00:57:40Z Merged pull request |-\|/-| 1618 +14 −0 yml 1|-\|/-| 
+update changelog for 1.34.4 |-\|/-| 2019-10-01T04:29:09Z Merged pull request |-\|/-| 1617 +4 −0 md 0|-\|/-| 
+Make sure we include msbuild 16.3 in Linux distro |-\|/-| 2019-09-30T14:07:47Z Merged pull request |-\|/-| 1616 +3 −2 yml cake 2|-\|/-| 
+Support plugins configuration in omnisharp.json |-\|/-| 2019-11-21T07:19:46Z Merged pull request |-\|/-| 1615 +59 −18 cs 9|-\|/-| 
+Fix no params |-\|/-| 2019-09-29T00:16:09Z Closed pull request |-\|/-| 1614 +1,018 −121 gitignore sln json cs 11|-\|/-| 
+use msbuild from Mono 6.4.0 on linux/macos |-\|/-| 2019-09-28T14:39:25Z Merged pull request |-\|/-| 1612 +24 −11 yml cake json cs 4|-\|/-| 
+upgrade GitVersion to 5.0.1 (fixes build on Ubuntu 18.04 and other distros) |-\|/-| 2019-09-26T10:17:37Z Merged pull request |-\|/-| 1611 +2 −2 yml cake 2|-\|/-| 
+Bump Dotnet.Script.DependencyModel to version 0.50.0 |-\|/-| 2019-10-02T04:16:35Z Merged pull request |-\|/-| 1609 +81 −26 props cs 6|-\|/-| 
+copy MsBuild 16.3 on Mono too |-\|/-| 2019-09-26T13:46:35Z Closed pull request |-\|/-| 1607 +10 −7 yml cake json cs 4|-\|/-| 
+upgrade msbuild to 16.3 |-\|/-| 2019-09-24T17:17:33Z Merged pull request |-\|/-| 1606 +11 −10 Config props config 3|-\|/-| 
+updated metadata on the nuget packages |-\|/-| 2019-09-17T08:22:10Z Merged pull request |-\|/-| 1603 +8 −1 props 1|-\|/-| 
+removed dotnet node from omnisharp.json |-\|/-| 2019-09-12T06:53:01Z Merged pull request |-\|/-| 1601 +0 −3 json 1|-\|/-| 
+1.34.3 release date |-\|/-| 2019-09-11T19:58:32Z Closed pull request |-\|/-| 1600 +0 −0 0|-\|/-| 
+Fix possessives of its |-\|/-| 2019-09-11T15:07:14Z Merged pull request |-\|/-| 1599 +7 −11 md cs 5|-\|/-| 
+added Roslyn 3.4 to the changelog |-\|/-| 2019-09-10T20:24:46Z Merged pull request |-\|/-| 1598 +2 −1 md 0|-\|/-| 
+Roslyn 3.4 |-\|/-| 2019-09-10T18:40:41Z Merged pull request |-\|/-| 1597 +13 −11 props cs config 6|-\|/-| 
+updated to Roslyn 3.3.1 beta3 |-\|/-| 2019-09-10T18:39:57Z Closed pull request |-\|/-| 1596 +2 −1 md props 1|-\|/-| 
+Fix using task assemblies which reference older v4/v12 msbuild assemblies |-\|/-| 2019-09-09T18:11:18Z Merged pull request |-\|/-| 1595 +4 −2 sh 2|-\|/-| 
+Update rolsyn version for .NET Core 3.0 preview 9 |-\|/-| 2019-08-21T20:49:17Z Closed pull request |-\|/-| 1590 +3 −2 md props 1|-\|/-| 
+run the complex analyzer test only on Windows |-\|/-| 2019-08-20T12:39:42Z Merged pull request |-\|/-| 1588 +2 −8 cs 2|-\|/-| 
+ added support for CheckForOverflowUnderflow in csproj |-\|/-| 2019-08-22T14:17:37Z Merged pull request |-\|/-| 1587 +21 −5 md cs csproj 6|-\|/-| 
+Update release date for 1.34.1 |-\|/-| 2019-08-16T19:32:11Z Merged pull request |-\|/-| 1586 +1 −1 md 0|-\|/-| 
+retarget test projects to .NET Core 2.1 (LTS) |-\|/-| 2019-08-14T18:29:20Z Merged pull request |-\|/-| 1584 +38 −55 cake json csproj cs 20|-\|/-| 
+test for #1566  |-\|/-| 2019-08-15T09:39:09Z Merged pull request |-\|/-| 1583 +56 −1 gitignore json cs csproj 5|-\|/-| 
+Fixes bugs when there are multiple handlers are defined for a language for a given request |-\|/-| 2019-09-28T15:12:19Z Merged pull request |-\|/-| 1582 +411 −21 cs 8|-\|/-| 
+ updated to Roslyn 3.3.0-beta2-19401-05 to address a StackOverflowException |-\|/-| 2019-08-05T17:21:30Z Merged pull request |-\|/-| 1579 +4 −1 md props 1|-\|/-| 
+changelog updates for 1.34.1 |-\|/-| 2019-08-05T13:37:39Z Merged pull request |-\|/-| 1578 +3 −1 md 0|-\|/-| 
+Enhanced override completion. |-\|/-| 2019-08-06T17:16:16Z Closed pull request |-\|/-| 1577 +826 −63 cs 8|-\|/-| 
+Update roslyn version |-\|/-| 2019-08-02T20:09:08Z Merged pull request |-\|/-| 1574 +2 −1 md 0|-\|/-| 
+renamed NullableContextOptions to Nullable |-\|/-| 2019-08-09T15:01:25Z Merged pull request |-\|/-| 1573 +8 −7 md cs csproj 4|-\|/-| 
+Fix invalid xml in XmlDocComment of PackageVersionRequest.cs |-\|/-| 2019-07-30T06:04:00Z Merged pull request |-\|/-| 1571 +1 −1 cs 1|-\|/-| 
+ run script tests as part of the build script |-\|/-| 2019-07-29T02:53:45Z Merged pull request |-\|/-| 1570 +7 −5 json cs rsp 4|-\|/-| 
+Unit test support in non-English countries. |-\|/-| 2019-07-31T11:12:23Z Merged pull request |-\|/-| 1568 +16 −3 cs 5|-\|/-| 
+fixed AllowUnsafe regression |-\|/-| 2019-07-22T14:43:12Z Merged pull request |-\|/-| 1567 +41 −1 md cs csproj 4|-\|/-| 
+Fixed analyzer timeout issue. |-\|/-| 2019-07-23T12:22:44Z Merged pull request |-\|/-| 1566 +17 −5 cs 1|-\|/-| 
+Added support for "sync namespace" refactoring |-\|/-| 2019-07-31T22:33:33Z Merged pull request |-\|/-| 1563 +374 −71 props cs config 12|-\|/-| 
+Upgraded to latest lsp |-\|/-| 2019-08-20T07:32:33Z Merged pull request |-\|/-| 1562 +284 −226 md props cs 6|-\|/-| 
+Update release date for 1.34.0 |-\|/-| 2019-07-15T18:23:08Z Merged pull request |-\|/-| 1560 +1 −1 md 0|-\|/-| 
+ Run editor config options provider last |-\|/-| 2019-07-15T17:11:48Z Merged pull request |-\|/-| 1559 +45 −4 md cs 2|-\|/-| 
+Escape markdown to fix plaintext returns. |-\|/-| 2019-07-19T01:22:27Z Merged pull request |-\|/-| 1557 +9 −1 cs 2|-\|/-| 
+changelog updates for 1.34.0 |-\|/-| 2019-07-14T18:23:41Z Merged pull request |-\|/-| 1555 +18 −0 md 0|-\|/-| 
+ Support for AdditionalFiles |-\|/-| 2019-07-10T19:21:21Z Merged pull request |-\|/-| 1547 +156 −5 cs csproj txt 10|-\|/-| 
+removed unused build code |-\|/-| 2019-07-10T09:13:41Z Merged pull request |-\|/-| 1546 +0 −43 cake 1|-\|/-| 
+improve msbuild instance scoring |-\|/-| 2019-07-12T17:28:30Z Merged pull request |-\|/-| 1545 +160 −22 cs 10|-\|/-| 
+Respect the disabling of a project system in services |-\|/-| 2019-07-05T19:56:28Z Merged pull request |-\|/-| 1543 +89 −18 md cs 15|-\|/-| 
+Enable LSIF indexer in Azure Pipelines |-\|/-| 2019-07-16T19:57:40Z Closed pull request |-\|/-| 1540 +5 −0 yml 1|-\|/-| 
+End of life for .NET Core 1.0 / 1.1 (project.json) |-\|/-| 2019-07-11T13:59:16Z Merged pull request |-\|/-| 1539 +14 −14,861 md sln cake json cs 5|-\|/-| 
+ensure SQLite dependencies are included in the mono archive |-\|/-| 2019-07-01T19:22:20Z Merged pull request |-\|/-| 1538 +2 −2 cake 1|-\|/-| 
+Release 1.33.0 |-\|/-| 2019-06-29T03:14:41Z Merged pull request |-\|/-| 1535 +1 −1 md 0|-\|/-| 
+Update Roslyn for Preview 7  |-\|/-| 2019-06-28T16:34:51Z Merged pull request |-\|/-| 1534 +12 −17 md cake props cs 6|-\|/-| 
+Update Roslyn for Preview 7 |-\|/-| 2019-06-28T02:13:18Z Closed pull request |-\|/-| 1533 +8 −6 md props cs 4|-\|/-| 
+ changelog updates for recent merges + bump to 1.33.0 |-\|/-| 2019-06-27T01:18:20Z Merged pull request |-\|/-| 1532 +17 −2 md 0|-\|/-| 
+Fix/nugetpush |-\|/-| 2019-06-25T03:14:15Z Merged pull request |-\|/-| 1530 +29 −18 yml cake 3|-\|/-| 
+tried to fix nuget push target |-\|/-| 2019-06-25T00:05:36Z Merged pull request |-\|/-| 1529 +2 −2 yml 1|-\|/-| 
+updated Roslyn to 3.2.0-beta4-19319-04 |-\|/-| 2019-06-21T08:06:38Z Merged pull request |-\|/-| 1527 +2 −4 md Config props csproj 3|-\|/-| 
+Added support for .editorconfig |-\|/-| 2019-06-23T15:28:26Z Merged pull request |-\|/-| 1526 +756 −79 Config props cs csproj 10|-\|/-| 
+Fixed declaration name completion regression |-\|/-| 2019-06-06T05:28:29Z Merged pull request |-\|/-| 1520 +31 −11 md props csproj cs 6|-\|/-| 
+changelog updates for 1.32.20 |-\|/-| 2019-06-04T11:42:06Z Merged pull request |-\|/-| 1516 +6 −2 md 0|-\|/-| 
+pin CI builds to use Mono 5.18.1 |-\|/-| 2019-06-03T15:33:48Z Merged pull request |-\|/-| 1513 +2 −2 yml 1|-\|/-| 
+Roslyn from Dev16.2p2 |-\|/-| 2019-05-31T18:11:06Z Merged pull request |-\|/-| 1511 +17 −14 Config props cs config csproj 9|-\|/-| 
+Background analysis support |-\|/-| 2019-07-10T23:07:02Z Merged pull request |-\|/-| 1507 +584 −184 cs 11|-\|/-| 
+updated to Roslyn 3.1.0 beta4-19266-03 to match dev16.1 |-\|/-| 2019-05-24T06:07:30Z Merged pull request |-\|/-| 1504 +2 −1 md props 1|-\|/-| 
+Update LSP libs |-\|/-| 2019-05-23T08:34:01Z Merged pull request |-\|/-| 1503 +1 −1 props 1|-\|/-| 
+Fixed mistake on shadow copying assembly loader. |-\|/-| 2019-05-16T09:48:40Z Merged pull request |-\|/-| 1497 +67 −10 cs 1|-\|/-| 
+Added support for Roslyn rename options |-\|/-| 2019-06-14T18:28:52Z Merged pull request |-\|/-| 1495 +184 −32 md cs 8|-\|/-| 
+fixed logical typo in CompletionItemExtensions |-\|/-| 2019-05-14T13:19:04Z Merged pull request |-\|/-| 1491 +1 −1 cs 1|-\|/-| 
+Replace ToLanguageVersion switch with TryParse |-\|/-| 2019-05-14T06:43:05Z Merged pull request |-\|/-| 1488 +3 −22 cs 1|-\|/-| 
+Load analyzers from .csproj without restart |-\|/-| 2019-06-27T17:17:54Z Merged pull request |-\|/-| 1486 +71 −3 cs 3|-\|/-| 
+changelog updates for 1.32.19 |-\|/-| 2019-05-02T15:35:57Z Merged pull request |-\|/-| 1480 +6 −3 md 0|-\|/-| 
+Update Roslyn build |-\|/-| 2019-05-01T18:22:19Z Merged pull request |-\|/-| 1479 +27 −22 props cs 2|-\|/-| 
+Shadow copying analyzer assembly loader. |-\|/-| 2019-04-30T17:36:53Z Merged pull request |-\|/-| 1474 +395 −32 cs 4|-\|/-| 
+fixed OmniSharp hanging on nuget references with wildcard |-\|/-| 2019-04-18T20:35:40Z Merged pull request |-\|/-| 1473 +43 −3 md props cs csproj 6|-\|/-| 
+ignore shas creating incorrect version numbers |-\|/-| 2019-04-18T06:40:28Z Merged pull request |-\|/-| 1471 +10 −1 yml 1|-\|/-| 
+only upload from azure pipelines |-\|/-| 2019-04-18T08:31:44Z Merged pull request |-\|/-| 1470 +30 −30 yml 2|-\|/-| 
+correctly set 4.7.2 as framework sku in app.config |-\|/-| 2019-04-17T23:28:21Z Merged pull request |-\|/-| 1469 +2 −2 config 2|-\|/-| 
+Update gitversion and tweak config to avoid version increments from merge commits |-\|/-| 2019-04-17T20:34:59Z Merged pull request |-\|/-| 1467 +8 −2 yml cake 3|-\|/-| 
+Small 📚updates to bring them up to date |-\|/-| 2019-04-17T23:28:43Z Merged pull request |-\|/-| 1466 +27 −11 md json 1|-\|/-| 
+ switch to stable-xenial for linux CI builds on AzureDevOps |-\|/-| 2019-04-15T17:26:59Z Merged pull request |-\|/-| 1462 +1 −1 yml 1|-\|/-| 
+ added support for TreatWarningsAsErrors in csproj |-\|/-| 2019-05-07T01:04:18Z Merged pull request |-\|/-| 1459 +36 −13 md cs csproj 6|-\|/-| 
+Rename msbuild directory to .msbuild |-\|/-| 2019-04-12T05:58:28Z Merged pull request |-\|/-| 1457 +4 −4 cake cs 2|-\|/-| 
+Fix HTTP logging |-\|/-| 2019-04-17T09:40:28Z Merged pull request |-\|/-| 1456 +10 −2 cs 1|-\|/-| 
+Do not hash target frameworks and rename ProjectGuid->ProjectId |-\|/-| 2019-04-12T20:48:16Z Merged pull request |-\|/-| 1454 +23 −32 cs 4|-\|/-| 
+Changlog update for 1.32.13 - through to 1.32.16 |-\|/-| 2019-04-11T15:46:07Z Merged pull request |-\|/-| 1452 +14 −1 md 0|-\|/-| 
+Update changelog |-\|/-| 2019-04-11T10:55:13Z Closed pull request |-\|/-| 1451 +5 −0 md 0|-\|/-| 
+Copy lib mono system native |-\|/-| 2019-04-10T06:11:21Z Merged pull request |-\|/-| 1450 +12 −0 sh 1|-\|/-| 
+make "dotnet build" work on non-Windows platforms |-\|/-| 2019-05-21T08:22:23Z Merged pull request |-\|/-| 1449 +37 −1 props csproj 27|-\|/-| 
+Updated to Roslyn 3.1 |-\|/-| 2019-04-10T22:40:40Z Merged pull request |-\|/-| 1448 +64 −74 props cs config 9|-\|/-| 
+Bump roslyn packages to 3.0.0 |-\|/-| 2019-04-11T08:00:31Z Closed pull request |-\|/-| 1447 +1 −1 props 1|-\|/-| 
+Use mono 5.18 |-\|/-| 2019-04-08T16:38:42Z Merged pull request |-\|/-| 1444 +207 −110 yml Config cake json props sh 7|-\|/-| 
+Suppress errors from rm when deleting build artifacts |-\|/-| 2019-04-02T19:13:15Z Merged pull request |-\|/-| 1442 +8 −8 yml 1|-\|/-| 
+try to fix issue with pipelines deployment |-\|/-| 2019-04-01T17:08:26Z Merged pull request |-\|/-| 1441 +7 −7 yml 2|-\|/-| 
+Load project to hold ruleset compilation options |-\|/-| 2019-06-17T13:36:09Z Merged pull request |-\|/-| 1440 +295 −203 cs csproj ruleset 9|-\|/-| 
+updated changelog with latest fixes and features |-\|/-| 2019-04-03T08:48:36Z Merged pull request |-\|/-| 1437 +7 −1 md 0|-\|/-| 
+fixed appveyor / travis publish with gitversion |-\|/-| 2019-03-22T14:47:35Z Merged pull request |-\|/-| 1434 +10 −0 cake 1|-\|/-| 
+Added nuget package publishing |-\|/-| 2019-06-24T21:34:54Z Merged pull request |-\|/-| 1432 +101 −58 yml md cake props json csproj 14|-\|/-| 
+Stop nesting folders on upload to azure storage |-\|/-| 2019-03-20T23:48:15Z Merged pull request |-\|/-| 1431 +2 −2 yml 1|-\|/-| 
+Fix/random |-\|/-| 2019-03-20T22:57:16Z Merged pull request |-\|/-| 1430 +1 −0 cake 1|-\|/-| 
+try to avoid random ci failures with test WhenWorkIsWaitedButTimeoutF… |-\|/-| 2019-03-20T22:40:23Z Merged pull request |-\|/-| 1429 +4 −1 cs 1|-\|/-| 
+promote blob key through |-\|/-| 2019-03-20T21:59:17Z Merged pull request |-\|/-| 1428 +2 −0 yml 1|-\|/-| 
+Use BlockingCollection in SharedTextWriter |-\|/-| 2019-04-09T10:57:08Z Merged pull request |-\|/-| 1427 +30 −17 cs 4|-\|/-| 
+Publish windows on unix |-\|/-| 2019-03-20T22:25:14Z Merged pull request |-\|/-| 1426 +5 −6 cake json cs 5|-\|/-| 
+Use LTS version of .NET Core 2.1 SDK |-\|/-| 2019-03-20T22:40:46Z Closed pull request |-\|/-| 1424 +3 −3 json 3|-\|/-| 
+Fix renaming in LSP |-\|/-| 2019-06-17T20:53:11Z Merged pull request |-\|/-| 1423 +7 −16 cs 1|-\|/-| 
+Adds snippets support in LSP mode. |-\|/-| 2019-06-23T15:28:54Z Merged pull request |-\|/-| 1422 +8 −2 cs 1|-\|/-| 
+ include constant values in TypeLookup |-\|/-| 2019-03-16T00:37:58Z Merged pull request |-\|/-| 1420 +36 −1 md cs 2|-\|/-| 
+Report project type and target framework |-\|/-| 2019-03-13T01:09:45Z Merged pull request |-\|/-| 1417 +723 −61 cs 10|-\|/-| 
+updated changelog to mark 1.32.11 as released |-\|/-| 2019-02-28T08:16:22Z Merged pull request |-\|/-| 1415 +1 −1 md 0|-\|/-| 
+updated to Roslyn 3.0.0-beta4-19126-05 |-\|/-| 2019-02-28T00:57:17Z Merged pull request |-\|/-| 1414 +3 −2 md props 1|-\|/-| 
+Switch to use CodeStructureService in DocumentSymbolHandler. |-\|/-| 2019-04-03T09:32:04Z Merged pull request |-\|/-| 1411 +68 −57 props cs 5|-\|/-| 
+Proposal to add roslyn 'tags' to diagnostic response |-\|/-| 2019-03-19T18:17:28Z Merged pull request |-\|/-| 1410 +47 −3 cs 3|-\|/-| 
+support extern alias and add unit test |-\|/-| 2019-03-11T15:20:27Z Merged pull request |-\|/-| 1409 +155 −12 json cs csproj sln 11|-\|/-| 
+Squashed copy of https://github.com/OmniSharp/omnisharp-roslyn/pull/1076/files |-\|/-| 2019-03-19T03:43:42Z Closed pull request |-\|/-| 1408 +1,563 −349 cs 12|-\|/-| 
+Codeactions with options/ui. |-\|/-| 2019-07-10T12:59:33Z Merged pull request |-\|/-| 1406 +461 −96 props cs csproj 9|-\|/-| 
+Support for NullableContextOptions in csproj |-\|/-| 2019-02-27T07:42:43Z Merged pull request |-\|/-| 1404 +78 −4 md json cs csproj 9|-\|/-| 
+Fix find references for indexer properties |-\|/-| 2019-03-19T04:34:26Z Merged pull request |-\|/-| 1399 +55 −37 cs 2|-\|/-| 
+updated changelog to mark 1.32.10 as released |-\|/-| 2019-01-30T02:49:25Z Merged pull request |-\|/-| 1395 +1 −1 md 0|-\|/-| 
+Upgrade to 3.0 Roslyn packages to get better C# 8 support |-\|/-| 2019-01-24T17:43:15Z Merged pull request |-\|/-| 1391 +18 −13 md Config props cs config 8|-\|/-| 
+Update CHANGELOG.md |-\|/-| 2019-01-24T07:40:24Z Merged pull request |-\|/-| 1390 +1 −1 md 0|-\|/-| 
+Update changelog |-\|/-| 2019-01-22T18:20:48Z Merged pull request |-\|/-| 1389 +3 −0 md 0|-\|/-| 
+added missing LSP note to CHANGELOG.md |-\|/-| 2019-01-22T19:19:46Z Merged pull request |-\|/-| 1388 +1 −1 md 0|-\|/-| 
+Update LSP to 0.11.x |-\|/-| 2019-02-03T21:43:32Z Merged pull request |-\|/-| 1387 +207 −425 Config props cs 10|-\|/-| 
+added roslyn 2.11.0-beta1-final to the CHANGELOG.md |-\|/-| 2019-01-17T07:17:04Z Merged pull request |-\|/-| 1385 +1 −1 md 0|-\|/-| 
+Fixed brew on Travis OSX |-\|/-| 2019-01-10T16:57:51Z Merged pull request |-\|/-| 1380 +2 −1 yml 1|-\|/-| 
+update changelog |-\|/-| 2019-01-09T21:48:39Z Merged pull request |-\|/-| 1379 +1 −0 md 0|-\|/-| 
+Fix finding references to operator overloads |-\|/-| 2019-01-09T20:28:56Z Merged pull request |-\|/-| 1371 +33 −1 cs 2|-\|/-| 
+include MIT license in build artifacts |-\|/-| 2019-01-03T07:44:58Z Merged pull request |-\|/-| 1369 +12 −0 cake 1|-\|/-| 
+Detect when files move to empty directories |-\|/-| 2019-01-15T07:59:19Z Merged pull request |-\|/-| 1368 +33 −2 cs 2|-\|/-| 
+updated to Roslyn 2.11.0-beta1-final |-\|/-| 2019-01-02T22:27:34Z Merged pull request |-\|/-| 1365 +62 −11 cake props cs csproj config 11|-\|/-| 
+removed unused stdio flag |-\|/-| 2019-01-15T19:30:46Z Merged pull request |-\|/-| 1362 +1 −4 md cs 1|-\|/-| 
+Fix refusing HTTP connections ( #1274 ) |-\|/-| 2019-03-19T03:34:44Z Merged pull request |-\|/-| 1361 +4 −25 md cake 1|-\|/-| 
+OmniSharp.Abstractions cleanup |-\|/-| 2019-03-16T00:39:43Z Merged pull request |-\|/-| 1360 +81 −48 sln props cs csproj 61|-\|/-| 
+Set up CI with Azure Pipelines |-\|/-| 2019-03-20T21:05:50Z Merged pull request |-\|/-| 1359 +358 −24 yml md cake json 6|-\|/-| 
+Fix "Ambiguity" errors appearing when files are modified during project load |-\|/-| 2018-12-10T20:10:19Z Merged pull request |-\|/-| 1357 +1 −1 cs 1|-\|/-| 
+Move to msbuild |-\|/-| 2018-12-08T04:23:03Z Closed pull request |-\|/-| 1355 +970 −8 gitignore sln json cs csproj config 17|-\|/-| 
+Fix typo in error-message. |-\|/-| 2018-12-07T13:36:07Z Merged pull request |-\|/-| 1354 +1 −1 cs 1|-\|/-| 
+expose IndentSwitchCaseSectionWhenBlock in OmniSharp FormattingOptions |-\|/-| 2018-12-06T17:31:26Z Merged pull request |-\|/-| 1353 +6 −1 md cs 2|-\|/-| 
+Change the way to look for the default MSBuild instance |-\|/-| 2019-01-22T17:29:18Z Merged pull request |-\|/-| 1349 +279 −27 cs 5|-\|/-| 
+Typo |-\|/-| 2018-11-29T13:01:07Z Merged pull request |-\|/-| 1348 +1 −1 cs 1|-\|/-| 
+Fix devconsole MSBuild discovery |-\|/-| 2018-11-29T16:13:21Z Merged pull request |-\|/-| 1347 +4 −1 cs 1|-\|/-| 
+Fixes #1269. |-\|/-| 2018-12-11T21:30:53Z Merged pull request |-\|/-| 1346 +2 −2 cs 1|-\|/-| 
+Solve issue #1113. |-\|/-| 2019-01-24T22:54:35Z Merged pull request |-\|/-| 1345 +6 −0 md cs 1|-\|/-| 
+updated to Roslyn 2.10.0 |-\|/-| 2018-12-03T20:56:01Z Merged pull request |-\|/-| 1344 +18 −12 md props cs config 6|-\|/-| 
+Fix VS MSBuild discovery |-\|/-| 2018-11-14T21:02:33Z Merged pull request |-\|/-| 1337 +4 −1 cs 1|-\|/-| 
+Fix typo |-\|/-| 2018-11-12T21:16:04Z Merged pull request |-\|/-| 1335 +1 −1 md 0|-\|/-| 
+one more changelog update for 1.32.7 |-\|/-| 2018-11-12T20:58:34Z Merged pull request |-\|/-| 1334 +2 −1 md 0|-\|/-| 
+Update changelog for 1.32.7 |-\|/-| 2018-11-12T20:51:06Z Merged pull request |-\|/-| 1333 +6 −1 md 0|-\|/-| 
+Make adding transient documents more reliable. |-\|/-| 2018-11-12T19:15:12Z Merged pull request |-\|/-| 1330 +1 −1 cs 1|-\|/-| 
+Improve MSBuild discovery for future scenarios |-\|/-| 2018-11-08T23:07:16Z Merged pull request |-\|/-| 1328 +117 −39 cs 6|-\|/-| 
+updated the omnisharp.json file to not report CSI-specifc errors |-\|/-| 2018-11-07T03:12:15Z Merged pull request |-\|/-| 1327 +5 −1 json 1|-\|/-| 
+add supporting MSBuild.SolutionSdk(slnproj) for getting project files. |-\|/-| 2019-03-19T03:25:57Z Closed pull request |-\|/-| 1323 +8,600 −6 sln cake json cs slnproj csproj 12|-\|/-| 
+On demand projects loading when working with big C# codebases |-\|/-| 2018-12-18T17:50:59Z Merged pull request |-\|/-| 1322 +359 −10 cs csproj sln 18|-\|/-| 
+Fixed a regression that broke FindSymbols for CSX |-\|/-| 2018-10-31T17:39:47Z Merged pull request |-\|/-| 1321 +107 −79 md cs 2|-\|/-| 
+fix collecting unexpected solution file like 'sln*' |-\|/-| 2018-11-02T19:30:31Z Merged pull request |-\|/-| 1320 +5 −1 cs 1|-\|/-| 
+Removed unused / obsolete config.json from configuration system |-\|/-| 2018-10-26T11:26:54Z Merged pull request |-\|/-| 1319 +3 −5 md cs 2|-\|/-| 
+Fix FindImplementationService not finding all implementations of the partial class |-\|/-| 2018-11-03T16:57:50Z Merged pull request |-\|/-| 1318 +47 −11 cs 2|-\|/-| 
+allow setting a custom OmniSharp home directory |-\|/-| 2018-10-17T07:13:29Z Merged pull request |-\|/-| 1317 +5 −3 md cs 1|-\|/-| 
+Add logging for miscellaneous files |-\|/-| 2018-10-12T17:06:32Z Merged pull request |-\|/-| 1314 +2 −0 cs 1|-\|/-| 
+Update ChangeLog for 1.32.6 |-\|/-| 2018-10-02T21:12:03Z Merged pull request |-\|/-| 1309 +3 −1 md 0|-\|/-| 
+Fix o# getting stuck after undoing delete/rename/move transient files |-\|/-| 2018-12-12T21:38:16Z Closed pull request |-\|/-| 1308 +33 −14 cs 2|-\|/-| 
+Promote misc documents to projects after project load. |-\|/-| 2018-10-02T08:28:09Z Merged pull request |-\|/-| 1306 +231 −0 cs 4|-\|/-| 
+Attempt to fix uploading by disabling check |-\|/-| 2018-10-01T20:40:57Z Merged pull request |-\|/-| 1305 +5 −5 yml 1|-\|/-| 
+Use FindSourceDeclarationsWithPatternAsync to have nice fuzzy search |-\|/-| 2018-10-24T13:37:38Z Merged pull request |-\|/-| 1304 +25 −15 cs 4|-\|/-| 
+Fixed issue with "go to implementation" and symbol overrides |-\|/-| 2018-10-31T18:14:00Z Merged pull request |-\|/-| 1302 +58 −10 md cs 4|-\|/-| 
+Fix more bash errors |-\|/-| 2018-09-20T19:36:48Z Merged pull request |-\|/-| 1299 +1 −1 yml 1|-\|/-| 
+Test command unit test |-\|/-| 2018-09-19T20:47:02Z Closed pull request |-\|/-| 1298 +883 −6 gitignore sln cs csproj config 16|-\|/-| 
+Really fix syntax in travis.yml |-\|/-| 2018-09-18T21:23:31Z Merged pull request |-\|/-| 1297 +1 −1 yml 1|-\|/-| 
+Fix syntax error in travis |-\|/-| 2018-09-18T19:43:06Z Merged pull request |-\|/-| 1296 +1 −0 yml 1|-\|/-| 
+Catch exceptions thrown by IMSBuildEventSink and log them |-\|/-| 2018-09-18T18:24:25Z Merged pull request |-\|/-| 1295 +8 −1 cs 1|-\|/-| 
+Don't check for Windows builds when uploading blob |-\|/-| 2018-09-12T22:31:21Z Merged pull request |-\|/-| 1294 +1 −4 yml 1|-\|/-| 
+Fix OmniSharp log filtering |-\|/-| 2018-09-12T02:59:52Z Merged pull request |-\|/-| 1293 +178 −70 cs 10|-\|/-| 
+Rollback NuGet.Build.Tasks |-\|/-| 2018-09-11T21:35:42Z Merged pull request |-\|/-| 1292 +13 −13 config 1|-\|/-| 
+Fix missing signatures for some cases |-\|/-| 2018-11-02T19:29:26Z Merged pull request |-\|/-| 1290 +51 −15 cs 2|-\|/-| 
+Add MSBuild event sink API for project loaded notification |-\|/-| 2018-09-07T18:29:16Z Merged pull request |-\|/-| 1289 +609 −313 cs 13|-\|/-| 
+Fix missing test results/discoveries when tests are run with vscode's TestCodeLens |-\|/-| 2018-09-07T16:19:19Z Merged pull request |-\|/-| 1288 +27 −20 cs 1|-\|/-| 
+Update Roslyn, MSBuild and NuGet |-\|/-| 2018-09-06T19:42:23Z Merged pull request |-\|/-| 1286 +36 −49 sln props cs config 7|-\|/-| 
+Fix enum members missing in code structure response |-\|/-| 2018-09-05T21:07:00Z Merged pull request |-\|/-| 1285 +28 −1 cs 2|-\|/-| 
+Introduce configuration for "Go to Symbol in Workspace" |-\|/-| 2018-09-20T06:14:05Z Merged pull request |-\|/-| 1284 +95 −13 cs 6|-\|/-| 
+Don't duplicate find symbols results from C# files |-\|/-| 2018-09-06T20:46:12Z Merged pull request |-\|/-| 1282 +145 −52 cs 5|-\|/-| 
+1.32.3 release changelog update |-\|/-| 2018-08-28T19:10:44Z Merged pull request |-\|/-| 1279 +1 −1 md 0|-\|/-| 
+pinned gitversion |-\|/-| 2018-08-28T22:27:14Z Merged pull request |-\|/-| 1278 +1 −1 cake 1|-\|/-| 
+Add the addition and deletion of Miscellaneous files to the Buffer Manager |-\|/-| 2018-08-28T02:30:48Z Merged pull request |-\|/-| 1277 +87 −294 sln cs csproj 13|-\|/-| 
+Only update latest.txt if every expected build is present |-\|/-| 2018-08-23T22:47:13Z Merged pull request |-\|/-| 1276 +10 −1 yml 1|-\|/-| 
+ construct scripting workspace information directly from the ProjectInfo |-\|/-| 2018-08-28T11:20:32Z Merged pull request |-\|/-| 1272 +67 −27 md cs gitignore csx rsp 9|-\|/-| 
+Add environment variable to try and stabilize OSX builds |-\|/-| 2018-08-14T17:43:54Z Merged pull request |-\|/-| 1268 +1 −0 yml 1|-\|/-| 
+Fix MiscFile system creating new project for each file |-\|/-| 2018-08-14T14:37:17Z Merged pull request |-\|/-| 1267 +1 −1 cs 1|-\|/-| 
+Add changelog update |-\|/-| 2018-08-14T06:45:31Z Merged pull request |-\|/-| 1266 +3 −0 md 0|-\|/-| 
+remove entry |-\|/-| 2018-08-10T15:57:07Z Closed pull request |-\|/-| 1264 +1 −1 Config 1|-\|/-| 
+1.32.2 release |-\|/-| 2018-08-10T00:44:55Z Merged pull request |-\|/-| 1261 +1 −1 md 0|-\|/-| 
+Add packaging scripts for embedded Mono and MSBuild bits |-\|/-| 2018-08-07T15:25:53Z Merged pull request |-\|/-| 1260 +457 −16 cake json sh 3|-\|/-| 
+revert from McMaster.Extensions.CommandLineUtils to Microsoft.Extensions.CommandLineUtils |-\|/-| 2018-08-07T18:16:22Z Closed pull request |-\|/-| 1259 +8 −8 props cs csproj 6|-\|/-| 
+Added a changelog note about net461 |-\|/-| 2018-08-04T15:56:10Z Merged pull request |-\|/-| 1257 +1 −0 md 0|-\|/-| 
+Add support for Miscellaneous Files |-\|/-| 2018-08-13T22:59:09Z Merged pull request |-\|/-| 1252 +945 −248 sln cs csproj 13|-\|/-| 
+Update xUnit to 2.4.0 release |-\|/-| 2018-07-25T06:33:28Z Merged pull request |-\|/-| 1250 +2 −2 props config 2|-\|/-| 
+Removed unneeded file |-\|/-| 2018-07-16T15:23:34Z Merged pull request |-\|/-| 1249 +0 −0 changeType 1|-\|/-| 
+Added "msbuild-stable" link to the Readme |-\|/-| 2018-07-16T11:28:11Z Merged pull request |-\|/-| 1246 +1 −1 md 0|-\|/-| 
+Ensure filename is handled correctly for textDocument/documentSymbol LSP requests |-\|/-| 2018-07-17T13:27:26Z Merged pull request |-\|/-| 1244 +19 −2 cs 2|-\|/-| 
+add msbuild_stable to requires |-\|/-| 2018-07-05T16:40:55Z Merged pull request |-\|/-| 1241 +2 −0 md 0|-\|/-| 
+Changelog update for bug fix-1239 |-\|/-| 2018-07-03T23:13:53Z Merged pull request |-\|/-| 1240 +1 −0 md 0|-\|/-| 
+Debug only when test manager is connected |-\|/-| 2018-07-03T22:23:29Z Merged pull request |-\|/-| 1239 +9 −3 cs 1|-\|/-| 
+Upgrade dependencies |-\|/-| 2018-07-19T14:55:03Z Merged pull request |-\|/-| 1237 +100 −113 md cake json props cs csproj config 24|-\|/-| 
+Ensure types from Scripting DLL are used before we start digging into the AppDomain |-\|/-| 2018-07-02T11:34:40Z Merged pull request |-\|/-| 1235 +14 −7 cs 5|-\|/-| 
+Fixes bug https://github.com/OmniSharp/omnisharp-roslyn/issues/1225 |-\|/-| 2018-07-11T01:55:12Z Merged pull request |-\|/-| 1234 +184 −16 json cs csproj snk sln 10|-\|/-| 
+Add preselect property to autocomplete repsonse |-\|/-| 2018-06-25T17:45:28Z Merged pull request |-\|/-| 1232 +36 −15 cs 3|-\|/-| 
+GH1229: Adds /blockstructure handler for .cake files |-\|/-| 2018-07-10T18:04:56Z Merged pull request |-\|/-| 1231 +125 −5 md cs 7|-\|/-| 
+Pin Nuget package versions using the new SDK feature |-\|/-| 2018-06-30T04:58:36Z Merged pull request |-\|/-| 1230 +181 −497 props targets sln csproj 10|-\|/-| 
+Update changelog.md for blockstructure |-\|/-| 2018-06-18T18:52:22Z Merged pull request |-\|/-| 1228 +1 −0 md 0|-\|/-| 
+Performance improvements to Cake line mappings |-\|/-| 2018-06-28T19:11:05Z Merged pull request |-\|/-| 1226 +114 −45 md cs txt 3|-\|/-| 
+Use latest az tools installation methodology |-\|/-| 2018-06-12T16:06:20Z Merged pull request |-\|/-| 1223 +4 −2 yml 1|-\|/-| 
+Fixtypo in build.cake script |-\|/-| 2018-06-10T15:33:06Z Merged pull request |-\|/-| 1221 +1 −1 cake 1|-\|/-| 
+GH1214: Add cake handler for /codestructure endpoint. |-\|/-| 2018-06-30T04:58:08Z Merged pull request |-\|/-| 1217 +322 −3 md cs 3|-\|/-| 
+Fix zero/one-based range and point models |-\|/-| 2018-06-07T06:31:36Z Merged pull request |-\|/-| 1216 +409 −14 cs 2|-\|/-| 
+Clean up V2 models and helpers |-\|/-| 2018-06-06T16:04:03Z Merged pull request |-\|/-| 1215 +408 −357 cs 19|-\|/-| 
+GH1204: Only return usages from current file if OnlyThisFile is true |-\|/-| 2018-06-18T19:40:14Z Merged pull request |-\|/-| 1213 +147 −33 md cs 4|-\|/-| 
+GH1205: Add support for code actions in Cake |-\|/-| 2018-06-06T15:06:06Z Merged pull request |-\|/-| 1212 +364 −3 md cs 6|-\|/-| 
+New /codestructure endpoint |-\|/-| 2018-06-05T00:20:20Z Merged pull request |-\|/-| 1211 +1,388 −77 yml md props cs 16|-\|/-| 
+Initialize CSX file watcher also when no CSX files are available at startup |-\|/-| 2018-06-05T18:59:31Z Merged pull request |-\|/-| 1210 +298 −175 md cs 4|-\|/-| 
+Add a /blockstructure endpoint that uses Roslyn's outlining implemention |-\|/-| 2018-06-18T15:42:01Z Merged pull request |-\|/-| 1209 +194 −1 cs 7|-\|/-| 
+Update to .NET Core 2.1 RTM |-\|/-| 2018-05-30T22:45:43Z Merged pull request |-\|/-| 1207 +5 −5 json cs 4|-\|/-| 
+Return the stdout messages to improve test logging |-\|/-| 2018-05-29T18:54:44Z Merged pull request |-\|/-| 1203 +151 −15 cs 7|-\|/-| 
+Fix diagnostics from loaded cake files shown in the current file |-\|/-| 2018-05-30T19:54:15Z Merged pull request |-\|/-| 1201 +59 −9 md cs cake config 6|-\|/-| 
+Enable latest C# features in Cake files to match runtime behavior |-\|/-| 2018-05-28T11:09:45Z Merged pull request |-\|/-| 1200 +21 −7 md cs 2|-\|/-| 
+added a note about script RSP support to a CHANGELOG.md |-\|/-| 2018-05-23T08:09:43Z Merged pull request |-\|/-| 1197 +23 −0 md 0|-\|/-| 
+Fix bug when multi-TFM project reference is outside OmniSharp's target path |-\|/-| 2018-05-21T16:56:07Z Merged pull request |-\|/-| 1195 +116 −6 json cs csproj sln 8|-\|/-| 
+Disable DotNetProjectSystem by default |-\|/-| 2018-06-05T15:20:26Z Merged pull request |-\|/-| 1194 +77 −52 md cs 16|-\|/-| 
+Added tests for CSX project system |-\|/-| 2018-05-22T09:13:59Z Merged pull request |-\|/-| 1193 +229 −1 sln cs csx csproj 11|-\|/-| 
+Remove MSBuildSDKsPath hack that blocks MSBuild SDK resolvers |-\|/-| 2018-05-21T19:20:42Z Merged pull request |-\|/-| 1192 +296 −161 json cs 14|-\|/-| 
+Fix potential null-ref in MSBuild discovery |-\|/-| 2018-05-16T11:25:17Z Merged pull request |-\|/-| 1189 +2 −1 md cs 1|-\|/-| 
+in scripting, load inherited assemblies from the current AppDomain |-\|/-| 2018-05-11T17:13:19Z Merged pull request |-\|/-| 1185 +9 −6 md cs 1|-\|/-| 
+Update to Roslyn 2.8.0 and .NET Core SDK 2.1 RC |-\|/-| 2018-05-10T17:50:00Z Merged pull request |-\|/-| 1182 +51 −41 md cake json props cs config 13|-\|/-| 
+Handle CSProj files that are not C# projects that  |-\|/-| 2018-05-10T14:35:21Z Merged pull request |-\|/-| 1181 +28 −4 cs 1|-\|/-| 
+Update release date |-\|/-| 2018-05-01T14:41:09Z Merged pull request |-\|/-| 1179 +1 −1 md 0|-\|/-| 
+Change log updates |-\|/-| 2018-04-28T06:04:24Z Merged pull request |-\|/-| 1176 +6 −0 md 0|-\|/-| 
+Master to code analysis29 |-\|/-| 2018-04-27T00:20:02Z Merged pull request |-\|/-| 1175 +196 −8 props cs 9|-\|/-| 
+Allow specifying C# 7.3 |-\|/-| 2018-04-25T22:34:22Z Merged pull request |-\|/-| 1174 +1 −0 cs 1|-\|/-| 
+Downgrade the System.Threading.Tasks.Dataflow dependency to the version actually needed by MSBuild |-\|/-| 2018-04-25T18:10:20Z Merged pull request |-\|/-| 1173 +1 −1 props 1|-\|/-| 
+Update readme for vscode "latest" option |-\|/-| 2018-05-21T17:12:11Z Merged pull request |-\|/-| 1170 +3 −0 md 0|-\|/-| 
+when fixing usings, return namespaces associated with ambiguous result |-\|/-| 2019-03-19T03:21:44Z Merged pull request |-\|/-| 1169 +52 −59 cs 2|-\|/-| 
+Report better version for VS preview consoles |-\|/-| 2018-04-18T17:26:25Z Merged pull request |-\|/-| 1166 +11 −0 cs 1|-\|/-| 
+master -> codeanalysis-2.9 |-\|/-| 2018-04-17T21:58:21Z Merged pull request |-\|/-| 1165 +4 −4 csproj 1|-\|/-| 
+Ensure that `Microsoft.Build.*` assemblies are _really_ removed by build output |-\|/-| 2018-04-17T19:26:45Z Merged pull request |-\|/-| 1164 +4 −4 csproj 1|-\|/-| 
+Roslyn 2.9 |-\|/-| 2018-04-16T20:35:56Z Merged pull request |-\|/-| 1163 +24 −22 Config props cs config 8|-\|/-| 
+Added support for excluding search paths via globbing patterns |-\|/-| 2018-04-24T20:00:57Z Merged pull request |-\|/-| 1161 +184 −7 cs 7|-\|/-| 
+Ensure that we don't subscribe the same file-watcher callback multiple times |-\|/-| 2018-04-12T21:07:22Z Merged pull request |-\|/-| 1160 +57 −14 cs 3|-\|/-| 
+Fix transient documents not disappearing on project update |-\|/-| 2019-03-18T23:59:16Z Merged pull request |-\|/-| 1159 +37 −5 cs 4|-\|/-| 
+Clean up some assets and update xUnit to 2.3.1 |-\|/-| 2018-04-11T23:36:49Z Merged pull request |-\|/-| 1158 +19 −513 cake json props cs gitattributes 6|-\|/-| 
+Set MSBuild property to allow the XAML markup compiler task to run |-\|/-| 2018-04-11T21:39:44Z Merged pull request |-\|/-| 1157 +8 −0 cs 2|-\|/-| 
+Fix subtle issue that breaks handling of discovered referenced projects |-\|/-| 2018-04-11T21:05:35Z Merged pull request |-\|/-| 1156 +58 −12 cs 5|-\|/-| 
+Further build performance improvements |-\|/-| 2018-04-11T20:17:56Z Merged pull request |-\|/-| 1155 +46 −40 yml cake json ps1 props sh csproj cs 13|-\|/-| 
+Allow defining script target framework via configuration |-\|/-| 2018-04-12T09:23:45Z Merged pull request |-\|/-| 1154 +33 −26 md cs 4|-\|/-| 
+Remove unnecessary binding redirect from tests app.config |-\|/-| 2018-04-10T19:26:39Z Merged pull request |-\|/-| 1152 +0 −4 config 1|-\|/-| 
+Log msbuild project info |-\|/-| 2018-04-10T16:24:36Z Merged pull request |-\|/-| 1151 +4 −0 csproj cs 2|-\|/-| 
+updated Dotnet.Script dependencies to version 0.6.0 |-\|/-| 2018-04-10T14:16:32Z Merged pull request |-\|/-| 1150 +3 −2 md props 1|-\|/-| 
+set DOTNET_CLI_TELEMETRY_OPTOUT in CI builds |-\|/-| 2018-04-10T13:26:45Z Merged pull request |-\|/-| 1149 +2 −0 yml 2|-\|/-| 
+Further build performance improvements |-\|/-| 2018-04-09T08:56:32Z Merged pull request |-\|/-| 1148 +5 −18 yml 2|-\|/-| 
+Improve build performance |-\|/-| 2018-04-07T01:28:27Z Merged pull request |-\|/-| 1146 +268 −222 yml sln 3|-\|/-| 
+Update OmniSharp to latest MSBuild |-\|/-| 2018-04-06T16:59:53Z Merged pull request |-\|/-| 1145 +104 −36 Config cake json props cs config 8|-\|/-| 
+Fix generate file |-\|/-| 2018-04-06T17:42:58Z Merged pull request |-\|/-| 1143 +100 −4 cake json cs csproj 8|-\|/-| 
+Script projects with no project filename on disk |-\|/-| 2018-04-05T13:45:25Z Merged pull request |-\|/-| 1142 +4 −3 cs 3|-\|/-| 
+Update mono to 5.10.1.20 |-\|/-| 2018-04-05T10:04:12Z Merged pull request |-\|/-| 1137 +17 −31 cake json cs config 5|-\|/-| 
+Fix loading of Xamarin.Android solution |-\|/-| 2018-04-09T02:27:51Z Merged pull request |-\|/-| 1134 +1 −0 cs 1|-\|/-| 
+Consume latest MSBuild in OmniSharp |-\|/-| 2018-04-05T23:15:52Z Closed pull request |-\|/-| 1133 +8 −8 props 1|-\|/-| 
+updated to Roslyn 2.7.0 |-\|/-| 2018-04-05T13:27:50Z Merged pull request |-\|/-| 1132 +20 −19 md props cs config 6|-\|/-| 
+Share a test host instance between tests that are part of the same collection in OmniSharp.Roslyn.CSharp tests |-\|/-| 2018-04-05T15:56:18Z Merged pull request |-\|/-| 1128 +364 −363 cs 6|-\|/-| 
+run SignatureHelpFacts for CSX too |-\|/-| 2018-03-05T18:46:10Z Merged pull request |-\|/-| 1124 +219 −103 0|-\|/-| 
+Write out versionInfo file |-\|/-| 2018-02-21T18:00:05Z Merged pull request |-\|/-| 1117 +3 −0 cake 1|-\|/-| 
+Create a ZIP archive on all platforms |-\|/-| 2018-02-16T21:51:42Z Merged pull request |-\|/-| 1114 +14 −10 yml cake 2|-\|/-| 
+Support RSP-based configuration for scripting project system |-\|/-| 2018-05-21T17:08:27Z Merged pull request |-\|/-| 1112 +119 −37 cs 4|-\|/-| 
+fixed changelog |-\|/-| 2018-02-14T15:57:31Z Merged pull request |-\|/-| 1109 +2 −0 md 0|-\|/-| 
+Add RenameHandler for Cake |-\|/-| 2018-05-21T17:37:27Z Merged pull request |-\|/-| 1108 +158 −2 cs 3|-\|/-| 
+Disable cake diagnostics endpoint for requests that don't specify a file |-\|/-| 2018-02-12T21:56:29Z Merged pull request |-\|/-| 1107 +85 −2 md cs 3|-\|/-| 
+A couple of tweaks to platform-sniffing code |-\|/-| 2018-02-05T22:32:59Z Merged pull request |-\|/-| 1106 +12 −5 cs 1|-\|/-| 
+Feature/script supersede lower versions |-\|/-| 2018-02-13T13:40:43Z Merged pull request |-\|/-| 1103 +8 −1 md cs 1|-\|/-| 
+Add more changes |-\|/-| 2018-01-30T17:10:13Z Merged pull request |-\|/-| 1102 +2 −0 md 0|-\|/-| 
+Fixed a scenario where legacy clients were issueing commands without … |-\|/-| 2018-02-07T07:28:50Z Merged pull request |-\|/-| 1101 +4 −0 cs 1|-\|/-| 
+Continuously push prerelease builds to Azure Storage  |-\|/-| 2018-02-16T20:01:25Z Merged pull request |-\|/-| 1100 +134 −121 editorconfig yml md cake props 6|-\|/-| 
+Update changelog for January release |-\|/-| 2018-01-29T18:40:00Z Merged pull request |-\|/-| 1099 +12 −4 md 0|-\|/-| 
+Add secure variable BLOB_KEY |-\|/-| 2018-01-25T17:01:57Z Merged pull request |-\|/-| 1097 +57 −63 yml 1|-\|/-| 
+Update storage key |-\|/-| 2018-01-25T16:42:35Z Merged pull request |-\|/-| 1096 +1 −1 yml 1|-\|/-| 
+Attempt to fix rename file same as type issue. |-\|/-| 2018-01-25T06:33:43Z Closed pull request |-\|/-| 1095 +12 −15 cs 1|-\|/-| 
+add a blank line between blocks |-\|/-| 2018-01-29T09:12:02Z Merged pull request |-\|/-| 1090 +1 −0 cs 1|-\|/-| 
+Endpoints for running and debugging all tests in a class |-\|/-| 2018-01-29T21:02:16Z Merged pull request |-\|/-| 1089 +139 −8 cs 9|-\|/-| 
+Changes for empty reponse for GoToDefinition on PropertyAccessorSymbol |-\|/-| 2018-01-29T07:44:02Z Merged pull request |-\|/-| 1086 +108 −0 cs 2|-\|/-| 
+Using StructuredDocumentation for Signature Help and appropriate documentation for Parameter symbols |-\|/-| 2018-01-29T23:32:22Z Merged pull request |-\|/-| 1085 +182 −10 cs 7|-\|/-| 
+Detect legacy ASP.NET Websites via project GUID |-\|/-| 2018-01-19T15:24:08Z Merged pull request |-\|/-| 1084 +40 −8 md cs 3|-\|/-| 
+Order code actions |-\|/-| 2018-01-10T12:10:09Z Merged pull request |-\|/-| 1078 +271 −33 cs 4|-\|/-| 
+Roslyn analyzers and code fixes |-\|/-| 2019-03-19T05:31:51Z Merged pull request |-\|/-| 1076 +1,723 −351 cs 11|-\|/-| 
+Added attribute span property for fileMemberElement |-\|/-| 2018-01-11T21:33:55Z Merged pull request |-\|/-| 1075 +23 −16 cs 2|-\|/-| 
+reuse JsonSerializer in the HTTP server |-\|/-| 2018-01-08T20:05:55Z Merged pull request |-\|/-| 1073 +14 −16 cs 5|-\|/-| 
+AssemblyLoader.Load should not throw if loading fails. |-\|/-| 2018-01-29T08:48:33Z Merged pull request |-\|/-| 1072 +2 −3 cs 1|-\|/-| 
+LSP Code Lens |-\|/-| 2019-03-17T02:56:41Z Merged pull request |-\|/-| 1071 +134 −1 cs 2|-\|/-| 
+Add ReferencesHandler |-\|/-| 2019-02-21T21:02:50Z Merged pull request |-\|/-| 1070 +70 −1 cs 2|-\|/-| 
+allow plugins to be specified by a dll file path |-\|/-| 2018-01-02T18:21:41Z Merged pull request |-\|/-| 1069 +29 −8 cs 3|-\|/-| 
+Add DocumentSymbolHandler |-\|/-| 2018-01-08T19:56:53Z Merged pull request |-\|/-| 1068 +107 −0 cs 2|-\|/-| 
+Build on ArchLinux |-\|/-| 2019-03-18T23:18:21Z Closed pull request |-\|/-| 1067 +1 −1 cake 1|-\|/-| 
+don't parse ASP.NET websites |-\|/-| 2018-01-11T21:33:25Z Merged pull request |-\|/-| 1066 +7 −1 cs 2|-\|/-| 
+Retain single leading space when appending string in TypeLookUp |-\|/-| 2018-01-09T17:45:17Z Merged pull request |-\|/-| 1064 +29 −3 cs 2|-\|/-| 
+Fix typo that breaks discovery of more than one installed Visual Studio |-\|/-| 2017-12-13T18:21:52Z Merged pull request |-\|/-| 1063 +1 −1 cs 1|-\|/-| 
+Typelookup clean up and add objects for parameters and similar symbols |-\|/-| 2017-12-14T16:21:27Z Merged pull request |-\|/-| 1062 +101 −76 cs 3|-\|/-| 
+Add storage key to travis.yml |-\|/-| 2018-02-16T20:01:27Z Merged pull request |-\|/-| 1061 +2 −6 yml 1|-\|/-| 
+Replace connection string with storage key |-\|/-| 2017-12-19T15:11:00Z Merged pull request |-\|/-| 1060 +2 −1 yml 1|-\|/-| 
+Update changelog with latest changes for 1.28 |-\|/-| 2017-12-12T18:51:16Z Merged pull request |-\|/-| 1059 +12 −0 md 0|-\|/-| 
+Update Cake.Scripting dependencies to 0.2.0 |-\|/-| 2017-12-13T14:51:17Z Merged pull request |-\|/-| 1057 +3 −2 md props config 2|-\|/-| 
+ Watch .csx files in order to add/remove script projects to workspace. |-\|/-| 2017-12-13T14:48:10Z Merged pull request |-\|/-| 1056 +77 −37 md cs 1|-\|/-| 
+Roslyn 2.6.0 + C# 7.2 |-\|/-| 2017-12-21T14:25:35Z Merged pull request |-\|/-| 1055 +42 −19 md props cs config 9|-\|/-| 
+ Watch .cake files and add/remove files in workspace. |-\|/-| 2017-12-13T07:19:24Z Merged pull request |-\|/-| 1054 +109 −32 md cs 2|-\|/-| 
+Support watching file extensions. |-\|/-| 2017-12-12T15:41:29Z Merged pull request |-\|/-| 1053 +29 −5 cs 3|-\|/-| 
+Signature Help for Local Functions  |-\|/-| 2017-12-12T15:39:37Z Merged pull request |-\|/-| 1052 +24 −0 cs 1|-\|/-| 
+Add blob connection info to travis |-\|/-| 2017-12-11T16:58:44Z Merged pull request |-\|/-| 1051 +5 −0 yml enc 2|-\|/-| 
+Add GitVersion |-\|/-| 2017-12-21T02:09:45Z Merged pull request |-\|/-| 1050 +226 −110 yml 3|-\|/-| 
+Add encrypted connection string for blob storage |-\|/-| 2017-12-08T19:04:33Z Merged pull request |-\|/-| 1049 +3 −0 yml 1|-\|/-| 
+Feature/improve bakery resolver |-\|/-| 2017-12-12T08:31:33Z Merged pull request |-\|/-| 1047 +75 −27 cs 5|-\|/-| 
+Check if file exist before trying to create MetadataReference. |-\|/-| 2017-12-11T21:38:48Z Merged pull request |-\|/-| 1045 +35 −13 cs 3|-\|/-| 
+Don't lock Cake host object assembly. |-\|/-| 2017-12-12T09:25:22Z Merged pull request |-\|/-| 1044 +34 −12 cs 3|-\|/-| 
+Format range |-\|/-| 2017-12-11T17:05:45Z Merged pull request |-\|/-| 1043 +150 −1 cs 2|-\|/-| 
+pretty print JSON when logging requests/responses in STDIO server |-\|/-| 2017-12-04T22:34:36Z Merged pull request |-\|/-| 1040 +13 −2 cs 1|-\|/-| 
+TypeLookUp Structured Documentation Feature to be used by VS Code |-\|/-| 2017-12-08T17:57:22Z Merged pull request |-\|/-| 1038 +559 −1 cs 4|-\|/-| 
+Ensure that we don't load multiple compilation assemby versions |-\|/-| 2017-11-30T16:57:03Z Merged pull request |-\|/-| 1037 +7 −2 cs 1|-\|/-| 
+Align OmniSharp.Script with Dotnet.Script.DependencyModel 0.3.0 |-\|/-| 2017-11-29T07:13:09Z Merged pull request |-\|/-| 1035 +19 −8 props cs 2|-\|/-| 
+Return a diagnostic's Id from /codecheck calls |-\|/-| 2017-11-29T00:24:19Z Merged pull request |-\|/-| 1034 +3 −1 cs 2|-\|/-| 
+Fix a regression causing netcore projects to fail to load |-\|/-| 2017-11-27T07:17:01Z Merged pull request |-\|/-| 1033 +1 −1 cs 1|-\|/-| 
+Select first VS2017 instance with the required Roslyn compilers component |-\|/-| 2017-11-27T23:27:28Z Merged pull request |-\|/-| 1032 +5 −3 cs 1|-\|/-| 
+Intellisense not showing methods from the Base class in Signature Help |-\|/-| 2017-12-08T15:48:34Z Merged pull request |-\|/-| 1030 +489 −56 props cs 4|-\|/-| 
+Load XML docs when using #r directives in scripting |-\|/-| 2017-11-13T23:22:47Z Merged pull request |-\|/-| 1027 +76 −11 md cs dll xml 4|-\|/-| 
+Replace 4 identical suppressed diagnostics dictionaries with a shared helper |-\|/-| 2017-11-13T22:09:27Z Merged pull request |-\|/-| 1025 +49 −60 cs 5|-\|/-| 
+Support rename/openDocument operations from CodeActions |-\|/-| 2017-11-15T23:35:03Z Merged pull request |-\|/-| 1023 +318 −19 json cs csproj 13|-\|/-| 
+Port #1021 to master |-\|/-| 2017-11-10T19:07:34Z Merged pull request |-\|/-| 1022 +113 −15 cs 4|-\|/-| 
+Add back code that sets MSBuildSDKsPath environment variable for each project |-\|/-| 2017-11-10T18:42:00Z Merged pull request |-\|/-| 1021 +128 −41 cs 4|-\|/-| 
+Build: Wait for run scripts to idle rather than terminate them after a timeout |-\|/-| 2017-11-12T10:11:55Z Merged pull request |-\|/-| 1020 +49 −26 cake 2|-\|/-| 
+VS Code Issue 1057 - Problem with Newlines in displaying XML Documentation |-\|/-| 2017-11-10T21:23:46Z Closed pull request |-\|/-| 1019 +43 −2 cs 2|-\|/-| 
+Port fixes for 1.26.2 |-\|/-| 2017-11-10T05:33:29Z Merged pull request |-\|/-| 1018 +277 −20 md cs 5|-\|/-| 
+Load MSBuild assemblies up front |-\|/-| 2017-11-10T04:37:17Z Merged pull request |-\|/-| 1017 +21 −10 cs 1|-\|/-| 
+Fix 1.26.1 bugs |-\|/-| 2017-11-10T00:35:50Z Merged pull request |-\|/-| 1016 +277 −20 md cs 5|-\|/-| 
+Use --zero-based-indices argument in Stdio and Http hosts |-\|/-| 2017-11-09T23:42:32Z Merged pull request |-\|/-| 1015 +6 −1 cs 3|-\|/-| 
+use MetadataReferenceEqualityComparer in scripting |-\|/-| 2017-11-10T04:38:40Z Merged pull request |-\|/-| 1012 +2 −1 cs 1|-\|/-| 
+Omnisharp VS Code Issue 1814 Fix |-\|/-| 2017-11-09T21:14:58Z Merged pull request |-\|/-| 1007 +151 −30 cs 3|-\|/-| 
+Fix issue with C# projects referencing F# projects |-\|/-| 2017-11-04T18:34:37Z Merged pull request |-\|/-| 1005 +146 −9 json cs sln csproj fs fsproj 10|-\|/-| 
+Reload and update MSBuild projects in response to dotnet restore |-\|/-| 2017-11-06T22:12:45Z Merged pull request |-\|/-| 1003 +1,480 −1,131 cs 10|-\|/-| 
+Fix design-time build for Antlr-generated files |-\|/-| 2017-10-31T00:51:51Z Merged pull request |-\|/-| 1002 +96 −11 cake json cs g4 csproj 11|-\|/-| 
+disable VisualStudioInstanceProvider on mono |-\|/-| 2017-10-30T18:22:24Z Merged pull request |-\|/-| 1001 +1 −1 cs 1|-\|/-| 
+Updated to Roslyn 2.4.0 |-\|/-| 2017-10-27T10:51:17Z Merged pull request |-\|/-| 998 +18 −18 props cs config 5|-\|/-| 
+Adds RenameHandler |-\|/-| 2017-11-07T19:21:34Z Merged pull request |-\|/-| 997 +91 −0 cs 2|-\|/-| 
+Remove dev branch from README |-\|/-| 2017-10-26T18:24:13Z Merged pull request |-\|/-| 992 +2 −4 md 0|-\|/-| 
+Force LF EOL for sh scripts |-\|/-| 2017-10-26T16:08:34Z Merged pull request |-\|/-| 991 +2 −0 gitattributes 1|-\|/-| 
+Consider subset match valid for symbol lookups and completions |-\|/-| 2017-10-26T12:54:53Z Merged pull request |-\|/-| 990 +50 −1 cs 3|-\|/-| 
+Re-architect how MSBuild is loaded by OmniSharp |-\|/-| 2017-10-27T18:03:30Z Merged pull request |-\|/-| 988 +903 −545 cake props cs csproj 11|-\|/-| 
+Listen for file renames |-\|/-| 2017-10-27T07:27:53Z Merged pull request |-\|/-| 987 +150 −153 changeType cs 11|-\|/-| 
+Adds SignatureHelpHandler |-\|/-| 2017-10-25T14:28:13Z Merged pull request |-\|/-| 986 +92 −1 cs 2|-\|/-| 
+Add any installed SDKs to PATH |-\|/-| 2017-10-19T04:25:32Z Merged pull request |-\|/-| 985 +6 −0 cake 1|-\|/-| 
+Pin Mono version to 5.2.0 in attempt to fix Travis |-\|/-| 2017-10-18T17:00:26Z Merged pull request |-\|/-| 983 +1 −1 yml 1|-\|/-| 
+Fix build on CentOS 7 |-\|/-| 2017-10-18T20:15:16Z Merged pull request |-\|/-| 982 +10 −5 md cake 2|-\|/-| 
+Added support for csproj-based scripts |-\|/-| 2017-10-13T12:26:59Z Merged pull request |-\|/-| 980 +72 −82 props csproj cs config 5|-\|/-| 
+Pin .NET Core SDK and fix Travis OSX build |-\|/-| 2017-10-10T01:51:31Z Merged pull request |-\|/-| 978 +24 −3 yml cake json 3|-\|/-| 
+Adds CompletionHandler. |-\|/-| 2017-10-10T13:56:55Z Merged pull request |-\|/-| 977 +145 −0 cs 2|-\|/-| 
+Fix macOS High Sierra build by moving to a new .NET Core SDK and disabling legacy tests |-\|/-| 2017-10-09T19:40:40Z Merged pull request |-\|/-| 976 +12,826 −430 yml sln cake 3|-\|/-| 
+Trigger completion on space if object creation completion is available |-\|/-| 2017-10-05T13:17:00Z Merged pull request |-\|/-| 975 +53 −3 cs 5|-\|/-| 
+Use MSBuild SDK Resolvers |-\|/-| 2017-10-04T21:38:10Z Merged pull request |-\|/-| 974 +183 −115 Config cake json cs 7|-\|/-| 
+Update to latest xUnit and fix up tests affected by analyzers |-\|/-| 2017-10-02T17:07:33Z Merged pull request |-\|/-| 972 +53 −54 Config props cs 15|-\|/-| 
+Added UseUrls method |-\|/-| 2017-10-02T17:59:52Z Merged pull request |-\|/-| 971 +1 −0 cs 1|-\|/-| 
+[Alpha] Language Server Protocol |-\|/-| 2018-01-09T17:44:17Z Merged pull request |-\|/-| 969 +1,618 −66 sln cs 8|-\|/-| 
+Use latest Mono rather than beta in Travis |-\|/-| 2017-09-23T13:07:01Z Merged pull request |-\|/-| 967 +1 −1 yml 1|-\|/-| 
+Fix typo in ProjectFileInfo that caused the sign key file not to propagate to the OmniSharpWorkspace |-\|/-| 2017-09-19T12:23:37Z Merged pull request |-\|/-| 964 +2 −1 md cs 1|-\|/-| 
+fixed LanguageVersion assignment |-\|/-| 2017-09-18T21:05:01Z Merged pull request |-\|/-| 962 +8 −1 md cs csproj 3|-\|/-| 
+Restore request/response logging in STDIO |-\|/-| 2017-09-16T15:58:48Z Merged pull request |-\|/-| 960 +102 −80 cs 5|-\|/-| 
+A couple of tweaks following the 'drop-kestrel' PR merge |-\|/-| 2017-09-15T13:16:25Z Merged pull request |-\|/-| 959 +136 −116 json ps1 cs 9|-\|/-| 
+Refactor package references, shared project properties, and build output |-\|/-| 2017-09-12T20:20:27Z Merged pull request |-\|/-| 954 +174 −110 props sln cake csproj 14|-\|/-| 
+Do not throw NullReferenceException when trying to "go to definition" on a namespace |-\|/-| 2017-08-29T18:56:58Z Merged pull request |-\|/-| 949 +12 −2 md cs 2|-\|/-| 
+A couple of fixes to test support |-\|/-| 2017-08-20T22:22:21Z Merged pull request |-\|/-| 945 +87 −36 md cs csproj 12|-\|/-| 
+Don't crash when encountering external code action DLL with missing dependencies  |-\|/-| 2017-08-18T05:38:35Z Merged pull request |-\|/-| 941 +28 −7 md cs 4|-\|/-| 
+Adds LoadFrom to IAssemblyLoader |-\|/-| 2017-08-17T02:15:49Z Merged pull request |-\|/-| 940 +6 −2 cs 2|-\|/-| 
+Ensure that CscToolExe is set to 'csc.exe' |-\|/-| 2017-08-14T16:46:52Z Merged pull request |-\|/-| 939 +34 −5 md cs 4|-\|/-| 
+Changelog updates for 1.23.1 release |-\|/-| 2017-08-08T20:40:33Z Merged pull request |-\|/-| 938 +7 −0 md 0|-\|/-| 
+Msbuild project fixes |-\|/-| 2017-08-08T20:39:32Z Merged pull request |-\|/-| 937 +135 −23 cs 4|-\|/-| 
+C# 7.1 |-\|/-| 2017-08-08T14:54:53Z Merged pull request |-\|/-| 935 +18 −1 cs 3|-\|/-| 
+Update changelog and README |-\|/-| 2017-08-07T22:24:17Z Merged pull request |-\|/-| 933 +25 −2 md 0|-\|/-| 
+Cake support |-\|/-| 2017-10-25T06:16:44Z Merged pull request |-\|/-| 932 +19,163 −3 gitignore sln cake json props cs 10|-\|/-| 
+added System.Composition binding redirects to omnisharp.exe |-\|/-| 2017-08-02T12:22:57Z Merged pull request |-\|/-| 931 +17 −1 config 1|-\|/-| 
+Update to latest 2.3.1 Roslyn packages |-\|/-| 2017-08-02T05:04:37Z Merged pull request |-\|/-| 930 +17 −59 csproj config 21|-\|/-| 
+Fail gracefully if Mono lib dir is null |-\|/-| 2017-08-01T13:57:01Z Merged pull request |-\|/-| 929 +12 −0 cs 1|-\|/-| 
+Several updates to build |-\|/-| 2017-07-24T17:41:45Z Merged pull request |-\|/-| 924 +357 −198 yml md cake json sh targets 6|-\|/-| 
+Add logic to set MSBuildExtensionsPath to Mono's xbuild directory |-\|/-| 2017-07-26T14:48:23Z Merged pull request |-\|/-| 923 +283 −76 cake json cs 3|-\|/-| 
+Fix Mono path detection to actually find Mono on the path before calling real_path |-\|/-| 2017-07-20T18:35:07Z Merged pull request |-\|/-| 920 +48 −14 cs 1|-\|/-| 
+Fix solution parsing (again!) |-\|/-| 2017-07-19T16:09:38Z Merged pull request |-\|/-| 918 +724 −4 cs 8|-\|/-| 
+Update xUnit to fix test runner in VS 2017 |-\|/-| 2017-07-19T07:39:57Z Merged pull request |-\|/-| 917 +58 −36 Config csproj cs config 19|-\|/-| 
+Fix typo in help output |-\|/-| 2017-07-15T04:35:16Z Merged pull request |-\|/-| 916 +1 −1 cs 1|-\|/-| 
+Move OmniSharp to target net46 only |-\|/-| 2017-08-07T20:44:43Z Merged pull request |-\|/-| 915 +416 −587 gitignore yml md 3|-\|/-| 
+Set DOTNET_CLI_UI_LANGUAGE environment variable to 'en-US' when calling 'dotnet --info' |-\|/-| 2017-07-14T18:52:10Z Merged pull request |-\|/-| 914 +35 −21 cs 1|-\|/-| 
+regression fix - revert cd7b3c369b7c77540aee5d8eec7924a8c59d414d |-\|/-| 2017-07-14T17:56:09Z Merged pull request |-\|/-| 913 +16 −6 md cs 1|-\|/-| 
+Clean up build log |-\|/-| 2017-07-14T07:59:57Z Merged pull request |-\|/-| 912 +253 −175 cake 1|-\|/-| 
+Use p/invoke rather than ugly bash commands to locate Mono on Unix |-\|/-| 2017-07-14T10:06:05Z Merged pull request |-\|/-| 911 +32 −99 cs 1|-\|/-| 
+Added changelog |-\|/-| 2017-07-10T14:40:41Z Merged pull request |-\|/-| 908 +115 −1 md 0|-\|/-| 
+MSBuild Update |-\|/-| 2017-07-06T17:54:19Z Merged pull request |-\|/-| 907 +342 −146 gitignore cake json sh cs csproj config xsd 20|-\|/-| 
+Merge dev into master |-\|/-| 2017-07-05T19:49:13Z Merged pull request |-\|/-| 906 +16,289 −9,310 gitignore yml json md MAINTAINERS Config 5|-\|/-| 
+Change WarningsAsErrors => TreatWarningsAsErrors |-\|/-| 2017-07-06T14:57:05Z Merged pull request |-\|/-| 905 +25 −24 csproj cs 20|-\|/-| 
+added support for disabling any project system via configuration |-\|/-| 2017-07-04T13:35:29Z Merged pull request |-\|/-| 902 +86 −60 cs 4|-\|/-| 
+updated binding redirects to Roslyn 2.3.0 |-\|/-| 2017-06-30T13:37:41Z Merged pull request |-\|/-| 901 +6 −6 config 2|-\|/-| 
+Update Roslyn dependency to 2.3.0-beta2 |-\|/-| 2017-06-29T19:06:59Z Merged pull request |-\|/-| 900 +30 −19 cs csproj 9|-\|/-| 
+Rework code action service |-\|/-| 2017-06-28T20:27:40Z Merged pull request |-\|/-| 899 +121 −107 cs 10|-\|/-| 
+Improved the logic of adding default assembly references for Desktop CLR CSX scripts |-\|/-| 2017-07-07T09:10:57Z Merged pull request |-\|/-| 898 +43 −25 cs 1|-\|/-| 
+Move (back) over to MSBuild solution parsing API |-\|/-| 2017-06-27T15:53:46Z Merged pull request |-\|/-| 897 +311 −519 json cs 8|-\|/-| 
+Minor typo in ProjectFileInfo logging message |-\|/-| 2017-07-05T20:14:25Z Closed pull request |-\|/-| 894 +1 −1 cs 1|-\|/-| 
+Added test for loading external code actions |-\|/-| 2017-06-07T16:25:02Z Merged pull request |-\|/-| 887 +39 −8 dll cs 5|-\|/-| 
+Move back to NuGet 4.0.0 RTM packages |-\|/-| 2017-06-06T22:50:22Z Merged pull request |-\|/-| 885 +9 −9 csproj config 3|-\|/-| 
+Support go to definition from metadata source |-\|/-| 2017-06-12T15:13:05Z Merged pull request |-\|/-| 883 +155 −43 cs 8|-\|/-| 
+Add IsSuggestionMode to AutoCompleteResponse for determining when the completion list should commit aggressively |-\|/-| 2017-06-02T15:05:46Z Merged pull request |-\|/-| 882 +117 −15 cs 3|-\|/-| 
+Harden DotNetInfo a bit to handle situations when 'dotnet' doesn't launch properly or return data |-\|/-| 2017-05-31T22:06:58Z Merged pull request |-\|/-| 879 +24 −1 cs 2|-\|/-| 
+Report and exit if installation of SDK fails |-\|/-| 2017-05-30T21:29:59Z Merged pull request |-\|/-| 877 +1 −1 cake 1|-\|/-| 
+Ensure that the MSBuild project system adds projects with the .csproj extension, even if they have a different GUID |-\|/-| 2017-05-25T20:14:50Z Merged pull request |-\|/-| 873 +2 −1 cs 1|-\|/-| 
+Prefix OmniSharp-specific configuration environment variables with "OMNISHARP_" |-\|/-| 2017-05-25T15:36:16Z Merged pull request |-\|/-| 872 +1 −1 cs 1|-\|/-| 
+Added a note about debugging against VS Code |-\|/-| 2017-05-25T13:45:29Z Merged pull request |-\|/-| 871 +10 −0 md 0|-\|/-| 
+Use SymbolFinder.FindDerivedClassesAsync inside "find implementations" endpoint |-\|/-| 2017-05-25T16:41:45Z Merged pull request |-\|/-| 870 +119 −77 cs 6|-\|/-| 
+Don't set completion text to full signature unless its override or partial method completion |-\|/-| 2017-05-19T00:22:18Z Merged pull request |-\|/-| 868 +93 −34 cs 3|-\|/-| 
+Update to latest MSBuild, NuGet and Roslyn packages |-\|/-| 2017-05-18T22:26:55Z Merged pull request |-\|/-| 867 +35 −35 json cs csproj config 14|-\|/-| 
+Error handling when loading assemblies from an external folder |-\|/-| 2017-05-25T18:26:00Z Merged pull request |-\|/-| 866 +16 −7 cs 1|-\|/-| 
+Updated github api key to allow travis to publish releases |-\|/-| 2017-05-18T04:15:14Z Merged pull request |-\|/-| 864 +1 −1 yml 1|-\|/-| 
+Clean up unresolved dependencies check |-\|/-| 2017-05-17T16:21:39Z Merged pull request |-\|/-| 862 +153 −114 cs 4|-\|/-| 
+NuGet package identities should be compared case-insensitively |-\|/-| 2017-05-17T01:25:24Z Merged pull request |-\|/-| 861 +1 −1 cs 1|-\|/-| 
+Expose MsBuild Configuration and Platform setting |-\|/-| 2017-05-15T16:39:27Z Merged pull request |-\|/-| 858 +16 −0 cs 3|-\|/-| 
+Fix Path.Combine exception in MSBuildProjectSystem.GetSdksPath |-\|/-| 2017-05-17T10:06:59Z Merged pull request |-\|/-| 857 +1 −1 cs 1|-\|/-| 
+Support to run MSTest based tests. |-\|/-| 2017-05-16T17:50:05Z Merged pull request |-\|/-| 856 +226 −4 json cs Config csproj 15|-\|/-| 
+Drop Kestrel as default server |-\|/-| 2017-09-12T14:39:14Z Merged pull request |-\|/-| 854 +1,885 −1,245 yml json sln cake 5|-\|/-| 
+Update cake to latest version and small cleanup to the cake script on… |-\|/-| 2017-05-07T14:17:02Z Merged pull request |-\|/-| 851 +18 −39 yml cake ps1 config 5|-\|/-| 
+convert GetHashCode to expression bodied member |-\|/-| 2017-06-10T15:10:17Z Merged pull request |-\|/-| 850 +2 −4 cs 1|-\|/-| 
+Added an option to configure a code actions folder |-\|/-| 2017-05-17T19:20:42Z Merged pull request |-\|/-| 848 +147 −9 cs config 8|-\|/-| 
+Stop deploying SDKs with OmniSharp |-\|/-| 2017-05-04T13:23:39Z Merged pull request |-\|/-| 847 +242 −140 cake cs 6|-\|/-| 
+replaced `InteractiveScriptGlobals` with `CommandLineScriptGlobals ` as CSX host object type |-\|/-| 2017-05-04T17:49:32Z Merged pull request |-\|/-| 846 +97 −82 cs csproj 6|-\|/-| 
+Fix solution parsing for Unity solutions with multiple projects |-\|/-| 2017-05-01T23:08:37Z Merged pull request |-\|/-| 844 +514 −6 cs 7|-\|/-| 
+removed suppressing CS1024 in scripts |-\|/-| 2017-05-03T21:22:58Z Merged pull request |-\|/-| 843 +0 −7 cs 1|-\|/-| 
+Use CompletionService in IntellisenseService |-\|/-| 2017-05-03T17:30:37Z Merged pull request |-\|/-| 840 +201 −42 cs 3|-\|/-| 
+When finding partial methods, pick the one with body  |-\|/-| 2017-04-29T13:32:07Z Merged pull request |-\|/-| 838 +75 −4 cs 4|-\|/-| 
+Add back code to handle project paths within a solultion file correctly |-\|/-| 2017-04-28T01:16:34Z Merged pull request |-\|/-| 837 +9 −4 cs 1|-\|/-| 
+Increase the timeout specified when running published bits during build |-\|/-| 2017-04-27T23:09:21Z Merged pull request |-\|/-| 836 +1 −1 cake 1|-\|/-| 
+Build script work |-\|/-| 2017-04-27T19:29:58Z Merged pull request |-\|/-| 835 +21 −17 cake csproj 3|-\|/-| 
+Get NUnit test running/debugging working |-\|/-| 2017-04-27T20:53:22Z Merged pull request |-\|/-| 834 +30 −18 cs csproj config 5|-\|/-| 
+Fix dotnet test bugs |-\|/-| 2017-04-27T12:53:18Z Merged pull request |-\|/-| 833 +118 −37 cs 10|-\|/-| 
+Big refactoring of MSBuild project system |-\|/-| 2017-04-27T06:08:22Z Merged pull request |-\|/-| 832 +483 −1,039 cs 5|-\|/-| 
+Enable lots of tests to run for CSX |-\|/-| 2017-04-28T13:54:12Z Merged pull request |-\|/-| 831 +235 −138 cs 4|-\|/-| 
+Further clean up |-\|/-| 2017-04-21T14:46:32Z Merged pull request |-\|/-| 830 +257 −235 cs csproj 36|-\|/-| 
+Fixed GoToMetadata in CSX |-\|/-| 2017-04-21T15:58:04Z Merged pull request |-\|/-| 829 +43 −19 cs csproj 5|-\|/-| 
+In MSBuildProjectSystem, add NoWarn values that do not parse as ushorts |-\|/-| 2017-04-18T14:11:30Z Merged pull request |-\|/-| 827 +6 −4 cs 1|-\|/-| 
+Get organized |-\|/-| 2017-04-18T02:11:10Z Merged pull request |-\|/-| 825 +427 −456 cs 47|-\|/-| 
+Update 'dotnet test' support |-\|/-| 2017-04-17T22:10:44Z Merged pull request |-\|/-| 824 +268 −155 cmd cs 17|-\|/-| 
+Clean up vstest protocol again and simplify debug session |-\|/-| 2017-04-11T06:31:32Z Merged pull request |-\|/-| 821 +126 −124 cs 15|-\|/-| 
+Add build script for windows for running outside of PowerShell |-\|/-| 2017-04-10T21:08:44Z Merged pull request |-\|/-| 820 +2 −0 cmd 1|-\|/-| 
+Clean up MSBuild environment initialization and allow it to use Visual Studio 2017 if it's present |-\|/-| 2017-04-09T01:11:36Z Merged pull request |-\|/-| 818 +260 −94 cs 7|-\|/-| 
+More improvements for 'dotnet test' support |-\|/-| 2017-04-06T20:05:06Z Merged pull request |-\|/-| 816 +594 −168 json cs csproj 15|-\|/-| 
+Ensure that MSBuildProjectSystem doesn't add project references twice |-\|/-| 2017-04-06T13:25:18Z Merged pull request |-\|/-| 815 +8 −2 cs 1|-\|/-| 
+Handle package reference version ranges in .csproj files |-\|/-| 2017-04-06T12:20:31Z Merged pull request |-\|/-| 814 +49 −38 cs 4|-\|/-| 
+Added support for referencing NuGet packages in C# scripts |-\|/-| 2017-06-15T20:48:57Z Merged pull request |-\|/-| 813 +119 −38 Config cs csproj json 7|-\|/-| 
+Add PhysicalFileProvider.WrapForPolling() extension method to avoid using FileSystemWatcher |-\|/-| 2017-04-04T13:01:27Z Merged pull request |-\|/-| 812 +362 −57 csproj cs 10|-\|/-| 
+Added support for a global omnisharp.json |-\|/-| 2017-03-31T13:02:40Z Merged pull request |-\|/-| 809 +63 −3 cs 6|-\|/-| 
+.NET Core RTM 'dotnet test' support |-\|/-| 2017-03-31T02:03:58Z Merged pull request |-\|/-| 808 +1,499 −445 cake json cs csproj 8|-\|/-| 
+Add retry logic for test clean up |-\|/-| 2017-03-29T01:51:15Z Merged pull request |-\|/-| 807 +15 −1 cs 1|-\|/-| 
+Watch for changes in omnisharp.json |-\|/-| 2017-03-26T18:13:39Z Merged pull request |-\|/-| 804 +34 −27 cs 5|-\|/-| 
+Add first actual unit test for legacy 'dotnet test' support |-\|/-| 2017-03-26T09:08:25Z Merged pull request |-\|/-| 803 +236 −122 json cs csproj 10|-\|/-| 
+Improve build |-\|/-| 2017-03-22T22:56:28Z Merged pull request |-\|/-| 802 +117 −67 yml Config cake 5|-\|/-| 
+Re-work test infrastructure |-\|/-| 2017-03-21T23:27:29Z Merged pull request |-\|/-| 800 +2,271 −1,956 cs 19|-\|/-| 
+prevent spamming logs from ScriptProjectSystem on project model requests |-\|/-| 2017-03-22T23:31:03Z Merged pull request |-\|/-| 798 +9 −3 cs 1|-\|/-| 
+Fix null reference in DotNetProjectSystem when project reference is invalid |-\|/-| 2017-03-14T07:37:37Z Merged pull request |-\|/-| 797 +10 −3 cs 1|-\|/-| 
+Try installing Mono via apt-get and Homebrew |-\|/-| 2017-03-14T00:58:58Z Closed pull request |-\|/-| 796 +6 −4 yml 1|-\|/-| 
+cache ScriptMetadataResolver results |-\|/-| 2017-03-10T15:54:10Z Merged pull request |-\|/-| 794 +60 −1 cs 2|-\|/-| 
+docs(build): add missing mono-mdk prerequisite for macos (#792) |-\|/-| 2017-03-10T14:06:03Z Merged pull request |-\|/-| 793 +1 −0 md 0|-\|/-| 
+Update Roslyn, NuGet and MEF packages |-\|/-| 2017-03-10T07:57:06Z Merged pull request |-\|/-| 791 +59 −41 sln csproj config 18|-\|/-| 
+Script code check improvements |-\|/-| 2017-03-10T17:16:18Z Merged pull request |-\|/-| 790 +9 −8 cs 2|-\|/-| 
+Move off of project.json onto .csproj |-\|/-| 2017-03-08T22:35:33Z Merged pull request |-\|/-| 789 +1,430 −1,670 gitignore yml md Config 3|-\|/-| 
+Update BUILD.md and README.md instructions for csproj |-\|/-| 2017-03-08T16:28:49Z Merged pull request |-\|/-| 788 +40 −17 md 0|-\|/-| 
+Merge dev into migrate-to-csproj |-\|/-| 2017-03-08T13:52:29Z Merged pull request |-\|/-| 787 +22 −4 cs 1|-\|/-| 
+use IgnoreCorLibraryDuplicatedTypes binder flag in scripts |-\|/-| 2017-03-01T07:55:50Z Merged pull request |-\|/-| 785 +21 −4 cs 1|-\|/-| 
+Renamed documents should be removed from the workspace and not cached |-\|/-| 2017-11-07T16:18:28Z Closed pull request |-\|/-| 783 +35 −1 cs 1|-\|/-| 
+Merge latest changes from my migrate-to-csproj fork |-\|/-| 2017-03-08T01:43:13Z Merged pull request |-\|/-| 782 +822 −786 gitignore yml md sln 4|-\|/-| 
+allow unsafe in C# scripts |-\|/-| 2017-02-22T07:05:54Z Merged pull request |-\|/-| 781 +1 −0 cs 1|-\|/-| 
+Find all Todo's and add as quick fixes (to problems tray) |-\|/-| 2019-03-18T23:12:48Z Closed pull request |-\|/-| 780 +28 −0 cs 1|-\|/-| 
+Merge latest dev branch changes into 'migrate-to-csproj' |-\|/-| 2017-02-15T13:58:17Z Merged pull request |-\|/-| 777 +2,235 −2,673 md yml xproj json 14|-\|/-| 
+Fix test discovery in VS 2015 by swapping the TFMs |-\|/-| 2017-02-14T01:25:29Z Merged pull request |-\|/-| 775 +30 −30 json 6|-\|/-| 
+Move slack integration to `integrations` |-\|/-| 2017-02-13T17:28:12Z Merged pull request |-\|/-| 774 +1 −1 yml 1|-\|/-| 
+Fix the build to use updated binary name from xunit.runner.console package |-\|/-| 2017-02-13T03:48:18Z Merged pull request |-\|/-| 772 +1 −1 cake 1|-\|/-| 
+Correctly set formatting options on the workspace |-\|/-| 2017-02-13T14:48:41Z Merged pull request |-\|/-| 770 +179 −124 cs 7|-\|/-| 
+Update to newer Mono MSBuild |-\|/-| 2017-02-11T18:19:46Z Merged pull request |-\|/-| 766 +2 −2 json 1|-\|/-| 
+use DesktopAssemblyIdentityComparer.Default for scripts |-\|/-| 2017-02-11T17:28:26Z Merged pull request |-\|/-| 764 +2 −1 cs 1|-\|/-| 
+Make sure we specify an AssemblyIdentityCompare in project.json project system |-\|/-| 2017-02-11T13:21:34Z Merged pull request |-\|/-| 763 +1 −0 cs 1|-\|/-| 
+Further improvements to CSX support |-\|/-| 2017-02-09T15:01:20Z Merged pull request |-\|/-| 760 +128 −233 cs 6|-\|/-| 
+When detecting Mono location, run shell commands specifically on bash |-\|/-| 2017-02-06T18:26:21Z Merged pull request |-\|/-| 756 +8 −3 cs 1|-\|/-| 
+Only show the remove unnecessary usings code fix for the appropriate diagnostic |-\|/-| 2017-02-05T23:55:21Z Merged pull request |-\|/-| 754 +10 −2 cs 1|-\|/-| 
+Handle nested code actions |-\|/-| 2017-02-05T23:22:55Z Merged pull request |-\|/-| 753 +132 −41 cs 6|-\|/-| 
+Clean up code action service and rationalize how we disallow certain Roslyn code actions |-\|/-| 2017-02-05T21:32:26Z Merged pull request |-\|/-| 752 +311 −348 cs 4|-\|/-| 
+Fix code actions that add files to the workspace |-\|/-| 2017-02-05T20:01:01Z Merged pull request |-\|/-| 751 +110 −86 cs 3|-\|/-| 
+Added Microsoft.Extensions.CommandLineUtils |-\|/-| 2017-02-05T18:13:17Z Merged pull request |-\|/-| 750 +155 −153 cs 4|-\|/-| 
+Fix issue with file reference not being added for wrapped assemblies |-\|/-| 2017-02-04T10:31:31Z Merged pull request |-\|/-| 749 +11 −1 cs 1|-\|/-| 
+use OmnisharpTextLoader for CSX |-\|/-| 2017-02-04T04:40:29Z Merged pull request |-\|/-| 748 +3 −16 cs 2|-\|/-| 
+Implement package auto-restore for .csproj projects |-\|/-| 2017-02-04T01:40:49Z Merged pull request |-\|/-| 747 +254 −73 cs TMP 7|-\|/-| 
+Preparing for package auto-restore for MSBuild projects |-\|/-| 2017-02-03T13:04:04Z Merged pull request |-\|/-| 746 +616 −509 cs 14|-\|/-| 
+Heroku slack inviter... |-\|/-| 2017-02-02T06:40:56Z Merged pull request |-\|/-| 745 +1 −1 md 0|-\|/-| 
+loglevel should be a "--" argument |-\|/-| 2017-02-01T21:48:39Z Merged pull request |-\|/-| 743 +1 −1 cs 1|-\|/-| 
+Support project type GUID added when the .NET CLI manipulates an SLN file |-\|/-| 2017-01-31T02:03:42Z Merged pull request |-\|/-| 741 +3 −3 cs 1|-\|/-| 
+Fix running unit tests defined in nested classes |-\|/-| 2017-01-30T23:16:10Z Merged pull request |-\|/-| 739 +79 −7 cs 2|-\|/-| 
+Update to VS 2017 RC .NET Core SDK packages |-\|/-| 2017-01-30T21:09:22Z Merged pull request |-\|/-| 738 +170 −74 cake targets config cs 9|-\|/-| 
+Clean up logging somewhat |-\|/-| 2017-01-28T19:28:48Z Merged pull request |-\|/-| 737 +212 −177 cs 5|-\|/-| 
+Clean up logging somewhat |-\|/-| 2017-01-27T21:14:06Z Closed pull request |-\|/-| 736 +203 −177 cs 5|-\|/-| 
+Use Application.BaseDirectory when searching for OmniSharp.sln in MSBuildEnvironment |-\|/-| 2017-01-27T19:49:27Z Merged pull request |-\|/-| 735 +5 −3 cs 1|-\|/-| 
+Respect "nowarn" setting in dotnet project system |-\|/-| 2017-01-27T21:56:14Z Merged pull request |-\|/-| 734 +19 −7 cs 1|-\|/-| 
+Correct readme to mention netcoreapp1.1 rather than netcoreapp1.0 |-\|/-| 2017-01-24T17:25:07Z Merged pull request |-\|/-| 732 +1 −1 md 0|-\|/-| 
+Improve tests |-\|/-| 2017-01-24T20:09:08Z Merged pull request |-\|/-| 729 +724 −485 json cs 11|-\|/-| 
+do not implicity use UTF-8 for SourceText |-\|/-| 2017-01-23T20:47:35Z Merged pull request |-\|/-| 727 +3 −8 cs 3|-\|/-| 
+Version updates |-\|/-| 2017-01-19T04:18:11Z Merged pull request |-\|/-| 725 +406 −304 Config sln cake json config cs 9|-\|/-| 
+include System.ValueTuple in C# Scripts |-\|/-| 2017-01-11T21:35:18Z Merged pull request |-\|/-| 722 +6 −1 cs json 2|-\|/-| 
+use the default ScriptMetadataResolver for scripts |-\|/-| 2017-01-06T07:49:28Z Merged pull request |-\|/-| 721 +3 −1 cs 1|-\|/-| 
+added global.json to enforce an older .net sdk version |-\|/-| 2017-01-06T15:35:40Z Merged pull request |-\|/-| 720 +5 −4 json 1|-\|/-| 
+Made method declaration consistent with others |-\|/-| 2017-01-04T07:13:17Z Merged pull request |-\|/-| 719 +1 −1 cs 1|-\|/-| 
+allow loglevel to be passed in as an argument  |-\|/-| 2017-01-11T15:21:28Z Merged pull request |-\|/-| 714 +9 −0 cs 1|-\|/-| 
+Add 'IsUnityProject' property to MSBuild project model |-\|/-| 2016-12-16T23:18:19Z Merged pull request |-\|/-| 712 +15 −9 cs 3|-\|/-| 
+Add IsExe property to MSBuild project model |-\|/-| 2016-12-16T22:34:51Z Merged pull request |-\|/-| 711 +4 −0 cs 1|-\|/-| 
+Don't add duplicate source files to project |-\|/-| 2016-12-16T16:54:54Z Merged pull request |-\|/-| 710 +13 −22 cs 1|-\|/-| 
+Making MSBuild great again |-\|/-| 2016-12-16T15:34:08Z Merged pull request |-\|/-| 709 +1,150 −511 gitignore Config sln 3|-\|/-| 
+Update to MSBuild project model and fix for cross-targeting projects |-\|/-| 2016-12-15T22:08:06Z Merged pull request |-\|/-| 707 +357 −128 cake json config cs 8|-\|/-| 
+Update MSBuild packaging |-\|/-| 2016-12-14T03:23:16Z Merged pull request |-\|/-| 705 +389 −217 gitignore targets Config 3|-\|/-| 
+Merge dev into new-msbuild branch |-\|/-| 2016-12-08T17:36:56Z Merged pull request |-\|/-| 704 +8 −21 Config ps1 sh cs 4|-\|/-| 
+When running on Mono, populate the TargetFrameworkRootPath using the location of 'mono' |-\|/-| 2016-12-06T22:34:38Z Merged pull request |-\|/-| 703 +178 −2 cs 2|-\|/-| 
+fixed constructor signature helper |-\|/-| 2016-12-06T22:34:48Z Merged pull request |-\|/-| 701 +4 −11 cs 1|-\|/-| 
+Merge dev into new-msbuild |-\|/-| 2016-12-06T02:31:51Z Merged pull request |-\|/-| 700 +133 −29 cs Config json 10|-\|/-| 
+Update build tools |-\|/-| 2016-12-06T07:33:48Z Merged pull request |-\|/-| 699 +5 −10 Config ps1 sh 3|-\|/-| 
+MSBuild unit test refactoring |-\|/-| 2016-12-06T00:56:41Z Merged pull request |-\|/-| 694 +256 −139 targets sln cs json Config gitattributes gitignore config csproj txt 46|-\|/-| 
+Merge dev into new msbuild |-\|/-| 2016-12-05T19:09:10Z Merged pull request |-\|/-| 693 +51 −14 cs 4|-\|/-| 
+correctly resolve relative #r |-\|/-| 2016-12-02T22:39:17Z Merged pull request |-\|/-| 692 +10 −2 cs 1|-\|/-| 
+avoid null reference in TypeLookup |-\|/-| 2016-12-04T03:20:30Z Merged pull request |-\|/-| 690 +4 −4 cs 1|-\|/-| 
+Merge dev into new-msbuild |-\|/-| 2016-11-29T18:08:23Z Merged pull request |-\|/-| 688 +1,633 −1,093 cs 4|-\|/-| 
+Merge dev into new msbuild |-\|/-| 2016-11-28T16:15:05Z Merged pull request |-\|/-| 687 +1 −1 cs 1|-\|/-| 
+load documentation along scripting metadata references |-\|/-| 2016-12-04T03:21:07Z Merged pull request |-\|/-| 686 +37 −8 cs 2|-\|/-| 
+Default to non-context path if context is null |-\|/-| 2016-11-27T05:59:58Z Merged pull request |-\|/-| 684 +1 −1 cs 1|-\|/-| 
+Add support for running/debugging NUnit tests |-\|/-| 2016-12-06T00:58:56Z Merged pull request |-\|/-| 683 +133 −29 cs Config json 10|-\|/-| 
+Merge 'dev' into 'new-msbuild' |-\|/-| 2016-11-25T17:00:05Z Merged pull request |-\|/-| 681 +192 −163 sln cs xproj 8|-\|/-| 
+Improve tests |-\|/-| 2016-11-29T02:04:16Z Merged pull request |-\|/-| 679 +1,633 −1,093 cs 4|-\|/-| 
+Add Shared attribute to MSBuildProjectSystem to ensure that it is a singleton |-\|/-| 2016-11-24T15:04:13Z Merged pull request |-\|/-| 677 +1 −1 cs 1|-\|/-| 
+Update to roslyn 2.0.0-rc |-\|/-| 2016-11-23T17:16:28Z Merged pull request |-\|/-| 676 +14 −69 json cs 11|-\|/-| 
+add support for new .net core csproj guid in .sln files. |-\|/-| 2016-12-05T23:43:27Z Merged pull request |-\|/-| 675 +2 −1 cs 1|-\|/-| 
+Don't throw null-ref when Roslyn CompletionService doesn't return anything |-\|/-| 2016-11-22T20:51:47Z Merged pull request |-\|/-| 674 +34 −18 cs 2|-\|/-| 
+Fix project.json search in DotNetProjectSystem |-\|/-| 2016-11-23T04:01:04Z Merged pull request |-\|/-| 673 +243 −157 cs 3|-\|/-| 
+Missing space in <paramref /> |-\|/-| 2016-11-16T20:27:00Z Merged pull request |-\|/-| 670 +15 −0 cs 2|-\|/-| 
+Add app.config to require .NET 4.6 when launching OmniSharp.exe |-\|/-| 2016-11-16T00:29:30Z Merged pull request |-\|/-| 669 +6 −0 config 1|-\|/-| 
+[WIP] Updating MSBuild for the future |-\|/-| 2016-11-23T18:50:47Z Closed pull request |-\|/-| 667 +271 −325 Config cs json 7|-\|/-| 
+use SymbolDisplayFormat in TypeLookup |-\|/-| 2016-11-22T14:53:36Z Merged pull request |-\|/-| 665 +175 −14 cs 2|-\|/-| 
+Don't hard-code CSharp6 in DotNetProjectSystem |-\|/-| 2016-11-10T10:36:05Z Merged pull request |-\|/-| 664 +1 −1 cs 1|-\|/-| 
+Allow OmniSharp to default to the latest C# language version |-\|/-| 2016-11-10T09:25:31Z Merged pull request |-\|/-| 663 +4 −3 cs 1|-\|/-| 
+Issue #658 - Unable to Build on Ubuntu  |-\|/-| 2017-04-27T18:13:18Z Closed pull request |-\|/-| 660 +83 −79 json 2|-\|/-| 
+Scripting revamp |-\|/-| 2016-11-24T18:35:36Z Merged pull request |-\|/-| 659 +192 −167 sln cs xproj 7|-\|/-| 
+Minor tweaks to readme.md |-\|/-| 2016-11-02T12:02:46Z Merged pull request |-\|/-| 657 +11 −8 md 0|-\|/-| 
+Update to Roslyn 2.0.0-beta5 |-\|/-| 2016-11-01T12:48:05Z Merged pull request |-\|/-| 654 +15 −12 json cs 10|-\|/-| 
+Support 32-bit Windows |-\|/-| 2016-10-26T18:19:14Z Merged pull request |-\|/-| 653 +9 −2 cake json 2|-\|/-| 
+Move OmniSharp to net46 |-\|/-| 2016-10-26T17:22:15Z Merged pull request |-\|/-| 652 +40 −40 yml json cake cs 28|-\|/-| 
+Added Roslyn CSharp code formatting options to omnisharp.json. |-\|/-| 2016-10-10T01:29:03Z Merged pull request |-\|/-| 649 +217 −7 cs 2|-\|/-| 
+Move to latest .NET Core SDK release and update to NETCore.App 1.0.1 |-\|/-| 2016-10-01T18:36:12Z Merged pull request |-\|/-| 648 +8 −8 json 8|-\|/-| 
+Clean up! |-\|/-| 2016-09-27T22:48:38Z Merged pull request |-\|/-| 646 +269 −191 sln json cs xproj 21|-\|/-| 
+Fix build on macOS Sierra |-\|/-| 2016-09-26T21:42:33Z Merged pull request |-\|/-| 644 +40 −9 cake json 4|-\|/-| 
+Update to latest .NET CLI and Microsoft.NetCore.App 1.0.1 |-\|/-| 2016-09-27T21:59:48Z Closed pull request |-\|/-| 642 +2 −2 json 2|-\|/-| 
+Add configuration to make OmniSharp easier to test with MSBuild-based .NET Core projects |-\|/-| 2016-09-23T15:20:52Z Merged pull request |-\|/-| 641 +19 −0 cs 4|-\|/-| 
+initial run at cli based plugins |-\|/-| 2019-03-18T23:06:39Z Closed pull request |-\|/-| 640 +399 −230 json cake cs 6|-\|/-| 
+Update to Roslyn 2.0.0-beta3 |-\|/-| 2016-09-18T14:36:35Z Merged pull request |-\|/-| 638 +13 −18 cs json 10|-\|/-| 
+Get unit tests running (and passing) again |-\|/-| 2016-09-18T05:10:26Z Merged pull request |-\|/-| 637 +461 −395 cs 6|-\|/-| 
+Update README.md |-\|/-| 2016-09-17T20:26:36Z Merged pull request |-\|/-| 636 +1 −1 md 0|-\|/-| 
+Expand MSBuildProjectSystem to load .csproj projects from a root path |-\|/-| 2016-09-18T13:23:55Z Merged pull request |-\|/-| 635 +213 −91 cs 4|-\|/-| 
+MSBuild project system clean up |-\|/-| 2016-09-12T17:20:11Z Merged pull request |-\|/-| 632 +713 −521 cs 11|-\|/-| 
+Fix OmniSharp --encoding switch to apply to both stdin and stdout |-\|/-| 2016-08-27T18:42:46Z Merged pull request |-\|/-| 628 +9 −5 cs 1|-\|/-| 
+Fix master! |-\|/-| 2017-04-28T14:39:19Z Closed pull request |-\|/-| 627 +14,501 −9,075 gitignore yml json md MAINTAINERS Config 5|-\|/-| 
+Add required quotes to paths |-\|/-| 2016-08-18T02:23:44Z Merged pull request |-\|/-| 626 +2 −2 cake sh 2|-\|/-| 
+Removed MAINTAINERS in favor of Maintainers team under OmniSharp org |-\|/-| 2016-08-16T19:58:06Z Merged pull request |-\|/-| 624 +0 −3 MAINTAINERS 1|-\|/-| 
+Fix IProjectSystem.GetProjectModel(...) API |-\|/-| 2016-08-16T19:57:55Z Merged pull request |-\|/-| 623 +85 −64 cs 10|-\|/-| 
+Added support for text changes to codeformat endpoint.   |-\|/-| 2016-08-16T18:53:31Z Merged pull request |-\|/-| 622 +28 −1 yml cs 5|-\|/-| 
+OmniSharp.MSBuild: fix .csproj loading when some props are missing |-\|/-| 2016-07-18T20:12:59Z Merged pull request |-\|/-| 609 +17 −7 cs 1|-\|/-| 
+Pass -NoProfile when executing powershell scripts |-\|/-| 2016-07-07T22:15:50Z Merged pull request |-\|/-| 607 +1 −1 cake 1|-\|/-| 
+Merge to master |-\|/-| 2016-07-08T02:39:42Z Merged pull request |-\|/-| 601 +5,874 −33,463 editorconfig gitignore lgtm yml md MAINTAINERS Config Source sln 9|-\|/-| 
+config encoding For Stdio |-\|/-| 2016-07-02T01:54:46Z Merged pull request |-\|/-| 598 +12 −0 cs 1|-\|/-| 
+Update to the latest .NET Core RTM packages and add RIDs for newly supported Linux distros |-\|/-| 2016-06-28T19:19:29Z Merged pull request |-\|/-| 596 +157 −139 Config cake json 14|-\|/-| 
+Add net451 MSBuild project system back |-\|/-| 2016-06-23T20:37:48Z Merged pull request |-\|/-| 595 +226 −105 cs json 2|-\|/-| 
+Fix incorrect project path resolver |-\|/-| 2016-06-23T03:08:37Z Merged pull request |-\|/-| 592 +18 −18 json cs 11|-\|/-| 
+Update dependencies |-\|/-| 2016-06-14T17:54:27Z Merged pull request |-\|/-| 584 +18 −17 Config json 11|-\|/-| 
+Use completion API |-\|/-| 2016-06-14T19:50:19Z Merged pull request |-\|/-| 583 +249 −31,220 cs 7|-\|/-| 
+react to runtime changes |-\|/-| 2016-06-10T00:01:15Z Merged pull request |-\|/-| 582 +1 −1 cs 1|-\|/-| 
+Migrate MSBuild plugin to CoreCLR based Microsoft.Build packages. |-\|/-| 2016-06-08T02:40:28Z Merged pull request |-\|/-| 581 +958 −419 yml Config Source cake json cs 14|-\|/-| 
+do not apply changes for code actions through the workspace.  Instead… |-\|/-| 2016-06-09T01:05:31Z Merged pull request |-\|/-| 580 +97 −56 cs 5|-\|/-| 
+Added model to abstract model to remove the Roslyn types from scriptc… |-\|/-| 2016-06-06T12:06:33Z Merged pull request |-\|/-| 579 +118 −19 cs 6|-\|/-| 
+Do #load traversal recursively in scriptcs subsystem, #512 |-\|/-| 2016-06-04T19:41:47Z Merged pull request |-\|/-| 578 +180 −104 cs json 4|-\|/-| 
+Update dependencies to rc3/preview2 packages. |-\|/-| 2016-06-07T18:02:23Z Closed pull request |-\|/-| 575 +192 −186 Config Source json cs 17|-\|/-| 
+Streaming diagnostics |-\|/-| 2016-06-05T20:36:14Z Merged pull request |-\|/-| 574 +642 −12 cs 14|-\|/-| 
+Fixed archive name with dots in name. |-\|/-| 2016-05-30T19:59:55Z Merged pull request |-\|/-| 570 +3 −3 cake 1|-\|/-| 
+Fix deployment |-\|/-| 2016-05-30T19:58:49Z Merged pull request |-\|/-| 569 +2 −2 cake 1|-\|/-| 
+Parameterize listening interface |-\|/-| 2016-05-30T14:24:59Z Merged pull request |-\|/-| 565 +7 −1 cs 1|-\|/-| 
+Added tracking of XML comments via Roslyn (#542) |-\|/-| 2016-06-04T13:02:30Z Merged pull request |-\|/-| 564 +29 −0 cs 3|-\|/-| 
+Add capability to discover and run xunit test |-\|/-| 2016-05-27T20:42:27Z Merged pull request |-\|/-| 562 +727 −36 gitignore sln json cs 11|-\|/-| 
+Refactored version information for CodeAnalysis Assemblies. |-\|/-| 2016-06-04T13:01:05Z Merged pull request |-\|/-| 561 +23 −9 cs 4|-\|/-| 
+Set event's delegate type as return type |-\|/-| 2016-06-01T23:10:36Z Merged pull request |-\|/-| 560 +7 −1 cs 2|-\|/-| 
+Update projects |-\|/-| 2016-05-19T14:30:04Z Merged pull request |-\|/-| 557 +109 −611 sln json xproj 4|-\|/-| 
+Update NuGet feeds |-\|/-| 2016-05-18T05:41:17Z Merged pull request |-\|/-| 556 +1 −3 Config 1|-\|/-| 
+Merge dependencies update |-\|/-| 2016-05-14T16:30:30Z Merged pull request |-\|/-| 553 +354 −206 Config cake json cs 8|-\|/-| 
+Cherry-pick NuGet revert change to fix Mac build on vscode branch  |-\|/-| 2016-05-13T23:10:12Z Merged pull request |-\|/-| 552 +2 −2 ps1 sh 2|-\|/-| 
+Update dependencies |-\|/-| 2016-05-13T22:21:18Z Merged pull request |-\|/-| 551 +338 −153 json Config cake cs 10|-\|/-| 
+Update test code |-\|/-| 2016-05-02T22:38:25Z Merged pull request |-\|/-| 548 +212 −235 cs json 4|-\|/-| 
+Reacted to https://github.com/aspnet/PlatformAbstractions/issues/37 |-\|/-| 2016-04-29T16:33:14Z Closed pull request |-\|/-| 546 +2 −516 xproj cs json 5|-\|/-| 
+add maintainers for https://lgtm.co/ |-\|/-| 2016-04-29T20:42:59Z Merged pull request |-\|/-| 545 +5 −0 lgtm MAINTAINERS 2|-\|/-| 
+fixed braces |-\|/-| 2016-04-29T20:57:42Z Merged pull request |-\|/-| 544 +4 −1 cs 1|-\|/-| 
+Update dependencies |-\|/-| 2016-04-29T14:22:26Z Merged pull request |-\|/-| 543 +188 −193 json cs 23|-\|/-| 
+Hal ler/portable merged |-\|/-| 2016-04-28T02:01:40Z Merged pull request |-\|/-| 541 +457 −254 gitignore 1|-\|/-| 
+Update for API change in ASP.NET |-\|/-| 2016-04-28T00:54:25Z Merged pull request |-\|/-| 540 +4 −1 cs 1|-\|/-| 
+PowerShell doesn't support double slash parameters, it would have bee… |-\|/-| 2016-04-29T14:22:42Z Merged pull request |-\|/-| 538 +1 −1 ps1 1|-\|/-| 
+Update dependencies to asp.net rc2 releases branch |-\|/-| 2016-04-19T23:34:02Z Merged pull request |-\|/-| 533 +137 −138 yml Config json 15|-\|/-| 
+Handle strong-name key files from msbuild projects |-\|/-| 2016-04-15T20:12:04Z Merged pull request |-\|/-| 529 +27 −0 cs 2|-\|/-| 
+Making project collection case-insensitive. |-\|/-| 2016-04-19T20:10:23Z Merged pull request |-\|/-| 528 +24 −1 cs 2|-\|/-| 
+Refinement of archive generation |-\|/-| 2016-04-15T11:48:48Z Merged pull request |-\|/-| 525 +8 −9 cake 1|-\|/-| 
+Run restore target during install, to automatically retry |-\|/-| 2016-04-29T13:38:01Z Merged pull request |-\|/-| 524 +91 −24 yml cake ps1 sh config 6|-\|/-| 
+Quickfixes for release |-\|/-| 2016-04-14T17:00:25Z Merged pull request |-\|/-| 523 +16 −30 yml cake cs 10|-\|/-| 
+Updated Travis/Linux build to publish for all Linux runtimes. |-\|/-| 2016-04-14T11:08:54Z Merged pull request |-\|/-| 520 +11 −0 cake 1|-\|/-| 
+added builds for additional runtimes, linux is now an alias for ubuntu |-\|/-| 2016-04-13T20:43:34Z Merged pull request |-\|/-| 519 +37 −17 cake json 8|-\|/-| 
+Use ProjectSearcher to locate initial batch of projects. |-\|/-| 2016-04-15T18:50:22Z Merged pull request |-\|/-| 518 +435 −92 cake json cs 7|-\|/-| 
+Adding .vscode/settings.json into .gitignore |-\|/-| 2016-04-11T18:11:32Z Merged pull request |-\|/-| 511 +1 −0 gitignore 1|-\|/-| 
+Fix install path for individual frameworks. |-\|/-| 2016-04-06T14:35:34Z Merged pull request |-\|/-| 508 +1 −1 cake 1|-\|/-| 
+Disable package restore |-\|/-| 2016-04-07T06:45:22Z Merged pull request |-\|/-| 507 +1 −1 json 1|-\|/-| 
+Fix the install path for Install target |-\|/-| 2016-04-06T00:35:01Z Merged pull request |-\|/-| 506 +2 −1 cake 1|-\|/-| 
+Disable package restore for this solution |-\|/-| 2016-04-06T00:35:20Z Merged pull request |-\|/-| 505 +2 −1 json 1|-\|/-| 
+Fix omnisharp.json configuration loading |-\|/-| 2016-04-05T17:31:33Z Merged pull request |-\|/-| 503 +9 −11 cs 3|-\|/-| 
+Update NuGet feeds |-\|/-| 2016-05-17T22:38:52Z Closed pull request |-\|/-| 502 +3 −5 Config ps1 sh 3|-\|/-| 
+A few follow up changes after dependencies update |-\|/-| 2016-04-05T00:08:29Z Merged pull request |-\|/-| 501 +26 −44 json ps1 sh 11|-\|/-| 
+Update dependencies |-\|/-| 2016-04-04T22:49:16Z Merged pull request |-\|/-| 500 +203 −120 Config json cs 17|-\|/-| 
+[wip] initial run at cli based plugins |-\|/-| 2016-09-21T01:50:23Z Closed pull request |-\|/-| 496 +585 −648 sln cake json cs 9|-\|/-| 
+Documentation for build system options |-\|/-| 2016-04-04T01:02:13Z Merged pull request |-\|/-| 495 +75 −0 md 0|-\|/-| 
+Added auto-generated run scripts. |-\|/-| 2016-04-28T02:01:41Z Merged pull request |-\|/-| 494 +457 −254 gitignore 1|-\|/-| 
+Zero based index support |-\|/-| 2016-04-30T02:10:16Z Merged pull request |-\|/-| 493 +417 −119 md cs 13|-\|/-| 
+New option to skip archiving by default. |-\|/-| 2016-04-03T13:05:44Z Merged pull request |-\|/-| 492 +8 −2 yml cake 3|-\|/-| 
+Filled in depversion.json |-\|/-| 2016-04-04T22:55:27Z Closed pull request |-\|/-| 491 +219 −127 Config json ps1 sh cs 16|-\|/-| 
+Update to remove exception for codeaction at end of line. |-\|/-| 2016-04-29T18:08:39Z Merged pull request |-\|/-| 490 +16 −4 cs 1|-\|/-| 
+Use local nuget over PATH based nuget |-\|/-| 2016-04-02T21:41:37Z Merged pull request |-\|/-| 489 +0 −11 ps1 1|-\|/-| 
+Updated RID logic to remove need for dotnet-info |-\|/-| 2016-04-03T14:05:39Z Merged pull request |-\|/-| 488 +65 −121 cake json ps1 sh 4|-\|/-| 
+Update dependencies |-\|/-| 2016-04-01T21:56:22Z Merged pull request |-\|/-| 486 +261 −178 cake json ps1 sh 8|-\|/-| 
+Updated to new frameworks and CLI + extra sugaring in build script |-\|/-| 2016-04-01T21:56:24Z Merged pull request |-\|/-| 485 +260 −177 cake json ps1 sh 8|-\|/-| 
+Fix build.sh |-\|/-| 2016-03-28T20:59:16Z Merged pull request |-\|/-| 483 +2 −1 sh 1|-\|/-| 
+Update settings |-\|/-| 2016-03-29T00:37:45Z Merged pull request |-\|/-| 482 +2 −2 json 1|-\|/-| 
+Improved dotnet project info to be closer to how the dnx project info… |-\|/-| 2016-03-31T13:31:39Z Merged pull request |-\|/-| 480 +188 −123 cs 5|-\|/-| 
+make DotnetVersion optional, unpin dotnetversion.  Added setup task t… |-\|/-| 2016-03-31T13:31:14Z Merged pull request |-\|/-| 479 +75 −41 editorconfig cake 2|-\|/-| 
+Master |-\|/-| 2016-03-24T19:39:10Z Merged pull request |-\|/-| 477 +2 −10 yml cs 2|-\|/-| 
+Add Cake build script |-\|/-| 2016-03-25T20:29:53Z Merged pull request |-\|/-| 476 +832 −611 gitignore yml 3|-\|/-| 
+Fix/master xcode |-\|/-| 2016-03-24T19:37:58Z Merged pull request |-\|/-| 475 +2 −10 yml cs 2|-\|/-| 
+Fix/master xcode |-\|/-| 2016-03-24T18:55:54Z Closed pull request |-\|/-| 474 +2 −7 yml cs 2|-\|/-| 
+Want to see what happens without `xcode7.1` |-\|/-| 2016-03-25T01:20:33Z Closed pull request |-\|/-| 473 +1 −4 yml 1|-\|/-| 
+don't exclude mac from all builds, just when building on a mac |-\|/-| 2016-03-24T15:52:57Z Merged pull request |-\|/-| 472 +1 −1 cs 1|-\|/-| 
+Merge to master, prep-release. |-\|/-| 2016-03-24T16:52:40Z Merged pull request |-\|/-| 471 +129 −33 yml cs 5|-\|/-| 
+Allow osx to fail, publish from linux only |-\|/-| 2016-03-24T00:58:29Z Merged pull request |-\|/-| 468 +18 −9 yml cs 2|-\|/-| 
+[cake-build] Initial version of portable Cake build script. |-\|/-| 2016-03-24T19:09:22Z Merged pull request |-\|/-| 467 +821 −613 gitignore yml 3|-\|/-| 
+Update .travis.yml |-\|/-| 2016-03-24T00:14:35Z Closed pull request |-\|/-| 466 +3 −0 yml 1|-\|/-| 
+Update build scripts |-\|/-| 2016-03-28T18:45:44Z Closed pull request |-\|/-| 464 +54 −30 json ps1 cs 4|-\|/-| 
+Apply keyfile to compilation options |-\|/-| 2016-03-24T04:01:04Z Merged pull request |-\|/-| 463 +105 −8 cs 2|-\|/-| 
+Add more properties to DotNetProjectInformation |-\|/-| 2016-03-23T23:18:08Z Merged pull request |-\|/-| 462 +6 −16 cs 1|-\|/-| 
+Add EntryPoint property to DotNetProjectInformation |-\|/-| 2016-03-23T19:03:20Z Closed pull request |-\|/-| 460 +3 −0 cs 1|-\|/-| 
+Pin to dotnet 1.0.0.001897 |-\|/-| 2016-03-22T13:28:17Z Merged pull request |-\|/-| 448 +16 −10 md sh 1|-\|/-| 
+Pin to dotnet 1.0.0.001897 |-\|/-| 2016-03-22T05:22:53Z Closed pull request |-\|/-| 447 +3 −10 sh 1|-\|/-| 
+Added contribution file |-\|/-| 2016-03-22T12:15:09Z Merged pull request |-\|/-| 446 +13 −0 md 0|-\|/-| 
+Cli.... YOLO! |-\|/-| 2016-03-21T18:55:40Z Merged pull request |-\|/-| 444 +2,641 −3,524 gitignore yml Config Source sln md 6|-\|/-| 
+Update build.sh |-\|/-| 2016-03-21T04:56:10Z Merged pull request |-\|/-| 441 +18 −19 sh 1|-\|/-| 
+Update slack notification |-\|/-| 2016-03-20T01:22:54Z Merged pull request |-\|/-| 440 +7 −2 yml 1|-\|/-| 
+React to dotnet sdk layout change |-\|/-| 2016-03-19T22:35:54Z Merged pull request |-\|/-| 438 +31 −30 yml ps1 sh 3|-\|/-| 
+Update README.md |-\|/-| 2016-03-19T22:40:24Z Merged pull request |-\|/-| 437 +2 −17 md 0|-\|/-| 
+Fix span used to determine whether signature help should be shown |-\|/-| 2016-03-21T15:08:50Z Merged pull request |-\|/-| 436 +5 −3 cs 1|-\|/-| 
+Added slack support for appveyor |-\|/-| 2016-03-21T13:56:47Z Merged pull request |-\|/-| 435 +5 −0 yml 1|-\|/-| 
+Add source file references |-\|/-| 2016-03-17T21:02:30Z Merged pull request |-\|/-| 434 +9 −0 cs 1|-\|/-| 
+Add support for DotNetProjectSystem.GetInformationModel(...) |-\|/-| 2016-03-16T20:15:08Z Merged pull request |-\|/-| 433 +63 −17 cs 5|-\|/-| 
+Correctly log exception during project system initialization |-\|/-| 2016-03-17T17:17:19Z Merged pull request |-\|/-| 432 +2 −1 cs 1|-\|/-| 
+Use omnisharp-roslyn-ci feed only |-\|/-| 2016-03-14T23:49:39Z Merged pull request |-\|/-| 429 +3 −1 Config 1|-\|/-| 
+Update the dependencies to latest packages |-\|/-| 2016-03-14T20:06:51Z Merged pull request |-\|/-| 428 +171 −179 Config json cs 14|-\|/-| 
+Stop setting the DOTNET_REFERENCE_ASSEMBLIES_PATH |-\|/-| 2016-03-11T23:39:06Z Merged pull request |-\|/-| 426 +1 −13 sh 1|-\|/-| 
+Packaging changes required by #421 |-\|/-| 2016-03-09T18:05:16Z Merged pull request |-\|/-| 425 +66 −4 yml json cs 5|-\|/-| 
+Add slack notification to Travis |-\|/-| 2016-03-09T19:12:30Z Merged pull request |-\|/-| 424 +2 −0 yml 1|-\|/-| 
+Minor spelling and grammatical changes for readme.md |-\|/-| 2016-03-09T21:47:11Z Merged pull request |-\|/-| 423 +5 −5 md 0|-\|/-| 
+Update Readme.md |-\|/-| 2016-03-09T07:38:29Z Merged pull request |-\|/-| 422 +4 −4 md 0|-\|/-| 
+Build publish task in a .NET program and update build |-\|/-| 2016-03-09T05:58:36Z Merged pull request |-\|/-| 417 +561 −341 yml json ps1 sh 5|-\|/-| 
+Creating a portable Cake build script. |-\|/-| 2016-03-24T00:00:43Z Closed pull request |-\|/-| 416 +815 −622 gitignore yml 3|-\|/-| 
+Update README.md |-\|/-| 2016-03-04T18:24:00Z Merged pull request |-\|/-| 411 +16 −0 md 0|-\|/-| 
+Updated build scripts to produce build artifacts to push to github |-\|/-| 2016-03-10T20:50:43Z Closed pull request |-\|/-| 410 +66 −34 yml ps1 sh 4|-\|/-| 
+Update README.md |-\|/-| 2016-02-27T08:41:30Z Merged pull request |-\|/-| 408 +7 −9 md 0|-\|/-| 
+Update README.md |-\|/-| 2016-02-25T21:24:09Z Merged pull request |-\|/-| 407 +2 −2 md 0|-\|/-| 
+Pin the dependencies and use single feed |-\|/-| 2016-02-25T07:37:18Z Merged pull request |-\|/-| 406 +119 −207 Config Source json cs xproj 20|-\|/-| 
+Fix break due to dotnet API change |-\|/-| 2016-02-25T07:38:43Z Closed pull request |-\|/-| 404 +1 −1 cs 1|-\|/-| 
+Update build scripts |-\|/-| 2016-02-25T08:54:45Z Merged pull request |-\|/-| 403 +196 −137 yml sh 3|-\|/-| 
+Read enablePackageRestore from config |-\|/-| 2016-02-19T23:04:52Z Merged pull request |-\|/-| 402 +45 −35 sh cs json 8|-\|/-| 
+Renamed Kestrel string |-\|/-| 2016-03-21T17:19:07Z Closed pull request |-\|/-| 401 +1 −1 cs 1|-\|/-| 
+Zero based index support |-\|/-| 2016-02-18T21:36:47Z Closed pull request |-\|/-| 400 +2,359 −3,275 gitignore yml Config sln md cmd 6|-\|/-| 
+Updated build to use powershell build file. Pull down latest dotnet, … |-\|/-| 2016-02-11T22:41:31Z Merged pull request |-\|/-| 399 +109 −283 gitignore yml cmd 3|-\|/-| 
+Integrate with dotnet-cli |-\|/-| 2016-02-18T21:35:43Z Closed pull request |-\|/-| 398 +2,159 −3,371 gitignore yml Config sln md cmd 6|-\|/-| 
+Attempting to fix unused architecture and runtime options in global.json |-\|/-| 2016-03-15T09:23:35Z Closed pull request |-\|/-| 397 +59 −31 cs 2|-\|/-| 
+Disabled package restore logger, it's having threading issues at the … |-\|/-| 2016-02-03T15:03:56Z Merged pull request |-\|/-| 395 +9 −9 cs 2|-\|/-| 
+Unpin dependencies, leave dnx pinned |-\|/-| 2016-02-02T02:18:12Z Merged pull request |-\|/-| 394 +87 −84 cmd scripts/Bootstrap scripts/Omnisharp json 22|-\|/-| 
+Update dependencies and DNX |-\|/-| 2016-01-29T21:27:19Z Merged pull request |-\|/-| 392 +56 −47 cmd sh json cs 18|-\|/-| 
+Switch back to aspnetcidev feed |-\|/-| 2016-01-26T02:48:30Z Merged pull request |-\|/-| 390 +31 −31 Config md cmd sh scripts/Bootstrap scripts/Omnisharp 9|-\|/-| 
+Update SharedTextWriter |-\|/-| 2016-02-02T03:51:37Z Merged pull request |-\|/-| 389 +17 −3 cs 1|-\|/-| 
+Update SharedTextWriter |-\|/-| 2016-01-25T18:27:57Z Closed pull request |-\|/-| 388 +17 −3 cs 1|-\|/-| 
+Update scripts |-\|/-| 2016-01-25T18:27:33Z Closed pull request |-\|/-| 387 +8 −8 scripts/Bootstrap scripts/Omnisharp cmd 4|-\|/-| 
+Upgrade DNX from 16388 to 16401 |-\|/-| 2016-01-23T03:55:11Z Closed pull request |-\|/-| 386 +11 −11 cmd sh 2|-\|/-| 
+Fix build break and update dependencies |-\|/-| 2016-01-25T18:26:13Z Merged pull request |-\|/-| 385 +142 −174 Config cmd sh scripts/Bootstrap scripts/Omnisharp json cs 21|-\|/-| 
+Fixed bootstrap so that it only returns a folder, if a bootstrap inst… |-\|/-| 2016-03-23T01:25:13Z Closed pull request |-\|/-| 384 +20 −17 cmd sh scripts/Bootstrap cs 6|-\|/-| 
+Update dnx to pint to 16388 |-\|/-| 2016-01-21T01:58:14Z Merged pull request |-\|/-| 383 +28 −28 md cmd sh scripts/Bootstrap scripts/Omnisharp 8|-\|/-| 
+Ignore new line differences in tests |-\|/-| 2016-01-21T02:50:40Z Merged pull request |-\|/-| 382 +5 −8 cs 1|-\|/-| 
+Ignore new line differences in tests |-\|/-| 2016-01-21T02:50:40Z Closed pull request |-\|/-| 376 +5 −1 cs 1|-\|/-| 
+Update dotnet |-\|/-| 2016-02-09T22:46:01Z Closed pull request |-\|/-| 374 +1,421 −362 gitignore yml Config sln md py cmd sh scripts/Bootstrap scripts/Omnisharp cs json 16|-\|/-| 
+Update the dependencies on ASP.NET and CoreCLR packages to rc2-* |-\|/-| 2016-01-21T00:54:40Z Merged pull request |-\|/-| 370 +1,434 −1,114 yml Config sln md 4|-\|/-| 
+[wip] Cli |-\|/-| 2016-01-19T18:16:37Z Closed pull request |-\|/-| 368 +1,008 −794 yml Config sln cmd sh json cs 8|-\|/-| 
+Fixed the travis build to only unpack the encrypted file for deployme… |-\|/-| 2015-12-14T22:49:52Z Merged pull request |-\|/-| 365 +5 −5 yml 1|-\|/-| 
+[wip] Cli |-\|/-| 2015-12-18T02:29:55Z Closed pull request |-\|/-| 364 +3,266 −4,742 gitignore yml Config sln md cmd sh json scripts/Omnisharp cs 17|-\|/-| 
+Design Time Host changes to improve socket connection and monitoring |-\|/-| 2016-03-22T18:14:14Z Closed pull request |-\|/-| 362 +93 −35 cs 3|-\|/-| 
+Modified OmniSharp to work as it used to to avoid breaking emacs and vim |-\|/-| 2015-12-02T15:30:30Z Merged pull request |-\|/-| 358 +97 −97 yml json cmd sh cs xproj 24|-\|/-| 
+Default language to C# if the language cannot be deteted |-\|/-| 2015-12-01T23:45:01Z Closed pull request |-\|/-| 357 +9 −15 cs 2|-\|/-| 
+Updated path searching logic to handle global paths found in program … |-\|/-| 2016-01-21T00:55:49Z Merged pull request |-\|/-| 354 +18 −21 cs 3|-\|/-| 
+reset script paths to match pre 1.7 paths |-\|/-| 2015-11-28T21:27:52Z Merged pull request |-\|/-| 353 +2 −0 sh 1|-\|/-| 
+Update bootstrapper endpoint to point at OmniSharp instead of OmniSha… |-\|/-| 2015-11-27T20:48:49Z Merged pull request |-\|/-| 352 +6 −0 sh 1|-\|/-| 
+Added missing nuget publish of OmniSharp |-\|/-| 2015-11-27T19:48:14Z Merged pull request |-\|/-| 351 +1 −0 yml 1|-\|/-| 
+Plugin bootstrap |-\|/-| 2015-11-27T19:27:35Z Merged pull request |-\|/-| 350 +41 −24 yml sh 2|-\|/-| 
+Fix travis |-\|/-| 2015-11-26T22:51:30Z Merged pull request |-\|/-| 348 +6 −9 yml enc 2|-\|/-| 
+Use UT8 Encoding without BOM |-\|/-| 2015-11-24T20:28:31Z Merged pull request |-\|/-| 344 +4 −7 cs json 2|-\|/-| 
+Fixes #338 / #340 |-\|/-| 2015-11-23T22:56:09Z Merged pull request |-\|/-| 343 +9 −1 cs 1|-\|/-| 
+Initial support for Protobuild modules |-\|/-| 2016-03-23T01:46:27Z Closed pull request |-\|/-| 342 +242 −5 sln cmd sh cs xproj json 13|-\|/-| 
+Fixed #338. Redirects DTH output via logger. |-\|/-| 2015-11-23T20:31:22Z Merged pull request |-\|/-| 339 +7 −1 cs 1|-\|/-| 
+Fix string escaping on exception messages for Stdio |-\|/-| 2015-11-10T15:31:37Z Merged pull request |-\|/-| 335 +3 −2 cs 1|-\|/-| 
+Fixes #325 |-\|/-| 2015-11-09T21:29:04Z Merged pull request |-\|/-| 334 +1 −9 sh 1|-\|/-| 
+Fix travis build, only pushd for non travis runs |-\|/-| 2015-11-09T20:49:22Z Merged pull request |-\|/-| 333 +19 −5 sh 1|-\|/-| 
+Fixes #326, don't close stream when writing response |-\|/-| 2015-11-09T15:50:59Z Merged pull request |-\|/-| 330 +5 −7 cs 1|-\|/-| 
+[Don't merge yet]: Fix strong naming support in dnx projects |-\|/-| 2015-11-06T13:47:14Z Merged pull request |-\|/-| 329 +13 −1 cs 2|-\|/-| 
+cd to project root at first of build.sh |-\|/-| 2015-11-01T19:23:22Z Merged pull request |-\|/-| 323 +5 −0 sh 1|-\|/-| 
+Ignore omnisharp.tar.gz |-\|/-| 2015-11-01T19:11:54Z Merged pull request |-\|/-| 322 +1 −0 gitignore 1|-\|/-| 
+Plugin bootstrap |-\|/-| 2015-11-27T14:46:46Z Merged pull request |-\|/-| 321 +649 −69 gitignore yml json cmd sh scripts/Bootstrap 7|-\|/-| 
+Add Visual Studio projects where they're missing |-\|/-| 2015-10-28T21:32:41Z Merged pull request |-\|/-| 320 +209 −0 gitattributes sln xproj 10|-\|/-| 
+Fixed files changed endpoint to have proper response |-\|/-| 2015-11-09T15:50:53Z Merged pull request |-\|/-| 319 +3 −3 cs 1|-\|/-| 
+Fixed up coding guidelines after the plugins merge, this lets the tes… |-\|/-| 2015-10-23T19:48:53Z Merged pull request |-\|/-| 318 +5 −14 cs 1|-\|/-| 
+Added missing space |-\|/-| 2015-10-15T17:44:32Z Merged pull request |-\|/-| 317 +1 −1 cs 1|-\|/-| 
+Increase timeout for DTH to start |-\|/-| 2015-10-10T18:23:45Z Merged pull request |-\|/-| 316 +2 −2 cs 1|-\|/-| 
+don't expect AllowUnsafeBlocks and DefineConstants to be in all csproj files |-\|/-| 2015-10-08T09:10:05Z Merged pull request |-\|/-| 315 +14 −2 cs 1|-\|/-| 
+correctly flow formatting options |-\|/-| 2015-10-06T09:31:09Z Merged pull request |-\|/-| 312 +10 −1 cs 2|-\|/-| 
+Added IndentationSize to formatting options |-\|/-| 2015-10-05T22:15:22Z Merged pull request |-\|/-| 311 +34 −2 cs json 4|-\|/-| 
+Do not show <global namespace> in type lookup |-\|/-| 2015-10-05T20:42:20Z Merged pull request |-\|/-| 310 +21 −3 cs 2|-\|/-| 
+Respect AllowUnsafe |-\|/-| 2015-10-05T20:05:54Z Merged pull request |-\|/-| 309 +20 −0 cs 2|-\|/-| 
+Always launch DTH using mono (on non windows) |-\|/-| 2015-10-05T07:56:51Z Merged pull request |-\|/-| 308 +214 −4 cs 3|-\|/-| 
+Moving ambiguous check to be after add/remove usings |-\|/-| 2015-09-30T08:20:51Z Merged pull request |-\|/-| 307 +2 −1 cs 1|-\|/-| 
+Fixusings sriram |-\|/-| 2015-09-30T01:06:09Z Closed pull request |-\|/-| 306 +813 −2 yml cs 6|-\|/-| 
+Fixusings |-\|/-| 2015-09-30T13:11:35Z Merged pull request |-\|/-| 305 +813 −2 yml cs 6|-\|/-| 
+Sriramgd fixusing |-\|/-| 2015-09-29T23:13:19Z Closed pull request |-\|/-| 304 +1,430 −42 yml cmd cs 16|-\|/-| 
+Added /stopserver |-\|/-| 2015-09-18T22:32:48Z Merged pull request |-\|/-| 302 +53 −23 cs 2|-\|/-| 
+added missing braces |-\|/-| 2015-09-17T10:18:31Z Merged pull request |-\|/-| 299 +3 −1 cs 1|-\|/-| 
+Fix for - Lots of mscorlib issues with 3rd party packages #265 |-\|/-| 2015-09-15T13:10:58Z Merged pull request |-\|/-| 298 +19 −1 cs 2|-\|/-| 
+Feature/add to project |-\|/-| 2016-03-22T23:57:29Z Closed pull request |-\|/-| 295 +115 −4 cs xproj json 4|-\|/-| 
+Plugin system with MEF |-\|/-| 2015-10-21T16:18:19Z Merged pull request |-\|/-| 293 +4,161 −1,630 sln cmd sh cs 24|-\|/-| 
+Fix setting up PreprocessorSymbols for MSBuild project. |-\|/-| 2015-08-27T12:35:37Z Merged pull request |-\|/-| 292 +2 −2 cmd cs 2|-\|/-| 
+Sriramgd fixusing |-\|/-| 2015-09-29T23:14:06Z Closed pull request |-\|/-| 291 +706 −2 yml cs 6|-\|/-| 
+Allow to send file specific edits with a request |-\|/-| 2015-08-24T20:50:15Z Merged pull request |-\|/-| 290 +85 −26 cs 5|-\|/-| 
+Conditionally apply changes for rename server side. |-\|/-| 2015-08-20T23:06:02Z Merged pull request |-\|/-| 289 +51 −6 cs 3|-\|/-| 
+Add flag to allow update buffer to read from disk |-\|/-| 2015-08-13T19:44:49Z Merged pull request |-\|/-| 284 +67 −28 cs 18|-\|/-| 
+Alxandr master |-\|/-| 2015-07-31T21:57:08Z Merged pull request |-\|/-| 282 +9 −3 cs 2|-\|/-| 
+React to DesignTimeHost rename |-\|/-| 2015-07-31T21:57:11Z Merged pull request |-\|/-| 281 +7 −1 cs 1|-\|/-| 
+Fix usings |-\|/-| 2015-08-26T21:08:51Z Closed pull request |-\|/-| 280 +757 −2 cs 5|-\|/-| 
+Fixes OmniSharp/omnisharp-roslyn#272 |-\|/-| 2015-07-22T10:48:00Z Merged pull request |-\|/-| 274 +9 −2 cs 1|-\|/-| 
+Added package sources endpoint |-\|/-| 2015-07-22T14:21:53Z Merged pull request |-\|/-| 271 +72 −2 cs json 7|-\|/-| 
+Update omnisharp.json |-\|/-| 2015-07-21T04:31:35Z Merged pull request |-\|/-| 270 +1 −1 json 1|-\|/-| 
+removed redundant dnx project property |-\|/-| 2015-07-20T09:08:25Z Merged pull request |-\|/-| 269 +2 −8 cs 2|-\|/-| 
+Add Nuget package search and version end points |-\|/-| 2015-07-18T02:42:37Z Merged pull request |-\|/-| 267 +333 −2 Config cs json 10|-\|/-| 
+Goto symbol metadata |-\|/-| 2015-08-28T20:04:16Z Merged pull request |-\|/-| 263 +541 −13 cs 8|-\|/-| 
+Replace IList<string> Frameworks with IList<DnxFramework> Frameworks,… |-\|/-| 2015-07-21T04:33:15Z Closed pull request |-\|/-| 262 +2 −4 cs 1|-\|/-| 
+Add initial ability to generate metadata source from a symbol |-\|/-| 2015-07-16T23:25:24Z Closed pull request |-\|/-| 261 +218 −10 cs xproj 4|-\|/-| 
+Beta5 |-\|/-| 2016-03-15T05:45:16Z Closed pull request |-\|/-| 260 +301 −97 Config cmd sh json scripts/Omnisharp cs 21|-\|/-| 
+Add Dnx frameworks |-\|/-| 2015-07-08T00:55:00Z Merged pull request |-\|/-| 259 +59 −23 cs 7|-\|/-| 
+change feed url variable to DNX_FEED |-\|/-| 2015-07-03T05:00:44Z Merged pull request |-\|/-| 257 +1 −1 cmd 1|-\|/-| 
+Added new parameter to allow excluding project files from response. |-\|/-| 2015-07-03T04:27:44Z Merged pull request |-\|/-| 256 +21 −4 cs 3|-\|/-| 
+Add dnx win to release |-\|/-| 2015-07-02T23:13:34Z Merged pull request |-\|/-| 255 +14 −0 sh 1|-\|/-| 
+Read DefineConstants from MsBuild file |-\|/-| 2015-06-30T10:50:10Z Merged pull request |-\|/-| 252 +23 −9 cs 2|-\|/-| 
+Feature highlighting |-\|/-| 2015-07-03T03:48:37Z Merged pull request |-\|/-| 251 +525 −1 cs 6|-\|/-| 
+created a v2 version of code actions |-\|/-| 2015-06-23T19:25:38Z Merged pull request |-\|/-| 247 +982 −113 Config cs 85|-\|/-| 
+Handle unauthorized access exceptions when searching for projects |-\|/-| 2015-06-22T23:19:45Z Merged pull request |-\|/-| 246 +57 −2 cs 2|-\|/-| 
+Rename files and symbols from aspnet5* to dnx* |-\|/-| 2015-06-20T22:59:06Z Merged pull request |-\|/-| 245 +101 −101 json cs 26|-\|/-| 
+Added line break! |-\|/-| 2015-06-18T16:29:42Z Merged pull request |-\|/-| 244 +1 −0 cs 1|-\|/-| 
+Adding some tests around ranged code actions |-\|/-| 2015-06-18T11:25:23Z Merged pull request |-\|/-| 243 +91 −8 cs 2|-\|/-| 
+filter sources message by ending and only allow .cs files |-\|/-| 2015-06-18T11:24:22Z Merged pull request |-\|/-| 242 +4 −2 cs 1|-\|/-| 
+fix can not start from the path with witespace |-\|/-| 2015-06-17T17:20:05Z Merged pull request |-\|/-| 241 +1 −1 scripts/Omnisharp 1|-\|/-| 
+Magic |-\|/-| 2015-06-24T01:28:29Z Closed pull request |-\|/-| 238 +864 −282 Config scripts/Omnisharp cs 10|-\|/-| 
+Publish omnisharp releases |-\|/-| 2015-06-11T23:07:40Z Merged pull request |-\|/-| 237 +19 −21,264 yml sh 2|-\|/-| 
+Beta4 |-\|/-| 2015-06-10T17:35:35Z Merged pull request |-\|/-| 236 +21,511 −222 gitignore yml Config sln cmd sh json scripts/Omnisharp cs xproj 17|-\|/-| 
+DNX runtime algorithm fixes: |-\|/-| 2015-06-10T05:00:21Z Merged pull request |-\|/-| 235 +16 −15 cs 1|-\|/-| 
+make keywords context aware |-\|/-| 2015-06-09T10:00:54Z Merged pull request |-\|/-| 234 +30,785 −284 cs 3|-\|/-| 
+Fixes msbuild loading when LangVersion is missing |-\|/-| 2015-05-22T09:06:17Z Merged pull request |-\|/-| 228 +6 −3 cs json 2|-\|/-| 
+Trick to make Roslyn keep the indentation for format on enter |-\|/-| 2015-06-24T09:07:52Z Closed pull request |-\|/-| 224 +69 −13 cs 4|-\|/-| 
+Do not report namespace for non-regular C# syntax |-\|/-| 2015-05-19T05:35:57Z Merged pull request |-\|/-| 223 +73 −11 cs 5|-\|/-| 
+Members api now returns strongly typed results |-\|/-| 2015-05-15T18:20:21Z Merged pull request |-\|/-| 220 +16 −6 cs 2|-\|/-| 
+Added exception handling to project initialization |-\|/-| 2015-05-16T17:54:20Z Merged pull request |-\|/-| 219 +26 −21 cs 3|-\|/-| 
+Tell travis to use mono 3.12.0 |-\|/-| 2015-05-13T13:18:20Z Merged pull request |-\|/-| 218 +2 −0 yml 1|-\|/-| 
+deduplicating renames |-\|/-| 2015-05-13T13:21:44Z Merged pull request |-\|/-| 216 +61 −7 cs 3|-\|/-| 
+Added gotofile endpoint |-\|/-| 2015-05-07T14:07:50Z Merged pull request |-\|/-| 211 +58 −1 cs 3|-\|/-| 
+Added gotoregion endpoint |-\|/-| 2015-05-07T14:09:02Z Merged pull request |-\|/-| 210 +109 −1 cs 3|-\|/-| 
+Debug in VS2015RC, plus LangVersion and WarningsAsErrors |-\|/-| 2015-05-06T20:00:56Z Closed pull request |-\|/-| 209 +21,458 −255 gitignore yml sln cmd json cs xproj 14|-\|/-| 
+added comment about CS1024 |-\|/-| 2015-05-03T20:18:34Z Merged pull request |-\|/-| 206 +2 −0 cs 1|-\|/-| 
+Set warningsAsErrors to true and fixed warnings |-\|/-| 2015-07-03T04:47:51Z Merged pull request |-\|/-| 205 +17 −6 json cs 6|-\|/-| 
+Fixed typelookup to return the response object |-\|/-| 2015-05-03T13:02:16Z Closed pull request |-\|/-| 204 +7,753 −4 0|-\|/-| 
+Let's upgrade to dnx! |-\|/-| 2015-06-10T17:36:50Z Closed pull request |-\|/-| 203 +21,498 −213 gitignore yml Config sln cmd sh json scripts/Omnisharp cs xproj 17|-\|/-| 
+Support LangVersion property on csproj |-\|/-| 2015-05-09T00:45:05Z Merged pull request |-\|/-| 201 +38 −4 cs 2|-\|/-| 
+Add support for language services for scriptcs |-\|/-| 2015-04-30T13:43:37Z Merged pull request |-\|/-| 199 +244 −9 cs json 10|-\|/-| 
+Act like VS |-\|/-| 2015-04-30T13:56:53Z Merged pull request |-\|/-| 198 +35 −6 cs 4|-\|/-| 
+Feature highlighting |-\|/-| 2015-07-03T03:56:14Z Closed pull request |-\|/-| 194 +328 −1 gitignore cs 5|-\|/-| 
+Added support for watching project.lock.json files |-\|/-| 2015-04-28T09:10:23Z Merged pull request |-\|/-| 191 +19 −24 cs 1|-\|/-| 
+Added /stopserver. Kestrel throws exception |-\|/-| 2015-09-29T23:16:34Z Closed pull request |-\|/-| 190 +20 −0 cs 1|-\|/-| 
+Added initial run of typescript generation. |-\|/-| 2015-05-01T17:20:19Z Closed pull request |-\|/-| 186 +328 −6 editorconfig sln cmd sh kproj cs json 9|-\|/-| 
+Bug/intellisense display |-\|/-| 2015-04-25T01:40:23Z Merged pull request |-\|/-| 185 +56 −11 cs 4|-\|/-| 
+don't emit error when there no project.json files, hint to installation ... |-\|/-| 2015-04-25T10:31:58Z Merged pull request |-\|/-| 183 +41 −26 cs 5|-\|/-| 
+add flag to enable package restore, add timeout for package restore |-\|/-| 2015-04-25T10:33:03Z Merged pull request |-\|/-| 182 +62 −11 cs json 11|-\|/-| 
+don't use matcher when project pattern is **/project.json |-\|/-| 2015-04-23T09:47:14Z Merged pull request |-\|/-| 181 +13 −5 cs 1|-\|/-| 
+add a watchdog that kills stuck dnu|kpm restore processes |-\|/-| 2015-04-22T07:19:40Z Merged pull request |-\|/-| 177 +71 −36 cs 1|-\|/-| 
+send PackageRestore[Started|Finished] messages |-\|/-| 2015-04-21T11:27:59Z Merged pull request |-\|/-| 173 +22 −2 cs 4|-\|/-| 
+send message when no or not the correct runtime is around |-\|/-| 2015-04-22T11:12:18Z Merged pull request |-\|/-| 172 +53 −18 cs 7|-\|/-| 
+add logging for MSBuild project system |-\|/-| 2015-04-20T21:34:09Z Merged pull request |-\|/-| 171 +120 −4 cs 6|-\|/-| 
+Update Xunit commands for the latest aspnet.xunit.runner |-\|/-| 2015-04-18T00:02:19Z Merged pull request |-\|/-| 170 +149 −49 cs 6|-\|/-| 
+Chatty project systems |-\|/-| 2015-04-20T10:52:32Z Closed pull request |-\|/-| 169 +185 −13 cs 9|-\|/-| 
+Fix the build |-\|/-| 2015-04-17T10:47:33Z Merged pull request |-\|/-| 168 +9 −1 cs 1|-\|/-| 
+Make the build fail for realz |-\|/-| 2015-04-17T01:09:59Z Merged pull request |-\|/-| 167 +2 −1 sh 1|-\|/-| 
+comment out aspnetcore50 |-\|/-| 2015-04-17T12:17:03Z Closed pull request |-\|/-| 166 +7 −7 json 1|-\|/-| 
+guard against text changes that start or end inbetween \r\n |-\|/-| 2015-04-16T13:00:17Z Merged pull request |-\|/-| 165 +76 −3 cs 2|-\|/-| 
+Plain text docs |-\|/-| 2015-04-16T14:19:06Z Merged pull request |-\|/-| 162 +183 −4 cs 5|-\|/-| 
+Plain text docs |-\|/-| 2015-04-15T20:50:34Z Closed pull request |-\|/-| 161 +183 −3 cs 4|-\|/-| 
+Changed defaults back to recursive crawl |-\|/-| 2015-04-15T18:00:21Z Merged pull request |-\|/-| 160 +1 −1 json 1|-\|/-| 
+forward ProjectInformation events |-\|/-| 2015-04-15T15:05:51Z Merged pull request |-\|/-| 159 +30 −11 cs 3|-\|/-| 
+Changed how we scan for projects for project.json |-\|/-| 2015-04-15T05:15:10Z Merged pull request |-\|/-| 158 +89 −17 Config json cs 11|-\|/-| 
+use the full XML markup instead simple value |-\|/-| 2015-04-15T21:13:13Z Closed pull request |-\|/-| 157 +1 −1 cs 1|-\|/-| 
+Unity |-\|/-| 2015-04-15T05:13:41Z Merged pull request |-\|/-| 155 +214 −20 cs 8|-\|/-| 
+updated xunit commands for new runner |-\|/-| 2015-04-17T15:59:11Z Closed pull request |-\|/-| 154 +150 −48 cs 6|-\|/-| 
+Restore packages if needed |-\|/-| 2015-04-14T01:05:03Z Merged pull request |-\|/-| 153 +323 −168 cs 1|-\|/-| 
+Adding fixusings support |-\|/-| 2015-09-15T19:09:25Z Closed pull request |-\|/-| 150 +572 −1 sh cs 4|-\|/-| 
+Signature Help |-\|/-| 2015-04-07T23:20:54Z Merged pull request |-\|/-| 149 +676 −0 cs 5|-\|/-| 
+Fix128 |-\|/-| 2015-04-03T01:47:29Z Merged pull request |-\|/-| 148 +30 −43 cs 2|-\|/-| 
+trying to fix #128 |-\|/-| 2015-04-01T07:39:32Z Closed pull request |-\|/-| 147 +19 −12 cs 1|-\|/-| 
+fix method header being duplicated after #140 |-\|/-| 2015-03-27T21:43:12Z Merged pull request |-\|/-| 146 +21 −6 cs 3|-\|/-| 
+fix method header being duplicated after #140 |-\|/-| 2015-03-27T20:59:53Z Closed pull request |-\|/-| 145 +21 −6 cs 3|-\|/-| 
+fix method header being duplicated after #140 |-\|/-| 2015-03-27T20:56:12Z Closed pull request |-\|/-| 144 +10 −9 cs 2|-\|/-| 
+update to aspnet.xunit |-\|/-| 2015-03-24T22:27:59Z Merged pull request |-\|/-| 142 +9 −7 sh json 3|-\|/-| 
+Fixing the display text so it shows correctly |-\|/-| 2015-03-26T12:12:57Z Merged pull request |-\|/-| 140 +108 −19 cs 3|-\|/-| 
+distinguish between interfaces, classes etc for Named Types |-\|/-| 2015-03-24T22:30:21Z Merged pull request |-\|/-| 139 +70 −11 cs 4|-\|/-| 
+Removes event keyword from find symbols |-\|/-| 2015-03-20T14:43:47Z Merged pull request |-\|/-| 138 +22 −0 cs 2|-\|/-| 
+#131 /codecheck checks the workspace if filename is missing |-\|/-| 2015-03-18T11:40:23Z Merged pull request |-\|/-| 133 +49 −11 cs 4|-\|/-| 
+Create an Appveyor CI build |-\|/-| 2015-03-17T15:42:39Z Merged pull request |-\|/-| 127 +32 −4 md yml cmd 2|-\|/-| 
+run kpm restore on windows |-\|/-| 2015-03-15T23:55:46Z Merged pull request |-\|/-| 126 +1 −0 cmd 1|-\|/-| 
+fix windows launch bug |-\|/-| 2015-03-13T15:55:27Z Merged pull request |-\|/-| 125 +4 −3 cs 1|-\|/-| 
+Fixed issues with build |-\|/-| 2015-03-13T13:45:39Z Merged pull request |-\|/-| 124 +2 −1 cs json 2|-\|/-| 
+Transient buffers |-\|/-| 2015-03-13T13:35:00Z Merged pull request |-\|/-| 123 +354 −45 cs 6|-\|/-| 
+tidy usings, removed some tabs |-\|/-| 2015-03-12T17:45:10Z Merged pull request |-\|/-| 122 +14 −34 cs 11|-\|/-| 
+Adds the symbol kind to /findsymbols |-\|/-| 2015-03-13T08:19:11Z Merged pull request |-\|/-| 121 +77 −23 cs 7|-\|/-| 
+Added support for yet another rename from k to dnx |-\|/-| 2015-03-12T11:06:39Z Merged pull request |-\|/-| 120 +22 −4 cs 2|-\|/-| 
+Files changed |-\|/-| 2015-03-13T09:00:11Z Merged pull request |-\|/-| 119 +228 −4 cs 11|-\|/-| 
+Findsymbols |-\|/-| 2015-03-12T10:49:57Z Merged pull request |-\|/-| 118 +169 −0 cs 4|-\|/-| 
+Findreferences |-\|/-| 2015-03-09T10:52:38Z Merged pull request |-\|/-| 115 +95 −50 cs 7|-\|/-| 
+fix for #113 |-\|/-| 2015-03-06T16:38:02Z Merged pull request |-\|/-| 114 +33 −4 cs 3|-\|/-| 
+Support text changes for rename and code actions |-\|/-| 2015-03-06T11:41:39Z Merged pull request |-\|/-| 111 +129 −58 cs 12|-\|/-| 
+Navigate up and down.  |-\|/-| 2015-03-09T08:46:30Z Merged pull request |-\|/-| 110 +854 −6 cs 2|-\|/-| 
+Stop server support |-\|/-| 2015-03-04T18:02:19Z Closed pull request |-\|/-| 109 +20 −0 cs 1|-\|/-| 
+tackle #107, add (and fix) tests, check for valid request packet |-\|/-| 2015-03-03T10:03:24Z Merged pull request |-\|/-| 108 +64 −4 sh cs 5|-\|/-| 
+updated k runner to beta3 so we are not stuck in the past |-\|/-| 2015-03-24T22:25:33Z Closed pull request |-\|/-| 105 +4 −3 sh json 2|-\|/-| 
+moving branch to master |-\|/-| 2015-03-01T13:11:42Z Merged pull request |-\|/-| 104 +54 −16 cs 5|-\|/-| 
+upgraded NR6 |-\|/-| 2015-02-26T09:26:53Z Merged pull request |-\|/-| 103 +1 −1 json 1|-\|/-| 
+updated NRefactory 6 to alpha 3 |-\|/-| 2015-02-26T09:28:14Z Merged pull request |-\|/-| 102 +52 −1 json cs 2|-\|/-| 
+Reloadsolution |-\|/-| 2016-03-10T08:31:32Z Closed pull request |-\|/-| 101 +64 −13 cs 6|-\|/-| 
+fix Omnisharp.cmd script for windows |-\|/-| 2015-02-25T12:40:07Z Merged pull request |-\|/-| 99 +2 −2 cmd 1|-\|/-| 
+wrap calls to klr in quotes |-\|/-| 2015-02-25T10:44:36Z Merged pull request |-\|/-| 98 +2 −2 cs 1|-\|/-| 
+limit fuzzy matching  |-\|/-| 2015-02-25T10:41:43Z Merged pull request |-\|/-| 96 +49 −0 cs 2|-\|/-| 
+Update build.cmd to lowercasing  |-\|/-| 2015-02-24T19:41:20Z Merged pull request |-\|/-| 95 +1 −1 cmd 1|-\|/-| 
+fix script for beta3 |-\|/-| 2015-02-24T19:33:13Z Merged pull request |-\|/-| 94 +1 −1 scripts/Omnisharp 1|-\|/-| 
+Upgraded kruntime to beta3 |-\|/-| 2015-02-24T15:19:35Z Merged pull request |-\|/-| 92 +75 −73 yml md cmd sh json scripts/Omnisharp cs 24|-\|/-| 
+Support for standard in/out |-\|/-| 2015-02-26T10:12:30Z Merged pull request |-\|/-| 90 +848 −14 sln cs kproj 12|-\|/-| 
+Remove self references with a flag |-\|/-| 2015-02-18T22:04:25Z Closed pull request |-\|/-| 89 +11 −6 cs 3|-\|/-| 
+Automatically use [FromBody] for all complex types |-\|/-| 2015-02-17T14:57:00Z Merged pull request |-\|/-| 88 +51 −18 cs 15|-\|/-| 
+added FromBody to /projects action |-\|/-| 2015-02-17T10:20:39Z Merged pull request |-\|/-| 87 +1 −2 cs 1|-\|/-| 
+Stdio work for #69 |-\|/-| 2015-02-23T10:57:45Z Closed pull request |-\|/-| 86 +665 −4 sln cs kproj 10|-\|/-| 
+test case |-\|/-| 2015-02-15T23:37:46Z Merged pull request |-\|/-| 83 +61 −77 cs 2|-\|/-| 
+Cubitouchwhereami |-\|/-| 2015-02-16T10:57:58Z Merged pull request |-\|/-| 82 +234 −74 cs 13|-\|/-| 
+Removed MONO_MANAGED_WATCHER, polling is bad |-\|/-| 2015-02-15T10:57:32Z Merged pull request |-\|/-| 81 +1 −1 cs 1|-\|/-| 
+Added usings and tabs tests...cleaned up code |-\|/-| 2015-02-15T03:48:38Z Merged pull request |-\|/-| 80 +133 −82 cs 21|-\|/-| 
+fixing /project endpoint and refactoring |-\|/-| 2015-02-15T22:25:08Z Closed pull request |-\|/-| 79 +241 −80 cs 12|-\|/-| 
+Added an .editorconfig to dictate project formatting settings |-\|/-| 2015-02-13T16:05:58Z Merged pull request |-\|/-| 74 +14 −1 editorconfig sln 2|-\|/-| 
+Find usages in file |-\|/-| 2015-02-12T13:45:13Z Merged pull request |-\|/-| 73 +70 −9 cs 3|-\|/-| 
+sort text changes descending (by span) |-\|/-| 2015-02-11T16:09:25Z Merged pull request |-\|/-| 72 +147 −71 cs 3|-\|/-| 
+remove duplicate route registration that was introduced with merge stupi... |-\|/-| 2015-02-11T16:34:36Z Merged pull request |-\|/-| 71 +0 −43 cs 1|-\|/-| 
+Get K commands for current active project |-\|/-| 2015-02-15T13:08:45Z Closed pull request |-\|/-| 67 +110 −0 cs 3|-\|/-| 
+if the Request has buffer content and filename, always update buffer |-\|/-| 2015-02-08T19:29:59Z Merged pull request |-\|/-| 65 +109 −59 cs 20|-\|/-| 
+ensure the buffer is updated |-\|/-| 2015-02-08T14:04:38Z Merged pull request |-\|/-| 64 +2 −0 cs 1|-\|/-| 
+Codeactions |-\|/-| 2015-02-05T23:16:46Z Merged pull request |-\|/-| 63 +180 −2 cs kproj json 11|-\|/-| 
+Made process.Exited event work on mono |-\|/-| 2015-02-04T03:24:10Z Merged pull request |-\|/-| 62 +83 −27 cs 7|-\|/-| 
+Format on type |-\|/-| 2015-02-09T16:17:10Z Merged pull request |-\|/-| 61 +351 −1 cs 8|-\|/-| 
+Returning collecion of projects with code check |-\|/-| 2015-02-01T20:38:04Z Merged pull request |-\|/-| 60 +54 −1 cs 2|-\|/-| 
+when computing the outline/structure of a document consider all frameworks |-\|/-| 2015-01-30T10:10:09Z Merged pull request |-\|/-| 57 +121 −52 cs 5|-\|/-| 
+allow any change to be done in OmnisharpWorkspace |-\|/-| 2015-02-01T00:16:25Z Merged pull request |-\|/-| 56 +153 −21 cs json 6|-\|/-| 
+Changes to the structurecomputer to return locations of the Identifier and not the start of the node |-\|/-| 2015-01-27T21:54:37Z Merged pull request |-\|/-| 54 +24 −18 cs 1|-\|/-| 
+Split Omnisharp into 2 libraries |-\|/-| 2015-01-26T17:35:40Z Closed pull request |-\|/-| 53 +134 −40 sln cmd sh scripts/Omnisharp cs xproj json 54|-\|/-| 
+Intellisense now returns kind |-\|/-| 2015-01-25T20:04:38Z Merged pull request |-\|/-| 52 +26 −13 cs 3|-\|/-| 
+do not call kvm upgrade in build.cmd |-\|/-| 2015-01-25T16:47:04Z Merged pull request |-\|/-| 51 +0 −1 cmd 1|-\|/-| 
+#47 - DTHManager tries to connect before calling its callback |-\|/-| 2015-01-29T10:44:24Z Merged pull request |-\|/-| 49 +17 −1 cs 1|-\|/-| 
+Migration to beta 2 - In Progress |-\|/-| 2015-01-22T03:52:31Z Closed pull request |-\|/-| 46 +58 −36 cs kproj json 9|-\|/-| 
+code cleanup to satisfy @davidfowl ¬_¬ |-\|/-| 2015-01-20T22:00:32Z Merged pull request |-\|/-| 45 +8 −20 cs 2|-\|/-| 
+Find references - Small fix and tests |-\|/-| 2015-01-20T16:33:04Z Merged pull request |-\|/-| 44 +182 −3 cs 2|-\|/-| 
+add test commands |-\|/-| 2015-01-05T19:35:55Z Merged pull request |-\|/-| 39 +268 −0 cs 6|-\|/-| 
+Davidfowl/formatting |-\|/-| 2014-12-27T16:06:42Z Merged pull request |-\|/-| 37 +65 −10 cs 3|-\|/-| 
+Reduce memory usage in EnsureBufferUpdated |-\|/-| 2014-12-22T03:48:23Z Merged pull request |-\|/-| 35 +1 −2 cs 1|-\|/-| 
+Add .travis.yml script for Travis CI |-\|/-| 2014-12-15T21:51:39Z Merged pull request |-\|/-| 23 +6 −0 yml sh 2|-\|/-| 

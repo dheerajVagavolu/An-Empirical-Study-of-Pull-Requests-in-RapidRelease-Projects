@@ -1,0 +1,171 @@
+Expose GCP PubSub PublishSettings to Gizmo users |-\|/-| 2019-12-20T17:17:14Z Merged pull request |-\|/-| 239 +32 −3 go 2|-\|/-| 
+Log the panic message even if it's not of type error |-\|/-| 2019-11-12T15:48:52Z Merged pull request |-\|/-| 237 +5 −6 go 1|-\|/-| 
+fix typo in the WithMessageAttributes method |-\|/-| 2019-11-05T17:25:45Z Merged pull request |-\|/-| 236 +2 −2 go 1|-\|/-| 
+Allow to set SNS Message Attributes via context |-\|/-| 2019-11-05T16:59:00Z Merged pull request |-\|/-| 235 +21 −1 go 1|-\|/-| 
+Detect cloud run for stackdriver logging |-\|/-| 2019-10-30T18:16:12Z Merged pull request |-\|/-| 234 +33 −13 md go 2|-\|/-| 
+Fix typo (packge -> package) |-\|/-| 2019-10-14T14:37:38Z Merged pull request |-\|/-| 233 +1 −1 md 0|-\|/-| 
+[server/kit] rearranging stack so logger is available within HTTPMiddleware |-\|/-| 2019-09-23T17:52:21Z Merged pull request |-\|/-| 232 +19 −17 go 2|-\|/-| 
+[auth/gcp] Adding basic google web auth flow capabilities |-\|/-| 2019-09-24T15:53:49Z Merged pull request |-\|/-| 231 +836 −14 md 0|-\|/-| 
+add http listen addr to config |-\|/-| 2019-09-11T13:40:37Z Merged pull request |-\|/-| 230 +8 −3 go 5|-\|/-| 
+[server/kit] Adding log "format" functions that mimic `appengine/log` |-\|/-| 2019-09-09T20:32:59Z Merged pull request |-\|/-| 229 +40 −0 go 2|-\|/-| 
+Add marvin's EncodeProtoRequest function to server/kit |-\|/-| 2019-09-04T17:56:33Z Closed pull request |-\|/-| 228 +36 −0 go 1|-\|/-| 
+tidying up example dependencies + updating go-kit |-\|/-| 2019-09-04T18:21:15Z Merged pull request |-\|/-| 227 +120 −177 mod 1|-\|/-| 
+Clean-up indirect dependencies |-\|/-| 2019-08-07T21:38:57Z Merged pull request |-\|/-| 226 +35 −67 mod 1|-\|/-| 
+go.mod: update ocagent to fix incorrect pseudo version |-\|/-| 2019-08-07T16:17:09Z Merged pull request |-\|/-| 225 +107 −139 mod 1|-\|/-| 
+middleware: allow cors to take multiple suffixes |-\|/-| 2019-07-31T21:15:59Z Closed pull request |-\|/-| 224 +55 −36 go 2|-\|/-| 
+[server] Avoiding Prometheus memory bomb when using the new stdlib router |-\|/-| 2019-07-31T20:08:36Z Merged pull request |-\|/-| 223 +20 −10 go 2|-\|/-| 
+[server] fixing stdlib router 😅 |-\|/-| 2019-07-29T18:47:23Z Merged pull request |-\|/-| 222 +35 −87 go 3|-\|/-| 
+[server] adding a stdlib router |-\|/-| 2019-07-26T20:06:26Z Merged pull request |-\|/-| 221 +36 −0 go 2|-\|/-| 
+Adding log levels to kit/server.Log*Msg funcs |-\|/-| 2019-07-16T19:54:25Z Merged pull request |-\|/-| 220 +52 −3 go 2|-\|/-| 
+auth: expose ErrBadCreds to check for expected errs |-\|/-| 2019-06-12T14:46:17Z Merged pull request |-\|/-| 218 +17 −6 go 3|-\|/-| 
+[observe] Adding RegisterAndObserveGCP to use within the SimpleServer (or any non-sever/kit poject)) |-\|/-| 2019-06-10T21:42:17Z Merged pull request |-\|/-| 217 +55 −5 go 3|-\|/-| 
+travis: replace cache hackery with GOPROXY |-\|/-| 2019-04-30T03:10:41Z Merged pull request |-\|/-| 215 +1 −4 yml 1|-\|/-| 
+[server/kit] adding Google profiler if environment is GCP enabled |-\|/-| 2019-04-15T16:12:45Z Merged pull request |-\|/-| 214 +12 −0 sum go 2|-\|/-| 
+[auth] adding VerifyRequest for use within http middlewares |-\|/-| 2019-04-12T19:42:50Z Merged pull request |-\|/-| 213 +128 −4 go 2|-\|/-| 
+[server/kit] falling back to PORT env variable if HTTP_PORT is not set |-\|/-| 2019-04-08T14:47:40Z Merged pull request |-\|/-| 212 +8 −1 go 1|-\|/-| 
+SetLogger and panic stacktrace. |-\|/-| 2019-03-16T14:42:45Z Merged pull request |-\|/-| 210 +8 −2 go 2|-\|/-| 
+Update travis badge in readme and add canonical import paths |-\|/-| 2019-03-05T16:26:53Z Merged pull request |-\|/-| 208 +23 −18 md go sum 17|-\|/-| 
+README: include case sensitive installation |-\|/-| 2019-03-04T16:41:08Z Merged pull request |-\|/-| 207 +11 −0 md 0|-\|/-| 
+String() should not mutate object |-\|/-| 2019-03-01T21:46:46Z Merged pull request |-\|/-| 206 +18 −10 go 2|-\|/-| 
+travis: use go modules and latest Go |-\|/-| 2019-02-26T03:44:14Z Merged pull request |-\|/-| 205 +48 −69 yml Makefile sh enc sum 5|-\|/-| 
+Attempting to fix modules' indirect depedencies on master |-\|/-| 2019-03-01T21:54:55Z Merged pull request |-\|/-| 202 +46 −29 mod sum 3|-\|/-| 
+Separating example modules, removing some unneeded/old depedencies |-\|/-| 2019-02-25T18:15:48Z Merged pull request |-\|/-| 201 +317 −353 mod sum lock toml 5|-\|/-| 
+[server/kit] Removing multiple middleware calls |-\|/-| 2019-02-20T19:07:50Z Merged pull request |-\|/-| 199 +5 −1 go 1|-\|/-| 
+Extract GCP Monitoring |-\|/-| 2019-02-12T22:57:46Z Merged pull request |-\|/-| 192 +135 −91 md go 5|-\|/-| 
+Remove Deprecated Fast Router |-\|/-| 2019-02-11T18:17:05Z Merged pull request |-\|/-| 191 +0 −125 mod sum go 5|-\|/-| 
+Remove unnecessary body close |-\|/-| 2019-02-08T21:01:20Z Merged pull request |-\|/-| 189 +10 −14 go 1|-\|/-| 
+Drop support for Go 1.8 and below |-\|/-| 2019-02-08T20:49:46Z Merged pull request |-\|/-| 182 +120 −306 go 9|-\|/-| 
+Add resource information to logger of GKE, GCE and AWS EC2 |-\|/-| 2019-02-05T22:17:50Z Merged pull request |-\|/-| 180 +55 −26 go 3|-\|/-| 
+Removing go-kit/metrics/provider to save us from dependency overload |-\|/-| 2019-02-05T16:59:15Z Merged pull request |-\|/-| 177 +184 −776 go mod 4|-\|/-| 
+Initialize opencensus for GKE |-\|/-| 2019-01-29T19:46:39Z Merged pull request |-\|/-| 176 +54 −20 md go 3|-\|/-| 
+Remove explicit call to use credentials from environment variables |-\|/-| 2019-01-25T20:36:00Z Merged pull request |-\|/-| 175 +0 −4 go 1|-\|/-| 
+[auth/gcp] properly setting the service account email as the issuer and subject for IAM |-\|/-| 2019-01-17T20:57:08Z Merged pull request |-\|/-| 174 +9 −6 go mod sum 4|-\|/-| 
+[auth/gcp] adding an "iss" field to IAM tokens |-\|/-| 2018-12-27T18:00:28Z Merged pull request |-\|/-| 172 +6 −2 go 2|-\|/-| 
+Cleaning up underused and non-recommended code |-\|/-| 2019-01-02T19:42:46Z Merged pull request |-\|/-| 171 +359 −2,885 md go 6|-\|/-| 
+[server/kit] adding NewLogger to use for background logging + updated docs |-\|/-| 2018-12-11T16:46:06Z Merged pull request |-\|/-| 170 +67 −55 md go 5|-\|/-| 
+[auth/gcp] allowing IAMConfig to override default Google credentials |-\|/-| 2018-11-28T16:14:29Z Merged pull request |-\|/-| 169 +20 −1 go 1|-\|/-| 
+[server/kit] automatically enabling Stackdriver trace in Google App Engine |-\|/-| 2018-11-27T22:28:23Z Merged pull request |-\|/-| 168 +188 −42 mod 1|-\|/-| 
+[server/kit] adding protobuf go-kit funcs to mimic NYTimes/marvin |-\|/-| 2018-11-19T18:19:00Z Merged pull request |-\|/-| 167 +95 −0 go 1|-\|/-| 
+Update SQS constructor to allow custom AWS endpoint |-\|/-| 2018-11-19T16:42:36Z Merged pull request |-\|/-| 166 +1 −0 go 1|-\|/-| 
+ [server/kit] adding automatic error reporting for any panics encountered |-\|/-| 2018-11-12T18:24:18Z Merged pull request |-\|/-| 164 +306 −53 mod 1|-\|/-| 
+[server/kit] automatically registering "warm up" endpoint for GAE users |-\|/-| 2018-11-09T22:04:32Z Merged pull request |-\|/-| 163 +38 −11 go 2|-\|/-| 
+changing requestRoleCredentials |-\|/-| 2018-11-06T19:53:12Z Merged pull request |-\|/-| 162 +20 −29 go 1|-\|/-| 
+Prioritize Role over environment variables |-\|/-| 2018-11-05T23:34:23Z Merged pull request |-\|/-| 161 +7 −10 go 1|-\|/-| 
+Adding "auth" and "auth/gcp" packages |-\|/-| 2018-11-05T17:58:33Z Merged pull request |-\|/-| 160 +1,899 −227 md go 1|-\|/-| 
+[server/kit] Adding automatic Stackdriver logging for App Engine 2nd generation runtime |-\|/-| 2018-10-25T15:47:57Z Merged pull request |-\|/-| 159 +224 −18 md go 3|-\|/-| 
+fixing fetch path for go lint |-\|/-| 2018-10-16T14:59:08Z Merged pull request |-\|/-| 158 +2 −2 yml Makefile 2|-\|/-| 
+Allow overriding of AWS endpoint |-\|/-| 2018-10-18T15:55:54Z Merged pull request |-\|/-| 157 +7 −0 go 2|-\|/-| 
+expanding HTTP publishers to implement the MultiPublisher interface |-\|/-| 2018-10-09T20:17:36Z Merged pull request |-\|/-| 155 +229 −10 go 2|-\|/-| 
+Add AWS_SESSION_TOKEN into aws.Config to allow using temporary credentials |-\|/-| 2018-10-04T14:50:08Z Merged pull request |-\|/-| 154 +7 −6 go 2|-\|/-| 
+Add SQS Queue URL to SQS config to simplify configuration of SQS Subscriber |-\|/-| 2018-10-04T14:48:50Z Merged pull request |-\|/-| 153 +18 −10 go 2|-\|/-| 
+adding modules support |-\|/-| 2018-08-27T14:09:08Z Merged pull request |-\|/-| 152 +182 −0 mod sum 2|-\|/-| 
+Fix typo |-\|/-| 2018-06-21T18:22:27Z Merged pull request |-\|/-| 151 +1 −1 go 1|-\|/-| 
+ Adds ability to define shutdown function for the service |-\|/-| 2018-06-07T16:19:37Z Merged pull request |-\|/-| 150 +9 −0 go 2|-\|/-| 
+Fix typo |-\|/-| 2018-06-05T22:42:10Z Merged pull request |-\|/-| 149 +1 −1 go 1|-\|/-| 
+Revert "Improve Prometheus metrics" |-\|/-| 2018-06-05T16:02:13Z Merged pull request |-\|/-| 148 +4 −63 go 2|-\|/-| 
+gcp: Added GCP usage example |-\|/-| 2018-07-02T15:49:05Z Merged pull request |-\|/-| 147 +103 −15 md env go 3|-\|/-| 
+default handler for 404 metrics to '__404__' |-\|/-| 2018-06-04T19:22:44Z Merged pull request |-\|/-| 145 +4 −4 go 2|-\|/-| 
+Added ErrMultiRegister on multiple Register calls |-\|/-| 2018-03-30T14:37:39Z Merged pull request |-\|/-| 143 +48 −11 go 4|-\|/-| 
+allowing users to pass a custom sarama config for kafka |-\|/-| 2018-03-30T14:34:22Z Merged pull request |-\|/-| 142 +16 −4 go 2|-\|/-| 
+Improve Prometheus metrics |-\|/-| 2018-04-02T21:31:24Z Merged pull request |-\|/-| 141 +63 −4 go 2|-\|/-| 
+Update readme |-\|/-| 2018-03-14T17:22:49Z Merged pull request |-\|/-| 139 +46 −217 md go 1|-\|/-| 
+fix panic when notfound handler been set. |-\|/-| 2018-02-02T21:26:19Z Merged pull request |-\|/-| 137 +28 −1 go 2|-\|/-| 
+Add support for AssumeRoleProvider Role credentials with optional MFA |-\|/-| 2018-01-24T16:06:26Z Merged pull request |-\|/-| 135 +64 −13 go 3|-\|/-| 
+[server] Look up route template for metric names, deprecate httprouter |-\|/-| 2018-01-05T19:54:54Z Merged pull request |-\|/-| 133 +30 −4 go 4|-\|/-| 
+[server] Moving HTTP middleware above the Router |-\|/-| 2017-11-10T16:33:38Z Merged pull request |-\|/-| 130 +146 −83 go 6|-\|/-| 
+adding pprof endpoints to all kit servers by default |-\|/-| 2017-09-28T19:17:16Z Merged pull request |-\|/-| 127 +20 −0 go 1|-\|/-| 
+[server/kit] filtering out expected shutdown errors & capturing test errors properly |-\|/-| 2017-09-21T15:48:24Z Merged pull request |-\|/-| 126 +30 −11 go 2|-\|/-| 
+Swallowed kit test error |-\|/-| 2017-09-21T15:49:24Z Closed pull request |-\|/-| 125 +54 −23 go 4|-\|/-| 
+Update and rename LICENSE.md to LICENSE |-\|/-| 2017-08-24T15:39:16Z Merged pull request |-\|/-| 124 +201 −13 LICENSE md 1|-\|/-| 
+[server/kit] Always adding context values to request scoped logger |-\|/-| 2017-08-06T16:54:17Z Merged pull request |-\|/-| 122 +18 −30 go 5|-\|/-| 
+fixing context use in RPCServer example |-\|/-| 2017-08-04T19:46:51Z Merged pull request |-\|/-| 121 +7 −81 go 5|-\|/-| 
+Fix .drone.yml link and typo in README.md |-\|/-| 2017-07-19T21:15:56Z Merged pull request |-\|/-| 120 +3 −3 md 0|-\|/-| 
+adding kit/datastore 'reading-list' example to mimic marvin |-\|/-| 2017-07-19T19:06:39Z Merged pull request |-\|/-| 119 +1,631 −0 yml 2|-\|/-| 
+Fix swallowed err in client example. |-\|/-| 2017-07-13T04:13:20Z Merged pull request |-\|/-| 118 +3 −0 go 1|-\|/-| 
+adding kit.Service.RPCMiddlware because grpc only allows for 1 unary server interceptor |-\|/-| 2017-07-09T13:46:21Z Merged pull request |-\|/-| 117 +53 −20 Makefile go 5|-\|/-| 
+making server/kit projects available to GAE users |-\|/-| 2017-07-05T20:34:56Z Merged pull request |-\|/-| 115 +22 −9 go 3|-\|/-| 
+Makes gcp attributes accessible |-\|/-| 2017-07-06T16:19:08Z Merged pull request |-\|/-| 114 +19 −12 go 2|-\|/-| 
+Adds SetReceiveSettings to Subscriber |-\|/-| 2017-06-30T16:02:23Z Merged pull request |-\|/-| 112 +21 −14 go 2|-\|/-| 
+Fixes #109: Renames Sirupsen to sirupsen |-\|/-| 2017-06-29T14:11:52Z Merged pull request |-\|/-| 110 +12 −12 go 12|-\|/-| 
+Adding additional logger funcs to server/kit for convenience |-\|/-| 2017-06-23T18:22:52Z Merged pull request |-\|/-| 108 +67 −4 go 2|-\|/-| 
+Hooking kit middleware into gRPC server, adding tests to kit server & cleaning up server logs |-\|/-| 2017-06-23T16:59:31Z Merged pull request |-\|/-| 107 +366 −23 go proto 4|-\|/-| 
+Exposing server/kit.Server for unit testing |-\|/-| 2017-06-19T20:22:18Z Merged pull request |-\|/-| 106 +13 −8 go 2|-\|/-| 
+Cleaning up the kit server |-\|/-| 2017-06-19T20:02:30Z Merged pull request |-\|/-| 105 +209 −153 sh go 4|-\|/-| 
+Adding server.Config.LogJSONFormat |-\|/-| 2017-06-18T16:39:05Z Merged pull request |-\|/-| 104 +17 −2 go 2|-\|/-| 
+Add experimental gizmo/server/kit package backed by go-kit & gRPC |-\|/-| 2017-06-12T15:03:28Z Merged pull request |-\|/-| 101 +1,608 −1 yml md go yaml sh pb 8|-\|/-| 
+Add pprof trace endpoint |-\|/-| 2017-06-02T17:03:37Z Merged pull request |-\|/-| 100 +1 −0 go 1|-\|/-| 
+Handle method GET and HEAD for healthcheck requests |-\|/-| 2017-06-01T21:33:53Z Merged pull request |-\|/-| 99 +1 −0 go 1|-\|/-| 
+Remove unused import |-\|/-| 2017-05-18T21:03:20Z Merged pull request |-\|/-| 98 +0 −1 go 1|-\|/-| 
+Updating GCP pubsub to match new API |-\|/-| 2017-04-04T21:19:44Z Merged pull request |-\|/-| 95 +213 −118 go 1|-\|/-| 
+implement new AddPermissionWithContext func within TestSNSAPI |-\|/-| 2017-04-04T21:20:17Z Closed pull request |-\|/-| 94 +160 −0 go 1|-\|/-| 
+Add sconfig.Producer.Return.Successes value |-\|/-| 2017-04-04T21:23:36Z Merged pull request |-\|/-| 92 +1 −0 go 1|-\|/-| 
+Update server to support go1.7 context |-\|/-| 2017-02-21T22:05:21Z Merged pull request |-\|/-| 89 +445 −153 yml go 12|-\|/-| 
+server: support IdleTimeout |-\|/-| 2017-01-04T15:56:23Z Merged pull request |-\|/-| 88 +49 −14 yml go 7|-\|/-| 
+pubsub/aws: support restarting the subscriber after Stop is called |-\|/-| 2017-01-03T21:24:52Z Closed pull request |-\|/-| 87 +59 −1 go 2|-\|/-| 
+fixed a bug in the MonitorRPCRequest function of the RPCServer |-\|/-| 2016-11-24T13:45:53Z Merged pull request |-\|/-| 86 +7 −6 go 3|-\|/-| 
+Fix type name when using Prometheus metrics |-\|/-| 2016-11-19T15:47:43Z Merged pull request |-\|/-| 85 +1 −1 go 1|-\|/-| 
+Error message added to MonitorRPCRequest in server/rpc_server.go |-\|/-| 2016-11-19T15:55:21Z Merged pull request |-\|/-| 84 +10 −4 go 1|-\|/-| 
+Refinements to pubsub.MultiPublisher |-\|/-| 2016-11-07T19:09:06Z Merged pull request |-\|/-| 83 +11 −7 md go 3|-\|/-| 
+Adding a new HTTP Publisher type to `pubsub/gcp` for App Engine use |-\|/-| 2016-11-04T21:49:39Z Merged pull request |-\|/-| 82 +102 −4 md go 2|-\|/-| 
+Return a concrete type from GCP NewSubscriber |-\|/-| 2016-12-14T00:29:06Z Closed pull request |-\|/-| 81 +24 −13 go 2|-\|/-| 
+Updating `LogRPCWithFields` to match new `golint` conventions |-\|/-| 2016-10-17T14:53:27Z Merged pull request |-\|/-| 79 +2 −2 go 1|-\|/-| 
+Add MultiPublisher pubsub interface |-\|/-| 2016-10-17T16:13:02Z Merged pull request |-\|/-| 78 +97 −5 md go 3|-\|/-| 
+Add mysql config options |-\|/-| 2016-10-10T20:50:46Z Merged pull request |-\|/-| 77 +22 −7 go 1|-\|/-| 
+Cleaning up the rest of gorilla/context use for Go 1.7 |-\|/-| 2016-09-23T21:41:21Z Merged pull request |-\|/-| 76 +114 −55 go 9|-\|/-| 
+Fixing memory leak caused by routers in 1.7 |-\|/-| 2016-09-21T20:23:55Z Merged pull request |-\|/-| 75 +83 −32 go 5|-\|/-| 
+Metrics updates to match go-kit/kit/metrics changes |-\|/-| 2016-08-26T14:34:10Z Merged pull request |-\|/-| 72 +59 −88 go 7|-\|/-| 
+Updated number of service implementations, fixed grammar |-\|/-| 2016-08-17T13:54:58Z Merged pull request |-\|/-| 71 +2 −2 md 0|-\|/-| 
+pubsub/aws: send log messages to debug level |-\|/-| 2016-08-16T22:11:21Z Merged pull request |-\|/-| 70 +3 −3 go 1|-\|/-| 
+Fix and refactor prometheus metrics setup |-\|/-| 2016-08-12T16:10:22Z Merged pull request |-\|/-| 69 +61 −36 go 3|-\|/-| 
+Add support for Postgresql |-\|/-| 2016-08-13T20:31:00Z Merged pull request |-\|/-| 68 +78 −0 md go 3|-\|/-| 
+Switching out google.golang.org for cloud.google.com |-\|/-| 2016-08-11T16:54:29Z Merged pull request |-\|/-| 67 +33 −31 go 3|-\|/-| 
+Adding new "appengine" server.Config.Type to allow SimpleServer to run on App Engine Flexible VMs + PubSub fixes |-\|/-| 2016-08-04T16:07:00Z Merged pull request |-\|/-| 65 +69 −3 go 7|-\|/-| 
+Update config.go |-\|/-| 2016-06-13T19:34:28Z Closed pull request |-\|/-| 63 +2 −0 go 1|-\|/-| 
+Breaking up the `config` and `pubsub` packages by dependency |-\|/-| 2016-06-15T18:18:49Z Merged pull request |-\|/-| 62 +916 −893 Makefile md go 3|-\|/-| 
+Adding configs and pubsub implementations for GCP plus additional context endpoints and service types |-\|/-| 2016-06-13T15:48:32Z Merged pull request |-\|/-| 61 +661 −43 md go 10|-\|/-| 
+Change server examples to use `web.Vars` |-\|/-| 2016-05-20T00:20:24Z Merged pull request |-\|/-| 60 +8 −12 go 4|-\|/-| 
+Switching underlying metrics provider from `rcrowley/go-metrics` to `go-kit/kit/metrics` |-\|/-| 2016-05-24T17:04:21Z Merged pull request |-\|/-| 59 +430 −262 go 5|-\|/-| 
+Clarify service interface JSONEndpoints() documentation |-\|/-| 2016-05-17T17:01:14Z Merged pull request |-\|/-| 58 +27 −3 md go 3|-\|/-| 
+Extended SetLogLevel to use ParseLevel in the logrus package. |-\|/-| 2016-05-04T20:52:44Z Merged pull request |-\|/-| 55 +3 −8 go 1|-\|/-| 
+Support read preference and tag sets in Mongo configuration (#53) |-\|/-| 2016-05-02T22:40:41Z Merged pull request |-\|/-| 54 +53 −6 go 1|-\|/-| 
+config: fix LoadAWSFromEnv double indirection error |-\|/-| 2016-04-27T20:57:11Z Merged pull request |-\|/-| 52 +5 −5 go 1|-\|/-| 
+pubsub: add method ExtendDoneTimeout to SubscriberMessage |-\|/-| 2016-04-27T18:08:58Z Merged pull request |-\|/-| 51 +91 −23 go 5|-\|/-| 
+Create README.md tutorial for pub/sub communication |-\|/-| 2016-04-13T21:19:45Z Merged pull request |-\|/-| 50 +91 −0 md 0|-\|/-| 
+Adding `server.CustomHealthCheck` and `config.Server.CustomHealthCheckHandler` |-\|/-| 2016-04-19T22:02:00Z Merged pull request |-\|/-| 48 +71 −11 go 3|-\|/-| 
+changing HTTPAccessLog to be a pointer |-\|/-| 2016-04-06T18:22:32Z Merged pull request |-\|/-| 47 +49 −26 go 5|-\|/-| 
+Adding a new `server.Router` interface and `config.Server.RouterType` option with 2 implementations |-\|/-| 2016-04-04T20:56:08Z Merged pull request |-\|/-| 44 +355 −55 go 6|-\|/-| 
+Misc cleanup |-\|/-| 2016-03-28T15:32:31Z Merged pull request |-\|/-| 42 +8 −8 go 5|-\|/-| 
+Added support for custom MySQL ports |-\|/-| 2016-03-25T14:42:34Z Merged pull request |-\|/-| 41 +12 −3 go 1|-\|/-| 
+Adding Travis CI tests for Go version 1.6 |-\|/-| 2016-03-24T20:01:48Z Merged pull request |-\|/-| 40 +1 −0 yml 1|-\|/-| 
+Custom metrics registry for gizmo |-\|/-| 2016-03-24T19:35:54Z Merged pull request |-\|/-| 39 +30 −3 go 4|-\|/-| 
+Swapped if/else branches |-\|/-| 2016-03-24T15:58:13Z Merged pull request |-\|/-| 38 +4 −4 yml go 2|-\|/-| 
+Adding default Read/WriteTimeouts & configs for overriding |-\|/-| 2016-03-21T20:06:20Z Merged pull request |-\|/-| 37 +43 −2 yml go enc 6|-\|/-| 
+Fix memory leak in ContextSerivce. |-\|/-| 2016-03-10T19:45:41Z Merged pull request |-\|/-| 34 +40 −20 go 2|-\|/-| 
+Adding `config.ElastiCache` struct and helper |-\|/-| 2016-03-10T00:20:52Z Merged pull request |-\|/-| 33 +69 −11 md go 3|-\|/-| 
+Allowing `SQSMessage.Done()` to be called after `SQSSubscriber.Stop()` |-\|/-| 2016-02-29T17:47:54Z Merged pull request |-\|/-| 32 +139 −37 go 3|-\|/-| 
+adding a DynamoDB struct to the `config` package |-\|/-| 2016-02-23T20:57:54Z Merged pull request |-\|/-| 31 +22 −10 md go 4|-\|/-| 
+Renaming `ConsumeProtobuf` to `ConsumeBase64` and defaulting to 'true' |-\|/-| 2016-02-10T22:52:52Z Merged pull request |-\|/-| 29 +26 −16 go 3|-\|/-| 
+Use server-scoped registry for metrics |-\|/-| 2016-02-04T22:50:46Z Merged pull request |-\|/-| 28 +42 −94 go 13|-\|/-| 
+Fixed a couple of typos in Readme |-\|/-| 2016-02-01T16:54:21Z Merged pull request |-\|/-| 27 +1 −1 md 0|-\|/-| 
+web: simplify ParseTruthyFalsy a little further |-\|/-| 2016-01-13T20:43:14Z Merged pull request |-\|/-| 24 +1 −1 go 1|-\|/-| 
+Include ContextService into README.md |-\|/-| 2016-01-07T18:05:06Z Merged pull request |-\|/-| 23 +18 −3 md 0|-\|/-| 
+Simplify ParseTruthyFalsy function |-\|/-| 2016-01-06T16:17:46Z Merged pull request |-\|/-| 22 +5 −40 go 1|-\|/-| 
+ContextService type for SimpleServer |-\|/-| 2016-01-06T23:32:35Z Merged pull request |-\|/-| 21 +176 −0 go 4|-\|/-| 
+modified ParseTruthyFalsy to evaluate empty strings as false |-\|/-| 2016-01-04T18:58:12Z Merged pull request |-\|/-| 20 +6 −1 go 2|-\|/-| 
+Server level middleware |-\|/-| 2015-12-26T17:54:24Z Closed pull request |-\|/-| 18 +91 −15 go 6|-\|/-| 
+Replace SetLogLevel vs logrus.ParseLevel |-\|/-| 2015-12-21T22:44:29Z Closed pull request |-\|/-| 17 +5 −16 go 1|-\|/-| 
+nytimes -> NYTimes |-\|/-| 2015-12-21T19:44:02Z Merged pull request |-\|/-| 16 +116 −120 yml Makefile md sh go 27|-\|/-| 
+Added a bit more docs for SNSPublisher and also added a validity chec… |-\|/-| 2015-12-21T18:55:52Z Merged pull request |-\|/-| 15 +9 −2 go 1|-\|/-| 
+Add CoC Source |-\|/-| 2015-12-21T17:15:00Z Merged pull request |-\|/-| 14 +2 −0 md 0|-\|/-| 
+Add Code of Conduct.  |-\|/-| 2015-12-21T16:51:23Z Merged pull request |-\|/-| 13 +75 −0 md 0|-\|/-| 
+Pass golint for non-example packages |-\|/-| 2015-12-21T20:00:31Z Merged pull request |-\|/-| 12 +12 −3 go 2|-\|/-| 
+Protobuf file cleanup |-\|/-| 2015-12-21T17:11:47Z Closed pull request |-\|/-| 10 +146 −138 go proto 8|-\|/-| 
+Add make proto using protoeasy for compiling protobuf files, update example .pb.go generated files |-\|/-| 2015-12-21T17:13:31Z Closed pull request |-\|/-| 9 +86 −74 Makefile go proto 5|-\|/-| 
+Fix typos in readme |-\|/-| 2015-12-19T16:40:11Z Merged pull request |-\|/-| 8 +3 −3 md 0|-\|/-| 
+Add a Makefile, and fix golint and go vet errors |-\|/-| 2015-12-18T16:31:58Z Merged pull request |-\|/-| 7 +71 −11 md Makefile go 8|-\|/-| 
+add go to fenced code blocks |-\|/-| 2015-12-17T22:27:45Z Merged pull request |-\|/-| 6 +6 −6 md 0|-\|/-| 
+Fixed typos in contributing readme. |-\|/-| 2015-12-16T22:49:50Z Merged pull request |-\|/-| 5 +2 −2 md 0|-\|/-| 
+Documentation cleanup |-\|/-| 2015-12-16T22:50:03Z Merged pull request |-\|/-| 4 +175 −75 md go 4|-\|/-| 
+Documentation cleanup |-\|/-| 2015-12-16T21:04:52Z Closed pull request |-\|/-| 3 +15 −15 md go 3|-\|/-| 
+More cleanup |-\|/-| 2015-12-16T17:35:57Z Merged pull request |-\|/-| 2 +31 −31 go 13|-\|/-| 
+Cleanup |-\|/-| 2015-12-15T23:28:32Z Merged pull request |-\|/-| 1 +53 −53 go 15|-\|/-| 

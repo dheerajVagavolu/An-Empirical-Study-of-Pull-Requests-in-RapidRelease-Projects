@@ -1,0 +1,656 @@
+Release v13.2.1 |-\|/-| 2020-01-13T17:26:38Z Merged pull request |-\|/-| 2620 +334 −257 json csproj nuspec cs liquid 17|-\|/-| 
+Add template for Client method annotations |-\|/-| 2020-01-11T19:32:24Z Merged pull request |-\|/-| 2616 +6 −0 liquid 3|-\|/-| 
+Bump Microsoft.AspNetCore.All to 2.2.8 |-\|/-| 2020-01-09T15:17:58Z Merged pull request |-\|/-| 2611 +1 −1 csproj 1|-\|/-| 
+Add partial methods to allow changes prior to deserialization |-\|/-| 2020-01-11T19:34:18Z Merged pull request |-\|/-| 2607 +49 −8 cs liquid 5|-\|/-| 
+missed .data property i.e the ArrayBuffer |-\|/-| 2020-01-07T15:18:14Z Merged pull request |-\|/-| 2606 +2 −2 liquid 1|-\|/-| 
+Using culture invariant versions of ToUpper and ToLower while generating operation names |-\|/-| 2019-12-26T21:32:28Z Merged pull request |-\|/-| 2594 +4 −4 cs 2|-\|/-| 
+Release v13.2.0 |-\|/-| 2019-12-18T17:51:32Z Merged pull request |-\|/-| 2588 +887 −215 yml bat json csproj nuspec targets cs html js liquid 25|-\|/-| 
+Restoring special-case handling of text/plain (`IsPlainText`) responses. |-\|/-| 2019-12-18T14:33:50Z Merged pull request |-\|/-| 2587 +10 −0 liquid 1|-\|/-| 
+.Net core 3.1 |-\|/-| 2019-12-16T11:50:45Z Merged pull request |-\|/-| 2567 +510 −7 targets cs csproj nuspec props exe md js json 17|-\|/-| 
+Fix Swagger UI empty Path #2510 (#2517) |-\|/-| 2019-12-16T11:51:10Z Merged pull request |-\|/-| 2561 +1 −1 cs 1|-\|/-| 
+Nswag.AspNet.Owin PKCE support (SwaggerUi3) & Updated SwaggerUI js files … |-\|/-| 2019-12-03T12:25:27Z Merged pull request |-\|/-| 2546 +4 −3 html js 3|-\|/-| 
+Release v13.1.6 |-\|/-| 2019-11-22T17:00:02Z Merged pull request |-\|/-| 2543 +353 −276 yml md json csproj cs nuspec 13|-\|/-| 
+allow angular http request to send withCredentials |-\|/-| 2019-11-21T13:38:22Z Merged pull request |-\|/-| 2538 +76 −7 cs liquid csproj xaml 7|-\|/-| 
+Release v13.1.5 |-\|/-| 2019-11-13T23:17:25Z Merged pull request |-\|/-| 2523 +26 −26 csproj nuspec targets json cs 25|-\|/-| 
+Release v13.1.4 |-\|/-| 2019-11-13T20:21:24Z Merged pull request |-\|/-| 2520 +1,721 −1,401 json csproj nuspec targets html js css cs props 30|-\|/-| 
+Fix Swagger UI empty Path #2510 |-\|/-| 2019-12-03T12:29:10Z Merged pull request |-\|/-| 2517 +4 −2 cs 2|-\|/-| 
+ParameterDateFormat support |-\|/-| 2019-11-12T14:09:16Z Merged pull request |-\|/-| 2507 +138 −19 cs liquid nswag json xaml 17|-\|/-| 
+Use string.Empty rather than null as the default response text when throwing exceptions |-\|/-| 2019-11-04T17:54:11Z Merged pull request |-\|/-| 2505 +1 −1 liquid 1|-\|/-| 
+Update NSwag.ApiDescription.Client.targets |-\|/-| 2019-11-04T14:48:37Z Merged pull request |-\|/-| 2504 +2 −2 targets 1|-\|/-| 
+Add Default Parameters For C# Controllers |-\|/-| 2019-11-12T14:09:40Z Merged pull request |-\|/-| 2484 +2 −2 liquid 1|-\|/-| 
+NSwag.AspNetCore support PKCE |-\|/-| 2019-11-04T15:14:20Z Merged pull request |-\|/-| 2480 +42 −22 cs html js css 8|-\|/-| 
+Use 3.0 GA packages from Microsoft |-\|/-| 2019-10-17T08:22:34Z Merged pull request |-\|/-| 2457 +13 −15 nuspec csproj props targets json 5|-\|/-| 
+Release v13.1.3 |-\|/-| 2019-10-10T06:09:00Z Merged pull request |-\|/-| 2454 +1,018 −578 gitignore yml json csproj nuspec cs 25|-\|/-| 
+Add BasePath override config option for C# Controller |-\|/-| 2019-10-08T10:37:28Z Merged pull request |-\|/-| 2439 +104 −1 gitignore cs xaml 6|-\|/-| 
+Release v13.1.2 |-\|/-| 2019-09-27T20:24:16Z Merged pull request |-\|/-| 2433 +100 −88 json csproj nuspec cs 28|-\|/-| 
+Release v13.1.1 |-\|/-| 2019-09-27T14:02:43Z Merged pull request |-\|/-| 2430 +149 −117 md json csproj nuspec cs 27|-\|/-| 
+Release v13.1.0 |-\|/-| 2019-09-26T21:02:35Z Merged pull request |-\|/-| 2427 +614 −280 yml bat json csproj nuspec cs 21|-\|/-| 
+Fixed inverted logic in nswag new |-\|/-| 2019-09-15T16:42:08Z Merged pull request |-\|/-| 2406 +2 −2 cs 1|-\|/-| 
+Use OpenApiTagAttribute of class to set tags for those methods where such attribute is not set explicitly |-\|/-| 2019-10-08T12:16:49Z Merged pull request |-\|/-| 2381 +232 −1 csproj cs sln 5|-\|/-| 
+Return FileResult type for binary response if an AspNetCore controller is generated |-\|/-| 2020-01-13T15:50:30Z Merged pull request |-\|/-| 2376 +15 −0 cs 1|-\|/-| 
+Release v13.0.6 |-\|/-| 2019-08-22T19:08:34Z Merged pull request |-\|/-| 2369 +463 −282 json csproj nuspec js css cs 19|-\|/-| 
+Bring release up to date with master |-\|/-| 2019-08-22T16:45:09Z Closed pull request |-\|/-| 2368 +241 −100 csproj nuspec js css cs liquid xaml 34|-\|/-| 
+swagger bundle files updated from latest swagger-ui bundle |-\|/-| 2019-08-22T16:24:58Z Merged pull request |-\|/-| 2364 +78 −28 js css 4|-\|/-| 
+Added global alias for System in C# generation |-\|/-| 2019-08-16T14:44:54Z Merged pull request |-\|/-| 2356 +41 −0 cs liquid 2|-\|/-| 
+Release v13.0.5 |-\|/-| 2019-08-16T08:41:43Z Merged pull request |-\|/-| 2355 +471 −391 bat json csproj cs nuspec props targets 22|-\|/-| 
+Move to Preview 7 version of Microsoft.Extensions.ApiDescription.* packages |-\|/-| 2019-08-16T08:07:17Z Merged pull request |-\|/-| 2354 +56 −41 bat nuspec props targets csproj json wixproj 9|-\|/-| 
+[WIP] Add OpenApiBodyParameterAttribute |-\|/-| 2019-12-05T13:53:43Z Closed pull request |-\|/-| 2353 +45 −0 cs csproj 2|-\|/-| 
+Added System.Uri.EscapeDataString for parameter names in query string |-\|/-| 2019-08-02T16:05:53Z Merged pull request |-\|/-| 2338 +6 −6 liquid 1|-\|/-| 
+#2319 Parent parameter references should be resolved before consolidating duplicates in operation parameters |-\|/-| 2019-07-30T15:47:41Z Merged pull request |-\|/-| 2334 +2 −4 cs 1|-\|/-| 
+Use ExceptionDescription in TypeScript client |-\|/-| 2019-07-31T08:18:25Z Merged pull request |-\|/-| 2321 +2 −2 liquid 1|-\|/-| 
+Fix throwException formatting in generated Typescript clients |-\|/-| 2019-07-19T11:52:33Z Merged pull request |-\|/-| 2315 +3 −3 liquid 1|-\|/-| 
+Fixed processing of Summary and Description fields of OpenApiOperation |-\|/-| 2019-07-31T16:44:48Z Merged pull request |-\|/-| 2310 +70 −17 cs 2|-\|/-| 
+Make global scope names optional |-\|/-| 2019-07-10T13:15:18Z Merged pull request |-\|/-| 2305 +17 −7 cs 2|-\|/-| 
+Generate property as virtual |-\|/-| 2019-07-05T17:55:40Z Closed pull request |-\|/-| 2300 +137 −19 cs csproj 7|-\|/-| 
+Release v13.0.4 |-\|/-| 2019-07-05T16:44:40Z Merged pull request |-\|/-| 2298 +186 −133 md exe json csproj nuspec cs 22|-\|/-| 
+Fix default implementation of TransformToExternalPath |-\|/-| 2019-07-05T12:58:39Z Merged pull request |-\|/-| 2296 +1 −3 cs 1|-\|/-| 
+Fix default implementation of TransformToExternalPath |-\|/-| 2019-07-05T07:54:56Z Closed pull request |-\|/-| 2295 +1 −3 cs 1|-\|/-| 
+Fix JsonExceptionFilterAttribute |-\|/-| 2019-07-03T18:11:24Z Merged pull request |-\|/-| 2292 +6 −2 cs 2|-\|/-| 
+Update GitHub URLs |-\|/-| 2019-07-02T11:49:49Z Merged pull request |-\|/-| 2286 +24 −24 md csproj nuspec 23|-\|/-| 
+Ensure axios returns request headers, use responseType: blob for files |-\|/-| 2019-07-30T15:57:34Z Merged pull request |-\|/-| 2284 +10 −6 liquid 3|-\|/-| 
+Use embedded license for NuGet packages |-\|/-| 2019-07-02T10:54:29Z Merged pull request |-\|/-| 2283 +17 −17 csproj nuspec 17|-\|/-| 
+Add repository metadata to NuGet packages |-\|/-| 2019-07-02T11:55:58Z Merged pull request |-\|/-| 2282 +31 −0 csproj nuspec 17|-\|/-| 
+Release v13.0.3 |-\|/-| 2019-06-28T15:11:15Z Merged pull request |-\|/-| 2277 +821 −622 md json csproj cs 14|-\|/-| 
+added security schema info into the operation generation model |-\|/-| 2019-06-28T07:30:30Z Merged pull request |-\|/-| 2267 +8 −2 cs 2|-\|/-| 
+Added `IncludeOpenAPIAnalyzers` flag to the produced NuGet package |-\|/-| 2019-06-25T17:17:11Z Closed pull request |-\|/-| 2261 +8 −0 csproj props 2|-\|/-| 
+Release v13.0.2 |-\|/-| 2019-06-21T07:45:47Z Merged pull request |-\|/-| 2255 +501 −268 json csproj nuspec cs 16|-\|/-| 
+Enabling better binary file handling for ASPNetCore |-\|/-| 2019-06-20T18:31:43Z Merged pull request |-\|/-| 2253 +132 −3 cs 2|-\|/-| 
+Make Binary Body type configurable |-\|/-| 2019-06-20T15:48:03Z Closed pull request |-\|/-| 2241 +17 −1 cs xaml 4|-\|/-| 
+Release v13.0.1 |-\|/-| 2019-06-13T11:35:07Z Merged pull request |-\|/-| 2235 +213 −199 md json csproj nuspec liquid cs config 27|-\|/-| 
+Release v13 |-\|/-| 2019-06-11T17:28:52Z Merged pull request |-\|/-| 2229 +9,810 −8,616 gitignore md yml bat 3|-\|/-| 
+Use new Microsoft.Extensions.ApiDescription.Server package |-\|/-| 2019-06-27T09:23:17Z Merged pull request |-\|/-| 2226 +541 −389 md csproj cs nuspec 13|-\|/-| 
+Support IsFile for Axios |-\|/-| 2019-06-10T15:25:37Z Merged pull request |-\|/-| 2224 +9 −0 liquid 2|-\|/-| 
+Change default of DefaultResponseReferenceTypeNullHandling to NotNull |-\|/-| 2019-06-10T22:05:59Z Merged pull request |-\|/-| 2215 +374 −293 nswag json cs 14|-\|/-| 
+ Execute `dotnet-nswag.dll` with `--roll-forward-on-no-candidate-fx 2` |-\|/-| 2019-06-06T21:48:30Z Merged pull request |-\|/-| 2214 +4 −5 gitignore targets 2|-\|/-| 
+Added an extendable template above the C# controller class |-\|/-| 2019-06-06T15:07:12Z Merged pull request |-\|/-| 2212 +3 −0 liquid 2|-\|/-| 
+2 new extension points for Client.Class.liquid |-\|/-| 2019-06-06T07:29:19Z Merged pull request |-\|/-| 2207 +7 −0 csproj liquid 4|-\|/-| 
+TS injection and baseUrl fixes |-\|/-| 2019-06-06T16:33:35Z Merged pull request |-\|/-| 2204 +4 −4 liquid 1|-\|/-| 
+Add an extendable template above the method of a controller. |-\|/-| 2019-05-31T11:58:08Z Merged pull request |-\|/-| 2198 +4 −1 liquid 2|-\|/-| 
+Automatically handle proxy routes, paths and headers |-\|/-| 2019-06-03T10:20:01Z Merged pull request |-\|/-| 2196 +125 −47 Nginx/Dockerfile csproj sln cs dcproj conf 11|-\|/-| 
+Roll forward on console tools |-\|/-| 2019-05-31T23:44:19Z Closed pull request |-\|/-| 2195 +3 −2 json 1|-\|/-| 
+v13: Renamings and refactorings |-\|/-| 2019-05-26T23:13:52Z Merged pull request |-\|/-| 2191 +6,038 −5,820 md bat csproj nswag json nuspec cs 14|-\|/-| 
+Release v12.3.1 |-\|/-| 2019-05-21T23:06:43Z Merged pull request |-\|/-| 2187 +84 −85 md json csproj nuspec cs 26|-\|/-| 
+Release v12.3.0 |-\|/-| 2019-05-21T06:25:19Z Merged pull request |-\|/-| 2182 +627 −460 md bat json csproj nuspec targets cs 17|-\|/-| 
+AssemblyLoader to handle exceptions during directory enumeration |-\|/-| 2019-05-20T20:51:26Z Merged pull request |-\|/-| 2179 +9 −1 cs 1|-\|/-| 
+Use latest NJS and Namotion.Reflection (v13) |-\|/-| 2019-05-24T18:02:11Z Merged pull request |-\|/-| 2178 +676 −854 csproj cs 7|-\|/-| 
+Fix 'UseSwagger()' generating swagger failed when using 'swaggerToCSh… |-\|/-| 2019-05-16T16:52:14Z Merged pull request |-\|/-| 2174 +1 −1 cs 1|-\|/-| 
+Improve error message on version incompatibility |-\|/-| 2019-05-15T20:46:18Z Merged pull request |-\|/-| 2172 +1 −1 cs 1|-\|/-| 
+added multiple clients from first tag and operation id generator |-\|/-| 2019-05-15T07:56:14Z Merged pull request |-\|/-| 2169 +51 −1 cs 3|-\|/-| 
+Fix #2158 by not initializing Security collection in Operation |-\|/-| 2019-05-09T21:39:20Z Merged pull request |-\|/-| 2159 +1 −1 cs 1|-\|/-| 
+Release v12.2.5 (NJsonSchema v9.13.37) |-\|/-| 2019-05-03T16:11:45Z Merged pull request |-\|/-| 2152 +284 −191 md json csproj nuspec cs config 27|-\|/-| 
+Align with new Microsoft.Extensions.ApiDescription.Client package |-\|/-| 2019-05-06T19:34:49Z Merged pull request |-\|/-| 2148 +53 −102 bat nuspec targets sln 5|-\|/-| 
+Release v12.2.4 |-\|/-| 2019-04-26T18:01:53Z Merged pull request |-\|/-| 2144 +385 −226 json csproj nuspec cs 16|-\|/-| 
+C# Controller Generator : GenerateDtoTypes is not took into account |-\|/-| 2019-04-25T13:35:40Z Merged pull request |-\|/-| 2142 +50 −12 cs 3|-\|/-| 
+Release v12.2.3 |-\|/-| 2019-04-23T13:03:15Z Merged pull request |-\|/-| 2136 +87 −58 csproj nuspec json cs 26|-\|/-| 
+Release v12.2.2 |-\|/-| 2019-04-23T11:52:39Z Merged pull request |-\|/-| 2134 +327 −162 json csproj nuspec 12|-\|/-| 
+Release v12.2.1 |-\|/-| 2019-04-23T07:24:23Z Merged pull request |-\|/-| 2133 +71 −69 md csproj nuspec html js css map 14|-\|/-| 
+Feature/adds ability to host on different urls |-\|/-| 2019-04-25T06:45:48Z Merged pull request |-\|/-| 2130 +61 −25 cs 4|-\|/-| 
+Release v12.2.0 |-\|/-| 2019-04-21T21:37:29Z Merged pull request |-\|/-| 2128 +803 −1,570 json csproj nuspec cs html 19|-\|/-| 
+Improved binary body parameter handling |-\|/-| 2019-04-16T19:53:13Z Merged pull request |-\|/-| 2112 +171 −17 cs csproj liquid 10|-\|/-| 
+keep exception stack trace |-\|/-| 2019-04-12T08:08:16Z Closed pull request |-\|/-| 2106 +2 −2 cs 1|-\|/-| 
+Improve swagger middlewares for extensibility |-\|/-| 2019-04-12T09:33:57Z Merged pull request |-\|/-| 2105 +50 −27 cs 2|-\|/-| 
+Improve IsXmlBodyParameter, IsBinaryBodyParameter and SwaggerRespons.IsBinary() |-\|/-| 2019-04-12T08:03:29Z Merged pull request |-\|/-| 2104 +17 −7 cs 3|-\|/-| 
+Update to latest ASP.NET Core versions (CLI) |-\|/-| 2019-04-12T08:07:46Z Merged pull request |-\|/-| 2096 +12 −12 csproj 3|-\|/-| 
+Add AspNetCoreOperationSecurityScopeProcessor |-\|/-| 2019-04-12T12:51:52Z Merged pull request |-\|/-| 2090 +86 −0 cs 1|-\|/-| 
+Allow mime types that contain parameters to be identified as non binary |-\|/-| 2019-04-03T16:40:31Z Merged pull request |-\|/-| 2081 +1 −1 cs 1|-\|/-| 
+Release v12.1.0 (with patch) |-\|/-| 2019-04-02T21:25:04Z Merged pull request |-\|/-| 2073 +30 −36 cs 1|-\|/-| 
+Patches/fix gen |-\|/-| 2019-04-02T21:24:07Z Merged pull request |-\|/-| 2072 +30 −36 cs 1|-\|/-| 
+Release v12.1.0 |-\|/-| 2019-04-02T20:14:58Z Merged pull request |-\|/-| 2070 +882 −290 md json csproj nuspec 12|-\|/-| 
+v12.1.0 |-\|/-| 2019-04-02T20:13:47Z Merged pull request |-\|/-| 2069 +235 −129 json csproj nuspec 21|-\|/-| 
+Fix overwriting global consumes and produces sections |-\|/-| 2019-04-02T19:10:54Z Merged pull request |-\|/-| 2067 +246 −130 cs 7|-\|/-| 
+Use controller name from ApiExplorer instead of custom logic for AspNetCoreToSwaggerGenerator |-\|/-| 2019-04-02T19:26:59Z Merged pull request |-\|/-| 2066 +51 −1 cs 4|-\|/-| 
+Add ControllerTarget setting and CSharpControllerTarget enum |-\|/-| 2019-03-31T18:58:39Z Merged pull request |-\|/-| 2064 +64 −27 cs xaml 10|-\|/-| 
+[Typescript] ICloneable interface |-\|/-| 2019-04-01T20:24:31Z Closed pull request |-\|/-| 2063 +8 −0 cs liquid 2|-\|/-| 
+Release v12.0.20 |-\|/-| 2019-03-30T04:30:20Z Merged pull request |-\|/-| 2062 +304 −35 csproj nuspec cs sln json 26|-\|/-| 
+Allow detection of application/vnd.*+json as Json response |-\|/-| 2019-03-30T02:43:23Z Merged pull request |-\|/-| 2061 +32 −2 cs 2|-\|/-| 
+Release v12.0.19 |-\|/-| 2019-03-29T20:26:54Z Merged pull request |-\|/-| 2060 +256 −194 json csproj nuspec cs liquid 27|-\|/-| 
+Avoid fallback type name when title is available |-\|/-| 2019-03-29T19:44:55Z Merged pull request |-\|/-| 2059 +8 −5 cs 2|-\|/-| 
+Fix generation date parameters using form data |-\|/-| 2019-03-28T09:06:21Z Merged pull request |-\|/-| 2057 +2 −0 liquid 1|-\|/-| 
+Release v12.0.18 |-\|/-| 2019-03-24T03:42:47Z Merged pull request |-\|/-| 2044 +531 −271 json csproj nuspec cs 18|-\|/-| 
+Add .NET Core 3.0 support |-\|/-| 2019-09-26T18:56:07Z Merged pull request |-\|/-| 2041 +476 −139 bat json csproj cs 15|-\|/-| 
+Release v12.0.17 |-\|/-| 2019-03-20T19:24:07Z Merged pull request |-\|/-| 2035 +199 −192 json csproj nuspec liquid cs config 26|-\|/-| 
+Support header parameters for CSharp controller code generation |-\|/-| 2019-05-16T16:50:10Z Merged pull request |-\|/-| 2033 +487 −327 json csproj cs 13|-\|/-| 
+Make call to UpdateJsonSerializerSettings conditional on HasBaseClass |-\|/-| 2019-03-20T10:22:28Z Merged pull request |-\|/-| 2030 +1 −1 liquid 1|-\|/-| 
+Release v12.0.16 |-\|/-| 2019-03-19T18:55:57Z Merged pull request |-\|/-| 2029 +1,516 −1,372 json csproj nuspec cs 17|-\|/-| 
+Don't call UpdateJsonSerializerSettings in csharp template if not present |-\|/-| 2019-03-19T13:58:00Z Merged pull request |-\|/-| 2027 +2 −0 liquid 1|-\|/-| 
+Disable eslint in generated typescript clients |-\|/-| 2019-03-18T05:41:40Z Merged pull request |-\|/-| 2025 +1 −0 liquid 1|-\|/-| 
+TS: Support for url encoded requests |-\|/-| 2019-03-21T23:47:54Z Merged pull request |-\|/-| 2022 +316 −26 cs liquid 9|-\|/-| 
+Release v12.0.15 |-\|/-| 2019-03-04T22:10:50Z Merged pull request |-\|/-| 1994 +442 −292 gitignore md json csproj nuspec png js 11|-\|/-| 
+changed body to data for axios template |-\|/-| 2019-02-27T16:18:02Z Merged pull request |-\|/-| 1988 +1 −1 liquid 1|-\|/-| 
+Async Stream-based JSON serialization |-\|/-| 2019-06-10T22:42:04Z Merged pull request |-\|/-| 1976 +92 −42 csproj liquid 6|-\|/-| 
+Operation generation mode from first tag and path segments |-\|/-| 2019-04-02T14:16:05Z Merged pull request |-\|/-| 1973 +173 −0 cs csproj 5|-\|/-| 
+#1955 C# Web API Controller : Generator does not handle "required" fi… |-\|/-| 2019-04-23T11:47:41Z Merged pull request |-\|/-| 1965 +205 −56 cs 3|-\|/-| 
+Release v12.0.14 |-\|/-| 2019-02-14T21:09:45Z Merged pull request |-\|/-| 1958 +887 −196 cs csproj config 7|-\|/-| 
+No file response for 204 |-\|/-| 2019-02-18T17:03:01Z Closed pull request |-\|/-| 1957 +0 −0 0|-\|/-| 
+#1776 Omit brackets in operation names |-\|/-| 2019-02-13T16:43:59Z Merged pull request |-\|/-| 1954 +19 −2 cs 2|-\|/-| 
+Prevent empty link and script tags when custom CSS or custom JS not s… |-\|/-| 2019-02-12T20:13:03Z Merged pull request |-\|/-| 1948 +39 −10 html cs 5|-\|/-| 
+Mac compatibility |-\|/-| 2019-02-10T10:02:50Z Merged pull request |-\|/-| 1946 +8 −8 cs 1|-\|/-| 
+Add support for Axios |-\|/-| 2019-02-14T10:27:20Z Merged pull request |-\|/-| 1945 +203 −6 cs csproj liquid 10|-\|/-| 
+Add support for custom CSS and JavaScript in the Swagger UI |-\|/-| 2019-02-07T09:05:06Z Merged pull request |-\|/-| 1943 +15 −1 html cs 5|-\|/-| 
+Support to ASP.Net Core ActionResult Type on controller generator |-\|/-| 2019-04-02T19:07:23Z Merged pull request |-\|/-| 1942 +104 −2 cs xaml 7|-\|/-| 
+add a sample project for OWIN Middleware |-\|/-| 2019-02-07T10:52:34Z Merged pull request |-\|/-| 1927 +434 −0 cs csproj config 7|-\|/-| 
+Release v12.0.13 |-\|/-| 2019-01-25T17:40:37Z Merged pull request |-\|/-| 1925 +347 −274 bat json csproj nuspec targets cs 22|-\|/-| 
+No FileResponse for 204 status code |-\|/-| 2019-01-23T16:04:30Z Merged pull request |-\|/-| 1902 +245 −229 json csproj cs 16|-\|/-| 
+Rename NSwag.MSBuild.CodeGeneration to NSwag.ApiDescription.Design |-\|/-| 2019-01-18T10:18:09Z Merged pull request |-\|/-| 1898 +6 −6 bat nuspec targets sln 4|-\|/-| 
+Adds OperationSecurityScopeProcessor to NSwag.Sample.NETCore20. |-\|/-| 2019-01-18T10:15:42Z Merged pull request |-\|/-| 1894 +4 −2 cs 1|-\|/-| 
+Release v12.0.12 |-\|/-| 2019-01-16T22:35:10Z Merged pull request |-\|/-| 1889 +333 −293 json csproj cs 23|-\|/-| 
+Release v12.0.11 |-\|/-| 2019-01-09T13:52:56Z Merged pull request |-\|/-| 1877 +416 −199 md json csproj cs liquid 22|-\|/-| 
+Path param with model binder attribute |-\|/-| 2019-01-08T11:57:58Z Merged pull request |-\|/-| 1872 +57 −2 cs 3|-\|/-| 
+Add content type to file parameters; |-\|/-| 2019-01-08T12:11:17Z Merged pull request |-\|/-| 1871 +20 −3 liquid 2|-\|/-| 
+Release v12.0.10 |-\|/-| 2019-01-03T00:39:59Z Merged pull request |-\|/-| 1865 +192 −192 json csproj config 22|-\|/-| 
+Add tests for #1851 |-\|/-| 2018-12-28T19:39:39Z Closed pull request |-\|/-| 1853 +72 −0 cs 1|-\|/-| 
+Improve generation of "consumes" in ASP.NET Core, closes #420 |-\|/-| 2019-03-18T21:21:53Z Merged pull request |-\|/-| 1849 +178 −30 json ts cs 22|-\|/-| 
+Release v12.0.9 |-\|/-| 2018-12-20T19:03:07Z Merged pull request |-\|/-| 1846 +227 −213 json csproj cs liquid 23|-\|/-| 
+Release v12.0.8 |-\|/-| 2018-12-19T16:18:47Z Merged pull request |-\|/-| 1839 +240 −207 json csproj cs config 24|-\|/-| 
+v12.0.8 |-\|/-| 2018-12-19T15:47:37Z Merged pull request |-\|/-| 1838 +240 −207 json csproj cs config 24|-\|/-| 
+Remove unnecessary comment for pragma warning disable |-\|/-| 2018-12-19T22:09:05Z Merged pull request |-\|/-| 1832 +1 −1 liquid 1|-\|/-| 
+Activating Open Collective |-\|/-| 2019-01-08T13:39:34Z Merged pull request |-\|/-| 1831 +33 −1 md 0|-\|/-| 
+Release v12.0.7 |-\|/-| 2018-12-13T19:25:12Z Merged pull request |-\|/-| 1827 +225 −179 json csproj config 22|-\|/-| 
+Release v12.0.6 |-\|/-| 2018-12-12T16:57:06Z Merged pull request |-\|/-| 1820 +118 −53 md csproj cs nuspec js json 24|-\|/-| 
+Readme for npmjs.com: adding .net core 2.2 support |-\|/-| 2018-12-11T15:07:07Z Merged pull request |-\|/-| 1813 +11 −3 md 0|-\|/-| 
+Fix for .net core 2.2 support in npm package |-\|/-| 2018-12-11T15:05:42Z Merged pull request |-\|/-| 1812 +3 −3 js 1|-\|/-| 
+Release v12.0.5 |-\|/-| 2018-12-07T11:12:27Z Merged pull request |-\|/-| 1804 +2,977 −295 md bat json csproj cs liquid 26|-\|/-| 
+Use string in SwaggerPathItem instead of enum |-\|/-| 2019-01-09T14:31:29Z Merged pull request |-\|/-| 1802 +30 −46 cs 11|-\|/-| 
+Add .Net Core 2.2 support to readme |-\|/-| 2018-12-06T18:20:38Z Merged pull request |-\|/-| 1801 +1 −1 md 0|-\|/-| 
+Add .Net Core 2.2 Support |-\|/-| 2018-12-06T17:07:12Z Merged pull request |-\|/-| 1799 +2,883 −219 bat json csproj cs 13|-\|/-| 
+Release v12.0.4 |-\|/-| 2018-11-30T18:00:52Z Merged pull request |-\|/-| 1787 +218 −82 csproj cs liquid 18|-\|/-| 
+handle plain response |-\|/-| 2018-11-29T20:48:04Z Merged pull request |-\|/-| 1786 +102 −0 cs liquid 4|-\|/-| 
+Release v12.0.3 |-\|/-| 2018-11-27T18:08:46Z Merged pull request |-\|/-| 1775 +88 −88 json csproj cs 25|-\|/-| 
+Release v12.0.2: Fix configs |-\|/-| 2018-11-27T16:22:55Z Merged pull request |-\|/-| 1774 +8 −4 cs nswag 7|-\|/-| 
+Release v12.0.2 |-\|/-| 2018-11-27T13:05:24Z Merged pull request |-\|/-| 1773 +312 −182 bat json csproj cs config 24|-\|/-| 
+Test for #1653 |-\|/-| 2019-02-19T13:59:57Z Merged pull request |-\|/-| 1768 +140 −40 gitignore cs 2|-\|/-| 
+Release v12.0.1 |-\|/-| 2018-11-26T07:40:49Z Merged pull request |-\|/-| 1767 +206 −222 md json csproj html cs 23|-\|/-| 
+Use ReDoc v2 on AspNet.Owin (#1657) |-\|/-| 2018-11-22T15:45:44Z Merged pull request |-\|/-| 1764 +5 −5 html 1|-\|/-| 
+Correct the docs for AddOpenApiDocument(...) |-\|/-| 2018-11-21T15:14:11Z Merged pull request |-\|/-| 1762 +1 −1 cs 1|-\|/-| 
+Improvements to service extensions. |-\|/-| 2018-11-30T08:10:35Z Merged pull request |-\|/-| 1755 +37 −2 cs 1|-\|/-| 
+Release v12.0.0 |-\|/-| 2018-11-16T16:37:50Z Merged pull request |-\|/-| 1747 +3,618 −3,056 gitignore md bat dockerignore cs Nginx/Dockerfile json csproj sln 11|-\|/-| 
+v12 |-\|/-| 2018-11-16T08:07:28Z Merged pull request |-\|/-| 1743 +255 −254 json csproj 20|-\|/-| 
+fixed #1737 template update |-\|/-| 2018-11-15T17:13:12Z Merged pull request |-\|/-| 1741 +2 −2 liquid 1|-\|/-| 
+Add support for x-www-form-urlencoded (CSharp) |-\|/-| 2018-11-15T21:19:38Z Merged pull request |-\|/-| 1739 +74 −11 cs liquid 3|-\|/-| 
+Failing unit test for #1737 |-\|/-| 2018-11-15T06:43:22Z Closed pull request |-\|/-| 1738 +45 −0 cs 1|-\|/-| 
+Remove global.json |-\|/-| 2018-11-14T13:40:35Z Merged pull request |-\|/-| 1736 +13 −6 csproj config json 3|-\|/-| 
+Add TransformToExternalPath setting  |-\|/-| 2018-11-12T13:18:48Z Merged pull request |-\|/-| 1728 +664 −165 gitignore dockerignore cs Nginx/Dockerfile json csproj sln dcproj yml 13|-\|/-| 
+Change default settings |-\|/-| 2018-11-06T09:02:51Z Merged pull request |-\|/-| 1719 +41 −27 cs js 10|-\|/-| 
+Use AddOpenApiDocument/AddSwaggerDocument directly on services |-\|/-| 2018-11-05T17:04:39Z Merged pull request |-\|/-| 1714 +133 −147 cs 6|-\|/-| 
+[C# Client] Boolean query parameters are now lowercase |-\|/-| 2018-11-02T16:58:14Z Merged pull request |-\|/-| 1711 +4 −1 liquid 1|-\|/-| 
+Rename TagSorter -> TagsSorter to match what swagger-ui needs.  #1707 |-\|/-| 2018-11-01T23:32:09Z Merged pull request |-\|/-| 1708 +5 −11 html cs 3|-\|/-| 
+Only generate the blobToText and throwException if it is needed |-\|/-| 2018-11-05T08:16:00Z Merged pull request |-\|/-| 1705 +10 −4 cs liquid 2|-\|/-| 
+Add ApiGroupNames setting, remove ApiVersionProcessor and improve api versioning |-\|/-| 2018-11-02T16:58:45Z Merged pull request |-\|/-| 1701 +67 −26 cs csproj xaml 13|-\|/-| 
+Upgrade ASP.NET Core dependencies (x64/x86) |-\|/-| 2018-11-05T17:33:30Z Merged pull request |-\|/-| 1696 +8 −1 csproj 3|-\|/-| 
+Quick fix: Correct typo in `NSwag.Sample.NETCore20.Startup` |-\|/-| 2018-10-26T19:21:00Z Merged pull request |-\|/-| 1688 +1 −1 cs 1|-\|/-| 
+Add `IDocumentProvider` service and its implementation |-\|/-| 2018-10-26T15:24:08Z Merged pull request |-\|/-| 1678 +643 −278 gitignore cs 5|-\|/-| 
+Add `IDocumentProvider` service and its implementation (2) |-\|/-| 2018-10-23T16:48:20Z Closed pull request |-\|/-| 1677 +498 −270 gitignore cs 6|-\|/-| 
+Migrate to use Xunit |-\|/-| 2018-11-01T08:21:16Z Merged pull request |-\|/-| 1669 +476 −957 bat cs 5|-\|/-| 
+Add NSwag.MSBuild.CodeGeneration package |-\|/-| 2018-11-27T12:15:03Z Merged pull request |-\|/-| 1659 +127 −0 bat nuspec targets sln 4|-\|/-| 
+Add `IDocumentProvider` service and its implementation |-\|/-| 2018-10-26T15:24:14Z Closed pull request |-\|/-| 1658 +1,227 −70 gitignore cs 4|-\|/-| 
+Use ReDoc v2 on AspNet.Owin |-\|/-| 2018-10-10T20:18:04Z Merged pull request |-\|/-| 1657 +5 −5 html 1|-\|/-| 
+Add CreateWebHostBuilderMethod & AspNetCoreEnvironment setting, implement UseDocumentProvider & DocumentName |-\|/-| 2018-11-02T09:01:36Z Merged pull request |-\|/-| 1655 +358 −208 cs 6|-\|/-| 
+Owin SwaggerMiddleware IIS issue with SwaggerUI and Application folder |-\|/-| 2018-10-03T16:58:43Z Closed pull request |-\|/-| 1647 +0 −0 0|-\|/-| 
+Release v11.20.1 |-\|/-| 2018-10-02T20:33:56Z Merged pull request |-\|/-| 1644 +74 −50 csproj cs nuspec json xaml 30|-\|/-| 
+Release v11.20.0 |-\|/-| 2018-09-29T11:06:27Z Merged pull request |-\|/-| 1639 +1,278 −117,071 md bat nswag json csproj cs 11|-\|/-| 
+v11.20.0 |-\|/-| 2018-09-28T16:53:29Z Merged pull request |-\|/-| 1638 +83 −83 json csproj cs 25|-\|/-| 
+RxJS: Import from only if needed, closes #1533 |-\|/-| 2018-09-28T13:18:45Z Merged pull request |-\|/-| 1637 +1 −1 liquid 1|-\|/-| 
+Integrate new NJS version: Fixes for OpenAPI, improve allOf inheritance |-\|/-| 2018-09-26T15:35:52Z Merged pull request |-\|/-| 1631 +475 −317 nswag json csproj config cs liquid 24|-\|/-| 
+Update README.md |-\|/-| 2018-09-22T22:59:14Z Merged pull request |-\|/-| 1627 +1 −1 md 0|-\|/-| 
+Use versioned api explorer when available |-\|/-| 2018-09-26T15:35:06Z Merged pull request |-\|/-| 1622 +89 −17 csproj cs 5|-\|/-| 
+Added more Swagger UI 3 display settings |-\|/-| 2018-09-24T05:09:53Z Merged pull request |-\|/-| 1621 +37 −1 html cs 2|-\|/-| 
+Use ReDoc v2 |-\|/-| 2018-09-20T14:42:08Z Merged pull request |-\|/-| 1619 +5 −5 html 1|-\|/-| 
+[WIP] Added missing nuget and removed the version number |-\|/-| 2018-09-21T15:52:01Z Closed pull request |-\|/-| 1617 +10 −1 cs csproj 3|-\|/-| 
+C# Client: Enhance exception message with status and response |-\|/-| 2018-09-21T06:08:54Z Merged pull request |-\|/-| 1612 +2 −2 liquid 1|-\|/-| 
+Release v11.19.2 |-\|/-| 2018-09-14T11:53:29Z Merged pull request |-\|/-| 1609 +456 −328 json csproj cs config liquid 21|-\|/-| 
+[WIP] Switch to api explorer based required parameter handling |-\|/-| 2018-09-20T09:14:52Z Closed pull request |-\|/-| 1608 +38 −40 cs 6|-\|/-| 
+Optional/required parameters: Use RequireParametersWithoutDefault fallback setting and API Explorer |-\|/-| 2018-09-20T16:20:23Z Merged pull request |-\|/-| 1606 +169 −42 cs xaml 10|-\|/-| 
+Use IPropertyNameGenerator to determine property names of complex que… |-\|/-| 2018-09-11T14:07:30Z Merged pull request |-\|/-| 1592 +150 −9 cs liquid 4|-\|/-| 
+Release v11.19.1 |-\|/-| 2018-09-07T12:56:30Z Merged pull request |-\|/-| 1586 +891 −524 json csproj cs 27|-\|/-| 
+Release v11.19.0 |-\|/-| 2018-09-05T08:52:14Z Merged pull request |-\|/-| 1575 +1,397 −770 gitignore bat cs nswag json ps1 csproj 14|-\|/-| 
+Various fixes |-\|/-| 2018-08-31T13:38:37Z Merged pull request |-\|/-| 1569 +557 −341 cs 10|-\|/-| 
+Add local nuget repository as refPaths |-\|/-| 2018-08-30T18:18:30Z Merged pull request |-\|/-| 1561 +41 −22 nswag cs json xaml 9|-\|/-| 
+[WIP] Revert query parameter required handling |-\|/-| 2018-08-28T12:20:12Z Merged pull request |-\|/-| 1558 +69 −37 cs 5|-\|/-| 
+Release v11.18.7 |-\|/-| 2018-08-25T10:42:26Z Merged pull request |-\|/-| 1552 +529 −115 csproj cs config 16|-\|/-| 
+Adds support for ExportTypes. |-\|/-| 2018-08-20T16:17:37Z Merged pull request |-\|/-| 1543 +468 −88 csproj config cs 11|-\|/-| 
+Fixes "return null" problem in issue #1509. |-\|/-| 2018-08-17T08:30:00Z Merged pull request |-\|/-| 1542 +2 −2 liquid 1|-\|/-| 
+Perform exact request path matching for UI index |-\|/-| 2018-08-20T16:19:02Z Merged pull request |-\|/-| 1540 +2 −2 cs 2|-\|/-| 
+Release v11.18.6 |-\|/-| 2018-08-15T13:50:40Z Merged pull request |-\|/-| 1538 +36 −28 csproj liquid cs nuspec json 25|-\|/-| 
+Fixes #1536 |-\|/-| 2018-08-15T09:11:27Z Merged pull request |-\|/-| 1537 +3 −1 liquid 1|-\|/-| 
+Clears schemes if no host should be used. Fixes #1517. |-\|/-| 2018-08-11T13:44:15Z Merged pull request |-\|/-| 1534 +10 −4 cs 1|-\|/-| 
+Release v11.18.5 |-\|/-| 2018-08-10T09:14:08Z Merged pull request |-\|/-| 1532 +190 −41 csproj liquid cs nuspec json 30|-\|/-| 
+Changed instances of @(Reference) to @(ReferencePath) |-\|/-| 2018-08-10T06:51:57Z Merged pull request |-\|/-| 1531 +2 −2 csproj 2|-\|/-| 
+Release v11.18.4 |-\|/-| 2018-08-09T13:54:21Z Merged pull request |-\|/-| 1528 +29 −27 csproj nuspec json cs 28|-\|/-| 
+Release v11.18.3 |-\|/-| 2018-08-08T16:34:18Z Merged pull request |-\|/-| 1522 +922 −688 csproj config 22|-\|/-| 
+  Use ApiParameterDescription.IsRequired from API Explorer with fallback |-\|/-| 2018-08-09T21:38:55Z Merged pull request |-\|/-| 1521 +113 −5 cs 5|-\|/-| 
+Release v11.18.2 |-\|/-| 2018-08-06T10:02:11Z Merged pull request |-\|/-| 1511 +42 −35 csproj nuspec json cs 25|-\|/-| 
+Release v11.18.1 |-\|/-| 2018-08-03T13:47:00Z Merged pull request |-\|/-| 1505 +335 −236 gitignore sln cs json csproj config liquid 24|-\|/-| 
+Treat explicit parameters as string |-\|/-| 2018-08-02T11:04:19Z Merged pull request |-\|/-| 1501 +71 −8 cs 3|-\|/-| 
+allow both build and buildCrossTargeting. |-\|/-| 2018-08-01T13:09:41Z Merged pull request |-\|/-| 1498 +19 −18 nuspec props 2|-\|/-| 
+Update package |-\|/-| 2018-07-30T18:11:13Z Merged pull request |-\|/-| 1494 +1 −1 json 1|-\|/-| 
+Release v11.18.0 |-\|/-| 2018-07-30T15:16:21Z Merged pull request |-\|/-| 1493 +854 −443 bat json csproj config liquid 18|-\|/-| 
+remove extra parentheses |-\|/-| 2018-07-26T09:23:18Z Merged pull request |-\|/-| 1482 +1 −1 liquid 1|-\|/-| 
+Fixes bug where incorrect c# code generated for DeepObject parameters… |-\|/-| 2018-07-26T21:46:31Z Merged pull request |-\|/-| 1474 +202 −157 liquid cs 2|-\|/-| 
+Use yaml and json resolver, update NJS |-\|/-| 2018-07-23T09:20:08Z Closed pull request |-\|/-| 1470 +171 −82 csproj config cs 18|-\|/-| 
+Overload for FromJsonAsync with JsonReferenceResolver factory support |-\|/-| 2018-07-23T09:20:17Z Merged pull request |-\|/-| 1462 +397 −84 bat csproj config cs json yaml 23|-\|/-| 
+Release v11.17.21 |-\|/-| 2018-07-13T18:26:23Z Merged pull request |-\|/-| 1461 +141 −29 csproj cs liquid nuspec json 30|-\|/-| 
+Release v11.17.20 |-\|/-| 2018-07-11T17:01:15Z Merged pull request |-\|/-| 1457 +308 −130 csproj map config cs liquid 31|-\|/-| 
+Remove double space |-\|/-| 2018-07-11T10:16:53Z Merged pull request |-\|/-| 1456 +2 −2 cs 1|-\|/-| 
+Add title, description and version to C# controller template model |-\|/-| 2018-07-11T10:24:24Z Merged pull request |-\|/-| 1455 +9 −0 cs 1|-\|/-| 
+Add support for using swagger `operationId` property as route name in `RouteAttribute`s of generated controllers |-\|/-| 2018-07-13T18:01:15Z Merged pull request |-\|/-| 1454 +118 −6 cs liquid xaml 8|-\|/-| 
+Ensure status code is correctly set for default response |-\|/-| 2018-07-06T21:23:33Z Merged pull request |-\|/-| 1441 +154 −3 cs 2|-\|/-| 
+Fixup license headers |-\|/-| 2018-07-04T09:02:50Z Merged pull request |-\|/-| 1434 +24 −9 cs 3|-\|/-| 
+[WIP] Add LowercaseUrls support (ASP.NET Core) |-\|/-| 2018-08-03T13:39:47Z Closed pull request |-\|/-| 1433 +71 −4 cs 4|-\|/-| 
+Release v11.17.19 |-\|/-| 2018-07-02T17:09:55Z Merged pull request |-\|/-| 1431 +197 −82 csproj cs nuspec json 28|-\|/-| 
+[WIP] Add ISwaggerGeneratorSettingsFactory support |-\|/-| 2018-08-31T13:38:39Z Merged pull request |-\|/-| 1430 +647 −333 cs 8|-\|/-| 
+Release v11.17.18 |-\|/-| 2018-06-28T17:49:28Z Merged pull request |-\|/-| 1426 +163 −148 csproj config liquid cs 24|-\|/-| 
+Release v11.17.17 |-\|/-| 2018-06-26T19:04:28Z Merged pull request |-\|/-| 1417 +412 −130 csproj config cs 22|-\|/-| 
+Release v11.17.16 |-\|/-| 2018-06-22T12:38:36Z Merged pull request |-\|/-| 1414 +295 −174 xml csproj html cs config 22|-\|/-| 
+Fix return type generation for nested Task<ActionResult<T>> types |-\|/-| 2018-06-19T06:06:16Z Merged pull request |-\|/-| 1396 +1 −3 cs 1|-\|/-| 
+[WIP] Add extension data to document and operations |-\|/-| 2018-09-05T21:55:46Z Merged pull request |-\|/-| 1391 +193 −2 cs csproj 6|-\|/-| 
+Remove unnecessary enumerations |-\|/-| 2018-06-17T17:21:04Z Merged pull request |-\|/-| 1390 +111 −57 cs json htm 4|-\|/-| 
+Improve .NET Core 2.1 sample |-\|/-| 2018-06-17T17:21:06Z Merged pull request |-\|/-| 1385 +104 −43 cs json 2|-\|/-| 
+Release v11.17.14 |-\|/-| 2018-06-14T21:57:04Z Merged pull request |-\|/-| 1384 +108 −98 xml csproj config 24|-\|/-| 
+Release v11.17.14 |-\|/-| 2018-06-13T15:25:13Z Merged pull request |-\|/-| 1381 +2,855 −251 md cs json csproj nswag 13|-\|/-| 
+Updated and more efficient Schema Version detection |-\|/-| 2018-06-13T11:07:15Z Merged pull request |-\|/-| 1380 +50 −6 cs 2|-\|/-| 
+Updates for Version Detection & Addition of Bearer Authentication  |-\|/-| 2018-06-13T07:43:50Z Closed pull request |-\|/-| 1379 +35 −2 cs 3|-\|/-| 
+Write file only if there were changes |-\|/-| 2018-06-08T07:40:01Z Merged pull request |-\|/-| 1371 +9 −3 cs 1|-\|/-| 
+Release v11.17.13 |-\|/-| 2018-06-06T17:36:12Z Merged pull request |-\|/-| 1368 +38 −33 bat csproj nuspec json wixproj cs 26|-\|/-| 
+Release v11.17.12 |-\|/-| 2018-05-29T14:50:42Z Merged pull request |-\|/-| 1352 +89 −89 csproj config 22|-\|/-| 
+Release v11.17.11 |-\|/-| 2018-05-28T13:48:31Z Merged pull request |-\|/-| 1350 +30 −31 csproj cs nuspec json 26|-\|/-| 
+Release v11.17.10 |-\|/-| 2018-05-24T17:22:19Z Merged pull request |-\|/-| 1346 +131 −108 csproj config cs liquid 20|-\|/-| 
+Use TestServer to generate spec from ASP.NET Core assemblies |-\|/-| 2018-06-08T09:16:50Z Merged pull request |-\|/-| 1343 +88 −25 cs csproj sln 10|-\|/-| 
+Adds support for deep objects in query parameters. |-\|/-| 2018-06-11T21:34:14Z Merged pull request |-\|/-| 1342 +121 −0 liquid cs 4|-\|/-| 
+Use BaseDirectory to look for DLLs in AspNetCoreToSwaggerCommand |-\|/-| 2018-05-22T21:51:28Z Merged pull request |-\|/-| 1340 +8 −1 cs 1|-\|/-| 
+Add .NET Standard 1.6 to NSwag.ConsoleCore/Launcher |-\|/-| 2018-05-22T21:24:53Z Closed pull request |-\|/-| 1339 +10 −3 csproj cs 3|-\|/-| 
+Fix C# Web API Controller generator template when "wrapResponses": true |-\|/-| 2018-05-21T12:41:40Z Merged pull request |-\|/-| 1335 +1 −1 liquid 1|-\|/-| 
+Release v11.17.9 |-\|/-| 2018-05-18T23:15:04Z Merged pull request |-\|/-| 1332 +33 −31 csproj html liquid nuspec json cs 29|-\|/-| 
+Release v11.17.7 |-\|/-| 2018-05-18T17:19:27Z Merged pull request |-\|/-| 1331 +433 −219 csproj cs html 15|-\|/-| 
+Add support for Angular 6 Singleton Provider (non-test) |-\|/-| 2018-05-18T15:11:45Z Merged pull request |-\|/-| 1330 +26 −4 cs liquid 4|-\|/-| 
+Add support for RxJs 6 |-\|/-| 2018-05-18T16:36:22Z Merged pull request |-\|/-| 1329 +279 −135 cs 6|-\|/-| 
+Release v11.17.6 |-\|/-| 2018-05-16T19:51:58Z Merged pull request |-\|/-| 1325 +2,612 −146 md csproj cs 21|-\|/-| 
+Release v11.17.5 |-\|/-| 2018-05-14T17:59:29Z Merged pull request |-\|/-| 1320 +38 −27 csproj cs nuspec props json 27|-\|/-| 
+NSwagExe_Core20 broken in 11.7.4 |-\|/-| 2018-05-14T16:46:20Z Merged pull request |-\|/-| 1319 +2 −2 props 1|-\|/-| 
+Release v11.17.4 |-\|/-| 2018-05-11T23:26:26Z Merged pull request |-\|/-| 1317 +96 −55 md bat json csproj cs nuspec props js 29|-\|/-| 
+[WIP] Add .NET Core 2.1 (NetCore21) runtime |-\|/-| 2018-05-11T23:21:32Z Merged pull request |-\|/-| 1316 +44 −28 bat json cs csproj nuspec props js wixproj cmd 11|-\|/-| 
+Fixes null ref exception when generating 3.0 clients with request bodies |-\|/-| 2018-05-01T20:58:29Z Merged pull request |-\|/-| 1308 +1 −1 cs 1|-\|/-| 
+Release v11.17.3 |-\|/-| 2018-04-27T13:34:08Z Merged pull request |-\|/-| 1306 +326 −327 md csproj config liquid 18|-\|/-| 
+CSharp generator - check for null response content. |-\|/-| 2018-04-20T21:31:41Z Merged pull request |-\|/-| 1293 +6 −6 liquid 2|-\|/-| 
+Release v11.17.2 |-\|/-| 2018-04-20T20:05:08Z Merged pull request |-\|/-| 1292 +127 −105 csproj cs config 22|-\|/-| 
+Include controller type when searching for version |-\|/-| 2018-04-19T21:20:14Z Merged pull request |-\|/-| 1289 +1 −0 cs 1|-\|/-| 
+Release v11.17.1 |-\|/-| 2018-04-19T18:45:09Z Merged pull request |-\|/-| 1286 +230 −258 md csproj config cs 16|-\|/-| 
+Fix TS request url generation |-\|/-| 2018-04-16T18:22:09Z Merged pull request |-\|/-| 1276 +2 −2 liquid 1|-\|/-| 
+Release v11.17.0 |-\|/-| 2018-04-07T19:02:50Z Merged pull request |-\|/-| 1264 +2,282 −1,290 bat csproj cs config liquid 20|-\|/-| 
+Var substitution fix |-\|/-| 2018-04-03T14:39:12Z Closed pull request |-\|/-| 1254 +9 −3 cs 1|-\|/-| 
+Allow variables to contain backslashes |-\|/-| 2018-04-03T13:19:18Z Merged pull request |-\|/-| 1252 +4 −4 cs 1|-\|/-| 
+Revert to use object literal instead of Headers (TS, fetch) |-\|/-| 2018-03-26T21:47:00Z Merged pull request |-\|/-| 1239 +2 −2 liquid 1|-\|/-| 
+Release v11.16.1 |-\|/-| 2018-03-24T20:33:51Z Merged pull request |-\|/-| 1237 +643 −205 csproj html js map css cs config 33|-\|/-| 
+Move command entry points to NSwag.Commands |-\|/-| 2018-03-26T15:04:52Z Merged pull request |-\|/-| 1236 +14 −28 cs sln csproj 5|-\|/-| 
+Release v11.16.0 |-\|/-| 2018-03-21T16:49:47Z Merged pull request |-\|/-| 1229 +5,313 −1,807 md json csproj cs 6|-\|/-| 
+Add ASP.NET Core 2.1 sample |-\|/-| 2018-03-18T02:54:01Z Merged pull request |-\|/-| 1223 +2,965 −331 json cs csproj 4|-\|/-| 
+Improved exception handling in middlewares |-\|/-| 2018-03-12T10:30:40Z Merged pull request |-\|/-| 1219 +65 −20 cs 5|-\|/-| 
+Release v11.15.4 |-\|/-| 2018-03-04T06:42:54Z Merged pull request |-\|/-| 1212 +584 −319 csproj cs config liquid 16|-\|/-| 
+Do not call UpdateJsonSerializerSettings if method does not exists. |-\|/-| 2018-02-28T15:19:18Z Closed pull request |-\|/-| 1208 +2 −0 liquid 1|-\|/-| 
+Added explicit conversion from byte[] to Base64 string |-\|/-| 2018-02-23T20:13:14Z Merged pull request |-\|/-| 1206 +4 −0 liquid 1|-\|/-| 
+Bugfix/1075 |-\|/-| 2018-02-15T15:07:11Z Merged pull request |-\|/-| 1194 +70 −8 cs liquid 3|-\|/-| 
+Release v11.15.3 |-\|/-| 2018-02-14T08:06:37Z Merged pull request |-\|/-| 1192 +24 −24 csproj cs nuspec json 24|-\|/-| 
+Release v11.15.2 |-\|/-| 2018-02-13T23:36:00Z Merged pull request |-\|/-| 1191 +208 −198 csproj config cs 22|-\|/-| 
+Release v11.15.1 |-\|/-| 2018-02-12T16:39:53Z Merged pull request |-\|/-| 1186 +215 −191 csproj cs config liquid 19|-\|/-| 
+Release v11.15.0 |-\|/-| 2018-02-11T13:25:33Z Merged pull request |-\|/-| 1182 +363 −249 bat csproj cs 9|-\|/-| 
+Release v11.14.1 |-\|/-| 2018-02-08T10:43:20Z Merged pull request |-\|/-| 1181 +36 −34 csproj cs nuspec json 24|-\|/-| 
+Fixed samples |-\|/-| 2018-02-07T16:36:28Z Merged pull request |-\|/-| 1180 +164 −164 csproj config cs 17|-\|/-| 
+Release v11.14.0 |-\|/-| 2018-02-07T15:19:20Z Merged pull request |-\|/-| 1178 +8,449 −478 gitignore bat csproj cs config 15|-\|/-| 
+Remove NSwag.AspNetCore.Launcher dependency from NSwag.ConsoleCore |-\|/-| 2018-02-07T11:40:30Z Merged pull request |-\|/-| 1176 +16 −3 gitignore cs csproj 3|-\|/-| 
+Release v11.13.2 |-\|/-| 2018-02-05T15:33:51Z Merged pull request |-\|/-| 1174 +236 −186 csproj cs config 17|-\|/-| 
+Release v11.13.2 |-\|/-| 2018-02-01T13:41:24Z Merged pull request |-\|/-| 1169 +170 −112 csproj config cs 20|-\|/-| 
+Release v11.13.1 |-\|/-| 2018-01-26T11:51:36Z Merged pull request |-\|/-| 1155 +24 −24 csproj cs nuspec json 24|-\|/-| 
+Release v11.13.0 |-\|/-| 2018-01-25T08:02:14Z Merged pull request |-\|/-| 1153 +2,605 −638 md csproj html js map css cs 16|-\|/-| 
+Set swagger parameter defaults when generating partial controllers |-\|/-| 2018-03-19T07:47:11Z Merged pull request |-\|/-| 1147 +179 −15 cs csproj liquid 8|-\|/-| 
+Separate Logic Between Required and Optional Headers for Null Checking and Throwing Exceptions |-\|/-| 2018-01-08T10:04:46Z Merged pull request |-\|/-| 1131 +13 −4 liquid 1|-\|/-| 
+Fix for Empty Http Request Headers When the Value for the Header Is Null |-\|/-| 2018-01-05T15:44:08Z Merged pull request |-\|/-| 1126 +4 −2 liquid 1|-\|/-| 
+Introduce AspNetCoreSwaggerMiddleware |-\|/-| 2018-01-05T15:51:40Z Merged pull request |-\|/-| 1118 +741 −6 cs csproj 6|-\|/-| 
+Release v11.12.16 |-\|/-| 2017-12-22T09:12:54Z Merged pull request |-\|/-| 1112 +120 −124 csproj cs config liquid 13|-\|/-| 
+Release v11.12.15  |-\|/-| 2017-12-21T17:07:01Z Merged pull request |-\|/-| 1109 +89 −89 csproj config liquid 22|-\|/-| 
+Fixed unit test |-\|/-| 2017-12-20T15:25:55Z Merged pull request |-\|/-| 1107 +1 −1 cs 1|-\|/-| 
+Release v11.12.14 |-\|/-| 2017-12-20T15:12:14Z Merged pull request |-\|/-| 1106 +451 −247 csproj html cs config liquid 18|-\|/-| 
+Release v11.12.13 |-\|/-| 2017-12-13T10:55:08Z Merged pull request |-\|/-| 1100 +94 −94 csproj config 20|-\|/-| 
+Release v11.12.12 |-\|/-| 2017-12-11T18:41:51Z Merged pull request |-\|/-| 1099 +470 −404 csproj config 13|-\|/-| 
+Release v11.12.11 |-\|/-| 2017-12-08T16:12:25Z Merged pull request |-\|/-| 1096 +528 −426 csproj html cs config liquid 22|-\|/-| 
+Expand environment variables when using configuration file |-\|/-| 2017-12-10T23:13:46Z Closed pull request |-\|/-| 1094 +6 −2 cs 1|-\|/-| 
+Fixed unit test for AngularTest |-\|/-| 2017-12-06T11:38:08Z Merged pull request |-\|/-| 1092 +1 −1 cs 1|-\|/-| 
+We forgot to do this cast |-\|/-| 2017-12-04T12:44:44Z Merged pull request |-\|/-| 1089 +2 −2 liquid 1|-\|/-| 
+Release v11.12.10 |-\|/-| 2017-12-01T14:55:59Z Merged pull request |-\|/-| 1085 +312 −330 md csproj config cs liquid 15|-\|/-| 
+fixed method generation with WrapResponse #1079 |-\|/-| 2017-11-30T14:34:29Z Merged pull request |-\|/-| 1080 +2 −3 liquid 1|-\|/-| 
+Move npm to engines in packages.json |-\|/-| 2017-11-23T01:05:27Z Merged pull request |-\|/-| 1073 +1 −1 json 1|-\|/-| 
+Problems to recollet errors in HttpClientModule Angular 4.3+ |-\|/-| 2017-11-27T17:44:47Z Merged pull request |-\|/-| 1071 +8 −8 liquid 4|-\|/-| 
+Release v11.12.9 |-\|/-| 2017-11-16T09:42:53Z Merged pull request |-\|/-| 1066 +75 −75 csproj cs json 20|-\|/-| 
+Release v11.12.8 |-\|/-| 2017-11-14T20:17:22Z Merged pull request |-\|/-| 1065 +298 −235 csproj config cs 16|-\|/-| 
+Recognize use of Microsoft.AspNetCore.Mvc.FromFormAttribute |-\|/-| 2017-11-10T11:27:09Z Merged pull request |-\|/-| 1055 +37 −1 cs 3|-\|/-| 
+Release v11.12.7 |-\|/-| 2017-11-08T18:44:59Z Merged pull request |-\|/-| 1053 +153 −96 csproj cs liquid 22|-\|/-| 
+Release v11.12.6 |-\|/-| 2017-11-08T14:57:14Z Merged pull request |-\|/-| 1051 +180 −180 csproj config 22|-\|/-| 
+Release v11.12.5 |-\|/-| 2017-11-08T06:52:14Z Merged pull request |-\|/-| 1050 +91 −91 csproj cs 18|-\|/-| 
+Release v11.12.4 |-\|/-| 2017-11-07T18:13:06Z Merged pull request |-\|/-| 1049 +74 −71 csproj cs nuspec json 24|-\|/-| 
+Release v11.12.3 |-\|/-| 2017-11-07T08:59:38Z Merged pull request |-\|/-| 1047 +147 −147 csproj config 22|-\|/-| 
+Add support for aspnetcore2swagger command |-\|/-| 2018-01-05T15:56:05Z Merged pull request |-\|/-| 1046 +1,104 −7 csproj cs 3|-\|/-| 
+Fixed package versions |-\|/-| 2017-11-06T12:52:56Z Merged pull request |-\|/-| 1045 +3 −3 nuspec json 3|-\|/-| 
+Release v11.12.2 |-\|/-| 2017-11-06T12:41:00Z Merged pull request |-\|/-| 1044 +157 −157 csproj config liquid 18|-\|/-| 
+Release v11.12.1 |-\|/-| 2017-11-06T10:40:54Z Merged pull request |-\|/-| 1041 +39 −35 csproj snk nuspec json 30|-\|/-| 
+Release v11.12.0 |-\|/-| 2017-11-06T09:59:42Z Merged pull request |-\|/-| 1040 +4,500 −22,361 md png csproj cs config 12|-\|/-| 
+WIP aspnetcore2swaggercommand  |-\|/-| 2017-12-15T02:25:53Z Closed pull request |-\|/-| 1034 +844 −2 cs csproj targets 6|-\|/-| 
+Refactored NSwag.SwaggerGeneration.AspNetCore |-\|/-| 2017-11-01T08:17:47Z Merged pull request |-\|/-| 1028 +151 −259 cs csproj nuspec snk config 21|-\|/-| 
+Release v11.11.3 |-\|/-| 2017-10-28T12:30:41Z Merged pull request |-\|/-| 1027 +319 −181 csproj config cs liquid 20|-\|/-| 
+Release v11.11.2 |-\|/-| 2017-10-26T16:15:21Z Merged pull request |-\|/-| 1022 +399 −461 csproj config cs 14|-\|/-| 
+Release v11.11.1 |-\|/-| 2017-10-25T20:40:56Z Merged pull request |-\|/-| 1018 +2,562 −563 csproj cs config 15|-\|/-| 
+Introduce seperator for StringArrayConverter, Fixes #1013 |-\|/-| 2017-10-25T06:36:32Z Merged pull request |-\|/-| 1014 +13 −3 cs xaml 2|-\|/-| 
+Release v11.11.0 |-\|/-| 2017-10-19T14:54:53Z Merged pull request |-\|/-| 1005 +241 −204 csproj config cs tt 18|-\|/-| 
+Release v11.10.0 |-\|/-| 2017-10-17T16:05:00Z Merged pull request |-\|/-| 1003 +1,299 −622 csproj css html 6|-\|/-| 
+Fix compilation issues of generated Angular client |-\|/-| 2017-10-17T14:51:16Z Merged pull request |-\|/-| 1002 +5 −5 cs tt 2|-\|/-| 
+Allow environment variables in search path, assemblies |-\|/-| 2017-10-13T09:28:34Z Merged pull request |-\|/-| 996 +1 −0 cs 1|-\|/-| 
+WIP Initial work for NSwag.SwaggerGenerator.AspNetCore |-\|/-| 2017-10-31T19:31:09Z Merged pull request |-\|/-| 994 +2,062 −224 cs csproj 6|-\|/-| 
+Release v11.9.3 |-\|/-| 2017-10-12T16:49:21Z Merged pull request |-\|/-| 993 +203 −181 csproj config cs 21|-\|/-| 
+Release v11.9.2 |-\|/-| 2017-10-11T13:38:43Z Merged pull request |-\|/-| 989 +2,921 −1,417 csproj config cs 19|-\|/-| 
+Release v11.9.1 |-\|/-| 2017-10-09T07:18:59Z Merged pull request |-\|/-| 985 +809 −544 csproj cs config tt 22|-\|/-| 
+WIP Custom CSharp single client class operation name generator. |-\|/-| 2017-10-27T16:41:52Z Merged pull request |-\|/-| 978 +129 −0 cs 4|-\|/-| 
+Release v11.9.0 |-\|/-| 2017-10-03T15:55:07Z Merged pull request |-\|/-| 975 +273 −166 csproj config cs 18|-\|/-| 
+Fix #972 Response references are not resolved |-\|/-| 2017-10-03T15:04:33Z Closed pull request |-\|/-| 973 +118 −1 cs csproj 3|-\|/-| 
+Release v11.8.3 |-\|/-| 2017-09-28T16:26:00Z Merged pull request |-\|/-| 969 +33 −27 csproj cs nuspec json 21|-\|/-| 
+v11.8.2, fix: Save document with relative paths |-\|/-| 2017-09-26T08:18:21Z Merged pull request |-\|/-| 965 +20 −20 csproj cs nuspec json 20|-\|/-| 
+Release v11.8.1 (with fix) |-\|/-| 2017-09-25T16:43:22Z Merged pull request |-\|/-| 964 +3 −5 cs 2|-\|/-| 
+Release v11.8.1 |-\|/-| 2017-09-25T16:19:52Z Merged pull request |-\|/-| 963 +32 −19 csproj cs nuspec json 20|-\|/-| 
+Release v11.8.0  |-\|/-| 2017-09-25T14:17:47Z Merged pull request |-\|/-| 962 +2,169 −1,785 bat csproj cs 6|-\|/-| 
+Use full/core command line binaries in NSwagStudio and fallback #953 |-\|/-| 2017-09-21T17:34:15Z Merged pull request |-\|/-| 960 +1,021 −523 bat csproj cs 7|-\|/-| 
+Fix #956 NSwag.Npm: the package requires npm ^3.10.8 |-\|/-| 2017-09-21T09:27:33Z Merged pull request |-\|/-| 957 +2 −2 json 1|-\|/-| 
+Release v11.7.2 |-\|/-| 2017-09-15T15:35:29Z Merged pull request |-\|/-| 951 +118,240 −967 csproj cs 5|-\|/-| 
+Add UseSwaggerReDoc() and UseSwaggerUi3() |-\|/-| 2017-09-13T15:47:27Z Merged pull request |-\|/-| 944 +117,610 −410 cs csproj 4|-\|/-| 
+Release v11.7.1 |-\|/-| 2017-09-11T19:21:51Z Merged pull request |-\|/-| 940 +21 −21 csproj nuspec json cs 21|-\|/-| 
+Fixed versions |-\|/-| 2017-09-11T19:13:16Z Merged pull request |-\|/-| 939 +10 −10 csproj 10|-\|/-| 
+Release v11.7.0 |-\|/-| 2017-09-11T18:48:26Z Merged pull request |-\|/-| 938 +552 −2,906 gitignore csproj cs config 18|-\|/-| 
+Refactoring (v11.7.0) |-\|/-| 2017-09-11T17:55:44Z Merged pull request |-\|/-| 937 +417 −449 csproj config cs 21|-\|/-| 
+Update SwaggerToCSharpGeneratorSettings.cs |-\|/-| 2017-09-11T17:56:02Z Closed pull request |-\|/-| 930 +2 −2 cs 1|-\|/-| 
+Release v11.6.1 |-\|/-| 2017-09-05T10:45:51Z Merged pull request |-\|/-| 921 +24 −24 md csproj nuspec props json cs 22|-\|/-| 
+Release v11.6.0 |-\|/-| 2017-09-04T20:56:11Z Merged pull request |-\|/-| 919 +3,545 −1,749 gitignore bat exe csproj cs 10|-\|/-| 
+Fix issue with .net core 2.0 with wrong folder structure |-\|/-| 2017-08-31T08:17:03Z Merged pull request |-\|/-| 915 +1 −1 nuspec 1|-\|/-| 
+Improved CI build |-\|/-| 2017-08-31T06:27:05Z Merged pull request |-\|/-| 914 +1,397 −15 gitignore bat exe json nuspec props 8|-\|/-| 
+Release v11.5.1 |-\|/-| 2017-08-29T22:53:54Z Merged pull request |-\|/-| 910 +2,414 −71 bat csproj nuspec json 20|-\|/-| 
+Release v11.5.0 |-\|/-| 2017-08-29T15:36:51Z Merged pull request |-\|/-| 907 +2,484 −1,529 gitignore md bat csproj cs config 16|-\|/-| 
+Added CancellationToken to web api controller |-\|/-| 2017-08-25T15:52:46Z Merged pull request |-\|/-| 906 +395 −126 cs csproj 5|-\|/-| 
+Release v11.4.3 |-\|/-| 2017-08-24T11:36:21Z Merged pull request |-\|/-| 903 +756 −318 csproj cs tt 18|-\|/-| 
+Release v11.4.2 |-\|/-| 2017-08-23T16:47:13Z Merged pull request |-\|/-| 900 +266 −88 csproj config 21|-\|/-| 
+Release v11.4.1 |-\|/-| 2017-08-23T06:41:42Z Merged pull request |-\|/-| 896 +38 −34 csproj cs tt nuspec json 23|-\|/-| 
+Add WrapResponses to Angular client |-\|/-| 2017-08-25T17:45:52Z Merged pull request |-\|/-| 894 +184 −2,000 gitignore cs tt 7|-\|/-| 
+Release v11.4.0 |-\|/-| 2017-08-22T17:22:38Z Merged pull request |-\|/-| 893 +6,793 −6,203 bat json csproj cs config 18|-\|/-| 
+Release v9.4.7 |-\|/-| 2017-08-22T16:12:04Z Closed pull request |-\|/-| 892 +922 −368 bat json cs csproj 15|-\|/-| 
+Add support for .NET Core 2.0 |-\|/-| 2017-08-16T17:07:33Z Merged pull request |-\|/-| 888 +33 −22 bat json csproj config js 12|-\|/-| 
+delete legacy file global.json |-\|/-| 2017-08-16T09:58:27Z Merged pull request |-\|/-| 886 +0 −6 json 1|-\|/-| 
+SwaggerToCSharpWebApiControllerGenerator - add attributes on routes problem #870 |-\|/-| 2017-08-16T08:50:56Z Closed pull request |-\|/-| 885 +140 −7 cs csproj tt 8|-\|/-| 
+Optional generation of abstract WebAPI controllers |-\|/-| 2017-08-16T15:44:14Z Merged pull request |-\|/-| 884 +478 −96 cs csproj 5|-\|/-| 
+Release v11.3.5 |-\|/-| 2017-08-14T17:22:15Z Merged pull request |-\|/-| 882 +3,157 −1,220 md bat csproj config cs 13|-\|/-| 
+Added support for --x86 (NPM, MSBuild, NSwagStudio) |-\|/-| 2017-08-10T10:56:06Z Merged pull request |-\|/-| 876 +355 −110 bat csproj nuspec props md js sln 6|-\|/-| 
+Use TransferRequestHandler instead of runAllManagedModulesForAllRequests |-\|/-| 2017-08-09T12:54:32Z Merged pull request |-\|/-| 874 +2 −1 config 1|-\|/-| 
+Added OutputType directive to NSwag.ConsoleCore |-\|/-| 2017-07-19T19:02:59Z Merged pull request |-\|/-| 851 +1 −0 csproj 1|-\|/-| 
+Release v11.3.3 |-\|/-| 2017-07-15T13:56:06Z Merged pull request |-\|/-| 847 +1,385 −809 csproj config 21|-\|/-| 
+Release v11.3.2 |-\|/-| 2017-07-14T13:11:09Z Merged pull request |-\|/-| 846 +269 −273 cs csproj 8|-\|/-| 
+Release v11.3.1 |-\|/-| 2017-07-13T18:16:17Z Merged pull request |-\|/-| 844 +730 −549 md csproj config cs 16|-\|/-| 
+Release v11.3.0 |-\|/-| 2017-07-10T10:35:50Z Merged pull request |-\|/-| 840 +5,165 −1,117 md csproj config cs 12|-\|/-| 
+Unified and customizable JSON serialization settings |-\|/-| 2017-07-03T13:46:03Z Merged pull request |-\|/-| 827 +72 −21 cs tt nswag xaml 7|-\|/-| 
+Add support for changing default date/time parameter formatting |-\|/-| 2017-06-29T15:43:23Z Merged pull request |-\|/-| 826 +24 −6 cs tt xaml 5|-\|/-| 
+Exclude url test |-\|/-| 2017-06-28T18:28:14Z Merged pull request |-\|/-| 824 +1 −1 cs 1|-\|/-| 
+Release v11.2.0 |-\|/-| 2017-06-28T18:21:40Z Merged pull request |-\|/-| 823 +31,484 −709 csproj cs config 13|-\|/-| 
+Fix clients encoding parameter values into URIs using current culture |-\|/-| 2017-06-25T21:02:03Z Merged pull request |-\|/-| 819 +701 −135 cs tt 4|-\|/-| 
+Release v11.1.2 |-\|/-| 2017-06-20T21:28:47Z Merged pull request |-\|/-| 809 +202 −106 csproj config cs 16|-\|/-| 
+Release v11.1.1 |-\|/-| 2017-06-18T21:01:23Z Merged pull request |-\|/-| 803 +960 −842 bat csproj cs config 17|-\|/-| 
+Release v11.1.0 |-\|/-| 2017-06-15T16:08:53Z Merged pull request |-\|/-| 796 +1,359 −1,676 md exe csproj cs 11|-\|/-| 
+Release v11 |-\|/-| 2017-06-13T16:33:08Z Merged pull request |-\|/-| 793 +139,656 −12,440 md bat csproj cs config 9|-\|/-| 
+Fix exception when using custom route attributes |-\|/-| 2017-06-07T21:16:20Z Merged pull request |-\|/-| 784 +181 −18 cs 4|-\|/-| 
+Follow class hierarchy when locating RouteAttributes |-\|/-| 2017-06-07T05:30:00Z Merged pull request |-\|/-| 783 +85 −5 csproj cs 3|-\|/-| 
+Bugfixes for when Model.WrapResponses is enabled |-\|/-| 2017-06-04T14:28:32Z Merged pull request |-\|/-| 779 +8 −4 tt 1|-\|/-| 
+Release v10.6 |-\|/-| 2017-04-25T15:46:02Z Merged pull request |-\|/-| 739 +526 −340 cs csproj config 21|-\|/-| 
+Release v10.5 |-\|/-| 2017-04-21T11:59:20Z Merged pull request |-\|/-| 735 +376 −330 cs csproj tt 23|-\|/-| 
+Release v10.4 |-\|/-| 2017-04-20T09:39:43Z Merged pull request |-\|/-| 732 +320 −296 cs csproj config 23|-\|/-| 
+Release v10.3 |-\|/-| 2017-04-19T12:00:23Z Merged pull request |-\|/-| 729 +2,319 −2,313 cs csproj config 23|-\|/-| 
+Release v10.2 |-\|/-| 2017-04-18T17:45:09Z Merged pull request |-\|/-| 728 +1,815 −1,556 cs csproj 11|-\|/-| 
+Correctly serialize readonly properties |-\|/-| 2017-04-12T10:25:12Z Merged pull request |-\|/-| 718 +115 −71 cs csproj 4|-\|/-| 
+Release v10.1 |-\|/-| 2017-04-10T17:27:28Z Merged pull request |-\|/-| 714 +287 −283 md cs csproj tt 13|-\|/-| 
+Fix ignoring parameters |-\|/-| 2017-04-10T16:54:10Z Merged pull request |-\|/-| 713 +2 −2 cs 1|-\|/-| 
+Release v10.0 |-\|/-| 2017-04-07T16:33:43Z Merged pull request |-\|/-| 708 +10,444 −8,063 gitignore md cs csproj 6|-\|/-| 
+Typescript type improvements |-\|/-| 2017-03-30T05:21:24Z Merged pull request |-\|/-| 698 +3,747 −2,971 cs tt 4|-\|/-| 
+Fix SwaggerDocument.BasePath when MiddlewareBasePath is null |-\|/-| 2017-03-21T22:44:40Z Merged pull request |-\|/-| 689 +2 −2 cs 2|-\|/-| 
+Addressing several routing issues. |-\|/-| 2017-03-20T14:57:06Z Merged pull request |-\|/-| 683 +205 −45 cs csproj js map 12|-\|/-| 
+Release v9.12 |-\|/-| 2017-03-16T15:18:48Z Merged pull request |-\|/-| 681 +468 −285 bat json cs csproj config 23|-\|/-| 
+Release v9.11 |-\|/-| 2017-03-14T19:33:31Z Merged pull request |-\|/-| 677 +2,275 −1,775 gitattributes cs csproj config xproj json 22|-\|/-| 
+Add NSwagDir property to the project properties |-\|/-| 2017-03-13T10:28:43Z Merged pull request |-\|/-| 673 +2 −1 props 1|-\|/-| 
+TypeScript response code handling bug |-\|/-| 2017-03-13T18:35:43Z Closed pull request |-\|/-| 667 +236 −159 cs csproj 2|-\|/-| 
+Added the HttpClientType property which allow you to control the type of the HttpClient.  |-\|/-| 2017-03-12T13:37:21Z Merged pull request |-\|/-| 666 +126 −22 cs tt 6|-\|/-| 
+Release v9.10 |-\|/-| 2017-03-09T09:41:55Z Merged pull request |-\|/-| 663 +285 −229 json cs tt 17|-\|/-| 
+Release v9.9 |-\|/-| 2017-03-07T17:01:30Z Merged pull request |-\|/-| 659 +545 −553 cs csproj config json 28|-\|/-| 
+Fix external reference to jsonschema ($ref with path to another file) |-\|/-| 2017-03-09T17:38:54Z Closed pull request |-\|/-| 658 +3 −1 cs 1|-\|/-| 
+Release v9.8 |-\|/-| 2017-03-06T14:43:41Z Merged pull request |-\|/-| 654 +607 −539 cs json tt 15|-\|/-| 
+Release v9.7 |-\|/-| 2017-03-03T07:32:10Z Merged pull request |-\|/-| 648 +11,718 −19,666 gitignore md png vsdx bat csproj cs 7|-\|/-| 
+Added support for all Web API routing conventions. |-\|/-| 2017-03-01T20:11:05Z Merged pull request |-\|/-| 645 +10 −4 cs 1|-\|/-| 
+Adds support for custom HttpParameterBinders and Type Mapped primitives. |-\|/-| 2017-02-28T21:02:17Z Merged pull request |-\|/-| 636 +361 −93 csproj cs 2|-\|/-| 
+Use DynamicApis.HttpGetAsync to resolve encoding issues |-\|/-| 2017-02-27T21:01:21Z Closed pull request |-\|/-| 635 +39 −44 cs 1|-\|/-| 
+Update TS tools and settings |-\|/-| 2017-02-27T20:39:43Z Merged pull request |-\|/-| 632 +529 −338 csproj js map json ts 10|-\|/-| 
+Add TypeScript compilation with strict compilation options |-\|/-| 2017-02-26T20:08:45Z Merged pull request |-\|/-| 630 +1,988 −10,302 gitignore cs tt 5|-\|/-| 
+Fix Angular 2 compiler errors from #615 |-\|/-| 2017-02-26T20:09:59Z Merged pull request |-\|/-| 629 +42 −25 cs tt ts 6|-\|/-| 
+Added support for Web API custom parameter binders of complex types. |-\|/-| 2017-02-26T20:50:28Z Closed pull request |-\|/-| 628 +559 −265 csproj cs config ts 5|-\|/-| 
+Fix TypeScript compiler errors in #615 |-\|/-| 2017-02-26T02:14:59Z Closed pull request |-\|/-| 627 +4,803 −4,786 csproj config 2|-\|/-| 
+Release v9.6 |-\|/-| 2017-02-24T21:12:15Z Merged pull request |-\|/-| 626 +8,607 −7,844 gitattributes cs csproj html config 9|-\|/-| 
+Extended SwaggerUI Owin settings to support configuring the Swagger UI |-\|/-| 2017-02-24T18:53:13Z Merged pull request |-\|/-| 623 +167 −146 html cs 4|-\|/-| 
+Specify text/binary types explicitly |-\|/-| 2017-02-23T07:03:16Z Closed pull request |-\|/-| 618 +156 −5 gitattributes 1|-\|/-| 
+NSwag/NSwag#604: Clean trailing [?&] characters in URL |-\|/-| 2017-02-21T00:09:58Z Merged pull request |-\|/-| 610 +240 −80 cs tt ts 4|-\|/-| 
+Optimize string manipulation |-\|/-| 2017-02-24T20:52:24Z Merged pull request |-\|/-| 607 +536 −501 cs 1|-\|/-| 
+Restore setter for `TypeScriptGeneratorSettings` |-\|/-| 2017-02-20T05:40:31Z Closed pull request |-\|/-| 606 +1 −1 cs 1|-\|/-| 
+Release v9.5 |-\|/-| 2017-02-16T21:56:12Z Merged pull request |-\|/-| 601 +38 −43 cs json nuspec xaml 31|-\|/-| 
+Release v9.4 |-\|/-| 2017-02-16T17:44:31Z Merged pull request |-\|/-| 599 +1,274 −779 cs json 13|-\|/-| 
+Release v9.3 |-\|/-| 2017-02-15T12:33:40Z Merged pull request |-\|/-| 597 +3,225 −2,539 md cs csproj config json 18|-\|/-| 
+Fetch typescript fixes |-\|/-| 2017-02-13T12:06:51Z Merged pull request |-\|/-| 588 +5 −5 tt 2|-\|/-| 
+Release v9.2 |-\|/-| 2017-02-09T16:00:03Z Merged pull request |-\|/-| 582 +918 −893 cs json 12|-\|/-| 
+Release v9.1 |-\|/-| 2017-02-09T08:56:04Z Merged pull request |-\|/-| 580 +605 −593 cs csproj config json 16|-\|/-| 
+Improved controller response generation |-\|/-| 2017-02-12T13:51:58Z Merged pull request |-\|/-| 578 +173 −69 tt 1|-\|/-| 
+Release v9.0 |-\|/-| 2017-02-08T14:20:42Z Merged pull request |-\|/-| 576 +21,476 −17,237 md cs csproj config json 17|-\|/-| 
+Create response object webapi |-\|/-| 2017-02-08T09:18:04Z Merged pull request |-\|/-| 572 +244 −204 cs csproj 8|-\|/-| 
+Replace try/finally with using. |-\|/-| 2017-01-31T17:15:07Z Closed pull request |-\|/-| 552 +363 −382 0|-\|/-| 
+Added inline delegate-configuration for settings |-\|/-| 2017-01-31T23:34:26Z Merged pull request |-\|/-| 550 +59 −0 cs 1|-\|/-| 
+Added inline delegate-configuration settings |-\|/-| 2017-01-30T06:01:21Z Closed pull request |-\|/-| 549 +1 −27 cs 1|-\|/-| 
+Update OperationParameterProcessor.cs |-\|/-| 2017-02-10T00:13:04Z Closed pull request |-\|/-| 547 +8 −2 cs 1|-\|/-| 
+Release v8.8 |-\|/-| 2017-01-22T19:59:58Z Merged pull request |-\|/-| 534 +6,203 −3,182 cs csproj config json 17|-\|/-| 
+Fixed an issue of failing to identify a path-parameter embedded in a … |-\|/-| 2017-01-18T12:32:45Z Merged pull request |-\|/-| 530 +71 −7 cs 2|-\|/-| 
+Fixed an issue of failing to identify a path-parameter embedded in a … |-\|/-| 2017-01-18T04:06:29Z Closed pull request |-\|/-| 529 +114 −19 cs 2|-\|/-| 
+export keyword for module and namespace blocks in FileTemplate.tt for TypeScript. |-\|/-| 2017-01-15T15:54:19Z Closed pull request |-\|/-| 526 +3 −3 tt 1|-\|/-| 
+Release v8.6 |-\|/-| 2017-01-12T13:01:03Z Merged pull request |-\|/-| 519 +715 −396 md cs csproj config json 18|-\|/-| 
+added "*" support for ClassNames |-\|/-| 2017-01-12T10:37:23Z Merged pull request |-\|/-| 517 +19 −1 cs 3|-\|/-| 
+Release v8.5 |-\|/-| 2017-01-05T13:38:34Z Merged pull request |-\|/-| 507 +316 −197 bat cs csproj config json 30|-\|/-| 
+Release v8.4 |-\|/-| 2017-01-04T23:38:42Z Merged pull request |-\|/-| 505 +1,825 −657 cs json tt 13|-\|/-| 
+Fix a bug and temporary solve the issue |-\|/-| 2017-01-03T23:29:48Z Merged pull request |-\|/-| 499 +113 −114 cs tt 2|-\|/-| 
+Release v8.3 |-\|/-| 2016-12-30T14:59:17Z Merged pull request |-\|/-| 498 +1,877 −1,048 cs csproj config json 19|-\|/-| 
+"title" field in camel case name is not ignored |-\|/-| 2016-12-28T14:59:39Z Merged pull request |-\|/-| 496 +2 −1 cs 1|-\|/-| 
+Enable binding a complex object array to webapi 2 |-\|/-| 2016-12-29T23:14:30Z Merged pull request |-\|/-| 493 +12 −2 cs tt 2|-\|/-| 
+Fixed issue where parameter from Parent did not get merged down in… |-\|/-| 2016-12-25T15:37:51Z Merged pull request |-\|/-| 490 +76 −1 cs 2|-\|/-| 
+Release v8.2 |-\|/-| 2016-12-23T18:44:58Z Merged pull request |-\|/-| 489 +4,378 −3,977 cs csproj config json 19|-\|/-| 
+Merged vNext |-\|/-| 2016-12-23T18:33:10Z Merged pull request |-\|/-| 488 +995 −883 csproj cs config 12|-\|/-| 
+Release v8.1 |-\|/-| 2016-12-14T22:36:18Z Merged pull request |-\|/-| 478 +2,413 −2,412 cs csproj config json 23|-\|/-| 
+Release v8.0 |-\|/-| 2016-12-08T09:35:13Z Merged pull request |-\|/-| 472 +10,138 −5,696 gitignore md cs csproj config snk json 17|-\|/-| 
+NSwag.AspNetCore is now signed with a strong name. |-\|/-| 2016-12-08T09:12:13Z Merged pull request |-\|/-| 471 +2 −1 snk json 2|-\|/-| 
+Merged vNext |-\|/-| 2016-11-30T23:29:07Z Merged pull request |-\|/-| 461 +1,322 −1,290 md csproj config cs 15|-\|/-| 
+Remove space between colon and `disable` in `tslint: disable` |-\|/-| 2016-11-30T22:57:44Z Merged pull request |-\|/-| 460 +3 −3 cs tt 2|-\|/-| 
+Reapply changes from #453 |-\|/-| 2016-11-27T17:53:37Z Merged pull request |-\|/-| 454 +1,365 −1,710 cs tt 2|-\|/-| 
+Add missing property and trivial style changes |-\|/-| 2016-11-27T16:28:43Z Closed pull request |-\|/-| 453 +1,249 −1,457 cs tt 2|-\|/-| 
+Fixed UI again |-\|/-| 2016-11-25T16:58:39Z Merged pull request |-\|/-| 452 +1 −0 cs 1|-\|/-| 
+Release v7.7 |-\|/-| 2016-11-25T16:44:33Z Merged pull request |-\|/-| 451 +30 −132 cs xaml csproj 10|-\|/-| 
+v7.7 |-\|/-| 2016-11-25T15:51:32Z Merged pull request |-\|/-| 449 +1,107 −24,081 cs 2|-\|/-| 
+Release v7.6 |-\|/-| 2016-11-23T17:05:33Z Merged pull request |-\|/-| 445 +538 −349 cs csproj config json 31|-\|/-| 
+Release v7.5 |-\|/-| 2016-11-22T15:06:43Z Merged pull request |-\|/-| 440 +33 −33 cs json csproj config nuspec 29|-\|/-| 
+Release v7.4 |-\|/-| 2016-11-22T14:21:51Z Merged pull request |-\|/-| 438 +182 −126 cs csproj config json 32|-\|/-| 
+Release v7.3 |-\|/-| 2016-11-21T23:50:51Z Merged pull request |-\|/-| 434 +1,659 −1,566 cs csproj config json 17|-\|/-| 
+Merge v7.3 |-\|/-| 2016-11-21T23:49:49Z Merged pull request |-\|/-| 433 +1,659 −1,566 cs csproj config json 17|-\|/-| 
+Release v7.2 |-\|/-| 2016-11-20T20:42:03Z Merged pull request |-\|/-| 431 +4,901 −4,741 md png vsdx cs json csproj 16|-\|/-| 
+Explicitly allow undefined as type of jsonParseReviver |-\|/-| 2016-11-21T23:32:11Z Closed pull request |-\|/-| 423 +8 −8 cs tt 6|-\|/-| 
+Add NullHandling parameter to AssemblyTypeToSwaggerCommandBase |-\|/-| 2016-11-16T17:59:22Z Closed pull request |-\|/-| 421 +7 −0 cs 1|-\|/-| 
+Release v7.1 |-\|/-| 2016-11-14T12:17:46Z Merged pull request |-\|/-| 417 +734 −9,789 gitignore md png vsdx cs css js 10|-\|/-| 
+Release v7.0 |-\|/-| 2016-11-08T16:23:33Z Merged pull request |-\|/-| 410 +3,590 −2,758 gitignore md png vsdx bat exe csproj cs 18|-\|/-| 
+Add Aurelia to list of frameworks supported in README.md |-\|/-| 2016-11-02T21:27:24Z Merged pull request |-\|/-| 402 +1 −1 md 0|-\|/-| 
+Release v6.21 |-\|/-| 2016-11-02T16:28:13Z Merged pull request |-\|/-| 401 +3,346 −2,342 gitignore md bat exe cs csproj config json 20|-\|/-| 
+Added jsonParseReviver to Angular2 template (TS) |-\|/-| 2016-11-02T15:58:04Z Merged pull request |-\|/-| 400 +289 −238 cs tt csproj 7|-\|/-| 
+Add date reviver to fetch (#62) |-\|/-| 2016-11-02T16:10:20Z Merged pull request |-\|/-| 399 +185 −182 0|-\|/-| 
+Release v6.20 |-\|/-| 2016-10-31T16:36:56Z Merged pull request |-\|/-| 397 +17 −14 cs json nuspec 15|-\|/-| 
+Release v6.19 |-\|/-| 2016-10-31T14:39:52Z Merged pull request |-\|/-| 396 +69 −69 cs csproj config json nuspec 33|-\|/-| 
+Release v6.18 |-\|/-| 2016-10-31T10:55:12Z Merged pull request |-\|/-| 393 +134 −130 cs csproj config json 27|-\|/-| 
+Release v6.17 |-\|/-| 2016-10-29T15:44:53Z Merged pull request |-\|/-| 388 +1,655 −462 cs csproj config json 16|-\|/-| 
+Fix argument name to match property name |-\|/-| 2016-10-29T09:44:50Z Merged pull request |-\|/-| 386 +1 −1 cs 1|-\|/-| 
+fixed AngularJS client; promise not correctly resolved for unsuccessful response code |-\|/-| 2016-10-26T14:53:36Z Merged pull request |-\|/-| 384 +81 −39 cs tt 2|-\|/-| 
+Release v6.16 |-\|/-| 2016-10-25T14:54:49Z Merged pull request |-\|/-| 383 +892 −820 cs csproj config json 13|-\|/-| 
+Release v6.15 |-\|/-| 2016-10-21T14:12:56Z Merged pull request |-\|/-| 380 +181 −183 cs csproj config json 27|-\|/-| 
+Release v6.14 |-\|/-| 2016-10-20T22:40:40Z Merged pull request |-\|/-| 378 +979 −942 cs csproj config json 14|-\|/-| 
+Release v6.13 |-\|/-| 2016-10-18T17:49:19Z Merged pull request |-\|/-| 376 +1,651 −1,381 md csproj snk cs html config json 17|-\|/-| 
+Release v6.12 |-\|/-| 2016-10-13T22:44:15Z Merged pull request |-\|/-| 367 +1,747 −1,711 cs csproj config json 7|-\|/-| 
+bug in AngularJS client generation |-\|/-| 2016-10-13T12:44:58Z Merged pull request |-\|/-| 363 +2 −2 cs tt 2|-\|/-| 
+bug in AngularJS client generation |-\|/-| 2016-10-13T12:35:10Z Closed pull request |-\|/-| 362 +2 −2 cs tt 2|-\|/-| 
+Release v6.11 |-\|/-| 2016-10-12T13:48:23Z Merged pull request |-\|/-| 357 +392 −150 csproj cs json 22|-\|/-| 
+added using System.Collections.Generic as rsuter requested |-\|/-| 2016-10-12T08:44:02Z Merged pull request |-\|/-| 355 +17 −0 cs 3|-\|/-| 
+added ExtensionData attribute to cater vendor extensions for Info, SecurityScheme and Tag object |-\|/-| 2016-10-12T08:39:51Z Closed pull request |-\|/-| 354 +17 −0 cs 3|-\|/-| 
+Release v6.10 |-\|/-| 2016-10-11T17:03:22Z Merged pull request |-\|/-| 353 +45 −47 cs json ts nuspec 25|-\|/-| 
+Release v6.9 |-\|/-| 2016-10-11T15:42:29Z Merged pull request |-\|/-| 352 +148 −122 cs csproj config json 27|-\|/-| 
+Release v6.8 |-\|/-| 2016-10-11T14:48:05Z Merged pull request |-\|/-| 351 +142 −32 cs json csproj nuspec config 23|-\|/-| 
+Release v6.7 |-\|/-| 2016-10-11T12:50:57Z Merged pull request |-\|/-| 349 +395 −324 md cs csproj config json tt 20|-\|/-| 
+Don't generate FileParameter class in C# client if not necessary. |-\|/-| 2016-10-10T17:23:46Z Merged pull request |-\|/-| 347 +51 −31 cs tt 3|-\|/-| 
+Removed unnecessary Owin dependency |-\|/-| 2016-10-09T17:20:35Z Merged pull request |-\|/-| 346 +0 −10 csproj config 2|-\|/-| 
+Release v6.6 |-\|/-| 2016-10-07T09:06:00Z Merged pull request |-\|/-| 344 +235 −148 cs csproj config json tt 16|-\|/-| 
+Adding Extension Data to SwaggerOperation to represent Swagger Extens… |-\|/-| 2016-10-06T22:27:48Z Merged pull request |-\|/-| 342 +4 −0 cs 1|-\|/-| 
+Release v6.5 |-\|/-| 2016-10-05T13:33:47Z Merged pull request |-\|/-| 339 +199 −154 cs csproj config json 18|-\|/-| 
+Release v6.4 |-\|/-| 2016-10-05T08:56:50Z Merged pull request |-\|/-| 335 +822 −612 cs csproj config json 18|-\|/-| 
+Release v6.3 |-\|/-| 2016-10-04T16:12:24Z Merged pull request |-\|/-| 331 +15 −14 cs json nuspec 14|-\|/-| 
+Release v6.2 |-\|/-| 2016-10-03T22:25:33Z Merged pull request |-\|/-| 330 +23 −19 cs json nuspec 15|-\|/-| 
+Release v6.1 |-\|/-| 2016-10-03T19:11:55Z Merged pull request |-\|/-| 329 +58 −50 md cs json nuspec 19|-\|/-| 
+Another fix for .NET Core |-\|/-| 2016-10-03T10:43:32Z Merged pull request |-\|/-| 327 +114 −216 csproj config cs json 13|-\|/-| 
+Fix for v6.0 |-\|/-| 2016-10-03T10:19:11Z Merged pull request |-\|/-| 326 +156 −150 csproj config cs json 15|-\|/-| 
+Release v6.0 |-\|/-| 2016-10-03T09:23:15Z Merged pull request |-\|/-| 325 +14,716 −7,610 gitattributes gitignore md cs csproj nuspec config 7|-\|/-| 
+Pull Request - Pulling Extension Data |-\|/-| 2016-09-30T16:51:59Z Merged pull request |-\|/-| 322 +141 −1 cs 2|-\|/-| 
+Remove body when for fetch with GET/HEAD (TS) |-\|/-| 2016-09-29T15:01:31Z Merged pull request |-\|/-| 317 +88 −61 cs 1|-\|/-| 
+Changed RequestOptionsArgs to RequestInit for fetch (TS) |-\|/-| 2016-09-28T22:20:29Z Merged pull request |-\|/-| 314 +5 −5 cs tt 2|-\|/-| 
+Merge let/const |-\|/-| 2016-09-20T21:39:32Z Merged pull request |-\|/-| 299 +4,427 −535 cs tt 5|-\|/-| 
+Exception handling |-\|/-| 2016-09-20T17:20:07Z Merged pull request |-\|/-| 298 +4,411 −2,728 csproj config cs tt 13|-\|/-| 
+Addition of UseHttpRequestMessageCreationMethod option |-\|/-| 2016-09-20T17:28:51Z Merged pull request |-\|/-| 297 +369 −331 cs tt js map 14|-\|/-| 
+Master |-\|/-| 2016-09-20T21:39:33Z Merged pull request |-\|/-| 295 +1,249 −1,249 cs tt 4|-\|/-| 
+Release v5.6 |-\|/-| 2016-09-08T22:38:20Z Merged pull request |-\|/-| 285 +8,667 −826 cs csproj config 10|-\|/-| 
+Release v5.5 |-\|/-| 2016-09-06T08:10:42Z Merged pull request |-\|/-| 270 +10,237 −125 md cs csproj config json tt 23|-\|/-| 
+Release v5.4 |-\|/-| 2016-09-02T08:36:32Z Merged pull request |-\|/-| 267 +13,020 −3,591 cs csproj css png html js 14|-\|/-| 
+Release v5.3 |-\|/-| 2016-08-29T21:45:30Z Merged pull request |-\|/-| 261 +3,373 −2,853 md cs csproj config json 17|-\|/-| 
+Fix query without params for all |-\|/-| 2016-08-25T12:32:41Z Merged pull request |-\|/-| 258 +2,481 −2,412 cs tt csproj 10|-\|/-| 
+FIx getAll for AngularJS |-\|/-| 2016-08-25T08:20:48Z Merged pull request |-\|/-| 257 +183 −166 0|-\|/-| 
+Client classes in FileTemplateModel |-\|/-| 2016-08-24T14:07:40Z Merged pull request |-\|/-| 255 +10 −5 cs 2|-\|/-| 
+Model for TypeScript file template |-\|/-| 2016-08-23T13:06:41Z Merged pull request |-\|/-| 251 +82 −27 cs csproj 3|-\|/-| 
+RequestBodyGenerator goes public |-\|/-| 2016-08-23T10:23:05Z Merged pull request |-\|/-| 250 +7 −2 cs 1|-\|/-| 
+Make model public |-\|/-| 2016-08-22T16:29:48Z Merged pull request |-\|/-| 249 +548 −9 cs 2|-\|/-| 
+Release v5.2 |-\|/-| 2016-08-19T17:17:29Z Merged pull request |-\|/-| 248 +75 −75 cs csproj config json nuspec 30|-\|/-| 
+Release v5.1 |-\|/-| 2016-08-19T15:39:23Z Merged pull request |-\|/-| 246 +485 −66 cs json csproj 16|-\|/-| 
+Release v5.0 |-\|/-| 2016-08-18T17:34:33Z Merged pull request |-\|/-| 244 +1,735 −1,617 md cs csproj config json 15|-\|/-| 
+Template factory |-\|/-| 2016-08-18T17:25:23Z Merged pull request |-\|/-| 243 +1,426 −1,426 csproj cs config 13|-\|/-| 
+Assembly loader fix |-\|/-| 2016-08-16T09:12:23Z Merged pull request |-\|/-| 235 +48 −18 cs sln 3|-\|/-| 
+Added wildcard support |-\|/-| 2016-08-12T14:06:18Z Merged pull request |-\|/-| 232 +146 −122 csproj cs 7|-\|/-| 
+Release v4.3 |-\|/-| 2016-08-09T18:43:13Z Merged pull request |-\|/-| 229 +65 −65 md cs csproj config json nuspec 30|-\|/-| 
+Release v4.2 |-\|/-| 2016-08-04T23:06:28Z Merged pull request |-\|/-| 227 +137 −116 md cs csproj config json 22|-\|/-| 
+Release v4.1 |-\|/-| 2016-08-03T20:01:53Z Merged pull request |-\|/-| 226 +200 −202 cs csproj config json tt 16|-\|/-| 
+Release v4.0 |-\|/-| 2016-08-02T11:08:43Z Merged pull request |-\|/-| 224 +8,578 −596 cs csproj js config 9|-\|/-| 
+Release v3.30 |-\|/-| 2016-07-26T21:56:30Z Merged pull request |-\|/-| 221 +318 −218 cs json csproj tt 10|-\|/-| 
+Release v3.29 |-\|/-| 2016-07-24T22:50:29Z Merged pull request |-\|/-| 218 +203 −185 gitignore cs csproj config json nuspec 29|-\|/-| 
+Chocolatey package feature merge |-\|/-| 2016-07-19T21:37:04Z Merged pull request |-\|/-| 217 +135 −1,532 gitattributes gitignore md nuspec exe bat ps1 sln cs 11|-\|/-| 
+Release v3.28 |-\|/-| 2016-07-18T21:31:01Z Merged pull request |-\|/-| 216 +1,297 −1,187 cs csproj config json tt 15|-\|/-| 
+Release v3.27 |-\|/-| 2016-07-17T14:28:52Z Merged pull request |-\|/-| 213 +898 −942 cs csproj json xproj sln 24|-\|/-| 
+Release v3.26 |-\|/-| 2016-07-15T22:43:32Z Merged pull request |-\|/-| 212 +911 −897 cs csproj config json nuspec 31|-\|/-| 
+Release v3.25 |-\|/-| 2016-07-15T22:35:13Z Merged pull request |-\|/-| 211 +23,284 −29,116 cs csproj 5|-\|/-| 
+Improved nullable parameter handling (CS), v3.24 |-\|/-| 2016-07-14T08:00:53Z Merged pull request |-\|/-| 206 +16 −16 cs json tt nuspec 14|-\|/-| 
+Added pragma (CS) |-\|/-| 2016-07-13T21:19:41Z Merged pull request |-\|/-| 205 +15 −13 cs tt 2|-\|/-| 
+Release v3.23 |-\|/-| 2016-07-13T21:18:20Z Merged pull request |-\|/-| 204 +2,133 −1,493 md cs json tt 6|-\|/-| 
+Release v3.22 |-\|/-| 2016-07-12T07:48:48Z Merged pull request |-\|/-| 199 +35 −23 cs bat json nuspec xaml 18|-\|/-| 
+Release v3.21 |-\|/-| 2016-07-11T22:17:52Z Merged pull request |-\|/-| 198 +1,171 −1,201 md cs csproj config json nuspec 32|-\|/-| 
+Release v3.20 |-\|/-| 2016-07-11T18:08:34Z Merged pull request |-\|/-| 197 +1,786 −1,921 cs csproj config json 17|-\|/-| 
+Improved nuspecs |-\|/-| 2016-07-05T19:23:24Z Merged pull request |-\|/-| 195 +49 −37 nuspec cs json 5|-\|/-| 
+Release v3.19 |-\|/-| 2016-07-05T19:18:46Z Merged pull request |-\|/-| 194 +931 −890 cs csproj config json 22|-\|/-| 
+Release v3.18 |-\|/-| 2016-07-05T09:00:02Z Merged pull request |-\|/-| 191 +909 −865 cs csproj config json 22|-\|/-| 
+Create empty response when using ResponseType attribute with void |-\|/-| 2016-07-04T18:44:58Z Closed pull request |-\|/-| 190 +9 −7 cs 1|-\|/-| 
+Release v3.17 |-\|/-| 2016-07-03T19:50:56Z Merged pull request |-\|/-| 187 +799 −724 csproj cs json 15|-\|/-| 
+Release v3.16 |-\|/-| 2016-07-01T23:33:45Z Merged pull request |-\|/-| 186 +2,537 −1,891 md cs json tt 6|-\|/-| 
+Add Cake addin to tool list in README |-\|/-| 2016-06-29T10:32:20Z Merged pull request |-\|/-| 184 +1 −0 md 0|-\|/-| 
+Release v3.15 |-\|/-| 2016-06-29T07:05:08Z Merged pull request |-\|/-| 183 +31 −25 cs json nuspec 15|-\|/-| 
+Release v3.14 |-\|/-| 2016-06-28T22:06:56Z Merged pull request |-\|/-| 182 +3,408 −2,900 csproj cs nuspec json sln 14|-\|/-| 
+Fixed middlewares, v3.13 |-\|/-| 2016-06-27T20:37:03Z Merged pull request |-\|/-| 180 +41 −41 cs json nuspec 18|-\|/-| 
+Release v3.12 |-\|/-| 2016-06-27T13:43:33Z Merged pull request |-\|/-| 179 +1,136 −966 cs csproj config json tt 23|-\|/-| 
+Added DateTimeType setting to UI and cmd line (TS) |-\|/-| 2016-06-24T15:44:11Z Merged pull request |-\|/-| 178 +23 −0 cs xaml 3|-\|/-| 
+Release v3.11 |-\|/-| 2016-06-24T15:35:36Z Merged pull request |-\|/-| 177 +3,242 −2,833 md cs csproj config 11|-\|/-| 
+Release v3.10 |-\|/-| 2016-06-17T22:48:03Z Merged pull request |-\|/-| 174 +787 −785 cs csproj config json tt nuspec 31|-\|/-| 
+Release v3.9 |-\|/-| 2016-06-17T20:34:30Z Merged pull request |-\|/-| 173 +788 −787 cs csproj config bat json nuspec 33|-\|/-| 
+Release v3.8 |-\|/-| 2016-06-17T11:51:25Z Merged pull request |-\|/-| 171 +820 −816 gitignore md cs csproj config bat json tt 27|-\|/-| 
+Release v3.7 |-\|/-| 2016-06-16T22:23:17Z Merged pull request |-\|/-| 168 +1,440 −672 md cs csproj config json 22|-\|/-| 
+Fixed solution |-\|/-| 2016-06-16T21:19:49Z Merged pull request |-\|/-| 167 +66 −40 gitignore json sln 4|-\|/-| 
+Release v3.6 |-\|/-| 2016-06-16T20:54:27Z Merged pull request |-\|/-| 166 +1,194 −5,456 gitignore md cs csproj config json 10|-\|/-| 
+Release v3.5 |-\|/-| 2016-06-16T19:33:08Z Merged pull request |-\|/-| 165 +845 −775 md cs csproj nuspec css ttf gif png ico html js map 51|-\|/-| 
+Release v3.4 |-\|/-| 2016-06-15T21:04:29Z Merged pull request |-\|/-| 164 +77,699 −795 csproj cs config xproj 21|-\|/-| 
+Fixed refs |-\|/-| 2016-06-11T12:08:44Z Merged pull request |-\|/-| 162 +578 −566 csproj 1|-\|/-| 
+Release v3.3 |-\|/-| 2016-06-11T11:29:52Z Merged pull request |-\|/-| 161 +1,027 −953 cs csproj config nuspec 26|-\|/-| 
+Fix |-\|/-| 2016-06-10T11:36:25Z Merged pull request |-\|/-| 160 +567 −572 csproj sln 2|-\|/-| 
+Release v3.2 |-\|/-| 2016-06-10T09:23:59Z Merged pull request |-\|/-| 159 +789 −787 cs csproj config tt nuspec 24|-\|/-| 
+Updated NJsonSchema, v3.1 |-\|/-| 2016-06-09T21:20:24Z Merged pull request |-\|/-| 158 +767 −767 cs csproj config nuspec 26|-\|/-| 
+Release v3.0 |-\|/-| 2016-06-08T07:10:46Z Merged pull request |-\|/-| 157 +1,177 −1,052 cs csproj config tt 18|-\|/-| 
+Updated NJsonSchema, v2.45 |-\|/-| 2016-06-03T19:28:55Z Merged pull request |-\|/-| 154 +772 −772 cs csproj config nuspec 26|-\|/-| 
+Release v2.45 |-\|/-| 2016-06-03T16:30:52Z Merged pull request |-\|/-| 153 +834 −828 cs csproj config tt 16|-\|/-| 
+Improved cmd line (no console output when writing to file), v2.44 |-\|/-| 2016-06-03T08:50:18Z Merged pull request |-\|/-| 151 +610 −599 cs nuspec 16|-\|/-| 
+Fixed unit tests |-\|/-| 2016-06-02T22:13:37Z Merged pull request |-\|/-| 150 +6 −6 cs 3|-\|/-| 
+Release v2.43 |-\|/-| 2016-06-02T22:02:45Z Merged pull request |-\|/-| 149 +779 −775 cs csproj config nuspec 28|-\|/-| 
+Release v2.42 |-\|/-| 2016-06-02T21:06:26Z Merged pull request |-\|/-| 148 +778 −776 cs csproj config nuspec 27|-\|/-| 
+Release v2.41 |-\|/-| 2016-05-31T18:32:01Z Merged pull request |-\|/-| 147 +2,157 −1,701 md cs csproj config tt 16|-\|/-| 
+Release v2.40 |-\|/-| 2016-05-29T16:36:39Z Merged pull request |-\|/-| 144 +566 −566 md cs tt csproj nuspec 14|-\|/-| 
+Release v2.39 |-\|/-| 2016-05-29T15:50:37Z Merged pull request |-\|/-| 143 +875 −873 cs nuspec 18|-\|/-| 
+Release v2.38 |-\|/-| 2016-05-28T23:03:09Z Merged pull request |-\|/-| 142 +2,047 −1,998 cs csproj config tt 10|-\|/-| 
+Release v2.37 |-\|/-| 2016-05-25T22:57:07Z Merged pull request |-\|/-| 137 +889 −868 md cs csproj config 14|-\|/-| 
+Release v2.36 |-\|/-| 2016-05-24T21:23:31Z Merged pull request |-\|/-| 136 +653 −638 cs nuspec 14|-\|/-| 
+Release v2.35 |-\|/-| 2016-05-24T18:02:43Z Merged pull request |-\|/-| 135 +2,307 −1,932 md cs csproj config 13|-\|/-| 
+Fixed path and required handling |-\|/-| 2016-05-22T20:56:06Z Merged pull request |-\|/-| 134 +581 −597 cs 3|-\|/-| 
+Release v2.34 |-\|/-| 2016-05-22T20:26:50Z Merged pull request |-\|/-| 133 +945 −801 cs 6|-\|/-| 
+Release v2.33 |-\|/-| 2016-05-21T12:25:17Z Merged pull request |-\|/-| 132 +661 −611 md cs csproj config nuspec 16|-\|/-| 
+Added NSwag.MSBuild |-\|/-| 2016-05-20T23:53:30Z Merged pull request |-\|/-| 131 +627 −573 md nuspec targets exe bat sln cs 6|-\|/-| 
+Issue #78 - Creating output directory if it doesn't exist. |-\|/-| 2016-05-20T20:12:33Z Merged pull request |-\|/-| 130 +6 −0 cs 1|-\|/-| 
+Issue #70 - Added NuSpec file for NSwag Console. |-\|/-| 2016-05-21T00:10:47Z Closed pull request |-\|/-| 129 +26 −1 csproj nuspec cs 3|-\|/-| 
+Release v2.32 |-\|/-| 2016-05-20T18:34:50Z Merged pull request |-\|/-| 127 +942 −802 cs csproj config 13|-\|/-| 
+Release v2.31 |-\|/-| 2016-05-20T09:33:49Z Merged pull request |-\|/-| 126 +718 −354 md cs csproj config tt 19|-\|/-| 
+Add a Gitter chat badge to README.md |-\|/-| 2016-05-20T09:34:22Z Closed pull request |-\|/-| 125 +2 −0 md 0|-\|/-| 
+Fixed xml doc |-\|/-| 2016-05-19T19:32:52Z Merged pull request |-\|/-| 123 +264 −610 cs 1|-\|/-| 
+Release v2.30 |-\|/-| 2016-05-19T19:15:00Z Merged pull request |-\|/-| 122 +657 −591 cs csproj 13|-\|/-| 
+Release v2.29 |-\|/-| 2016-05-19T18:46:04Z Merged pull request |-\|/-| 121 +684 −629 csproj cs 13|-\|/-| 
+Release v2.28 |-\|/-| 2016-05-19T16:18:55Z Merged pull request |-\|/-| 119 +12 −10 cs 10|-\|/-| 
+Release v2.27 |-\|/-| 2016-05-18T21:00:43Z Merged pull request |-\|/-| 117 +10 −11 cs 10|-\|/-| 
+Release v2.26 |-\|/-| 2016-05-18T20:34:00Z Merged pull request |-\|/-| 116 +1 −0 cs 1|-\|/-| 
+Release v2.26 |-\|/-| 2016-05-18T16:57:08Z Merged pull request |-\|/-| 115 +1,434 −1,434 cs tt 19|-\|/-| 
+Release v2.25 |-\|/-| 2016-05-17T21:50:47Z Merged pull request |-\|/-| 113 +599 −599 cs tt 16|-\|/-| 
+Release v2.24 |-\|/-| 2016-05-17T21:08:54Z Merged pull request |-\|/-| 112 +930 −895 cs csproj config 12|-\|/-| 
+Release v2.23 |-\|/-| 2016-05-15T23:49:44Z Merged pull request |-\|/-| 106 +2,107 −2,122 md cs csproj 22|-\|/-| 
+Release v2.22 |-\|/-| 2016-05-14T15:40:43Z Merged pull request |-\|/-| 105 +983 −815 md cs csproj config tt 18|-\|/-| 
+Release v2.21 |-\|/-| 2016-05-12T18:18:18Z Merged pull request |-\|/-| 104 +593 −601 cs csproj 21|-\|/-| 
+Fixed reference |-\|/-| 2016-05-12T16:52:41Z Merged pull request |-\|/-| 103 +1 −1 csproj 1|-\|/-| 
+Release v2.20 |-\|/-| 2016-05-12T16:42:14Z Merged pull request |-\|/-| 102 +785 −772 cs csproj config 24|-\|/-| 
+Added xml gen |-\|/-| 2016-05-12T07:06:47Z Merged pull request |-\|/-| 101 +581 −574 csproj cs 2|-\|/-| 
+Added description |-\|/-| 2016-05-11T22:23:34Z Merged pull request |-\|/-| 100 +1 −1 cs 1|-\|/-| 
+Added description |-\|/-| 2016-05-11T22:23:03Z Merged pull request |-\|/-| 99 +1 −1 cs 1|-\|/-| 
+Release v2.19 |-\|/-| 2016-05-11T22:04:24Z Merged pull request |-\|/-| 98 +11,416 −2,205 md metrop cs csproj nuspec 12|-\|/-| 
+Release v2.19 |-\|/-| 2016-05-11T22:03:51Z Merged pull request |-\|/-| 97 +11,403 −2,210 md metrop cs csproj nuspec 12|-\|/-| 
+Release v2.18 (2) |-\|/-| 2016-05-06T22:20:01Z Merged pull request |-\|/-| 93 +3 −3 cs 1|-\|/-| 
+Release v2.18 |-\|/-| 2016-05-06T22:01:52Z Merged pull request |-\|/-| 92 +527 −447 cs csproj txt 17|-\|/-| 
+Release v2.17 |-\|/-| 2016-05-06T16:10:30Z Merged pull request |-\|/-| 91 +776 −783 cs csproj config txt 24|-\|/-| 
+Release v2.16 |-\|/-| 2016-05-04T14:12:55Z Merged pull request |-\|/-| 85 +818 −1,016 cs wxs csproj 14|-\|/-| 
+Release v2.15 |-\|/-| 2016-05-03T18:14:16Z Merged pull request |-\|/-| 84 +911 −858 cs csproj config 25|-\|/-| 
+Release v2.14 |-\|/-| 2016-05-02T20:46:04Z Merged pull request |-\|/-| 81 +848 −783 cs csproj config txt 20|-\|/-| 
+Release v2.13 |-\|/-| 2016-05-01T19:02:21Z Merged pull request |-\|/-| 77 +819 −778 cs csproj config 24|-\|/-| 
+Release v2.12 |-\|/-| 2016-04-29T15:35:15Z Merged pull request |-\|/-| 74 +852 −816 cs csproj config 22|-\|/-| 
+Release v2.11 |-\|/-| 2016-04-26T15:43:59Z Merged pull request |-\|/-| 72 +604 −591 cs wxs 11|-\|/-| 
+Release v2.10 |-\|/-| 2016-04-24T14:41:16Z Merged pull request |-\|/-| 68 +1,050 −823 cs csproj config txt sln 23|-\|/-| 
+Release v2.9 |-\|/-| 2016-04-22T19:18:53Z Merged pull request |-\|/-| 67 +788 −740 cs csproj config nswag 26|-\|/-| 
+Release v2.8 |-\|/-| 2016-04-21T10:33:02Z Merged pull request |-\|/-| 66 +146 −149 cs txt 8|-\|/-| 
+Release v2.7 |-\|/-| 2016-04-20T16:49:57Z Merged pull request |-\|/-| 64 +2,444 −2,439 md nuspec cs csproj config 6|-\|/-| 
+Merge from Master |-\|/-| 2016-04-15T07:14:48Z Closed pull request |-\|/-| 59 +0 −0 0|-\|/-| 
+Release v2.6 |-\|/-| 2016-04-12T17:37:58Z Merged pull request |-\|/-| 58 +899 −852 csproj cs config 14|-\|/-| 
+Add a Bitdeli Badge to README |-\|/-| 2016-04-10T18:47:59Z Merged pull request |-\|/-| 57 +4 −0 md 0|-\|/-| 
+Updated NJsonSchema, v2.5 |-\|/-| 2016-04-06T22:11:27Z Merged pull request |-\|/-| 56 +1,107 −1,107 cs csproj config 19|-\|/-| 
+Release v2.4 |-\|/-| 2016-04-06T16:23:07Z Merged pull request |-\|/-| 55 +752 −752 md cs csproj config 22|-\|/-| 
+Release v2.2 (correct) |-\|/-| 2016-03-25T15:20:31Z Merged pull request |-\|/-| 54 +1 −1 txt 0|-\|/-| 
+Release v2.2 |-\|/-| 2016-03-25T15:13:51Z Merged pull request |-\|/-| 53 +14 −14 md cs txt xaml 12|-\|/-| 
+Release v2.1 |-\|/-| 2016-03-25T12:55:56Z Merged pull request |-\|/-| 52 +24 −17 cs txt 9|-\|/-| 
+Release v2.0 |-\|/-| 2016-03-25T02:09:13Z Merged pull request |-\|/-| 50 +1,243 −1,014 md cs csproj config 12|-\|/-| 
+can now resolve dll dependencies outside of webapi assembly folder |-\|/-| 2016-03-10T23:08:13Z Merged pull request |-\|/-| 46 +101 −22 cs 3|-\|/-| 
+Fixed crash when no Controllers are specified as arguments. |-\|/-| 2016-03-03T17:18:13Z Merged pull request |-\|/-| 43 +3 −3 cs 1|-\|/-| 
+fixed conditional usging text instead number |-\|/-| 2016-02-10T11:33:24Z Merged pull request |-\|/-| 38 +2 −2 txt 0|-\|/-| 
+Add client seting |-\|/-| 2016-02-10T23:35:37Z Closed pull request |-\|/-| 34 +111 −14 cs txt csproj 2|-\|/-| 
+Change the <operation.HttpMethod> to <operation.HttpMethodUpper> |-\|/-| 2016-01-29T14:05:25Z Merged pull request |-\|/-| 32 +1 −1 txt 0|-\|/-| 

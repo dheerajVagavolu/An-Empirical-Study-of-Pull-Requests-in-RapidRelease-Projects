@@ -1,0 +1,190 @@
+Update to currently supported ruby versions |-\|/-| 2019-10-24T00:41:01Z Merged pull request |-\|/-| 323 +10 −10 yml 1|-\|/-| 
+Attempt to fix build |-\|/-| 2019-10-24T00:17:12Z Merged pull request |-\|/-| 322 +27 −21 rb 6|-\|/-| 
+ Use a CTE to prevent a nested loop from locking multiple jobs |-\|/-| 2019-10-14T23:23:04Z Merged pull request |-\|/-| 320 +19 −4 rb 1|-\|/-| 
+scheduled_at should come back as a Time object |-\|/-| 2019-10-14T23:24:04Z Closed pull request |-\|/-| 315 +5 −1 rb 1|-\|/-| 
+Remove support for older Postgres versions, also add migrations for 4.0.0 |-\|/-| 2019-10-18T17:54:03Z Merged pull request |-\|/-| 313 +126 −19 md rb sql 7|-\|/-| 
+Fix PG::ConnectionBad issue |-\|/-| 2019-10-18T17:53:00Z Merged pull request |-\|/-| 312 +18 −19 rb 2|-\|/-| 
+Skip locked, merged with master |-\|/-| 2019-07-18T20:44:35Z Merged pull request |-\|/-| 311 +10 −74 md rb sql 3|-\|/-| 
+Don't rescue Time.now exceptions in log_yield |-\|/-| 2019-07-18T20:28:44Z Merged pull request |-\|/-| 310 +1 −1 rb 1|-\|/-| 
+Update README.md |-\|/-| 2019-07-05T01:35:55Z Merged pull request |-\|/-| 309 +59 −51 md 0|-\|/-| 
+Add some fixes for fresh installs with AR migrations |-\|/-| 2019-07-18T19:42:56Z Merged pull request |-\|/-| 308 +103 −91 yml gitignore md rb 3|-\|/-| 
+Make QC fail with versions of PG < 9.6, add notes in readme and chang… |-\|/-| 2019-07-03T23:13:27Z Merged pull request |-\|/-| 307 +24 −21 md rb 4|-\|/-| 
+Add frozen string literal to everything |-\|/-| 2019-07-03T23:00:37Z Merged pull request |-\|/-| 306 +46 −0 Gemfile Rakefile rb 23|-\|/-| 
+Add testing for other versions of ruby and pg |-\|/-| 2019-07-03T22:20:14Z Merged pull request |-\|/-| 305 +126 −0 yml 1|-\|/-| 
+Move to Circle CI |-\|/-| 2019-07-03T22:03:59Z Merged pull request |-\|/-| 304 +71 −39 yml gitignore Gemfile md changelog rb 7|-\|/-| 
+Use skip locked |-\|/-| 2019-07-18T20:42:28Z Closed pull request |-\|/-| 303 +6 −72 rb sql 2|-\|/-| 
+check that the connection is still able to make queries |-\|/-| 2019-07-05T00:03:33Z Closed pull request |-\|/-| 301 +28 −1 rb 4|-\|/-| 
+Create CODE_OF_CONDUCT.md |-\|/-| 2018-07-17T19:09:04Z Merged pull request |-\|/-| 298 +46 −0 md 0|-\|/-| 
+Change ruby versions to currently supported ones. |-\|/-| 2019-07-03T18:03:03Z Merged pull request |-\|/-| 297 +4 −6 yml changelog 2|-\|/-| 
+Update max pg version to 2.1 |-\|/-| 2018-07-17T18:51:21Z Closed pull request |-\|/-| 295 +1 −1 gemspec 1|-\|/-| 
+Automatically retry enqueuing after connection reset |-\|/-| 2019-07-03T22:30:03Z Merged pull request |-\|/-| 294 +64 −2 rb 2|-\|/-| 
+CHANGELOG.md with dates, compare links |-\|/-| 2019-07-03T23:23:45Z Merged pull request |-\|/-| 293 +65 −31 md 0|-\|/-| 
+[refactor] tasks: use Kernel#abort |-\|/-| 2019-07-03T23:02:41Z Merged pull request |-\|/-| 292 +2 −5 rb 1|-\|/-| 
+Change PG Version to <= 2.0 |-\|/-| 2018-07-17T18:55:11Z Merged pull request |-\|/-| 291 +8 −8 rb gemspec 5|-\|/-| 
+use latest Rubies |-\|/-| 2017-05-19T00:24:52Z Merged pull request |-\|/-| 290 +3 −3 yml 1|-\|/-| 
+Bump pg dep from < 0.20 to < 0.21 |-\|/-| 2018-07-17T18:50:45Z Closed pull request |-\|/-| 289 +1 −1 gemspec 1|-\|/-| 
+restore Forking section to README |-\|/-| 2019-07-18T22:28:31Z Closed pull request |-\|/-| 288 +18 −0 md 0|-\|/-| 
+CI against current newest stable rubies (take 2) |-\|/-| 2017-01-30T20:07:07Z Merged pull request |-\|/-| 287 +2 −2 yml 1|-\|/-| 
+Fix failing Travis CI builds |-\|/-| 2017-01-30T11:27:07Z Merged pull request |-\|/-| 286 +6 −2 yml 1|-\|/-| 
+Bump pg version dependency |-\|/-| 2016-09-27T04:47:30Z Merged pull request |-\|/-| 284 +1 −1 gemspec 1|-\|/-| 
+Update setup to reflect latest stable release |-\|/-| 2016-07-29T17:51:46Z Merged pull request |-\|/-| 282 +1 −1 md 0|-\|/-| 
+Change all SQL keywords to uppercase |-\|/-| 2016-08-10T09:50:12Z Merged pull request |-\|/-| 281 +35 −42 rb sql 6|-\|/-| 
+Fix custom worker example |-\|/-| 2016-06-06T07:00:59Z Merged pull request |-\|/-| 280 +2 −2 md 0|-\|/-| 
+Use correct gem version specification in README |-\|/-| 2016-03-15T23:53:30Z Merged pull request |-\|/-| 278 +1 −1 md 0|-\|/-| 
+show how to run a single test in the readme |-\|/-| 2016-02-08T02:39:46Z Merged pull request |-\|/-| 277 +2 −1 md 0|-\|/-| 
+Add handler when job is a success so it's easier to add custom logging / monitoring |-\|/-| 2016-01-14T12:50:55Z Closed pull request |-\|/-| 275 +44 −2 md rb 2|-\|/-| 
+Fix typo in test name |-\|/-| 2016-01-14T09:35:08Z Merged pull request |-\|/-| 274 +1 −1 rb 1|-\|/-| 
+more detailed example in the README |-\|/-| 2016-01-14T04:27:11Z Merged pull request |-\|/-| 273 +19 −0 md 0|-\|/-| 
+turn job into a class |-\|/-| 2016-01-13T20:19:42Z Closed pull request |-\|/-| 272 +73 −43 md rb 4|-\|/-| 
+use https for rubygems urls |-\|/-| 2016-01-12T22:22:46Z Merged pull request |-\|/-| 271 +2 −2 Gemfile md 1|-\|/-| 
+use require_relative everywhere |-\|/-| 2016-01-13T03:13:47Z Merged pull request |-\|/-| 270 +5 −8 rb 5|-\|/-| 
+Don't rescue Time.now exceptions in log_yield |-\|/-| 2016-01-12T17:58:58Z Merged pull request |-\|/-| 269 +1 −1 rb 1|-\|/-| 
+Fix typo |-\|/-| 2016-01-10T16:01:25Z Merged pull request |-\|/-| 267 +1 −1 rb 1|-\|/-| 
+Rescue ScriptError and NoMemoryError as well as StandardError. |-\|/-| 2019-07-03T23:50:55Z Merged pull request |-\|/-| 263 +155 −4 rb 3|-\|/-| 
+`enqueue`, `enqueue_at`, `enqueue_in` return job hash with id |-\|/-| 2015-08-13T06:53:37Z Merged pull request |-\|/-| 262 +26 −2 changelog rb 3|-\|/-| 
+Fix for postgres versions below 9.2 |-\|/-| 2016-01-15T13:00:15Z Closed pull request |-\|/-| 261 +5 −1 changelog rb 2|-\|/-| 
+Change json datatype to jsonb |-\|/-| 2015-06-15T09:11:52Z Merged pull request |-\|/-| 257 +10 −6 md changelog sql 2|-\|/-| 
+Count scheduled vs ready jobs |-\|/-| 2019-07-18T22:42:32Z Merged pull request |-\|/-| 255 +33 −3 rb 2|-\|/-| 
+Give some <3 to our unit tests |-\|/-| 2015-02-19T07:39:56Z Merged pull request |-\|/-| 254 +31 −31 yml Gemfile Rakefile rb 7|-\|/-| 
+Change QC::Queue interface to support setting the conn adapter in the constructor. |-\|/-| 2019-07-03T23:37:34Z Closed pull request |-\|/-| 253 +10 −3 rb 3|-\|/-| 
+Added LICENSE and modernized gemspec |-\|/-| 2015-02-18T01:47:08Z Merged pull request |-\|/-| 251 +44 −18 txt Rakefile rb gemspec 3|-\|/-| 
+Make QC a bit thread safe |-\|/-| 2015-02-17T19:28:14Z Merged pull request |-\|/-| 248 +49 −6 rb 2|-\|/-| 
+Filename typo prevented "gem build queue_classic.gemspec" |-\|/-| 2015-01-18T21:35:34Z Merged pull request |-\|/-| 245 +1 −1 gemspec 1|-\|/-| 
+Add exception location to default `handle_failure` output |-\|/-| 2015-01-15T14:07:03Z Merged pull request |-\|/-| 243 +1 −1 rb 1|-\|/-| 
+Handle edge case of a job mutating arguments |-\|/-| 2015-02-16T22:05:53Z Closed pull request |-\|/-| 242 +40 −1 rb 2|-\|/-| 
+make it possible to inject a custom worker for QC's rake tasks. |-\|/-| 2015-01-12T20:52:13Z Merged pull request |-\|/-| 241 +29 −1 md rb 3|-\|/-| 
+Unused variable que |-\|/-| 2014-11-04T07:53:25Z Closed pull request |-\|/-| 238 +2 −3 rb 2|-\|/-| 
+Remove unused variable |-\|/-| 2014-11-04T07:53:25Z Closed pull request |-\|/-| 237 +0 −1 rb 1|-\|/-| 
+Fix upgrade |-\|/-| 2014-10-10T18:47:33Z Merged pull request |-\|/-| 235 +28 −12 rb sql 5|-\|/-| 
+detect Rails DB connection and use it |-\|/-| 2014-10-10T19:24:44Z Merged pull request |-\|/-| 232 +70 −12 md rb 2|-\|/-| 
+Fix Worker for use with DATABASE_URL |-\|/-| 2014-09-02T17:04:33Z Merged pull request |-\|/-| 226 +46 −1 rb 2|-\|/-| 
+move unlock_jobs_of_dead_workers |-\|/-| 2014-08-20T18:34:39Z Merged pull request |-\|/-| 224 +28 −28 rb 4|-\|/-| 
+remove useless require of thread |-\|/-| 2014-08-28T15:17:52Z Merged pull request |-\|/-| 223 +0 −1 rb 1|-\|/-| 
+Asynchronous forked workers with specs |-\|/-| 2019-07-18T22:27:53Z Closed pull request |-\|/-| 220 +269 −39 rb 3|-\|/-| 
+Change spec so it doesn't freak out on multiple pg connections |-\|/-| 2019-07-03T23:40:19Z Merged pull request |-\|/-| 219 +6 −5 rb 1|-\|/-| 
+Fixes forking for workers. Should not corrupt pg connection anymore. |-\|/-| 2014-05-14T07:53:49Z Closed pull request |-\|/-| 218 +105 −10 rb 3|-\|/-| 
+Support for scheduling jobs in the future |-\|/-| 2015-01-07T18:48:00Z Merged pull request |-\|/-| 217 +113 −6 md rb sql 9|-\|/-| 
+handle_failure method gets access to queue from which the failing job originated |-\|/-| 2014-05-01T15:09:38Z Merged pull request |-\|/-| 215 +5 −2 rb 2|-\|/-| 
+Bug: Travis Builds Are Failing |-\|/-| 2015-05-14T16:26:21Z Closed pull request |-\|/-| 212 +0 −2 yml 1|-\|/-| 
+add conditional measure output |-\|/-| 2014-04-03T20:33:51Z Merged pull request |-\|/-| 211 +21 −4 rb md 3|-\|/-| 
+remove debug output |-\|/-| 2014-04-03T19:49:42Z Closed pull request |-\|/-| 210 +0 −4 rb 2|-\|/-| 
+Resolved circular require warnings |-\|/-| 2014-03-31T18:17:34Z Merged pull request |-\|/-| 208 +7 −9 rb 3|-\|/-| 
+Handle crashes |-\|/-| 2014-04-04T00:24:48Z Closed pull request |-\|/-| 206 +122 −5 yml Rakefile rb md sql 13|-\|/-| 
+Add code climate badge |-\|/-| 2014-03-22T19:21:24Z Merged pull request |-\|/-| 205 +15 −2 yml Gemfile md 2|-\|/-| 
+Add travis |-\|/-| 2014-03-22T19:21:10Z Merged pull request |-\|/-| 204 +13 −2 yml Gemfile md 2|-\|/-| 
+Fix connection sharing |-\|/-| 2014-03-25T16:24:30Z Merged pull request |-\|/-| 203 +41 −5 yml Gemfile Rakefile rb 7|-\|/-| 
+Relax job selection if job_count < top_boundary |-\|/-| 2019-07-03T23:15:30Z Closed pull request |-\|/-| 198 +4 −4 sql 1|-\|/-| 
+Account for locked_at in job_count query |-\|/-| 2014-03-04T20:29:46Z Merged pull request |-\|/-| 197 +3 −1 sql 1|-\|/-| 
+Account for locked_at in job_count query |-\|/-| 2014-03-04T20:14:47Z Closed pull request |-\|/-| 196 +7 −5 sql 1|-\|/-| 
+Custom columns |-\|/-| 2014-02-04T03:00:32Z Closed pull request |-\|/-| 193 +16 −0 rb 3|-\|/-| 
+Refactorings |-\|/-| 2014-01-05T23:51:18Z Merged pull request |-\|/-| 190 +202 −209 rb 5|-\|/-| 
+Handling Worker Failures |-\|/-| 2014-04-04T04:48:09Z Closed pull request |-\|/-| 189 +41 −0 rb 2|-\|/-| 
+Another pass at multi-queue worker. |-\|/-| 2014-01-04T17:56:56Z Merged pull request |-\|/-| 188 +67 −8 rb md 4|-\|/-| 
+Updated QC::Queue.new usage in README to new usage |-\|/-| 2013-12-21T10:10:32Z Merged pull request |-\|/-| 187 +2 −2 md 0|-\|/-| 
+Update pg to 0.17.0 |-\|/-| 2013-12-13T04:21:59Z Merged pull request |-\|/-| 186 +1 −1 gemspec 1|-\|/-| 
+Workers than can work multiple queues. |-\|/-| 2014-01-06T00:10:32Z Closed pull request |-\|/-| 183 +465 −238 rb 5|-\|/-| 
+Documentation fix: reenqueueing failed jobs is described correctly |-\|/-| 2013-10-28T10:43:03Z Merged pull request |-\|/-| 181 +1 −1 md 0|-\|/-| 
+Use correct environment variable for CONCURRENCY option in README |-\|/-| 2013-10-24T19:22:43Z Merged pull request |-\|/-| 180 +1 −1 md 0|-\|/-| 
+Add priorities |-\|/-| 2014-01-06T00:10:43Z Closed pull request |-\|/-| 177 +337 −244 rb 5|-\|/-| 
+Reduction: Remove conn pool |-\|/-| 2013-09-05T20:39:06Z Merged pull request |-\|/-| 175 +106 −211 rb 10|-\|/-| 
+Upgrading from an old QC |-\|/-| 2013-08-27T20:32:18Z Closed pull request |-\|/-| 174 +19 −0 rb 1|-\|/-| 
+Don't lock jobs indefinitely when worker crashed (#165) |-\|/-| 2013-11-28T00:27:48Z Closed pull request |-\|/-| 170 +213 −67 gitignore rb sql 11|-\|/-| 
+Connection Pooling |-\|/-| 2013-07-23T03:53:58Z Merged pull request |-\|/-| 167 +237 −158 rb 8|-\|/-| 
+Fix Worker#wait |-\|/-| 2013-07-04T19:21:55Z Closed pull request |-\|/-| 166 +1 −1 rb 1|-\|/-| 
+Deprecations |-\|/-| 2013-07-04T22:05:53Z Merged pull request |-\|/-| 164 +26 −98 changelog rb md 7|-\|/-| 
+Improve README example: make TERM trap functional |-\|/-| 2013-07-02T03:41:08Z Merged pull request |-\|/-| 163 +3 −3 md 0|-\|/-| 
+Feature: Threaded Worker |-\|/-| 2013-07-02T04:28:18Z Closed pull request |-\|/-| 159 +105 −105 rb 8|-\|/-| 
+use json from the stdlib as MultiJson will be discontinued |-\|/-| 2013-06-15T13:10:12Z Merged pull request |-\|/-| 157 +4 −4 changelog rb gemspec 4|-\|/-| 
+fix `QC::Conn#connect` when url has no host. |-\|/-| 2013-06-13T05:55:50Z Merged pull request |-\|/-| 156 +37 −8 rb 2|-\|/-| 
+Bugfix: misspelling of word functions in tasks |-\|/-| 2013-06-04T18:18:43Z Merged pull request |-\|/-| 154 +1 −1 rb 1|-\|/-| 
+Change how log_yield calculates time elapsed to match log |-\|/-| 2013-06-14T05:52:15Z Merged pull request |-\|/-| 151 +20 −1 changelog rb 3|-\|/-| 
+Use explict rubygems url in Gemfile |-\|/-| 2013-04-12T08:19:19Z Merged pull request |-\|/-| 148 +1 −1 md 0|-\|/-| 
+Bump pg version to 0.15.1 |-\|/-| 2013-04-19T22:10:37Z Merged pull request |-\|/-| 147 +1 −1 gemspec 1|-\|/-| 
+Make QC.default_queue configurable |-\|/-| 2013-04-20T12:09:00Z Merged pull request |-\|/-| 146 +27 −1 changelog rb 3|-\|/-| 
+default `#handle_failure` logs job and error. |-\|/-| 2013-04-20T12:06:24Z Merged pull request |-\|/-| 145 +27 −1 changelog rb 4|-\|/-| 
+bump a few out of date version numbers |-\|/-| 2013-04-09T07:20:01Z Merged pull request |-\|/-| 144 +2 −2 md 0|-\|/-| 
+Update version in changelog |-\|/-| 2013-04-03T18:20:49Z Merged pull request |-\|/-| 140 +1 −1 changelog 1|-\|/-| 
+On new job, issue NOTIFY via trigger. |-\|/-| 2013-07-04T21:59:43Z Merged pull request |-\|/-| 139 +21 −17 rb sql 7|-\|/-| 
+Use json type for the args column if json is available. |-\|/-| 2013-05-18T18:50:37Z Merged pull request |-\|/-| 136 +22 −4 changelog md sql 2|-\|/-| 
+The connection count test should restrict the test to current database. |-\|/-| 2013-03-12T07:40:36Z Merged pull request |-\|/-| 135 +2 −2 rb 1|-\|/-| 
+better Rails integration |-\|/-| 2013-07-11T10:27:42Z Merged pull request |-\|/-| 134 +48 −20 rb md 4|-\|/-| 
+ruby-debug19 does not work with ruby-2.0.0-p0 |-\|/-| 2013-03-11T09:03:41Z Merged pull request |-\|/-| 133 +0 −1 Gemfile 1|-\|/-| 
+`source :rubygems` is deprecated. Use URL instead. |-\|/-| 2013-03-05T16:27:56Z Merged pull request |-\|/-| 131 +1 −1 Gemfile 1|-\|/-| 
+Change `lock_head` to log and sleep before retrying |-\|/-| 2013-03-04T18:59:00Z Closed pull request |-\|/-| 130 +3 −1 sql 1|-\|/-| 
+Allows more complex constructs for jobs. |-\|/-| 2014-01-06T00:41:04Z Closed pull request |-\|/-| 129 +303 −237 changelog rb 7|-\|/-| 
+extract #perform from #work to run a job |-\|/-| 2013-02-14T16:27:27Z Merged pull request |-\|/-| 128 +18 −18 rb md 1|-\|/-| 
+ignore .ruby-version |-\|/-| 2013-02-14T16:19:00Z Merged pull request |-\|/-| 127 +2 −0 gitignore 1|-\|/-| 
+Fix error in usage example of QC::Queue.new |-\|/-| 2013-01-14T21:37:16Z Merged pull request |-\|/-| 121 +1 −1 md 0|-\|/-| 
+Support 64-bit precision all around |-\|/-| 2013-01-03T00:51:16Z Merged pull request |-\|/-| 120 +32 −3 sql rb 4|-\|/-| 
+don't try to fetch more jobs after having been signaled |-\|/-| 2012-12-17T18:40:24Z Merged pull request |-\|/-| 119 +1 −1 rb 1|-\|/-| 
+Update readme.md |-\|/-| 2013-01-03T00:21:18Z Merged pull request |-\|/-| 118 +1 −1 md 0|-\|/-| 
+Allow percent-encoded socket paths in ENV[{QC_,}DATABASE_URL] |-\|/-| 2013-02-14T16:25:50Z Merged pull request |-\|/-| 114 +10 −1 rb md 1|-\|/-| 
+Adding callbacks before and after call method |-\|/-| 2013-01-03T00:46:05Z Closed pull request |-\|/-| 113 +124 −2 rb md 2|-\|/-| 
+proof of concept: Rails 4 Queue API |-\|/-| 2013-01-03T00:45:22Z Closed pull request |-\|/-| 112 +79 −0 rb 2|-\|/-| 
+Updated PG to 0.14.1 |-\|/-| 2013-01-03T00:20:50Z Closed pull request |-\|/-| 109 +1 −1 gemspec 1|-\|/-| 
+QC.respond_to?(:enqueue) returns false |-\|/-| 2013-01-03T00:42:29Z Merged pull request |-\|/-| 108 +9 −0 rb 2|-\|/-| 
+Use MultiJson to improve JSON performance when possible |-\|/-| 2013-03-25T19:05:04Z Merged pull request |-\|/-| 106 +5 −602 rb 1|-\|/-| 
+Add link to queue_classic_java fork. |-\|/-| 2012-11-16T19:52:30Z Merged pull request |-\|/-| 105 +1 −0 md 0|-\|/-| 
+Show prototype for log and log_yield in readme |-\|/-| 2012-11-16T19:51:41Z Merged pull request |-\|/-| 104 +1 −1 md 0|-\|/-| 
+Fix speling in README |-\|/-| 2012-11-16T19:52:46Z Merged pull request |-\|/-| 102 +1 −1 md 0|-\|/-| 
+Add note on using schema_format = :sql with Rails. |-\|/-| 2012-11-22T16:12:51Z Merged pull request |-\|/-| 100 +6 −0 md 0|-\|/-| 
+Fallback to ActiveRecord connection if no ENV variables exist |-\|/-| 2012-11-22T20:42:54Z Closed pull request |-\|/-| 98 +16 −14 rb 1|-\|/-| 
+Allow setting of QC::Conn.connection (closes #96) |-\|/-| 2012-11-22T15:55:44Z Merged pull request |-\|/-| 97 +18 −2 rb md 1|-\|/-| 
+Adds QC#job_count |-\|/-| 2012-11-22T16:10:06Z Closed pull request |-\|/-| 92 +29 −0 rb md sql 6|-\|/-| 
+Default whether to notify based on QC::LISTENING_WORKER |-\|/-| 2012-08-06T15:32:52Z Merged pull request |-\|/-| 90 +2 −2 rb 2|-\|/-| 
+couple readme changes |-\|/-| 2012-07-27T23:27:17Z Merged pull request |-\|/-| 89 +3 −3 md 0|-\|/-| 
+Remove unnecessary (and incorrect) $LOAD_PATH manipulation. |-\|/-| 2012-08-26T22:44:06Z Merged pull request |-\|/-| 88 +0 −2 rb 1|-\|/-| 
+upgrade to scrolls 0.2.1 |-\|/-| 2012-07-23T16:50:06Z Merged pull request |-\|/-| 87 +1 −4 rb gemspec 2|-\|/-| 
+Minor typo correction in readme.md |-\|/-| 2012-07-23T16:50:31Z Merged pull request |-\|/-| 86 +1 −1 md 0|-\|/-| 
+Added env option to write the current PID to a file. |-\|/-| 2012-07-23T17:00:43Z Closed pull request |-\|/-| 82 +7 −0 rb 1|-\|/-| 
+Upgrade to pg 0.14.0 |-\|/-| 2012-06-30T17:09:47Z Merged pull request |-\|/-| 81 +1 −1 gemspec 1|-\|/-| 
+QC doesn't repair connection when database temporary goes offline |-\|/-| 2012-06-12T18:43:27Z Merged pull request |-\|/-| 78 +20 −0 rb gemspec 3|-\|/-| 
+db_url  get DATABASE_URL before QC_DATABASE_URL should be better |-\|/-| 2012-06-29T22:19:02Z Closed pull request |-\|/-| 77 +2 −2 rb 1|-\|/-| 
+Add MIT License |-\|/-| 2012-05-29T23:16:34Z Merged pull request |-\|/-| 76 +17 −0 MIT-LICENSE gemspec md 2|-\|/-| 
+Update readme |-\|/-| 2012-05-29T23:23:33Z Merged pull request |-\|/-| 75 +2 −2 md 0|-\|/-| 
+Adding priority queue feature |-\|/-| 2012-06-29T22:16:23Z Closed pull request |-\|/-| 73 +35 −8 rb md sql 6|-\|/-| 
+Update and fix OkJson |-\|/-| 2012-05-17T16:21:47Z Merged pull request |-\|/-| 71 +57 −67 rb 1|-\|/-| 
+fix delete all when passing queue name |-\|/-| 2012-05-08T05:47:25Z Merged pull request |-\|/-| 67 +13 −1 rb 2|-\|/-| 
+remove drop of undefined function |-\|/-| 2012-05-08T05:57:35Z Merged pull request |-\|/-| 66 +0 −1 sql 1|-\|/-| 
+Remove '\' from readme where not needed. |-\|/-| 2012-05-08T05:55:31Z Merged pull request |-\|/-| 64 +62 −62 md 0|-\|/-| 
+Readme copy edits |-\|/-| 2012-05-04T05:15:44Z Merged pull request |-\|/-| 63 +72 −72 md 0|-\|/-| 
+Index optimizations |-\|/-| 2012-04-24T18:44:23Z Closed pull request |-\|/-| 60 +4 −3 sql rb 2|-\|/-| 
+fix drop_ddl and add load and unload queries |-\|/-| 2012-04-20T20:27:55Z Merged pull request |-\|/-| 59 +71 −11 rb md sql 4|-\|/-| 
+qc:drop_function does not drop functions |-\|/-| 2012-04-24T16:19:07Z Closed pull request |-\|/-| 58 +6 −4 rb sql 3|-\|/-| 
+Reuse ActiveRecord connection for migrations. |-\|/-| 2012-05-08T05:58:28Z Closed pull request |-\|/-| 57 +25 −2 rb md 2|-\|/-| 
+Lazy evaluate database URL |-\|/-| 2012-04-11T20:47:12Z Merged pull request |-\|/-| 56 +5 −6 rb 2|-\|/-| 
+Minor updates to ease installation process |-\|/-| 2012-04-24T16:19:41Z Closed pull request |-\|/-| 55 +19 −5 Rakefile rb 5|-\|/-| 
+Better argument structure for QC::Worker.new |-\|/-| 2012-03-28T05:22:00Z Merged pull request |-\|/-| 54 +14 −1 rb 1|-\|/-| 
+Apostrophe fix |-\|/-| 2012-03-27T06:28:14Z Merged pull request |-\|/-| 52 +2 −2 md 0|-\|/-| 
+Removed old default queue name reference (table name) |-\|/-| 2012-03-20T19:35:43Z Merged pull request |-\|/-| 51 +2 −2 rb 1|-\|/-| 
+I had to make this change to get the migration to run. |-\|/-| 2012-03-20T19:36:08Z Merged pull request |-\|/-| 50 +1 −1 md 0|-\|/-| 
+fix typo in rake task name |-\|/-| 2012-03-19T05:25:39Z Merged pull request |-\|/-| 48 +1 −1 rb 1|-\|/-| 
+Update .travis.yml to pass lint.travis-ci.org validation |-\|/-| 2012-03-19T05:26:42Z Closed pull request |-\|/-| 45 +5 −2 yml 1|-\|/-| 
+add unload functions |-\|/-| 2012-01-31T18:58:06Z Merged pull request |-\|/-| 41 +48 −0 md rb 1|-\|/-| 
+Revert "Newline Serialization" escaping and vendor in OkJson |-\|/-| 2012-02-29T21:17:33Z Merged pull request |-\|/-| 40 +590 −4 Gemfile rb 4|-\|/-| 
+Newline serialization |-\|/-| 2012-01-26T23:15:57Z Merged pull request |-\|/-| 39 +29 −2 md rb 3|-\|/-| 
+testing tip |-\|/-| 2012-01-26T23:12:22Z Merged pull request |-\|/-| 38 +17 −1 md 0|-\|/-| 
+major changes across the board |-\|/-| 2012-03-19T05:25:54Z Closed pull request |-\|/-| 37 +3,199 −969 gitignore Gemfile Rakefile bin/queue_classic sql 5|-\|/-| 
+promiscuous json gem  |-\|/-| 2012-01-26T23:17:54Z Merged pull request |-\|/-| 36 +1 −1 gemspec 1|-\|/-| 
+Add Queue test for defaut table name |-\|/-| 2011-12-17T18:21:05Z Merged pull request |-\|/-| 35 +2 −1 rb 1|-\|/-| 
+Fix queue subclasses |-\|/-| 2012-02-29T22:14:16Z Closed pull request |-\|/-| 34 +23 −5 rb 2|-\|/-| 
+Queue class enqueues a job |-\|/-| 2011-12-17T18:19:45Z Merged pull request |-\|/-| 33 +11 −2 rb 2|-\|/-| 
+Queue class enqueues a job |-\|/-| 2011-12-13T14:31:48Z Merged pull request |-\|/-| 32 +0 −0 0|-\|/-| 
+Adding test helper & updateing readme |-\|/-| 2012-04-24T16:20:06Z Closed pull request |-\|/-| 31 +110 −1 rb md 2|-\|/-| 
+Use parameterised queries to prevent SQL escaping issues. |-\|/-| 2011-12-02T02:49:36Z Merged pull request |-\|/-| 30 +39 −24 rb 5|-\|/-| 
+Add `transaction` helper method for batch queueing. |-\|/-| 2011-12-02T18:09:44Z Merged pull request |-\|/-| 29 +44 −0 rb 2|-\|/-| 
+Time to test on Travis! |-\|/-| 2011-11-26T18:07:57Z Merged pull request |-\|/-| 25 +10 −18 gitignore yml Gemfile lock 4|-\|/-| 
+Setting DATABASE_URL in initializer not working as expected |-\|/-| 2011-11-26T15:29:29Z Merged pull request |-\|/-| 24 +9 −8 rb 1|-\|/-| 
+Sql functions: assist with CREATE and DROP. |-\|/-| 2012-03-19T05:27:57Z Closed pull request |-\|/-| 23 +236 −26 html md rb 7|-\|/-| 
+Rake tasks: corrected, described, and DRYed up |-\|/-| 2011-12-02T02:50:36Z Merged pull request |-\|/-| 22 +6 −4 rb 1|-\|/-| 
+Faster, fix injection attack |-\|/-| 2011-11-13T03:32:32Z Merged pull request |-\|/-| 20 +9 −5 rb 1|-\|/-| 
+A few cleanups that looked like they needed to be done. |-\|/-| 2011-11-12T20:02:28Z Merged pull request |-\|/-| 18 +25 −13 rb 3|-\|/-| 
+Bugfix/json requirement |-\|/-| 2011-11-02T20:31:13Z Merged pull request |-\|/-| 17 +19 −5 Gemfile lock Rakefile gemspec md 4|-\|/-| 
+env vars are strings |-\|/-| 2011-08-27T21:02:57Z Closed pull request |-\|/-| 13 +1 −1 rb 1|-\|/-| 
+env vars are strings |-\|/-| 2011-08-27T21:02:57Z Closed pull request |-\|/-| 12 +21 −31 rb 4|-\|/-| 
+only one connection per worker (instead of 2) & default test database |-\|/-| 2011-08-03T20:53:58Z Merged pull request |-\|/-| 11 +16 −8 rb 3|-\|/-| 
+allow postgres:///db_name urls  |-\|/-| 2011-07-26T16:57:32Z Merged pull request |-\|/-| 9 +7 −5 rb 1|-\|/-| 
+patch from reddirt conf |-\|/-| 2011-06-09T17:54:47Z Closed pull request |-\|/-| 5 +67 −49 gitignore Gemfile rb md 8|-\|/-| 
+Rakefile |-\|/-| 2011-05-11T17:59:27Z Merged pull request |-\|/-| 4 +7 −0 Rakefile 1|-\|/-| 
+Rspec code and abstract adapter |-\|/-| 2011-04-27T16:39:25Z Closed pull request |-\|/-| 3 +383 −131 gitignore Gemfile rb 9|-\|/-| 
+README + toolchain update for new developers |-\|/-| 2011-05-23T01:12:44Z Closed pull request |-\|/-| 2 +67 −49 gitignore Gemfile rb md 8|-\|/-| 

@@ -1,0 +1,386 @@
+Use full path for XcodeProj |-\|/-| 2020-01-12T20:30:18Z Merged pull request |-\|/-| 751 +3 −1 md swift 1|-\|/-| 
+Update to SwiftCLI 6.0 |-\|/-| 2020-01-05T00:51:04Z Merged pull request |-\|/-| 749 +38 −63 md resolved swift 6|-\|/-| 
+#746 Add Organization Name in spec file |-\|/-| 2020-01-06T12:10:28Z Closed pull request |-\|/-| 747 +12 −2 swift 2|-\|/-| 
+Don't add framework dependency's directory to FRAMEWORK_SEARCH_PATHS if it is implicit |-\|/-| 2020-01-12T10:45:40Z Merged pull request |-\|/-| 744 +5 −2 md swift 1|-\|/-| 
+Replace projectReference.path as relativePath |-\|/-| 2020-01-06T12:10:05Z Merged pull request |-\|/-| 740 +37 −0 md swift yml 7|-\|/-| 
+Add option to generate only plist files |-\|/-| 2020-01-07T22:39:13Z Merged pull request |-\|/-| 739 +7 −0 md swift 1|-\|/-| 
+Adding two Xcodegen external examples |-\|/-| 2019-12-02T15:33:07Z Merged pull request |-\|/-| 734 +2 −1 md 0|-\|/-| 
+Add support for language and region settings for target schemes |-\|/-| 2019-12-04T10:08:11Z Merged pull request |-\|/-| 728 +32 −3 md swift 3|-\|/-| 
+Fixed unnecessary dependencies related to SwiftPM |-\|/-| 2019-11-27T18:42:15Z Merged pull request |-\|/-| 726 +6 −10 md swift pbxproj 2|-\|/-| 
+Fix TestAction when debugEnabled: false |-\|/-| 2019-11-23T04:25:46Z Merged pull request |-\|/-| 725 +22 −1 md swift 2|-\|/-| 
+Add bundle dependency type |-\|/-| 2019-12-12T11:21:24Z Merged pull request |-\|/-| 723 +677 −12 md swift 3|-\|/-| 
+Fix localized *.intentdefinition have to be added to build source phases |-\|/-| 2019-11-19T06:15:17Z Merged pull request |-\|/-| 720 +70 −15 md swift 2|-\|/-| 
+Plist.path as Path |-\|/-| 2019-11-24T21:01:29Z Closed pull request |-\|/-| 719 +13 −10 md swift 4|-\|/-| 
+Update to XcodeProj 7.4 |-\|/-| 2019-11-10T01:54:04Z Merged pull request |-\|/-| 715 +19 −24 resolved swift pbxproj 5|-\|/-| 
+Update to Swift 5.1 |-\|/-| 2019-11-10T01:38:34Z Merged pull request |-\|/-| 714 +192 −261 swiftformat md swift 13|-\|/-| 
+Add dump command |-\|/-| 2019-11-10T00:47:43Z Merged pull request |-\|/-| 710 +147 −47 md swift 7|-\|/-| 
+Update to XcodeProj 7.3.0 |-\|/-| 2019-11-07T12:22:50Z Merged pull request |-\|/-| 709 +4 −12 md resolved swift 2|-\|/-| 
+Disable Xcode 10.3 CI builds |-\|/-| 2019-11-06T19:41:10Z Merged pull request |-\|/-| 707 +1 −1 yml 1|-\|/-| 
+Fix crash on empty `${}` variable expansion |-\|/-| 2019-11-06T20:12:12Z Merged pull request |-\|/-| 706 +2 −2 swift 1|-\|/-| 
+Fix header phase for static frameworks |-\|/-| 2019-11-06T20:09:21Z Merged pull request |-\|/-| 705 +4 −3 md swift 3|-\|/-| 
+Improving variable expansion runtime |-\|/-| 2019-11-06T14:33:55Z Merged pull request |-\|/-| 704 +110 −55 md swift 9|-\|/-| 
+Fixing link directive on dependencies |-\|/-| 2019-10-31T20:32:18Z Merged pull request |-\|/-| 703 +6 −5 md swift 1|-\|/-| 
+Add missing onlyGenerateCoverageForSpecifiedTargets |-\|/-| 2019-10-30T16:27:27Z Merged pull request |-\|/-| 700 +12 −0 md swift xcscheme 11|-\|/-| 
+Restructure test targets |-\|/-| 2019-10-27T12:24:39Z Merged pull request |-\|/-| 698 +54 −10 md swift 18|-\|/-| 
+Fix macOS unit test target TEST_HOST  |-\|/-| 2019-10-24T16:12:01Z Merged pull request |-\|/-| 696 +274 −1 md swift plist 3|-\|/-| 
+Add Base to knownRegions even if one doesn't exist |-\|/-| 2019-10-29T22:46:41Z Merged pull request |-\|/-| 694 +8 −2 md swift pbxproj 4|-\|/-| 
+[RFC] Fix crashlytics script |-\|/-| 2019-10-22T11:25:36Z Merged pull request |-\|/-| 690 +1 −1 md 0|-\|/-| 
+Don't generate CFBundleExecutable for targets of type bundle |-\|/-| 2019-10-22T11:30:04Z Merged pull request |-\|/-| 689 +56 −18 md swift 3|-\|/-| 
+Support Static Frameworks for Carthage dependencies |-\|/-| 2019-11-07T17:03:27Z Merged pull request |-\|/-| 688 +224 −42 md swift 7|-\|/-| 
+Force checking SwiftFormat before merging |-\|/-| 2019-11-10T03:52:05Z Closed pull request |-\|/-| 686 +5 −1 yml swift 2|-\|/-| 
+Add base localisation by default |-\|/-| 2019-10-15T10:31:11Z Merged pull request |-\|/-| 685 +1 −1 resolved 1|-\|/-| 
+Resolve auto-generated INFOPLIST_FILE |-\|/-| 2019-10-23T17:36:16Z Merged pull request |-\|/-| 683 +18 −2 md swift 2|-\|/-| 
+[WIP] Spec generation |-\|/-| 2019-12-04T12:55:20Z Closed draft pull request |-\|/-| 682 +384 −4 swift 5|-\|/-| 
+Resolving relative paths with custom project destination |-\|/-| 2019-10-22T19:15:52Z Merged pull request |-\|/-| 681 +56 −9 md swift 5|-\|/-| 
+Fix some resource files being placed to "Recovered References" group |-\|/-| 2019-10-08T22:00:05Z Merged pull request |-\|/-| 679 +65 −1 md swift 2|-\|/-| 
+Select suitable configs for auto-generated schemes |-\|/-| 2019-10-06T11:16:25Z Merged pull request |-\|/-| 673 +47 −2 md swift 2|-\|/-| 
+Scheme Templates |-\|/-| 2019-10-08T06:38:32Z Merged pull request |-\|/-| 672 +245 −61 md swift 6|-\|/-| 
+Fix tests in case-sensitive file system |-\|/-| 2019-10-06T11:45:56Z Merged pull request |-\|/-| 670 +73 −72 md pbxproj json plist storyboard swift yml 13|-\|/-| 
+Add .rcproject path to sources build phase |-\|/-| 2019-10-02T07:23:46Z Merged pull request |-\|/-| 669 +3 −1 md swift 1|-\|/-| 
+Update SwiftCLI |-\|/-| 2019-10-06T11:05:05Z Merged pull request |-\|/-| 667 +8 −25 md resolved swift 4|-\|/-| 
+Specify platform |-\|/-| 2019-09-30T23:05:01Z Merged pull request |-\|/-| 666 +2 −1 resolved swift 2|-\|/-| 
+Fix macOS unit test setting preset |-\|/-| 2019-09-29T00:47:23Z Merged pull request |-\|/-| 665 +4 −1 md yml 1|-\|/-| 
+Run github actions with multiple versions of xcode |-\|/-| 2019-09-28T07:20:02Z Merged pull request |-\|/-| 664 +35 −37 yml version pbxproj 4|-\|/-| 
+Create less diffs in pbxproj |-\|/-| 2019-09-28T04:56:49Z Merged pull request |-\|/-| 663 +647 −167 md yml swift pbxproj 14|-\|/-| 
+Less Array() and more valueArray |-\|/-| 2019-09-23T21:21:37Z Merged pull request |-\|/-| 661 +8 −5 md swift 3|-\|/-| 
+Performance Tuning |-\|/-| 2019-09-22T11:48:17Z Merged pull request |-\|/-| 658 +6 −2 md swift 1|-\|/-| 
+Add `debugEnabled` option for run and test |-\|/-| 2019-09-22T12:42:11Z Merged pull request |-\|/-| 657 +48 −2 md swift 3|-\|/-| 
+Add option to gather code coverage for specific targets |-\|/-| 2019-10-27T04:44:02Z Merged pull request |-\|/-| 656 +80 −21 md swift 4|-\|/-| 
+Support External Target Reference |-\|/-| 2019-10-27T03:11:36Z Merged pull request |-\|/-| 655 +550 −43 md swift 8|-\|/-| 
+Add language and region options for scheme |-\|/-| 2019-09-14T03:15:09Z Merged pull request |-\|/-| 654 +35 −4 md swift xcscheme yml 4|-\|/-| 
+Expand template variable in Array of Any |-\|/-| 2019-09-11T09:51:46Z Merged pull request |-\|/-| 651 +27 −13 md swift 2|-\|/-| 
+Allow dylib extension for SDK linkage |-\|/-| 2019-09-11T09:49:14Z Merged pull request |-\|/-| 650 +14 −2 md swift pbxproj yml 4|-\|/-| 
+Add support for includes filter in target sources |-\|/-| 2019-09-02T07:30:39Z Merged pull request |-\|/-| 644 +131 −20 md swift 3|-\|/-| 
+Release 2.7.0 |-\|/-| 2019-09-01T12:11:08Z Merged pull request |-\|/-| 642 +106 −110 md Makefile swift 15|-\|/-| 
+Remove CircleCI in favour of Github actions |-\|/-| 2019-09-01T11:43:59Z Merged pull request |-\|/-| 641 +1 −35 yml 2|-\|/-| 
+Add recursive glob support |-\|/-| 2019-09-01T05:35:47Z Merged pull request |-\|/-| 636 +533 −8 md swift 2|-\|/-| 
+Allow to link dylib into static library only when 'link' is true |-\|/-| 2019-08-28T18:52:28Z Merged pull request |-\|/-| 635 +34 −14 md swift 2|-\|/-| 
+Added new faq about Crashlytics(#633) |-\|/-| 2019-08-27T02:17:20Z Merged pull request |-\|/-| 634 +17 −0 md 0|-\|/-| 
+Ignore files with orig extension |-\|/-| 2019-08-24T23:55:36Z Merged pull request |-\|/-| 627 +23 −0 md swift 2|-\|/-| 
+Add github actions |-\|/-| 2019-08-15T06:40:21Z Merged pull request |-\|/-| 626 +48 −0 yml 1|-\|/-| 
+Support for Swift Packages |-\|/-| 2019-09-27T14:31:22Z Merged pull request |-\|/-| 624 +1,319 −36 md resolved swift 6|-\|/-| 
+auto generate project by using post-checkout hook |-\|/-| 2019-08-22T10:27:55Z Closed pull request |-\|/-| 622 +155 −59 swift 5|-\|/-| 
+Add support for source groups |-\|/-| 2019-11-20T11:13:10Z Merged pull request |-\|/-| 621 +172 −27 md swift 3|-\|/-| 
+Support Swift Packages |-\|/-| 2019-08-13T12:08:47Z Closed pull request |-\|/-| 617 +91 −0 swift 2|-\|/-| 
+Add bundle dependency type and re-enable static library linking against frameworks |-\|/-| 2019-12-03T11:50:43Z Closed pull request |-\|/-| 616 +879 −20 md swift pbxproj 3|-\|/-| 
+Added custom group support for target sources (#478) |-\|/-| 2019-10-13T09:11:04Z Closed pull request |-\|/-| 611 +127 −22 md swift 3|-\|/-| 
+Add support for custom groups in target sources |-\|/-| 2019-07-22T19:52:46Z Closed pull request |-\|/-| 607 +311 −14 md swift 3|-\|/-| 
+Update to XcodeProj 7.0.0 |-\|/-| 2019-06-26T07:30:34Z Merged pull request |-\|/-| 604 +1,625 −1,602 gitignore md resolved swift 21|-\|/-| 
+Add additional spec for variable expension in combination with template attributes |-\|/-| 2019-06-21T14:53:42Z Merged pull request |-\|/-| 602 +29 −9 yml swift 3|-\|/-| 
+Added disableMainThreadChecker to TargetScheme and Run/Test Actions |-\|/-| 2019-08-31T17:01:31Z Merged pull request |-\|/-| 601 +74 −14 md swift xcscheme yml 10|-\|/-| 
+Include unique file only once |-\|/-| 2019-08-19T17:42:55Z Merged pull request |-\|/-| 599 +72 −6 md swift yml 5|-\|/-| 
+Don't bundle `.pch` files as resources |-\|/-| 2019-06-10T02:17:12Z Merged pull request |-\|/-| 597 +6 −1 md swift 1|-\|/-| 
+Add environment variable expansion |-\|/-| 2019-06-20T01:46:29Z Merged pull request |-\|/-| 594 +40 −14 md swift yml 6|-\|/-| 
+Add support for customizing attributes on a target source file |-\|/-| 2019-06-14T05:10:40Z Merged pull request |-\|/-| 583 +45 −3 md swift 3|-\|/-| 
+Allow skipping tests in test targets |-\|/-| 2019-05-22T13:06:06Z Merged pull request |-\|/-| 582 +19 −4 md swift 3|-\|/-| 
+Change compatibilityVersion to Xcode 10.0 |-\|/-| 2019-06-14T00:57:12Z Merged pull request |-\|/-| 581 +8 −5 md swift pbxproj 4|-\|/-| 
+Change compatibilityVersion to Xcode 10.0 |-\|/-| 2019-05-07T16:02:33Z Closed pull request |-\|/-| 580 +6 −3 md swift 2|-\|/-| 
+Fix duplicate build scripts being generated when using target templates |-\|/-| 2019-08-19T17:42:54Z Closed pull request |-\|/-| 577 +11 −3 swift 1|-\|/-| 
+Fix watchOS Intents Extension support |-\|/-| 2019-06-14T01:00:44Z Merged pull request |-\|/-| 571 +4 −0 md yml 1|-\|/-| 
+support sdks with dylib extension |-\|/-| 2019-09-11T09:50:01Z Closed pull request |-\|/-| 564 +1 −0 swift 1|-\|/-| 
+Added support for custom framework root |-\|/-| 2019-04-09T11:47:08Z Merged pull request |-\|/-| 562 +246 −8 md swift pbxproj yml 7|-\|/-| 
+Fix Carthage dependencies for watchOS target |-\|/-| 2019-04-09T11:47:46Z Merged pull request |-\|/-| 558 +28 −19 md swift pbxproj 2|-\|/-| 
+Fix optional file sources |-\|/-| 2019-04-05T01:05:24Z Merged pull request |-\|/-| 557 +32 −6 md swift 2|-\|/-| 
+Update default settings to Xcode 10.2 |-\|/-| 2019-04-06T09:46:57Z Merged pull request |-\|/-| 555 +30 −55 md yml swift pbxproj xcscheme 13|-\|/-| 
+Fixed flattening of relative paths (#525) |-\|/-| 2019-04-09T11:57:40Z Merged pull request |-\|/-| 550 +33 −1 md swift 2|-\|/-| 
+Update to Swift 5 |-\|/-| 2019-03-31T10:55:36Z Merged pull request |-\|/-| 549 +28 −391 yml md Makefile swift version Tests/Fixtures/TestProject/Mintfile pbxproj Tests/Fixtures/TestProject/SomeFile 11|-\|/-| 
+Fix creating optional file |-\|/-| 2019-03-29T10:54:42Z Closed pull request |-\|/-| 547 +5 −5 swift 1|-\|/-| 
+Add ability to encode ProjectSpec to JSON |-\|/-| 2019-04-22T02:14:15Z Merged pull request |-\|/-| 545 +791 −40 md swift 8|-\|/-| 
+Fix order of file generation |-\|/-| 2019-04-07T10:39:54Z Merged pull request |-\|/-| 544 +10 −3 md swift 1|-\|/-| 
+Update Carthage framework lookup |-\|/-| 2019-03-25T10:05:40Z Merged pull request |-\|/-| 543 +1,148 −298 md swift 5|-\|/-| 
+Fix included relative sources in mixed arrays |-\|/-| 2019-03-24T07:08:42Z Merged pull request |-\|/-| 542 +22 −5 md swift yml 3|-\|/-| 
+Fix multi-platform target templates |-\|/-| 2019-03-24T06:48:27Z Merged pull request |-\|/-| 541 +54 −0 md swift 2|-\|/-| 
+Fix relative paths in included target templates |-\|/-| 2019-03-17T10:54:39Z Merged pull request |-\|/-| 537 +11 −1 md swift yml 4|-\|/-| 
+Update to xcodeproj 6.7 |-\|/-| 2019-04-02T11:13:58Z Merged pull request |-\|/-| 536 +21 −12 md resolved swift 5|-\|/-| 
+Fix excludes within included specs |-\|/-| 2019-03-17T01:27:18Z Merged pull request |-\|/-| 535 +4 −3 md swift yml 3|-\|/-| 
+Add support for nested templates |-\|/-| 2019-03-17T10:55:25Z Merged pull request |-\|/-| 534 +143 −2 md swift 2|-\|/-| 
+Add ability to define `templateAttributes` within a target |-\|/-| 2019-03-17T18:30:19Z Merged pull request |-\|/-| 533 +197 −20 md swift 5|-\|/-| 
+use link property in framework deps |-\|/-| 2019-03-22T03:48:22Z Merged pull request |-\|/-| 532 +9 −5 swift 1|-\|/-| 
+Fix CocoaPods spelling |-\|/-| 2019-03-04T20:11:01Z Merged pull request |-\|/-| 531 +6 −6 md 0|-\|/-| 
+Feature: Add path support to Scheme.ExecutionAction |-\|/-| 2019-04-06T10:23:34Z Closed pull request |-\|/-| 530 +60 −37 md swift 6|-\|/-| 
+Fix error on missing optional sources |-\|/-| 2019-02-28T08:55:40Z Merged pull request |-\|/-| 527 +8 −1 md swift yml 2|-\|/-| 
+Compute relative paths to support sources outside a spec's directory |-\|/-| 2019-02-26T21:12:53Z Merged pull request |-\|/-| 524 +137 −9 md swift 6|-\|/-| 
+Add missingFiles option to skip checking for config file existence |-\|/-| 2019-02-13T01:49:31Z Merged pull request |-\|/-| 514 +14 −2 md swift 3|-\|/-| 
+Make multi platform targets parse deployment target per platform. |-\|/-| 2019-03-14T21:09:15Z Merged pull request |-\|/-| 510 +11 −0 md swift 2|-\|/-| 
+Fix fixtures building |-\|/-| 2019-02-03T08:20:28Z Merged pull request |-\|/-| 509 +254 −22 yml swift xcfilelist pbxproj 5|-\|/-| 
+Add example code for build rules |-\|/-| 2019-02-01T23:59:36Z Merged pull request |-\|/-| 507 +14 −0 md 0|-\|/-| 
+Adds ability to include related frameworks when using Carthage |-\|/-| 2019-02-24T11:41:55Z Merged pull request |-\|/-| 506 +554 −107 md swift 3|-\|/-| 
+Add createIntermediateGroups to TargetSource |-\|/-| 2019-01-28T11:17:22Z Merged pull request |-\|/-| 505 +19 −6 md swift 3|-\|/-| 
+Replace $target_name in target templates |-\|/-| 2019-01-28T10:49:21Z Merged pull request |-\|/-| 504 +48 −23 md swift 4|-\|/-| 
+Don't partial apply exact config matches |-\|/-| 2019-01-28T11:18:02Z Merged pull request |-\|/-| 503 +21 −5 md swift 2|-\|/-| 
+Refactor relative specs slightly |-\|/-| 2019-01-28T11:09:06Z Merged pull request |-\|/-| 502 +113 −106 swift 7|-\|/-| 
+Fixes a few broken links in the documentation files |-\|/-| 2019-01-27T08:15:37Z Merged pull request |-\|/-| 501 +2 −2 md 0|-\|/-| 
+Adding input and output file lists to build script spec |-\|/-| 2019-01-24T21:37:33Z Merged pull request |-\|/-| 500 +56 −1 md swift pbxproj yml 5|-\|/-| 
+Update Xcode compatibility version |-\|/-| 2019-01-27T08:16:03Z Merged pull request |-\|/-| 497 +15 −4 md swift pbxproj 3|-\|/-| 
+Fix executable schemes |-\|/-| 2019-01-24T12:19:55Z Merged pull request |-\|/-| 496 +215 −1 md swift pbxproj xcscheme yml 5|-\|/-| 
+Fixes issue with sticker pack targets generating redundant compile sources phase |-\|/-| 2019-01-20T06:54:14Z Merged pull request |-\|/-| 492 +318 −17 swift json plist 4|-\|/-| 
+Correct typo in docs |-\|/-| 2019-01-15T02:41:57Z Merged pull request |-\|/-| 490 +1 −1 md 0|-\|/-| 
+Spec file relative directory expansion |-\|/-| 2019-01-28T00:53:48Z Merged pull request |-\|/-| 489 +543 −62 md swift 10|-\|/-| 
+Fix writing to a project path |-\|/-| 2019-01-09T02:41:59Z Merged pull request |-\|/-| 487 +4 −1 md swift 1|-\|/-| 
+Fixed bug occurs during generating empty directories |-\|/-| 2019-01-08T21:21:48Z Merged pull request |-\|/-| 486 +39 −32 swift 2|-\|/-| 
+Update Linkage to handle additional PBXProductType case from xcodeproj |-\|/-| 2019-01-10T09:04:54Z Merged pull request |-\|/-| 482 +2,581 −2,577 md resolved swift pbxproj xcscheme 10|-\|/-| 
+ Added an abbility to generate empty directories |-\|/-| 2019-01-08T11:31:51Z Merged pull request |-\|/-| 480 +21 −9 md swift 2|-\|/-| 
+⛳️ include xcconfig sample |-\|/-| 2019-01-04T14:12:32Z Closed pull request |-\|/-| 472 +13 −1 md 0|-\|/-| 
+⛳️ swift for tensorflow example |-\|/-| 2019-01-04T23:40:00Z Merged pull request |-\|/-| 471 +2 −0 md 0|-\|/-| 
+clarify naming of file |-\|/-| 2019-01-04T00:22:25Z Closed pull request |-\|/-| 469 +1 −1 md 0|-\|/-| 
+Clarify exclude rules for Target Source Object |-\|/-| 2019-01-04T10:38:17Z Merged pull request |-\|/-| 468 +1 −1 md 0|-\|/-| 
+Add option to run other project tests |-\|/-| 2019-03-04T12:21:37Z Closed pull request |-\|/-| 466 +97 −8 md swift 6|-\|/-| 
+Bug carthage dependencies with different platform |-\|/-| 2019-01-26T07:08:37Z Merged pull request |-\|/-| 465 +25 −1 md swift 2|-\|/-| 
+Add includeBridgingHeader option to generate BridgingHeader easily |-\|/-| 2019-03-27T06:21:36Z Closed pull request |-\|/-| 459 +42 −2 md swift 3|-\|/-| 
+Add mlmodel to compiled file extensions |-\|/-| 2018-12-13T19:03:47Z Merged pull request |-\|/-| 457 +4 −1 swift 2|-\|/-| 
+Allow static libraries to see external framework in search paths |-\|/-| 2018-12-17T15:44:22Z Merged pull request |-\|/-| 454 +10 −5 md swift 1|-\|/-| 
+Generate TEST_HOST |-\|/-| 2018-12-16T08:16:29Z Merged pull request |-\|/-| 452 +37 −7 md swift pbxproj 2|-\|/-| 
+Use process unique temporary so we don't get duplicate temporary path… |-\|/-| 2018-11-30T06:05:04Z Merged pull request |-\|/-| 450 +2 −1 md swift 1|-\|/-| 
+Add contributor widget |-\|/-| 2018-11-26T11:21:15Z Merged pull request |-\|/-| 448 +3 −1 md 0|-\|/-| 
+Don't overwrite INFOPLIST_FILE setting with info path |-\|/-| 2018-12-01T07:15:17Z Merged pull request |-\|/-| 443 +25 −6 md swift 2|-\|/-| 
+Add .intentdefinition to sources by default |-\|/-| 2018-11-23T01:02:30Z Merged pull request |-\|/-| 442 +34 −6 md swift 2|-\|/-| 
+Add XcodeGenCLI |-\|/-| 2018-11-11T02:31:31Z Merged pull request |-\|/-| 437 +204 −139 md resolved swift 9|-\|/-| 
+Changes XPC Service package type to XPC! |-\|/-| 2018-11-05T12:21:30Z Merged pull request |-\|/-| 435 +6 −2 md swift 1|-\|/-| 
+Add TestTarget with parallelizable and randomExecutionOrder |-\|/-| 2018-11-04T09:31:33Z Merged pull request |-\|/-| 434 +237 −16 md swift xcscheme yml 8|-\|/-| 
+Automatically set project SDK root if there is only a single platform |-\|/-| 2018-11-03T05:19:59Z Merged pull request |-\|/-| 433 +38 −1 md swift 3|-\|/-| 
+Make Carthage dependencies listen to link |-\|/-| 2018-11-02T08:39:48Z Merged pull request |-\|/-| 432 +8 −25 md swift pbxproj yml 3|-\|/-| 
+Validate incorrect config settings definitions |-\|/-| 2018-11-02T08:01:49Z Merged pull request |-\|/-| 431 +34 −4 md swift 3|-\|/-| 
+Add sdk dependency type |-\|/-| 2018-11-04T11:20:56Z Merged pull request |-\|/-| 430 +100 −7 md swift pbxproj yml 9|-\|/-| 
+Add "sdkRoot" option for Dependency |-\|/-| 2018-11-02T05:33:53Z Closed pull request |-\|/-| 429 +14 −1 swift 2|-\|/-| 
+Fix issue with legacy target fileref |-\|/-| 2018-11-02T08:01:10Z Merged pull request |-\|/-| 427 +1 −3 swift 1|-\|/-| 
+Update generated project defaults to xcode 10 and swift 4.2 |-\|/-| 2018-10-18T22:37:15Z Merged pull request |-\|/-| 423 +17 −25 yml md swift pbxproj xcscheme 11|-\|/-| 
+Fix multi platform targets and UUID conflicts |-\|/-| 2018-10-18T11:57:36Z Merged pull request |-\|/-| 422 +113 −92 resolved swift 4|-\|/-| 
+Use the provided TargetSource.headerVisibility |-\|/-| 2018-10-08T21:18:36Z Merged pull request |-\|/-| 419 +1 −0 swift 1|-\|/-| 
+Add performance tests |-\|/-| 2018-10-08T11:46:53Z Merged pull request |-\|/-| 418 +240 −3 swift 4|-\|/-| 
+Cache config/setting file misses too |-\|/-| 2018-10-08T12:32:35Z Merged pull request |-\|/-| 417 +25 −9 swift 1|-\|/-| 
+Improve performance of getCombinedBuildSettings |-\|/-| 2018-10-08T12:36:33Z Merged pull request |-\|/-| 416 +21 −26 swift 2|-\|/-| 
+Generate optional info plist and entitlements |-\|/-| 2018-10-30T13:07:14Z Merged pull request |-\|/-| 415 +280 −15 md swift entitlements plist pbxproj yml 11|-\|/-| 
+Remove iOS codesigning sdk restriction |-\|/-| 2018-10-02T09:37:31Z Merged pull request |-\|/-| 414 +7 −7 yml pbxproj 2|-\|/-| 
+Improve fixture tests on CI |-\|/-| 2018-09-29T11:45:49Z Merged pull request |-\|/-| 413 +1,844 −231 yml swift json storyboard plist Tests/Fixtures/TestProject/Cartfile resolved 11|-\|/-| 
+Add caching |-\|/-| 2018-12-18T11:24:07Z Merged pull request |-\|/-| 412 +471 −9 md swift 6|-\|/-| 
+Add framework weak linking setting |-\|/-| 2018-10-02T10:47:51Z Merged pull request |-\|/-| 411 +821 −25 md swift pbxproj yml 6|-\|/-| 
+Make validation of Xcode projects optional |-\|/-| 2018-09-26T22:09:44Z Merged pull request |-\|/-| 410 +4 −2 swift 1|-\|/-| 
+Bump xcodeproj to 4.3.1 |-\|/-| 2018-09-19T07:59:03Z Merged pull request |-\|/-| 404 +4 −4 resolved swift 2|-\|/-| 
+Allow specifying run script and copy files phase ordering |-\|/-| 2018-11-08T10:31:26Z Merged pull request |-\|/-| 402 +125 −76 md swift pbxproj 6|-\|/-| 
+Move Copy Headers phase to be before Compile Sources |-\|/-| 2018-09-14T17:17:25Z Merged pull request |-\|/-| 401 +11 −10 md swift pbxproj 2|-\|/-| 
+Fix for issue https://github.com/yonaskolb/XcodeGen/issues/392. |-\|/-| 2018-09-19T09:56:23Z Merged pull request |-\|/-| 394 +28 −5 swift 3|-\|/-| 
+Fix link typo in FAQ.md |-\|/-| 2018-09-11T08:21:58Z Merged pull request |-\|/-| 393 +1 −1 md 0|-\|/-| 
+Set knownRegions to en by default. Fix for #389 |-\|/-| 2018-08-31T13:00:31Z Merged pull request |-\|/-| 390 +4 −1 md swift 1|-\|/-| 
+Upgrade to xcodeproj 6 |-\|/-| 2018-10-14T11:26:16Z Merged pull request |-\|/-| 388 +3,073 −3,203 yml md resolved swift 15|-\|/-| 
+Add setting preset for unit-test under macOS |-\|/-| 2018-08-23T17:50:29Z Merged pull request |-\|/-| 387 +3 −0 md yml 1|-\|/-| 
+Fix aggregate target dependencies with `transitivelyLinkDependencies` |-\|/-| 2018-08-22T14:47:15Z Merged pull request |-\|/-| 383 +55 −26 md swift 3|-\|/-| 
+Quote framework search paths |-\|/-| 2018-08-22T13:56:19Z Merged pull request |-\|/-| 382 +10 −7 md swift pbxproj 2|-\|/-| 
+Allow aggregateTargets to be dependencies |-\|/-| 2018-08-19T04:21:11Z Merged pull request |-\|/-| 381 +48 −32 md swift 4|-\|/-| 
+Fixes issue with wrong build phase for Metal files. |-\|/-| 2018-08-17T07:57:06Z Merged pull request |-\|/-| 380 +3 −1 swift 2|-\|/-| 
+Update CHANGELOG.md |-\|/-| 2018-08-13T11:04:05Z Merged pull request |-\|/-| 375 +2 −0 md 0|-\|/-| 
+Add to `FRAMEWORK_SEARCH_PATHS` for `framework` dependencies |-\|/-| 2018-08-15T12:55:38Z Merged pull request |-\|/-| 373 +420 −31 md swift 1|-\|/-| 
+Add contributing document |-\|/-| 2018-08-02T13:54:03Z Merged pull request |-\|/-| 370 +59 −0 md 0|-\|/-| 
+Update CHANGELOG.md |-\|/-| 2018-08-02T13:46:18Z Closed pull request |-\|/-| 369 +2 −0 md 0|-\|/-| 
+Automatically copy XPC Services to correct location |-\|/-| 2018-08-16T12:53:31Z Merged pull request |-\|/-| 368 +680 −1 md swift pbxproj plist xpc/Contents/MacOS/XPC Service xpc/Contents/_CodeSignature/CodeResources h m yml 13|-\|/-| 
+Add additional params to archive action |-\|/-| 2018-08-02T13:45:40Z Merged pull request |-\|/-| 367 +18 −1 md swift 2|-\|/-| 
+Automatically copy Swift.h header for static libraries |-\|/-| 2018-08-09T14:58:40Z Merged pull request |-\|/-| 366 +232 −4 md swift pbxproj yml 4|-\|/-| 
+ Automatically copy public headers for static libraries |-\|/-| 2018-07-31T13:40:43Z Merged pull request |-\|/-| 365 +19 −3 md swift pbxproj 2|-\|/-| 
+Improvements to determining the current version of a versioned CoreData model |-\|/-| 2018-08-02T12:37:35Z Merged pull request |-\|/-| 364 +61 −8 swift xccurrentversion xcdatamodel/contents pbxproj 6|-\|/-| 
+Add directlyEmbedCarthageDependencies to Target |-\|/-| 2018-07-31T12:49:23Z Merged pull request |-\|/-| 361 +96 −62 md swift pbxproj 4|-\|/-| 
+Add names to non-generic Copy Files phases |-\|/-| 2018-07-25T00:31:13Z Merged pull request |-\|/-| 360 +23 −16 swift pbxproj 2|-\|/-| 
+Default `SKIP_INSTALL` to `YES` for static libraries |-\|/-| 2018-07-24T11:50:07Z Merged pull request |-\|/-| 358 +1 −0 yml 1|-\|/-| 
+Change group sorting |-\|/-| 2018-07-24T13:34:16Z Merged pull request |-\|/-| 356 +104 −21 md swift pbxproj yml 6|-\|/-| 
+Add target templates |-\|/-| 2018-07-24T12:03:11Z Merged pull request |-\|/-| 355 +193 −23 md swift xcscheme yml 9|-\|/-| 
+Add aggregate targets |-\|/-| 2018-07-24T12:09:50Z Merged pull request |-\|/-| 354 +534 −149 md swift 7|-\|/-| 
+Add `requiresObjCLinking` to `Target` |-\|/-| 2018-07-24T13:18:39Z Merged pull request |-\|/-| 353 +205 −70 md swift pbxproj yml 4|-\|/-| 
+Improve linking for static library targets |-\|/-| 2018-07-24T11:54:31Z Merged pull request |-\|/-| 352 +304 −19 md swift 3|-\|/-| 
+Add showEnvVars to build scripts |-\|/-| 2018-07-22T02:17:39Z Merged pull request |-\|/-| 351 +17 −6 md swift pbxproj 4|-\|/-| 
+Add minimumXcodeGenVersion option |-\|/-| 2018-08-02T12:30:12Z Merged pull request |-\|/-| 349 +54 −6 md Makefile swift 8|-\|/-| 
+Parse xcodeVersion from yaml |-\|/-| 2018-07-22T02:15:35Z Merged pull request |-\|/-| 348 +1 −0 swift 1|-\|/-| 
+Fix compilerFlags incorrectly being set on non-sources build phases |-\|/-| 2018-07-22T02:12:47Z Merged pull request |-\|/-| 347 +6 −6 swift pbxproj 2|-\|/-| 
+Automatically copy modulemap files into products directory |-\|/-| 2018-07-31T13:23:26Z Merged pull request |-\|/-| 346 +46 −14 md swift modulemap pbxproj 6|-\|/-| 
+Add support for Copy Files build phase |-\|/-| 2018-07-31T13:01:58Z Merged pull request |-\|/-| 345 +169 −22 md swift h pbxproj yml 7|-\|/-| 
+Set higher version .xcdatamodeld file as current |-\|/-| 2018-07-18T11:21:56Z Merged pull request |-\|/-| 341 +3 −3 swift 2|-\|/-| 
+Fix mint installations finding SettingPresets |-\|/-| 2018-07-11T10:20:40Z Merged pull request |-\|/-| 339 +3 −3 swift 1|-\|/-| 
+Rename and update xcodeproj |-\|/-| 2018-07-06T05:14:01Z Closed pull request |-\|/-| 337 +28 −28 resolved swift 26|-\|/-| 
+Default `transientlyLinkDependencies` to `false` |-\|/-| 2018-07-05T14:12:44Z Closed pull request |-\|/-| 336 +5 −15 md swift pbxproj 2|-\|/-| 
+Code sign all dependencies by default except executables |-\|/-| 2018-07-04T02:16:59Z Merged pull request |-\|/-| 333 +14 −13 swift pbxproj 2|-\|/-| 
+Fix typo "transient" -> "transitive" |-\|/-| 2018-07-03T22:56:11Z Merged pull request |-\|/-| 332 +25 −25 md swift 4|-\|/-| 
+Fix launch action to not run frameworks |-\|/-| 2018-07-01T12:52:15Z Merged pull request |-\|/-| 328 +11 −4 swift xcscheme 3|-\|/-| 
+Transitively embed dependencies |-\|/-| 2018-07-02T02:01:30Z Merged pull request |-\|/-| 327 +315 −8 md swift pbxproj 4|-\|/-| 
+Fix excluding directories that have sub-directories |-\|/-| 2018-07-01T12:39:26Z Merged pull request |-\|/-| 326 +10 −1 swift 2|-\|/-| 
+Code sign on copy |-\|/-| 2018-06-27T23:36:29Z Merged pull request |-\|/-| 324 +828 −21 swift json storyboard 6|-\|/-| 
+Fix decoding dictionaries with dot keys |-\|/-| 2018-06-26T11:41:30Z Merged pull request |-\|/-| 323 +32 −3 resolved swift xcscheme yml 5|-\|/-| 
+🐛 📝 [Fix] a bug about install by mint in README.md |-\|/-| 2018-06-25T02:56:30Z Merged pull request |-\|/-| 322 +20 −19 md 0|-\|/-| 
+Add support for cc source files |-\|/-| 2018-06-10T02:01:56Z Merged pull request |-\|/-| 317 +1 −1 swift 1|-\|/-| 
+Integrate XCTest with Spectre for nicer tests in Xcode |-\|/-| 2018-06-08T05:20:45Z Merged pull request |-\|/-| 316 +1,188 −1,147 resolved swift 6|-\|/-| 
+Fix Xcode misspellings |-\|/-| 2018-05-25T02:52:32Z Merged pull request |-\|/-| 311 +2 −2 md 0|-\|/-| 
+Support frameworks in source paths |-\|/-| 2018-05-24T06:26:36Z Merged pull request |-\|/-| 308 +25 −0 swift 3|-\|/-| 
+Always generate Sources build phase |-\|/-| 2018-05-14T00:44:08Z Merged pull request |-\|/-| 307 +19 −5 swift pbxproj 3|-\|/-| 
+Add build rules |-\|/-| 2018-05-24T06:22:06Z Merged pull request |-\|/-| 306 +183 −1 md swift pbxproj yml 6|-\|/-| 
+Include package name in share dir for presets |-\|/-| 2018-05-07T08:59:47Z Merged pull request |-\|/-| 303 +1 −1 sh 1|-\|/-| 
+Fix schemes documentation example |-\|/-| 2018-04-25T21:37:00Z Merged pull request |-\|/-| 302 +1 −1 md 0|-\|/-| 
+Apply targeted device family to only application target |-\|/-| 2018-04-23T13:22:28Z Closed pull request |-\|/-| 300 +3 −51 yml 6|-\|/-| 
+Remove testability flag from framework template |-\|/-| 2018-04-23T08:43:00Z Merged pull request |-\|/-| 299 +0 −25 yml pbxproj 2|-\|/-| 
+Improve Carthage dependency lookup performance |-\|/-| 2018-04-24T13:07:38Z Merged pull request |-\|/-| 298 +31 −19 swift 2|-\|/-| 
+Fixed regression introduced in #289 |-\|/-| 2018-04-14T07:28:57Z Merged pull request |-\|/-| 297 +9 −3 rb 1|-\|/-| 
+Remove file/product reference for legacy targets |-\|/-| 2018-06-03T08:48:09Z Merged pull request |-\|/-| 296 +17 −19 swift pbxproj 2|-\|/-| 
+Support adding root files |-\|/-| 2018-04-12T13:07:11Z Merged pull request |-\|/-| 293 +21 −7 md swift Tests/Fixtures/TestProject/Mintfile pbxproj Tests/Fixtures/TestProject/SomeFile yml 5|-\|/-| 
+Fix folder in root with createIntermediateGroups |-\|/-| 2018-04-11T13:11:21Z Merged pull request |-\|/-| 291 +1 −1 swift 1|-\|/-| 
+Added workaround for brew & Xcode 9.3 compatibility |-\|/-| 2018-04-11T13:21:15Z Merged pull request |-\|/-| 289 +19 −0 rb 1|-\|/-| 
+Fixed build phase of `none` not being applied to folders |-\|/-| 2018-04-06T13:59:08Z Merged pull request |-\|/-| 288 +8 −1 swift 1|-\|/-| 
+Target Xcode 9.3 |-\|/-| 2018-04-09T00:06:57Z Merged pull request |-\|/-| 284 +20 −7 yml swift pbxproj xcscheme 7|-\|/-| 
+Update Yams to fix quoted values |-\|/-| 2018-03-30T22:06:21Z Merged pull request |-\|/-| 282 +15 −8 resolved yml swift 3|-\|/-| 
+Rename ProjectSpec to Project |-\|/-| 2018-04-12T13:20:34Z Merged pull request |-\|/-| 281 +611 −607 swift 3|-\|/-| 
+Target scheme pre and post actions |-\|/-| 2018-03-30T05:27:52Z Merged pull request |-\|/-| 280 +96 −17 md swift 5|-\|/-| 
+Automatically set DevelopmentTeam and ProvisioningStyle TargetAttributes |-\|/-| 2018-03-27T05:37:42Z Merged pull request |-\|/-| 277 +36 −7 md swift 3|-\|/-| 
+Add target.attributes |-\|/-| 2018-03-27T03:38:34Z Merged pull request |-\|/-| 276 +44 −24 md swift pbxproj yml 5|-\|/-| 
+Fix some typos & presentation in ProjectSpec doc |-\|/-| 2018-03-27T03:29:02Z Merged pull request |-\|/-| 274 +22 −3 md 0|-\|/-| 
+Add LD_RUNPATH_SEARCH_PATHS to app-extension preset |-\|/-| 2018-03-26T12:32:57Z Merged pull request |-\|/-| 272 +1 −0 yml 1|-\|/-| 
+Upgrade to xcproj 4.2.0 |-\|/-| 2018-03-21T00:05:43Z Merged pull request |-\|/-| 270 +7 −17 resolved swift pbxproj 4|-\|/-| 
+Add defaultConfigurationName to options |-\|/-| 2018-03-19T23:38:21Z Merged pull request |-\|/-| 269 +37 −2 md swift 6|-\|/-| 
+Add FAQ page with code signing help |-\|/-| 2018-03-26T12:55:50Z Merged pull request |-\|/-| 267 +48 −0 md 0|-\|/-| 
+Allow allocation of LegacyTarget |-\|/-| 2018-03-09T00:17:04Z Merged pull request |-\|/-| 264 +12 −0 swift 1|-\|/-| 
+Rename ProjectSpec -> ProjectSpec.Project |-\|/-| 2018-03-30T07:57:36Z Closed pull request |-\|/-| 263 +281 −281 swift 5|-\|/-| 
+PrettierCI master Sync |-\|/-| 2018-03-07T23:55:00Z Closed pull request |-\|/-| 261 +551 −520 md json 5|-\|/-| 
+Fix env parsing |-\|/-| 2018-03-02T05:45:53Z Merged pull request |-\|/-| 259 +31 −5 swift 2|-\|/-| 
+Fix typo |-\|/-| 2018-03-01T20:14:42Z Merged pull request |-\|/-| 258 +1 −1 md 0|-\|/-| 
+Only parse true and false as bools |-\|/-| 2018-03-01T22:15:33Z Closed pull request |-\|/-| 257 +59 −20 swift yml 3|-\|/-| 
+Update carthage embedding |-\|/-| 2018-03-01T20:15:44Z Merged pull request |-\|/-| 256 +69 −24 swift pbxproj 3|-\|/-| 
+Fix iMessage extension |-\|/-| 2018-03-01T20:18:01Z Merged pull request |-\|/-| 255 +2 −0 yml 1|-\|/-| 
+Fix shouldUseLaunchSchemeArgsEnv disabling logic |-\|/-| 2018-02-28T23:48:20Z Merged pull request |-\|/-| 254 +10 −2 swift 2|-\|/-| 
+Add TargetSource headerVisibility |-\|/-| 2018-03-02T09:37:23Z Merged pull request |-\|/-| 252 +29 −3 md swift yml 3|-\|/-| 
+Write project file atomically |-\|/-| 2018-02-26T08:06:29Z Merged pull request |-\|/-| 250 +11 −1 swift 1|-\|/-| 
+Generate code data models properly |-\|/-| 2018-02-26T07:29:26Z Merged pull request |-\|/-| 249 +199 −16 swift xcdatamodel/contents pbxproj 8|-\|/-| 
+Fix mint installation not reading setting presets |-\|/-| 2018-02-26T01:58:55Z Merged pull request |-\|/-| 248 +12 −5 swift 1|-\|/-| 
+Binary archive install |-\|/-| 2018-02-27T01:21:14Z Merged pull request |-\|/-| 246 +63 −6 LICENSE Makefile sh 4|-\|/-| 
+Allow setting buildPhase on folders |-\|/-| 2018-02-26T06:10:58Z Merged pull request |-\|/-| 245 +17 −3 swift h pbxproj yml 5|-\|/-| 
+ Add carthageExecutablePath option |-\|/-| 2018-02-24T21:26:00Z Merged pull request |-\|/-| 244 +17 −3 md swift pbxproj yml 5|-\|/-| 
+Add parallelizeBuildables and buildImplicitDependencies flags to the … |-\|/-| 2018-02-14T05:48:33Z Merged pull request |-\|/-| 241 +48 −18 md swift xcscheme yml 6|-\|/-| 
+Adds support for schema variables |-\|/-| 2018-02-26T21:30:32Z Merged pull request |-\|/-| 239 +191 −15 md resolved swift 6|-\|/-| 
+sources.excludes wasn't applied for localisedDirectory such as Base.lproj |-\|/-| 2018-03-02T22:15:14Z Merged pull request |-\|/-| 238 +45 −25 gitignore DS_Store swift lproj/excluded-file Tests/Fixtures/TestProject/App_iOS/excluded-file Tests/Fixtures/TestProject/excluded-file yml 10|-\|/-| 
+Make scheme `config` optional, relying on defaults |-\|/-| 2018-02-06T03:07:22Z Merged pull request |-\|/-| 233 +22 −22 md swift 2|-\|/-| 
+Remove scheme diffs |-\|/-| 2018-01-30T04:49:06Z Merged pull request |-\|/-| 232 +29 −22 swift xcscheme 6|-\|/-| 
+Add support for scheme pre-actions and post-actions |-\|/-| 2018-01-30T01:33:07Z Merged pull request |-\|/-| 231 +162 −14 md swift yml 6|-\|/-| 
+Fix handling of scheme target build type |-\|/-| 2018-01-30T01:12:20Z Closed pull request |-\|/-| 230 +1 −1 swift 1|-\|/-| 
+Fix scheme targets documentation |-\|/-| 2018-01-30T01:01:19Z Merged pull request |-\|/-| 229 +1 −1 md 0|-\|/-| 
+Update to xcproj 4.0 |-\|/-| 2018-01-28T09:08:33Z Merged pull request |-\|/-| 227 +547 −502 resolved swift 13|-\|/-| 
+Update PBXProjGenerator to embed frameworks also in test bundles and extensions |-\|/-| 2018-01-30T06:38:44Z Closed pull request |-\|/-| 225 +64 −2 swift pbxproj 3|-\|/-| 
+Generate UI Test Target Attributes |-\|/-| 2018-01-10T04:44:09Z Merged pull request |-\|/-| 221 +308 −5 swift plist 3|-\|/-| 
+Add new option for disabling validations |-\|/-| 2018-01-06T00:20:55Z Merged pull request |-\|/-| 220 +30 −5 md swift xcconfig 4|-\|/-| 
+Add Support for ResourceBundles |-\|/-| 2018-07-02T02:01:30Z Closed pull request |-\|/-| 219 +109 −16 swift pbxproj 6|-\|/-| 
+Change default LD_RUNPATH_SEARCH_PATHS to string |-\|/-| 2018-01-03T11:52:11Z Merged pull request |-\|/-| 218 +36 −126 yml pbxproj 7|-\|/-| 
+Filter out duplicate file references from sources build phase |-\|/-| 2018-01-03T11:16:05Z Merged pull request |-\|/-| 217 +30 −0 swift 2|-\|/-| 
+Stop validating missing configurations |-\|/-| 2018-01-06T00:27:03Z Closed pull request |-\|/-| 216 +11 −10 md swift xcconfig 4|-\|/-| 
+Write target product name |-\|/-| 2017-12-27T08:49:09Z Merged pull request |-\|/-| 213 +9 −0 swift pbxproj 2|-\|/-| 
+Make file reference caching case insensitive |-\|/-| 2017-12-27T07:53:28Z Merged pull request |-\|/-| 212 +4 −4 swift 1|-\|/-| 
+Make the spec directory the default for --project argument  |-\|/-| 2017-12-27T09:01:29Z Merged pull request |-\|/-| 211 +3 −3 md swift 1|-\|/-| 
+Move optional documentation |-\|/-| 2017-12-27T07:15:20Z Merged pull request |-\|/-| 209 +1 −2 md 0|-\|/-| 
+Add TargetSource.buildPhase for overriding build phase |-\|/-| 2017-12-26T08:29:52Z Merged pull request |-\|/-| 206 +147 −8 md swift 4|-\|/-| 
+Add deployment target |-\|/-| 2017-12-26T09:55:15Z Merged pull request |-\|/-| 205 +278 −57 md yml swift 11|-\|/-| 
+Move icon preset settings |-\|/-| 2017-12-22T09:23:35Z Merged pull request |-\|/-| 204 +5 −47 yml pbxproj 9|-\|/-| 
+Change Scheme.Build.targets spec |-\|/-| 2017-12-26T08:40:12Z Merged pull request |-\|/-| 203 +39 −52 md swift 2|-\|/-| 
+Schemes |-\|/-| 2017-12-21T12:16:50Z Merged pull request |-\|/-| 201 +111 −49 md swift xcscheme 5|-\|/-| 
+Allow missing files in sources |-\|/-| 2017-12-21T09:38:24Z Merged pull request |-\|/-| 200 +17 −2 md swift 3|-\|/-| 
+Fixed test/profile command line args not being passed |-\|/-| 2017-12-21T08:35:58Z Merged pull request |-\|/-| 199 +2 −0 swift 1|-\|/-| 
+Add Xcode version |-\|/-| 2017-12-20T15:51:23Z Merged pull request |-\|/-| 197 +83 −23 md swift pbxproj xcscheme 7|-\|/-| 
+Added support for testables in `Scheme` |-\|/-| 2017-12-21T09:10:00Z Merged pull request |-\|/-| 195 +17 −11 swift 2|-\|/-| 
+Scan for Info.plist lazily |-\|/-| 2017-12-21T07:10:27Z Merged pull request |-\|/-| 194 +24 −16 swift 1|-\|/-| 
+[WIP] Bump xcproj to 2.0 |-\|/-| 2018-01-25T10:58:41Z Closed pull request |-\|/-| 191 +171 −210 gitignore resolved swift 7|-\|/-| 
+Support indentation options from xcproj |-\|/-| 2017-12-18T21:28:34Z Merged pull request |-\|/-| 190 +21 −3 md swift pbxproj yml 5|-\|/-| 
+Remove unnecessary quote escaping. |-\|/-| 2017-12-07T17:43:30Z Merged pull request |-\|/-| 186 +26 −26 swift pbxproj 2|-\|/-| 
+Update documentation about source exclusion |-\|/-| 2017-12-20T14:40:22Z Merged pull request |-\|/-| 185 +5 −0 md 0|-\|/-| 
+Transform input spec path to absolute path |-\|/-| 2017-12-07T20:29:55Z Merged pull request |-\|/-| 184 +1 −1 swift 1|-\|/-| 
+Issue  #179. Add currentXcodeVersion as an option.  |-\|/-| 2017-12-20T15:20:30Z Closed pull request |-\|/-| 182 +16 −13 swift pbxproj xcscheme 5|-\|/-| 
+Add carthageCopyScript as an option. |-\|/-| 2017-11-30T18:54:14Z Closed pull request |-\|/-| 178 +6 −2 swift 2|-\|/-| 
+Resolves #173 - Shared breakpoints support |-\|/-| 2020-01-06T12:11:43Z Closed pull request |-\|/-| 177 +340 −6 md resolved swift 5|-\|/-| 
+Update Spec docs to show strings types as the keys for commandLineArg… |-\|/-| 2017-11-30T11:55:53Z Merged pull request |-\|/-| 176 +2 −2 md 0|-\|/-| 
+Support Legacy Targets |-\|/-| 2017-12-18T21:26:50Z Merged pull request |-\|/-| 175 +254 −42 md swift 4|-\|/-| 
+Print version with -v too |-\|/-| 2017-12-01T21:34:38Z Merged pull request |-\|/-| 174 +7 −1 swift 1|-\|/-| 
+Add commandlineArguments to XcodeGenKit Scheme specifications |-\|/-| 2017-11-28T19:02:59Z Merged pull request |-\|/-| 172 +92 −28 md resolved swift xcscheme yml 8|-\|/-| 
+[WIP] Define the project in a Project.swift file |-\|/-| 2017-12-02T10:22:12Z Closed pull request |-\|/-| 171 +27 −0 swift 3|-\|/-| 
+Added support for codeCoverageEnabled flag in target schemes. |-\|/-| 2017-11-24T10:45:57Z Merged pull request |-\|/-| 170 +28 −15 md resolved swift xcscheme yml 7|-\|/-| 
+Add quiet option |-\|/-| 2017-11-23T00:15:48Z Merged pull request |-\|/-| 167 +55 −14 md swift 2|-\|/-| 
+Add implicit option to framework Dependency |-\|/-| 2017-11-21T13:10:50Z Merged pull request |-\|/-| 166 +19 −4 md swift 2|-\|/-| 
+Add implicit type to Dependency |-\|/-| 2017-11-21T06:41:03Z Closed pull request |-\|/-| 165 +0 −0 0|-\|/-| 
+Add ProjectSpec product |-\|/-| 2017-11-20T22:30:04Z Merged pull request |-\|/-| 164 +1 −0 swift 1|-\|/-| 
+Fix TargetSource excludes tests. |-\|/-| 2017-11-20T09:25:46Z Merged pull request |-\|/-| 161 +7 −7 swift 2|-\|/-| 
+[WIP] Initial idea for testing SourceGenerator |-\|/-| 2017-11-23T01:55:46Z Closed pull request |-\|/-| 160 +146 −79 swift 4|-\|/-| 
+Updates for xcproj updates to PBXProj |-\|/-| 2017-11-20T10:48:46Z Merged pull request |-\|/-| 158 +120 −110 resolved swift pbxproj 8|-\|/-| 
+Add support for generating variant groups without Base.lproj |-\|/-| 2017-11-15T21:11:03Z Merged pull request |-\|/-| 157 +25 −7 swift pbxproj 5|-\|/-| 
+Fix source generation in root directory |-\|/-| 2017-11-15T13:59:39Z Merged pull request |-\|/-| 156 +1 −1 swift 1|-\|/-| 
+Add ProjectSpec.options.developmentLanguage |-\|/-| 2017-11-15T11:35:54Z Merged pull request |-\|/-| 155 +18 −4 md swift pbxproj 4|-\|/-| 
+Make references more deterministic |-\|/-| 2017-11-15T10:47:29Z Merged pull request |-\|/-| 154 +433 −430 swift 3|-\|/-| 
+Add folder reference support |-\|/-| 2017-11-15T01:59:24Z Merged pull request |-\|/-| 151 +167 −83 md swift 3|-\|/-| 
+Don't generate empty build phases |-\|/-| 2017-11-12T21:21:34Z Merged pull request |-\|/-| 149 +15 −43 swift pbxproj 2|-\|/-| 
+Add support for linking directly to bundle |-\|/-| 2017-11-12T20:19:16Z Merged pull request |-\|/-| 148 +16 −3 swift pbxproj text yml 4|-\|/-| 
+Fix cyclical target dependencies |-\|/-| 2017-11-12T19:52:12Z Merged pull request |-\|/-| 147 +21 −4 swift 2|-\|/-| 
+Add TargetSource.name for renaming sources |-\|/-| 2017-11-12T19:26:37Z Merged pull request |-\|/-| 146 +43 −11 md swift pbxproj yml 5|-\|/-| 
+Fix groups |-\|/-| 2017-11-12T17:52:12Z Merged pull request |-\|/-| 144 +691 −483 swift 4|-\|/-| 
+Fix duplicate sources in groups, fixes #141 |-\|/-| 2017-11-10T00:21:41Z Merged pull request |-\|/-| 142 +2 −11 pbxproj swift 2|-\|/-| 
+Support paths directly to xcassets |-\|/-| 2017-11-10T22:31:54Z Merged pull request |-\|/-| 139 +114 −2 json pbxproj yml swift 6|-\|/-| 
+Support assembly files in sources |-\|/-| 2017-11-07T21:46:06Z Merged pull request |-\|/-| 138 +1 −1 swift 1|-\|/-| 
+Create topLevelGroup if not-cache hit. Fixes #129 |-\|/-| 2017-11-12T17:48:23Z Closed pull request |-\|/-| 136 +19 −13 swift 1|-\|/-| 
+Add support for simple files excludes from sources #5. |-\|/-| 2017-11-10T23:22:08Z Merged pull request |-\|/-| 135 +148 −9 swift 4|-\|/-| 
+Add support for simple files excludes from sources #5. |-\|/-| 2017-11-04T16:24:46Z Closed pull request |-\|/-| 134 +25 −4 Makefile swift 4|-\|/-| 
+Filegroups that subsume sources work again |-\|/-| 2017-11-04T11:40:00Z Merged pull request |-\|/-| 133 +30 −7 swift pbxproj yml 4|-\|/-| 
+Correct documentation type of createIntermediateGroups |-\|/-| 2017-11-03T20:44:03Z Merged pull request |-\|/-| 131 +1 −1 md 0|-\|/-| 
+Support precompiled bundle files |-\|/-| 2017-11-12T20:16:41Z Closed pull request |-\|/-| 128 +45 −12 txt pbxproj swift 2|-\|/-| 
+Load json files directly with NSJSONSerialization if the spec path ha… |-\|/-| 2017-11-03T20:09:20Z Merged pull request |-\|/-| 127 +65 −1 json swift 3|-\|/-| 
+Fix localized files with same name |-\|/-| 2017-11-03T12:05:50Z Merged pull request |-\|/-| 126 +129 −38 strings stringsdict pbxproj swift 6|-\|/-| 
+Interpret .c files as sources |-\|/-| 2017-11-02T20:50:19Z Merged pull request |-\|/-| 125 +1 −1 swift 1|-\|/-| 
+Support CompilerFlags in Sources |-\|/-| 2017-11-03T00:03:13Z Merged pull request |-\|/-| 121 +60 −38 pbxproj yml swift md 5|-\|/-| 
+Add .mm file as a source type |-\|/-| 2017-11-01T23:24:47Z Merged pull request |-\|/-| 120 +1 −1 swift 1|-\|/-| 
+Source options |-\|/-| 2017-10-31T18:13:16Z Merged pull request |-\|/-| 119 +103 −21 swift 5|-\|/-| 
+Don't add unnecessary headers build phase |-\|/-| 2017-10-31T20:15:34Z Merged pull request |-\|/-| 118 +5 −17 pbxproj swift 2|-\|/-| 
+Add spec validation tests |-\|/-| 2017-10-29T20:05:03Z Merged pull request |-\|/-| 117 +116 −36 swift 7|-\|/-| 
+Add support for JSON spec loading |-\|/-| 2017-10-29T19:47:53Z Closed pull request |-\|/-| 116 +24 −1 swift 1|-\|/-| 
+Fix invalid Products PBXFileReference structure |-\|/-| 2018-01-21T12:43:09Z Merged pull request |-\|/-| 115 +18 −9 swift pbxproj 2|-\|/-| 
+Update to xcproj 1.2 |-\|/-| 2017-10-28T18:11:19Z Merged pull request |-\|/-| 113 +9 −23 pbxproj resolved swift 5|-\|/-| 
+add support --version option |-\|/-| 2017-10-27T21:17:06Z Merged pull request |-\|/-| 112 +3 −1 swift 1|-\|/-| 
+Partial config matching |-\|/-| 2017-10-26T21:32:11Z Merged pull request |-\|/-| 111 +24 −4 swift md 3|-\|/-| 
+Add option for not linking dependencies |-\|/-| 2017-10-26T20:16:59Z Merged pull request |-\|/-| 109 +8 −2 swift md 2|-\|/-| 
+Optionally make intermediate filler groups |-\|/-| 2017-11-02T20:16:39Z Merged pull request |-\|/-| 108 +70 −9 swift pbxproj md 4|-\|/-| 
+Fix duplicated carthage file references |-\|/-| 2017-10-25T20:02:55Z Merged pull request |-\|/-| 107 +4 −7 swift 1|-\|/-| 
+Support file sources |-\|/-| 2017-11-01T19:45:30Z Merged pull request |-\|/-| 106 +50 −13 swift pbxproj yml 5|-\|/-| 
+Remove sourceExcludes |-\|/-| 2017-10-25T07:31:26Z Merged pull request |-\|/-| 105 +1 −5 swift 1|-\|/-| 
+Move basePath into ProjectSpec |-\|/-| 2017-10-24T20:31:47Z Merged pull request |-\|/-| 103 +45 −46 swift 9|-\|/-| 
+fix duplicate file reference |-\|/-| 2017-10-23T09:27:18Z Merged pull request |-\|/-| 102 +3 −3 swift 1|-\|/-| 
+Add settingPresets option |-\|/-| 2017-10-23T11:59:27Z Merged pull request |-\|/-| 101 +46 −7 swift md 3|-\|/-| 
+Don't apply base project settings if config doesn't have a type |-\|/-| 2017-10-22T18:21:09Z Merged pull request |-\|/-| 100 +10 −2 swift 2|-\|/-| 
+Correct README --help argument |-\|/-| 2017-10-18T22:09:42Z Merged pull request |-\|/-| 99 +1 −1 md 0|-\|/-| 
+Make build a PHONY task |-\|/-| 2017-10-18T20:22:32Z Merged pull request |-\|/-| 98 +1 −0 Makefile 1|-\|/-| 
+Strip XcodeGen after building |-\|/-| 2017-10-18T17:29:25Z Closed pull request |-\|/-| 97 +1 −0 Makefile 1|-\|/-| 
+Add support for copying Watch apps |-\|/-| 2017-10-18T12:33:36Z Merged pull request |-\|/-| 96 +16 −1 swift 1|-\|/-| 
+Allow copying of resource files from targets |-\|/-| 2017-10-18T22:10:54Z Merged pull request |-\|/-| 95 +14 −7 swift 2|-\|/-| 
+Exclude more file types from resources |-\|/-| 2017-10-18T16:23:38Z Merged pull request |-\|/-| 94 +1 −1 swift 1|-\|/-| 
+Fix dependency framework/library linking |-\|/-| 2017-10-18T22:14:03Z Merged pull request |-\|/-| 93 +47 −7 pbxproj swift 6|-\|/-| 
+Update to xcproj 0.4.0 |-\|/-| 2017-10-12T18:02:02Z Merged pull request |-\|/-| 85 +13 −20 pbxproj resolved swift 4|-\|/-| 
+Add outputpaths to carthage copy-framewors script |-\|/-| 2017-10-05T05:40:32Z Merged pull request |-\|/-| 84 +83 −5 pbxproj yml swift 3|-\|/-| 
+Fix typo: dependancies => dependencies |-\|/-| 2017-10-02T15:13:29Z Merged pull request |-\|/-| 83 +3 −3 swift 1|-\|/-| 
+Always embed and link frameworks for macOS |-\|/-| 2017-10-13T21:12:37Z Merged pull request |-\|/-| 82 +5 −0 swift 1|-\|/-| 
+Always embed frameworks for macOS, but provide link option for ObjC selector calls |-\|/-| 2017-10-01T00:25:22Z Closed pull request |-\|/-| 79 +26 −4 md swift 2|-\|/-| 
+Remove CODE_SIGN_IDENTITY: "" from presets |-\|/-| 2017-09-29T20:37:48Z Closed pull request |-\|/-| 78 +3 −1 md yml 1|-\|/-| 
+Avoid overwriting xcconfig's value by preset's value |-\|/-| 2017-11-03T13:35:41Z Merged pull request |-\|/-| 77 +34 −0 swift 1|-\|/-| 
+No need carthage copy-frameworks for macOS app |-\|/-| 2017-09-29T15:51:09Z Merged pull request |-\|/-| 76 +2 −1 md swift 1|-\|/-| 
+Fix typo: dependancy => dependency |-\|/-| 2017-09-29T15:34:02Z Merged pull request |-\|/-| 75 +11 −11 swift 1|-\|/-| 
+Fixed wrong directory path for macOS |-\|/-| 2017-09-29T15:23:02Z Merged pull request |-\|/-| 74 +15 −7 md swift 2|-\|/-| 
+Add mint install instructions |-\|/-| 2017-09-29T09:00:31Z Merged pull request |-\|/-| 72 +5 −0 md 0|-\|/-| 
+Fix localisation variant groups |-\|/-| 2017-10-16T18:47:25Z Merged pull request |-\|/-| 70 +135 −33 pbxproj storyboard strings swift 5|-\|/-| 
+Add replace syntax for Include |-\|/-| 2017-09-25T15:33:21Z Merged pull request |-\|/-| 68 +40 −4 yml swift md 4|-\|/-| 
+Add bundleIdPrefix |-\|/-| 2017-09-25T15:26:45Z Merged pull request |-\|/-| 67 +41 −11 pbxproj yml swift md 6|-\|/-| 
+XCConfig files |-\|/-| 2017-09-24T18:32:54Z Merged pull request |-\|/-| 64 +252 −696 xcconfig pbxproj 4|-\|/-| 
+Disable sandbox when building XcodeGen for Homebrew |-\|/-| 2017-09-23T15:25:41Z Merged pull request |-\|/-| 63 +2 −2 rb md 1|-\|/-| 
+WIP [cC]onfig => [cC]onfiguration |-\|/-| 2017-09-29T17:01:55Z Closed pull request |-\|/-| 60 +249 −236 md yml swift 5|-\|/-| 
+Upgrade to xcodeproj 0.1.2 |-\|/-| 2017-09-14T19:38:58Z Merged pull request |-\|/-| 56 +57 −86 pbxproj resolved swift 4|-\|/-| 
+Fix the build issues when using the Xcode 9 GM. |-\|/-| 2017-09-14T19:10:43Z Closed pull request |-\|/-| 55 +14 −14 swift 3|-\|/-| 
+Change targets from list to map |-\|/-| 2017-09-18T19:51:13Z Merged pull request |-\|/-| 54 +71 −64 pbxproj yml md swift 8|-\|/-| 
+Upgrade to Swift 4 |-\|/-| 2017-09-14T18:10:25Z Merged pull request |-\|/-| 52 +126 −77 yml pbxproj pins resolved swift 8|-\|/-| 
+Filter out NSNull elements from the json dictionary. |-\|/-| 2017-09-13T22:02:27Z Merged pull request |-\|/-| 50 +21 −1 swift 1|-\|/-| 
+Add support to C and C++ files in ‘Compile sources’ |-\|/-| 2017-09-09T17:56:03Z Merged pull request |-\|/-| 48 +1 −1 swift 1|-\|/-| 
+Product + Platform setting presets |-\|/-| 2017-08-30T15:23:12Z Merged pull request |-\|/-| 46 +8 −7 pbxproj yml swift 6|-\|/-| 
+Project attributes |-\|/-| 2017-08-30T15:23:21Z Merged pull request |-\|/-| 45 +15 −2 swift md 2|-\|/-| 
+Project Spec includes |-\|/-| 2017-08-30T12:08:04Z Merged pull request |-\|/-| 44 +111 −23 pbxproj yml md swift 9|-\|/-| 
+Fix "" not escaping in build scripts |-\|/-| 2017-08-28T16:22:30Z Merged pull request |-\|/-| 43 +96 −5 pbxproj sh yml swift 4|-\|/-| 
+Automatically find Info.plist |-\|/-| 2017-08-27T10:29:56Z Merged pull request |-\|/-| 40 +12 −0 swift 1|-\|/-| 
+Automatically generate carthage search paths |-\|/-| 2017-08-27T09:48:41Z Merged pull request |-\|/-| 38 +48 −26 swift md 1|-\|/-| 
+Dependency embed options |-\|/-| 2017-08-27T09:56:23Z Merged pull request |-\|/-| 37 +96 −43 swift md 5|-\|/-| 
+Generate multi platform targets |-\|/-| 2017-08-26T14:24:57Z Merged pull request |-\|/-| 35 +118 −5 swift md 3|-\|/-| 
+Add option.carthageBuildPath |-\|/-| 2017-08-25T14:27:06Z Merged pull request |-\|/-| 34 +107 −16 swift md 4|-\|/-| 
+Upgrade to xcodeproj 0.1.1 |-\|/-| 2017-08-25T14:21:07Z Merged pull request |-\|/-| 33 +133 −109 pbxproj pins swift 5|-\|/-| 
+Add BuildScript.runOnlyWhenInstalling |-\|/-| 2017-08-24T17:40:34Z Merged pull request |-\|/-| 32 +11 −6 swift md 3|-\|/-| 
+Correct the spelling of CocoaPods in README |-\|/-| 2017-08-10T16:36:17Z Merged pull request |-\|/-| 23 +1 −1 md 0|-\|/-| 
+Add unit tests to target schemes |-\|/-| 2017-08-03T22:29:19Z Merged pull request |-\|/-| 21 +432 −60 pbxproj xcscheme 2|-\|/-| 
+Extension support |-\|/-| 2017-08-03T20:18:02Z Merged pull request |-\|/-| 19 +75 −50 pbxproj swift 3|-\|/-| 
+Run scripts |-\|/-| 2017-08-02T11:35:00Z Merged pull request |-\|/-| 17 +292 −20 pbxproj sh yml swift 7|-\|/-| 
+Homebrew support |-\|/-| 2017-08-22T11:45:34Z Merged pull request |-\|/-| 16 +43 −0 rb md 1|-\|/-| 

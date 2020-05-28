@@ -1,0 +1,95 @@
+Add SetFocus and SetParentHWND Gui macros |-\|/-| 2019-09-21T20:52:55Z Closed pull request |-\|/-| 1984 +13 −1 cpp 1|-\|/-| 
+Tab icon quality fix (#1072) |-\|/-| 2019-09-21T20:56:42Z Closed pull request |-\|/-| 1973 +23 −22 cpp h 2|-\|/-| 
+Add Keyboard Input Grouping status item |-\|/-| 2019-09-21T21:00:10Z Closed pull request |-\|/-| 1949 +19 −0 cpp h 2|-\|/-| 
+Changed the config name for the "Create New Window" hotkey to Multi.NewWnd |-\|/-| 2019-09-22T00:05:18Z Closed pull request |-\|/-| 1944 +0 −0 0|-\|/-| 
+Fixed several invalid strings |-\|/-| 2019-09-21T21:01:46Z Closed pull request |-\|/-| 1936 +7 −7 l10n 1|-\|/-| 
+Update ConEmu.l10n |-\|/-| 2019-05-04T19:48:41Z Closed pull request |-\|/-| 1906 +5,442 −3,383 0|-\|/-| 
+Update ConEmu.l10n |-\|/-| 2019-05-02T15:19:44Z Closed pull request |-\|/-| 1905 +5,442 −3,383 0|-\|/-| 
+ConEmu/ConEmu.l10n Add Japanese |-\|/-| 2019-03-23T14:09:24Z Closed pull request |-\|/-| 1866 +1,371 −58 0|-\|/-| 
+gh-1795: Unexpected ConEmu activation on monitor change. |-\|/-| 2019-02-26T20:54:26Z Merged pull request |-\|/-| 1820 +1 −1 cpp 1|-\|/-| 
+Case insensitive check for no branch |-\|/-| 2019-01-08T22:43:15Z Closed pull request |-\|/-| 1799 +1 −1 cmd 1|-\|/-| 
+Add support for generating VS2019 tasks |-\|/-| 2018-12-11T11:08:51Z Merged pull request |-\|/-| 1774 +1 −0 cpp 1|-\|/-| 
+Add a new option to auto-trim single lines. |-\|/-| 2018-08-15T09:49:02Z Merged pull request |-\|/-| 1677 +42 −2 rc cpp h 8|-\|/-| 
+Improve Size & Pos UI; use max buffer height by default |-\|/-| 2018-06-16T13:38:19Z Merged pull request |-\|/-| 1604 +9 −9 cpp 3|-\|/-| 
+[WSL] Use user's default login shell |-\|/-| 2018-06-16T13:46:00Z Merged pull request |-\|/-| 1587 +1 −1 sh 1|-\|/-| 
+gh-1534: Fix being unable to select text with mouse if scroll bar show set to "Always" |-\|/-| 2018-04-29T23:28:17Z Closed pull request |-\|/-| 1536 +2 −6 cpp 1|-\|/-| 
+Fix "Far Manager -> Panel Views -> Max. Zoom combo box" assertion |-\|/-| 2017-11-22T16:52:02Z Merged pull request |-\|/-| 1328 +3 −1 cpp 3|-\|/-| 
+Added support for setting background image from GuiMacro |-\|/-| 2017-11-27T07:58:41Z Closed pull request |-\|/-| 1317 +13 −0 cpp 1|-\|/-| 
+When GetConsoleKeyboardLayoutName not implemented stop calling it |-\|/-| 2017-11-07T09:46:41Z Closed pull request |-\|/-| 1303 +10 −1 cpp 1|-\|/-| 
+Update ConEmu.l10n |-\|/-| 2017-09-21T22:37:55Z Closed pull request |-\|/-| 1255 +23 −17 l10n 1|-\|/-| 
+NetOnly flag for RunAs feature |-\|/-| 2017-07-06T06:34:05Z Closed pull request |-\|/-| 1173 +62 −11 cpp rc h 7|-\|/-| 
+gh-1149: fix Win10 buffer overrun |-\|/-| 2017-05-27T23:11:31Z Merged pull request |-\|/-| 1151 +3 −3 cpp 1|-\|/-| 
+Support PerMonitorV2 DPI awareness for Windows 10 Creators Update |-\|/-| 2017-11-07T09:51:44Z Closed pull request |-\|/-| 1102 +8 −5 manifest 3|-\|/-| 
+Provided .editorconfig to simplify formatting |-\|/-| 2017-04-11T10:08:30Z Closed pull request |-\|/-| 1101 +22 −0 editorconfig 1|-\|/-| 
+Bugfixes v15 |-\|/-| 2017-11-07T09:56:40Z Closed pull request |-\|/-| 1080 +30 −16 sln cpp h 7|-\|/-| 
+Commented out an assertion that always fails |-\|/-| 2018-06-16T14:57:25Z Closed pull request |-\|/-| 1075 +1 −1 cpp 1|-\|/-| 
+Fix typos v5 |-\|/-| 2017-03-14T09:16:25Z Closed pull request |-\|/-| 1066 +54 −54 h cpp 28|-\|/-| 
+Remove stray semicolons |-\|/-| 2017-03-14T09:16:47Z Closed pull request |-\|/-| 1064 +652 −652 cpp h 16|-\|/-| 
+Fix Far1 "edit console output" empty output |-\|/-| 2017-03-15T23:50:13Z Closed pull request |-\|/-| 1063 +2 −2 cpp 2|-\|/-| 
+Bugfixes v13 |-\|/-| 2017-02-27T09:49:24Z Closed pull request |-\|/-| 1052 +1,163 −297 ps1 l10n h cpp vcxproj filters 7|-\|/-| 
+Patch ansicolors24bit.ps1 for wsl |-\|/-| 2017-02-27T09:29:14Z Closed pull request |-\|/-| 1032 +7 −3 ps1 1|-\|/-| 
+Better handling of per-monitor DPI changes |-\|/-| 2017-11-07T09:58:10Z Closed pull request |-\|/-| 1014 +104 −17 cpp h 5|-\|/-| 
+Update Chinese translation. Add shell icons for registered files. |-\|/-| 2016-09-11T02:48:19Z Closed pull request |-\|/-| 771 +649 −623 0|-\|/-| 
+Bugfixes v12 |-\|/-| 2016-09-14T07:31:47Z Closed pull request |-\|/-| 711 +9 −0 cpp 1|-\|/-| 
+Remove dots in New console... because it is an immediate action without dialog |-\|/-| 2018-03-20T16:26:28Z Closed pull request |-\|/-| 701 +2 −2 cpp 1|-\|/-| 
+WinPosSize: fix changing size without changing position  |-\|/-| 2016-05-13T08:47:18Z Closed pull request |-\|/-| 673 +1 −1 cpp 1|-\|/-| 
+Text flow to next line broken when ESC]9;8; is used #563 |-\|/-| 2016-04-19T20:07:35Z Closed pull request |-\|/-| 650 +1 −1 cmd 1|-\|/-| 
+Update chinese translation. |-\|/-| 2016-04-28T22:36:49Z Closed pull request |-\|/-| 643 +27 −11 l10n 1|-\|/-| 
+gh-614: Handle commas as decimal separators |-\|/-| 2016-04-12T08:57:53Z Closed pull request |-\|/-| 616 +8 −7 cpp h 3|-\|/-| 
+Update chinese translation.(160327) |-\|/-| 2016-03-27T13:12:03Z Closed pull request |-\|/-| 609 +342 −285 0|-\|/-| 
+Fix VS2015 Release build |-\|/-| 2016-04-12T08:42:41Z Closed pull request |-\|/-| 596 +48 −18 gitignore vcxproj filters 7|-\|/-| 
+Update chinese translation.(160316) |-\|/-| 2016-03-16T09:01:04Z Closed pull request |-\|/-| 583 +10 −3 l10n 1|-\|/-| 
+Update chinese translation.(160308) |-\|/-| 2016-03-08T13:42:29Z Merged pull request |-\|/-| 568 +13 −0 l10n 1|-\|/-| 
+Bugfixes v11 |-\|/-| 2016-02-26T19:32:58Z Closed pull request |-\|/-| 558 +26 −16 cpp h 12|-\|/-| 
+Update chinese translation. (160215) |-\|/-| 2016-02-15T13:00:35Z Merged pull request |-\|/-| 545 +31 −14 l10n 1|-\|/-| 
+fix typos v4 |-\|/-| 2016-02-14T00:04:30Z Closed pull request |-\|/-| 543 +20 −20 l10n rc h cpp 7|-\|/-| 
+Chinese translation.(160213) |-\|/-| 2016-02-13T11:23:53Z Closed pull request |-\|/-| 541 +1,151 −0 0|-\|/-| 
+Bugfixes v10 |-\|/-| 2016-02-11T16:50:41Z Closed pull request |-\|/-| 528 +29 −27 cpp h 22|-\|/-| 
+fix some problem when use chinese char |-\|/-| 2016-02-13T22:03:22Z Closed pull request |-\|/-| 520 +107 −9 cpp 2|-\|/-| 
+ConEmu.Core: Missing CmdInit.cmd |-\|/-| 2015-12-24T01:22:49Z Closed pull request |-\|/-| 485 +2 −0 nuspec 1|-\|/-| 
+Implementing recent decisions on the Nuget: |-\|/-| 2015-12-22T22:51:12Z Closed pull request |-\|/-| 482 +124 −2 ps1 gitignore Targets nuspec cmd 5|-\|/-| 
+Nuget org |-\|/-| 2015-12-22T08:24:57Z Merged pull request |-\|/-| 480 +24 −6 ps1 Targets nuspec cmd 4|-\|/-| 
+Nuget Package for Nuget.org |-\|/-| 2015-12-22T02:02:01Z Closed pull request |-\|/-| 477 +569 −76 gitignore ps1 Targets nuspec cmd cpp h 9|-\|/-| 
+Bugfixes v9 |-\|/-| 2015-12-12T14:44:02Z Closed pull request |-\|/-| 462 +97 −97 reg xml rc2 cpp h 15|-\|/-| 
+CTaskBarGhost: Fix virtual console offset when using captionless mode. |-\|/-| 2015-12-22T08:18:17Z Closed pull request |-\|/-| 461 +8 −0 cpp 1|-\|/-| 
+Bugfixes |-\|/-| 2015-11-28T19:05:51Z Closed pull request |-\|/-| 440 +31 −27 sln cpp h 18|-\|/-| 
+Bugfixes |-\|/-| 2015-11-27T13:18:45Z Closed pull request |-\|/-| 434 +13 −5 cpp h 9|-\|/-| 
+fix typos |-\|/-| 2015-11-27T13:16:27Z Closed pull request |-\|/-| 433 +29 −29 cpp h 13|-\|/-| 
+Bugfixes |-\|/-| 2015-11-23T20:05:43Z Closed pull request |-\|/-| 432 +44 −34 cpp sln h 20|-\|/-| 
+Update README.md |-\|/-| 2015-11-03T09:49:51Z Merged pull request |-\|/-| 405 +1 −2 md 0|-\|/-| 
+Support for specifying index of a non-default icon in the file |-\|/-| 2015-10-18T17:23:01Z Closed pull request |-\|/-| 378 +18 −3 cpp 1|-\|/-| 
+Support for wide font names in TTF files set with the /fontfile switch |-\|/-| 2015-11-23T23:43:52Z Closed pull request |-\|/-| 358 +11 −21 cpp 1|-\|/-| 
+fix typos |-\|/-| 2015-10-07T00:29:13Z Merged pull request |-\|/-| 342 +56 −56 cpp 5|-\|/-| 
+Updated build instructions |-\|/-| 2015-10-17T14:35:33Z Closed pull request |-\|/-| 330 +2 −2 md 0|-\|/-| 
+Bugfixes |-\|/-| 2015-09-13T23:28:40Z Merged pull request |-\|/-| 316 +4 −4 cpp 4|-\|/-| 
+Bugfixes |-\|/-| 2015-08-27T17:17:28Z Closed pull request |-\|/-| 281 +11 −1 cpp 3|-\|/-| 
+Bugfixes |-\|/-| 2015-08-16T14:00:02Z Closed pull request |-\|/-| 269 +3 −1 cpp h 3|-\|/-| 
+Update old Google Code references in files to new GitHub URLs |-\|/-| 2015-08-12T23:39:14Z Closed pull request |-\|/-| 264 +114 −114 cmd txt html ans 3|-\|/-| 
+GitShowBranch.cmd: prevent broken expansion in repository check |-\|/-| 2015-08-10T19:06:18Z Closed pull request |-\|/-| 260 +2 −2 cmd 1|-\|/-| 
+Bugfixes |-\|/-| 2015-08-09T17:26:43Z Closed pull request |-\|/-| 257 +97 −51 cpp 16|-\|/-| 
+Bugfixes |-\|/-| 2015-06-18T00:21:16Z Closed pull request |-\|/-| 188 +26 −0 cpp h 9|-\|/-| 
+Correct typo. |-\|/-| 2015-06-11T17:29:49Z Merged pull request |-\|/-| 185 +1 −1 rc 1|-\|/-| 
+Fix dates in Whats New file |-\|/-| 2015-06-11T12:23:44Z Merged pull request |-\|/-| 184 +2 −2 txt 0|-\|/-| 
+added a static analysis config |-\|/-| 2015-11-27T13:20:42Z Closed pull request |-\|/-| 157 +232 −0 vcxproj 2|-\|/-| 
+Fixed typo |-\|/-| 2015-05-11T23:54:42Z Closed pull request |-\|/-| 140 +1 −1 ans 1|-\|/-| 
+In settings Main/Tabs/TabButton with value Max/restore pane was not read... |-\|/-| 2015-05-06T08:45:39Z Merged pull request |-\|/-| 110 +1 −1 cpp 1|-\|/-| 
+Update README.md |-\|/-| 2015-04-06T08:27:48Z Merged pull request |-\|/-| 92 +10 −10 md 0|-\|/-| 
+Fix grammar error. |-\|/-| 2015-03-23T23:37:39Z Closed pull request |-\|/-| 75 +3 −3 txt 0|-\|/-| 
+"cd" to focused Explorer window's directory path |-\|/-| 2015-03-19T13:45:33Z Closed pull request |-\|/-| 73 +127 −0 cpp rc2 h 8|-\|/-| 
+Problems with Vim in Windows cmd |-\|/-| 2015-03-13T00:04:40Z Closed pull request |-\|/-| 70 +78 −0 md cpp 1|-\|/-| 
+Fix hDbg opening in ConsoleMain.cpp |-\|/-| 2015-02-21T15:46:47Z Closed pull request |-\|/-| 60 +1 −1 cpp 1|-\|/-| 
+Fixed couple of bugs in clink integration |-\|/-| 2015-01-11T01:46:30Z Closed pull request |-\|/-| 48 +93 −65 vcxproj cpp 3|-\|/-| 
+Default task 'Git bash' should have a nice looking (default) icon |-\|/-| 2014-12-23T12:08:27Z Closed pull request |-\|/-| 44 +6 −1 cpp 1|-\|/-| 
+Fix errors |-\|/-| 2014-12-04T08:55:27Z Closed pull request |-\|/-| 39 +27 −15 cpp h 14|-\|/-| 
+Fix typos in Settings dialog |-\|/-| 2014-11-25T08:22:09Z Closed pull request |-\|/-| 35 +2 −2 rc 1|-\|/-| 
+Fix warnings |-\|/-| 2014-11-12T03:22:04Z Closed pull request |-\|/-| 33 +17 −2 cpp h 11|-\|/-| 
+Fix warnings |-\|/-| 2014-11-10T21:31:47Z Closed pull request |-\|/-| 32 +5 −1 h cpp 3|-\|/-| 
+Fix typos |-\|/-| 2014-11-10T21:32:05Z Closed pull request |-\|/-| 31 +46 −46 md cpp h 11|-\|/-| 
+Fix warnings |-\|/-| 2014-11-08T19:56:03Z Closed pull request |-\|/-| 30 +10 −8 cpp 6|-\|/-| 
+Fix coverity warnings |-\|/-| 2014-11-08T03:57:40Z Closed pull request |-\|/-| 29 +27 −0 cpp 10|-\|/-| 
+Fix typos |-\|/-| 2014-11-04T17:20:44Z Closed pull request |-\|/-| 27 +83 −83 cpp 9|-\|/-| 
+Fix Coverity warnings |-\|/-| 2014-11-04T17:08:39Z Closed pull request |-\|/-| 26 +45 −8 cpp 13|-\|/-| 
+fix minor warnings |-\|/-| 2014-11-04T04:19:12Z Closed pull request |-\|/-| 24 +3 −2 cpp h 3|-\|/-| 
+Added Tomorrow color schemes |-\|/-| 2014-07-08T22:26:56Z Closed pull request |-\|/-| 14 +30 −0 cpp 1|-\|/-| 
+Fit background text width |-\|/-| 2013-11-18T15:38:59Z Merged pull request |-\|/-| 2 +27 −14 cpp 1|-\|/-| 
+[ConEmuBg] Fit background text width |-\|/-| 2013-11-18T15:30:15Z Closed pull request |-\|/-| 1 +23 −14 cpp 1|-\|/-| 

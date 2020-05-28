@@ -1,0 +1,777 @@
+Don't put the encoding type if there is no channel |-\|/-| 2020-01-13T14:39:34Z Closed pull request |-\|/-| 1275 +59 −4 scala 3|-\|/-| 
+Avoid sending PaymentSecret/MPP in Init |-\|/-| 2020-01-10T14:57:02Z Merged pull request |-\|/-| 1273 +41 −2 scala 2|-\|/-| 
+Restore missing 'db.close()' methods |-\|/-| 2020-01-10T13:37:38Z Merged pull request |-\|/-| 1272 +30 −10 scala 12|-\|/-| 
+Disable Trampoline-MPP to non-Phoenix recipients |-\|/-| 2020-01-08T15:47:02Z Merged pull request |-\|/-| 1271 +9 −17 scala 2|-\|/-| 
+Fix Outpoint JSON serialization |-\|/-| 2020-01-08T13:09:19Z Merged pull request |-\|/-| 1270 +15 −5 scala 2|-\|/-| 
+More consistency in sending messages during sync |-\|/-| 2020-01-07T15:44:52Z Merged pull request |-\|/-| 1268 +18 −12 scala 1|-\|/-| 
+Remove mockito from switchboard tests |-\|/-| 2020-01-07T15:49:38Z Merged pull request |-\|/-| 1267 +32 −76 scala 2|-\|/-| 
+Remove repeated code |-\|/-| 2019-12-24T12:06:46Z Merged pull request |-\|/-| 1265 +21 −32 scala 2|-\|/-| 
+Added some instructions for TOR auth |-\|/-| 2019-12-24T08:11:25Z Merged pull request |-\|/-| 1262 +8 −1 md 0|-\|/-| 
+Improve CommandSend type |-\|/-| 2019-12-18T15:39:20Z Merged pull request |-\|/-| 1260 +51 −47 scala 7|-\|/-| 
+Update Maven (3.6.3) |-\|/-| 2019-12-17T09:41:22Z Merged pull request |-\|/-| 1259 +6 −6 yml Dockerfile 2|-\|/-| 
+Flat features |-\|/-| 2020-01-09T12:47:44Z Merged pull request |-\|/-| 1253 +525 −383 conf scala 6|-\|/-| 
+Allow Peer.Connect messages to force reconnection to remote. |-\|/-| 2019-12-11T14:14:04Z Closed pull request |-\|/-| 1251 +16 −14 scala 2|-\|/-| 
+Better randomization of reconnection delay |-\|/-| 2019-12-11T13:16:49Z Merged pull request |-\|/-| 1250 +11 −5 scala 2|-\|/-| 
+MPP: don't retry if failure comes from final recipient |-\|/-| 2019-12-11T12:53:54Z Merged pull request |-\|/-| 1246 +20 −7 scala 3|-\|/-| 
+Add HasHtlcIdCommand |-\|/-| 2019-12-11T13:40:23Z Merged pull request |-\|/-| 1245 +87 −100 conf scala 15|-\|/-| 
+Add a configurable time-out to onchain fee provider requests |-\|/-| 2019-12-09T15:18:13Z Merged pull request |-\|/-| 1244 +38 −10 conf scala 7|-\|/-| 
+Fix MPP flaky test |-\|/-| 2019-12-09T13:12:28Z Merged pull request |-\|/-| 1243 +0 −2 scala 1|-\|/-| 
+Minor: missing log category in peer |-\|/-| 2019-12-11T13:03:31Z Merged pull request |-\|/-| 1241 +3 −1 scala 1|-\|/-| 
+Register: ShortChannelId can change because of re-orgs |-\|/-| 2019-12-06T17:26:32Z Closed pull request |-\|/-| 1237 +7 −2 scala 1|-\|/-| 
+Added blank lines to minimize conflicts |-\|/-| 2019-12-06T13:23:57Z Merged pull request |-\|/-| 1236 +54 −1 scala 2|-\|/-| 
+Set `akka.loglevel` to `DEBUG` |-\|/-| 2019-12-06T12:57:46Z Merged pull request |-\|/-| 1235 +1 −1 conf 1|-\|/-| 
+Fix outgoing payments order in payments overview |-\|/-| 2019-12-04T16:29:56Z Merged pull request |-\|/-| 1232 +46 −30 scala 2|-\|/-| 
+Minor: ignore "disconnecting" message in Channel |-\|/-| 2019-12-10T12:40:38Z Merged pull request |-\|/-| 1231 +3 −0 scala 1|-\|/-| 
+Fix onion codec test |-\|/-| 2019-12-02T10:40:23Z Merged pull request |-\|/-| 1229 +1 −1 scala 1|-\|/-| 
+Handle chain re-org in balance computation |-\|/-| 2019-12-02T15:15:57Z Merged pull request |-\|/-| 1228 +42 −9 scala 6|-\|/-| 
+Added a 'category' in logs |-\|/-| 2019-12-04T13:17:57Z Merged pull request |-\|/-| 1227 +298 −137 scala 9|-\|/-| 
+Extended doHandle to other messages in MultiPartHandler |-\|/-| 2019-11-29T16:03:27Z Merged pull request |-\|/-| 1226 +6 −6 scala 1|-\|/-| 
+High level payments overview method |-\|/-| 2019-12-02T10:35:34Z Merged pull request |-\|/-| 1225 +264 −37 scala 4|-\|/-| 
+Fix MPP post-restart HTLC clean-up |-\|/-| 2019-11-28T17:06:30Z Merged pull request |-\|/-| 1224 +333 −240 scala 5|-\|/-| 
+Akka remote backups |-\|/-| 2019-12-05T10:15:03Z Closed pull request |-\|/-| 1223 +172 −44 xml conf scala 9|-\|/-| 
+Avoid incoherent payment request features. |-\|/-| 2019-11-29T09:43:24Z Merged pull request |-\|/-| 1222 +84 −53 scala 6|-\|/-| 
+add networkstats API call to allow display of network stats |-\|/-| 2019-11-22T08:58:08Z Merged pull request |-\|/-| 1221 +56 −2 scala eclair-node/src/test/resources/api/networkstats 5|-\|/-| 
+Relay Trampoline payments |-\|/-| 2019-12-18T13:34:53Z Merged pull request |-\|/-| 1220 +1,967 −528 scala 10|-\|/-| 
+MPP routing improvements |-\|/-| 2019-11-21T08:29:50Z Merged pull request |-\|/-| 1219 +166 −66 scala 3|-\|/-| 
+Improved tracing of single/multi-part payments |-\|/-| 2019-11-22T10:57:29Z Merged pull request |-\|/-| 1218 +112 −22 scala conf 5|-\|/-| 
+PaymentLifecycle should tell the router to ignore route prefix |-\|/-| 2019-11-18T14:25:39Z Merged pull request |-\|/-| 1217 +8 −6 scala 2|-\|/-| 
+Check TLS version support in ElectrumClient |-\|/-| 2019-11-18T14:23:59Z Merged pull request |-\|/-| 1216 +6 −1 scala 1|-\|/-| 
+Refactor: move channel relaying to a ChannelRelayer actor. |-\|/-| 2019-11-14T15:40:22Z Merged pull request |-\|/-| 1215 +516 −428 scala 9|-\|/-| 
+Hosted channels |-\|/-| 2019-12-10T11:44:34Z Closed pull request |-\|/-| 1214 +3,428 −633 xml conf scala 8|-\|/-| 
+Update invoice test vectors |-\|/-| 2019-11-14T15:21:33Z Merged pull request |-\|/-| 1213 +10 −8 scala 1|-\|/-| 
+Rework truncated integers codecs |-\|/-| 2019-12-02T10:06:48Z Merged pull request |-\|/-| 1212 +154 −104 scala 3|-\|/-| 
+Ignore NPE in tests |-\|/-| 2019-11-14T08:55:10Z Merged pull request |-\|/-| 1211 +1 −1 scala 1|-\|/-| 
+Add trampoline onion support |-\|/-| 2019-11-14T10:38:01Z Merged pull request |-\|/-| 1209 +1,642 −744 conf scala 7|-\|/-| 
+Fixed race condition in payment handler init |-\|/-| 2019-11-13T10:05:01Z Merged pull request |-\|/-| 1208 +3 −2 scala 1|-\|/-| 
+Fixed composition of receive handlers |-\|/-| 2019-11-13T08:50:10Z Merged pull request |-\|/-| 1207 +429 −359 scala 1|-\|/-| 
+Payment Request: speed up node id computation |-\|/-| 2019-11-14T09:04:52Z Merged pull request |-\|/-| 1203 +4 −5 scala xml 2|-\|/-| 
+Multi part payments refactor |-\|/-| 2019-12-04T09:21:34Z Closed draft pull request |-\|/-| 1202 +3,050 −827 conf scala 9|-\|/-| 
+More logging for LocalPaymentHandler |-\|/-| 2019-11-08T22:32:41Z Closed pull request |-\|/-| 1201 +4 −1 scala 1|-\|/-| 
+Add synchronization when locking database connection |-\|/-| 2019-12-12T08:22:18Z Merged pull request |-\|/-| 1200 +27 −9 scala 2|-\|/-| 
+Minor: fixed format in exception message |-\|/-| 2019-11-05T15:39:40Z Merged pull request |-\|/-| 1199 +1 −1 scala 1|-\|/-| 
+[WIP] Status by external |-\|/-| 2019-11-09T15:52:28Z Closed pull request |-\|/-| 1198 +6 −2 scala 2|-\|/-| 
+More metrics |-\|/-| 2019-11-04T15:19:16Z Merged pull request |-\|/-| 1196 +57 −24 scala 8|-\|/-| 
+Add 'getnewaddress' API |-\|/-| 2019-11-04T13:54:03Z Merged pull request |-\|/-| 1190 +13 −0 scala 2|-\|/-| 
+add networkstats API call to allow display of network stats |-\|/-| 2019-11-22T08:57:47Z Closed pull request |-\|/-| 1189 +56 −2 scala eclair-node/src/test/resources/api/networkstats 5|-\|/-| 
+Fix /allupdates API  |-\|/-| 2019-11-18T13:51:47Z Merged pull request |-\|/-| 1187 +54 −20 scala 2|-\|/-| 
+Rework payment handling |-\|/-| 2019-11-07T11:13:49Z Merged pull request |-\|/-| 1183 +253 −142 conf scala 9|-\|/-| 
+Fix codecov unknown tag |-\|/-| 2019-10-23T08:04:14Z Merged pull request |-\|/-| 1181 +0 −2 yml 1|-\|/-| 
+Fix ignored duplicate amounts in htlc-value-in-flight |-\|/-| 2019-10-22T09:49:29Z Merged pull request |-\|/-| 1180 +26 −9 scala 3|-\|/-| 
+Support pruned bitcoind |-\|/-| 2019-12-04T12:23:55Z Closed pull request |-\|/-| 1178 +873 −246 md scala 3|-\|/-| 
+Release 0.3.2 |-\|/-| 2019-10-15T17:26:43Z Merged pull request |-\|/-| 1177 +4 −4 xml 4|-\|/-| 
+Refactor Upstream/Origin |-\|/-| 2019-10-22T12:16:51Z Merged pull request |-\|/-| 1176 +197 −190 scala 4|-\|/-| 
+Check configuration for obsolete keys in startup |-\|/-| 2019-10-15T14:37:20Z Merged pull request |-\|/-| 1175 +23 −1 scala 2|-\|/-| 
+Release 0.3.2 |-\|/-| 2019-10-15T11:17:46Z Closed pull request |-\|/-| 1174 +4 −4 xml 4|-\|/-| 
+Update assisted channels |-\|/-| 2019-10-14T16:09:04Z Merged pull request |-\|/-| 1172 +66 −1 scala 2|-\|/-| 
+High level call aggregating payments |-\|/-| 2019-11-28T19:22:45Z Closed pull request |-\|/-| 1169 +266 −88 scala 4|-\|/-| 
+[WIP] Remove txindex requirement for bitcoind backend |-\|/-| 2019-10-16T12:46:11Z Closed draft pull request |-\|/-| 1168 +25 −28 scala 2|-\|/-| 
+[WIP] Use gettxout to fetch unspent transaction outputs |-\|/-| 2019-10-08T08:27:41Z Closed pull request |-\|/-| 1167 +33 −16 scala 3|-\|/-| 
+Use guava to compute CRC32C checksums |-\|/-| 2019-10-07T16:25:11Z Merged pull request |-\|/-| 1166 +16 −5 scala 2|-\|/-| 
+Activate extended channel range queries |-\|/-| 2019-10-07T15:08:22Z Merged pull request |-\|/-| 1165 +26 −25 conf scala 4|-\|/-| 
+Value in flight fix |-\|/-| 2019-10-21T13:51:35Z Closed pull request |-\|/-| 1163 +21 −5 scala 3|-\|/-| 
+Update android branch |-\|/-| 2019-10-08T11:21:18Z Merged pull request |-\|/-| 1162 +10,871 −6,163 yml md Dockerfile eclair-core/eclair-cli 5|-\|/-| 
+Add execution time limit |-\|/-| 2019-10-03T15:05:13Z Merged pull request |-\|/-| 1161 +2 −0 yml 1|-\|/-| 
+Update netty dependency to 4.1.32 |-\|/-| 2019-10-03T13:01:11Z Merged pull request |-\|/-| 1160 +7 −2 xml scala 2|-\|/-| 
+Sqlite: use TEXT type for strings |-\|/-| 2019-10-14T09:31:21Z Merged pull request |-\|/-| 1159 +54 −9 scala 3|-\|/-| 
+Upgrade new unit tests to bitcoin 0.18.1 API |-\|/-| 2019-10-03T08:42:55Z Merged pull request |-\|/-| 1157 +2 −4 scala 1|-\|/-| 
+Extend funding key path to 256 bits |-\|/-| 2019-10-02T14:43:59Z Merged pull request |-\|/-| 1154 +99 −8 scala 4|-\|/-| 
+Multi part payments |-\|/-| 2019-11-12T15:06:42Z Merged pull request |-\|/-| 1153 +3,256 −971 conf scala 8|-\|/-| 
+Commitments: take HTLC fee into account |-\|/-| 2019-09-30T14:43:08Z Merged pull request |-\|/-| 1152 +76 −18 scala 4|-\|/-| 
+Update funding pubkey path generation |-\|/-| 2019-10-01T08:22:11Z Closed pull request |-\|/-| 1151 +166 −79 scala 4|-\|/-| 
+HTTP API: add type hints for payment status |-\|/-| 2019-10-01T08:16:30Z Merged pull request |-\|/-| 1150 +247 −97 scala eclair-node/src/test/resources/api/received-expired eclair-node/src/test/resources/api/received-pending eclair-node/src/test/resources/api/received-success eclair-node/src/test/resources/api/sent-failed eclair-node/src/test/resources/api/sent-pending eclair-node/src/test/resources/api/sent-success 8|-\|/-| 
+Electrum: improve coin selection (fixes #1146) |-\|/-| 2019-10-02T09:20:01Z Merged pull request |-\|/-| 1149 +129 −47 scala 3|-\|/-| 
+Use bitcoin 0.18.1 in the test |-\|/-| 2019-10-03T07:23:32Z Merged pull request |-\|/-| 1148 +88 −96 xml scala 6|-\|/-| 
+Fix and expand channel keypath |-\|/-| 2019-09-25T12:29:49Z Merged pull request |-\|/-| 1147 +11 −3 scala 2|-\|/-| 
+Port the API service to spray.io for ease of testing |-\|/-| 2019-10-02T11:22:33Z Closed draft pull request |-\|/-| 1145 +268 −1,067 xml scala 11|-\|/-| 
+Improve error handling for /sendtoroute |-\|/-| 2019-09-20T14:09:53Z Merged pull request |-\|/-| 1142 +26 −4 scala 2|-\|/-| 
+Update string to match on bitcoind while it's indexing |-\|/-| 2019-09-18T13:29:21Z Merged pull request |-\|/-| 1138 +6 −1 scala 2|-\|/-| 
+Sphinx: accept invalid downstream errors |-\|/-| 2019-09-18T07:39:00Z Merged pull request |-\|/-| 1137 +37 −6 scala 3|-\|/-| 
+Drop support for Java 8 |-\|/-| 2019-09-16T09:04:11Z Merged pull request |-\|/-| 1135 +3 −5 md xml 1|-\|/-| 
+Add codecov integration to semaphore CI |-\|/-| 2019-09-12T15:18:23Z Merged pull request |-\|/-| 1134 +30 −26 yml 3|-\|/-| 
+Better handling of bitcoind failures |-\|/-| 2019-09-17T07:57:07Z Closed pull request |-\|/-| 1132 +53 −2 conf scala 3|-\|/-| 
+Halt on fatal validation errors |-\|/-| 2019-09-10T15:12:16Z Closed draft pull request |-\|/-| 1131 +30 −2 scala 3|-\|/-| 
+Payment lifecycle refactoring |-\|/-| 2019-09-20T12:29:37Z Merged pull request |-\|/-| 1130 +1,299 −760 scala 5|-\|/-| 
+Don't hardcode the channel version |-\|/-| 2019-09-06T15:15:51Z Merged pull request |-\|/-| 1129 +40 −36 scala 8|-\|/-| 
+Check funds in millisatoshi when sending/receiving an HTLC |-\|/-| 2019-09-06T14:38:38Z Merged pull request |-\|/-| 1128 +27 −15 scala 2|-\|/-| 
+Removed Globals class |-\|/-| 2019-09-11T08:55:44Z Merged pull request |-\|/-| 1127 +429 −419 scala 9|-\|/-| 
+Add monitoring with Kamon (disabled by default) |-\|/-| 2019-09-06T12:37:27Z Merged pull request |-\|/-| 1126 +452 −190 xml scala 10|-\|/-| 
+Add Semaphore CI |-\|/-| 2019-09-05T16:21:09Z Merged pull request |-\|/-| 1125 +23 −0 yml 1|-\|/-| 
+Made sync params configurable |-\|/-| 2019-09-05T10:46:29Z Merged pull request |-\|/-| 1124 +34 −28 conf scala 6|-\|/-| 
+Update docker build |-\|/-| 2019-09-04T11:43:50Z Merged pull request |-\|/-| 1123 +4 −5 Dockerfile 1|-\|/-| 
+Store channel data on restore |-\|/-| 2019-10-14T08:42:39Z Closed pull request |-\|/-| 1122 +4 −4 scala 1|-\|/-| 
+Implement Bolt 11 invoice feature bits |-\|/-| 2019-09-04T11:38:01Z Merged pull request |-\|/-| 1121 +63 −36 scala 2|-\|/-| 
+Fix maven mirror |-\|/-| 2019-09-03T11:40:54Z Merged pull request |-\|/-| 1120 +3 −3 yml 1|-\|/-| 
+Update docker build |-\|/-| 2019-09-04T11:00:56Z Closed pull request |-\|/-| 1119 +4 −5 Dockerfile 1|-\|/-| 
+Api: reject expired invoices |-\|/-| 2019-09-04T12:22:22Z Merged pull request |-\|/-| 1117 +62 −40 scala 4|-\|/-| 
+Router computes network stats |-\|/-| 2019-09-06T09:39:23Z Merged pull request |-\|/-| 1116 +317 −156 conf scala 4|-\|/-| 
+Fix build |-\|/-| 2019-09-02T08:53:37Z Merged pull request |-\|/-| 1115 +3 −3 scala 1|-\|/-| 
+Finish tests by fulfilling htlcs |-\|/-| 2019-08-30T16:09:08Z Closed pull request |-\|/-| 1114 +129 −68 scala 1|-\|/-| 
+Make tests run in parallel |-\|/-| 2019-09-11T11:40:47Z Merged pull request |-\|/-| 1112 +20 −19 conf scala xml 14|-\|/-| 
+Use Long to back the UInt64 type |-\|/-| 2019-09-04T09:57:11Z Merged pull request |-\|/-| 1109 +66 −42 scala 5|-\|/-| 
+Channel range queries: send back node announcements |-\|/-| 2019-08-26T13:18:28Z Merged pull request |-\|/-| 1108 +284 −100 conf scala 5|-\|/-| 
+Fix regression in `Commitments.availableForSend` |-\|/-| 2019-08-30T16:44:27Z Merged pull request |-\|/-| 1107 +376 −7 scala 2|-\|/-| 
+Bolt4: remove final_expiry_too_soon error message |-\|/-| 2019-09-02T08:06:44Z Merged pull request |-\|/-| 1106 +127 −57 scala 8|-\|/-| 
+Use unsigned comparison for 'maxHtlcValueInFlightMsat' |-\|/-| 2019-08-29T09:58:10Z Merged pull request |-\|/-| 1105 +29 −14 scala 9|-\|/-| 
+Typed cltv expiry |-\|/-| 2019-08-26T13:15:34Z Merged pull request |-\|/-| 1104 +1,405 −1,299 scala 5|-\|/-| 
+Add more numeric utilities to MilliSatoshi |-\|/-| 2019-08-29T07:19:02Z Merged pull request |-\|/-| 1103 +1,799 −1,616 scala 4|-\|/-| 
+Move http APIs to subproject eclair-node |-\|/-| 2019-08-30T07:44:25Z Merged pull request |-\|/-| 1102 +263 −113 xml scala 8|-\|/-| 
+Route computation: fix fee check |-\|/-| 2019-08-20T13:56:57Z Merged pull request |-\|/-| 1101 +42 −8 scala 3|-\|/-| 
+Add API call to get general network statistics |-\|/-| 2019-09-18T07:39:58Z Closed pull request |-\|/-| 1100 +110 −10 scala 3|-\|/-| 
+Client side paymentId |-\|/-| 2019-09-20T12:32:18Z Closed pull request |-\|/-| 1099 +62 −23 scala 6|-\|/-| 
+Derive channel keys from the channel funding pubkey |-\|/-| 2019-09-23T09:44:58Z Merged pull request |-\|/-| 1097 +345 −122 scala 3|-\|/-| 
+Use MilliSatoshi to type 'maxHtlcValueInFlightMsat' |-\|/-| 2019-08-22T09:36:23Z Closed pull request |-\|/-| 1096 +89 −38 scala 15|-\|/-| 
+Derive channel keys from the channel funding pubkey |-\|/-| 2019-08-09T08:46:28Z Closed pull request |-\|/-| 1093 +0 −0 0|-\|/-| 
+Documentation update |-\|/-| 2019-07-31T13:35:28Z Merged pull request |-\|/-| 1092 +84 −45 md 0|-\|/-| 
+Update list of commands in eclair-cli help |-\|/-| 2019-07-29T08:32:06Z Merged pull request |-\|/-| 1091 +4 −3 eclair-core/eclair-cli 1|-\|/-| 
+Use correct cost comparison when evaluating candidate channels |-\|/-| 2019-07-26T15:15:09Z Merged pull request |-\|/-| 1090 +47 −6 scala 2|-\|/-| 
+Publish transactions during transitions |-\|/-| 2019-08-26T13:02:56Z Merged pull request |-\|/-| 1089 +46 −56 scala 1|-\|/-| 
+Typed amounts |-\|/-| 2019-08-07T15:37:39Z Merged pull request |-\|/-| 1088 +1,420 −1,307 eclair-core/eclair-cli scala 5|-\|/-| 
+Activate support for variable-length onion |-\|/-| 2019-09-05T15:41:46Z Merged pull request |-\|/-| 1087 +873 −406 conf scala 6|-\|/-| 
+Deterministic channel keypath |-\|/-| 2019-08-26T12:27:51Z Closed pull request |-\|/-| 1086 +903 −243 scala 7|-\|/-| 
+Check if remote funder can handle an updated commit fee when sending HTLC |-\|/-| 2019-09-23T16:21:56Z Merged pull request |-\|/-| 1084 +51 −14 scala 3|-\|/-| 
+Configurable transaction confirmation target |-\|/-| 2019-07-25T17:06:19Z Merged pull request |-\|/-| 1083 +354 −161 conf scala 9|-\|/-| 
+Made using/storing/sending consistent |-\|/-| 2019-07-24T08:03:45Z Merged pull request |-\|/-| 1082 +51 −40 0|-\|/-| 
+Handle fees increases when channel is OFFLINE |-\|/-| 2019-09-20T15:48:03Z Merged pull request |-\|/-| 1080 +140 −39 conf scala 7|-\|/-| 
+Handle fulfill not acked upstream |-\|/-| 2019-07-23T09:11:41Z Merged pull request |-\|/-| 1079 +316 −97 conf scala 6|-\|/-| 
+Setup: disable bitcoind sync when regtest |-\|/-| 2019-07-16T09:50:32Z Closed pull request |-\|/-| 1077 +3 −3 scala 1|-\|/-| 
+Switch varint codec to big-endian. |-\|/-| 2019-07-15T09:55:41Z Merged pull request |-\|/-| 1075 +44 −62 scala 3|-\|/-| 
+Store failure messages for outgoing payments |-\|/-| 2019-09-20T12:31:23Z Closed pull request |-\|/-| 1074 +112 −52 scala 4|-\|/-| 
+Replace traits by bitfield for ChannelVersion |-\|/-| 2019-07-15T11:11:21Z Merged pull request |-\|/-| 1073 +16 −13 scala 4|-\|/-| 
+Extended Queries: use TLV format for optional data |-\|/-| 2019-08-22T16:58:14Z Merged pull request |-\|/-| 1072 +509 −191 scala 8|-\|/-| 
+add in utility script to startup a regtest Network |-\|/-| 2019-07-15T09:18:07Z Closed pull request |-\|/-| 1071 +227 −0 sh 2|-\|/-| 
+Add fee info to GetSentInfo |-\|/-| 2019-09-20T12:31:05Z Closed pull request |-\|/-| 1070 +69 −38 scala 4|-\|/-| 
+TLV improvements and full spec compatibility |-\|/-| 2019-07-11T15:25:15Z Merged pull request |-\|/-| 1069 +342 −134 scala 4|-\|/-| 
+Electrum: update checkpoints |-\|/-| 2019-07-09T14:00:19Z Merged pull request |-\|/-| 1067 +2,290 −1,968 0|-\|/-| 
+Configurable fee target |-\|/-| 2019-07-20T14:31:13Z Closed pull request |-\|/-| 1066 +197 −89 conf scala 8|-\|/-| 
+Add a few improvements to tlv. |-\|/-| 2019-07-08T08:05:18Z Merged pull request |-\|/-| 1065 +49 −17 scala 2|-\|/-| 
+Use a `RelayResult` class instead of an `Either` |-\|/-| 2019-07-04T12:06:06Z Merged pull request |-\|/-| 1064 +33 −22 scala 2|-\|/-| 
+Add eclair-cli to eclair's docker image |-\|/-| 2019-07-05T07:10:07Z Merged pull request |-\|/-| 1063 +13 −0 Dockerfile md 1|-\|/-| 
+Set version to 0.3.2-SNAPSHOT |-\|/-| 2019-07-04T08:00:45Z Merged pull request |-\|/-| 1062 +4 −4 xml 4|-\|/-| 
+Set version to v0.3.1 |-\|/-| 2019-07-03T15:23:12Z Merged pull request |-\|/-| 1061 +4 −4 xml 4|-\|/-| 
+Added a channel version to `Commitments` object |-\|/-| 2019-07-12T11:36:34Z Merged pull request |-\|/-| 1059 +46 −13 scala 7|-\|/-| 
+Enhance bitcoind checks during startup |-\|/-| 2019-07-02T15:31:54Z Merged pull request |-\|/-| 1058 +6 −4 scala 1|-\|/-| 
+Reject payments for expired invoices |-\|/-| 2019-07-03T13:52:04Z Merged pull request |-\|/-| 1057 +33 −3 scala 4|-\|/-| 
+Make Bitcoin Core bind on localhost in tests |-\|/-| 2019-07-02T08:22:35Z Merged pull request |-\|/-| 1056 +7 −3 scala conf 3|-\|/-| 
+Update link for recommended JDK |-\|/-| 2019-07-01T07:31:38Z Merged pull request |-\|/-| 1054 +1 −1 md 0|-\|/-| 
+Add more data to `usablebalances` API method |-\|/-| 2019-07-02T09:20:03Z Merged pull request |-\|/-| 1053 +59 −18 scala eclair-core/src/test/resources/api/usablebalances 7|-\|/-| 
+Add more data to `usablebalances` API method |-\|/-| 2019-06-26T16:31:31Z Closed pull request |-\|/-| 1052 +18 −9 scala 2|-\|/-| 
+Strict linting |-\|/-| 2019-07-02T10:25:08Z Closed pull request |-\|/-| 1051 +66 −62 scala 27|-\|/-| 
+Added more memory for scoverage |-\|/-| 2019-07-02T08:06:58Z Merged pull request |-\|/-| 1050 +5 −0 xml 1|-\|/-| 
+Store more payment info for sent payments |-\|/-| 2019-09-20T12:30:37Z Closed pull request |-\|/-| 1048 +208 −68 scala 6|-\|/-| 
+Handle unknown fields in network announcements |-\|/-| 2019-07-08T15:14:02Z Merged pull request |-\|/-| 1047 +292 −222 scala 6|-\|/-| 
+Remove old APIs |-\|/-| 2019-06-24T15:46:56Z Merged pull request |-\|/-| 1046 +6 −479 md conf scala 2|-\|/-| 
+Add TLV and TLV stream codec support |-\|/-| 2019-07-02T09:53:15Z Merged pull request |-\|/-| 1045 +741 −362 scala 8|-\|/-| 
+getsentinfo returns timestamps in millis |-\|/-| 2019-06-24T08:10:22Z Merged pull request |-\|/-| 1044 +4 −4 md 0|-\|/-| 
+Minor fixes |-\|/-| 2019-06-19T09:36:31Z Merged pull request |-\|/-| 1043 +7 −3 scala conf 3|-\|/-| 
+Ack unhandled lightning messages |-\|/-| 2019-06-20T09:40:02Z Merged pull request |-\|/-| 1042 +11 −0 scala 1|-\|/-| 
+Connect immediately on restart, then wait |-\|/-| 2019-07-03T11:15:21Z Merged pull request |-\|/-| 1040 +185 −76 conf scala 9|-\|/-| 
+Electrum: add data to TxIdFromPosResponse. |-\|/-| 2019-06-17T10:10:11Z Merged pull request |-\|/-| 1038 +7 −11 scala 2|-\|/-| 
+Removed cached codec |-\|/-| 2019-06-14T12:04:16Z Merged pull request |-\|/-| 1036 +2 −59 scala 3|-\|/-| 
+Electrum: add id_from_pos |-\|/-| 2019-06-14T11:25:37Z Merged pull request |-\|/-| 1035 +56 −16 scala 2|-\|/-| 
+Close the channel if the funding tx never confirms |-\|/-| 2019-07-03T10:00:01Z Merged pull request |-\|/-| 1034 +599 −277 scala 6|-\|/-| 
+Output txid and serialized tx in transaction json serializer |-\|/-| 2019-06-13T16:10:10Z Merged pull request |-\|/-| 1033 +18 −4 scala 2|-\|/-| 
+Wrap all routes in toStrictEntity |-\|/-| 2019-07-09T14:49:56Z Merged pull request |-\|/-| 1032 +164 −158 0|-\|/-| 
+Clean pending htlcs db |-\|/-| 2019-06-13T16:08:35Z Merged pull request |-\|/-| 1027 +161 −20 scala 8|-\|/-| 
+Deterministic channel keypath |-\|/-| 2019-07-22T13:28:49Z Closed pull request |-\|/-| 1026 +904 −248 scala 4|-\|/-| 
+Actor params: small refactoring |-\|/-| 2019-06-12T07:43:18Z Closed pull request |-\|/-| 1025 +16 −12 scala 3|-\|/-| 
+Add feeThresholdSat and maxFeePct parameters to payments API |-\|/-| 2019-06-11T13:34:48Z Merged pull request |-\|/-| 1023 +72 −52 scala 4|-\|/-| 
+Electrum: update server list |-\|/-| 2019-06-03T11:45:52Z Merged pull request |-\|/-| 1022 +11 −332 0|-\|/-| 
+Correctly decode requests without multipliers |-\|/-| 2019-06-14T13:01:11Z Merged pull request |-\|/-| 1020 +7 −0 scala 2|-\|/-| 
+Initialize global feerate with default from conf |-\|/-| 2019-06-03T07:44:07Z Merged pull request |-\|/-| 1019 +13 −8 scala 1|-\|/-| 
+Removed `PaymentRequest.MAX_AMOUNT` |-\|/-| 2019-05-28T12:14:18Z Merged pull request |-\|/-| 1018 +1 −11 scala 3|-\|/-| 
+Close channel if funding tx times out |-\|/-| 2019-06-11T12:31:24Z Merged pull request |-\|/-| 1016 +2 −5 scala 3|-\|/-| 
+Smarter restore logic for closing channels |-\|/-| 2019-06-12T10:29:32Z Merged pull request |-\|/-| 1015 +349 −38 scala 3|-\|/-| 
+Use compact encoding for signatures (64 bytes) instead of DER |-\|/-| 2019-06-14T09:52:02Z Merged pull request |-\|/-| 1014 +554 −601 scala 8|-\|/-| 
+Make `htlc-reaper` a top-level actor |-\|/-| 2019-05-21T15:36:29Z Merged pull request |-\|/-| 1013 +1 −1 scala 1|-\|/-| 
+Set `handleCommandError` to `WARN` |-\|/-| 2019-05-27T15:33:21Z Merged pull request |-\|/-| 1012 +1 −1 scala 1|-\|/-| 
+Smarter relay logic |-\|/-| 2019-06-03T17:10:15Z Merged pull request |-\|/-| 1011 +220 −136 scala 2|-\|/-| 
+Electrum:  consistently retrieve wallet transactions |-\|/-| 2019-05-23T14:36:55Z Merged pull request |-\|/-| 1010 +303 −86 json scala 5|-\|/-| 
+Peer reconnection address from node announcements |-\|/-| 2019-06-11T15:39:53Z Merged pull request |-\|/-| 1009 +249 −59 scala 10|-\|/-| 
+Use 64B representation instead of DER for sigs |-\|/-| 2019-05-24T17:00:50Z Closed draft pull request |-\|/-| 1008 +245 −258 scala 10|-\|/-| 
+Increase Service and EclairImpl test coverage |-\|/-| 2019-05-20T12:22:10Z Merged pull request |-\|/-| 1004 +176 −116 xml scala 3|-\|/-| 
+Merge master into Android |-\|/-| 2019-05-21T15:56:48Z Merged pull request |-\|/-| 1002 +2,598 −1,139 yml Dockerfile md bash-completion eclair-core/eclair-cli xml conf scala 9|-\|/-| 
+Improved test coverage of `io` package |-\|/-| 2019-05-10T17:53:51Z Merged pull request |-\|/-| 996 +85 −9 scala 2|-\|/-| 
+Recovery tool |-\|/-| 2019-10-29T10:10:48Z Closed pull request |-\|/-| 995 +485 −9 scala 7|-\|/-| 
+Release v0.3 |-\|/-| 2019-05-10T09:02:09Z Merged pull request |-\|/-| 994 +22 −4 xml 4|-\|/-| 
+Updated license header |-\|/-| 2019-05-09T14:40:38Z Merged pull request |-\|/-| 992 +346 −250 xml scala 57|-\|/-| 
+Restrict scope of the code coverage report |-\|/-| 2019-05-09T13:07:50Z Merged pull request |-\|/-| 991 +5 −1 yml 1|-\|/-| 
+Set tcp client timeout to 20s |-\|/-| 2019-05-09T09:41:06Z Merged pull request |-\|/-| 990 +1 −1 scala 1|-\|/-| 
+Set default chain to "mainnet" |-\|/-| 2019-05-09T09:30:27Z Merged pull request |-\|/-| 989 +13 −38 md conf 1|-\|/-| 
+Accept `commit_sig` without changes |-\|/-| 2019-05-09T11:57:58Z Merged pull request |-\|/-| 988 +9 −4 scala 2|-\|/-| 
+Use bitcoind fee estimator first |-\|/-| 2019-05-09T13:19:26Z Merged pull request |-\|/-| 987 +3 −3 conf scala 2|-\|/-| 
+Replace UnknownPaymentHash/IncorrectPaymentAmount with IncorrectOrUnknownPaymentDetails |-\|/-| 2019-05-09T08:03:05Z Merged pull request |-\|/-| 984 +12 −12 scala 6|-\|/-| 
+Update bash autocompletition for eclair-cli |-\|/-| 2019-05-09T07:45:48Z Merged pull request |-\|/-| 983 +5 −5 bash-completion eclair-core/eclair-cli 2|-\|/-| 
+Add bot support for code coverage (codecov) |-\|/-| 2019-05-09T09:42:39Z Merged pull request |-\|/-| 982 +19 −1 yml md xml 3|-\|/-| 
+Wireshark dissector support |-\|/-| 2019-05-09T08:47:58Z Merged pull request |-\|/-| 981 +43 −8 scala xml 3|-\|/-| 
+Use proper closing type in `ChannelClosed` event |-\|/-| 2019-05-09T07:43:25Z Merged pull request |-\|/-| 977 +16 −7 scala 3|-\|/-| 
+Variable-length onion payloads |-\|/-| 2019-07-23T10:22:30Z Merged pull request |-\|/-| 976 +1,195 −694 scala 5|-\|/-| 
+Fixed overflow issue with max duration |-\|/-| 2019-04-30T08:14:49Z Merged pull request |-\|/-| 975 +18 −12 scala 3|-\|/-| 
+[WIP] Add logging of database timings |-\|/-| 2019-09-06T16:43:28Z Closed pull request |-\|/-| 974 +36 −10 scala 2|-\|/-| 
+Extended Queries: use TLV format for optional data |-\|/-| 2019-08-22T12:50:20Z Closed pull request |-\|/-| 972 +6,408 −4,397 Dockerfile md xml 2|-\|/-| 
+Various fix and improvements in time/timestamp handling |-\|/-| 2019-04-26T15:10:31Z Merged pull request |-\|/-| 971 +63 −61 scala 9|-\|/-| 
+API: support query /channel info by short channel id |-\|/-| 2019-04-26T15:46:00Z Merged pull request |-\|/-| 969 +89 −67 scala 3|-\|/-| 
+Rename `eclair.bak` to `eclair.sqlite.bak` |-\|/-| 2019-04-25T14:34:07Z Merged pull request |-\|/-| 968 +7 −7 md conf scala 2|-\|/-| 
+Fix flaky test in PaymentLifecycleSpec |-\|/-| 2019-04-25T13:28:04Z Merged pull request |-\|/-| 967 +17 −13 scala 2|-\|/-| 
+Do not print the stacktrace on stderr when there is an error at boot |-\|/-| 2019-04-25T11:16:28Z Merged pull request |-\|/-| 966 +6 −4 scala 2|-\|/-| 
+API: optionally use a user supplied preimage when creating invoices |-\|/-| 2019-05-17T15:11:39Z Merged pull request |-\|/-| 965 +35 −13 scala 6|-\|/-| 
+Electrum: make debug logs shorter |-\|/-| 2019-04-24T14:50:25Z Merged pull request |-\|/-| 964 +3 −1 scala 1|-\|/-| 
+ElectrumWallet should not send ready if syncing |-\|/-| 2019-04-24T14:45:58Z Merged pull request |-\|/-| 963 +1 −2 scala 1|-\|/-| 
+Add `balances` API endpoint |-\|/-| 2019-06-26T10:05:52Z Merged pull request |-\|/-| 962 +64 −27 scala 8|-\|/-| 
+Fixed concurrency issue in `IndexedObservableList` |-\|/-| 2019-04-25T16:22:29Z Merged pull request |-\|/-| 961 +7 −0 scala 1|-\|/-| 
+Backup: explicitely specify move options |-\|/-| 2019-04-23T15:11:54Z Merged pull request |-\|/-| 960 +21 −8 conf scala 3|-\|/-| 
+Update readme with bitcoin 0.17 instructions |-\|/-| 2019-04-23T14:50:40Z Merged pull request |-\|/-| 958 +1 −6 md 0|-\|/-| 
+resolve hostname ip in docker level |-\|/-| 2019-04-21T12:32:32Z Closed pull request |-\|/-| 957 +18 −3 Dockerfile sh 2|-\|/-| 
+Fix Dockerfile Maven Sha checksum |-\|/-| 2019-04-19T13:53:14Z Merged pull request |-\|/-| 956 +1 −1 Dockerfile 1|-\|/-| 
+Add channel errors in audit db |-\|/-| 2019-04-19T14:28:03Z Merged pull request |-\|/-| 955 +133 −53 scala 6|-\|/-| 
+Sync whitelist |-\|/-| 2019-08-29T10:50:38Z Merged pull request |-\|/-| 954 +53 −18 conf scala 5|-\|/-| 
+Electrum: do not persist transaction locks |-\|/-| 2019-04-17T17:10:14Z Merged pull request |-\|/-| 953 +63 −36 scala 2|-\|/-| 
+Send to route |-\|/-| 2019-05-20T13:20:54Z Merged pull request |-\|/-| 952 +132 −18 scala 10|-\|/-| 
+Live channel database backup |-\|/-| 2019-04-19T20:35:13Z Merged pull request |-\|/-| 951 +157 −8 md xml conf scala 7|-\|/-| 
+Smarter strategy for sending `channel_update`s |-\|/-| 2019-04-29T14:40:00Z Merged pull request |-\|/-| 950 +236 −101 scala 9|-\|/-| 
+Print stack trace when crashing during boot sequence |-\|/-| 2019-04-24T08:23:58Z Merged pull request |-\|/-| 949 +7 −8 scala 6|-\|/-| 
+Set `MAX_BUFFERED` to 1,000,000 |-\|/-| 2019-04-19T12:18:58Z Merged pull request |-\|/-| 948 +1 −1 scala 1|-\|/-| 
+Multipart payments |-\|/-| 2019-04-26T09:08:14Z Closed pull request |-\|/-| 946 +116 −70 scala 5|-\|/-| 
+Better handling of closed channels |-\|/-| 2019-04-24T15:32:54Z Merged pull request |-\|/-| 944 +103 −36 scala 5|-\|/-| 
+Channel: Log additional data |-\|/-| 2019-04-24T14:47:35Z Merged pull request |-\|/-| 943 +4 −2 scala 2|-\|/-| 
+BOLT11 numeric tagged field padding |-\|/-| 2019-04-16T15:09:05Z Closed pull request |-\|/-| 940 +30 −14 scala 2|-\|/-| 
+Enrich test for internal eclair API implementation (fr.acinq.eclair.Eclair.scala) |-\|/-| 2019-05-09T09:01:44Z Merged pull request |-\|/-| 938 +94 −6 scala 1|-\|/-| 
+API: fix fee rate conversion |-\|/-| 2019-04-09T09:32:13Z Merged pull request |-\|/-| 936 +49 −2 scala 3|-\|/-| 
+Expose the websocket over HTTP GET |-\|/-| 2019-04-10T09:07:20Z Merged pull request |-\|/-| 934 +10 −10 scala 2|-\|/-| 
+Make electrum tests pass on windows |-\|/-| 2019-04-04T09:38:12Z Merged pull request |-\|/-| 932 +7 −5 scala 3|-\|/-| 
+Set max payment attempts from configuration |-\|/-| 2019-04-15T13:19:40Z Merged pull request |-\|/-| 931 +44 −41 conf scala 11|-\|/-| 
+Electrum: update client name |-\|/-| 2019-04-03T08:58:27Z Merged pull request |-\|/-| 930 +5 −2 scala 2|-\|/-| 
+Minor API fixes |-\|/-| 2019-04-02T14:23:50Z Merged pull request |-\|/-| 929 +11 −14 scala 2|-\|/-| 
+Added a timeout for channel open request |-\|/-| 2019-04-18T16:30:52Z Merged pull request |-\|/-| 928 +305 −258 scala 3|-\|/-| 
+Added simple plugin support |-\|/-| 2019-04-19T16:10:47Z Merged pull request |-\|/-| 927 +54 −3 md xml scala 3|-\|/-| 
+Fix eclair-cli to work with equal sign in arguments |-\|/-| 2019-04-03T17:19:57Z Merged pull request |-\|/-| 926 +9 −19 eclair-core/eclair-cli 1|-\|/-| 
+Add random delay to rebroadcast  |-\|/-| 2019-04-01T11:31:41Z Merged pull request |-\|/-| 925 +17 −3 scala 1|-\|/-| 
+Electrum: fixes and improvements |-\|/-| 2019-03-29T17:56:01Z Merged pull request |-\|/-| 924 +52 −27 json scala 4|-\|/-| 
+Rollback funding tx if disconnected in WAIT_FOR_FUNDING_SIGNED |-\|/-| 2019-03-30T19:28:55Z Merged pull request |-\|/-| 923 +22 −2 scala 3|-\|/-| 
+Upgrade scala library target on travis: 2.11.12 |-\|/-| 2019-03-28T16:25:22Z Merged pull request |-\|/-| 922 +1 −1 yml 1|-\|/-| 
+Implement wumbo |-\|/-| 2019-10-16T08:17:09Z Closed pull request |-\|/-| 921 +105 −41 scala 12|-\|/-| 
+Set version to 0.3-SNAPSHOT |-\|/-| 2019-03-28T08:49:17Z Merged pull request |-\|/-| 920 +4 −4 xml 4|-\|/-| 
+Rename 'toRemoteNodeId' to 'nodeId' in /channels API |-\|/-| 2019-03-27T14:49:23Z Merged pull request |-\|/-| 919 +6 −5 scala 1|-\|/-| 
+Fix the broken link to old API documentation |-\|/-| 2019-03-26T17:29:24Z Merged pull request |-\|/-| 918 +8 −9 md 0|-\|/-| 
+[WIP] API: New documentation |-\|/-| 2019-03-26T14:47:32Z Closed pull request |-\|/-| 917 +5,815 −841 md bash-completion eot svg ttf woff woff2 png 8|-\|/-| 
+Check `WatchSpent` in constant time |-\|/-| 2019-03-25T17:09:31Z Merged pull request |-\|/-| 916 +115 −20 scala 2|-\|/-| 
+Don't send updates if no filter has been set |-\|/-| 2019-03-25T13:37:13Z Merged pull request |-\|/-| 912 +10 −9 scala 2|-\|/-| 
+Rework database initialization |-\|/-| 2019-03-25T17:04:31Z Merged pull request |-\|/-| 911 +114 −109 scala 14|-\|/-| 
+Remove unused param 'randomize' from SendPayment command |-\|/-| 2019-03-22T13:39:07Z Merged pull request |-\|/-| 910 +3 −4 scala 3|-\|/-| 
+Improve unit tests |-\|/-| 2019-03-22T12:26:56Z Merged pull request |-\|/-| 908 +36 −32 scala 5|-\|/-| 
+Use bitcoin-lib 0.11 which embeds libsecp256k1  |-\|/-| 2019-03-25T13:42:07Z Merged pull request |-\|/-| 907 +44 −42 yml md Dockerfile scala xml 9|-\|/-| 
+Deal with channels with fees=0 when computing a route |-\|/-| 2019-03-26T13:00:16Z Merged pull request |-\|/-| 905 +88 −4 scala 3|-\|/-| 
+Ensure the cost function in path-finding is monotonic |-\|/-| 2019-03-20T09:43:49Z Merged pull request |-\|/-| 904 +31 −1 scala 2|-\|/-| 
+Rework router data structures |-\|/-| 2019-08-28T14:58:50Z Merged pull request |-\|/-| 902 +486 −401 scala 7|-\|/-| 
+Minor fixes (dependencies, unit tests) |-\|/-| 2019-03-15T11:54:34Z Merged pull request |-\|/-| 901 +2 −2 scala xml 2|-\|/-| 
+Disable route randomization by default |-\|/-| 2019-03-19T10:31:09Z Closed pull request |-\|/-| 900 +1 −1 conf 1|-\|/-| 
+Extended queries optional |-\|/-| 2019-08-28T13:03:56Z Merged pull request |-\|/-| 899 +1,311 −366 conf scala 4|-\|/-| 
+Replace `BinaryData` by `scodec.bits.ByteVector` |-\|/-| 2019-03-14T11:43:28Z Merged pull request |-\|/-| 896 +2,570 −2,708 scala 6|-\|/-| 
+Rework route params |-\|/-| 2019-03-13T17:58:56Z Merged pull request |-\|/-| 895 +14 −13 scala 5|-\|/-| 
+API: replace JSON-RPC by named parameters |-\|/-| 2019-03-26T17:10:09Z Merged pull request |-\|/-| 894 +1,334 −842 md bash-completion 1|-\|/-| 
+Better error logs for socks5 proxy |-\|/-| 2019-03-12T12:37:28Z Merged pull request |-\|/-| 893 +24 −4 scala 2|-\|/-| 
+Better logic for sending `channel_updates` |-\|/-| 2019-03-18T13:39:30Z Merged pull request |-\|/-| 888 +59 −12 scala xml 3|-\|/-| 
+Support option_simplified_commitment |-\|/-| 2019-09-10T15:45:55Z Closed pull request |-\|/-| 887 +1,073 −402 xml scala 4|-\|/-| 
+NetworkDb: remove stale channels in batch |-\|/-| 2019-03-12T12:34:41Z Merged pull request |-\|/-| 886 +56 −26 scala 4|-\|/-| 
+Add a proper payments database |-\|/-| 2019-04-16T15:03:21Z Merged pull request |-\|/-| 885 +1,263 −567 eclair-core/eclair-cli conf scala 9|-\|/-| 
+Send events when HTLCs settle on-chain |-\|/-| 2019-04-03T09:41:09Z Merged pull request |-\|/-| 884 +183 −25 scala 8|-\|/-| 
+Electrum: use current change address as channel closing address |-\|/-| 2019-03-06T08:27:43Z Closed pull request |-\|/-| 883 +40 −1 scala 3|-\|/-| 
+Improve instructions in the readme. |-\|/-| 2019-03-01T10:15:07Z Closed pull request |-\|/-| 881 +1 −0 md 0|-\|/-| 
+Set default `to-remote-delay-blocks` to 720 |-\|/-| 2019-02-25T17:00:18Z Merged pull request |-\|/-| 879 +14 −3 conf scala 2|-\|/-| 
+Use ypub prefix for Electrum xpub |-\|/-| 2019-02-21T15:25:55Z Merged pull request |-\|/-| 875 +3 −4 scala 2|-\|/-| 
+Electrum fixes |-\|/-| 2019-02-19T10:06:37Z Merged pull request |-\|/-| 873 +56 −21 scala 5|-\|/-| 
+Actively clean the routing table in payment lifecycle |-\|/-| 2019-02-18T15:34:24Z Closed pull request |-\|/-| 872 +19 −9 scala 1|-\|/-| 
+Fixed computation of available balance |-\|/-| 2019-02-18T17:48:02Z Merged pull request |-\|/-| 868 +3 −2 scala 2|-\|/-| 
+Extended API for fine-grained payment tracking |-\|/-| 2019-04-15T13:24:56Z Closed pull request |-\|/-| 867 +549 −140 scala 2|-\|/-| 
+Faster gui startup |-\|/-| 2019-02-14T14:01:20Z Merged pull request |-\|/-| 863 +124 −63 scala 6|-\|/-| 
+Support all-uppercase payment requests |-\|/-| 2019-02-12T19:37:54Z Merged pull request |-\|/-| 862 +10 −3 scala 2|-\|/-| 
+Update bitcoin-lib to 0.9.19 |-\|/-| 2019-02-12T15:15:33Z Merged pull request |-\|/-| 861 +1 −1 xml 1|-\|/-| 
+Fix discrepancy between config keys |-\|/-| 2019-02-12T10:39:24Z Merged pull request |-\|/-| 860 +2 −2 scala 2|-\|/-| 
+Make sure the path-finding algorithm can't use a channel twice in a route |-\|/-| 2019-02-12T15:49:19Z Merged pull request |-\|/-| 857 +27 −17 scala 2|-\|/-| 
+Reimplemented BOLT 11 with scodec |-\|/-| 2019-02-11T18:45:57Z Merged pull request |-\|/-| 856 +332 −581 xml scala 3|-\|/-| 
+Increased max-to-local-delay-blocks to 2016 |-\|/-| 2019-02-08T14:11:22Z Merged pull request |-\|/-| 853 +1 −1 conf 1|-\|/-| 
+Update jeromq dependency |-\|/-| 2019-02-21T15:02:40Z Merged pull request |-\|/-| 852 +4 −4 xml scala 2|-\|/-| 
+Allow to disable route randomization |-\|/-| 2019-02-05T16:35:48Z Merged pull request |-\|/-| 851 +24 −16 conf scala 7|-\|/-| 
+Always select direct channel if there is one to the target |-\|/-| 2019-02-05T13:00:32Z Merged pull request |-\|/-| 850 +7 −4 scala 2|-\|/-| 
+Improve Electrum start-up time |-\|/-| 2019-02-08T10:28:39Z Merged pull request |-\|/-| 848 +331 −126 scala 8|-\|/-| 
+Use OpenJDK 11 as default JDK |-\|/-| 2019-02-21T14:11:44Z Merged pull request |-\|/-| 846 +34 −22 yml md xml scala 5|-\|/-| 
+Parametric route search |-\|/-| 2019-02-11T17:30:05Z Merged pull request |-\|/-| 844 +307 −205 conf scala 4|-\|/-| 
+[WIP] Use a single link to represent multiple channels between two nodes |-\|/-| 2019-01-31T17:23:44Z Closed pull request |-\|/-| 843 +40 −28 scala 2|-\|/-| 
+Optional route randomization |-\|/-| 2019-01-30T14:21:23Z Merged pull request |-\|/-| 842 +15 −14 scala 3|-\|/-| 
+Optional route randomization |-\|/-| 2019-01-30T13:50:36Z Closed pull request |-\|/-| 841 +60 −46 md scala 2|-\|/-| 
+Stop disconnected peer when it has no channels |-\|/-| 2019-02-08T12:29:47Z Merged pull request |-\|/-| 840 +70 −48 scala 5|-\|/-| 
+Proper handling of gossiped channels being spent |-\|/-| 2019-01-31T15:03:02Z Merged pull request |-\|/-| 838 +72 −81 scala 8|-\|/-| 
+Set timestamp filter lower bound to current time |-\|/-| 2019-01-28T14:58:36Z Merged pull request |-\|/-| 837 +5 −2 scala 1|-\|/-| 
+Replace initialization futures Future[Boolean] by Future[Done] |-\|/-| 2019-01-29T09:25:12Z Merged pull request |-\|/-| 836 +21 −16 scala 4|-\|/-| 
+Ignore reconnections requests to the same peer with the same address |-\|/-| 2019-01-29T17:38:42Z Merged pull request |-\|/-| 835 +19 −9 scala 1|-\|/-| 
+ChannelSelectionSpec: use akka.event.NoLogging |-\|/-| 2019-01-23T20:18:49Z Merged pull request |-\|/-| 834 +2 −3 scala 1|-\|/-| 
+Fix flaky test in IntegrationSpec |-\|/-| 2019-01-22T16:49:12Z Merged pull request |-\|/-| 832 +9 −4 scala 1|-\|/-| 
+Impose a max length of 32 bytes on UTF-8 encoded aliases |-\|/-| 2019-01-17T18:23:09Z Merged pull request |-\|/-| 828 +57 −1 scala 2|-\|/-| 
+Add balance and channel lifecycle events to the audit db |-\|/-| 2019-02-08T09:41:10Z Merged pull request |-\|/-| 827 +126 −11 scala 7|-\|/-| 
+Upgrade to bitcoin 0.17.1 |-\|/-| 2019-03-19T13:57:04Z Merged pull request |-\|/-| 826 +92 −57 xml scala conf sh 10|-\|/-| 
+Electrum: improve error handling |-\|/-| 2019-01-17T19:59:08Z Merged pull request |-\|/-| 825 +42 −24 scala 2|-\|/-| 
+Routing heuristics |-\|/-| 2019-02-22T17:43:21Z Merged pull request |-\|/-| 821 +430 −186 conf scala 7|-\|/-| 
+[WIP] JDK10/11 compatiblity: use Scala 2.11.12 |-\|/-| 2019-01-31T15:22:06Z Closed pull request |-\|/-| 820 +2 −1 xml 1|-\|/-| 
+Fix findroute documentation  |-\|/-| 2019-01-16T17:35:54Z Merged pull request |-\|/-| 817 +7 −3 md scala eclair-core/src/test/resources/api/help 2|-\|/-| 
+Fix  `short_channel_id` parsing and add RPC API test |-\|/-| 2019-01-11T13:59:33Z Merged pull request |-\|/-| 815 +325 −3 xml scala eclair-core/src/test/resources/api/close eclair-core/src/test/resources/api/getinfo eclair-core/src/test/resources/api/help eclair-core/src/test/resources/api/peers 10|-\|/-| 
+Compute the k-shortest routes |-\|/-| 2019-01-17T20:15:52Z Merged pull request |-\|/-| 813 +295 −56 scala 2|-\|/-| 
+Update bash completion |-\|/-| 2019-01-18T12:45:34Z Merged pull request |-\|/-| 811 +1 −1 bash-completion 1|-\|/-| 
+Monitoring of Eventbus and Gauges on Channels/Nodes |-\|/-| 2019-09-06T16:43:18Z Closed pull request |-\|/-| 809 +293 −11 xml scala 8|-\|/-| 
+WIP - Database Performance Monitoring |-\|/-| 2019-09-06T16:41:20Z Closed pull request |-\|/-| 806 +245 −10 xml scala 9|-\|/-| 
+Allow access to audit of transactions from API |-\|/-| 2019-01-17T13:12:49Z Closed pull request |-\|/-| 805 +54 −0 md scala 4|-\|/-| 
+Add more details to `checkpayment` API call |-\|/-| 2019-04-12T20:21:36Z Closed pull request |-\|/-| 802 +24 −4 scala eclair-core/src/test/resources/api/help 4|-\|/-| 
+GUI Improvements |-\|/-| 2019-01-14T15:53:53Z Merged pull request |-\|/-| 801 +311 −192 md scala css fxml 5|-\|/-| 
+Add JSON serializer for PaymentRequest |-\|/-| 2019-01-17T14:46:02Z Merged pull request |-\|/-| 798 +27 −5 md scala eclair-core/src/test/resources/api/help 4|-\|/-| 
+Compute routes backward |-\|/-| 2019-01-11T16:20:02Z Merged pull request |-\|/-| 797 +290 −82 md scala 4|-\|/-| 
+Limit CLTV value to 2016 |-\|/-| 2019-01-03T15:59:27Z Merged pull request |-\|/-| 795 +9 −2 scala 3|-\|/-| 
+Use BOLT specific formatting for short channel id |-\|/-| 2019-01-02T13:40:24Z Merged pull request |-\|/-| 793 +8 −1 scala 2|-\|/-| 
+Fire together wire together |-\|/-| 2019-01-17T16:22:34Z Closed pull request |-\|/-| 792 +229 −79 scala 5|-\|/-| 
+Take channel age and capacity into account when calculating an edge weight |-\|/-| 2019-01-17T16:23:17Z Closed pull request |-\|/-| 791 +93 −36 scala 9|-\|/-| 
+Tweak parameters to optimize ElectrumClient connections |-\|/-| 2018-12-20T13:14:24Z Merged pull request |-\|/-| 788 +7 −0 scala 1|-\|/-| 
+Cleaned up mainnet electrum servers list |-\|/-| 2018-12-18T16:21:29Z Merged pull request |-\|/-| 786 +0 −94 json 1|-\|/-| 
+Relay to channel with lowest possible balance |-\|/-| 2019-01-21T21:08:59Z Merged pull request |-\|/-| 784 +131 −20 xml scala 7|-\|/-| 
+NioEventLoopGroup is shared with all clients in ElectrumClient |-\|/-| 2018-12-14T10:44:12Z Merged pull request |-\|/-| 783 +5 −3 scala 1|-\|/-| 
+Make ping less aggressive |-\|/-| 2019-01-11T18:16:37Z Merged pull request |-\|/-| 782 +47 −20 conf scala 4|-\|/-| 
+Add exclusive locks to channels sqlite db |-\|/-| 2019-01-03T10:01:54Z Merged pull request |-\|/-| 781 +40 −1 scala 14|-\|/-| 
+Routing: use custom implementation for the shortest path algorithm and the graph |-\|/-| 2018-12-20T15:52:43Z Merged pull request |-\|/-| 779 +798 −272 xml scala 3|-\|/-| 
+Optional per-node features in conf |-\|/-| 2018-12-12T15:02:52Z Merged pull request |-\|/-| 778 +26 −2 conf scala 4|-\|/-| 
+Electrum: download, verify and store headers |-\|/-| 2019-01-11T13:08:46Z Merged pull request |-\|/-| 776 +5,371 −252 json scala 5|-\|/-| 
+Use netty to connect to Electrum servers |-\|/-| 2018-12-11T17:13:39Z Merged pull request |-\|/-| 774 +267 −195 xml scala 2|-\|/-| 
+[WIP] Routing improvements |-\|/-| 2018-12-12T15:12:11Z Closed pull request |-\|/-| 771 +947 −152 md scala 2|-\|/-| 
+Wait for Router to be initialized |-\|/-| 2018-12-04T14:37:52Z Merged pull request |-\|/-| 769 +12 −4 conf scala 3|-\|/-| 
+Make maxHtlcValueInFlight checks directional |-\|/-| 2018-12-12T14:59:32Z Merged pull request |-\|/-| 768 +7 −7 scala 1|-\|/-| 
+Watch future remote commit on restore |-\|/-| 2018-11-23T15:38:08Z Merged pull request |-\|/-| 766 +3 −1 scala 1|-\|/-| 
+Update connection-level features at reconnection |-\|/-| 2018-12-12T14:12:18Z Merged pull request |-\|/-| 765 +65 −31 scala 7|-\|/-| 
+Switch sttp backend async-http-client -> okhttp |-\|/-| 2018-11-23T10:58:24Z Merged pull request |-\|/-| 764 +10 −9 xml scala 5|-\|/-| 
+Disable local channels below reserve |-\|/-| 2019-01-03T13:02:40Z Merged pull request |-\|/-| 763 +57 −6 scala 5|-\|/-| 
+Auto probing of local channels |-\|/-| 2019-01-18T13:39:07Z Merged pull request |-\|/-| 762 +110 −15 conf scala 8|-\|/-| 
+Disconnect peer after a timeout when waiting for revocation |-\|/-| 2018-12-07T13:49:52Z Merged pull request |-\|/-| 761 +85 −4 conf scala 5|-\|/-| 
+Detect broken HTLC links at startup |-\|/-| 2019-01-04T16:34:51Z Merged pull request |-\|/-| 757 +183 −28 scala 4|-\|/-| 
+Disconnect peer if it does not reply to our Ping messages |-\|/-| 2018-11-20T13:03:47Z Merged pull request |-\|/-| 755 +175 −110 0|-\|/-| 
+Relay fail messages *after* they are cross-signed |-\|/-| 2019-01-02T15:44:06Z Merged pull request |-\|/-| 754 +309 −171 scala 3|-\|/-| 
+Fail outgoing messages if peer is not communicating |-\|/-| 2018-11-15T12:00:46Z Closed pull request |-\|/-| 753 +0 −0 0|-\|/-| 
+Updated readme.md |-\|/-| 2018-11-13T16:35:17Z Merged pull request |-\|/-| 750 +5 −2 md eclair-core/eclair-cli 1|-\|/-| 
+Reject received payments where PaymentRequest Expiry Tag time has been exceeded. |-\|/-| 2018-11-15T13:08:28Z Merged pull request |-\|/-| 749 +129 −84 scala 7|-\|/-| 
+Handle on-chain refund events for HTLCs |-\|/-| 2019-01-05T12:27:17Z Closed pull request |-\|/-| 747 +397 −91 scala 3|-\|/-| 
+Update Android branch |-\|/-| 2018-10-25T15:50:49Z Merged pull request |-\|/-| 746 +4,439 −4,328 yml md Dockerfile eclair-core/eclair-cli xml scala 6|-\|/-| 
+Add payment hash to `HtlcTimeoutTx` in backwards compatible way |-\|/-| 2018-11-22T10:26:58Z Closed pull request |-\|/-| 744 +183 −82 scala 1|-\|/-| 
+Use different ZMQ block and tx subscriptions |-\|/-| 2018-10-25T12:28:28Z Merged pull request |-\|/-| 743 +16 −9 md conf scala 4|-\|/-| 
+Always add 1 block to the `finalCltvExpiry` |-\|/-| 2018-10-23T15:31:23Z Merged pull request |-\|/-| 742 +4 −4 scala 2|-\|/-| 
+Fix encoding of FinalIncorrectHtlcAmount error message |-\|/-| 2018-10-19T15:58:21Z Merged pull request |-\|/-| 740 +1 −1 scala 1|-\|/-| 
+Support for custom Electrum server |-\|/-| 2018-10-23T17:07:21Z Merged pull request |-\|/-| 739 +18 −9 scala 1|-\|/-| 
+Add `htlcMaximumMsat` field to `ChannelUpdate` message |-\|/-| 2018-10-19T15:47:14Z Merged pull request |-\|/-| 738 +172 −130 scala 6|-\|/-| 
+Support for Tor onion services |-\|/-| 2019-02-08T09:19:00Z Merged pull request |-\|/-| 736 +1,746 −160 md xml conf scala 4|-\|/-| 
+Add instructions for Bitcoin Core 0.17.0 [ci skip] |-\|/-| 2018-10-15T12:28:20Z Merged pull request |-\|/-| 732 +32 −4 md 0|-\|/-| 
+Simplify bitcoind version check |-\|/-| 2018-10-11T16:54:13Z Merged pull request |-\|/-| 731 +2 −2 scala 1|-\|/-| 
+Update scalatest and remove junit runner |-\|/-| 2018-10-11T17:01:42Z Merged pull request |-\|/-| 728 +3,703 −4,031 yml md Dockerfile xml scala 23|-\|/-| 
+Only persist htlcs above remote's `dust_limit` |-\|/-| 2018-10-15T12:46:52Z Merged pull request |-\|/-| 724 +60 −9 scala 6|-\|/-| 
+Fixed regression caused by 7a4f175 |-\|/-| 2018-09-24T17:41:27Z Merged pull request |-\|/-| 722 +24 −3 scala 3|-\|/-| 
+Logging: use a rolling file appender |-\|/-| 2018-09-24T18:00:37Z Merged pull request |-\|/-| 721 +10 −4 scala xml 2|-\|/-| 
+Use sttp lib instead of akka-http-client |-\|/-| 2018-10-25T14:45:28Z Merged pull request |-\|/-| 720 +71 −91 xml scala 15|-\|/-| 
+Handle update relay fee in OFFLINE state |-\|/-| 2018-09-24T11:59:02Z Merged pull request |-\|/-| 719 +54 −5 scala 5|-\|/-| 
+Improved eclair-cli |-\|/-| 2018-09-24T09:49:07Z Merged pull request |-\|/-| 718 +3 −5 eclair-core/eclair-cli 1|-\|/-| 
+Fix handling of born again channels |-\|/-| 2018-09-20T14:17:16Z Merged pull request |-\|/-| 717 +46 −12 scala 2|-\|/-| 
+Fix handling of "born again" channels |-\|/-| 2018-09-20T13:01:54Z Closed pull request |-\|/-| 716 +564 −71 conf scala 6|-\|/-| 
+Tests: use bitcoind 0.16.3 |-\|/-| 2018-09-20T14:37:57Z Merged pull request |-\|/-| 715 +10 −10 xml scala 2|-\|/-| 
+Clean channels with unexisting funding tx |-\|/-| 2019-03-06T10:10:41Z Merged pull request |-\|/-| 714 +382 −29 scala 4|-\|/-| 
+Fixed regression in rebroadcast  |-\|/-| 2018-09-19T14:42:10Z Merged pull request |-\|/-| 713 +145 −152 scala 7|-\|/-| 
+Routing sync fixes |-\|/-| 2018-09-19T15:35:22Z Merged pull request |-\|/-| 712 +51 −18 scala 2|-\|/-| 
+Make `publishTransaction` idempotent |-\|/-| 2018-09-20T15:22:39Z Merged pull request |-\|/-| 711 +137 −6 scala 3|-\|/-| 
+Improve integration tests |-\|/-| 2018-09-18T15:03:51Z Merged pull request |-\|/-| 710 +12 −2 yml scala 3|-\|/-| 
+Replace `update_fee` in commitments |-\|/-| 2018-09-20T14:18:17Z Merged pull request |-\|/-| 709 +31 −2 scala 2|-\|/-| 
+Ignore 'origin htlc not found' in CLOSING |-\|/-| 2018-09-20T14:12:39Z Merged pull request |-\|/-| 708 +25 −9 scala 1|-\|/-| 
+Set default `max-htlc-value-in-flight-msat` to 50mBTC |-\|/-| 2018-09-18T15:04:12Z Merged pull request |-\|/-| 707 +1 −1 conf 1|-\|/-| 
+Remember pruned channels |-\|/-| 2018-09-17T16:30:11Z Merged pull request |-\|/-| 706 +83 −116 scala 5|-\|/-| 
+Ignore bad announcements sent by peers |-\|/-| 2018-09-17T15:12:42Z Merged pull request |-\|/-| 705 +290 −128 scala 4|-\|/-| 
+Correctly handle multiple channel_range_replies |-\|/-| 2018-09-17T13:25:39Z Merged pull request |-\|/-| 704 +95 −115 scala 4|-\|/-| 
+ShortChannelId: use block height, tx index, output index explicitely |-\|/-| 2018-09-17T11:37:32Z Closed pull request |-\|/-| 702 +32 −33 scala 7|-\|/-| 
+Added `LocalCommitConfirmed` event |-\|/-| 2018-09-17T15:09:51Z Merged pull request |-\|/-| 701 +15 −6 scala 3|-\|/-| 
+Switched commitment log level to info (minor) |-\|/-| 2018-09-12T17:13:40Z Merged pull request |-\|/-| 700 +9 −12 scala xml 3|-\|/-| 
+Added catch-all handler for local commit (minor) |-\|/-| 2018-09-12T18:25:22Z Merged pull request |-\|/-| 699 +5 −1 scala 1|-\|/-| 
+Handle overriden htlcs in remote close scenario |-\|/-| 2018-09-12T16:24:19Z Merged pull request |-\|/-| 697 +50 −11 scala 3|-\|/-| 
+Improve startup error handling |-\|/-| 2018-09-17T13:29:44Z Merged pull request |-\|/-| 696 +31 −12 scala 2|-\|/-| 
+Extend API and websocket |-\|/-| 2019-02-14T10:39:06Z Closed pull request |-\|/-| 694 +916 −195 conf scala 6|-\|/-| 
+Multiple fixes in payment lifecycle |-\|/-| 2018-09-11T16:07:25Z Merged pull request |-\|/-| 693 +161 −27 scala 6|-\|/-| 
+Fixed htlc absolute expiry checks |-\|/-| 2018-09-03T15:49:37Z Merged pull request |-\|/-| 687 +9 −69 scala 3|-\|/-| 
+Removed max body size in http client |-\|/-| 2018-08-31T13:46:42Z Merged pull request |-\|/-| 686 +17 −25 scala conf 3|-\|/-| 
+Mention Docker in our build instructions (fixes #669) |-\|/-| 2018-09-03T16:03:41Z Merged pull request |-\|/-| 685 +10 −2 md 0|-\|/-| 
+Add a "smooth" fee provider |-\|/-| 2018-08-30T15:46:18Z Merged pull request |-\|/-| 684 +92 −5 conf scala 5|-\|/-| 
+Add an issue template |-\|/-| 2018-08-27T16:11:13Z Merged pull request |-\|/-| 683 +19 −0 md 0|-\|/-| 
+Support for bitcoin 0.17.x |-\|/-| 2018-10-11T15:58:10Z Closed pull request |-\|/-| 682 +131 −81 yml xml scala conf 9|-\|/-| 
+Add logging customisation info |-\|/-| 2018-08-30T12:00:24Z Merged pull request |-\|/-| 680 +8 −0 md 0|-\|/-| 
+Add `htlcMaximumMsat` field to `ChannelUpdate` message |-\|/-| 2018-10-17T15:46:38Z Closed pull request |-\|/-| 679 +128 −111 scala 5|-\|/-| 
+Fixed some logs and added `ChannelPersisted` event |-\|/-| 2018-08-15T12:39:19Z Merged pull request |-\|/-| 674 +21 −3 eclair-core/eclair-cli scala 4|-\|/-| 
+Send `query_short_channel_ids` sequentially |-\|/-| 2018-08-15T12:34:46Z Merged pull request |-\|/-| 672 +36 −8 scala 2|-\|/-| 
+Correctly process payment requests with amounts without multiplers |-\|/-| 2018-09-20T15:37:27Z Closed pull request |-\|/-| 670 +7 −0 scala 2|-\|/-| 
+Handle unknown remote commit in recovery logic |-\|/-| 2018-08-10T10:27:10Z Merged pull request |-\|/-| 667 +181 −59 scala 4|-\|/-| 
+ Get full blocks when looking for spending tx  |-\|/-| 2018-08-03T10:17:09Z Merged pull request |-\|/-| 666 +4 −3 scala 1|-\|/-| 
+Send an event when an error occurs in a channel |-\|/-| 2018-07-18T12:45:13Z Merged pull request |-\|/-| 663 +40 −53 scala 2|-\|/-| 
+Fail unsigned outgoing htlcs at CLOSING |-\|/-| 2018-07-31T14:04:56Z Merged pull request |-\|/-| 660 +65 −2 scala 4|-\|/-| 
+Use user-provided fee rate for funding tx |-\|/-| 2018-08-27T14:25:45Z Merged pull request |-\|/-| 658 +16 −13 scala 4|-\|/-| 
+[WIP] Update code to build with Scala 2.12 |-\|/-| 2018-07-23T10:18:17Z Closed pull request |-\|/-| 657 +25 −20 scala xml 10|-\|/-| 
+Use "unsigned long" comparison for short channel ids |-\|/-| 2018-07-16T10:18:39Z Merged pull request |-\|/-| 656 +9 −1 scala 2|-\|/-| 
+Keep track of sent/received/relayed payments and relay/network fees |-\|/-| 2018-07-25T14:47:39Z Merged pull request |-\|/-| 654 +591 −67 md eclair-core/eclair-cli scala 8|-\|/-| 
+Cleanup internal Eclair API |-\|/-| 2019-03-27T17:11:28Z Closed pull request |-\|/-| 653 +519 −172 scala 3|-\|/-| 
+Clean up implicit execution contexts and allow ActorSystem to be pass… |-\|/-| 2018-07-16T12:25:21Z Merged pull request |-\|/-| 652 +31 −22 scala 7|-\|/-| 
+Fixed default min_final_cltv_expiry value |-\|/-| 2018-07-09T09:17:33Z Merged pull request |-\|/-| 650 +2 −2 scala 1|-\|/-| 
+Relay payments to preferred channels |-\|/-| 2018-07-09T10:36:11Z Merged pull request |-\|/-| 648 +259 −130 scala 5|-\|/-| 
+Router: prune channel that our peer does not have |-\|/-| 2018-07-13T15:19:55Z Merged pull request |-\|/-| 647 +163 −25 scala 4|-\|/-| 
+Implement 'listpayment' RPC api |-\|/-| 2018-09-10T14:49:55Z Closed pull request |-\|/-| 646 +282 −2 xml scala eclair-core/src/test/resources/api/getinfo eclair-core/src/test/resources/api/help eclair-core/src/test/resources/api/peers 7|-\|/-| 
+Added context to logs |-\|/-| 2018-07-02T16:25:19Z Merged pull request |-\|/-| 638 +127 −30 scala xml 9|-\|/-| 
+Generate payment request with extra routing information |-\|/-| 2018-06-26T16:35:23Z Merged pull request |-\|/-| 637 +27 −9 scala 3|-\|/-| 
+Fix scala.NotImplementedError when public-ips config parameter contains invalid values |-\|/-| 2018-06-26T16:15:02Z Merged pull request |-\|/-| 635 +5 −4 scala 3|-\|/-| 
+Check when relay fee is insufficient |-\|/-| 2018-06-19T14:58:41Z Merged pull request |-\|/-| 634 +24 −1 scala 2|-\|/-| 
+WIP: Adding hikari connection pool, release db connections back to pool af… |-\|/-| 2019-09-23T13:06:49Z Closed pull request |-\|/-| 633 +552 −178 xml conf scala 12|-\|/-| 
+Adding ability to set expiry when creating a new invoice |-\|/-| 2018-06-19T11:13:08Z Merged pull request |-\|/-| 632 +22 −7 md eclair-core/eclair-cli scala 5|-\|/-| 
+Routing: remove final CLTV expiry check on outgoing HTLCs |-\|/-| 2018-06-14T08:28:47Z Merged pull request |-\|/-| 627 +2 −19 scala 3|-\|/-| 
+Add api call to update channel relay fees updatefee |-\|/-| 2018-06-19T12:09:38Z Merged pull request |-\|/-| 620 +114 −40 md scala fxml 7|-\|/-| 
+add in api calls to allow async sends. Fixes #615 |-\|/-| 2018-09-12T15:36:40Z Closed pull request |-\|/-| 619 +79 −49 md scala 3|-\|/-| 
+Add missing BOLT 2 checks (fixes #613) |-\|/-| 2018-06-18T17:06:15Z Merged pull request |-\|/-| 618 +158 −43 scala 4|-\|/-| 
+Fix Bitcoin JSON RPC client's rounding errors |-\|/-| 2018-07-24T16:43:36Z Merged pull request |-\|/-| 616 +188 −28 scala 6|-\|/-| 
+Replace mvn install with mvn clean install |-\|/-| 2018-06-07T16:08:26Z Closed pull request |-\|/-| 614 +4 −4 md 0|-\|/-| 
+Inform clients about incoming payments via websocket connection |-\|/-| 2018-05-30T13:20:56Z Merged pull request |-\|/-| 610 +29 −2 scala 2|-\|/-| 
+Update electrum testnet server list, and fix flaky client pool tests |-\|/-| 2018-05-25T09:47:23Z Merged pull request |-\|/-| 609 +37 −17 json scala 3|-\|/-| 
+Set a minimum feerate-per-kw of 253 (fixes #602) |-\|/-| 2018-05-30T11:38:41Z Merged pull request |-\|/-| 608 +237 −74 conf scala 7|-\|/-| 
+Filter out non-spendable outputs from bitcoind 'listunspent' call during setup  |-\|/-| 2018-05-22T10:36:02Z Merged pull request |-\|/-| 605 +5 −1 scala 1|-\|/-| 
+Fix maven version to 3.3.9 in docker build |-\|/-| 2018-05-22T13:54:29Z Merged pull request |-\|/-| 604 +4 −4 Dockerfile 1|-\|/-| 
+Set version to 0.2-beta3 |-\|/-| 2018-05-18T13:20:47Z Closed pull request |-\|/-| 601 +4 −4 xml 4|-\|/-| 
+Electrum wallet: fix balance computation issue |-\|/-| 2018-05-18T10:58:49Z Merged pull request |-\|/-| 600 +6 −1 scala 1|-\|/-| 
+Enforce min feerate per byte on regtest |-\|/-| 2018-05-18T09:55:12Z Merged pull request |-\|/-| 595 +1 −1 scala 1|-\|/-| 
+Inform clients about incoming payments via websocket connection |-\|/-| 2018-05-30T11:46:29Z Closed pull request |-\|/-| 594 +28 −2 scala 2|-\|/-| 
+Update Sphinx test vectors |-\|/-| 2018-05-18T09:55:32Z Merged pull request |-\|/-| 593 +10 −9 scala 1|-\|/-| 
+Electrum: add wallet and watcher tests (via Docker) |-\|/-| 2018-06-27T12:34:03Z Merged pull request |-\|/-| 592 +349 −432 yml xml scala 5|-\|/-| 
+Increase startup timeout |-\|/-| 2018-05-18T09:55:54Z Merged pull request |-\|/-| 590 +2 −1 scala conf 2|-\|/-| 
+Fixed conversion: 1 BTC = 1e8 satoshis |-\|/-| 2018-05-04T16:16:31Z Merged pull request |-\|/-| 589 +2 −2 scala 1|-\|/-| 
+Cache serialized network announcements |-\|/-| 2018-05-04T15:32:04Z Merged pull request |-\|/-| 588 +60 −3 scala 4|-\|/-| 
+Check if closing tx is known before handling it |-\|/-| 2018-05-04T12:46:37Z Merged pull request |-\|/-| 587 +4 −4 scala 1|-\|/-| 
+Electrum wallet: export xpub |-\|/-| 2018-05-04T13:06:28Z Merged pull request |-\|/-| 586 +40 −14 scala 3|-\|/-| 
+Fixed \ instead of / in docker commands (acinq/eclair) |-\|/-| 2018-05-04T08:56:46Z Merged pull request |-\|/-| 584 +2 −2 md 0|-\|/-| 
+[WIP] Use latest fast sync scheme |-\|/-| 2018-05-04T09:31:21Z Closed pull request |-\|/-| 583 +334 −202 md xml conf scala 14|-\|/-| 
+Update bitcoin-lib to 0.9.17 |-\|/-| 2018-05-03T12:54:00Z Merged pull request |-\|/-| 582 +4 −4 scala xml 3|-\|/-| 
+Use fallbackAddress tag |-\|/-| 2018-05-04T09:30:54Z Merged pull request |-\|/-| 581 +1 −0 scala 1|-\|/-| 
+Add configurable min funding satoshis limit |-\|/-| 2018-05-03T12:56:08Z Merged pull request |-\|/-| 580 +12 −8 conf scala 6|-\|/-| 
+Remove utxo lock when call to `signrawtransaction` fails |-\|/-| 2018-05-04T12:14:02Z Merged pull request |-\|/-| 579 +113 −31 scala conf 3|-\|/-| 
+Adds minor improvements to find route API |-\|/-| 2018-05-09T11:25:06Z Closed pull request |-\|/-| 576 +24 −12 scala 3|-\|/-| 
+Retrieve and store feerate in satoshi/kB (instead of satoshi/byte) |-\|/-| 2018-04-30T17:21:52Z Merged pull request |-\|/-| 574 +121 −104 conf scala 11|-\|/-| 
+Add json serializers for `NodeAddress` type |-\|/-| 2018-04-23T20:53:06Z Merged pull request |-\|/-| 570 +45 −8 scala 3|-\|/-| 
+Update local `node_announcement` on startup |-\|/-| 2018-04-17T17:21:34Z Merged pull request |-\|/-| 564 +6 −2 scala 1|-\|/-| 
+Log feerates returned by fee providers |-\|/-| 2018-05-04T13:43:14Z Closed pull request |-\|/-| 561 +35 −15 scala 5|-\|/-| 
+Refactor Transactions methods |-\|/-| 2018-04-23T12:46:05Z Closed pull request |-\|/-| 560 +128 −162 scala 2|-\|/-| 
+ Handle IPv4-mapped/tor2/tor3 addresses |-\|/-| 2018-04-16T09:23:49Z Merged pull request |-\|/-| 559 +114 −37 scala 6|-\|/-| 
+Update docker link |-\|/-| 2018-04-13T11:53:31Z Merged pull request |-\|/-| 557 +1 −1 md 0|-\|/-| 
+Add server address in ElectrumReady object |-\|/-| 2018-05-30T16:53:08Z Merged pull request |-\|/-| 556 +26 −23 scala 5|-\|/-| 
+Correctly extract `pubkeyScript` from witness data |-\|/-| 2018-04-11T10:01:52Z Merged pull request |-\|/-| 555 +46 −1 scala 2|-\|/-| 
+Resolve Electrum server address only when connecting |-\|/-| 2018-04-10T16:49:58Z Merged pull request |-\|/-| 554 +3 −3 scala 1|-\|/-| 
+Support signing multiple similar/identical HTLCs |-\|/-| 2018-04-11T13:44:40Z Merged pull request |-\|/-| 553 +177 −54 scala 3|-\|/-| 
+Send `channel_update` once every 7 days instead of every day |-\|/-| 2018-04-03T17:36:02Z Merged pull request |-\|/-| 532 +1 −1 scala 1|-\|/-| 
+Accept bech32 addresses |-\|/-| 2018-04-03T18:35:06Z Merged pull request |-\|/-| 531 +117 −32 scala conf 8|-\|/-| 
+Enforce a minimum fee rate |-\|/-| 2018-04-03T17:43:38Z Merged pull request |-\|/-| 530 +120 −103 conf scala 13|-\|/-| 
+Electrum: fix signature bug |-\|/-| 2018-03-29T18:20:40Z Merged pull request |-\|/-| 524 +1 −1 scala 1|-\|/-| 
+Use bitcoin-lib 0.16 |-\|/-| 2018-03-28T18:41:39Z Merged pull request |-\|/-| 519 +1 −1 xml 1|-\|/-| 
+Extend penalty to stealing HTLC outputs |-\|/-| 2018-03-28T16:18:43Z Merged pull request |-\|/-| 517 +544 −156 scala 3|-\|/-| 
+Upgrade to bitcoin-lib 0.9.15 |-\|/-| 2018-03-27T13:04:58Z Merged pull request |-\|/-| 516 +3 −3 scala xml 2|-\|/-| 
+Added json serializers to handle payment failures |-\|/-| 2018-03-27T12:06:53Z Merged pull request |-\|/-| 515 +25 −9 scala 2|-\|/-| 
+Upgrade to Bitcoin Core 0.16 |-\|/-| 2018-03-26T18:56:52Z Merged pull request |-\|/-| 514 +40 −61 md xml scala conf 8|-\|/-| 
+Add support for mainnet |-\|/-| 2018-03-28T18:21:20Z Merged pull request |-\|/-| 513 +484 −103 md json 1|-\|/-| 
+Updated dependencies |-\|/-| 2018-03-26T15:36:34Z Merged pull request |-\|/-| 512 +4 −4 xml 2|-\|/-| 
+Update Funding tx id value in GUI when funding is signed |-\|/-| 2018-03-28T15:27:20Z Merged pull request |-\|/-| 511 +8 −1 scala 1|-\|/-| 
+Fixed race condition in `ElectrumClient` |-\|/-| 2018-03-24T10:37:15Z Merged pull request |-\|/-| 509 +3 −2 scala 1|-\|/-| 
+Use `lnbcrt` prefix for regtest |-\|/-| 2018-03-23T21:51:03Z Merged pull request |-\|/-| 508 +13 −12 scala 1|-\|/-| 
+Cleanup some TODOs |-\|/-| 2018-03-23T19:25:10Z Merged pull request |-\|/-| 507 +27 −39 scala 11|-\|/-| 
+Electrum: add a `send all balance` method |-\|/-| 2018-03-23T15:10:20Z Merged pull request |-\|/-| 506 +68 −8 scala 3|-\|/-| 
+Initial version of audit logger |-\|/-| 2018-07-25T14:48:03Z Closed pull request |-\|/-| 505 +1,750 −296 md conf scala 5|-\|/-| 
+Add json serializers to the API |-\|/-| 2018-03-23T18:33:18Z Merged pull request |-\|/-| 504 +24 −21 scala 4|-\|/-| 
+Use a pool of Electrum servers |-\|/-| 2018-03-23T19:41:28Z Merged pull request |-\|/-| 500 +367 −116 scala 2|-\|/-| 
+Added a 1s delay when API password check fails |-\|/-| 2018-03-23T18:26:25Z Merged pull request |-\|/-| 498 +99 −96 scala 2|-\|/-| 
+Added copyright notice to all files |-\|/-| 2018-03-21T15:29:43Z Merged pull request |-\|/-| 497 +3,372 −19 LICENSE xml scala 20|-\|/-| 
+Track version of each logical database |-\|/-| 2018-03-23T19:07:09Z Merged pull request |-\|/-| 495 +41 −3 scala 6|-\|/-| 
+Set a configurable `maxPaymentFee` as safety |-\|/-| 2018-03-22T18:17:17Z Merged pull request |-\|/-| 493 +116 −64 conf scala 11|-\|/-| 
+Update link to latest release |-\|/-| 2018-03-20T16:23:35Z Merged pull request |-\|/-| 492 +2 −2 md 0|-\|/-| 
+build: Specify that we need at least 1.8u161 to build |-\|/-| 2018-03-20T15:40:21Z Merged pull request |-\|/-| 491 +1 −1 md 0|-\|/-| 
+Specify that we need JRE 1.8u161 or newer |-\|/-| 2018-03-20T15:39:54Z Closed pull request |-\|/-| 490 +1 −1 md 0|-\|/-| 
+Simplified blacklisting of nodes in case of payment failures |-\|/-| 2018-03-19T18:49:37Z Merged pull request |-\|/-| 489 +21 −20 scala 4|-\|/-| 
+Proper cleanup of private channels |-\|/-| 2018-03-19T11:55:41Z Merged pull request |-\|/-| 488 +50 −7 scala 2|-\|/-| 
+Close channel on `BITCOIN_FUNDING_PUBLISH_FAILED` |-\|/-| 2018-03-19T11:59:48Z Merged pull request |-\|/-| 487 +10 −4 scala 3|-\|/-| 
+Added back pressure on TCP writes to Electrum client |-\|/-| 2018-03-21T09:17:06Z Merged pull request |-\|/-| 485 +57 −4 scala 2|-\|/-| 
+Future timeouts should not be handled as failures in frontend |-\|/-| 2018-03-15T18:33:13Z Merged pull request |-\|/-| 484 +63 −52 scala conf xml 6|-\|/-| 
+Better handling of force-closing of channels |-\|/-| 2018-03-15T17:53:15Z Merged pull request |-\|/-| 483 +139 −51 md scala 8|-\|/-| 
+Use default seed for electrum if none is provided |-\|/-| 2018-03-15T10:29:08Z Merged pull request |-\|/-| 482 +4 −6 scala 1|-\|/-| 
+Restore node id key path |-\|/-| 2018-03-14T17:15:08Z Merged pull request |-\|/-| 481 +72 −54 scala 10|-\|/-| 
+Created a type for short channel id, and other minor improvements |-\|/-| 2018-03-13T11:09:29Z Merged pull request |-\|/-| 480 +344 −392 xml scala 11|-\|/-| 
+Addition of API calls checkinvoice and findroute |-\|/-| 2018-03-24T09:51:16Z Merged pull request |-\|/-| 475 +38 −3 md scala 2|-\|/-| 
+Use bitgo API v2 to get network fees |-\|/-| 2018-03-02T17:49:28Z Merged pull request |-\|/-| 473 +14 −7 scala 3|-\|/-| 
+Fixed bug in ignored channel computation |-\|/-| 2018-03-02T17:49:51Z Merged pull request |-\|/-| 472 +65 −13 scala 3|-\|/-| 
+Added check on `to_self_delay` parameter |-\|/-| 2018-03-02T10:25:05Z Merged pull request |-\|/-| 470 +50 −20 conf scala 8|-\|/-| 
+Proper management of expiry-related errors |-\|/-| 2018-03-01T17:48:54Z Merged pull request |-\|/-| 469 +211 −165 scala 9|-\|/-| 
+Update README to work with Bitcoin Core 0.16+ |-\|/-| 2018-03-02T16:12:57Z Merged pull request |-\|/-| 468 +9 −4 md 0|-\|/-| 
+Publish a `ChannelSignatureSent` for each outgoing commitment sig |-\|/-| 2018-03-01T12:53:14Z Merged pull request |-\|/-| 467 +6 −0 scala 2|-\|/-| 
+Made `PaymentSucceeded.amountMsat` include fee |-\|/-| 2018-02-28T16:26:29Z Merged pull request |-\|/-| 466 +4 −4 scala 4|-\|/-| 
+Prune on rebroadcast |-\|/-| 2018-03-01T16:57:53Z Merged pull request |-\|/-| 464 +53 −19 scala 1|-\|/-| 
+Reworked routing algorithm |-\|/-| 2018-03-01T18:42:24Z Merged pull request |-\|/-| 461 +297 −121 scala 4|-\|/-| 
+Improvements & fixes |-\|/-| 2018-02-27T18:36:57Z Merged pull request |-\|/-| 459 +368 −275 md scala 3|-\|/-| 
+Prune on `initial_routing_sync` |-\|/-| 2018-02-26T14:22:45Z Merged pull request |-\|/-| 455 +293 −383 scala 1|-\|/-| 
+Improve initial routing sync |-\|/-| 2018-07-12T19:36:58Z Merged pull request |-\|/-| 453 +740 −147 conf scala 6|-\|/-| 
+Minor fixes |-\|/-| 2018-02-20T17:02:29Z Merged pull request |-\|/-| 452 +71 −54 json scala 8|-\|/-| 
+Better data structures |-\|/-| 2018-02-20T15:42:06Z Merged pull request |-\|/-| 451 +48 −42 scala 14|-\|/-| 
+How to fix javax.net.ssl.SSLHandshakeException during the build process |-\|/-| 2018-03-20T16:17:00Z Closed pull request |-\|/-| 450 +18 −0 md 0|-\|/-| 
+Removed bitcoinj support |-\|/-| 2018-02-20T13:26:39Z Merged pull request |-\|/-| 447 +17 −1,355 xml conf scala 7|-\|/-| 
+bash completion script for eclair-cli |-\|/-| 2018-02-22T19:06:52Z Merged pull request |-\|/-| 443 +39 −0 bash-completion 1|-\|/-| 
+Ignore 'tx already in block chain' errors when publishing a tx |-\|/-| 2018-02-16T16:22:03Z Merged pull request |-\|/-| 441 +6 −6 scala 1|-\|/-| 
+Improved queuing of `initial_routing_sync` requests |-\|/-| 2018-02-16T16:01:40Z Merged pull request |-\|/-| 440 +36 −16 scala 2|-\|/-| 
+Replaced `LoggingFSM` -> `FSM` |-\|/-| 2018-02-16T15:51:11Z Merged pull request |-\|/-| 439 +12 −23 scala conf 5|-\|/-| 
+Add detailed message to remote failures |-\|/-| 2018-02-27T16:28:47Z Merged pull request |-\|/-| 431 +60 −40 scala css fxml 8|-\|/-| 
+Don't send duplicate messages to channels |-\|/-| 2018-02-12T14:05:35Z Merged pull request |-\|/-| 430 +10 −10 scala 1|-\|/-| 
+Batch requests to bitcoind json-rpc api |-\|/-| 2018-02-07T15:58:12Z Merged pull request |-\|/-| 429 +194 −119 scala 8|-\|/-| 
+Added an optional seed to Setup |-\|/-| 2018-02-01T21:04:52Z Merged pull request |-\|/-| 424 +34 −45 scala 6|-\|/-| 
+Better closing tx management |-\|/-| 2018-02-26T12:23:04Z Merged pull request |-\|/-| 423 +179 −105 scala 7|-\|/-| 
+Use TCP pull mode |-\|/-| 2018-02-16T14:49:35Z Merged pull request |-\|/-| 422 +421 −325 scala 9|-\|/-| 
+Store channel funding txid with announcements db |-\|/-| 2018-02-06T17:18:48Z Merged pull request |-\|/-| 421 +65 −35 scala 9|-\|/-| 
+[WIP] Faster routing table sync with bucket counters |-\|/-| 2018-02-23T09:02:24Z Closed pull request |-\|/-| 420 +5,558 −9 xml scala 6|-\|/-| 
+Fix typos |-\|/-| 2018-01-29T17:42:08Z Merged pull request |-\|/-| 417 +78 −78 LICENSE md scala 11|-\|/-| 
+Add channel fees and capacity to Channel GUI |-\|/-| 2018-02-12T16:28:22Z Merged pull request |-\|/-| 416 +174 −120 conf scala fxml 11|-\|/-| 
+Invalidate ports below 0 and above 65535 |-\|/-| 2018-02-06T09:29:39Z Merged pull request |-\|/-| 412 +32 −43 scala 2|-\|/-| 
+Data loss protection |-\|/-| 2018-02-23T14:46:05Z Merged pull request |-\|/-| 410 +326 −61 conf scala 4|-\|/-| 
+Update Readme to elaborate on p2sh error after alpha 9.0 download |-\|/-| 2018-02-05T12:25:45Z Closed pull request |-\|/-| 407 +1 −1 md 0|-\|/-| 
+TCPException message error should be defined |-\|/-| 2018-02-12T14:33:30Z Merged pull request |-\|/-| 401 +4 −3 scala 2|-\|/-| 
+add closeall command |-\|/-| 2018-02-05T12:25:55Z Closed pull request |-\|/-| 400 +8 −0 eclair-core/eclair-cli 1|-\|/-| 
+Various GUI Improvements |-\|/-| 2018-01-23T14:25:54Z Merged pull request |-\|/-| 396 +457 −238 md conf scala fxml css 6|-\|/-| 
+Updated README.me |-\|/-| 2018-01-29T17:40:25Z Merged pull request |-\|/-| 395 +2 −0 md 0|-\|/-| 
+Added quotes to sample parameter value in README.md |-\|/-| 2018-01-29T17:41:40Z Merged pull request |-\|/-| 394 +1 −1 md 0|-\|/-| 
+Always check `maxAttempts` counter when receiving unparseable errors |-\|/-| 2018-01-22T18:05:02Z Merged pull request |-\|/-| 391 +32 −12 scala 2|-\|/-| 
+Explicitely ack all relayed messages |-\|/-| 2018-02-16T15:42:09Z Merged pull request |-\|/-| 390 +450 −262 scala 4|-\|/-| 
+Fix a comment |-\|/-| 2018-01-21T10:47:48Z Merged pull request |-\|/-| 386 +1 −1 scala 1|-\|/-| 
+Fix 'filename too long' compilation error on encrypted file systems |-\|/-| 2018-01-22T16:59:48Z Merged pull request |-\|/-| 385 +2 −0 xml 1|-\|/-| 
+Add getinfo to API help |-\|/-| 2018-01-21T10:41:07Z Merged pull request |-\|/-| 383 +1 −0 scala 1|-\|/-| 
+Make eclair-cli executable |-\|/-| 2018-01-20T22:37:22Z Merged pull request |-\|/-| 382 +0 −0 eclair-core/eclair-cli 1|-\|/-| 
+Fix some comments |-\|/-| 2018-01-21T02:50:17Z Closed pull request |-\|/-| 381 +4 −4 conf scala 2|-\|/-| 
+Include payment preimage in PaymentSent event |-\|/-| 2018-01-22T15:10:17Z Merged pull request |-\|/-| 374 +35 −5 scala fxml 5|-\|/-| 
+Improve key management |-\|/-| 2018-03-01T19:37:40Z Merged pull request |-\|/-| 372 +435 −250 scala 2|-\|/-| 
+Updated username, password and port in readme |-\|/-| 2018-01-18T14:25:13Z Merged pull request |-\|/-| 371 +2 −2 md 0|-\|/-| 
+Remove api.user |-\|/-| 2018-01-15T20:21:55Z Merged pull request |-\|/-| 370 +2 −3 md scala 1|-\|/-| 
+Indicate that wallet mode is needed before exiting |-\|/-| 2018-01-16T15:34:10Z Merged pull request |-\|/-| 368 +4 −0 scala 1|-\|/-| 
+Handle ipv6 addresses |-\|/-| 2018-01-11T19:32:30Z Merged pull request |-\|/-| 367 +248 −141 scala fxml 8|-\|/-| 
+Fix encoding of failure messages (fixes #363) |-\|/-| 2018-01-11T11:08:46Z Merged pull request |-\|/-| 366 +26 −15 scala 2|-\|/-| 
+Fix memory leak and reduce overall memory usage |-\|/-| 2018-01-11T12:09:17Z Merged pull request |-\|/-| 365 +567 −404 scala 3|-\|/-| 
+Update README.md |-\|/-| 2018-01-08T22:21:53Z Merged pull request |-\|/-| 361 +1 −1 md 0|-\|/-| 
+Limit the max TCP packet size to the longest lightning message  |-\|/-| 2018-02-16T14:41:17Z Closed pull request |-\|/-| 360 +23 −1 conf scala 2|-\|/-| 
+Handle mutual close in state `DATA_WAIT_FOR_FUNDING_CONFIRMED` |-\|/-| 2018-09-25T15:24:57Z Closed pull request |-\|/-| 358 +4,940 −650 md LICENSE xml conf scala 10|-\|/-| 
+Fixed eclair-cli |-\|/-| 2018-01-11T18:23:18Z Merged pull request |-\|/-| 354 +380 −265 md eclair-core/eclair-cli conf scala 3|-\|/-| 
+Use same username/password in all examples. |-\|/-| 2017-12-28T17:05:03Z Closed pull request |-\|/-| 350 +5 −3 md 0|-\|/-| 
+Don't blacklist recipient's peer |-\|/-| 2018-01-22T14:16:36Z Closed pull request |-\|/-| 345 +2 −2 scala 1|-\|/-| 
+Make payment request expiry configurable |-\|/-| 2018-01-22T15:55:59Z Merged pull request |-\|/-| 341 +54 −16 conf scala 8|-\|/-| 
+Data loss protection |-\|/-| 2018-01-26T11:29:23Z Closed pull request |-\|/-| 333 +150 −45 conf scala 8|-\|/-| 
+Adding link to https://explorer.acinq.co |-\|/-| 2017-12-23T17:30:30Z Merged pull request |-\|/-| 331 +1 −0 md 0|-\|/-| 
+[GUI] Various gui fixes |-\|/-| 2017-12-22T22:26:30Z Merged pull request |-\|/-| 327 +206 −61 md fxml scala 11|-\|/-| 
+Electrum Wallet: Send ready notification when reconnected |-\|/-| 2017-12-22T20:08:31Z Merged pull request |-\|/-| 324 +124 −25 scala 3|-\|/-| 
+Pre-validation announcements pruning |-\|/-| 2017-12-22T21:18:18Z Merged pull request |-\|/-| 323 +97 −56 scala 6|-\|/-| 
+Improve JSON RPC API error handling |-\|/-| 2017-12-22T20:01:40Z Merged pull request |-\|/-| 322 +195 −105 md eclair-core/eclair-cli scala 2|-\|/-| 
+Electrum: Use actual tx weight when estimating fees (see #303) |-\|/-| 2017-12-22T19:15:47Z Merged pull request |-\|/-| 321 +204 −70 scala 4|-\|/-| 
+Improve logs |-\|/-| 2017-12-22T22:32:35Z Merged pull request |-\|/-| 320 +218 −173 scala 8|-\|/-| 
+Faster search of spending tx when using bitcoind |-\|/-| 2017-12-22T19:39:13Z Merged pull request |-\|/-| 319 +25 −32 scala 3|-\|/-| 
+Reworked peer management |-\|/-| 2017-12-22T22:06:35Z Merged pull request |-\|/-| 316 +370 −261 md eclair-core/eclair-cli scala 6|-\|/-| 
+Add an API method to check if a payment request has been paid |-\|/-| 2017-12-22T17:51:48Z Merged pull request |-\|/-| 312 +191 −18 scala 9|-\|/-| 
+Clarify that `datadir`=`.eclair` in README |-\|/-| 2017-12-21T09:28:36Z Merged pull request |-\|/-| 309 +3 −3 md 0|-\|/-| 
+Upgrade to bitcoin-lib 0.9.14 |-\|/-| 2017-12-20T18:22:58Z Merged pull request |-\|/-| 304 +45 −39 scala 13|-\|/-| 
+Use the correct `toSelfDelay` when claiming funds |-\|/-| 2017-12-20T17:35:31Z Merged pull request |-\|/-| 296 +13 −13 scala 2|-\|/-| 
+Add a custom json serializer for `OutPoint` |-\|/-| 2017-12-18T19:44:48Z Merged pull request |-\|/-| 291 +45 −3 scala 3|-\|/-| 
+Rework `channel_update` management |-\|/-| 2017-12-22T17:28:41Z Merged pull request |-\|/-| 284 +470 −202 scala 5|-\|/-| 
+Put `Sphinx.parse*` function in `Try` blocks |-\|/-| 2017-12-15T18:27:57Z Merged pull request |-\|/-| 283 +104 −59 scala 6|-\|/-| 
+Added more methods in API |-\|/-| 2017-12-15T14:05:23Z Merged pull request |-\|/-| 281 +50 −31 eclair-core/eclair-cli scala 7|-\|/-| 
+Assisted route handling |-\|/-| 2017-12-20T18:14:24Z Merged pull request |-\|/-| 279 +119 −141 scala 9|-\|/-| 
+BOLT11: Implement change in r field |-\|/-| 2017-12-13T14:38:03Z Merged pull request |-\|/-| 277 +28 −17 scala 4|-\|/-| 
+Catch `channel` errors in `relayer` |-\|/-| 2017-12-12T15:12:06Z Merged pull request |-\|/-| 276 +54 −37 scala 5|-\|/-| 
+Handle corner case when relaying to an unknown channel |-\|/-| 2017-12-12T11:30:55Z Merged pull request |-\|/-| 275 +33 −8 scala 2|-\|/-| 
+Cleaned up README and moved instructions to the Wiki |-\|/-| 2018-03-05T11:03:40Z Closed pull request |-\|/-| 274 +56 −142 md 0|-\|/-| 
+Assisted route handling |-\|/-| 2017-12-14T08:52:23Z Closed pull request |-\|/-| 273 +0 −0 0|-\|/-| 
+readme typo correction |-\|/-| 2017-12-09T02:20:35Z Closed pull request |-\|/-| 269 +1 −1 md 0|-\|/-| 
+[GUI] Default unit should be milliBTC |-\|/-| 2017-12-11T18:19:56Z Merged pull request |-\|/-| 268 +76 −29 xml scala 6|-\|/-| 
+Reduce default fees |-\|/-| 2017-12-08T15:24:44Z Merged pull request |-\|/-| 267 +3 −8 conf xml 2|-\|/-| 
+[Gui] Centralize units labels from CoinUtils values |-\|/-| 2017-12-07T17:49:03Z Merged pull request |-\|/-| 261 +6 −18 fxml scala 4|-\|/-| 
+Removed default values for commitid in pom |-\|/-| 2017-12-06T15:10:23Z Merged pull request |-\|/-| 258 +2 −5 Dockerfile xml 2|-\|/-| 
+Remove testnet.hsmiths.com from testnet electrum servers |-\|/-| 2017-12-06T14:47:00Z Merged pull request |-\|/-| 257 +0 −4 json 1|-\|/-| 
+Entrypoint for dockerfile and documentation to setup the eclair.conf |-\|/-| 2017-12-08T14:36:51Z Merged pull request |-\|/-| 256 +26 −2 Dockerfile md 1|-\|/-| 
+Docker support with repeatable builds |-\|/-| 2017-12-05T16:29:47Z Merged pull request |-\|/-| 255 +73 −33 dockerignore Dockerfile xml 6|-\|/-| 
+Add test on signing a single `Updatefee` with no other updates |-\|/-| 2017-12-04T17:41:39Z Merged pull request |-\|/-| 254 +30 −0 conf scala 2|-\|/-| 
+Unified cltv expiry type to Long |-\|/-| 2017-12-04T16:37:11Z Merged pull request |-\|/-| 253 +5 −5 scala 3|-\|/-| 
+Move akka configuration to eclair-node application.conf |-\|/-| 2017-12-04T12:31:06Z Merged pull request |-\|/-| 252 +17 −17 conf 2|-\|/-| 
+Docker support with repeatable builds |-\|/-| 2017-12-05T05:35:53Z Closed pull request |-\|/-| 251 +68 −0 dockerignore Dockerfile 2|-\|/-| 
+Maven command to build eclair-node only |-\|/-| 2017-12-01T12:56:02Z Merged pull request |-\|/-| 250 +7 −3 md 0|-\|/-| 
+Disable dust limit checks on regtest and testnet |-\|/-| 2017-12-01T10:18:17Z Merged pull request |-\|/-| 249 +22 −9 scala 5|-\|/-| 
+Rework mutual closing |-\|/-| 2017-12-06T12:53:10Z Merged pull request |-\|/-| 247 +380 −200 scala 4|-\|/-| 
+Handling optional amount in a Payment Request |-\|/-| 2017-11-30T14:55:30Z Merged pull request |-\|/-| 241 +286 −155 md scala css fxml 10|-\|/-| 
+Added more checks on `open`/`accept` messages |-\|/-| 2017-11-29T17:18:10Z Merged pull request |-\|/-| 240 +129 −38 conf scala fxml 10|-\|/-| 
+[WIP] Shrink README and add detailed help to the Wiki |-\|/-| 2017-12-04T16:48:34Z Closed pull request |-\|/-| 239 +259 −0 md 0|-\|/-| 
+Minor improvements for the CLI |-\|/-| 2017-11-27T19:46:18Z Merged pull request |-\|/-| 238 +6 −3 eclair-core/eclair-cli 1|-\|/-| 
+Added bitgo fee provider |-\|/-| 2017-11-27T17:17:38Z Merged pull request |-\|/-| 237 +124 −2 scala 3|-\|/-| 
+Basic data loss protection |-\|/-| 2017-12-24T11:38:30Z Closed pull request |-\|/-| 235 +153 −43 conf scala 8|-\|/-| 
+Fix concurrent spends with Electrum |-\|/-| 2017-11-29T16:40:08Z Merged pull request |-\|/-| 233 +14 −4 scala 1|-\|/-| 
+ Use tx-output pubkeyscript as hint for electrum watcher |-\|/-| 2017-11-27T11:28:44Z Merged pull request |-\|/-| 232 +1 −1 scala 1|-\|/-| 
+Removed bitcoin-core parent-tx hack |-\|/-| 2017-11-27T14:05:26Z Merged pull request |-\|/-| 231 +209 −221 scala 2|-\|/-| 
+Correctly translates and relay channels errors |-\|/-| 2017-12-06T12:32:07Z Merged pull request |-\|/-| 230 +357 −240 conf scala 6|-\|/-| 
+Check that all UTXOS are p2sh on testnet |-\|/-| 2017-11-27T17:31:00Z Merged pull request |-\|/-| 228 +126 −55 md scala 6|-\|/-| 
+Bolt 11: ignore unknown tags (fixes #206) |-\|/-| 2017-11-24T10:30:37Z Merged pull request |-\|/-| 226 +35 −3 scala 2|-\|/-| 
+bitcoin rpc client: queue requests locally |-\|/-| 2017-11-22T13:48:24Z Merged pull request |-\|/-| 223 +29 −7 scala 1|-\|/-| 
+Reformat + optimized imports |-\|/-| 2017-11-21T19:08:16Z Merged pull request |-\|/-| 222 +589 −452 xml json scala 24|-\|/-| 
+bitcoin rpc client: increase the number of concurrent requests |-\|/-| 2017-11-22T13:48:47Z Closed pull request |-\|/-| 221 +1 −1 conf 1|-\|/-| 
+Fix doc for api call `connect`/`open` |-\|/-| 2017-11-21T18:11:07Z Merged pull request |-\|/-| 220 +4 −4 md scala 1|-\|/-| 
+Prune stale network announcements |-\|/-| 2017-11-21T15:47:03Z Merged pull request |-\|/-| 219 +192 −80 scala 5|-\|/-| 
+Delay `announcement_signatures` when received early |-\|/-| 2017-11-17T13:52:01Z Merged pull request |-\|/-| 217 +71 −23 scala 3|-\|/-| 
+Improved fees management |-\|/-| 2017-11-21T14:59:02Z Merged pull request |-\|/-| 216 +376 −119 conf scala 10|-\|/-| 
+[Android] Support for electrumx API |-\|/-| 2017-11-21T17:25:28Z Merged pull request |-\|/-| 214 +5,503 −1,899 md xml json conf scala 9|-\|/-| 
+Use a separate `htlc_key` to sign 2nd stage htlc txs |-\|/-| 2017-11-17T14:44:45Z Merged pull request |-\|/-| 213 +153 −127 scala 5|-\|/-| 
+[README] Added help for options syntax |-\|/-| 2017-11-14T09:56:11Z Merged pull request |-\|/-| 212 +4 −2 md conf 1|-\|/-| 
+Bitcoin wallet: lock utxos used by funding transactions |-\|/-| 2017-11-10T20:55:14Z Merged pull request |-\|/-| 211 +9 −5 scala 1|-\|/-| 
+Use `min_final_cltv_expiry` included in payment request (if any) |-\|/-| 2017-11-10T18:45:41Z Merged pull request |-\|/-| 210 +12 −4 scala 3|-\|/-| 
+Support for electrumx API |-\|/-| 2017-11-21T17:12:46Z Merged pull request |-\|/-| 208 +2,688 −393 json conf scala 9|-\|/-| 
+Handle remote `error` in `SYNCING` state |-\|/-| 2017-11-14T17:44:26Z Merged pull request |-\|/-| 205 +2 −0 scala 1|-\|/-| 
+Rework channel closing logic |-\|/-| 2017-11-14T17:43:33Z Merged pull request |-\|/-| 204 +460 −238 scala 6|-\|/-| 
+BOLT 11: add an optional 'minimum htlc expiry' tag |-\|/-| 2017-11-06T18:56:08Z Merged pull request |-\|/-| 202 +66 −20 scala 5|-\|/-| 
+Always store channel state when a revocation is received |-\|/-| 2017-10-30T13:54:35Z Merged pull request |-\|/-| 201 +2 −2 scala 1|-\|/-| 
+Add primary key to channel_updates table |-\|/-| 2017-10-30T13:53:47Z Merged pull request |-\|/-| 199 +12 −3 scala 4|-\|/-| 
+Support building payments with extra hops |-\|/-| 2017-11-07T11:08:06Z Merged pull request |-\|/-| 198 +110 −28 scala 9|-\|/-| 
+Have channels subscribe to blockchain events at creation |-\|/-| 2017-10-30T13:53:16Z Merged pull request |-\|/-| 195 +9 −4 scala 1|-\|/-| 
+Better handle big routing table |-\|/-| 2017-11-14T17:44:10Z Merged pull request |-\|/-| 194 +78 −12 scala 4|-\|/-| 
+[WIP] Better handle big routing table |-\|/-| 2017-10-24T12:43:42Z Closed pull request |-\|/-| 193 +78 −12 scala 4|-\|/-| 
+Improved performance of Android router |-\|/-| 2017-10-24T12:30:54Z Merged pull request |-\|/-| 192 +14 −21 scala 1|-\|/-| 
+payment request: encode expiry as a varlen unsigned long |-\|/-| 2017-10-25T08:20:50Z Merged pull request |-\|/-| 188 +58 −17 scala 2|-\|/-| 
+Support multiple hops in RoutingInfoTag |-\|/-| 2017-10-23T13:11:50Z Merged pull request |-\|/-| 185 +42 −16 scala 2|-\|/-| 
+[WIP] [Android] Switch to electrumx API |-\|/-| 2017-11-15T15:28:36Z Closed pull request |-\|/-| 184 +2,366 −1,477 yml xml json scala 7|-\|/-| 
+Rework preimage handling |-\|/-| 2017-11-14T16:21:02Z Merged pull request |-\|/-| 183 +698 −643 scala 10|-\|/-| 
+Store state when receiving a `CommitSig` in state SHUTDOWN |-\|/-| 2017-10-17T11:09:59Z Merged pull request |-\|/-| 181 +1 −1 scala 1|-\|/-| 
+Base checks in `sendAdd` on the *last* sent sig |-\|/-| 2017-10-17T11:09:16Z Merged pull request |-\|/-| 180 +24 −2 scala 2|-\|/-| 
+Added a check amount>dust on `ClaimDelayedOutputTx` |-\|/-| 2017-10-11T14:27:26Z Merged pull request |-\|/-| 177 +100 −67 scala 2|-\|/-| 
+Reworked handling of `shutdown` messages |-\|/-| 2017-10-11T15:53:24Z Merged pull request |-\|/-| 176 +235 −103 scala 1|-\|/-| 
+Added ACK-based TCP write back-pressure |-\|/-| 2017-10-11T14:26:19Z Merged pull request |-\|/-| 174 +71 −15 scala 3|-\|/-| 
+Added an integration test on revoked tx handling |-\|/-| 2017-10-03T16:43:37Z Merged pull request |-\|/-| 172 +62 −6 scala 2|-\|/-| 
+Handle `update_fail_malformed_htlc` in payment FSM |-\|/-| 2017-09-25T14:13:21Z Merged pull request |-\|/-| 170 +141 −21 scala 7|-\|/-| 
+Re-send htlc/sigs after `funding_locked` |-\|/-| 2017-09-22T14:01:18Z Merged pull request |-\|/-| 169 +40 −14 scala 2|-\|/-| 
+Process `update_fail_malformed_htlc` properly |-\|/-| 2017-09-22T09:50:52Z Merged pull request |-\|/-| 168 +24 −10 scala 2|-\|/-| 
+back to 0.2-SNAPHOT |-\|/-| 2017-09-20T13:16:50Z Merged pull request |-\|/-| 166 +9 −6 xml 4|-\|/-| 
+Minor fixes |-\|/-| 2017-09-13T16:35:23Z Merged pull request |-\|/-| 163 +150 −146 scala 3|-\|/-| 
+Skip `Wallet.isRelevant` when bitcoinj is used as a watcher |-\|/-| 2017-09-12T13:07:31Z Merged pull request |-\|/-| 162 +2 −1 scala xml 2|-\|/-| 
+Sphinx: fix version byte |-\|/-| 2017-09-12T12:49:13Z Merged pull request |-\|/-| 161 +2 −2 scala 2|-\|/-| 
+Set a hard-coded timestamp for bitcoinj watched scripts |-\|/-| 2017-09-11T16:40:58Z Merged pull request |-\|/-| 160 +4 −1 scala 1|-\|/-| 
+Now requiring spv nodes to be Segwit-compatible |-\|/-| 2017-09-08T16:07:00Z Merged pull request |-\|/-| 159 +28 −16 scala 5|-\|/-| 
+Replaced sqlite result iterators by lists |-\|/-| 2017-09-08T12:43:44Z Merged pull request |-\|/-| 158 +29 −24 scala 7|-\|/-| 
+Make Integration tests work in macos |-\|/-| 2017-09-12T12:51:43Z Merged pull request |-\|/-| 157 +14 −0 xml 1|-\|/-| 
+Better handling of connection lifecycle in Peer |-\|/-| 2017-09-08T12:32:29Z Merged pull request |-\|/-| 155 +19 −17 scala 2|-\|/-| 
+Temporarily exclude channels from routes |-\|/-| 2017-09-08T11:52:18Z Merged pull request |-\|/-| 154 +85 −35 conf scala 8|-\|/-| 
+(gui) Remove millisatoshis part from milli-bitcoin amounts |-\|/-| 2017-09-07T15:27:48Z Merged pull request |-\|/-| 153 +21 −5 scala 2|-\|/-| 
+Add an experimental SPV mode with bitcoinj |-\|/-| 2017-09-07T15:20:37Z Merged pull request |-\|/-| 152 +2,099 −786 yml xml conf scala 7|-\|/-| 
+Fix byte order of chain hash |-\|/-| 2017-09-06T15:29:40Z Merged pull request |-\|/-| 151 +53 −52 scala 10|-\|/-| 
+Switch to java environment variables instead of command line options |-\|/-| 2017-08-30T11:42:59Z Merged pull request |-\|/-| 149 +63 −95 md scala xml 5|-\|/-| 
+Added a compatibility check with DB files when booting application |-\|/-| 2017-08-28T14:37:45Z Merged pull request |-\|/-| 148 +27 −1 scala 3|-\|/-| 
+Fix 'match may not be exhaustive' warning |-\|/-| 2017-08-28T12:59:31Z Closed pull request |-\|/-| 147 +10 −2 md scala 1|-\|/-| 
+Add chain hash to gossip messages, increase max error message size |-\|/-| 2017-08-28T12:42:45Z Merged pull request |-\|/-| 145 +92 −73 scala 6|-\|/-| 
+Use Sqlite as local database |-\|/-| 2017-08-29T13:35:29Z Merged pull request |-\|/-| 143 +492 −200 xml scala 11|-\|/-| 
+Use logback's MDC to display channelId in logs |-\|/-| 2017-08-25T14:30:01Z Merged pull request |-\|/-| 142 +33 −4 scala xml 4|-\|/-| 
+Renamed javafx module to `eclair-node-gui` and updated binaries name |-\|/-| 2017-08-23T17:28:19Z Merged pull request |-\|/-| 137 +63 −44 md xml bmp ico css png fxml scala 51|-\|/-| 
+Fix node announcement encoding (see #124) |-\|/-| 2017-08-23T14:58:05Z Merged pull request |-\|/-| 136 +4 −1 scala 1|-\|/-| 
+Add API method to accept requests with custom amount |-\|/-| 2017-08-25T11:38:15Z Merged pull request |-\|/-| 135 +10 −2 md scala 1|-\|/-| 
+(API) Added an `allchannels` API method to expose all known channels |-\|/-| 2017-08-23T12:14:33Z Merged pull request |-\|/-| 133 +11 −6 md scala 1|-\|/-| 
+Update bitcoin-lib dependency to 0.9.13 |-\|/-| 2017-08-23T12:16:07Z Merged pull request |-\|/-| 132 +1 −1 xml 1|-\|/-| 
+Replace getinfo with getnetworkinfo |-\|/-| 2017-08-24T09:15:14Z Merged pull request |-\|/-| 131 +2 −2 scala 2|-\|/-| 
+Improved Configuration section in README |-\|/-| 2017-08-16T17:53:56Z Merged pull request |-\|/-| 129 +4 −2 md 0|-\|/-| 
+Reorder features fields to match the BOLTS |-\|/-| 2017-08-23T09:29:47Z Merged pull request |-\|/-| 127 +12 −12 scala 4|-\|/-| 
+Improved reconnection logic and fuzzy tests |-\|/-| 2017-08-10T14:24:06Z Merged pull request |-\|/-| 123 +178 −145 scala xml 7|-\|/-| 
+Bugfix: regression in init |-\|/-| 2017-08-23T10:13:18Z Merged pull request |-\|/-| 120 +83 −30 scala 4|-\|/-| 
+(gui) Fix direction icons in the list of the known channels in network |-\|/-| 2017-08-17T11:04:43Z Merged pull request |-\|/-| 119 +30 −20 md scala 2|-\|/-| 
+Bugfixes and minor improvements |-\|/-| 2017-07-26T16:57:32Z Merged pull request |-\|/-| 117 +363 −351 md eclair-core/eclair-cli scala 3|-\|/-| 
+Add description to receive in help menu |-\|/-| 2017-07-22T16:16:17Z Merged pull request |-\|/-| 114 +1 −1 scala 1|-\|/-| 
+Update with description to receive method |-\|/-| 2017-07-22T16:14:53Z Merged pull request |-\|/-| 113 +1 −1 md 0|-\|/-| 
+Parse `max_htlc_value_in_flight_msat` as an unsigned long |-\|/-| 2017-07-17T17:36:49Z Merged pull request |-\|/-| 109 +134 −53 scala 13|-\|/-| 
+Reproduced and fixed issue with different dust limits |-\|/-| 2017-07-17T17:18:27Z Merged pull request |-\|/-| 108 +3 −3 scala 2|-\|/-| 
+Simplified computation of closing fee |-\|/-| 2017-07-17T13:11:31Z Merged pull request |-\|/-| 107 +22 −11 scala 2|-\|/-| 
+Added support for multiple external ip in node announcements |-\|/-| 2017-07-17T13:41:46Z Merged pull request |-\|/-| 106 +21 −18 conf scala 9|-\|/-| 
+Implement state-counter retransmission |-\|/-| 2017-07-17T12:28:08Z Merged pull request |-\|/-| 105 +1,184 −1,055 scala 4|-\|/-| 
+Fix `update_add_htlc` encoding |-\|/-| 2017-07-12T18:05:52Z Merged pull request |-\|/-| 104 +61 −59 scala 6|-\|/-| 
+Added support for BOLT 11 payment request |-\|/-| 2017-07-12T18:03:42Z Merged pull request |-\|/-| 102 +1,057 −177 scala 4|-\|/-| 
+Interpret feature bits as per rfc PR 156-169-178 |-\|/-| 2017-07-11T15:41:14Z Merged pull request |-\|/-| 101 +140 −109 conf scala 7|-\|/-| 
+api: add a simple getinfo method |-\|/-| 2017-06-27T08:46:30Z Merged pull request |-\|/-| 100 +9 −2 md scala 2|-\|/-| 
+use 8 bytes for msat amounts |-\|/-| 2017-06-27T08:48:56Z Merged pull request |-\|/-| 99 +11 −11 scala 3|-\|/-| 
+Use an exponential backoff timeout for connection retry |-\|/-| 2017-06-27T08:47:35Z Merged pull request |-\|/-| 96 +29 −27 scala 2|-\|/-| 
+upgade to bitcoin-lib 0.9.11 |-\|/-| 2017-06-09T15:39:03Z Merged pull request |-\|/-| 95 +12 −13 scala xml 6|-\|/-| 
+Minor tweaks |-\|/-| 2017-06-08T16:48:00Z Merged pull request |-\|/-| 94 +44 −38 scala 9|-\|/-| 
+Replaced java serialization by scodec |-\|/-| 2017-06-08T13:21:07Z Merged pull request |-\|/-| 92 +495 −163 scala 11|-\|/-| 
+Separate code into modules |-\|/-| 2017-06-06T16:37:35Z Merged pull request |-\|/-| 91 +713 −356 eclair-node/eclair-cli → eclair-core/eclair-cli xml conf scala 6|-\|/-| 
+Added support for `channel_disabled` flag and updated failure codes |-\|/-| 2017-06-02T18:14:22Z Merged pull request |-\|/-| 90 +462 −185 png fxml scala 10|-\|/-| 
+Added validation checks on CMD_UPDATE_ADD.payment hash |-\|/-| 2017-05-16T12:57:53Z Merged pull request |-\|/-| 86 +42 −9 scala 3|-\|/-| 
+Channel id switch |-\|/-| 2017-05-12T11:27:21Z Merged pull request |-\|/-| 85 +53 −35 scala 2|-\|/-| 
+Can check a payment request status |-\|/-| 2017-07-28T07:17:34Z Closed pull request |-\|/-| 84 +33 −0 scala 3|-\|/-| 
+Use hash of block #0 as chain hash |-\|/-| 2017-04-28T15:16:24Z Merged pull request |-\|/-| 83 +13 −6 scala 1|-\|/-| 
+Make router not broadcast announcements back to sender |-\|/-| 2017-04-28T15:03:26Z Merged pull request |-\|/-| 82 +26 −28 scala 3|-\|/-| 
+Bugfixes and small improvements |-\|/-| 2017-04-28T15:54:53Z Merged pull request |-\|/-| 81 +52 −46 scala 8|-\|/-| 
+Combine sigs in a more conscise way |-\|/-| 2017-04-28T14:16:48Z Merged pull request |-\|/-| 80 +1 −5 scala 1|-\|/-| 
+Fixed type cast issue with `peers` rpc service |-\|/-| 2017-04-26T14:37:30Z Merged pull request |-\|/-| 79 +14 −14 fxml scala 3|-\|/-| 
+Client must die when transport dies |-\|/-| 2017-04-25T16:00:43Z Merged pull request |-\|/-| 78 +8 −1 scala 2|-\|/-| 
+funding: remove redundant address test |-\|/-| 2017-04-25T11:06:14Z Merged pull request |-\|/-| 77 +2 −2 scala 1|-\|/-| 
+BOLT4: update Sphinx to match the latest specs |-\|/-| 2017-04-24T13:57:13Z Merged pull request |-\|/-| 76 +230 −279 scala 3|-\|/-| 
+BOLT 4: use proper cipher stream for reply messages |-\|/-| 2017-04-20T15:08:24Z Merged pull request |-\|/-| 75 +46 −20 scala xml 11|-\|/-| 
+Validity of remote final script is not checked when a Shutdown was already sent |-\|/-| 2017-04-20T09:12:13Z Merged pull request |-\|/-| 74 +19 −3 scala 3|-\|/-| 
+HTLCs in remote commit tx are not taken into account upon receiving Shutdown |-\|/-| 2017-04-19T14:50:02Z Merged pull request |-\|/-| 73 +1 −1 scala 1|-\|/-| 
+New PaymentRequest object + HTLC verification |-\|/-| 2017-04-20T15:26:31Z Merged pull request |-\|/-| 72 +183 −82 md scala 8|-\|/-| 
+Better router/channel exception handling |-\|/-| 2017-04-20T09:47:38Z Merged pull request |-\|/-| 71 +147 −108 scala 2|-\|/-| 
+LocalParams should not include maxFeerateMismatch |-\|/-| 2017-04-12T13:17:02Z Merged pull request |-\|/-| 70 +11 −14 scala 6|-\|/-| 
+wire: add chainHash field to open message |-\|/-| 2017-04-20T15:27:53Z Merged pull request |-\|/-| 69 +32 −18 scala 8|-\|/-| 
+(GUI) Added an option in the GUI to open a simple connection to a node |-\|/-| 2017-04-11T10:07:09Z Merged pull request |-\|/-| 68 +97 −53 fxml css scala 10|-\|/-| 
+Added tests for state WAIT_FOR_FUNDING_PARENT |-\|/-| 2017-04-11T14:43:39Z Merged pull request |-\|/-| 67 +80 −9 scala 4|-\|/-| 
+Fatal error messages are now sent to stderr in headless mode |-\|/-| 2017-04-11T15:05:04Z Merged pull request |-\|/-| 66 +9 −6 scala 2|-\|/-| 
+Made transport actor a FSM instead of a LoggingFSM (minor) |-\|/-| 2017-04-11T08:11:41Z Merged pull request |-\|/-| 65 +2 −2 scala 1|-\|/-| 
+Automatic reconnection |-\|/-| 2017-04-11T15:17:26Z Merged pull request |-\|/-| 64 +18 −20 conf fxml scala 7|-\|/-| 
+PaymentRequest are generated in LocalPaymentHandler |-\|/-| 2017-04-11T14:47:09Z Merged pull request |-\|/-| 63 +97 −51 scala 10|-\|/-| 
+make max-feerate-mismatch configurable and set default value to 500% |-\|/-| 2017-04-11T14:45:04Z Merged pull request |-\|/-| 62 +61 −41 conf scala 12|-\|/-| 
+Fix travis |-\|/-| 2017-04-10T14:58:18Z Merged pull request |-\|/-| 61 +84 −24 scala 2|-\|/-| 
+Setting watches when restoring in CLOSING state |-\|/-| 2017-04-11T08:18:14Z Merged pull request |-\|/-| 60 +3 −3 scala 1|-\|/-| 
+mitigate testnet malleability attacks |-\|/-| 2017-04-06T15:55:17Z Merged pull request |-\|/-| 59 +259 −115 conf scala 7|-\|/-| 
+Added gitter badge |-\|/-| 2017-04-05T12:42:15Z Merged pull request |-\|/-| 58 +1 −0 md 0|-\|/-| 
+ZMQ connection monitoring |-\|/-| 2017-04-05T13:24:05Z Merged pull request |-\|/-| 57 +389 −254 png css fxml scala 11|-\|/-| 
+add ping and pong messages |-\|/-| 2017-04-05T16:06:10Z Merged pull request |-\|/-| 56 +56 −6 conf scala 7|-\|/-| 
+Emphasized and shortened message in notifications |-\|/-| 2017-04-04T08:43:41Z Merged pull request |-\|/-| 55 +54 −62 png css fxml scala 9|-\|/-| 
+fix fuzzy test |-\|/-| 2017-04-04T09:22:40Z Merged pull request |-\|/-| 54 +33 −13 scala 1|-\|/-| 
+Batch channel validation  in the router |-\|/-| 2017-04-04T12:26:51Z Merged pull request |-\|/-| 53 +371 −185 conf scala 8|-\|/-| 
+Wip gui activity |-\|/-| 2017-03-31T18:03:37Z Merged pull request |-\|/-| 52 +353 −309 css png fxml scala 8|-\|/-| 
+Added integration tests on htlc relaying in on-chain scenarios |-\|/-| 2017-03-31T16:08:59Z Merged pull request |-\|/-| 51 +762 −559 md xml conf scala 5|-\|/-| 
+use CPFP to create our funding tx |-\|/-| 2017-03-31T18:28:52Z Merged pull request |-\|/-| 50 +65 −60 conf scala 9|-\|/-| 
+Added warning for openJDK in README.md |-\|/-| 2017-03-31T16:19:39Z Merged pull request |-\|/-| 48 +4 −2 md 0|-\|/-| 
+Use chain getblockchaininfo.chain to infer the magic value |-\|/-| 2017-03-28T12:05:53Z Merged pull request |-\|/-| 45 +11 −15 conf scala 3|-\|/-| 
+Automated retry of payments |-\|/-| 2017-03-27T11:29:28Z Merged pull request |-\|/-| 44 +356 −243 scala 7|-\|/-| 
+Access to version/commit id at runtime |-\|/-| 2017-03-27T09:14:55Z Merged pull request |-\|/-| 42 +89 −27 md xml fxml scala 7|-\|/-| 
+Update README.md |-\|/-| 2017-03-22T13:34:31Z Closed pull request |-\|/-| 41 +1 −1 md 0|-\|/-| 
+Wip readme |-\|/-| 2017-03-21T16:32:16Z Merged pull request |-\|/-| 40 +22 −12 png md 2|-\|/-| 
+(gui) fix issue with initial size of modals in ubuntu |-\|/-| 2017-03-21T13:36:57Z Merged pull request |-\|/-| 39 +5 −5 fxml 4|-\|/-| 
+bolt 3 fixes |-\|/-| 2017-03-21T13:37:05Z Merged pull request |-\|/-| 38 +4 −4 scala 1|-\|/-| 
+Fixed how we interpret feature bits |-\|/-| 2017-03-21T12:16:13Z Merged pull request |-\|/-| 37 +34 −52 conf scala 5|-\|/-| 
+BOLT 3: fix computation of obscured tx number |-\|/-| 2017-03-21T11:02:37Z Merged pull request |-\|/-| 36 +16 −9 scala 4|-\|/-| 
+Wip rpc |-\|/-| 2017-03-21T10:58:59Z Merged pull request |-\|/-| 35 +31 −23 css fxml scala 4|-\|/-| 
+Fixed non-compliant wire messages |-\|/-| 2017-03-20T15:18:47Z Merged pull request |-\|/-| 34 +29 −53 scala 10|-\|/-| 
+Wip gui wording |-\|/-| 2017-03-20T14:56:20Z Merged pull request |-\|/-| 33 +18 −19 fxml scala 4|-\|/-| 
+Wip readme |-\|/-| 2017-03-17T18:07:30Z Merged pull request |-\|/-| 32 +67 −70 md 0|-\|/-| 
+Added a supervision strategy to all actors |-\|/-| 2017-03-17T17:00:44Z Merged pull request |-\|/-| 31 +72 −29 scala 10|-\|/-| 
+BOLT 4: propagate htlc failures upstream |-\|/-| 2017-03-17T16:01:14Z Merged pull request |-\|/-| 30 +909 −250 scala 5|-\|/-| 
+Added support for UpdateFee |-\|/-| 2017-03-16T16:31:39Z Merged pull request |-\|/-| 29 +745 −266 scala 7|-\|/-| 
+Switch to 32B channel-id |-\|/-| 2017-03-10T10:47:20Z Merged pull request |-\|/-| 28 +79 −67 scala 8|-\|/-| 
+Implemented long channel-id + delayed announcements |-\|/-| 2017-03-06T16:19:56Z Merged pull request |-\|/-| 27 +410 −510 scala 10|-\|/-| 
+persist peers, router and channels data |-\|/-| 2017-02-28T13:10:06Z Merged pull request |-\|/-| 26 +701 −121 conf scala 5|-\|/-| 
+Refactored fee calculation (added trim functions) |-\|/-| 2017-02-13T10:11:55Z Merged pull request |-\|/-| 25 +74 −59 scala 4|-\|/-| 
+Close channel when an htlc times out in either commitment tx |-\|/-| 2017-02-07T14:05:00Z Merged pull request |-\|/-| 24 +75 −5 scala 4|-\|/-| 
+use improved private/public key types from bitcoin-lib 0.9.9 |-\|/-| 2017-01-20T16:47:45Z Merged pull request |-\|/-| 23 +374 −291 scala 5|-\|/-| 
+Bolt3 -> Bolts |-\|/-| 2017-01-16T14:38:38Z Closed pull request |-\|/-| 22 +1,722 −1,525 xml scala 4|-\|/-| 
+Wip Alternateroute |-\|/-| 2016-09-07T13:21:17Z Merged pull request |-\|/-| 20 +431 −213 xml scala 11|-\|/-| 
+travis: run interoperability test with lightnind |-\|/-| 2016-09-01T14:07:42Z Merged pull request |-\|/-| 19 +72 −41 yml conf eclair-node/src/test/resources/binaries/linux64/bitcoin-cli eclair-node/src/test/resources/binaries/linux64/bitcoind eclair-node/src/test/resources/binaries/linux64/lightning-cli eclair-node/src/test/resources/binaries/linux64/lightningd scala sh 8|-\|/-| 
+Interoperability with c-lightning |-\|/-| 2016-08-26T15:21:26Z Merged pull request |-\|/-| 18 +213 −163 xml conf scala 6|-\|/-| 
+IRC Watcher |-\|/-| 2016-08-26T11:29:45Z Merged pull request |-\|/-| 17 +158 −94 scala 10|-\|/-| 
+Peerwatcher |-\|/-| 2016-08-26T09:02:27Z Merged pull request |-\|/-| 16 +397 −180 conf xml scala 7|-\|/-| 
+Wip uniclose txdb |-\|/-| 2016-07-20T15:39:19Z Merged pull request |-\|/-| 15 +556 −493 scala 5|-\|/-| 
+Wip-scalapbc |-\|/-| 2016-07-13T12:04:37Z Merged pull request |-\|/-| 14 +43 −67 yml lightning-types/generate bat xml lightning-types/protoc-gen-scala 8|-\|/-| 
+compatibility with lightningd |-\|/-| 2016-07-07T10:33:27Z Merged pull request |-\|/-| 13 +164 −38 scala proto 11|-\|/-| 
+Merge wip-bolt2 into master |-\|/-| 2016-06-30T14:03:35Z Merged pull request |-\|/-| 12 +4,219 −2,359 gitignore md eclair-demo/eclair-cli xml script expected 12|-\|/-| 
+create a specific data stucture for commitment data |-\|/-| 2016-06-07T12:50:10Z Merged pull request |-\|/-| 11 +350 −477 0|-\|/-| 
+Added 'send' macro in test scenario |-\|/-| 2016-05-31T11:04:09Z Merged pull request |-\|/-| 10 +114 −207 gitignore scala script expected bak 14|-\|/-| 
+Wip bolt2 nakamoto |-\|/-| 2016-05-27T16:30:22Z Merged pull request |-\|/-| 9 +20 −36 scala proto 5|-\|/-| 
+Replaced 'find' by 'collect' |-\|/-| 2016-05-26T12:34:54Z Merged pull request |-\|/-| 8 +38 −55 scala 3|-\|/-| 
+merge wip-bolt2-pm into wip-bolt2 |-\|/-| 2016-05-25T15:47:33Z Merged pull request |-\|/-| 7 +1,838 −913 script expected 18|-\|/-| 
+bolt2 protocol implementation that stores everything |-\|/-| 2016-05-25T15:44:52Z Merged pull request |-\|/-| 6 +292 −246 scala 5|-\|/-| 
+Replaced spray by akka-http |-\|/-| 2016-04-29T13:52:33Z Merged pull request |-\|/-| 5 +28 −40 xml scala proto 6|-\|/-| 
+Added complete add/fulfill test and fixed various related bugs |-\|/-| 2016-04-29T07:43:08Z Merged pull request |-\|/-| 4 +37 −14 scala 3|-\|/-| 
+Mocking bitcoinclient instead of blockchain watcher in tests |-\|/-| 2016-04-28T09:07:00Z Merged pull request |-\|/-| 3 +328 −139 scala 3|-\|/-| 
+random nodeid, commit and final keys |-\|/-| 2016-02-24T14:40:53Z Merged pull request |-\|/-| 2 +10 −6 scala 3|-\|/-| 
+Remove WatchConfirmedBasedOnOutputs and simplify flow |-\|/-| 2016-02-24T14:38:50Z Merged pull request |-\|/-| 1 +82 −41 scala 3|-\|/-| 

@@ -1,0 +1,850 @@
+MultiTarget conformance to AccessTokenAuthorizable |-\|/-| 2020-01-02T14:21:00Z Merged pull request |-\|/-| 1979 +34 −1 md swift 3|-\|/-| 
+Improved access token plugin |-\|/-| 2019-12-09T13:57:32Z Merged pull request |-\|/-| 1969 +53 −44 md swift 4|-\|/-| 
+Add `mapString`, `mapDecodable` funtion take multiple key paths parameter |-\|/-| 2019-11-25T18:02:17Z Closed pull request |-\|/-| 1965 +248 −8 swift 6|-\|/-| 
+Update URL+Moya.swift |-\|/-| 2019-11-25T19:23:59Z Merged pull request |-\|/-| 1957 +3 −2 swift 1|-\|/-| 
+Fixing Data race conditions caught by TSAN |-\|/-| 2019-12-09T13:33:27Z Merged pull request |-\|/-| 1952 +45 −39 resolved md xcscheme swift 10|-\|/-| 
+Update URL+Moya Change |-\|/-| 2019-12-09T14:54:26Z Closed pull request |-\|/-| 1950 +3 −2 swift 1|-\|/-| 
+Alamofire 5.0.0-rc.3 |-\|/-| 2019-10-27T14:57:54Z Merged pull request |-\|/-| 1944 +9 −6 Cartfile resolved md podspec swift 5|-\|/-| 
+Update Readme for version 14.0.0-beta.4 |-\|/-| 2019-10-05T09:52:13Z Merged pull request |-\|/-| 1934 +14 −14 md 0|-\|/-| 
+Remove Combine. |-\|/-| 2019-10-05T09:48:53Z Merged pull request |-\|/-| 1933 +13 −625 md swift podspec pbxproj 5|-\|/-| 
+Add Combine folder to source_files in Podspec |-\|/-| 2019-10-03T16:58:27Z Merged pull request |-\|/-| 1930 +1 −1 podspec 1|-\|/-| 
+Skip building testing libraries for SPM users. |-\|/-| 2019-09-27T15:33:30Z Merged pull request |-\|/-| 1923 +115 −50 md resolved swift yml 4|-\|/-| 
+Fix stubbed requests that didn't persist plugin changes. |-\|/-| 2019-09-20T11:03:18Z Merged pull request |-\|/-| 1921 +63 −14 md swift 5|-\|/-| 
+Weak-link Combine. |-\|/-| 2019-09-20T11:05:01Z Merged pull request |-\|/-| 1920 +27 −0 md pbxproj sh 2|-\|/-| 
+NetworkLoggerPlugin curl fixes. |-\|/-| 2019-09-12T14:31:22Z Merged pull request |-\|/-| 1916 +93 −18 md swift 6|-\|/-| 
+Link Combine weakly |-\|/-| 2019-09-20T11:05:20Z Closed pull request |-\|/-| 1915 +26 −0 md xcconfig pbxproj 2|-\|/-| 
+Alamofire 5.0.0-rc.2 |-\|/-| 2019-09-09T11:44:51Z Merged pull request |-\|/-| 1912 +9 −8 Cartfile resolved md podspec swift 5|-\|/-| 
+Remove OHHTTPStubs to fix SPM support for Xcode |-\|/-| 2019-09-06T13:47:42Z Merged pull request |-\|/-| 1910 +2 −11 resolved swift 2|-\|/-| 
+Update to Alamofire 5.0.0-rc.1 |-\|/-| 2019-09-06T12:57:26Z Merged pull request |-\|/-| 1909 +11 −10 Cartfile resolved md podspec swift 8|-\|/-| 
+Update to Alamofire 5.0.0-rc.1 |-\|/-| 2019-09-06T10:53:11Z Closed pull request |-\|/-| 1908 +1,535 −593 yml Cartfile private resolved md swift podspec 10|-\|/-| 
+NetworkLoggerPlugin formatter |-\|/-| 2019-09-06T12:56:50Z Merged pull request |-\|/-| 1906 +140 −87 swift md 3|-\|/-| 
+Combine support! |-\|/-| 2019-09-06T08:51:16Z Merged pull request |-\|/-| 1904 +624 −55 yml md swift pbxproj Rakefile 6|-\|/-| 
+Update Readme_CN.md |-\|/-| 2019-08-20T11:24:22Z Merged pull request |-\|/-| 1897 +1 −1 md 0|-\|/-| 
+[WIP] SPM testing! (+ some other minor updates) |-\|/-| 2019-09-02T10:40:48Z Merged pull request |-\|/-| 1896 +169 −74 resolved pbxproj swift 22|-\|/-| 
+Adding more customization to NetworkLoggerPlugin. |-\|/-| 2019-09-02T10:50:20Z Merged pull request |-\|/-| 1894 +201 −143 md swift 5|-\|/-| 
+Use CACHE_VERSION environment variable for CircleCI caches |-\|/-| 2019-08-03T18:07:36Z Merged pull request |-\|/-| 1891 +26 −26 yml lock 2|-\|/-| 
+Update Testing.md |-\|/-| 2019-08-02T10:41:14Z Merged pull request |-\|/-| 1890 +1 −1 md 0|-\|/-| 
+Fix a typo |-\|/-| 2019-07-31T14:34:06Z Merged pull request |-\|/-| 1886 +1 −1 md 0|-\|/-| 
+Add "bug?" to the list of exemptLabels for Stale bot |-\|/-| 2019-07-09T13:00:01Z Merged pull request |-\|/-| 1881 +1 −0 yml 1|-\|/-| 
+Fixed NetworkLoggerPlugin behavior with errors. |-\|/-| 2019-08-05T18:32:25Z Merged pull request |-\|/-| 1880 +41 −15 md swift 2|-\|/-| 
+Add missing session headers to Request/NetworkLoggerPlugin. |-\|/-| 2019-08-01T15:07:53Z Merged pull request |-\|/-| 1878 +100 −31 md pbxproj swift 8|-\|/-| 
+Danger swift |-\|/-| 2019-07-11T16:26:29Z Merged pull request |-\|/-| 1873 +149 −208 yml Dangerfile swift Gemfile 5|-\|/-| 
+Add target type in output of network logger plugin |-\|/-| 2019-06-04T15:16:34Z Merged pull request |-\|/-| 1866 +23 −17 md swift 3|-\|/-| 
+Update Releasing.md with few additional steps to "After release" paragraph. |-\|/-| 2019-05-30T13:44:40Z Merged pull request |-\|/-| 1862 +7 −2 md 0|-\|/-| 
+Drop Result |-\|/-| 2019-05-15T22:29:34Z Merged pull request |-\|/-| 1858 +9 −42 Cartfile resolved md podspec pbxproj swift 16|-\|/-| 
+Updated Chinese docs per MoyaBot recommendation. |-\|/-| 2019-05-09T19:03:03Z Merged pull request |-\|/-| 1856 +2 −2 md 0|-\|/-| 
+Updated DispatchQueue.global with latest Swift syntax. |-\|/-| 2019-05-09T18:44:29Z Merged pull request |-\|/-| 1855 +2 −2 md 0|-\|/-| 
+[OHHTTPStubs] Update to version 8 |-\|/-| 2019-05-02T11:13:42Z Merged pull request |-\|/-| 1850 +2 −2 private resolved 2|-\|/-| 
+ReactiveSwift 6.0 |-\|/-| 2019-05-02T11:03:27Z Merged pull request |-\|/-| 1849 +7 −6 Cartfile resolved md podspec swift 5|-\|/-| 
+Update develop to master |-\|/-| 2019-05-01T18:46:32Z Merged pull request |-\|/-| 1848 +44 −40 yml md lock podspec swift 4|-\|/-| 
+Updating development with master |-\|/-| 2019-05-01T17:17:42Z Closed pull request |-\|/-| 1847 +44 −40 yml md lock podspec swift 4|-\|/-| 
+RXSwift 5 |-\|/-| 2019-05-02T10:35:22Z Merged pull request |-\|/-| 1846 +23 −23 Cartfile resolved podspec swift 7|-\|/-| 
+Use compatible version requirements in installation guides. |-\|/-| 2019-05-01T10:37:56Z Merged pull request |-\|/-| 1845 +8 −8 md 0|-\|/-| 
+Remove alamoRequest.cancel() from stubbing closure |-\|/-| 2019-05-01T10:30:43Z Merged pull request |-\|/-| 1841 +4 −8 yml md swift 2|-\|/-| 
+[WIP] Drop Result dependency |-\|/-| 2019-05-14T18:16:45Z Closed pull request |-\|/-| 1839 +12 −24 Cartfile resolved podspec swift 13|-\|/-| 
+Update Gemfile.lock |-\|/-| 2019-04-10T19:06:42Z Merged pull request |-\|/-| 1838 +22 −19 lock 1|-\|/-| 
+Update Readme for Moya 13 |-\|/-| 2019-04-10T15:59:22Z Merged pull request |-\|/-| 1837 +10 −10 md 0|-\|/-| 
+[Release] Moya 13 |-\|/-| 2019-04-10T15:52:37Z Merged pull request |-\|/-| 1835 +432 −150 yml Cartfile private resolved md swift podspec pbxproj Rakefile 11|-\|/-| 
+[README] Document support & installation via Accio |-\|/-| 2019-04-09T08:33:31Z Merged pull request |-\|/-| 1834 +5 −0 md 0|-\|/-| 
+Add bundle install command as a requirement for release |-\|/-| 2019-03-31T18:53:10Z Merged pull request |-\|/-| 1831 +1 −0 md 0|-\|/-| 
+Prepare docs for Moya 13 |-\|/-| 2019-03-31T18:42:20Z Merged pull request |-\|/-| 1830 +19 −12 md 0|-\|/-| 
+Swift 5! |-\|/-| 2019-03-31T18:36:44Z Merged pull request |-\|/-| 1829 +37 −44 yml private resolved md swift podspec pbxproj Rakefile 10|-\|/-| 
+Remove deprecations hanging since Moya 11 |-\|/-| 2019-03-31T13:27:30Z Merged pull request |-\|/-| 1828 +3 −10 md swift 1|-\|/-| 
+Fix Xcode 10.2 warnings |-\|/-| 2019-03-30T22:21:11Z Merged pull request |-\|/-| 1826 +26 −23 Dangerfile pbxproj swift 10|-\|/-| 
+Development |-\|/-| 2019-03-28T14:27:20Z Closed pull request |-\|/-| 1824 +347 −69 Cartfile resolved md podspec swift 12|-\|/-| 
+Bump ReactiveSwift to 5.0 and Result to 4.1 |-\|/-| 2019-03-19T16:10:16Z Merged pull request |-\|/-| 1817 +30 −25 Cartfile resolved podspec swift 6|-\|/-| 
+Fix progress object with invalid Content-Length headers. |-\|/-| 2019-03-10T20:31:37Z Merged pull request |-\|/-| 1815 +98 −6 md swift 2|-\|/-| 
+Fix proselint on Dangerfile |-\|/-| 2019-03-05T12:34:33Z Merged pull request |-\|/-| 1812 +2 −2 Dangerfile 1|-\|/-| 
+Alamofire 5! |-\|/-| 2019-08-01T14:46:23Z Merged pull request |-\|/-| 1810 +284 −144 yml Cartfile resolved md podspec pbxproj swift 7|-\|/-| 
+Use new Alamofire append(_ fileURL, …) function with optional parameters |-\|/-| 2019-12-09T15:28:39Z Merged pull request |-\|/-| 1805 +1 −9 swift 1|-\|/-| 
+Update Moya version in Readme.md from 11 to 12 |-\|/-| 2019-02-13T12:28:58Z Merged pull request |-\|/-| 1804 +1 −1 md 0|-\|/-| 
+Replace #if os() with #if canImport |-\|/-| 2019-02-13T11:10:38Z Merged pull request |-\|/-| 1803 +23 −26 swift 5|-\|/-| 
+Make a restriction for CocoaPods version ~> 1.6 |-\|/-| 2019-02-12T12:52:28Z Merged pull request |-\|/-| 1800 +2 −2 yml Gemfile 2|-\|/-| 
+Observable.mapImage() returns non-optional image |-\|/-| 2019-02-11T12:36:52Z Merged pull request |-\|/-| 1799 +3 −2 md swift 2|-\|/-| 
+[Docs] Update AccessTokenPlugin init w/ autoclosure now |-\|/-| 2019-02-12T13:57:55Z Merged pull request |-\|/-| 1798 +2 −2 md 0|-\|/-| 
+Added discardable result attribute to status code filters |-\|/-| 2019-02-12T13:58:31Z Closed pull request |-\|/-| 1790 +7 −0 md swift 1|-\|/-| 
+Single mapImage shouldn’t be optional |-\|/-| 2019-02-11T09:04:27Z Merged pull request |-\|/-| 1789 +2 −2 swift 2|-\|/-| 
+Update AlamofireValidation.md |-\|/-| 2019-01-11T09:51:49Z Merged pull request |-\|/-| 1787 +4 −4 md 0|-\|/-| 
+Conform MoyaError to CustomNSError in addition to LocalizedError |-\|/-| 2019-03-01T12:16:50Z Merged pull request |-\|/-| 1783 +189 −8 md swift 2|-\|/-| 
+Remove internal access control. |-\|/-| 2018-11-28T11:01:50Z Closed pull request |-\|/-| 1777 +15 −15 swift 4|-\|/-| 
+Fix pod install error for RxMoya and ReactiveMoya subspecs due to watchOS version |-\|/-| 2018-11-19T05:56:22Z Merged pull request |-\|/-| 1769 +9 −12 md podspec pbxproj 2|-\|/-| 
+Adding Pod lib lint to CI |-\|/-| 2018-11-28T02:04:50Z Merged pull request |-\|/-| 1767 +3 −0 yml 1|-\|/-| 
+Fix watchos deployment target in podspec |-\|/-| 2018-11-19T01:01:00Z Merged pull request |-\|/-| 1766 +2 −1 podspec 1|-\|/-| 
+Add missing projects to Chinese Community Projects |-\|/-| 2018-11-28T02:05:11Z Merged pull request |-\|/-| 1764 +4 −0 md 0|-\|/-| 
+Add SwiftHub to CommunityProjects |-\|/-| 2018-11-16T20:10:35Z Merged pull request |-\|/-| 1763 +2 −0 md 0|-\|/-| 
+Update Readme_CN.md |-\|/-| 2018-11-16T15:31:46Z Merged pull request |-\|/-| 1762 +1 −1 md 0|-\|/-| 
+Bump RxMoya's watchOS deployment target to 3.0 |-\|/-| 2018-11-18T04:57:02Z Merged pull request |-\|/-| 1758 +4 −2 md podspec pbxproj 2|-\|/-| 
+Development v12 cleanup |-\|/-| 2018-11-06T20:01:33Z Merged pull request |-\|/-| 1756 +1 −1 podspec 1|-\|/-| 
+[Release] Moya 12.0 |-\|/-| 2018-11-18T23:50:33Z Merged pull request |-\|/-| 1753 +286 −161 yml swift-version Cartfile resolved md lock podspec 6|-\|/-| 
+Enhancement/enable danger prose plugin |-\|/-| 2018-12-05T15:54:51Z Merged pull request |-\|/-| 1748 +23 −0 yml Dangerfile Gemfile 3|-\|/-| 
+Fix unit test build failed |-\|/-| 2018-10-24T21:01:41Z Merged pull request |-\|/-| 1746 +7 −7 pbxproj swift 2|-\|/-| 
+Fix for issue #1259 |-\|/-| 2018-10-20T17:19:58Z Merged pull request |-\|/-| 1745 +16 −1 md 0|-\|/-| 
+Update Readme_CN.md |-\|/-| 2018-10-18T01:05:17Z Merged pull request |-\|/-| 1742 +92 −89 md 0|-\|/-| 
+Fix warnings generated by Xcode 10 |-\|/-| 2018-10-18T05:32:08Z Merged pull request |-\|/-| 1740 +39 −37 yml resolved md pbxproj xcscheme swift 9|-\|/-| 
+updating to xcode 10 and swift 4.2 warnings |-\|/-| 2018-10-14T23:30:54Z Closed pull request |-\|/-| 1730 +13 −13 md swift 2|-\|/-| 
+update |-\|/-| 2018-09-27T14:20:26Z Closed pull request |-\|/-| 1729 +415 −0 swift 4|-\|/-| 
+fixed a typo |-\|/-| 2018-09-27T15:36:09Z Merged pull request |-\|/-| 1728 +1 −1 md 0|-\|/-| 
+Updates RxSwift to version 4.3.1 |-\|/-| 2018-10-18T01:04:38Z Closed pull request |-\|/-| 1724 +1 −1 podspec 1|-\|/-| 
+Updates RxSwift and RxCocoa to version 4.2.0 |-\|/-| 2018-09-13T10:25:46Z Closed pull request |-\|/-| 1723 +2 −2 podspec md 1|-\|/-| 
+Update Providers.md |-\|/-| 2018-08-15T15:38:17Z Merged pull request |-\|/-| 1714 +1 −1 md 0|-\|/-| 
+Sync master with development |-\|/-| 2018-09-11T01:10:10Z Closed pull request |-\|/-| 1712 +203 −48 Dangerfile Gemfile lock pbxproj Rakefile md 5|-\|/-| 
+Add Moya 11 to 12 migration guide |-\|/-| 2018-08-07T17:09:39Z Merged pull request |-\|/-| 1710 +21 −1 md 0|-\|/-| 
+✨Danger package manifest warning (#1672) |-\|/-| 2018-08-03T17:21:04Z Merged pull request |-\|/-| 1708 +44 −17 Dangerfile 1|-\|/-| 
+Fix a header doc to remove the image type specification |-\|/-| 2018-07-28T15:23:01Z Merged pull request |-\|/-| 1703 +1 −1 swift 1|-\|/-| 
+Adding Danger xcode_sumary  |-\|/-| 2018-06-23T22:23:02Z Merged pull request |-\|/-| 1680 +66 −17 Dangerfile Gemfile lock pbxproj Rakefile 5|-\|/-| 
+Adds a danger rule to remind us to include resolved files when updating |-\|/-| 2018-05-23T00:17:34Z Merged pull request |-\|/-| 1670 +8 −0 Dangerfile 1|-\|/-| 
+Bump dependencies for Result and ReactiveSwift |-\|/-| 2018-07-24T08:00:24Z Merged pull request |-\|/-| 1668 +28 −24 Cartfile resolved md podspec swift 5|-\|/-| 
+Issue templates |-\|/-| 2018-06-05T20:56:39Z Closed pull request |-\|/-| 1660 +52 −0 md 0|-\|/-| 
+Adds note to Vision.md |-\|/-| 2018-05-02T13:47:57Z Merged pull request |-\|/-| 1659 +1 −0 md 0|-\|/-| 
+Update project Swift version && CocoaPods integration |-\|/-| 2018-06-08T15:02:49Z Merged pull request |-\|/-| 1656 +87 −40 yml swift-version podspec pbxproj swift 12|-\|/-| 
+Update gem resolve file |-\|/-| 2018-04-21T01:35:39Z Merged pull request |-\|/-| 1646 +20 −20 lock 1|-\|/-| 
+Allow customization of formatting in NetworkLoggerPlugin |-\|/-| 2019-09-17T13:30:03Z Closed pull request |-\|/-| 1644 +139 −68 pbxproj swift 4|-\|/-| 
+Workaround to fix long Carthage build times |-\|/-| 2019-04-05T16:11:47Z Closed pull request |-\|/-| 1642 +27 −1 md 0|-\|/-| 
+Fix .md links for https://moya.github.io |-\|/-| 2018-04-16T19:25:54Z Merged pull request |-\|/-| 1640 +20 −20 md 0|-\|/-| 
+✨add Papr to CommunityProjects |-\|/-| 2018-04-09T23:00:26Z Merged pull request |-\|/-| 1634 +1 −0 md 0|-\|/-| 
+Update Response.md for new filter signature |-\|/-| 2018-04-08T20:56:41Z Merged pull request |-\|/-| 1632 +2 −2 md 0|-\|/-| 
+Sync master and development branches |-\|/-| 2018-04-08T16:03:34Z Merged pull request |-\|/-| 1631 +77 −100 yml md swift podspec pbxproj 9|-\|/-| 
+Added Testing Documentation |-\|/-| 2018-04-10T08:30:03Z Merged pull request |-\|/-| 1630 +70 −1 md 0|-\|/-| 
+No Brown M&M's |-\|/-| 2018-04-05T20:20:28Z Merged pull request |-\|/-| 1628 +4 −0 md 0|-\|/-| 
+Making range filter generic to any range type. |-\|/-| 2018-04-06T19:51:03Z Merged pull request |-\|/-| 1624 +8 −40 resolved md swift 5|-\|/-| 
+refactor Rx/ReactiveMoya syntax |-\|/-| 2018-04-07T19:57:27Z Merged pull request |-\|/-| 1623 +32 −64 swift 3|-\|/-| 
+Fix swiftlint errors and warnings |-\|/-| 2018-03-30T15:56:54Z Closed pull request |-\|/-| 1621 +34 −28 swift 9|-\|/-| 
+Run SwiftLint only on debug builds |-\|/-| 2018-04-01T05:10:49Z Merged pull request |-\|/-| 1619 +38 −33 yml md swift pbxproj 9|-\|/-| 
+Xcode 9.3 test run & dependencies update. |-\|/-| 2018-04-03T19:11:55Z Merged pull request |-\|/-| 1617 +35 −9 resolved plist 3|-\|/-| 
+Remove SwiftLint build phases |-\|/-| 2018-04-01T05:11:36Z Closed pull request |-\|/-| 1615 +21 −110 md pbxproj swift 5|-\|/-| 
+Update AccessTokenPlugin  |-\|/-| 2018-04-10T08:25:43Z Merged pull request |-\|/-| 1611 +74 −26 md swift 2|-\|/-| 
+Sync development branch with master |-\|/-| 2018-03-14T19:40:50Z Merged pull request |-\|/-| 1606 +614 −277 yml resolved 3|-\|/-| 
+Adding convenience Range filter. |-\|/-| 2018-03-27T00:04:55Z Merged pull request |-\|/-| 1605 +214 −10 md swift 7|-\|/-| 
+Migrates to Circle CI 2.0 |-\|/-| 2018-03-05T14:44:16Z Merged pull request |-\|/-| 1602 +135 −73 yml lock Rakefile swift 5|-\|/-| 
+Perform validation on stubbed responses |-\|/-| 2018-02-25T14:42:37Z Merged pull request |-\|/-| 1593 +99 −10 md swift 2|-\|/-| 
+Fix Alamofire validation not being performed on uploadMultipart |-\|/-| 2018-02-24T11:04:39Z Merged pull request |-\|/-| 1591 +91 −12 md swift 4|-\|/-| 
+Fixed grammar and contractions in Contributing.md |-\|/-| 2018-02-17T18:29:06Z Merged pull request |-\|/-| 1589 +14 −14 md 0|-\|/-| 
+AlamofireValidation Chinese document update |-\|/-| 2018-02-15T19:17:28Z Merged pull request |-\|/-| 1587 +14 −5 md 0|-\|/-| 
+Moya 10 to 11 migration guide Chinese document. |-\|/-| 2018-02-15T19:13:27Z Merged pull request |-\|/-| 1586 +19 −0 md 0|-\|/-| 
+mapOptional<D: Decodable>( ... ) for Observable and Signal |-\|/-| 2018-02-13T02:42:31Z Closed pull request |-\|/-| 1581 +43 −16 swift 2|-\|/-| 
+mapOptional<D: Decodable>( ... ) for Observable and Signal |-\|/-| 2018-02-10T18:29:15Z Closed pull request |-\|/-| 1580 +277 −180 yml 1|-\|/-| 
+Updated Dangerfile |-\|/-| 2018-02-10T23:11:37Z Merged pull request |-\|/-| 1579 +7 −0 Dangerfile 1|-\|/-| 
+Add discussion label to exemptLabels for StaleBot |-\|/-| 2018-02-09T19:12:37Z Merged pull request |-\|/-| 1577 +1 −0 yml 1|-\|/-| 
+Update "Sample projects" refs in documentation. |-\|/-| 2018-02-09T03:50:24Z Merged pull request |-\|/-| 1573 +6 −8 md 0|-\|/-| 
+Update Cartfile.lock |-\|/-| 2018-02-10T23:54:05Z Merged pull request |-\|/-| 1572 +1 −1 resolved 1|-\|/-| 
+Update Moya version in Readme. |-\|/-| 2018-02-08T10:36:57Z Merged pull request |-\|/-| 1571 +10 −10 md 0|-\|/-| 
+Add MoyaProvider migration in Moya 11 guide |-\|/-| 2018-02-08T10:37:31Z Merged pull request |-\|/-| 1570 +3 −0 md 0|-\|/-| 
+[Release] Moya 11.0 |-\|/-| 2018-02-08T04:14:31Z Merged pull request |-\|/-| 1568 +541 −144 Cartfile resolved md swift podspec pbxproj 12|-\|/-| 
+Fixes changelog style #1395 🚀 |-\|/-| 2018-02-09T19:12:00Z Merged pull request |-\|/-| 1566 +211 −145 0|-\|/-| 
+Allow URLEncoding.httpBody as bodyEncoding in Task |-\|/-| 2018-01-26T15:58:49Z Merged pull request |-\|/-| 1557 +22 −4 md swift 2|-\|/-| 
+Add Danger rule to help track English and Chinese docs |-\|/-| 2018-01-25T18:19:49Z Merged pull request |-\|/-| 1553 +7 −0 Dangerfile 1|-\|/-| 
+Fix small grammatical error |-\|/-| 2018-01-24T23:05:30Z Merged pull request |-\|/-| 1552 +1 −1 md 0|-\|/-| 
+Fix broken link in MultiTarget |-\|/-| 2018-02-08T11:49:26Z Closed pull request |-\|/-| 1551 +5 −5 md 0|-\|/-| 
+Fix wrong reference to target instead of endpoint #1546 |-\|/-| 2018-01-26T13:43:09Z Merged pull request |-\|/-| 1550 +95 −13 md pbxproj swift 5|-\|/-| 
+Fixes #1459 - Include current version in Cocoapods Installation doc |-\|/-| 2018-01-16T20:20:42Z Merged pull request |-\|/-| 1544 +6 −6 md 0|-\|/-| 
+[Release] Moya 11.0.0-beta.1 |-\|/-| 2018-01-10T19:53:40Z Closed pull request |-\|/-| 1540 +89 −22 md podspec swift 15|-\|/-| 
+[WIP] *Do not merge* testing new DangerFile config  |-\|/-| 2018-04-10T08:38:16Z Closed pull request |-\|/-| 1537 +4 −4 Cartfile swift 2|-\|/-| 
+[WIP] Improve DangerFile to warn for podspec, Cartifle or SPM changes |-\|/-| 2018-01-08T12:59:38Z Closed pull request |-\|/-| 1535 +31 −6 Dangerfile 1|-\|/-| 
+Bump RxSwift to 4.1 |-\|/-| 2018-01-07T19:57:04Z Merged pull request |-\|/-| 1532 +3 −3 resolved 2|-\|/-| 
+Update Package.Resolved for ReactiveSwift 3.0.0 |-\|/-| 2018-01-07T19:57:32Z Merged pull request |-\|/-| 1531 +2 −2 resolved 1|-\|/-| 
+remove endpoint generics |-\|/-| 2018-01-27T17:55:49Z Merged pull request |-\|/-| 1529 +51 −44 md swift 6|-\|/-| 
+Add Moya 10 to 11 migration guide |-\|/-| 2018-01-07T19:56:04Z Merged pull request |-\|/-| 1527 +13 −0 md 0|-\|/-| 
+Development |-\|/-| 2018-01-05T08:23:46Z Closed pull request |-\|/-| 1525 +464 −90 Cartfile resolved md swift podspec pbxproj 16|-\|/-| 
+Change copyright to "Copyright (c) 2014-present Artsy, Ash Furrow" |-\|/-| 2018-01-03T18:23:36Z Merged pull request |-\|/-| 1523 +1 −1 md 0|-\|/-| 
+Add custom header / query parameter auth to AccessTokenPlugin |-\|/-| 2018-03-26T13:34:17Z Closed pull request |-\|/-| 1521 +172 −82 md swift 2|-\|/-| 
+Progress on issue #1395 |-\|/-| 2017-12-18T04:36:10Z Closed pull request |-\|/-| 1509 +1 −0 Moya 1|-\|/-| 
+Feature/fails on empty data for decodable |-\|/-| 2017-12-29T18:24:42Z Merged pull request |-\|/-| 1508 +252 −13 md swift yml 9|-\|/-| 
+Update MultiTarget.md |-\|/-| 2017-12-14T19:51:28Z Merged pull request |-\|/-| 1506 +1 −1 md 0|-\|/-| 
+Replace TargetType validate: Bool with validationType: ValidationType |-\|/-| 2017-12-28T22:04:28Z Merged pull request |-\|/-| 1505 +106 −29 md swift pbxproj 16|-\|/-| 
+Change class-only protocol from class to AnyObject |-\|/-| 2017-12-18T16:59:01Z Merged pull request |-\|/-| 1500 +3 −3 md swift 1|-\|/-| 
+Increase in source documentation coverage |-\|/-| 2018-01-05T08:16:00Z Merged pull request |-\|/-| 1498 +79 −12 swift 15|-\|/-| 
+Add ability to specify JSONEncoder while using requestJSONEncodable task. |-\|/-| 2017-12-07T19:01:22Z Closed pull request |-\|/-| 1495 +5 −5 md 0|-\|/-| 
+Bugfix changelog |-\|/-| 2017-12-03T17:14:47Z Merged pull request |-\|/-| 1489 +4 −3 md 0|-\|/-| 
+Replace develop -> development in contributing docs. |-\|/-| 2017-11-28T17:48:12Z Merged pull request |-\|/-| 1483 +5 −5 md 0|-\|/-| 
+Fix -> Fixed in Changelog |-\|/-| 2017-11-23T19:02:52Z Merged pull request |-\|/-| 1479 +2 −2 md 0|-\|/-| 
+raised ReactiveSwift version dependency 2.0 -> 3.0 |-\|/-| 2017-11-21T16:43:42Z Closed pull request |-\|/-| 1476 +1 −1 podspec 1|-\|/-| 
+Swift does not like single quotes |-\|/-| 2017-11-21T01:01:44Z Merged pull request |-\|/-| 1475 +2 −2 md 0|-\|/-| 
+Fix linter violations |-\|/-| 2017-11-18T17:55:56Z Closed pull request |-\|/-| 1473 +18 −10 Cartfile resolved podspec swift 6|-\|/-| 
+Bump ReactiveSwift to 3.0 |-\|/-| 2017-11-29T11:49:58Z Merged pull request |-\|/-| 1470 +9 −7 Cartfile resolved md podspec swift 4|-\|/-| 
+New example: Composing provider |-\|/-| 2017-11-21T18:27:46Z Merged pull request |-\|/-| 1465 +65 −0 md 0|-\|/-| 
+Develop |-\|/-| 2017-11-10T16:19:11Z Closed pull request |-\|/-| 1457 +1,330 −402 md yml swift-version Cartfile resolved Dangerfile podspec pbxproj 7|-\|/-| 
+Replaced the target's validate property by an enum |-\|/-| 2017-12-12T18:44:59Z Closed pull request |-\|/-| 1454 +158 −30 md swift pbxproj 7|-\|/-| 
+fixed missed semicolon in code example |-\|/-| 2017-11-09T01:31:12Z Merged pull request |-\|/-| 1452 +2 −2 md 0|-\|/-| 
+Add Moya's branch guidelines |-\|/-| 2017-11-09T17:33:03Z Merged pull request |-\|/-| 1449 +33 −14 md 0|-\|/-| 
+Add a thank you to the pull request template |-\|/-| 2017-11-06T13:13:41Z Merged pull request |-\|/-| 1445 +2 −0 md 0|-\|/-| 
+Set macOS deployment target to 10.10 to follow pospec |-\|/-| 2017-11-09T05:06:12Z Merged pull request |-\|/-| 1444 +9 −8 md pbxproj 1|-\|/-| 
+Add Task.requestCustomJSONEncodable |-\|/-| 2017-11-29T19:42:26Z Merged pull request |-\|/-| 1443 +84 −7 md swift 7|-\|/-| 
+Add documentation to clarify how carthage deals with submodules |-\|/-| 2017-11-09T04:56:56Z Merged pull request |-\|/-| 1438 +2 −0 md 0|-\|/-| 
+Circle test |-\|/-| 2017-11-03T12:03:29Z Closed pull request |-\|/-| 1434 +99 −40 yml Cartfile resolved md lock podspec swift 12|-\|/-| 
+make changes |-\|/-| 2017-10-31T14:59:39Z Closed pull request |-\|/-| 1432 +9 −0 Dangerfile 1|-\|/-| 
+update docs_CN with MigrationGuides  |-\|/-| 2017-10-30T23:04:08Z Merged pull request |-\|/-| 1425 +20 −0 md 0|-\|/-| 
+Fix code style issue for docs. |-\|/-| 2017-10-30T02:02:22Z Merged pull request |-\|/-| 1421 +20 −13 md 0|-\|/-| 
+Ci ignore trivial pasindu |-\|/-| 2017-10-28T12:13:15Z Closed pull request |-\|/-| 1420 +20 −8 md yml sh 2|-\|/-| 
+require extension-safe api for RxMoya and ReactiveMoya |-\|/-| 2017-11-13T11:27:55Z Merged pull request |-\|/-| 1417 +5 −4 md pbxproj 1|-\|/-| 
+require extension-safe api for RxMoya in release mode as well |-\|/-| 2017-10-26T23:20:11Z Closed pull request |-\|/-| 1416 +3 −3 pbxproj 1|-\|/-| 
+Fix code style error in docs |-\|/-| 2017-10-27T02:09:44Z Closed pull request |-\|/-| 1412 +26 −21 md 0|-\|/-| 
+Added missing content type for requestJSONEncodable task |-\|/-| 2017-10-28T13:40:08Z Merged pull request |-\|/-| 1410 +15 −1 md swift 2|-\|/-| 
+Readme copyedits |-\|/-| 2017-10-25T20:33:17Z Merged pull request |-\|/-| 1409 +4 −4 md 0|-\|/-| 
+Fix base value types(String, Int, Bool) mapping cause crash. |-\|/-| 2017-11-13T14:22:50Z Merged pull request |-\|/-| 1405 +461 −82 md swift 2|-\|/-| 
+Remove redundant reactive abstractions |-\|/-| 2017-10-25T16:52:08Z Merged pull request |-\|/-| 1399 +12 −34 swift 2|-\|/-| 
+Less stringent WIP-checking for Danger |-\|/-| 2017-10-24T04:06:01Z Merged pull request |-\|/-| 1397 +1 −1 Dangerfile 1|-\|/-| 
+Readme clean up |-\|/-| 2017-10-23T12:34:39Z Merged pull request |-\|/-| 1394 +14 −17 md 0|-\|/-| 
+Add .custom option to AuthorizationType of AccessTokenPlugin |-\|/-| 2017-10-25T17:10:48Z Closed pull request |-\|/-| 1393 +90 −10 md swift 2|-\|/-| 
+Add Changelog entry for decodable fix from 10.0.0-beta.1 |-\|/-| 2017-10-21T20:15:41Z Merged pull request |-\|/-| 1391 +2 −0 md 0|-\|/-| 
+Update README's installation guide to use Moya 10.0.0 |-\|/-| 2017-10-21T19:52:19Z Merged pull request |-\|/-| 1390 +4 −4 md 0|-\|/-| 
+Update Rakefile to use iOS 11.0.1 to fix CI |-\|/-| 2017-10-21T15:43:53Z Merged pull request |-\|/-| 1388 +1 −1 Rakefile 1|-\|/-| 
+[WIP] Update RxSwift.md |-\|/-| 2017-11-03T12:01:09Z Merged pull request |-\|/-| 1386 +5 −1 md 0|-\|/-| 
+Update RxSwift dependency to 4.0.0 |-\|/-| 2017-10-20T12:50:55Z Merged pull request |-\|/-| 1385 +6 −6 Cartfile resolved podspec swift 5|-\|/-| 
+Fix a bug that decodable mapping won't decode nested json array |-\|/-| 2017-10-21T15:17:22Z Merged pull request |-\|/-| 1382 +53 −2 swift 4|-\|/-| 
+tighten up our stale rules to 2 weeks #fortnight |-\|/-| 2017-10-22T21:24:54Z Merged pull request |-\|/-| 1378 +2 −2 yml 1|-\|/-| 
+Test out danger swift on a mac CI build |-\|/-| 2018-04-10T08:31:03Z Closed pull request |-\|/-| 1377 +22 −42 swift Gemfile lock yml 4|-\|/-| 
+Additional updates to SPM installation |-\|/-| 2017-10-13T21:16:58Z Merged pull request |-\|/-| 1375 +3 −3 md 0|-\|/-| 
+Remove ReactiveCocoa subspec |-\|/-| 2017-10-12T20:43:28Z Merged pull request |-\|/-| 1374 +3 −4 podspec md 1|-\|/-| 
+10.0.0 dev |-\|/-| 2017-10-12T11:02:51Z Closed pull request |-\|/-| 1373 +844 −358 swift-version Cartfile resolved md podspec pbxproj swift Rakefile 9|-\|/-| 
+Fix SPM instructions for Moya 10.0.0-beta.1 |-\|/-| 2017-10-12T07:19:11Z Merged pull request |-\|/-| 1370 +2 −2 md 0|-\|/-| 
+Add documentation for Response |-\|/-| 2017-10-21T15:21:54Z Merged pull request |-\|/-| 1367 +339 −0 md 0|-\|/-| 
+update files in  docs_CN and README_CN.md |-\|/-| 2017-10-11T08:41:05Z Merged pull request |-\|/-| 1365 +219 −185 md 0|-\|/-| 
+update chinese docs  |-\|/-| 2017-10-11T08:46:42Z Closed pull request |-\|/-| 1360 +219 −185 md 0|-\|/-| 
+Improve changelog readability |-\|/-| 2017-10-10T09:16:40Z Merged pull request |-\|/-| 1359 +10 −10 md 0|-\|/-| 
+Refactored Decodable parsing |-\|/-| 2017-10-22T21:26:55Z Closed pull request |-\|/-| 1358 +905 −352 swift-version Cartfile resolved md podspec pbxproj swift 7|-\|/-| 
+Add Moya 9.0 -> 10.0 migration guide |-\|/-| 2017-10-11T07:00:08Z Merged pull request |-\|/-| 1356 +22 −6 md 0|-\|/-| 
+Add link to migration guides in README |-\|/-| 2017-10-08T21:42:10Z Merged pull request |-\|/-| 1355 +2 −0 md 0|-\|/-| 
+[Stalebot] Adjust the days. |-\|/-| 2017-10-07T19:45:31Z Merged pull request |-\|/-| 1351 +3 −3 yml 1|-\|/-| 
+[Rakefile] Add release date to the Changelog in release script |-\|/-| 2017-10-08T16:16:03Z Merged pull request |-\|/-| 1350 +2 −1 Rakefile 1|-\|/-| 
+[Feature] Add Task.requestJSONEncodable |-\|/-| 2017-10-08T16:16:25Z Merged pull request |-\|/-| 1349 +123 −34 md pbxproj swift 9|-\|/-| 
+Feature: Add JSON encodable task |-\|/-| 2017-10-07T16:53:38Z Closed pull request |-\|/-| 1348 +75 −4 md pbxproj swift 8|-\|/-| 
+Chore: replace addDisposableTo method from RxSwift |-\|/-| 2017-10-07T15:49:08Z Merged pull request |-\|/-| 1347 +4 −4 swift 1|-\|/-| 
+Chore: Add stubbing requests example to Basic Example |-\|/-| 2017-10-31T23:14:22Z Closed pull request |-\|/-| 1346 +8 −3 md 0|-\|/-| 
+ArrayAsRootContainer.md example for Alamofire 4.* |-\|/-| 2017-10-06T01:05:38Z Closed pull request |-\|/-| 1344 +54 −0 md 0|-\|/-| 
+Add custom parameter encoding example. |-\|/-| 2017-10-07T08:49:35Z Merged pull request |-\|/-| 1343 +42 −0 md 0|-\|/-| 
+Enable swiftlint for Examples/ + cleanup rules |-\|/-| 2017-10-11T22:41:00Z Merged pull request |-\|/-| 1341 +192 −107 yml swift 5|-\|/-| 
+[xcodeproj] add a number of recommended compiler flags |-\|/-| 2017-10-03T18:05:03Z Merged pull request |-\|/-| 1340 +59 −24 pbxproj xcscheme 5|-\|/-| 
+[WIP] [CI] Update to CircleCI 2.0 |-\|/-| 2018-02-05T14:07:10Z Closed pull request |-\|/-| 1339 +508 −363 yml swift-version Cartfile resolved md podspec pbxproj swift Rakefile 9|-\|/-| 
+Added section in readme to ask anyone for help in improving the docs |-\|/-| 2017-10-03T05:35:49Z Merged pull request |-\|/-| 1337 +17 −0 md 0|-\|/-| 
+[Package managers] Update dependencies. |-\|/-| 2017-10-02T16:04:35Z Merged pull request |-\|/-| 1336 +17 −17 Cartfile resolved Demo/Podfile lock podspec swift 7|-\|/-| 
+Add support for mapping response to Decodable object |-\|/-| 2017-10-06T22:52:45Z Merged pull request |-\|/-| 1335 +327 −1 md swift 8|-\|/-| 
+[Documentation] Fix Contributing & CoC links in Readme |-\|/-| 2017-09-30T12:31:40Z Merged pull request |-\|/-| 1334 +2 −2 md 0|-\|/-| 
+Add Paw-Moya in CommunityProjects.md |-\|/-| 2017-09-29T18:35:26Z Merged pull request |-\|/-| 1332 +2 −1 md 0|-\|/-| 
+Add MultiTarget sample |-\|/-| 2017-10-21T15:19:36Z Closed pull request |-\|/-| 1328 +64 −7 pbxproj swift lock 4|-\|/-| 
+Update CommunityProjects.md |-\|/-| 2017-09-29T16:41:52Z Closed pull request |-\|/-| 1327 +1 −2 md 0|-\|/-| 
+Add Task case to handle request with Encodable type. #1325 |-\|/-| 2017-10-07T16:52:20Z Closed pull request |-\|/-| 1326 +81 −10 swift resolved md pbxproj 7|-\|/-| 
+[WIP][CI] Add new script to exit on non-trivial changes (docs, markdown, etc) |-\|/-| 2017-10-02T19:07:56Z Closed pull request |-\|/-| 1324 +12 −1 yml sh 2|-\|/-| 
+[Documentation] Add Contributing.md & Code of Conduct.md from contributors repo. |-\|/-| 2017-09-29T16:29:47Z Merged pull request |-\|/-| 1322 +52 −2 md 0|-\|/-| 
+Docs  translated into Chinese |-\|/-| 2017-09-29T18:14:29Z Merged pull request |-\|/-| 1321 +2,026 −0 md 0|-\|/-| 
+[Removed] RxMoyaProvider and ReactiveSwiftMoyaProvider |-\|/-| 2017-09-28T14:47:36Z Merged pull request |-\|/-| 1320 +10 −216 md pbxproj swift 5|-\|/-| 
+Add PR template |-\|/-| 2017-09-26T18:49:43Z Merged pull request |-\|/-| 1317 +9 −1 md Dangerfile 1|-\|/-| 
+Set indentWith and tabWidth in project settings |-\|/-| 2017-09-27T21:31:10Z Merged pull request |-\|/-| 1315 +2 −0 pbxproj 1|-\|/-| 
+Added Insights for Instragram App |-\|/-| 2017-09-26T13:00:36Z Merged pull request |-\|/-| 1314 +1 −0 md 0|-\|/-| 
+Stop retaining self in rxReuestWithProgress |-\|/-| 2017-10-02T19:16:01Z Merged pull request |-\|/-| 1311 +6 −3 md swift 1|-\|/-| 
+Update CommunityProjects.md |-\|/-| 2017-09-25T16:16:12Z Merged pull request |-\|/-| 1310 +1 −1 md 0|-\|/-| 
+Access modifier for Swift 4 |-\|/-| 2017-09-24T23:52:44Z Closed pull request |-\|/-| 1308 +2 −2 swift 1|-\|/-| 
+Update RxSwift dependency to 4.0.0-beta.0 |-\|/-| 2017-09-23T20:10:28Z Merged pull request |-\|/-| 1306 +10 −10 Cartfile resolved Demo/Podfile lock podspec 5|-\|/-| 
+fix(rxRequest method) |-\|/-| 2017-09-21T19:19:46Z Closed pull request |-\|/-| 1302 +3 −3 swift 1|-\|/-| 
+Fixing potential issue with RxSwift request method |-\|/-| 2017-09-29T16:59:08Z Closed pull request |-\|/-| 1294 +7 −5 pbxproj swift 2|-\|/-| 
+Consolidate Demos into Moya.xcodeproj |-\|/-| 2017-10-02T19:04:19Z Merged pull request |-\|/-| 1292 +488 −1,028 resolved pbxproj xcworkspacedata xcscheme Demo/Podfile lock swift plist 10|-\|/-| 
+Update Readme.md |-\|/-| 2017-09-18T12:26:29Z Closed pull request |-\|/-| 1291 +1 −0 md 0|-\|/-| 
+NetworkActivityPlugin to have target in networkActivityClosure. |-\|/-| 2017-09-16T17:23:16Z Merged pull request |-\|/-| 1290 +48 −18 md swift 4|-\|/-| 
+Remove Endpoint default arguments. |-\|/-| 2017-09-16T16:24:24Z Merged pull request |-\|/-| 1289 +13 −11 md swift 4|-\|/-| 
+[CI] Enable tvOS/macOS builds. |-\|/-| 2017-09-15T09:25:52Z Merged pull request |-\|/-| 1287 +3 −3 Rakefile 1|-\|/-| 
+Update AccessTokenPlugin to be able to pass token as url parameter |-\|/-| 2017-09-14T20:54:02Z Closed pull request |-\|/-| 1279 +33 −6 swift 2|-\|/-| 
+Update RxSwift.md |-\|/-| 2017-09-09T09:26:36Z Merged pull request |-\|/-| 1274 +1 −1 md 0|-\|/-| 
+Fix typo: // to /// |-\|/-| 2017-09-07T05:00:49Z Merged pull request |-\|/-| 1269 +1 −1 swift 1|-\|/-| 
+Updates SPM manifest to V4 API |-\|/-| 2017-09-23T13:08:21Z Merged pull request |-\|/-| 1266 +88 −23 swift-version resolved swift md 3|-\|/-| 
+Updates SPM install instructions to use Moya 9 |-\|/-| 2017-09-06T21:30:38Z Merged pull request |-\|/-| 1264 +2 −2 md 0|-\|/-| 
+Added switch statement |-\|/-| 2017-09-05T10:47:29Z Merged pull request |-\|/-| 1262 +9 −7 md 0|-\|/-| 
+[Documentation] Update docs for 9.0.0 release. |-\|/-| 2017-09-04T09:11:08Z Merged pull request |-\|/-| 1256 +62 −211 md 0|-\|/-| 
+[Documentation][Examples] Add MultipartUpload.md |-\|/-| 2017-09-04T10:51:06Z Merged pull request |-\|/-| 1255 +58 −0 md 0|-\|/-| 
+[Gardening] Cleaning the code in core a little bit. |-\|/-| 2017-09-04T09:10:45Z Merged pull request |-\|/-| 1254 +75 −88 pbxproj swift 5|-\|/-| 
+Remove default value from Endpoint for task parameter |-\|/-| 2017-09-02T09:33:18Z Merged pull request |-\|/-| 1252 +12 −9 md lock podspec swift 4|-\|/-| 
+[WIP] Remove default arguments for Endpoint initializer |-\|/-| 2017-09-01T23:30:05Z Closed pull request |-\|/-| 1249 +31 −16 md lock podspec swift 6|-\|/-| 
+Propagate parameter encoding error for URLRequest mapping |-\|/-| 2017-09-26T15:19:10Z Merged pull request |-\|/-| 1248 +174 −73 md swift 5|-\|/-| 
+[Tests] Add unit test about uploading multipart data |-\|/-| 2017-09-23T14:13:33Z Merged pull request |-\|/-| 1243 +50 −3 swift 2|-\|/-| 
+[Tests] Added a test for progress callback when doing upload task |-\|/-| 2017-08-26T14:52:32Z Merged pull request |-\|/-| 1242 +63 −6 md swift 2|-\|/-| 
+[Tests] Add tests for creating urlRequest from updated task structure. |-\|/-| 2017-08-26T14:53:02Z Merged pull request |-\|/-| 1241 +220 −32 private md swift 4|-\|/-| 
+Version table update |-\|/-| 2017-09-18T12:41:46Z Merged pull request |-\|/-| 1239 +9 −9 md 0|-\|/-| 
+`Progress` into the response when calling progress callback on completion |-\|/-| 2017-08-25T15:00:17Z Merged pull request |-\|/-| 1237 +19 −1 md swift 2|-\|/-| 
+Added installation step for Carthage in Readme. |-\|/-| 2017-08-24T21:05:41Z Merged pull request |-\|/-| 1236 +6 −0 md 0|-\|/-| 
+Be notified of progress using the callback closure also for data request |-\|/-| 2017-08-23T18:30:49Z Merged pull request |-\|/-| 1234 +43 −5 md swift 3|-\|/-| 
+Be notified of progress using the callback closure also for data request |-\|/-| 2017-08-22T15:46:43Z Closed pull request |-\|/-| 1232 +43 −4 swift 3|-\|/-| 
+Added tests for Single+Response and refactored Shared Test Helpers |-\|/-| 2017-08-17T17:21:48Z Merged pull request |-\|/-| 1229 +352 −78 md pbxproj swift 4|-\|/-| 
+MISTAKE PR |-\|/-| 2017-08-16T19:41:03Z Closed pull request |-\|/-| 1228 +650 −438 md swift pbxproj Rakefile 6|-\|/-| 
+[Docs] Update MigrationGuides.md for changes to reactive API |-\|/-| 2017-08-16T10:39:43Z Merged pull request |-\|/-| 1225 +6 −0 md 0|-\|/-| 
+[SPM] Fix warnings when building Moya module. |-\|/-| 2017-08-16T10:52:07Z Merged pull request |-\|/-| 1224 +4 −1 swift 3|-\|/-| 
+RxMoya: Create Single directly instead of Observable.create().asSingle() |-\|/-| 2017-08-15T12:23:18Z Merged pull request |-\|/-| 1220 +4 −5 swift 1|-\|/-| 
+[Project] Fix Single+Response owner to RxMoya. |-\|/-| 2017-08-15T17:17:24Z Merged pull request |-\|/-| 1218 +2 −2 pbxproj 1|-\|/-| 
+Add AuthorizationType with Basic header |-\|/-| 2017-08-17T08:48:45Z Merged pull request |-\|/-| 1215 +97 −63 md swift 2|-\|/-| 
+[RxSwift] Add operators to Single<Response> |-\|/-| 2017-08-13T16:11:08Z Merged pull request |-\|/-| 1213 +61 −1 md pbxproj swift 2|-\|/-| 
+[Docs] Update reactive descriptions. |-\|/-| 2017-08-13T16:11:45Z Merged pull request |-\|/-| 1212 +53 −19 md swift 1|-\|/-| 
+Update ErrorTypes.md to represent response in .underlying case |-\|/-| 2017-08-10T20:55:23Z Merged pull request |-\|/-| 1211 +4 −4 md 0|-\|/-| 
+Correct spelling of behvaior #trivial |-\|/-| 2017-08-09T09:54:12Z Merged pull request |-\|/-| 1204 +1 −1 swift 1|-\|/-| 
+Delete the redundant import statement. |-\|/-| 2017-08-02T07:11:46Z Merged pull request |-\|/-| 1197 +0 −8 swift 8|-\|/-| 
+Update core to support Swift 4. |-\|/-| 2017-08-04T19:31:28Z Merged pull request |-\|/-| 1193 +6 −5 md Rakefile swift yml 3|-\|/-| 
+Update docs for reactive changes |-\|/-| 2017-08-08T11:36:36Z Merged pull request |-\|/-| 1192 +14 −125 md 0|-\|/-| 
+Update dependencies |-\|/-| 2017-07-25T10:51:39Z Merged pull request |-\|/-| 1185 +21 −20 Cartfile resolved md lock podspec swift 6|-\|/-| 
+Adds Vision document |-\|/-| 2017-07-27T15:59:45Z Merged pull request |-\|/-| 1183 +32 −0 md 0|-\|/-| 
+[Release] 9.0.0-alpha.1 |-\|/-| 2017-07-29T16:24:25Z Merged pull request |-\|/-| 1181 +1,129 −884 Cartfile private resolved md lock swift podspec 8|-\|/-| 
+Updates documentation for URL(target:) init |-\|/-| 2017-07-21T17:11:50Z Merged pull request |-\|/-| 1180 +6 −2 md 0|-\|/-| 
+[General] Add public URL(target:) initializer. |-\|/-| 2017-07-21T13:35:46Z Merged pull request |-\|/-| 1178 +22 −13 md pbxproj swift 3|-\|/-| 
+[Documentation] Move threading docs to Threading.md & expand it a bit. |-\|/-| 2017-07-20T14:50:40Z Merged pull request |-\|/-| 1173 +31 −19 md 0|-\|/-| 
+Add BasicAuthPlugin |-\|/-| 2017-08-11T19:43:40Z Closed pull request |-\|/-| 1172 +17 −0 pbxproj swift 2|-\|/-| 
+Fix: Xcode 9 Beta submission bug |-\|/-| 2017-07-15T18:07:32Z Merged pull request |-\|/-| 1169 +93 −63 xcscheme 3|-\|/-| 
+Update stale.yml label to "stale" |-\|/-| 2017-07-11T05:48:49Z Merged pull request |-\|/-| 1168 +1 −1 yml 1|-\|/-| 
+convert "if let" -> "switch case" |-\|/-| 2017-07-07T11:38:19Z Merged pull request |-\|/-| 1165 +4 −5 swift 1|-\|/-| 
+[Stubbing] Add callbackQueue to stubRequest. |-\|/-| 2017-07-07T16:05:35Z Merged pull request |-\|/-| 1164 +12 −6 swift 3|-\|/-| 
+[Reactive] Update tests to new API & fix double response problem in ReactiveSwift extension. |-\|/-| 2017-07-12T15:34:24Z Merged pull request |-\|/-| 1163 +231 −82 md pbxproj swift 2|-\|/-| 
+[General] Availability cleanup. |-\|/-| 2017-07-20T17:17:33Z Merged pull request |-\|/-| 1162 +1 −54 md pbxproj swift 3|-\|/-| 
+Remove quotes around 'no recent activity' label in stale.yml |-\|/-| 2017-07-05T20:09:43Z Merged pull request |-\|/-| 1161 +5 −2 yml 1|-\|/-| 
+Set probot closeComment to false in stale.yml configuration |-\|/-| 2017-07-05T17:39:03Z Merged pull request |-\|/-| 1160 +1 −4 yml 1|-\|/-| 
+Removes markdown from stale.yml |-\|/-| 2017-07-05T14:37:08Z Merged pull request |-\|/-| 1159 +1 −1 yml 1|-\|/-| 
+Remove emojis from stale.yml configuration |-\|/-| 2017-07-03T21:14:43Z Merged pull request |-\|/-| 1158 +2 −2 yml 1|-\|/-| 
+Update stale.yml configuration |-\|/-| 2017-07-03T19:28:05Z Merged pull request |-\|/-| 1157 +1 −1 yml 1|-\|/-| 
+Remove string percent encoding in NetworkLoggerPlugin #2 |-\|/-| 2017-06-30T17:57:19Z Merged pull request |-\|/-| 1155 +26 −3 md swift 2|-\|/-| 
+[Feature] Migrate from multiple providers to Reactive implementations (`rx` & `reactive`). |-\|/-| 2017-07-06T18:26:39Z Merged pull request |-\|/-| 1153 +699 −714 private resolved md lock pbxproj xcscheme swift 12|-\|/-| 
+Remove string percent encoding in NetworkLoggerPlugin |-\|/-| 2017-06-30T17:40:22Z Closed pull request |-\|/-| 1151 +0 −0 0|-\|/-| 
+Extract and reuse networkCompletion closure in requestNormal body |-\|/-| 2017-06-29T09:24:26Z Merged pull request |-\|/-| 1149 +13 −22 swift 1|-\|/-| 
+[WIP] Support Encodable types natively |-\|/-| 2017-06-29T20:20:27Z Closed pull request |-\|/-| 1148 +122 −64 swift 5|-\|/-| 
+Flatten enums & parameters into extended Task type |-\|/-| 2017-08-09T17:30:40Z Merged pull request |-\|/-| 1147 +176 −331 md swift 9|-\|/-| 
+Update Dangerfile to warn when tests were not updated |-\|/-| 2017-06-27T11:34:18Z Merged pull request |-\|/-| 1146 +6 −0 Dangerfile 1|-\|/-| 
+Add testing.md |-\|/-| 2017-06-25T21:49:34Z Merged pull request |-\|/-| 1142 +12 −0 md 0|-\|/-| 
+Create Reactive providers via `rx` or `reactive` |-\|/-| 2017-06-30T06:23:35Z Closed pull request |-\|/-| 1140 +186 −63 resolved md lock pbxproj swift 10|-\|/-| 
+Adding endpoint parameters to multipart form data |-\|/-| 2017-08-12T20:01:35Z Closed pull request |-\|/-| 1139 +18 −11 swift 1|-\|/-| 
+[WIP] Support Encodable types in TargetType |-\|/-| 2017-06-28T07:45:03Z Closed pull request |-\|/-| 1136 +52 −56 swift 5|-\|/-| 
+Merge pull request #1 from Moya/master |-\|/-| 2017-06-18T18:21:40Z Closed pull request |-\|/-| 1132 +0 −0 0|-\|/-| 
+Enable "Allow app extension API only" flag |-\|/-| 2017-06-17T20:47:25Z Merged pull request |-\|/-| 1127 +9 −6 md pbxproj 1|-\|/-| 
+[9.0.0] Merge master into 9.0.0-dev |-\|/-| 2017-06-17T10:59:59Z Merged pull request |-\|/-| 1124 +904 −636 yml gitignore private resolved md Dangerfile pbxproj swift lock 10|-\|/-| 
+appendingPathComponent  didn't work well |-\|/-| 2017-06-14T04:29:25Z Closed pull request |-\|/-| 1121 +5 −2 swift 1|-\|/-| 
+[Documentation] Fix example on how to send params in URL on POST |-\|/-| 2017-06-13T13:04:14Z Merged pull request |-\|/-| 1120 +4 −3 md 0|-\|/-| 
+Renames occurrences of `queue` to `callbackQueue` |-\|/-| 2017-06-12T07:48:08Z Merged pull request |-\|/-| 1117 +66 −65 md swift 6|-\|/-| 
+[Docs][Examples][Add Assets downloading setup & a little cleanup] |-\|/-| 2017-06-05T17:08:15Z Merged pull request |-\|/-| 1113 +94 −5 md 0|-\|/-| 
+Update readme regarding json fixture files |-\|/-| 2017-06-04T12:27:18Z Merged pull request |-\|/-| 1112 +2 −2 md 0|-\|/-| 
+[StaleBot] Changes number of days in close comment |-\|/-| 2017-06-01T11:42:13Z Merged pull request |-\|/-| 1109 +1 −1 yml 1|-\|/-| 
+Use consistent heading styles, fix indentation + spelling |-\|/-| 2017-05-26T16:52:40Z Merged pull request |-\|/-| 1106 +132 −175 md 0|-\|/-| 
+[Documentation] Update Releasing.md instructions |-\|/-| 2017-05-26T16:52:56Z Merged pull request |-\|/-| 1105 +24 −7 md 0|-\|/-| 
+[Tests] Add separate SwiftLint config & clean up. |-\|/-| 2017-05-26T05:07:19Z Merged pull request |-\|/-| 1103 +269 −258 yml swift 7|-\|/-| 
+[StaleBot] Add first version of stale.yml config. |-\|/-| 2017-06-01T11:17:05Z Merged pull request |-\|/-| 1101 +33 −0 yml 1|-\|/-| 
+[Tests] Update MatcherFunc to new Nimble Predicate API. |-\|/-| 2017-05-24T18:15:39Z Merged pull request |-\|/-| 1099 +37 −36 private resolved swift 4|-\|/-| 
+Update pods in Demo |-\|/-| 2017-05-22T07:44:18Z Merged pull request |-\|/-| 1096 +7 −7 lock 1|-\|/-| 
+[RxMoya] Fix double response event in requestWithProgress. |-\|/-| 2017-05-22T13:35:32Z Merged pull request |-\|/-| 1095 +183 −36 md pbxproj swift 3|-\|/-| 
+[SPM] Git suffix + .gitignore |-\|/-| 2017-05-22T08:09:16Z Merged pull request |-\|/-| 1093 +7 −6 gitignore swift md 2|-\|/-| 
+[Demo] MultiTarget gardening. |-\|/-| 2017-05-20T13:32:53Z Merged pull request |-\|/-| 1092 +3 −3 swift 1|-\|/-| 
+fix typos using misspell |-\|/-| 2017-05-20T11:11:36Z Merged pull request |-\|/-| 1091 +20 −20 md Rakefile swift 4|-\|/-| 
+Add applications to CommunityProjects |-\|/-| 2017-05-16T11:32:27Z Merged pull request |-\|/-| 1089 +6 −1 md 0|-\|/-| 
+Re-indent a few lines to fix indentation in Demo/ViewController.swift |-\|/-| 2017-05-14T18:34:32Z Merged pull request |-\|/-| 1086 +10 −10 swift 1|-\|/-| 
+Replace tabs with spaces for consistent indentation |-\|/-| 2017-05-14T16:50:19Z Merged pull request |-\|/-| 1085 +3 −3 md 0|-\|/-| 
+Lowercase enum: ".Failure" -> ".failure" |-\|/-| 2017-05-14T16:48:26Z Merged pull request |-\|/-| 1084 +1 −1 md 0|-\|/-| 
+[Docs] Community projects. |-\|/-| 2017-05-14T17:27:18Z Merged pull request |-\|/-| 1082 +25 −16 md 0|-\|/-| 
+Updated Danger language & fixed a Danger rule. |-\|/-| 2017-05-10T10:16:44Z Merged pull request |-\|/-| 1077 +7 −7 Dangerfile 1|-\|/-| 
+Changes Danger 'missing changelog' rule to warn instead of fail |-\|/-| 2017-05-09T18:08:22Z Merged pull request |-\|/-| 1076 +1 −1 Dangerfile 1|-\|/-| 
+Adds property headers to TargetType |-\|/-| 2017-05-05T00:34:02Z Merged pull request |-\|/-| 1067 +78 −4 md swift 11|-\|/-| 
+Added NetClient to Readme.md |-\|/-| 2017-05-10T10:28:33Z Closed pull request |-\|/-| 1065 +1 −0 md 0|-\|/-| 
+Add optional queue parameter to Reactive providers |-\|/-| 2017-06-04T05:07:07Z Merged pull request |-\|/-| 1055 +242 −19 md swift 6|-\|/-| 
+Only append path to URL when path is not empty |-\|/-| 2017-04-19T12:24:17Z Merged pull request |-\|/-| 1053 +35 −4 md swift 2|-\|/-| 
+Add a link to the license |-\|/-| 2017-04-04T11:14:48Z Merged pull request |-\|/-| 1045 +1 −1 md 0|-\|/-| 
+Enhance Moya.Response by using HTTPURLResponse |-\|/-| 2017-04-07T23:24:05Z Merged pull request |-\|/-| 1044 +8 −7 md swift 4|-\|/-| 
+update circle ci xcode version to 8.3 |-\|/-| 2017-04-07T18:28:41Z Merged pull request |-\|/-| 1043 +15 −15 resolved swift yml 4|-\|/-| 
+Resolved Swift lint warnings |-\|/-| 2017-04-03T18:12:56Z Merged pull request |-\|/-| 1042 +3 −3 swift 2|-\|/-| 
+Fixed link to `Code of Conduct.md` |-\|/-| 2017-04-03T18:04:37Z Merged pull request |-\|/-| 1041 +1 −1 md 0|-\|/-| 
+Fixes fourth-tier header in Advanced.md |-\|/-| 2017-03-31T03:49:31Z Merged pull request |-\|/-| 1038 +1 −1 md 0|-\|/-| 
+Update README.md |-\|/-| 2017-03-30T11:27:07Z Merged pull request |-\|/-| 1035 +5 −5 md 0|-\|/-| 
+[WIP] Single scheme |-\|/-| 2017-03-28T13:57:01Z Closed pull request |-\|/-| 1031 +235 −2,688 Cartfile resolved xcconfig md lock podspec pbxproj xcscheme 9|-\|/-| 
+Fixes ReactiveSwift deprecation warning |-\|/-| 2017-04-03T18:22:42Z Merged pull request |-\|/-| 1027 +17 −14 Cartfile resolved md lock podspec swift 5|-\|/-| 
+Observable single 9.0 |-\|/-| 2017-03-24T15:26:53Z Merged pull request |-\|/-| 1020 +69 −53 Cartfile resolved md lock podspec swift 7|-\|/-| 
+Fixed typo in TargetType comments |-\|/-| 2017-03-20T22:48:54Z Merged pull request |-\|/-| 1019 +1 −1 swift 1|-\|/-| 
+Reapply #993 into 9.0.0-dev |-\|/-| 2017-03-16T14:38:50Z Merged pull request |-\|/-| 1017 +64 −20 md swift 11|-\|/-| 
+update RxMoyaProvider.request to return a Single |-\|/-| 2017-03-22T18:34:05Z Closed pull request |-\|/-| 1016 +87 −111 Cartfile resolved md lock podspec swift 15|-\|/-| 
+Revert "Merge branch '9.0.0-dev' into master" |-\|/-| 2017-03-15T21:24:33Z Merged pull request |-\|/-| 1015 +20 −64 md swift 11|-\|/-| 
+Merge master into 9.0.0 dev |-\|/-| 2017-03-16T14:24:36Z Merged pull request |-\|/-| 1013 +36 −74 md lock podspec swift 13|-\|/-| 
+Adds entry in changelog after #966 |-\|/-| 2017-03-13T13:26:58Z Merged pull request |-\|/-| 1010 +2 −1 md 0|-\|/-| 
+Fix typo in Issue Template |-\|/-| 2017-03-09T16:06:38Z Merged pull request |-\|/-| 1005 +1 −1 md 0|-\|/-| 
+fix memory leak in stub mode |-\|/-| 2017-03-09T12:42:45Z Merged pull request |-\|/-| 1002 +2 −0 md swift 1|-\|/-| 
+[Help Wanted] Revert "Merge in master" |-\|/-| 2017-03-01T21:34:07Z Closed pull request |-\|/-| 996 +2,022 −3,651 gitignore yml Cartfile private resolved md Dangerfile 6|-\|/-| 
+[Proposal] Add target to EndPoint<Target> |-\|/-| 2017-03-25T09:43:16Z Closed pull request |-\|/-| 995 +13 −8 swift 5|-\|/-| 
+[Review] Add response to moya underlaying error |-\|/-| 2017-03-02T22:32:53Z Merged pull request |-\|/-| 993 +63 −20 md swift 11|-\|/-| 
+Revert `isVerbose` to `verbose` in initializer |-\|/-| 2017-02-28T15:12:43Z Merged pull request |-\|/-| 990 +1 −1 md 0|-\|/-| 
+Updated docs |-\|/-| 2017-02-28T03:20:04Z Merged pull request |-\|/-| 989 +2 −2 md 0|-\|/-| 
+get response and error when use Alamofire validation |-\|/-| 2017-03-04T02:48:51Z Closed pull request |-\|/-| 986 +165 −21 swift 7|-\|/-| 
+Change build shield to same style as other shields and point to master branch |-\|/-| 2017-02-25T10:10:52Z Merged pull request |-\|/-| 984 +1 −1 md 0|-\|/-| 
+fix Carthage Instructions |-\|/-| 2017-02-24T19:14:13Z Merged pull request |-\|/-| 981 +0 −8 md 0|-\|/-| 
+Fixed `reversedPrint` arguments for output |-\|/-| 2017-02-23T08:05:38Z Merged pull request |-\|/-| 979 +8 −4 md swift 1|-\|/-| 
+Add Result as an explicit dependency in SwiftPM |-\|/-| 2017-02-21T15:07:53Z Merged pull request |-\|/-| 977 +2 −1 swift 1|-\|/-| 
+Mention version 7.0.4 for usage in Swift 2.3 |-\|/-| 2017-02-16T13:08:47Z Merged pull request |-\|/-| 971 +1 −1 md 0|-\|/-| 
+Response with destinationURL |-\|/-| 2017-06-04T12:36:18Z Closed pull request |-\|/-| 968 +31 −22 swift 9|-\|/-| 
+Convert project to single target for all platforms |-\|/-| 2017-04-11T14:43:11Z Merged pull request |-\|/-| 967 +881 −3,242 md lock pbxproj xcscheme 5|-\|/-| 
+Swift 3.1 fix for MoyaAvailability |-\|/-| 2017-02-15T00:47:34Z Merged pull request |-\|/-| 966 +1 −1 swift 1|-\|/-| 
+Add ablity to use class func to initialize in subclass |-\|/-| 2017-06-25T18:46:11Z Closed pull request |-\|/-| 963 +34 −11 resolved md swift 4|-\|/-| 
+Updated capitalization in Endpoint docs. |-\|/-| 2017-02-12T17:05:43Z Merged pull request |-\|/-| 962 +4 −4 md 0|-\|/-| 
+In Demo, change completion for GitHub.userRepositories to use dematerialize() |-\|/-| 2017-02-14T22:29:06Z Merged pull request |-\|/-| 960 +30 −35 swift 3|-\|/-| 
+Add explicit dependency on Result. |-\|/-| 2017-02-10T13:57:06Z Merged pull request |-\|/-| 957 +1 −0 Cartfile 1|-\|/-| 
+Changes POST example in Basic.md to send parameters as JSON |-\|/-| 2017-02-07T20:04:41Z Merged pull request |-\|/-| 954 +32 −12 md 0|-\|/-| 
+Extension to support Marshal JSON framework |-\|/-| 2017-02-03T17:46:55Z Merged pull request |-\|/-| 949 +1 −0 md 0|-\|/-| 
+Update installation instructions (version pinning) |-\|/-| 2017-02-07T20:26:54Z Merged pull request |-\|/-| 947 +15 −14 md 0|-\|/-| 
+Fixes vertical alignment |-\|/-| 2017-02-01T17:34:15Z Merged pull request |-\|/-| 945 +41 −41 swift 4|-\|/-| 
+Loosen dependency versions |-\|/-| 2017-02-01T17:56:54Z Merged pull request |-\|/-| 944 +21 −21 Cartfile resolved lock podspec 4|-\|/-| 
+Update dependencies |-\|/-| 2017-02-01T09:24:47Z Closed pull request |-\|/-| 943 +16 −16 Cartfile resolved lock podspec 4|-\|/-| 
+Updates regex to accept X.Y.Z-beta.W versions |-\|/-| 2017-01-31T17:30:23Z Merged pull request |-\|/-| 941 +2 −2 Rakefile 1|-\|/-| 
+Update docs/Examples/Basic.md |-\|/-| 2017-01-31T11:16:33Z Merged pull request |-\|/-| 939 +3 −0 md 0|-\|/-| 
+Changes build badge to reflect state of branch master |-\|/-| 2017-01-19T17:52:16Z Merged pull request |-\|/-| 931 +1 −1 md 0|-\|/-| 
+Added a progress parameter to the reactive providers  |-\|/-| 2017-01-21T20:03:09Z Closed pull request |-\|/-| 930 +10 −9 md swift 3|-\|/-| 
+Update url for new structure in Basic.md |-\|/-| 2017-01-17T13:24:00Z Merged pull request |-\|/-| 925 +1 −1 md 0|-\|/-| 
+Update paths in new Dangerfile to new structure |-\|/-| 2017-01-17T13:25:10Z Merged pull request |-\|/-| 924 +3 −3 Dangerfile 1|-\|/-| 
+Fix links in docs/Plugins.md |-\|/-| 2017-01-17T01:05:50Z Merged pull request |-\|/-| 923 +4 −4 md 0|-\|/-| 
+Replaces usage of device UUID with device name |-\|/-| 2017-01-22T08:58:35Z Merged pull request |-\|/-| 922 +20 −15 Rakefile 1|-\|/-| 
+Fixes CI |-\|/-| 2017-01-11T18:59:59Z Merged pull request |-\|/-| 914 +4 −4 Rakefile 1|-\|/-| 
+Added a missing breaking change |-\|/-| 2017-01-11T16:17:56Z Merged pull request |-\|/-| 913 +1 −0 md 0|-\|/-| 
+Added EVReflection Moya extension |-\|/-| 2017-01-10T14:13:04Z Merged pull request |-\|/-| 912 +1 −0 md 0|-\|/-| 
+[WIP] MoyaProvider variant without generic parameter |-\|/-| 2017-01-13T15:03:47Z Merged pull request |-\|/-| 910 +95 −0 md 0|-\|/-| 
+Update Carthage install instructions |-\|/-| 2017-01-06T23:16:30Z Merged pull request |-\|/-| 907 +2 −3 md 0|-\|/-| 
+Fix typo in docs |-\|/-| 2017-01-06T10:31:58Z Merged pull request |-\|/-| 906 +1 −1 md 0|-\|/-| 
+Providers that are deallocated never completes |-\|/-| 2017-01-09T15:43:40Z Merged pull request |-\|/-| 905 +8 −6 md swift 1|-\|/-| 
+Add `--verbose` during `pod update` when releasing |-\|/-| 2017-01-04T18:48:56Z Merged pull request |-\|/-| 903 +1 −1 Rakefile 1|-\|/-| 
+Updates for SPM. |-\|/-| 2017-01-04T17:59:48Z Merged pull request |-\|/-| 902 +8 −20 swift md 1|-\|/-| 
+Update Readme and Demo's Podfile.lock for 8.0.0 |-\|/-| 2017-01-04T19:02:49Z Merged pull request |-\|/-| 901 +9 −10 lock md 1|-\|/-| 
+Update build shield. #trivial |-\|/-| 2017-01-04T09:02:48Z Merged pull request |-\|/-| 900 +2 −1 md 0|-\|/-| 
+Add documentation. #trivial |-\|/-| 2017-01-04T08:26:47Z Merged pull request |-\|/-| 899 +33 −1 swift 4|-\|/-| 
+Fix MoyaError #trivial |-\|/-| 2017-01-04T06:52:35Z Merged pull request |-\|/-| 898 +33 −0 swift 1|-\|/-| 
+Modify Endpoint tests for higher coverage. #trivial |-\|/-| 2017-01-04T06:50:02Z Merged pull request |-\|/-| 897 +6 −6 swift 1|-\|/-| 
+Fix typo in docs. #trivial |-\|/-| 2017-01-04T05:02:47Z Merged pull request |-\|/-| 896 +1 −1 md 0|-\|/-| 
+Remove unneeded Info.plist from Demo/Tests. #trivial |-\|/-| 2017-01-04T05:03:32Z Merged pull request |-\|/-| 895 +0 −24 plist 1|-\|/-| 
+Add AccessTokenPlugin |-\|/-| 2017-01-03T16:39:25Z Merged pull request |-\|/-| 893 +173 −0 md pbxproj swift 3|-\|/-| 
+Consolidate Demos into Moya.xcodeproj |-\|/-| 2017-09-18T19:49:20Z Closed pull request |-\|/-| 891 +587 −249 xcworkspacedata xcscheme Demo/Podfile swift plist 10|-\|/-| 
+Swift 3 availability tags |-\|/-| 2017-01-04T08:34:04Z Merged pull request |-\|/-| 890 +77 −5 md pbxproj swift 4|-\|/-| 
+Update dependencies |-\|/-| 2017-01-02T11:10:46Z Merged pull request |-\|/-| 889 +20 −20 Cartfile resolved Demo/Podfile lock podspec 5|-\|/-| 
+Update License's copyright year |-\|/-| 2017-01-02T07:07:03Z Merged pull request |-\|/-| 887 +1 −1 md 0|-\|/-| 
+Rework Testing Location |-\|/-| 2017-01-02T08:49:52Z Closed pull request |-\|/-| 886 +1,013 −789 gitignore Cartfile resolved pbxproj xcscheme Demo/Podfile lock 8|-\|/-| 
+Migrate Moya to a swift package manager compatible layout |-\|/-| 2017-01-03T00:26:32Z Merged pull request |-\|/-| 885 +1,174 −1,019 gitignore yml private resolved md pbxproj xcscheme plist Demo/Podfile lock podspec 11|-\|/-| 
+LocalizedError for Moya.Error |-\|/-| 2017-01-02T06:57:58Z Merged pull request |-\|/-| 884 +27 −18 md swift 4|-\|/-| 
+Rename Error to MoyaError #definitelynottrivial |-\|/-| 2017-01-03T01:31:59Z Merged pull request |-\|/-| 883 +155 −171 md pbxproj swift 12|-\|/-| 
+Remove default for TargetType.parameterEncoding |-\|/-| 2016-12-31T23:02:00Z Merged pull request |-\|/-| 882 +26 −7 md swift 7|-\|/-| 
+Stubbed responses from files for TargetType |-\|/-| 2017-01-21T07:40:10Z Closed pull request |-\|/-| 881 +45 −3 md pbxproj swift txt 4|-\|/-| 
+Rename ReactiveSwiftMoyaProvider files. #trivial |-\|/-| 2016-12-31T22:04:07Z Merged pull request |-\|/-| 880 +20 −20 pbxproj swift 3|-\|/-| 
+Rename RxMoyaProvider files. #trivial |-\|/-| 2016-12-31T22:04:28Z Merged pull request |-\|/-| 879 +20 −20 pbxproj swift 3|-\|/-| 
+Fix issue with pod install and new pre-release version of ReactiveSwift #trivial |-\|/-| 2016-12-30T20:12:09Z Closed pull request |-\|/-| 878 +3 −3 Demo/Podfile lock 2|-\|/-| 
+Rename Moya to MoyaProvider. #trivial |-\|/-| 2016-12-31T03:18:45Z Merged pull request |-\|/-| 877 +31 −31 pbxproj swift 4|-\|/-| 
+Rename Target.swift to TargetType.swift #trivial |-\|/-| 2017-01-02T07:01:43Z Merged pull request |-\|/-| 876 +10 −10 pbxproj swift 2|-\|/-| 
+Fix inaccurate Codecov reporting. #trivial |-\|/-| 2016-12-30T18:11:07Z Merged pull request |-\|/-| 874 +5 −5 yml 2|-\|/-| 
+MultiTarget Fix and Tests #trivial |-\|/-| 2016-12-30T03:05:44Z Merged pull request |-\|/-| 873 +78 −6 pbxproj swift 4|-\|/-| 
+Cleanup RxMoyaProvider tests. #trivial |-\|/-| 2017-01-02T09:25:14Z Merged pull request |-\|/-| 872 +36 −30 swift 1|-\|/-| 
+TargetType.swift refactor #trivial |-\|/-| 2016-12-30T10:25:26Z Merged pull request |-\|/-| 871 +109 −62 pbxproj swift 8|-\|/-| 
+Re-add MultiTarget to project. |-\|/-| 2016-12-29T21:26:12Z Merged pull request |-\|/-| 869 +11 −0 md pbxproj 1|-\|/-| 
+TargetType documentation |-\|/-| 2016-12-29T21:57:44Z Merged pull request |-\|/-| 867 +53 −3 md swift 1|-\|/-| 
+Refactor functions in Endpoint #trivial |-\|/-| 2016-12-29T19:06:06Z Merged pull request |-\|/-| 865 +3 −3 swift 1|-\|/-| 
+Default TargetType Property Implementations And SingleURLTarget |-\|/-| 2017-01-21T07:40:25Z Closed pull request |-\|/-| 861 +55 −83 pbxproj swift 7|-\|/-| 
+Switch to Void over () for function returns. |-\|/-| 2016-12-24T17:38:29Z Merged pull request |-\|/-| 860 +5 −5 swift 3|-\|/-| 
+TargetType specifies ParameterEncoding |-\|/-| 2016-12-25T18:25:04Z Merged pull request |-\|/-| 859 +38 −2 md swift 4|-\|/-| 
+Moya JASON Mapper update  |-\|/-| 2016-12-30T19:41:17Z Merged pull request |-\|/-| 856 +1 −0 md 0|-\|/-| 
+Update Carthage to use ReactiveSwift 1.0.0-rc.2 |-\|/-| 2016-12-20T14:47:00Z Closed pull request |-\|/-| 851 +3 −3 Cartfile resolved 2|-\|/-| 
+Update currently supported Swift version in Readme |-\|/-| 2016-12-19T12:12:54Z Merged pull request |-\|/-| 847 +0 −2 md 0|-\|/-| 
+Update the Info.plist version to 8.0 |-\|/-| 2016-12-29T21:28:47Z Merged pull request |-\|/-| 846 +1 −1 plist 1|-\|/-| 
+Update issue template to ask providing version numbers |-\|/-| 2016-12-18T15:28:32Z Merged pull request |-\|/-| 845 +6 −2 md 0|-\|/-| 
+Update Demo's Podfile.lock after releasing |-\|/-| 2016-12-20T22:33:17Z Merged pull request |-\|/-| 843 +1 −0 md 0|-\|/-| 
+Update dependencies |-\|/-| 2016-12-30T08:16:20Z Merged pull request |-\|/-| 842 +19 −24 Cartfile resolved Demo/Podfile lock podspec 5|-\|/-| 
+Rename `verbose` to `isVerbose` in NetworkLoggerPlugin |-\|/-| 2016-12-29T22:18:36Z Merged pull request |-\|/-| 841 +6 −5 md swift 1|-\|/-| 
+Various cleanups #trivial |-\|/-| 2016-12-17T09:37:50Z Merged pull request |-\|/-| 840 +28 −70 swift lock md 10|-\|/-| 
+Fetch CocoaPods from S3 instead of caching the repo |-\|/-| 2016-12-16T20:59:11Z Merged pull request |-\|/-| 838 +2 −2 yml 1|-\|/-| 
+Add manual installation guide |-\|/-| 2016-12-10T02:22:36Z Merged pull request |-\|/-| 833 +39 −0 md 0|-\|/-| 
+Make example code compile |-\|/-| 2016-12-08T22:58:12Z Merged pull request |-\|/-| 832 +9 −8 md 0|-\|/-| 
+Rename test file and class name |-\|/-| 2016-12-08T22:19:15Z Merged pull request |-\|/-| 831 +9 −9 pbxproj swift 2|-\|/-| 
+Don't warn about missing docs when PR is #trivial |-\|/-| 2016-12-07T00:49:41Z Merged pull request |-\|/-| 829 +1 −1 Dangerfile 1|-\|/-| 
+Updated multipart body building for 2.2 and 2.3 |-\|/-| 2016-12-07T15:26:32Z Merged pull request |-\|/-| 828 +34 −6 swift 1|-\|/-| 
+Cleanup closures #trivial |-\|/-| 2016-12-06T23:07:50Z Merged pull request |-\|/-| 827 +51 −51 swift 5|-\|/-| 
+Rename `ReactiveCocoaMoyaProviderTests` file to `ReactiveSwiftProviderTests` |-\|/-| 2016-12-08T16:51:32Z Merged pull request |-\|/-| 826 +8 −8 pbxproj swift 2|-\|/-| 
+Rename functions to comply with Swift 3 guidelines |-\|/-| 2016-12-07T15:22:19Z Merged pull request |-\|/-| 825 +49 −46 md swift 12|-\|/-| 
+Rename functions in PluginType to comply with design guidelines |-\|/-| 2016-12-08T19:55:28Z Merged pull request |-\|/-| 824 +53 −56 md swift 7|-\|/-| 
+Add a manual step (updating Readme) to Releasing.md |-\|/-| 2016-12-01T16:34:54Z Merged pull request |-\|/-| 817 +5 −1 md 0|-\|/-| 
+Swiftlint issue fix |-\|/-| 2016-12-01T14:57:48Z Merged pull request |-\|/-| 815 +1 −1 swift 1|-\|/-| 
+Update Readme to 8.0.0-beta.5 |-\|/-| 2016-12-01T11:41:54Z Merged pull request |-\|/-| 814 +1 −1 md 0|-\|/-| 
+Allow plugins to modify requests and responses. |-\|/-| 2016-12-02T20:29:42Z Merged pull request |-\|/-| 813 +158 −21 md swift 4|-\|/-| 
+Fix typo |-\|/-| 2016-11-30T13:47:03Z Merged pull request |-\|/-| 810 +1 −1 md 0|-\|/-| 
+Add a Danger rule to check for (simultaneous) changes in CocoaPods / Carthage files |-\|/-| 2016-11-30T21:08:25Z Merged pull request |-\|/-| 808 +14 −0 Dangerfile 1|-\|/-| 
+Removes multiple occurrences of 8.0.0-beta.5 in Changelog |-\|/-| 2016-11-29T14:45:09Z Merged pull request |-\|/-| 807 +0 −5 md 0|-\|/-| 
+Update all uses of `urlEscapedString` to `urlEscaped`. |-\|/-| 2016-11-29T13:39:48Z Merged pull request |-\|/-| 806 +11 −11 swift md 2|-\|/-| 
+Rename ReactiveCocoa to ReactiveSwift |-\|/-| 2016-11-29T17:55:09Z Merged pull request |-\|/-| 805 +69 −61 md Demo/Podfile lock swift podspec pbxproj 6|-\|/-| 
+Update documentation's Endpoint param URL to url. |-\|/-| 2016-11-29T11:38:39Z Merged pull request |-\|/-| 804 +4 −4 md 0|-\|/-| 
+Adds cocoapods badge to README |-\|/-| 2016-11-28T16:56:14Z Merged pull request |-\|/-| 800 +2 −0 md 0|-\|/-| 
+Update dependencies (Alamofire, ReactiveSwift) |-\|/-| 2016-11-28T13:40:13Z Merged pull request |-\|/-| 799 +23 −23 Cartfile resolved Demo/Podfile lock podspec 5|-\|/-| 
+Update Carthage to support iOS 8 and macOS 10.10 |-\|/-| 2016-11-28T12:54:09Z Closed pull request |-\|/-| 797 +3 −3 Cartfile resolved 2|-\|/-| 
+Fix a typo in the Rakefile |-\|/-| 2016-11-23T17:12:32Z Merged pull request |-\|/-| 791 +1 −1 Rakefile 1|-\|/-| 
+Replace remaining multipartBody with task in docs |-\|/-| 2016-11-23T17:11:58Z Merged pull request |-\|/-| 790 +6 −10 md 0|-\|/-| 
+Updates danger to 4.0.1 |-\|/-| 2016-11-22T23:11:41Z Merged pull request |-\|/-| 789 +14 −20 lock 1|-\|/-| 
+Update deployment target to iOS 8.0, macOS 10.10 |-\|/-| 2016-11-22T20:34:29Z Merged pull request |-\|/-| 787 +24 −22 md pbxproj Demo/Podfile lock podspec yml 6|-\|/-| 
+[Feature] MultiTarget. |-\|/-| 2016-11-20T16:32:27Z Merged pull request |-\|/-| 784 +681 −178 md pbxproj xcscheme xib swift plist Demo/Podfile 10|-\|/-| 
+Various (Swift 3) cleanups |-\|/-| 2016-11-23T17:49:50Z Merged pull request |-\|/-| 779 +82 −81 md swift 8|-\|/-| 
+Add mapString:withKeyPath methods |-\|/-| 2016-11-21T21:01:08Z Merged pull request |-\|/-| 778 +57 −12 md swift 5|-\|/-| 
+Swift3 parameter naming |-\|/-| 2016-11-17T21:08:29Z Closed pull request |-\|/-| 777 +67 −66 md swift 14|-\|/-| 
+Swift 3 Equatable functions |-\|/-| 2016-11-17T21:08:23Z Closed pull request |-\|/-| 776 +62 −64 swift 15|-\|/-| 
+Swift 3 bools |-\|/-| 2016-11-17T21:08:18Z Closed pull request |-\|/-| 775 +52 −50 md swift 16|-\|/-| 
+Cleanup closures |-\|/-| 2016-11-17T21:06:45Z Closed pull request |-\|/-| 774 +43 −44 swift 16|-\|/-| 
+Cleanup header documentation and error messages |-\|/-| 2016-11-17T20:00:35Z Merged pull request |-\|/-| 773 +6 −6 swift 6|-\|/-| 
+Remove vertical whitespace |-\|/-| 2016-11-17T13:32:51Z Merged pull request |-\|/-| 772 +0 −2 swift 2|-\|/-| 
+Use MoyaProvider.defaultEndpointMapping to DRY the sample code |-\|/-| 2016-11-20T03:22:33Z Merged pull request |-\|/-| 771 +5 −7 md 0|-\|/-| 
+Update SubclassingProvider.md to Swift 3 |-\|/-| 2016-11-14T11:48:13Z Merged pull request |-\|/-| 768 +10 −10 md 0|-\|/-| 
+Alamofire automatic validation configuration |-\|/-| 2016-11-14T11:03:17Z Merged pull request |-\|/-| 767 +69 −3 md swift 3|-\|/-| 
+updated info about which version to use when using Swift 3 |-\|/-| 2016-11-10T07:03:17Z Merged pull request |-\|/-| 764 +1 −1 md 0|-\|/-| 
+Add an optional response thread param for provider |-\|/-| 2017-07-20T22:21:02Z Merged pull request |-\|/-| 762 +329 −71 resolved md swift 6|-\|/-| 
+Updates readme image design |-\|/-| 2016-11-09T16:14:47Z Merged pull request |-\|/-| 761 +0 −0 png sketch 2|-\|/-| 
+Add required TargetType protocol method to Basic.md |-\|/-| 2016-11-08T13:37:22Z Merged pull request |-\|/-| 758 +6 −0 md 0|-\|/-| 
+[CI] Uses id as destination instead of device name |-\|/-| 2016-11-06T15:52:51Z Merged pull request |-\|/-| 753 +3 −2 Rakefile 1|-\|/-| 
+Use String(data:encoding:) instead of NSString(data:encoding:) |-\|/-| 2016-11-03T14:25:33Z Merged pull request |-\|/-| 751 +4 −3 md swift 2|-\|/-| 
+Updates Changelog after changes in PluginType |-\|/-| 2016-10-28T13:46:03Z Merged pull request |-\|/-| 749 +1 −0 md 0|-\|/-| 
+Update Cartfile.resolved |-\|/-| 2016-11-08T06:53:37Z Merged pull request |-\|/-| 747 +2 −2 resolved 1|-\|/-| 
+[CI] Caches pods repo |-\|/-| 2016-10-27T18:56:47Z Merged pull request |-\|/-| 745 +2 −0 yml 1|-\|/-| 
+Dependency updates |-\|/-| 2016-10-27T19:23:04Z Merged pull request |-\|/-| 737 +44 −58 Cartfile md Demo/Podfile lock podspec 4|-\|/-| 
+Provide default empty implementations for PluginType |-\|/-| 2016-10-28T12:27:12Z Merged pull request |-\|/-| 736 +5 −0 swift 1|-\|/-| 
+Merges 674 |-\|/-| 2016-10-22T15:04:05Z Merged pull request |-\|/-| 735 +6 −2 gitignore Cartfile resolved 3|-\|/-| 
+Fixes unit tests |-\|/-| 2016-10-22T13:08:12Z Merged pull request |-\|/-| 734 +26 −26 pbxproj lock swift Rakefile 5|-\|/-| 
+Match ReactiveCocoa `func request(_)` access level to that of RxSwift |-\|/-| 2016-10-21T08:58:44Z Merged pull request |-\|/-| 733 +1 −1 swift 1|-\|/-| 
+Updates CocoaPods to 1.1.1 |-\|/-| 2016-10-20T17:41:55Z Merged pull request |-\|/-| 731 +30 −44 Gemfile lock 2|-\|/-| 
+Adds MoyaSugar to readme |-\|/-| 2016-10-20T15:51:42Z Merged pull request |-\|/-| 730 +1 −0 md 0|-\|/-| 
+Updates Podfile for Demo project. |-\|/-| 2016-10-20T15:57:37Z Merged pull request |-\|/-| 728 +16 −16 Demo/Podfile lock 2|-\|/-| 
+Version Bump for RxSwift Cartfile |-\|/-| 2016-10-20T00:49:36Z Merged pull request |-\|/-| 727 +1 −1 Cartfile 1|-\|/-| 
+Restarts failed code 65 xcodebuild commands. |-\|/-| 2016-10-18T12:24:15Z Merged pull request |-\|/-| 723 +18 −2 Rakefile yml 2|-\|/-| 
+Lowercase class funcs |-\|/-| 2016-10-21T13:40:58Z Merged pull request |-\|/-| 721 +59 −57 md swift 5|-\|/-| 
+Adds tests for #717 and cleans up changelog |-\|/-| 2016-10-16T18:27:30Z Merged pull request |-\|/-| 719 +63 −3 md swift 1|-\|/-| 
+Adding ability to fully mock an NSHTTPURLResponse |-\|/-| 2016-10-16T15:32:15Z Merged pull request |-\|/-| 717 +8 −0 md swift 2|-\|/-| 
+Fix download progress bug |-\|/-| 2016-10-16T14:17:37Z Merged pull request |-\|/-| 716 +128 −12 md swift 4|-\|/-| 
+[README] Add Moya version vs Swift version table |-\|/-| 2016-10-08T22:25:49Z Merged pull request |-\|/-| 710 +15 −3 md 0|-\|/-| 
+[Documentation] Update ParameterEncoding paragraph in Endpoints.md. |-\|/-| 2016-10-08T22:26:16Z Merged pull request |-\|/-| 709 +15 −10 md 0|-\|/-| 
+[Alamofire] Use .default instead of inits in Parameter Encoding. |-\|/-| 2016-10-06T13:24:15Z Merged pull request |-\|/-| 705 +4 −4 swift 2|-\|/-| 
+Issue template |-\|/-| 2016-10-05T18:40:25Z Merged pull request |-\|/-| 704 +12 −0 md 0|-\|/-| 
+add import Reactive/Rx Moya to tests |-\|/-| 2016-09-29T22:03:52Z Merged pull request |-\|/-| 699 +16 −0 swift 4|-\|/-| 
+[WIP] Move Tests/ to root dir (so we can use `swift test` when we're swift package manager compatible) |-\|/-| 2017-01-02T04:29:13Z Closed pull request |-\|/-| 698 +855 −1,483 private swift xib storyboard pbxproj xcworkspacedata xcscheme json 14|-\|/-| 
+Add changelog for 8.0.0-beta.2 |-\|/-| 2016-10-05T19:56:27Z Merged pull request |-\|/-| 697 +4 −0 md 0|-\|/-| 
+Fixes indentation for parameters in OptionalParameters.md |-\|/-| 2016-09-29T15:09:15Z Merged pull request |-\|/-| 695 +11 −11 md 0|-\|/-| 
+Added Important Note |-\|/-| 2016-09-29T14:55:22Z Merged pull request |-\|/-| 694 +29 −7 md 0|-\|/-| 
+Changes on install for ReactiveCocoa with 1.0.0-alpha |-\|/-| 2016-09-28T20:42:36Z Merged pull request |-\|/-| 693 +1 −1 md 0|-\|/-| 
+Merge #685 |-\|/-| 2016-09-27T16:35:21Z Merged pull request |-\|/-| 692 +83 −29 md Demo/Podfile lock swift 8|-\|/-| 
+Changes HTTP verbs enum to lowercase |-\|/-| 2016-09-26T18:48:18Z Merged pull request |-\|/-| 689 +31 −29 md swift 9|-\|/-| 
+Change Endpoint Helper Functions |-\|/-| 2016-09-26T16:30:01Z Merged pull request |-\|/-| 688 +26 −22 md lock swift 3|-\|/-| 
+Fix typo: `us` → `use` |-\|/-| 2016-09-26T13:58:04Z Merged pull request |-\|/-| 687 +1 −1 md 0|-\|/-| 
+Updates for ReactiveCocoa and RxSwift usage examples |-\|/-| 2016-09-26T13:58:22Z Merged pull request |-\|/-| 686 +6 −6 md 0|-\|/-| 
+A better typed urlRequest property of an Endpoint? |-\|/-| 2016-09-27T16:35:22Z Merged pull request |-\|/-| 685 +67 −27 md lock swift 7|-\|/-| 
+Swift 3-ify documentation |-\|/-| 2016-09-26T19:07:14Z Merged pull request |-\|/-| 683 +20 −20 md 0|-\|/-| 
+[Docs] URLByAppendingPathComponent -> appendingPathComponent |-\|/-| 2016-09-26T05:37:33Z Merged pull request |-\|/-| 680 +3 −3 md 0|-\|/-| 
+[Demo] Remove AnyObject casts in TargetType examples |-\|/-| 2016-09-26T01:36:27Z Merged pull request |-\|/-| 678 +2 −2 swift 2|-\|/-| 
+[Removed] StreamRequest to fix watchOS builds. |-\|/-| 2016-09-26T00:19:00Z Merged pull request |-\|/-| 677 +1 −1 md swift 1|-\|/-| 
+Update docs for Swift 3/Moya interface |-\|/-| 2016-09-25T22:42:51Z Merged pull request |-\|/-| 676 +174 −175 md 0|-\|/-| 
+Update ReactiveSwift to 1.0.0-alpha.2 |-\|/-| 2016-10-22T15:04:06Z Merged pull request |-\|/-| 674 +6 −2 gitignore Cartfile resolved 3|-\|/-| 
+Update Cartfile |-\|/-| 2016-09-24T04:19:56Z Closed pull request |-\|/-| 672 +1 −1 Cartfile 1|-\|/-| 
+Refactor code, remove warnings |-\|/-| 2016-09-22T18:22:36Z Merged pull request |-\|/-| 671 +4 −4 swift 3|-\|/-| 
+Fixes CI |-\|/-| 2016-09-22T01:36:04Z Merged pull request |-\|/-| 667 +43 −53 Demo/Podfile lock swift md yml 5|-\|/-| 
+Throw dedicated error type if json parsing fails |-\|/-| 2016-09-20T21:55:39Z Merged pull request |-\|/-| 664 +3 −1 md swift 1|-\|/-| 
+ReactiveCocoa -> ReactiveSwift transition |-\|/-| 2016-09-19T22:13:00Z Merged pull request |-\|/-| 661 +31 −25 lock pbxproj swift 3|-\|/-| 
+Update Cartfile |-\|/-| 2016-09-19T20:32:34Z Merged pull request |-\|/-| 659 +1 −1 Cartfile 1|-\|/-| 
+Cleanup for 8.0.0-beta.1 release |-\|/-| 2016-09-19T14:47:45Z Merged pull request |-\|/-| 657 +56 −58 pbxproj Demo/Podfile lock swift Rakefile md yml 11|-\|/-| 
+Updates danger |-\|/-| 2016-09-19T13:10:35Z Merged pull request |-\|/-| 655 +22 −12 Dangerfile lock 2|-\|/-| 
+Uncomment ReactiveCocoa tests |-\|/-| 2016-09-19T02:02:31Z Merged pull request |-\|/-| 654 +37 −33 swift 1|-\|/-| 
+Merges master into Swift 3 |-\|/-| 2016-09-19T01:14:43Z Merged pull request |-\|/-| 653 +31 −16 md swift 6|-\|/-| 
+Updated Alamofire and RxSwift versions for carthage |-\|/-| 2016-09-18T21:48:40Z Merged pull request |-\|/-| 652 +2 −2 Cartfile 1|-\|/-| 
+Set deployment target of macos to 10.11 to satsify Alamofire |-\|/-| 2016-09-18T12:56:40Z Merged pull request |-\|/-| 651 +6 −6 pbxproj 1|-\|/-| 
+Added correlated request for Moya.Response. |-\|/-| 2016-09-18T12:58:10Z Merged pull request |-\|/-| 650 +34 −17 md swift 6|-\|/-| 
+Fix CI for Swift 3 branch |-\|/-| 2016-09-19T01:14:10Z Merged pull request |-\|/-| 649 +109 −67 pbxproj lock Gemfile Rakefile yml 6|-\|/-| 
+Reintroduces ReactiveCocoa extensions & tests |-\|/-| 2016-09-18T07:09:46Z Merged pull request |-\|/-| 647 +584 −553 pbxproj Demo/Podfile lock 3|-\|/-| 
+Swift package manager support |-\|/-| 2017-01-03T02:06:58Z Merged pull request |-\|/-| 643 +65 −0 gitignore md swift 3|-\|/-| 
+Merges master into swift-3.0 branch |-\|/-| 2016-09-16T12:33:23Z Merged pull request |-\|/-| 640 +182 −127 md pbxproj lock swift Rakefile yml 7|-\|/-| 
+update Rx & Reactive targets SWIFT_VERSION to 3 |-\|/-| 2016-09-16T00:25:27Z Merged pull request |-\|/-| 638 +16 −0 pbxproj 1|-\|/-| 
+Added parameter example using Target's associated values |-\|/-| 2016-09-15T17:43:00Z Merged pull request |-\|/-| 637 +10 −2 md 0|-\|/-| 
+Updated main project to record Swift 2.3 migration status (#629). |-\|/-| 2016-09-15T17:54:38Z Merged pull request |-\|/-| 636 +48 −0 pbxproj 1|-\|/-| 
+[Swift 3.0] Mark `MoyaProvider.request()` as `@discardableResult` |-\|/-| 2016-09-15T14:57:53Z Merged pull request |-\|/-| 635 +3 −0 swift 1|-\|/-| 
+📚  Update documentations |-\|/-| 2016-09-15T05:17:21Z Merged pull request |-\|/-| 633 +114 −114 md 0|-\|/-| 
+Test our Carthage support in CI |-\|/-| 2016-09-16T00:18:22Z Merged pull request |-\|/-| 630 +15 −0 Rakefile yml 2|-\|/-| 
+Update Changelog for 7.0.2 |-\|/-| 2016-09-14T18:52:38Z Merged pull request |-\|/-| 628 +5 −2 md 0|-\|/-| 
+[WIP][Swift 3.0] Update tests for Xcode GM Seed. |-\|/-| 2016-09-14T19:09:46Z Merged pull request |-\|/-| 625 +880 −868 pbxproj Demo/Podfile lock swift 6|-\|/-| 
+Add a community extension to README.md |-\|/-| 2016-09-13T08:42:27Z Merged pull request |-\|/-| 622 +1 −0 md 0|-\|/-| 
+Swift 2.3 - Now with updated demo project and tests |-\|/-| 2016-09-12T19:10:33Z Merged pull request |-\|/-| 621 +114 −33 Cartfile md pbxproj xcscheme swift Demo/Podfile lock 12|-\|/-| 
+Fix for Alamofire deprecation of (Int64,Int64,Int64) style progress blocks and Alamofire 4.0.0 readiness |-\|/-| 2016-09-12T10:38:54Z Merged pull request |-\|/-| 618 +15 −14 gitignore swift 3|-\|/-| 
+Swift 2.3 support |-\|/-| 2016-09-12T19:10:34Z Merged pull request |-\|/-| 616 +71 −18 Cartfile md 1|-\|/-| 
+Changed the type of parameters to [String: Any] |-\|/-| 2016-09-09T03:24:24Z Merged pull request |-\|/-| 615 +11 −11 swift 3|-\|/-| 
+Podspec update alamofire |-\|/-| 2016-09-09T03:37:50Z Merged pull request |-\|/-| 614 +20 −18 gitignore pbxproj Demo/Podfile lock podspec 5|-\|/-| 
+[Swift 3.0] Update to new Alamofire Requests & Progress API. |-\|/-| 2016-09-13T03:37:42Z Merged pull request |-\|/-| 613 +86 −64 gitignore pbxproj Demo/Podfile lock podspec swift 12|-\|/-| 
+fix for swift3 variadic params |-\|/-| 2016-09-09T01:36:21Z Merged pull request |-\|/-| 612 +11 −5 swift 1|-\|/-| 
+update xcodeproj to Xcode 8 GM recommended settings |-\|/-| 2016-09-08T22:12:07Z Merged pull request |-\|/-| 611 +36 −13 pbxproj xcscheme 13|-\|/-| 
+Target ios 9 & macOS 10.11 |-\|/-| 2016-09-08T22:11:28Z Merged pull request |-\|/-| 610 +7 −4 pbxproj 1|-\|/-| 
+Swift 3.0 - update deployment targets to work with alamofire 4 |-\|/-| 2016-09-08T19:48:24Z Merged pull request |-\|/-| 609 +2 −2 podspec 1|-\|/-| 
+[Swift 3.0] Update for Xcode GM Seed. |-\|/-| 2016-09-19T18:49:48Z Merged pull request |-\|/-| 608 +1,236 −1,075 gitignore Cartfile md Dangerfile pbxproj 4|-\|/-| 
+Fixes a few typos |-\|/-| 2016-09-07T14:25:44Z Merged pull request |-\|/-| 607 +6 −6 md 0|-\|/-| 
+Complete missing documentation to Targets.md |-\|/-| 2016-09-07T13:57:43Z Merged pull request |-\|/-| 606 +12 −1 md 0|-\|/-| 
+Local stubs - yo. |-\|/-| 2016-09-06T00:06:39Z Merged pull request |-\|/-| 603 +11 −2 md 0|-\|/-| 
+Fix documentation trying to unwrap a non-optional |-\|/-| 2016-09-05T15:48:31Z Merged pull request |-\|/-| 601 +17 −19 md 0|-\|/-| 
+Added a snippet of code to better understand how to use a plugin |-\|/-| 2016-09-04T07:43:04Z Merged pull request |-\|/-| 599 +11 −3 md 0|-\|/-| 
+swift 2.3 |-\|/-| 2016-09-12T20:50:05Z Closed pull request |-\|/-| 594 +26 −4 md pbxproj swift 3|-\|/-| 
+add suport to swift 2.3 |-\|/-| 2016-08-29T18:02:05Z Closed pull request |-\|/-| 593 +23 −3 md pbxproj swift 3|-\|/-| 
+Add pod install hint for Demo app |-\|/-| 2016-08-26T21:01:19Z Merged pull request |-\|/-| 592 +1 −1 md 0|-\|/-| 
+Streamline closure syntax in readme |-\|/-| 2016-08-22T15:59:54Z Merged pull request |-\|/-| 585 +2 −2 md 0|-\|/-| 
+Header documentation enhancements |-\|/-| 2016-08-16T08:11:51Z Merged pull request |-\|/-| 583 +21 −23 swift 6|-\|/-| 
+Removed some unncessary breaks |-\|/-| 2016-08-16T07:54:12Z Merged pull request |-\|/-| 582 +0 −3 swift 2|-\|/-| 
+Call appropriate Alamoefire RequestMultipartFormData append method |-\|/-| 2016-08-13T15:47:22Z Merged pull request |-\|/-| 581 +34 −6 md swift 2|-\|/-| 
+Documentation: obsolete requestClosure syntax in Endpoints.md |-\|/-| 2016-08-10T23:49:27Z Merged pull request |-\|/-| 579 +9 −7 md 0|-\|/-| 
+Documentation fixes |-\|/-| 2016-08-10T14:38:57Z Merged pull request |-\|/-| 578 +91 −98 md 0|-\|/-| 
+[Dangerfile] Adding missing plugin namespace (git) |-\|/-| 2016-08-10T12:16:35Z Merged pull request |-\|/-| 577 +1 −1 Dangerfile 1|-\|/-| 
+Adds positive intention |-\|/-| 2016-08-08T15:53:49Z Merged pull request |-\|/-| 576 +3 −1 md 0|-\|/-| 
+Fixed a visualization problem in CustomPlugin.md |-\|/-| 2016-08-06T17:30:09Z Merged pull request |-\|/-| 575 +2 −2 md 0|-\|/-| 
+Added provider creation in mapping from Target to Endpoint |-\|/-| 2016-08-06T16:31:01Z Merged pull request |-\|/-| 574 +3 −1 md 0|-\|/-| 
+Adds support for PATCH and CONNECT to upload files |-\|/-| 2016-07-29T19:09:24Z Merged pull request |-\|/-| 569 +49 −1 md pbxproj swift 4|-\|/-| 
+Modifies mapJSON to take optional failsOnEmptyData parameter |-\|/-| 2016-08-01T23:59:21Z Merged pull request |-\|/-| 568 +35 −5 md swift 4|-\|/-| 
+Danger docs changes |-\|/-| 2016-07-27T17:53:09Z Merged pull request |-\|/-| 566 +7 −1 Dangerfile 1|-\|/-| 
+Fixes Error 65 intermittent failures on CI |-\|/-| 2016-07-26T18:44:59Z Merged pull request |-\|/-| 565 +5 −1 yml 1|-\|/-| 
+Make RxMoya & ReactiveMoya dependent on Moya |-\|/-| 2016-09-29T19:19:48Z Merged pull request |-\|/-| 563 +76 −544 md pbxproj swift 8|-\|/-| 
+SwiftLint fixes |-\|/-| 2016-07-24T04:00:25Z Merged pull request |-\|/-| 561 +527 −395 md Dangerfile pbxproj lock 4|-\|/-| 
+Adds readme for web directory |-\|/-| 2016-07-24T01:41:12Z Merged pull request |-\|/-| 560 +28 −2 swift md png sketch 10|-\|/-| 
+Fix typo about refreshToken |-\|/-| 2016-07-19T14:04:30Z Merged pull request |-\|/-| 557 +1 −1 md 0|-\|/-| 
+Update dangerfile to use scoped syntax |-\|/-| 2016-07-18T18:54:40Z Merged pull request |-\|/-| 554 +3 −3 Dangerfile 1|-\|/-| 
+Adds Download and Upload Task type support to Moya |-\|/-| 2016-07-19T15:21:41Z Merged pull request |-\|/-| 553 +164 −54 md pbxproj storyboard swift 10|-\|/-| 
+Improve demo code in the sample project |-\|/-| 2016-07-15T18:53:18Z Merged pull request |-\|/-| 550 +42 −59 swift 3|-\|/-| 
+Changelog update & Danger config update |-\|/-| 2016-07-15T14:01:47Z Merged pull request |-\|/-| 548 +8 −3 md Dangerfile 1|-\|/-| 
+Set OSX minimum deployment target to 10.10 |-\|/-| 2016-07-18T14:46:52Z Merged pull request |-\|/-| 547 +6 −0 pbxproj 1|-\|/-| 
+whitespace changes, to address the errors and warnings from the linter |-\|/-| 2016-07-13T22:47:20Z Merged pull request |-\|/-| 544 +36 −35 swift 4|-\|/-| 
+Refactors and consistency (sending requests, canceling requests, and progress) |-\|/-| 2016-07-13T17:17:52Z Merged pull request |-\|/-| 543 +116 −126 pbxproj swift 4|-\|/-| 
+Changes changelog Danger error to warning |-\|/-| 2016-07-13T17:07:13Z Merged pull request |-\|/-| 537 +1 −1 Dangerfile 1|-\|/-| 
+Removed .gitmodules |-\|/-| 2016-07-12T23:19:08Z Merged pull request |-\|/-| 536 +0 −12 gitmodules 1|-\|/-| 
+Invoke completion even when cancellable immediately cancelled #531 |-\|/-| 2016-07-11T03:05:35Z Merged pull request |-\|/-| 532 +48 −10 md swift 2|-\|/-| 
+Refactor Cancellables |-\|/-| 2016-07-08T18:20:35Z Merged pull request |-\|/-| 530 +143 −12 swift 4|-\|/-| 
+unshare shared Demo.xcworkspace schemes |-\|/-| 2016-07-08T17:26:09Z Closed pull request |-\|/-| 529 +0 −316 xcscheme 3|-\|/-| 
+Updates SwiftLint plugin #trivial |-\|/-| 2016-07-07T00:40:59Z Merged pull request |-\|/-| 527 +2 −2 lock 1|-\|/-| 
+remove NetworkCurlLogger.swift from .xcodeproj |-\|/-| 2016-07-06T20:00:40Z Merged pull request |-\|/-| 526 +1 −4 md pbxproj 1|-\|/-| 
+Updates to released danger-swiftlint version #trivial |-\|/-| 2016-07-05T14:46:29Z Merged pull request |-\|/-| 523 +15 −25 Gemfile lock 2|-\|/-| 
+Integrate Danger |-\|/-| 2016-07-01T17:45:58Z Merged pull request |-\|/-| 521 +174 −104 yml md Dangerfile Gemfile lock swift 6|-\|/-| 
+Fix broken CI |-\|/-| 2016-06-30T23:50:17Z Merged pull request |-\|/-| 520 +145 −150 yml pbxproj lock swift Gemfile podspec Rakefile 10|-\|/-| 
+fix lock bug. |-\|/-| 2016-06-30T16:17:25Z Merged pull request |-\|/-| 519 +3 −3 swift 1|-\|/-| 
+Added documentation for plugins |-\|/-| 2016-06-21T15:40:04Z Merged pull request |-\|/-| 514 +97 −2 md 0|-\|/-| 
+New Community Guidelines |-\|/-| 2016-07-04T14:09:29Z Merged pull request |-\|/-| 512 +63 −3 md pbxproj 1|-\|/-| 
+[Readme] Add Moya-JASON extension. |-\|/-| 2016-06-16T13:45:17Z Merged pull request |-\|/-| 509 +1 −0 md 0|-\|/-| 
+Drop RACSignal support. |-\|/-| 2016-06-15T12:57:50Z Merged pull request |-\|/-| 508 +52 −589 md pbxproj lock swift 5|-\|/-| 
+added explicit url creation to endpoint closure doc |-\|/-| 2016-06-14T20:45:50Z Merged pull request |-\|/-| 507 +4 −2 md 0|-\|/-| 
+cURL compatible NetworkLoggingPlugin |-\|/-| 2016-06-09T00:51:03Z Merged pull request |-\|/-| 505 +1,052 −2,387 pbxproj lock swift 8|-\|/-| 
+Updated copyright year |-\|/-| 2016-06-07T20:52:24Z Merged pull request |-\|/-| 504 +1 −1 md 0|-\|/-| 
+[Changelog] Update breaking change alias. |-\|/-| 2016-05-27T16:25:43Z Merged pull request |-\|/-| 499 +3 −3 md 0|-\|/-| 
+Changed MoyaResponse in RxSwift docs to Moya.Response |-\|/-| 2016-05-25T19:26:47Z Merged pull request |-\|/-| 496 +5 −5 md 0|-\|/-| 
+[Readme] Update usage section. |-\|/-| 2016-05-25T19:30:34Z Merged pull request |-\|/-| 493 +18 −12 md 0|-\|/-| 
+Remove redundant casting to NSError from tests. |-\|/-| 2016-05-23T22:04:10Z Merged pull request |-\|/-| 492 +5 −5 swift 5|-\|/-| 
+Centre Moya logo in readme |-\|/-| 2016-05-23T18:18:34Z Merged pull request |-\|/-| 491 +0 −0 png 1|-\|/-| 
+Replace NSURLRequest with Result<NSURLRequest, Moya.Error> in RequestClosure.  |-\|/-| 2016-05-23T20:31:57Z Merged pull request |-\|/-| 488 +69 −31 md lock swift 3|-\|/-| 
+Multipart upload |-\|/-| 2016-07-08T20:11:24Z Merged pull request |-\|/-| 483 +582 −46 gitignore resolved Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift pbxproj storyboard swift 11|-\|/-| 
+Multipart file upload |-\|/-| 2016-05-12T16:12:13Z Closed pull request |-\|/-| 481 +170 −4 Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift swift 7|-\|/-| 
+remove unnecessary unwrap |-\|/-| 2016-05-06T12:51:14Z Merged pull request |-\|/-| 480 +1 −1 md 0|-\|/-| 
+Change .Underlying to NSError, add error handling docs |-\|/-| 2016-05-04T22:20:30Z Merged pull request |-\|/-| 479 +65 −5 md swift 3|-\|/-| 
+Implemented inflight requests tracking |-\|/-| 2016-05-11T14:02:49Z Merged pull request |-\|/-| 477 +163 −15 md lock swift 8|-\|/-| 
+Update ReadMe for braking link |-\|/-| 2016-04-22T07:37:46Z Merged pull request |-\|/-| 472 +1 −1 md 0|-\|/-| 
+Added Gloss extension!  |-\|/-| 2016-04-14T19:52:36Z Merged pull request |-\|/-| 470 +2 −1 md 0|-\|/-| 
+Add more examples |-\|/-| 2016-04-18T19:23:56Z Merged pull request |-\|/-| 466 +374 −50 md 0|-\|/-| 
+Open up option to use other queue instead of main queue |-\|/-| 2016-05-28T15:06:58Z Closed pull request |-\|/-| 462 +91 −56 md swift 2|-\|/-| 
+Adds deploy docs |-\|/-| 2016-04-01T23:19:47Z Merged pull request |-\|/-| 460 +23 −0 md 0|-\|/-| 
+Documentation: Use correct type as parameter of MoyaProvider |-\|/-| 2016-04-01T17:51:06Z Merged pull request |-\|/-| 459 +1 −1 md 0|-\|/-| 
+[Documentation] Update Heimdallr references |-\|/-| 2016-03-31T14:24:56Z Merged pull request |-\|/-| 457 +2 −2 md 0|-\|/-| 
+[Rakefile] Automate GH releases |-\|/-| 2016-03-30T17:05:29Z Merged pull request |-\|/-| 456 +14 −14 Gemfile lock Rakefile 3|-\|/-| 
+New GH release strategy |-\|/-| 2016-03-30T17:05:50Z Closed pull request |-\|/-| 453 +3 −19 Gemfile lock Rakefile 3|-\|/-| 
+Fixes CI |-\|/-| 2016-04-19T10:42:31Z Merged pull request |-\|/-| 452 +10 −10 lock swift 2|-\|/-| 
+Updates required version of dependencies, makes convertResponseToResult accessible |-\|/-| 2016-03-30T14:09:06Z Merged pull request |-\|/-| 450 +9 −6 Cartfile md podspec swift 3|-\|/-| 
+Update NetworkActivityPlugin.swift |-\|/-| 2016-03-24T19:23:20Z Merged pull request |-\|/-| 446 +2 −2 swift 1|-\|/-| 
+Just getting CI to pass |-\|/-| 2016-03-24T15:19:22Z Closed pull request |-\|/-| 444 +4 −1 yml swift 2|-\|/-| 
+Replace deprecated function definition |-\|/-| 2016-03-24T14:56:28Z Merged pull request |-\|/-| 443 +3 −3 swift 1|-\|/-| 
+Feature/multipart upload multipartuploadable |-\|/-| 2016-07-11T19:41:50Z Closed pull request |-\|/-| 441 +326 −69 resolved Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/RxSwift pbxproj storyboard swift plist lock 13|-\|/-| 
+Feature/multipart upload |-\|/-| 2016-03-24T00:18:18Z Closed pull request |-\|/-| 439 +217 −54 resolved Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/RxSwift pbxproj storyboard swift plist lock 13|-\|/-| 
+Improve Examples and Provider documentation |-\|/-| 2016-03-22T15:17:10Z Merged pull request |-\|/-| 438 +90 −49 md 0|-\|/-| 
+Removes generic type requirement on StructTarget |-\|/-| 2016-03-16T15:48:11Z Merged pull request |-\|/-| 430 +13 −12 md swift 2|-\|/-| 
+Adds sample implementation for struct-based enum |-\|/-| 2016-03-15T20:30:46Z Merged pull request |-\|/-| 427 +126 −14 lock swift 3|-\|/-| 
+Move Defaults and Stubbing from MoyaProvider to MoyaDefaults. |-\|/-| 2016-03-30T14:15:42Z Closed pull request |-\|/-| 426 +54 −52 md lock swift 8|-\|/-| 
+Structs in Moya. |-\|/-| 2016-03-15T20:52:42Z Closed pull request |-\|/-| 424 +164 −73 pbxproj swift lock 9|-\|/-| 
+Fix endpoint setup when adding a header or parameters without one of them |-\|/-| 2016-03-04T17:20:17Z Merged pull request |-\|/-| 420 +23 −6 md swift 1|-\|/-| 
+Updated cartfile and podspec to use ReactiveCocoa ~> 4.0 |-\|/-| 2016-03-14T19:02:55Z Merged pull request |-\|/-| 418 +4 −4 Cartfile resolved podspec 3|-\|/-| 
+Fix to doubled 6.2.0 header in changelog |-\|/-| 2016-02-26T17:49:07Z Merged pull request |-\|/-| 416 +0 −2 md 0|-\|/-| 
+Carthage dependencies update |-\|/-| 2016-02-26T14:52:31Z Merged pull request |-\|/-| 415 +5 −5 Cartfile resolved 2|-\|/-| 
+Allowing RxSwift 2.x in Cartfile |-\|/-| 2016-02-26T14:28:26Z Merged pull request |-\|/-| 414 +1 −1 Cartfile 1|-\|/-| 
+Fixed typo stubBehaviour: -> stubClosure: |-\|/-| 2016-02-16T16:42:26Z Merged pull request |-\|/-| 411 +1 −1 md 0|-\|/-| 
+Update Examples.md |-\|/-| 2016-02-16T00:24:22Z Merged pull request |-\|/-| 410 +1 −1 md 0|-\|/-| 
+Parameter encoding |-\|/-| 2016-02-17T15:09:55Z Merged pull request |-\|/-| 409 +5 −115 md pbxproj swift 5|-\|/-| 
+Merge another PR |-\|/-| 2016-02-12T16:12:00Z Merged pull request |-\|/-| 407 +21 −8 Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift md swift 6|-\|/-| 
+endpointByAdding as a convenience method for long method chaining. |-\|/-| 2016-02-12T15:59:05Z Merged pull request |-\|/-| 406 +46 −21 md lock swift 3|-\|/-| 
+Updates example with fix to String extension by changing to Optional |-\|/-| 2016-02-11T17:02:12Z Merged pull request |-\|/-| 405 +1 −1 md 0|-\|/-| 
+Added URLEncodedInURL to ParameterEncoding |-\|/-| 2016-02-12T16:12:01Z Merged pull request |-\|/-| 404 +22 −9 Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift md swift 6|-\|/-| 
+[WIP] Moves releases & testing to Fastlane |-\|/-| 2016-03-30T14:47:19Z Closed pull request |-\|/-| 402 +302 −129 gitignore yml pbxproj Demo/Podfile lock Gemfile 7|-\|/-| 
+Adds response computed variable |-\|/-| 2016-02-05T16:09:56Z Merged pull request |-\|/-| 401 +64 −7 md swift 2|-\|/-| 
+Add model mapper bindings url. |-\|/-| 2016-02-03T14:41:13Z Merged pull request |-\|/-| 398 +2 −1 md 0|-\|/-| 
+Updated Cartfile and Moya.podspec to use RAC4 release  |-\|/-| 2016-02-01T18:06:21Z Merged pull request |-\|/-| 396 +2 −2 Cartfile podspec 2|-\|/-| 
+Sam/network logger response data formatter |-\|/-| 2016-01-31T17:59:32Z Merged pull request |-\|/-| 394 +57 −15 swift lock 5|-\|/-| 
+Added Moya-Argo link to community extensions list |-\|/-| 2016-01-29T21:08:35Z Merged pull request |-\|/-| 389 +1 −0 md 0|-\|/-| 
+Updates docs to show the 'Result' type |-\|/-| 2016-01-29T00:25:05Z Merged pull request |-\|/-| 388 +120 −23 md 0|-\|/-| 
+Updated podspec to use RxSwift 2.x |-\|/-| 2016-01-28T21:50:05Z Merged pull request |-\|/-| 387 +1 −1 podspec 1|-\|/-| 
+Update Moya.podspec |-\|/-| 2016-01-27T14:17:21Z Merged pull request |-\|/-| 382 +1 −1 podspec 1|-\|/-| 
+Update Readme.md |-\|/-| 2016-01-26T21:51:23Z Merged pull request |-\|/-| 381 +1 −0 md 0|-\|/-| 
+Use DefaultAlamofireManager for ReactiveCocoaMoyaProvider and RxMoyaProvider |-\|/-| 2016-01-26T19:16:57Z Merged pull request |-\|/-| 380 +4 −2 md swift 2|-\|/-| 
+ReactiveCocoa RC2 |-\|/-| 2016-01-25T18:05:14Z Merged pull request |-\|/-| 377 +5 −5 Cartfile resolved podspec 3|-\|/-| 
+Proving a refactor way |-\|/-| 2016-03-17T16:28:55Z Closed pull request |-\|/-| 376 +490 −370 resolved Carthage/Checkouts/Alamofire Carthage/Checkouts/RxSwift pbxproj lock swift 11|-\|/-| 
+Fixes minor code error in Examples.md |-\|/-| 2016-01-16T21:32:20Z Merged pull request |-\|/-| 372 +1 −1 md 0|-\|/-| 
+Quick fixes from #354. |-\|/-| 2016-01-05T21:42:41Z Merged pull request |-\|/-| 364 +10 −8 md 0|-\|/-| 
+Update to RxSwift 2.0.0 |-\|/-| 2016-01-02T16:16:14Z Merged pull request |-\|/-| 361 +7 −7 Cartfile md lock podspec 3|-\|/-| 
+Fix an issue that stubbed responses still call the network. |-\|/-| 2016-01-05T21:07:37Z Merged pull request |-\|/-| 354 +40 −13 md swift 2|-\|/-| 
+Remove invalid braces |-\|/-| 2015-12-23T00:34:20Z Merged pull request |-\|/-| 353 +0 −1 md 0|-\|/-| 
+Fix tests |-\|/-| 2015-12-23T05:00:31Z Merged pull request |-\|/-| 351 +164 −127 yml swift 2|-\|/-| 
+Update for ReactiveCocoa 4.0 RC1 |-\|/-| 2015-12-16T01:08:44Z Merged pull request |-\|/-| 346 +9 −7 Cartfile Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift md podspec 6|-\|/-| 
+Move to antitypical Result type |-\|/-| 2015-12-31T18:41:55Z Merged pull request |-\|/-| 344 +187 −153 Cartfile resolved Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift md xcscheme lock swift podspec 13|-\|/-| 
+Ensure underlying errors are mapped appropriately where at all possible. |-\|/-| 2015-12-16T01:08:50Z Merged pull request |-\|/-| 343 +25 −4 lock swift 3|-\|/-| 
+Added Carthage compatibility badge |-\|/-| 2015-12-14T00:06:37Z Merged pull request |-\|/-| 342 +1 −0 md 0|-\|/-| 
+[Rakefile] Use most recent sdk version |-\|/-| 2015-12-10T19:50:54Z Merged pull request |-\|/-| 340 +8 −8 Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift Rakefile 4|-\|/-| 
+[ReadMe] Adds community extensions list |-\|/-| 2015-12-16T01:10:18Z Merged pull request |-\|/-| 339 +9 −0 md 0|-\|/-| 
+Updates RxSwift to Beta 4 |-\|/-| 2015-12-08T04:16:47Z Merged pull request |-\|/-| 337 +18 −14 Cartfile resolved Carthage/Checkouts/RxSwift md lock podspec 5|-\|/-| 
+Includes GitHub Releases along with git tags |-\|/-| 2015-12-09T01:14:47Z Merged pull request |-\|/-| 336 +19 −0 Gemfile lock Rakefile 3|-\|/-| 
+Updated to ReactiveCocoa v4.0-alpha.4 |-\|/-| 2015-12-04T14:13:50Z Merged pull request |-\|/-| 329 +21 −19 Cartfile resolved Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result md lock podspec swift 7|-\|/-| 
+Fix a bug that unable to intercept requests using plugins |-\|/-| 2015-12-10T08:37:45Z Closed pull request |-\|/-| 328 +114 −9 Cartfile resolved Carthage/Checkouts/RxSwift pbxproj swift lock 7|-\|/-| 
+Add tests for OS X and tvOS |-\|/-| 2015-12-08T15:57:48Z Merged pull request |-\|/-| 324 +809 −173 pbxproj xcscheme Demo/Podfile lock swift plist 15|-\|/-| 
+Swiftify Protocol Names |-\|/-| 2015-11-29T21:38:15Z Merged pull request |-\|/-| 321 +53 −51 md swift 11|-\|/-| 
+Update doc of plugins |-\|/-| 2015-11-27T13:42:31Z Merged pull request |-\|/-| 320 +26 −2 md 0|-\|/-| 
+Minor CHANGELOG Typo fix |-\|/-| 2015-11-27T12:49:12Z Merged pull request |-\|/-| 319 +1 −1 md 0|-\|/-| 
+[#259] Add a sleep to the end of the travis build. |-\|/-| 2015-11-25T17:20:13Z Merged pull request |-\|/-| 317 +1 −0 yml 1|-\|/-| 
+Update documentations |-\|/-| 2015-11-24T13:27:59Z Merged pull request |-\|/-| 316 +19 −19 md 0|-\|/-| 
+Fix Reactive Namespace |-\|/-| 2015-11-24T13:32:21Z Merged pull request |-\|/-| 315 +262 −19 gitmodules resolved Carthage/Checkouts/Alamofire swift lock 5|-\|/-| 
+Update ReactiveCocoa examples |-\|/-| 2015-11-21T17:14:10Z Merged pull request |-\|/-| 312 +4 −4 md 0|-\|/-| 
+Change completion closure to return a result type |-\|/-| 2015-11-21T17:27:36Z Merged pull request |-\|/-| 310 +567 −489 resolved Carthage/Checkouts/Alamofire md pbxproj swift 7|-\|/-| 
+Added CoC link |-\|/-| 2015-11-19T21:08:07Z Merged pull request |-\|/-| 309 +1 −1 md 0|-\|/-| 
+Plugins are now a protocol. |-\|/-| 2015-11-27T02:20:05Z Merged pull request |-\|/-| 307 +415 −225 md pbxproj swift 5|-\|/-| 
+Adds union merge strategy to changelog |-\|/-| 2015-11-16T16:48:04Z Merged pull request |-\|/-| 306 +2 −0 gitattributes 1|-\|/-| 
+Rename MoyaResponse -> Response |-\|/-| 2015-11-16T22:01:08Z Merged pull request |-\|/-| 305 +138 −135 md swift lock 8|-\|/-| 
+Remove Moya namespace class in favour of the module namespace. |-\|/-| 2015-11-16T22:03:07Z Closed pull request |-\|/-| 304 +51 −54 md swift 1|-\|/-| 
+The Great Renaming (and retyping) |-\|/-| 2015-11-16T15:24:48Z Closed pull request |-\|/-| 302 +287 −296 pbxproj swift 7|-\|/-| 
+Deprecate RAC2 support |-\|/-| 2015-11-16T14:19:16Z Merged pull request |-\|/-| 301 +7 −1 md swift 3|-\|/-| 
+Fix bundle version for Carthage etc |-\|/-| 2015-11-13T19:49:46Z Merged pull request |-\|/-| 299 +3 −3 pbxproj plist 2|-\|/-| 
+Error Clean Up |-\|/-| 2015-11-14T00:52:05Z Merged pull request |-\|/-| 297 +525 −179 md pbxproj swift 4|-\|/-| 
+Deterministic stubbing 🎉 |-\|/-| 2015-11-13T18:26:56Z Merged pull request |-\|/-| 296 +97 −34 md swift 3|-\|/-| 
+Add codecov badge. |-\|/-| 2015-11-12T17:12:45Z Merged pull request |-\|/-| 295 +1 −1 md 0|-\|/-| 
+[WIP] Configure codecov reporting |-\|/-| 2015-11-12T16:55:13Z Merged pull request |-\|/-| 294 +5 −1 yml xcscheme 2|-\|/-| 
+Refactor Reactive Extensions |-\|/-| 2015-11-10T16:10:03Z Merged pull request |-\|/-| 291 +137 −125 md pbxproj swift lock 8|-\|/-| 
+Create and use MoyaError type for SignalProducers. |-\|/-| 2015-11-12T18:05:03Z Merged pull request |-\|/-| 289 +86 −15 md pbxproj swift 8|-\|/-| 
+Fix snippet sample code. |-\|/-| 2015-11-08T06:29:25Z Merged pull request |-\|/-| 286 +2 −2 md 0|-\|/-| 
+Note that you can help provide direction in the README |-\|/-| 2015-11-06T15:17:54Z Merged pull request |-\|/-| 285 +1 −1 md 0|-\|/-| 
+Support tvOS and watchOS |-\|/-| 2015-11-06T15:16:24Z Merged pull request |-\|/-| 283 +1,364 −32 md lock podspec pbxproj xcscheme 11|-\|/-| 
+Update RxSwift to 2.0.0-beta.2 |-\|/-| 2015-11-02T13:25:29Z Merged pull request |-\|/-| 282 +4 −4 Cartfile resolved Carthage/Checkouts/RxSwift podspec 4|-\|/-| 
+Make RxMoyaProvider compatible with RxSwift 2.0.0-beta.2 |-\|/-| 2015-11-02T12:25:52Z Merged pull request |-\|/-| 281 +2 −2 swift 1|-\|/-| 
+Don't code sign iOS framework targets built for simulator |-\|/-| 2015-11-01T15:43:59Z Merged pull request |-\|/-| 280 +6 −2 pbxproj 1|-\|/-| 
+Removes superfluous observable in RxSwift extension |-\|/-| 2015-10-31T20:04:22Z Merged pull request |-\|/-| 279 +19 −22 md pbxproj lock swift 4|-\|/-| 
+Remove superfluous outer request SignalProducer |-\|/-| 2015-10-31T17:47:57Z Merged pull request |-\|/-| 278 +15 −25 swift 1|-\|/-| 
+Allow specialization of request parameters at request time |-\|/-| 2015-10-31T18:35:10Z Closed pull request |-\|/-| 277 +26 −16 swift lock 5|-\|/-| 
+Adds better image to README |-\|/-| 2015-10-31T16:52:54Z Merged pull request |-\|/-| 275 +10 −18 md png sketch 4|-\|/-| 
+Fixes for Xcode 7.1 |-\|/-| 2015-10-30T15:06:04Z Merged pull request |-\|/-| 274 +26 −32 yml xcscheme Demo/Podfile lock pbxproj 5|-\|/-| 
+Test Cleanup |-\|/-| 2015-10-30T13:39:45Z Merged pull request |-\|/-| 273 +98 −411 pbxproj swift 6|-\|/-| 
+Project Housekeeping |-\|/-| 2015-10-30T04:22:21Z Merged pull request |-\|/-| 272 +677 −194 Cartfile pbxproj plist swift 5|-\|/-| 
+Better compatibility with Carthage; changes for RAC v4 alpha 2+ |-\|/-| 2015-10-27T21:25:09Z Merged pull request |-\|/-| 267 +961 −52,124 gitignore gitmodules Cartfile resolved Carthage/Checkouts/Alamofire Carthage/Checkouts/ReactiveCocoa Carthage/Checkouts/Result Carthage/Checkouts/RxSwift swift lock Demo/Pods/Alamofire/LICENSE 11|-\|/-| 
+sample code type. |-\|/-| 2015-10-26T19:18:30Z Merged pull request |-\|/-| 266 +1 −2 md 0|-\|/-| 
+updates reactive docs to include example |-\|/-| 2015-10-26T18:14:33Z Merged pull request |-\|/-| 264 +50 −6 md 0|-\|/-| 
+Update to latest ReactiveCocoa alpha (Xcode 7.1/Swift 2.1 only) |-\|/-| 2015-10-30T13:54:03Z Closed pull request |-\|/-| 263 +4,145 −3,704 lock json swift h md 12|-\|/-| 
+Support OS X |-\|/-| 2015-10-26T18:13:25Z Merged pull request |-\|/-| 262 +25 −10 podspec swift 6|-\|/-| 
+Fixes issues with Carthage |-\|/-| 2015-10-23T07:07:09Z Merged pull request |-\|/-| 261 +2,549 −1,908 pbxproj lock xcscheme swift 11|-\|/-| 
+Allow CancellableToken to debug print |-\|/-| 2015-10-22T00:14:26Z Merged pull request |-\|/-| 257 +29 −5 md swift 1|-\|/-| 
+Update the Demo project for better Carthage compatibility |-\|/-| 2015-10-19T15:17:02Z Merged pull request |-\|/-| 255 +1,858 −1,850 pbxproj lock xcscheme sh xcconfig 14|-\|/-| 
+ReactiveMoya compilation fixes |-\|/-| 2015-10-12T17:38:51Z Merged pull request |-\|/-| 253 +3,063 −2,835 md Cartfile pbxproj lock 3|-\|/-| 
+Fix for pull request #248. Use only major version in Cartfile |-\|/-| 2015-10-08T15:26:21Z Merged pull request |-\|/-| 250 +1 −1 Cartfile 1|-\|/-| 
+mapImage uses implicitly unwrapped optional. |-\|/-| 2015-10-08T12:57:00Z Merged pull request |-\|/-| 249 +4 −2 md swift 1|-\|/-| 
+#246 Add Cartfile and separate sections for cocoapods and carthage in README.md |-\|/-| 2015-10-07T19:58:35Z Merged pull request |-\|/-| 248 +3 −2 Cartfile md 1|-\|/-| 
+Closes #245 Update Endpoints.md to fix endpointResolver typo |-\|/-| 2015-10-07T16:06:20Z Merged pull request |-\|/-| 247 +1 −4 md 0|-\|/-| 
+More doc updates |-\|/-| 2015-10-07T13:33:55Z Merged pull request |-\|/-| 244 +18 −72 swift md 1|-\|/-| 
+Updates reactive extension documentation |-\|/-| 2015-10-07T06:43:16Z Merged pull request |-\|/-| 243 +153 −20 md 0|-\|/-| 
+[Documentation] Fixes sample responses in Endpoints.md |-\|/-| 2015-10-06T22:47:09Z Merged pull request |-\|/-| 242 +3 −5 md 0|-\|/-| 
+A few other renames, documentation updates |-\|/-| 2015-10-05T11:35:41Z Merged pull request |-\|/-| 240 +296 −198 md swift pbxproj podspec 7|-\|/-| 
+Plugins |-\|/-| 2015-10-03T21:32:17Z Merged pull request |-\|/-| 238 +203 −97 swift pbxproj 4|-\|/-| 
+Plugins |-\|/-| 2015-10-02T11:23:56Z Closed pull request |-\|/-| 237 +2,541 −2,088 md pbxproj swift 4|-\|/-| 
+Adds http response and requests logging capabilities  |-\|/-| 2015-10-02T13:29:17Z Closed pull request |-\|/-| 235 +114 −1 pbxproj xcworkspacedata swift 5|-\|/-| 
+Removes Inflight Requests |-\|/-| 2015-09-22T17:01:57Z Merged pull request |-\|/-| 232 +33 −161 md swift 5|-\|/-| 
+Custom manager support |-\|/-| 2015-09-22T16:35:04Z Merged pull request |-\|/-| 231 +21 −1 swift 2|-\|/-| 
+Makes Endpoint Mapping Asynchronous |-\|/-| 2015-10-01T14:30:40Z Merged pull request |-\|/-| 230 +52 −22 md swift 2|-\|/-| 
+Removes Inflight Request tracking/deduplication. |-\|/-| 2015-09-22T13:35:01Z Closed pull request |-\|/-| 229 +5 −123 md swift 5|-\|/-| 
+Renames many things |-\|/-| 2015-10-01T20:15:41Z Merged pull request |-\|/-| 228 +300 −201 md swift 4|-\|/-| 
+Adds RxSwift Data Processing |-\|/-| 2015-09-22T00:09:06Z Merged pull request |-\|/-| 225 +1,998 −1,697 md pbxproj swift lock 6|-\|/-| 
+Adds ReactiveCocoa 4 Support |-\|/-| 2015-09-22T16:13:28Z Closed pull request |-\|/-| 224 +2,378 −1,916 md pbxproj swift 5|-\|/-| 
+Added endpointByAddingParameterEncoding |-\|/-| 2015-09-16T03:31:51Z Merged pull request |-\|/-| 219 +10 −0 md swift 1|-\|/-| 
+@orta: Moves framework files |-\|/-| 2015-09-14T14:22:23Z Merged pull request |-\|/-| 218 +2,428 −2,806 md pbxproj swift 6|-\|/-| 
+Carthage Support |-\|/-| 2015-09-14T13:08:53Z Merged pull request |-\|/-| 215 +52,332 −518 gitignore yml md Cartfile resolved pbxproj xcscheme swift 8|-\|/-| 
+@orta => Swift 2.0 master merge |-\|/-| 2015-09-12T16:49:27Z Merged pull request |-\|/-| 214 +121 −73 yml md pbxproj xcscheme swift lock Makefile podspec 10|-\|/-| 
+Bring back Travis CI support for the Swift 2 stuff |-\|/-| 2015-09-10T20:42:36Z Merged pull request |-\|/-| 213 +35 −19 yml Makefile md 2|-\|/-| 
+@orta: [Swift 2] Updates for Xcode 7 GM. |-\|/-| 2015-09-10T18:53:27Z Merged pull request |-\|/-| 212 +274 −267 swift 1|-\|/-| 
+Fixed compilation issues with the demo project, tests and reactive extensions |-\|/-| 2015-09-10T17:55:52Z Merged pull request |-\|/-| 211 +8,272 −30,352 Cartfile pbxproj swift 5|-\|/-| 
+Update to MoyaCompletion closure for recent Alamofire changes |-\|/-| 2015-09-04T02:45:19Z Merged pull request |-\|/-| 207 +3 −3 swift 1|-\|/-| 
+Added authentication support |-\|/-| 2015-09-22T16:26:37Z Merged pull request |-\|/-| 205 +133 −11 pbxproj swift 7|-\|/-| 
+Deprecate wrong-named function |-\|/-| 2015-08-27T11:40:40Z Merged pull request |-\|/-| 202 +7 −6 swift 1|-\|/-| 
+typo + remove trailing whitespaces |-\|/-| 2015-08-27T11:49:16Z Merged pull request |-\|/-| 201 +6 −6 swift 1|-\|/-| 
+@ashfurrow => Swift 2.0 |-\|/-| 2015-08-20T16:27:20Z Merged pull request |-\|/-| 194 +9,336 −10,263 pbxproj xcscheme swift plist 4|-\|/-| 
+Rename DefaultEnpointResolution to *Endpoint* |-\|/-| 2015-08-19T14:24:20Z Merged pull request |-\|/-| 186 +11 −5 md swift 5|-\|/-| 
+Add optional Alamofire.Manager argument to MoyaProvider's initializer |-\|/-| 2015-08-11T16:43:32Z Merged pull request |-\|/-| 183 +51 −10 md swift 4|-\|/-| 
+[WIP] Swift 2.0 |-\|/-| 2015-08-20T16:18:01Z Closed pull request |-\|/-| 181 +9,335 −10,262 pbxproj xcscheme swift plist 4|-\|/-| 
+Fixed two small typos in Endpoints.md |-\|/-| 2015-08-07T13:06:38Z Merged pull request |-\|/-| 180 +2 −2 md 0|-\|/-| 
+Transfers to Moya organization |-\|/-| 2015-08-05T18:16:21Z Merged pull request |-\|/-| 175 +6 −6 podspec md 1|-\|/-| 
+Fixes CI |-\|/-| 2015-08-04T18:01:07Z Merged pull request |-\|/-| 174 +6,744 −5,025 swift lock 2|-\|/-| 
+Updates AlamoFire dependency to 1.3.0 |-\|/-| 2015-08-04T16:19:34Z Merged pull request |-\|/-| 172 +5 −5 Cartfile lock json podspec 5|-\|/-| 
+Fix typo |-\|/-| 2015-07-26T12:15:58Z Merged pull request |-\|/-| 171 +1 −1 md 0|-\|/-| 
+Updated project to support Carthage |-\|/-| 2015-09-13T01:24:38Z Closed pull request |-\|/-| 169 +1,711 −51,532 gitignore Cartfile private resolved pbxproj xcscheme swift 8|-\|/-| 
+Fixes for swift 2.0 in Xcode 7.3 |-\|/-| 2015-07-27T15:20:40Z Closed pull request |-\|/-| 167 +18 −17 podspec swift 5|-\|/-| 
+WIP: Fix concurrency bugs |-\|/-| 2015-08-04T17:40:25Z Merged pull request |-\|/-| 166 +3,688 −3,671 swift 1|-\|/-| 
+[WIP] Swift 2.0 |-\|/-| 2015-08-08T01:26:48Z Closed pull request |-\|/-| 162 +9,865 −29,557 pbxproj xcscheme swift plist Demo/Podfile lock 9|-\|/-| 
+Change ReactiveCocoa subspec to ReactiveCocoa/Core |-\|/-| 2015-07-11T15:11:11Z Closed pull request |-\|/-| 161 +2 −3 podspec md 1|-\|/-| 
+Using the correct functions to send events to Observer. |-\|/-| 2015-07-02T00:44:29Z Merged pull request |-\|/-| 160 +5 −5 swift 1|-\|/-| 
+use ~> 3.0 to pick a version of ReactiveCocoa in Cartfile |-\|/-| 2015-06-28T01:15:41Z Merged pull request |-\|/-| 158 +4 −4 Cartfile resolved 2|-\|/-| 
+Update RxSwift and other pods of Demo project |-\|/-| 2015-06-28T23:31:56Z Merged pull request |-\|/-| 157 +7,176 −4,735 md Demo/Podfile lock json pbxproj xcscheme 6|-\|/-| 
+Fix link to Targets.md |-\|/-| 2015-06-22T13:28:01Z Merged pull request |-\|/-| 152 +1 −1 md 0|-\|/-| 
+ReactiveCocoa version issue on pod install |-\|/-| 2015-06-17T18:13:14Z Merged pull request |-\|/-| 150 +1 −1 md 0|-\|/-| 
+Renames ReactiveMoyaProvider. |-\|/-| 2015-06-17T18:09:00Z Merged pull request |-\|/-| 148 +12 −11 md swift 3|-\|/-| 
+Check in Pods Directory |-\|/-| 2015-06-16T16:12:33Z Merged pull request |-\|/-| 147 +47,698 −9 gitignore Demo/Pods/Alamofire/LICENSE 2|-\|/-| 
+Added Contributing section |-\|/-| 2015-06-16T12:06:55Z Merged pull request |-\|/-| 146 +20 −0 md 0|-\|/-| 
+New Stubbing arguments |-\|/-| 2015-06-16T16:02:13Z Merged pull request |-\|/-| 143 +169 −134 md swift 3|-\|/-| 
+Added linting to CI. |-\|/-| 2015-06-14T00:05:04Z Merged pull request |-\|/-| 141 +4 −0 Makefile 1|-\|/-| 
+Chores |-\|/-| 2015-06-14T01:48:30Z Merged pull request |-\|/-| 139 +54 −208 md swift Demo/Podfile lock Makefile podspec 18|-\|/-| 
+Add RxSwift provider |-\|/-| 2015-06-07T23:02:55Z Merged pull request |-\|/-| 133 +203 −40 md swift Demo/Podfile lock podspec 7|-\|/-| 
+Fix typo in Targets.md |-\|/-| 2015-06-01T19:56:19Z Merged pull request |-\|/-| 132 +1 −1 md 0|-\|/-| 
+Update ReactiveExtensions.md |-\|/-| 2015-05-28T16:38:00Z Merged pull request |-\|/-| 131 +1 −1 md 0|-\|/-| 
+fix typos in README |-\|/-| 2015-05-28T15:24:11Z Merged pull request |-\|/-| 130 +3 −3 md 0|-\|/-| 
+Fix minor typo |-\|/-| 2015-05-28T15:23:48Z Merged pull request |-\|/-| 129 +1 −1 md 0|-\|/-| 
+Remove redundancy in circle.yml and Makefile |-\|/-| 2015-05-27T15:13:58Z Merged pull request |-\|/-| 128 +4 −6 Makefile yml 2|-\|/-| 
+Carthage support |-\|/-| 2015-06-16T21:22:33Z Merged pull request |-\|/-| 127 +3,603 −3,530 gitignore Cartfile resolved lock pbxproj xcscheme Gemfile Makefile xcodeproj yml 12|-\|/-| 
+A lot of things |-\|/-| 2015-05-27T14:42:44Z Merged pull request |-\|/-| 126 +655 −509 md swift 9|-\|/-| 
+Add change log file. |-\|/-| 2015-05-28T15:26:36Z Closed pull request |-\|/-| 125 +317 −0 md 0|-\|/-| 
+Swift 1.2 |-\|/-| 2015-05-25T19:57:17Z Merged pull request |-\|/-| 122 +90 −69 yml md xcscheme swift Demo/Podfile lock podspec 15|-\|/-| 
+sev 1 issue; pronunciation guide missing |-\|/-| 2015-05-19T18:37:29Z Closed pull request |-\|/-| 121 +5 −0 md 0|-\|/-| 
+Adding cancelable behavior to MoyaProvider requests |-\|/-| 2015-05-25T19:21:21Z Merged pull request |-\|/-| 120 +108 −9 swift 4|-\|/-| 
+Adding iOS dynamic framework with project |-\|/-| 2015-05-20T21:27:52Z Closed pull request |-\|/-| 117 +503 −0 gitignore Cartfile resolved pbxproj xcworkspacedata 5|-\|/-| 
+Swift 1.2 upgrade |-\|/-| 2015-05-07T14:48:55Z Merged pull request |-\|/-| 116 +13 −9 xcscheme swift Demo/Podfile lock 4|-\|/-| 
+Reference Demo, not Sample, directory |-\|/-| 2015-04-28T20:07:38Z Merged pull request |-\|/-| 115 +1 −1 md 0|-\|/-| 
+@orta => Adds Network Activity Thingies |-\|/-| 2015-04-22T18:38:59Z Merged pull request |-\|/-| 112 +228 −283 md pbxproj swift 2|-\|/-| 
+Show network activity indicator when the request is performed |-\|/-| 2015-04-22T18:41:01Z Closed pull request |-\|/-| 111 +5 −1 swift 1|-\|/-| 
+Update Moya.podspec for new major Alamofire version |-\|/-| 2015-04-10T14:23:41Z Merged pull request |-\|/-| 109 +1 −1 podspec 1|-\|/-| 
+[WIP] swift 1.2 support |-\|/-| 2015-04-06T15:55:43Z Merged pull request |-\|/-| 107 +7 −7 swift 4|-\|/-| 
+added filterSuccessfulStatusAndRedirectCodes |-\|/-| 2015-03-24T15:28:14Z Merged pull request |-\|/-| 105 +49 −5 xcscheme swift lock 4|-\|/-| 
+[WIP] Adds 'Lazy' type, so sampleData can be requested later |-\|/-| 2015-03-10T20:40:19Z Merged pull request |-\|/-| 100 +47 −10 swift 6|-\|/-| 
+Fixed code samples to reflect the real apis |-\|/-| 2015-03-04T00:23:04Z Merged pull request |-\|/-| 98 +1 −1 md 0|-\|/-| 
+fixes #78 |-\|/-| 2015-01-29T13:35:35Z Merged pull request |-\|/-| 97 +3 −3 swift 1|-\|/-| 
+@orta => Adds optional delay to stubs |-\|/-| 2015-01-28T15:41:24Z Merged pull request |-\|/-| 96 +66 −30 swift Demo/Podfile lock 5|-\|/-| 
+Delete .gitmodules |-\|/-| 2015-01-16T19:26:01Z Merged pull request |-\|/-| 94 +0 −12 gitmodules 1|-\|/-| 
+Add data support for stubbed error responses. |-\|/-| 2015-01-07T18:46:22Z Merged pull request |-\|/-| 92 +18 −4 swift 4|-\|/-| 
+[WIP] Return of the framework |-\|/-| 2015-03-04T16:54:02Z Closed pull request |-\|/-| 87 +866 −400 pbxproj plist h Makefile xcworkspacedata xcscheme Demo/Podfile → Podfile lock swift png 22|-\|/-| 
+Fixes #84. |-\|/-| 2014-11-23T17:04:57Z Merged pull request |-\|/-| 86 +24 −19 Gemfile lock 2|-\|/-| 
+Fixed very small typo in README |-\|/-| 2014-11-23T17:00:42Z Merged pull request |-\|/-| 83 +1 −1 md 0|-\|/-| 
+[WIP] Jazzy docs |-\|/-| 2015-01-11T19:17:33Z Closed pull request |-\|/-| 82 +33,546 −4 gitignore Demo/Pods/Alamofire/LICENSE 3|-\|/-| 
+Fix CocoaPods install instructions for remote pods |-\|/-| 2014-11-19T06:13:28Z Merged pull request |-\|/-| 80 +2 −2 md 0|-\|/-| 
+@orta => Updates with CocoaPods instructions. |-\|/-| 2014-11-18T21:03:44Z Merged pull request |-\|/-| 79 +19 −22 md 0|-\|/-| 
+@orta => Continuous Integration |-\|/-| 2014-11-18T20:43:24Z Merged pull request |-\|/-| 77 +1,257 −1,688 yml pbxproj xcworkspacedata xcscheme swift xib 7|-\|/-| 
+@orta => Documentation |-\|/-| 2014-11-16T12:34:54Z Merged pull request |-\|/-| 75 +311 −42 swift md 1|-\|/-| 
+Fixed a minor bug that prevented compilation of the sample. |-\|/-| 2014-11-14T15:20:48Z Merged pull request |-\|/-| 72 +1 −1 swift 1|-\|/-| 
+Reword an awkward sentence in the README's requirements |-\|/-| 2014-11-14T08:45:00Z Merged pull request |-\|/-| 71 +1 −1 md 0|-\|/-| 
+Fix for https://github.com/AshFurrow/Moya/issues/66 |-\|/-| 2014-11-05T18:04:28Z Merged pull request |-\|/-| 69 +31 −125 gitignore md swift xccheckout submodules/Alamofire 4|-\|/-| 
+@orta => Inflight fix |-\|/-| 2014-10-09T19:10:35Z Merged pull request |-\|/-| 64 +30 −32 md swift xcworkspacedata submodules/Nimble submodules/Quick submodules/ReactiveCocoa 11|-\|/-| 
+@ashfurrow => Support NSURLResponse introspection in errors |-\|/-| 2014-10-07T14:30:02Z Merged pull request |-\|/-| 62 +18 −11 md swift 3|-\|/-| 
+@ashfurrow => update to support AlamoFire Xcode 6.1 GM |-\|/-| 2014-10-01T11:10:21Z Merged pull request |-\|/-| 59 +1 −1 submodules/Alamofire 1|-\|/-| 
+@ashfurrow => xcode 6.1 support |-\|/-| 2014-09-29T17:43:30Z Merged pull request |-\|/-| 58 +9 −8 md swift submodules/Alamofire 3|-\|/-| 
+@orta => Fixes #53. |-\|/-| 2014-09-22T11:57:51Z Merged pull request |-\|/-| 55 +0 −1 swift 1|-\|/-| 
+@orta => Fixes #52. |-\|/-| 2014-09-22T11:57:36Z Merged pull request |-\|/-| 54 +8 −4 gitmodules md 1|-\|/-| 
+Wrap errors sent with RAC's "sendError" with the appropriate status code, update Sample project to build with new status code requirements |-\|/-| 2014-09-22T10:48:57Z Merged pull request |-\|/-| 50 +33 −6 md swift 5|-\|/-| 
+Fixes #48 |-\|/-| 2014-09-15T17:31:48Z Merged pull request |-\|/-| 49 +104 −71 md swift xcuserstate 6|-\|/-| 
+Moved test extension into text spec. |-\|/-| 2014-09-12T22:37:19Z Merged pull request |-\|/-| 47 +18 −18 swift 2|-\|/-| 
+@orta => Status codes |-\|/-| 2014-09-12T15:13:24Z Merged pull request |-\|/-| 45 +161 −78 md swift 7|-\|/-| 
+@orta => Fixes #13. |-\|/-| 2014-09-07T18:18:59Z Merged pull request |-\|/-| 43 +35 −1 swift 4|-\|/-| 
+Remove unnecessary framework search paths. |-\|/-| 2014-09-07T10:37:10Z Merged pull request |-\|/-| 42 +2 −12 pbxproj 1|-\|/-| 
+Shorten checkout instructions. |-\|/-| 2014-09-07T10:38:20Z Merged pull request |-\|/-| 41 +1 −2 md 0|-\|/-| 
+@orta => Sample app |-\|/-| 2014-09-07T12:00:40Z Merged pull request |-\|/-| 40 +773 −3 md 0|-\|/-| 
+@orta => Fixes #37. |-\|/-| 2014-09-07T11:59:36Z Merged pull request |-\|/-| 38 +27 −38 swift md 3|-\|/-| 
+@orta => Signal Operators |-\|/-| 2014-09-06T20:06:20Z Merged pull request |-\|/-| 36 +239 −0 pbxproj swift png md 4|-\|/-| 
+@orta => Inflight Requests |-\|/-| 2014-09-06T20:21:11Z Merged pull request |-\|/-| 34 +448 −83 swift 3|-\|/-| 
+Splits up integration tests into their own target |-\|/-| 2014-09-06T14:10:46Z Merged pull request |-\|/-| 33 +149 −109 plist pbxproj xcscheme 3|-\|/-| 
+@orta => Header fields |-\|/-| 2014-09-06T20:10:16Z Merged pull request |-\|/-| 32 +113 −27 swift md 5|-\|/-| 
+@orta => Last-minute hook |-\|/-| 2014-09-06T12:48:20Z Merged pull request |-\|/-| 30 +131 −12 swift pbxproj xcscheme md 7|-\|/-| 
+Updated for beta 7, including submodules |-\|/-| 2014-09-06T08:03:35Z Merged pull request |-\|/-| 29 +24 −19 swift xcworkspacedata pbxproj md submodules/Alamofire submodules/Nimble submodules/Quick submodules/ReactiveCocoa 9|-\|/-| 
+Typo. |-\|/-| 2014-09-01T17:22:25Z Merged pull request |-\|/-| 28 +1 −1 md 0|-\|/-| 
+logo + readme changes |-\|/-| 2014-09-01T16:07:10Z Merged pull request |-\|/-| 27 +59 −41 md sketch/Data sketch/metadata sketch/version png 4|-\|/-| 
+Fixes #22. |-\|/-| 2014-08-29T21:05:12Z Merged pull request |-\|/-| 25 +28 −22 swift 4|-\|/-| 
+Error samples |-\|/-| 2014-08-29T20:53:39Z Merged pull request |-\|/-| 24 +107 −18 swift md 6|-\|/-| 
+Adds typesafe routing |-\|/-| 2014-08-29T19:56:02Z Merged pull request |-\|/-| 21 +238 −139 swift xcuserstate xcbkptlist pbxproj png 10|-\|/-| 
+The 300_200.png sample image is referring to a location outside the repository |-\|/-| 2014-08-23T16:54:07Z Merged pull request |-\|/-| 20 +1 −1 pbxproj png 2|-\|/-| 
+Makes ReactiveCocoa Optional |-\|/-| 2014-08-23T11:21:27Z Merged pull request |-\|/-| 18 +251 −79 swift xccheckout xcuserstate xcbkptlist pbxproj 7|-\|/-| 
+[WIP] Tracking inflight requests |-\|/-| 2014-09-06T12:29:41Z Closed pull request |-\|/-| 12 +14 −2 xcuserstate swift 2|-\|/-| 
+Signals |-\|/-| 2014-08-17T19:55:55Z Merged pull request |-\|/-| 11 +141 −15 gitmodules xcworkspacedata xccheckout xcuserstate pbxproj h swift submodules/ReactiveCocoa 10|-\|/-| 
+Parameters |-\|/-| 2014-08-17T19:51:19Z Merged pull request |-\|/-| 8 +56 −21 xcuserstate swift 4|-\|/-| 
+Abstraction |-\|/-| 2014-08-17T16:51:33Z Merged pull request |-\|/-| 6 +39 −32 xcuserstate swift 4|-\|/-| 

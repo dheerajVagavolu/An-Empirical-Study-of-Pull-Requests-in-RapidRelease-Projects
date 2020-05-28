@@ -1,0 +1,557 @@
+docs(storage.md): update nfs instructions |-\|/-| 2019-12-23T21:04:12Z Merged pull request |-\|/-| 1047 +62 −51 md 0|-\|/-| 
+ci(brigade.js): run tests before proceeding with a release |-\|/-| 2019-12-06T22:48:42Z Merged pull request |-\|/-| 1033 +25 −13 js 1|-\|/-| 
+add optional title fields to build type |-\|/-| 2019-11-26T19:47:39Z Merged pull request |-\|/-| 1031 +27 −7 go 4|-\|/-| 
+feat(*): parity for brigade.json defaults/fallbacks |-\|/-| 2019-12-06T20:18:46Z Merged pull request |-\|/-| 1030 +214 −43 go json js ts md 8|-\|/-| 
+ref(brigade-worker): remove yarn docs target |-\|/-| 2019-11-20T17:57:21Z Merged pull request |-\|/-| 1027 +5 −1,001,458 bin/handlebars bin/marked bin/typedoc bin/uglifyjs yarn-integrity brigade-worker/node_modules/@types/minimatch/LICENSE md ts json brigade-worker/node_modules/backbone/LICENSE js map 11|-\|/-| 
+fix(brigade-worker): bump handlebars resolution to satisfy yarn audit |-\|/-| 2019-11-14T20:59:07Z Merged pull request |-\|/-| 1026 +57 −46 yarn-integrity js 3|-\|/-| 
+docs(): add linkerd setup example/instructions |-\|/-| 2019-11-18T18:44:01Z Merged pull request |-\|/-| 1025 +131 −1 md png 2|-\|/-| 
+Revert "take default command from image instead of controller" |-\|/-| 2019-11-14T17:48:46Z Merged pull request |-\|/-| 1023 +12 −9 go brigade-worker/Dockerfile md 5|-\|/-| 
+docs(ingress.md): update cert-manager install instructions/manifests |-\|/-| 2019-11-14T18:46:05Z Merged pull request |-\|/-| 1022 +59 −40 md 0|-\|/-| 
+take default command from image instead of controller |-\|/-| 2019-11-11T18:28:02Z Merged pull request |-\|/-| 1019 +9 −12 go brigade-worker/Dockerfile md 5|-\|/-| 
+feat(*): enable passing brigade.json via brig run |-\|/-| 2019-11-14T18:26:08Z Merged pull request |-\|/-| 1017 +184 −46 go js ts 6|-\|/-| 
+document docker-in-docker |-\|/-| 2019-11-06T22:47:14Z Merged pull request |-\|/-| 1014 +29 −0 md 0|-\|/-| 
+chore(brigade-worker): check in yarn/node_modules updates from master |-\|/-| 2019-11-05T21:41:27Z Merged pull request |-\|/-| 1013 +2,330 −2,925 yarn-integrity js 3|-\|/-| 
+explain how to store brigade.js on a project or in a ConfigMap. |-\|/-| 2019-11-06T21:53:10Z Merged pull request |-\|/-| 1012 +20 −0 md 0|-\|/-| 
+fix(brigade-worker): bump handlebars resolution per yarn audit |-\|/-| 2019-11-05T16:29:33Z Merged pull request |-\|/-| 1011 +1 −1 json 1|-\|/-| 
+ref(brigade.js): remove master gate for check suite event |-\|/-| 2019-11-06T18:43:23Z Merged pull request |-\|/-| 1010 +24 −33 js 1|-\|/-| 
+fix(README.md): update build badge URL |-\|/-| 2019-11-04T19:08:35Z Merged pull request |-\|/-| 1009 +1 −1 md 0|-\|/-| 
+Adding support for ssh certificates. |-\|/-| 2019-11-06T16:23:25Z Merged pull request |-\|/-| 1008 +64 −20 json go yarn-integrity ts lock md sh 14|-\|/-| 
+fix(brigade.js): supply details URL to new Check(..) |-\|/-| 2019-11-04T17:25:55Z Merged pull request |-\|/-| 1006 +2 −1 js 1|-\|/-| 
+feat(project): enable complex secret values |-\|/-| 2019-11-06T17:27:51Z Merged pull request |-\|/-| 1005 +22 −13 go 9|-\|/-| 
+Fix link to gateway documentation |-\|/-| 2019-10-30T08:13:02Z Merged pull request |-\|/-| 1004 +1 −1 md 0|-\|/-| 
+Remove unused top-level node_modules directory |-\|/-| 2019-10-29T21:51:04Z Merged pull request |-\|/-| 1000 +0 −10 yarn-integrity 1|-\|/-| 
+fix(brigade-worker): return no logs found if job canceled and pod undefined or pending |-\|/-| 2019-10-28T19:32:41Z Merged pull request |-\|/-| 998 +16 −4 ts 2|-\|/-| 
+Check message before logging it |-\|/-| 2019-10-28T15:00:34Z Merged pull request |-\|/-| 997 +4 −2 ts 1|-\|/-| 
+Add JSON output for brig X get and list commands |-\|/-| 2019-10-29T17:39:03Z Merged pull request |-\|/-| 996 +85 −28 go 5|-\|/-| 
+Move brig README to docs page |-\|/-| 2019-10-17T02:28:37Z Merged pull request |-\|/-| 992 +23 −21 gitignore toml md 2|-\|/-| 
+Add brig term command that starts Brigadeterm |-\|/-| 2019-10-29T17:29:54Z Merged pull request |-\|/-| 991 +37,792 −3 lock toml go md png yml 6|-\|/-| 
+chore(*): updates per v1.2.1 release |-\|/-| 2019-10-11T18:36:38Z Merged pull request |-\|/-| 990 +11 −11 go json md 2|-\|/-| 
+return to break outer for loop instead of inner select loop |-\|/-| 2019-10-23T16:25:04Z Merged pull request |-\|/-| 989 +1 −1 go 1|-\|/-| 
+docs(install.md): mention value set for gateway install if LB |-\|/-| 2019-09-30T20:51:56Z Merged pull request |-\|/-| 988 +6 −5 md 0|-\|/-| 
+fix(brigade-worker): add resolutions section to package.json  |-\|/-| 2019-09-30T20:44:12Z Merged pull request |-\|/-| 987 +3,517 −2,057 yarn-integrity js 3|-\|/-| 
+Restore pre-1.1.0 module resolution behavior for local dependencies |-\|/-| 2019-10-10T19:59:49Z Merged pull request |-\|/-| 986 +36 −12 ts 1|-\|/-| 
+docs(*): v1.2.0 release updates |-\|/-| 2019-09-03T23:54:06Z Merged pull request |-\|/-| 984 +11 −11 go json md 2|-\|/-| 
+fix(brigade-worker): ensure set -o pipefail is set if shell is /bin/bash |-\|/-| 2019-08-29T13:52:06Z Merged pull request |-\|/-| 982 +40 −3 ts md 2|-\|/-| 
+chore(.gitignore): remove older github-gateway entry |-\|/-| 2019-08-29T13:41:24Z Merged pull request |-\|/-| 981 +0 −1 gitignore 1|-\|/-| 
+Cleanup: fix some typos in code comment |-\|/-| 2019-08-21T14:14:44Z Merged pull request |-\|/-| 978 +3 −3 go 3|-\|/-| 
+add support for optional build-level cloneURL field |-\|/-| 2019-08-12T22:46:49Z Merged pull request |-\|/-| 975 +44 −10 go yarn-integrity ts json lock 10|-\|/-| 
+project_create.go： help message word correction |-\|/-| 2019-08-12T19:19:19Z Merged pull request |-\|/-| 974 +1 −1 go 1|-\|/-| 
+fix(*): ensure all log lines to be fetched regardless of kubelet implementation |-\|/-| 2019-10-10T20:56:47Z Merged pull request |-\|/-| 972 +14 −3 go 3|-\|/-| 
+more thorough custom worker documentation |-\|/-| 2019-08-08T16:48:53Z Merged pull request |-\|/-| 968 +201 −141 md 0|-\|/-| 
+feat(brig): option to show logs from vcs-sidecar |-\|/-| 2019-08-06T05:12:55Z Merged pull request |-\|/-| 967 +34 −3 go 4|-\|/-| 
+ Add experimental volumes and volumeMounts properties to jobs |-\|/-| 2019-08-08T14:05:36Z Merged pull request |-\|/-| 966 +569 −145 yarn-integrity brigade-worker/node_modules/@brigadecore/brigadier/LICENSE ts js json 7|-\|/-| 
+brig project create: allow undefined storage classes |-\|/-| 2019-08-07T14:41:15Z Merged pull request |-\|/-| 965 +33 −4 go 3|-\|/-| 
+brig project create: add support for specifying shared secret or leaving it undefined |-\|/-| 2019-08-05T14:17:09Z Merged pull request |-\|/-| 964 +53 −2 go 1|-\|/-| 
+Initial test with the GitHub library from brigade-utils |-\|/-| 2019-08-05T08:44:19Z Merged pull request |-\|/-| 963 +10 −97 js json 2|-\|/-| 
+chore(LICENSE): update license to Apache 2.0 per CNCF |-\|/-| 2019-08-06T21:52:55Z Merged pull request |-\|/-| 962 +208 −24 LICENSE go json md 3|-\|/-| 
+Update worker packages to address vulnerabilities |-\|/-| 2019-08-01T09:43:33Z Merged pull request |-\|/-| 959 +328,056 −370,167 Makefile bin/atob bin/escodegen bin/esgenerate bin/esparse bin/esvalidate bin/jison bin/jison-lex bin/js-yaml bin/semver yarn-integrity brigade-worker/node_modules/@brigadecore/brigadier/LICENSE md ts js json brigade-worker/node_modules/@kubernetes/client-node/LICENSE 16|-\|/-| 
+ci(brigade.js): add e2e job |-\|/-| 2019-10-29T19:26:50Z Merged pull request |-\|/-| 955 +59 −16 js json sh 3|-\|/-| 
+Bump handlebars from 4.1.1 to 4.1.2 in /brigade-worker |-\|/-| 2019-08-01T09:44:46Z Closed pull request |-\|/-| 954 +14 −14 lock 1|-\|/-| 
+Fix image pull secrets not being set in NewProjectFromSecret |-\|/-| 2019-07-26T00:29:31Z Merged pull request |-\|/-| 953 +6 −0 go 2|-\|/-| 
+Add resolution for NPM package lodash due to security vulnerability |-\|/-| 2019-07-17T02:57:49Z Merged pull request |-\|/-| 951 +276 −169 yarn-integrity brigade-worker/node_modules/lodash/LICENSE md js 10|-\|/-| 
+end to end testing for Brigade using kind |-\|/-| 2019-07-19T21:10:49Z Merged pull request |-\|/-| 950 +318 −2 Makefile md sh js yaml 5|-\|/-| 
+feat(brig): achieve flag parity for rerun command (to run); add unit tests |-\|/-| 2019-07-11T17:09:32Z Merged pull request |-\|/-| 948 +248 −23 go 4|-\|/-| 
+fix(main.go): remove double print of error message |-\|/-| 2019-07-16T22:01:34Z Merged pull request |-\|/-| 947 +0 −2 go 1|-\|/-| 
+fix(brig): silence usage on errors by default for root command |-\|/-| 2019-07-09T15:44:44Z Merged pull request |-\|/-| 946 +4 −3 go 1|-\|/-| 
+docs(scripting.md): add project-level config needed for docker setups |-\|/-| 2019-07-10T17:23:50Z Merged pull request |-\|/-| 945 +8 −0 md 0|-\|/-| 
+added instructions to develop with kind |-\|/-| 2019-06-20T19:43:29Z Merged pull request |-\|/-| 937 +33 −3 Makefile md 1|-\|/-| 
+fix(brigade-worker): ensure backwards compatibility for project name and repo name values |-\|/-| 2019-06-19T16:33:46Z Merged pull request |-\|/-| 936 +14 −14 go ts 4|-\|/-| 
+docs(*): v1.1.0 release updates |-\|/-| 2019-06-18T20:02:20Z Merged pull request |-\|/-| 935 +11 −13 go json md 2|-\|/-| 
+make sure version is set correctly for brig binaries |-\|/-| 2019-06-11T18:03:16Z Merged pull request |-\|/-| 933 +1 −1 js 1|-\|/-| 
+feat(brigade.js): add handlers for issue_comment and check_run:rerequested events |-\|/-| 2019-06-11T16:59:36Z Merged pull request |-\|/-| 932 +45 −1 js 1|-\|/-| 
+make devx more win-friendly |-\|/-| 2019-07-31T16:33:28Z Merged pull request |-\|/-| 929 +33 −7 Makefile md 1|-\|/-| 
+emphasizing that job timeout is in milliseconds |-\|/-| 2019-06-06T10:40:57Z Merged pull request |-\|/-| 925 +157 −1 md ts yarn-integrity 2|-\|/-| 
+make runSuite() fail build when any job fails |-\|/-| 2019-05-30T18:07:11Z Merged pull request |-\|/-| 923 +18 −4 js 1|-\|/-| 
+fix: wrong `helm upgrade` usage in "Installing Brigade" |-\|/-| 2019-05-30T22:33:57Z Merged pull request |-\|/-| 922 +2 −2 md 0|-\|/-| 
+improve the build and release processes |-\|/-| 2019-06-05T17:14:08Z Merged pull request |-\|/-| 920 +5,311,575 −479 gitignore 1|-\|/-| 
+fix(brigade-worker): uppercase BRIGADE_LOG_LEVEL val for deriving cor… |-\|/-| 2019-05-21T19:23:36Z Merged pull request |-\|/-| 915 +2 −1 ts 1|-\|/-| 
+Log unhandled rejection with error message |-\|/-| 2019-06-04T15:45:51Z Closed pull request |-\|/-| 914 +1 −0 ts 1|-\|/-| 
+[#840] add alias redirects to doc front matter |-\|/-| 2019-05-09T22:51:26Z Merged pull request |-\|/-| 912 +115 −2 md 0|-\|/-| 
+[docs] make deploy previews use rel paths |-\|/-| 2019-05-09T20:52:36Z Merged pull request |-\|/-| 911 +6 −6 toml html 3|-\|/-| 
+allow default worker command to also be set via env var |-\|/-| 2019-05-17T13:40:35Z Merged pull request |-\|/-| 910 +5 −1 go 1|-\|/-| 
+allow global configuration of default storage classes |-\|/-| 2019-05-11T05:04:00Z Merged pull request |-\|/-| 908 +155 −3 go ts 7|-\|/-| 
+make worker command configurable globally with a controller flag |-\|/-| 2019-05-09T16:08:48Z Merged pull request |-\|/-| 906 +9 −4 go 5|-\|/-| 
+[docs] Preview Environments tutorial |-\|/-| 2019-06-12T15:47:12Z Merged pull request |-\|/-| 903 +433 −4 toml 1|-\|/-| 
+fix(k8s.ts): extract error message for log/reject |-\|/-| 2019-04-25T16:26:42Z Merged pull request |-\|/-| 900 +5 −7 ts 1|-\|/-| 
+fix sorting on topics docs |-\|/-| 2019-04-25T17:13:33Z Merged pull request |-\|/-| 897 +50 −50 toml 1|-\|/-| 
+[docs] add anchor links for deep linking to section titles |-\|/-| 2019-05-09T22:16:05Z Merged pull request |-\|/-| 894 +48 −3 toml content json scss html 6|-\|/-| 
+fix config.toml to include quickstart link |-\|/-| 2019-04-16T19:26:47Z Merged pull request |-\|/-| 893 +13 −8 toml 1|-\|/-| 
+brig project create templates |-\|/-| 2019-06-10T21:14:10Z Merged pull request |-\|/-| 892 +561 −319 md 0|-\|/-| 
+correct storage link |-\|/-| 2019-04-12T00:52:41Z Merged pull request |-\|/-| 889 +1 −1 md 0|-\|/-| 
+fix code links on scripting-scripting advanced |-\|/-| 2019-04-11T14:59:29Z Merged pull request |-\|/-| 885 +26 −22 md 0|-\|/-| 
+brig check initial implementation |-\|/-| 2019-04-12T13:19:58Z Merged pull request |-\|/-| 881 +118 −0 go 1|-\|/-| 
+fix config.toml to include quickstart link |-\|/-| 2019-04-12T10:36:40Z Closed pull request |-\|/-| 880 +13 −8 toml 1|-\|/-| 
+docs(ingress.md): fix manifest indent |-\|/-| 2019-04-05T20:11:31Z Merged pull request |-\|/-| 878 +1 −1 md 0|-\|/-| 
+copy contributing info into docs/content and add nav link |-\|/-| 2019-04-04T15:32:33Z Merged pull request |-\|/-| 876 +81 −0 toml md 1|-\|/-| 
+Add CNCF Community Code of Conduct |-\|/-| 2019-04-04T20:59:29Z Merged pull request |-\|/-| 875 +1 −1 md 0|-\|/-| 
+Add license scan report and status |-\|/-| 2019-04-04T16:47:52Z Merged pull request |-\|/-| 874 +5 −0 md 0|-\|/-| 
+Add In-Progress CII badge |-\|/-| 2019-04-04T20:55:38Z Merged pull request |-\|/-| 873 +1 −0 md 0|-\|/-| 
+Missing [ in image link |-\|/-| 2019-04-02T18:33:09Z Merged pull request |-\|/-| 871 +2 −2 md 0|-\|/-| 
+Use `module-alias` to improve module resolution in Brigade scripts |-\|/-| 2019-04-18T16:57:36Z Merged pull request |-\|/-| 870 +58 −123 json js ts lock md 7|-\|/-| 
+Eliminates a yarn race condition when installing brigade.json deps |-\|/-| 2019-04-17T20:13:23Z Merged pull request |-\|/-| 869 +384 −34 json js ts 3|-\|/-| 
+[docs] adds custom menu for docs |-\|/-| 2019-04-01T16:54:30Z Merged pull request |-\|/-| 865 +171 −62 toml html 3|-\|/-| 
+[docs] add analytics |-\|/-| 2019-05-09T22:54:14Z Merged pull request |-\|/-| 864 +32 −4 content json scss html 5|-\|/-| 
+[docs](#840) fix image paths |-\|/-| 2019-03-28T20:40:47Z Merged pull request |-\|/-| 863 +2 −2 md 0|-\|/-| 
+chore(brigade-worker): bump version to v1.0.0 |-\|/-| 2019-03-28T18:47:20Z Merged pull request |-\|/-| 858 +1 −1 json 1|-\|/-| 
+docs(*): bump version in docs to latest v1.0.0 release |-\|/-| 2019-03-28T18:08:22Z Merged pull request |-\|/-| 857 +9 −13 md 0|-\|/-| 
+docs(CONTRIBUTING.md): add contributing doc; link from README |-\|/-| 2019-03-28T16:22:45Z Merged pull request |-\|/-| 855 +73 −10 md 0|-\|/-| 
+chore(LICENSE): update license |-\|/-| 2019-03-28T15:45:46Z Merged pull request |-\|/-| 854 +1 −1 LICENSE 1|-\|/-| 
+Added Generic Gateway quickstart |-\|/-| 2019-04-06T16:38:59Z Merged pull request |-\|/-| 851 +329 −158 md 0|-\|/-| 
+chore(*): update image org to brigadecore |-\|/-| 2019-03-26T17:59:04Z Merged pull request |-\|/-| 850 +180 −334 lock Makefile md go json ts 12|-\|/-| 
+ref(brigade.js): remove acr publishing |-\|/-| 2019-03-28T16:09:48Z Merged pull request |-\|/-| 849 +6 −39 js 1|-\|/-| 
+Update links for brigadecore |-\|/-| 2019-03-21T18:19:24Z Merged pull request |-\|/-| 848 +5 −35 md toml 2|-\|/-| 
+Chore/brigadecore updates |-\|/-| 2019-03-21T18:18:48Z Merged pull request |-\|/-| 847 +528 −738 md Makefile go 26|-\|/-| 
+add types of Generic Gateway events on documentation |-\|/-| 2019-03-15T17:26:09Z Merged pull request |-\|/-| 845 +7 −4 md 0|-\|/-| 
+Update package.json version for Brigade worker |-\|/-| 2019-03-14T20:21:09Z Merged pull request |-\|/-| 843 +2 −2 json 1|-\|/-| 
+[docs] update netlify config |-\|/-| 2019-03-08T21:20:34Z Merged pull request |-\|/-| 837 +1 −1 toml 1|-\|/-| 
+[docs] fix internal doc links on index pages |-\|/-| 2019-03-08T18:36:09Z Merged pull request |-\|/-| 836 +27 −27 md 0|-\|/-| 
+docs: update docs links |-\|/-| 2019-03-08T17:53:21Z Merged pull request |-\|/-| 833 +5 −5 md 0|-\|/-| 
+docs: add lukepatrick as a code owner |-\|/-| 2019-03-09T06:59:25Z Merged pull request |-\|/-| 832 +2 −2 CODEOWNERS 1|-\|/-| 
+removing custom navigation from docs (#827) |-\|/-| 2019-03-13T17:42:52Z Merged pull request |-\|/-| 831 +16 −126 md 0|-\|/-| 
+docs(releasing.md): update brigade-charts section |-\|/-| 2019-03-08T03:51:49Z Merged pull request |-\|/-| 829 +3 −7 md 0|-\|/-| 
+Add CODEOWNERS file as a record of core maintainers |-\|/-| 2019-03-07T21:22:37Z Merged pull request |-\|/-| 826 +9 −0 CODEOWNERS 1|-\|/-| 
+chore(*): update node dependencies |-\|/-| 2019-03-01T22:18:43Z Merged pull request |-\|/-| 825 +1,238 −1,036 json 1|-\|/-| 
+Update mocha^4.1.0 |-\|/-| 2019-02-26T19:33:04Z Merged pull request |-\|/-| 822 +966 −95 json 1|-\|/-| 
+Update mocha to ^v4.0.1 to update the debug and growl packages |-\|/-| 2019-02-26T18:21:05Z Merged pull request |-\|/-| 821 +38 −101 json lock 2|-\|/-| 
+Temporarily comment the ASCII Cinema URL as it is archived |-\|/-| 2019-02-25T17:52:16Z Merged pull request |-\|/-| 819 +3 −3 md 0|-\|/-| 
+CloudEvents 0.2 support |-\|/-| 2019-02-25T19:29:15Z Merged pull request |-\|/-| 818 +780 −197 lock toml go json md 5|-\|/-| 
+Fix service account regex test |-\|/-| 2019-02-26T00:14:19Z Merged pull request |-\|/-| 817 +8 −6 json ts lock 3|-\|/-| 
+Add a theme for Docs |-\|/-| 2019-03-08T05:37:58Z Merged pull request |-\|/-| 814 +6,110 −221 gitignore yml md toml js yaml docs/topics/examples/simple-event/cron/Dockerfile → docs/content/examples/simple-event/cron/Dockerfile sh docs/topics/examples/workers/Dockerfile → docs/content/examples/workers/Dockerfile 37|-\|/-| 
+Brigade gateways behind ingress with TLS |-\|/-| 2019-02-25T17:52:44Z Merged pull request |-\|/-| 813 +228 −0 png md 3|-\|/-| 
+StartTime instead of EndTime on `brig build list` AGE column |-\|/-| 2019-02-20T12:00:29Z Merged pull request |-\|/-| 812 +5 −5 go 2|-\|/-| 
+Generic Gateway should not try and find a brigade.js file |-\|/-| 2019-02-22T02:16:19Z Merged pull request |-\|/-| 811 +322 −240 go corrupt json md 7|-\|/-| 
+fix regex matching on the service account |-\|/-| 2019-02-13T00:36:07Z Merged pull request |-\|/-| 809 +1 −1 ts 1|-\|/-| 
+[docs] mention that Generic Gateway supports only GitHub  |-\|/-| 2019-02-12T16:56:53Z Closed pull request |-\|/-| 805 +1 −1 md 0|-\|/-| 
+ref(github-gw): remove github-gateway in favor of brigade-github-app |-\|/-| 2019-02-12T19:52:59Z Merged pull request |-\|/-| 797 +243 −999 Makefile brigade-github-gateway/Dockerfile go sh png md 8|-\|/-| 
+docs(*): update project docs to use brig as default |-\|/-| 2019-01-31T21:15:54Z Merged pull request |-\|/-| 794 +137 −164 md 0|-\|/-| 
+docs(releasing.md): note Brigade Project chart as well |-\|/-| 2019-01-31T16:50:44Z Merged pull request |-\|/-| 793 +5 −4 md 0|-\|/-| 
+docs(topics): add testing doc |-\|/-| 2019-01-31T21:04:02Z Merged pull request |-\|/-| 791 +101 −6 md 0|-\|/-| 
+docs(*): add releasing.md doc, bump strings in anticipation of v0.20.0 |-\|/-| 2019-01-29T21:34:11Z Merged pull request |-\|/-| 790 +47 −7 md json 1|-\|/-| 
+Add index + navigation for Generic Gateway documentation |-\|/-| 2019-01-29T18:10:04Z Merged pull request |-\|/-| 788 +9 −3 md 0|-\|/-| 
+ Enable pretty import paths for local imports (from repo) in brigade.js |-\|/-| 2019-02-06T23:39:53Z Merged pull request |-\|/-| 787 +176 −82 ts md 2|-\|/-| 
+feat(Makefile,developers.md): add development-centric Makefile target… |-\|/-| 2019-01-28T04:42:27Z Merged pull request |-\|/-| 785 +61 −15 Makefile md 1|-\|/-| 
+docs(topics/secrets): add remote store and K8s secret examples |-\|/-| 2019-01-28T18:28:05Z Merged pull request |-\|/-| 784 +126 −4 md 0|-\|/-| 
+docs(topics): remove older install.md, relocate nfs instructions to storage.md |-\|/-| 2019-01-28T04:44:16Z Merged pull request |-\|/-| 783 +100 −203 md 0|-\|/-| 
+docs(topics): add navigation links |-\|/-| 2019-01-25T21:09:28Z Merged pull request |-\|/-| 782 +76 −1 md 0|-\|/-| 
+fix LastBuild in ProjectBuildSummary |-\|/-| 2019-01-28T04:13:14Z Merged pull request |-\|/-| 781 +92 −34 go 4|-\|/-| 
+fix(deps): add version constraints to Gopkg.toml |-\|/-| 2019-01-19T06:19:47Z Merged pull request |-\|/-| 779 +39 −15 lock toml go 3|-\|/-| 
+[WIP] declarative pipelines |-\|/-| 2019-01-18T16:01:45Z Closed pull request |-\|/-| 776 +4,109 −115 lock toml Makefile go yaml 12|-\|/-| 
+StorageClass dropdown on brig project create |-\|/-| 2019-01-16T00:23:25Z Merged pull request |-\|/-| 772 +100 −25 go 5|-\|/-| 
+quickstart enhancement |-\|/-| 2019-01-16T07:37:20Z Merged pull request |-\|/-| 769 +132 −46 md 0|-\|/-| 
+added option to specify brigade.js path on project creation |-\|/-| 2019-01-11T15:44:10Z Merged pull request |-\|/-| 766 +67 −15 go md 4|-\|/-| 
+Generic Gateway cleanup |-\|/-| 2019-01-28T11:04:36Z Merged pull request |-\|/-| 762 +597 −12 gitignore Makefile go md brigade-generic-gateway/Dockerfile json corrupt 10|-\|/-| 
+[WIP] Fix badly formatted test-javascript output for failing tests |-\|/-| 2019-02-07T00:00:42Z Closed pull request |-\|/-| 760 +0 −0 0|-\|/-| 
+Use the job shell when starting the container |-\|/-| 2019-01-07T23:51:47Z Merged pull request |-\|/-| 759 +31 −9 ts 2|-\|/-| 
+Update TypeScript to 3.2.2 and add build target in CI |-\|/-| 2019-01-07T21:43:40Z Merged pull request |-\|/-| 758 +17 −6 Makefile json ts lock 4|-\|/-| 
+add the ability to toggle usage of secretKeyRef in jobs |-\|/-| 2019-01-10T17:22:32Z Merged pull request |-\|/-| 753 +91 −14 go ts 8|-\|/-| 
+Allow setting the job service account |-\|/-| 2019-02-12T22:19:25Z Merged pull request |-\|/-| 752 +328 −9 go 5|-\|/-| 
+Add link to Azure DevOps / VSTS gateway |-\|/-| 2019-01-04T23:53:31Z Merged pull request |-\|/-| 751 +1 −0 md 0|-\|/-| 
+Update bacongobbler/browser to v1.1.0 |-\|/-| 2019-01-04T21:03:50Z Merged pull request |-\|/-| 744 +5 −4 lock toml 2|-\|/-| 
+small docs refactor |-\|/-| 2019-01-04T20:04:50Z Merged pull request |-\|/-| 743 +4 −1 md 0|-\|/-| 
+brig: Add default namespace  |-\|/-| 2019-01-04T01:10:42Z Merged pull request |-\|/-| 742 +16 −2 go 1|-\|/-| 
+Add GitHub issue and PR templates |-\|/-| 2019-01-04T20:05:25Z Merged pull request |-\|/-| 738 +27 −0 md 0|-\|/-| 
+fix linter errors |-\|/-| 2018-12-28T19:25:46Z Merged pull request |-\|/-| 737 +41 −40 go 36|-\|/-| 
+fix linter issues |-\|/-| 2018-12-28T18:35:46Z Closed pull request |-\|/-| 736 +43 −42 lock toml go 39|-\|/-| 
+replaced video links on docs index page |-\|/-| 2018-12-28T19:29:16Z Merged pull request |-\|/-| 734 +2 −2 md 0|-\|/-| 
+minor fix on chart link |-\|/-| 2018-12-28T19:29:36Z Merged pull request |-\|/-| 733 +1 −1 md 0|-\|/-| 
+Add a support & feedback section to the readme |-\|/-| 2018-12-21T17:35:26Z Merged pull request |-\|/-| 730 +5 −1 md 0|-\|/-| 
+show job logs (#643) |-\|/-| 2019-01-03T19:50:08Z Merged pull request |-\|/-| 728 +65 −5 ts md 2|-\|/-| 
+allow configuring the service account in the helm chart |-\|/-| 2018-12-18T23:42:23Z Merged pull request |-\|/-| 727 +43 −14 yaml 9|-\|/-| 
+Remove confusing green checkmark from getting started doc |-\|/-| 2018-12-17T18:53:15Z Merged pull request |-\|/-| 726 +2 −3 md 0|-\|/-| 
+fix(brigade.js): add some fixes around publish/release |-\|/-| 2018-12-17T12:28:29Z Merged pull request |-\|/-| 725 +7 −5 js 1|-\|/-| 
+added retry logic to sidecar |-\|/-| 2018-12-14T19:19:45Z Merged pull request |-\|/-| 723 +27 −3 sh 1|-\|/-| 
+ref(*): remove charts |-\|/-| 2018-12-19T23:10:33Z Merged pull request |-\|/-| 722 +153 −1,587 Makefile md js helmignore yaml txt 6|-\|/-| 
+Generic Webhook (#602) |-\|/-| 2019-01-09T15:30:26Z Closed pull request |-\|/-| 721 +471 −51 go md 21|-\|/-| 
+fixed brig project create --replace |-\|/-| 2018-12-14T19:19:31Z Merged pull request |-\|/-| 720 +99 −5 go 5|-\|/-| 
+ref(brigade.js): use GitHub App/Checks API |-\|/-| 2018-12-14T18:28:14Z Merged pull request |-\|/-| 717 +287 −210 Makefile 1|-\|/-| 
+ref(Makefile): switch to golangci for linting |-\|/-| 2018-12-17T02:41:31Z Merged pull request |-\|/-| 716 +27 −5 Makefile js yml 3|-\|/-| 
+fix(charts/brigade-project): allow vcs-sidecar NONE |-\|/-| 2019-01-03T11:54:30Z Merged pull request |-\|/-| 715 +155 −46 go ts 5|-\|/-| 
+ref(charts): enable RBAC by default |-\|/-| 2018-12-11T18:13:29Z Merged pull request |-\|/-| 714 +18 −20 yaml md 1|-\|/-| 
+Add RBAC true value to quickstart |-\|/-| 2018-12-10T09:19:04Z Closed pull request |-\|/-| 712 +2 −1 md 0|-\|/-| 
+Update invalid job name error message. |-\|/-| 2018-12-17T02:55:03Z Merged pull request |-\|/-| 709 +1 −1 ts 1|-\|/-| 
+chore(chart): update brigade 0.19.0 chart tgz/index.yaml |-\|/-| 2018-12-06T22:49:28Z Merged pull request |-\|/-| 708 +41 −41 tgz yaml 2|-\|/-| 
+fix(charts/brigade): add legacy label in for upgrades |-\|/-| 2018-12-06T21:06:31Z Merged pull request |-\|/-| 707 +2 −0 yaml 2|-\|/-| 
+Add resources to worker and jobs |-\|/-| 2018-12-06T17:08:28Z Merged pull request |-\|/-| 704 +463 −25 go ts 6|-\|/-| 
+Brigade release v0.19.0 |-\|/-| 2018-12-06T21:49:57Z Merged pull request |-\|/-| 702 +304 −44 json lock yaml tgz md 7|-\|/-| 
+fix for #601 and #612 |-\|/-| 2018-12-04T15:25:42Z Merged pull request |-\|/-| 700 +337 −23 go 1|-\|/-| 
+Modify vacuum.Run to not return the number of deleted builds |-\|/-| 2018-11-30T19:02:31Z Merged pull request |-\|/-| 699 +47 −37 go 3|-\|/-| 
+Minor addition to dev documentation |-\|/-| 2018-12-03T18:32:26Z Merged pull request |-\|/-| 697 +14 −3 Makefile md 1|-\|/-| 
+brig build delete BuildID and brig build delete-all ProjectID |-\|/-| 2018-11-29T16:37:22Z Merged pull request |-\|/-| 695 +385 −67 lock go md 8|-\|/-| 
+Add resource limits to job |-\|/-| 2018-11-21T21:55:05Z Merged pull request |-\|/-| 693 +100 −41 ts md 3|-\|/-| 
+ref(brigade-worker): don't supply a default ref |-\|/-| 2018-11-14T18:07:36Z Merged pull request |-\|/-| 690 +1 −1 ts 1|-\|/-| 
+fix(chart): update github api link in values.yaml |-\|/-| 2018-12-17T03:06:06Z Merged pull request |-\|/-| 688 +1 −1 yaml 1|-\|/-| 
+feat(chart/controller): add enabled option for controller (enabled by default) |-\|/-| 2018-11-12T19:16:56Z Merged pull request |-\|/-| 687 +5 −1 yaml 3|-\|/-| 
+feat(controller): export NewWorkerPod |-\|/-| 2018-11-14T18:50:02Z Merged pull request |-\|/-| 686 +13 −15 go 2|-\|/-| 
+Added job name length check in job constructor |-\|/-| 2018-11-07T17:24:52Z Merged pull request |-\|/-| 684 +16 −2 ts 2|-\|/-| 
+Added the length check in brigadier for job name |-\|/-| 2018-11-07T17:25:20Z Closed pull request |-\|/-| 683 +4 −0 ts 1|-\|/-| 
+Fix golint warning: redundant if ...; err != nil check, just return error instead. |-\|/-| 2018-10-26T18:56:52Z Merged pull request |-\|/-| 682 +1 −4 go 1|-\|/-| 
+Update chart labels to follow the new convention |-\|/-| 2018-10-29T17:58:50Z Merged pull request |-\|/-| 678 +117 −117 yaml 14|-\|/-| 
+Added the licence block of readme |-\|/-| 2019-01-09T15:43:35Z Closed pull request |-\|/-| 676 +3 −0 md 0|-\|/-| 
+docs(developers.md): add note on js bootstrap/test; add bootstrap-js make target |-\|/-| 2018-10-22T17:57:23Z Merged pull request |-\|/-| 675 +31 −1 Makefile md 1|-\|/-| 
+feat(Makefile): add target to lint charts |-\|/-| 2018-10-19T20:33:12Z Merged pull request |-\|/-| 674 +5 −0 Makefile 1|-\|/-| 
+ref(brigade.js): add dockerhub publish job, split up acrBuild |-\|/-| 2018-11-16T16:27:30Z Merged pull request |-\|/-| 673 +93 −30 js 1|-\|/-| 
+ref(*): update brigade image repos |-\|/-| 2018-12-17T17:26:41Z Closed pull request |-\|/-| 672 +38 −36 go js yaml docs/topics/examples/workers/Dockerfile md 6|-\|/-| 
+docs(storage.md): add Azure File example |-\|/-| 2018-10-24T18:36:58Z Merged pull request |-\|/-| 671 +18 −0 md 0|-\|/-| 
+Kubernetes error caused by Job.env{} empty var |-\|/-| 2018-10-24T18:38:56Z Merged pull request |-\|/-| 670 +5 −0 ts 1|-\|/-| 
+Configure liveness and readiness probes. |-\|/-| 2019-01-09T16:45:03Z Closed pull request |-\|/-| 665 +18 −2 yaml 3|-\|/-| 
+docs(scripting_advanced.md): fix typos |-\|/-| 2018-10-23T23:45:53Z Merged pull request |-\|/-| 664 +3 −3 md 0|-\|/-| 
+Reference asdf-brig in README |-\|/-| 2018-10-19T17:40:30Z Merged pull request |-\|/-| 663 +3 −1 md 0|-\|/-| 
+ref(Makefile/brigade.js): append .exe to Windows binary at build stage |-\|/-| 2018-10-15T16:36:25Z Merged pull request |-\|/-| 660 +5 −5 Makefile js 2|-\|/-| 
+Fix brig run file flag |-\|/-| 2018-10-15T22:00:13Z Merged pull request |-\|/-| 658 +2 −2 md 0|-\|/-| 
+fix(brigade.js): change e.event to correct e.type |-\|/-| 2018-10-10T22:55:48Z Merged pull request |-\|/-| 657 +2 −3 js 1|-\|/-| 
+WIP feat(*): switch to Debian Jessie-Slim |-\|/-| 2018-10-24T18:01:00Z Closed pull request |-\|/-| 656 +18 −18 brigade-api/Dockerfile brigade-controller/Dockerfile brigade-cr-gateway/Dockerfile brigade-github-gateway/Dockerfile brigade-vacuum/Dockerfile brigade-worker/Dockerfile git-sidecar/Dockerfile 7|-\|/-| 
+fix(*): address linting errors, add test-style to brigade build task |-\|/-| 2018-10-11T16:09:37Z Merged pull request |-\|/-| 655 +24 −20 go js 6|-\|/-| 
+fix(brigade.js): remove redundant/incorrect rootfs cp cmd destination |-\|/-| 2018-10-09T20:22:02Z Merged pull request |-\|/-| 654 +1 −1 js 1|-\|/-| 
+Brigade release v0.18.0 |-\|/-| 2018-10-09T18:46:00Z Merged pull request |-\|/-| 653 +58 −41 json yaml tgz md 6|-\|/-| 
+fix(charts): fix incorrect logic for default sidecar |-\|/-| 2018-10-04T20:43:23Z Merged pull request |-\|/-| 650 +3 −4 yaml 1|-\|/-| 
+Update alpine images |-\|/-| 2018-10-03T16:31:50Z Merged pull request |-\|/-| 649 +7 −7 brig/Dockerfile brigade-api/Dockerfile brigade-controller/Dockerfile brigade-cr-gateway/Dockerfile brigade-github-gateway/Dockerfile brigade-vacuum/Dockerfile git-sidecar/Dockerfile 7|-\|/-| 
+Fix invalid_format for Git SSH Keys. |-\|/-| 2018-10-04T18:42:40Z Merged pull request |-\|/-| 647 +1 −1 sh 1|-\|/-| 
+fix(docs): add correct key for commit sha value |-\|/-| 2018-10-19T20:20:55Z Merged pull request |-\|/-| 644 +16 −8 md 0|-\|/-| 
+docs(tutorial): misc fixes |-\|/-| 2018-10-02T21:13:37Z Merged pull request |-\|/-| 642 +4 −5 md 0|-\|/-| 
+Test/brigade js |-\|/-| 2018-10-03T11:43:29Z Closed pull request |-\|/-| 640 +28 −3 js 1|-\|/-| 
+fix(controller): allow read/write on sidecar volume |-\|/-| 2018-09-27T19:37:00Z Merged pull request |-\|/-| 639 +0 −1 go 1|-\|/-| 
+fix(chart/project): do not override default in values.yaml |-\|/-| 2018-09-27T19:37:39Z Merged pull request |-\|/-| 637 +1 −1 yaml 1|-\|/-| 
+Update developers.md |-\|/-| 2018-09-14T15:20:59Z Merged pull request |-\|/-| 631 +3 −3 md 0|-\|/-| 
+fix(doc): broken code block in the topics/developers doc |-\|/-| 2018-09-13T13:29:06Z Merged pull request |-\|/-| 630 +2 −1 md 0|-\|/-| 
+feat(lib): alternative destination for script runner logs |-\|/-| 2018-09-20T23:08:39Z Merged pull request |-\|/-| 629 +18 −14 go 3|-\|/-| 
+add missing comma |-\|/-| 2018-09-10T16:00:12Z Merged pull request |-\|/-| 628 +2 −2 js 1|-\|/-| 
+fix(worker): handle transient faults (#625) |-\|/-| 2018-09-28T14:10:38Z Merged pull request |-\|/-| 626 +67 −25 ts 1|-\|/-| 
+feat(brig): `brig run` as a go library |-\|/-| 2018-09-11T13:09:53Z Merged pull request |-\|/-| 623 +241 −215 go 2|-\|/-| 
+fix(prestart): don't call .toString() on an error |-\|/-| 2018-09-10T03:51:23Z Merged pull request |-\|/-| 621 +1 −1 js 1|-\|/-| 
+Add brigade-exporter to related projects section on the readme |-\|/-| 2018-09-05T18:18:11Z Merged pull request |-\|/-| 620 +8 −7 md 0|-\|/-| 
+fix BuildStorage in brigade worker to prevent crash when project load fails |-\|/-| 2018-09-10T16:12:37Z Merged pull request |-\|/-| 619 +7 −2 ts 1|-\|/-| 
+fix(*): add project default script to worker |-\|/-| 2018-08-31T21:17:52Z Merged pull request |-\|/-| 618 +58 −57 go js yaml 4|-\|/-| 
+fix: add defaultScriptName to chart |-\|/-| 2018-08-31T21:17:30Z Closed pull request |-\|/-| 617 +5 −0 gitignore yaml 2|-\|/-| 
+fix: add brig exec as alias for brig run |-\|/-| 2018-09-10T15:50:59Z Merged pull request |-\|/-| 616 +4 −3 go 1|-\|/-| 
+Add more info on kube-lego and cert-manager |-\|/-| 2018-08-31T17:13:35Z Merged pull request |-\|/-| 615 +7 −3 md 0|-\|/-| 
+fix(docs): add git add . step before commit |-\|/-| 2018-08-31T19:54:48Z Merged pull request |-\|/-| 614 +2 −1 md 0|-\|/-| 
+fix(git-sidecar): remove hard reset in sidecar |-\|/-| 2018-08-27T22:22:09Z Merged pull request |-\|/-| 610 +0 −3 sh 1|-\|/-| 
+chore(*): run make format |-\|/-| 2018-08-23T01:09:25Z Merged pull request |-\|/-| 608 +67 −65 ts 6|-\|/-| 
+feat(github-gateway): add endpoint for creating github webhook |-\|/-| 2019-05-16T05:30:04Z Closed pull request |-\|/-| 606 +179 −141 go yaml 7|-\|/-| 
+vacuum skips deleting currently running builds if skipRunningBuilds is true |-\|/-| 2018-08-27T21:55:33Z Merged pull request |-\|/-| 603 +206 −35 go yaml 4|-\|/-| 
+fix(brig): generate shared secret when none exists |-\|/-| 2018-08-21T01:17:31Z Merged pull request |-\|/-| 600 +2 −2 go 1|-\|/-| 
+Re-use globalNamespace flag for brig dashboard |-\|/-| 2018-08-17T18:20:48Z Merged pull request |-\|/-| 599 +3 −5 go 1|-\|/-| 
+use watch in worker for efficiency #592 |-\|/-| 2018-08-23T00:02:31Z Merged pull request |-\|/-| 596 +322 −259 json ts 3|-\|/-| 
+refactor CORS settings |-\|/-| 2019-01-09T15:42:28Z Closed pull request |-\|/-| 594 +59 −13 go 2|-\|/-| 
+add --verbose flag |-\|/-| 2018-08-17T17:27:52Z Merged pull request |-\|/-| 593 +6 −1 go 1|-\|/-| 
+fix(brig): set a default sidecar |-\|/-| 2018-08-13T17:15:01Z Merged pull request |-\|/-| 591 +6 −3 go js 2|-\|/-| 
+fix(chart): set max builds to -1 by default |-\|/-| 2018-08-13T00:11:37Z Merged pull request |-\|/-| 589 +2 −2 yaml 1|-\|/-| 
+feat(brig): add -f flag to rerun command |-\|/-| 2018-08-13T00:11:12Z Merged pull request |-\|/-| 588 +16 −1 go 1|-\|/-| 
+WIP ref(worker): switch to @azure/brigadier |-\|/-| 2019-01-04T21:13:51Z Merged pull request |-\|/-| 585 +325 −1,597 lock Makefile json ts 6|-\|/-| 
+fix(brigade, worker): fixing a few minor nits |-\|/-| 2018-08-07T23:25:47Z Merged pull request |-\|/-| 583 +8 −3 ts js 2|-\|/-| 
+Fixed pip install link |-\|/-| 2018-08-03T19:20:38Z Merged pull request |-\|/-| 581 +2 −2 md 0|-\|/-| 
+feat(brigade.js): Add link to Kashti |-\|/-| 2018-08-03T17:21:13Z Merged pull request |-\|/-| 580 +2 −1 js 1|-\|/-| 
+fix(vacuum): set default max builds to -1 |-\|/-| 2018-08-03T15:28:40Z Merged pull request |-\|/-| 579 +29 −21 go 3|-\|/-| 
+docs(chore): add brigade svg logos |-\|/-| 2018-08-03T15:33:28Z Merged pull request |-\|/-| 578 +195 −0 jpg png svg 4|-\|/-| 
+fix(brig): fix stack trace on build list |-\|/-| 2018-08-02T18:09:41Z Merged pull request |-\|/-| 577 +2 −1 go 1|-\|/-| 
+feat(brig): return JSON from 'brig project get' |-\|/-| 2018-07-25T00:14:19Z Merged pull request |-\|/-| 573 +2 −2 go 1|-\|/-| 
+feat(brig): list builds by project |-\|/-| 2018-07-24T23:59:34Z Merged pull request |-\|/-| 572 +32 −8 go 2|-\|/-| 
+fix(apicache): prevent returning results from unsynced cache |-\|/-| 2018-07-24T21:05:57Z Merged pull request |-\|/-| 571 +75 −119 go 12|-\|/-| 
+docs(topics): fix speelings of woords |-\|/-| 2018-07-24T03:36:34Z Merged pull request |-\|/-| 569 +3 −3 md 0|-\|/-| 
+Adding project defaultSecret to the build event secret |-\|/-| 2019-02-11T21:28:05Z Closed pull request |-\|/-| 568 +1 −0 go 1|-\|/-| 
+docs(javascript_advanced): create an advanced JS guide |-\|/-| 2018-07-27T16:53:50Z Merged pull request |-\|/-| 562 +267 −0 js md 5|-\|/-| 
+docs(scripting): explain how tasks work in a shell |-\|/-| 2018-07-23T23:13:15Z Merged pull request |-\|/-| 561 +8 −1 md 0|-\|/-| 
+ feat(brig): return JSON from 'brig project get'  |-\|/-| 2018-07-24T20:23:57Z Closed pull request |-\|/-| 560 +829 −43 lock toml md 2|-\|/-| 
+fix(brigade.js): shorten the error message |-\|/-| 2018-07-17T22:21:19Z Merged pull request |-\|/-| 556 +1 −1 js 1|-\|/-| 
+fix(style): change import formatting to satisfy goimport fails |-\|/-| 2018-07-17T21:48:03Z Merged pull request |-\|/-| 554 +3 −1 go 1|-\|/-| 
+run go fmt on dashboard.go |-\|/-| 2018-07-17T13:51:56Z Merged pull request |-\|/-| 553 +1 −2 go 1|-\|/-| 
+use select{} instead of for{} |-\|/-| 2018-07-16T18:12:21Z Merged pull request |-\|/-| 552 +1 −1 go 1|-\|/-| 
+Remove proxy to Brigade API from dashboard command |-\|/-| 2018-07-19T00:25:08Z Merged pull request |-\|/-| 551 +2 −12 go 1|-\|/-| 
+fix(dep): ensure brigade does not vendor itself |-\|/-| 2018-07-11T21:43:47Z Merged pull request |-\|/-| 548 +47 −107 lock 1|-\|/-| 
+fix(brigade.js): add build ID for debugging broken builds. |-\|/-| 2018-07-11T22:35:25Z Merged pull request |-\|/-| 546 +3 −3 js 1|-\|/-| 
+feat(brig): Add AGE to brig build list |-\|/-| 2018-07-17T16:32:53Z Merged pull request |-\|/-| 545 +9 −4 lock go js 3|-\|/-| 
+Make service account creation conditional |-\|/-| 2018-07-16T19:43:07Z Merged pull request |-\|/-| 544 +18 −7 yaml 6|-\|/-| 
+ feat(brig): List builds by project (brig build list PROJECT) |-\|/-| 2018-07-24T20:15:51Z Closed pull request |-\|/-| 541 +701 −8 go 1|-\|/-| 
+Add docs on brigade.json |-\|/-| 2018-07-10T19:55:56Z Merged pull request |-\|/-| 539 +80 −4 md 0|-\|/-| 
+Remove duplicate property in `Job` docs |-\|/-| 2018-07-09T18:50:58Z Merged pull request |-\|/-| 537 +0 −1 md 0|-\|/-| 
+feat(brig): add -b/--background flag to brig run |-\|/-| 2018-07-09T16:59:32Z Merged pull request |-\|/-| 536 +26 −14 go 1|-\|/-| 
+feat(brig): Interactive prompt for creating projects  |-\|/-| 2018-07-24T20:05:28Z Merged pull request |-\|/-| 534 +841 −40 lock toml md 2|-\|/-| 
+use kebab case for --kashti-namespace |-\|/-| 2018-07-04T02:31:05Z Merged pull request |-\|/-| 532 +1 −1 go 1|-\|/-| 
+implement `brig dashboard` |-\|/-| 2018-07-11T00:02:23Z Merged pull request |-\|/-| 531 +110 −94 lock toml go 4|-\|/-| 
+updated fallback script path to look for brigade.js instead of directory |-\|/-| 2018-07-06T17:49:23Z Merged pull request |-\|/-| 529 +1 −1 js 1|-\|/-| 
+api(sorting): builds/jobs sort order |-\|/-| 2018-07-05T15:42:19Z Merged pull request |-\|/-| 526 +22 −1 go 1|-\|/-| 
+chore(*): git ignore swp files |-\|/-| 2018-06-27T18:49:28Z Merged pull request |-\|/-| 525 +1 −0 gitignore swp 2|-\|/-| 
+Add Swagger support to API |-\|/-| 2018-07-11T21:29:48Z Merged pull request |-\|/-| 524 +565 −158 lock toml go 4|-\|/-| 
+feat(worker): allow setting storage and cache paths |-\|/-| 2018-07-02T19:46:32Z Merged pull request |-\|/-| 523 +52 −11 ts md 3|-\|/-| 
+517: fix for job name error cause by mixed case job names |-\|/-| 2018-06-26T16:13:56Z Merged pull request |-\|/-| 522 +1 −1 ts 1|-\|/-| 
+Allow for customization of API and gateway paths |-\|/-| 2018-06-26T16:11:57Z Merged pull request |-\|/-| 514 +15 −3 swp yaml 4|-\|/-| 
+docs(README) Point all docs links to azure.github.io/brigade |-\|/-| 2018-06-15T22:56:18Z Merged pull request |-\|/-| 513 +4 −4 md 0|-\|/-| 
+feat(brig): add brig project delete |-\|/-| 2018-06-23T05:09:53Z Merged pull request |-\|/-| 512 +164 −12 lock toml go 8|-\|/-| 
+docs(README) update main docs link |-\|/-| 2018-06-14T20:38:04Z Merged pull request |-\|/-| 510 +2 −2 md 0|-\|/-| 
+docs(ux): navigation and installer help |-\|/-| 2018-06-14T19:43:29Z Merged pull request |-\|/-| 509 +46 −10 md 0|-\|/-| 
+fix(storage): Improve storage layer for projects |-\|/-| 2018-06-14T00:38:52Z Merged pull request |-\|/-| 507 +308 −25 lock go 6|-\|/-| 
+chore(deps): bump kubernetes |-\|/-| 2018-06-14T02:04:48Z Merged pull request |-\|/-| 505 +35 −135 lock toml 2|-\|/-| 
+fix(docs): Job imagePullSecrets is a string array, not string |-\|/-| 2018-06-11T19:49:46Z Merged pull request |-\|/-| 503 +1 −1 md 0|-\|/-| 
+fix(github): rolebinding resources |-\|/-| 2018-06-11T19:52:31Z Merged pull request |-\|/-| 502 +3 −0 yaml 1|-\|/-| 
+fix(worker): fix the precedence order |-\|/-| 2018-06-01T23:14:01Z Merged pull request |-\|/-| 496 +4 −3 js 1|-\|/-| 
+Enable custom dependencies for the brigade worker |-\|/-| 2018-06-01T21:54:14Z Merged pull request |-\|/-| 494 +87 −1 json js lock 3|-\|/-| 
+Fix kubecontext variable on brig cli |-\|/-| 2018-06-01T16:08:07Z Merged pull request |-\|/-| 493 +1 −1 go 1|-\|/-| 
+Add log follows on worker and job Storage API |-\|/-| 2018-06-01T16:11:35Z Merged pull request |-\|/-| 492 +75 −19 go 5|-\|/-| 
+[WIP] Update the Node Kubernetes client to 0.2.1 |-\|/-| 2018-11-05T13:34:30Z Closed pull request |-\|/-| 489 +4 −6 json lock 2|-\|/-| 
+Fix the check for data in prestart.js |-\|/-| 2018-05-30T21:32:25Z Merged pull request |-\|/-| 487 +1 −1 js 1|-\|/-| 
+fix(controller): add an accepted label to builds after sync |-\|/-| 2018-05-25T21:52:45Z Merged pull request |-\|/-| 482 +31 −10 go 2|-\|/-| 
+fix(apicache): fix test flake in apicache |-\|/-| 2018-05-24T21:54:11Z Merged pull request |-\|/-| 481 +6 −6 go 1|-\|/-| 
+fix(README): Update README with current information |-\|/-| 2018-05-24T20:37:13Z Merged pull request |-\|/-| 479 +3 −4 md 0|-\|/-| 
+fix(brig): add exe extension to Windows binary |-\|/-| 2018-05-25T16:36:16Z Merged pull request |-\|/-| 478 +4 −1 js 1|-\|/-| 
+Add Job Annotations to Documentation |-\|/-| 2018-05-24T16:50:52Z Merged pull request |-\|/-| 475 +1 −0 md 0|-\|/-| 
+feat(brig): add rerun command |-\|/-| 2018-05-25T16:35:53Z Merged pull request |-\|/-| 474 +82 −26 go 6|-\|/-| 
+feat(*): add project option for fallback script |-\|/-| 2018-05-25T20:24:03Z Merged pull request |-\|/-| 467 +84 −131 go js yaml 12|-\|/-| 
+Rerun failed jobs |-\|/-| 2018-05-22T15:22:12Z Closed pull request |-\|/-| 466 +1,061 −489 yml 1|-\|/-| 
+Docs update: `pull_request` fires `closed` event |-\|/-| 2018-05-23T20:46:27Z Merged pull request |-\|/-| 464 +1 −0 md 0|-\|/-| 
+Remove az extension add for ACR build |-\|/-| 2018-05-24T16:51:29Z Merged pull request |-\|/-| 461 +1 −4 js 1|-\|/-| 
+add link to Microsoft's Code of Conduct |-\|/-| 2018-05-18T16:42:12Z Merged pull request |-\|/-| 457 +3 −0 md 0|-\|/-| 
+Feature: Configmap as scriptstore |-\|/-| 2018-08-17T09:53:11Z Closed pull request |-\|/-| 456 +159 −6 gitignore go yaml 12|-\|/-| 
+Add resource limits |-\|/-| 2018-05-15T16:20:14Z Closed pull request |-\|/-| 455 +1,031 −472 yml 1|-\|/-| 
+feat(controller): allow per-project image pull secrets for worker |-\|/-| 2018-05-18T16:40:32Z Merged pull request |-\|/-| 452 +33 −1 go yaml 4|-\|/-| 
+fix(git-sidecar): when commit-ref is missing, use commit-id |-\|/-| 2018-05-10T15:55:10Z Merged pull request |-\|/-| 448 +10 −5 sh go 3|-\|/-| 
+Improve brig api performance as seen in #433 by introducing caching |-\|/-| 2018-05-10T21:03:38Z Merged pull request |-\|/-| 446 +742 −17 go 6|-\|/-| 
+feat(brig): Added decolorizer and --no-color for brig run |-\|/-| 2018-04-27T21:34:46Z Merged pull request |-\|/-| 442 +86 −1 go 4|-\|/-| 
+When base64 was removed, no escaping was done on any values. |-\|/-| 2018-04-28T00:03:47Z Merged pull request |-\|/-| 441 +13 −13 yaml 1|-\|/-| 
+feat(brig): add kube-context flag |-\|/-| 2018-04-26T20:20:41Z Merged pull request |-\|/-| 440 +36 −23 go 8|-\|/-| 
+Update dockerhub.md |-\|/-| 2018-04-26T20:16:09Z Merged pull request |-\|/-| 439 +1 −1 md 0|-\|/-| 
+Fix code comment in api/build.go |-\|/-| 2018-04-24T23:18:55Z Merged pull request |-\|/-| 435 +1 −1 go 1|-\|/-| 
+Use .stringData to avoid base64 encoding & decoding. |-\|/-| 2018-04-18T19:57:08Z Merged pull request |-\|/-| 432 +20 −19 yaml 2|-\|/-| 
+Minor fix to script example |-\|/-| 2018-04-18T19:32:37Z Merged pull request |-\|/-| 431 +1 −1 md 0|-\|/-| 
+fix(brigade.js): unmask the event object |-\|/-| 2018-04-18T19:43:31Z Merged pull request |-\|/-| 430 +2 −2 js 1|-\|/-| 
+feat(worker): support passing args through jobs |-\|/-| 2018-04-13T19:58:03Z Merged pull request |-\|/-| 429 +45 −14 go ts md 5|-\|/-| 
+Document imageForcePull |-\|/-| 2018-04-13T18:18:13Z Merged pull request |-\|/-| 426 +2 −1 md 0|-\|/-| 
+Add job annotations |-\|/-| 2018-04-23T16:54:52Z Merged pull request |-\|/-| 425 +22 −4 ts 4|-\|/-| 
+feat(brigade.js): Retrieve logs from Job run |-\|/-| 2018-04-13T20:36:18Z Merged pull request |-\|/-| 423 +50 −9 ts 5|-\|/-| 
+Link to PVC Access Mode Table |-\|/-| 2018-04-12T22:15:10Z Merged pull request |-\|/-| 422 +8 −4 md 0|-\|/-| 
+fix(worker): allow jobs during error handler |-\|/-| 2018-04-12T22:16:31Z Merged pull request |-\|/-| 417 +52 −32 ts 7|-\|/-| 
+fix(docs): Update "timeout" documentation |-\|/-| 2018-04-05T20:15:11Z Merged pull request |-\|/-| 416 +1 −1 md 0|-\|/-| 
+feat(brig): Exit with error code if build fails |-\|/-| 2018-09-25T01:20:31Z Merged pull request |-\|/-| 415 +79 −4 go 6|-\|/-| 
+feat(brig): Allow selection of log level to print (-l) |-\|/-| 2018-04-04T22:08:01Z Merged pull request |-\|/-| 413 +377 −69 lock go ts 8|-\|/-| 
+docs(README): add brigade-cron gateway |-\|/-| 2018-04-03T18:07:21Z Merged pull request |-\|/-| 412 +1 −0 md 0|-\|/-| 
+ feat(brigade.js): build docker images on tag event. |-\|/-| 2018-04-26T17:40:43Z Merged pull request |-\|/-| 410 +94 −13 js 1|-\|/-| 
+feat(brig): add brig container |-\|/-| 2018-04-02T22:39:49Z Merged pull request |-\|/-| 409 +15 −5 gitignore Makefile brig/Dockerfile md 3|-\|/-| 
+fix(worker): report error if job name is not DNS name |-\|/-| 2018-03-28T21:11:27Z Merged pull request |-\|/-| 405 +12 −9 ts 2|-\|/-| 
+consistent gateway service namespace for properties |-\|/-| 2018-03-28T18:32:34Z Merged pull request |-\|/-| 404 +1 −1 yaml 1|-\|/-| 
+docs(README): added a few other gateways |-\|/-| 2018-04-02T15:56:45Z Merged pull request |-\|/-| 401 +6 −0 md 0|-\|/-| 
+fix(api): prevent omitted api fields |-\|/-| 2018-03-28T18:30:21Z Merged pull request |-\|/-| 400 +3 −3 go 1|-\|/-| 
+feat(brig): add progress meter to run output |-\|/-| 2018-03-27T18:51:35Z Merged pull request |-\|/-| 399 +69 −6 lock toml go 3|-\|/-| 
+Add 'closed' as pull_request event |-\|/-| 2018-03-27T18:49:38Z Merged pull request |-\|/-| 398 +9 −1 gitignore go 2|-\|/-| 
+fix(brigade.js): fix the brig build |-\|/-| 2018-03-27T18:50:04Z Merged pull request |-\|/-| 397 +24 −10 js 1|-\|/-| 
+fix(worker): Allow secretKeyRef and configMapKeyRef as Job env vars |-\|/-| 2018-04-03T17:30:33Z Merged pull request |-\|/-| 396 +104 −30 ts md 3|-\|/-| 
+Fix: ACI connector makes it work |-\|/-| 2018-03-29T21:09:24Z Merged pull request |-\|/-| 395 +24 −4 ts 3|-\|/-| 
+Update README with related projects (kashti, brigadeterm) |-\|/-| 2018-03-26T17:35:23Z Merged pull request |-\|/-| 394 +5 −3 md 0|-\|/-| 
+feat(brig): add 'brig build logs' |-\|/-| 2018-03-27T18:50:31Z Merged pull request |-\|/-| 393 +531 −20 go 6|-\|/-| 
+Add 'closed' as allowed pull_request event |-\|/-| 2018-03-27T03:49:33Z Closed pull request |-\|/-| 391 +113 −31 gitignore ts md go 5|-\|/-| 
+Correct non-npm JS installation instructions in custom workers |-\|/-| 2018-03-19T17:52:39Z Merged pull request |-\|/-| 389 +1 −1 md 0|-\|/-| 
+Remove hardcoded default namespace for proxy cmd |-\|/-| 2018-03-19T15:57:48Z Merged pull request |-\|/-| 388 +5 −3 go 1|-\|/-| 
+ref(worker): use client-node |-\|/-| 2018-03-19T17:51:23Z Merged pull request |-\|/-| 383 +42 −7 json ts lock 4|-\|/-| 
+feat(worker): Allow jobs to pin to particular nodes by label |-\|/-| 2018-03-16T23:09:34Z Merged pull request |-\|/-| 382 +42 −0 ts 4|-\|/-| 
+fix(linters): apply formatting rules to tests |-\|/-| 2018-03-16T22:15:07Z Merged pull request |-\|/-| 381 +651 −602 json ts 3|-\|/-| 
+fix(gateway): syntax error |-\|/-| 2018-03-16T21:08:52Z Merged pull request |-\|/-| 380 +1 −1 go 1|-\|/-| 
+fix(github-gateway): reduce status messages |-\|/-| 2018-03-16T20:54:01Z Merged pull request |-\|/-| 379 +10 −11 go 1|-\|/-| 
+fix(brigade.js): update to use event.revision.commit |-\|/-| 2018-03-16T20:20:24Z Merged pull request |-\|/-| 378 +1 −1 js 1|-\|/-| 
+ref(tests): remove generator from functional tests |-\|/-| 2018-03-16T20:21:23Z Merged pull request |-\|/-| 377 +84 −126 Makefile go 3|-\|/-| 
+fix(brig): add verbose output for waiting |-\|/-| 2018-03-16T23:05:11Z Merged pull request |-\|/-| 375 +2 −0 go 1|-\|/-| 
+chore(Makefile): refactor lint and format |-\|/-| 2018-03-15T20:20:39Z Merged pull request |-\|/-| 374 +80 −47 Makefile go ts json 16|-\|/-| 
+fix(brig): Error fast if the project does not exist |-\|/-| 2018-03-15T20:17:25Z Merged pull request |-\|/-| 371 +33 −258 lock 1|-\|/-| 
+Update developers.md |-\|/-| 2018-03-15T20:08:45Z Merged pull request |-\|/-| 370 +3 −2 md 0|-\|/-| 
+Update developers.md |-\|/-| 2018-03-14T23:18:21Z Merged pull request |-\|/-| 367 +1 −1 md 0|-\|/-| 
+Make clone instructions more copy/paste-able |-\|/-| 2018-03-14T23:19:14Z Merged pull request |-\|/-| 365 +8 −5 md 0|-\|/-| 
+Add the ability to set the commit and ref on brig run command |-\|/-| 2018-03-14T23:20:16Z Merged pull request |-\|/-| 363 +10 −5 go 1|-\|/-| 
+set PATH |-\|/-| 2018-03-13T22:37:29Z Merged pull request |-\|/-| 360 +5 −3 md 0|-\|/-| 
+ref(worker): move env var processing to the top |-\|/-| 2018-03-16T22:29:31Z Merged pull request |-\|/-| 358 +48 −10 ts 4|-\|/-| 
+Rename "brigade-gw" to "brigade-github-gw" |-\|/-| 2018-03-12T21:45:25Z Merged pull request |-\|/-| 357 +8 −8 md 0|-\|/-| 
+Create worker with sa env |-\|/-| 2018-03-12T22:04:45Z Merged pull request |-\|/-| 356 +16 −15 go ts 3|-\|/-| 
+fix(cr): update cr gateway to use revision reference |-\|/-| 2018-03-09T19:23:57Z Merged pull request |-\|/-| 350 +9 −9 go 1|-\|/-| 
+fix(chart): BREAKING set vcsSidecar tag to version |-\|/-| 2018-03-12T22:27:13Z Merged pull request |-\|/-| 349 +11 −4 yaml 2|-\|/-| 
+fix(worker) use sshKey for private repo, not brigadeSSHKey. |-\|/-| 2018-03-09T19:37:49Z Merged pull request |-\|/-| 348 +1 −1 ts 1|-\|/-| 
+Create the worker options on base64 |-\|/-| 2018-03-06T12:22:14Z Merged pull request |-\|/-| 346 +1 −1 yaml 1|-\|/-| 
+docs(install): document using NFS for volume storage |-\|/-| 2018-03-06T19:22:30Z Merged pull request |-\|/-| 344 +105 −2 md 0|-\|/-| 
+Fix worker image name creation on controller |-\|/-| 2018-03-05T22:23:36Z Merged pull request |-\|/-| 343 +203 −130 go 2|-\|/-| 
+docs(topics): Add document on customizing workers |-\|/-| 2018-03-05T22:42:43Z Merged pull request |-\|/-| 341 +246 −0 docs/topics/examples/workers/Dockerfile js md 3|-\|/-| 
+ref(*): remove label for commit_id |-\|/-| 2018-03-02T19:22:40Z Merged pull request |-\|/-| 339 +80 −92 ts sh md go 7|-\|/-| 
+docs(gateway): update gateway docs with revision object |-\|/-| 2018-02-28T00:08:35Z Merged pull request |-\|/-| 338 +32 −20 md 0|-\|/-| 
+Only create service & RBAC for components when enabled |-\|/-| 2018-02-27T21:55:28Z Merged pull request |-\|/-| 337 +8 −0 yaml 4|-\|/-| 
+Add brig proxy command to start tunnels to api and kashti |-\|/-| 2018-03-07T20:14:22Z Merged pull request |-\|/-| 333 +238 −0 go 2|-\|/-| 
+charts/brigade: add job limits for vacuum |-\|/-| 2018-02-27T01:40:28Z Merged pull request |-\|/-| 332 +2 −0 yaml 1|-\|/-| 
+charts/brigade: fix RBAC for use with admin cluster role |-\|/-| 2018-02-27T20:03:26Z Merged pull request |-\|/-| 331 +8 −2 yaml 2|-\|/-| 
+chore(Makefile): remove unused dependencies from bootstrap |-\|/-| 2018-02-27T21:36:57Z Merged pull request |-\|/-| 329 +11 −21 Makefile 1|-\|/-| 
+charts/gateway: use enable flag on all resources |-\|/-| 2018-03-05T22:44:05Z Merged pull request |-\|/-| 328 +4 −4 yaml 2|-\|/-| 
+docs(README): add build status image |-\|/-| 2018-02-27T21:50:08Z Merged pull request |-\|/-| 324 +2 −0 md 0|-\|/-| 
+feat(brigade.js): send github notification on build |-\|/-| 2018-02-15T22:10:24Z Merged pull request |-\|/-| 321 +28 −3 js 1|-\|/-| 
+fix(chart): fix broken for loop in brigade-project chart. |-\|/-| 2018-02-14T23:30:24Z Merged pull request |-\|/-| 317 +1 −3 yaml 1|-\|/-| 
+fix(chart) bug from #292 this undid the values yaml of PR #276 Ref #2… |-\|/-| 2018-02-14T22:55:54Z Merged pull request |-\|/-| 316 +6 −0 yaml 1|-\|/-| 
+Fix small typo |-\|/-| 2018-02-14T16:06:13Z Merged pull request |-\|/-| 315 +1 −1 md 0|-\|/-| 
+docs(install,developer): update installation info |-\|/-| 2018-02-14T23:30:47Z Merged pull request |-\|/-| 313 +21 −10 md 0|-\|/-| 
+fix(worker): die on non-existent job image |-\|/-| 2018-02-14T23:32:51Z Merged pull request |-\|/-| 312 +10 −1 ts 1|-\|/-| 
+fix(chart): make worker service account configurable |-\|/-| 2018-02-14T23:42:33Z Merged pull request |-\|/-| 311 +32 −13 go yaml 8|-\|/-| 
+fix(github): support using GitHub Enterprise |-\|/-| 2018-02-14T23:45:43Z Merged pull request |-\|/-| 310 +73 −8 yaml go 6|-\|/-| 
+fix(controller, worker): remove extra tsc |-\|/-| 2018-02-13T16:36:15Z Merged pull request |-\|/-| 309 +111 −6 go json ts yaml 6|-\|/-| 
+fix(worker): fix broken unit test |-\|/-| 2018-02-12T23:46:20Z Merged pull request |-\|/-| 308 +1 −1 ts 1|-\|/-| 
+feat(*): use git references rather than commit SHA |-\|/-| 2018-02-15T18:38:23Z Merged pull request |-\|/-| 307 +679 −370 gitignore 1|-\|/-| 
+fix(chart): turn vcsSidecar on by  default |-\|/-| 2018-02-12T22:09:23Z Merged pull request |-\|/-| 306 +8 −3 go yaml 2|-\|/-| 
+docs(examples) add minio project example |-\|/-| 2018-02-12T13:06:54Z Merged pull request |-\|/-| 302 +1 −0 md 0|-\|/-| 
+fix(tests): revert list watcher changes |-\|/-| 2018-02-09T22:58:54Z Merged pull request |-\|/-| 300 +26 −12 go 1|-\|/-| 
+feat(gateway): add support for default brigade script |-\|/-| 2018-02-12T13:16:18Z Merged pull request |-\|/-| 299 +108 −10 yaml go 9|-\|/-| 
+feat(*): use typed secrets for projects, builds, and jobs |-\|/-| 2018-02-07T22:48:44Z Merged pull request |-\|/-| 298 +23 −37 go ts yaml sh md 8|-\|/-| 
+Do not set the storage class to "default" by default ; Destroy Build Storage PVC on error |-\|/-| 2018-02-12T13:29:03Z Merged pull request |-\|/-| 296 +15 −9 ts 2|-\|/-| 
+added ingress for api service |-\|/-| 2018-02-12T22:10:05Z Merged pull request |-\|/-| 292 +35 −6 yaml 2|-\|/-| 
+Fix typo in one of brigade chart templates |-\|/-| 2018-02-07T00:04:45Z Merged pull request |-\|/-| 291 +1 −1 yaml 1|-\|/-| 
+fix(chart): add rbac for vacuum |-\|/-| 2018-02-09T05:11:18Z Merged pull request |-\|/-| 290 +53 −3 tpl yaml 3|-\|/-| 
+fix(*): fix style issues |-\|/-| 2018-01-26T23:33:14Z Merged pull request |-\|/-| 289 +20 −6 go 6|-\|/-| 
+ref(chart): remove curly braces |-\|/-| 2018-01-26T23:33:29Z Merged pull request |-\|/-| 288 +6 −4 yaml 2|-\|/-| 
+WIP feat(tests): add brigade target to run functional test in cluster |-\|/-| 2019-01-09T15:56:28Z Closed pull request |-\|/-| 286 +42 −1 js go 2|-\|/-| 
+feat(brig): build binaries at release |-\|/-| 2018-02-15T19:44:55Z Merged pull request |-\|/-| 285 +78 −3 Makefile js 2|-\|/-| 
+feat(worker): make storage class for cache and build configurable |-\|/-| 2018-01-26T21:34:56Z Merged pull request |-\|/-| 284 +43 −6 ts yaml 5|-\|/-| 
+Configurable Build Storage ; Initialize Submodules |-\|/-| 2018-01-25T23:15:28Z Merged pull request |-\|/-| 281 +60 −6 ts yaml md sh go 11|-\|/-| 
+Docs: Fixed compatibility to Python 3 |-\|/-| 2018-01-24T22:59:35Z Merged pull request |-\|/-| 278 +10 −3 md 0|-\|/-| 
+feat(worker): Allow using a specific brigade-worker image per project |-\|/-| 2018-02-14T21:59:20Z Merged pull request |-\|/-| 277 +285 −44 Makefile go js ts yaml 10|-\|/-| 
+feat(chart): Configurable liveness/readiness probes for api |-\|/-| 2018-01-25T22:59:17Z Merged pull request |-\|/-| 276 +8 −0 yaml 2|-\|/-| 
+chore(gateway): Rename brigade-gateway to brigade-github-gateway |-\|/-| 2018-01-25T22:36:43Z Merged pull request |-\|/-| 275 +11 −11 gitignore Makefile brigade-gateway/Dockerfile → brigade-github-gateway/Dockerfile go sh tpl yaml md 11|-\|/-| 
+fix(chart): the pod/log permission is needed on the worker's role |-\|/-| 2018-01-19T20:42:06Z Merged pull request |-\|/-| 274 +2 −1 ts yaml 2|-\|/-| 
+Add pods/log resource to api role |-\|/-| 2018-01-19T00:15:58Z Merged pull request |-\|/-| 273 +1 −1 yaml 1|-\|/-| 
+feat(worker): allow overriding of the job's service account. |-\|/-| 2018-01-19T21:13:37Z Merged pull request |-\|/-| 271 +41 −3 ts md 4|-\|/-| 
+fix(vacuum): read the correct kube config |-\|/-| 2018-01-17T23:12:04Z Merged pull request |-\|/-| 267 +13 −1 go yaml 2|-\|/-| 
+fix(controller): Label worker pods with os=linux label. |-\|/-| 2018-01-17T21:12:04Z Merged pull request |-\|/-| 265 +9 −0 go 2|-\|/-| 
+docs(brig): note to checkout a stable tag |-\|/-| 2018-01-17T23:11:35Z Merged pull request |-\|/-| 262 +5 −0 md 0|-\|/-| 
+fix(brig): don't trim short git references |-\|/-| 2018-01-10T20:23:37Z Merged pull request |-\|/-| 261 +5 −1 go 1|-\|/-| 
+feat(gateway): Support for two event types: deployment and deployment_status |-\|/-| 2018-01-17T21:12:24Z Merged pull request |-\|/-| 260 +331 −1 go json 4|-\|/-| 
+fix(git-sidecar): support branch names and tags |-\|/-| 2018-01-10T22:31:42Z Merged pull request |-\|/-| 257 +80 −0 dockerignore sh 3|-\|/-| 
+fix(cr-gateway): Remove GitHub API requirement from CR server. |-\|/-| 2018-01-17T23:17:59Z Merged pull request |-\|/-| 255 +7 −22 js yaml go 4|-\|/-| 
+fix(chart): fix ingress name and app label. |-\|/-| 2018-01-09T22:38:23Z Merged pull request |-\|/-| 252 +3 −3 yaml 1|-\|/-| 
+docs(readme): Feedbacks on README for the brig command |-\|/-| 2018-01-09T21:03:57Z Merged pull request |-\|/-| 249 +2 −2 md 0|-\|/-| 
+feat(brig): add -c/--commit flag to brig run |-\|/-| 2018-01-08T22:56:53Z Merged pull request |-\|/-| 248 +15 −10 go 1|-\|/-| 
+add more example projects |-\|/-| 2018-01-08T20:58:49Z Merged pull request |-\|/-| 246 +3 −0 md 0|-\|/-| 
+docs(scripting): add advanced events section |-\|/-| 2018-01-10T00:01:59Z Merged pull request |-\|/-| 245 +217 −0 js md 4|-\|/-| 
+fix(worker): fix the PVC name requested by the job |-\|/-| 2018-01-09T22:37:59Z Merged pull request |-\|/-| 244 +2 −2 ts 2|-\|/-| 
+feat(api): add /v1/build/{id}/log to get logs. |-\|/-| 2018-01-08T21:01:16Z Merged pull request |-\|/-| 243 +382 −66 go 7|-\|/-| 
+Correct brigade_project#values.yml secrets |-\|/-| 2017-12-21T18:46:48Z Merged pull request |-\|/-| 239 +2 −2 yaml 1|-\|/-| 
+Add default param to mountPath in docs |-\|/-| 2017-12-21T18:47:05Z Merged pull request |-\|/-| 238 +1 −1 md 0|-\|/-| 
+Fix markdown for Kashti link |-\|/-| 2017-12-21T15:00:38Z Merged pull request |-\|/-| 237 +1 −1 md 0|-\|/-| 
+fix(gateway): skip executing on branch deletion |-\|/-| 2018-01-02T21:22:38Z Merged pull request |-\|/-| 236 +157 −0 go json 3|-\|/-| 
+fix(worker): make cache name downcased |-\|/-| 2018-01-02T21:22:53Z Merged pull request |-\|/-| 235 +4 −2 ts 2|-\|/-| 
+fix(cr-gateway): support branch names with slashes |-\|/-| 2018-01-04T23:21:04Z Merged pull request |-\|/-| 233 +60 −10 go md 3|-\|/-| 
+Allow API and gateway to respect port values |-\|/-| 2017-12-21T05:27:36Z Merged pull request |-\|/-| 232 +31 −4 go yaml 4|-\|/-| 
+docs(gateways): add doc on creating Brigade gateways |-\|/-| 2018-01-04T23:11:56Z Merged pull request |-\|/-| 231 +461 −1 docs/topics/examples/simple-event/cron/Dockerfile sh yaml 4|-\|/-| 
+fix(git-sidecar): don't shallow clone repository |-\|/-| 2018-01-09T22:56:45Z Closed pull request |-\|/-| 230 +1 −1 sh 1|-\|/-| 
+feat(gatway): add support for Author Association |-\|/-| 2018-02-27T21:52:11Z Merged pull request |-\|/-| 226 +569 −53 lock go md yaml 7|-\|/-| 
+Correct ports and path for CR documentation |-\|/-| 2017-12-18T23:29:43Z Merged pull request |-\|/-| 223 +2 −2 md 0|-\|/-| 
+feat(vacuum): add brigade-vacuum |-\|/-| 2017-12-19T00:59:50Z Merged pull request |-\|/-| 222 +563 −3 gitignore Makefile brigade-vacuum/Dockerfile go 6|-\|/-| 
+fix(worker): prevent creating a pvc when cache is disabled |-\|/-| 2017-12-15T20:35:31Z Merged pull request |-\|/-| 221 +22 −22 ts 1|-\|/-| 
+fix(worker): prevent logging an empty array |-\|/-| 2017-12-14T00:12:51Z Merged pull request |-\|/-| 219 +2 −2 ts 1|-\|/-| 
+feat(worker): add a prefixed logger |-\|/-| 2017-12-13T23:11:08Z Merged pull request |-\|/-| 218 +65 −37 ts 4|-\|/-| 
+feat(worker): add verbose error logging |-\|/-| 2017-12-13T22:45:33Z Merged pull request |-\|/-| 216 +190 −54 json ts 7|-\|/-| 
+docs(intro): require `brigadier` in examples. |-\|/-| 2017-12-14T05:13:11Z Merged pull request |-\|/-| 215 +4 −0 md 0|-\|/-| 
+docs(scripting): Actually introduce `brig` |-\|/-| 2017-12-11T22:02:54Z Merged pull request |-\|/-| 214 +3 −0 md 0|-\|/-| 
+docs(brig): Mention where the brigade source needs to be cloned |-\|/-| 2017-12-11T22:03:50Z Merged pull request |-\|/-| 213 +1 −1 md 0|-\|/-| 
+tutorial03: Fix checkbox label |-\|/-| 2017-12-11T22:04:16Z Merged pull request |-\|/-| 212 +1 −1 md 0|-\|/-| 
+docs(readme) Add link to Kashti. |-\|/-| 2017-12-11T20:33:07Z Merged pull request |-\|/-| 211 +3 −0 md 0|-\|/-| 
+Spelling mistake |-\|/-| 2017-12-11T15:29:08Z Merged pull request |-\|/-| 210 +1 −1 md 0|-\|/-| 
+docs(README): Link to index.md instead of /docs/ |-\|/-| 2017-12-11T22:06:02Z Merged pull request |-\|/-| 209 +1 −1 md 0|-\|/-| 
+fix(gateway): enforce build policy for forks |-\|/-| 2017-12-11T21:31:12Z Merged pull request |-\|/-| 208 +57 −68 go 2|-\|/-| 
+Update brigade repo link |-\|/-| 2018-01-26T00:40:16Z Closed pull request |-\|/-| 207 +1 −1 md 0|-\|/-| 
+chore(build-tools): add ts formatter and refactor build setup |-\|/-| 2017-12-11T21:31:36Z Merged pull request |-\|/-| 206 +987 −818 json js ts 4|-\|/-| 
+Add missing `run` command to `brig` scripting |-\|/-| 2017-12-08T05:40:02Z Merged pull request |-\|/-| 205 +1 −1 md 0|-\|/-| 
+feat(gateway): support pull_request_review event |-\|/-| 2017-12-06T00:23:08Z Merged pull request |-\|/-| 204 +454 −5 go 2|-\|/-| 
+feat(gateway): add pull_request:labeled and pull_request:unlabeled |-\|/-| 2017-12-06T00:25:19Z Merged pull request |-\|/-| 202 +554 −29 md go 2|-\|/-| 
+feat(gateway): add several new webhook events |-\|/-| 2017-12-05T23:03:31Z Merged pull request |-\|/-| 201 +1,161 −50 md go json 3|-\|/-| 
+fix the fix for gateway selectors |-\|/-| 2017-12-04T19:57:04Z Merged pull request |-\|/-| 200 +1 −1 yaml 1|-\|/-| 
+docs(values): add documentation on values.yaml |-\|/-| 2017-12-06T00:29:10Z Merged pull request |-\|/-| 199 +204 −0 md 0|-\|/-| 
+differentiate between github and dockerhub gateways |-\|/-| 2017-12-04T19:20:47Z Merged pull request |-\|/-| 198 +8 −0 yaml 4|-\|/-| 
+docs: fix typo |-\|/-| 2017-12-02T22:46:00Z Merged pull request |-\|/-| 196 +1 −1 md 0|-\|/-| 
+docs(*): update gateway config information |-\|/-| 2017-12-04T18:37:34Z Merged pull request |-\|/-| 195 +43 −1 md 0|-\|/-| 
+tests(webhook): more test coverage for webhooks |-\|/-| 2017-12-01T23:42:51Z Merged pull request |-\|/-| 194 +83 −7 go 2|-\|/-| 
+fix(*): use alpine:3.7 |-\|/-| 2017-12-02T03:35:29Z Merged pull request |-\|/-| 192 +5 −5 brigade-api/Dockerfile brigade-controller/Dockerfile brigade-cr-gateway/Dockerfile brigade-gateway/Dockerfile git-sidecar/Dockerfile 5|-\|/-| 
+docs(javascript): document the JS api for enabling docker socket |-\|/-| 2017-12-01T18:54:02Z Merged pull request |-\|/-| 191 +13 −1 md 0|-\|/-| 
+fix(charts): add roles to services, deployments, pods |-\|/-| 2017-12-01T18:54:19Z Merged pull request |-\|/-| 190 +13 −0 yaml 5|-\|/-| 
+fix(webhook): do not set ssh key in environment |-\|/-| 2017-12-01T16:53:12Z Merged pull request |-\|/-| 189 +0 −18 go 1|-\|/-| 
+fix(worker): add regexp to validate job name |-\|/-| 2017-12-01T14:36:23Z Merged pull request |-\|/-| 188 +39 −2 ts md 2|-\|/-| 
+fix(git-sidecar): add openssh back in |-\|/-| 2017-12-01T14:35:59Z Merged pull request |-\|/-| 187 +1 −0 git-sidecar/Dockerfile 1|-\|/-| 
+fix(worker): print worker version in logs |-\|/-| 2017-11-30T16:54:08Z Merged pull request |-\|/-| 185 +3 −0 ts 1|-\|/-| 
+ref(*): name vcs-sidecar consistently across components |-\|/-| 2017-11-30T16:53:50Z Merged pull request |-\|/-| 184 +2 −2 go ts 2|-\|/-| 
+fix(gateway): correctly set default flag |-\|/-| 2017-11-30T16:53:26Z Merged pull request |-\|/-| 183 +1 −1 go 1|-\|/-| 
+ref(cr): set default namespace for cr-gateway |-\|/-| 2017-11-30T16:52:52Z Merged pull request |-\|/-| 182 +8 −1 go 1|-\|/-| 
+fix(brig): remove dead code |-\|/-| 2017-11-29T23:35:01Z Merged pull request |-\|/-| 181 +2 −3 go 1|-\|/-| 
+ref(*): set flag defaults |-\|/-| 2017-11-29T22:34:13Z Merged pull request |-\|/-| 180 +37 −10 go 3|-\|/-| 
+fix(api): improve performance of fetching builds |-\|/-| 2017-11-29T23:51:44Z Merged pull request |-\|/-| 179 +34 −8 go 1|-\|/-| 
+feat(gateway): make forked pull-request builds optional |-\|/-| 2017-11-30T00:13:33Z Merged pull request |-\|/-| 178 +55 −43 go yaml 6|-\|/-| 
+fix: delete the dead link in the Github status payload |-\|/-| 2017-11-30T20:47:18Z Merged pull request |-\|/-| 171 +3 −14 go 1|-\|/-| 
+Limit the clone depth at 50 to speed up builds |-\|/-| 2017-11-27T17:19:52Z Merged pull request |-\|/-| 170 +1 −1 sh 1|-\|/-| 
+fix(brig): wait for pod to start |-\|/-| 2017-11-23T17:20:11Z Merged pull request |-\|/-| 169 +52 −3 go 1|-\|/-| 
+feat(worker): add the ability to configure the image pull policy of a job |-\|/-| 2017-11-23T17:23:44Z Merged pull request |-\|/-| 168 +13 −4 ts 3|-\|/-| 
+docs(design): explain why we use secrets instead of CRDs |-\|/-| 2017-11-22T21:03:11Z Merged pull request |-\|/-| 166 +4 −1 md 0|-\|/-| 
+feat(worker): allow disabling privileged mode at project level |-\|/-| 2017-11-22T00:21:32Z Merged pull request |-\|/-| 164 +33 −2 ts yaml 6|-\|/-| 
+fix(worker): fix PVC RBAC resource |-\|/-| 2017-11-22T00:04:51Z Merged pull request |-\|/-| 163 +1 −1 yaml 1|-\|/-| 
+feat(api): list projects with latest builds |-\|/-| 2017-11-21T23:30:16Z Merged pull request |-\|/-| 160 +27 −0 go 2|-\|/-| 
+set github status to pending after creating build secret |-\|/-| 2017-11-21T22:57:19Z Merged pull request |-\|/-| 159 +2 −10 go 1|-\|/-| 
+Use alpine edge to get git@2.15.0 |-\|/-| 2017-11-21T22:54:44Z Merged pull request |-\|/-| 158 +1 −1 git-sidecar/Dockerfile 1|-\|/-| 
+fix(controller): set service account on worker pod |-\|/-| 2017-11-17T23:44:29Z Merged pull request |-\|/-| 156 +2 −0 go 1|-\|/-| 
+allow host-mounted docker sockets in jobs |-\|/-| 2017-11-21T22:59:35Z Merged pull request |-\|/-| 154 +114 −2 ts yaml md 6|-\|/-| 
+fix(tests)): accept environment vars for selftest.sh |-\|/-| 2017-11-17T22:19:33Z Merged pull request |-\|/-| 153 +6 −6 sh 1|-\|/-| 
+ref(*): remove unused field Worker.Commit |-\|/-| 2017-11-17T23:43:44Z Merged pull request |-\|/-| 152 +2 −8 go 4|-\|/-| 
+fix(brigade.js): bump go v1.9 |-\|/-| 2017-11-17T22:20:35Z Merged pull request |-\|/-| 151 +1 −1 js 1|-\|/-| 
+fix(worker): stop after from firing when no hook was executed. |-\|/-| 2017-11-17T23:26:35Z Merged pull request |-\|/-| 150 +10 −1 ts 1|-\|/-| 
+docs(scripting): update brig command name |-\|/-| 2017-11-17T03:13:33Z Merged pull request |-\|/-| 147 +12 −12 md 0|-\|/-| 
+docs(*): switch recommendation to helm repo |-\|/-| 2017-11-17T15:03:06Z Merged pull request |-\|/-| 146 +39 −16 md 0|-\|/-| 
+fix(chart): fix if-checks and add if wrappers to all optional values |-\|/-| 2017-11-17T15:03:27Z Merged pull request |-\|/-| 145 +5 −3 yaml 1|-\|/-| 
+fix(worker): wrong default image name. |-\|/-| 2017-11-16T23:25:13Z Merged pull request |-\|/-| 144 +1 −1 ts 1|-\|/-| 
+ref(Makefile): add build tag to integration tests |-\|/-| 2017-11-16T23:07:38Z Merged pull request |-\|/-| 143 +13 −11 Makefile go 3|-\|/-| 
+fix(brigade-worker): fix type error when no sidecar is set |-\|/-| 2017-11-16T02:11:08Z Merged pull request |-\|/-| 142 +4 −1 ts 1|-\|/-| 
+fix reference to brigade-server-brigade-gw |-\|/-| 2017-11-16T00:15:05Z Merged pull request |-\|/-| 141 +4 −4 md 0|-\|/-| 
+git mv chart/ charts/ |-\|/-| 2017-11-15T23:23:50Z Merged pull request |-\|/-| 140 +11 −11 Makefile md helmignore yaml txt tpl 19|-\|/-| 
+fix(git-sidecar): fetch remote SHA before checkout |-\|/-| 2017-11-15T23:01:24Z Merged pull request |-\|/-| 138 +13 −4 sh 1|-\|/-| 
+fix(chart): fix if-checks and add if wrappers to all optional values |-\|/-| 2017-11-16T23:01:43Z Closed pull request |-\|/-| 137 +53 −26 Makefile md ts helmignore yaml txt tpl sh go 23|-\|/-| 
+fix(chart): add guard for vcs-sidecar |-\|/-| 2017-11-14T22:47:08Z Merged pull request |-\|/-| 136 +2 −0 yaml 1|-\|/-| 
+fix(chart): fix project chart's missing sidecar value |-\|/-| 2017-11-14T22:41:23Z Closed pull request |-\|/-| 135 +1 −1 yaml 1|-\|/-| 
+Update demo paths in docs |-\|/-| 2017-11-14T21:39:15Z Merged pull request |-\|/-| 134 +3 −3 md 0|-\|/-| 
+Update documents with Client-only build instructions |-\|/-| 2017-11-14T21:18:27Z Merged pull request |-\|/-| 133 +7 −1 md 0|-\|/-| 
+fix(Makefile): fix ldflags version |-\|/-| 2017-11-14T17:50:13Z Merged pull request |-\|/-| 129 +1 −1 Makefile 1|-\|/-| 
+fix(api): show secret names, but not values |-\|/-| 2017-11-14T23:23:28Z Merged pull request |-\|/-| 128 +16 −3 go 2|-\|/-| 
+Update rbac instructions |-\|/-| 2017-11-13T19:48:25Z Merged pull request |-\|/-| 124 +1 −1 md 0|-\|/-| 
+fix(*): remove hard-coded image versions |-\|/-| 2017-11-13T20:50:19Z Merged pull request |-\|/-| 123 +35 −49 Makefile md go js brigade-gateway/Dockerfile yaml 16|-\|/-| 
+fix(api,controller,worker): use ULID for ID |-\|/-| 2017-11-13T23:29:14Z Merged pull request |-\|/-| 122 +66 −35 go ts 12|-\|/-| 
+fix(worker): mount docker socket when privileged=true |-\|/-| 2017-11-20T16:39:37Z Closed pull request |-\|/-| 117 +29 −0 ts 2|-\|/-| 
+Make runEach return JobResult of all Jobs |-\|/-| 2017-11-09T18:31:50Z Merged pull request |-\|/-| 116 +27 −16 ts md 3|-\|/-| 
+fix(makefile): add CGO_ENABLED=0  for build-docker-bin |-\|/-| 2017-11-09T18:32:07Z Merged pull request |-\|/-| 115 +3 −3 Makefile 1|-\|/-| 
+fix(api): prevent exposing secrets on api |-\|/-| 2017-11-09T19:07:27Z Merged pull request |-\|/-| 114 +36 −5 go 2|-\|/-| 
+fix brigade.js for dep |-\|/-| 2017-11-07T14:49:40Z Merged pull request |-\|/-| 112 +2 −2 js 1|-\|/-| 
+Update location of brigade-project helm chart |-\|/-| 2017-11-06T23:27:37Z Merged pull request |-\|/-| 110 +2 −2 md 0|-\|/-| 
+docs(README): fix examples in README |-\|/-| 2017-11-06T23:26:33Z Merged pull request |-\|/-| 109 +20 −35 md 0|-\|/-| 
+ref(chart): move brigade-project to chart dir |-\|/-| 2017-11-06T20:06:30Z Merged pull request |-\|/-| 108 +17 −7 Makefile helmignore yaml txt md tgz 8|-\|/-| 
+projects typo fix |-\|/-| 2017-11-06T19:51:40Z Merged pull request |-\|/-| 107 +1 −1 md 0|-\|/-| 
+Add missing highlights to object names |-\|/-| 2017-11-06T19:52:28Z Merged pull request |-\|/-| 106 +2 −2 md 0|-\|/-| 
+Typo fix |-\|/-| 2017-11-06T17:56:37Z Merged pull request |-\|/-| 105 +1 −1 md 0|-\|/-| 
+ref(*): delete dead code, source cleanup |-\|/-| 2017-11-06T18:52:05Z Merged pull request |-\|/-| 104 +14 −289 lock go 11|-\|/-| 
+ref(chart): make chart smart about versions |-\|/-| 2017-11-06T16:27:02Z Merged pull request |-\|/-| 103 +66 −16 yaml 7|-\|/-| 
+feat(cr-gateway): break container registry gw into separate binary |-\|/-| 2017-11-29T23:28:18Z Merged pull request |-\|/-| 99 +388 −29 gitignore Makefile brigade-cr-gateway/Dockerfile md go json js tpl yaml 12|-\|/-| 
+fix(brig): remove default value for -f |-\|/-| 2017-11-03T23:06:54Z Merged pull request |-\|/-| 98 +1 −2 go 1|-\|/-| 
+docs(brig): update Brig help text |-\|/-| 2017-11-03T17:26:45Z Merged pull request |-\|/-| 97 +41 −5 md go 1|-\|/-| 
+fix(brig): read the file |-\|/-| 2017-11-03T00:09:54Z Merged pull request |-\|/-| 96 +6 −1 go 1|-\|/-| 
+fix(worker): fix error in unit test |-\|/-| 2017-11-02T22:52:58Z Merged pull request |-\|/-| 95 +3 −4 ts 1|-\|/-| 
+fix(tests): bump empty-testbed sha |-\|/-| 2017-11-02T18:46:15Z Merged pull request |-\|/-| 94 +4 −4 Makefile json go 4|-\|/-| 
+fix(worker): use new schema for defining init containers |-\|/-| 2017-11-02T18:46:31Z Merged pull request |-\|/-| 93 +1 −6 ts 1|-\|/-| 
+change node:8 -> node:8-alpine |-\|/-| 2017-11-06T22:23:23Z Merged pull request |-\|/-| 92 +1 −1 brigade-worker/Dockerfile 1|-\|/-| 
+move worker related setting to values |-\|/-| 2017-11-03T00:09:38Z Merged pull request |-\|/-| 91 +58 −28 go yaml 7|-\|/-| 
+fix(controller): fix typo in image name |-\|/-| 2017-11-02T17:39:00Z Merged pull request |-\|/-| 90 +1 −1 go 1|-\|/-| 
+feat(*): switch to dep for go dependency management |-\|/-| 2017-11-02T21:14:05Z Merged pull request |-\|/-| 89 +371 −382 lock toml Makefile 3|-\|/-| 
+chore(*): bump client-go to latest stable |-\|/-| 2017-11-02T18:46:56Z Merged pull request |-\|/-| 88 +104 −82 go 8|-\|/-| 
+chore(charts): update charts to 0.3.0 |-\|/-| 2017-11-02T21:06:16Z Merged pull request |-\|/-| 87 +28 −22 Makefile yaml tgz 6|-\|/-| 
+fix(chart): set API svc default type to ClusterIP |-\|/-| 2017-11-01T18:09:47Z Merged pull request |-\|/-| 85 +1 −1 yaml 1|-\|/-| 
+Update tutorial01.md |-\|/-| 2017-11-01T16:33:40Z Merged pull request |-\|/-| 83 +1 −1 md 0|-\|/-| 
+Update install.md |-\|/-| 2017-11-01T16:33:10Z Merged pull request |-\|/-| 82 +1 −1 md 0|-\|/-| 
+Update overview.md |-\|/-| 2017-11-01T16:32:47Z Merged pull request |-\|/-| 81 +1 −1 md 0|-\|/-| 
+Update index.md |-\|/-| 2017-11-01T03:03:15Z Merged pull request |-\|/-| 80 +1 −1 md 0|-\|/-| 
+docs(topics): add projects.md document |-\|/-| 2017-11-01T19:57:18Z Merged pull request |-\|/-| 78 +209 −3 md 0|-\|/-| 
+fix(version): add doc block |-\|/-| 2017-10-31T23:38:45Z Merged pull request |-\|/-| 77 +1 −0 go 1|-\|/-| 
+fix(brig): increase timeout for log streaming |-\|/-| 2017-11-01T21:12:04Z Merged pull request |-\|/-| 76 +5 −3 go 1|-\|/-| 
+docs(topics): updated design |-\|/-| 2017-10-31T22:28:12Z Merged pull request |-\|/-| 75 +218 −165 0|-\|/-| 
+docs(index): add related resources |-\|/-| 2017-10-31T19:57:30Z Merged pull request |-\|/-| 73 +24 −0 md 0|-\|/-| 
+fix(version): use latest tag rather than current tag |-\|/-| 2017-10-31T19:19:19Z Merged pull request |-\|/-| 72 +1 −1 Makefile 1|-\|/-| 
+feat(controller,worker): acid.js not required |-\|/-| 2017-10-31T22:14:39Z Merged pull request |-\|/-| 71 +311 −32 go 2|-\|/-| 
+docs(topics): add storage document |-\|/-| 2017-10-30T23:30:51Z Merged pull request |-\|/-| 69 +64 −0 md 0|-\|/-| 
+update brig cli build docs and dev guide |-\|/-| 2017-10-30T21:02:45Z Merged pull request |-\|/-| 68 +9 −1 md 0|-\|/-| 
+fix(worker): disable shared storage by default |-\|/-| 2017-10-30T19:42:44Z Merged pull request |-\|/-| 67 +19 −9 ts js md 4|-\|/-| 
+add support for gcp auth in brig command |-\|/-| 2017-10-31T18:42:43Z Merged pull request |-\|/-| 65 +34 −2 go lock yaml 3|-\|/-| 
+add pod rule for controler role |-\|/-| 2017-10-27T21:15:08Z Merged pull request |-\|/-| 64 +3 −0 yaml 1|-\|/-| 
+Fix link to secrets.md |-\|/-| 2017-10-26T18:23:32Z Merged pull request |-\|/-| 63 +2 −2 md 0|-\|/-| 
+Fix broken link in tutorial |-\|/-| 2017-10-26T17:02:27Z Merged pull request |-\|/-| 61 +1 −1 md 0|-\|/-| 
+fix typos |-\|/-| 2017-10-25T21:14:54Z Merged pull request |-\|/-| 34 +34 −33 md go yaml txt ts sh 8|-\|/-| 
+ref(docs): update docs |-\|/-| 2017-10-25T21:11:29Z Merged pull request |-\|/-| 5 +1 −2 md 0|-\|/-| 
+ref(docs): updating docs |-\|/-| 2017-10-25T21:11:43Z Merged pull request |-\|/-| 4 +1 −1 md 0|-\|/-| 
+Fixing JS syntax error in README.md |-\|/-| 2017-10-24T21:27:29Z Merged pull request |-\|/-| 2 +1 −1 md 0|-\|/-| 
+call glide up |-\|/-| 2017-10-24T03:45:03Z Merged pull request |-\|/-| 1 +2 −2 lock 1|-\|/-| 

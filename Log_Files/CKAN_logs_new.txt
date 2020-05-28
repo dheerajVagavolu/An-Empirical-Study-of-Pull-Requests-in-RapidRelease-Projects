@@ -1,0 +1,1130 @@
+Add "supports" relationships to recommendations screen |-\|/-| 2020-01-10T22:38:48Z Merged pull request |-\|/-| 2960 +159 −89 cs resx 14|-\|/-| 
+Don't check ZIP health in ModuleInstaller.GetModuleContentsList() |-\|/-| 2020-01-09T00:31:40Z Merged pull request |-\|/-| 2959 +12 −7 cs 2|-\|/-| 
+Workaround to launch URLs |-\|/-| 2020-01-08T14:41:24Z Merged pull request |-\|/-| 2958 +68 −48 cs 9|-\|/-| 
+Memoize lazily evaluated sequences |-\|/-| 2020-01-08T19:39:43Z Merged pull request |-\|/-| 2953 +164 −36 cs 8|-\|/-| 
+Make provides a list of identifiers in the schema |-\|/-| 2020-01-06T05:18:03Z Merged pull request |-\|/-| 2952 +3 −1 schema 1|-\|/-| 
+Request fewer GitHub releases and cache string URLs in Netkan |-\|/-| 2019-12-24T01:08:41Z Merged pull request |-\|/-| 2950 +82 −37 cs 2|-\|/-| 
+Catch nested GameData folders in Netkan |-\|/-| 2020-01-06T05:28:15Z Merged pull request |-\|/-| 2948 +22 −4 cs 5|-\|/-| 
+Only stage auto-epoch when creating new file |-\|/-| 2020-01-07T21:47:51Z Merged pull request |-\|/-| 2947 +25 −5 cs 3|-\|/-| 
+Coerce GitHub URLs into the authenticated API in Netkan |-\|/-| 2019-12-17T23:57:58Z Merged pull request |-\|/-| 2946 +141 −38 cs 11|-\|/-| 
+Pause Inflator if its output queue fills up |-\|/-| 2019-12-17T02:15:03Z Closed pull request |-\|/-| 2944 +21 −2 cs 1|-\|/-| 
+Get org members as authors, time-sort authors, sort tags to middle |-\|/-| 2019-12-15T00:32:13Z Merged pull request |-\|/-| 2942 +35 −10 cs 5|-\|/-| 
+Return failure on failed commands for headless prompt |-\|/-| 2019-12-11T23:05:00Z Merged pull request |-\|/-| 2941 +7 −1 cs 1|-\|/-| 
+Retain URL hash cache, cache file hashes |-\|/-| 2019-12-09T17:08:29Z Merged pull request |-\|/-| 2940 +133 −37 cs 6|-\|/-| 
+Better parsing errors for version files |-\|/-| 2019-12-07T16:30:14Z Merged pull request |-\|/-| 2939 +12 −1 cs 1|-\|/-| 
+Obey system colors for dark theme support |-\|/-| 2020-01-08T14:29:05Z Merged pull request |-\|/-| 2937 +135 −68 csproj cs 3|-\|/-| 
+Custom mod labels, favorites, hiding |-\|/-| 2020-01-07T15:14:50Z Merged pull request |-\|/-| 2936 +1,920 −52 cs csproj 6|-\|/-| 
+Notify on Deployment Success |-\|/-| 2019-11-30T06:01:34Z Merged pull request |-\|/-| 2934 +5 −0 yml 1|-\|/-| 
+Handle multiple errors in same ErrorDialog |-\|/-| 2019-11-25T19:55:15Z Merged pull request |-\|/-| 2933 +49 −23 cs resx 4|-\|/-| 
+Don't send notification to Discord if build succeeds |-\|/-| 2019-11-25T19:15:38Z Merged pull request |-\|/-| 2932 +0 −4 yml 1|-\|/-| 
+Don't launch KSP 1.8 with -single-instance |-\|/-| 2019-11-25T16:09:56Z Merged pull request |-\|/-| 2931 +35 −0 cs 1|-\|/-| 
+Multiple manual downloads, uncached filter, purge option |-\|/-| 2019-11-25T20:00:26Z Merged pull request |-\|/-| 2930 +192 −244 cs resx 4|-\|/-| 
+Bump nuget to 5.3.1 on Windows |-\|/-| 2019-11-24T20:37:53Z Merged pull request |-\|/-| 2929 +1 −1 ps1 1|-\|/-| 
+Eliminate duplicate network calls in Netkan |-\|/-| 2019-11-22T02:34:51Z Merged pull request |-\|/-| 2928 +20 −24 cs 4|-\|/-| 
+Disable Upgrade All ConsoleUI menu option when nothing to upgrade |-\|/-| 2019-11-22T20:35:45Z Merged pull request |-\|/-| 2927 +30 −4 cs 3|-\|/-| 
+Ignore CurseForge tests |-\|/-| 2019-11-22T16:36:55Z Merged pull request |-\|/-| 2926 +1 −0 cs 1|-\|/-| 
+Add language selection option to settings |-\|/-| 2019-11-22T20:00:02Z Merged pull request |-\|/-| 2925 +134 −20 cs resx 11|-\|/-| 
+Add owners of parent GitHub repos to authors |-\|/-| 2019-11-15T21:59:26Z Merged pull request |-\|/-| 2922 +64 −9 cs 5|-\|/-| 
+Update dependencies |-\|/-| 2019-11-22T22:53:18Z Merged pull request |-\|/-| 2921 +154 −116 csproj config cs 24|-\|/-| 
+Force redraw of recommendation listview headers on Mono |-\|/-| 2019-11-13T15:10:47Z Merged pull request |-\|/-| 2920 +6 −0 cs 1|-\|/-| 
+Apply netkan validators to ckans |-\|/-| 2019-11-07T08:03:21Z Merged pull request |-\|/-| 2915 +1 −0 cs 1|-\|/-| 
+Merge resources and include metanetkan |-\|/-| 2019-11-10T17:32:47Z Merged pull request |-\|/-| 2913 +54 −1 schema cs md 5|-\|/-| 
+Default to consoleui on MacOSX Catalina |-\|/-| 2019-11-02T18:06:33Z Merged pull request |-\|/-| 2911 +33 −1 macosx/CKAN 1|-\|/-| 
+Restructure Net.Download and Net.DownloadText |-\|/-| 2019-11-20T01:08:23Z Merged pull request |-\|/-| 2904 +167 −65 cs 7|-\|/-| 
+Replace temp filename with URL in netkan ZIP error |-\|/-| 2019-10-25T18:18:42Z Merged pull request |-\|/-| 2903 +4 −1 cs 1|-\|/-| 
+Force logical name for generated resources |-\|/-| 2019-10-26T21:19:39Z Merged pull request |-\|/-| 2899 +3 −0 csproj 1|-\|/-| 
+Fix minor errors in registry updating |-\|/-| 2019-10-21T15:25:36Z Merged pull request |-\|/-| 2896 +2 −1 cs 2|-\|/-| 
+[macOS] Only run Mono in 32bit mode when the GUI is launched |-\|/-| 2019-10-21T14:54:16Z Merged pull request |-\|/-| 2893 +14 −1 macosx/CKAN 1|-\|/-| 
+Notify when falling back to archive.org URL |-\|/-| 2019-10-19T17:31:02Z Merged pull request |-\|/-| 2892 +6 −1 cs 1|-\|/-| 
+Redeploy Inflator after builds |-\|/-| 2019-10-17T14:26:41Z Merged pull request |-\|/-| 2889 +21 −0 yml cake 2|-\|/-| 
+Show target version for upgrades in change set |-\|/-| 2019-10-31T18:07:04Z Merged pull request |-\|/-| 2888 +121 −81 cs 9|-\|/-| 
+Normalize install paths |-\|/-| 2019-10-14T17:19:32Z Merged pull request |-\|/-| 2887 +84 −46 cs 4|-\|/-| 
+Use current metadata for installed module compatibility |-\|/-| 2019-10-19T17:19:21Z Merged pull request |-\|/-| 2886 +31 −32 cs 10|-\|/-| 
+Fail on http status codes >=300 for cURL downloads |-\|/-| 2019-10-04T18:57:31Z Merged pull request |-\|/-| 2879 +24 −24 cs 1|-\|/-| 
+Set 'MessageId' attribute for batch delete |-\|/-| 2019-09-27T02:44:19Z Merged pull request |-\|/-| 2877 +1 −1 cs 1|-\|/-| 
+Batch inflator responses |-\|/-| 2019-09-26T14:13:15Z Merged pull request |-\|/-| 2875 +70 −46 cs 1|-\|/-| 
+Remove base64 encoded CKAN icon from resources |-\|/-| 2019-09-25T22:13:31Z Merged pull request |-\|/-| 2872 +0 −6,807 0|-\|/-| 
+Add Missing libcurl Dependency for NetKAN |-\|/-| 2019-09-15T15:50:24Z Merged pull request |-\|/-| 2870 +1 −0 netkan 1|-\|/-| 
+Allow totally incompatible modules in changeset |-\|/-| 2019-09-15T21:36:07Z Merged pull request |-\|/-| 2869 +14 −16 cs 2|-\|/-| 
+Fix NRE on failed queue inflate |-\|/-| 2019-09-11T01:34:17Z Merged pull request |-\|/-| 2866 +7 −4 cs 1|-\|/-| 
+Add libcurl dependency to RPM |-\|/-| 2019-09-01T23:47:54Z Merged pull request |-\|/-| 2858 +1 −0 spec 1|-\|/-| 
+Fixes for KSP in Windows drive root |-\|/-| 2019-10-16T22:22:09Z Merged pull request |-\|/-| 2857 +53 −23 cs 7|-\|/-| 
+Find portable installs when enforcing cache limits |-\|/-| 2019-08-31T19:12:27Z Merged pull request |-\|/-| 2856 +5 −1 cs 1|-\|/-| 
+Speed up autoremove search |-\|/-| 2019-08-27T21:49:41Z Merged pull request |-\|/-| 2855 +46 −33 cs 3|-\|/-| 
+Don't invalidate invisible rows |-\|/-| 2019-08-27T21:49:40Z Merged pull request |-\|/-| 2854 +8 −2 cs 1|-\|/-| 
+Use Debian machine-readable copyright format |-\|/-| 2019-08-25T23:23:46Z Merged pull request |-\|/-| 2853 +15 −14 debian/copyright 1|-\|/-| 
+Switch to new Travis xvfb syntax |-\|/-| 2019-08-15T05:34:49Z Merged pull request |-\|/-| 2845 +3 −6 yml 1|-\|/-| 
+Put Dockerfile.netkan in build context |-\|/-| 2019-08-09T01:38:27Z Merged pull request |-\|/-| 2840 +4 −1 cake 1|-\|/-| 
+Replace bash script with Cake.Docker task |-\|/-| 2019-08-08T03:22:55Z Merged pull request |-\|/-| 2839 +26 −6 yml sh cake 3|-\|/-| 
+Add Dockerfile + Deployment for NetKAN Inflator |-\|/-| 2019-08-08T04:55:37Z Merged pull request |-\|/-| 2838 +47 −0 yml netkan cake 3|-\|/-| 
+Send staging reason to SQS queue |-\|/-| 2019-07-26T07:33:11Z Merged pull request |-\|/-| 2835 +41 −7 cs md 2|-\|/-| 
+Fix for building with VS 2019 |-\|/-| 2019-07-21T17:30:49Z Merged pull request |-\|/-| 2834 +1 −1 config 1|-\|/-| 
+Fix clearing of changeset after install |-\|/-| 2019-07-07T15:51:44Z Merged pull request |-\|/-| 2829 +5 −7 cs 3|-\|/-| 
+Improve focus interactions of GUI filters and mod list |-\|/-| 2019-07-06T07:36:39Z Merged pull request |-\|/-| 2827 +77 −34 0|-\|/-| 
+Fix Curse API download URLs |-\|/-| 2019-07-03T03:46:19Z Merged pull request |-\|/-| 2825 +1 −1 cs 1|-\|/-| 
+Auto-epoch based on queue message attribute |-\|/-| 2019-11-29T00:22:30Z Merged pull request |-\|/-| 2824 +150 −30 cs md 19|-\|/-| 
+Override V to v with x_netkan_force_v |-\|/-| 2019-07-01T04:29:40Z Merged pull request |-\|/-| 2823 +2 −1 cs 1|-\|/-| 
+Queue module version changes in change set |-\|/-| 2019-07-06T16:37:08Z Merged pull request |-\|/-| 2821 +245 −115 cs 4|-\|/-| 
+Use New JSON Config File; Add .NET Standard 2.0 Target to CKAN-core |-\|/-| 2019-08-11T21:40:14Z Closed pull request |-\|/-| 2820 +1,547 −642 yml sln cs csproj 10|-\|/-| 
+Netkan option to validate .ckan file |-\|/-| 2019-07-01T02:22:18Z Merged pull request |-\|/-| 2819 +26 −5 cs 4|-\|/-| 
+Support newlines in GUI description field |-\|/-| 2019-06-28T22:24:53Z Merged pull request |-\|/-| 2818 +2 −1 cs 1|-\|/-| 
+Fix comparison of 1.0.0 to 1.0 |-\|/-| 2019-06-28T22:39:44Z Merged pull request |-\|/-| 2817 +10 −6 cs 2|-\|/-| 
+Fix Netkan localization parser performance |-\|/-| 2019-06-28T20:58:00Z Merged pull request |-\|/-| 2816 +7 −7 cs 2|-\|/-| 
+Fix Netkan schema resource name on Windows |-\|/-| 2019-06-28T06:03:35Z Merged pull request |-\|/-| 2815 +3 −1 csproj 1|-\|/-| 
+Open ZIP button, instance name in status bar, description scroll bar |-\|/-| 2019-06-27T16:18:29Z Merged pull request |-\|/-| 2813 +61 −6 resx cs 9|-\|/-| 
+Use embedded buildmap in Netkan |-\|/-| 2019-06-27T01:32:46Z Merged pull request |-\|/-| 2812 +27 −28 cs 3|-\|/-| 
+Fix http kref validation |-\|/-| 2019-06-26T17:32:30Z Merged pull request |-\|/-| 2811 +1 −1 cs 1|-\|/-| 
+Refresh builds.json when validating netkans |-\|/-| 2019-06-26T03:55:11Z Merged pull request |-\|/-| 2808 +10 −2 cs 1|-\|/-| 
+Ignore locales with no strings |-\|/-| 2019-06-25T21:41:04Z Merged pull request |-\|/-| 2805 +2 −1 cs 1|-\|/-| 
+Add menu option to report issues in the CKAN repo |-\|/-| 2019-06-24T16:50:01Z Merged pull request |-\|/-| 2801 +29 −12 resx cs 4|-\|/-| 
+Refactor Netkan for SQS mode |-\|/-| 2019-06-25T21:35:13Z Merged pull request |-\|/-| 2798 +1,609 −178 config csproj cs 5|-\|/-| 
+Fix UK spelling of licence |-\|/-| 2019-06-22T22:02:51Z Merged pull request |-\|/-| 2794 +251 −2 resx csproj 5|-\|/-| 
+Mark auto-install correctly when installing from .ckan file |-\|/-| 2019-06-22T22:42:29Z Merged pull request |-\|/-| 2793 +11 −22 cs 1|-\|/-| 
+Migrate Perl validation checks into netkan.exe |-\|/-| 2019-06-25T21:13:12Z Merged pull request |-\|/-| 2788 +1,106 −20 config csproj cs 14|-\|/-| 
+Fix 'ManageKspInstances' dialog logic |-\|/-| 2019-07-23T15:06:45Z Merged pull request |-\|/-| 2787 +131 −63 resx cs 10|-\|/-| 
+Only react to Localization keyword at start of line |-\|/-| 2019-06-17T08:10:15Z Merged pull request |-\|/-| 2786 +1 −1 cs 1|-\|/-| 
+Only list each locale once |-\|/-| 2019-06-15T07:48:50Z Merged pull request |-\|/-| 2784 +2 −1 cs 1|-\|/-| 
+Skip comments and allow capital letters in locale extractor |-\|/-| 2019-06-14T23:14:00Z Merged pull request |-\|/-| 2783 +39 −22 cs 1|-\|/-| 
+Fix ZipValid test on non-English Windows systems |-\|/-| 2019-06-12T21:18:29Z Merged pull request |-\|/-| 2781 +11 −1 cs 1|-\|/-| 
+Fix fake/clone tests on Windows |-\|/-| 2019-06-11T16:12:27Z Merged pull request |-\|/-| 2778 +4 −3 cs 1|-\|/-| 
+Update issue templates |-\|/-| 2019-06-12T00:12:40Z Merged pull request |-\|/-| 2777 +337 −112 md 0|-\|/-| 
+Suppress autostart warning |-\|/-| 2019-06-10T16:00:50Z Merged pull request |-\|/-| 2776 +18 −27 cs 9|-\|/-| 
+Update packages |-\|/-| 2019-06-10T00:47:27Z Merged pull request |-\|/-| 2775 +78 −55 yml csproj config cs build cake ps1 19|-\|/-| 
+Support BreakingGround-DLC in instance faking |-\|/-| 2019-06-27T17:14:01Z Merged pull request |-\|/-| 2773 +456 −184 cs 7|-\|/-| 
+Unignore version controlled folders |-\|/-| 2019-06-06T17:07:07Z Merged pull request |-\|/-| 2772 +3 −1 gitignore 1|-\|/-| 
+Detect Breaking Ground DLC |-\|/-| 2019-05-31T13:40:05Z Merged pull request |-\|/-| 2768 +103 −52 csproj cs 5|-\|/-| 
+Don't warn that a raw URL is non-raw |-\|/-| 2019-05-24T19:28:22Z Merged pull request |-\|/-| 2767 +6 −0 cs 1|-\|/-| 
+Don't throw exceptions for dependency conflicts |-\|/-| 2019-06-01T21:02:21Z Merged pull request |-\|/-| 2766 +36 −21 cs 2|-\|/-| 
+Don't assume string params to Install are identifiers |-\|/-| 2019-05-21T17:18:41Z Merged pull request |-\|/-| 2764 +36 −1 cs 2|-\|/-| 
+Update GUI modlist if scan detects changes |-\|/-| 2019-05-14T20:13:59Z Merged pull request |-\|/-| 2762 +66 −20 cs 3|-\|/-| 
+Extract locales from downloads |-\|/-| 2019-06-13T16:54:34Z Merged pull request |-\|/-| 2760 +175 −44 schema cs csproj md 8|-\|/-| 
+Add scrollbars to metadata tab |-\|/-| 2019-05-10T16:57:48Z Merged pull request |-\|/-| 2759 +15 −12 cs 1|-\|/-| 
+Hide auto-installed checkbox for auto-detected mods |-\|/-| 2019-05-09T21:20:36Z Merged pull request |-\|/-| 2758 +1 −1 cs 1|-\|/-| 
+Generate RPM packages |-\|/-| 2019-08-11T22:19:22Z Merged pull request |-\|/-| 2757 +96 −0 yml cake rpm/Makefile spec 4|-\|/-| 
+Cache downloads individually upon completion |-\|/-| 2019-05-09T01:23:04Z Merged pull request |-\|/-| 2756 +58 −99 cs 14|-\|/-| 
+Save registry inside of scan transaction |-\|/-| 2019-05-07T22:47:29Z Merged pull request |-\|/-| 2755 +1 −2 cs 1|-\|/-| 
+Auto-uninstall auto-installed modules |-\|/-| 2019-05-07T15:51:49Z Merged pull request |-\|/-| 2753 +468 −140 cs csproj 9|-\|/-| 
+Internationalize the GUI |-\|/-| 2019-06-10T20:04:54Z Merged pull request |-\|/-| 2749 +12,602 −76,536 gitignore cs resx 5|-\|/-| 
+Ignore dependency self conflicts |-\|/-| 2019-04-29T15:57:15Z Merged pull request |-\|/-| 2747 +3 −1 cs 1|-\|/-| 
+Throw errors happening in UpdateModsList() |-\|/-| 2019-04-28T05:07:43Z Merged pull request |-\|/-| 2745 +3 −2 cs 1|-\|/-| 
+Combine recommendation and suggestion screens |-\|/-| 2019-04-29T15:57:14Z Merged pull request |-\|/-| 2744 +164 −163 cs 2|-\|/-| 
+Fix freeze on non CKAN files in cache folder |-\|/-| 2019-04-28T05:11:46Z Merged pull request |-\|/-| 2743 +5 −1 cs 1|-\|/-| 
+Fix issues when `provides` is removed |-\|/-| 2019-07-06T07:51:15Z Merged pull request |-\|/-| 2740 +145 −233 cs 3|-\|/-| 
+Relabel Yes/No buttons for some questions |-\|/-| 2019-04-23T00:53:19Z Merged pull request |-\|/-| 2737 +17 −9 cs 5|-\|/-| 
+Compare RelationshipDescriptors with Equals instead of Same |-\|/-| 2019-04-21T15:15:19Z Merged pull request |-\|/-| 2735 +5 −5 cs 2|-\|/-| 
+Fix Newly Compatible filter with repo autoupdate |-\|/-| 2019-04-23T00:53:18Z Merged pull request |-\|/-| 2734 +35 −14 cs 3|-\|/-| 
+Add self to opt-out |-\|/-| 2019-04-16T14:30:12Z Merged pull request |-\|/-| 2732 +1 −0 md 0|-\|/-| 
+Don't apply previous change set to checkboxes after successful install |-\|/-| 2019-04-20T18:49:27Z Merged pull request |-\|/-| 2730 +3 −3 cs 1|-\|/-| 
+Auto size yes no dialog |-\|/-| 2019-04-21T15:15:19Z Merged pull request |-\|/-| 2729 +31 −4 cs 2|-\|/-| 
+Fix size of relationships list |-\|/-| 2019-04-20T18:49:27Z Merged pull request |-\|/-| 2728 +1 −1 cs 1|-\|/-| 
+Fix home/end, url handler, typing nav, and dependency double click |-\|/-| 2019-04-20T18:49:26Z Merged pull request |-\|/-| 2727 +24 −7 cs 2|-\|/-| 
+Save restore position when minimized |-\|/-| 2019-04-20T18:49:26Z Merged pull request |-\|/-| 2725 +49 −25 cs 2|-\|/-| 
+Update Spec.md |-\|/-| 2019-04-06T23:21:35Z Merged pull request |-\|/-| 2710 +4 −4 md 0|-\|/-| 
+Ignore spaces and special chars in mod search |-\|/-| 2019-04-25T19:52:29Z Merged pull request |-\|/-| 2709 +216 −51 cs csproj 7|-\|/-| 
+Prevent Null entry in CompatibleKSPVersions |-\|/-| 2019-03-31T18:50:56Z Merged pull request |-\|/-| 2707 +5 −0 cs 1|-\|/-| 
+Select 2nd instead of 3rd cell on `MarkAllUpdatesToolButton_Click` |-\|/-| 2019-03-27T23:26:03Z Merged pull request |-\|/-| 2704 +2 −4 cs 1|-\|/-| 
+Update all CKAN URL references |-\|/-| 2019-03-23T17:29:56Z Merged pull request |-\|/-| 2702 +5 −5 cs debian/changelog in 4|-\|/-| 
+Right click copy option for mod info links |-\|/-| 2019-04-21T15:15:18Z Merged pull request |-\|/-| 2699 +54 −10 cs 3|-\|/-| 
+Only show replace col if a replaced module is installed |-\|/-| 2019-03-21T13:49:15Z Merged pull request |-\|/-| 2697 +1 −1 cs 1|-\|/-| 
+Handle non-raw GitHub URLs for metanetkans and avc krefs |-\|/-| 2019-04-23T00:53:18Z Merged pull request |-\|/-| 2696 +68 −53 cs 4|-\|/-| 
+Allow replacement by conflicting modules |-\|/-| 2019-03-14T13:10:51Z Merged pull request |-\|/-| 2695 +15 −14 cs 1|-\|/-| 
+Only update mod list once at GUI startup |-\|/-| 2019-03-21T13:46:55Z Merged pull request |-\|/-| 2694 +22 −16 cs 2|-\|/-| 
+Reinstate no releases warnings for Netkan |-\|/-| 2019-03-21T13:43:13Z Merged pull request |-\|/-| 2692 +40 −8 cs 4|-\|/-| 
+Sort AD above empty checkboxes |-\|/-| 2019-03-21T13:39:41Z Merged pull request |-\|/-| 2691 +10 −3 cs 2|-\|/-| 
+Customisable columns in GUI Modlist |-\|/-| 2019-03-15T05:59:29Z Merged pull request |-\|/-| 2690 +121 −14 cs 4|-\|/-| 
+Don't auto-install recommendations when reinstalling |-\|/-| 2019-02-27T22:06:17Z Merged pull request |-\|/-| 2689 +1 −1 cs 1|-\|/-| 
+Fix RefreshPreLabel overlapping RefreshTextBox in Settings |-\|/-| 2019-02-19T22:36:01Z Merged pull request |-\|/-| 2686 +2 −2 cs 1|-\|/-| 
+Force redraw of versions ListView on Mono |-\|/-| 2019-02-26T00:00:37Z Merged pull request |-\|/-| 2685 +29 −11 cs 2|-\|/-| 
+Avoid redundant metadata downloads |-\|/-| 2019-02-26T00:00:37Z Merged pull request |-\|/-| 2682 +80 −24 cs 5|-\|/-| 
+Releases option for Netkan |-\|/-| 2019-02-26T00:00:36Z Merged pull request |-\|/-| 2681 +658 −473 cs 11|-\|/-| 
+Fix upgrading and installing from .ckan in GUI |-\|/-| 2019-02-08T15:23:49Z Merged pull request |-\|/-| 2680 +16 −8 cs 4|-\|/-| 
+Fix window position on MacOSX |-\|/-| 2019-02-01T08:58:43Z Merged pull request |-\|/-| 2677 +76 −40 cs 4|-\|/-| 
+Make the download button more obvious |-\|/-| 2019-02-01T03:38:41Z Merged pull request |-\|/-| 2675 +1 −1 md 0|-\|/-| 
+Allow installation of missing dependencies in GUI |-\|/-| 2019-02-01T08:43:55Z Merged pull request |-\|/-| 2674 +6 −0 cs 1|-\|/-| 
+Support replaced_by property |-\|/-| 2019-02-26T00:00:36Z Merged pull request |-\|/-| 2671 +1,097 −281 schema cs csproj 6|-\|/-| 
+Use Core.Utilities.CopyDirectory in tests |-\|/-| 2019-02-14T21:51:54Z Merged pull request |-\|/-| 2670 +158 −26 cs csproj 7|-\|/-| 
+Cleanly switch versions of installed mod |-\|/-| 2019-02-01T08:37:54Z Merged pull request |-\|/-| 2669 +47 −21 cs 5|-\|/-| 
+Add AD mods back into GUI's installed filter |-\|/-| 2019-01-28T19:04:23Z Merged pull request |-\|/-| 2668 +4 −0 cs 1|-\|/-| 
+Handle manually installed mods in ConsoleUI |-\|/-| 2019-01-27T19:00:23Z Merged pull request |-\|/-| 2666 +56 −30 md cs 8|-\|/-| 
+Implementation of clone and fake in GUI |-\|/-| 2019-02-08T15:17:33Z Merged pull request |-\|/-| 2665 +912 −73 cs csproj resx 6|-\|/-| 
+Get license from GitHub |-\|/-| 2019-01-28T18:59:53Z Merged pull request |-\|/-| 2663 +15 −0 cs md 2|-\|/-| 
+Support depends on any_of lists |-\|/-| 2019-02-09T04:02:05Z Merged pull request |-\|/-| 2660 +533 −247 schema cs csproj 10|-\|/-| 
+Remove ConfirmPrompt from IUser |-\|/-| 2019-01-14T03:49:03Z Merged pull request |-\|/-| 2659 +6 −52 cs 7|-\|/-| 
+Small text/number formatting changes to mod list |-\|/-| 2019-01-14T03:38:43Z Merged pull request |-\|/-| 2658 +10 −8 cs 3|-\|/-| 
+Set focus to mod list after loading |-\|/-| 2019-01-14T03:34:49Z Merged pull request |-\|/-| 2657 +1 −0 cs 1|-\|/-| 
+Invoke control accesses in `UpdateModsList()` |-\|/-| 2019-01-14T03:31:14Z Merged pull request |-\|/-| 2656 +27 −21 cs 2|-\|/-| 
+Don't try to update filters if mod list missing |-\|/-| 2019-01-14T03:05:28Z Merged pull request |-\|/-| 2654 +1 −1 cs 1|-\|/-| 
+Show all recommendations of metapackages in GUI |-\|/-| 2019-01-14T02:57:36Z Merged pull request |-\|/-| 2653 +1 −1 cs 1|-\|/-| 
+Update quotes.txt |-\|/-| 2019-01-14T02:44:26Z Merged pull request |-\|/-| 2649 +4 −0 txt 0|-\|/-| 
+Derive User classes directly from IUser interface instead of the NullUser class. |-\|/-| 2019-01-14T02:54:08Z Merged pull request |-\|/-| 2648 +847 −149 cs csproj 6|-\|/-| 
+Handle semi-virtual dependencies in Relationships tab |-\|/-| 2019-01-10T01:01:11Z Merged pull request |-\|/-| 2645 +25 −28 cs 1|-\|/-| 
+`ckan ksp fake/clone` fixes |-\|/-| 2019-01-10T00:55:51Z Merged pull request |-\|/-| 2642 +159 −51 cs 6|-\|/-| 
+Allow overriding menu tip in ConsoleUI |-\|/-| 2019-01-08T03:00:36Z Merged pull request |-\|/-| 2635 +166 −26 cs 9|-\|/-| 
+Handle plus without shift in ConsoleUI |-\|/-| 2019-01-08T02:54:52Z Merged pull request |-\|/-| 2634 +26 −7 cs 2|-\|/-| 
+Don't override menu renderers on Windows |-\|/-| 2019-01-08T02:51:38Z Merged pull request |-\|/-| 2632 +14 −8 cs 2|-\|/-| 
+Dispose caches in tests |-\|/-| 2018-12-31T08:42:39Z Merged pull request |-\|/-| 2628 +32 −20 cs 5|-\|/-| 
+Add possibility to clone KSP installs and create dummy ones |-\|/-| 2019-01-08T02:46:58Z Merged pull request |-\|/-| 2627 +541 −7 cs csproj 2|-\|/-| 
+Fix UpdateModsList crash on Mono |-\|/-| 2018-12-29T21:23:50Z Merged pull request |-\|/-| 2625 +2 −2 cs 1|-\|/-| 
+Fix System.ObjectDisposedException for TransparentTextBox |-\|/-| 2018-12-30T23:00:43Z Merged pull request |-\|/-| 2619 +8 −1 cs 2|-\|/-| 
+Show progress bar while loading registry |-\|/-| 2018-12-26T06:58:23Z Merged pull request |-\|/-| 2617 +40 −12 cs 4|-\|/-| 
+Handle multiple game versions from Curse |-\|/-| 2018-12-26T06:53:14Z Merged pull request |-\|/-| 2616 +41 −13 cs 2|-\|/-| 
+Encapsulate usages of WebClient |-\|/-| 2018-12-26T06:48:15Z Merged pull request |-\|/-| 2614 +51 −30 cs 9|-\|/-| 
+Jenkins as a Netkan "source" |-\|/-| 2018-12-26T06:34:35Z Merged pull request |-\|/-| 2613 +232 −90 csproj cs 10|-\|/-| 
+Allow selection of text in mod info panel |-\|/-| 2018-12-14T02:28:44Z Merged pull request |-\|/-| 2610 +161 −108 csproj 1|-\|/-| 
+Revert unintentional tray icon change from #2587 |-\|/-| 2018-12-14T02:03:38Z Merged pull request |-\|/-| 2609 +1 −1 cs 1|-\|/-| 
+Remove unnecessary parameter in Configuration methods |-\|/-| 2018-12-12T12:52:17Z Merged pull request |-\|/-| 2608 +14 −15 sln cs 4|-\|/-| 
+Suppress wrapping of status bar in Mono |-\|/-| 2018-12-12T12:52:17Z Merged pull request |-\|/-| 2607 +1 −0 cs 1|-\|/-| 
+Don't auto-install recommendations when auditing recommendations |-\|/-| 2018-12-12T12:52:16Z Merged pull request |-\|/-| 2606 +24 −30 cs 6|-\|/-| 
+Fix spelling error of netkan-bot in close-old-support-tickets.pl |-\|/-| 2018-12-08T02:43:12Z Merged pull request |-\|/-| 2605 +1 −1 pl 1|-\|/-| 
+Show correct error messages after canceling (un)installations/upgrades |-\|/-| 2018-12-15T11:34:42Z Merged pull request |-\|/-| 2602 +64 −15 cs 2|-\|/-| 
+Warn before launching KSP with installed incompatible modules |-\|/-| 2018-12-12T12:52:15Z Merged pull request |-\|/-| 2601 +49 −2 cs 3|-\|/-| 
+Fix platform checks and crash on Mac OS X |-\|/-| 2018-12-12T12:10:21Z Merged pull request |-\|/-| 2600 +46 −49 cs 3|-\|/-| 
+Confirm quit with pending change set or conflicts |-\|/-| 2018-12-12T12:38:13Z Merged pull request |-\|/-| 2599 +40 −2 cs 2|-\|/-| 
+Stop splitters from migrating between sessions |-\|/-| 2018-12-12T12:38:13Z Merged pull request |-\|/-| 2598 +12 −10 cs 1|-\|/-| 
+Add Launch KSP option to tray icon menu |-\|/-| 2018-12-12T12:38:12Z Merged pull request |-\|/-| 2597 +11 −0 cs 1|-\|/-| 
+Checkbox to uninstall all mods and reset changeset |-\|/-| 2018-12-12T12:38:12Z Merged pull request |-\|/-| 2596 +46 −5 cs 3|-\|/-| 
+Fix error popup text for dark themes |-\|/-| 2018-12-12T12:38:11Z Merged pull request |-\|/-| 2594 +1 −0 cs 1|-\|/-| 
+Fix file menu separator |-\|/-| 2018-12-12T12:14:41Z Merged pull request |-\|/-| 2593 +9 −1 cs 1|-\|/-| 
+Add legend for relationships tab |-\|/-| 2018-12-12T12:38:11Z Merged pull request |-\|/-| 2592 +101 −1 cs 1|-\|/-| 
+Fix tray icon menu position and color on Linux (Gnome) |-\|/-| 2018-11-29T04:18:15Z Merged pull request |-\|/-| 2587 +158 −108 csproj cs 4|-\|/-| 
+Set window properties on X11 |-\|/-| 2018-11-29T04:33:49Z Merged pull request |-\|/-| 2586 +83 −0 csproj cs 3|-\|/-| 
+Fix crash on selecting filtered-out provider module |-\|/-| 2018-11-29T04:40:41Z Merged pull request |-\|/-| 2585 +7 −4 cs 1|-\|/-| 
+Add tests for recent changes |-\|/-| 2018-11-29T05:46:14Z Merged pull request |-\|/-| 2583 +239 −7 cs zip csproj 10|-\|/-| 
+Add Netkan option to overwrite cached files |-\|/-| 2018-11-19T23:05:47Z Merged pull request |-\|/-| 2582 +16 −4 cs 3|-\|/-| 
+Remove newline from Done progress message |-\|/-| 2018-11-21T07:44:38Z Merged pull request |-\|/-| 2580 +2 −1 cs 2|-\|/-| 
+Restore uninstallation of dependencies |-\|/-| 2018-11-17T08:49:04Z Merged pull request |-\|/-| 2579 +1 −1 cs 1|-\|/-| 
+Show recommendations of installed modules in GUI |-\|/-| 2018-11-21T07:42:02Z Merged pull request |-\|/-| 2577 +404 −220 csproj cs 5|-\|/-| 
+Add KerbalEDU 1.4.5 build ID |-\|/-| 2018-11-14T17:09:31Z Merged pull request |-\|/-| 2576 +1 −0 json 1|-\|/-| 
+Fix schema install_to Missions syntax |-\|/-| 2018-11-15T00:48:29Z Merged pull request |-\|/-| 2573 +1 −1 schema 1|-\|/-| 
+Treat AVC min without max as open range |-\|/-| 2018-11-14T09:26:22Z Merged pull request |-\|/-| 2571 +17 −3 cs 1|-\|/-| 
+Forgotten commit for #2565 |-\|/-| 2018-11-14T08:25:36Z Merged pull request |-\|/-| 2570 +5 −1 cs 3|-\|/-| 
+adding DefiantZombie to Opt-out-list.md |-\|/-| 2018-11-06T03:35:17Z Merged pull request |-\|/-| 2569 +1 −0 md 0|-\|/-| 
+Minimize CKAN to tray and automatic refreshing |-\|/-| 2018-11-06T01:43:16Z Merged pull request |-\|/-| 2565 +7,650 −367 cs csproj 4|-\|/-| 
+Purge more bloat from `registry.json` |-\|/-| 2018-11-04T17:47:20Z Merged pull request |-\|/-| 2564 +11 −6 cs 3|-\|/-| 
+Cache listings of legacy cache dirs |-\|/-| 2018-11-14T08:42:57Z Merged pull request |-\|/-| 2563 +25 −33 cs 1|-\|/-| 
+Allow uninstallation of conflicting mods |-\|/-| 2018-11-04T17:53:25Z Merged pull request |-\|/-| 2561 +80 −36 cs 4|-\|/-| 
+Don't show status progress bar till actually installing |-\|/-| 2018-11-04T17:33:00Z Merged pull request |-\|/-| 2560 +1 −5 cs 1|-\|/-| 
+Avoid null ksp_version in Netkan |-\|/-| 2018-10-31T03:39:37Z Merged pull request |-\|/-| 2558 +17 −4 cs 2|-\|/-| 
+Fix crash at startup on Windows |-\|/-| 2018-10-28T19:38:06Z Merged pull request |-\|/-| 2557 +3 −2 cs 1|-\|/-| 
+Show mod info for change set, recs/sugs, and providers |-\|/-| 2018-11-14T08:19:35Z Merged pull request |-\|/-| 2556 +127 −50 cs 7|-\|/-| 
+Bump spec version |-\|/-| 2018-10-25T21:59:54Z Merged pull request |-\|/-| 2555 +2 −2 md 0|-\|/-| 
+Allow game version of "any" with a vref |-\|/-| 2018-10-28T19:38:06Z Merged pull request |-\|/-| 2553 +6 −2 cs 1|-\|/-| 
+Show latest updates after refresh |-\|/-| 2018-10-31T03:45:15Z Merged pull request |-\|/-| 2552 +61 −42 cs 3|-\|/-| 
+Fix null ref exception when repo has empty ckan file |-\|/-| 2018-10-28T19:42:28Z Merged pull request |-\|/-| 2549 +5 −1 cs 1|-\|/-| 
+Don't throw exceptions when resetting cache dir |-\|/-| 2018-10-23T12:16:09Z Merged pull request |-\|/-| 2547 +1 −1 cs 1|-\|/-| 
+Clean up popup positioning in GUI |-\|/-| 2018-10-23T12:13:09Z Merged pull request |-\|/-| 2544 +70 −28 cs 7|-\|/-| 
+Clean up mod list spacebar handling in GUI |-\|/-| 2018-10-23T12:04:57Z Merged pull request |-\|/-| 2543 +26 −29 cs 1|-\|/-| 
+Fix toolbar background colors for dark themes |-\|/-| 2018-10-21T15:37:25Z Merged pull request |-\|/-| 2541 +34 −1 csproj cs 4|-\|/-| 
+Fix text colors for dark themes |-\|/-| 2018-10-21T15:37:24Z Merged pull request |-\|/-| 2540 +12 −9 cs 2|-\|/-| 
+Use fresh WebClient for fallback URLs |-\|/-| 2018-10-23T12:07:35Z Merged pull request |-\|/-| 2539 +54 −15 cs 1|-\|/-| 
+Stop auto-moving cached files |-\|/-| 2018-10-13T13:40:04Z Merged pull request |-\|/-| 2538 +12 −4 cs 2|-\|/-| 
+Configurable cache size limit |-\|/-| 2018-10-23T12:01:59Z Merged pull request |-\|/-| 2536 +450 −23 cs 7|-\|/-| 
+One Cache to Rule Them All |-\|/-| 2018-10-13T00:06:38Z Merged pull request |-\|/-| 2535 +1,057 −395 cs 6|-\|/-| 
+Handle two-part KSP-AVC versions |-\|/-| 2018-10-07T02:07:38Z Merged pull request |-\|/-| 2532 +6 −6 cs 1|-\|/-| 
+Handle exception for missing libcurl |-\|/-| 2018-10-07T01:56:30Z Merged pull request |-\|/-| 2531 +12 −0 cs 1|-\|/-| 
+Fix YesNoDialog layout |-\|/-| 2018-10-07T01:52:17Z Merged pull request |-\|/-| 2530 +3 −7 cs 3|-\|/-| 
+Fix grid colors for dark themes |-\|/-| 2018-10-07T01:47:26Z Merged pull request |-\|/-| 2529 +2 −0 cs 1|-\|/-| 
+Show innermost download exceptions |-\|/-| 2018-10-07T01:41:37Z Merged pull request |-\|/-| 2528 +1 −1 cs 1|-\|/-| 
+Purge downloads that failed to index from Netkan cache |-\|/-| 2018-10-07T01:06:18Z Merged pull request |-\|/-| 2526 +31 −1 cs 3|-\|/-| 
+Add download count column to GUI |-\|/-| 2018-10-07T01:30:26Z Merged pull request |-\|/-| 2518 +91 −30 cs 6|-\|/-| 
+Handle KSP-AVC krefs |-\|/-| 2018-10-12T23:56:20Z Merged pull request |-\|/-| 2517 +176 −74 csproj cs md 6|-\|/-| 
+Catch invalid $kref in Netkan |-\|/-| 2018-10-07T02:22:16Z Merged pull request |-\|/-| 2516 +42 −2 csproj cs 4|-\|/-| 
+Catch illegal characters in ZIP exceptions |-\|/-| 2018-10-07T02:01:59Z Merged pull request |-\|/-| 2515 +5 −0 cs 1|-\|/-| 
+Add Install Date column to GUI mod list |-\|/-| 2018-08-23T05:47:55Z Merged pull request |-\|/-| 2514 +176 −150 cs 2|-\|/-| 
+Fix crash on invalid portable or Steam folder |-\|/-| 2018-08-22T12:07:50Z Merged pull request |-\|/-| 2506 +7 −2 cs 1|-\|/-| 
+Fix red X on HideTab |-\|/-| 2018-08-22T12:10:21Z Merged pull request |-\|/-| 2501 +5 −0 cs 1|-\|/-| 
+Replace New in repository filter with Newly compatible filter |-\|/-| 2018-08-22T12:19:17Z Merged pull request |-\|/-| 2494 +19 −6 cs 2|-\|/-| 
+Set default Exception.Message string for ModuleNotFoundKraken |-\|/-| 2018-08-22T12:21:59Z Merged pull request |-\|/-| 2493 +7 −2 cs 1|-\|/-| 
+Fix missing CdFileMgr folder errors |-\|/-| 2018-08-22T12:24:43Z Merged pull request |-\|/-| 2492 +18 −5 cs 5|-\|/-| 
+Allow installing modules without download_size |-\|/-| 2018-08-07T18:35:57Z Merged pull request |-\|/-| 2491 +11 −3 md cs 1|-\|/-| 
+Fix GUIMod crash when module doesn't have a compatible game version |-\|/-| 2018-08-22T12:05:20Z Merged pull request |-\|/-| 2486 +67 −61 cs 2|-\|/-| 
+Fix crash when initializing CKAN dirs at argumentless GUI startup |-\|/-| 2018-08-06T14:29:59Z Merged pull request |-\|/-| 2482 +15 −13 cs 3|-\|/-| 
+Fix Netkan error message when both ksp_version and ksp_version_min/_max are present |-\|/-| 2018-08-05T10:30:28Z Merged pull request |-\|/-| 2480 +3 −0 cs 2|-\|/-| 
+Support new Curse URLs with non-numeric IDs |-\|/-| 2018-07-03T11:10:49Z Merged pull request |-\|/-| 2464 +44 −17 cs 5|-\|/-| 
+Add description to ModInfoTab |-\|/-| 2018-06-20T16:34:49Z Merged pull request |-\|/-| 2463 +23 −7 cs 2|-\|/-| 
+Remove "v" in "installed version" and "latest version" columns |-\|/-| 2018-06-04T23:30:54Z Merged pull request |-\|/-| 2451 +148 −56 cs 3|-\|/-| 
+Pass game instance from cmdline to GUI/ConsoleUI |-\|/-| 2018-05-19T04:29:09Z Merged pull request |-\|/-| 2449 +20 −20 cs 7|-\|/-| 
+Improve handling of missing game version |-\|/-| 2018-05-15T07:33:59Z Merged pull request |-\|/-| 2444 +67 −3 cs 2|-\|/-| 
+Show conflict messages in status bar |-\|/-| 2018-06-04T23:03:40Z Merged pull request |-\|/-| 2442 +132 −81 cs 8|-\|/-| 
+"any" and "x.y.max" in the KSP Max column (GUI) |-\|/-| 2018-05-15T01:31:12Z Merged pull request |-\|/-| 2437 +63 −1 cs 1|-\|/-| 
+Handle zero byte registry.json file |-\|/-| 2018-05-15T07:57:19Z Merged pull request |-\|/-| 2435 +31 −2 cs json 3|-\|/-| 
+Replace max KSP "9.9.9" with "any" |-\|/-| 2018-04-27T19:10:01Z Closed pull request |-\|/-| 2432 +20 −1 cs 1|-\|/-| 
+Test upgrading mod with conflict on its own provides |-\|/-| 2018-04-28T01:42:31Z Merged pull request |-\|/-| 2431 +30 −0 cs 1|-\|/-| 
+Ignore conflicts between versions of same mod |-\|/-| 2018-04-27T05:02:56Z Merged pull request |-\|/-| 2430 +41 −17 cs 2|-\|/-| 
+Don't Force Apply button active when no update selected |-\|/-| 2018-05-01T20:11:34Z Merged pull request |-\|/-| 2429 +5 −16 cs 2|-\|/-| 
+Ignore splitter exceptions |-\|/-| 2018-04-25T22:53:33Z Merged pull request |-\|/-| 2426 +20 −4 cs 3|-\|/-| 
+Uncheck checkbox after missing dependency error |-\|/-| 2018-04-25T02:53:58Z Merged pull request |-\|/-| 2425 +15 −7 cs 3|-\|/-| 
+Treat installed DLC as compatible dependency |-\|/-| 2018-04-25T02:33:37Z Merged pull request |-\|/-| 2424 +112 −2 cs 3|-\|/-| 
+Fix "Collection was modified" exception for redundant optional dependencies |-\|/-| 2018-04-25T02:26:37Z Merged pull request |-\|/-| 2423 +5 −3 cs 1|-\|/-| 
+Replace max KSP version empty string with "any" in GUI |-\|/-| 2018-04-25T22:48:08Z Merged pull request |-\|/-| 2420 +1 −1 cs 1|-\|/-| 
+Hide StatusProgress-bar if user cancels installation |-\|/-| 2018-11-04T17:33:00Z Closed pull request |-\|/-| 2418 +227 −40 md cs 7|-\|/-| 
+Splitter and tabstrip visual improvements |-\|/-| 2018-04-22T03:46:35Z Merged pull request |-\|/-| 2413 +22 −16 cs 2|-\|/-| 
+AutoUpdate: tokens and tests |-\|/-| 2018-04-20T06:41:49Z Merged pull request |-\|/-| 2411 +202 −218 cs 2|-\|/-| 
+Add more tests |-\|/-| 2018-04-17T03:39:24Z Merged pull request |-\|/-| 2410 +424 −66 cs 4|-\|/-| 
+Better AutoUpdate.CanUpdate Error Message |-\|/-| 2018-04-14T02:51:49Z Merged pull request |-\|/-| 2408 +1 −1 cs 1|-\|/-| 
+Move AutoUpdate.CanUpdate check to resolve VisualStudio Designer Error |-\|/-| 2018-04-12T23:44:01Z Merged pull request |-\|/-| 2407 +29 −24 cs 2|-\|/-| 
+Option to override SpaceDock version with AVC version |-\|/-| 2018-04-11T15:43:07Z Merged pull request |-\|/-| 2406 +6 −1 cs 1|-\|/-| 
+Don't double encode GitHub download URLs |-\|/-| 2018-04-11T15:35:50Z Merged pull request |-\|/-| 2402 +1 −1 cs 1|-\|/-| 
+Clean-up and debuggability |-\|/-| 2018-04-11T15:30:32Z Merged pull request |-\|/-| 2399 +72 −29 cs in 6|-\|/-| 
+Sort by "update"-column on clicking "add available updates"-button |-\|/-| 2018-04-11T15:24:00Z Merged pull request |-\|/-| 2392 +116 −56 cs 3|-\|/-| 
+Encode spaces in URL output |-\|/-| 2018-03-26T23:52:04Z Merged pull request |-\|/-| 2386 +6 −2 cs 1|-\|/-| 
+More verbose and accurate version displays |-\|/-| 2018-03-22T09:09:04Z Merged pull request |-\|/-| 2382 +18 −8 cs 4|-\|/-| 
+Deal with threading and download errors |-\|/-| 2018-03-19T05:09:58Z Merged pull request |-\|/-| 2374 +64 −33 cs 3|-\|/-| 
+Allow installation to the Missions folder |-\|/-| 2018-03-19T04:54:52Z Merged pull request |-\|/-| 2371 +92 −15 schema cs md ckan zip csproj 8|-\|/-| 
+Support CC-BY-ND licenses in code |-\|/-| 2018-03-17T21:57:02Z Merged pull request |-\|/-| 2369 +2 −0 cs 1|-\|/-| 
+Clean up url handler registration |-\|/-| 2018-03-19T04:15:48Z Merged pull request |-\|/-| 2366 +47 −36 cs 1|-\|/-| 
+Allow downloader to be used multiple times |-\|/-| 2018-03-18T09:03:09Z Merged pull request |-\|/-| 2365 +6 −1 cs 1|-\|/-| 
+Install old versions of mods on double click from version list |-\|/-| 2018-03-18T08:58:14Z Merged pull request |-\|/-| 2364 +88 −52 cs 4|-\|/-| 
+Remove extra copies of various files |-\|/-| 2018-03-17T20:08:39Z Merged pull request |-\|/-| 2363 +5 −291 md 0|-\|/-| 
+Add 1.4.1.2089 to known builds |-\|/-| 2018-03-13T19:59:48Z Merged pull request |-\|/-| 2360 +2 −1 json 1|-\|/-| 
+Allow building CKAN.app on macOS |-\|/-| 2018-03-12T21:39:20Z Merged pull request |-\|/-| 2356 +6 −5 yml md macosx/Makefile 2|-\|/-| 
+Fix very slow response to checkbox changes |-\|/-| 2018-03-18T07:30:40Z Merged pull request |-\|/-| 2354 +448 −470 cs 5|-\|/-| 
+Always switch to progress tab when starting a [re/un]install |-\|/-| 2018-03-17T19:52:33Z Merged pull request |-\|/-| 2351 +1 −2 cs 3|-\|/-| 
+Add 1.4.0 to embedded build map |-\|/-| 2018-03-08T15:42:50Z Merged pull request |-\|/-| 2348 +2 −1 json 1|-\|/-| 
+Fix autoupdater tests on TLS-fragile platforms |-\|/-| 2018-03-05T01:57:24Z Merged pull request |-\|/-| 2344 +9 −2 cs 2|-\|/-| 
+Fix building on macOS |-\|/-| 2018-03-04T14:15:25Z Merged pull request |-\|/-| 2341 +1 −1 build 1|-\|/-| 
+Obey version properties of conflicts and depends relationships in sanity checks |-\|/-| 2018-03-04T06:08:57Z Merged pull request |-\|/-| 2339 +140 −155 cs 5|-\|/-| 
+Invalidate stale cached files from GitHub in Netkan |-\|/-| 2018-03-05T02:21:46Z Merged pull request |-\|/-| 2337 +75 −37 cs 14|-\|/-| 
+Actually skip when last comment is by OP |-\|/-| 2018-02-28T00:59:21Z Merged pull request |-\|/-| 2334 +1 −0 pl 1|-\|/-| 
+Check NetKAN for support issues, don't close if last reply is by OP |-\|/-| 2018-02-28T00:31:28Z Merged pull request |-\|/-| 2333 +39 −27 pl 1|-\|/-| 
+Fix ArgumentOutOfRangeException when removing files from game root |-\|/-| 2018-03-04T05:49:06Z Merged pull request |-\|/-| 2332 +9 −6 cs 1|-\|/-| 
+Improve CKAN.app launch script |-\|/-| 2018-03-04T06:24:04Z Merged pull request |-\|/-| 2329 +26 −16 macosx/CKAN macosx/Makefile 2|-\|/-| 
+DLC Detection |-\|/-| 2018-03-18T08:40:21Z Merged pull request |-\|/-| 2326 +1,489 −941 csproj DotSettings cs 13|-\|/-| 
+Fix GUI instance name checking |-\|/-| 2018-02-25T18:52:57Z Merged pull request |-\|/-| 2316 +1 −1 cs 1|-\|/-| 
+Don't crash if download_hash isn't set |-\|/-| 2018-02-25T09:36:11Z Merged pull request |-\|/-| 2313 +2 −1 cs 1|-\|/-| 
+Fix GUI sort by size |-\|/-| 2018-02-25T09:16:33Z Closed pull request |-\|/-| 2311 +5 −16 cs 1|-\|/-| 
+Better resizing for Select KSP Install window |-\|/-| 2018-02-24T08:13:12Z Merged pull request |-\|/-| 2306 +2 −0 cs 1|-\|/-| 
+Handle mod not found in versions tab |-\|/-| 2018-02-24T07:34:01Z Merged pull request |-\|/-| 2303 +20 −7 cs 1|-\|/-| 
+Fix crash when trying to view empty auth token list |-\|/-| 2018-02-24T07:13:54Z Merged pull request |-\|/-| 2301 +1 −1 cs 1|-\|/-| 
+Force-allow TLS 1.2 on .NET 4.5 |-\|/-| 2018-02-23T13:53:20Z Merged pull request |-\|/-| 2297 +15 −0 cs txt 2|-\|/-| 
+Replace colons with hyphens in archive URLs |-\|/-| 2018-02-21T03:23:26Z Merged pull request |-\|/-| 2290 +2 −1 cs 1|-\|/-| 
+Check zip validity in netkan |-\|/-| 2018-02-19T10:37:56Z Merged pull request |-\|/-| 2288 +5 −0 cs 1|-\|/-| 
+Capture error details from SharpZipLib for invalid ZIPs |-\|/-| 2018-02-18T07:06:04Z Merged pull request |-\|/-| 2287 +17 −5 cs 1|-\|/-| 
+Show abstracts in available command |-\|/-| 2018-02-17T01:08:20Z Merged pull request |-\|/-| 2286 +20 −5 cs 2|-\|/-| 
+Fallback to archive.org URLs for failed downloads of FOSS packages |-\|/-| 2018-02-16T14:30:41Z Merged pull request |-\|/-| 2284 +102 −18 cs 6|-\|/-| 
+Handle invalid installs (KSP.Version()==null) better |-\|/-| 2018-02-16T14:22:08Z Merged pull request |-\|/-| 2283 +9 −18 cs 5|-\|/-| 
+Point to wiki page about certs on cert errors |-\|/-| 2018-02-13T01:58:05Z Merged pull request |-\|/-| 2279 +10 −6 cs 1|-\|/-| 
+Retry of failed downloads |-\|/-| 2018-02-13T01:46:11Z Merged pull request |-\|/-| 2277 +367 −169 cs 10|-\|/-| 
+Add a read-execute-print-loop prompt for Cmdline |-\|/-| 2018-02-13T02:02:07Z Merged pull request |-\|/-| 2273 +143 −50 cs csproj 9|-\|/-| 
+Use arch=32 for OSX |-\|/-| 2018-01-31T02:03:53Z Merged pull request |-\|/-| 2270 +1 −1 macosx/CKAN 1|-\|/-| 
+User interfaces for auth tokens |-\|/-| 2018-02-03T11:03:54Z Merged pull request |-\|/-| 2266 +663 −68 cs csproj 5|-\|/-| 
+Add Cmdline import command |-\|/-| 2018-01-30T03:37:26Z Merged pull request |-\|/-| 2264 +127 −4 cs csproj 6|-\|/-| 
+Accept header and infrastructure for auth tokens |-\|/-| 2018-01-26T14:26:21Z Merged pull request |-\|/-| 2263 +140 −53 cs 10|-\|/-| 
+Resolve provides for install-from-ckan-file |-\|/-| 2018-01-26T13:56:38Z Merged pull request |-\|/-| 2259 +48 −19 cs 2|-\|/-| 
+Leave out children already shown in ancestor node |-\|/-| 2018-01-26T13:18:03Z Merged pull request |-\|/-| 2258 +20 −0 cs 1|-\|/-| 
+Print fewer download updates in headless mode |-\|/-| 2018-02-13T01:53:48Z Merged pull request |-\|/-| 2256 +18 −4 cs 2|-\|/-| 
+Write desktop file only if doesn't exist |-\|/-| 2019-08-16T09:53:36Z Closed pull request |-\|/-| 2248 +18 −20 cs 1|-\|/-| 
+Add import downloads menu item to GUI |-\|/-| 2018-01-26T13:06:03Z Merged pull request |-\|/-| 2246 +210 −118 cs csproj 9|-\|/-| 
+Show status bar text, add progress bar |-\|/-| 2018-01-09T02:24:53Z Merged pull request |-\|/-| 2245 +51 −34 cs 3|-\|/-| 
+Validate downloaded files against metadata before adding to cache |-\|/-| 2018-01-07T12:44:46Z Merged pull request |-\|/-| 2243 +446 −173 cs csproj 7|-\|/-| 
+Allow uninstallation of mods while Incompatible filter is selected |-\|/-| 2018-01-06T03:56:54Z Merged pull request |-\|/-| 2242 +27 −29 cs 1|-\|/-| 
+Update registry at start of GUI if available_modules is empty |-\|/-| 2018-01-05T07:39:56Z Merged pull request |-\|/-| 2241 +19 −2 cs 2|-\|/-| 
+Check provides for optional dependencies in GUI |-\|/-| 2018-01-03T06:51:48Z Merged pull request |-\|/-| 2240 +23 −1 cs 1|-\|/-| 
+Save timestamped .ckan files after we save the registry |-\|/-| 2018-01-05T07:35:15Z Merged pull request |-\|/-| 2239 +105 −82 cs 8|-\|/-| 
+Don't clear available modules till after the new list is ready |-\|/-| 2018-01-02T10:48:46Z Merged pull request |-\|/-| 2238 +218 −174 cs 1|-\|/-| 
+Throw explanatory message when user selects Incompatible mods |-\|/-| 2018-04-25T03:59:42Z Closed pull request |-\|/-| 2237 +376 −104 csproj sln cs 10|-\|/-| 
+Add and change logging to make INFO readable |-\|/-| 2017-12-29T07:27:24Z Merged pull request |-\|/-| 2236 +50 −33 cs 10|-\|/-| 
+Check version of PowerShell in build script |-\|/-| 2017-12-29T07:04:56Z Merged pull request |-\|/-| 2235 +10 −0 ps1 1|-\|/-| 
+Save and restore panel position |-\|/-| 2017-12-28T01:48:01Z Merged pull request |-\|/-| 2234 +49 −1 cs 3|-\|/-| 
+Use shared installer code in GUI and fix reinstall problems |-\|/-| 2018-01-02T10:37:21Z Merged pull request |-\|/-| 2233 +142 −217 cs 4|-\|/-| 
+Don't try to remove autodetected DLLs |-\|/-| 2017-12-24T19:42:48Z Merged pull request |-\|/-| 2232 +5 −7 cs 1|-\|/-| 
+Include invalid instances in KSPManager |-\|/-| 2017-12-29T07:01:18Z Merged pull request |-\|/-| 2230 +196 −147 cs 4|-\|/-| 
+Check game version compatibility when installing specific version |-\|/-| 2017-12-21T03:41:48Z Merged pull request |-\|/-| 2228 +67 −16 cs 4|-\|/-| 
+Fix missing entries in dependency graphs |-\|/-| 2017-12-20T08:17:49Z Merged pull request |-\|/-| 2226 +424 −273 cs 4|-\|/-| 
+Create and release CKAN.app for Mac OS X |-\|/-| 2017-12-21T03:53:48Z Merged pull request |-\|/-| 2225 +115 −0 yml icns cake macosx/CKAN in macosx/Makefile 6|-\|/-| 
+Make Cmdline modules case insensitive |-\|/-| 2017-12-21T04:12:49Z Merged pull request |-\|/-| 2223 +60 −2 cs 5|-\|/-| 
+Available ∪ Incompatible = All |-\|/-| 2017-12-16T21:16:22Z Merged pull request |-\|/-| 2216 +42 −39 cs 3|-\|/-| 
+Add depending mod to missing dependency exception |-\|/-| 2017-12-20T08:21:56Z Merged pull request |-\|/-| 2215 +57 −16 cs 6|-\|/-| 
+Remove invalid installs from registry at load |-\|/-| 2017-12-22T23:32:11Z Closed pull request |-\|/-| 2214 +9 −6 cs 1|-\|/-| 
+Provide fresh auto updater in releases |-\|/-| 2017-12-22T04:08:36Z Merged pull request |-\|/-| 2212 +38 −14 yml cs 3|-\|/-| 
+Install version from file when installing from file (fixes #1356) |-\|/-| 2017-12-13T22:20:10Z Closed pull request |-\|/-| 2211 +2 −1 cs 1|-\|/-| 
+Avoid NRE in TooManyModsProvide (fixes #2207) |-\|/-| 2017-12-07T10:44:48Z Merged pull request |-\|/-| 2209 +4 −6 cs 1|-\|/-| 
+Avoid NRE in install-from-ckan (fixes #2171) |-\|/-| 2017-12-07T10:38:39Z Merged pull request |-\|/-| 2205 +13 −2 cs 2|-\|/-| 
+Deploy AutoUpdater.exe to S3 and use it to auto-update (fixes #2140) |-\|/-| 2017-12-09T18:14:44Z Closed pull request |-\|/-| 2204 +19 −10 cs cake 2|-\|/-| 
+Dispose registry managers before exit to prevent exceptions |-\|/-| 2017-12-03T21:19:48Z Merged pull request |-\|/-| 2203 +21 −1 cs 6|-\|/-| 
+Add right-click context menu |-\|/-| 2017-12-28T12:11:47Z Merged pull request |-\|/-| 2202 +568 −505 0|-\|/-| 
+Revise issue template |-\|/-| 2017-11-30T22:49:22Z Merged pull request |-\|/-| 2201 +32 −2 md 0|-\|/-| 
+Fix cmdline help text problems (fixes #445, fixes #1490, fixes #2105) |-\|/-| 2017-12-02T21:43:38Z Merged pull request |-\|/-| 2197 +788 −587 cs 3|-\|/-| 
+Update version regex for release builds as well |-\|/-| 2017-11-30T20:46:19Z Merged pull request |-\|/-| 2195 +1 −1 yml 1|-\|/-| 
+Only check first three segments of version in ci (fixes #2191) |-\|/-| 2017-11-27T01:10:52Z Merged pull request |-\|/-| 2192 +1 −1 yml 1|-\|/-| 
+Adapt Curse API to new widget |-\|/-| 2017-11-21T21:06:50Z Merged pull request |-\|/-| 2189 +66 −85 cs 7|-\|/-| 
+Avoid crash with unavailable installed mod, improve error messages |-\|/-| 2017-11-28T04:57:09Z Merged pull request |-\|/-| 2188 +42 −27 cs 5|-\|/-| 
+Debian package build system |-\|/-| 2017-12-21T21:37:07Z Merged pull request |-\|/-| 2187 +354 −96 yml cs 4|-\|/-| 
+Cache downloads globally |-\|/-| 2018-10-13T00:06:38Z Closed pull request |-\|/-| 2185 +7,687 −52 md cs csproj 6|-\|/-| 
+Initialize checkboxes to desired value at creation |-\|/-| 2017-11-28T03:31:40Z Merged pull request |-\|/-| 2184 +65 −79 cs 6|-\|/-| 
+Fix null-reference exception on failed mod upgrade |-\|/-| 2017-11-12T17:44:09Z Closed pull request |-\|/-| 2183 +10 −7 cs 2|-\|/-| 
+Cleanup project |-\|/-| 2017-11-15T09:42:58Z Merged pull request |-\|/-| 2182 +261 −911 gitattributes gitignore config csproj md sln 8|-\|/-| 
+Remove unnecessary using directives |-\|/-| 2017-11-14T08:54:23Z Merged pull request |-\|/-| 2181 +29 −123 cs 26|-\|/-| 
+Purge 6 MB of bloat from `registry.json` |-\|/-| 2017-11-10T04:19:20Z Merged pull request |-\|/-| 2179 +35 −29 cs 3|-\|/-| 
+Create text UI inspired by Turbo Vision |-\|/-| 2017-12-07T10:53:20Z Merged pull request |-\|/-| 2177 +7,434 −13 sln cs csproj config 8|-\|/-| 
+Clean up registry lock file after parse failure |-\|/-| 2017-11-06T09:15:31Z Merged pull request |-\|/-| 2175 +10 −1 cs 1|-\|/-| 
+Fix schema validation errors |-\|/-| 2017-11-03T19:46:56Z Merged pull request |-\|/-| 2173 +8 −8 schema 1|-\|/-| 
+Minor spelling and formatting clean-up |-\|/-| 2017-11-04T06:48:16Z Merged pull request |-\|/-| 2172 +63 −65 schema cs 18|-\|/-| 
+Add include_only fields |-\|/-| 2017-11-02T23:15:48Z Merged pull request |-\|/-| 2170 +136 −32 schema cs md 4|-\|/-| 
+Establish a .gitattributes file |-\|/-| 2017-11-02T23:25:06Z Merged pull request |-\|/-| 2169 +379 −315 gitattributes sln 2|-\|/-| 
+Move AskForAutoUpdates dialog to centre of screen |-\|/-| 2017-11-03T01:15:04Z Merged pull request |-\|/-| 2165 +1 −0 cs 1|-\|/-| 
+Simplify IUser |-\|/-| 2017-10-27T02:38:14Z Merged pull request |-\|/-| 2163 +21 −81 cs 5|-\|/-| 
+Adds CC-BY-ND-4.0 to schema |-\|/-| 2017-10-23T21:50:05Z Merged pull request |-\|/-| 2160 +1 −0 schema 1|-\|/-| 
+Build Update |-\|/-| 2017-10-23T04:08:08Z Merged pull request |-\|/-| 2158 +117 −55 yml csproj config sln cs build 16|-\|/-| 
+Change Icon on FilterTool Button to something filter-y |-\|/-| 2017-10-27T02:25:31Z Merged pull request |-\|/-| 2156 +37 −22 csproj cs resx png 5|-\|/-| 
+Permanent fix for UpdateCol build errors |-\|/-| 2017-10-24T10:09:40Z Closed pull request |-\|/-| 2153 +1 −1 cs 1|-\|/-| 
+Add skip_deploy to GitHub release deploy provider |-\|/-| 2017-10-18T03:56:44Z Merged pull request |-\|/-| 2151 +2 −1 yml 1|-\|/-| 
+Revert "Merge #1929 Allow uninstall of incompatible mods in GUI" |-\|/-| 2017-10-17T07:15:54Z Merged pull request |-\|/-| 2150 +82 −84 md cs 4|-\|/-| 
+Update de-indexing.md |-\|/-| 2017-10-16T21:27:24Z Closed pull request |-\|/-| 2147 +5 −3 md 0|-\|/-| 
+Improve exceptions and error messages |-\|/-| 2017-10-16T00:18:55Z Merged pull request |-\|/-| 2144 +53 −20 cs 6|-\|/-| 
+Fix search box tab order (fixes #2007) |-\|/-| 2017-10-15T21:48:49Z Merged pull request |-\|/-| 2141 +24 −24 cs 1|-\|/-| 
+Check for stale lock files (fixes #2075) |-\|/-| 2017-10-15T22:20:21Z Merged pull request |-\|/-| 2139 +62 −3 cs 1|-\|/-| 
+Fix crash on startup (fixes #2134) |-\|/-| 2017-10-14T22:39:50Z Merged pull request |-\|/-| 2138 +4 −2 cs 2|-\|/-| 
+Fix exception installing some mods (fixes #2135) |-\|/-| 2017-10-14T22:32:42Z Merged pull request |-\|/-| 2137 +1 −1 cs 1|-\|/-| 
+Quit on ctrl-q and alt-f,x |-\|/-| 2017-10-14T12:27:09Z Merged pull request |-\|/-| 2132 +2 −1 cs 1|-\|/-| 
+Loop to find max KSP version instead of assuming ordering |-\|/-| 2017-10-14T12:11:56Z Merged pull request |-\|/-| 2131 +68 −32 cs 5|-\|/-| 
+Add all 1.3.1 builds |-\|/-| 2017-10-07T07:38:26Z Merged pull request |-\|/-| 2128 +6 −1 json 1|-\|/-| 
+Add test to cover missing directory entries |-\|/-| 2017-10-04T07:58:04Z Merged pull request |-\|/-| 2125 +23 −2 cs zip 2|-\|/-| 
+Perform directory root comparison in case-insensitive way |-\|/-| 2017-10-07T22:05:08Z Merged pull request |-\|/-| 2122 +25 −2 cs 3|-\|/-| 
+Fix build.ps1 script failing when spaces exist in source path |-\|/-| 2017-10-07T21:45:58Z Merged pull request |-\|/-| 2121 +5 −5 ps1 1|-\|/-| 
+Check grandparent+ directories for find and find_regexp |-\|/-| 2017-10-03T11:22:09Z Merged pull request |-\|/-| 2120 +28 −38 cs 1|-\|/-| 
+Add package download URL as clickable link in metadata section |-\|/-| 2017-10-05T01:43:04Z Closed pull request |-\|/-| 2119 +160 −95 0|-\|/-| 
+Expand .gitignore to handle packages in subdirectories and build output |-\|/-| 2017-10-07T22:08:02Z Merged pull request |-\|/-| 2116 +26 −1 gitignore 1|-\|/-| 
+Handle cases where there are no available_modules but there are installed_modules |-\|/-| 2018-01-05T07:39:56Z Closed pull request |-\|/-| 2115 +8 −9 cs 1|-\|/-| 
+Fix crash in "ckan available" with curly braces in mod name |-\|/-| 2017-09-13T22:34:15Z Merged pull request |-\|/-| 2111 +1 −1 cs 1|-\|/-| 
+Fix forum thread link |-\|/-| 2017-08-12T03:58:41Z Merged pull request |-\|/-| 2103 +1 −1 md 0|-\|/-| 
+Update Forum Thread link to new thread |-\|/-| 2017-06-30T14:55:20Z Merged pull request |-\|/-| 2079 +1 −1 cs 1|-\|/-| 
+Move downloads outside of gui transaction |-\|/-| 2017-08-26T10:45:55Z Merged pull request |-\|/-| 2073 +157 −91 csproj cs 5|-\|/-| 
+Fix Chicken bits from #2023 |-\|/-| 2017-05-28T02:59:34Z Merged pull request |-\|/-| 2058 +1 −1 cs 1|-\|/-| 
+Fixes #2047 |-\|/-| 2017-05-28T02:59:34Z Closed pull request |-\|/-| 2057 +1 −8 cs 1|-\|/-| 
+Push all 1.3 builds |-\|/-| 2017-05-26T02:10:53Z Merged pull request |-\|/-| 2056 +15 −1 json 1|-\|/-| 
+Canonicalize non-raw GitHub URIs |-\|/-| 2017-05-27T04:13:03Z Merged pull request |-\|/-| 2054 +65 −4 cs 1|-\|/-| 
+Update build |-\|/-| 2017-05-16T21:58:35Z Merged pull request |-\|/-| 2050 +68 −67 yml sln csproj config build cake ps1 12|-\|/-| 
+Mono 5.0.0 |-\|/-| 2017-05-15T15:17:11Z Merged pull request |-\|/-| 2049 +4 −3 yml cake 2|-\|/-| 
+Convert spaces to %20 in Curse URLs |-\|/-| 2017-05-04T10:06:16Z Merged pull request |-\|/-| 2041 +1 −1 cs 1|-\|/-| 
+Add spec/schema to implement mod tags |-\|/-| 2017-10-20T06:16:22Z Merged pull request |-\|/-| 2034 +41 −0 schema md 1|-\|/-| 
+Update build |-\|/-| 2017-04-05T21:08:15Z Merged pull request |-\|/-| 2028 +126 −112 yml csproj config DotSettings cs 18|-\|/-| 
+Enable checking against a schema |-\|/-| 2019-07-21T15:54:02Z Closed pull request |-\|/-| 2027 +478 −0 csproj 1|-\|/-| 
+Switch to all C# native mod downloads |-\|/-| 2017-04-03T03:04:43Z Merged pull request |-\|/-| 2023 +4 −2 gitignore cs 2|-\|/-| 
+WIP -  GUI fixes  |-\|/-| 2017-03-17T14:13:19Z Closed pull request |-\|/-| 2018 +378 −366 0|-\|/-| 
+Always provide a string error message for ModuleNotFoundKraken |-\|/-| 2017-09-27T20:49:41Z Closed pull request |-\|/-| 1993 +1 −1 cs 1|-\|/-| 
+Docker updates to support cake! |-\|/-| 2017-01-20T15:17:53Z Merged pull request |-\|/-| 1988 +922 −369,853 gitignore yml csproj cs sh md sln 9|-\|/-| 
+WIP: Handle InconsistentKraken from RelationshipResolver in GUI |-\|/-| 2017-12-29T09:32:43Z Closed pull request |-\|/-| 1971 +37 −5 cs csproj 3|-\|/-| 
+Fix for black rows in GUI on conflicting mods. |-\|/-| 2016-12-31T02:59:35Z Merged pull request |-\|/-| 1968 +2 −2 cs 1|-\|/-| 
+Remove non-functioning code on available command |-\|/-| 2017-01-12T18:49:04Z Merged pull request |-\|/-| 1966 +46 −25 cs csproj 3|-\|/-| 
+Introducing IGameComparatorExemptions in order to waive checking version compatibility for select modules. (Take 2) |-\|/-| 2017-01-05T04:41:28Z Closed pull request |-\|/-| 1965 +79 −6 csproj cs 4|-\|/-| 
+Introducing IGameComparatorExemptions in order to waive checking version compatibility for select modules. |-\|/-| 2016-12-24T01:12:30Z Closed pull request |-\|/-| 1964 +76 −2 cs 3|-\|/-| 
+display all mod versions |-\|/-| 2016-12-18T10:12:22Z Merged pull request |-\|/-| 1961 +1,161 −536 cs csproj 7|-\|/-| 
+Support modifying KSP compatibility on the command line |-\|/-| 2016-12-17T04:19:07Z Merged pull request |-\|/-| 1959 +181 −2 cs csproj 6|-\|/-| 
+Add IntersectWith method to KspVersionRange |-\|/-| 2016-12-16T22:38:40Z Merged pull request |-\|/-| 1958 +329 −1 cs 3|-\|/-| 
+Select compatible KSP versions |-\|/-| 2016-12-16T22:38:40Z Merged pull request |-\|/-| 1957 +1,464 −353 cs csproj 16|-\|/-| 
+Change name of Registry lock file |-\|/-| 2016-11-27T08:01:56Z Merged pull request |-\|/-| 1944 +1 −1 cs 1|-\|/-| 
+Hide Epochs in modlist by default |-\|/-| 2016-12-10T22:56:24Z Merged pull request |-\|/-| 1942 +59 −26 cs 6|-\|/-| 
+Use OpenFileDialog instead of FolderBrowserDialog in instance selector |-\|/-| 2016-12-27T09:10:28Z Merged pull request |-\|/-| 1939 +66 −50 cs 1|-\|/-| 
+Various spelling and formatting fixes |-\|/-| 2016-10-31T08:12:55Z Merged pull request |-\|/-| 1934 +22 −22 md 0|-\|/-| 
+Update UI state when download cache is cleared |-\|/-| 2016-10-26T07:00:09Z Merged pull request |-\|/-| 1930 +30 −9 cs 4|-\|/-| 
+Allow uninstall of incompatible mods in GUI |-\|/-| 2017-10-13T19:00:17Z Merged pull request |-\|/-| 1929 +82 −80 cs 4|-\|/-| 
+Use SystemColors to source various UI colors |-\|/-| 2016-12-17T04:08:53Z Merged pull request |-\|/-| 1926 +12 −12 cs 2|-\|/-| 
+Allow user to specify build map URL |-\|/-| 2019-01-04T01:48:54Z Closed pull request |-\|/-| 1925 +244 −80 cs 3|-\|/-| 
+Fix default logging on fallback when no XML file |-\|/-| 2016-10-20T21:06:23Z Merged pull request |-\|/-| 1920 +2 −0 cs 1|-\|/-| 
+Add regexp second test for vref filespecs |-\|/-| 2016-10-26T01:35:27Z Merged pull request |-\|/-| 1919 +3 −1 cs 1|-\|/-| 
+Fix TargetInvocationException and improve mod conflict GUI test |-\|/-| 2016-10-08T13:18:17Z Merged pull request |-\|/-| 1908 +14 −14 cs 3|-\|/-| 
+Make sure we're updating the build mappings on repository update |-\|/-| 2016-09-25T10:01:35Z Merged pull request |-\|/-| 1906 +5 −0 cs 1|-\|/-| 
+Use maximum of buildID and buildID64 if both are available |-\|/-| 2016-09-15T20:01:35Z Merged pull request |-\|/-| 1900 +80 −4 cs json 3|-\|/-| 
+Use buildID64.txt in preference to buildID.txt if it exists. |-\|/-| 2016-09-15T19:47:40Z Closed pull request |-\|/-| 1899 +10 −1 cs json 2|-\|/-| 
+Add Curse to resources |-\|/-| 2016-09-15T08:38:47Z Merged pull request |-\|/-| 1897 +68 −15 schema cs md 8|-\|/-| 
+Reduce MinimumSize for main window to 1280x700 |-\|/-| 2016-09-14T19:44:59Z Merged pull request |-\|/-| 1893 +2 −18 cs 2|-\|/-| 
+Add Angel-125 to opt-out list |-\|/-| 2016-09-08T00:34:13Z Merged pull request |-\|/-| 1890 +2 −2 md 0|-\|/-| 
+WIP: Implement a "Replaced by" relationship |-\|/-| 2019-02-10T03:16:44Z Closed pull request |-\|/-| 1888 +868 −181 schema cs csproj 6|-\|/-| 
+Add unit test for "sort by max version" GUI crash |-\|/-| 2016-09-05T23:38:15Z Merged pull request |-\|/-| 1887 +29 −11 cs 1|-\|/-| 
+Handle more meta changes |-\|/-| 2016-09-04T14:37:07Z Closed pull request |-\|/-| 1885 +271 −140 cs 3|-\|/-| 
+Add "X" icon to filter text boxes that clears the control |-\|/-| 2016-09-05T23:50:51Z Merged pull request |-\|/-| 1883 +304 −6 csproj cs resx png 8|-\|/-| 
+Fix GUI exceptions when installing/uninstalling after sorting by KSP max version |-\|/-| 2016-09-02T22:11:42Z Merged pull request |-\|/-| 1882 +129 −17 cs csproj 4|-\|/-| 
+Add log4net.xml, refactor logging init and log to file by default |-\|/-| 2016-10-08T12:54:15Z Merged pull request |-\|/-| 1881 +109 −8 csproj cs xml md 11|-\|/-| 
+Fix Windows-only NullReferenceException and add more ModuleInstaller tests |-\|/-| 2016-09-03T22:39:13Z Merged pull request |-\|/-| 1880 +202 −28 csproj cs 6|-\|/-| 
+Update SharpZip dependency and remove old Newtonsoft.Json |-\|/-| 2016-09-18T22:32:34Z Closed pull request |-\|/-| 1879 +124 −354,484 yml csproj config nupkg xml dll txt 14|-\|/-| 
+Replace deprecated mozroots command with cert-sync for Travis |-\|/-| 2016-08-31T19:12:37Z Closed pull request |-\|/-| 1878 +2 −2 yml 1|-\|/-| 
+Parse "action" argument to cmdline case-insensitively |-\|/-| 2016-09-02T20:43:16Z Closed pull request |-\|/-| 1877 +101 −106 cs 6|-\|/-| 
+Remove empty directories |-\|/-| 2016-08-29T16:17:01Z Merged pull request |-\|/-| 1873 +60,183 −60,034 cs nfs000000000671011200000004 gz zip txt 7|-\|/-| 
+Fix issue where CKAN would crash after installing mods if you are sorting by KSP version. |-\|/-| 2016-09-02T22:11:42Z Closed pull request |-\|/-| 1866 +16 −2 cs 1|-\|/-| 
+KSPVersionLabel sizing - Cherry-picked from #1837 by Telanor |-\|/-| 2016-08-04T23:59:11Z Merged pull request |-\|/-| 1854 +2 −2 cs 1|-\|/-| 
+Update CKAN.schema "as" regexp |-\|/-| 2016-08-08T09:39:53Z Merged pull request |-\|/-| 1853 +1 −1 schema 1|-\|/-| 
+Add report issue link to Help menu in GUI (closes #1502) |-\|/-| 2016-08-04T02:43:00Z Closed pull request |-\|/-| 1852 +295 −206 0|-\|/-| 
+Code style alignment |-\|/-| 2016-08-04T20:12:13Z Closed pull request |-\|/-| 1851 +5,296 −61,863 config csproj cs 11|-\|/-| 
+Fix FIPS-mode exceptions on Windows |-\|/-| 2016-08-03T05:25:07Z Merged pull request |-\|/-| 1850 +4 −3 cs config 4|-\|/-| 
+Fix variable names and doc wording |-\|/-| 2016-08-04T12:42:18Z Merged pull request |-\|/-| 1849 +755 −648 md cs 5|-\|/-| 
+Create ~/.local/share/applications/ if it doesn't exist (Linux) |-\|/-| 2019-12-29T06:44:12Z Merged pull request |-\|/-| 1848 +13 −11 cs 1|-\|/-| 
+Replace \n with \r\n and replace CKAN-meta/issues links |-\|/-| 2016-08-01T22:34:18Z Merged pull request |-\|/-| 1846 +92 −92 cs 13|-\|/-| 
+Set enforceFIPSPolicy to false |-\|/-| 2016-08-02T14:20:32Z Closed pull request |-\|/-| 1845 +9 −1 gitignore config 2|-\|/-| 
+add backward+forward navigation buttons to the UI |-\|/-| 2016-07-30T15:00:36Z Merged pull request |-\|/-| 1841 +751 −13 csproj cs 5|-\|/-| 
+GUI fixes and solution release/debug fix |-\|/-| 2016-08-04T14:59:38Z Closed pull request |-\|/-| 1837 +102 −65 sln csproj cs 8|-\|/-| 
+Add Support for locking the registry |-\|/-| 2016-08-29T16:27:03Z Merged pull request |-\|/-| 1828 +61,023 −60,737 md cs 9|-\|/-| 
+Update Changelog for 1.18.1 release |-\|/-| 2016-07-13T05:41:41Z Merged pull request |-\|/-| 1826 +4 −3 md 0|-\|/-| 
+Travis/Build: Prevent mozroots from asking for human input |-\|/-| 2016-07-13T04:38:55Z Merged pull request |-\|/-| 1825 +1 −1 yml 1|-\|/-| 
+Update About dialog, point  to new CKAN thread on forums |-\|/-| 2016-07-13T04:52:03Z Merged pull request |-\|/-| 1824 +1 −1 cs 1|-\|/-| 
+Add work in #1784 |-\|/-| 2016-07-08T16:03:21Z Merged pull request |-\|/-| 1816 +1 −0 md 0|-\|/-| 
+Ignore ksp instances if we are launching the gui anyway |-\|/-| 2016-07-13T05:13:58Z Merged pull request |-\|/-| 1809 +1 −1 cs 1|-\|/-| 
+Remove myself from opt-out |-\|/-| 2016-07-01T22:12:04Z Merged pull request |-\|/-| 1804 +0 −1 md 0|-\|/-| 
+Allow foss delisting |-\|/-| 2016-06-27T13:29:54Z Merged pull request |-\|/-| 1795 +16 −0 md 0|-\|/-| 
+Workaround string.Format() bug in old Mono versions |-\|/-| 2016-06-27T14:42:44Z Merged pull request |-\|/-| 1784 +6 −1 yml cs 2|-\|/-| 
+Fix travis failing in third-party failures |-\|/-| 2016-06-19T11:23:27Z Merged pull request |-\|/-| 1782 +3 −2 yml cs 2|-\|/-| 
+Cleanse broken KSP version numbers |-\|/-| 2016-06-19T08:06:49Z Merged pull request |-\|/-| 1781 +9 −0 cs 2|-\|/-| 
+Column rename "Update" to "UpdateCol" in GUI |-\|/-| 2016-06-19T08:25:26Z Merged pull request |-\|/-| 1776 +7 −8 cs 1|-\|/-| 
+Add downloads counter to readme |-\|/-| 2016-08-02T14:15:31Z Merged pull request |-\|/-| 1775 +3 −1 md 0|-\|/-| 
+Update Spec.md |-\|/-| 2016-06-04T17:40:10Z Merged pull request |-\|/-| 1774 +5 −0 md 0|-\|/-| 
+Add LastModified to netkan, registry, and GUI |-\|/-| 2016-10-17T12:27:15Z Closed pull request |-\|/-| 1773 +88 −5 md schema cs csproj 11|-\|/-| 
+Remove unused field |-\|/-| 2016-06-05T06:10:10Z Closed pull request |-\|/-| 1772 +0 −1 cs 1|-\|/-| 
+Update Spec.md |-\|/-| 2016-06-03T23:04:18Z Merged pull request |-\|/-| 1771 +6 −8 md 0|-\|/-| 
+JSON Schema in README |-\|/-| 2016-08-02T15:46:59Z Merged pull request |-\|/-| 1769 +3 −2 md 0|-\|/-| 
+State requirements for metanetkans |-\|/-| 2016-05-25T18:31:04Z Merged pull request |-\|/-| 1753 +3 −1 md 0|-\|/-| 
+Add download hashes to registry |-\|/-| 2016-06-19T08:43:24Z Merged pull request |-\|/-| 1752 +20 −1 cs 3|-\|/-| 
+Special comment on public-domain license in Spec.md |-\|/-| 2016-05-30T11:55:09Z Closed pull request |-\|/-| 1750 +1 −0 md 0|-\|/-| 
+More clearly define how users and mod authors can contribute |-\|/-| 2016-05-23T04:38:54Z Merged pull request |-\|/-| 1748 +57 −26 md 0|-\|/-| 
+Added Docker support. |-\|/-| 2016-06-19T10:32:12Z Closed pull request |-\|/-| 1747 +2,587 −649 gitignore md cs csproj 6|-\|/-| 
+Update changelog with missing info, add unlicense to spec |-\|/-| 2016-05-23T13:01:21Z Merged pull request |-\|/-| 1744 +5 −3 md 0|-\|/-| 
+Force either `ksp_version` or `ksp_version_max` to be included in .ckans to reduce frequency of promiscuous mods |-\|/-| 2016-05-22T17:29:40Z Closed pull request |-\|/-| 1742 +4 −0 schema 1|-\|/-| 
+I always screw up rebases |-\|/-| 2016-05-20T15:35:20Z Merged pull request |-\|/-| 1740 +1,267 −999 yml md schema cs 8|-\|/-| 
+Add Unlicense |-\|/-| 2016-05-19T04:51:04Z Merged pull request |-\|/-| 1737 +3 −1 schema cs 2|-\|/-| 
+Remove extraneous comma from spec |-\|/-| 2016-05-17T16:37:07Z Merged pull request |-\|/-| 1736 +2 −2 md 0|-\|/-| 
+Fix unit of measure for download speed |-\|/-| 2016-05-15T14:31:06Z Merged pull request |-\|/-| 1734 +5 −4 md cs 3|-\|/-| 
+Relationship changes should prompt reinstall |-\|/-| 2016-09-04T14:38:09Z Closed pull request |-\|/-| 1730 +275 −121 cs 3|-\|/-| 
+install as |-\|/-| 2016-05-17T03:29:03Z Merged pull request |-\|/-| 1728 +72 −10 md schema cs 5|-\|/-| 
+GitHubTransformer shouldn't add empty data |-\|/-| 2016-05-10T18:49:42Z Merged pull request |-\|/-| 1726 +6 −2 cs 1|-\|/-| 
+GithubTransformer Enhancements |-\|/-| 2016-05-10T01:38:04Z Merged pull request |-\|/-| 1723 +51 −18 csproj cs 6|-\|/-| 
+Add ksp_version_strict to property sort order |-\|/-| 2016-05-09T15:03:14Z Merged pull request |-\|/-| 1722 +12 −11 cs 1|-\|/-| 
+Reuse changeset logic for .ckan import |-\|/-| 2019-12-29T06:34:26Z Closed pull request |-\|/-| 1720 +532 −257 0|-\|/-| 
+Fixed typo |-\|/-| 2016-05-07T23:10:02Z Merged pull request |-\|/-| 1718 +2 −2 cs 1|-\|/-| 
+Added option to switch to another .ckan |-\|/-| 2016-09-03T13:26:54Z Closed pull request |-\|/-| 1717 +426 −262 0|-\|/-| 
+Remove Mono 3.2.8 from Mono testing |-\|/-| 2016-05-17T02:39:46Z Merged pull request |-\|/-| 1715 +0 −1 yml 1|-\|/-| 
+Make 64-bit client the default in windows |-\|/-| 2016-05-10T13:17:17Z Merged pull request |-\|/-| 1711 +2 −1 md cs 1|-\|/-| 
+[PROPOSAL] Add Download Attribute Transformer |-\|/-| 2016-05-05T02:01:43Z Merged pull request |-\|/-| 1710 +280 −20 md schema csproj cs bin gz 10|-\|/-| 
+Update CHANGELOG.md |-\|/-| 2016-05-03T11:51:48Z Merged pull request |-\|/-| 1706 +3 −0 md 0|-\|/-| 
+Added Docker support |-\|/-| 2016-05-22T16:29:17Z Closed pull request |-\|/-| 1705 +50 −186 cs Dockerfile csproj yml 8|-\|/-| 
+Quote path to executable in URL handler .desktop file |-\|/-| 2016-06-19T11:12:45Z Merged pull request |-\|/-| 1704 +1 −1 cs 1|-\|/-| 
+[PROPOSAL] Add download hash to Metadata |-\|/-| 2016-05-04T14:38:10Z Closed pull request |-\|/-| 1703 +253 −1 md schema csproj cs 10|-\|/-| 
+Support reading remote AVC version files |-\|/-| 2016-05-03T03:26:15Z Merged pull request |-\|/-| 1701 +28 −0 cs 2|-\|/-| 
+Avoid unexpected null reference exception |-\|/-| 2016-05-03T11:43:33Z Merged pull request |-\|/-| 1700 +13 −3 cs 1|-\|/-| 
+HttpTransformer Resolves Redirects |-\|/-| 2016-05-02T13:52:02Z Merged pull request |-\|/-| 1696 +85 −24 cs 3|-\|/-| 
+Fixed IOException "Directory is not empty" errors in Test |-\|/-| 2016-09-04T02:58:19Z Closed pull request |-\|/-| 1694 +29 −4 cs 7|-\|/-| 
+Added AutoUpdater progress |-\|/-| 2016-07-13T03:55:31Z Closed pull request |-\|/-| 1692 +268 −162 cs csproj 6|-\|/-| 
+GrasComparator: regard 1.1.1 and 1.1.2 as safe |-\|/-| 2016-09-03T13:52:32Z Closed pull request |-\|/-| 1690 +6 −0 cs 1|-\|/-| 
+Omnipresent VersionedOverrideTransformers |-\|/-| 2016-04-28T08:01:03Z Merged pull request |-\|/-| 1684 +376 −196 md cs 18|-\|/-| 
+Update quotes.txt |-\|/-| 2016-04-16T00:39:31Z Merged pull request |-\|/-| 1665 +15 −0 txt 0|-\|/-| 
+Add Asterisk to legend in CLI list command |-\|/-| 2016-06-19T13:15:18Z Merged pull request |-\|/-| 1664 +2 −1 cs 1|-\|/-| 
+Metapackage schema |-\|/-| 2016-04-15T19:48:23Z Merged pull request |-\|/-| 1662 +22 −3 schema md 1|-\|/-| 
+Revert "Add `kind` to the spec" |-\|/-| 2016-04-12T15:16:47Z Merged pull request |-\|/-| 1659 +2 −17 schema md 1|-\|/-| 
+Better KSP listing in CLI |-\|/-| 2016-06-19T13:20:02Z Merged pull request |-\|/-| 1656 +56 −6 md cs 1|-\|/-| 
+SpaceDock ksp_version is now game_version |-\|/-| 2016-04-09T12:33:09Z Merged pull request |-\|/-| 1655 +2 −0 cs 1|-\|/-| 
+Docker support added to CKAN. |-\|/-| 2016-05-03T11:05:27Z Closed pull request |-\|/-| 1652 +475 −207 md schema cs Dockerfile 23|-\|/-| 
+Compare operation should check for negative/positive not -1/+1 |-\|/-| 2016-04-09T16:40:58Z Merged pull request |-\|/-| 1649 +4 −4 cs 2|-\|/-| 
+Catch ValueErrors as in KSP-CKAN/CKAN-meta#1035 |-\|/-| 2016-04-09T16:37:40Z Merged pull request |-\|/-| 1648 +5 −0 py 1|-\|/-| 
+Support reading BuildIDs |-\|/-| 2016-06-02T08:02:18Z Merged pull request |-\|/-| 1645 +2,464 −607 gitignore md csproj cs 8|-\|/-| 
+Containerized! |-\|/-| 2016-04-06T19:19:04Z Closed pull request |-\|/-| 1643 +25 −0 Dockerfile yml sh 3|-\|/-| 
+Add "Filter by description" to GUI |-\|/-| 2016-03-31T11:50:54Z Merged pull request |-\|/-| 1632 +63 −6 cs 3|-\|/-| 
+Change Mod Info window label for repository |-\|/-| 2016-03-13T05:43:28Z Merged pull request |-\|/-| 1627 +1 −1 cs 1|-\|/-| 
+Fix 'directory' typo |-\|/-| 2016-03-13T01:37:00Z Merged pull request |-\|/-| 1624 +9 −9 cs 2|-\|/-| 
+Fix a minimal spelling error |-\|/-| 2016-03-13T00:31:50Z Merged pull request |-\|/-| 1623 +1 −1 cs 1|-\|/-| 
+SpaceDock Multiple Authors |-\|/-| 2016-02-29T02:24:51Z Merged pull request |-\|/-| 1620 +47 −1 md csproj cs 4|-\|/-| 
+Remove KerbalStuff |-\|/-| 2016-03-13T10:05:32Z Merged pull request |-\|/-| 1615 +69 −686 schema cs csproj 11|-\|/-| 
+Extract the GitHub repository name |-\|/-| 2016-08-16T22:39:28Z Merged pull request |-\|/-| 1613 +27 −1 cs 1|-\|/-| 
+Removed kerbalstuff fetch info |-\|/-| 2016-02-28T03:53:30Z Closed pull request |-\|/-| 1611 +0 −19 md 0|-\|/-| 
+Make "CKAN favourites list" the default export option (no hard version requirements) |-\|/-| 2016-03-13T00:47:38Z Merged pull request |-\|/-| 1609 +2 −2 cs 1|-\|/-| 
+Add Curse as a $kref source |-\|/-| 2016-08-30T07:21:50Z Closed pull request |-\|/-| 1608 +747 −1 cs csproj 7|-\|/-| 
+Update quotes.txt with more quotes |-\|/-| 2016-03-04T23:10:56Z Merged pull request |-\|/-| 1605 +36 −0 txt 0|-\|/-| 
+WIP: Feature/torrent |-\|/-| 2019-12-29T06:36:28Z Closed pull request |-\|/-| 1604 +511 −22 gitignore nupkg dll csproj cs 8|-\|/-| 
+Housekeeping |-\|/-| 2016-02-22T19:32:44Z Merged pull request |-\|/-| 1602 +2 −10 cs 3|-\|/-| 
+Extract the GitHub repository name |-\|/-| 2016-02-25T03:36:49Z Closed pull request |-\|/-| 1601 +124 −127 md schema cs 4|-\|/-| 
+Update ISSUE_TEMPLATE.md |-\|/-| 2016-02-18T23:50:41Z Merged pull request |-\|/-| 1598 +9 −1 md 0|-\|/-| 
+Add `kind` to the spec |-\|/-| 2016-04-09T16:51:16Z Merged pull request |-\|/-| 1597 +17 −2 schema md 1|-\|/-| 
+Create an issue template |-\|/-| 2016-02-18T11:55:17Z Merged pull request |-\|/-| 1596 +5 −0 md 0|-\|/-| 
+Update changelog with recent changes. |-\|/-| 2016-02-17T22:32:20Z Merged pull request |-\|/-| 1594 +13 −0 md 0|-\|/-| 
+Support SpaceDock |-\|/-| 2016-02-17T22:42:06Z Merged pull request |-\|/-| 1593 +623 −8 md schema cs csproj 11|-\|/-| 
+Added support for spacedock to netkan |-\|/-| 2016-02-17T20:18:14Z Closed pull request |-\|/-| 1592 +564 −1 schema csproj cs 8|-\|/-| 
+Use Cake for build and overhaul/cleanup build |-\|/-| 2017-01-21T08:27:41Z Merged pull request |-\|/-| 1589 +954 −369,873 gitignore yml csproj cs sh md sln 9|-\|/-| 
+Allow NetKAN to use GitHub source archives as download sources |-\|/-| 2016-02-21T01:32:23Z Merged pull request |-\|/-| 1587 +52 −82 cs 6|-\|/-| 
+Fix #1548 - general case of switching back to tab automatically |-\|/-| 2016-02-16T23:50:45Z Merged pull request |-\|/-| 1584 +35 −6 csproj cs 5|-\|/-| 
+Fix #1582 - general case of switching back to tab automatically |-\|/-| 2016-02-14T04:08:29Z Closed pull request |-\|/-| 1583 +2 −1 cs 3|-\|/-| 
+minor housekeeping |-\|/-| 2016-02-14T20:36:37Z Merged pull request |-\|/-| 1582 +2 −3 cs 3|-\|/-| 
+Update Spec with NetKAN information |-\|/-| 2016-02-16T18:14:19Z Merged pull request |-\|/-| 1581 +181 −70 md 0|-\|/-| 
+[NetKAN] Tolerate Malformed Author URLs from KS/SD |-\|/-| 2016-02-25T03:28:33Z Merged pull request |-\|/-| 1580 +54 −27 cs 4|-\|/-| 
+Changed schema to enforce structure of install direcitves |-\|/-| 2016-04-10T09:47:44Z Merged pull request |-\|/-| 1578 +11 −1 schema 1|-\|/-| 
+Added include_only and include_only_regexp |-\|/-| 2017-11-02T23:15:48Z Closed pull request |-\|/-| 1577 +93 −3 schema cs 4|-\|/-| 
+Fix incorrect button text for "Not installed" filter |-\|/-| 2016-02-04T16:40:49Z Merged pull request |-\|/-| 1573 +1 −1 cs 1|-\|/-| 
+Fixing version sorting of _ vs . |-\|/-| 2016-02-22T21:40:48Z Merged pull request |-\|/-| 1554 +75 −2 cs 2|-\|/-| 
+CKAN.schema: Update targeted ship installs. |-\|/-| 2015-12-13T11:58:12Z Merged pull request |-\|/-| 1539 +7 −1 schema 1|-\|/-| 
+Restore old displayYesNo instead of setting to null |-\|/-| 2016-01-31T11:44:12Z Merged pull request |-\|/-| 1538 +12 −3 cs 2|-\|/-| 
+Configure FileInitDataParser to omit spaces around '=' when writing config files (#1498) |-\|/-| 2015-12-13T01:50:05Z Merged pull request |-\|/-| 1536 +1 −0 cs 1|-\|/-| 
+Fix typo bool->boolean |-\|/-| 2015-12-03T22:28:32Z Merged pull request |-\|/-| 1528 +1 −1 schema 1|-\|/-| 
+Rebuild Ships Directory on Load |-\|/-| 2015-12-13T03:33:38Z Merged pull request |-\|/-| 1525 +16 −0 cs 2|-\|/-| 
+Better Jenkins Support |-\|/-| 2015-12-03T11:07:21Z Merged pull request |-\|/-| 1512 +138 −120 md cs csproj 8|-\|/-| 
+Bring the schema up to date |-\|/-| 2015-10-27T09:28:34Z Merged pull request |-\|/-| 1503 +5 −0 schema 1|-\|/-| 
+AvailableModule: Documentation and spacing fixes only. |-\|/-| 2015-10-20T12:28:28Z Merged pull request |-\|/-| 1500 +12 −5 cs 1|-\|/-| 
+Add fuzzy versioning to the CKAN. |-\|/-| 2015-12-13T05:50:45Z Merged pull request |-\|/-| 1499 +14,266 −86 schema csproj cs 6|-\|/-| 
+Sort Conflicts Relationship |-\|/-| 2015-10-20T04:26:51Z Merged pull request |-\|/-| 1496 +6 −3 md cs 1|-\|/-| 
+Improved steam detection with guards |-\|/-| 2015-10-21T04:31:31Z Merged pull request |-\|/-| 1481 +60 −10 md cs 1|-\|/-| 
+Fixed OS X cmdline not finding a valid KSP install |-\|/-| 2015-09-25T16:12:36Z Merged pull request |-\|/-| 1480 +5 −6 cs 1|-\|/-| 
+fix a NullReference when opening a .ckan |-\|/-| 2015-09-27T06:36:16Z Merged pull request |-\|/-| 1478 +5 −0 cs 1|-\|/-| 
+Add identifier to metadata panel |-\|/-| 2015-09-24T04:35:31Z Merged pull request |-\|/-| 1476 +36 −4 md cs 2|-\|/-| 
+allowed searching by mod identifier |-\|/-| 2015-09-27T08:37:59Z Merged pull request |-\|/-| 1475 +2 −1 cs 1|-\|/-| 
+*chucklesnort* adding for posterity |-\|/-| 2015-09-24T01:14:28Z Merged pull request |-\|/-| 1473 +7 −0 txt 0|-\|/-| 
+added the mod's identifier to the metadata panel |-\|/-| 2015-09-23T20:32:34Z Closed pull request |-\|/-| 1470 +160 −130 0|-\|/-| 
+NullReferenceException opening .ckan file. |-\|/-| 2015-09-27T06:36:16Z Closed pull request |-\|/-| 1464 +8 −2 cs 1|-\|/-| 
+Change the displayed text of WaitTabPage |-\|/-| 2015-09-22T04:56:45Z Merged pull request |-\|/-| 1460 +2 −2 cs 2|-\|/-| 
+NetFileCache now caches the cache directory so you can cache while you cache. |-\|/-| 2015-09-16T04:54:01Z Merged pull request |-\|/-| 1454 +119 −17 cs 3|-\|/-| 
+AutoUpdate makes less calls, has better tests. |-\|/-| 2015-09-10T15:28:20Z Merged pull request |-\|/-| 1453 +151 −57 md cs 5|-\|/-| 
+Add logging to file |-\|/-| 2016-10-08T12:54:15Z Closed pull request |-\|/-| 1452 +177 −31 csproj config 17|-\|/-| 
+Virtual mods no longer enable the update box for mods they provide |-\|/-| 2015-09-27T09:10:49Z Merged pull request |-\|/-| 1449 +1 −1 cs 1|-\|/-| 
+Allow installation to the @thumbs folders |-\|/-| 2015-12-13T06:04:14Z Merged pull request |-\|/-| 1448 +13 −1 cs md 2|-\|/-| 
+New dependencies of upgraded mods are scheduled for install by the GUI |-\|/-| 2015-09-27T10:33:39Z Merged pull request |-\|/-| 1447 +1 −2 cs 1|-\|/-| 
+show progess of cache download |-\|/-| 2015-09-27T08:23:22Z Merged pull request |-\|/-| 1445 +6 −1 cs 1|-\|/-| 
+Improve Steam install detection |-\|/-| 2015-09-27T05:12:38Z Closed pull request |-\|/-| 1444 +59 −10 cs 1|-\|/-| 
+Handle double click on the contentTree |-\|/-| 2015-09-27T07:20:48Z Merged pull request |-\|/-| 1443 +42 −7 cs 3|-\|/-| 
+Merged CkanModule and Module to a single class |-\|/-| 2015-09-27T04:33:49Z Merged pull request |-\|/-| 1442 +273 −283 cs csproj 8|-\|/-| 
+Select full row |-\|/-| 2015-09-16T05:51:47Z Merged pull request |-\|/-| 1438 +3 −0 cs 1|-\|/-| 
+Fix a castexception when installing metapackage |-\|/-| 2015-09-07T12:55:43Z Merged pull request |-\|/-| 1436 +5 −4 cs 1|-\|/-| 
+Fixed protocol handler registration on linux (at least ubuntu) |-\|/-| 2015-09-27T06:59:57Z Merged pull request |-\|/-| 1434 +53 −34 cs 3|-\|/-| 
+The user is allowed to close ckan while applying a changeset |-\|/-| 2016-03-13T08:23:53Z Closed pull request |-\|/-| 1432 +5 −2 cs 1|-\|/-| 
+reordering of repos isn't weird anymore |-\|/-| 2015-09-01T07:19:19Z Merged pull request |-\|/-| 1431 +18 −8 cs 2|-\|/-| 
+Made the modlist searchable by abbrevation  |-\|/-| 2015-09-16T04:50:45Z Merged pull request |-\|/-| 1430 +10 −6 cs 3|-\|/-| 
+Don't show suggested/recommended for mods that can't be installed |-\|/-| 2016-08-16T23:01:34Z Merged pull request |-\|/-| 1427 +56 −54 cs 1|-\|/-| 
+Added a cached filter |-\|/-| 2015-09-16T05:45:54Z Merged pull request |-\|/-| 1426 +34 −6 cs 5|-\|/-| 
+WIP: show if mod was selected because of tmp in changeset page |-\|/-| 2019-12-29T06:35:51Z Closed pull request |-\|/-| 1425 +69 −21 cs 9|-\|/-| 
+WIP: changeset recreation redo |-\|/-| 2019-12-29T06:35:28Z Closed pull request |-\|/-| 1424 +80 −19 cs 7|-\|/-| 
+Added missing pr number |-\|/-| 2015-08-27T14:07:14Z Merged pull request |-\|/-| 1421 +1 −1 md 0|-\|/-| 
+GUI: Numerical columns can be sorted numerically |-\|/-| 2015-09-10T05:18:09Z Merged pull request |-\|/-| 1420 +55 −22 cs 1|-\|/-| 
+Set (de-)select mods checkbox to a more sensible value when processing recommends |-\|/-| 2015-08-24T16:34:36Z Merged pull request |-\|/-| 1417 +3 −1 cs 1|-\|/-| 
+NetKAN: Add support for `--version` diagnostic switch. |-\|/-| 2015-08-24T08:11:42Z Merged pull request |-\|/-| 1415 +14 −1 md cs 2|-\|/-| 
+Show why a mod was picked for a change |-\|/-| 2015-08-27T15:44:34Z Merged pull request |-\|/-| 1412 +246 −148 cs csproj 4|-\|/-| 
+Cache the result from the Autoupdate calls |-\|/-| 2015-09-10T08:29:13Z Closed pull request |-\|/-| 1410 +71 −60 cs 5|-\|/-| 
+Add a quotes/fortune file to the repo. |-\|/-| 2015-08-24T10:53:49Z Merged pull request |-\|/-| 1408 +16 −0 gitignore Makefile txt 2|-\|/-| 
+Fixed various typos and spacing errors. No code changes. |-\|/-| 2015-08-23T04:18:37Z Merged pull request |-\|/-| 1406 +10 −9 cs 2|-\|/-| 
+Don't remove empty ship folders on uninstall  |-\|/-| 2015-09-01T07:21:59Z Merged pull request |-\|/-| 1405 +56 −12 cs 2|-\|/-| 
+ckan --verbose" now starts the GUI with verbose debugging |-\|/-| 2015-08-23T10:51:57Z Merged pull request |-\|/-| 1403 +8 −0 cs 1|-\|/-| 
+Refreshing does not wipe the list of selected mods anymore |-\|/-| 2015-09-10T03:00:50Z Merged pull request |-\|/-| 1402 +31 −16 cs 1|-\|/-| 
+Show name and version of the mod we are (un)installing |-\|/-| 2015-09-01T07:26:28Z Merged pull request |-\|/-| 1401 +4 −3 cs 1|-\|/-| 
+Fixed a grammar error in download_size description |-\|/-| 2015-08-22T06:33:18Z Merged pull request |-\|/-| 1400 +3 −3 md 0|-\|/-| 
+Added a size column |-\|/-| 2015-08-22T10:50:35Z Merged pull request |-\|/-| 1399 +302 −280 cs 1|-\|/-| 
+Checkbox for recommendations/suggestions page. |-\|/-| 2015-08-21T19:22:26Z Merged pull request |-\|/-| 1398 +265 −234 0|-\|/-| 
+We don't show an update, if its assembly is not available |-\|/-| 2015-08-23T11:51:38Z Merged pull request |-\|/-| 1397 +18 −0 cs 1|-\|/-| 
+Show latest version of incompatible mod |-\|/-| 2015-08-21T10:35:15Z Merged pull request |-\|/-| 1396 +13 −1 cs 1|-\|/-| 
+Search mods by their abbreviation |-\|/-| 2015-08-20T08:16:02Z Merged pull request |-\|/-| 1394 +4 −1 cs 1|-\|/-| 
+removed the priorities from the repository list in the settings |-\|/-| 2015-08-23T11:05:51Z Merged pull request |-\|/-| 1393 +12 −11 cs 1|-\|/-| 
+We can't update ad mods |-\|/-| 2015-08-23T07:49:39Z Merged pull request |-\|/-| 1392 +3 −1 cs 1|-\|/-| 
+removed  the priorities from the repository list in the settings |-\|/-| 2015-08-18T17:04:19Z Closed pull request |-\|/-| 1391 +2 −2 cs 1|-\|/-| 
+Remember the last used filter |-\|/-| 2015-08-23T10:41:32Z Merged pull request |-\|/-| 1384 +34 −14 cs 2|-\|/-| 
+Bulk selection features added. |-\|/-| 2015-09-27T07:46:37Z Closed pull request |-\|/-| 1383 +90 −0 cs 3|-\|/-| 
+Menu items added for deselecting all, or selecting installed. Checkbox. |-\|/-| 2015-08-13T19:05:26Z Closed pull request |-\|/-| 1379 +216 −135 0|-\|/-| 
+Metadata is now draggable |-\|/-| 2015-08-13T17:48:44Z Merged pull request |-\|/-| 1378 +323 −287 0|-\|/-| 
+Dragable metadata. |-\|/-| 2015-08-12T20:20:46Z Closed pull request |-\|/-| 1374 +3,011 −2,890 sln cs resx 5|-\|/-| 
+Fixed TargetInvocationException when deselecting a mod some other mod… |-\|/-| 2016-10-02T16:18:20Z Closed pull request |-\|/-| 1373 +12 −1 cs 1|-\|/-| 
+Fixed marking of mods as new if they are uninstalled |-\|/-| 2015-08-11T05:18:44Z Merged pull request |-\|/-| 1369 +2 −2 cs 1|-\|/-| 
+Moved duplicate installation code into seperate methods |-\|/-| 2015-08-23T01:41:20Z Merged pull request |-\|/-| 1362 +65 −112 cs 1|-\|/-| 
+Update to spec v1.14, include saves/scenarios install path |-\|/-| 2015-08-09T11:55:15Z Closed pull request |-\|/-| 1361 +3 −3 md 0|-\|/-| 
+Add support for installing to Scenarios |-\|/-| 2015-08-11T16:51:59Z Merged pull request |-\|/-| 1360 +104 −47 md schema cs 4|-\|/-| 
+The AutoUpdater now shows that something is being done |-\|/-| 2016-07-13T05:04:57Z Closed pull request |-\|/-| 1359 +63 −26 cs 3|-\|/-| 
+LockFiles with adjustments |-\|/-| 2016-07-14T09:57:00Z Closed pull request |-\|/-| 1357 +251 −2 md cs csproj 10|-\|/-| 
+RelationshipResolver: Additional tests against autodetected mods |-\|/-| 2015-08-09T02:42:38Z Merged pull request |-\|/-| 1355 +32 −7 cs 2|-\|/-| 
+Green checkmark and clarify the functions of some buttons. |-\|/-| 2015-08-09T05:23:50Z Merged pull request |-\|/-| 1352 +2 −2 cs png 2|-\|/-| 
+Download default metadata in .tar.gz rather than .zip format |-\|/-| 2015-07-31T03:42:33Z Merged pull request |-\|/-| 1344 +14 −1 md cs 2|-\|/-| 
+GUIMod: Fix spurious protected method warning. |-\|/-| 2015-07-31T08:26:21Z Merged pull request |-\|/-| 1343 +1 −1 cs 1|-\|/-| 
+Adding LPIP branch |-\|/-| 2015-07-27T04:39:15Z Closed pull request |-\|/-| 1338 +204,342 −820,623 ackrc yml gitattributes gitignore config csproj 6|-\|/-| 
+Search in the previous stanza for the required mod |-\|/-| 2015-08-23T05:07:58Z Merged pull request |-\|/-| 1337 +21 −7 cs 1|-\|/-| 
+Fix NullReferenceException when pressing keys on an empty modlist |-\|/-| 2015-08-23T02:48:23Z Merged pull request |-\|/-| 1329 +2 −2 cs 1|-\|/-| 
+Update spec.md to clarify the identifier's case sensitivity |-\|/-| 2015-07-20T08:19:37Z Merged pull request |-\|/-| 1328 +4 −1 md 0|-\|/-| 
+wrap the remove, upgrade and installation in a transaction |-\|/-| 2015-07-20T10:17:05Z Merged pull request |-\|/-| 1325 +32 −22 cs 1|-\|/-| 
+Fix JObject SafeAdd to make sure underlying value is not null |-\|/-| 2015-07-19T14:10:30Z Merged pull request |-\|/-| 1324 +19 −2 cs 2|-\|/-| 
+Version Edit Transformer |-\|/-| 2015-08-21T13:14:52Z Merged pull request |-\|/-| 1321 +294 −1 csproj cs 5|-\|/-| 
+Add condition in ForceV for upper case V |-\|/-| 2015-07-18T18:47:55Z Closed pull request |-\|/-| 1320 +1 −1 cs 1|-\|/-| 
+Commandline argument dialog changes |-\|/-| 2015-07-20T10:19:53Z Merged pull request |-\|/-| 1318 +25 −16 cs 3|-\|/-| 
+Improve window title when asking yes or no |-\|/-| 2015-07-18T11:02:13Z Merged pull request |-\|/-| 1312 +1 −1 cs 1|-\|/-| 
+Misc Netkan Fixes |-\|/-| 2015-07-20T13:05:18Z Merged pull request |-\|/-| 1308 +47 −3 cs 2|-\|/-| 
+Fixed checkbox not toggling when chossing a providing mod |-\|/-| 2015-07-16T21:39:10Z Merged pull request |-\|/-| 1306 +9 −1 cs 1|-\|/-| 
+Update KerbalStuff Transformer |-\|/-| 2015-07-17T11:22:29Z Merged pull request |-\|/-| 1305 +29 −2 cs 1|-\|/-| 
+Sort Properties on Final Netkan Output |-\|/-| 2015-08-21T13:29:32Z Merged pull request |-\|/-| 1304 +123 −1 csproj cs 3|-\|/-| 
+More Robust AVC Version Handling |-\|/-| 2015-08-11T02:55:40Z Merged pull request |-\|/-| 1299 +217 −44 cs 4|-\|/-| 
+Fix empty "latest" column in GUI. |-\|/-| 2015-07-16T06:38:26Z Merged pull request |-\|/-| 1297 +3 −3 cs 1|-\|/-| 
+GUI: When showing Latest KSP info, do it for the latest mod (for any KSP ver) |-\|/-| 2015-07-16T04:42:54Z Merged pull request |-\|/-| 1295 +67 −29 cs 3|-\|/-| 
+Consolidate network download code |-\|/-| 2015-07-31T01:49:51Z Merged pull request |-\|/-| 1294 +135 −184 cs 3|-\|/-| 
+Catch WebException when downloading metadata |-\|/-| 2015-07-17T11:16:00Z Merged pull request |-\|/-| 1291 +10 −1 cs 1|-\|/-| 
+BackgroundWorkers merge with adjustments. |-\|/-| 2019-12-29T06:34:59Z Closed pull request |-\|/-| 1290 +50 −42 cs 2|-\|/-| 
+Keep instance selected while user presses on "default instance" checkbox |-\|/-| 2015-07-17T11:07:25Z Merged pull request |-\|/-| 1287 +1 −0 cs 1|-\|/-| 
+[WIP] Change font away from `Microsoft Sans Serif` |-\|/-| 2015-08-23T03:04:18Z Closed pull request |-\|/-| 1286 +16 −7 cs resx 13|-\|/-| 
+Refresh on first startup |-\|/-| 2015-07-17T11:08:22Z Merged pull request |-\|/-| 1285 +45 −1 cs 5|-\|/-| 
+fixed compare command throwing an ArgumentNullException |-\|/-| 2015-07-17T11:12:30Z Merged pull request |-\|/-| 1283 +42 −6 cs 2|-\|/-| 
+Refresh on first startup |-\|/-| 2015-07-13T05:52:38Z Closed pull request |-\|/-| 1282 +0 −0 0|-\|/-| 
+Stop columns from autoresizing after refresh |-\|/-| 2015-07-12T19:24:27Z Merged pull request |-\|/-| 1278 +0 −1 cs 1|-\|/-| 
+Cleanup |-\|/-| 2015-07-17T11:09:17Z Merged pull request |-\|/-| 1277 +12 −65 cs 2|-\|/-| 
+Small GUI overhaul. Added compatibility column and to right pane, removed homepage column, resized all columns. |-\|/-| 2015-07-10T15:07:05Z Merged pull request |-\|/-| 1270 +86 −24 cs 5|-\|/-| 
+Fix bad characters in filename in module. |-\|/-| 2015-07-30T23:54:28Z Merged pull request |-\|/-| 1266 +44 −14 cs 5|-\|/-| 
+Add support for locking the registry. |-\|/-| 2015-08-11T02:58:41Z Closed pull request |-\|/-| 1265 +135 −18 cs 5|-\|/-| 
+Point the repo master list to CKAN-meta on github |-\|/-| 2015-07-08T08:40:59Z Merged pull request |-\|/-| 1264 +1 −1 cs 1|-\|/-| 
+Use folder name as default name for instance |-\|/-| 2015-07-20T10:21:14Z Merged pull request |-\|/-| 1261 +6 −3 cs 1|-\|/-| 
+[incomplete] Mod roulette |-\|/-| 2015-08-13T19:05:34Z Closed pull request |-\|/-| 1260 +2,956 −2,628 sln cs csproj 5|-\|/-| 
+Bulk (de-)selection features |-\|/-| 2015-08-12T20:47:02Z Closed pull request |-\|/-| 1258 +2,805 −2,718 sln cs 3|-\|/-| 
+Added "ckan favourite list" as export possibility |-\|/-| 2015-07-30T19:19:51Z Merged pull request |-\|/-| 1257 +16 −5 cs 3|-\|/-| 
+Change default config to launch KSP with -single-instance |-\|/-| 2015-07-07T22:15:33Z Merged pull request |-\|/-| 1255 +3 −3 cs 1|-\|/-| 
+Make better efforts to present users with homepages for mods aka "give homes to the homeless" |-\|/-| 2015-07-07T12:40:03Z Merged pull request |-\|/-| 1254 +50 −7 cs 2|-\|/-| 
+Update Spec.md |-\|/-| 2015-07-06T13:42:43Z Merged pull request |-\|/-| 1251 +1 −1 md 0|-\|/-| 
+If KerbalStuff doesn't provide a `homepage`, use the KerbalStuff page instead. |-\|/-| 2015-07-06T02:36:52Z Closed pull request |-\|/-| 1246 +9 −1 cs 1|-\|/-| 
+Update spec.md to 1.12 (update install_to folders) |-\|/-| 2015-07-30T21:38:31Z Merged pull request |-\|/-| 1244 +3 −3 md 0|-\|/-| 
+Allow installation into subdirectories of Ships |-\|/-| 2015-07-30T21:38:31Z Merged pull request |-\|/-| 1243 +72 −4 cs 3|-\|/-| 
+Fix for an invalidcastexception |-\|/-| 2015-07-17T11:09:47Z Merged pull request |-\|/-| 1237 +5 −1 cs 1|-\|/-| 
+Download cache button fixes |-\|/-| 2015-07-17T11:21:11Z Merged pull request |-\|/-| 1231 +39 −12 cs 2|-\|/-| 
+CKAN Updater is no longer confused about spaces. |-\|/-| 2015-07-08T10:37:23Z Merged pull request |-\|/-| 1230 +1 −1 cs 1|-\|/-| 
+Performance Enhancements |-\|/-| 2015-07-20T10:13:52Z Merged pull request |-\|/-| 1229 +31 −25 cs 5|-\|/-| 
+Fix for an argumentoutofrangeexception |-\|/-| 2015-07-01T10:45:02Z Merged pull request |-\|/-| 1228 +4 −0 cs 1|-\|/-| 
+The RelationshipResolver can now also resolve with InstalledModules |-\|/-| 2015-09-27T07:58:02Z Closed pull request |-\|/-| 1226 +71 −20 cs 1|-\|/-| 
+Revert "Adds a deselect all button and a select installed button." |-\|/-| 2015-06-30T04:26:36Z Merged pull request |-\|/-| 1223 +29 −120 csproj cs resx png 9|-\|/-| 
+Remove spurious and harmless warnings. |-\|/-| 2015-06-30T04:28:06Z Merged pull request |-\|/-| 1222 +5 −5 cs 2|-\|/-| 
+Show missing dependencies |-\|/-| 2017-09-28T12:50:23Z Closed pull request |-\|/-| 1220 +51 −3 cs 2|-\|/-| 
+Fix for uncaught Inconsistent Kraken. |-\|/-| 2015-06-30T07:14:49Z Merged pull request |-\|/-| 1219 +22 −7 cs 1|-\|/-| 
+Netkan Refactoring |-\|/-| 2015-07-15T23:47:02Z Merged pull request |-\|/-| 1218 +21,162 −2,174 gitignore cs nupkg dll xml 8|-\|/-| 
+Double click on row (de)selects mod |-\|/-| 2015-06-29T00:13:16Z Merged pull request |-\|/-| 1217 +9 −0 cs 2|-\|/-| 
+Deselect all/select installed |-\|/-| 2015-06-30T08:51:48Z Closed pull request |-\|/-| 1216 +213 −39 cs 3|-\|/-| 
+Double click on the dependency graph navigates to the mod |-\|/-| 2015-07-15T21:17:51Z Merged pull request |-\|/-| 1213 +61 −39 cs 3|-\|/-| 
+Recreates ship folders if missing. |-\|/-| 2015-06-28T11:33:41Z Closed pull request |-\|/-| 1212 +11 −0 cs 1|-\|/-| 
+Adds a deselect all button and a select installed button. |-\|/-| 2015-06-28T11:02:13Z Merged pull request |-\|/-| 1211 +120 −29 csproj cs resx png 9|-\|/-| 
+Adds a remove all option to cmdline. |-\|/-| 2015-06-28T09:08:29Z Merged pull request |-\|/-| 1210 +14 −0 cs 2|-\|/-| 
+Bad resource links will no longer kill Module construction. |-\|/-| 2015-06-29T03:06:03Z Merged pull request |-\|/-| 1209 +93 −0 csproj cs 4|-\|/-| 
+netkan.exe: usability: use system-wide CA certificate bundle if custo… |-\|/-| 2015-07-15T23:47:03Z Closed pull request |-\|/-| 1206 +13 −2 cs 1|-\|/-| 
+Hopeful contributions |-\|/-| 2015-06-28T06:25:08Z Closed pull request |-\|/-| 1205 +145 −29 cs csproj resx png 12|-\|/-| 
+Support MetaNetkans |-\|/-| 2015-07-05T18:58:30Z Closed pull request |-\|/-| 1204 +94 −25 cs 1|-\|/-| 
+GUI no longer says "about to remove" when there's nothing to remove (#1179) |-\|/-| 2015-06-27T21:50:04Z Merged pull request |-\|/-| 1203 +6 −0 cs 1|-\|/-| 
+Recurse into arrays when removing x_netkan properties |-\|/-| 2015-06-28T11:15:58Z Merged pull request |-\|/-| 1201 +83 −52 cs 2|-\|/-| 
+Set the executable bit of the updated ckan |-\|/-| 2015-06-28T11:12:16Z Merged pull request |-\|/-| 1200 +39 −14 cs 1|-\|/-| 
+Client is now movable during the refresh |-\|/-| 2015-07-15T19:49:41Z Merged pull request |-\|/-| 1198 +17 −2 cs 2|-\|/-| 
+Implement `x_netkan_override` |-\|/-| 2015-06-28T01:03:49Z Merged pull request |-\|/-| 1197 +343 −1 csproj cs 5|-\|/-| 
+Renamed the Delete Button to Forget |-\|/-| 2015-06-27T09:18:00Z Merged pull request |-\|/-| 1196 +15 −15 cs 2|-\|/-| 
+Strip NetKan Properties |-\|/-| 2015-06-27T11:03:42Z Merged pull request |-\|/-| 1193 +109 −16 cs 2|-\|/-| 
+Documentation on GetModuleByVersion |-\|/-| 2015-07-15T19:27:20Z Merged pull request |-\|/-| 1187 +8 −1 cs 1|-\|/-| 
+Fixed exception after cancelling download of mod |-\|/-| 2015-06-28T11:09:58Z Merged pull request |-\|/-| 1185 +2 −2 cs 1|-\|/-| 
+Correctly print relationship versions |-\|/-| 2015-06-27T08:12:51Z Merged pull request |-\|/-| 1183 +3 −3 cs 1|-\|/-| 
+Adjust spec version requirements to match usage. |-\|/-| 2015-06-29T00:17:27Z Merged pull request |-\|/-| 1178 +3 −2 md 0|-\|/-| 
+Add missing icons to dialogs |-\|/-| 2015-06-28T11:13:02Z Merged pull request |-\|/-| 1176 +20,430 −0 cs 1|-\|/-| 
+Fix: Issues with version handling. |-\|/-| 2015-06-25T13:05:46Z Merged pull request |-\|/-| 1175 +8 −3 cs 2|-\|/-| 
+Add "Open KSP Directory" entry to the File toolstrip |-\|/-| 2015-06-25T07:45:00Z Merged pull request |-\|/-| 1171 +15 −0 cs 2|-\|/-| 
+More exactly define character classes in spec |-\|/-| 2015-07-15T18:52:45Z Merged pull request |-\|/-| 1170 +7 −5 md 0|-\|/-| 
+Feature: Per  #374 allow files without krefs |-\|/-| 2015-12-13T06:52:04Z Closed pull request |-\|/-| 1169 +91 −69 cs 1|-\|/-| 
+ask the user if he really wants to delete their cache |-\|/-| 2015-06-25T13:19:27Z Merged pull request |-\|/-| 1168 +30 −15 cs 1|-\|/-| 
+Start of extracting interfaces. |-\|/-| 2015-06-26T12:02:47Z Merged pull request |-\|/-| 1167 +534 −460 cs csproj 13|-\|/-| 
+Commandline: Show a user friendly error on upgrade |-\|/-| 2015-06-23T09:54:41Z Merged pull request |-\|/-| 1166 +1 −1 cs 1|-\|/-| 
+The fancy version name is now shown |-\|/-| 2015-06-25T13:25:20Z Merged pull request |-\|/-| 1164 +33 −1 csproj cs 3|-\|/-| 
+GUI: Allow overwriting of exported .ckan files |-\|/-| 2015-06-23T07:47:32Z Merged pull request |-\|/-| 1163 +7 −7 cs 1|-\|/-| 
+bin/outdated_metadata.pl: Find and fix vague KSP version strings. |-\|/-| 2015-07-13T01:43:55Z Merged pull request |-\|/-| 1162 +90 −0 pl 1|-\|/-| 
+netkan.exe add '.0' to two-part releases when indxing from KS |-\|/-| 2015-06-23T07:48:56Z Merged pull request |-\|/-| 1161 +59 −0 cs 2|-\|/-| 
+Autodetected mods now satisfy all relationships. |-\|/-| 2015-06-23T01:57:12Z Merged pull request |-\|/-| 1159 +179 −64 sln csproj cs 6|-\|/-| 
+Enforce Visual Studio formatting. |-\|/-| 2015-06-23T01:32:01Z Merged pull request |-\|/-| 1157 +102 −69 sln csproj 4|-\|/-| 
+Cleanup |-\|/-| 2015-06-23T03:07:49Z Merged pull request |-\|/-| 1153 +325 −378 cs 16|-\|/-| 
+Stop existing files from stalling the GUI on install |-\|/-| 2015-06-23T02:00:52Z Merged pull request |-\|/-| 1150 +103 −91 cs 1|-\|/-| 
+KeyNotFoundException fix in ResolveStanza |-\|/-| 2015-06-22T09:54:06Z Merged pull request |-\|/-| 1147 +1 −1 cs 1|-\|/-| 
+Add command line option to launch debugger |-\|/-| 2015-06-23T07:52:21Z Merged pull request |-\|/-| 1142 +13 −0 cs 2|-\|/-| 
+Prevent modules from conflicting with themselves on upgrade |-\|/-| 2015-06-21T15:54:18Z Merged pull request |-\|/-| 1141 +4 −1 cs 1|-\|/-| 
+Relationship Resolver Versions w/Spec changes |-\|/-| 2015-06-21T06:27:18Z Merged pull request |-\|/-| 1133 +282 −195 cs md 5|-\|/-| 
+Add multi-license support, now with tests and spec updates |-\|/-| 2015-06-21T05:15:12Z Merged pull request |-\|/-| 1132 +62 −9 cs md 6|-\|/-| 
+Background worker error |-\|/-| 2015-12-13T06:20:02Z Closed pull request |-\|/-| 1131 +75 −60 cs 3|-\|/-| 
+gitignore: Don't track .exe.config files |-\|/-| 2015-06-21T00:49:06Z Merged pull request |-\|/-| 1128 +1 −0 gitignore 1|-\|/-| 
+Catch XML parsing error correctly |-\|/-| 2015-06-21T12:56:13Z Merged pull request |-\|/-| 1127 +85 −2 cs csproj 4|-\|/-| 
+Update Spec.md |-\|/-| 2015-06-20T02:46:44Z Merged pull request |-\|/-| 1126 +1 −1 md 0|-\|/-| 
+Fix canceling mod downloads.  |-\|/-| 2015-06-21T09:13:25Z Merged pull request |-\|/-| 1112 +61 −69 cs 1|-\|/-| 
+Add icons to dialogs. |-\|/-| 2015-06-21T10:51:34Z Merged pull request |-\|/-| 1110 +40,860 −2 cs resx 8|-\|/-| 
+Fix TMP error when installing metapackages. |-\|/-| 2015-08-23T06:20:39Z Closed pull request |-\|/-| 1108 +19 −11 cs 1|-\|/-| 
+Fix commandline install with -c to exit if it can not find the file. |-\|/-| 2015-06-12T03:54:42Z Merged pull request |-\|/-| 1107 +4 −2 cs 1|-\|/-| 
+Friendly Mod Export  |-\|/-| 2015-06-14T13:53:41Z Merged pull request |-\|/-| 1099 +456 −51 gitignore cs csproj 6|-\|/-| 
+Added the ckan icon to select instance and update dialog |-\|/-| 2015-06-12T18:49:37Z Closed pull request |-\|/-| 1098 +13,621 −1 cs 1|-\|/-| 
+Populate repository resource from Kerbal Stuff |-\|/-| 2015-06-20T02:45:20Z Merged pull request |-\|/-| 1090 +6 −0 cs 1|-\|/-| 
+find_regexp Directive |-\|/-| 2015-06-28T11:34:47Z Merged pull request |-\|/-| 1089 +61 −14 schema cs md 3|-\|/-| 
+Filter asset_match when getting github repository |-\|/-| 2015-06-09T08:44:40Z Merged pull request |-\|/-| 1086 +7 −0 cs 1|-\|/-| 
+Target platform v4 (aka .NET 4.5) when building |-\|/-| 2015-06-08T05:13:17Z Merged pull request |-\|/-| 1081 +2 −0 bin/build lean 2|-\|/-| 
+CKAN policy documents |-\|/-| 2015-06-07T11:50:51Z Merged pull request |-\|/-| 1080 +54 −0 md 0|-\|/-| 
+Have travis upload "nightly" artefacts. |-\|/-| 2015-06-07T02:24:23Z Merged pull request |-\|/-| 1079 +26 −21 yml 1|-\|/-| 
+Fix edge case in version numbering. |-\|/-| 2015-06-06T02:05:16Z Merged pull request |-\|/-| 1077 +261 −238 cs 1|-\|/-| 
+Remove the GUI-with-console command. |-\|/-| 2015-06-07T02:23:04Z Merged pull request |-\|/-| 1069 +10 −13 cs 2|-\|/-| 
+Work around for mono bug in versions <4.0.0 |-\|/-| 2015-06-07T03:23:33Z Merged pull request |-\|/-| 1068 +83 −26 cs 3|-\|/-| 
+Persist column sorting settings |-\|/-| 2015-06-04T03:24:24Z Merged pull request |-\|/-| 1061 +12 −12 cs 3|-\|/-| 
+Move KSP Install selection to File menu |-\|/-| 2015-06-04T03:28:28Z Merged pull request |-\|/-| 1060 +33 −78 cs 4|-\|/-| 
+Temp fix for focus. If it is in Updated Filters it causes issues with… |-\|/-| 2015-06-02T06:40:05Z Merged pull request |-\|/-| 1059 +15 −16 cs 2|-\|/-| 
+Focuses the mod list when it's updated |-\|/-| 2015-06-02T05:27:07Z Merged pull request |-\|/-| 1057 +2 −0 cs 1|-\|/-| 
+Clear out multiple TODOs in the codebase |-\|/-| 2015-07-15T18:18:13Z Merged pull request |-\|/-| 1055 +149 −130 cs 5|-\|/-| 
+Implement programmatic sorting for all columns |-\|/-| 2015-06-02T06:04:53Z Merged pull request |-\|/-| 1054 +82 −8 cs 3|-\|/-| 
+Have travis send information to #ckan-ci |-\|/-| 2015-06-05T00:06:06Z Merged pull request |-\|/-| 1053 +8 −0 yml 1|-\|/-| 
+More robust cURL CA bundle file resolution |-\|/-| 2015-06-21T11:39:10Z Merged pull request |-\|/-| 1052 +41 −15 cs 1|-\|/-| 
+Add test_data boolean to GetCachedZip |-\|/-| 2015-06-21T09:02:16Z Merged pull request |-\|/-| 1051 +44 −41 cs 3|-\|/-| 
+Remove trailing whitespace. |-\|/-| 2015-06-01T10:57:20Z Closed pull request |-\|/-| 1050 +0 −0 0|-\|/-| 
+Change toLongMin and toLongMax to return new copies. |-\|/-| 2015-06-03T09:07:48Z Merged pull request |-\|/-| 1049 +101 −86 cs 3|-\|/-| 
+Improve typing nav usability in mod list |-\|/-| 2015-06-01T06:58:46Z Merged pull request |-\|/-| 1047 +98 −16 cs 2|-\|/-| 
+Make now uses the same script as travis. |-\|/-| 2015-05-31T12:10:03Z Merged pull request |-\|/-| 1042 +5 −3 Makefile 1|-\|/-| 
+Add in new custom field for kerbalstuff mods. |-\|/-| 2015-06-21T08:52:54Z Merged pull request |-\|/-| 1007 +9 −2 cs 2|-\|/-| 
+AVC uses -1 as a wildcard since 1.1.5.0. |-\|/-| 2015-06-12T04:11:53Z Merged pull request |-\|/-| 1006 +115 −66 cs 2|-\|/-| 
+Mods not in repo |-\|/-| 2015-06-21T11:36:45Z Merged pull request |-\|/-| 1005 +227 −161 cs 2|-\|/-| 
+Main install |-\|/-| 2015-07-20T10:22:36Z Closed pull request |-\|/-| 1004 +457 −433 csproj cs 5|-\|/-| 
+More bad metadata and tests |-\|/-| 2015-06-21T08:02:02Z Merged pull request |-\|/-| 1003 +40 −24 cs gz zip 6|-\|/-| 
+Once again allow users to select dependencies when multiple provides exist |-\|/-| 2015-06-05T06:54:33Z Merged pull request |-\|/-| 1002 +510 −279 csproj cs config 8|-\|/-| 
+Allow conflicts if mod are to be uninstalled |-\|/-| 2015-06-21T07:18:04Z Merged pull request |-\|/-| 1001 +280 −106 cs 2|-\|/-| 
+Re-enable one-click releases, AND test against three mono versions! |-\|/-| 2015-05-31T08:16:05Z Merged pull request |-\|/-| 1000 +277 −19 yml bin/build lean t pm 5|-\|/-| 
+ A couple of minor changes for installation & display of incompatible mods. |-\|/-| 2015-05-31T07:53:09Z Closed pull request |-\|/-| 999 +481 −303 cs 1|-\|/-| 
+Selection enhancements |-\|/-| 2015-06-01T10:48:54Z Merged pull request |-\|/-| 998 +18 −3 cs 2|-\|/-| 
+Typing nav |-\|/-| 2015-05-31T21:41:30Z Closed pull request |-\|/-| 996 +65 −22 cs 1|-\|/-| 
+Fix KSP icon transparency; add more consistent icons for search and settings |-\|/-| 2015-05-31T09:34:21Z Merged pull request |-\|/-| 995 +2 −2 csproj resx jpg png 6|-\|/-| 
+Make the Installed and Update checkbox columns sortable |-\|/-| 2015-06-03T03:54:48Z Closed pull request |-\|/-| 994 +2 −0 cs 1|-\|/-| 
+Serialize current install |-\|/-| 2015-06-05T07:01:30Z Merged pull request |-\|/-| 993 +47 −39 cs 1|-\|/-| 
+Enable checking against a schema. |-\|/-| 2017-04-03T08:28:38Z Closed pull request |-\|/-| 992 +6,362 −62 csproj schema 2|-\|/-| 
+Change json formatter to use tabs |-\|/-| 2015-06-12T09:00:12Z Closed pull request |-\|/-| 991 +1 −1 cs 1|-\|/-| 
+RelResolver version handling |-\|/-| 2015-06-21T06:27:18Z Merged pull request |-\|/-| 989 +274 −173 cs 5|-\|/-| 
+Rel resolver rework |-\|/-| 2015-06-21T05:56:48Z Merged pull request |-\|/-| 988 +216 −62 cs 3|-\|/-| 
+Allow attempts to install files to inconsistent instances. |-\|/-| 2015-06-12T04:05:02Z Merged pull request |-\|/-| 987 +43 −16 cs 2|-\|/-| 
+Change licence in Module to be a list of licences. |-\|/-| 2015-06-21T05:15:13Z Merged pull request |-\|/-| 986 +5 −4 cs 3|-\|/-| 
+Test jenkins *and* remove our build tag. |-\|/-| 2015-05-31T12:05:54Z Merged pull request |-\|/-| 985 +0 −1 build-tag 1|-\|/-| 
+Jenkins test |-\|/-| 2015-05-31T05:21:28Z Closed pull request |-\|/-| 983 +35,001 −302,900 ackrc gitignore gitattributes config csproj sln AutoUpdate/LICENSE 8|-\|/-| 
+Testing Jenkins |-\|/-| 2015-05-31T02:59:25Z Closed pull request |-\|/-| 982 +43,115 −0 gitattributes gitignore config csproj sln AutoUpdate/LICENSE 6|-\|/-| 
+Just for testing Jenkins |-\|/-| 2015-05-31T02:31:44Z Closed pull request |-\|/-| 981 +733,214 −0 gitattributes gitignore config csproj sln AutoUpdate/LICENSE 6|-\|/-| 
+The great repo merge. |-\|/-| 2015-05-31T04:42:36Z Merged pull request |-\|/-| 980 +708,800 −130 ackrc gitignore gitattributes config csproj AutoUpdate/LICENSE 7|-\|/-| 
+Revert "Update versioning in spec.md to reflect behavior" |-\|/-| 2015-05-26T20:00:26Z Merged pull request |-\|/-| 962 +1 −1 md 0|-\|/-| 
+Formal client specification. |-\|/-| 2015-12-13T09:42:15Z Closed pull request |-\|/-| 961 +316 −0 md 0|-\|/-| 
+Support closing bot shows actual ticket number now. |-\|/-| 2015-05-25T10:55:08Z Merged pull request |-\|/-| 955 +1 −1 pl 1|-\|/-| 
+Update versioning in spec.md to reflect behavior |-\|/-| 2015-05-26T19:31:52Z Merged pull request |-\|/-| 951 +1 −1 md 0|-\|/-| 
+Added support ticket closer bot |-\|/-| 2015-05-25T03:11:57Z Merged pull request |-\|/-| 944 +73 −0 pl 1|-\|/-| 
+Update README.md |-\|/-| 2015-05-20T01:30:51Z Merged pull request |-\|/-| 871 +4 −4 md 0|-\|/-| 
+Update README.md |-\|/-| 2015-05-20T01:22:47Z Merged pull request |-\|/-| 870 +2 −2 md 0|-\|/-| 
+Small fixes to spec.md |-\|/-| 2015-05-25T14:33:07Z Merged pull request |-\|/-| 867 +5 −5 md 0|-\|/-| 
+Typo in Spec.md |-\|/-| 2015-05-18T18:13:49Z Merged pull request |-\|/-| 866 +1 −1 md 0|-\|/-| 
+Update Spec.md with RFC 2119 reference |-\|/-| 2015-05-05T00:12:01Z Merged pull request |-\|/-| 830 +5 −0 md 0|-\|/-| 
+Metapackages in schema |-\|/-| 2015-02-08T21:02:20Z Merged pull request |-\|/-| 772 +8 −4 schema 1|-\|/-| 
+Some basic documentation of the HTTP kref method |-\|/-| 2015-01-15T16:38:55Z Merged pull request |-\|/-| 754 +14 −0 md 0|-\|/-| 
+Docu kref GitHub asset_filter regexps |-\|/-| 2015-01-15T15:51:41Z Merged pull request |-\|/-| 751 +12 −2 md 0|-\|/-| 
+Documented the Jenkins kref |-\|/-| 2015-01-15T15:33:35Z Merged pull request |-\|/-| 750 +17 −0 md 0|-\|/-| 
+Add ci resource to schema |-\|/-| 2015-01-10T13:51:36Z Merged pull request |-\|/-| 738 +9 −2 schema md 1|-\|/-| 
+Release v1.2 |-\|/-| 2015-01-02T14:51:47Z Closed pull request |-\|/-| 724 +39 −27 schema cs 5|-\|/-| 
+Small changes to ckan-build.py |-\|/-| 2015-01-01T17:55:25Z Merged pull request |-\|/-| 722 +14 −5 py 2|-\|/-| 
+Small fix |-\|/-| 2015-01-01T16:49:14Z Merged pull request |-\|/-| 721 +13 −9 py 2|-\|/-| 
+Add requirements.txt |-\|/-| 2015-01-01T15:57:23Z Merged pull request |-\|/-| 720 +2 −0 txt 0|-\|/-| 
+More work on ckan-release-promoter |-\|/-| 2015-01-01T15:34:09Z Merged pull request |-\|/-| 719 +77 −4 py 3|-\|/-| 
+Some build fixes |-\|/-| 2015-01-01T14:29:00Z Merged pull request |-\|/-| 718 +15 −14 py 4|-\|/-| 
+Added release stamping to ckan-build.py |-\|/-| 2015-01-01T14:08:53Z Merged pull request |-\|/-| 717 +180 −62 gitignore py 6|-\|/-| 
+Refactored ckan-release-maker.py |-\|/-| 2014-12-30T09:55:16Z Merged pull request |-\|/-| 714 +41 −26 py 1|-\|/-| 
+Adding ckan-build-info script |-\|/-| 2014-12-29T16:18:13Z Merged pull request |-\|/-| 713 +57 −0 py 1|-\|/-| 
+Clean-up |-\|/-| 2014-12-29T12:20:00Z Merged pull request |-\|/-| 712 +74 −308,761 gitmodules yml config CKAN/CKAN sln CKAN/CmdLine CKAN/GUI csproj cs 10|-\|/-| 
+Prepare branch for continuous- integration setup |-\|/-| 2014-12-29T09:40:00Z Merged pull request |-\|/-| 711 +0 −308,761 gitmodules yml config CKAN/CKAN sln CKAN/CmdLine CKAN/GUI csproj cs 10|-\|/-| 
+Clean-up of everything pre-split |-\|/-| 2014-12-29T09:39:20Z Closed pull request |-\|/-| 709 +0 −0 0|-\|/-| 
+Updated Readme.md to use annotated linking style per hakan's request. |-\|/-| 2014-12-27T23:04:36Z Merged pull request |-\|/-| 705 +16 −8 md 0|-\|/-| 
+Updated Readme.md to point to new wiki. |-\|/-| 2014-12-27T22:28:42Z Merged pull request |-\|/-| 704 +5 −5 md 0|-\|/-| 
+** IMPORTANT - MERGE BEFORE ANY OTHER PR! ** Splitting the repos - "Here goes nothing" edition |-\|/-| 2014-12-27T12:31:24Z Merged pull request |-\|/-| 703 +16 −22,073 gitmodules CKAN/CKAN csproj cs 8|-\|/-| 
+Added version synonyms dictionary |-\|/-| 2014-12-28T17:36:21Z Closed pull request |-\|/-| 698 +35 −4 cs 2|-\|/-| 
+Fix for issue #652 |-\|/-| 2014-12-27T18:01:57Z Closed pull request |-\|/-| 693 +1 −9 cs 1|-\|/-| 
+Prevent applying an empty changeset. |-\|/-| 2014-12-26T08:16:41Z Merged pull request |-\|/-| 691 +7 −0 cs 2|-\|/-| 
+Protect Ships/VAB and Ships/SPH from deletion. |-\|/-| 2014-12-27T19:26:49Z Closed pull request |-\|/-| 690 +29 −6 cs 3|-\|/-| 
+Release v1.2 |-\|/-| 2014-12-28T17:36:28Z Closed pull request |-\|/-| 689 +38 −26 cs 4|-\|/-| 
+Add a -all option to upgrade. |-\|/-| 2014-12-28T13:29:59Z Closed pull request |-\|/-| 688 +64 −17 cs 2|-\|/-| 
+GUI: Change the forum link in the "about" to the new thread. |-\|/-| 2014-12-25T03:13:23Z Merged pull request |-\|/-| 686 +1 −1 cs 1|-\|/-| 
+Ignore rather than die on bad metadata. |-\|/-| 2014-12-25T03:17:33Z Merged pull request |-\|/-| 685 +54 −10 cs zip 4|-\|/-| 
+Allow CKAN to `find` file/folder and install it. |-\|/-| 2014-12-24T07:19:01Z Merged pull request |-\|/-| 681 +205 −87 schema cs 3|-\|/-| 
+`ckan.exe show` - Don't die on null authors. |-\|/-| 2014-12-23T06:00:06Z Merged pull request |-\|/-| 676 +12 −3 cs 1|-\|/-| 
+Indexed by badge |-\|/-| 2014-12-22T17:28:44Z Merged pull request |-\|/-| 669 +1 −0 png svg 3|-\|/-| 
+Print newlines after operations complete |-\|/-| 2014-12-21T21:04:57Z Merged pull request |-\|/-| 664 +2 −2 cs 1|-\|/-| 
+Use ASCII instead of Unicode for list output |-\|/-| 2014-12-22T14:31:13Z Merged pull request |-\|/-| 662 +3 −3 cs 1|-\|/-| 
+Alter NetAsyncDownloader |-\|/-| 2014-12-20T18:40:28Z Merged pull request |-\|/-| 651 +5 −3 cs 1|-\|/-| 
+Implement -c option in upgrade. |-\|/-| 2014-12-24T08:41:26Z Merged pull request |-\|/-| 648 +21 −21 cs 2|-\|/-| 
+Issue#638 |-\|/-| 2014-12-20T18:40:47Z Merged pull request |-\|/-| 647 +56 −39 cs 3|-\|/-| 
+Adding in a mono version check. |-\|/-| 2014-12-20T18:41:09Z Merged pull request |-\|/-| 641 +45 −3 cs 1|-\|/-| 
+Remove default -force-opengl on Windows. |-\|/-| 2014-12-19T04:36:06Z Merged pull request |-\|/-| 637 +6 −3 cs 1|-\|/-| 
+CmdLine: Run scan before install/update, better msg on autoinstalled mods. |-\|/-| 2014-12-19T05:29:27Z Merged pull request |-\|/-| 636 +23 −6 cs 3|-\|/-| 
+Testcase for the fix in 37a33 |-\|/-| 2014-12-19T02:42:22Z Merged pull request |-\|/-| 635 +15 −2 cs 1|-\|/-| 
+Shows the exception's message |-\|/-| 2014-12-18T20:46:49Z Merged pull request |-\|/-| 629 +2 −2 cs 1|-\|/-| 
+Small fix so we don't crash on an invalid AutoStartInstance |-\|/-| 2014-12-18T20:08:01Z Merged pull request |-\|/-| 628 +9 −1 cs 1|-\|/-| 
+Change the glyph for "not compatible" to 'X' |-\|/-| 2014-12-17T21:58:54Z Merged pull request |-\|/-| 621 +2 −2 cs 1|-\|/-| 
+Add jenkins resource to schema |-\|/-| 2015-01-08T10:47:57Z Closed pull request |-\|/-| 619 +8 −1 schema md 1|-\|/-| 
+GitHub prerelease inflator |-\|/-| 2014-12-17T17:59:49Z Merged pull request |-\|/-| 617 +12 −8 cs 4|-\|/-| 
+Added Net.UserAgentString |-\|/-| 2014-12-17T14:17:18Z Merged pull request |-\|/-| 616 +29 −2 cs 8|-\|/-| 
+Re-enabled repository selection for the GUI |-\|/-| 2014-12-17T12:56:59Z Merged pull request |-\|/-| 615 +5 −1 cs 1|-\|/-| 
+Small GUI ModList touch-ups |-\|/-| 2014-12-17T09:19:15Z Merged pull request |-\|/-| 614 +94 −106 cs 2|-\|/-| 
+Bugfix: Always use current KSP version when resolving relationships |-\|/-| 2014-12-17T02:54:21Z Merged pull request |-\|/-| 611 +57 −47 cs 9|-\|/-| 
+Ksp manager rework |-\|/-| 2014-12-18T18:54:21Z Merged pull request |-\|/-| 609 +423 −209 csproj cs 2|-\|/-| 
+Fixes: Gui shows non-updateable mods as having a update #602 |-\|/-| 2014-12-17T02:35:18Z Merged pull request |-\|/-| 607 +20 −11 cs 3|-\|/-| 
+Copy downloads before iterating, since they may be modified concurrently |-\|/-| 2014-12-16T18:40:26Z Merged pull request |-\|/-| 601 +1 −1 cs 1|-\|/-| 
+Fix the missing default instance bug |-\|/-| 2014-12-16T18:40:31Z Merged pull request |-\|/-| 600 +11 −4 cs 1|-\|/-| 
+Fix crash on 'Select all updated' |-\|/-| 2014-12-16T11:29:20Z Merged pull request |-\|/-| 599 +2 −2 cs 1|-\|/-| 
+Fixes #597.  |-\|/-| 2014-12-16T10:50:50Z Merged pull request |-\|/-| 598 +2 −2 cs 1|-\|/-| 
+Renamed 'unstable' to 'beta'. |-\|/-| 2014-12-16T07:08:27Z Merged pull request |-\|/-| 594 +5 −5 cs 2|-\|/-| 
+Add check that values from win32 registry are actually valid directories... |-\|/-| 2014-12-16T04:22:09Z Merged pull request |-\|/-| 593 +10 −5 cs 1|-\|/-| 
+Install version |-\|/-| 2014-12-18T18:51:11Z Merged pull request |-\|/-| 592 +38 −26 cs 4|-\|/-| 
+Shows a lot more information with the show command |-\|/-| 2014-12-15T18:38:57Z Merged pull request |-\|/-| 591 +72 −4 cs 1|-\|/-| 
+Modlist profile saving and loading (#578 continued) |-\|/-| 2014-12-28T17:36:44Z Closed pull request |-\|/-| 590 +553 −6 csproj cs 7|-\|/-| 
+IsKspDir should not log a error in the false case. |-\|/-| 2014-12-15T08:35:46Z Merged pull request |-\|/-| 587 +15 −6 cs 1|-\|/-| 
+Improve CLI to allow input if one of multiple mods need to chosen |-\|/-| 2014-12-28T11:41:34Z Closed pull request |-\|/-| 586 +239 −15 cs 5|-\|/-| 
+Another minor typo, shows only in debug messages |-\|/-| 2014-12-14T22:10:46Z Merged pull request |-\|/-| 585 +1 −1 cs 1|-\|/-| 
+Adds no-derivatives to schema |-\|/-| 2015-01-02T14:51:01Z Merged pull request |-\|/-| 581 +1 −1 schema 1|-\|/-| 
+Adds no-derivatives to the schema |-\|/-| 2014-12-13T16:20:16Z Closed pull request |-\|/-| 580 +1 −1 schema 1|-\|/-| 
+Adds command line aliases |-\|/-| 2014-12-14T23:54:08Z Merged pull request |-\|/-| 579 +35 −0 cs 2|-\|/-| 
+Modlist profile saving and loading |-\|/-| 2014-12-15T18:17:05Z Closed pull request |-\|/-| 578 +549 −4 csproj cs 7|-\|/-| 
+Add default UI behaviour to rename dialog. |-\|/-| 2014-12-13T17:50:11Z Merged pull request |-\|/-| 577 +4 −0 cs 1|-\|/-| 
+Cleanup |-\|/-| 2014-12-13T10:02:51Z Merged pull request |-\|/-| 576 +555 −924 cs 9|-\|/-| 
+There can only be one... 'default' install, that is. |-\|/-| 2014-12-13T10:00:02Z Merged pull request |-\|/-| 575 +1 −1 cs 1|-\|/-| 
+Make User, KSPManager nonstatic |-\|/-| 2014-12-13T08:55:25Z Merged pull request |-\|/-| 573 +659 −590 csproj cs 3|-\|/-| 
+Merge Release1.2 into Master |-\|/-| 2014-12-13T05:30:16Z Merged pull request |-\|/-| 572 +231 −98 cs 1|-\|/-| 
+build: Allow source to be built (as devel) outside of git. |-\|/-| 2014-12-13T04:28:50Z Merged pull request |-\|/-| 571 +6 −2 bin/build lean 2|-\|/-| 
+Fixed bug in HasUpdate. |-\|/-| 2014-12-13T03:10:21Z Merged pull request |-\|/-| 570 +29 −5 cs 3|-\|/-| 
+Fixed bug in HasUpdate. |-\|/-| 2014-12-13T01:15:41Z Closed pull request |-\|/-| 569 +27 −4 cs 3|-\|/-| 
+Catch DownloadErrorsKraken. |-\|/-| 2014-12-13T01:23:25Z Merged pull request |-\|/-| 568 +6 −1 cs 1|-\|/-| 
+Catch DownloadErrorsKraken. |-\|/-| 2014-12-12T22:55:29Z Closed pull request |-\|/-| 567 +5 −1 cs 1|-\|/-| 
+Change transaction in MainInstall to use CkanTransaction, change name of... |-\|/-| 2014-12-12T22:20:04Z Merged pull request |-\|/-| 566 +3 −4 cs 1|-\|/-| 
+Fixed threading issue with refactormodlist. |-\|/-| 2014-12-12T21:15:11Z Merged pull request |-\|/-| 565 +3 −2 cs 2|-\|/-| 
+Fix recommended by list |-\|/-| 2014-12-12T18:32:54Z Merged pull request |-\|/-| 564 +1 −1 cs 1|-\|/-| 
+Multiple Repositories |-\|/-| 2014-12-27T12:29:41Z Closed pull request |-\|/-| 563 +334 −9 csproj cs 6|-\|/-| 
+Wrap Installs/Upgrades/Removals in a transaction.  |-\|/-| 2014-12-12T13:04:30Z Merged pull request |-\|/-| 562 +71 −47 cs 3|-\|/-| 
+Retain selection after installation error (#512) |-\|/-| 2014-12-12T22:13:47Z Merged pull request |-\|/-| 560 +93 −10 cs 2|-\|/-| 
+Retain selection after installation error (#512) |-\|/-| 2014-12-11T12:29:32Z Closed pull request |-\|/-| 559 +94 −11 yml cs 3|-\|/-| 
+Retain selection after installation error (#512) |-\|/-| 2014-12-11T12:24:17Z Closed pull request |-\|/-| 558 +93 −10 cs 2|-\|/-| 
+Starting ckan.exe with no arguments always start the GUI. |-\|/-| 2014-12-11T11:17:19Z Merged pull request |-\|/-| 557 +2 −10 cs 1|-\|/-| 
+Only update contents/relationship tabs when visible. |-\|/-| 2014-12-11T16:53:55Z Merged pull request |-\|/-| 556 +234 −200 0|-\|/-| 
+Adding the icon to the main form. |-\|/-| 2014-12-11T12:40:02Z Merged pull request |-\|/-| 555 +6,810 −24 cs 1|-\|/-| 
+Tests: Allow for -PRE in stable release numbers. |-\|/-| 2014-12-11T00:42:22Z Merged pull request |-\|/-| 553 +3 −3 cs 1|-\|/-| 
+CmdLine: show a better version than 0.0.0.0 |-\|/-| 2014-12-29T16:51:51Z Closed pull request |-\|/-| 551 +36 −0 bin/build lean 2|-\|/-| 
+The GUI and upgrade functionality is now considered stable. :) |-\|/-| 2014-12-10T23:40:44Z Merged pull request |-\|/-| 550 +0 −6 cs 1|-\|/-| 
+Add an icon! |-\|/-| 2014-12-10T11:43:42Z Merged pull request |-\|/-| 549 +14 −6 csproj md png ico bin/build lean 12|-\|/-| 
+Trimmed the icon |-\|/-| 2014-12-10T10:32:33Z Closed pull request |-\|/-| 548 +119 −56 yml cs csproj 13|-\|/-| 
+Override equals and hashcode in Module to use identifier. |-\|/-| 2014-12-28T17:37:12Z Closed pull request |-\|/-| 547 +94 −106 cs 5|-\|/-| 
+Have the build system insert the STABLE constant rather than humans. |-\|/-| 2014-12-10T22:40:57Z Merged pull request |-\|/-| 546 +27 −73 csproj bin/build lean t 9|-\|/-| 
+Gui conflict display |-\|/-| 2014-12-28T17:37:18Z Closed pull request |-\|/-| 545 +568 −348 cs 2|-\|/-| 
+Breadth-first relationship traversal in GUI |-\|/-| 2014-12-28T17:38:01Z Closed pull request |-\|/-| 543 +274 −118 cs 2|-\|/-| 
+waffle.io Badge |-\|/-| 2014-12-09T17:37:16Z Closed pull request |-\|/-| 541 +1 −0 md 0|-\|/-| 
+Allows remove to accept a list of modules |-\|/-| 2014-12-10T14:28:54Z Closed pull request |-\|/-| 540 +9 −4 cs 2|-\|/-| 
+Fixing path tests on windows |-\|/-| 2014-12-28T17:37:56Z Closed pull request |-\|/-| 537 +37 −43 cs 2|-\|/-| 
+Fix for adding instances to the GUI list with a default named instance |-\|/-| 2014-12-12T13:05:40Z Merged pull request |-\|/-| 536 +63 −1 cs 2|-\|/-| 
+Re-catches DownloadErrorsKraken |-\|/-| 2014-12-10T13:47:15Z Closed pull request |-\|/-| 535 +5 −0 cs 1|-\|/-| 
+Small GUI fixes for 1.2 |-\|/-| 2014-12-09T07:00:40Z Merged pull request |-\|/-| 525 +42 −26 cs 3|-\|/-| 
+Fix mod list column resize on first repo update |-\|/-| 2014-12-05T18:32:24Z Merged pull request |-\|/-| 524 +1 −2 cs 1|-\|/-| 
+Our own TransactionScope (#335) |-\|/-| 2014-12-12T20:56:18Z Merged pull request |-\|/-| 523 +48 −19 csproj cs 6|-\|/-| 
+Fix form scaling issue on linux (#505) |-\|/-| 2014-12-05T22:02:39Z Merged pull request |-\|/-| 522 +33 −4 cs csproj 6|-\|/-| 
+Some testing fixes. |-\|/-| 2014-12-10T13:18:39Z Closed pull request |-\|/-| 521 +482 −161 gitignore csproj cs 6|-\|/-| 
+Catches DownloadErrorsKrakens gracefully |-\|/-| 2014-12-04T18:14:56Z Merged pull request |-\|/-| 520 +8 −1 cs 1|-\|/-| 
+Fix form scaling issue on linux |-\|/-| 2014-12-05T18:02:05Z Closed pull request |-\|/-| 519 +29 −4 cs csproj 6|-\|/-| 
+Deleted instance throws exception |-\|/-| 2014-12-28T17:37:50Z Closed pull request |-\|/-| 518 +70 −4 cs 3|-\|/-| 
+Added KeyPress handler to MainModList |-\|/-| 2014-12-11T12:48:15Z Merged pull request |-\|/-| 515 +54 −2 cs 2|-\|/-| 
+Fixed format string in GUI/Program.cs |-\|/-| 2014-12-04T18:14:25Z Merged pull request |-\|/-| 514 +1 −1 cs 1|-\|/-| 
+Relationship resolver2 |-\|/-| 2014-12-05T04:06:20Z Closed pull request |-\|/-| 513 +57 −62 cs 1|-\|/-| 
+Relationship resolver |-\|/-| 2014-12-03T09:20:55Z Closed pull request |-\|/-| 511 +47 −68 cs 1|-\|/-| 
+Re-apply sorting upon modlist update. |-\|/-| 2014-12-03T02:05:57Z Merged pull request |-\|/-| 506 +3 −0 cs 1|-\|/-| 
+Certificate fix |-\|/-| 2014-12-05T16:26:23Z Merged pull request |-\|/-| 504 +7 −2 cs 2|-\|/-| 
+Travis: Start xvfb for GUI tests. |-\|/-| 2014-12-05T16:25:54Z Merged pull request |-\|/-| 503 +6 −0 yml 1|-\|/-| 
+RFC: CKAN mirrors |-\|/-| 2014-12-28T17:37:23Z Closed pull request |-\|/-| 502 +99 −32 cs 3|-\|/-| 
+Refactor mod list |-\|/-| 2014-12-12T13:08:39Z Merged pull request |-\|/-| 498 +511 −466 cs csproj 5|-\|/-| 
+Unify name filtering and type filtering to use row.Visable. |-\|/-| 2014-12-02T04:58:22Z Closed pull request |-\|/-| 495 +105 −117 cs 3|-\|/-| 
+GUI Upgrades, now with choices all together! |-\|/-| 2014-12-01T09:44:26Z Merged pull request |-\|/-| 494 +88 −40 cs 1|-\|/-| 
+Changes working directory to Kerbal folder before running |-\|/-| 2014-12-01T06:00:18Z Merged pull request |-\|/-| 493 +5 −4 cs 1|-\|/-| 
+Added ability to do tests on a registry from live data. |-\|/-| 2014-12-01T05:35:11Z Merged pull request |-\|/-| 492 +72 −1 cs csproj md json 5|-\|/-| 
+Optimise version comparisons |-\|/-| 2014-11-29T10:21:12Z Merged pull request |-\|/-| 486 +242 −26 cs 3|-\|/-| 
+Fixed bug with Auto-detected mods |-\|/-| 2014-11-29T10:29:50Z Merged pull request |-\|/-| 485 +3 −0 cs 1|-\|/-| 
+Improve performance of the GUI |-\|/-| 2014-11-29T10:44:53Z Closed pull request |-\|/-| 483 +108 −175 cs 2|-\|/-| 
+Various optimizations |-\|/-| 2014-12-01T10:00:58Z Merged pull request |-\|/-| 482 +43 −66 cs 5|-\|/-| 
+Handle a repo without releases |-\|/-| 2014-11-28T18:23:58Z Merged pull request |-\|/-| 480 +21 −2 cs 2|-\|/-| 
+Fix GetPreferredInstance |-\|/-| 2014-11-28T18:22:40Z Closed pull request |-\|/-| 479 +0 −7 cs 1|-\|/-| 
+ckan-validate.py bugfix |-\|/-| 2014-11-28T18:26:30Z Merged pull request |-\|/-| 476 +3 −1 py 1|-\|/-| 
+Alternative JSON validator |-\|/-| 2014-11-28T08:24:11Z Merged pull request |-\|/-| 475 +51 −0 py 1|-\|/-| 
+GUI: Auto-detected mods now colored and cannot be uninstalled or upgraded |-\|/-| 2014-11-28T16:55:51Z Merged pull request |-\|/-| 474 +23 −4 cs 1|-\|/-| 
+GUI now uses the new ModuleInstaller.Upgrade() |-\|/-| 2014-12-01T09:44:26Z Closed pull request |-\|/-| 473 +70 −33 cs 1|-\|/-| 
+Allow NetKAN to authenticate with GitHub |-\|/-| 2014-11-27T21:27:52Z Merged pull request |-\|/-| 472 +13 −0 cs 3|-\|/-| 
+Fix NetKAN bug with missing homepage |-\|/-| 2014-11-27T09:07:32Z Merged pull request |-\|/-| 471 +7 −2 cs 1|-\|/-| 
+More aggressive escaping of URLs by NetKAN |-\|/-| 2014-11-27T06:55:30Z Merged pull request |-\|/-| 470 +68 −21 cs 4|-\|/-| 
+Fix line spacing on Windows |-\|/-| 2014-11-27T06:18:27Z Merged pull request |-\|/-| 469 +1 −1 cs 1|-\|/-| 
+Fix: ArgumentOutOfRangeException if you don't properly select a KSP install dir |-\|/-| 2014-11-27T05:31:48Z Merged pull request |-\|/-| 467 +5 −0 cs 2|-\|/-| 
+Fix #460 |-\|/-| 2014-11-27T05:32:24Z Closed pull request |-\|/-| 466 +3 −2 cs 1|-\|/-| 
+Revert "NetKAN now has 'cachefile' option" |-\|/-| 2014-11-26T08:13:49Z Merged pull request |-\|/-| 465 +11 −31 cs 2|-\|/-| 
+Update notification - Don't pull yet |-\|/-| 2014-12-28T17:37:44Z Closed pull request |-\|/-| 461 +66 −50 csproj cs 11|-\|/-| 
+Fix wrong url hashes |-\|/-| 2014-11-25T17:07:13Z Merged pull request |-\|/-| 459 +1 −1 cs 1|-\|/-| 
+NetKAN now has 'cachefile' option |-\|/-| 2014-11-25T11:27:06Z Merged pull request |-\|/-| 457 +31 −11 cs 2|-\|/-| 
+Change FixedToolWindow to FixedDialog to avoid a window disappearing bug |-\|/-| 2014-11-25T16:41:11Z Merged pull request |-\|/-| 456 +8 −8 cs 4|-\|/-| 
+Provide `ckan upgrade` functionality. |-\|/-| 2014-11-26T05:07:17Z Merged pull request |-\|/-| 455 +329 −72 cs csproj 6|-\|/-| 
+Some GUI stuff |-\|/-| 2014-11-25T06:41:02Z Merged pull request |-\|/-| 452 +163 −67 cs resx 5|-\|/-| 
+Allow installing to subdirectories of GameData |-\|/-| 2014-11-23T00:55:01Z Merged pull request |-\|/-| 440 +138 −14 schema cs md 5|-\|/-| 
+Allow KSP versions to miss their leading zeros. |-\|/-| 2014-11-23T00:58:12Z Merged pull request |-\|/-| 439 +37 −1 cs 2|-\|/-| 
+Update CKAN.schema |-\|/-| 2014-11-22T07:12:37Z Merged pull request |-\|/-| 429 +1 −0 schema 1|-\|/-| 
+Add About dialog |-\|/-| 2014-11-20T22:21:19Z Merged pull request |-\|/-| 426 +362 −45 cs resx csproj 4|-\|/-| 
+MirrorKAN |-\|/-| 2014-11-22T07:16:45Z Closed pull request |-\|/-| 420 +340 −0 py example 3|-\|/-| 
+#238 added aliases uninstall and ksp use |-\|/-| 2014-11-22T05:54:36Z Closed pull request |-\|/-| 419 +16 −0 cs 3|-\|/-| 
+GUI redesign - Part 2 |-\|/-| 2014-11-20T09:24:40Z Merged pull request |-\|/-| 418 +614 −514 cs csproj 4|-\|/-| 
+Make KSP_VERSION_MIN and KSP_VERSION_MAX independent |-\|/-| 2014-11-19T21:42:52Z Merged pull request |-\|/-| 417 +8 −2 cs 1|-\|/-| 
+Add 'supports' to the schema |-\|/-| 2014-11-26T03:21:17Z Merged pull request |-\|/-| 416 +19 −3 schema cs md 4|-\|/-| 
+Add supports to spec |-\|/-| 2014-11-19T20:04:39Z Closed pull request |-\|/-| 415 +0 −0 0|-\|/-| 
+Added OSX condition to @CP |-\|/-| 2014-11-20T02:40:43Z Merged pull request |-\|/-| 414 +6 −1 bin/build 1|-\|/-| 
+Actually *use* our download hints when downloading files. |-\|/-| 2014-11-20T02:02:34Z Merged pull request |-\|/-| 410 +1 −1 cs 1|-\|/-| 
+only truncate when the console appears limited, fixes #364 |-\|/-| 2014-11-19T01:37:37Z Closed pull request |-\|/-| 407 +10 −2 cs 1|-\|/-| 
+CmdLine Tests - needs some help |-\|/-| 2014-12-28T17:37:37Z Closed pull request |-\|/-| 406 +204 −1 cs csproj 3|-\|/-| 
+Implement `ckan repair registry` command. |-\|/-| 2014-11-19T21:47:05Z Merged pull request |-\|/-| 405 +140 −37 cs csproj 8|-\|/-| 
+GUI redesign - Part 1 |-\|/-| 2014-11-18T09:38:03Z Merged pull request |-\|/-| 401 +563 −780 cs resx csproj 5|-\|/-| 
+Allows installing to subdirectories of GameData |-\|/-| 2014-11-22T06:58:29Z Closed pull request |-\|/-| 394 +89 −8 cs md 2|-\|/-| 
+Visual Studio build fix |-\|/-| 2014-11-17T10:27:18Z Merged pull request |-\|/-| 393 +4 −6 cs 2|-\|/-| 
+Makefile fixes |-\|/-| 2014-11-17T06:57:01Z Merged pull request |-\|/-| 392 +43 −6 Makefile bin/build lean 3|-\|/-| 
+Build: explicitly call mono when re-packing. |-\|/-| 2014-11-17T06:33:46Z Merged pull request |-\|/-| 391 +4 −0 bin/build lean 2|-\|/-| 
+Added a Makefile, because unix folks know what to do with this. |-\|/-| 2014-11-17T04:01:41Z Merged pull request |-\|/-| 390 +18 −0 Makefile 1|-\|/-| 
+Use stronger types for module metadata. |-\|/-| 2014-11-17T02:22:42Z Merged pull request |-\|/-| 389 +236 −92 csproj cs 11|-\|/-| 
+The great repo filesystem restructure |-\|/-| 2014-11-17T01:18:43Z Merged pull request |-\|/-| 388 +13 −9 csproj cs 10|-\|/-| 
+Updated CKAN.schema to match spec on release_status. |-\|/-| 2014-11-16T12:31:33Z Merged pull request |-\|/-| 383 +1 −1 schema 1|-\|/-| 
+The [Y/N] prompt waits for the user to hit enter |-\|/-| 2014-12-01T10:29:40Z Closed pull request |-\|/-| 371 +16 −11 cs 1|-\|/-| 
+Fixed release tests. Nicer cmdline output. |-\|/-| 2014-11-14T06:19:09Z Merged pull request |-\|/-| 358 +4 −2 cs 2|-\|/-| 
+Provide better output on `ckan available` |-\|/-| 2014-11-14T04:34:51Z Merged pull request |-\|/-| 357 +2 −1 cs 1|-\|/-| 
+CmdLine: Provide better diagnostics on file conflict. |-\|/-| 2014-11-14T03:52:14Z Merged pull request |-\|/-| 355 +45 −3 cs 3|-\|/-| 
+CmdLine: Provide better diagnostics on file conflict. |-\|/-| 2014-11-14T03:22:53Z Closed pull request |-\|/-| 354 +45 −3 cs 3|-\|/-| 
+Selecting inconsistent mods no longer crashes the GUI. |-\|/-| 2014-11-14T03:50:19Z Merged pull request |-\|/-| 349 +29 −8 cs 2|-\|/-| 
+Fix the CKAN schema to comply with the JSON Schema Schema |-\|/-| 2014-11-14T00:54:58Z Merged pull request |-\|/-| 347 +5 −5 schema 1|-\|/-| 
+CmdLine: No longer spam the user with file removes |-\|/-| 2014-11-13T13:02:16Z Merged pull request |-\|/-| 343 +4 −1 cs 1|-\|/-| 
+Force a GameData scan after installing mods. |-\|/-| 2014-11-13T13:07:39Z Merged pull request |-\|/-| 342 +12 −4 cs 1|-\|/-| 
+NetAsyncDownloader: Throw MissingCertificateKraken on missing certs. |-\|/-| 2014-11-13T13:14:37Z Merged pull request |-\|/-| 341 +47 −14 cs 4|-\|/-| 
+Cmdline: Fix typo: "Manage KSP insatlls". |-\|/-| 2014-11-13T13:15:35Z Merged pull request |-\|/-| 340 +1 −1 cs 1|-\|/-| 
+No longer query the user during transactions. |-\|/-| 2014-11-13T13:17:00Z Merged pull request |-\|/-| 339 +24 −15 cs 2|-\|/-| 
+RelationshipResolver fixes |-\|/-| 2014-11-14T00:40:24Z Merged pull request |-\|/-| 338 +47 −10 cs 5|-\|/-| 
+Disable experimental features iff we're on a stable branch. |-\|/-| 2014-11-13T13:59:09Z Merged pull request |-\|/-| 337 +68 −35 cs 5|-\|/-| 
+Fewer ugly messages when removing/upgrading non-existent mods. |-\|/-| 2014-11-13T14:20:02Z Merged pull request |-\|/-| 336 +683 −198 cs 3|-\|/-| 
+Convert the registry to always storing relative paths. |-\|/-| 2014-11-13T14:20:02Z Merged pull request |-\|/-| 329 +603 −185 cs 3|-\|/-| 
+Readme improvements |-\|/-| 2014-11-12T13:28:15Z Merged pull request |-\|/-| 328 +21 −68 md 0|-\|/-| 
+Make KSP.cs a nicer place to work. |-\|/-| 2014-11-13T13:54:45Z Merged pull request |-\|/-| 324 +115 −91 cs 1|-\|/-| 
+Rearranged KSP.cs to make it easier to read and navigate |-\|/-| 2014-11-12T07:27:08Z Closed pull request |-\|/-| 323 +115 −91 cs 1|-\|/-| 
+Marking `master` (aka development) as unstable. |-\|/-| 2014-11-11T14:02:15Z Merged pull request |-\|/-| 321 +6 −6 csproj 6|-\|/-| 
+GUI fixes |-\|/-| 2014-11-14T03:25:14Z Closed pull request |-\|/-| 320 +2 −2 cs 1|-\|/-| 
+Detect .dlls regardless of case |-\|/-| 2014-11-11T11:32:49Z Merged pull request |-\|/-| 319 +82 −17 cs 3|-\|/-| 
+Provide and use zip validation methods for the cache. |-\|/-| 2014-11-11T11:30:32Z Merged pull request |-\|/-| 318 +78 −10 cs 5|-\|/-| 
+Introduce and check for 'STABLE' build constants. |-\|/-| 2014-11-11T11:29:48Z Merged pull request |-\|/-| 317 +126 −173 yml sln csproj cs bin/build lean t 13|-\|/-| 
+Always compile for 'any' arch, with full debugging. |-\|/-| 2014-11-11T11:29:23Z Merged pull request |-\|/-| 316 +30 −163 yml sln csproj bin/build lean 10|-\|/-| 
+Always use normalised, absolute paths for KSP. |-\|/-| 2014-11-11T03:46:22Z Merged pull request |-\|/-| 314 +283 −1 cs bin/build 3|-\|/-| 
+Test and build tagging improvements. |-\|/-| 2014-11-11T03:56:20Z Merged pull request |-\|/-| 312 +417 −50 yml cs 4|-\|/-| 
+Update how we handle CKAN spec version numbers |-\|/-| 2014-11-10T18:13:44Z Merged pull request |-\|/-| 311 +272 −24 schema cs 8|-\|/-| 
+Refactor Version to use named captures |-\|/-| 2014-11-10T18:13:03Z Merged pull request |-\|/-| 310 +12 −7 cs 1|-\|/-| 
+NetKAN: Search more aggressively for .version files. |-\|/-| 2014-11-10T18:13:17Z Merged pull request |-\|/-| 309 +25 −7 cs 1|-\|/-| 
+Refactoring of NetAsyncDownloader and ModuleInstaller |-\|/-| 2014-11-10T07:53:33Z Merged pull request |-\|/-| 305 +327 −229 cs 1|-\|/-| 
+CmdLine users now get continuous feedback on download progress. |-\|/-| 2014-11-10T07:53:33Z Merged pull request |-\|/-| 301 +38 −8 cs csproj 4|-\|/-| 
+Increased NetAsyncDownloader bandwidth sample window to 3 seconds |-\|/-| 2014-11-09T12:41:49Z Merged pull request |-\|/-| 299 +1 −1 cs 1|-\|/-| 
+fixed #279 by making sure the modname is not empty. We might need to thr... |-\|/-| 2014-11-09T11:10:35Z Merged pull request |-\|/-| 298 +11 −4 cs 1|-\|/-| 
+Fixed a bug where ships could no longer be installed. |-\|/-| 2014-11-09T08:29:02Z Merged pull request |-\|/-| 297 +13 −1 cs 2|-\|/-| 
+Cache entirely based upon URLs. |-\|/-| 2014-11-09T08:29:02Z Merged pull request |-\|/-| 296 +541 −195 csproj cs 4|-\|/-| 
+I brokez the NetKAN. This fixes it. |-\|/-| 2014-11-09T03:37:43Z Merged pull request |-\|/-| 294 +5 −1 cs 1|-\|/-| 
+NetKAN: Search Github assets to only download zipfile. |-\|/-| 2014-11-09T01:47:01Z Merged pull request |-\|/-| 293 +20 −2 cs 1|-\|/-| 
+Bugfix: Make top-level components installable. |-\|/-| 2014-11-09T01:43:18Z Merged pull request |-\|/-| 292 +125 −19 cs csproj ckan zip 9|-\|/-| 
+Added tests to make sure ModuleInstaller is generating destination paths. |-\|/-| 2014-11-08T22:37:08Z Merged pull request |-\|/-| 289 +60 −36 cs 3|-\|/-| 
+Path utils with extra tests. |-\|/-| 2014-11-08T21:55:00Z Closed pull request |-\|/-| 288 +50 −6 cs csproj 4|-\|/-| 
+Now removing leading parts of paths in FindInstallableFiles. Also added ... |-\|/-| 2014-11-08T23:12:00Z Merged pull request |-\|/-| 287 +112 −12 cs csproj 5|-\|/-| 
+NetFileCache and LocalRepo |-\|/-| 2014-11-09T05:04:37Z Closed pull request |-\|/-| 282 +470 −142 csproj cs 5|-\|/-| 
+Fix unused variable warnings. |-\|/-| 2014-11-07T08:11:02Z Merged pull request |-\|/-| 277 +6 −7 cs 1|-\|/-| 
+Extra test to ensure DLLs participate in conflicts. |-\|/-| 2014-11-07T02:53:14Z Merged pull request |-\|/-| 276 +10 −0 cs 1|-\|/-| 
+Fixes tabs to spaces. |-\|/-| 2014-11-07T02:39:01Z Merged pull request |-\|/-| 275 +4 −4 cs 1|-\|/-| 
+NetKAN: No longer index pre-releases. |-\|/-| 2014-11-07T02:08:14Z Merged pull request |-\|/-| 274 +9 −2 cs 1|-\|/-| 
+Avoid CKAN.sln accidentally being updated |-\|/-| 2014-11-06T11:08:11Z Merged pull request |-\|/-| 272 +142 −0 yml sln sh 3|-\|/-| 
+Make Monodevelop use Csharp formatting again. |-\|/-| 2014-11-06T04:09:24Z Merged pull request |-\|/-| 271 +56 −30 sln csproj 4|-\|/-| 
+Registry transactions! They work, bitches! |-\|/-| 2014-11-05T18:26:07Z Merged pull request |-\|/-| 268 +235 −2 cs 2|-\|/-| 
+Sample Corrupt Zipfile and Tests which currently fail #242 |-\|/-| 2014-11-06T04:14:44Z Merged pull request |-\|/-| 267 +28 −1 cs zip 3|-\|/-| 
+Our relationship resolver no longer tries to install conflicting mods. |-\|/-| 2014-11-05T13:39:50Z Merged pull request |-\|/-| 264 +333 −76 cs 4|-\|/-| 
+Consistency checks and file overwrite prevention. |-\|/-| 2014-11-05T12:39:53Z Merged pull request |-\|/-| 263 +238 −74 cs 4|-\|/-| 
+Migrate the NetKAN infrastructure to its own repository. |-\|/-| 2014-11-05T01:33:28Z Merged pull request |-\|/-| 262 +1 −2,740 yml ckan md 20|-\|/-| 
+Fix transaction timeouts and directory removal. |-\|/-| 2014-11-04T13:16:41Z Merged pull request |-\|/-| 258 +48 −45 cs 1|-\|/-| 
+Fixup: Sniff our platform for applying Apartment fixes. |-\|/-| 2014-11-04T12:06:37Z Closed pull request |-\|/-| 257 +8 −2 cs 1|-\|/-| 
+Small GUI stuff |-\|/-| 2014-11-04T12:03:38Z Merged pull request |-\|/-| 256 +194 −122 sln cs resx 6|-\|/-| 
+Fixed missing file select dialog |-\|/-| 2014-11-04T09:03:13Z Merged pull request |-\|/-| 255 +11 −0 cs 2|-\|/-| 
+Update NetKAN files for new CKAN spec. |-\|/-| 2014-11-04T05:49:57Z Merged pull request |-\|/-| 254 +11 −30 ckan bin/firespitter-downloader 9|-\|/-| 
+Updated the spec to be in line with current policy. |-\|/-| 2014-11-04T05:37:05Z Merged pull request |-\|/-| 253 +159 −134 schema csproj cs 8|-\|/-| 
+Correctly remove directories on un-install. |-\|/-| 2014-11-04T02:56:04Z Merged pull request |-\|/-| 252 +15 −11 cs 1|-\|/-| 
+windows path fix and some gui stuff |-\|/-| 2014-11-03T15:41:10Z Merged pull request |-\|/-| 250 +153 −156 csproj cs config resx 10|-\|/-| 
+Missing recommends/suggests are no longer fatal errors. |-\|/-| 2014-11-03T15:36:39Z Merged pull request |-\|/-| 249 +35 −26 cs 2|-\|/-| 
+Update RealismOverhaul stack in the NetKAN. |-\|/-| 2014-11-03T15:36:49Z Merged pull request |-\|/-| 247 +438 −6 cs csproj ckan 13|-\|/-| 
+Added AVC support to the NetKAN. |-\|/-| 2014-11-03T15:36:49Z Merged pull request |-\|/-| 245 +255 −2 cs csproj ckan version 15|-\|/-| 
+Enforced sanity on registry and relational checks. |-\|/-| 2014-11-03T05:17:44Z Merged pull request |-\|/-| 244 +608 −70 csproj cs 4|-\|/-| 
+Updated CustomBiomes-Data-RSS with new naming convention. |-\|/-| 2014-11-03T15:36:49Z Merged pull request |-\|/-| 243 +3 −3 ckan 1|-\|/-| 
+Cmdline bugfixes |-\|/-| 2014-11-02T09:51:32Z Merged pull request |-\|/-| 239 +4 −6 cs 2|-\|/-| 
+Better linting of NetKAN files. |-\|/-| 2014-11-02T02:36:55Z Merged pull request |-\|/-| 234 +3 −22 yml bin/validate-netkan 2|-\|/-| 
+Leave progress window open after after operations finish |-\|/-| 2014-11-02T01:50:45Z Merged pull request |-\|/-| 233 +85 −69 cs resx 10|-\|/-| 
+Add KerbalConstructionTime and StageRecovery ckan fragments |-\|/-| 2014-11-02T03:47:48Z Merged pull request |-\|/-| 231 +38 −0 ckan 2|-\|/-| 
+Some cleanup of Custom Asteroids and RemoteTech configs |-\|/-| 2014-11-01T06:19:51Z Closed pull request |-\|/-| 227 +41 −39 ckan 2|-\|/-| 
+Bugfix to SharpZipLib. |-\|/-| 2014-10-31T15:35:08Z Merged pull request |-\|/-| 222 +9,542 −3 csproj cs dll xml md nupkg zip 12|-\|/-| 
+Added SRL and QuickRevert to the NetKAN. |-\|/-| 2014-10-31T12:18:16Z Merged pull request |-\|/-| 220 +18 −0 ckan 2|-\|/-| 
+Added filter support. Deprecated many things. |-\|/-| 2014-10-31T11:28:34Z Merged pull request |-\|/-| 218 +385 −208 yml schema csproj cs 8|-\|/-| 
+NetKAN: Always use default_version_id to locate latest release. |-\|/-| 2014-10-31T08:38:09Z Merged pull request |-\|/-| 217 +49 −3 cs json md 6|-\|/-| 
+NetKAN: Always use default_version_id to locate latest release. |-\|/-| 2014-10-31T08:30:44Z Merged pull request |-\|/-| 216 +49 −3 cs json md 6|-\|/-| 
+Fix oopsed bugtracker field in NetKAN/RemoteTech.ckan |-\|/-| 2014-10-31T06:38:12Z Merged pull request |-\|/-| 213 +1 −3 ckan 1|-\|/-| 
+Create CustomAsteroids.ckan |-\|/-| 2014-10-31T12:22:21Z Merged pull request |-\|/-| 212 +20 −0 ckan 1|-\|/-| 
+Update RemoteTech.ckan |-\|/-| 2014-10-31T05:57:55Z Merged pull request |-\|/-| 210 +14 −2 ckan 1|-\|/-| 
+Add filters, deprecate bundles and install options. |-\|/-| 2014-10-31T08:30:17Z Merged pull request |-\|/-| 209 +247 −205 yml schema csproj cs 8|-\|/-| 
+Always write files in binary mode. |-\|/-| 2014-10-30T14:57:29Z Merged pull request |-\|/-| 206 +68 −3 cs csproj 3|-\|/-| 
+NetKAN: Add AMEG and TechManager. |-\|/-| 2014-10-30T16:51:34Z Merged pull request |-\|/-| 203 +20 −0 ckan 2|-\|/-| 
+NetKAN: No longer pre-fill KSP version when min/max exists. |-\|/-| 2014-10-30T16:51:25Z Merged pull request |-\|/-| 202 +54 −2 cs 2|-\|/-| 
+DarkMultiPlayer was relicenced to MIT in 0.1.6. |-\|/-| 2014-10-30T13:09:51Z Merged pull request |-\|/-| 200 +0 −1 ckan 1|-\|/-| 
+Fix command-line when we don't have a preferred KSP install. |-\|/-| 2014-10-30T11:01:50Z Merged pull request |-\|/-| 198 +282 −227 cs csproj 4|-\|/-| 
+Move CmdLine options into its own file. |-\|/-| 2014-10-30T08:28:16Z Merged pull request |-\|/-| 197 +232 −224 csproj cs 2|-\|/-| 
+Added USITools to the NetKAN. |-\|/-| 2014-10-28T23:02:31Z Merged pull request |-\|/-| 194 +17 −0 ckan 1|-\|/-| 
+Added firespitter-downloader, a utility to package FirespitterCore |-\|/-| 2014-10-28T23:02:58Z Merged pull request |-\|/-| 193 +144 −0 bin/firespitter-downloader 1|-\|/-| 
+`netkan` no longer requires a KSP install to operate. |-\|/-| 2014-10-29T08:13:10Z Merged pull request |-\|/-| 192 +89 −42 cs md 5|-\|/-| 
+The all new and amazing NetKAN! |-\|/-| 2014-10-28T12:35:20Z Merged pull request |-\|/-| 191 +2,309 −379 ackrc gitignore yml sln cs 12|-\|/-| 
+Netkan: Check we'd actually install files when generating metadata. |-\|/-| 2014-10-28T08:05:11Z Merged pull request |-\|/-| 189 +14 −4 cs 2|-\|/-| 
+Transactions for EVERYONE! |-\|/-| 2014-10-28T08:04:46Z Merged pull request |-\|/-| 187 +306 −366 csproj cs 3|-\|/-| 
+Fix RelationshipResolver to examine provides as well. |-\|/-| 2014-10-28T08:04:59Z Merged pull request |-\|/-| 184 +110 −35 cs 5|-\|/-| 
+Updated settings for easier coding |-\|/-| 2014-10-27T09:34:27Z Merged pull request |-\|/-| 182 +58 −49 ackrc sln 2|-\|/-| 
+Wrap many disposable resources in `using` blocks. |-\|/-| 2014-10-27T09:33:03Z Merged pull request |-\|/-| 180 +409 −176 csproj cs 6|-\|/-| 
+Saner handling of detected DLLs. |-\|/-| 2014-10-27T09:33:04Z Merged pull request |-\|/-| 178 +173 −46 csproj cs 9|-\|/-| 
+Fixed multi upgrade bug in GUI (#167) |-\|/-| 2014-10-26T11:08:58Z Merged pull request |-\|/-| 176 +6 −1 cs 1|-\|/-| 
+No longer allow "install nothing" operations (#93). |-\|/-| 2014-10-27T09:33:03Z Merged pull request |-\|/-| 174 +131 −57 cs 4|-\|/-| 
+Code health improvements |-\|/-| 2014-10-26T20:40:23Z Merged pull request |-\|/-| 172 +1,081 −439 csproj cs 4|-\|/-| 
+Transactional file changes update. |-\|/-| 2014-10-26T20:40:24Z Merged pull request |-\|/-| 171 +518 −266 csproj cs 4|-\|/-| 
+Added '.NET Transactional File Manager' support, removed our implementation |-\|/-| 2014-10-26T01:36:31Z Closed pull request |-\|/-| 166 +474 −197 csproj cs 4|-\|/-| 
+Fixed a small bug with resetting the auto-start instance from GUI |-\|/-| 2014-10-25T23:34:11Z Merged pull request |-\|/-| 165 +7 −4 cs 2|-\|/-| 
+Fixes for instance selection |-\|/-| 2014-10-25T10:42:00Z Merged pull request |-\|/-| 164 +25 −11 cs 3|-\|/-| 
+Allow installation of CKAN files from cmdline. |-\|/-| 2014-10-25T10:45:59Z Merged pull request |-\|/-| 163 +259 −53 cs 8|-\|/-| 
+Added RealChute to the BootKAN. |-\|/-| 2014-10-25T10:48:04Z Merged pull request |-\|/-| 162 +13 −1 ckan json 2|-\|/-| 
+Gui fixes |-\|/-| 2014-10-25T04:31:56Z Merged pull request |-\|/-| 158 +25 −5 cs 5|-\|/-| 
+Added basic tests for CKAN.Repo |-\|/-| 2014-10-25T10:46:00Z Merged pull request |-\|/-| 157 +192 −16 cs csproj 10|-\|/-| 
+Fix multi-instance bug |-\|/-| 2014-10-24T16:54:38Z Merged pull request |-\|/-| 155 +1 −1 cs 1|-\|/-| 
+Build system: Windows compatibility fixes. |-\|/-| 2014-10-25T10:47:50Z Merged pull request |-\|/-| 154 +741 −6 0|-\|/-| 
+Added Kerb-fu to the BootKAN. |-\|/-| 2014-10-25T00:55:36Z Merged pull request |-\|/-| 153 +12 −1 ckan json 2|-\|/-| 
+Fixed NetKAN so it can now find its cache again. |-\|/-| 2014-10-25T10:45:59Z Merged pull request |-\|/-| 152 +4 −0 cs 1|-\|/-| 
+Travis releases |-\|/-| 2014-10-24T15:11:45Z Merged pull request |-\|/-| 149 +31 −23 yml cs 2|-\|/-| 
+Added resources.bugtracker to CKAN.Module. |-\|/-| 2014-10-24T13:33:04Z Merged pull request |-\|/-| 148 +23 −5 schema cs md 5|-\|/-| 
+Multi-install support |-\|/-| 2014-10-24T12:56:27Z Merged pull request |-\|/-| 147 +3,042 −1,118 sln csproj 2|-\|/-| 
+Fixups for PR #125 |-\|/-| 2014-10-24T12:48:46Z Merged pull request |-\|/-| 146 +1,042 −737 csproj 1|-\|/-| 
+Improvements to our test framework. |-\|/-| 2014-10-24T12:56:28Z Merged pull request |-\|/-| 144 +157 −92 cs csproj md txt 12|-\|/-| 
+Fixed license on RetroFuture. |-\|/-| 2014-10-24T13:32:15Z Merged pull request |-\|/-| 143 +1 −0 ckan 1|-\|/-| 
+Fix verson detection and validation of KSP gamedir |-\|/-| 2014-10-24T04:20:45Z Merged pull request |-\|/-| 142 +24 −4 cs 1|-\|/-| 
+Oops :| |-\|/-| 2014-10-23T16:14:49Z Merged pull request |-\|/-| 138 +651 −2,294 sln 1|-\|/-| 
+New solution fil |-\|/-| 2014-10-23T16:12:25Z Merged pull request |-\|/-| 137 +2,294 −651 sln 1|-\|/-| 
+Added bugtracker to the spec and schema |-\|/-| 2014-10-24T13:33:04Z Merged pull request |-\|/-| 135 +9 −2 schema md 1|-\|/-| 
+waffle.io Badge |-\|/-| 2014-10-22T11:06:34Z Closed pull request |-\|/-| 134 +1 −0 md 0|-\|/-| 
+No longer fill in spec version on the CKAN. |-\|/-| 2014-10-22T07:40:48Z Merged pull request |-\|/-| 133 +0 −2 cs 2|-\|/-| 
+Default install stanzas. |-\|/-| 2014-10-22T07:41:19Z Merged pull request |-\|/-| 132 +177 −26 ckan cs csproj md zip 11|-\|/-| 
+Added RetroFuture to the BootKAN. |-\|/-| 2014-10-22T07:42:09Z Merged pull request |-\|/-| 131 +24 −1 ckan json 2|-\|/-| 
+Reduce debug spam from ks2ckan/netkan. |-\|/-| 2014-10-22T07:42:00Z Merged pull request |-\|/-| 130 +26 −5 cs 2|-\|/-| 
+Multi-instance support |-\|/-| 2014-10-23T16:12:26Z Merged pull request |-\|/-| 125 +2,290 −651 sln 1|-\|/-| 
+Yet another travis release attempt. |-\|/-| 2014-10-21T11:49:19Z Merged pull request |-\|/-| 124 +4 −3 yml bin/build lean 3|-\|/-| 
+Test github integration against the KSP-CKAN/Test repo. |-\|/-| 2014-10-21T11:21:17Z Merged pull request |-\|/-| 123 +1 −1 cs 1|-\|/-| 
+Warn if a NetKAN file fails to build, but keep going with the rest. |-\|/-| 2014-10-21T11:45:39Z Merged pull request |-\|/-| 122 +7 −1 bin/netkan 1|-\|/-| 
+Add DarkMultiPlayer to BootKAN. |-\|/-| 2014-10-21T08:52:17Z Merged pull request |-\|/-| 121 +21 −0 ckan json 2|-\|/-| 
+Added $kref field descriptions to Spec.md |-\|/-| 2014-10-21T08:46:52Z Merged pull request |-\|/-| 120 +43 −0 md 0|-\|/-| 
+PatchKraken! GUI things, no more dynamic, Github and NetKan support. |-\|/-| 2014-10-21T07:45:19Z Merged pull request |-\|/-| 116 +1,601 −521 yml ckan sln csproj 8|-\|/-| 
+Latest GUI stuff and no more 'dynamic' |-\|/-| 2014-10-21T07:45:19Z Closed pull request |-\|/-| 109 +1,029 −343 sln cs 2|-\|/-| 
+Updated contributing guidelines and license. |-\|/-| 2014-10-21T07:41:38Z Merged pull request |-\|/-| 108 +35 −3 md 0|-\|/-| 
+Added support for Github and the NetKAN. |-\|/-| 2014-10-21T07:45:19Z Closed pull request |-\|/-| 107 +531 −167 yml ckan sln cs 11|-\|/-| 
+Better stripping of paths on install. |-\|/-| 2014-10-20T11:57:35Z Merged pull request |-\|/-| 105 +1 −1 cs 1|-\|/-| 
+Linux fixes by @AlexanderDzhoganov |-\|/-| 2014-10-20T00:00:56Z Merged pull request |-\|/-| 97 +696 −271 cs csproj 8|-\|/-| 
+Linux compatibility fixes |-\|/-| 2014-10-20T00:00:56Z Closed pull request |-\|/-| 96 +697 −272 cs csproj 8|-\|/-| 
+Added download_size field. |-\|/-| 2014-10-20T00:15:16Z Merged pull request |-\|/-| 95 +278 −9 gitignore ckan md schema csproj cs json bin/build 14|-\|/-| 
+Introducing... the BootKAN |-\|/-| 2014-10-20T00:15:16Z Merged pull request |-\|/-| 94 +198 −6 gitignore ckan md csproj cs json bin/build lean bin/kspan 11|-\|/-| 
+Reformatting |-\|/-| 2014-10-19T09:39:00Z Merged pull request |-\|/-| 92 +1,790 −1,686 sln cs 3|-\|/-| 
+KerbalStuff to CKAN converter |-\|/-| 2014-10-19T08:07:03Z Merged pull request |-\|/-| 91 +529 −41 gitignore schema sln cs 8|-\|/-| 
+Added GameRoot and Tutorials to the spec and schema. For #74. |-\|/-| 2014-10-18T10:19:27Z Closed pull request |-\|/-| 86 +5 −3 schema md 1|-\|/-| 
+A lot of work on GUI |-\|/-| 2014-10-18T13:58:23Z Merged pull request |-\|/-| 83 +2,755 −676 gitignore schema sln csproj cs 6|-\|/-| 
+`ckan gui` or `ckan` (no args) will now start the GUI. |-\|/-| 2014-10-17T05:15:32Z Merged pull request |-\|/-| 82 +46 −2 sln csproj cs 4|-\|/-| 
+Compatibility fixes for Mono. Includes and closes #80. |-\|/-| 2014-10-17T01:45:58Z Merged pull request |-\|/-| 81 +2,760 −57 gitignore sln csproj cs 5|-\|/-| 
+Initial work on GUI + some core changes |-\|/-| 2014-10-17T01:46:00Z Merged pull request |-\|/-| 80 +2,752 −47 sln suo csproj cs 5|-\|/-| 
+KSP Version checks, improved build system, stand-alone dll. |-\|/-| 2014-10-16T11:26:52Z Merged pull request |-\|/-| 76 +1,873 −82 gitignore yml schema sln cs csproj 8|-\|/-| 
+Support KSP version checking. |-\|/-| 2014-10-16T11:26:53Z Merged pull request |-\|/-| 73 +562 −59 schema cs csproj 8|-\|/-| 
+bin/build now has no dependencies, and is auto-updated by pre-commit hook. |-\|/-| 2014-10-16T11:26:53Z Merged pull request |-\|/-| 72 +1,208 −3 gitignore yml md 2|-\|/-| 
+More tests for CKAN.Version. And yes, they pass. :) |-\|/-| 2014-10-14T14:33:24Z Merged pull request |-\|/-| 68 +19 −2 cs 1|-\|/-| 
+Implements much of #32 (relationship handling). |-\|/-| 2014-10-14T14:29:39Z Merged pull request |-\|/-| 67 +271 −42 csproj cs 6|-\|/-| 
+Add uploading of build artifacts to S3. |-\|/-| 2014-10-16T01:08:17Z Merged pull request |-\|/-| 66 +20 −0 yml 1|-\|/-| 
+Flipped licenses to the Debian spec. |-\|/-| 2014-10-14T02:30:50Z Merged pull request |-\|/-| 63 +68 −82 schema md 1|-\|/-| 
+Fix all the broken links in README.md |-\|/-| 2014-10-13T06:02:22Z Merged pull request |-\|/-| 59 +6 −6 md 0|-\|/-| 
+Added missing provides to the schema. |-\|/-| 2014-10-13T05:48:46Z Merged pull request |-\|/-| 58 +6 −0 schema 1|-\|/-| 
+Replaced Console.WriteLine with User.Writeline |-\|/-| 2014-10-12T07:14:00Z Merged pull request |-\|/-| 57 +71 −44 csproj cs 9|-\|/-| 
+Display help when called with no options. |-\|/-| 2014-10-12T04:55:58Z Merged pull request |-\|/-| 56 +4 −5 cs 1|-\|/-| 
+Adds KSP directory setting, both cmdline and registry. |-\|/-| 2014-10-11T08:43:39Z Merged pull request |-\|/-| 55 +139 −4 cs 2|-\|/-| 
+`ckan show` no longer dies messily when mod not found. |-\|/-| 2014-10-11T08:44:45Z Merged pull request |-\|/-| 51 +19 −9 cs 1|-\|/-| 
+Add simplistic KSP version detection. |-\|/-| 2014-10-12T01:02:26Z Merged pull request |-\|/-| 50 +36 −2 cs 2|-\|/-| 
+Update CKAN schema and spec, and more stringient validation. |-\|/-| 2014-10-07T10:31:08Z Merged pull request |-\|/-| 46 +147 −27 schema md bin/ckan-validate 2|-\|/-| 
+CKAN repos can be specified on command line |-\|/-| 2014-10-07T10:12:12Z Merged pull request |-\|/-| 45 +575 −73 cs csproj 5|-\|/-| 
+Internet installation now works |-\|/-| 2014-10-07T10:12:12Z Merged pull request |-\|/-| 43 +562 −73 cs csproj 5|-\|/-| 
+Implements `ckan update` and `ckan available`. |-\|/-| 2014-10-07T09:46:32Z Merged pull request |-\|/-| 41 +318 −46 cs csproj 6|-\|/-| 
+Update ckan-validate to pass through exit status. |-\|/-| 2014-10-06T10:17:13Z Merged pull request |-\|/-| 39 +3 −0 bin/ckan-validate 1|-\|/-| 
+Clean up directory checks and find Steam on OSX. |-\|/-| 2014-10-05T03:37:16Z Merged pull request |-\|/-| 35 +21 −38 csproj cs 3|-\|/-| 
+Correctly detect Steam path from registry. |-\|/-| 2014-10-04T07:55:05Z Merged pull request |-\|/-| 26 +4 −3 cs 1|-\|/-| 
+Registry dicts |-\|/-| 2014-09-24T23:39:35Z Merged pull request |-\|/-| 18 +13 −18 cs 3|-\|/-| 
+Add a simple module registry |-\|/-| 2014-09-24T17:37:00Z Merged pull request |-\|/-| 17 +339 −188 csproj cs 4|-\|/-| 
+Add the version of the spec to .ckan documents |-\|/-| 2014-09-23T15:09:33Z Merged pull request |-\|/-| 8 +28 −6 schema md ckan json 10|-\|/-| 
+Allow other licenses |-\|/-| 2014-09-23T15:10:53Z Merged pull request |-\|/-| 7 +10 −1 schema md 1|-\|/-| 
+Try to define an ordering for versions |-\|/-| 2014-09-23T15:07:38Z Merged pull request |-\|/-| 6 +56 −5 md 0|-\|/-| 

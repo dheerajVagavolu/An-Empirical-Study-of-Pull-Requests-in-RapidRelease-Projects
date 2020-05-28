@@ -1,0 +1,734 @@
+Fixed: 4 digit year for log lines |-\|/-| 2020-01-12T15:40:16Z Merged pull request |-\|/-| 4059 +1 −1 cs 1|-\|/-| 
+Fix NZB Finder categories |-\|/-| 2020-01-10T18:37:30Z Merged pull request |-\|/-| 4054 +1 −1 cs 1|-\|/-| 
+Fix indexer seed options, Re-Enable Indexer Flags |-\|/-| 2020-01-07T14:47:31Z Merged pull request |-\|/-| 4039 +144 −22 js cs 16|-\|/-| 
+Add Radarr_Download_Client to OnDownload |-\|/-| 2020-01-06T12:00:41Z Merged pull request |-\|/-| 4034 +1 −0 cs 1|-\|/-| 
+Fixed: Always full build on branch builds |-\|/-| 2020-01-05T05:56:30Z Merged pull request |-\|/-| 4030 +4 −0 yml 1|-\|/-| 
+New: Squash Pre-Fork Sonarr Migrations |-\|/-| 2020-01-10T01:14:18Z Merged pull request |-\|/-| 4029 +471 −5,120 cs 4|-\|/-| 
+Fixed: Regression setting file date |-\|/-| 2020-01-05T23:05:29Z Merged pull request |-\|/-| 4028 +7 −139 cs 3|-\|/-| 
+Fixed: Build on Backend, Not Don’t Build If any Non Backend |-\|/-| 2020-01-03T20:34:29Z Merged pull request |-\|/-| 4026 +16 −16 yml 1|-\|/-| 
+Aphrodite language select |-\|/-| 2020-01-03T03:55:22Z Merged pull request |-\|/-| 4025 +176 −218 js css 7|-\|/-| 
+Fixed: Reverted a change that caused SQL error on Netimport |-\|/-| 2020-01-03T03:28:12Z Merged pull request |-\|/-| 4024 +3 −7 cs 2|-\|/-| 
+Treat any CF over FormatCutoff as being Cutoff met |-\|/-| 2020-01-02T11:36:12Z Merged pull request |-\|/-| 4021 +128 −71 cs 11|-\|/-| 
+Fixed: Correctly add parameters to migrations 36 and 154 |-\|/-| 2019-12-30T16:12:06Z Merged pull request |-\|/-| 4017 +5 −0 cs 2|-\|/-| 
+Fixed: Don't Clean list movies if IMDB Match |-\|/-| 2019-12-30T17:07:39Z Merged pull request |-\|/-| 4016 +414 −11 0|-\|/-| 
+Fixed: Handle 3 digit audio channels |-\|/-| 2020-01-07T14:48:05Z Merged pull request |-\|/-| 4002 +53 −19 cs 2|-\|/-| 
+New: Don't Run Unit/Integration/Analyze Back if no back end changes |-\|/-| 2019-12-28T15:45:26Z Merged pull request |-\|/-| 4001 +80 −12 yml 1|-\|/-| 
+Fix sentry project names |-\|/-| 2019-12-23T21:57:21Z Merged pull request |-\|/-| 4000 +2 −2 yml 1|-\|/-| 
+Fixed: File move uses rename not copy/delete in more cases |-\|/-| 2019-12-25T16:36:08Z Merged pull request |-\|/-| 3999 +31 −5 cs 3|-\|/-| 
+Update sentry DSN to self hosted |-\|/-| 2019-12-23T21:03:38Z Merged pull request |-\|/-| 3998 +7 −6 yml js cs 3|-\|/-| 
+Fix Aphrodite formatting and apply stylecop rules |-\|/-| 2019-12-28T01:40:14Z Merged pull request |-\|/-| 3997 +8,695 −7,958 editorconfig gitignore cs props 19|-\|/-| 
+Slim down mono test suite |-\|/-| 2019-12-22T22:13:04Z Merged pull request |-\|/-| 3996 +7 −19 yml 1|-\|/-| 
+Update NewznabRequestGenerator.cs |-\|/-| 2019-12-22T00:48:26Z Closed pull request |-\|/-| 3983 +1 −0 cs 1|-\|/-| 
+Fixed: Speedup UI during refresh |-\|/-| 2020-01-04T16:25:27Z Merged pull request |-\|/-| 3982 +48 −97 js cs 7|-\|/-| 
+Fixed: Error in epic fail handler if console input redirected |-\|/-| 2019-12-19T22:58:02Z Merged pull request |-\|/-| 3974 +1 −1 cs 1|-\|/-| 
+Fixed: Null exception on EnhanceMovieInfo |-\|/-| 2019-12-19T23:01:14Z Merged pull request |-\|/-| 3973 +6 −6 cs 1|-\|/-| 
+fix language debug |-\|/-| 2019-12-19T03:26:40Z Merged pull request |-\|/-| 3971 +1 −1 cs 1|-\|/-| 
+Swap Marr.Data for Dapper Mk. 2 |-\|/-| 2019-12-28T16:38:35Z Merged pull request |-\|/-| 3968 +2,414 −11,291 js xml cs 7|-\|/-| 
+Revert: Dapper Commits due to Join Issues |-\|/-| 2019-12-18T02:59:05Z Merged pull request |-\|/-| 3964 +11,381 −2,134 xml cs ruleset targets 6|-\|/-| 
+Fixed: Use Download Client name for grabbed history events |-\|/-| 2019-12-19T03:33:52Z Merged pull request |-\|/-| 3963 +1 −1 cs 1|-\|/-| 
+Fixed: Serialize flag enum as string also |-\|/-| 2019-12-17T18:38:34Z Merged pull request |-\|/-| 3962 +1 −18 cs 2|-\|/-| 
+WIP: Include Dolby Vision In HDR detection |-\|/-| 2020-01-12T20:18:57Z Closed pull request |-\|/-| 3959 +36 −3 cs 3|-\|/-| 
+Include Dolby Vision In HDR detection |-\|/-| 2019-12-17T11:10:20Z Closed pull request |-\|/-| 3953 +13 −4 cs 1|-\|/-| 
+New: Change Automation timeout to 3min |-\|/-| 2019-12-15T23:55:15Z Merged pull request |-\|/-| 3951 +3 −1 cs 1|-\|/-| 
+Revert: Geckodriver from 0.26.0 to 0.24.0 |-\|/-| 2019-12-15T18:51:26Z Closed pull request |-\|/-| 3950 +4 −4 yml sh csproj 3|-\|/-| 
+New: Aphrodite smart refresh |-\|/-| 2019-12-17T01:20:36Z Merged pull request |-\|/-| 3949 +86 −11 css js cs 15|-\|/-| 
+New: Trakt Auth per List |-\|/-| 2019-12-15T05:39:17Z Merged pull request |-\|/-| 3948 +117 −118 cs 8|-\|/-| 
+Revert "Fixed: .srt files in subfolders are not being imported" |-\|/-| 2019-12-12T21:58:06Z Merged pull request |-\|/-| 3945 +12 −30 cs 4|-\|/-| 
+Fix languages property |-\|/-| 2019-12-15T01:33:09Z Merged pull request |-\|/-| 3944 +2 −2 js 2|-\|/-| 
+Fixed: Webpack worker loading with UrlBase |-\|/-| 2019-12-11T02:00:41Z Merged pull request |-\|/-| 3939 +4 −5 js 3|-\|/-| 
+Fixed: Sonar failure on external forks |-\|/-| 2019-12-10T03:48:25Z Merged pull request |-\|/-| 3937 +4 −1 yml 1|-\|/-| 
+Fix typo in LogentriesCore.csproj |-\|/-| 2019-12-10T03:42:51Z Merged pull request |-\|/-| 3936 +2 −2 csproj 1|-\|/-| 
+New: Update MonoTorrent from nuget |-\|/-| 2020-01-09T01:53:38Z Merged pull request |-\|/-| 3933 +4 −4,241 cs 1|-\|/-| 
+Fixed: Poster/Overview checkbox in Movie Editor mode |-\|/-| 2019-12-09T21:22:35Z Merged pull request |-\|/-| 3932 +8 −4 js 2|-\|/-| 
+download client settings: change strings to match Radarr |-\|/-| 2019-12-08T05:35:00Z Merged pull request |-\|/-| 3929 +3 −3 cs 3|-\|/-| 
+New: Hookup SonarCloud |-\|/-| 2019-12-07T18:27:19Z Merged pull request |-\|/-| 3927 +116 −81 yml csproj runsettings sh 11|-\|/-| 
+Fixed: UI Search |-\|/-| 2019-12-06T03:06:04Z Merged pull request |-\|/-| 3924 +1 −1 js 1|-\|/-| 
+New: Bump to .NET Core 3.1 |-\|/-| 2019-12-07T02:12:48Z Merged pull request |-\|/-| 3923 +136 −142 yml sh json props csproj cs 13|-\|/-| 
+New: UI Package Updates |-\|/-| 2019-12-07T03:42:17Z Merged pull request |-\|/-| 3920 +1,504 −1,357 md js json cs 3|-\|/-| 
+New: Combine Solutions via Configurations |-\|/-| 2019-12-05T00:28:52Z Closed pull request |-\|/-| 3917 +345 −444 sh sln 2|-\|/-| 
+FIXED: minimumAvailability spec for lists missing(was in develop) |-\|/-| 2019-12-04T01:56:50Z Merged pull request |-\|/-| 3916 +13 −0 js cs 2|-\|/-| 
+New: Bump Version to V3 to please the masses |-\|/-| 2019-12-05T00:28:35Z Merged pull request |-\|/-| 3915 +556 −657 gitignore yml sh plist iss cs csproj 33|-\|/-| 
+New: Replace Marr.Data with Dapper |-\|/-| 2019-12-16T20:22:59Z Merged pull request |-\|/-| 3911 +2,168 −11,378 xml cs ruleset targets 6|-\|/-| 
+need to be able to specify the intended minimumAvailability for the t… |-\|/-| 2019-12-03T04:14:23Z Closed pull request |-\|/-| 3906 +124 −109 js cs 2|-\|/-| 
+Added a EAC3 Atmos option |-\|/-| 2019-12-10T03:52:47Z Merged pull request |-\|/-| 3900 +7 −2 cs 2|-\|/-| 
+Add in last and in next filter types |-\|/-| 2019-11-27T04:03:07Z Closed pull request |-\|/-| 3894 +16 −0 js 1|-\|/-| 
+Increase session expiry time |-\|/-| 2019-12-02T00:36:12Z Closed pull request |-\|/-| 3888 +1 −1 cs 1|-\|/-| 
+Fix: Typo in UI dropdown for time format |-\|/-| 2019-11-24T05:32:16Z Merged pull request |-\|/-| 3886 +1 −1 js 1|-\|/-| 
+Update README.md |-\|/-| 2019-11-16T12:28:01Z Merged pull request |-\|/-| 3883 +7 −7 md 0|-\|/-| 
+use isAvailable to determine if a movie isAvailable. |-\|/-| 2019-11-16T00:17:20Z Merged pull request |-\|/-| 3882 +26 −3 js 3|-\|/-| 
+ needed to add hasFile in the FooterConnector otherwise getting 0 |-\|/-| 2019-11-16T00:23:34Z Merged pull request |-\|/-| 3881 +18 −3 js 2|-\|/-| 
+Fixed: Cutoff Status and Filter on MovieIndex |-\|/-| 2019-12-22T21:45:29Z Closed pull request |-\|/-| 3880 +84 −36 js cs 4|-\|/-| 
+add this code back since it can vastly improve netimport performance |-\|/-| 2019-11-16T00:20:13Z Merged pull request |-\|/-| 3879 +6 −0 cs 1|-\|/-| 
+WIP: Trakt auth2 |-\|/-| 2019-12-15T02:11:36Z Closed pull request |-\|/-| 3876 +379 −16 js json 6|-\|/-| 
+Fix: Aphrodite UI enhancements |-\|/-| 2019-11-27T14:19:36Z Merged pull request |-\|/-| 3873 +1,529 −1,305 js 7|-\|/-| 
+Fixed: TVDB references in RefreshMovieService.cs |-\|/-| 2019-11-12T15:39:00Z Merged pull request |-\|/-| 3871 +2 −2 cs 1|-\|/-| 
+Fixed: SSL certificate import |-\|/-| 2019-11-07T16:17:04Z Merged pull request |-\|/-| 3865 +1 −2 cs 1|-\|/-| 
+New: Option to send notification when a Health Check warning occurs |-\|/-| 2019-11-05T01:50:12Z Merged pull request |-\|/-| 3861 +253 −5 js cs 18|-\|/-| 
+Bump handlebars from 3.0.3 to 4.1.2 |-\|/-| 2019-11-09T23:42:46Z Closed pull request |-\|/-| 3859 +39 −15 json 2|-\|/-| 
+Fixed: Quality Parser and Augmenter Picks Wrong Quality |-\|/-| 2019-11-02T18:11:53Z Merged pull request |-\|/-| 3848 +1,091 −613 cs 6|-\|/-| 
+Fixed: Added qBittorent state 'moving' |-\|/-| 2019-11-04T02:42:55Z Merged pull request |-\|/-| 3847 +2 −1 cs 1|-\|/-| 
+WIP Fixed: Quality Parsed Incorrectly on Import |-\|/-| 2019-10-31T04:57:43Z Closed pull request |-\|/-| 3843 +382 −382 cs 7|-\|/-| 
+Auto blacklist failed torrents |-\|/-| 2019-10-26T14:49:16Z Closed pull request |-\|/-| 3841 +154,688 −204,750 editorconfig esprintrc gitattributes rc 4|-\|/-| 
+URL encode test collection title |-\|/-| 2020-01-12T21:11:10Z Closed pull request |-\|/-| 3839 +1 −1 js 1|-\|/-| 
+Added Discord notifications. |-\|/-| 2019-11-13T19:15:28Z Closed pull request |-\|/-| 3833 +263 −1 cs csproj 8|-\|/-| 
+Fixed: open links in new tab on meta click |-\|/-| 2019-11-04T02:45:25Z Merged pull request |-\|/-| 3831 +7 −7 js 1|-\|/-| 
+Add: Always Move Files When Importing  |-\|/-| 2019-10-20T10:07:24Z Closed pull request |-\|/-| 3829 +38 −1 cs hbs 5|-\|/-| 
+Aphrodite fix update |-\|/-| 2019-10-16T19:25:36Z Merged pull request |-\|/-| 3823 +17 −9 props cs 6|-\|/-| 
+Fixed: Replaced episode with movie in UpgradeSpecification |-\|/-| 2019-10-11T18:49:44Z Merged pull request |-\|/-| 3805 +2 −2 cs 1|-\|/-| 
+New: Add List and Discovery Pages |-\|/-| 2019-10-06T03:21:56Z Merged pull request |-\|/-| 3803 +3,659 −24 js 1|-\|/-| 
+New: Added links to wiki and examples from add/edit custom tags dialog |-\|/-| 2019-11-24T05:37:41Z Merged pull request |-\|/-| 3786 +6 −0 hbs 1|-\|/-| 
+Fixed: link to the custom format examples |-\|/-| 2019-10-24T01:03:27Z Merged pull request |-\|/-| 3785 +1 −1 hbs 1|-\|/-| 
+Fix RARBG URL Scheme |-\|/-| 2019-09-15T21:01:08Z Closed pull request |-\|/-| 3766 +2 −2 cs 2|-\|/-| 
+Fix RARBG URL Scheme |-\|/-| 2019-12-10T04:29:22Z Merged pull request |-\|/-| 3765 +2 −2 cs 2|-\|/-| 
+Fix MediaInfoFormatter: Unable to format audio channels using 'AudioC… |-\|/-| 2019-11-30T14:17:56Z Closed pull request |-\|/-| 3763 +1 −1 cs 1|-\|/-| 
+Fix InvalidOperationException |-\|/-| 2019-09-24T17:32:11Z Closed pull request |-\|/-| 3762 +1 −1 cs 1|-\|/-| 
+New: Port to .net Core 3.0 |-\|/-| 2019-10-16T00:22:51Z Merged pull request |-\|/-| 3752 +5,766 −26,983 gitattributes gitignore 2|-\|/-| 
+Changed: Regenerate package-lock.json for secondary package updates |-\|/-| 2019-09-09T03:05:16Z Merged pull request |-\|/-| 3750 +4,984 −5,770 0|-\|/-| 
+New: Platform Updates, Socket Closure Workaround |-\|/-| 2019-09-06T13:59:21Z Merged pull request |-\|/-| 3746 +2,206 −777 cs 9|-\|/-| 
+Radarr nancy kestrel |-\|/-| 2019-09-09T00:53:38Z Merged pull request |-\|/-| 3744 +1,837 −22,965 gitignore yml 2|-\|/-| 
+New: Convert to New CSProj Format |-\|/-| 2019-09-04T03:21:16Z Merged pull request |-\|/-| 3741 +18,759 −18,441 circleci/Dockerfile yml xslt gitattributes gitmodules npmrc 8|-\|/-| 
+New: Get Custom Formats Working in Aphrodite |-\|/-| 2019-08-31T19:54:34Z Merged pull request |-\|/-| 3732 +1,066 −50 js css 7|-\|/-| 
+Set up CI with Azure Pipelines |-\|/-| 2019-08-31T03:03:22Z Closed pull request |-\|/-| 3730 +370 −109 yml cs csproj 13|-\|/-| 
+Updated isoLanguages.cs |-\|/-| 2019-08-29T19:12:11Z Closed pull request |-\|/-| 3726 +3 −3 cs 2|-\|/-| 
+New: Added reposting groups as exclusions into CleanReleaseGroupRegex |-\|/-| 2019-09-01T15:39:28Z Merged pull request |-\|/-| 3720 +11 −1 cs 2|-\|/-| 
+New: Use MediaInfo on File Parsing |-\|/-| 2019-08-25T19:08:26Z Merged pull request |-\|/-| 3718 +1,070 −671 cs 6|-\|/-| 
+Remove Nyaa (it's long dead). |-\|/-| 2019-08-25T18:52:12Z Closed pull request |-\|/-| 3716 +40 −237 cs csproj 8|-\|/-| 
+update qBittorrent metaDL state |-\|/-| 2019-09-01T15:48:17Z Closed pull request |-\|/-| 3699 +5 −0 cs 1|-\|/-| 
+Fixed: Parse UHDRemux as Remux and not as WEB-DL |-\|/-| 2019-09-01T15:46:10Z Merged pull request |-\|/-| 3696 +2 −1 cs 2|-\|/-| 
+Parse UHDRemux as Remux and not as WEB-DL |-\|/-| 2019-08-15T09:38:13Z Closed pull request |-\|/-| 3695 +2 −1 cs 2|-\|/-| 
+New: Enable Sentry Analytics |-\|/-| 2019-08-07T02:20:48Z Merged pull request |-\|/-| 3669 +698 −5,791 js 1|-\|/-| 
+Fix warning when QBittorrent torrents are in the "Downloading Metadata" state |-\|/-| 2019-09-05T02:51:00Z Closed pull request |-\|/-| 3656 +1 −0 cs 1|-\|/-| 
+Fixed: .srt files in subfolders are not being imported |-\|/-| 2019-09-01T15:53:41Z Merged pull request |-\|/-| 3647 +30 −12 cs 4|-\|/-| 
+Fixed: Net Import Causes DB error due to Duplicates |-\|/-| 2019-11-21T23:52:23Z Closed pull request |-\|/-| 3620 +25 −47 cs 1|-\|/-| 
+onGrab email update |-\|/-| 2019-07-10T20:59:54Z Closed pull request |-\|/-| 3613 +4 −1 cs 1|-\|/-| 
+TMDB: Added support for People Cast and People Crew lists |-\|/-| 2019-12-22T06:27:06Z Closed pull request |-\|/-| 3612 +198 −34 cs 5|-\|/-| 
+Fixed: Wanted Cutoff Page filters |-\|/-| 2019-07-10T22:12:31Z Merged pull request |-\|/-| 3611 +48 −13 cs 4|-\|/-| 
+Fixed: TMDB Failing due to missing response header |-\|/-| 2019-09-01T15:55:34Z Merged pull request |-\|/-| 3610 +14 −8 cs 1|-\|/-| 
+Update XbmcMetadata.cs |-\|/-| 2019-07-16T12:23:04Z Closed pull request |-\|/-| 3609 +7 −1 cs 1|-\|/-| 
+New: Movie Editor in Movie Index |-\|/-| 2019-07-13T00:40:38Z Merged pull request |-\|/-| 3606 +823 −962 js css 21|-\|/-| 
+Fixed: All integration tests and some code which was wrong. |-\|/-| 2019-07-07T22:45:53Z Merged pull request |-\|/-| 3604 +105 −77 yml cs csproj 9|-\|/-| 
+Fixed: When refreshing info about a movie, the alt titles should now correctly be deleted / updated, even from TMDB. |-\|/-| 2019-07-07T22:15:36Z Merged pull request |-\|/-| 3603 +181 −33 cs csproj 7|-\|/-| 
+Add support for Ukrainian language. |-\|/-| 2019-07-10T08:38:56Z Merged pull request |-\|/-| 3594 +10 −1 cs 4|-\|/-| 
+Initial support to Brazilian Portuguese (pt-br) |-\|/-| 2019-09-03T01:00:54Z Closed pull request |-\|/-| 3590 +26 −4 cs 5|-\|/-| 
+Authentication fix for Deluge v2 |-\|/-| 2019-06-21T22:36:28Z Merged pull request |-\|/-| 3577 +18 −2 cs 1|-\|/-| 
+Added UHD, X265, WEB-DL etc. to NZB Finder |-\|/-| 2020-01-11T16:40:26Z Merged pull request |-\|/-| 3568 +1 −1 cs 1|-\|/-| 
+Fixed: Movie Details Tab |-\|/-| 2019-07-06T13:47:12Z Merged pull request |-\|/-| 3564 +1,570 −826 js css 11|-\|/-| 
+Allow RefreshMovieInterval to be set from the UI |-\|/-| 2019-10-07T14:26:21Z Closed pull request |-\|/-| 3546 +45 −3 cs hbs 5|-\|/-| 
+Fix search for RARBG |-\|/-| 2019-07-10T08:41:59Z Merged pull request |-\|/-| 3544 +9 −3 cs 2|-\|/-| 
+Feature/tmdb collection support #3538 |-\|/-| 2019-12-22T06:27:06Z Closed pull request |-\|/-| 3541 +149 −88 csproj cs 5|-\|/-| 
+Feature Request: Upgrade Custom Formats in Wanted #3246 |-\|/-| 2019-07-30T14:59:18Z Closed draft pull request |-\|/-| 3535 +42 −22 json cs 4|-\|/-| 
+Allow RefreshMovieInterval to be set from the UI |-\|/-| 2019-05-21T19:34:20Z Closed pull request |-\|/-| 3520 +35 −5 cs hbs 6|-\|/-| 
+Allow RefreshMovieInterval to be set from the UI |-\|/-| 2019-05-10T12:52:35Z Closed draft pull request |-\|/-| 3519 +34 −3 cs hbs 5|-\|/-| 
+Allow RefreshMovieInterval to be set from the UI |-\|/-| 2019-05-10T02:07:16Z Closed pull request |-\|/-| 3518 +28 −2 cs hbs 5|-\|/-| 
+added Watchlist and Favorites in the TMDB definitions |-\|/-| 2019-12-22T06:27:05Z Closed pull request |-\|/-| 3516 +17 −3 cs 3|-\|/-| 
+#3514 fix library shown as empty after filter returns no movies and page is refreshed |-\|/-| 2019-05-30T18:31:32Z Merged pull request |-\|/-| 3515 +5 −1 js 2|-\|/-| 
+Fix bug copytoclipboard |-\|/-| 2019-05-02T10:38:01Z Merged pull request |-\|/-| 3495 +91 −58 gitignore 1|-\|/-| 
+Jwildman16 256logo 1 |-\|/-| 2019-05-02T10:55:01Z Merged pull request |-\|/-| 3479 +0 −0 png 1|-\|/-| 
+New: Added support for Gotify notifications |-\|/-| 2019-05-02T10:49:22Z Merged pull request |-\|/-| 3474 +159 −0 cs csproj 6|-\|/-| 
+Update 256.png to include transparency |-\|/-| 2019-04-10T22:56:54Z Closed pull request |-\|/-| 3470 +6 −0 png 1|-\|/-| 
+Fixed QBittorrent initial state paused |-\|/-| 2019-03-23T03:20:19Z Closed pull request |-\|/-| 3442 +10 −0 cs 1|-\|/-| 
+Update CustomFormatService.cs |-\|/-| 2019-05-02T10:55:49Z Merged pull request |-\|/-| 3432 +2 −2 cs 1|-\|/-| 
+Delete Empty Folders option |-\|/-| 2019-05-25T11:50:02Z Closed pull request |-\|/-| 3418 +37 −0 cs hbs 5|-\|/-| 
+Solve ambiguous naming |-\|/-| 2019-05-02T10:40:52Z Merged pull request |-\|/-| 3417 +1 −1 hbs 1|-\|/-| 
+Update README.md |-\|/-| 2019-03-19T09:56:26Z Merged pull request |-\|/-| 3409 +1 −1 md 0|-\|/-| 
+Aphrodite |-\|/-| 2019-02-25T05:39:25Z Closed pull request |-\|/-| 3395 +96,956 −146,223 yml esprintrc gitignore npmrc yarnrc md cake sh json 8|-\|/-| 
+Changed: Adjust Max Slider Value for Qualities |-\|/-| 2019-03-19T09:59:58Z Merged pull request |-\|/-| 3393 +2 −2 js hbs 2|-\|/-| 
+Fixed: Support new feed url format IPTorrents |-\|/-| 2019-03-19T10:03:41Z Merged pull request |-\|/-| 3390 +62 −4 cs 2|-\|/-| 
+Fixed: Edition Tags Not Showing in UI |-\|/-| 2019-03-19T10:08:16Z Merged pull request |-\|/-| 3389 +10 −53 hbs 8|-\|/-| 
+New: Support Krypton Kodi Unique Ids |-\|/-| 2019-03-19T10:03:21Z Merged pull request |-\|/-| 3388 +13 −0 cs 1|-\|/-| 
+Fixed: Cannot Add ITA or ITALIAN custom format |-\|/-| 2019-02-24T17:26:20Z Merged pull request |-\|/-| 3385 +4 −2 cs 2|-\|/-| 
+Fixed: Forced Subs not parsed by SubtitleLanguageRegex |-\|/-| 2019-02-24T17:07:49Z Merged pull request |-\|/-| 3384 +3 −1 cs 2|-\|/-| 
+Fixed: Error in unicode cleanup code removing most non-latin chars |-\|/-| 2019-02-24T17:08:29Z Merged pull request |-\|/-| 3383 +1 −1 cs 1|-\|/-| 
+Fixed: Word Boundary on Edition |-\|/-| 2019-02-24T17:03:43Z Merged pull request |-\|/-| 3382 +7 −4 cs 2|-\|/-| 
+New: Nzb Validation and Nzbget/SAB URLBase |-\|/-| 2019-02-24T17:16:13Z Merged pull request |-\|/-| 3380 +458 −82 cs nzb 5|-\|/-| 
+Fix mis-classification of releases as being Czech |-\|/-| 2019-02-24T17:00:05Z Merged pull request |-\|/-| 3378 +2 −1 cs 2|-\|/-| 
+Match MBluray releases |-\|/-| 2019-02-24T16:59:26Z Merged pull request |-\|/-| 3358 +7 −1 cs 2|-\|/-| 
+Update for V2 of QBittorrent API |-\|/-| 2019-09-05T02:51:29Z Closed pull request |-\|/-| 3356 +145 −32 cs 2|-\|/-| 
+Update docker link in README |-\|/-| 2019-01-31T10:31:26Z Merged pull request |-\|/-| 3339 +1 −1 md 0|-\|/-| 
+qBittorrent API V2 Support |-\|/-| 2019-02-08T15:51:17Z Closed pull request |-\|/-| 3328 +14 −13 cs 1|-\|/-| 
+Fixed: Prevent NullRef in CustomScript on Grab for Indexer |-\|/-| 2019-02-18T10:10:23Z Merged pull request |-\|/-| 3323 +1 −1 cs 1|-\|/-| 
+Fix emby library update |-\|/-| 2019-02-18T10:12:35Z Merged pull request |-\|/-| 3318 +20 −8 cs 3|-\|/-| 
+Added: Remote poster and fanart references to Kodi metadata file (#2837) |-\|/-| 2019-04-27T23:33:07Z Merged pull request |-\|/-| 3302 +27 −4 cs 1|-\|/-| 
+Use subfolder inside recycle bin when deleting |-\|/-| 2019-05-25T11:50:01Z Closed pull request |-\|/-| 3300 +39 −21 cs 7|-\|/-| 
+Added support for forcedUP status |-\|/-| 2018-12-30T13:17:03Z Merged pull request |-\|/-| 3277 +6 −0 cs 1|-\|/-| 
+New: Add Radarr_Download_Id and Radarr_Download_Client to PP scripts |-\|/-| 2019-05-02T10:52:33Z Merged pull request |-\|/-| 3276 +9 −3 cs 3|-\|/-| 
+New: Use APIKey & APIUser for authenticating to PassThePopcorn. |-\|/-| 2018-12-30T13:17:27Z Merged pull request |-\|/-| 3264 +73 −18 cs csproj 4|-\|/-| 
+Add UHD-BR-DISK Quality |-\|/-| 2019-02-18T10:18:37Z Closed pull request |-\|/-| 3259 +13 −4 cs 3|-\|/-| 
+Fixing Issue 840 |-\|/-| 2019-05-02T10:51:22Z Merged pull request |-\|/-| 3233 +33 −3 cs hbs 5|-\|/-| 
+Logo Update |-\|/-| 2019-03-20T15:42:06Z Closed pull request |-\|/-| 3231 +215 −155 png svg icns csproj ico xml json html 92|-\|/-| 
+Logo Update |-\|/-| 2018-12-03T23:47:42Z Closed pull request |-\|/-| 3230 +215 −155 png svg icns csproj ico xml json html 92|-\|/-| 
+Fixed: A lot of memory issues, such as IDisposable leakage and leaking all the media covers. |-\|/-| 2019-01-10T07:36:35Z Merged pull request |-\|/-| 3227 +2,439 −2,299 gitignore debian/rules 2|-\|/-| 
+Add ability to unmonitor a movie after cutoff is met. |-\|/-| 2018-12-06T12:12:13Z Closed pull request |-\|/-| 3224 +58 −1 cs hbs 5|-\|/-| 
+New: rTorrent - Don't start download automatically |-\|/-| 2018-12-07T10:26:27Z Merged pull request |-\|/-| 3222 +48 −15 cs 4|-\|/-| 
+Fixed: MediaInfo Unit Test Failing due to AudioAdditionalFeatures after MediaInfo update |-\|/-| 2018-12-06T11:59:02Z Merged pull request |-\|/-| 3221 +2 −2 cs 1|-\|/-| 
+New: Remove Pre, postbot, xpost suffixes from release groups |-\|/-| 2018-12-07T10:22:07Z Merged pull request |-\|/-| 3220 +7 −3 cs 3|-\|/-| 
+New: Secure URLs for Links and Services |-\|/-| 2018-12-07T10:21:44Z Merged pull request |-\|/-| 3219 +20 −30 cs csproj js 11|-\|/-| 
+Fixed: TitleThe doesn't handle separators |-\|/-| 2019-02-11T15:54:52Z Closed pull request |-\|/-| 3218 +93 −20 csproj cs 3|-\|/-| 
+Fixed: Bump default version to prevent update running from source |-\|/-| 2018-12-07T10:20:55Z Merged pull request |-\|/-| 3199 +5 −5 cs 2|-\|/-| 
+Read video 'BitRate_Nominal' if 'BitRate' is empty |-\|/-| 2018-11-07T19:55:49Z Merged pull request |-\|/-| 3144 +4 −0 cs 1|-\|/-| 
+Fallback to 'VideoCodec' if 'VideoFormat' is unavailable |-\|/-| 2018-11-07T19:57:50Z Merged pull request |-\|/-| 3142 +8 −7 cs js 5|-\|/-| 
+Increase minimum/current media info schema revision |-\|/-| 2018-10-31T18:26:34Z Closed pull request |-\|/-| 3141 +4 −3 cs 3|-\|/-| 
+Improve model and UI handling for lists |-\|/-| 2018-10-30T10:07:36Z Merged pull request |-\|/-| 3133 +3 −5 js 1|-\|/-| 
+Skip movie search if movie was added as "unmonitored" |-\|/-| 2018-10-30T10:09:55Z Merged pull request |-\|/-| 3131 +1 −0 cs 1|-\|/-| 
+Add tags support to NetImport (Lists) |-\|/-| 2019-05-02T10:57:40Z Merged pull request |-\|/-| 3127 +47 −4 cs csproj js hbs 10|-\|/-| 
+Pull request for issue #3122: Exclude the snap locations from the disk usage list |-\|/-| 2018-10-30T10:05:54Z Closed pull request |-\|/-| 3124 +9 −4 cs 2|-\|/-| 
+Fixes quality badge not being shown on bulk movie import |-\|/-| 2018-10-30T10:05:04Z Merged pull request |-\|/-| 3121 +2 −2 hbs 1|-\|/-| 
+Don't return unmapped folders on rootfolder API call |-\|/-| 2018-10-23T09:25:41Z Merged pull request |-\|/-| 3116 +27 −1 cs 2|-\|/-| 
+Extra files stage2 |-\|/-| 2018-10-22T13:29:56Z Closed pull request |-\|/-| 3113 +12 −15 cs hbs 4|-\|/-| 
+Feature/rename folders |-\|/-| 2018-10-22T01:42:09Z Closed pull request |-\|/-| 3112 +469 −57 cs csproj 13|-\|/-| 
+. |-\|/-| 2018-10-22T17:47:00Z Closed pull request |-\|/-| 3111 +15,456 −8,855 circleci/Dockerfile yml gitattributes rc release gitignore name iml xml 14|-\|/-| 
+Tweak style of movie path template on "bulk import movies" screen |-\|/-| 2018-10-30T21:06:33Z Merged pull request |-\|/-| 3108 +11 −1 hbs less 2|-\|/-| 
+Trim filename from Kodi movie path before sending library scan request. |-\|/-| 2018-10-30T10:02:31Z Merged pull request |-\|/-| 3097 +4 −1 cs 1|-\|/-| 
+Fix renamer behavior |-\|/-| 2019-04-17T16:58:33Z Closed pull request |-\|/-| 3096 +15 −26 cs 1|-\|/-| 
+Add TMDB/IMDB url in Kodi metadata |-\|/-| 2019-11-17T16:14:32Z Merged pull request |-\|/-| 3095 +125 −116 cs 2|-\|/-| 
+Add support for Homebrew-installed mono |-\|/-| 2018-10-20T17:38:33Z Merged pull request |-\|/-| 3090 +4 −0 osx/Radarr 1|-\|/-| 
+Include the URL to the TMDB page for the movie |-\|/-| 2018-12-20T11:47:34Z Closed pull request |-\|/-| 3059 +3 −0 cs 1|-\|/-| 
+Refactor MediaInfo tokens (fixes old tokens adds new stuff) |-\|/-| 2018-10-30T20:45:00Z Merged pull request |-\|/-| 3058 +1,071 −260 dll dylib cs 6|-\|/-| 
+Allow directory to be parsed similar to past implementation |-\|/-| 2018-10-15T07:43:24Z Merged pull request |-\|/-| 3057 +4 −4 cs 1|-\|/-| 
+WIP: Fixes {MediaInfo VideoCodec} token |-\|/-| 2018-09-26T17:12:12Z Closed pull request |-\|/-| 3056 +958 −237 cs 4|-\|/-| 
+Ignore "special drives" from System » Disk Space |-\|/-| 2018-10-30T21:07:52Z Merged pull request |-\|/-| 3050 +183 −6 cs csproj 5|-\|/-| 
+Fixed class names on the 'add movies screen' |-\|/-| 2018-09-24T14:44:03Z Merged pull request |-\|/-| 3047 +3 −3 hbs less 2|-\|/-| 
+Use proper cursor for text and linked labels |-\|/-| 2018-09-24T14:43:44Z Merged pull request |-\|/-| 3041 +4 −0 less 1|-\|/-| 
+Add "Add Paused" option to Deluge and Transmission |-\|/-| 2018-09-18T15:24:56Z Merged pull request |-\|/-| 3038 +24 −10 cs 5|-\|/-| 
+All-around small improvements |-\|/-| 2018-09-18T15:23:48Z Merged pull request |-\|/-| 3032 +22 −28 cs js hbs less 21|-\|/-| 
+[WIP] Additions to custom formats, such as rescanning old files. |-\|/-| 2018-09-10T19:25:11Z Merged pull request |-\|/-| 2949 +1,321 −3,765 gitignore xml iml cs csproj 14|-\|/-| 
+Add Czech Lang |-\|/-| 2018-09-12T14:46:58Z Merged pull request |-\|/-| 2948 +15 −4 cs 4|-\|/-| 
+Bigger quality slider size for larger file limits |-\|/-| 2018-07-19T00:41:03Z Closed pull request |-\|/-| 2907 +1 −1 js 1|-\|/-| 
+Fixed: Debug log Series reference in QualityAllowedByProfile spec |-\|/-| 2018-07-18T20:16:06Z Merged pull request |-\|/-| 2899 +1 −1 cs 1|-\|/-| 
+Fixed: Multiple UI Fixes and Additions |-\|/-| 2018-07-15T21:35:14Z Merged pull request |-\|/-| 2894 +711 −861 js hbs 19|-\|/-| 
+Added: Adds unmonitored filter option in index and editor |-\|/-| 2018-07-14T20:50:57Z Merged pull request |-\|/-| 2888 +19 −1 js 3|-\|/-| 
+Added: Monitor Toggle on Movies Editor Page |-\|/-| 2018-07-14T18:24:17Z Merged pull request |-\|/-| 2887 +10 −0 js 1|-\|/-| 
+Added: Fallback to Bitrate_Nominal for MediaInfo |-\|/-| 2018-09-12T14:45:55Z Merged pull request |-\|/-| 2886 +5 −1 cs 1|-\|/-| 
+Fixed: .vtt files treated as subtitles |-\|/-| 2018-07-18T20:17:15Z Merged pull request |-\|/-| 2885 +2 −1 cs 1|-\|/-| 
+Fixed: multiline in table view |-\|/-| 2018-07-15T02:30:59Z Merged pull request |-\|/-| 2870 +1 −1 less 1|-\|/-| 
+fixed issue #2813 |-\|/-| 2018-09-24T17:15:54Z Closed pull request |-\|/-| 2847 +37 −3 cs 2|-\|/-| 
+changed "importing an episode" to "importing a movie file" |-\|/-| 2018-07-08T21:26:48Z Merged pull request |-\|/-| 2829 +2 −2 hbs 2|-\|/-| 
+New: Added indexer flags to the list of environmental variables |-\|/-| 2018-05-24T21:51:56Z Merged pull request |-\|/-| 2801 +1 −0 cs 1|-\|/-| 
+Fixed: Don’t allow profile delete list |-\|/-| 2018-05-21T08:32:21Z Merged pull request |-\|/-| 2797 +54 −9 cs js 3|-\|/-| 
+New: Purge alt titles on movie delete |-\|/-| 2018-05-21T08:42:00Z Merged pull request |-\|/-| 2796 +21 −17 cs 2|-\|/-| 
+New: mk3d file format |-\|/-| 2018-09-18T15:25:43Z Merged pull request |-\|/-| 2795 +3 −0 cs 2|-\|/-| 
+Fixed: Rare timing issue on first-use causing duplicate naming config |-\|/-| 2018-05-24T21:51:06Z Merged pull request |-\|/-| 2790 +28 −4 cs csproj 3|-\|/-| 
+Fixed: Qbittorrent state and eta fixes |-\|/-| 2018-05-21T08:43:07Z Merged pull request |-\|/-| 2789 +18 −5 csproj cs 4|-\|/-| 
+Fixed: Omgwtfnzbs api categories search need to be fix |-\|/-| 2018-05-07T19:10:37Z Merged pull request |-\|/-| 2764 +1 −1 cs 1|-\|/-| 
+New: Use websockets to communicate with UI |-\|/-| 2019-05-06T00:24:49Z Closed pull request |-\|/-| 2729 +3,757 −22,141 csproj cs 6|-\|/-| 
+Fixed: Register Growl as Radarr to avoid issues with Sonarr |-\|/-| 2018-04-16T22:24:11Z Merged pull request |-\|/-| 2715 +2 −3 cs 1|-\|/-| 
+Added: Setting for Colon Replacement Format |-\|/-| 2018-04-16T22:22:55Z Merged pull request |-\|/-| 2711 +213 −286 cs 12|-\|/-| 
+Added: Enable Download Client Priorities |-\|/-| 2018-04-15T03:03:33Z Merged pull request |-\|/-| 2699 +242 −53 cs 15|-\|/-| 
+Add configurable setting for "replace illegal characters" behavior |-\|/-| 2018-04-15T02:39:25Z Closed pull request |-\|/-| 2696 +507 −380 yml cs csproj 8|-\|/-| 
+Fixed: Multiple Calendar Issues, Other UI Fixes |-\|/-| 2018-03-28T16:54:51Z Merged pull request |-\|/-| 2685 +112 −957 js hbs less 10|-\|/-| 
+Fixed: Add form param before submitting request |-\|/-| 2018-03-26T10:03:12Z Merged pull request |-\|/-| 2674 +2 −2 cs 1|-\|/-| 
+[WIP] Added: Ability to add custom formats (work similar to qualities) |-\|/-| 2018-08-05T14:28:06Z Merged pull request |-\|/-| 2669 +12,770 −4,277 circleci/Dockerfile yml gitattributes release name iml xml md 12|-\|/-| 
+New: Setting for absolute maximum size for a release |-\|/-| 2018-03-26T07:03:44Z Merged pull request |-\|/-| 2662 +220 −66 cs csproj hbs 9|-\|/-| 
+Fixed: Don't add category when removing torrent from qBittorrent |-\|/-| 2018-03-22T22:56:48Z Merged pull request |-\|/-| 2661 +5 −5 cs 1|-\|/-| 
+Add configurable setting for "replace illegal characters" behavior |-\|/-| 2018-04-03T04:23:21Z Closed pull request |-\|/-| 2658 +5,627 −5,518 cs 1|-\|/-| 
+Set category when adding torrent to qBittorrent |-\|/-| 2018-03-19T10:44:36Z Merged pull request |-\|/-| 2649 +10 −0 cs 1|-\|/-| 
+Added: Radarr now stores cookies for PTP beyond restarts.  |-\|/-| 2018-04-01T18:21:25Z Merged pull request |-\|/-| 2643 +1,296 −212 json xml iml 3|-\|/-| 
+Fixed: Misc Extra File Improvements |-\|/-| 2018-04-01T19:48:23Z Merged pull request |-\|/-| 2642 +343 −95 cs csproj 11|-\|/-| 
+Add underscore to host part of URI regex |-\|/-| 2018-03-22T22:56:24Z Merged pull request |-\|/-| 2633 +1 −1 cs 1|-\|/-| 
+Fixed: Incorrect Kodi nfo date format |-\|/-| 2018-03-05T09:07:27Z Merged pull request |-\|/-| 2605 +2 −2 cs 1|-\|/-| 
+Fixed: Pin Cake and Addin Versions |-\|/-| 2018-03-01T07:56:00Z Merged pull request |-\|/-| 2590 +19 −9 gitignore cake ps1 config 4|-\|/-| 
+Cleanup Series Code |-\|/-| 2018-03-14T20:41:37Z Merged pull request |-\|/-| 2589 +2,837 −18,869 cs 8|-\|/-| 
+Fixed: Movies not getting unmonitored when folder gets deleted |-\|/-| 2018-03-04T14:24:07Z Merged pull request |-\|/-| 2588 +1 −6 cs 1|-\|/-| 
+changed: which event handler triggers movie search |-\|/-| 2018-03-04T14:24:49Z Merged pull request |-\|/-| 2587 +1 −1 js 1|-\|/-| 
+Fixed: Multiple History Issues |-\|/-| 2018-02-26T15:08:44Z Merged pull request |-\|/-| 2571 +33 −269 cs 5|-\|/-| 
+Fixed: Poster sliding issues |-\|/-| 2018-02-26T15:08:57Z Merged pull request |-\|/-| 2570 +8 −8 js hbs less 3|-\|/-| 
+Parsing of resolution in TVRips |-\|/-| 2018-02-22T09:23:44Z Closed pull request |-\|/-| 2566 +16 −2 cs 2|-\|/-| 
+movie metadata links |-\|/-| 2018-02-21T10:02:05Z Merged pull request |-\|/-| 2562 +34 −31 hbs less 5|-\|/-| 
+Another Delete modal that needed the fix. Fixes #2537 |-\|/-| 2018-02-21T10:02:49Z Merged pull request |-\|/-| 2560 +4 −2 hbs 1|-\|/-| 
+osx app has bundle name of Sonarr |-\|/-| 2018-02-20T13:40:36Z Merged pull request |-\|/-| 2555 +1 −1 plist 1|-\|/-| 
+Bulk Impoprt - Remove sorting on Monitor/Profile |-\|/-| 2018-02-20T13:41:02Z Merged pull request |-\|/-| 2553 +3 −1 js 1|-\|/-| 
+Wrap div in form-group. Fixes #2537 |-\|/-| 2018-02-20T13:41:36Z Merged pull request |-\|/-| 2552 +4 −2 hbs 1|-\|/-| 
+New: Device names for Join notifications |-\|/-| 2018-02-19T07:18:37Z Merged pull request |-\|/-| 2544 +13 −5 cs 2|-\|/-| 
+Fixed: Unable to execute custom scripts if IMDB ID is null |-\|/-| 2018-02-19T07:19:15Z Merged pull request |-\|/-| 2543 +30 −12 cs 2|-\|/-| 
+Fixed: Radarr Changes every file due to timezones |-\|/-| 2018-02-18T14:06:27Z Merged pull request |-\|/-| 2533 +14 −11 cs 1|-\|/-| 
+New: Same File Size MediaFile Specification |-\|/-| 2018-02-18T16:29:42Z Merged pull request |-\|/-| 2532 +111 −0 cs csproj 4|-\|/-| 
+Fixed: Help icon not centered |-\|/-| 2018-02-18T14:06:54Z Merged pull request |-\|/-| 2531 +1 −0 less 1|-\|/-| 
+Cleanup TV related code in API |-\|/-| 2018-02-19T07:18:15Z Merged pull request |-\|/-| 2530 +444 −1,682 cs 6|-\|/-| 
+Cleanup Series Code from UI |-\|/-| 2018-02-16T09:53:41Z Merged pull request |-\|/-| 2525 +9 −6,241 js hbs 12|-\|/-| 
+Add quotes around alternative titles |-\|/-| 2018-02-15T10:17:00Z Merged pull request |-\|/-| 2522 +2 −2 js 1|-\|/-| 
+Backup improvements from Sonarr |-\|/-| 2018-02-13T18:07:27Z Merged pull request |-\|/-| 2513 +84 −20 cs csproj 7|-\|/-| 
+Add Czech Language |-\|/-| 2018-04-23T13:54:47Z Closed pull request |-\|/-| 2512 +14 −6 cs 3|-\|/-| 
+New: Refactor Extra Files for Movies |-\|/-| 2018-02-15T12:39:02Z Merged pull request |-\|/-| 2506 +1,361 −1,739 cs csproj 5|-\|/-| 
+Fixed: XSS vulnerability in the navbar search. |-\|/-| 2018-02-11T16:20:55Z Merged pull request |-\|/-| 2505 +3 −1 js 1|-\|/-| 
+Update NzbDrone references in FirewallAdapter.cs |-\|/-| 2018-02-11T16:22:31Z Merged pull request |-\|/-| 2504 +3 −3 cs 1|-\|/-| 
+Fixed: Integration Unit Tests |-\|/-| 2018-02-13T18:10:50Z Merged pull request |-\|/-| 2500 +424 −565 cs 8|-\|/-| 
+Fixed: StartNzbDroneService.cs unit test |-\|/-| 2018-02-09T23:04:23Z Merged pull request |-\|/-| 2499 +2 −2 cs 1|-\|/-| 
+successfully obtain tmdb auth v4 session id |-\|/-| 2018-04-27T18:37:28Z Closed pull request |-\|/-| 2498 +149 −34 cs js hbs 5|-\|/-| 
+selectAll and deselectAll MovieEditor buttons |-\|/-| 2018-02-09T16:59:32Z Merged pull request |-\|/-| 2497 +36 −1 js 1|-\|/-| 
+fix build problem on windows |-\|/-| 2018-02-08T14:35:41Z Merged pull request |-\|/-| 2493 +3 −3 cs 1|-\|/-| 
+punctuation replaced by space when parsing title |-\|/-| 2018-02-15T14:31:33Z Closed pull request |-\|/-| 2487 +1 −1 cs 1|-\|/-| 
+Added: Option to require indexer flags per indexer. |-\|/-| 2018-02-01T13:18:53Z Merged pull request |-\|/-| 2460 +194 −121 cs 11|-\|/-| 
+Look for changes to package.json before using old build cache |-\|/-| 2018-01-26T07:55:00Z Merged pull request |-\|/-| 2445 +1 −1 yml 1|-\|/-| 
+Apostrophe in movie titles cause indexer issues when searching for re… |-\|/-| 2018-02-15T13:31:44Z Closed pull request |-\|/-| 2425 +2 −0 cs 1|-\|/-| 
+Bring Diskstation up to date with sonarr. |-\|/-| 2018-04-05T19:24:22Z Merged pull request |-\|/-| 2420 +295 −152 csproj cs 8|-\|/-| 
+Update TMDbSettings.cs to allow OR separated Genre IDs Issue #2278 |-\|/-| 2018-01-11T16:06:26Z Merged pull request |-\|/-| 2389 +6 −6 cs 1|-\|/-| 
+Scan flat files into database |-\|/-| 2018-03-22T20:03:17Z Closed pull request |-\|/-| 2380 +196 −67 json cs csproj 11|-\|/-| 
+Update HistoryDetailsLayoutTemplate.hbs |-\|/-| 2017-12-21T12:42:03Z Merged pull request |-\|/-| 2361 +2 −2 hbs 1|-\|/-| 
+Customize Slack Channel |-\|/-| 2017-12-04T08:07:43Z Merged pull request |-\|/-| 2308 +11 −0 cs 3|-\|/-| 
+Added support for VF2 french tag. |-\|/-| 2017-12-12T21:28:37Z Merged pull request |-\|/-| 2291 +2 −1 cs 2|-\|/-| 
+Add preliminary support for seed ratio settings. |-\|/-| 2018-03-18T15:40:41Z Closed pull request |-\|/-| 2289 +133 −16 cs 16|-\|/-| 
+fixed moment.js deprecated zone and add functions |-\|/-| 2017-11-16T19:20:41Z Merged pull request |-\|/-| 2264 +15 −15 js 8|-\|/-| 
+Extra data |-\|/-| 2018-02-15T12:39:02Z Closed pull request |-\|/-| 2262 +897 −121 cs 7|-\|/-| 
+Add separate naming tags for AudioLanguage and SubtitleLanguage |-\|/-| 2017-12-12T22:53:11Z Merged pull request |-\|/-| 2261 +14 −1 cs hbs 2|-\|/-| 
+Attempt to fix #2218 |-\|/-| 2017-11-12T11:25:47Z Merged pull request |-\|/-| 2258 +46 −21 gitignore cs 5|-\|/-| 
+Fixes #2218. |-\|/-| 2017-11-08T18:39:50Z Merged pull request |-\|/-| 2254 +12 −4 gitignore cs 3|-\|/-| 
+add sceneName to MovieFile API output |-\|/-| 2017-11-10T15:13:15Z Merged pull request |-\|/-| 2250 +1 −0 cs 1|-\|/-| 
+Notification Cleanup |-\|/-| 2017-11-10T15:11:10Z Merged pull request |-\|/-| 2240 +243 −1,107 cs 5|-\|/-| 
+Add authentication to Webhook |-\|/-| 2017-11-04T05:46:30Z Closed pull request |-\|/-| 2236 +27 −2 cs 3|-\|/-| 
+Added subdir to the defined TempFolder that is user specific |-\|/-| 2018-06-19T07:20:07Z Closed pull request |-\|/-| 2233 +2 −2 cs 1|-\|/-| 
+fixed moment.js deprecated zone and add and lossless compression of images |-\|/-| 2017-11-10T15:08:03Z Merged pull request |-\|/-| 2232 +8 −8 js png 12|-\|/-| 
+Added FolderPath to the Movie Webhook |-\|/-| 2017-11-10T15:06:46Z Merged pull request |-\|/-| 2230 +3 −1 cs 2|-\|/-| 
+Add Download_Id to On Download/On Upgrade |-\|/-| 2017-10-29T18:19:30Z Merged pull request |-\|/-| 2229 +16 −7 cs 5|-\|/-| 
+Add Movie_Quality to onGrab |-\|/-| 2017-10-28T15:19:50Z Merged pull request |-\|/-| 2221 +4 −1 cs 1|-\|/-| 
+Update Webhook |-\|/-| 2017-10-28T15:18:53Z Merged pull request |-\|/-| 2220 +207 −179 cs 11|-\|/-| 
+Add message about adblockers preventing the log table from loading |-\|/-| 2017-10-23T19:50:03Z Merged pull request |-\|/-| 2213 +4 −0 hbs 1|-\|/-| 
+Sabnzbd Update test cases and rename to MovieCategory |-\|/-| 2017-10-23T19:49:03Z Merged pull request |-\|/-| 2212 +42 −42 cs 3|-\|/-| 
+Nzbget Rename TvCategory references to MovieCategory |-\|/-| 2017-10-23T19:47:49Z Merged pull request |-\|/-| 2211 +32 −32 cs 5|-\|/-| 
+Update Webhook |-\|/-| 2017-10-24T18:44:02Z Closed pull request |-\|/-| 2210 +325 −289 md cs 6|-\|/-| 
+pull req. |-\|/-| 2017-10-22T11:24:08Z Closed pull request |-\|/-| 2208 +125 −32 cs csproj 7|-\|/-| 
+Add IsUpgrade and related deleted file paths for CustomScript |-\|/-| 2017-10-23T00:49:38Z Merged pull request |-\|/-| 2205 +6 −0 cs 1|-\|/-| 
+Allow profiles to select release that contains MULTI tags |-\|/-| 2018-02-15T17:14:45Z Closed pull request |-\|/-| 2196 +80 −17 cs csproj hbs 11|-\|/-| 
+uTorrent initial state feature |-\|/-| 2017-10-23T00:51:07Z Merged pull request |-\|/-| 2192 +43 −15 cs csproj 6|-\|/-| 
+Change default port of qBittorrent download client config |-\|/-| 2017-10-23T00:49:55Z Merged pull request |-\|/-| 2187 +1 −1 cs 1|-\|/-| 
+Fix typo on margin-bottom property hotkeys.less |-\|/-| 2017-10-15T14:11:28Z Merged pull request |-\|/-| 2182 +2 −2 less 1|-\|/-| 
+Fix jshint warnings in MoviesCollection.js |-\|/-| 2017-10-15T11:37:20Z Merged pull request |-\|/-| 2180 +3 −3 js 1|-\|/-| 
+Remove redundant unit declaration on zero values |-\|/-| 2017-10-15T11:29:33Z Merged pull request |-\|/-| 2178 +432 −432 less 2|-\|/-| 
+Add Jackett apikey to log cleanser |-\|/-| 2017-10-15T10:35:05Z Merged pull request |-\|/-| 2177 +3 −2 cs 2|-\|/-| 
+Initial state option for torrents added to qBittorrent |-\|/-| 2017-10-15T10:35:53Z Merged pull request |-\|/-| 2176 +73 −2 cs csproj 5|-\|/-| 
+Adjust ambiguous date options |-\|/-| 2017-10-11T20:45:15Z Merged pull request |-\|/-| 2165 +12 −12 hbs 1|-\|/-| 
+Simplify ical ProductId code since adding properties |-\|/-| 2017-10-11T19:11:16Z Merged pull request |-\|/-| 2164 +4 −3 cs 1|-\|/-| 
+Set a default name for Radarr.ics |-\|/-| 2017-10-11T17:19:58Z Merged pull request |-\|/-| 2163 +11 −5 cs 1|-\|/-| 
+Stop commented out code appearing in HTML source in various places |-\|/-| 2017-10-11T20:55:33Z Merged pull request |-\|/-| 2158 +19 −16 hbs 6|-\|/-| 
+Fix alignment and buttons position of Trakt Auth |-\|/-| 2017-10-09T19:39:14Z Merged pull request |-\|/-| 2153 +59 −55 hbs 1|-\|/-| 
+Add new codec HEVC with ID=5 for HDBits |-\|/-| 2017-10-07T17:57:09Z Merged pull request |-\|/-| 2146 +2 −1 cs 1|-\|/-| 
+Add GB as English language when fetching alternative titles |-\|/-| 2018-03-11T15:46:22Z Closed pull request |-\|/-| 2137 +1 −1 cs 1|-\|/-| 
+Fix icon not being hidden on Discover New Movies button in X-Small |-\|/-| 2017-09-24T11:14:45Z Merged pull request |-\|/-| 2114 +17 −5 hbs 1|-\|/-| 
+Change message correct provider of search results |-\|/-| 2017-09-24T11:15:36Z Merged pull request |-\|/-| 2113 +2 −2 hbs 1|-\|/-| 
+Convert backticks in package.sh |-\|/-| 2017-09-24T11:16:06Z Merged pull request |-\|/-| 2112 +4 −4 sh 1|-\|/-| 
+Port non-Windows platform detection changes + Case Insensitive fix for static resources on Windows |-\|/-| 2018-03-18T15:40:40Z Closed pull request |-\|/-| 2111 +1,118 −469 cs 9|-\|/-| 
+Fix unclosed <span> tag on BulkImportViewTemplate.hbs |-\|/-| 2017-09-24T11:19:40Z Merged pull request |-\|/-| 2110 +1 −1 hbs 1|-\|/-| 
+Add space in confirmation message |-\|/-| 2017-09-20T05:55:44Z Merged pull request |-\|/-| 2101 +2 −2 js 1|-\|/-| 
+Font folder case fix |-\|/-| 2017-09-21T20:37:11Z Merged pull request |-\|/-| 2066 +20 −20 eot ttf woff less 13|-\|/-| 
+Added Czech language |-\|/-| 2017-10-23T06:12:00Z Closed pull request |-\|/-| 2025 +17 −7 cs 4|-\|/-| 
+Final fixes for alt titles. |-\|/-| 2017-08-27T14:42:12Z Merged pull request |-\|/-| 2008 +101 −73 cs 9|-\|/-| 
+Make Min Availability tooltip hbs filename match naming format |-\|/-| 2017-08-25T06:37:25Z Merged pull request |-\|/-| 1997 +0 −0 hbs 1|-\|/-| 
+Tweak NavbarLayoutTemplate.hbs |-\|/-| 2017-09-10T13:54:17Z Merged pull request |-\|/-| 1996 +86 −41 less hbs 2|-\|/-| 
+UI index.html template fix scripts being loaded after </body> tag |-\|/-| 2017-09-10T13:55:37Z Merged pull request |-\|/-| 1995 +4 −2 html 1|-\|/-| 
+Add WOFF2 fonts for better performance in supported browsers |-\|/-| 2017-09-10T13:54:40Z Merged pull request |-\|/-| 1994 +7 −3 woff2 less 5|-\|/-| 
+[wip] Fix UI cleanup regressions |-\|/-| 2017-08-24T20:58:34Z Closed pull request |-\|/-| 1993 +8 −8 hbs js less 4|-\|/-| 
+[wip] Switch quote styling in UI JS files |-\|/-| 2017-08-24T21:27:51Z Closed pull request |-\|/-| 1978 +8,892 −8,892 js 10|-\|/-| 
+Adjust Sonarr references to Radarr |-\|/-| 2017-08-21T19:48:45Z Merged pull request |-\|/-| 1977 +33 −33 cs 14|-\|/-| 
+Allow toolbar buttons to be full width on x-small and small breakpoints |-\|/-| 2017-09-10T13:55:04Z Merged pull request |-\|/-| 1972 +16 −3 js less 5|-\|/-| 
+New Fixes |-\|/-| 2017-08-20T20:12:03Z Merged pull request |-\|/-| 1970 +96 −63 cs 7|-\|/-| 
+Display breakpoint name in browser window in debug mode |-\|/-| 2017-08-20T18:00:38Z Merged pull request |-\|/-| 1968 +49 −7 less js 2|-\|/-| 
+Add a handler for MovieDeletedEvent so that the underlying files will… |-\|/-| 2017-08-20T12:40:03Z Merged pull request |-\|/-| 1966 +12 −1 cs 1|-\|/-| 
+UI cleanup, fixes and consistency |-\|/-| 2017-08-20T12:38:25Z Merged pull request |-\|/-| 1959 +2,283 −2,686 cs 15|-\|/-| 
+Hotfix for parser error when using `(year) name` folder |-\|/-| 2017-08-18T22:24:41Z Merged pull request |-\|/-| 1956 +10 −4 cs 2|-\|/-| 
+Indicate proper release types for docker image |-\|/-| 2017-08-17T17:24:39Z Merged pull request |-\|/-| 1953 +1 −1 md 0|-\|/-| 
+Update appveyor builds url to exclude pull requests |-\|/-| 2017-08-15T21:23:38Z Merged pull request |-\|/-| 1946 +1 −1 md 0|-\|/-| 
+Update docker nightly image reference |-\|/-| 2017-08-15T21:07:35Z Merged pull request |-\|/-| 1945 +1 −1 md 0|-\|/-| 
+Fix missing icon preventing detailed info for validation errors from appearing |-\|/-| 2017-08-15T20:55:00Z Merged pull request |-\|/-| 1944 +2 −2 js 1|-\|/-| 
+Add package-lock.json for npm 5 |-\|/-| 2017-08-15T18:21:59Z Merged pull request |-\|/-| 1939 +4,190 −0 0|-\|/-| 
+Add deprecation warning about Drone Factory to front end |-\|/-| 2017-08-15T18:22:17Z Merged pull request |-\|/-| 1938 +3 −0 hbs 1|-\|/-| 
+Fix mask-icon and other resources when UrlBase is in use |-\|/-| 2017-08-13T20:56:57Z Merged pull request |-\|/-| 1933 +2 −2 cs 1|-\|/-| 
+Slack/Mattermost notifications improvements from Sonarr |-\|/-| 2017-08-13T17:42:01Z Merged pull request |-\|/-| 1930 +129 −90 cs csproj 5|-\|/-| 
+Fix FontAwesome font path |-\|/-| 2017-08-13T12:18:54Z Merged pull request |-\|/-| 1929 +1 −1 less 1|-\|/-| 
+Update FontAwesome to 4.7.0 |-\|/-| 2017-08-13T10:54:17Z Merged pull request |-\|/-| 1928 +3,117 −577 otf less eot svg ttf woff woff2 13|-\|/-| 
+Adjust charset and various meta/link references in index.html and login.html |-\|/-| 2017-08-13T10:57:10Z Merged pull request |-\|/-| 1926 +29 −33 html 2|-\|/-| 
+Adjust column sizes relative to size of dropdown values |-\|/-| 2017-08-13T10:54:45Z Merged pull request |-\|/-| 1923 +3 −3 hbs 2|-\|/-| 
+removed hebrew ISO, since english movies are still in english. |-\|/-| 2017-08-13T10:55:26Z Merged pull request |-\|/-| 1922 +2 −2 cs 1|-\|/-| 
+Fix additional jshint warnings for gulp |-\|/-| 2017-08-12T15:11:34Z Merged pull request |-\|/-| 1921 +10 −10 js 3|-\|/-| 
+Fix minor issues on MoreInfoViewTemplate.hbs |-\|/-| 2017-08-12T13:16:32Z Merged pull request |-\|/-| 1916 +24 −23 hbs 1|-\|/-| 
+Replace GitHub wiki references to Radarr's wiki paths |-\|/-| 2017-08-12T13:15:23Z Merged pull request |-\|/-| 1914 +7 −7 cs 5|-\|/-| 
+Fix hanging form-group div in Basic Naming Viewing Template |-\|/-| 2017-08-11T22:29:31Z Merged pull request |-\|/-| 1911 +2 −2 hbs 1|-\|/-| 
+Added hebrew language |-\|/-| 2017-08-11T22:48:57Z Merged pull request |-\|/-| 1909 +12 −3 cs 4|-\|/-| 
+Run tests through powershell. |-\|/-| 2017-08-10T18:11:13Z Merged pull request |-\|/-| 1903 +40 −0 ps1 1|-\|/-| 
+Fix for Migration |-\|/-| 2017-08-10T16:51:06Z Merged pull request |-\|/-| 1901 +0 −33 cs 1|-\|/-| 
+Alternative Titles v2 |-\|/-| 2017-08-09T20:18:04Z Merged pull request |-\|/-| 1891 +0 −0 0|-\|/-| 
+Alternative Titles. |-\|/-| 2017-08-09T20:14:01Z Merged pull request |-\|/-| 1890 +1,480 −100 cs csproj 10|-\|/-| 
+Fix task name of PreDB Sync task |-\|/-| 2017-08-06T15:47:24Z Merged pull request |-\|/-| 1875 +2 −2 cs 1|-\|/-| 
+Fix gulp jshint warnings |-\|/-| 2017-08-12T13:16:13Z Merged pull request |-\|/-| 1873 +12 −11 json jshintrc js 6|-\|/-| 
+Port fix from Sonarr for qBitTorrent 3.3.14 API change |-\|/-| 2017-08-06T10:09:17Z Merged pull request |-\|/-| 1872 +39 −18 cs 2|-\|/-| 
+Fix: Check for a Used Quality Profile before Deleting |-\|/-| 2017-08-06T10:10:17Z Merged pull request |-\|/-| 1870 +11 −11 cs 2|-\|/-| 
+Update Info.plist to avoid conflict with Sonarr |-\|/-| 2017-07-16T13:09:03Z Merged pull request |-\|/-| 1783 +1 −1 plist 1|-\|/-| 
+Relax SingleInstancePolicy when using a custom data directory |-\|/-| 2017-07-16T13:08:17Z Merged pull request |-\|/-| 1782 +18 −5 cs 2|-\|/-| 
+Minor error message tweak |-\|/-| 2017-10-23T00:58:25Z Merged pull request |-\|/-| 1778 +34 −28 md cs less 2|-\|/-| 
+Fix old Plex ValidationFailure message |-\|/-| 2017-07-06T16:48:46Z Merged pull request |-\|/-| 1770 +1 −1 cs 1|-\|/-| 
+Added: More detailed descriptions why a movie was not able to be mapped. |-\|/-| 2017-06-18T21:12:14Z Merged pull request |-\|/-| 1696 +414 −129 cs 9|-\|/-| 
+Added: Options to make parsing more lenient. (Adds support for some german and french releasegroups) |-\|/-| 2017-06-17T13:02:58Z Merged pull request |-\|/-| 1692 +269 −90 iml xml name cs 16|-\|/-| 
+Update Bootstrap Tags Input |-\|/-| 2017-06-13T11:15:44Z Merged pull request |-\|/-| 1674 +57 −67 less js 2|-\|/-| 
+Upgrade to Bootstrap 3.3.7 |-\|/-| 2017-06-13T06:38:40Z Merged pull request |-\|/-| 1673 +119 −93 json csslintrc less 73|-\|/-| 
+Include CSS files in minification |-\|/-| 2017-06-13T06:39:43Z Merged pull request |-\|/-| 1672 +7 −3 js html 3|-\|/-| 
+Fixed error when processing manual import decisions  |-\|/-| 2017-06-13T06:40:52Z Merged pull request |-\|/-| 1670 +16 −1 cs 2|-\|/-| 
+Twitter oAuth callback URL |-\|/-| 2017-06-13T06:42:08Z Merged pull request |-\|/-| 1669 +3 −2 js 1|-\|/-| 
+Redirect calls missing URL Base |-\|/-| 2017-06-13T06:42:49Z Merged pull request |-\|/-| 1668 +48 −15 cs csproj 3|-\|/-| 
+Remove redundant IE meta tag as we use http header instead |-\|/-| 2017-06-11T07:32:13Z Merged pull request |-\|/-| 1655 +0 −2 html 2|-\|/-| 
+Use clean-css for minification |-\|/-| 2017-06-11T07:31:28Z Merged pull request |-\|/-| 1654 +5 −3 js json 2|-\|/-| 
+Follow 301 redirects when fetching torrents |-\|/-| 2017-06-11T07:30:52Z Merged pull request |-\|/-| 1653 +8 −4 cs 1|-\|/-| 
+Fixed: Ensure an API Key is set when starting Radarr |-\|/-| 2017-06-11T07:30:01Z Merged pull request |-\|/-| 1652 +16 −2 cs 1|-\|/-| 
+Parserfix for issue 1407 (second try) |-\|/-| 2017-06-17T12:47:51Z Closed pull request |-\|/-| 1645 +92 −3 cs 3|-\|/-| 
+fix for #1407  |-\|/-| 2017-06-12T12:25:52Z Closed pull request |-\|/-| 1637 +160 −60 cs 3|-\|/-| 
+Add more list options, that are "proxied through" our api server. |-\|/-| 2017-06-06T20:40:44Z Merged pull request |-\|/-| 1627 +478 −137 cs 14|-\|/-| 
+cleans up release title before parsing  |-\|/-| 2017-06-06T17:25:33Z Closed pull request |-\|/-| 1625 +154 −60 cs 2|-\|/-| 
+Allow minimum seeders to be set on a per indexer basis. Pulled from Sonarr Upstream |-\|/-| 2017-06-12T12:47:06Z Merged pull request |-\|/-| 1624 +328 −104 cs csproj 11|-\|/-| 
+lossless compression of images saved 92KB |-\|/-| 2017-06-04T11:11:53Z Merged pull request |-\|/-| 1620 +0 −0 png 59|-\|/-| 
+Fix being unable bulk import manually fixed duplicate movies |-\|/-| 2017-05-25T13:44:44Z Merged pull request |-\|/-| 1570 +8 −3 js 1|-\|/-| 
+Encourage Torznab use with Jackett |-\|/-| 2017-05-23T15:31:00Z Merged pull request |-\|/-| 1559 +5 −11 md cs 3|-\|/-| 
+Added [Radarr] tag for Twitter Notifications |-\|/-| 2017-06-05T10:06:21Z Merged pull request |-\|/-| 1558 +3 −3 cs 1|-\|/-| 
+macOS chmod fix for Radarr executable file |-\|/-| 2018-02-21T09:22:21Z Closed pull request |-\|/-| 1548 +6 −6 cake 1|-\|/-| 
+MuiltVersion of movies |-\|/-| 2017-05-22T17:32:13Z Closed pull request |-\|/-| 1542 +157 −11 csproj cs js hbs less 13|-\|/-| 
+Chmod osx file as executable. |-\|/-| 2017-05-17T09:20:33Z Merged pull request |-\|/-| 1539 +8 −2 cake 1|-\|/-| 
+Add IMDB URL to notifications |-\|/-| 2017-05-15T12:47:22Z Merged pull request |-\|/-| 1531 +4 −2 cs 1|-\|/-| 
+Fixed design calendar css bug |-\|/-| 2017-05-15T07:40:01Z Merged pull request |-\|/-| 1527 +2 −0 less css 2|-\|/-| 
+Correct Program Name |-\|/-| 2017-05-14T10:19:20Z Merged pull request |-\|/-| 1524 +1 −1 cs 1|-\|/-| 
+Correct Program Name |-\|/-| 2017-05-14T10:19:11Z Merged pull request |-\|/-| 1523 +1 −1 cs 1|-\|/-| 
+Update Kodi icon, could/should fix #1464 |-\|/-| 2017-05-06T10:30:36Z Merged pull request |-\|/-| 1492 +1 −1 cs 1|-\|/-| 
+Fixed design issue when deleting - css bug |-\|/-| 2017-05-11T20:05:35Z Merged pull request |-\|/-| 1480 +3 −2 less 1|-\|/-| 
+Fixed: Radarr UI Authentication cookie should be placed on path (UrlBase) instead of domain alone. |-\|/-| 2017-04-30T08:30:59Z Merged pull request |-\|/-| 1473 +1 −0 cs 1|-\|/-| 
+Fixed: Radarr not importing torrents in Vuze if the torrent already finished seeding and was stopped |-\|/-| 2017-04-30T11:14:50Z Merged pull request |-\|/-| 1471 +18 −10 cs 3|-\|/-| 
+Fixed: Incorrect imports with Vuze when torrent contains a single file. |-\|/-| 2017-04-30T08:37:51Z Merged pull request |-\|/-| 1470 +35 −3 cs 2|-\|/-| 
+Split downloadclientitem readonly logic up |-\|/-| 2017-05-13T16:27:45Z Closed pull request |-\|/-| 1469 +237 −145 cs 10|-\|/-| 
+Added HDBits Category, Codec, and Medium Filtering Capability |-\|/-| 2017-05-29T15:56:17Z Merged pull request |-\|/-| 1458 +130 −53 cs hbs js 7|-\|/-| 
+Tidy up layout of buttons on the Add Movies page for mobile/tablet |-\|/-| 2017-04-28T08:59:56Z Merged pull request |-\|/-| 1454 +7 −8 hbs less 2|-\|/-| 
+Added discovery tab based on tmdb recommendations. |-\|/-| 2017-04-28T09:04:31Z Merged pull request |-\|/-| 1450 +157 −11 csproj cs js hbs less 13|-\|/-| 
+Search 5 alternative titles as well |-\|/-| 2017-06-05T15:48:05Z Merged pull request |-\|/-| 1448 +12 −1 cs 1|-\|/-| 
+Rename Sonarr to Radarr |-\|/-| 2017-04-26T16:44:57Z Merged pull request |-\|/-| 1429 +8 −8 cake sh osx/Sonarr → osx/Radarr plist 5|-\|/-| 
+Fix: A small bug fix for items loading as undefined in organize modal |-\|/-| 2017-05-06T10:31:42Z Merged pull request |-\|/-| 1424 +1 −2 js 1|-\|/-| 
+Added multiple new editions such as FanEdit, Anniversary and 2in1. |-\|/-| 2017-04-19T19:02:02Z Merged pull request |-\|/-| 1418 +82 −2 py cs 3|-\|/-| 
+[http://feathub.com/Radarr/Radarr/+42]Remove movie once the movie folder is removed |-\|/-| 2018-03-26T22:12:13Z Closed pull request |-\|/-| 1413 +27 −11 cs 4|-\|/-| 
+Change smtp.google.com to smtp.gmail.com |-\|/-| 2017-04-18T17:28:16Z Merged pull request |-\|/-| 1410 +1 −1 cs 1|-\|/-| 
+Update Series reference to Movies, should fix #1399 |-\|/-| 2017-04-16T21:20:43Z Merged pull request |-\|/-| 1402 +1 −1 hbs 1|-\|/-| 
+Update to indexer flags. |-\|/-| 2017-04-17T15:12:09Z Merged pull request |-\|/-| 1388 +424 −132 cs json csproj 9|-\|/-| 
+Indexer flags implementation. |-\|/-| 2017-04-14T20:27:49Z Merged pull request |-\|/-| 1377 +73 −7 cs js 6|-\|/-| 
+Temporary fix for PTP approved and golden uploads on deluge. |-\|/-| 2017-04-13T19:14:35Z Closed pull request |-\|/-| 1373 +2 −2 cs 1|-\|/-| 
+[wip] Tmdb authentication with v4 API |-\|/-| 2018-02-09T18:33:31Z Closed pull request |-\|/-| 1368 +170 −35 cs js hbs 5|-\|/-| 
+Remove items from trakt lists upon successful download/import |-\|/-| 2018-04-27T18:37:29Z Closed pull request |-\|/-| 1366 +175 −7 cs csproj 21|-\|/-| 
+Enable automatic renaming, according to naming scheme, of movie folder after creation of the movie. |-\|/-| 2017-04-26T11:31:56Z Merged pull request |-\|/-| 1349 +469 −57 cs csproj 13|-\|/-| 
+Newznab default capabilities erroneously cached if indexer is unavailable |-\|/-| 2017-04-08T11:34:07Z Merged pull request |-\|/-| 1341 +53 −3 cs 2|-\|/-| 
+Fixed: Zero length file causes MediaInfo hanging in 100% cpu load. |-\|/-| 2017-04-08T11:34:18Z Merged pull request |-\|/-| 1340 +6 −1 cs 1|-\|/-| 
+SABnzbd 2.0 API compatibility |-\|/-| 2017-04-08T11:36:16Z Merged pull request |-\|/-| 1339 +202 −48 cs csproj 8|-\|/-| 
+Added Roman numerals parsing feature, replaced spots where hand-written mappings were used, some refactorings, added tests |-\|/-| 2017-04-05T18:44:06Z Merged pull request |-\|/-| 1310 +5,264 −176 md 0|-\|/-| 
+Added "Additional Parameters Field" for Trakt RSS Feed |-\|/-| 2017-04-04T00:53:05Z Merged pull request |-\|/-| 1308 +5 −2 cs 2|-\|/-| 
+not sure why this was removed but this commit adds it back |-\|/-| 2017-03-29T08:07:11Z Merged pull request |-\|/-| 1284 +4 −0 js 1|-\|/-| 
+Fixed: DownloadStation api client for DSM 5.x. |-\|/-| 2017-03-26T21:57:30Z Merged pull request |-\|/-| 1259 +319 −315 cs 4|-\|/-| 
+Merge pull request #1 from Radarr/develop |-\|/-| 2017-03-19T22:34:33Z Closed pull request |-\|/-| 1226 +0 −0 0|-\|/-| 
+Clean up jsHint warnings |-\|/-| 2017-03-19T16:34:23Z Merged pull request |-\|/-| 1225 +11 −11 js 7|-\|/-| 
+Added Roman Numerals for easy conversion when comparing titles with some refactorings in MovieRepository  |-\|/-| 2017-03-31T17:06:38Z Closed pull request |-\|/-| 1217 +2,846 −849 gitmodules cs 7|-\|/-| 
+New movie search |-\|/-| 2017-03-18T04:53:09Z Merged pull request |-\|/-| 1212 +29 −8 js less 5|-\|/-| 
+Fix pending release service, HDBits, also the release deduper. Clean up housekeeping |-\|/-| 2017-03-18T04:29:19Z Merged pull request |-\|/-| 1211 +56 −58 cs 6|-\|/-| 
+Patch/onedr0p 3 16 17 |-\|/-| 2017-03-16T22:43:07Z Merged pull request |-\|/-| 1200 +22 −5 cs js 2|-\|/-| 
+Small changes to list sync |-\|/-| 2017-03-15T03:22:37Z Merged pull request |-\|/-| 1179 +2 −2 cs 1|-\|/-| 
+[wip] Update for Lists |-\|/-| 2017-03-19T16:24:14Z Closed pull request |-\|/-| 1178 +157 −33 cs 11|-\|/-| 
+Patch/onedr0p 3 14 17 |-\|/-| 2017-03-14T18:18:37Z Merged pull request |-\|/-| 1171 +87 −235 cs 2|-\|/-| 
+Patch/onedr0p 3 13 17 |-\|/-| 2017-03-14T02:34:26Z Merged pull request |-\|/-| 1166 +169 −142 cs json 9|-\|/-| 
+Grammar check HelpText for CouchPotato lists |-\|/-| 2017-03-12T14:43:29Z Merged pull request |-\|/-| 1142 +5 −5 cs 1|-\|/-| 
+Add helptext for Jackett API key |-\|/-| 2017-03-11T13:52:35Z Merged pull request |-\|/-| 1121 +2 −2 cs 1|-\|/-| 
+Fixed: Parsing headers that have a trailing semi-colon |-\|/-| 2017-03-11T03:27:27Z Merged pull request |-\|/-| 1117 +15 −2 cs 2|-\|/-| 
+QOL changes to PTP logic |-\|/-| 2017-03-10T23:08:50Z Merged pull request |-\|/-| 1114 +22 −17 cs 2|-\|/-| 
+PreDB Integration |-\|/-| 2017-03-10T23:17:10Z Merged pull request |-\|/-| 1111 +302 −18 cs csproj 10|-\|/-| 
+keep the current page the same after clicking Save |-\|/-| 2017-03-11T06:40:01Z Merged pull request |-\|/-| 1107 +12 −1 cs js 3|-\|/-| 
+this needs to match with the property forclient mode |-\|/-| 2017-03-10T06:45:08Z Merged pull request |-\|/-| 1106 +23 −23 cs js 4|-\|/-| 
+[wip] extrafiles / kodi metadata updates (need help) |-\|/-| 2018-02-15T12:39:02Z Closed pull request |-\|/-| 1104 +786 −1,351 cs Test/Metadata/Consumers/Roksbox/gitkeep Test/Metadata/Consumers/Wdtv/gitkeep csproj 9|-\|/-| 
+incorrect check for imdbId prefix |-\|/-| 2017-03-09T18:59:34Z Merged pull request |-\|/-| 1097 +1 −1 cs 1|-\|/-| 
+refactor so that filteringExpressions are constructed in one place |-\|/-| 2017-03-09T16:25:38Z Merged pull request |-\|/-| 1096 +59 −83 cs js 5|-\|/-| 
+ new filters were added, but they werent being handled via the API |-\|/-| 2017-03-09T15:02:32Z Merged pull request |-\|/-| 1095 +1 −8 cs 1|-\|/-| 
+allow larger trakt lists than 500 |-\|/-| 2017-03-09T14:17:16Z Merged pull request |-\|/-| 1093 +3 −2 cs 1|-\|/-| 
+Update blacklist to work with movies |-\|/-| 2017-03-09T23:45:08Z Merged pull request |-\|/-| 1089 +211 −141 cs 5|-\|/-| 
+Restructeured readme and added new logo asset |-\|/-| 2017-03-09T03:16:09Z Merged pull request |-\|/-| 1088 +36 −26 png md 1|-\|/-| 
+Onedr0p/3 8 17 |-\|/-| 2017-03-09T00:00:00Z Merged pull request |-\|/-| 1087 +67 −115 cs hbs 11|-\|/-| 
+Add hotio's nightly docker image. |-\|/-| 2017-03-08T20:58:13Z Merged pull request |-\|/-| 1084 +2 −2 md 0|-\|/-| 
+Add Installation, Docker and Setup Guide to new Install section and add Feathub and Wiki to Support |-\|/-| 2017-03-08T20:58:04Z Merged pull request |-\|/-| 1083 +10 −1 md 0|-\|/-| 
+Just want to get appveyor to build and see if something fails. |-\|/-| 2017-03-09T03:50:22Z Closed pull request |-\|/-| 1082 +26 −42 csproj cs resx 3|-\|/-| 
+[wip] add new buttons to movieEditor |-\|/-| 2018-02-09T16:42:44Z Closed pull request |-\|/-| 1076 +55 −4 js hbs less 3|-\|/-| 
+Fix regression for missing libgdiplus -- cleaner version |-\|/-| 2017-03-09T18:00:57Z Closed pull request |-\|/-| 1075 +43 −47 cs csproj 5|-\|/-| 
+Added detect trailer specification to import decisions |-\|/-| 2017-03-08T02:59:24Z Closed pull request |-\|/-| 1074 +160 −1 cs csproj 4|-\|/-| 
+Fix regression for missing libgdiplus |-\|/-| 2017-03-09T18:11:42Z Merged pull request |-\|/-| 1073 +35 −7 cs csproj 7|-\|/-| 
+Update error to include Radarr instead of Sonarr |-\|/-| 2017-03-08T01:04:14Z Merged pull request |-\|/-| 1069 +1 −1 cs 1|-\|/-| 
+Correct DownloadDescisionMaker to use ImdbId, and update the ui a little. |-\|/-| 2017-03-07T23:29:03Z Merged pull request |-\|/-| 1068 +94 −86 cs less 8|-\|/-| 
+Ensure drone factory runs on its specificed interval |-\|/-| 2017-03-08T21:07:52Z Merged pull request |-\|/-| 1067 +625 −69 cs 7|-\|/-| 
+reverting a change made yesterday regarding sorting |-\|/-| 2017-03-07T15:55:27Z Merged pull request |-\|/-| 1062 +3 −3 js 1|-\|/-| 
+oops -- this was a fix from the last merge - sorry |-\|/-| 2017-03-07T15:10:49Z Merged pull request |-\|/-| 1061 +1 −1 js 1|-\|/-| 
+fix client mode fetching.. only setPageSize when necessary |-\|/-| 2017-03-07T14:58:50Z Merged pull request |-\|/-| 1060 +11 −10 cs js 4|-\|/-| 
+Movie editor fix |-\|/-| 2017-03-07T14:56:31Z Closed pull request |-\|/-| 1056 +31 −8 cs js 7|-\|/-| 
+URLEncode the string for searching |-\|/-| 2017-03-07T15:08:14Z Merged pull request |-\|/-| 1055 +1 −1 cs 1|-\|/-| 
+Addressing jshint warnings |-\|/-| 2017-03-08T03:04:26Z Merged pull request |-\|/-| 1050 +61 −89 js 14|-\|/-| 
+Fix  a couple typos |-\|/-| 2017-03-07T04:02:18Z Merged pull request |-\|/-| 1049 +3 −3 cs 2|-\|/-| 
+Patch/onedr0p |-\|/-| 2017-03-07T03:09:03Z Merged pull request |-\|/-| 1048 +130 −114 cs 10|-\|/-| 
+Loads only request movie first into full collection. Should fix things. |-\|/-| 2017-03-08T17:01:15Z Merged pull request |-\|/-| 1046 +20 −0 cs js 3|-\|/-| 
+Update wiki link for sorting and renaming |-\|/-| 2017-03-07T04:02:31Z Merged pull request |-\|/-| 1045 +1 −1 hbs 1|-\|/-| 
+fixes sorting after adding movies |-\|/-| 2017-03-06T18:10:28Z Merged pull request |-\|/-| 1041 +4 −1 js 1|-\|/-| 
+this seems to make it more stable |-\|/-| 2017-03-06T14:25:09Z Merged pull request |-\|/-| 1037 +18 −4 js 1|-\|/-| 
+im not too sure why this fixes the problem |-\|/-| 2017-03-06T14:07:26Z Merged pull request |-\|/-| 1036 +11 −9 js 1|-\|/-| 
+use href instead of hostname+port |-\|/-| 2017-03-06T02:01:29Z Merged pull request |-\|/-| 1031 +14 −8 js 1|-\|/-| 
+Try to add year to release titles that have no year (foreign release groups) |-\|/-| 2017-03-05T22:58:48Z Merged pull request |-\|/-| 1028 +44 −2 cs 2|-\|/-| 
+Delay profiles are no longer hidden under advanced settings |-\|/-| 2017-03-05T15:43:42Z Merged pull request |-\|/-| 1019 +2 −2 hbs 1|-\|/-| 
+use http request builder (aided by onedrop) |-\|/-| 2017-03-05T08:50:13Z Merged pull request |-\|/-| 1018 +63 −44 cs 2|-\|/-| 
+Exclusions fix |-\|/-| 2017-03-05T07:07:47Z Merged pull request |-\|/-| 1016 +63 −12 cs js hbs 5|-\|/-| 
+Improve indexer health check messages |-\|/-| 2017-03-05T07:50:46Z Merged pull request |-\|/-| 1015 +260 −137 cs csproj 8|-\|/-| 
+Clean RSS feed before detecting type |-\|/-| 2017-03-05T07:48:48Z Merged pull request |-\|/-| 1014 +368 −18 xml cs csproj 8|-\|/-| 
+delete me |-\|/-| 2017-03-05T01:00:23Z Closed pull request |-\|/-| 1012 +0 −0 0|-\|/-| 
+Patch/more updates |-\|/-| 2017-03-04T18:25:04Z Merged pull request |-\|/-| 1009 +25 −3 cs js 3|-\|/-| 
+Patch/onedr0p 3 4 2017 |-\|/-| 2017-03-04T16:40:38Z Merged pull request |-\|/-| 1006 +85 −67 cs csproj js hbs 11|-\|/-| 
+Patch/onedr0p updates |-\|/-| 2017-03-04T02:32:52Z Merged pull request |-\|/-| 998 +109 −99 cs hbs js 7|-\|/-| 
+the movie was not being printed correctly, and i believe this |-\|/-| 2017-03-03T17:55:01Z Merged pull request |-\|/-| 996 +5 −2 cs 1|-\|/-| 
+respect the pageSize when initializing the layout |-\|/-| 2017-03-04T16:36:39Z Merged pull request |-\|/-| 994 +7 −3 js 2|-\|/-| 
+clean up the fetching on loading of MovieEditor and MovieIndex once a… |-\|/-| 2017-03-03T14:30:43Z Merged pull request |-\|/-| 993 +13 −16 js 3|-\|/-| 
+i dont know why i was doing this inside the for loop... It did not sc… |-\|/-| 2017-03-03T12:38:14Z Merged pull request |-\|/-| 992 +8 −9 js 1|-\|/-| 
+use clone so that we only detect empty collection |-\|/-| 2017-03-03T09:53:57Z Merged pull request |-\|/-| 990 +481 −476 0|-\|/-| 
+i believe these are old code that is not needed since pagination.. |-\|/-| 2017-03-03T06:42:47Z Merged pull request |-\|/-| 988 +3 −3 js 1|-\|/-| 
+Default Wanted and Cutoff to be 50 movies per page, added filtering options to Cutoff and a Search all |-\|/-| 2017-03-02T22:28:30Z Merged pull request |-\|/-| 984 +137 −67 js 4|-\|/-| 
+[Fix] filtering on Manual Import |-\|/-| 2017-03-02T21:20:47Z Merged pull request |-\|/-| 980 +33 −3 cs js 5|-\|/-| 
+reset filters on save.. |-\|/-| 2017-03-02T07:00:16Z Merged pull request |-\|/-| 975 +7 −0 js 1|-\|/-| 
+revert some changes -- use FullCollection (maybe just for now) |-\|/-| 2017-03-02T04:23:10Z Merged pull request |-\|/-| 974 +558 −536 js 6|-\|/-| 
+Possible fix for Custom script |-\|/-| 2017-03-02T02:22:37Z Merged pull request |-\|/-| 973 +8 −5 cs 1|-\|/-| 
+Hotfix when importing movie |-\|/-| 2017-03-02T01:20:42Z Merged pull request |-\|/-| 971 +11 −6 cs 1|-\|/-| 
+Date added in Movie List & Possible Fix for Importing Movies. |-\|/-| 2017-03-01T23:45:13Z Merged pull request |-\|/-| 969 +24 −29 cs js hbs 3|-\|/-| 
+Download station fixes |-\|/-| 2017-03-01T23:45:52Z Merged pull request |-\|/-| 968 +46 −10 cs 3|-\|/-| 
+just show imdbid or tmdbid for now in exclusions |-\|/-| 2017-03-01T15:21:57Z Merged pull request |-\|/-| 963 +2 −2 js 1|-\|/-| 
+Movie index page stability |-\|/-| 2017-03-01T16:33:19Z Closed pull request |-\|/-| 960 +0 −0 0|-\|/-| 
+Patch/galileo fixes |-\|/-| 2017-03-01T00:30:23Z Merged pull request |-\|/-| 951 +5 −4 cs 3|-\|/-| 
+Patch/updates onedr0p |-\|/-| 2017-02-28T22:58:22Z Merged pull request |-\|/-| 946 +12 −10 cs js hbs 4|-\|/-| 
+#11 add Date Added to grid sort |-\|/-| 2017-03-01T23:46:09Z Closed pull request |-\|/-| 938 +14 −4 js 1|-\|/-| 
+Fixed problem with TMDb list when Year is null, Revert using UrlPathEncode on newznab requests |-\|/-| 2017-02-28T01:16:55Z Merged pull request |-\|/-| 937 +38 −50 cs 5|-\|/-| 
+Expose more information to the Webhook notification |-\|/-| 2017-02-27T22:21:45Z Merged pull request |-\|/-| 935 +7 −1 cs 1|-\|/-| 
+MovieIndexPage Stability + MovieEditor fix |-\|/-| 2017-03-01T00:46:01Z Merged pull request |-\|/-| 925 +190 −92 cs js hbs 10|-\|/-| 
+added more filters to the movie editor |-\|/-| 2017-02-26T12:35:23Z Merged pull request |-\|/-| 905 +28 −0 js 1|-\|/-| 
+Fix movie editor paging |-\|/-| 2017-02-28T05:24:45Z Closed pull request |-\|/-| 903 +31 −44 js 5|-\|/-| 
+Fix/implement Webhook notifications |-\|/-| 2017-02-26T13:06:21Z Merged pull request |-\|/-| 901 +79 −39 cs csproj 6|-\|/-| 
+Add remux 1080p and 2160p as qualities |-\|/-| 2017-02-26T06:14:53Z Merged pull request |-\|/-| 900 +84 −18 cs csproj 6|-\|/-| 
+Update parsing french movies |-\|/-| 2017-02-26T04:45:45Z Merged pull request |-\|/-| 899 +5 −2 cs 2|-\|/-| 
+NZBGet delete:scan treated as failure |-\|/-| 2017-02-26T04:22:26Z Merged pull request |-\|/-| 898 +9 −13 cs 1|-\|/-| 
+fix the footer to show correct information and refresh when FullColle… |-\|/-| 2017-02-25T21:37:46Z Merged pull request |-\|/-| 893 +71 −64 js 1|-\|/-| 
+Patch/updates |-\|/-| 2017-02-25T16:34:07Z Merged pull request |-\|/-| 887 +143 −34 cs 8|-\|/-| 
+Fix poster placeholder height on small screens |-\|/-| 2017-02-25T15:58:51Z Merged pull request |-\|/-| 883 +1 −1 less 1|-\|/-| 
+Small UI fixes |-\|/-| 2017-02-25T13:05:41Z Merged pull request |-\|/-| 882 +2 −2 less 2|-\|/-| 
+HDBits prefer/require internal release (#584) |-\|/-| 2017-02-25T03:41:01Z Merged pull request |-\|/-| 881 +71 −32 cs csproj 6|-\|/-| 
+Ignore Deleted Movies (#755) |-\|/-| 2017-02-25T02:30:13Z Merged pull request |-\|/-| 879 +11 −0 cs 1|-\|/-| 
+Bug fixes |-\|/-| 2017-02-24T14:40:26Z Merged pull request |-\|/-| 874 +201 −970 cs 2|-\|/-| 
+Paging for movies :) |-\|/-| 2017-02-24T18:52:41Z Merged pull request |-\|/-| 861 +291 −40 cs js 9|-\|/-| 
+the Search All Missing button |-\|/-| 2017-02-24T08:22:56Z Merged pull request |-\|/-| 860 +61 −36 cs js 6|-\|/-| 
+Cleanup min availability |-\|/-| 2017-02-23T12:08:31Z Merged pull request |-\|/-| 846 +77 −55 cs less js hbs 7|-\|/-| 
+some minor cleanup + changed filter on wanted/missing |-\|/-| 2017-02-23T11:33:54Z Merged pull request |-\|/-| 845 +12 −19 cs js hbs 4|-\|/-| 
+Add NZB Station for Synology |-\|/-| 2017-02-22T23:42:12Z Merged pull request |-\|/-| 841 +1,064 −147 cs csproj 13|-\|/-| 
+Patch/filter trakt |-\|/-| 2017-02-22T21:12:42Z Merged pull request |-\|/-| 838 +37 −13 cs 3|-\|/-| 
+Fixed all tests and even added some new ones :) |-\|/-| 2017-03-06T21:23:26Z Merged pull request |-\|/-| 835 +806 −1,099 yml cake cs csproj 15|-\|/-| 
+Patch/bulk import tests |-\|/-| 2017-02-22T10:21:05Z Merged pull request |-\|/-| 833 +122 −49 cs csproj 5|-\|/-| 
+URL Encode for newznab query strings, closes #818 |-\|/-| 2017-02-20T16:17:29Z Merged pull request |-\|/-| 819 +1 −1 cs 1|-\|/-| 
+Min availability |-\|/-| 2017-02-23T05:03:49Z Merged pull request |-\|/-| 816 +446 −81 cs csproj 14|-\|/-| 
+Movie status improvement |-\|/-| 2017-02-20T07:52:44Z Closed pull request |-\|/-| 815 +176 −32 cs csproj js hbs 11|-\|/-| 
+Rename Sonarr to Radarr in DownloadStation client |-\|/-| 2017-02-20T16:15:54Z Merged pull request |-\|/-| 812 +5 −5 cs 2|-\|/-| 
+Fixes error message for MovieExistsValidator to state the movie doesn't exist (#723) |-\|/-| 2017-02-19T18:05:38Z Merged pull request |-\|/-| 808 +1 −1 cs 1|-\|/-| 
+Set PROWL application to Radarr (#770) |-\|/-| 2017-02-19T17:55:02Z Merged pull request |-\|/-| 807 +1 −1 cs 1|-\|/-| 
+Update notification logos |-\|/-| 2017-02-20T16:15:26Z Merged pull request |-\|/-| 804 +7 −7 cs 5|-\|/-| 
+availability specification to prevent downloading before released |-\|/-| 2017-02-19T23:34:32Z Closed pull request |-\|/-| 801 +69 −1 cs csproj 2|-\|/-| 
+Fixed: Slow loading root folders caused them to never appear |-\|/-| 2017-02-19T11:56:45Z Closed pull request |-\|/-| 799 +9 −6 js 1|-\|/-| 
+Updates to DownloadStation client |-\|/-| 2017-02-19T14:39:15Z Closed pull request |-\|/-| 798 +23 −5 csproj cs 5|-\|/-| 
+[WIP] kitsu import |-\|/-| 2017-06-06T12:51:01Z Closed pull request |-\|/-| 788 +328 −4 cs csproj 8|-\|/-| 
+Patch/bulk import qol |-\|/-| 2017-02-21T20:31:31Z Merged pull request |-\|/-| 785 +121 −46 cs js hbs 9|-\|/-| 
+fully functional traktAuthentication |-\|/-| 2017-03-05T02:47:44Z Merged pull request |-\|/-| 778 +227 −34 json cs js hbs 8|-\|/-| 
+TMDb Lists should be working now :) |-\|/-| 2017-02-16T19:40:05Z Merged pull request |-\|/-| 775 +20 −205 cs 21|-\|/-| 
+Roll back some code on Net Import |-\|/-| 2017-02-16T18:29:22Z Merged pull request |-\|/-| 772 +29 −11 cs 5|-\|/-| 
+Diskstation check outputpath settings |-\|/-| 2017-02-16T13:22:03Z Merged pull request |-\|/-| 768 +75 −51 cs 1|-\|/-| 
+TMDb Filtering Options: Rating, Min Votes, Min Vote Ave, Original Language, TMDb Genre Ids (CSV). |-\|/-| 2017-02-16T09:46:36Z Merged pull request |-\|/-| 765 +77 −59 cs 3|-\|/-| 
+Patch/net import |-\|/-| 2017-02-16T09:24:51Z Closed pull request |-\|/-| 760 +116 −238 cs 22|-\|/-| 
+Small consistancy updates to PTP and AwesomeHD |-\|/-| 2017-02-15T23:02:24Z Merged pull request |-\|/-| 758 +54 −64 cs 2|-\|/-| 
+Patch/onedr0p |-\|/-| 2017-02-15T22:37:24Z Merged pull request |-\|/-| 757 +33 −42 dll dylib cs csproj 14|-\|/-| 
+Handle download data diskstation |-\|/-| 2017-02-14T14:29:47Z Merged pull request |-\|/-| 744 +7 −10 cs 2|-\|/-| 
+Feature/tmdb list |-\|/-| 2017-02-13T14:11:21Z Merged pull request |-\|/-| 739 +628 −301 cs 6|-\|/-| 
+Add a downloaded column to movie editor. |-\|/-| 2017-02-13T13:25:38Z Merged pull request |-\|/-| 738 +6 −0 js 1|-\|/-| 
+Clean up Trakt a little |-\|/-| 2017-02-13T05:38:20Z Merged pull request |-\|/-| 735 +12 −12 cs 4|-\|/-| 
+Update dl-clients |-\|/-| 2017-02-13T01:07:58Z Merged pull request |-\|/-| 732 +35 −109 cs 16|-\|/-| 
+fully functional implementation of trakt Authentication  |-\|/-| 2017-02-17T02:05:37Z Closed pull request |-\|/-| 728 +175 −8 cs js hbs 7|-\|/-| 
+NetImport - Do not allow TV Series / Mini-Series (works with IMDb) #699 |-\|/-| 2017-02-12T14:16:16Z Merged pull request |-\|/-| 727 +9 −2 cs 1|-\|/-| 
+Fix Hardcoded .DKSubs. |-\|/-| 2017-02-12T14:19:49Z Merged pull request |-\|/-| 726 +10 −1 cs 2|-\|/-| 
+Add Synology Download Station |-\|/-| 2017-02-13T00:44:48Z Merged pull request |-\|/-| 725 +2,064 −2 cs csproj 6|-\|/-| 
+Patch/re add ghost migrations |-\|/-| 2017-02-12T12:08:40Z Merged pull request |-\|/-| 724 +16 −0 cs csproj 2|-\|/-| 
+Increase timeout when waiting for rTorrent to finish adding torrent |-\|/-| 2017-02-12T08:07:38Z Merged pull request |-\|/-| 721 +2 −2 cs 1|-\|/-| 
+Patch/onedr0p |-\|/-| 2017-02-12T11:57:08Z Merged pull request |-\|/-| 716 +177 −150 cs 6|-\|/-| 
+search all missing movie works - missing tab only |-\|/-| 2017-02-11T13:48:03Z Merged pull request |-\|/-| 710 +47 −2 cs 1|-\|/-| 
+changed sort options to match UI |-\|/-| 2017-02-11T20:04:20Z Merged pull request |-\|/-| 707 +5 −1 js 1|-\|/-| 
+Limit TMDb requests when importing via IMDBid |-\|/-| 2017-02-11T04:03:24Z Merged pull request |-\|/-| 703 +13 −1 cs 1|-\|/-| 
+Fixed Sorting In Wanted and Cutoff |-\|/-| 2017-02-10T09:04:50Z Merged pull request |-\|/-| 693 +7 −6 js 2|-\|/-| 
+Pass at seeing if wanted -> cutoff works on linux now |-\|/-| 2017-02-10T08:17:29Z Merged pull request |-\|/-| 692 +85 −36 cs csproj 4|-\|/-| 
+Small UI changes |-\|/-| 2017-02-10T08:14:51Z Merged pull request |-\|/-| 691 +23 −23 cs hbs 12|-\|/-| 
+fix trakt links for movies (like sonarr for shows) |-\|/-| 2017-02-10T09:07:39Z Merged pull request |-\|/-| 690 +5 −4 hbs js 5|-\|/-| 
+Add required GP flag for PTP |-\|/-| 2017-02-10T06:35:48Z Merged pull request |-\|/-| 688 +17 −8 cs 3|-\|/-| 
+Wanted & Missing |-\|/-| 2017-02-10T05:15:42Z Merged pull request |-\|/-| 687 +165 −55 csproj cs js 9|-\|/-| 
+* Make Missing/Wanted Load |-\|/-| 2017-02-10T03:52:13Z Merged pull request |-\|/-| 686 +14 −14 cs js 2|-\|/-| 
+Fixes - MovieMissingModule failed while processing [MovieDownloadedEvent] |-\|/-| 2017-02-09T21:52:36Z Merged pull request |-\|/-| 682 +2 −1 cs 1|-\|/-| 
+UI Enhancements for Manual Import |-\|/-| 2017-02-09T21:25:52Z Merged pull request |-\|/-| 681 +10 −0 js 2|-\|/-| 
+Fix ordering in PTP, should prefer GP releases |-\|/-| 2017-02-08T19:26:11Z Merged pull request |-\|/-| 667 +30 −10 cs 1|-\|/-| 
+Patch/onedr0p updates |-\|/-| 2017-02-08T15:36:08Z Merged pull request |-\|/-| 664 +57 −111 cs csproj 4|-\|/-| 
+Make Movie Title and Status sortable on Wanted tab |-\|/-| 2017-02-08T14:22:50Z Merged pull request |-\|/-| 662 +0 −2 js 1|-\|/-| 
+List sync with removal |-\|/-| 2017-02-25T21:38:53Z Merged pull request |-\|/-| 656 +276 −15 cs hbs js 10|-\|/-| 
+Correct the Kickass migration |-\|/-| 2017-02-07T21:36:36Z Merged pull request |-\|/-| 649 +14 −0 cs 1|-\|/-| 
+Update notif list warning when importing from a list |-\|/-| 2017-02-07T21:29:12Z Merged pull request |-\|/-| 648 +2 −2 js 1|-\|/-| 
+Wait 5 seconds before getting the next 35 movies from TMDb using X-RateLimit-Remaining |-\|/-| 2017-02-07T21:55:58Z Merged pull request |-\|/-| 647 +12 −1 cs 1|-\|/-| 
+This is a quick fix to limit the amount of requests we make to trakt, since we are limited to 4 per second (10 per 40 seconds) |-\|/-| 2017-02-07T20:59:44Z Closed pull request |-\|/-| 642 +9 −1 cs 1|-\|/-| 
+Fix movies not showing up in Queue when downloading |-\|/-| 2017-02-07T08:03:15Z Merged pull request |-\|/-| 640 +14 −19 cs 2|-\|/-| 
+Fixed Movie link in history tab |-\|/-| 2017-02-07T01:57:54Z Merged pull request |-\|/-| 637 +1 −1 js 1|-\|/-| 
+Clean up download clients to use radarr as label, fix hoduken, and blackhole. |-\|/-| 2017-02-07T00:51:31Z Merged pull request |-\|/-| 635 +28 −20 cs 6|-\|/-| 
+Use Movie Name-TmdbId for slug, update toUrlSlug |-\|/-| 2017-02-06T22:01:02Z Merged pull request |-\|/-| 629 +3 −3 cs 1|-\|/-| 
+Update SkyHook to use updated ToUrlSlug method |-\|/-| 2017-02-06T21:52:17Z Closed pull request |-\|/-| 628 +3 −1 cs 1|-\|/-| 
+Removed Wombles and Kickass, updated torrentpotato and torznab |-\|/-| 2017-02-06T21:34:12Z Merged pull request |-\|/-| 625 +47 −848 cs csproj 8|-\|/-| 
+Various ui text fixes |-\|/-| 2017-02-06T18:58:25Z Merged pull request |-\|/-| 620 +5 −5 cs hbs 3|-\|/-| 
+Delay Profile: Fix for when preferred words is null. |-\|/-| 2017-02-06T13:07:17Z Merged pull request |-\|/-| 618 +11 −2 cs 1|-\|/-| 
+Trakt private list support |-\|/-| 2017-02-12T15:51:57Z Closed pull request |-\|/-| 605 +174 −7 cs js hbs 8|-\|/-| 
+Fix ical ics feed file |-\|/-| 2017-02-05T19:04:39Z Merged pull request |-\|/-| 603 +3 −3 js html 2|-\|/-| 
+Delay Profile: Upgradable Check Fix |-\|/-| 2017-02-05T20:58:50Z Merged pull request |-\|/-| 598 +13 −7 cs 2|-\|/-| 
+Added 'Case Insensitive.' to preferred tags info to help-inline |-\|/-| 2017-02-03T07:30:20Z Merged pull request |-\|/-| 587 +1 −1 hbs 1|-\|/-| 
+feature: added netflix(via allflicks.net) support, disabled by default |-\|/-| 2017-03-11T09:42:25Z Closed pull request |-\|/-| 586 +430 −8 cs csproj 8|-\|/-| 
+Bulk Import. |-\|/-| 2017-02-08T00:09:36Z Merged pull request |-\|/-| 583 +924 −20 cs csproj js hbs 8|-\|/-| 
+Added more options to trakt, popular movies, upcoming, anticipated etc.. |-\|/-| 2017-02-02T00:06:06Z Merged pull request |-\|/-| 573 +106 −30 cs csproj 6|-\|/-| 
+Add warning for docker users when switching branch |-\|/-| 2017-02-01T22:45:33Z Merged pull request |-\|/-| 571 +5 −1 hbs 1|-\|/-| 
+Add plain "ES" audioProfile. |-\|/-| 2017-02-01T22:13:49Z Merged pull request |-\|/-| 569 +1 −1 cs 1|-\|/-| 
+Use shorter format Profile string for DTS profiles. |-\|/-| 2017-02-01T10:22:29Z Merged pull request |-\|/-| 561 +4 −4 cs 1|-\|/-| 
+Use movieFile instead of episodeFile. |-\|/-| 2017-02-01T09:44:42Z Merged pull request |-\|/-| 560 +5 −5 cs 1|-\|/-| 
+Add expanded DTS audio codecs to FileNameBuilder and fix up Atmos TrueHD audioCodec string. |-\|/-| 2017-02-01T09:22:34Z Merged pull request |-\|/-| 559 +24 −1 cs 1|-\|/-| 
+Cutoff ui changes |-\|/-| 2017-02-10T05:16:11Z Closed pull request |-\|/-| 543 +1,772 −1,647 csproj cs js 8|-\|/-| 
+add importfromlist abck |-\|/-| 2017-01-30T22:30:02Z Merged pull request |-\|/-| 532 +21 −0 js 1|-\|/-| 
+Fix the filter modes on the movie list xD |-\|/-| 2017-01-30T22:07:25Z Merged pull request |-\|/-| 531 +98 −142 js 1|-\|/-| 
+updates to ptp, and using caching for cookie |-\|/-| 2017-01-30T21:46:14Z Merged pull request |-\|/-| 530 +95 −28 cs 4|-\|/-| 
+Use username, password and passkey for passthepopcorn |-\|/-| 2017-01-30T06:54:10Z Merged pull request |-\|/-| 528 +49 −18 cs 2|-\|/-| 
+Patch/update qualities |-\|/-| 2017-01-29T21:14:55Z Merged pull request |-\|/-| 517 +266 −89 cs csproj 9|-\|/-| 
+Set Drone Factory Interval default to 0 |-\|/-| 2017-01-29T19:09:54Z Merged pull request |-\|/-| 515 +1 −1 cs 1|-\|/-| 
+Update validators and Naming |-\|/-| 2017-01-29T06:10:33Z Closed pull request |-\|/-| 506 +11 −2 cs 3|-\|/-| 
+Added options for watched, and watchlist, and customlist to trakt |-\|/-| 2017-01-29T02:27:52Z Merged pull request |-\|/-| 504 +50 −7 cs csproj 6|-\|/-| 
+Patch/net import changes |-\|/-| 2017-01-28T22:35:10Z Merged pull request |-\|/-| 500 +8 −4 cs js hbs 4|-\|/-| 
+Update HDBits to work with Radarr |-\|/-| 2017-01-28T21:52:37Z Merged pull request |-\|/-| 499 +26 −10 cs 4|-\|/-| 
+Feature/net import |-\|/-| 2017-01-28T20:39:09Z Merged pull request |-\|/-| 497 +6,688 −581 cs csproj 10|-\|/-| 
+Add movie year to NotificationService |-\|/-| 2017-01-28T14:42:38Z Merged pull request |-\|/-| 496 +2 −1 cs 1|-\|/-| 
+Ensure the movie isn't delete when the folder isn't renamed |-\|/-| 2017-01-28T02:24:01Z Merged pull request |-\|/-| 491 +3 −1 cs 1|-\|/-| 
+Add movie year to NotificationService |-\|/-| 2017-01-28T01:32:16Z Merged pull request |-\|/-| 489 +2 −1 cs 1|-\|/-| 
+Rename existing folder |-\|/-| 2017-01-28T00:32:02Z Merged pull request |-\|/-| 488 +75 −8 cs js hbs 9|-\|/-| 
+Fixed: Proper port validation for download clients and connections |-\|/-| 2017-01-28T22:32:50Z Merged pull request |-\|/-| 487 +18 −18 cs 14|-\|/-| 
+Notifications: Update Synology Indexer  |-\|/-| 2017-01-28T17:13:11Z Merged pull request |-\|/-| 486 +8 −4 cs 1|-\|/-| 
+Allow Duplicate Preferred Words |-\|/-| 2017-01-28T17:13:02Z Merged pull request |-\|/-| 484 +1 −0 js 1|-\|/-| 
+Kodi Update Fix: OldFiles -> OldMovieFiles |-\|/-| 2017-01-27T19:34:52Z Merged pull request |-\|/-| 483 +1 −1 cs 1|-\|/-| 
+More Notification Updates |-\|/-| 2017-01-27T18:01:19Z Merged pull request |-\|/-| 482 +143 −5 cs 9|-\|/-| 
+Assign moviefile object when calling download message.  |-\|/-| 2017-01-26T20:46:56Z Merged pull request |-\|/-| 466 +3 −1 cs 2|-\|/-| 
+Remove mofilefile id for now |-\|/-| 2017-01-26T20:13:27Z Merged pull request |-\|/-| 464 +1 −1 cs 1|-\|/-| 
+Added option to specify preferred words in quality profile. |-\|/-| 2017-01-27T19:01:29Z Merged pull request |-\|/-| 462 +154 −80 cs csproj js hbs 9|-\|/-| 
+Download Movie Quality & Formatting |-\|/-| 2017-01-26T02:36:25Z Merged pull request |-\|/-| 460 +2 −2 cs 1|-\|/-| 
+Update GeneralViewTemplate.hbs |-\|/-| 2017-01-26T00:59:51Z Merged pull request |-\|/-| 459 +1 −1 hbs 1|-\|/-| 
+Change lang in UI to what profile / lang they choose when they add a … |-\|/-| 2017-01-25T23:07:27Z Merged pull request |-\|/-| 456 +28 −10 cs 4|-\|/-| 
+Custom Script Fix: Parse movie not episode |-\|/-| 2017-01-25T22:02:34Z Merged pull request |-\|/-| 454 +1 −11 cs 1|-\|/-| 
+only use internal for RSS Sync |-\|/-| 2017-01-25T16:55:20Z Merged pull request |-\|/-| 450 +2 −2 cs 2|-\|/-| 
+include only internal for AHD |-\|/-| 2017-01-25T16:31:04Z Merged pull request |-\|/-| 449 +11 −2 cs 2|-\|/-| 
+Fixes issue #447 (Notification Icon for Join) |-\|/-| 2017-01-25T16:55:32Z Merged pull request |-\|/-| 448 +1 −1 cs 1|-\|/-| 
+fix new rss-sync threshold |-\|/-| 2017-01-25T11:22:48Z Merged pull request |-\|/-| 441 +2 −2 cs 1|-\|/-| 
+Notification Fixes/Updates |-\|/-| 2017-01-25T15:56:12Z Merged pull request |-\|/-| 435 +90 −9 cs 4|-\|/-| 
+"fixed" error message |-\|/-| 2017-01-24T22:35:28Z Merged pull request |-\|/-| 434 +6 −6 cs 1|-\|/-| 
+Allow renaming of movies that don't have an "Edition" |-\|/-| 2017-01-24T21:08:07Z Merged pull request |-\|/-| 432 +4 −1 cs 1|-\|/-| 
+update default sort order |-\|/-| 2017-01-24T20:16:22Z Merged pull request |-\|/-| 429 +1 −1 js 1|-\|/-| 
+#292 - Allow longer threshold for RSS Sync |-\|/-| 2017-01-24T20:26:52Z Merged pull request |-\|/-| 428 +4 −4 cs hbs 3|-\|/-| 
+Add year to search |-\|/-| 2017-01-24T19:17:36Z Merged pull request |-\|/-| 425 +9 −3 cs 1|-\|/-| 
+Update to favicon section, according to |-\|/-| 2017-01-24T20:23:43Z Merged pull request |-\|/-| 416 +160 −32 png xml ico json svg html 48|-\|/-| 
+Add link to Activity -> History Tab |-\|/-| 2017-01-24T21:12:59Z Merged pull request |-\|/-| 408 +3 −5 js 2|-\|/-| 
+Initial Notification Updates and Support |-\|/-| 2017-01-24T19:17:25Z Merged pull request |-\|/-| 401 +269 −70 cs 10|-\|/-| 
+Ui logos |-\|/-| 2017-01-23T04:21:24Z Merged pull request |-\|/-| 385 +17 −2 ico png svg html 17|-\|/-| 
+Update UI logos |-\|/-| 2017-01-22T22:13:52Z Closed pull request |-\|/-| 384 +17 −2 ico png svg html 17|-\|/-| 
+Add more filter options to movie list |-\|/-| 2017-01-22T10:38:21Z Merged pull request |-\|/-| 378 +36 −0 js 2|-\|/-| 
+Optimized logo |-\|/-| 2017-01-22T18:33:34Z Merged pull request |-\|/-| 375 +25 −572 png svg 11|-\|/-| 
+Optimised Logos |-\|/-| 2017-01-21T22:15:55Z Closed pull request |-\|/-| 374 +32 −572 png svg 11|-\|/-| 
+search selected button in wanted tab works |-\|/-| 2017-01-22T00:27:01Z Merged pull request |-\|/-| 373 +54 −21 cs csproj js 8|-\|/-| 
+Add helptext to nzbget "add paused" settings. |-\|/-| 2017-01-20T14:14:16Z Merged pull request |-\|/-| 363 +1 −1 cs 1|-\|/-| 
+adds 'Movie Title, The' filename option |-\|/-| 2017-01-20T22:42:14Z Merged pull request |-\|/-| 359 +20 −2 cs hbs 3|-\|/-| 
+add year to search |-\|/-| 2017-01-20T01:07:34Z Merged pull request |-\|/-| 358 +3 −1 js 1|-\|/-| 
+Fix issue with reimporting on movie fresh |-\|/-| 2017-01-20T00:58:58Z Merged pull request |-\|/-| 357 +61 −66 cs 6|-\|/-| 
+bug fix for 15 movie wanted tab limit |-\|/-| 2017-01-19T18:17:41Z Merged pull request |-\|/-| 352 +10 −6 cs 1|-\|/-| 
+Blacklisting should work now. |-\|/-| 2017-01-19T16:43:24Z Merged pull request |-\|/-| 350 +46 −13 cs csproj 6|-\|/-| 
+Fix pushover priority values. |-\|/-| 2017-01-18T22:16:58Z Merged pull request |-\|/-| 337 +1 −1 cs 1|-\|/-| 
+Add IMDb ID to file naming |-\|/-| 2017-01-18T20:11:16Z Merged pull request |-\|/-| 336 +13 −1 cs hbs 4|-\|/-| 
+Turn off scene mapping task #329, update TaskManager to use 'DownloadedMovieScanCommand |-\|/-| 2017-01-18T19:36:30Z Merged pull request |-\|/-| 335 +2 −1 cs 1|-\|/-| 
+basic implementation of the wanted tab |-\|/-| 2017-01-18T19:36:49Z Merged pull request |-\|/-| 333 +170 −32 csproj cs js less 9|-\|/-| 
+Revert "Sonarr/sqlite updates" |-\|/-| 2017-01-18T18:33:46Z Merged pull request |-\|/-| 332 +2,282 −5,818 gitignore dll pdb xml dylib csproj 8|-\|/-| 
+Nzbgetaddpaused |-\|/-| 2017-01-18T18:20:13Z Merged pull request |-\|/-| 331 +16 −7 cs 4|-\|/-| 
+Add "Add Paused" option for NZBGET downloader |-\|/-| 2017-01-18T17:59:19Z Closed pull request |-\|/-| 330 +14 −5 cs 3|-\|/-| 
+Sonarr/sqlite updates |-\|/-| 2017-01-17T23:59:11Z Merged pull request |-\|/-| 318 +6,497 −2,961 gitignore dll pdb xml dylib csproj 8|-\|/-| 
+Maybe this will solve the error Object reference not set to an instance of an object |-\|/-| 2017-01-17T22:20:50Z Merged pull request |-\|/-| 316 +15 −15 cs 1|-\|/-| 
+Fix for SkyHook ToUrlSlug |-\|/-| 2017-01-17T21:25:50Z Merged pull request |-\|/-| 312 +3 −3 cs 1|-\|/-| 
+Fix publish date for jackett #239 |-\|/-| 2017-01-17T18:56:48Z Merged pull request |-\|/-| 308 +11 −4 cs 3|-\|/-| 
+Fix: Issue #91 - "Search All Missing" wording |-\|/-| 2017-01-17T18:48:31Z Merged pull request |-\|/-| 307 +3 −3 js 1|-\|/-| 
+I messed up and staged changes on wrong branch. |-\|/-| 2017-01-16T21:51:46Z Merged pull request |-\|/-| 291 +12,276 −8,559 cs js hbs 10|-\|/-| 
+Add Calendar Tab back. Fixes #32 |-\|/-| 2017-01-16T21:41:00Z Merged pull request |-\|/-| 290 +12,274 −8,557 cs js hbs 8|-\|/-| 
+Added movie studio to movie details page (#262) |-\|/-| 2017-01-16T19:30:22Z Merged pull request |-\|/-| 287 +36 −2 cs csproj hbs 7|-\|/-| 
+Removed duplicate PublishDate |-\|/-| 2017-01-16T18:46:29Z Merged pull request |-\|/-| 286 +2 −3 cs 1|-\|/-| 
+Added trailer link to movie links (#255) |-\|/-| 2017-01-15T20:17:25Z Merged pull request |-\|/-| 282 +82 −6 cs csproj hbs js less 13|-\|/-| 
+Add support section to README |-\|/-| 2017-01-15T17:23:50Z Merged pull request |-\|/-| 281 +11 −4 md 0|-\|/-| 
+Reworked README |-\|/-| 2017-01-15T12:50:46Z Merged pull request |-\|/-| 280 +19 −20 md 0|-\|/-| 
+Reworked README |-\|/-| 2017-01-15T12:45:01Z Closed pull request |-\|/-| 279 +23 −23 md 0|-\|/-| 
+Reworked README with badges |-\|/-| 2017-01-15T12:16:36Z Closed pull request |-\|/-| 278 +20 −23 md 0|-\|/-| 
+Reworked README.md |-\|/-| 2017-01-15T11:31:03Z Closed pull request |-\|/-| 277 +18 −23 md 0|-\|/-| 
+Update .gitignore and remove Thumbs.db files |-\|/-| 2017-01-15T10:38:55Z Merged pull request |-\|/-| 276 +17 −9 gitignore db 4|-\|/-| 
+Move Travis builds to container-based infrastructure |-\|/-| 2017-01-15T10:39:01Z Merged pull request |-\|/-| 273 +6 −4 yml 1|-\|/-| 
+Update README.md |-\|/-| 2017-01-14T23:56:52Z Merged pull request |-\|/-| 271 +31 −31 md 0|-\|/-| 
+Update README.md |-\|/-| 2017-01-14T23:10:58Z Merged pull request |-\|/-| 270 +9 −13 md 0|-\|/-| 
+Update README.md |-\|/-| 2017-01-14T22:53:02Z Merged pull request |-\|/-| 266 +6 −3 md 0|-\|/-| 
+Cleanup README |-\|/-| 2017-01-14T22:35:34Z Merged pull request |-\|/-| 265 +35 −31 md 0|-\|/-| 
+Add in theaters to 1st coumn in movie list |-\|/-| 2017-01-14T21:51:28Z Merged pull request |-\|/-| 263 +4 −4 js 1|-\|/-| 
+Simplify completed download service |-\|/-| 2017-01-14T19:12:54Z Merged pull request |-\|/-| 260 +24 −123 cs 1|-\|/-| 
+Fixed TitleSlug For Realz! |-\|/-| 2017-01-14T18:18:58Z Merged pull request |-\|/-| 258 +104 −15 cs csproj 3|-\|/-| 
+Torpotato username regression |-\|/-| 2017-01-14T17:31:17Z Merged pull request |-\|/-| 257 +9 −0 cs 1|-\|/-| 
+Use DOGnzb name as the default rather than the URL |-\|/-| 2017-01-14T11:15:59Z Merged pull request |-\|/-| 250 +1 −1 cs 1|-\|/-| 
+Fixed: Parsing of SABnzbd develop version |-\|/-| 2017-01-14T05:57:05Z Merged pull request |-\|/-| 248 +52 −59 cs 1|-\|/-| 
+Add rss sync to awesome-hd |-\|/-| 2017-01-14T03:00:01Z Merged pull request |-\|/-| 247 +11 −4 cs 2|-\|/-| 
+Files tab is now present. |-\|/-| 2017-01-14T00:03:37Z Merged pull request |-\|/-| 245 +392 −13 cs csproj js hbs 15|-\|/-| 
+Revert "Fix movie title slugs" |-\|/-| 2017-01-13T23:24:24Z Merged pull request |-\|/-| 244 +20 −125 cs csproj 3|-\|/-| 
+Update Torznab to work with movies |-\|/-| 2017-01-13T22:51:36Z Merged pull request |-\|/-| 243 +5 −28 cs 2|-\|/-| 
+#236 #239 - Fixed user being needed & fixed age on torrentpotato |-\|/-| 2017-01-13T21:33:02Z Merged pull request |-\|/-| 241 +13 −5 cs 4|-\|/-| 
+Fix movie title slugs |-\|/-| 2017-01-13T23:07:14Z Merged pull request |-\|/-| 238 +125 −20 cs csproj 3|-\|/-| 
+Add Filter Missing |-\|/-| 2017-01-13T19:57:25Z Merged pull request |-\|/-| 237 +9 −3 js 2|-\|/-| 
+awesomeHD indexer support - Clean up Deluge, Transmission, rTorrent, QBitTorrent - Fix Sorting Titles |-\|/-| 2017-01-13T18:15:53Z Merged pull request |-\|/-| 232 +428 −297 cs 9|-\|/-| 
+Queue Service should now work properly again. |-\|/-| 2017-01-13T17:57:43Z Merged pull request |-\|/-| 231 +2 −2 cs 1|-\|/-| 
+update movie monitor tooltip |-\|/-| 2017-01-13T15:08:24Z Merged pull request |-\|/-| 223 +5 −17 hbs js 2|-\|/-| 
+omgwtfnzbs: fixed parsing of GetInfoUrl and updated tests |-\|/-| 2017-01-13T04:00:31Z Merged pull request |-\|/-| 217 +945 −947 0|-\|/-| 
+improved categories, added Nzb-Tortuga as a preset |-\|/-| 2017-01-12T23:51:52Z Merged pull request |-\|/-| 208 +4 −3 cs 2|-\|/-| 
+Update UserAgentBuilder.cs |-\|/-| 2017-01-12T20:48:17Z Merged pull request |-\|/-| 202 +3 −3 cs 1|-\|/-| 
+Add UHD to default movie categories for newsnab providers |-\|/-| 2017-01-12T17:58:24Z Merged pull request |-\|/-| 199 +1 −1 cs 1|-\|/-| 
+trying to get plex working again round 2 |-\|/-| 2017-01-12T17:17:42Z Closed pull request |-\|/-| 195 +15 −14 cs 2|-\|/-| 
+Changed Sonarr Branding to Radarr |-\|/-| 2017-01-12T04:27:31Z Merged pull request |-\|/-| 180 +70 −69 md cs 19|-\|/-| 
+Movies in list don't sort correctly #174 |-\|/-| 2017-01-12T06:08:33Z Merged pull request |-\|/-| 177 +50 −4 cs csproj js 4|-\|/-| 
+Problem with Avatar (2009) #168 |-\|/-| 2017-01-11T20:53:16Z Merged pull request |-\|/-| 169 +1 −1 cs 1|-\|/-| 
+update plex movie libraries instead of series |-\|/-| 2017-01-11T17:35:02Z Merged pull request |-\|/-| 163 +2 −2 cs 1|-\|/-| 
+fix some spelling mistakes and update the newznab api 'imdbid' |-\|/-| 2017-01-11T15:59:09Z Merged pull request |-\|/-| 160 +10 −10 cs 4|-\|/-| 
+aarch64 docker container added to readme. |-\|/-| 2017-01-11T15:33:36Z Merged pull request |-\|/-| 156 +1 −0 md 0|-\|/-| 
+removed indexer Fanzub - site shutdown |-\|/-| 2017-01-11T15:12:03Z Merged pull request |-\|/-| 154 +15 −212 cs csproj 7|-\|/-| 
+search imdbid for usenet indexers that support it |-\|/-| 2017-01-11T13:53:28Z Merged pull request |-\|/-| 148 +9 −22 cs 3|-\|/-| 
+Fix Manual Import & Drone Factory |-\|/-| 2017-01-11T15:39:10Z Merged pull request |-\|/-| 133 +796 −312 cs 2|-\|/-| 
+Add category 2035 to Newznab providers for WEB-DL search support. #123 |-\|/-| 2017-01-11T00:14:22Z Merged pull request |-\|/-| 130 +1 −1 cs 1|-\|/-| 
+Fix transmission |-\|/-| 2017-01-10T22:43:16Z Merged pull request |-\|/-| 122 +27 −2 cs 2|-\|/-| 
+Update readme.md |-\|/-| 2017-01-10T22:25:06Z Merged pull request |-\|/-| 119 +4 −1 md 0|-\|/-| 
+Update SystemLayout.js |-\|/-| 2017-01-10T21:50:16Z Merged pull request |-\|/-| 118 +3 −3 js 1|-\|/-| 
+Fix Wombles for movies |-\|/-| 2017-01-10T21:29:03Z Merged pull request |-\|/-| 117 +1 −1 cs 1|-\|/-| 
+fix #108 - Links to IMDB not working when searching for movies |-\|/-| 2017-01-10T20:45:39Z Merged pull request |-\|/-| 111 +1 −1 hbs 1|-\|/-| 
+Fixes #104 - Backup/update fail Access to the path "/tmp/nzbdrone_backup/config.xml" is denied |-\|/-| 2017-01-10T18:31:13Z Merged pull request |-\|/-| 105 +4 −4 cs 2|-\|/-| 
+When adding a movie, monitored toggle doesn't apply and always defaults to being monitored |-\|/-| 2017-01-10T18:21:25Z Merged pull request |-\|/-| 102 +7 −40 js hbs 2|-\|/-| 
+Replace Sonarr with Radarr in Test notification messages |-\|/-| 2017-01-10T10:31:40Z Merged pull request |-\|/-| 88 +9 −9 cs 9|-\|/-| 
+Remove some indexers and fixed HDBits |-\|/-| 2017-01-09T17:28:08Z Merged pull request |-\|/-| 79 +58 −1,088 cs csproj 8|-\|/-| 
+Fix HDBits |-\|/-| 2017-01-09T15:24:25Z Closed pull request |-\|/-| 78 +13 −73 cs 1|-\|/-| 
+Fix HDBits |-\|/-| 2017-01-09T14:23:39Z Closed pull request |-\|/-| 77 +12 −67 cs 1|-\|/-| 
+Fix HDBits |-\|/-| 2017-01-09T14:08:41Z Closed pull request |-\|/-| 76 +12 −72 cs 1|-\|/-| 
+Taking a pass at Library import and rename/organize |-\|/-| 2017-01-09T22:31:26Z Merged pull request |-\|/-| 74 +869 −101 cs csproj 14|-\|/-| 
+update rss sync and fix search for omgwtfnzbs indexer |-\|/-| 2017-01-09T13:39:24Z Merged pull request |-\|/-| 70 +7 −2 cs 1|-\|/-| 
+Added PassThePopcorn indexer |-\|/-| 2017-01-09T13:30:15Z Merged pull request |-\|/-| 64 +373 −0 cs csproj 7|-\|/-| 
+Change default branch in config. |-\|/-| 2017-01-08T18:42:46Z Merged pull request |-\|/-| 63 +3 −3 cs 2|-\|/-| 
+Change Sonarr / NzbDrone auto-updater stuff to Radarr. |-\|/-| 2017-01-08T17:47:48Z Merged pull request |-\|/-| 61 +13 −13 cs 4|-\|/-| 
+Physical release dates now are retreived and stored. |-\|/-| 2017-01-08T16:57:22Z Merged pull request |-\|/-| 59 +81 −3 cs csproj js 8|-\|/-| 
+New Pre-Release Version With Auto Updater enabled |-\|/-| 2017-01-08T10:35:59Z Merged pull request |-\|/-| 51 +2 −1 cs 1|-\|/-| 
+Integrate AppVeyor and change assembly versioning |-\|/-| 2017-01-08T10:03:05Z Merged pull request |-\|/-| 50 +529 −0 gitignore yml cake 3|-\|/-| 
+Harden parsing of imported movie titles |-\|/-| 2017-01-08T01:56:33Z Merged pull request |-\|/-| 48 +4 −1 cs 1|-\|/-| 
+Remove all .DS_Store files |-\|/-| 2017-01-08T01:57:11Z Merged pull request |-\|/-| 47 +0 −0 DS_Store 3|-\|/-| 
+Potential fixes for adding an indexer. |-\|/-| 2017-01-07T19:48:45Z Merged pull request |-\|/-| 46 +2 −2 cs 1|-\|/-| 
+Enables the Import UI & parses movie titles which contain year |-\|/-| 2017-01-07T19:31:25Z Merged pull request |-\|/-| 45 +37 −6 cs js hbs 4|-\|/-| 
+Update services url to fix auto-updater. |-\|/-| 2017-01-07T16:40:33Z Merged pull request |-\|/-| 40 +3 −4 cs 1|-\|/-| 
+First pass at Media Management |-\|/-| 2017-01-07T17:31:28Z Merged pull request |-\|/-| 38 +466 −142 cs csproj 5|-\|/-| 
+dirty fix for rtorrent |-\|/-| 2017-01-07T09:47:11Z Merged pull request |-\|/-| 37 +59 −2 cs 2|-\|/-| 
+changed nzbs.org category for movies |-\|/-| 2017-01-07T03:24:35Z Merged pull request |-\|/-| 36 +1 −1 cs 1|-\|/-| 
+Instead of searching for imdbid (which jackett may or may not have depending on the tracker) search for a word instead. |-\|/-| 2017-01-06T20:56:02Z Merged pull request |-\|/-| 34 +2 −3 cs 1|-\|/-| 
+Update Logos |-\|/-| 2017-01-05T23:17:35Z Merged pull request |-\|/-| 28 +572 −240 png svg ico 20|-\|/-| 
+Fixes all usenet download clients. |-\|/-| 2017-01-05T00:06:18Z Merged pull request |-\|/-| 25 +58 −15 cs 6|-\|/-| 
+Better folder name. |-\|/-| 2017-01-04T22:01:45Z Merged pull request |-\|/-| 24 +1 −1 cs 1|-\|/-| 
+Fix newznab indexers and nzbget |-\|/-| 2017-01-04T20:55:20Z Merged pull request |-\|/-| 23 +89 −47 cs 7|-\|/-| 
+Replace colon in movie path. |-\|/-| 2017-01-04T17:42:01Z Merged pull request |-\|/-| 22 +3 −1 cs 1|-\|/-| 
+Fix template references and 'movie' strings |-\|/-| 2017-01-02T09:12:51Z Merged pull request |-\|/-| 12 +16 −16 hbs js 13|-\|/-| 

@@ -1,0 +1,512 @@
+Add option to subscribe to lazy queues. |-\|/-| 2020-01-08T09:32:09Z Merged pull request |-\|/-| 993 +80 −1 cs 4|-\|/-| 
+merge from master |-\|/-| 2019-09-25T15:21:15Z Merged pull request |-\|/-| 982 +113 −92 csproj cs 17|-\|/-| 
+Fix  #978 |-\|/-| 2019-09-26T14:02:49Z Merged pull request |-\|/-| 979 +14 −1 cs 2|-\|/-| 
+Feature/update gitversion |-\|/-| 2019-09-25T15:23:04Z Merged pull request |-\|/-| 977 +28 −22 csproj 20|-\|/-| 
+Bump dependencies |-\|/-| 2019-09-23T04:03:30Z Merged pull request |-\|/-| 973 +106 −95 csproj cs 15|-\|/-| 
+Added arguments to ExchangeDeclare and QueueDeclare methods |-\|/-| 2019-07-17T11:34:50Z Closed pull request |-\|/-| 970 +53 −32 cs 2|-\|/-| 
+Dispose consumer cancellation for RPC response queue  |-\|/-| 2019-07-15T19:23:16Z Merged pull request |-\|/-| 969 +32 −11 cs 1|-\|/-| 
+Additional .NET 4.6 target for dispatcher deadlock |-\|/-| 2019-07-11T15:09:41Z Merged pull request |-\|/-| 967 +10 −10 csproj cs 3|-\|/-| 
+Using same ExchangeDeclareStrategy for publish and subscribe |-\|/-| 2019-07-17T05:05:01Z Merged pull request |-\|/-| 962 +80 −81 cs 14|-\|/-| 
+Make EasyNetQ exceptions really serializable |-\|/-| 2019-06-04T05:25:58Z Merged pull request |-\|/-| 953 +25 −0 cs 2|-\|/-| 
+Code cleanup |-\|/-| 2019-06-02T05:13:22Z Merged pull request |-\|/-| 950 +292 −332 cs 20|-\|/-| 
+Spell check |-\|/-| 2019-06-02T03:53:50Z Merged pull request |-\|/-| 949 +11 −11 cs txt 5|-\|/-| 
+Make HandleConsumerCancelled virtual |-\|/-| 2019-06-02T04:14:10Z Merged pull request |-\|/-| 948 +1 −1 cs 1|-\|/-| 
+Convert events to structs |-\|/-| 2019-09-23T04:05:29Z Closed pull request |-\|/-| 936 +31 −31 cs 14|-\|/-| 
+Move code from Sprache to EasyNetQ.Sprache namespace and internalise it. |-\|/-| 2019-05-02T13:05:55Z Merged pull request |-\|/-| 935 +285 −282 cs 3|-\|/-| 
+Queue and exchange declaration rework |-\|/-| 2019-04-10T11:43:18Z Merged pull request |-\|/-| 931 +323 −308 cs 7|-\|/-| 
+Queue and Exchange hold parameters of their declaration |-\|/-| 2019-04-07T08:48:03Z Closed pull request |-\|/-| 930 +185 −175 cs 6|-\|/-| 
+Move caching of declared exchanges to AsyncCache |-\|/-| 2019-03-25T18:26:42Z Merged pull request |-\|/-| 925 +90 −39 cs 4|-\|/-| 
+Rework exchange declaration |-\|/-| 2019-03-29T13:39:50Z Merged pull request |-\|/-| 924 +337 −169 cs 5|-\|/-| 
+Update EasyNetQ.Scheduler with EnableLegacyConventions setting |-\|/-| 2019-03-21T14:37:13Z Merged pull request |-\|/-| 923 +56 −6 cs config 10|-\|/-| 
+added comments on AwaitableDisposable |-\|/-| 2019-03-19T08:44:39Z Merged pull request |-\|/-| 922 +27 −1 cs 1|-\|/-| 
+Rework queue declaration. LazyQueue is introduced. |-\|/-| 2019-03-19T18:30:53Z Merged pull request |-\|/-| 921 +821 −502 cs 3|-\|/-| 
+fix extension methods that were missing the this keyword |-\|/-| 2019-03-18T17:00:42Z Merged pull request |-\|/-| 919 +2 −2 cs 1|-\|/-| 
+Moved extensions methods under the same namespace as IBus |-\|/-| 2019-03-18T12:21:55Z Merged pull request |-\|/-| 918 +12 −8 cs 4|-\|/-| 
+Simplify usage of ConcurrentDictionary |-\|/-| 2019-03-17T15:36:08Z Merged pull request |-\|/-| 917 +159 −161 cs 3|-\|/-| 
+Clean up unused packages.config and app.config, fix warnings and conv… |-\|/-| 2019-03-16T09:48:01Z Merged pull request |-\|/-| 916 +32 −414 csproj config 25|-\|/-| 
+Replace AddOrUpdate with GetOrAdd |-\|/-| 2019-03-16T09:48:10Z Merged pull request |-\|/-| 915 +4 −7 cs 1|-\|/-| 
+Rewrite SendReceive with async API |-\|/-| 2019-03-15T08:47:39Z Merged pull request |-\|/-| 914 +33 −31 cs 3|-\|/-| 
+Bump LangVersion to latest |-\|/-| 2019-03-14T17:35:08Z Merged pull request |-\|/-| 913 +22 −94 csproj config 27|-\|/-| 
+Revert "Created ConsumerCancelled event on ConsumerCancellation class… |-\|/-| 2019-03-13T17:13:46Z Merged pull request |-\|/-| 912 +8 −40 cs 5|-\|/-| 
+Add EditorConfig file |-\|/-| 2019-03-12T18:09:15Z Merged pull request |-\|/-| 911 +16 −0 editorconfig 1|-\|/-| 
+Remove newtonsoft hack from rpc |-\|/-| 2019-02-19T16:00:16Z Merged pull request |-\|/-| 903 +76 −75 cs 14|-\|/-| 
+Make GetSupersededType work with any message version hierarchy |-\|/-| 2019-01-27T21:42:27Z Merged pull request |-\|/-| 902 +46 −3 cs 2|-\|/-| 
+Ensure the order of superseded types in MessageVersionStack.GetSupersededType |-\|/-| 2019-01-26T22:15:10Z Closed pull request |-\|/-| 901 +1 −0 cs 1|-\|/-| 
+Guarantee that MessageVersionStack.GetSupersededType returns the direct parent type |-\|/-| 2019-01-25T11:10:54Z Closed pull request |-\|/-| 900 +2 −1 cs 1|-\|/-| 
+Fix MessageVersionStack to work with more than 2 versions |-\|/-| 2019-01-25T08:21:49Z Merged pull request |-\|/-| 899 +20 −1 cs 3|-\|/-| 
+Legacy RPC conventions |-\|/-| 2019-01-18T11:48:11Z Merged pull request |-\|/-| 896 +160 −37 cs 7|-\|/-| 
+Newtonsoft.Json separation |-\|/-| 2019-01-12T12:44:05Z Closed pull request |-\|/-| 893 +209 −10 csproj cs sln 24|-\|/-| 
+Fix #883 |-\|/-| 2019-01-05T13:55:30Z Merged pull request |-\|/-| 888 +1 −1 cs 1|-\|/-| 
+Scheduler.Mongo: Removed hardcoded connection to rabbit |-\|/-| 2019-03-14T16:56:51Z Closed pull request |-\|/-| 886 +2 −3 cs 1|-\|/-| 
+Removed hardcoded connection to rabbit |-\|/-| 2018-12-21T12:11:07Z Merged pull request |-\|/-| 885 +1 −2 cs 1|-\|/-| 
+Updated LibLog to version 5.0.3 and reduced NetStandard2-dependencies |-\|/-| 2018-11-21T05:48:45Z Merged pull request |-\|/-| 877 +5 −2,500 csproj 1|-\|/-| 
+LibLog - Fixed NLog + Log4net callsite. Added support for NLog structured logging |-\|/-| 2018-11-20T03:27:27Z Merged pull request |-\|/-| 876 +78 −57 cs 1|-\|/-| 
+Created ConsumerCancelled event on ConsumerCancellation |-\|/-| 2018-12-06T21:58:14Z Merged pull request |-\|/-| 875 +40 −8 cs 5|-\|/-| 
+Created ConsumerCancelled event on ConsumerCancellation class |-\|/-| 2018-11-07T21:29:42Z Closed pull request |-\|/-| 874 +40 −8 cs 5|-\|/-| 
+Delete sync Wait |-\|/-| 2018-11-05T09:49:42Z Merged pull request |-\|/-| 873 +45 −63 cs 3|-\|/-| 
+Fix #871 |-\|/-| 2018-11-11T12:47:10Z Merged pull request |-\|/-| 872 +13 −8 cs 3|-\|/-| 
+changed DefaultConsumerErrorStrategy members to protected  |-\|/-| 2018-11-01T10:27:45Z Merged pull request |-\|/-| 870 +16 −17 cs 1|-\|/-| 
+Catch an exception from a timer's callback, because it can crash the entire application |-\|/-| 2018-10-12T07:10:04Z Merged pull request |-\|/-| 866 +15 −1 cs 1|-\|/-| 
+AmapExceptionPreface -> AmqpExceptionPreface |-\|/-| 2018-10-12T07:10:13Z Merged pull request |-\|/-| 864 +6 −6 cs 2|-\|/-| 
+Disposal of the local non-nullable model and reorder of disposals of consumers and model |-\|/-| 2018-10-12T07:09:51Z Merged pull request |-\|/-| 863 +1 −2 cs 1|-\|/-| 
+Created ConsumerCancelled event on ConsumerCancellation class to be f… |-\|/-| 2018-11-08T15:43:06Z Closed pull request |-\|/-| 862 +85 −71 cs 8|-\|/-| 
+Rewrite RPC with async API |-\|/-| 2019-03-14T16:50:24Z Merged pull request |-\|/-| 861 +239 −221 cs 6|-\|/-| 
+Move preprocessor directives to TaskHelpers for better readability |-\|/-| 2018-10-03T07:57:02Z Merged pull request |-\|/-| 860 +51 −92 cs 4|-\|/-| 
+Use Abstractions for Microsoft DI |-\|/-| 2018-09-16T20:54:34Z Merged pull request |-\|/-| 855 +3 −2 csproj 2|-\|/-| 
+Remove class constraint |-\|/-| 2018-08-29T13:14:49Z Merged pull request |-\|/-| 852 +74 −140 cs 5|-\|/-| 
+Remove responseAction in case of timeout |-\|/-| 2018-08-28T14:21:50Z Merged pull request |-\|/-| 851 +1 −0 cs 1|-\|/-| 
+Remove class constraint from IMessage |-\|/-| 2018-08-28T14:32:19Z Merged pull request |-\|/-| 850 +9 −3 cs 3|-\|/-| 
+EasyNetQ 3.3.1 |-\|/-| 2018-08-28T14:49:14Z Merged pull request |-\|/-| 849 +248 −27 cs 10|-\|/-| 
+Add ability to declare transient server-named queues asynchronously |-\|/-| 2018-08-22T16:54:21Z Merged pull request |-\|/-| 848 +26 −13 cs 3|-\|/-| 
+add scope/lifetimes in microsoft DI .  |-\|/-| 2018-08-23T12:33:47Z Merged pull request |-\|/-| 847 +113 −2 cs 2|-\|/-| 
+add scope/lifetimes in microsoft DI . |-\|/-| 2018-08-17T07:02:56Z Closed pull request |-\|/-| 846 +113 −2 cs 2|-\|/-| 
+Fix #842 |-\|/-| 2018-08-10T02:17:17Z Merged pull request |-\|/-| 843 +2 −2 cs 1|-\|/-| 
+Auto subscribe: Create nested container per message handled for StructureMap |-\|/-| 2018-07-30T09:37:18Z Merged pull request |-\|/-| 841 +97 −7 cs 2|-\|/-| 
+Autosubscribe: Create nested container per message handled for StructureMap |-\|/-| 2018-07-28T18:11:44Z Closed pull request |-\|/-| 840 +97 −7 cs 2|-\|/-| 
+[WIP] Rewrite rpc with async api |-\|/-| 2018-07-25T14:56:45Z Closed pull request |-\|/-| 839 +3,827 −4,076 cs csproj 11|-\|/-| 
+Limit RetryTimeoutMs to MaxRetryTimeoutMs |-\|/-| 2018-07-18T02:50:49Z Merged pull request |-\|/-| 831 +44 −29 cs 5|-\|/-| 
+Simplify usages of timer and change disposal of IEventBus's subscription |-\|/-| 2018-07-17T12:01:02Z Merged pull request |-\|/-| 830 +125 −98 cs 6|-\|/-| 
+EasyNetQ 3.3.0 |-\|/-| 2018-07-18T17:13:19Z Merged pull request |-\|/-| 827 +453 −444 cs 14|-\|/-| 
+Ack on model should be called from Consumer Dispatcher Thread |-\|/-| 2018-07-17T08:14:36Z Merged pull request |-\|/-| 826 +240 −238 cs 10|-\|/-| 
+Remove AckStrategy.Nothing |-\|/-| 2018-07-15T11:30:10Z Merged pull request |-\|/-| 825 +1 −33 cs 4|-\|/-| 
+Allow to use MessageReceivedInfo for custom ErrorQueueNaming convention |-\|/-| 2018-07-17T03:51:19Z Merged pull request |-\|/-| 824 +43 −46 cs 10|-\|/-| 
+EasyNetQ 3.2.0 |-\|/-| 2018-07-11T03:55:01Z Merged pull request |-\|/-| 821 +56 −60 gitignore md cs csproj 22|-\|/-| 
+Async first API |-\|/-| 2018-09-01T12:38:36Z Merged pull request |-\|/-| 820 +3,194 −3,477 cs 12|-\|/-| 
+Add hotfix for AutoSubscriber configuration |-\|/-| 2018-07-04T13:05:30Z Merged pull request |-\|/-| 818 +629 −66 gitignore cs 4|-\|/-| 
+RawMessage -> struct (#810) |-\|/-| 2018-07-11T03:23:21Z Merged pull request |-\|/-| 816 +1 −1 cs 1|-\|/-| 
+Make LibLog public so it can be used outside EasyNetQ assembly |-\|/-| 2018-07-02T22:25:04Z Merged pull request |-\|/-| 815 +3 −2 gitignore csproj cs 3|-\|/-| 
+#806 Possible redundant line + spell check |-\|/-| 2018-06-23T03:54:09Z Merged pull request |-\|/-| 809 +48 −49 cs 17|-\|/-| 
+fix issue with scope/lifetimes in microsoft DI config |-\|/-| 2018-06-30T03:24:57Z Merged pull request |-\|/-| 808 +2 −2 cs 2|-\|/-| 
+RabbitMQ .NET client 5.1.0 |-\|/-| 2018-06-20T03:16:32Z Merged pull request |-\|/-| 805 +7 −7 csproj 6|-\|/-| 
+If IConsumerErrorStrategy throws Exception, message remains unacked |-\|/-| 2018-06-20T14:11:18Z Merged pull request |-\|/-| 803 +222 −98 cs 7|-\|/-| 
+Hosepipe:  Create :o directory if it doesn't exist |-\|/-| 2018-06-19T09:42:31Z Merged pull request |-\|/-| 802 +32 −31 cs csproj 8|-\|/-| 
+Migration to FluentAssertions |-\|/-| 2018-06-17T14:10:23Z Merged pull request |-\|/-| 800 +361 −394 cs 10|-\|/-| 
+Fix build scripts |-\|/-| 2018-06-14T14:33:58Z Merged pull request |-\|/-| 799 +9 −2 csproj props 4|-\|/-| 
+Basic implementation of Microsoft.Extensions.DependecyInjection adapter |-\|/-| 2018-06-14T12:50:28Z Merged pull request |-\|/-| 798 +169 −9 csproj cs sln 6|-\|/-| 
+EasyNetQ 3.1.0 |-\|/-| 2018-06-20T14:49:05Z Merged pull request |-\|/-| 795 +998 −749 md csproj cs 13|-\|/-| 
+Use rabbitmq client automatic reconnection |-\|/-| 2019-08-01T09:44:43Z Merged pull request |-\|/-| 794 +1,059 −1,957 cs 5|-\|/-| 
+Convert to structured logging |-\|/-| 2018-05-28T15:20:57Z Merged pull request |-\|/-| 792 +5 −4 cs 1|-\|/-| 
+Allow to pass JsonSerializerSettings to JsonSerializer |-\|/-| 2018-05-28T15:21:16Z Merged pull request |-\|/-| 791 +14 −3 cs 1|-\|/-| 
+PublishExchangeDeclareStrategy should accept dependencies from constructor |-\|/-| 2018-05-28T15:21:38Z Merged pull request |-\|/-| 790 +179 −201 cs 3|-\|/-| 
+Fix #516 |-\|/-| 2018-05-18T15:26:53Z Merged pull request |-\|/-| 788 +8 −35 cs 4|-\|/-| 
+Test to check #559 |-\|/-| 2018-05-15T21:49:02Z Merged pull request |-\|/-| 787 +10 −6 cs 1|-\|/-| 
+New TypeNameSerializer |-\|/-| 2018-05-22T18:11:37Z Merged pull request |-\|/-| 786 +649 −194 cs csproj 21|-\|/-| 
+ISerializer.BytesToMessage(string, byte[]) should be changed to ISerializer.BytesToMessage(Type, byte[]) |-\|/-| 2018-05-23T08:46:48Z Merged pull request |-\|/-| 785 +70 −85 cs 17|-\|/-| 
+Remove Version.cs from *.csproj and remove absent global.json from EasyNetQ.sln |-\|/-| 2018-05-15T09:01:34Z Merged pull request |-\|/-| 783 +51 −363 nuspec dll csproj 17|-\|/-| 
+EasyNetQ 3.0.0 |-\|/-| 2018-05-24T13:15:57Z Merged pull request |-\|/-| 778 +15,626 −4,167 proj nuspec dll cs 15|-\|/-| 
+[WIP] Async only api |-\|/-| 2018-07-08T08:50:03Z Closed pull request |-\|/-| 777 +885 −1,041 cs 7|-\|/-| 
+Made one failing test explicit as it seems to fail on AppVeyor |-\|/-| 2018-04-24T16:13:38Z Merged pull request |-\|/-| 775 +1 −0 cs 1|-\|/-| 
+Brand new DI |-\|/-| 2018-05-16T18:39:28Z Merged pull request |-\|/-| 772 +9,041 −2,107 cs 6|-\|/-| 
+Fix tests running in rider on mac |-\|/-| 2018-05-16T20:31:15Z Merged pull request |-\|/-| 771 +62 −65 csproj 15|-\|/-| 
+fix for Double BasicConsumer initialization |-\|/-| 2018-04-20T16:07:16Z Merged pull request |-\|/-| 770 +11 −9 cs 2|-\|/-| 
+Make disposal of InternalConsumer synchronous |-\|/-| 2018-05-22T17:00:19Z Closed pull request |-\|/-| 768 +5,659 −1,322 proj cs csproj 4|-\|/-| 
+Make disposal of InternalConsumer synchronous (#766) |-\|/-| 2018-05-23T09:10:35Z Merged pull request |-\|/-| 767 +4 −1 cs 1|-\|/-| 
+Handle timeout exceptions that can occur when trying to reconnect fai… |-\|/-| 2018-04-19T06:20:44Z Merged pull request |-\|/-| 765 +119 −32 cs 2|-\|/-| 
+Drop cancel on HA failover support |-\|/-| 2018-04-03T02:02:38Z Merged pull request |-\|/-| 764 +17 −148 cs 15|-\|/-| 
+Got rid of closure |-\|/-| 2018-04-01T12:35:28Z Merged pull request |-\|/-| 763 +2 −2 cs 1|-\|/-| 
+lock timer object to avoid "System.ObjectDisposedException" exception |-\|/-| 2018-07-17T12:01:02Z Closed pull request |-\|/-| 762 +38 −19 cs 1|-\|/-| 
+Structured logging |-\|/-| 2018-04-13T03:03:22Z Merged pull request |-\|/-| 761 +5,468 −958 proj cs csproj 4|-\|/-| 
+Cleanup boilerplate code |-\|/-| 2018-03-30T09:49:47Z Merged pull request |-\|/-| 760 +172 −218 csproj cs 8|-\|/-| 
+Allow subclasses of DefaultConsumerErrorStrategy to call connect method |-\|/-| 2018-03-23T09:24:27Z Merged pull request |-\|/-| 756 +1 −1 cs 1|-\|/-| 
+Added Thomas Mutton to the hall of fame |-\|/-| 2018-02-22T04:13:57Z Merged pull request |-\|/-| 752 +2 −1 md 0|-\|/-| 
+Publish RPC failure even for class without parameterless constructor |-\|/-| 2018-02-20T14:08:59Z Merged pull request |-\|/-| 749 +78 −23 csproj cs 3|-\|/-| 
+fix Consume<T> not using DeserializeMessage<T> |-\|/-| 2018-05-14T15:32:31Z Closed pull request |-\|/-| 745 +92 −9 cs 3|-\|/-| 
+Fix for incorrect version in assembly (fixes issue #729) |-\|/-| 2017-11-20T21:46:01Z Merged pull request |-\|/-| 742 +2 −638 cs 14|-\|/-| 
+disable .net standard 1.5 support for ninject and downgrade to non-beta |-\|/-| 2017-11-13T17:40:54Z Merged pull request |-\|/-| 741 +12 −6 csproj cs json 4|-\|/-| 
+RPC naming conventions with default exchange |-\|/-| 2019-01-17T17:44:23Z Closed pull request |-\|/-| 738 +162 −1 cs 4|-\|/-| 
+Card 5252357 |-\|/-| 2017-10-21T13:05:08Z Closed pull request |-\|/-| 737 +3,077 −3,319 proj ps1 yml csproj cs config 9|-\|/-| 
+commit 254bb08e: Resolve RabbitBus instead of IBus to avoid StackOver… |-\|/-| 2018-05-11T14:04:55Z Closed pull request |-\|/-| 735 +4 −4 cs 2|-\|/-| 
+reintroduce the server declared transient queue declaration that got … |-\|/-| 2017-09-11T10:28:44Z Merged pull request |-\|/-| 731 +21 −3 cs 4|-\|/-| 
+Issue #111: A responder whose task is cancelled will still respond and ACK |-\|/-| 2017-09-14T09:30:46Z Merged pull request |-\|/-| 730 +106 −7 cs 2|-\|/-| 
+Update to RabbitMQ.Client 5 |-\|/-| 2017-09-10T09:27:38Z Merged pull request |-\|/-| 728 +77 −77 csproj cs 30|-\|/-| 
+Update autofac |-\|/-| 2017-08-18T15:07:39Z Merged pull request |-\|/-| 727 +3 −3 csproj 3|-\|/-| 
+Add SetDefaultVersion target |-\|/-| 2017-08-18T09:18:32Z Merged pull request |-\|/-| 726 +41 −1 csproj targets 23|-\|/-| 
+Added braces escaping for non-format format string |-\|/-| 2017-08-18T15:03:55Z Merged pull request |-\|/-| 725 +15 −27 cs 6|-\|/-| 
+Update to RabbitMQ.Client 5 |-\|/-| 2017-09-10T09:28:36Z Closed pull request |-\|/-| 720 +77 −77 csproj cs 30|-\|/-| 
+Use specified connection name when creating new RabbitMQ connection |-\|/-| 2017-07-17T19:24:06Z Merged pull request |-\|/-| 717 +3 −1 cs 1|-\|/-| 
+Added MaxLength and MaxLengthBytes options to fluent SubscriptionConfiguration |-\|/-| 2017-07-13T07:58:48Z Merged pull request |-\|/-| 716 +161 −6 cs md 4|-\|/-| 
+Proposed change of getting type of published messages |-\|/-| 2017-09-14T09:32:35Z Closed pull request |-\|/-| 714 +7 −7 cs 1|-\|/-| 
+Revert to full .NET Framework MSBuild for Pack target |-\|/-| 2017-07-01T00:15:24Z Merged pull request |-\|/-| 713 +17 −13 proj props 2|-\|/-| 
+Connection error logging in PersistentConnection.cs not surfacing inner exception message |-\|/-| 2017-06-21T08:18:37Z Merged pull request |-\|/-| 710 +10 −2 cs 2|-\|/-| 
+Updating solution to use VS2017 |-\|/-| 2017-06-30T22:38:24Z Merged pull request |-\|/-| 709 +931 −2,967 proj ps1 yml csproj xproj json 8|-\|/-| 
+Added advanced type resolving. |-\|/-| 2017-09-14T09:56:25Z Closed pull request |-\|/-| 706 +13 −1 cs 1|-\|/-| 
+Add header support to advancedbus |-\|/-| 2017-06-26T13:26:45Z Merged pull request |-\|/-| 704 +213 −93 cs 2|-\|/-| 
+Fix for incorrect port and vhost in logs for amqp/amqps connection strings |-\|/-| 2017-05-30T14:02:26Z Merged pull request |-\|/-| 703 +51 −4 cs 4|-\|/-| 
+RPC timer would end immediately if timeout was 0 |-\|/-| 2017-06-28T10:37:18Z Merged pull request |-\|/-| 700 +13 −7 cs 2|-\|/-| 
+QueueName can now be specified. This is true for requests, publish, s… |-\|/-| 2017-06-11T20:06:30Z Merged pull request |-\|/-| 699 +125 −10 cs 8|-\|/-| 
+Connection name |-\|/-| 2017-07-06T09:18:13Z Merged pull request |-\|/-| 694 +56 −35 csproj config cs 14|-\|/-| 
+Autoclose connection |-\|/-| 2018-05-27T11:12:28Z Closed pull request |-\|/-| 692 +12 −1 cs 4|-\|/-| 
+EasyNetQ website edits:  |-\|/-| 2017-05-04T08:40:26Z Merged pull request |-\|/-| 691 +0 −152 html 2|-\|/-| 
+Add useBackgroundThreads as connection string part |-\|/-| 2017-05-04T08:41:43Z Merged pull request |-\|/-| 690 +8 −4 cs 3|-\|/-| 
+updated autofac to 4.5.0 |-\|/-| 2017-05-01T18:42:17Z Merged pull request |-\|/-| 688 +3 −3 json 3|-\|/-| 
+update the version also for frameworks dependencies |-\|/-| 2017-05-01T10:52:17Z Merged pull request |-\|/-| 687 +7 −5 ps1 1|-\|/-| 
+upgrade dotnet framework to 4.3.0 to fix all the downgrade warnings |-\|/-| 2017-04-30T13:28:40Z Merged pull request |-\|/-| 685 +26 −26 json 2|-\|/-| 
+Newtonsoft.Json added as an explicit NuGet dependency instead of embedding it to EasyNetQ.dll |-\|/-| 2017-04-28T20:47:11Z Closed pull request |-\|/-| 684 +47 −52 proj nuspec csproj config cs 14|-\|/-| 
+Add ability to specify client properties and include connection_name property |-\|/-| 2017-05-12T13:45:06Z Closed pull request |-\|/-| 683 +34 −19 cs 4|-\|/-| 
+Included queue name in Error message |-\|/-| 2017-04-26T12:37:20Z Merged pull request |-\|/-| 682 +4 −1 cs 3|-\|/-| 
+Allow multiple handlers per queue |-\|/-| 2017-04-11T13:29:16Z Merged pull request |-\|/-| 680 +222 −399 cs json 14|-\|/-| 
+Bug fix in SimpleInjectorAdapter: defer execution of serviceCreator |-\|/-| 2017-04-04T08:02:13Z Merged pull request |-\|/-| 676 +4 −2 cs md 2|-\|/-| 
+Added Start Consuming Events |-\|/-| 2017-03-15T14:24:25Z Merged pull request |-\|/-| 674 +65 −8 cs projitems 7|-\|/-| 
+improved TypeNameSerialzier for generics type |-\|/-| 2018-05-14T15:21:36Z Closed pull request |-\|/-| 670 +31 −2 cs 2|-\|/-| 
+added new implementation of ITypeNameSerializer -> DynamicTypeNameSerializer |-\|/-| 2018-05-16T08:14:33Z Closed pull request |-\|/-| 668 +195 −0 cs csproj projitems 4|-\|/-| 
+[WIP] new implementation of ITypeNameSerializer -> DynamicTypeNameSerializer |-\|/-| 2017-02-15T22:06:22Z Closed pull request |-\|/-| 665 +194 −0 cs csproj projitems 4|-\|/-| 
+added support for dynamically generated types in TypeNameSerializer |-\|/-| 2017-02-15T19:58:02Z Closed pull request |-\|/-| 664 +69 −18 cs 2|-\|/-| 
+Revert "Merge remote-tracking branch 'upstream/pr/624'" |-\|/-| 2017-02-10T21:19:22Z Merged pull request |-\|/-| 662 +73 −62 nuspec cs sln yml 13|-\|/-| 
+Update Autofac to v4.3.0 |-\|/-| 2017-02-09T08:31:16Z Merged pull request |-\|/-| 659 +5 −5 json 3|-\|/-| 
+Release version 1.0 |-\|/-| 2017-02-08T11:48:05Z Merged pull request |-\|/-| 658 +297 −17 gitignore nuspec 7|-\|/-| 
+Feature/add global.json |-\|/-| 2017-02-01T14:52:32Z Merged pull request |-\|/-| 657 +134 −141 cs json 24|-\|/-| 
+Advanced exchange routing - similar to MassTransit |-\|/-| 2017-02-05T12:19:43Z Merged pull request |-\|/-| 656 +274 −1 csproj cs projitems 9|-\|/-| 
+Develop |-\|/-| 2016-12-18T23:07:02Z Closed pull request |-\|/-| 652 +34 −11 cs txt md 10|-\|/-| 
+Fixing tests |-\|/-| 2017-02-05T12:20:53Z Merged pull request |-\|/-| 650 +43 −19 cs 4|-\|/-| 
+Fixing NuGet package creation |-\|/-| 2016-12-03T19:15:13Z Merged pull request |-\|/-| 647 +58 −6 proj ps1 2|-\|/-| 
+added API key for myget |-\|/-| 2016-12-01T08:43:17Z Merged pull request |-\|/-| 646 +1 −1 yml 1|-\|/-| 
+Migrate tests to xUnit and create NuGet packages |-\|/-| 2016-12-01T08:26:58Z Merged pull request |-\|/-| 644 +1,475 −1,751 proj ps1 cs 8|-\|/-| 
+Create packages out of feature/netcore branch |-\|/-| 2016-11-30T10:34:10Z Merged pull request |-\|/-| 643 +105 −267 proj ps1 yml 4|-\|/-| 
+Add support for AutoCloseConnection |-\|/-| 2017-05-04T08:56:45Z Closed pull request |-\|/-| 642 +6,037 −5,091 gitignore proj ps1 yml Config targets csproj config 9|-\|/-| 
+Allow manual handling of Ack and BatchAck |-\|/-| 2016-11-23T07:58:29Z Closed pull request |-\|/-| 640 +61 −8 cs 8|-\|/-| 
+Allow manual handling of Ack and BatchAck |-\|/-| 2016-11-23T07:50:12Z Closed pull request |-\|/-| 639 +51 −8 cs 8|-\|/-| 
+Allow manual handling of Ack and BatchAck |-\|/-| 2016-11-23T07:47:04Z Closed pull request |-\|/-| 638 +51 −8 cs 8|-\|/-| 
+Allow manual handling of Ack and BatchAck |-\|/-| 2016-11-23T07:38:11Z Closed pull request |-\|/-| 637 +51 −8 cs 8|-\|/-| 
+Migrates remaining projects to .NET Core or xproj |-\|/-| 2016-11-22T12:33:24Z Merged pull request |-\|/-| 635 +1,321 −287 gitignore json xproj 11|-\|/-| 
+Remove on Core the methods that read the application config file |-\|/-| 2016-11-14T09:35:30Z Merged pull request |-\|/-| 633 +3 −7 cs 2|-\|/-| 
+Move EasyNetQ.DI.Tests to Core |-\|/-| 2016-11-14T10:05:42Z Merged pull request |-\|/-| 632 +198 −308 csproj xproj cs 4|-\|/-| 
+Update RabbitMQ.Client and JSON.Net to latest version |-\|/-| 2016-11-14T09:39:22Z Merged pull request |-\|/-| 631 +164 −74 nuspec json cs csproj config 22|-\|/-| 
+Move EasyNetQ.Tests to .NET Core |-\|/-| 2016-11-10T14:59:27Z Merged pull request |-\|/-| 630 +1,215 −1,174 json csproj cs config xproj 11|-\|/-| 
+New feature: Multiple queues consume with single Model (Channel) |-\|/-| 2017-03-28T15:53:09Z Merged pull request |-\|/-| 628 +623 −77 cs 2|-\|/-| 
+Fix Client Command Dispatcher Thread hijacking |-\|/-| 2017-02-07T13:57:19Z Merged pull request |-\|/-| 624 +50 −53 cs 4|-\|/-| 
+made some methods protected/virtual in HandlerRunner |-\|/-| 2016-10-17T11:14:17Z Merged pull request |-\|/-| 622 +19 −9 cs 2|-\|/-| 
+Add durability queue on subscription |-\|/-| 2016-10-07T14:08:43Z Merged pull request |-\|/-| 621 +16 −2 cs 3|-\|/-| 
+EasyNetQ.Scheduler stability fixes |-\|/-| 2016-10-10T09:59:25Z Merged pull request |-\|/-| 619 +54 −22 cs 5|-\|/-| 
+Hosepipe custom broker port configuration by separate parameter |-\|/-| 2016-10-05T20:58:06Z Merged pull request |-\|/-| 617 +12 −17 cs txt 8|-\|/-| 
+Add RabbitMQ broker custome port support to hosepipe. |-\|/-| 2016-09-29T12:28:23Z Merged pull request |-\|/-| 616 +19 −6 cs txt 4|-\|/-| 
+Allow injection of custom implementation of IPersistentConnection |-\|/-| 2016-09-26T15:25:56Z Merged pull request |-\|/-| 614 +47 −5 cs projitems 7|-\|/-| 
+Make SimpleInjectorMessageDispatcher public so it can be used with AutoSubscriber |-\|/-| 2016-09-19T08:13:00Z Merged pull request |-\|/-| 612 +4 −2 cs md 2|-\|/-| 
+Set upper bound of supported rabbitmq client version |-\|/-| 2016-09-05T08:51:26Z Merged pull request |-\|/-| 610 +3 −2 nuspec cs 2|-\|/-| 
+[WIP] Convert EasyNetQ to .NET Core [feature/netcore] |-\|/-| 2017-02-08T16:40:09Z Merged pull request |-\|/-| 606 +6,071 −4,918 gitignore 1|-\|/-| 
+Make ConnectIntervalAttempt for PersistentConnection configurable on … |-\|/-| 2016-08-12T16:53:45Z Merged pull request |-\|/-| 605 +24 −22 nuspec cs 11|-\|/-| 
+Convert EasyNetQ to .NET Core |-\|/-| 2016-08-20T10:07:07Z Closed pull request |-\|/-| 604 +13,132 −380 gitignore yml nuspec csproj cs config Config xproj 16|-\|/-| 
+Phil newman future publish topic |-\|/-| 2016-08-08T08:03:15Z Merged pull request |-\|/-| 603 +212 −33 cs 3|-\|/-| 
+Bug fix: QueueDeclare does not allow an empty dead letter exchange |-\|/-| 2016-08-08T19:11:57Z Merged pull request |-\|/-| 601 +161 −4 gitignore cs 5|-\|/-| 
+[WIP] Axelbodo master testing |-\|/-| 2017-02-10T21:39:15Z Closed pull request |-\|/-| 600 +444 −24 nuspec dll config csproj 15|-\|/-| 
+Add support for topic based routing future publish messages |-\|/-| 2016-08-08T07:54:05Z Closed pull request |-\|/-| 599 +212 −33 cs 3|-\|/-| 
+Allow use of EXTERNAL authentication mechanism |-\|/-| 2016-08-02T07:49:07Z Merged pull request |-\|/-| 598 +15 −1 cs 4|-\|/-| 
+add SimpleInjector support to the project |-\|/-| 2016-07-31T19:40:13Z Merged pull request |-\|/-| 596 +341 −3 proj nuspec csproj cs config 11|-\|/-| 
+disabled warning missing xml comments |-\|/-| 2016-07-18T23:52:08Z Merged pull request |-\|/-| 593 +2 −0 csproj 1|-\|/-| 
+Building with appveyor |-\|/-| 2016-07-18T23:33:33Z Merged pull request |-\|/-| 591 +26 −33 proj yml 2|-\|/-| 
+Added ability to configure RPC Exchange names based on request or response type. |-\|/-| 2016-08-05T14:02:32Z Merged pull request |-\|/-| 590 +164 −42 cs 6|-\|/-| 
+support .NET Core |-\|/-| 2016-08-12T14:27:40Z Closed pull request |-\|/-| 589 +13,132 −380 gitignore yml nuspec csproj cs config Config xproj 16|-\|/-| 
+Update to someone else's fork to add DNX / Netcore support |-\|/-| 2016-07-11T09:39:44Z Closed pull request |-\|/-| 588 +473 −56 gitignore dg xproj cs json sln 8|-\|/-| 
+Removed Serializable attribute from messages and exceptions |-\|/-| 2016-07-25T09:47:13Z Merged pull request |-\|/-| 587 +16 −91 nuspec cs 20|-\|/-| 
+bumped version.cs |-\|/-| 2016-05-02T13:01:46Z Merged pull request |-\|/-| 575 +2 −2 cs 1|-\|/-| 
+Add support binary (error)messages to HosePipe. Fixed #561 |-\|/-| 2016-05-02T12:49:35Z Merged pull request |-\|/-| 573 +136 −29 cs 15|-\|/-| 
+Update README URLs based on HTTP redirects |-\|/-| 2016-04-25T22:46:07Z Merged pull request |-\|/-| 570 +3 −3 md 0|-\|/-| 
+[hosepipe] removed the useless dependency on mgmt client |-\|/-| 2016-04-20T17:55:55Z Merged pull request |-\|/-| 568 +2 −9 csproj cs 3|-\|/-| 
+fix the usage description to describe the option `x` the get (noack) |-\|/-| 2016-04-20T15:25:44Z Merged pull request |-\|/-| 567 +13 −3 txt cs 1|-\|/-| 
+[hosepipe] removed the useless dependency on mgmt client |-\|/-| 2016-04-20T17:37:51Z Closed pull request |-\|/-| 566 +0 −8 csproj 2|-\|/-| 
+Add support binary (error)messages to HosePipe. Fixed #561 |-\|/-| 2016-04-28T08:11:20Z Closed pull request |-\|/-| 565 +7 −6 cs 4|-\|/-| 
+Fix issue 555 |-\|/-| 2016-04-01T19:19:35Z Merged pull request |-\|/-| 556 +13 −12 nuspec csproj config cs 6|-\|/-| 
+Fix #520 Marked Rpc.Respond overload as virtual |-\|/-| 2016-03-17T07:42:32Z Merged pull request |-\|/-| 552 +5 −3 cs md 2|-\|/-| 
+Use RPC exchange instead of default exchange for RPC reponses |-\|/-| 2016-04-18T18:04:02Z Merged pull request |-\|/-| 551 +18 −3 cs 2|-\|/-| 
+Fix #547 - issues with string encoding headers in DefaultConsumerErrorStrategy |-\|/-| 2016-03-01T08:59:44Z Merged pull request |-\|/-| 548 +144 −9 cs md 5|-\|/-| 
+Fix for #522 |-\|/-| 2016-02-01T15:09:32Z Merged pull request |-\|/-| 546 +3 −5 cs 3|-\|/-| 
+Adds support for LightInject DI |-\|/-| 2016-02-01T10:04:31Z Merged pull request |-\|/-| 544 +367 −3 proj nuspec csproj cs config 10|-\|/-| 
+Drop .Net40 support and update RabbitMQ and Newtonsoft packages |-\|/-| 2016-01-28T12:10:24Z Merged pull request |-\|/-| 543 +498 −1,001 proj nuspec csproj cs 4|-\|/-| 
+Update readme to reflect correct required version of VS. |-\|/-| 2016-01-25T19:50:34Z Merged pull request |-\|/-| 542 +1 −1 md 0|-\|/-| 
+Add optional argument to force usage of background threads in EasyNetQ and RabbitMQ.Client |-\|/-| 2016-02-02T12:53:00Z Merged pull request |-\|/-| 539 +56 −34 cs 12|-\|/-| 
+Net40 |-\|/-| 2016-01-28T12:11:26Z Closed pull request |-\|/-| 536 +498 −1,001 proj nuspec csproj cs 4|-\|/-| 
+added missing change log entry for v0.53.5 |-\|/-| 2016-01-06T12:51:35Z Merged pull request |-\|/-| 535 +1 −0 cs 1|-\|/-| 
+Added custom queue-name support to 'err' and 'retry' commands |-\|/-| 2016-01-05T17:21:51Z Merged pull request |-\|/-| 532 +7 −3 cs 2|-\|/-| 
+Updated to RabbitMQ.Client 3.5.7 |-\|/-| 2015-12-23T11:05:57Z Merged pull request |-\|/-| 526 +45 −40 nuspec dll csproj config cs 27|-\|/-| 
+Fix #520 Rpc.Respond overload not marked as virtual |-\|/-| 2016-03-16T10:38:01Z Closed pull request |-\|/-| 521 +1,134 −1,040 proj nuspec dll md csproj 14|-\|/-| 
+Fix #512 Process may hang due to extra AMQP connection |-\|/-| 2015-12-09T18:20:01Z Merged pull request |-\|/-| 515 +71 −6 csproj cs 4|-\|/-| 
+Fix #448 Process may not exit if handler throws Exception |-\|/-| 2015-12-01T11:52:17Z Merged pull request |-\|/-| 510 +67 −6 cs 4|-\|/-| 
+added SimpleTypeNameSerializer for better generic typename handling |-\|/-| 2018-05-14T15:10:06Z Closed pull request |-\|/-| 509 +490 −8 csproj cs 4|-\|/-| 
+add synchronous consume(byte[]) methods |-\|/-| 2015-11-18T15:21:16Z Merged pull request |-\|/-| 505 +36 −2 cs 3|-\|/-| 
+Fix #448 Process will not always exit when handler throws error |-\|/-| 2015-12-01T13:38:55Z Closed pull request |-\|/-| 500 +65 −7 config cs 4|-\|/-| 
+Try to fix old-style package restore for EasyNetQ.Serilog project |-\|/-| 2015-10-22T11:31:16Z Merged pull request |-\|/-| 499 +2 −0 csproj 1|-\|/-| 
+Add task runner instead of separate executables |-\|/-| 2015-11-28T16:35:49Z Merged pull request |-\|/-| 498 +506 −592 csproj cs config 7|-\|/-| 
+Add serilog package |-\|/-| 2015-10-21T14:34:52Z Merged pull request |-\|/-| 497 +223 −6 proj nuspec csproj cs config sln bat 11|-\|/-| 
+Added support for the new properties in ScheduleMe properties in the … |-\|/-| 2015-10-20T18:31:03Z Merged pull request |-\|/-| 496 +208 −42 sql cs csproj 8|-\|/-| 
+Message priority in IBus |-\|/-| 2016-06-06T10:51:01Z Merged pull request |-\|/-| 495 +234 −9 csproj cs projitems 9|-\|/-| 
+Disable CLS compliance |-\|/-| 2016-01-06T17:50:50Z Merged pull request |-\|/-| 493 +4 −2 cs 1|-\|/-| 
+Updated RabbitMQ client to 3.5.6 |-\|/-| 2015-10-09T10:31:59Z Merged pull request |-\|/-| 492 +24 −23 nuspec csproj config cs 16|-\|/-| 
+Updated RabbitMQ client to 3.5.5 |-\|/-| 2015-10-05T14:17:41Z Merged pull request |-\|/-| 490 +24 −16 nuspec csproj config cs 16|-\|/-| 
+Allow SubscriptionConfiguration to be applied to a class |-\|/-| 2015-09-28T10:20:34Z Merged pull request |-\|/-| 487 +3 −2 cs 2|-\|/-| 
+AutoDelete support |-\|/-| 2015-09-28T10:22:01Z Closed pull request |-\|/-| 485 +5,395 −7,068 proj nuspec dll md cs csproj config 24|-\|/-| 
+Changed the default expires value of the autosubscriber attribute |-\|/-| 2015-11-19T14:42:39Z Merged pull request |-\|/-| 484 +89 −15 cs csproj 5|-\|/-| 
+ErrorQueueNamingPolicy can use MessageReceivedInfo |-\|/-| 2018-07-17T03:59:07Z Closed pull request |-\|/-| 481 +29 −22 cs 10|-\|/-| 
+fix typo in InterceptionExtensions |-\|/-| 2015-08-18T11:25:48Z Merged pull request |-\|/-| 478 +5 −4 csproj cs 3|-\|/-| 
+Fix #467 Allow SslOptions to be configurable from string with CreateBus()  |-\|/-| 2015-10-24T16:31:11Z Closed pull request |-\|/-| 477 +0 −0 0|-\|/-| 
+Fix Issue #475 -  AMQP-uri-specified connections get configured twice |-\|/-| 2015-08-11T09:15:30Z Merged pull request |-\|/-| 476 +33 −2 cs csproj 4|-\|/-| 
+Made the fields on RabbitAdvancedBus protected |-\|/-| 2015-08-10T15:23:53Z Closed pull request |-\|/-| 474 +13 −13 cs 1|-\|/-| 
+Allow specifying the maximum size of the message queue. |-\|/-| 2015-08-11T10:55:59Z Merged pull request |-\|/-| 473 +29 −8 cs 3|-\|/-| 
+Fix #468 Polymorphic Request/Respond Does Not Work As Expected |-\|/-| 2015-08-07T13:52:57Z Merged pull request |-\|/-| 471 +94 −3 csproj cs 5|-\|/-| 
+Updated RabbitMQ to 3.5.4 and JSON.NET to 7.0.1 |-\|/-| 2015-08-01T18:34:58Z Merged pull request |-\|/-| 466 +49 −60 nuspec dll csproj config cs 24|-\|/-| 
+Max priority queue fix |-\|/-| 2015-08-08T13:43:09Z Merged pull request |-\|/-| 465 +7 −6 cs 4|-\|/-| 
+Alternative RPC method using a specified queue |-\|/-| 2017-04-13T02:01:14Z Closed pull request |-\|/-| 462 +1,373 −64 proj nuspec dll csproj cs 13|-\|/-| 
+Improve the sync / async implementation |-\|/-| 2015-11-16T16:57:41Z Merged pull request |-\|/-| 461 +2,814 −1,979 proj nuspec 7|-\|/-| 
+fix typo in scheduling extensions |-\|/-| 2015-06-17T10:15:55Z Merged pull request |-\|/-| 456 +4 −4 csproj cs 3|-\|/-| 
+Added in an extension overload for IAdvancedBus for Autofac |-\|/-| 2016-01-28T12:13:21Z Closed pull request |-\|/-| 454 +16 −1 cs 1|-\|/-| 
+Hosepipe now supports 'q' command line parameter for `err` and `retry… |-\|/-| 2016-04-18T13:06:04Z Closed pull request |-\|/-| 452 +8 −2 cs 1|-\|/-| 
+just clean up model instead of reopenning |-\|/-| 2015-08-09T14:50:03Z Closed pull request |-\|/-| 447 +1 −1 cs 1|-\|/-| 
+Update rabbitmq client |-\|/-| 2015-06-08T16:49:23Z Merged pull request |-\|/-| 446 +122 −285 nuspec cs csproj config 42|-\|/-| 
+An attempt to fix #441 |-\|/-| 2015-05-18T10:04:59Z Merged pull request |-\|/-| 442 +4 −4 cs 2|-\|/-| 
+Priority queue support reloaded |-\|/-| 2015-05-18T00:33:41Z Merged pull request |-\|/-| 440 +160 −118 cs 3|-\|/-| 
+An attempt to fix #348 |-\|/-| 2015-05-20T16:36:57Z Merged pull request |-\|/-| 436 +88 −61 csproj cs config 12|-\|/-| 
+Try to fix #428 |-\|/-| 2015-05-10T20:02:03Z Merged pull request |-\|/-| 435 +10 −2 cs 2|-\|/-| 
+Refactor scheduler |-\|/-| 2015-05-10T16:31:03Z Merged pull request |-\|/-| 433 +589 −581 csproj cs 4|-\|/-| 
+Management.Client was moved to https://github.com/EasyNetQ/EasyNetQ.Mana... |-\|/-| 2015-05-06T17:00:50Z Merged pull request |-\|/-| 432 +5 −5,529 config csproj json 6|-\|/-| 
+Stop publishing Management.Client package to nuget. |-\|/-| 2015-05-05T08:20:05Z Merged pull request |-\|/-| 430 +1 −29 proj nuspec 2|-\|/-| 
+Added start consuming succeed and failure events |-\|/-| 2017-03-15T12:34:00Z Closed pull request |-\|/-| 429 +67 −8 cs csproj md 7|-\|/-| 
+Delayed Exchanges support |-\|/-| 2015-04-27T17:06:34Z Merged pull request |-\|/-| 425 +379 −11 csproj cs 5|-\|/-| 
+No longer allows update to RabbitMq.Client 3.5.0 |-\|/-| 2015-04-01T16:41:46Z Merged pull request |-\|/-| 419 +1 −1 nuspec 1|-\|/-| 
+CreateBus overloads |-\|/-| 2015-04-01T12:23:57Z Merged pull request |-\|/-| 418 +42 −15 cs 2|-\|/-| 
+Revert "Priority queue support" |-\|/-| 2015-03-31T09:07:59Z Merged pull request |-\|/-| 417 +97 −137 cs 4|-\|/-| 
+Priority queue support |-\|/-| 2015-03-31T08:16:03Z Merged pull request |-\|/-| 416 +137 −97 cs 4|-\|/-| 
+Update to RabbitMQ.Client 3.5 |-\|/-| 2015-05-17T15:07:54Z Merged pull request |-\|/-| 415 +69 −67 nuspec csproj config cs 24|-\|/-| 
+typenameserializer uses ConcurrentDictionary |-\|/-| 2015-03-30T19:01:09Z Merged pull request |-\|/-| 409 +32 −22 cs 2|-\|/-| 
+Rpc silent fail fix |-\|/-| 2015-03-28T04:46:16Z Merged pull request |-\|/-| 408 +92 −10 csproj cs 4|-\|/-| 
+AtLeastOneWithDefault -> DefaultIfEmpty |-\|/-| 2015-03-18T08:20:12Z Merged pull request |-\|/-| 405 +4 −16 cs 3|-\|/-| 
+PersistentChannel update |-\|/-| 2015-03-17T16:18:11Z Merged pull request |-\|/-| 404 +61 −17 csproj cs 6|-\|/-| 
+Refactor DeliveryModeStrategy |-\|/-| 2015-03-16T10:18:35Z Merged pull request |-\|/-| 403 +23 −46 cs csproj 11|-\|/-| 
+Message delivery mode and misc |-\|/-| 2015-03-15T11:44:29Z Merged pull request |-\|/-| 402 +81 −25 csproj cs 10|-\|/-| 
+Validate now called in lowest level method of RabbitHutch |-\|/-| 2015-03-25T13:03:49Z Merged pull request |-\|/-| 401 +3 −3 cs 2|-\|/-| 
+Loadbalancing |-\|/-| 2015-03-09T01:08:49Z Closed pull request |-\|/-| 397 +360 −58 gitignore csproj cs 13|-\|/-| 
+Fix RabbitAdvancedBus auto connect |-\|/-| 2015-03-04T11:27:34Z Merged pull request |-\|/-| 396 +78 −6 csproj cs 7|-\|/-| 
+Bug fix publish message on  EasyNetQ_Default_Error_Queue |-\|/-| 2015-03-04T11:45:58Z Merged pull request |-\|/-| 395 +24 −2 cs 2|-\|/-| 
+Preserve generic Consume<T>() type when deserializing and getting handler |-\|/-| 2015-03-03T09:22:24Z Closed pull request |-\|/-| 394 +20 −2 cs 1|-\|/-| 
+Add messageproperties to SubscribeAsync |-\|/-| 2015-03-03T09:12:29Z Closed pull request |-\|/-| 393 +77 −9 cs 2|-\|/-| 
+NullReferenceException on Serialize |-\|/-| 2015-03-03T14:50:25Z Merged pull request |-\|/-| 392 +10 −1 cs 3|-\|/-| 
+Logging disabled by default |-\|/-| 2015-03-12T15:04:09Z Merged pull request |-\|/-| 391 +3 −2 cs 2|-\|/-| 
+AdvancedBus event update |-\|/-| 2015-03-02T16:41:25Z Merged pull request |-\|/-| 390 +481 −115 cs csproj 8|-\|/-| 
+When a subscriptionId is null the queue name end with '_' |-\|/-| 2015-02-24T13:12:39Z Merged pull request |-\|/-| 386 +6 −2 cs 2|-\|/-| 
+Consume update and misc |-\|/-| 2015-03-02T09:28:11Z Merged pull request |-\|/-| 384 +157 −35 cs csproj 11|-\|/-| 
+SSL Enabled Cluster Support - Added SSL Options per Host Configuration |-\|/-| 2015-02-22T19:15:27Z Merged pull request |-\|/-| 382 +13 −2 cs 3|-\|/-| 
+Very small CreateBus addition |-\|/-| 2015-02-24T21:49:09Z Merged pull request |-\|/-| 376 +26 −4 cs 2|-\|/-| 
+In Management Client, LeaveDotsAndSlashesEscaped now works with https |-\|/-| 2015-02-12T10:55:01Z Merged pull request |-\|/-| 374 +11 −5 cs 2|-\|/-| 
+Ability to configure Receive() consumer behavior |-\|/-| 2015-02-18T13:31:47Z Merged pull request |-\|/-| 373 +110 −1 cs 5|-\|/-| 
+ManagementClient: Use ILRepack to intern Newtonsoft.Json, default WebRequest.KeepAlive to false |-\|/-| 2015-02-07T14:04:32Z Merged pull request |-\|/-| 372 +12 −4 proj nuspec cs md 4|-\|/-| 
+Utc datetimes |-\|/-| 2015-02-05T09:44:55Z Merged pull request |-\|/-| 371 +7 −6 cs 5|-\|/-| 
+Bumped to version 0.40.6.0 |-\|/-| 2015-02-03T09:28:15Z Merged pull request |-\|/-| 367 +2 −1 cs 1|-\|/-| 
+Preconditions will check for blank argument name / exception message onl... |-\|/-| 2015-02-02T12:20:02Z Merged pull request |-\|/-| 366 +16 −14 cs 2|-\|/-| 
+Added parameter to set the 'x-dead-letter-routing-key' argument when dec... |-\|/-| 2015-02-02T12:22:43Z Merged pull request |-\|/-| 363 +15 −6 cs 2|-\|/-| 
+Dynamic removal |-\|/-| 2015-02-04T09:42:01Z Merged pull request |-\|/-| 360 +564 −231 cs csproj 3|-\|/-| 
+Bug fix of Rpc |-\|/-| 2015-01-20T18:59:27Z Merged pull request |-\|/-| 359 +2 −1 cs 2|-\|/-| 
+316 remove dynamic |-\|/-| 2015-01-20T10:53:48Z Closed pull request |-\|/-| 357 +24 −22 gitignore cs 8|-\|/-| 
+Upgrade client to 3.4.3 |-\|/-| 2015-01-19T22:35:42Z Merged pull request |-\|/-| 356 +32 −23 nuspec csproj config cs 16|-\|/-| 
+ReflectionHelpers-improvements |-\|/-| 2015-01-19T17:46:24Z Merged pull request |-\|/-| 355 +50 −32 cs 6|-\|/-| 
+Responder prefetch count customization |-\|/-| 2015-01-17T18:49:35Z Merged pull request |-\|/-| 353 +96 −5 csproj cs 6|-\|/-| 
+Fix typo in 'Failed to connect' error message. |-\|/-| 2015-01-15T05:58:43Z Merged pull request |-\|/-| 352 +1 −1 cs 1|-\|/-| 
+add ilrepack on source project to fix #346 |-\|/-| 2015-01-13T07:33:28Z Merged pull request |-\|/-| 351 +2 −5 csproj config 2|-\|/-| 
+Fix concurrent bug |-\|/-| 2015-01-12T18:23:51Z Merged pull request |-\|/-| 350 +57 −48 cs 2|-\|/-| 
+Fix #347 |-\|/-| 2015-01-12T17:17:33Z Closed pull request |-\|/-| 349 +64 −55 nuspec dll cs 12|-\|/-| 
+fix #337 |-\|/-| 2015-01-09T13:56:43Z Merged pull request |-\|/-| 343 +1 −1 proj 1|-\|/-| 
+ConnectionStringParser now implements IConnectionStringParser |-\|/-| 2015-01-09T08:58:38Z Merged pull request |-\|/-| 342 +1 −1 cs 1|-\|/-| 
+Fix tests |-\|/-| 2015-01-08T16:08:40Z Merged pull request |-\|/-| 341 +10 −4 cs 5|-\|/-| 
+Exclusive consumer |-\|/-| 2015-01-08T14:09:05Z Merged pull request |-\|/-| 340 +233 −11 cs csproj 11|-\|/-| 
+fix #287 for Versioning |-\|/-| 2015-01-06T13:49:32Z Merged pull request |-\|/-| 338 +99 −20 cs 5|-\|/-| 
+fix #281 |-\|/-| 2015-01-05T10:24:26Z Merged pull request |-\|/-| 336 +56 −30 cs 3|-\|/-| 
+add SerializeFriendly to TypeNameSerializer |-\|/-| 2015-01-03T13:52:27Z Closed pull request |-\|/-| 335 +61 −14 cs 4|-\|/-| 
+Fix version in csprojs and update mongo driver |-\|/-| 2015-01-01T13:52:33Z Merged pull request |-\|/-| 334 +13 −31 csproj cs config 5|-\|/-| 
+RabbitHutch comments update |-\|/-| 2014-12-23T13:00:26Z Merged pull request |-\|/-| 331 +5 −5 cs 1|-\|/-| 
+Update Version.cs |-\|/-| 2014-12-13T20:39:17Z Closed pull request |-\|/-| 329 +2 −1 cs 1|-\|/-| 
+Update ConsumerDispatcher.cs |-\|/-| 2014-12-13T20:56:15Z Merged pull request |-\|/-| 328 +11 −17 cs 2|-\|/-| 
+fix typo and spacing issue |-\|/-| 2014-12-12T21:23:14Z Merged pull request |-\|/-| 327 +3 −3 cs 1|-\|/-| 
+SendAsync should return Task |-\|/-| 2014-12-09T09:13:26Z Merged pull request |-\|/-| 326 +7 −6 cs 5|-\|/-| 
+Removed Immutable Packages and replaced IEventBus.cs ... |-\|/-| 2014-12-05T12:23:43Z Merged pull request |-\|/-| 325 +22 −49 csproj cs config 4|-\|/-| 
+Tests.Perfomance.Produces failed to start |-\|/-| 2014-12-03T07:53:32Z Merged pull request |-\|/-| 324 +1 −2 cs 1|-\|/-| 
+An attempt to fix #321 |-\|/-| 2014-12-02T15:59:05Z Merged pull request |-\|/-| 323 +27 −29 cs 2|-\|/-| 
+RandomHostSelectionStrategy is default |-\|/-| 2014-11-26T14:14:41Z Merged pull request |-\|/-| 320 +14 −13 cs csproj 10|-\|/-| 
+Sanitise VhostName when creating Permissions with default vhost |-\|/-| 2014-11-26T14:19:59Z Merged pull request |-\|/-| 319 +22 −1 cs 2|-\|/-| 
+Configuration of rpc timeout |-\|/-| 2014-11-25T16:17:31Z Merged pull request |-\|/-| 318 +97 −9 csproj cs 9|-\|/-| 
+'Declared Consumer' log message fix |-\|/-| 2014-11-22T20:53:56Z Merged pull request |-\|/-| 315 +1 −1 cs 1|-\|/-| 
+SendAsync method |-\|/-| 2014-12-01T12:49:48Z Merged pull request |-\|/-| 314 +38 −1 cs 5|-\|/-| 
+Services registration order fixed |-\|/-| 2014-11-20T20:39:35Z Merged pull request |-\|/-| 313 +1 −1 cs 1|-\|/-| 
+ILMerge of conflicting dependencies |-\|/-| 2014-11-14T16:42:20Z Merged pull request |-\|/-| 312 +11 −6 nuspec csproj config cs 4|-\|/-| 
+Allow subscriptions on IBus with MessageReceivedInfo |-\|/-| 2014-11-12T20:53:32Z Closed pull request |-\|/-| 311 +29 −2 cs 2|-\|/-| 
+Implemented Ninject Message Dispatcher |-\|/-| 2014-11-05T15:42:40Z Merged pull request |-\|/-| 309 +47 −0 csproj cs 2|-\|/-| 
+Exclusive consumer |-\|/-| 2015-01-08T12:52:08Z Closed pull request |-\|/-| 308 +239 −10 cs csproj 10|-\|/-| 
+Fix number of messages retrieved and Set the purge parameters using the parameter x |-\|/-| 2014-10-29T20:44:54Z Merged pull request |-\|/-| 307 +3 −1 cs 2|-\|/-| 
+Making RabbitMQ dependcy >=3.4 |-\|/-| 2014-10-29T20:42:04Z Merged pull request |-\|/-| 306 +2 −2 nuspec 1|-\|/-| 
+Allowing greater than 3.3.2 RabbitMQ |-\|/-| 2014-10-29T20:42:58Z Closed pull request |-\|/-| 305 +2 −2 nuspec 1|-\|/-| 
+RabbitMQ.Client.3.4 |-\|/-| 2014-10-28T20:17:02Z Merged pull request |-\|/-| 303 +47 −66 csproj cs config 30|-\|/-| 
+Remove interfaces from POCO classes |-\|/-| 2014-10-29T20:38:04Z Merged pull request |-\|/-| 302 +56 −88 cs csproj 18|-\|/-| 
+Simplify the usage of ConnectionStringParser |-\|/-| 2014-10-25T08:44:58Z Merged pull request |-\|/-| 298 +6 −7 cs 2|-\|/-| 
+Add support for sending and receiving requests on a specific queue |-\|/-| 2014-10-27T16:26:10Z Closed pull request |-\|/-| 297 +213 −40 cs 5|-\|/-| 
+Factored out IReconnectionWaiter, Recursive->Iter |-\|/-| 2014-10-22T15:29:39Z Closed pull request |-\|/-| 295 +205 −47 csproj cs 14|-\|/-| 
+Fixed exhanges with the plus symbols |-\|/-| 2014-10-16T19:35:13Z Merged pull request |-\|/-| 293 +35 −12 cs 2|-\|/-| 
+Updated AutoSubscriber to support loading an explicit list of types |-\|/-| 2014-10-13T20:12:32Z Merged pull request |-\|/-| 292 +109 −6 cs csproj 5|-\|/-| 
+Dispose an existing connection, before we throw away the refererence to ... |-\|/-| 2014-10-11T09:04:10Z Merged pull request |-\|/-| 291 +5 −0 cs 1|-\|/-| 
+Added MessageCount method to AdvancedBus |-\|/-| 2014-10-12T09:07:59Z Merged pull request |-\|/-| 290 +29 −1 cs 4|-\|/-| 
+Make DefaultConsumerErrorStrategy thread-safe |-\|/-| 2014-10-09T19:30:02Z Merged pull request |-\|/-| 289 +11 −3 cs 2|-\|/-| 
+fixed publishing messages after restoring connection to RabbitMQ |-\|/-| 2014-10-08T19:13:49Z Merged pull request |-\|/-| 287 +1 −1 cs 1|-\|/-| 
+Fix "NullReferenceException" when trying to get message from an empty queue |-\|/-| 2014-10-08T19:08:33Z Merged pull request |-\|/-| 286 +15 −2 cs 2|-\|/-| 
+Fix EasyNetQ.nuspec by adding the dependency on System.Collections.Immut... |-\|/-| 2014-10-03T07:38:16Z Merged pull request |-\|/-| 285 +4 −2 nuspec cs 2|-\|/-| 
+PublishedMessageEvent, DeliveredMessageEvent |-\|/-| 2014-10-01T19:23:37Z Merged pull request |-\|/-| 284 +83 −13 cs csproj 12|-\|/-| 
+Use IImmutableSet instead of List in EvenBus to make it thread-safe... |-\|/-| 2014-09-28T09:30:59Z Merged pull request |-\|/-| 282 +46 −18 csproj cs config 4|-\|/-| 
+Handle publish error (prevent unhandled task exception) |-\|/-| 2014-09-20T09:26:20Z Merged pull request |-\|/-| 278 +14 −1 cs 1|-\|/-| 
+0.36.1.0 Updated Json.Net to the latest version |-\|/-| 2014-09-17T19:20:57Z Merged pull request |-\|/-| 277 +17 −16 nuspec csproj config cs 16|-\|/-| 
+Add support for notifications when the connection is blocked |-\|/-| 2014-09-15T17:27:57Z Merged pull request |-\|/-| 276 +132 −1 cs csproj 9|-\|/-| 
+Updated autofac to 3.5.2 |-\|/-| 2014-09-01T08:34:44Z Merged pull request |-\|/-| 274 +8 −6 csproj config 4|-\|/-| 
+Complete the HTTP address |-\|/-| 2014-08-28T08:07:53Z Merged pull request |-\|/-| 273 +29 −10 cs 1|-\|/-| 
+Ignore the Boolean string case |-\|/-| 2014-08-16T08:08:44Z Merged pull request |-\|/-| 272 +1 −2 cs 1|-\|/-| 
+Unhandled exception when running in SSIS |-\|/-| 2014-08-15T10:41:22Z Merged pull request |-\|/-| 271 +20 −3 cs 2|-\|/-| 
+always set result for TaskCompletionSource, or no ACK signal will be sent to the RabbitMQ server. |-\|/-| 2014-08-14T08:31:34Z Merged pull request |-\|/-| 269 +4 −0 cs 1|-\|/-| 
+Basic impl of produce-consume interception #256 |-\|/-| 2014-08-14T09:46:50Z Merged pull request |-\|/-| 268 +454 −17 nuspec csproj cs 14|-\|/-| 
+fix #266 |-\|/-| 2014-08-13T09:36:42Z Merged pull request |-\|/-| 267 +13 −2 cs 1|-\|/-| 
+fix Invalid DeliveryMode=0 on RPC #262 |-\|/-| 2014-08-10T12:41:34Z Merged pull request |-\|/-| 264 +8 −0 cs 1|-\|/-| 
+Future publish refactor |-\|/-| 2014-08-11T08:53:23Z Merged pull request |-\|/-| 263 +288 −152 cs csproj 5|-\|/-| 
+fix #258 |-\|/-| 2014-08-08T09:07:18Z Merged pull request |-\|/-| 261 +35 −21 cs 1|-\|/-| 
+Added the ability to configuration subscription for autosubscriber |-\|/-| 2014-08-05T10:55:10Z Merged pull request |-\|/-| 255 +344 −16 cs csproj 6|-\|/-| 
+Added support for infinite timeout in PersistentChannel.cs |-\|/-| 2014-08-05T09:07:23Z Merged pull request |-\|/-| 253 +11 −11 nuspec dll cs 11|-\|/-| 
+Use MessageDeliveryModeStrategy |-\|/-| 2014-08-05T15:05:18Z Merged pull request |-\|/-| 252 +12 −13 cs 3|-\|/-| 
+A bit of fun with reflection |-\|/-| 2014-08-04T11:11:46Z Merged pull request |-\|/-| 250 +197 −9 csproj cs 9|-\|/-| 
+Add exception handling around responder function, to avoid timeout on the client... |-\|/-| 2014-08-05T09:00:07Z Merged pull request |-\|/-| 249 +45 −22 cs 2|-\|/-| 
+fix typo |-\|/-| 2014-07-29T20:16:53Z Merged pull request |-\|/-| 247 +11 −11 cs 1|-\|/-| 
+Fix typo |-\|/-| 2014-07-29T18:07:11Z Closed pull request |-\|/-| 246 +41 −1,799 txt cs 5|-\|/-| 
+Fixed spelling mistakes |-\|/-| 2014-07-22T08:30:43Z Merged pull request |-\|/-| 242 +2 −2 cs 1|-\|/-| 
+DeliveryModeAttr: to control message persistance |-\|/-| 2014-08-01T12:18:22Z Merged pull request |-\|/-| 240 +100 −178 cs csproj 11|-\|/-| 
+Future Publish Async without Wait |-\|/-| 2014-08-01T12:22:31Z Merged pull request |-\|/-| 239 +98 −66 cs 7|-\|/-| 
+fix for Queue name for Interface #234 |-\|/-| 2014-08-01T12:12:13Z Merged pull request |-\|/-| 238 +40 −16 cs 3|-\|/-| 
+Future Publish Async without Wait |-\|/-| 2014-07-15T16:52:08Z Closed pull request |-\|/-| 236 +138 −82 cs 10|-\|/-| 
+Use String.Format construct conn string parameter error when connecting to a Boolean type |-\|/-| 2014-07-09T11:01:32Z Merged pull request |-\|/-| 235 +5 −5 cs 1|-\|/-| 
+Async version of exchange declare and bind |-\|/-| 2014-07-11T14:06:28Z Merged pull request |-\|/-| 232 +264 −59 cs 8|-\|/-| 
+Fix bug with future publish based on rabbitmq |-\|/-| 2014-07-02T06:51:02Z Merged pull request |-\|/-| 231 +41 −6 cs 3|-\|/-| 
+x-expires now can be configured while subscribe... |-\|/-| 2014-07-02T06:48:03Z Merged pull request |-\|/-| 230 +92 −2 csproj cs 5|-\|/-| 
+Allow extending the Rpc class |-\|/-| 2014-06-24T07:54:30Z Merged pull request |-\|/-| 227 +95 −84 cs 2|-\|/-| 
+Issues with NinjectAdapter service registrations |-\|/-| 2014-06-19T15:51:38Z Merged pull request |-\|/-| 226 +105 −42 cs csproj md 15|-\|/-| 
+Configure prefetchCount for subscription |-\|/-| 2014-06-19T15:49:23Z Merged pull request |-\|/-| 225 +37 −8 cs 6|-\|/-| 
+x-cancel-on-ha-failover is now false by default and can be configured... |-\|/-| 2014-06-16T13:45:17Z Merged pull request |-\|/-| 224 +50 −12 cs 9|-\|/-| 
+RabbitMQ.Client version 3.3.2 |-\|/-| 2014-06-14T12:16:07Z Merged pull request |-\|/-| 223 +43 −24 nuspec csproj config cs 20|-\|/-| 
+Updated to latest JSON.Net and updated NuSpecs to match |-\|/-| 2014-06-05T14:05:19Z Merged pull request |-\|/-| 221 +32 −24 nuspec csproj config cs 17|-\|/-| 
+Fix "collection cannot be iterated after modification" error when event ... |-\|/-| 2014-06-01T08:43:52Z Merged pull request |-\|/-| 220 +49 −1 cs 2|-\|/-| 
+Do not register component if already registered with Castle Windsor |-\|/-| 2014-06-01T08:45:27Z Merged pull request |-\|/-| 219 +12 −6 cs 1|-\|/-| 
+update mongodb driver version |-\|/-| 2014-05-26T14:04:36Z Merged pull request |-\|/-| 217 +3 −3 csproj config 2|-\|/-| 
+Change ExchangeType.Header to "headers" |-\|/-| 2014-05-23T08:35:46Z Merged pull request |-\|/-| 216 +1 −1 cs 1|-\|/-| 
+Enable automatic service recovery |-\|/-| 2014-05-22T12:31:26Z Merged pull request |-\|/-| 215 +10 −0 cs 2|-\|/-| 
+Message version support |-\|/-| 2014-05-26T14:03:55Z Merged pull request |-\|/-| 214 +1,193 −41 cs csproj 4|-\|/-| 
+Removed NuGet binary from repository |-\|/-| 2014-05-21T15:47:53Z Merged pull request |-\|/-| 212 +5 −2 gitignore exe targets 3|-\|/-| 
+updated autofac package to 3.4.0 |-\|/-| 2014-05-20T15:04:55Z Merged pull request |-\|/-| 211 +5 −6 csproj config 4|-\|/-| 
+Switching NextSeqId in BackingQueueStatus from an int to a long |-\|/-| 2014-05-19T14:45:39Z Merged pull request |-\|/-| 210 +28 −2 csproj json cs 4|-\|/-| 
+Added QueueAttribute for controling queue / exchange name. |-\|/-| 2014-05-19T14:44:37Z Merged pull request |-\|/-| 209 +122 −6 cs csproj 6|-\|/-| 
+Handle TaskCancellation of Consumer UserHandler Task |-\|/-| 2014-05-19T14:54:49Z Merged pull request |-\|/-| 208 +288 −76 cs csproj 9|-\|/-| 
+FuturePublish based on rabbitmq dead lettering |-\|/-| 2014-05-16T13:27:50Z Merged pull request |-\|/-| 206 +161 −27 csproj cs 8|-\|/-| 
+x-cancel-on-ha-failover |-\|/-| 2014-05-08T11:51:55Z Merged pull request |-\|/-| 205 +4 −2 cs 2|-\|/-| 
+Fix the last spelling error |-\|/-| 2014-05-08T10:56:35Z Merged pull request |-\|/-| 203 +1 −1 cs 1|-\|/-| 
+Fix spelling errors |-\|/-| 2014-05-07T15:11:56Z Merged pull request |-\|/-| 202 +71 −71 cs 10|-\|/-| 
+Change RabbitMQ.Client version to 3.3.0 into EasyNetQ.nuspec dependencies |-\|/-| 2014-04-30T14:47:23Z Merged pull request |-\|/-| 201 +1 −1 nuspec 1|-\|/-| 
+Upgrade to RabbitMQ.Client 3.3.0 |-\|/-| 2014-04-30T08:00:40Z Merged pull request |-\|/-| 200 +22 −22 csproj config cs 15|-\|/-| 
+asyncronous BusExtensions and test fix #197 - bump version |-\|/-| 2014-04-29T11:07:00Z Merged pull request |-\|/-| 199 +1 −1 cs 1|-\|/-| 
+asyncronous BusExtensions and test fix |-\|/-| 2014-04-28T14:47:23Z Merged pull request |-\|/-| 197 +59 −1 cs 3|-\|/-| 
+Scheduler based on mongo |-\|/-| 2014-04-24T08:07:18Z Merged pull request |-\|/-| 196 +1,253 −16 csproj cs 7|-\|/-| 
+Allow cancelling of FuturePublished event(s) through a cancellation key. |-\|/-| 2014-04-17T15:25:14Z Merged pull request |-\|/-| 195 +154 −4 sql cs sln csproj 18|-\|/-| 
+Support returned immediate/mandatory messages |-\|/-| 2014-04-16T13:33:00Z Merged pull request |-\|/-| 194 +447 −95 cs 2|-\|/-| 
+Management client now supports the changing of a user password |-\|/-| 2014-04-14T08:09:47Z Merged pull request |-\|/-| 193 +51 −3 cs 5|-\|/-| 
+AutoSubscriber should omit abstract classes or generic classes implement... |-\|/-| 2014-04-07T14:48:14Z Merged pull request |-\|/-| 190 +12 −2 cs 2|-\|/-| 
+EasyNetQ.DI: Changed all project Framework targets from 4.5 to 4.0 |-\|/-| 2014-04-05T09:50:07Z Merged pull request |-\|/-| 186 +60 −47 csproj config 18|-\|/-| 
+DI.Autofac: Changed Target framework to .NET Framework 4 Client Profile |-\|/-| 2014-04-04T07:50:29Z Merged pull request |-\|/-| 185 +2 −2 csproj 1|-\|/-| 
+More rigorous parsing of connection strings - we reject connection strin... |-\|/-| 2014-04-02T11:31:35Z Merged pull request |-\|/-| 184 +21 −1 cs 2|-\|/-| 
+fixed typo in autodelete logging, use await syntax in AutofacMessageDispatcher |-\|/-| 2014-04-01T13:05:16Z Merged pull request |-\|/-| 183 +4 −7 cs 2|-\|/-| 
+Support for queue name that contains plus char (+) when using Management Client |-\|/-| 2014-03-31T08:22:46Z Merged pull request |-\|/-| 182 +33 −9 cs 3|-\|/-| 
+Fixed publish confirm timeouts by handling async correctly |-\|/-| 2014-03-27T15:38:44Z Merged pull request |-\|/-| 180 +16 −29 cs 1|-\|/-| 
+fixes #178 StructureMapAdapter type registration check flaw |-\|/-| 2014-03-27T08:55:09Z Merged pull request |-\|/-| 179 +119 −21 cs csproj 4|-\|/-| 
+RabbitMQ.Client version 3.2.4 |-\|/-| 2014-03-19T10:04:40Z Merged pull request |-\|/-| 177 +26 −24 nuspec csproj config cs md 16|-\|/-| 
+Provide access to PropertiesDictionary of Connection |-\|/-| 2014-03-19T09:15:36Z Merged pull request |-\|/-| 176 +9 −0 cs 2|-\|/-| 
+Change x86 cpu type to AnyCPU |-\|/-| 2014-03-14T10:22:58Z Merged pull request |-\|/-| 174 +134 −140 csproj 7|-\|/-| 
+Make EasyNetQ.Scheduler work with Devart dotConnect Postgres provider |-\|/-| 2014-03-14T10:21:03Z Merged pull request |-\|/-| 173 +24 −10 sql cs 6|-\|/-| 
+Simplify injectionextensions |-\|/-| 2014-03-13T14:28:34Z Merged pull request |-\|/-| 172 +16 −8 cs 2|-\|/-| 
+Exclusive consumer And FuturePublishAsync |-\|/-| 2014-04-23T11:22:26Z Closed pull request |-\|/-| 170 +814 −179 sql cs 18|-\|/-| 
+pass message type to DeclareExchange in IPublishExchangeDeclareStrategy |-\|/-| 2014-03-05T16:35:52Z Merged pull request |-\|/-| 169 +19 −12 cs 5|-\|/-| 
+Have PersistentMessages setting also apply to Send<T>(string queue, T message) |-\|/-| 2014-03-04T15:31:57Z Merged pull request |-\|/-| 168 +13 −3 cs 2|-\|/-| 
+Consumer with priority |-\|/-| 2014-03-04T12:25:17Z Merged pull request |-\|/-| 167 +180 −32 cs csproj 15|-\|/-| 
+Cosmetic fixes |-\|/-| 2014-02-28T12:36:50Z Merged pull request |-\|/-| 166 +3 −2 cs 2|-\|/-| 
+Fix + New functionality |-\|/-| 2014-07-09T10:36:15Z Closed pull request |-\|/-| 164 +76 −18 cs 9|-\|/-| 
+Solved an issue with the AutofacAdapter that made it impossible to regis... |-\|/-| 2014-02-20T08:52:04Z Merged pull request |-\|/-| 162 +46 −6 cs 4|-\|/-| 
+Autofac 3.3.0 |-\|/-| 2014-02-11T16:21:56Z Merged pull request |-\|/-| 159 +13,772 −46 nuspec dll csproj config sln nupkg 19|-\|/-| 
+Basic bus can subscribe with autodelete |-\|/-| 2014-02-10T10:15:20Z Merged pull request |-\|/-| 155 +15 −1 cs 2|-\|/-| 
+adding non-generic publish methods |-\|/-| 2014-02-04T16:02:14Z Merged pull request |-\|/-| 153 +71 −18 cs md 4|-\|/-| 
+[Breaking change] Refactor consumer error strategy  |-\|/-| 2014-02-04T15:28:49Z Merged pull request |-\|/-| 152 +11 −21 cs 4|-\|/-| 
+Transient bus |-\|/-| 2014-02-03T15:27:24Z Closed pull request |-\|/-| 151 +40 −6 cs 3|-\|/-| 
+Postgres scheduler |-\|/-| 2014-01-20T08:48:55Z Merged pull request |-\|/-| 147 +201 −48 sql cs csproj sln 16|-\|/-| 
+Fix #138 - removed default date from scheduler stored procedures |-\|/-| 2014-01-20T08:48:55Z Merged pull request |-\|/-| 145 +12 −14 sql cs 3|-\|/-| 
+#140 removed monitor, sagahost and amqp spike projects |-\|/-| 2014-01-17T10:15:30Z Merged pull request |-\|/-| 144 +0 −7,594 cs 7|-\|/-| 
+#142 enabled nuget package restore and removed packages from repository |-\|/-| 2014-01-16T08:50:37Z Merged pull request |-\|/-| 143 +214 −6,466 gitignore Config exe targets csproj 17|-\|/-| 
+fixes issue #135 - implemented first-in-wins strategy for StructureMap c... |-\|/-| 2014-01-15T08:06:45Z Merged pull request |-\|/-| 139 +75 −2 cs 2|-\|/-| 
+Add ForTopic Attribute which allows the specification of topics for |-\|/-| 2014-01-13T12:06:43Z Merged pull request |-\|/-| 136 +170 −9 cs csproj nuspec 9|-\|/-| 
+Fixed bug in MessageReader.ReadMessages path manipulation. |-\|/-| 2014-01-03T09:12:59Z Merged pull request |-\|/-| 133 +6 −3 cs 1|-\|/-| 
+Succeeded=false on Reset |-\|/-| 2014-01-02T12:40:13Z Merged pull request |-\|/-| 132 +28 −9 cs 2|-\|/-| 
+Added Autofac support for internal DI |-\|/-| 2014-01-15T13:43:19Z Merged pull request |-\|/-| 130 +401 −3 proj nuspec dll cs csproj config 11|-\|/-| 
+New policy definitions for Management Api |-\|/-| 2013-12-20T11:53:08Z Merged pull request |-\|/-| 129 +187 −15 nuspec dll json cs 12|-\|/-| 
+exposed argument dictionary when Declaring an Exchange on Advanced Bus |-\|/-| 2013-12-16T12:11:05Z Merged pull request |-\|/-| 127 +11 −19 cs 3|-\|/-| 
+Request now throws exception if the responder throws on server |-\|/-| 2013-12-16T15:37:35Z Merged pull request |-\|/-| 126 +190 −10 nuspec dll cs csproj 16|-\|/-| 
+RandomClusterHostSelectionStrategy |-\|/-| 2013-12-13T11:52:24Z Merged pull request |-\|/-| 125 +153 −0 csproj cs 5|-\|/-| 
+Support for StructureMap, Windsor and Ninject container factory adapters |-\|/-| 2013-12-12T12:09:29Z Merged pull request |-\|/-| 124 +772 −1 csproj cs config 10|-\|/-| 
+added 2 possible appSetting options to ScheduleRepositoryConfiguration: |-\|/-| 2013-12-10T09:24:53Z Merged pull request |-\|/-| 123 +23 −8 cs 2|-\|/-| 
+EasyNetQ.NonGenerics |-\|/-| 2013-11-21T15:49:32Z Closed pull request |-\|/-| 120 +51,796 −2 csproj playlist cs config sln 12|-\|/-| 
+Fix channel leakage when broker sends consumer cancel notifications |-\|/-| 2013-11-06T16:37:52Z Closed pull request |-\|/-| 119 +63 −7 cs csproj 6|-\|/-| 
+JsonSerializerSettings not passed to serializer |-\|/-| 2013-11-05T10:29:39Z Merged pull request |-\|/-| 118 +14 −2 cs 3|-\|/-| 
+Include XML documentation in NuGet package |-\|/-| 2013-10-31T08:57:15Z Merged pull request |-\|/-| 116 +2 −0 proj csproj 2|-\|/-| 
+Remove misleading message from InternalConsumer when handling basic.cancel |-\|/-| 2013-10-30T08:52:23Z Merged pull request |-\|/-| 115 +1 −1 cs 1|-\|/-| 
+Added async auto subscription |-\|/-| 2013-10-29T10:50:31Z Merged pull request |-\|/-| 114 +134 −21 cs csproj 7|-\|/-| 
+Use Passive while declaring exchange |-\|/-| 2013-10-15T07:44:02Z Merged pull request |-\|/-| 110 +13 −1 cs 2|-\|/-| 
+Replaced uint with int in queue parameters dictionary  |-\|/-| 2013-10-10T14:44:31Z Merged pull request |-\|/-| 109 +8 −22 cs 2|-\|/-| 
+Fixed issue with queues consumers not being recreated after reconnecting. |-\|/-| 2013-08-21T07:20:10Z Merged pull request |-\|/-| 105 +65 −20 cs 4|-\|/-| 
+Fix test failing in build #106 |-\|/-| 2013-08-21T07:19:21Z Merged pull request |-\|/-| 104 +1 −1 cs 1|-\|/-| 
+Support reading and writing policies and parameters in admin API |-\|/-| 2013-08-19T07:21:54Z Merged pull request |-\|/-| 103 +487 −0 csproj json cs 8|-\|/-| 
+testing if subscriptionAction.Channel.IsOpen when re-creating subscribers |-\|/-| 2013-08-16T07:38:29Z Merged pull request |-\|/-| 102 +19 −13 cs 2|-\|/-| 
+Implemented Consumer Cancel Notification support. |-\|/-| 2013-08-14T14:06:22Z Merged pull request |-\|/-| 101 +298 −64 cs csproj 12|-\|/-| 
+Fix failing tests in build #103 |-\|/-| 2013-08-13T10:48:59Z Merged pull request |-\|/-| 99 +29 −20 cs 4|-\|/-| 
+Unbreak build #102. I blame Visual Studio. |-\|/-| 2013-08-10T16:05:05Z Merged pull request |-\|/-| 97 +9 −9 csproj cs 2|-\|/-| 
+Handle null responses from Admin API more better |-\|/-| 2013-08-10T09:26:12Z Merged pull request |-\|/-| 96 +63 −4 cs csproj 6|-\|/-| 
+Allow ITopologyVisitor to be injected into IAdvancedBus and IAdvancedPublishChannel lowest level methods. |-\|/-| 2013-08-02T10:20:11Z Merged pull request |-\|/-| 95 +37 −3 cs 4|-\|/-| 
+Fixing the dev's liver, hear it's faulty |-\|/-| 2013-08-10T09:28:32Z Merged pull request |-\|/-| 92 +2 −2 cs 1|-\|/-| 
+Non-durable exchanges |-\|/-| 2013-06-26T10:08:12Z Merged pull request |-\|/-| 91 +49 −12 cs 5|-\|/-| 
+Enable numerical values for arguments |-\|/-| 2013-06-12T15:15:49Z Merged pull request |-\|/-| 90 +2 −2 cs 1|-\|/-| 
+EasyNetQ.Trace additions |-\|/-| 2013-06-13T08:06:59Z Merged pull request |-\|/-| 89 +4,471 −20 cs csproj md config nuspec dll 6|-\|/-| 
+Added SSL configuration options to EasyNetQ. |-\|/-| 2013-05-29T14:14:59Z Merged pull request |-\|/-| 87 +13 −4 cs 3|-\|/-| 
+Some small changes for the EasyNetQ.Management.Client |-\|/-| 2013-05-24T07:43:06Z Merged pull request |-\|/-| 86 +12 −5 json cs 5|-\|/-| 
+Imho, concurrent bug :) |-\|/-| 2013-05-21T07:45:56Z Merged pull request |-\|/-| 84 +6 −8 cs 1|-\|/-| 
+Added support for num messages to command line args |-\|/-| 2013-05-10T07:45:11Z Merged pull request |-\|/-| 81 +20 −0 cs 2|-\|/-| 
+Expand IManagementClient to support exchange to exchange bindings |-\|/-| 2013-05-07T16:00:55Z Merged pull request |-\|/-| 80 +53 −0 cs 3|-\|/-| 
+Allow supporting amqp connection string syntax |-\|/-| 2013-04-25T11:07:58Z Merged pull request |-\|/-| 79 +265 −12 cs csproj 7|-\|/-| 
+Rename routingkey/queue for request/response with conventions |-\|/-| 2013-04-12T08:50:23Z Merged pull request |-\|/-| 78 +41 −11 cs 4|-\|/-| 
+Added a unit test to verify that arguments can be set when creating a queue |-\|/-| 2013-03-20T10:21:26Z Merged pull request |-\|/-| 77 +13 −0 cs 1|-\|/-| 
+Possible to add input arguments when creating bindings and queues |-\|/-| 2013-03-20T09:04:52Z Merged pull request |-\|/-| 76 +1 −8 csproj cs 3|-\|/-| 
+Expose a TPL friendly API for RPC style requests |-\|/-| 2013-03-19T07:28:09Z Merged pull request |-\|/-| 74 +159 −1 gitignore cs 4|-\|/-| 
+Introduced Preconditions class |-\|/-| 2013-03-04T11:55:51Z Merged pull request |-\|/-| 73 +358 −403 cs csproj 9|-\|/-| 
+Added .gitattributes and fixed line feeds |-\|/-| 2013-02-28T09:34:13Z Merged pull request |-\|/-| 72 +1,198 −1,176 gitattributes gitignore nuspec cs 5|-\|/-| 
+Non-generic Subscribe methods  |-\|/-| 2013-02-25T14:27:21Z Closed pull request |-\|/-| 70 +727 −302 cs 5|-\|/-| 
+Async AutoSubscriber |-\|/-| 2013-05-01T09:49:50Z Closed pull request |-\|/-| 68 +388 −300 dll cs 2|-\|/-| 
+Missing File |-\|/-| 2013-01-10T07:53:39Z Merged pull request |-\|/-| 63 +487 −1 cs csproj 9|-\|/-| 
+Management Api Improvements |-\|/-| 2013-01-08T09:03:03Z Merged pull request |-\|/-| 62 +510 −37 sln csproj cs 10|-\|/-| 
+fix #60 |-\|/-| 2012-12-17T15:27:53Z Merged pull request |-\|/-| 61 +7 −6 cs 1|-\|/-| 
+Extended IConventions |-\|/-| 2012-12-13T14:07:50Z Merged pull request |-\|/-| 59 +218 −32 cs 10|-\|/-| 
+Added MessageProperties to BasicPublishChannel.Publish |-\|/-| 2012-12-12T11:44:53Z Closed pull request |-\|/-| 58 +211 −196 cs 1|-\|/-| 
+Rename to MessageDispatcher |-\|/-| 2012-12-12T09:02:55Z Merged pull request |-\|/-| 57 +699 −22 cs csproj XML htm css 10|-\|/-| 
+Fix for Bug #52 |-\|/-| 2012-12-08T08:47:28Z Merged pull request |-\|/-| 54 +48 −14 cs 2|-\|/-| 
+use C# property names instead of underscored property names |-\|/-| 2012-12-10T13:03:03Z Merged pull request |-\|/-| 53 +519 −497 cs csproj 8|-\|/-| 
+Just a rename as it really is a Dispatcher not a Consumer. |-\|/-| 2012-12-11T23:55:53Z Closed pull request |-\|/-| 51 +25 −24 cs csproj 8|-\|/-| 
+New extension point: INamesProvider |-\|/-| 2012-12-13T12:40:28Z Closed pull request |-\|/-| 49 +296 −42 cs csproj 11|-\|/-| 
+Better support for IOC containers by giving better management over consumers when using the AutoSubscriber |-\|/-| 2012-12-06T09:09:18Z Merged pull request |-\|/-| 47 +430 −377 nuspec cs 4|-\|/-| 
+Changed JsonSerializer to include .NET type information |-\|/-| 2012-12-03T09:14:01Z Merged pull request |-\|/-| 46 +23 −3 cs 2|-\|/-| 
+Rabbit MQ hint path |-\|/-| 2012-12-03T12:11:23Z Merged pull request |-\|/-| 45 +2 −2 csproj 1|-\|/-| 
+Set default topic when using the fluent API |-\|/-| 2012-11-16T11:34:27Z Merged pull request |-\|/-| 44 +34 −3 cs 2|-\|/-| 
+AutoSubscriber changes, added SubscriptionIdPrefix |-\|/-| 2012-09-27T14:07:32Z Merged pull request |-\|/-| 41 +87 −22 cs 2|-\|/-| 
+AutoSubscriber changes |-\|/-| 2012-09-26T13:26:52Z Merged pull request |-\|/-| 40 +71 −8 cs 2|-\|/-| 
+AutoSubscriber |-\|/-| 2012-09-26T10:43:12Z Merged pull request |-\|/-| 39 +0 −0 0|-\|/-| 
+AMQP arguments on all subscription queues. |-\|/-| 2012-09-10T15:13:07Z Merged pull request |-\|/-| 37 +274 −30 cs 3|-\|/-| 
+Added requestedHeartbeat to the connection string |-\|/-| 2012-09-10T15:01:16Z Merged pull request |-\|/-| 36 +40 −10 cs 3|-\|/-| 
+Autodelete for exchanges |-\|/-| 2012-08-23T13:29:43Z Merged pull request |-\|/-| 35 +48 −4 cs 3|-\|/-| 
+New QueueDeclare method that takes arguments |-\|/-| 2012-06-22T11:02:01Z Merged pull request |-\|/-| 27 +46 −25 cs 4|-\|/-| 
+Fixed a little typo |-\|/-| 2012-06-20T15:52:17Z Merged pull request |-\|/-| 26 +1 −1 cs 1|-\|/-| 
+Some exception logging for SagaHost |-\|/-| 2012-06-11T14:27:46Z Merged pull request |-\|/-| 24 +36 −18 cs 4|-\|/-| 
+Possible alternative port support |-\|/-| 2012-05-25T11:00:18Z Closed pull request |-\|/-| 22 +28 −2 cs 3|-\|/-| 
+Scheduler Service not starting due to IRawByteBus |-\|/-| 2012-05-14T13:12:38Z Merged pull request |-\|/-| 19 +8 −1 cs 2|-\|/-| 
+Added Open Channels Failing Test |-\|/-| 2012-05-03T10:35:09Z Merged pull request |-\|/-| 17 +18 −0 cs 2|-\|/-| 
+Let windsor host install from it's own bin folder as well as saga directory. |-\|/-| 2012-04-19T15:42:05Z Closed pull request |-\|/-| 14 +1 −0 cs 1|-\|/-| 
+Avoid polling for thread exit |-\|/-| 2012-03-15T08:31:24Z Merged pull request |-\|/-| 12 +1 −2 cs 1|-\|/-| 
+Added ability to use custom conventions for naming exchanges and queues. |-\|/-| 2011-11-29T11:10:08Z Merged pull request |-\|/-| 8 +240 −27 gitignore cs csproj 9|-\|/-| 
+I made the folder location for hosepipe tests dynamic so it doesn't fail if your source is in a different folder or drive. |-\|/-| 2011-11-21T09:35:18Z Merged pull request |-\|/-| 6 +39 −34 cs 3|-\|/-| 
+Fix to track all Models in RabbitBus and clean them up when it is disposed. |-\|/-| 2011-09-28T14:10:38Z Merged pull request |-\|/-| 4 +15 −2 cs 1|-\|/-| 
+Models are now tracked and disposed of properly in RabbitBus |-\|/-| 2011-09-27T14:35:30Z Closed pull request |-\|/-| 3 +43 −16 cs 1|-\|/-| 
+Added some notes to README.txt |-\|/-| 2011-07-02T12:22:23Z Merged pull request |-\|/-| 1 +6 −0 txt 0|-\|/-| 

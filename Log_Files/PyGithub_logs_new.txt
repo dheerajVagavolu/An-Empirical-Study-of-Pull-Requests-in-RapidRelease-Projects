@@ -1,0 +1,543 @@
+Correct parameter for Label.edit |-\|/-| 2020-01-12T00:16:39Z Merged pull request |-\|/-| 1350 +2 −2 py txt 1|-\|/-| 
+Added nested teams and parent (address issue#1337) |-\|/-| 2020-01-12T00:17:55Z Merged pull request |-\|/-| 1348 +48 −0 py txt 2|-\|/-| 
+Add configuration for Read the Docs |-\|/-| 2020-01-11T00:35:55Z Merged pull request |-\|/-| 1347 +14 −0 yml 1|-\|/-| 
+Fix all but one sphinx warnings |-\|/-| 2020-01-11T00:15:35Z Merged pull request |-\|/-| 1346 +14 −16 rst py 5|-\|/-| 
+doc: example of Pull Request creation |-\|/-| 2020-01-11T00:16:45Z Merged pull request |-\|/-| 1344 +18 −0 rst 1|-\|/-| 
+Fix PyPI wheel deployment |-\|/-| 2019-12-29T07:04:32Z Merged pull request |-\|/-| 1330 +1 −1 yml 1|-\|/-| 
+Drop Python 2 support |-\|/-| 2020-01-06T07:01:38Z Merged pull request |-\|/-| 1329 +434 −1,158 yml md rst py 6|-\|/-| 
+Run black and isort to prepare for release |-\|/-| 2019-12-29T00:53:01Z Merged pull request |-\|/-| 1328 +43 −23 py 5|-\|/-| 
+Allow sha=None for InputGitTreeElement |-\|/-| 2019-12-28T23:50:24Z Merged pull request |-\|/-| 1327 +28 −3 py txt 2|-\|/-| 
+Remove API preview parameter |-\|/-| 2019-12-28T23:49:46Z Merged pull request |-\|/-| 1325 +0 −7 py 2|-\|/-| 
+Update link to GitHub Enterprise in README |-\|/-| 2019-12-27T01:08:58Z Merged pull request |-\|/-| 1324 +1 −1 md 0|-\|/-| 
+Cleanup travis config |-\|/-| 2019-12-21T09:57:35Z Merged pull request |-\|/-| 1322 +3 −7 yml 1|-\|/-| 
+Add support for update branch  |-\|/-| 2019-12-12T12:50:26Z Merged pull request |-\|/-| 1317 +35 −0 py txt 3|-\|/-| 
+Refactor Logging tests |-\|/-| 2019-12-11T05:02:14Z Merged pull request |-\|/-| 1315 +150 −39 py 2|-\|/-| 
+Fix class used returning pull request comments |-\|/-| 2019-11-30T01:14:51Z Merged pull request |-\|/-| 1307 +1 −1 py 1|-\|/-| 
+Support for create_fork |-\|/-| 2019-11-28T10:44:02Z Merged pull request |-\|/-| 1306 +31 −0 py txt 2|-\|/-| 
+Adopt black as code formatter |-\|/-| 2019-12-10T09:14:34Z Merged pull request |-\|/-| 1303 +9,281 −3,440 flake8 cfg md py 3|-\|/-| 
+Support github timeline events (GH-422). |-\|/-| 2019-12-28T23:50:06Z Merged pull request |-\|/-| 1302 +285 −2 py txt 5|-\|/-| 
+Use Repository.get_contents() in tests |-\|/-| 2019-11-26T03:30:07Z Merged pull request |-\|/-| 1301 +3 −3 py 2|-\|/-| 
+Allow GithubObject.update() to be passed headers |-\|/-| 2019-11-26T03:29:25Z Merged pull request |-\|/-| 1300 +24 −1 py txt 3|-\|/-| 
+Correct URL for assignees on PRs |-\|/-| 2019-11-25T09:44:14Z Merged pull request |-\|/-| 1296 +4 −4 py txt 1|-\|/-| 
+Fix Branch's push restriction API |-\|/-| 2019-11-22T09:49:59Z Merged pull request |-\|/-| 1290 +190 −10 py txt 2|-\|/-| 
+Deprecate Repository.get_dir_contents() |-\|/-| 2019-11-14T11:17:35Z Merged pull request |-\|/-| 1285 +20 −25 py 1|-\|/-| 
+Apply some polish to manage.sh |-\|/-| 2019-11-11T07:36:24Z Merged pull request |-\|/-| 1284 +4 −3 sh 1|-\|/-| 
+Use inclusive ordered comparison for 'parameterized' requirement |-\|/-| 2019-11-25T09:38:08Z Merged pull request |-\|/-| 1281 +2 −2 py txt 1|-\|/-| 
+Add Python 3.8 to classifiers list |-\|/-| 2019-11-06T11:11:10Z Merged pull request |-\|/-| 1280 +3 −1 yml py 2|-\|/-| 
+Correct API for NamedUser.get_organization_membership |-\|/-| 2019-10-31T09:56:47Z Merged pull request |-\|/-| 1277 +52 −6 py txt 3|-\|/-| 
+Create repositories |-\|/-| 2019-10-27T06:07:56Z Closed pull request |-\|/-| 1275 +135 −0 py txt 2|-\|/-| 
+Correct header check for 2FA required |-\|/-| 2019-10-25T10:01:59Z Merged pull request |-\|/-| 1274 +15 −2 py txt 3|-\|/-| 
+Use replay framework for Issue142 test |-\|/-| 2019-10-25T00:02:07Z Merged pull request |-\|/-| 1271 +14 −4 py txt 1|-\|/-| 
+Skip Issue142 test if no connection to GitHub |-\|/-| 2019-10-25T00:02:35Z Closed pull request |-\|/-| 1269 +12 −0 py 1|-\|/-| 
+Check if the version is empty in manage.sh |-\|/-| 2019-10-22T10:30:45Z Merged pull request |-\|/-| 1268 +4 −0 sh 1|-\|/-| 
+Encode content for {create,update}_file |-\|/-| 2019-10-22T10:30:35Z Merged pull request |-\|/-| 1267 +7 −7 py 2|-\|/-| 
+Sync httpretty version requirement with setup.py |-\|/-| 2019-10-24T01:26:39Z Merged pull request |-\|/-| 1265 +1 −1 txt 0|-\|/-| 
+Fix change log format |-\|/-| 2019-10-19T23:25:47Z Merged pull request |-\|/-| 1263 +2 −0 rst 1|-\|/-| 
+Bump httpretty to be a greater or equal to |-\|/-| 2019-10-18T05:12:45Z Merged pull request |-\|/-| 1262 +1 −1 py 1|-\|/-| 
+add delete project and projectColumn |-\|/-| 2019-12-23T05:26:04Z Closed pull request |-\|/-| 1261 +39 −0 py 2|-\|/-| 
+Raise branch not found exception as unknown object |-\|/-| 2019-10-25T14:31:41Z Closed pull request |-\|/-| 1259 +5 −5 py 1|-\|/-| 
+Add new issue example |-\|/-| 2019-10-15T02:01:18Z Merged pull request |-\|/-| 1256 +10 −0 rst 1|-\|/-| 
+Handle unicode strings when recording responses (#1253) |-\|/-| 2019-10-23T03:50:09Z Merged pull request |-\|/-| 1254 +150 −23 py txt 4|-\|/-| 
+Expand Topic class and add test coverage |-\|/-| 2019-11-04T04:06:52Z Merged pull request |-\|/-| 1252 +178 −6 py txt 4|-\|/-| 
+Specify scope of flake8 to reduce runtime |-\|/-| 2019-10-11T15:22:20Z Closed pull request |-\|/-| 1251 +1 −1 yml 1|-\|/-| 
+Stop ignoring unused imports and remove them |-\|/-| 2019-10-19T05:43:15Z Merged pull request |-\|/-| 1250 +206 −109 flake8 py 11|-\|/-| 
+Add support for team discussions (#1246) |-\|/-| 2019-10-31T10:19:11Z Merged pull request |-\|/-| 1249 +284 −0 py txt 4|-\|/-| 
+Add six to install_requires |-\|/-| 2019-10-08T05:49:13Z Merged pull request |-\|/-| 1245 +2 −1 py 1|-\|/-| 
+Add assignee removal/addition support to PRs |-\|/-| 2019-10-22T10:34:56Z Merged pull request |-\|/-| 1241 +72 −1 py txt 2|-\|/-| 
+Fix 1009 |-\|/-| 2019-10-04T09:36:36Z Closed pull request |-\|/-| 1240 +44 −69 py 2|-\|/-| 
+Implemented user organization membership. Added test case. |-\|/-| 2019-10-03T12:33:07Z Merged pull request |-\|/-| 1237 +243 −0 py txt 4|-\|/-| 
+Support non-default URLs in GithubIntegration |-\|/-| 2019-09-25T13:01:32Z Merged pull request |-\|/-| 1229 +15 −4 py 2|-\|/-| 
+Cleanup try/except import in PaginatedList |-\|/-| 2019-09-25T05:22:06Z Merged pull request |-\|/-| 1228 +1 −4 py 1|-\|/-| 
+Add an IncompletableObject exception |-\|/-| 2019-09-23T06:40:06Z Merged pull request |-\|/-| 1227 +14 −0 py 3|-\|/-| 
+Fix redundant int checks |-\|/-| 2019-09-23T06:28:08Z Merged pull request |-\|/-| 1226 +2 −2 py 1|-\|/-| 
+Update changes.rst |-\|/-| 2019-09-18T01:46:16Z Merged pull request |-\|/-| 1223 +3 −0 rst 1|-\|/-| 
+Add 'author_association' to 'PullRequest' |-\|/-| 2019-11-13T07:49:48Z Closed pull request |-\|/-| 1216 +11 −0 py 1|-\|/-| 
+Tiens |-\|/-| 2019-09-05T18:02:38Z Closed pull request |-\|/-| 1215 +423 −8 md py 1|-\|/-| 
+Support custom base_url for get_installation |-\|/-| 2019-09-25T12:49:27Z Closed pull request |-\|/-| 1214 +1 −1 py 1|-\|/-| 
+fix topics attribute always return None |-\|/-| 2019-11-08T15:01:52Z Closed pull request |-\|/-| 1212 +18 −2 py txt 2|-\|/-| 
+Fix bug in repository create new file example PyGithub#1210 |-\|/-| 2019-09-02T02:01:16Z Merged pull request |-\|/-| 1211 +1 −1 rst 1|-\|/-| 
+Personaltoken |-\|/-| 2019-08-21T19:53:25Z Closed pull request |-\|/-| 1198 +312 −8 md py 4|-\|/-| 
+Add support to vulnerability alert and automated security fixes APIs |-\|/-| 2019-08-08T02:24:34Z Merged pull request |-\|/-| 1195 +268 −2 py txt 2|-\|/-| 
+Drop use of assertEquals |-\|/-| 2019-08-13T01:03:30Z Merged pull request |-\|/-| 1194 +11 −11 py 2|-\|/-| 
+Remove more Python version specific code |-\|/-| 2019-08-28T05:24:55Z Merged pull request |-\|/-| 1193 +44 −94 py 9|-\|/-| 
+Delete Legacy submodule |-\|/-| 2019-08-06T05:16:08Z Merged pull request |-\|/-| 1192 +15 −157 py 2|-\|/-| 
+Remove some uses of atLeastPython3 |-\|/-| 2019-08-05T06:14:39Z Merged pull request |-\|/-| 1191 +6 −22 py 3|-\|/-| 
+Fix directories for coverage in Travis |-\|/-| 2019-08-05T04:36:01Z Merged pull request |-\|/-| 1190 +1 −1 yml 1|-\|/-| 
+Switch to using six |-\|/-| 2019-08-05T04:06:20Z Merged pull request |-\|/-| 1189 +850 −629 yml py 4|-\|/-| 
+Label API: pass custom media type in the Accept header |-\|/-| 2019-10-13T07:05:37Z Closed pull request |-\|/-| 1188 +70 −63 py txt 4|-\|/-| 
+Update Repository.update_file() docstring |-\|/-| 2019-08-04T23:14:07Z Merged pull request |-\|/-| 1186 +1 −1 py 1|-\|/-| 
+Fix PR review creation. |-\|/-| 2019-08-09T09:12:56Z Merged pull request |-\|/-| 1184 +3 −1 py 2|-\|/-| 
+Correct return type of MainClass.get_organizations |-\|/-| 2019-07-23T12:38:37Z Merged pull request |-\|/-| 1179 +1 −1 py 1|-\|/-| 
+Fix URL encoding in GithubObject:__complete |-\|/-| 2019-10-20T23:57:56Z Closed pull request |-\|/-| 1178 +22 −1 py 2|-\|/-| 
+release 1.43.8 |-\|/-| 2019-07-20T01:32:51Z Closed pull request |-\|/-| 1174 +22 −1 rst py 2|-\|/-| 
+Add support to vulnerability alert and automated security fixes APIs |-\|/-| 2019-08-07T05:09:08Z Closed pull request |-\|/-| 1173 +1,173 −818 flake8 yml rst py 7|-\|/-| 
+Fix small issues for Python 3 compatibility. |-\|/-| 2019-09-19T18:47:34Z Closed pull request |-\|/-| 1171 +8 −4 py 3|-\|/-| 
+Code review bodies are optional in some cases. |-\|/-| 2019-09-20T01:00:08Z Merged pull request |-\|/-| 1169 +68 −3 py 3|-\|/-| 
+Jump from notifications to related PRs/issues. |-\|/-| 2019-09-22T08:59:21Z Merged pull request |-\|/-| 1168 +146 −0 py txt 4|-\|/-| 
+Move a portion of github module to use six |-\|/-| 2019-08-05T00:53:29Z Closed pull request |-\|/-| 1167 +107 −88 py 2|-\|/-| 
+Fix bug in recursive repository contents example |-\|/-| 2019-07-12T06:30:16Z Merged pull request |-\|/-| 1166 +1 −1 rst 1|-\|/-| 
+Add cryptography to test-requirements.txt |-\|/-| 2019-07-20T15:59:53Z Merged pull request |-\|/-| 1165 +2 −1 txt 0|-\|/-| 
+Run flake8 in Travis |-\|/-| 2019-08-05T05:03:10Z Merged pull request |-\|/-| 1163 +18 −16 flake8 yml py 10|-\|/-| 
+Silence most flake8 warnings |-\|/-| 2019-07-03T02:35:18Z Merged pull request |-\|/-| 1162 +48 −48 py 12|-\|/-| 
+Silence more flake8 errors |-\|/-| 2019-07-02T09:55:04Z Merged pull request |-\|/-| 1160 +22 −14 py 13|-\|/-| 
+Add Repository methods for pending invitations |-\|/-| 2019-07-03T06:48:31Z Merged pull request |-\|/-| 1159 +76 −0 py txt 2|-\|/-| 
+Use assertRaises in other exception test in Retry |-\|/-| 2019-07-02T08:08:22Z Closed pull request |-\|/-| 1158 +4 −6 py 1|-\|/-| 
+Add invitee and inviter to Invitation |-\|/-| 2019-07-02T02:59:05Z Merged pull request |-\|/-| 1156 +51 −0 py txt 3|-\|/-| 
+Do not import directly into Retry tests |-\|/-| 2019-06-27T10:39:09Z Merged pull request |-\|/-| 1155 +5 −7 py 1|-\|/-| 
+Adds `get_issue_events` to `PullRequest` object |-\|/-| 2019-07-03T00:52:12Z Merged pull request |-\|/-| 1154 +29 −0 py txt 2|-\|/-| 
+Clean up a lot of pyflakes warnings |-\|/-| 2019-07-02T08:06:10Z Merged pull request |-\|/-| 1153 +13 −71 py 36|-\|/-| 
+Allow name to be specified for upload_asset |-\|/-| 2019-06-24T07:14:24Z Merged pull request |-\|/-| 1151 +58 −4 py 2|-\|/-| 
+Fixed #1147 Missing support for license attribute in Repository |-\|/-| 2019-11-01T09:17:38Z Closed pull request |-\|/-| 1148 +17 −1 py 2|-\|/-| 
+Fix assertion in add_to_members |-\|/-| 2019-06-21T02:01:15Z Merged pull request |-\|/-| 1146 +4 −4 py 1|-\|/-| 
+Add new Organization.get_team_by_slug method |-\|/-| 2019-06-20T07:40:21Z Merged pull request |-\|/-| 1144 +29 −1 py txt 2|-\|/-| 
+Add support for the preview of the Vulnerability Alert APIs |-\|/-| 2019-07-30T09:03:54Z Closed pull request |-\|/-| 1141 +112 −1 py txt 3|-\|/-| 
+Add sorting capability to Organization.get_repos() |-\|/-| 2019-06-20T07:51:56Z Merged pull request |-\|/-| 1139 +24 −1 py txt 2|-\|/-| 
+GithubIntegration: enable getting installation |-\|/-| 2019-06-20T08:05:54Z Merged pull request |-\|/-| 1135 +80 −0 py 2|-\|/-| 
+Add two factor attributes on organizations |-\|/-| 2019-07-03T06:51:28Z Merged pull request |-\|/-| 1132 +12 −0 py 2|-\|/-| 
+Support list with protected branches only |-\|/-| 2019-09-01T04:21:20Z Closed pull request |-\|/-| 1129 +9 −3 py 1|-\|/-| 
+Add description field when creating a new team |-\|/-| 2019-05-23T00:07:54Z Merged pull request |-\|/-| 1125 +9 −4 py txt 2|-\|/-| 
+Update Repository.rst |-\|/-| 2019-06-27T12:36:41Z Merged pull request |-\|/-| 1118 +1 −1 rst 1|-\|/-| 
+Wrap more of the Github project API |-\|/-| 2019-07-09T02:00:17Z Closed pull request |-\|/-| 1111 +134 −0 py 3|-\|/-| 
+fixes #1106 for GitHub Enterprise API |-\|/-| 2019-05-03T01:25:00Z Merged pull request |-\|/-| 1110 +5 −1 py 1|-\|/-| 
+issue: add lock/unlock |-\|/-| 2019-05-06T01:38:06Z Merged pull request |-\|/-| 1107 +75 −1 py txt 3|-\|/-| 
+Delete brach associated with pr |-\|/-| 2019-08-24T19:29:02Z Closed pull request |-\|/-| 1104 +20 −2 py 2|-\|/-| 
+Request API preview when asking for labels |-\|/-| 2019-07-03T07:08:24Z Closed pull request |-\|/-| 1102 +4 −2 py 1|-\|/-| 
+Fix permissions (no exec bit) for data and python modules (without shebang) files |-\|/-| 2019-06-28T19:22:32Z Closed pull request |-\|/-| 1099 +0 −0 py txt 7|-\|/-| 
+Add List pending organization invites |-\|/-| 2019-06-27T04:12:09Z Closed draft pull request |-\|/-| 1094 +18 −1 py 2|-\|/-| 
+Add support for custom base_url in GithubIntegration class |-\|/-| 2019-06-20T08:08:04Z Merged pull request |-\|/-| 1093 +5 −2 py 1|-\|/-| 
+Add code coverage |-\|/-| 2019-04-15T02:44:06Z Merged pull request |-\|/-| 1090 +6 −1 yml md 1|-\|/-| 
+Use non-deprecated path for creating GitHub App access tokens |-\|/-| 2019-04-10T02:11:07Z Merged pull request |-\|/-| 1086 +3 −3 py 2|-\|/-| 
+Add ability to create new git releases |-\|/-| 2019-04-03T17:04:06Z Closed pull request |-\|/-| 1079 +40 −0 py 1|-\|/-| 
+add get-a-single-comment call |-\|/-| 2019-04-02T11:15:33Z Closed pull request |-\|/-| 1076 +14 −0 py 1|-\|/-| 
+Add url parameter to include anonymous contributors in get_contributors() |-\|/-| 2019-04-05T05:51:41Z Merged pull request |-\|/-| 1075 +8 −2 py 1|-\|/-| 
+add since and before to get_notifications |-\|/-| 2019-03-29T07:22:58Z Merged pull request |-\|/-| 1074 +9 −2 py 1|-\|/-| 
+Add feature for get repo from another user |-\|/-| 2019-03-29T11:58:50Z Closed pull request |-\|/-| 1071 +13 −0 py 1|-\|/-| 
+Handle a path of / in Repository.get_contents() |-\|/-| 2019-05-22T07:10:28Z Merged pull request |-\|/-| 1070 +20 −2 py txt 2|-\|/-| 
+provide option to extend expiration of jwt token |-\|/-| 2019-03-29T07:37:37Z Merged pull request |-\|/-| 1068 +6 −3 py 1|-\|/-| 
+Run pyupgrade across the project |-\|/-| 2019-03-29T07:43:38Z Merged pull request |-\|/-| 1067 +3 −3 py 3|-\|/-| 
+Add testing and document support for Python 3.7 |-\|/-| 2019-03-18T00:14:14Z Closed pull request |-\|/-| 1066 +3 −0 yml py 2|-\|/-| 
+[fix] the default vaule of 'PullRequest.create_review'`s commit param |-\|/-| 2019-03-13T02:47:38Z Merged pull request |-\|/-| 1058 +6 −3 py 1|-\|/-| 
+Add new dismiss() method on PullRequestReview |-\|/-| 2019-02-28T02:11:31Z Merged pull request |-\|/-| 1053 +40 −0 py txt 2|-\|/-| 
+Update link/description in docs of project using PyGithub |-\|/-| 2019-02-13T01:34:30Z Merged pull request |-\|/-| 1043 +1 −1 rst 1|-\|/-| 
+Fix get_access_token() |-\|/-| 2019-02-14T02:50:12Z Merged pull request |-\|/-| 1042 +130 −12 py 4|-\|/-| 
+fixed: comment of ProjectColumn.create_card |-\|/-| 2019-02-12T06:37:02Z Merged pull request |-\|/-| 1041 +1 −1 py 1|-\|/-| 
+Fix Organization.add_to_members() role passing |-\|/-| 2019-02-12T06:39:45Z Merged pull request |-\|/-| 1039 +10 −10 py txt 1|-\|/-| 
+[WIP] Replace broken edit_user|team_push_restrictions with full implementation of the API |-\|/-| 2019-11-16T05:11:05Z Closed pull request |-\|/-| 1038 +59 −6 py 1|-\|/-| 
+PyGithub Organization Example docs |-\|/-| 2019-04-21T14:20:54Z Closed pull request |-\|/-| 1034 +48 −0 rst 1|-\|/-| 
+Fixed File.last_modified attribute |-\|/-| 2019-06-10T17:51:16Z Closed pull request |-\|/-| 1032 +8 −1 py 1|-\|/-| 
+Updated setup.py to exclude tests |-\|/-| 2019-04-16T03:45:03Z Merged pull request |-\|/-| 1031 +192 −197 yml md py txt 77|-\|/-| 
+add has_organization_projects and has_repository_projects |-\|/-| 2019-10-19T10:34:26Z Closed pull request |-\|/-| 1029 +22 −0 py 1|-\|/-| 
+Travis CI: Add Python 3.7 to the testing |-\|/-| 2019-03-29T07:41:58Z Merged pull request |-\|/-| 1028 +8 −6 yml py 2|-\|/-| 
+Add six to requirements.txt and setup.py |-\|/-| 2019-04-01T12:42:33Z Closed pull request |-\|/-| 1027 +4 −2 txt py 1|-\|/-| 
+01 is a syntax error in Python 3 |-\|/-| 2019-04-01T12:42:50Z Closed pull request |-\|/-| 1026 +1 −1 py 1|-\|/-| 
+Old style exceptions --> new style for Python 3 |-\|/-| 2019-04-01T12:43:06Z Closed pull request |-\|/-| 1025 +2 −2 py 2|-\|/-| 
+Use print() function in both Python 2 and Python 3 |-\|/-| 2019-04-01T12:43:30Z Closed pull request |-\|/-| 1024 +9 −6 py 3|-\|/-| 
+PUT /orgs/:org/memberships/:username requires role parameter to be in the body |-\|/-| 2019-04-08T03:30:20Z Closed pull request |-\|/-| 1022 +2 −2 py 1|-\|/-| 
+added method to get all user's invitations |-\|/-| 2019-06-04T07:59:46Z Closed pull request |-\|/-| 1020 +14 −0 py 1|-\|/-| 
+Add assignee addition/removal support for Pull Requests |-\|/-| 2019-04-08T09:27:32Z Closed pull request |-\|/-| 1016 +44 −69 py 2|-\|/-| 
+Allow unicode type in PullRequest.create_review |-\|/-| 2019-04-08T09:27:33Z Closed pull request |-\|/-| 1013 +1 −1 py 1|-\|/-| 
+fix request got an unexpected keyword argument body |-\|/-| 2019-01-18T07:37:09Z Merged pull request |-\|/-| 1012 +11 −9 py 1|-\|/-| 
+No longer blindly mask JSON parsing errors |-\|/-| 2019-03-31T21:05:03Z Closed pull request |-\|/-| 1008 +27 −18 py txt 3|-\|/-| 
+Add missing import to PullRequest |-\|/-| 2019-01-04T14:28:54Z Merged pull request |-\|/-| 1007 +16 −0 py txt 2|-\|/-| 
+Question: Topics Preview on search repositories |-\|/-| 2019-03-16T23:07:47Z Closed pull request |-\|/-| 1005 +4 −1 py 1|-\|/-| 
+add: create project column card route |-\|/-| 2019-01-18T03:51:05Z Merged pull request |-\|/-| 1003 +126 −1 py txt 2|-\|/-| 
+Adding communications Retry functionality into requests via urllib3 retry object. |-\|/-| 2019-04-05T05:49:02Z Merged pull request |-\|/-| 1002 +309 −26 md py txt 4|-\|/-| 
+user.node_id missing |-\|/-| 2019-01-10T12:49:53Z Merged pull request |-\|/-| 1001 +28 −3 py txt 4|-\|/-| 
+Drop httplib for requests to finish work of #664 |-\|/-| 2018-12-20T02:51:57Z Merged pull request |-\|/-| 998 +15 −21 py 1|-\|/-| 
+[WIP] Supporting the nested teams preview API (vnd.github.hellcat-preview+json) |-\|/-| 2019-07-24T13:40:47Z Closed pull request |-\|/-| 996 +179 −30 py 4|-\|/-| 
+Add "create repository project" and "create project column" methods |-\|/-| 2018-12-20T02:48:54Z Merged pull request |-\|/-| 995 +95 −14 py txt 4|-\|/-| 
+get_user() method returns AuthenticatedUser(login=None) although the user is authenticated |-\|/-| 2018-12-21T03:24:18Z Closed pull request |-\|/-| 994 +1 −0 py 1|-\|/-| 
+Adding support for pending team invitations |-\|/-| 2019-06-28T03:35:59Z Merged pull request |-\|/-| 993 +155 −0 py txt 5|-\|/-| 
+Replaced calls to str with calls to unicode |-\|/-| 2019-04-08T09:27:34Z Closed pull request |-\|/-| 990 +1 −1 py 1|-\|/-| 
+Fix variable shadows a python builtin |-\|/-| 2019-02-03T16:34:00Z Closed pull request |-\|/-| 980 +6 −6 py 1|-\|/-| 
+Fix bugs in default args |-\|/-| 2019-02-03T16:35:01Z Closed pull request |-\|/-| 979 +10 −5 py 4|-\|/-| 
+Eval is unsafe |-\|/-| 2019-02-03T16:34:36Z Closed pull request |-\|/-| 978 +3 −2 py 1|-\|/-| 
+Traffic Endpoints Support |-\|/-| 2018-12-05T01:54:32Z Merged pull request |-\|/-| 977 +646 −5 rst py 4|-\|/-| 
+added raw_data to dict response example |-\|/-| 2019-02-11T13:24:25Z Closed pull request |-\|/-| 975 +9 −0 rst 1|-\|/-| 
+ Change type of GitRelease.author to NamedUser |-\|/-| 2018-11-25T01:56:38Z Merged pull request |-\|/-| 969 +6 −3 py 2|-\|/-| 
+Fix Python 3 compatibility |-\|/-| 2019-02-03T16:33:39Z Closed pull request |-\|/-| 967 +1,206 −825 py 3|-\|/-| 
+Add transfer support |-\|/-| 2019-05-13T21:52:49Z Closed pull request |-\|/-| 966 +47 −3 gitignore py 4|-\|/-| 
+Travis CI: Add flake8 tests for syntax errors and undefined names |-\|/-| 2019-04-01T12:42:12Z Closed pull request |-\|/-| 964 +6 −0 yml 1|-\|/-| 
+Use total_count from data in PaginatedList |-\|/-| 2018-11-23T09:08:10Z Merged pull request |-\|/-| 963 +21 −2 py txt 2|-\|/-| 
+get_issues documentation for state |-\|/-| 2018-11-20T02:13:05Z Merged pull request |-\|/-| 961 +1 −1 py 1|-\|/-| 
+Add a Topic object to cover search_topics |-\|/-| 2018-11-13T02:18:30Z Merged pull request |-\|/-| 959 +87 −4 py 3|-\|/-| 
+Handle 304s in `get_file_contents` |-\|/-| 2019-03-17T18:51:50Z Closed pull request |-\|/-| 957 +38 −5 py 3|-\|/-| 
+Improved docstring for raw_data and raw_headers properties #144 |-\|/-| 2018-12-02T11:34:31Z Closed pull request |-\|/-| 956 +5 −0 py 1|-\|/-| 
+Implemented user organization membership |-\|/-| 2019-01-18T15:44:26Z Closed pull request |-\|/-| 954 +91 −0 py 2|-\|/-| 
+Update README.md |-\|/-| 2018-10-31T00:05:18Z Closed pull request |-\|/-| 953 +0 −1 md 0|-\|/-| 
+raise BadCredentialException when using Github enterprise |-\|/-| 2019-01-01T13:21:15Z Closed pull request |-\|/-| 950 +3 −3 py 1|-\|/-| 
+Add find organization installations API |-\|/-| 2019-03-10T03:49:40Z Closed pull request |-\|/-| 949 +28 −0 py txt 2|-\|/-| 
+Add support for JWT authentication |-\|/-| 2018-10-31T00:11:51Z Merged pull request |-\|/-| 948 +44 −6 md py txt 5|-\|/-| 
+Add methods to add and remove repos from installation |-\|/-| 2019-03-10T09:21:09Z Closed pull request |-\|/-| 947 +102 −0 py txt 2|-\|/-| 
+Added missing params to constructor when reversed |-\|/-| 2018-10-26T07:57:40Z Merged pull request |-\|/-| 946 +99 −1 py txt 3|-\|/-| 
+Fix unable to trigger RateLimitExceededException. |-\|/-| 2018-10-23T09:03:03Z Merged pull request |-\|/-| 943 +80 −1 py txt 2|-\|/-| 
+Added support for required signatures on protected branches |-\|/-| 2018-10-22T06:37:50Z Merged pull request |-\|/-| 939 +77 −0 py txt 3|-\|/-| 
+Ability to filter repository collaborators |-\|/-| 2018-10-21T23:26:25Z Merged pull request |-\|/-| 938 +87 −2 gitignore py 4|-\|/-| 
+Add some examples for Branch |-\|/-| 2018-10-18T11:42:00Z Merged pull request |-\|/-| 936 +53 −1 rst 2|-\|/-| 
+Update Repository.rst |-\|/-| 2018-10-17T09:00:43Z Merged pull request |-\|/-| 935 +1 −1 rst 1|-\|/-| 
+Mark notification as read |-\|/-| 2018-10-18T23:24:46Z Merged pull request |-\|/-| 932 +166 −0 rst py txt 8|-\|/-| 
+Add a trailing slash to URL when updating or deleting a file (tests fixed) |-\|/-| 2018-10-17T00:21:17Z Merged pull request |-\|/-| 931 +112 −23 rst py txt 5|-\|/-| 
+Example: Listen for New Events with PyGithub and Pyramid |-\|/-| 2018-10-16T15:14:41Z Merged pull request |-\|/-| 930 +121 −1 rst 2|-\|/-| 
+Added better error handling when the server returns a 5XX status code |-\|/-| 2019-02-15T11:03:52Z Closed pull request |-\|/-| 928 +8 −0 py 2|-\|/-| 
+Example to show How to get Commit Date |-\|/-| 2018-10-11T07:51:13Z Merged pull request |-\|/-| 927 +12 −1 rst 1|-\|/-| 
+Add highlight search to search_code function |-\|/-| 2018-10-10T08:38:47Z Merged pull request |-\|/-| 925 +39 −3 py txt 5|-\|/-| 
+removing requirements.txt in favor of pipenv conf files |-\|/-| 2018-12-17T14:39:11Z Closed pull request |-\|/-| 924 +207 −5 Pipfile lock txt 2|-\|/-| 
+adding suspended_at property to NamedUser |-\|/-| 2018-10-08T13:26:39Z Merged pull request |-\|/-| 922 +14 −1 py txt 2|-\|/-| 
+Improve __repr__ method of Milestone class |-\|/-| 2018-10-08T02:19:39Z Merged pull request |-\|/-| 921 +2 −2 py 2|-\|/-| 
+New use examples |-\|/-| 2018-10-08T12:33:13Z Merged pull request |-\|/-| 920 +103 −1 rst 3|-\|/-| 
+Add examples for searching repositories (#874) |-\|/-| 2018-10-08T03:31:26Z Merged pull request |-\|/-| 918 +32 −1 rst 1|-\|/-| 
+Add examples for Repository as per #874 |-\|/-| 2018-10-06T10:28:52Z Merged pull request |-\|/-| 917 +41 −1 rst 1|-\|/-| 
+Fix handling of 301 redirects |-\|/-| 2018-10-04T13:41:18Z Merged pull request |-\|/-| 916 +28 −1 py txt 2|-\|/-| 
+get repos missing params for authenticated users |-\|/-| 2018-10-04T07:55:11Z Merged pull request |-\|/-| 915 +12 −4 py txt 2|-\|/-| 
+Gists with since |-\|/-| 2018-10-03T03:52:01Z Merged pull request |-\|/-| 914 +107 −8 py txt 6|-\|/-| 
+Prevent .netrc from overwriting Auth header |-\|/-| 2019-08-22T12:44:35Z Closed pull request |-\|/-| 910 +203 −0 md py txt 4|-\|/-| 
+Line comments are not posted in create_review() |-\|/-| 2018-09-26T01:55:34Z Merged pull request |-\|/-| 909 +2 −0 py 1|-\|/-| 
+Prepare redirect url |-\|/-| 2018-10-04T13:45:36Z Closed pull request |-\|/-| 908 +11 −1 py 1|-\|/-| 
+Fix Repository.edit |-\|/-| 2018-09-16T12:00:20Z Merged pull request |-\|/-| 904 +3 −3 py 1|-\|/-| 
+Expand nature of rate limit changes in 1.43 |-\|/-| 2018-09-18T07:02:20Z Merged pull request |-\|/-| 902 +3 −0 rst 1|-\|/-| 
+Cache fetch responses |-\|/-| 2018-11-27T21:27:51Z Closed pull request |-\|/-| 901 +768 −1 py txt 6|-\|/-| 
+Adding migration api wrapper |-\|/-| 2018-12-21T04:01:02Z Merged pull request |-\|/-| 899 +564 −3 py 8|-\|/-| 
+Fix unable to trigger RateLimitExceededException. |-\|/-| 2018-10-11T02:49:25Z Closed pull request |-\|/-| 898 +30 −1 py txt 2|-\|/-| 
+Fix unable to trigger RateLimitExceededException. |-\|/-| 2018-09-06T08:54:49Z Closed pull request |-\|/-| 897 +1 −1 py 1|-\|/-| 
+Feature: Search By Topics |-\|/-| 2018-09-06T03:44:53Z Merged pull request |-\|/-| 893 +58 −0 py txt 2|-\|/-| 
+Feature: Search By Topics |-\|/-| 2018-09-03T18:47:26Z Closed pull request |-\|/-| 892 +0 −0 0|-\|/-| 
+Add missing backticks to Branch Protection docs |-\|/-| 2018-08-28T08:10:23Z Merged pull request |-\|/-| 889 +4 −4 py 1|-\|/-| 
+Add support for required approving review count |-\|/-| 2018-08-28T05:34:34Z Merged pull request |-\|/-| 888 +79 −27 py txt 4|-\|/-| 
+Improve Branch Protection function docstrings |-\|/-| 2018-08-28T05:12:34Z Merged pull request |-\|/-| 887 +8 −0 py 1|-\|/-| 
+examples/Login.rst |-\|/-| 2018-08-27T05:31:33Z Closed pull request |-\|/-| 883 +15 −0 rst 1|-\|/-| 
+Change MainClass.get_repo default laziness |-\|/-| 2018-08-27T03:57:59Z Merged pull request |-\|/-| 882 +40 −38 py 9|-\|/-| 
+Implement Repository.get_collaborator_permission |-\|/-| 2018-08-27T05:23:04Z Merged pull request |-\|/-| 881 +48 −0 py txt 2|-\|/-| 
+Implement Organization.invite_user |-\|/-| 2018-08-28T06:29:24Z Merged pull request |-\|/-| 880 +143 −0 py txt 3|-\|/-| 
+Switch remaining try/except tests to assertRaises |-\|/-| 2018-08-24T02:52:53Z Merged pull request |-\|/-| 879 +33 −68 py 2|-\|/-| 
+Add a trailing slash to URL when updating or deleting a file. |-\|/-| 2018-10-17T00:21:17Z Closed pull request |-\|/-| 878 +9 −9 py 2|-\|/-| 
+Two fixes related to redirect |-\|/-| 2019-01-22T21:57:07Z Closed pull request |-\|/-| 876 +21 −9 py 1|-\|/-| 
+Add Pull Request Examples |-\|/-| 2018-08-23T01:06:03Z Merged pull request |-\|/-| 875 +29 −1 rst 2|-\|/-| 
+Remove custom swamp-thing-preview header |-\|/-| 2018-08-21T05:49:05Z Merged pull request |-\|/-| 873 +5 −7 py txt 2|-\|/-| 
+Remove Repository.get_protected_branch |-\|/-| 2018-08-20T09:25:33Z Merged pull request |-\|/-| 871 +0 −13 py 1|-\|/-| 
+Fix unicode output printing in logging |-\|/-| 2018-08-17T13:28:36Z Closed pull request |-\|/-| 868 +5 −1 py 1|-\|/-| 
+Revert "Remove NamedUser.contributions (#774)" |-\|/-| 2018-08-15T03:39:09Z Merged pull request |-\|/-| 865 +12 −1 py 2|-\|/-| 
+Fix token auth recording so playback can work on Travis |-\|/-| 2019-03-22T21:40:58Z Closed pull request |-\|/-| 861 +16 −6 py txt 2|-\|/-| 
+Adding communications Retry functionality into requests via urllib3 retry object. |-\|/-| 2019-04-05T05:49:02Z Closed pull request |-\|/-| 860 +22 −8 py 2|-\|/-| 
+Add allow_redirects option |-\|/-| 2018-08-19T02:41:33Z Merged pull request |-\|/-| 858 +2 −2 py 1|-\|/-| 
+Adding new attributes to IssueEvent |-\|/-| 2018-08-24T16:01:30Z Merged pull request |-\|/-| 857 +1,044 −40 py 4|-\|/-| 
+Add support for projects |-\|/-| 2018-09-11T05:05:16Z Merged pull request |-\|/-| 854 +989 −25 md py 4|-\|/-| 
+Remove bulky test data from distribution |-\|/-| 2018-07-20T15:44:15Z Closed pull request |-\|/-| 849 +0 −3 py 1|-\|/-| 
+Add missing arguments to Repository.edit |-\|/-| 2018-07-15T02:32:54Z Merged pull request |-\|/-| 844 +21 −4 py txt 2|-\|/-| 
+Adding archival support for Repository.edit |-\|/-| 2018-07-12T03:17:52Z Merged pull request |-\|/-| 843 +5 −1 py 1|-\|/-| 
+Add missing properties to Repository |-\|/-| 2018-07-13T04:02:54Z Merged pull request |-\|/-| 842 +59 −10 py txt 4|-\|/-| 
+Allow editing of Team descriptions |-\|/-| 2018-07-10T13:35:01Z Merged pull request |-\|/-| 839 +11 −4 py txt 2|-\|/-| 
+Add description to Organizations |-\|/-| 2018-07-10T07:04:30Z Merged pull request |-\|/-| 838 +25 −6 py txt 2|-\|/-| 
+github/stale: use a stale label |-\|/-| 2018-07-11T00:42:34Z Merged pull request |-\|/-| 837 +2 −2 yml 1|-\|/-| 
+Add tag_name and target_commitish arguments to GitRelease.update_release |-\|/-| 2018-07-10T14:58:09Z Merged pull request |-\|/-| 834 +16 −2 py 1|-\|/-| 
+Add support for getting / replacing topics (#634) |-\|/-| 2018-07-06T03:09:11Z Merged pull request |-\|/-| 832 +69 −0 py txt 2|-\|/-| 
+Unit test 809 |-\|/-| 2018-09-11T01:56:11Z Closed pull request |-\|/-| 827 +29 −1 py 2|-\|/-| 
+GitRelease methods documentation |-\|/-| 2018-06-20T02:39:07Z Merged pull request |-\|/-| 821 +17 −2 py 2|-\|/-| 
+Calcuate totalCount without iterating PaginatedList |-\|/-| 2018-07-08T02:43:49Z Merged pull request |-\|/-| 820 +23 −7 py txt 1|-\|/-| 
+Fix incorrect formatting in docstrings |-\|/-| 2018-06-11T14:24:28Z Merged pull request |-\|/-| 816 +13 −9 py 6|-\|/-| 
+Adding project name into "Projects using PyGithub" |-\|/-| 2018-06-11T14:26:29Z Merged pull request |-\|/-| 815 +1 −0 rst 1|-\|/-| 
+Add check-in to projects using PyGithub |-\|/-| 2018-06-12T03:36:39Z Merged pull request |-\|/-| 814 +1 −0 rst 1|-\|/-| 
+add Dismiss PR Reviews functionality |-\|/-| 2018-08-07T03:04:21Z Closed pull request |-\|/-| 809 +21 −1 py 1|-\|/-| 
+Add remove_membership() method to Teams class |-\|/-| 2018-06-19T03:19:28Z Merged pull request |-\|/-| 807 +29 −0 py txt 2|-\|/-| 
+Retry50x |-\|/-| 2018-06-22T08:56:00Z Closed pull request |-\|/-| 803 +47 −32 py txt 3|-\|/-| 
+Add tests for mergeable state |-\|/-| 2018-05-23T02:15:42Z Merged pull request |-\|/-| 801 +75 −0 py 1|-\|/-| 
+Fix return value in the docs |-\|/-| 2018-08-25T04:54:16Z Closed pull request |-\|/-| 799 +1 −1 py 1|-\|/-| 
+Fix Team.description |-\|/-| 2018-05-21T02:32:03Z Merged pull request |-\|/-| 797 +1 −1 py 1|-\|/-| 
+Test Framework improvement |-\|/-| 2018-06-23T03:29:10Z Merged pull request |-\|/-| 795 +23 −5 py 1|-\|/-| 
+add Github.runtime_rack attribute |-\|/-| 2018-08-29T03:52:02Z Closed pull request |-\|/-| 794 +28 −0 py txt 3|-\|/-| 
+increase default timeout to be > github request timeout |-\|/-| 2018-05-21T02:39:34Z Merged pull request |-\|/-| 793 +4 −1 py 1|-\|/-| 
+Handle HTTP 202 HEAD&GET with a retry |-\|/-| 2018-06-22T08:54:33Z Merged pull request |-\|/-| 791 +64 −67 py txt 3|-\|/-| 
+Update Branch Protection to current GitHub API |-\|/-| 2018-08-15T03:37:07Z Merged pull request |-\|/-| 790 +1,311 −332 py 6|-\|/-| 
+[WIP] Add all branch protection features |-\|/-| 2018-05-14T21:16:41Z Closed pull request |-\|/-| 789 +36 −6 py 1|-\|/-| 
+Include target_commitish in GitRelease |-\|/-| 2018-05-21T09:20:19Z Merged pull request |-\|/-| 788 +12 −0 py 2|-\|/-| 
+Fix Content-Length invalid headers exception |-\|/-| 2018-05-17T06:05:33Z Merged pull request |-\|/-| 787 +2 −2 py txt 1|-\|/-| 
+adding has_projects to repository |-\|/-| 2018-07-13T04:02:54Z Closed pull request |-\|/-| 785 +16 −1 py 1|-\|/-| 
+add repository merge attributes |-\|/-| 2018-07-13T04:02:54Z Closed pull request |-\|/-| 784 +64 −1 py 2|-\|/-| 
+Repository attributes: allow_merge_commit, allow_rebase_merge, allow_squash_merge |-\|/-| 2018-05-05T15:01:27Z Closed pull request |-\|/-| 783 +47 −1 py 1|-\|/-| 
+Use TestCase.assertRaises() |-\|/-| 2018-08-15T06:54:58Z Merged pull request |-\|/-| 782 +55 −92 py 4|-\|/-| 
+Refactor Repository.get_protected_branch |-\|/-| 2018-08-10T04:24:59Z Closed pull request |-\|/-| 776 +8 −11 py 2|-\|/-| 
+Branch protection methods no longer require loki |-\|/-| 2018-04-30T02:10:33Z Merged pull request |-\|/-| 775 +38 −40 py txt 1|-\|/-| 
+Remove NamedUser.contributions |-\|/-| 2018-04-30T02:12:44Z Merged pull request |-\|/-| 774 +1 −12 py 2|-\|/-| 
+Documentation for using Pull Request API |-\|/-| 2018-07-27T09:10:51Z Closed pull request |-\|/-| 772 +52 −0 rst 1|-\|/-| 
+Fix github API requests after asset upload |-\|/-| 2018-06-22T04:46:47Z Merged pull request |-\|/-| 771 +32 −26 py txt 2|-\|/-| 
+Fix github API requests after asset upload |-\|/-| 2018-04-25T13:18:13Z Closed pull request |-\|/-| 768 +6 −5 py txt 1|-\|/-| 
+Correct Repository.get_git_tree recursive use |-\|/-| 2018-04-25T09:21:18Z Merged pull request |-\|/-| 767 +5 −4 py txt 2|-\|/-| 
+Correct docstring for set_labels |-\|/-| 2018-04-23T06:27:19Z Merged pull request |-\|/-| 766 +2 −2 py 2|-\|/-| 
+Re-work PullRequest reviewer request |-\|/-| 2018-04-23T06:22:52Z Merged pull request |-\|/-| 765 +134 −142 py txt 5|-\|/-| 
+Add support for team privacy |-\|/-| 2018-04-20T07:17:58Z Merged pull request |-\|/-| 763 +23 −6 py txt 2|-\|/-| 
+Establish basis for examples |-\|/-| 2018-07-27T11:10:51Z Closed pull request |-\|/-| 762 +175 −0 rst 1|-\|/-| 
+Correct PullRequest.get_reviewer_requests() rtype |-\|/-| 2018-04-19T07:58:25Z Merged pull request |-\|/-| 761 +1 −1 py 1|-\|/-| 
+PullRequest review methods no longer need black cats |-\|/-| 2018-04-19T08:07:53Z Merged pull request |-\|/-| 760 +6 −9 py txt 1|-\|/-| 
+Add verify option for to requests wrapper |-\|/-| 2018-04-26T06:46:45Z Merged pull request |-\|/-| 758 +10 −5 py 2|-\|/-| 
+Make use of issue_url in PullRequest |-\|/-| 2018-04-17T10:20:57Z Merged pull request |-\|/-| 755 +4 −4 py 1|-\|/-| 
+PullRequest labels should use Issues URL |-\|/-| 2018-04-17T02:21:27Z Merged pull request |-\|/-| 754 +37 −37 py txt 2|-\|/-| 
+Team description added to Team.py  |-\|/-| 2018-04-17T10:22:12Z Merged pull request |-\|/-| 753 +11 −0 py 1|-\|/-| 
+Support labels for PullRequests |-\|/-| 2018-04-16T08:43:08Z Merged pull request |-\|/-| 752 +444 −1 py 2|-\|/-| 
+Add get_organizations() |-\|/-| 2018-04-12T00:50:42Z Merged pull request |-\|/-| 748 +45 −0 py txt 2|-\|/-| 
+Add documentation to github.Repository.Repository.create_git_release() |-\|/-| 2018-04-10T02:16:23Z Merged pull request |-\|/-| 747 +10 −0 py 1|-\|/-| 
+documentation: clarify semantics of get_comments |-\|/-| 2018-04-07T15:41:39Z Merged pull request |-\|/-| 743 +1 −0 py 1|-\|/-| 
+Add add_to_members() and remove_from_membership() |-\|/-| 2018-04-09T14:44:23Z Merged pull request |-\|/-| 741 +194 −17 py txt 2|-\|/-| 
+Labels API: support description |-\|/-| 2018-03-29T10:16:21Z Merged pull request |-\|/-| 738 +37 −13 py txt 4|-\|/-| 
+Get a repo from another owner |-\|/-| 2018-04-04T10:12:10Z Closed pull request |-\|/-| 737 +3 −2 py 1|-\|/-| 
+Sort the Github Objects |-\|/-| 2018-03-25T06:33:30Z Merged pull request |-\|/-| 735 +1 −1 py 1|-\|/-| 
+Implement License API |-\|/-| 2018-04-06T01:17:20Z Merged pull request |-\|/-| 734 +315 −0 py txt 7|-\|/-| 
+Support recording test data from behind proxies |-\|/-| 2018-08-15T02:38:53Z Closed pull request |-\|/-| 732 +12 −3 py 1|-\|/-| 
+Add url attribute to PullRequestReview object |-\|/-| 2018-03-16T14:49:02Z Merged pull request |-\|/-| 731 +11 −0 py 1|-\|/-| 
+Add hook support for organizations |-\|/-| 2018-03-12T15:02:53Z Merged pull request |-\|/-| 729 +215 −0 py txt 2|-\|/-| 
+Add a Gitter chat badge to README.md |-\|/-| 2018-03-09T09:26:50Z Merged pull request |-\|/-| 728 +1 −0 md 0|-\|/-| 
+Finished search_commits PR |-\|/-| 2018-03-09T00:00:47Z Merged pull request |-\|/-| 727 +55 −1 py 1|-\|/-| 
+Add organization add_membership, remove_membersip and get_invitations… |-\|/-| 2018-04-09T14:44:23Z Closed pull request |-\|/-| 726 +50 −0 py 2|-\|/-| 
+Collaborator site admin |-\|/-| 2018-03-06T02:35:11Z Merged pull request |-\|/-| 719 +12 −0 py 2|-\|/-| 
+Add PullRequestComment.in_reply_to_id |-\|/-| 2018-04-06T10:17:21Z Merged pull request |-\|/-| 718 +11 −0 py 1|-\|/-| 
+Fix add_to_watched for AuthenticatedUser |-\|/-| 2018-03-03T04:02:42Z Merged pull request |-\|/-| 716 +24 −23 py 1|-\|/-| 
+Enforce the Host Header When Using Proxies |-\|/-| 2018-04-14T04:06:27Z Closed pull request |-\|/-| 709 +1,076 −1,074 py txt 2|-\|/-| 
+Add __eq__ and __hash__ to NamedUser |-\|/-| 2018-02-21T06:40:02Z Merged pull request |-\|/-| 706 +34 −0 py txt 2|-\|/-| 
+Fix PY3 compatibility |-\|/-| 2018-06-30T01:51:12Z Closed pull request |-\|/-| 705 +792 −753 py 7|-\|/-| 
+make datetime objects timezone aware using UTC timezone (+tests) |-\|/-| 2018-09-14T17:32:10Z Closed pull request |-\|/-| 704 +119 −76 py 14|-\|/-| 
+Add maintainer can modify flag to create pull request |-\|/-| 2018-02-15T02:07:26Z Merged pull request |-\|/-| 703 +10 −5 py txt 2|-\|/-| 
+Add team privacy parameter to create team |-\|/-| 2018-04-06T09:08:35Z Merged pull request |-\|/-| 702 +7 −4 py txt 2|-\|/-| 
+Fix typo in Design.md |-\|/-| 2018-02-13T16:31:54Z Merged pull request |-\|/-| 701 +1 −1 md 0|-\|/-| 
+Add collaborator permission |-\|/-| 2018-02-07T08:27:11Z Merged pull request |-\|/-| 699 +10 −2 py 1|-\|/-| 
+Method create_milestone now uses datetime object |-\|/-| 2018-02-07T06:44:58Z Merged pull request |-\|/-| 698 +6 −3 py 1|-\|/-| 
+Add CodeTriage badge to pygithub/pygithub |-\|/-| 2018-02-06T20:02:23Z Closed pull request |-\|/-| 697 +1 −0 md 0|-\|/-| 
+Update Team.py to get members with role filter |-\|/-| 2018-06-20T06:39:58Z Closed pull request |-\|/-| 695 +8 −2 py 1|-\|/-| 
+Add a member to an organization given a NamedUser |-\|/-| 2018-09-14T17:32:07Z Closed pull request |-\|/-| 692 +18 −0 py 1|-\|/-| 
+Remove the default "null" input send during GET request |-\|/-| 2018-02-01T00:16:12Z Merged pull request |-\|/-| 691 +931 −931 py txt 2|-\|/-| 
+Updated github.PullRequestReviewerRequest |-\|/-| 2018-01-27T03:06:10Z Merged pull request |-\|/-| 690 +4 −3 py 2|-\|/-| 
+make created_at/published_at attrs available for Release objects |-\|/-| 2018-01-26T19:59:30Z Merged pull request |-\|/-| 689 +25 −0 py 2|-\|/-| 
+Add installation instructions to README |-\|/-| 2018-01-05T19:42:21Z Merged pull request |-\|/-| 682 +7 −0 md 0|-\|/-| 
+Use Python 3 syntax in README |-\|/-| 2018-01-05T19:49:26Z Merged pull request |-\|/-| 681 +1 −1 md 0|-\|/-| 
+Add committer/author to Repository.delete_file |-\|/-| 2018-01-16T22:17:48Z Merged pull request |-\|/-| 678 +19 −3 py 1|-\|/-| 
+Add new params for /users/:user/repos |-\|/-| 2018-01-16T21:41:03Z Merged pull request |-\|/-| 677 +43 −43 py 30|-\|/-| 
+Add permissions field to NamedUser |-\|/-| 2018-01-16T21:52:53Z Merged pull request |-\|/-| 676 +20 −3 py txt 2|-\|/-| 
+Traffic objects |-\|/-| 2018-09-14T17:32:06Z Closed pull request |-\|/-| 675 +147 −0 py 2|-\|/-| 
+Drop support for EOL Python 2.5-2.6 and 3.2-3.3 |-\|/-| 2017-12-21T06:52:00Z Merged pull request |-\|/-| 674 +29 −53 yml py txt 9|-\|/-| 
+Source Import API |-\|/-| 2018-03-21T06:04:47Z Merged pull request |-\|/-| 673 +423 −0 py 3|-\|/-| 
+Add Reactions feature |-\|/-| 2017-12-15T03:23:34Z Merged pull request |-\|/-| 671 +483 −2 py 11|-\|/-| 
+PullRequest: add support for getting a single review's comments. |-\|/-| 2018-03-21T12:50:56Z Merged pull request |-\|/-| 670 +15 −1 py 1|-\|/-| 
+Add ping_url and ping to Hook |-\|/-| 2017-12-10T22:57:28Z Merged pull request |-\|/-| 669 +36 −1 py txt 2|-\|/-| 
+Adding unit test for tree attribute of GitCommit |-\|/-| 2017-12-10T22:46:57Z Merged pull request |-\|/-| 668 +1 −0 py 1|-\|/-| 
+[Documentation] Create instance from token |-\|/-| 2017-12-08T04:01:03Z Merged pull request |-\|/-| 667 +10 −1 md rst 1|-\|/-| 
+Use 'requests' instead of 'httplib' |-\|/-| 2018-04-17T02:25:42Z Merged pull request |-\|/-| 664 +84 −28 py txt 3|-\|/-| 
+Added option to create review for Pull request |-\|/-| 2018-03-20T14:28:39Z Merged pull request |-\|/-| 662 +69 −5 py txt 2|-\|/-| 
+Add Repository.archived property |-\|/-| 2017-12-10T22:52:24Z Merged pull request |-\|/-| 657 +11 −0 py 1|-\|/-| 
+Add support for access level for organization repo |-\|/-| 2018-02-08T20:36:44Z Closed pull request |-\|/-| 655 +12 −1 py 1|-\|/-| 
+Add support for access level for organization repo |-\|/-| 2017-10-31T11:37:21Z Closed pull request |-\|/-| 654 +12 −1 py 1|-\|/-| 
+Update api calls to loki-preview |-\|/-| 2018-02-20T06:27:39Z Closed pull request |-\|/-| 651 +41 −22 yml py txt 2|-\|/-| 
+Add support for the Github API search/commits endpoint |-\|/-| 2018-03-09T00:01:47Z Closed pull request |-\|/-| 648 +54 −0 py 1|-\|/-| 
+Fix JWT encoding with Python3 |-\|/-| 2017-10-19T13:27:45Z Closed pull request |-\|/-| 647 +5 −1 py 1|-\|/-| 
+Remove broken downloads badge |-\|/-| 2017-11-27T22:28:10Z Merged pull request |-\|/-| 644 +0 −1 md 0|-\|/-| 
+Add Python 3.6 |-\|/-| 2017-11-22T19:56:15Z Merged pull request |-\|/-| 643 +3 −1 yml py 2|-\|/-| 
+ENH: Added role parameter to Team.add_membership method |-\|/-| 2018-02-07T09:25:25Z Merged pull request |-\|/-| 638 +20 −6 py txt 2|-\|/-| 
+TST: add_membership testcase |-\|/-| 2018-02-07T09:17:30Z Merged pull request |-\|/-| 637 +11 −0 txt py 1|-\|/-| 
+Add support for getting and replacing topics on a repository |-\|/-| 2018-07-11T00:42:11Z Closed pull request |-\|/-| 635 +53 −0 py txt 2|-\|/-| 
+Fix GithubIntegration in Python3 |-\|/-| 2017-11-27T22:59:39Z Merged pull request |-\|/-| 633 +12 −4 gitignore yml py 3|-\|/-| 
+Add support for changing PR head commit |-\|/-| 2018-01-16T21:26:39Z Merged pull request |-\|/-| 632 +15 −2 py 1|-\|/-| 
+Added Issue.as_pull_request() and PullReqest.as_issue() |-\|/-| 2018-03-26T02:25:46Z Merged pull request |-\|/-| 630 +136 −0 py txt 4|-\|/-| 
+Branch protection update; due to github API v3 change. |-\|/-| 2017-09-13T16:36:14Z Closed pull request |-\|/-| 628 +44 −44 py txt 1|-\|/-| 
+Added target_commitish option to Repository.create_git_release() |-\|/-| 2018-03-15T03:17:05Z Merged pull request |-\|/-| 625 +105 −1 py txt 3|-\|/-| 
+Added missing parameters for repo creation |-\|/-| 2017-11-27T22:25:01Z Merged pull request |-\|/-| 623 +64 −11 py 4|-\|/-| 
+Fix creating/updating binary files on Python 3 |-\|/-| 2017-11-27T23:26:19Z Merged pull request |-\|/-| 621 +8 −4 py 1|-\|/-| 
+Updated references in introduction.rst |-\|/-| 2017-11-22T19:57:54Z Merged pull request |-\|/-| 618 +2 −2 rst 1|-\|/-| 
+adding test file |-\|/-| 2017-08-09T04:41:53Z Closed pull request |-\|/-| 615 +0 −0 txt 0|-\|/-| 
+Handle spaces and other special characters in /contents API |-\|/-| 2017-11-22T20:57:32Z Merged pull request |-\|/-| 614 +5 −5 py 1|-\|/-| 
+Add method to get latest release of a repository |-\|/-| 2018-01-16T21:57:25Z Merged pull request |-\|/-| 609 +48 −0 py 2|-\|/-| 
+[WP] Add projects support |-\|/-| 2018-03-10T10:02:17Z Closed pull request |-\|/-| 607 +221 −7 py 3|-\|/-| 
+added role parameter to add_membership function |-\|/-| 2018-02-14T05:45:55Z Closed pull request |-\|/-| 602 +7 −2 py 1|-\|/-| 
+Fix encoded_input null assignment to produce valid json format |-\|/-| 2018-09-14T17:32:04Z Closed pull request |-\|/-| 599 +895 −895 py txt 3|-\|/-| 
+add methods to create and delete reviewer requests |-\|/-| 2018-04-23T06:23:18Z Closed pull request |-\|/-| 598 +28 −1 py 1|-\|/-| 
+fix: totalCount always returns None |-\|/-| 2018-07-05T12:57:15Z Closed pull request |-\|/-| 596 +10 −5 py 1|-\|/-| 
+fixing date format for milestone creation |-\|/-| 2018-02-06T22:21:51Z Merged pull request |-\|/-| 593 +2 −2 py txt 1|-\|/-| 
+Get organization from the team |-\|/-| 2018-03-10T12:13:44Z Merged pull request |-\|/-| 590 +14 −1 py txt 2|-\|/-| 
+Add closed_at property to GET /repos/:owner/:repo/milestones |-\|/-| 2018-09-14T17:32:05Z Closed pull request |-\|/-| 587 +12 −0 py 2|-\|/-| 
+Add "since" param to PR review comments get |-\|/-| 2018-03-21T06:44:11Z Merged pull request |-\|/-| 577 +7 −2 py 1|-\|/-| 
+Add invite to organization |-\|/-| 2018-02-20T18:04:51Z Closed pull request |-\|/-| 574 +127 −0 py txt 3|-\|/-| 
+Add invite_to_organization to Organization |-\|/-| 2017-05-05T18:47:01Z Closed pull request |-\|/-| 573 +108 −2 yml py txt 4|-\|/-| 
+add read_only attribute to Deploy Keys |-\|/-| 2017-12-08T04:11:11Z Merged pull request |-\|/-| 570 +18 −4 py txt 2|-\|/-| 
+Allow editing of base attribute for pull requests |-\|/-| 2018-03-21T07:36:21Z Closed pull request |-\|/-| 569 +8 −3 py txt 2|-\|/-| 
+Set optional proxy per client object |-\|/-| 2018-09-14T17:32:03Z Closed pull request |-\|/-| 568 +6 −4 py 2|-\|/-| 
+resolved spaces in directory name in path |-\|/-| 2018-09-14T17:32:01Z Closed pull request |-\|/-| 567 +4 −1 py 1|-\|/-| 
+Add 'submitted at' to PullRequestReview |-\|/-| 2017-11-23T11:49:42Z Merged pull request |-\|/-| 565 +14 −0 py 2|-\|/-| 
+Add NamedUser permissions attribute for Repository.get_collaborators() |-\|/-| 2018-03-21T06:28:50Z Closed pull request |-\|/-| 562 +10 −0 py 1|-\|/-| 
+add "integration" install option with minimal docs |-\|/-| 2017-07-10T08:48:26Z Merged pull request |-\|/-| 557 +7 −1 rst py 2|-\|/-| 
+Update requirements to match the latest pyjwt switch |-\|/-| 2017-03-28T08:19:04Z Merged pull request |-\|/-| 544 +1 −1 txt 0|-\|/-| 
+Add Support for Pull Request Reviews feature |-\|/-| 2017-03-25T16:52:49Z Merged pull request |-\|/-| 538 +372 −0 py txt 6|-\|/-| 
+Add support for permission parameter when adding collaborators |-\|/-| 2018-02-07T08:27:59Z Closed pull request |-\|/-| 537 +9 −2 py 1|-\|/-| 
+API outside collaborators |-\|/-| 2018-04-19T02:00:16Z Merged pull request |-\|/-| 533 +117 −0 py txt 2|-\|/-| 
+[docs] warn about using threads |-\|/-| 2017-02-25T11:22:25Z Closed pull request |-\|/-| 532 +4 −0 rst 1|-\|/-| 
+Fix hashing in python3 |-\|/-| 2019-07-15T09:38:02Z Closed pull request |-\|/-| 531 +3 −0 py 1|-\|/-| 
+Update the RepositoryKey class |-\|/-| 2018-03-21T07:09:32Z Merged pull request |-\|/-| 530 +33 −68 py txt 1|-\|/-| 
+Import missing exception |-\|/-| 2017-07-10T18:13:15Z Merged pull request |-\|/-| 529 +1 −1 py 1|-\|/-| 
+Added capablity to customize branch protection settings |-\|/-| 2018-07-20T13:38:35Z Closed pull request |-\|/-| 527 +144 −0 py txt 2|-\|/-| 
+Add ability to access github Release Asset API. |-\|/-| 2017-11-27T16:01:03Z Merged pull request |-\|/-| 525 +733 −8 gitignore py 5|-\|/-| 
+Add release asset APIs |-\|/-| 2017-02-09T15:54:13Z Closed pull request |-\|/-| 524 +728 −8 gitignore py 6|-\|/-| 
+Add ability to access github Release Asset APIs. |-\|/-| 2017-02-08T23:54:17Z Closed pull request |-\|/-| 523 +728 −8 gitignore py 6|-\|/-| 
+added tarball_url, zipball_url, prerelease and draft property |-\|/-| 2018-03-21T06:23:57Z Merged pull request |-\|/-| 522 +44 −0 py 2|-\|/-| 
+Added missing support for specifying permission when adding collaborator to a repo owned by an organization |-\|/-| 2017-10-31T11:39:49Z Closed pull request |-\|/-| 520 +9 −2 py 1|-\|/-| 
+adding support for the integrations installation endpoint |-\|/-| 2017-02-01T10:01:44Z Merged pull request |-\|/-| 519 +97 −8 py 3|-\|/-| 
+Correct stable version in documentation |-\|/-| 2017-02-01T06:04:24Z Merged pull request |-\|/-| 518 +1 −1 rst 1|-\|/-| 
+Accepting 'assignees' parameter for method create_issue() |-\|/-| 2017-01-17T18:54:03Z Closed pull request |-\|/-| 513 +5 −1 py 1|-\|/-| 
+FC |-\|/-| 2017-01-02T13:16:24Z Closed pull request |-\|/-| 511 +1 −0 txt 0|-\|/-| 
+FC |-\|/-| 2017-01-02T13:13:56Z Closed pull request |-\|/-| 510 +1 −0 txt 0|-\|/-| 
+Fix README instructions |-\|/-| 2016-12-20T01:31:00Z Merged pull request |-\|/-| 506 +0 −1 md 0|-\|/-| 
+Add source import  |-\|/-| 2018-03-21T06:03:17Z Closed pull request |-\|/-| 505 +24 −0 py 1|-\|/-| 
+Add details of repo type for get_repos documentation |-\|/-| 2017-01-17T18:56:19Z Merged pull request |-\|/-| 500 +1 −1 py 1|-\|/-| 
+An easier to see link to the documentation in response to issue #480. |-\|/-| 2016-12-28T02:09:01Z Merged pull request |-\|/-| 499 +4 −0 md 0|-\|/-| 
+Support HTTP 302 redirect in Organization.has_in_members |-\|/-| 2017-01-19T04:13:16Z Merged pull request |-\|/-| 498 +74 −0 py txt 3|-\|/-| 
+Add permissions parameter to add_to_collaborators |-\|/-| 2017-01-31T22:41:45Z Closed pull request |-\|/-| 497 +9 −2 py 1|-\|/-| 
+Support getting the Latest release |-\|/-| 2018-03-21T07:31:38Z Closed pull request |-\|/-| 496 +11 −0 py 1|-\|/-| 
+Encode GithubObject repr values in utf-8 |-\|/-| 2016-11-30T10:24:58Z Merged pull request |-\|/-| 495 +54 −1 py txt 3|-\|/-| 
+Added support for subscribers_count |-\|/-| 2016-11-28T18:57:17Z Merged pull request |-\|/-| 492 +11 −0 py 1|-\|/-| 
+Support team membership roles |-\|/-| 2018-03-17T14:05:13Z Merged pull request |-\|/-| 491 +9 −3 py 1|-\|/-| 
+Teams API: support description & privacy fields |-\|/-| 2018-04-14T02:57:44Z Closed pull request |-\|/-| 490 +40 −2 py 2|-\|/-| 
+Fix a bug cause gistfile.content None. |-\|/-| 2018-08-15T07:14:25Z Merged pull request |-\|/-| 486 +1 −1 py 1|-\|/-| 
+add html_url to GitRelease |-\|/-| 2016-10-29T02:39:27Z Merged pull request |-\|/-| 479 +13 −0 py 2|-\|/-| 
+Removed unused imports |-\|/-| 2016-10-17T20:48:13Z Merged pull request |-\|/-| 476 +0 −3 py 1|-\|/-| 
+Fix typo in a constant |-\|/-| 2016-10-16T23:24:30Z Merged pull request |-\|/-| 475 +2 −2 py 2|-\|/-| 
+Fix changelog formatting glitch |-\|/-| 2016-10-16T20:31:20Z Merged pull request |-\|/-| 474 +1 −1 rst 1|-\|/-| 
+adding target_commitish parameter to methods for creating a release |-\|/-| 2018-03-21T07:40:32Z Closed pull request |-\|/-| 473 +171 −3 py txt 3|-\|/-| 
+Don't modify original requestHeaders in Requester.__log() |-\|/-| 2018-06-23T03:48:58Z Closed pull request |-\|/-| 471 +2 −0 py 1|-\|/-| 
+Support multiple assignees on Issue & PullRequest |-\|/-| 2017-01-17T18:53:48Z Merged pull request |-\|/-| 469 +128 −16 py txt 5|-\|/-| 
+Add support for read_only keys. |-\|/-| 2017-12-08T04:12:28Z Closed pull request |-\|/-| 467 +18 −2 py txt 2|-\|/-| 
+Issue assignees |-\|/-| 2016-10-05T09:39:25Z Merged pull request |-\|/-| 466 +7 −3 py txt 2|-\|/-| 
+Add info |-\|/-| 2018-06-23T03:50:45Z Closed pull request |-\|/-| 463 +1 −0 py 1|-\|/-| 
+Fix diffrerent case |-\|/-| 2016-09-29T01:19:16Z Merged pull request |-\|/-| 462 +1 −1 py 1|-\|/-| 
+Now following PEP8 code style in whole code base |-\|/-| 2017-03-29T13:44:11Z Closed pull request |-\|/-| 461 +2,717 −1,374 py 1|-\|/-| 
+Replace deprecated "permission" with "privacy" in create_team. |-\|/-| 2016-09-24T08:01:49Z Closed pull request |-\|/-| 460 +8 −8 py txt 2|-\|/-| 
+fix repository |-\|/-| 2017-01-17T18:55:28Z Merged pull request |-\|/-| 458 +3 −1 py 1|-\|/-| 
+DOC: remove easy_install suggestion; update links |-\|/-| 2016-09-17T17:24:59Z Merged pull request |-\|/-| 455 +6 −5 rst 1|-\|/-| 
+Add ability to set permission for team repo |-\|/-| 2016-09-17T17:51:11Z Merged pull request |-\|/-| 454 +42 −0 py txt 2|-\|/-| 
+Add fields |-\|/-| 2018-09-14T17:32:02Z Closed pull request |-\|/-| 453 +22 −0 py 1|-\|/-| 
+Add release datetime fields |-\|/-| 2016-09-16T18:29:12Z Closed pull request |-\|/-| 452 +23 −1 py 2|-\|/-| 
+Fix status check |-\|/-| 2016-09-17T17:48:51Z Merged pull request |-\|/-| 451 +1 −1 py 1|-\|/-| 
+GitHub integrations support |-\|/-| 2017-01-27T16:34:41Z Merged pull request |-\|/-| 449 +165 −3 py txt 4|-\|/-| 
+Support directories in repo.get_contents |-\|/-| 2016-10-05T09:39:42Z Merged pull request |-\|/-| 448 +22 −0 py txt 2|-\|/-| 
+Nicer __repr__ for GithubObjects |-\|/-| 2016-09-11T19:05:34Z Merged pull request |-\|/-| 445 +322 −1 py 34|-\|/-| 
+first pass at enforcement_level -> include_admins |-\|/-| 2018-09-14T17:32:00Z Closed pull request |-\|/-| 444 +64 −52 py txt 2|-\|/-| 
+Properly handle HTTP Proxy authentication with Python 3 |-\|/-| 2016-08-30T20:21:52Z Merged pull request |-\|/-| 442 +4 −1 py 1|-\|/-| 
+Fix small typo |-\|/-| 2016-08-14T15:52:13Z Merged pull request |-\|/-| 438 +1 −1 py 1|-\|/-| 
+Releases based on travis  |-\|/-| 2016-08-11T15:27:10Z Merged pull request |-\|/-| 437 +21 −66 yml sh py 3|-\|/-| 
+change file content encoding to support unicode(like chinese), py2 |-\|/-| 2016-08-10T15:57:54Z Merged pull request |-\|/-| 436 +4 −0 py 1|-\|/-| 
+Implement __len__ on the PaginatedList |-\|/-| 2018-07-08T03:40:31Z Closed pull request |-\|/-| 433 +15 −1 py 2|-\|/-| 
+Patch issue 358 status context |-\|/-| 2016-07-27T00:56:14Z Merged pull request |-\|/-| 428 +12 −1 py txt 2|-\|/-| 
+Adding "since" param to Issue.get_comments() |-\|/-| 2016-07-21T15:19:14Z Merged pull request |-\|/-| 426 +21 −2 py txt 2|-\|/-| 
+Changed default laziness of get_repo() to False |-\|/-| 2018-08-27T04:08:45Z Closed pull request |-\|/-| 425 +1 −1 py 1|-\|/-| 
+added add_to_members to organization |-\|/-| 2018-04-09T14:44:23Z Closed pull request |-\|/-| 424 +17 −0 py 1|-\|/-| 
+changed "permission" to "privacy" in create_team |-\|/-| 2018-09-14T17:31:58Z Closed pull request |-\|/-| 421 +8 −2 py 1|-\|/-| 
+Update doc url |-\|/-| 2016-07-12T20:38:02Z Merged pull request |-\|/-| 420 +308 −155 gitignore py 27|-\|/-| 
+fix a couple typos to be clearer |-\|/-| 2016-07-08T21:50:26Z Merged pull request |-\|/-| 419 +7 −3 md 0|-\|/-| 
+Adding "squash" commits to single commit merge option |-\|/-| 2018-03-17T11:55:47Z Closed pull request |-\|/-| 418 +61 −34 py txt 5|-\|/-| 
+Document how one gets an AuthenticatedUser object |-\|/-| 2016-07-05T22:26:22Z Merged pull request |-\|/-| 417 +2 −0 py 1|-\|/-| 
+Milestone `due_on` Time format fix |-\|/-| 2016-08-24T03:18:11Z Closed pull request |-\|/-| 414 +1 −1 py 1|-\|/-| 
+fix wrong expectance on requestJsonAndCheck() returning {} if no data |-\|/-| 2016-06-30T19:41:36Z Merged pull request |-\|/-| 413 +5 −5 py 1|-\|/-| 
+Add previous_filename property to File |-\|/-| 2016-06-28T15:58:17Z Merged pull request |-\|/-| 412 +10 −0 py 1|-\|/-| 
+added get_orgs() to MainClass.py |-\|/-| 2018-04-12T02:13:26Z Closed pull request |-\|/-| 407 +18 −0 py 1|-\|/-| 
+Follow redirects in the case of a 301 status code |-\|/-| 2016-06-28T16:59:06Z Merged pull request |-\|/-| 403 +4 −0 py 1|-\|/-| 
+Added support to consider No proxy settings |-\|/-| 2018-09-14T17:31:59Z Closed pull request |-\|/-| 400 +168 −1 py 3|-\|/-| 
+fix datetime format for milestone due date |-\|/-| 2018-07-05T08:26:55Z Closed pull request |-\|/-| 397 +0 −1 txt 0|-\|/-| 
+Fix for pickling exception when deserializing GithubException. |-\|/-| 2016-04-05T00:20:12Z Merged pull request |-\|/-| 395 +6 −0 py 2|-\|/-| 
+add_to_collaborators: add permission param |-\|/-| 2018-03-22T15:27:36Z Closed pull request |-\|/-| 393 +8 −4 py 1|-\|/-| 
+Add support for deleting git refs |-\|/-| 2018-03-07T10:30:27Z Closed pull request |-\|/-| 389 +18 −0 py 2|-\|/-| 
+add params to NamedUser.get_starred |-\|/-| 2018-03-22T15:26:16Z Closed pull request |-\|/-| 386 +16 −3 py 1|-\|/-| 
+add support for the head parameter in Repository.get_pulls |-\|/-| 2016-02-02T22:06:13Z Merged pull request |-\|/-| 384 +5 −1 py 1|-\|/-| 
+Replace httplib with requests |-\|/-| 2018-04-17T04:26:47Z Closed pull request |-\|/-| 383 +40 −8 py 3|-\|/-| 
+Add ability to check combined status. |-\|/-| 2016-01-26T02:49:04Z Merged pull request |-\|/-| 382 +195 −0 py 4|-\|/-| 
+Expose target_commitish parameter |-\|/-| 2018-03-21T07:39:29Z Closed pull request |-\|/-| 381 +4 −2 py 1|-\|/-| 
+Implement repo content create/update/delete file API |-\|/-| 2016-07-18T15:17:49Z Merged pull request |-\|/-| 379 +228 −7 rst py txt 2|-\|/-| 
+Handle rate limit: retry after requested delay |-\|/-| 2018-06-22T08:44:07Z Closed pull request |-\|/-| 378 +12 −2 py 1|-\|/-| 
+Don't merge |-\|/-| 2016-01-11T19:21:28Z Closed pull request |-\|/-| 375 +1 −0 md 0|-\|/-| 
+Add branch protection endpoint |-\|/-| 2016-01-07T19:57:19Z Merged pull request |-\|/-| 372 +394 −2 py txt 3|-\|/-| 
+adds update_content function |-\|/-| 2016-01-04T14:00:19Z Closed pull request |-\|/-| 369 +66 −0 py txt 2|-\|/-| 
+Add travis button on README. |-\|/-| 2015-12-16T06:29:19Z Merged pull request |-\|/-| 365 +3 −0 rst 1|-\|/-| 
+fix misspelling: https://github.com/PyGithub/PyGithub/issues/363 |-\|/-| 2015-12-16T04:56:36Z Merged pull request |-\|/-| 364 +1 −1 py 1|-\|/-| 
+Add read-only Releases API with Assets |-\|/-| 2018-03-22T15:15:42Z Closed pull request |-\|/-| 361 +545 −36 py 1|-\|/-| 
+Add support for the "base" parameter in the repository get_pulls() method. |-\|/-| 2015-11-30T17:10:43Z Merged pull request |-\|/-| 360 +5 −1 py 1|-\|/-| 
+Added support to get the latest public events on github |-\|/-| 2018-03-22T15:43:52Z Closed pull request |-\|/-| 359 +19 −0 py 1|-\|/-| 
+Note explicit support for Python 3.5 |-\|/-| 2016-12-22T17:59:30Z Merged pull request |-\|/-| 357 +2 −0 py 1|-\|/-| 
+add support for the direction parameter in Repository.get_pulls |-\|/-| 2015-11-17T16:50:38Z Merged pull request |-\|/-| 355 +6 −1 py 1|-\|/-| 
+Add creator to get_issues |-\|/-| 2015-11-09T17:09:57Z Merged pull request |-\|/-| 354 +9 −1 py 1|-\|/-| 
+Updating doc link for Github Commit Statuses |-\|/-| 2015-11-03T21:22:24Z Merged pull request |-\|/-| 352 +1 −1 py 1|-\|/-| 
+Add repo.get_stargazers_with_dates() |-\|/-| 2015-10-14T20:28:37Z Merged pull request |-\|/-| 347 +126 −0 py txt 2|-\|/-| 
+Thread headers through PaginatedList |-\|/-| 2015-10-14T18:05:30Z Merged pull request |-\|/-| 346 +8 −4 py 1|-\|/-| 
+Support for "permissions" and "privacy". Changed "members" to "memberships" |-\|/-| 2015-10-10T16:22:55Z Closed pull request |-\|/-| 344 +27 −3 py 3|-\|/-| 
+support long integers in get_repo |-\|/-| 2015-10-03T16:26:14Z Merged pull request |-\|/-| 343 +2 −2 py 1|-\|/-| 
+Don't try to parse "data" if it's None |-\|/-| 2015-09-25T10:51:56Z Closed pull request |-\|/-| 342 +9 −7 py 1|-\|/-| 
+Don't try to parse "data" if it's None |-\|/-| 2015-09-25T10:47:14Z Closed pull request |-\|/-| 341 +9 −7 py 1|-\|/-| 
+Fixes #339 by allowing strings in the labels list. |-\|/-| 2015-09-16T23:15:28Z Merged pull request |-\|/-| 340 +42 −2 py txt 2|-\|/-| 
+README: Remove searching maintainer note |-\|/-| 2015-09-08T14:35:11Z Closed pull request |-\|/-| 337 +0 −6 rst 1|-\|/-| 
+Fixing https://github.com/PyGithub/PyGithub/issues/335. |-\|/-| 2015-08-27T15:53:21Z Merged pull request |-\|/-| 336 +3 −0 py 1|-\|/-| 
+Add support for filter/role options in Organization.get_members() |-\|/-| 2015-08-18T19:58:17Z Merged pull request |-\|/-| 334 +15 −2 py 1|-\|/-| 
+Add support for getting latest release information. |-\|/-| 2018-03-21T07:31:50Z Closed pull request |-\|/-| 333 +80 −0 py 2|-\|/-| 
+Bugfix in issue.remove_from_labels |-\|/-| 2016-01-11T19:07:45Z Closed pull request |-\|/-| 327 +22 −19 py 2|-\|/-| 
+Documentation: add git-gifi usage to list of projects using PyGithub |-\|/-| 2015-07-13T16:13:03Z Merged pull request |-\|/-| 326 +1 −0 rst 1|-\|/-| 
+Added update_content function to update a file |-\|/-| 2016-07-18T15:20:12Z Closed pull request |-\|/-| 316 +104 −1 py txt 3|-\|/-| 
+Freshen master with changes from develop |-\|/-| 2015-05-08T15:10:33Z Merged pull request |-\|/-| 315 +677 −26 gitignore rst py 13|-\|/-| 
+Add add_membership to Team |-\|/-| 2015-04-27T03:16:14Z Closed pull request |-\|/-| 313 +12 −0 py 1|-\|/-| 
+Add support for releases |-\|/-| 2015-05-07T15:14:39Z Merged pull request |-\|/-| 312 +511 −5 rst py txt 5|-\|/-| 
+Add support for releases |-\|/-| 2015-05-07T15:14:39Z Merged pull request |-\|/-| 312 +511 −5 rst py txt 5|-\|/-| 
+Connect through a proxy with authentication |-\|/-| 2015-04-15T20:53:41Z Merged pull request |-\|/-| 309 +20 −1 py 1|-\|/-| 
+Fixed documentation link |-\|/-| 2015-05-08T15:20:30Z Merged pull request |-\|/-| 308 +1 −1 rst 1|-\|/-| 
+Support recording tests when using an OAuth token |-\|/-| 2015-03-27T15:00:05Z Merged pull request |-\|/-| 307 +15 −1 rst py 3|-\|/-| 
+Add support to create Repository objects lazily in MainClass. |-\|/-| 2015-04-02T16:01:25Z Merged pull request |-\|/-| 305 +111 −15 py txt 2|-\|/-| 
+fixed small typo |-\|/-| 2015-03-08T07:17:43Z Merged pull request |-\|/-| 301 +1 −1 rst 1|-\|/-| 
+Fix broken links under "What's next?" |-\|/-| 2015-03-03T17:41:09Z Merged pull request |-\|/-| 296 +2 −2 rst 1|-\|/-| 
+Fix paginated list handling of 204 No Content |-\|/-| 2015-03-03T17:51:04Z Merged pull request |-\|/-| 295 +14 −1 rst py txt 3|-\|/-| 
+Allow access to preview versions of the server-side API |-\|/-| 2015-03-18T19:16:45Z Merged pull request |-\|/-| 294 +7 −3 py 2|-\|/-| 
+doc: add github-icalendar to list of projects using pygithub |-\|/-| 2015-03-04T00:56:40Z Merged pull request |-\|/-| 293 +1 −0 rst 1|-\|/-| 
+Added sort option to get_pulls. |-\|/-| 2015-03-03T17:48:24Z Merged pull request |-\|/-| 292 +4 −1 py 1|-\|/-| 
+Change InputGitAuthor to reflect that time is an optional parameter. |-\|/-| 2015-03-18T19:20:30Z Merged pull request |-\|/-| 290 +10 −4 gitignore py 2|-\|/-| 
+Add optional context when creating a status for a commit |-\|/-| 2015-03-03T17:47:15Z Merged pull request |-\|/-| 289 +6 −2 rst py 2|-\|/-| 
+Remove URL scheme assertion. |-\|/-| 2015-03-03T15:57:04Z Merged pull request |-\|/-| 288 +0 −1 py 1|-\|/-| 
+Add team membership add call |-\|/-| 2015-03-18T19:13:21Z Merged pull request |-\|/-| 284 +12 −0 py 1|-\|/-| 
+Added MANIFEST.in |-\|/-| 2014-10-08T01:54:02Z Merged pull request |-\|/-| 277 +3 −1 in py 2|-\|/-| 
+Capitalization of the 2FA OTP request header |-\|/-| 2014-09-28T20:52:38Z Merged pull request |-\|/-| 275 +1 −1 py 1|-\|/-| 
+Enable automated testing on Python 3.4 |-\|/-| 2014-07-10T01:18:01Z Merged pull request |-\|/-| 255 +1 −0 yml 1|-\|/-| 
+Add oauth authentication |-\|/-| 2018-03-21T07:03:50Z Closed pull request |-\|/-| 254 +126 −0 py txt 3|-\|/-| 
+documentation typos |-\|/-| 2014-05-27T15:38:24Z Merged pull request |-\|/-| 249 +2 −2 py 1|-\|/-| 
+v3 changes gist.user to gist.owner |-\|/-| 2014-05-04T20:01:13Z Closed pull request |-\|/-| 247 +6 −6 py 1|-\|/-| 
+Implement support for getting repo by id |-\|/-| 2014-05-04T19:18:39Z Merged pull request |-\|/-| 246 +19 −4 py txt 2|-\|/-| 
+Change quote to quote_plus and avoid double-escaping some problematic characters. |-\|/-| 2014-03-16T18:44:45Z Merged pull request |-\|/-| 237 +5 −5 py 1|-\|/-| 
+Add support for repository, user, issue code search |-\|/-| 2014-03-03T05:05:42Z Merged pull request |-\|/-| 224 +191 −10 py 4|-\|/-| 
+Add users/starred (GET) |-\|/-| 2014-03-02T18:34:13Z Closed pull request |-\|/-| 223 +18 −1 py 1|-\|/-| 
+fix typos |-\|/-| 2014-01-14T01:02:33Z Merged pull request |-\|/-| 221 +3 −3 rst 1|-\|/-| 
+Added onetime_password to create_authorization |-\|/-| 2013-12-24T03:44:18Z Closed pull request |-\|/-| 220 +19 −5 py 3|-\|/-| 
+Can now specify assignee as a string |-\|/-| 2013-12-24T03:27:00Z Merged pull request |-\|/-| 218 +288 −20 py txt 4|-\|/-| 
+Add /user/teams (GET) |-\|/-| 2013-12-16T01:44:29Z Merged pull request |-\|/-| 213 +12 −0 py 1|-\|/-| 
+Added 'stargazers_count' property to Repository |-\|/-| 2013-12-16T01:44:29Z Merged pull request |-\|/-| 212 +11 −0 py 1|-\|/-| 
+Added 'stargazers_count' property to Repository |-\|/-| 2013-12-04T19:47:47Z Closed pull request |-\|/-| 211 +11 −0 py 1|-\|/-| 
+Add initial version of getemojis |-\|/-| 2013-12-16T01:44:28Z Merged pull request |-\|/-| 209 +26 −0 py txt 2|-\|/-| 
+Add Conditional Request and Data Persistence Support Alternative Solution |-\|/-| 2013-09-06T08:15:35Z Closed pull request |-\|/-| 193 +1,669 −45 gitignore py 9|-\|/-| 
+Refactor: add response header field to GithubObject |-\|/-| 2013-08-22T08:52:41Z Merged pull request |-\|/-| 192 +487 −148 gitignore py 8|-\|/-| 
+Add Conditional Request and Data Persistence Support  |-\|/-| 2013-08-22T10:17:29Z Closed pull request |-\|/-| 189 +272 −10 gitignore py 8|-\|/-| 
+Adding since, until parameters to Repository.getCommits() |-\|/-| 2013-08-19T21:37:16Z Closed pull request |-\|/-| 187 +9 −1 py 1|-\|/-| 
+Minor enhancements to rate limiting information |-\|/-| 2013-08-19T12:38:27Z Merged pull request |-\|/-| 186 +42 −3 py txt 3|-\|/-| 
+Minor enhancements to rate limiting information |-\|/-| 2013-08-06T15:24:38Z Closed pull request |-\|/-| 185 +42 −3 py txt 3|-\|/-| 
+Allow reverse pagination |-\|/-| 2013-08-21T13:33:33Z Merged pull request |-\|/-| 184 +122 −7 py txt 2|-\|/-| 
+Handle github api response that isn't valid json |-\|/-| 2013-08-20T21:19:08Z Closed pull request |-\|/-| 182 +4 −1 py 1|-\|/-| 
+Populates Issue's repository from URL when not in response. |-\|/-| 2013-08-19T12:38:26Z Merged pull request |-\|/-| 181 +17 −1 py txt 2|-\|/-| 
+Automatic rety, empty repo handling and updated arguments for get_commits |-\|/-| 2013-12-16T01:55:37Z Closed pull request |-\|/-| 179 +69 −6 py txt 5|-\|/-| 
+bugfix: using custom per_page in repo.get_comments |-\|/-| 2013-06-19T10:40:26Z Merged pull request |-\|/-| 176 +12 −2 py 2|-\|/-| 
+Support http 302 redirect responses in get_dir_contents |-\|/-| 2013-06-18T20:51:40Z Closed pull request |-\|/-| 174 +10 −0 py 1|-\|/-| 
+Replace doc url |-\|/-| 2013-06-13T13:40:49Z Merged pull request |-\|/-| 171 +15 −15 py 15|-\|/-| 
+Add html_url attribute to comments. |-\|/-| 2013-05-31T12:16:11Z Merged pull request |-\|/-| 170 +24 −0 py 2|-\|/-| 
+Updates api reference url in docstrings for repository keys |-\|/-| 2013-05-22T06:26:13Z Merged pull request |-\|/-| 167 +3 −3 py 1|-\|/-| 
+Add default user agent |-\|/-| 2013-04-25T08:44:25Z Merged pull request |-\|/-| 161 +6 −4 py 3|-\|/-| 
+Notification API |-\|/-| 2013-03-19T22:14:44Z Merged pull request |-\|/-| 148 +238 −0 py txt 3|-\|/-| 
+this fixes #108 |-\|/-| 2013-03-16T16:37:07Z Closed pull request |-\|/-| 147 +402 −114 yml rst py 6|-\|/-| 
+get_repo modification to allow access to repository objects not owned by logged in user |-\|/-| 2013-01-29T13:34:58Z Closed pull request |-\|/-| 135 +10 −3 py 1|-\|/-| 
+Fix failing get_page function |-\|/-| 2013-01-29T17:56:14Z Closed pull request |-\|/-| 133 +1 −1 py 1|-\|/-| 
+Fixed Issue #123: Repository.get_contents does not accept ref=branch |-\|/-| 2012-12-25T10:53:21Z Closed pull request |-\|/-| 124 +6 −2 py 1|-\|/-| 
+Update AuthenticatedUser.get_repo to accept a full repo path |-\|/-| 2012-12-21T19:42:09Z Closed pull request |-\|/-| 121 +10 −0 py 1|-\|/-| 
+typo in ReadMe.md |-\|/-| 2012-11-14T07:58:00Z Merged pull request |-\|/-| 114 +1 −1 md 0|-\|/-| 
+Allow for using OAuth id and secret to increase rate limit |-\|/-| 2012-11-19T19:50:50Z Closed pull request |-\|/-| 112 +16 −36 py 3|-\|/-| 
+Add 'assignee' attribute to PullRequest |-\|/-| 2012-11-03T08:25:59Z Merged pull request |-\|/-| 111 +9 −0 py 1|-\|/-| 
+Add encoding comment to source files |-\|/-| 2012-11-03T08:07:37Z Merged pull request |-\|/-| 110 +216 −0 py 66|-\|/-| 
+Fix failures due to % in markup.  |-\|/-| 2012-09-27T07:43:19Z Closed pull request |-\|/-| 100 +1 −0 py 1|-\|/-| 
+Use Python logging to log raw requests |-\|/-| 2012-09-25T20:57:52Z Closed pull request |-\|/-| 88 +167 −33 gitignore yml md py txt 44|-\|/-| 
+Support clearing of issue milestone and assignee |-\|/-| 2012-09-11T18:55:30Z Closed pull request |-\|/-| 74 +4 −4 py 1|-\|/-| 
+Add timeout option |-\|/-| 2012-09-05T17:23:47Z Merged pull request |-\|/-| 62 +7 −5 md py 2|-\|/-| 
+Allows connection to GitHub Enterprise installs on local URLs |-\|/-| 2012-08-04T05:59:15Z Merged pull request |-\|/-| 57 +81 −58 py 4|-\|/-| 
+[Issue] Replace label _identity with name |-\|/-| 2012-06-28T20:10:44Z Closed pull request |-\|/-| 50 +2 −2 py 1|-\|/-| 
+Just a small patch to make PyGithub compatible with Python 2.5 |-\|/-| 2012-06-20T20:08:20Z Merged pull request |-\|/-| 47 +5 −1 py 1|-\|/-| 
+Pull request to be merged by PyGithub with a custom commit message |-\|/-| 2012-05-29T18:07:54Z Merged pull request |-\|/-| 39 +95 −31 py 12|-\|/-| 
+Creation of a pull request from an issue is not covered by integration tests |-\|/-| 2012-05-27T11:03:53Z Merged pull request |-\|/-| 32 +0 −0 0|-\|/-| 
+Title edited by PyGithub |-\|/-| 2012-05-27T10:29:07Z Merged pull request |-\|/-| 31 +511 −384 py 6|-\|/-| 

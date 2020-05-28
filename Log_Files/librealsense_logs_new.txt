@@ -1,0 +1,1545 @@
+Added action_delayer and remove gamma correction control. |-\|/-| 2020-01-02T15:30:54Z Merged pull request |-\|/-| 5574 +53 −7 cpp h 5|-\|/-| 
+Add sensor extensions - fix playback and record issues |-\|/-| 2020-01-01T14:15:27Z Closed pull request |-\|/-| 5572 +2,928 −20,480 cmake cpp txt h rc md 8|-\|/-| 
+Z16H - Compressed Depth format |-\|/-| 2020-01-05T20:51:12Z Merged pull request |-\|/-| 5564 +9,603 −181 txt h cpp hpp sh patch 13|-\|/-| 
+Fix motion and motion correction routines |-\|/-| 2020-01-05T19:08:28Z Merged pull request |-\|/-| 5534 +98 −87 cpp h 7|-\|/-| 
+.NET VideoStreamProfile.Clone added |-\|/-| 2019-12-30T11:29:54Z Merged pull request |-\|/-| 5529 +65 −0 cs 3|-\|/-| 
+suppress -Wpadantic in glad.c |-\|/-| 2019-12-29T12:50:36Z Merged pull request |-\|/-| 5526 +8 −2 c md 1|-\|/-| 
+fix recording crash |-\|/-| 2019-12-25T08:24:00Z Merged pull request |-\|/-| 5522 +6 −0 cpp h 2|-\|/-| 
+Fix extrinsics commutativity |-\|/-| 2019-12-25T08:33:53Z Merged pull request |-\|/-| 5521 +10 −4 cpp 1|-\|/-| 
+ Upgrade T265 firmware to 0.2.0.908 |-\|/-| 2020-01-07T15:17:03Z Merged pull request |-\|/-| 5504 +2 −2 txt h 1|-\|/-| 
+Added python constructor for region of interest |-\|/-| 2019-12-29T12:52:14Z Merged pull request |-\|/-| 5495 +2 −1 cpp 1|-\|/-| 
+Add sensor extensions |-\|/-| 2019-12-30T11:07:08Z Merged pull request |-\|/-| 5468 +443 −16 h hpp cpp cs js 15|-\|/-| 
+Add sensor extensions |-\|/-| 2019-12-17T09:23:04Z Closed pull request |-\|/-| 5467 +210 −9 h hpp cpp 14|-\|/-| 
+Fix: realsense2-gl headers not installed |-\|/-| 2019-12-29T14:25:46Z Merged pull request |-\|/-| 5465 +14 −6 txt 0|-\|/-| 
+CMake: unix_config, set CMAKE_POSITION_INDEPENDENT_CODE |-\|/-| 2019-12-29T14:26:23Z Merged pull request |-\|/-| 5444 +3 −2 cmake 1|-\|/-| 
+common: fw-update-helper, don't compare addresses |-\|/-| 2019-12-29T14:24:45Z Merged pull request |-\|/-| 5443 +4 −4 cpp 1|-\|/-| 
+Typo removed |-\|/-| 2019-12-10T16:28:08Z Merged pull request |-\|/-| 5421 +1 −1 cpp 1|-\|/-| 
+Map Preservation Fixes |-\|/-| 2019-12-10T10:45:39Z Merged pull request |-\|/-| 5415 +2 −1 md cpp 1|-\|/-| 
+rs-dnn-vino compilation fix for Linux |-\|/-| 2019-12-09T15:33:50Z Merged pull request |-\|/-| 5413 +4 −1 cpp 1|-\|/-| 
+Some fixes to auto calibration |-\|/-| 2019-12-09T15:30:10Z Merged pull request |-\|/-| 5411 +37 −32 h hpp cpp def 4|-\|/-| 
+Promote recommended D400 firmware to 5.12.1.0 |-\|/-| 2019-12-08T15:08:43Z Merged pull request |-\|/-| 5402 +4 −4 txt h 1|-\|/-| 
+Merging master back to dev |-\|/-| 2019-12-08T12:12:52Z Merged pull request |-\|/-| 5400 +572 −89 hpp gitignore h cs cpp 34|-\|/-| 
+Fix xhci_build flags handling |-\|/-| 2019-12-08T12:15:04Z Merged pull request |-\|/-| 5399 +10 −7 sh 1|-\|/-| 
+Some updates to auto calibration |-\|/-| 2019-12-08T12:31:55Z Merged pull request |-\|/-| 5398 +352 −167 cpp h 2|-\|/-| 
+polling_device_watcher: fix race between construction and start |-\|/-| 2019-12-30T11:21:50Z Merged pull request |-\|/-| 5387 +3 −4 h 1|-\|/-| 
+Warning fixes |-\|/-| 2019-12-08T12:16:48Z Merged pull request |-\|/-| 5386 +7 −6 cpp h 6|-\|/-| 
+fix openni2 wrapper convertDepthToColorCoordinates |-\|/-| 2019-12-05T14:58:37Z Merged pull request |-\|/-| 5380 +16 −2 cpp h 2|-\|/-| 
+Change default RGB resolution |-\|/-| 2019-12-08T12:17:19Z Merged pull request |-\|/-| 5377 +20 −7 yml cpp js 4|-\|/-| 
+fix pipeline recording |-\|/-| 2019-12-05T11:05:05Z Merged pull request |-\|/-| 5375 +6 −0 cpp h 2|-\|/-| 
+Update tinyfiledialog to v3.4.1 and set map extension |-\|/-| 2019-12-05T11:05:24Z Merged pull request |-\|/-| 5370 +6,698 −4,804 cpp 1|-\|/-| 
+Roi fix |-\|/-| 2019-12-03T13:02:19Z Merged pull request |-\|/-| 5364 +2 −2 cpp 2|-\|/-| 
+Add rs-dnn-vino sample |-\|/-| 2019-12-08T15:08:24Z Merged pull request |-\|/-| 5360 +574 −106 md txt 0|-\|/-| 
+Fix l500 resolutions |-\|/-| 2019-12-02T20:04:34Z Merged pull request |-\|/-| 5357 +67 −47 cpp h 12|-\|/-| 
+T2XX sample: new `ar-advanced` sample to show map import/export and get/set static node APIs. |-\|/-| 2019-12-30T11:23:37Z Merged pull request |-\|/-| 5356 +552 −0 txt md 0|-\|/-| 
+ds5 default sync by timestamp |-\|/-| 2019-12-02T07:35:18Z Merged pull request |-\|/-| 5353 +13 −81 cpp 1|-\|/-| 
+Version compatibility enhancement |-\|/-| 2019-12-02T10:50:14Z Merged pull request |-\|/-| 5352 +56 −5 h xml txt cpp 6|-\|/-| 
+Added API for depth auto calibration. |-\|/-| 2019-12-02T15:08:21Z Merged pull request |-\|/-| 5346 +1,251 −463 cpp h 3|-\|/-| 
+Android add pipeline profile partial support |-\|/-| 2019-12-02T14:24:35Z Merged pull request |-\|/-| 5344 +22 −8 cpp java 4|-\|/-| 
+Add __version__ to python wrapper |-\|/-| 2019-12-01T08:44:18Z Merged pull request |-\|/-| 5337 +1 −0 cpp 1|-\|/-| 
+Fix save_to_ply symbols in python |-\|/-| 2019-12-01T08:46:34Z Merged pull request |-\|/-| 5336 +7 −7 cpp 1|-\|/-| 
+Fix a minor bug in sorting streams |-\|/-| 2019-12-01T08:47:19Z Merged pull request |-\|/-| 5334 +3 −3 h 1|-\|/-| 
+fix global timestamp domain query crash |-\|/-| 2019-12-01T08:47:52Z Merged pull request |-\|/-| 5331 +2 −1 java 1|-\|/-| 
+Update t265_rpy.py |-\|/-| 2019-12-05T11:08:10Z Merged pull request |-\|/-| 5325 +2 −2 py 1|-\|/-| 
+T2xx sample: add import/export map and get/set static node to rs-ar-basic.cpp |-\|/-| 2019-12-02T10:38:39Z Closed pull request |-\|/-| 5322 +112 −20 cpp 1|-\|/-| 
+Android multicam example |-\|/-| 2019-11-26T09:45:33Z Merged pull request |-\|/-| 5312 +648 −40 cpp gitignore gradle wrappers/android/examples/multicam/gradlew bat pro xml 7|-\|/-| 
+Fix for BUILD_WITH_CUDA option |-\|/-| 2019-11-25T05:45:05Z Merged pull request |-\|/-| 5311 +21 −15 cpp txt cuh 6|-\|/-| 
+UE4 wrapper 4.24 update and Linux build |-\|/-| 2019-12-05T14:08:35Z Merged pull request |-\|/-| 5306 +572 −89 hpp gitignore h cs cpp 34|-\|/-| 
+[test-PR] Add map import/export functionality to rs-ar-basic.cpp |-\|/-| 2019-11-26T08:38:04Z Closed pull request |-\|/-| 5301 +6,310 −2,976 yml NOTICE h 3|-\|/-| 
+UVC control transfer timeout |-\|/-| 2019-11-21T13:25:08Z Closed pull request |-\|/-| 5289 +1 −1 cpp 1|-\|/-| 
+Openvino sample |-\|/-| 2019-12-02T15:52:56Z Merged pull request |-\|/-| 5283 +1,353 −2 cmake cpp md txt jpg 4|-\|/-| 
+doc/t265: updated wheel odometry documentation |-\|/-| 2019-11-20T19:03:30Z Closed pull request |-\|/-| 5280 +105 −1 png md 2|-\|/-| 
+fix SR300 enumeration on linux |-\|/-| 2019-11-20T11:31:05Z Merged pull request |-\|/-| 5278 +23 −9 cpp 5|-\|/-| 
+Typo fix |-\|/-| 2019-11-19T09:43:26Z Closed pull request |-\|/-| 5268 +2 −2 cpp md 1|-\|/-| 
+fix sources reflection in sensor |-\|/-| 2019-11-21T09:18:32Z Merged pull request |-\|/-| 5265 +14 −16 cpp h 2|-\|/-| 
+Update installation_osx.md |-\|/-| 2019-12-30T11:25:17Z Merged pull request |-\|/-| 5264 +3 −3 md 0|-\|/-| 
+Add zero-order state toggle option |-\|/-| 2019-11-21T13:48:32Z Merged pull request |-\|/-| 5263 +107 −26 h cpp cs m 10|-\|/-| 
+minor changes to sensor refactoring |-\|/-| 2019-11-21T09:18:03Z Merged pull request |-\|/-| 5254 +65 −72 cpp h 13|-\|/-| 
+Wheeled Odometry Calibration Setup Examples |-\|/-| 2019-11-21T08:39:29Z Merged pull request |-\|/-| 5244 +106 −2 png md 2|-\|/-| 
+F416-RGB and LED controls |-\|/-| 2019-11-18T16:02:54Z Merged pull request |-\|/-| 5243 +137 −17 rules h ps1 cpp java 15|-\|/-| 
+Upgrade T265 firmware to 0.2.0.879 |-\|/-| 2019-12-01T14:17:36Z Merged pull request |-\|/-| 5234 +2 −2 txt 0|-\|/-| 
+Fix paragraph formatting |-\|/-| 2019-11-12T07:22:05Z Merged pull request |-\|/-| 5226 +1 −1 md 0|-\|/-| 
+Replace libtm with direct communication with T265 |-\|/-| 2019-12-26T12:03:24Z Merged pull request |-\|/-| 5213 +1,681 −20,448 cmake txt h rc cpp md hpp 11|-\|/-| 
+Option to preserve T265 maps in memory for subsequent starts |-\|/-| 2019-12-05T11:05:40Z Merged pull request |-\|/-| 5208 +36 −3 h cpp cs m js 10|-\|/-| 
+Kernel patch adjustment for 4.4 branch |-\|/-| 2019-11-10T05:30:13Z Merged pull request |-\|/-| 5205 +224 −15 h xml patch sh 4|-\|/-| 
+Zero the high 32 bit of 64 bit imu timestamp. |-\|/-| 2019-11-10T05:15:17Z Merged pull request |-\|/-| 5204 +4 −0 cpp h 4|-\|/-| 
+Disable GLOBAL_TIME option |-\|/-| 2019-11-07T19:55:29Z Merged pull request |-\|/-| 5202 +3 −0 cpp 3|-\|/-| 
+Add new functions to Python wrapper, update some more documentation |-\|/-| 2019-11-21T09:16:51Z Merged pull request |-\|/-| 5200 +88 −32 hpp cpp 9|-\|/-| 
+Alternative, possibly simpler approach for obtaining pitch, roll and … |-\|/-| 2019-11-21T08:40:21Z Merged pull request |-\|/-| 5198 +18 −16 md py 1|-\|/-| 
+Fix link in t265.md |-\|/-| 2019-11-07T14:35:37Z Merged pull request |-\|/-| 5190 +1 −1 md 0|-\|/-| 
+Fix link in t265.md |-\|/-| 2019-11-05T15:36:35Z Closed pull request |-\|/-| 5189 +1 −1 md 0|-\|/-| 
+UVC CMake options fix |-\|/-| 2019-11-05T07:16:18Z Merged pull request |-\|/-| 5180 +6 −5 cmake txt 1|-\|/-| 
+USB Host license |-\|/-| 2019-11-07T14:35:56Z Merged pull request |-\|/-| 5179 +16 −4 NOTICE sh h 3|-\|/-| 
+USB Host license |-\|/-| 2019-11-04T13:07:24Z Closed pull request |-\|/-| 5171 +16 −4 NOTICE sh h 3|-\|/-| 
+.NET Development |-\|/-| 2019-11-21T09:40:29Z Merged pull request |-\|/-| 5170 +50 −27 cs 9|-\|/-| 
+Upgrade T265 firmware to 0.2.0.857 |-\|/-| 2019-11-02T16:10:05Z Merged pull request |-\|/-| 5169 +8 −2 txt h cpp 2|-\|/-| 
+Hex formatting |-\|/-| 2019-11-02T16:09:28Z Merged pull request |-\|/-| 5157 +5 −5 h cpp 3|-\|/-| 
+update pyglet to 1.4.x |-\|/-| 2019-12-30T11:22:29Z Merged pull request |-\|/-| 5155 +9 −4 py 1|-\|/-| 
+Upgrade T265 firmware to 0.2.0.841 |-\|/-| 2019-11-01T22:42:06Z Closed pull request |-\|/-| 5133 +2 −30 txt cpp 1|-\|/-| 
+Sensor refactoring |-\|/-| 2019-11-15T08:57:11Z Merged pull request |-\|/-| 5111 +4,294 −2,635 yml h hpp cpp 10|-\|/-| 
+PLY export |-\|/-| 2019-11-12T16:52:11Z Merged pull request |-\|/-| 5110 +687 −105 h cpp 7|-\|/-| 
+Full portChain in physical port info |-\|/-| 2019-11-02T16:10:47Z Merged pull request |-\|/-| 5109 +5 −1 cpp 1|-\|/-| 
+Read the depth units from intrinsics. |-\|/-| 2019-10-23T09:30:53Z Merged pull request |-\|/-| 5106 +4 −5 cpp 1|-\|/-| 
+On-chip calibration crash fix |-\|/-| 2019-10-23T10:19:10Z Merged pull request |-\|/-| 5077 +9 −2 cpp 1|-\|/-| 
+rs-rosbag-inspector crash fix |-\|/-| 2019-10-23T10:19:28Z Merged pull request |-\|/-| 5066 +1 −0 cpp 1|-\|/-| 
+Fix memory leak in hid sensor |-\|/-| 2019-10-17T12:35:10Z Merged pull request |-\|/-| 5065 +2 −0 cpp h 2|-\|/-| 
+T265 Mask API |-\|/-| 2019-12-10T19:31:57Z Closed pull request |-\|/-| 5061 +776 −16 md txt hpp cpp 2|-\|/-| 
+Upgrade T265 firmware to 0.1.0.508 |-\|/-| 2019-10-30T18:04:13Z Closed pull request |-\|/-| 5060 +2 −2 txt 0|-\|/-| 
+Upgrade T265 Firmware to 0.1.0.508 |-\|/-| 2019-10-16T00:33:23Z Closed pull request |-\|/-| 5059 +44 −28 h md cpp hpp txt cs 13|-\|/-| 
+Adding Support-Matrix and updating Jetson docs |-\|/-| 2019-11-18T08:51:29Z Merged pull request |-\|/-| 5053 +102 −11 png jpg md 6|-\|/-| 
+Raspbian buster - Cleanup |-\|/-| 2019-10-23T10:20:16Z Merged pull request |-\|/-| 5043 +170 −190 cmake c cpp h 8|-\|/-| 
+Fix default path bug in viewer |-\|/-| 2019-10-10T14:27:40Z Merged pull request |-\|/-| 5028 +7 −0 h 1|-\|/-| 
+Raspbian Linux 10 Buster fix. (Kernel 4.19) |-\|/-| 2019-10-23T10:20:18Z Merged pull request |-\|/-| 5025 +63 −58 cmake c cpp h 6|-\|/-| 
+Rename foreach to foreachRS |-\|/-| 2019-10-15T15:45:42Z Merged pull request |-\|/-| 4987 +14 −14 hpp cpp 6|-\|/-| 
+Fix min Z offset for disparity domain colorization mode |-\|/-| 2019-10-23T10:21:31Z Merged pull request |-\|/-| 4981 +6 −2 cpp 2|-\|/-| 
+Rsusb backend |-\|/-| 2019-11-03T06:39:19Z Merged pull request |-\|/-| 4975 +3,920 −18,546 yml cmake txt cpp h 8|-\|/-| 
+DQT/Viewer metrics record fixes and improvements |-\|/-| 2019-10-23T11:27:05Z Merged pull request |-\|/-| 4967 +25 −12 cpp h 3|-\|/-| 
+Added wrappers/dlib/face example |-\|/-| 2019-10-23T07:51:53Z Merged pull request |-\|/-| 4966 +700 −15 cmake md txt h 3|-\|/-| 
+illustration for project |-\|/-| 2019-10-17T12:31:09Z Merged pull request |-\|/-| 4953 +5 −0 md png 1|-\|/-| 
+rs-ar-basic: fix extrinsic pose to camera transformation |-\|/-| 2019-10-02T08:10:12Z Merged pull request |-\|/-| 4945 +7 −11 md cpp 1|-\|/-| 
+Merge of 2.29 to master |-\|/-| 2019-09-26T13:02:23Z Merged pull request |-\|/-| 4941 +550 −158 cpp txt h rules hpp xml 14|-\|/-| 
+Notification category for Relocalization |-\|/-| 2019-10-02T08:12:31Z Merged pull request |-\|/-| 4936 +14 −1 h cpp cs 5|-\|/-| 
+Update doxygen of pose_sensor |-\|/-| 2019-09-25T05:02:19Z Merged pull request |-\|/-| 4927 +44 −59 hpp h 3|-\|/-| 
+Fixing Tare Calibration UI + Bump version |-\|/-| 2019-09-25T05:03:11Z Merged pull request |-\|/-| 4925 +60 −51 txt h cpp xml 5|-\|/-| 
+libuvc: fix QW_TO_QUAD losing data due to 32-bit type |-\|/-| 2019-10-16T05:46:48Z Closed pull request |-\|/-| 4922 +2 −2 h 1|-\|/-| 
+Fix WB control and generate UV-map test artifacts |-\|/-| 2019-10-23T13:15:28Z Merged pull request |-\|/-| 4914 +230 −6 h hpp cpp txt 4|-\|/-| 
+get_distance to verify user-provided pixel indexes.  |-\|/-| 2019-10-23T09:35:48Z Merged pull request |-\|/-| 4910 +2 −0 cpp 1|-\|/-| 
+Added to align sse support on distortion parameters and fixed bug on playback   |-\|/-| 2019-09-24T13:24:41Z Merged pull request |-\|/-| 4909 +3 −1 cpp 2|-\|/-| 
+Remove "not supported for rendering" error |-\|/-| 2019-10-23T07:53:08Z Merged pull request |-\|/-| 4907 +43 −2 h cpp 3|-\|/-| 
+PLY options |-\|/-| 2019-11-02T16:13:25Z Closed pull request |-\|/-| 4906 +505 −97 cpp h 4|-\|/-| 
+Wheel odometry python sample |-\|/-| 2019-10-23T09:25:05Z Merged pull request |-\|/-| 4889 +103 −0 json py 2|-\|/-| 
+Fixing typo in readme.md |-\|/-| 2019-09-23T05:45:30Z Merged pull request |-\|/-| 4886 +1 −1 md 0|-\|/-| 
+rsutil: functions to read/write binary files |-\|/-| 2019-09-25T05:23:04Z Closed pull request |-\|/-| 4870 +78 −0 h 1|-\|/-| 
+On-Chip Calibration Adjustments |-\|/-| 2019-09-16T13:48:20Z Merged pull request |-\|/-| 4867 +269 −185 cpp h 3|-\|/-| 
+Added support on  RGB distortion.  |-\|/-| 2019-09-16T12:52:44Z Merged pull request |-\|/-| 4866 +13 −1 h 2|-\|/-| 
+Disable depth invalidation by default. |-\|/-| 2019-09-16T11:20:36Z Merged pull request |-\|/-| 4863 +2 −2 h 1|-\|/-| 
+Fixing typo in align-depth2color.py |-\|/-| 2019-09-12T12:58:50Z Merged pull request |-\|/-| 4851 +7 −8 py 1|-\|/-| 
+Android - ROI sensor added |-\|/-| 2019-09-10T13:45:27Z Merged pull request |-\|/-| 4836 +87 −1 cpp java 4|-\|/-| 
+Wheel odometry unit test fix |-\|/-| 2019-09-16T07:26:46Z Merged pull request |-\|/-| 4830 +8 −2 txt cpp 1|-\|/-| 
+Update Firmware logger - added enums |-\|/-| 2019-09-12T13:00:52Z Merged pull request |-\|/-| 4826 +139 −12 cpp h 7|-\|/-| 
+Firmware update support |-\|/-| 2019-09-25T05:02:39Z Merged pull request |-\|/-| 4825 +443 −47 cpp rules h txt 17|-\|/-| 
+Make save_single_frameset more robust |-\|/-| 2019-09-12T12:51:54Z Merged pull request |-\|/-| 4809 +43 −9 hpp cpp h 3|-\|/-| 
+Minor Python Fixes |-\|/-| 2019-09-16T07:33:02Z Merged pull request |-\|/-| 4808 +20 −8 cpp 5|-\|/-| 
+Version bump to 2.28 |-\|/-| 2019-09-03T14:58:06Z Merged pull request |-\|/-| 4791 +2 −2 h xml 2|-\|/-| 
+Merge from Master to Development |-\|/-| 2019-09-03T13:56:06Z Merged pull request |-\|/-| 4790 +0 −0 0|-\|/-| 
+Updated frame validator |-\|/-| 2019-09-03T13:48:23Z Merged pull request |-\|/-| 4788 +244 −84 cpp h 4|-\|/-| 
+Fix Jupyter notebooks |-\|/-| 2019-09-03T12:19:25Z Merged pull request |-\|/-| 4787 +2 −0 yml 1|-\|/-| 
+Disable default decimation for RGB sensors |-\|/-| 2019-09-03T13:36:12Z Merged pull request |-\|/-| 4786 +8 −2 cpp hpp 2|-\|/-| 
+Fix a potential out-of-order initialization for A-factor |-\|/-| 2019-09-03T13:33:18Z Merged pull request |-\|/-| 4785 +14 −10 h cpp 2|-\|/-| 
+Adjust branches for the kernel patches |-\|/-| 2019-09-03T13:47:47Z Merged pull request |-\|/-| 4774 +15 −9 sh patch 26|-\|/-| 
+frame_queue can automatically keep frames for you |-\|/-| 2019-09-12T07:22:35Z Merged pull request |-\|/-| 4773 +116 −5 hpp m cpp py 5|-\|/-| 
+Fixing basic threading issues within on-chip calibration UI |-\|/-| 2019-09-02T08:31:19Z Merged pull request |-\|/-| 4772 +86 −42 cpp h 6|-\|/-| 
+Fix std::string error on VS2019 |-\|/-| 2019-08-31T11:56:28Z Merged pull request |-\|/-| 4759 +1 −1 cpp h 2|-\|/-| 
+Fix deadlock on pipeline.stop() with playback device in realtime=false mode |-\|/-| 2019-09-02T08:34:38Z Merged pull request |-\|/-| 4758 +1,640 −1,398 hpp h cpp txt m 11|-\|/-| 
+Merge of 2.27 |-\|/-| 2019-08-29T13:12:37Z Merged pull request |-\|/-| 4757 +2,028 −301 cmake cpp txt h rc 6|-\|/-| 
+Android stability |-\|/-| 2019-09-03T13:46:59Z Merged pull request |-\|/-| 4752 +101 −77 cpp h 3|-\|/-| 
+Python binding updates |-\|/-| 2019-09-01T12:48:43Z Merged pull request |-\|/-| 4749 +1,613 −1,391 hpp txt m cpp 7|-\|/-| 
+Adding option to use Pre-Release firmware |-\|/-| 2019-08-28T11:16:22Z Merged pull request |-\|/-| 4746 +186 −73 cpp txt h rc 6|-\|/-| 
+T26x calibration write api bug fix |-\|/-| 2019-08-28T11:16:38Z Merged pull request |-\|/-| 4741 +10 −5 hpp cpp 3|-\|/-| 
+Enhance frame::get_timestamp() documentation |-\|/-| 2019-08-27T14:28:56Z Merged pull request |-\|/-| 4739 +18 −1 hpp 1|-\|/-| 
+Fix legacy branch for kernels prior to v4.16 |-\|/-| 2019-08-27T11:21:25Z Merged pull request |-\|/-| 4738 +4 −0 cpp 1|-\|/-| 
+Merge from Master branch |-\|/-| 2019-08-27T10:23:55Z Merged pull request |-\|/-| 4737 +3 −1 md 0|-\|/-| 
+Follow-up on the On-Chip Calibration |-\|/-| 2019-08-27T10:51:18Z Merged pull request |-\|/-| 4735 +8 −17 cpp txt h 5|-\|/-| 
+Adding Depth-Filter OpenCV example |-\|/-| 2019-08-27T14:30:36Z Merged pull request |-\|/-| 4733 +790 −7 cmake h hpp xml def cpp txt json 11|-\|/-| 
+android java example fix |-\|/-| 2019-08-27T10:02:40Z Merged pull request |-\|/-| 4731 +6 −2 java md 1|-\|/-| 
+Fix Ubuntu 32bit compilation |-\|/-| 2019-08-27T14:29:28Z Merged pull request |-\|/-| 4729 +211 −65 cmake h cpp txt 6|-\|/-| 
+Record and playback L500 data |-\|/-| 2019-08-27T14:29:49Z Merged pull request |-\|/-| 4727 +241 −57 cpp h 11|-\|/-| 
+Fix format-security warnings (again) |-\|/-| 2019-08-27T10:11:08Z Merged pull request |-\|/-| 4721 +13 −13 cmake cpp 4|-\|/-| 
+Automatically set supported profiles in viewer |-\|/-| 2019-11-21T08:43:57Z Merged pull request |-\|/-| 4720 +286 −24 cpp h 2|-\|/-| 
+Upgrade T265 firmware to 0.1.0.279 |-\|/-| 2019-08-27T06:37:55Z Merged pull request |-\|/-| 4717 +30 −30 cpp txt 2|-\|/-| 
+Viewer playback - enable step backwards |-\|/-| 2019-08-27T10:12:11Z Merged pull request |-\|/-| 4706 +16 −30 cpp 1|-\|/-| 
+Android - GLFrame resource release |-\|/-| 2019-08-22T06:52:34Z Merged pull request |-\|/-| 4698 +31 −6 java gradle 8|-\|/-| 
+Merge from Master |-\|/-| 2019-08-21T17:25:38Z Merged pull request |-\|/-| 4697 +4 −0 md h cpp 2|-\|/-| 
+fix flickering in rs-multicam (should save previous frames for render… |-\|/-| 2019-08-21T13:11:32Z Merged pull request |-\|/-| 4692 +3 −3 cpp 1|-\|/-| 
+Update python's readme.md |-\|/-| 2019-08-22T13:47:11Z Merged pull request |-\|/-| 4690 +3 −1 md 0|-\|/-| 
+ Revert a WA to handle extrinsic data externally |-\|/-| 2019-08-21T07:41:18Z Merged pull request |-\|/-| 4688 +3 −0 cpp h 2|-\|/-| 
+tm_sensor - doxygen doc of relocalization functions |-\|/-| 2019-08-27T06:43:57Z Merged pull request |-\|/-| 4685 +40 −0 h 1|-\|/-| 
+Fix stbi build errors on static build |-\|/-| 2019-08-21T07:40:52Z Merged pull request |-\|/-| 4684 +1 −0 cpp 1|-\|/-| 
+Android - fix crash on device release |-\|/-| 2019-08-20T20:26:54Z Merged pull request |-\|/-| 4683 +2 −2 cpp java 2|-\|/-| 
+Promote version to 2.26.0 |-\|/-| 2019-08-20T13:49:34Z Merged pull request |-\|/-| 4679 +3 −3 h xml 2|-\|/-| 
+Android UVC backend - Out of memory error fix |-\|/-| 2019-08-20T13:42:17Z Merged pull request |-\|/-| 4678 +860 −122 cpp java 4|-\|/-| 
+Android Pointcloud |-\|/-| 2019-08-20T12:55:48Z Merged pull request |-\|/-| 4677 +705 −116 cpp java 4|-\|/-| 
+Frame Validator |-\|/-| 2019-08-20T13:20:49Z Merged pull request |-\|/-| 4675 +137 −0 txt cpp h 4|-\|/-| 
+Promote T265 FW to version 0.1.0.242 |-\|/-| 2019-08-20T11:54:47Z Merged pull request |-\|/-| 4673 +2 −2 txt 0|-\|/-| 
+Exposed depth offset |-\|/-| 2019-08-20T11:55:21Z Merged pull request |-\|/-| 4668 +19 −5 h cpp 5|-\|/-| 
+Sync Wrapper Options |-\|/-| 2019-08-20T08:08:19Z Merged pull request |-\|/-| 4666 +129 −2 m js cpp h 5|-\|/-| 
+D400 On-Chip Calibration |-\|/-| 2019-08-20T11:59:52Z Merged pull request |-\|/-| 4658 +2,695 −838 txt 0|-\|/-| 
+Tm2 calibration write api |-\|/-| 2019-08-27T06:36:04Z Merged pull request |-\|/-| 4650 +442 −9 h hpp def cpp 7|-\|/-| 
+python: add _repr_ for motion_device_intrinsics |-\|/-| 2019-08-15T15:14:40Z Merged pull request |-\|/-| 4645 +33 −4 cpp 1|-\|/-| 
+Fix links to Python T265 examples |-\|/-| 2019-08-14T15:37:19Z Merged pull request |-\|/-| 4638 +3 −3 md 0|-\|/-| 
+Fix range for stream_index in filters. |-\|/-| 2019-08-13T15:09:15Z Merged pull request |-\|/-| 4631 +1 −1 cpp 1|-\|/-| 
+Enable MJPEG |-\|/-| 2019-08-20T10:04:28Z Merged pull request |-\|/-| 4622 +184 −79 h hpp cpp 8|-\|/-| 
+Community Project: update realsense on cyber |-\|/-| 2019-08-12T11:52:40Z Merged pull request |-\|/-| 4620 +1 −0 md 0|-\|/-| 
+Update Win7 INF driver |-\|/-| 2019-08-12T14:33:57Z Merged pull request |-\|/-| 4618 +68 −9 inf 1|-\|/-| 
+correct method syntax |-\|/-| 2019-08-13T15:10:14Z Merged pull request |-\|/-| 4616 +1 −1 m 1|-\|/-| 
+Cross platform HID device (IMU) |-\|/-| 2019-08-19T08:48:16Z Merged pull request |-\|/-| 4605 +1,145 −420 txt cpp h 7|-\|/-| 
+increase frame queue size for tm2 |-\|/-| 2019-08-12T11:55:38Z Merged pull request |-\|/-| 4602 +3 −0 h cpp 2|-\|/-| 
+Added support for XVGA resolution and fixed enumaration of usb device of l500 |-\|/-| 2019-08-08T06:17:28Z Merged pull request |-\|/-| 4599 +20 −6 cpp 2|-\|/-| 
+rs-multicam bug fix |-\|/-| 2019-08-12T11:53:39Z Merged pull request |-\|/-| 4596 +23 −15 md cpp 1|-\|/-| 
+Fix IMU handling for D400 series |-\|/-| 2019-08-13T15:12:12Z Merged pull request |-\|/-| 4587 +171 −78 h cpp 7|-\|/-| 
+Android SR300 firmware update |-\|/-| 2019-08-12T11:55:03Z Merged pull request |-\|/-| 4583 +6 −6 cpp java 4|-\|/-| 
+lrs_options.cmake edit |-\|/-| 2019-08-13T15:13:28Z Merged pull request |-\|/-| 4582 +1 −5 cmake txt 1|-\|/-| 
+Merge master to dev |-\|/-| 2019-08-05T06:40:33Z Merged pull request |-\|/-| 4566 +378 −0 bash py png md JPG 6|-\|/-| 
+DQT: fix plane and metric annotations when stream is paused |-\|/-| 2019-08-04T14:22:05Z Merged pull request |-\|/-| 4562 +27 −3 cpp 2|-\|/-| 
+fix offline build errors |-\|/-| 2019-08-04T14:22:21Z Merged pull request |-\|/-| 4561 +40 −27 cmake txt cpp h 4|-\|/-| 
+Viewer - fix unresponsive UI on errors |-\|/-| 2019-08-05T06:39:59Z Merged pull request |-\|/-| 4560 +51 −25 cpp h 2|-\|/-| 
+Merge of 2.25 to master |-\|/-| 2019-08-01T16:53:38Z Merged pull request |-\|/-| 4548 +2,253 −591 txt h cpp md 3|-\|/-| 
+Add syncer support for sensor start method |-\|/-| 2019-08-04T14:21:39Z Merged pull request |-\|/-| 4546 +3 −0 cpp 1|-\|/-| 
+rs-enumerate-devices robustness enhancement |-\|/-| 2019-08-04T13:22:29Z Merged pull request |-\|/-| 4545 +11 −5 cpp 1|-\|/-| 
+Enalbe RGB undistort for certain modes |-\|/-| 2019-08-01T12:59:53Z Merged pull request |-\|/-| 4544 +33 −23 h cpp 5|-\|/-| 
+Updates to l500 |-\|/-| 2019-08-01T13:36:19Z Merged pull request |-\|/-| 4541 +32 −11 cpp h 4|-\|/-| 
+Conform to ROS name convention |-\|/-| 2019-08-04T13:21:40Z Merged pull request |-\|/-| 4537 +19 −6 h cpp 2|-\|/-| 
+Remove "Depth Visualization" tab under unrelated sensors in viewer |-\|/-| 2019-08-04T13:19:27Z Merged pull request |-\|/-| 4535 +16 −15 cpp 1|-\|/-| 
+Add missing include to uvc_types |-\|/-| 2019-08-01T11:53:50Z Merged pull request |-\|/-| 4533 +2 −0 h 1|-\|/-| 
+Use full GPG Key IDs for installing in linux, since short ones may be… |-\|/-| 2019-08-14T06:45:12Z Merged pull request |-\|/-| 4531 +1 −1 md 0|-\|/-| 
+Updates to zo and defaults stream of l500 |-\|/-| 2019-07-29T12:09:33Z Merged pull request |-\|/-| 4520 +81 −175 cpp h 5|-\|/-| 
+Add t265 options to Python wrapper |-\|/-| 2019-08-01T11:50:13Z Merged pull request |-\|/-| 4511 +3 −0 cpp 1|-\|/-| 
+Pose as extrinsics reference |-\|/-| 2019-08-14T06:44:51Z Merged pull request |-\|/-| 4507 +23 −3 h cpp 4|-\|/-| 
+Added Ethernet client server example code. |-\|/-| 2019-08-04T13:17:47Z Merged pull request |-\|/-| 4492 +378 −0 bash py png md JPG 6|-\|/-| 
+Adding support for new calibration query command |-\|/-| 2019-07-23T10:08:19Z Merged pull request |-\|/-| 4478 +68 −4 cpp h 4|-\|/-| 
+SR300 RGB auto exposure ROI |-\|/-| 2019-07-22T06:22:00Z Merged pull request |-\|/-| 4472 +14 −1 h cpp 4|-\|/-| 
+T265: Add frame time metadata |-\|/-| 2019-07-22T14:04:50Z Merged pull request |-\|/-| 4448 +20 −1 cpp 1|-\|/-| 
+T265 documentation update |-\|/-| 2019-07-17T08:37:54Z Merged pull request |-\|/-| 4438 +64 −50 md 0|-\|/-| 
+Unsigned firmware update |-\|/-| 2019-08-04T13:16:54Z Merged pull request |-\|/-| 4433 +801 −104 cpp h hpp 7|-\|/-| 
+Android backend - Out of memory error fix |-\|/-| 2019-08-20T13:50:05Z Closed pull request |-\|/-| 4428 +224 −222 cpp h txt 5|-\|/-| 
+Tm2 timestamp domain |-\|/-| 2019-07-11T09:25:07Z Merged pull request |-\|/-| 4403 +3 −3 cpp 1|-\|/-| 
+Update realsense_device_manager.py |-\|/-| 2019-07-11T11:18:26Z Merged pull request |-\|/-| 4402 +45 −47 py 2|-\|/-| 
+Edit comments at realsense_device_manager.py |-\|/-| 2019-07-11T04:43:20Z Closed pull request |-\|/-| 4401 +25 −25 py 1|-\|/-| 
+Smooth GlobalTimeStamp's corrections. |-\|/-| 2019-11-21T08:42:40Z Merged pull request |-\|/-| 4396 +52 −26 cpp h 2|-\|/-| 
+D465 IMU support |-\|/-| 2019-07-11T08:01:23Z Merged pull request |-\|/-| 4389 +23 −14 cpp h 2|-\|/-| 
+Change SR300 recommended firmware to 3.26.1.0 |-\|/-| 2019-07-09T10:02:19Z Merged pull request |-\|/-| 4380 +2 −2 txt h 1|-\|/-| 
+OpenCV Kinfu example dependency fix |-\|/-| 2019-07-11T20:59:57Z Merged pull request |-\|/-| 4377 +5 −0 txt 0|-\|/-| 
+update stb_image_write.h |-\|/-| 2019-07-17T13:53:00Z Merged pull request |-\|/-| 4367 +679 −106 0|-\|/-| 
+logger - remove MaxLogFileSize |-\|/-| 2019-07-05T05:41:52Z Merged pull request |-\|/-| 4365 +0 −1 h 1|-\|/-| 
+Udev-rules validation fix |-\|/-| 2019-07-09T10:37:48Z Merged pull request |-\|/-| 4360 +1 −0 cpp 1|-\|/-| 
+Silence OpenGL deprecation warnings on macos 10.14 |-\|/-| 2019-07-10T06:18:35Z Merged pull request |-\|/-| 4358 +1 −0 hpp 1|-\|/-| 
+. |-\|/-| 2019-07-01T18:46:08Z Closed pull request |-\|/-| 4345 +0 −0 0|-\|/-| 
+example: T265 apriltag detection on host  |-\|/-| 2019-07-11T14:19:25Z Merged pull request |-\|/-| 4340 +447 −0 txt md 0|-\|/-| 
+Add l500 controls |-\|/-| 2019-07-29T07:04:03Z Merged pull request |-\|/-| 4330 +8 −0 cpp 1|-\|/-| 
+Easy-logging bug fix |-\|/-| 2019-07-18T08:25:38Z Merged pull request |-\|/-| 4329 +6 −0 h cpp 2|-\|/-| 
+tracking + depth sample |-\|/-| 2019-07-11T19:11:51Z Merged pull request |-\|/-| 4327 +437 −0 txt hpp cfg stl md 3|-\|/-| 
+T265 Mapping/Relocalization/Jumping Options |-\|/-| 2019-07-11T20:56:52Z Merged pull request |-\|/-| 4321 +164 −101 md h cpp txt 2|-\|/-| 
+Android HF |-\|/-| 2019-06-27T14:36:19Z Merged pull request |-\|/-| 4317 +14 −21 java 3|-\|/-| 
+Firmware Update robustness enhancement |-\|/-| 2019-06-30T06:53:27Z Merged pull request |-\|/-| 4314 +1 −0 cpp 1|-\|/-| 
+Fix python readme |-\|/-| 2019-07-05T05:38:41Z Merged pull request |-\|/-| 4313 +2 −2 md 0|-\|/-| 
+DFU lock detection |-\|/-| 2019-07-05T05:37:15Z Merged pull request |-\|/-| 4312 +102 −33 cpp h java xml 11|-\|/-| 
+Fix Windows 7 firmware update |-\|/-| 2019-06-27T08:51:59Z Merged pull request |-\|/-| 4310 +5 −24 cpp 2|-\|/-| 
+Display FW Update option for D400 and SR300 only |-\|/-| 2019-06-27T08:25:02Z Merged pull request |-\|/-| 4309 +24 −21 cpp h 2|-\|/-| 
+Android camera app - firmware update |-\|/-| 2019-06-27T06:35:07Z Merged pull request |-\|/-| 4304 +621 −183 cmake cpp xml java gradle 17|-\|/-| 
+Realsense-viewer fix for firmware update |-\|/-| 2019-06-26T18:52:44Z Merged pull request |-\|/-| 4303 +3 −1 cpp 1|-\|/-| 
+Add ability to open multiple devices from different processes (libtm and t265)  |-\|/-| 2019-06-26T17:04:32Z Closed pull request |-\|/-| 4301 +15,576 −5,573 gitignore AUTHORS cmake txt NOTICE 7|-\|/-| 
+FW Update polishing |-\|/-| 2019-06-26T16:04:21Z Merged pull request |-\|/-| 4299 +43 −39 cpp 4|-\|/-| 
+Rebase hotfix |-\|/-| 2019-06-26T13:15:51Z Merged pull request |-\|/-| 4298 +0 −4 cpp 1|-\|/-| 
+Pybackend compilation hotfix |-\|/-| 2019-06-25T12:07:16Z Merged pull request |-\|/-| 4287 +1 −1 cpp 1|-\|/-| 
+Firmware Update integration with the Viewer |-\|/-| 2019-06-26T09:45:16Z Merged pull request |-\|/-| 4280 +11,722 −4,932 gitignore AUTHORS cmake txt NOTICE 4|-\|/-| 
+Added support on specific SN argument on fw-logger. |-\|/-| 2019-07-28T13:59:11Z Closed pull request |-\|/-| 4276 +81 −175 cpp h 5|-\|/-| 
+fixed inconsistent return type |-\|/-| 2019-12-01T14:01:49Z Merged pull request |-\|/-| 4275 +1 −1 cpp 1|-\|/-| 
+Added Intrinsic camera information to JNI interface |-\|/-| 2019-06-26T06:29:29Z Merged pull request |-\|/-| 4273 +45 −15 cpp xml java 4|-\|/-| 
+Add software device python |-\|/-| 2019-12-30T11:28:58Z Closed draft pull request |-\|/-| 4269 +558 −39 h hpp 5|-\|/-| 
+Realsense-viewer: Fix variables name |-\|/-| 2019-06-27T06:16:13Z Merged pull request |-\|/-| 4268 +3 −3 cpp 1|-\|/-| 
+Firmware update API and command line tool |-\|/-| 2019-06-25T08:09:03Z Merged pull request |-\|/-| 4267 +2,080 −143 cmake txt c h in rc rules 14|-\|/-| 
+Kernel 4.18 support |-\|/-| 2019-06-26T08:02:19Z Merged pull request |-\|/-| 4265 +1,020 −17 rules sh patch 4|-\|/-| 
+Handle EBUSY as xu_query return type. Kernel 4.19+ |-\|/-| 2019-06-26T08:08:26Z Merged pull request |-\|/-| 4264 +19 −19 h cpp 7|-\|/-| 
+Fixed bug on rs-terminal |-\|/-| 2019-06-20T14:03:16Z Merged pull request |-\|/-| 4251 +19 −10 cpp 1|-\|/-| 
+Win7 backend enhancements |-\|/-| 2019-08-19T08:44:35Z Merged pull request |-\|/-| 4248 +286 −134 h cpp 11|-\|/-| 
+Handle disconnect events |-\|/-| 2019-06-24T08:25:07Z Merged pull request |-\|/-| 4246 +94 −83 h cpp 5|-\|/-| 
+doc: T265 extrinsics and origin explained |-\|/-| 2019-06-19T12:40:51Z Merged pull request |-\|/-| 4240 +7 −2 png md 2|-\|/-| 
+Android - dynamic USB read buffer size |-\|/-| 2019-06-25T06:44:25Z Merged pull request |-\|/-| 4237 +49 −105 cpp java 3|-\|/-| 
+F416 camera and LED controls |-\|/-| 2019-11-05T08:10:33Z Closed pull request |-\|/-| 4230 +96 −7 rules h ps1 cpp 8|-\|/-| 
+Android l500 detection fix |-\|/-| 2019-06-16T10:14:41Z Merged pull request |-\|/-| 4219 +46 −8 cpp java xml 6|-\|/-| 
+Updates to Matlab and Python wrappers |-\|/-| 2019-06-18T15:33:59Z Merged pull request |-\|/-| 4208 +92 −22 hpp m cpp 9|-\|/-| 
+Update nodejs wrapper |-\|/-| 2019-06-18T15:35:36Z Merged pull request |-\|/-| 4203 +25 −12 md gyp 1|-\|/-| 
+Added intrinsics support for self calibration mode with resolution of… |-\|/-| 2019-12-05T14:09:42Z Closed pull request |-\|/-| 4182 +17 −5 cpp 1|-\|/-| 
+Add a-factor APIs to the SDK wrappers |-\|/-| 2019-06-06T14:36:57Z Merged pull request |-\|/-| 4162 +13 −5 h xml cs cpp 5|-\|/-| 
+Merge updates from the Master branch |-\|/-| 2019-06-06T13:20:53Z Merged pull request |-\|/-| 4161 +2 −0 py 2|-\|/-| 
+Updated RGB Extrinsic recovery procedure |-\|/-| 2019-06-06T14:35:19Z Merged pull request |-\|/-| 4160 +158 −106 h cpp 4|-\|/-| 
+Linux metadata retrofit for the supported SKUs |-\|/-| 2019-06-06T12:08:57Z Merged pull request |-\|/-| 4159 +621 −110 sh patch 4|-\|/-| 
+T265: Fix error prints for get/set static nodes |-\|/-| 2019-06-05T20:22:24Z Merged pull request |-\|/-| 4152 +17 −1 cpp 1|-\|/-| 
+Change name of laser power to preset, enable sync mode in case of zero order, update l515 create matcher. |-\|/-| 2019-06-06T12:22:48Z Merged pull request |-\|/-| 4149 +58 −19 cpp h cs 13|-\|/-| 
+IMU metadata attributes |-\|/-| 2019-06-03T14:05:45Z Merged pull request |-\|/-| 4135 +216 −24 h cpp 8|-\|/-| 
+Link to build flags in build instructions |-\|/-| 2019-06-03T10:39:57Z Merged pull request |-\|/-| 4133 +4 −1 md 0|-\|/-| 
+Kernel building needs bc |-\|/-| 2019-06-11T15:33:24Z Merged pull request |-\|/-| 4126 +1 −1 sh 1|-\|/-| 
+Merge pull request #1 from IntelRealSense/master |-\|/-| 2019-05-31T09:03:26Z Closed pull request |-\|/-| 4123 +0 −0 0|-\|/-| 
+Quiet Static Node |-\|/-| 2019-06-03T10:39:12Z Merged pull request |-\|/-| 4122 +5 −5 cpp 1|-\|/-| 
+Add frame timestamp attribute and USB descriptor for L500 |-\|/-| 2019-06-03T10:45:12Z Merged pull request |-\|/-| 4119 +12 −0 cpp 2|-\|/-| 
+android examples - release config |-\|/-| 2019-06-03T10:40:50Z Merged pull request |-\|/-| 4117 +85 −74 cpp java gradle md 6|-\|/-| 
+Quiet Static Node |-\|/-| 2019-05-30T05:39:55Z Merged pull request |-\|/-| 4109 +6 −5 cpp 1|-\|/-| 
+Add disparity support to colorizer |-\|/-| 2019-06-17T13:43:12Z Merged pull request |-\|/-| 4101 +319 −179 cpp h hpp 5|-\|/-| 
+Advanced mode - add disparity modulation function control |-\|/-| 2019-06-03T14:06:33Z Merged pull request |-\|/-| 4100 +132 −7 h hpp cpp def txt 12|-\|/-| 
+CMake Fixes |-\|/-| 2019-05-30T05:38:40Z Merged pull request |-\|/-| 4094 +6 −13 txt 0|-\|/-| 
+Restore OpenMP Support (Fixes #4023) |-\|/-| 2019-05-29T11:01:08Z Merged pull request |-\|/-| 4093 +6 −5 cmake 2|-\|/-| 
+Warning Fixes |-\|/-| 2019-06-11T15:32:55Z Merged pull request |-\|/-| 4092 +6 −6 h cpp 5|-\|/-| 
+Updates to D435i calibration loss W/A flow  |-\|/-| 2019-06-04T08:42:36Z Closed pull request |-\|/-| 4083 +23 −17 cpp h 7|-\|/-| 
+Add support in F416 and D465 cameras |-\|/-| 2019-05-28T09:54:12Z Merged pull request |-\|/-| 4078 +75 −20 h cpp 9|-\|/-| 
+Add support in D416 and D465 cameras |-\|/-| 2019-05-27T15:05:12Z Closed pull request |-\|/-| 4077 +26 −15 cpp h 8|-\|/-| 
+Add support in D416 and D465 cameras |-\|/-| 2019-05-27T15:04:58Z Closed pull request |-\|/-| 4076 +26 −15 cpp h 8|-\|/-| 
+globalTimeStamp - going to idle |-\|/-| 2019-06-05T15:35:52Z Merged pull request |-\|/-| 4073 +126 −43 h cpp 10|-\|/-| 
+Restore OpenMP Support |-\|/-| 2019-05-28T18:37:46Z Closed pull request |-\|/-| 4049 +6 −5 cmake 2|-\|/-| 
+CMake and Warnings Fixes |-\|/-| 2019-05-28T18:33:56Z Closed pull request |-\|/-| 4037 +16 −22 txt h cpp 7|-\|/-| 
+Android error handling fix |-\|/-| 2019-05-28T08:25:10Z Merged pull request |-\|/-| 4032 +180 −98 cpp java gradle 10|-\|/-| 
+Added some more checks to D435i extrinsics W/A |-\|/-| 2019-05-26T15:44:32Z Merged pull request |-\|/-| 4029 +24 −2 cpp 1|-\|/-| 
+Use a more accurate quat2rot that doesn't leave the norm off by 6% |-\|/-| 2019-05-30T05:40:28Z Merged pull request |-\|/-| 4013 +32 −4 h 1|-\|/-| 
+First pass at adding support for Python3.7 |-\|/-| 2019-06-03T10:56:25Z Merged pull request |-\|/-| 4012 +9 −4 md py 2|-\|/-| 
+ros_reader: fix error converting camera distortion |-\|/-| 2019-06-18T15:58:43Z Merged pull request |-\|/-| 4010 +14 −1 cpp 1|-\|/-| 
+Update t265_rpy.py |-\|/-| 2019-05-30T05:41:44Z Merged pull request |-\|/-| 4000 +1 −1 py 1|-\|/-| 
+Add python docs to gh-pages |-\|/-| 2019-05-19T20:28:38Z Merged pull request |-\|/-| 3998 +38,329 −0 nojekyll buildinfo html 4|-\|/-| 
+Adding Community example + merge from master |-\|/-| 2019-05-21T12:09:45Z Merged pull request |-\|/-| 3996 +10 −5 md 0|-\|/-| 
+Add comprehensive documentation to Python via sphinx |-\|/-| 2019-05-19T20:27:28Z Merged pull request |-\|/-| 3993 +723 −547 h hpp 6|-\|/-| 
+T265 manual exposure |-\|/-| 2019-06-03T10:57:21Z Merged pull request |-\|/-| 3992 +181 −4 cpp h md 2|-\|/-| 
+Cancel the check of the algo version before reading the zero order point. |-\|/-| 2019-05-15T18:07:06Z Merged pull request |-\|/-| 3984 +8 −12 cpp 2|-\|/-| 
+Add units transform processing block |-\|/-| 2019-05-16T13:56:32Z Merged pull request |-\|/-| 3982 +275 −1 h hpp txt cpp def cs 13|-\|/-| 
+Fix for D435i loosing RGB-depth extrinsic calibration after firmware update |-\|/-| 2019-05-16T13:57:05Z Merged pull request |-\|/-| 3976 +117 −1 h cpp 3|-\|/-| 
+Software device pipeline |-\|/-| 2019-05-15T18:22:08Z Merged pull request |-\|/-| 3972 +11 −3 cs js 3|-\|/-| 
+Avoid problems with UNC paths and rc.exe |-\|/-| 2019-05-15T18:25:13Z Merged pull request |-\|/-| 3971 +13 −15 txt rc in 2|-\|/-| 
+UE4 Wrapper Update |-\|/-| 2019-05-15T18:26:32Z Merged pull request |-\|/-| 3956 +1,816 −354 hpp cpp h cs 13|-\|/-| 
+Added Hue style colorization and disparity domain colorization mode |-\|/-| 2019-06-17T13:43:18Z Merged pull request |-\|/-| 3955 +179 −7 hpp cpp h cs 4|-\|/-| 
+Example: Stereo from T265 images using OpenCV |-\|/-| 2019-05-16T13:57:31Z Merged pull request |-\|/-| 3951 +272 −0 md py 1|-\|/-| 
+Get Sensor from frame |-\|/-| 2019-05-16T13:28:57Z Merged pull request |-\|/-| 3933 +111 −25 h hpp cpp def cs 17|-\|/-| 
+Realsense2-gl cmake amendments |-\|/-| 2019-05-19T14:45:11Z Merged pull request |-\|/-| 3930 +149 −48 cmake in txt 8|-\|/-| 
+Make legacy librealsense compatible with recent kernel |-\|/-| 2019-06-23T15:31:07Z Merged pull request |-\|/-| 3929 +11 −1 cpp 1|-\|/-| 
+Fix pybackend build |-\|/-| 2019-05-06T09:44:24Z Merged pull request |-\|/-| 3912 +10 −1 h cpp 2|-\|/-| 
+Version promotion to v2.22.0 |-\|/-| 2019-05-05T15:34:41Z Merged pull request |-\|/-| 3910 +13 −3 h xml md 2|-\|/-| 
+Global Camera Time |-\|/-| 2019-05-16T06:14:38Z Merged pull request |-\|/-| 3909 +483 −23 cpp md h txt 10|-\|/-| 
+Promote T265 Firmware to 0.0.18.5715 |-\|/-| 2019-05-05T15:25:57Z Merged pull request |-\|/-| 3907 +2 −2 txt 0|-\|/-| 
+Fix D435i IMU Extrinsics |-\|/-| 2019-05-19T20:36:34Z Merged pull request |-\|/-| 3902 +21 −54 cpp h 7|-\|/-| 
+Fix D435i IMU Extrinsics |-\|/-| 2019-05-04T05:16:04Z Closed pull request |-\|/-| 3901 +8 −48 cpp h 3|-\|/-| 
+Correct the order of multiplication in the extrinsic graph |-\|/-| 2019-05-15T18:31:47Z Merged pull request |-\|/-| 3900 +1 −1 cpp 1|-\|/-| 
+Update for get_intrinsics and pick_l500_devices of L500 |-\|/-| 2019-05-05T15:24:57Z Merged pull request |-\|/-| 3889 +25 −15 h cpp 3|-\|/-| 
+Fix T265 Pose attributes in record/playback scenarios |-\|/-| 2019-05-05T15:13:33Z Merged pull request |-\|/-| 3884 +257 −223 hpp cpp h 9|-\|/-| 
+Extend cv-helpers.hpp to handle RS2_FORMAT_DISPARITY32 |-\|/-| 2019-05-02T12:19:39Z Merged pull request |-\|/-| 3883 +4 −0 hpp 1|-\|/-| 
+RealSense Viewer notifies relocalizations |-\|/-| 2019-05-02T12:17:49Z Merged pull request |-\|/-| 3882 +2 −4 cpp 2|-\|/-| 
+added simple recorder |-\|/-| 2019-06-02T04:24:46Z Merged pull request |-\|/-| 3875 +179 −0 txt md cpp 1|-\|/-| 
+Android - add missing filters to Java API |-\|/-| 2019-04-30T06:46:24Z Merged pull request |-\|/-| 3869 +773 −11 cpp gitignore gradle pro xml 6|-\|/-| 
+Add finally to example code for pyrealsense |-\|/-| 2019-05-15T18:29:24Z Merged pull request |-\|/-| 3860 +7 −4 md 0|-\|/-| 
+rs usb api and implementations added |-\|/-| 2019-05-16T07:21:00Z Merged pull request |-\|/-| 3828 +3,185 −2,875 cmake txt cpp h 9|-\|/-| 
+C# wrapper(try 2): add PoseSensor to expose localization map and static node api |-\|/-| 2019-05-05T13:06:00Z Merged pull request |-\|/-| 3826 +82 −10 cs txt 5|-\|/-| 
+C# wrapper: add PoseSensor to expose localization map and static node api |-\|/-| 2019-04-23T14:57:17Z Closed pull request |-\|/-| 3824 +82 −10 cs txt 5|-\|/-| 
+Adding a depth viewer community example |-\|/-| 2019-04-28T11:23:36Z Merged pull request |-\|/-| 3820 +1 −0 md 0|-\|/-| 
+data-collect: add T265 stream configuration example |-\|/-| 2019-05-05T07:19:45Z Merged pull request |-\|/-| 3819 +11 −1 md 0|-\|/-| 
+Merge from Master to Dev |-\|/-| 2019-04-22T05:33:51Z Merged pull request |-\|/-| 3813 +3 −3 md 0|-\|/-| 
+Fixed typo line 82 "cd protbuf" |-\|/-| 2019-04-22T05:22:00Z Merged pull request |-\|/-| 3810 +1 −1 md 0|-\|/-| 
+L500 Intrinsic Extrinsic parameters |-\|/-| 2019-04-22T03:50:17Z Merged pull request |-\|/-| 3808 +455 −200 txt cpp h 3|-\|/-| 
+Measure example fix |-\|/-| 2019-04-21T14:25:32Z Merged pull request |-\|/-| 3807 +4 −4 cpp 1|-\|/-| 
+#3803 Removed the requirement of additional hid devices |-\|/-| 2019-04-29T10:39:25Z Merged pull request |-\|/-| 3804 +2 −0 cpp 1|-\|/-| 
+Increase examples waiting time for first frame to 15 seconds |-\|/-| 2019-04-21T14:29:08Z Merged pull request |-\|/-| 3795 +72 −33 h c cpp hpp 13|-\|/-| 
+Added support for rgb metadata |-\|/-| 2019-04-21T12:07:30Z Merged pull request |-\|/-| 3791 +124 −26 cpp h 8|-\|/-| 
+libuvc: fix undefined behavior caused by capture-by-reference of local variable |-\|/-| 2019-04-28T11:25:55Z Merged pull request |-\|/-| 3783 +1 −1 cpp 1|-\|/-| 
+Promote T265 Firrmware version selector to 5502 |-\|/-| 2019-04-17T12:48:19Z Merged pull request |-\|/-| 3778 +2 −2 txt 0|-\|/-| 
+Matlab build adjustment for libtm restructure |-\|/-| 2019-04-17T09:52:19Z Merged pull request |-\|/-| 3777 +6 −6 vcxproj 1|-\|/-| 
+Update t265.md: added odometry calibration information |-\|/-| 2019-04-17T13:07:34Z Merged pull request |-\|/-| 3775 +47 −1 md 0|-\|/-| 
+Fix IMU timestamps precision |-\|/-| 2019-04-16T15:26:28Z Merged pull request |-\|/-| 3773 +1 −1 cpp 1|-\|/-| 
+android - add presets support, enable camera stream configuration |-\|/-| 2019-04-18T08:04:40Z Merged pull request |-\|/-| 3771 +2,486 −513 txt cpp c 6|-\|/-| 
+ Added support for IMU in l500 |-\|/-| 2019-04-18T07:02:40Z Merged pull request |-\|/-| 3763 +308 −121 cpp h txt 6|-\|/-| 
+Fix Alignment processing block |-\|/-| 2019-04-17T08:05:37Z Merged pull request |-\|/-| 3760 +401 −250 h cpp 3|-\|/-| 
+matlab wrapper, "elseif" syntax correction |-\|/-| 2019-04-18T12:31:35Z Merged pull request |-\|/-| 3755 +4 −4 m 2|-\|/-| 
+legacy: Compatibility fixes for recent Linux |-\|/-| 2019-05-07T16:14:51Z Closed pull request |-\|/-| 3749 +8 −8 txt h cpp 3|-\|/-| 
+Development |-\|/-| 2019-04-15T12:25:09Z Closed pull request |-\|/-| 3748 +362 −355 h md hpp ps1 cpp c 8|-\|/-| 
+[python] add pipeline.start(cfg, cb), handle gil properly everywhere |-\|/-| 2019-04-21T09:15:49Z Merged pull request |-\|/-| 3739 +10 −9 cpp 1|-\|/-| 
+T265: Disable low power mode by default |-\|/-| 2019-04-17T06:15:37Z Merged pull request |-\|/-| 3736 +3 −3 cpp 1|-\|/-| 
+Linux instructions update.  |-\|/-| 2019-04-11T09:40:22Z Merged pull request |-\|/-| 3729 +18 −11 md 0|-\|/-| 
+android - enable l500 |-\|/-| 2019-04-14T13:34:30Z Merged pull request |-\|/-| 3727 +59 −63 cpp c h java 11|-\|/-| 
+Fix for HID timestamp trimming |-\|/-| 2019-04-11T13:56:04Z Merged pull request |-\|/-| 3726 +14 −17 cpp h 4|-\|/-| 
+Typo fix |-\|/-| 2019-04-09T18:30:31Z Merged pull request |-\|/-| 3719 +9 −5 md hpp cpp py 4|-\|/-| 
+W10 support |-\|/-| 2019-04-15T12:14:22Z Merged pull request |-\|/-| 3715 +259 −182 h hpp cpp 9|-\|/-| 
+WinOS Metadata Script: fix D435i PID for headless+module |-\|/-| 2019-04-11T09:38:00Z Merged pull request |-\|/-| 3702 +5 −3 ps1 1|-\|/-| 
+libtm: interface updated to latest firmware |-\|/-| 2019-04-07T05:53:35Z Merged pull request |-\|/-| 3690 +6 −78 h cpp 6|-\|/-| 
+[Unity] Support linear color space |-\|/-| 2019-04-29T04:31:37Z Merged pull request |-\|/-| 3687 +3 −1 cs 1|-\|/-| 
+Merge of 2.20.0 to master |-\|/-| 2019-04-04T19:27:18Z Merged pull request |-\|/-| 3683 +8,176 −3,368 cpp h md txt jpg gif 4|-\|/-| 
+Bump version to 2.20.0. |-\|/-| 2019-04-04T12:32:18Z Merged pull request |-\|/-| 3677 +5 −4 h xml 2|-\|/-| 
+Debian packages update routine  - updated |-\|/-| 2019-04-04T11:13:14Z Merged pull request |-\|/-| 3673 +10 −4 md 0|-\|/-| 
+Promote T265 FW Tag; Minor SDK fixes |-\|/-| 2019-04-04T11:14:14Z Merged pull request |-\|/-| 3669 +32 −33 txt cpp cmake 4|-\|/-| 
+Release GIL in pipeline::wait_for_frames() |-\|/-| 2019-04-04T11:15:31Z Merged pull request |-\|/-| 3666 +1 −1 cpp 1|-\|/-| 
+Added support on error handling for L500 depth device |-\|/-| 2019-04-02T21:01:09Z Merged pull request |-\|/-| 3660 +88 −25 ps1 cpp h 5|-\|/-| 
+GLSL Processing Blocks |-\|/-| 2019-05-05T15:20:58Z Merged pull request |-\|/-| 3654 +11,848 −3,687 gitignore cmake 10|-\|/-| 
+Include TM2 firmware directly |-\|/-| 2019-04-16T15:25:59Z Merged pull request |-\|/-| 3647 +333 −1,399 cmake 10|-\|/-| 
+Wheel odometry unit test fix up |-\|/-| 2019-04-02T15:51:18Z Merged pull request |-\|/-| 3646 +3 −5 cpp 1|-\|/-| 
+Simplify udev-rules application |-\|/-| 2019-04-03T15:22:55Z Merged pull request |-\|/-| 3643 +22 −3 md sh 1|-\|/-| 
+Exit function after CUDA conversion |-\|/-| 2019-04-03T16:40:06Z Merged pull request |-\|/-| 3641 +1 −0 cpp 1|-\|/-| 
+rs usb interface api and implementations added |-\|/-| 2019-05-16T12:08:49Z Closed pull request |-\|/-| 3639 +2,688 −2,777 txt cpp h 5|-\|/-| 
+[python] Pipeline callbacks |-\|/-| 2019-04-04T11:14:46Z Merged pull request |-\|/-| 3634 +3 −3 cpp 1|-\|/-| 
+CMake improvements for Windows build |-\|/-| 2019-04-29T11:25:28Z Merged pull request |-\|/-| 3611 +17 −6 gitignore cmake 2|-\|/-| 
+Updated apt-get dependencies : xorg-dev libgtk-3-dev libusb-1.0-0-dev |-\|/-| 2019-04-01T18:16:22Z Merged pull request |-\|/-| 3610 +1 −1 md 0|-\|/-| 
+Merge of 2.19.2 |-\|/-| 2019-03-28T08:35:08Z Merged pull request |-\|/-| 3609 +3,224 −1,610 cmake txt cpp md 2|-\|/-| 
+Updated L500 |-\|/-| 2019-03-29T14:39:05Z Merged pull request |-\|/-| 3603 +829 −504 h patch cpp txt 11|-\|/-| 
+C# Development |-\|/-| 2019-04-02T15:34:55Z Merged pull request |-\|/-| 3602 +5,934 −2,516 md txt cs 3|-\|/-| 
+update Unity readme.md |-\|/-| 2019-03-27T15:00:23Z Merged pull request |-\|/-| 3600 +5 −13 md 0|-\|/-| 
+Bump version to 2.19.2 |-\|/-| 2019-03-27T13:01:45Z Merged pull request |-\|/-| 3598 +2 −2 h xml 2|-\|/-| 
+Basic AR example with T265 |-\|/-| 2019-04-03T10:23:16Z Merged pull request |-\|/-| 3593 +647 −1 txt jpg gif md 2|-\|/-| 
+Realsense viewer multicamera T265 support |-\|/-| 2019-04-03T08:31:11Z Merged pull request |-\|/-| 3591 +259 −292 0|-\|/-| 
+android - fix fw version check on camera app |-\|/-| 2019-03-27T09:48:23Z Merged pull request |-\|/-| 3588 +2 −0 java 1|-\|/-| 
+Development |-\|/-| 2019-03-27T13:02:35Z Closed pull request |-\|/-| 3585 +3,219 −1,597 cmake txt cpp md 2|-\|/-| 
+[python] reorder enable_stream overload registration to fix overload registration |-\|/-| 2019-03-25T09:21:17Z Merged pull request |-\|/-| 3578 +1 −1 cpp 1|-\|/-| 
+More edits to matlab code in wrapper |-\|/-| 2019-03-25T09:20:26Z Merged pull request |-\|/-| 3577 +6 −6 m 3|-\|/-| 
+Revert "Adding better error messages when cannot resolve pipeline req… |-\|/-| 2019-03-23T09:59:33Z Merged pull request |-\|/-| 3573 +24 −106 h cpp 3|-\|/-| 
+[sample] roll-pitch-yaw from T265 |-\|/-| 2019-04-03T08:30:47Z Merged pull request |-\|/-| 3571 +51 −0 py 1|-\|/-| 
+Fixed rs-convert crash |-\|/-| 2019-04-03T08:31:29Z Merged pull request |-\|/-| 3564 +8 −4 cpp 1|-\|/-| 
+T265 profile extrinsics |-\|/-| 2019-04-03T10:14:45Z Merged pull request |-\|/-| 3563 +137 −17 h cpp 9|-\|/-| 
+changed conditions order to avoid segfault |-\|/-| 2019-03-20T15:44:43Z Merged pull request |-\|/-| 3551 +1 −1 cpp 1|-\|/-| 
+SDK Examples Enhancements (part 1 on N) |-\|/-| 2019-03-21T13:46:57Z Merged pull request |-\|/-| 3548 +1,152 −862 txt md 0|-\|/-| 
+android - device and device list added, fw version check added t the … |-\|/-| 2019-03-20T13:36:48Z Merged pull request |-\|/-| 3547 +210 −3 txt c java 11|-\|/-| 
+Implements retrieving camera intrinsic parameters from T265 |-\|/-| 2019-04-03T10:14:04Z Merged pull request |-\|/-| 3541 +74 −16 h cpp 7|-\|/-| 
+Use CASE(X) macro consistently across get_string() impls |-\|/-| 2019-03-20T12:56:40Z Merged pull request |-\|/-| 3539 +10 −10 cpp 1|-\|/-| 
+unit-tests: separate wheel odometry unit test |-\|/-| 2019-03-20T12:56:11Z Merged pull request |-\|/-| 3535 +86 −21 cpp 1|-\|/-| 
+T265: Add pose and image example for 200Hz pose + 30Hz images |-\|/-| 2019-04-02T21:12:09Z Merged pull request |-\|/-| 3522 +190 −0 txt md cpp 1|-\|/-| 
+T265: Check that stream index is 1 or 2 and throw an error if not |-\|/-| 2019-03-20T12:55:42Z Merged pull request |-\|/-| 3521 +3 −0 cpp 1|-\|/-| 
+T265: Log connection errors to the console |-\|/-| 2019-03-25T07:04:59Z Closed pull request |-\|/-| 3520 +2 −2 cpp 1|-\|/-| 
+T265 query devices fix |-\|/-| 2019-03-21T09:12:35Z Merged pull request |-\|/-| 3515 +483 −504 cpp hpp 2|-\|/-| 
+Trajectory |-\|/-| 2019-03-20T13:36:06Z Merged pull request |-\|/-| 3513 +868 −1 txt md 0|-\|/-| 
+Added support for motion_module for playback backward compatibility |-\|/-| 2019-03-19T11:47:48Z Merged pull request |-\|/-| 3512 +12 −0 cpp h 2|-\|/-| 
+changed "push pop" to "enqueue dequeue" |-\|/-| 2019-03-19T11:48:08Z Merged pull request |-\|/-| 3509 +1 −1 cpp 1|-\|/-| 
+CMake and warning cleanups |-\|/-| 2019-04-16T15:26:02Z Merged pull request |-\|/-| 3507 +183 −891 cmake 10|-\|/-| 
+Update distribution_linux.md |-\|/-| 2019-03-19T11:44:46Z Merged pull request |-\|/-| 3506 +1 −1 md 0|-\|/-| 
+Fix typo in raspbian installation |-\|/-| 2019-03-13T07:03:24Z Merged pull request |-\|/-| 3484 +1 −1 md 0|-\|/-| 
+Connected get_motion_intrinsics API to get parameters for T265 |-\|/-| 2019-03-17T07:38:06Z Merged pull request |-\|/-| 3482 +11 −7 cpp 1|-\|/-| 
+Add arguments for python threshold filter |-\|/-| 2019-03-13T07:38:45Z Merged pull request |-\|/-| 3478 +3 −1 cpp 1|-\|/-| 
+Don't raise a hardware event for relocalizations |-\|/-| 2019-03-13T15:17:20Z Merged pull request |-\|/-| 3477 +3 −1 cpp 1|-\|/-| 
+rs-enumerate enhancements |-\|/-| 2019-03-19T11:46:10Z Merged pull request |-\|/-| 3471 +66 −71 h md cpp 2|-\|/-| 
+Fixing USB2 detection bug |-\|/-| 2019-03-19T11:45:27Z Merged pull request |-\|/-| 3466 +1 −1 cpp 1|-\|/-| 
+renaming of wheel odometry API: uses translational velocity (measurem… |-\|/-| 2019-03-20T12:54:23Z Merged pull request |-\|/-| 3462 +38 −74 h hpp cpp json cs 14|-\|/-| 
+[Python] Add CMake option to generate python documentation with Sphinx |-\|/-| 2019-03-19T11:52:24Z Merged pull request |-\|/-| 3459 +317 −2 cmake txt rst in cpp 7|-\|/-| 
+Updating IMU sensors reference |-\|/-| 2019-03-13T15:17:01Z Closed pull request |-\|/-| 3457 +141 −0 jpg gif md 2|-\|/-| 
+Trimming HID timestamps to 32bit |-\|/-| 2019-03-19T11:49:14Z Merged pull request |-\|/-| 3455 +15 −6 cpp txt 1|-\|/-| 
+T265 system timestamps |-\|/-| 2019-03-20T12:55:12Z Merged pull request |-\|/-| 3453 +41 −52 md cpp 3|-\|/-| 
+Add minor version to soname |-\|/-| 2019-03-25T09:18:44Z Merged pull request |-\|/-| 3449 +2 −2 txt 0|-\|/-| 
+2.19.1 -> Master |-\|/-| 2019-03-10T06:50:19Z Merged pull request |-\|/-| 3445 +466 −94 cmake cpp rules txt md h xml 7|-\|/-| 
+Bump version to 2.19.1 |-\|/-| 2019-03-09T18:30:37Z Merged pull request |-\|/-| 3444 +54 −2 md h xml 2|-\|/-| 
+Master > Dev |-\|/-| 2019-03-09T18:15:34Z Merged pull request |-\|/-| 3443 +13 −6 md 0|-\|/-| 
+wait for T265 to enumerate |-\|/-| 2019-03-19T11:51:09Z Closed pull request |-\|/-| 3439 +5 −2 cpp 1|-\|/-| 
+Add pose-predict example |-\|/-| 2019-03-09T18:11:49Z Merged pull request |-\|/-| 3431 +121 −0 txt cpp 1|-\|/-| 
+Update installation_osx.md |-\|/-| 2019-03-09T18:14:53Z Merged pull request |-\|/-| 3425 +13 −6 md 0|-\|/-| 
+Added support for D430I |-\|/-| 2019-03-09T18:07:03Z Merged pull request |-\|/-| 3424 +144 −57 cpp ps1 h 9|-\|/-| 
+Kinfu example using default intrinsics |-\|/-| 2019-03-07T17:53:47Z Closed pull request |-\|/-| 3421 +0 −344 cpp 1|-\|/-| 
+Adding D430i support for Linux |-\|/-| 2019-03-09T18:06:45Z Merged pull request |-\|/-| 3415 +85 −22 rules patch cpp 14|-\|/-| 
+Work in progress on Mac OS support for the T265 |-\|/-| 2019-03-09T18:09:16Z Merged pull request |-\|/-| 3399 +62 −13 cmake h txt cpp 10|-\|/-| 
+Merge of 2.19 to master |-\|/-| 2019-03-05T21:19:51Z Merged pull request |-\|/-| 3389 +32,842 −9,436 yml cmake md 3|-\|/-| 
+Disable hole_filling_filter by default. |-\|/-| 2019-03-05T18:11:43Z Merged pull request |-\|/-| 3388 +3 −0 cpp 1|-\|/-| 
+Merge changes from master to development branch |-\|/-| 2019-03-05T13:25:19Z Merged pull request |-\|/-| 3382 +115 −12 md h hpp xml sh def cpp py 9|-\|/-| 
+Fixed bug on model-views - return Depth Visualization processing block. |-\|/-| 2019-03-04T10:36:08Z Merged pull request |-\|/-| 3368 +5 −0 cpp 1|-\|/-| 
+Android - backend bug fixes and camera app new features |-\|/-| 2019-03-05T11:03:50Z Merged pull request |-\|/-| 3366 +688 −321 c cpp h xml md java 14|-\|/-| 
+T265 readme updates |-\|/-| 2019-03-04T19:38:48Z Merged pull request |-\|/-| 3359 +188 −125 md 0|-\|/-| 
+Recommended Post-Processing |-\|/-| 2019-02-28T18:47:36Z Merged pull request |-\|/-| 3352 +4,541 −2,130 cpp h txt hpp 8|-\|/-| 
+Update python-rs400-advanced-mode-example.py |-\|/-| 2019-02-28T18:48:58Z Merged pull request |-\|/-| 3347 +1 −1 py 1|-\|/-| 
+API for adding software device into existing context |-\|/-| 2019-03-05T12:02:21Z Merged pull request |-\|/-| 3340 +16 −4 hpp cpp h 5|-\|/-| 
+add API function unload_tracking_module.  |-\|/-| 2019-03-02T08:36:37Z Merged pull request |-\|/-| 3339 +30 −0 h hpp def cpp 5|-\|/-| 
+android - frame metadata support added |-\|/-| 2019-03-02T08:36:24Z Merged pull request |-\|/-| 3337 +129 −24 cpp h c java 13|-\|/-| 
+Libtm merge from release ww08 rc4 |-\|/-| 2019-02-26T13:18:56Z Merged pull request |-\|/-| 3331 +405 −232 txt h cpp 6|-\|/-| 
+Import/Export T265 localization map API |-\|/-| 2019-03-05T11:00:47Z Merged pull request |-\|/-| 3324 +1,205 −174 cpp h 4|-\|/-| 
+Bug fixes |-\|/-| 2019-03-04T19:39:44Z Merged pull request |-\|/-| 3318 +373 −110 cpp h hpp 9|-\|/-| 
+android - listen to interrupts on the usb pipe thread by default |-\|/-| 2019-02-24T15:51:24Z Merged pull request |-\|/-| 3317 +24 −23 cpp h 5|-\|/-| 
+Merge Libtm PRQ version |-\|/-| 2019-02-26T14:15:15Z Closed pull request |-\|/-| 3300 +205 −19 h cpp 6|-\|/-| 
+C# & Unity Development |-\|/-| 2019-02-21T06:23:52Z Merged pull request |-\|/-| 3285 +13,141 −5,745 txt cs 7|-\|/-| 
+Added fstream dependency |-\|/-| 2019-02-19T08:38:33Z Merged pull request |-\|/-| 3280 +1 −0 h 1|-\|/-| 
+Automated Standards Checking |-\|/-| 2019-02-21T06:22:36Z Merged pull request |-\|/-| 3265 +490 −135 yml md txt cpp sh h 13|-\|/-| 
+Replace vec2mat with reshape #2  |-\|/-| 2019-02-15T15:31:49Z Merged pull request |-\|/-| 3257 +2 −5 md 0|-\|/-| 
+Pose example |-\|/-| 2019-02-17T11:47:32Z Merged pull request |-\|/-| 3255 +133 −24 txt h cpp md 3|-\|/-| 
+Libuvc_installation - add script to facilitate libuvc backend  |-\|/-| 2019-02-12T10:58:44Z Merged pull request |-\|/-| 3246 +74 −0 md sh 1|-\|/-| 
+v2.18.1 |-\|/-| 2019-02-07T18:19:18Z Merged pull request |-\|/-| 3233 +2,020 −1,184 cpp png gif md txt hpp h 9|-\|/-| 
+Fix calibration table initialization |-\|/-| 2019-02-07T14:58:25Z Merged pull request |-\|/-| 3228 +2 −0 h 1|-\|/-| 
+Master -> Dev merge |-\|/-| 2019-02-06T11:17:48Z Merged pull request |-\|/-| 3216 +2 −1 md 0|-\|/-| 
+CMake: Override zero-sized records |-\|/-| 2019-02-04T18:59:17Z Merged pull request |-\|/-| 3206 +22 −5 txt 0|-\|/-| 
+T265 info adjustments |-\|/-| 2019-02-04T15:16:23Z Merged pull request |-\|/-| 3203 +7 −6 cpp 1|-\|/-| 
+Added Register Extrinsics method to C# wrapper |-\|/-| 2019-02-06T08:53:53Z Merged pull request |-\|/-| 3202 +11 −1 cs 2|-\|/-| 
+Patch IIO HID initialization |-\|/-| 2019-02-04T18:59:39Z Merged pull request |-\|/-| 3200 +33 −66 cpp h 2|-\|/-| 
+opencv: only use the C++ API |-\|/-| 2019-02-06T08:53:27Z Merged pull request |-\|/-| 3196 +14 −14 hpp cpp h 6|-\|/-| 
+Fix realsense viewer on macos |-\|/-| 2019-02-03T15:31:25Z Merged pull request |-\|/-| 3195 +972 −920 cpp h 2|-\|/-| 
+add realsense-ir-to-vaapi-h264 community example |-\|/-| 2019-02-04T15:14:46Z Merged pull request |-\|/-| 3194 +2 −1 md 0|-\|/-| 
+Added Hardware Reset to .Net wrapper  |-\|/-| 2019-02-03T18:05:36Z Merged pull request |-\|/-| 3192 +12 −6 md cs 1|-\|/-| 
+Fix libusb error C2001 on Visual C++ |-\|/-| 2019-02-03T18:05:07Z Merged pull request |-\|/-| 3190 +2 −0 txt 0|-\|/-| 
+[Python] Add an explicit release function to frames |-\|/-| 2019-02-04T15:16:06Z Closed pull request |-\|/-| 3174 +8 −7 cpp 1|-\|/-| 
+Changing IMU Table link and adding JSON writer |-\|/-| 2019-02-04T19:00:31Z Merged pull request |-\|/-| 3172 +5 −2 py 1|-\|/-| 
+Simple Python example for T265 pose stream |-\|/-| 2019-01-30T15:04:29Z Merged pull request |-\|/-| 3162 +73 −77 py cpp 3|-\|/-| 
+IMU and Tracking sensors readme |-\|/-| 2019-01-30T14:44:05Z Merged pull request |-\|/-| 3161 +122 −0 png gif md 5|-\|/-| 
+Libtm fw compare |-\|/-| 2019-02-03T18:03:31Z Merged pull request |-\|/-| 3149 +134 −72 0|-\|/-| 
+Markdown Images case sensitive |-\|/-| 2019-01-30T09:13:41Z Merged pull request |-\|/-| 3132 +6 −6 md 0|-\|/-| 
+fixed bugs on 3D viewer |-\|/-| 2019-01-28T14:05:10Z Merged pull request |-\|/-| 3130 +23 −14 cpp 1|-\|/-| 
+Fix emitter on/off required version |-\|/-| 2019-01-30T14:44:36Z Merged pull request |-\|/-| 3127 +1 −1 cpp 1|-\|/-| 
+Merge v2.18.0 |-\|/-| 2019-01-22T14:53:22Z Closed pull request |-\|/-| 3123 +114,857 −9,837 yml cmake txt md 4|-\|/-| 
+Merge from Master |-\|/-| 2019-01-22T12:08:27Z Merged pull request |-\|/-| 3120 +181 −12 md 0|-\|/-| 
+Realsense-viewer: UX fixes |-\|/-| 2019-01-22T12:41:46Z Merged pull request |-\|/-| 3117 +53 −33 cpp h 2|-\|/-| 
+Update distribution_linux.md |-\|/-| 2019-01-22T11:29:20Z Merged pull request |-\|/-| 3115 +13 −12 md 0|-\|/-| 
+Fix bug with depth scale before starting device |-\|/-| 2019-01-30T14:45:47Z Merged pull request |-\|/-| 3113 +3 −3 cpp 1|-\|/-| 
+ [Python] Add dims=3 option to get_vertices/get_texture for (h,w,n) output format |-\|/-| 2019-02-03T18:03:01Z Merged pull request |-\|/-| 3111 +12 −0 cpp 1|-\|/-| 
+Fix kernel patch flow |-\|/-| 2019-01-20T15:14:27Z Merged pull request |-\|/-| 3104 +2 −1 sh 1|-\|/-| 
+Viewer grid support |-\|/-| 2019-01-21T11:37:23Z Merged pull request |-\|/-| 3103 +566 −149 0|-\|/-| 
+Fix build with OpenCV 4 |-\|/-| 2019-02-01T23:52:05Z Closed pull request |-\|/-| 3091 +10 −6 hpp cpp h 6|-\|/-| 
+UX enhancements |-\|/-| 2019-01-21T15:23:10Z Merged pull request |-\|/-| 3089 +5,080 −997 cpp h 4|-\|/-| 
+Enable librealsense on unrooted android devices |-\|/-| 2019-02-19T14:59:38Z Merged pull request |-\|/-| 3083 +11,523 −469 cmake md txt_ 3|-\|/-| 
+Matlab get_extrinsics_to fix |-\|/-| 2019-01-17T07:19:03Z Merged pull request |-\|/-| 3081 +1 −1 cpp 1|-\|/-| 
+Update Python's readme.md |-\|/-| 2019-01-17T15:58:44Z Merged pull request |-\|/-| 3079 +3 −2 md 0|-\|/-| 
+[Matlab] Fix "Must be a Scalar" and other validation errors |-\|/-| 2019-01-21T08:25:54Z Merged pull request |-\|/-| 3078 +23 −23 m 8|-\|/-| 
+Fix a comparison-instead-of-assignment bug. |-\|/-| 2019-01-16T19:08:26Z Merged pull request |-\|/-| 3071 +2 −1 cpp h 2|-\|/-| 
+Update to definition of variable 'out' in align.m |-\|/-| 2019-01-16T14:56:22Z Merged pull request |-\|/-| 3069 +1 −1 m 1|-\|/-| 
+D430 Alternating emitter (on/off) mode control |-\|/-| 2019-01-20T11:06:36Z Merged pull request |-\|/-| 3066 +572 −80 cpp h 9|-\|/-| 
+Pass ABI and STL settings to libusb CMake |-\|/-| 2019-01-15T07:36:23Z Merged pull request |-\|/-| 3061 +3 −0 cmake 1|-\|/-| 
+Processing extensions prep-work |-\|/-| 2019-02-13T16:35:27Z Merged pull request |-\|/-| 3058 +334 −278 cpp h 4|-\|/-| 
+Adding threshold processing block |-\|/-| 2019-01-16T08:30:22Z Merged pull request |-\|/-| 3057 +160 −7 cpp h hpp txt def 8|-\|/-| 
+Adding YUY to RGB capabilities to public API as a processing block. |-\|/-| 2019-01-16T10:58:03Z Merged pull request |-\|/-| 3056 +167 −4 h hpp cpp txt def 9|-\|/-| 
+Extracting PointCloud-SSE out of pointcloud.cpp |-\|/-| 2019-01-16T10:55:57Z Merged pull request |-\|/-| 3055 +390 −260 txt cpp h 3|-\|/-| 
+Extracting functionality out of rs.cpp into header files |-\|/-| 2019-01-16T10:47:34Z Merged pull request |-\|/-| 3054 +95 −84 h def cpp 4|-\|/-| 
+Motion Estimation |-\|/-| 2019-01-30T14:46:42Z Merged pull request |-\|/-| 3053 +581 −6 txt hpp h md 2|-\|/-| 
+Changing filenames according to project convention |-\|/-| 2019-01-15T07:39:20Z Merged pull request |-\|/-| 3052 +9 −9 txt cpp h 6|-\|/-| 
+Updating to GLFW 3.3 |-\|/-| 2019-01-15T10:41:38Z Merged pull request |-\|/-| 3051 +102,791 −5,550 txt h 1|-\|/-| 
+Switch to use stable libusb version |-\|/-| 2019-01-13T16:37:53Z Merged pull request |-\|/-| 3049 +1 −1 cmake 1|-\|/-| 
+Restructure the C# library |-\|/-| 2019-01-21T14:57:11Z Merged pull request |-\|/-| 3038 +3,029 −2,596 cpp txt 1|-\|/-| 
+T265 udev rules update |-\|/-| 2019-01-09T15:18:05Z Merged pull request |-\|/-| 3035 +1 −0 rules 1|-\|/-| 
+Code of Conduct |-\|/-| 2019-01-09T16:49:15Z Merged pull request |-\|/-| 3034 +77 −0 md 0|-\|/-| 
+fix nite2 support, fix intrinsics |-\|/-| 2019-01-20T16:34:39Z Merged pull request |-\|/-| 3025 +1,391 −7 h cpp 6|-\|/-| 
+D435i IMU calibration script |-\|/-| 2019-01-21T08:24:16Z Merged pull request |-\|/-| 3023 +723 −4 md jpg JPG 7|-\|/-| 
+Modify CMAKE files in order to build rs-pcl-color |-\|/-| 2019-02-24T15:50:59Z Merged pull request |-\|/-| 3017 +39 −39 txt 0|-\|/-| 
+Pose stream info |-\|/-| 2019-01-09T09:48:49Z Merged pull request |-\|/-| 3010 +210 −84 cpp 1|-\|/-| 
+Libtm library merge from 479c |-\|/-| 2019-01-09T09:48:02Z Merged pull request |-\|/-| 3008 +217 −64 h cpp 7|-\|/-| 
+Development |-\|/-| 2019-01-05T14:44:39Z Closed pull request |-\|/-| 3006 +1 −1 cpp 1|-\|/-| 
+Create installation_raspbian.md |-\|/-| 2019-01-09T08:43:46Z Merged pull request |-\|/-| 3005 +168 −0 md 0|-\|/-| 
+Fix IMU Start-up delay on Linux |-\|/-| 2019-01-14T12:21:39Z Merged pull request |-\|/-| 2997 +95 −97 cmake cpp h 7|-\|/-| 
+Travis - enable testing on windows os |-\|/-| 2019-01-06T15:44:57Z Merged pull request |-\|/-| 2993 +39 −30 yml cpp 2|-\|/-| 
+T265 serial number fix |-\|/-| 2019-01-02T13:54:05Z Merged pull request |-\|/-| 2990 +1 −1 cpp 1|-\|/-| 
+Test new travis 2 |-\|/-| 2019-01-01T08:11:37Z Closed pull request |-\|/-| 2989 +37 −112 yml 2|-\|/-| 
+Merge from master to dev |-\|/-| 2018-12-31T10:17:57Z Merged pull request |-\|/-| 2988 +27 −20 md txt 0|-\|/-| 
+Disable save_to_ply option - python 3.6 CI |-\|/-| 2018-12-30T16:16:02Z Merged pull request |-\|/-| 2986 +2 −2 cpp 1|-\|/-| 
+Win7 compilation fix |-\|/-| 2018-12-30T15:07:28Z Merged pull request |-\|/-| 2985 +10 −2 yml cpp 2|-\|/-| 
+Register SR300 PID:0x0B48 |-\|/-| 2018-12-30T14:39:25Z Merged pull request |-\|/-| 2984 +2 −1 cpp h 2|-\|/-| 
+Motion extrinsic to produce identity rotation |-\|/-| 2018-12-30T14:39:06Z Merged pull request |-\|/-| 2983 +32 −4 cpp h 5|-\|/-| 
+Generate docs command update |-\|/-| 2018-12-30T06:50:23Z Merged pull request |-\|/-| 2978 +2 −1 md 0|-\|/-| 
+D435i connect disconnect fix |-\|/-| 2018-12-28T09:22:56Z Merged pull request |-\|/-| 2973 +51 −17 cpp h 7|-\|/-| 
+Disable TM2 build as conflict with NCS1 |-\|/-| 2018-12-27T07:20:53Z Merged pull request |-\|/-| 2970 +7 −0 txt 0|-\|/-| 
+Support for D435 intrinsic calibration |-\|/-| 2018-12-30T06:50:14Z Merged pull request |-\|/-| 2964 +427 −137 cpp hpp h 9|-\|/-| 
+fix openni multi-device support #2936 |-\|/-| 2018-12-28T09:23:09Z Merged pull request |-\|/-| 2960 +8 −0 cpp 1|-\|/-| 
+Motion module GUI updates |-\|/-| 2018-12-26T12:20:43Z Merged pull request |-\|/-| 2959 +93 −14 cpp h cmake 6|-\|/-| 
+Added D435i IMU sample to community contributions |-\|/-| 2018-12-24T11:48:14Z Merged pull request |-\|/-| 2956 +2 −0 md 0|-\|/-| 
+Fixed the "must be a scalar" issue |-\|/-| 2019-01-20T07:46:17Z Merged pull request |-\|/-| 2954 +3 −3 m 1|-\|/-| 
+travis parallel build |-\|/-| 2018-12-24T11:51:30Z Merged pull request |-\|/-| 2953 +103 −114 yml 1|-\|/-| 
+wip |-\|/-| 2018-12-23T21:05:02Z Closed pull request |-\|/-| 2952 +103 −114 yml 1|-\|/-| 
+Fix box_dimensioner_multicam python example |-\|/-| 2019-08-14T11:24:34Z Merged pull request |-\|/-| 2949 +16 −17 py 1|-\|/-| 
+Optional override for HID power management to prevent resume delays  |-\|/-| 2018-12-25T18:08:45Z Merged pull request |-\|/-| 2943 +60 −2 cmake rules cpp h 5|-\|/-| 
+Windows hid gyro fix |-\|/-| 2018-12-25T17:45:16Z Merged pull request |-\|/-| 2940 +44 −29 cpp txt cmake 2|-\|/-| 
+frame iterator inherits from std::iterator |-\|/-| 2018-12-20T15:20:22Z Merged pull request |-\|/-| 2939 +1 −1 hpp 1|-\|/-| 
+readme typo of published name of sensor information |-\|/-| 2019-02-03T18:06:19Z Merged pull request |-\|/-| 2919 +1 −1 md 0|-\|/-| 
+add python support for motion_frame. |-\|/-| 2018-12-30T06:50:53Z Merged pull request |-\|/-| 2917 +20 −0 cpp 1|-\|/-| 
+mf backend - exception when enable all streams |-\|/-| 2018-12-20T08:00:29Z Merged pull request |-\|/-| 2915 +21 −35 cpp h 2|-\|/-| 
+fix memory leak in mf backend |-\|/-| 2018-12-17T14:28:34Z Merged pull request |-\|/-| 2907 +282 −339 cpp 1|-\|/-| 
+Mf memory leak kick appveyor |-\|/-| 2018-12-16T20:21:51Z Closed pull request |-\|/-| 2906 +389 −453 cpp 2|-\|/-| 
+Kinfu example |-\|/-| 2018-12-20T11:07:41Z Merged pull request |-\|/-| 2903 +580 −2 txt hpp md gif 2|-\|/-| 
+Fix MF backend memory leak |-\|/-| 2018-12-17T13:28:47Z Closed pull request |-\|/-| 2902 +388 −452 cpp 1|-\|/-| 
+Fix build break with libstdc++ versioning enabled |-\|/-| 2018-12-25T18:09:09Z Merged pull request |-\|/-| 2900 +0 −12 h 1|-\|/-| 
+Adding a new community project to the example README |-\|/-| 2018-12-19T15:18:30Z Merged pull request |-\|/-| 2898 +1 −0 md 0|-\|/-| 
+Add Matlab project to Wrappers folder |-\|/-| 2018-12-15T18:33:45Z Merged pull request |-\|/-| 2883 +1 −0 txt 0|-\|/-| 
+Update readme.md |-\|/-| 2018-12-11T10:45:00Z Merged pull request |-\|/-| 2873 +21 −15 md 0|-\|/-| 
+Update rodsep keys. |-\|/-| 2018-12-11T00:15:56Z Merged pull request |-\|/-| 2872 +5 −6 xml 1|-\|/-| 
+Call find_package(ament_cmake) after project(). |-\|/-| 2018-12-10T10:32:04Z Merged pull request |-\|/-| 2867 +6 −2 txt xml 1|-\|/-| 
+Fixing Accel data in Windows |-\|/-| 2018-12-11T13:53:50Z Merged pull request |-\|/-| 2864 +38 −9 cpp 1|-\|/-| 
+Merge with libtm repo |-\|/-| 2018-12-09T13:41:58Z Merged pull request |-\|/-| 2863 +258 −109 h cpp 5|-\|/-| 
+Update CMakeLists.txt and dependencies. |-\|/-| 2018-12-10T13:56:43Z Closed pull request |-\|/-| 2861 +5 −2 txt xml 1|-\|/-| 
+Allow unattended kernel patching |-\|/-| 2018-12-06T09:47:12Z Merged pull request |-\|/-| 2853 +1 −1 sh 1|-\|/-| 
+enable librealsense running on non-rooted Android phone |-\|/-| 2019-01-23T09:26:22Z Closed pull request |-\|/-| 2852 +30,246 −0 gitignore gradle so jar pro java xml bag txt 12|-\|/-| 
+fix race on playback device destruction |-\|/-| 2018-12-11T10:45:25Z Merged pull request |-\|/-| 2849 +2 −2 cpp 1|-\|/-| 
+Set IMU extrinsic based on mechanical drawings |-\|/-| 2018-12-06T09:48:16Z Merged pull request |-\|/-| 2843 +35 −10 cpp h 4|-\|/-| 
+ Added align and pointcloud tests |-\|/-| 2019-01-06T15:49:40Z Merged pull request |-\|/-| 2842 +542 −1 txt cpp 1|-\|/-| 
+Added align and pointcloud tests |-\|/-| 2018-12-04T13:24:19Z Closed pull request |-\|/-| 2841 +523 −1 txt cpp 1|-\|/-| 
+Use find_package (and the default library name) for GLFW |-\|/-| 2018-12-10T10:39:14Z Merged pull request |-\|/-| 2837 +12 −62 yml cmake txt 2|-\|/-| 
+Export Processing blocks |-\|/-| 2018-12-19T15:35:54Z Merged pull request |-\|/-| 2830 +409 −29 txt h hpp cpp 5|-\|/-| 
+Emitter On/Off |-\|/-| 2018-12-09T14:19:48Z Merged pull request |-\|/-| 2829 +146 −27 h cpp 11|-\|/-| 
+Find thread library to resolve linux compilation |-\|/-| 2018-12-04T14:41:10Z Merged pull request |-\|/-| 2824 +39 −5 txt md 0|-\|/-| 
+c++ api - remove get_removed_devices method from event_information class |-\|/-| 2018-12-04T14:39:31Z Merged pull request |-\|/-| 2823 +1 −12 hpp cpp 2|-\|/-| 
+enable librealsense running on non-rooted Android phone |-\|/-| 2018-12-06T02:52:10Z Closed pull request |-\|/-| 2822 +29,654 −0 h txt third-party/libusb/AUTHORS third-party/libusb/Brewfile 3|-\|/-| 
+Updated to Python3 format |-\|/-| 2018-12-02T12:50:05Z Merged pull request |-\|/-| 2817 +24 −24 py 1|-\|/-| 
+Multicam in Unity lead to crash with post-processing filters (100% repro) |-\|/-| 2018-12-09T12:23:40Z Merged pull request |-\|/-| 2810 +78 −34 cs md 3|-\|/-| 
+Merge of 2.17.0 to master |-\|/-| 2018-11-29T14:26:10Z Merged pull request |-\|/-| 2805 +6,155 −2,925 cmake cpp h md txt 6|-\|/-| 
+Add functionality to record software device extrinsics |-\|/-| 2018-12-02T12:51:39Z Merged pull request |-\|/-| 2804 +13 −2 cpp h 3|-\|/-| 
+Windows HID support - updates |-\|/-| 2018-12-02T12:51:27Z Merged pull request |-\|/-| 2803 +43 −276 h cpp 8|-\|/-| 
+ Add tests for align processing block |-\|/-| 2018-12-04T13:13:03Z Closed pull request |-\|/-| 2800 +141 −0 txt cpp 1|-\|/-| 
+Add tests for align processing block |-\|/-| 2018-11-29T08:42:03Z Closed pull request |-\|/-| 2799 +6,293 −2,924 cmake cpp h md txt 6|-\|/-| 
+Update Matlab Wrapper for Processing Block API Update |-\|/-| 2018-11-29T06:00:20Z Merged pull request |-\|/-| 2793 +52 −34 m cpp vcxproj filters h 14|-\|/-| 
+Suppress IMU Calib warning |-\|/-| 2018-11-28T19:43:26Z Merged pull request |-\|/-| 2791 +1 −1 cpp 1|-\|/-| 
+Community fixes |-\|/-| 2018-11-29T06:00:43Z Merged pull request |-\|/-| 2790 +1,152 −1,154 hpp cpp h xml 12|-\|/-| 
+D435i windows IMU support |-\|/-| 2018-11-28T15:05:27Z Merged pull request |-\|/-| 2788 +526 −137 h cpp 10|-\|/-| 
+Added OpenNI into wrappers' CMakeLists |-\|/-| 2018-11-28T19:43:51Z Merged pull request |-\|/-| 2784 +5 −0 cmake txt 1|-\|/-| 
+Matlab: basic pointcloud demo |-\|/-| 2018-11-28T06:13:24Z Merged pull request |-\|/-| 2780 +64 −9 cpp m md 2|-\|/-| 
+Adjust IMU rates to spec |-\|/-| 2018-11-28T06:13:57Z Merged pull request |-\|/-| 2777 +9 −53 cpp h txt 3|-\|/-| 
+Realsense-viewer: autoi-disable syncer with motion sensors |-\|/-| 2018-11-27T10:12:59Z Merged pull request |-\|/-| 2776 +37 −42 cpp h hpp txt 22|-\|/-| 
+Refactoring data-collect tool to sensors API |-\|/-| 2018-11-27T13:37:26Z Merged pull request |-\|/-| 2775 +578 −189 cpp h txt md 3|-\|/-| 
+Pipeline callback api |-\|/-| 2018-11-28T10:56:09Z Merged pull request |-\|/-| 2773 +2,258 −1,186 txt cpp md 3|-\|/-| 
+box_dimensioner_multicam sample: Fix an incorrect IR image being returned from DeviceManager |-\|/-| 2018-11-28T12:58:47Z Merged pull request |-\|/-| 2766 +9 −2 COPYING → NOTICE md py 2|-\|/-| 
+add an Android wrapper |-\|/-| 2019-12-05T14:10:42Z Closed pull request |-\|/-| 2765 +2,948 −1 COPYING → NOTICE txt gitignore gradle so jar pro java xml bag 13|-\|/-| 
+export include and libraries for ament build |-\|/-| 2018-11-22T11:06:46Z Merged pull request |-\|/-| 2760 +6 −1 cmake 1|-\|/-| 
+export include and libraries for ament build |-\|/-| 2018-11-22T07:51:49Z Closed pull request |-\|/-| 2759 +6 −1 cmake 1|-\|/-| 
+split processing block to processing_block(invoke) and filter(process) |-\|/-| 2018-11-21T21:16:19Z Merged pull request |-\|/-| 2757 +100 −64 cpp hpp 3|-\|/-| 
+Split processing block class to processing block and filter |-\|/-| 2018-11-21T17:05:37Z Closed pull request |-\|/-| 2756 +100 −64 cpp hpp 3|-\|/-| 
+change catkin to ament_cmake for ros2 build |-\|/-| 2018-11-21T21:12:31Z Merged pull request |-\|/-| 2755 +123 −8 cmake txt debian/postinst debian/udev xml 4|-\|/-| 
+Adjust Viewer stream info for IMU stream info |-\|/-| 2018-11-18T11:04:25Z Merged pull request |-\|/-| 2739 +19 −6 cpp h xml 3|-\|/-| 
+Fix IMU timestamps patch for linux kernels |-\|/-| 2018-11-15T20:50:03Z Merged pull request |-\|/-| 2732 +175 −70 patch 4|-\|/-| 
+Fixing typo of openCV compilation commands |-\|/-| 2018-11-15T10:26:45Z Merged pull request |-\|/-| 2729 +2 −2 md 0|-\|/-| 
+Correct errors in align.m (issue #2710) |-\|/-| 2018-11-15T11:18:04Z Merged pull request |-\|/-| 2726 +1 −4 m 1|-\|/-| 
+Move save_to_ply functionality to processing block |-\|/-| 2018-11-21T16:05:10Z Closed pull request |-\|/-| 2725 +308 −21 def txt h hpp cpp 9|-\|/-| 
+The viewer model will move to filters frameset instead of separated frames. |-\|/-| 2018-11-15T12:25:43Z Merged pull request |-\|/-| 2717 +196 −76 cpp h hpp 7|-\|/-| 
+Merge refactor cmake files |-\|/-| 2018-11-15T14:48:10Z Merged pull request |-\|/-| 2716 +1,409 −1,736 cmake 8|-\|/-| 
+OpenCV and Numpy Point cloud Software Renderer |-\|/-| 2018-11-26T10:59:51Z Merged pull request |-\|/-| 2709 +825 −0 py 1|-\|/-| 
+Replace vec2mat with reshape |-\|/-| 2018-11-15T15:27:50Z Merged pull request |-\|/-| 2708 +3 −6 m 1|-\|/-| 
+Added support for emitter on and off feature and the intrinsics not i… |-\|/-| 2018-12-09T14:19:50Z Merged pull request |-\|/-| 2699 +196 −31 cpp h 12|-\|/-| 
+add an Android example running on non-rooted Android phone |-\|/-| 2018-11-23T10:35:53Z Closed pull request |-\|/-| 2698 +1,443 −0 gitignore gradle so jar pro java xml bag 9|-\|/-| 
+Pcl color readme fix, points to example image |-\|/-| 2018-11-08T16:47:42Z Merged pull request |-\|/-| 2696 +6 −11 md cpp 1|-\|/-| 
+add a comma to make logs more readable |-\|/-| 2018-11-08T16:47:52Z Merged pull request |-\|/-| 2695 +1 −1 cpp 1|-\|/-| 
+Fix typo in sensor.cpp |-\|/-| 2018-11-08T04:18:29Z Closed pull request |-\|/-| 2694 +5 −4 md cpp py 2|-\|/-| 
+Use python3 style print |-\|/-| 2018-11-08T16:47:29Z Merged pull request |-\|/-| 2692 +9 −9 py 1|-\|/-| 
+Use python3 style print |-\|/-| 2018-11-07T21:38:29Z Closed pull request |-\|/-| 2691 +9 −9 py 1|-\|/-| 
+[python] add apply_filters function, deal with align.process |-\|/-| 2018-11-28T16:31:20Z Merged pull request |-\|/-| 2690 +42 −37 cpp 1|-\|/-| 
+Add Matlab to CMake |-\|/-| 2018-11-08T16:48:30Z Merged pull request |-\|/-| 2689 +18 −13 txt 0|-\|/-| 
+Added support in configuring recorder compression mode |-\|/-| 2018-11-22T12:23:54Z Merged pull request |-\|/-| 2687 +328 −278 h hpp cpp 9|-\|/-| 
+Fix Matlab wrapper search path |-\|/-| 2018-11-08T16:48:57Z Merged pull request |-\|/-| 2680 +7 −6 vcxproj 1|-\|/-| 
+ Python cv2 point cloud viewer |-\|/-| 2018-11-08T15:02:35Z Closed pull request |-\|/-| 2679 +320 −0 py 1|-\|/-| 
+Update Easylogging++ dependency to v9.96.5 |-\|/-| 2018-11-07T11:31:12Z Merged pull request |-\|/-| 2674 +334 −241 txt 0|-\|/-| 
+Add APIs to inject IMU and pose to software_device |-\|/-| 2018-11-25T09:24:50Z Merged pull request |-\|/-| 2673 +726 −291 h hpp 4|-\|/-| 
+Align processing block - CUDA implementation |-\|/-| 2018-11-12T08:52:01Z Merged pull request |-\|/-| 2670 +1,398 −993 txt h 1|-\|/-| 
+Fix D435i Frequences selection and idle power consumption |-\|/-| 2018-11-06T12:51:32Z Merged pull request |-\|/-| 2669 +136 −54 cpp h patch 11|-\|/-| 
+PCL color example added |-\|/-| 2018-11-05T18:56:49Z Merged pull request |-\|/-| 2668 +386 −1 txt md cpp 1|-\|/-| 
+Fix missing header for major() and minor() functions |-\|/-| 2018-11-04T14:04:07Z Merged pull request |-\|/-| 2665 +1 −0 cpp 1|-\|/-| 
+fix crash when playback bag file which caused by memory misalignment |-\|/-| 2018-11-21T21:37:40Z Merged pull request |-\|/-| 2659 +1 −1 h 1|-\|/-| 
+Refresh the _depth_units when its changed. |-\|/-| 2018-11-07T11:30:59Z Merged pull request |-\|/-| 2655 +38 −3 cpp h 4|-\|/-| 
+Cancel zero copy for YUYV format. |-\|/-| 2018-11-01T11:00:02Z Merged pull request |-\|/-| 2653 +1 −1 cpp 1|-\|/-| 
+Fix Openni2 build failed on linux (update to C99 standard) |-\|/-| 2018-11-07T16:37:57Z Merged pull request |-\|/-| 2651 +13 −7 txt md h 1|-\|/-| 
+Handle assertion on playback_device caused by race condition between the start of two |-\|/-| 2018-11-01T17:26:03Z Merged pull request |-\|/-| 2646 +8 −6 cpp h 4|-\|/-| 
+[matlab] update frameset.m to reflect mexfile |-\|/-| 2018-11-01T17:29:38Z Merged pull request |-\|/-| 2644 +2 −2 m 1|-\|/-| 
+ Handle assertion on playback |-\|/-| 2018-10-30T17:14:16Z Closed pull request |-\|/-| 2642 +1 −1 cpp 1|-\|/-| 
+adding a key press to exit the image window |-\|/-| 2018-11-01T17:29:16Z Merged pull request |-\|/-| 2641 +5 −1 py 1|-\|/-| 
+Merge 2.16.3 to master |-\|/-| 2018-10-30T08:25:23Z Merged pull request |-\|/-| 2640 +52 −42 gitignore txt h xml cpp 15|-\|/-| 
+Fix more Matlab bugs |-\|/-| 2018-10-30T08:41:15Z Merged pull request |-\|/-| 2636 +26 −16 vcxproj md m h 3|-\|/-| 
+Tm2 proxy check CMAKE fix |-\|/-| 2018-10-28T17:55:01Z Merged pull request |-\|/-| 2628 +14 −1 txt 0|-\|/-| 
+Pointcloud resolution change |-\|/-| 2018-10-28T16:48:45Z Merged pull request |-\|/-| 2627 +14 −36 cpp h 9|-\|/-| 
+Pointcloud resolution change |-\|/-| 2018-10-28T13:26:02Z Closed pull request |-\|/-| 2626 +14 −36 cpp h 9|-\|/-| 
+Fix crash - Disable creating multiple tracking managers |-\|/-| 2018-10-28T15:48:21Z Merged pull request |-\|/-| 2625 +20 −2 cpp h 3|-\|/-| 
+Fix crash - Disable creating multiple tracking managers |-\|/-| 2018-10-28T13:12:30Z Closed pull request |-\|/-| 2624 +22 −2 cpp h 4|-\|/-| 
+add android wrapper |-\|/-| 2018-10-29T02:25:52Z Closed pull request |-\|/-| 2615 +6,261 −0 txt h gitignore md gradle pro java xml 8|-\|/-| 
+fix crash caused by memory misalignment |-\|/-| 2018-10-30T06:52:19Z Closed pull request |-\|/-| 2614 +1 −1 h 1|-\|/-| 
+Development |-\|/-| 2018-10-25T17:40:34Z Merged pull request |-\|/-| 2608 +48,483 −7,073 txt yml 1|-\|/-| 
+Remove libtm logs to screen |-\|/-| 2018-10-28T14:13:24Z Merged pull request |-\|/-| 2606 +1 −1 cpp 1|-\|/-| 
+Resolve matlab compilation |-\|/-| 2018-10-25T11:12:49Z Merged pull request |-\|/-| 2603 +3 −3 vcxproj 1|-\|/-| 
+Merge of master to dev |-\|/-| 2018-10-25T11:00:07Z Merged pull request |-\|/-| 2602 +3 −4 md 0|-\|/-| 
+Expose TM2-related flag to use local FW storage: |-\|/-| 2018-10-25T10:51:13Z Merged pull request |-\|/-| 2601 +1 −1 cmake 1|-\|/-| 
+ Disable platform camera for pipeline - will work only with intel cameras |-\|/-| 2018-10-30T16:13:17Z Merged pull request |-\|/-| 2600 +8 −8 cpp h 5|-\|/-| 
+Change cmake warnings to status messages in libtm library |-\|/-| 2018-10-25T10:50:15Z Merged pull request |-\|/-| 2599 +42 −42 txt cmake 1|-\|/-| 
+Fixed thread safety issue in stop and start of playback_sensor |-\|/-| 2018-10-25T10:01:58Z Merged pull request |-\|/-| 2598 +7 −2 cpp h 2|-\|/-| 
+Realsense-viewer - disable sync by default |-\|/-| 2018-10-25T08:33:36Z Closed pull request |-\|/-| 2597 +1 −1 h 1|-\|/-| 
+D435i Support |-\|/-| 2018-10-25T10:01:28Z Merged pull request |-\|/-| 2596 +562 −145 cpp h rules hpp patch 8|-\|/-| 
+Add T260 camera capability to librealsense |-\|/-| 2018-10-24T12:25:27Z Merged pull request |-\|/-| 2594 +20,304 −244 txt yml cpp h 4|-\|/-| 
+C# and unity |-\|/-| 2018-10-24T13:12:27Z Merged pull request |-\|/-| 2592 +5,727 −6,237 txt cs 3|-\|/-| 
+C# and unity |-\|/-| 2018-10-24T08:37:50Z Closed pull request |-\|/-| 2591 +27,369 −6,509 txt cpp 1|-\|/-| 
+add android wrapper  |-\|/-| 2018-10-26T05:43:24Z Closed pull request |-\|/-| 2579 +6,314 −1 txt h wrappers/android/Makefile md 2|-\|/-| 
+viewer - avoid display stream select options |-\|/-| 2018-10-22T10:56:18Z Merged pull request |-\|/-| 2571 +16 −5 cpp h 2|-\|/-| 
+Update unity doc |-\|/-| 2018-10-24T13:12:29Z Merged pull request |-\|/-| 2561 +5,727 −6,236 txt cs 3|-\|/-| 
+C# and Unity wrappers |-\|/-| 2018-10-24T17:28:38Z Closed pull request |-\|/-| 2559 +5,670 −6,190 txt cs 3|-\|/-| 
+Add T260 camera capability to librealsense |-\|/-| 2018-10-23T07:55:13Z Closed pull request |-\|/-| 2548 +20,317 −250 cmake txt yml cpp h 5|-\|/-| 
+Handle offset on UI when graphics driver is not updated |-\|/-| 2018-10-21T12:46:18Z Merged pull request |-\|/-| 2546 +235 −17 cpp h txt 8|-\|/-| 
+Fixed bugs: DSO-9680, DSO-10411 |-\|/-| 2018-10-23T08:43:51Z Merged pull request |-\|/-| 2545 +126 −40 cpp h 3|-\|/-| 
+Libtm support tmp |-\|/-| 2018-10-22T13:25:34Z Closed pull request |-\|/-| 2537 +22,587 −226 cmake txt cpp h 5|-\|/-| 
+Integrate libtm source code |-\|/-| 2018-10-15T12:12:09Z Closed pull request |-\|/-| 2532 +22,565 −225 cmake txt cpp h 6|-\|/-| 
+Fix processing blocks issues |-\|/-| 2018-10-16T11:46:50Z Merged pull request |-\|/-| 2528 +146 −94 cpp h 12|-\|/-| 
+IRSA v0.0.6 was released |-\|/-| 2018-10-15T06:21:42Z Closed pull request |-\|/-| 2527 +5 −3 txt cpp h 2|-\|/-| 
+change message about frames coming in stop mode to INFO |-\|/-| 2018-10-11T16:35:59Z Merged pull request |-\|/-| 2513 +1 −1 cpp 1|-\|/-| 
+RGB sensor auto-exposure region of interest |-\|/-| 2018-10-22T16:07:47Z Merged pull request |-\|/-| 2511 +93 −33 cpp h cs 6|-\|/-| 
+fix build error for Android-x86 target |-\|/-| 2018-10-10T12:55:31Z Closed pull request |-\|/-| 2505 +1 −1 txt 0|-\|/-| 
+Removed D2S and S2D |-\|/-| 2018-10-08T18:21:07Z Merged pull request |-\|/-| 2493 +0 −1,239 txt md jpg 1|-\|/-| 
+Fix typos in matlab wrapper |-\|/-| 2018-10-25T10:02:19Z Merged pull request |-\|/-| 2492 +238 −170 h m 10|-\|/-| 
+Python wrapper tweaks |-\|/-| 2018-10-11T16:29:43Z Merged pull request |-\|/-| 2491 +35 −14 cpp 1|-\|/-| 
+Libuvc fixes |-\|/-| 2018-10-11T10:56:20Z Merged pull request |-\|/-| 2490 +98 −1 cpp h py 3|-\|/-| 
+Android example with V4L2-backend |-\|/-| 2019-11-06T09:10:21Z Closed pull request |-\|/-| 2489 +2,847 −9 cmake md txt gradle pro xml 5|-\|/-| 
+Add DFU device to INF |-\|/-| 2018-10-07T13:08:07Z Merged pull request |-\|/-| 2477 +36 −0 png md inf 5|-\|/-| 
+Update INF to support DFU device |-\|/-| 2018-10-04T14:21:38Z Closed pull request |-\|/-| 2476 +288 −61 txt md sh cpp inf 3|-\|/-| 
+rename foreach to foreachRS to avoid conflict with QT foreach macro |-\|/-| 2019-05-29T06:05:19Z Closed pull request |-\|/-| 2470 +8 −8 hpp cpp 3|-\|/-| 
+unity - copy specific dlls from the build folder to the unity folder |-\|/-| 2018-10-07T13:10:34Z Merged pull request |-\|/-| 2468 +6 −2 txt 0|-\|/-| 
+Added kernel patching scripts for OpenSuSE Leap 15.0 and Tumbleweed |-\|/-| 2018-10-09T15:00:12Z Merged pull request |-\|/-| 2467 +411 −0 sh 2|-\|/-| 
+Development |-\|/-| 2018-10-07T07:43:06Z Closed pull request |-\|/-| 2466 +285 −61 txt md sh cpp inf 3|-\|/-| 
+Adding faces to exported PLY files |-\|/-| 2018-10-07T15:09:24Z Merged pull request |-\|/-| 2454 +39 −1 cpp 1|-\|/-| 
+CI fixes |-\|/-| 2018-10-03T08:12:46Z Merged pull request |-\|/-| 2447 +62 −55 cpp 2|-\|/-| 
+TM1 fixes |-\|/-| 2018-10-11T12:55:44Z Merged pull request |-\|/-| 2446 +38 −4 cpp h 3|-\|/-| 
+Merge of 2.16.1 to master |-\|/-| 2018-09-25T18:06:57Z Merged pull request |-\|/-| 2444 +1,723 −31,585 txt cpp h cpp_ png md hpp 9|-\|/-| 
+External libusb |-\|/-| 2018-09-25T15:57:56Z Merged pull request |-\|/-| 2442 +21 −6 txt md 0|-\|/-| 
+Revert deleted patch for kernel 4.8 |-\|/-| 2018-09-25T14:03:40Z Merged pull request |-\|/-| 2441 +221 −0 patch 1|-\|/-| 
+Documentation update |-\|/-| 2018-09-24T12:17:12Z Merged pull request |-\|/-| 2434 +3 −3 md 0|-\|/-| 
+Refactoring Android build dependencies |-\|/-| 2018-09-24T12:06:33Z Merged pull request |-\|/-| 2432 +120 −30,816 txt cpp h cc 7|-\|/-| 
+fix crash caused by memory misalignment in function fill_usb_buffer |-\|/-| 2018-09-25T18:07:00Z Merged pull request |-\|/-| 2430 +9 −8 cpp 1|-\|/-| 
+add log mechanism for Android port |-\|/-| 2018-09-25T18:06:59Z Merged pull request |-\|/-| 2429 +46 −3 txt cc 1|-\|/-| 
+Two fixes related to android |-\|/-| 2018-09-21T05:23:00Z Merged pull request |-\|/-| 2423 +147 −147 cpp_ 1|-\|/-| 
+Store button |-\|/-| 2018-09-20T14:11:35Z Merged pull request |-\|/-| 2421 +23 −5 cpp h 3|-\|/-| 
+Changed serial number according to  RS5-1848. |-\|/-| 2018-09-20T13:59:52Z Merged pull request |-\|/-| 2419 +1 −1 h 1|-\|/-| 
+add log mechanism for Android port |-\|/-| 2018-09-23T16:18:43Z Closed pull request |-\|/-| 2417 +46 −3 txt cc 1|-\|/-| 
+fix crash caused by memory misalignment in function fill_usb_buffer |-\|/-| 2018-09-23T16:20:12Z Closed pull request |-\|/-| 2416 +9 −8 cpp 1|-\|/-| 
+Fix narrowing conversion error for osx clang |-\|/-| 2018-09-20T14:21:03Z Merged pull request |-\|/-| 2409 +2 −1 hpp 1|-\|/-| 
+Remove win7 WDK dlls CMake copy on deleted files  |-\|/-| 2018-09-18T04:51:49Z Merged pull request |-\|/-| 2403 +5 −10 txt 0|-\|/-| 
+Add missing WIN32 check |-\|/-| 2018-09-17T12:52:36Z Merged pull request |-\|/-| 2401 +24 −22 txt 0|-\|/-| 
+Pointed to a new web link for the broken MathWorks.com link for compi… |-\|/-| 2018-09-16T09:43:13Z Merged pull request |-\|/-| 2398 +1 −1 md 0|-\|/-| 
+Add optional configuration in CMake for test-data location |-\|/-| 2018-09-17T12:56:55Z Merged pull request |-\|/-| 2388 +11 −7 txt 0|-\|/-| 
+Fix bug in ros_file_format. |-\|/-| 2018-09-17T13:34:00Z Merged pull request |-\|/-| 2377 +11 −11 h 1|-\|/-| 
+add log mechanism for Android port |-\|/-| 2018-09-21T23:31:58Z Closed pull request |-\|/-| 2375 +0 −0 0|-\|/-| 
+fix pointcloud map_to |-\|/-| 2018-09-16T09:42:08Z Merged pull request |-\|/-| 2371 +92 −57 cpp h 9|-\|/-| 
+first commit of the OpenNI2 wrapper by the Palo Alto Group |-\|/-| 2018-10-07T13:06:32Z Merged pull request |-\|/-| 2370 +4,031 −0 gitignore txt md jpg 6|-\|/-| 
+first commit of the UnrealEngine4 wrapper by the Palo Alto Group |-\|/-| 2018-10-07T13:06:18Z Merged pull request |-\|/-| 2369 +17,310 −0 gitignore uasset umap wrappers/unrealengine4/LICENSE uplugin png 12|-\|/-| 
+Merge of master to development |-\|/-| 2018-09-06T14:34:18Z Merged pull request |-\|/-| 2362 +5 −5 md m cpp 3|-\|/-| 
+Playback realtime fix |-\|/-| 2018-09-17T11:17:08Z Merged pull request |-\|/-| 2360 +347 −176 h 3|-\|/-| 
+Solve bug on start stop stream with lib_uvc |-\|/-| 2018-09-17T12:52:19Z Merged pull request |-\|/-| 2359 +102 −71 cpp h 4|-\|/-| 
+Win7 support |-\|/-| 2018-09-06T08:00:57Z Merged pull request |-\|/-| 2358 +153 −125 txt inf dll 3|-\|/-| 
+Avoiding compile errors due to removal of overator() in version 2.16 |-\|/-| 2018-09-05T15:52:33Z Merged pull request |-\|/-| 2354 +2 −2 cpp 2|-\|/-| 
+Update for function get_vertices in points.m file |-\|/-| 2018-09-05T15:52:17Z Merged pull request |-\|/-| 2349 +2 −2 m 1|-\|/-| 
+Enable IR stream with win_usb backend. |-\|/-| 2018-09-05T15:51:11Z Merged pull request |-\|/-| 2347 +31 −55 cpp h 3|-\|/-| 
+update for function process in align.m file |-\|/-| 2018-09-05T15:52:06Z Merged pull request |-\|/-| 2346 +2 −2 m 1|-\|/-| 
+Disable fisheye stream ZERO_COPY flow |-\|/-| 2018-09-03T12:52:18Z Merged pull request |-\|/-| 2344 +1 −1 cpp 1|-\|/-| 
+Provide ccache build option |-\|/-| 2018-09-21T05:23:57Z Merged pull request |-\|/-| 2342 +9 −0 txt 0|-\|/-| 
+Video4Linux uvcvideo buffers overlow handling |-\|/-| 2018-09-25T11:10:58Z Merged pull request |-\|/-| 2341 +372 −90 patch sh 5|-\|/-| 
+Addressing GitHub #2318 - Two instances of the same device in the Viewer |-\|/-| 2018-09-03T09:51:17Z Merged pull request |-\|/-| 2340 +12 −6 cpp 1|-\|/-| 
+Addressing GitHub #2178 / DSO-10235 - playback twice |-\|/-| 2018-09-03T11:21:49Z Merged pull request |-\|/-| 2339 +2 −1 cpp 1|-\|/-| 
+Fix template literals for error messages |-\|/-| 2019-05-13T07:44:26Z Merged pull request |-\|/-| 2337 +3 −3 js 1|-\|/-| 
+Handle stop streaming and IR enumaration issues on lib_uvc (RS5-2042) |-\|/-| 2018-08-30T09:42:11Z Merged pull request |-\|/-| 2328 +27 −5 cpp 2|-\|/-| 
+Update readme.md |-\|/-| 2018-08-29T07:06:18Z Merged pull request |-\|/-| 2322 +1 −1 md 0|-\|/-| 
+Merge of development to master |-\|/-| 2018-08-27T14:42:25Z Merged pull request |-\|/-| 2313 +8,155 −1,820 def txt cpp md cpp_ png hpp 8|-\|/-| 
+Matlab colorizer example to use standard toolbox API |-\|/-| 2018-08-27T16:05:04Z Merged pull request |-\|/-| 2312 +1 −4 m 1|-\|/-| 
+Change the log level to suppress the warning which critically affects… |-\|/-| 2018-08-26T08:26:52Z Merged pull request |-\|/-| 2309 +2 −2 cpp 2|-\|/-| 
+Added support for compressed depth format, streaming, and the uncompr… |-\|/-| 2018-08-23T19:21:01Z Closed pull request |-\|/-| 2302 +10,222 −1,059 def h cpp hpp 19|-\|/-| 
+Added support for compressed depth format, streaming, and the uncompr… |-\|/-| 2018-08-23T19:08:16Z Closed pull request |-\|/-| 2301 +10,222 −1,059 def h cpp hpp 19|-\|/-| 
+Add AVX2-specific preprocessor guards |-\|/-| 2018-08-26T08:28:44Z Merged pull request |-\|/-| 2300 +4 −2 cpp h 3|-\|/-| 
+Fix the formatting of the viewer's picker display |-\|/-| 2018-08-26T08:29:06Z Merged pull request |-\|/-| 2298 +1 −1 cpp 1|-\|/-| 
+L500 linux- added support on Confidence stream in kernel patches. |-\|/-| 2018-08-23T18:38:35Z Merged pull request |-\|/-| 2297 +63 −48 patch 3|-\|/-| 
+Fix bug - AWGT camera is not moving to idle state- Linux |-\|/-| 2018-08-23T10:19:46Z Merged pull request |-\|/-| 2293 +3 −0 cpp 1|-\|/-| 
+disable hid devices enumeration on windows |-\|/-| 2018-08-23T18:24:37Z Merged pull request |-\|/-| 2291 +33 −22 cpp h 4|-\|/-| 
+Removing the creation of usb_interface in recreate_interface method |-\|/-| 2018-08-22T07:32:09Z Merged pull request |-\|/-| 2286 +0 −1 cpp 1|-\|/-| 
+Android run fix |-\|/-| 2018-08-22T07:32:38Z Merged pull request |-\|/-| 2285 +14 −11 txt md cpp_ 1|-\|/-| 
+Update docs |-\|/-| 2018-08-22T07:31:54Z Merged pull request |-\|/-| 2284 +101 −19 png m cpp vcxproj md 7|-\|/-| 
+Libuvc - fixed bug on start and stop stream |-\|/-| 2018-08-22T07:33:14Z Merged pull request |-\|/-| 2283 +21 −26 cpp h 3|-\|/-| 
+Fix bug - aligned point cloud is calculated incorrectly  |-\|/-| 2018-08-22T07:31:19Z Merged pull request |-\|/-| 2282 +1 −1 cpp 1|-\|/-| 
+Fix issue #2187 (Viewer playback crash) |-\|/-| 2018-08-21T11:24:11Z Merged pull request |-\|/-| 2276 +25 −24 cpp 2|-\|/-| 
+Kernel 4.16 Support |-\|/-| 2018-08-27T11:06:18Z Merged pull request |-\|/-| 2275 +1,458 −248 cpp sh patch 5|-\|/-| 
+Implement changes discussed in PR#2154 |-\|/-| 2018-08-21T08:31:59Z Merged pull request |-\|/-| 2274 +27 −11 cpp 1|-\|/-| 
+Add generic project files to matlab directory |-\|/-| 2018-08-20T08:40:11Z Merged pull request |-\|/-| 2268 +46 −15 sln vcxproj 2|-\|/-| 
+Csharp dll details |-\|/-| 2018-08-21T08:10:57Z Merged pull request |-\|/-| 2267 +158 −13 txt cs asset 6|-\|/-| 
+Csharp dll details |-\|/-| 2018-08-19T14:34:57Z Closed pull request |-\|/-| 2266 +4,533 −118 txt h hpp md cpp 10|-\|/-| 
+Add function for projecting color to depth |-\|/-| 2018-08-21T11:17:48Z Merged pull request |-\|/-| 2265 +180 −2 h txt bag cpp 3|-\|/-| 
+Fixed bug on align: added 4 BPP formats (RGBA, BGRA) |-\|/-| 2018-08-19T11:38:15Z Merged pull request |-\|/-| 2264 +3 −0 cpp 1|-\|/-| 
+Added a series of methods that transmits the index of a mapping, and not the end result |-\|/-| 2018-08-19T07:24:26Z Closed pull request |-\|/-| 2263 +565 −50 def h 2|-\|/-| 
+Detect incomplete device ids before crashing |-\|/-| 2018-08-22T07:35:51Z Merged pull request |-\|/-| 2256 +10 −3 cpp h 4|-\|/-| 
+Adding #ifdef RS2_USE_WINUSB_UVC_BACKEND to winusb_uvc.cpp |-\|/-| 2018-08-16T14:21:04Z Merged pull request |-\|/-| 2254 +5 −0 cpp 1|-\|/-| 
+Adding WinUVC backend to pybackend |-\|/-| 2018-08-16T14:12:42Z Merged pull request |-\|/-| 2253 +24 −5 txt 0|-\|/-| 
+Linux Kernel  4.16  support - basic functionality |-\|/-| 2018-08-27T11:06:59Z Closed pull request |-\|/-| 2252 +858 −230 cpp h 4|-\|/-| 
+Add function for projecting color to depth |-\|/-| 2018-08-16T13:50:17Z Closed pull request |-\|/-| 2251 +140 −1 h cpp 2|-\|/-| 
+Add CAT file |-\|/-| 2018-08-16T13:20:23Z Closed pull request |-\|/-| 2250 +0 −0 cat 1|-\|/-| 
+Merge from master to dev |-\|/-| 2018-08-15T14:14:35Z Merged pull request |-\|/-| 2246 +6,253 −39 txt cpp h inf dll 5|-\|/-| 
+Processing blocks frameset support |-\|/-| 2018-08-23T09:59:59Z Merged pull request |-\|/-| 2245 +1,654 −1,295 def cpp hpp h 12|-\|/-| 
+INF update |-\|/-| 2018-08-15T14:13:55Z Merged pull request |-\|/-| 2244 +0 −0 inf 1|-\|/-| 
+[Node.js] Add controls feature to set options |-\|/-| 2018-08-16T02:46:57Z Merged pull request |-\|/-| 2243 +91 −44 js html 4|-\|/-| 
+Add winusb_uvc backend support |-\|/-| 2018-08-15T13:39:12Z Merged pull request |-\|/-| 2239 +6,304 −1,011 txt cpp h inf dll 5|-\|/-| 
+[Node.js] Remove examples from cmake build |-\|/-| 2018-08-14T06:02:39Z Merged pull request |-\|/-| 2235 +2 −953 txt 0|-\|/-| 
+Public accessor for m_instance field of Sensor class |-\|/-| 2018-08-14T13:45:47Z Merged pull request |-\|/-| 2234 +5 −0 cs 1|-\|/-| 
+Added color to depth projection function |-\|/-| 2018-08-15T14:57:10Z Closed pull request |-\|/-| 2233 +128 −1 h cpp 2|-\|/-| 
+Add an additional option CMAKE_GENERATEOR_PLATFORM=x64 in the instruc… |-\|/-| 2018-08-14T13:47:13Z Merged pull request |-\|/-| 2228 +1 −1 md 0|-\|/-| 
+Fixed typo in device model |-\|/-| 2018-08-15T14:33:27Z Merged pull request |-\|/-| 2222 +3 −3 cpp h 3|-\|/-| 
+Fix stream request for DQT |-\|/-| 2018-08-09T15:23:04Z Merged pull request |-\|/-| 2220 +2 −2 cpp 1|-\|/-| 
+Fixed DSO-10232 Artifacts in Align. |-\|/-| 2018-08-09T10:28:59Z Merged pull request |-\|/-| 2217 +27 −10 cpp h 2|-\|/-| 
+[Node.js] Support two infrared streaming |-\|/-| 2018-08-09T09:11:22Z Merged pull request |-\|/-| 2213 +92 −40 js cpp 5|-\|/-| 
+Fix for compilation in Android Studio |-\|/-| 2018-08-08T13:34:09Z Merged pull request |-\|/-| 2211 +393 −388 0|-\|/-| 
+[Viewer] Show <Set ROI> button only for sensors that are ROI type |-\|/-| 2018-08-07T13:38:26Z Merged pull request |-\|/-| 2208 +1 −1 cpp 1|-\|/-| 
+Improving the tooltip in Viewer |-\|/-| 2018-08-07T12:52:59Z Closed pull request |-\|/-| 2207 +1 −1 cpp 1|-\|/-| 
+Fix camera is not moving to Idle state in Linux OS  |-\|/-| 2018-08-07T12:55:07Z Merged pull request |-\|/-| 2206 +39 −42 cpp h 2|-\|/-| 
+[Viewer] - Fix crash when saving Y16 snapshot |-\|/-| 2018-08-07T12:55:25Z Merged pull request |-\|/-| 2201 +21 −13 cpp 1|-\|/-| 
+Use python3 style print |-\|/-| 2018-08-05T15:18:13Z Merged pull request |-\|/-| 2194 +1 −1 py 1|-\|/-| 
+Android compilation fix |-\|/-| 2018-08-05T15:18:40Z Merged pull request |-\|/-| 2189 +11 −7 h md cpp 2|-\|/-| 
+Retrieving public key for debians repo behind firewall and proxy.  |-\|/-| 2018-08-05T06:38:20Z Merged pull request |-\|/-| 2184 +5 −4 yml md 1|-\|/-| 
+Include SSSE3 intrinsics unconditionally to fix compilation with CUDA. |-\|/-| 2018-08-06T07:18:42Z Merged pull request |-\|/-| 2177 +6 −4 cpp 2|-\|/-| 
+[Node.js] Add infrared streaming |-\|/-| 2018-08-01T02:55:00Z Merged pull request |-\|/-| 2175 +234 −12 js html wrappers/nodejs/examples/realsense_viewer/public/vue 5|-\|/-| 
+[nodejs] Update test-sensor.js for getStreamProfiles method |-\|/-| 2018-08-14T05:30:49Z Merged pull request |-\|/-| 2174 +30 −7 js 1|-\|/-| 
+Adding multi_pins_hid_device to PyBackend |-\|/-| 2018-07-30T12:54:22Z Merged pull request |-\|/-| 2166 +15 −5 cpp 1|-\|/-| 
+More GitHub pages |-\|/-| 2018-07-29T10:39:16Z Merged pull request |-\|/-| 2165 +359 −56 html json gif 5|-\|/-| 
+Unity processing blocks |-\|/-| 2018-08-06T07:19:18Z Merged pull request |-\|/-| 2164 +4,312 −1,251 cs meta prefab 13|-\|/-| 
+Fixing download link generation |-\|/-| 2018-07-28T17:44:09Z Merged pull request |-\|/-| 2163 +20 −20 html 5|-\|/-| 
+Setting-up GitHub pages for librealsense |-\|/-| 2018-07-28T17:28:57Z Merged pull request |-\|/-| 2162 +3,200 −0 html 1|-\|/-| 
+Enhancement of box_dimensioner_multicam python exemple  |-\|/-| 2018-08-07T13:38:55Z Merged pull request |-\|/-| 2160 +268 −277 0|-\|/-| 
+Enhancement of box_dimensioner_multicam python exemple |-\|/-| 2018-07-27T08:07:10Z Closed pull request |-\|/-| 2159 +2 −1 py 1|-\|/-| 
+Multi-cam support in Unity wrapper |-\|/-| 2018-11-21T21:36:01Z Closed pull request |-\|/-| 2156 +101 −37 cs 7|-\|/-| 
+Adding Two Dimensional Data Protocols for python wrapper (vtx & tex) |-\|/-| 2018-08-27T14:42:29Z Merged pull request |-\|/-| 2154 +21 −0 cpp 1|-\|/-| 
+Change the description of RS2_FORMAT_DISPARITY16 |-\|/-| 2018-08-21T11:23:48Z Merged pull request |-\|/-| 2152 +1 −1 h 1|-\|/-| 
+[Node.js] Reset internal error among each native call |-\|/-| 2018-07-27T02:42:44Z Merged pull request |-\|/-| 2151 +4 −0 cpp 1|-\|/-| 
+Document debians for bionic installation |-\|/-| 2018-07-26T06:51:30Z Merged pull request |-\|/-| 2146 +17 −14 md 0|-\|/-| 
+Resolve unity conflicts |-\|/-| 2018-07-25T15:36:58Z Merged pull request |-\|/-| 2145 +1,079 −552 cs 5|-\|/-| 
+Bug fixes and features for C# and Unity |-\|/-| 2018-07-25T15:37:01Z Merged pull request |-\|/-| 2144 +9,037 −3,345 cs 5|-\|/-| 
+Unity processing blocks |-\|/-| 2018-07-25T14:49:41Z Merged pull request |-\|/-| 2142 +8,170 −2,886 cs mat 3|-\|/-| 
+Bump version |-\|/-| 2018-07-25T15:37:45Z Merged pull request |-\|/-| 2140 +2 −2 h xml 2|-\|/-| 
+[nodejs] update test-depthframe.js and test-videoframe.js |-\|/-| 2018-08-14T05:28:52Z Merged pull request |-\|/-| 2136 +24 −12 js 2|-\|/-| 
+Multi-cam sync between Global Shutter devices |-\|/-| 2018-07-25T06:14:20Z Merged pull request |-\|/-| 2132 +10 −2 cpp 2|-\|/-| 
+Adding intrinsics API |-\|/-| 2018-07-24T14:33:19Z Merged pull request |-\|/-| 2131 +38 −7 h cpp 6|-\|/-| 
+Don't return the platform camera using default Query Devices |-\|/-| 2018-08-06T11:53:34Z Merged pull request |-\|/-| 2130 +77 −27 def h hpp cpp cs 12|-\|/-| 
+change tag_profile to tag_profiles and move the tagging to sensor_base |-\|/-| 2018-07-24T10:45:13Z Merged pull request |-\|/-| 2128 +26 −38 h cpp 12|-\|/-| 
+Unity processing blocks |-\|/-| 2018-07-25T13:03:03Z Closed pull request |-\|/-| 2127 +7,855 −2,812 cs mat 2|-\|/-| 
+Box dimensioner multicam |-\|/-| 2018-07-25T06:13:46Z Merged pull request |-\|/-| 2119 +1,842 −0 json py 2|-\|/-| 
+Merge from IntelRealSense/librealsense/master to abernste/librealsense/master |-\|/-| 2018-07-22T07:16:40Z Closed pull request |-\|/-| 2114 +0 −0 0|-\|/-| 
+Merge pull request #4 from IntelRealSense/development |-\|/-| 2018-07-22T07:14:11Z Closed pull request |-\|/-| 2113 +0 −0 0|-\|/-| 
+fix big in playback_sensor::get_stream_profiles |-\|/-| 2018-07-22T12:56:44Z Merged pull request |-\|/-| 2099 +0 −1 cpp 1|-\|/-| 
+Wrapping Software Device for .NET |-\|/-| 2018-08-07T17:10:13Z Merged pull request |-\|/-| 2098 +453 −64 txt cs 8|-\|/-| 
+PyPi upload scripts |-\|/-| 2018-07-22T12:50:54Z Merged pull request |-\|/-| 2091 +157 −5 gitignore rst py md txt 5|-\|/-| 
+Created notebooks folder |-\|/-| 2018-07-17T16:25:28Z Merged pull request |-\|/-| 2080 +15 −1 md ipynb 1|-\|/-| 
+Removing unnessesary files |-\|/-| 2018-07-17T15:58:52Z Merged pull request |-\|/-| 2079 +0 −166 md yml 1|-\|/-| 
+Populating Jupyter Notebooks branch for the SDK |-\|/-| 2018-07-17T15:55:59Z Merged pull request |-\|/-| 2078 +750 −64,882 LICENSE md txt yml binder/postBuild 3|-\|/-| 
+Documentation updates |-\|/-| 2018-07-17T12:27:11Z Merged pull request |-\|/-| 2077 +2 −2 md 0|-\|/-| 
+2.14.0 release |-\|/-| 2018-07-17T12:26:21Z Merged pull request |-\|/-| 2076 +30,442 −15,764 def txt cpp h txt_ md 5|-\|/-| 
+Update distribution_linux.md |-\|/-| 2018-07-25T13:20:37Z Merged pull request |-\|/-| 2072 +1 −1 md 0|-\|/-| 
+fix lazy initialization of tagged profiles |-\|/-| 2018-07-16T18:18:44Z Closed pull request |-\|/-| 2070 +2 −1 cpp 1|-\|/-| 
+unity - adjust folders structure to support unity package build |-\|/-| 2018-07-16T14:12:35Z Merged pull request |-\|/-| 2069 +7 −5 txt gitignore meta cs 4|-\|/-| 
+Bump version to 2.14.0 |-\|/-| 2018-07-16T14:12:47Z Merged pull request |-\|/-| 2068 +3 −3 h xml 2|-\|/-| 
+Unity Package Improvements |-\|/-| 2018-07-16T12:53:23Z Merged pull request |-\|/-| 2067 +26,536 −14,476 cs 5|-\|/-| 
+Unity device listener  |-\|/-| 2018-07-16T11:07:09Z Closed pull request |-\|/-| 2066 +29,818 −15,747 def txt cpp h txt_ md 5|-\|/-| 
+L500 - read the timestamp from uvc header |-\|/-| 2018-07-16T10:11:11Z Merged pull request |-\|/-| 2065 +126 −4 patch ps1 cpp h 5|-\|/-| 
+disable test - Pipeline record and playback |-\|/-| 2018-07-15T14:39:56Z Merged pull request |-\|/-| 2064 +45 −45 cpp 1|-\|/-| 
+Unity wrapper |-\|/-| 2018-07-16T12:53:26Z Merged pull request |-\|/-| 2063 +26,615 −14,476 cs 5|-\|/-| 
+Disable rec pb test |-\|/-| 2018-07-15T13:06:29Z Closed pull request |-\|/-| 2062 +3,008 −1,225 def txt cpp h txt_ md hpp 6|-\|/-| 
+Not all Android phones have USB OTG capability |-\|/-| 2018-07-15T07:26:28Z Merged pull request |-\|/-| 2060 +1 −1 md 0|-\|/-| 
+Added functionality of no throw wait_for_frame |-\|/-| 2018-07-16T05:18:52Z Merged pull request |-\|/-| 2055 +225 −3 def cpp h hpp 10|-\|/-| 
+Update CMakeLists.txt |-\|/-| 2019-06-26T10:38:04Z Closed pull request |-\|/-| 2051 +1 −0 txt 0|-\|/-| 
+Added functionality of no throw wait_for_frame |-\|/-| 2018-07-13T09:07:31Z Closed pull request |-\|/-| 2049 +939 −467 def cpp h hpp 8|-\|/-| 
+[Node.js] Add more restrictions for Sensor.open |-\|/-| 2018-08-06T07:10:12Z Merged pull request |-\|/-| 2046 +2 −1 js 1|-\|/-| 
+Update rs400_advanced_mode.md |-\|/-| 2018-07-11T19:34:05Z Merged pull request |-\|/-| 2041 +1 −1 md 0|-\|/-| 
+Performance optimization for Align post processing block |-\|/-| 2018-07-16T11:09:40Z Merged pull request |-\|/-| 2040 +492 −10 0|-\|/-| 
+Libuvc multicamera |-\|/-| 2018-07-12T11:25:33Z Merged pull request |-\|/-| 2039 +104 −102 cpp h 3|-\|/-| 
+add Odroid XU4 4.14 kernel patch |-\|/-| 2018-09-27T09:41:15Z Merged pull request |-\|/-| 2035 +192 −0 sh 1|-\|/-| 
+Odroid build |-\|/-| 2018-07-11T01:24:22Z Closed pull request |-\|/-| 2034 +1,242 −225 txt cpp txt_ 2|-\|/-| 
+DQT - distance description documentation |-\|/-| 2018-07-10T15:24:20Z Merged pull request |-\|/-| 2030 +8 −1 cpp md gif 2|-\|/-| 
+[DSO-9795] fix pointcloud.destroy check return values. |-\|/-| 2018-07-11T05:10:12Z Merged pull request |-\|/-| 2028 +2 −1 js 1|-\|/-| 
+[nodejs] Added supporting check before call frameMetadata method |-\|/-| 2018-07-16T02:26:44Z Merged pull request |-\|/-| 2027 +12 −6 js 1|-\|/-| 
+[Node.js] Update packaging script to fix npm install error |-\|/-| 2018-07-10T09:05:05Z Merged pull request |-\|/-| 2026 +2 −1 sh 1|-\|/-| 
+Update points testcase |-\|/-| 2018-07-11T05:11:30Z Merged pull request |-\|/-| 2025 +110 −18 js 1|-\|/-| 
+API description - continued |-\|/-| 2018-07-10T07:10:29Z Merged pull request |-\|/-| 2023 +427 −37 0|-\|/-| 
+Fixing deadlock inside UVC backend |-\|/-| 2018-07-11T14:24:04Z Merged pull request |-\|/-| 2022 +6 −9 cpp 1|-\|/-| 
+[Node.js] Add depth streaming to web based realsense-viewer |-\|/-| 2018-07-09T10:09:18Z Merged pull request |-\|/-| 2020 +137 −17 js html 4|-\|/-| 
+Fix error C3861 __cpuidex identifier not found |-\|/-| 2018-07-08T13:15:43Z Merged pull request |-\|/-| 2011 +1 −0 cpp 1|-\|/-| 
+Refactor pipeline resolve |-\|/-| 2018-07-12T17:05:18Z Merged pull request |-\|/-| 2006 +716 −464 def h hpp cpp 6|-\|/-| 
+Refactor post processing frame metadata implementation |-\|/-| 2018-07-09T12:41:39Z Merged pull request |-\|/-| 2003 +314 −288 def h hpp cpp 4|-\|/-| 
+[Node.js] Bump version for 2.13.0 |-\|/-| 2018-07-05T07:24:54Z Merged pull request |-\|/-| 2001 +2 −2 json 2|-\|/-| 
+Fixed bug DSO-9680 - stop the rendering loop only if all the devices are not streaming. |-\|/-| 2018-07-11T14:32:14Z Merged pull request |-\|/-| 1995 +27 −4 cpp h 3|-\|/-| 
+[Node.js] Add new option and update comments |-\|/-| 2018-07-04T09:05:27Z Merged pull request |-\|/-| 1993 +25 −3 js cpp 3|-\|/-| 
+[Node.js] Initial implementaion of web based realsense-viewer |-\|/-| 2018-07-04T08:51:32Z Merged pull request |-\|/-| 1992 +789 −0 js json 2|-\|/-| 
+Added code origin link to depth quality tool documentation |-\|/-| 2018-07-02T15:22:36Z Merged pull request |-\|/-| 1987 +1 −0 h 1|-\|/-| 
+change PGP ID to long ID |-\|/-| 2018-07-10T11:33:36Z Merged pull request |-\|/-| 1978 +1 −1 md 0|-\|/-| 
+DQT-Converted the Plane Fit RMS error from mm to % |-\|/-| 2018-07-02T15:21:32Z Merged pull request |-\|/-| 1975 +6 −3 h cpp 2|-\|/-| 
+Generate unity package |-\|/-| 2018-07-02T15:21:57Z Merged pull request |-\|/-| 1974 +56 −44 txt md 0|-\|/-| 
+Generate unity package |-\|/-| 2018-06-28T11:03:24Z Closed pull request |-\|/-| 1973 +56 −44 txt md 0|-\|/-| 
+Added timestamp metadata to post processing frames |-\|/-| 2018-07-03T12:40:42Z Closed pull request |-\|/-| 1971 +120 −79 cpp h 6|-\|/-| 
+#1967: Fix asymmetry in rs2::event_information |-\|/-| 2018-07-10T12:27:57Z Merged pull request |-\|/-| 1968 +34 −5 hpp md cpp 2|-\|/-| 
+#1947 - Added dynamic method to get the RS library |-\|/-| 2018-11-21T21:35:22Z Closed pull request |-\|/-| 1964 +294 −0 pdf lvproj vi txt lvlib dll ps1 98|-\|/-| 
+Isolate Cmake 3.8 to predefined modules |-\|/-| 2018-07-02T15:23:27Z Merged pull request |-\|/-| 1961 +91 −91 txt txt_ 1|-\|/-| 
+Fixed bug -  Setting Depth Units in realsense_viewer fails |-\|/-| 2018-07-02T15:24:01Z Merged pull request |-\|/-| 1946 +6 −8 cpp 1|-\|/-| 
+fix - multistream resolve, stop searching streams after first match |-\|/-| 2018-07-08T06:44:33Z Closed pull request |-\|/-| 1943 +14 −8 h 1|-\|/-| 
+Added support in metadata for post-processing frames |-\|/-| 2018-06-21T19:21:08Z Merged pull request |-\|/-| 1932 +179 −60 cpp h 8|-\|/-| 
+Added support for laser power control on l500 |-\|/-| 2018-06-21T13:52:56Z Merged pull request |-\|/-| 1931 +8 −0 h 2|-\|/-| 
+Added support in metadata for post-processing frames |-\|/-| 2018-06-21T12:37:39Z Closed pull request |-\|/-| 1929 +1,220 −284 txt txt_ md cpp 2|-\|/-| 
+[nodeje] Updated test-sensor.js to avoid unexpected errors |-\|/-| 2018-07-03T08:31:09Z Merged pull request |-\|/-| 1928 +74 −74 json js 2|-\|/-| 
+Update kernel patches for v4.13 due to Ubuntu promotions |-\|/-| 2018-06-21T13:10:40Z Merged pull request |-\|/-| 1927 +566 −84 sh patch 4|-\|/-| 
+Fix typo in commands. |-\|/-| 2018-06-21T12:00:13Z Merged pull request |-\|/-| 1926 +2 −2 md 0|-\|/-| 
+[Node.js] Fix the messy code of notification description |-\|/-| 2018-06-21T06:19:03Z Merged pull request |-\|/-| 1925 +4 −3 cpp 1|-\|/-| 
+Fix D430 failure with rs-pointcloud and rs-capture |-\|/-| 2018-06-21T05:40:56Z Merged pull request |-\|/-| 1923 +33 −5 cpp 3|-\|/-| 
+Inter-camera HW Sync control |-\|/-| 2018-06-21T15:03:19Z Merged pull request |-\|/-| 1922 +111 −8 cpp h cs 8|-\|/-| 
+Unity copy plugins on build |-\|/-| 2018-06-21T06:29:24Z Merged pull request |-\|/-| 1921 +35 −23 txt md meta 1|-\|/-| 
+Unity depth only scenes |-\|/-| 2018-06-21T06:26:13Z Merged pull request |-\|/-| 1918 +4,500 −266 mat meta 2|-\|/-| 
+Unity depth only scenes |-\|/-| 2018-06-20T08:33:35Z Closed pull request |-\|/-| 1917 +5,107 −1,171 md cmake txt cpp h sh 6|-\|/-| 
+[Node.js] Adding new frame_metadata types |-\|/-| 2018-06-20T12:48:06Z Merged pull request |-\|/-| 1916 +294 −5 js cpp 3|-\|/-| 
+Update rs_sensor.h |-\|/-| 2018-06-20T10:29:06Z Merged pull request |-\|/-| 1913 +1 −1 h 1|-\|/-| 
+ZR300 is not supported but the SR300 [documentation] |-\|/-| 2018-06-20T12:00:36Z Merged pull request |-\|/-| 1906 +1 −1 md 0|-\|/-| 
+Update rs_sensor.h |-\|/-| 2018-06-19T13:08:25Z Closed pull request |-\|/-| 1901 +1 −1 h 1|-\|/-| 
+[Python] Added read device from bag example |-\|/-| 2018-06-15T10:37:51Z Merged pull request |-\|/-| 1895 +75 −0 py md 1|-\|/-| 
+Load & Save settings fix |-\|/-| 2018-06-15T10:16:44Z Merged pull request |-\|/-| 1888 +45 −16 cpp 1|-\|/-| 
+fix typo in std header |-\|/-| 2018-06-15T10:17:01Z Merged pull request |-\|/-| 1886 +1 −1 md 0|-\|/-| 
+Save settings fix |-\|/-| 2018-06-14T07:01:11Z Closed pull request |-\|/-| 1883 +45 −16 cpp 1|-\|/-| 
+Added support for new D400 metadata |-\|/-| 2018-06-13T18:58:40Z Merged pull request |-\|/-| 1881 +163 −33 h cpp cs 6|-\|/-| 
+Fix OpenCV Wrapper and Example |-\|/-| 2018-06-13T10:19:31Z Merged pull request |-\|/-| 1879 +15 −15 hpp cpp 4|-\|/-| 
+Development |-\|/-| 2018-06-13T11:56:00Z Closed pull request |-\|/-| 1878 +166 −94 cmake sh cpp js json 10|-\|/-| 
+[nodejs] Update test cases |-\|/-| 2018-07-10T03:03:56Z Merged pull request |-\|/-| 1876 +87 −70 js 3|-\|/-| 
+Cuda for Jeston TX2 |-\|/-| 2018-06-21T11:10:53Z Merged pull request |-\|/-| 1866 +1,048 −231 txt txt_ cpp 2|-\|/-| 
+[Node.js] Bump version for 2.12.0 release |-\|/-| 2018-06-12T06:05:08Z Merged pull request |-\|/-| 1865 +2 −2 json 2|-\|/-| 
+Fix build for android. |-\|/-| 2018-08-08T13:39:41Z Closed pull request |-\|/-| 1853 +9 −5 h cpp 4|-\|/-| 
+Fix bug in kernel patch script for Ubuntu 18.04 |-\|/-| 2018-06-07T14:20:35Z Merged pull request |-\|/-| 1848 +1 −1 sh 1|-\|/-| 
+Csharp cmake |-\|/-| 2018-06-19T10:27:36Z Merged pull request |-\|/-| 1847 +140 −778 txt sln 2|-\|/-| 
+Streaming cpu high usage fix |-\|/-| 2018-07-15T07:30:28Z Closed pull request |-\|/-| 1844 +2 −2 cpp 1|-\|/-| 
+Fix duplicated serial numbers on MacOS |-\|/-| 2018-06-10T11:11:40Z Merged pull request |-\|/-| 1841 +5 −5 cpp 1|-\|/-| 
+Unity point cloud, C# optimizations |-\|/-| 2018-07-16T12:53:42Z Closed pull request |-\|/-| 1840 +1,266 −3,795 cs meta mat 7|-\|/-| 
+[Node.js] Expose all native errors to Javascript world |-\|/-| 2018-06-06T08:36:11Z Merged pull request |-\|/-| 1839 +29 −14 js cpp 4|-\|/-| 
+[nodejs] Fix test-recorderdevice.js case issue |-\|/-| 2018-06-06T07:50:55Z Merged pull request |-\|/-| 1838 +83 −55 js 1|-\|/-| 
+Changes required to run the patch on odroid 4.14 image |-\|/-| 2018-06-13T05:38:14Z Merged pull request |-\|/-| 1835 +178 −0 gitignore md sh 2|-\|/-| 
+v2.12.0 merge to master |-\|/-| 2018-06-05T10:53:15Z Merged pull request |-\|/-| 1832 +11,293 −4,999 md txt 0|-\|/-| 
+missing udev cause failing on rosbuildfirm |-\|/-| 2018-06-10T11:26:59Z Merged pull request |-\|/-| 1829 +1 −0 xml 1|-\|/-| 
+Rectify decimation filter/many-to-many operation mode |-\|/-| 2018-06-04T13:39:41Z Merged pull request |-\|/-| 1825 +938 −894 cpp h 4|-\|/-| 
+[Node.js] Make severity and category of NotificationEventObject strings |-\|/-| 2018-06-04T08:52:25Z Merged pull request |-\|/-| 1823 +41 −2 js 2|-\|/-| 
+Fix test-sensor.js case bug  |-\|/-| 2018-06-06T09:04:26Z Merged pull request |-\|/-| 1822 +30 −1 js 1|-\|/-| 
+Fix CMake libusb include path variable |-\|/-| 2018-06-13T05:40:39Z Merged pull request |-\|/-| 1820 +1 −1 cmake 1|-\|/-| 
+Fixed high CPU usage problem in the app's thread when polling frames |-\|/-| 2018-06-10T10:26:36Z Closed pull request |-\|/-| 1809 +15 −5 cpp 1|-\|/-| 
+Update AndroidNativeSamples.md |-\|/-| 2018-06-03T09:52:19Z Merged pull request |-\|/-| 1808 +2 −2 md 0|-\|/-| 
+Fix doxygen warnings |-\|/-| 2018-06-03T09:52:48Z Merged pull request |-\|/-| 1806 +53 −50 h 10|-\|/-| 
+Document post-processing filters implementation |-\|/-| 2018-05-31T12:08:23Z Merged pull request |-\|/-| 1804 +167 −0 md 0|-\|/-| 
+Post-processing filters documentation |-\|/-| 2018-05-31T10:51:29Z Closed pull request |-\|/-| 1803 +11,069 −5,024 md txt 0|-\|/-| 
+Promote version to v2.12.0 |-\|/-| 2018-05-31T12:08:05Z Merged pull request |-\|/-| 1802 +3 −3 h xml 2|-\|/-| 
+add segment of issues for mapping to Zendesk |-\|/-| 2018-06-19T10:44:02Z Merged pull request |-\|/-| 1800 +1 −0 md 0|-\|/-| 
+Occlusion filter for Point cloud |-\|/-| 2018-05-31T11:44:05Z Merged pull request |-\|/-| 1797 +99 −77 txt cpp h 6|-\|/-| 
+Development |-\|/-| 2018-05-30T09:54:41Z Closed pull request |-\|/-| 1796 +10,873 −5,011 md txt 0|-\|/-| 
+Removing threading includes from C++ API |-\|/-| 2018-05-31T13:21:38Z Merged pull request |-\|/-| 1794 +13 −11 h cpp hpp 8|-\|/-| 
+Adding Depth from Stereo tutorial |-\|/-| 2018-05-31T08:58:30Z Merged pull request |-\|/-| 1792 +139 −0 md 0|-\|/-| 
+Cpu high usage without streaming fix |-\|/-| 2018-05-30T17:38:47Z Merged pull request |-\|/-| 1791 +29 −13 cpp h 3|-\|/-| 
+Bug fix: The CPU usage is too high on Viewer  |-\|/-| 2018-05-29T13:43:08Z Closed pull request |-\|/-| 1790 +22 −12 cpp h 2|-\|/-| 
+update doxygen file to generate documentation from external headers only |-\|/-| 2018-05-29T09:52:18Z Merged pull request |-\|/-| 1787 +1 −4 doc/doxygen/doxyfile 1|-\|/-| 
+opencv Face-Detection example |-\|/-| 2019-12-03T19:08:42Z Closed pull request |-\|/-| 1786 +21,482 −338 def h md hpp 7|-\|/-| 
+Replaced decimation filter implementation and added support for non-depth decimation |-\|/-| 2018-05-29T09:58:30Z Merged pull request |-\|/-| 1784 +941 −260 cpp h 3|-\|/-| 
+Roi sensor bug |-\|/-| 2018-05-28T08:15:50Z Merged pull request |-\|/-| 1782 +25 −23 h cpp 5|-\|/-| 
+D400 - Gain control switches off Auto-Exposure (Depth) |-\|/-| 2018-05-28T15:37:00Z Merged pull request |-\|/-| 1780 +122 −8 cpp h 3|-\|/-| 
+depth-quality: fix to build librealsense without gui tools |-\|/-| 2018-05-28T08:17:51Z Merged pull request |-\|/-| 1772 +4 −3 md txt 0|-\|/-| 
+Development |-\|/-| 2018-05-28T10:06:01Z Closed pull request |-\|/-| 1771 +448 −289 md txt 0|-\|/-| 
+[Node.js] Bump version for 2.11.1 release |-\|/-| 2018-05-25T06:58:24Z Merged pull request |-\|/-| 1769 +2 −2 json 2|-\|/-| 
+Fix a small markdown format error |-\|/-| 2018-05-27T11:06:52Z Merged pull request |-\|/-| 1768 +2 −1 md 0|-\|/-| 
+Unity wrapper bug fix |-\|/-| 2018-05-28T15:35:45Z Merged pull request |-\|/-| 1765 +8,621 −4,465 cs meta mat prefab 6|-\|/-| 
+Remove the extra '`' char in the TM1-specific bash script in "/doc/installation.md |-\|/-| 2018-05-25T06:35:53Z Closed pull request |-\|/-| 1762 +2 −2 md 0|-\|/-| 
+Replaced decimation filter implementation and added support for non-d… |-\|/-| 2018-05-28T15:27:32Z Closed pull request |-\|/-| 1759 +919 −234 cpp 1|-\|/-| 
+Notification Enhancement |-\|/-| 2018-05-28T08:40:25Z Merged pull request |-\|/-| 1755 +19 −16 cpp h 2|-\|/-| 
+Update unit-tests data set download rules - cmake enhancement |-\|/-| 2018-05-24T09:51:55Z Merged pull request |-\|/-| 1754 +51 −2 txt 0|-\|/-| 
+[Node.js] Add HoleFillingFilter |-\|/-| 2018-05-24T06:05:45Z Merged pull request |-\|/-| 1752 +40 −0 js cpp 3|-\|/-| 
+Fw notifications |-\|/-| 2018-05-23T10:55:38Z Closed pull request |-\|/-| 1751 +12 −12 cpp 1|-\|/-| 
+[Node.js] Update enum values |-\|/-| 2018-05-23T07:53:16Z Merged pull request |-\|/-| 1750 +29 −13 js cpp 3|-\|/-| 
+Prevent a hang in macOS when uvc_open2 call fails |-\|/-| 2018-05-22T20:42:55Z Closed pull request |-\|/-| 1749 +2 −1 cpp 1|-\|/-| 
+Fix power management on stream interrupt |-\|/-| 2018-05-23T10:37:08Z Merged pull request |-\|/-| 1746 +3 −2 cpp 2|-\|/-| 
+Remove the zero copy on sr300  |-\|/-| 2018-05-23T10:33:43Z Merged pull request |-\|/-| 1744 +2 −2 cpp 1|-\|/-| 
+add language field to issue template |-\|/-| 2018-05-23T10:28:59Z Merged pull request |-\|/-| 1742 +1 −1 md 0|-\|/-| 
+Adding API description to two header files. |-\|/-| 2018-07-10T07:10:30Z Merged pull request |-\|/-| 1740 +427 −37 0|-\|/-| 
+UI polish for the Viewer |-\|/-| 2018-05-23T10:34:38Z Merged pull request |-\|/-| 1738 +267 −223 0|-\|/-| 
+Force RGB8 priority when ordering RS2_STREAM_COLOR profiles |-\|/-| 2018-05-23T11:03:57Z Merged pull request |-\|/-| 1737 +4 −2 cpp 1|-\|/-| 
+[tools] rs-convert |-\|/-| 2018-05-28T10:07:12Z Merged pull request |-\|/-| 1736 +756 −1 txt hpp 3|-\|/-| 
+Fixing issue #1692 for missing const in function. |-\|/-| 2018-05-22T06:34:36Z Merged pull request |-\|/-| 1726 +2 −2 hpp 2|-\|/-| 
+Documentation updates |-\|/-| 2018-05-17T10:57:28Z Merged pull request |-\|/-| 1720 +22 −16 md zip 1|-\|/-| 
+Fw notifications |-\|/-| 2018-05-17T10:17:32Z Merged pull request |-\|/-| 1719 +236 −153 cpp h 3|-\|/-| 
+Fixed bug DSO-9276 - Hotplug doesn't work on Win10 RS3 with librealsense |-\|/-| 2018-05-17T08:38:42Z Merged pull request |-\|/-| 1718 +17 −1 cpp 1|-\|/-| 
+Post-processing filter adjustment |-\|/-| 2018-05-17T11:54:18Z Merged pull request |-\|/-| 1717 +7 −7 h xml cpp 5|-\|/-| 
+Fix D5U supported streaming formats in Advanced Mode |-\|/-| 2018-05-17T08:32:28Z Merged pull request |-\|/-| 1716 +1 −1 cpp 1|-\|/-| 
+Add missing streaming formats for D5U SKU |-\|/-| 2018-05-17T07:10:08Z Closed pull request |-\|/-| 1715 +1,256 −397 cpp h md 2|-\|/-| 
+increase AWS download time to cope with network latencies |-\|/-| 2018-05-17T04:12:04Z Merged pull request |-\|/-| 1714 +1 −1 txt 0|-\|/-| 
+Unity bug fix |-\|/-| 2018-06-03T15:06:19Z Closed pull request |-\|/-| 1713 +641 −398 cs meta 2|-\|/-| 
+Fix rs-measure example to calculate the correct distance, add null pointer check |-\|/-| 2018-05-17T04:21:57Z Merged pull request |-\|/-| 1711 +14 −13 cpp 2|-\|/-| 
+[Node.js] Fix FrameSet.getFrame() throwing exception issue |-\|/-| 2018-05-17T08:36:05Z Merged pull request |-\|/-| 1708 +42 −4 js cpp 3|-\|/-| 
+Support for 4.15 kernel |-\|/-| 2018-05-17T04:13:24Z Merged pull request |-\|/-| 1702 +560 −69 md sh 2|-\|/-| 
+Fixed bug DSO-9161 USB2-USB3 recognition is not working well on RS3 |-\|/-| 2018-05-16T14:03:18Z Merged pull request |-\|/-| 1701 +193 −183 0|-\|/-| 
+[Node.js] Update to latest node-glfw-3 |-\|/-| 2018-05-15T06:39:38Z Merged pull request |-\|/-| 1699 +12 −10 json 2|-\|/-| 
+Posted RealSense SDK 2.11.0 for LabVIEW (password: intel123) |-\|/-| 2018-05-15T10:20:02Z Merged pull request |-\|/-| 1696 +0 −0 zip 1|-\|/-| 
+Added check on weak pointer |-\|/-| 2018-05-15T10:20:29Z Merged pull request |-\|/-| 1691 +1 −1 cpp 1|-\|/-| 
+Fw notifications |-\|/-| 2018-05-17T07:35:32Z Closed pull request |-\|/-| 1690 +236 −153 cpp h 3|-\|/-| 
+[Node.js] Enable record/playback using pipeline |-\|/-| 2018-05-15T00:44:12Z Merged pull request |-\|/-| 1688 +265 −72 js 1|-\|/-| 
+Fixing issue with post-processing blocks |-\|/-| 2018-05-16T15:52:32Z Merged pull request |-\|/-| 1681 +20 −8 hpp 1|-\|/-| 
+Fw notifications |-\|/-| 2018-05-13T08:26:20Z Merged pull request |-\|/-| 1679 +39 −18 cpp h 4|-\|/-| 
+[Node.js] Add new camera info and notification categories |-\|/-| 2018-05-11T07:30:01Z Merged pull request |-\|/-| 1677 +40 −4 js cpp 3|-\|/-| 
+Adding usb_spec enum to pybackend |-\|/-| 2018-05-08T17:42:40Z Merged pull request |-\|/-| 1675 +17 −2 cpp 1|-\|/-| 
+Minor changes regarding description of CameraOption and its values |-\|/-| 2018-05-07T14:42:50Z Merged pull request |-\|/-| 1669 +20 −3 cs 1|-\|/-| 
+Fix compile error when cross compile with arm |-\|/-| 2018-05-28T08:18:47Z Merged pull request |-\|/-| 1668 +1 −1 txt 0|-\|/-| 
+[Node.js] Fix incidental node.js CI test failure |-\|/-| 2018-05-08T04:48:52Z Merged pull request |-\|/-| 1666 +17 −9 js 1|-\|/-| 
+Release 2.11.0 merge to master |-\|/-| 2018-05-06T15:53:10Z Merged pull request |-\|/-| 1661 +2,171 −546 def txt 1|-\|/-| 
+Fix json load open dialog |-\|/-| 2018-05-06T11:14:48Z Merged pull request |-\|/-| 1660 +37 −43 cpp h c 11|-\|/-| 
+Merge from master to dev |-\|/-| 2018-05-04T07:05:35Z Merged pull request |-\|/-| 1652 +25 −7 txt md c xml 2|-\|/-| 
+.NET Processing Example |-\|/-| 2018-05-03T17:45:53Z Merged pull request |-\|/-| 1650 +612 −72 def h cpp sln cs csproj 13|-\|/-| 
+Updated rs-depth.c |-\|/-| 2018-05-03T11:14:55Z Merged pull request |-\|/-| 1649 +4 −1 c 1|-\|/-| 
+Firmware-Update notifications |-\|/-| 2018-05-03T14:56:18Z Merged pull request |-\|/-| 1648 +156 −25 cpp h 7|-\|/-| 
+Add USB3.2 descriptor type. |-\|/-| 2018-05-03T10:45:06Z Merged pull request |-\|/-| 1645 +61 −41 h cpp 5|-\|/-| 
+Holes filling processing block |-\|/-| 2018-05-03T17:45:07Z Merged pull request |-\|/-| 1644 +662 −482 def txt cpp h hpp 13|-\|/-| 
+Fixed bug DSO-9096 save the original resolution and use it to ROI calculation. |-\|/-| 2018-05-02T17:20:54Z Merged pull request |-\|/-| 1638 +11 −4 cpp h 2|-\|/-| 
+Unity fixes and optimizations |-\|/-| 2018-05-28T15:38:37Z Closed pull request |-\|/-| 1637 +189 −174 cs meta 4|-\|/-| 
+Fixed bug DSO-8873 - Invalidate the options after set_option called. |-\|/-| 2018-05-02T17:19:26Z Merged pull request |-\|/-| 1636 +10 −2 cpp h 2|-\|/-| 
+Point cloud performance optimization |-\|/-| 2018-05-02T08:25:04Z Merged pull request |-\|/-| 1633 +301 −38 0|-\|/-| 
+DQT - Z-accuracy metric pivot switched to ROI center |-\|/-| 2018-04-30T17:14:41Z Merged pull request |-\|/-| 1629 +27 −17 h md vsdx png cpp 4|-\|/-| 
+Add post-processing filters to python binding |-\|/-| 2018-04-30T17:13:03Z Merged pull request |-\|/-| 1627 +34 −18 hpp cpp 3|-\|/-| 
+Fixing a bug in PyBackend set_xu method |-\|/-| 2018-04-29T18:42:37Z Merged pull request |-\|/-| 1625 +2 −2 cpp 1|-\|/-| 
+[Node.js] Add option value validity check |-\|/-| 2018-05-02T06:34:56Z Merged pull request |-\|/-| 1623 +119 −0 js 2|-\|/-| 
+[Node.js] Add align object to the pool for gc |-\|/-| 2018-04-28T06:49:09Z Merged pull request |-\|/-| 1618 +1 −0 js 1|-\|/-| 
+[Node.js] Fix getCameraInfo crash issue |-\|/-| 2018-04-27T08:07:08Z Merged pull request |-\|/-| 1617 +16 −6 js cpp 3|-\|/-| 
+Adding multi_pins_uvc_device to PyBackend |-\|/-| 2018-04-29T14:11:09Z Merged pull request |-\|/-| 1614 +69 −9 cpp 1|-\|/-| 
+Rsunity |-\|/-| 2018-05-28T15:38:12Z Closed pull request |-\|/-| 1611 +115 −3 cs 3|-\|/-| 
+Fixed bug DSO-9243 - replace stream_profiles request with current device instance |-\|/-| 2018-04-26T13:51:44Z Merged pull request |-\|/-| 1605 +17 −1 cpp h 2|-\|/-| 
+Adding holes filling Left/Near/Far Neighbor methods |-\|/-| 2018-04-29T13:31:09Z Merged pull request |-\|/-| 1603 +239 −27 txt cpp h 4|-\|/-| 
+Fixes compilation and installation when using Catkin |-\|/-| 2018-05-03T11:13:54Z Merged pull request |-\|/-| 1602 +15 −4 txt xml 1|-\|/-| 
+[nodejs] Add test case for stream - streamToString |-\|/-| 2018-05-08T06:04:42Z Merged pull request |-\|/-| 1596 +56 −3 js 1|-\|/-| 
+Compilation on ARM |-\|/-| 2018-04-29T13:45:00Z Merged pull request |-\|/-| 1595 +9 −5 txt 0|-\|/-| 
+[nodejs] Add test case for freameset |-\|/-| 2018-05-08T06:06:15Z Merged pull request |-\|/-| 1584 +11 −1 js 1|-\|/-| 
+[nodejs] Add test case for points |-\|/-| 2018-07-10T06:41:06Z Closed pull request |-\|/-| 1583 +110 −18 js 1|-\|/-| 
+Fixing LibRS installation fail on MacOS  |-\|/-| 2018-04-23T13:53:04Z Merged pull request |-\|/-| 1581 +1 −0 md 0|-\|/-| 
+typo |-\|/-| 2018-04-19T19:43:36Z Merged pull request |-\|/-| 1575 +1 −1 md 0|-\|/-| 
+Merge of 2.10.4 into master |-\|/-| 2018-04-18T17:44:47Z Merged pull request |-\|/-| 1571 +7,300 −545 yml txt md cpp 3|-\|/-| 
+Playback repeat |-\|/-| 2018-04-23T13:42:24Z Merged pull request |-\|/-| 1566 +40 −7 def h hpp cpp 7|-\|/-| 
+Promote version to 2.10.4 |-\|/-| 2018-04-17T16:23:26Z Closed pull request |-\|/-| 1560 +2 −2 h xml 2|-\|/-| 
+Merge contributions from Master |-\|/-| 2018-04-17T15:48:09Z Merged pull request |-\|/-| 1558 +211 −6 md txt js 2|-\|/-| 
+Adding preset for removing the IR pattern from left imager |-\|/-| 2018-05-17T07:26:00Z Merged pull request |-\|/-| 1557 +76 −6 h cpp 6|-\|/-| 
+DSO-8830 - update metadata documenting. |-\|/-| 2018-04-16T20:50:57Z Merged pull request |-\|/-| 1552 +3 −0 md 0|-\|/-| 
+Adding units to the viewer (DSO-8966) |-\|/-| 2018-04-17T06:35:42Z Merged pull request |-\|/-| 1551 +4 −4 cpp 2|-\|/-| 
+Add support for conversions between C++ and Python time objects |-\|/-| 2018-04-16T20:51:26Z Merged pull request |-\|/-| 1550 +3 −0 cpp 1|-\|/-| 
+Fixed bug DSO-8817 - enable loading json file in DQT. |-\|/-| 2018-04-16T20:51:36Z Merged pull request |-\|/-| 1549 +53 −12 cpp h 3|-\|/-| 
+Enabling work-around for async controls for libuvc |-\|/-| 2018-04-17T06:36:03Z Merged pull request |-\|/-| 1547 +2 −1 cpp 1|-\|/-| 
+Post-processing filters rework and testing automation (DSO-8884) |-\|/-| 2018-04-17T13:53:08Z Merged pull request |-\|/-| 1546 +5,477 −85 yml txt cpp h 9|-\|/-| 
+Resolving linux compilation issue (sensor-control) |-\|/-| 2018-04-15T11:11:21Z Merged pull request |-\|/-| 1539 +1 −1 txt 0|-\|/-| 
+Resolve linux compilation issue (post-processing) |-\|/-| 2018-04-15T11:11:35Z Merged pull request |-\|/-| 1538 +1 −1 txt 0|-\|/-| 
+Record example |-\|/-| 2018-04-16T15:48:33Z Merged pull request |-\|/-| 1533 +557 −12 txt md 0|-\|/-| 
+Added start_record and stop_record. |-\|/-| 2018-04-12T12:59:25Z Merged pull request |-\|/-| 1524 +303 −109 cpp h hpp 4|-\|/-| 
+Dave's patches |-\|/-| 2018-04-11T08:55:48Z Merged pull request |-\|/-| 1522 +56 −4 h cpp 3|-\|/-| 
+Dave patches |-\|/-| 2018-04-11T08:55:51Z Merged pull request |-\|/-| 1520 +56 −4 h cpp 3|-\|/-| 
+[nodejs] Add test case for devicelist test |-\|/-| 2018-04-11T07:33:47Z Merged pull request |-\|/-| 1511 +31 −1 js 1|-\|/-| 
+[nodejs] Add test cases for config test |-\|/-| 2018-04-11T07:35:07Z Merged pull request |-\|/-| 1510 +141 −3 js 1|-\|/-| 
+Refactoring AVX code into a seperate compilation unit |-\|/-| 2018-04-12T18:30:56Z Merged pull request |-\|/-| 1507 +315 −238 txt cpp 1|-\|/-| 
+Merge of 2.10.3 into master |-\|/-| 2018-04-09T15:03:58Z Merged pull request |-\|/-| 1505 +1,878 −559 yml txt cpp h rules md hpp xml patch ps1 11|-\|/-| 
+[nodejs] Add test cases for roisensor |-\|/-| 2018-04-13T06:25:04Z Closed pull request |-\|/-| 1498 +395 −0 js 1|-\|/-| 
+Compilation error for non-optimized builds |-\|/-| 2018-04-12T18:30:45Z Merged pull request |-\|/-| 1496 +2 −2 cpp 1|-\|/-| 
+[Node.js] Update node.js package version for 2.10.3 |-\|/-| 2018-04-09T05:02:47Z Merged pull request |-\|/-| 1495 +2 −2 json 2|-\|/-| 
+[Node.js] Add new stream and camera_info type values |-\|/-| 2018-04-08T08:05:02Z Merged pull request |-\|/-| 1494 +116 −4 js cpp 3|-\|/-| 
+Merge from master to dev |-\|/-| 2018-04-04T09:36:54Z Merged pull request |-\|/-| 1479 +1 −0 md 0|-\|/-| 
+Bug fix - DQT improper handling USB type requests |-\|/-| 2018-04-04T09:34:04Z Merged pull request |-\|/-| 1478 +13 −4 cpp 2|-\|/-| 
+Linux driver stalls if a signal is received |-\|/-| 2018-04-12T18:30:34Z Merged pull request |-\|/-| 1476 +20 −3 cpp 1|-\|/-| 
+Compilation error with -Wall in clang |-\|/-| 2018-04-03T19:38:47Z Merged pull request |-\|/-| 1475 +1 −1 hpp 1|-\|/-| 
+Update rs400_support.md |-\|/-| 2018-04-03T15:32:11Z Merged pull request |-\|/-| 1474 +9 −9 md 0|-\|/-| 
+libuvc fixes |-\|/-| 2018-04-03T14:35:59Z Merged pull request |-\|/-| 1473 +111 −42 cpp 2|-\|/-| 
+Fixing ARM build  |-\|/-| 2018-04-03T12:44:29Z Merged pull request |-\|/-| 1472 +1 −1 cpp 1|-\|/-| 
+USB2 Support for D410/D415/D435 |-\|/-| 2018-04-03T10:54:29Z Merged pull request |-\|/-| 1470 +614 −310 yml cpp h 7|-\|/-| 
+Update patch-utils.sh |-\|/-| 2018-04-02T11:26:24Z Closed pull request |-\|/-| 1469 +1 −1 sh 1|-\|/-| 
+Update .travis.yml |-\|/-| 2018-04-02T09:34:25Z Merged pull request |-\|/-| 1468 +1 −1 yml 1|-\|/-| 
+[Node.js] Fix the ROI not working issue |-\|/-| 2018-04-08T05:15:46Z Merged pull request |-\|/-| 1461 +51 −10 js cpp 3|-\|/-| 
+[Node.js] Avoid playback test failure |-\|/-| 2018-03-30T06:17:04Z Merged pull request |-\|/-| 1460 +6 −3 js 1|-\|/-| 
+Adding preliminary support for future L500 devices |-\|/-| 2018-04-01T09:29:04Z Merged pull request |-\|/-| 1456 +795 −176 txt cpp rules h patch ps1 9|-\|/-| 
+libuvc fixes  |-\|/-| 2018-04-03T14:36:00Z Merged pull request |-\|/-| 1452 +111 −42 cpp 2|-\|/-| 
+Development |-\|/-| 2018-03-28T08:34:02Z Closed pull request |-\|/-| 1451 +154 −11 js 2|-\|/-| 
+[Node.js] Add new option value for auto exposure |-\|/-| 2018-03-30T06:17:25Z Merged pull request |-\|/-| 1444 +16 −0 js cpp 2|-\|/-| 
+Modify viewer pointcloud to render using quads |-\|/-| 2018-05-31T06:17:14Z Closed pull request |-\|/-| 1440 +19 −12 cpp 1|-\|/-| 
+[Node.js] Fix typos of property name and types |-\|/-| 2018-03-26T13:40:36Z Merged pull request |-\|/-| 1436 +10 −11 js 1|-\|/-| 
+[nodejs] Add test cases for pipelineprofile |-\|/-| 2018-03-27T06:09:11Z Merged pull request |-\|/-| 1434 +144 −0 js 1|-\|/-| 
+several fixes for libuvc |-\|/-| 2018-03-28T09:29:02Z Closed pull request |-\|/-| 1427 +111 −42 c cpp 2|-\|/-| 
+Merge of 2.10.2 release to master |-\|/-| 2018-03-22T15:49:49Z Merged pull request |-\|/-| 1422 +3,008 −1,795 txt cpp h depot_tools md PNG hpp 14|-\|/-| 
+Optimizing the UX of inputing exact control values |-\|/-| 2018-04-12T18:30:17Z Merged pull request |-\|/-| 1421 +2,169 −624 yml txt cpp h 3|-\|/-| 
+Adding protection against missing OpenGL drivers |-\|/-| 2018-03-22T14:22:32Z Merged pull request |-\|/-| 1420 +7 −0 cpp hpp 3|-\|/-| 
+Fixing windows documentation |-\|/-| 2018-03-22T10:11:48Z Merged pull request |-\|/-| 1419 +2 −2 md PNG 1|-\|/-| 
+Development for .NET application. |-\|/-| 2018-03-22T05:42:03Z Closed pull request |-\|/-| 1416 +1,595 −751 txt cpp h depot_tools md 7|-\|/-| 
+Adding Fisheye auto-exposure converge step option |-\|/-| 2018-03-22T10:36:35Z Merged pull request |-\|/-| 1411 +106 −20 cpp h cs 11|-\|/-| 
+Support D410/415/435 with unique PID in USB2 Mode |-\|/-| 2018-03-22T11:46:15Z Closed pull request |-\|/-| 1409 +362 −91 cpp rules patch ps1 h 10|-\|/-| 
+Realign spatial filter definitions with reference design |-\|/-| 2018-03-22T08:09:44Z Merged pull request |-\|/-| 1408 +18 −20 h 1|-\|/-| 
+Fixing an issue with bpp of software device |-\|/-| 2018-03-21T15:48:15Z Merged pull request |-\|/-| 1407 +1 −1 cpp 1|-\|/-| 
+Protecting against Camera-Control / Video-Proc being NULL |-\|/-| 2018-03-21T12:23:30Z Merged pull request |-\|/-| 1406 +35 −23 cpp h 2|-\|/-| 
+Merge of master into dev |-\|/-| 2018-03-21T11:10:20Z Merged pull request |-\|/-| 1405 +3 −1 md 0|-\|/-| 
+Realsense-viewer to display greyscale image instead of green |-\|/-| 2018-03-21T14:57:08Z Merged pull request |-\|/-| 1404 +9 −14 cpp h 4|-\|/-| 
+Complete parsing for FW Error reports |-\|/-| 2018-03-21T09:45:21Z Merged pull request |-\|/-| 1403 +61 −17 cpp h 3|-\|/-| 
+Enhance parsing for FW Error reports |-\|/-| 2018-03-21T08:12:42Z Closed pull request |-\|/-| 1402 +61 −17 cpp h 3|-\|/-| 
+Adding preliminary support for future L500 devices |-\|/-| 2018-03-20T17:17:02Z Closed pull request |-\|/-| 1398 +707 −114 txt cpp h rules hpp patch ps1 13|-\|/-| 
+Remove GIT Submodule |-\|/-| 2018-03-20T16:12:01Z Merged pull request |-\|/-| 1397 +0 −1 depot_tools 1|-\|/-| 
+Adding preliminary support for future L500 devices |-\|/-| 2018-03-20T11:14:28Z Closed pull request |-\|/-| 1388 +728 −115 txt cpp h rules hpp patch ps1 13|-\|/-| 
+Simplify command given in the docs. |-\|/-| 2018-03-19T07:56:27Z Merged pull request |-\|/-| 1386 +7 −5 md 0|-\|/-| 
+Add missing include for RGB_USING_AVX2 |-\|/-| 2018-03-19T08:40:50Z Merged pull request |-\|/-| 1385 +4 −0 cpp 1|-\|/-| 
+Add test cases for pipeline |-\|/-| 2018-03-19T08:30:42Z Merged pull request |-\|/-| 1378 +167 −10 js 1|-\|/-| 
+[Node.js] Expose native error to Javascript |-\|/-| 2018-03-22T05:43:10Z Merged pull request |-\|/-| 1369 +1,279 −1,001 js 1|-\|/-| 
+Updating legacy macOS documentation to remove Homebrew installation instructions |-\|/-| 2018-03-19T08:31:55Z Merged pull request |-\|/-| 1368 +1 −13 md 0|-\|/-| 
+Fix rs terminal |-\|/-| 2018-03-19T09:44:02Z Merged pull request |-\|/-| 1356 +121 −69 md cpp 1|-\|/-| 
+[nodejs] Add test cases for RecorderDevice |-\|/-| 2018-03-13T03:16:02Z Merged pull request |-\|/-| 1322 +48 −0 js 1|-\|/-| 
+[nodejs] Use Promise.All to handle multi promise test cases |-\|/-| 2018-03-12T10:15:48Z Merged pull request |-\|/-| 1321 +29 −23 js 1|-\|/-| 
+Merge from Master to Dev |-\|/-| 2018-03-09T15:38:03Z Merged pull request |-\|/-| 1313 +18 −42 md h xml 2|-\|/-| 
+[nodejs] Add test cases for sensor |-\|/-| 2018-03-12T06:00:00Z Merged pull request |-\|/-| 1312 +186 −3 js 1|-\|/-| 
+Fix links to OpenCV exmaples in readme.md |-\|/-| 2018-03-09T14:53:47Z Merged pull request |-\|/-| 1311 +4 −4 md 0|-\|/-| 
+[NET wrapper] depth<->disparity transform processing block |-\|/-| 2018-03-19T09:46:24Z Merged pull request |-\|/-| 1307 +25 −0 cs 2|-\|/-| 
+[Python] add get_infrared_frame to frameset |-\|/-| 2018-03-08T09:00:39Z Merged pull request |-\|/-| 1305 +1 −0 cpp 1|-\|/-| 
+[Node.js] Make Pointcloud inherit from Options |-\|/-| 2018-03-13T03:15:29Z Merged pull request |-\|/-| 1304 +79 −4 js cpp 3|-\|/-| 
+Support USB2 PID for selected D400 SKUs |-\|/-| 2018-03-08T05:45:30Z Closed pull request |-\|/-| 1295 +284 −68 cpp rules h sh patch ps1 11|-\|/-| 
+[Unity] Textured Point Cloud |-\|/-| 2018-03-19T08:30:22Z Merged pull request |-\|/-| 1293 +163 −99 cs unity 5|-\|/-| 
+Software device fix |-\|/-| 2018-03-19T08:28:59Z Merged pull request |-\|/-| 1288 +30 −3 cpp 3|-\|/-| 
+[nodejs] Update expected type of timestamp_domain to number |-\|/-| 2018-03-06T06:10:03Z Merged pull request |-\|/-| 1285 +3 −4 js 3|-\|/-| 
+Align stream profile |-\|/-| 2018-03-19T08:28:04Z Merged pull request |-\|/-| 1278 +68 −4 cpp h 2|-\|/-| 
+Fixed bug DSO-8782 |-\|/-| 2018-03-07T12:02:44Z Merged pull request |-\|/-| 1277 +1 −1 cpp 1|-\|/-| 
+Add BUILD_WITH_STATIC_CRT option |-\|/-| 2018-03-04T15:15:29Z Merged pull request |-\|/-| 1262 +24 −18 txt 0|-\|/-| 
+Merge from master to dev |-\|/-| 2018-03-01T13:06:32Z Merged pull request |-\|/-| 1260 +32 −31 md h 1|-\|/-| 
+Version update to 2.10.1. |-\|/-| 2018-03-01T10:55:40Z Merged pull request |-\|/-| 1257 +63 −61 md h xml 2|-\|/-| 
+[Node.js] Add getInfraredFrame to FrameSet |-\|/-| 2018-03-06T03:21:54Z Merged pull request |-\|/-| 1256 +124 −23 js json cpp 4|-\|/-| 
+Fixed bug DSO-7775 |-\|/-| 2018-02-28T16:13:16Z Merged pull request |-\|/-| 1249 +6 −1 h 1|-\|/-| 
+Add support for UYUV for D4xx with global Shutter sensor |-\|/-| 2018-03-01T07:14:18Z Closed pull request |-\|/-| 1248 +8 −6 cpp 4|-\|/-| 
+Bug fix - Post-processing filters to use mutexes |-\|/-| 2018-03-05T06:40:06Z Merged pull request |-\|/-| 1247 +13 −0 cpp 3|-\|/-| 
+Fixes and enhancements to core classes |-\|/-| 2018-02-28T10:23:31Z Merged pull request |-\|/-| 1246 +118 −130 hpp cpp h 15|-\|/-| 
+Dynamic detection of AVX instead of a CMake flag |-\|/-| 2018-03-19T08:31:17Z Merged pull request |-\|/-| 1245 +474 −448 txt 0|-\|/-| 
+[Node.js] Add some minor new APIs |-\|/-| 2018-02-28T13:53:42Z Merged pull request |-\|/-| 1241 +33 −4 js cpp 3|-\|/-| 
+Development |-\|/-| 2018-02-28T16:11:54Z Closed pull request |-\|/-| 1239 +6,768 −624 txt h depot_tools md hpp cpp sh 9|-\|/-| 
+Pipeline playback repeat |-\|/-| 2018-02-26T19:06:25Z Merged pull request |-\|/-| 1234 +31 −1 cpp h 2|-\|/-| 
+Allowing to call load_json on a recording device |-\|/-| 2018-02-27T07:04:11Z Merged pull request |-\|/-| 1233 +6 −1 h cpp 2|-\|/-| 
+Changing realseance to librealseance in the python wrapper |-\|/-| 2018-02-26T07:33:53Z Merged pull request |-\|/-| 1226 +1 −1 md 0|-\|/-| 
+[Node.js] Prepare for 2.10.0 release |-\|/-| 2018-02-26T16:54:27Z Merged pull request |-\|/-| 1224 +8 −4 js json 3|-\|/-| 
+[Node.js] Add file existence check |-\|/-| 2018-02-24T07:40:57Z Merged pull request |-\|/-| 1222 +10 −6 js 1|-\|/-| 
+[Unity] Add ColorPointCloudGenerator Class |-\|/-| 2018-05-29T09:55:46Z Closed pull request |-\|/-| 1221 +3,638 −12 0|-\|/-| 
+[Node.js] Support npm installation on macos |-\|/-| 2018-02-24T03:57:12Z Merged pull request |-\|/-| 1218 +88 −6 md gyp sh js 4|-\|/-| 
+Add x86/x64 check during build of csharp wrapper |-\|/-| 2018-03-21T15:09:54Z Merged pull request |-\|/-| 1211 +104 −42 sln csproj md 3|-\|/-| 
+Adding SIMD AVX2 instructions to unpack YUY2 |-\|/-| 2018-02-25T16:13:33Z Merged pull request |-\|/-| 1209 +343 −100 txt 0|-\|/-| 
+[NET wrapper] AdvancedDevice fix |-\|/-| 2018-02-22T15:18:13Z Merged pull request |-\|/-| 1208 +11 −2 cs 1|-\|/-| 
+Pipeline streaming restart fix |-\|/-| 2018-02-21T17:24:31Z Merged pull request |-\|/-| 1205 +1 −1 cpp 1|-\|/-| 
+Unity Improvements |-\|/-| 2018-02-22T11:26:18Z Merged pull request |-\|/-| 1204 +3,945 −183 cs mat prefab 3|-\|/-| 
+Update installation_osx.md |-\|/-| 2018-03-01T06:54:02Z Merged pull request |-\|/-| 1199 +3 −3 md 0|-\|/-| 
+Add 848x480 as a fallback default |-\|/-| 2018-02-19T16:42:22Z Merged pull request |-\|/-| 1195 +17 −1 cpp 1|-\|/-| 
+Fix software device to enable recording into ROS-bag |-\|/-| 2018-02-21T14:21:09Z Merged pull request |-\|/-| 1193 +6 −2 cpp 1|-\|/-| 
+[Csharp wrapper] pointcloud, points class Add |-\|/-| 2018-02-17T10:18:57Z Merged pull request |-\|/-| 1188 +83 −1 cs 3|-\|/-| 
+ Enable actual FPS in metadata and use it in syncer. |-\|/-| 2018-02-22T10:45:18Z Merged pull request |-\|/-| 1185 +324 −63 h depot_tools cpp 9|-\|/-| 
+Clarify variable names in Sensor + nested classes |-\|/-| 2018-02-15T12:07:08Z Merged pull request |-\|/-| 1184 +15 −15 cs 1|-\|/-| 
+Kernel patches for 4.13 |-\|/-| 2018-02-17T10:19:36Z Merged pull request |-\|/-| 1183 +763 −38 md sh patch 4|-\|/-| 
+[Csharp wrapper] pointcloud, points class Add |-\|/-| 2018-02-17T10:19:19Z Closed pull request |-\|/-| 1182 +80 −3 h cs 4|-\|/-| 
+[Node.js] Fix build failure on macos |-\|/-| 2018-02-18T19:00:12Z Merged pull request |-\|/-| 1175 +17 −9 gyp json 3|-\|/-| 
+Default Accel format changed to XYZ32F |-\|/-| 2018-02-12T20:35:15Z Merged pull request |-\|/-| 1170 +24 −9 cpp 2|-\|/-| 
+Post Process Filters added. |-\|/-| 2018-02-12T19:37:43Z Merged pull request |-\|/-| 1169 +63 −0 cs 1|-\|/-| 
+[Node.js] Add sensor control example |-\|/-| 2018-02-23T05:35:45Z Merged pull request |-\|/-| 1167 +552 −1 json 2|-\|/-| 
+GCC internal compiler error on Python wrapper |-\|/-| 2018-02-11T11:32:03Z Merged pull request |-\|/-| 1166 +2 −2 cpp 1|-\|/-| 
+Fix illegal RosBag keys by replacing spaces with underscores |-\|/-| 2019-08-15T04:49:42Z Closed pull request |-\|/-| 1161 +18 −14 h 1|-\|/-| 
+[NET Wrapper] implement advanced mode and json configuration |-\|/-| 2018-02-12T17:29:45Z Merged pull request |-\|/-| 1158 +43 −3 cs 2|-\|/-| 
+[NET Wrapper] Fix sensor info |-\|/-| 2018-02-11T08:11:28Z Merged pull request |-\|/-| 1157 +4 −4 cs 1|-\|/-| 
+clarify distortion model coefficients order |-\|/-| 2018-02-12T19:41:24Z Merged pull request |-\|/-| 1155 +2 −2 h 1|-\|/-| 
+[Node.js] Update readme |-\|/-| 2018-02-12T01:51:51Z Merged pull request |-\|/-| 1154 +10 −0 md 0|-\|/-| 
+Bump Version to 2.10.0 |-\|/-| 2018-02-08T14:12:28Z Merged pull request |-\|/-| 1152 +3 −3 h xml 2|-\|/-| 
+Fix stderr redirection in the patch script |-\|/-| 2018-02-08T12:56:35Z Merged pull request |-\|/-| 1151 +6 −5 sh 1|-\|/-| 
+Rosbag Inspector Readme |-\|/-| 2018-02-08T11:43:39Z Merged pull request |-\|/-| 1150 +50 −2 txt md h cpp 4|-\|/-| 
+Enhancements and bug fixes in viewer |-\|/-| 2018-02-08T11:13:01Z Merged pull request |-\|/-| 1144 +14 −17 cpp h 2|-\|/-| 
+Compilation fix for tm2 device |-\|/-| 2018-02-08T10:11:37Z Merged pull request |-\|/-| 1142 +3 −3 cpp 1|-\|/-| 
+OSX CI fix |-\|/-| 2018-02-07T15:44:57Z Closed pull request |-\|/-| 1141 +3 −1 yml 1|-\|/-| 
+Added USE_SYSTEM_LIBUSB flag to CMake file |-\|/-| 2018-02-08T07:05:33Z Merged pull request |-\|/-| 1139 +40 −11 yml txt md 1|-\|/-| 
+[Python] Allow extrinsics and intrinsics creation and modification |-\|/-| 2018-02-08T11:39:34Z Merged pull request |-\|/-| 1138 +73 −33 cpp 1|-\|/-| 
+TM1 calibration update |-\|/-| 2018-02-07T20:51:55Z Merged pull request |-\|/-| 1136 +261 −85 yml hpp cpp h 6|-\|/-| 
+Fix illegal RosBag keys by replacing spaces with underscores |-\|/-| 2018-02-09T18:41:36Z Closed pull request |-\|/-| 1129 +29 −23 md h 1|-\|/-| 
+Fix glfw dep name and version |-\|/-| 2018-02-22T05:36:36Z Closed pull request |-\|/-| 1128 +16 −10 txt js json 3|-\|/-| 
+Raw frame snapshot to use .raw extension instead of .bin |-\|/-| 2018-02-06T15:22:25Z Merged pull request |-\|/-| 1127 +1 −1 cpp 1|-\|/-| 
+Fixed an issue with ColorCorrection parameters |-\|/-| 2018-02-06T15:22:45Z Merged pull request |-\|/-| 1125 +4 −2 cpp 1|-\|/-| 
+Fix exceptions error building node module on macOS |-\|/-| 2018-02-05T19:41:30Z Merged pull request |-\|/-| 1123 +14 −0 gyp 2|-\|/-| 
+Add rs2::frameset::get_infrared_frame() |-\|/-| 2018-02-05T17:49:30Z Merged pull request |-\|/-| 1122 +18 −0 hpp 1|-\|/-| 
+Ignore duplicated advanced mode parameters |-\|/-| 2018-02-04T16:45:05Z Merged pull request |-\|/-| 1121 +23 −15 hpp 1|-\|/-| 
+Handle syncer with high exposure value |-\|/-| 2018-02-05T12:51:16Z Closed pull request |-\|/-| 1120 +254 −51 cpp h depot_tools 9|-\|/-| 
+Python API additions |-\|/-| 2018-02-04T23:31:18Z Merged pull request |-\|/-| 1118 +38 −6 md py cpp 2|-\|/-| 
+Python free() bug |-\|/-| 2018-02-05T17:52:53Z Merged pull request |-\|/-| 1117 +0 −1 cpp 1|-\|/-| 
+[Node.js] Add tracking module support based on recorded files |-\|/-| 2018-02-02T09:43:02Z Merged pull request |-\|/-| 1116 +469 −30 0|-\|/-| 
+Fix compilation under Gentoo due to missing sys/sysmacros.h include. |-\|/-| 2018-02-04T16:45:46Z Merged pull request |-\|/-| 1114 +1 −2 cpp 1|-\|/-| 
+Fixed memory leak issues |-\|/-| 2018-02-05T17:50:33Z Merged pull request |-\|/-| 1111 +34 −26 cpp h 9|-\|/-| 
+Update temporal filter/ holes filling mode |-\|/-| 2018-02-04T13:11:14Z Merged pull request |-\|/-| 1109 +231 −162 0|-\|/-| 
+Post Processing Demo |-\|/-| 2018-02-08T09:00:11Z Merged pull request |-\|/-| 1108 +829 −29 txt hpp cpp 2|-\|/-| 
+Correct linter.js internal behavior for win32 build |-\|/-| 2018-02-04T15:43:07Z Merged pull request |-\|/-| 1107 +2 −2 js 1|-\|/-| 
+Occlusion filter for Pointcloud from RGB and Depth streams |-\|/-| 2018-02-07T13:23:43Z Merged pull request |-\|/-| 1104 +428 −161 txt 0|-\|/-| 
+Unity Integration |-\|/-| 2018-02-01T09:39:17Z Merged pull request |-\|/-| 1102 +4,927 −9 md csproj gitignore meta mat 10|-\|/-| 
+Fixing rs-terminal device_id parameter |-\|/-| 2018-01-31T07:53:01Z Merged pull request |-\|/-| 1101 +45 −20 cpp 2|-\|/-| 
+Align in .NET bug fix |-\|/-| 2018-01-30T19:04:00Z Merged pull request |-\|/-| 1100 +1 −0 cs 1|-\|/-| 
+Minor Version Fix |-\|/-| 2018-01-30T19:16:58Z Merged pull request |-\|/-| 1099 +1 −1 xml 1|-\|/-| 
+[Node.js] Update enum definitions |-\|/-| 2018-01-31T03:42:35Z Merged pull request |-\|/-| 1097 +905 −420 0|-\|/-| 
+[nodejs] Update test cases based on node package 0.290.0 release |-\|/-| 2018-01-30T07:34:53Z Merged pull request |-\|/-| 1096 +30 −25 js 9|-\|/-| 
+Update rs400_advanced_mode.md |-\|/-| 2018-01-29T14:02:37Z Merged pull request |-\|/-| 1093 +322 −43 md 0|-\|/-| 
+Added backend timestamp to metadata fields. |-\|/-| 2018-01-31T12:11:13Z Merged pull request |-\|/-| 1092 +30 −13 h cpp 8|-\|/-| 
+Fixing signature for rs2_set_devices_changed_callback |-\|/-| 2018-01-29T14:20:03Z Merged pull request |-\|/-| 1088 +7 −1 h cpp 2|-\|/-| 
+Remove 0.5 pixel offset in UV-mapping |-\|/-| 2018-01-29T11:53:07Z Merged pull request |-\|/-| 1075 +1 −1 cpp 1|-\|/-| 
+Warnings and bug fix in viewer  |-\|/-| 2018-01-29T14:19:49Z Merged pull request |-\|/-| 1074 +63 −62 cpp h hpp c 10|-\|/-| 
+[Node.js] Add exportToPly method to Points class |-\|/-| 2018-01-30T05:00:00Z Merged pull request |-\|/-| 1073 +48 −0 js cpp 3|-\|/-| 
+-Wformat-security |-\|/-| 2018-01-25T05:49:34Z Merged pull request |-\|/-| 1071 +4 −4 txt cpp 1|-\|/-| 
+Align refactoring |-\|/-| 2018-01-24T20:39:25Z Merged pull request |-\|/-| 1068 +232 −141 h cpp 2|-\|/-| 
+Fixing several issues regarding depth scale ruler length, default resolution and default format |-\|/-| 2018-01-24T08:43:50Z Merged pull request |-\|/-| 1065 +72 −62 cpp h 3|-\|/-| 
+Updating GitHub Issue Template |-\|/-| 2018-01-29T11:53:19Z Merged pull request |-\|/-| 1063 +22 −7 md 0|-\|/-| 
+[Node.js] Add disparity frame support |-\|/-| 2018-01-25T05:03:07Z Merged pull request |-\|/-| 1062 +165 −11 json js cpp 5|-\|/-| 
+Adding Projection Documentation |-\|/-| 2018-01-23T17:35:14Z Merged pull request |-\|/-| 1057 +1 −0 md 0|-\|/-| 
+Added depth map scaling ruler to realsense-viewer tool |-\|/-| 2018-01-23T07:29:45Z Merged pull request |-\|/-| 1055 +325 −9 cpp h 2|-\|/-| 
+Add MacOS frameworks to fix build |-\|/-| 2018-01-22T13:25:55Z Merged pull request |-\|/-| 1054 +12 −0 txt 0|-\|/-| 
+Unified exposure units  |-\|/-| 2018-01-22T15:48:47Z Merged pull request |-\|/-| 1052 +19 −3 cpp 1|-\|/-| 
+Static analysis fixes |-\|/-| 2018-01-24T05:51:01Z Merged pull request |-\|/-| 1047 +21 −15 yml h hpp cpp 10|-\|/-| 
+Update to Python README |-\|/-| 2018-01-22T13:54:56Z Merged pull request |-\|/-| 1046 +35 −9 md 0|-\|/-| 
+Adding the rs-fw-logger tool to the executables destination folder |-\|/-| 2018-01-21T10:52:49Z Merged pull request |-\|/-| 1045 +6 −6 txt 0|-\|/-| 
+Matlab Wrapper Inital PR |-\|/-| 2018-08-15T13:28:50Z Merged pull request |-\|/-| 1038 +4,252 −52 txt h hpp md cpp 9|-\|/-| 
+Fixed merge issue |-\|/-| 2018-01-18T17:10:15Z Merged pull request |-\|/-| 1037 +1 −0 cpp 1|-\|/-| 
+Fixed undesired exception throwing when preset file has no streams |-\|/-| 2018-01-18T16:57:28Z Merged pull request |-\|/-| 1036 +18 −19 cpp 1|-\|/-| 
+Update package.xml |-\|/-| 2018-01-18T16:57:02Z Merged pull request |-\|/-| 1035 +1 −1 xml 1|-\|/-| 
+Presets Panel for RealSense Viewer |-\|/-| 2018-01-18T16:15:37Z Merged pull request |-\|/-| 1034 +643 −137 0|-\|/-| 
+Ignoring power_line_frequency control when applying visual presets |-\|/-| 2018-01-18T16:15:12Z Merged pull request |-\|/-| 1033 +2 −1 cpp 1|-\|/-| 
+Correction for Pull Request 1014 |-\|/-| 2018-01-18T13:52:33Z Merged pull request |-\|/-| 1032 +0 −6 cpp 1|-\|/-| 
+UV texture mapping to use rectified RGB rotation matrix |-\|/-| 2018-01-18T13:03:59Z Merged pull request |-\|/-| 1031 +10 −6 cpp 2|-\|/-| 
+Update the visual presets of  D4XX cameras |-\|/-| 2018-01-18T13:59:45Z Merged pull request |-\|/-| 1029 +480 −121 h cpp 3|-\|/-| 
+Removed dependency of package Threads |-\|/-| 2018-01-19T14:52:57Z Merged pull request |-\|/-| 1026 +0 −3 txt 0|-\|/-| 
+Add description about linking frameworks in Xcode in installation_osx.md |-\|/-| 2018-01-22T10:59:08Z Closed pull request |-\|/-| 1025 +4 −0 md 0|-\|/-| 
+Better Unit test failure message for enum test |-\|/-| 2018-01-18T06:09:45Z Merged pull request |-\|/-| 1024 +6 −1 cpp 1|-\|/-| 
+Fix texture mapping in Viewer's 3D view when the device is disconnected |-\|/-| 2018-01-18T13:04:33Z Merged pull request |-\|/-| 1023 +5 −8 cpp 1|-\|/-| 
+[nodejs] Update test-pipeline.js forcing to use watiForFrames() |-\|/-| 2018-01-22T07:44:13Z Merged pull request |-\|/-| 1022 +8 −5 js 1|-\|/-| 
+Adding Software-Device |-\|/-| 2018-01-18T16:16:03Z Merged pull request |-\|/-| 1018 +1,702 −373 yml def txt cpp hpp 7|-\|/-| 
+Add netstandard2.0 support to C# wrapper |-\|/-| 2018-02-22T07:57:07Z Merged pull request |-\|/-| 1017 +303 −90 sln targets cs csproj 10|-\|/-| 
+Adding frame.keep() API |-\|/-| 2018-01-17T11:41:07Z Merged pull request |-\|/-| 1015 +78 −19 def h hpp cpp cs 17|-\|/-| 
+Depth sensor snapshot to include raw data |-\|/-| 2018-01-16T06:11:18Z Merged pull request |-\|/-| 1014 +116 −32 cpp h 3|-\|/-| 
+Post Processing Demo |-\|/-| 2018-02-01T09:35:51Z Closed pull request |-\|/-| 1010 +535 −3 txt 0|-\|/-| 
+Addressing -Wsequence-point warnings |-\|/-| 2018-01-13T21:14:23Z Merged pull request |-\|/-| 1009 +14 −14 txt cpp c h hpp 9|-\|/-| 
+Making sure all API headers are self-contained and adding such check … |-\|/-| 2018-01-14T10:42:24Z Merged pull request |-\|/-| 1008 +39 −5 yml h hpp sh 7|-\|/-| 
+Adding Measure example |-\|/-| 2018-01-18T13:05:06Z Merged pull request |-\|/-| 1007 +1,532 −520 cpp h txt hpp 4|-\|/-| 
+[Pyhton] Dynamic mapping of RS2 enums |-\|/-| 2018-01-12T23:02:56Z Merged pull request |-\|/-| 1005 +97 −172 def h cpp 7|-\|/-| 
+[Node.js] Prepare for 2.9.0 release to npmjs |-\|/-| 2018-01-22T07:43:16Z Merged pull request |-\|/-| 1004 +28 −34 js json 4|-\|/-| 
+Adding new recording for the D415 |-\|/-| 2018-01-12T17:14:45Z Merged pull request |-\|/-| 1002 +2 −0 md 0|-\|/-| 
+Improving the Linux CPU utilization issue in multi cameras streaming scenario  |-\|/-| 2018-01-11T22:35:29Z Merged pull request |-\|/-| 1001 +15 −5 txt cpp h 2|-\|/-| 
+Align patches flow to the latest Ubuntu convention |-\|/-| 2018-01-12T23:03:56Z Merged pull request |-\|/-| 998 +19 −12 sh patch 4|-\|/-| 
+[Node.js] Remove getMotionIntrinsics from Sensor |-\|/-| 2018-01-12T07:41:02Z Merged pull request |-\|/-| 997 +0 −40 js 2|-\|/-| 
+Python code refactoring [Manually Closed] |-\|/-| 2018-01-10T14:19:26Z Closed pull request |-\|/-| 994 +18,858 −3,851 yml cmake def txt h 4|-\|/-| 
+D400 With Motion Module |-\|/-| 2018-01-10T16:52:41Z Merged pull request |-\|/-| 992 +87 −67 cpp h 4|-\|/-| 
+Changed scale factor for scaleAbs to display wider range of colors |-\|/-| 2018-01-14T10:45:02Z Merged pull request |-\|/-| 991 +2 −2 py 2|-\|/-| 
+fixed no label error in wrappers/csharp/copy_dependencies.bat |-\|/-| 2018-01-10T05:30:29Z Merged pull request |-\|/-| 990 +2 −2 bat 1|-\|/-| 
+write CMake ConfigVersion file |-\|/-| 2018-01-10T05:31:22Z Merged pull request |-\|/-| 988 +5 −2 txt 0|-\|/-| 
+write CMake ConfigVersion file |-\|/-| 2018-01-09T12:54:53Z Closed pull request |-\|/-| 987 +2,899 −331 yml def txt 2|-\|/-| 
+[Node.js] Add marked 0.3.9 as dependency as security vulnerability workaround |-\|/-| 2018-01-09T07:19:37Z Merged pull request |-\|/-| 985 +5 −4 json 2|-\|/-| 
+Remove repeated rs2_stream in comments |-\|/-| 2018-01-09T07:45:22Z Merged pull request |-\|/-| 984 +2 −2 h 1|-\|/-| 
+Fixed false reset of sensors pointer in depth_stereo_sensor |-\|/-| 2018-01-09T08:00:45Z Merged pull request |-\|/-| 982 +1 −1 hpp 1|-\|/-| 
+Added Android CI build to Travis |-\|/-| 2018-01-08T07:33:03Z Merged pull request |-\|/-| 978 +12 −4 yml md 1|-\|/-| 
+Record UX Improvements |-\|/-| 2018-01-08T21:01:47Z Merged pull request |-\|/-| 977 +960 −310 def cpp h hpp 10|-\|/-| 
+Updating macOS installation documentation |-\|/-| 2018-01-06T12:22:54Z Merged pull request |-\|/-| 969 +9 −8 md 0|-\|/-| 
+Holes Filling capability for the Spatial post-processing filter |-\|/-| 2018-01-14T16:44:35Z Closed pull request |-\|/-| 968 +110 −37 cpp h 10|-\|/-| 
+Adding Rosbag Inspector Tool |-\|/-| 2018-01-06T12:23:39Z Merged pull request |-\|/-| 967 +1,109 −7 h cpp txt 5|-\|/-| 
+Added unit tests with bypass device |-\|/-| 2018-01-15T09:18:54Z Closed pull request |-\|/-| 966 +1,205 −88 yml def txt cpp hpp 5|-\|/-| 
+Hotfix for version 2.9.0. - streaming in release build |-\|/-| 2018-01-02T09:48:03Z Merged pull request |-\|/-| 964 +2 −1 h 1|-\|/-| 
+Hotfix for version 2.9.0 - streaming in release build |-\|/-| 2018-01-01T11:32:07Z Closed pull request |-\|/-| 963 +2 −1 h 1|-\|/-| 
+Adding support for tracking devices |-\|/-| 2018-01-09T17:28:09Z Merged pull request |-\|/-| 961 +16,014 −3,534 cmake def txt h 3|-\|/-| 
+[nodejs] Added test cases for playback and recording feature. |-\|/-| 2018-01-08T02:54:23Z Merged pull request |-\|/-| 960 +804 −0 js 1|-\|/-| 
+[Node.js] Add parameter checking for APIs |-\|/-| 2018-01-02T01:14:02Z Merged pull request |-\|/-| 959 +673 −601 0|-\|/-| 
+Fixed bug on clean_inactive_streams of frame_number_composite_matcher. |-\|/-| 2017-12-28T18:03:25Z Merged pull request |-\|/-| 955 +17 −1 cpp 1|-\|/-| 
+Update for pybackend and pyrealsense interfaces |-\|/-| 2017-12-28T16:32:57Z Merged pull request |-\|/-| 954 +71 −41 h xml cpp 4|-\|/-| 
+Tm2 integration |-\|/-| 2017-12-28T08:28:14Z Closed pull request |-\|/-| 953 +15,590 −3,294 cmake def txt 2|-\|/-| 
+Fixes to the Mac OS recorder |-\|/-| 2017-12-27T07:44:37Z Merged pull request |-\|/-| 950 +22 −5 cpp h 3|-\|/-| 
+[Node.js] Fix issues found in UT |-\|/-| 2017-12-29T03:34:01Z Merged pull request |-\|/-| 948 +34 −27 js 2|-\|/-| 
+Fixed infinite loop on viewer - loop until queue is empty and then render the last frame. |-\|/-| 2017-12-26T16:35:14Z Merged pull request |-\|/-| 945 +106 −60 cpp h hpp 8|-\|/-| 
+Rework of the Output panel in the Viewer |-\|/-| 2017-12-26T13:52:17Z Merged pull request |-\|/-| 944 +84 −130 cpp h 2|-\|/-| 
+Post-Processing filters in Disparity Domain |-\|/-| 2017-12-28T11:34:55Z Merged pull request |-\|/-| 943 +1,118 −429 def txt cpp h 9|-\|/-| 
+Reference code for building on Android |-\|/-| 2017-12-27T18:37:00Z Merged pull request |-\|/-| 942 +33,182 −1,768 yml txt h hpp md 3|-\|/-| 
+Reduce the queue size in pipeline to 1, to reduce latency. |-\|/-| 2017-12-24T15:34:25Z Merged pull request |-\|/-| 938 +1 −1 cpp 1|-\|/-| 
+[nodejs] Add and update test cases. |-\|/-| 2017-12-26T00:28:22Z Merged pull request |-\|/-| 936 +732 −151 js 4|-\|/-| 
+Development |-\|/-| 2017-12-20T16:16:41Z Closed pull request |-\|/-| 930 +892 −280 cpp h md json 5|-\|/-| 
+Adding Export to PLY to API |-\|/-| 2017-12-24T18:04:26Z Merged pull request |-\|/-| 928 +197 −127 gitignore def cpp h hpp 7|-\|/-| 
+[Node.js] Add some missed API bindings and update ut cases |-\|/-| 2017-12-20T06:50:28Z Merged pull request |-\|/-| 926 +820 −242 json 1|-\|/-| 
+fix issue with initialization list |-\|/-| 2017-12-19T15:51:43Z Closed pull request |-\|/-| 924 +2 −2 cpp 1|-\|/-| 
+Allow removal of EasyLogging++ from the build |-\|/-| 2017-12-20T17:40:15Z Merged pull request |-\|/-| 922 +39 −3 txt cpp h 2|-\|/-| 
+fix bug in interface |-\|/-| 2017-12-24T12:18:05Z Merged pull request |-\|/-| 920 +2 −2 cpp 1|-\|/-| 
+Allow removal of EasyLogging++ from the build |-\|/-| 2017-12-19T10:33:33Z Closed pull request |-\|/-| 919 +116 −41 txt cpp h md 4|-\|/-| 
+Adding first version of the .NET wrapper |-\|/-| 2017-12-24T12:18:49Z Merged pull request |-\|/-| 917 +3,909 −12 cpp md h 9|-\|/-| 
+Use string literals for format strings |-\|/-| 2017-12-17T13:19:57Z Merged pull request |-\|/-| 915 +6 −6 cpp 1|-\|/-| 
+Fix for issue #890  Stream matcher not found! stream=Depth |-\|/-| 2017-12-15T11:30:01Z Merged pull request |-\|/-| 911 +0 −3 h 1|-\|/-| 
+[Node.js] Enable UT test on travis based on recorded data file |-\|/-| 2018-01-10T05:30:59Z Merged pull request |-\|/-| 908 +7 −0 yml 1|-\|/-| 
+Fixed bug on viewer - streams got stuck when playing all streams. |-\|/-| 2017-12-15T11:29:40Z Merged pull request |-\|/-| 907 +65 −28 cpp h 3|-\|/-| 
+Update RaspberryPi3.md |-\|/-| 2017-12-14T12:22:16Z Merged pull request |-\|/-| 905 +1 −1 md 0|-\|/-| 
+Findrealsense2 CMake module and Getting Started sample |-\|/-| 2017-12-10T07:25:00Z Closed pull request |-\|/-| 897 +223 −0 cmake txt PNG md cpp 3|-\|/-| 
+Change to Issue template |-\|/-| 2017-12-07T16:33:19Z Merged pull request |-\|/-| 893 +3 −1 md 0|-\|/-| 
+Added test cases for deviceHub and deviceList |-\|/-| 2017-12-08T01:04:55Z Merged pull request |-\|/-| 888 +208 −0 js 2|-\|/-| 
+Post-processing filters. Support for D4m device |-\|/-| 2017-12-07T16:03:08Z Merged pull request |-\|/-| 887 +4,007 −2,051 yml def txt 3|-\|/-| 
+Adding metadata support for libuvc + change indent to +4 |-\|/-| 2017-12-06T12:17:28Z Merged pull request |-\|/-| 884 +1,420 −1,396 cpp 1|-\|/-| 
+Libuvc adding  metadata support |-\|/-| 2017-12-05T12:38:19Z Closed pull request |-\|/-| 883 +1,590 −1,417 cpp 1|-\|/-| 
+[Node.js] Adding record & playback functionality of sensor data |-\|/-| 2017-12-08T06:36:57Z Merged pull request |-\|/-| 881 +738 −64 0|-\|/-| 
+[Node.js] Fix some case issues found in release 0.282.0 |-\|/-| 2017-12-06T01:41:33Z Merged pull request |-\|/-| 880 +44 −47 json js 10|-\|/-| 
+Support for alignment of any stream to depth |-\|/-| 2017-12-05T12:37:59Z Merged pull request |-\|/-| 878 +249 −160 md hpp 1|-\|/-| 
+[Node.js] Create build jobs according to processor count |-\|/-| 2017-12-05T00:10:13Z Merged pull request |-\|/-| 876 +2 −1 sh 1|-\|/-| 
+Updating python documentation |-\|/-| 2017-12-01T11:32:49Z Merged pull request |-\|/-| 871 +6 −7 md 0|-\|/-| 
+[Node.js] Fix npm install error on node v9.2.0 |-\|/-| 2017-11-30T16:15:33Z Merged pull request |-\|/-| 868 +23 −31 json js sh cpp 7|-\|/-| 
+[Node.js] Fix option undefined issue |-\|/-| 2017-11-30T05:12:12Z Merged pull request |-\|/-| 865 +7 −7 js json 3|-\|/-| 
+Basic PCL integration |-\|/-| 2017-11-27T10:03:23Z Merged pull request |-\|/-| 854 +399 −21 txt md 0|-\|/-| 
+Better OpenCV integration |-\|/-| 2017-11-26T13:07:28Z Merged pull request |-\|/-| 853 +1,294 −1 txt md hpp PNG cpp 3|-\|/-| 
+Libuvc PU/XU controls |-\|/-| 2017-11-25T17:23:06Z Merged pull request |-\|/-| 852 +174 −25 cpp h 2|-\|/-| 
+Libuvc |-\|/-| 2017-11-25T17:01:05Z Closed pull request |-\|/-| 851 +174 −25 cpp h 2|-\|/-| 
+libuvc options |-\|/-| 2017-11-25T16:23:46Z Closed pull request |-\|/-| 850 +587 −25 txt cpp h hpp 3|-\|/-| 
+Better OpenCV integration |-\|/-| 2017-11-25T17:02:30Z Closed pull request |-\|/-| 849 +1,294 −1 txt md hpp PNG cpp 3|-\|/-| 
+[Node.js] Add functionality of showing fps to examples |-\|/-| 2017-11-23T02:45:00Z Merged pull request |-\|/-| 843 +41 −0 js json 2|-\|/-| 
+[nodejs] Add test cases for align and config APIs |-\|/-| 2017-11-23T02:44:20Z Merged pull request |-\|/-| 842 +263 −0 js 2|-\|/-| 
+Make nodejs test cases compatible with npm and local source |-\|/-| 2017-11-23T02:46:09Z Merged pull request |-\|/-| 841 +114 −11 md json js 12|-\|/-| 
+Fix travis issue of missing opengl dependency |-\|/-| 2017-11-21T05:12:13Z Merged pull request |-\|/-| 838 +1 −1 yml 1|-\|/-| 
+[Node.js] Add record and playback functionality for operations |-\|/-| 2017-11-21T00:21:54Z Merged pull request |-\|/-| 834 +177 −67 js 1|-\|/-| 
+Removed W/O for bug DSO-7649 |-\|/-| 2017-11-20T14:52:03Z Merged pull request |-\|/-| 833 +1 −13 cpp 1|-\|/-| 
+Libuvc xu/pu implmenetation |-\|/-| 2017-11-19T09:43:32Z Closed pull request |-\|/-| 832 +963 −279 cpp h rules md c hpp 11|-\|/-| 
+Fix Python depth Tutorial |-\|/-| 2017-11-25T17:49:12Z Merged pull request |-\|/-| 830 +7 −6 py md 1|-\|/-| 
+Fix pyenv error in travis to avoid blocking pull request |-\|/-| 2017-11-20T01:31:12Z Merged pull request |-\|/-| 829 +1 −0 yml 1|-\|/-| 
+[Node.js] Fix npm install issue |-\|/-| 2017-11-20T03:35:16Z Merged pull request |-\|/-| 824 +4 −4 json 1|-\|/-| 
+Depth Quality tool enhancements |-\|/-| 2017-11-20T14:49:37Z Merged pull request |-\|/-| 816 +359 −278 cpp h 6|-\|/-| 
+Spelling corrections |-\|/-| 2017-11-14T09:10:59Z Merged pull request |-\|/-| 811 +11 −11 cpp h hpp 9|-\|/-| 
+Fixed dropped frame issue of color streaming on Linux |-\|/-| 2017-11-20T13:44:25Z Merged pull request |-\|/-| 810 +29 −33 h cpp 11|-\|/-| 
+[Node.js] Add details of node.js installation to README.md |-\|/-| 2017-11-15T01:35:03Z Merged pull request |-\|/-| 809 +14 −4 md 0|-\|/-| 
+Fix 3D viewer with syncer issue. |-\|/-| 2017-11-15T15:58:07Z Merged pull request |-\|/-| 808 +388 −213 cpp 1|-\|/-| 
+Pybind support for options |-\|/-| 2017-11-15T08:28:42Z Merged pull request |-\|/-| 806 +51 −46 hpp cpp 2|-\|/-| 
+Libuvc - add support for options XU/PU |-\|/-| 2017-11-25T17:23:07Z Merged pull request |-\|/-| 804 +174 −25 cpp h 2|-\|/-| 
+Python Wrapper: Fixed inheritance issue in 'sensor' class |-\|/-| 2017-11-11T10:51:10Z Closed pull request |-\|/-| 801 +20 −14 cpp 1|-\|/-| 
+[Node.js] Change FrameSet.at() to be based on FrameSet.getFrame() |-\|/-| 2017-11-10T07:59:36Z Merged pull request |-\|/-| 800 +30 −26 js cpp 2|-\|/-| 
+Python Wrapper: Fixed spelling issue |-\|/-| 2017-11-12T22:32:21Z Merged pull request |-\|/-| 797 +1 −1 cpp 1|-\|/-| 
+Resolve identified issues in tools&demos |-\|/-| 2017-11-09T16:11:17Z Merged pull request |-\|/-| 795 +55 −15 cpp h c hpp 8|-\|/-| 
+[Node.js] Add Node.js version requirement in README.md |-\|/-| 2017-11-10T04:05:42Z Merged pull request |-\|/-| 794 +8 −1 md 0|-\|/-| 
+Fix 3D viewer with syncer issue.   |-\|/-| 2017-11-09T15:49:00Z Closed pull request |-\|/-| 790 +0 −0 0|-\|/-| 
+[Python] Missing initializer for pointcloud  |-\|/-| 2017-11-09T16:13:43Z Merged pull request |-\|/-| 789 +3 −2 cpp 1|-\|/-| 
+Hotfix/shutdown |-\|/-| 2017-11-09T16:01:40Z Closed pull request |-\|/-| 788 +4,768,170 −2,858 def txt Makefile → _Makefile_deprecated_ cmake config/usb-R200-in config/usb-R200-in_udev debian/TODO 6|-\|/-| 
+adding support for xu and pu options. |-\|/-| 2017-11-09T16:00:43Z Closed pull request |-\|/-| 787 +165 −25 cpp h 2|-\|/-| 
+Workaround for bug DSO-7649 |-\|/-| 2017-11-09T14:53:24Z Merged pull request |-\|/-| 786 +13 −1 cpp 1|-\|/-| 
+Viewer bug - when no monitors connected |-\|/-| 2017-11-08T08:03:46Z Merged pull request |-\|/-| 782 +10 −3 cpp 1|-\|/-| 
+[Node.js] Add Options API to colorizer and new options |-\|/-| 2017-11-09T08:55:53Z Merged pull request |-\|/-| 781 +251 −83 js 1|-\|/-| 
+Fixed bug DSO-6345 - DMFT |-\|/-| 2017-11-08T08:10:22Z Merged pull request |-\|/-| 778 +54 −34 cpp h 2|-\|/-| 
+Python binding for rs2::align |-\|/-| 2017-11-04T12:15:13Z Merged pull request |-\|/-| 776 +114 −10 py md cpp 6|-\|/-| 
+Added Raspberry Pi MD file |-\|/-| 2017-11-03T09:26:20Z Merged pull request |-\|/-| 773 +61 −20 rules md cpp h 6|-\|/-| 
+Adding options to Processing Blocks |-\|/-| 2017-11-01T15:05:32Z Merged pull request |-\|/-| 772 +890 −475 def 1|-\|/-| 
+Support USB2 RealSense SKUs |-\|/-| 2017-11-01T13:45:12Z Closed pull request |-\|/-| 771 +32 −20 rules cpp h 6|-\|/-| 
+Add nodejs test cases for frameset class |-\|/-| 2017-11-06T01:22:32Z Merged pull request |-\|/-| 768 +113 −0 js 1|-\|/-| 
+Update test cases due to latest APIs |-\|/-| 2017-11-06T01:24:22Z Merged pull request |-\|/-| 767 +77 −59 js 9|-\|/-| 
+Added three examples above C API |-\|/-| 2017-11-01T15:04:38Z Merged pull request |-\|/-| 763 +611 −4 txt md c 1|-\|/-| 
+Sensor api example |-\|/-| 2017-11-01T13:17:03Z Merged pull request |-\|/-| 762 +771 −2 txt hpp md 1|-\|/-| 
+Added options to processing blocks |-\|/-| 2017-11-01T06:21:48Z Closed pull request |-\|/-| 758 +301 −197 h hpp cpp 6|-\|/-| 
+Providing Sample Data |-\|/-| 2017-10-30T19:24:51Z Merged pull request |-\|/-| 756 +27 −0 md 0|-\|/-| 
+Modifications to the Depth Quality Tool |-\|/-| 2017-10-30T19:24:31Z Merged pull request |-\|/-| 755 +205 −153 gif md png PNG h cpp 8|-\|/-| 
+Update readme.md |-\|/-| 2017-10-30T16:39:25Z Merged pull request |-\|/-| 753 +1 −1 md 0|-\|/-| 
+Adding Mac OS support for SR300 and DS5 430 |-\|/-| 2017-10-29T14:18:19Z Merged pull request |-\|/-| 752 +199 −281 0|-\|/-| 
+Add support for SR300 + 430 in libuvc |-\|/-| 2017-10-28T21:40:38Z Closed pull request |-\|/-| 751 +2,911 −1,711 yml txt cpp h md gif 6|-\|/-| 
+Add and update APIs in node.js wrapper and fix some issues |-\|/-| 2017-10-31T02:03:50Z Merged pull request |-\|/-| 748 +1,828 −1,561 js 3|-\|/-| 
+make legacy devices explicit |-\|/-| 2017-10-29T16:17:34Z Merged pull request |-\|/-| 746 +1 −1 md 0|-\|/-| 
+Reduce memory footprint by avoiding alloc/dealloc memory everytime wh… |-\|/-| 2017-10-26T03:55:29Z Merged pull request |-\|/-| 741 +549 −250 js 5|-\|/-| 
+Modify project setting for MSVC: |-\|/-| 2017-10-29T11:24:29Z Merged pull request |-\|/-| 740 +2 −1 txt 0|-\|/-| 
+Readme update |-\|/-| 2017-10-29T08:56:53Z Merged pull request |-\|/-| 739 +0 −2 md 0|-\|/-| 
+Pipeline tests and minor fix |-\|/-| 2017-10-29T14:24:31Z Merged pull request |-\|/-| 738 +373 −16 cpp h 2|-\|/-| 
+Opencv example update |-\|/-| 2017-10-26T13:41:16Z Merged pull request |-\|/-| 737 +39 −34 md 0|-\|/-| 
+Add test cases for nodejs classes depthSensor, frame and device |-\|/-| 2017-10-25T05:12:50Z Merged pull request |-\|/-| 736 +357 −0 js 3|-\|/-| 
+Adding more information regarding the unit-tests |-\|/-| 2017-10-25T11:04:55Z Merged pull request |-\|/-| 735 +20 −6 md 0|-\|/-| 
+Pipeline Bug fix |-\|/-| 2017-10-24T08:45:19Z Merged pull request |-\|/-| 734 +5 −3 hpp cpp 2|-\|/-| 
+Provide extrinsics calibration data in rs-enumerate-devices |-\|/-| 2017-10-24T08:42:53Z Merged pull request |-\|/-| 733 +135 −29 cpp 1|-\|/-| 
+Python binding for RS400 Advanced Mode |-\|/-| 2017-10-29T14:01:49Z Merged pull request |-\|/-| 732 +366 −39 h hpp cpp py 4|-\|/-| 
+Fix src/concurrency.h by adding #include <functional> so that compiler errors no longer occur |-\|/-| 2017-10-23T09:00:27Z Merged pull request |-\|/-| 731 +1 −0 h 1|-\|/-| 
+Pipeline behavior change - returned framesets will contain frames from all active streams  |-\|/-| 2017-10-22T07:07:49Z Merged pull request |-\|/-| 727 +233 −116 yml md cpp hpp h xml 8|-\|/-| 
+ Update pipeline - will raise only full sets of frames.  |-\|/-| 2017-10-19T20:06:14Z Closed pull request |-\|/-| 725 +166 −86 yml md cpp hpp h xml 10|-\|/-| 
+Align example update |-\|/-| 2017-10-25T11:11:14Z Merged pull request |-\|/-| 724 +160 −70 gif md cpp 2|-\|/-| 
+Fixed issues in device_hub |-\|/-| 2017-10-19T15:57:56Z Merged pull request |-\|/-| 723 +27 −30 cpp h 4|-\|/-| 
+Modify project setting for MSVC |-\|/-| 2017-10-29T11:24:38Z Closed pull request |-\|/-| 720 +2 −1 txt 0|-\|/-| 
+Adding D405 and SR300 recordings to CI's unit-tests suite |-\|/-| 2017-10-25T12:26:44Z Merged pull request |-\|/-| 719 +816 −698 yml txt cpp h 5|-\|/-| 
+Fixed issues in Advanced Mode and rs_data_collect tool |-\|/-| 2017-10-19T09:42:00Z Merged pull request |-\|/-| 717 +86 −31 h cpp hpp 5|-\|/-| 
+Pipeline config bug fix |-\|/-| 2017-10-19T15:16:13Z Merged pull request |-\|/-| 716 +150 −16 cpp 2|-\|/-| 
+Fixing the issue where Advanced Mode controls were not showing in the… |-\|/-| 2017-10-18T11:42:22Z Merged pull request |-\|/-| 714 +2 −1 cpp 1|-\|/-| 
+Advanced Mode controls not showing in Depth Quality Tool |-\|/-| 2017-10-17T17:37:18Z Closed pull request |-\|/-| 713 +2 −1 cpp 1|-\|/-| 
+Rectify device selection for the pipeline |-\|/-| 2017-10-18T10:54:02Z Merged pull request |-\|/-| 712 +185 −184 hpp cpp h 7|-\|/-| 
+Fix rs-data-collect tool |-\|/-| 2017-10-16T18:59:37Z Merged pull request |-\|/-| 711 +10 −7 cpp 4|-\|/-| 
+Shiritbrook patch 1 |-\|/-| 2017-10-16T17:02:25Z Merged pull request |-\|/-| 710 +19 −2 md 0|-\|/-| 
+Bug fix when disconnecting camera while streaming |-\|/-| 2017-10-16T14:03:14Z Merged pull request |-\|/-| 709 +6 −3 cpp 1|-\|/-| 
+Viewer device changes |-\|/-| 2017-10-16T12:05:19Z Merged pull request |-\|/-| 706 +103 −90 cpp h 4|-\|/-| 
+Added back syncer_processing_block |-\|/-| 2017-10-16T14:39:54Z Merged pull request |-\|/-| 705 +28 −8 hpp 1|-\|/-| 
+Pipeline config bug |-\|/-| 2017-10-15T06:54:27Z Merged pull request |-\|/-| 703 +14 −5 hpp cpp 2|-\|/-| 
+Increase module version for node-glfw-3 which resolved texture leak i… |-\|/-| 2017-10-13T05:43:29Z Merged pull request |-\|/-| 702 +906 −4 0|-\|/-| 
+Fix node.js addon crash issue caused by releasing frame multiple times |-\|/-| 2017-10-12T13:46:04Z Merged pull request |-\|/-| 700 +59 −76 js cpp 8|-\|/-| 
+Fix crash issues caused by releasing frames multiple times |-\|/-| 2017-10-12T07:11:23Z Closed pull request |-\|/-| 699 +59 −76 js cpp 8|-\|/-| 
+Fixing crashes in the viewer when switching between cameras |-\|/-| 2017-10-10T21:42:29Z Merged pull request |-\|/-| 697 +42 −11 cpp h 4|-\|/-| 
+Advanced mode controls bug |-\|/-| 2017-10-10T14:28:13Z Merged pull request |-\|/-| 696 +5 −1 h 1|-\|/-| 
+[Node.js] Fix linter issue on Windows and linter errors |-\|/-| 2017-10-10T14:16:42Z Merged pull request |-\|/-| 695 +20 −18 js 2|-\|/-| 
+Handle unit-tests persistence, repeat-ability. Improve overall robustness |-\|/-| 2017-10-10T14:28:22Z Merged pull request |-\|/-| 694 +554 −462 yml cpp h 7|-\|/-| 
+Depth quality tool touchups |-\|/-| 2017-10-10T10:56:45Z Merged pull request |-\|/-| 693 +453 −99 cpp h txt 4|-\|/-| 
+Modifying the Viewer to display "No Frames Received" |-\|/-| 2017-10-09T17:41:52Z Merged pull request |-\|/-| 692 +3 −3 cpp 1|-\|/-| 
+Depth Quality: Connect/disconnect events & improvements |-\|/-| 2017-10-09T13:20:02Z Merged pull request |-\|/-| 691 +217 −105 cpp h hpp 7|-\|/-| 
+Release fixes |-\|/-| 2017-10-08T15:13:32Z Merged pull request |-\|/-| 690 +82 −22 def h hpp cpp 7|-\|/-| 
+[Node.js] Make examples work again with new API (with known crash issues) |-\|/-| 2017-10-08T09:55:45Z Merged pull request |-\|/-| 689 +101 −50 js cpp 3|-\|/-| 
+API Calls Tracer |-\|/-| 2017-10-09T13:25:42Z Merged pull request |-\|/-| 687 +547 −276 txt 0|-\|/-| 
+Fix Depth Quality tool readme |-\|/-| 2017-10-04T10:47:39Z Merged pull request |-\|/-| 683 +1 −1 md 0|-\|/-| 
+Update the Viewer UI to work properly on a MacBook |-\|/-| 2017-10-04T08:41:58Z Merged pull request |-\|/-| 682 +22 −14 cpp h 5|-\|/-| 
+Update Hand gesture preset |-\|/-| 2017-10-03T16:45:49Z Merged pull request |-\|/-| 681 +1 −0 cpp 1|-\|/-| 
+Fixed disconnect/reconnect issue |-\|/-| 2017-10-03T16:47:36Z Merged pull request |-\|/-| 680 +95 −32 cpp 2|-\|/-| 
+Depth Quality Tool Updates |-\|/-| 2017-10-03T15:19:44Z Merged pull request |-\|/-| 679 +193 −123 txt cpp h hpp 15|-\|/-| 
+Preliminary OSX integration |-\|/-| 2017-10-03T13:48:39Z Merged pull request |-\|/-| 678 +9,314 −44 yml txt 1|-\|/-| 
+Sensor API fixes |-\|/-| 2017-10-03T12:52:56Z Merged pull request |-\|/-| 677 +134 −196 def h hpp 8|-\|/-| 
+Update readme.md |-\|/-| 2017-10-03T09:09:45Z Merged pull request |-\|/-| 676 +4 −4 md 0|-\|/-| 
+Performance optimization |-\|/-| 2017-10-02T18:30:23Z Closed pull request |-\|/-| 675 +174 −36 txt h cpp c 8|-\|/-| 
+Reorder wrappers folder |-\|/-| 2017-10-02T14:47:56Z Merged pull request |-\|/-| 674 +7 −2 txt 0|-\|/-| 
+Initial changes towards OSX compilation |-\|/-| 2017-10-02T09:47:39Z Merged pull request |-\|/-| 673 +15,543 −10,043 hpp 3|-\|/-| 
+Pipeline changes |-\|/-| 2017-10-04T06:15:29Z Merged pull request |-\|/-| 672 +2,253 −1,178 yml def md cpp 5|-\|/-| 
+RMS metric to Depth Quality Tool |-\|/-| 2017-10-02T09:01:28Z Merged pull request |-\|/-| 671 +100 −35 cpp ps1 h 8|-\|/-| 
+Cosmetic Changes and Bug Fixes |-\|/-| 2017-10-03T12:32:17Z Merged pull request |-\|/-| 670 +331 −133 cpp h 7|-\|/-| 
+Changes to the Viewer and Quality tools |-\|/-| 2017-10-01T14:18:16Z Merged pull request |-\|/-| 669 +433 −278 cpp 1|-\|/-| 
+[Node.js] Use node8 for pkg |-\|/-| 2017-10-02T10:12:12Z Merged pull request |-\|/-| 668 +1 −1 txt 0|-\|/-| 
+[Node.js] Fix Windows dist example issue. |-\|/-| 2017-09-30T10:29:39Z Merged pull request |-\|/-| 666 +44 −159 txt gyp cmake 2|-\|/-| 
+Some small bug fixes. |-\|/-| 2017-10-01T14:34:12Z Closed pull request |-\|/-| 664 +28 −2 cpp h 3|-\|/-| 
+Depth Quality tool - add FPS control |-\|/-| 2017-09-29T08:32:50Z Merged pull request |-\|/-| 663 +184 −146 cpp h 7|-\|/-| 
+[Node.js] Update of document |-\|/-| 2017-09-29T03:36:08Z Merged pull request |-\|/-| 660 +39 −9 md json 1|-\|/-| 
+Update readme.md |-\|/-| 2017-09-26T18:24:50Z Merged pull request |-\|/-| 658 +1 −1 md 0|-\|/-| 
+Depth Quality Tool Documentation |-\|/-| 2017-09-26T16:51:57Z Merged pull request |-\|/-| 655 +25 −8 md gif 1|-\|/-| 
+Fix contribution file |-\|/-| 2017-09-26T11:27:13Z Merged pull request |-\|/-| 654 +2 −2 md 0|-\|/-| 
+Removing the CLA |-\|/-| 2017-09-25T17:08:29Z Merged pull request |-\|/-| 653 +4 −32 md 0|-\|/-| 
+Removing the CLA |-\|/-| 2017-09-25T17:08:17Z Merged pull request |-\|/-| 652 +1 −26 md 0|-\|/-| 
+Depth quality tool |-\|/-| 2017-09-25T14:31:19Z Merged pull request |-\|/-| 651 +2,856 −2,005 cpp h 3|-\|/-| 
+Python: OpenCV example + BufData fixes |-\|/-| 2017-09-25T16:09:45Z Merged pull request |-\|/-| 650 +62 −6 py cpp md 2|-\|/-| 
+Fixed bug on error handling - will be activated only when user regist… |-\|/-| 2017-09-25T14:20:43Z Merged pull request |-\|/-| 649 +10 −6 cpp 4|-\|/-| 
+Fixed flickering in pointcloud example |-\|/-| 2017-09-25T11:57:25Z Merged pull request |-\|/-| 648 +1 −1 cpp 1|-\|/-| 
+Pipeline updates |-\|/-| 2017-09-25T11:03:26Z Closed pull request |-\|/-| 647 +375 −382 def cpp h hpp 8|-\|/-| 
+Pipeline |-\|/-| 2017-09-25T10:06:53Z Closed pull request |-\|/-| 646 +363 −364 def cpp h hpp 8|-\|/-| 
+Pipeline updates.  |-\|/-| 2017-09-25T09:53:38Z Closed pull request |-\|/-| 645 +0 −0 0|-\|/-| 
+Subst README.md for npm package |-\|/-| 2017-09-25T11:58:02Z Merged pull request |-\|/-| 644 +2 −1 json sh 2|-\|/-| 
+Fix for DataCollect tool |-\|/-| 2017-09-25T11:59:23Z Merged pull request |-\|/-| 643 +92 −104 cpp 1|-\|/-| 
+Update readme.md |-\|/-| 2017-09-25T11:14:53Z Merged pull request |-\|/-| 642 +2 −1 md 0|-\|/-| 
+Update readme.md |-\|/-| 2017-09-25T11:58:15Z Closed pull request |-\|/-| 641 +4 −3 md 0|-\|/-| 
+Update readme.md |-\|/-| 2017-09-23T05:28:07Z Merged pull request |-\|/-| 640 +3 −3 md 0|-\|/-| 
+Update readme.md |-\|/-| 2017-09-23T06:40:13Z Merged pull request |-\|/-| 639 +8 −9 md 0|-\|/-| 
+[Node.js] Examples: change git repo URL into npm package name |-\|/-| 2017-09-22T05:12:27Z Merged pull request |-\|/-| 638 +6 −713 js 1|-\|/-| 
+[Node.js] Adapt the RC version change |-\|/-| 2017-09-22T05:10:28Z Merged pull request |-\|/-| 637 +11 −3 json 2|-\|/-| 
+[Node.js] Document update for jsdoc installation, and also fixing the example path |-\|/-| 2017-09-22T05:09:25Z Merged pull request |-\|/-| 636 +7 −1 md 0|-\|/-| 
+Update readme.md |-\|/-| 2017-09-23T06:40:23Z Merged pull request |-\|/-| 635 +4 −4 md 0|-\|/-| 
+[nodejs] Add dist support to package the examples. |-\|/-| 2017-09-25T13:44:33Z Merged pull request |-\|/-| 634 +233 −24 txt gyp cmake js json 8|-\|/-| 
+[Node.js] Adapting the newest API change |-\|/-| 2017-09-21T13:28:06Z Merged pull request |-\|/-| 633 +792 −104 js 3|-\|/-| 
+[Node.js] Adapt newest Pipeline Align PointCloud API changes |-\|/-| 2017-09-21T10:47:01Z Closed pull request |-\|/-| 631 +64 −104 js cpp 5|-\|/-| 
+[Node.js] Adapt newest API change |-\|/-| 2017-09-21T09:16:21Z Closed pull request |-\|/-| 630 +66 −104 js cpp 5|-\|/-| 
+To adapt the file name change of generated VS solution |-\|/-| 2017-09-21T07:26:52Z Merged pull request |-\|/-| 629 +1 −1 bat 1|-\|/-| 
+Update readme.md |-\|/-| 2017-09-21T14:22:22Z Merged pull request |-\|/-| 628 +3 −3 md 0|-\|/-| 
+Fixed crashes of capture, pointcloud and align examples |-\|/-| 2017-09-21T14:58:43Z Merged pull request |-\|/-| 627 +124 −42 cpp h 11|-\|/-| 
+Fixed scenario where draw_pointcloud called with null point |-\|/-| 2017-09-19T14:23:26Z Merged pull request |-\|/-| 626 +3 −0 cpp 1|-\|/-| 
+(Resending PR604) Fix some sensor related bugs and update tests and samples |-\|/-| 2017-09-19T01:48:00Z Merged pull request |-\|/-| 625 +145 −40 js cpp 6|-\|/-| 
+[Node.js Wrapper] Adding dist scripts and other necessary files. |-\|/-| 2017-09-19T01:47:08Z Merged pull request |-\|/-| 624 +409 −3 gitignore json js md gyp bat sh 7|-\|/-| 
+[nodejs] Re-enable linter. |-\|/-| 2017-09-18T11:07:46Z Merged pull request |-\|/-| 623 +3 −11 yml json 3|-\|/-| 
+Fixed bug when loading file that is already loaded |-\|/-| 2017-09-18T11:32:41Z Merged pull request |-\|/-| 622 +7 −5 cpp 1|-\|/-| 
+Some fixes for Ubuntu 14.04 installation instructions |-\|/-| 2017-09-18T13:13:31Z Merged pull request |-\|/-| 621 +69 −62 txt md 0|-\|/-| 
+Recodable Options |-\|/-| 2017-09-25T15:40:11Z Merged pull request |-\|/-| 620 +1,268 −633 cpp h 10|-\|/-| 
+(Resending PR604) Fix some sensor related bugs and update tests and samples |-\|/-| 2017-09-18T23:15:35Z Closed pull request |-\|/-| 619 +145 −40 js cpp 6|-\|/-| 
+Fix some sensor related bugs and update tests and samples |-\|/-| 2017-09-18T01:34:08Z Closed pull request |-\|/-| 618 +145 −40 js cpp 6|-\|/-| 
+Recording option changes [older dup] |-\|/-| 2017-09-18T08:04:50Z Closed pull request |-\|/-| 617 +1,319 −656 h 10|-\|/-| 
+Some fixes for Ubuntu 14.04 installation |-\|/-| 2017-09-17T13:49:27Z Closed pull request |-\|/-| 616 +16 −9 txt md 0|-\|/-| 
+Some bug fixes of record and playback unit tests |-\|/-| 2017-09-14T22:06:57Z Closed pull request |-\|/-| 614 +2,507 −1,594 def in txt yml cmake cpp h md 7|-\|/-| 
+Some bug fixes of record and playback unit tests |-\|/-| 2017-09-14T18:52:29Z Closed pull request |-\|/-| 613 +1,598 −1,592 def in txt yml cmake cpp h md 7|-\|/-| 
+Viewer improvements |-\|/-| 2017-09-14T18:12:46Z Merged pull request |-\|/-| 612 +341 −106 cpp h 6|-\|/-| 
+Second fix of python version, keep python2.7 |-\|/-| 2017-09-14T15:26:54Z Merged pull request |-\|/-| 611 +2 −4 yml 1|-\|/-| 
+Fix travis python2 |-\|/-| 2017-09-14T14:33:42Z Closed pull request |-\|/-| 610 +448,469 −49,095 md gitignore yml AUTHORS cmake 4|-\|/-| 
+Add test cases for nodejs wrapper |-\|/-| 2017-09-19T05:23:44Z Merged pull request |-\|/-| 609 +787 −13 js 3|-\|/-| 
+Fix API architecture documentation |-\|/-| 2017-09-14T14:30:17Z Merged pull request |-\|/-| 608 +15 −29 md 0|-\|/-| 
+Fix wrong python3 version. |-\|/-| 2017-09-14T13:13:43Z Merged pull request |-\|/-| 607 +5 −3 yml 1|-\|/-| 
+Fix wrong python3 version |-\|/-| 2017-09-14T09:29:19Z Closed pull request |-\|/-| 606 +448,469 −49,095 md gitignore yml AUTHORS cmake 4|-\|/-| 
+Fix some sensor related bugs and update tests and samples |-\|/-| 2017-09-19T01:48:01Z Merged pull request |-\|/-| 604 +145 −40 js cpp 6|-\|/-| 
+Added Environment class and remove pipeline start with callback |-\|/-| 2017-09-13T16:35:25Z Closed pull request |-\|/-| 603 +1,499 −1,508 yml def in txt cmake cpp h md 8|-\|/-| 
+add Environment singleton class + remove pipeline start with calback |-\|/-| 2017-09-13T15:19:23Z Closed pull request |-\|/-| 602 +448,378 −49,122 md gitignore yml AUTHORS cmake 4|-\|/-| 
+Adding dist scripts and other necessary files. |-\|/-| 2017-09-18T22:45:46Z Closed pull request |-\|/-| 601 +409 −3 gitignore json js md gyp bat sh 7|-\|/-| 
+Adding align support and nodejs-align.js example |-\|/-| 2017-09-12T07:51:47Z Merged pull request |-\|/-| 600 +1,218 −261 js 2|-\|/-| 
+Align example documentation |-\|/-| 2017-09-13T16:51:16Z Merged pull request |-\|/-| 599 +183 −2 md 0|-\|/-| 
+[nodejs] Add contribution to readme  |-\|/-| 2017-09-11T09:04:13Z Merged pull request |-\|/-| 598 +83 −58 md 0|-\|/-| 
+[nodejs] Add contribution part to readme.md |-\|/-| 2017-09-11T06:33:56Z Closed pull request |-\|/-| 597 +447,329 −49,095 md gitignore yml AUTHORS cmake 4|-\|/-| 
+Python numpy compatibility |-\|/-| 2017-09-10T09:17:02Z Merged pull request |-\|/-| 596 +10 −1 cpp md 1|-\|/-| 
+Enable Node.js CI and update readme.md |-\|/-| 2017-09-08T17:06:05Z Merged pull request |-\|/-| 595 +2,782 −1,215 yml txt md json gitignore jshintrc gyp 6|-\|/-| 
+Adding node.js wrapper |-\|/-| 2017-09-06T13:08:42Z Merged pull request |-\|/-| 594 +20,694 −0 gitignore md gyp 2|-\|/-| 
+Adding documentation for Windows installer |-\|/-| 2017-09-05T18:35:07Z Merged pull request |-\|/-| 593 +72 −16 md PNG 10|-\|/-| 
+Work |-\|/-| 2017-08-30T11:00:27Z Closed pull request |-\|/-| 590 +4,177 −2,965 md def txt Makefile cmake config/usb-R200-in config/usb-R200-in_udev debian/TODO 6|-\|/-| 
+Updating Multicam example documentation |-\|/-| 2017-08-29T17:07:54Z Merged pull request |-\|/-| 586 +126 −98 md 0|-\|/-| 
+Enable Advanced Operations on PWG units |-\|/-| 2017-08-27T15:04:49Z Merged pull request |-\|/-| 585 +12 −1 cpp 1|-\|/-| 
+Adding UI Scale Factor for 4K displays |-\|/-| 2017-08-28T11:03:58Z Merged pull request |-\|/-| 584 +35 −14 cpp h 5|-\|/-| 
+update installation Edit2 |-\|/-| 2017-08-27T05:04:26Z Closed pull request |-\|/-| 582 +0 −0 0|-\|/-| 
+Work |-\|/-| 2017-08-26T19:42:59Z Closed pull request |-\|/-| 581 +113 −0 md 0|-\|/-| 
+Updating Linux distribution document |-\|/-| 2017-08-25T10:42:54Z Merged pull request |-\|/-| 579 +5 −3 md 0|-\|/-| 
+Tutorials docs |-\|/-| 2017-08-21T16:35:11Z Merged pull request |-\|/-| 576 +217 −18 md gif cpp 2|-\|/-| 
+Fix FourCC parsing and matching logic for windows backend |-\|/-| 2017-08-21T17:24:31Z Merged pull request |-\|/-| 575 +7 −9 cpp 1|-\|/-| 
+Adjust SR300 4CC codes for INVZ and INVI formats |-\|/-| 2017-08-19T18:35:40Z Merged pull request |-\|/-| 571 +5 −2 h cpp 2|-\|/-| 
+Remove uvcmodule check from Linux backend |-\|/-| 2017-08-10T19:17:42Z Merged pull request |-\|/-| 570 +1 −11 h cpp 2|-\|/-| 
+Modify the patched module signature for kernels 4.10+ |-\|/-| 2017-08-10T13:03:31Z Merged pull request |-\|/-| 569 +12 −4 sh 2|-\|/-| 
+Update list of maintainers |-\|/-| 2017-08-08T14:25:57Z Merged pull request |-\|/-| 567 +1 −1 xml 1|-\|/-| 
+Hotfix/v4l2 |-\|/-| 2017-07-31T12:38:26Z Closed pull request |-\|/-| 564 +111 −18 txt cpp h 4|-\|/-| 
+Fixed Archlinux patch for 4.11.7 kernel. |-\|/-| 2017-09-30T15:16:06Z Merged pull request |-\|/-| 560 +7 −8 sh patch 2|-\|/-| 
+Fixed table formatting |-\|/-| 2017-07-18T07:52:49Z Merged pull request |-\|/-| 550 +1 −1 md 0|-\|/-| 
+Change the tag name of git in order to support the kernel version 4.8 |-\|/-| 2017-07-19T08:28:55Z Closed pull request |-\|/-| 546 +5 −2 sh 1|-\|/-| 
+Hotfix/x1 uvc |-\|/-| 2017-06-16T01:12:51Z Closed pull request |-\|/-| 536 +112 −19 txt cpp h 4|-\|/-| 
+Change fourcc codes of INVZ and INVI to Z16 and Y10 respectively |-\|/-| 2017-06-15T14:30:13Z Merged pull request |-\|/-| 535 +68 −66 patch cpp 3|-\|/-| 
+Add pkg-config metadata support |-\|/-| 2017-06-14T13:32:12Z Merged pull request |-\|/-| 533 +37 −0 txt in 1|-\|/-| 
+Add pkg-config metadata support |-\|/-| 2017-06-14T06:47:15Z Closed pull request |-\|/-| 531 +37 −0 txt in 1|-\|/-| 
+Update patch-realsense-ubuntu-xenial.sh |-\|/-| 2017-06-14T06:23:28Z Merged pull request |-\|/-| 530 +21 −2 sh 1|-\|/-| 
+Update realsense-camera-formats_fc25.patch |-\|/-| 2017-06-14T16:17:18Z Merged pull request |-\|/-| 526 +4 −4 patch 1|-\|/-| 
+Change fourcc codes of INVZ and INVI to Z16 and Y10 respectively |-\|/-| 2017-06-15T14:30:24Z Closed pull request |-\|/-| 523 +6 −8 patch cpp 2|-\|/-| 
+Added the linux-headers requirement for arch linux installations in the documentation. |-\|/-| 2017-06-06T17:26:34Z Merged pull request |-\|/-| 520 +5 −2 md 0|-\|/-| 
+Hotfix/firmware reset |-\|/-| 2017-06-01T18:28:04Z Closed pull request |-\|/-| 518 +9 −1 txt cpp 2|-\|/-| 
+Hotfix/armhf |-\|/-| 2017-06-01T12:39:24Z Closed pull request |-\|/-| 517 +12 −3 txt cpp h 2|-\|/-| 
+Add more specific descriptions for Auto-range options for SR300 camera |-\|/-| 2017-06-07T12:38:12Z Merged pull request |-\|/-| 501 +10 −10 cpp 1|-\|/-| 
+Update getting_started_with_openCV.md |-\|/-| 2017-07-01T06:50:04Z Merged pull request |-\|/-| 493 +1 −1 md 0|-\|/-| 
+Add snap install instructions |-\|/-| 2017-10-03T12:53:21Z Merged pull request |-\|/-| 484 +8 −0 md 0|-\|/-| 
+Replacing SolutionDir macro with relative paths |-\|/-| 2017-04-03T14:44:45Z Merged pull request |-\|/-| 470 +8 −8 vcxproj 2|-\|/-| 
+Fix a non utf-8 character in types.h |-\|/-| 2017-04-03T11:20:46Z Merged pull request |-\|/-| 469 +1 −1 h 1|-\|/-| 
+Add missing includes for <sys/time.h> and <functional> |-\|/-| 2017-04-03T14:01:47Z Merged pull request |-\|/-| 461 +3 −0 cpp h 3|-\|/-| 
+Updating Mac OS X documentation |-\|/-| 2017-03-09T09:57:58Z Merged pull request |-\|/-| 452 +34 −6 md 0|-\|/-| 
+Updated the maintainers |-\|/-| 2017-02-27T23:17:08Z Merged pull request |-\|/-| 446 +5 −2 xml 1|-\|/-| 
+Check for uvcvideo existence via the /sys kernel filesystem |-\|/-| 2017-08-09T12:49:42Z Merged pull request |-\|/-| 442 +4 −13 cpp 1|-\|/-| 
+Generate cmake package config files |-\|/-| 2017-03-09T10:03:16Z Merged pull request |-\|/-| 441 +30 −5 txt in 1|-\|/-| 
+examples: control building of the graphical examples |-\|/-| 2017-06-06T13:47:21Z Merged pull request |-\|/-| 435 +100 −78 md txt 0|-\|/-| 
+scripts: removed bashisms. |-\|/-| 2017-03-09T09:58:20Z Merged pull request |-\|/-| 434 +7 −7 config/usb-R200-in config/usb-R200-in_udev 2|-\|/-| 
+Added patch script and patch file for fedora core 25. |-\|/-| 2017-03-22T09:08:55Z Merged pull request |-\|/-| 427 +207 −0 sh patch 2|-\|/-| 
+Added patch and patching / uvcvideo module build script for Fedora 25. |-\|/-| 2017-01-24T20:47:57Z Closed pull request |-\|/-| 423 +240 −0 sh patch 2|-\|/-| 
+Fix compiler flags for specific ABIs |-\|/-| 2017-01-25T18:35:01Z Merged pull request |-\|/-| 422 +9 −4 txt 0|-\|/-| 
+Fix build error on Ostro OS for ARM boards |-\|/-| 2017-01-23T22:23:14Z Closed pull request |-\|/-| 419 +3 −0 txt 0|-\|/-| 
+Fix architecture detection on RedHat/Fedora machines |-\|/-| 2017-01-21T14:36:38Z Closed pull request |-\|/-| 416 +6 −3 txt 0|-\|/-| 
+Bump ROS package version to 1.12.1 |-\|/-| 2017-01-11T21:03:31Z Merged pull request |-\|/-| 412 +1 −1 xml 1|-\|/-| 
+need to add the intrinsics and extrinsics example |-\|/-| 2017-01-12T10:23:50Z Closed pull request |-\|/-| 411 +5,613 −252 3rdparty/rapidjson 1|-\|/-| 
+Update xcodeproj files |-\|/-| 2017-09-30T15:17:39Z Merged pull request |-\|/-| 408 +36 −36 pbxproj 7|-\|/-| 
+Ros build fix |-\|/-| 2017-01-11T21:03:16Z Merged pull request |-\|/-| 404 +6 −2 txt 0|-\|/-| 
+Fix ROS Environment Check |-\|/-| 2017-01-05T12:07:30Z Merged pull request |-\|/-| 402 +2 −4 txt 0|-\|/-| 
+Fix Ubuntu 14.04 example link errors |-\|/-| 2017-01-04T10:41:56Z Closed pull request |-\|/-| 397 +1 −1 txt 0|-\|/-| 
+Refresh ld cache after installation of shared objects |-\|/-| 2016-12-25T14:16:14Z Merged pull request |-\|/-| 395 +3 −0 txt 0|-\|/-| 
+Fix detection of ROS build |-\|/-| 2016-12-15T09:09:36Z Closed pull request |-\|/-| 387 +5 −3 txt Makefile 1|-\|/-| 
+cmake find_package support and build flavor options |-\|/-| 2017-02-15T10:56:44Z Closed pull request |-\|/-| 380 +95 −5 cmake txt 1|-\|/-| 
+Stop relying on the validity of error object passed to create_context |-\|/-| 2016-11-29T15:46:49Z Merged pull request |-\|/-| 378 +3 −2 cpp 1|-\|/-| 
+patch corrected and tested with zsh and bash |-\|/-| 2016-11-29T14:22:56Z Merged pull request |-\|/-| 376 +1 −1 sh 1|-\|/-| 
+Add SONAME support for Linux. |-\|/-| 2016-11-30T05:52:09Z Merged pull request |-\|/-| 373 +23 −4 txt Makefile 1|-\|/-| 
+Use dirname of script file to find patch file |-\|/-| 2016-11-23T15:50:32Z Merged pull request |-\|/-| 369 +1 −1 sh 1|-\|/-| 
+Update Rosdebian branch |-\|/-| 2016-11-12T00:52:57Z Merged pull request |-\|/-| 358 +19 −7 txt md 0|-\|/-| 
+Fix the library location for ROS Debians |-\|/-| 2016-11-12T00:00:10Z Merged pull request |-\|/-| 357 +18 −6 txt 0|-\|/-| 
+Fixed path to patch file |-\|/-| 2016-11-23T15:52:28Z Closed pull request |-\|/-| 356 +1 −1 sh 1|-\|/-| 
+Master |-\|/-| 2016-11-12T09:48:10Z Closed pull request |-\|/-| 355 +24,947 −6,569 gitignore yml AUTHORS cmake def 5|-\|/-| 
+Bump ROS Version |-\|/-| 2016-11-09T21:47:23Z Merged pull request |-\|/-| 352 +1 −1 xml 1|-\|/-| 
+Update Rosdebian branch |-\|/-| 2016-11-09T22:55:32Z Merged pull request |-\|/-| 351 +224 −37 debian/postinst md h xml sh patch cpp 13|-\|/-| 
+Change patch-arch.sh to executable |-\|/-| 2016-11-23T15:53:08Z Merged pull request |-\|/-| 350 +0 −0 sh 1|-\|/-| 
+Adding distortion model to demos |-\|/-| 2016-11-13T06:22:44Z Merged pull request |-\|/-| 349 +13 −1 cpp 2|-\|/-| 
+Properly report the USB port as bus+port_path |-\|/-| 2016-11-09T07:46:16Z Merged pull request |-\|/-| 348 +15 −3 cpp 1|-\|/-| 
+Highlighting of commands |-\|/-| 2016-11-10T10:35:38Z Merged pull request |-\|/-| 347 +1 −1 md 0|-\|/-| 
+Some corrections |-\|/-| 2016-11-09T10:37:50Z Merged pull request |-\|/-| 346 +12 −12 md h cpp 8|-\|/-| 
+Fix to get_usb_port_id to handle devices connected through USB Hub |-\|/-| 2016-11-09T07:44:22Z Closed pull request |-\|/-| 345 +9 −3 cpp 1|-\|/-| 
+Make docker detection more host distro independent |-\|/-| 2016-11-04T09:04:23Z Merged pull request |-\|/-| 342 +4 −4 debian/postinst 1|-\|/-| 
+Skip DKMS enablement when kernel is fully patched |-\|/-| 2016-11-01T13:19:47Z Merged pull request |-\|/-| 334 +67 −38 debian/postinst debian/prerm 2|-\|/-| 
+Update patch for Arch Linux on 4.8.4 |-\|/-| 2016-11-04T13:36:31Z Merged pull request |-\|/-| 332 +175 −1 sh patch 2|-\|/-| 
+update instruction of V4L patch in installation.md |-\|/-| 2016-11-03T17:19:52Z Merged pull request |-\|/-| 331 +17 −16 md 0|-\|/-| 
+Add ROS Issue Tracking to ROS Wiki |-\|/-| 2016-10-25T06:21:08Z Merged pull request |-\|/-| 329 +2 −1 xml 1|-\|/-| 
+Update the error message for Debian install |-\|/-| 2016-10-21T00:10:24Z Merged pull request |-\|/-| 325 +3 −10 sh 1|-\|/-| 
+Resolved warnings introduced with commit id e0578b30ac4ab8cc0096c7db6… |-\|/-| 2016-10-19T15:06:48Z Merged pull request |-\|/-| 322 +4 −0 cpp c 2|-\|/-| 
+GNU Install Directories For CMake |-\|/-| 2016-10-16T09:06:25Z Merged pull request |-\|/-| 316 +8 −5 txt 0|-\|/-| 
+GNU Install Directories For CMake |-\|/-| 2016-10-14T11:10:28Z Closed pull request |-\|/-| 315 +31 −11 txt md pbxproj cpp h c 7|-\|/-| 
+Document librealsense releases |-\|/-| 2016-10-16T09:05:57Z Merged pull request |-\|/-| 314 +20 −1 md png 1|-\|/-| 
+Enable CMake build on Mac OSX by fixing libusb-1.0 library and include paths |-\|/-| 2016-10-13T09:18:23Z Merged pull request |-\|/-| 313 +12 −2 txt pbxproj cpp h c 5|-\|/-| 
+Updating installation instructions to reference recommended Win8.1 patches |-\|/-| 2016-10-04T12:25:24Z Merged pull request |-\|/-| 307 +2 −0 md 0|-\|/-| 
+Fix two trivial warnings |-\|/-| 2016-10-04T09:17:40Z Merged pull request |-\|/-| 306 +1 −2 cpp 2|-\|/-| 
+Fix build environment for ROS build farm |-\|/-| 2016-10-03T00:29:04Z Merged pull request |-\|/-| 302 +6 −13 txt 0|-\|/-| 
+Test ROS Build Environment |-\|/-| 2016-10-02T23:17:32Z Merged pull request |-\|/-| 301 +14 −1 txt 0|-\|/-| 
+[cmake] add uninstall make target |-\|/-| 2016-09-23T23:17:48Z Merged pull request |-\|/-| 297 +24 −0 txt cmake 1|-\|/-| 
+[cmake] add uninstall target |-\|/-| 2016-09-23T23:19:28Z Closed pull request |-\|/-| 296 +24 −0 txt cmake 1|-\|/-| 
+Finish up CMake |-\|/-| 2016-09-19T14:46:33Z Merged pull request |-\|/-| 291 +186 −167 gitignore def txt vcxproj filters 5|-\|/-| 
+Cmake rebase |-\|/-| 2016-10-02T07:56:18Z Merged pull request |-\|/-| 290 +889 −1,059 gitignore yml cmake def 4|-\|/-| 
+Turn on stricter warnings, and fix existing warnings. |-\|/-| 2016-09-15T05:47:05Z Merged pull request |-\|/-| 288 +68 −63 Makefile h cpp 13|-\|/-| 
+Enable compilation for non-SSE platforms |-\|/-| 2016-09-13T08:10:30Z Merged pull request |-\|/-| 285 +13 −0 cpp 1|-\|/-| 
+Fix init order, unused variable and signed/unsigned comparison warnings. |-\|/-| 2016-09-09T19:21:36Z Merged pull request |-\|/-| 279 +17 −17 AUTHORS cpp h 6|-\|/-| 
+Moved error behavior out of header. |-\|/-| 2016-09-08T13:20:32Z Closed pull request |-\|/-| 278 +41 −14 AUTHORS hpp vcxproj filters cpp 7|-\|/-| 
+Librealsense Cmake |-\|/-| 2016-09-07T18:30:39Z Closed pull request |-\|/-| 274 +47 −120 txt Makefile 1|-\|/-| 
+Fixing couple of issues with SR300 and F200 |-\|/-| 2016-09-07T10:59:23Z Merged pull request |-\|/-| 272 +3 −3 cpp 2|-\|/-| 
+Updated README to reflect current ROS support |-\|/-| 2016-09-08T09:11:10Z Closed pull request |-\|/-| 259 +384 −33 cmake def txt 2|-\|/-| 
+adding couple of links to useful librealsense resources |-\|/-| 2016-08-25T07:49:07Z Merged pull request |-\|/-| 256 +7 −2 md 0|-\|/-| 
+Fixed missing "." before shell commands in the installation document |-\|/-| 2016-08-24T07:56:50Z Merged pull request |-\|/-| 253 +2 −2 md 0|-\|/-| 
+Update the ROS package version |-\|/-| 2016-08-23T07:59:19Z Merged pull request |-\|/-| 251 +1 −1 xml 1|-\|/-| 
+Added patch compilation for Arch and Manjaro Linux. |-\|/-| 2016-08-23T11:55:43Z Merged pull request |-\|/-| 249 +127 −8 md sh 1|-\|/-| 
+Fixing R200 RAW10 format |-\|/-| 2016-08-21T12:47:09Z Merged pull request |-\|/-| 247 +6 −1 cpp 1|-\|/-| 
+ROS Debian Package updates |-\|/-| 2016-08-21T08:50:08Z Merged pull request |-\|/-| 246 +409 −99 debian/TODO sh conf debian/install postinst → debian/postinst debian/prerm patch 7|-\|/-| 
+Fixed set_control for Windows Build 1607 |-\|/-| 2016-08-17T13:28:45Z Merged pull request |-\|/-| 245 +2 −1 cpp 1|-\|/-| 
+minor changes for SR300 cameras |-\|/-| 2016-08-11T06:37:02Z Merged pull request |-\|/-| 240 +61 −305 h hpp cpp 4|-\|/-| 
+ROS Debian package updates |-\|/-| 2016-08-07T10:21:21Z Merged pull request |-\|/-| 236 +190 −0 postinst udev 4|-\|/-| 
+Fix data type for Auto Range Thresholds |-\|/-| 2016-08-04T07:29:03Z Merged pull request |-\|/-| 230 +2 −2 h 1|-\|/-| 
+Fix to use ubuntu kernel repo instead of apt-get |-\|/-| 2016-07-25T18:02:23Z Merged pull request |-\|/-| 219 +3 −3 sh 1|-\|/-| 
+quick fix to the makefile adding dependency from o to headers |-\|/-| 2016-07-24T08:00:26Z Merged pull request |-\|/-| 217 +7 −1 Makefile 1|-\|/-| 
+fixing OSX build |-\|/-| 2016-07-14T16:31:31Z Merged pull request |-\|/-| 212 +81 −17 pbxproj cpp 2|-\|/-| 
+Improvements to the get_usb_hub method |-\|/-| 2016-07-15T18:07:11Z Merged pull request |-\|/-| 211 +343 −8 cpp h 4|-\|/-| 
+Remove 32-bit ARM flags from 64-bit build |-\|/-| 2016-07-13T08:07:33Z Merged pull request |-\|/-| 207 +1 −1 Makefile 1|-\|/-| 
+Arm64 Builds and warnings clean-up |-\|/-| 2016-07-11T09:17:32Z Merged pull request |-\|/-| 206 +18 −13 Makefile c cpp 5|-\|/-| 
+"make install" should not rebuild librealsense.so |-\|/-| 2016-07-14T14:02:47Z Merged pull request |-\|/-| 200 +10 −12 Makefile 1|-\|/-| 
+Ignore inaccessible cameras during detection. |-\|/-| 2016-07-14T14:02:24Z Merged pull request |-\|/-| 199 +6 −1 cpp 1|-\|/-| 
+Added generic, non-SSSE3 colourspace conversion. |-\|/-| 2016-07-07T15:26:16Z Merged pull request |-\|/-| 198 +145 −2 Makefile cpp 2|-\|/-| 
+Support for non-SSSE3 Platforms |-\|/-| 2016-07-07T14:33:29Z Closed pull request |-\|/-| 196 +191 −16 Makefile cpp 4|-\|/-| 
+Add uninstall task to Makefile |-\|/-| 2016-07-02T08:26:31Z Merged pull request |-\|/-| 192 +5 −0 Makefile 1|-\|/-| 
+Add Missing Dependency for build |-\|/-| 2016-06-29T20:58:29Z Merged pull request |-\|/-| 188 +2 −0 xml 1|-\|/-| 
+Remove HTML Codes |-\|/-| 2016-06-27T19:18:27Z Merged pull request |-\|/-| 187 +1 −1 xml 1|-\|/-| 
+Remove non-ASCII characters |-\|/-| 2016-06-27T17:53:17Z Merged pull request |-\|/-| 186 +1 −1 xml 1|-\|/-| 
+Enable Debian Package Build for ROS |-\|/-| 2016-06-27T17:05:38Z Merged pull request |-\|/-| 182 +70 −0 txt xml 1|-\|/-| 
+Fixed cpp-capture SIGSEGV |-\|/-| 2016-06-20T06:12:48Z Merged pull request |-\|/-| 178 +1 −1 cpp 1|-\|/-| 
+Add cpp-tutorial-4-gles3-pointcloud.cpp |-\|/-| 2016-06-16T15:25:35Z Closed pull request |-\|/-| 168 +769 −0 0|-\|/-| 
+Chromeos build fix |-\|/-| 2016-06-16T15:25:47Z Closed pull request |-\|/-| 165 +7 −6 cpp 4|-\|/-| 
+Add .clang-format to keep coding style consistent. |-\|/-| 2016-06-16T15:26:23Z Closed pull request |-\|/-| 164 +3,234 −2,991 clang-format md c cpp 6|-\|/-| 
+Define the coding style. |-\|/-| 2016-05-31T17:53:14Z Closed pull request |-\|/-| 160 +9,420 −8,827 clang-format md Makefile c 5|-\|/-| 
+Update installation.md for Ubuntu 16.04 |-\|/-| 2016-05-26T18:43:11Z Merged pull request |-\|/-| 154 +5 −3 md 0|-\|/-| 
+Let multiple users share ownership over rs_context object |-\|/-| 2016-05-22T07:38:12Z Merged pull request |-\|/-| 145 +34 −13 cpp h 5|-\|/-| 
+Usb bus port |-\|/-| 2016-05-19T21:47:19Z Closed pull request |-\|/-| 143 +54 −5 yml cpp h hpp 12|-\|/-| 
+Added support in cpp-config-ui example to validate changed camera opt… |-\|/-| 2016-07-07T11:15:51Z Closed pull request |-\|/-| 142 +33 −13 cpp 1|-\|/-| 
+Modified rs_context singleton pattern to return instance |-\|/-| 2016-05-22T07:40:19Z Closed pull request |-\|/-| 141 +10 −18 cpp h 3|-\|/-| 
+Add rs_device_get_usb_port |-\|/-| 2016-05-20T09:50:03Z Merged pull request |-\|/-| 140 +50 −2 cpp h hpp 11|-\|/-| 
+Added CMake script to build librealsense and examples |-\|/-| 2016-08-28T07:41:34Z Merged pull request |-\|/-| 124 +383 −32 cmake def txt 2|-\|/-| 
+Fix wrong instructions for installation on 3.19 Kernel systems |-\|/-| 2016-09-11T06:52:55Z Merged pull request |-\|/-| 120 +4 −2 md 0|-\|/-| 
+Specify depth parameter on git clone |-\|/-| 2016-04-29T13:52:14Z Closed pull request |-\|/-| 118 +1 −3 sh 1|-\|/-| 
+Casts to build with clang on OSX |-\|/-| 2016-05-14T23:25:17Z Closed pull request |-\|/-| 115 +60 −61 c h 5|-\|/-| 
+Reconnect |-\|/-| 2016-04-19T21:33:58Z Closed pull request |-\|/-| 114 +684 −218 cpp h hpp vcxproj 4|-\|/-| 
+Mark utility functions as inline |-\|/-| 2016-04-21T16:25:01Z Merged pull request |-\|/-| 113 +2 −2 hpp 1|-\|/-| 
+Speed up align_image: OpenMP & tuning |-\|/-| 2016-04-29T13:52:02Z Merged pull request |-\|/-| 110 +15 −3 vcxproj cpp 3|-\|/-| 
+Changed the kernel install script to allow for easier kernel version updates. |-\|/-| 2016-09-11T08:10:15Z Closed pull request |-\|/-| 107 +6 −3 sh 1|-\|/-| 
+readme: include MinnowBoard as small-form factor |-\|/-| 2016-04-11T22:31:02Z Merged pull request |-\|/-| 106 +1 −0 md 0|-\|/-| 
+Fedora kernel UVC driver patch script |-\|/-| 2016-04-11T22:39:33Z Merged pull request |-\|/-| 104 +51 −0 sh 1|-\|/-| 
+Updated documentation for video4linux backend |-\|/-| 2016-04-09T18:50:50Z Merged pull request |-\|/-| 102 +8 −5 md sh 1|-\|/-| 
+split pkg-config flags for USB in compile and link for building under… |-\|/-| 2016-04-07T18:37:46Z Closed pull request |-\|/-| 99 +4 −3 Makefile h 2|-\|/-| 
+It wouldn't build without it on El Capitan... |-\|/-| 2016-04-09T18:51:16Z Closed pull request |-\|/-| 93 +2 −2 md 0|-\|/-| 
+Added cross hairs for depth. |-\|/-| 2016-03-29T18:08:50Z Closed pull request |-\|/-| 92 +42 −13 cpp 1|-\|/-| 
+Added note on upgrading distr. |-\|/-| 2016-03-23T17:25:10Z Merged pull request |-\|/-| 85 +1 −0 md 0|-\|/-| 
+Added proper root permissions when needed |-\|/-| 2016-03-21T18:17:53Z Merged pull request |-\|/-| 76 +8 −8 sh 1|-\|/-| 
+Install headers on make install |-\|/-| 2016-03-21T18:17:36Z Merged pull request |-\|/-| 69 +2 −0 Makefile 1|-\|/-| 
+Fixing spurious 'FFFFFF' in serial numbers |-\|/-| 2016-03-21T18:19:33Z Merged pull request |-\|/-| 66 +1 −1 cpp 1|-\|/-| 
+Ignore virtual video devices |-\|/-| 2016-03-21T18:18:13Z Merged pull request |-\|/-| 60 +13 −0 cpp 1|-\|/-| 
+Dev |-\|/-| 2016-02-24T03:09:00Z Closed pull request |-\|/-| 42 +684 −218 cpp h hpp vcxproj 4|-\|/-| 
+Adding support for static linking |-\|/-| 2016-03-02T21:44:45Z Merged pull request |-\|/-| 37 +20 −0 Makefile md 1|-\|/-| 
+Dev |-\|/-| 2016-02-17T18:59:51Z Closed pull request |-\|/-| 35 +684 −218 cpp h hpp vcxproj 4|-\|/-| 
+Dev |-\|/-| 2016-02-17T01:57:08Z Closed pull request |-\|/-| 34 +684 −218 cpp h hpp vcxproj 4|-\|/-| 
+Removed unnecessary include, fixed warning |-\|/-| 2016-03-02T21:46:11Z Merged pull request |-\|/-| 20 +1 −2 cpp 1|-\|/-| 
+Fixing the c and cpp flags for building on osx |-\|/-| 2016-03-02T21:46:05Z Merged pull request |-\|/-| 17 +24 −3 Makefile 1|-\|/-| 
+some variables in stb_easy_font.h needed to be declared static so mul… |-\|/-| 2016-01-26T19:24:25Z Closed pull request |-\|/-| 14 +5 −4 h 1|-\|/-| 
+add depth->color upscaling algorithm (similar to libfreenect2) |-\|/-| 2016-03-02T21:45:59Z Merged pull request |-\|/-| 9 +20 −2 cpp 1|-\|/-| 
