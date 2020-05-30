@@ -1,0 +1,361 @@
+Merge `1-14-stable` into `master`,2019-12-14,Merged,731,14,3,lock rb ,2
+Fix errors when using mutually recursive build settings,2020-01-11,Merged,727,40,9,rb ,2
+Test CI 2,2019-11-05,Closed,726,2,0,,0
+Test CI,2019-11-05,Closed,725,2,0,,0
+Add imessage extensions.,2019-11-05,Merged,723,6,0,rb ,1
+Provide option to look into xcconfigs for common build settings.,2019-10-30,Merged,722,20,6,rb xcconfig ,4
+Remove extra space in warning,2019-10-22,Merged,721,1,1,,1
+Fix config-dump array serialization,2019-10-17,Merged,720,7,2,rb ,1
+Merge `1-13-stable` (1.13.0) into `master`,2019-10-16,Merged,719,14,3,lock rb ,2
+Add support for `productRef` attribute for `PBXTargetDependency`.,2019-10-15,Merged,716,8,0,rb ,1
+Update PBXProject known_regions attribute to include 'Base',2019-10-09,Merged,714,6,2,rb ,2
+Add support for runOncePerArchitecture attribute for PBXBuildRule.,2019-10-07,Merged,712,10,1,rb ,1
+Add alias for `to_h` to `Config`,2019-09-26,Merged,710,7,0,rb ,1
+Add `PBXShellScriptBuildPhase` dependency file.,2019-08-06,Merged,705,7,1,rb ,1
+Merge `1-12-stable` (1.12.0) into `master`,2019-08-02,Merged,704,13,2,lock rb ,2
+Merge `1-11-stable` (1.11.1) into `master`,2019-08-02,Merged,703,15,4,lock rb ,2
+Add #pretty_print to PBXCopyFilesBuildPhase and PBXShellScriptBuildPhase,2019-07-23,Merged,702,59,1,rb ,2
+Merge `1-11-stable` into `master`,2019-07-17,Merged,701,2,1,,1
+[BuildConfiguration] Don't cache configuration until the base ref is set,2019-07-17,Merged,700,2,1,,1
+Merge `1-11-stable` into `master`,2019-07-16,Merged,699,12,5,rb ,1
+[BuildConfiguration] Allow missing base configuration reference when resolving against xcconfig,2019-07-16,Merged,698,12,5,rb ,1
+Merge `1-11-stable` (1.11.0) into `master`,2019-07-09,Merged,696,13,2,lock rb ,2
+Update Bundler version,2019-07-09,Merged,695,1,1,,1
+Add `platformFilter` Xcode 11 entry,2019-07-08,Merged,694,8,0,rb ,1
+Minor performance improvements,2019-07-08,Merged,692,9,6,,7
+Add watchapp2-container product type.,2019-06-29,Merged,690,16,12,rb ,1
+Merge `1-10-stable` into `master`,2019-06-12,Merged,689,13,2,lock rb ,2
+Support for Xcode 11 attributes and objects.,2019-06-11,Merged,687,129,13,rb xcscheme ,14
+CI for ruby 2.6.0,2019-05-17,Merged,684,1,0,,1
+Merge 1-9-stable into master,2019-05-02,Merged,682,13,2,lock rb ,2
+[UUIDGenerator] Also update TargetAttributes,2019-04-22,Merged,675,30,0,rb ,2
+Fix CHANGELOG entry,2019-04-16,Merged,673,3,3,,0
+[Workspace] Raise a better exception when adding an invalid object to a workspace,2019-04-10,Merged,672,6,4,,1
+[Constants] Update for release of Xcode 10.2,2019-04-08,Merged,671,16,15,rb xcconfig xcscheme ,8
+Use modern localization identifier 'en' for the development region,2019-04-16,Merged,669,5,2,rb ,2
+Set root object compatibility version depending on object version.,2019-03-21,Merged,668,38,0,rb ,3
+Normalize xcconfig path when generating includes.,2019-02-22,Merged,665,11,4,rb xcconfig ,3
+Slight path resolution performance improvements by reducing allocations,2019-02-19,Merged,664,11,5,,1
+[Scheme] Serialize `BuildableReference` attributes in schemes in the same order as Xcode,2019-02-14,Merged,663,13,8,rb ,2
+[BuildConfiguration] Speed up settings resolution by using object identity comparisons,2019-02-12,Merged,662,4,3,,1
+[#657] Form path for group references taking into account parent group.,2019-02-14,Merged,661,699,38,rb ,3
+Update CHANGELOG.md,2019-02-04,Merged,660,1,0,,0
+[BuildConfiguration] Fix build setting resolution,2019-02-01,Merged,658,120,25,rb ,2
+Properly loads both project schemes and workspaces schemes on init and prevent overriding of incorrect project path,2019-02-04,Merged,656,18,3,rb ,2
+add .rbenv-gemsets to gitignore,2019-01-23,Merged,655,1,0,,1
+Update default script phase values to match Xcode 10.,2019-01-11,Merged,652,14,7,md rb ,3
+#630 : filerefs now take parent group location into account,2018-12-26,Merged,633,860,13,rb ,2
+Fixup UUIDGenerator initializer for backwards compatibility.,2018-12-04,Merged,628,1,1,,1
+Fixup UUID generation.,2018-11-30,Merged,627,71,24,rb ,3
+Add support for tbd libraries,2018-11-29,Merged,626,59,3,rb ,2
+Only create a products group if it doesn't already exist.,2018-11-09,Merged,623,15,3,,2
+[#618] Fix test entries scheme options,2018-11-02,Merged,622,13,9,rb ,2
+Add support for setting/getting main thread checker related flags for launch and test actions.,2018-10-28,Merged,619,63,1,rb xcscheme ,6
+Configuring targets for running uses internal methods allowing commad line tools and apps to be launchable.,2018-10-09,Merged,614,153,11,rb ,5
+Dig into language choice of the base project template,2018-09-30,Merged,611,24,65,rb xcconfig spec/fixtures/CommonBuildSettings/rebuild_from_xcode ,33
+Update last known SDKs to iOS 12 etc.,2018-09-18,Merged,609,8,6,rb ,2
+Support embedded workspace parsing issue 605,2018-09-06,Merged,606,10,4,rb ,2
+Fix CHANGELOG entry,2018-08-17,Merged,604,1,1,,0
+Add `.inc` file extension to header file extensions,2018-08-10,Merged,598,5,1,rb ,1
+Clean up some error language,2018-08-08,Merged,596,1,1,,1
+[Gemspec] Bump atomos to `'~> 0.1.3'`,2018-08-08,Merged,595,3,3,gemspec ,2
+Document param product_group of new_target,2018-08-06,Merged,594,8,0,rb ,1
+Extend API to allow specifying platform and deployment target for `PBXAggregateTarget`,2018-08-06,Merged,593,25,5,rb ,3
+Create new targets with the proper Xcode 10 build phase ordering,2018-07-31,Merged,592,65,15,lock rb ,4
+add full_path for file_reference,2018-07-10,Merged,586,76,0,,4
+Allow using ${inherited} with multiple definitions,2018-07-11,Merged,585,27,3,rb xcconfig ,3
+Xcode 10 changes for test schemes,2018-06-28,Merged,583,181,15,rb ,2
+Reduce the number of string allocations,2018-06-25,Merged,581,17,8,,5
+Only require 'digest' once instead of on every call of `uuid_for_path`,2018-06-19,Merged,580,6,1,rb ,1
+Xcode 10 support for input file list and output file list,2018-06-15,Merged,579,20,2,rb ,3
+Xcode 10 default build settings,2018-07-10,Merged,578,43,21,rb xcconfig spec/fixtures/CommonBuildSettings/rebuild_from_xcode ,22
+Require set before it is used,2018-05-09,Merged,573,5,1,rb ,1
+Xcode 9.3 compatibility,2018-05-09,Merged,571,92,36,rb ,5
+Warn when encountering unknown attributes instead of bailing out.,2018-05-02,Merged,570,14,11,rb ,2
+Add require for Digest,2018-04-17,Merged,568,1,0,,1
+Fixes regex parsing config files,2018-04-16,Merged,567,24,2,rb xcconfig ,3
+Fix `add_build_configuration` for `PBXAggregateTarget`,2018-04-10,Merged,565,10,1,rb ,2
+update LAST_KNOWN_IOS_SDK to 11.3,2018-04-05,Merged,564,4,3,rb ,2
+Fix for undefined method `isa' for nil:NilClass (NoMethodError),2018-04-13,Merged,561,12,1,rb ,2
+Update configuration_list.rb,2018-03-27,Closed,560,7,2,,1
+Make Workspace.load_schemes load schemes in the workspace container,2018-03-22,Merged,559,"1,081",1,rb xcworkspacedata xcscheme ,3
+Allow cfpropertylist 3,2018-02-23,Merged,552,3,3,gemspec ,2
+Performance improvements,2018-02-22,Merged,551,8,2,,3
+[BuildConfiguration] Fix expanding settings when the inherited value …,2018-02-14,Merged,548,18,2,rb ,2
+[CI] Test against new Ruby 2.5 and patched,2018-03-11,Merged,547,7,4,,1
+Disable weak refs for old deployment targets,2018-02-02,Merged,546,29,8,lock rb gemspec ,4
+Create a buildable reference to another project's target,2018-03-11,Merged,543,42,10,rb ,3
+[Command] Ensure `--no-ansi` disables output of escape sequences,2018-01-25,Merged,542,5,0,rb ,1
+[Constants] Update for Xcode 9.3,2018-01-25,Merged,541,26,12,rb xcconfig xcscheme ,10
+[Project] Atomically write project files,2018-01-18,Merged,538,13,5,Gemfile lock rb gemspec ,4
+[Scheme] Ensure all attribute strings are double-quoted,2018-01-12,Merged,536,74,4,rb ,2
+Update CHANGELOG.md,2017-12-19,Closed,534,4,1,,0
+Adding changelog for issue 531 resolution,2017-12-18,Closed,533,3,1,,0
+Fixing the issue #531,2018-01-10,Merged,532,5,1,rb ,1
+Add .inl as a recognized header file ending,2017-12-13,Merged,528,4,1,rb ,1
+Fix Code Climate badge on README.md,2017-12-13,Merged,527,1,1,,0
+Maintain main_group annotations on save,2019-05-02,Closed,525,4,1,rb ,1
+Made it possible to configure a scheme to launch a Today extension,2017-11-20,Merged,520,24,1,rb ,2
+Allowed to simply save a scheme after it was saved with a path before,2017-11-20,Merged,519,18,1,rb ,2
+Added RemoteRunnable wrapper,2017-11-20,Merged,518,184,1,rb ,3
+Project file fixes after applying recommended settings in 9.1,2018-01-25,Closed,516,46,76,,1
+[XCBuildConfiguration] Fix infinite recursion in #resolve_build_setting,2017-12-06,Merged,515,22,8,rb xcconfig ,3
+Support *.cc file as a header,2019-05-02,Closed,514,5,1,rb ,1
+Verify container portal when checking target membership.,2017-10-26,Merged,513,23,2,rb ,2
+[XCBuildConfiguration] Support environment variables in #resolve_build_setting,2018-01-23,Merged,510,24,3,rb xcconfig ,3
+[Config] Make #to_hash include import statements,2017-10-18,Merged,507,39,2,rb xcconfig ,5
+Don’t share build settings between resources bundle configurations,2017-08-10,Merged,502,7,6,rb ,2
+Resolve variable substitution for xcconfig declared build settings,2017-08-18,Merged,501,146,6,rb xcconfig ,6
+Support *.cc file as a header,2017-10-26,Closed,499,5,1,rb ,1
+Try updating Danger,2017-06-14,Merged,498,7,8,,1
+Allow rebuilding fixtures of build settings from Xcode templates,2017-06-14,Merged,497,369,602,xcconfig ,16
+Update build settings for Xcode 9 Beta 6,2017-09-06,Merged,496,"2,281","1,930",md Rakefile rb plist storyboard ,7
+Provides narrower regex for conflict marker detect,2017-06-23,Merged,495,27,4,rb ,2
+Add `command_line_arguments` to `TestAction`,2017-06-02,Merged,492,80,0,rb ,2
+Add add_legacy_target method to ProjectHelper,2017-06-02,Merged,491,58,0,rb ,2
+Provide ability to update schemes as they are being recreated,2017-06-02,Merged,490,14,0,rb ,2
+[BuildConfiguration] Take into account project settings when resolving,2017-05-31,Merged,489,21,8,rb ,2
+Use `test_target_type?` when adding testable reference,2017-05-19,Merged,487,6,2,rb ,1
+"Handle case where there is a BuildAction, but no BuildActionEntries",2017-05-10,Merged,486,28,17,rb ,2
+Add test reference to xcscheme if target is of type test,2017-05-09,Merged,485,31,0,rb ,2
+Shallow fix for 'Uncaught exception: undefined method `isa'...',2017-04-19,Closed,483,5,1,,1
+Adds Danger to Xcodeproj,2017-04-07,Merged,482,50,0,Dangerfile Gemfile lock ,4
+Add CHANGELOG entry for #467,2017-04-07,Merged,481,4,0,,0
+[Gemspec] Remove ActiveSupport dependency,2017-04-07,Merged,480,48,34,Gemfile lock rb gemspec ,8
+"Added ""inherited"" to SWIFT_ACTIVE_COMPILATION_CONDITIONS in Swift debug.",2017-04-07,Closed,479,1,1,,1
+Make build settings parsing optionally take into account any associated xcconfig files,2017-04-21,Merged,476,134,9,rb xcconfig ,7
+[Fixtures] Updated CommonBuildSettings with Xcode 8.3,2017-03-29,Merged,474,"1,365","1,389",json plist m ,5
+PBXReferenceProxy: Add display_name attribute.,2017-03-27,Merged,473,28,1,rb ,2
+[Fixtures] Updated CommonBuildSettings with Xcode 8.2.1,2017-03-26,Merged,468,"2,185","1,618",Gemfile lock rb plist m storyboard ,12
+Adds ui_test_bundle extension,2017-04-07,Merged,467,1,0,,1
+Change return value of adding system framework,2017-02-11,Merged,466,12,2,rb ,2
+Add additional file types for extensions,2017-02-03,Merged,465,35,21,rb ,1
+Switch from unmaintained colored to maintained colored2,2017-01-30,Merged,463,6,6,rb gemspec ,5
+[Plist] Correct auto-load for CFPropertyList,2017-01-28,Closed,461,1,1,,1
+[Travis] Test against Ruby 2.4,2016-12-26,Merged,457,3,3,rb ,3
+add more HEADER_EXTENSIONS,2017-01-06,Closed,456,1,1,,1
+Add `command_line_arguments` to `TestAction`,2017-06-02,Closed,454,18,0,,1
+Fix invalid docs for build_phases methods,2016-11-17,Merged,452,2,2,,1
+require 'colored' in xcodeproj,2016-11-13,Merged,449,4,1,rb ,1
+Better error message when a target_dependency is invalid,2016-11-13,Merged,448,8,3,rb ,2
+[Project] Allow initializing when the `classes` attribute is missing,2016-11-13,Merged,447,14,1,rb ,2
+Add missing file extensions for target types,2016-11-06,Merged,443,3,0,,1
+[Plist] Update to Nanaimo 0.2.0,2016-11-02,Merged,440,2,2,,2
+Associated changelog entry to the correct version,2016-10-17,Closed,433,4,5,,0
+Associated changelog entry to the correct version,2016-10-17,Merged,432,4,3,,0
+[Plist] Migrate to purely native ASCII plist parsing,2016-10-25,Merged,430,426,"1,006",lock rb ,5
+Fix regression resulting in projects existing product refs being altered,2016-10-14,Merged,429,"4,578",2,rb pbxproj xcworkspacedata xcscheme ,5
+Add product type constant for XPC services,2016-10-12,Merged,428,10,9,,2
+#221 Fixed handling of xcdatamodeld packages in subfolders,2016-10-15,Merged,427,21,3,rb ,2
+Update last known OS constants to latest Apple OS releases,2016-11-13,Merged,425,7,7,,2
+Typo-fix in CLI output (sorts the give -> sorts the given),2016-10-01,Merged,424,1,1,,1
+Make chdir chdir again?,2016-09-26,Merged,421,44,32,rb ,3
+Add support for command line arguments,2016-10-02,Merged,420,237,1,,5
+Fix Encoding::UndefinedConversionError,2016-10-24,Closed,419,1,1,,1
+[FFI] Default to overriding chdir,2016-09-10,Merged,415,51,7,rb ,2
+Bump last known object version,2016-09-07,Merged,414,"4,564",2,rb pbxproj xcworkspacedata xcscheme ,5
+[Gemfile] Pin activesupport ~> 4.2,2016-09-03,Merged,411,7,4,lock ,2
+Fixes issue CocoaPods/Xcodeproj#409,2016-09-06,Merged,410,"4,561",0,pbxproj xcworkspacedata xcscheme ,5
+Xcode 8 devtoolscore workaround subprocess exec,2016-09-06,Merged,407,27,14,,3
+Make FFI fail fast if the shared libraries it relies on are not available,2016-10-25,Closed,406,54,1,lock rb ,4
+Use `__pthread_chdir` instead of `chdir`,2016-09-06,Closed,404,30,0,,1
+Added messages application product type,2016-08-03,Merged,400,25,17,rb ,2
+"When adding an empty file to a project, and later saving the project,…",2018-01-23,Closed,399,6,4,,1
+[Travis] Fix json installation on system ruby,2016-07-22,Merged,397,2,0,,1
+Support for identifying hosts of embedded targets from sub-projects,2016-08-03,Merged,396,68,2,rb ,4
+"Revert ""Avoid use of `activesupport` version 5""",2016-07-02,Merged,394,4,6,lock gemspec ,2
+Avoid use of `activesupport` version 5,2016-07-01,Merged,393,6,4,lock gemspec ,2
+README improvements,2016-06-29,Merged,392,49,5,,0
+Add quickstart to README,2016-06-28,Merged,391,9,0,,0
+Add new Messages extension product types,2016-06-27,Merged,390,25,16,rb ,3
+Fixes plist serialization with Xcode 8 beta 1,2016-06-29,Merged,389,15,1,rb ,1
+Disable codesigning for iOS targets,2016-06-26,Closed,387,1,1,,1
+add targets json output,2016-06-21,Closed,386,14,0,,1
+Expand extension<->host relationship identification methods to all embeded targets,2016-06-21,Merged,385,30,37,rb ,2
+Skipped tests list support,2016-06-07,Merged,383,41,0,rb ,2
+Add capabilities for detecting app extensions and host targets,2016-06-07,Merged,382,"2,420",0,rb json storyboard plist xcassets/README__ignoredByTemplate__ swift ,7
+Skipped tests list support added for TestableReference,2016-06-02,Merged,380,73,1,rb ,2
+[PBXNativeTarget] Add helpers for test & extension target types,2016-05-30,Merged,376,64,4,rb ,2
+Fix json gem with Ruby 2.2,2016-07-19,Closed,375,3,1,,1
+Support for UI test bundles,2016-05-08,Merged,372,17,2,rb ,3
+[Constants] Update for Xcode 7.3,2016-05-04,Merged,371,"1,845","2,209",Rakefile rb h m storyboard ,12
+Added support for saving schemes to workspaces.,2016-07-04,Closed,367,479,264,,4
+"If nil is passed, initialize a new document",2016-05-02,Merged,366,12,2,rb ,2
+[PBXBuildRule] Add support for custom compiler flags,2016-04-07,Merged,364,50,1,rb ,2
+[Workspace::FileReference] Improve error for unsupported types,2016-04-01,Merged,363,6,4,rb ,1
+[Bundle] Update RuboCop,2016-03-10,Merged,359,159,33,lock rb ,9
+Fix documentation for move and move_from methods on object_list,2016-02-16,Merged,358,4,4,,1
+Load DVTServices and DVTPortal frameworks,2016-02-08,Merged,356,11,0,rb ,1
+[ProjectHelper] Construct new targets with the proper settings for cu…,2016-02-08,Merged,355,63,4,lock rb ,5
+Added ui-testing product type,2016-02-17,Closed,353,1,0,,1
+Set TARGETED_DEVICE_FAMILY to include iPhone and iPad device families…,2016-01-06,Closed,351,1,0,,1
+[Config] Add a trailing newline in #to_s,2015-12-29,Merged,350,13,5,rb ,2
+[Config] De-duplicate prefixes when merging,2015-12-29,Merged,349,21,1,rb ,2
+Update for Xcode 7.2,2015-12-27,Merged,348,"1,391","1,179",h m ,35
+Make the plist backend pluggable,2015-12-27,Merged,345,925,812,lock rb ,4
+Additional documentation when creating project from scratch.,2015-12-07,Merged,344,6,0,,1
+Update 'ENABLE_TESTABILITY' build setting for Xcode 7,2015-11-25,Merged,341,1,2,,1
+[Project] Track dirty status,2015-12-03,Merged,340,119,10,rb ,9
+[PlistHelper] Ensure a UTF-8 encoding when trying to create a CFString,2015-11-13,Merged,339,1,1,,1
+Track .def files as headers,2015-11-13,Merged,338,1,1,,1
+Support multiple OTHER_CFLAGS/OTHER_LDFLAGS on 6.3 project,2015-11-13,Merged,337,24,3,pbxproj ,3
+[AbstractTarget] Add a helper to set the deployment target,2015-10-31,Merged,336,58,5,rb ,2
+Escape XML entities in workspace file reference nodes,2015-10-31,Merged,335,7,4,rb ,2
+Add support for scheme environment variables,2015-10-27,Merged,326,624,20,md rb xcscheme ,7
+Add constants for watchOS and tvOS,2015-10-26,Merged,324,"4,373",841,rb plist h m json ,20
+Adjust Xcodeproj::Workspace to keep the underlying REXML document and add basic <Group> support.,2015-10-27,Merged,322,285,36,rb xcworkspacedata ,4
+[PlistHelper] Raise went attempting to write from background thread,2015-10-24,Merged,321,3,1,,1
+Adding .hxx to the list of recognized header file extensions,2015-10-23,Merged,320,4,1,rb ,1
+Added target type for TV application extensions,2015-10-15,Merged,318,5,0,rb ,1
+Add a method to create a new PBXVariantGroup in a group,2015-10-15,Merged,315,57,0,rb ,2
+[Config] Fix merging settings that have multiple entries in common,2015-10-25,Merged,313,17,2,rb ,2
+Silence `dyld` warnings appearing on OS X 10.11,2015-10-07,Merged,312,13,7,rb ,1
+Update for Xcode 7.1,2015-10-24,Merged,311,"1,561","2,694",lock rb plist h m ,17
+[Config] Handle non-string values when serializing,2015-10-04,Merged,309,19,1,rb ,2
+Add `XCScheme#save!` to save scheme in place,2015-09-26,Merged,308,41,0,rb ,2
+[XCScheme] Add support for code_coverage_enabled setting,2015-09-26,Merged,307,21,1,rb ,2
+[GroupableHelper] Fix getting the parent of an xcdatamodel file,2015-09-26,Merged,306,6,2,rb ,1
+Allow handling circular target dependencies,2015-09-25,Merged,305,215,0,rb pbxproj xcworkspacedata ,6
+Add `tvos` as a new platform,2015-09-26,Merged,301,86,6,rb ,7
+[UUIDGenerator] Cache some path calculations,2015-09-02,Merged,300,11,6,,1
+Fixed - Parse the available SDKs instead of using the constants,2015-09-25,Closed,298,5,5,gemspec ,3
+[Config] Ignore inherited-only values when serializing,2015-08-25,Merged,297,10,0,rb ,2
+[Config] Strip lines when converting to string,2015-08-21,Merged,296,14,5,rb ,2
+Fixes ordering to be case-insensitive,2015-08-10,Merged,294,24,4,rb ,4
+[UUIDGenerator] Reduce the situations in which dupes will be generated,2015-07-26,Merged,292,15,4,rb ,2
+#192 xcdatamodeld not handled properly,2018-01-23,Closed,291,5,1,,1
+Allow manipulation of existing xcscheme,2015-08-09,Merged,288,"2,034",147,rb ,1
+fix incorrect SDKROOT parser,2015-07-02,Closed,285,17,12,,2
+[Project] Add method to stabilize UUIDs,2015-07-01,Merged,283,177,2,rb ,4
+[Command] Switch to CLAide,2015-06-30,Merged,282,136,188,lock bin/xcodeproj rb ,7
+[PlistHelper] Xcode 7 seems to require IB to be loaded ¯\_(ツ)_/¯,2015-06-27,Merged,280,8,0,rb ,1
+[PlistHelper] Allow serializing ASCII Plists in Xcode 7 Beta 2,2015-06-27,Merged,279,9,19,lock rb gemspec ,4
+Fix some typos,2015-06-24,Merged,277,14,14,,2
+[PlistHelper] Fall back to XML project output when Xcode initializati…,2015-06-25,Merged,275,22,4,lock rb gemspec ,4
+[Target] Ensure that duplicate resources or source files arent added …,2015-06-21,Merged,273,38,10,rb ,2
+Support for native watch app targets,2015-06-24,Merged,272,95,17,rb xcscheme ,12
+Get ready for Xcode 7.0,2015-06-25,Merged,271,42,2,rb xcconfig xcscheme ,9
+PBXContainerItemProxy proxyType is a numeric field,2015-12-08,Closed,270,6,6,,5
+[PlistHelper] Show a nice error message when loading fiddle fails,2015-05-18,Merged,269,8,1,,1
+Support Command Line Tool as product type,2015-05-18,Merged,268,19,9,rb ,1
+Use `--print-path` to be compatible with OS X 10.8,2015-04-14,Merged,263,5,1,rb ,1
+[Refactor] Use grep(c) instead of select { |x| x.is_a?(c) },2015-04-07,Merged,262,8,9,,4
+Project Helper for different Target Types,2015-04-07,Merged,260,106,5,rb ,4
+Fix docs description for set_launch_target,2015-03-31,Merged,258,1,1,,1
+Return a list of project targets excluding aggregate targets.,2015-04-06,Closed,256,10,1,,1
+[Config] 'includes' affect equality.,2015-04-01,Merged,255,33,12,,2
+Add method to duplicate a target from a project,2018-01-23,Closed,254,127,1,,6
+Bump last known versions.,2015-04-27,Merged,253,"4,587",14,rb pbxproj xcworkspacedata xcscheme ,6
+Fix `fix_encoding` workaround,2015-03-26,Merged,251,80,67,rb pbxproj ,5
+Dependency collision fix,2015-03-20,Closed,250,1,1,,1
+Fix add_system_framework could not find the system framework,2015-05-18,Closed,246,1,1,,1
+add missing require,2015-03-10,Closed,245,1,0,,1
+Propagate language parameter to ProjectHelper::common_build_settings,2015-03-06,Merged,244,38,24,md rb ,4
+Added .tpp header extension support,2015-02-17,Merged,241,1,1,,1
+[Constants] Add watch product types,2015-02-17,Merged,240,2,0,,1
+add .H to HEADER_FILES_EXTENSIONS,2015-02-19,Merged,239,14,1,rb ,2
+Explicitly call `close` on `PBXProject` instances.,2015-02-03,Merged,237,9,0,,1
+[Constants] Fix COPY_PHASE_STRIP,2015-01-31,Merged,236,12,2,rb ,1
+"Add support for numbers (real, integer) in PlistHelper",2015-01-31,Closed,235,69,7,rb ,2
+[Project] Add build settings for all configurations in new_target.,2015-01-27,Merged,234,16,0,rb ,2
+Remove unnecessary check for a Hash,2015-01-31,Merged,232,6,8,,1
+remove redundant #,2015-01-24,Merged,231,1,1,,0
+[Changelog] Add entry for #225,2015-01-24,Merged,230,5,0,,0
+[Project] Create all configurations for new_target,2015-01-24,Merged,229,33,0,rb ,2
+use sub instead of gsub,2015-01-24,Merged,225,1,1,,1
+Double quotes on scheme generation,2014-12-24,Closed,223,1,1,,1
+[FileReference] Correctly encode xml entities,2014-11-09,Merged,220,15,1,rb ,2
+Optimisations,2014-10-28,Merged,216,63,17,md rb ,8
+[Ruby2] Further cleanup,2014-10-26,Merged,213,13,22,,3
+Drop support for Ruby < 2.0.0,2014-10-26,Merged,212,17,65,md Gemfile Rakefile bundle rb gemspec ,9
+[Spec] Fix spec for warning by xcproj touch,2014-10-25,Merged,210,1,1,,1
+Do not rewrite configs if content is identical.,2014-10-15,Closed,207,16,0,rb ,2
+Ruby implementation of xcproj functionality,2015-01-31,Merged,203,"4,853",145,rb ,3
+Reference system frameworks from SDKROOT,2014-10-06,Closed,201,4,18,,2
+Revert to real CoreFoundation based plist handling.,2014-10-07,Merged,200,510,"8,920",Gemfile lock bundle rb ,5
+Add runpath search paths to default settings,2014-09-30,Closed,197,1,0,,1
+Correctly support -force_load in linker flags.,2014-10-01,Merged,195,40,4,rb ,5
+Recognize merge conflicts,2014-10-23,Merged,192,144,0,rb h pbxproj xcworkspacedata ,6
+[Project] robustness for #recreate_user_schemes,2014-09-25,Merged,191,2,1,rb ,2
+Add attribute :name for PBXReferenceProxy,2014-10-24,Merged,189,4,0,,1
+Fixed Subproject Target Dependencies,2014-10-24,Merged,188,723,8,rb ,4
+Minor API Improvements,2014-10-26,Merged,187,86,4,rb ,4
+Reduced code duplication for Build Phase accessors,2014-10-25,Merged,186,23,33,,1
+[WIP] Add Support for deterministic UUIDs,2015-01-31,Closed,185,56,46,,7
+Fixes RuboCop dependency issue.,2014-09-10,Merged,183,1,1,,1
+Update constants.rb,2014-11-07,Closed,182,0,1,,1
+Support XCTest as product type,2014-08-13,Merged,176,16,2,rb ,3
+Remove fallback warning,2014-08-13,Merged,174,1,3,,1
+Add support for adding subprojects,2014-07-27,Merged,172,528,190,rb ,5
+Workspace: use template for serialization,2014-07-25,Merged,171,89,51,rb ,4
+Drop native extension,2014-07-22,Merged,168,"9,027","1,031",md Gemfile lock Rakefile ext/xcodeproj/Rakefile rb ,6
+Generate targets with same build settings as Xcode (related to #164),2014-11-20,Merged,166,"9,676",136,Rakefile rb ,4
+[xcodeproj_ext] Fix a memory leaks when raising,2014-07-18,Merged,165,4,5,,1
+Remove GCC_VERSION and GCC_C_LANGUAGE_STANDARD default build settings,2014-07-19,Merged,163,0,2,,1
+Update README.md,2014-07-05,Merged,162,1,1,,0
+Test to ensure Xcodeproj can save a project after removing a subproject,2014-07-21,Closed,161,35,1,,2
+Fixed issue in a Save test,2014-07-02,Merged,160,2,3,,1
+Constants for .swift and .xctest files,2014-07-19,Merged,159,3,1,,1
+Fix: adding a project to a workspace is broken on 0.17.0,2014-05-21,Merged,155,14,3,rb ,2
+xcdatamodel must be relative to xcdatamodeld,2014-04-29,Closed,151,2,1,,1
+[Workspace] Support file reference types,2014-04-17,Merged,150,182,36,rb ,4
+Fixed issue #147,2014-04-13,Merged,149,4,2,,1
+Support .ipp files as headers,2014-04-13,Merged,148,1,1,,1
+Don't add Frameworks to project by default,2014-03-27,Closed,142,2,10,,2
+Remove empty OTHER_LDFLAGS setting,2014-03-19,Merged,140,0,1,,1
+Bumping last known Xcode version to 5.1,2014-03-18,Merged,138,15,7,rb pbxproj xcscheme ,7
+group: find_subpath method behavior is incorrect. it does not use path for new_group init,2014-03-27,Closed,135,1,1,,1
+Update ActiveSupport,2014-03-27,Closed,133,17,5,rb gemspec ,4
+fix in XML_Formatter + change: PBXScheme supports adding PBXLegacyTarget,2014-07-19,Closed,129,28,8,,2
+Expand the path when creating new projects,2014-03-19,Merged,124,7,1,,2
+Added missing rake runtime dependency,2013-11-01,Merged,110,5,0,gemspec ,1
+iphonesimulator support,2013-10-31,Closed,104,1,1,,1
+Scheme fixes,2013-10-18,Merged,102,92,10,rb ,2
+PBXNativeTarget.add_dependency support for subproject targets,2013-10-17,Merged,101,76,2,rb ,4
+"Fix ""Unable to read data from .......Model.xcdatamodeld/.xccurrentversion""",2013-10-10,Merged,100,7,1,rb ,1
+Add support for creating and hiding schemes,2013-10-04,Merged,97,145,19,c rb ,11
+Add project build configurations,2013-10-07,Merged,96,48,11,rb ,3
+Refactor XCScheme API to enable multiple targets,2013-09-25,Merged,95,795,195,pbxproj xcscheme pch h m strings plist ,10
+Close and release the CFWriteStream used to write projects when done,2013-09-20,Merged,93,2,0,,1
+Add support for Xcode 5,2013-09-20,Merged,91,14,10,rb ,1
+Properly quote project path when calling xcproj,2013-09-05,Merged,89,4,4,,2
+Don't XML encode entities in the project paths when reading an Xcode workspace,2013-09-10,Merged,87,26,1,rb xcworkspacedata ,3
+Remove -Z linker flag to avoid missing CoreFoundation compile error,2013-09-02,Merged,86,8,0,,1
+Handle `.xccurrentversion` file when adding versioned data models to project,2013-08-28,Merged,83,60,7,rb xccurrentversion xcdatamodel/contents ,6
+Make it possible to pass build configurations to Xcodeproj::Project constructor,2013-08-15,Merged,82,15,6,,2
+add framework target type,2013-06-20,Merged,77,1,0,,1
+workspace schemes,2013-05-31,Merged,72,"1,647",3,,2
+Minor typo fixed in Readme,2013-05-27,Merged,71,1,1,,0
+Xcconfig prefix,2013-06-10,Merged,70,15,6,,2
+Fix for undefined method `display_name' for nil:NilClass,2013-10-04,Closed,69,1,1,,1
+Add optional name to replace OTHER_LDFLAGS in xcconfig hash,2013-10-04,Closed,68,33,3,,2
+Add test for saving xcconfig with includes,2013-05-03,Merged,67,5,0,,1
+Add includes when writing the xcconfig file,2013-05-02,Merged,66,2,1,,1
+added the feature to create shared schemes for Xcode projects,2013-04-12,Merged,64,900,0,xcscheme ,3
+[Project] Add workaround to support Unicode,2013-04-03,Merged,60,57,11,lock rb ,4
+Rename to_plist methods on AbstractObject and ObjectDictionary,2013-04-03,Merged,59,23,20,rb ,7
+"Added few yaml output formats for show command, to help developing #55",2013-04-03,Merged,56,26,0,,1
+Added DNS_BLOCK_ASSERTIONS=1 to default Xcode release flags,2013-02-19,Merged,53,22,1,,2
+"Support comments attribute in all build phases, groups and targets.",2013-02-09,Merged,51,22,0,,4
+Add `to_s` method to Targets,2013-02-12,Merged,50,6,0,,2
+Allow PBXGroup as PBXFileReference Value,2013-01-29,Merged,49,5,1,,2
+"Mark source files as ""Project"" not ""Public""",2013-01-24,Merged,48,0,1,,1
+"Allow show command without arguments, as its docs say. Fixes #45",2013-01-24,Merged,47,2,1,,1
+A couple of fixes for cfstr_to_str(),2013-01-07,Merged,43,3,5,,1
+Added a spec to point the remove_from_project problem of build files,2012-10-23,Merged,36,49,24,,3
+Refactor,2012-10-21,Merged,34,"11,687","1,966",kick yardopts Gemfile lock bin/xcodeproj rb ,10
+Support .hh files as headers,2012-10-08,Merged,32,1,1,,1
+Support for resources build phase,2012-10-05,Merged,30,19,2,,4
+Change 'LastUpgradeCheck' for Xcode 4.5,2012-10-08,Merged,28,1,1,,1
+Show subcommand,2012-10-21,Closed,27,104,12,rb ,6
+[Object] Support destroy in concrete subclasses.,2012-10-19,Closed,26,34,5,,5
+Add support for universal-darwin10.0 via st.h check.,2012-08-22,Merged,25,3,1,c ,2
+Set path attribute on XCVersionGroup when creating with #new_xcdatamodel_group,2012-07-16,Merged,23,3,1,,2
+Add XCVersionGroup support for xcdatamodeld files. Closes #21,2012-07-13,Merged,22,34,0,,2
+Fix syntax of YARD documentation for #build_configurations,2012-07-05,Merged,20,2,2,,1
+[Configuration] Don't overwrite warnings defaults.,2012-07-03,Merged,19,0,4,,1
+[Configuration] Don't overwrite warnings defaults.,2012-06-27,Closed,18,0,4,,1
+[NativeTarget] #add_source_file -> #add_source_files.,2012-06-25,Merged,16,57,21,rb ,3
+[Config] Add non destructive merge and convenience methods.,2012-05-28,Merged,13,92,11,,2
+Ability to create instances of Xcodeproj::Config from files,2012-05-27,Merged,12,134,9,rb xcconfig ,7
+Ability to create instances of Xcodeproj::Config from files,2012-05-27,Closed,11,227,3,Rakefile rb xcconfig ,15

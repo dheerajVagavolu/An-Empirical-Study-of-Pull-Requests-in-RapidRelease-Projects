@@ -1,0 +1,1193 @@
+Fix TensorFlow dataset test,2020-01-10,Merged,1641,21,18,,1
+Improved Reshape,2020-01-10,Merged,1634,246,61,h ,3
+Also check tensor argument to determine if resampling is needed.,2020-01-07,Merged,1630,1,1,,1
+Update CUDA version detection for Conda,2020-01-07,Merged,1629,1,1,,1
+Temporary fix due to missing PILLOW_VERSION symbol when using torchvision,2020-01-07,Merged,1626,14,9,,7
+Fix Transpose operator for batch size 1 as well as 1 channel images,2020-01-02,Merged,1624,26,26,py ,2
+Name the dataloader shuffling seed,2020-01-02,Merged,1621,7,5,,5
+Add data source info to error message in TFRecord and Caffe parsers,2020-01-02,Merged,1620,10,9,,3
+Fixing numpy version to 1.17.0 in SSD test,2019-12-27,Merged,1618,2,1,,1
+"Update VideoReader testcase, use nvmlSystemGetDriverVersion",2019-12-30,Merged,1617,39,4,h ,3
+Erase CPU operator,2020-01-09,Merged,1609,"1,735",4,h ,2
+Bump protobuf version to 3.11 in conda build,2019-12-23,Merged,1606,3,3,yaml ,2
+Allow Crop and CropMirrorNormalize to crop sequences as if they were volumetric images,2020-01-08,Merged,1605,122,6,py ,4
+Remove the need to have GPU available when DALI is just imported,2020-01-03,Merged,1601,52,16,sh ,3
+Add docs for arithmetic expressions,2020-01-02,Merged,1600,112,7,rst ,3
+Formatting fix.,2020-01-02,Merged,1597,2,2,,1
+"Add bitwise operators: &, |, ^",2019-12-19,Merged,1594,352,25,cc cu ,10
+Mock imports when building docs where possible,2019-12-20,Merged,1593,27,7,,2
+Use different stream base for different videos.,2020-01-02,Merged,1592,45,18,cc h ,6
+Load libnvcuvid before we test if cuvidReconfigureDecoder symbol exists,2019-12-23,Merged,1591,25,23,cc ,4
+"Add interdoc link to define_graph, fix note",2019-12-19,Merged,1590,5,4,,1
+Split Expression Factory into separate translation units,2019-12-19,Merged,1587,"1,140",97,cc cu ,14
+Bump protobuf version in docs,2019-12-19,Merged,1586,1,1,,1
+Remove old PythonFunction implementation,2019-12-20,Merged,1585,360,208,h ,2
+Resampling decoder,2019-12-19,Merged,1582,873,70,cc ,3
+Docs cleanup,2019-12-17,Merged,1578,186,179,,21
+MFCC CPU operator,2020-01-07,Merged,1577,652,15,cc h ,3
+[WIP] MFCC CPU operator,2019-12-13,Closed,1576,821,1,h cc ,3
+Fix a race condition in GetGPUAllocator,2019-12-17,Merged,1575,68,72,,1
+Resample in AudioDecoder,2019-12-20,Closed,1574,357,19,h ,2
+"Bump up protobuf and libturbo-jpeg version in aarch64-linux and qnx build, fix libsnd dependency",2019-12-17,Merged,1573,60,35,aarch64-qnx deps rst ,5
+Fix ToContiguousXXX for >2 inputs.,2019-12-16,Merged,1572,14,4,cc ,2
+Update PR template,2019-12-17,Merged,1571,15,8,,0
+Use prebuild cupy in tests,2019-12-16,Merged,1570,4,2,py ,2
+Add DCT 1D CPU kernel,2019-12-18,Merged,1569,621,0,h cc ,3
+Fix problem with TensorFlow and cupy tests,2019-12-12,Merged,1568,3,5,py ,3
+Fix stream usage in HSV and BrighnessContrast.,2019-12-11,Merged,1566,10,6,h ,4
+Use ColorTwist in SSD pipelines,2019-12-11,Closed,1565,28,74,cu h py ,7
+Fix color ops,2019-12-11,Merged,1562,81,36,h py clean ipynb ,7
+Add more formats to FileReader,2019-12-10,Merged,1561,1,1,,1
+Make the presence of unique visitor script counting optional in docs,2019-12-10,Merged,1560,5,1,py ,2
+Fix static analysis problems,2020-01-03,Merged,1559,11,5,cc ,4
+Fix color operators even more:,2019-12-10,Merged,1558,353,219,h cu ,6
+Update examples with COCO data set and fix reader behavior for padding,2020-01-09,Merged,1557,243,110,cc h py ,7
+Add an ability to return a duplicated outputs from the DALI pipeline,2019-12-17,Merged,1556,259,21,py ,4
+Fix color operators.,2019-12-09,Merged,1555,20,16,cc cu ,5
+Fix setup_packages.py for CUDA versions that are not listed explicitly,2019-12-12,Merged,1554,16,13,,1
+Add spaces in Python 2.7 end of life warning,2019-12-09,Merged,1553,3,3,,1
+Boundary condition handling,2019-12-09,Merged,1552,341,0,h ,2
+[WIP][TEST ONLY] Add debugging code to detection pipeline,2019-12-18,Closed,1551,27,1,,1
+Wait for thread pool to finish work in BrightnessConstrast,2019-12-06,Merged,1549,40,39,cu h ,10
+"Add explicit __call__ docstring, fix Supported backends",2019-12-18,Merged,1547,404,42,h ,3
+Adjust doc string,2019-12-09,Merged,1546,2,7,,1
+Disables cupy test for python 2.7,2019-12-05,Merged,1544,4,1,,1
+Bump up Protobuff version to the latest one,2019-12-12,Merged,1543,4,5,deps rst ,3
+Hide the docs for internal operators,2019-12-05,Merged,1542,3,0,,1
+Add comparison operators and bool handling in arithmetic ops,2019-12-13,Merged,1541,551,91,cc ,4
+Add adobe analytics tracking script into docs,2019-12-05,Merged,1539,1,0,,1
+Extract windows GPU,2019-12-19,Merged,1538,"1,152",10,txt cc cu ,4
+Disable clamping when converting from bool,2019-12-04,Merged,1536,5,4,,1
+Add MelFilterBank CPU operator,2019-12-09,Merged,1535,525,33,txt ,3
+Fix pip package discovery,2019-12-03,Merged,1534,26,11,,3
+ColorTwist operator cleanup,2019-12-05,Merged,1532,48,39,cu h py ipynb ,9
+Extend supported ops doc to include info about volumetric data.,2019-12-03,Merged,1531,50,6,h py rst ,19
+Add zlib dependency warning to libtiff build step,2019-12-03,Merged,1530,5,2,rst ,2
+NormalDistribution operator,2019-12-05,Merged,1529,379,0,h ,5
+Lower the accuracy threshold for paddle RN50 test (limited to 25 epochs),2019-12-02,Merged,1528,2,2,,1
+Add missing examples to DALI sphinx docs,2020-01-10,Closed,1527,3,0,,1
+Fix for WaitForWork in Preemphasis,2019-11-30,Merged,1523,6,4,py ,2
+MelFilterBank CPU kernel,2019-12-05,Merged,1522,663,0,h cc ,3
+Add deprecation warning for Python 2.7,2019-12-02,Merged,1521,11,7,,2
+Fix Keras GPU example,2019-11-29,Merged,1520,31,38,,1
+Split tests per framework if possible,2019-12-02,Merged,1519,662,292,,2
+Add ToDecibels CPU operator,2019-12-02,Merged,1518,276,0,cc h py ,3
+Adding librosa dependency to qa/TL1_jupyter_plugins/test.sh,2019-11-29,Merged,1517,1,1,,1
+Add ToDecibels CPU kernel,2019-11-28,Merged,1516,403,0,h cc ,4
+Preemphasis operator,2019-11-29,Merged,1515,258,0,cc h py ,4
+Preemphasis and NormalDistribution operators,2019-11-28,Closed,1511,470,1,cc h ,4
+More padding options in window extraction.,2019-11-28,Closed,1510,104,42,cc ,4
+Improve support for labels in VideoReader.,2019-12-12,Merged,1500,397,28,cc h ,6
+Fix for bundle-wheel.sh,2019-11-25,Merged,1499,2,0,,1
+Remove deprecated edge.py,2019-11-25,Merged,1498,0,39,,1
+Rephrase supported backends documentation,2019-12-03,Merged,1497,14,10,,1
+More of static analysis fixes,2019-11-25,Merged,1496,33,11,h in ,8
+Remove cache options from fused ImageDecoder documentation,2019-12-02,Merged,1495,35,22,,2
+Guard the MakeContiguous coalesced buffer with event,2019-11-28,Closed,1494,15,1,,1
+"Fix race between consecutive invocations of stage, reduce numbe…",2019-11-28,Merged,1493,96,82,,2
+Change TF versions supported by dataset,2019-11-22,Merged,1492,10,20,cc ,3
+Add MNIST examples,2019-11-28,Merged,1491,841,20,ipynb ,3
+Allow for more verbose Pipeline's graph logging,2019-11-21,Merged,1487,19,9,h py ,4
+Remove used requirement from paddle SSD demo docs,2019-11-20,Merged,1486,0,2,,1
+Additional deps for AudioDecoder,2019-11-22,Merged,1485,105,0,aarch64-linux aarch64-qnx deps ,4
+Add missing dependencies to conda recipe,2019-11-21,Merged,1483,6,0,yaml ,2
+Fix start index function,2019-11-21,Merged,1482,1,6,,1
+AudioDecoder operator,2019-12-01,Merged,1481,998,63,h txt ,8
+CMake swtich for audio support,2019-11-22,Merged,1480,29,22,cmake sh yaml docker/Dockerfile aarch64-linux aarch64-qnx rst ,11
+Update docs for `fill_last_batch` parameter to match the real behavior,2019-11-19,Merged,1479,20,20,,2
+Utilize libcudart.so version to detect the CUDA toolkit version,2019-11-20,Merged,1477,3,3,,3
+Fix race condition between consecutive invocations of stage,2019-11-28,Closed,1475,39,38,,2
+Static analysis fixes,2019-11-21,Merged,1469,211,222,h ,14
+Add Spectrogram CPU Operator,2019-11-27,Merged,1468,949,56,cc ,5
+Add MNIST TensorFlow test,2019-11-25,Merged,1467,527,36,,2
+Improve accuracy of 3D rotation,2019-11-15,Merged,1466,9,1,,1
+Make thread pinning optional in the mixed ImageDecoder,2019-11-15,Merged,1465,4,1,h ,2
+Add ExtractWindows CPU kernel,2019-11-22,Merged,1461,607,54,h txt cc ,6
+Add PowerSpectrum CPU operator,2019-11-27,Merged,1460,325,3,txt h py ,6
+Fix removal of device_id initialization in OF,2019-11-12,Merged,1459,2,1,,1
+Add polygons mask support to COCOReader,2019-11-22,Merged,1455,286,51,h ,3
+Add favicon to docs,2019-11-08,Merged,1453,6,0,,1
+Fixes ExternalSource for the GPU,2019-11-28,Merged,1452,94,32,py ipynb ,4
+Fix scalar batch handling in arithmetic ops,2019-11-08,Merged,1449,400,128,,2
+AudioDecoder for WAV format,2019-11-19,Merged,1447,815,3,DALI_EXTRA_VERSION cmake h cc ,4
+FFT CPU 1D implementation (based on ffts),2019-11-20,Merged,1446,"1,132",3,txt cmake sh yaml cc h ,6
+Warp 3D,2019-11-12,Merged,1442,829,58,cu h cuh ,7
+Add ability to read LMDB without any labels stored inside,2019-11-18,Merged,1440,173,69,cc h py ,6
+Add sequence and 3D support in flip operator,2019-11-13,Merged,1439,303,173,cc cuh cu ,4
+Add notebooks with example usage of arithmetic ops,2019-11-28,Merged,1438,"1,249",216,cu h ipynb txt ,4
+Remove unused npp dependencies,2019-11-05,Merged,1437,6,24,,3
+Sampler 3D,2019-11-03,Merged,1431,721,332,cu ,2
+Make test_RN50_data_fw_iterators.py run once per FW to avoid out-of-memory errors,2019-11-20,Closed,1430,35,18,sh ,4
+Fix link error in debug mode.,2019-10-29,Merged,1429,2,2,,2
+Fix rounding down of the RN50 PyTorch example epoch length,2019-11-04,Merged,1428,2,1,,1
+Fix input tiling in arithmetic ops,2019-10-29,Merged,1426,3,3,py ,2
+Support TF v2.0 in jupyter examples,2019-10-28,Merged,1425,26,4,,3
+Fix RN50 MXNet TL3 test,2019-10-28,Merged,1424,3,0,,1
+CPU argument input,2019-10-27,Merged,1423,352,592,h cuh ,15
+Add initial support for constants in python API,2019-10-31,Merged,1421,341,67,py ,3
+Adjust Tensorflow examples for TF 1.x & 2.x,2019-10-25,Merged,1420,72,12,ipynb ,4
+Fix DALIDataType enum in Python,2019-10-24,Merged,1419,1,1,,1
+Limit number of Input/Output type combinations in Slice kernel family,2019-10-29,Merged,1418,285,365,cc ,4
+BrightnessContrast operator example,2019-10-25,Merged,1414,497,213,cu cc ,4
+Allow empty lists in arguments,2019-10-23,Merged,1413,133,17,h cc py ,6
+Add missing license in python tests,2019-10-23,Merged,1412,154,0,,11
+Fix Pad op default fill_value,2019-10-23,Merged,1410,3,3,,1
+Fix problems reported by the static analysis,2019-11-08,Merged,1408,72,33,h ,25
+Improve wording for PREBUILD_TF_PLUGINS option,2019-10-21,Merged,1407,1,1,,1
+Move builtin operators to dali/pipeline.,2019-10-21,Merged,1406,122,47,h txt cu ,20
+Rotate operator using Warp kernel,2019-10-23,Merged,1403,498,126,cu h ,8
+Remove previously deprecated operator NormalizePermute (CropMirrorNormalized should be used),2019-10-21,Merged,1402,0,302,cu h ,3
+Enforce Crop's crop argument to be a vector of at least 2 elements,2019-10-22,Merged,1401,3,27,cc ,2
+Support TF 1.15 and 2.0 in tests,2019-10-23,Merged,1400,46,10,clean sh ,6
+Remove PyTorch iterator double buffering,2019-10-21,Merged,1399,22,10,,2
+Remove deprecated HostDecoder and nvJPEGDecoder,2019-10-22,Merged,1398,5,97,py ,13
+Allow build DALI for different architectures as well,2019-10-21,Merged,1397,143,81,sh yaml cc txt patch docker/Dockerfile docker/Dockerfile_dali_tf ,9
+Allow DALI TF default compilation if TF compiler version is unknown,2019-10-18,Merged,1396,19,8,,1
+Add TF 1.15 and 2.0 support for TF dataset,2019-10-29,Merged,1395,60,29,cc ,3
+Add additional_decode_surfaces parameter to videoreader,2019-10-25,Merged,1393,26,9,cc ,6
+Add support for Unary Ops: + and -,2019-12-12,Merged,1392,337,55,cc cu ,8
+Add support for Constant inputs and type-erased tiles,2019-10-28,Merged,1391,648,278,cu h ,6
+Accept CPU operator output as an argument input,2019-10-25,Closed,1390,119,148,h cuh ,14
+Force inline and affine transformation,2019-10-17,Merged,1389,192,89,h ,4
+NewWarpAffine -> WarpAffine; optimize CPU warp for affine mapping.,2019-10-18,Merged,1387,232,166,cc h ,9
+Fix DALI TF installation for TF 2.0,2019-10-16,Merged,1386,4,3,,1
+DALI library modularization,2019-10-18,Merged,1384,395,281,cmake in cc h ,7
+Disable *Vp9* tests temporarily,2019-10-15,Merged,1383,1,1,,1
+Add multigpu TF dataset test,2019-10-16,Merged,1382,95,17,sh ,2
+Relax check for libnvidia-opticalflow is test script.,2019-10-15,Merged,1381,2,1,,1
+Move dali/pipeline/operators to dali/operators,2019-10-15,Merged,1380,"1,013","1,013",txt cc h cu ,24
+Generalize helper code to unary inputs,2019-10-16,Merged,1379,109,67,h ,5
+Separate DALI operators shared-object library,2019-10-15,Closed,1376,"1,605","1,446",in cmake cc h ,9
+Add ability to cross compile ldmb,2019-10-14,Merged,1374,21,1,,1
+Add torch dependency to TL1_separate_executor,2019-10-14,Merged,1373,1,1,,1
+Initial support for PaddlePaddle,2019-11-19,Merged,1371,"3,049",27,ipynb ,5
+DALI Library modularization,2019-10-15,Closed,1369,100,72,txt h cu cuh ,10
+Support float16 in Cast GPU operator,2019-10-14,Merged,1368,97,12,cu h py ,5
+Add skip_vfr_check option to VideoReader,2019-10-11,Merged,1367,5,1,h ,3
+Resampling ND - ground work,2019-11-08,Merged,1366,566,353,h cu ,5
+Workaround for a segfault in NVCC 9 with `mat::diag`,2019-10-11,Merged,1365,6,7,,1
+Add warning if syscall fails during avformat_open_input,2019-10-11,Merged,1363,3,3,,1
+Clean include file depenedencies:,2019-10-10,Merged,1362,6,10,cc cu ,5
+Fix CXX11 ABI issue,2019-10-11,Merged,1361,33,9,sh clean ,7
+Enhance CaffeReader and Caffe2Reader to support multiple LMDB files,2019-10-21,Merged,1360,236,74,h py ,4
+[WIP] Enhance Crop API,2019-11-26,Closed,1359,36,18,,1
+Expose arithm ops in Python,2019-10-21,Merged,1355,754,131,cc cu in ,5
+Add TF Dataset GPU,2019-10-14,Merged,1354,127,28,cc sh ,3
+Undo pytorch download changes,2019-10-09,Merged,1353,95,101,clean py ,5
+Improve `last_batch_padded` and `Running DALI pipeline` docs,2019-10-08,Merged,1351,7,5,rst ,3
+Surface2D -> ND generalization,2019-10-08,Merged,1348,317,147,cc ,6
+[WIP]  Generalize GPU to unary ops.,2019-10-16,Closed,1347,"2,076",1,txt cc cu ,3
+Provide prebuilt plugins for manylinux2010 based pip packages,2019-10-09,Merged,1346,128,68,in sh py clean docker/Dockerfile_dali_tf ,7
+Make it possible to build DALI with any CUDA version,2019-10-15,Merged,1345,103,36,yaml docker/Dockerfile rst py ,12
+Add 3D case to shape layout verification in CropAttr,2019-10-07,Merged,1344,3,2,,1
+[WIP] Generalize arity of arithm ops.,2019-10-07,Closed,1342,"2,002",2,h cc cu ,3
+"Move Tensor(List)Shape, Tensor(List)View to dali/core",2019-10-15,Merged,1341,510,547,cc cu ,22
+Add shape layout input to crop window generator signature,2019-10-04,Merged,1340,58,25,h cu ,21
+Enable CUDA 10 compatibility layer for Conda build,2019-10-22,Merged,1339,18,0,yaml ,2
+HSV manipulation operator for GPU & CPU,2019-10-11,Merged,1338,646,4,cc cu ,5
+Enhance Slice API,2019-10-18,Merged,1336,545,301,cu h ,4
+Add fallback to host when nvjpegJpegStreamParse fails,2019-10-07,Merged,1335,17,12,,1
+Fix pytorch download url,2019-10-04,Merged,1334,14,12,clean py ,4
+Extract cuda dockers,2019-10-04,Merged,1333,56,52,→ docker/Docker_run_cuda Dockerfile → docker/Dockerfile aarch64-linux aarch64-qnx deps sh ,8
+"Add implementation of BmpImage::PeekShapeImpl, including number of channels",2019-10-14,Merged,1332,96,11,cc ,2
+Vp9 codec support,2019-10-14,Merged,1331,90,10,cc h ,7
+GTest naming in STYLE_GUIDE,2019-10-07,Merged,1330,17,1,,0
+Add layout handling to Transpose op,2019-10-03,Merged,1329,115,32,cc cu py ,5
+"Adjust QA scripts remove installing pip whl from direct links as pip will disregard the ""-f"" option in that case",2019-10-03,Merged,1328,92,88,py ,3
+Reshape op,2019-10-03,Merged,1327,548,74,cc ,6
+Add CropMirrorNormalize 3D support,2019-10-03,Merged,1326,161,88,cu h ,3
+[WIP] verify pip downloads,2019-10-01,Closed,1324,1,0,,1
+Make DALI_extra repo path settable from the env,2019-10-01,Merged,1323,1,1,,1
+Backend implementation for binary arithmetic Operator,2019-10-11,Merged,1322,"2,072",1,txt cc cu ,3
+Fix TypeTable initialization,2019-10-01,Merged,1321,109,30,h ,4
+Fix CropMirrorNormalize compilation with GCC 8,2019-10-01,Merged,1320,1,1,,1
+Add CMake VERBOSE_LOGS switch,2019-10-01,Merged,1319,20,1,Dockerfile aarch64-linux aarch64-qnx cmake sh rst h ,8
+Suppress warning when FileReader encounters dot and dot-dot entries,2019-10-01,Merged,1318,14,0,h ,2
+Fix the wrong usage of find_library when searching for FFmpeg libs,2019-10-01,Merged,1317,5,2,,1
+Add BMP tests,2019-10-01,Merged,1316,118,10,h ,14
+[WIP] Prefetching DALI_Extra,2019-10-04,Closed,1315,1,0,,1
+Fix last_batch_padded docs,2019-10-01,Merged,1314,40,8,,2
+Introduce byte_io.h including byte sequence reading utils (ReadValueBE and ReadValueLE),2019-10-01,Merged,1310,155,42,h ,4
+[WIP] HSV operator CPU & GPU,2019-10-03,Closed,1308,"1,409",62,txt h ,4
+[WIP] Add Ffmpeg conda recipe,2019-09-30,Closed,1307,79,0,yaml ,3
+Add parsing of number of channels in JpegImage::PeekShapeImpl,2019-10-01,Merged,1306,29,28,,1
+Add parsing of number of channels in JpegImage::PeekShapeImpl,2019-09-26,Closed,1305,22,18,,2
+TiffImage::PeekShapeImpl parse and return number of channels,2019-09-30,Merged,1304,13,10,,1
+"Conda recipe: Point to local git repository for build source, relax version dependencies and use on conda-forge for some dependencies",2019-09-30,Merged,1303,47,38,yaml ,3
+Linear Transformation kernel for CPU,2019-10-04,Merged,1300,333,22,h ,2
+Add tf dataset,2019-10-03,Merged,1299,657,4,txt sh ,3
+Make cspan,2019-09-24,Merged,1298,90,0,h ,2
+Check whether random row access is allowed in libtiff based decoder implementation,2019-09-24,Merged,1295,8,7,h ,2
+Add info about libtiff dependency in the documentation,2019-09-24,Merged,1294,5,0,,1
+Use alternative compiler (e.g. g++-5.4) when available,2019-09-24,Merged,1290,4,6,,1
+Parse number of channels in PNGImage::PeekShape,2019-09-25,Merged,1288,85,19,,1
+Fix problems with seeking when stream start_time is != 0.,2019-09-26,Merged,1287,107,47,h ,6
+Handle nchannels>3 in ImageDecoder,2019-09-23,Merged,1285,77,69,h ,24
+Fix DALI TF installation script,2019-09-23,Merged,1284,4,5,,2
+span<T> from Container,2019-09-30,Closed,1282,159,0,h ,4
+Change ImageDims from std::tuple to kernels::TensorShape,2019-09-21,Merged,1280,236,153,h ,14
+Add check for OF support,2019-09-20,Merged,1278,7,2,,1
+"size_t -> int for vec, mat, box etc...",2019-09-20,Merged,1277,179,179,h ,5
+Fix DALI_extra clone,2019-09-19,Merged,1276,1,7,,1
+Improve logic in DALI TF plugin installation (support conda installation use case),2019-09-20,Merged,1271,316,167,txt in ,4
+Add types to TypeTable during initialization,2019-10-01,Closed,1269,59,0,,2
+Add pipeline validation,2019-09-17,Merged,1267,35,14,,3
+ImageDecoder libtiff implementation,2019-09-20,Merged,1264,523,33,Dockerfile aarch64-linux aarch64-qnx deps cmake cc h ,8
+Linear transformation GPU kernel,2019-10-02,Merged,1262,525,54,h ,2
+Gpu dltensor operator,2019-10-17,Merged,1261,469,92,cc h cu ,7
+Rework Support Ops to use TensorList,2019-09-19,Merged,1259,287,57,cuh ,6
+Add libtiff to Dockerfile.deps,2019-09-17,Closed,1255,55,0,deps cmake ,2
+Add non_blocking option to CopyToExternalTensor,2019-09-13,Merged,1254,65,37,h cu ,6
+Add lookup table operator,2019-09-17,Merged,1251,537,45,cc cu ,5
+Layout refactor,2019-10-01,Merged,1250,631,544,h cu ,16
+[WIP] Layout refactor,2019-09-12,Closed,1249,0,0,,0
+Replace std::pair alias with actual type,2019-09-11,Merged,1248,27,22,h ,3
+Refactor Argument storage type specialization.,2019-09-12,Merged,1245,141,123,,1
+Fix Transpose operator when data shape has irrelevant dimensions (i.e. dimension of size 1),2019-09-12,Merged,1244,161,36,py ,2
+Change Outputs and SharedOuputs return type to tuple,2019-09-12,Merged,1243,2,2,,1
+Improve heuristic for variable frame rate detection,2019-09-13,Merged,1242,40,2,cc ,3
+Add support for UCF-101 dataset and upgrade ffmpeg  version from 3.4.2 to 4.2,2019-09-24,Merged,1241,77,25,cc h sh rst ,8
+Support multiple LMDB files for CaffeReader and Caffe2Reader.,2019-10-10,Closed,1240,"9,425","2,722",DALI_EXTRA_VERSION Dockerfile aarch64-linux aarch64-qnx deps VERSION cmake sh yaml ,11
+Version bump to 0.15,2019-09-06,Merged,1239,1,1,,1
+Tensor layout,2019-09-18,Merged,1237,987,0,,1
+CPU DLTensor Operator,2019-09-12,Merged,1233,589,72,h txt ,5
+Fix PyTorch spelling,2019-09-03,Merged,1230,5,5,,1
+Track DALI_extra version in DALI,2019-09-04,Merged,1229,133,30,DALI_EXTRA_VERSION cmake cc in py sh ,24
+Add Shapes operator returning sample shapes.,2019-09-04,Merged,1223,319,0,h ,3
+Update file reader doc,2019-08-30,Merged,1222,4,1,,1
+Add multichannel pipeline tests,2019-10-08,Merged,1219,251,6,sh ,3
+[WIP][TEST][0.12] DALI TF gcc 4.8 conda issue,2019-08-28,Closed,1217,8,7,h cc in py rst sh ,32
+Attempt to fix issue with tf plugin install and gcc 4.8,2019-08-28,Merged,1214,1,1,,1
+Add types to DALIDataType that were missing,2019-08-29,Merged,1213,101,87,h ,5
+Unified naming for float16 type.,2019-08-29,Merged,1212,37,112,h cc cu in txt ,13
+Add const noexcept qualifiers to IsContiguous.,2019-08-27,Merged,1211,2,2,,1
+"Add support for volumetric (i.e. 3D) crop (depth, height and width)",2019-09-12,Merged,1210,294,114,cu h ,6
+Add support for 3d shapes in crop window,2019-08-29,Merged,1207,336,278,h ,10
+Fix device-side conversions to 64-bit integer types.,2019-08-27,Merged,1205,49,13,h ,3
+Add qa test for multi gpu example,2019-08-28,Merged,1202,19,0,,1
+Remove multigpu example from jupyter tests,2019-08-23,Merged,1199,1,1,,1
+Fix video reader example data,2019-08-22,Merged,1194,45,80,ipynb ,3
+Attempt different driver urls in setup_test_common.sh,2019-08-22,Merged,1193,11,1,,1
+Update setup_test_common.sh,2019-08-22,Closed,1192,1,1,,1
+ROI utils,2019-08-27,Merged,1189,346,240,cu cc ,5
+BrightnessContrast operator,2019-09-25,Merged,1188,432,14,cc cu ,5
+HSV Kernel for CPU,2019-08-23,Merged,1187,346,14,h ,4
+Add multi gpu python notebook,2019-08-22,Merged,1186,283,0,ipynb png ,3
+Improve error messages for file_list arg problems in FileReader,2019-08-21,Merged,1184,3,3,,1
+Make `Deallocate` public API,2019-08-20,Merged,1182,3,2,,1
+Remove .cpu function from EdgeReference,2019-08-20,Merged,1181,16,9,py ipynb ,3
+Add Pad operator,2019-10-22,Merged,1180,520,0,cu ,3
+Fix nvjpeg legacy API,2019-08-20,Merged,1179,8,8,,1
+Allow `stream()` to be called for every Workspace,2019-08-20,Merged,1178,65,24,,6
+Use DALI_extra images in more tests,2019-10-02,Merged,1177,308,503,cc h py ipynb ,26
+"make_string for arguments, which have `operator<<`",2019-09-18,Merged,1174,175,0,h ,2
+Adjust Operator::Run to take reference instead of pointer,2019-08-19,Merged,1168,516,516,h cu ,17
+"Add a STYLE_GUIDE for DALI, adjust Kernel example",2019-08-19,Merged,1167,"1,618","1,207",h cuh ,7
+[WIP] x86 Conda recipe with DALI TF plugin,2019-08-30,Closed,1162,265,15,sh yaml h cc ,11
+Fix fp16 bug from #1129 and add fp16 test case,2019-08-12,Merged,1160,52,52,cuh cc cu py ,8
+"CPU warp, with tests.",2019-08-29,Merged,1159,418,37,cuh h ,6
+New warp example,2019-10-30,Merged,1158,425,70,h cu py ,23
+[TEST] Remove install_requires dependency with future,2019-08-09,Closed,1157,1,5,,1
+Initial Conda Recipe for DALI,2019-08-29,Merged,1156,267,15,sh yaml h cc ,11
+"Upgrade PyTorch to 1.2, TorchVison to 0.4",2019-08-09,Merged,1155,10,5,py ,3
+Expose tensor as dlpack,2019-08-26,Merged,1154,482,0,txt cc h ,3
+New Warp operator,2019-09-05,Merged,1153,"1,296",99,h txt cc cu ,6
+Add `view` overload to get TensorListView from TensorVector.,2019-08-08,Merged,1152,65,0,h ,2
+Add use_batched_decode argument to ImageDecoder API,2019-08-09,Merged,1151,5,0,,1
+Adjust customdummy plugin in Docs to new API,2019-08-08,Merged,1150,49,18,cc cu h ,4
+Make loading of the versioned libnvidia-opticalflow.so the primary path,2019-08-07,Merged,1147,3,3,,1
+Add support for decoding multiple resolution videos in the same pipeline.,2019-09-27,Merged,1144,280,113,cc ,7
+Fix tests that are not using prolog/epilog functions,2019-08-07,Merged,1143,4,1,,1
+BrightnessContrast CUDA kernels,2019-08-16,Merged,1142,568,39,,1
+Provide default initialization for scratch sizes in KernelRequiements.,2019-08-06,Merged,1141,20,4,cc ,2
+Adjust CropMirrorNormalize to Setup API,2019-08-23,Merged,1140,267,243,cc cu ,4
+Fix framework iterators behavior when iter_setup raises StopIteration,2019-08-14,Merged,1136,541,30,rst ipynb ,8
+Fix coco loader,2019-08-02,Merged,1135,1,1,,1
+Input & output TYPED_TEST,2019-08-07,Merged,1133,111,59,cc h ,2
+Add `default_cuda_stream_priority` documentation,2019-08-02,Merged,1131,22,16,py ,2
+Refactor SliceFlipNormalizePermutePad kernel,2019-08-06,Merged,1129,217,173,cu ,4
+Fix GET_PROC_EX macro,2019-07-31,Merged,1128,1,3,,1
+Extend external source operator capacity,2019-08-20,Merged,1127,604,73,py h cu ,6
+Fix typo in installation doc,2019-07-30,Merged,1126,1,1,,1
+Document pre-built WML CE packages in Installation docs,2019-07-30,Merged,1124,20,0,,1
+Fix capitalization in docs for `docker` dir,2019-07-30,Merged,1122,1,1,,1
+Fix pipeline serialization/deserialization for logical_id,2019-07-30,Merged,1121,28,16,h ,2
+Upgrade VideoCodecSDK to 9.0.20,2019-07-30,Merged,1120,693,476,h cc ,5
+Make use right PyTorch capitalization everywhere,2019-07-29,Merged,1119,12,12,rst py sh ,7
+Fix Gluon example that mixes simple and iterator DALI API,2019-07-26,Merged,1117,3,0,,1
+Fix lint in dali/pipeline/operators/reader/loader/loader.h,2019-07-25,Merged,1113,0,1,,1
+Use per-sample RNG in SSDRandomCrop and RandomBBoxCrop,2019-07-26,Merged,1109,90,25,h ,5
+Add compile-time mapping for DALIDataType. For use in TYPE_SWITCH.,2019-07-25,Merged,1108,73,5,h ,2
+Add virtual env and conda test case for DALI TF plugin,2019-08-02,Merged,1107,57,21,,3
+Calculation layout setup for GPU kernels.,2019-07-29,Merged,1106,603,0,,1
+Fix python operator with side effects.,2019-07-24,Merged,1105,39,1,py ,2
+Rework multiple input sets API,2019-07-26,Merged,1104,409,46,cc ,3
+Fix a race condtion in async pipeline executor,2019-07-23,Merged,1103,15,6,h ,2
+Make `protobuf` linking mode configurable,2019-07-24,Merged,1102,2,0,,1
+Make `dali_kernel_test_lib` respect `BUILD_TEST`,2019-07-23,Merged,1101,3,1,,0
+Fix test header inclusion,2019-07-23,Merged,1100,1,1,,1
+Fast coco reader,2019-08-01,Merged,1098,939,599,h ,2
+Enable OpticalFlow test on CI,2019-07-25,Merged,1096,23,1,,3
+Typo fixed in getting started notebook,2019-07-22,Merged,1091,1,1,,1
+Add JIRA Task placeholder in PR template,2019-07-22,Merged,1090,3,1,,0
+Reduced batch size to avoid out of memory condition in 19.07 container.,2019-07-19,Merged,1089,1,1,,1
+Remove explicit Multiple Input Sets handling from C++ Backend,2019-07-30,Merged,1088,349,417,cu h ,23
+Fix error of indexing shape in Optical Flow,2019-07-18,Merged,1087,3,2,cc ,2
+Fix float16 support in DALI TensorFlow plugin,2019-07-25,Merged,1086,8,3,cc docker/Dockerfile_dali_tf sh ,4
+[WIP] Add shape inference in CaffeReader,2019-07-24,Closed,1083,22,1,py ,2
+Predownload TensorFlow binaries to base docker image used for custom operator,2019-07-17,Closed,1082,8,2,clean ,2
+Adjust TensorFlow ResNet50 example to 1.14 version API,2019-07-18,Merged,1081,1,1,,1
+Kernel manager,2019-07-22,Merged,1079,515,102,h ,3
+Disable video_reader_op test when we disable NVDEC,2019-07-16,Merged,1077,3,1,,0
+add test_operator_water.py,2019-08-02,Merged,1075,116,0,,1
+"Add checking if Python API is not mixed between simple, scheduled and iterator",2019-07-25,Merged,1074,223,29,rst ,7
+Improved sampler,2019-07-15,Merged,1071,102,15,cc cu ,3
+UniformRandomFill for unified storage,2019-07-29,Merged,1070,96,68,,1
+Change test prefix from L*_ to TL*_,2019-07-15,Merged,1069,0,0,,29
+Rounding Convert and ConvertSat added.,2019-07-12,Merged,1068,350,77,cu cc ,3
+Add video error message,2019-07-15,Merged,1067,78,1,cc ,3
+Update DALI TF plugin docs to be aligned with the current functionality,2019-07-17,Merged,1066,1,1,,1
+Use DALI_extra in loader test,2019-07-11,Merged,1064,9,18,sh ,2
+Warp kernels,2019-08-08,Merged,1063,956,1,cuh ,6
+DALI_extra readme update,2019-07-16,Closed,1062,18,0,,1
+Fix warning,2019-07-24,Merged,1061,6,2,,1
+BrightnessContrast kernel first implementation,2019-08-02,Merged,1060,388,16,txt cc ,3
+Add filename to LMDB reader errors,2019-07-11,Merged,1059,20,18,,1
+Enforce shares_data_ in Buffer,2019-07-15,Merged,1057,303,171,,2
+Adjust Tests to use DALI_EXTRA,2019-07-10,Merged,1056,83,79,cu ,9
+Fix detection pipeline example,2019-07-10,Merged,1055,50,36,,1
+Fix sampling of chroma in the VideoReader op,2019-07-10,Merged,1054,5,6,cc ,2
+Optimize test build.,2019-08-01,Merged,1053,328,301,clean ,14
+Bounding box representation,2019-07-10,Merged,1052,290,2,cc h ,3
+Adds BUILD_TF_PLUGIN flag to one-click build script,2019-07-16,Merged,1051,28,29,rst ,2
+Basic geometric transform functions.,2019-07-09,Merged,1047,239,12,cu h ,4
+Add Setup API to Operator,2019-08-07,Merged,1045,457,67,cuh ,18
+Copy multiple collections to scratchpad.,2019-07-12,Merged,1044,268,2,cc ,4
+Update PR template,2019-07-05,Merged,1043,0,1,,0
+Replace vector<shared_ptr<Tensor>> with TensorVector,2019-07-19,Merged,1040,527,215,h ,5
+Create pull request template,2019-07-04,Merged,1039,13,0,,0
+Allow in host build for DALI TF. Remove dependency with gitlab-master,2019-07-04,Merged,1038,61,31,docker/Dockerfile_dali_tf sh ,3
+Add tensorflow 1.14 to tests,2019-07-08,Merged,1037,1,1,,1
+Fix `check_symbol_exists` usage in CMake 3.15,2019-07-03,Closed,1036,1,0,,1
+Add include(CheckSymbolExists) to allow the usage of the check_symbol_exists() macro,2019-07-03,Merged,1035,2,0,,0
+Add environment variables to DALI TF build image as well,2019-07-03,Merged,1034,26,2,sh docker/Dockerfile_dali_tf ,3
+Add TorchPythonFunction operator,2019-07-09,Merged,1033,325,201,py rst ipynb sh ,12
+Span improvements.,2019-07-02,Merged,1032,60,26,h cu ,6
+Add option to enable fast IDCT in libjpeg-turbo,2019-07-10,Merged,1031,79,20,cc py ,12
+Add deprecated operator warning when using it,2019-07-03,Merged,1030,8,1,,1
+Add support for reading video files with labels using file_list argument,2019-07-08,Merged,1029,64,14,h py sh ,7
+Replace HostDecoder and nvJPEGDecoder with generic ImageDecoder,2019-07-03,Merged,1028,378,396,py ,7
+Removed unified memory from resampling filters.,2019-07-01,Merged,1026,39,12,,2
+Use TensorListShape for TensorList shape,2019-07-02,Merged,1025,388,341,cc cuh ,11
+Fix uninitialized number of dimensions in TensorListShape.,2019-06-28,Merged,1023,34,34,,1
+Add const-qualifiers to TensorShape `first` and `last` functions.,2019-06-27,Merged,1020,18,16,,1
+Add make check target that runs basic tests,2019-07-11,Merged,1019,70,12,sh ,3
+Add missing bracket in the BoxEncoder docs,2019-06-27,Merged,1018,1,1,,1
+Fix rsqrt tests on non-x86 platforms.,2019-06-26,Merged,1017,24,8,h ,2
+Use TensorShape in dali::Tensor,2019-06-28,Merged,1015,106,94,h ,3
+Add matrix types + tests.,2019-06-28,Merged,1014,889,0,,0
+add rotate case,2019-10-23,Closed,1013,65,0,,1
+Add path to json in case of error in the COCO reader,2019-06-25,Merged,1011,1,1,,1
+Introduce number of samples to TensorListShape,2019-06-27,Merged,1010,322,42,,1
+Add vector types.,2019-06-25,Merged,1009,944,4,cc h ,4
+Fix for OF test,2019-06-25,Merged,1008,10,8,,1
+Rework nvidia-dali-tf-plugin build,2019-07-02,Merged,1007,554,225,Dockerfile aarch64-linux in py ,5
+Fix nvjpeg_decoder legacy api build,2019-06-24,Merged,1006,56,11,cc ,6
+Reworks how the reader pick samples from the shuffling buffer,2019-07-25,Merged,1005,638,72,h ,6
+Enable sink operators.,2019-07-08,Merged,1004,156,25,cc py ,8
+Add sink operator,2019-06-24,Closed,1003,92,9,cc py ,6
+Add mechanism to mark an operator as deprecated in favor of another one,2019-07-01,Merged,1001,35,3,h py ,4
+Fix scratchpad allocation in CropMirrorNormalize,2019-06-21,Merged,1000,7,2,,1
+Restructure subdirectories in nvJPEG decoder,2019-06-24,Merged,999,194,133,cc h ,18
+Video reader label,2019-06-27,Merged,998,515,24,h rst ,6
+Fix Resize ratio calculation,2019-06-21,Merged,997,4,4,,2
+[DO-NOT-MERGE] Nvjpeg testing,2019-06-19,Closed,996,67,34,txt h cc sh ,6
+"Add ImageDecoder operator, selecting implementation based on device argument",2019-07-02,Merged,995,186,109,,12
+Replace usage of NormalizePermute by CropMirrorNormalize,2019-06-19,Merged,994,9,24,py ,5
+Remove deprecated `__init__` usage from backend,2019-06-19,Merged,993,19,18,,1
+Remove OldCropMirrorNormalize,2019-06-19,Merged,992,6,793,cu h ,5
+[DO-NOT-MERGE] Use split decoder,2019-06-19,Closed,991,4,4,,1
+[WIP] Check current pipeline in define_graph,2019-07-05,Closed,990,29,0,,2
+Replace CropMirrorNormalize with new implementation,2019-06-19,Merged,989,92,142,cu h ,6
+Add no squeeze option and dynamic shape for MXNet and PyTorch plugins,2019-06-25,Merged,988,143,13,sh ,4
+[DO-NOT-MERGE] Force toolkit path,2019-07-05,Closed,987,9,7,sh ,3
+Read COCO categories from json file in COCOReader,2019-06-18,Merged,986,36,16,py ,2
+Rework how DALI handles py_buffer format string,2019-06-19,Merged,985,140,34,h ,2
+Add -std=c++14 to CUDA nvcc flags in custom plugin example,2019-06-18,Merged,984,1,0,,0
+Add printing of error string enums with nvJPEG error codes,2019-06-19,Merged,983,62,31,h cc ,4
+Deprecate NormalizePermute in favor of CropMirrorNormalize,2019-07-19,Merged,982,8,0,h ,2
+[WIP] [On hold] Add matrix types.,2019-06-25,Closed,981,0,0,,0
+[WIP] gitlab runner,2019-08-07,Closed,980,"1,624",58,cc py runner sh deb build ,16
+Add COCO tfrecord support,2019-06-18,Merged,979,253,15,cc py ipynb sh ,8
+Add missing device guard in the reader prefetch thread,2019-06-21,Merged,978,68,17,py ,4
+Enable no-crop by default in NewCropMirrorNormalize,2019-06-14,Merged,977,75,48,cc py ,6
+optical flow test fix,2019-06-19,Merged,976,6,4,,1
+Change type traits to use C++14 library aliases.,2019-06-14,Merged,975,111,112,cc cuh ,19
+Add casting to float before normalization in SliceFlipNormalizePermute tests,2019-06-14,Merged,974,2,1,,1
+create case for flip operator,2019-06-18,Merged,973,93,0,,1
+Expose and document fine grain control API for pipeline run,2019-07-03,Merged,972,86,29,rst ,5
+Use c++14 standard,2019-06-13,Merged,971,12,6,cmake in ipynb ,4
+Add NewCropMirrorNormalize GPU,2019-06-18,Merged,970,965,126,h ,4
+Change storage device from boolean to enum in workspace,2019-06-13,Merged,967,107,89,cc ,4
+Handle NULL pointer in ctypes_void_ptr,2019-06-12,Merged,965,3,0,,1
+Remove lint from the default target list,2019-06-11,Merged,964,1,1,,1
+Improve obtaining TensorFlow build flags for prebuild DALI plugins,2019-06-19,Merged,963,12,6,,0
+Restore performance in JoC RN50 inference.,2019-06-11,Merged,962,98,71,txt cc h ,9
+Make errors from build_helper propagate correctly,2019-06-18,Merged,961,22,17,cmake sh ,3
+Add max_size upperbound option to Resize with resize_short,2019-06-18,Merged,960,127,39,cc ,4
+Fix output allocation in operator benchmark,2019-06-13,Merged,959,4,0,,1
+Optimize python operator outputs copy.,2019-06-19,Merged,958,194,13,cc h ,4
+Enable TensorFlow 1.14.0 in tests,2019-07-08,Closed,957,1,1,,1
+Add as_tensor with provided shape method to python API,2019-06-14,Merged,953,176,28,cc py ,4
+"Add lint as the first class, separate target to CMake",2019-06-11,Merged,952,19,41,cmake sh ,5
+Update libjpeg-turbo to 2.0.2 version,2019-06-11,Merged,951,6,7,sh ,3
+Add new SliceFlipNormalizePermute CPU kernel.,2019-06-12,Merged,949,"1,593",82,cc h ,4
+"Fix propagation of DALI build SHA, flavor and timestamp",2019-06-06,Merged,948,6,5,,1
+Remove warning to make WERROR build possible,2019-06-06,Merged,947,1,1,,1
+Fix data race in displacement filter,2019-06-05,Merged,945,2,9,,1
+Add split_scenes and transcode_scenes doc in Superres example,2019-06-11,Merged,944,18,0,,1
+Multiple inputs and outputs in the python operator,2019-06-05,Merged,942,321,149,h py ,4
+Drop TF 1.14rc0 from test as it doesn't have working TensorBoard,2019-06-03,Merged,941,1,1,,1
+Box encoder gpu offsets,2019-06-03,Merged,939,142,17,cuh cc py ,4
+Add new SliceFlipNormalizePermute CPU kernel,2019-06-07,Closed,938,"1,630",82,cc ,2
+Change CPU to batch processing,2019-06-06,Merged,936,125,82,h ,10
+Add ThreadPool to Host Workspace,2019-06-04,Merged,935,119,69,cc ,5
+Add specializations of Operator class for all backends,2019-06-06,Merged,934,120,38,cuh ,23
+Add cascading notify in thread pool,2019-05-31,Merged,933,13,14,,1
+Fix lint error,2019-05-30,Merged,932,3,2,,1
+Update aarch64 build docs,2019-05-31,Merged,931,8,25,,1
+Replace current crop and slice with new version based on slice kernel,2019-06-05,Merged,930,528,"1,994",h txt ,3
+add test for optical flow,2019-05-30,Closed,929,38,0,,1
+Make Transpose operator as one supporting sequences,2019-05-31,Merged,928,1,0,,1
+Simplified README with links to NVIDIA docs,2019-06-27,Merged,927,519,433,,0
+Add GTC 2019 video and presentation do the documentation,2019-05-30,Merged,926,5,1,,1
+[CI] Of bug check,2019-05-30,Closed,925,48,3,h py ,3
+Optimize slice kernel.,2019-05-29,Merged,924,46,34,,1
+Fix lint result being ingored for `include/dali`. Fix linter errors in `include/dali`.,2019-05-28,Merged,923,46,35,h ,9
+Make test_detection_pipeline to use DALI extra as an option,2019-06-04,Merged,922,48,20,py ,2
+Add optional offset computation to BoxEncoder,2019-05-31,Merged,921,447,24,h ,2
+Remove prebuild TensorFlow plugins from DALI,2019-05-30,Merged,920,31,53,rst cmake txt sh py ,6
+Update nvJPEG version,2019-05-29,Merged,919,11,3,,1
+fix floating point precision error to calculate width and height for resizing,2019-05-27,Merged,917,15,14,,2
+Use SmallVector in TensorShape.,2019-05-30,Merged,915,127,7,h ,6
+New slice operator,2019-05-30,Merged,913,621,109,cu h py ,4
+Bound installed torchvision version with present CUDA version in tests,2019-05-25,Merged,912,14,18,sh ,5
+Create test_optical_flow.py,2019-06-11,Merged,911,51,0,sh ,2
+Fix wrong registration of python operators after loading plugin,2019-05-27,Merged,910,10,10,,2
+Upgrade PyTorch to 1.1.0 in QA tests config,2019-05-23,Merged,909,1,1,,1
+Fix SSD example and tests,2019-05-23,Merged,908,2,2,sh ,2
+Fix lint error printing in Python 3.,2019-05-22,Merged,907,5,4,,1
+Slice GPU batched kernel,2019-05-28,Merged,905,391,192,h cuh cu ,6
+Make linter working with Python3,2019-05-21,Merged,904,26,24,,1
+Device-usable TensorsShape and core utils.,2019-05-23,Merged,903,520,105,cu h ,4
+Add SmallVector class.,2019-05-22,Merged,902,"1,035",0,,1
+Fix compilation error in `assert(size(shample_shape))`.,2019-05-20,Merged,901,1,1,,1
+NewCrop: support for 4D inputs,2019-05-23,Merged,900,137,56,cc cu py ,5
+DO NOT MERGE - Test PR,2019-05-20,Closed,899,5,2,file ,2
+[WIP] Add  test for python function with side effects,2019-05-23,Closed,898,64,27,,1
+Device-side testing.,2019-05-21,Merged,897,514,6,cu ,3
+OF sequence number bug,2019-06-04,Merged,896,13,9,h ,2
+Add the seqence reader example,2019-06-04,Merged,895,359,1,ipynb sh ,3
+Update docs of the Readers,2019-05-20,Merged,894,43,18,h ,8
+Add N-dimensional Slice CPU kernel,2019-05-22,Merged,893,817,342,h ,2
+Add ability to use docker based build for insource-builds,2019-05-27,Merged,891,256,78,rst h patch ,4
+[WIP] Extend DALI for aarch64-qnx,2019-08-28,Closed,890,462,18,aarch64-linux aarch64-qnx cmake cc ,5
+Update README and iterator docs,2019-05-23,Merged,889,45,15,cc py ,8
+Disable threading inside the OpenCV,2019-05-22,Merged,887,2,1,,1
+Fix cmake warning,2019-05-16,Merged,886,4,0,,0
+Update info about operators supporting sequences,2019-05-16,Merged,885,26,9,h rst ,9
+Better PythonFunction error message,2019-05-15,Merged,883,17,2,py ,2
+Rework DeviceGuard to restore original context upon the exit,2019-05-29,Merged,882,347,267,h ,7
+Update test_python_function_operator.py,2019-06-24,Merged,880,207,160,h py ipynb ,6
+add test_python_operator_rotate in test_python_function_operator.py,2019-05-14,Closed,879,35,0,,1
+[WIP] Rework DeviceGuard to context guard,2019-05-14,Closed,878,427,305,h ,7
+Generic N-dimensional GPU slice kernel,2019-05-17,Merged,877,813,0,cc h ,2
+Add {fmt} to DALI,2019-05-27,Closed,876,35,12,txt cmake h third_party/fmt ,4
+Add proper errors to the ExternalSource,2019-05-14,Merged,875,110,2,h py ,5
+Make WarpAffine test deterministic by removing random crop position from input image.,2019-05-13,Merged,873,1,4,,1
+Fix perf numbers print in L3 RN50 tests,2019-05-13,Merged,872,2,2,,2
+[WIP] Add TensorFlow Dataset op as DALI plugin,2019-10-21,Closed,871,522,38,,1
+Add missing assert in test_python_function_operator.py test,2019-05-13,Merged,869,1,2,,1
+Make PythonFunction return element instead of a list,2019-05-10,Merged,868,10,9,,2
+Move error handling to DALI core.,2019-05-14,Merged,867,490,345,txt cc h ,16
+Exclude docs folder from doxygen,2019-05-14,Closed,866,1,1,,1
+Move to CPU based pipeline in L3 RN50 TF test,2019-05-10,Merged,865,1,1,,1
+"Add basic PyTorch DALI example, fix links to files in docs",2019-05-10,Merged,864,155,4,rst ,5
+Update SSD L1 test,2019-05-09,Merged,863,1,1,,1
+Add stream to memset calls,2019-05-09,Merged,862,4,2,,1
+Move doxygen doc generation to build docs phase,2019-05-09,Merged,860,0,6,,1
+Add info about nightly and weekly DALI builds,2019-05-09,Merged,859,40,0,,1
+Add ability to build nightly/weekly version of DALI,2019-05-08,Closed,858,20,7,rst txt sh in ,5
+Add possibility to build debug dali using build.sh,2019-05-14,Merged,857,8,4,Dockerfile sh ,2
+DALI for aarch64-linux platform,2019-05-22,Merged,856,603,165,txt aarch64-linux rst cmake ,5
+DO NOT MERGE test commit,2019-05-07,Closed,854,0,0,,1
+Fix CropMirrorNormalize crop_pos_x/y argument for the CPU,2019-05-10,Merged,853,98,104,cc cu ,9
+Add dot to build.sh,2019-05-07,Merged,852,1,1,,1
+Remove unreliable tests that expected reallocation to give different pointer.,2019-05-07,Merged,851,0,12,,2
+Replace `bc` calls with awk,2019-05-08,Merged,850,2,2,,1
+Replace the displacement flip with dedicated operator.,2019-06-06,Merged,849,815,125,h cuh ,4
+Fix pipeline serialization with make_continious inside,2019-05-07,Merged,848,95,24,h py ,3
+Fix unnecesary memory usage when reallocating,2019-05-06,Merged,847,17,7,cc ,4
+Fix numerical issue in clamping cropped bounding boxes.,2019-05-06,Merged,846,4,6,,1
+Fix MXNet L3 and PyTorch L1 and L3 tests,2019-05-06,Merged,845,9,8,sh ,2
+"Add options for OF, NVDEC and NVML support",2019-05-07,Merged,838,219,78,Dockerfile rst cmake cc ,6
+Add collect_sources and collect_headers macros for CMake,2019-05-06,Merged,837,254,497,txt ,1
+Move RapidJSON to third_party,2019-04-30,Merged,835,13,"16,479",cmake cc h ,5
+"Add ""dali_core"" library.",2019-04-29,Merged,832,358,295,cmake cc h cu ,11
+QA tests: splitting plugin manager and tf plugin package tests,2019-05-08,Merged,830,107,83,deps py sh ,18
+Fix initialization of CUDA context on the default device during pipel…,2019-04-27,Merged,829,2,0,,1
+Added more options to build.sh script,2019-04-30,Merged,828,6,1,sh ,2
+Add Boost Preprocessor to third_party,2019-04-26,Merged,826,87,50,txt cmake third_party/boost/preprocessor ,3
+Upgrade to CMake 3.11,2019-04-29,Merged,825,4,4,deps rst ,2
+Add location specifiers to `span` functions.,2019-04-26,Merged,824,119,36,cu ,2
+Fix one_config_only condition in test_template.sh,2019-04-26,Merged,823,1,1,,1
+Add fallback for OF lib loading,2019-04-30,Merged,822,5,1,,1
+Install OpenMPI for CUDA 10 when not present in the system,2019-04-26,Merged,821,5,2,,1
+Add dependencies silently required by opencv-python,2019-04-25,Merged,820,9,0,sh ,2
+Workaround for nvidia-docker not creating a symbolic link libnvidia-opticalflow.so,2019-04-30,Closed,819,21,0,,2
+Add python tests for multi-input CropMirrorNormalize,2019-05-07,Merged,818,66,91,py ,2
+Do not install glib-2.0 in qa tests,2019-04-25,Merged,816,0,6,,1
+Improve documentation of ExternalSource and RandomResizedCrop,2019-04-24,Merged,815,8,4,py ,3
+Reimplement GetSingleOrRepeatedArg without use of exceptions for normal flow.,2019-04-24,Merged,814,181,101,cc ,9
+Fix `shuffle_after_epoch` option,2019-04-24,Merged,812,12,0,,2
+[DO-NOT-MERGE] Disable usage of backtrace,2019-04-25,Closed,811,1,1,,1
+Update SSD example to report global speed and use proper number of shards,2019-04-26,Merged,810,13,4,,2
+Fix test_detection_pipeline for python2,2019-04-25,Merged,809,2,2,,1
+Provide optional stream to copy_to_external API. Fix sync issue,2019-04-25,Merged,807,134,70,h cu in ,6
+Better logging and gitignore update,2019-04-23,Merged,806,4,4,py ,2
+Make test scripts verbose,2019-04-23,Merged,804,16,1,,2
+Fix no_dali run for SSD example,2019-04-23,Merged,803,2,1,,1
+Add performance treshold to L3 tests,2019-04-30,Merged,801,29,11,sh ,4
+Fix DALI __version__ for non-release builds,2019-04-20,Merged,800,2,5,in ,1
+Updating OF docs & example,2019-04-23,Merged,799,52,87,ipynb sh ,3
+Temporarily disable L3 SSD test,2019-04-19,Closed,798,14,14,sh ,2
+Fix tests for Ubuntu 18.04 and Python 3.7,2019-05-06,Merged,797,95,86,ipynb sh ,12
+Prevent manylinux3 image build from pruning other docker images,2019-04-26,Merged,795,9,7,sh ,2
+Align build.sh with docs,2019-04-18,Merged,792,7,1,,1
+Generalized tensor list view,2019-05-09,Merged,791,594,287,h cc ,7
+Make LMBD close properly with lazy init,2019-04-17,Merged,790,26,22,cc ,5
+Enabling OF tests,2019-04-17,Merged,789,4,4,,1
+Test PR 3,2019-04-17,Closed,788,5,2,file ,2
+Updating default value for crop_pos,2019-04-30,Closed,787,26,14,,3
+Non-static kernels.,2019-04-17,Merged,786,133,176,cc ,7
+Move changing the value in callback before the barrier,2019-04-17,Merged,784,13,13,,1
+add new case for cached_batch_copy,2019-04-16,Merged,783,28,20,,1
+Add L3 SSD test,2019-04-17,Merged,782,31,1,,2
+Add L1 test for split queues executor,2019-05-20,Merged,780,43,4,sh ,3
+Separate L1 FW iterators tests. Clear previous data in iterators loop,2019-04-16,Merged,779,60,16,sh ,6
+Rename GetRequirements to Setup.,2019-04-15,Merged,778,43,43,cc cu ,13
+add new function case for lazy init,2019-04-17,Merged,777,47,0,,1
+Improve error message when unable to set CPU affinity,2019-04-18,Merged,775,11,0,,1
+[CI] Test TF plugin with separate queues,2019-04-18,Closed,774,84,16,h py ipynb ,8
+Change CPU to execute in batches,2019-06-06,Closed,773,23,24,,1
+Fix test_detection_pipeline failing,2019-04-12,Merged,771,3,3,py ,2
+Add ability to build nightly/weekly version of DALI,2019-04-16,Merged,770,20,7,rst txt sh in ,5
+Fix skip_cached_images,2019-04-12,Merged,769,173,42,py ,7
+Make EpochSize prepare metadata when Reader has lazy init,2019-04-12,Merged,768,77,43,h ,3
+Test PR 2,2019-04-12,Closed,767,5,2,file ,2
+Change SSD L1 test options,2019-04-11,Merged,766,2,2,sh ,2
+Added info to the Readme where to find task good for the external con…,2019-04-12,Merged,765,1,0,,1
+Minor fixes: Warning fix + enable one missing test,2019-04-11,Merged,764,2,3,,2
+Change CHECK_STRUCT_HAS_MEMBER to use CXX,2019-04-10,Merged,762,3,3,cmake ,2
+Add support of separate prefetch queues in TF plugin,2019-04-15,Merged,761,86,14,h py ,5
+Fix build for the old version of nvJPEG,2019-04-10,Merged,760,0,2,,0
+Update SSD example to use distributed JoC model,2019-04-11,Merged,759,480,426,py rst ,5
+[WIP] Enable eval after epoch in L3 TF RN50,2019-05-09,Closed,758,1,1,,1
+L1 OF example,2019-04-12,Merged,757,384,20,h ,4
+VideoReader stride,2019-05-21,Merged,755,97,14,h py sh ,7
+Optical flow example,2019-04-09,Closed,754,320,1,sh ,2
+Handle exception when NVDEC is not available for the video format,2019-04-11,Merged,752,52,37,h ,5
+[TEST PR] Add coco reader tests,2019-04-11,Closed,751,0,28,,1
+Gitlab CI test,2019-04-08,Closed,750,7,0,,1
+Change cast in resampling setup to silence a warning,2019-04-09,Merged,749,1,1,,1
+Fix nvJPEGDecoder cache when using new nvJPEG decoupled API,2019-04-08,Merged,748,42,4,py ,2
+Add lazy loading,2019-04-05,Merged,746,709,542,,2
+Fix pipeline completion callback,2019-04-05,Merged,745,69,9,cc ,2
+Resampling in mini-batches,2019-04-05,Merged,744,197,54,cc cu ,11
+Use cv::COLOR_BGR2RGB instead of CV_BGR2RGB,2019-04-04,Merged,743,4,5,,1
+Image cache batch copy,2019-04-05,Merged,742,577,64,h cc ,3
+Move Loader metadata parsing out of ctor,2019-04-05,Closed,740,77,42,cc ,16
+Make progressive JPEG to be always decoded by host huffman decoder,2019-04-05,Merged,739,55,56,,3
+[DO NOT MERGE] Test separted executor,2019-04-10,Closed,738,331,107,h ,5
+[DO NOT MERGE] Test PR,2019-04-11,Closed,737,4,2,,1
+"Revert previous hybrid huffman threshold, as it seems to perform better",2019-04-03,Merged,736,23,22,h cu ,6
+Adding default cuda stream priority option,2019-04-04,Merged,734,139,60,cc ,13
+Refactor nvdecoder: remove useless thread,2019-04-08,Merged,733,21,41,h ,4
+Add python function operator - DALI-571,2019-04-30,Merged,732,594,27,h cc py ,6
+Temporarily remove broken OpticalFlow example,2019-04-03,Merged,731,0,324,,0
+Stop using tf-nightly-gpu since it broke the build. Use latest releas…,2019-04-02,Merged,730,11,11,py ,2
+Fix CacheLoad call in old nvjpeg,2019-04-02,Merged,728,1,1,,1
+Add APEX building to SSD L1 test,2019-04-03,Merged,727,7,1,,1
+Update as_array returned shape and update detection pipeline test,2019-04-02,Merged,724,31,43,cc py ,4
+Fix optical flow jupyter tests,2019-04-03,Merged,723,1,1,,1
+Fix Tensorflow validation pipeline,2019-04-01,Merged,722,26,16,,1
+Enable test for TensorFlow and CUDA 10,2019-04-08,Merged,721,80,82,py ,6
+Move Optical Flow from aux to pipeline/operators/optical_flow,2019-04-03,Merged,720,57,46,cc h cu ,12
+Fix calculation of the average speed RN50 for TensorFlow test,2019-04-02,Merged,719,1,1,,1
+[DO NOT MERGE] Test separted executor,2019-04-04,Closed,718,96,54,cc ,3
+Evaluation at every epoch in TF RN50,2019-04-09,Merged,717,44,15,,2
+Update test_pipeline.py for add two cases,2019-04-05,Merged,716,158,0,,1
+Remove unused dependencies from tests,2019-04-01,Merged,715,5,7,sh py ,6
+Update support PyTorch version in README,2019-03-31,Merged,714,1,1,,1
+Handle empty tensors in the backend and frontend,2019-04-01,Merged,713,153,7,cc py sh ,8
+Mark stage buffers as consumed with stream callback,2019-04-03,Merged,712,89,50,,2
+Fix python L1 test for nvJPEG,2019-03-30,Merged,711,1,1,,1
+Add unit tests for COCOReader,2019-03-29,Merged,709,302,0,cc ,1
+[WIP] Release buffers in separeted executor after it is processed,2019-04-02,Closed,708,22,24,,2
+[DO NOT MERGE] CI build for executor fixes.,2019-04-11,Closed,707,455,165,cc ,7
+Adding test for DALI FW iterators,2019-04-04,Merged,706,174,2,sh ,3
+Fix for L1 test,2019-04-18,Closed,705,336,67,h ipynb sh ,5
+Update test_pipeline.py,2019-04-01,Merged,704,61,0,,1
+Rework FW Plugins to prefetch only as many batches as needed,2019-03-28,Merged,703,27,22,,3
+Enabling hint for Optical flow calculation,2019-03-29,Merged,702,412,129,cc cu ,5
+Change Og to O0 to enable debug symbols in stacktrace,2019-03-27,Merged,701,1,2,,0
+Enforcing workers termination by waking up workers in Executor dtor,2019-04-03,Merged,699,110,57,,4
+Make COCOReader options mutually exclusive,2019-03-27,Merged,698,10,2,,1
+Fix bilinear resampling 1st row/column.,2019-03-26,Merged,697,221,6,cc ,2
+Special handling for progressive JPEG in nvJPEG decoder,2019-03-29,Merged,695,42,3,,1
+Refactor detection pipeline test,2019-03-27,Merged,693,433,127,,0
+Ensure consistency between different implementations of random crop attr,2019-03-29,Merged,692,86,127,cc cu ,17
+[WIP][DO NOT REVIEW YET] TensorList share slice,2019-04-03,Closed,691,284,73,cc ,2
+Enable cubic filtering test.,2019-03-22,Merged,690,2,3,,1
+Add different decoder options to test_RN50_data_pipeline.py,2019-03-29,Merged,689,113,36,,1
+Handling sync pipeline with prefetch_queue_depth of 1 in Python,2019-03-22,Merged,688,47,9,,2
+Fix for L1 tests,2019-03-26,Merged,687,9,3,,3
+Remove misleading info about OpenCV 2 support from readme.,2019-04-03,Merged,686,3,4,,1
+Optical flow support for BGR and GRAY types,2019-03-25,Merged,684,226,61,cu h ,5
+Add note about hue argument unit in color augumentation.,2019-03-20,Merged,683,2,2,,1
+[DO NOT MERGE] Test of separated queues.,2019-04-01,Closed,682,239,53,h ,6
+[WiP] Separate mixed stage,2019-04-30,Closed,681,364,87,h ,13
+Obtaining output tensor size from OpticalFlowAdapter,2019-03-21,Merged,680,60,26,cc ,6
+[CI] no lmdb,2019-03-19,Closed,679,1,1,,1
+Fix double free in loader destructor and race condition in consumer/producer,2019-03-20,Merged,678,125,181,cc ,9
+[CI] Size from adapter,2019-03-19,Closed,677,483,66,h cc cu ,9
+[CI] Integration turing v666,2019-03-19,Closed,676,266,196,h cc cu ,4
+Add missing __init__ file,2019-03-20,Merged,675,1,0,,1
+[CI] Integration turing v3,2019-03-19,Closed,674,114,247,h cc cu ,5
+[CI] Integration turing v2,2019-03-19,Closed,673,114,246,h cc cu ,5
+Update nvJPEG thresholds and add filename info in GPU stage,2019-03-25,Merged,672,11,23,h cu ,4
+Add new ws policy for separated executor,2019-04-05,Merged,671,277,91,h ,5
+Fix Presize test - add Buffer::padding(),2019-03-19,Merged,670,12,5,cc ,2
+Skip image loading if the image is in cache,2019-04-01,Merged,669,190,42,cc ,17
+Fix rn50,2019-03-18,Merged,667,1,1,,1
+Pinned allocator for nvJPEG CPU stage,2019-04-05,Merged,664,234,3,cc h cu ,7
+Update RN50 examples to use nvJPEG random crop decoding,2019-03-15,Merged,663,23,21,py ,3
+Make BbFlip on CPU act as on GPU,2019-03-22,Merged,661,60,36,cu h py sh ,6
+"Sort operators in docs, add padding to allocations",2019-03-15,Merged,660,5,1,h py ,3
+OF integration & example,2019-03-19,Merged,659,445,55,h cc cu ,7
+view_as_tensor_gpu utility function & copy tensor,2019-05-30,Merged,658,99,0,cu cc ,6
+[WIP] Move allocation in ctor split nvJPEG op,2019-05-13,Closed,657,155,22,cc ,5
+Blacklist internal operators in the documentation,2019-03-14,Closed,656,19,5,,2
+Remove unnecessary copies by using const ref or move,2019-05-30,Merged,655,127,135,cc h ,14
+Extend test RN50 script to support different decoders,2019-03-29,Closed,654,66,27,,1
+Workaround for nppiResize out of bound access,2019-03-15,Closed,653,29,2,cu sh ,3
+Add InternalOp in OpSchema for better blacklisting of internal ops,2019-03-15,Merged,652,47,32,cu h py rst ,13
+Change unconditional move to forward,2019-03-14,Merged,651,1,1,,1
+Fix use after move error,2019-03-14,Merged,650,1,1,,1
+Hide internal CPUStage/GPUStage operators for nvJPEGDecoder,2019-03-14,Closed,649,7,1,,1
+Update README,2019-03-20,Merged,648,35,33,,1
+Add test for buffer presize,2019-03-14,Merged,647,160,114,,2
+GTest submodule update,2019-03-13,Merged,646,63,63,cu ,36
+Disable split_stages check for old nvjpeg,2019-03-13,Merged,645,6,0,cc ,2
+Turing OF adapter,2019-03-14,Merged,644,460,10,h cc cu ,5
+Replace host_defines.h with cuda_runtime.h,2019-03-13,Merged,643,1,1,,1
+Use resampling in both RandomResizedCrop and Resize,2019-03-15,Merged,642,325,240,cc cu ,5
+Add prefetched batch queue in Reader,2019-03-13,Merged,641,158,154,cc ,7
+Readme update: DALI_extra,2019-07-10,Closed,640,18,0,,1
+Fix WriteImageScaleBias for GPUBackend images,2019-03-12,Merged,639,6,14,,1
+Fix missing header in crop_window.h,2019-03-12,Merged,638,2,0,,1
+Allow crop window dimensions to be argument inputs,2019-03-12,Merged,637,163,41,cu h ,6
+Use raw ImageNet data for RN50 convergence test,2019-05-13,Merged,636,1,1,,1
+Add more checks to AspectRatio test,2019-04-08,Merged,635,8,0,,1
+Add split_stages to nvJPEGDecoder* operators,2019-03-12,Merged,634,85,178,txt cu ,7
+Add sanity test for PyTorch SuperRes example,2019-05-31,Merged,633,819,13,py ,4
+Add nvJPEGDecoder `split_stages` option,2019-03-12,Closed,632,"1,808",526,h ,7
+Support crop and flip in CPU resampling.,2019-03-12,Merged,631,79,12,cc ,3
+[WIP] Crop dimensions per sample,2019-03-12,Closed,630,"1,870",435,h cu ,8
+Add range iterator constructor for dyn TensorShape,2019-03-14,Merged,629,22,1,cc ,2
+Use the same lock to condition for cv in ExternalSource,2019-03-12,Merged,628,13,7,cu h ,3
+Add any_of and all_of in kernels util,2019-03-11,Merged,627,27,0,,1
+Add -Wsign-compare to CMAKE_CXX_FLAGS for Clang,2019-03-11,Merged,626,1,1,,0
+Removing dimension from TensorView,2019-03-12,Merged,625,72,0,cc ,2
+Expose support for setting up separated execution in Python,2019-03-13,Merged,624,162,44,h py ,6
+Crop dimensions per sample,2019-03-11,Closed,623,"2,553",280,h ,7
+[DO NOT MERGE] Test separated pipepline in python,2019-03-14,Closed,622,"2,027",860,h ,4
+Enable argument inputs in Mixed operators,2019-03-08,Merged,621,16,4,,1
+Fix reading expired c_str() in ENUM_TO_STRING.,2019-03-08,Merged,620,37,30,h ,5
+Add better colors for Executor NVTX marks,2019-03-08,Merged,619,2,2,,1
+More fixes for CUDA 10 tests,2019-03-08,Merged,618,13,11,sh ,3
+Add cache for nvjpeg decoder with decoupled api,2019-03-11,Merged,616,45,30,cu h ,5
+[WIP] Cached new nvjpeg decoder,2019-03-07,Closed,615,"1,020",273,h ,7
+Fix out-of-range write in InitFilters.,2019-03-07,Merged,614,3,1,,1
+Unified resampling setup,2019-03-11,Merged,613,253,244,cuh cc h ,4
+Fix L1 jupyter plugin test,2019-03-07,Merged,612,1,1,,1
+Generalize Executor Test,2019-03-12,Merged,609,82,47,cc ,2
+Disabled failing tests,2019-03-06,Merged,608,3,2,,1
+Fix development documentation warning,2019-03-06,Merged,607,5,5,,1
+Add ROI-based GPU resampling,2019-03-07,Merged,606,185,47,h cc ,7
+Fix tests for CUDA 10,2019-03-07,Merged,605,78,52,py ,7
+Revised the README doc for readability,2019-03-06,Merged,604,129,86,,0
+Fix linter,2019-03-05,Merged,603,0,1,,1
+Add WorkspaceDataFactory with traits for Tuples and WS,2019-03-08,Merged,602,443,0,,8
+Move master docs warning to the top of page,2019-03-06,Merged,601,20,8,rst ,2
+GPU fused resize/crop kernels (with flipping),2019-03-06,Closed,600,199,50,h cc ,8
+Add support for Netpbm .pnm (.ppm/.pgm/.pbm) images using OpenCV,2019-04-09,Merged,599,190,198,cc txt ,6
+Change is_cpu from TensorMeta to StorageDevice enum,2019-03-06,Merged,598,30,16,h ,4
+Change DALIOpType to dali::OpType enum class,2019-03-06,Merged,597,159,153,cc ,4
+Fix description in RN50 test pipeline,2019-03-05,Merged,596,1,1,,1
+Add dali_extra support,2019-03-05,Merged,595,4,0,,1
+Make nvJPEGDecoder cache global,2019-03-07,Merged,594,950,466,cc h ,4
+Unify random crop generation.,2019-03-05,Merged,590,145,232,cu h ,5
+Adding CUStream class to Dali,2019-03-05,Merged,589,124,70,cc cuh cu ,11
+Add options for COCOReader,2019-03-06,Merged,588,31,4,h ,3
+Cpp api doc,2019-03-05,Merged,587,9,1,,2
+Docker multi-stage build for CUDA,2019-03-12,Merged,586,38,43,,1
+Improve RN50 pipeline test,2019-03-05,Merged,584,27,20,sh ,2
+Fix aspect ratio distribution.,2019-03-04,Merged,583,62,37,cu h ,5
+Add two-stage splitted nvJPEGDecoder with new decoupled API,2019-03-11,Merged,582,822,15,txt h ,4
+Add cuPointerGetAttributes function,2019-03-01,Merged,580,19,1,h ,2
+Add single nvJPEGDecoder with new decoupled API,2019-03-07,Merged,579,679,6,cc txt cu ,3
+Align SSDRandom crop with RandomBBoxCrop + Slice,2019-03-04,Merged,578,185,33,cc cu py sh ,9
+Separate Executor Queues - Generalize Executors,2019-03-12,Merged,577,"1,866",854,h ,4
+Fix nvJPEGDecoder unit tests,2019-02-28,Merged,576,147,71,cc ,12
+Add advanced section in the documentation,2019-03-04,Merged,575,49,1,py ,3
+Add cubic filter for CPU and GPU.,2019-02-26,Merged,574,129,33,cu cuh cc ,11
+[WIP] Add color space conversions for 4-channel image types (alpha ch…,2019-04-30,Closed,573,543,169,cc ,5
+Add turing optical flow API,2019-02-26,Merged,572,715,0,,0
+Fixed broken DEBUG build.,2019-02-26,Merged,571,3,3,,1
+Add CUDA 10.0 version whl support,2019-03-06,Merged,570,27,13,rst in py ,5
+Fix TensorFlow RN50 training example for multinode,2019-02-26,Merged,569,9,4,,1
+Add printing of average TensorFlow training performancein L3 test,2019-02-25,Merged,566,5,0,,1
+Utility kernels for Optical flow,2019-03-12,Merged,565,332,29,cu h cc ,5
+Add option to select targeted CUDA archs:,2019-02-25,Merged,564,14,2,cmake ,1
+Make sticking to data shard optional,2019-02-26,Merged,563,210,51,h ,11
+[WIP] Add nvJPEG op with new API,2019-03-01,Closed,561,"1,083",9,h cc cu ,4
+Volume function unification + tests + minor refactoring.,2019-02-22,Merged,559,200,87,cc ,10
+"Common (CPU, GPU) changes to directory structure for resampling.",2019-02-22,Merged,558,262,0,h ,3
+DO NOT MERGE Generalize executors,2019-03-07,Closed,557,"3,698","2,249",txt h cc ,8
+Resampling for CPU,2019-02-25,Merged,556,"1,066",0,h ,2
+Fix memory corruption caused by sparse tensor handling,2019-02-22,Merged,555,4,0,,1
+Fix Slice documentation (remove arguments from Crop),2019-02-21,Merged,554,12,8,cc ,2
+Set proper CMAKE_XXX_FLAGS for different build types,2019-02-20,Merged,553,18,8,,0
+Store Queues of Buffers for corresponding TensorNodes,2019-03-11,Merged,551,363,643,,1
+nvJPEGDecoder with cache,2019-03-01,Merged,550,874,323,,1
+Add RN50 data pipeline perf test,2019-02-19,Merged,549,248,6,sh ,4
+Fix OpenCV 3.x compatibility,2019-02-19,Merged,548,5,4,,1
+Add a proper error reporting for build.sh docker script,2019-02-18,Merged,547,7,1,,1
+Fix import in tensorflow-plugin-sparse-tensor example,2019-02-19,Merged,546,11,18,,1
+Make every GPU stick to its shard,2019-02-19,Merged,545,81,49,h py ,17
+Remove excessive #include checks from cpplint.,2019-02-15,Merged,544,4,9,cu py ,4
+"nvJpegDecoderCrop, nvJpegDecoderRandomCrop, nvJpegDecoderSlice",2019-03-12,Merged,543,"1,796",421,h ,8
+Fix lint in Crop GPU 2.0,2019-02-14,Merged,542,1,1,,1
+Fix lint in Crop GPU,2019-02-14,Merged,541,1,2,,1
+Refactor Executor and OpGraph,2019-03-11,Merged,540,785,450,cc h ,3
+Make nvJpeg operator to fallback to the CPU even for wrong images,2019-02-14,Merged,539,1,1,,1
+Fix Crop GPU for supporting Crop derivatives,2019-02-14,Merged,538,5,21,h ,2
+[DO NOT MERGE] just for test purposes,2019-02-14,Closed,537,"1,013",76,cc h cu ,6
+Kernel API extensions.,2019-02-15,Merged,536,544,50,cu ,5
+Fix segmentation fault by dropping usage of std::function in TypeInfo,2019-02-13,Merged,535,32,78,h ,2
+Workaround for Flip misaligned by 1 pixel.,2019-02-13,Merged,534,11,8,,1
+Samplers for CPU and GPU surfaces.,2019-02-14,Merged,533,530,0,cc ,2
+"Enhance documentation of Crop, and seed argument",2019-02-12,Merged,532,6,4,h ,2
+Simple argument parser,2019-02-13,Merged,531,103,1,h ,3
+[WIP] Option to use image in tests,2019-02-12,Closed,530,80,1,txt cc h ,3
+Enhance Crop arguments documentation,2019-02-12,Merged,529,38,20,,2
+Add surface type for image processing.,2019-02-12,Merged,528,185,0,h cc ,2
+Add CUDA version name to whl binary,2019-02-26,Closed,527,35,14,rst txt sh in py ,6
+OpticalFlow Operator,2019-02-15,Merged,526,365,27,h cc ,7
+Add documentation for operators expecting sequence inputs,2019-02-14,Merged,525,41,21,cc py ,5
+Fix displacement filter,2019-06-14,Merged,524,291,409,,2
+DALI for aarch64-QNX platform,2019-08-29,Merged,522,487,7,aarch64-linux aarch64-qnx cmake cc h ,8
+Crop sequence cpu (Depends on #477),2019-02-08,Closed,521,"1,674",514,h ,4
+Resize with resampling kernels,2019-03-01,Merged,520,308,"1,379",cuh cu cc ,8
+Add link to functions in operator table in docs,2019-02-12,Merged,519,8,4,,2
+Resampling for GPU,2019-02-26,Merged,518,"2,344",4,cuh ,3
+SSD multi-gpu example,2019-03-08,Merged,517,967,"1,096",→ docs/examples/pytorch/single_stage_detector/LICENSE py ,3
+[WIP] Crop Sequence tests,2019-02-07,Closed,516,168,2,,2
+Remove redundant checks in Crop GPU,2019-02-07,Merged,515,18,59,h ,2
+Transpose Operator for GPU,2019-02-13,Merged,514,"7,470",45,cmake h cc cu ,12
+Refactor OpGraph - OpNodes and TensorNodes,2019-03-08,Merged,513,754,508,h ,3
+Fix random bounding box crop,2019-02-06,Merged,512,89,64,h ,2
+Fix TensorFLow example,2019-02-05,Merged,511,5,3,sh ,2
+Add ability to return sparse tensor on CPU for TF DALI op,2019-02-15,Merged,509,"1,005",79,cc h cu ,6
+Update CUDA synchronicity for VideoReader,2019-02-04,Merged,508,7,5,,3
+Change download path for FFmpeg in Dockerfile,2019-02-01,Merged,507,1,1,,1
+Add ability to set ranodm seed per operator,2019-02-01,Closed,506,53,6,cc ,4
+OpticalFlowAdapter generalization,2019-02-08,Merged,505,92,57,cc ,4
+Host decoder external crop,2019-02-08,Merged,503,"1,189",301,h ,3
+Make L3 PyTorch really fail when it fails,2019-01-31,Merged,502,2,0,,1
+Add error message to views.h,2019-02-07,Merged,501,9,0,,1
+Make as_cpu return a non pinned TensorList to avoid cudaMallocHost calls,2019-01-31,Merged,500,47,39,py ipynb ,17
+Add TestOpArg constructors for string literals.,2019-01-30,Merged,499,70,1,cc ,2
+Temporary fix for broken tensorflow import,2019-01-30,Merged,498,9,7,py ,5
+Common utilities for kernels.,2019-02-06,Merged,496,"1,029",2,cc h ,3
+Add more verbose error message when TensorFlow plugin shape doesn't m…,2019-01-31,Merged,495,2,1,,1
+Update Creating Op doc to new Workspace::Output API,2019-01-30,Merged,492,10,10,cu ,2
+Let OpenCV pick libjpeg-turbo from the system (instead of building its own),2019-02-01,Merged,490,17,23,sh ,2
+Add read_ahead option to file readers,2019-01-29,Merged,489,46,22,h ,10
+Change TensorView backend in OF API,2019-01-29,Merged,488,22,16,cc ,4
+Make OperatorBase public and move InstantiateOperator to operator.h,2019-01-29,Merged,487,83,32,h ,5
+Tweak DaliOperatorTest,2019-01-29,Merged,485,292,33,h ,5
+Alias typename in OF stub,2019-01-28,Merged,484,15,14,cc ,3
+Refactor GPU Reader Op,2019-01-29,Merged,483,24,55,,2
+Update Docker build in the README,2019-01-28,Merged,479,8,8,,1
+OF stub implementation,2019-01-28,Merged,478,84,22,h ,3
+Flatten Sequence  and Sequence Crop GPU operator,2019-02-13,Merged,477,602,329,cc cu ,5
+Add Boost info to Readme.rst,2019-01-25,Merged,475,5,0,,1
+Remove default info,2019-01-25,Merged,473,16,18,cu ,7
+More in-depth fixes for presizing.,2019-01-25,Merged,472,40,17,cc ,5
+Proper affinity handling,2019-01-25,Merged,471,134,9,h ,8
+Fix SSD random crop,2019-01-25,Merged,470,2,2,h ,2
+Add options for COCO reader,2019-01-25,Merged,469,26,7,h ,2
+Fix L3 RN50 tests accuracy,2019-01-29,Merged,468,18,16,py sh ,4
+Add per-operator presize hints to stage output queues.,2019-01-24,Merged,466,23,7,h ,2
+Fix FP16 type support on CPU,2019-01-25,Merged,464,31,11,h ,6
+Force BOOST_PP to recognize NVCC as supporting variadic macros.,2019-01-22,Merged,463,78,0,cu ,2
+Add HostDecoderRandomCrop,2019-02-04,Merged,462,"2,159",283,cc h ,7
+Add test to check if DALI whl bundles all neccessary libs it links to,2019-01-23,Merged,461,73,1,py ,2
+[WIP] Sequence Rearrange op,2019-01-23,Closed,460,891,10,cc cu h ,4
+Almost complete implementation of std::any.,2019-01-22,Merged,459,525,0,,1
+Fix a ws::Output call in debug build,2019-01-21,Merged,458,9,9,,5
+Change nvcc invocation in CMake to dry run,2019-01-21,Merged,457,3,4,,1
+Removing constness while creating TensorView,2019-01-22,Merged,456,14,8,,1
+Add Python 3.7 DALI build,2019-01-22,Merged,455,13,5,third_party/pybind11 ,2
+Fix problems with the external input operator,2019-01-18,Merged,453,172,23,py ,5
+Add dali_kernels and dali_kernel_test libraries.,2019-01-29,Merged,451,43,15,cc ,1
+"Fix -gencode for CUDA 8, 9 and 10",2019-01-21,Merged,450,96,11,cmake ,1
+Make *Workspace::Output return type non-const ref,2019-01-21,Merged,449,391,392,cu ,13
+DO NOT MERGE - only to check compatibility with OpenCV 4.0.1,2019-01-18,Closed,448,23,11,cmake cc h ,6
+DO NOT MERGE - only to check compatibility with OpenCV 2,2019-01-18,Closed,447,21,9,cmake cc h ,6
+Fix compatibility with OpenCV 4 and 2,2019-01-18,Merged,446,20,8,cc h ,5
+Add -y to ffmpeg split for CI,2019-01-18,Merged,445,2,2,sh ,2
+Add Turing (compute 7.5 capabilities),2019-01-17,Closed,442,1,1,,0
+Add cmake WERROR option description in the readme.,2019-01-16,Merged,441,1,0,,1
+Update MxNet version in the README,2019-01-16,Closed,440,1,1,,1
+Per-operator buffer presizing.,2019-01-22,Merged,439,256,175,cc ,3
+Refine builds and test,2019-01-17,Merged,437,152,11,cmake ipynb py sh ,7
+Add dtype argument for VideoReader,2019-01-16,Merged,436,50,28,h cu py ipynb ,9
+Fix CPU NN resize and WarpAffine.,2019-04-30,Closed,435,196,16,cc ,4
+API for optical flow,2019-01-17,Merged,434,156,0,h cc ,2
+Remove opencv package from TensorFlow test,2019-01-14,Merged,433,1,1,,1
+Add rst ref in supported op documentation,2019-02-08,Closed,432,2,1,,2
+Improve the random generator intialization,2019-01-18,Merged,430,5,2,,1
+Add clean catch of Reader's prefetch error by Python thread,2019-01-17,Merged,429,20,4,,1
+Fix bug with incomplete last batch in PyTorch.,2019-01-11,Merged,428,7,6,,1
+Add fallback build configuration in case of no CUDA runtime library a…,2019-01-14,Merged,427,44,10,,1
+Remove BUILD_ID from sdist package name as it is interpreted as part …,2019-01-11,Merged,425,1,2,,1
+Add wget to jupyter notebook qa tests,2019-01-11,Merged,424,3,6,,2
+Use python3 print function in jupyter notebook,2019-01-11,Merged,423,16,5,,10
+[WIP] Tensor Transpose Operator GPU,2019-02-05,Closed,421,"7,292",45,cmake h cc cu ,12
+Add Element Extract Operator,2019-02-01,Merged,420,499,9,txt cc cu ,6
+Fix broken lint build,2019-01-10,Merged,419,1,1,,1
+Update README to warn about strict version dependency between nvidia-…,2019-01-11,Merged,418,6,0,,1
+Update VideoReader notebook and add it to doc,2019-01-10,Merged,416,32,13,ipynb sh ,3
+Make files read ordered inside class for file loader,2019-01-10,Merged,415,3,1,,1
+Rename nvidia-dali-tf-plugin package to include build id,2019-01-09,Merged,414,2,1,,1
+Add layout to VideoReader,2019-01-09,Merged,413,1,0,,1
+Change TensorReference to EdgeReference for code clarity,2019-01-09,Merged,411,141,49,ipynb ,5
+Get Tensor(List)View from Tensor(List),2019-01-15,Merged,409,398,10,h cc ,8
+Add ffmpeg bin to L1_jupyter_plugins script,2019-01-05,Merged,407,11,7,ipynb sh ,4
+Mmap files,2019-01-18,Merged,406,363,62,cc ,9
+Avoid adding MakeContiguous twice for the same output,2019-01-07,Merged,405,2,16,,1
+Implementation of DaliOperatorTest,2019-01-28,Merged,404,491,208,,1
+Install cmake before running notebooks in L1_jupyter_plugins,2019-01-03,Merged,403,4,0,,1
+Add optional resize_longer argument to resize op. Extend COCOReader o…,2019-01-08,Merged,402,106,19,cc cu ,10
+TensorWrapper implementation for testing,2019-01-04,Merged,401,113,78,h ,3
+TensorWrapper impl for new testing API,2019-01-02,Closed,399,315,2,cc h ,6
+Make TF plugin to be compiled during installation,2019-01-07,Merged,398,450,237,rst h cu cc ,14
+Add missing argument in TF ResNet demo README,2018-12-31,Merged,397,1,0,,1
+Stop returning memory allocated with new from the C API,2019-01-03,Merged,396,24,13,h ,3
+Color space conversion operators,2019-01-10,Merged,395,897,26,cc txt cu ,5
+Deliver exactly 1 epoch from DALIGenericIterator,2019-01-08,Merged,391,42,4,,1
+Add building DALI against nightly TF release,2019-01-05,Merged,390,7,2,py sh ,3
+Add Reshape Op,2019-07-24,Closed,388,189,9,cc cu py ,7
+Fix error message formatting in python,2018-12-21,Merged,387,20,20,,2
+Kernel API example + tests,2019-01-17,Merged,386,"1,129",31,,7
+Change names from yuv to ycbcr in VideoReader for clarity,2018-12-20,Merged,385,26,26,,1
+Make mixed in docs ops table start with capital letter,2018-12-20,Merged,384,1,1,,1
+ArgumentKey impl for Testing API,2019-01-02,Merged,383,79,7,h cc ,2
+Apply modernize-use-override,2018-12-20,Merged,381,71,71,h cc ,32
+PyTorch SuperRes with VideoReader example,2019-03-05,Merged,380,"1,296",0,docs/examples/video/superres_pytorch/LICENSE png docs/examples/video/superres_pytorch/data/timestamps ,8
+Add auto_reset parameter for MXNet and PyTorch iterators,2018-12-19,Merged,379,29,6,,2
+TensorView fixes.,2018-12-20,Merged,378,272,15,cc ,3
+Fix assert check for dynamic tensor shapes,2018-12-20,Closed,377,6,2,,2
+Add notebook example for VideoReader,2019-01-03,Merged,376,313,0,sh ,2
+Add guards for CUuid for CUDA 10,2018-12-18,Merged,375,3,0,,1
+"Move operators to separate, static dali_kernels.a lib",2018-12-19,Merged,374,55,48,,0
+Dynamic linking for CUDA driver api,2018-12-17,Merged,373,"2,703",137,cmake h cc ,7
+Fix spelling,2018-12-14,Merged,372,0,0,rst ,2
+Add gpu box encoder,2018-12-20,Merged,371,862,111,cuh ,2
+Change nvcuvid link to dyn + hint for FFmpeg,2018-12-15,Merged,370,"1,529","1,293",h cc ,7
+Fix build warinings in the video loader operator.,2018-12-13,Merged,368,4,3,cu cc ,3
+Prevent replacing DALI op by constant in the constant folding process,2018-12-14,Merged,367,2,0,,1
+add install command to ffmpeg build instruction,2018-12-13,Closed,366,1,0,,1
+Add fallback for nvJPEG to the CPU,2018-12-14,Merged,365,52,12,h ,4
+Plugin Manager,2018-12-20,Merged,364,"1,232",35,cc h in sh py ,14
+"Add support for step, stride & shuffling in SequenceReader",2019-01-18,Merged,363,297,72,h ,5
+Add ASAN support,2019-06-25,Merged,362,119,103,rst cc h ,11
+Fix device selection in PipelinedExecutor.,2018-12-12,Merged,361,15,1,,2
+Add Step and multiple containers support in VideoReader,2018-12-18,Merged,360,52,30,h py sh ,6
+Change cpp #ifdef to #if in VideoReader,2018-12-12,Merged,359,6,6,h ,3
+Add FFmpeg in prerequisites list,2018-12-12,Merged,358,4,0,,1
+Fix upercase in the manylinux Docker path in the deps file,2018-12-10,Merged,357,1,1,,1
+Update Docker to adjust to new internal repo,2018-12-10,Merged,356,1,1,,1
+Blacklist operators that should not be exposed,2018-12-10,Merged,355,5,0,,1
+Fix a small bug in Reader destructor,2018-12-07,Merged,354,1,1,,1
+Make '-werror' optional in CMake,2018-12-07,Merged,353,8,2,Dockerfile ,1
+Add TensorFlow RN50 demo to the Sphinx documentation,2018-12-07,Merged,352,89,75,rst ,3
+Add normalized and image_type arguments for VideoReader,2018-12-17,Merged,351,208,127,cc cu ,6
+Add description of commit message style to Contributing guide,2018-12-07,Merged,350,6,4,,0
+Add rst doc for ssd pytorch example,2018-12-07,Merged,349,77,82,rst sh ,3
+Add non-owning Tensor datatypes for kernels,2018-12-19,Merged,346,"1,922",4,h ,1
+Remove semicolons in plugins,2018-12-06,Merged,345,2,2,,2
+Add PyTorch and MXNet example with various readers,2018-12-12,Merged,343,623,7,,1
+Added SSD training example,2018-12-05,Merged,342,"2,361",1,py rst md ,3
+Adding ifdef for jpeg turbo support,2018-12-04,Merged,341,3,1,,1
+Remove NonConstRef check in cpplint.py,2018-12-03,Merged,340,3,2,,1
+"Add new, faster RapidJSON parser",2018-12-12,Merged,339,"16,947","15,569",cmake ,1
+Testing API Proposal,2018-12-19,Merged,338,245,1,txt h ,6
+Fix obtaining color augmentation per sample,2018-12-03,Merged,337,1,1,,1
+Fix problem with GPU DALI operator in the TensorFlow evaluated on the…,2018-12-03,Merged,335,59,21,h cu ,6
+Turn off time consuming MXNet autotuning during tests,2018-11-30,Closed,334,1,0,,1
+Alligns TensorFlow operator supported types with what DALI can provide,2018-11-29,Merged,332,12,5,,2
+WIP - Kernel API design,2018-12-21,Merged,330,"1,536",3,h ,4
+Initial version of the python operator for DALI dataset,2019-08-02,Closed,329,528,109,,1
+Fix command line in the TF Example README,2018-11-27,Merged,327,1,1,,0
+Add supported device by every operator to docs,2018-12-03,Merged,326,93,29,py gif rst ,12
+Added cpu box encoder for SSD support,2018-12-03,Merged,325,896,15,cc ,1
+Box encoder,2018-11-26,Closed,324,"2,701","1,065",cc h ,4
+Add CPU operator for TensorFlow plugin with an example,2018-11-26,Merged,322,128,22,ipynb ,2
+Increase num_threads in TF RN example,2018-11-23,Merged,321,2,2,,1
+Bbox crop label filtering,2018-11-23,Merged,320,145,62,h ,5
+Support for multiple labels in MXNet reader,2018-11-23,Merged,319,21,6,,1
+VideoReader operator,2018-12-05,Merged,316,"4,083",110,rst cmake txt cc h ,6
+Fix line endings from CRLF to LF,2018-11-20,Merged,315,867,867,,1
+Added bounding box flipping on GPU.,2018-11-20,Merged,314,269,4,cc cu cuh ,5
+Make rec2idx.py skip empty images,2018-12-07,Closed,313,4,0,,1
+Fixed slice coordinates calculation,2018-11-19,Merged,312,8,8,cu ,2
+Fix for race condition on Displacement Filter Impl,2018-11-20,Merged,311,63,41,,1
+Add a wrapper for TensorFlow plugin to make pipeline serialization tr…,2018-11-21,Merged,310,31,21,ipynb ,4
+Fix issues reported by valgrind,2018-11-23,Merged,308,89,56,h ,10
+Partial cherry-pic of #305,2018-11-16,Merged,307,17,13,,2
+Fix validation pipeline for accuracy in TF example,2018-11-16,Merged,305,20,16,ipynb ,4
+Add ability to return CPU TensorList as numpy array,2018-11-16,Merged,304,81,0,py ,2
+Skip 0 sized images in the MxNet reader.,2018-11-15,Merged,303,13,7,,1
+Added TensorRTInfer op to DALI,2018-11-26,Closed,301,290,2,cmake h cc ,5
+Fixes in BBFlip and consistency in bbox format,2018-11-22,Merged,300,766,362,h ,3
+Fix ResizeAttr usage in Resize operator,2018-11-15,Merged,299,51,13,cu h py ,7
+Remove debug prints from async_pipelined_executor,2018-11-14,Merged,298,0,2,,1
+TF Example: updates TF op call with the right args,2018-11-15,Merged,295,2,1,,1
+Added bounding box paste for CPU backend.,2018-11-19,Merged,294,395,39,h ,6
+TF Example: specify steps arg to tf.Estimator.evaluate for ending the…,2018-11-13,Merged,293,4,2,sh ,2
+Documentation Badge Added,2018-11-13,Merged,291,6,1,,1
+Fix tfrecord2idx compatibility for python3,2018-11-13,Merged,288,1,1,,1
+Printing the right error message in OperatorInstance init,2018-11-13,Merged,286,23,23,,1
+Make libjpegturbo root dir hint preceding pkgconfig,2018-11-10,Merged,285,8,5,,1
+Make Dali linking with static libprotobuf if possible,2018-11-10,Merged,284,2,0,,1
+SequenceCrop,2018-12-05,Merged,283,915,136,cc h ,2
+Pytorch/MXNet plugin - use dictionary of categories,2018-12-04,Merged,282,258,165,,2
+Sequence Reader for extracted frames,2018-11-28,Merged,281,544,32,cc txt ,8
+Tests refactoring,2018-12-14,Closed,280,696,189,h cc ,2
+Fix clang build,2018-11-08,Merged,276,0,1,,1
+Remove stat call during file discovery in the reader,2018-11-13,Merged,275,19,14,,1
+Fix race condition in AsyncPipelinedExecutor destructor,2018-11-06,Merged,271,18,1,,2
+Add new examples to online docs,2018-11-06,Merged,270,3,1,,2
+GPU version of RandomBBoxCrop and Slice,2018-11-13,Merged,269,975,336,cc ,3
+DO NOT MERGE - test clang build fail,2018-11-05,Closed,268,29,7,deps h ,4
+Make TensorFlow DALI operator able to return the arbitral number of o…,2018-11-08,Merged,265,118,139,h ipynb ,4
+Add Clang to Dockerfile.deps with a test for clang build,2018-11-05,Merged,264,25,7,deps h ,3
+Fix docstring of prefetch queue depth,2018-11-01,Merged,263,4,3,,1
+Jupyter thresholds,2018-11-02,Merged,262,23,31,,1
+Fix build for default TensorFlow version,2018-10-31,Merged,261,1,1,,0
+Remove double-buffering on the MXNet side,2018-10-31,Merged,258,2,2,,1
+Minimal changes for CPU CropMirrorNormalize,2018-11-19,Merged,257,360,71,cu h ,3
+Make jupyter tests executing inplace,2018-10-30,Merged,255,2,2,,2
+Increase seed size to int64,2018-10-31,Merged,252,11,11,cc cu proto ,8
+Add example demo for ResNet with TensorFlow and DALI,2018-11-05,Merged,251,"1,154",0,py ,3
+Add __version__ variable to __init__,2018-10-30,Merged,250,6,0,,1
+Tiff decoding,2018-10-30,Merged,248,390,11,h ,6
+Move PyTorch example training pipeline to the CPU,2018-10-30,Merged,247,20,9,rst ,2
+Add enforce for num_shards > shard_id,2018-10-25,Merged,246,1,0,,1
+Add checking if there is any supported jpeg inside batch for batch de…,2018-10-26,Merged,245,1,1,,1
+Make buffer not to use pinned memory by default,2018-10-25,Closed,244,1,1,,1
+Changing `Tensor::ntensor()` return type,2018-10-24,Merged,242,25,25,cc cu cuh ,12
+"CPU versions of Crop, CropPermute, CropMirrorNormalize, NormalizePermute",2018-10-25,Closed,241,"1,738","1,428",h cc ,6
+[WIP] Support for Sequences with basic operators refactor,2018-11-27,Closed,240,"1,855",327,txt cc ,4
+"Fix PyTorch iterator for multi-gpu, adjust PyTorch example",2018-10-25,Merged,239,10,8,h py ,5
+Cpu paste,2019-08-02,Closed,238,"1,724","1,407",h cc ,6
+Fix TF 1.11 compatibility,2018-10-30,Merged,237,62,29,txt py cc ,4
+Add build script and runner docker file,2019-01-28,Merged,236,331,7,txt Docker_run_cuda rst patch sh third_party/manylinux ,6
+Remove generations of output from jupyter tests,2018-10-18,Merged,234,2,4,,2
+Make augmentation_gallery works with ptyhon 2 and 3,2018-10-22,Merged,233,4,2,,2
+Type safe reader with user-provided custom-type handling,2018-10-22,Merged,232,179,131,cc ,8
+"Improve docs, clean code after the review",2018-10-24,Merged,231,12,13,py cc ,3
+Cherry pick changes for v0.4,2018-10-18,Merged,230,270,75,h cu ,15
+Merge COCOReader changes needed for SSD correctness,2018-10-18,Merged,229,19,1,,1
+Use Ex version of Create in nvjpeg,2018-10-18,Merged,228,15,1,h ,2
+Update nvJpeg to 0.2.0 version,2018-10-17,Merged,227,11,3,cmake ,3
+Add pipelined execution completion callback setter,2018-10-24,Merged,226,82,1,h ,5
+Fix nvJpeg download,2018-10-17,Merged,225,1,1,,1
+Update nvjpeg,2018-10-17,Closed,224,11,3,cmake ,3
+Update nvJpeg to 0.2.0 version,2018-10-17,Merged,223,12,4,cmake ,3
+Object orienting image module,2018-10-26,Merged,222,583,326,h ,6
+Tweak MxNet version in the README,2018-10-17,Merged,221,1,2,,1
+Make ABI test working with installed whl,2018-10-17,Merged,220,8,5,,1
+Add better errors in decoders,2018-10-16,Merged,218,145,33,h ,7
+Load balancing nvJPEG work,2018-10-15,Merged,217,14,4,,1
+Fixing corruption in MXNet reader when image is split between multiple,2018-10-15,Merged,216,19,15,,2
+Add fine grained control over output buffers in the pipeline,2018-10-18,Merged,212,236,73,h ,13
+Add .clang-format for Google C++ style guide,2018-10-12,Merged,210,119,0,,1
+F16 intrinsics,2019-07-04,Closed,209,"1,540","1,370",h cc ,6
+"Fix formatting, add required GCC",2018-10-10,Merged,208,6,2,,1
+Update PyTorch example to be alligned with the recent APEX release,2018-10-12,Merged,206,3,2,,1
+Remove unused private field,2018-10-09,Merged,205,0,3,,1
+Update MxNet version in the README,2018-10-09,Merged,204,1,1,,1
+Revert #142. It seems that TF doesn't like having lable tensor size a…,2018-10-08,Merged,203,0,5,,1
+Fix doc formating,2018-10-05,Merged,202,6,6,,2
+Fix TF serialization crash,2018-10-05,Merged,201,1,1,,1
+Fix ability to use the same output from the support operator by CPU and GPU stage,2018-10-04,Merged,200,16,8,ipynb ,2
+Fix ability to use the same output from the support operator by CPU and GPU stage,2018-10-04,Closed,199,720,210,txt h ,6
+Updating documentation,2018-10-04,Merged,198,20,11,,1
+Remove inconsistent-missing-override Clang warning,2018-10-04,Merged,197,2,2,h ,1
+SSD support for COCO reader,2018-10-31,Merged,196,"1,026",357,py ,7
+Less memory usage,2018-10-02,Merged,195,5,2,h ,3
+Fix clang warnings in half.hpp and tests,2018-10-02,Merged,194,12,3,hpp ,2
+Refactor CPU Displacement Filters,2018-10-04,Merged,193,108,82,,6
+Add benchmark for displacement filter for CPU,2018-10-04,Merged,192,141,0,cc ,1
+Add all non DALI symbols and test if ABI is clean,2018-10-02,Merged,191,20,1,sh ,2
+remove the redundant imports and spaces in pytorch example,2018-09-28,Merged,190,38,41,,1
+Conflicting build dirs,2018-09-28,Merged,189,4,3,sh ,2
+Bb mirror operator,2018-10-04,Merged,188,711,208,cc h ,5
+CPU version of CropMirrorNormalize,2018-11-08,Closed,187,"1,474","1,343",cc ,6
+Adding support for pad in MXNet plugin,2018-10-02,Merged,186,40,10,,2
+BBoxCrop operator for initial support of detection tasks,2018-10-02,Closed,185,"16,831",201,cc h ,3
+Change MxNet to 1.3.0 no-beta,2018-09-26,Merged,183,2,2,py ,2
+Update google benchmark to v1.4.1 + fixes,2018-09-25,Merged,182,1,1,,1
+Better sharding when number of shards does not divide the dataset size evenly,2018-09-25,Merged,181,18,5,cc ,5
+Fix reporting of the end of epoch in MXNet and pyTorch plugins,2018-09-22,Merged,180,4,4,,2
+Limit protobuff symbol visibility,2018-10-01,Merged,179,390,167,txt cc h ,6
+Add CUDA 10 based build,2018-09-27,Merged,178,37,18,cmake ,3
+[WIP] Constant operator,2019-07-04,Closed,177,"1,553","1,049",cc txt h ,5
+Random crop for SSD,2018-10-03,Merged,176,455,0,cc ,1
+Fix parsing of JPEG headers,2018-09-20,Merged,175,25,28,py ,2
+Use epoch_size instead of hardcoded values,2018-09-21,Merged,174,22,20,,2
+Make assigning of the classes to discovered dirs by file reader base …,2018-09-18,Merged,173,10,4,,1
+Fix lint after PR 142,2018-09-17,Merged,172,2,1,,1
+Readme update. Info about OpenCV version,2018-09-14,Merged,171,27,17,,1
+Readme update,2018-09-14,Closed,170,0,0,,0
+Use pinned memory only when interfacing with MakeContiguous,2018-09-17,Merged,169,17,2,h ,3
+Upgrading OpenCV to 3.4.3,2018-09-14,Merged,168,3,3,,1
+Fix for low accuracy in Tensorflow training,2018-09-14,Merged,167,2,3,,1
+Tiff fallback,2018-10-26,Closed,166,"4,831",619,deps rst cmake cc ,8
+Patch for COCOReader - new IDs of labels,2018-09-17,Closed,165,18,0,,1
+Adding color-twist operator,2018-09-20,Merged,164,47,0,cu h ,3
+Clang build,2018-09-14,Merged,163,82,22,rst h cc ,9
+Fix lint,2018-09-11,Merged,162,1,2,,1
+Add info about posting questions and problems,2018-09-17,Merged,161,13,4,,1
+Png testing pipeline,2018-09-12,Merged,160,55,15,cc h ,4
+Tiff fallback,2018-09-10,Closed,159,288,33,txt cc h ,7
+Png testing pipeline,2018-09-10,Closed,158,82,18,cc h ,7
+Png testing pipeline,2018-09-10,Closed,157,541,18,,1
+Fix BMP size reading,2018-09-11,Merged,156,10,9,,1
+Update MxNet package to 1.3.0b20180909 adn TF to 1.10.1,2018-09-11,Merged,155,2,2,,1
+Fix compilation - reanme 'idx' to 'i',2018-09-10,Merged,154,16,2,,1
+Remove batch_size_ from CoinFlip operator,2018-09-07,Merged,152,3,3,,1
+Move wait in multiple input sets case to the common place,2018-09-07,Merged,151,10,15,cu h ,4
+Make files to be copied after build not only when libdali is rebuild,2018-09-13,Merged,150,16,3,txt ,1
+CPU versions of Crop/CropCastPermute operators,2018-09-25,Merged,148,"3,854",473,cc h ,5
+Fix determinism in argument inputs,2018-09-04,Merged,147,1,1,,1
+Put common test code into one file,2018-09-13,Merged,146,52,145,,7
+Crop operators cpu,2018-09-05,Closed,145,"6,550","1,401",Dockerfile deps rst VERSION cmake in h cc ,12
+Define shape of TF lable tensor based on image tensor shape,2018-09-14,Merged,142,4,0,,1
+Filtering extensions that FieReader can read,2018-08-28,Merged,137,13,1,,1
+Add float16 as possible output type to python,2018-08-24,Merged,136,4,0,,1
+Enable FileReader shuffling for GPU0,2018-08-23,Merged,134,0,2,,1
+Fix segfault in MXNetReader when given bad path to index file,2018-08-23,Merged,133,2,0,,1
+Fix squeeze for tensor with 1 element,2018-08-23,Merged,132,3,0,,1
+Add at method to TensorListGPU,2018-08-22,Merged,131,13,0,,1
+Flip operator,2018-08-22,Merged,130,137,7,cu h ipynb ,7
+Docs fixes for v0.2 (#128),2018-08-21,Merged,129,39,12,VERSION py ipynb ,6
+Docs fixes for v0.2,2018-08-21,Merged,128,42,9,py ipynb ,5
+CPU version of Resize operator,2018-08-28,Merged,127,454,231,cc h cu ,9
+"Increase timeout, parametrize Python version in Jupyter tests",2018-08-21,Merged,126,4,4,,2
+Add int64 as label type and set it as default,2018-08-20,Merged,125,34,13,ipynb ,2
+Add CPU fallback for BMP images and concious fail for GIF,2018-08-24,Merged,124,154,21,h ,4
+Fix segfault in Filereader if directory does not exist.,2018-08-17,Merged,122,3,0,,1
+Memory refactor,2018-11-28,Closed,120,"1,356","1,048",cc txt h ,5
+Add testing nvJpeg with available training data and add fallback to host,2018-08-15,Merged,118,185,15,py sh ,4
+Bump nvJpeg to 0.1.4,2018-08-13,Merged,117,1,1,,1
+Nvjpeg 0 1 4 rel0 2,2018-08-13,Closed,116,1,1,,1
+Nvjpeg 0 1 4,2018-08-13,Closed,114,47,26,deps rst VERSION cmake txt sh ,7
+Bump nvJpeg to 0.1.4,2018-08-13,Merged,113,1,1,,1
+Update Workspace docstrings,2018-08-13,Merged,111,5,6,,4
+COCO dataset reader,2018-10-02,Merged,110,"16,118",106,txt cc h ,4
+Flip operator,2018-08-21,Closed,109,114,0,cu h ,3
+Shorten git SHA in the Sphinx docs to 7 chars,2018-08-10,Merged,108,4,0,,1
+Adjust PyTorch Dali pipeline to be similar to MXNet example,2018-08-27,Merged,107,133,102,,1
+ExternalSource operator fix,2018-08-31,Merged,106,280,9,cc cu ipynb txt ,5
+Paste operator,2018-09-21,Merged,105,376,41,h cc cu ,5
+Add caffe reader to TF multi reader example,2018-08-15,Merged,103,39,9,,1
+Update nvJPEG to 0.1.3 (release 0.2),2018-08-07,Merged,102,1,1,,1
+Update nvJPEG to 0.1.3 (#100),2018-08-07,Closed,101,1,1,,1
+Update nvJPEG to 0.1.3,2018-08-07,Merged,100,1,1,,1
+Allow pkg_config to fail in the search for JpegTurbo,2018-08-08,Merged,98,3,2,,1
+Bumped version to 0.3,2018-08-03,Merged,95,1,1,,1
+Added links to GTC presentation to README,2018-08-03,Merged,94,5,0,,1
+Color augmentations on CPU,2018-08-17,Closed,93,926,939,cc ,6
+Test refactor,2018-08-17,Merged,91,927,940,cc ,6
+Fix TF example,2018-08-02,Merged,90,3,3,,1
+Color augment CPU,2018-08-01,Closed,89,"1,082",681,base docs h cc ,9
+Make files to be copied during build into build_dir,2018-08-07,Merged,87,37,22,rst cmake txt sh ,4
+Update nvJPEG to 0.1.2 (#79),2018-07-30,Merged,86,3,5,,1
+Define version only in one place,2018-08-01,Merged,85,48,19,rst VERSION cmake in py ,7
+"Merge TF 1.7 support, TF/PyT compatibility tests",2018-07-30,Merged,81,237,32,md txt sh py ,7
+Update nvJPEG to 0.1.2,2018-07-30,Merged,79,3,5,,1
+Add a note about NGC containers in README,2018-07-28,Merged,78,5,0,,1
+Bump version to 0.2,2018-07-30,Closed,77,4,4,py ,3
+Better overlap when using DALI with multi GPU in MXNet and pyTorch,2018-07-27,Merged,76,16,4,,3
+Add NVTX ranges for Operators run,2018-07-28,Merged,73,20,6,cc ,2
+Add links to docs in README,2018-07-26,Merged,72,2,0,,1
+Make build more restrictive: Werror,2018-07-26,Merged,71,7,3,cc h ,3
+Added pyTorch to test run,2018-08-01,Merged,70,50,21,rst sh ,4
+WIP: Add free test images to repo.,2019-04-30,Closed,69,105,52,cc py sh txt jpg mdb png ,68
+Further test TF binary compat,2018-07-25,Merged,68,3,3,py ,2
+Added pyTorch to test run,2018-07-25,Closed,66,48,20,rst sh ,4
+Add TF1.9 to test env,2018-07-23,Merged,65,1,1,,1
+Fix compiler warnings,2018-07-20,Merged,64,1,1,,1
+Resize refactor,2018-07-23,Merged,63,"1,149","1,186",py h ,8
+Check that third_party git submodules are synced,2018-07-20,Merged,62,28,10,,2
+Tweak README formatting,2018-07-20,Closed,61,2,7,,1
+Fix as_tensor not keeping the parent alive in Python,2018-07-20,Merged,60,53,22,cc ,2
+Make pkg-config optional for CMake,2018-07-23,Merged,59,5,2,,1
+Add example with multiple readers pluged into TF,2018-07-24,Merged,58,299,0,,1
+Type casting in Python,2018-07-20,Merged,54,117,76,cc cu py ,11
+"Fix for ""invalid resource handle"" in multi-gpu training",2018-07-19,Merged,53,1,1,,1
+Unfused Crop operator and CropCastPermute operator,2018-07-27,Merged,50,626,2,txt cc cu ,5
+Add fallback in cmake when .pc file is not available for libjpeg-turbo,2018-07-17,Merged,49,9,0,,1
+Fix nvJpeg include dir,2018-07-15,Merged,47,1,1,,1
+Add private attribute naming convention to Pipeline::current_seed_,2018-07-15,Merged,46,4,4,h ,2
+Add a shape argument for the output of the TF plugin,2018-07-15,Merged,45,31,17,ipynb ,2
+Bump up libturbo-jpeg version to 1.5.3,2018-07-13,Merged,44,1,1,,1
+Clean up dependencies list and dependency checks,2018-07-12,Merged,42,864,226,cmake ,1
+Switch over completely to FindProtobuf.cmake from CMake 3.9.6,2018-07-12,Merged,41,551,102,cmake ,1
+Update README for prerequisites,2018-07-12,Merged,40,28,29,,0
+Move example file_list to proper dir,2018-07-11,Merged,38,0,0,,0
+Add error checking for file_list format in file_loader.,2018-07-11,Merged,37,25,0,ipynb txt ,2
+Sphinx documentation,2018-07-17,Merged,36,"1,757",733,md rst cc ,3
+Add test support for various versions of pyTorch,2018-07-11,Merged,35,35,6,py ,2
+Rename tutorials to lowercase,2018-07-10,Merged,34,21,20,ipynb jpg py sh ,55
+Add polymorphism for TF plugin outputs,2018-07-09,Merged,33,39,7,ipynb ,2
+Tensor layout checking,2018-07-09,Merged,32,93,13,cu cc ,12
+Stop rebuild *.cu files when 'make install' is issued after build,2018-07-06,Merged,25,8,7,,0
+Add Tensorflow 1.7 support,2018-07-06,Merged,24,207,31,md txt sh py ,7
+Rename Protobuf_PROTOC_EXECUTABLE to PROTOBUF_PROTOC_EXECUTABLE for C…,2018-07-06,Merged,23,5,5,cmake ,2
+"[Recreate] CUDA 8, OpenCV 2 Supported and Options to disable libjpeg-turbo and nvJPEG",2018-07-05,Merged,22,396,45,cmake h ,3
+Add CONTRIBUTING.md file and updated contribution section in the READ…,2018-07-04,Merged,20,69,0,,0
+"""protoc"" may not in the PATH",2018-07-04,Merged,19,1,1,,1
+Avoid full construction of the pipeline during construction and fix seed support in serialized pipelines,2018-06-29,Merged,16,278,111,h ,4
+Fixes to PyTorch example.,2018-06-30,Merged,15,7,5,,1
+"CUDA 8, OpenCV 2 Supported and Options to disable libjpeg-turbo and nvJPEG",2018-07-04,Closed,14,0,2,,0
+Make notebook compatible with Python3,2018-06-27,Merged,12,2,2,,1
+Fix race in processing multiple input sets,2018-06-21,Merged,4,16,1,cuh cu ,4
+Rename `Getting Started.ipynb` file,2018-06-22,Merged,3,1,1,md ,1
+DALI does not presently support windows,2018-06-20,Merged,1,2,0,,0

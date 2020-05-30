@@ -1,0 +1,352 @@
+fix typo in readme file,2019-12-20,Merged,1588,1,1,,0
+Added null checks for expired failed jobs,2019-12-20,Merged,1585,130,75,,1
+Add MapHangfireDashboard for ASP.NET Core endpoint routing,2019-12-03,Merged,1577,56,5,csproj ,4
+add netcoreapp3.0 target for .Net Core 3 compatibility,2019-12-03,Merged,1575,16,3,cs ,2
+Correct spelling of 'prerequisites',2019-10-31,Merged,1555,2,2,,0
+Add HTML tags on Dashboard title,2019-10-21,Merged,1545,1,1,,1
+Recurring Jobs page added start and stop button,2019-10-16,Closed,1537,508,192,cs resx cshtml ,5
+Use schema from constant in tests,2019-10-10,Merged,1532,256,256,,2
+Permit dashes in SchemaName,2019-10-10,Merged,1531,3,3,,1
+Add GetInstallScript method,2019-10-10,Merged,1527,9,2,,1
+minor changes in readme.md,2019-10-10,Merged,1526,1,1,,0
+Supplementary Chinese Translation,2019-10-10,Merged,1523,14,30,,1
+I found that the most resource hogger for our sql server is the sp_getapplock.,2019-09-11,Closed,1505,4,1,,2
+_options.NonBlockingFetchSql added,2019-09-10,Closed,1504,2,2,,1
+Return the BackgroundJobId when triggering a RecurringJob,2019-11-04,Closed,1489,6,3,,2
+Enable Net461 for Hangfire.AspNetCore,2019-08-09,Merged,1488,21,7,ps1 cs csproj ,5
+Expiration Time is Hardcode,2019-09-21,Closed,1486,7,5,,2
+IsJobStateChanged Cancellation Fix,2019-08-07,Closed,1484,5,3,,1
+Add support for dashes `-` in queue names,2019-07-22,Merged,1469,2,2,,1
+dashboard localization support in pt-BR,2019-05-31,Merged,1443,520,0,,0
+Added Cron.Never(),2019-05-23,Merged,1432,17,0,,2
+Added Cron.Never(),2019-05-10,Closed,1431,17,0,,2
+"Added Dutch language, and updated missing translation on server page",2019-05-11,Merged,1429,653,35,,1
+fix minor bug in DefaultInstall.sql,2019-05-23,Merged,1424,2,2,,2
+Fix Obsolete UseSerializationSettings comment,2019-04-10,Merged,1398,1,1,,1
+Add verification to job expiration check interval,2019-03-26,Merged,1377,13,1,,1
+Fix for catching DistributedLockTimeoutException based on resource name.,2019-03-13,Merged,1370,2,2,,2
+Use serilog SourceContext naming convention,2019-02-25,Merged,1360,1,1,,1
+Split serializing to internal and user scopes to isolate them,2019-02-26,Merged,1358,877,164,cshtml ,10
+Implement IsBatchingAvailable check as a simple property,2019-02-21,Closed,1354,6,38,,4
+Fix IsBatchingAvailable() check,2019-02-18,Closed,1353,41,21,,2
+Fail Appveyor build when unit tests fail,2019-01-29,Closed,1338,2,1,cs ,2
+Adding a check to prevent double-commit of the SqlServerTransactionJob instance.,2019-01-28,Closed,1335,56,11,,3
+Optimize implementation of recurring jobs,2019-01-30,Merged,1334,854,349,,3
+System.OutOfMemoryException at System.Type.GetType,2019-07-16,Closed,1332,1,1,,1
+Batch support for AddToQueue method when default queue provider is used,2019-01-30,Merged,1331,42,8,,2
+Optimize implementation of the DelayedJobScheduler class,2019-01-30,Merged,1330,96,29,,2
+Fix to ensure Form values are properly returned,2019-01-17,Merged,1329,23,56,csproj ,3
+Add connection factory overload for SqlServerStorage,2019-01-15,Merged,1325,77,2,,3
+Support non assembly qualified name,2019-01-03,Closed,1319,15,1,,1
+Replace Rickshaw with Chart.js,2019-01-30,Merged,1315,107,168,css js ,3
+Migrate to the new project format,2018-12-05,Merged,1309,332,"3,187",yml sln txt json nuspec ,9
+Provide MaxArgumentToRenderSize in Dashboard options,2019-01-17,Closed,1302,7,6,cshtml ,4
+Allow `Type` to be passed down.,2018-10-04,Closed,1274,120,65,,1
+Adding GetFirstByLowestScoreFromSet overload,2019-01-15,Merged,1251,96,8,,4
+"Add Result property to StateData, fixes #1245",2018-08-09,Closed,1246,59,1,csproj ,3
+Fix for #861 Dashboard background polling does not handle 401 responses,2019-07-18,Merged,1242,185,46,cshtml cs ,5
+Allow modification of the dashboard title,2019-10-18,Merged,1231,27,2,cs csproj ,4
+Update SqlServerObjectsInstaller.cs,2018-07-31,Merged,1230,0,24,,1
+Replace wall clocks with monotonic ones when calculating local timeouts,2018-07-31,Merged,1226,7,5,,2
+Change all static logger fields to be instance-based,2018-07-31,Merged,1225,57,59,,11
+Fix `_currentLogProvider` field access to use volatile reads/writes,2018-07-31,Merged,1224,3,2,,1
+Avoid resolving types and methods for logging in static ctors,2018-07-31,Merged,1223,53,48,,1
+Update SqlServerObjectsInstaller.cs,2018-07-13,Merged,1222,2,1,,1
+Fix error message typo - missing 't',2018-06-27,Merged,1210,1,1,,1
+Avoid using the CancellationToken.WaitHandle property,2018-07-05,Merged,1209,203,61,ps1 cs csproj ,13
+changed Less details to Fewer details,2018-06-25,Merged,1207,2,2,resx ,2
+Prevent recurring jobs dashboard from throwing null exception.,2018-06-11,Merged,1203,26,5,,2
+Move state change retries to the Worker class,2018-05-31,Merged,1193,196,107,,3
+enable fast scheduler wakeup,2018-06-11,Closed,1158,14,6,,3
+Release 1.6.18,2018-04-03,Merged,1156,57,2,nuspec cs ,6
+Adding ability for a job to throw a Non-Retryable exception type,2019-11-21,Closed,1155,31,3,,1
+Use reflection to get display name of a job,2018-04-03,Merged,1154,38,10,,1
+Don't render arguments whose size is too big in dashboard,2018-04-03,Merged,1153,10,1,,1
+Provide IntValue for all metrics,2018-03-30,Merged,1152,22,19,,3
+Fix compatibility with Newtonsoft.Json 11 / netstandard2.0,2018-09-01,Merged,1151,152,11,csproj ,8
+Let's try Pull Request #755 again...,2018-03-29,Closed,1150,"3,431",692,cs csproj ,10
+Stop using app locks in transaction to prevent deadlocks,2018-08-01,Merged,1144,97,76,,1
+Use custom lock in SqlConnection.SetRangeInHash to prevent deadlocks,2018-04-03,Merged,1139,22,3,,2
+change log4net method,2018-03-07,Merged,1134,2,2,,1
+"Add ""Remove"" method to RecurringJobManager",2018-03-05,Closed,1128,"2,561",700,yml nuspec cs css ,14
+"Resolves #635 by adding a custom ""DashboardInfo"" attribute.",2018-03-07,Closed,1121,"2,539",700,md yml nuspec cs css ,14
+Added server announcement to Heartbeat if the server is found not present,2018-03-07,Closed,1117,"2,520",706,yml nuspec cs css ,13
+Add transactional memory abstractions,2019-02-20,Closed,1116,431,0,cs ,9
+Add AddHangfire method overload to allow resolve connection string fr…,2019-02-21,Closed,1114,"2,524",724,yml nuspec cs css ,14
+Add Dashboard UI Resource zh-TW,2018-03-08,Merged,1105,"2,987",700,yml nuspec cs css ,13
+fix for log4net for dotnet standard,2018-03-07,Closed,1096,"2,474",701,yml nuspec cs css ,13
+Fixing issue 1092 - arguments values are duplicated in SQL Server Job table,2018-03-07,Closed,1093,"2,473",701,yml nuspec cs css ,13
+Update README.md to mention Razor Generator,2018-01-12,Merged,1087,3,0,,0
+Deprecate `Cron.XXXInterval` methods,2018-03-10,Merged,1084,4,0,,1
+Fix nuspec pointing to version of Newtonsoft.Json that does not exist,2017-12-25,Merged,1083,1,1,,1
+Add common model for sync and async processing,2018-03-01,Merged,1082,"2,521",816,csproj ,5
+Add on option to remove the storage connection string from the footer…,2018-01-12,Merged,1079,38,14,cs ,4
+Testprojects warnings,2018-03-10,Merged,1058,"2,457",727,yml nuspec cs css ,12
+Added extra quotes around assembly path,2018-03-07,Merged,1057,"2,425",687,yml nuspec ps1 cs css ,13
+Added an extension method that returns a normalized method name,2018-03-10,Merged,1056,"2,507",686,yml nuspec cs css ,14
+Add details to Build instructions,2018-03-10,Merged,1055,6,0,,0
+[WIP] Implemented Manual Job (With tests),2017-11-01,Closed,1036,"1,791",466,,2
+Prevent connection string from blowing mobile page layout,2017-11-08,Merged,1030,1,0,,1
+Fix server start time tooltip position,2017-11-08,Merged,1029,3,13,cs ,2
+Update rickshaw css to match js,2017-11-08,Merged,1018,1,1,,1
+Fix number of recurring jobs per page,2017-09-23,Merged,1006,2,2,cs ,2
+Add JobActivator.BeginScope with the full PerformContext,2017-11-08,Merged,995,7,2,,2
+Add JobDisplayNameAttribute,2018-03-02,Merged,993,84,1,csproj ,4
+Cancel the CancellationToken when the job is deleted from dashboard,2019-02-15,Merged,976,336,31,,10
+Support async jobs returning ValueTask<T>,2018-03-02,Merged,974,66,14,json ,4
+Adjusting deserialization of datetime to use RoundTripKind,2017-08-31,Merged,971,207,26,,2
+Update Cron.cs,2017-08-18,Closed,956,18,0,,2
+Added an overloaded AddHangfire method,2019-02-21,Closed,954,57,25,,1
+more complete fix for issue #871 -,2017-09-02,Merged,948,41,8,,1
+Add optional date bounds to recurring job,2018-03-08,Closed,939,"1,034",138,yml nuspec cs resx ,11
+Read only view for dashboard,2017-07-10,Merged,934,"2,129","1,053",md cs cshtml ,5
+Enable custom lock resources via DisableConcurrentExecutionAttribute,2017-07-10,Closed,933,12,2,,1
+Support custom delays for automatic retries,2017-07-11,Merged,931,249,14,,2
+Permissions for dashboard actions,2017-07-09,Closed,920,"2,190","1,080",md cs cshtml ,8
+"Don't leak connection, when distributed lock can't be acquired",2017-06-07,Merged,914,9,1,,1
+JobStorage has a prop to define job expiration timeout,2017-08-31,Merged,913,66,2,,5
+JobStorage has a prop to define job expiration timeout,2017-06-05,Closed,912,41,7,,4
+"Add callback method, to allow to open the database with an impersonat…",2017-06-07,Merged,907,11,4,,2
+Change `AutomaticRetryAttribute` filter Order to 20,2017-06-07,Merged,903,1,0,,1
+Change the order of the AutomaticRetryAttribute filter,2017-05-26,Closed,901,1,0,,1
+Change order of the QueueAttribute state filter,2017-06-07,Merged,900,2,0,,1
+Add migration for Hangfire.SqlServer 1.7.0,2018-03-01,Merged,898,"1,013",130,sql ,4
+Reduce serialization size,2017-07-24,Merged,891,300,21,,11
+AspNetCoreJobActivatorScope Resolve using ActivatorUtilities.GetServiceOrCreateInstance,2017-05-29,Merged,887,1,1,,1
+Change calculation for AutomaticRetryAttribute.cs SecondsToDelay,2017-07-10,Closed,869,2,3,,1
+fixed translation mistake HomePage_Title 式表盘 to 仪表盘,2017-05-29,Merged,868,2,2,,1
+Dnx,2017-05-29,Closed,858,"9,355",958,csproj cs ,4
+Use Cronos instead of NCrontab,2017-05-29,Merged,853,100,"1,699",ps1 txt cs ,3
+Update lib log and keep structure in existing log messages,2017-07-11,Closed,850,"2,699","1,623",,2
+Add Async Overloads of Jobs Creation's Methods,2017-03-17,Closed,837,211,122,nuspec cs js cshtml ,13
+Move creating job scope from CoreBackgroundJobPerformer to Worker,2018-03-07,Closed,834,61,53,,6
+Fix number of displayed Records in RecurringJobsPage,2017-03-13,Merged,832,1,1,,1
+"Replace inline script, because it may violate the Content Security Policy",2017-03-13,Merged,831,18,28,cshtml cs ,3
+Update LayoutPage.cshtml,2017-07-07,Closed,803,0,1,,1
+Ncrontab advanced,2017-04-29,Closed,801,869,"1,525",txt cs ,2
+Fix issue with configuration block not called on .NET Core + reuse services,2018-03-12,Merged,800,146,59,,7
+Fix broken links in Readme file.,2017-05-29,Merged,792,3,3,,0
+Catch DistributedLockTimeoutException in some background processes.,2017-09-02,Closed,789,119,25,,6
+Catch DistributedLockTimeoutException in some background processes.,2017-01-10,Closed,788,114,44,,5
+Catch DistributedLockTimeoutException in some background processes.,2017-01-10,Closed,787,114,44,,5
+Updated readme,2017-01-09,Closed,786,2,0,,0
+Run tests inside Mono environment again.,2017-05-29,Merged,777,25,43,yml ,2
+Adding Job Skip functionality as one way to handle the concurrent job,2016-12-26,Closed,772,"1,564",39,cs resx cshtml ,11
+Modify identity columns type to bigint in all tables.,2017-05-23,Closed,769,843,39,sql ,4
+Fix Scheduled column title,2016-12-21,Merged,765,12,4,cs ,2
+"Issue #762: Adding setup/teardown methods to background processes, co…",2016-12-21,Closed,763,156,14,,12
+Use local time on Dashboard,2016-12-21,Closed,761,36,8,cs resx cshtml ,8
+Adding Support for Skipping Job for Concurrent Execution,2016-12-26,Closed,759,"1,172",39,cs resx cshtml ,11
+"Typo - ""Nexts jobs"" should be ""Next jobs""",2016-12-02,Merged,754,2,2,,1
+Split serializer settings into core and arguments,2019-02-21,Closed,750,996,148,cshtml ,9
+Add missing changes to JobDetailsPage.cshtml from JodDetailsPage1.generated.cs,2016-11-25,Merged,742,88,80,,1
+Fixes error 500 in the dashboard,2016-11-24,Merged,741,1,1,,1
+Add support an array of generic type as parameter type,2016-11-24,Merged,740,44,0,,2
+Finally fixes line endings problem.,2016-11-24,Merged,739,"1,511","1,511",,1
+Make Queue name accessible from RecurringJobDto,2016-11-24,Merged,737,7,1,,2
+Split json serializer settings into core settings and arguments settings,2016-11-24,Closed,736,296,102,cs ,9
+Validate BackgroundJobServerOptions properties,2016-11-21,Merged,733,336,9,csproj ,5
+Rethrow JSON exception instead of returning a null value for argument,2016-11-16,Merged,731,31,1,,2
+Fixes occasional crashes of Recurring Jobs page,2016-11-16,Merged,730,3,2,cshtml cs ,3
+Update CronExpressionDescriptor to 1.21.0,2016-11-15,Merged,729,5,5,json config ,3
+Features: use RecurringJobAttribute to build RecurringJob automatically.,2016-11-15,Closed,725,241,2,csproj ,8
+Enable autoconversion of files line endings,2016-11-14,Merged,722,33,7,,1
+Fix files which have both crlf and lf line endings,2016-11-09,Merged,721,288,288,resx ,3
+Configure AppVeyor and Travis CI build notifications,2016-11-08,Merged,720,5,0,,2
+Add support for complex generic parameters,2016-11-09,Merged,719,208,29,,2
+adding possibility to set retry delay for failed jobs.,2017-02-11,Closed,714,45,1,,2
+Fix bug related to incorrect choosing overloading method,2016-11-03,Merged,713,7,10,,2
+Add tests covering GetNonOpenMatchingMethod method of TypeExtensions class,2016-11-02,Merged,712,160,3,,2
+Window resize cause errors and uncontrolled growth of event and poll listeners,2016-11-21,Merged,711,65,65,,1
+Make context constructors public,2016-10-29,Merged,710,8,8,,8
+Fix BeginScope() returning SimpleJobActivatorScope,2016-10-29,Merged,709,7,0,,1
+Worker count test fix,2016-10-29,Merged,701,1,1,,1
+Validate the timeout parameter in SqlServerDistributedLock,2016-11-14,Merged,686,18,3,,2
+Fixes #595,2016-12-06,Closed,684,28,19,,1
+fixed bug 666 with exception on showing detailes of  Continuation wit…,2016-09-23,Merged,674,4,9,,3
+Add l10n resource files to NuGet packages,2016-09-23,Merged,668,27,0,ps1 ,2
+Add entry point for custom job naming strategies,2018-03-02,Merged,660,38,7,csproj ,6
+Add Every X minute method to Cron.,2016-09-23,Closed,659,9,0,,1
+Create Strings.cn.resx,2016-09-23,Merged,653,524,0,,0
+Respond with authentication challenge instead of 401 redirect,2016-09-23,Closed,650,28,2,json ,3
+Add Delay property to AutomaticRetryAttribute,2018-03-07,Closed,648,23,3,,1
+Add possibility to detect aborted requests in Dashboard UI,2019-01-30,Merged,631,14,3,,4
+Fixed UI command behaviour,2016-07-26,Merged,626,2,2,,1
+Fix Cron.cs for recurring jobs using intervals,2016-07-19,Merged,618,3,3,,1
+Fix Cron.cs for recurring jobs using intervals,2016-07-19,Closed,617,3,3,,1
+Release 1.6.0,2016-07-15,Merged,614,"14,310","6,059",exe config yml sln bat txt json nuspec ,10
+Notification System with Email Module,2017-07-07,Closed,612,440,5,cs csproj ,13
+Update gitignore and remove .lock.json files,2016-07-13,Merged,610,2,"2,704",,1
+.NET Core support for Hangfire,2016-07-07,Merged,604,"4,207",504,config yml sln bat json nuspec ps1 cs ,13
+Drop constraints on Server.Id prior to altering it to avoid conflicts,2016-07-12,Merged,603,21,3,,2
+Sql Server abstraction,2016-06-16,Closed,594,126,120,,4
+Fix dashboard crashing when using MSMQ,2016-05-30,Merged,581,6,3,,1
+Allows JobActivator resolve dependencies using DI Container,2016-07-12,Closed,575,911,873,,0
+Add spanish language for the Dashboard,2016-05-30,Merged,574,702,42,cs ,2
+Add missing transaction to KeepAliveQuery.,2016-05-23,Merged,573,1,1,,1
+passing params in job creation phase,2019-05-03,Closed,570,"12,581","5,986",yml sln DotSettings md ,5
+Changing ScheduleInstant to use UTC to get next run date,2016-05-13,Closed,568,18,11,,2
+Add queue name validation to the RecurringJobScheduler class,2016-05-30,Merged,561,101,21,csproj ,5
+Add feature to ensure ordered job dequeing in SQL server,2016-05-23,Closed,557,9,1,,2
+Enable backtracking from background job to recurrent job,2016-05-30,Closed,555,6,2,,2
+Add CreatedAt field for recurring jobs,2016-04-14,Merged,552,241,60,cs ,4
+Dev,2016-04-10,Closed,547,"7,027","4,127",sln txt nuspec ps1 cs config ,14
+Add support for async Task methods,2016-03-26,Merged,540,128,13,,4
+Refactored SqlServerStorage to use the more general DbConnection - Take2,2016-03-24,Merged,539,31,25,,6
+Update from original,2016-03-18,Closed,536,0,0,,0
+"Fix for #500, BackgroundJob.Delete may hang forever",2016-03-22,Closed,535,6,20,cs ,3
+Updating StackTraceParser to prevent critical flaw,2016-03-22,Merged,533,139,133,config ,2
+Add support for async/Task methods,2016-03-24,Closed,526,"4,687","2,504",sln md txt nuspec ps1 config cs js ,14
+Refactored SqlServerStorage to use the more general DbConnection,2016-03-24,Closed,524,"4,739","2,538",sln txt nuspec ps1 config cs js ,13
+Add context for JobActivator.BeginScope,2016-03-23,Merged,523,113,17,cs ,5
+Fix for ToGenericTypeString method to support nested classes,2016-02-29,Merged,522,111,15,csproj ,3
+Implementing multilanguage support in Dashboard.,2016-02-29,Merged,521,"4,371","1,098",js ,3
+Zero latency processing,2016-03-23,Merged,520,3,1,,2
+Fix for ToGenericTypeString method to support nested classes,2016-02-29,Closed,519,111,15,csproj ,3
+Implementing multilanguage support in Dashboard.,2016-02-26,Closed,517,"4,374","1,099",js ,3
+Fixed documentation link,2016-02-10,Merged,513,1,1,,0
+Fix Hangfire.SqlServer dependency version in MSMQ nuspec,2016-02-26,Merged,509,1,1,,1
+https://github.com/HangfireIO/Hangfire/issues/505 - Added Args to Job,2016-02-26,Closed,507,3,3,,1
+IRecurringJobManager interface for RecurringJobManager added,2016-04-05,Closed,491,47,2,cs ,4
+Make SqlServerObjectsInstaller public,2016-04-05,Closed,485,2,2,,1
+Dashboard Stats Polling Interval,2016-04-05,Closed,484,19,2,cshtml ,6
+Separated SQL Server 2005 code from newer versions,2015-11-12,Closed,481,387,31,sql csproj ,11
+SQL Server 2005,2017-07-07,Closed,479,387,31,sql csproj ,11
+Fix 404 for quickstart reference,2015-11-10,Merged,477,1,1,,0
+Prevent infinite loops when trying to change state of a job that doesn't exist,2015-11-12,Merged,469,2,1,,1
+Allow jobs to log directly to the hangfire dashboard,2016-12-06,Closed,466,36,1,cs ,4
+README Grammar Corrections,2015-10-22,Merged,465,28,28,,0
+Changed 'were never been' to 'have never been',2015-10-14,Merged,460,1,1,,0
+Update InvocationData.cs,2015-10-14,Closed,455,6,1,,1
+Release 1.5.0,2015-10-01,Merged,454,"10,159","7,533",yml nuspec ps1 cs ,10
+Simplify writing of embedded resource to response body.,2015-09-30,Merged,451,1,7,,1
+Add the ability to specify the schema for SqlServerStorage.,2015-09-29,Merged,450,702,227,,2
+#1 Commit,2017-07-07,Closed,448,814,0,csproj ,7
+Hangfire.Mongo link changed,2015-09-18,Merged,443,1,1,,0
+SqlServerDistributedLockTimeout - logical error in value check,2015-09-03,Merged,434,17,3,,2
+State machine refactoring,2015-08-29,Merged,431,"1,911","2,003",,9
+Disable concurrent execution command timeout,2015-08-28,Merged,428,7,2,,1
+Fixed an issue where if the DisableConcurrentExecutionAttribute was used then it was impossible to specify a timeout greater than 30 seconds.,2015-08-27,Closed,427,27,11,,1
+Hide delete buttons,2018-03-12,Closed,423,72,56,cs ,12
+The worker now correctly handles the case where it tries to change a …,2015-08-20,Merged,422,66,30,,8
+Stack trace parameters CSS class typo,2015-08-17,Merged,420,1,1,,1
+Use StackTraceFormatter for marking-up stack traces,2015-08-17,Merged,419,371,153,,2
+Updated .gitignore file with VS2015 / ASP.Net vNext entries,2015-08-13,Merged,417,7,"1,036",,1
+Added Server/BackgroundProcessContextExtensions.cs to Hangfire.Core project,2015-08-12,Merged,416,1,0,,1
+"[414] Corrected an issue created in ""Update Bootstrap to 3.3.5"" (1c7784d)",2015-08-12,Merged,415,1,1,,1
+Add DisplayName property to Job,2016-07-31,Closed,413,277,177,md nuspec ps1 cs ,9
+Fixes possible crash on Queue Page,2015-08-05,Closed,412,42,35,cs ,2
+Hangfire.SQLite added to related projects,2015-07-27,Merged,396,1,0,,0
+Show more/less button text according to state,2015-07-27,Closed,389,12,2,cshtml ,2
+Fixing bug in history when duration > int.MaxValue,2015-07-27,Closed,384,2,2,,1
+Run recurrings jobs on per machine basis #379,2015-07-27,Merged,383,46,24,,4
+Case sensitive changes for BIN collation SQL databases,2015-05-27,Merged,378,149,20,config cs ,17
+Increase SQL JobQueue.Queue column size,2015-05-19,Merged,376,18,5,cs ,2
+Dev,2015-05-18,Closed,375,86,42,cs cshtml ,8
+Allow to custom Filters for each server instance,2015-07-24,Closed,374,103,12,,10
+Allow to custom JobActivator for each server instance,2015-07-24,Closed,373,27,3,,2
+Fix `OverflowException` in `SucceededRenderer`,2015-05-27,Merged,372,2,2,,1
+added support for seconds in NCronTab expressions,2017-07-07,Closed,368,"1,088",745,,4
+Fetch recurring jobs using search criteria,2017-07-07,Closed,364,65,0,cs ,6
+Job serialization fix when using TypeNameHandling.All,2015-05-27,Merged,363,38,1,,2
+Release 1.4.2,2015-05-06,Merged,361,386,233,nuspec cs csproj ,9
+Arguments Renderer now supports TimeSpan and DateTime,2015-05-05,Merged,358,12,0,,1
+Added support for generic continuations,2015-05-05,Merged,357,62,3,,4
+Added support for generic continuations,2015-05-02,Closed,356,62,3,,4
+Arguments Render now supports TimeSpan and DateTime,2015-05-02,Closed,354,12,0,,1
+Minor improvements to navigation,2015-05-05,Merged,352,15,3,cshtml cs ,3
+Minor improvements to navigation,2015-04-30,Closed,351,15,3,cshtml cs ,3
+added option to hide the 'Back to site' link,2015-04-27,Merged,349,60,40,cshtml cs ,6
+Added option to hide the 'Back to site' link,2015-04-27,Closed,348,59,39,cs ,6
+Fixed incompatibility issue with RabbitMQ.Client >=v3.4.0,2015-05-06,Merged,340,8,7,cs config ,5
+Retry on deadlocks during automatic migration,2015-04-09,Merged,334,20,1,,1
+Outer context for job execution by UnitOfWorkManager.,2015-07-27,Closed,330,"1,018",689,,2
+Add time zone support for recurring jobs,2015-03-17,Merged,327,388,119,cs cshtml ,4
+Use OpenCover and Coveralls.io,2015-03-02,Merged,322,37,5,config yml ps1 ,4
+Allow a URI to be used for RabbitMQConnectionConfiguration,2015-03-02,Merged,321,34,7,,3
+Update README.md,2015-02-28,Merged,320,1,0,,0
+Make the expiration check interval configurable,2015-03-02,Merged,319,17,5,cs ,3
+Remove the `with tablock` hint from the expiration cleanup,2015-03-02,Merged,318,2,2,cs ,1
+Make the expiration check interval configurable,2015-03-02,Closed,316,"2,001","1,873",cs ,6
+remove the with tablock hint from the expiration cleanup,2015-03-02,Closed,315,"1,995","1,870",cs ,6
+Expose deserialized job arguments,2015-02-24,Closed,311,55,36,cs ,4
+Added prerequisites for building the solution with the build script. Also modified JobActivator to accept the Job parameter so activator has a chance to get some of the original context back before creating an instance.,2015-02-24,Closed,310,21,7,cs ,4
+Revert 2 revert 1 sjuranek patch 1,2015-02-24,Closed,309,2,0,,0
+Update twitter link,2015-02-24,Merged,307,1,1,,0
+Made configurable the 'Back to Site' path in the dashboard,2015-02-25,Merged,305,67,12,cshtml ,10
+Monthly cron expression with specific day,2015-03-03,Closed,304,62,0,,2
+Allow a URI to be used for RabbitMQConnectionConfiguration,2015-02-28,Closed,303,34,7,,3
+Making Product Version and File Version on the dll match the Assembly Version,2015-02-24,Merged,302,0,1,,1
+Fix GetTimelineStats / GetHourlyTimelineStats incorrect order,2015-02-04,Merged,297,15,34,,1
+Fix GetTimelineStats / GetHourlyTimelineStats incorrect order,2015-01-31,Closed,296,15,34,,1
+1.3.3 Release,2015-01-28,Merged,295,94,6,nuspec cs ,9
+1.3.2 release,2015-01-27,Merged,292,184,43,nuspec cs cshtml ,16
+Update Cron.cs,2015-02-04,Merged,289,1,1,,1
+Hangfire.CompositeC1 project link added,2014-12-10,Merged,277,1,0,,0
+"No business rule changed here, only file headers and code formatting",2014-12-08,Merged,275,"1,800",878,cs ,10
+Hangfire.Mongo project link added,2014-12-08,Merged,274,1,0,,0
+Use psake for building the project,2014-12-05,Merged,271,401,"18,391",Config targets config sln md yml cmd bat sh ,12
+Hangfire.Sql / Hangfire.Oracle - Changing pull request branch from master to sql-oracle,2014-12-03,Merged,269,"3,076","1,920",proj nupkg nuspec config csproj cs ,12
+Inject a factory to customize component creation,2015-07-24,Closed,263,139,87,cs csproj ,6
+Allow to customize serialization settings of Json.NET,2014-12-01,Merged,262,96,5,,2
+Dashboard not crash if a scheduling task is cancelled,2014-12-08,Merged,261,31,1,csproj ,3
+Hangfire.Sql: easier way to add IDb providers. Oracle support included! Fixes #250,2014-12-03,Closed,258,"3,076","1,920",proj nupkg nuspec config csproj cs ,12
+Updated UseRabbitMq extension method to actually use the VirtualHost property,2014-11-17,Merged,248,1,0,,1
+Public Job ctor and overload Issue #241,2014-11-22,Closed,243,27,6,,2
+Update Common.Logging,2014-11-14,Closed,238,753,768,config ,4
+Added logging support to Hangfire,2016-12-06,Closed,232,715,188,cshtml ,4
+Support for generics in job types,2014-10-17,Merged,222,54,10,csproj ,8
+.NET 4.0 support,2016-06-16,Closed,220,"2,783",226,,2
+Add missing assertion in CronFacts.cs,2014-10-17,Merged,219,1,0,,1
+.NET 4.0 Assemblies and Combined 4.5 and 4.0 NuGet Packages,2016-06-16,Closed,216,546,99,proj targets nuspec config cs ,13
+Include write isolation level in SqlStorageOptions,2014-11-14,Closed,213,24,13,,6
+Typo in readme.txt,2014-09-27,Merged,212,1,1,,0
+Added GetDescription method to Cron.,2014-09-27,Merged,210,383,0,,2
+Added GetDescription to Cron,2014-09-15,Closed,209,383,0,,2
+Merge pull request #1 from HangfireIO/master,2014-09-13,Closed,208,0,0,,0
+Add a job activation context.,2015-08-28,Closed,204,131,15,csproj ,8
+Adding reference to Hangfire.TinyIoC project in Hangfire readme,2014-10-17,Merged,201,1,0,,0
+Ability to configure redis collection prefix,2014-09-04,Closed,200,39,17,,2
+Merge and internalize assemblies internal to Hangfire.Core,2014-09-03,Merged,197,49,10,cmd proj targets nuspec csproj cs config ,9
+Add support for global Redis prefix,2014-11-22,Closed,196,48,40,,3
+Recurring jobs workout,2014-09-02,Merged,193,422,116,cshtml csproj ,11
+Force IE compatibility to edge for Intranet sites,2014-09-02,Merged,191,1,0,,1
+Added missing event argument,2014-09-02,Merged,189,2,2,,1
+Add Latency Filter Attribute To Delete job if timeout is exceeded,2016-06-16,Closed,188,673,535,,1
+Add ability to automatically delete job when retry attempts exceeded,2014-08-27,Merged,182,111,25,,2
+Explicit `JobStorage` instance for Dashboard,2014-08-18,Merged,175,183,101,cshtml ,23
+Added Cron expressions for regular intervals,2016-04-05,Closed,174,36,0,,1
+Update send-email.rst,2014-08-08,Merged,169,23,21,,1
+Fixes next execution bug in RecurringJobScheduler,2014-07-15,Closed,163,14,7,,1
+Fixed typo.,2014-08-08,Merged,162,1,1,,1
+Store and display value returned from job,2014-08-18,Closed,161,107,24,,17
+Converting job arguments using Json.NET instead of `TypeConverter`,2014-08-08,Merged,155,355,65,cs csproj ,6
+CSS and JS resources throw ArgumentOutOfRangeException,2014-07-01,Merged,153,1,1,,1
+Rebranding,2014-06-29,Merged,152,"42,484","42,506",sln DotSettings ,4
+Descriptive names for background jobs in dashboard #144,2014-06-29,Merged,148,33,13,cshtml ,7
+Remove Russian language html setting,2014-06-27,Merged,146,1,1,,1
+Update writing-unit-tests.rst,2014-06-24,Merged,143,2,2,,1
+Rabbit MQ,2014-06-29,Merged,135,"1,341",90,sln sh png nuspec config ,7
+Changed html lang from ru to en,2014-06-16,Merged,133,1,1,,1
+Prepare documentation for 1.0 release,2014-06-30,Merged,132,430,227,rst py ,3
+Owin support for HangFire Monitor,2014-06-15,Merged,128,"5,463","5,103",yml proj pp txt transform nuspec nupkg dll config csproj cs ,16
+Modified sql scripts to the accent sensitivity of the SQL Server for the Turkish collation.,2014-06-12,Merged,123,5,5,,2
+Recurring jobs with HangFire,2014-06-07,Merged,115,"3,285",899,cs csproj ,7
+Cleaned up api,2014-06-04,Merged,114,68,92,,1
+Modified SqlServerStorage constructor to take name or connection string parameter,2014-06-06,Merged,113,49,9,cs ,4
+Update advfeatures.rst for updated API...,2014-06-02,Merged,111,6,2,,1
+Removed IDisposable from IMonitoringAPI,2014-06-04,Merged,110,"4,587","4,649",,1
+Improve DateTime resolution for job arguments,2014-06-01,Merged,109,43,2,,2
+Delete Job after Max retries is reached,2014-05-27,Closed,108,130,0,,1
+Cancellation token,2014-05-23,Merged,103,"2,179",127,cs csproj ,7
+Show latency between state transitions in dashboard,2014-05-20,Merged,94,204,125,cshtml ,2
+More love for tables,2014-05-20,Merged,93,"1,160",684,css cshtml ,11
+Batch operations for HangFire.Monitor,2014-05-19,Merged,92,766,516,css js csproj ,6
+Deleting jobs,2014-05-16,Merged,89,"2,334",943,csproj ,8
+SQL Server + MSMQ Storage Implementation,2014-05-14,Merged,85,"2,240",380,yml proj nuspec config csproj cs ,16
+Monitor authorization,2014-04-19,Merged,79,101,27,csproj config cs ,8
+increase default retry attempts,2014-04-11,Merged,74,1,1,,1
+JobExpirationTimeout into public property,2014-04-09,Merged,70,2,2,,1
+Throw an Exception telling the User to make sure to first Initialize the...,2014-04-09,Merged,65,2,2,,2
+Abstract storage,2014-02-12,Merged,33,"2,108",948,cs ,8
+Perform by expression (relates to #30),2013-12-13,Merged,31,"2,986","1,541",,5

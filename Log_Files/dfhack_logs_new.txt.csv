@@ -1,0 +1,672 @@
+Output Castes on Error,2019-11-02,Merged,1463,3,1,,1
+List valid options for caste,2019-10-06,Closed,1462,3,1,,1
+Fix EventManager building ID type,2019-10-09,Merged,1461,12,5,,3
+Smal RFR change,2019-10-04,Merged,1460,3,3,,1
+lua/widgets filtered list input fix,2019-11-02,Merged,1458,4,1,,1
+"Added 'fileresult' optional parameter, improved world traversal",2019-11-03,Merged,1456,119,52,h cpp ,5
+Change dwarfmonitor to use global lua state.,2019-11-02,Merged,1454,13,2,,1
+Embark assistant,2019-08-23,Merged,1443,"2,253",238,h cpp ,3
+Make unit_ishostile always return a non-nil value,2019-07-16,Merged,1441,3,1,,1
+mousequery map boundary detection fixes,2019-05-18,Merged,1440,8,10,,1
+Use BYPRODUCTS to keep ninja builds from re-running codegen every time,2019-05-17,Merged,1439,5,1,,0
+Auto clothing,2019-11-03,Merged,1437,673,0,,0
+[Release] cxxrandom v2.0.1,2019-04-16,Merged,1435,1,1,,1
+"Improve readme, dependencies, and gitignore",2019-07-09,Merged,1432,11,0,rst ,2
+travis: Always clear DF folder,2019-01-03,Merged,1419,26,17,sh py ,4
+"Add some stuff to RFR, and some stonesense fixes.",2019-07-20,Merged,1414,944,163,cmake proto ,4
+"WIP: libcurl, cleaned up.",2018-09-01,Closed,1406,380,3,txt gitignore depends/curl cpp h ,5
+WIP libcurl with lua->json rest calls.,2018-08-31,Closed,1404,390,4,json txt gitignore depends/curl cpp h ,6
+[ImgBot] optimizes images,2018-11-14,Merged,1403,0,0,,13
+Add Persistence module.,2019-08-24,Merged,1402,801,259,cpp h ,4
+"Add ""tailor"" plugin, to provide clothing management",2019-11-03,Merged,1398,506,0,,0
+move nestboxes out of devel,2018-12-21,Merged,1395,7,7,cpp ,1
+Add function to infer biome type to Maps module,2019-07-20,Merged,1394,400,765,,1
+labormanager: make labor names case-insensitive,2018-12-27,Closed,1387,12,4,,1
+labormanager: add option to disable the management of a labor.,2018-12-27,Merged,1386,134,75,,0
+labormanager: assign more dwarves to cleaning,2018-12-24,Merged,1385,11,0,,1
+Embark assistant,2018-12-27,Merged,1383,171,56,h cpp ,5
+(labormanager) respect NATURE value,2018-08-04,Merged,1382,21,0,,1
+(labormanager) only assign valid labors (fix #1142),2018-08-04,Merged,1380,57,25,,1
+(labormanager) add support for craft item from pearl jobs (fixes #1162),2018-08-04,Merged,1379,2,1,,1
+Add an identity to dfhack_viewscreen and dfhack_lua_viewscreen.,2018-07-26,Merged,1372,32,0,cpp ,2
+Ignore CMakeLists.custom.txt and create it if it does not exist during cmake.,2018-07-18,Merged,1368,11,3,txt ,1
+Change CMakeSettings.json to use Ninja. Add DFHACK_INCLUDE_CORE option for easier development.,2018-07-27,Merged,1367,109,25,json ,1
+building_hacks.lua: fix custom animation tables,2018-07-21,Merged,1365,2,2,,1
+Embark assistant,2018-07-14,Merged,1362,281,35,txt h cpp ,4
+Add CMakeSettings.json for MSVC 2017.,2018-07-13,Merged,1359,308,2,txt json ,2
+Fix windows crash when _exit calls static destructors in dll unload,2018-07-10,Merged,1357,7,13,cpp ,1
+Fix crash when editing lines that are exactly console width,2018-07-09,Merged,1355,4,3,,1
+Exclude jsoncpp default CMake targets.,2018-07-09,Merged,1353,1,1,,0
+Use std::call_once to ensure thread safety for windows sdl hooks,2018-07-15,Merged,1351,26,39,,1
+Use unique_ptr and shared_ptr for keeping member variables,2018-12-22,Merged,1350,91,104,h ,8
+Fix windows ReadConsoleInput return value check,2018-07-07,Merged,1346,1,1,,1
+Tsan race warning fixes,2019-07-20,Merged,1344,174,65,h cpp ,4
+Remove Core.h include from DataDefs.h,2019-10-04,Merged,1343,21,1,h ,12
+Automatically preload asan runtime library,2018-07-06,Merged,1342,6,1,,1
+Fix memory return calling convention in ruby bindings,2018-07-12,Merged,1341,26,1,rb ,2
+Fix crafts advanced constraints in workflow,2018-07-07,Merged,1339,9,1,lua ,1
+Add documentation for plugin proto files,2018-07-10,Merged,1338,240,26,cpp h proto ,12
+Allow canceling lineedit with ctrl+c,2018-07-04,Merged,1337,74,49,h ,9
+Main thread ownership for df ai,2018-07-06,Merged,1336,131,41,h ,2
+Runtime debug prints (only filtering code and command line plugin to control it),2018-12-27,Merged,1335,"2,913",1,txt cpp ,3
+Apply fixes from CodeFactor,2018-07-03,Merged,1334,3,3,,2
+Kittens data race fix and zoom linking issue. ie devel plugins fixes,2018-07-03,Merged,1332,32,25,cpp ,5
+Add dfhack.printall_recurse to quickly print df containers,2018-07-06,Merged,1331,121,0,txt lua ,2
+Remove null byte from string length,2018-07-06,Merged,1330,4,4,,1
+Add missing Unit::isDiplomat,2018-06-30,Merged,1329,16,0,cpp h ,3
+Support dlsym loading from libgraphics vtables,2018-07-10,Merged,1328,26,61,cpp h ,6
+ruby: Support automatic array size from index-enum,2018-06-27,Merged,1326,17,2,,1
+Fix cmake dependencies for generated headers files,2018-07-17,Merged,1325,111,90,rst gitignore cmake in ,6
+Reset dsgn_check_cooldown in Block::write,2018-07-11,Merged,1322,2,5,cpp ,2
+Embark assistant,2018-06-21,Merged,1321,330,81,cpp ,4
+Temporary lower command-prompt when executing the command,2018-07-07,Merged,1319,58,2,h cpp ,4
+Change gui.widgets.List:setChoices to keep state in internal table,2018-07-03,Merged,1318,9,6,lua ,1
+Add designation job check to deramp,2018-06-21,Merged,1317,39,14,cpp ,1
+Fix stockpile inventory not to include inventory items,2018-06-21,Merged,1316,14,1,h ,1
+Add cmake configuration to select if stubs include symbols,2018-06-21,Merged,1315,10,8,,0
+Wip runtime debug prints,2018-06-30,Closed,1314,"2,128",38,cpp h ,4
+Update jobs when committing MapCache changes,2018-06-21,Merged,1313,95,58,h cpp ,3
+Linked list,2018-07-08,Merged,1312,339,2,library/xml ,3
+stockpiles: Fix unusable and usable loading for weapon and armor,2018-06-19,Merged,1311,5,0,cpp ,1
+jsoncpp upgrade to 1.8.4 and use git submodule for it,2018-06-30,Merged,1310,19,"7,137",py txt depends/jsoncpp-sub ,3
+jsoncpp: Fix (U)Int64 to long int on 64bit linux,2018-06-14,Merged,1309,4,2,,1
+Fix for Unlikely screen show memory leak fix and check to avoid breaking the screen linked list,2018-07-03,Merged,1308,58,37,h ,14
+Units change affected,2018-06-14,Closed,1307,22,24,,6
+"Start script additions strace, gdbserver and df arguments to gdb",2018-06-13,Merged,1306,32,2,,1
+Multibyte console support for posix and fix potential data races in console shutdown,2018-07-02,Merged,1304,391,319,cpp ,2
+Add parameter type checks to printf style functions,2018-06-20,Merged,1302,70,57,h ,24
+Request c++11 support from compilers (through cmake),2018-06-13,Merged,1301,13,7,cmake ,1
+Make stl_vsprintf return if there is an vsnprintf error,2018-06-20,Merged,1300,22,15,,1
+YCM fallback defaults if database lookup fails,2018-06-13,Merged,1299,37,2,,1
+Dead plugins,2018-06-21,Merged,1298,15,14,,9
+Units dead,2018-06-13,Closed,1297,29,2,h ,3
+Add Lua profiler module,2018-06-09,Merged,1296,710,0,txt ,2
+Mousequery plugin with TWBT modifications,2018-05-30,Merged,1289,204,119,,0
+Add 'Max Quality' setting to buildingplan,2018-06-09,Merged,1284,65,10,cpp h ,4
+"Prepend script name to qerror messages, if applicable",2018-06-01,Merged,1283,6,2,,1
+lua: enabled shift cursor movement for fake workshop gui overlay,2018-06-09,Merged,1281,2,2,,1
+makes dfhack -g work correctly,2018-06-01,Merged,1280,4,2,,1
+enable lua api construction functions,2018-05-18,Merged,1278,1,1,,1
+Simplify CMakeLists.txt for protobuf.,2018-05-14,Merged,1271,30,152,plugins/stonesense ,1
+Fix unlikely GUI::getAnyUnit segfault,2018-05-12,Merged,1268,1,1,,1
+this allows the blueprint plugin to be called from lua,2018-05-12,Merged,1265,70,1,txt cpp lua ,3
+Pull request test,2018-04-24,Merged,1261,5,5,,1
+syndrome-util: added function to remove syndrome wound data,2018-05-18,Merged,1259,11,1,,1
+Complex enum metadata,2018-04-19,Merged,1254,238,23,h library/xml ,4
+Fix MSVC and GCC warnings in DFHack and core plugins,2018-04-10,Merged,1253,565,567,depends/clsocket cpp h library/xml cmake ,16
+Bump RFR version number.,2018-05-17,Merged,1252,1,1,,1
+fixed bug causing gui scripts to fail when sidebar is closed,2018-04-04,Merged,1251,1,0,,1
+Add a script to automatically generate both changelogs from a single file,2018-04-03,Merged,1250,"1,550","1,431",rst ,1
+check for tile material == MINERAL in digtype (#1243),2018-04-02,Merged,1245,2,0,,1
+avoid crash in labormanager if map square on lowest level is designated+hidden (#1240),2018-04-02,Merged,1244,1,2,,1
+Partial preparation for 0.44.07-alpha1.,2018-03-13,Merged,1238,6,6,library/xml plugins/isoworld plugins/stonesense scripts ,4
+Fix parse_inset in gui.lua,2018-03-11,Merged,1237,1,1,,1
+Fix compile errors on Ubuntu 18.04 Bionic Beaver,2018-03-10,Merged,1234,4,0,cpp ,2
+"Fix CMake warning about CMP0022 policy being set as ""OLD"".",2018-03-10,Merged,1233,5,12,plugins/stonesense ,1
+Remote reader,2018-03-14,Merged,1232,325,6,txt cpp ,3
+Corrected reanimation detection,2018-03-14,Merged,1231,404,38,cpp ,2
+Fix labormanager never assigning dwarves to fill ponds,2018-02-22,Merged,1230,12,6,,2
+Fix Error.cpp compile for Windows,2018-02-08,Merged,1224,8,27,cpp h ,2
+Remote control,2018-02-22,Merged,1223,23,2,,2
+FPS counter that does not need to stabilize after unpausing,2018-02-12,Merged,1219,147,0,cpp h ,3
+More cases for Gui::getSelectedUnit,2018-01-31,Merged,1218,126,6,,1
+Remote control,2018-02-05,Merged,1214,"1,390",120,proto txt ,3
+add more world mode options to world info,2018-01-08,Merged,1205,2,0,,1
+Add cxxrandom plugin,2018-06-20,Merged,1204,526,0,cpp ,1
+Blocked errant line feed at full buffer,2017-12-22,Merged,1203,10,3,,1
+Add cxxrandom plugin,2017-12-23,Closed,1201,316,0,cpp lua ,2
+Remote reader,2017-12-24,Merged,1200,179,59,h ,2
+Made console prompt respect color reset,2017-12-21,Merged,1197,4,1,,1
+update DataFuncs to support vmethods with 12-13 parameters,2017-12-03,Merged,1192,23,0,,1
+update structures,2017-12-03,Merged,1191,1,1,,1
+"Autocomplete built in commands (die, etc.)",2017-12-21,Merged,1189,32,20,,1
+Fix labormanager crash when a dwarf doesn't have a cultural identity,2017-11-23,Merged,1188,10,5,,1
+"Manipulator with extra detail modes, display features and sort options.",2018-02-01,Closed,1187,"4,291",821,,0
+update structures,2017-11-23,Merged,1184,4,4,library/xml ,4
+map-render plugin,2019-08-21,Merged,1181,154,0,txt lua cpp ,4
+Add tree product exclusions to autochop,2018-02-10,Merged,1180,81,18,,1
+Fix fencepost error in orders import.,2017-11-23,Merged,1178,11,4,,1
+listcolumn tweak for GCC,2017-10-09,Merged,1175,1,1,,1
+auto_ptr is deprecated,2017-11-23,Merged,1174,1,1,,1
+Allow external connections to DFHack remote services.,2018-02-13,Merged,1173,61,16,h ,3
+Update the rendermax plugin with warmist's changes,2017-10-30,Closed,1168,178,38,hpp lua ,3
+uh-oh! fixing client:receive(<number>),2017-09-04,Closed,1163,1,1,,1
+Add embark-assistant plugin,2018-02-10,Merged,1159,"5,949",0,,0
+max_barrels was serialized on max_bins position,2017-11-23,Merged,1156,2,1,,1
+RemoteFortressReader updates.,2017-08-22,Merged,1154,133,3,cpp ,3
+Fix luasocket receive with byte count,2017-08-12,Merged,1150,1,1,,1
+Fix a couple MSVC warnings,2017-08-07,Merged,1148,4,4,,1
+labormanager: bias RECOVER_WOUNDED by ALTRUISM trait,2017-08-07,Merged,1141,"1,091",954,,0
+Fix #1115 (penalize elves for woodcutting jobs),2017-08-07,Merged,1140,"1,093",954,,0
+labormanager: fix #1103,2017-08-07,Merged,1139,"1,096",958,,0
+labormanager: Refactor source,2017-08-07,Merged,1137,"1,079",954,,0
+Fix a bunch of 64-bit Windows warnings,2017-08-07,Merged,1135,7,5,cpp ,2
+Update clsocket submodule. See DFHack/clsocket#10.,2017-07-21,Merged,1134,1,1,,1
+exclude on-duty military personnel from health labor check,2017-07-20,Merged,1133,6,2,,1
+Make repeatUtil.cancel work even when called from the callback.,2017-07-12,Merged,1131,7,2,,1
+Fix silly error in strangemood plugin,2017-07-02,Merged,1126,2,0,,1
+autolabor: Fix an array bounds overrun when assigning haulers while traders are active.,2017-07-01,Merged,1121,4,0,,1
+"fixing getItemBaseValue() for cheese, sheets and instruments",2017-06-26,Merged,1119,19,6,,1
+Travis: Lua 5.3,2017-06-22,Merged,1118,62,3,sh ,2
+Fix forum thread link in README.md,2017-06-22,Merged,1116,1,1,,0
+Enable asserts in RelWithDebInfo builds,2017-07-11,Merged,1114,2,0,,0
+Add orders plugin for importing and exporting manager orders.,2017-07-12,Merged,1098,812,0,,0
+Travis: use Lua 5.3,2017-06-22,Closed,1097,3,4,,1
+RemoteFortressReader updates.,2017-07-12,Merged,1096,569,32,txt ,1
+Update README.md,2017-04-30,Closed,1082,7,14,,0
+fix of relations errors.,2017-04-26,Merged,1079,9,9,,1
+Fix broken headings in Markdown files,2017-04-30,Closed,1077,1,1,,0
+README.md: Fix broken markdown links and header.,2017-03-31,Merged,1074,9,14,,0
+Unit profession,2017-02-03,Merged,1065,16,0,cpp ,2
+Creature renamer,2017-02-11,Merged,1064,293,0,txt cpp ,2
+"Add DOWNLOAD_RUBY option to Ruby plugin cmake, defaulting to ON",2017-03-18,Merged,1063,56,48,,0
+"df::dfhack_material_category has no constructor, must be manually initialized",2016-12-27,Merged,1050,6,2,cpp ,2
+"stockflow: Fix ""integer expected"" problem in stockflow",2016-12-16,Merged,1046,1,1,,1
+labormanager: Add support for shell crafts.,2016-12-28,Closed,1043,6,4,,2
+hack to make ruby work on win64,2016-12-14,Merged,1041,8,1,,1
+Avoid non-trivial bitfield constructors,2016-12-11,Merged,1038,15,13,cpp ,7
+labormanager: fix StoreItemInVehicle labor inference,2016-12-09,Merged,1035,1,1,,1
+labormanager: add deconstruct labor for constructed instruments,2016-12-08,Merged,1034,1,0,,1
+Update bundled tinyxml version from 2.5.3 to 2.6.2,2016-12-14,Merged,1033,312,331,h ,2
+Add a Lua module for getting a tile's material,2016-12-27,Merged,1031,400,0,,0
+Fix autochop,2017-05-05,Closed,1030,44,39,,1
+labormanager: fix deconstruction of buildings containing items,2016-12-01,Merged,1026,9,1,,1
+Labormanager trap components and constructions with multiple materials,2016-11-29,Merged,1025,12,5,,1
+labormanager: support for jobs in bowyer's shop,2016-11-28,Merged,1024,2,0,,1
+Use attributes in calculating assignment weight,2016-11-29,Merged,1022,180,19,,1
+make labormanager know building instruments is furniture hauling,2016-11-26,Merged,1020,1,0,,1
+Add job remove method,2016-12-05,Merged,1019,149,1,h ,3
+Labormanager 0.43.05 r1,2016-11-18,Merged,1016,149,117,,0
+Remove plugins - all broken since 0.40,2016-12-09,Merged,1011,0,"1,222",,0
+Labormanager - docs and a minor patch,2016-10-31,Merged,1010,104,1,cpp ,2
+Add documentation for manipulator professions,2016-10-23,Merged,1006,15,1,,1
+RemoteFortressReader updates,2016-10-13,Merged,1001,3,1,proto cpp ,3
+Added check to rescan zlib and pthread on linux when arch changes,2016-09-15,Merged,992,10,2,,0
+Removed the other foreach.,2016-08-29,Merged,991,5,3,,1
+RemoteFortressReader changes,2016-08-29,Merged,990,445,49,proto ,2
+Included 64-bit build of libruby1.8.7 for linux,2016-09-26,Closed,989,6,1,gz ,2
+Core.rst: document how commands work and are used,2016-08-22,Merged,979,89,25,,2
+Add windows container sizes to ruby codegen,2016-08-07,Merged,975,5,7,,1
+Develop,2016-08-22,Closed,973,9,1,,1
+Document keybinds in dfhack.init-example,2016-10-23,Merged,972,133,19,py ,3
+Update the example init file,2016-08-23,Merged,970,10,8,,1
+Minor fixes/updates for Visual Studio 2015 Win64,2016-08-10,Merged,969,17,4,cpp ,3
+Modifies DFHack to build against VS2015,2016-07-29,Merged,959,483,249,bat ,11
+Add protection from spaces in path and add warning in documentation,2016-07-12,Closed,956,6,4,package/darwin/dfhack ,2
+Rename autolabor2 to labormanager and bring up to date with current,2016-08-12,Merged,954,872,311,yml cmake txt rst py cpp library/scripts library/xml ,9
+Update of autolabor2 for 42.06/43.30,2016-06-27,Closed,953,517,149,,0
+Rename autolabor2 -> labormanager and bring up to date with 42.06,2016-06-27,Closed,952,363,140,,0
+Stockflow reaction updates,2016-06-27,Merged,951,2,1,,1
+Support linking against an external tinyxml if EXTERNAL_TINYXML is set,2016-07-07,Merged,950,137,8,txt ,1
+Modify DFHack to handle new produce() prototype. Major thanks to leth…,2016-06-13,Merged,946,14,12,library/xml ,6
+Improved script documentation,2016-06-15,Merged,945,71,167,py ,5
+Dwarfvet: third time is the charm,2016-07-29,Merged,941,879,1,h cpp txt ,5
+Resubmitted DwarfVet,2016-06-08,Closed,940,"1,732",555,rst depends/clsocket h cpp ,5
+Convert catsplosion plugin to a script,2016-06-12,Closed,938,59,174,txt cpp lua ,4
+Adding the dwarfvet plugin,2016-06-08,Closed,937,873,0,h cpp txt ,3
+knowledge category flag,2016-05-27,Merged,934,13,0,,1
+fix 'find id' shortcut in gui/gm-editor for vectors,2016-05-26,Merged,933,1,1,,1
+Include math.h in 3dveins.cpp,2016-05-22,Closed,932,1,0,,1
+Advfort2,2016-06-14,Merged,931,139,85,,3
+tinythread memory leak,2016-05-30,Merged,930,99,41,cpp ,4
+Incrementing the manager order id properly.,2016-05-18,Merged,926,3,1,lua ,2
+Moving a search option to the bottom of the screen.,2016-05-17,Merged,925,1,1,,1
+Updating Stockflow for v0.43,2016-05-17,Merged,924,94,28,lua ,2
+adjust autogems to work with the workshop profile changes,2016-05-15,Merged,923,1,1,,1
+fix for workshop_profile breaking change,2016-05-15,Closed,922,557,456,rst cpp lua library/xml package/darwin/dfhack package/linux/dfhack ,12
+improve windows build scripts,2017-05-13,Closed,921,52,17,,12
+Add new item descriptions for DF 43.01,2016-05-17,Merged,920,8,1,,1
+Replace fixpositions plugin with scripts,2016-05-10,Merged,917,212,257,txt cpp lua ,4
+Fix gui/mod-manager,2016-05-05,Merged,915,1,1,,1
+Fixed quality in gui/create-item with -multi.,2016-05-10,Merged,914,7,5,,1
+Gm editor changes,2016-05-10,Merged,913,19,11,lua ,2
+Add a way to insert primitive types in gui/gm-editor,2016-04-30,Closed,912,15,11,,1
+Allow arbitrary syndromes for add-thought,2016-07-07,Closed,904,17,3,lua ,2
+item-trigger.lua fix,2016-05-10,Merged,902,13,1,,1
+Replace fixpositions plugin with scripts,2016-05-10,Merged,901,197,257,txt cpp lua ,4
+Fix building-hacks color for auto_gears option,2016-04-10,Merged,890,5,5,,1
+Fix eventful not showing sidebar sometimes,2016-04-10,Merged,889,7,5,,1
+add onGetSelectedBuilding to workshop overlay,2016-04-10,Merged,888,33,2,,1
+actual information,2016-04-10,Merged,887,20,14,,1
+Various documentation tweaks,2016-04-11,Merged,872,918,783,,1
+"Make view-item-info not show density as 1,000 times what it actually is",2016-03-18,Merged,871,1,1,,1
+DF measures in kg/m^3,2016-03-17,Closed,870,1,1,,1
+add follow_unit_id and follow_item_id to RemoteFortressReader,2016-03-18,Merged,868,5,0,cpp ,2
+Change eventful to have sane(r) callback for produce,2016-03-13,Merged,867,11,13,cpp lua ,3
+Add auto-gears mode for building hacks,2016-03-13,Merged,866,88,12,lua ,3
+Fix persistent histfig crashbug.,2016-03-10,Merged,840,8,1,cpp library/xml ,3
+fix teledwarf bug (leaves babies lying on ground),2016-03-10,Merged,839,12,0,,1
+Fix build errors,2016-03-09,Merged,838,2,0,,2
+fix modtools/force.lua,2016-03-05,Merged,834,8,3,,1
+fix Units::isCitizen,2016-03-05,Merged,833,9,13,,1
+fix job-duplicate bug (ignoring cloned jobs with posting_index),2016-03-03,Merged,832,1,0,,1
+Fix minor manipulator bug,2016-03-02,Merged,831,1,1,,1
+Update create-unit so that civ -1 creatures are not histfigs and miti…,2016-03-02,Merged,830,37,3,,1
+merge export-dt-ini script changes from splintermind/Dwarf-Therapist,2016-02-27,Merged,829,3,1,,1
+Updating Stockflow for version 42.06,2016-02-24,Merged,826,33,1,,1
+add new jobs to autolabor,2016-02-24,Merged,824,28,2,,2
+Autogems bugfixes,2016-02-24,Merged,822,21,5,,1
+Manipulator update and fix,2016-02-24,Merged,818,46,6,h ,4
+uicommon cleanup,2016-03-13,Closed,813,53,100,h ,7
+"Implement #804, move some functions to Units",2016-04-24,Merged,812,905,797,cpp ,2
+"Colonies as a script, + place feature by Warmist",2016-03-13,Merged,810,85,163,txt cpp lua ,4
+Add support for grates and bars to Ruby.,2016-01-31,Merged,809,4,0,,1
+Fix floodgate allocation in C++/Lua and well and pressure plate allocation in Ruby.,2016-01-31,Merged,808,9,1,rb ,2
+Enable ycmd for DFHack,2016-01-31,Merged,807,133,0,txt ,1
+"Additional exports (masterpiece events, occasions and schedules)",2016-03-13,Merged,803,57,8,,1
+allow dfhack to run inside valgrind,2016-01-31,Merged,800,10,1,,1
+"Add brew, mill, thread, and milk to ban-cooking. See #796 and #795.",2016-01-21,Merged,799,36,1,,1
+set civzone number when constructing a civzone,2016-01-18,Merged,798,20,0,,1
+Additional legend exports,2016-01-16,Merged,793,172,19,,1
+Fix dates being offset by 1 day in legends_plus.xml - Fixes #783,2016-01-10,Merged,791,1,1,,1
+"New autogems plugin, automatically cutting rough gems.",2016-01-10,Merged,789,314,0,init-example txt cpp ,4
+autolabor-artisans.lua remove brewer skill,2016-01-08,Merged,788,0,1,,1
+autolabor-artisans.lua remove brewer skill,2016-01-08,Closed,787,0,1,,1
+blueprint: fix compilation (i.e. undefined find),2016-01-09,Merged,785,2,0,,1
+clean up a lot of warnings,2016-02-01,Closed,784,97,120,cpp h ,9
+Updated Windows compile docs,2016-01-01,Merged,778,1,1,,1
+Update Compile.rst windows section,2015-12-23,Closed,776,3,2,,1
+Use distro_fixes.sh from LNP if it exists,2015-12-22,Merged,775,6,0,,1
+Compile docs: Misc changes: Linux re building docs/pip; Windows re MSVC requirement and vs VStudio; Windows re command line compile with Bash.,2015-12-22,Merged,774,40,5,,1
+Compile docs: Windows: Add direct download link for MSVC 2010 SP1,2015-12-21,Merged,773,7,4,,1
+Some simplification to eventful,2016-02-25,Merged,772,118,47,cpp ,2
+Stockflow repairs,2015-12-20,Merged,770,37,29,cpp lua ,4
+Compile.rst: major updates to Windows and OSX sections;,2015-12-19,Merged,768,402,69,,0
+vim-style +args,2015-12-26,Merged,767,63,0,,1
+add parentheses around || that should be inside &&,2015-12-13,Merged,766,3,3,,3
+"Implement ""weather"" as a script",2016-01-01,Closed,765,43,153,txt cpp lua ,4
+Re-enable GCC 5 compilation for OSX and Linux,2015-11-29,Merged,764,7,2,,0
+Falconne deserves credit for a few great plugins.,2015-11-26,Merged,759,1,0,,1
+Re-enable GCC 5 compilation for OSX and Linux; updated build-osx.sh script,2015-11-29,Closed,758,159,91,sh ,1
+Implement most of the confirm plugin in Lua,2015-11-26,Merged,756,564,244,txt ,1
+Merge gamelog scripts to modtools/extra-gamelog,2016-03-13,Merged,754,198,89,init-example lua ,5
+Add indeterminate orientation to gaydar,2015-11-26,Merged,753,5,1,,1
+Replace drybuckets and feature plugins with scripts,2015-11-26,Merged,752,91,188,txt cpp lua ,6
+"Remove dfusion, df2mc, mapexport, dwarfexport",2016-03-13,Merged,751,4,"4,721",rst txt cpp h ,6
+Add Felton's menu-mouse plugin,2015-11-17,Closed,750,"3,416",0,txt ,3
+Support for hooking into GUI-related functions,2015-11-17,Merged,746,262,69,cpp h ,7
+Typo Restrictliquid fixed,2015-11-26,Merged,743,6,6,,1
+Ls cleanup,2016-04-17,Merged,742,145,139,cpp ,29
+restrictliquid is actually restrictliquids,2015-11-10,Closed,740,5,5,,1
+Replace initflags plugin with scripts,2015-11-07,Merged,736,29,60,txt cpp lua ,5
+Remove deprecated and inactive plugins,2015-11-07,Closed,733,62,"2,141",rst txt cpp ,4
+"Clarify and restructure some docs, improve off-travis linting",2015-11-07,Merged,732,"1,542","1,387",txt rst html py ,7
+"Add updated emigration script, gui/family-affairs",2015-11-06,Merged,730,428,0,png lua ,3
+Add furnace to fillsidebarmenu hook,2015-11-07,Merged,729,17,0,,1
+Automaterials: Partial fix for constructing floor over existing floor,2015-11-07,Merged,727,17,16,cpp ,3
+zone: Fix typo in help text,2015-11-03,Merged,726,1,1,,1
+minor typo fix,2015-11-03,Merged,724,2,2,,1
+Allow loading (external) plugins compiled against r3,2015-10-31,Merged,719,15,2,,1
+State of decay - Onmiclasm's FPS boosting scripts,2015-10-30,Merged,717,375,0,,4
+Add 'undisturbed' flag to job item checks,2015-10-31,Merged,715,3,1,,2
+Fix gm-editor to work with df.global structs,2015-10-23,Merged,714,8,2,,1
+More docs improvements,2015-11-05,Merged,713,"3,055","2,575",txt rst ,2
+Fixing assume identities since it causes a crash.,2015-10-14,Merged,710,18,10,,1
+Fix typographical error(s),2015-10-07,Closed,708,2,2,rst ,2
+"Fixed typographical error, changed accross to across in README.",2015-09-30,Closed,707,2,2,rst ,2
+Sphinx,2015-09-27,Merged,706,"2,048","1,157",txt rst ,2
+Fix CMake warning over INTERFACE_LINK_LIBRARIES / policy CMP0022.,2015-09-27,Merged,705,12,2,plugins/stonesense ,1
+Develop,2015-09-27,Merged,704,63,11,txt rst in scripts/3rdparty/dscorbett scripts/3rdparty/kane-t scripts/3rdparty/lethosor scripts/3rdparty/maienm scripts/3rdparty/maxthyme scripts/3rdparty/roses lua ,10
+Documentation updates,2015-09-26,Merged,702,"1,235",762,NEWS html rst ico ,8
+Checking travis,2015-09-25,Merged,700,"3,808","12,578",yml cmake txt ,3
+Develop,2015-09-25,Closed,699,106,478,gitmodules cmake txt Makefile init-example in ,6
+"Documentation formatting, eg internal links",2015-09-26,Closed,697,"5,132","13,432",yml cmake txt ,3
+Experiments with Sphinx for generating documentation,2015-09-24,Merged,693,"4,184","12,572",yml ,2
+Attempt to move to new travis infrastructure.,2015-09-21,Merged,692,9,2,,1
+Vjek scripts,2015-09-21,Merged,691,648,0,NEWS lua ,5
+Develop,2015-09-21,Merged,690,269,37,cpp ,2
+Develop,2015-09-21,Merged,689,106,33,rst cpp ,3
+Lua socket: some additions and fixes.,2015-09-21,Merged,688,78,18,cpp ,2
+Advfort,2015-09-21,Merged,687,191,19,,2
+Fix bug in gm-editor,2015-09-20,Merged,685,1,0,,1
+Create Unit,2015-09-15,Merged,684,723,66,proto lua ,3
+Advfort,2015-09-13,Merged,683,336,107,,0
+typos and clarifications,2015-09-08,Closed,681,3,2,,1
+Import Vjek's scripts from the wiki,2015-09-21,Merged,679,649,0,NEWS lua ,5
+Develop,2015-08-17,Closed,676,652,0,,3
+Luasocket,2015-09-13,Merged,675,487,0,txt lua ,2
+Documention fixes,2015-08-17,Merged,674,189,64,rb ,3
+PluginManager improvements,2015-08-24,Merged,673,508,231,cpp ,5
+Points.lua and readme,2015-08-14,Merged,671,24,1,rst lua ,3
+typo s/ot a forum/to a forum/,2015-08-11,Closed,669,1,1,,1
+New plugin: fix-unit-occupancy,2015-08-08,Merged,668,254,0,rst txt cpp ,3
+Add a framework for including 3rd-party script repos,2015-09-14,Merged,667,28,0,txt scripts/3rdparty/lethosor cmake ,3
+Replace jsonxx with jsoncpp,2015-08-06,Merged,660,"7,171",26,txt LICENSE h ,3
+Create gm-unit.lua,2015-09-15,Merged,658,596,0,,0
+Work around GCC enum bound checking bug,2015-07-18,Merged,655,2,2,library/xml ,2
+Extended lever.rb,2015-07-15,Closed,652,14,6,,1
+Add git commit information to libdfhack-version,2015-06-27,Merged,647,62,3,cpp cmake gitignore h ,7
+Add `confirm` plugin,2015-07-27,Merged,643,505,0,,0
+Add look menu search,2015-06-22,Merged,640,136,2,,1
+Rename gui/hack-wish to gui/create-item,2015-06-15,Merged,638,5,4,rst lua ,3
+dwarfmonitor widget improvements,2015-06-15,Merged,637,344,126,NEWS rst json lua ,4
+Update autohauler.cpp,2015-06-16,Merged,636,254,235,,0
+gui/gm-editor changes,2015-06-13,Merged,635,15,3,,1
+Rebuilt missing half of plant product descriptions,2015-06-12,Merged,633,17,7,,1
+Patched up the plant product descriptions,2015-06-11,Closed,631,3,4,,1
+Fixed elasticity descriptions,2015-06-05,Merged,627,5,5,,1
+Add format guide to item-descriptions.lua,2015-06-05,Merged,626,9,0,,1
+Add custom descriptions to remaining item viewscreens,2015-05-30,Closed,619,575,29,,1
+Twbt compatible plugins,2015-06-30,Closed,618,334,143,rst cpp ,3
+Improved issue with workflow job being resumed but never being worked,2015-05-24,Merged,617,11,4,,1
+Made teleport work with cursor and handle errors.,2015-05-19,Merged,616,3,2,,1
+Add warn-starving.lua,2015-05-24,Merged,614,69,0,rst lua ,3
+Add scripts: burial and fix-ster,2015-05-09,Merged,612,168,0,rst lua ,4
+Workflow changes for plant jobs,2015-05-09,Merged,611,14,1,lua ,2
+Autolabor changes,2015-05-09,Merged,610,69,40,,1
+"Made ""could not find syndrome"" error work.",2015-04-29,Merged,608,1,1,,1
+Make full-heal -r optionally remove corpse.,2015-04-29,Merged,606,13,1,,1
+Made hack-wish assign quality properly.,2015-04-27,Merged,605,65,57,lua ,2
+"Add view-item-info.lua, content, and documentation",2015-04-18,Merged,593,488,0,rst init-example lua ,4
+Expose a faster screen drawing/caching API to Lua,2015-03-31,Merged,591,203,0,h lua ,4
+ban-cooking script,2015-03-28,Merged,590,88,0,,1
+Implement enabler::zoom_display() (from libgraphics),2015-03-26,Merged,587,45,1,h inc library/xml ,5
+Remove explicit tokens and use ENUM_KEY_STR for profession templates,2015-03-25,Merged,586,83,84,,1
+plugins/stockpiles: only create the stocksettings directory when it is requested,2015-03-25,Merged,585,4,16,cpp ,2
+Plugin exports,2015-05-09,Merged,583,56,0,h ,2
+Extend fix/blood-del to include tears and sweat,2015-03-24,Merged,582,11,1,,1
+Add a C++ and Lua JSON library,2015-04-09,Merged,581,"1,149",9,txt LICENSE depends/jsonxx lua ,4
+"Allow Lua scripts to implement enable/disable commands and specify other behavior (e.g. ""module mode"") that they implement",2015-05-09,Merged,580,163,26,NEWS cpp lua ,7
+Simply manipulator professions by adding the text token to the SkillColumn entries,2015-03-24,Merged,579,113,182,,0
+Stockflow repairs,2015-03-24,Merged,578,100,81,lua cpp py ,4
+Add gametype checks to World module,2015-03-14,Merged,575,62,8,h ,7
+Negative autolabor pool size uses most unskilled dwarves.,2015-03-10,Merged,574,12,6,,1
+Autolabor: negative pool size uses most unskilled dwarves.,2015-03-08,Closed,572,12,6,,1
+Add view-item-info to extend item viewscreens,2015-03-31,Closed,570,483,0,rst init-example lua ,4
+Small update,2015-03-04,Merged,569,71,42,,1
+Change autobutcher export format a little,2015-02-28,Merged,566,13,17,cpp ,2
+Building hacks changes.,2015-02-28,Merged,564,119,19,NEWS cpp lua ,4
+UI tweaks,2015-03-24,Merged,563,101,23,rst init-example cpp h ,6
+Autohauler - An alternative to Autolabor,2015-02-28,Merged,562,"1,142",0,,0
+Move DFHack version to a separate (static) library,2015-02-22,Merged,559,28,15,cpp h cmake ,9
+Pass RTLD_LOCAL to dlopen(),2015-02-19,Merged,558,1,1,,1
+Add current job as a view mode in manipulator,2015-03-01,Merged,557,94,28,NEWS cpp ,3
+Update and clarify readme,2015-02-16,Merged,556,175,266,,0
+Add .travis.yml and fix whitespace issues,2015-02-16,Merged,555,"5,894","5,737",cpp h lua ,14
+Make skill-change actually work with level,2015-02-12,Merged,550,19,3,lua ,2
+exportlegends -  more data in legends_plus.xml,2015-02-13,Merged,549,498,4,rst ,2
+Fix lua environment persistence,2015-02-11,Merged,547,9,10,,1
+Fix fix-armory,2015-02-08,Closed,543,3,3,cpp ,1
+fix-armory: Substitute removed jobtypes with working ones,2015-02-09,Merged,542,3,3,cpp ,1
+Fix show-unit-syndromes (part 2),2015-02-08,Merged,541,2,2,,1
+Adds new console methods and commands to hide/show console.,2015-02-08,Merged,539,41,0,h ,5
+Additional state change scripts,2015-02-11,Merged,537,190,7,cpp h ,3
+avoid dangling colon,2015-02-07,Merged,536,1,1,,1
+LD_PRELOAD should use colon rather then space as delimiter,2015-02-07,Merged,535,1,1,,1
+Added subthought properly to add-thought.,2015-02-06,Merged,533,2,0,lua ,2
+Made hack-wish stack properly.,2015-02-06,Merged,530,8,2,lua ,2
+fix ShowUnitSyndromes,2015-02-04,Merged,528,18,18,,1
+Gm editor,2015-02-03,Merged,527,40,3,,1
+New tweak to display pet genders on trade request screen,2015-02-03,Merged,525,40,0,rst init-example cpp h ,5
+Zone plugin cleanup,2015-02-01,Merged,520,513,551,cpp h ,5
+Fs expansion,2015-02-01,Merged,519,317,163,rst NEWS cpp ,8
+Contributing doc,2015-02-01,Merged,517,59,45,sh ,3
+Point Homebrew users to homebrew/versions,2015-02-01,Merged,516,2,2,,1
+Prioritize gelded animals in autobutcher lists,2015-02-01,Merged,514,23,1,rst cpp ,3
+Fix hfs-pit feature search,2015-02-01,Merged,513,2,1,lua ,2
+Contributing doc,2015-01-29,Closed,512,112,57,NEWS init-example sh cpp ,7
+Create `stocksettings` directory on startup,2015-02-01,Merged,511,4,3,,1
+Updated add-thought for proper stress change.,2015-02-01,Closed,509,29,16,lua ,2
+Allow user to include custom libraries in LD_PRELOAD,2015-02-01,Merged,508,6,6,,1
+Cancelled,2015-01-27,Closed,507,53,12,rst init-example cpp ,4
+Cancelled,2015-01-27,Closed,505,6,6,,1
+fix skill-change so it would use insert_sorted,2015-01-18,Merged,495,1,1,,1
+Change MOD_* to DFH_MOD_*,2015-01-18,Merged,494,9,9,h ,3
+EventManager: Fix a crash bug with EQUIPMENT_CHANGE event.,2015-01-16,Merged,491,2,2,,1
+Fix digexp vs expdig typo,2015-01-16,Closed,490,189,118,,0
+New Plugin:blueprint,2015-01-16,Closed,489,984,186,,1
+Update advfort.lua,2015-01-16,Merged,488,5,3,,1
+Allow `dfhack` script to be run from other directories on OS X,2015-01-16,Merged,486,1,1,,1
+Expose key modifier state to C++/Lua,2015-01-16,Merged,485,39,17,h ,3
+Finish off needs_porting - issues raised and hotkeys ported,2015-01-16,Merged,483,18,"1,957",rst txt ,2
+"Use ""OSX"" in package names on OS X instead of ""Darwin""",2015-01-16,Merged,482,6,1,,0
+Add support for searching more lists,2015-01-16,Merged,478,96,30,,1
+Autobutcher: prioritize non-breeders,2015-01-06,Merged,477,55,45,,1
+Fix error in full-heal.lua when unit not given.,2015-01-05,Closed,476,5,1,,1
+Update siren.lua for emotions,2015-01-06,Merged,475,17,14,,1
+Update siren.lua for emotions,2015-01-05,Closed,474,22,15,,2
+New tweaks,2015-01-06,Merged,472,188,1,html rst init-example cpp h ,7
+Add local area mouse controls to embark-tools,2015-01-06,Merged,471,362,26,rst ,2
+Merge PlugLoad-linux.cpp and PlugLoad-darwin.cpp,2015-01-06,Merged,469,5,49,cpp ,2
+Repairing the stuck Alt key,2015-01-06,Merged,468,9,1,cpp ,2
+Point Homebrew users to a GCC 4.5 formula that works on 10.10,2015-01-06,Merged,467,2,1,,1
+Remove output from filetype(),2015-01-06,Merged,466,0,1,,1
+Update devel/export-dt-ini for 0.40.21+,2015-01-06,Merged,465,20,21,,1
+"Fortplan plugin, bare-bones functionality",2015-01-06,Merged,464,"1,579","1,118",rst h txt ,3
+Add a cmake option to install a newer version of libstdc++ on OS X,2015-01-06,Merged,463,7,0,gitignore bz2 ,2
+Update some plugins/scripts for 0.40.22,2015-01-06,Merged,461,33,19,lua ,4
+"adventure keybind contexts, bound companion-order",2015-01-06,Merged,458,3,2,,1
+Delete embark.lua,2015-01-16,Merged,457,108,170,,0
+Add file checks to digfort,2015-01-06,Merged,456,48,52,rb ,2
+"Revert ""Log output of ""dfhack"" script to dfhack.log""",2015-01-06,Merged,455,2,2,package/linux/dfhack ,2
+Trackstop bugfix: No longer prevents cancelling building removal.,2015-01-06,Merged,454,43,6,cpp ,2
+cleaning up in needs_porting,2015-01-06,Merged,449,213,"3,580",rst ,2
+"Fix ""exportlegends maps""",2015-01-06,Merged,447,6,3,,1
+Fixed error with passing nil to unit.find,2015-01-06,Merged,446,5,1,,1
+full-heal Script: Fixed error with passing nil to unit.find,2014-12-13,Closed,443,5,1,,1
+Made restrictive mat filter work properly,2015-01-06,Merged,441,11,5,,1
+Advfort,2015-01-06,Merged,440,496,315,,0
+Allow plugins to easily specify required globals,2015-01-06,Merged,439,375,380,h ,20
+(redux) GUI Interface for stockpiles settings management,2015-01-06,Merged,433,"3,730","2,838",rst init-example h txt lua ,5
+Define a static variable to fix debug mode crash.,2015-01-06,Merged,432,2,0,,1
+Define a static variable to fix debug mode crash.,2014-12-05,Closed,431,2,0,,1
+update DT scripts for versions 29.0.0+,2014-12-05,Merged,430,513,6,,1
+stocks: Make LEAVESCREEN have priority over text entry,2014-12-05,Merged,429,7,7,,1
+update DT scripts for versions 29.0.0+,2014-12-05,Closed,428,513,6,,1
+teleport: fix unused code causing crash,2014-12-05,Merged,427,1,2,,1
+Fix teleport,2014-12-03,Closed,426,"3,579",513,NEWS html rst h cpp library/xml package/darwin/dfhack package/linux/dfhack ,11
+Bind `hotkeys` to Alt-F1 as well,2014-12-05,Merged,425,1,0,,1
+Bind `hotkeys` to Alt-F1 as well,2014-12-02,Closed,424,1,0,,1
+"Add gelding to autolabor, manipulator",2014-12-05,Merged,423,8,2,,2
+Update devel/export-dt-ini.lua (0.40.19),2014-12-03,Closed,422,15,5,,1
+GUI Interface for stockpiles settings management,2014-12-05,Closed,421,"17,440","2,838",rst init-example h txt lua ,5
+Define a static variable to fix debug mode crash.,2014-12-05,Closed,419,0,0,,0
+Expand fixTexts.sh,2014-12-05,Merged,418,86,11,sh ,4
+Add Putnam's remove-stress script,2014-11-30,Merged,416,19,0,rst lua ,3
+"autolabor: Allow improved behavior for ""artisan"" labors",2014-12-05,Merged,411,165,52,rst ,2
+build-osx,2015-01-06,Closed,410,726,486,NEWS html rst sh cpp library/xml plugins/stonesense lua rb ,10
+Allow commands invoked through command-prompt to access selected items/units/buildings,2014-11-29,Merged,407,11,3,h cpp ,4
+"autolabor: Allow improved behavior for ""artisan"" labors",2014-11-30,Closed,405,165,52,rst ,2
+plugin: Stockpile Settings Serialization,2014-11-29,Merged,402,"2,960",20,rst txt proto ,3
+"Log output of ""dfhack"" script to dfhack.log",2014-11-22,Merged,401,2,2,package/linux/dfhack ,2
+"Log output of ""dfhack"" script to dfhack.log",2014-11-22,Closed,400,2,2,package/linux/dfhack ,2
+Prevent farm-plot-select from selecting crops when no crops are listed,2014-11-19,Merged,399,1,1,,1
+Update add-thought.lua,2014-11-19,Merged,398,1,1,,1
+Print fatal errors to stdout on Linux/OS X,2014-11-18,Merged,397,2,0,,1
+Fix Ruby platform detection in Windows and update superdwarf.rb,2014-11-16,Merged,394,7,18,,2
+Expand dwarfmonitor weather indicator,2014-11-15,Merged,393,36,2,,1
+Update Falconne's plugins,2014-11-15,Merged,392,630,33,rst PNG cpp ,6
+Update Contributors.rst,2014-11-15,Closed,391,1,0,,1
+Preventing blank history files,2014-11-15,Merged,390,4,0,h ,2
+New script for viewing or setting cavern adaptation of citizens.,2014-11-15,Merged,389,97,0,rb ,2
+"Add ""add-thought"" script to main repo",2014-11-14,Merged,388,71,0,lua ,2
+Updated full-heal to properly use args system.,2014-11-14,Merged,387,120,114,lua ,2
+The missing include changes,2014-11-14,Merged,386,7,0,h ,4
+Fix automaterial/box-select cursor color,2014-11-09,Merged,385,4,0,,1
+Make dwarfmonitor compile for 0.40.14+,2014-11-09,Merged,384,18,18,cpp ,1
+Autolabor fixes,2014-11-09,Merged,382,55,12,cpp ,2
+Re-enable rendermax in CMakeLists.txt,2014-11-09,Merged,381,1,1,,0
+Update export-dt-ini.lua,2014-11-09,Merged,380,309,197,,0
+Updated teleport for new args system.,2014-11-09,Merged,379,34,31,html rst lua ,4
+Trade screen fixes,2014-11-09,Merged,378,40,118,html rst cpp h ,6
+Trade screen fixes,2014-11-07,Closed,377,24,113,html rst cpp h ,6
+Fix selection behavior of mousequery on lowest z-level,2014-11-09,Merged,376,12,2,cpp ,2
+Update NEWS,2014-11-02,Merged,374,13,2,,1
+Fix forum-dwarves.lua,2014-11-02,Merged,373,5,12,,1
+Add <algorithm> includes and use min/max to get them into global scope,2014-11-09,Closed,371,5,0,h ,2
+Add some missing includes and make the 'count' variable less ambiguous,2014-11-09,Closed,370,5,3,,3
+Update rendermax,2014-11-02,Merged,369,4,17,,1
+Stable sorting for Dwarf Manipulator,2014-11-02,Merged,365,6,6,,1
+Rewriting the drainaquifer script,2014-11-02,Merged,361,40,18,html rst lua rb ,5
+Faster automelt,2014-11-02,Merged,360,35,19,,1
+embark-tools cleanup,2014-11-02,Merged,359,366,290,,0
+Allow console to be disabled by setting an environment variable,2014-11-02,Merged,356,6,3,,1
+Update digFlood documentation to mention onLoad(World).init,2014-10-31,Merged,355,1,1,,1
+Removing duplicate world and map loading events.,2014-11-02,Merged,354,2,0,,1
+autotrade bugfix: Mark All now unmarks bin contents.,2014-11-02,Merged,353,8,2,cpp ,2
+New trackstop plugin,2014-11-02,Merged,352,334,1,html rst init-example txt cpp ,5
+Text export lua scripts,2014-11-15,Merged,351,238,6,,2
+Fixes for fastdwarf combat speed and attack retargeting.,2014-11-02,Merged,350,8,1,,1
+"'tweak' plugin cleanup/reorganization, new tweaks",2014-11-02,Merged,349,962,729,html rst init-example txt ,4
+'tweak' plugin cleanup,2014-09-27,Closed,347,10,173,cpp ,1
+Text export lua scripts,2014-09-28,Closed,346,239,6,,2
+Fix issue #337: superdwarf script uses new unit action events.,2014-11-15,Closed,345,32,6,,1
+New script for viewing or setting cavern adaptation of citizens.,2014-11-13,Closed,344,112,0,rb ,2
+"exportlegends can do site maps, IDd field",2014-11-14,Merged,343,52,20,rst init-example lua ,4
+Added 'set-adaptation' script for setting cavern adaptation levels,2014-09-24,Closed,342,66,1,rst rb ,3
+the patrol duty bug was fixed in 40_05,2014-11-02,Closed,341,0,3,,1
+init stocks and autochop,2014-11-02,Closed,340,1,1,,1
+properly documented the seedwatch plugin,2014-11-02,Merged,339,24,3,,1
+SDL hooks to support Stonesense updates,2014-11-15,Closed,335,130,1,h plugins/stonesense ,3
+No longer prints -e when DF finishes.,2014-09-19,Merged,334,1,1,,1
+job_material_category -> dfhack_material_category,2014-09-16,Closed,332,1,1,,1
+Change search key from 's' to 'q' on unit/job lists,2014-09-16,Closed,329,10,0,,1
+binpatch.lua: Close file opened in load_patch() on success,2014-09-16,Closed,328,1,0,,1
+Falconne's automelt plugin,2014-09-16,Closed,326,333,6,html rst init-example txt cpp ,6
+Updating `dfhack.init-example` to enable UI plugins and add some keybindings,2014-09-16,Closed,325,11,1,,1
+update exportlegends for DF40.x,2014-09-16,Closed,324,18,16,rst lua ,3
+Falconne's hotkeys plugin,2014-09-16,Closed,323,408,0,html rst init-example png txt ,5
+Add variant of printall() that uses ipairs,2014-09-16,Closed,322,17,1,,2
+Removed hackwish crash.,2014-09-16,Closed,321,5,1,,1
+Stockpile iterator,2014-09-16,Closed,320,161,269,rst cpp h ,6
+Linux Release Improvements,2014-09-08,Merged,319,3,1,gitignore ,1
+Adding usage documentation for teleport.lua,2014-09-08,Merged,317,13,0,,1
+Removing new trade hotkeys while a counteroffer is displayed.,2014-09-08,Merged,316,32,7,,2
+Fixed error text when issuing non-teleport commands,2014-11-09,Closed,315,73,22,,1
+Store previous sorting,2014-10-17,Closed,314,38,18,,1
+store the previous sorting,2014-08-31,Closed,313,27,0,,1
+Support for global onLoadWorld.init and onUnloadWorld.init scripts,2014-09-16,Closed,312,5,0,cpp ,2
+Fix: Issue 291: bow_item_(sub)type is now shooter_item_(sub)type,2014-09-08,Merged,311,1,1,,1
+Added binary tarballs for ruby dependencies to work around cmake downloa...,2014-09-19,Merged,310,22,18,gz ,2
+Fixed repeat.lua,2014-08-31,Closed,308,2,2,,1
+"Make plugins use "".plug.dylib"" extension on OS X",2014-09-08,Merged,307,10,1,cpp cmake ,3
+Fix autotrade usage,2014-09-08,Merged,306,1,1,,1
+exportlegends includes new maps,2014-09-09,Closed,305,5,3,,1
+Made hack-wish work properly.,2014-09-08,Merged,303,3,3,,1
+Added binary tarballs for ruby dependencies to work around cmake downloa...,2014-08-31,Closed,302,23,19,gz rb ,3
+Develop,2014-08-30,Closed,301,22,18,gz ,2
+Documentation updates,2014-09-08,Merged,300,"1,133","1,404",rst ,3
+Stockflow Repairs,2014-08-28,Merged,299,5,9,,1
+Stockpile lines,2014-08-28,Merged,298,35,9,h ,4
+Update dfstatus for 0.40,2014-08-26,Closed,297,63,62,,1
+embark-tools fix,2014-08-28,Merged,296,1,0,,1
+Stockpile hotkey lines,2014-08-28,Closed,290,35,9,h ,4
+Moving trade screen search lines,2014-08-28,Merged,289,17,13,,2
+Repairing the log-region script,2014-08-28,Merged,285,11,5,,1
+Documentation updates,2014-08-28,Closed,284,377,386,,1
+Removing the leaves check for stockpile acceptability.,2014-08-28,Closed,283,5,9,,1
+"Fix ageItem to work correctly, and update XML",2014-08-15,Merged,280,8,6,cpp ,2
+Stockflow Improvements,2014-08-14,Merged,275,68,21,rst lua cpp ,4
+Added rendermax to supported,2014-06-28,Closed,268,2,4,,0
+"Disable ""stable position"" when site finder is active",2014-06-26,Merged,267,5,0,,1
+Dfhack.init example fixes,2014-06-28,Closed,266,2,6,,1
+Merge 0.34.11-r5 into master,2014-06-20,Merged,265,"16,796","5,085",gitmodules txt html rst ,6
+DFHack 0.34.11-r5,2014-06-20,Merged,264,885,143,html rst NEWS cpp h ,7
+Command-prompt line editing,2014-06-20,Merged,262,143,13,,1
+Filesystem module,2014-06-20,Merged,261,358,0,txt cpp h ,3
+Squad info in Dwarf Manipulator screen,2014-06-17,Merged,258,123,40,rst png h cpp ,8
+Lua version of runCommand,2014-06-17,Merged,257,95,1,cpp lua ,3
+New tweak: confirm-embark,2014-06-16,Merged,256,106,5,cpp ,2
+Fix problems with NONE for item types and subtypes,2014-06-03,Merged,255,74,67,,2
+Console: Implement back/forward one word escape sequences,2014-06-10,Merged,253,61,2,,1
+Ignore this,2014-05-26,Closed,252,"13,305","4,947",gitmodules html rst ,6
+mod-manager: create init file if it doesn't exist,2014-06-10,Closed,251,4,0,,1
+embark-tools,2014-06-16,Merged,247,532,0,rst txt ,2
+"Fix English names containing the word ""the""",2014-06-03,Merged,246,10,2,,1
+"Plugin improvements/fixes (3dveins, command-prompt, search)",2014-06-03,Merged,244,12,1,cpp ,3
+Command-prompt improvements,2014-05-17,Closed,243,12,2,,1
+Only allow 3dveins to be run in fortress mode,2014-05-17,Closed,242,7,0,,1
+Reset terminal settings after segfault on OS X,2014-05-12,Merged,241,6,3,,1
+Fix tiletypes crash,2014-05-12,Merged,240,6,0,,1
+Use DYLD_LIBRARY_PATH on OS X instead of LD_LIBRARY_PATH,2014-05-11,Merged,239,1,1,,1
+Dev rendermax,2014-05-11,Merged,238,"3,479",5,rst png txt lua ,4
+Clean up the needs_porting folder,2014-05-12,Merged,237,159,"2,899",init-example txt py cpp ,5
+Add exportlegends and logregion,2014-05-12,Merged,236,128,0,init-example lua ,4
+cleaning out needs porting and added notes file,2014-05-05,Closed,234,218,"1,146",init-example library/xml txt cpp ,4
+Stockflow plugin,2014-06-03,Closed,232,"1,597",0,rst init-example txt ,3
+add three scripts,2014-05-05,Closed,231,179,0,init-example lua ,5
+Delete needs_porting/reveal.py,2014-04-22,Closed,230,0,93,,1
+dfstatus (new Lua version),2014-05-03,Closed,228,114,206,cpp lua ,3
+Building hacks- a plugin to lua-script custom workshops,2014-05-04,Merged,225,571,7,NEWS txt ,2
+Command prompt plugin with docs and readme patch.,2014-03-24,Merged,224,198,0,rst init-example txt cpp ,4
+Dev modmanager,2014-03-24,Merged,223,334,1,NEWS cpp lua ,5
+Updates to OS X documentation (Compiling and Readme),2014-04-12,Closed,222,31,13,,2
+Dev modmanager,2014-03-04,Closed,221,"2,856",625,rst NEWS ,6
+Command prompt plugin with docs and readme patch.,2014-03-04,Closed,220,"2,661",625,rst NEWS ,6
+Dev cmdprompt,2014-02-13,Closed,219,"3,301",481,NEWS rst init-example cpp library/xml txt ,11
+fixed crash bug,2014-08-14,Closed,218,5,5,,1
+DFHack compiles under OS X now.,2014-04-12,Closed,216,11,10,,3
+Fixed a typo in script.lua,2013-10-31,Closed,213,1,1,,1
+Proposed fix for Issue #202: Improvement for LUA API docs,2014-05-04,Closed,207,8,2,rst ,2
+Ignore Mac OS X .DS_Store files,2014-05-04,Closed,200,3,0,,1
+Ignore .DS_Store files on Mac OS X,2013-05-07,Closed,199,358,9,NEWS lua rb ,6
+New undump-buildings script,2014-05-04,Closed,198,37,0,rst lua ,3
+New undump-buildings script,2013-05-05,Closed,196,29,0,,1
+Amended Readme,2013-04-24,Merged,193,5,6,rst ,2
+OS X build of r3,2013-03-15,Merged,187,17,4,cpp package/darwin/dfhack plugins/stonesense ,4
+Autolabor documentation improvement,2013-04-24,Merged,186,131,67,,0
+Correction for autofarm script,2013-02-05,Merged,184,4,4,rb ,2
+Added restrictliquids and restrictice commands.,2013-04-24,Merged,178,53,0,,1
+"scripts: supermedic, forgetdeadowner",2012-10-29,Closed,173,179,0,,2
+Experimental,2012-09-28,Closed,172,398,18,cpp ,2
+New plugin: digtype,2012-08-24,Closed,170,130,1,,1
+Removing Bad Thoughts from Dwarves,2012-07-09,Merged,167,58,0,,1
+Update master,2012-06-13,Merged,165,7,1,,1
+TIletypes and liquids improvements,2012-05-19,Merged,160,171,80,h cpp ,3
+"Fix filtering on tiletypes, add more options to tiletypes, add the new range functionality to liquids.",2012-05-08,Closed,157,170,80,h cpp ,3
+Fix tiletypes filtering and add the new range command to liquids.,2012-04-21,Closed,156,146,65,h cpp ,4
+Fix issues with last commit,2012-04-17,Merged,152,9,2,cpp ,2
+Make tiletypes more useful,2012-04-16,Merged,150,582,386,h ,3
+Add SetUnitLabors and additional optional data to ListUnits,2012-04-14,Merged,148,51,1,proto ,3
+Make autolabor config persistent.,2012-04-08,Merged,147,227,35,,0
+Add ListJobSkills protobuf API,2012-04-04,Merged,146,80,0,proto ,3
+Autolabor configurability,2012-04-04,Merged,145,322,150,,0
+Autolabor fix,2012-03-30,Merged,144,2,1,,1
+added plugin changelayer,2012-03-26,Merged,143,503,40,txt ,1
+Fix generate-*.bat for DF paths containing spaces.,2012-03-26,Merged,142,4,4,,3
+minor stuff in cursecheck,2012-03-26,Merged,141,6,74,,1
+vampcheck - plugin which detects cursed creatures (vampires),2012-03-23,Merged,140,"1,231",0,txt ,1
+Add autolabor module,2012-03-24,Merged,139,914,0,,0
+Load Script and Workflow Clear,2012-03-14,Merged,138,59,11,,2
+Unicode Key-handling,2012-03-10,Merged,136,54,3,h ,3
+Cleanups,2012-03-12,Merged,131,5,"1,446",cpp ,1
+vdig: Fix typo and update wiki link,2012-02-22,Merged,130,2,2,,1
+Itemtweaks,2012-01-18,Closed,126,39,0,cpp ,2
+Enhanced tiletypes plugin.,2011-11-05,Merged,121,218,7,,1
+Z levels in legacy prospector,2011-10-23,Merged,120,60,19,,1
+Patch 1,2011-08-23,Merged,117,3,1,,2
+Improved Items module and itemhacks plugin,2011-07-25,Merged,116,333,63,h ,4
+Start of material flags code,2011-07-22,Closed,115,63,36,cpp ,2
+mightBeVec() fix,2011-07-21,Merged,114,4,1,,1
+Notes module,2011-07-21,Merged,111,269,12,txt cpp h ,8
+More info on inorganic materials,2011-07-20,Merged,110,230,18,h cpp ,4
+command clearvec: clear vector,2011-07-20,Merged,109,167,32,,1
+""".dfhackrc"" user config file",2011-07-18,Merged,108,33,4,,1
+Vectors plugin: searches memory for vectors,2011-07-17,Merged,107,234,1,cpp ,1
+Get game's current world save folder,2011-07-17,Merged,106,24,0,h cpp ,3
+"Linux only plugin: use ""die"" command to kill game",2011-07-16,Merged,104,54,0,cpp ,1
+Fix colonies to use new console output stuff,2011-07-14,Merged,100,10,8,,1
+Linux launch script: gdb and terminal reset,2011-07-13,Merged,99,18,1,,1
+Vermin module and colonies plugin,2011-07-13,Merged,98,473,3,txt cpp h ,6
+.gitignore: Ignore build/plugins and CPack build stuff,2011-07-13,Merged,97,4,0,,1
+CMake linux: copy LD_PRELOAD script,2011-07-13,Merged,96,22,0,package/linux/dfhack ,1
+creatures: read and write pregnancy counter,2011-07-23,Merged,95,32,5,cpp ,5
+readSTLString() new/free mismatch fix,2011-07-11,Merged,93,1,1,,1
+buildingsdump.cpp: cleanup,2011-07-11,Merged,92,130,100,,1
+playground/blockflags: toggle block flag bits,2011-07-11,Merged,91,71,0,cpp ,1
+Deal with third flag group in creatures,2011-07-11,Merged,90,114,2,cpp ,5
+incremental: deal with shifting Linux maps (Issue #88),2011-07-10,Merged,89,109,28,cpp ,2
+"creaturemanager.cpp: Additional actions and creature filters, and misc changes",2011-07-10,Merged,87,290,30,,0
+cmake option BUILD_NO_CURSES,2011-07-07,Merged,86,2,1,,0
+Here is the tiletypes tool,2011-05-13,Merged,79,599,0,,0
+Here's the feature check.,2011-05-07,Merged,78,13,8,,2
+Here's the finished prospector rewrite,2011-05-02,Merged,77,254,304,,0
+Fixes #70.,2011-04-28,Merged,76,2,0,,1
+"Request for pulling my additions (dfskillmodify, dfdigpattern)",2011-04-12,Merged,63,991,0,cpp ,1
+Fix for random memory read failures on 32-bit linux.,2011-04-10,Merged,62,5,2,,1
+This is untested other than compiling on linux.,2011-02-23,Merged,61,"1,662","2,362",,0
+Start simplifying DFProcess.,2011-02-23,Merged,60,259,241,,3
+added quiet command line switch to a couple of tools,2010-11-11,Merged,55,87,17,,6
+"small change for dfliquids (use 'r' for range, 'p' for point, save last width/height when nothing entered in range menu)",2010-10-29,Merged,49,6,6,,1
+Untitled,2010-10-08,Merged,47,202,88,,1
+DF creature offsets,2010-09-18,Merged,43,21,0,,1

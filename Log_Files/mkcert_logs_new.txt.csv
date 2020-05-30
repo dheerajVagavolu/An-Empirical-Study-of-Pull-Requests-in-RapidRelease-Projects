@@ -1,0 +1,71 @@
+README: Add cd mkcert to build from source instructions,2019-12-26,Merged,228,1,1,,0
+README: Mention official Arch Linux package,2019-12-26,Merged,226,3,5,,0
+add firefox nightly and developer edition binary paths,2019-11-29,Merged,225,4,1,,1
+Fix git clone command,2019-11-26,Merged,224,1,1,,0
+Add Gentoo Linux support,2019-11-19,Closed,221,6,1,go ,1
+Add note about advanced options in README,2019-11-26,Merged,218,8,0,,0
+truststore_nss: retry certtool with sudo when it fails due to permissions,2019-11-09,Merged,216,22,8,,2
+analysis.go: use x/tools/go/analysis/multichecker to run analysis tools,2019-11-09,Merged,215,107,8,go mod sum ,4
+Use regexp compile,2019-11-09,Closed,211,5,2,,2
+mkcert now provides a version command,2019-11-09,Closed,197,70,4,yml Makefile go ,5
+"Use sudo when necessary for certutil (Ubuntu 16.04 at least), fixes #192",2019-11-09,Closed,193,"229,563",10,sum go org/x/sys/AUTHORS org/x/sys/CONTRIBUTORS org/x/sys/LICENSE org/x/sys/PATENTS gitignore md ,10
+"Make shorter certificate duration for catalina requirements, closes #174",2019-08-16,Closed,187,6,4,,1
+Note `sudo` requirement,2019-08-16,Closed,185,2,0,,0
+darwin: drop 'sudo' from security commands where we can,2019-07-31,Closed,183,3,3,,1
+Add link to Chocolatey in README,2019-07-25,Merged,181,1,1,,0
+Fix markdown formatting,2019-07-21,Merged,179,1,1,,0
+Add staticcheck to CI,2019-07-05,Merged,171,5,4,go ,2
+README: use $GOBIN instead of $GOPATH/bin,2019-06-12,Merged,168,1,1,,0
+Add support for certificates with client and server auth and URL SANs,2019-07-05,Merged,166,10,3,,2
+Support SLES & OpenSUSE,2019-06-01,Merged,162,7,2,go ,1
+Allow email SANs for S/MIME certificates,2019-04-12,Merged,152,16,3,,2
+Change u.Username to u.Name for more readibility,2019-06-02,Closed,142,5,1,,1
+Rename file extension for more cross-platforms friendly.,2019-02-25,Closed,141,15,15,go ,2
+"Swap exec.Command(""hostname"") for os.Hostname()",2019-02-15,Merged,137,2,3,,1
+Add installation script gets latest mkcert release,2019-02-02,Closed,124,173,0,sh ,1
+nss: look in more locations for cert/key database,2019-06-01,Closed,121,25,4,,1
+Added .localhost name constraint to CA certificate,2019-02-02,Closed,113,14,0,,1
+Update README.md,2019-01-08,Merged,109,1,0,,0
+Added a visualisation of code,2019-01-08,Closed,108,9,0,,0
+"Elaborate on ""nss""-related installs",2019-01-08,Closed,103,1,1,,0
+Add 'Firefox Nightly.app' for macOS.,2019-01-08,Merged,102,1,0,,1
+Add support for building snaps,2019-01-06,Closed,93,21,0,,1
+README: AUR,2018-11-26,Merged,91,5,3,,0
+java: don't run keytool during check if we there isn't even one found,2018-11-26,Merged,90,4,0,,1
+Add support for client certificates,2019-02-02,Closed,89,14,2,,2
+Inform the user about the p12 password,2019-01-06,Closed,87,1,1,,1
+java: don't attempt retry on windows,2018-12-22,Merged,85,3,1,go ,1
+docs: clarify mkcert doens't configure servers,2018-10-25,Merged,82,1,1,,0
+Add ability of customizing file name,2019-01-07,Merged,77,40,14,,2
+Added guide for converting mkcert .pem certificates to IIS .pfx certificates,2018-09-26,Closed,75,84,0,,0
+nss: use certutil from $PATH if found on macOS,2018-08-25,Merged,71,9,5,,1
+Nitpicky fix on Macports install info,2018-08-25,Merged,68,3,2,,0
+Add scoop install for Windows,2018-08-23,Merged,65,6,0,,0
+"Add ""choco install"" for Windows",2018-08-19,Merged,63,7,1,,0
+Update README with info on how to install via MacPorts,2018-08-19,Merged,62,7,0,,0
+Mentioned Linuxbrew as the preferred way to install mkcert on Linux,2018-08-19,Merged,61,7,2,,0
+Fix use of multiple CAs on Linux,2018-08-19,Closed,59,15,6,go ,2
+Added -password flag to allow specifying  of PKCS#12 password,2019-01-06,Closed,58,5,3,,2
+Support installing to system trust store for Arch-based distros,2018-08-19,Merged,57,15,9,go ,1
+Support for CSRs (Certificate Signing Requests),2019-02-02,Closed,55,95,1,go ,2
+java: fix keytool path detection on windows and JRE/JDK,2018-08-19,Merged,54,18,4,,1
+detect firefox developer edition,2018-08-13,Closed,48,14,4,,3
+Add Windows Support,2018-08-13,Merged,46,130,0,,1
+Use $XDG_DATA_HOME on macOS if it is set.,2018-07-07,Merged,40,5,6,,1
+support install into java cacerts file,2018-07-30,Merged,38,129,0,,2
+Dockerfile for build and release,2018-07-06,Closed,36,21,0,,1
+add PKCS#12 generation with password changeit,2018-08-13,Closed,34,93,2,lock toml go ,4
+truststore: check if profile is a directory before joining cert*.db,2018-07-04,Merged,33,3,0,,1
+readme: update homebrew install,2018-07-04,Merged,32,1,1,,0
+Use `go get` to build from source in the README,2018-07-03,Closed,29,1,2,,0
+docs: add CA definition as certificate authorities to help other user…,2018-07-03,Merged,27,3,3,,0
+added simple flag to print the CAROOT var,2018-07-03,Closed,26,16,2,,1
+Adding guide for installing mkcert on archlinux,2018-07-29,Merged,23,6,0,,0
+on linux don't declare we installed to the system store,2018-06-29,Merged,18,9,3,,2
+Update cert.go,2018-06-28,Closed,16,4,6,,1
+linux: support chrome via nss/certutil,2018-07-04,Closed,15,77,15,,4
+firefox: prefer cert9.db and skip that profile after,2018-07-12,Merged,13,5,4,,1
+Explicitly set 0 length path constraint,2018-06-28,Merged,5,2,0,,1
+Use PKCS1 encoding to be compatible with Go 1.9,2018-06-28,Closed,4,3,5,,1
+Fix permissions on newly generated private keys,2018-06-28,Merged,3,2,2,,1
+"Add Linux support for update-ca-trust and update-ca-certificates (RHEL, CentOS, Fedora, Debian, Ubuntu...)",2018-07-04,Merged,2,50,3,,1

@@ -1,0 +1,171 @@
+Expose GCP PubSub PublishSettings to Gizmo users,2019-12-20,Merged,239,32,3,,2
+Log the panic message even if it's not of type error,2019-11-12,Merged,237,5,6,,1
+fix typo in the WithMessageAttributes method,2019-11-05,Merged,236,2,2,,1
+Allow to set SNS Message Attributes via context,2019-11-05,Merged,235,21,1,,1
+Detect cloud run for stackdriver logging,2019-10-30,Merged,234,33,13,go ,2
+Fix typo (packge -> package),2019-10-14,Merged,233,1,1,,0
+[server/kit] rearranging stack so logger is available within HTTPMiddleware,2019-09-23,Merged,232,19,17,,2
+[auth/gcp] Adding basic google web auth flow capabilities,2019-09-24,Merged,231,836,14,,0
+add http listen addr to config,2019-09-11,Merged,230,8,3,,5
+"[server/kit] Adding log ""format"" functions that mimic `appengine/log`",2019-09-09,Merged,229,40,0,,2
+Add marvin's EncodeProtoRequest function to server/kit,2019-09-04,Closed,228,36,0,,1
+tidying up example dependencies + updating go-kit,2019-09-04,Merged,227,120,177,,1
+Clean-up indirect dependencies,2019-08-07,Merged,226,35,67,,1
+go.mod: update ocagent to fix incorrect pseudo version,2019-08-07,Merged,225,107,139,,1
+middleware: allow cors to take multiple suffixes,2019-07-31,Closed,224,55,36,,2
+[server] Avoiding Prometheus memory bomb when using the new stdlib router,2019-07-31,Merged,223,20,10,,2
+[server] fixing stdlib router 😅,2019-07-29,Merged,222,35,87,,3
+[server] adding a stdlib router,2019-07-26,Merged,221,36,0,,2
+Adding log levels to kit/server.Log*Msg funcs,2019-07-16,Merged,220,52,3,,2
+auth: expose ErrBadCreds to check for expected errs,2019-06-12,Merged,218,17,6,,3
+[observe] Adding RegisterAndObserveGCP to use within the SimpleServer (or any non-sever/kit poject)),2019-06-10,Merged,217,55,5,,3
+travis: replace cache hackery with GOPROXY,2019-04-30,Merged,215,1,4,,1
+[server/kit] adding Google profiler if environment is GCP enabled,2019-04-15,Merged,214,12,0,go ,2
+[auth] adding VerifyRequest for use within http middlewares,2019-04-12,Merged,213,128,4,,2
+[server/kit] falling back to PORT env variable if HTTP_PORT is not set,2019-04-08,Merged,212,8,1,,1
+SetLogger and panic stacktrace.,2019-03-16,Merged,210,8,2,,2
+Update travis badge in readme and add canonical import paths,2019-03-05,Merged,208,23,18,go sum ,17
+README: include case sensitive installation,2019-03-04,Merged,207,11,0,,0
+String() should not mutate object,2019-03-01,Merged,206,18,10,,2
+travis: use go modules and latest Go,2019-02-26,Merged,205,48,69,Makefile sh enc sum ,5
+Attempting to fix modules' indirect depedencies on master,2019-03-01,Merged,202,46,29,sum ,3
+"Separating example modules, removing some unneeded/old depedencies",2019-02-25,Merged,201,317,353,sum lock toml ,5
+[server/kit] Removing multiple middleware calls,2019-02-20,Merged,199,5,1,,1
+Extract GCP Monitoring,2019-02-12,Merged,192,135,91,go ,5
+Remove Deprecated Fast Router,2019-02-11,Merged,191,0,125,sum go ,5
+Remove unnecessary body close,2019-02-08,Merged,189,10,14,,1
+Drop support for Go 1.8 and below,2019-02-08,Merged,182,120,306,,9
+"Add resource information to logger of GKE, GCE and AWS EC2",2019-02-05,Merged,180,55,26,,3
+Removing go-kit/metrics/provider to save us from dependency overload,2019-02-05,Merged,177,184,776,mod ,4
+Initialize opencensus for GKE,2019-01-29,Merged,176,54,20,go ,3
+Remove explicit call to use credentials from environment variables,2019-01-25,Merged,175,0,4,,1
+[auth/gcp] properly setting the service account email as the issuer and subject for IAM,2019-01-17,Merged,174,9,6,mod sum ,4
+"[auth/gcp] adding an ""iss"" field to IAM tokens",2018-12-27,Merged,172,6,2,,2
+Cleaning up underused and non-recommended code,2019-01-02,Merged,171,359,"2,885",go ,6
+[server/kit] adding NewLogger to use for background logging + updated docs,2018-12-11,Merged,170,67,55,go ,5
+[auth/gcp] allowing IAMConfig to override default Google credentials,2018-11-28,Merged,169,20,1,,1
+[server/kit] automatically enabling Stackdriver trace in Google App Engine,2018-11-27,Merged,168,188,42,,1
+[server/kit] adding protobuf go-kit funcs to mimic NYTimes/marvin,2018-11-19,Merged,167,95,0,,1
+Update SQS constructor to allow custom AWS endpoint,2018-11-19,Merged,166,1,0,,1
+[server/kit] adding automatic error reporting for any panics encountered,2018-11-12,Merged,164,306,53,,1
+"[server/kit] automatically registering ""warm up"" endpoint for GAE users",2018-11-09,Merged,163,38,11,,2
+changing requestRoleCredentials,2018-11-06,Merged,162,20,29,,1
+Prioritize Role over environment variables,2018-11-05,Merged,161,7,10,,1
+"Adding ""auth"" and ""auth/gcp"" packages",2018-11-05,Merged,160,"1,899",227,go ,1
+[server/kit] Adding automatic Stackdriver logging for App Engine 2nd generation runtime,2018-10-25,Merged,159,224,18,go ,3
+fixing fetch path for go lint,2018-10-16,Merged,158,2,2,Makefile ,2
+Allow overriding of AWS endpoint,2018-10-18,Merged,157,7,0,,2
+expanding HTTP publishers to implement the MultiPublisher interface,2018-10-09,Merged,155,229,10,,2
+Add AWS_SESSION_TOKEN into aws.Config to allow using temporary credentials,2018-10-04,Merged,154,7,6,,2
+Add SQS Queue URL to SQS config to simplify configuration of SQS Subscriber,2018-10-04,Merged,153,18,10,,2
+adding modules support,2018-08-27,Merged,152,182,0,sum ,2
+Fix typo,2018-06-21,Merged,151,1,1,,1
+Adds ability to define shutdown function for the service,2018-06-07,Merged,150,9,0,,2
+Fix typo,2018-06-05,Merged,149,1,1,,1
+"Revert ""Improve Prometheus metrics""",2018-06-05,Merged,148,4,63,,2
+gcp: Added GCP usage example,2018-07-02,Merged,147,103,15,env go ,3
+default handler for 404 metrics to '__404__',2018-06-04,Merged,145,4,4,,2
+Added ErrMultiRegister on multiple Register calls,2018-03-30,Merged,143,48,11,,4
+allowing users to pass a custom sarama config for kafka,2018-03-30,Merged,142,16,4,,2
+Improve Prometheus metrics,2018-04-02,Merged,141,63,4,,2
+Update readme,2018-03-14,Merged,139,46,217,go ,1
+fix panic when notfound handler been set.,2018-02-02,Merged,137,28,1,,2
+Add support for AssumeRoleProvider Role credentials with optional MFA,2018-01-24,Merged,135,64,13,,3
+"[server] Look up route template for metric names, deprecate httprouter",2018-01-05,Merged,133,30,4,,4
+[server] Moving HTTP middleware above the Router,2017-11-10,Merged,130,146,83,,6
+adding pprof endpoints to all kit servers by default,2017-09-28,Merged,127,20,0,,1
+[server/kit] filtering out expected shutdown errors & capturing test errors properly,2017-09-21,Merged,126,30,11,,2
+Swallowed kit test error,2017-09-21,Closed,125,54,23,,4
+Update and rename LICENSE.md to LICENSE,2017-08-24,Merged,124,201,13,md ,1
+[server/kit] Always adding context values to request scoped logger,2017-08-06,Merged,122,18,30,,5
+fixing context use in RPCServer example,2017-08-04,Merged,121,7,81,,5
+Fix .drone.yml link and typo in README.md,2017-07-19,Merged,120,3,3,,0
+adding kit/datastore 'reading-list' example to mimic marvin,2017-07-19,Merged,119,"1,631",0,,2
+Fix swallowed err in client example.,2017-07-13,Merged,118,3,0,,1
+adding kit.Service.RPCMiddlware because grpc only allows for 1 unary server interceptor,2017-07-09,Merged,117,53,20,go ,5
+making server/kit projects available to GAE users,2017-07-05,Merged,115,22,9,,3
+Makes gcp attributes accessible,2017-07-06,Merged,114,19,12,,2
+Adds SetReceiveSettings to Subscriber,2017-06-30,Merged,112,21,14,,2
+Fixes #109: Renames Sirupsen to sirupsen,2017-06-29,Merged,110,12,12,,12
+Adding additional logger funcs to server/kit for convenience,2017-06-23,Merged,108,67,4,,2
+"Hooking kit middleware into gRPC server, adding tests to kit server & cleaning up server logs",2017-06-23,Merged,107,366,23,proto ,4
+Exposing server/kit.Server for unit testing,2017-06-19,Merged,106,13,8,,2
+Cleaning up the kit server,2017-06-19,Merged,105,209,153,go ,4
+Adding server.Config.LogJSONFormat,2017-06-18,Merged,104,17,2,,2
+Add experimental gizmo/server/kit package backed by go-kit & gRPC,2017-06-12,Merged,101,"1,608",1,md go yaml sh pb ,8
+Add pprof trace endpoint,2017-06-02,Merged,100,1,0,,1
+Handle method GET and HEAD for healthcheck requests,2017-06-01,Merged,99,1,0,,1
+Remove unused import,2017-05-18,Merged,98,0,1,,1
+Updating GCP pubsub to match new API,2017-04-04,Merged,95,213,118,,1
+implement new AddPermissionWithContext func within TestSNSAPI,2017-04-04,Closed,94,160,0,,1
+Add sconfig.Producer.Return.Successes value,2017-04-04,Merged,92,1,0,,1
+Update server to support go1.7 context,2017-02-21,Merged,89,445,153,go ,12
+server: support IdleTimeout,2017-01-04,Merged,88,49,14,go ,7
+pubsub/aws: support restarting the subscriber after Stop is called,2017-01-03,Closed,87,59,1,,2
+fixed a bug in the MonitorRPCRequest function of the RPCServer,2016-11-24,Merged,86,7,6,,3
+Fix type name when using Prometheus metrics,2016-11-19,Merged,85,1,1,,1
+Error message added to MonitorRPCRequest in server/rpc_server.go,2016-11-19,Merged,84,10,4,,1
+Refinements to pubsub.MultiPublisher,2016-11-07,Merged,83,11,7,go ,3
+Adding a new HTTP Publisher type to `pubsub/gcp` for App Engine use,2016-11-04,Merged,82,102,4,go ,2
+Return a concrete type from GCP NewSubscriber,2016-12-14,Closed,81,24,13,,2
+Updating `LogRPCWithFields` to match new `golint` conventions,2016-10-17,Merged,79,2,2,,1
+Add MultiPublisher pubsub interface,2016-10-17,Merged,78,97,5,go ,3
+Add mysql config options,2016-10-10,Merged,77,22,7,,1
+Cleaning up the rest of gorilla/context use for Go 1.7,2016-09-23,Merged,76,114,55,,9
+Fixing memory leak caused by routers in 1.7,2016-09-21,Merged,75,83,32,,5
+Metrics updates to match go-kit/kit/metrics changes,2016-08-26,Merged,72,59,88,,7
+"Updated number of service implementations, fixed grammar",2016-08-17,Merged,71,2,2,,0
+pubsub/aws: send log messages to debug level,2016-08-16,Merged,70,3,3,,1
+Fix and refactor prometheus metrics setup,2016-08-12,Merged,69,61,36,,3
+Add support for Postgresql,2016-08-13,Merged,68,78,0,go ,3
+Switching out google.golang.org for cloud.google.com,2016-08-11,Merged,67,33,31,,3
+"Adding new ""appengine"" server.Config.Type to allow SimpleServer to run on App Engine Flexible VMs + PubSub fixes",2016-08-04,Merged,65,69,3,,7
+Update config.go,2016-06-13,Closed,63,2,0,,1
+Breaking up the `config` and `pubsub` packages by dependency,2016-06-15,Merged,62,916,893,md go ,3
+Adding configs and pubsub implementations for GCP plus additional context endpoints and service types,2016-06-13,Merged,61,661,43,go ,10
+Change server examples to use `web.Vars`,2016-05-20,Merged,60,8,12,,4
+Switching underlying metrics provider from `rcrowley/go-metrics` to `go-kit/kit/metrics`,2016-05-24,Merged,59,430,262,,5
+Clarify service interface JSONEndpoints() documentation,2016-05-17,Merged,58,27,3,go ,3
+Extended SetLogLevel to use ParseLevel in the logrus package.,2016-05-04,Merged,55,3,8,,1
+Support read preference and tag sets in Mongo configuration (#53),2016-05-02,Merged,54,53,6,,1
+config: fix LoadAWSFromEnv double indirection error,2016-04-27,Merged,52,5,5,,1
+pubsub: add method ExtendDoneTimeout to SubscriberMessage,2016-04-27,Merged,51,91,23,,5
+Create README.md tutorial for pub/sub communication,2016-04-13,Merged,50,91,0,,0
+Adding `server.CustomHealthCheck` and `config.Server.CustomHealthCheckHandler`,2016-04-19,Merged,48,71,11,,3
+changing HTTPAccessLog to be a pointer,2016-04-06,Merged,47,49,26,,5
+Adding a new `server.Router` interface and `config.Server.RouterType` option with 2 implementations,2016-04-04,Merged,44,355,55,,6
+Misc cleanup,2016-03-28,Merged,42,8,8,,5
+Added support for custom MySQL ports,2016-03-25,Merged,41,12,3,,1
+Adding Travis CI tests for Go version 1.6,2016-03-24,Merged,40,1,0,,1
+Custom metrics registry for gizmo,2016-03-24,Merged,39,30,3,,4
+Swapped if/else branches,2016-03-24,Merged,38,4,4,go ,2
+Adding default Read/WriteTimeouts & configs for overriding,2016-03-21,Merged,37,43,2,go enc ,6
+Fix memory leak in ContextSerivce.,2016-03-10,Merged,34,40,20,,2
+Adding `config.ElastiCache` struct and helper,2016-03-10,Merged,33,69,11,go ,3
+Allowing `SQSMessage.Done()` to be called after `SQSSubscriber.Stop()`,2016-02-29,Merged,32,139,37,,3
+adding a DynamoDB struct to the `config` package,2016-02-23,Merged,31,22,10,go ,4
+Renaming `ConsumeProtobuf` to `ConsumeBase64` and defaulting to 'true',2016-02-10,Merged,29,26,16,,3
+Use server-scoped registry for metrics,2016-02-04,Merged,28,42,94,,13
+Fixed a couple of typos in Readme,2016-02-01,Merged,27,1,1,,0
+web: simplify ParseTruthyFalsy a little further,2016-01-13,Merged,24,1,1,,1
+Include ContextService into README.md,2016-01-07,Merged,23,18,3,,0
+Simplify ParseTruthyFalsy function,2016-01-06,Merged,22,5,40,,1
+ContextService type for SimpleServer,2016-01-06,Merged,21,176,0,,4
+modified ParseTruthyFalsy to evaluate empty strings as false,2016-01-04,Merged,20,6,1,,2
+Server level middleware,2015-12-26,Closed,18,91,15,,6
+Replace SetLogLevel vs logrus.ParseLevel,2015-12-21,Closed,17,5,16,,1
+nytimes -> NYTimes,2015-12-21,Merged,16,116,120,Makefile md sh go ,27
+Added a bit more docs for SNSPublisher and also added a validity chec…,2015-12-21,Merged,15,9,2,,1
+Add CoC Source,2015-12-21,Merged,14,2,0,,0
+Add Code of Conduct.,2015-12-21,Merged,13,75,0,,0
+Pass golint for non-example packages,2015-12-21,Merged,12,12,3,,2
+Protobuf file cleanup,2015-12-21,Closed,10,146,138,proto ,8
+"Add make proto using protoeasy for compiling protobuf files, update example .pb.go generated files",2015-12-21,Closed,9,86,74,go proto ,5
+Fix typos in readme,2015-12-19,Merged,8,3,3,,0
+"Add a Makefile, and fix golint and go vet errors",2015-12-18,Merged,7,71,11,Makefile go ,8
+add go to fenced code blocks,2015-12-17,Merged,6,6,6,,0
+Fixed typos in contributing readme.,2015-12-16,Merged,5,2,2,,0
+Documentation cleanup,2015-12-16,Merged,4,175,75,go ,4
+Documentation cleanup,2015-12-16,Closed,3,15,15,go ,3
+More cleanup,2015-12-16,Merged,2,31,31,,13
+Cleanup,2015-12-15,Merged,1,53,53,,15

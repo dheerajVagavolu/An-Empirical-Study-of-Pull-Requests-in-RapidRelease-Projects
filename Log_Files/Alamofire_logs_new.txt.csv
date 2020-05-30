@@ -1,0 +1,783 @@
+Github action CI badge,2020-01-04,Merged,3030,1,1,,0
+Typo,2020-01-04,Merged,3020,1,1,,0
+#3006: Less Fatal SessionManager State Checking,2019-12-10,Merged,3010,45,21,,4
+Response test host error fix,2019-11-30,Merged,3003,13,9,,2
+Fixed unit test that failed with the incorrect URLError result,2019-11-19,Closed,3002,8,8,,1
+Fix the crash issue on example,2019-11-17,Merged,3000,2,1,,1
+The Client Certificate Support,2019-11-17,Merged,2993,1,3,,1
+Update README.md,2019-11-17,Closed,2989,1,1,,0
+Prepare 5.0.0-rc.3,2019-10-27,Merged,2988,"1,057",556,podspec md lock swift html ,14
+Prepare 4.9.1,2019-10-26,Merged,2987,"1,132",846,podspec pbxproj md lock swift plist html ,10
+New branch to work with razer,2019-10-25,Closed,2986,973,622,podspec pbxproj xcscheme md ,8
+Fix SecTrust Catalyst Deprecation Warning - Alamofire 4,2019-10-21,Merged,2979,76,70,swift ,3
+Fix Catalyst SecTrust API Deprecation Warning,2019-10-21,Merged,2977,139,34,,5
+feat (Response) : update debugDescription,2019-10-21,Merged,2976,28,21,,1
+Accept NTLM and Negotiate as valid authentication methods,2019-10-21,Merged,2975,5,5,,1
+Remove Dynamic Bundle Identifier - v4,2019-10-19,Merged,2967,4,2,,1
+Remove Dynamic Bundle Identifier,2019-10-19,Merged,2966,4,6,,1
+Move Automatic Resume Behavior to After the First Response Handler is Added,2019-10-19,Merged,2965,41,35,,10
+Stable encoded parameter order for URLEncodedFormEncoder,2019-10-19,Merged,2961,150,171,xcscheme md swift ,6
+feat (Response) : update debugDescription,2019-10-19,Merged,2953,52,23,,1
+wrong method used in Documentation Usage.md#manual-authentication,2019-09-27,Merged,2952,1,1,,0
+Fixed crash in Demo app,2019-09-26,Closed,2949,2,1,,1
+Prepare RC2.,2019-09-08,Merged,2940,400,254,md swift html ,25
+Fix non-generic Error usage in RC1,2019-09-08,Merged,2937,35,16,swift ,7
+Prepare rc1,2019-09-04,Merged,2934,"15,859","5,126",md lock swift html ,7
+Prepare 4.9.0,2019-09-04,Merged,2932,57,38,pbxproj md lock swift plist ,6
+Fix Reachability behavior regression from 4.8.1.,2019-09-04,Merged,2931,60,20,pbxproj xcscheme swift ,10
+Make bundle id per platform,2019-09-03,Merged,2930,2,8,,1
+Usage Documentation Updates - cnoon Edits,2019-09-03,Merged,2929,24,19,,0
+Make bundle id per platform,2019-09-03,Merged,2928,2,2,,1
+"Add AF*Response, AFResult types, update tests to use AFError",2019-09-03,Merged,2921,568,909,swift ,5
+Add SwiftFormat,2019-08-29,Merged,2918,"1,457","1,909",pbxproj xcscheme swift ,7
+Ensure Alamofire Can't Be Used With Background Sessions,2019-08-29,Merged,2917,27,7,swift ,6
+Refactor Reachability,2019-08-25,Merged,2915,226,162,xcscheme ,4
+change in appdelegate,2019-08-19,Closed,2911,2,1,,1
+Add Internal URLRequest Validation API,2019-08-14,Merged,2905,143,49,,6
+Add DataPreprocessor API,2019-08-14,Merged,2903,254,80,,2
+Update README.md,2019-09-06,Closed,2902,3,3,,0
+Unfreeze HTTPMethod,2019-08-13,Merged,2901,19,12,,2
+Allow FileManager to be passed to UploadRequest.,2019-08-11,Merged,2898,253,176,,0
+Ubiquitous AFError,2019-08-25,Merged,2897,583,351,,7
+Update Usage.md Documentation,2019-09-03,Merged,2895,515,396,,0
+Add failure constraint to *Response,2019-08-22,Merged,2893,205,205,,2
+Rename internal `flatMap` to `tryMap`,2019-08-11,Merged,2892,80,72,,3
+"Replace all internal references to AFResult<T> with Result<T, Error>",2019-08-09,Merged,2891,281,271,swift ,12
+Add cancelAllRequests API,2019-08-07,Merged,2890,245,19,,4
+throw error while JSONEncoding without POST method,2019-08-13,Closed,2887,10,0,,2
+Fix thread-safety issue for serialization queue usage.,2019-07-31,Merged,2885,222,146,json plist pbxproj ,6
+Prepare Beta 7.,2019-07-30,Merged,2882,"14,915","7,191",md lock html ,5
+Update README.md Usage,2019-08-08,Closed,2880,47,47,,0
+Feature/enable request subclasses,2019-07-15,Closed,2871,"9,023","7,550",swift-version yml podspec pbxproj xcscheme swift ,11
+Fix memory rebinding in NetworkReachabilityManager,2019-08-21,Closed,2870,3,4,,1
+Remove AFResult and add a failure constraint to Response,2019-08-22,Closed,2864,445,527,swift ,3
+Update cURL support for async request creation.,2019-07-15,Merged,2863,"1,364",864,swift ,3
+Feature - Appending Response Serializers,2019-07-09,Merged,2862,39,18,,4
+Add DataEncoding and KeyEncoding.,2019-07-08,Merged,2858,"1,063",736,,1
+progressQueue and responseQueue,2019-06-29,Closed,2856,34,26,,2
+Add option to not create resume data on cancel for DownloadRequest,2019-09-03,Merged,2851,47,2,,2
+Ss18/pr0,2019-07-07,Merged,2848,11,11,swift ,6
+[Alamofire 5]: Update all inline API documentation.,2019-06-29,Merged,2845,"1,644",655,lock swift ,4
+Update handling of os_unfair_lock to manage the buffer.,2019-06-14,Merged,2836,13,3,,1
+Improve query(_ parameters: ) func syntax,2019-05-07,Closed,2821,7,5,,1
+Add syntax for Alamofire 5.x,2019-05-06,Closed,2819,2,0,,0
+Fix an issue where empty Encodable Parameters resulted in a non-nil query string.,2019-05-06,Merged,2818,14,1,,2
+Release - Prep for 5.0.0-beta.6,2019-04-24,Merged,2815,"1,075","1,385",md html ,25
+[AF5 Refactor]: Lock Request.state access,2019-04-23,Merged,2814,89,105,,4
+Date encoding strategies for URLEncodedFormEncoder,2019-05-07,Merged,2813,210,23,,1
+Feature - Terminal Response Serializers,2019-04-23,Merged,2810,126,22,,8
+[WIP] Feature - Request State Queue,2019-04-23,Closed,2809,148,137,,4
+Bugfix - Dropping Pre-Release Version from CFBundleShortVersionString,2019-04-16,Merged,2808,1,1,,1
+Bugfix: DownloadRequest event duplication and missing events.,2019-04-16,Merged,2807,310,26,,6
+Prepare beta 5,2019-04-13,Merged,2806,"2,068","2,375",md lock plist html ,5
+Audit - MultipartUpload ACL,2019-04-12,Merged,2805,11,11,,4
+Audit - Request ACL,2019-04-12,Merged,2804,20,20,,1
+Audit - Notification Names,2019-04-12,Merged,2803,81,16,,2
+Audit - HTTP Headers Refactor,2019-04-13,Merged,2802,27,27,,11
+Audit - SessionStateProvider ACL,2019-04-12,Merged,2801,12,12,swift ,2
+Remove obsolete casting,2019-04-16,Merged,2800,2,2,,1
+Bugfix - Info.plist TestFlight Validation,2019-04-12,Merged,2799,1,1,,1
+Refactor Request Event Management,2019-04-12,Merged,2796,413,144,swift ,7
+Casting to AnyObject makes life hard for Swift type checker.,2019-04-16,Closed,2794,3,3,,1
+Update Readme with current release version,2019-05-06,Closed,2787,1,1,,0
+Bugfix - Project Settings and Example App,2019-04-06,Merged,2786,79,21,swift ,3
+Bugfix - Session Delegate Precondition,2019-04-06,Merged,2783,0,2,,1
+Bugfix - Resumed Request State,2019-04-11,Closed,2779,74,2,,2
+Bugfix - Cancellation Loop,2019-04-01,Merged,2778,52,3,swift ,3
+Prep 5.0.0-beta.4 Release,2019-03-29,Merged,2776,"7,738","3,799",md plist html ,5
+AFResult,2019-03-29,Merged,2774,412,"1,022",md swift ,8
+[#2270]: Fix emptyResponseAllowed logic.,2019-03-29,Merged,2772,184,77,swift data ,7
+Swift 5!!!,2019-03-27,Merged,2771,50,37,yml podspec pbxproj xcscheme Gemfile lock swift ,17
+Feature/swift result,2019-03-29,Closed,2769,529,577,md swift ,3
+Version to 4.8.2.,2019-03-27,Merged,2768,542,404,pbxproj md Gemfile lock plist html ,16
+[AF4]: Hotfix project updates for Xcode 10.2,2019-03-27,Merged,2767,53,36,xcscheme swift ,12
+Refactor - Condensing MultipartFormData Data APIs,2019-03-27,Merged,2766,1,39,,1
+Refactor - Switches and Queues,2019-03-27,Merged,2765,64,156,,2
+Refactor - Upload MultipartFormData with Custom Boundary,2019-03-27,Merged,2764,53,19,,5
+Hotfix: Support for swift package manager 5 in Alamofire 4.8.x,2019-03-26,Merged,2762,1,1,,1
+[Alamofire 5]: AlamofireExtended extension point.,2019-03-27,Merged,2758,234,114,swift ,2
+Mark RequestInterceptor closure callback arguments escaping,2019-03-24,Merged,2747,121,2,,2
+Delay to adapt request,2019-03-26,Closed,2746,8,5,,1
+Prepare 5.0.0-beta.3.,2019-03-08,Merged,2741,"29,919","1,500",md lock plist ,3
+Fix crash when casting to *Response<Any>,2019-03-07,Merged,2740,0,14,,1
+Make RetryPolicy a RequestInterceptor.,2019-03-07,Merged,2739,1,1,,1
+Create version specific manifest for Swift 4.2 and update Package.swift to swift-tools-version:5.0,2019-03-07,Merged,2737,49,2,,2
+Update swiftLanguageVersions to swift-tools-version:4.2,2019-03-06,Merged,2736,1,1,,1
+Removing syntax typo in readme.md,2019-03-06,Merged,2729,1,1,,0
+Fix #2682: Cancel all requests on session invalidation or deinit.,2019-03-07,Merged,2728,190,78,,5
+Crash fix #2138,2019-03-04,Closed,2727,5,4,,2
+TYPO: Changed 'you' to 'your',2019-02-21,Merged,2725,1,1,,0
+Changed array to range,2019-03-08,Merged,2720,1,1,,1
+"Merge and cleanup append(_ fileURL, …) functions",2019-03-27,Closed,2718,9,68,,1
+Feature - Response Serializer Retry Support,2019-03-27,Merged,2716,515,134,,1
+Fix typo SessionManager.swift -> Session.swift,2019-02-11,Merged,2715,1,1,,1
+Overriding RetryPolicy Logic,2019-02-15,Merged,2713,1,5,,1
+Allow changing boundary string in upload:multipartFormData callback,2019-03-26,Closed,2705,1,1,,1
+Feature - Retry Redesign,2019-02-07,Merged,2704,"2,163",385,swift ,2
+Feature - Cached Responses,2019-02-07,Merged,2701,373,2,swift ,5
+Add info for debugDescription,2019-03-07,Merged,2700,8,0,,1
+Feature - Redirect Handlers,2019-02-07,Merged,2699,378,13,swift ,4
+fixed syntax for swift build command,2019-03-06,Closed,2697,1,1,,0
+Use the hash(into:) API for hashing.,2019-02-07,Merged,2696,2,2,,1
+🐷 Feature - Retry Policies,2019-02-07,Closed,2694,"1,228",126,swift ,6
+Feature - Interceptors Per Request,2019-02-07,Closed,2693,441,278,,1
+Simplify and refactor,2019-03-26,Closed,2691,76,148,,3
+Pulls AF 4.8.1 changes into master for AF 5,2019-01-29,Merged,2689,166,111,md ,1
+Bugfix - Network Reachability,2019-01-15,Merged,2688,141,100,,0
+Fixed the problem with Swift version detection,2019-01-20,Closed,2687,1,1,podspec ,2
+Alamofire5,2019-01-10,Closed,2686,"87,770","36,550",yml podspec pbxproj xcscheme md swift ,13
+remove PropertyListSerialization on documentation,2019-01-03,Closed,2675,0,11,,0
+Implementing protocol EmptyResponse so that an empty response value can be returned when an empty http status code is encountered,2019-03-07,Merged,2664,81,2,,3
+Implemented protocol EmptyResponse so that an empty response value ca…,2018-12-12,Closed,2662,172,1,,3
+Prepare for Alamofire 5.0.0.beta.1,2018-12-07,Merged,2660,"78,632","28,914",lock ,1
+Fix #2658: default empty response values non-public,2018-12-04,Merged,2659,27,2,,2
+Alamofire 5: Abstract decoders for decodable response serialization,2018-12-05,Merged,2657,62,49,swift ,8
+Alamofire 5: Project Cleanup and Unification,2018-12-03,Merged,2655,51,123,swift ,2
+Alamofire 5: Refactor Notifications,2018-12-03,Merged,2654,27,28,,3
+Updates for 4.8.0,2018-11-25,Merged,2648,"3,571","3,487",yml podspec pbxproj xcscheme md Gemfile ,9
+Alamofire 5: Empty Response Refactor (2nd Refactor),2018-11-24,Merged,2646,28,92,,1
+Alamofire 5: Code Coverage for Framework Schemes,2018-11-21,Merged,2645,32,0,,3
+Alamofire 5: Customizable Empty Response Handling,2018-12-01,Merged,2639,178,140,,2
+Alamofire 5: Encodable Request Parameters,2018-12-01,Merged,2637,"2,028",93,xcscheme ,4
+Feature/httpheaders,2018-10-24,Closed,2632,"6,826","7,496",swift-version yml podspec pbxproj xcscheme swift ,11
+Alamofire 5: Real HTTPHeaders type.,2018-11-26,Merged,2629,603,149,,1
+Alamofire 5: Async RequestAdapter,2018-11-22,Merged,2628,54,42,,3
+Alamofire5 signposts,2018-10-15,Closed,2626,"5,227","6,113",podspec pbxproj xcscheme md swift ,7
+Improve cURLRepresentation implementation readability,2018-11-24,Merged,2625,8,13,,1
+Add re-designed Package.swift manifest for swift 4,2018-11-24,Merged,2621,41,0,,1
+Add optional encoding completion callback queue argument for multipart form upload,2018-11-24,Merged,2620,7,4,,1
+Fix deployment target,2018-09-26,Closed,2610,1,1,,1
+Alamofire 5: Server Trust Errors,2018-11-22,Merged,2608,869,903,swift ,3
+Refactor the rewrite!,2018-09-13,Merged,2585,392,359,yml pbxproj xcscheme swift ,7
+"Merge from master on Aug 9, 2018",2018-08-09,Closed,2574,0,0,,0
+Podspec explicitly specify documentation url,2018-08-20,Merged,2569,1,0,,1
+Update the README to mention the new forum for support.,2018-07-31,Merged,2564,6,5,,0
+[WIP] AF5 Feature - Redirects Per Request,2019-02-07,Closed,2563,42,1,,2
+Prepare 4.7.3 Release,2018-07-09,Merged,2553,"1,779","1,549",yml md lock plist ,5
+Update for Xcode 10 and Swift 4.2,2018-07-09,Merged,2552,12,10,,5
+Use HTTPS links in the documentation,2018-07-07,Merged,2550,17,17,,0
+Use HTTPS links in CHANGELOG,2018-06-30,Closed,2549,2,2,,0
+Migrated to Swift 4.2,2018-07-09,Closed,2543,14,11,swift ,6
+Updated SPM installation instructions.,2018-06-07,Closed,2537,2,2,,0
+asdfsdf,2018-05-27,Closed,2532,414,2,h m swift ,6
+http status code docummentation example,2018-11-24,Closed,2525,5,0,,0
+Docummentation status response example,2018-05-21,Closed,2524,"4,730","6,147",podspec pbxproj xcscheme md swift ,6
+Docummentation added example,2018-05-21,Closed,2523,"3,520","4,791",xcscheme md swift ,3
+Docummentation changes,2018-05-21,Closed,2522,"4,726","6,147",podspec pbxproj xcscheme md swift ,6
+Alamofire 5 Core Rewrite!,2018-07-31,Merged,2521,"4,404","5,137",pbxproj xcscheme swift ,8
+Fix indentation in Usage.,2018-06-16,Merged,2505,1,1,,0
+Prepare 4.7.2.,2018-04-15,Merged,2492,168,147,md lock plist html ,22
+Fix Retrier Leaks,2018-04-15,Merged,2491,13,3,swift ,4
+Makes rethrows all methods that can be marked as rethrows,2018-11-25,Merged,2488,8,8,,1
+Fix code sytle in documentation,2018-06-16,Merged,2484,1,1,,0
+Donation Button,2018-04-08,Merged,2482,10,3,,0
+"Revert ""Updates for Xcode 9.3""",2018-04-05,Closed,2481,19,33,pbxproj plist lock swift ,6
+Update to 4.7.1.,2018-03-31,Merged,2476,937,884,md swift h plist ,41
+Escape quotes in headers when building cURLRepresentation,2018-03-31,Merged,2474,14,1,,2
+Updates for Xcode 9.3,2018-03-31,Merged,2473,33,19,pbxproj plist lock swift ,6
+Add swift_version to spec,2018-03-14,Closed,2468,1,0,,1
+Add documentation to address #2402,2018-03-20,Merged,2462,16,0,,0
+Add CodeTriage badge to alamofire/alamofire,2018-12-06,Merged,2458,5,1,,0
+Minor doc reorganization.,2018-02-26,Merged,2453,10,10,,0
+Remove pledgie.com,2018-02-21,Merged,2446,0,2,,0
+Typo in the example code - one missing (,2018-02-26,Merged,2445,2,2,,0
+Update to #2389,2018-02-18,Merged,2443,1,1,,0
+Actually Merge Brotli Support for AF5,2018-02-18,Merged,2442,157,4,,5
+Update for Swift 4.1 / Xcode 9.3.,2018-02-18,Merged,2441,61,49,yml pbxproj xcscheme lock swift ,12
+Added Module for managing soap request,2018-02-18,Closed,2433,262,119,storyboard plist swift ,8
+Add configurable parameter handling to URLEncoding.,2018-02-20,Merged,2431,155,7,swift ,2
+extend userInfo-dict of .DidComplete-Notification to contain responseData of DataTasks,2018-03-05,Merged,2427,71,1,,3
+ResultTests: Small updates and typos fix,2018-02-18,Merged,2416,3,3,,1
+Removes the old request to avoid endless growth.,2018-04-15,Closed,2412,777,933,pbxproj swift ,6
+Minor documentation update on  testing Alamofire via a command line a…,2018-02-18,Closed,2397,2,0,,0
+Update Installation guide to current version,2018-02-18,Merged,2395,2,2,,0
+requestRetrier should doesn't work immediately when the request had been canceled,2018-02-18,Closed,2394,384,66,swift ,6
+Set appropriate protection levels on NetworkReachabilityManager members,2018-02-18,Merged,2393,11,11,,1
+Clarify OS versions affected by download resume bug,2018-02-18,Merged,2389,1,1,,0
+Added Radar for URLSessionTaskMetrics Issue,2017-12-21,Merged,2387,1,0,,0
+Alamofire 5!,2018-12-07,Merged,2375,"87,770","36,550",yml podspec pbxproj xcscheme md swift ,13
+Prepare for 4.6.0 release.,2017-12-04,Merged,2374,645,"3,123",pbxproj xcscheme md plist html ,28
+Fix #session-manager link,2017-12-04,Merged,2373,5,5,,0
+Fix 'characters' is deprecated,2018-02-18,Closed,2372,6,4,swift ,2
+Requests taking Encodable parameters,2018-02-18,Closed,2370,163,4,,3
+Add Error mapping functions to Response types,2017-11-27,Merged,2361,"2,073","1,652",pbxproj ,2
+Refactor README,2017-11-27,Merged,2360,"1,642","1,646",,1
+Enable injection of FileManager,2018-03-02,Closed,2359,75,44,,7
+requestRetrier should doesn't work immediately when the request had been canceled,2017-12-09,Closed,2350,453,70,swift ,5
+Brotli Accept-Encoding Support,2018-02-18,Merged,2346,56,1,,2
+Update Ruby dependencies and Jazzy docs.,2017-11-13,Merged,2345,828,772,html ,3
+Refactor ServerTrustPolicy,2018-02-18,Merged,2344,610,683,,1
+adding test that retried request is canceled while delay,2018-08-20,Closed,2343,71,11,,1
+Add description for SPM API version 4,2017-10-30,Merged,2341,10,0,,0
+Add missing @discardableResult,2017-10-30,Merged,2338,1,0,,1
+Swift dictionary convention,2017-10-30,Merged,2329,1,1,,1
+Fix a small typo,2017-10-30,Merged,2321,1,1,,0
+Upgrade project to Swift 4.0,2017-10-10,Closed,2315,7,11,,2
+Update Travis Usage,2017-10-04,Merged,2302,927,913,yml lock html ,10
+Lock refactor,2017-09-28,Closed,2296,"1,055",760,podspec pbxproj xcscheme swift ,11
+Httpheaders,2017-09-28,Closed,2295,"1,471",861,podspec pbxproj xcscheme swift ,10
+Refactor Lock Usage,2017-12-04,Merged,2290,201,45,swift ,7
+Merge remote-tracking branch 'Alamofire/master',2017-09-17,Closed,2279,0,0,,0
+Reorganize the README.md file,2017-11-27,Closed,2271,"1,917","1,703",,0
+Alamofire 4.5.1 Release,2017-09-06,Merged,2267,154,148,podspec pbxproj xcscheme ,8
+Update Readme to current version,2017-09-06,Merged,2266,2,2,,0
+Decodable response serialization and major refactor,2017-12-04,Merged,2265,496,686,,1
+Added resolved radars section to the README and moved 26761490 into it.,2017-09-01,Merged,2263,6,1,,0
+Fix SCNetworkReachabilitySetCallback block-style,2017-08-29,Closed,2260,2,2,,1
+Fix dash download,2017-08-25,Merged,2258,1,1,,1
+Update docs with root_url to properly allow Dash downloads.,2017-08-25,Merged,2255,"1,313",186,md png html ,19
+Drop iOS 8 / macOS 10.10 support,2017-12-04,Merged,2254,101,217,pbxproj xcscheme swift ,13
+[WIP] Decodable Response Parsing,2017-09-06,Closed,2251,54,0,swift ,2
+Add Jazzy Docs,2017-08-22,Merged,2250,"84,618",2,ruby-gemset ruby-version Gemfile lock md ,5
+Added response headers to the Validation failure case of `ResponseValidationFailureReason.unacceptableStatusCode`,2017-08-22,Closed,2246,104,5,,4
+Update README.md,2017-08-22,Merged,2244,1,1,,0
+Service Unavailable support,2017-08-22,Closed,2242,446,3,swift plist ,6
+Fixed `substring` API warnings for Swift 3.2 and up,2017-08-22,Merged,2240,10,2,,3
+fix updated Requirements,2017-08-22,Merged,2212,1,1,,0
+"First Swift 4 version, fix test issue.",2017-07-22,Closed,2204,24,35,,5
+Remove Swift version checking for Xcode 9 beta 3.,2017-07-19,Merged,2198,8,20,swift ,3
+Updated podspec targets to use SWIFT_VERSION 3,2017-07-10,Closed,2197,4,0,,1
+Add PathComponents parameter encoding,2018-02-18,Closed,2192,110,0,,2
+Add an NSLock for the task delegate’s task.,2017-08-22,Merged,2190,14,3,,1
+refactored DispatchQueue extensions,2017-06-28,Closed,2186,4,4,,1
+Remove unsafe URLCredential optional fields force unwrapping,2017-08-22,Closed,2184,6,2,,1
+Add GitHub templates for issues and PRs.,2017-06-27,Merged,2179,59,10,pbxproj md ,3
+Merge pull request #1 from Alamofire/master,2017-06-21,Closed,2166,0,0,,0
+Update .swift-version,2017-06-17,Closed,2165,1,1,,1
+Add Swift 4 Support,2017-06-16,Merged,2163,145,103,xcscheme swift ,14
+201 HTTP status code added to set emptyDataStatusCodes,2017-06-15,Closed,2152,1,1,,1
+Added instructions for Xcode 9,2017-06-16,Closed,2151,4,0,,0
+"Introduces fastlane, allowing easy distribution of precompiled binary for consumption with Carthage",2017-06-16,Closed,2148,288,0,Gemfile lock fastlane/Appfile fastlane/Fastfile md rb ,10
+Add additional functional functionality to Result.,2017-06-16,Merged,2135,310,10,swift ,3
+New URLEncoding without brackets,2017-06-04,Closed,2132,10,2,,1
+avoid breaking up character sequences such as 👴🏻👮🏽,2017-06-01,Closed,2131,35,33,,1
+Add timeout argument for request function,2017-06-02,Closed,2128,16,8,,3
+Added new let constant to Request ’s timeline variable.,2017-06-04,Merged,2125,2,1,,1
+Add the execution result of example in README.md,2017-05-29,Closed,2124,188,0,,0
+fix typos using misspell,2017-05-19,Merged,2104,3,3,swift ,1
+Update Alamofire 4.0 Migration Guide.md,2017-05-19,Closed,2102,1,1,,0
+Fix super minor language error in README,2017-05-19,Merged,2095,1,1,,0
+fix a word spelling error,2017-05-01,Merged,2092,1,1,,1
+Update ResponseTests.swift,2017-06-02,Closed,2091,5,5,,1
+AFError conform to CustomNSError,2017-06-04,Closed,2088,26,0,,1
+Fix ranges in readme,2017-05-01,Merged,2081,2,2,,0
+Delete: Warning,2017-06-16,Closed,2080,7,8,,0
+Disable watchOS 3.2 tests until Travis fixes their duplicates issue.,2017-04-17,Merged,2077,1,1,,1
+enable setter of the MultipartFormData's contentType,2017-06-16,Merged,2072,1,1,,1
+Use curl -v instead of curl -i in cURLRepresentation(),2017-06-16,Merged,2070,7,7,,2
+Issue #2052 - Change reachability computation,2017-06-16,Closed,2060,38,13,,2
+Update Travis config to Xcode 8.3.,2017-04-03,Merged,2059,17,18,,1
+Fix append vs. appending in README.,2017-04-03,Closed,2058,0,0,,0
+Fix some warnings from Xcode 8.3.,2017-04-03,Merged,2057,2,2,,2
+Remove redundant optional unwrap,2017-06-16,Merged,2056,2,2,,1
+Added missing charset to JSONEncoding.encode(),2017-05-19,Closed,2047,3,3,,1
+Fixed a markdown error in the Manual install steps,2017-04-03,Closed,2043,2,2,,0
+Update custom encoding section of Readme.md,2017-04-03,Merged,2035,1,1,,0
+Fix code formatting for Embedded Framework @ README,2017-04-03,Closed,2034,2,2,,0
+Fix formatting in Manual setup in Readme,2017-04-03,Merged,2031,4,4,,0
+Fix URLProtocolTestCase failure because of wrong http header capitalization.,2017-04-03,Merged,2025,5,5,,1
+Update README.md,2017-04-03,Merged,2022,1,1,,0
+Update README.md,2017-03-17,Closed,2021,1,1,,0
+add LICENSE Link,2017-04-03,Merged,1998,1,1,,0
+Fixes bugs in examples,2017-04-03,Merged,1997,2,2,,0
+Fixes regression in documentation,2017-04-03,Merged,1995,1,1,,0
+Remove custom string extension and use standard library equivalent in its place.,2017-04-03,Merged,1994,1,42,swift ,3
+Added structure to example code block,2017-04-03,Closed,1988,2,2,,0
+"Fix README example in the ""POST Request with Parameters"" section",2017-02-26,Merged,1984,3,3,,0
+Fix outdated ServerTrustPolicy usage.,2017-02-26,Merged,1973,3,2,,0
+Return the request's state,2017-02-26,Closed,1969,28,0,,1
+Add missing `@escaping` for delegate-closures,2017-02-27,Merged,1951,6,6,,1
+"fix error of a unescaped logging for symbol ""$"" in headers",2017-02-26,Closed,1930,2,1,,1
+Fixed example code in README,2017-01-24,Merged,1927,1,1,,0
+fixed typo,2017-01-16,Closed,1919,1,1,,0
+Fixed typo in README.md,2017-01-24,Merged,1918,2,2,,0
+URLString -> URL,2017-01-16,Closed,1916,2,2,,0
+Added the dependencies key since it's now needed with SPM,2017-01-14,Merged,1905,1,0,,1
+Add README entry about installing through SPM.,2017-01-14,Merged,1898,12,0,,0
+translate README.md into Chinese,2017-01-09,Closed,1895,768,0,,0
+Remove syncResult and replace DispatchQueue.sync,2017-01-14,Merged,1893,8,14,,2
+Add request/download methods allowing query/body parameter combinations,2017-01-14,Closed,1885,65,2,,2
+Add QueryURL wrapper class and test for url/body parameter combination,2017-01-14,Closed,1883,62,0,,2
+Add the request method to debugDescription.,2017-01-14,Closed,1880,2,2,,1
+Update Readme.md,2017-01-14,Merged,1866,1,1,,0
+Feature - Opening up Default Response Initializers,2017-01-14,Merged,1865,43,3,,1
+Fix - SessionManager Retry Delay,2017-01-14,Merged,1864,11,7,,2
+Fix off-by-one error in migration guide,2016-12-19,Merged,1863,1,1,,0
+Update to Xcode 8.2's recommended settings.,2016-12-16,Merged,1854,13,7,xcscheme ,7
+update README.md to fix URLConvertible example issue,2016-12-19,Closed,1844,4,2,,0
+added extra parameter to maintain index when parameters are Array.,2016-12-16,Closed,1840,11,9,,2
+"Functional extensions for Result, DataResponse, DownloadResponse",2017-02-26,Closed,1836,768,1,swift ,2
+Added host and path to sample output in README,2016-12-09,Merged,1830,2,2,,0
+Added new server trust policy: Revocation,2017-01-16,Closed,1822,255,43,,2
+Update README.md,2016-12-19,Closed,1810,1,1,,0
+Update Alamofire 4.0 Migration Guide.md,2016-12-09,Merged,1802,3,3,,0
+Changes default in SessionManager to allow it to be overridden.,2016-11-24,Closed,1798,38,16,,1
+Updated README for RequestRetrier example,2016-11-20,Closed,1794,2,2,,0
+Fix URLRequest not always being available publicly,2016-11-20,Closed,1792,130,1,,3
+Properly handle nil Data from HEAD requests,2016-11-20,Closed,1775,191,53,,3
+Feature - Backing up Deployment Targets to iOS 8.0 and macOS 10.10,2016-11-15,Merged,1774,204,74,podspec pbxproj swift ,10
+Readme fix DataResponse,2016-11-12,Merged,1760,1,1,,0
+Use HTTP header's Host to validate if existed,2016-11-12,Closed,1744,3,3,,2
+Remove uses of internal API from Alamofire 4 Migration Guide,2016-11-12,Merged,1736,4,4,,0
+Fix Xcode 8.1 Warnings,2016-11-12,Merged,1735,14,8,xcscheme swift ,8
+Fix typo: URLSessionManagerConfiguration -> URLSessionConfiguration,2016-11-12,Merged,1734,1,1,,0
+Fix crash in TaskDelegate,2016-11-12,Merged,1723,49,20,,2
+Update README for proper error checking in download.,2016-10-25,Merged,1722,1,1,,0
+Improve embedded framework installation instructions,2016-10-25,Merged,1721,3,3,,0
+for iOS 8,2016-10-21,Closed,1716,83,74,swift ,6
+"Empty bodies for GET, HEAD and DELETE methods.",2016-11-12,Closed,1691,175,161,,1
+Feature - Throwing Adapt Error Calls Retrier,2016-11-12,Merged,1682,269,57,,4
+Added Request retryCount property to support RequestRetrier,2016-10-10,Merged,1681,10,3,,3
+Update Alamofire 4.0 Migration Guide.md,2016-10-05,Merged,1670,1,1,,0
+Updated podspec targets to use SWIFT_VERSION 3,2016-10-01,Closed,1646,4,0,,1
+Replace the automatically generated @objc by Xcode,2016-09-30,Closed,1645,5,10,,2
+fixed typo,2016-10-01,Merged,1633,1,1,,0
+Fix Session Manager Configuration's broken links in README,2016-09-28,Merged,1625,4,4,,0
+Fix response validation sample code,2016-09-25,Merged,1615,1,1,,0
+Fix Response Data handler sample code,2016-09-25,Merged,1612,1,1,,0
+Fix typos,2016-09-24,Merged,1606,2,2,,0
+import Foundation for using TimeInterval,2016-09-24,Merged,1603,1,0,,1
+Fixed calling second request after server return 401,2016-09-24,Closed,1601,2,0,,1
+Update README.md,2016-09-24,Merged,1599,1,1,,0
+Read me updates i os8,2016-09-22,Closed,1595,19,243,pbxproj md swift ,7
+"Fix ""enhancements"" typo in line 456",2016-09-22,Merged,1590,1,1,,0
+Fix typo in AFError,2016-09-19,Merged,1558,3,3,,1
+add .swift-version file,2016-09-14,Closed,1538,1,0,,1
+Reactivate pod lib lint in travis build,2016-09-15,Merged,1534,4,4,yml ,2
+Forgot parameter in example,2016-09-15,Merged,1532,1,1,,0
+Specific Swift Version to 2.3 to support XCode 8,2016-09-15,Closed,1523,2,0,,1
+Rename OS X to macOS,2016-09-24,Merged,1520,44,44,pbxproj xcscheme md swift ,9
+Fix minor typo in readme,2016-09-12,Merged,1515,1,1,,0
+Fix typo in migration guide,2016-09-12,Merged,1510,1,1,,0
+Feature - URLRequest Creation Safety,2016-09-11,Merged,1505,792,400,md ,1
+"Update README for typos, better Error examples, and whitespace.",2016-09-10,Merged,1504,64,61,,0
+[Docs] Remove duplicated change log in migration guide,2016-09-10,Merged,1503,0,1,,0
+Fix filename comment in TaskDelegate header,2016-09-10,Merged,1501,1,1,,1
+Feature - Task Metrics,2016-09-09,Merged,1492,277,116,,4
+Removed URLStringConvertible conformance on URLRequest,2016-09-09,Merged,1491,18,23,,8
+Make completion of RequestRetrier escaping,2016-09-09,Merged,1489,1,1,,1
+better update for request,2016-09-09,Closed,1488,78,51,,7
+Made closure parameters escape where applicable,2016-09-08,Closed,1469,8,8,,2
+Feature - Parameter Encoding Protocol,2016-09-08,Merged,1465,920,595,,2
+Feature - Parameter Encoding Safety,2016-09-08,Closed,1464,599,439,,5
+"Feature - Destinations Closures, Download Options and Top-Level APIs",2016-09-06,Merged,1462,483,295,,4
+Feature - Robust Validation,2016-09-06,Merged,1461,864,294,,2
+Fixing NSNumber vs Bool type issue.,2016-09-10,Closed,1460,1,1,,1
+Feature - Response Serializers per Subclass,2016-09-06,Merged,1457,"2,125",956,swift ,4
+Refactor User-Agent,2016-09-06,Closed,1456,66,1,swift ,2
+Feature - Request Subclasses and New Progress APIs,2016-09-06,Merged,1455,816,596,,3
+Podspec config to build target with Swift3,2016-09-05,Closed,1453,2,0,,1
+Feature - Request Adapter and Retrier System,2016-09-06,Merged,1450,659,61,md swift ,3
+Swift3,2016-08-29,Closed,1437,"6,369","5,290",podspec pbxproj xcscheme md swift ,9
+Make compatible with both Xcode 7 and 8 and Swift 2.2/2.3.,2016-08-24,Closed,1424,53,12,swift ,5
+User-Agent header using build number instead of version number,2016-08-29,Closed,1420,1,1,,1
+New Error Handling,2016-08-29,Merged,1419,972,541,swift ,3
+Update for Xcode 8 beta 6,2016-08-17,Merged,1413,257,251,swift ,8
+Xcode 8 Beta 6 compatibility,2016-08-17,Closed,1412,238,181,pbxproj swift md ,11
+Swift3,2016-08-14,Closed,1402,"5,367","5,596",pbxproj xcscheme swift ,10
+"Update podspec to 4.0.0, update deployment targets.",2016-08-14,Merged,1401,5,5,swift ,2
+Swift3,2016-08-11,Closed,1399,"5,364","5,593",xcscheme swift ,9
+Update MultipartFormData.swift - fix parameter: withN -> withName,2016-08-16,Merged,1395,1,1,,1
+Swift 3 compliance,2016-08-11,Closed,1392,341,195,xcscheme md swift ,4
+Feature - Moving SessionDelegate to Store Requests,2016-08-11,Merged,1391,40,35,,5
+Update to handle optional return from SecPolicyCreateSSL in Xcode 8.0 beta 4,2016-08-11,Closed,1390,9,3,,1
+Feature - Moving SessionDelegate to Store Requests,2016-08-10,Closed,1386,40,35,,5
+Refactored All APIs for Swift 3,2016-08-10,Merged,1385,"3,571","3,815",swift ,4
+Updates for Xcode beta seed 4,2016-08-02,Closed,1378,58,52,,18
+"fix a swift bug,which make the request error",2016-07-31,Closed,1375,10,1,,1
+"Update swift3 conditions for ""if let""",2016-07-27,Closed,1368,18,18,,6
+Swift3,2016-07-22,Closed,1363,"2,186","2,180",xcscheme swift ,8
+Update for Xcode 8 beta 3.,2016-07-19,Closed,1352,289,313,swift ,8
+Resolving Swift 3 errors (Xcode 8 Beta compatibility),2016-07-10,Closed,1341,63,58,pbxproj ,9
+Resolving swift3 errors,2016-07-09,Closed,1340,"2,095","2,058",xcscheme swift ,8
+Fix for Compile Errors with Beta 2.,2016-07-10,Closed,1339,3,3,,1
+Fix for Compile Errors with Beta 2.,2016-07-07,Closed,1338,3,3,,1
+hold the original NSMutableURLRequest's allHTTPHeaderField and cacheP…,2016-07-25,Closed,1330,2,1,,1
+make the previousFlags variable be optional with initial value: nil a…,2016-07-02,Closed,1328,1,3,,1
+Swift3,2016-06-30,Closed,1326,"2,061","2,035",swift ,2
+Swift lint parsing,2016-07-24,Closed,1322,151,224,,2
+JSON parameters shouldn't be expected to be in a particular order,2016-07-24,Closed,1318,4,6,,1
+Use set operations to check for matching certificates and keys,2016-06-19,Closed,1317,6,17,,1
+Add 'public' to enum 'BackendError',2016-07-24,Closed,1315,1,1,,0
+[wip] Swift 2.3 Compatibility,2016-07-25,Closed,1313,35,33,swift ,9
+Fix - Network Reachability IPv6 Support,2016-06-13,Merged,1308,22,27,,2
+Add indexing to queryComponents with Array as value,2016-06-12,Closed,1305,5,4,,2
+[1269] Update generation of the OS version part of the user agent to use non-localized sources.,2016-06-12,Merged,1292,24,7,,1
+Update README.md,2016-06-04,Merged,1288,3,1,,0
+Update README to reflect error best practices.,2016-06-12,Merged,1273,31,23,,0
+Made non-deprecated functions public in Error.swift :),2016-06-12,Closed,1272,2,2,,1
+1 > 0,2016-06-12,Closed,1267,1,1,,0
+Test call of session:didReceiveChallenge in background session,2016-09-13,Closed,1263,39,0,,1
+Fix - String Interpolation Leaks,2016-06-12,Merged,1262,28,14,swift ,1
+Feature - Custom Errors,2016-05-23,Closed,1261,21,5,swift ,1
+Update README.md - remove deprecated functions,2016-06-12,Closed,1258,6,3,,0
+Update 'Generic Response Object Serialization' section on README by using protocol extension,2016-06-12,Closed,1257,16,14,,0
+Convert URL date parameters to ISO8601 format,2016-06-12,Closed,1248,13,2,,1
+Fix typo.,2016-05-11,Merged,1233,1,1,,1
+Define some notifications name as Enum,2016-05-08,Closed,1230,12,10,,3
+README: remove content-type header field in GET request,2016-05-08,Closed,1229,1,2,,0
+Adjust the order,2016-05-08,Closed,1226,2,2,,1
+Using `stringByAddingPercentEncodingWithAllowedCharacters()` to promi…,2016-05-08,Closed,1223,2,2,,1
+Some quick fixes,2016-05-03,Closed,1221,12,5,swift md ,2
+Updated character,2016-05-08,Closed,1218,1,1,,1
+This is a Travis test,2016-04-29,Closed,1215,2,0,,0
+Set indentation settings to four spaces at the project level,2016-04-19,Merged,1188,6,0,,2
+Add `basicAuthenticationHeader` function,2016-05-08,Closed,1187,41,0,,2
+Fixes Request.debugPrint to coalesce headers,2016-05-08,Closed,1186,47,6,,2
+Add missing parameter for failing test in URLProtocolTests,2016-04-19,Closed,1185,2,1,,1
+Fixed minor typos in README,2016-04-10,Merged,1174,2,2,,0
+Feature - Non-Final SessionDelegate,2016-04-12,Merged,1172,71,3,swift ,1
+Better errors,2016-04-10,Closed,1166,34,30,,5
+Requests with invalid credentials should terminate with a 401 code,2016-04-10,Merged,1164,7,13,,2
+Allow default delegation controlled via property on SessionDelegate,2016-04-09,Closed,1161,58,18,,1
+Allow default delegation controlled via property on SessionDelegate,2016-03-28,Closed,1144,58,18,,1
+Fixed redirect with completion property not being called,2016-04-03,Merged,1141,167,18,,2
+Fixed Swift 2.2 compiler warnings,2016-03-23,Closed,1132,14,12,,2
+Update Alamofire to Swift 2.2 (including test project),2016-03-23,Closed,1128,28,18,swift ,4
+Stream Usage,2016-03-19,Merged,1121,0,6,,1
+ability to specify queue on which the serializer will be dispatched,2016-03-19,Closed,1120,25,10,,1
+Bugfix - Kill simulator before running tests,2016-03-14,Closed,1116,6,2,,1
+Feature - Result.ResultType conformance,2016-03-19,Closed,1115,28,0,,1
+Bugfix - Reachability Issue,2016-03-19,Closed,1113,4,4,,1
+Adding the possibility to receive the callback to a different queue for all responses,2016-03-19,Merged,1112,15,5,,1
+Feature - Retry Support,2016-03-19,Closed,1109,152,17,swift ,6
+Fixed unmatching Serializer with testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON,2016-03-19,Merged,1108,1,1,,1
+Feature - Override Closures with Completion,2016-03-19,Merged,1099,60,7,,1
+Replace ++ with +=,2016-03-06,Closed,1092,1,1,,1
+Fix - Retaining Custom Content Types,2016-02-27,Merged,1088,41,2,,2
+Minor spelling correction in readme,2016-02-27,Merged,1087,1,1,,0
+codebeat badge,2016-02-27,Closed,1085,1,0,,0
+moved a guarded variable to a specific use case for that var,2016-02-27,Closed,1081,3,3,,1
+Fixed build warnings in Xcode 7.3 beta 2 for Swift 2.2,2016-02-27,Closed,1079,3,3,,3
+Add codebeat badge,2016-02-27,Closed,1078,1,1,,0
+tag 3.2.0 with ios7 workaround,2016-02-17,Closed,1066,14,2,,3
+"Simplify project setup, reduce number of framework and test targets",2016-03-06,Closed,1064,150,"1,401",,1
+Correct the spelling of CocoaPods in README,2016-02-11,Merged,1060,1,1,,0
+Feature - Request Timelines,2016-02-07,Merged,1054,190,15,md swift ,7
+Feature - Network Reachability Manager,2016-02-08,Merged,1053,529,46,pbxproj md swift ,3
+Removed var function parameter in ResponseSerialization to build unde…,2016-02-08,Closed,1050,7,5,,1
+Fixed a typo in README.,2016-02-04,Merged,1033,1,1,,0
+Fixed build warnings in Xcode 7.3 beta 2 for Swift 2.2,2016-02-08,Closed,1030,3,3,,3
+Fix Broken CocoaDocs Generation,2016-02-07,Merged,1027,150,76,,2
+Added a completionQueue to the manager class.,2016-02-04,Closed,1013,62,13,,7
+Add @warn_unused_result attribute,2016-02-04,Closed,1008,26,1,,10
+merge,2016-01-12,Closed,1003,0,0,,0
+Swift 2.0,2016-01-12,Closed,1002,112,17,json ,9
+experimental implementation of Request.retry(count),2016-02-07,Closed,993,56,18,,3
+merge,2016-01-05,Closed,992,0,0,,0
+update,2016-01-05,Closed,991,0,0,,0
+Support the Custom encoding without parameters,2016-01-03,Closed,984,43,9,,2
+Fix the crash problem in debugDescription,2016-01-03,Closed,983,21,7,,2
+Use functional approach to generate acceptLanguage,2016-01-03,Closed,982,3,12,,1
+Background session enhancements,2016-02-08,Closed,981,677,79,,3
+Add support for Swift Package Manager (SPM),2016-01-03,Merged,979,9,0,swift ,2
+add function upload args URLRequest only.,2015-12-24,Closed,974,36,1,,2
+Please review the guidelines for contributing to this repository.,2015-12-21,Closed,972,0,0,,0
+"Merge URL and URLEncodedInURL into URL(URLEncodedInURL, squareBrackets)",2015-12-19,Closed,966,36,45,swift ,7
+Merge remote-tracking branch 'Alamofire/master' into swift-2.0,2015-12-17,Closed,963,0,0,,0
+Merge pull request #1 from Alamofire/master,2015-12-16,Closed,962,0,0,,0
+Anti typical,2015-12-15,Closed,961,640,444,yml podspec pbxproj xcworkspacedata json Podfile lock ,10
+Anti typical,2015-12-15,Closed,960,640,444,yml podspec pbxproj xcworkspacedata json Podfile lock ,10
+Add AlamofireObjectMapper to README,2015-12-16,Closed,959,4,0,,0
+Add optional queue: argument to responseJSON,2015-12-16,Closed,958,3,1,,1
+"Update certificatesInBundle - addl. extensions, case sensitivity",2015-12-11,Closed,956,110,1,swift cer crt der ,10
+Update README.md,2015-12-10,Merged,955,1,1,,0
+'URL' ParameterEncoding handles empty parameter dictionary,2015-12-11,Merged,954,12,1,,2
+Disable testability for release config and disable tests for non-test builds.,2015-12-16,Merged,953,10,10,xcscheme ,4
+Add TLS MinimumVersion to NSAppTransportSecurity,2015-12-11,Closed,952,3,0,,0
+change escape method,2015-12-10,Closed,949,2,2,,1
+Create README.md,2015-12-01,Closed,943,5,0,,0
+Sets UIRequiredDeviceCapabilities for tvOS target,2015-11-16,Merged,913,36,2,plist ,2
+Replace http to https on README,2015-11-10,Merged,912,35,35,,0
+Added robustness to TLSEvaluationTests in timeout case,2015-11-06,Merged,904,28,28,,1
+Don't code sign for iOS simulator SDK builds,2015-11-01,Closed,903,2,0,,1
+Update deprecated playground function,2015-10-31,Closed,898,1,1,,1
+"Drop mention of rdar://22307360, Xcode 7.1 is out",2015-10-26,Merged,891,0,3,,0
+Feature - Content Type Validation on Empty Data,2015-10-31,Merged,890,23,0,,2
+Feature - Added 204 Support to Response Serializers,2015-10-31,Merged,889,183,11,,2
+replace unnecessary usage of NSString with String,2015-10-25,Merged,885,3,3,,3
+Use antitypical/Result instead of custom Result of Alamofire,2015-10-15,Closed,863,497,26,yml podspec pbxproj xcworkspacedata Podfile lock md swift ,15
+Making boundary changeable,2015-10-18,Closed,861,1,1,,1
+Updated description and instructions for Carthage,2015-10-07,Merged,843,3,1,,0
+update .responseJSON ex in readme,2015-10-01,Closed,829,5,6,,0
+Update README.md,2015-10-03,Closed,827,4,6,,0
+Update Alamofire 3.0 Migration Guide.md,2015-09-30,Merged,826,1,1,,0
+Import MobileCoreServices for tvOS,2015-09-26,Closed,812,1,1,,1
+Updated README.md,2015-09-26,Closed,810,1,1,,0
+Feature - Manager Initialization,2015-09-22,Merged,795,154,6,,2
+Feature - Response Generic Type,2015-09-22,Merged,792,295,250,swift ,5
+Feature - Double Generic Result Type,2015-09-22,Merged,791,379,342,,5
+changed linking compatibility version to 2,2015-09-19,Closed,783,2,2,,1
+Fix iOS target by moving dependency to test bundle,2015-09-18,Merged,780,2,2,,1
+Enabled APPLICATION_EXTENSION_API_ONLY in tvOS framework target.,2015-09-15,Merged,771,4,0,,1
+tvOS support,2015-09-15,Closed,767,438,6,xcscheme swift ,7
+Implemented tvOS framework.,2015-09-15,Closed,765,220,6,pbxproj xcscheme swift ,7
+Added tvos support,2015-09-12,Closed,760,3,2,swift ,2
+Update installation via Carthage instructions on README,2015-09-11,Merged,759,1,1,,0
+Fix link to the 2.0 upgrade guide in the README,2015-09-10,Merged,750,1,1,,0
+Add compatibility checks for pre-iOS 8.,2015-09-08,Closed,748,4,4,,2
+Alamofire/swift 2.0,2015-09-08,Closed,746,"4,740","1,521",swift podspec pbxproj xcscheme xcworkspacedata ,8
+Create swift2.0,2015-09-08,Closed,745,1,0,,1
+Added `URLEncodedInURL` case to Parameter Encoding,2015-09-09,Merged,742,48,17,,2
+Factored out cURLRepresentation() as NSURLRequest extension,2015-09-06,Closed,741,28,25,,1
+Adds `removeJSONKeysWithNullValues`,2015-09-06,Closed,737,43,2,,4
+Swift 2.0,2015-09-03,Closed,735,"4,121","1,498",swift podspec pbxproj xcscheme xcworkspacedata ,8
+CJK characters are broken.,2015-09-06,Closed,731,1,1,,1
+Updated playground,2015-09-06,Closed,726,2,2,,1
+Update README.md,2015-09-06,Merged,724,1,1,,0
+Documentation update for ServerTrustPolicyManager,2015-09-06,Closed,718,15,0,,0
+Update ResponseSerialization.swift,2015-08-28,Merged,716,7,5,,1
+Augmented #availability checks to include iOS,2015-08-27,Closed,714,2,2,,2
+fixes for xcode7 beta 6,2015-08-25,Merged,707,9,9,,6
+beta 6 fix: replaced join with joinWithSeparator,2015-08-25,Closed,706,4,4,,3
+@jriehn more flexible server trust policy via public method,2015-08-21,Closed,696,1,1,,1
+Use custom parameter encoding even if `parameters` == nil,2015-08-17,Closed,687,5,0,,1
+Fixed error when project iOS Deployment Target is 7.0,2015-08-13,Closed,686,2,2,,2
+updated iOS availability conditions,2015-08-10,Closed,667,2,2,,2
+updated example,2015-08-10,Closed,665,10,2,plist ,2
+Test - No Content Type Wildcard Validation,2015-08-11,Merged,662,79,1,,1
+Feature - Custom Result Initializers,2015-08-10,Closed,661,43,0,,2
+Feature - Opening up ParameterEncoding,2015-08-11,Merged,660,15,7,,1
+Feature - Stream Task Support,2015-08-11,Merged,659,195,0,swift ,3
+Swift 2-Style try/catch unwrapping for Result,2015-08-08,Closed,658,37,0,,2
+Fixes compile issues and some test problems.,2015-08-08,Closed,657,31,23,,6
+Swift 2.0,2015-08-06,Closed,651,"2,259","1,311",swift podspec pbxproj xcscheme ,8
+Support Xcode 7 beta 5,2015-08-06,Closed,650,26,25,,6
+Feature - README Updates,2015-08-06,Merged,648,167,76,,0
+Fix import for watchOS,2015-08-04,Closed,644,1,1,,1
+fixed example project and using responseString with old syntax,2015-08-04,Merged,639,2,2,,1
+Result enum conform to BooleanType protocol,2015-08-04,Closed,638,3,8,,1
+Result bool type,2015-08-02,Closed,637,"2,254","1,303",swift podspec pbxproj xcscheme plist ,9
+allow embedding of source files to iOS 7 targeted apps,2015-08-02,Closed,635,1,1,,1
+Correct compile swift 2,2015-07-31,Closed,633,10,10,,1
+Swift 2.0,2015-07-31,Closed,632,"2,259","1,303",swift podspec pbxproj xcscheme plist ,9
+Feature - Results and Validation Error Handling,2015-07-31,Merged,627,551,128,swift ,4
+Workaround for Swift compiler crash in ServerTrustPolicy,2015-07-28,Closed,621,2,1,,1
+Fix for #610,2015-07-27,Closed,620,"1,750","1,224",swift podspec pbxproj xcscheme plist ,9
+Add note for changes to encoding in 1.3.0 to Change Log,2015-07-28,Closed,619,1,0,,0
+Target for watchOS 2 added,2015-08-07,Closed,616,247,8,xcscheme plist md h swift ,6
+Swift 2.0,2015-07-28,Closed,614,43,37,swift ,4
+Full screen for iPhone5s+,2015-07-27,Merged,612,2,0,,1
+Fix for non-converted Unmanaged<...> usages for Swift 2.0 branch,2015-07-27,Closed,609,11,11,,1
+fixed README demo code symbol error,2015-07-24,Merged,605,1,1,,0
+fixed cURLRepresenation,2015-07-20,Closed,602,1,1,,1
+Potential Fix for Wildcard Accept Type Failing Validation,2015-07-21,Merged,598,6,0,,1
+Brings 2.0 Branch Up To Speed,2015-07-19,Closed,597,"2,847",318,pbxproj swift ,3
+Feature - MultipartFormData Modifications,2015-07-24,Merged,596,201,97,,1
+Feature - Download Resume Data,2015-07-24,Merged,595,144,7,,3
+Feature - Response Serializer Generics,2015-07-24,Merged,593,153,95,,6
+Feature - Opening Up Request,2015-07-24,Merged,590,69,25,,3
+Feature - Custom Header Support,2015-07-16,Merged,586,248,38,,5
+Feature - TLS Evaluation through Server Trust Policy,2015-07-24,Merged,581,"2,388",30,md swift ,4
+Add download request sample.,2015-07-24,Closed,579,51,15,swift ,3
+Removed unnecessary declaration. No functional changes.,2015-07-11,Merged,576,1,1,,1
+Add support for watchOS in the podspec,2015-07-26,Closed,574,1,0,,1
+Multipart upload: support to upload non-file data like JSON string from the form input,2015-07-14,Closed,569,30,0,,1
+[Travis] Switch to Xcode 6.4,2015-07-09,Closed,568,5,4,,1
+Execute the taskDidComplete closure in addition to the default implementation,2015-07-07,Closed,558,2,3,,1
+[Refactoring] Replace many of force unwrapping usages with optional binding and where clause,2015-07-10,Merged,557,64,66,,6
+Lint full podspec on travis CI,2015-06-22,Merged,542,2,2,,1
+Update README.md,2015-06-22,Merged,541,1,1,,0
+Feature - MultipartFormData,2015-07-07,Merged,539,"2,243",7,md swift ,2
+Validation returns an NSError? too,2015-06-22,Closed,534,52,6,,2
+Add responseCollection example to README,2015-06-18,Closed,532,7,0,,0
+Updated to Swift 2.0 Changes,2015-06-15,Merged,530,5,4,,1
+"I want to resolve #528, suggestions are welcome",2015-06-16,Closed,529,78,9,,2
+fixing a missing #available flag (needed for iOS 7.0 targets..),2015-06-13,Closed,525,1,1,,1
+"Setting right availability guard for iOS, fixing build for Xcode 7",2015-06-11,Closed,523,1,1,,1
+add link to Carthage in README,2015-06-11,Merged,520,1,1,,0
+Fix for Swift 2. Though there are two places I didn't fix.,2015-06-10,Closed,518,379,307,swift ,7
+Only set cookies in debugPrintable when relevant,2015-06-12,Closed,516,40,6,,2
+Added .stream callback to receive streaming data responses,2015-06-13,Closed,512,103,3,,2
+Added more robust redirect tests and migrated to httpbin,2015-06-03,Merged,507,128,17,,1
+Re-enabled Travis-CI,2015-06-02,Merged,506,16,12,md ,1
+Tests all implemented cache policies against common Cache-Control headers,2015-06-06,Merged,505,327,0,swift ,2
+Added parameter encoding characters along with additional documentation,2015-06-03,Merged,504,113,14,swift ,2
+Updated typo in API Paramater Abstraction in README (#497),2015-06-01,Closed,500,1,1,,0
+"Created more robust data, upload and download progress tests",2015-05-29,Merged,494,214,62,,3
+Switch test suite to use Given | When | Then structure,2015-05-18,Merged,489,913,426,swift ,3
+Alamofire Activity Indicator,2015-05-17,Closed,488,61,5,swift ,4
+Testing NSURLSessionDataTask download progress,2015-05-20,Closed,483,67,1,,1
+Fix test in case of respone is nil,2015-05-14,Closed,480,4,2,,1
+Update README.md to match with pull request #471.,2015-05-14,Closed,479,2,2,,0
+Replace return from NSURLRequest type to NSMutableURLRequest in encode function,2015-07-10,Closed,478,4,4,,2
+Bumped version to 1.2.2 and updated CHANGELOG,2015-05-13,Merged,477,70,3,md plist ,2
+Now working with special characters åäö,2015-05-10,Closed,474,1,1,,1
+Split Project into Multiple Swift Files,2015-05-11,Merged,471,"1,714","1,461",,1
+Redirect test,2015-05-06,Closed,470,4,5,,1
+allow nil for prevent redirection,2015-05-04,Merged,469,1,1,,1
+Add option for session delegate customisation,2015-05-01,Closed,463,4,3,,1
+Merging Alamofire into our project,2015-04-28,Closed,458,3,0,pbxproj ,2
+Updated the delegate closures and docs to match their method signatures,2015-05-02,Merged,456,22,22,,2
+Fixed some inaccurate docs on a few of the public delegate closures,2015-04-26,Closed,455,3,3,,1
+Add Carthage/Build folder into .gitignore,2015-05-03,Merged,451,4,0,,1
+Fix comment,2015-04-23,Merged,448,1,1,,1
+"Change iOS deployment target to 8.0 - related to issues #352, #375, #401...",2015-04-10,Closed,426,2,2,,1
+[Tests] Added redirect sessiondelegate tests,2015-04-21,Merged,424,59,0,,1
+Swift 1.2,2015-04-09,Closed,423,131,187,swift ,8
+Move expectation.fulfill() to end of blocks,2015-04-08,Merged,420,55,53,,6
+"Updated iOS deployment target to 8.0, fixed ambiguous responseString err...",2015-04-09,Closed,418,4,2,swift ,2
+Add change log file.,2015-05-11,Closed,417,387,0,,0
+Fix minor grammatical error,2015-04-09,Merged,416,1,1,,0
+[travis] Use Xcode 6.2,2015-04-06,Closed,415,1,1,,1
+Fix typo in download test,2015-04-09,Merged,413,1,1,,1
+Fix minor grammatical error,2015-04-06,Closed,412,1,1,,0
+Removed ambiguous response serializer methods that collide with default parameters,2015-04-09,Merged,408,0,22,,1
+Fixed compilation error for Xcode 6.3 beta 4,2015-04-01,Closed,406,2,2,,1
+Remove optional type from Request.progress property.,2015-04-09,Merged,404,1,1,,1
+Privatize NSURLSession & NSURLSessionTask objects.,2015-03-26,Closed,403,11,5,,3
+added certificate pinning,2015-04-10,Closed,402,21,1,,1
+Switched iOS deployment target to iOS 8.0 for iOS target and tests,2015-03-26,Merged,401,4,0,,1
+Updated the code signing identities for the frameworks and targets,2015-03-26,Merged,400,8,0,,1
+Use system provided SSL validation until proper customization is implemented,2015-04-21,Merged,394,6,6,,1
+Update OS X target build settings,2015-05-03,Closed,390,4,2,,1
+"Water the swift1.2 branch, get example compiling again",2015-04-10,Closed,387,22,12,swift md ,2
+Update README.md,2015-03-13,Merged,381,1,1,,0
+[README] CocoaPods 0.36 is no longer in beta,2015-03-11,Merged,380,3,2,,0
+Bug fix for deinit race condition on task delegate queue,2015-05-04,Merged,379,34,11,,2
+Update readme - fix cocoapods file example.,2015-03-13,Closed,376,3,1,,0
+Change iOS deployment target to 8.0 to fix the issue #352,2015-03-27,Closed,375,2,2,,1
+Set deployment target to iOS8,2015-03-06,Closed,371,4,2,,1
+fix escaping query parameters / and ? are valid characters in the query parameters,2015-03-26,Closed,370,8,7,,2
+fix escaping query parameters,2015-03-04,Closed,369,7,8,,2
+同步作者,2015-03-03,Closed,364,35,110,md swift ,4
+Fixed Xcode 6.3 Beta2 complaining about explicit call to 'self',2015-02-25,Closed,362,1,1,,1
+Resolves explicit self requirement in Swift 1.2,2015-02-25,Closed,361,1,1,,1
+Fix for compiling with Xcode 6.3b2,2015-02-27,Closed,360,1,1,,1
+[String Response] Respect remote server's content encoding,2015-04-09,Closed,359,8,19,,2
+Fix issues as of Xcode 6.3b2,2015-02-27,Closed,357,5,5,,2
+TLS Key/Certificate pinning,2015-07-13,Closed,356,449,0,swift cer ,4
+Fix Swift 1.2 ambiguity error in responseString.,2015-04-10,Closed,353,2,2,,1
+Travis updates,2015-02-27,Merged,351,8,3,,1
+Public SessionDelegate + initial redirect support,2015-04-09,Closed,350,81,22,,2
+Explicitly set iOS deployment target to 7.0,2015-02-15,Closed,346,1,0,,1
+Fixed compilation errors when using Swift 1.2,2015-02-14,Closed,338,79,90,,1
+Set IPHONEOS_DEPLOYMENT_TARGET to 8.0,2015-02-09,Closed,335,2,2,,1
+Convenience upload functions in Manager,2015-02-15,Merged,334,45,0,,1
+Added UIImageView and UIButton extension to support async images download,2015-02-09,Closed,333,429,0,,0
+Convert Alamofire to a universal framework,2015-02-09,Merged,326,254,497,pbxproj xcscheme xcconfig ,7
+Carthage support + Fix CI failure,2015-01-30,Merged,322,307,1,xcscheme ,4
+Share framework build schemes for carthage support,2015-01-30,Closed,321,220,0,,2
+Fixed testDownloadRequest crash in offline mode. Refactored DownloadTests.,2015-01-31,Closed,320,110,68,,1
+Use defined type for clojure 'destination' in download functions,2015-01-29,Merged,318,2,2,,1
+Support for Background Sessions as well as SessionDelegate override closures,2015-04-09,Merged,317,102,49,,1
+Update README.md,2015-01-25,Merged,313,1,1,,0
+allow using custom dispatch queue for response serializers,2015-01-18,Closed,308,9,6,,1
+Add test target that runs tests on OS X,2015-01-29,Closed,302,200,149,pbxproj xcscheme ,4
+Fixed ios deployment target (reflecting the README),2015-01-13,Closed,298,1,1,,1
+Added UIImageView extension to support remote and placeholder images,2015-05-03,Closed,294,198,0,swift ,2
+Add OS X target for Carthage,2015-01-09,Merged,293,198,14,xcscheme ,3
+Re-indent the :param: comment of responseString,2015-01-09,Merged,291,1,1,,1
+Created an image response serializer,2015-05-03,Closed,290,231,0,,2
+bump podspec to 1.1.3,2015-01-13,Closed,287,2,2,,1
+Fixes #239,2015-01-04,Closed,284,1,1,,0
+Enable travis-ci for testing,2015-01-13,Merged,279,207,0,xcscheme md ,3
+Change internal progress state before calling delegates,2015-01-04,Merged,278,7,9,,1
+Add podspec file,2014-12-29,Closed,276,15,0,,1
+Make download file destination optional,2014-12-26,Closed,274,12,11,,1
+Make extension friendly,2014-12-21,Merged,273,2,0,,1
+Added failing test for releasing a manager with a pending request,2014-12-22,Closed,269,12,1,,1
+Merge pull request #1 from Alamofire/master,2014-12-19,Closed,267,0,0,,0
+Extracted default HTTP header creation into a public class method,2014-12-21,Merged,261,47,40,,1
+Fixed Xcode error from documentation example,2015-01-04,Merged,258,1,1,,0
+Fixed issue where directory and domain parameters were ignored.,2014-12-14,Merged,257,1,1,,1
+Update README.md,2014-12-23,Closed,255,3,3,,0
+Added hanlding of valid NSData object with 0 bytes for serializers,2014-12-22,Merged,254,2,2,,1
+Add --compressed to curl flags to match default Accept header,2014-12-21,Closed,252,9,9,,2
+Allow to send array parameters without square brackets,2014-12-04,Closed,251,11,7,,1
+Add support for empty responses to JSONResponseSerializer,2014-12-04,Closed,250,25,7,,3
+Compose percent-encoded query from percent-encoded components,2014-12-04,Merged,249,21,1,,2
+Update README.md,2014-12-01,Merged,247,1,1,,0
+Update Alamofire.swift,2014-12-01,Closed,246,3,2,,1
+fix DownloadTests.swift eror,2014-11-30,Closed,244,1,1,,1
+Fix stream not set,2014-11-29,Closed,241,2,1,,1
+Add OSX build target,2014-11-26,Closed,238,378,0,h ,2
+Carthage support,2015-01-04,Merged,228,110,0,,1
+More descriptive errors for validation failures,2014-11-29,Closed,219,21,9,,3
+Podspec,2015-01-04,Merged,218,15,0,,1
+Adds a queue options to run response processing in other queue,2014-11-14,Closed,215,6,6,,1
+Update README.md,2014-11-13,Closed,213,1,1,,0
+OS X target support,2015-01-04,Closed,212,263,21,,1
+OS X target support with AlamofireOSX.framework product.,2014-11-06,Closed,211,284,15,h ,2
+OS X target support.,2014-11-06,Closed,210,284,15,h ,2
+[README] Annotate cURL example so it gets syntax highlighting,2014-11-13,Merged,208,1,1,,0
+[Issue #141] Allow obtaining of resume data,2015-05-05,Closed,190,23,1,,2
+Update README.md,2014-10-21,Merged,187,2,2,,0
+Fixes for Xcode 6.1,2014-10-20,Closed,184,42,39,,7
+"Support for Xcode 6.1, fix tests cases errors, Merge changes from master branch",2014-10-20,Closed,182,43,42,swift ,6
+Allow Request to be initialized externally,2014-10-16,Closed,180,1,1,,1
+Fix curl command output,2014-10-20,Merged,178,5,3,,1
+Xcode 6.1,2014-10-15,Closed,177,55,49,,7
+Queue-based synchronization of subdelegates getter,2014-10-20,Closed,175,6,2,,1
+XCode 6.1 GM2 fixes,2014-10-13,Merged,174,7,6,,3
+Resolving pending response handler bug,2014-10-13,Merged,171,8,6,,1
+added Target Dependencies in Readme instead of Link Binary,2014-10-13,Merged,168,1,1,,0
+Added + to the list of parameter encoded values,2014-10-20,Merged,167,8,1,,2
+Ignore .DS_Store,2014-10-09,Closed,160,2,0,,1
+Removing an unused 'priority' parameter,2014-10-09,Merged,159,1,2,,1
+fixes bug with HTTPbody parameters being encoded twice,2014-10-07,Merged,153,1,1,,1
+Handle empty array when encoding URL parameters,2014-10-10,Closed,145,36,2,,2
+Xcode 6.1 GM fixes,2014-10-05,Merged,143,6,6,,2
+Changed Requirements to iOS 8.0,2014-10-05,Closed,142,1,1,,0
+cURL representation should included additional headers in NSUR...,2014-10-05,Merged,140,9,0,,1
+@mattt => update to support Xcode 6.1b3,2014-09-30,Merged,139,12,12,,1
+Fixes for Xcode 6.1 Beta 3.,2014-09-30,Closed,138,13,12,,1
+Clarified installation instructions,2014-10-05,Closed,137,1,1,,0
+Simplify prepareForSegue(_:_:),2014-09-29,Closed,133,3,6,,1
+Add step for adding `import Alamofire` to the installation instructions,2014-10-05,Closed,130,1,0,,0
+Make it easier to switch between the global request method and a manager,2014-10-20,Closed,129,66,45,,1
+Fix: Main thread blocked until response.,2014-09-26,Closed,127,1,1,,1
+Update README.md,2014-09-25,Merged,125,2,2,,0
+Documentation to checkout branch for git submodule,2014-09-25,Closed,123,2,1,,0
+Update README.md - unwrap pathComponent,2014-09-23,Merged,120,1,1,,0
+making convenience method public,2014-09-22,Closed,118,1,1,,1
+Compiles on Xcode 6.1 Beta 2.,2014-09-19,Merged,114,8,8,,3
+Fix code for Xcode6.1-beta2.,2014-09-18,Closed,109,21,21,,5
+Fix #107 iOS Example project crashes on device,2014-09-18,Closed,108,16,1,pbxproj ,1
+Replaced toRaw with rawValue (Xcode 6.1 Beta 2 update),2014-09-18,Closed,105,2,2,,1
+Updated fromRaw and toRaw to rawValue,2014-09-18,Closed,104,4,4,,1
+Add support for progress callbacks of data requests.,2014-09-18,Merged,102,11,0,,1
+Add .gitignore,2014-09-17,Closed,98,53,0,,1
+Add in request instance convenience methods,2014-09-17,Closed,97,38,10,,1
+unwrap optional httpmethod in curl representation,2014-09-18,Closed,94,1,1,,1
+JSON parameter encoding no longer has options,2014-09-17,Merged,93,2,2,,0
+Add .gitignore,2014-09-14,Closed,90,53,0,,1
+Pull request 140910,2014-09-10,Closed,88,34,36,,1
+update 9.10,2014-09-10,Closed,87,42,44,,2
+Added support of Default Headers for Uploads,2014-09-18,Closed,85,39,4,,1
+Update Alamofire.swift,2014-09-06,Closed,82,3,3,,1
+Xcode 6 beta 7 fixes (source + iOS Example),2014-09-03,Merged,78,37,41,,4
+Xcode 6 Beta 7 Swift changes,2014-09-03,Closed,77,22,22,,3
+Empty parameters of query should be treated as nil,2014-09-04,Closed,73,1,1,,1
+baseURL for Alamofire.Manager,2014-09-17,Closed,69,11,3,,2
+JSON Header stripping,2014-08-29,Closed,67,15,5,,1
+Fix the URL written to the cURL debug string,2014-08-29,Merged,66,1,1,,1
+Update README,2014-09-18,Merged,61,2,2,,0
+Adding a .gitignore,2014-09-18,Closed,60,1,0,,1
+Update from Alamofire:master,2014-08-26,Closed,59,37,39,,2
+Merge,2014-08-25,Closed,52,42,44,,2
+Serialize only when there isn't any network error,2014-08-24,Closed,50,50,45,,2
+Fixed issues with B6,2014-08-24,Closed,49,129,128,,0
+Compatibility with XCode 6 Beta 6,2014-08-24,Closed,48,96,91,,0
+Rework tests,2014-08-24,Closed,46,355,371,,1
+Made typealias for AF public,2014-08-16,Closed,42,1,1,,1
+Adds an NSURLRequest-based request convenience method,2014-09-18,Closed,41,46,44,,2
+Added the ability to add additional header fields to the request,2014-08-14,Closed,40,11,3,,1
+Skip response serializers for failed requests,2014-08-14,Closed,39,41,15,,2
+Changed move data task type before download task during initialization o...,2014-08-14,Closed,38,2,2,,1
+Rearrange else-if in Request.init to fix iOS 7 fatal error.,2014-08-23,Merged,34,2,2,,1
+Using join instead of reduce to compose preferred languages,2014-08-18,Closed,31,1,1,,1
+Fix HTTP header tests,2014-08-10,Merged,30,3,3,,1
+Fix compilation errors in Xcode 6 beta 5,2014-08-05,Closed,26,32,32,,1
+Update to support the Xcode 6 Beta5 changes to Swift,2014-08-05,Merged,24,32,32,,1
+Fix an issue where a data tasks error is silently lost,2014-08-05,Merged,23,1,0,,1
+Fix Accept-Encoding header typo,2014-08-05,Merged,21,1,1,,1
+Some lang polish,2014-08-24,Closed,20,7,11,,1
+Remove unnecessary request,2014-08-04,Merged,18,0,3,,1
+Project and code reorganization,2014-08-24,Closed,15,"2,762","1,433",pbxproj h plist swift ,6
+Default to HTTP method GET for Alamofire.request(),2014-09-18,Closed,12,18,4,swift ,2
+fixed wrong code syntax,2014-08-01,Closed,9,0,1,,0
+Fix code block formatting,2014-07-31,Closed,6,1,0,,0
+Add missing closing ticks to Swift block in README,2014-07-31,Closed,5,1,0,,0
+Close fenced code block,2014-07-31,Closed,4,1,0,,0
+Add missing closing fenced code block.,2014-08-01,Closed,3,1,0,,0

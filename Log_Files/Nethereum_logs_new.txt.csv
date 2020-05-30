@@ -1,0 +1,102 @@
+Update EncodedPack for AddressArrayType,2020-01-09,Closed,613,32,1,,4
+adds documentation for GSN,2020-01-07,Merged,612,51,0,md ,1
+Problem with default params in KeyStoreScryptService.cs,2020-01-06,Closed,611,2,2,,1
+Create Shh Api Services,2019-12-31,Merged,609,"1,193",60,,8
+EtherTransferService transfers methods extended with nonce,2019-12-02,Merged,605,113,11,,4
+RpcClient Connection fix,2019-12-06,Closed,604,44,57,exe ,2
+RPC: Memory leak fix,2019-11-28,Merged,603,28,10,exe ,2
+RPC Memory leak fix: Nethereum.JsonRpc.WebSocketClient/StreamingWebSocketClient.cs,2019-11-27,Closed,602,14,14,,1
+"Fixed BigDecimal currency rounding for -0.5 (was: 0, now -1)",2019-11-08,Merged,599,31,14,,3
+fixed UnitConversion on uncommon cultures,2019-11-08,Merged,598,58,32,,3
+"New BigDecimal.ToString overload, that accepts format string + CultureInfo",2019-11-05,Merged,596,327,0,,4
+GSN support,2020-01-02,Merged,593,"1,455",1,csproj cs ,13
+StreamingWebSocketClient SendRequestAsync Handle null socket (1 of 4),2019-09-26,Merged,585,32,0,csproj ,3
+Subscription tests plus fixes for StreamingWebSocketClient reliability.,2019-09-24,Closed,583,809,262,csproj ,5
+Subscription integration tests and Streaming Reliability Fix,2019-09-23,Closed,582,809,262,csproj ,5
+Removing extension Block.TransactionCount.,2019-09-12,Merged,580,21,18,,3
+Remove Potential InvalidOperationException in ContractCreatedCrawlerStep,2019-08-14,Merged,575,1,1,,1
+IBlockchainBlockProcessingService - New Block processor overloads,2019-07-25,Merged,571,84,33,,7
+IEquatable HexBigInteger with tests,2019-07-22,Merged,569,94,20,,4
+pantheon ibft will add/delete nodes and addresses,2019-06-20,Merged,561,9,3,json ,4
+Fix TransactionReceipt bug with empty status,2019-05-31,Merged,558,2,2,,1
+HexBigInteger ToString,2019-05-21,Merged,556,24,0,,2
+ABI Deserialisation from JArray,2019-05-15,Merged,554,61,4,,3
+NewFilterInputBuilder - typed event filter building,2019-05-15,Merged,544,709,1,,3
+fix: RemoveHexPrefix now only removes '0x' once iff present as prefix,2019-03-18,Merged,531,1,1,,1
+RPC: implement Equals for TransactionReceipt,2019-03-12,Merged,529,17,0,,1
+Make StreamingWebSocketClient implement IDisposable,2019-03-11,Merged,528,1,1,,1
+Added utilities and samples,2019-02-09,Merged,516,5,3,,0
+"Parity- traceTransaction , result type changed from jobject to jarray",2019-02-04,Merged,513,7,7,,3
+Nethereum.parity - Trace Transaction,2019-02-04,Closed,512,"51,325","13,529",sln snk md yml props png ,12
+Anonymous events support added,2019-02-26,Merged,505,566,28,,7
+Add (polling) Reactive Extensions for filters,2019-01-29,Merged,501,"1,313",2,csproj ,2
+"Added back string to bytes1~bytes31 encoding, decoding.",2019-01-28,Closed,496,167,3,,3
+Update AccountSignerTransactionManager.cs,2019-01-07,Merged,488,2,2,,1
+Add subscription event handler to observable extension methods,2019-01-29,Merged,480,94,5,,2
+Wired010/subscriptions,2018-12-04,Merged,474,61,5,,5
+Wired010/subscriptions,2018-12-03,Merged,473,932,11,,10
+"Update generator README to include details about ""from-truffle""",2018-12-03,Merged,472,34,13,md ,1
+Fix unit tests failing from formatting changes,2018-12-03,Merged,470,28,28,,0
+Add generator support for Truffle style compiled contracts,2018-11-29,Merged,469,356,361,cs ,4
+Clean up CSharp code generation formatting,2018-11-28,Merged,468,36,54,,11
+Enforce azure signature to a low S,2018-11-20,Merged,462,1,5,,1
+Adding improved error handling for issue #435,2018-10-15,Merged,437,8,1,,1
+Update AddressUtil.cs,2018-09-28,Merged,430,2,2,,1
+change some scripts,2018-09-02,Closed,415,17,49,exe testchain/devChain/history 116905600Z--12890d2cce102216644c59dae5baed380d84830c 162110900Z--13f022d72158410433cbd66f5dd8bf6d2d129924 431742100Z--3a2e25cfb83d633c184f6e4de1066552c5bf4517 964334300Z--af7c2c210d31245cf332fc1d820bdfd77d1e3555 8595707Z--72bC90BcEE4F850E5f746dCcf8AfC48faFf037b2 5525888Z--6bA8D4304EfaE5Edc7942762aF0029FF514F8CEb 7650642Z--ca11D36c46848c289e9AB6d94ab012B26A5970Bf 9369446Z--Ae63aFbAC20dFd5a952bB7Efe196196c40a7AcD0 4760032Z--6b23D35cFd1Ce9c95b52E5CBfDC2eE1FFDec6A93 792745800Z--dd3a891ca6ec6fe35ab69f42707c762868f7edf6 843646800Z--d9708db1b7749e6ed3f4bdcb01ee033fe26f9da4 999776200Z--34a4bab52953d436861d893a0d0133ab84d96c56 217756500Z--8977e04d0143b811935366907c8431482bb7699d json bat ,28
+"Hex,JsonRpc: throw more proper exceptions if invalid format is found",2018-08-31,Merged,413,49,25,,8
+Contracts: use Concurrent collections to fix race conditions,2018-08-15,Merged,408,4,3,,2
+"Use TimeSpan instead of int, for timeout (fix #390)",2018-08-08,Merged,398,12,11,,7
+HexByteConvertor: add more info if exception happens,2018-07-09,Merged,380,12,1,,1
++ gasPrice parameter,2019-03-12,Closed,376,6,0,,1
++ eth_PendingTransactions,2018-07-03,Merged,374,59,0,,3
+Fix typo in TransactionManager,2018-07-03,Merged,373,1,1,,1
+Integer Encoding and Decoding for Large Numbers,2018-06-17,Closed,357,32,11,,2
+"Revert ""Modified RPC exception handling to return Ethereum error messages.""",2018-05-16,Merged,340,15,46,,3
+Modified RPC exception handling to return Ethereum error messages.,2018-05-16,Merged,339,51,20,,4
+Fix nonce integration tests,2018-05-03,Merged,329,11,11,,1
+Feature/nullables,2018-04-20,Closed,319,21,1,,2
+Better max int size message,2018-04-13,Merged,315,27,14,,2
+Contract project generator prevent outputting empty files,2018-03-23,Merged,290,165,30,,8
+Moving Name of Model and ClassNameSuffix to base class to simplify an…,2018-03-22,Merged,289,22,76,,6
+StandardTokenEIP20: provide BalanceOfFunction,2018-07-08,Closed,285,17,0,cs ,2
+Generator.Console: fix build,2018-07-08,Closed,284,0,3,,1
+README.md: remove duplicated section,2018-03-12,Merged,277,1,8,,0
+Eip155 nits,2018-03-04,Merged,271,78,6,,4
+Basic EIP 155 support,2018-03-03,Closed,268,535,72,cs ,7
+Simplify some bits and bobs,2018-02-28,Merged,266,9,64,,7
+"Web3.Tests: separate into 2 projects, Unit and Integration",2018-03-01,Merged,264,119,41,cs csproj sol ,37
+Downgrade some projects to 4.6.1 & fix IpcClient build,2018-02-23,Merged,262,14,10,cs ,5
+Fix build warnings,2018-02-23,Merged,261,4,23,,10
+Fix typo : adddress -> address,2018-01-30,Merged,242,13,13,,4
+Support for .NET Core,2017-12-27,Closed,226,817,309,props csproj cs ,16
+Fix nuget packages versions,2017-12-15,Merged,215,8,9,config ,3
+GetAddresses always returns null (fixed),2017-12-14,Merged,214,14,3,,2
+"Fixed BigDecimal ToString() padding right with ""0"" case",2017-10-29,Merged,197,1,1,,1
+Fixed eth conversion,2017-10-29,Closed,196,12,14,,1
+"fixed ""Input string was not in a correct format."" when cast the BigDecimal class to the Decimal class if the current CultureInfo decimal separator not equal to a point (.)",2017-10-16,Merged,185,4,3,,1
+Geth complains that HexBigInteger inputs are null,2017-09-25,Closed,174,3,1,,1
+"Upgraded Microsoft.NET.Test.Sdk to Version 15.3.0, and xunit to Versi…",2017-09-25,Merged,173,3,4,,2
+Support for Bytes16Type,2017-09-14,Closed,170,207,56,,13
+#116 Fixed problem with message size > 10 MB,2017-10-04,Closed,162,4,13,cs ,3
+Update copyrigths due to UnixEndPoint is part of mono project.,2017-07-25,Closed,161,31,1,,1
+Unix/.NetCore IPC client. #55,2017-07-25,Merged,159,378,1,csproj cs ,4
+Unlock Account Overload - Geth,2017-06-27,Merged,146,8,3,,0
+Update - Geth Unlock Account Overloads,2017-06-27,Closed,145,6,1,,0
+Made changes to the testchain startup scripts for compatibility with Geth 1.6.5,2017-06-12,Merged,137,2,1,bat ,2
+docs/introduction: fix typo,2018-01-08,Closed,125,2,2,,0
+TransactionSigner: add overloads that accept privateKey as byte[] too,2017-05-16,Merged,124,35,11,,1
+KeyStore: Throw a more specific exception rather than Exception,2017-05-15,Merged,122,16,1,cs ,3
+"--automine no longer valid, switched to --mine",2016-12-21,Merged,93,1,1,,1
+Added EthGetUncleByBlockNumberAndIndex and EthGetUncleByBlockHashAndI…,2016-10-09,Merged,80,98,0,,3
+RPC.Personal: mark UnlockAccount class as obsolete (unsafe),2017-09-25,Closed,77,2,0,,1
+Fix compilation and execution of Nethereum.Desktop.Sample project,2016-08-11,Merged,69,42,42,config xaml cs csproj resx settings ,13
+Update Nethereum.Maker submodule,2016-08-01,Merged,68,1,1,,1
+Nethereum.RPC: fix Eth.Syncing to not throw RuntimeBinderException,2016-05-24,Closed,49,3,3,,1
+README: add namespace on first Web3 sample,2016-05-24,Merged,46,1,1,,0
+Simplified unlocking of CoinBase account,2016-05-19,Merged,43,7,0,,2
+"Fix up XS proj builder, update Newtonsoft.Json",2016-03-29,Closed,22,12,18,csproj config ,3
+Add passthrough value to access the hex value returned by ethereum,2016-03-09,Closed,14,6,1,,1
+Switch to Bouncy Castle (non portable),2016-03-09,Merged,13,1,1,,1
+Dont serialize nulls in CallInput,2016-03-10,Closed,11,9,6,cs ,2
+Include ref to System.Runtime,2016-03-09,Closed,10,5,0,cs csproj ,3
+Add a Gitter chat badge to README.md,2015-12-14,Merged,1,2,0,,0

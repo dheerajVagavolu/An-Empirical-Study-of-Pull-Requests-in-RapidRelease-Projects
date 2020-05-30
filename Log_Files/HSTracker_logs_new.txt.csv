@@ -1,0 +1,233 @@
+Update FR translation,2019-12-24,Merged,1100,6,6,,4
+Bump excon from 0.65.0 to 0.71.0,2019-12-22,Closed,1097,1,1,,1
+Bump rubyzip from 1.2.3 to 1.3.0,2019-12-22,Closed,1091,10,9,resolved lock plist swift ,5
+Bump nokogiri from 1.10.3 to 1.10.4,2019-12-22,Merged,1090,1,1,,1
+Improve translation for pt-BR language,2019-12-22,Closed,1089,9,9,,2
+Fix secret helper,2019-11-17,Closed,1085,102,30,,3
+Fix Pressure Plate(#1080),2019-09-04,Merged,1082,7,0,,1
+Fix cards tracking for Spirit of the Dead,2019-09-04,Merged,1081,19,1,,3
+Add support for tracking Uldum cards,2019-08-20,Merged,1076,19,1,,4
+Update secret tests for Uldum,2019-08-07,Merged,1074,6,3,,1
+Fix secret handling when minion dies,2019-07-14,Merged,1070,163,34,,7
+"Fix secret helper causing lag(#972, #994)",2019-07-08,Merged,1069,18,13,,2
+Rewrite secret tests,2019-07-01,Merged,1067,221,35,,1
+Fix secret helper(#1065),2019-06-30,Merged,1066,10,7,,1
+Fix Augmented Elekk bomb tracking(#1050),2019-06-30,Merged,1064,28,9,,4
+trying to fix a crash,2019-04-12,Merged,1048,1,1,,1
+Fix replay url domain,2019-03-15,Merged,1040,1,1,,1
+remove hardcoded path,2019-03-09,Merged,1039,10,6,pbxproj plist ,3
+update nokogiri as 1.8.4 had a security issue (https://nvd.nist.gov/v…,2019-03-11,Merged,1038,1,1,,1
+copy kingfisher.framework in tests as well,2019-03-08,Merged,1037,3,1,plist ,2
+bump version,2019-03-08,Merged,1036,5,13,pbxproj plist ,3
+Bug Fix: Hero Cards gem not display,2019-03-03,Merged,1035,2,2,,1
+Optimize the Chinese font displaying,2019-03-03,Merged,1034,17,7,ttf ,4
+Optimize the Chinese (zh-Hans) translations,2019-03-03,Merged,1033,166,124,,9
+put back support for card hover,2019-03-03,Merged,1031,76,72,Cartfile resolved pbxproj swift ,8
+unbreak tests,2019-02-24,Merged,1030,1,1,,1
+Upped xcode version in .travis.yml to 10.1,2019-02-24,Merged,1029,2,2,swift ,2
+revert to using the mirror to get the opponent name,2019-02-24,Merged,1028,3,2,,2
+Whizbang,2019-02-17,Merged,1026,86,13,resolved swift plist ,7
+Make FloatingCard text readable for OSX dark mode,2019-01-02,Merged,1021,4,4,,1
+Replace GRDB with FMDB,2018-10-23,Merged,1007,54,47,resolved pbxproj swift ,4
+Implement collection uploading,2018-08-19,Merged,991,490,193,swift ,3
+Try to fix up CI,2018-07-22,Merged,987,31,122,Cartfile resolved Dangerfile Gemfile lock pbxproj ,7
+Implement OAuth login flow,2018-07-22,Merged,985,117,25,resolved pbxproj swift ,5
+Update swiftlint deprecated rules,2018-05-25,Merged,970,1,1,,1
+Use correct fastlane lane for CI,2018-05-12,Merged,969,1,1,,1
+Fix Danger check for Info.plist,2018-05-12,Merged,968,2,2,,1
+Adopt Swift 4.1 changes,2018-05-13,Merged,967,17,53,swift ,7
+Update cardTier.json,2018-05-17,Closed,966,"6,089","10,994",,0
+Add instruction for getting latest card data,2018-04-15,Merged,959,2,0,,0
+Fix up cardClass parsing,2018-03-29,Merged,952,17,18,Dangerfile lock pbxproj swift fastlane/Scanfile ,7
+[WIP] Create fastlane lane for CI,2018-03-28,Merged,951,204,7,yml lock fastlane/Fastfile ,4
+Readme fixups,2018-02-16,Merged,929,99,127,pbxproj LICENSE Licenses/opencv markdown fastlane/Fastfile rb ,6
+Remove web importers,2018-01-23,Merged,923,30,"1,225",swift ,7
+more complete translation to zh-TW,2018-01-23,Closed,921,205,"64,802",resolved Dangerfile strings Gemfile ,9
+Localizable strings added.,2018-01-13,Merged,920,893,0,strings ,7
+General fixes,2018-01-05,Merged,918,405,255,swift ,3
+Fixed secrettracker not disappearing properly,2018-01-05,Merged,917,3,17,,1
+Improve translation for pt-BR language,2017-11-23,Merged,899,22,22,,1
+"Check for ""*"" instead of ""^""",2017-10-31,Merged,890,1,1,,1
+Typo,2017-08-12,Merged,865,1,1,,1
+Update NewDeck.strings,2017-06-02,Merged,860,4,4,,1
+Update TrackersPreferences.strings,2017-06-02,Merged,859,9,9,,1
+Update PlayerTrackersPreferences.strings,2017-06-02,Merged,858,1,1,,1
+Update OpponentTrackersPreferences.strings,2017-06-02,Merged,857,1,1,,1
+Update GeneralPreferences.strings,2017-06-02,Merged,856,3,3,,1
+Update Localizable.strings,2017-06-02,Merged,855,4,4,,1
+PR to test Danger,2017-05-17,Closed,844,0,4,,1
+"Bug Fix: In deck builder, legendaries are darkened after adding one copy to a non-arena deck",2017-05-01,Merged,817,1,1,,1
+Improved translations for german language,2017-04-25,Closed,814,25,22,resolved pbxproj plist strings ,5
+zh-hans translation,2017-04-17,Merged,802,171,171,,11
+Fix #799: Exporting Issue with Golden cards,2017-04-12,Merged,800,1,1,,1
+Memory leak fix,2017-04-11,Closed,796,"16,707","11,968",Cartfile resolved pbxproj xcscheme ,5
+Adding Hero power to dmg counter,2017-05-02,Closed,776,78,8,pbxproj plist swift ,6
+Fixing lint errors,2017-03-15,Merged,775,24,15,,4
+Add Korean translation.,2017-02-23,Merged,754,"1,028",1,strings ,8
+Reworked deck versioning system,2017-02-05,Merged,745,108,89,xib ,6
+[FIX] Copy gameMode and opponentHero to fix stats.,2017-01-28,Merged,744,2,0,,1
+[FIX] Removed default all rows highlight.,2017-01-28,Merged,743,1,1,,1
+Fix hearthstonetopdecks.com importer,2017-01-21,Merged,738,2,2,,1
+Fixed random tracking problem,2017-01-16,Merged,735,113,15,h swift m ,7
+Translations & Grammar,2017-01-05,Merged,729,19,19,,5
+Move the secret tracker so slightly. Picture attached,2017-01-05,Merged,727,1,1,,1
+secrets tracer malfunction #694,2017-05-01,Closed,726,1,1,,1
+Are you sure you want to close dialogue only has one button #683,2017-01-02,Merged,725,10,3,,1
+Decks menu displays deleted decks and selecting it crashes HSTracker …,2017-01-02,Merged,724,2,0,,1
+Remove dependency on current deck for uploading replays to HSReplay.net,2016-12-18,Merged,717,26,34,,1
+Feature/simpler new deck class chooser,2016-12-18,Merged,716,78,109,pbxproj plist xib ,4
+Swiftlint fixes,2016-12-10,Merged,708,58,110,swift ,16
+Update licenses,2016-12-07,Merged,702,7,14,Licenses/opencv ,1
+Topdeck chance,2016-11-23,Closed,682,171,17,swift plist xib ,12
+Translations,2016-11-22,Merged,681,41,41,,11
+Deckmanager bugfixes,2016-11-20,Merged,677,9,5,,2
+Deckmanager pimp,2016-11-09,Merged,667,331,59,h xib swift ,6
+Tracker health badge,2016-10-23,Merged,651,255,6,pbxproj swift json png ,17
+Update TrackersPreferences.strings,2016-10-13,Closed,641,2,2,,1
+Translations & Grammar,2016-10-13,Closed,640,29,29,,9
+Tracker disable bug fix,2016-10-12,Merged,637,15,5,,2
+Deck exporter fix,2016-10-01,Closed,623,53,5,,3
+Deck exporter fix,2016-09-28,Closed,622,384,21,swift png xib ,8
+Added graveyard,2016-09-26,Merged,621,331,16,swift png xib ,6
+Update UpdatePreferences.strings,2016-09-26,Merged,620,4,4,,1
+Update DeckManager.strings,2016-09-26,Merged,619,2,2,,1
+Update MainMenu.strings,2016-09-26,Merged,618,2,2,,1
+Update Localizable.strings,2016-09-26,Merged,617,6,6,,1
+Update HSReplayPreferences.strings,2016-09-26,Merged,616,3,3,,1
+Fullscreen overlay,2016-09-22,Merged,613,113,26,xib ,12
+Dock menu for selecting deck,2016-09-21,Merged,610,41,17,,2
+Fixed deckimporter testcases,2016-09-21,Merged,607,97,60,,2
+Heartharena deck importer fix,2016-09-17,Merged,605,1,1,,1
+Translations,2016-09-06,Merged,592,7,7,,3
+"Add translations and update ""Mech"" translation for PT-BR",2016-09-06,Merged,591,5,5,,1
+hearthstonetopdeck.com deck importer,2016-08-30,Merged,587,113,3,strings swift ,12
+Update Localizable.strings,2016-08-07,Merged,574,19,18,,1
+Update MainMenu.strings,2016-08-07,Merged,573,1,1,,1
+Update Statistics.strings,2016-08-07,Merged,572,1,1,,1
+Update LadderTab.strings,2016-08-07,Merged,571,7,7,,1
+Update TrackersPreferences.strings,2016-08-07,Merged,570,1,1,,1
+Update PlayerTrackersPreferences.strings,2016-08-07,Merged,569,1,1,,1
+Update OpponentTrackersPreferences.strings,2016-08-07,Merged,568,1,2,,1
+Update TrackOBotLogin.strings,2016-08-07,Merged,567,2,2,,1
+Update GeneralPreferences.strings,2016-08-07,Merged,566,2,2,,1
+Update Localizable.strings,2016-08-07,Closed,565,13,13,,1
+updates pt-BR translation,2016-07-08,Merged,547,63,63,,11
+updates pt-BR translation,2016-07-07,Merged,546,279,279,,6
+Translations,2016-07-01,Merged,544,46,46,,8
+Fixed the nib crash on 10.10,2016-06-29,Merged,540,2,2,,1
+Better ladder data,2016-06-28,Merged,539,0,0,,1
+Fix rank detection crash?,2016-06-28,Merged,538,123,54,cpp hpp mm ,5
+Fix stats race condition,2016-06-28,Merged,537,40,21,swift ,5
+Ladder climb prediction tab,2016-06-27,Merged,535,"1,646",370,pbxproj strings db swift ,6
+Cleanup stats,2016-06-25,Merged,533,220,88,swift ,5
+Update Localizable.strings,2016-07-07,Closed,531,66,66,,1
+Import your arena deck,2016-06-22,Merged,527,130,2,swift strings ,12
+Three improvements to rank detection,2016-06-21,Merged,524,25,10,swift cpp hpp ,6
+Fixed code signing bug caused by opencv submodule,2016-06-21,Closed,523,2,0,,1
+Check if images are corrupt on launch and redownload,2016-06-20,Merged,521,3,1,,1
+"""Failed to load"" image when cards fail to load",2016-06-20,Merged,520,37,1,png swift ,3
+Stats table confidence interval column,2016-06-20,Closed,519,269,43,swift ,2
+Stats table sorts when headers are clicked,2016-06-20,Merged,517,55,22,,2
+OpenCV-based rank detection,2016-06-20,Closed,516,"151,887",0,png json ,42
+Update Localizable.strings,2016-06-15,Closed,509,15,15,,1
+Update Statistics.strings,2016-06-15,Closed,508,5,5,,1
+Update NewDeck.strings,2016-06-15,Closed,507,1,1,,1
+Update DeckManager.strings,2016-06-15,Closed,506,6,6,,1
+Update TrackersPreferences.strings,2016-06-15,Closed,505,3,3,,1
+Update PlayerTrackersPreferences.strings,2016-06-15,Closed,504,6,6,,1
+Update OpponentTrackersPreferences.strings,2016-06-15,Closed,503,3,3,,1
+Update GeneralPreferences.strings,2016-06-15,Closed,502,1,1,,1
+Fixes 498,2016-06-14,Merged,499,1,1,,1
+Fix for bug 313,2016-06-21,Closed,497,8,0,,1
+Use boarddamage's hearthstoneActive call,2016-06-13,Merged,496,1,1,,1
+added cmd + shift + r to clear,2016-06-13,Merged,494,1,1,,1
+Hide record if you don't have a deck selected,2016-06-13,Merged,493,2,0,,1
+show deck name option,2016-06-14,Merged,491,127,50,xib strings ,12
+Stats window,2016-06-14,Merged,484,446,0,swift ,5
+Added stats window,2016-06-10,Closed,482,582,3,swift ,4
+A Long Awaited Update,2016-06-10,Merged,481,32,32,,6
+Import arena deck,2016-06-22,Closed,479,130,2,swift strings ,12
+Show detail text when sorting,2016-06-09,Merged,478,631,588,plist swift xib ,4
+"Wild indicator for decks, but no asset",2016-06-09,Merged,477,14,0,xib ,3
+More swifty?,2016-06-08,Merged,475,1,1,,1
+Sort deck manager,2016-06-08,Merged,473,257,17,swift xib ,13
+Fixed arrow key interaction with table view,2016-06-08,Merged,472,14,17,,1
+Sort deck manager,2016-06-08,Closed,471,256,16,swift xib ,14
+Undo/redo while editing deck #346,2016-06-08,Merged,470,56,12,swift ,8
+"spelling ""guassian"" -> ""gaussian""",2016-06-08,Merged,468,3,3,,1
+Two features in #342,2016-06-07,Merged,467,27,1,swift ,3
+Feature to close HSTracker when Hearthstone closes,2016-06-07,Merged,466,48,5,xib strings ,10
+move save items into submenu for cleanliness,2016-06-06,Merged,464,11,7,,1
+Show win loss ratio for selected deck,2016-06-06,Merged,463,115,18,swift xib strings ,12
+Save your current deck in the tracker,2016-06-06,Merged,461,34,1,xib ,3
+Don't reset player id when in a game and swapping decks,2016-06-06,Merged,460,4,4,,2
+This pull request fixes some bugs when doing class filters,2016-06-06,Merged,458,3,2,,1
+Ability to archive/unarchive deck,2016-06-06,Merged,457,43,6,xib ,4
+Fix syntax errors in travis.yml,2016-06-06,Merged,456,5,7,,1
+Add and remove event monitor when a new window shows up or gets backg…,2016-06-05,Merged,455,46,36,,1
+Show the name of the deck when you're editing it,2016-06-05,Merged,454,4,0,,1
+Deck Manager (editor) - keyboard shortcuts for adding a card to the deck,2016-06-05,Merged,452,49,30,,1
+Add a Gitter chat badge to Readme.markdown,2016-05-26,Closed,443,2,0,,1
+Update Localizable.strings,2016-05-21,Merged,433,2,2,,1
+Replace int division with float division in computing winrate for display,2016-05-19,Merged,432,1,1,,1
+Update TrackersPreferences.strings,2016-05-12,Merged,428,1,1,,1
+Update PlayerTrackersPreferences.strings,2016-05-12,Merged,427,3,5,,1
+Update OpponentTrackersPreferences.strings,2016-05-12,Merged,426,4,5,,1
+Update Localizable.strings,2016-05-12,Merged,425,1,1,,1
+Improve UI feedback during Hearthstats login,2016-05-12,Merged,423,72,23,swift ,2
+Change opponent tracker to show their chances of having a particular card,2016-05-03,Merged,405,19,4,swift ,2
+Update,2016-04-30,Merged,397,17,17,,5
+WIP wording,2016-04-28,Merged,387,9,5,,1
+Update Localizable.strings,2016-04-28,Merged,386,2,2,,1
+Merge pull request #2 from bmichotte/master,2016-04-26,Closed,376,0,0,,0
+Update MainMenu.strings,2016-04-26,Merged,373,2,2,,1
+Update Localizable.strings,2016-04-26,Merged,372,1,1,,1
+Update,2016-04-21,Merged,361,32,32,,6
+Update Spanish locale,2016-04-18,Merged,358,32,36,,6
+Update DeckManager.strings,2016-04-18,Merged,355,9,9,,1
+Update Splashscreen.strings,2016-04-18,Merged,354,2,2,,1
+Update InitialConfiguration.strings,2016-04-18,Merged,353,7,7,,1
+Update NewDeck.strings,2016-04-18,Merged,352,5,5,,1
+Update Localizable.strings,2016-04-18,Merged,351,5,5,,1
+Update TrackersPreferences.strings,2016-04-17,Merged,341,2,2,,1
+Update TrackersPreferences.strings,2016-04-16,Merged,334,2,1,,1
+Updated,2016-04-16,Merged,333,12,12,,1
+Update EditDeck.strings,2016-04-15,Merged,331,8,8,,1
+Update NewDeck.strings,2016-04-15,Merged,330,8,8,,1
+Update SaveDeck.strings,2016-04-15,Merged,329,6,6,,1
+Update GamePreferences.strings,2016-04-15,Merged,328,6,6,,1
+Update Localizable.strings,2016-04-15,Merged,327,12,12,,1
+Update MainMenu.strings,2016-04-14,Merged,326,17,17,,1
+Update Localizable.strings,2016-04-14,Merged,325,34,34,,1
+Update Localizable.strings,2016-04-14,Merged,324,9,9,,1
+Update DeckManager.strings,2016-04-14,Merged,322,9,9,,1
+Update HearthstatsPreferences.strings,2016-04-13,Closed,319,2,2,,1
+Update TrackersPreferences.strings,2016-04-13,Closed,318,1,1,,1
+Update NewDeck.strings,2016-04-10,Merged,317,4,4,,1
+Update Localizable.strings,2016-04-10,Merged,316,2,2,,1
+Splashscreen suggestion (First Version),2016-04-08,Closed,311,"23,276","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Patch 6,2016-04-08,Closed,310,"23,383","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Patch 5,2016-04-08,Closed,309,"23,383","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Patch 4,2016-04-08,Closed,308,"23,383","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Patch 3,2016-04-08,Closed,307,"23,383","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Patch 2,2016-04-08,Closed,306,"23,383","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Newest! Sorry for the inconvinience…,2016-04-08,Merged,305,41,48,,1
+Patch 1,2016-04-08,Closed,304,"23,453","13,642",gitignore yml Cartfile resolved Gemfile lock markdown ,8
+Update HearthstatsPreferences.strings,2016-04-08,Merged,303,2,2,,1
+Update HearthstatsLogin.strings,2016-04-08,Merged,302,3,3,,1
+Update TrackersPreferences.strings,2016-04-08,Merged,301,13,13,,1
+Update Splashscreen.strings,2016-04-08,Merged,300,1,1,,1
+Update InitialConfiguration.strings,2016-04-08,Merged,299,7,7,,1
+Update GeneralPreferences.strings,2016-04-08,Merged,298,5,5,,1
+Update GamePreferences.strings,2016-04-08,Merged,297,6,6,,1
+Spanish locale,2016-04-07,Merged,296,128,122,,9
+Update language a bit,2016-02-10,Merged,277,2,2,,1
+Fixing typo,2015-12-24,Merged,264,2,2,,1
+Update es.yml,2015-11-15,Merged,227,3,3,,1
+Spanish locale file added,2015-11-09,Closed,219,177,0,,1
+Add pt-br language,2015-09-24,Merged,194,171,0,,1
+Add Chinese language support,2015-09-18,Merged,188,170,0,,1
+English Localization updates,2015-08-21,Merged,121,12,12,,1
+Patch 1,2015-05-01,Merged,46,11,11,,1
+Validate search string to prevent empty results,2015-04-30,Merged,45,6,2,,1
+Reapply search filter after changing tabs.,2015-04-30,Closed,44,9,1,,1

@@ -1,0 +1,595 @@
+Update create app.js,2020-01-13,Merged,1760,149,62,js ,1
+Fix cli links,2020-01-08,Merged,1756,3,3,,0
+Update dependencies in example apps,2019-12-11,Merged,1742,5,5,,2
+Update compatibility docs for react-native versions v0.60-v0.61,2019-12-11,Merged,1741,1,0,,0
+Move PublicKey and ServerUrl properties to string resources,2019-12-11,Merged,1740,69,28,xml md json js ,9
+Update titles for Android docs,2019-12-09,Merged,1739,9,9,js ,2
+Update multi-deployment-testing-android docs for v0.60,2019-12-06,Merged,1738,62,21,,0
+Add react-native@0.60 and above support,2019-12-06,Merged,1735,182,28,js ,1
+Bump Microsoft.ChakraCore from 1.4.1 to 1.11.7 in /Examples/CodePushDemoApp-pre0.49/windows/CodePushDemoApp.Wpf,2019-12-11,Merged,1716,1,1,,1
+Update README.md,2019-10-15,Merged,1700,2,0,,0
+Chore: Migrate to new cli configuration to support RN 0.60.x,2019-10-18,Closed,1699,16,14,js ,2
+Update to react native config from deprecated rnpm config. Configured as dependency.,2019-12-07,Closed,1678,17,14,js ,2
+Bump code-push sdk version to 3.0.1,2019-08-20,Merged,1660,24,14,,2
+Update server url,2019-08-19,Merged,1658,158,126,md m ,2
+Migrate react native cli,2019-07-28,Closed,1644,14,16,json js ,4
+Update packages,2019-07-19,Merged,1631,"2,011","1,995",,1
+Replace app store version with binary version in docs,2019-06-18,Merged,1614,4,4,md h ,2
+docs: update android staging config,2019-06-06,Closed,1595,3,1,,0
+Сreate postunlink command for clearing CodePush setup changes,2019-05-30,Merged,1588,388,175,js ,4
+Update setup-ios.md,2019-06-10,Closed,1587,1,1,,0
+Update README screenshot,2019-05-08,Merged,1582,1,1,,0
+Exposing downloadAndInstall method,2019-04-30,Closed,1574,160,19,project prefs java m ,8
+Update README.md,2019-04-30,Merged,1573,1,1,,0
+Update android multi deployment testing docs,2019-04-22,Merged,1562,3,0,,0
+Clearing docs,2019-04-02,Merged,1555,40,40,,0
+Change docs for react-native@0.59,2019-03-18,Merged,1545,32,2,,0
+Add support react-native@0.59,2019-03-15,Merged,1543,51,29,js ,2
+Handle JSON parsing exception,2019-03-15,Merged,1540,14,1,,2
+Fix unnecessary asking of android deployment key with link command,2019-03-15,Merged,1538,29,11,js ,3
+log when load bundle fails.,2019-03-18,Merged,1536,1,0,,1
+Replaced new jsCodeLocation in docs,2019-02-12,Merged,1522,2,2,,0
+Update react-native-code-push.d.ts,2019-02-20,Merged,1515,1,1,,1
+Replaced codepush home page link,2019-01-23,Merged,1508,1,1,,0
+Fixed Apple Developer Program License Agreement link,2019-01-18,Merged,1502,1,1,,0
+Fixed issue with loss of the public key,2019-01-15,Merged,1501,8,8,,1
+add android ci,2019-02-09,Closed,1499,24,2,gradle ,2
+Update README.md,2019-01-15,Closed,1494,1,0,,0
+Fixes typo in TypeScript typings: DowloadProgressCallback -> DownloadProgressCallback,2018-12-26,Merged,1491,3,3,,1
+added ios/Frameworks to ignore list for ios/postLink.js,2019-02-09,Closed,1489,2,2,,1
+Fix ios postlink,2018-12-21,Merged,1482,25,13,,1
+Replace deprecated 'compile' gradle configuration with 'implementation',2019-01-15,Merged,1477,3,3,,1
+Update api-js.md,2018-12-20,Closed,1475,6,0,,0
+Validate hash and signature on restart,2019-02-09,Closed,1472,69,0,h m ,8
+Remove android.support.annotation.NonNull import,2018-12-12,Merged,1471,2,3,,1
+Updated docs for rollback retry mechanism,2018-12-07,Merged,1468,6,6,ts ,1
+[Feature] Re-try mechanism for CodePush Rollbacks,2018-12-06,Merged,1467,292,4,java md h m ,7
+DOC - exact way to use codepush when app is not launched from Activity,2019-02-09,Closed,1459,37,10,,0
+Fixed the next issue,2018-11-15,Closed,1447,31,1,,1
+Fix typo in 'downloadProgressCallbackkWithTryCatch',2018-10-12,Merged,1428,3,3,,1
+Updated proguard rules to keep `mBundleLoader` field,2018-10-08,Merged,1425,3,7,,1
+fix some xcode 10 warnings,2018-10-09,Merged,1424,27,7,plist ,2
+Set minimum target UWP version to match React Native Windows 0.57,2018-10-19,Merged,1422,7,7,,1
+[ts] Add missing null return type to `checkForUpdate`,2018-09-28,Merged,1419,1,1,,1
+[ts] Remove invalid Promise declaration,2018-09-26,Merged,1416,0,19,,1
+remove deprecated gradle compile dependency calls,2018-10-02,Closed,1412,3,3,,1
+Update setup-android.md,2018-10-01,Closed,1407,1,0,,0
+Bumped RN version in docs,2018-09-14,Merged,1404,1,1,,0
+add support for android gradle plugin 3.2 and above,2018-09-26,Closed,1403,8,0,,1
+Add warning about configuration variables in Info.plist to docs,2018-09-17,Closed,1400,1,1,,0
+iOS support text file diff use diff-match-patch,2018-09-11,Closed,1399,"3,868",0,plist m ,3
+android add google diff-match-patch,2018-09-11,Closed,1393,"2,519",1,,3
+Fixed 'Too many open files in system' problem in 'create-app.js',2018-08-27,Merged,1388,0,1,,1
+add matchingFallbacks to android multi deploy docs,2018-09-12,Closed,1387,2,1,,0
+Fixed create-app.js script,2018-08-23,Merged,1386,42,13,,2
+Fixed security vulnerabilities,2018-08-21,Merged,1385,830,899,,1
+Fix Gradle warning: 'compile' dependencies are obsolete,2018-08-14,Closed,1373,2,2,,1
+Replace link to old docs with link to new docs.,2018-08-10,Merged,1372,2,2,,0
+throw exception if js bundle file name is not in download,2018-09-05,Closed,1367,47,41,,1
+Bumped code-push version,2018-07-31,Merged,1365,688,617,,0
+add --production=false for installing devDeps,2018-08-06,Closed,1363,3,3,,0
+Made compatibility table cleaner.,2018-07-17,Merged,1351,2,1,,0
+Update api-android.md,2018-07-12,Closed,1349,11,3,,0
+Update README.md,2018-07-12,Merged,1347,1,1,,0
+Update compatibility table.,2018-07-10,Merged,1344,2,1,,0
+Added compatibility with latest RN version(0.56),2018-07-10,Merged,1342,9,4,,1
+[Android] remove unused constant,2018-07-10,Merged,1340,0,1,,1
+[Android] add serverUrl documentation,2018-07-10,Merged,1338,3,0,,0
+Prevent removing ReactNativeDevBundle in LiveReload,2018-07-09,Merged,1332,24,4,,2
+Updated docs for clearUpdates method and added logging.,2018-06-29,Merged,1329,16,1,md m ts ,3
+remove AcquisitionManager import from package-mixins,2018-06-26,Merged,1325,0,1,,1
+Get update folder method,2018-06-25,Merged,1323,10,1,md ,1
+Added requirement note(UWP) to windows doc,2018-06-21,Closed,1322,2,0,,0
+Update android tools version.,2018-06-07,Closed,1305,132,67,gradle java ,11
+Fix: Typo in api-ios,2018-06-04,Merged,1303,1,1,,0
+Updated 'Plugin installation(iOS - CocoaPods)' section in documentation.,2018-05-31,Merged,1301,20,2,,0
+Added mock for code-push plugin in test of demo app.,2018-05-30,Merged,1298,23,0,,1
+Fix typo,2018-05-25,Merged,1295,1,1,,0
+Fixed app crash caused by multiple callback invocation from java code.,2018-05-24,Merged,1289,18,10,,2
+Fixed app crash caused by BadTokenException.,2018-05-24,Merged,1287,1,1,,1
+Prevent crashing app by catching errors,2018-05-24,Merged,1286,218,166,,0
+Brownfield apps dev fixes,2018-05-11,Closed,1280,"2,653","1,391",gitignore project gradle java png ,9
+Add support for multiple apps using native client,2019-12-05,Closed,1277,482,203,gradle ,6
+Fixed hoek vulnerable dependency,2018-05-08,Merged,1275,"6,548","4,750",,0
+Update api-js.md,2018-05-10,Merged,1274,13,13,,0
+Fix podspec,2018-05-04,Merged,1271,1,1,,1
+Expose clearUpdates method to RN for purging downloaded packages,2018-06-29,Merged,1269,24,2,java md m ts ,4
+Fix supported version of RN in Readme,2018-04-28,Merged,1264,1,1,,0
+Update postlink.js,2018-05-08,Merged,1262,3,2,,1
+Fix catching IOException,2018-05-07,Closed,1261,1,1,,1
+Handle uncaught promise rejection,2018-04-23,Merged,1253,9,1,,1
+docs(readme): change `CodePushPublicKey` to `CodePushDeploymentKey`,2018-04-05,Closed,1247,1,1,,0
+Add documentation to RNN V2,2018-04-05,Merged,1239,49,0,,0
+Change download to use identity Accept-Encoding,2018-03-30,Merged,1237,2,1,,1
+Place the Install button on the right side of the Update Dialog,2018-03-30,Merged,1232,16,10,,1
+Updated code-push version,2018-03-15,Merged,1231,319,543,,0
+Fixed bug with run-android on windows,2018-03-14,Merged,1229,584,525,,0
+Prepare release 5.3.0,2018-03-13,Merged,1228,18,17,json ,1
+Android Gradle Plugin 3.x integration,2018-03-12,Merged,1219,63,43,js ,2
+Bump version in package-lock.json,2018-02-26,Merged,1216,397,134,,0
+[Brownfield] Fixes after testing,2018-02-21,Merged,1212,"2,653","1,391",gitignore project gradle java png ,9
+[CocoaPods] Resolve dependencies at parent level,2018-04-02,Merged,1210,10,35,md ,1
+fix(NuGet): align NuGet dependencies with react-native-windows,2018-02-21,Merged,1209,13,24,json ,3
+Fix for IllegalStateException while CodePushUpdateManager.downloadPackage,2018-02-16,Merged,1206,1,1,,1
+[Brownfield] Resolve TODO comments,2018-02-15,Merged,1205,4,10,,4
+[Brownfield] Crashes support,2018-02-15,Merged,1204,241,30,,4
+[Brownfield] Crashes support.,2018-02-15,Closed,1203,"44,332","3,098",js babelrc flowconfig gradle pro java xml ,9
+[Brownfield] Package rename,2018-02-15,Merged,1202,697,"5,719",,4
+[Brownfield] Add brownfield test app,2018-02-15,Merged,1201,"6,336",504,gradle pro xml java ,7
+[Brownfield] Transit common logic from CodePushCore to CodePushBaseCore,2018-02-14,Merged,1199,"1,548",134,,9
+[Brownfield] Exceptions,2018-02-12,Merged,1194,203,127,,8
+[Brownfield] React Native part,2018-02-14,Merged,1193,"3,228",344,java ,20
+[Brownfield] Tests changes,2018-02-08,Merged,1192,147,96,,4
+[Brownfield] Refactor the part of API that makes requests to the CodePush server,2018-02-08,Merged,1190,386,427,,7
+[Brownfield] Acquisition manager,2018-02-07,Closed,1189,762,98,java ,6
+[Brownfield] Acquisition manager,2018-02-07,Merged,1188,807,98,java ,6
+"[Brownfield] Cover CodePushUtils and StringUtils with tests, minor fixes and improvements",2018-02-07,Merged,1186,459,95,,4
+[Brownfield] Utils refactoring,2018-02-06,Merged,1184,623,444,,4
+[Brownfield] Restart manager,2018-02-05,Merged,1183,210,0,,3
+[Brownfield] Tests refactoring,2018-02-05,Merged,1182,129,189,java ,7
+[Brownfield] Tests refactoring,2018-02-05,Closed,1180,614,205,java ,4
+[Brownfield] Settings manager,2018-02-05,Merged,1178,497,27,,6
+Fix TypeScript types: Describe function more so it works with Ramda too,2018-03-12,Merged,1177,1,1,,1
+[Brownfield] Settings manager,2018-02-02,Closed,1176,"1,482",335,java ,4
+[Brownfield] Add tool for running coverage,2018-02-02,Merged,1174,"10,275",0,babelrc flowconfig gitattributes gitignore watchmanconfig js gradle ,7
+[Brownfield] Structure changes,2018-02-02,Merged,1173,607,307,java ,3
+[Brownfield] Transition of TelemetryManager,2018-02-02,Merged,1171,402,3,,2
+Brownfield apps dev tests,2018-02-01,Merged,1168,"1,658",58,gitkeep java ,4
+Brownfield apps dev general refactoring,2018-01-29,Merged,1163,207,192,,13
+[Brownfield] Add tests and coverage support,2018-01-29,Merged,1162,65,6,,1
+Brownfield apps dev update managers,2018-01-26,Merged,1161,857,0,,2
+Brownfield apps dev utils,2018-01-26,Merged,1160,921,1,gitkeep java ,3
+Brownfield apps dev data contracts,2018-01-26,Merged,1159,"1,688",0,,3
+Brownfield apps dev datacontracts,2018-01-26,Closed,1158,"2,639",4,gradle java ,6
+"Added common classes for the project: exceptions, enums, interfaces.",2018-01-26,Merged,1157,930,0,,5
+Improve README of integration of CodePush,2018-01-22,Merged,1151,8,4,,0
+Update compat table and SDK version,2018-01-10,Merged,1137,12,12,json ,2
+Support for brownfield apps,2018-01-09,Closed,1135,"24,385","1,657",js babelrc flowconfig gradle pro java xml ,9
+Add tip for CocoaPod users with new release config,2018-01-08,Merged,1130,3,1,,0
+Fix a GetFileAsync exception due to forward slash path separators,2017-12-29,Merged,1126,1,1,,1
+"[Docs] Update ""setup android"" docs with TOC and RNN apps setup instructions",2017-12-29,Merged,1122,87,5,,0
+[Docs] Add demos links for mutideployment testing,2017-12-27,Merged,1121,11,1,,0
+[Docs] Update docs with setDeploymentKey method,2017-12-25,Merged,1117,4,0,,0
+Adding check for null ref before accessing array index,2017-12-26,Merged,1116,7,1,,1
+Allow setting the deploymentKey on Android,2017-12-25,Merged,1115,4,0,,1
+Fix example project,2017-12-20,Merged,1112,3,1,,1
+Fixed iOS codesigning,2017-12-25,Closed,1106,9,1,,1
+Changed protected->public for getJSMainModuleName,2017-12-12,Closed,1105,1,1,,0
+[docs] Add information about how to configure CodePush for applications using ReactInstanceManager.builder() to initialize RN,2017-12-06,Merged,1098,37,1,,0
+Fix code error,2017-11-26,Merged,1089,7,5,,0
+CodePushDemoApp update to latest RN,2017-10-23,Merged,1054,"8,007",103,buckconfig flowconfig gitattributes gitignore watchmanconfig js prefs 49/android/app/BUCK gradle ,11
+fix(Documentation): correct url in AppDelegate.m for RN 0.49 and up,2017-10-23,Merged,1052,14,0,,0
+Enable CodePush for react-native-windows v0.50+,2017-11-16,Merged,1051,149,19,gitignore npmignore cs ,4
+Pass resolved install mode to status change callback,2017-10-17,Closed,1047,17,17,,1
+reduce readme.md size,2017-10-09,Merged,1038,150,146,,0
+hoist non-react static methods in decorator,2017-10-09,Merged,1037,5,1,json ,2
+Added requiresMainQueueSetup to prevent warning and future side-effects,2017-10-09,Merged,1035,6,1,,1
+"fixed Failing signature check on iOS 9.3, working on iOS 10.3 #1021",2017-10-03,Merged,1027,4,1,,1
+Fix proguard error in Android build,2017-09-27,Merged,1018,4,1,,1
+Fix dex index overflow exception,2017-09-18,Merged,1007,18,11,java ,2
+Add double hash checking support for code signing,2017-09-18,Merged,1005,42,19,h m ,5
+Fix incorrect link behaviour introduced with promise addition in ios postlink script,2017-09-19,Merged,1003,249,229,,1
+Remove todo from docs,2017-09-13,Merged,997,3,3,,0
+check if package metadata is null,2017-09-12,Merged,992,1,1,,1
+Readme file cleaning,2017-09-05,Closed,989,16,14,,0
+Update docs in terms of Code Signing feature,2017-09-13,Merged,988,108,4,,0
+Restore compatibility with RN v0.46,2017-09-05,Merged,980,5,0,,1
+Added create-react-native-app information to README,2017-08-29,Merged,979,1,0,,0
+Implement code signing for client ios SDK,2017-09-13,Merged,974,"6,853",21,pbxproj xcscheme h m xib json plist md ,15
+Fix WPF. Application crashes on startup,2017-08-24,Merged,973,20,6,csproj config cs ,5
+Implement code signing for client android SDK,2017-09-13,Merged,966,260,16,java ,7
+implement script to generate CodePushified React Native apps,2017-08-09,Merged,958,571,63,sh ,2
+Fix incorrect long value restoration from strings.xml,2017-08-08,Merged,956,6,2,gradle ,2
+Updated compileSdk to 26,2017-08-04,Closed,950,3,3,,1
+Updated Android/ios parts for DemoApp with RN0.47.1,2017-08-03,Merged,946,111,298,flowconfig gradle pro java xml js jse ,8
+verify code-push sdk with RN 0.47.x,2017-08-02,Merged,944,2,1,,0
+Clarify store rulings,2017-07-24,Merged,936,16,1,,0
+docs update - added InstallMode.ON_NEXT_SUSPEND option description,2017-07-18,Merged,928,3,1,,0
+Prevent Rollback crash when binary was updated.,2017-07-17,Merged,924,50,36,,1
+Update the debug message for missing bundles,2017-09-07,Merged,923,9,6,,1
+"Fix declaration of ""_installMode"" to remove warnings",2017-07-17,Merged,922,1,1,,1
+Handle TargetBinaryVersionMismatch #2,2017-07-17,Merged,920,36,12,md ts ,2
+[docs] update supported React Native platforms table,2017-07-12,Merged,917,2,1,,0
+fix NullPointerException: java.io.File.<init> (File.java:262) exception,2017-07-03,Merged,911,1,1,,1
+update compatibility table,2017-06-28,Merged,908,2,1,,0
+add support for RN 0.46.x,2017-07-07,Merged,905,13,33,,1
+Improved logic for searching plist path,2017-06-23,Merged,903,17,7,,1
+Fix dependency issue,2017-06-26,Merged,902,3,0,,1
+add support for RN 0.45.x,2017-06-26,Merged,901,20,1,,1
+Fixed incorrect link reference in docs,2017-06-22,Merged,900,1,1,,0
+[WPF] Fix application crash when storage file was deleted while app is being active.,2017-06-22,Merged,897,6,12,cs ,2
+Remove overriden createJSModules,2017-08-02,Merged,895,0,5,,1
+Why say @latest?,2017-06-20,Merged,889,1,1,,0
+Handle TargetBinaryVersionMismatch,2017-07-17,Closed,888,17,6,,1
+fix import example for #import <React/RCTLog.h>,2017-06-16,Merged,884,1,1,,0
+Fix typo in resourcesDirConfigName path configuration in codepush.gradle file,2017-06-16,Merged,876,1,1,,1
+If current package folder is null don't delete,2017-06-02,Merged,870,4,0,,1
+Use project.ext.react root prop to specify node_modules path,2017-06-02,Merged,869,6,1,,1
+Avoid to set refs on stateless components,2017-06-06,Merged,866,9,1,,1
+Fix return value for get update metadata,2017-06-01,Merged,864,3,3,,1
+Fixed issue with [Android] restartApp() throwing exception w/ release build,2017-06-01,Merged,861,5,3,,1
+Allow custom node path(#773),2017-05-26,Merged,860,5,2,,1
+Improve gradle temp file naming strategy to allow concurrent android builds.,2017-05-24,Merged,857,13,7,js ,3
+Remove support for legacy React Native versions,2017-06-05,Merged,845,25,54,,2
+Fixed issue with error on parsing plist path,2017-05-23,Merged,842,8,6,,1
+Add information about CodePush domains in iOS Setup docs,2017-06-01,Merged,830,33,0,,0
+[tvOS] Add target,2017-07-19,Merged,824,156,2,pbxproj ,2
+verify code-push service with RN 0.44,2017-05-03,Merged,820,2,2,,0
+Add ON_NEXT_SUSPEND install mode to the react-native-code-push.d.ts file,2017-05-03,Merged,819,8,1,,1
+Fix update crash by removing download key in mutableUpdatePackage.,2017-05-17,Closed,817,2,1,,1
+WPF:WINDOWS Added ability to update application installed in Program Files folder,2017-06-16,Merged,813,96,30,config cs csproj ,13
+Windows: Implemented TelemetryManager,2017-06-16,Merged,812,505,24,config csproj cs projitems ,12
+Improved logic to show error msg dependent on debug/release config,2017-05-11,Merged,811,20,16,,1
+"Remove attribute which is ‘function’ before convert to native type,  fix EXC_BAD_ACCESS error iOS",2017-05-03,Merged,809,4,1,,1
+Fixed codepush init in demo,2017-04-24,Merged,804,2,1,,1
+Fix update always available bug for newly installed android apps,2017-05-25,Merged,803,1,1,,1
+Fixed jsCodeLocation init in demo app,2017-04-19,Merged,801,5,1,,1
+Create tvOS target,2017-06-05,Closed,800,150,0,,1
+Bump code-push dependency,2017-04-14,Merged,796,1,1,,1
+Update README.md,2017-05-25,Merged,794,1,1,,0
+sync: install update even if an error occurs in callbacks,2017-04-27,Merged,787,24,3,,1
+Updated CodePushDemoApp for RN 0.43,2017-04-10,Merged,785,872,151,flowconfig gitignore Config js Examples/CodePushDemoApp/android/app/BUCK gradle xml java properties Examples/CodePushDemoApp/android/keystores/BUCK json ,16
+Fixed compile error when building CodePush with iOS app extension,2017-04-10,Merged,783,2,2,,1
+"[docs] update ""Supported React Native platforms"" table",2017-04-05,Merged,781,13,12,,0
+Check if currentPackage isn’t undefined before accessing to the isPen…,2017-04-04,Merged,779,1,1,,1
+Bump xcode dep,2017-04-04,Merged,776,1,1,,1
+installModes: implement new ON_NEXT_SUSPEND install mode,2017-04-11,Merged,770,47,6,java h m ,6
+CodePush.js: fix syncStatus value mismatch,2017-03-31,Merged,765,8,2,,1
+"flow type checking fix: use ""CodePushHash"" file name instead of ""Code…",2017-03-22,Merged,763,21,7,js ,3
+Update package.json for 1.17.3-beta and add peerDependencies,2017-03-22,Merged,761,1,1,,1
+Fix broken links to api-js,2017-03-14,Merged,752,2,2,,0
+Update README.md,2017-03-11,Merged,751,2,1,,0
+build.gradle: set Android SDK Build Tools version to 23.0.1,2017-03-07,Merged,747,1,1,,1
+Fix for #713 NullReferenceException due to missing ProcessorId key,2017-03-21,Merged,743,56,12,,1
+Verify code-push service with RN 0.42,2017-03-08,Merged,742,2,2,,0
+Removed PFX certificate from UWP example.,2017-03-06,Merged,741,0,1,pfx ,2
+Improved guide for creating different app keys more clear,2017-03-07,Merged,737,1,0,,0
+RN0.43 capacity,2017-03-23,Merged,735,3,2,,1
+Ensure that Unzipped folder does not exists before unzip,2017-03-02,Merged,732,18,6,,2
+podspec: remove leading 'v' letter from version string,2017-03-02,Merged,731,1,1,,1
+multi instance url check fix,2017-03-01,Closed,730,10,5,m ,3
+Modified Issue_Template to be more descriptive,2017-03-02,Merged,729,11,1,,0
+Update Android SDK to version 25,2017-02-28,Merged,725,2,2,,1
+Correctly outputs CodePushHash.json to custom folder,2017-02-25,Merged,712,2,3,,1
+Update Android SDK to 23.0.3,2017-02-22,Merged,710,1,1,,1
+Automate test,2017-02-21,Merged,704,76,7,js sh ,3
+[docs] readme: improved “Dynamic Deployment Assignment” chapter,2017-03-22,Closed,702,2,0,,0
+"Revert ""Test automation""",2017-02-14,Merged,700,2,105,js sh ,3
+[docs][android] readme: improved “Releasing Updates” and “Multi-Deployment Testing” c…,2017-02-07,Merged,694,10,0,,0
+codePushNativeModule: launch async tasks in parallel,2017-02-09,Merged,693,4,4,,1
+[docs][ios] readme: improved “Multi-Deployment Testing” chapter for iOS,2017-02-09,Merged,690,9,3,,0
+Test automation,2017-02-13,Merged,687,104,1,js sh ,3
+Verify code-push service with RN 0.41,2017-02-03,Merged,686,2,2,,0
+Added React Native Windows dotNet46 support,2017-02-14,Merged,684,"2,866",87,npmignore Config js json config xaml cs ,10
+CodePush: changed implementation of `getBinaryResourcesModifiedTime` …,2017-02-09,Merged,683,10,15,gradle ,3
+Split README.md into seperate setup and api docs,2017-02-09,Merged,681,"1,009","1,003",,0
+Bump package.json and update README.md for 1.17.0-beta,2017-01-24,Merged,680,4,3,json ,1
+Upgrade RN 0.40 Finalization,2017-01-24,Merged,678,22,3,h m ,5
+Update README.md,2017-01-24,Merged,677,16,2,,0
+CodePush: implement `isUsingReactNativeBundle` method.,2017-01-26,Closed,673,14,0,md ,1
+Header changes required for 0.40,2017-01-24,Merged,670,11,11,m ,4
+Improved logic for searching plist file path for iOS postlink.js,2017-02-21,Merged,666,81,3,js ,2
+[iOS][Build] Add `Headers` and `Copy Files` build phases,2017-01-20,Merged,665,18,7,pbxproj js ,2
+Fix `BuildVersionConfigKey` spelling,2016-12-28,Merged,659,4,4,,1
+Get correct apk built time,2017-02-08,Closed,654,19,2,java gradle js ,3
+Exclude build artifacts and Android Studio bits from final package,2017-01-24,Merged,652,8,1,,1
+codepush.gradle: add support for Android Plugin for Gradle with version lower than 1.3.0,2017-01-19,Merged,651,17,1,js ,2
+mention possible issue with ios configuration,2017-01-24,Merged,648,1,1,,0
+Improve post-linking process,2016-12-21,Merged,639,61,15,,2
+Upgrade example app to react-native 0.40.0,2017-01-20,Merged,638,279,30,gitignore gradle xml java pbxproj ,6
+Update header paths to compile with RN@0.40,2017-01-05,Closed,637,8,1,pbxproj ,1
+Upgrade,2016-12-07,Closed,634,"1,199",716,flowconfig gitattributes gitignore gradle java ,7
+Upgrade example app to React Native 0.39,2016-12-03,Merged,630,73,50,gitattributes gitignore java pbxproj plist json md ,7
+Fix RCTEventEmitter import for use in Swift Cocoapods projects,2016-12-03,Merged,627,5,0,,1
+Upgrade to rn 0.38,2016-11-28,Merged,624,16,12,gitignore java plist json md ,5
+Change codePush -> CodePush,2016-11-28,Closed,623,2,2,,0
+Remove MoveIt! from example section,2016-11-28,Merged,622,0,1,,0
+Update README for iOS Manual plugin installation,2016-11-28,Merged,620,2,2,,0
+update readme file to tackle the react native version issue,2016-11-21,Merged,615,2,0,,0
+Correct console message in status change example,2016-11-16,Merged,609,1,1,,0
+Fix occasionally break in oldJsCodeLocationAssignmentStatement,2016-11-14,Merged,603,1,1,,1
+Support React Native 0.37.0,2016-11-15,Merged,602,14,18,gradle plist json java ,5
+Update broken 'install RN with cocoapods' link,2016-11-12,Merged,601,1,1,,0
+ios  codePush cant load image at first install time,2016-11-15,Closed,599,63,18,java plist json ,5
+[Android] Let npm take care of versioning,2016-11-12,Merged,589,1,1,,1
+Fix comparison method in setJSBundle,2016-11-01,Merged,587,1,1,,1
+android: allow `assetsDir` and `resourcesDir` can be overridden,2017-01-24,Closed,585,5,2,,1
+Remove the project name from settings.gradle,2016-10-17,Merged,567,0,2,,1
+Fix #477 - link errors with multiple AppDelegate.m,2016-10-13,Merged,564,25,2,,1
+Support React Native 0.35.0,2016-10-12,Merged,562,5,4,md js ,2
+Ignore OSX metadata when hashing updates,2016-10-11,Merged,561,6,2,,1
+Send the CodePush plugin version with server requests,2016-10-10,Merged,560,5,5,,1
+Support RN 0.34,2016-10-06,Merged,557,64,28,pbxproj json md java ,5
+fix(async): Changing all await calls to .ConfigureAwait(false),2016-10-05,Merged,554,99,99,,4
+style(Async): Adding suffix to async static methods.,2016-10-05,Merged,552,13,13,,4
+[UWP] Use async void for ReactMethods,2016-10-05,Merged,551,109,134,,1
+style(CodePush): Minor cosmetic changes throughout project,2016-10-04,Merged,549,88,85,,4
+Fixing up project configurations to match latest in ReactWindows,2016-10-04,Merged,548,3,3,json ,2
+Fix hint path for react-native-windows .csproj,2016-10-04,Closed,547,1,1,,1
+fix(AppRestart): Fix update-on-app-restart for UWP,2016-10-04,Merged,545,0,1,,1
+Fix issue where restarts did not happen for IMMEDIATE install mode,2016-10-04,Merged,543,6,6,,1
+Upgrade example app,2016-10-03,Merged,537,264,24,js ,2
+Check that the previous package is not null,2016-09-28,Merged,535,11,4,,1
+Update README.md,2016-09-26,Merged,533,1,1,,0
+Update README.md,2016-09-26,Merged,532,1,1,,0
+Fix usage of NativeEventEmitter,2016-09-24,Merged,526,11,3,js ,2
+[doc] advice when targeting both android/ios,2016-10-05,Merged,525,3,3,,0
+Remove unnecessary config from AndroidManifest,2016-09-21,Merged,522,1,6,,2
+Allow node_modules path to be overridden in codepush.gradle,2016-09-05,Merged,508,9,3,,1
+Fix implicit conversion warning,2016-09-01,Merged,507,1,1,,1
+Check against self class in initialize methods,2016-09-01,Merged,506,7,3,,2
+Fix main bundle search regression,2016-09-01,Merged,504,1,5,m ,2
+Update deprecated iOS sendEvent method calls,2016-09-06,Merged,500,11,10,m ,2
+Guard against NSError null pointer dereferences,2016-08-31,Merged,499,90,76,m ,2
+Prevent crashes during rollbacks,2016-08-30,Merged,497,12,5,,2
+Fix 0.32 compat,2016-08-26,Merged,496,43,10,m json pro java ,5
+Proguard rules,2016-08-26,Merged,492,10,1,pro ,2
+[Android] Support React instances with no Activity,2016-08-30,Merged,491,141,55,md java ,4
+iOS SDK: Expose isPendingUpdate and isFailedHash publicly,2016-08-25,Merged,488,19,6,m ,2
+Keep sync button visible in example app for prolonged testing,2016-08-23,Merged,485,5,15,,1
+enhanced download package tolerance,2016-08-19,Merged,480,26,1,,1
+Don't bind lifecycle hooks if root component instance is not ES6 declared,2016-08-19,Merged,478,8,3,,2
+Fix the hash mismatch happening due to .DS_Store [Simulator],2016-08-17,Merged,471,5,0,,1
+Remove ReactActivity dependency,2016-08-18,Merged,470,52,55,,1
+Add api to specify custom NSBundle,2016-08-16,Merged,469,37,112,h m ,3
+Fix android patch,2016-08-13,Merged,464,1,1,,1
+Remove SoLoader and fix 0.31 compat,2016-08-11,Merged,461,86,104,,3
+Fix Android Multi-Deployment Testing Step 3 for RN >= 0.29,2016-08-09,Merged,460,17,5,,0
+bind 'this' to the react component in the callbacks codePushStatusDid…,2016-08-05,Merged,459,11,2,,1
+Mistake in README,2016-08-04,Merged,456,1,1,,0
+Update sample app,2016-08-11,Merged,455,428,"2,062",buckconfig flowconfig gitignore m js ,8
+Name the 'appVersion' parameter consistently,2016-08-04,Merged,454,2,2,,1
+Allow passing no opts to decorator,2016-08-03,Merged,451,39,32,md ,1
+Add postlink scripts,2016-08-11,Merged,450,146,20,json js ,4
+Update rnpm instructions,2016-08-02,Merged,448,20,4,,0
+Allow an app's binary version to be manually specified,2016-08-02,Merged,447,40,13,java h m ,4
+Update README with 0.30 compat,2016-08-01,Merged,446,2,2,,0
+Fix ENOTEMPTY warning,2016-08-02,Merged,443,6,22,,1
+Fix NPE caused by showing dialog while app is backgrounded,2016-07-28,Merged,441,35,3,,1
+Add @codePush decorator,2016-08-02,Merged,431,281,39,,1
+Prepend subdirectory to assets path,2016-07-14,Merged,429,14,8,m ,4
+Issue #427 - Adding subdirectory support for iOS bundle,2016-07-13,Merged,428,19,2,m ,2
+Add resume listener for immediate installs,2016-07-11,Merged,424,23,10,,1
+Fix 'unchecked call' warnings on classes obtained through reflection,2016-07-11,Merged,421,3,3,,1
+fixed DeviceEventEmitter deprecation from react native 0.27,2016-07-06,Closed,418,3,3,,1
+[Android] Guarding against NPEs in getConfiguration,2016-07-06,Merged,416,21,17,,2
+[Android] Removing native module reference from CodePush class,2016-07-06,Merged,415,4,6,,1
+Clean up gradle file,2016-07-05,Merged,413,4,9,,1
+Remove dependency on react-native-button from sample app,2016-07-01,Merged,411,6,8,json ,2
+Improve legacy restart logic,2016-07-01,Merged,410,12,10,,1
+Change the plugin's build.gradle to depend on RN 0.19.+,2016-07-01,Merged,409,2,2,,1
+No-op in CodePushPackage.m / CodePushUpdateManager.java if the pending update is already installed,2016-06-30,Merged,407,12,0,m ,2
+Fixed README docs to refer to CodePush.getBundleUrl(),2016-06-28,Closed,406,2,2,,0
+"Prepend iOS native logs with ""\n[CodePush] """,2016-06-28,Merged,405,27,12,h m ,5
+Android binary hashing when there are no asset files,2016-06-27,Merged,404,21,15,,1
+Binary Hashing (Android),2016-06-25,Merged,401,50,41,,1
+Binary hash (iOS),2016-06-24,Merged,400,13,3,,1
+Fixing some spelling mistakes in Readme,2016-06-24,Merged,399,2,2,,0
+0.29 compat + refactoring android,2016-06-27,Merged,398,945,799,md gradle ,5
+Bug fix for #379 where status report can be undefined on notifyApplicationReady,2016-06-23,Merged,397,2,2,ts ,2
+Update react.gradle location in setup docs,2016-06-22,Merged,392,1,1,,0
+fix double restart issue,2016-06-29,Merged,387,117,22,js java m ts ,8
+remove leftover files,2016-06-20,Merged,386,2,1,DS_Store ,3
+"Improving ""update is invalid"" error message",2016-06-19,Merged,385,2,2,m ,2
+Improve podspec,2016-06-19,Merged,384,5,5,,1
+Fix incorrect links in README.md,2016-06-18,Merged,382,2,2,,0
+"test/typings, devdependencies",2016-06-17,Merged,380,18,"299,049",npmignore json js ts DS_Store bin/_mocha bin/mocha bin/replace bin/search bin/uuid txt md ,21
+Expose status reports via notifyAppReady(),2016-06-17,Merged,379,151,102,,1
+Include local package mixins when returning packages from getUpdateMetadata(),2016-06-15,Merged,377,2,1,,1
+Prevent dialog from invoking callback twice,2016-06-10,Merged,373,8,1,,1
+typo,2016-06-10,Merged,370,1,1,,0
+Explicitly mark SSZipArchive headers as private,2016-06-08,Merged,369,21,21,,1
+Propagate errors thrown in update dialog button press handler,2016-06-08,Merged,368,4,3,,1
+Fix downloadProgressCallback (RCTFrameUpdateObserver bug),2016-06-08,Merged,367,14,4,,1
+add serverurl codepush constructor,2016-06-15,Closed,365,12,2,,1
+installLocation property,2016-06-08,Closed,364,39,11,java m ts ,3
+Fix bug in podspec caused by spelling,2016-06-05,Merged,363,2,2,,1
+ADD AUTOMATED TESTING,2016-06-15,Merged,357,"304,953",14,npmignore md js java ,4
+Update README.md,2016-05-26,Merged,355,1,1,,0
+Adding docs for dis/allowRestart,2016-05-25,Merged,350,75,3,,0
+Adding nozip option to podspec,2016-05-24,Merged,348,19,4,md ,1
+Tweaking log messages,2016-05-24,Merged,347,33,24,,2
+Metrics fix,2016-05-23,Merged,346,20,14,m ,2
+Add ability to delay restarts,2016-05-23,Merged,343,84,15,ts ,6
+Fix rollback status report,2016-05-20,Merged,342,14,10,m ,2
+"Remove ""More than one CodePush instance"" message",2016-05-20,Merged,341,1,5,,1
+Fixing typings,2016-05-19,Merged,340,34,23,ts ,2
+Retry Report Status if failed,2016-05-12,Merged,334,220,77,java h m ,5
+Fix for iOS7,2016-05-07,Merged,332,10,4,,2
+Reload fix,2016-05-04,Merged,331,7,0,,1
+Moving d.ts to typings folder,2016-05-04,Merged,330,0,0,,1
+Windows Support,2016-05-06,Merged,327,"1,914",14,md gitignore ,2
+Support iOS app extensions,2016-05-12,Closed,326,41,9,m ,2
+Removing props from CodePushDownloadHandler,2016-05-04,Closed,325,66,49,m ,2
+fix progress object param,2016-04-29,Merged,322,1,1,,0
+Exclude CodePush assets from backups,2016-04-28,Merged,321,5,0,,1
+Improve download progress perf,2016-04-29,Merged,316,182,98,java ,3
+Version bump,2016-04-26,Merged,315,1,1,,1
+Fixing isFirstRun on Android,2016-04-26,Merged,314,8,1,,1
+Fix rollback android,2016-04-26,Merged,311,26,22,java m ,7
+Syncing Podspec version with package.json,2016-04-25,Merged,308,7,3,,1
+Fix roll back link,2016-04-24,Merged,307,1,1,,0
+Fix - App crashes when backgrounded before an app is installed,2016-04-22,Merged,306,38,30,m json ,3
+Check and clear updates if needed during init if running JS bundle from dev server,2016-04-20,Merged,300,74,47,json ,2
+Fixing restart in debug,2016-04-19,Merged,298,13,12,,1
+Fix typo,2016-04-17,Merged,295,1,1,,0
+codePush.getUpdateMetadata,2016-04-18,Merged,294,291,153,md java ,4
+check expectedContentLength greater than zero before assert,2016-04-16,Merged,292,7,4,,1
+Version bump,2016-04-14,Merged,289,1,1,,1
+Removing use of ReflectiveOperationException,2016-04-14,Merged,288,2,3,,1
+"remote ""-beta"" from podspec -- itunesconnect error",2016-04-14,Merged,285,2,2,,1
+Updating alert adapter,2016-04-08,Merged,283,10,20,,1
+Bumping the version,2016-04-08,Merged,282,3,3,md json ,2
+Update `android` part when using `rnpm`,2016-04-08,Merged,281,0,1,,0
+Fix Android clearing dev cache on reload,2016-04-07,Merged,280,13,14,,1
+Adding RNPM config,2016-04-06,Merged,279,13,3,,1
+Android reload refactor,2016-04-05,Merged,275,69,22,,1
+remove test code from aes pwd2key.c,2016-04-05,Merged,274,0,90,,1
+Podspec version bump,2016-03-31,Merged,270,2,2,,1
+Updating release docs,2016-03-27,Merged,268,26,40,,0
+Update docs,2016-03-25,Merged,265,50,109,json ,1
+Introduce simpler getBundleUrl,2016-03-25,Merged,264,7,0,java ,1
+Fix error message,2016-03-23,Merged,262,4,2,m ,2
+Problem with a quote in Podfile section,2016-03-23,Merged,261,1,1,,0
+Simplify android setup,2016-03-24,Merged,257,62,81,md ,3
+Fix bundle file name to support multi-bundles,2016-03-24,Merged,255,8,9,,2
+Bump version for react native plugin,2016-03-17,Merged,253,2,2,,1
+Binary hash w/o assets,2016-03-17,Merged,252,11,7,,1
+Fixing xcodeproj,2016-03-17,Merged,251,5,1,,1
+Docs,2016-03-16,Merged,250,23,2,,0
+Android code cleanup,2016-03-15,Merged,246,120,147,,10
+Checking for null binary bundle,2016-03-14,Merged,244,450,399,m ,3
+Simplify JS bundle discovery strategy,2016-03-13,Merged,243,20,16,h m ,7
+Upgrading SDK dependency,2016-03-12,Merged,242,1,1,,1
+Fixing minimumBackgroundDuration on iOS,2016-03-11,Merged,240,1,0,,1
+Minimum background duration,2016-03-11,Merged,236,115,42,md java m ts ,5
+Remove unnecessary dependency from codepush.gradle,2016-03-10,Merged,235,1,2,,1
+Version bump,2016-03-08,Merged,231,3,3,md json ,2
+Removing .done call,2016-03-07,Merged,229,1,2,,1
+Fixing Podspec for Swift consumption,2016-03-05,Merged,228,18,14,h m ,3
+Troubleshooting docs,2016-03-04,Merged,227,32,1,,0
+Remove semver use,2016-03-08,Merged,225,13,10,md java m json ,4
+Adding iOS docs for RNPM/CocoaPods installation,2016-03-03,Merged,223,44,1,,0
+Change hash encoding,2016-03-02,Merged,222,1,2,,1
+mandatoryInstallMode,2016-03-02,Merged,221,19,9,md ,1
+Doc updates,2016-03-02,Merged,220,20,0,,0
+Update Readme: codepush.gradle should be build.gradle,2016-03-01,Closed,219,2,2,,0
+Handle uncleared updates during debug,2016-02-29,Merged,218,14,1,java m ,3
+getCurrentPackage should not return outdated updates,2016-02-29,Closed,216,9,0,,1
+Make loading our JS module more permissive,2016-02-27,Merged,215,48,38,,1
+iOS folder issues,2016-02-27,Merged,213,6,6,pbxproj ,1
+Removing JS bundle modified date mutation,2016-02-25,Merged,212,1,17,,1
+Hash binary resources,2016-02-27,Merged,211,479,121,gradle md java h ,7
+Adding note about App Store tip,2016-02-25,Merged,209,6,1,,0
+Verify hash after download,2016-02-19,Merged,205,375,160,java ,4
+Initial d.ts file,2016-02-17,Merged,203,283,0,,1
+Updating docs,2016-02-17,Merged,202,13,1,,0
+Fix single JS bundle release,2016-02-13,Merged,198,4,8,,1
+Version bump and doc updates,2016-02-12,Merged,197,10,3,md json ,2
+Fix getCurrentPackage,2016-02-12,Merged,196,32,14,m java ,5
+Bumping the version,2016-02-09,Merged,192,2,2,,1
+Removing the NDK section from our build.gradle file,2016-02-09,Merged,191,1,3,,1
+Fix failing tests,2016-02-09,Merged,189,10,10,,9
+Remove Async Dispatchers,2016-02-08,Merged,188,80,81,,1
+Sync Twice issue,2016-02-08,Merged,187,87,23,js m md java ,6
+Attach binary bundle date to package metadata on download,2016-02-06,Merged,186,75,24,java ,3
+Prevent crashes after downloading zip updates containing no valid jsbundle extension,2016-02-05,Merged,184,15,2,m java ,4
+Linking via RNPM,2016-02-11,Closed,181,29,110,json ,1
+Version bump,2016-02-03,Merged,179,2,2,json ,2
+Add logging and lift dev restriction on telemtry,2016-02-03,Merged,178,13,16,m ,3
+Disable metrics in debug,2016-02-03,Merged,176,9,13,m java json ,5
+Disable metrics reporting in debug mode,2016-02-02,Merged,175,19,5,gradle java ,3
+Updating docs for 1.7.0,2016-02-02,Merged,173,16,7,,0
+Upgrade to RN 0.19,2016-02-02,Merged,172,333,135,flowconfig gradle pro ,4
+Another way to init CodePush runtime for RN Android >=0.18,2016-02-02,Closed,170,9,5,,0
+CocoaPods support,2016-01-30,Merged,169,16,0,,1
+Android Asset Updates 🎉,2016-01-29,Merged,168,486,216,java ,4
+Metrics SDK Changes,2016-01-29,Merged,166,328,130,js m pbxproj ,5
+[CodePush setDeploymentKey] method,2016-01-28,Merged,165,33,19,m ,2
+Use 3-argument RCTPromiseRejectBlock,2016-02-02,Closed,164,4,4,,1
+Update README.md,2016-01-25,Merged,162,20,20,,0
+Version bump,2016-01-22,Merged,159,1,1,,1
+Adding support for .js extension,2016-01-22,Merged,158,5,2,md ,1
+Preliminary Android 0.18.0 support,2016-01-22,Merged,156,61,13,java ,1
+Fix typo in README.md,2016-01-18,Merged,154,1,1,,0
+Adding iOS debug detail,2016-01-18,Merged,151,20,8,,0
+Report Acquisition Status,2016-01-22,Merged,150,437,138,m ,7
+Add missing slash,2016-01-14,Merged,147,1,1,,0
+Adding detail around store version,2016-01-14,Merged,146,11,5,,0
+Bumping version,2016-01-09,Merged,143,1,1,,1
+alternative way to set property,2016-01-09,Merged,141,2,2,,1
+RN 0.18.0-rc fix bundleURL Assignment to readonly property,2016-01-09,Closed,140,5,1,,1
+Fixing overriding _bundleURL on RN 0.18,2016-01-09,Closed,139,2,1,,1
+Doc changes,2015-12-30,Merged,136,38,10,,0
+"MOD: Note on React Native 0.14 change the API of react-native bundle,…",2015-12-30,Closed,135,4,4,,0
+Clear rolled back package files,2015-12-29,Merged,134,13,0,java ,2
+Only clear update state in release mode,2015-12-28,Merged,133,3,0,,1
+Fixing immediate restart,2015-12-28,Merged,131,7,10,,3
+Revert to module.exports,2015-12-26,Merged,130,3,3,,3
+Adding conditional check to restartApp method,2015-12-28,Merged,129,27,12,m md java ,3
+ES7-ify project,2015-12-24,Merged,127,495,643,,11
+Clear updates on new binary,2015-12-24,Merged,125,72,37,m java ,9
+Adding release detail,2015-12-21,Merged,122,10,5,,0
+Fix bug with diff updates causing failed rollbacks,2015-12-20,Merged,120,4,4,json ,2
+Bumping the version,2015-12-19,Merged,118,2,2,,1
+Remove custom dialog,2016-02-02,Closed,117,51,125,m gradle pro json java ,12
+Tests + Bugfix,2015-12-19,Merged,116,"1,575","1,135",js m ,3
+isPending doc,2015-12-18,Merged,115,2,1,,0
+isPending property on package objects,2015-12-18,Merged,113,206,145,,1
+Version bump,2015-12-12,Merged,109,1,1,,1
+Fix date comparison bug,2015-12-12,Merged,108,52,16,,2
+Doc updates,2015-12-11,Merged,106,77,17,,0
+Clear dev bundle cache,2015-12-11,Merged,105,11,9,,1
+Remove rollback timeout,2015-12-10,Merged,104,132,151,m ,2
+Fixing comment to reflect API name change,2015-12-09,Merged,102,2,2,,1
+Version bump,2015-12-09,Merged,101,1,1,,1
+Use Application Support Directory,2015-12-09,Merged,100,21,5,m ,3
+Adding logging to UNKNOWN_ERROR sync status,2015-12-09,Merged,99,8,5,,1
+Version bump,2015-12-07,Merged,96,1,1,,1
+Rollback if the app crashed,2015-12-10,Closed,95,57,2,m ,3
+Fix semver compare when first version,2015-12-06,Merged,94,1,1,,1
+Doc improvements,2015-12-06,Merged,93,73,43,,0
+Call notifyApplicationReady during sync,2015-12-05,Merged,92,6,3,,1
+Image docs,2015-12-05,Merged,90,30,4,json ,1
+Delete bundle file if it already exists,2015-12-04,Merged,89,8,0,,1
+Adding detail around deployment key vs name,2015-12-04,Merged,88,7,4,,0
+Fixing semver check issue in checkForUpdate,2015-12-04,Merged,85,51,14,json ,2
+Enable Asset updates on iOS,2015-12-04,Merged,82,"11,195",74,m pbxproj ,4
+Avoid dismissing alert dialog when the user touches the screen,2015-12-02,Merged,81,2,0,,1
+Prevent error in deleting old packages from failing the install operation.,2015-11-29,Merged,78,5,3,,1
+Asyncify methods,2015-11-28,Merged,77,63,43,json ,2
+Download file in background on Android,2015-11-28,Merged,76,23,16,,1
+fix mandatoryContinueButtonLabel,2015-11-28,Merged,75,2,2,,1
+Fixing isFirstRun on iOS after calling restartApp,2015-11-26,Merged,74,4,4,,1
+Delete old packages,2015-11-26,Merged,73,43,8,pbxproj m java ,10
+Renaming restartPendingUpdate to restartApp,2015-11-26,Merged,72,9,60,m md java ,4
+Fix rollback,2015-11-26,Merged,71,128,155,java ,2
+Improving docs and examples,2015-11-25,Merged,70,191,125,,0
+Fixing caching issue with specifying a deployment key,2015-11-24,Merged,68,14,27,,1
+Adding more comments to the CodePush class,2015-11-24,Merged,66,163,53,,1
+Updating restartApp and setDeploymentKey,2015-11-24,Merged,64,51,80,m md ,3
+Removing 'Name' suffix,2015-11-24,Merged,63,11,11,m md ,2
+Android support,2015-11-25,Merged,62,"2,314",317,watchmanconfig js m pbxproj ,13
+Misc. product updates/improvements,2015-11-24,Merged,61,258,198,js ,2
+Bug fixes with the new sync refactor,2015-11-20,Merged,56,19,13,md json ,3
+Updated sync,2015-11-18,Merged,55,344,174,js m pbxproj ,5
+Restart on resume,2015-11-16,Merged,51,119,32,js m pbxproj ,6
+Download progress,2015-11-14,Merged,49,469,63,m pbxproj js ,7
+Adding new restartImmediately flag to the apply method,2015-11-11,Merged,43,75,19,md js ,2
+Version bump,2015-11-08,Merged,42,1,1,,1
+Fixing appstoreversion regression,2015-11-07,Merged,41,15,13,,1
+"When main.jsbundle newer than app.jsbundle time, load main.jsbundle",2015-11-07,Merged,38,14,2,,1
+Bumping the version for release,2015-11-04,Merged,37,2,2,,1
+Adding isFirstRun mention,2015-11-04,Merged,36,1,0,,0
+Use same header search path for release builds as for debug,2015-11-04,Merged,35,2,0,,1
+Is first run,2015-11-04,Merged,34,35,8,m ,3
+Use same header search path for release builds as for debug,2015-11-04,Closed,33,2,0,,1
+Adding a missing method to the package interface,2015-11-03,Merged,30,8,7,,1
+Simplify loadBundle,2015-11-02,Merged,29,4,10,,1
+"Implementing ""failedApply"" property on packages",2015-11-02,Merged,28,160,146,js ,2
+Removing @flow annotation from JS module,2015-11-02,Merged,26,0,5,,1
+Bumping the version and updating the SDK dependency,2015-10-30,Merged,25,2,2,,1
+Adding a little more detail to sync and fixing some typos,2015-10-30,Merged,24,35,25,,0
+Updating README,2015-10-30,Merged,23,208,102,,0
+CodePush.sync() API method,2015-10-29,Merged,22,91,2,,1
+Use documents directory,2015-10-28,Merged,21,13,5,m ,3
+Bumping the version and fixing license,2015-10-23,Merged,20,2,2,,1
+Drop package if there is a new native app version,2015-10-23,Merged,19,3,1,,1
+Npmignore updates,2015-10-21,Merged,18,3,2,md ,1
+Updating license,2015-10-21,Merged,17,2,2,,0
+Updating package.json,2015-10-21,Merged,16,17,5,json ,1
+CodePush for React Native on Android,2015-11-19,Closed,15,"53,921",17,gitignore watchmanconfig js gradle pro xml ,11
+"Update ""code-push"" dependency to point to npm",2015-10-20,Merged,14,1,1,,1
+Update README.md,2015-10-20,Merged,13,16,1,,0
+Recipes,2015-10-09,Merged,12,103,0,,2
+Add an error check to the update download function,2015-10-08,Merged,11,4,0,,1
+Fix update issues,2015-10-08,Merged,10,117,94,js pbxproj m json ,17
+Upgrade react-native to 0.11.4,2015-10-06,Merged,9,3,2,json ,2
+Initial pass at RN Code Push documentation,2015-10-08,Merged,8,134,6,,0
+Code push config updates,2015-10-05,Merged,7,14,13,plist js ,3
+First check in for android,2015-10-20,Closed,6,"53,892",15,gitignore watchmanconfig js aar gradle pro xml properties ,14
+Update api to match Cordova implementation,2015-09-29,Merged,5,457,175,js ,2
+Client sdk tests,2015-08-27,Merged,4,"1,209",215,h m pbxproj xcworkspacedata flowconfig gitignore ,9
+Query update with current package,2015-08-22,Merged,3,95,20,js Examples/HybridMobileDeployCompanion/react-packager-cache-5737493143262339187995942fd693ba m json ,6
+"Refactor plugin config, and change example so it can download updates",2015-08-21,Merged,2,226,102,plist js json h pbxproj ,8
+Implementation first pass,2015-07-24,Merged,1,579,24,gitignore pbxproj m jsbundle js json h ,10

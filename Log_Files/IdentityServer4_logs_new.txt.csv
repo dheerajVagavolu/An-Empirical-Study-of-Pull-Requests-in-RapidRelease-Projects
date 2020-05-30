@@ -1,0 +1,658 @@
+MTLS Update,2020-01-05,Merged,3962,308,"1,512",sh xml csproj cs p12 targets ,7
+Bump FluentAssertions from 5.9.0 to 5.10.0,2020-01-03,Merged,3959,1,1,,1
+Bump McMaster.Extensions.CommandLineUtils from 2.4.4 to 2.5.0,2020-01-02,Merged,3953,1,1,,1
+ensure correct project packed during build,2019-12-23,Merged,3941,10,10,,5
+Added MS fix for SameSite Cookies to host,2019-12-23,Merged,3940,78,0,,2
+Update PKCE and Consent default settings on Client,2019-12-27,Merged,3939,25,8,,11
+Bump SimpleExec from 6.1.0 to 6.2.0,2019-12-23,Merged,3938,1,1,,1
+Fix user code param name in DeviceController,2019-12-24,Merged,3935,48,6,,6
+Fixes inconsistency in example code,2019-12-21,Closed,3931,1,1,,1
+IdentityErrorCode added to IdentityServer4.Constants,2019-12-20,Closed,3926,26,0,,1
+Session Cookies need to be LAX,2019-12-17,Closed,3914,3,3,,2
+Remove outdated project from Community Docs,2019-12-16,Merged,3910,0,5,,1
+Small spelling fix,2019-12-12,Merged,3903,1,1,,1
+use asynchronous EF methods,2019-12-12,Merged,3895,119,167,,3
+V4: Multiple signing keys,2019-12-27,Merged,3892,363,64,,16
+Add option to prevent automatic lower-casing of Issuer url #3600,2019-12-20,Merged,3891,35,1,cs ,4
+Cleanup SignInAsync extension methods,2019-12-21,Merged,3888,39,247,,6
+V4: Make client claims serialization friendly,2019-12-27,Merged,3887,107,7,json ,7
+Bump Bullseye from 3.0.0 to 3.1.0,2019-12-09,Merged,3886,1,1,,1
+make TokenCleanupInterval more realistic,2019-12-05,Merged,3875,1,1,,1
+Update crypto.rst,2019-12-03,Merged,3871,1,1,,1
+Replaces my name with my company name,2019-12-02,Merged,3870,1,1,,0
+Workaround for native redirect problem,2019-11-29,Merged,3863,359,6,cs csproj ,6
+Bump Microsoft.SourceLink.GitHub from 1.0.0-beta2-19554-01 to 1.0.0,2019-11-27,Merged,3861,1,1,,1
+Updated Jwt.io link to jwt.ms link,2019-11-26,Merged,3855,1,1,,1
+"Revert ""Blazor Sample Added""",2019-11-21,Merged,3848,0,331,razor csproj cshtml cs json ,13
+Added invalid target token request error,2019-11-25,Merged,3842,7,1,,2
+Add remarks about custom implementation of IResourceOwnerPasswordValidator for the corresponding flow.,2019-11-28,Closed,3840,10,0,,2
+Bump EntityFrameworkVersion from 3.0.0 to 3.0.1,2019-11-28,Closed,3835,1,1,,1
+Bump ExtensionsVersion from 3.0.0 to 3.0.1,2019-11-28,Closed,3834,1,1,,1
+Cache the CheckSessionResult Script string,2019-12-20,Merged,3823,31,1,,2
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.4,2019-11-12,Merged,3812,1,1,,1
+Bump Serilog.AspNetCore from 3.1.0 to 3.2.0,2019-11-12,Merged,3811,3,3,,3
+Updated EF Quickstart,2019-11-12,Merged,3809,"64,232",184,,3
+Bump Newtonsoft.Json from 12.0.1 to 12.0.3,2019-12-10,Closed,3807,1,1,,1
+Bump Microsoft.NET.Test.Sdk from 16.3.0 to 16.4.0,2019-11-07,Merged,3800,1,1,,1
+Bump IdentityModel from 4.0.0 to 4.1.0,2019-11-06,Closed,3798,1,1,,1
+"Docs: Install the current ""v2"" version of the IdentityServer templates (#3795)",2019-11-05,Merged,3796,2,2,,2
+Some backslashes needed quoting,2019-11-05,Merged,3794,1,1,,1
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.3,2019-11-12,Closed,3790,1,1,,1
+Bump Microsoft.SourceLink.GitHub from 1.0.0-beta2-19367-01 to 1.0.0-beta2-19554-01,2019-11-04,Merged,3789,1,1,,1
+Blazor Sample Added,2019-11-21,Merged,3786,331,0,razor csproj cshtml cs json ,13
+fix typo 'font-channel' in grant_types.rst,2019-10-24,Merged,3767,1,1,,1
+Docs: Update 6_javascript_client.rst,2019-10-24,Merged,3764,1,1,,1
+Docs: Update 3_aspnetcore_and_apis.rst,2019-10-24,Merged,3763,2,2,,1
+Bring back /resources audience for legacy token validation scenarios,2019-10-23,Merged,3760,20,0,cs ,3
+Adding the nuget package dependency,2019-10-24,Merged,3759,6,1,,1
+generate and return session_state for error authorization responses that are prompt=none,2019-12-10,Merged,3756,"28,461",328,,1
+Bump Microsoft.IdentityModel.Protocols.OpenIdConnect from 5.5.0 to 5.6.0,2019-11-28,Closed,3755,1,1,,1
+Update nuget package project urls,2019-10-18,Merged,3748,4,4,,4
+Bump Serilog.Sinks.File from 4.0.0 to 4.1.0,2019-10-22,Merged,3747,3,3,,3
+Update Quickstarts 1-3 for ASP.NET Core 3,2019-10-22,Merged,3746,"60,395","73,826",,3
+Update 1_client_credentials.rst,2019-10-17,Closed,3744,9,4,,1
+Bump Serilog.AspNetCore from 2.1.1 to 3.1.0,2019-10-15,Merged,3737,3,3,,3
+Bump Serilog from 2.8.0 to 2.9.0,2019-10-14,Merged,3731,3,3,,3
+trim and align top-level build scripts,2019-10-14,Merged,3730,36,121,sh ,2
+EF Core 3.0 Performance Fix,2019-10-18,Merged,3727,106,29,,2
+small text change in grant types,2019-10-13,Closed,3724,1,1,,1
+Add more comments to 'claims' parameter of GrantValidationResult constructor.,2019-11-03,Closed,3713,4,2,,1
+Change HttpRequest/Response extension method namespace,2019-10-23,Merged,3704,13,4,,11
+Replace GetApis() with GetApiResources(),2019-10-07,Merged,3703,3,3,,1
+Update grant type guidance,2019-10-07,Merged,3702,63,81,,1
+Provide details on claims parameter.,2019-10-07,Merged,3701,4,2,,1
+Removed obsolete code,2019-12-27,Merged,3692,22,127,,8
+update Bullseye and SimpleExec to RC1,2019-09-30,Merged,3688,7,7,targets ,6
+Updated identityserver.com commercial support,2019-09-28,Merged,3683,2,2,,1
+Removed recommendation to use implicit/hybrid Grant Types,2019-10-09,Closed,3675,1,1,,1
+EF Async,2019-12-11,Closed,3674,110,127,,3
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.2,2019-09-25,Closed,3667,1,1,,1
+Check user active/passive from IPassiveable first on ProfileService,2019-12-10,Closed,3657,24,0,cs ,3
+Bump Microsoft.NET.Test.Sdk from 16.2.0 to 16.3.0,2019-09-20,Merged,3650,1,1,,1
+Honour EnableDeviceAuthorizationEndpoint in IsEndpointEnabled,2019-10-22,Merged,3645,138,1,,2
+Bump McMaster.Extensions.CommandLineUtils from 2.4.0 to 2.4.1,2019-09-25,Closed,3641,1,1,,1
+Bump McMaster.Extensions.CommandLineUtils from 2.3.4 to 2.4.0,2019-09-16,Merged,3635,1,1,,1
+use just .NET Core 3.0 SDK for CI,2019-09-15,Merged,3631,5,15,csproj targets ,6
+move entirely to netcoreapp3.0,2019-09-14,Closed,3630,56,66,csproj ,42
+Pointing to the maintained migration scripts,2019-09-13,Merged,3629,1,1,,1
+Sample support access token refresh failure,2019-09-09,Merged,3617,2,1,,1
+Bump FluentAssertions from 5.7.0 to 5.9.0,2019-09-09,Merged,3616,1,1,,1
+Bump McMaster.Extensions.CommandLineUtils from 2.3.3 to 2.3.4,2019-09-09,Merged,3615,1,1,,1
+Bump Newtonsoft.Json from 12.0.1 to 12.0.2,2019-09-09,Closed,3614,1,1,,1
+Switch to ASP.NET Core 3,2019-09-08,Merged,3609,"3,041","2,062",ps1 rst json jpg snk sln targets csproj ,22
+key management samples,2019-09-07,Merged,3606,790,1,cs csproj json sln ,11
+Microsoft.AspNetCore.Authentication.Abstractions nuget package deleted,2019-09-07,Merged,3602,2,3,,2
+Fixed Typo,2019-09-05,Merged,3595,2,2,,1
+Clarify the purpose of claimTypes parameter of IdentityResource constructor,2019-09-06,Closed,3591,2,2,,1
+Clarify the purpose of claimTypes parameter of ApiResource constructor.,2019-09-06,Closed,3588,2,2,,1
+identify the builds for each solution in the logs,2019-09-07,Merged,3586,32,27,csproj targets ,11
+Re-factor logic to turn Secrets into SecurityKeys,2019-09-01,Merged,3584,47,87,,3
+Updated tests for EF Core 3,2019-09-05,Merged,3582,197,26,,8
+Bump Serilog.AspNetCore from 2.1.1 to 3.0.0,2019-08-28,Closed,3570,3,3,,3
+EF Tests,2019-08-27,Merged,3565,4,1,,1
+Emit Integer64 for Epoch Time,2019-08-27,Merged,3563,7,7,,6
+Added test for validation keys with different algorithms,2019-08-26,Merged,3562,25,0,,1
+Support specific signing algorithms per validation key,2019-08-26,Merged,3561,81,52,,9
+Removed scheme checking in cors origin validation.,2019-12-06,Closed,3559,31,35,,4
+Update specs.rst,2019-08-22,Merged,3556,1,1,,1
+Update specs.rst,2019-08-22,Closed,3555,1,1,,1
+Update 6_aspnet_identity.rst,2019-08-27,Closed,3545,1,1,,1
+Fix typo in ConsentGrantedEvent xml document,2019-08-27,Merged,3540,2,2,,1
+Bump AutoMapper from 8.1.1 to 9.0.0,2019-09-07,Closed,3538,1,1,,1
+Ecdsa curve handling,2019-08-24,Merged,3534,161,7,csproj ,7
+Update readme.md,2019-08-09,Merged,3525,1,1,,0
+move logging before removal so the PromptMode is included in the logging,2019-08-27,Merged,3523,3,3,,1
+Move HTTP context accessor access to a later point in JwtRequestValidator,2019-08-06,Merged,3517,19,3,,1
+Update to IdentityModel v4,2019-08-05,Merged,3514,6,6,cs ,4
+Set typ header for access tokens,2019-08-06,Merged,3513,183,122,,8
+Add support for additional signing algorithms,2019-08-05,Merged,3511,412,119,cs ,4
+Update request_object.rst,2019-08-02,Merged,3509,8,1,,1
+Update add_apis.rst,2019-08-02,Merged,3508,26,2,,1
+Introduce option to omit ~/resources in JWT access tokens,2019-08-05,Closed,3503,78,13,cs ,6
+Update Quickstart Overview,2019-07-30,Closed,3498,5,3,,1
+Fix log exception while user authentication failed,2019-07-30,Merged,3494,1,1,,1
+Merge pull request #1 from IdentityServer/master,2019-07-30,Closed,3493,0,0,,0
+fix JS for automatic signout redirect,2019-07-30,Merged,3491,1,1,,1
+ensure SDK version for MinVer is installed,2019-07-28,Merged,3490,12,0,,1
+test MinVer in isolation in CI,2019-07-28,Closed,3489,18,145,ps1 sh ,3
+Update Startup.cs,2019-07-29,Closed,3488,1,1,,1
+Update 1_client_credentials.rst,2019-07-27,Merged,3486,1,1,,1
+CORS validation handling normalized URIs,2019-07-30,Merged,3478,7,7,,2
+Update 8_aspnet_identity.rst,2019-08-27,Merged,3476,1,1,,1
+Since ClientId was introduced on the base class (for impersonation) -…,2019-07-24,Merged,3471,0,8,,1
+3445 refresh token logs,2019-07-24,Merged,3468,44,3,,3
+Fix/3431,2019-07-30,Merged,3467,33,7,,2
+Easier support for impersonating clients,2019-07-23,Merged,3464,58,3,,4
+Easier Authorization Code extensibility,2019-07-23,Merged,3463,17,9,,2
+Introduce separate property to hold the values of the request object,2019-07-23,Merged,3462,51,4,,4
+update aspnet_identity doc,2019-07-18,Merged,3452,2,0,,1
+Set client id in user login events from resource owner password validator,2019-07-23,Merged,3442,6,5,,1
+check that HttpContext is set before setting AudienceUri (#3436),2019-08-05,Closed,3437,5,2,,1
+grammar fix,2019-07-14,Merged,3432,1,1,,1
+Tiny spelling fix,2019-07-13,Merged,3428,1,1,,1
+Fix the scheme name for external providers,2019-11-02,Closed,3424,2,2,,1
+Add claims transformation event to local API authN handler,2019-07-12,Merged,3422,97,6,,5
+add AddValidationKeys signature accepting X509Certificate2[] (#3383),2019-07-10,Merged,3409,16,1,,1
+add scope to all token responses,2019-07-09,Merged,3406,8,13,,1
+Update 6_javascript_client.rst,2019-07-05,Merged,3394,1,1,,1
+Added scope param to token endpoint for device grant type,2019-07-09,Merged,3392,20,1,,3
+Added check to scope validator for missing identity and api scopes,2019-07-09,Merged,3391,18,0,,2
+Update community.rst,2019-07-03,Merged,3389,1,1,,1
+repro PR for Incorrect secret type for missing secret in BasicAuth #2975,2019-07-04,Merged,3388,31,10,,2
+add message store abstraction on authorization request params,2019-07-02,Merged,3382,297,23,,9
+Authentication errors should redirect by default,2019-07-08,Closed,3381,4,4,,1
+JwtRequestValidator extensibility,2019-07-02,Merged,3373,126,79,,2
+Bump Serilog from 2.7.1 to 2.8.0,2019-06-26,Merged,3371,3,3,,3
+Bump Microsoft.Extensions.Http.Polly from 2.1.0 to 2.2.0,2019-06-26,Merged,3370,1,1,,1
+Bump AutoMapper from 8.1.0 to 8.1.1,2019-07-03,Merged,3369,1,1,,1
+Update ef.rst,2019-06-21,Merged,3357,1,1,,1
+Update broken links in Quickstarts Sample.,2019-06-20,Merged,3352,9,9,,0
+update sample readme.md,2019-08-07,Closed,3346,0,0,,0
+Docs: Add API Resources appsettings.json similar to client,2019-06-24,Merged,3345,27,0,,1
+Restricted nuget sources so that private repos do not break the comma…,2019-06-23,Merged,3344,1,0,,1
+Fix broken links to IdentityServer4.Samples,2019-06-06,Merged,3318,9,9,,9
+fix(Quickstarts): Docs contained broken links,2019-06-04,Merged,3313,7,7,,2
+should never cache temporary data with no expiration,2019-06-30,Merged,3298,8,2,,1
+Improvements to Protecting an API using Client Credentials quick-start.,2019-05-29,Merged,3295,57,35,,1
+Null check for Ensure extension methods,2019-05-25,Merged,3277,2,2,,1
+Handle unknown idp at login,2019-05-20,Merged,3276,2,2,,1
+upgrade to MinVer 1.0.0 RC1,2019-05-22,Merged,3275,1,3,,1
+Docs: Add developer Signing Credential during the IdentityServer configuration,2019-09-07,Closed,3273,7,0,,1
+Fix link formatting,2019-05-17,Merged,3271,3,2,,1
+Update to current nuget packages,2019-05-11,Closed,3260,9,9,,1
+"Fix duplicating word: ""the""",2019-05-10,Merged,3258,9,9,cs ,6
+Prototype for pluggable authN MW,2019-07-09,Merged,3254,23,2,,2
+Use Task.CompletedTask to reduce allocations,2019-05-02,Merged,3243,2,2,,1
+Add support for signed authorize requests,2019-05-01,Merged,3241,"1,418",26,cs config ,10
+Add Client.Id and to UserLoginSuccessEvent and UserLoginFailureEvent,2019-04-30,Merged,3234,49,16,,5
+Fix typos in mtls.rst,2019-04-29,Merged,3232,3,3,,1
+allow fragment response_type for code grant type #2875,2019-04-29,Merged,3230,46,20,,4
+Make back channel signout a first class service,2019-04-30,Merged,3229,255,115,csproj cs ,11
+Updating automapper version sorry Brock :(,2019-04-30,Merged,3228,1,1,,1
+Fix comment typos,2019-04-26,Merged,3224,2,2,,2
+Update sample code in docs for G+ deprecation,2019-04-30,Closed,3222,17,2,,1
+LogInformation changed to LogDebug,2019-04-25,Merged,3215,1,1,,1
+add ability to reuse dependencies of `ResourceOwnerPasswordValidator`,2019-04-28,Closed,3202,22,22,,1
+Allowed usage of relative and absolute verification URIs for device authorization,2019-04-30,Merged,3201,21,2,,2
+Device Code Cleanup,2019-05-03,Merged,3200,70,34,,1
+Added scottbrady91.com blog posts,2019-04-23,Merged,3189,4,1,,1
+Updated support link,2019-04-23,Merged,3188,1,1,,0
+Add support to carry an error description back to third party clients on authorize error results,2019-04-30,Merged,3183,35,1,,4
+Fix documentation hyperlink,2019-04-10,Merged,3182,1,1,,1
+Minor doc formatting,2019-04-08,Merged,3176,1,1,,1
+remove some redundant file entries,2019-04-04,Merged,3168,1,3,sln ,2
+Creating question option template for issues,2019-04-04,Merged,3167,27,1,,0
+Add link to templates repository,2019-04-24,Closed,3164,1,1,,1
+[WIP] remove hardcoded package dependency version,2019-04-04,Closed,3163,21,7,,1
+make UserClaimsFactory public #2696,2019-04-30,Closed,3149,2,2,,1
+call flush async #3096,2019-04-11,Merged,3148,6,2,,2
+Log request details on more log messages,2019-04-30,Merged,3143,21,7,,1
+broken link fixed,2019-03-29,Merged,3141,1,1,,1
+Make config.cs a link,2019-03-29,Merged,3138,2,2,,1
+Adding code-block formatting to clients.rst,2019-03-29,Merged,3136,2,2,,1
+Add appsettings.json sample to clients.rst,2019-03-28,Merged,3133,25,0,,1
+fix typo in startup topic,2019-03-26,Merged,3123,1,1,,1
+Switch to Bullseye/Simple-Exec/MinVer,2019-03-25,Merged,3117,675,"2,449",targets yml ps1 sh json ,8
+Re-structure to mono repo,2019-03-19,Merged,3109,"58,770",715,yml ,2
+Update 1_client_credentials.rst,2019-04-04,Merged,3104,1,1,,1
+Add community post,2019-03-14,Merged,3098,1,0,,1
+Update blogs.rst,2019-03-13,Merged,3095,1,0,,1
+Docs Adding some community posts,2019-03-13,Merged,3094,5,0,,1
+Added Code and Text for Changing Default Schema,2019-03-12,Merged,3091,8,1,,1
+"Clearer instructions, more n00b friendly.",2019-04-04,Merged,3088,15,3,,1
+Added Code and Text for Changing Default Schema,2019-03-12,Closed,3087,9,0,,1
+Update api_resource.rst,2019-03-05,Closed,3074,1,1,,1
+Fix StringExtensions.GetOrigin throws for malformed URI #3065,2019-03-03,Merged,3066,36,2,,2
+Fixed bug where the Subject was not being set on the ValidatedRequest and would not end up in the TokenIssuedSuccessEvent using Code flow,2019-04-30,Closed,3059,2,1,,1
+Provide a client application that handles cancel option from Identity Server/HomeController.Login,2019-02-27,Closed,3040,"1,256",291,ps1 sh rst cs csproj json ,15
+Point to correct download url,2019-02-14,Merged,3030,1,1,,1
+Add LocalAccessTokenValidation authentication scheme,2019-02-14,Merged,3028,181,0,,4
+Add LocalAccessTokenValidation authentication scheme,2019-02-14,Closed,3027,181,0,,4
+Added OIDC check to Default Client Config Validator,2019-02-14,Merged,3024,15,12,,1
+Changed deprecated DiscoveryClient to HttpClient with GetDiscoveryDoc…,2019-02-12,Closed,3022,5,4,,1
+"Adds ""zero config"" support for local APIs that use JWTs",2019-02-11,Closed,3016,160,2,csproj ,8
+Fix typo in 1_client_credentials.rst,2019-02-07,Merged,3007,1,1,,1
+mutual TLS support,2019-02-11,Merged,3006,438,7,csproj json config ,14
+typo - response change to tokenResponse,2019-02-01,Merged,2997,1,1,,1
+Update 1_client_credentials.rst,2019-02-11,Merged,2992,21,21,,1
+"Support for ECDSA-based signatures (ES256, ES384, ES512)",2019-04-04,Closed,2983,680,409,cs csproj ,7
+Incorrect secret type for missing secret in BasicAuth,2019-07-04,Closed,2975,32,13,,2
+Revert JWK content type change,2019-02-14,Closed,2961,5,5,,2
+[WIP] Add pair wise subject support,2019-04-04,Closed,2959,97,8,,8
+updated source code example,2019-02-22,Closed,2949,1,1,,1
+Minor typo fix,2019-01-11,Merged,2941,1,1,,1
+Add server_error and temporarily_unavailable error codes,2019-01-08,Closed,2932,12,2,,1
+Fixed variable name mismatch,2019-01-07,Merged,2928,1,1,,1
+Updated text to refer to the 'AddJwtBearer()' method,2019-01-07,Merged,2927,2,2,,1
+Code example updates and required NuGet package notice,2019-01-05,Closed,2926,7,3,,1
+Correct GetApiResources to GetApis,2019-01-04,Merged,2924,1,1,,1
+Outdated property name .ApiName now .Audience,2019-01-04,Merged,2923,1,1,,1
+Scrub id token hint from endsession request log,2019-01-07,Merged,2917,1,1,,1
+Fix link to sponsors,2019-01-02,Merged,2915,1,1,,0
+Add note about .net Core 2.1 on adding EF Tooling,2019-01-04,Closed,2914,3,3,,3
+Update documentation to not use deprecated methods,2019-01-03,Closed,2913,13,6,,1
+Replace deprecated code,2019-01-11,Closed,2912,18,13,,1
+Update signin_external_providers.rst,2018-12-18,Merged,2904,1,1,,1
+Add support to carry an error description back to third party clients on authorize error results,2019-04-04,Closed,2902,36,2,cs ,5
+Fix firefox back navigation error after authorize,2019-01-15,Closed,2881,7,7,,2
+AddDeviceFlowStore extension,2018-12-07,Merged,2880,13,0,,1
+Update sponsors.md with a twitter handle,2018-12-06,Merged,2874,1,1,,0
+Device code lifetime check,2018-12-06,Merged,2868,6,0,,1
+Update client docs for UserSsoLifetime,2019-04-04,Merged,2867,2,1,,1
+Fix link to Quickstart repository,2018-12-02,Merged,2862,2,2,,1
+Update Quickstarts,2019-01-02,Merged,2856,476,600,,3
+Fix Docs broken link of Config.cs,2018-11-30,Merged,2854,3,2,,2
+text readme refer to a broken link,2018-11-30,Merged,2840,3,2,,2
+Fix broken links for #2837,2018-11-30,Merged,2838,5,4,,2
+link to the release branch is broken.,2018-11-30,Merged,2836,3,2,,2
+Updated ConsentPageResult to use GetIdentityServerBasePath,2018-11-29,Merged,2835,2,2,,1
+Correct URL for direct download of library,2018-11-30,Merged,2817,1,1,,1
+Documentation updates from IdentityServer4.EntityFramework to IdentityServer4.EntityFramework.Storage,2018-11-30,Merged,2816,2,2,,1
+Support hosting the identity server as a WebAPI,2018-12-08,Closed,2808,27,0,,3
+Null check for device flow interaction service,2018-11-13,Merged,2798,1,0,,1
+Device flow docs,2018-11-13,Merged,2797,93,5,,8
+Add AddPersistedGrantStore<T> extension method for IIdentityServerBuilder,2018-11-07,Merged,2783,14,0,,1
+unnecessary boolean literals,2018-11-05,Closed,2777,91,89,,13
+Device flow (take 2),2018-10-30,Merged,2760,"3,743",21,cshtml ,6
+Endpoint returns wrong WwwAuthentication header,2018-11-04,Merged,2752,3,2,,1
+Enhance object logging,2018-11-04,Merged,2745,49,71,csproj ,10
+Fix a typo in TokenErrorResult.cs,2018-11-04,Merged,2742,2,2,,1
+Unify empty string,2018-11-04,Merged,2730,18,18,,11
+Add null check on Consent page,2018-10-18,Merged,2729,2,2,,1
+Resolution of Documentation version 1.0.0 PDF (2018-05-15) has incorrect document structure,2018-10-10,Merged,2699,21,41,,1
+Changed level from error to warn on refresh token,2018-11-04,Merged,2695,23,3,,2
+Review1 changes,2018-10-25,Merged,2694,"3,773","4,538",gitignore yml sln MD cake ,5
+Fixed SQL scripts link,2018-10-05,Merged,2688,1,1,,1
+"Revert ""Make some internal types public to facilitate custom service implementations""",2018-10-02,Closed,2668,11,14,,7
+Corrected internal value for ParsedSecretTypes.JwtBearer,2018-10-02,Merged,2658,1,1,,1
+Update 8_entity_framework.rst,2018-10-02,Closed,2648,11,3,,1
+External PR test,2018-09-22,Closed,2639,0,1,,1
+(maint) Testing GitVersion from external repository,2018-09-22,Closed,2638,215,213,,0
+Changing cake file to skip versioning on non-Windows,2018-09-22,Merged,2637,54,32,cake ,2
+[brock: do-not-merge] Use Mono for GitVersion if Unix & .NET Core,2019-01-22,Closed,2636,63,43,,1
+Update 3_interactive_login.rst,2018-10-02,Merged,2630,5,0,,1
+Add ApiController attribute,2018-09-19,Closed,2627,1,0,,1
+Change: error code in TokenValidator class,2018-10-10,Merged,2617,2,2,,1
+Update secrets.rst,2018-09-11,Merged,2611,2,2,,1
+Change: Made DefaultUserSession.AuthenticateAsync overrideable,2018-10-02,Merged,2607,4,4,,1
+Update introspection.rst,2018-09-10,Merged,2606,1,1,,1
+Create jwk document when signing with JsonWebKey,2018-09-10,Merged,2604,17,0,,1
+Add strong name,2018-09-07,Merged,2597,26,11,csproj cs ,5
+Switch to new cake build version,2018-09-06,Merged,2593,99,451,,1
+6_aspnet_identity.rst,2018-08-23,Merged,2570,1,1,,1
+Update path to SQL scripts,2018-10-02,Merged,2561,1,1,,1
+Make some internal types public to facilitate custom service implementations,2018-10-02,Merged,2545,14,11,,7
+"resolve login/logout url, et al from named options",2018-08-12,Merged,2540,35,28,,3
+Allow replacing tokenEnd point with my customToken End point #2273,2018-10-04,Closed,2534,99,6,,7
+Fixes 404,2018-08-08,Merged,2527,1,1,,1
+enable default client validator by default,2018-08-07,Merged,2525,10,6,,5
+Remove obsolete constructor on DefaultCustomTokenValidator,2018-08-07,Merged,2524,5,14,,2
+add option to explicitly configure the cookie auth scheme for interac…,2018-08-06,Merged,2516,42,6,,6
+add better/more error descriptions to authorize response validator #2218,2018-08-06,Merged,2515,16,15,,2
+Add parameters to IntrospectionRequestValidationResult - #2388,2018-08-06,Merged,2512,7,4,,1
+add invalid uri scheme validation,2018-08-06,Merged,2506,169,3,,5
+fix ??-operator priority,2018-08-07,Closed,2499,36,3,,2
+Make EndSession public,2018-08-02,Closed,2470,1,1,,1
+Device Flow User Interaction,2018-07-10,Merged,2449,201,5,cshtml ,13
+Fix grammar/spelling mistakes in log statements,2018-07-09,Merged,2447,4,4,,2
+Add built-in support for Confirmation (cnf),2018-07-15,Merged,2440,186,51,,12
+Device Flow Response Validator,2018-07-06,Merged,2422,"1,027",9,,8
+Code refactoring on UpdateRefreshTokenAsync,2019-04-04,Closed,2418,195,42,,3
+Device Flow Authorization Endpoint,2018-06-20,Merged,2403,560,21,,7
+Update extension_grants.rst,2018-06-19,Merged,2396,1,1,,1
+Response generator & tests,2018-06-19,Merged,2395,"1,043",7,,9
+Add details to logError in TokenRequestValidator,2018-07-06,Merged,2393,13,9,,1
+Validator tests,2018-06-18,Merged,2391,309,83,,3
+Documentation: Added claimsaction to map website claim,2018-08-04,Merged,2377,3,1,,1
+Documentation: Added claimsaction to map website claim,2018-06-12,Closed,2376,3,1,,1
+Documentation: Added claimsaction to map website claim,2018-06-12,Closed,2375,3,1,,1
+Make client secret optional while parsing basic authentication secret,2018-06-22,Merged,2374,73,30,,4
+Patch 1,2018-06-07,Merged,2368,2,2,,2
+Fixed typo,2018-06-05,Merged,2360,1,1,,1
+Filter identity scopes and offline_access when no explicit scopes are specificed in client credentials,2018-06-05,Merged,2358,45,19,,4
+"Dont log SecurityTokenExpiredException as error, since it is not",2018-06-05,Merged,2357,5,0,,1
+Change sdk version from 2 to 2.x,2018-06-05,Merged,2355,1,1,,0
+Use AppVeyor for Linux builds,2018-06-03,Merged,2354,144,204,ps1 ,3
+Update to ASP.NET Core 2.1,2018-06-04,Merged,2344,47,46,cs ,6
+Fix incorrect log message,2018-06-05,Merged,2336,2,2,,1
+adds check for Client credentials and removes open id scopes,2018-06-05,Closed,2324,9,1,,2
+Adds AllowAccessTokensViaBrowser to Implicit client example,2018-05-17,Closed,2320,5,1,,2
+API example uses userinfo endpoint,2018-05-16,Merged,2318,2,0,,1
+Update refresh_tokens.rst,2018-08-07,Merged,2316,1,1,,1
+Add device flow authorize request validator,2018-05-13,Merged,2306,296,0,,5
+Extension Grant flows need all the data of the request at the final build of the claims.,2018-06-19,Merged,2298,21,6,,2
+Add Serilog instructions for ASP.NET Core 2,2018-05-13,Merged,2297,38,3,,1
+Add support for OAuth 2.0 Device Flow [WIP],2018-11-04,Closed,2284,"6,310","3,739",gitignore yml sln MD cake ,5
+Add descscription to client,2018-08-03,Closed,2282,27,9,cshtml ,5
+Changed AddScriptCspHeaders and AddStyleCspHeaders from internal to p…,2018-08-04,Closed,2260,3,3,,1
+Fix setting BearerToken,2018-04-17,Merged,2239,1,1,,1
+Add more strict cache control headers when softer headers are already added by HttpContext.SignInAsync,2018-08-04,Closed,2234,4,1,,1
+Removed await from synchronous test.,2018-04-14,Merged,2230,1,1,,1
+Split controllers in local login/logout and external challenge/callback,2018-04-05,Merged,2204,285,216,cs ,2
+Add client configuration validation infrastructure,2018-04-05,Merged,2200,266,5,,9
+Added events for granted/denied consent,2018-04-05,Merged,2199,177,29,cs ,8
+IdentityModel example correction in documentation,2018-03-28,Merged,2182,2,2,,1
+Spelling corrections in documentation,2018-03-14,Merged,2148,14,14,,13
+Fix invalid grant type validation result,2018-03-02,Merged,2127,2,2,,1
+explicitly set the default value of base target in html response from AuthorizeResult,2018-03-31,Merged,2121,3,2,,2
+Minor documentation fix,2018-02-28,Closed,2119,8,3,,4
+Update authorize.rst Fix IdentityModel example,2018-02-26,Merged,2109,1,1,,1
+Use HttpMethods.IsGet() and HttpMethods.IsPost() instead of string comparison,2018-02-22,Merged,2099,23,23,,11
+Update 8_entity_framework.rst Fix templates link,2018-02-22,Merged,2097,1,1,,1
+Better exception logging in TokenValidator,2018-02-22,Merged,2095,2,2,,1
+Better exception logging in TokenValidator,2018-02-21,Closed,2094,3,3,,1
+Update unhandled exception logging,2018-02-21,Merged,2091,2,2,,1
+update log of valdiation with the expected values,2018-02-27,Merged,2081,12,11,,1
+fixed typo,2018-02-15,Merged,2075,1,1,,1
+Updates fluent assertions to v5 and fixes complile errors,2018-02-06,Merged,2054,35,35,csproj ,17
+Fix Basic Authentication encoding to fully comply with RFC6749,2018-02-06,Merged,2052,15,6,cs ,4
+Unlimited refresh lifetime in 1.5.2,2018-02-12,Closed,2049,248,104,,3
+Format headings and add bash script build information,2018-02-04,Merged,2048,9,8,,0
+Update aspnet_identity.rst,2018-02-01,Merged,2041,1,1,,1
+Add  Content-Security-Policy options,2018-04-14,Merged,2035,253,43,,9
+Quickstarts: devDependencies should be dependencies in package.json,2018-01-25,Merged,2027,3,3,,1
+remove extra blank line,2018-01-19,Merged,2011,0,1,,1
+Updates to ASP.NET Identity quickstart docs,2018-11-30,Closed,2008,39,158,png ,14
+Suggestion for an update to the documentation for using the IdentityServer4.EntityFramework NuGet package.,2018-01-17,Merged,2003,2,0,,1
+Update AccessTokenTypes to AccessTokenType,2018-01-17,Merged,2000,1,1,,1
+Correct link in docs,2018-01-11,Merged,1974,1,1,,1
+Add missing word 'request' in grant_types.rst,2018-01-10,Merged,1966,2,2,,1
+Update 1_client_credentials.rst,2018-01-08,Merged,1954,1,1,,1
+Log full exceptions when available to aid in debugging,2018-01-08,Merged,1948,15,15,,7
+Fix string concat problem in log messages,2018-01-03,Merged,1936,238,15,csproj ,4
+Wrong link in documentation,2018-01-04,Closed,1928,2,1,rst ,1
+Fix doc to set AllowedGrantTypes line,2017-12-26,Closed,1912,1,1,,1
+Formatting,2017-12-27,Merged,1910,5,5,,1
+only emit session id cookie if check session endpoint is enabled,2017-12-21,Merged,1903,8,5,,1
+Add ClientName to LogutMessage and LogoutRequest,2017-12-20,Merged,1893,16,4,,2
+Fix #1882,2017-12-18,Merged,1886,1,1,,1
+Unlimited refresh lifetime,2017-12-21,Merged,1879,251,5,cs ,3
+fixed typo,2017-12-14,Merged,1874,1,1,,1
+Spelling correction in startup.rst,2017-12-08,Merged,1845,1,1,,1
+BackchannelLogoutClient throws exception while generating the logout token,2017-12-04,Merged,1829,31,15,,5
+fix incorrect comment about default grant type,2017-12-04,Merged,1827,1,1,,1
+Pass requested resources to profile service (where available),2017-12-21,Merged,1817,41,10,,3
+Doc update: Fix Configure after quickstart ui download,2017-11-29,Merged,1813,1,2,,1
+Allows overriding methods in default services,2017-12-20,Merged,1798,93,84,,4
+Update 6_aspnet_identity.rst,2017-11-23,Merged,1796,1,1,,1
+Updated extension grant docs,2017-11-17,Closed,1771,3,3,,1
+add flag to relax frame-src csp header on signout response #1647,2017-12-21,Merged,1766,77,7,,3
+two errant sentences left unmodified,2017-11-16,Merged,1761,3,3,,1
+supporting NameIdentifier,2017-11-19,Closed,1759,10,3,,1
+where angels fear to trod,2017-11-16,Closed,1755,3,3,,1
+could be off...,2017-11-19,Merged,1752,3,3,,1
+Add redirect_uri parameter to ErrorUrl #1564,2017-12-20,Merged,1736,248,5,,3
+pass ui_locales to error and logout pages #1480,2017-12-20,Closed,1735,195,2,,7
+detect non-unique scope names #1583,2017-12-20,Merged,1733,40,1,,2
+added warning regarding static users list,2017-11-10,Merged,1731,3,1,,1
+Update standard IDistributedCache implementation.,2017-11-09,Merged,1730,1,1,,1
+lost a day on this,2017-11-09,Closed,1729,2,2,,1
+because perfection is our goal...,2017-11-09,Merged,1726,2,2,,1
+excise seemingly superfluous instructions,2017-11-19,Closed,1725,1,19,,1
+small clarification,2017-11-09,Merged,1723,1,1,,1
+Move the IsActive call from the custom token validator to the core token validatator,2017-12-20,Merged,1718,74,82,,2
+Fix #1697,2017-11-11,Merged,1706,5,5,,1
+"per email to Brock, fix incorrect documentation",2017-11-03,Closed,1705,1,2,,1
+Patch 2,2017-11-04,Merged,1702,8,5,,2
+Release,2017-10-24,Closed,1668,41,15,rst cs csproj ,6
+Update 6_aspnet_identity.rst,2017-10-23,Merged,1664,1,1,,1
+Remove name claim requirement,2017-10-24,Closed,1661,430,154,cshtml ,4
+Fix for One-Time refresh token not being removed from PersistedGrants store,2017-10-25,Closed,1646,7,6,,1
+Make secret validation more pluggable,2017-10-23,Merged,1644,60,11,,9
+Fix User Claim image in Quickstart3,2017-10-16,Merged,1629,0,0,,1
+Update 1_client_credentials.rst,2017-10-16,Closed,1621,130,0,,1
+Update apis.rst,2017-10-11,Merged,1612,1,1,,1
+Moving IdentityServerMiddleware IEventService parameter from constructor to Invoke,2017-10-10,Merged,1604,5,7,,1
+Fix minor typos in the documentation,2017-10-07,Merged,1601,2,2,rst ,1
+Set NoCache headers for discovery document if CacheInterval is set to 0,2017-11-11,Merged,1598,5,2,,2
+Changed .NET Core Version to 2.0 in Readme.md,2017-10-06,Merged,1593,2,2,,0
+add options validation at startup time,2017-10-04,Merged,1580,18,0,,1
+Adding Getting Started with ASP.NET Core and OAuth,2017-10-02,Merged,1579,1,0,,1
+Implemented PairWise Subject,2018-04-10,Closed,1578,"1,308","1,028",cs ,15
+Separate callback route endpoints from base route endpoints,2017-10-03,Merged,1576,887,623,,3
+Added link Platform scenario sample,2017-11-19,Closed,1569,6,1,,1
+Added link Platform scenario sample,2017-09-27,Closed,1568,5,0,,1
+Add new Node API sample to community quickstarts,2017-11-19,Closed,1558,8,1,,1
+making client claims prefix value configurable #1534,2017-09-27,Merged,1546,7,8,,3
+Added IdentityServer 4 blog posts to team section,2017-09-20,Merged,1543,2,1,,1
+adding vs template,2017-09-19,Closed,1540,"46,654",0,vstemplate csproj cs ,11
+A superfluous space caused bad formatting when markdown rendered,2017-09-14,Merged,1530,1,1,,1
+use ISystemClock,2017-09-14,Merged,1524,186,126,,10
+Fixed CLA link in README.,2017-09-13,Merged,1516,1,1,,0
+Made Endpoint public so it can be used in custom routing.,2017-09-14,Merged,1515,2,2,,1
+Add AlwaysIncludeUserClaimsInIdToken to docs,2017-09-11,Merged,1510,2,0,,1
+Correct minor documentation typo,2017-09-08,Merged,1504,1,1,,1
+fixed a typo,2017-09-08,Merged,1503,2,2,,1
+Update introspection.rst,2017-09-07,Closed,1499,2,2,,1
+Fixes issue where SessionIdKey is not present in the properties dictionary,2017-09-04,Merged,1488,1,1,,1
+Add refresh token validator as part of ITokenValidator,2017-09-19,Merged,1487,159,107,,5
+user session rework to allow changing user from custom authorize logic,2017-09-01,Merged,1475,299,125,,10
+support using configuration binder,2017-08-31,Merged,1473,92,2,json ,5
+Add my new PS course (extensively uses IdSrv4),2017-08-24,Merged,1454,1,0,,1
+Use default schemes plumbing,2017-08-23,Merged,1446,35,109,,7
+Typo in code snippet,2017-08-23,Merged,1444,2,2,,1
+Run tests for netcoreapp2.0 and net461,2017-08-22,Merged,1441,20,43,cs csproj ,7
+Remove Microsoft.AspNet.WebApi.Client dependency,2017-08-23,Merged,1424,1,2,csproj ,2
+Updating Dependencies to 2.0.0 release,2017-08-23,Closed,1420,39,40,cs ,11
+include username in ExtensionGrantValidationContext,2017-09-03,Closed,1414,43,1,,2
+Fixed typo in class name,2017-08-14,Merged,1413,6,6,,4
+AuthenticateAsync do not return null anymore,2017-08-30,Closed,1409,1,1,,1
+make it easier to reject an authorization request from the login page…,2017-08-07,Merged,1395,79,85,cshtml ,11
+Update to ASP.NET Core v2,2017-08-07,Merged,1394,621,597,yml csproj cs ,7
+Show Default in comment/docs for booleans,2017-08-06,Merged,1392,16,13,,1
+make endpoint router extensible #1364,2017-08-07,Merged,1391,160,172,,17
+remove XFO from end session callback iframe #1224,2017-08-07,Merged,1389,0,17,,1
+add state data formatter for OIDC state param #1066,2017-08-30,Closed,1387,78,0,,3
+Only revoke specific refresh token (not all for client),2017-08-01,Merged,1375,1,1,,1
+Propagate parsed secret throughout token validation pipeline,2017-08-01,Merged,1367,114,74,,10
+Logging instructions,2017-07-25,Merged,1362,6,6,,1
+Quickstart overview update,2017-08-06,Merged,1357,19,15,png ,4
+automatically add store implementations to DI when adding cached stores,2017-08-01,Merged,1354,71,0,,2
+remove duplicate entries from scopes_supported element in discovery doc,2017-07-19,Closed,1341,1,1,,1
+Adding new blog links,2017-07-18,Merged,1339,5,1,,1
+Update community.rst,2017-07-17,Merged,1335,6,1,,1
+"added ""alg"" to JsonWebKey and DiscoveryResponseGenerator",2017-07-13,Merged,1326,31,2,,3
+slightly cleaner GetOrigin implementation,2017-08-30,Merged,1317,95,9,,2
+Included ui_locales as query parameter to ErrorUrl and LogoutUrl,2017-09-03,Closed,1308,54,15,csproj ,3
+Update resources.rst,2017-06-28,Merged,1284,1,1,,1
+Design a better UTC now helper,2017-07-13,Merged,1279,280,117,,13
+Spelling error in log message.,2017-06-22,Merged,1273,2,2,,1
+Feature: Allow PKCE on demand,2017-06-23,Merged,1270,232,157,,2
+Replace user to access token,2017-06-19,Merged,1265,1,1,,1
+Updates for SLO and session management,2017-06-22,Merged,1262,"1,476","1,201",,9
+Merge remote-tracking branch 'refs/remotes/IdentityServer/dev' into dev,2017-06-07,Closed,1240,0,0,,0
+Removed duplicate scopes,2017-06-22,Closed,1217,2,2,,1
+Slightly more precise error message,2017-05-28,Merged,1206,2,2,,1
+Normalize custom authorize validator API style,2017-05-29,Merged,1203,58,33,,7
+Add error descriptions for certain validation scenarios on authorize endpoint,2017-05-29,Merged,1202,638,129,,1
+Enforcing unique names/ids in in memory stores,2017-05-29,Merged,1200,123,0,,5
+Enhanced docs,2017-05-24,Merged,1192,4,4,,1
+修复vs for mac打开问题，主要更改.csproj文件的TargetFrameworks标签,2017-05-15,Closed,1172,13,13,csproj ,4
+Consent expiration setting,2017-06-01,Merged,1161,61,9,,3
+Validate scoped services: true,2017-05-10,Merged,1149,1,3,,1
+Update package versions,2017-05-09,Merged,1146,25,25,,4
+fixed typos,2017-05-09,Merged,1145,3,3,,1
+Add condition to logging in IntrospectionResponseGenerator.AreExpectedScopesPresent,2017-05-29,Merged,1144,3,1,,1
+Consistent expiration handling,2017-05-29,Merged,1135,39,105,,7
+fixed typo,2017-05-04,Merged,1131,1,1,,1
+fixed typos,2017-05-04,Merged,1130,4,4,,1
+fixed typo and formatting (two lines displaying on one),2017-05-04,Merged,1129,7,4,,1
+fixed typos,2017-05-09,Merged,1128,2,2,,1
+fixing typo,2017-05-04,Merged,1125,1,1,,1
+Update videos.rst && add NDC Mini Copenhagen,2017-05-03,Merged,1120,4,3,,1
+Fixed AddDeveloperSigningCredential on full framework,2017-05-04,Merged,1119,62,3,,2
+Update apis.rst,2017-04-27,Merged,1109,10,10,,1
+Update reference_tokens.rst,2017-04-27,Merged,1108,2,2,,1
+Fixed some typos,2017-04-21,Merged,1096,2,2,,1
+Update cors.rst,2017-04-21,Merged,1095,1,1,,1
+Consent page: Add fallback to ClientId if ClientName is left empty,2017-04-19,Merged,1080,1,1,,1
+Fix for issue#1068. Redact client secret in events.,2017-04-19,Merged,1076,1,0,,1
+Token revocation cleanup,2017-04-18,Merged,1073,353,202,,5
+Update 6_aspnet_identity.rst,2017-04-18,Merged,1072,1,1,,1
+Update title of big_picture.rst,2017-04-18,Merged,1069,2,2,,1
+Typo in ref docs. Contributing.md grammar.,2017-04-14,Merged,1063,2,2,rst ,1
+make resource base class for api and identity resources,2017-04-13,Merged,1060,41,57,,7
+UserInfo cleanup,2017-04-13,Merged,1059,266,79,,6
+Update api_resource.rst,2017-04-12,Merged,1052,2,2,,1
+Refactor token response generator for cleaner extensibility,2017-04-12,Merged,1042,170,95,,1
+Update logging.rst,2017-04-09,Merged,1040,7,1,,1
+Create new collection when implying all scopes if none requested,2017-04-10,Merged,1030,3,3,,1
+removing excess bracket in resource example,2017-04-06,Merged,1027,1,2,,1
+Update identity_resource.rst,2017-04-03,Merged,1016,1,1,,1
+Update reference_tokens.rst,2017-04-03,Merged,1014,3,3,,1
+Update crypto.rst,2017-03-31,Merged,1007,3,3,,1
+Removed redundant client parameter from IClaimsService,2017-04-12,Merged,1003,22,34,,4
+Introspection re-work,2017-04-12,Merged,1001,140,121,,7
+Update IdentityModel version,2017-03-29,Merged,997,1,1,,1
+Update clients.rst,2017-03-28,Merged,993,1,1,,1
+Update 1_client_credentials.rst,2017-03-27,Merged,988,1,1,,1
+Added a note to the external authentication docs.,2017-03-26,Merged,981,2,0,,1
+Fix space in IMG link,2017-03-23,Merged,972,1,1,,0
+Add fixes for documentation,2017-03-22,Merged,968,7,7,,4
+Update index.rst,2017-03-22,Merged,966,2,2,,1
+Add validated request to token result,2017-03-22,Merged,963,3,2,,2
+Add option to persists temp key,2017-03-21,Merged,957,74,4,cs ,3
+Update 8_entity_framework.rst,2017-03-21,Merged,955,1,1,,1
+New Events Design,2017-03-21,Merged,953,561,"1,005",json ,11
+Fixed spelling,2017-03-19,Merged,944,1,1,,1
+Note to add IdentityModel to MVC client,2017-03-20,Closed,940,12,0,,1
+Add IdentityServer and API unavailable experiments,2017-03-17,Merged,935,2,0,,1
+Add nuget package restore note to apis.rst,2017-03-17,Closed,933,7,1,,1
+Fix typo in the X-Frame-Options directive.,2017-03-18,Merged,932,1,1,,1
+Changed the comment to the corresponding default.,2017-03-14,Merged,915,1,1,,1
+Update videos.rst,2017-03-13,Closed,908,1,0,,1
+"Revert ""Remove NET452 Target""",2017-03-10,Merged,902,44,9,cake csproj ,4
+Remove NET452 Target,2017-03-10,Merged,901,9,44,cake csproj ,4
+sync,2017-03-09,Closed,898,0,0,,0
+update to vs2017 hotness,2017-03-08,Merged,889,194,317,md cake json csproj xproj ,10
+Pass LoginUrl/LogoutUrl from IdentityServerOptions to auth cookie,2017-03-22,Merged,887,18,0,,1
+Use response generator pattern for discovery endpoint,2017-03-07,Merged,886,351,231,,4
+Update 1_client_credentials.rst,2017-03-06,Merged,880,1,1,,1
+fix misspell cacue to cache,2017-03-05,Merged,876,2,2,,1
+Change client allowed grant types to ICollection,2017-04-12,Merged,874,116,15,,3
+Ran against Grammarly,2017-02-22,Merged,837,13,15,,1
+Make certain access token creation parameters dynamic,2017-02-26,Merged,832,343,75,,11
+Add more flexibility to token request pipeline [WIP],2017-02-19,Closed,831,60,17,,3
+Improve logging when grant validation error occurs.,2017-02-16,Merged,827,1,1,,1
+Validate scoped services,2017-02-22,Merged,825,16,8,,1
+Added additional info on exception thrown,2017-02-28,Closed,806,22,1,,1
+Add external cookie middleware when default signin scheme is used,2017-02-16,Merged,802,34,13,json ,6
+Adding note about NET452 runtime errors.,2017-02-10,Closed,799,230,30,cs json ,18
+fixed extra '}' typo in code block,2017-02-07,Merged,793,1,2,,1
+Reference to IdSvr version incorrect,2017-02-07,Merged,792,1,1,,1
+"Minor edit to Quickstart docs, code block formatting",2017-02-07,Merged,790,4,2,,1
+Fix log message ambiguity in TokenRequestValidator,2017-02-04,Merged,778,2,2,,1
+Add option for having additional claims included when issuing a clien…,2017-02-05,Closed,777,10,2,,1
+allow JsonWebKeys that contain an asymmetric key,2017-02-05,Merged,772,62,2,,2
+Update extension_grants.rst,2017-02-01,Merged,761,2,2,,1
+Improve grammar,2017-01-27,Merged,748,1,1,,0
+Update 0_overview.rst,2017-01-24,Merged,737,2,2,,1
+correction to spelling in logmessage,2017-01-22,Merged,729,1,1,,1
+add bower.json,2017-02-01,Closed,723,15,"18,395",bowerrc cshtml json ,4
+Update 2_resource_owner_passwords.rst,2017-01-18,Merged,713,1,1,,1
+Update 2_resource_owner_passwords.rst,2017-02-05,Closed,711,1,1,,1
+Update 1_client_credentials.rst,2017-01-18,Merged,710,1,1,,1
+Update 2_resource_owner_passwords.rst,2017-01-18,Merged,709,3,1,,1
+Return id_token on refresh token request (see #690),2017-01-25,Merged,694,77,2,,2
+Update resources.rst,2017-01-15,Merged,688,1,1,,1
+Always invoke profile service in DefaultClaimsService,2017-01-15,Closed,684,61,22,,3
+Fixed wrong null check,2017-01-11,Merged,676,1,1,,1
+Fix typo in consent options,2017-01-11,Merged,675,2,2,,2
+Update documentation according to your latest blog post (redone against dev),2017-01-08,Merged,667,17,1,,1
+Update documentation according to your latest blog post,2017-01-08,Closed,666,17,1,,1
+Fixed authorization endpoint typo in docs,2017-01-04,Merged,657,1,1,,1
+Typo in log message in EndpointRouter.cs,2017-01-02,Merged,646,1,1,,1
+Correct use of IHttpContextAccessor,2017-01-02,Merged,645,14,14,,2
+fix SetConsentedScopes,2017-02-01,Closed,635,29,33,,10
+"Get Ip from HTTP_X_FORWARDED_FOR if present, to handle proxies",2016-12-20,Closed,605,5,1,,1
+docs: update ef quickstart image to rc5,2016-12-10,Merged,563,0,0,,1
+Improve definition of standard scopes from OIDC spec.,2016-12-22,Closed,552,89,99,,16
+Update to ASP.NET 1.1,2016-12-06,Merged,542,44,47,json cs ,7
+Include API resource names in access token audiences,2016-12-02,Merged,524,145,52,,10
+Docs for RC4,2016-12-01,Merged,516,175,260,png ,9
+Fix typo in 1_client_credentials.rst,2016-12-01,Merged,514,1,1,,1
+new resource based configuration changes,2016-11-29,Merged,509,"1,657","1,340",,8
+Update ProcessSignoutCallbackAsync,2016-11-28,Merged,506,2,2,,1
+Fixes #487 - Name of the session cookie is derived from EffeciveAuthenticationScheme,2016-11-29,Merged,502,6,3,,2
+add clarity on AddInMemoryUsers method,2016-11-30,Closed,486,2,0,,1
+Detailed project.json editting,2016-11-19,Merged,485,7,2,,1
+Updated docs for code that doesn't break the program,2016-11-29,Closed,482,7,7,,1
+DefaultSessionIdService.GetCookieName is now configurable,2016-11-30,Closed,457,13,4,,4
+Improved naming of variables,2016-11-01,Merged,454,5,5,,1
+Add VSCode workspace to gitignore,2016-10-30,Merged,452,3,0,,1
+Removed exception from XML doc,2016-10-27,Merged,445,1,2,,1
+Added clearing of JWT handler claim type mappings,2016-10-22,Merged,434,3,1,,1
+Fixed Claims property on InMemoryUser initializer,2016-10-22,Merged,433,2,2,,1
+generate EF Migrations to be more aligned with the file new project,2016-10-21,Merged,432,4,3,,1
+reworked persisted grant service and split into separate interfaces,2016-11-14,Merged,429,"1,017",642,,6
+reworked persisted grant service/store as extension methods,2016-11-05,Closed,428,583,548,,6
+Merge pull request #1 from IdentityServer/dev,2016-10-20,Closed,427,0,0,,0
+Update 6_aspnet_identity.rst,2016-10-20,Merged,422,1,1,,1
+add token validation cache,2016-10-09,Closed,387,107,7,,7
+AuthenticationScheme and SignInScheme is case sensitive,2016-10-09,Closed,386,2,2,,1
+Rename InMemoryLoginService.cs,2016-10-08,Merged,384,0,0,,1
+potentially solves #19,2017-03-06,Closed,382,124,15,cs ,11
+Fixed the Configure method contents,2016-10-03,Closed,362,1,0,,1
+Fix typo on package name,2016-09-30,Merged,360,2,2,,1
+Consistently check for Enabled in Clients and Scopes,2016-09-30,Merged,359,159,112,,17
+Minor typo in docs,2016-09-30,Merged,358,1,1,,1
+Wording clarity and link fix,2016-09-30,Merged,357,2,2,,1
+updated to DotnetCore 1.0.1,2016-10-20,Closed,338,2,2,json ,2
+Invalid URL in docs for InMemoryUserProfileService,2016-09-23,Merged,337,1,1,,1
+"Port ""private_key_jwt"" from IdentityServer3",2016-09-28,Merged,325,934,4,,4
+use client config on login page (enable local; allowed providers),2016-09-22,Merged,321,97,59,cshtml ,3
+add IdP as part of authorize request validation,2016-09-22,Merged,320,102,1,,4
+"Housekeeping refactoring, replacing IsNullOrWhitespace-checks",2016-09-22,Merged,309,8,7,,4
+Update 6_aspnet_identity.rst,2016-09-14,Closed,304,5,5,,1
+"rename quickstart to developer, moved in-mem",2016-09-14,Merged,301,48,51,,35
+Authorization result refactor,2016-09-14,Merged,297,864,818,cs ,6
+Update 5_hybrid_and_api_access.rst,2016-09-14,Merged,296,1,1,,1
+Update 4_external_authentication.rst,2016-09-14,Merged,295,1,1,,1
+Update 3_interactive_login.rst,2016-09-14,Merged,294,6,6,,1
+Merge remote-tracking branch 'refs/remotes/IdentityServer/dev' into dev,2016-09-14,Closed,293,0,0,,0
+Update 2_resource_owner_passwords.rst,2016-09-13,Merged,292,1,1,,1
+Update 1_client_credentials.rst,2016-09-13,Merged,291,5,5,,1
+Update 2_resource_owner_passwords.rst,2016-09-13,Merged,289,1,1,,1
+Scope claim is always a string array,2016-09-12,Merged,286,35,11,,5
+pull rc1,2016-09-08,Closed,273,11,33,json ,3
+Update 1_client_credentials.rst,2016-09-13,Merged,261,4,4,,1
+Move semicolon to fix syntax error,2016-09-02,Merged,255,3,3,,1
+rework how client list is maintained,2016-08-31,Merged,251,356,209,,11
+More Quickstart refactor,2016-08-31,Merged,249,89,51,cshtml ,27
+Ui path rework,2016-08-31,Merged,248,302,376,,11
+CORS rework to mix with hosting cors provider (if present),2016-08-29,Merged,245,220,51,,8
+Quickstart refactoring,2016-08-29,Merged,244,228,203,,2
+Making scope parameter optional at the token endpoint,2016-08-29,Merged,241,187,3,,7
+Add support for custom token response fields for resource owner and extension grants,2016-08-26,Merged,238,688,97,,12
+remove the IdentityServerContext class,2016-08-25,Merged,237,339,272,,6
+Remove i localization service,2016-08-24,Merged,235,23,264,,12
+Retrieval of Clients and Scopes for Token and AuthorizationCode,2016-08-24,Merged,233,180,277,,14
+Ref links fix,2016-08-24,Merged,229,3,2,,2
+Response type comparer,2016-08-22,Merged,216,353,3,,5
+Adding error description to authorize endpoint results which allows for completing pkce test migration,2016-08-15,Merged,207,68,49,,9
+Use basic collection types,2016-08-24,Closed,203,47,41,,6
+Fix spelling errors in index.rst,2016-08-09,Merged,198,3,3,,1
+ClientAuthenticationFailure Event Constant duplicate,2016-08-13,Merged,188,1,1,,1
+scopes.rst Grammar changes and link to openID site,2016-08-13,Merged,186,6,7,,1
+Docs fix 182,2016-07-27,Merged,184,2,1,,2
+add PKCE support [WIP],2016-07-27,Merged,181,946,155,cs ,9
+Add tests for grant types validation,2016-07-22,Closed,170,317,31,,8
+Support for public clients,2016-07-21,Merged,168,174,29,,10
+Initial Cake Build Script,2016-07-22,Merged,165,287,1,cake ps1 config ,4
+SLO,2016-07-17,Merged,159,"1,781",253,cshtml ,12
+Ui rework,2016-07-14,Merged,156,820,775,cshtml ,11
+Bug Fix,2016-07-08,Closed,152,2,2,,1
+Rework crypto to MS.IdentityModel,2016-06-05,Merged,116,184,225,,7
+Added PublicOrigin back to IdentityServerOptions,2016-05-27,Closed,108,17,0,,2
+.NET Core RC2 - .NET 4.6 Support,2016-05-30,Closed,101,7,5,,1
+Dev,2016-05-19,Merged,82,"1,133","1,164",sln cmd json ps1 ,6
+New grant type handling,2016-04-11,Merged,68,211,204,,8
+Convert the JSON ScopesString into seperate claims,2016-06-28,Closed,57,40,11,,3
+EndSession endpoint,2016-06-28,Closed,47,"1,273",623,cshtml ,2
+Split IUserService into profile and resource owner validation services,2016-02-07,Merged,35,312,535,licenseheader ,10
+Endpoint scoped service are not resolved properly,2016-01-28,Merged,30,47,1,,2
+Use Path.Combine for cross-platform certificate path,2016-01-18,Merged,11,1,1,,1
+Changed IdentityServerName constant to IdentityServer4,2016-01-16,Merged,6,1,1,,1
+Add a Gitter chat badge to README.md,2016-01-16,Closed,5,2,0,,0
+Added initial build scripts,2015-12-20,Merged,2,132,1,cmd ps1 ,4
+ignore lock files,2015-12-18,Merged,1,3,"26,823",,1

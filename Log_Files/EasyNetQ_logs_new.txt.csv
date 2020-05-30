@@ -1,0 +1,512 @@
+Add option to subscribe to lazy queues.,2020-01-08,Merged,993,80,1,,4
+merge from master,2019-09-25,Merged,982,113,92,cs ,17
+Fix  #978,2019-09-26,Merged,979,14,1,,2
+Feature/update gitversion,2019-09-25,Merged,977,28,22,,20
+Bump dependencies,2019-09-23,Merged,973,106,95,cs ,15
+Added arguments to ExchangeDeclare and QueueDeclare methods,2019-07-17,Closed,970,53,32,,2
+Dispose consumer cancellation for RPC response queue,2019-07-15,Merged,969,32,11,,1
+Additional .NET 4.6 target for dispatcher deadlock,2019-07-11,Merged,967,10,10,cs ,3
+Using same ExchangeDeclareStrategy for publish and subscribe,2019-07-17,Merged,962,80,81,,14
+Make EasyNetQ exceptions really serializable,2019-06-04,Merged,953,25,0,,2
+Code cleanup,2019-06-02,Merged,950,292,332,,20
+Spell check,2019-06-02,Merged,949,11,11,txt ,5
+Make HandleConsumerCancelled virtual,2019-06-02,Merged,948,1,1,,1
+Convert events to structs,2019-09-23,Closed,936,31,31,,14
+Move code from Sprache to EasyNetQ.Sprache namespace and internalise it.,2019-05-02,Merged,935,285,282,,3
+Queue and exchange declaration rework,2019-04-10,Merged,931,323,308,,7
+Queue and Exchange hold parameters of their declaration,2019-04-07,Closed,930,185,175,,6
+Move caching of declared exchanges to AsyncCache,2019-03-25,Merged,925,90,39,,4
+Rework exchange declaration,2019-03-29,Merged,924,337,169,,5
+Update EasyNetQ.Scheduler with EnableLegacyConventions setting,2019-03-21,Merged,923,56,6,config ,10
+added comments on AwaitableDisposable,2019-03-19,Merged,922,27,1,,1
+Rework queue declaration. LazyQueue is introduced.,2019-03-19,Merged,921,821,502,,3
+fix extension methods that were missing the this keyword,2019-03-18,Merged,919,2,2,,1
+Moved extensions methods under the same namespace as IBus,2019-03-18,Merged,918,12,8,,4
+Simplify usage of ConcurrentDictionary,2019-03-17,Merged,917,159,161,,3
+"Clean up unused packages.config and app.config, fix warnings and conv…",2019-03-16,Merged,916,32,414,config ,25
+Replace AddOrUpdate with GetOrAdd,2019-03-16,Merged,915,4,7,,1
+Rewrite SendReceive with async API,2019-03-15,Merged,914,33,31,,3
+Bump LangVersion to latest,2019-03-14,Merged,913,22,94,config ,27
+"Revert ""Created ConsumerCancelled event on ConsumerCancellation class…",2019-03-13,Merged,912,8,40,,5
+Add EditorConfig file,2019-03-12,Merged,911,16,0,,1
+Remove newtonsoft hack from rpc,2019-02-19,Merged,903,76,75,,14
+Make GetSupersededType work with any message version hierarchy,2019-01-27,Merged,902,46,3,,2
+Ensure the order of superseded types in MessageVersionStack.GetSupersededType,2019-01-26,Closed,901,1,0,,1
+Guarantee that MessageVersionStack.GetSupersededType returns the direct parent type,2019-01-25,Closed,900,2,1,,1
+Fix MessageVersionStack to work with more than 2 versions,2019-01-25,Merged,899,20,1,,3
+Legacy RPC conventions,2019-01-18,Merged,896,160,37,,7
+Newtonsoft.Json separation,2019-01-12,Closed,893,209,10,cs sln ,24
+Fix #883,2019-01-05,Merged,888,1,1,,1
+Scheduler.Mongo: Removed hardcoded connection to rabbit,2019-03-14,Closed,886,2,3,,1
+Removed hardcoded connection to rabbit,2018-12-21,Merged,885,1,2,,1
+Updated LibLog to version 5.0.3 and reduced NetStandard2-dependencies,2018-11-21,Merged,877,5,"2,500",,1
+LibLog - Fixed NLog + Log4net callsite. Added support for NLog structured logging,2018-11-20,Merged,876,78,57,,1
+Created ConsumerCancelled event on ConsumerCancellation,2018-12-06,Merged,875,40,8,,5
+Created ConsumerCancelled event on ConsumerCancellation class,2018-11-07,Closed,874,40,8,,5
+Delete sync Wait,2018-11-05,Merged,873,45,63,,3
+Fix #871,2018-11-11,Merged,872,13,8,,3
+changed DefaultConsumerErrorStrategy members to protected,2018-11-01,Merged,870,16,17,,1
+"Catch an exception from a timer's callback, because it can crash the entire application",2018-10-12,Merged,866,15,1,,1
+AmapExceptionPreface -> AmqpExceptionPreface,2018-10-12,Merged,864,6,6,,2
+Disposal of the local non-nullable model and reorder of disposals of consumers and model,2018-10-12,Merged,863,1,2,,1
+Created ConsumerCancelled event on ConsumerCancellation class to be f…,2018-11-08,Closed,862,85,71,,8
+Rewrite RPC with async API,2019-03-14,Merged,861,239,221,,6
+Move preprocessor directives to TaskHelpers for better readability,2018-10-03,Merged,860,51,92,,4
+Use Abstractions for Microsoft DI,2018-09-16,Merged,855,3,2,,2
+Remove class constraint,2018-08-29,Merged,852,74,140,,5
+Remove responseAction in case of timeout,2018-08-28,Merged,851,1,0,,1
+Remove class constraint from IMessage,2018-08-28,Merged,850,9,3,,3
+EasyNetQ 3.3.1,2018-08-28,Merged,849,248,27,,10
+Add ability to declare transient server-named queues asynchronously,2018-08-22,Merged,848,26,13,,3
+add scope/lifetimes in microsoft DI .,2018-08-23,Merged,847,113,2,,2
+add scope/lifetimes in microsoft DI .,2018-08-17,Closed,846,113,2,,2
+Fix #842,2018-08-10,Merged,843,2,2,,1
+Auto subscribe: Create nested container per message handled for StructureMap,2018-07-30,Merged,841,97,7,,2
+Autosubscribe: Create nested container per message handled for StructureMap,2018-07-28,Closed,840,97,7,,2
+[WIP] Rewrite rpc with async api,2018-07-25,Closed,839,"3,827","4,076",csproj ,11
+Limit RetryTimeoutMs to MaxRetryTimeoutMs,2018-07-18,Merged,831,44,29,,5
+Simplify usages of timer and change disposal of IEventBus's subscription,2018-07-17,Merged,830,125,98,,6
+EasyNetQ 3.3.0,2018-07-18,Merged,827,453,444,,14
+Ack on model should be called from Consumer Dispatcher Thread,2018-07-17,Merged,826,240,238,,10
+Remove AckStrategy.Nothing,2018-07-15,Merged,825,1,33,,4
+Allow to use MessageReceivedInfo for custom ErrorQueueNaming convention,2018-07-17,Merged,824,43,46,,10
+EasyNetQ 3.2.0,2018-07-11,Merged,821,56,60,md cs csproj ,22
+Async first API,2018-09-01,Merged,820,"3,194","3,477",,12
+Add hotfix for AutoSubscriber configuration,2018-07-04,Merged,818,629,66,cs ,4
+RawMessage -> struct (#810),2018-07-11,Merged,816,1,1,,1
+Make LibLog public so it can be used outside EasyNetQ assembly,2018-07-02,Merged,815,3,2,csproj cs ,3
+#806 Possible redundant line + spell check,2018-06-23,Merged,809,48,49,,17
+fix issue with scope/lifetimes in microsoft DI config,2018-06-30,Merged,808,2,2,,2
+RabbitMQ .NET client 5.1.0,2018-06-20,Merged,805,7,7,,6
+"If IConsumerErrorStrategy throws Exception, message remains unacked",2018-06-20,Merged,803,222,98,,7
+Hosepipe:  Create :o directory if it doesn't exist,2018-06-19,Merged,802,32,31,csproj ,8
+Migration to FluentAssertions,2018-06-17,Merged,800,361,394,,10
+Fix build scripts,2018-06-14,Merged,799,9,2,props ,4
+Basic implementation of Microsoft.Extensions.DependecyInjection adapter,2018-06-14,Merged,798,169,9,cs sln ,6
+EasyNetQ 3.1.0,2018-06-20,Merged,795,998,749,csproj cs ,13
+Use rabbitmq client automatic reconnection,2019-08-01,Merged,794,"1,059","1,957",,5
+Convert to structured logging,2018-05-28,Merged,792,5,4,,1
+Allow to pass JsonSerializerSettings to JsonSerializer,2018-05-28,Merged,791,14,3,,1
+PublishExchangeDeclareStrategy should accept dependencies from constructor,2018-05-28,Merged,790,179,201,,3
+Fix #516,2018-05-18,Merged,788,8,35,,4
+Test to check #559,2018-05-15,Merged,787,10,6,,1
+New TypeNameSerializer,2018-05-22,Merged,786,649,194,csproj ,21
+"ISerializer.BytesToMessage(string, byte[]) should be changed to ISerializer.BytesToMessage(Type, byte[])",2018-05-23,Merged,785,70,85,,17
+Remove Version.cs from *.csproj and remove absent global.json from EasyNetQ.sln,2018-05-15,Merged,783,51,363,dll csproj ,17
+EasyNetQ 3.0.0,2018-05-24,Merged,778,"15,626","4,167",nuspec dll cs ,15
+[WIP] Async only api,2018-07-08,Closed,777,885,"1,041",,7
+Made one failing test explicit as it seems to fail on AppVeyor,2018-04-24,Merged,775,1,0,,1
+Brand new DI,2018-05-16,Merged,772,"9,041","2,107",,6
+Fix tests running in rider on mac,2018-05-16,Merged,771,62,65,,15
+fix for Double BasicConsumer initialization,2018-04-20,Merged,770,11,9,,2
+Make disposal of InternalConsumer synchronous,2018-05-22,Closed,768,"5,659","1,322",cs csproj ,4
+Make disposal of InternalConsumer synchronous (#766),2018-05-23,Merged,767,4,1,,1
+Handle timeout exceptions that can occur when trying to reconnect fai…,2018-04-19,Merged,765,119,32,,2
+Drop cancel on HA failover support,2018-04-03,Merged,764,17,148,,15
+Got rid of closure,2018-04-01,Merged,763,2,2,,1
+"lock timer object to avoid ""System.ObjectDisposedException"" exception",2018-07-17,Closed,762,38,19,,1
+Structured logging,2018-04-13,Merged,761,"5,468",958,cs csproj ,4
+Cleanup boilerplate code,2018-03-30,Merged,760,172,218,cs ,8
+Allow subclasses of DefaultConsumerErrorStrategy to call connect method,2018-03-23,Merged,756,1,1,,1
+Added Thomas Mutton to the hall of fame,2018-02-22,Merged,752,2,1,,0
+Publish RPC failure even for class without parameterless constructor,2018-02-20,Merged,749,78,23,cs ,3
+fix Consume<T> not using DeserializeMessage<T>,2018-05-14,Closed,745,92,9,,3
+Fix for incorrect version in assembly (fixes issue #729),2017-11-20,Merged,742,2,638,,14
+disable .net standard 1.5 support for ninject and downgrade to non-beta,2017-11-13,Merged,741,12,6,cs json ,4
+RPC naming conventions with default exchange,2019-01-17,Closed,738,162,1,,4
+Card 5252357,2017-10-21,Closed,737,"3,077","3,319",ps1 yml csproj cs config ,9
+commit 254bb08e: Resolve RabbitBus instead of IBus to avoid StackOver…,2018-05-11,Closed,735,4,4,,2
+reintroduce the server declared transient queue declaration that got …,2017-09-11,Merged,731,21,3,,4
+Issue #111: A responder whose task is cancelled will still respond and ACK,2017-09-14,Merged,730,106,7,,2
+Update to RabbitMQ.Client 5,2017-09-10,Merged,728,77,77,cs ,30
+Update autofac,2017-08-18,Merged,727,3,3,,3
+Add SetDefaultVersion target,2017-08-18,Merged,726,41,1,targets ,23
+Added braces escaping for non-format format string,2017-08-18,Merged,725,15,27,,6
+Update to RabbitMQ.Client 5,2017-09-10,Closed,720,77,77,cs ,30
+Use specified connection name when creating new RabbitMQ connection,2017-07-17,Merged,717,3,1,,1
+Added MaxLength and MaxLengthBytes options to fluent SubscriptionConfiguration,2017-07-13,Merged,716,161,6,md ,4
+Proposed change of getting type of published messages,2017-09-14,Closed,714,7,7,,1
+Revert to full .NET Framework MSBuild for Pack target,2017-07-01,Merged,713,17,13,props ,2
+Connection error logging in PersistentConnection.cs not surfacing inner exception message,2017-06-21,Merged,710,10,2,,2
+Updating solution to use VS2017,2017-06-30,Merged,709,931,"2,967",ps1 yml csproj xproj json ,8
+Added advanced type resolving.,2017-09-14,Closed,706,13,1,,1
+Add header support to advancedbus,2017-06-26,Merged,704,213,93,,2
+Fix for incorrect port and vhost in logs for amqp/amqps connection strings,2017-05-30,Merged,703,51,4,,4
+RPC timer would end immediately if timeout was 0,2017-06-28,Merged,700,13,7,,2
+"QueueName can now be specified. This is true for requests, publish, s…",2017-06-11,Merged,699,125,10,,8
+Connection name,2017-07-06,Merged,694,56,35,config cs ,14
+Autoclose connection,2018-05-27,Closed,692,12,1,,4
+EasyNetQ website edits:,2017-05-04,Merged,691,0,152,,2
+Add useBackgroundThreads as connection string part,2017-05-04,Merged,690,8,4,,3
+updated autofac to 4.5.0,2017-05-01,Merged,688,3,3,,3
+update the version also for frameworks dependencies,2017-05-01,Merged,687,7,5,,1
+upgrade dotnet framework to 4.3.0 to fix all the downgrade warnings,2017-04-30,Merged,685,26,26,,2
+Newtonsoft.Json added as an explicit NuGet dependency instead of embedding it to EasyNetQ.dll,2017-04-28,Closed,684,47,52,nuspec csproj config cs ,14
+Add ability to specify client properties and include connection_name property,2017-05-12,Closed,683,34,19,,4
+Included queue name in Error message,2017-04-26,Merged,682,4,1,,3
+Allow multiple handlers per queue,2017-04-11,Merged,680,222,399,json ,14
+Bug fix in SimpleInjectorAdapter: defer execution of serviceCreator,2017-04-04,Merged,676,4,2,md ,2
+Added Start Consuming Events,2017-03-15,Merged,674,65,8,projitems ,7
+improved TypeNameSerialzier for generics type,2018-05-14,Closed,670,31,2,,2
+added new implementation of ITypeNameSerializer -> DynamicTypeNameSerializer,2018-05-16,Closed,668,195,0,csproj projitems ,4
+[WIP] new implementation of ITypeNameSerializer -> DynamicTypeNameSerializer,2017-02-15,Closed,665,194,0,csproj projitems ,4
+added support for dynamically generated types in TypeNameSerializer,2017-02-15,Closed,664,69,18,,2
+"Revert ""Merge remote-tracking branch 'upstream/pr/624'""",2017-02-10,Merged,662,73,62,cs sln yml ,13
+Update Autofac to v4.3.0,2017-02-09,Merged,659,5,5,,3
+Release version 1.0,2017-02-08,Merged,658,297,17,nuspec ,7
+Feature/add global.json,2017-02-01,Merged,657,134,141,json ,24
+Advanced exchange routing - similar to MassTransit,2017-02-05,Merged,656,274,1,cs projitems ,9
+Develop,2016-12-18,Closed,652,34,11,txt md ,10
+Fixing tests,2017-02-05,Merged,650,43,19,,4
+Fixing NuGet package creation,2016-12-03,Merged,647,58,6,ps1 ,2
+added API key for myget,2016-12-01,Merged,646,1,1,,1
+Migrate tests to xUnit and create NuGet packages,2016-12-01,Merged,644,"1,475","1,751",ps1 cs ,8
+Create packages out of feature/netcore branch,2016-11-30,Merged,643,105,267,ps1 yml ,4
+Add support for AutoCloseConnection,2017-05-04,Closed,642,"6,037","5,091",proj ps1 yml Config targets csproj config ,9
+Allow manual handling of Ack and BatchAck,2016-11-23,Closed,640,61,8,,8
+Allow manual handling of Ack and BatchAck,2016-11-23,Closed,639,51,8,,8
+Allow manual handling of Ack and BatchAck,2016-11-23,Closed,638,51,8,,8
+Allow manual handling of Ack and BatchAck,2016-11-23,Closed,637,51,8,,8
+Migrates remaining projects to .NET Core or xproj,2016-11-22,Merged,635,"1,321",287,json xproj ,11
+Remove on Core the methods that read the application config file,2016-11-14,Merged,633,3,7,,2
+Move EasyNetQ.DI.Tests to Core,2016-11-14,Merged,632,198,308,xproj cs ,4
+Update RabbitMQ.Client and JSON.Net to latest version,2016-11-14,Merged,631,164,74,json cs csproj config ,22
+Move EasyNetQ.Tests to .NET Core,2016-11-10,Merged,630,"1,215","1,174",csproj cs config xproj ,11
+New feature: Multiple queues consume with single Model (Channel),2017-03-28,Merged,628,623,77,,2
+Fix Client Command Dispatcher Thread hijacking,2017-02-07,Merged,624,50,53,,4
+made some methods protected/virtual in HandlerRunner,2016-10-17,Merged,622,19,9,,2
+Add durability queue on subscription,2016-10-07,Merged,621,16,2,,3
+EasyNetQ.Scheduler stability fixes,2016-10-10,Merged,619,54,22,,5
+Hosepipe custom broker port configuration by separate parameter,2016-10-05,Merged,617,12,17,txt ,8
+Add RabbitMQ broker custome port support to hosepipe.,2016-09-29,Merged,616,19,6,txt ,4
+Allow injection of custom implementation of IPersistentConnection,2016-09-26,Merged,614,47,5,projitems ,7
+Make SimpleInjectorMessageDispatcher public so it can be used with AutoSubscriber,2016-09-19,Merged,612,4,2,md ,2
+Set upper bound of supported rabbitmq client version,2016-09-05,Merged,610,3,2,cs ,2
+[WIP] Convert EasyNetQ to .NET Core [feature/netcore],2017-02-08,Merged,606,"6,071","4,918",,1
+Make ConnectIntervalAttempt for PersistentConnection configurable on …,2016-08-12,Merged,605,24,22,cs ,11
+Convert EasyNetQ to .NET Core,2016-08-20,Closed,604,"13,132",380,yml nuspec csproj cs config Config xproj ,16
+Phil newman future publish topic,2016-08-08,Merged,603,212,33,,3
+Bug fix: QueueDeclare does not allow an empty dead letter exchange,2016-08-08,Merged,601,161,4,cs ,5
+[WIP] Axelbodo master testing,2017-02-10,Closed,600,444,24,dll config csproj ,15
+Add support for topic based routing future publish messages,2016-08-08,Closed,599,212,33,,3
+Allow use of EXTERNAL authentication mechanism,2016-08-02,Merged,598,15,1,,4
+add SimpleInjector support to the project,2016-07-31,Merged,596,341,3,nuspec csproj cs config ,11
+disabled warning missing xml comments,2016-07-18,Merged,593,2,0,,1
+Building with appveyor,2016-07-18,Merged,591,26,33,yml ,2
+Added ability to configure RPC Exchange names based on request or response type.,2016-08-05,Merged,590,164,42,,6
+support .NET Core,2016-08-12,Closed,589,"13,132",380,yml nuspec csproj cs config Config xproj ,16
+Update to someone else's fork to add DNX / Netcore support,2016-07-11,Closed,588,473,56,dg xproj cs json sln ,8
+Removed Serializable attribute from messages and exceptions,2016-07-25,Merged,587,16,91,cs ,20
+bumped version.cs,2016-05-02,Merged,575,2,2,,1
+Add support binary (error)messages to HosePipe. Fixed #561,2016-05-02,Merged,573,136,29,,15
+Update README URLs based on HTTP redirects,2016-04-25,Merged,570,3,3,,0
+[hosepipe] removed the useless dependency on mgmt client,2016-04-20,Merged,568,2,9,cs ,3
+fix the usage description to describe the option `x` the get (noack),2016-04-20,Merged,567,13,3,cs ,1
+[hosepipe] removed the useless dependency on mgmt client,2016-04-20,Closed,566,0,8,,2
+Add support binary (error)messages to HosePipe. Fixed #561,2016-04-28,Closed,565,7,6,,4
+Fix issue 555,2016-04-01,Merged,556,13,12,csproj config cs ,6
+Fix #520 Marked Rpc.Respond overload as virtual,2016-03-17,Merged,552,5,3,md ,2
+Use RPC exchange instead of default exchange for RPC reponses,2016-04-18,Merged,551,18,3,,2
+Fix #547 - issues with string encoding headers in DefaultConsumerErrorStrategy,2016-03-01,Merged,548,144,9,md ,5
+Fix for #522,2016-02-01,Merged,546,3,5,,3
+Adds support for LightInject DI,2016-02-01,Merged,544,367,3,nuspec csproj cs config ,10
+Drop .Net40 support and update RabbitMQ and Newtonsoft packages,2016-01-28,Merged,543,498,"1,001",nuspec csproj cs ,4
+Update readme to reflect correct required version of VS.,2016-01-25,Merged,542,1,1,,0
+Add optional argument to force usage of background threads in EasyNetQ and RabbitMQ.Client,2016-02-02,Merged,539,56,34,,12
+Net40,2016-01-28,Closed,536,498,"1,001",nuspec csproj cs ,4
+added missing change log entry for v0.53.5,2016-01-06,Merged,535,1,0,,1
+Added custom queue-name support to 'err' and 'retry' commands,2016-01-05,Merged,532,7,3,,2
+Updated to RabbitMQ.Client 3.5.7,2015-12-23,Merged,526,45,40,dll csproj config cs ,27
+Fix #520 Rpc.Respond overload not marked as virtual,2016-03-16,Closed,521,"1,134","1,040",nuspec dll md csproj ,14
+Fix #512 Process may hang due to extra AMQP connection,2015-12-09,Merged,515,71,6,cs ,4
+Fix #448 Process may not exit if handler throws Exception,2015-12-01,Merged,510,67,6,,4
+added SimpleTypeNameSerializer for better generic typename handling,2018-05-14,Closed,509,490,8,cs ,4
+add synchronous consume(byte[]) methods,2015-11-18,Merged,505,36,2,,3
+Fix #448 Process will not always exit when handler throws error,2015-12-01,Closed,500,65,7,cs ,4
+Try to fix old-style package restore for EasyNetQ.Serilog project,2015-10-22,Merged,499,2,0,,1
+Add task runner instead of separate executables,2015-11-28,Merged,498,506,592,cs config ,7
+Add serilog package,2015-10-21,Merged,497,223,6,nuspec csproj cs config sln bat ,11
+Added support for the new properties in ScheduleMe properties in the …,2015-10-20,Merged,496,208,42,cs csproj ,8
+Message priority in IBus,2016-06-06,Merged,495,234,9,cs projitems ,9
+Disable CLS compliance,2016-01-06,Merged,493,4,2,,1
+Updated RabbitMQ client to 3.5.6,2015-10-09,Merged,492,24,23,csproj config cs ,16
+Updated RabbitMQ client to 3.5.5,2015-10-05,Merged,490,24,16,csproj config cs ,16
+Allow SubscriptionConfiguration to be applied to a class,2015-09-28,Merged,487,3,2,,2
+AutoDelete support,2015-09-28,Closed,485,"5,395","7,068",nuspec dll md cs csproj config ,24
+Changed the default expires value of the autosubscriber attribute,2015-11-19,Merged,484,89,15,csproj ,5
+ErrorQueueNamingPolicy can use MessageReceivedInfo,2018-07-17,Closed,481,29,22,,10
+fix typo in InterceptionExtensions,2015-08-18,Merged,478,5,4,cs ,3
+Fix #467 Allow SslOptions to be configurable from string with CreateBus(),2015-10-24,Closed,477,0,0,,0
+Fix Issue #475 -  AMQP-uri-specified connections get configured twice,2015-08-11,Merged,476,33,2,csproj ,4
+Made the fields on RabbitAdvancedBus protected,2015-08-10,Closed,474,13,13,,1
+Allow specifying the maximum size of the message queue.,2015-08-11,Merged,473,29,8,,3
+Fix #468 Polymorphic Request/Respond Does Not Work As Expected,2015-08-07,Merged,471,94,3,cs ,5
+Updated RabbitMQ to 3.5.4 and JSON.NET to 7.0.1,2015-08-01,Merged,466,49,60,dll csproj config cs ,24
+Max priority queue fix,2015-08-08,Merged,465,7,6,,4
+Alternative RPC method using a specified queue,2017-04-13,Closed,462,"1,373",64,nuspec dll csproj cs ,13
+Improve the sync / async implementation,2015-11-16,Merged,461,"2,814","1,979",nuspec ,7
+fix typo in scheduling extensions,2015-06-17,Merged,456,4,4,cs ,3
+Added in an extension overload for IAdvancedBus for Autofac,2016-01-28,Closed,454,16,1,,1
+Hosepipe now supports 'q' command line parameter for `err` and `retry…,2016-04-18,Closed,452,8,2,,1
+just clean up model instead of reopenning,2015-08-09,Closed,447,1,1,,1
+Update rabbitmq client,2015-06-08,Merged,446,122,285,cs csproj config ,42
+An attempt to fix #441,2015-05-18,Merged,442,4,4,,2
+Priority queue support reloaded,2015-05-18,Merged,440,160,118,,3
+An attempt to fix #348,2015-05-20,Merged,436,88,61,cs config ,12
+Try to fix #428,2015-05-10,Merged,435,10,2,,2
+Refactor scheduler,2015-05-10,Merged,433,589,581,cs ,4
+Management.Client was moved to https://github.com/EasyNetQ/EasyNetQ.Mana...,2015-05-06,Merged,432,5,"5,529",csproj json ,6
+Stop publishing Management.Client package to nuget.,2015-05-05,Merged,430,1,29,nuspec ,2
+Added start consuming succeed and failure events,2017-03-15,Closed,429,67,8,csproj md ,7
+Delayed Exchanges support,2015-04-27,Merged,425,379,11,cs ,5
+No longer allows update to RabbitMq.Client 3.5.0,2015-04-01,Merged,419,1,1,,1
+CreateBus overloads,2015-04-01,Merged,418,42,15,,2
+"Revert ""Priority queue support""",2015-03-31,Merged,417,97,137,,4
+Priority queue support,2015-03-31,Merged,416,137,97,,4
+Update to RabbitMQ.Client 3.5,2015-05-17,Merged,415,69,67,csproj config cs ,24
+typenameserializer uses ConcurrentDictionary,2015-03-30,Merged,409,32,22,,2
+Rpc silent fail fix,2015-03-28,Merged,408,92,10,cs ,4
+AtLeastOneWithDefault -> DefaultIfEmpty,2015-03-18,Merged,405,4,16,,3
+PersistentChannel update,2015-03-17,Merged,404,61,17,cs ,6
+Refactor DeliveryModeStrategy,2015-03-16,Merged,403,23,46,csproj ,11
+Message delivery mode and misc,2015-03-15,Merged,402,81,25,cs ,10
+Validate now called in lowest level method of RabbitHutch,2015-03-25,Merged,401,3,3,,2
+Loadbalancing,2015-03-09,Closed,397,360,58,csproj cs ,13
+Fix RabbitAdvancedBus auto connect,2015-03-04,Merged,396,78,6,cs ,7
+Bug fix publish message on  EasyNetQ_Default_Error_Queue,2015-03-04,Merged,395,24,2,,2
+Preserve generic Consume<T>() type when deserializing and getting handler,2015-03-03,Closed,394,20,2,,1
+Add messageproperties to SubscribeAsync,2015-03-03,Closed,393,77,9,,2
+NullReferenceException on Serialize,2015-03-03,Merged,392,10,1,,3
+Logging disabled by default,2015-03-12,Merged,391,3,2,,2
+AdvancedBus event update,2015-03-02,Merged,390,481,115,csproj ,8
+When a subscriptionId is null the queue name end with '_',2015-02-24,Merged,386,6,2,,2
+Consume update and misc,2015-03-02,Merged,384,157,35,csproj ,11
+SSL Enabled Cluster Support - Added SSL Options per Host Configuration,2015-02-22,Merged,382,13,2,,3
+Very small CreateBus addition,2015-02-24,Merged,376,26,4,,2
+"In Management Client, LeaveDotsAndSlashesEscaped now works with https",2015-02-12,Merged,374,11,5,,2
+Ability to configure Receive() consumer behavior,2015-02-18,Merged,373,110,1,,5
+"ManagementClient: Use ILRepack to intern Newtonsoft.Json, default WebRequest.KeepAlive to false",2015-02-07,Merged,372,12,4,nuspec cs md ,4
+Utc datetimes,2015-02-05,Merged,371,7,6,,5
+Bumped to version 0.40.6.0,2015-02-03,Merged,367,2,1,,1
+Preconditions will check for blank argument name / exception message onl...,2015-02-02,Merged,366,16,14,,2
+Added parameter to set the 'x-dead-letter-routing-key' argument when dec...,2015-02-02,Merged,363,15,6,,2
+Dynamic removal,2015-02-04,Merged,360,564,231,csproj ,3
+Bug fix of Rpc,2015-01-20,Merged,359,2,1,,2
+316 remove dynamic,2015-01-20,Closed,357,24,22,cs ,8
+Upgrade client to 3.4.3,2015-01-19,Merged,356,32,23,csproj config cs ,16
+ReflectionHelpers-improvements,2015-01-19,Merged,355,50,32,,6
+Responder prefetch count customization,2015-01-17,Merged,353,96,5,cs ,6
+Fix typo in 'Failed to connect' error message.,2015-01-15,Merged,352,1,1,,1
+add ilrepack on source project to fix #346,2015-01-13,Merged,351,2,5,config ,2
+Fix concurrent bug,2015-01-12,Merged,350,57,48,,2
+Fix #347,2015-01-12,Closed,349,64,55,dll cs ,12
+fix #337,2015-01-09,Merged,343,1,1,,1
+ConnectionStringParser now implements IConnectionStringParser,2015-01-09,Merged,342,1,1,,1
+Fix tests,2015-01-08,Merged,341,10,4,,5
+Exclusive consumer,2015-01-08,Merged,340,233,11,csproj ,11
+fix #287 for Versioning,2015-01-06,Merged,338,99,20,,5
+fix #281,2015-01-05,Merged,336,56,30,,3
+add SerializeFriendly to TypeNameSerializer,2015-01-03,Closed,335,61,14,,4
+Fix version in csprojs and update mongo driver,2015-01-01,Merged,334,13,31,cs config ,5
+RabbitHutch comments update,2014-12-23,Merged,331,5,5,,1
+Update Version.cs,2014-12-13,Closed,329,2,1,,1
+Update ConsumerDispatcher.cs,2014-12-13,Merged,328,11,17,,2
+fix typo and spacing issue,2014-12-12,Merged,327,3,3,,1
+SendAsync should return Task,2014-12-09,Merged,326,7,6,,5
+Removed Immutable Packages and replaced IEventBus.cs ...,2014-12-05,Merged,325,22,49,cs config ,4
+Tests.Perfomance.Produces failed to start,2014-12-03,Merged,324,1,2,,1
+An attempt to fix #321,2014-12-02,Merged,323,27,29,,2
+RandomHostSelectionStrategy is default,2014-11-26,Merged,320,14,13,csproj ,10
+Sanitise VhostName when creating Permissions with default vhost,2014-11-26,Merged,319,22,1,,2
+Configuration of rpc timeout,2014-11-25,Merged,318,97,9,cs ,9
+'Declared Consumer' log message fix,2014-11-22,Merged,315,1,1,,1
+SendAsync method,2014-12-01,Merged,314,38,1,,5
+Services registration order fixed,2014-11-20,Merged,313,1,1,,1
+ILMerge of conflicting dependencies,2014-11-14,Merged,312,11,6,csproj config cs ,4
+Allow subscriptions on IBus with MessageReceivedInfo,2014-11-12,Closed,311,29,2,,2
+Implemented Ninject Message Dispatcher,2014-11-05,Merged,309,47,0,cs ,2
+Exclusive consumer,2015-01-08,Closed,308,239,10,csproj ,10
+Fix number of messages retrieved and Set the purge parameters using the parameter x,2014-10-29,Merged,307,3,1,,2
+Making RabbitMQ dependcy >=3.4,2014-10-29,Merged,306,2,2,,1
+Allowing greater than 3.3.2 RabbitMQ,2014-10-29,Closed,305,2,2,,1
+RabbitMQ.Client.3.4,2014-10-28,Merged,303,47,66,cs config ,30
+Remove interfaces from POCO classes,2014-10-29,Merged,302,56,88,csproj ,18
+Simplify the usage of ConnectionStringParser,2014-10-25,Merged,298,6,7,,2
+Add support for sending and receiving requests on a specific queue,2014-10-27,Closed,297,213,40,,5
+"Factored out IReconnectionWaiter, Recursive->Iter",2014-10-22,Closed,295,205,47,cs ,14
+Fixed exhanges with the plus symbols,2014-10-16,Merged,293,35,12,,2
+Updated AutoSubscriber to support loading an explicit list of types,2014-10-13,Merged,292,109,6,csproj ,5
+"Dispose an existing connection, before we throw away the refererence to ...",2014-10-11,Merged,291,5,0,,1
+Added MessageCount method to AdvancedBus,2014-10-12,Merged,290,29,1,,4
+Make DefaultConsumerErrorStrategy thread-safe,2014-10-09,Merged,289,11,3,,2
+fixed publishing messages after restoring connection to RabbitMQ,2014-10-08,Merged,287,1,1,,1
+"Fix ""NullReferenceException"" when trying to get message from an empty queue",2014-10-08,Merged,286,15,2,,2
+Fix EasyNetQ.nuspec by adding the dependency on System.Collections.Immut...,2014-10-03,Merged,285,4,2,cs ,2
+"PublishedMessageEvent, DeliveredMessageEvent",2014-10-01,Merged,284,83,13,csproj ,12
+Use IImmutableSet instead of List in EvenBus to make it thread-safe...,2014-09-28,Merged,282,46,18,cs config ,4
+Handle publish error (prevent unhandled task exception),2014-09-20,Merged,278,14,1,,1
+0.36.1.0 Updated Json.Net to the latest version,2014-09-17,Merged,277,17,16,csproj config cs ,16
+Add support for notifications when the connection is blocked,2014-09-15,Merged,276,132,1,csproj ,9
+Updated autofac to 3.5.2,2014-09-01,Merged,274,8,6,config ,4
+Complete the HTTP address,2014-08-28,Merged,273,29,10,,1
+Ignore the Boolean string case,2014-08-16,Merged,272,1,2,,1
+Unhandled exception when running in SSIS,2014-08-15,Merged,271,20,3,,2
+"always set result for TaskCompletionSource, or no ACK signal will be sent to the RabbitMQ server.",2014-08-14,Merged,269,4,0,,1
+Basic impl of produce-consume interception #256,2014-08-14,Merged,268,454,17,csproj cs ,14
+fix #266,2014-08-13,Merged,267,13,2,,1
+fix Invalid DeliveryMode=0 on RPC #262,2014-08-10,Merged,264,8,0,,1
+Future publish refactor,2014-08-11,Merged,263,288,152,csproj ,5
+fix #258,2014-08-08,Merged,261,35,21,,1
+Added the ability to configuration subscription for autosubscriber,2014-08-05,Merged,255,344,16,csproj ,6
+Added support for infinite timeout in PersistentChannel.cs,2014-08-05,Merged,253,11,11,dll cs ,11
+Use MessageDeliveryModeStrategy,2014-08-05,Merged,252,12,13,,3
+A bit of fun with reflection,2014-08-04,Merged,250,197,9,cs ,9
+"Add exception handling around responder function, to avoid timeout on the client...",2014-08-05,Merged,249,45,22,,2
+fix typo,2014-07-29,Merged,247,11,11,,1
+Fix typo,2014-07-29,Closed,246,41,"1,799",cs ,5
+Fixed spelling mistakes,2014-07-22,Merged,242,2,2,,1
+DeliveryModeAttr: to control message persistance,2014-08-01,Merged,240,100,178,csproj ,11
+Future Publish Async without Wait,2014-08-01,Merged,239,98,66,,7
+fix for Queue name for Interface #234,2014-08-01,Merged,238,40,16,,3
+Future Publish Async without Wait,2014-07-15,Closed,236,138,82,,10
+Use String.Format construct conn string parameter error when connecting to a Boolean type,2014-07-09,Merged,235,5,5,,1
+Async version of exchange declare and bind,2014-07-11,Merged,232,264,59,,8
+Fix bug with future publish based on rabbitmq,2014-07-02,Merged,231,41,6,,3
+x-expires now can be configured while subscribe...,2014-07-02,Merged,230,92,2,cs ,5
+Allow extending the Rpc class,2014-06-24,Merged,227,95,84,,2
+Issues with NinjectAdapter service registrations,2014-06-19,Merged,226,105,42,csproj md ,15
+Configure prefetchCount for subscription,2014-06-19,Merged,225,37,8,,6
+x-cancel-on-ha-failover is now false by default and can be configured...,2014-06-16,Merged,224,50,12,,9
+RabbitMQ.Client version 3.3.2,2014-06-14,Merged,223,43,24,csproj config cs ,20
+Updated to latest JSON.Net and updated NuSpecs to match,2014-06-05,Merged,221,32,24,csproj config cs ,17
+"Fix ""collection cannot be iterated after modification"" error when event ...",2014-06-01,Merged,220,49,1,,2
+Do not register component if already registered with Castle Windsor,2014-06-01,Merged,219,12,6,,1
+update mongodb driver version,2014-05-26,Merged,217,3,3,config ,2
+"Change ExchangeType.Header to ""headers""",2014-05-23,Merged,216,1,1,,1
+Enable automatic service recovery,2014-05-22,Merged,215,10,0,,2
+Message version support,2014-05-26,Merged,214,"1,193",41,csproj ,4
+Removed NuGet binary from repository,2014-05-21,Merged,212,5,2,exe targets ,3
+updated autofac package to 3.4.0,2014-05-20,Merged,211,5,6,config ,4
+Switching NextSeqId in BackingQueueStatus from an int to a long,2014-05-19,Merged,210,28,2,json cs ,4
+Added QueueAttribute for controling queue / exchange name.,2014-05-19,Merged,209,122,6,csproj ,6
+Handle TaskCancellation of Consumer UserHandler Task,2014-05-19,Merged,208,288,76,csproj ,9
+FuturePublish based on rabbitmq dead lettering,2014-05-16,Merged,206,161,27,cs ,8
+x-cancel-on-ha-failover,2014-05-08,Merged,205,4,2,,2
+Fix the last spelling error,2014-05-08,Merged,203,1,1,,1
+Fix spelling errors,2014-05-07,Merged,202,71,71,,10
+Change RabbitMQ.Client version to 3.3.0 into EasyNetQ.nuspec dependencies,2014-04-30,Merged,201,1,1,,1
+Upgrade to RabbitMQ.Client 3.3.0,2014-04-30,Merged,200,22,22,config cs ,15
+asyncronous BusExtensions and test fix #197 - bump version,2014-04-29,Merged,199,1,1,,1
+asyncronous BusExtensions and test fix,2014-04-28,Merged,197,59,1,,3
+Scheduler based on mongo,2014-04-24,Merged,196,"1,253",16,cs ,7
+Allow cancelling of FuturePublished event(s) through a cancellation key.,2014-04-17,Merged,195,154,4,cs sln csproj ,18
+Support returned immediate/mandatory messages,2014-04-16,Merged,194,447,95,,2
+Management client now supports the changing of a user password,2014-04-14,Merged,193,51,3,,5
+AutoSubscriber should omit abstract classes or generic classes implement...,2014-04-07,Merged,190,12,2,,2
+EasyNetQ.DI: Changed all project Framework targets from 4.5 to 4.0,2014-04-05,Merged,186,60,47,config ,18
+DI.Autofac: Changed Target framework to .NET Framework 4 Client Profile,2014-04-04,Merged,185,2,2,,1
+More rigorous parsing of connection strings - we reject connection strin...,2014-04-02,Merged,184,21,1,,2
+"fixed typo in autodelete logging, use await syntax in AutofacMessageDispatcher",2014-04-01,Merged,183,4,7,,2
+Support for queue name that contains plus char (+) when using Management Client,2014-03-31,Merged,182,33,9,,3
+Fixed publish confirm timeouts by handling async correctly,2014-03-27,Merged,180,16,29,,1
+fixes #178 StructureMapAdapter type registration check flaw,2014-03-27,Merged,179,119,21,csproj ,4
+RabbitMQ.Client version 3.2.4,2014-03-19,Merged,177,26,24,csproj config cs md ,16
+Provide access to PropertiesDictionary of Connection,2014-03-19,Merged,176,9,0,,2
+Change x86 cpu type to AnyCPU,2014-03-14,Merged,174,134,140,,7
+Make EasyNetQ.Scheduler work with Devart dotConnect Postgres provider,2014-03-14,Merged,173,24,10,cs ,6
+Simplify injectionextensions,2014-03-13,Merged,172,16,8,,2
+Exclusive consumer And FuturePublishAsync,2014-04-23,Closed,170,814,179,cs ,18
+pass message type to DeclareExchange in IPublishExchangeDeclareStrategy,2014-03-05,Merged,169,19,12,,5
+"Have PersistentMessages setting also apply to Send<T>(string queue, T message)",2014-03-04,Merged,168,13,3,,2
+Consumer with priority,2014-03-04,Merged,167,180,32,csproj ,15
+Cosmetic fixes,2014-02-28,Merged,166,3,2,,2
+Fix + New functionality,2014-07-09,Closed,164,76,18,,9
+Solved an issue with the AutofacAdapter that made it impossible to regis...,2014-02-20,Merged,162,46,6,,4
+Autofac 3.3.0,2014-02-11,Merged,159,"13,772",46,dll csproj config sln nupkg ,19
+Basic bus can subscribe with autodelete,2014-02-10,Merged,155,15,1,,2
+adding non-generic publish methods,2014-02-04,Merged,153,71,18,md ,4
+[Breaking change] Refactor consumer error strategy,2014-02-04,Merged,152,11,21,,4
+Transient bus,2014-02-03,Closed,151,40,6,,3
+Postgres scheduler,2014-01-20,Merged,147,201,48,cs csproj sln ,16
+Fix #138 - removed default date from scheduler stored procedures,2014-01-20,Merged,145,12,14,cs ,3
+"#140 removed monitor, sagahost and amqp spike projects",2014-01-17,Merged,144,0,"7,594",,7
+#142 enabled nuget package restore and removed packages from repository,2014-01-16,Merged,143,214,"6,466",Config exe targets csproj ,17
+fixes issue #135 - implemented first-in-wins strategy for StructureMap c...,2014-01-15,Merged,139,75,2,,2
+Add ForTopic Attribute which allows the specification of topics for,2014-01-13,Merged,136,170,9,csproj nuspec ,9
+Fixed bug in MessageReader.ReadMessages path manipulation.,2014-01-03,Merged,133,6,3,,1
+Succeeded=false on Reset,2014-01-02,Merged,132,28,9,,2
+Added Autofac support for internal DI,2014-01-15,Merged,130,401,3,nuspec dll cs csproj config ,11
+New policy definitions for Management Api,2013-12-20,Merged,129,187,15,dll json cs ,12
+exposed argument dictionary when Declaring an Exchange on Advanced Bus,2013-12-16,Merged,127,11,19,,3
+Request now throws exception if the responder throws on server,2013-12-16,Merged,126,190,10,dll cs csproj ,16
+RandomClusterHostSelectionStrategy,2013-12-13,Merged,125,153,0,cs ,5
+"Support for StructureMap, Windsor and Ninject container factory adapters",2013-12-12,Merged,124,772,1,cs config ,10
+added 2 possible appSetting options to ScheduleRepositoryConfiguration:,2013-12-10,Merged,123,23,8,,2
+EasyNetQ.NonGenerics,2013-11-21,Closed,120,"51,796",2,playlist cs config sln ,12
+Fix channel leakage when broker sends consumer cancel notifications,2013-11-06,Closed,119,63,7,csproj ,6
+JsonSerializerSettings not passed to serializer,2013-11-05,Merged,118,14,2,,3
+Include XML documentation in NuGet package,2013-10-31,Merged,116,2,0,csproj ,2
+Remove misleading message from InternalConsumer when handling basic.cancel,2013-10-30,Merged,115,1,1,,1
+Added async auto subscription,2013-10-29,Merged,114,134,21,csproj ,7
+Use Passive while declaring exchange,2013-10-15,Merged,110,13,1,,2
+Replaced uint with int in queue parameters dictionary,2013-10-10,Merged,109,8,22,,2
+Fixed issue with queues consumers not being recreated after reconnecting.,2013-08-21,Merged,105,65,20,,4
+Fix test failing in build #106,2013-08-21,Merged,104,1,1,,1
+Support reading and writing policies and parameters in admin API,2013-08-19,Merged,103,487,0,json cs ,8
+testing if subscriptionAction.Channel.IsOpen when re-creating subscribers,2013-08-16,Merged,102,19,13,,2
+Implemented Consumer Cancel Notification support.,2013-08-14,Merged,101,298,64,csproj ,12
+Fix failing tests in build #103,2013-08-13,Merged,99,29,20,,4
+Unbreak build #102. I blame Visual Studio.,2013-08-10,Merged,97,9,9,cs ,2
+Handle null responses from Admin API more better,2013-08-10,Merged,96,63,4,csproj ,6
+Allow ITopologyVisitor to be injected into IAdvancedBus and IAdvancedPublishChannel lowest level methods.,2013-08-02,Merged,95,37,3,,4
+"Fixing the dev's liver, hear it's faulty",2013-08-10,Merged,92,2,2,,1
+Non-durable exchanges,2013-06-26,Merged,91,49,12,,5
+Enable numerical values for arguments,2013-06-12,Merged,90,2,2,,1
+EasyNetQ.Trace additions,2013-06-13,Merged,89,"4,471",20,csproj md config nuspec dll ,6
+Added SSL configuration options to EasyNetQ.,2013-05-29,Merged,87,13,4,,3
+Some small changes for the EasyNetQ.Management.Client,2013-05-24,Merged,86,12,5,cs ,5
+"Imho, concurrent bug :)",2013-05-21,Merged,84,6,8,,1
+Added support for num messages to command line args,2013-05-10,Merged,81,20,0,,2
+Expand IManagementClient to support exchange to exchange bindings,2013-05-07,Merged,80,53,0,,3
+Allow supporting amqp connection string syntax,2013-04-25,Merged,79,265,12,csproj ,7
+Rename routingkey/queue for request/response with conventions,2013-04-12,Merged,78,41,11,,4
+Added a unit test to verify that arguments can be set when creating a queue,2013-03-20,Merged,77,13,0,,1
+Possible to add input arguments when creating bindings and queues,2013-03-20,Merged,76,1,8,cs ,3
+Expose a TPL friendly API for RPC style requests,2013-03-19,Merged,74,159,1,cs ,4
+Introduced Preconditions class,2013-03-04,Merged,73,358,403,csproj ,9
+Added .gitattributes and fixed line feeds,2013-02-28,Merged,72,"1,198","1,176",gitignore nuspec cs ,5
+Non-generic Subscribe methods,2013-02-25,Closed,70,727,302,,5
+Async AutoSubscriber,2013-05-01,Closed,68,388,300,cs ,2
+Missing File,2013-01-10,Merged,63,487,1,csproj ,9
+Management Api Improvements,2013-01-08,Merged,62,510,37,csproj cs ,10
+fix #60,2012-12-17,Merged,61,7,6,,1
+Extended IConventions,2012-12-13,Merged,59,218,32,,10
+Added MessageProperties to BasicPublishChannel.Publish,2012-12-12,Closed,58,211,196,,1
+Rename to MessageDispatcher,2012-12-12,Merged,57,699,22,csproj XML htm css ,10
+Fix for Bug #52,2012-12-08,Merged,54,48,14,,2
+use C# property names instead of underscored property names,2012-12-10,Merged,53,519,497,csproj ,8
+Just a rename as it really is a Dispatcher not a Consumer.,2012-12-11,Closed,51,25,24,csproj ,8
+New extension point: INamesProvider,2012-12-13,Closed,49,296,42,csproj ,11
+Better support for IOC containers by giving better management over consumers when using the AutoSubscriber,2012-12-06,Merged,47,430,377,cs ,4
+Changed JsonSerializer to include .NET type information,2012-12-03,Merged,46,23,3,,2
+Rabbit MQ hint path,2012-12-03,Merged,45,2,2,,1
+Set default topic when using the fluent API,2012-11-16,Merged,44,34,3,,2
+"AutoSubscriber changes, added SubscriptionIdPrefix",2012-09-27,Merged,41,87,22,,2
+AutoSubscriber changes,2012-09-26,Merged,40,71,8,,2
+AutoSubscriber,2012-09-26,Merged,39,0,0,,0
+AMQP arguments on all subscription queues.,2012-09-10,Merged,37,274,30,,3
+Added requestedHeartbeat to the connection string,2012-09-10,Merged,36,40,10,,3
+Autodelete for exchanges,2012-08-23,Merged,35,48,4,,3
+New QueueDeclare method that takes arguments,2012-06-22,Merged,27,46,25,,4
+Fixed a little typo,2012-06-20,Merged,26,1,1,,1
+Some exception logging for SagaHost,2012-06-11,Merged,24,36,18,,4
+Possible alternative port support,2012-05-25,Closed,22,28,2,,3
+Scheduler Service not starting due to IRawByteBus,2012-05-14,Merged,19,8,1,,2
+Added Open Channels Failing Test,2012-05-03,Merged,17,18,0,,2
+Let windsor host install from it's own bin folder as well as saga directory.,2012-04-19,Closed,14,1,0,,1
+Avoid polling for thread exit,2012-03-15,Merged,12,1,2,,1
+Added ability to use custom conventions for naming exchanges and queues.,2011-11-29,Merged,8,240,27,cs csproj ,9
+I made the folder location for hosepipe tests dynamic so it doesn't fail if your source is in a different folder or drive.,2011-11-21,Merged,6,39,34,,3
+Fix to track all Models in RabbitBus and clean them up when it is disposed.,2011-09-28,Merged,4,15,2,,1
+Models are now tracked and disposed of properly in RabbitBus,2011-09-27,Closed,3,43,16,,1
+Added some notes to README.txt,2011-07-02,Merged,1,6,0,,0

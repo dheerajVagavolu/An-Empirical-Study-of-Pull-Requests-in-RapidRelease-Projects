@@ -1,0 +1,134 @@
+Bump Travis versions,2018-11-04,Merged,1584,2,1,go ,2
+Update README.md,2018-11-04,Merged,1580,2,2,,0
+"fix issue #1453, disallow POST and HOST: commands to avoid proxy-redis connection to be dropped",2018-07-29,Merged,1542,4,0,,1
+tutorial: general fixes,2018-11-04,Merged,1537,3,3,,0
+skip the empty \r\n during redis-cli --pipe,2018-06-26,Merged,1514,6,0,,2
+更新redis change文档,2018-06-26,Merged,1513,13,13,,0
+Update tutorial_en.md,2018-04-07,Merged,1452,1,1,,0
+Update tutorial_zh.md,2018-04-07,Merged,1451,1,1,,0
+"fix k8s start script, use -lt instead of <",2018-02-09,Merged,1443,1,1,,1
+解决codis-fe网页过长的问题,2018-02-25,Closed,1437,1,1,,1
+增加一致性哈希的实现,2018-05-18,Closed,1425,"2,790","2,100",html toml go ,8
+Release3.2 fix 1345,2017-12-15,Merged,1419,53,27,,4
+proxy:collects maxpipeline and maxproxyclient error,2017-12-15,Merged,1408,15,0,,2
+修改读写分离逻辑,2017-12-18,Closed,1389,89,5,go ,4
+Dev antony,2017-10-26,Closed,1387,30,20,go json toml ,9
+Fix the name of the Makefile task to run tests,2017-10-25,Closed,1382,1,1,,1
+Upgrade redis-server to 3.2.11,2017-10-25,Merged,1381,"1,234",111,gitignore 11/00-RELEASENOTES 11/BUGS 11/CONTRIBUTING 11/COPYING 11/INSTALL 11/MANIFESTO 11/Makefile md 11/deps/Makefile 11/deps/geohash-int/Makefile c h yml 11/deps/hiredis/COPYING 11/deps/hiredis/Makefile cfg gitattributes 11/deps/jemalloc/COPYING 11/deps/jemalloc/ChangeLog 11/deps/jemalloc/INSTALL in 11/deps/jemalloc/README 11/deps/jemalloc/VERSION sh guess sub 11/deps/jemalloc/configure ac xsl txt 11/deps/jemalloc/install-sh 11/deps/linenoise/Makefile markdown 11/deps/lua/COPYRIGHT 11/deps/lua/HISTORY 11/deps/lua/INSTALL 11/deps/lua/Makefile 11/deps/lua/README html png gif 1 css 11/deps/lua/etc/Makefile 11/deps/lua/etc/README hpp ico pc bat lua 11/deps/lua/src/Makefile ,295
+update,2017-09-15,Closed,1346,6,3,ini go ,3
+Add redis-sentinel to Codis bin dir,2017-08-31,Merged,1339,1,0,,1
+support authentication for zookeeper/etcd,2017-09-17,Merged,1330,90,27,toml ,13
+将 codis patch 合并到 redis/4.0.1,2017-08-08,Merged,1321,"6,404",9,1/src/Makefile c h ,7
+将 codis patch 合并到 redis/4.0.1 中,2017-08-08,Closed,1319,"200,992",0,,1
+upgrade extern/redis-3.2.8 to redis-3.2.10,2017-10-11,Closed,1317,"1,140",109,gitignore 10/00-RELEASENOTES 10/BUGS 10/CONTRIBUTING 10/COPYING 10/INSTALL 10/MANIFESTO 10/Makefile md 10/deps/Makefile 10/deps/geohash-int/Makefile c h yml 10/deps/hiredis/COPYING 10/deps/hiredis/Makefile cfg gitattributes 10/deps/jemalloc/COPYING 10/deps/jemalloc/ChangeLog 10/deps/jemalloc/INSTALL in 10/deps/jemalloc/README 10/deps/jemalloc/VERSION sh guess sub 10/deps/jemalloc/configure ac xsl txt 10/deps/jemalloc/install-sh 10/deps/linenoise/Makefile markdown 10/deps/lua/COPYRIGHT 10/deps/lua/HISTORY 10/deps/lua/INSTALL 10/deps/lua/Makefile 10/deps/lua/README html png gif 1 css 10/deps/lua/etc/Makefile 10/deps/lua/etc/README hpp ico pc bat lua 10/deps/lua/src/Makefile ,295
+pipelined sentinel commands,2017-08-10,Merged,1316,147,95,go ,6
+fix signal order,2017-07-28,Closed,1301,3,2,,1
+fix signal order.,2017-07-27,Closed,1300,1,1,,1
+backend: handle LOADING the same way as MASTERDOWN,2017-07-27,Merged,1296,56,0,,1
+update,2017-07-25,Closed,1293,"645,242","4,202",yml Dockerfile json txt Makefile ,5
+test_pull_request,2017-07-21,Closed,1289,1,0,,1
+typo fix,2017-07-04,Merged,1272,1,1,,0
+#修改main.yml,2017-07-05,Merged,1264,1,1,,1
+typo fix in fe/assets/index.html,2017-06-22,Merged,1261,1,1,,1
+codis 3.2 支持运行在 kubernetes环境,2017-07-04,Merged,1251,"1,041",3,go ,2
+format for MD,2017-05-19,Merged,1243,18,18,,0
+Use ansible to deploy codis and add doc,2017-04-18,Merged,1213,"2,684",180,sh ansible/group_vars/all ansible/hosts yml ,8
+Use ansible to deploy codis and add doc,2017-04-18,Merged,1198,"2,684",180,sh ansible/group_vars/all ansible/hosts yml ,8
+Release2.0,2017-04-18,Closed,1194,"69,109",233,yml Dockerfile json txt Makefile md go ,17
+Optimized RequestChan for Client Session,2017-03-22,Merged,1186,48,38,go ,5
+Merge Asynchronous Release from branch lazyfree,2017-03-14,Merged,1175,80,233,h ,3
+proxy: support statsd in metrics reporter,2017-03-21,Merged,1170,944,4,toml go yml md v2/LICENSE ,7
+merge: merge branch 'selectdb',2017-02-20,Merged,1150,317,134,html toml template py ,18
+update,2017-03-23,Closed,1139,"645,242","4,202",yml Dockerfile json txt Makefile ,5
+models:support mysql.deploy:add admin script,2017-03-09,Closed,1128,"8,974",6,go toml sql ,10
+add admin script,2017-01-13,Closed,1117,492,2,go toml sql ,6
+add fe support in docker start script,2017-01-04,Merged,1107,19,1,,1
+add fe support,2016-12-30,Closed,1106,11,0,,1
+godep: upgrade jemalloc-go to 4.3.1,2016-11-18,Merged,1042,"3,056","1,401",yml gitignore com/spinlock/jemalloc-go/jemalloc/ChangeLog in com/spinlock/jemalloc-go/jemalloc/README com/spinlock/jemalloc-go/jemalloc/VERSION ,9
+proxy and backend connecition support both single & multi connections,2016-10-25,Closed,1007,56,9,go ,4
+Update Makefile,2016-09-01,Merged,942,0,1,,1
+typo on line 29,2016-08-12,Merged,921,1,1,,0
+"add C++,java,python client for codis",2016-07-21,Closed,901,"34,652",0,h ,1
+Update config.ini,2016-07-21,Merged,876,1,0,,1
+modify codis-fe to codis-ha,2016-05-09,Merged,800,1,1,,0
+Update tutorial_zh.md,2016-04-25,Merged,790,1,1,,0
+fix autorebalancer error,2016-03-22,Merged,741,1,1,,1
+codebeat badge,2016-03-22,Closed,733,1,0,,0
+Fix autorebalance error,2016-03-16,Closed,714,1,1,,1
+Update README.md,2016-02-14,Merged,701,19,19,png ,1
+add some artworks,2016-02-14,Merged,700,0,0,,3
+Release3.0,2016-01-28,Closed,680,"323,997","8,887",yml Dockerfile json txt Makefile md ,5
+Codes typo fixed,2016-01-26,Merged,677,4,4,,0
+Add some cli options able to override key in config.ini,2016-01-21,Closed,639,79,6,,3
+Release 3.0,2016-01-05,Merged,625,709,319,md html gitignore doc/pictures/Makefile png tex ,12
+"Dev3.0, release 3.0",2016-01-05,Closed,624,709,319,md html gitignore doc/pictures/Makefile png tex ,12
+"Dev3.0, update documents",2016-01-05,Closed,623,705,319,md html gitignore doc/pictures/Makefile png tex ,12
+Review dev3.0,2016-01-01,Merged,614,160,69,go css js html ,10
+"Dev3.0, Add codis-ha",2015-12-26,Merged,600,372,38,Makefile go html ,5
+Add codis-fe,2015-12-24,Merged,592,"314,346",11,go ttf woff woff2 css ,7
+Dev3.0,2015-12-23,Merged,591,722,"1,084",Makefile go ,4
+logging when error occours on ZK,2015-12-24,Merged,590,3,0,,1
+"Merge, branch dev3.0",2015-12-07,Merged,561,"4,124","8,746",yml json md ,3
+"Update, proxy's session reader should close connection before exit",2015-11-12,Merged,520,2,8,,1
+use godep compulsively,2015-10-26,Merged,498,46,86,json Makefile sh md ,4
+serve /slot components locally,2015-10-15,Merged,484,26,4,js html ,5
+codis-proxy: support auto-online and remove-fence after start,2015-09-10,Closed,396,53,8,,5
+check migerating slots when remove server group,2015-08-08,Merged,345,3,0,,1
+Zk,2015-06-19,Closed,276,682,615,sh html js ,4
+add more benchmark results,2015-06-16,Merged,271,362,31,doc/bench/Makefile png doc/bench1/Makefile pdf plot doc/bench/input1 → doc/bench1/input1 doc/bench/input2 → doc/bench1/input2 doc/bench/input3 → doc/bench1/input3 doc/bench2/Makefile ,13
+merge dev,2015-06-14,Merged,270,"3,913","3,533",Makefile md go png doc/bench/Makefile pdf plot doc/bench/input1 doc/bench/input2 doc/bench/input3 ,11
+"merge dev, redesigned codis pipeline & update benchmark",2015-06-14,Closed,268,"3,913","3,533",Makefile md go png doc/bench/Makefile pdf plot doc/bench/input1 doc/bench/input2 doc/bench/input3 ,11
+"fix PRE_MIGRATE not block bug, #240",2015-05-15,Merged,244,5,2,,1
+use ip in --addr/http_addr first rather than ignoring them,2015-04-23,Merged,227,11,3,,1
+Update main.go,2015-04-21,Merged,224,1,1,,1
+"update godeps, fix issue #215",2015-04-18,Merged,220,43,33,sh ,2
+"update godeps, fix issue #215",2015-04-18,Merged,219,41,31,sh ,2
+clean extern projects,2015-04-18,Merged,218,1,"199,520",gitignore extern/redis-binlog/Makefile go toml extern/redis-binlog/extern/gorocks/LICENSE ,9
+Release1.9,2015-04-18,Merged,217,1,"199,520",gitignore extern/redis-binlog/Makefile go toml extern/redis-binlog/extern/gorocks/LICENSE ,9
+fix readme,2015-04-17,Merged,213,2,2,,0
+Add scala client,2015-05-15,Merged,191,466,0,properties sbt ,7
+"fix offline proxy bug, when waiting proxy response timeout",2015-04-09,Merged,184,81,16,,2
+Add dockerfile,2015-04-07,Merged,181,19,1,Dockerfile ,2
+Update tutorial_zh.md,2015-03-30,Merged,172,2,1,,0
+文档格式，小问题,2015-03-30,Closed,171,2,1,,0
+read dashboard addr in command line flag instead of config file when sta...,2015-03-30,Merged,170,6,1,,1
+add remove-fence command,2015-03-26,Merged,168,58,1,,4
+using ticker instead of time.After,2015-03-23,Merged,163,12,5,,1
+issues#158 update godeps,2015-03-20,Merged,160,3,3,,1
+fix block issue when network down,2015-03-17,Merged,152,6,0,,1
+change usage.md for new step,2015-03-16,Merged,150,9,9,,0
+Etcd support,2015-03-14,Merged,146,123,55,go ,13
+simplify error handling,2015-03-06,Merged,135,6,6,,1
+add config for tcp protocol,2015-03-03,Merged,126,11,7,,3
+a bit faster,2015-03-02,Merged,121,22,14,,1
+更新依赖,2015-03-02,Closed,120,4,3,java ,2
+Auto salveof,2015-03-02,Merged,117,140,48,,3
+auto set slaveof when adding slave server to group,2015-03-02,Closed,116,146,48,,3
+add missing function and make code cleaner,2015-02-27,Merged,114,146,93,,4
+migrate refactor and CLI refactor,2015-02-27,Merged,112,749,506,,2
+Pipeline support,2015-02-25,Merged,110,791,221,go ,8
+proxy on sigterm or ctrl-c should mark offline and suicide,2015-02-18,Merged,109,14,0,,1
+add fence,2015-02-06,Merged,103,62,9,,5
+Simplify,2015-01-30,Merged,94,790,24,sh conf ,9
+Add a Gitter chat badge to README.md,2015-01-29,Merged,91,2,0,,0
+update fe & add check slot status before setting proxy online,2014-12-25,Merged,61,38,22,js ,4
+check group id is exists when set slot status,2014-12-25,Merged,60,18,2,,1
+add timeout,2014-12-24,Merged,57,64,7,java ,2
+word correction,2014-12-23,Merged,56,1,1,,0
+Create codis_learn,2014-12-18,Closed,52,1,0,,1
+fix bug: migrate slot to a group not exists,2014-12-17,Merged,50,37,1,,2
+Add readme,2014-12-08,Merged,43,25,0,,0
+Jodis,2014-12-08,Merged,42,304,17,java ,6
+modify pom for releasing to oss,2014-12-02,Merged,38,8,0,,1
+add round robin jedis pool(jodis) support,2014-12-01,Merged,37,795,0,,1
+add slot init pre-check,2014-11-18,Merged,33,14,3,,1
+Godeps support,2014-11-17,Merged,31,119,0,json Godeps/Readme sh ,4
+GGodeps,2014-11-17,Closed,30,119,0,json Godeps/Readme sh ,4
+Update parser.go,2014-11-15,Merged,26,1,1,,1
+Update tutorial_en.md,2014-11-14,Merged,24,66,0,,0
+fix typo,2014-11-13,Merged,22,4,4,,1
+remove orphan lock,2014-11-11,Merged,15,89,0,,1
+Parser refactor,2014-11-10,Merged,13,138,107,,1
+add license header & license.txt,2014-11-08,Merged,7,243,0,go ,54
+Update tutorial_en.md and tutorial_zh.md,2014-11-08,Merged,6,94,1,,0
+tutorial_en,2014-11-06,Merged,4,16,0,,0

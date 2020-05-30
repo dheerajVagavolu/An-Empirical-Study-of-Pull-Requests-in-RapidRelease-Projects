@@ -1,0 +1,236 @@
+Fix bug in CleanPath where it wasn't cleaning all invalid chars,2020-01-07,Merged,1338,78,35,,4
+Add a Cloudflare DNS Validation Plugin,2020-01-07,Merged,1337,252,0,csproj md cs sln ,10
+Update question.md,2019-12-28,Merged,1335,3,1,,0
+Fix #1330,2019-12-19,Merged,1331,77,34,,3
+Merge 2.1.2 into master,2019-12-17,Merged,1329,109,47,,11
+Merge master into 2.1.2,2019-12-17,Merged,1328,0,0,,0
+Update index.md,2019-12-16,Merged,1325,0,0,,0
+fix bug in RegistryLegacyRenewalService when renewals are under HKEY_…,2019-12-16,Merged,1324,1,1,,1
+2.1.2,2019-12-16,Merged,1323,"16,905","2,424",yml ps1 ,4
+Check for unattended mode after validation success,2019-12-03,Closed,1302,2,1,,1
+Update rds.md,2019-11-30,Merged,1295,10,5,,0
+Create ImportRDSFull.ps1,2019-11-30,Merged,1293,404,72,ps1 md cs ,9
+2.1.1,2019-11-27,Merged,1289,98,13,md cs json ,7
+2.1.1,2019-11-27,Merged,1288,149,60,cs csproj ,15
+Pr/1271 added support for managed service identity in azure dns,2019-11-15,Merged,1273,79,26,cs csproj ,8
+Added support for Managed Service Identity in Azure DNS,2019-11-15,Merged,1271,72,22,cs csproj ,7
+Add target plugin IIS Bindings #1269,2019-11-18,Closed,1270,348,0,,5
+Fix #1261,2019-11-09,Merged,1264,12,2,,1
+Improve HTTP validation,2019-11-09,Merged,1263,15,5,,2
+fix formatting,2019-11-07,Merged,1259,5,5,,0
+fix #1256,2019-11-07,Merged,1258,13,6,,1
+Update issue templates,2019-11-07,Merged,1257,32,7,,0
+Update issue templates,2019-11-05,Merged,1254,50,15,,0
+update site,2019-11-05,Merged,1253,29,7,html md ,2
+Promote .NET Core 3 version (2.1.x) to master in preparation of release,2019-11-05,Merged,1252,"8,020","8,686",gitmodules yml ps1 zip pfx txt xml cs md png ,14
+Update ScriptClient.cs to remove extra double quotes being passed to powershell script's argument,2019-10-31,Closed,1247,21,3,,1
+Update ImportExchange.ps1,2019-10-31,Merged,1246,9,3,md ,1
+Make DNS pre-validation a configuration option,2019-10-14,Merged,1229,49,11,cs json ,9
+Various changes for 2.0.10,2019-09-02,Merged,1209,"2,243",349,ps1 cs md yml html ,8
+Updated comand line help about script validation,2019-08-26,Merged,1206,1,1,,1
+Added Microsoft DNS Scripts,2019-08-26,Merged,1200,11,0,,1
+Updated comand line help about script validation,2019-08-26,Closed,1199,1,1,,1
+dns patch,2019-08-01,Merged,1182,70,29,,3
+New method of finding authoritative name servers,2019-08-01,Merged,1181,70,29,,3
+Removed redundant xml elements i wacs project file.,2019-08-01,Merged,1179,0,27,,1
+Updates Challenge Authorize to support 'processing' challange status,2019-07-27,Merged,1176,3,2,,1
+Update README.md,2019-07-12,Merged,1164,1,1,,0
+Add support for private key reuse and custom CSR input,2019-07-08,Merged,1163,537,78,cs ,16
+Handle long strings in multiline show,2019-06-29,Merged,1156,9,2,,1
+email fix blank renewal name,2019-06-26,Merged,1155,1,1,,1
+Fix for #1143,2019-06-23,Merged,1152,18,4,,1
+Add unit tests for IIS http binding updates,2019-06-23,Merged,1151,"1,420",518,,1
+Add encrypt/decrypt for migrating servers,2019-06-26,Merged,1145,496,250,cs ,13
+Add self-hosted DNS Validation plugin,2019-06-05,Closed,1140,334,1,config csproj ,7
+Multistore,2019-05-30,Merged,1136,379,173,,14
+Update validation tokens for acme-dns test case,2019-05-30,Merged,1134,3,3,,1
+Fixed extra menu display for non-IIS users,2019-05-26,Merged,1133,0,6,,1
+Support for AWS IAM roles added,2019-05-06,Merged,1113,29,25,config csproj ,7
+2.0.6,2019-04-26,Merged,1110,51,36,cs ,7
+2.0.6,2019-04-25,Merged,1108,21,3,cs ,3
+Fix for #1083?,2019-04-25,Merged,1107,20,2,,2
+Add ImportWMSVC.ps1 for Web Deploy,2019-04-08,Closed,1096,81,0,,1
+Add workaround for GUID collision in PluginOptionsConverter (#1093),2019-04-08,Closed,1094,12,7,,2
+Add AWS Route 53 DNS plugin,2019-04-06,Merged,1092,343,2,cs config csproj sln ,11
+Updated acme-dns tokens for test; CNAME verification UI tweaks,2019-04-06,Merged,1091,9,4,,2
+Add support for following CNAMEs,2019-03-18,Merged,1069,269,176,csproj ,8
+2.0.4,2019-03-09,Merged,1066,2,2,cs ,2
+Add support for randomly using any of multiple authoritative name servers,2019-03-09,Merged,1060,38,11,config ,4
+Remove default DNS setting,2019-03-07,Merged,1058,1,1,,1
+Add authoritative name server support to DNS validation,2019-03-06,Merged,1054,167,43,csproj ,12
+Fix some logic errors in the DNS script validation,2019-02-26,Merged,1047,16,12,,2
+Add tests for named parameters,2019-02-25,Merged,1046,27,1,cs ,2
+Powershell,2019-02-25,Merged,1045,239,35,csproj ,11
+Add ImportWinRM.ps1 sample for PowerShell Remoting,2019-02-04,Merged,1013,72,0,,1
+Dreamhost DNS Plugin,2019-01-21,Merged,991,295,6,csproj sln ,14
+Make 2.0 the new master,2019-01-20,Merged,988,"12,712","7,960",md ps1 cs ,5
+Refer to executable as wacs.exe.,2018-12-30,Closed,972,1,1,,0
+Added Azure Application Gateway script,2018-11-29,Merged,965,127,0,,1
+Update ImportExchange.ps1,2018-11-07,Merged,959,5,6,,1
+Install cert from WebHosting Path,2018-11-07,Closed,957,1,1,,1
+Add option to set specific IP address on default binding,2018-10-21,Merged,947,23,5,,7
+Update ImportFTPServer.ps1,2018-09-22,Merged,930,2,2,,1
+fix missing line break after 'Press enter to continue',2018-09-11,Merged,921,1,0,,1
+added a script to exchange the cert of an FTP Site in IIS 7.5,2018-07-12,Merged,891,61,0,,1
+Log Renewal Due Dates,2018-06-30,Merged,883,1,1,,1
+[feature/sftp] Added SFTP Client and Validation Plugin,2018-06-30,Merged,873,311,6,cs config txt csproj ,7
+Test failing build...,2018-12-23,Closed,844,76,76,,1
+Remove SQLite + EntityFramework,2018-05-02,Merged,843,0,41,csproj ,3
+CI with AppVeyor,2018-05-02,Merged,842,16,10,,1
+Apply Linting Recommendations,2018-05-02,Merged,840,293,377,,6
+Code File Missing in Project,2018-05-02,Merged,838,1,0,,1
+Remove Duplicate File,2018-05-01,Merged,837,0,69,,1
+Add Option to manually set Common Name,2018-05-01,Merged,835,58,6,,8
+"#804, separate IIS web and FTP site IDs in the renewal target",2018-04-26,Merged,830,19,12,,5
+Update README.md,2018-04-21,Merged,813,2,2,,0
+Clean up of example scripts,2018-03-27,Merged,800,5,4,,2
+Added proxy credentials.,2018-03-16,Merged,786,36,0,settings config ,4
+Use 24 hour time format per default,2018-03-12,Merged,784,3,3,settings config ,3
+Certificate listing consistent,2018-02-28,Merged,772,3,3,,1
+Update README.md,2018-02-23,Merged,765,1,1,,0
+Copy settings_default.config during build to output folder,2018-02-22,Merged,764,1,0,,1
+Retrieve msbuild path form the registry instead of having a static VS…,2018-02-22,Merged,759,25,1,,1
+Add PFX password to the command line variables #735,2018-02-18,Closed,736,24,5,,4
+Adds the ability to create external plugins,2018-02-05,Merged,733,35,13,,7
+--Plugin iissites fix - resolves issue #722,2018-01-31,Closed,723,1,1,,1
+Small typo in Azure validation,2018-01-18,Merged,708,1,1,,1
+Exchange script adjustments,2018-02-22,Merged,702,184,43,,3
+Adjusted Exchange Script to support Exchange 2007 and higher,2017-12-13,Merged,671,11,12,,1
+Update for PowerShell 2.0 compatibility,2017-12-11,Merged,667,9,9,,3
+Merge v1.9.8,2017-12-05,Merged,662,"3,500","1,935",sln config cs ,6
+Tweak RDGateway import script,2017-12-01,Merged,651,2,1,,1
+Fix minor spelling mistake (empty choice selection),2017-11-17,Merged,644,1,1,,1
+First script in repo,2017-11-11,Merged,637,179,2,bat txt csproj ,6
+Promote v1.9.7 bits to master branch,2017-10-29,Merged,618,"5,851","3,951",config cs ,4
+use system proxy if proxy address is [System],2017-09-26,Merged,583,21,13,cs settings ,4
+Allow task to run in battery mode,2017-09-25,Merged,581,3,0,,1
+web.config template improvements,2017-10-07,Closed,580,10,0,,1
+Add setting for ignoring SSL certificate validatation.,2017-10-07,Closed,571,21,0,cs settings ,4
+Update develop,2017-09-19,Merged,570,"3,190","3,190",,3
+Merge pull request #567 from Lone-Coder/master,2017-09-19,Merged,569,0,0,,0
+Merge v1.9.7 into develop,2017-09-19,Closed,568,"1,715","1,427",,2
+Update develop,2017-09-19,Merged,567,31,35,,1
+Merge v1.9.6,2017-09-18,Merged,566,"1,404","1,275",,2
+Sync with master,2017-09-13,Merged,558,2,0,,1
+Merge phase 1 of plugins project for v1.9.6,2017-09-13,Closed,556,202,147,,7
+Merge for 1.9.5,2017-09-12,Merged,555,"1,643","1,454",cs ,4
+Sync Plugins branch with Develop branch,2017-09-10,Merged,551,439,422,,0
+Sync dev with master,2017-08-21,Merged,528,1,4,,1
+Make web.config work again,2017-08-20,Merged,525,0,8,,1
+Make web.config work again,2017-08-20,Merged,524,0,8,,1
+Test,2017-08-20,Merged,523,0,0,,0
+Remove unneeded newline in output,2017-08-20,Merged,522,1,1,,1
+Remove unneeded newline in output,2017-08-20,Merged,521,1,1,,1
+Remove unneeded newline in ouput,2017-08-20,Merged,520,1,1,,1
+Bugfixes to enable validation use cases,2017-08-01,Closed,481,13,0,xml ,2
+avoid unnecessary calls when files are not downloadable on iis,2018-02-22,Closed,478,21,0,,3
+Support for automatic detection of changed WebRootPath upon renewal,2017-07-29,Merged,472,24,8,,3
+Fixes #453,2017-07-29,Closed,457,6,0,,2
+IIS siteserver plugin tests,2017-06-03,Closed,452,"9,618","2,246",md yml json cs ,7
+Add default URL  to ClientSettingsProvider.ServiceUri,2017-05-19,Closed,441,2,2,,1
+Set path for the config folder,2017-05-05,Merged,430,14,3,,2
+Add option to choose SSL Port to create.,2017-09-19,Closed,429,272,232,,4
+Handling authorization failure,2017-05-05,Merged,414,253,227,,2
+Add dns challenge,2017-07-26,Merged,395,634,329,,6
+Refactor for v2,2018-02-02,Closed,394,"3,669","2,997",xml csproj cs manifest ,10
+Mention Application Settings wiki page in README,2017-03-18,Merged,384,4,0,,0
+Move Application Settings wiki page into README,2017-03-18,Merged,383,43,0,,0
+Move Plugins to proper namespace #375,2017-09-19,Closed,376,18,17,csproj ,8
+Added prompt and re-factored function. Added certificate out path option.,2017-02-25,Merged,372,113,109,,3
+Add running instructions to README,2017-02-21,Merged,367,4,0,,0
+Environment.ExitCode is set in case of error,2017-02-25,Closed,348,12,10,,2
+Update method Program.PromptYesNo to consider the case when Input is redirected,2017-08-08,Closed,342,25,3,,1
+Override %APPDATA% as the default location for storing configuration.,2017-03-19,Closed,329,5,2,,2
+Command line parameters for Email address and use default user for renew task,2017-02-21,Merged,325,26,8,,2
+Add setting to config vault location,2017-03-19,Closed,319,34,6,cs settings ,4
+"IP binding for all IP addresses is *, not empty string",2017-02-21,Merged,313,7,7,,1
+In response to #297 I've created --San --ManualHost mode support w/ Renewal support.,2017-07-28,Closed,299,213,126,,2
+Add option to make the private key non-exportable,2017-02-21,Merged,296,24,2,cs settings ,4
+Added a simple plugin that SelfHosts in an HttpListener,2017-09-19,Closed,294,83,4,csproj ,4
+Added proxy configuration option.,2017-02-21,Merged,287,23,4,,2
+Unattended runs for custom Plugins #151,2017-02-25,Merged,275,46,16,,2
+Unattended runs for custom Plugins #151,2016-08-06,Closed,274,69,26,,2
+avoid issues with handler mappings,2016-08-05,Closed,273,6,2,,1
+Re-enable TLS 1.0,2016-07-30,Merged,268,1,1,,1
+Add Warmup option that will load the site URI before authorization,2016-07-14,Merged,255,32,1,,3
+running renewal task under system account by default,2016-07-04,Closed,249,24,13,,2
+Refactored to improve readability.,2016-07-13,Merged,246,498,348,,0
+New commandline function: --wait,2016-07-13,Closed,233,12,3,,2
+Fix subjectName index and CN prefix in UninstallCertificate,2016-05-20,Merged,224,1,1,,1
+Remove TLS 1.0 as it is deprecated,2016-05-20,Merged,219,2,3,,1
+Creating chain *.pem file,2016-05-20,Merged,216,9,0,,1
+Disable integrated mode validation in web.config.,2016-04-21,Merged,210,1,0,,1
+Update LICENSE,2018-02-22,Merged,201,1,1,,1
+Fixes the buffer size being ignored when entering in SAN names,2016-04-12,Merged,196,6,1,,1
+Create SanByDomainPlugin.cs,2016-04-10,Closed,187,288,0,,1
+Create OverviewPlugin.cs,2016-04-10,Closed,181,154,0,,1
+Fixing manual run when not using SAN,2016-03-23,Merged,174,5,4,,2
+Fix when SAN is not used,2016-03-23,Closed,173,12,14,,1
+Working on IIS IP Binding Issue,2016-03-08,Merged,160,0,1,,1
+Working on IIS IP Binding Issue,2016-03-08,Merged,159,52,56,,1
+Fix for removing subdomain certs,2016-03-07,Merged,158,3,1,,1
+Fixing SAN Index,2016-03-07,Merged,157,19,12,,1
+Fixing updating too many bindings,2016-03-02,Merged,155,2,1,,1
+SAN showing sites with no hosts,2016-02-25,Merged,153,12,1,,1
+Update Program.cs,2016-02-24,Closed,152,20,2,,1
+Refactored ObjectExtensions,2016-02-22,Closed,145,227,181,,6
+Adding Ability to run script to install,2016-02-23,Merged,143,206,56,cs ,6
+Added static file handler to the web.config template,2016-02-21,Closed,140,5,1,xml ,2
+Fixing multisite SAN + Central SSL Issue,2016-02-21,Merged,139,16,5,,3
+1.8.9 Pre-Release,2016-02-20,Merged,138,16,14,xml cs csproj ,5
+Move auto to plugins,2016-02-19,Merged,137,61,33,,8
+Manual supress output,2016-02-18,Merged,136,49,33,,2
+Version Bump,2016-02-17,Merged,134,1,1,,1
+Moving all Renewals to Plugin,2016-02-17,Merged,132,3,11,,2
+Allow schedule task to run when user is not logged,2016-02-18,Merged,131,70,9,,1
+Load IIS version when the IIS plugin is loaded,2016-02-17,Closed,130,4,6,,1
+Allow schedule task to run when user is not logged,2016-02-17,Closed,129,0,0,,0
+Cleaning up WebDav plugin,2016-02-16,Merged,128,9,16,,1
+Fixing Cert comparison,2016-02-15,Merged,127,2,2,,1
+Handle passwords with special characters in WebDAV Plugin,2016-02-15,Merged,126,64,30,,1
+Fixing Cert Uninstall,2016-02-14,Merged,125,5,5,,2
+Handle passwords with special characters in FTP Plugin,2016-02-14,Merged,123,76,36,,1
+Delete old certificates,2016-02-12,Merged,120,56,0,,2
+Renaming ReplaceExisting to KeepExisting,2016-02-11,Merged,116,16,16,,5
+WebDav FTP Fixes NuGet Updates Code Formatting,2016-02-10,Merged,115,660,228,cs ,4
+Adding FTP Plugin,2016-02-10,Merged,113,444,50,cs ,2
+Replace Existing HTTPS Binding,2016-02-09,Merged,111,88,59,,10
+Deleting folder structure on successful authorization,2016-02-09,Merged,110,52,18,cs settings ,6
+Updating Version,2016-02-08,Merged,109,2,2,,1
+Multiple Site SAN Support,2016-02-08,Merged,108,609,171,cs ,3
+SAN/ Cleanup/ RenewalDays/ CertificateStore Work,2016-02-08,Merged,107,393,196,cs ,4
+Add StaticFile handler to copied web.config,2016-02-08,Closed,106,4,0,,1
+Multiple Site San,2016-02-07,Merged,101,262,21,csproj ,6
+Multiple Site San,2016-02-07,Closed,100,262,21,csproj ,6
+Update README URLs based on HTTP redirects,2016-02-06,Merged,97,2,2,,0
+Multiple auth checks,2016-02-05,Merged,96,12,3,,1
+Run under SYSTEM profile by default,2016-02-10,Closed,95,26,2,,2
+"Explicitly enable TLS 1.0, 1.1 and 1.2",2016-02-05,Merged,92,2,0,,1
+Pr 85,2016-02-04,Closed,88,57,14,cs settings xml ,5
+Additional logging for SAN,2016-02-04,Merged,87,4,2,,2
+Use '.' for MIME type extension,2016-02-04,Merged,86,2,2,,1
+Added a CertificatePath option to App.config,2016-02-05,Merged,85,49,9,cs settings ,4
+Fixing Default Friendly Date Format,2016-02-03,Merged,82,3,3,cs settings ,3
+Fixing Renewal Bug and IIS non SAN Bug,2016-02-03,Merged,81,10,9,,3
+Fixing renewal error with SAN Support,2016-02-02,Merged,79,14,5,,2
+San Support,2016-02-02,Merged,77,367,138,,4
+Updated ACMESharp NuGet package,2016-02-01,Merged,75,8,8,csproj ,3
+Just replaced a line that works with Windows 2012 IIS. Windows does n…,2016-01-31,Closed,73,67,254,,0
+Manage number of hosts,2016-01-28,Merged,71,109,6,cs settings ,6
+PFX Password & RSA Num Bits Support,2016-01-28,Merged,70,84,13,cs settings ,4
+Enabled logging via serilog,2016-01-27,Merged,68,114,54,cs ,2
+Task Scheduler Fixes,2016-01-26,Merged,66,23,15,,1
+Upgrading to latest version of ACMESharp and related nugets,2016-01-26,Merged,65,39,23,cs csproj ,4
+Added Friendly name Date Formatting,2016-01-21,Merged,63,26,3,cs settings ,4
+Fixing IP On Regular Cert,2016-01-21,Merged,62,10,1,,1
+Non Test Not Creating IIS Binding,2016-01-21,Merged,61,4,0,,1
+added azure web site manual cert plugin.,2016-02-04,Closed,46,305,1,cs csproj ,4
+Update ManualPlugin.cs,2016-01-20,Closed,40,18,2,,1
+Update Program.cs,2016-01-20,Closed,39,74,39,,1
+Update IISPlugin.cs,2016-01-20,Closed,38,17,0,,1
+Corrected IIS Mime specification.,2015-12-11,Closed,36,1,1,,1
+Fixed static file extension,2016-01-14,Closed,34,1,1,,1
+"Central SSL, Binding to IP, web.config moved to app.config",2016-01-14,Merged,33,191,35,cs settings xml csproj ,10
+Increase authorization sleep,2016-01-14,Merged,20,1,1,,1
+Automatic add static mapping,2015-12-04,Closed,19,4,0,,1
+Switch from letsencrypt-win lib submodule to ACMESharp nuget and latest API,2015-12-01,Merged,15,132,60,letsencrypt-win sln cs csproj config ,6

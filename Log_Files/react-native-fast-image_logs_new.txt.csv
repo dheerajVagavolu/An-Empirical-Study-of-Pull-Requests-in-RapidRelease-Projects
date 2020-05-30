@@ -1,0 +1,170 @@
+CocoaPods - Use Version Tag,2019-11-16,Closed,600,2,2,,1
+chore: Update roadmap with notes on cache paths.,2019-10-21,Merged,589,4,1,,0
+chore: Add roadmap.,2019-10-20,Merged,587,15,0,,0
+chore(deps): bump eslint-utils from 1.3.1 to 1.4.2,2019-10-20,Closed,584,8,6,,1
+chore(deps): bump mixin-deep from 1.3.1 to 1.3.2,2019-10-20,Closed,583,3,3,,1
+chore(deps): bump js-yaml from 3.12.1 to 3.13.1,2019-10-20,Closed,582,1,9,,1
+chore(deps): bump lodash from 4.17.11 to 4.17.15 in /ReactNativeFastImageExample,2019-10-20,Closed,581,3,3,,1
+chore(deps): bump fstream from 1.0.11 to 1.0.12,2019-10-20,Closed,580,23,16,,1
+chore(deps): bump eslint-utils from 1.3.1 to 1.4.2 in /ReactNativeFastImageExample,2019-10-20,Closed,579,8,6,,1
+chore(deps): bump mixin-deep from 1.3.1 to 1.3.2 in /ReactNativeFastImageExampleServer,2019-10-20,Closed,578,3,3,,1
+chore: Add yarn policy.,2019-10-13,Merged,577,"147,223",0,,0
+test,2019-10-11,Closed,574,99,19,ios/Vendor/SDWebImage snap ts flow ,6
+Performance improvements in SDWebImage,2019-10-01,Closed,570,2,1,,1
+Add react-native link command to README,2019-10-14,Closed,563,4,0,,0
+Documenting quick fix pointed out in issues #534 and in #257,2019-09-05,Merged,553,2,0,,0
+[Sagar] added timeout,2019-08-13,Closed,540,1,0,,1
+[Sagar] adding timeout,2019-08-13,Closed,539,1,0,,1
+WIP add blur radius to fast image,2019-07-30,Closed,531,"15,661",6,m ,3
+Update Readme for RN 0.59.x or lower,2019-09-05,Closed,526,22,2,,0
+Added disk cache only,2019-07-16,Closed,521,19,2,h m ts js flow ,8
+feat: Upgrade to React Native 0.60.0 / CocoaPods / Android X.,2019-07-05,Merged,513,"3,853","15,592",npmignore prettierignore md podspec buckconfig js flowconfig gitattributes gitignore watchmanconfig react-native-fast-image-example/android/app/BUCK → ReactNativeFastImageExample/android/app/BUCK gradle bzl pro xml java png properties jar react-native-fast-image-example/android/gradlew → ReactNativeFastImageExample/android/gradlew ,36
+"chore: Changing the podfile a bit, and adding SDWebImageWebPCoder.",2019-07-05,Closed,512,22,24,,2
+Fixed IllegalArgumentException crash when context was instance of Con…,2019-07-05,Merged,511,21,9,,1
+Migrating to AndroidX,2019-07-05,Closed,500,29,19,java md ,3
+Use device scale when loading images,2019-06-25,Merged,496,10,3,,1
+Fix/androidx,2019-06-18,Closed,495,8,9,java ,2
+Update react-native-fast-image.podspec,2019-06-05,Closed,490,1,2,,1
+"Upgrade the vendored SDWebImage to v5.0.5, fix the Archive issue for Application don't use CocoaPods",2019-06-03,Merged,489,1,3,ios/Vendor/SDWebImage ,1
+Add the Demo for iOS about how to use WebP format for 6.0.0 version,2019-07-03,Merged,488,"18,169",46,react-native-fast-image-example-cocoapods/ios/Podfile lock pbxproj m ,5
+Add tintColor to typings,2019-06-03,Merged,487,7,0,,1
+added tvos target,2019-06-30,Merged,486,192,1,xcscheme ios/Vendor/SDWebImage ,3
+docs: update development instructions for testing the examples,2019-09-05,Closed,485,11,11,,0
+Add cache to typings,2019-06-04,Closed,479,1,0,,1
+fix proguard rules,2019-05-25,Merged,478,1,0,,0
+chore: update build.gradle,2019-05-15,Closed,473,95,"23,956",properties jar react-native-fast-image-example-cocoapods/android/gradlew → android/gradlew bat java md gif ,10
+"Fix local resource cache issue, fixes #402",2019-05-25,Merged,472,25,9,,3
+Tint color,2019-05-03,Merged,466,93,0,java h m js png ,8
+UPDATE - proguard rules on readme,2019-05-03,Merged,463,5,0,,0
+Delete from cache by url,2019-04-26,Closed,458,45,1,m ,2
+Fix:failed to load image while RN rebuilding view hierachy,2019-05-10,Closed,455,1,1,,1
+"Upgrade SDWebImage 5.0, using SDAnimatedImageView instead of FLAnimatedImageView for better animation support",2019-05-08,Closed,454,25,80,h m ios/Vendor/SDWebImage podspec ,5
+feat: Upgrade example apps.,2019-04-23,Merged,453,"2,057","1,965",flowconfig js react-native-fast-image-example-cocoapods/android/app/BUCK gradle bzl xml ttf java properties react-native-fast-image-example-cocoapods/ios/Podfile ,30
+revert: Remove functionality for notifying other images on load.,2019-04-23,Merged,452,0,18,,1
+Upgrade example app.,2019-04-23,Merged,451,"2,067","1,953",babelrc flowconfig js react-native-fast-image-example/android/app/BUCK gradle bzl xml ttf java properties ,21
+chore: Upgrade dependencies.,2019-04-21,Merged,450,"1,003",446,,1
+perf: Use React.memo for FastImage.,2019-04-21,Merged,449,47,45,,1
+Efficient improvement with PureComponent,2019-04-21,Closed,441,12,14,,1
+Update build.gradle,2019-03-29,Closed,439,4,0,,1
+"iOS: Memory Leak, Auto-retry download, Shared Resource Propagation",2019-04-23,Merged,433,99,78,,1
+John/sprint/add types,2019-03-15,Closed,430,58,3,ts js flow ,4
+fix: Fix fallback prop not working.,2019-02-25,Merged,420,2,2,js ,2
+feat: Use forwardRef to allow access to ref.measure and others.,2019-02-25,Merged,419,13,19,,1
+chore: Add animated WebP example.,2019-02-25,Merged,418,32,106,webp ,4
+chore: Build examples.,2019-06-29,Closed,417,49,12,json ,2
+chore: Update dependencies.,2019-02-22,Merged,416,"2,188","2,929",json ,3
+chore: Run yarn update.,2019-02-22,Merged,415,850,"1,647",json ,3
+chore: Use ESLint.,2019-02-22,Merged,414,447,17,json ,2
+chore: Test fallback prop.,2019-02-22,Merged,413,647,471,snap js ,3
+fix: Fixes WebP rendering on iOS 12.,2019-02-22,Merged,412,131,77,json lock pbxproj js webp podspec ,13
+add `placeholder` functionality,2019-02-18,Closed,408,40,2,,1
+add `placeholder` functionality,2019-02-14,Closed,405,40,2,,1
+Memory Leak on iOS: FastImage not released from memory when callbacks onLoad is set,2019-03-20,Closed,398,8,8,,2
+Update SDWebImage version to 4.4.3,2019-02-22,Merged,387,1,1,,1
+Support WebP images on iOS 12,2019-02-24,Closed,386,2,1,,1
+ci: Update changelog automatically.,2018-12-31,Merged,383,46,6,lock ,2
+Fix cacheControl types on FastImageStatic.cache (#348),2018-12-31,Merged,382,4,4,,1
+style: Use prettier to format more files.,2018-12-31,Merged,381,52,90,prettierignore js json ts lock ,14
+"Added Palette support, placeholder color, fadeIn boolean property",2019-10-21,Closed,378,114,8,java ,3
+remove requestManager.clear(view) to stop app crashing when logging o…,2019-03-19,Closed,376,0,4,,1
+Use gradle 3.2.1,2018-12-08,Closed,367,6,1,,1
+Make it possible to obtain the cache path of an image.,2019-10-21,Closed,351,108,2,m ts js ,5
+Update FastImageViewManager.java,2019-09-05,Closed,350,1,1,,1
+Fix FastImage.cache properties in TypeScript types.,2018-12-31,Merged,348,3,3,,1
+Docs: Added example using project wide configuration,2019-10-20,Closed,346,27,1,,0
+Local file support for android,2018-11-13,Merged,345,12,0,,1
+Update .npmignore,2018-11-13,Merged,344,4,1,,1
+fix for search vendors in pods.,2018-11-06,Closed,342,68,282,gradle pbxproj ios/Vendor/SDWebImage json ,5
+Update dependencies.,2018-11-06,Merged,341,34,33,lock ,2
+Upgrade example app.,2018-11-06,Merged,340,468,329,java pbxproj plist json js ,7
+Fix android photo library images not working.,2018-11-06,Merged,339,37,9,,2
+Fix TS typings,2018-11-06,Closed,336,3,3,,1
+fix(docs): gradle compile config depreciation,2018-11-13,Merged,332,4,4,,0
+Improve error message when bundled resource could not found.,2018-11-06,Merged,328,6,1,,1
+Fix local images in production builds.,2018-10-23,Merged,324,145,100,gradle pbxproj js ,7
+Make yarn link work with example project.,2018-10-23,Merged,323,39,3,pbxproj js ,3
+Fix flow types,2018-10-22,Merged,320,2,2,,1
+Upgrade dependencies.,2018-10-16,Merged,316,"1,523",972,lock ,3
+Add release notes for 5.0.11.,2018-10-16,Merged,315,30,2,,0
+Add a changelog.,2018-10-15,Merged,313,235,0,,0
+Fix cacheControl property in TypeScript types.,2018-10-14,Merged,310,5,4,flow ,2
+Upgrade examples.,2018-10-14,Merged,309,"2,633",610,xml ttf java lock pbxproj plist json ,12
+Changed implementation to compile to support new Android build tools,2018-10-12,Closed,307,5,5,,1
+Fixed unordered setting props issue,2019-06-28,Merged,303,19,2,,1
+Fix typo for `source.cache` docs,2018-10-13,Merged,302,3,3,,0
+Remove example and docs,2018-09-18,Closed,292,6,0,,1
+Update npmignore,2018-09-23,Merged,291,3,1,,1
+Fix typed,2018-09-23,Merged,290,3,1,,1
+Add flow definitions,2018-09-23,Merged,289,70,0,,1
+Remove unnecessary import,2018-09-23,Merged,288,0,1,,1
+allow overwriting imageContainer styles,2018-09-23,Merged,287,8,8,js ,2
+Add cookie support for ios,2019-10-20,Merged,284,1,1,,1
+"[Android] Fixed local images in production builds (Fixes #273, #296 & #246)",2018-10-23,Closed,283,200,42,js ,5
+Add cache enum types,2018-09-23,Merged,282,18,0,,1
+Develop,2018-09-12,Closed,281,282,17,jar properties android/gradlew bat json ,6
+missing break.,2018-09-23,Merged,277,3,0,,1
+Fixes crash where activity was already destroyed,2018-10-23,Merged,272,0,0,,0
+Handle null view.glideUrl,2018-09-23,Merged,269,4,0,,1
+Add onProgress and onComplete to preload.,2019-10-20,Closed,268,"3,349","3,245",js gradle java ReactNativeFastImageExample/ios/Podfile ,4
+react-native link now targets react-native-fast-image,2018-08-23,Merged,264,1,1,,0
+Feature/fix android support lib version,2018-08-24,Closed,261,2,2,json ,2
+"little improvement over too many ""def""",2018-09-23,Closed,252,14,19,,1
+Fix cache enum names in README,2018-08-23,Merged,251,3,3,,0
+Update obsolete compile to implementation and Exclude app dependencie…,2018-09-23,Merged,250,11,5,,1
+Fix Compatibility with React Native 56.0,2018-08-05,Closed,247,2,2,,1
+Changes to use supportLibVersion,2018-09-23,Closed,231,2,1,,1
+Types: make sure headers only accepts key value pairs,2018-08-23,Merged,229,2,2,,1
+Make it possible to obtain the cache path of an image,2019-10-15,Closed,228,113,6,m ts js ,4
+Cross-platform tint color support,2019-05-03,Merged,226,118,8,java h m js ,7
+Pr/2,2018-06-04,Closed,218,85,796,,2
+Specify type definition file path,2018-06-05,Merged,216,1,0,,1
+Use <ImageBackground> if it uses local image and has children,2018-06-08,Closed,215,18,14,,1
+[Android] Fixed memory leak,2018-06-08,Merged,214,12,9,,2
+useLocalImage: Expose & rename the useful function,2018-06-08,Closed,213,2,2,,1
+Show local images.,2018-06-10,Merged,205,710,"1,091",h m ios/Vendor/SDWebImage json gitignore js ,14
+Upgrade to glide 4.,2018-05-10,Merged,201,185,133,gradle xml java ,7
+* sync initial resizeMode & contentMode,2018-05-10,Merged,193,1,1,,1
+Using SDK Version variables from root project,2018-04-25,Merged,192,18,9,,1
+Fix bugs when use Fastimage in 'Animated.createAnimatedComponent',2018-04-25,Merged,186,2,2,,1
+fix bug :https://github.com/DylanVann/react-native-fast-image/issues/181,2018-04-19,Merged,182,6,4,json ,2
+Adding instructions to manually link.,2018-04-25,Merged,179,44,1,,0
+resizeMode stretch is invalid,2018-03-29,Closed,173,6,28,m ,2
+Added null check on  getCurrentActivity()'s return value,2018-04-25,Merged,172,17,16,,1
+fixed cannot display local image on android,2018-03-19,Merged,169,2,1,,1
+"Revert ""Upgrade android to Glide v4 """,2018-03-18,Merged,168,90,94,xml java ,6
+better Quality Decoding for Android,2018-03-18,Merged,164,2,1,,1
+Added tvOS target,2019-06-30,Closed,163,163,0,,1
+Add blurRadius property.,2019-10-14,Closed,157,22,0,ts h m ,5
+resizeMode stretch is invalid,2018-03-29,Closed,155,0,0,,0
+[iOS] Added CocoaPods compatibility,2018-03-11,Merged,143,24,1,podspec ,2
+Support to onReadDimensions,2018-03-11,Closed,140,81,6,md java ts h m ,6
+Fix style prop not being passed to Image component,2018-02-01,Merged,132,1,0,,1
+Avoid Exception on Android Build [Issue 47],2018-02-01,Closed,123,5,0,,1
+Created types definition,2018-02-01,Merged,116,62,1,json lock ,3
+Adding `Header Search Paths` to solve problems when:,2018-03-17,Merged,111,8,0,,1
+Added resource width and height information to the onFastImageLoad an…,2018-03-11,Merged,107,19,5,m ,2
+Check image size,2017-12-13,Closed,106,103,38,gradle xml java h m json podspec ,11
+Fix documentation for default resize mode,2018-01-31,Merged,105,2,2,,0
+Added resource width and height information to the onFastImageLoad an…,2017-12-13,Closed,103,8,3,json ,2
+Android: Use OkHttpClientProvider to allow extending preconfigured clients.,2018-05-03,Merged,101,5,2,,1
+Fix memory leaks and add support border radius on android,2018-06-10,Closed,98,189,83,md gradle java ,3
+Add native support for loading local images.,2018-06-10,Closed,91,86,35,,2
+[Fix] Gif support for iOS,2017-11-16,Closed,86,2,7,m ,2
+[Fix] GIF Support for iOS,2017-11-15,Closed,84,2,2,,1
+Upgrade android to Glide v4,2018-03-18,Merged,82,94,90,xml java ,6
+Upgrade android to Glide v4,2017-11-14,Closed,81,92,71,java ,5
+local image not showing up on Android device.,2018-03-19,Closed,80,41,8,js pbxproj h ios/Vendor/SDWebImage json podspec ,7
+use application context to avoid deallocated view error,2017-11-30,Merged,75,4,3,h json ,3
+iOS: Ensure onLoad and onLoadEnd get called,2018-03-08,Merged,74,6,0,,1
+Implementing createJsModules to fix build error,2017-12-03,Closed,71,4,0,,1
+Image resizing - Fixing resizemode support.,2017-11-30,Merged,64,1,0,,1
+support border raduis for android,2018-01-31,Closed,59,201,13,m json ,4
+support border raduis for android,2017-09-06,Closed,58,95,9,,2
+Implemented a borderRadius property.,2018-01-31,Closed,41,88,9,,2
+Fix backward compatibility for RN < 0.47,2017-11-30,Closed,38,4,0,,1
+Remove overriden createJSModules,2017-08-08,Closed,36,0,1,,1
+Remove override of createJSModules,2017-08-08,Merged,34,0,5,,1
+Gracefully deprecate View.propTypes,2017-11-12,Merged,31,7,1,,2
+Allow number as source,2017-11-06,Merged,30,1,1,,1
+Feat/progress.,2017-07-27,Merged,18,"1,389",782,md snap gradle xml ,4
+Enables prefetching images,2017-06-20,Merged,8,58,3,java m ,4

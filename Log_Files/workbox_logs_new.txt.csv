@@ -1,0 +1,1008 @@
+String support in handle(),2020-01-10,Merged,2317,151,9,mjs ,12
+Add more detailed onSync type definitions,2019-12-17,Merged,2310,13,5,,1
+Absolute paths in injectManifest's filePaths return value,2020-01-10,Merged,2301,13,1,,2
+Downgrade strip-comments,2019-12-05,Merged,2300,56,4,,2
+Don't overwrite __WB_DISABLE_DEV_LOGS,2019-12-02,Merged,2296,5,1,,1
+5.0.0-rc.1 metadata,2019-11-26,Merged,2293,2,2,,2
+Publish version,2019-11-25,Merged,2292,756,481,,6
+Await an async cacheWillUpdate in PrecacheController.install(),2019-11-22,Merged,2287,31,1,mjs ,2
+window.__WB_DISABLE_DEV_LOGS  declaration,2019-11-22,Merged,2284,5,0,,1
+Fix incorrect workbox-window doc links,2019-11-21,Merged,2283,3,3,,1
+Debug logging toggle via global boolean,2019-11-21,Merged,2282,92,4,ts mjs ,10
+Upgrade strip-comments to 2.0.1 from 1.0.2,2019-11-18,Merged,2280,5,168,,2
+Correct a TypeScript parameter definition,2019-11-07,Merged,2275,1,1,,1
+Adds in explicit self/window in a few places,2019-11-07,Merged,2274,17,17,,11
+Don't log the request object in the router,2019-10-30,Merged,2268,1,6,,1
+"Replace "" with ' when stringifying the manifest",2019-10-24,Merged,2264,50,1,,2
+Unrevisioned precaching warning,2019-10-24,Merged,2262,66,16,ts mjs ,6
+registration existence check in workbox-core,2019-10-17,Merged,2257,2,2,,1
+Update metadata for 5.0.0-rc.0,2019-10-17,Merged,2256,16,16,ts mjs ,16
+Export all public types directly from workbox-core,2019-10-16,Merged,2255,2,0,,1
+New precache helper functions + removal of createHandlerForURL,2019-10-16,Merged,2254,322,59,ts ,9
+Don't treat lack of sourcemap asset as a fatal error,2019-10-11,Merged,2251,112,24,,4
+New feature : Skip waiting response,2019-11-03,Closed,2248,11,3,,2
+Clean up TS style/linting issues,2019-10-07,Merged,2246,55,25,mjs ,13
+Warn during multi-compilation scenarios,2019-10-04,Merged,2245,93,3,,4
+Strict TypeScript cleanup,2019-10-04,Merged,2244,39,34,json ,11
+strictPropertyInitialization + fixes,2019-10-04,Merged,2241,48,47,json mjs ,24
+Account for injectManifest replacements in sourcemaps,2019-10-01,Merged,2239,450,"1,731",js ,5
+Fixes calculateEffectiveBoundaries bug when start=0,2019-10-01,Merged,2237,26,10,mjs ,3
+Ignore both swSrc and swDest when globbing for the manifest,2019-09-25,Merged,2232,139,6,,6
+Allow the same swSrc and swDest in injectManifest,2019-10-01,Merged,2231,20,29,,3
+Don't double-prepend the output dir,2019-09-14,Merged,2223,3,3,,2
+Use cache: default for precaching requests when it's safe to,2019-09-14,Merged,2222,36,4,mjs ,2
+[workbox-strategies] Fix StaleWhileRevalidate docs,2019-09-10,Merged,2220,1,1,,1
+Guard against undefined reference in webpack plugin,2019-09-05,Merged,2219,4,1,,1
+Rename the workbox-broadcast-update demo,2019-09-03,Merged,2215,0,0,,2
+Fix incorrect Workbox#update() test logic,2019-09-03,Merged,2214,139,7,,1
+Fix workbox-broadcast-update link,2019-09-02,Closed,2212,1,1,,0
+Move adding the message listener to the constructor,2019-09-03,Merged,2211,77,10,mjs ,2
+Add a check to wait for the resulting client ID,2019-09-26,Merged,2210,522,80,js ,3
+Fix incorrect types,2019-09-03,Merged,2208,8,5,,1
+Add redundant to WorkboxLifecycleEventMap,2019-08-23,Merged,2200,1,0,,1
+Update Rollup OMT plugin,2019-08-22,Merged,2198,126,15,js ,4
+5.0.0-beta.0 metadata,2019-08-22,Merged,2197,16,16,ts mjs ,16
+Support for async manifestTransform callbacks,2019-08-21,Merged,2195,41,15,,6
+Add copyResponse and more granular stream detects,2019-08-21,Merged,2193,"1,920",106,,8
+Build tool options rework,2019-08-20,Merged,2191,277,268,,20
+Rename all Plugin classes to be package-specific,2019-08-15,Merged,2187,114,107,js ts ,17
+Remove BroadcastChannel in all packages,2019-08-15,Merged,2186,213,873,,1
+Add a RouteHandlerObject type,2019-08-14,Merged,2183,41,33,,15
+Exclude assets from other plugin instances,2019-08-13,Merged,2182,154,6,,4
+Set cache: 'reload' on precaching requests,2019-08-08,Merged,2176,76,29,js mjs ,3
+Ignore NoSuchWindowError in workbox-window test,2019-08-16,Merged,2175,6,3,,1
+Account for Safari User-Agent sniffing in logging tests,2019-08-07,Merged,2173,50,"2,897",,1
+Reduce GA integration test flakiness,2019-08-05,Merged,2169,26,13,,1
+Fix for multiple compilations/webpack-dev-server,2019-08-05,Merged,2167,56,14,,2
+importScriptsViaChunks checks for .js extension,2019-08-02,Merged,2164,10,3,,2
+Switch to fast-json-stable-stringify,2019-08-05,Merged,2163,"2,877","1,763",,0
+5.0.0-alpha.2 metadata,2019-08-01,Merged,2159,16,16,ts mjs ,16
+WorkboxEvent props also should be strictly typed,2019-08-01,Merged,2157,8,10,,2
+Workbox event types,2019-08-01,Merged,2156,69,35,,3
+Upgrade test suite to use selenium-webdriver v4,2019-08-01,Merged,2151,"5,192","5,294",js ,2
+"Remove registerNavigationRoute, add createHandlerForURL",2019-07-26,Merged,2143,198,250,ts ,10
+WorkboxEvent extends WorkboxEventProps,2019-07-31,Merged,2142,2,0,,1
+Support for supplying subresource integrity for precaching requests,2019-07-26,Merged,2141,68,8,ts mjs ,5
+Honor subdirectory prefixes as part of swDest,2019-07-23,Merged,2140,272,440,js ,6
+feat: workbox-window method to trigger SW update check,2019-08-01,Merged,2136,41,0,mjs ,2
+Fixing typos,2019-07-23,Merged,2135,6,6,ts ,5
+Pass more matchCallback return values through to handlerCallback,2019-07-23,Merged,2134,20,51,mjs ,2
+Adds some missing awaits to integration tests,2019-07-19,Merged,2133,7,7,,1
+Limit the webpack stats to what we need,2019-07-19,Merged,2132,7,2,mjs ,2
+Adds importScriptsViaChunks option to webpack plugin,2019-07-19,Merged,2131,141,15,,6
+Consolidate all stream-detection code in workbox-core,2019-08-21,Closed,2128,80,"3,522",,1
+Update background-sync demo to work with v4,2019-07-19,Merged,2127,2,2,,1
+npm dependency updates,2019-07-18,Merged,2126,"5,497","6,937",js ,4
+Adds support for additionalManifestEntries build option,2019-07-18,Merged,2124,258,4,js ,12
+Remove the makeRequest() method from strategies,2019-07-17,Merged,2123,177,408,mjs ,6
+Update type-overrides and link to tracking bugs,2019-07-17,Merged,2121,275,245,,1
+Adds the private TS annotation to _methods(),2019-07-17,Merged,2120,21,21,,8
+Define WorkboxGlobalScope in workbox-precaching,2019-07-18,Merged,2119,10,0,,2
+Make FetchListenerOptions optional,2019-07-16,Merged,2118,7,7,,3
+Use a .js extension when generating a default swDest,2019-07-16,Merged,2117,48,1,ts ,3
+Update package metadata,2019-07-16,Merged,2116,16,16,ts mjs ,16
+Add missing isUpdate to the controlling evnet,2019-07-15,Merged,2114,6,1,mjs ,2
+Bypass local Babel config files in workbox-build's bundling step,2019-07-15,Merged,2113,6,0,,2
+Merging v5 onto master,2019-07-12,Merged,2112,"13,462","7,735",yml json ,9
+Fix import resolution in workbox-build,2019-07-12,Merged,2110,17,15,,2
+Require node v8.0.0 or higher,2019-07-12,Merged,2109,5,5,js json ,5
+Convert workbox-google-analytics to Typescript,2019-07-12,Merged,2108,371,210,js ts json mjs ,20
+Convert workbox-streams to Typescript,2019-07-11,Merged,2105,147,115,mjs json ts ,13
+Convert workbox-strategies to Typescript,2019-07-11,Merged,2103,275,156,ts mjs json ,7
+Convert workbox-routing to Typescript,2019-07-10,Merged,2100,228,122,ts mjs json ,8
+Convert workbox-range-requests to Typescript,2019-07-09,Merged,2099,70,56,ts mjs json ,14
+Convert workbox-precaching to Typescript,2019-07-09,Merged,2098,218,136,ts mjs json ,14
+Convert workbox-navigation-preload to Typescript,2019-07-08,Merged,2097,53,34,ts mjs json ,15
+Convert workbox-expiration to Typescript,2019-07-08,Merged,2096,183,109,ts mjs json ,9
+Convert workbox-cacheable-response to Typescript,2019-07-08,Merged,2093,97,57,ts mjs json ,13
+Convert workbox-broadcast-update to Typescript,2019-07-04,Merged,2089,159,81,njk ts json mjs ,12
+Convert workbox-background-sync to Typescript,2019-07-03,Merged,2088,214,136,ts mjs json ,9
+webpack plugin updates for v5,2019-07-10,Merged,2087,"4,078","3,185",json ,7
+Convert workbox-window to Typescript,2019-07-01,Merged,2085,261,245,js json ts ,19
+Add ${pathnameAndSearch} info within _match() logging,2019-06-10,Merged,2071,8,5,,1
+"Rollup bundles in generateSW, and more for v5",2019-06-14,Merged,2068,"3,293","1,369",json ,2
+Copy handleMake from serviceworker-webpack-plugin,2019-05-28,Closed,2060,56,0,,2
+Convert workbox-core to Typescript,2019-06-13,Merged,2058,"1,357",736,js ts ,9
+Update package metadata,2019-05-01,Merged,2052,19,19,mjs ,17
+Ensure all private modules are exported correctly,2019-05-01,Merged,2050,214,353,,9
+Switch to @hapi/joi,2019-05-01,Merged,2047,274,282,js ,9
+4.3.0 metadata,2019-04-29,Merged,2046,19,19,mjs ,17
+feat: output precache-manifest directly inside the service-worker.js,2019-04-12,Closed,2027,145,25,,6
+feat: add minification for the cli and webpack-plugin,2019-04-12,Closed,2026,461,83,js ,14
+Add a size method to the Queue class,2019-04-11,Merged,2018,284,24,,4
+Fixes opts passed to the BCU Plugin.,2019-04-09,Merged,2017,9,13,,2
+Ensure navigation requests queue as some-origin,2019-04-08,Merged,2015,28,0,,2
+Fix a background sync reply bug,2019-04-05,Merged,2014,123,41,,2
+Ensure all private members are properly marked,2019-04-05,Merged,2013,42,2,,7
+Remove extra escaping in Windows CLI test,2019-04-03,Merged,2008,1,3,,1
+Ensure workbox is available before referencing it,2019-04-03,Merged,2007,4,2,,1
+Remove our custom SW mocks and esm from tests,2019-04-03,Merged,2005,99,717,,10
+4.2.0 metadata,2019-04-03,Merged,2004,16,16,mjs ,16
+Update docs to better state what happens,2019-04-08,Merged,2003,2,2,,1
+Adds cacheNames.prefix/suffix,2019-04-02,Merged,2001,28,3,js ,4
+Migrate streams tests to run in a SW environment,2019-04-02,Merged,2000,49,111,mjs ,6
+Migrate sw tests to run in a SW environment,2019-04-02,Merged,1999,110,86,njk mjs ,6
+Migrate strategies tests to run in a SW environment,2019-04-02,Merged,1996,"1,338","1,509",mjs ,7
+Migrate routing tests to run in a SW environment,2019-03-28,Merged,1992,246,317,js ,12
+Migrate range requests tests to run in a SW environment,2019-03-28,Merged,1991,40,55,mjs ,6
+Adds cacheKeyWillBeUsed lifecycle callback,2019-03-28,Merged,1990,224,21,,3
+Migrate precaching tests to run in a SW environment,2019-03-28,Merged,1989,937,"1,073",js ,10
+Migrate navigation preload tests to run in a SW environment,2019-03-27,Merged,1987,202,136,mjs ,10
+Fix flakiness in background sync tests,2019-03-27,Merged,1986,166,162,,2
+Migrate google analytics tests to run in a SW environment,2019-03-26,Merged,1985,191,108,js ,2
+Support for navigationPreload in workbox-build,2019-03-28,Merged,1981,147,2,,9
+Migrate expiration tests to run in a SW environment,2019-03-21,Merged,1980,153,148,mjs ,5
+Add workbox-plugin keyword to package.json,2019-03-20,Merged,1975,10,5,,5
+Make the sw imports sorted,2019-03-20,Merged,1973,146,145,,2
+Migrate core tests to run in a SW environment,2019-03-20,Merged,1970,405,321,njk json mjs ,14
+Migrate cacheable response tests to run in a SW environment,2019-03-20,Merged,1969,33,40,mjs ,5
+Run workbox-broadcast-updates tests in a SW environment,2019-03-19,Merged,1968,159,99,njk mjs ,12
+Convert source to Buffer when getting asset's hash,2019-03-19,Merged,1966,80,2,js wasm ,7
+Run background-sync tests in a SW environment,2019-03-19,Merged,1965,729,244,njk ,18
+Allow wb.removeEventListener to work without an exception,2019-03-15,Merged,1963,26,1,,2
+Resolve getSW() to a matching waiting SW,2019-03-15,Merged,1961,55,30,,2
+Bump workbox-build deps,2019-03-14,Merged,1959,147,38,,2
+Fix JSDoc comment typo,2019-03-10,Merged,1952,2,2,,1
+Update version metadata,2019-03-07,Merged,1948,16,16,mjs ,16
+Prevent onSync infinite loops,2019-03-07,Merged,1943,143,28,js ,5
+Resolve getSW correctly after an update is found,2019-03-06,Merged,1941,32,1,,2
+Explicitly check event.request in BroadcastUpdatePlugin,2019-03-05,Merged,1938,1,1,,1
+Bg sync array buffer,2019-03-05,Merged,1932,443,453,mjs ,6
+Add a message listener when generateSW is called with skipWaiting: false,2019-02-28,Merged,1929,71,5,,3
+Call bind() to get the right this in precaching's plugins,2019-02-28,Merged,1928,32,3,js ,3
+Add missing jsdoc namespace declarations,2019-02-27,Merged,1922,8,0,,2
+Update version metadata,2019-02-27,Merged,1919,16,16,mjs ,16
+Remove npm beta tag,2019-02-27,Merged,1918,2,2,,1
+Update version metadata,2019-02-27,Merged,1917,16,16,mjs ,16
+Use ignoreSearch to fix precaching broadcast updates.,2019-02-26,Merged,1914,35,2,,4
+Add a null check for cache listener message data,2019-02-25,Merged,1913,20,3,mjs ,3
+Update cache message wait until logic,2019-02-22,Merged,1912,12,13,,5
+Update log messages on redundant SW,2019-02-21,Merged,1910,3,1,,1
+Merge all v4 changes,2019-02-19,Merged,1907,"25,338","20,085",gitignore yml LICENSE md json ,5
+Add a cache listener message response,2019-02-19,Merged,1906,14,8,,2
+Add isUpdate and wasWaitingBeforeRegistration to workbox-window lifecycle events,2019-02-15,Merged,1905,296,17,mjs ,3
+Fix for copyLibraries,2019-02-13,Merged,1903,7,3,,2
+Update package version metadata,2019-02-13,Merged,1900,16,16,mjs ,16
+Add an mjs build transpiled to ES5,2019-02-13,Merged,1899,87,43,json mjs ,9
+"Adds workbox.routing.[setDefault,setCatch]Handler()",2019-02-12,Merged,1898,150,2,,6
+Add a UMD build for workbox-window,2019-02-12,Merged,1895,211,405,,3
+Fix missing space in deprecation message,2019-02-08,Merged,1892,2,2,,1
+Update package metadata,2019-02-07,Merged,1889,"2,263","3,068",,1
+Fix incorrect casing on getCacheKeyForURL,2019-02-06,Merged,1885,6,6,,4
+Re-enable Safari integration tests,2019-02-06,Merged,1884,9,10,json ,3
+Update the workbox-expiration IDB data model,2019-02-06,Merged,1883,456,420,json mjs ,5
+Rename packeges to match browser namesapces,2019-02-01,Merged,1879,384,312,hbs ,4
+Remove the scriptVersion option,2019-02-01,Merged,1876,60,209,js ,3
+Pass request + event to cacheWillUpdate in workbox-precaching,2019-01-31,Merged,1875,4,2,,2
+Add getCacheKeyForUrl() in GenerateSW mode,2019-01-31,Merged,1874,17,6,js mjs ,6
+Include workbox-window in the copied libraries,2019-01-31,Merged,1871,4,2,js ,3
+Reduce the unit test timeout,2019-01-31,Merged,1870,1,1,,1
+Cache gtm.js runtime caching,2019-01-30,Merged,1869,55,25,js ,5
+Update package version data,2019-01-30,Merged,1868,15,15,json ,15
+Fix bg-sync reply bug due to bad IDB mocks,2019-01-30,Merged,1865,23,16,mjs ,5
+GenerateSW config support for cleanupOutdatedCaches,2019-01-28,Merged,1863,16,0,,8
+Don't set fetchOptions when request.mode is 'navigate',2019-01-28,Merged,1862,6,7,,2
+Versioning features,2019-01-29,Merged,1861,953,425,json ,6
+Support requestInit in CACHE_URLS message URLs,2019-01-22,Merged,1851,65,8,,2
+Correctly update package version data,2019-01-15,Merged,1846,15,15,mjs ,15
+Exports update,2019-01-15,Closed,1845,18,26,mjs json ,17
+Update package version data,2019-01-15,Merged,1844,15,15,json ,15
+Support mjs files being published,2019-01-15,Merged,1843,218,243,js ,2
+Strategy classes,2019-01-15,Merged,1842,131,71,,8
+Url to URL renaming for build interfaces,2019-01-15,Merged,1841,316,155,,12
+Update module versioning technique,2019-01-15,Merged,1839,18,26,mjs json ,17
+support gtm.js runtime caching,2019-01-30,Closed,1837,149,69,js mjs ,32
+Fixes for workbox-precaching issues in recent PRs,2019-01-14,Merged,1835,0,76,,4
+Make injectionPointRegexp more bundler friendly,2019-01-11,Merged,1834,1,1,,1
+Standardize casing in API names,2019-01-11,Merged,1833,474,474,mjs ,10
+Bundling changes/improvements,2019-01-14,Merged,1831,"2,669","3,426",mjs ,15
+Add a workbox-window package,2019-01-11,Merged,1827,"2,159",17,,18
+"Create a new, non-navigate request when using fetchOptions",2019-01-10,Merged,1825,50,9,mjs ,3
+workbox-precaching rewrite to avoid dependency on activate handler,2019-01-11,Merged,1820,792,"1,479",mjs ,5
+Bumps a sleep value in workbox-precaching's integration test,2018-12-20,Merged,1807,1,1,,1
+Default to response.status === 200 instead of response.ok,2018-12-20,Merged,1805,35,32,,4
+Preserve the temporary cache,2018-12-19,Closed,1791,4,17,js ,3
+workbox-background-sync logging fix,2018-12-06,Merged,1779,1,1,,1
+use stringify-object instead of JSON.stringify,2018-12-06,Merged,1778,14,7,,2
+CLI support for --watch,2018-12-12,Merged,1776,"1,692",284,,0
+"concat, rather than overwrite, self.__precacheManifest",2018-12-12,Merged,1775,48,47,,2
+Improve conflicting revision details log message,2018-12-12,Merged,1773,3,3,,1
+Adds a fetchDidSucceed callback,2018-12-17,Merged,1772,70,3,,4
+Support using a function as urlPattern in runtimeCaching,2018-12-12,Merged,1770,57,5,,4
+add-workbox-codelab-with-pwafireapp,2018-11-26,Closed,1766,14,0,,0
+Allow injecting manifests into existing webpack-compiled assets,2019-07-18,Closed,1765,41,21,js ,2
+adding swSrc as webpack asset capability,2019-01-18,Merged,1763,58,1,,2
+renaming-plugins,2018-12-13,Closed,1757,65,63,,13
+Travis CI test cleanup,2018-11-06,Merged,1750,770,3,json ,2
+Make Router.routes public,2018-11-02,Merged,1747,22,8,,3
+Better NavigationRoute logging,2018-10-30,Merged,1741,13,399,mjs ,2
+Delete temporary precache after SW activation,2018-10-29,Merged,1736,16,10,,2
+3.6.3 metadata,2018-10-22,Merged,1726,15,15,mjs ,15
+Backporting the 301 redirect fix to v3 branch,2018-10-19,Merged,1722,27,7,mjs ,3
+workbox-range-requests will return a 206 response as-is,2018-10-18,Merged,1721,19,2,,2
+Fail SW installation when a precaching request results in an error response,2018-10-18,Merged,1716,111,16,,4
+fixed : Local and server time are out of sync,2019-07-10,Closed,1715,55,7,js mjs ,5
+v4 Background Sync API updates,2018-11-02,Merged,1710,"1,525",825,mjs ,4
+DBWrapper updates,2018-10-15,Merged,1697,440,313,mjs ,5
+Cleanup publishing for next branch,2018-10-11,Merged,1694,8,9,json js ,5
+npm alpha tag,2018-10-10,Merged,1693,3,3,,1
+Ensure symbols are exported correctly,2018-10-08,Merged,1689,30,15,,5
+Rename the workbox-google-analytics output file,2018-10-09,Merged,1688,91,55,json mjs ,14
+Change license to MIT,2018-10-08,Merged,1685,"2,854","2,946",LICENSE md ,12
+Add methods to add fetch and cache listeners,2018-10-08,Merged,1683,358,234,mjs ,6
+Decouple Router~handleRequest from events,2018-10-08,Merged,1682,872,892,mjs ,10
+Whitespace changes for eslint,2018-10-04,Merged,1680,"1,552","1,553",,15
+Precache manifest.json by default when using the webpack plugin,2018-10-04,Merged,1679,12,6,,3
+Fix cleanRedirect logic,2018-10-04,Merged,1678,27,7,mjs ,3
+Fix for the workbox-webpack-plugin tests,2018-10-04,Merged,1676,114,113,,1
+Add deferred udpates and postMessage fallback,2018-10-04,Merged,1673,642,171,mjs ,5
+3.6.2 metadata,2018-09-28,Merged,1669,15,15,mjs ,15
+Fixes workbox dependencies,2018-09-28,Merged,1667,26,1,js ,3
+"Updates to latest dependencies, and transpilation targets",2018-10-03,Merged,1658,"16,428","15,894",json ,14
+Consistently reject with a WorkboxError when a strategy fails,2018-10-04,Merged,1657,539,265,mjs ,11
+Update metadata for v3.6.1,2018-09-19,Merged,1652,561,561,,1
+Support for disabling navigation preload,2018-09-19,Merged,1651,158,1,js ,6
+Use purgeOnQuotaError in integration test,2018-09-18,Merged,1645,1,0,,1
+Import registerQuotaErrorCallback from core instead of core._private (#1642),2018-09-18,Merged,1643,1,1,,1
+Expose the event object to plugin methods,2018-09-18,Merged,1640,386,282,,7
+Add method option to GenerateSW validation,2018-09-18,Merged,1638,8,0,,1
+Move the stategy function into its own file,2018-09-17,Merged,1635,6,18,,4
+Fix local test failures in Safari,2018-09-14,Merged,1634,5,1,,1
+3.5.0 metadata.,2018-09-11,Merged,1624,15,15,mjs ,15
+Update the geckodriver devDependency,2018-09-06,Merged,1623,"1,394","1,621",,0
+Expose workbox.core.registerQuotaErrorCallback,2018-09-06,Merged,1621,11,6,,4
+Add workbox-routing PATCH method support,2018-09-06,Merged,1618,1,0,,1
+Support for offlineGoogleAnalytics config in workbox-build config,2018-08-22,Merged,1610,225,11,,11
+[ON HOLD] workbox-cli dependencies updates,2018-09-23,Closed,1609,"1,791","1,248",,0
+Add support for fetchOptions/matchOptions in runtimeCachingConverter,2018-08-22,Merged,1608,37,10,,4
+Fix empty object when adding runtimeCaching custom plugins with workbox-webpack-plugin,2018-08-09,Merged,1598,279,30,js ,3
+Link to the class constructors' docs instead of StrategyOptions,2018-07-27,Merged,1590,10,5,,1
+3.4.1 metadata,2018-07-13,Merged,1575,"3,844","3,843",,1
+"Revert ""Temporarily remove the navigation preload dependency""",2018-07-12,Merged,1572,14,13,js ,5
+Temporarily remove the navigation preload dependency,2018-07-09,Merged,1570,13,14,js ,5
+Test server refactor,2018-07-27,Merged,1566,376,275,html ,12
+Custom public path,2018-06-30,Closed,1562,3,2,json js ,3
+Use CacheQueryOptions in workbox.strategies,2018-06-29,Merged,1561,"3,678","3,611",mjs ,10
+New workbox-navigation-preload module,2018-06-29,Merged,1560,452,21,json mjs md ,18
+v3.3.1 metadata,2018-06-27,Merged,1557,14,14,mjs ,14
+README badge update,2018-06-26,Merged,1554,1,3,,0
+Link to workbox.setConfig() docs after calling workbox copyLibraries,2018-06-26,Merged,1553,5,1,,2
+Don't alias the exported workbox.core.registerQuotaExceededCallback symbol,2018-06-26,Merged,1552,32,34,json ,8
+Properly set Cache-Control on CDN hosting,2018-06-20,Merged,1539,1,1,,1
+v3.3.0 metadata,2018-06-18,Merged,1536,14,14,mjs ,14
+Use Comlink to fix Safari integration tests,2018-06-18,Merged,1533,447,544,html json ,12
+Update our IDB mocking library fork version,2018-06-14,Merged,1532,2,2,,2
+Enable gzip + cache-control on CDN,2018-06-10,Merged,1523,26,22,,1
+Removed some unused testing helpers,2018-06-08,Merged,1521,0,315,,5
+Cleanup for PR Bot config,2018-06-08,Merged,1520,32,38,,2
+Clean up some inaccurate JSDocs for strategies,2018-06-08,Merged,1518,5,35,,6
+Updates of package.json dependencies,2018-06-06,Merged,1511,"4,894","5,526",js mjs json ,6
+Fix CacheExpiration / IndexedDB OpenCursor for Edge,2018-07-11,Merged,1510,6,1,,1
+Opt-in method for purging (some) caches upon a QuotaExceededError,2018-06-13,Merged,1505,251,25,mjs ,13
+Add requestDidReplay callback to BackgroundSync Queue (#1502),2018-11-02,Closed,1503,39,0,,2
+New workbox.expiration.Plugin.deleteCacheAndMetadata() method,2018-05-26,Merged,1500,192,5,mjs html ,8
+Adds package-level README.md files.,2018-05-24,Merged,1496,15,0,,0
+Run the webpack test suite against webpack v4,2018-05-23,Merged,1492,869,420,,1
+Improve the code that swaps 'prod' for 'dev' in copyWorkboxLibraries,2018-05-18,Merged,1488,54,2,,2
+Passes along the underlying error to a fetchDidFail plugin,2018-05-17,Merged,1486,8,5,,2
+Runtime check for a functional ReadableStream,2018-05-17,Merged,1476,44,13,,2
+Update isSupported.mjs,2018-05-17,Closed,1474,2,1,,1
+3.2.0 version strings,2018-05-02,Merged,1468,14,14,mjs ,14
+Pruning/updating the README,2018-05-02,Merged,1467,10,13,,0
+webpack v4 fixes for compilation.fileDependencies,2018-05-02,Merged,1465,12,1,,1
+Use an empty object rather than undefined when calling new Headers(),2018-05-02,Merged,1463,14,2,,2
+Picks up workbox.rangeRequests and workbox.streams,2018-05-01,Merged,1462,29,1,js ,6
+Fallback to network if there's a cache miss for registerNavigationRoute,2018-05-01,Merged,1460,46,4,,2
+RegExp tweak to allow for precacheAndRoute() options,2018-05-01,Merged,1459,38,1,,3
+Additional try/catch blocks around async waitUntil calls,2018-05-01,Merged,1457,32,5,,2
+Require options.cacheName when options.expiration is set.,2018-05-01,Merged,1455,47,1,,3
+Explicitly use node v9 in our CI config,2018-04-26,Merged,1451,"7,273","6,672",json js mjs ,11
+Update the R: line of the PR template,2018-04-26,Merged,1449,1,1,,0
+More context in the welcome log message,2018-04-26,Merged,1440,4,1,,1
+Adds workbox.streams,2018-04-26,Merged,1439,745,19,hbs mjs ,10
+#1393: Only use public API of 'compiler.inputFileSystem',2018-05-01,Merged,1437,6,5,,2
+Add Typescript type definitions for workbox-sw,2018-06-14,Closed,1436,"1,424",0,,2
+Add swSrc to list of file dependencies for InjectManifest,2018-04-19,Merged,1432,1,0,,1
+Bumps for v3.1.0,2018-04-12,Merged,1430,13,13,mjs ,13
+Deal with null cachedResponses passed to workbox.rangeRequests.Plugin,2018-04-12,Merged,1427,21,5,,2
+Add one very important detail,2018-04-27,Merged,1425,5,4,,1
+Bugfix - Correctly identify when response does not have `date` header set,2018-04-10,Merged,1422,14,2,mjs ,3
+Adds makeRequest() method to workbox.strategies,2018-04-06,Merged,1408,593,92,,2
+Make workbox-build exist in jsdoc,2018-03-28,Merged,1405,1,1,,1
+Make webpack path and filename options more customizable,2018-03-29,Merged,1403,591,36,,6
+Use waitUntil only when it's available.,2018-03-28,Merged,1392,80,10,,2
+Updated version values,2018-03-26,Merged,1390,13,13,mjs ,13
+Use the correct IDB name in Safari's precaching integration test,2018-03-23,Merged,1388,27,18,,1
+Precaching plugins for active and install events,2018-03-21,Merged,1382,36,62,mjs ,5
+Set webpack's compilation.warnings when glob-related options are used,2018-03-21,Merged,1381,657,105,,3
+Fixing temporary cache deletion issue,2018-03-16,Merged,1372,22,12,js ,3
+Explicitly support absolute swDest paths,2018-03-17,Merged,1370,156,3,,5
+Cache put error,2018-03-16,Merged,1369,15,0,,2
+some typo corrections,2018-03-14,Merged,1360,7,7,js ,5
+Doc repair for wf,2018-03-13,Merged,1358,11,3,,2
+"The contents of v3, reconciled with master",2018-03-13,Merged,1357,"55,500","31,135",js gitattributes gitignore ruby-version yml Gemfile md json ,11
+New beta release,2018-03-06,Merged,1349,13,13,mjs ,13
+Using cache name as idb name for precaching,2018-03-06,Merged,1346,24,19,js ,4
+Precaching temp,2018-03-05,Merged,1342,256,126,mjs ,11
+Adds support for changing the options used when calling fetch(),2018-03-02,Merged,1340,80,5,,8
+Adding Config options to workbox-sw setConfig(),2018-03-01,Merged,1337,51,12,,5
+Adding error for caching POST requests,2018-02-28,Merged,1336,152,4,mjs ,6
+Fix for runtimeCaching plugin config conversion,2018-02-28,Merged,1335,77,2,,2
+Add a new workboxSWImport option to the template.,2018-02-22,Merged,1327,89,72,,9
+Adds non-fatal warnings to the build tools,2018-02-23,Merged,1325,422,216,json ,10
+Bg sync logs,2018-02-22,Merged,1323,11,2,,1
+Add an integration test for the entire offline analytics replay process,2018-02-27,Merged,1321,247,15,js html ,4
+Analytics fixes,2018-02-16,Merged,1319,159,18,,6
+Bumping depecencies,2018-02-19,Merged,1318,39,30,mjs js ,6
+Log warning for bad cache control,2018-02-21,Merged,1317,93,2,,3
+Fail Webpack build when `chunks` and `excludeChunks` are missing from compilation,2019-02-22,Closed,1313,196,4,,3
+Safari groups,2018-02-14,Merged,1310,8,1,mjs ,2
+Adds feature detection for BroadcastChannel,2018-02-28,Merged,1307,22,16,html ,4
+Update to some shortlinks to build config docs.,2018-02-14,Merged,1306,8,4,,3
+Adding assertion for addRequest,2018-02-13,Merged,1305,10,0,,1
+Clean up precaching integration test flow.,2018-02-13,Merged,1303,8,13,,1
+Fallback to fetch() if the precached response is missing.,2018-02-14,Merged,1302,51,3,,2
+Robust networkTimeoutSeconds handling,2018-02-13,Merged,1301,37,7,,2
+Fallback to network on navigationRoute cache miss,2018-05-01,Closed,1300,46,4,,2
+Safari tech preview,2018-02-10,Merged,1298,231,131,json ,12
+Fix typo in console log messages,2018-02-10,Merged,1295,1,1,,1
+Set credentials: 'same-origin' on the precaching requests.,2018-02-13,Merged,1293,23,2,mjs ,4
+Consistently use broadcastUpdate instead of broadcastCacheUpdate,2018-02-10,Merged,1292,12,2,,3
+Gracefully no-op when BroadcastChannel doesn't exist,2018-02-10,Merged,1291,73,55,,7
+Support importWorkboxFrom: 'local' in the InjectManifest webpack plugin,2018-02-13,Merged,1290,226,65,,5
+Refactor intergration tests,2018-02-08,Merged,1284,264,852,,4
+adding bg-sync tag name check,2018-02-08,Merged,1280,19,1,,2
+Prevent multiple precache manifest in webpack development,2018-02-03,Merged,1276,146,9,,4
+Support for the new webpack v4 plugin architecture.,2018-02-05,Merged,1275,30,11,js ,3
+Remove some BCU integration flakiness by pre-populating the cache in the SW,2018-02-02,Merged,1273,11,5,,2
+Update configuration links in JSDocs/CLI help to point to d.g.c,2018-02-01,Merged,1270,10,359,,5
+Improve the RegExp object validation failure message,2018-02-01,Merged,1269,29,7,,4
+Convert bg sync maxRetentionTime to minutes,2018-02-01,Merged,1268,30,20,,6
+Make workbox sw chunk prefix with public path,2018-02-01,Merged,1265,67,1,,2
+Coverage,2018-01-31,Merged,1258,203,14,mjs ,12
+Validate plugin input / output,2018-01-30,Merged,1257,32,8,,2
+Ignore '.map' when suggesting extensions to precache.,2018-01-30,Merged,1255,29,2,,3
+Bg sync demo,2018-01-31,Merged,1252,44,0,txt ,2
+Refactor the way CLI parameters are processed by app.js.,2018-01-29,Merged,1246,53,31,,5
+Adding range request demo and making function - non-static,2018-01-29,Merged,1245,56,4,mjs js ,5
+Tweak wording for root of web app question.,2018-01-25,Merged,1243,3,1,,1
+Show the --help message when there are no params.,2018-01-25,Merged,1242,5,1,,1
+Basic Route integration tests.,2018-01-25,Merged,1235,139,0,html ,3
+Adding integration tests for remaining strategies,2018-01-29,Merged,1234,408,0,html ,8
+Honor publicPath when determining the precache manifest URL.,2018-01-25,Merged,1233,15,10,,4
+Adding a basic integration test for analytics,2018-01-29,Merged,1232,82,0,html ,3
+"babelHelpers.asyncToGenerator minification, take two.",2018-04-13,Closed,1231,37,26,,2
+Workbox sw integration test,2018-01-29,Merged,1230,93,0,html ,4
+Updates to CDN/_version.mjs for alpha 6,2018-01-24,Merged,1225,13,13,mjs ,13
+rangeRequests.Plugin integration test,2018-01-24,Merged,1221,103,0,html ,3
+Basic bg sync test,2018-01-25,Merged,1220,136,9,mjs txt html ,6
+Testings babel-helpers,2018-01-23,Closed,1219,7,7,,2
+BroadcastCacheUpdate.Plugin integration test,2018-01-23,Merged,1217,141,15,mjs html ,7
+Call new on the corresponding Plugin class.,2018-01-23,Merged,1216,25,13,,4
+Adding workbox-core integration test,2018-01-22,Merged,1214,117,0,html ,3
+Adding a bg sync demo,2018-01-23,Closed,1213,44,0,txt mjs ,3
+Adding an analytics demo,2018-01-23,Merged,1212,948,1,,2
+Tweak async/await usage to avoid a bug in the final prod bundle.,2018-01-18,Merged,1203,5,2,,1
+Switching to a db name instead of just a store name,2018-01-18,Merged,1184,119,5,,3
+Minify self.babelHelpers.asyncToGenerator(),2018-01-29,Closed,1183,50,5,js ,6
+Adding integration tests for cacheable-response,2018-01-17,Merged,1182,173,927,mjs js txt html ,20
+Don't copy the same workbox-sw.js(.map) files twice,2018-01-17,Merged,1181,9,2,,2
+Use the native archiver.finalize() promise,2018-01-17,Merged,1179,6,11,,1
+cdnUtils fix + tests.,2018-01-17,Merged,1177,52,0,,3
+Properly deal with webpack's publicPath + importWorkboxFrom: 'local',2018-01-13,Merged,1173,117,41,,2
+Support --injectManifest in the workbox-cli wizard.,2018-01-14,Merged,1171,161,11,,12
+Expiration integration,2018-01-12,Merged,1170,239,2,json txt html ,6
+Handles scenario where no cached response will be used.,2018-01-11,Merged,1169,926,7,,1
+Update gulp patterns,2018-01-26,Closed,1166,268,152,,9
+Revamp the runtime caching option conversion.,2018-01-05,Merged,1160,125,45,,7
+Adding updates to packages,2018-01-05,Merged,1157,"1,642","1,687",,2
+Updating package,2018-01-04,Merged,1156,214,"1,152",,0
+Throwing error instead of re registering sync on failure,2018-01-08,Merged,1155,21,17,,3
+Url manipulation,2018-01-04,Merged,1154,176,933,,0
+"Add in asset filename filtering via {test, include, exclude}",2018-01-04,Merged,1149,538,13,js ,8
+Webpack import workbox from local,2018-01-02,Merged,1148,178,14,,6
+Update copyright year,2018-01-10,Merged,1146,1,1,,0
+Explicit GenerateSW or InjectManifest webpack modes,2017-12-22,Merged,1143,"1,059",305,,4
+Support for importWorkboxFrom: <chunkname> and associated fixes,2017-12-19,Merged,1141,430,104,,5
+Precaching idb fix,2017-12-18,Merged,1139,"3,731","3,274",,0
+Adds ability to add plugins to precaching lifecycle,2017-12-15,Merged,1138,100,6,,5
+Use importWorkboxFrom instead of importWorkboxFromCDN,2017-12-15,Merged,1137,18,14,,8
+A simple test to ensure modules have a mapping in workbox-sw,2017-12-15,Merged,1133,28,47,,2
+Adding cache first integration test,2017-12-15,Merged,1132,100,2,txt html ,5
+Clean up the service worker template.,2017-12-14,Merged,1130,12,5,,2
+Adding a CacheOnly integration test,2017-12-14,Merged,1128,95,0,html ,3
+Check idb entries in integration test,2017-12-14,Merged,1127,63,22,,1
+Adding navigation route test,2017-12-14,Merged,1126,87,1,html ,4
+Fixing the log grouping,2017-12-11,Merged,1116,6,10,,3
+Delete previous idb and upgrade for v3,2017-12-08,Merged,1112,8,1,,1
+Precaching and IDB Issues,2017-12-08,Merged,1111,118,9,,4
+v3: workbox-range-requests module,2017-12-06,Merged,1108,644,7,mjs json ,9
+Found common typos,2017-12-04,Merged,1106,4,4,js ,4
+Better swDest default value when using workbox-cli wizard,2017-12-05,Merged,1105,8,7,,2
+"Default the glob options follow & strict to true, with new options to override",2017-12-08,Merged,1104,152,4,,10
+Rename QueuePlugin test to Plugin,2017-12-04,Merged,1101,10,19,,2
+No cache control and wait from window load,2017-12-02,Merged,1100,132,134,hbs ,10
+Github publish flow fixes.,2017-12-01,Merged,1099,12,6,,1
+alpha.2 release,2017-12-01,Merged,1098,25,16,js mjs ,15
+Workbox-build linking up config.,2017-12-01,Merged,1097,"1,290",368,js ,3
+Revamp runtimeCaching.options to account for new plugins usage.,2017-12-01,Merged,1095,118,43,,6
+Updating references to point to new docs pages,2017-12-01,Merged,1094,13,19,mjs ,7
+Adding broadcast channel demo,2017-12-01,Merged,1091,67,0,mjs ,3
+Support experimental Measurement Protocol paths,2017-12-01,Merged,1090,83,30,,3
+Adding cacheable response demo,2017-11-30,Merged,1089,116,6,hbs json mjs ,7
+Use a default config file of workbox-config.js,2017-12-01,Merged,1087,44,22,,6
+Pass through all webpack config options to generateSWString(),2017-12-01,Merged,1085,105,5,,6
+Plugins changes,2017-11-30,Merged,1084,88,228,json ,15
+Adds Broadcast plugin to helper function,2017-11-30,Closed,1082,15,2,mjs ,2
+Adding JSDocs checks,2017-11-30,Merged,1081,81,28,js conf json mjs ,5
+doc-global-removal,2017-11-30,Merged,1080,12,0,js ,2
+Throw a WorkboxError when cacheExpiration is used without cacheName,2017-12-13,Merged,1079,26,3,,5
+Add workbox.precaching.suppressWarnings() to the SW template.,2017-11-30,Merged,1076,24,0,,5
+"Refactor workbox-build defaults, and update the injection-point-not-found message",2017-11-29,Merged,1075,49,14,,7
+workbox-cli copyLibraries,2017-11-29,Merged,1074,64,16,,4
+Use CDN copy of workbox-sw in webpack plugin output,2017-11-27,Merged,1069,9,92,,4
+Version bump and updates to publishing,2017-11-29,Merged,1068,33,64,js mjs ,17
+Copy over additional libraries locally,2017-11-27,Merged,1067,25,1,js ,4
+Reset for v3 alpha,2017-11-22,Merged,1065,47,47,mjs ,26
+Use a hash of asset.source() for non-chunk assets,2017-11-23,Merged,1064,146,145,json ,7
+Update the QueuePlugin class to take Queue params,2017-11-28,Merged,1062,43,61,mjs ,5
+Broadcast Cache Update,2017-11-17,Merged,1060,766,907,,3
+More compliant Response mock,2017-11-16,Merged,1059,72,3,mjs ,5
+v3: workbox-cacheable-response,2017-11-17,Merged,1057,494,4,mjs json ,12
+Update package.json,2017-11-16,Merged,1051,1,1,,1
+v2: Warn on usage of Express-style wildcard characters,2017-11-16,Merged,1049,22,0,,1
+v3: babel-preset-env for browser bundles,2017-11-17,Merged,1048,113,6,json ,6
+Renaming workbox-runtime-caching to workbox-strategies,2017-11-15,Merged,1046,57,58,hbs txt json mjs ,39
+Exclude revision info when the URL includes a known hash.,2017-11-14,Merged,1042,"1,539",168,,1
+"Fix env-it to pass through done(), and fix up webpack plugin test",2017-11-14,Merged,1041,59,31,,2
+Adding regexp routing integration test,2017-11-13,Merged,1036,149,0,html ,3
+Adding log for opaque responses,2017-11-14,Merged,1035,14,0,,1
+webpack-docs,2017-11-10,Merged,1034,20,11,,7
+Changing analytics module to namespace,2017-11-10,Merged,1033,13,7,,2
+block cli docs,2017-11-10,Merged,1032,3,0,,1
+Correcting build docs,2017-11-10,Merged,1031,2,0,,1
+Fixing docs for bg sync and moving to namespace,2017-11-10,Merged,1030,11,4,,4
+Bot fix,2017-11-10,Merged,1029,10,6,,2
+Support for registerRoute(<string>),2017-11-10,Merged,1028,201,45,mjs ,7
+Fixing browser namespace exports etc.,2017-11-10,Merged,1027,256,186,mjs ,14
+Moving to namespace and exposing loadModule,2017-11-10,Merged,1026,24,10,,2
+Check packageType in package.json to figure out whether we should publish,2017-11-13,Merged,1025,20,4,,2
+Use accessSync to ensure ERROR_SERVICE_ACCOUNT is logged,2017-11-09,Merged,1024,1,1,,1
+"pkg.browser => pkg.main, and update the build path.",2017-11-09,Merged,1022,19,33,json mjs ,18
+Sw demo changes,2017-11-09,Merged,1020,59,17,mjs ,3
+Proper configuration for the AggregateSizePlugin,2017-11-09,Merged,1019,17,18,,1
+Add support for the new gtag.js script,2017-11-09,Merged,1017,37,0,,3
+Create a single (prod) build of workbox-sw.,2017-11-09,Merged,1016,31,14,json ,7
+100% sw coverage,2017-11-09,Merged,1015,10,0,,1
+Tidying up the strategies demo,2017-11-09,Merged,1013,38,69,,1
+Routing Default + Catch Error demo,2017-11-09,Merged,1010,38,11,mjs ,2
+Move workbox-build's template over to v3 syntax,2017-11-09,Merged,1009,234,206,json ,11
+Cache expiration coverage,2017-11-08,Merged,1008,214,63,,6
+Runtime-caching Docs + Coverage.,2017-11-08,Merged,1007,137,29,,13
+Fixing up routing namespace,2017-11-08,Merged,1005,212,89,mjs ,13
+Switching to namespace and tidying precaching docs,2017-11-07,Merged,1004,84,51,mjs ,10
+Publishing fixes,2017-11-08,Merged,1003,22,10,,5
+Adding a more accurate theme for web fundamentals,2017-11-07,Merged,999,970,0,yaml css hbs ,6
+Minor code coverage improvement,2017-11-06,Merged,998,60,5,,4
+Precaching 985,2017-11-06,Merged,990,"1,621","1,637",,0
+Adding some more context to the precaching docs,2017-11-06,Merged,989,35,9,,2
+Adding default export with simple wrappers for runtime-caching,2017-11-07,Merged,982,977,349,json mjs ,14
+Routing docs,2017-11-07,Merged,979,122,151,mjs ,5
+Updating jsdocs to be a little cleaner,2017-11-03,Merged,978,54,13,mjs ,4
+Nav route helper,2017-11-03,Merged,975,161,28,mjs ,4
+Runtime logging,2017-11-03,Merged,974,126,105,,9
+Make generateSW() copy a larger set of libraries,2017-11-06,Merged,973,235,133,js ,9
+Updating caching docs,2017-11-02,Merged,972,92,"1,077",,0
+Adding navigation route,2017-11-02,Merged,971,279,0,,6
+Update indexedDBHelper and DBWrapper,2017-11-03,Merged,968,911,509,json mjs ,7
+Ensure untranspiled node 4+ compat for the v2 webpack plugin,2017-11-01,Merged,966,3,1,,1
+v3: workbox-cli wizard,2017-11-07,Merged,965,"1,062",3,js ,10
+Adding the helper version of registerRoute,2017-11-02,Merged,964,201,28,,3
+Noticed defaults were missing,2017-11-01,Merged,963,4,4,,1
+Adding workbox-sw demo + moving demos over to using workbox-sw,2017-11-02,Merged,962,66,17,hbs mjs ,12
+Webpack plugin style tweaks,2017-11-01,Merged,958,138,137,,5
+Ensure expireEntries is called,2017-10-31,Merged,956,72,85,,2
+Logging changes,2017-10-31,Merged,954,124,102,mjs ,16
+Expiration Demo + Fixing Demos for Workbox-SW Changes,2017-10-30,Merged,952,131,12,,6
+Core coverage,2017-10-31,Merged,951,248,19,json mjs ,12
+Routing + Upgrade integration test for precaching.,2017-11-02,Merged,949,"1,564","2,710",,3
+Initial WorkboxWebpackPlugin e2e test,2017-10-30,Merged,948,"3,984","1,585",js jpg png html css ,16
+Revert imports from _public,2017-10-27,Merged,947,6,3,,1
+Module rethink,2017-10-27,Merged,945,"1,095",678,mjs ,14
+V3 runtime logs,2017-10-27,Merged,944,681,"1,236",js hbs ,8
+Make WorkboxSW a singleton on self.workbox,2017-10-30,Merged,941,296,332,json mjs ,11
+Precaching warning tweaks,2017-10-27,Merged,936,78,35,,7
+Direct logs,2017-10-20,Merged,932,134,52,html ,6
+V3 sw mock update,2017-10-19,Closed,931,36,21,json ,5
+Precaching coverage,2017-10-19,Merged,929,566,97,mjs json ,10
+Add workbox-google-analytics,2017-10-20,Merged,927,"1,615",27,,7
+Demos deploy,2017-10-24,Merged,923,251,137,js hbs png txt ,14
+Adding expiration plugin,2017-10-18,Merged,921,339,24,,4
+Test to ensure Router and strategies,2017-10-18,Merged,919,78,"1,054",mjs ,12
+Update FetchEvent mock to follow the spec,2017-10-18,Merged,918,94,67,mjs ,11
+Fix assertion mismatch,2017-10-18,Merged,917,2,2,,2
+Expires cache entries,2017-10-18,Merged,908,212,13,html ,5
+Cache Expiration Remove extra entries,2017-10-16,Merged,907,155,20,,5
+V3 demos,2017-10-17,Merged,906,"12,247","3,585",json ,3
+V3 welcome move,2017-10-16,Merged,905,237,"1,184",,1
+V3 routing logs,2017-10-15,Merged,902,155,61,,3
+Export the style while revalidate,2017-10-15,Merged,901,2,0,,1
+Adding some tests and getting expiration working,2017-10-15,Merged,899,135,17,,4
+V3 sw proxy,2017-10-15,Merged,898,130,53,js ,3
+RegExpRoute + unit tests,2017-10-17,Merged,897,197,0,,4
+V3 routing docs,2017-10-13,Merged,896,52,11,,6
+V3 logging,2017-10-13,Merged,895,23,23,html js ,8
+"For the temporary github and CDN stuff, remove the generated files",2017-10-13,Merged,894,18,1,,2
+Adding the route logic,2017-10-14,Merged,893,137,13,,3
+Adds in the workbox welcome msg,2017-10-13,Merged,892,189,138,html ,4
+Moves to a single gulp --test in Travis CI.,2017-10-12,Merged,891,1,9,,1
+Renaming the plugin—slipped through while Travis CI wasn't watching.,2017-10-12,Merged,890,0,0,,1
+V3 workbox cache expiration,2017-10-13,Merged,889,389,45,json ,5
+workbox-build option validation refactor,2017-10-12,Merged,888,237,250,,10
+v3 generateSW() end-to-end test,2017-10-13,Merged,887,465,6,,4
+Moves modules back to root of package and adding diff version string,2017-10-12,Merged,885,225,66,json mjs ,30
+Fix a Windows path issue in the workbox-cli test.,2017-10-12,Merged,884,1,1,,1
+Use await/async inside of build:update-cdn-details,2017-10-12,Merged,883,5,4,,1
+V3 runtime caching docs,2017-10-12,Merged,882,65,43,,5
+V3 core sweep,2017-10-12,Merged,881,104,98,mjs ,7
+V3 stale while revalidate,2017-10-12,Merged,880,282,11,,5
+V3 network only,2017-10-11,Merged,879,197,6,mjs ,4
+Adding helpers to workbox-build,2017-10-12,Merged,878,94,33,js mjs ,17
+Adding network first strategy,2017-10-11,Merged,877,401,0,,1
+V3 precaching logs,2017-10-11,Merged,876,20,10,,4
+V3 cache only,2017-10-11,Merged,873,263,12,,6
+Linting rule for license header + adds missing headers.,2017-10-10,Merged,872,871,6,json ,20
+V3 background sync,2017-10-17,Merged,871,"1,818",92,,11
+v3: initial workbox-cli code,2017-10-12,Merged,870,"1,493",0,,1
+V3 publishing,2017-10-11,Merged,869,525,"1,234",json ,17
+Reject when swSrc and swDest are the same,2017-10-10,Merged,866,21,0,,3
+V3 CacheFirst,2017-10-10,Merged,864,309,4,mjs ,8
+"Fix docs in workbox-sw, workbox-google-analytics",2017-10-10,Merged,862,2,2,,2
+_private Fix and Precaching Integration Test,2017-10-09,Merged,860,84,31,,5
+V3 sw load mod,2017-10-09,Merged,858,355,33,json mjs ,14
+Moving to a more consistent build types set up,2017-10-09,Merged,855,134,127,mjs ,12
+v3 Router class,2017-10-10,Merged,854,682,35,mjs ,7
+V3 test tidy,2017-10-06,Merged,852,27,361,json ,15
+V3 Precaching (Steps to integration test),2017-10-06,Merged,850,"1,101",30,,5
+V3 publishing tidy,2017-10-06,Merged,849,269,173,,5
+V3 integration test start,2017-10-05,Merged,847,232,67,json ,7
+Give a precache-specific Router precedence,2017-10-04,Merged,846,11,2,,2
+Update workbox-sw.js,2017-10-04,Closed,844,3,3,,1
+V3 workbox-sw,2017-10-05,Merged,842,212,45,js mjs json ,9
+V3 precaching default,2017-10-03,Merged,840,98,9,json mjs ,8
+Moving tests to individual processes. Coverage is broke and output is…,2017-10-03,Merged,838,60,939,,2
+Fixing up more docs issues :(,2017-10-03,Merged,837,35,4,,12
+Some initial tidy / ergonomics work for testing,2017-10-02,Closed,834,158,186,json mjs ,20
+First stage of v3 workbox build refactor,2017-10-03,Merged,833,"3,022","3,550",,2
+V3 precaching docs,2017-10-02,Merged,832,"1,810",241,yml js conf ,8
+V3 valid jsdoc,2017-09-29,Merged,831,59,31,json mjs ,8
+Add the service worker env as a process-level require,2017-10-02,Merged,829,"1,256",533,js ,4
+V3 precaching minification,2017-09-29,Merged,828,83,70,,9
+Doc sweep,2017-09-29,Merged,827,825,"1,956",conf json js ,8
+V3 precaching activate,2017-09-28,Merged,825,598,"1,239",mjs js ,8
+V3 precaching model,2017-09-27,Merged,823,"1,263",281,,0
+Tweaking tests to not use the iife,2017-09-26,Merged,820,207,179,,1
+Reword documentation to getting started,2017-09-29,Merged,819,4,4,,0
+V3 lerna bump,2017-09-25,Merged,816,1,908,,0
+Uses babel-preset-env to transpile our bundled code,2017-09-22,Merged,815,"3,016","1,133",,0
+V3 precaching reinstall,2017-09-26,Merged,813,"1,787","1,030",gitattributes ,3
+V3: workbox-build initial checkin,2017-09-27,Merged,811,"8,894","1,778",yml ,5
+Workbox Webpack Plugin v3,2017-10-19,Merged,808,598,0,js ,4
+V3 caching,2017-09-16,Merged,804,"1,503",300,mjs ,9
+Adding appveyor for v3,2017-09-15,Merged,801,35,27,js json ,7
+v3: workbox-routing.Route,2017-09-21,Merged,798,"2,349","1,719",,1
+V3: fetchWrapper and cacheWrapper,2017-09-14,Merged,797,"1,038",39,json mjs ,11
+V3 precaching add cache list,2017-09-08,Merged,791,607,99,json mjs ,21
+Log workbox-cli errors before exiting,2017-09-08,Merged,790,3,3,,1
+Warn about options that are invalid for a given workbox-build mode,2017-09-08,Merged,789,131,8,,6
+V3 logging,2017-09-07,Merged,787,501,559,js ,7
+avoiding flaky test to unblock PRs,2017-09-06,Merged,785,5,6,,1
+#782 add jsdoc for conflicting routes,2017-09-07,Merged,784,5,0,,1
+Bundling idea...,2017-09-07,Merged,783,125,144,json mjs ,12
+V3 publish idea,2017-09-05,Closed,780,900,777,,1
+V3: Second Module,2017-09-05,Merged,779,658,442,js ,8
+V3 globals,2017-08-30,Merged,776,145,29,json ,2
+Fix backslashes replacement.,2017-09-05,Merged,774,1,2,,1
+Update workbox-google-analytics to use background sync,2017-10-30,Closed,770,602,452,json ,5
+Adding fixes to the range requests,2017-08-28,Merged,768,6,5,,3
+V2,2017-08-24,Merged,767,"1,408",213,js txt md ,12
+V3 browser bundle,2017-08-28,Merged,766,175,48,json mjs ,10
+Ensure that ignoreUrlParametersMatching works with directoryIndex,2017-09-06,Merged,762,50,2,,2
+V3: @std/esm tests,2017-08-22,Merged,761,"2,142",710,gitignore ,6
+Only call github.authenticate() when it's needed.,2017-08-18,Merged,755,11,4,,1
+use strict to support Node 4,2017-08-21,Merged,753,4,0,,2
+No longer register a fetch handler for each Router by default,2017-08-18,Merged,752,247,112,,9
+V3 errors,2017-08-21,Merged,751,542,"6,847",gitignore yml ,9
+Rename cacheWillMatch to cachedResponseWillBeUsed,2017-08-16,Merged,748,28,28,,10
+V3 upload to cdn,2017-08-17,Merged,746,"4,165",80,js ,7
+Move towards using 'workbox' over 'workbox-cli'.,2017-08-15,Merged,744,17,6,js txt ,5
+V3 force size,2017-08-12,Merged,742,86,6,json ,5
+V3 coverage,2017-08-14,Merged,741,887,271,yml js ,7
+V3 bot bump,2017-08-11,Merged,740,1,1,,1
+Bumps pr-bot,2017-08-11,Merged,739,14,4,,2
+V3 bump bot,2017-08-10,Closed,738,14,4,,2
+V3 Analyse Browser Bundles,2017-08-14,Merged,737,135,5,json ,6
+"Adds JSDocs for the lifecycle methods, and awaits the return of each.",2017-08-10,Merged,736,128,19,,1
+Improved the workbox-build JSDoc,2017-08-10,Merged,735,344,229,,1
+V3 package build,2017-08-11,Merged,732,596,68,js ,10
+Update to PR instructions,2017-08-09,Merged,728,4,2,,0
+Adds a test to ensure manifest transforms can be applied,2017-08-09,Merged,726,432,"1,472",,0
+"Allow webpack plugin to use generateFileManifest, split into 3 plugins",2017-09-06,Closed,724,627,163,,8
+Adds JSDocs for the handleFetch parameter,2017-08-09,Merged,723,7,1,,1
+Fix for multiple cacheId prefixes in the precache handler,2017-08-08,Merged,720,103,36,js ,4
+V3 core,2017-08-07,Merged,719,"10,135",9,gitignore yml ,11
+Update workbox-sw tests to support bundling,2017-08-03,Merged,717,311,49,,17
+fixed: bug that causes passed in manifestTransforms not to run,2017-08-03,Merged,715,4,2,,1
+adding manifest transform for webpack public path,2017-08-14,Merged,712,89,8,,2
+New library to support Range requests,2017-08-15,Merged,710,995,55,md js ,6
+expect in bgSync tests,2017-08-09,Merged,707,434,"1,458",js ,7
+Simplify one line of code,2017-07-28,Closed,706,1,2,,1
+Add all of workbox-sw's devDependencies to fix Lerna's versioning.,2017-08-01,Merged,704,9,1,,1
+Link to [workbox] on SO.,2017-07-27,Merged,702,2,0,,0
+Allowing registerNavigationRoute to accept a match function.,2017-08-04,Closed,701,42,7,,3
+fixing race condition,2017-09-06,Merged,697,38,29,,6
+Fixes a bug with cacheFirst handler + maxAgeSeconds + CORS request,2017-07-26,Merged,694,116,16,,6
+typo: fix small typo,2017-07-24,Merged,693,1,1,,1
+Add a build step to the mocha tests for easier cross-package integration,2017-08-03,Merged,690,"1,665","1,069",json ,7
+README improvements,2017-07-19,Merged,688,15,4,,0
+Copies sourcemap over with source files,2017-07-18,Merged,685,27,2,,2
+Adding defaults to workbox-build,2017-07-18,Merged,684,295,144,js ,8
+Adding some logging for the precache details,2017-07-14,Merged,682,123,9,,5
+Enable testing on supported versions of node,2017-07-13,Closed,681,2,0,,1
+fixing queue initialization bug,2017-07-19,Merged,680,24,2,,2
+Moving lerna tasks out into seperate file and fixing tests,2017-07-12,Merged,675,99,74,json ,5
+Minor cleanup of the gitignore file.,2017-07-11,Merged,673,1,3,,1
+Add use strict to generate-sw for Node 4 support,2017-07-13,Merged,670,33,0,,17
+Updates eslint and centralizes some config options.,2017-07-10,Merged,667,132,366,eslintrc js json ,19
+Background sync queue callbacks,2017-07-11,Merged,666,209,74,,7
+Adds a current package-lock.json,2017-07-13,Merged,665,"9,043",0,,0
+Adds support for manifestTransforms,2017-07-14,Merged,664,381,171,,10
+"Revert ""Use requestWrapper.fetch() instead of fetch() in BSQ""",2017-07-05,Merged,663,50,97,js ,6
+Support for registering non-GET via runtimeCaching,2017-07-05,Merged,662,28,27,,4
+allow single string globIgnores as per JSDoc,2017-07-05,Merged,660,3,0,,1
+"Copy workbox-sw lib as part of ""manifest injection"" build process",2017-08-29,Closed,654,24,1,,1
+Use requestWrapper.fetch() instead of fetch() in BSQ,2017-06-27,Merged,648,97,50,js ,6
+Removes packages/*/demos,2017-06-26,Merged,645,0,877,js eslintrc txt css ,10
+Cleaner way to create generic Route instances via registerRoute(),2017-06-27,Merged,644,58,33,,5
+Makes it easier to use custom Routes within WorkboxSW.,2017-06-22,Closed,639,106,9,,5
+Return a specific error when swDest is a directory.,2017-06-17,Merged,638,36,9,,3
+Include the URL's search when matching the NavigationRoute white/blacklist,2017-06-17,Merged,637,17,4,,2
+Strips the hash from a URL in a couple of places,2017-06-27,Merged,633,50,6,,4
+Support for unregistering routes & returning routes registered by workbox-sw,2017-06-19,Merged,632,138,13,,4
+Removes the IDB entry when a URL is removed from the precache list.,2017-06-21,Merged,630,77,8,,5
+WorkboxError,2017-06-21,Merged,629,256,99,json ,11
+Temp leading slash,2017-06-13,Merged,627,74,68,,10
+Simplifying service worker tests,2017-06-09,Merged,622,119,512,js eslintrc ,23
+Stop hidden files being an option in the CLI,2017-06-08,Merged,616,69,1,,2
+Fixes #356,2017-06-13,Merged,614,31,18,,1
+Fixing #348. Return Promise from getFileManifestEntries,2017-06-09,Merged,613,51,44,,2
+Default cli ignores,2017-06-09,Merged,609,18,4,html ,10
+typo,2017-06-07,Merged,602,1,1,,1
+Bg sync replay fix,2017-06-19,Merged,601,119,63,js ,7
+"Tidying up the validation code, now to get happy with windows",2017-06-07,Merged,595,382,417,yml json js ,7
+Looking at minor size optimisations.,2017-06-07,Merged,594,227,221,,4
+Moves to the current sinon syntax.,2017-06-01,Merged,592,36,36,,20
+Webpack test fixes,2017-05-31,Merged,591,226,56,json js tmpl eslintrc ,9
+More robust runtimeCaching conversion.,2017-06-07,Merged,590,266,34,,5
+Fix for #560 leading slash added to files in manifest,2017-06-12,Merged,589,44,47,,5
+Fixes #585,2017-05-27,Merged,588,2,1,,1
+Webpack end 2 end tests,2017-05-31,Closed,587,144,7,json js ,5
+Fixed - Minor typo,2017-05-22,Merged,579,2,2,,1
+Update errors.js,2017-05-22,Closed,578,1,1,,1
+Fix contributing link,2017-05-22,Merged,575,1,1,,0
+Webpack fixes,2017-05-20,Merged,571,14,6,,2
+"Add support for globPatterns, prefer it to staticFileGlobs.",2017-05-17,Merged,568,146,90,,10
+Workbox sw sweep,2017-05-17,Merged,567,286,95,,5
+Minor doc changes to cachable-response,2017-05-17,Merged,566,9,5,,1
+Analytics Removing install instruction,2017-05-17,Merged,565,0,2,,1
+Doc sweep of bg-sync,2017-05-17,Merged,564,662,661,js ,6
+runtime-caching-sweep,2017-05-17,Merged,563,53,47,,9
+Routing sweep,2017-05-17,Merged,562,149,88,,8
+Precaching sweep,2017-05-17,Merged,561,73,66,,8
+Minor tweaks to cache-expiration-docs,2017-05-17,Merged,559,59,31,,4
+Sweep of sw-build,2017-05-17,Merged,558,197,136,,4
+Adds support for a --config-file CLI flag.,2017-05-17,Merged,557,99,38,js ,9
+Minor tweaks to workbox-broadcast-cache-update,2017-05-17,Merged,556,57,33,,6
+Remove swlib references,2017-05-17,Merged,555,29,47,js ,9
+Manually written README files.,2017-05-17,Merged,554,236,523,md js json ,4
+Bring some consistency to module descriptions.,2017-07-17,Closed,553,53,22,,9
+better docs,2017-05-17,Merged,551,49,21,js ,5
+Inject manifest cli,2017-05-16,Merged,550,461,39,,8
+More goog -> workbox & sw-helpers -> workbox,2017-05-16,Merged,548,26,26,json ,5
+Add install instructions to JSDocs.,2017-05-15,Merged,547,20,0,,10
+Fix the lerna-publish pipeline.,2017-05-15,Merged,545,19,9,,3
+Cli params,2017-05-15,Merged,544,171,241,js tmpl ,8
+Pass through options to the Handler constructor.,2017-05-15,Merged,543,11,3,,2
+Change payload.updatedUrl to payload.url,2017-05-30,Closed,540,7,7,js ,6
+Don't calculate the relative path twice,2017-05-15,Merged,539,77,18,js ,3
+"goog -> workbox, SWLib -> WorkboxSW",2017-05-13,Merged,538,701,698,js json ,16
+Hopefully fix generate-sw-e2e.js,2017-05-12,Merged,537,2,4,,1
+Adding ignoreUrlParamsMatching to workbox-build,2017-05-12,Merged,534,84,2,tmpl ,4
+Renaming sw-helpers to workbox,2017-05-12,Merged,532,114,114,json ,4
+Repo rename,2017-05-12,Closed,531,"1,016",996,yml js json ,15
+Use a TEST_BUNDLE env variable to toggle between testing dev & prod,2017-05-12,Merged,530,36,18,,9
+Workbox renaming,2017-05-11,Merged,529,761,741,yml js json ,8
+Adding checks for dependencies and marking as required,2017-05-10,Merged,528,25,10,js ,5
+Removing docs and docs related gulp tasks,2017-05-10,Merged,525,0,"174,874",yml md png ,4
+Dev + prod logging,2017-05-10,Merged,522,119,46,,9
+Fixes #513 - Destination Keys,2017-05-09,Merged,519,80,57,md js ,15
+Workbox microsite + gulp task instead of npm-publish-scripts,2017-05-09,Merged,518,"173,870",26,gitignore Gemfile eslintrc yml md ,5
+gulp wrappers for lerna boostrapping and publishing,2017-05-09,Merged,515,78,22,js json ,7
+full example of webpack,2017-05-15,Merged,514,60,52,,1
+Updated code sample,2017-05-08,Merged,512,1,1,,0
+Update Readme.md - Fixed broken links,2017-05-10,Closed,511,5,5,,0
+Build output normalization for service worker runtime projects,2017-05-08,Merged,510,183,225,json ,23
+Update some function calls and other misc. fixes.,2017-05-07,Merged,509,19,19,,0
+Readme,2017-05-07,Merged,508,54,31,hbs ,1
+Update identifiers in recipe.,2017-05-06,Merged,506,8,8,,0
+Build output normalization for CommonJS/node projects.,2017-05-07,Merged,505,31,89,json ,8
+Start migration guide.,2017-05-11,Closed,504,16,1,,0
+Bg q fixes,2017-05-09,Merged,501,155,176,html ,10
+Omit error-stack-parser from the minified bundles,2017-05-04,Merged,500,44,10,json ,8
+Change 'modules' to 'libraries' in docs only.,2017-05-04,Closed,499,20,20,,0
+Adding ignoreUrlParamsMatching to sw-lib,2017-05-05,Merged,498,226,15,,4
+Mention that minifiers must be ES6 aware.,2017-05-03,Merged,496,5,0,,0
+Trim landing page text.,2017-05-03,Merged,495,3,5,,0
+Runtimecaching,2017-05-03,Merged,493,198,4,tmpl ,6
+Fix sw-lib-docs,2017-05-03,Merged,492,1,1,,0
+Dont cache bust urls,2017-05-03,Merged,491,33,0,,4
+Adds navigateFallbackWhitelist,2017-05-03,Merged,490,72,1,tmpl ,4
+Dynamic url to deps,2017-05-02,Merged,489,133,4,,3
+fixing async tests,2017-05-02,Merged,486,6,10,,1
+Major revamp of the build process,2017-05-02,Merged,485,215,353,json ,12
+Max file size config,2017-05-02,Merged,483,113,67,,7
+Add cacheableResponse to the strategies documentation.,2017-05-02,Merged,482,7,1,,1
+Make a code example more helpful.,2017-05-01,Merged,481,1,1,,0
+Nav fallback,2017-05-02,Merged,480,70,4,js tmpl ,5
+Explains why the config file is useful.,2017-05-03,Merged,479,11,2,,0
+Clean redirected responses,2017-04-29,Merged,476,104,2,js ,5
+Add gh-pages/ to .gitignore.,2017-05-01,Closed,475,2,1,js ,2
+staleWhileRevalidate() is the new fastest(),2017-04-30,Merged,474,9,2,,1
+Sale is the new fastest.,2017-04-28,Closed,473,1,0,,1
+Fix links on landing page.,2017-04-29,Merged,472,3,3,,0
+Switching to swSrc and swDest for injecting manifest,2017-04-27,Merged,468,22,22,js ,6
+Makes npm scripts a bit more useful,2017-04-27,Merged,467,9,10,json ,3
+Cleanup for RouteHandlers and Matchers,2017-04-26,Merged,466,122,142,Gemfile lock js ,13
+Try a single build process instead of one divided by projects.,2017-04-26,Closed,465,7,20,json ,3
+Only bootstrap lerna and install gulp durning the first build job.,2017-04-26,Closed,464,52,7,yml json js ,4
+package.json dependencies update & pruning,2017-04-26,Merged,463,9,13,json ,4
+Throw an error if a glob pattern doesn't match anything,2017-04-27,Merged,461,46,4,,5
+Patching up the bg sync queue,2017-04-25,Merged,460,6,10,,4
+Glob directory,2017-04-26,Merged,459,126,128,,12
+Bootstrap lerna in the top-level postinstall,2017-04-25,Merged,458,2,1,,1
+Build/linting fixes for sw-build-webpack-plugin,2017-04-24,Merged,454,64,6,js json eslintrc ,6
+Support for a BroadcastCacheUpdate plugin for precached() assets,2017-04-23,Merged,452,162,26,,13
+Webpack bug fix,2017-04-24,Merged,450,9,8,,2
+Adds handleFetch to sw-build,2017-04-25,Merged,448,70,0,,3
+Adding skipWaiting to sw-build,2017-04-21,Merged,447,133,0,,3
+Adding directory index to sw-build,2017-04-22,Merged,446,72,3,,3
+Directory index,2017-04-20,Merged,445,285,11,,8
+Adds handleFetch param to sw-router,2017-04-20,Merged,443,78,5,,5
+Adds directoryIndex to request wrapper,2017-04-20,Closed,442,197,5,,2
+Properly wait on IDB deletion & E2E tests for cache expiration,2017-04-20,Merged,440,112,15,js ,7
+adding replay All functionality,2017-04-24,Merged,439,28,2,,3
+Glob ignores Tests,2017-04-26,Closed,436,20,9,txt ,3
+Merge Docs,2017-04-26,Merged,435,175,347,png ,1
+Clients claim,2017-04-18,Merged,434,221,13,js ,10
+Fixing up the error message in sw-cli. Fixes #396,2017-04-18,Merged,433,10,9,,4
+Trying to set concurrency to 1 on Appveyor,2017-04-11,Merged,432,11,3,js ,2
+Save plugin references and call methods on them,2017-04-16,Merged,431,42,43,,2
+Small change to the redirected browser test URL,2017-04-11,Merged,430,4,3,,1
+Remove appcache behavior,2017-04-12,Merged,429,0,"1,421",eslintrc md js html appcache css json ,14
+Cacheid param,2017-04-14,Merged,428,436,294,tmpl ,14
+Removing sw appcache,2017-04-10,Closed,426,17,"1,421",eslintrc md js html appcache css json ,14
+Correct two examples.,2017-04-10,Merged,425,2,2,,1
+"Rethinking precaching, incorporating hackathon feedback",2017-04-10,Merged,424,115,322,tmpl ,17
+Test sweep,2017-04-07,Merged,420,779,"1,456",eslintrc ,6
+Split up the CacheExpiration and CacheExpirationPlugin classes.,2017-04-06,Merged,419,237,124,,5
+Rearrange some of the generated output to clear space for the new IA.,2017-04-06,Merged,418,280,30,js hbs ,2
+Tests for the sw-runtime-caching module,2017-04-07,Merged,416,714,14,js ,13
+Sams pr,2017-04-05,Merged,415,7,7,,0
+Modify url prefix,2017-04-05,Merged,414,188,4,,6
+Cli install doc fix,2017-04-05,Merged,413,42,37,js hbs ,3
+Swlib namespace,2017-04-05,Merged,412,194,218,,4
+Manifest injection,2017-04-05,Merged,411,257,0,eslintrc css html ,15
+Add service worker to globIngores in example.,2017-04-04,Merged,410,1,1,,1
+webpack plugin for sw-build,2017-04-13,Merged,409,200,0,json ,3
+Build fix,2017-04-03,Merged,408,49,88,,7
+Cli meow,2017-04-03,Merged,406,26,131,json txt ,6
+Cli meow,2017-03-31,Closed,401,52,153,js json ,12
+Revamps the defaults around caching & logging opaque responses,2017-04-21,Merged,399,201,32,eslintrc ,11
+Static file globs,2017-04-03,Merged,398,335,240,md js ,12
+Fixing the doc site,2017-03-31,Merged,395,6,7,js ,1
+Build input check,2017-03-31,Merged,394,134,28,,9
+Fixes #330,2017-03-30,Merged,392,30,26,js json hbs ,3
+Refactor the CacheableResponsePlugin to a separate class,2017-03-31,Merged,391,361,25,eslintrc ,7
+Fixes #355,2017-03-30,Merged,388,9,6,,2
+Adding dependency checks to sw build and cli,2017-03-29,Merged,387,72,1,js ,4
+add replay tag in bg sync queue,2017-03-31,Merged,386,5,2,,2
+Use a single fetch handler per Router,2017-03-25,Merged,382,87,74,,1
+Use a specific cache name when finding the NavigationRoute response,2017-03-28,Merged,381,50,7,,4
+Normalize RegExpRoute & ExpressRoute w.r.t. cross-origin requests,2017-03-30,Merged,380,206,38,,9
+Logging,2017-03-22,Merged,377,425,31,,2
+Logging,2017-03-21,Closed,375,400,31,,3
+Fixing sw-build -> package.json,2017-03-16,Merged,366,5,1,,3
+Fix formatting of procedure.,2017-03-16,Merged,346,17,17,,0
+Add auto-generate stamp to certain pages.,2017-03-23,Merged,345,5,0,,1
+Minor tweaks to wording,2017-03-21,Merged,341,12,15,,0
+Minor tweaks to wording,2017-04-04,Closed,339,5,5,,0
+Minor tweaks to README text,2017-03-15,Merged,323,7,7,,0
+Fix example formatting,2017-03-15,Merged,322,1,1,,1
+Adds a log message when a response isn't cached.,2017-03-14,Merged,320,12,4,,1
+Small modification to the Examples page.,2017-03-14,Merged,319,5,2,,0
+Adding logging for router,2017-03-14,Merged,318,23,1,,2
+Demoting the sw-cli getting started,2017-03-14,Merged,317,156,125,hbs ,1
+Readme fixes,2017-03-14,Merged,312,262,14,js json hbs ,3
+Removing unnessecary requires for drivers,2017-03-14,Merged,310,2,79,js ,8
+Adds registerNavigationRoute to sw-lib,2017-03-14,Merged,307,96,2,html ,6
+Fixed copyright notice + fix the links of the home page,2017-03-15,Closed,306,105,106,md js html ,52
+Use actual Router for sw-lib,2017-03-13,Merged,305,4,11,,1
+JSDoc's request.mode should check for 'navigate',2017-03-13,Merged,303,2,2,,1
+Remove doc build (Not important),2017-03-13,Merged,299,1,1,,1
+sw-lib: minor revisions to doc,2017-03-13,Merged,297,3,3,,0
+Building docs,2017-03-13,Merged,296,1,1,json ,2
+sw-build support for templatedUrls,2017-03-13,Merged,295,191,34,,14
+Adds a networkTimeoutSeconds option to the NetworkFirst strategy.,2017-03-13,Merged,294,54,19,,2
+Sw lib docs,2017-03-13,Merged,293,190,0,,0
+Fix a typo.,2017-03-10,Merged,292,1,1,,1
+Fix a typo.,2017-03-13,Closed,291,1,1,,1
+Quick formatting fix.,2017-03-10,Merged,290,2,2,,0
+Refactoring of the Plugin class in BroadcastCacheUpdate,2017-03-10,Merged,287,187,104,,8
+Use the unminified versions of local libs for demos,2017-03-09,Merged,285,13,13,,6
+Enhance the README.,2017-03-13,Merged,284,100,0,hbs ,1
+Adding a change that will only add demos to readme's when they exist,2017-03-09,Merged,283,43,28,js hbs ,3
+Post fix,2017-03-08,Merged,280,2,0,,1
+Fixes #93,2017-03-09,Merged,278,131,56,,4
+Sw lib guide,2017-03-08,Closed,276,199,3,md tmpl ,4
+Cli docs,2017-03-12,Merged,275,160,2,png json ,2
+Add demos,2017-03-09,Merged,274,185,4,tmpl eslintrc html css ,16
+Build docs,2017-03-08,Merged,273,1,0,,1
+Regenerate documentation.,2017-03-07,Merged,270,26,0,,0
+Fixes #257. Fixes #243.,2017-03-08,Merged,266,29,30,js txt ,8
+Pass URL from original Request to cacheDidUpdate,2017-03-06,Merged,265,12,6,,2
+Updated documentation link,2017-03-07,Closed,262,2,2,,0
+Support for a function as a Route's handler,2017-03-10,Merged,261,35,33,,4
+"fixes bug #259, cloned request for every plugin",2017-03-04,Merged,260,3,2,,1
+Rollup-based build recipe,2017-03-08,Merged,258,148,0,md ,1
+Fixing sw-lib copy in sw-build,2017-03-03,Merged,255,5,5,,1
+Fixes #223,2017-03-03,Merged,254,32,0,,3
+Removing confusing console.log - fixes #215.,2017-03-02,Merged,253,0,2,,1
+sw-precaching step towards closing #187,2017-03-02,Merged,252,1,1,html ,4
+sw-lib step to closing #187,2017-03-02,Merged,251,14,20,html txt ,14
+sw-cli step towards closing #187,2017-03-02,Merged,250,11,10,js jpg png html css ,18
+Adds doc pages for older modules,2017-03-02,Merged,249,40,8,json js ,5
+Save config with sw-cli,2017-03-01,Merged,248,432,165,,12
+Make sw-cli public,2017-02-23,Merged,240,0,1,,1
+Fixes Readme Appveyor Badge,2017-02-23,Merged,239,2,2,hbs ,1
+Adds assertions to check the elements in an array,2017-02-27,Merged,238,43,9,,7
+Docs on Caching CDN Requests,2017-02-28,Merged,236,114,1,,0
+Adding cacheable response plugin,2017-02-23,Merged,235,57,5,,6
+Adds the NavigationRoute class,2017-02-23,Merged,234,223,1,,9
+Make the Errors generated by assert more useful.,2017-02-23,Merged,230,39,12,json ,3
+Move LICENSE_HEADER to templates/,2017-02-22,Merged,229,1,1,js ,1
+Remove lib/scope.js,2017-02-22,Merged,228,0,21,,1
+Manifest gen,2017-02-23,Merged,226,233,52,,6
+"Adds a format option to writeFileManifest(), defaulting to 'iife'",2017-02-22,Merged,225,43,10,tmpl ,5
+Fix a typo.,2017-02-21,Merged,224,1,1,,1
+Add ES2015 .mjs module output to the sw-lib build process,2017-02-21,Merged,221,1,0,,1
+Cli clean,2017-02-21,Merged,220,316,350,,1
+Fix a typo.,2017-02-21,Merged,219,1,1,,1
+Seperate: sw-build and sw-cli,2017-02-21,Merged,218,806,688,md json js ,12
+Dependencies,2017-02-17,Merged,216,3,4,,1
+Build manifest file,2017-02-16,Merged,214,345,93,,6
+Get file manifest entries,2017-02-15,Merged,213,252,19,eslintrc ,12
+sw-cache-expiration unit tests,2017-02-15,Merged,211,423,25,eslintrc ,6
+Generate-sw from node module,2017-02-15,Merged,209,500,317,,11
+Minor edits.,2017-02-14,Merged,208,1,1,,1
+requestWillFetch event,2017-02-13,Merged,204,13,1,,2
+"Rename ""[Bb]ehavior"" to ""[Pp]lugin""",2017-02-10,Merged,203,165,165,html eslintrc md css ,17
+Refactoring sw-cli - node module + CLI usage,2017-02-10,Merged,199,"1,063",757,js ,7
+Remove PrecacheManager from sw-precaching,2017-02-07,Merged,197,263,300,,7
+"Test harness template, along with migration of sw-broadcast-cache-upd…",2017-02-06,Merged,194,55,15,js hbs ,4
+Moves build-utils.js to build/utils.js,2017-02-03,Merged,193,15,15,,15
+Throwaway commit to trigger a PR build.,2017-02-01,Closed,192,1,1,,0
+Unit tests for sw-broadcast-cache-update,2017-02-03,Merged,190,422,9,eslintrc html ,10
+adding missing tests,2017-02-03,Merged,189,54,1,html ,3
+More sw-routing e2e tests,2017-01-27,Merged,188,203,18,html ,6
+Adding a default precaching route,2017-02-03,Merged,186,44,16,html ,8
+Updating sw-runtime docs,2017-01-27,Merged,185,128,54,,9
+Initial attempt at an e2e test for RegExpRoute,2017-01-27,Merged,184,87,39,js html ,11
+Adding Titles of Modules and sw-routing docs,2017-01-27,Merged,183,77,28,json js ,13
+Fetch and cache,2017-01-26,Merged,182,22,12,,4
+Sw lib docs,2017-01-26,Merged,181,224,111,,2
+Adding moar docs - this time for cachable-response-behavior,2017-01-26,Merged,180,39,28,,2
+Moves sw-precaching over to using requestWrapper,2017-01-26,Merged,177,101,11,js ,10
+Glob pattern,2017-01-24,Merged,176,34,6,json ,4
+Cache expiration docs,2017-01-24,Merged,175,65,35,,3
+Excludes build.js and 'test/' from exported modules.,2017-01-24,Merged,174,21,1,,5
+Updating broadcast-cache-update docs,2017-01-24,Merged,171,100,40,,5
+Making bgQueue compatible with higher level library,2017-01-27,Merged,170,71,21,,3
+Minor doc change,2017-01-23,Merged,165,105,"1,721",js json ,2
+Adding ability to define routes for precached assets,2017-01-21,Merged,163,331,32,json js html ,9
+Adding contribution guidelines,2017-01-19,Merged,162,75,0,,0
+Checks the freshness of a cached response before using it,2017-01-24,Merged,161,85,3,,4
+Address comment in #82 - update user of new versions,2017-01-18,Merged,160,5,1,js ,2
+Cli update notice.,2017-01-18,Closed,159,541,18,json js tmpl eslintrc ,8
+Add in same-origin check for ExpressRoute,2017-01-20,Merged,158,34,4,,3
+CLI - Generate sw,2017-01-25,Merged,157,594,36,json js tmpl eslintrc ,8
+Demos to Docs,2017-01-19,Closed,156,"23,438",229,md js eslintrc docs/demos/node_modules/sw-appcache-behavior/LICENSE ,4
+Fixes the stack issue with gulp-documentation,2017-01-17,Merged,154,14,14,,1
+JSDoc refresh for the sw-routing module,2017-01-14,Merged,153,344,63,js ,1
+Better JSDoc examples for sw-runtime-caching,2017-01-14,Merged,148,231,64,js ,7
+Missing dev deps,2017-01-13,Merged,144,3,1,,1
+Documentation dep bump,2017-01-13,Merged,140,1,1,,1
+Remove manifest,2017-01-17,Merged,130,119,24,,4
+Appveyor,2017-01-13,Merged,129,22,2,js ,3
+gulp-eslint fix,2017-01-12,Merged,128,3,1,,1
+Cache browser downloads,2017-01-12,Merged,127,1,0,,1
+sw-routing unit tests,2017-01-12,Merged,126,397,2,eslintrc html ,9
+Remove cacheName from sw-lib cachingStrategy.,2017-01-12,Merged,125,0,4,,1
+Infer cache name from cacheDidUpdate,2017-01-12,Merged,124,56,47,,2
+Sw lib strategies,2017-01-11,Merged,123,210,3,js ,6
+Use local documentation,2017-01-11,Merged,121,3,1,,1
+Manifest e2e,2017-01-11,Merged,117,127,11,jpg png html css ,10
+Moving lint and build into test dependencies.,2017-01-11,Merged,116,2,2,js ,2
+Clean up the parameters that are passed to the handler,2017-01-10,Merged,114,87,45,,6
+"Use the master, instead of the future-of-sw-tooling, branch",2017-01-09,Merged,112,1,1,,1
+Sw lib caching strategies,2017-01-10,Merged,108,164,40,json js ,5
+Add file manifest creation.,2017-01-09,Merged,106,680,27,js tmpl ,5
+Adds a waitOnCache parameter to fetchAndCache(),2017-01-06,Merged,105,18,10,,2
+hooking up warm runtime to swlib,2017-01-06,Merged,104,274,38,html ,9
+Bumping idb dep version,2017-01-05,Merged,103,34,34,js json ,7
+Adding Manifest Name and SW Name Questions,2017-01-05,Merged,102,353,23,,3
+Docs for sw-precaching.,2017-01-05,Merged,101,907,217,md js ,4
+Adding test for redirects in sw-precaching,2017-01-05,Merged,96,104,5,,7
+Explicitly set `redirect: follow` when precaching,2017-01-03,Merged,95,1,0,,1
+Adding tests for file extension selection,2017-01-05,Merged,94,400,10,,3
+Adding more tests,2017-01-18,Merged,92,905,196,js ,1
+Warm runtime,2017-01-04,Merged,91,983,502,txt ,8
+sw-cacheable-response-behavior implementation,2016-12-19,Merged,90,465,30,eslintrc js css html json ,7
+Adding root dir question to cli,2016-12-15,Merged,89,365,63,js ,7
+Refactor the build process; build minified + non-minified libraries,2016-12-15,Merged,87,298,493,json ,5
+CLI - What is the root directory or your web app?,2016-12-15,Closed,86,934,328,html js ,7
+Precaching Rejig,2016-12-15,Merged,85,"1,390",700,md js json ,5
+Adding matrix to travis,2016-12-09,Merged,84,121,13,md js hbs ,6
+Extending tests for precaching module to ensure different scenarios a…,2016-12-09,Closed,83,219,23,,9
+Adding the start of a CLI tool. No logic at the moment,2016-12-09,Merged,81,470,0,js json txt ,8
+sw-lib precache,2016-12-06,Merged,80,415,68,,7
+goog.cacheExpiration.Behavior code,2016-12-02,Merged,77,358,197,md txt css html ,6
+Sw precaching,2016-12-02,Merged,76,"1,366",292,,6
+Standardize the naming of the build output.,2016-11-22,Merged,75,15,15,,5
+Higher Level Library - Early Commit,2016-11-23,Merged,74,752,12,json eslintrc ,13
+sw-background-sync-queue,2016-12-05,Merged,72,996,0,eslintrc md js html json ,11
+The Future is Now,2016-11-18,Merged,71,"4,543","1,012",eslintrc gitignore ruby-version yml Gemfile lock LICENSE-HEADER md ,8
+Tests,2016-11-18,Merged,70,22,10,,2
+Adding back in in the analytics suite,2016-11-18,Merged,69,980,2,json npmignore md js html ,8
+Moved over to newer JS build process,2016-11-16,Merged,68,"1,499",56,conf eslintrc md html appcache css ,17
+sw-background-queue review,2016-11-18,Closed,67,533,0,eslintrc md js html json ,11
+changing gulp serve directory,2016-11-14,Merged,66,2,2,,1
+Lerna,2016-11-07,Merged,65,127,"2,509",md js json eslintrc html txt ,24
+Lerna,2016-11-07,Closed,64,"3,058","2,416",eslintrc gitignore ruby-version yml Gemfile LICENSE-HEADER md js ,11
+Jsdocs,2016-11-07,Merged,63,284,48,Gemfile yml md conf json js ,15
+"Removes predicates, adds ExpressRoute",2016-11-03,Merged,62,63,44,js ,5
+JSDoc for the sw-broadcast-cache-update project.,2016-11-01,Merged,60,331,70,md js ,4
+Latest syntax/interface updates,2016-10-28,Merged,58,316,167,js md html txt json ,19
+Cleaner build,2016-10-25,Merged,57,549,411,js eslintrc ,7
+Lint update,2016-10-24,Merged,56,303,254,gitignore json js ,6
+Changing minification for babili,2016-10-24,Merged,55,69,44,json js ,3
+Minify take 2 (DO NOT MERGE YET),2016-10-23,Closed,54,"2,463",277,eslintrc yml js ,7
+Minify,2016-10-20,Merged,53,41,10,js ,3
+Gulp clean,2016-10-19,Merged,49,323,236,js json ,4
+Docs,2016-10-18,Merged,46,156,72,js json ,18
+package.json dependency version bumps,2016-09-26,Merged,45,21,18,js ,3
+Add hitFilter option and better support module loaders,2016-08-22,Merged,39,243,133,js ,5
+Moves to sw-testing-helpers 0.1.1,2016-09-08,Merged,38,64,67,json ,4
+Removes another stray console.log(),2016-08-08,Merged,37,0,1,,1
+Fixes the test of the qt= parameter.,2016-08-05,Merged,36,14,5,js ,3
+Fix the qt param to use offset time,2016-08-05,Merged,34,5,4,,1
+Removes a debugging statement,2016-07-26,Merged,32,0,1,,1
+"Use the new shared libs, and rename to goog.appCacheBehavior.fetch",2016-08-05,Merged,29,504,615,js json ,2
+sw-offline-google-analytics initial release,2016-07-21,Merged,27,974,6,js json ,7
+gulpfile updates,2016-07-12,Merged,25,11,11,json ,2
+Cache bust manifest request when the response is > 24 hours old.,2016-07-18,Merged,21,31,2,json js ,2
+Tweaks to produce a functional NPM project page.,2016-06-10,Merged,14,15,7,md json hbs ,3
+Automation of generating project docs and demos.,2016-05-18,Merged,13,192,47,js json hbs ,5
+Basic Issue and PR templates,2016-05-17,Merged,10,17,0,,0
+Initial Travis CI config,2016-05-17,Merged,9,31,0,yml ,2
+Some top-level docs,2016-05-17,Merged,7,212,4,js json hbs ,4
+Initial checkin of the monorepo structure + sw-appcache-behavior,2016-05-16,Merged,1,"1,649",1,eslintrc gitignore md js json html appcache css ,13

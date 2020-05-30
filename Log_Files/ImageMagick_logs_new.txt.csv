@@ -1,0 +1,217 @@
+Fix word repetition in local.md,2020-01-12,Merged,1827,1,1,,0
+Fix the format string,2019-12-28,Merged,1818,1,1,,1
+Fix bugs (ping/dispose_method/position) in webp coder,2019-12-21,Merged,1810,73,20,,1
+"Make integer types consistent -- on 32-bit MagickOffsetType is still 64-bits wide, but ssize_t isn't",2019-11-24,Merged,1788,1,1,,1
+Rewrite conditional to avoid the possibility of integer overflow,2019-11-17,Merged,1782,1,1,,1
+Attempt to fix types in webp decoder to protect against overflow,2019-11-04,Merged,1773,2,2,,1
+Add OSS-Fuzz fuzzing badge,2019-10-15,Closed,1728,1,1,,0
+fixed a syntax error,2019-09-30,Merged,1709,1,1,,1
+Animated WebP encoding/decoding,2019-09-30,Closed,1708,406,187,,0
+Don't link the fuzzing engine while compiling encoder_list,2019-09-29,Merged,1707,5,3,,3
+Don't build libheif's go code for the fuzzers -- it doesn't play well…,2019-09-29,Merged,1706,1,1,,1
+Update the way the fuzzing engine is linked for changes in oss-fuzz,2019-09-29,Merged,1705,1,1,,1
+Added support for DWAA/B EXR compression methods,2019-08-08,Merged,1661,23,1,c ,4
+Attempt to fix oss-fuzz build by linking libz after libraw,2019-08-06,Merged,1658,1,1,,1
+"set default colorspace, fixes #1655",2019-08-03,Merged,1656,1,1,,1
+Use specific version of MagickCore in MagickWand.pc (closes #1637),2019-07-16,Merged,1638,1,1,,1
+fix line through z-index issue,2019-07-09,Merged,1630,6,8,,1
+"fix font decorate position, thickness issue",2019-06-29,Merged,1619,33,20,,1
+"Add log format special char %i (thread-id) to ""human readable"" mode",2019-05-31,Merged,1583,6,0,,1
+Correct spelling and remove needless character,2019-05-30,Merged,1582,3,3,ac ,2
+Implementation of a TIM2 coder,2019-07-13,Merged,1571,794,1,com am ,5
+Fix rubber banding artifacts in the XSelectWindow function. #1460,2019-04-29,Merged,1563,2,0,,1
+Added MagickLevelizeImage to MagickWand C-API,2019-04-15,Merged,1545,50,0,h ,2
+initialise ghostscript instances with NULL,2019-04-06,Closed,1538,2,2,,2
+Fix: check file fopen_utf8(),2019-04-06,Merged,1536,3,2,,1
+Honour SOURCE_DATE_EPOCH,2019-04-15,Closed,1496,117,37,h ,11
+fit the coding style around. (bmp),2019-02-13,Merged,1480,17,18,,1
+"change from WEBP_DECODER_ABI_VERSION to WEBP_ENCODER_ABI_VERSION, because we need encoder feature switch.",2019-02-10,Merged,1476,9,9,,1
+support to read BMP embeded ICC profile.,2019-02-09,Merged,1474,48,2,,1
+supporting to ICC profile embeded BMP writing.,2019-02-03,Closed,1467,32,3,,1
+add exif and xmp metadata support to heic encoder,2019-01-19,Merged,1456,167,0,,1
+Typo and broken link,2019-01-12,Merged,1447,4,4,,0
+Fix wrong heic width and height when heic:preserve-orientation=true,2019-01-08,Closed,1441,11,14,,1
+ignore_transformations when `heic:preserve-orientation=true`,2019-01-03,Merged,1436,15,66,,1
+Fix associated alpha handling,2018-12-17,Merged,1424,1,1,,1
+Fix heic exif extraction bug where we are seeing 4 unwanted bytes before EXIF magic number,2018-11-27,Closed,1397,9,1,,1
+Support for GIMP 2.10 files,2018-11-13,Merged,1381,154,53,,1
+Add missing `$` to MAGICK_EXTRA_DEP_LIBS,2018-10-29,Merged,1371,2,2,ac ,2
+"Revert ""cleanup identical conditions (#1339)""",2018-11-08,Closed,1359,42,30,,5
+delegates.xml: added missing quality flag for WebP encode,2018-10-17,Merged,1355,2,2,xml ,2
+TIFF decoder: fix ASsoc/Disassoc setting mismatch,2018-10-12,Merged,1349,6,3,,1
+"Revert ""cleanup identical conditions""",2018-10-07,Merged,1340,42,30,,5
+cleanup identical conditions,2018-10-07,Merged,1339,30,42,,5
+add EXIF 2.31 Tags,2018-10-06,Merged,1338,37,11,,1
+MagickCore/layer.c: resolve null pointer dereference,2018-10-06,Closed,1329,2,1,,1
+Magick++/lib/Options.cpp: remove redundant assignment,2018-10-06,Merged,1328,6,25,,1
+MagickCore/property.c: resolve null pointer dereference,2018-09-22,Closed,1326,1,1,,1
+MagickCore/fx.c: resolve possible null pointer dereference,2018-09-21,Closed,1325,1,0,,1
+"simplify boolean expression, found by PVS analyzer",2018-09-22,Merged,1318,2,3,,2
+MagickCore/fx.c: revolve null pointer dereference,2018-09-16,Closed,1317,3,2,,1
+MagickWand/operation.c: resolve possible null pointer dereference,2018-09-16,Closed,1316,2,1,,1
+MagickCore/attribute.c: remove redundant check,2018-09-15,Merged,1313,1,2,,1
+coders/xpm.c: remove unused check,2018-09-14,Merged,1312,1,4,,1
+MagickCore/pixel-accessor.h: resolve null pointer dereference,2018-09-14,Merged,1311,20,20,,1
+coders/pgx.c: remove unused code,2018-09-14,Merged,1308,0,2,,1
+coders/cut.c: remove unused code,2018-09-12,Merged,1304,1,5,,1
+MagickCore/annotate.c: remove unneeded check,2018-09-12,Merged,1303,1,1,,1
+coders/cut.c: remove unused code,2018-09-10,Merged,1299,0,2,,1
+Add R's magick package to the list,2018-09-04,Merged,1294,1,1,,0
+MagickCore/xwindow.c: remove not needed check,2018-09-08,Merged,1292,8,11,,1
+MagickCore/montage.c: resolve null pointer dereference,2018-09-02,Closed,1291,2,2,,1
+travis-ci: supress build log if build was successful,2019-08-11,Closed,1290,2,3,,1
+MagickWand/drawing-wand.c: resolve several null pointer dereferences,2018-09-02,Merged,1289,3,3,,1
+remove redundant assignments,2018-09-02,Closed,1288,0,0,,0
+MagickCore/draw.c: check against null is not needed here,2018-09-01,Merged,1287,0,2,,1
+resolve several null pointer dereferences,2018-08-30,Merged,1284,9,12,,5
+MagickCore/constitute.c: resolve possible null pointer dereference,2018-08-30,Merged,1282,1,1,,1
+use the gcc_archflag for $CXXFLAGS,2019-08-11,Closed,1278,7,1,configure ac ,3
+"travis: test on ppc64le, gcc-8 and a few more library dependencies",2019-08-11,Closed,1271,120,67,in configure m4 ,4
+Make png creation reproducible,2018-08-31,Closed,1270,9,6,,1
+Fix compiler warning about unused variable,2018-09-15,Closed,1254,4,0,,1
+Fix compiler warning about unused function.,2018-08-28,Merged,1253,2,0,,1
+Fix compiler warning about unused variable,2018-08-19,Closed,1252,0,6,,1
+Update ChangeLog,2018-08-13,Merged,1246,1,1,,1
+fix WriteHEICImage bug in HEIC encoder,2018-08-07,Merged,1238,0,3,,1
+Align pixel orientation with exif:Orientation in HEIC decoder,2018-09-03,Merged,1233,68,0,,1
+"adding to image option ""gif:frames-limit""",2018-07-11,Closed,1181,24,0,,1
+[DO NOT MERGE YET] Add More Pixel Art Upscaling Algorithms,2019-07-13,Merged,1152,792,78,,0
+Fix pdf:page-direction flag,2018-05-26,Merged,1142,1,1,,1
+Properly set the compressed data size when encoding JPEG compressed PICT files,2018-05-26,Merged,1137,3,2,,1
+XML delegate conditional automatic link for static library,2018-05-14,Merged,1130,6,2,,1
+Fixed building fuzzers,2018-05-11,Merged,1129,1,1,,1
+Fixed memory leak in heif,2018-04-27,Merged,1115,4,1,,1
+build against libheif,2018-04-27,Merged,1114,9,1,,1
+fix oss-fuzz build with libtiff,2018-04-23,Merged,1106,3,2,,1
+reorder build to make tiff happy,2018-04-23,Closed,1103,14,14,,1
+"Add support for dicts for fuzzers, and added a dict for mvg",2018-04-22,Merged,1102,151,0,dict ,2
+added HEIF writer and replaced HEIF reader with a more complete HEIF implementation,2018-04-27,Merged,1099,466,"1,203",,1
+add lcms to the delegate list for oss-fuzz,2018-04-16,Merged,1094,9,1,,1
+add libpng to oss-fuzz + make libtiff use more libs,2018-04-08,Merged,1087,15,5,cc ,2
+Fixed memory leak in ReadJP2Image.,2018-04-05,Merged,1086,4,1,,1
+Update AppRun,2018-04-02,Merged,1081,1,1,,1
+Update AppRun for AppImage (fixes warnings about 'UnableToOpenConfigureFile'),2018-04-02,Merged,1079,6,3,,1
+"add xz and libraw, change build process for freetype",2018-04-02,Merged,1078,19,5,,1
+temporarily remove bzip2 from the oss-fuzz builds,2018-03-31,Merged,1077,1,10,,1
+use the --with-utilities=no flag with oss-fuzz,2018-03-31,Merged,1076,1,1,,1
+add configure support for disabling utilities with --with-utilities=no,2018-03-31,Merged,1075,20,3,am ,2
+"add openjp2, webp, zlib, bzip2, freetype, and libjpeg-turbo to the delegate list for oss-fuzz",2018-03-30,Merged,1057,50,1,,1
+temporary workaround to fix ubsan oss-fuzz,2018-03-30,Merged,1056,1,1,,1
+add libtiff and libde265 to the oss-fuzz build scripts,2018-03-23,Merged,1033,20,3,,1
+close stdout/stderr on the fuzzers to reduce noise in oss-fuzz logs,2018-02-25,Merged,1002,4,1,,1
+"Revert ""Revert ""Fix previous image references in OptimizeImageLayers …",2018-02-22,Merged,993,3,6,,1
+Assert image page dimension in OptimizeLayerFrames,2018-02-19,Merged,990,8,4,xml ,2
+Fix undefined behavior when calling isdigit in property.c,2018-02-18,Merged,989,1,1,,1
+Fix undefined behavior when calling isdigit,2018-02-18,Merged,988,1,1,,1
+Do not refer to page in OptimizeLayerFrames,2018-02-19,Merged,987,7,8,,1
+Fixed bit operations for flags.,2018-02-16,Closed,986,4,4,,1
+"Revert ""Fix previous image references in OptimizeImageLayers""",2018-02-13,Merged,984,6,3,,1
+Fix previous image references in OptimizeImageLayers,2018-02-13,Merged,983,3,6,,1
+Backport JSON fix to v6 branch,2018-02-09,Merged,981,1,1,,1
+Fix originGeometry JSON value generation,2018-02-09,Merged,980,1,1,,1
+Fixed AVCC to AnnexB conversion in HEIC,2018-02-08,Merged,969,12,5,,1
+Apply a missing fix for DSA-4074-1,2018-01-31,Merged,965,1,0,,1
+Ensure we initialize a string correctly,2018-01-29,Merged,963,1,1,,1
+add attribute to get in perl doc,2018-01-30,Merged,959,6,0,,1
+Handle the null encoder properly in the encoder fuzz,2018-01-19,Merged,951,10,3,,1
+build the fuzzers in travis,2018-01-16,Merged,946,68,17,sh cc ,8
+Fixes for the encoder fuzzer so it runs properly,2018-01-14,Merged,943,4,3,,1
+fix memory leaks,2018-01-11,Merged,940,2,0,,1
+Fuzzing fix: make this constructor public so others can use it,2018-01-10,Merged,938,1,0,,1
+[fuzz] Use a static initializer to set the memory limit so it only happens once per process,2018-01-10,Merged,936,28,4,,6
+add fuzzers from oss-fuzz,2018-01-08,Merged,934,121,0,,6
+"Revert ""Find ImageMagick modules by native shared library suffix""",2017-12-16,Closed,900,3,4,ac ,2
+Find ImageMagick modules by native shared library suffix,2017-12-16,Merged,895,4,3,ac ,2
+fix ; same variable i is used in nexted loop,2017-11-17,Merged,866,3,2,,2
+Generate AppImage on Travis CI,2017-11-12,Merged,858,57,8,AppRun desktop ,3
+Fix iOS URL,2017-10-28,Merged,847,1,1,,0
+Added missing comma to data json for delay key,2017-10-12,Merged,836,1,1,,1
+Reset magick_list_initialized when needed,2017-10-03,Merged,827,4,1,,1
+Reset magick_list_initialized when needed,2017-10-03,Merged,826,4,1,,1
+Fix RFG > RGF typo in format docs,2017-10-01,Closed,822,2,2,,2
+fix multiple null pointer,2017-09-29,Merged,788,26,0,,7
+fix multiple null pointer,2017-09-28,Merged,787,14,0,,7
+[fonts] Update font paths & names for (URW)++ fonts (a.k.a. ghostscript fonts),2017-10-02,Closed,784,38,38,configure ac ,3
+Vitaly/orn 253,2017-09-19,Closed,769,"22,549",84,xcconfig ,6
+fix memory leak,2017-09-16,Merged,763,141,26,,13
+fix memory leak in tim.c,2017-09-15,Closed,762,4,1,,1
+fix multiple memory leak in ReadTIMImage,2017-09-15,Closed,757,10,2,,2
+fix multiple memory leak in ReadYUVImage,2017-09-14,Merged,756,12,2,,1
+fix multiple memory leak in ReadYUVImage,2017-09-14,Closed,755,12,2,,1
+fix multiple memory leak in ReadYUVImage,2017-09-14,Closed,754,91,20,,2
+fix memory leak in ReadYCBCRImage as SetImageExtent failure,2017-09-13,Merged,752,4,0,,1
+bugfix: (thread-safty) the id would be changed before it is returned.,2017-09-13,Merged,751,4,3,,1
+bugfix: (thread-safty) the id would be changed before it is returned.,2017-09-13,Merged,750,4,3,,1
+Add .gitattributes file,2018-05-19,Closed,749,6,0,,1
+Clarify import documentation,2017-09-05,Merged,732,8,5,c in 1 ,5
+add link to R bindings,2017-08-28,Closed,700,6,2,,3
+Fix to the grammatical error,2017-08-20,Closed,686,3,3,,1
+bug fix about word-spacing,2017-08-18,Merged,681,2,2,,1
+./coders/bmp.c:1723 says it is bmp3:alpha,2017-07-30,Closed,635,2,2,,1
+coders/mat.c: fix build failure due to incomplete #624 patch,2017-07-29,Closed,627,5,1,,1
+fix gif loop iterations,2017-07-29,Closed,622,5,1,,1
+Fix underlinking in DNG module,2017-07-26,Closed,607,1,1,,1
+Fix a typo,2017-07-26,Closed,605,1,1,,1
+Add ';',2017-06-24,Merged,521,1,1,,1
+Link zlib (-lz) in delegates tests.,2017-06-24,Closed,516,1,0,,1
+changelog notes for pr485,2017-05-11,Merged,486,4,0,,1
+revise dcm rescale and window handling,2017-05-11,Merged,485,77,38,c ,2
+add dcm:window option,2017-05-10,Merged,484,22,5,,1
+make DICOM read work for fractional rescale,2017-05-09,Merged,483,58,36,,1
+Fixed missing absolute value,2017-05-07,Merged,480,3,3,,1
+fix DICOM read with fractional slope,2017-05-09,Closed,477,5,29,,1
+fix several typos/pastos in ChangeLog,2017-03-30,Closed,413,4,13,,1
+status is unused,2017-02-28,Merged,390,1,2,,1
+fix fd leak for webp coder,2017-02-18,Closed,382,1,0,,1
+png.c: unbreak build without JPEG support,2017-02-07,Closed,373,0,2,,1
+Fix variable reuse confusion in WriteTGAImage causing assertion failure,2017-01-20,Closed,359,5,3,,1
+Fix compile warning bug for deprecated register,2017-01-20,Closed,358,3,0,,1
+Stop overwriting index.html with copy from root directory,2016-12-30,Closed,339,0,4,in ,2
+Stop overwriting index.html with copy from root directory,2016-12-28,Closed,338,0,0,,0
+Fix #313,2016-12-03,Closed,315,129,131,,1
+Fix bug with missing return,2016-12-03,Merged,314,1,0,,1
+fix url missing hyphen,2016-12-03,Closed,311,3,3,,1
+don't set TIFFTAG_ROWSPERSTRIP when writing tiled TIFF,2016-09-15,Closed,266,15,10,,1
+Fix text wrapping bug,2016-08-30,Merged,260,1,1,,1
+Fix misaligned bits when writing .rfg,2016-07-23,Closed,238,3,0,,1
+Fix misaligned bits when writing .rfg,2016-07-23,Closed,237,3,0,,1
+Fixes for mingw-w64,2016-07-17,Closed,231,3,3,h ,2
+Fix abort when writing to rgf format,2016-06-19,Closed,223,6,8,,1
+"fix cache time limit, fix #217",2016-06-13,Closed,219,2,2,,1
+Fix typo s/width/height/ in resource.c (master branch),2016-05-14,Closed,200,3,3,,1
+Fix typo s/width/height/ in resource.c (ImageMagick-6 branch),2016-05-14,Closed,199,1,1,,1
+typo,2016-05-05,Closed,187,1,1,,1
+add read/write support for FLIF [in ImageMagick-6],2016-04-26,Closed,175,"1,209","2,653",m4 am ,3
+add read/write support for FLIF,2016-04-26,Closed,174,580,2,h am ,5
+Fix multiple DDS output issues [port to ImageMagick-6],2016-04-25,Closed,168,36,29,,1
+"Fix json output of ""clipping path"".",2016-03-13,Closed,150,3,3,,1
+unlink temporary files after creation,2016-03-12,Closed,140,1,0,,1
+Fix multiple DDS output issues.,2016-04-21,Closed,137,43,32,,1
+Backport complex text layout from master,2016-02-14,Closed,116,188,36,ac c h ,6
+Fix cluster value in fallback code,2016-02-14,Closed,115,7,3,,1
+Merge pull request #1 from ImageMagick/master,2016-01-30,Closed,114,0,0,,0
+"Add complex text support, take two",2016-02-01,Closed,88,178,25,c h ac ,7
+Write correct pitch and channel bitmasks for uncompressed DDS images.,2016-01-19,Closed,87,17,7,,1
+remove exec perm on source files,2016-01-18,Merged,86,0,0,h ,8
+remove exec perm on source files,2016-01-18,Closed,85,0,0,h ,4
+Resource leak in AcquireVirtualMemory,2016-01-07,Closed,75,35,34,,1
+Enabling OpenCL functions,2016-02-12,Closed,73,92,8,h c ,9
+OpenCL functions enabled,2016-01-04,Closed,72,98,19,h c ,8
+Fix kerning in fallback text layout,2015-12-31,Closed,70,6,9,,1
+Add complex text support,2015-12-31,Closed,69,972,25,am c ,3
+Fix build when fchmod is missing,2015-11-18,Closed,56,4,0,,2
+(IM7) Fixed TR/TD placement in MVG docs,2015-11-16,Closed,50,5,5,,1
+(IM6) Fixed TR/TD placement in MVG docs,2015-11-16,Closed,49,5,5,,1
+Corrected type for ExportLongPixel to use long.,2015-09-27,Closed,42,2,2,,1
+Improved documentation.,2015-09-25,Closed,39,9,8,,1
+Add Manhattan interpolate option for sparse color method (IM-7),2015-09-25,Merged,37,41,1,c html ,5
+Add Manhattan interpolate option for sparse color method (IM-6),2015-09-25,Merged,36,34,1,c html ,5
+Prevent null pointer access.,2015-09-28,Closed,34,7,3,,1
+typo in doc,2015-07-31,Closed,21,1,1,,0
+Rewrite MagickCore-config.1 man page with propper man macro's.,2015-07-23,Closed,20,63,61,,1
+Correct install location of the Magick++ headers.,2015-07-12,Closed,17,1,1,,1
+First pass at fully escaping all string output in json.c,2015-06-27,Closed,14,310,73,,0
+Add function getHdriEnabled,2015-06-13,Closed,9,31,1,h ,2
+Remove generated files from IM7,2015-06-11,Closed,8,0,197,pm PerlMagick/quantum/typemap ,3
+Remove files built by build process.,2015-06-06,Closed,2,0,"2,041",,1
+Added Travis file to allow CI building on Github.,2015-06-06,Closed,1,18,0,,1

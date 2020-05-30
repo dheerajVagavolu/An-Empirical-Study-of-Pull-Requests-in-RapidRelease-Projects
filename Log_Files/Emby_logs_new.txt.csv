@@ -1,0 +1,2069 @@
+Fix german translation for 'remember me',2018-08-14,Closed,3404,2,2,,1
+improve database queries,2018-07-21,Merged,3375,560,713,config cs ,19
+Modified isConnectMode check,2018-09-12,Closed,3374,1,1,,0
+Beta,2018-07-17,Merged,3366,"2,713,529","119,088",config targets cs ,7
+3.5,2018-07-17,Merged,3365,148,148,config cs ,20
+fix device naming,2018-07-16,Merged,3363,456,390,config cs ,17
+update sqlite packages,2018-07-15,Merged,3361,34,18,config nupkg dll ,46
+add debug logging to images endpoint,2018-07-15,Merged,3360,201,194,config cs ,18
+prevent collection grouping on search requests,2018-07-13,Merged,3359,354,387,config ,16
+fix empty seasons in dlna,2018-07-12,Merged,3358,124,121,config cs ,20
+Dev,2018-07-11,Merged,3357,"2,265",510,config cs ,18
+Bugfix: Incorrect use of DateTime.ToUniversalTime() results in incorrect dates returned by metadata providers,2019-01-12,Closed,3355,56,13,,11
+fix playAllFromHere with large lists,2018-07-10,Merged,3354,"1,970",127,config cs json ,23
+fix placeholder query,2018-07-09,Merged,3353,98,53,css html js ,8
+Dev,2018-07-08,Merged,3352,482,737,config cs json ,21
+Dev,2018-07-06,Merged,3351,888,897,config cs ,21
+Dev,2018-07-05,Merged,3347,"105,917","3,500",config cs ,14
+Dev,2018-06-29,Merged,3345,773,704,config cs xml ,22
+update nuget,2018-06-27,Merged,3344,85,85,config ,22
+update live tv queries,2018-06-27,Merged,3343,242,174,,4
+Dev,2018-06-25,Merged,3341,489,325,css js ,8
+Dev,2018-06-24,Merged,3338,374,666,config cs ,16
+Dev,2018-06-23,Merged,3335,269,140,config cs ,23
+rework storage of extras,2018-06-21,Merged,3332,"2,674","4,746",config cs ,15
+Dev,2018-06-18,Merged,3330,160,119,js ,10
+rework width/height properties,2018-06-15,Merged,3328,380,326,config cs ,21
+consolidate chapter objects,2018-06-14,Merged,3322,567,715,config cs ,19
+3.4.1.14,2018-06-10,Merged,3316,554,627,config cs ,10
+Dev,2018-06-08,Merged,3315,492,604,config cs ,19
+add missing files,2018-06-07,Merged,3313,"149,284",0,dll ,114
+Dev,2018-06-07,Merged,3312,"2,361,620",290,config cs xml ,18
+Dev,2018-06-04,Merged,3311,773,795,config cs ,10
+update nuget,2018-05-30,Merged,3304,"28,503","19,324",config nupkg ,12
+Dev,2018-05-30,Merged,3303,"21,970",205,config cs ,23
+Dev,2018-05-27,Merged,3296,565,"51,973",config targets cs ,27
+update live stream management,2018-05-24,Merged,3287,273,327,csproj ,4
+Dev,2018-05-23,Merged,3285,485,616,csproj ,6
+fix epg search + image generation,2018-05-18,Merged,3278,387,326,,7
+Dev,2018-05-15,Merged,3274,"2,807","2,519",,5
+update boxset queries,2018-05-07,Merged,3265,63,46,css ,8
+update boxset visibility,2018-05-06,Merged,3264,271,121,,10
+Dev,2018-05-05,Merged,3263,196,108,cs ,6
+add dedicated activity page,2018-05-04,Merged,3258,585,374,,5
+update HttpConnection,2018-05-02,Merged,3257,9,1,,1
+Beta,2018-05-02,Merged,3256,"15,088","13,637",Docker/LICENSE md sh cs ,8
+3.4,2018-05-02,Merged,3255,"1,302","1,590",,22
+fix build,2018-04-29,Merged,3253,5,5,,1
+move opensubtitles to preinstalled plugin,2018-04-29,Merged,3252,178,233,js json ,7
+update image refresh,2018-04-28,Merged,3251,786,118,json ,8
+update library options,2018-04-28,Merged,3250,663,542,,1
+update library options,2018-04-26,Merged,3248,229,144,json ,10
+live tv recording fixes,2018-04-24,Merged,3244,68,191,csproj html ,13
+move subdb to plugin,2018-04-23,Merged,3243,221,276,,9
+update translations,2018-04-22,Merged,3242,"1,472","2,286",,18
+update title on video osd,2018-04-19,Merged,3240,551,279,json csproj ,10
+update xml parser,2018-04-17,Merged,3239,1,1,,1
+Dev,2018-04-17,Merged,3238,832,"1,099",csproj ,8
+Dev,2018-04-15,Merged,3237,730,"1,222",csproj ,14
+remove links to installer,2018-04-13,Merged,3236,0,16,csproj ,3
+Dev,2018-04-13,Merged,3235,370,884,Docker/LICENSE md sh ,3
+Dev,2018-04-09,Merged,3231,549,244,csproj ,9
+Dev,2018-04-07,Merged,3228,798,"1,240",csproj ,12
+Addressed performance issue when dealing with large EPGs.,2018-05-01,Closed,3227,84,23,csproj ,5
+Dev,2018-04-02,Merged,3224,"1,108","1,323",xml ,17
+nvenc to respect hardware encoding.,2018-04-04,Merged,3219,34,2,,1
+Nvenc patch to respect hardware encoding settings,2018-03-30,Closed,3218,33,2,,1
+adopt linux log rotation,2018-03-29,Merged,3215,137,119,csproj ,10
+Dev,2018-03-27,Merged,3213,234,256,,6
+support wmc episode naming conventions,2018-03-26,Merged,3211,287,405,csproj ,12
+Dev,2018-03-25,Merged,3210,783,756,js css ,6
+Dev,2018-03-22,Merged,3208,929,532,json ,10
+Dev,2018-03-18,Merged,3206,961,764,csproj config ,21
+Fix for Intel Quicksync to respect h.264 encoding settings,2018-03-18,Merged,3203,13,2,,1
+Fix for Intel Quicksync to respect h.264 encoding settings,2018-03-16,Closed,3202,48,14,cs js ,5
+Dev,2018-03-13,Merged,3201,232,146,,9
+Dev,2018-03-10,Merged,3198,"2,897",144,cs ,4
+support relative paths in playlists,2018-03-08,Merged,3197,235,490,,11
+Dev,2018-03-06,Merged,3194,540,190,csproj ,12
+Fix for Intel Quicksync to respect h.264 encoding settings,2018-03-15,Closed,3193,13,2,,1
+Dev,2018-03-04,Merged,3189,303,101,txt ,13
+binary reader for finding file types of images,2018-03-18,Closed,3187,39,20,,2
+Dev,2018-03-02,Merged,3186,573,121,,12
++ workaround for tvheadend channel icons,2018-03-02,Merged,3185,9,0,,1
+add wake methods,2018-03-01,Merged,3184,12,2,,2
+support shuffle on photo albums,2018-03-01,Merged,3183,354,333,,19
+Dev,2018-02-27,Merged,3180,57,17,ttf css js ,11
+move metadata reader settings to per-library,2018-02-25,Merged,3177,160,52,csproj ttf ,10
+move metadata saver settings to per library,2018-02-25,Merged,3174,639,"1,632",csproj ,9
+Beta,2018-02-23,Merged,3172,"6,252","6,617",,3
+Dev,2018-02-23,Merged,3171,8,48,js html ,6
+fix music transcoding not respecting requested bitrate,2018-02-22,Merged,3170,142,110,xml ,26
+Dev,2018-02-20,Merged,3169,465,718,,8
+Dev,2018-02-18,Merged,3168,310,426,xml ,16
+Dev,2018-02-16,Merged,3164,109,90,,13
+Dev,2018-02-15,Merged,3162,449,522,csproj json ,7
+Dev,2018-02-13,Merged,3160,432,914,,2
+Dev,2018-02-09,Merged,3158,"1,066",212,css ,6
+Dev,2018-02-06,Merged,3157,408,979,csproj ,4
+Dev,2018-02-04,Merged,3155,273,164,,6
+Dev,2018-02-02,Merged,3152,408,350,json ,18
+Dev,2018-02-02,Merged,3151,106,66,js ,18
+Dev,2018-02-01,Merged,3149,557,718,,3
+Dev,2018-01-30,Merged,3148,567,114,csproj ,12
+3.2.70.5,2018-01-28,Merged,3143,1,1,dll ,5
+Dev,2018-01-28,Merged,3142,"1,025","1,560",,4
+Dev,2018-01-24,Merged,3140,615,425,,10
+Dev,2018-01-20,Merged,3136,472,361,xml ,6
+3.2.70.1,2018-01-17,Merged,3130,1,1,,1
+Beta,2018-01-17,Merged,3129,245,229,cs html js ,10
+Dev,2018-01-17,Merged,3128,245,229,cs html js ,10
+Update CONTRIBUTORS.md,2018-01-15,Merged,3126,2,2,,0
+Beta,2018-01-14,Merged,3125,1,1,,1
+fix task,2018-01-14,Merged,3124,1,1,,1
+Beta,2018-01-14,Merged,3123,"5,298","5,136",,15
+Dev,2018-01-14,Merged,3122,"5,184","5,101",css js ,10
+Dev,2018-01-12,Merged,3121,120,41,js ,14
+Beta,2018-01-11,Merged,3118,"8,864","11,760",cs ,2
+Dev,2018-01-11,Merged,3117,"4,984","4,958",,15
+Dev,2018-01-09,Merged,3114,37,"1,039",csproj ,6
+Dev,2018-01-08,Merged,3113,107,54,dll ,11
+3.2.60.10,2018-01-07,Merged,3112,3,3,,3
+Dev,2018-01-05,Merged,3111,282,282,xml json ,31
+Dev,2018-01-03,Merged,3109,12,10,js json ,9
+fix task,2018-01-01,Merged,3105,1,1,,1
+3.2.60.7,2018-01-01,Merged,3104,101,94,,3
+fix task,2017-12-31,Merged,3102,1,1,,1
+Dev,2017-12-31,Merged,3101,"1,854","1,920",,1
+Adding Error Logging,2018-05-02,Closed,3099,10,1,,1
+3.2.60.5,2017-12-28,Merged,3098,56,45,,5
+Dev,2017-12-28,Merged,3097,87,506,cs ,3
+Dev,2017-12-26,Merged,3094,"1,146","1,654",,8
+Dev,2017-12-23,Merged,3093,30,155,csproj js ,8
+update solution,2017-12-21,Merged,3092,0,2,,1
+Dev,2017-12-21,Merged,3091,263,"1,136",js ,7
+Beta,2017-12-20,Merged,3089,711,"2,348",csproj ,13
+Dev,2017-12-20,Merged,3088,244,"1,426",json cs csproj ,11
+Dev,2017-12-19,Merged,3085,484,939,csproj ,13
+Beta,2017-12-18,Merged,3084,0,690,txt psm1 ps1 ,5
+remove unused files,2017-12-18,Merged,3083,0,690,txt psm1 ps1 ,5
+Beta,2017-12-18,Merged,3082,"1,971","25,542",cs xml ,7
+remove unused nuget libs,2017-12-18,Merged,3081,0,260,nupkg dll xml ps1 ,11
+Dev,2017-12-18,Merged,3080,106,"19,171",csproj ,10
+Dev,2017-12-17,Merged,3078,154,146,csproj txt ,5
+Dev,2017-12-16,Merged,3077,154,399,csproj ,13
+Dev,2017-12-15,Merged,3074,54,40,css ,6
+Dev,2017-12-14,Merged,3073,216,287,xml csproj ,12
+Dev,2017-12-11,Merged,3066,271,480,csproj ,13
+Dev,2017-12-10,Merged,3065,240,172,cs ,8
+remove live tv probe,2017-12-08,Merged,3063,163,84,,9
+Dev,2017-12-07,Merged,3061,189,"4,463",csproj cs config js ,13
+Dev,2017-12-06,Merged,3059,531,147,css js ,7
+Enable deinterlacing for transcoding with vaapi,2017-12-06,Merged,3058,6,0,cs ,2
+Enable deinterlacing for transcoding with vaapi.,2017-12-05,Closed,3057,0,0,,0
+master,2017-12-05,Closed,3056,0,0,,0
+Beta,2017-12-05,Merged,3055,"3,768","2,326",,6
+Beta,2017-12-05,Closed,3054,0,0,,0
+Dev,2017-12-05,Merged,3053,217,209,css js ,7
+Dev,2017-12-03,Merged,3051,"1,050",366,,8
+Dev,2017-12-01,Merged,3048,200,104,,10
+Dev,2017-11-29,Merged,3047,"1,607","1,229",csproj json ,7
+Dev,2017-11-27,Merged,3045,412,449,,14
+Dev,2017-11-26,Merged,3039,328,131,,11
+reduce dlna chatter,2017-11-23,Merged,3037,230,165,,4
+Dev,2017-11-21,Merged,3034,265,214,csproj ttf ,16
+Beta,2017-11-20,Merged,3032,"4,086","4,068",csproj ,6
+3.2.40.0,2017-11-20,Merged,3031,42,13,,2
+3.2.36.15,2017-11-20,Merged,3028,731,717,css js ,4
+Fix skip of install vcredist 2015 if 2017 is installed,2018-07-14,Closed,3027,16,0,,1
+Dev,2017-11-19,Merged,3025,1,2,cs ,2
+Dev,2017-11-19,Merged,3023,702,893,config cs css ,10
+Dev,2017-11-17,Merged,3022,121,103,,11
+3.2.36.11,2017-11-16,Merged,3021,249,88,,3
+Dev,2017-11-15,Merged,3020,197,94,css js html ,8
+Dev,2017-11-14,Merged,3016,187,119,cs js ,11
+3.2.36.8,2017-11-12,Merged,3012,48,34,css js ,7
+3.2.36.7,2017-11-10,Merged,3011,41,22,js ,9
+update play media source feature,2017-11-09,Merged,3009,94,105,json js mp3 ,10
+Dev,2017-11-08,Merged,3008,289,76,,5
+3.2.36.4,2017-11-07,Merged,3007,529,324,xml css json ,7
+Dev,2017-11-06,Merged,3005,611,546,js css ,11
+support track selection before playback,2017-11-05,Merged,3004,400,695,csproj xml ,6
+Dev,2017-11-03,Merged,3001,106,499,cs json ,7
+Beta,2017-11-02,Merged,2998,"2,069","1,893",cs config json ,11
+Dev,2017-11-02,Merged,2997,682,672,js css ,4
+3.2.35.2,2017-11-01,Merged,2995,1,1,,1
+Dev,2017-11-01,Merged,2994,734,"1,127",,11
+Dev,2017-10-30,Merged,2989,443,47,config nupkg dll xml ,29
+Dev,2017-10-30,Merged,2988,326,163,json css ,11
+master,2017-11-01,Closed,2987,1,1,,1
+Beta,2017-10-29,Merged,2986,397,205,,13
+revise unknown audio stream handling,2017-10-29,Merged,2985,99,52,js html css ,9
+Dev,2017-10-28,Merged,2982,254,76,js ,6
+Dev,2017-10-27,Merged,2979,52,85,dll ,14
+master,2017-10-24,Closed,2975,4,0,,1
+Beta,2017-10-24,Merged,2974,"8,896","20,653",,6
+reset PrePaddingSeconds on recording retry,2017-10-24,Merged,2973,1,0,dll ,5
+Dev,2017-10-23,Merged,2972,283,199,,5
+Dev,2017-10-23,Merged,2971,85,28,,7
+Dev,2017-10-22,Merged,2970,58,3,,13
+Dev,2017-10-22,Merged,2969,2,2,,2
+Dev,2017-10-22,Merged,2968,167,88,,17
+Dev,2017-10-21,Merged,2966,938,274,csproj json ,7
+Dev,2017-10-20,Merged,2965,883,"5,308",,6
+Dev,2017-10-19,Merged,2963,254,"4,580",json ,7
+Dev,2017-10-17,Merged,2962,554,516,json ,17
+Dev,2017-10-16,Merged,2960,"1,073","2,735",js html ,6
+Dev,2017-10-16,Merged,2959,159,55,json ,9
+Update de.json,2017-10-15,Closed,2957,2,2,,1
+3.2.33.9,2017-10-14,Merged,2954,20,10,html js cs ,5
+Dev,2017-10-14,Merged,2952,619,462,,5
+Dev,2017-10-13,Merged,2951,"2,651","6,435",csproj ,6
+Dev,2017-10-11,Merged,2950,194,147,js ,6
+Test for matching subnet of IP's (VPN request),2017-10-11,Merged,2949,26,2,,1
+Dev,2017-10-09,Merged,2948,218,134,js css ,4
+Dev,2017-10-07,Merged,2945,139,59,csproj js css ,17
+Dev,2017-10-05,Merged,2943,"1,317",321,js ,14
+Dev,2017-10-04,Merged,2941,295,372,,9
+Dev,2017-10-02,Merged,2939,268,207,js html json ,17
+master,2017-10-02,Closed,2936,4,0,,1
+Beta,2017-10-02,Merged,2935,1,1,,1
+3.2.33.0,2017-10-02,Merged,2934,1,1,,1
+Beta,2017-10-02,Merged,2933,34,28,cs ,3
+Dev,2017-10-02,Merged,2932,34,28,cs ,3
+Beta,2017-10-02,Merged,2931,"5,376","11,525",xml ,8
+Dev,2017-10-02,Merged,2930,190,120,js html json ,23
+Dev,2017-10-01,Merged,2928,"1,111","1,017",js html json ,15
+3.2.32.14,2017-09-30,Merged,2927,20,6,,2
+Dev,2017-09-30,Merged,2926,87,84,js json ,7
+Dev,2017-09-29,Merged,2925,362,330,js ,9
+Dev,2017-09-29,Merged,2923,677,693,css json ,9
+remove namespaces,2017-09-28,Merged,2922,0,2,,2
+Dev,2017-09-28,Merged,2921,638,"8,642",xml ,4
+Dev,2017-09-27,Merged,2919,58,12,js ,9
+update param encoding,2017-09-26,Merged,2916,13,132,cs dll ,11
+Dev,2017-09-25,Merged,2915,54,79,,5
+Dev,2017-09-25,Merged,2914,328,127,csproj config ,8
+Dev,2017-09-24,Merged,2913,669,759,js json ,11
+3.2.32.4,2017-09-24,Merged,2912,3,3,,0
+Dev,2017-09-24,Merged,2911,952,267,js css ,8
+fix application of params,2017-09-22,Merged,2907,5,2,,1
+Dev,2017-09-22,Merged,2906,"1,177",406,,4
+Dev,2017-09-21,Merged,2905,268,80,,8
+master,2017-09-20,Merged,2901,2,2,,2
+master,2017-09-20,Merged,2900,2,2,,2
+Beta,2017-09-20,Merged,2899,0,22,cs ,2
+Dev,2017-09-20,Merged,2898,0,22,cs ,2
+Beta,2017-09-20,Merged,2897,"5,651","6,658",csproj config ,12
+support hevc with ios11,2017-09-20,Merged,2896,6,6,,1
+Dev,2017-09-20,Merged,2895,88,13,js ,6
+Dev,2017-09-19,Merged,2893,324,312,js ,6
+update user.cs,2017-09-18,Merged,2890,11,1,,1
+Dev,2017-09-18,Merged,2889,398,207,,11
+fix signature,2017-09-17,Merged,2888,1,1,,1
+Dev,2017-09-17,Merged,2887,377,176,,5
+Dev,2017-09-16,Merged,2884,55,"3,029",csproj ,3
+add omx decoder,2017-09-15,Merged,2883,20,6,html js ,5
+Dev,2017-09-15,Merged,2882,194,171,css js ,15
+Dev,2017-09-14,Merged,2881,66,132,html css js ,11
+Dev,2017-09-13,Merged,2880,105,92,,17
+Dev,2017-09-12,Merged,2879,14,13,js css ,12
+Dev,2017-09-11,Merged,2878,50,52,,9
+Dev,2017-09-11,Merged,2877,2,57,,7
+Dev,2017-09-10,Merged,2876,53,38,csproj config html js dll nupkg ,20
+Dev,2017-09-10,Merged,2875,178,124,,10
+3.2.30.13,2017-09-10,Merged,2874,11,4,,2
+3.2.30.12,2017-09-10,Merged,2873,29,131,,4
+Dev,2017-09-09,Merged,2871,243,759,csproj ,3
+Dev,2017-09-08,Merged,2870,277,227,,2
+Dev,2017-09-07,Merged,2869,438,94,csproj ,6
+3.2.30.8,2017-09-05,Merged,2866,238,218,,29
+Dev,2017-09-04,Merged,2864,326,273,,8
+Dev,2017-09-03,Merged,2862,328,384,csproj ,5
+Dev,2017-09-02,Merged,2861,159,81,config cs dll js nupkg ,13
+fix nuget target,2017-09-01,Merged,2858,0,7,,1
+Dev,2017-09-01,Merged,2857,"1,852",244,cs config ,8
+Dev,2017-08-30,Merged,2855,167,171,,7
+3.2.30.2,2017-08-29,Merged,2853,2,2,,2
+3.2.30.1,2017-08-28,Merged,2851,21,17,,3
+3.2.29.2,2017-08-28,Merged,2850,26,12,dll ,9
+Dev,2017-08-28,Merged,2848,93,105,,9
+Beta,2017-08-27,Merged,2847,"4,035","3,558",,7
+Dev,2017-08-27,Merged,2846,22,13,js ,4
+Dev,2017-08-27,Merged,2845,288,349,,10
+fix video images not being created,2017-08-26,Merged,2844,44,25,json js ,14
+Dev,2017-08-26,Merged,2843,271,197,csproj ,6
+Dev,2017-08-24,Merged,2841,965,819,,10
+Dev,2017-08-23,Merged,2839,"1,389",712,csproj ,6
+Dev,2017-08-22,Merged,2838,28,26,css js ,8
+Dev,2017-08-20,Merged,2836,285,235,,7
+3.2.28.1,2017-08-19,Merged,2835,1,1,,1
+update logging,2017-08-19,Merged,2834,0,7,,1
+Dev,2017-08-19,Merged,2833,"1,025","1,457",,9
+Beta,2017-08-19,Merged,2832,"1,761","172,999",csproj ,3
+Dev,2017-08-18,Merged,2827,"1,742","172,866",csproj ,3
+Dev,2017-08-16,Merged,2825,34,148,,11
+Beta,2017-08-16,Merged,2824,17,16,,6
+fix scrollbars showing up on home screen in firefox,2017-08-16,Merged,2823,16,15,,6
+Dev,2017-08-13,Merged,2821,1,1,,1
+master,2017-08-13,Merged,2820,0,0,,0
+master,2017-08-13,Merged,2819,0,0,,0
+master,2017-08-13,Closed,2818,0,0,,0
+Beta,2017-08-13,Merged,2817,89,133,,1
+update mac project,2017-08-13,Merged,2816,89,133,,1
+Beta,2017-08-13,Merged,2815,"4,492","25,649",cs config ,7
+"fixes #2798, fixes #2799",2017-08-13,Merged,2814,74,5,dll ,13
+update editor,2017-08-13,Merged,2813,42,82,html json ,24
+update themes,2017-08-13,Merged,2812,16,16,,1
+expand on hardware decoding options,2017-08-13,Merged,2811,30,8,js html dll ,12
+auto fallback from gpu to cpu,2017-08-13,Merged,2809,5,155,cs nuspec dll ,10
+rework episode queries,2017-08-13,Merged,2808,40,517,,14
+expand on hardware decoding options,2017-08-12,Merged,2807,135,"2,071",,6
+update download error handling,2017-08-11,Merged,2806,27,"2,473",csproj ,18
+Dev,2017-08-11,Merged,2804,110,501,csproj ,6
+Dev,2017-08-10,Merged,2803,319,"2,482",config cs ,16
+3.2.26.19,2017-08-09,Merged,2802,148,251,json ,12
+AllowUnsafeBlocks,2017-08-09,Merged,2801,1,0,,1
+Dev,2017-08-09,Merged,2800,"3,767","14,882",cs config ,11
+Dev,2017-08-07,Merged,2797,21,37,js css ,15
+Dev,2017-08-06,Merged,2796,133,306,,1
+Dev,2017-08-05,Merged,2795,356,421,csproj txt ,16
+Dev,2017-08-04,Merged,2794,241,187,,12
+Dev,2017-08-03,Merged,2792,56,46,cs js css html json ,10
+Dev,2017-08-02,Merged,2791,497,137,,1
+Dev,2017-08-01,Merged,2790,217,209,,4
+Dev,2017-07-31,Merged,2789,18,11,css js ,6
+update themes,2017-07-31,Merged,2787,35,87,,13
+Dev,2017-07-30,Merged,2785,22,19,css ,6
+update themes,2017-07-30,Merged,2784,2,2,js ,2
+Dev,2017-07-30,Merged,2783,528,267,,7
+Improve playback of RTSP streams,2017-09-06,Merged,2781,6,1,,1
+Dev,2017-07-28,Merged,2780,18,27,css js ,5
+Dev,2017-07-27,Merged,2779,43,"2,898",csproj ,3
+Dev,2017-07-26,Merged,2776,292,53,,3
+Dev,2017-07-25,Merged,2775,158,76,html css ,8
+Dev,2017-07-23,Merged,2771,86,368,,2
+3.2.26.1,2017-07-23,Merged,2768,1,1,,1
+Beta,2017-07-23,Merged,2767,"30,343","29,705",csproj ,4
+Dev,2017-07-23,Merged,2766,311,462,,7
+Dev,2017-07-22,Merged,2765,"1,146",831,,1
+Dev,2017-07-21,Merged,2764,285,276,js json css ,9
+Dev,2017-07-20,Merged,2763,292,82,js css json ,11
+Dev,2017-07-19,Merged,2761,118,104,css js ,4
+Dev,2017-07-18,Merged,2760,157,29,txt json ,22
+Dev,2017-07-17,Merged,2759,54,61,txt js css ,11
+Dev,2017-07-16,Merged,2758,269,229,json ,16
+update sync menus,2017-07-15,Merged,2757,73,121,js css json ,21
+Dev,2017-07-14,Merged,2756,111,98,js ,7
+Dev,2017-07-13,Merged,2754,9,17,xml css ,5
+Dev,2017-07-12,Merged,2753,349,231,csproj css ,5
+Dev,2017-07-10,Merged,2750,151,76,txt js css json ,21
+Dev,2017-07-08,Merged,2749,20,13,js css ,4
+Dev,2017-07-08,Merged,2748,"25,006","26,917",cs ,4
+Dev,2017-07-07,Merged,2747,416,373,js css ,9
+Dev,2017-07-06,Merged,2746,443,190,json ,11
+Dev,2017-07-05,Merged,2745,"1,974",614,,4
+Dev,2017-07-03,Merged,2744,263,140,,10
+Dev,2017-07-02,Merged,2742,141,88,csproj config ,18
+Dev,2017-07-01,Merged,2741,12,10,csproj config ,5
+3.2.21.1,2017-07-01,Merged,2740,1,1,,1
+Beta,2017-07-01,Merged,2739,"36,255","33,121",cs ,2
+update mac project,2017-07-01,Merged,2738,51,54,,1
+Dev,2017-07-01,Merged,2737,170,155,cs js css json ,14
+Dev,2017-06-30,Merged,2734,"1,259",992,,6
+Dev,2017-06-29,Merged,2733,886,502,,22
+Dev,2017-06-28,Merged,2731,687,96,html js ,3
+Dev,2017-06-27,Merged,2730,248,162,cs config js css json ,10
+Dev,2017-06-26,Merged,2729,884,103,csproj xml ,11
+Dev,2017-06-25,Merged,2728,69,29,js css ,9
+Dev,2017-06-24,Merged,2726,662,"1,012",,17
+update progress ring,2017-06-23,Merged,2724,1,1,,1
+Dev,2017-06-23,Merged,2723,"1,091",578,csproj ,10
+Dev,2017-06-22,Merged,2722,45,38,csproj config js css html ,13
+Beta,2017-06-21,Closed,2721,"31,682","30,879",cs ,2
+Dev,2017-06-21,Merged,2720,17,17,css js ,6
+Fix an issue causing LiveTV to stop working if a connection to a hdho…,2017-10-01,Closed,2719,29,3,,4
+add missing file,2017-06-21,Merged,2717,119,0,cs ,2
+Dev,2017-06-21,Merged,2716,"26,901","25,936",,3
+Dev,2017-06-20,Merged,2715,279,101,cs config ,12
+Dev,2017-06-19,Merged,2714,349,310,js ,4
+update menus,2017-06-18,Merged,2713,2,2,,1
+Dev,2017-06-18,Merged,2712,"2,504",983,cs ,2
+update project,2017-06-15,Merged,2711,1,0,,1
+Dev,2017-06-15,Merged,2710,26,19,,4
+Dev,2017-06-15,Merged,2709,"1,196",845,csproj js ,12
+Dev,2017-06-13,Merged,2708,475,"2,815",csproj ,11
+Dev,2017-06-12,Merged,2707,134,172,csproj ,17
+3.2.20.1,2017-06-11,Merged,2705,1,1,,1
+Beta,2017-06-11,Merged,2704,15,21,,1
+Dev,2017-06-11,Merged,2703,15,21,,1
+Beta,2017-06-11,Merged,2702,"2,285","3,345",json cs config xml ,13
+Dev,2017-06-11,Merged,2701,43,57,js ,5
+Dev,2017-06-11,Merged,2700,"1,337",353,,10
+Dev,2017-06-10,Merged,2698,502,317,js css ,5
+Dev,2017-06-09,Merged,2695,238,418,,6
+Dev,2017-06-08,Merged,2694,36,27,js css ,4
+Dev,2017-06-07,Merged,2692,47,37,csproj config js css ,12
+Dev,2017-06-06,Merged,2691,99,55,csproj ,8
+Dev,2017-06-04,Merged,2690,334,"2,540",json cs config xml ,20
+Cleanup,2017-07-14,Closed,2688,"1,203","1,475",,4
+Dev,2017-06-03,Merged,2687,742,634,config cs ,16
+Beta,2017-06-01,Merged,2685,357,126,,4
+Dev,2017-06-01,Merged,2684,216,42,,5
+update live stream buffers,2017-06-01,Merged,2683,27,24,,5
+Dev,2017-06-01,Merged,2682,139,85,csproj ,9
+Dev,2017-05-31,Merged,2681,1,1,,1
+master,2017-05-31,Merged,2680,0,0,,0
+master,2017-05-31,Merged,2679,0,0,,0
+Beta,2017-05-31,Merged,2678,0,0,,0
+Beta,2017-05-31,Merged,2677,"24,114","314,701",,2
+Dev,2017-05-31,Merged,2676,87,19,xml ,12
+Dev,2017-05-30,Merged,2675,262,229,js ,7
+update project files,2017-05-30,Merged,2673,0,3,csproj ,3
+Dev,2017-05-30,Merged,2672,24,180,,12
+Dev,2017-05-29,Merged,2671,"10,691","87,972",config cs sln dll nupkg ,27
+Fixed ResultFactory not being set in Plugins,2017-06-25,Closed,2670,8,0,,1
+Dev,2017-05-29,Merged,2668,99,45,,14
+Dev,2017-05-27,Merged,2667,118,137,js ,10
+Dev,2017-05-26,Merged,2666,486,572,csproj ,17
+"CleanUp ""project.json"" files",2017-06-04,Closed,2665,6,6,,6
+Dev,2017-05-25,Merged,2664,530,468,,6
+Dev,2017-05-25,Merged,2662,526,40,csproj ,4
+3.2.17.13,2017-05-24,Merged,2661,12,12,config cs ,9
+removed dead files,2017-05-24,Merged,2660,0,985,json cs xproj ,8
+fix tests,2017-05-24,Merged,2659,8,3,,1
+Dev,2017-05-24,Merged,2658,"8,955","221,316",,2
+Dev,2017-05-23,Merged,2657,380,96,js ,13
+update query fields,2017-05-22,Merged,2656,620,385,,9
+query fixes,2017-05-21,Merged,2655,1,1,,1
+Dev,2017-05-21,Merged,2654,625,451,,6
+Dev,2017-05-20,Merged,2653,23,25,js css html ,9
+Dev,2017-05-19,Merged,2648,157,616,,12
+Dev,2017-05-18,Merged,2647,227,176,,5
+Dev,2017-05-18,Merged,2645,101,105,css ,5
+Dev,2017-05-17,Merged,2644,172,79,csproj js ,12
+Dev,2017-05-16,Merged,2642,49,94,sln ,5
+Dev,2017-05-16,Merged,2641,263,994,csproj sln ,14
+3.2.17.1,2017-05-15,Merged,2640,1,1,,1
+Beta,2017-05-15,Merged,2639,434,427,,6
+update mac project,2017-05-15,Merged,2638,3,0,,1
+Dev,2017-05-15,Merged,2637,147,111,csproj js ,13
+Dev,2017-05-14,Merged,2636,146,118,js ,7
+Dev,2017-05-13,Merged,2635,140,200,csproj ,17
+3.2.16.1,2017-05-12,Merged,2634,1,1,,1
+Beta,2017-05-12,Merged,2633,"108,924","1,816",cs json csproj ,7
+update dlna profiles,2017-05-12,Merged,2632,182,730,csproj ,4
+Dev,2017-05-12,Merged,2630,379,544,cs csproj ,11
+Dev,2017-05-11,Merged,2629,93,46,js ,6
+Dev,2017-05-10,Merged,2628,"1,291",387,csproj ,6
+update libs,2017-05-09,Merged,2627,6,7,,1
+update project,2017-05-09,Merged,2626,0,2,,1
+Dev,2017-05-09,Merged,2625,"106,944",85,json csproj config ,12
+Dev,2017-05-08,Merged,2624,103,89,,5
+Dev,2017-05-07,Merged,2623,3,3,,1
+3.2.14.1,2017-05-06,Merged,2621,1,1,,1
+Beta,2017-05-06,Merged,2620,15,2,,3
+update search,2017-05-06,Merged,2619,15,2,,3
+Beta,2017-05-06,Merged,2618,"4,375","2,813",,12
+update components,2017-05-06,Merged,2617,14,4,,1
+Beta,2017-05-06,Closed,2616,"4,364","2,812",,12
+Dev,2017-05-06,Merged,2615,"1,324",577,,7
+Dev,2017-05-05,Merged,2614,77,104,,20
+Dev,2017-05-04,Merged,2613,269,297,,13
+3.2.13.12,2017-05-03,Merged,2612,1,1,,1
+Dev,2017-05-03,Merged,2611,112,60,js ,11
+Dev,2017-05-02,Merged,2610,111,62,js html json ,8
+Dev,2017-05-01,Merged,2608,671,265,css js html ,13
+fix ignore dts,2017-04-30,Merged,2605,0,1,,1
+Dev,2017-04-30,Merged,2604,152,161,js css ,9
+Dev,2017-04-30,Merged,2603,855,117,,9
+3.2.13.7,2017-04-29,Merged,2602,34,180,json csproj config dll nupkg txt _ ,32
+Dev,2017-04-29,Merged,2601,278,323,json ,10
+Dev,2017-04-27,Merged,2598,350,646,,11
+Dev,2017-04-25,Merged,2597,79,90,js ,14
+Dev,2017-04-23,Merged,2594,440,314,csproj html js css ,17
+Dev,2017-04-21,Merged,2593,49,52,js ,10
+3.2.13.1,2017-04-21,Merged,2592,1,1,,1
+Beta,2017-04-21,Merged,2591,"13,805","2,447",,3
+update live tv screens,2017-04-21,Merged,2590,14,12,html js json ,6
+Dev,2017-04-20,Merged,2589,637,551,csproj js ,7
+fix comment in Dockerfile,2017-05-11,Closed,2587,1,1,,1
+Dev,2017-04-19,Merged,2586,62,217,js html json ,13
+Dev,2017-04-18,Merged,2585,"10,622",710,,1
+Dev,2017-04-17,Merged,2584,146,280,,7
+Dev,2017-04-17,Merged,2582,94,35,,5
+Remove link to non-functional API documentation,2017-09-06,Closed,2581,1,2,,1
+Dev,2017-04-15,Merged,2580,869,253,csproj ,9
+Dev,2017-04-13,Merged,2579,87,24,WebDashboard/dashboard-ui/bower_components/alameda/LICENSE ,7
+Dev,2017-04-12,Merged,2577,"1,180","1,200",xml ,9
+Dev,2017-04-11,Merged,2575,695,188,js ,3
+Dev,2017-04-10,Merged,2571,709,300,,11
+Dev,2017-04-08,Merged,2569,17,4,csproj nuspec dll ,10
+3.2.11.1,2017-04-07,Merged,2568,1,1,,1
+Beta,2017-04-07,Merged,2567,"39,288",571,,1
+Dev,2017-04-06,Merged,2566,19,29,js css html dll ,16
+Dev,2017-04-05,Merged,2564,13,12,dll js ,11
+Dev,2017-04-04,Merged,2563,88,63,,8
+Dev,2017-04-02,Merged,2562,"38,801",47,,6
+Dev,2017-04-01,Merged,2561,21,189,csproj ,17
+Dev,2017-03-31,Merged,2560,81,74,cs config ,14
+Dev,2017-03-30,Merged,2558,53,19,js ,9
+Dev,2017-03-29,Merged,2557,73,31,dll ,14
+3.2.9.2,2017-03-29,Merged,2556,15,3,dll ,4
+Dev,2017-03-29,Merged,2555,164,144,,10
+Beta,2017-03-29,Merged,2554,"5,798","2,963",,4
+update live tv screens,2017-03-29,Merged,2553,7,7,,3
+Dev,2017-03-29,Merged,2552,75,18,js ,5
+MediaBrowser: Return null from GetInputFormat when in mts format.,2017-03-28,Closed,2550,4,0,,1
+Dev,2017-03-27,Merged,2549,283,139,js ,7
+Dev,2017-03-27,Merged,2548,159,61,dll ,6
+Dev,2017-03-26,Merged,2547,104,194,,3
+Dev,2017-03-26,Merged,2545,274,507,,5
+Dev,2017-03-25,Merged,2544,245,187,js ,4
+Dev,2017-03-24,Merged,2543,172,241,csproj ,9
+Dev,2017-03-23,Merged,2542,55,85,js json ,17
+Add user option to only include favorites in Next Up,2019-05-15,Closed,2541,16,0,,2
+Dev,2017-03-22,Merged,2539,14,12,csproj css ,6
+Dev,2017-03-22,Merged,2538,16,16,css ,4
+Dev,2017-03-21,Merged,2536,80,186,js ,4
+3.2.8.6,2017-03-20,Merged,2535,5,5,js ,5
+Dev,2017-03-19,Merged,2534,281,428,csproj ,6
+Dev,2017-03-18,Merged,2533,57,38,css js json ,12
+Dev,2017-03-17,Merged,2532,84,14,js ,10
+Dev,2017-03-16,Merged,2530,432,290,json ,14
+update hls to support mpeg2video,2017-03-15,Merged,2528,289,131,,14
+Dev,2017-03-14,Merged,2526,"2,677",347,js ,15
+Dev,2017-03-13,Merged,2525,357,582,csproj ,10
+Dev,2017-03-12,Merged,2523,824,211,csproj ,8
+Dev,2017-03-10,Merged,2522,152,108,csproj ,10
+3.2.7.1,2017-03-08,Merged,2521,1,1,,1
+Beta,2017-03-08,Merged,2520,8,7,dll ,6
+3.2.6.2,2017-03-08,Merged,2519,1,1,,1
+Dev,2017-03-08,Merged,2518,7,6,dll ,5
+update mac project,2017-03-08,Merged,2517,9,15,,1
+Beta,2017-03-08,Merged,2516,"2,329","14,545",,13
+Dev,2017-03-08,Merged,2515,35,12,js ,9
+update legacy hd homerun support,2017-03-07,Merged,2514,610,496,xml ,24
+update legacy hdhomerun support,2017-03-06,Merged,2512,90,82,nuspec dll ,13
+Dev,2017-03-05,Merged,2511,441,400,,18
+Fix naming of nvenc codecs. It should be nvenc_h264.,2017-03-16,Merged,2509,6,2,,1
+Add hevc hw-decoders and encoders to var required,2017-03-04,Merged,2507,6,1,,1
+Add hevc_qsv to var required,2017-03-04,Closed,2506,3,1,,1
+3.2.5.5,2017-03-03,Merged,2505,12,6,,2
+Dev,2017-03-03,Merged,2504,"1,049","12,117",csproj ,7
+Dev,2017-03-02,Merged,2503,29,30,js css ,5
+Dev,2017-03-01,Merged,2501,69,113,js ,7
+Legacy HDHomerun Tuner Support,2017-03-06,Closed,2497,"1,260",9,csproj ,5
+Dev,2017-02-26,Merged,2496,223,"1,512",xml csproj ,5
+3.2.4.1,2017-02-25,Merged,2491,1,1,,1
+Removed superfluous notes from LICENSE.md,2017-09-20,Closed,2490,0,61,,0
+Beta,2017-02-24,Merged,2489,"195,776","16,369",xproj json ,7
+Dev,2017-02-24,Merged,2488,56,53,sln csproj ,6
+Dev,2017-02-24,Merged,2487,210,122,js css ,7
+Dev,2017-02-23,Merged,2484,"188,253","5,225",csproj ,11
+Dev,2017-02-22,Merged,2483,54,28,js html json dll ,11
+Dev,2017-02-21,Merged,2482,47,77,,3
+3.2.1.113,2017-02-20,Merged,2481,2,2,dll ,4
+update urls,2017-02-20,Merged,2480,5,3,dll ,3
+Dev,2017-02-20,Merged,2479,125,"1,613",,8
+Dev,2017-02-20,Merged,2478,86,34,js css ,11
+Dev,2017-02-19,Merged,2477,177,639,,9
+Dev,2017-02-18,Merged,2476,482,369,csproj ,13
+3.2.1.108,2017-02-16,Merged,2474,1,1,,1
+Dev,2017-02-16,Merged,2473,"5,035","5,011",json cs dll css js ,12
+Dev,2017-02-15,Merged,2472,370,325,js ,5
+restore tv series alphabet picker,2017-02-14,Merged,2470,18,15,css ,6
+Dev,2017-02-13,Merged,2467,264,554,cs ,8
+Dev,2017-02-13,Merged,2466,602,"2,456",cs ,4
+3.2.1.103,2017-02-11,Merged,2465,1,1,,1
+Dev,2017-02-11,Merged,2464,56,16,cs config css ,6
+Dev,2017-02-10,Merged,2463,141,16,js ,25
+Dev,2017-02-10,Merged,2461,32,50,html json js ,5
+master,2017-02-10,Merged,2460,1,1,,1
+master,2017-02-10,Merged,2459,1,1,,1
+Beta,2017-02-10,Merged,2458,409,"1,249",xml csproj ,11
+update mac project,2017-02-10,Merged,2457,3,9,,1
+Beta,2017-02-10,Closed,2456,406,"1,240",xml csproj ,11
+Dev,2017-02-10,Merged,2455,6,1,,2
+Dev,2017-02-10,Merged,2454,84,52,csproj config css html js ,10
+Dev,2017-02-09,Merged,2453,56,19,dll ,6
+Dev,2017-02-08,Merged,2452,14,10,js png ,4
+Dev,2017-02-08,Merged,2451,146,117,,13
+3.2.0.101,2017-02-07,Merged,2450,1,1,,1
+Dev,2017-02-07,Merged,2449,159,281,xml ,12
+update mac project,2017-02-06,Merged,2448,6,822,,0
+Dev,2017-02-06,Merged,2446,28,31,,3
+Beta,2017-02-06,Merged,2445,"8,668","186,206",csproj ,14
+Dev,2017-02-06,Merged,2444,33,27,,2
+Respect a given runtime for live tv and recordings,2017-05-16,Closed,2443,1,1,,1
+Dev,2017-02-05,Merged,2441,95,119,js ,9
+Dev,2017-02-04,Merged,2440,327,371,,3
+Dev,2017-02-03,Merged,2439,28,22,css js ,9
+Dev,2017-02-02,Merged,2438,74,57,,7
+Dev,2017-02-02,Merged,2437,"2,253","3,608",,1
+Dev,2017-02-01,Merged,2436,"5,210","5,112",cs config ,12
+Dev,2017-01-31,Merged,2434,63,26,js ,10
+Update NfoSavers so they don't duplicate user defined IExternalIds,2017-02-02,Merged,2433,74,57,,7
+fix autoplay detection,2017-01-30,Merged,2432,25,26,,1
+Dev,2017-01-29,Merged,2430,176,60,,13
+Dev,2017-01-28,Merged,2428,550,"176,899",csproj config ,23
+Beta,2017-01-27,Merged,2427,42,3,js ,2
+Beta,2017-01-27,Merged,2426,24,18,html js ,3
+Beta,2017-01-26,Merged,2425,"17,306","12,122",csproj ,9
+Dev,2017-01-26,Merged,2424,1,1,,1
+update mac project,2017-01-26,Merged,2423,12,2,cs ,3
+fix remote control nav,2017-01-26,Merged,2422,10,28,,7
+Dev,2017-01-26,Merged,2421,74,71,js ,13
+update  m3u parsing,2017-01-25,Merged,2420,15,15,js ,7
+Dev,2017-01-25,Merged,2419,269,141,json js css ,10
+add missing file,2017-01-24,Merged,2417,47,0,,1
+Dev,2017-01-24,Merged,2416,485,167,csproj json js ,11
+update m3u parsing,2017-01-24,Merged,2415,8,10,js ,5
+Dev,2017-01-24,Merged,2414,354,347,,9
+Dev,2017-01-23,Merged,2413,576,509,json js ,3
+Dev,2017-01-21,Merged,2408,760,678,xml ,18
+Dev,2017-01-20,Merged,2406,521,157,json js ,15
+update home page section loading,2017-01-19,Merged,2405,3,6,,1
+Dev,2017-01-19,Merged,2404,254,209,xml csproj json css js ,15
+Dev,2017-01-18,Merged,2403,344,160,xml json js css ,14
+Dev,2017-01-17,Merged,2402,741,521,csproj xml js ,9
+Dev,2017-01-17,Closed,2401,606,493,csproj xml js ,8
+Dev,2017-01-16,Merged,2400,160,140,json js ,13
+Dev,2017-01-14,Merged,2399,"1,481",805,xml ,9
+BaseITemDto: Add season image tag and series thumb tag,2017-01-21,Closed,2398,14,0,,2
+Graciously handle transfer status reporting for SyncJobItems,2017-01-13,Merged,2397,6,0,,1
+Update BaseNfoParser to handle user defined IExternalIds,2017-01-13,Merged,2396,13,1,,1
+Fix M3U Channel number parsing,2017-01-14,Closed,2395,18,15,,2
+Dev,2017-01-13,Merged,2394,709,618,json js ,7
+Dev,2017-01-11,Merged,2392,529,455,json js ,18
+Dev,2017-01-09,Merged,2390,303,353,csproj config json js css ,23
+Do not update wan.dat if WAN IP has not changed,2017-01-09,Merged,2389,9,0,,1
+Do not write to disk if WAN IP has not changed,2017-01-09,Closed,2388,9,0,,1
+Auto-recover from hls errors,2017-01-09,Closed,2387,46,8,js ,3
+update guide,2017-01-08,Merged,2386,199,92,css js ,8
+Dev,2017-01-07,Merged,2385,83,464,txt dll csproj js ,15
+Dev,2017-01-06,Merged,2384,185,55,dll json js ,18
+update music artists,2017-01-06,Merged,2382,85,16,js ,11
+Dev,2017-01-06,Merged,2381,"7,705","7,325",xml ,12
+Hls streaming fixes,2017-01-03,Closed,2378,44,13,cs css js ,9
+Hls streaming fixes,2017-01-03,Closed,2377,"7,851",672,targets xml ,13
+Dev,2016-12-30,Merged,2374,"2,963",347,csproj json ,16
+Beta,2016-12-28,Merged,2372,"3,830","2,269",xml ,13
+update mac project,2016-12-28,Merged,2371,15,9,,1
+add sync error handling,2016-12-28,Merged,2370,9,6,,2
+Dev,2016-12-28,Merged,2369,76,54,json ,8
+Dev,2016-12-28,Merged,2368,181,166,,12
+Dev,2016-12-27,Merged,2367,"1,984",713,csproj txt ,9
+Dev,2016-12-26,Merged,2366,"1,447","1,248",xml ,10
+Dev,2016-12-22,Merged,2364,244,199,,10
+Beta,2016-12-21,Merged,2362,298,209,,8
+resolve holiday theme disrupting playback,2016-12-21,Merged,2361,11,29,css js ,7
+Dev,2016-12-20,Merged,2360,300,193,,7
+Improved server sync event handling,2016-12-22,Merged,2359,24,15,,2
+fix wrong start url in manifest.json,2017-01-26,Merged,2357,2,2,,1
+Beta,2016-12-18,Merged,2356,8,1,,1
+add error handling,2016-12-18,Merged,2355,8,1,,1
+Beta,2016-12-18,Merged,2354,6,6,js ,3
+Dev,2016-12-18,Merged,2353,6,6,js ,3
+merge from master,2016-12-18,Merged,2352,4,4,,3
+merge from master,2016-12-18,Merged,2351,2,2,,2
+Beta,2016-12-18,Merged,2350,"362,191","401,485",csproj targets cs ,4
+Dev,2016-12-18,Merged,2349,15,7,csproj ,3
+Dev,2016-12-18,Merged,2348,390,262,csproj js html ,7
+Dev,2016-12-18,Merged,2347,600,283,,1
+Dev,2016-12-17,Merged,2346,484,454,css html json ,11
+Dev,2016-12-17,Merged,2345,123,117,cs csproj config css js md ,15
+fix userviews for androidtv,2016-12-15,Merged,2344,0,1,,1
+Dev,2016-12-15,Merged,2343,172,82,,6
+Dev,2016-12-14,Merged,2342,179,202,,17
+add missing files,2016-12-13,Merged,2341,131,0,,2
+Dev,2016-12-13,Merged,2340,769,615,,8
+Dev,2016-12-12,Merged,2339,185,77,,5
+Dev,2016-12-12,Merged,2337,834,463,,3
+Dev,2016-12-11,Merged,2336,"1,703",753,,4
+Dev,2016-12-10,Merged,2334,"3,731","1,524",csproj ,5
+Dev,2016-12-08,Merged,2333,353,271,,8
+Dev,2016-12-06,Merged,2332,192,265,,13
+fix bluray detection,2016-12-05,Merged,2331,10,2,,1
+update recording fields,2016-12-05,Merged,2330,265,106,json css js html ,12
+Dev,2016-12-04,Merged,2329,295,383,csproj ,6
+Add Service Wrapper,2017-03-06,Closed,2328,19,74,csproj exe ,3
+Dev,2016-12-04,Merged,2327,461,220,,4
+Dev,2016-12-03,Merged,2325,233,202,csproj json ,14
+Dev,2016-12-02,Merged,2323,346,170,,7
+Dev,2016-12-02,Merged,2322,888,906,json js ,9
+Dev,2016-11-30,Merged,2321,"1,315","1,067",cs config ,7
+Dev,2016-11-29,Merged,2317,405,340,,8
+Dev,2016-11-28,Merged,2315,44,24,cs config js nupkg dll ,15
+update m3u name parsing,2016-11-27,Merged,2314,98,27,,1
+Dev,2016-11-27,Merged,2313,696,610,,11
+fix networkmanager,2016-11-27,Merged,2312,1,1,,1
+update studio links,2016-11-27,Merged,2311,8,7,,2
+Dev,2016-11-27,Merged,2310,"7,295",872,,4
+test,2016-11-26,Closed,2309,19,227,js md ,2
+Dev,2016-11-25,Merged,2308,452,347,,2
+Dev,2016-11-24,Merged,2307,"1,178","4,750",js css ,12
+fix scanning of new libraries,2016-11-23,Merged,2305,84,57,js css dll ,11
+"Logging Improvements to Support Development, Troubleshooting and Message Filtering",2017-11-22,Closed,2304,"1,128",512,sln ,2
+Dev,2016-11-22,Merged,2303,384,339,json ,13
+update user data db,2016-11-21,Merged,2302,85,63,dll ,6
+fix missing file,2016-11-21,Merged,2301,4,1,js ,2
+Dev,2016-11-21,Merged,2300,173,75,csproj config dll txt ,11
+Dev,2016-11-21,Merged,2299,886,694,,7
+Dev,2016-11-21,Merged,2298,150,156,csproj dylib dll ,14
+Dev,2016-11-20,Merged,2297,"6,225","12,325",,6
+Dev,2016-11-19,Merged,2296,225,301,csproj ,5
+Dev,2016-11-19,Merged,2295,"7,295","2,066",json ,5
+Dev,2016-11-18,Merged,2294,"4,571","86,553",,1
+Dev,2016-11-17,Merged,2293,137,91,html js ,14
+Dev,2016-11-16,Merged,2292,326,540,,2
+Dev,2016-11-15,Merged,2291,"2,861","2,567",bat json ,9
+Dev,2016-11-14,Merged,2289,179,126,csproj ,11
+Dev,2016-11-14,Merged,2288,"1,946","1,879",,8
+merge from master,2016-11-14,Closed,2287,154,221,,8
+Dev,2016-11-13,Merged,2286,39,66,js cs ,6
+Dev,2016-11-12,Merged,2284,93,68,csproj ,10
+Dev,2016-11-12,Merged,2283,835,612,,3
+Dev,2016-11-11,Merged,2282,0,5,dll exe ,3
+Dev,2016-11-11,Merged,2281,"17,215","12,052",,8
+Dev,2016-11-10,Merged,2280,127,73,csproj json js md ,15
+Dev,2016-11-10,Merged,2279,743,"2,562",sln ,8
+Dev,2016-11-09,Merged,2278,214,208,csproj ,20
+Dev,2016-11-08,Merged,2277,"1,190","1,327",,7
+Remove zerolatency from ffmpeg h264.,2017-01-05,Closed,2276,0,2,,1
+Dev,2016-11-06,Merged,2275,266,271,,4
+Dev,2016-11-05,Merged,2274,866,805,,4
+Dev,2016-11-04,Merged,2273,"1,407","1,103",,6
+fix project,2016-11-04,Merged,2272,17,0,config ,2
+update project,2016-11-04,Merged,2271,7,7,json ,2
+fix project,2016-11-04,Merged,2270,24,9,targets json nupkg dll ,5
+Dev,2016-11-04,Merged,2269,26,31,cs ,14
+update references,2016-11-04,Merged,2268,5,0,config ,2
+Dev,2016-11-03,Merged,2267,"1,871","1,498",json csproj ,22
+Dev,2016-11-02,Merged,2266,263,"5,213",csproj json js ,13
+Dev,2016-11-01,Merged,2265,304,412,,3
+fix process exit,2016-11-01,Merged,2264,2,2,js dll ,3
+Dev,2016-11-01,Merged,2263,967,"78,616",,1
+Dev,2016-10-31,Merged,2262,"4,546",763,csproj targets json ,8
+update project,2016-10-30,Merged,2259,4,2,config ,2
+Dev,2016-10-30,Merged,2258,"151,713","107,787",targets cs ,5
+Dev,2016-10-28,Merged,2257,"3,456","1,609",cs config ,7
+Dev,2016-10-28,Merged,2256,"84,102","33,323",cs ,2
+Dev,2016-10-23,Merged,2254,"19,801",938,csproj ,10
+Dev,2016-10-22,Merged,2251,"2,356","8,530",cs config ,15
+Beta,2016-10-20,Merged,2250,"1,581","1,863",csproj ,21
+Dev,2016-10-20,Merged,2249,79,26,js nuspec ,13
+Beta,2016-10-20,Closed,2247,"1,508","1,843",csproj ,22
+fix upnp with vlc android,2016-10-19,Merged,2246,8,4,js dll ,6
+Service restart fix,2016-10-20,Closed,2245,6,5,,1
+Dev,2016-10-19,Merged,2244,"1,340","1,498",csproj ,8
+Dev,2016-10-17,Merged,2242,165,346,csproj ,22
+Dev,2016-10-17,Merged,2241,27,30,css js html ,7
+Beta,2016-10-17,Merged,2240,"2,973","1,253",,15
+Dev,2016-10-17,Merged,2239,39,34,json js html ,10
+Dev,2016-10-16,Merged,2238,393,339,,16
+update recording delete,2016-10-15,Merged,2237,6,6,html ,3
+Dev,2016-10-15,Merged,2236,702,324,json js css ,14
+Dev,2016-10-14,Merged,2234,4,0,js ,2
+update recording dialogs,2016-10-14,Merged,2233,"2,019",737,csproj html json js ,8
+Beta,2016-10-13,Merged,2232,607,569,csproj json css js html ,18
+update images,2016-10-13,Merged,2231,78,48,js css ,9
+fix playlist deletion,2016-10-13,Merged,2230,63,34,css js ,7
+update translations,2016-10-13,Merged,2229,395,434,,7
+Dev,2016-10-13,Merged,2228,90,72,csproj json css html js ,22
+merge from master,2016-10-12,Closed,2227,7,4,,5
+update mac project,2016-10-12,Merged,2226,0,14,,1
+Dev,2016-10-12,Merged,2225,192,914,,1
+Beta,2016-10-12,Merged,2224,"29,456","47,270",,9
+update images,2016-10-12,Merged,2223,19,19,,1
+update playlist content,2016-10-12,Merged,2222,"1,141",181,json js css ,12
+update live stream sharing,2016-10-11,Merged,2220,179,155,json css js ,18
+Dev,2016-10-11,Merged,2219,586,321,,20
+add retry to service restart,2016-10-11,Merged,2218,1,1,,1
+Dev,2016-10-10,Merged,2217,215,162,,14
+Dev,2016-10-09,Merged,2216,790,837,,10
+pass requested fields to data layer,2016-10-08,Merged,2215,747,667,csproj ,13
+Dev,2016-10-07,Merged,2214,423,216,json ,28
+Dev,2016-10-07,Merged,2213,648,"1,174",csproj ,25
+remove probing for now,2016-10-06,Merged,2212,1,1,,1
+Dev,2016-10-06,Merged,2211,699,382,csproj config ,19
+Dev,2016-10-05,Merged,2210,508,"1,864",csproj ,13
+Dev,2016-10-04,Merged,2209,"2,065",326,json js css ,17
+Dev,2016-10-03,Merged,2208,"1,025",917,,20
+Dev,2016-10-02,Merged,2207,279,296,,15
+Dev,2016-10-01,Merged,2206,29,32,js ,8
+update series timer editor,2016-10-01,Merged,2205,360,194,css html ,13
+Dev,2016-09-30,Merged,2202,315,233,json js css html ,11
+Dev,2016-09-30,Merged,2200,367,191,,13
+Dev,2016-09-29,Merged,2199,"1,129",699,,16
+Dev,2016-09-28,Merged,2196,"1,555","1,392",json js html ,11
+implement keep up to,2016-09-27,Merged,2195,241,64,js ,11
+Dev,2016-09-26,Merged,2194,582,158,config json js css ,13
+Dev,2016-09-25,Merged,2192,833,"1,608",,7
+Dev,2016-09-25,Merged,2191,18,2,,2
+update network share settings,2016-09-24,Merged,2189,68,66,csproj config css js html ,17
+vaapi: copy decoded frames to main memory only when necessary,2016-09-24,Merged,2188,18,2,,2
+add network share config,2016-09-24,Merged,2187,346,109,js html css ,9
+Dev,2016-09-23,Merged,2186,"3,161","3,085",,14
+update recording dialogs,2016-09-22,Merged,2185,206,104,html json js css ,14
+Dev,2016-09-22,Merged,2184,681,141,json js css html ,17
+Dev,2016-09-21,Merged,2183,98,71,js html ,14
+Dev,2016-09-20,Merged,2182,"1,644","1,134",,11
+always supply SeriesTimerId,2016-09-19,Merged,2181,561,100,js css ,8
+update timeshifting,2016-09-18,Merged,2180,134,80,js ,14
+Dev,2016-09-18,Merged,2179,102,86,js css html ,14
+Dev,2016-09-18,Merged,2178,411,139,html json css js ,14
+Dev,2016-09-17,Merged,2177,"4,602","1,568",config cs json css js html nuspec dll nupkg ,26
+Dev,2016-09-17,Merged,2176,221,"16,837",json css js ,12
+Dev,2016-09-16,Merged,2175,62,120,js json css html ,12
+Dev,2016-09-16,Merged,2174,"17,465","29,330",,4
+Dev,2016-09-15,Merged,2173,118,88,json css js html ,18
+Dev,2016-09-15,Merged,2171,278,167,,9
+Dev,2016-09-14,Merged,2170,701,566,js css ,12
+Dev,2016-09-13,Merged,2168,234,355,csproj sln txt ,13
+fix graphical subtitle transcoding with vaapi,2016-09-13,Merged,2167,30,4,,2
+fix graphical subtitle transcoding with vaapi,2016-09-13,Closed,2166,30,4,,2
+Service restart and update,2016-09-15,Merged,2164,68,3,,1
+Pr/24,2016-09-13,Closed,2163,67,9,,3
+Dev,2016-09-12,Merged,2161,103,44,json js html ,25
+Dev,2016-09-11,Merged,2160,200,567,csproj js html ,14
+Dev,2016-09-11,Merged,2159,"4,394",774,csproj ,7
+Beta,2016-09-10,Merged,2157,136,95,css html json ,13
+Dev,2016-09-10,Merged,2156,136,95,css html json ,13
+Beta,2016-09-09,Merged,2155,53,16,cs ,2
+Dev,2016-09-09,Merged,2154,53,16,cs ,2
+Beta,2016-09-09,Merged,2153,38,27,js css ,11
+Dev,2016-09-09,Merged,2152,38,27,js css ,11
+Beta,2016-09-09,Merged,2151,"9,241","13,796",,4
+update theme song settings,2016-09-09,Merged,2150,43,18,html ,4
+Dev,2016-09-09,Merged,2149,82,63,json js css html ,22
+fix dupe titles,2016-09-09,Merged,2148,6,3,,2
+Dev,2016-09-09,Merged,2147,426,575,html json js css ,16
+Dev,2016-09-08,Merged,2146,239,255,json js html ,11
+Dev,2016-09-08,Merged,2145,"1,021",693,,6
+Dev,2016-09-07,Merged,2144,"1,187","4,833",js ,12
+Dev,2016-09-06,Merged,2143,"1,645",956,csproj bat ,14
+add chapter image error handling,2016-09-05,Merged,2142,248,223,csproj css ,13
+fix profile,2016-09-05,Merged,2141,1,1,,1
+Dev,2016-09-05,Merged,2140,"1,037",498,,12
+Authentication Provider,2018-05-02,Closed,2139,"3,402",296,cs ,6
+send udp response first,2016-09-04,Merged,2138,5,5,,1
+Dev,2016-09-03,Merged,2137,654,724,csproj ,12
+Add method for adding raw http handlers,2016-09-03,Closed,2136,56,0,cs ,4
+Update correct property,2016-09-02,Merged,2135,1,1,,1
+Dev,2016-09-02,Merged,2134,"1,490",412,,4
+Dev,2016-09-01,Merged,2133,843,"4,757",js css ,9
+Merge pull request #2 from MediaBrowser/dev,2016-09-01,Closed,2132,0,0,,0
+Dev,2016-08-31,Merged,2131,753,348,xml csproj ,19
+Small display adjustments in ItemDetails screen,2016-09-26,Closed,2128,19,21,html js ,3
+fix build issue,2016-08-30,Merged,2127,5,5,,1
+Dev,2016-08-30,Merged,2126,401,272,csproj json css js ,13
+QuickSeek Feature (server side only),2016-11-24,Closed,2125,524,8,csproj ,5
+Beta,2016-08-29,Merged,2124,360,440,csproj json js ,17
+fix service worker registration,2016-08-29,Merged,2123,5,7,,1
+Dev,2016-08-29,Merged,2122,137,233,csproj json js png ,18
+Dev,2016-08-28,Merged,2119,227,209,json js css ,16
+merge from master,2016-08-28,Merged,2118,79,4,,2
+merge from master,2016-08-28,Merged,2117,78,3,,2
+Rtp Rtcp fix Discovery,2016-09-02,Closed,2116,"1,226",23,,3
+Update SatIpDiscovery.cs,2016-08-28,Merged,2115,77,2,,1
+QuickSeek Feature,2016-11-24,Closed,2114,688,43,csproj ,5
+Complete removal of IHasShortOverview,2017-01-26,Closed,2113,10,138,csproj js html sln ,21
+Beta,2016-08-27,Merged,2112,"1,689",510,csproj ,13
+Dev,2016-08-27,Merged,2111,106,38,xml js html ,29
+update sony dlna profiles,2016-08-27,Merged,2110,48,4,xml ,8
+update sony dlna profiles,2016-08-27,Merged,2109,126,6,xml ,8
+Dev,2016-08-27,Merged,2108,957,153,csproj ,5
+allow scroll bar on filters pane,2016-08-27,Merged,2107,17,9,,1
+fix version comparison,2016-08-26,Merged,2106,20,12,,1
+Programmatic provider id handling for xml and nfo persistence,2016-09-02,Merged,2105,196,439,,13
+Dev,2016-08-26,Merged,2104,117,68,json js html ,17
+fix sync container statuses,2016-08-26,Merged,2103,252,230,,7
+fix update level migration,2016-08-25,Merged,2102,92,28,,2
+Beta,2016-08-25,Merged,2101,"6,033","13,667",,5
+fix hover menus,2016-08-25,Merged,2100,19,5,css html json ,5
+Dev,2016-08-25,Merged,2099,"1,026","1,051",json js ,13
+Dev,2016-08-25,Merged,2098,424,592,,16
+Manage repositories only through their managers,2016-10-01,Merged,2097,14,25,sln ,3
+Create common commit and read methods for the repositories,2017-03-14,Closed,2096,209,315,,2
+Dev,2016-08-24,Merged,2095,167,154,csproj json css js ,20
+Encrypt Password when sent over the web,2016-10-02,Closed,2094,"3,047",61,cs ,6
+Dev,2016-08-23,Merged,2093,"1,675",687,,4
+update sync settings,2016-08-23,Merged,2092,156,178,js html ,20
+Provide (unique) ETag value for synced media sources,2016-08-26,Merged,2091,4,0,,1
+"Core server preparation for new ""TV Maze Provider Plugin""",2016-08-24,Merged,2090,33,1,,5
+AutoorganizeLog: Fixed error when log empty; re-introduced full reload on task completion,2016-08-27,Merged,2089,65,43,js ,3
+Dev,2016-08-22,Merged,2088,584,339,csproj ,8
+Dev,2016-08-21,Merged,2087,"1,709","8,824",,8
+Organize-Dialog: Migrate to emby-inputs and include movie organization,2017-07-26,Closed,2086,509,61,cs css ,11
+AutoOrganize: Migrate paper controls to emby controls,2016-08-21,Merged,2085,78,61,js ,4
+Remove jquery from autoorganize scripts,2016-08-21,Merged,2084,308,191,html css js ,6
+Remove jquery from autoorganize scripts,2016-08-20,Closed,2083,546,249,csproj ,7
+Dev,2016-08-20,Merged,2082,390,"1,954",cs json css js ,14
+Fix bad seeking precision,2016-08-20,Merged,2081,1,1,,1
+Beta,2016-08-19,Merged,2080,"17,574","5,949",,6
+update mac project,2016-08-19,Merged,2079,6,0,,1
+Dev,2016-08-19,Merged,2078,26,8,html js ,8
+Dev,2016-08-19,Merged,2077,355,80,xml ,13
+Auto-Organize: Async operation and instant feedback UI (reworked),2016-08-20,Merged,2076,340,72,csproj ,8
+Auto-Organize: Async operation and instant feedback UI (reworked),2016-08-19,Closed,2075,253,72,csproj html gif ,9
+Add accurate bitrate reporting for ffmpeg jobs,2016-08-18,Merged,2074,28,4,,2
+Hide unused DLNA option,2016-08-19,Merged,2073,1,1,,1
+EpisodeFileOrganizer: Improve error handling (3rd alternate - minmal version),2016-08-19,Closed,2072,31,10,,2
+EpisodeFileOrganizer: Improve error handling (alternate approach),2016-08-19,Merged,2071,48,18,,3
+Dev,2016-08-18,Merged,2070,553,290,,11
+update season queries,2016-08-18,Merged,2069,573,413,,8
+Dev,2016-08-17,Merged,2068,312,131,,14
+Dev,2016-08-17,Merged,2066,864,747,csproj json js css ,12
+update season queries,2016-08-16,Merged,2065,44,17,,6
+update series queries,2016-08-16,Merged,2064,23,17,js ,5
+Dev,2016-08-16,Merged,2063,"9,562",612,csproj ,13
+merge from master,2016-08-16,Merged,2062,5,119,cs ,2
+merge from master,2016-08-16,Merged,2061,4,118,cs ,2
+Dev,2016-08-15,Merged,2060,373,184,csproj json css js ,11
+Dev,2016-08-14,Merged,2059,674,339,css ,9
+EpisodeFileOrganizer: Improve error handling,2016-08-19,Closed,2058,38,33,,3
+Dev,2016-08-14,Merged,2057,"2,455","2,203",csproj css js json ,47
+Dev,2016-08-14,Merged,2055,372,117,,14
+Dev,2016-08-14,Merged,2054,280,277,json js css ,16
+Dev,2016-08-13,Merged,2053,277,74,csproj ,23
+Dev,2016-08-13,Merged,2052,357,179,csproj ,20
+Fix server to enable client caching of static media files served as partial content,2016-08-13,Closed,2051,29,13,,2
+Fix: ETag-Values MUST be quoted according to W3C spec,2016-08-13,Merged,2050,1,1,,1
+Fix incorrect calculation of content length,2016-08-13,Merged,2049,1,1,,1
+Dev,2016-08-12,Merged,2048,580,479,json js ,19
+Dev,2016-08-11,Merged,2047,444,453,csproj ,6
+Dev,2016-08-10,Merged,2046,16,15,,3
+Beta,2016-08-09,Merged,2045,291,316,json js css ,15
+fix action sheet in firefox,2016-08-09,Merged,2044,7,3,js ,2
+update components,2016-08-09,Merged,2043,15,15,json js ,7
+Dev,2016-08-09,Merged,2042,215,242,json js css ,12
+FileRefresher.IsFileLocked: Don't log Exceptions in case of no write permission,2016-08-13,Merged,2040,5,0,,1
+Dev,2016-08-08,Merged,2039,50,54,css js html ,19
+Dev,2016-08-08,Merged,2038,18,16,json js ,6
+Beta,2016-08-07,Merged,2037,"2,652","6,117",,19
+update subtitle editor,2016-08-07,Merged,2036,4,4,js ,2
+list fixes,2016-08-07,Merged,2035,6,5,js ,4
+Dev,2016-08-07,Merged,2034,473,"1,276",json js ,12
+Add support for VAAPI hardware acceleration,2016-08-24,Closed,2033,73,83,,7
+Dev,2016-08-07,Merged,2032,855,973,xml csproj config json js ,10
+Avoid frequent Exception,2016-08-07,Merged,2031,4,5,,1
+Dev,2016-08-06,Merged,2030,67,89,csproj config css js nupkg dll ,13
+Fix for bad DirectoryService.GetFile performance,2016-08-06,Closed,2029,1,14,,1
+Dev,2016-08-06,Merged,2028,193,"1,403",json js ,13
+Dev,2016-08-06,Merged,2027,560,"1,755",,30
+Dev,2016-08-05,Merged,2026,619,737,csproj config ,12
+"Async stream handling: Use interface instead of Func<Stream,Task>",2016-08-15,Merged,2025,64,25,csproj ,8
+Fix IndexOutOfRangeException,2016-08-05,Merged,2024,6,6,,1
+merge from master,2016-08-04,Merged,2022,142,157,,0
+merge from master,2016-08-04,Merged,2021,141,156,,0
+Beta,2016-08-04,Merged,2020,7,1,,1
+fix search menus,2016-08-04,Merged,2019,7,1,,1
+Beta,2016-08-04,Merged,2018,"6,960","5,368",,32
+Dev,2016-08-04,Merged,2017,947,381,csproj config json ,14
+Fix yesterday label in WebDashboard upcoming views,2016-08-25,Closed,2016,2,2,,2
+fix sync methods,2016-08-03,Merged,2014,1,1,,1
+Dev,2016-08-03,Merged,2013,412,317,,8
+Dev,2016-08-02,Merged,2011,"1,726","1,438",json js css ,9
+Dev,2016-08-01,Merged,2009,264,179,xml ,9
+Dev,2016-07-31,Merged,2007,100,155,json css js html ,11
+update identifier,2016-07-31,Merged,2006,28,65,js html ,8
+Health reporting for Emby,2017-11-22,Closed,2005,669,43,csproj ,11
+Health reporting for Emby,2016-07-31,Closed,2004,669,41,csproj ,11
+Dev,2016-07-31,Merged,2003,"1,109",510,json css js ,5
+fix detail images,2016-07-30,Merged,2002,34,42,js ,4
+Dev,2016-07-30,Merged,2001,"3,404","3,345",,36
+Clean Up code,2016-08-11,Closed,2000,282,282,,7
+Fix: Emby notification icon remained visible after shutdown,2016-07-30,Merged,1999,24,47,,2
+Architecture proposal for Health reporting,2016-07-31,Closed,1998,386,14,csproj ,7
+Clean Up code,2016-07-30,Merged,1997,36,195,,42
+Beta,2016-07-29,Merged,1996,621,"2,477",csproj json js ,12
+Dev,2016-07-28,Merged,1995,13,"2,140",json md gitignore yml ,5
+Dev,2016-07-28,Merged,1994,"1,067",796,csproj json js ,12
+merge from master,2016-07-27,Merged,1993,379,"2,683",,0
+merge from master,2016-07-27,Merged,1992,377,"2,681",,0
+Beta,2016-07-27,Merged,1991,"21,051","11,740",csproj config ,7
+Dev,2016-07-27,Merged,1990,30,84,html json ,3
+update components,2016-07-27,Merged,1989,"8,255","7,979",config nuspec nupkg dll xml ,22
+Dev,2016-07-27,Merged,1988,"7,709",439,js json css ,8
+Dev,2016-07-27,Merged,1986,"2,774",422,,2
+Fix audio stream for channel media and some minor corrections,2016-07-30,Merged,1985,6,4,js ,2
+Add StringUsageReporter,2016-07-26,Merged,1984,"2,141",0,xslt xml ,3
+Dev,2016-07-25,Merged,1983,"1,133","1,642",csproj ,9
+Fix: Incorrect use of DateTime.ToUniversalTime() results in incorrect dates returned by metadata providers,2018-07-10,Closed,1982,51,11,,8
+fix DateModified not refreshing,2016-07-24,Merged,1980,154,242,,14
+Dev,2016-07-23,Merged,1979,483,419,html json css js ,7
+Beta,2016-07-23,Merged,1978,875,758,csproj html json js css ,20
+add platform test to directory picker,2016-07-23,Merged,1977,11,8,,1
+Dev,2016-07-23,Merged,1976,75,13,csproj js ,6
+Dev,2016-07-23,Merged,1975,245,222,html json css js ,16
+Remove Jquery from metadataeditor.js,2016-07-23,Merged,1974,300,259,,0
+fix dlna update profile,2016-07-23,Merged,1973,3,3,,1
+fix dlna update profile,2016-07-23,Closed,1971,3,3,,1
+Dev,2016-07-23,Merged,1970,551,522,csproj css ,14
+Beta,2016-07-22,Merged,1969,299,"1,460",csproj json js ,11
+use checkbox instead of toggle button,2016-07-22,Merged,1968,56,794,json gitignore yml md ,5
+Dev,2016-07-22,Merged,1967,244,667,csproj json js ,11
+merge from master,2016-07-22,Merged,1966,63,121,cs sh txt ,3
+merge from master,2016-07-22,Merged,1965,62,120,cs sh txt ,3
+Beta,2016-07-22,Merged,1964,"10,768","120,448",,7
+display more from artist on album page,2016-07-22,Merged,1963,82,10,js html json ,6
+Dev,2016-07-22,Merged,1962,154,39,csproj config css js nupkg dll ,16
+Dev,2016-07-21,Merged,1961,177,169,json js md yml ,12
+Dev,2016-07-21,Merged,1960,683,592,csproj config json js css ,11
+Dev,2016-07-20,Merged,1959,642,"3,360",,1
+Dev,2016-07-19,Merged,1957,299,368,csproj json js ,11
+Build on Linux: require mono v4.2.3,2016-07-19,Merged,1956,49,"29,932",txt ,1
+Dev,2016-07-18,Merged,1955,72,88,css js ,11
+Various fixes for build on Linux,2016-07-18,Merged,1953,"29,868",43,sh ,2
+switch to shared components,2016-07-18,Merged,1951,789,723,js css ,6
+Dev,2016-07-18,Merged,1950,"1,150","1,148",json js css ,6
+Dev,2016-07-17,Merged,1949,"2,563","10,504",,3
+Fixed typo in FFmpegSavePathNotFound key.,2016-07-16,Merged,1945,36,36,,25
+Fixed typo with the FFmpegSavePathNotFound key.,2016-07-16,Closed,1944,931,102,png js css ,23
+Dev,2016-07-15,Merged,1943,149,312,,5
+Dev,2016-07-15,Merged,1942,57,39,csproj config js dll nupkg ,12
+Dev,2016-07-14,Merged,1941,59,6,csproj css ,5
+Dev,2016-07-13,Merged,1940,66,36,json js css ,14
+update hls subtitle display name,2016-07-13,Merged,1939,1,3,,1
+Dev,2016-07-12,Merged,1938,740,14,css js html targets dll ,12
+Dev,2016-07-11,Merged,1937,155,147,js ,6
+update components,2016-07-11,Merged,1936,12,14,js css html ,7
+Dev,2016-07-11,Merged,1935,640,"6,494",html ,3
+Dev,2016-07-10,Merged,1934,502,"96,009",,14
+add new streambuilder options,2016-07-09,Merged,1933,257,93,,4
+Reduced compiler warnings. No functional changes.,2016-08-06,Merged,1932,24,24,,20
+Dev,2016-07-08,Merged,1931,395,139,json js ,9
+update mac icon,2016-07-08,Merged,1930,0,0,,1
+merge from master,2016-07-08,Merged,1929,79,29,js json ,28
+Dev,2016-07-08,Merged,1928,494,210,json css js ,15
+Dev,2016-07-07,Merged,1925,"1,418",319,json css js ,6
+Update and restart service,2016-07-24,Closed,1924,64,5,,1
+Dev,2016-07-06,Merged,1923,"1,542","1,156",,14
+merge from master,2016-07-05,Merged,1922,39,8,js ,6
+Beta,2016-07-04,Merged,1921,1,1,,1
+Dev,2016-07-04,Merged,1920,1,1,,1
+Beta,2016-07-04,Merged,1919,287,232,csproj ,7
+Changed to a valid preset for h264_nvenc,2016-07-04,Merged,1918,1,1,,1
+update default cache size,2016-07-04,Merged,1917,3,3,,2
+Dev,2016-07-03,Merged,1916,286,231,csproj ,7
+Beta,2016-07-02,Merged,1915,6,0,,1
+update mac project,2016-07-02,Merged,1914,6,0,,1
+Beta,2016-07-02,Merged,1913,"1,415",655,,12
+fix interlace detection stderr,2016-07-02,Merged,1912,2,2,,1
+Dev,2016-07-02,Merged,1911,"1,272",582,js css html md ,8
+fix probe stdout,2016-07-02,Merged,1910,4,4,,1
+Dev,2016-07-02,Merged,1909,75,24,js ,9
+Omdb: Switch from ShortOverview to full plot,2016-08-28,Closed,1908,2,7,,1
+Omdb Improvements,2016-07-01,Merged,1907,62,12,,3
+next up upgrade fixes,2016-07-01,Merged,1906,42,38,,7
+reduce repeated deserialization,2016-07-01,Merged,1905,25,10,html css ,11
+Beta,2016-07-01,Merged,1904,212,348,,13
+Dev,2016-07-01,Merged,1903,63,83,,14
+update namespaces,2016-06-30,Merged,1902,117,242,,8
+Dev,2016-06-30,Merged,1901,31,22,html ,6
+Fixes for nvenc support marked as experimental,2016-06-30,Merged,1900,18,17,html ,5
+Beta,2016-06-30,Merged,1899,"59,834","111,608",cs otf ,11
+update channel queries,2016-06-30,Merged,1898,8,2,,1
+update mac project,2016-06-30,Merged,1897,0,12,,1
+Dev,2016-06-30,Merged,1896,7,6,,2
+Dev,2016-06-30,Merged,1895,825,929,,10
+Dev,2016-06-30,Merged,1894,104,142,cs ,13
+Dev,2016-06-30,Merged,1893,16,15,,2
+update entry point runner,2016-06-29,Merged,1892,6,3,,1
+update mono project,2016-06-29,Merged,1891,2,0,,1
+update mono project,2016-06-29,Merged,1890,2,0,,1
+Dev,2016-06-29,Merged,1889,"8,033",60,csproj config ,9
+Dev,2016-06-29,Merged,1888,"1,016","4,985",csproj config ,11
+Dev,2016-06-29,Merged,1886,572,"1,245",,4
+User Authentication: Enable multiple domain providers for authentication.,2016-08-24,Closed,1885,"6,632",255,csproj ,11
+Dev,2016-06-28,Merged,1884,415,682,,7
+Dev,2016-06-27,Merged,1883,141,119,json js css ,16
+update logging,2016-06-26,Merged,1881,4,4,,1
+Dev,2016-06-26,Merged,1880,360,304,,9
+Dev,2016-06-25,Merged,1879,466,261,json ,16
+DirectoryBrowser: Init dialog with existing value,2016-07-19,Closed,1878,76,6,js ,13
+"Adjust language for image results from TMDB when querying complex language codes (> 2 chars, qualified by country)",2016-06-25,Merged,1877,47,16,,6
+At least update names of container folders (originating from a Channel),2016-06-25,Merged,1876,7,13,,1
+Dev,2016-06-24,Merged,1875,256,136,js html css ,13
+Dev,2016-06-24,Merged,1874,"4,260","1,006",csproj config html ,9
+Dev,2016-06-23,Merged,1873,"1,033",269,csproj ,12
+OMDB Episode Provider: Use new full season API for retrieval and caching,2016-06-23,Merged,1872,204,18,,2
+ChannelManager: Update Name and CommunityRating values when changed,2016-06-24,Merged,1871,14,0,,1
+Channel item sort must not default to name sorting when all sort fields are cleared,2016-06-24,Merged,1870,1,2,,1
+Dev,2016-06-22,Merged,1869,"1,681",35,css json md gitignore yml ,6
+Preserve line breaks in item overview,2016-06-24,Merged,1868,4,0,,1
+Fix incorrect library title being set on back/forward browser navigation,2016-06-22,Merged,1867,1,1,,1
+Dev,2016-06-22,Merged,1866,849,"6,292",csproj json js gitignore yml md ,13
+Dev,2016-06-21,Merged,1865,452,104,csproj css ,6
+Dev,2016-06-20,Merged,1864,126,27,xml js ,10
+Dev,2016-06-20,Merged,1863,111,45,js html nuspec ,15
+Dev,2016-06-20,Merged,1862,301,206,,6
+Dev,2016-06-19,Merged,1861,"15,581","11,455",,12
+Dev,2016-06-19,Merged,1860,"1,198",949,,10
+Dev,2016-06-18,Merged,1859,682,996,cs otf html ,14
+Dev,2016-06-18,Merged,1858,"1,632","1,358",csproj html json yml md ,13
+Dev,2016-06-17,Merged,1857,885,332,,5
+Dev,2016-06-16,Merged,1856,784,"3,147",,0
+merge from master,2016-06-16,Merged,1855,991,"3,289",,10
+merge from master,2016-06-16,Closed,1854,991,"3,289",,10
+update urls,2016-06-16,Merged,1853,0,2,,1
+Dev,2016-06-16,Merged,1852,207,103,xml json js yml ,20
+Dev,2016-06-16,Merged,1850,196,53,,5
+update recording format,2016-06-15,Merged,1848,228,131,json js ,11
+Dev,2016-06-15,Merged,1847,244,"35,909",csproj config json css js ,12
+IsSeries driven by Episode data,2016-06-15,Merged,1846,2,2,,1
+Dev,2016-06-15,Merged,1845,245,126,css html js ,11
+Dev,2016-06-14,Merged,1844,89,56,config js html css ,10
+Disable FIPS Validation Check in App.config,2016-06-14,Merged,1843,1,0,,1
+Dev,2016-06-14,Merged,1842,166,80,json css js html ,12
+Dev,2016-06-13,Merged,1841,585,96,csproj json js ,8
+Channelinterface enhancements: Consolidated minimal approach,2016-06-22,Closed,1840,54,1,js ,5
+Added code to GetChannels and fixed IsPremiere to use the new XmlTvPremiere object,2016-06-13,Merged,1839,12,3,,1
+Dev,2016-06-12,Merged,1838,690,676,,21
+Dev,2016-06-11,Merged,1837,"6,114","4,942",,3
+Channelinterface enhancements,2016-06-13,Closed,1836,51,12,css js ,7
+Dev,2016-06-10,Merged,1834,504,347,json css js ,14
+Dev,2016-06-09,Merged,1832,876,183,,7
+Fixed typo in OptionDisplayFolderViewHelp string.,2016-06-09,Merged,1831,37,37,,25
+Dev,2016-06-08,Merged,1830,371,151,csproj ,13
+Display placeholder background for images while lazy loading (without scripting),2016-08-25,Closed,1829,6,2,js ,2
+Display placeholder background for images while lazy loading,2016-06-09,Closed,1828,47,10,css ,4
+update text,2016-06-07,Merged,1827,1,1,,1
+Dev,2016-06-07,Merged,1826,401,191,json css js map html ,19
+Dev,2016-06-07,Merged,1825,546,352,csproj config json ,9
+Typo fix for OptionDisplayFolderViewHelp string.,2016-06-08,Closed,1824,41,41,,24
+Dev,2016-06-07,Merged,1823,458,328,json css js ,14
+Changed Genre Mapping to be case insensitve,2016-06-06,Merged,1822,5,6,,1
+Dev,2016-06-06,Merged,1821,737,210,,14
+XmlTv Listings Provider,2016-06-05,Merged,1814,121,45,csproj ,3
+Use HTTPS for API requests: FanArt: http:// -> https:// (2),2016-06-24,Merged,1813,12,4,,4
+Dev,2016-06-05,Merged,1812,"1,537","1,332",html json css js ,16
+Add a mini player to the WebDashboard,2018-10-18,Closed,1811,79,20,css js ,4
+TheTvDb: Add episode url for external links,2016-06-04,Merged,1810,1,1,,1
+Dev,2016-06-04,Merged,1809,412,200,,5
+TheMovieDB Changes,2016-06-04,Merged,1808,60,5,,4
+OmdbProvider instantiation,2016-06-04,Merged,1807,15,8,,2
+Result caching and image existance check for OMDB,2016-06-04,Merged,1806,118,53,,4
+Dev,2016-06-04,Merged,1805,473,382,,8
+OmdbProvider: Fix for empty json fields,2016-06-03,Merged,1804,1,1,,1
+Dev,2016-06-03,Merged,1803,386,519,csproj ,23
+Dev,2016-06-02,Merged,1802,996,772,csproj config json js ,13
+Dev,2016-06-01,Merged,1801,"1,167",909,,7
+merge from master,2016-06-01,Closed,1800,991,"3,287",,10
+Adjust preferred language for image searches in TMDB,2016-06-25,Closed,1799,4,4,,4
+TheMovieDB image fetching for now only supports 2-digit lang code (ISO-639-1),2016-05-31,Closed,1798,4,4,,4
+Dev,2016-05-31,Merged,1797,"1,258","1,197",,9
+Remote Trailers support at episode Level,2016-06-01,Merged,1796,19,7,,1
+TheMovieDB image fetching for now only supports 2-digit lang code (ISO-639-1),2016-05-31,Closed,1795,995,"3,291",,14
+Remote Trailers support at episode Level,2016-05-31,Closed,1794,15,3,,1
+Fix Country Metadata country code returning,2016-05-31,Closed,1793,2,2,,1
+Dev,2016-05-30,Merged,1792,334,146,csproj json css js ,19
+Dev,2016-05-29,Merged,1791,27,4,css ,2
+Dev,2016-05-29,Merged,1790,375,158,json css ,14
+Constrain movie suggestiions to current library,2016-05-29,Closed,1789,1,0,,1
+"OmdbProvider: Fix for data fields containing ""N/A""",2016-06-03,Merged,1788,16,10,,1
+Dev,2016-05-28,Merged,1786,"1,673","36,189",,7
+Improve result display for itemidentifier,2016-07-30,Closed,1785,22,2,css ,2
+Fix display of overview field in metadata editor,2016-06-03,Merged,1784,5,3,css ,2
+Small translation adjustments for pt-BR,2016-05-29,Closed,1783,7,7,,1
+Dev,2016-05-26,Merged,1781,331,374,cs ,13
+Dev,2016-05-25,Merged,1780,786,"1,012",json js ,12
+Dev,2016-05-25,Merged,1778,93,"1,485",csproj ,12
+fix attach,2016-05-24,Merged,1777,4,1,,1
+Dev,2016-05-24,Merged,1776,4,10,,2
+add startup logging,2016-05-24,Merged,1775,9,1,,1
+add error handling with migrations,2016-05-24,Merged,1774,16,65,csproj ,3
+Dev,2016-05-24,Merged,1773,173,166,json js css ,11
+Dev,2016-05-23,Merged,1771,2,4,nuspec ,2
+OmdbProvider: Switched to use full plot information and other improvements,2016-07-01,Closed,1770,60,14,,3
+Dev,2016-05-23,Merged,1768,"4,797",8,cs config nupkg dll xml ,17
+add index on TopParentId,2016-05-23,Merged,1767,2,1,,1
+Dev,2016-05-23,Merged,1766,178,79,json js css html ,17
+Dev,2016-05-23,Merged,1765,"1,327","1,526",csproj ,17
+OmdbProvider: Drop IHasShortOverview stuff and other improvements,2016-07-02,Closed,1762,89,162,,12
+Proposal for item subtypes,2016-06-11,Closed,1761,64,1,csproj ,5
+merge from master,2016-05-21,Merged,1758,2,2,,1
+merge from master,2016-05-21,Merged,1757,1,1,,1
+Beta,2016-05-21,Merged,1756,"9,022","3,867",csproj config ,11
+Dev,2016-05-21,Merged,1755,16,16,,2
+Micro-fixes for logging instance creation exceptions,2016-05-21,Merged,1754,4,4,js ,3
+Dev,2016-05-20,Merged,1753,50,72,,8
+update config values,2016-05-20,Merged,1752,13,5,,2
+Dev,2016-05-20,Merged,1751,"4,685","2,650",csproj json css js ,14
+FirstPlayed.,2016-05-20,Closed,1750,2,2,,1
+First Played... not sure i did the pull request right.. i'm tryign to remove this :),2016-05-20,Closed,1749,"4,272","1,138",csproj config ,9
+Dev,2016-05-19,Merged,1748,272,218,json js ,9
+fix content sometimes not appearing after restart,2016-05-19,Merged,1747,95,56,js ,5
+Dev,2016-05-18,Merged,1746,334,143,json js ,14
+Dev,2016-05-18,Merged,1745,267,161,,10
+Dev,2016-05-17,Merged,1744,"3,337",593,config cs json css js ,14
+Beta,2016-05-17,Merged,1743,242,317,json css js html ,12
+Dev,2016-05-17,Merged,1742,93,94,js html css ,14
+Dev,2016-05-16,Merged,1741,162,236,json css html js ,9
+Beta,2016-05-16,Merged,1740,"2,433","2,101",csproj json js css ,11
+Dev,2016-05-16,Merged,1739,596,477,csproj json js css ,12
+optimize dlna queries,2016-05-15,Merged,1738,6,4,,1
+Dev,2016-05-15,Merged,1737,"1,837","1,626",json ,9
+Beta,2016-05-15,Merged,1736,"293,719","255,631",,6
+update tabs,2016-05-15,Merged,1735,734,683,json css html js ,14
+"fixes #1356 - [BUG] .mkv that stream copies, cannot be played without…",2016-05-15,Merged,1734,88,84,html ,3
+Dev,2016-05-14,Merged,1733,306,37,,9
+Dev,2016-05-14,Merged,1732,392,23,json js ,8
+Prioritize metadata merging by preferred language,2016-09-22,Merged,1731,99,18,,8
+Dev,2016-05-13,Merged,1730,"1,013","2,552",csproj html json js ,17
+Dev,2016-05-12,Merged,1729,766,564,json js css html png ,18
+Dev,2016-05-11,Merged,1728,619,394,,9
+fix year validator,2016-05-10,Merged,1727,1,0,,1
+Dev,2016-05-10,Merged,1726,86,130,json css js ,13
+fix DeviceDiscovery,2016-05-10,Merged,1725,23,50,json js css ,13
+Dev,2016-05-10,Merged,1724,381,303,csproj html json js ,13
+TV Maze Provider for Series and Episodes,2016-08-26,Closed,1723,"1,995",1,csproj ,13
+rework tabs,2016-05-09,Merged,1720,421,631,css html js ,9
+Dev,2016-05-09,Merged,1719,193,106,json ,10
+update windows ffmpeg,2016-05-09,Merged,1718,397,131,,19
+Dev,2016-05-08,Merged,1717,706,"49,792",xml ,10
+update icons,2016-05-07,Merged,1716,43,214,js html ,21
+Dev,2016-05-07,Merged,1715,227,280,csproj ,20
+fix episode query,2016-05-07,Merged,1714,90,86,json yml html ,14
+update components,2016-05-06,Merged,1713,22,13,csproj json html ,7
+Dev,2016-05-06,Merged,1712,312,318,json js css ,19
+fix dashboard page,2016-05-06,Merged,1711,931,914,,6
+Dev,2016-05-06,Merged,1710,"1,604","1,384",csproj ,5
+Dev,2016-05-04,Merged,1709,67,32,json js map ,16
+Dev,2016-05-04,Merged,1708,"1,019",328,json ,9
+Add additional Game Systems to MediaBrowser.Model.dll,2016-05-07,Closed,1706,5,0,,1
+Dev,2016-05-03,Merged,1705,219,219,json md js map ,12
+Small setPageTitle code optimizations,2016-05-31,Closed,1704,6,16,,2
+Dev,2016-05-02,Merged,1703,671,"47,081",json md js ,13
+add missing package files,2016-05-02,Merged,1702,705,0,dll ,6
+Dev,2016-05-02,Merged,1701,37,5,js ,5
+merge from dev,2016-05-02,Merged,1700,"33,996","9,614",,8
+merge from master,2016-05-02,Merged,1699,409,190,,15
+merge from master,2016-05-01,Merged,1698,409,190,,15
+Dev,2016-04-30,Merged,1696,35,73,js ,4
+Dev,2016-04-30,Merged,1695,114,31,,10
+Dev,2016-04-30,Merged,1694,411,191,,23
+Use HTTPS for API requests: Fix TheMovieDb and FanArt,2016-04-29,Merged,1693,16,14,,13
+Dev,2016-04-28,Merged,1691,57,36,json md js map css ,15
+Dev,2016-04-28,Merged,1690,292,200,,17
+Dev,2016-04-27,Merged,1689,55,17,json css ,9
+fixes for episodes directly in series folder,2016-04-27,Merged,1688,3,3,,2
+Dev,2016-04-27,Merged,1687,"5,461","2,514",,19
+Don't ignore accents in searchs,2016-05-07,Closed,1686,1,4,,1
+Collection meta-fetch fallback condition update,2016-04-27,Merged,1685,1,1,,1
+Use HTTPS for API requests: Fix missed URLs,2016-04-26,Merged,1684,3,3,,3
+Dev,2016-04-26,Merged,1683,390,322,,6
+Dev,2016-04-25,Merged,1682,61,121,html json js css ,12
+Dev,2016-04-25,Merged,1681,"60,073","2,068",csproj config ,16
+Dashboard method for response error handling,2016-06-05,Merged,1680,25,38,,6
+"Dlna: Stop SSDP if disabled, Fixes #1578",2016-05-14,Merged,1679,46,3,,1
+Use HTTPS for API requests,2016-04-23,Merged,1678,55,55,,21
+Restrict metadata refresh of missing/virtual episodes,2016-04-23,Merged,1677,21,3,,1
+OmdbProvider: Added local caching,2016-05-13,Closed,1676,138,75,,3
+Dev,2016-04-22,Merged,1675,"40,193","2,059",json js ,15
+Use HTTPS for API requests,2016-04-23,Closed,1674,55,55,,21
+"Dlna: Stop SSDP if disabled, Fixes #1578",2016-04-23,Closed,1673,35,3,,1
+merge from master,2016-04-20,Merged,1671,113,77,,17
+merge from master,2016-04-20,Merged,1670,113,77,,17
+Dev,2016-04-20,Merged,1669,68,28,csproj js html png json ,19
+Dev,2016-04-20,Merged,1668,106,53,json js html ,17
+Dev,2016-04-19,Merged,1667,221,311,json js yml html editorconfig gitattributes gitignore jshintrc zip ,17
+Dev,2016-04-18,Merged,1666,"9,143",414,,16
+3.0.5930,2016-04-17,Merged,1665,1,1,,1
+3.0.5930,2016-04-17,Merged,1664,1,1,,1
+merge from master,2016-04-17,Merged,1663,8,2,cs ,2
+merge from master,2016-04-17,Merged,1662,1,1,,1
+Beta,2016-04-17,Merged,1661,58,26,js ,6
+update version,2016-04-17,Merged,1660,51,19,js ,3
+update inherited tags,2016-04-17,Merged,1659,6,6,js ,2
+Beta,2016-04-16,Merged,1658,1,1,,1
+update people validator,2016-04-16,Merged,1657,1,1,,1
+Beta,2016-04-16,Merged,1656,2,1,,2
+update sidebar,2016-04-16,Merged,1655,2,1,,2
+merge from master,2016-04-16,Merged,1654,0,0,,0
+Beta,2016-04-16,Merged,1653,"30,139","19,135",cs csproj ,25
+update quality pickers,2016-04-16,Merged,1652,11,7,js ,3
+Dev,2016-04-16,Merged,1651,"1,520","1,029",json ,7
+Dev,2016-04-16,Merged,1650,524,386,csproj json ,12
+Dev,2016-04-15,Merged,1649,334,74,,8
+fix tabs,2016-04-13,Merged,1647,161,42,css html js ,15
+Dev,2016-04-13,Merged,1646,828,367,json js map md ,20
+qsv encode liveTV,2016-04-14,Merged,1645,4,4,,1
+Dev,2016-04-12,Merged,1644,46,35,config csproj ,5
+Dev,2016-04-12,Merged,1643,719,"4,768",json js css ,14
+Dev,2016-04-11,Merged,1642,"1,304","3,073",csproj ,6
+merge from master,2016-04-10,Merged,1641,297,415,xml csproj json ,16
+Dev,2016-04-09,Merged,1640,419,572,,5
+Dev,2016-04-08,Merged,1638,570,226,csproj ,16
+qsv encode live tv,2016-04-12,Closed,1637,8,6,,1
+Dev,2016-04-07,Merged,1636,"1,212",763,csproj json js map html css ,23
+Dev,2016-04-06,Merged,1635,135,111,html json ,20
+Dev,2016-04-05,Merged,1632,350,207,js css html ,13
+allow disabling of hardware transcoding on HDTC-2US (dev),2016-04-07,Merged,1631,14,3,html js json ,5
+fix transcoding profiles for HDHomeRun Extend (dev),2016-04-07,Merged,1630,3,10,,1
+Dev,2016-04-05,Merged,1629,"10,721",157,json js md html ,12
+Dev,2016-04-04,Merged,1628,353,455,csproj config json ,4
+allow disabling of hardware transcoding on HDTC-2US,2016-04-05,Closed,1627,14,3,html js json ,5
+fix transcoding profiles for HDHomeRun Extend,2016-04-05,Closed,1626,3,10,,1
+Dev,2016-04-04,Merged,1625,"1,549","1,044",cs ,3
+Dev,2016-04-03,Merged,1624,778,732,csproj json js css ,11
+update subtitle encoding,2016-04-03,Merged,1622,45,26,,5
+update subtitles,2016-04-02,Merged,1620,33,20,,3
+Dev,2016-04-02,Merged,1619,28,20,js ,10
+Dev,2016-04-02,Merged,1617,"2,242",621,,9
+Bugfix: Timezone-Adjustments for Premiere and Air Dates Lead to Invalid Data,2016-06-04,Closed,1616,13,17,,9
+Dev,2016-03-31,Merged,1613,"10,408","8,675",cs ,37
+merge from master,2016-03-28,Merged,1608,3,3,,2
+merge from master,2016-03-28,Merged,1607,2,2,,2
+Beta,2016-03-27,Merged,1606,30,13,bat js ,10
+Remove unused code...,2016-03-28,Merged,1605,282,977,,37
+Fix typo,2016-03-27,Merged,1604,2,3,,1
+fix remote control menu,2016-03-27,Merged,1602,5,1,,1
+Dev,2016-03-26,Merged,1601,87,44,csproj bat ,10
+merge from master,2016-03-26,Merged,1600,63,33,cs ,2
+Beta,2016-03-26,Merged,1599,7,2,html ,2
+update latest items display,2016-03-26,Merged,1598,7,2,html ,2
+Beta,2016-03-26,Merged,1597,21,18,js ,7
+Dev,2016-03-26,Merged,1596,21,18,js ,7
+Beta,2016-03-25,Merged,1595,11,11,,1
+update project,2016-03-25,Merged,1594,11,11,,1
+Beta,2016-03-25,Merged,1593,"76,291","19,013",config cs ,8
+update take the tour,2016-03-25,Merged,1592,17,14,png js ,13
+update startup wizard,2016-03-25,Merged,1591,1,2,,1
+Beta,2016-03-25,Closed,1590,"76,277","19,001",config cs ,8
+Dev,2016-03-25,Merged,1589,940,466,json js ,10
+update music queries,2016-03-25,Merged,1588,48,152,js ,7
+add critic rating column,2016-03-25,Merged,1587,117,100,json md html ,10
+Dev,2016-03-25,Merged,1585,22,2,js ,3
+Dev,2016-03-24,Merged,1584,107,38,csproj ,7
+Dev,2016-03-24,Merged,1583,511,585,json woff2 woff css html ,22
+MovieDbEpisodeProvider: Implement GetSearchResults to allow usage from auto-organize,2016-03-24,Merged,1580,29,2,,1
+Dev,2016-03-24,Merged,1579,379,431,json js css ,10
+Dev,2016-03-23,Merged,1577,291,117,config cs json ,27
+TheTVDB Episode Provider: Fixed incorrect fallback to absolute episode numbering,2016-03-23,Merged,1576,23,23,,1
+update components,2016-03-22,Merged,1575,9,11,css js ,3
+Dev,2016-03-22,Merged,1574,623,343,,6
+Dev,2016-03-22,Merged,1573,283,469,,7
+Dev,2016-03-21,Merged,1572,198,260,,4
+Dev,2016-03-20,Merged,1570,50,24,json js ,8
+update db querying,2016-03-20,Merged,1569,26,60,,1
+Dev,2016-03-20,Merged,1568,176,224,,4
+update playlist querying,2016-03-20,Merged,1567,10,2,,2
+Dev,2016-03-20,Merged,1566,706,339,,6
+Dev,2016-03-19,Merged,1565,117,474,csproj ,22
+fix indicators,2016-03-19,Merged,1564,3,3,,1
+Dev,2016-03-19,Merged,1563,"3,446","3,032",,12
+Introduced or adjusted 'define' pattern in script files for explicit declaration of jQuery dependency,2016-03-19,Merged,1560,232,234,,31
+Added jQuery as local dependency for components,2016-03-19,Merged,1559,21,21,,21
+Dev,2016-03-18,Merged,1558,"2,669",282,json ,11
+update multi-tuner support,2016-03-17,Merged,1556,97,32,,3
+Dev,2016-03-17,Merged,1555,"4,506",739,json ,5
+Dev,2016-03-17,Merged,1554,967,103,,1
+update lg dlna profile,2016-03-17,Merged,1553,6,6,xml ,2
+Dev,2016-03-17,Merged,1552,"9,416",307,cs ini ,22
+Dev,2016-03-16,Merged,1551,412,369,csproj json js html ,14
+Dev,2016-03-16,Merged,1550,"9,397","6,835",csproj html ,7
+Dev,2016-03-14,Merged,1549,215,64,config cs json js md map html ,19
+Dev,2016-03-14,Merged,1548,376,226,json js ,19
+Dev,2016-03-13,Merged,1546,"1,426","1,866",,9
+.,2016-03-12,Closed,1544,"40,848","3,419",,16
+Dev,2016-03-12,Merged,1543,905,652,csproj json js css ,10
+Dev,2016-03-11,Merged,1542,776,106,json js map ,17
+Re-Organize TV provider source files (no functional changes),2016-03-17,Merged,1541,17,17,cs ,18
+Trailers at Episode and Season Level,2017-05-16,Closed,1540,110,5,,2
+Dev,2016-03-09,Merged,1539,"36,001",143,json js ,14
+Dev,2016-03-08,Merged,1538,388,317,,14
+Dev,2016-03-07,Merged,1534,519,469,xml csproj config json js ,16
+Dev,2016-03-05,Merged,1533,"1,460",903,,10
+update components,2016-03-04,Merged,1531,15,25,js html ,4
+Dev,2016-03-04,Merged,1530,448,209,cs ,2
+Beta,2016-03-03,Merged,1528,3,3,config nupkg dll ,5
+update SocketHttpListener,2016-03-03,Merged,1527,3,3,config nupkg dll ,5
+Beta,2016-03-03,Merged,1526,4,4,,1
+Dev,2016-03-03,Merged,1525,4,4,,1
+Beta,2016-03-03,Merged,1523,115,523,,1
+Dev,2016-03-03,Merged,1522,115,523,,1
+merge from master,2016-03-03,Closed,1521,2,2,,1
+Beta,2016-03-03,Merged,1520,900,882,,4
+update components,2016-03-03,Merged,1519,21,9,js ,3
+merge from master,2016-03-03,Merged,1518,1,1,,1
+fix live tv auto-organize,2016-03-03,Merged,1517,4,0,,1
+Dev,2016-03-03,Merged,1516,884,882,,3
+Created new Metadata provider for TheMovieDB: MovieDbEpisodeProvider,2016-03-03,Merged,1515,447,208,cs ,2
+Beta,2016-03-02,Merged,1514,"57,990","102,572",cs config ,9
+Dev,2016-03-02,Merged,1513,124,116,json js html ,12
+Dev,2016-03-02,Merged,1512,518,278,html json ,11
+dlna fix,2016-03-01,Merged,1511,9,5,,3
+dlna fix,2016-03-01,Merged,1510,8,24,,1
+Dev,2016-03-01,Merged,1509,414,489,xml ,28
+Dev,2016-02-29,Merged,1508,608,87,json WebDashboard/dashboard-ui/bower_components/emby-webcomponents/LICENSE ,9
+Auto-Organize: Async operation and instant feedback UI,2016-08-19,Closed,1507,590,310,csproj html js css ,12
+Collection of fixes for Auto-Organize,2016-08-05,Closed,1506,25,8,js ,2
+Dev,2016-02-28,Merged,1505,575,73,json WebDashboard/dashboard-ui/bower_components/emby-apiclient/LICENSE ,5
+Dev,2016-02-28,Merged,1504,24,12,json html js ,7
+Dev,2016-02-27,Merged,1503,"31,691","39,574",csproj js json ,5
+Dev,2016-02-27,Merged,1502,131,214,csproj config js css ,8
+AutoOrganize new Series - Backend Implementation,2016-02-28,Merged,1501,165,8,js html ,5
+Dev,2016-02-26,Merged,1500,808,"2,921",csproj config ,12
+handle recordings with null paths,2016-02-26,Merged,1499,47,18,css ,6
+Dev,2016-02-25,Merged,1498,983,"1,122",config cs xml ,30
+Dev,2016-02-25,Merged,1497,"3,593","3,051",cs ,4
+Updates To EmbyTV with emphasis on merging multiple sources,2016-05-07,Closed,1496,794,677,,5
+Fody Update,2016-02-25,Merged,1495,131,247,config xml targets nupkg nuspec dll pdb ps1 ,36
+Dev,2016-02-24,Merged,1494,"3,108",890,,13
+Dev,2016-02-23,Merged,1492,"9,755","49,626",xml ,16
+M3u Parser Improvements,2016-02-23,Merged,1491,40,24,,1
+Autoorganizenewseries,2016-02-26,Closed,1490,20,24,html ,2
+Dev,2016-02-22,Merged,1489,248,127,js html json ,20
+Allow build in Visual 2015 Update Fody,2016-02-22,Merged,1488,100,385,xml csproj config sln ,8
+Dev,2016-02-21,Merged,1487,652,251,,15
+Auto-Organize fixes,2016-02-29,Closed,1486,11,1,js html ,3
+"music lyricist, writer",2016-02-21,Merged,1485,24,0,,2
+merge from dev,2016-02-21,Merged,1483,"1,015",689,,7
+Capture lyricist and writer for songs,2016-02-21,Closed,1482,979,955,,0
+Dev,2016-02-20,Merged,1480,82,54,js css html ,17
+Multi-Source for EmbyTV,2016-02-25,Closed,1479,614,396,,5
+Dev,2016-02-19,Merged,1478,634,787,,10
+Multiple sources for EmbyTV,2016-02-19,Closed,1477,87,4,csproj js html ,9
+merge from dev,2016-02-18,Merged,1476,"4,695","3,887",,3
+merge from master,2016-02-18,Merged,1475,13,4,cs ,2
+Smart Match Activation,2016-02-18,Closed,1474,14,5,js ,5
+Update voice components,2016-02-23,Merged,1473,"1,657",459,md js ,5
+Beta,2016-02-16,Merged,1472,826,"2,094",csproj config html json css js ,17
+Dev,2016-02-16,Merged,1471,825,"2,093",csproj config html json css js ,17
+Beta,2016-02-16,Merged,1469,2,2,,1
+Dev,2016-02-16,Merged,1468,"1,682","3,706",csproj config json js css ,19
+merge from dev,2016-02-15,Merged,1467,986,"1,758",csproj json js css ,8
+Beta,2016-02-15,Merged,1465,14,13,,3
+update migration process,2016-02-15,Merged,1464,14,13,,3
+Beta,2016-02-15,Merged,1463,572,410,csproj js ,7
+merge from dev,2016-02-15,Merged,1462,573,411,csproj js ,7
+update mac project,2016-02-14,Merged,1460,"3,724",538,,0
+update mac project,2016-02-14,Merged,1459,"3,724",538,,0
+merge from master,2016-02-14,Merged,1458,223,83,,0
+merge from master,2016-02-14,Merged,1457,1,1,,1
+merge from beta,2016-02-14,Merged,1456,"75,966","98,667",csproj ,7
+Dev,2016-02-14,Merged,1455,377,"89,884",html js ,11
+merge from beta,2016-02-14,Closed,1454,"75,745","98,586",csproj ,7
+update search results,2016-02-14,Merged,1453,31,8,,5
+Dev,2016-02-14,Merged,1452,136,96,,5
+Dev,2016-02-13,Merged,1451,142,30,html ,4
+Dev,2016-02-13,Merged,1450,289,194,csproj html json js ,15
+Organizedialogascomponent,2016-02-13,Merged,1449,720,112,html js ,3
+Dev,2016-02-13,Merged,1448,67,45,html js ,22
+Dev,2016-02-12,Merged,1447,84,41,js html json ,14
+update config page,2016-02-12,Merged,1446,9,5,js json ,4
+add recording encoding setting,2016-02-12,Merged,1445,365,19,,5
+Dev,2016-02-12,Merged,1444,93,79,html css ,23
+fix GetOtherDuplicatePaths,2016-02-11,Merged,1443,1,1,,1
+Dev,2016-02-11,Merged,1442,28,6,json html ,13
+merge from dev,2016-02-11,Merged,1441,"1,706",614,csproj ,9
+merge from dev,2016-02-10,Merged,1439,67,90,html css js json ,13
+Dev,2016-02-09,Merged,1438,117,82,html json js ,17
+Merge from dev,2016-02-09,Merged,1437,768,484,csproj html json yml md ,12
+Merge from dev,2016-02-08,Merged,1436,"2,919","3,164",csproj ,14
+Auto-Organize - Feature to remember/persist series matching in manual organization dialog: Changed to match against plain library name instead of library item GUID.,2016-02-13,Merged,1435,15,16,html ,6
+Merge from dev,2016-02-06,Merged,1433,"66,327","2,464",cs ,9
+Supersedes #1192: Auto-Organize - Added feature to remember/persist series matching in manual organization dialog,2016-02-07,Merged,1432,434,28,csproj ,9
+Update IsFolderComparer.cs,2016-02-06,Merged,1431,1,1,,1
+Merge from beta,2016-02-02,Merged,1430,"33,006","10,209",cs config ,14
+merge from master,2016-02-01,Merged,1429,1,1,,1
+Beta,2016-02-01,Merged,1428,"25,639","6,419",cs config ,17
+Add support for Trailers at Season level and Episode Level,2016-03-10,Closed,1426,564,11,targets csproj ,7
+Add support for Trailers at Season level and Episode Level,2016-01-28,Closed,1425,61,2,,2
+Merge pull request #1416 from MediaBrowser/beta,2016-01-20,Merged,1417,0,0,,0
+Beta,2016-01-20,Merged,1416,2,27,,3
+Merge pull request #1414 from MediaBrowser/beta,2016-01-20,Merged,1415,0,0,,0
+Merge pull request #1413 from MediaBrowser/master,2016-01-20,Merged,1414,0,0,,0
+merge from master,2016-01-20,Merged,1413,1,1,,1
+merge from beta,2016-01-20,Merged,1412,438,101,csproj html json js ,17
+merge from beta,2016-01-20,Closed,1411,1,1,,1
+merge from beta,2016-01-19,Merged,1409,"81,722","27,570",cs config dll ,16
+Fix lots of it's to its,2016-01-19,Closed,1407,72,72,json ,10
+Capitalize API,2016-01-19,Merged,1406,1,1,,0
+Capture lyricist and writer for audio tracks,2016-02-21,Closed,1405,26,2,,2
+Capture lyricist and writer for music,2016-01-18,Closed,1403,957,930,,0
+Beta,2016-01-12,Merged,1402,"54,802","5,645",cs config ,14
+New dashboard function for response error handling,2016-04-23,Closed,1401,19,2,,3
+merge from master,2016-01-12,Merged,1400,"4,676","1,575",xml ,25
+merge from master,2016-01-12,Merged,1399,122,23,html js ,13
+Extended OmdbItemProvider to support series episodes,2016-01-12,Merged,1398,194,9,csproj ,8
+merge from master,2016-01-08,Merged,1397,"4,555","1,553",xml ,25
+Report Fixes,2016-01-12,Merged,1396,95,9,html js ,6
+Beta,2016-01-06,Merged,1395,"4,602","1,576",dll cs xml ,12
+merge from master,2016-01-06,Merged,1394,5,5,cs ,2
+merge from master,2016-01-06,Merged,1393,5,5,cs ,2
+merge from master,2016-01-02,Merged,1390,"1,566","1,250",csproj ,13
+Merge from master,2016-01-02,Merged,1389,"1,566","1,250",csproj ,13
+Fix issue where shows without icons would use the last icon that was displayed,2016-01-12,Merged,1386,2,2,,1
+New dashboard function for response error handling,2016-01-12,Closed,1385,19,2,,3
+merge from beta,2015-12-30,Closed,1384,380,124,xml ,24
+Beta,2015-12-29,Merged,1383,683,611,json js html ,13
+ServerConfigurationManager: Check if a specified SSL certificate can be used when configuration is saved,2015-12-29,Merged,1382,37,0,,1
+Improve dashboard error reporting,2015-12-29,Closed,1381,18,1,,2
+Various improvements for file and folder browsing,2016-02-04,Closed,1380,68,4,js ,14
+merge from beta,2015-12-29,Merged,1379,96,92,,9
+merge from beta,2015-12-29,Merged,1378,113,41,csproj config js nupkg dll ,11
+Fixed missing episode and season numbers when searching for episodes by date,2015-12-29,Merged,1377,60,18,,1
+Beta,2015-12-29,Closed,1376,113,41,csproj config js nupkg dll ,11
+update email,2015-12-28,Merged,1375,3,3,,1
+update email,2015-12-28,Merged,1374,3,3,,1
+add tuner error handling,2015-12-28,Merged,1373,20,6,,1
+add tuner error handling,2015-12-28,Merged,1372,20,6,,1
+throttle tmdb requests,2015-12-28,Merged,1371,15,2,,1
+throttle tmdb requests,2015-12-28,Merged,1370,15,2,,1
+update SocketHttpListener,2015-12-28,Merged,1369,3,3,config nupkg dll ,5
+update SocketHttpListener,2015-12-28,Merged,1368,3,3,config nupkg dll ,5
+Beta,2015-12-27,Merged,1367,720,664,csproj ,4
+3.0.5782.0,2015-12-27,Merged,1366,1,1,,1
+3.0.5782.0,2015-12-27,Merged,1365,1,1,,1
+Beta,2015-12-27,Closed,1364,719,663,csproj ,4
+merge from beta,2015-12-27,Merged,1363,"22,519","19,636",config cs ,10
+update animation,2015-12-27,Merged,1362,5,5,,2
+merge from master,2015-12-27,Merged,1361,9,17,js ps1 ,4
+merge from master,2015-12-27,Merged,1360,677,502,json js ,7
+merge from master,2015-12-27,Merged,1359,"1,058",479,,15
+update components,2015-12-23,Merged,1355,83,11,json js WebDashboard/dashboard-ui/bower_components/emby-webcomponents/LICENSE md ,9
+fix opera detection,2015-12-23,Merged,1354,6,1,,1
+merge from master,2015-12-23,Merged,1353,"1,659","1,239",csproj json md js ,5
+add StreamBuilder fix,2015-12-22,Merged,1352,1,1,,1
+update BdInfo probing,2015-12-22,Merged,1351,38,39,,2
+update MovieDbPersonProvider,2015-12-22,Merged,1350,17,4,,1
+merge from master,2015-12-21,Merged,1346,920,478,config cs js ,8
+update theme,2015-12-20,Merged,1345,6,1,,1
+update theme,2015-12-20,Merged,1344,1,3,,1
+update theme,2015-12-20,Merged,1343,13,6,,1
+update theme,2015-12-20,Merged,1342,5,0,,1
+update theme,2015-12-20,Merged,1341,479,8,js css ,3
+remove ImageType icon,2015-12-20,Merged,1340,0,2,,2
+fix file deletion,2015-12-19,Merged,1339,4,1,,1
+merge from master,2015-12-19,Merged,1338,15,166,,1
+Mediainfo,2015-12-19,Merged,1337,190,533,csproj ,4
+Mediainfo,2015-12-19,Merged,1336,189,22,,2
+update solution files,2015-12-19,Merged,1335,0,27,,2
+remove MediaInfo,2015-12-19,Merged,1334,11,494,cs ,4
+update translations,2015-12-19,Merged,1333,269,162,,19
+fix recording popup,2015-12-18,Merged,1332,3,2,,1
+require admin for edit buttons,2015-12-18,Merged,1331,22,20,,1
+require admin for refresh button,2015-12-18,Merged,1330,4,1,,1
+merge from master,2015-12-18,Merged,1329,5,2,cs ,2
+fix tvdb lookup by imdb id,2015-12-18,Merged,1328,41,5,,2
+merge from master,2015-12-17,Merged,1326,5,5,css ,2
+merge from master,2015-12-16,Merged,1324,"17,060",255,json WebDashboard/dashboard-ui/bower_components/emby-apiclient/LICENSE md js ,22
+add recording toast,2015-12-15,Merged,1323,17,12,json ,3
+rework dialog headers,2015-12-15,Merged,1322,31,42,html css ,5
+adjust padding,2015-12-15,Merged,1321,1,2,html ,2
+animate recording fields,2015-12-15,Merged,1320,77,27,js html css ,8
+update header text,2015-12-15,Merged,1319,5,3,json ,3
+schedule recordings with a dialog,2015-12-15,Merged,1318,"1,183",757,json yml md html ,6
+fixes #1313 - Button issue,2015-12-15,Merged,1317,7,0,,1
+update mobile chrome playback,2015-12-14,Merged,1316,8,7,,2
+Daily Episode Support for Auto-Organize - Closes #1145,2016-02-26,Closed,1315,"2,207",403,csproj ,11
+merge from master,2015-12-14,Merged,1314,7,5,,2
+update translations,2015-12-14,Merged,1312,30,30,,26
+update tabs,2015-12-14,Merged,1311,1,1,,1
+merge from master,2015-12-14,Merged,1309,14,5,css ,2
+update connect login,2015-12-14,Merged,1308,1,1,,1
+add animation delay,2015-12-14,Merged,1307,8,5,,1
+merge from dev,2015-12-14,Merged,1306,"36,500","58,279",,1
+merge from master,2015-12-14,Merged,1305,290,147,json ,7
+stop playback when ending chromecast session,2015-12-07,Merged,1301,4,1,,1
+fixes #1245 - Emby seems unable to find [REC] unless brackets are rem…,2015-12-07,Merged,1300,4,4,csproj config nupkg dll ,6
+fix null checks,2015-12-06,Merged,1299,7,2,,1
+merge from master,2015-12-03,Merged,1298,154,196,,15
+merge from master,2015-12-03,Merged,1297,47,26,csproj md ,6
+merge from master,2015-12-02,Merged,1295,41,23,,5
+shorten hls urls,2015-11-30,Merged,1294,4,4,,1
+merge from master,2015-11-30,Merged,1293,"1,185","1,073",,8
+update translations,2015-11-27,Merged,1289,"11,693","10,024",json ,3
+update translations,2015-11-27,Merged,1288,"3,765","3,765",,2
+merge from master,2015-11-27,Merged,1287,59,92,html js ,14
+fix fanart season images,2015-11-26,Merged,1286,1,1,,1
+back port model changes,2015-11-25,Merged,1285,11,16,,5
+merge from  master,2015-11-25,Merged,1284,531,522,xml json ,11
+3.0.5781.3,2015-11-24,Merged,1283,2,2,,2
+merge from master,2015-11-23,Merged,1281,121,107,,3
+update ConvertImageToLocal,2015-11-21,Merged,1280,7,0,,1
+merge from master,2015-11-21,Merged,1279,131,52,,9
+merge from master,2015-11-21,Merged,1278,159,119,csproj ,6
+merge from master,2015-11-16,Merged,1275,2,2,,2
+fix yellow bars in chrome forms,2015-11-15,Merged,1273,16,0,,2
+fixes #1110 - Webplayer: Mouseover should move subtitles,2015-11-14,Merged,1272,12,0,,1
+added query types,2015-11-14,Merged,1271,3,1,,1
+adjust default user config,2015-11-14,Merged,1270,1,1,,1
+merge from master,2015-11-13,Merged,1269,45,14,html ,7
+Support QSV decoder for LiveTV,2015-11-13,Closed,1268,35,1,,4
+update README.md,2015-11-13,Merged,1267,2,2,,0
+update image sizes,2015-11-13,Merged,1266,4,18,css js ,4
+update use of FileAttributes,2015-11-12,Merged,1265,10,11,,7
+update metadata config page,2015-11-12,Merged,1264,1,1,,1
+update image sizing,2015-11-12,Merged,1263,48,25,js ,3
+merge from master,2015-11-12,Merged,1262,176,119,,5
+update default metadata options,2015-11-12,Merged,1261,23,1,,1
+update movie db provider,2015-11-12,Merged,1260,3,18,,1
+merge from master,2015-11-12,Merged,1259,14,69,,4
+reduce polling interval,2015-11-12,Merged,1258,3,3,,3
+update metadata config page,2015-11-12,Merged,1257,2,2,,1
+merge from master,2015-11-12,Merged,1254,4,4,,2
+merge from master,2015-11-08,Merged,1252,51,20,,4
+update subtitle extraction,2015-11-06,Merged,1251,1,8,,1
+Fix exception when episode title is null,2015-11-01,Merged,1246,9,1,,1
+mark fanart images,2015-10-31,Merged,1244,1,1,,1
+merge from master,2015-10-30,Merged,1242,33,4,csproj ,6
+update dynamic images,2015-10-30,Merged,1241,20,113,,7
+update tuner pooling,2015-10-30,Merged,1240,80,26,,3
+merge from master,2015-10-30,Merged,1239,34,16,,3
+update recording creation,2015-10-29,Merged,1238,18,7,,1
+update fanart music api,2015-10-29,Merged,1237,170,434,,1
+add more migration error handling,2015-10-28,Merged,1236,32,14,,1
+trim response logging,2015-10-28,Merged,1235,1,12,,1
+Add support for embedded subtitles in Kodi's DLNA profile,2015-11-06,Merged,1234,16,0,xml ,2
+fix bad merge,2015-10-28,Merged,1233,"3,903","7,520",,0
+fix page caching breaking plugin config pages,2015-10-28,Merged,1232,"3,798",175,,0
+update PhotoAlbumImageProvider,2015-10-28,Merged,1231,9,5,,1
+fix button colors,2015-10-28,Merged,1230,16,0,,1
+handle GetImageSize failure,2015-10-28,Merged,1229,69,5,,1
+asdf,2015-11-06,Closed,1228,16,154,cs xib dll 6 Tools/Linux_Build_Scripts/mediabrowser/MediaBrowser gz ,10
+fix live tv in startup wizard,2015-10-27,Merged,1227,2,2,,1
+Merge from master,2015-10-27,Merged,1226,656,172,cs js ,6
+Fix bug where finished item is not removed from the playlist,2015-11-06,Closed,1224,2,1,,2
+3.0.5768.7,2015-10-26,Merged,1222,"223,965","83,848",exe targets cs csproj png ,9
+Fixed bug in librarybrowser.js,2015-12-24,Closed,1220,9,9,,1
+Reworked library refresh implementation,2016-05-26,Closed,1219,324,95,,3
+Remote-Search: Fixed providers to return year information when searching for series,2015-10-06,Merged,1214,126,3,,3
+Remote-Search:  Suppress duplicates when agregating results from multiple providers,2015-10-06,Merged,1213,45,9,,1
+"Added ""+"" button to TV Show page on Web Dashboard",2016-08-25,Closed,1211,383,3,csproj ,10
+Auto-Organize: PathTooLongException on source file should not break auto-organize task,2015-10-04,Merged,1210,17,2,,1
+Auto-Organize: Display errors in client on server exceptions,2015-10-05,Merged,1209,18,9,json ,3
+Auto-Organize: Display errors in client on server exceptions,2015-10-02,Closed,1208,"105,456","72,958",csproj ,7
+Auto-Organize: Fix PathTooLongException due to long EpisodeTitle,2015-10-02,Merged,1207,51,15,,1
+Remote-Search: Allow result aggregation of multiple providers,2015-10-01,Merged,1205,11,3,,1
+OmdbItemProvider: Use search instead of title API,2015-10-01,Merged,1204,32,4,,1
+3.0.5724.6,2015-09-30,Merged,1203,48,21,html js ,10
+Organize Movies,2016-08-06,Closed,1202,"2,222",401,csproj ,11
+Auto-Organize: Perform leftover-file and empty-folder deletion in processed folders only (targeting dev branch),2015-09-28,Merged,1201,31,25,,1
+Auto-Organize: Perform leftover-file and empty-folder deletion in processed folders only (#3),2015-09-27,Closed,1200,31,25,,1
+Auto-Organize: Perform leftover-file and empty-folder deletion in processed folders only (#2),2015-09-28,Closed,1199,31,25,,1
+Auto-Organize: Display errors in client on server exceptions,2015-10-02,Closed,1197,"105,456","72,958",csproj ,7
+Make sure to configure socket with Broadcast-options,2015-09-23,Merged,1195,2,2,,1
+Auto-Organize: Added feature to remember/persist series matching in manual organization dialog,2016-02-05,Closed,1192,"97,337","11,081",cs config ,14
+merge from master,2015-09-21,Merged,1190,80,28,js ,6
+Auto-Organize: Fix PathTooLongException due to long EpisodeTitle,2015-10-02,Closed,1189,"103,790","70,691",csproj ,7
+Add changes from dev,2015-09-20,Merged,1187,161,121,,12
+"Auto-Organize: Added new option ""Disable multi-episode detection""",2015-09-26,Closed,1186,51,1,html js json ,38
+Re-designed item identity providers,2015-09-23,Merged,1185,193,305,csproj ,16
+"Auto-Organize: Added new option ""Disable multi-episode detection""",2015-09-19,Closed,1184,8,2,,1
+Auto-Organize: Perform leftover-file and empty-folder deletion in processed folders only,2015-09-26,Closed,1183,31,25,,1
+Fix ffprobe keyframe detection on linux,2015-09-18,Merged,1182,1,1,,1
+Fix ffprobe keyframe detection on linux,2015-09-17,Closed,1181,1,1,,1
+Add ability to restart the windows service.,2016-09-15,Closed,1179,51,2,,1
+"Allow all ""bonus"" features always",2015-09-09,Closed,1176,12,87,,1
+Add ability to restart the windows service,2015-09-13,Closed,1175,63,2,csproj ,2
+MusicBrainz ids as Vorbis Comments,2015-09-05,Merged,1173,19,6,,1
+merge,2015-09-05,Merged,1172,88,17,csproj js ,6
+MusicBrainz ids as Vorbis Comments,2015-09-05,Closed,1168,19,6,,1
+3.0.5724.3,2015-09-02,Merged,1167,45,62,js cs ,5
+3.0.5724.2,2015-09-02,Merged,1165,10,5,cs ,3
+3.0.5724.1,2015-09-02,Merged,1164,"55,247","24,228",,5
+merge from master,2015-09-02,Merged,1163,"3,187",517,exe ,1
+Add QSV decoding support to ffmpeg transcoders,2015-09-18,Closed,1162,164,9,,9
+"Add Kodi DLNA profile, which direct plays everything",2015-08-25,Closed,1159,129,0,csproj xml ,4
+Do #1157 properly with relative urls.,2015-09-27,Closed,1158,15,15,,1
+Unsafe connection to http is prevented when using https.,2015-08-19,Merged,1157,15,15,,1
+Add support for more ssa tags in SrtParser,2015-09-05,Merged,1156,2,2,srt ,2
+Handle symlinks in library folders,2015-08-15,Merged,1155,6,3,,2
+Handle symlinks in library folders,2015-08-15,Closed,1154,6,3,,2
+Reports -  update localization,2015-07-28,Merged,1149,86,24,json ,6
+"Reports - Code cleanup, Added user image to Activities log, Export  u…",2015-07-27,Merged,1148,434,975,cs ,7
+add missing files,2015-07-16,Merged,1141,"20,829",1,,1
+3.0.5675.1,2015-07-16,Merged,1140,"15,830","2,734",,1
+3.0.5667.6,2015-07-12,Merged,1138,10,7,cs ,2
+Merge pull request #1136 from MediaBrowser/dev,2015-07-12,Merged,1137,0,0,,0
+Merge pull request #1135 from MediaBrowser/master,2015-07-12,Merged,1136,0,0,,0
+Merge pull request #1134 from MediaBrowser/dev,2015-07-12,Merged,1135,0,0,,0
+3.0.5667.5,2015-07-12,Merged,1134,66,50,csproj js css ,9
+merge,2015-07-12,Merged,1133,0,0,,0
+3.0.5666.9,2015-07-12,Merged,1132,48,42,cs ,3
+3.0.5666.8,2015-07-11,Merged,1130,834,842,,2
+merge,2015-07-11,Merged,1129,0,0,png ,6
+Replace logo,2015-07-11,Merged,1128,0,0,png ,6
+3.0.5641.5,2015-07-11,Merged,1127,"154,322","11,836",cs csproj ,12
+Connect WebSocket connect through Reverse Proxy,2015-11-18,Closed,1125,2,2,,1
+Add Emby to all webpage titles,2015-08-25,Closed,1123,1,1,,1
+3.0.5641.5,2015-06-19,Merged,1121,52,14,cs ttf ,6
+merge,2015-06-15,Merged,1119,0,0,,1
+3.0.5641.4,2015-06-15,Merged,1118,"24,433","22,903",dll cs ,14
+Reports - Add Users activities,2015-07-17,Merged,1117,"2,867","2,131",cs ,4
+Update logo,2015-06-04,Merged,1114,0,0,,1
+3.0.5621.4,2015-05-27,Merged,1111,46,30,csproj ,4
+3.0.5621.3,2015-05-26,Merged,1109,"23,990","16,175",csproj ,10
+Background fil and columns display fix,2015-05-26,Merged,1108,1,3,js ,2
+Fixed invalid Swagger parameter type,2015-05-25,Merged,1107,1,1,,1
+merge,2015-05-23,Merged,1106,36,6,,1
+Fix runtime display,2015-05-23,Merged,1103,7,4,,4
+Report loading fix,2015-05-18,Merged,1102,2,2,,1
+3.0.5607.2,2015-05-12,Merged,1100,"1,065",443,cs ,12
+3.0.5607.1,2015-05-10,Merged,1099,"1,129",789,csproj config css ,13
+3.0.5607.0,2015-05-08,Merged,1098,"13,581","8,937",,8
+Tweaks for Sony Bravia 2013 profile,2015-05-06,Closed,1096,11,41,xml ,3
+merge,2015-04-29,Merged,1092,3,3,,0
+3.0.5597.1,2015-04-29,Merged,1091,96,36,css js ,9
+merge,2015-04-28,Merged,1090,6,0,,1
+3.0.5597.0,2015-04-28,Merged,1089,831,591,cs config ,14
+3.0.5588.1 Stable,2015-04-22,Merged,1088,139,81,json ,3
+3.0.5588.0,2015-04-20,Merged,1087,713,225,,4
+Report manager implementation,2015-05-13,Merged,1086,"4,385",102,cs ,7
+merge,2015-04-17,Merged,1085,21,19,userprefs csproj plist cs ,5
+3.0.5582.4,2015-04-17,Merged,1084,4,4,cs ,2
+3.0.5582.3,2015-04-17,Merged,1083,664,627,csproj ,11
+3.0.5582.2,2015-04-16,Merged,1082,478,339,config cs ,10
+Mac,2015-04-15,Merged,1081,31,50,csproj ,2
+3.0.5582.1,2015-04-15,Merged,1080,195,280,csproj config ,14
+3.0.5582.0,2015-04-14,Merged,1079,"9,089","3,884",csproj ,3
+master,2015-04-14,Merged,1078,93,32,plist csproj md ,4
+3.0.5582.0,2015-04-14,Closed,1077,"9,097","3,891",csproj ,3
+Don't use DirectoryNotFound exception for control flow.,2015-04-12,Closed,1072,15,12,,1
+Added streamcopy logic to StreamBuilder,2015-04-22,Closed,1069,31,8,,1
+3.0.5572.0,2015-04-04,Merged,1068,68,42,,4
+add bulk sync remove,2015-04-04,Merged,1067,123,140,,8
+create user info from exchange token,2015-04-04,Merged,1066,33,5,,4
+remove copyts from hls,2015-04-03,Merged,1065,25,21,,3
+merge from master,2015-04-03,Merged,1064,13,3,,3
+Enable IsAnamorphic to function properly,2015-11-11,Closed,1063,112,20,,7
+fix hasMediaSources exception,2015-04-02,Merged,1062,24,13,js ,2
+resolve reverse proxy issue,2015-04-02,Merged,1061,24,27,js ,8
+release fixes,2015-04-01,Merged,1059,38,13,js ,8
+3.0.5569.0,2015-03-31,Merged,1058,"5,822","2,256",,2
+Recognize images by extension,2015-03-31,Closed,1055,13,1,,1
+Dev,2015-03-27,Closed,1054,"2,489",789,,4
+Add poster image to video player,2015-04-22,Merged,1053,27,2,,1
+Fix null reference exception when awaiting null.,2015-03-26,Merged,1052,3,3,,1
+3.0.5557.20000 Beta,2015-03-25,Merged,1051,"3,962","4,618",,10
+Merge pull request #1043 from MediaBrowser/dev,2015-03-25,Merged,1050,0,0,,0
+Fix season images not showing up when Emby starts.,2015-03-24,Merged,1049,4,4,,1
+Removed unnecessary checks + changed some stuff,2015-08-25,Closed,1047,31,34,html ,9
+Accept the formats {hostname} and {hostname}/ and http://{hostname},2015-06-05,Closed,1046,21,0,,2
+Add clear button back into auto organize page,2015-03-30,Closed,1045,67,34,html ,34
+Add clear button back into auto organize page,2015-03-19,Closed,1044,1,1,,1
+3.0.5557.0,2015-03-19,Merged,1043,"14,206","6,002",,5
+Expose Https,2015-03-19,Merged,1042,2,0,,1
+More logical page load on item delete,2015-03-19,Closed,1041,19,1,,1
+Expose HTTPS,2015-03-16,Merged,1040,2,0,,1
+Add playlist next/previous buttons to video player,2015-03-14,Merged,1038,59,16,js ,4
+Dev,2015-03-14,Closed,1037,"1,076",49,csproj ,14
+ADS - Added Live TV Movie Guide,2015-03-14,Closed,1036,993,55,csproj ,12
+Preferences should dismiss when you hit 'OK',2015-03-11,Closed,1035,1,1,,1
+Transcode segments,2015-03-07,Closed,1034,5,3,,1
+Close thread handle after suspend/resume,2015-03-04,Merged,1033,10,5,,1
+Throttle with priority instead of pausing threads.,2015-03-02,Closed,1031,43,160,,8
+Add Flac to Samsung direct play profile,2016-02-23,Closed,1030,6,0,,1
+Prototype 3 of max task length for scheduled tasks.,2015-03-04,Merged,1029,124,37,csproj ,8
+Task based approach to delay,2015-02-26,Closed,1028,114,13,csproj ,18
+Prototype of max task length for scheduled tasks.,2015-03-04,Closed,1026,133,45,csproj ,9
+Changes from master,2015-02-21,Merged,1025,2,2,,2
+3.0.5518.6,2015-02-21,Closed,1024,1,1,,1
+fix reference in MovieDbSeriesProvider,2015-02-20,Merged,1023,2,1,,1
+firefox transcoding fix,2015-02-20,Merged,1021,3,0,,1
+path header,2015-04-22,Closed,1020,19,3,js ,2
+Merge from master,2015-02-20,Merged,1019,19,7,nuspec ,5
+Merge from master,2015-02-20,Merged,1018,24,1,,1
+Dev updates,2015-02-19,Merged,1017,99,89,,2
+3.0.5518.5,2015-02-19,Merged,1016,"1,550",456,,19
+Update TvShowsService.cs,2015-02-18,Closed,1014,1,1,,1
+Added support for pinning the page for Win8/WP8,2015-02-16,Merged,1013,5,0,csproj png ,3
+3.0.5518.4,2015-02-13,Merged,1012,537,334,json ,9
+3.0.5518.3,2015-02-11,Merged,1010,15,7,js ,7
+Merge main to dev,2015-02-11,Merged,1009,43,51,csproj ,3
+3.0.5518.2,2015-02-11,Merged,1008,103,147,json csproj js ,13
+3.0.5518.1,2015-02-10,Merged,1006,"21,584","21,569",json ,13
+3.0.5518.0,2015-02-09,Merged,1005,"43,040","29,937",,5
+TV Guide starts at current time and is based on 1 minute increments,2015-04-14,Closed,1002,118,71,js ,2
+TV Guide starts at current time and is based on 1 minute increments,2015-02-06,Closed,1000,48,41,js ,2
+Utah,2015-02-05,Closed,999,"19,830","9,871",,5
+TV Guide patch,2015-02-06,Closed,998,10,19,js ,2
+Merge master changes,2015-02-01,Merged,996,18,10,cs csproj ,4
+Bluebull32 patch 1,2015-01-31,Merged,995,16,2,,2
+QuickSync updates and NVENC support,2015-02-02,Closed,994,81,14,,1
+Compatibility of csproj under MonoDevelop,2016-01-18,Closed,993,200,3,sln ,11
+Don't sleep too long responding to dlna search requests.,2015-01-28,Merged,992,29,12,,1
+QuickSync updates and NVENC support,2015-01-30,Closed,991,"2,219",707,,3
+Fix DLNA status reporting,2015-01-23,Merged,990,1,1,,1
+Create self signed cert if one does not exist,2015-01-19,Merged,986,572,1,csproj ,6
+Fix ssl port info on dashboard,2015-01-19,Merged,985,7,0,,2
+Show ssl port on dashboard,2015-01-17,Merged,984,12,2,cs js ,3
+If using https make remote url reflect that.,2015-01-17,Merged,983,1,1,,1
+Fixed typo in install instructions. `cd` was misspelled as `rd`.,2015-01-16,Merged,981,1,1,,0
+3.0.5490.2,2015-01-12,Merged,978,1,1,,1
+adjust supported expressions in mixed mode,2015-01-12,Merged,977,4,5,csproj config nupkg dll ,7
+fix tour image,2015-01-12,Merged,976,9,0,,2
+3.0.5490.1,2015-01-11,Merged,975,10,10,,2
+3.0.5490.0,2015-01-11,Merged,974,"1,749",590,csproj ,9
+3.0.5482.4,2015-01-10,Merged,971,"2,038","1,122",,15
+Customisations for Intel QuickSync encoding,2015-02-02,Closed,970,86,17,,1
+Ssl in mediabrowser against new listener.,2015-01-17,Merged,969,134,13,json html js ,12
+Ssl in mediabrowser against new listener.,2015-01-08,Closed,968,396,96,,12
+3.0.5482.1,2015-01-05,Merged,967,53,52,,5
+adjust imdb id parsing,2015-01-04,Merged,966,26,23,,3
+3.0.5482.0,2015-01-04,Merged,965,"21,778","13,042",,6
+Add imdbid detection from media file,2015-01-04,Merged,962,24,5,,2
+UpdateWindows81Profile,2015-01-02,Merged,961,8,0,,1
+Update Windows81Profile.cs,2015-01-02,Closed,960,10,2,,1
+Fix authentication bug for usernames with special characters,2015-02-22,Closed,957,2,1,,1
+3.0.5464.40000,2014-12-17,Merged,956,655,290,csproj ,11
+merge from master,2014-12-14,Merged,955,12,6,,1
+3.0.5462.0,2014-12-14,Merged,954,"5,368","3,418",csproj ,12
+"Fixing dllmap entry for libwebp, needed version in so name.",2014-12-14,Merged,953,2,2,,1
+Adding version number to so name of libwebp for dllmap.,2014-12-14,Merged,952,2,2,,1
+Removed unused using statements...,2014-12-27,Closed,951,129,166,,45
+Resolve 1440px dashboard layout conflict & keep notification nav buttons inside div,2015-01-02,Merged,950,2,2,,1
+Resolve 1440px Dashboard Layout conflict,2014-12-01,Closed,949,2,2,,1
+Removed max from Pre & Post padding minutes,2014-11-13,Merged,947,6,6,,3
+Updated README for Docker.,2014-11-10,Merged,942,3,3,,0
+Update MainStartup.cs,2014-11-07,Merged,940,1,1,,1
+Docker,2014-10-24,Merged,938,3,2,sh ,2
+Merge,2014-10-20,Closed,937,11,7,,3
+Update docker image to use debian package.,2014-10-15,Merged,936,11,9,sh ,2
+Update docker image to use debian package.,2014-10-13,Closed,935,11,9,sh ,2
+Adding the 192kbps bitrate to link the new 144p resolution now available...,2015-03-30,Closed,933,2,1,,1
+Adding the 144p resolution into the webclient,2015-03-30,Closed,932,3,2,,1
+Add EpisodeName to the LiveTv Controller,2014-10-06,Closed,930,10,0,,2
+MediaInfo build fixes for Mono,2014-09-23,Merged,928,10,0,config so 0 ,8
+Replace favicon,2014-09-17,Merged,926,0,0,,1
+map more systems to linux build,2014-09-15,Merged,923,4,4,,2
+fixes for mono build,2014-09-15,Merged,922,5,1,cs ,2
+"revert websocketsharp to old version, new version breaks *nix builds",2014-09-14,Closed,921,0,0,,1
+Update Dockerfile with support for UPnP and UDP server,2014-09-09,Merged,917,6,1,,1
+Handle srt files with extra whitespace in closintag,2016-02-22,Closed,911,15,2,srt ,3
+fixes for mono build,2014-08-31,Merged,909,21,11,csproj so sh ,5
+Fix DLNA browsing not working on several items,2014-08-31,Merged,908,1,1,,1
+Fork,2014-08-30,Merged,906,13,3,,2
+make sure start and end times are different,2014-08-29,Merged,905,10,1,,1
+change newline value,2014-08-24,Merged,900,5,5,,5
+Testing,2014-08-23,Merged,899,52,1,html js ,3
+Update ExternalPortForwarding.cs,2014-08-11,Merged,891,31,8,,1
+changes to allow mono builds (in linux),2014-08-06,Merged,890,22,21,csproj ,11
+update nuget.exe so package restore works,2014-08-01,Merged,884,0,0,,1
+Chrome Companion (extension) icon,2014-07-15,Merged,876,6,1,js ,2
+Changed the service startup process not to wait for init,2014-07-19,Merged,875,12,12,,1
+Chromecast update,2014-07-08,Merged,872,412,402,,0
+add multi-episode support for filenames without seasons,2014-07-03,Merged,863,18,4,,2
+Fix RTMP issue,2014-06-30,Merged,858,1,1,,1
+Unraid,2014-06-26,Merged,856,3,5,,1
+Update posteritem.css,2014-06-25,Merged,855,3,1,,1
+Adjusted Dockerfile to build from official release available on Dropbox.,2014-06-24,Merged,854,21,29,md sh ,2
+Update site.css,2014-06-23,Merged,853,4,1,,1
+Partial fix for some issues with absolute episodes (those not in a season),2014-06-20,Merged,849,41,31,,5
+Docker,2014-06-18,Merged,848,104,0,Docker/LICENSE md sh ,3
+Make chapter text easier to read by adding an outline,2014-06-29,Closed,847,246,265,,0
+Align chapter thumbs vertically,2014-06-16,Merged,846,4,0,,1
+Fix for VTT writer,2014-06-13,Merged,842,1,1,,1
+Add myself to the contributors,2014-06-09,Merged,840,2,1,,0
+Layout and playlist fixes,2014-06-05,Merged,837,12,2,js ,3
+Layout and playlist fixes,2014-06-04,Closed,836,15,4,js ,5
+Fix for broken login,2014-05-30,Closed,833,8,0,js ,3
+"""Wait"" cursor when channels loading",2014-05-29,Closed,832,3,0,,1
+Channel fix - check max page size,2014-05-29,Closed,831,43,33,js ,2
+Video player full browser window,2014-05-28,Merged,830,1,10,,2
+Notifications list updates,2014-05-28,Merged,828,19,8,js ,2
+Added notification list page,2014-05-27,Merged,826,195,61,csproj css html js ,6
+"""Latest"" grouping",2014-05-21,Closed,825,107,13,,3
+My library icons updates,2014-05-19,Merged,824,209,52,js ,3
+"""My Library"" icons",2014-05-19,Merged,823,49,0,,1
+Fix for IE autoplay/controls,2014-05-15,Merged,822,5,3,,1
+Fix for media player thumbs,2014-05-14,Merged,821,9,9,,1
+Fix for key capture,2014-05-14,Merged,820,1,1,,1
+Updated default subtitle selection logic,2014-05-12,Merged,818,29,13,,1
+PS3 Dlna fix,2014-05-12,Merged,817,4,2,,1
+add VTT writer implementation,2014-05-11,Merged,816,151,2,csproj vtt ,4
+Implement parsers,2014-05-11,Merged,815,353,9,csproj ,4
+handle empty fields result,2014-05-10,Merged,814,4,2,,1
+fix episodes subtitles pull,2014-05-09,Merged,813,24,63,,2
+Reset system idle timer when an HTTP request is received,2014-05-09,Closed,812,34,0,cs ,3
+Item identity providers,2014-06-12,Merged,811,382,56,csproj ,7
+finish implementation of opensubtitles downloader,2014-05-05,Merged,810,44,16,,3
+DLNA Didl improvements,2014-05-03,Merged,809,5,1,,1
+Fix for subtitles,2014-05-03,Merged,808,2,0,,1
+VTT,2014-05-31,Closed,805,74,11,css js ,5
+Repositioned position slider,2014-05-31,Closed,804,20,7,js ,2
+Video player updates,2014-05-05,Closed,803,410,135,,1
+Cast updates,2014-04-27,Merged,802,31,21,,1
+"Cast, video player and now playing bar updates",2014-04-27,Closed,801,534,174,css js ,5
+Cast updates,2014-04-18,Merged,788,26,14,,2
+Video player CSS updates,2014-04-17,Merged,787,10,2,,2
+Chromecast updates,2014-04-16,Merged,786,479,498,,0
+Webm adjustments to cpu threads and quality,2014-04-16,Merged,785,8,6,,2
+CSS update,2014-04-16,Merged,784,10,14,,1
+Don't fetch series images from season data if season offset is 0,2014-04-15,Merged,783,1,1,,1
+Dlna Server Discovery fix,2014-04-15,Merged,782,7,5,,1
+DLNA GeneralCommand fix,2014-04-14,Merged,781,1,1,,1
+Cast updates and lazy loading,2014-04-10,Merged,777,612,124,csproj css ,3
+PlayTo Error 500 fix,2014-04-09,Merged,776,3,3,,1
+Poster image lazy loading,2014-04-10,Closed,775,98,9,csproj css js ,7
+PlayTo GetTransportInfo fix,2014-04-08,Merged,774,1,1,,1
+DidlBuilder changes & Sonos Fix,2014-04-08,Closed,773,56,36,,2
+PlayTo changes,2014-04-08,Closed,771,22,16,,2
+Fixes DirectStreaming for Microsoft players,2014-04-07,Merged,770,5,16,,1
+Video stops if paused 5 minutes,2014-04-07,Merged,768,9,0,,1
+Time/volume player fix,2014-04-06,Merged,767,25,23,css ,1
+PlayTo Progressreporting,2014-04-06,Merged,766,20,17,,1
+Align chapter images to top in dash,2014-04-06,Closed,763,1,1,,1
+Stop judder in webm from high bitrate source files,2014-04-02,Merged,761,5,5,,1
+Video player updates,2014-04-01,Merged,760,188,99,css ,4
+Support series offset in missing episode provider,2014-03-31,Merged,758,141,44,,3
+DLNA Albumart exclusion,2014-03-28,Merged,757,5,5,,2
+Support anime series ordering within core providers,2014-03-27,Merged,756,141,19,cs sln ,12
+Identification bugfix,2014-03-26,Merged,755,6,0,,1
+Profile Identification and MediaCapabilities,2014-03-26,Closed,754,121,35,,19
+"Video player ""menu"" button added",2014-03-25,Merged,753,99,16,js ,5
+Minor updates,2014-03-25,Merged,752,7,4,html js ,5
+Chapter Thumbs - Remove crop & change thumb sample to 20,2014-03-25,Merged,751,7,6,,1
+DLNA Discovery and Profile fixes,2014-03-24,Merged,749,17,11,,3
+"Enable remote ""fullscreen""",2014-03-21,Merged,748,86,28,css js ,8
+Media player updates,2014-03-20,Merged,747,813,854,csproj css ,3
+Media player updates,2014-03-19,Merged,745,102,115,js ,4
+PlayTo Detection fix,2014-03-18,Merged,744,16,16,,1
+PlayTo BugFix and profile improvements,2014-03-18,Closed,743,41,17,,4
+Footer notification fix,2014-03-18,Merged,742,14,1,,1
+Video player fixes,2014-03-18,Merged,741,103,41,html js ,7
+Changes to DlnaFlags to support more devices,2014-03-18,Closed,740,2,2,,2
+Potential fix for PlayTo Pause error,2014-03-15,Closed,739,1,1,,1
+Updated PlayTo profiles and recognition,2014-03-15,Merged,738,221,11,,5
+Video player fixes,2014-03-15,Merged,737,91,8,js ,3
+PlayTo Bug and Profile fixes,2014-03-14,Closed,736,95,43,,8
+Fix for profile path comparison,2014-03-13,Closed,735,1,1,,1
+Improved PlayTo profiles,2014-03-13,Closed,734,14,3,,1
+PlayTo Configuration moved out into xml file,2014-03-13,Merged,733,121,48,,7
+Movie format ribbons,2014-03-15,Closed,732,93,0,css js html ,5
+Video player updates,2014-03-13,Merged,731,"1,508",936,csproj png ,8
+Sync,2014-03-06,Closed,726,355,90,,3
+"Auto-Organize Copy/Move Option, Fix for Overwrite Existing File",2014-03-06,Merged,724,60,8,html js ,5
+Added Jump In - NameStartsWith,2014-03-06,Merged,722,38,0,,4
+Windowed video re-positioned to center of viewport,2014-03-05,Closed,721,215,26,js ,3
+Windowed video re-positioned to center of viewport,2014-03-04,Closed,720,43,23,js ,2
+#707 - focus search textbox when displayed,2014-03-03,Merged,718,2,0,,1
+Fix if maxH & maxH are both supplied,2014-03-02,Merged,717,10,0,,1
+Initial PlayTo Functionality.,2014-02-27,Closed,714,"3,512",0,csproj ,4
+1st attempt to fix if maxH and maxW are requested,2014-02-28,Closed,710,19,3,,2
+Added missing method to IHttpClient,2014-02-11,Merged,708,8,0,,1
+Added IDependencyModule to allow plugins to define IoC bindings,2014-02-12,Merged,706,56,1,csproj ,4
+Replaced IoC framework with Ninject,2014-02-06,Closed,705,22,42,csproj config sln ,7
+dashboard - focus user/pass on form show,2014-02-23,Closed,703,8,1,js ,2
+wmv & some webm changes,2014-02-02,Closed,702,10,7,,2
+Fix case-sensitive filenames.,2014-02-02,Merged,701,7,7,cs ,2
+Bug in Mono: WebUtility.HtmlDecode generate an System.ArgumentNullExcept...,2014-01-28,Merged,695,2,1,,1
+Re-link libsqlite3 against an older version of GLIBC.,2014-01-25,Merged,692,17,9,6 ,2
+Don't re-encode subtitle: ass/ssa -> ass.,2014-01-25,Merged,691,19,6,,3
+Added Windows Build Script,2014-01-25,Merged,690,492,0,,1
+Update NuGet,2014-01-24,Closed,688,"29,330","9,797",cs ,6
+Added Linux Build Script,2014-01-23,Merged,686,667,0,sh ,1
+Added MONOMKBUNDLE preprocessor symbol for the embedded version.,2014-01-23,Merged,685,24,0,,1
+Replaced GetInvalidFileNameChars for Mono,2014-01-22,Merged,682,8,0,,1
+Changed OS and Machine arch detection for ffmpeg,2014-01-22,Merged,681,109,55,,1
+"give username/password focus, make user image container background transparent",2014-02-02,Closed,679,3,3,js ,2
+Added MediaBrowser.IsoMounting.Linux,2014-01-18,Merged,678,7,1,cs dll ,3
+Fix TrySetResolution,2014-01-18,Merged,676,1,1,,1
+Update de.txt,2014-01-18,Merged,675,4,5,,0
+Removed code that was duplicated on top of itself.,2014-01-16,Merged,668,0,10,,1
+made login page user image transparent,2014-01-16,Closed,667,17,4,js ,2
+Add pts generation,2014-01-15,Merged,666,2,2,,2
+Fix mac ffmpeg url,2014-01-14,Merged,665,1,1,,1
+oops missed one,2014-01-13,Merged,664,1,1,,1
+Added auto deinterlace,2014-01-13,Merged,663,12,11,,1
+Fix typo: ffmpeg package is 7z not gz,2014-01-12,Closed,662,1,1,,1
+"Mac: added sqlite, detection, ffmpeg(64bit only)",2014-01-12,Merged,661,100,21,config cs txt dylib ,4
+Added instruction for building sqlite in linux. Removed userprefs.,2014-01-09,Merged,659,14,16,txt ,1
+Mono: local linux sqlite,2014-01-08,Merged,658,19,3,config dll 6 ,7
+Change audio sync (sync at start no corrections),2013-12-29,Merged,654,2,2,,2
+Linux fixes,2013-12-26,Merged,652,123,35,cs js dll ,14
+Update au.txt,2013-12-23,Merged,651,3,1,,0
+Add 480p+ with higher bitrate as default,2013-12-28,Merged,650,3,2,,1
+Added Images to MetadataFields,2013-12-22,Merged,648,145,106,,10
+Change subtitle seek behavior,2013-12-15,Merged,647,8,11,,2
+Support VS 2013 - Automated VS change -change target framework profile  ...,2014-01-03,Closed,646,"61,178","61,171",sln rtf txt xml ,4
+Added rating for Belgium,2013-12-12,Merged,645,6,0,,0
+Missing episodes supports split series,2013-12-30,Merged,644,48,34,,1
+Better Thumb extraction.,2013-11-28,Merged,639,14,6,,1
+Switch to local copies of jquery and jquery mobile,2013-12-15,Closed,638,38,3,csproj js css ,5
+Swap aac encoders (again),2013-11-11,Merged,622,1,1,,1
+Update and rename da.txt to dk.txt,2013-11-09,Closed,621,4,4,,0
+Rename da.txt to dk.txt,2013-11-09,Closed,620,1,1,,0
+tvdb series provider now considers alias names,2013-10-29,Merged,604,24,8,,1
+Move depreciated audio re-sample into audio filters,2013-11-01,Merged,603,27,23,,3
+"Add Topfield .rec files, Make sure scale w x h is divisible by 2",2013-10-27,Merged,601,3,2,,2
+save sort on rest of the pages,2013-10-12,Merged,581,81,3,,20
+save filter/sort on a per page and user basis (in localStorage),2013-10-12,Closed,580,81,3,,20
+Adjust Hls Param,2013-09-27,Closed,560,1,1,,1
+Cbr HLS,2013-09-26,Closed,559,1,1,,1
+Images changes,2013-09-24,Merged,556,1,0,png ,3
+Added as requested by luke,2013-09-11,Merged,533,1,0,,0
+Update CONTRIBUTORS.md,2013-08-31,Merged,501,1,0,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,500,1,0,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,499,1,0,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,498,1,0,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,497,1,0,,0
+README.md: Added couple of more iOS images,2013-08-29,Merged,496,2,0,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,495,1,1,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,494,1,0,,0
+Update CONTRIBUTORS.md,2013-08-29,Merged,493,1,0,,0
+Update CONTRIBUTORS.md,2013-08-28,Merged,492,2,1,,0
+Update CONTRIBUTORS.md,2013-08-26,Merged,491,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,488,2,1,,0
+Update CONTRIBUTORS.md,2013-08-28,Merged,487,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,485,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,484,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,483,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,482,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,481,1,0,,0
+Update CONTRIBUTORS.md,2013-08-28,Closed,480,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,479,2,1,,0
+Update CONTRIBUTORS.md,2013-08-23,Closed,478,1,0,,0
+Update CONTRIBUTORS.md,2013-08-28,Merged,477,1,0,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,476,1,0,,0
+Update CONTRIBUTORS.md,2013-08-28,Merged,475,1,0,,0
+Update CONTRIBUTORS.md,2013-08-30,Merged,474,1,1,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,473,1,1,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,472,2,0,,0
+Added contributor xliv,2013-08-28,Merged,471,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,470,1,0,,0
+Update CONTRIBUTORS.md,2013-08-28,Closed,469,2,0,,0
+Update CONTRIBUTORS.md,2013-08-27,Merged,468,1,0,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,467,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,466,4,3,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,465,4,3,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,464,1,0,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,463,1,0,,0
+Update CONTRIBUTORS.md,2013-08-23,Merged,462,1,0,,0
+Update CONTRIBUTORS.md,2013-08-26,Merged,461,1,0,,0
+Update CONTRIBUTORS.md,2013-08-26,Merged,460,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,459,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,458,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,457,1,0,,0
+Update CONTRIBUTORS.md,2013-08-26,Merged,456,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,455,2,1,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,454,1,0,,0
+Update CONTRIBUTORS.md,2013-08-25,Merged,453,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,452,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,451,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,450,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,449,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,448,1,1,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,447,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Closed,446,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,445,1,1,,0
+Contributors.md,2013-08-22,Merged,444,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,443,1,1,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,442,3,1,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,441,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,440,1,0,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,439,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,438,1,1,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,437,1,0,,0
+Update CONTRIBUTORS.md,2013-08-24,Merged,436,1,1,,0
+Update CONTRIBUTORS.md,2013-08-22,Merged,435,1,0,,0
+Fixed #415 Non-Admin profile can access Dashboard,2013-08-27,Merged,431,3,0,,1
+Update edititemmetadata.html,2013-06-27,Merged,371,1,1,,1
+Update German Ratings,2013-06-13,Merged,345,5,5,,0
+Updated Russian ratings,2013-06-12,Merged,338,1,1,,0
+Updated Russian ratings,2013-06-12,Merged,337,1,2,,0
+Added extra fields to EdidItemMetadata,2013-06-09,Merged,330,488,8,csproj css html ,8
+remove CDATA and html tags,2013-05-26,Merged,314,9,1,,1
+Populate Series End Date,2013-05-26,Merged,312,65,2,csproj js ,4
+allow html inside episode/movies overview (issue #287),2013-05-25,Merged,307,1,1,,1
+Display ellipsis on the plugin title,2013-05-25,Merged,306,15,1,js ,2
+Issue 286 phase1,2013-05-24,Merged,303,253,6,csproj ,6
+Issue 286 phase1,2013-05-24,Closed,302,687,140,csproj ,6
+Capitalising a collection,2013-05-20,Merged,292,9,0,,1
+revert logo,2013-03-03,Merged,3,0,0,,1
+icon/image updates,2013-03-02,Merged,2,0,0,,5
+Repo,2013-02-21,Merged,1,"199,849",0,config dll xml txt ,20

@@ -1,0 +1,1015 @@
+Develop,2020-01-13,Merged,1952,30,9,,3
+Add MIDI Processor AU loading,2020-01-09,Merged,1949,79,0,,2
+Updated Logging system,2020-01-04,Merged,1947,372,328,,10
+Start to replacing print based AKLog with os_log based one,2020-01-04,Closed,1946,251,201,swift hpp ,11
+"Core FunctionTable: one bug fix, one enhancement",2019-12-23,Merged,1942,15,1,hpp ,2
+AKConverter update,2019-12-11,Merged,1936,32,24,,2
+Basics playground typo fix,2019-12-09,Merged,1935,1,1,,1
+AKMicrophone fix per #1851,2019-12-02,Merged,1929,1,17,,1
+"AKPlayer processingFormat, AKConverter improvements",2019-11-24,Merged,1925,57,27,,3
+AKPlayer: fallback processingFormat,2019-11-24,Closed,1924,7,1,,1
+Fix: Make AKMIDIEvent handle MIDI Clock messages,2019-11-21,Merged,1923,1,1,,1
+Create main.ymlkj,2019-11-20,Closed,1922,17,0,,1
+Core ADSR envelopes: improve handling of zero-length segments,2019-11-06,Merged,1917,1,1,,1
+Fix AKWaveTable MIDI Response,2019-11-02,Merged,1914,10,2,h mm swift ,4
+Cleanup: Remove EZAudioPlotGL from other Platform Projects,2019-11-01,Merged,1913,0,8,,2
+Remove EZAudioPlotGL from all Platforms,2019-11-01,Merged,1912,0,809,,2
+AKPlayer update,2019-10-29,Merged,1906,76,39,,6
+Publicises sequencer functions,2019-10-23,Merged,1904,4,4,,1
+made deviceSampleRate public,2019-10-16,Merged,1901,2,2,,1
+Inter-App Audio is not available in Catalyst,2019-10-15,Merged,1900,3,0,,1
+add reset calls on akapplesampler load functions,2019-10-15,Merged,1899,7,0,,1
+Add CaseIterable Conformance to AKTable,2019-10-13,Merged,1897,1,1,,1
+AKSampler: clamp loop endpoints to valid range,2019-10-11,Merged,1896,8,0,,1
+sequencer remove note,2019-10-10,Merged,1893,26,0,h mm swift ,4
+AKSampler+SFZ method for loading files using file URL,2019-10-09,Merged,1892,16,6,,1
+AKSampler+SFZ looping bugfix and extended API,2019-10-09,Closed,1891,0,0,,0
+remove from .h,2019-10-08,Merged,1887,14,17,,1
+Make swiftlint part of xcode builds,2019-10-07,Merged,1886,66,2,,3
+aksequencer fixes,2019-10-07,Merged,1885,12,3,swift ,2
+AKWAvetable + Sequencer improvements,2019-10-07,Merged,1884,50,1,hpp ,3
+Leak fix for AKTimelineTap,2019-10-06,Merged,1882,2,14,,2
+Leak fix for AKTimelineTap,2019-10-03,Merged,1881,48,46,h m mm ,10
+Add progress for AudioKit.renderToFile and AVAudioEngine.renderToFile,2019-10-02,Merged,1880,15,3,,2
+Add iOS 13 setting setAllowHapticsAndSystemSoundsDuringRecording,2019-09-26,Merged,1876,25,0,,1
+added documentation,2019-09-19,Merged,1871,2,0,,1
+Improve SwiftUI Example & Add Appearances,2019-09-16,Merged,1867,123,8,swift ,3
+"AKPlayer isPlaying, minor fix.",2019-09-15,Merged,1866,7,10,,3
+Update README.md,2019-09-15,Merged,1865,2,0,,0
+public / open access and deprecation of stopEnvelopeTime,2019-09-13,Merged,1864,71,43,,4
+AKPlayer refactoring,2019-09-12,Merged,1863,411,344,hpp swift ,3
+"AKPlayer scheduling fix, added AKFader to repository",2019-09-11,Merged,1861,545,163,swift mm m ,7
+Add SwiftUI Drum Pads Example,2019-09-11,Merged,1859,814,0,,2
+AKPlayer scheduling bug fix,2019-09-11,Merged,1858,6,43,,1
+AKPlayer Scheduling bug in realtime vs offline,2019-09-11,Closed,1857,"7,009","1,245",hpp h ,9
+"Node Automation, Offline Rendering for AKPlayer, and other things",2019-09-11,Merged,1856,"1,363",693,h mm ,5
+Restore oscmorph2d as extension to SP,2019-09-04,Merged,1853,230,0,c h pbxproj ,7
+Fix looping glitch in AKSampler,2019-09-01,Merged,1850,46,36,hpp ,11
+AKPlayer: compatibility with offline rendering,2019-08-28,Closed,1847,22,6,swift ,3
+Low pass resonant filter added to generator banks,2019-08-31,Merged,1846,"4,826",342,mm hpp ,4
+Timestamp for EZMicrophone input,2019-08-23,Merged,1842,61,5,m ,2
+process noteOffs first,2019-08-21,Merged,1841,16,17,,1
+added echo cancellation to EZMicrophone & AKSettings,2019-08-19,Merged,1838,8,1,m ,2
+Address issue 1836,2019-08-18,Merged,1837,9,1,cpp hpp ,3
+Explain that AKMicrophone nodes have to be created before setting AudioKit.output,2019-08-16,Merged,1835,5,0,,1
+Sequencer improvements,2019-07-29,Merged,1820,25,16,,1
+"rearranged function order, added clear function",2019-07-29,Closed,1819,22,16,,1
+Amplitude Tracker Improvements,2019-07-25,Merged,1816,26,38,h mm hpp ,4
+Mainly fixed memory leak in AKAudioUnitManager,2019-07-23,Merged,1815,99,116,m mm ,4
+StopPlayingNotes moved around sequencer,2019-07-22,Merged,1811,13,2,h mm swift ,4
+Remove redundant noteFrequency argument from AKSampler note-on functions,2019-07-19,Merged,1808,13,15,hpp mm cpp ,6
+New AKSequencer,2019-07-18,Merged,1806,"1,105",180,swift h hpp mm c ,26
+MIDI timing offsets,2019-07-09,Merged,1801,115,75,,5
+Dont ask for mic input if not needed,2019-06-26,Merged,1797,79,41,pbxproj ,7
+AKNodeRecorder crash fix.,2019-06-26,Merged,1795,55,45,,1
+Improve documentation comments.,2019-06-22,Merged,1794,4,0,,1
+added method for computing master set from 12et and deviations in cents,2019-06-24,Merged,1793,50,1,,1
+"AKConverter, minor update",2019-06-14,Merged,1790,16,3,,1
+Allow paths with whitespaces for samples in SFZ loader,2019-06-14,Merged,1789,1,1,,1
+AKSampler: allow access to AKSampleBuffer objects after loading samples,2019-06-14,Closed,1788,62,45,hpp mm cpp h ,10
+Add MIDIUniqueID to AKMIDIListener callbacks,2019-05-29,Merged,1785,96,35,,4
+Disk streamer,2019-05-16,Merged,1781,78,28,h mm hpp c ,6
+AKConverter update,2019-05-15,Merged,1780,13,10,,1
+AKDynamicPlayer: Fixed a bug where the timePitch node would be removed if you disabled…,2019-05-14,Merged,1779,3,5,,1
+AKPlayer documentation update,2019-05-14,Merged,1778,4,1,,2
+AKAmplitudeTap safety checks,2019-05-14,Merged,1776,47,15,,1
+minor improvements to akwavetable,2019-05-14,Merged,1775,23,23,hpp pbxproj ,3
+AKLog: realized it was printing Optional() on every content item,2019-05-11,Merged,1773,33,36,,1
+Develop,2019-05-10,Merged,1772,31,26,,1
+Typo + optional AKLog print,2019-05-09,Merged,1771,3,3,,2
+"Revert ""Improvements to open_filename.c to prevent too many open files""",2019-05-07,Merged,1769,5,10,,1
+Kill the Tanker! Kill it with fire!,2019-05-02,Merged,1764,1,0,,1
+Fix (hopefully) for #1713,2019-04-25,Merged,1761,20,10,,4
+Fix typo,2019-04-23,Merged,1760,1,1,,1
+AKSampler: ensure .wv files are closed after loading,2019-04-23,Merged,1759,1,0,,1
+attempt to fix midi close output port,2019-04-29,Merged,1758,25,36,,1
+Akmidi file timing info,2019-04-16,Merged,1750,85,25,pbxproj ,9
+Loop completion handler,2019-04-16,Merged,1748,5,0,,2
+Fix for currentTime starting from zero when resuming from pause https…,2019-04-14,Merged,1746,20,6,,2
+New Notification .AKEngineStarted added (rev.1),2019-04-14,Merged,1744,23,15,pbxproj ,4
+New Notification .AKEngineStarted added.,2019-04-13,Closed,1743,35,24,pbxproj ,6
+"rearranged build script so device will work, but simulator will fail",2019-04-09,Closed,1737,5,5,,1
+Fix for broken universal frameworks,2019-04-08,Merged,1736,178,125,m cpp hpp pbxproj swift ,32
+AudioKit Mac Sandbox issue fix,2019-04-02,Closed,1728,5,6,hpp pbxproj md VERSION ,4
+Swift5,2019-03-31,Closed,1726,477,415,yml swift pbxproj xcscheme ,13
+Swift5,2019-03-28,Closed,1724,346,148,swift ,8
+Akmidifile improvements,2019-03-28,Merged,1723,337,141,,7
+Add missing AKCoreSynth.hpp header to Audiounit.h,2019-03-27,Merged,1722,7,6,pbxproj ,4
+make AKMIDIFile init public,2019-03-25,Merged,1718,1,1,,1
+Made AKMicrohpone init a failable initilizer,2019-03-25,Merged,1717,48,20,json ,2
+Made AKMicrophone init a failable initializer,2019-03-25,Closed,1715,455,282,,13
+AudioKit setInputDevice bug fixes [iOS],2019-03-25,Merged,1714,219,46,pbxproj ,4
+Fix for AKKeyboardView initializer ignoring polyphonic parameter.,2019-03-19,Merged,1710,1,1,,1
+Make AKCoreSynth.hpp public again,2019-03-16,Merged,1708,2,2,,1
+Make attributes of public MIDI Events publicly available,2019-03-15,Merged,1707,7,7,,1
+Add RAII to DSP Kernel,2019-03-15,Merged,1704,14,1,,1
+Move AKCoreSynth.hpp to project scope in iOS project (#1691),2019-02-20,Merged,1694,2,2,,1
+Add missing AKCoreSynth.hpp import to AudioKit.h,2019-02-20,Closed,1693,2,2,,1
+AKPlayer fixes + extras,2019-02-20,Merged,1692,51,16,m ,5
+Updated EZAudioFile.markers and a few other things,2019-02-15,Merged,1686,141,161,,1
+fixed exportAsynchronously method.,2019-02-14,Merged,1685,2,2,,1
+Develop,2019-02-14,Closed,1684,22,23,pbxproj storyboard ,6
+Added convenience methods to sequence aftertouch events,2019-02-14,Merged,1682,41,0,,1
+Bugfix: MIDI input not working with AKAudioUnitInstrument,2019-02-14,Merged,1681,87,30,,14
+Pass-through MIDITimestamp,2019-02-14,Merged,1679,22,21,pbxproj storyboard ,6
+Small refactor in AKAudioUnitManagerDelegate,2019-02-10,Merged,1673,42,32,,3
+Add AKMusicTrack+Events extension to MacOS,2019-02-09,Merged,1672,6,2,,1
+More cleanup,2019-02-08,Merged,1671,55,48,,8
+"BPM calculation, BPM smoothing, System Real Time message handling",2019-02-08,Merged,1670,"2,239",241,swift ,8
+Fix: RecordingNodes playground was unable to play recorded sounds,2019-02-05,Merged,1668,7,4,,1
+Improving LoopbackRecording Example (closes #1662),2019-02-04,Merged,1665,12,11,,1
+AKMicrophone.init() crash on iPhone 6,2019-02-04,Merged,1664,15,9,,3
+"AKPlayer creating loop artifacts in official playground, AKAudioPlayer fixes it",2019-02-04,Merged,1663,4,4,,2
+Midi property change,2019-01-31,Merged,1660,33,5,,2
+Removing EZAudioUtilities import from EZPlot UI file.,2019-01-29,Merged,1658,2,22,,1
+Make AKCoreSynth public,2019-01-24,Merged,1653,1,1,,1
+Enhancement/akmidievent refactor - forgotten fixes,2019-01-21,Merged,1650,53,37,pbxproj ,11
+Forgotten fixes to midi refactor,2019-01-21,Closed,1649,55,39,pbxproj ,12
+1 and 2 byte system messages were not being processed correctly,2019-01-18,Merged,1646,376,50,swift pbxproj ,10
+"AKPlayer, completion handler fix",2019-01-18,Merged,1645,47,43,,1
+"Fixed multiple MIDI listeners, and fix MIDI open/close methods so that they can open/close all ports",2019-01-18,Merged,1644,260,29,pbxproj ,11
+Applied hound style,2019-01-16,Closed,1643,"5,863","4,625",h mm ,9
+Improvements to AKMIDI port selection and sysex message handling,2019-01-16,Merged,1642,"1,212",158,,2
+Remove bias in triangle-wave generation in Core FunctionTable,2019-01-13,Merged,1638,1,1,,1
+"Update ""Extending AudioKit"" READMEs",2019-01-12,Merged,1637,8,4,,0
+"Repair ""ExtendingAudioKit"" projects",2019-01-12,Merged,1635,37,18,hpp mm pbxproj ,7
+MIDI Improvements,2019-01-13,Merged,1634,"1,189",428,,2
+"Rename AKSynth as AKCoreSynth, add Swift AU and Node classes",2019-01-11,Merged,1631,912,209,swift ,4
+refactoring,2019-01-06,Merged,1628,6,9,mm hpp ,6
+auparameter,2019-01-06,Merged,1627,195,191,,18
+Master5,2019-01-05,Merged,1626,"2,024","3,251",h mm ,9
+Fixing small problem in the macOSDevelopment project,2019-01-04,Merged,1625,5,8,,1
+Master5,2019-01-05,Merged,1624,419,486,,8
+Cleanup,2019-01-03,Closed,1623,398,507,,8
+Add macOS OSC examples,2019-01-01,Merged,1622,"2,593",0,pbxproj xcscheme xcworkspacedata plist swift json png ,10
+Fixed: #1567,2019-01-01,Merged,1621,96,123,,0
+AKPlayer fixes for current issues,2018-12-29,Merged,1618,91,51,,8
+Further cleanup of Bank audio units,2018-12-22,Merged,1615,161,161,hpp mm ,7
+Updates to Banks + add tuning-table support to AKCoreSampler,2018-12-22,Merged,1614,383,532,,3
+"Add new AKStereoDelay effect to Core, plus AU/Node and JUCE example",2018-12-17,Merged,1612,675,57,swift hpp ,4
+added the currentExportSession class variable to expose progress data…,2018-12-17,Merged,1611,10,0,,2
+Finished AKAmplitudeTap implementation,2018-12-16,Merged,1609,80,17,,3
+Fix AKSampler note-frequency bug,2018-12-13,Merged,1605,2,2,,1
+Add new AudioKitCore::AKStereoDelay,2018-12-13,Merged,1604,605,10,cpp hpp jucer md ,7
+AkAudioUnitBase inheritance improvements,2018-12-08,Merged,1602,51,234,mm ,4
+Replace void * and UnsafeMutableRawPointer with AKDSPRef.,2018-12-08,Merged,1601,202,195,mm hpp m swift ,42
+Replace void* and UnsafeMutableRawPointer with AKDSPRef.,2018-12-08,Closed,1600,202,195,mm hpp m swift ,42
+Remove unused AKAudioEffect files.,2018-12-04,Merged,1598,0,85,mm pbxproj ,5
+Add filterEnvelopeVelocityScaling parameter to AKSampler,2018-12-03,Merged,1597,52,7,hpp mm cpp ,8
+Divide by file duration if endTime - startTime is zero,2018-12-03,Merged,1596,3,1,,1
+Move buffer clearing to base class.,2018-12-03,Merged,1595,30,15,h m swift mm ,6
+BufferedAudioUnit as base class for AKAudioUnitBase and AKGeneratorAudioUnitBase (again),2018-12-02,Merged,1594,61,155,mm hpp m ,8
+"Add ""keyTrackingFraction"" parameter to AKCoreSampler (corrected)",2018-12-02,Merged,1593,88,8,hpp mm cpp rc h ,13
+"Add ""keyTrackingFraction"" parameter to AKCoreSampler",2018-12-02,Closed,1592,897,112,h m mm ,10
+Added Output Splitter example,2018-12-02,Merged,1591,"2,398",0,pbxproj ,7
+Various fixes to Basics.playground,2018-11-29,Merged,1588,18,6,xcplayground ,7
+Revert AKAudioUnitBase and AKGeneratorAudioUnitBase to AUAudioUnit base,2018-11-29,Merged,1587,152,48,mm ,4
+"Add setIOFormat, enable manual rendering on init.",2018-11-28,Merged,1586,25,23,m ,2
+Add smoothing to ADSR envelopes in AKCoreSampler,2018-11-28,Merged,1585,47,28,hpp cpp xcscheme ,7
+Add AudioEngineUnit.h to umbrella header,2018-11-27,Merged,1583,1,0,,1
+Add AudioEngineUnit.h to umbrella header,2018-11-27,Closed,1582,1,0,,1
+AudioEngineUnit,2018-11-27,Merged,1581,130,4,m pbxproj ,7
+BufferedAudioUnit as base class for AKAudioUnitBase and AKGeneratorAudioUnitBase,2018-11-27,Merged,1579,298,154,mm ,5
+Fix AVAudioFormat init bug,2018-11-22,Merged,1578,6,3,,1
+Fix bug in loading SFZ file with AKSampler,2018-11-22,Merged,1574,1,1,,1
+allow AKKeyboardView to animate programmatic presses,2018-11-20,Merged,1571,24,1,,1
+Added NSMicrophoneUsageDescription to Info.plist,2018-11-10,Merged,1568,2,0,,1
+AKMIDIStatus syntactic sugar and playground update for AKMIDICallbackInstrument,2018-11-09,Merged,1564,10,2,,2
+Fix AKCoreSampler mono-non-legato click bug,2018-11-08,Merged,1563,55,13,hpp ,4
+Merged changes from issue 1544,2018-11-07,Merged,1561,31,39,md ,12
+Sequencable callback instrument,2018-11-07,Merged,1560,326,35,swift mm hpp ,8
+Choose bundle based on the location of AKAudioFile so we can load fil…,2018-11-05,Merged,1559,1,1,,1
+Adjust access level for AKTiming methods to synchronizing multiple nodes,2018-10-27,Merged,1555,2,2,,1
+Fix EXC_BAD_ACCESS in AKConvolution processing,2018-10-26,Merged,1553,26,12,h mm hpp ,4
+New adsr envelope for AKCoreSampler,2018-10-24,Merged,1551,394,208,h hpp ,3
+AKMIDI.outputPort made public,2018-10-23,Merged,1550,1,1,,1
+AKWavetable Leak + midi improvements,2018-10-20,Merged,1548,46,22,h mm hpp ,7
+Update README.md with correct Matthew Fecher link (https://github.com/analogcode),2018-10-17,Merged,1543,1,1,,0
+Ensure VST2 Sampler demo still builds,2018-10-16,Merged,1542,98,64,cpp h vcxproj ,4
+More helpful error msg when MIDISourceCreate fails,2018-10-17,Merged,1541,2,0,,1
+Connects microphone using correct sample rate for non 44.1k devices,2018-10-14,Merged,1539,16,5,,1
+Cleanup of AKSettings change for mic sample rate issue,2018-10-14,Merged,1538,154,69,pbxproj ,6
+updated doc comment for renderToFile,2018-10-12,Merged,1536,3,0,,1
+add microphone privacy usage for Mojave,2018-10-12,Merged,1535,4,0,,2
+Resume AKDynamicPlayer if it was playing before TimePitch was removed,2018-10-08,Merged,1526,4,0,,1
+Fix typo,2018-10-07,Merged,1524,1,1,,1
+Add a hard shutdown option to AudioKit (e.g. for Media Service Resets),2018-10-04,Merged,1522,16,3,,3
+Fix input issue and add debug to music track,2018-10-03,Merged,1521,44,13,,3
+Maintain sample rate on simulators,2018-09-28,Merged,1517,1,1,,1
+Reverted AudioKitUI to a static framework,2018-09-26,Merged,1512,121,732,hpp ,6
+Remove AKMicrophoneTrackerEngine,2018-09-22,Closed,1509,31,122,swift m pbxproj ,6
+Renamed node 'disconnect' function overrides to instead override 'detach',2018-09-26,Merged,1504,13,13,,13
+Prevent error where invalid timestamp is passed to extrapolateTime(),2018-09-17,Merged,1502,1,1,,1
+Restructured ModulatedDelay class,2018-09-17,Merged,1501,207,185,hpp mm cpp ,7
+Minor AKPlayer update. Optional Auto-Fade on stop.,2018-09-12,Merged,1495,49,12,,5
+[WIP] Dynamic AudioKitUI framework,2018-09-08,Merged,1492,441,173,pbxproj ,16
+Fix popping issue for input on 6s and above,2018-09-05,Merged,1488,54,2,md ,2
+Develop,2018-08-27,Merged,1478,5,21,c ,2
+"updated docs for clearRange, set Tempo",2018-08-25,Merged,1477,3,2,,1
+Delete _kernel objects in destructor,2018-08-24,Merged,1476,6,6,,2
+Add setting to prevent audio session deactivation,2018-08-21,Merged,1473,6,1,,2
+Added band limiting functionality,2018-08-21,Merged,1471,"1,014",5,,2
+Minor AKAudioUnitManager update,2018-08-16,Merged,1468,36,3,,2
+Add printConnections debug function.,2018-08-15,Merged,1467,50,0,,2
+avoid 'is ambiguos for type lookup' error under Xcode 10,2018-08-08,Merged,1461,2,2,,1
+DSP Object Leak Fix,2018-08-09,Merged,1459,9,9,mm ,6
+AudioUnitManager example update,2018-08-06,Merged,1457,140,154,pbxproj xib ,7
+"Add a ""Reviewed by Hound"" badge",2018-07-31,Merged,1456,1,0,,0
+Fix: AKNodeRecorder instantiation with existing AKAudioFile,2018-07-23,Merged,1452,1,1,,1
+Further refinement of sysex handling (retry #1449),2018-07-19,Merged,1450,42,22,,4
+Further refinement of sysex handling,2018-07-19,Closed,1449,"8,021","1,771",swift h ,9
+Sysex handling,2018-07-19,Merged,1444,154,23,pbxproj ,7
+Added Tap Tempo and set beatTime to 0 when metronome is restarted.,2018-07-18,Merged,1443,82,25,swift md ,4
+Fix[Playgrounds]: Playback - Recording Nodes,2018-07-18,Merged,1442,19,18,xcplayground ,4
+"Updated ""Code smell in Swift"" URL",2018-07-13,Closed,1439,1,1,,0
+Add channel counts to AKDevice,2018-07-14,Merged,1438,20,6,,2
+Sampler docs,2018-07-12,Merged,1436,14,2,,2
+Prevent out-of-bound access in rare cases,2018-07-12,Merged,1434,11,2,,1
+adding function to AKTuningTable to return masterSet values in Cents,2018-07-10,Merged,1431,6,0,,1
+Tuningtable cents metadata,2018-07-10,Closed,1430,"7,744","1,721",swift h ,8
+"fix for issue #1427, Booster gain clamp removed.",2018-07-10,Merged,1428,19,24,storyboard ,5
+Fix incorrect removal of observers in EZMicrophone,2018-07-08,Merged,1425,14,8,m ,2
+Fix compile error.,2018-07-04,Merged,1422,1,3,,1
+Develop,2018-07-03,Merged,1420,54,30,md ,1
+Fixed incorrect StackOverflow link,2018-06-22,Merged,1414,1,1,,0
+Fixed incorrect StackOverflow link,2018-06-22,Closed,1413,7,30,,0
+AKDiskStreamer,2018-06-28,Merged,1412,"4,529",14,swift ,3
+AKPlayer: small fix for load() reset start / end times,2018-06-15,Merged,1408,7,4,,2
+AKPlayer: bug fix update,2018-06-14,Merged,1407,30,25,md ,4
+AKPlayer: Fader/Gain optimization,2018-06-14,Merged,1406,64,34,storyboard ,5
+AKPlayer: Large Refactoring,2018-06-13,Merged,1405,"1,246","1,045",,9
+Ensure any previously created timers are invalidated before creating a new instance,2018-06-13,Closed,1404,23,7,,1
+"AKPlayer, one more minor change",2018-06-12,Merged,1401,6,3,,1
+AKPlayer: change to make time pitch support more dynamic,2018-06-11,Merged,1400,101,32,hpp m ,4
+Potential fix issue 1311,2018-06-11,Merged,1399,8,9,,2
+Update README.md,2018-06-11,Merged,1398,1,1,,0
+AKSequencer currentRelativePosition,2018-06-06,Closed,1394,4,4,,1
+sampler tweaks + ui tweaks + default audio session tweaks,2018-06-07,Merged,1392,29,8,h mm hpp pbxproj ,6
+Fix for double callback call in `exportAsynchronously` in `AKAudioFile`.,2018-05-30,Merged,1388,21,17,,1
+Develop,2018-05-30,Merged,1386,208,10,swift ,5
+update aksampler macOS example for filter/eg range,2018-05-28,Merged,1384,3,3,swift ,2
+whitespace,2018-05-14,Closed,1374,"3,783","3,783",,4
+"AKTimeSignature and reading time signature events from MIDI file (re issue: #1353, PR #1354)",2018-05-13,Merged,1372,423,323,,1
+AKUI components added and tweaked,2018-05-11,Merged,1371,485,93,swift ,3
+Refactoring of Audio Unit Manager,2018-05-11,Merged,1370,333,306,,1
+Many small fixes for AKSequencer/MusicTrack with tests,2018-05-10,Merged,1367,490,178,,2
+Clip recorder refactor,2018-05-05,Merged,1363,956,34,,3
+Clip recorder refactor,2018-05-04,Closed,1362,"4,276","9,920",tmpl swift ,5
+AKPlayer fixes / update,2018-05-05,Merged,1361,6,10,,1
+Simple Demo Application to show how to load a single external Audio Unit,2018-05-04,Merged,1360,"1,338",1,pbxproj swift ,5
+Doing a bit of code review while expanding the AudioKit Style Guide,2018-05-04,Merged,1359,269,223,mm h cpp hpp ,16
+"AKPlayer, Mostly to keep properties in sync",2018-05-04,Merged,1357,43,27,,2
+Time to duration,2018-05-03,Merged,1356,519,519,hpp mm ,5
+Develop: read time signature of midi file,2018-05-10,Merged,1354,100,1,,1
+AKSampler code review,2018-05-02,Merged,1352,329,303,,3
+Fleshing out various ramp types to AKParameterRamp,2018-05-02,Merged,1351,156,57,hpp xcscheme storyboard ,8
+improvements to akNudger (now with more Int!),2018-05-01,Merged,1350,44,37,,3
+AUdioKitUI additions and enhancements,2018-04-28,Merged,1348,325,158,pbxproj ,5
+Variable type parameter ramper integration,2018-04-27,Merged,1347,319,67,hpp mm ,8
+Continuous Deployments from new staging branch,2018-04-27,Merged,1346,21,8,,3
+AKWaveTable,2018-04-27,Merged,1345,935,6,swift ,5
+PPQN and tests for AKSequencer and AKMusicTrack changes,2018-04-26,Merged,1344,631,6,,4
+Added AKTimePitch into AKPlayer.  New properties: rate and pitch.,2018-04-26,Merged,1343,48,6,,1
+Activating Open Collective,2018-04-26,Merged,1342,32,0,,0
+Automated releases with Travis,2018-04-25,Merged,1341,27,6,json sh ,4
+"Revert ""Allow AKSamplePlayer to load and reload files of different sizes""",2018-04-23,Merged,1340,1,7,hpp ,2
+Allow AKSamplePlayer to load and reload files of different sizes,2018-04-23,Merged,1339,7,1,hpp ,2
+Backwards compatibility for MIDIFileEdit example project,2018-04-22,Merged,1338,6,12,,1
+Frequency Tracker bug fix and AudioKit.swift breakup,2018-04-20,Merged,1337,544,418,,4
+Editing MIDI files with AKSequencer,2018-04-16,Merged,1332,"2,726",1,pbxproj ,4
+AKError class created,2018-04-14,Merged,1328,47,2,pbxproj ,5
+Fix how route/category change observers are managed,2018-04-26,Merged,1323,83,94,,3
+Add clearSysexEvents,2018-04-10,Merged,1322,10,2,,1
+Comments and documentation.,2018-04-10,Merged,1320,26,12,md ,7
+"Changes to AKSequencer and AKMusicTrack: Set Time Signature, remove MetaEvents",2018-04-10,Merged,1318,107,2,,2
+Clamp AKDynamicsProcessor parameter values to correct ranges,2018-04-10,Merged,1314,7,7,,1
+Fix bypass bug in filters,2018-04-09,Merged,1313,29,0,hpp ,29
+Changed file name of the CDelay class from Delay to CDelay,2018-04-09,Merged,1312,31,31,h pbxproj ,8
+updated AudioUnitManager example to show normalization option,2018-04-07,Merged,1308,76,11,storyboard ,5
+Normalize buffers and refactoring for AKPlayer and buffer management,2018-04-06,Merged,1306,251,133,,2
+CallbackInstrument can set name correctly,2018-04-06,Merged,1305,2,0,,2
+Fix for non-hidden virtual midi inputs,2018-04-06,Merged,1304,31,19,,6
+"Changes to AKPlayer, buffered looping and fades",2018-04-06,Merged,1303,144,43,pbxproj ,5
+AKSpeechSynthesis speaks,2018-04-06,Merged,1301,147,36,pbxproj ,2
+Change to AKSequencer.loadMIDIFile() for issue 115,2018-04-05,Merged,1296,22,14,,1
+Changes to AKSequencer.loadMIDIFile() for issue 1155,2018-04-05,Closed,1295,22,14,,1
+// deleted comments,2018-04-03,Merged,1293,2,8,,1
+Fix for AKPlayer Looping,2018-04-03,Merged,1291,14,6,,2
+Audiobus MIDI Sender example,2018-03-29,Merged,1285,"1,624",0,xcworkspacedata swift json png md ,35
+Fix AKCompressor connection bug,2018-03-23,Merged,1281,13,23,,1
+pause/resume AKPlayer.,2018-03-21,Merged,1276,81,24,storyboard ,6
+made some AudioKit headers public,2018-03-19,Merged,1274,186,123,,4
+EZRecorder / EZMicrophone buffer fix,2018-03-15,Merged,1269,102,59,h ,2
+AKSamplePlayer + AKMIDIEvent start of improvements,2018-03-14,Merged,1268,59,29,h mm hpp ,8
+New sampler,2018-03-14,Merged,1265,"30,128",122,swift h ,5
+Adding section about mixing objc and swift,2018-03-05,Closed,1258,3,1,,0
+Fix unhandled exception when sending SysEx messages larger than 258,2018-03-01,Merged,1255,57,14,,1
+README fixes and improvements,2018-03-05,Merged,1253,38,42,,0
+Add pitch bend message sending function to MIDI+Sending,2018-03-01,Merged,1251,13,0,,1
+"Minor Changes, background Timers in AKPlayer",2018-02-18,Merged,1244,44,29,,3
+Update READMEs for ExtendingAudioKit projects,2018-02-16,Merged,1242,69,29,,0
+Have added a gain stage to the player by exposing the gain that is in…,2018-02-14,Merged,1240,27,43,,1
+Modernize chorus and flanger,2018-02-12,Merged,1237,789,768,mm hpp swift ,9
+Wrap NSException in NSError for AKTry,2018-02-10,Merged,1236,6,1,,1
+Minor fixes,2018-02-09,Merged,1235,15,11,pbxproj ,7
+Intercept Objective-C exceptions,2018-02-10,Merged,1234,176,42,h m pbxproj ,10
+Add Documentation files for Chorus/Flanger,2018-02-03,Merged,1233,179,0,md ,1
+Need help with the AudioTaper Ramper.,2018-02-09,Closed,1231,60,9,hpp pbxproj ,8
+Threshold variable in init of AKAmplitudeTracker.,2018-01-31,Closed,1229,2,1,,1
+Fix AKAudioUnitManager.requestInstruments(),2018-01-30,Merged,1225,3,4,,1
+AKPlayer: Changes to remove AKAudioFile properties,2018-01-27,Merged,1220,18,14,storyboard ,3
+Exponential Fader in AKPlayer and Booster,2018-01-27,Merged,1219,208,107,swift ,4
+Get normalised position in the same range as old AKSamplePlayer,2018-01-26,Merged,1218,2,1,,1
+"Added iOS ExtendingAudioKit example, improved macOS version",2018-01-26,Merged,1217,"1,579",28,pbxproj swift json storyboard ,7
+New example: ExtendingAudioKit (macOS),2018-01-24,Merged,1215,"2,118",57,h ,1
+Switched AudioKit over to static frameworks,2018-01-23,Merged,1212,"1,224",641,json h hpp ,7
+"Add Chorus and Flanger effects, and a demo program",2018-01-22,Merged,1211,"3,160",24,swift mm ,5
+Making AKSamplePlayer able to be init w/out file,2018-01-20,Merged,1208,16,8,,1
+Allow AKSamplePlayer rate to become negative during playback,2018-01-20,Merged,1207,6,2,,1
+Added independent volumes for metronome sounds.,2018-01-20,Merged,1206,54,2,m swift ,3
+Enhanced AKRhinoGuitarProcessor Algorithms (better sounding).,2018-01-17,Merged,1204,29,33,hpp ,2
+Develop,2018-01-13,Merged,1199,18,10,hpp pbxproj xcscheme ,6
+AKPlayer bug fix for looping players,2018-01-12,Merged,1198,41,25,,3
+Add ability to override AKRotaryKnob bubble text color,2018-01-06,Merged,1192,4,1,,1
+self? self! to strongSelf,2018-01-05,Merged,1190,477,324,,17
+Allow AudioKit to throw exceptions rather than consume or fail on them,2018-01-24,Merged,1188,133,132,,2
+Suppress umbrella header warnings by including hpp files in the umbre…,2018-01-04,Merged,1187,12,3,,3
+Make a couple headers public,2018-01-03,Merged,1186,8,8,,3
+Adjust AKMusicTrack.clearRange() method to calculate range duration correctly,2018-01-02,Merged,1185,190,12,pbxproj ,4
+AVAudioPCMBuffer extensions refactoring.,2018-01-01,Merged,1184,59,43,,2
+AkRenderTap fix,2018-01-01,Merged,1183,13,7,m ,2
+Clip completion handler.,2017-12-30,Closed,1181,11,4,,2
+Fixing AudioUnitManager crash with show/hiding windows,2017-12-30,Merged,1180,73,61,xib ,6
+Changed AKLog to accept an array of Any instead of a single String,2017-12-26,Merged,1178,10,3,,1
+AudioUnitManager: iOS update,2017-12-26,Merged,1177,169,91,yml pbxproj ,5
+Develop,2017-12-25,Closed,1175,"13,799","7,087",,1
+AK_ENUM for ObjC/C/C++/Swift enum definition.,2017-12-22,Merged,1174,47,0,pbxproj ,5
+Fixing start button look and feel #2,2017-12-20,Merged,1172,18,18,swift ,2
+Adjusted start button L&F 🆗,2017-12-20,Closed,1171,"12,967","6,377",,1
+"Cleaning up the unit manager, removing the rest of forced optionals",2017-12-19,Merged,1170,205,92,yml json ,6
+AKSamplePlayer Tests + Improvement,2017-12-19,Merged,1169,172,82,h mm hpp pbxproj ,5
+SamplePlayer parameter adjustments + documentation,2017-12-18,Merged,1168,52,39,hpp swift wav pbxproj ,8
+Fixed some typos,2017-12-18,Merged,1166,120,120,h m hpp cpp ,14
+Refactoring,2017-12-17,Merged,1165,311,330,h ,13
+Removing forced optionals from AudioUnitManager example,2017-12-16,Merged,1162,109,86,,7
+Refactoring,2017-12-15,Merged,1161,237,280,,9
+"Fixes, Additions, FileConverter Example",2017-12-15,Merged,1160,"1,863",288,,1
+Cleaning up a few things,2017-12-14,Closed,1159,297,277,,1
+Important AKPlayer callback fix 🦔,2017-12-13,Merged,1158,18,20,,1
+bug fix in AKPlayer if buffered and loading a new audio file of the s…,2017-12-13,Merged,1157,77,74,xcplayground ,6
+inflicting style on this macOs development project.,2017-12-12,Merged,1156,434,323,,1
+Change AKTming,2017-12-10,Merged,1154,170,104,,3
+Change AKTiming,2017-12-10,Closed,1153,"7,324","3,454",h mm hpp m ,20
+Add AKTestTriggers.,2017-12-09,Merged,1151,138,4,m pbxproj ,6
+AkTimeLine fix,2017-12-09,Merged,1150,12,5,,1
+Develop,2017-12-08,Merged,1149,33,24,swift ,3
+Include Bluetooth AD2P and HFP as recognized headphone types,2017-12-08,Merged,1147,5,3,,1
+AKPlayer,2017-12-11,Merged,1146,"2,168","1,521",,5
+"Fix ramper (this time for sure!), though not thread safe",2017-12-06,Merged,1144,8,9,swift ,4
+AKSamplePlayer Conversion,2017-12-06,Merged,1143,157,167,h mm ,3
+Fix hardcoded MIDI instrument namings,2017-12-05,Merged,1141,135,105,,7
+small fix in AKAudioFile.findPeak,2017-12-04,Merged,1138,3,0,,1
+small bug fix in AKAudioFile.getPeak,2017-12-04,Closed,1137,"6,741","3,055",h mm hpp m ,21
+More ramper work,2017-12-04,Merged,1136,5,5,,2
+Develop,2017-12-03,Merged,1135,25,8,swift ,4
+Develop,2017-12-02,Closed,1133,"5,109","3,098",h mm hpp m c ,23
+Added AKConverter + small marker bug fix in EZAudioFile,2017-11-29,Merged,1131,498,5,,0
+Added start(at) to AKClipPlayer.,2017-11-21,Merged,1129,5,0,,1
+Support for SetParamImmediate,2017-11-19,Merged,1125,17,119,mm hpp swift pbxproj ,12
+Set param immediate,2017-11-19,Closed,1124,"23,456","22,026",h mm ,11
+Made AKTiming and AKNodeTiming public,2017-11-14,Merged,1117,12,12,,1
+Deprecated AKOfflineRenderNode in favor of AudioKit.renderToFile.,2017-11-09,Merged,1114,73,7,h ,3
+removing empty whitespace lines (for real this time),2017-11-07,Merged,1111,"20,991","21,432",mm hpp ,9
+Added completion handler to AKClipPlayer,2017-11-05,Closed,1108,20,4,,1
+fix hard coded key for snare drum sequence track,2017-10-28,Merged,1104,23,1,swift ,1
+🎶 🛑 Let background audio continue to play when AudioKit is initialized,2017-11-01,Merged,1103,73,56,,2
+Midi Event Fixes + updated aksampleplayer,2017-10-26,Merged,1102,45,26,hpp ,3
+fix filter and rez knob alignment in analog synth x,2017-10-26,Merged,1101,17,17,,1
+"expose more swift methods to objc, etNNPitchBend, @discardableResult, enhance Swift logging",2017-10-24,Merged,1097,180,152,,6
+add btn for AK1 synth to Analog Synth X covering up iPad 2 text,2017-10-21,Merged,1095,18,2,swift ,2
+Add support for a clip playback completion handler.,2017-12-30,Closed,1091,11,4,,2
+More AudioUnitManager Polishing.,2017-10-17,Merged,1090,97,50,pbxproj png json ,13
+making progress on adding definable loop points to aksampleplayer,2017-10-17,Merged,1089,148,30,h mm hpp pbxproj ,7
+AU Instrument auto play button,2017-10-17,Merged,1088,52,53,swift ,4
+AudioUnitManager update for Bypass development,2017-10-08,Merged,1085,"1,576",397,,2
+Fix AK3DPanner and make AKOutput.setOutput format optional,2017-10-08,Merged,1084,7,14,,2
+Find Peak Energy in Time,2017-10-08,Merged,1082,67,5,pbxproj ,4
+Andres.fix#1079,2017-10-08,Merged,1081,18,5,storyboard m ,3
+Fix potential AKAudioPlayer crash when using deferred/lazy buffering.,2017-10-05,Merged,1080,23,17,,1
+Updates to Audio Unit Manager,2017-10-02,Merged,1077,376,324,,0
+make AKKeyboard more efficient on TouchesMoved,2017-09-30,Merged,1075,1,1,,1
+Add Display in Analog Synth X to work in iOS 11,2017-09-30,Merged,1074,10,5,swift ,2
+Improve checkMixerInputs so that it handles busses > 1 out of range.,2017-09-30,Merged,1072,12,5,,1
+Solving some objc problems,2017-09-30,Merged,1071,20,3,,3
+Built in a workaround for empty mixer on running engine bug.,2017-09-28,Merged,1069,36,0,,1
+Mixer connection saftey,2017-09-28,Merged,1068,29,12,,3
+akmidievent program change length changed from 2->3,2017-09-27,Closed,1067,1,1,,1
+correct MIDI note output on AKKeyboardView,2017-09-24,Merged,1063,6,4,,1
+Added some missing @objc,2017-09-24,Merged,1062,"1,191",2,,0
+Added some missing @objc,2017-09-24,Closed,1061,"1,191",2,,0
+Changed AKClipPlayer's clips property to accept objects that conform …,2017-09-24,Merged,1060,2,2,,1
+fix costello reverb playground xcode 9,2017-09-22,Merged,1059,2,2,,1
+Documentation Returns -> Return :/,2017-09-22,Merged,1058,2,2,,1
+Document connection syntax,2017-09-22,Merged,1057,70,6,,1
+Update README.md,2017-09-21,Merged,1055,1,1,,0
+FattenConnection,2017-09-19,Merged,1052,9,5,,1
+syntax fix for dataSources in inputDevices,2017-09-15,Merged,1048,2,2,,1
+MIDI Utility and improved sysex sending,2017-09-14,Merged,1045,939,191,pbxproj xcscheme json png storyboard ,11
+Swift 4 fixes to example projects for AudioUnitManager,2017-09-12,Merged,1043,48,35,pbxproj ,6
+Fixes for AKNodeOutputPlot and HelloWorld examples,2017-09-12,Merged,1042,20,26,storyboard m ,8
+Spelling for documentation,2017-09-12,Merged,1041,1,1,,1
+RandomClips add AudioKitUI,2017-09-10,Merged,1040,6,0,,1
+Alternate to ak unit defines,2017-09-28,Merged,1039,"1,279",9,mm ,3
+RandomClips macOS example,2017-09-09,Merged,1038,"1,435",10,,4
+AkClipPlayer,2017-09-08,Merged,1037,"1,305",0,,4
+Add option to lazilly buffer AKAudioPlayer's AKAudioFile.,2017-09-06,Merged,1034,10,5,,1
+* whitespace + some refactoring,2017-09-05,Merged,1033,"6,292","6,326",,5
+aksampleplayer,2017-09-02,Merged,1028,15,12,hpp ,2
+AKTimelineTap,2017-09-01,Merged,1027,10,15,,1
+AKTimelineTap,2017-09-01,Merged,1026,"1,306",4,,2
+AKTimeline,2017-08-31,Merged,1024,783,102,c ,2
+AKPresetManager,2017-08-31,Closed,1023,596,0,m ,3
+notes + aksampleplayer memory leak,2017-08-31,Merged,1021,9,9,hpp xcscheme ,4
+AKTimeline,2017-08-29,Merged,1019,545,3,,1
+Error logs added to guard let functions,2017-08-28,Merged,1018,380,72,,14
+sysex improvements,2017-08-28,Merged,1017,6,9,,1
+AKAUPresetBuilder cleanup,2017-08-28,Merged,1016,2,4,,1
+Split up UI in its own AudioKitUI framework,2017-08-27,Merged,1014,"1,441",436,swift h m ,27
+AKRenderTapAKLazyTap3rdTry,2017-08-25,Merged,1013,307,92,c m ,6
+TPCircularBufferUnit,2017-08-25,Merged,1012,238,6,c pbxproj ,5
+Pulled render notify out of AKLazyTap and into a base class.,2017-08-24,Merged,1011,242,81,m ,4
+AVLazyTap,2017-08-23,Merged,1010,"1,162",260,,1
+AKMusicTrack music track init bug fix.,2017-08-23,Merged,1006,95,39,pbxproj xcscheme storyboard ,5
+Added lock on microphone while a phone call is in progress,2017-08-16,Merged,1005,13,1,,1
+Fixed potential crash from accessing connectionPoints before attached to engine.,2017-08-16,Merged,1004,1,1,,1
+Implement AKInput for AVAudioNode,2017-08-15,Merged,1003,16,1,,1
+Added instruments to the Host Manager example for iOS,2017-08-15,Merged,1002,194,36,pbxproj storyboard plist ,5
+Implement AKInput,2017-08-14,Merged,1001,361,339,,16
+Added the AudioUnitManagerExample-iOS,2017-08-14,Merged,1000,"1,546",6,pbxproj ,2
+AKConnection changes,2017-08-13,Merged,999,73,54,,1
+animate unhighlighting of AKButton,2017-08-13,Merged,998,48,3,,2
+change button color when highlighted,2017-08-13,Merged,997,59,4,,2
+AkNode io connections,2017-08-12,Merged,996,150,24,pbxproj ,4
+Removed input disconnection functions.,2017-08-12,Closed,995,146,24,pbxproj ,3
+Ak node io connections,2017-08-12,Merged,993,66,25,,5
+Added Playgrounds for AKDynaRageCompressor and AKRhinoGuitarProcessor,2017-08-12,Merged,992,180,0,wav xcplayground ,4
+Develop,2017-08-11,Merged,990,"6,222",0,hpp cpp ,5
+Offlinerender,2017-08-11,Merged,989,672,35,swift mm ,4
+Song processor update,2017-08-10,Merged,988,151,78,,4
+Song processor update,2017-08-10,Closed,987,153,80,,5
+"Refactored AKAudioPlayer for offline render compatibility, and for safer synchronization of start.",2017-08-10,Merged,985,16,9,,1
+Made AKSettings.BufferLength samplesCount and duration public.,2017-08-10,Merged,984,2,2,,1
+Preset and file views for iOS,2017-08-09,Merged,979,408,210,,1
+Minor changes to the Audio Unit Host,2017-08-09,Merged,978,14,24,m ,3
+added AbletonLinkDemo example along with AbletonLinkWrapper API,2017-08-03,Closed,975,"62,877",0,swift h ,3
+Reset engine connections sample rate and channel count when replacing…,2017-08-03,Merged,973,8,4,,1
+Feature/audioplayer seek fix,2017-08-03,Merged,972,8,12,,1
+Set markers in EZAudioFile,2017-08-02,Merged,971,56,1,m pbxproj ,3
+Additions for AKAudioUnitManager + Example macOS project,2017-08-01,Merged,968,"2,996",1,,1
+"new design for preset and file loaders, and",2017-07-31,Merged,967,295,106,,2
+AKMixer fix,2017-07-30,Merged,966,44,18,pbxproj ,2
+"A few small changes, AKBooster",2017-07-26,Merged,965,48,34,,4
+Rotary knob and button,2017-07-25,Merged,964,"1,149",59,pbxproj ,4
+Update Knobs from PNG to Code!,2017-07-23,Merged,962,339,516,json png ,19
+Fix logic problem in AudioKit's start,2017-07-18,Merged,959,32,34,,2
+New property slider,2017-07-17,Merged,958,577,166,,0
+Fixing crash from route/category changes when app is not active,2017-07-16,Merged,956,59,11,,3
+Refactor of start() for readability and bug fixes.,2017-07-15,Merged,955,62,35,,2
+AKMIDITransformer and playgrounds,2017-07-10,Merged,952,465,7,swift pbxproj wav xcplayground ,11
+Fixed Two Scala File Parsing Bugs,2017-07-07,Closed,951,"2,152","2,767",swift h ,5
+fixed resettointi musictrack bug,2017-07-06,Merged,949,7,7,pbxproj ,2
+removed unused in progress code,2017-07-06,Merged,948,1,10,,1
+music tracks,2017-07-06,Merged,947,68,75,pbxproj ,3
+Sampler Demo fixes,2017-07-05,Merged,946,100,11,hpp pbxproj ,5
+Fix iOS 11 crash when AKAudioPlayer stops internal,2017-07-05,Merged,945,3,1,,1
+Make AKMicrophoneTrackerEngine SoundPipe parameters on par with AKFrequencyTracker,2017-07-03,Merged,943,4,1,,1
+Create CODE_OF_CONDUCT.md,2017-06-28,Merged,939,46,0,,0
+rename route change handling setting to enableRouteChangeHandling,2017-06-28,Merged,938,3,3,,2
+add setting allowing developer to handle AVAudioSessionRouteChange no…,2017-06-25,Merged,936,14,7,,2
+update effects playgrounds with dry loops,2017-06-16,Merged,934,4,4,mp3 ,5
+fix playground text ‘makensure’ to ‘make sure’,2017-06-14,Merged,932,1,1,,1
+Bug fix for AKNode.addConnectionPoint,2017-06-12,Merged,931,1,1,,1
+Offline render feature,2017-08-10,Closed,928,"1,249",11,mm swift ,7
+minor cleanup amplitudetracker,2017-05-26,Merged,921,16,4,h mm hpp ,4
+Fix: AKTimePitch CPU usage stay high when bypassed,2017-05-26,Merged,920,3,13,,1
+Remove unnecessary code from AKNodeRecorder.record,2017-05-26,Merged,919,0,27,,1
+Fix: AKNodeRecorder.reset() fail to delete the recorder file,2017-05-25,Merged,916,1,1,,1
+Fix: cannot create an AKAudioFile with space in name via init(writeIn…,2017-05-24,Merged,915,3,3,,1
+updates to aksampler,2017-05-24,Merged,912,17,4,h mm hpp ,4
+initial loadSound function for sampleplayer,2017-05-23,Merged,911,43,38,,1
+better init and documentation and safety of aksampleplayer,2017-05-22,Merged,910,39,23,h mm hpp ,4
+Add Pitch Bend to AKMusicTrack,2017-05-22,Merged,909,33,0,,1
+Add Pitch Bend To AKMusikTrack,2017-05-21,Closed,908,25,0,,1
+aksampleplayer added,2017-05-21,Merged,906,601,0,swift mm ,4
+Fix an error when creating a mono AKAudioFile from floats,2017-05-21,Merged,904,1,1,,1
+Updated pull request for Audio Fades + playground,2017-05-12,Merged,895,44,12,,2
+Added default play() method to AKAudioPlayer + playground update,2017-05-11,Closed,894,159,16,,3
+Added sample based fade in/out to AKAudioPlayer,2017-05-11,Merged,893,88,1,,1
+Minor Correction MidiMonitor Example to handle Pitch Wheel (issue #886),2017-05-11,Merged,892,1,1,,1
+Fix AKMicrophoneTrackerEngine stop method and remove implicit start on init,2017-05-10,Merged,889,1,2,,1
+Fix tiny bug in new AKMicrophoneTrackerEngine,2017-05-09,Closed,888,"2,502",419,gitignore json swift h m ,11
+EndpointInfo structure created for having more information about the EndPoint,2017-05-10,Merged,887,64,4,pbxproj ,2
+Fix disconnect method for nodes that access _Self.effect,2017-05-09,Merged,885,49,14,,11
+Disconnect AKNode subclasses safely,2017-05-08,Merged,884,66,8,,6
+Add AKFMOscillatorBankMonophonic and AKOscillatorBankMonophonic,2017-05-08,Closed,883,301,1,swift mm ,9
+Add missing check for engine isRunning after restartEngineAfterRouteChange,2017-05-08,Merged,882,1,1,,1
+A small correction of openOutput() function,2017-05-06,Merged,881,16,7,,1
+openOutput() correction: Select one with given name or all,2017-05-06,Closed,880,"2,173",395,gitignore json swift m ,8
+AKMIDI+SendingMIDI.swift func openOutput() correction,2017-05-06,Closed,879,"2,173",395,gitignore json swift m ,8
+Microtonality release candidate,2017-05-05,Merged,878,219,58,h mm hpp ,10
+added microtonality files to macos and tvOS projects,2017-05-03,Merged,874,72,27,pbxproj ,6
+Finessing Microtonality,2017-05-02,Merged,873,221,65,,4
+Update Mac OS X AudioKit with new Microtonality subdirectory structure,2017-05-01,Closed,872,37,5,,1
+"Split AKTuningTable into extensions, move into Microtonality subdirectory",2017-05-01,Merged,870,454,170,,4
+Fix export error,2017-04-28,Closed,867,1,1,,1
+Fixed exception in Scala file parsing:,2017-04-28,Merged,865,8,5,,1
+Suppressed AKTuningTable warnings...have merge questions,2017-04-27,Merged,863,167,10,scl pbxproj xcplayground ,5
+AkTuningTable proposal,2017-04-26,Closed,860,649,75,,3
+Possible fix for issue #856,2017-04-22,Merged,858,2,5,,1
+File asset URL changed to `file://` scheme,2017-04-22,Merged,851,1,1,,1
+Adding rate functionality for MusicPlayer based sequencers,2017-04-06,Merged,840,20,12,,2
+AKTuningTable.swift proposal,2017-04-25,Closed,838,615,76,,3
+Fixed memory leaks in AKSequencer and AKMusicTrack,2017-04-05,Merged,837,8,5,,2
+Added constructor to AKMixer.swift to accept a swift array of AKNode …,2017-04-03,Merged,835,13,0,,1
+Sporth Custom Ugen: Renamed fp to funcPtr to remove ambiguity.,2017-04-02,Merged,834,3,3,hpp ,3
+Fix AKAudioPlayer Looping Drift,2017-04-02,Merged,833,106,19,pbxproj ,3
+Set aftertouch msg length,2017-04-01,Closed,832,28,14,swift ,4
+Fixed Typo in README.md,2017-03-31,Merged,829,1,1,,0
+fixed midi pitch bend crash,2017-03-30,Merged,827,3,3,,2
+minor midi opening up,2017-03-30,Merged,826,19,10,,1
+Fix #817,2017-03-27,Merged,818,8,0,,2
+Use actual number of channels instead of hardcoding to 2,2017-03-24,Merged,816,2,2,,1
+Move notification handling code to main thread/queue,2017-03-23,Merged,811,32,25,,2
+Update ViewController.swift,2017-03-19,Merged,806,4,8,,1
+Update ViewController.swift,2017-03-18,Closed,805,4,8,,1
+Tuning table proposal,2017-03-18,Closed,804,"11,906","9,789",swift ,4
+Enable adding custom Sporth ugens written in Swift,2017-03-18,Merged,802,336,7,swift mm hpp ,14
+Allow more precise control of audio session bluetooth options,2017-03-17,Merged,801,9,0,,2
+Silence string interpolation warnings,2017-03-17,Closed,800,11,11,,4
+Correctly set session to use `.defaultToSpeaker` option in recorder demo,2017-03-16,Merged,799,1,4,,1
+Fix memory leak when init() is called more than once,2017-03-15,Merged,794,5,3,hpp ,2
+Proposed fix to EZAudioPlot continuous redraw of non-rolling waveform,2017-03-10,Merged,788,4,1,,1
+brought back in proper tempo adjustment if sequence is not playing,2017-03-03,Merged,773,5,2,,1
+fixing swiftlint issues,2017-03-03,Closed,772,10,13,,3
+Bluetooth updates,2017-03-01,Merged,770,71,14,,2
+[AKRecorderNode] - small refactor,2017-02-28,Merged,765,7,11,,1
+[AKAudioFile+Processing]: use unique random names if no filename is p…,2017-02-26,Merged,764,8,8,,1
+Made Nodes KVO capable,2017-02-24,Merged,761,400,400,,9
+added touch logic polyphonic and mono keyboard modes,2017-02-24,Merged,759,98,47,,1
+Create URL for export session with fileURLWithPath,2017-02-21,Merged,756,1,1,,1
+Change to project settings,2017-02-17,Merged,751,18,13,m pbxproj ,7
+Added loadBankSoundFont,2017-02-12,Merged,744,33,0,,1
+AKAudioPlayer scheduling fix,2017-02-11,Merged,740,79,24,,1
+Unclamped the detuning multiplier,2017-02-09,Merged,737,45,45,hpp ,18
+reversed change that broke midi processing,2017-02-07,Merged,733,13,6,,1
+* code golfing midipacketlist,2017-02-02,Merged,721,6,13,,1
+Develop3,2017-02-11,Closed,718,160,166,,8
+midipacketlist sequencing 2: the unsuckification,2017-01-29,Merged,716,46,104,,4
+Memory error in DSPKernel,2017-01-28,Merged,715,13,6,swift ,6
+print->aklog,2017-01-26,Merged,714,2,2,,1
+Let AKSampler propagate exceptions,2017-01-26,Merged,712,29,26,,2
+syntax fixes and midiinput rollback,2017-01-26,Merged,711,26,11,,2
+Added deinit methods to cleanup framework references,2017-01-24,Merged,708,32,0,,4
+added resources,2017-01-24,Merged,707,6,0,,0
+updated midi monitor to match recent midi changes,2017-01-24,Merged,706,7,11,,1
+AKAudioPlayer reverse playback - pull#2,2017-01-24,Merged,705,86,34,xcplayground ,7
+AKAudioPlayer in reverse,2017-01-23,Closed,703,75,29,yml json yaml swift h mm hpp m c txt AudioKit/Common/Internals/Soundpipe/lib/kissfft/COPYING AudioKit/Common/Internals/Soundpipe/lib/kissfft/README ,299
+Fix for issue: Pause / Play broken on AKAudioPlayer #686,2017-01-20,Merged,702,4,1,,1
+* refactored SessionCategory,2017-01-21,Merged,701,80,93,h ,5
+Fix crash with AKMIDISampler and AKSequencer,2017-01-21,Merged,700,69,18,,3
+AKMIDIBluetoothWindow,2017-01-20,Merged,699,93,9,swift pbxproj storyboard ,7
+Fixes for Issue #682,2017-01-19,Merged,697,617,613,swift ,11
+Export more of AKSettings to Objective-C APIs,2017-01-17,Merged,694,49,32,,2
+fun times. note that some of this is work in progress (e.g. the avaudionode extension + AKKernelUnit) but i need to keep track of it somewhere,2017-01-19,Merged,692,120,125,h mm hpp ,6
+500 LOC more,2017-01-14,Merged,688,90,587,swift mm ,13
+Refactorings,2017-01-13,Merged,687,248,339,hpp ,13
+Refactoring,2017-01-13,Closed,685,232,292,hpp ,15
+317 LOC more,2017-01-13,Merged,684,210,527,hpp ,10
+Removed 388 lines of C++ code,2017-01-12,Merged,683,79,467,,13
+Develop,2017-01-12,Merged,681,121,217,h mm hpp ,20
+Refactoring,2017-01-10,Merged,680,192,167,mm ,12
+removed unnecessary usages of self,2017-01-09,Merged,678,56,56,,28
+refactoring,2017-01-07,Merged,677,99,155,,10
+Making cc messages always 3 bytes,2017-01-05,Merged,676,1,7,,1
+Refactoring,2017-01-04,Merged,673,269,535,mm ,10
+Removed 559 LOC,2017-01-04,Merged,672,525,"1,084",mm ,7
+* refactored attaching to engine into _instantiate,2017-01-02,Merged,671,13,83,,45
+Develop,2017-01-02,Merged,670,323,512,,9
+Opening up MIDI functions,2016-12-21,Merged,666,88,4,,1
+Pevent the script emit errors when all is ok,2016-12-14,Merged,659,13,2,,1
+Fix delay issue with AKFFTTap,2016-12-14,Merged,658,2,2,,1
+* small refactoring of the init callback,2016-12-12,Merged,657,240,347,,21
+Inclusion guards -> #pragma onces,2016-12-12,Merged,655,159,449,swift h mm ,24
+Added support for multi-stream interfaces,2016-12-12,Merged,654,19,7,,1
+Added support for multi-stream interfaces,2016-12-12,Closed,653,19,7,,1
+Misc. refactorings,2016-12-11,Merged,652,22,18,,2
+Some refactorings,2016-12-11,Merged,651,53,13,h mm ,4
+Fixed bug where A5 (880 Hz) was used as temperament reference instead…,2016-12-09,Closed,649,4,4,,1
+AKTable slowdown fix,2016-12-09,Merged,648,118,226,h mm ,23
+Adjust length of internaldata on midi event,2016-12-05,Merged,646,3,0,,1
+Sysex,2016-12-03,Merged,641,33,41,,2
+made akcomponent and related classes public,2016-11-28,Merged,637,82,82,,37
+arrayOfFloats -> floatChannelData?,2016-11-27,Merged,636,27,17,,2
+removed unnecessary AUParameterTree variable declarations,2016-11-17,Merged,630,3,134,,42
+Updated about info + extension restriction relaxation,2016-11-16,Merged,629,5,5,md ,1
+"small refactoring to get rid of the of the repetitive ""format: AudioKit.format""",2016-11-16,Merged,628,28,24,,11
+Wrapper for AudioUnits,2016-11-14,Merged,626,66,106,,3
+Things work this time around!,2016-11-14,Merged,625,442,385,,9
+Refactored AU subclass registration,2016-11-14,Merged,623,248,530,,14
+Added Clarinet STK physical model,2016-11-13,Merged,622,662,0,swift ,3
+Develop,2016-11-13,Merged,621,53,80,,5
+Misc refactorings,2016-11-13,Merged,620,74,91,,11
+Develop,2016-11-13,Closed,619,848,310,m c h ,14
+Using clamps all over the place. It cut out like 300 LOC.,2016-11-13,Merged,618,106,434,,4
+Some small refactorings,2016-11-12,Merged,616,10,25,,2
+Added extensions to AudioComponentDescription to simplify construction,2016-11-12,Merged,615,98,499,,24
+Extended AUParameterTree with a subscript method,2016-11-12,Merged,614,161,155,,33
+* added a the clamp method in an extension to closedrange,2016-11-11,Merged,613,31,54,,2
+Renamed AKToggleable to AKPlayable,2016-11-11,Closed,612,89,89,swift ,41
+more fixing .defaultToSpeaker,2016-11-09,Merged,610,5,3,,1
+another attempt at fixing .defaultToSpeaker,2016-11-09,Closed,609,"4,425","1,848",m c ,12
+"Fixing issue #604, setting startTime before playback breaks expected …",2016-11-05,Merged,604,57,25,,1
+Added quantisation functions to sequencer,2016-11-03,Merged,602,70,26,,3
+EZAudioFile updates,2016-10-30,Merged,596,134,43,m swift pbxproj ,7
+AKAudioPlayer: refining the buffer filling,2016-10-29,Merged,595,68,31,,1
+AKAudioPlayer updates,2016-10-28,Merged,592,123,89,,0
+AKAudioPlayer changes - scheduling playback in the future,2016-10-27,Closed,591,"3,259",656,swift ,5
+Develop,2016-10-27,Merged,589,16,7,,3
+Develop,2016-10-26,Merged,588,82,46,h m ,6
+Retrying Song Processor Pull,2016-10-18,Merged,582,"2,439",79,xcscheme ,11
+Song processor updates,2016-10-17,Closed,581,892,376,xcplayground swift storyboard ,5
+fix DefaultToSpeaker,2016-10-25,Closed,580,5,6,,2
+Song processor issues,2016-10-11,Merged,576,513,350,swift pbxproj json png storyboard ,18
+Ignore DerivedData folder,2016-10-10,Merged,574,1,0,,1
+Recorder Sliders,2016-10-07,Merged,572,112,109,,1
+fix midi songposition status,2016-10-03,Merged,569,7,0,,3
+Changed iOS recorder sliders to AKproperty sliders.,2016-10-02,Closed,568,"83,617",136,framework/AudioKit ,4
+adding functions to akmusictrack,2016-09-26,Merged,566,79,26,,2
+Couple of small fixes,2016-09-26,Merged,565,21,14,,2
+Small Fixes to Drum Synth playground,2016-09-24,Merged,564,3,4,,1
+Fix issue with loop running x60 slower on iOS10,2016-09-23,Merged,563,2,2,,1
+Updating Sporth Editor app (iOS),2016-09-21,Merged,562,25,1,,1
+Updates to Sequencer example,2016-09-21,Merged,561,43,25,,2
+minor updates to akaupresetbuilder to work with dictionaries better,2016-09-19,Merged,559,2,3,,1
+Fixed AKMusicTrack.setLength by removing unused pointer creation - ch…,2016-09-19,Merged,558,20,25,,2
+AUPreset builder minor things,2016-09-19,Merged,557,37,10,,2
+update keyboard delegate argument names,2016-09-19,Closed,555,6,6,,1
+Playground Non-Audio tutorial Swift 3.0,2016-09-18,Merged,553,2,2,,1
+"* ported to swift 3, not much testing yet but compiles",2016-09-15,Closed,552,"2,926","2,894",,4
+Changed NSColor to AKColor for the node plotting playgrounds.,2016-09-12,Merged,549,4,4,,2
+Minor edits to playground text,2016-09-12,Merged,547,6,6,xcplayground ,4
+fix High shelf filter UI view typo,2016-09-09,Merged,544,2,2,,1
+Fixes to playgound,2016-09-09,Merged,543,3,4,xcplayground ,3
+Removed last forward splash from filePath in AKAudioFile init for Temp Directory,2016-09-07,Merged,541,1,1,,1
+AKCallbackInstrument more usable,2016-09-05,Merged,539,5,5,,1
+reset midi outputs,2016-09-01,Merged,537,4,0,,1
+Minor improvements,2016-08-30,Merged,535,25,45,,10
+Made AKTable conform to CollectionType,2016-08-30,Merged,534,59,49,,2
+Modify knobs & sliders custom controls to appear in IB / Thanks to Aure!,2016-08-29,Merged,532,205,160,,6
+Added the zeroes extension method to array,2016-08-29,Merged,531,39,28,,6
+memory free error in EZAudioUtilities,2016-08-19,Merged,527,9,2,m ,2
+AKAudioFile.export() fixed and updated !,2016-08-12,Merged,518,401,391,,1
+Some Fixes for AKNodeRecorder,2016-08-11,Merged,517,73,41,,2
+Making remaining test templates pass.,2016-08-10,Merged,516,32,32,,32
+Making some more tests pass...,2016-08-09,Merged,515,14,14,,14
+Filling in tests,2016-08-09,Merged,514,27,27,,27
+Added tests for White and Pink noise generators.,2016-08-09,Merged,513,36,0,,2
+Bit Crusher srate range change.,2016-08-01,Merged,507,4,4,hpp ,2
+Bit Crusher sample rate range change,2016-08-01,Closed,506,"3,357","3,570",,4
+Updated UI for RecorderDemo example for iOS,2016-07-25,Merged,498,183,80,,1
+Adjusting minimum qualityFactor values,2016-07-25,Merged,497,2,2,,2
+Develop2,2016-07-24,Merged,496,29,8,,2
+Minor doc addition,2016-07-23,Merged,495,7,0,,1
+Develop2,2016-07-23,Merged,494,24,50,,2
+Updated UI for RecorderDemo example for iOS,2016-07-23,Closed,493,488,346,swift json storyboard plist ,11
+killed some prints that were building up,2016-07-22,Merged,492,133,53,,4
+Master,2016-07-22,Merged,491,"1,212",0,swift json storyboard plist ,6
+Master,2016-07-22,Merged,489,793,579,,3
+Fixes for sampler demo,2016-07-21,Merged,488,43,87,,1
+Fixed closing the controls window in SporthEditor OSX,2016-07-19,Merged,487,37,33,,1
+Master,2016-07-19,Merged,486,9,1,swift ,2
+Pre-release tweaks,2016-07-17,Merged,485,17,12,swift xcplayground md ,7
+Added both gating system & sliders functionality to SporthEditor OSX example,2016-07-17,Merged,484,130,31,,1
+Various fixes for OS X Playgrounds,2016-07-17,Merged,483,8,7,,6
+Missed a header / TOC on a Playground,2016-07-15,Merged,481,9,1,,1
+Added SporthEditor example for OSX,2016-07-14,Merged,479,"1,789",0,,1
+fromSample toSample,2016-07-14,Merged,478,21,13,pbxproj ,4
+Develop,2016-07-14,Merged,477,141,7,mp3 xcplayground ,6
+Now Record throws ! :-),2016-07-14,Merged,476,421,175,,2
+Adding footers to banks playgrounds,2016-07-13,Merged,475,6,7,,5
+Adding TOC and header to banks playgrounds,2016-07-13,Merged,474,18,2,,3
+Added SporthEditor example for iOS,2016-07-13,Merged,473,"1,212",0,swift json storyboard ,4
+Adding resonant filter to AudioKit,2016-07-14,Merged,471,950,0,c swift ,5
+Added phone detection in AKSettings + some fixes,2016-07-12,Merged,470,46,73,,7
+Typo fix,2016-07-12,Merged,469,1,1,,1
+Removing `timePitch.overlap` parameter for now from T,2016-07-12,Merged,468,0,10,,2
+Added async methods to AKAudioFile+Processing.,2016-07-11,Merged,467,152,19,,2
+AVSession and buffer settings,2016-07-11,Merged,466,151,65,,4
+Updating Table Of Contents for Playgrounds pages.,2016-07-09,Merged,465,27,1,,2
+Update to Xcode 8 Beta 2 syntax.,2016-07-08,Merged,464,24,24,,10
+Fixed build errors in Drum Synthesizer playgrounds.,2016-07-07,Merged,463,8,8,,2
+Playground Preset Edits,2016-07-07,Merged,461,60,53,,11
+Fixing ModalResonanceFilter playground height so the Quality slider is not hidden,2016-07-07,Merged,459,2,2,,2
+remove syntax-breaking space in func call,2016-07-07,Closed,457,1,1,,1
+MIDI command crash fix,2016-07-06,Merged,456,5,4,,1
+Added SamplerDemo example for iOS,2016-07-06,Merged,454,"1,455",0,,1
+Minor playground edits.,2016-07-05,Merged,452,10,10,,6
+Began adding preset auditioning in iOS and OS X Playgrounds,2016-07-05,Merged,451,668,142,,2
+Develop,2016-07-04,Merged,450,587,175,,0
+Added `AKMandolin` presets.,2016-07-04,Merged,449,39,0,pbxproj ,2
+Adding `AKDecimator` presets,2016-07-04,Merged,448,12,3,,4
+Minor playground fixes,2016-07-03,Merged,447,32,2,pbxproj ,5
+Added phase to AKTable.,2016-07-02,Merged,446,37,15,,1
+Added SequencerDemo example for iOS,2016-07-01,Merged,445,"1,278",0,,1
+Initial preset work,2016-07-03,Merged,444,125,5,pbxproj xcplayground ,10
+AKSequencer and Beat type enhancements,2016-06-29,Merged,443,64,13,,2
+AKNodeRecorder playground,2016-06-28,Merged,442,167,280,,1
+Changes to Drawbar Organ,2016-06-27,Merged,438,76,335,,2
+Updated Drawbar Organ.,2016-06-25,Merged,436,194,205,,1
+Updated AudioPlayer Playground,2016-06-25,Merged,435,30,10,,1
+Develop,2016-06-25,Merged,434,60,32,,2
+Renamed AKAudioFile function parameters. Made AKMicrophoneRecorder an…,2016-06-24,Merged,433,427,488,,8
+"Removed andExtension from AKAudioFile, and changed enum baseDirectory to camelCase.",2016-06-24,Closed,432,392,392,,13
+"Changes to Drawbar Organ example, and added frequencyToMidiNote.",2016-06-23,Merged,431,30,3,,2
+AKSequencer handles negative values,2016-06-22,Merged,430,12,2,,2
+OSX KeyboardView needed mouseDown.,2016-06-21,Merged,428,12,0,,1
+Added depth parameter to AKTremolo,2016-06-21,Merged,427,95,10,h swift mm hpp ,7
+Removed unneeded code and fixed playgrounds.,2016-06-21,Merged,426,231,383,swift xctimeline ,20
+AKNodeRecorder,2016-06-20,Merged,425,439,59,,2
+AKAudioNodeRecorder,2016-06-20,Merged,423,640,"1,071",,2
+Added SongProcessor example for iOS,2016-06-19,Merged,422,975,0,swift ,2
+Optimized bltriangle crest property,2016-06-18,Merged,420,24,17,swift mm hpp ,4
+Adding code printing to OS X playgrounds for preset creation.,2016-06-18,Merged,419,459,6,xctimeline ,14
+P.R. to remove a duplicated method in the Band Pass Butterworth Filter playground,2016-06-17,Merged,417,0,7,,1
+Quick fixed adsr,2016-06-17,Merged,416,7,6,,1
+Added support of AKAudioFile to AKSampler,2016-06-17,Merged,415,210,24,wav xcplayground ,5
+Added Drawbar Organ playground example,2016-06-17,Merged,414,369,23,,2
+AKMagneto beta,2016-06-16,Merged,413,528,68,,2
+setNeedsDisplay not needed,2016-06-16,Merged,411,0,1,,1
+Fix 2 bugs with AKAudioFile & AKAudioPlayer,2016-06-15,Merged,410,5,4,,2
+Added crest property to AKTriangleOscillator,2016-06-15,Merged,408,101,11,h swift mm hpp xctimeline ,9
+Added MicrophoneAnalysis example for OSX,2016-06-14,Merged,407,"1,346",0,swift ,2
+Added code printing for iOS Playgrounds,2016-06-14,Merged,406,497,20,xctimeline ,14
+Render iOS Playground docs by default,2016-06-14,Merged,403,0,0,,0
+Added AKAudioPlayerDelegate,2016-06-13,Merged,402,44,19,,1
+Minor,2016-06-12,Merged,401,12,0,,3
+AKAudioFIle and player updates,2016-06-12,Merged,400,"1,128",135,,0
+Minor Playground edits,2016-06-12,Merged,399,10,14,,6
+Broken mixing nodes playground fixed.,2016-06-12,Merged,398,21,29,,2
+Added MicrophoneAnalysis example for iOS,2016-06-11,Merged,397,760,0,swift ,2
+"second attempt, I'm not sure of my previous one...",2016-06-11,Closed,396,"2,155","3,155",swift ,9
+Ak audio file,2016-06-11,Closed,394,"3,126","1,138",swift ,9
+Minor AKMicrophoneRecorder change,2016-06-10,Merged,393,1,1,,1
+AKMicrophoneRecorder Fix,2016-06-09,Merged,392,17,3,,1
+added s-curve type to akfader,2016-06-07,Merged,391,13,3,,1
+Updates to AKFader,2016-06-04,Merged,388,78,52,,1
+midi crash,2016-05-31,Merged,386,6,1,,1
+"removed most of the waveform stuff, added back in midi stuff",2016-05-19,Merged,381,98,8,m swift ,9
+fadeout to waveplot and midi clearlisteners,2016-05-11,Closed,376,63,12,m swift ,7
+plot updates + 1 midi update,2016-05-10,Closed,375,59,12,m swift ,7
+Update AKAudioPlayer.totalFrameCount upon reloadFile(),2016-05-10,Merged,374,11,11,,1
+added dB setting to booster,2016-05-05,Merged,367,10,0,,1
+made virtualInput public,2016-05-02,Merged,363,1,1,,1
+more sample building options,2016-04-26,Merged,361,20,3,,1
+AKDecimator fix,2016-04-19,Merged,352,17,11,,4
+Added AKNotifications for detecting output change,2016-04-19,Merged,351,120,6,pbxproj ,7
+sequencer improvements,2016-04-18,Merged,350,20,8,pbxproj ,3
+Fixes an issue with currentTime not being as reliable as it could be.,2016-04-13,Merged,347,3,3,,1
+re-added STK files...,2016-06-16,Merged,346,"37,251",5,cpp ,3
+layers in akaupresetbuilder,2016-04-12,Merged,345,248,199,,0
+add 'replaceFile' to AKAudioPlayer,2016-04-09,Merged,337,8,0,,1
+AKAUPresetBuilder,2016-04-08,Merged,334,"1,075",107,,0
+midisampler supports controller changes,2016-04-07,Merged,333,13,0,,1
+minor loop length tweak to sequences,2016-04-06,Merged,331,14,1,,1
+STK files added,2016-04-11,Closed,330,"51,884",0,,2
+added attack and release to sampler generations,2016-04-04,Merged,328,9,4,,1
+adding support for DefaultToSpeaker,2016-04-02,Merged,324,58,1,,2
+develop sync pr,2016-03-24,Merged,320,73,10,pbxproj ,3
+sequencer enhancements,2016-03-24,Merged,319,23,2,,2
+further sequencer enhancements,2016-03-24,Closed,318,"15,131","4,412",yaml swift h m c ,14
+more sampler improvements,2016-03-21,Merged,316,18,1,,2
+Added indefinite execution,2016-03-21,Merged,315,2,0,,1
+sequencer enhancements,2016-03-16,Merged,313,49,7,,3
+sequencer and sampler improvements,2016-03-16,Merged,312,173,12,pbxproj ,4
+sampler aupreset creation,2016-03-14,Merged,310,773,0,,0
+Syntax highlight for README.md,2016-02-21,Merged,300,22,22,,0
+Full Carthage support,2016-02-13,Merged,297,194,10,,3
+Add AKVariSpeed node,2016-02-08,Merged,296,69,0,pbxproj ,2
+added sliderValue prop & adsr readout to %,2016-02-04,Merged,292,6,4,,2
+Fix an issue with currentTime not being relative to the audio file,2016-02-03,Merged,290,10,3,,1
+added cpu btn and improved crusher scale,2016-02-03,Merged,289,42,32,storyboard swift md ,5
+fixed midi packet parsing to include realtime system commands again,2016-02-03,Merged,287,16,3,,1
+"CoreMidi packet fixes, virtual midi ports, and pitchbend support for AnalogSynthX",2016-02-03,Merged,286,241,37,,4
+Develop,2016-02-01,Merged,284,18,0,,1
+Updated MidiMonitor project to use binary framework,2016-02-09,Merged,282,154,90,swift m pbxproj plist ,11
+3.0.1 Release,2016-02-01,Merged,281,"3,456","1,662",xcworkspacedata yaml swift h ,14
+Plot fixes,2016-02-01,Merged,280,109,67,,5
+Fix frameworks for Bitcode,2016-01-31,Merged,279,169,95,m c hpp ,37
+upgraded midi monitor,2016-01-30,Merged,278,48,40,storyboard ,4
+Midi monitor,2016-01-30,Merged,277,887,79,pbxproj ,4
+Midi Monitor app,2016-01-30,Merged,276,233,187,swift ,3
+"Bridge AKSettings to Soundpipe, various fixes",2016-01-30,Merged,275,128,22,m c hpp pbxproj swift xctimeline ,11
+Updated CocoaPods support,2016-01-29,Merged,274,30,19,sh md ,2
+Got rid of AKManager and reintroduced AKSettings,2016-01-29,Merged,273,920,910,swift h mm hpp ,21
+Objective-C support and Example Project,2016-01-28,Merged,272,821,38,,18
+Carthage support,2016-01-27,Merged,271,42,10,gitignore sh md ,3
+app name change,2016-01-26,Merged,270,18,54,png json storyboard swift plist ,9
+added links to Sporth and Soundpipe in README,2016-01-20,Merged,267,1,1,,0
+Updating the list of apps that use AudioKit.,2015-12-26,Merged,263,3,1,,0
+Move ```AKBeatClock``` notifications over to the main thread so that …,2015-12-02,Merged,260,6,4,,1
+OS X fixes,2015-11-13,Merged,254,21,12,,1
+Making Csound wait time a parameter for some slower simulators,2015-11-09,Merged,251,9,3,h plist ,4
+tvOS in Podspec,2015-11-01,Merged,249,19,2,pbxproj ,2
+Update README,2015-10-30,Merged,248,7,7,,0
+"Removed LFS, included tvOS libraries",2015-10-24,Merged,245,0,7,framework/CsoundLib framework/libsndfile ,4
+tvOS support,2015-10-22,Merged,244,"1,647",57,xcscheme m gitattributes framework/CsoundLib plist framework/libsndfile sh h xib storyboard ,15
+"CPU improvements, Git LFS support",2015-10-13,Merged,240,13,7,m ,3
+Maximum note allocation,2015-10-08,Merged,239,13,0,h ,2
+Created AKMaskedFFT class,2015-09-19,Merged,233,138,0,h m ,4
+Added AKMaskedFFT class,2015-09-19,Closed,232,"1,263",195,pbxproj h m ,15
+FFT classes,2015-09-14,Merged,231,523,0,h m ,5
+Changes for Xcode 7,2015-09-11,Merged,230,239,166,pbxproj h m ,23
+Build error fix.,2015-09-08,Merged,229,1,1,,1
+Ensure that labels are populated with their initial values.,2015-09-08,Merged,228,1,0,,1
+Added default peak scaling to AKAntiresonator,2015-08-30,Merged,224,3,1,,2
+Updated Csound binaries,2015-08-29,Merged,223,0,1,0/CsoundLib dylib framework/CsoundLib a ,28
+Update README.md,2015-08-20,Merged,220,8,0,,0
+Generated AKAntiresonator class,2015-08-18,Merged,218,176,1,m ,3
+Couple of small fixes,2015-08-17,Merged,217,30,28,storyboard ,2
+fixed typo in README.md,2015-08-11,Merged,215,1,1,,0
+"New Csound binaries with bug fix, interface for Csound debugger",2015-08-09,Merged,214,141,3,m hpp 0/CsoundLib dylib framework/CsoundLib a ,31
+MIDI / SoundFont tab in iOS AudioKitDemo,2015-08-04,Merged,212,337,27,pbxproj ,2
+Massive MIDI improvements,2015-07-24,Merged,209,"1,342",769,xcscheme h ,6
+Few small fixes,2015-07-16,Merged,207,7,6,,3
+"Updated EZAudio source to 1.1.2, including the FFT class.",2015-07-15,Merged,206,934,18,h ,2
+Ezaudio update,2015-07-14,Merged,205,"3,370","1,081",h m ,6
+Improvements to AKMidi,2015-07-12,Merged,203,189,113,m ,3
+Added AKClip class (csound opcode 'clip'),2015-07-11,Merged,202,145,0,m ,3
+Small example project fixes,2015-07-09,Merged,201,53,76,,0
+Updated run script to account for spaces in the file directory,2015-07-09,Merged,197,8,8,,8
+MIDIEnabled setting in AKSettings,2015-07-06,Merged,196,12,5,h plist ,4
+MIDI notifications fixes,2015-07-05,Merged,195,13,13,,1
+Moved AKMidi to a notification center based model,2015-07-05,Merged,194,101,238,m h ,4
+Run Phase script improvements,2015-07-04,Merged,193,48,27,pbxproj md ,12
+More improvements for AKSoundFont,2015-07-03,Merged,192,100,6,dylib framework/CsoundLib a h m ,8
+Improved SoundFont parsing via custom Csound API,2015-07-02,Merged,191,52,45,h 0/CsoundLib dylib framework/CsoundLib a ,17
+Added MIT License icon to README.md,2015-07-01,Merged,189,2,0,,0
+Sound font progress for Stephane to Review,2015-07-01,Merged,188,625,102,h m sf2 ,5
+Update README.md,2015-06-29,Merged,187,1,1,,0
+Travis CI beta support for Xcode 6.3 / OS X 10.10,2015-06-19,Merged,185,7,3,sh ,2
+Adding AKPanner presets and tests,2015-06-19,Merged,184,139,2,m ,4
+Avoid deadlocks in Csound_Render().,2015-06-18,Merged,182,72,73,,1
+Correct typo,2015-06-17,Merged,181,1,1,,0
+Cleaning up preset playground,2015-06-16,Merged,180,1,149,,1
+Changed CsoundObj license to MIT,2015-06-16,Merged,179,44,32,xcscheme h m ,6
+Preset edits for AKDelay / preset tests,2015-06-08,Merged,177,70,19,m ,3
+Added remaining filter preset tests,2015-06-07,Merged,175,357,0,,8
+Replaced instances of presetReverb with presetFilter where appropriate,2015-06-06,Merged,174,30,30,,7
+Added missing physical modeling preset tests,2015-06-06,Merged,173,113,0,,6
+Adding some more preset tests,2015-06-06,Merged,172,376,17,m ,11
+Added remaining generator preset tests,2015-06-06,Merged,171,178,0,,4
+Starting preset tests,2015-06-04,Merged,170,158,24,sh ,5
+Added AKResonantFilter presets,2015-05-31,Merged,166,113,9,m ,3
+Added defaults and presets,2015-05-31,Merged,165,396,102,m ,28
+Bug fix and improvements for some modifier operations and added some more presets.,2015-05-29,Merged,164,204,62,m ,4
+Added AKEqualizer presets,2015-05-28,Merged,163,171,26,m ,3
+Renamed the TRAVIS_CI macro to the more generic AK_TESTING.,2015-05-26,Merged,162,17,17,h m ,7
+Added new presets,2015-05-25,Merged,161,822,108,m ,9
+Improvements for unit testing,2015-05-26,Merged,160,"2,791",412,m ,4
+"Modifications to PresetPlayground for modifier preset creation, added AKReverb, AKFlatFrequencyResponseReverb, AKDelay, AKCombFilter, and AKMoogLadder presets",2015-05-25,Merged,159,637,11,m ,10
+New testing system,2015-05-24,Merged,158,918,176,m plist ,5
+Adding AKFlute presets,2015-05-23,Merged,157,150,0,m ,3
+"Added StruckMetalBar, Vibes, and BowedString presets",2015-05-22,Merged,156,378,2,m ,5
+Adding AK prefix to a bunch of classes,2015-05-22,Merged,155,310,310,h m ,18
+"PluckedString presets, adding presets to PresetPlayground",2015-05-21,Merged,154,156,0,m ,5
+"Global amplitude value change to avoid clipping, and some more presets.",2015-05-21,Merged,153,121,41,h ,21
+Moving all the individual commands that travis runs into one script,2015-05-18,Merged,152,12,11,sh ,2
+Exposing 'initWithPreset' methods for existing prests,2015-05-18,Merged,151,39,2,m ,4
+Adding some more presets,2015-05-18,Merged,150,380,1,m ,5
+Various plot enhancements,2015-05-15,Merged,148,69,61,,6
+Made a Resources folder,2015-05-10,Merged,146,8,8,wav dat aif plist ,17
+"Allow audio input to be turned on/off at any moment, expose AKSettings",2015-05-09,Merged,145,389,287,m plist ,7
+[Podspec] Escape space in folder name,2015-05-07,Merged,143,2,7,,1
+Adding PhiSEM operations presets to develop branch,2015-04-30,Merged,140,475,8,m ,13
+End https://github.com/audiokit/AudioKit/issues/138,2015-04-29,Merged,139,8,2,,1
+Updated Podspec,2015-04-28,Merged,136,13,20,storyboard ,2
+Making backgroundColor an inspectable property on OSX only,2015-04-28,Merged,135,146,63,h storyboard ,10
+"Various plot improvements, Mac fixes",2015-04-28,Merged,134,732,760,h m ,4
+Rolling plots improvements,2015-04-23,Merged,133,56,67,h pbxproj md ,11
+Dynamic Frameworks for iOS,2015-04-23,Merged,132,"1,259",175,xcscheme 0/CsoundLib dylib framework/CsoundLib plist a framework/libsndfile ,36
+Testing some sound generation using Tracked Frequency,2015-04-21,Merged,131,248,246,h m pbxproj ,14
+[Travis] more test tweaks,2015-04-21,Merged,130,12,12,m ,5
+Table Tests moved to XCTest,2015-04-21,Merged,129,132,146,h swift ,7
+Various Testing Fixes,2015-04-20,Merged,128,7,7,m swift sh ,5
+Compiling Swift Projects on TravisCI,2015-04-20,Merged,127,10,2,pbxproj storyboard ,4
+"Bunch of cleanups, audits, etc.",2015-04-20,Merged,126,212,201,h m ,6
+Limit the spinning through a time delay.,2015-04-20,Merged,125,0,7,,3
+Building iOS Test Projects and Playground as part of TravisCI,2015-04-20,Merged,124,"1,254","3,178",pbxproj md kick xcscheme lock h ,32
+[Travis] misc travis.yml tweaks,2015-04-19,Merged,123,6,3,,1
+Help with Xcode < 6.3,2015-04-19,Merged,122,105,46,pbxproj h m ,11
+A few more fixes to AKTable and AKTablePlot,2015-04-18,Merged,121,60,50,m storyboard ,6
+Fixes for AKTable and related classes,2015-04-17,Merged,120,49,70,m ,10
+AKManager and CsoundObj improvements,2015-04-16,Merged,119,105,124,m ,8
+"Added OS X versions of missing plots, AKLevelMeter",2015-04-14,Merged,118,51,47,,4
+Fix bug with microphone prompt being shown despite plist setting 'Enable...,2015-04-14,Merged,117,15,16,,1
+Various fixes to address warnings and clang analyzer.,2015-04-14,Merged,116,7,7,,2
+Fix memory allocation in AKTable,2015-04-14,Merged,115,41,23,,1
+New AKSetting to turn on the way Csound messages are displayed,2015-04-14,Merged,114,13,3,h plist ,4
+"Added missing files to the OS X library, slight test project cleanup.",2015-04-14,Merged,113,32,5,,2
+"Updated CsoundLib OS X framework with custom build, lots of other improvements",2015-04-14,Merged,112,695,"9,841",h m ,7
+Update Podspec with Marius Rackwitz' feedback,2015-04-10,Closed,111,66,50,,1
+"Centralized all AudioKit.plist in AKSettings class, file no longer required",2015-04-09,Merged,110,196,183,m h ,6
+Restructured entire project around a new AudioKit static library,2015-04-08,Merged,109,"3,330","12,029",xcscheme wav aif m ,14
+Convert podspec to JSON and add TPCircularBuffer as dependency,2015-04-07,Merged,106,54,29,json ,2
+Greatly simplified rolling waveform plots,2015-04-07,Merged,105,154,264,m ,6
+This should make the rolling plots work again in playgrounds,2015-04-06,Merged,104,18,7,,2
+Fix EZAudioPlot crashes,2015-04-06,Merged,103,1,4,,1
+Fixed the memory drainage,2015-04-06,Merged,102,123,90,m ,5
+More plot cleanups,2015-04-05,Merged,101,111,97,m ,9
+"More cleanups in plots, fixed a bunch of memory leaks",2015-04-04,Merged,100,206,225,,6
+Reworked the plot views so that explicit addBinding: calls to AKManager are no longer needed,2015-04-03,Merged,98,325,236,m ,11
+Various improvements for the *Plot views,2015-04-03,Merged,97,240,94,m ,11
+Make the state property @dynamic (silences a warning in Xcode 6.3),2015-03-31,Merged,95,0,4,,1
+Basic operators overloading in Swift,2015-03-30,Merged,94,60,0,,1
+fixes audioInput,2015-03-29,Merged,92,2,0,,1
+Changing run script phase to prevent Csound framework linking issue,2015-03-18,Merged,91,5,4,,4
+Made LevelMeter view designable in Interface Builder,2015-03-18,Merged,90,53,24,m storyboard ,4
+AudioKitDemo (OSX-Swift) Example work,2015-03-14,Merged,89,"3,256",33,m swift pbxproj ,6
+Specify ADC0 and DAC0 in csound arguments. Resolves GH-70,2015-04-19,Closed,88,1,1,,1
+Completed Swift AudioKitDemo examples,2015-03-12,Merged,87,"2,938",1,swift pbxproj xib ,6
+Added OSX HelloWorld (Swift) example project,2015-03-01,Merged,86,"2,366",0,swift storyboard h json png plist ,9
+Finished HelloWorld (Swift) example project,2015-02-28,Merged,85,"1,871",0,swift xib storyboard h json png plist ,10
+Updated example projects to reflect recent AudioKit changes,2015-02-01,Merged,84,918,"1,286",,17
+Example fixes (TouchRegions and SongFilePlayer),2015-01-28,Merged,82,40,19,storyboard ,4
+Easy exponential curves,2015-01-22,Closed,81,209,0,m ,6
+Added podspec file,2015-01-06,Merged,79,27,0,,1
+Updated example projects to latest AudioKit,2015-01-05,Merged,78,288,216,,1
+"Sensible defaults for Keyboard example, deleted unused code in SwiftHarmonizer",2015-01-04,Merged,77,12,25,swift ,3
+Added sensible defaults to examples,2015-01-03,Merged,76,150,148,m storyboard ,8
+More tests/defaults and logging,2015-01-02,Merged,75,611,86,,5
+More logging for test,2015-01-01,Merged,74,67,36,,7
+Changed values for timeInterval,2014-12-31,Merged,73,4,4,,2
+Test logging additions,2014-12-31,Merged,72,38,19,,5
+Added logging to more tests,2014-12-31,Merged,71,82,30,,5
+Added logging to several tests,2014-12-31,Merged,69,429,170,,9
+Fixed misplaced label in Sequences example,2014-12-28,Merged,68,1,1,,1
+Improved test projects,2014-12-27,Merged,67,274,293,m pbxproj swift ,11
+SongPlayerLibrary doesn't show iCloud-purchased songs anymore,2014-12-22,Merged,66,3,4,,1
+"Sensible defaults for AKLowPassFilter/AKLowPassControlFilter, AKPortamento",2014-12-22,Merged,65,"3,231",57,m ,6
+Fix typo in AKManager,2014-12-22,Merged,64,1,1,,1
+Reson/z operations,2014-12-22,Merged,63,"1,617",32,m storyboard swift ,4
+Keyboard example changes,2014-12-22,Merged,62,31,11,pbxproj swift ,5
+Adaptive-layout for SwiftFMOscillator,2014-12-22,Merged,61,130,195,,2
+Adaptive-layout,2014-12-21,Merged,60,126,209,storyboard ,2
+Sensible defaults for AKFlanger,2014-12-21,Merged,59,"1,610",25,m ,2
+More sensible defaults and tests,2014-12-21,Merged,58,"3,199",42,m ,4
+More sensible defaults and tests,2014-12-21,Merged,57,"6,398",67,m ,6
+Sensible defaults and test for AKMoogLadder,2014-12-21,Merged,56,"1,606",19,m ,2
+Adaptive-layout,2014-12-21,Merged,55,118,229,storyboard ,3
+Upgraded some example storyboards to use adaptive-layout,2014-12-20,Merged,54,381,479,pbxproj ,3
+Use of adaptive layout in Continuous Control,2014-12-20,Merged,53,193,260,,1
+Added more sensible defaults,2014-12-20,Merged,52,"6,462",70,m ,6
+More sensible defaults,2014-12-20,Merged,51,"4,870",62,m ,5
+Sensible defaults and tests for AKParallelCombLowPassFilterReverb,2014-12-20,Merged,50,"4,880",83,m ,4
+Sensible defaults and tests for AKFlatFrequencyResponseReverb,2014-12-19,Merged,49,"1,601",17,m ,2
+Fixes for OS X examples in .pbxproj files,2014-12-19,Merged,48,8,8,,4
+Merge pull request #43 from audiokit/develop,2014-12-13,Merged,44,0,0,,0
+AudioKit Version1.1,2014-12-13,Merged,43,"53,182","7,621",m ,6
+AudioKitVersion1.1,2014-12-13,Merged,42,"52,654","7,297",m ,6
+AKSandpaper V2 Tests and Defaults,2014-11-29,Closed,41,"17,989","1,302",m ,5
+"Deleted ""EnergyReturn"" parameter",2014-11-12,Merged,39,0,8,m ,2
+PhiSEM 'Crunch' edits,2014-11-12,Closed,38,505,390,h m ,15
+"Parameters get initial, min, and max values.",2014-11-11,Merged,37,68,158,m ,6
+Musical controls,2014-11-10,Merged,36,360,216,m pbxproj ,6
+more search path fixes,2014-11-06,Merged,33,4,10,,2
+removed aure file reference,2014-11-06,Merged,32,6,6,,1
+"Fixed any reference to ""Aure"" in library search paths",2014-11-05,Merged,31,4,36,,11
+Delte references to aure library search paths,2014-11-05,Closed,30,"21,969","30,199",xcsettings h m ,16
+declick added,2014-11-03,Merged,29,4,1,,1
+Keyboard Edits,2014-11-02,Merged,28,5,5,,1
+Edits to keyboard example,2014-11-01,Merged,27,"1,106","1,105",storyboard m h ,6
+FMosc storyboard edit,2014-10-31,Merged,26,70,90,,0
+fixed library search paths,2014-10-31,Merged,25,10,34,,5
+Copyright change,2014-10-28,Merged,24,16,54,h m swift ,21
+Silence library warnings,2014-10-28,Merged,23,4,42,,13
+Swift MFosc switch,2014-10-27,Merged,22,28,18,swift ,3
+"Deleted demo instruments example, changed description of AKControl",2014-10-26,Merged,21,1,"4,887",h pbxproj m xib plist pch json rtf strings ,12
+Instrument Rename,2014-10-26,Merged,20,4,4,swift ,2
+Swift Toggle Code change,2014-10-24,Merged,19,1,8,,1
+Standardized Swift IBOutlets,2014-10-23,Merged,18,14,14,,2
+Changed ak path in convolution example,2014-10-16,Merged,17,"1,078","1,084",,0
+"Removed ""UsingUDOs"" example from examples folder and workspace.",2014-10-16,Merged,16,0,"2,719",pbxproj h m storyboard json ,9
+Added contribution section to read me,2014-10-15,Merged,15,5,0,,0
+Changed target of granular synthesis (obj-c) to 7.1,2014-10-14,Merged,14,8,6,pbxproj ,2
+Changed any projects with deployment targets of iOS8 to iOS 7.1,2014-10-13,Closed,13,8,2,,4
+Added SwiftVersion of Harmonizer example,2014-10-13,Merged,12,"1,962",0,swift h pbxproj storyboard json plist ,9
+Deleted original granular instrument from 'Demo Examples' project,2014-10-11,Merged,11,33,238,wav storyboard ,3
+Deleted unused lines (20-21) in Instrument file,2014-10-09,Merged,10,1,7,,2
+SwiftFMOscillatorCleanup,2014-10-09,Merged,9,2,129,swift ,3
+Deleted line 37 in ViewController,2014-10-09,Merged,8,3,16,swift ,2
+Deleted Line 37 in ViewController,2014-10-09,Closed,7,0,2,,1
+Granular synthesis example in Objective-C,2014-10-08,Merged,6,"2,269",0,pbxproj h m json plist storyboard ,9
+Granular Synthesis example,2014-10-08,Closed,4,"26,840",17,h m ,4
+Cleaned up syntax in instrument file,2014-10-08,Merged,3,3,17,,2
+Added Swift convolution example,2014-10-07,Merged,2,"2,013",0,wav swift h pbxproj storyboard json plist ,12
+Added granular synthesis example in Swift,2014-10-07,Merged,1,"2,043",0,wav h pbxproj swift storyboard json plist ,9

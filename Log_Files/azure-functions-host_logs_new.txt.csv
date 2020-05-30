@@ -1,0 +1,1948 @@
+Adding exception handling in container metrics publisher,2020-01-10,Merged,5460,17,7,,2
+allow modifying response directly in function when calling from proxy,2020-01-08,Merged,5444,79,5,json csx cs ,6
+Add resource filter for ARM Extension API requests,2020-01-08,Closed,5443,0,0,,0
+Additional storage e2e coverage,2020-01-09,Merged,5434,174,0,json csx ,5
+Resolving issue with native dependencies collision,2020-01-07,Merged,5424,"3,654",21,,3
+Release Merge,2019-12-14,Merged,5398,"1,941",839,sln config cs csproj ,5
+[pack] another suffix test,2019-12-14,Merged,5397,13,53,ps1 ,2
+devops: fixing suffixes in release packages,2019-12-13,Merged,5395,2,2,,1
+[Pack] Python worker 1.0.2,2020-01-02,Merged,5394,2,2,,1
+devops: fixing build issue when no suffix is present,2019-12-13,Merged,5393,7,2,,1
+devops: fixing release build detection,2019-12-13,Merged,5392,8,1,,1
+[pack] adding more logging for test,2019-12-13,Merged,5387,29,6,ps1 cs ,3
+[pack] devops: base build number on counter,2019-12-12,Merged,5383,3,2,,1
+devops: only query for PR name if building a PR,2019-12-12,Merged,5381,11,9,,1
+devops: only query for PR name if building a PR,2019-12-12,Closed,5380,11,9,,1
+Ensuring warmup file operations only happen if configuration is for standby state,2019-12-12,Merged,5379,77,7,,6
+preventing StandbyManager.SpecializeAsync() from running before InitializeAsync(),2019-12-12,Closed,5375,95,9,,5
+DryIOC JIT optimizations.,2019-12-12,Merged,5370,9,9,,3
+[pack] adding devops build pipeline,2019-12-12,Merged,5366,663,334,,1
+adding devops build pipeline,2019-12-10,Closed,5364,611,233,,1
+Do not exclude exit code -1 from restart,2019-12-13,Merged,5361,48,17,,5
+Matching missed unification rules removal from 2.x,2019-12-10,Merged,5359,32,28,cs json ,6
+Add support for Excluded/Included types for App insights sampling,2019-12-10,Merged,5357,34,2,,2
+minor test refactoring,2019-12-09,Merged,5355,13,5,json ,7
+[pack] explicitly skip pdb generation in official build,2019-12-09,Merged,5352,5,4,,1
+Add resource filter for ARM Extension API requests,2020-01-07,Merged,5351,246,4,resx csproj ,13
+Merge branch 'dev' into v3.x,2019-12-05,Merged,5339,170,31,cs json ,12
+Use Profile Guided Optimization(pgo) in dotnet core to PreJIT methods…,2019-12-12,Merged,5338,"3,784",1,,2
+Update Node.js worker to 2.0.1,2019-12-05,Merged,5335,2,2,,2
+Update PowerShellWorker to v1.0.201,2019-12-05,Merged,5334,1,1,,1
+Updating ASP.NET Core references,2019-12-12,Merged,5333,8,8,cs ,4
+adding devops,2019-12-10,Closed,5332,611,233,,1
+Rpc http cookie behavior on V3,2019-12-05,Merged,5331,7,5,cs ,3
+Ensuring service resolution fallback factory is properly configured to avoid disposal,2019-12-05,Merged,5330,115,7,,4
+do not use placeholder worker if ~3 and v2 compatability enabled,2019-12-04,Merged,5328,37,1,,3
+moving to .NET Core 3.1,2019-12-03,Merged,5325,20,15,csproj cs ,9
+Node.js Worker 2.0.0 and Capability Flag,2019-12-03,Merged,5321,52,8,csproj cs ,7
+Append runtime version to runtime language metric,2019-12-03,Merged,5320,12,1,,1
+Merge branch 'dev' into v3.x,2019-12-03,Merged,5319,"1,453","5,317",sln props ps1 proto config ,5
+Initial set of changes to relax JSON.NET unification behavior - Allow functions to bind to different versions of JSON.NET,2019-12-03,Merged,5318,"1,636",32,csproj ,7
+Removing System.Data.SqlClient unification,2019-12-02,Merged,5316,0,4,,1
+Add TraceStateString to context,2019-11-28,Merged,5309,1,0,,1
+[pack] allowing ExtensionsMetadataGenerator to roll forward to .NET Core 3.0 if 2.0 is not found,2019-11-27,Merged,5308,4,1,csproj ,2
+[pack]Update check for InStanbyMode.,2019-11-27,Merged,5303,51,4,,3
+Add resource filter for ARM Extension API requests,2020-01-07,Merged,5300,243,3,resx ,11
+adding default Json formatters for requests,2019-11-26,Merged,5299,161,5,json csx ,6
+Ensuring we don't trigger a service disposal on Warmup API call.,2019-11-26,Merged,5297,19,8,,2
+removing all BufferingMiddleware,2019-12-03,Merged,5296,139,705,,5
+Removing Host project,2019-11-25,Merged,5295,2,264,config cs csproj ,5
+Derive unique host id from container name,2019-12-03,Merged,5291,17,13,,3
+Log function load errors using worker logger,2019-11-25,Merged,5290,11,3,,1
+Use managedDependencyOptions only in JobHost scope,2019-11-25,Merged,5289,41,31,cs ,11
+removing AllowSynchronousIO; hiding behind v2 compat mode,2019-11-26,Merged,5286,399,168,,17
+-Add support for java on linux placeholder,2019-11-27,Closed,5285,3,2,,2
+Update sync trigger API to synch triggers differently for Durable 2.x,2019-12-13,Merged,5282,477,101,,1
+"If WorkerRuntime is set, only add workerConfig for that language",2019-11-26,Merged,5280,315,271,,3
+contributing.md updates,2019-12-03,Merged,5270,2,2,,0
+Fixing gRPC script to work w/ paths containing spaces,2019-12-31,Merged,5269,1,1,,1
+Merge to master,2019-11-19,Merged,5266,"1,302","4,899",sln props ps1 proto cs ,5
+Restrict details message length to 10K characters,2019-11-19,Merged,5264,2,0,,1
+Send function app directory at specialization,2019-11-18,Merged,5256,99,16,cs csproj ,9
+Removing references to removed scaling tests,2019-11-15,Merged,5255,0,2,ps1 ,1
+"[pack] Making bundles default, optimizing start up code path",2019-12-05,Merged,5254,24,8,cs ,4
+updating WebJobs to 3.0.15,2019-11-16,Merged,5253,4,4,,2
+[pack] Added slot name as a column to FunctionsLogs and FunctionsMetrics tables,2019-11-19,Merged,5245,111,69,,5
+Handle multivalue X-Forwarded-Proto header,2020-01-07,Merged,5242,57,11,csproj ,6
+Remove ActionBuffers,2019-12-11,Closed,5241,247,291,,5
+Removing old WebJobs.Script.Scaling projects,2019-11-13,Merged,5236,0,"4,562",cs ,2
+[pack] Merge branch 'dev' into v3.x,2019-11-12,Merged,5231,880,200,ps1 cs ,7
+Add support for Linux consumption BYOS,2019-11-09,Merged,5220,503,137,,5
+Added feature to use SAS uri for secret storage and supporting tests,2019-11-13,Merged,5219,124,27,csproj ,8
+[pack] populate RuntimeSiteName for FunctionsMetrics table,2019-11-07,Merged,5217,4,1,,3
+Add support for Access-Control-Allow-Methods header in CORS middleware,2019-11-11,Merged,5215,66,0,,2
+Add changes for log analytics / azure monitoring for Linux Dedicated,2019-12-12,Merged,5212,82,51,,12
+fixing backoff overflow,2019-11-06,Merged,5210,50,3,,2
+fixing backoff overflow exceptions,2019-11-06,Merged,5209,62,18,,3
+Handle worker error if in placeholder mode (i.e. workerruntime not set),2019-11-07,Merged,5208,21,9,,2
+Populate role instance and tenant for linux consumption azure monitor events,2019-11-06,Merged,5204,7,4,,2
+README update: PowerShell is GA,2019-11-04,Merged,5202,1,1,,0
+Mount user data folder when enabled,2019-11-04,Merged,5201,30,32,,5
+[pack]Wait for http worker ready,2019-11-19,Merged,5195,191,53,,11
+Add support to load native libraries from the function.deps.json file.,2019-11-01,Merged,5193,104,12,json ,3
+[pack] Update Python worker to run without subprocess,2019-11-13,Merged,5192,1,1,,1
+Find free Tcp port and dispose,2019-11-14,Merged,5188,24,4,,2
+Merging master into dev,2019-11-01,Merged,5185,1,1,,1
+[pack]Keep 'win-x64' and 'win10-x64' runtimes for PowerShell worker,2019-10-31,Merged,5184,1,1,,1
+Merging dev into v3.x,2019-11-11,Merged,5181,"6,885","2,964",yml ps1 props json js py csproj cs ,17
+[pack] added logging to DI pipeline,2019-11-06,Merged,5179,5,5,cs ,3
+updating nugets for v1,2019-10-31,Merged,5177,45,45,config nuspec ,9
+Update PowerShellWorker to v1.0.197,2019-11-14,Merged,5173,1,1,,1
+Initialize FunctionInvocationDispatcher after creating function descriptors,2019-10-31,Merged,5169,97,6,,3
+"Revert ""Add startup logs (#5146)""",2019-10-28,Merged,5164,54,72,,3
+Merging dev to master,2019-10-28,Merged,5162,"1,401","1,406",,14
+[pack]Use TraceWriter to log startup errors,2019-10-29,Merged,5159,210,125,csproj ,4
+Fall back to relying on PATH when the dotnet executable is not found at the expected location,2019-10-26,Merged,5157,104,17,,6
+If initialization fails throw on exception,2019-10-26,Merged,5156,1,0,,1
+Add functions worker runtime version log,2019-10-31,Merged,5150,5,0,,2
+Remove x-ms-site-restricted-token generation endpoint,2019-10-25,Merged,5147,0,65,,2
+Add startup logs,2019-10-25,Merged,5146,71,54,,3
+Merging dev to master,2019-10-24,Merged,5142,"5,492","1,644",yml ps1 props json js py csproj cs ,19
+Merging to master,2019-10-24,Closed,5141,"5,174","1,610",yml ps1 props json js py csproj cs ,21
+Rename namespace from outofProc to workers,2019-10-24,Merged,5140,"1,298","1,325",,14
+Make warmup execute once,2019-10-24,Merged,5137,34,4,,5
+absorbing 3.0.5 of WebJobs.Extensions,2019-10-23,Merged,5131,1,1,,1
+Do not send null or empty values,2019-10-22,Merged,5128,13,5,,2
+Support for IMDS MSI implementation,2019-11-08,Merged,5127,2,0,,1
+Improvements to system key handling (#3929),2019-11-23,Merged,5117,46,14,,4
+[pack] moving to use IExternalScopeProvider; checking state and scope for FunctionName,2019-10-22,Merged,5114,220,269,,7
+Ensuring function name comparison is done consistently,2019-10-18,Merged,5113,29,3,,5
+Small refactoring to WebScriptHostHttpRoutesManager,2019-10-18,Merged,5111,2,4,,1
+Fix the race condition in the warmup endpoint,2019-10-21,Merged,5108,116,108,,3
+Forcing cache refresh when retrieving function information in FunctionsManager,2019-10-18,Merged,5107,3,1,,1
+Mount azure files directory for user data #5104,2019-10-18,Merged,5105,160,0,,6
+Ensuring function route mapping happens prior to initialized state.,2019-10-18,Merged,5102,83,36,,8
+Updating the TryGetFunctions to refresh cache and allowing for an empty match.,2019-10-18,Merged,5101,54,1,,2
+Bumping Http Extension to v3.0.6,2019-10-18,Merged,5100,1,1,,1
+[AppInsights] passing a TelemetryConfiguration when tracking cold start requests,2019-10-17,Merged,5097,9,1,,1
+[pack] Adding the function missing function name in the metrics table,2019-10-17,Merged,5092,6,2,,2
+[pack] Further optimize bundles loading to reduce cold start,2019-10-16,Closed,5091,55,14,cs ,2
+Use single instance of WebhostMetricsLogger,2019-10-24,Merged,5084,318,34,,12
+CORS Middleware for Linux Consumption,2019-10-23,Merged,5083,397,1,,11
+Update PowerShell worker to v1.0.194,2019-10-15,Merged,5081,1,1,,1
+Removing slot name from settings manager,2019-10-18,Merged,5077,0,44,,2
+setting official builds to use -beta suffix,2019-10-18,Closed,5075,2,0,,1
+Load disabled functions last,2019-10-17,Merged,5072,39,1,,2
+absorbing async http changes,2019-10-14,Merged,5071,4,4,csproj ,3
+[pack] Testing compatibility analysis,2019-11-28,Merged,5065,584,0,csproj ,9
+adding support for V2 Compat Mode,2019-11-21,Merged,5064,129,0,,8
+Updating JSON.NET reference,2019-10-11,Merged,5063,2,2,,2
+allow overriding AllowSynchronousIO,2019-10-11,Closed,5061,11,3,,2
+Update Roslyn references,2019-10-11,Merged,5059,9,5,cs csproj ,5
+[pack] turning off TieredCompilation,2019-10-11,Merged,5056,2,1,,1
+Overwrite duplicate tags in TraceContext,2019-10-10,Merged,5055,9,4,,2
+Updating ExtensionbundleManager dependency from HostController,2019-10-09,Merged,5053,15,13,,3
+Adding log analytics for linux consumption,2019-10-22,Merged,5052,34,0,,4
+new proxy nugets to support v3,2019-10-09,Merged,5050,31,38,cs ,3
+[pack] absorbing new shoebox event name,2019-10-10,Merged,5049,2,2,,1
+Set up CI with Azure Pipelines,2019-10-08,Closed,5045,30,0,,1
+[pack] adding azure-pipelines.yml,2019-12-10,Closed,5044,654,334,,1
+[pack] Further optimize bundles loading to reduce cold start,2019-10-16,Closed,5042,1,0,,1
+[pack] Further optimize bundles loading to reduce cold start,2019-10-07,Closed,5040,51,12,,1
+FunctionInstanceMonitor cleanup (optimization/refactoring),2019-10-08,Merged,5039,22,24,,1
+bumping Http extension version,2019-10-08,Merged,5037,2,2,,2
+Updating docker file to v3,2019-10-07,Merged,5036,2,2,,1
+Updating host docker file dotnet core 3.0,2019-10-07,Closed,5035,892,899,yml ,2
+disposing of hosts created in config tests,2019-10-07,Merged,5033,165,147,,0
+Merge dev -> master,2019-10-06,Merged,5030,"6,286","1,508",,9
+[pack]Implement Http Worker,2019-10-23,Merged,5028,"2,173",435,json js cs ,11
+[pack] Log RuntimeSiteName bug fix. fixes https://github.com/Azure/azure-functions-host/issues/5027,2019-10-05,Merged,5026,7,5,,1
+Updating WebJobs SDK to 3.0.14,2019-10-05,Merged,5025,4,4,,2
+Updating host dockerfile to v3,2019-10-07,Closed,5024,2,2,,1
+Updating environment extension method names for clarity,2019-10-07,Merged,5023,158,121,,17
+[pack] allow host restarts to be cancelled; improving logging,2019-10-22,Merged,5021,382,91,,2
+Add Disable instance api for Linux consumption (https://github.com/Azure/azure-functions-host/issues/5032),2019-10-19,Merged,5019,165,4,,9
+"Revert ""Use single instance of WebhostMetricsLogger""",2019-10-03,Merged,5017,9,13,,5
+RpcInitialization service should ignore workerRuntime case,2019-10-03,Merged,5012,11,7,,4
+Make PowerShell language worker process match the bitness of the host,2019-10-15,Merged,5011,46,0,,3
+passing logger to backoff,2019-10-03,Merged,5010,1,1,,1
+Update PowerShell worker to 1.0.188,2019-10-02,Merged,5008,1,1,,1
+[pack] Fix 'Program Files' path. Fixes #4866,2019-10-02,Merged,5007,2,2,,2
+capturing and running ExecutionContext in HttpRequestQueue,2019-10-02,Merged,5005,23,9,,1
+trying to catch flaky scaletest,2019-10-01,Closed,5002,732,761,,1
+absorbing latest AppInsights changes,2019-11-15,Closed,5001,4,4,,2
+trying to debug scale test failure,2019-10-01,Closed,5000,6,10,,2
+Suppressing execution context flow on admin function invocation,2019-10-01,Merged,4999,12,9,,1
+adding support for ExpectInstance in DependencyValidator,2019-10-01,Merged,4998,121,13,,5
+[pack] RuntimeSiteName logging bug fix,2019-09-30,Merged,4997,2,2,,1
+[pack] but fix for adding RuntimeSiteName to logging,2019-09-30,Closed,4996,87,60,,6
+[pack] Include py nuget,2019-10-17,Merged,4990,134,5,ps1 props py json csproj cs ,12
+Increase SyncTriggers payload limit (#4692),2019-09-27,Merged,4988,1,1,,1
+reducing ILogger messages in SecretManager [v1.x],2019-10-01,Merged,4987,28,51,,5
+Add 5 second grace period for langauge worker channels before JobHost shutsdown,2019-10-22,Merged,4986,194,13,,12
+Hydrate worker path with version/os/arch,2019-10-04,Merged,4985,457,15,,8
+Add a warmup API for warmup triggers,2019-10-05,Merged,4983,178,4,csproj ,6
+Use single instance of WebhostMetricsLogger at webhost and jobhost,2019-10-02,Merged,4981,13,9,,5
+[pack] Selective extension loading for bundles,2019-10-04,Merged,4980,828,410,,8
+[Port V2]: Adding additional logs for secrets regen. Fixes #4879,2019-09-30,Merged,4978,40,3,,2
+Add Metrics to Specialization codepath,2019-10-15,Merged,4973,743,376,,4
+[Port from V2]: Adding additional logs for secret regenerations. Fixe…,2019-09-25,Closed,4971,34,0,,2
+Add CORS Specialization payload #4889,2019-09-26,Merged,4968,20,0,,2
+[Do Not Merge] Ankikuma/debug app insights errors,2019-10-07,Closed,4967,703,131,cs ,6
+Skip activities when container metricspublisher is not initialized,2019-09-24,Merged,4964,12,0,,1
+Update Java Worker to 1.5.2-SNAPSHOT,2019-09-23,Merged,4961,2,2,,2
+Release merge PR,2019-09-19,Closed,4960,808,903,json proto cs csproj ,10
+Update proto to  v1.3.5-protofile,2019-09-19,Merged,4949,26,2,proto ,1
+Resetting shared load context during specialization to ensure dependencies are properly resolved,2019-09-19,Merged,4947,45,3,,5
+Enable Node Placeholder Pools for RFZ / readonly,2019-09-27,Merged,4943,163,7,,4
+Update PowerShell worker to 0.1.174-preview,2019-09-18,Merged,4942,1,1,,1
+Relaxing unification rules for System.Diagnostics.DiagnosticSource and d System.Runtime.CompilerServices.Unsafe,2019-12-02,Merged,4941,0,12,,1
+Adding custom remote cert validation for Linux consumption,2019-09-20,Merged,4937,36,5,,3
+Updating ASP.NET Core references to 2.2.7,2019-09-17,Merged,4936,1,1,,1
+Remove preview tag from Python in Readme,2019-09-16,Merged,4933,1,1,,0
+updating perf runs to handle v3,2019-10-04,Merged,4924,159,37,,7
+Ensure the DI scope flows through async calls,2019-09-17,Merged,4923,42,3,,3
+[pack] added runtimeSiteName to logging params,2019-09-30,Merged,4922,88,61,,5
+Make LanguageWorkerChannel enforce rpc message order,2019-12-04,Closed,4921,116,61,,6
+Refactor language worker layer for HttpWorker,2019-10-05,Merged,4920,"1,978","1,021",,12
+Pass Trace context to out of proc languages,2019-09-19,Merged,4917,123,29,,5
+Remove unused JS compilation files,2019-09-09,Merged,4910,0,789,,7
+enable mesh init server,2019-09-19,Merged,4903,37,48,,4
+Adding extension bundle information to the status endpoint,2019-09-23,Merged,4900,218,15,,11
+Increase PS and Java RPS thresholds,2019-09-06,Merged,4897,2,2,,1
+Disable script compilation in omnisharp,2019-09-17,Merged,4896,5,0,,1
+Do not start languageworkers when using pooling,2019-09-05,Merged,4895,36,2,,4
+Using HttpRequest abstraction in LanguageWorkerChannel,2019-09-05,Merged,4894,2,2,,1
+Adding support for runtime scale monitoring,2019-09-25,Merged,4885,"2,005",37,,3
+Node.js worker v1.1.1,2019-09-05,Merged,4884,2,2,,2
+Handle worker process start up failures,2019-09-06,Merged,4877,277,78,,5
+Temporary commit -- testing changes,2019-09-05,Closed,4874,126,3,,5
+Handle language worker process crash during placeholder mode,2019-10-04,Closed,4870,443,252,,6
+Applying timeout handling for specialization,2019-09-04,Closed,4868,68,31,,10
+moving cosmos tests forward,2019-08-27,Merged,4849,2,2,csproj ,2
+[pack] handling RestartAsync() being called before StartAsync() in WebJobsScriptHostService,2019-08-28,Merged,4846,66,1,,3
+Add support for Excluded/Included types for App insights sampling,2019-10-04,Closed,4843,34,2,,2
+Include python in the dev docker file,2019-08-24,Merged,4842,4,4,,1
+updating WebJobs nugets to 3.0.13,2019-08-26,Merged,4841,4,4,,2
+add a launch.json for WebJobs.Script.WebHost,2019-08-26,Merged,4839,36,0,,1
+Remove function execution logging for nullmetricspublisher,2019-08-23,Merged,4838,0,2,,1
+mesh image changes,2019-08-26,Merged,4836,374,153,,3
+Linux node placeholders,2019-09-04,Merged,4835,11,1,,2
+Start node in placeholder mode windows and linux,2019-10-03,Closed,4830,3,3,,1
+Update PowerShellWorker to 0.1.159-preview,2019-08-21,Merged,4822,1,1,,1
+[pack] Fixing the service registration for IJobHostMiddlewarePipeline and updating the location for http configuration,2019-08-22,Merged,4819,55,45,json ,6
+Do not restart channels not tracked by jobhost/webhost,2019-08-14,Merged,4801,39,16,,4
+Fix race condition,2019-08-14,Merged,4794,184,276,,6
+Fix race condition,2019-08-14,Merged,4794,184,276,,6
+Add RpcSystemLog handler,2019-09-19,Merged,4786,120,2,,5
+Handle lack of internet connection or if the www.powershellgallery.com is down when creating a PowerShell function app.,2019-09-17,Merged,4782,392,18,psd1 ,5
+Adding request host logging for specialization,2019-08-12,Merged,4781,6,2,,2
+Merging dev to master,2019-08-08,Merged,4777,322,102,csproj ,14
+Allow language worker restart without counting this as an error,2019-08-09,Merged,4776,105,19,,7
+moving WebJobs nugets to 3.0.12,2019-08-07,Merged,4775,6,6,,4
+Allow language worker restart without counting this as an error,2019-08-08,Closed,4772,108,11,,5
+Merging master -> dev,2019-08-07,Merged,4771,213,589,,13
+Update PowerShell worker to 0.1.152-preview,2019-08-07,Merged,4769,1,1,,1
+"Revert ""adding DeferredLogger to send WebHost logs to JobHost""",2019-08-06,Merged,4768,213,589,,13
+Modify host shutdown logic from FunctionDispatcher,2019-08-13,Merged,4766,79,7,,5
+[Do not merge] Inout binding changes for out of proc,2019-10-04,Closed,4763,20,8,,2
+Renable encryption for linux container environment,2019-08-05,Merged,4762,2,7,csproj ,2
+Renable encryption for linux container environment,2019-08-05,Closed,4759,1,12,csproj ,2
+[pack] Log the versions of extensions being used. Resolves #4615.,2019-08-06,Merged,4756,40,20,,4
+Remove duplicate within BindingData before sending to gRPC,2019-09-05,Merged,4748,11,1,,2
+Logging for blob storage secrets repos,2019-08-31,Merged,4744,117,16,,5
+Add process uptime to host status api,2019-08-20,Merged,4741,11,3,,3
+Adding function start time to metrics publisher,2019-08-01,Merged,4740,42,18,,7
+Update minThreads for dynamic sku,2019-08-01,Merged,4736,22,0,,1
+Adding additional logs for secret regenerations.,2019-08-06,Merged,4734,30,8,,1
+Update Java Worker,2019-07-26,Merged,4724,2,2,,2
+[Pack] Added feature to connect to blob secret storage with sas and supporting tests.,2019-07-26,Merged,4723,118,29,,6
+Add artifacts to linux appveyor,2019-07-31,Closed,4722,11,0,,1
+Updating ASP.NET Core references to 2.2.6,2019-07-26,Merged,4721,1,1,,1
+Updating WebJobs references,2019-07-25,Merged,4719,7,7,,3
+Allow other processes to read from log file while FileTraceWriter writes,2019-07-25,Merged,4711,29,1,,2
+Fixing build configuration,2019-07-24,Merged,4709,6,2,,1
+Disable metrics publisher for custom containers,2019-07-25,Merged,4707,16,4,,3
+Merging master back to dev,2019-07-23,Merged,4704,4,1,,3
+Re-enable encryption for Linux containers,2019-07-22,Closed,4697,1,6,,1
+[pack] registering correct ExceptionHandler,2019-07-23,Merged,4696,8,3,,3
+Disable flaky test,2019-07-19,Merged,4695,1,1,,1
+[Do not merge] One language worker channel manager,2019-10-04,Closed,4693,92,132,,8
+[Pack] Adding DOTNET_SKIP_FIRST_TIME_EXPERIENCE environment setting to function.proj restore,2019-07-23,Merged,4690,4,1,,3
+Reset offline state if flag is set.,2019-07-22,Merged,4688,30,8,,2
+Culture invariant function name validation,2019-07-19,Merged,4684,28,6,,4
+Introduce collection datatyped for worker protobuf,2019-07-20,Merged,4679,454,100,proto cs ,4
+Max length check/handling for SyncTriggers,2019-07-17,Merged,4678,55,15,,3
+Allow other processes to read while writing logs,2019-07-18,Merged,4677,29,1,,2
+Max length check/handling for SyncTriggers,2019-07-16,Merged,4676,56,16,,3
+Update PowerShellWorker version to 0.1.120-preview,2019-07-16,Merged,4675,1,1,,1
+Fixes #4190,2019-07-15,Merged,4673,398,13,,8
+Fixing Host Keys race condition (#4661),2019-09-27,Closed,4669,153,19,csproj ,9
+Fixing flaky test,2019-07-18,Merged,4668,7,6,,3
+adding mocked SystemLogger and MetricsLogger tests,2019-07-19,Merged,4667,293,82,js ,12
+[Under a feature flag] Removing duplicates,2019-07-31,Merged,4660,179,42,,4
+[pack] updating how we filter in SystemLogger,2019-10-04,Closed,4658,465,170,,9
+Delete FunctionsJava,2019-07-12,Merged,4653,2,41,csproj ,4
+Add CancellationToken to ActionExtensions- Debouce API,2019-07-11,Merged,4643,160,89,cs ,9
+Ensuring an app level middleware pipeline is registered,2019-07-03,Merged,4636,6,0,,2
+Node enable placeholders,2019-10-02,Closed,4635,70,10,,6
+preventing races during specialization,2019-07-11,Merged,4633,397,210,,1
+Allow warmup api for non-dotnet template sites,2019-07-08,Merged,4632,98,26,,7
+Delete Channel Ready Events,2019-07-12,Merged,4631,47,174,,12
+do not use Task.Run from PlaceholderSpecializationMiddleware,2019-07-01,Merged,4628,123,6,,3
+Publish function metrics for linux containers,2019-07-15,Merged,4626,568,19,,6
+Only loading the extensions used by the function app,2019-07-18,Closed,4624,2,0,,1
+"Deflect GitHub bug reports with ""Diagnose and solve problems""",2019-06-27,Merged,4622,3,0,,0
+Fix unhandled exception when log file is locked by another process,2019-09-23,Closed,4621,67,27,,2
+Block until FunctionEnvironmentReload request completes,2019-06-27,Closed,4620,61,37,,8
+Reset offline state when extension installation fails #4526,2019-07-22,Closed,4617,30,11,,2
+Prefix category,2019-06-26,Merged,4616,2,2,,2
+Fix category name for language worker channel logs,2019-06-26,Closed,4612,2,2,,2
+Force nonempty mount in squashfuse_ll and fuse-zip,2019-06-25,Merged,4610,2,2,,1
+Update PowerShell worker to v0.1.111-preview.,2019-06-25,Merged,4606,1,1,,1
+Add sitename to MSI specialization payload.,2019-07-25,Merged,4604,2,0,,1
+Added global HTTP response headers configuration. Resolves #3788.,2019-07-26,Merged,4596,524,0,json csx js ,14
+Fixing DurableTask SyncTriggers config parsing,2019-07-09,Closed,4595,24,12,,2
+Fixing the log level for _extensionBundleFound,2019-06-19,Merged,4591,1,1,,1
+LanguageWorker error log if grpc service is shutdown before grpc client #4190,2019-07-17,Closed,4590,219,15,,10
+Node.js Worker v1.1.0,2019-06-24,Closed,4589,2,2,,2
+Reduce debounce time when app_offline.htm is created,2019-06-26,Merged,4586,74,5,,3
+Add admin/host/token endpoint,2019-06-20,Merged,4585,65,0,,2
+Configure unbounded FunctionTimeout when user specifies -1,2019-06-19,Merged,4584,24,3,,2
+updating nugets,2019-06-18,Merged,4583,6,6,cs ,4
+Add IsProxy on RpcFunctionMetadata,2019-06-18,Merged,4582,56,14,proto cs ,3
+Add unit test for FunctionEnvironmentReloadRequest,2019-07-02,Merged,4580,38,6,,2
+Fixing bad merge,2019-06-13,Merged,4565,324,330,,10
+Updating ASP.NET Core reference,2019-06-13,Merged,4564,1,1,,1
+Fixed formatting problem with JavaScript code example.,2019-06-13,Merged,4563,1,1,,0
+Wait for the initialized language worker to be added to webhost worker channels collection,2019-06-13,Merged,4561,15,16,,6
+making DependencyValidator public so CLI can derive from it,2019-06-13,Merged,4560,5,5,,1
+Increase ANCM startup time limit. Fixes #4393,2019-06-11,Merged,4558,2,2,,2
+Add raw body bytes capability,2019-06-12,Merged,4555,104,18,png csproj ,6
+[pack] adding DeferredLogger to send WebHost logs to JobHost,2019-07-24,Merged,4554,589,213,,13
+Add Host Offline logs to all admin requests,2019-06-12,Merged,4553,10,1,,1
+Add LanguageWorkerProcessFactory  and LanguageWorkerChannelFactory,2019-06-12,Merged,4548,612,256,,5
+Add support for VFS relative pathing,2019-06-11,Merged,4547,71,7,,2
+Updated the comment about language support levels for V2 and added li…,2019-06-10,Merged,4546,16,8,,0
+"[pack]In placeholder mode, skip check for functions with SpecifiedLanguage",2019-06-06,Merged,4541,4,1,,1
+Start node in plaholdermode,2019-10-03,Closed,4540,2,2,,2
+Explicitly SetupFunctionInvocationBuffers,2019-06-07,Merged,4537,46,12,,5
+[pack] [AppInsights] changing initializer to not use Add(),2019-06-04,Merged,4531,9,1,,1
+Set default for squashfs and zip mounting.,2019-08-26,Closed,4523,236,125,,0
+Processing ActionResult<T> properly. Fixes #4369,2019-06-17,Merged,4519,62,0,,3
+[ExtensionsMetadataGenerator] ensuring ordering of publish targets,2019-06-12,Merged,4516,8,2,targets ,2
+Handle capabilities,2019-06-07,Merged,4508,149,1,,4
+[pack] Using Job Host scoped middleware for hsts configuration,2019-06-05,Merged,4506,313,0,,9
+Adding Job Host scoped middleware support,2019-06-03,Merged,4502,229,0,,9
+Add Host Instance ID to AppInsights logs,2019-05-28,Merged,4501,75,4,,4
+Fixing Flakey FunctionDispatcherTest,2019-05-29,Merged,4497,16,16,,1
+Enable SyncTriggers cache; Support Disable Config,2019-05-30,Merged,4496,46,31,,6
+Enable SyncTriggers extended format,2019-05-30,Merged,4495,2,8,,2
+Initialize invoke buffer block during functionload,2019-05-24,Closed,4493,20,25,,5
+Initialize invoke BufferBlock during function load,2019-05-24,Merged,4492,22,25,,5
+Remove Disabled Filter from SyncTriggers (#4483),2019-05-24,Closed,4484,13,17,,1
+Do not raise events from language worker channel when disposing,2019-05-17,Merged,4468,23,10,,3
+Allow Internal Auth for SyncTriggers,2019-05-17,Merged,4467,65,17,,3
+Allow Internal Auth for SyncTriggers,2019-05-17,Merged,4466,41,2,,4
+Implement a KubernetesSecretsRepository,2019-06-18,Merged,4462,581,2,,4
+[pack] suppress ExecutionContext during host specialization request,2019-05-24,Merged,4461,210,3,json csx ,7
+Detect host shutdown using CancellationToken. Fixes #4251,2019-06-05,Merged,4460,9,2,,2
+Checking explicitly for managedDependencyOptions.Value.Enabled,2019-05-16,Merged,4456,2,2,,1
+Validate zip setting inputs,2019-05-16,Merged,4455,46,3,,2
+Checking explicitly for managedDependencyOptions.Value.Enabled,2019-05-16,Closed,4454,0,0,,0
+updating to WebJobs 3.0.9,2019-05-16,Merged,4453,7,7,cs ,5
+Add HstsConfigurationMiddleware as a hostedService scoped to jobhost,2019-05-29,Closed,4451,469,0,csproj ,11
+Updating Az module major version to 2 in requirements.psd1 file,2019-05-16,Merged,4450,1,1,,1
+Making HostJsonFileConfigurationProvider public for consumption by core tools,2019-05-16,Merged,4448,1,1,,1
+Updating nodejs worker nuget to 1.0.3,2019-05-15,Merged,4446,2,2,,2
+improving SlidingWindow test,2019-05-16,Merged,4440,3,2,,1
+Updating ExtensionMetadataGenerator pacakge version to 1.1.*,2019-05-15,Merged,4434,1,1,,1
+[pack] Support for configuring Hsts,2019-05-29,Closed,4433,398,0,,8
+Scm build package,2019-06-19,Merged,4432,326,75,,6
+MSI support for Linux consumption,2019-05-17,Merged,4431,347,5,,12
+Add Event Id (HostEventId) to logs and Kusto,2019-06-12,Merged,4427,"1,083",347,resx ,4
+Reverting SyncTrigger on hostname change,2019-05-14,Merged,4420,8,48,,3
+SyncTriggers improvements #4401,2019-05-14,Merged,4419,27,13,,3
+[pack] Updating the bundle resolution logic call bundle index endpoint only for download scenario,2019-05-14,Merged,4417,19,22,,2
+preventing disposed host from returning its services to requests,2019-05-14,Merged,4415,124,9,,3
+Fixing the false positive case for bundle not present,2019-05-13,Merged,4414,29,0,,2
+Accept DELETE in extension webhook route,2019-05-10,Merged,4408,1,0,,1
+"SyncTriggers improvements (#4401, #4402)",2019-05-13,Merged,4404,210,45,,8
+[ExtensionsMetadataGenerator] allowing for direct references to newer versions,2019-05-13,Merged,4398,22,8,targets ,2
+rev powershell version to 0.1.102-preview,2019-05-15,Merged,4395,1,1,,1
+Add .NET Core friendly interfaces for extension webhooks,2019-06-18,Closed,4391,103,27,,5
+Adding unique eventName's in function logs,2019-05-07,Closed,4388,198,29,,3
+Enabling bundles for container environment and Linux consumption envi…,2019-05-03,Merged,4386,42,6,,5
+registering IHttpContextAccessor,2019-05-09,Merged,4385,1,3,,1
+[ExtensionsMetadataGenerator] fixing infinite recursion bug; logging improvements,2019-05-10,Merged,4382,198,59,cs csproj ,9
+Enable mounting of the user code package,2019-05-01,Merged,4373,88,12,,4
+Parse JToken correctly for empty and null string in host.json,2019-05-02,Closed,4371,30,1,,2
+Add Python worker to script csproj,2019-12-31,Closed,4370,1,0,,1
+adding FuncAppFileProvisioningService as an optinoal registered service,2019-05-03,Merged,4367,4,2,,1
+"Remove ""XDT_BITNESS"" in ""no-runtime"" applicationHost.xdt",2019-04-30,Merged,4365,3,0,,1
+Check functionTimeout value for empty string,2019-05-03,Merged,4361,21,13,,2
+Update grpc dependencies,2019-04-29,Merged,4360,10,10,bat sh ,4
+Append HTTP header correctly,2019-05-10,Merged,4359,61,2,,5
+fixing noisy dependency error logging when host is offline,2019-04-26,Merged,4357,37,4,,2
+[pack] ensuring that we look at the same InStandbyMode value during app initialization,2019-05-15,Merged,4356,207,33,,9
+Fixing the default path config for ExtensionBundles,2019-04-26,Merged,4354,3,3,,1
+Removing resource utilization on startup path,2019-04-25,Merged,4353,3,15,resx ,3
+updating to WebJobs 3.0.8,2019-04-25,Merged,4352,7,7,cs ,3
+"Updating PowerShellWorker to version ""0.1.97-preview""",2019-04-25,Merged,4351,1,1,,1
+Generic approach for performance tests,2019-04-30,Merged,4349,161,122,cs csproj ,6
+Reset HostNameProvider on specialization,2019-04-25,Merged,4348,41,5,,4
+V1 WEBSITE_HOSTNAME fix,2019-04-26,Merged,4347,239,46,csproj ,13
+Reverting fallback load handling,2019-04-23,Merged,4342,0,14,,1
+merging dev to master,2019-04-23,Closed,4341,709,106,cs ,10
+Update Java worker to 1.4.1,2019-04-29,Merged,4339,2,2,,2
+Fixing WEBSITE_HOSTNAME issue (#4162),2019-04-24,Merged,4338,333,117,,11
+access AzureMonitorDiagnosticLogsEventSource in placeholder mode,2019-04-19,Merged,4334,10,3,,1
+updating the bundle version resolution to pick the maximum version allowed by the version range,2019-04-19,Merged,4333,13,5,,2
+Updating RID catalog,2019-04-18,Merged,4330,290,1,,1
+Updating extension metadata generator version,2019-04-18,Closed,4327,1,1,,1
+V1 SyncTriggers Support,2019-04-24,Merged,4325,"2,256",70,,5
+Add container name and tenant id for linux consumption logs,2019-04-18,Merged,4324,59,12,,4
+"Add ""cookie"" property to rpc http messages",2019-06-04,Merged,4317,366,42,proto cs ,9
+[ExtensionsMetadataGenerator] improving logging,2019-04-18,Merged,4314,82,49,cs csproj ,4
+Accepting DELETE in extension webhook route,2019-04-17,Merged,4311,1,2,,1
+Updates to functions cold start.,2019-04-18,Merged,4310,57,9,resx json csproj ,9
+Log function execution event timestamp,2019-04-16,Merged,4309,2,1,,1
+Sync triggers for dedicated linux,2019-04-11,Merged,4298,52,9,,3
+Updating ASP.NET Core deps,2019-04-10,Merged,4297,2,2,csproj ,2
+Update PowerShell worker to 0.1.95-preview.,2019-04-10,Merged,4295,1,1,,1
+locking node module versions of testing packages to avoid breaking changes,2019-04-09,Merged,4293,1,1,,1
+dev -> master,2019-04-09,Merged,4292,27,7,,5
+Merge,2019-04-09,Merged,4291,0,0,,0
+Adding managedDependency only when the file system is not read only,2019-04-09,Merged,4287,2,1,,1
+Master,2019-04-09,Closed,4286,"2,440",289,cs ,8
+Identifying derived startup attributes,2019-04-10,Merged,4285,49,1,,3
+Add logging for worker bundle is detected,2019-04-09,Closed,4284,6,0,,1
+Address fallback logic that triggers recursive load calls,2019-04-09,Merged,4283,14,0,,1
+Add logging for worker bundle is detected,2019-04-09,Merged,4281,6,0,,1
+[pack] Fixing the extension installation bug,2019-04-08,Merged,4280,2,2,,1
+[pack] Adding the missing dependency for offline state,2019-04-08,Merged,4279,3,4,,1
+[pack]Initalize Python worker at app level in Linux,2019-06-11,Merged,4274,170,39,,3
+Merging dev into master,2019-04-05,Merged,4272,"2,440",289,cs ,8
+updating WebJobs nugets to 3.0.7,2019-04-05,Merged,4271,4,4,,2
+Added API to load templates and binding metadata from extensionBundle,2019-04-05,Merged,4270,423,29,resx ,9
+Update PowerShell worker to 0.1.90-preview.,2019-04-04,Merged,4262,1,1,,1
+warmup AzureMonitorDiagnosticLogger in placeholder mode,2019-04-02,Merged,4259,39,23,,4
+Fix for throughput impact on non-consumption plans,2019-04-02,Merged,4258,27,12,,3
+Update Dockerfile to use mcr dotnet images,2019-05-01,Merged,4255,2,2,,1
+(Do not merge until platform switch is complete) Adding container name and tenant id for Linux Consumption Logging,2019-04-18,Closed,4254,32,12,,4
+Allow secrets and log paths to be configurable,2019-09-12,Merged,4250,13,4,,2
+Updating issue templates,2019-03-28,Merged,4247,33,0,,0
+Fix for impact of enabling AppInsights on functions cold startup time,2019-04-03,Merged,4239,17,1,,1
+Disable flaky test,2019-03-27,Merged,4238,1,1,,1
+Cold start Improvements for Functions,2019-03-26,Merged,4235,3,1,,1
+Ensuring service scope provider is registered from the correct scope,2019-03-22,Merged,4228,1,0,,1
+proxy nugets with fix for redirect returned to client built on .net core 2.2,2019-03-22,Merged,4226,2,2,,2
+[pack] moving SDK nugets forward,2019-03-22,Merged,4225,4,5,,2
+[pack] removing Azure Monitor app setting,2019-03-21,Merged,4224,3,44,,2
+[AppInsights] [v1] bumping MaxTelemetryItemsPerSecond default to 20,2019-04-15,Merged,4220,7,3,,2
+[AppInsights] [v2] bumping MaxTelemetryItemsPerSecond default to 20,2019-03-21,Merged,4219,33,16,,2
+Update PowerShell worker to 0.1.81-preview.,2019-03-20,Merged,4218,1,1,,1
+absorbing HTTP tracking changes,2019-04-05,Merged,4214,183,93,csproj ,5
+Files for PowerShell function apps created through azure portal,2019-04-03,Merged,4211,356,3,ps1 psd1 csproj ,12
+Multiple workers,2019-05-15,Merged,4210,"1,279",484,,11
+[Do not merge]Update Rpc ResponseWrite to async,2019-03-22,Closed,4205,9,2,,1
+[Do not merge]Update FunctionDispatcher for single language,2019-03-22,Closed,4201,105,135,,11
+[pack] fix non-signing builds,2019-03-15,Merged,4199,8,10,ps1 ,3
+[Do not merge]Decouple LanguageWorkerChannel and LanguageWorkerProcess,2019-03-22,Closed,4198,387,302,,6
+[pack] Updating build script to remove isLocal reference,2019-03-13,Merged,4197,2,4,,1
+Decouple disposing LanguageWorkerChannel and WorkerProcess,2019-03-13,Closed,4196,238,168,,4
+Update powershell worker to 0.1.69-preview,2019-03-08,Merged,4178,1,1,,1
+[pack] Emit language on invocation metric. Fixes #3827,2019-03-19,Merged,4177,77,49,,13
+Update Webjobs references,2019-03-08,Merged,4174,6,6,,4
+[pack] initial plan for restricting DI services,2019-04-24,Merged,4173,"1,049",3,,6
+Fixing InvokeUrlTemplate formatting,2019-03-08,Merged,4171,54,9,,4
+[pack] Updated HttpContext gRPC conversion to fit updated protobuf,2019-03-07,Merged,4166,41,18,proto bat sh cs ,8
+"Add check for ""project.json"" and ""extensions.csproj"" when missing an assembly or reference in .csx",2019-05-14,Merged,4165,75,1,json csx ,6
+Only perform background sync triggers when not in standby mode,2019-03-04,Closed,4159,119,13,,7
+Add StandbyManager E2E test for Java,2019-03-04,Merged,4158,294,215,,1
+Fix SyncTriggers URI for dedicated linux on app service,2019-03-01,Merged,4157,25,1,,2
+Emit language metric after function indexing,2019-03-01,Merged,4153,15,17,,3
+V2 SyncTriggers Improvements,2019-04-24,Merged,4145,353,103,,8
+[pack] Setting up ExtensionManager to use ExtensionBundle.,2019-03-20,Closed,4136,"1,367",116,,8
+[pack] extension bundle probing and download,2019-03-27,Merged,4135,"1,418",284,,7
+Add decryptionKey to a snapshot,2019-03-22,Merged,4130,48,31,resx ,5
+Indexing errors are not added to error collection (Host),2019-04-17,Merged,4124,91,12,json csx ,10
+[pack] Add secret repository metrics(V2). Fixes #3942,2019-03-07,Merged,4122,301,173,,6
+[pack] Setting up ExtensionManager to use ExtensionBundle,2019-02-23,Closed,4121,"1,366",116,,8
+Add email notifications for performance tests,2019-03-06,Merged,4119,318,50,cs ,9
+Update the dockerfile to dotnet 2.2,2019-02-21,Merged,4118,7,5,,1
+Add secret repository metrics. Fixes #3942,2019-03-07,Closed,4110,193,3,,8
+adding mocked SystemLogger and MetricsLogger tests,2019-06-13,Closed,4109,220,21,js projitems ,12
+[pack] ClaimsPrincipal gRPC parsing.,2019-03-05,Merged,4108,147,11,proto bat sh cs ,8
+Fix Language Worker Channels disposing,2019-02-19,Merged,4102,109,54,,13
+Update to node worker 1.0.2,2019-02-16,Merged,4101,2,2,,2
+Record function pass/fail metrics. Fixes #3640,2019-02-20,Merged,4099,11,0,,3
+updating Extensions nuget to 3.0.2,2019-02-15,Merged,4097,1,1,,1
+"Revert ""Update ASP.NET Core dependencies""",2019-02-15,Merged,4096,1,1,,1
+Updated Binding Redirects for FSharp.Core,2019-04-19,Closed,4094,4,4,,4
+Configure Standard .NET headers. Fixes #1237,2019-02-20,Merged,4091,6,1,,1
+preventing 'old' startup exceptions from shutting down host,2019-02-15,Merged,4090,178,38,,4
+Update java worker to 1.3.1-SNAPSHOT,2019-02-15,Merged,4086,2,2,,2
+Adding C# precompiled throughput test,2019-02-16,Merged,4083,64,353,json xml java ps1 csx js csproj ,15
+Add tests for Linux specialization with empty RunFromPackage url,2019-02-15,Merged,4082,40,0,,1
+Update ASP.NET Core dependencies,2019-02-12,Merged,4075,1,1,,1
+[pack] Rewriting AlwaysOn pings to admin ping endpoint,2019-02-11,Merged,4072,11,0,,1
+[pack] creating official ExtensionsMetadataGenerator build,2019-02-13,Merged,4071,113,21,ps1 props sln snk csproj ,10
+Implement background SyncTriggers (#3565),2019-02-14,Merged,4070,"1,018",248,,4
+Add powershell e2e test similar to Java,2019-02-11,Merged,4068,139,0,ps1 cs ,5
+Ensure auth key is used as encryption key if that isn't set,2019-02-08,Merged,4065,9,0,,1
+Retry storage failures when downloading zip used in Run-From-Package,2019-03-26,Merged,4060,129,31,,7
+Fixed PropertyGroup being defined too early,2019-02-28,Closed,4059,13,4,,1
+Fixed PropertyGroup being defined too early,2019-02-06,Closed,4058,14,5,,1
+"Fixed PropertyGroup being defined too early, closes #4051",2019-02-06,Closed,4052,14,5,,1
+Adding managed dependency support in the host,2019-03-22,Merged,4050,197,14,,11
+update PowerShell to 63-preview,2019-02-06,Merged,4046,1,1,,1
+[pack] extension bundle probing and download,2019-02-25,Closed,4043,"1,199",103,,10
+Clean up laguage worker channel,2019-02-07,Merged,4041,6,7,,1
+Fix Linux Consumption PlaceholderMode initialization (#4015),2019-02-01,Merged,4040,37,24,,2
+fixing metadata to handle .NET Core 2.1+ function apps; adding logging; improving build/stylecop,2019-02-11,Merged,4036,230,49,props ps1 csproj cs pubxml ,16
+Wait for the host be ready before issuing Restart during Specialization,2019-02-14,Merged,4035,90,32,,2
+Update Java Worker to 1.3.0-SNAPSHOT,2019-01-30,Merged,4029,2,2,,2
+Updating and consolidating NuGet dependencies,2019-01-30,Merged,4028,12,12,,7
+WebHook race condition fix (#4021),2019-01-29,Merged,4025,110,102,config nuspec ,6
+[pack] fixing LanguageWorker console.log(),2019-01-29,Merged,4024,205,63,js ,10
+Removing dead logging,2019-01-25,Merged,4019,0,8,,1
+Update proto,2019-01-29,Merged,4008,71,6,proto cs ,5
+Do not log context logs without invocation context,2019-01-25,Merged,4003,0,4,,1
+Add PowerShell function artifacts for perf test,2019-02-21,Closed,4002,37,0,ps1 cs csproj ,4
+Fix RedirectResult for AspNetCore 2.2. Fixes #3986,2019-01-25,Merged,3999,44,5,json csx ,4
+Add PowerShell function artifacts for perf test,2019-01-24,Closed,3993,34,0,ps1 cs ,3
+Update Grpc,2019-01-23,Merged,3991,5,5,bat sh ,4
+[pack] hiding Azure Monitor behind app setting,2019-01-21,Merged,3985,44,3,,2
+Disabling AzureMonitor logger,2019-01-21,Closed,3984,4,49,,2
+Monitor fix,2019-01-18,Merged,3981,53,9,,3
+setting up extension bundle config and validation,2019-01-24,Merged,3979,460,3,resx ,10
+Update java worker to 1.2.6,2019-01-18,Merged,3977,2,2,,2
+[pack] Fix direct paths to dotnet.exe,2019-01-19,Merged,3972,1,7,xdt ,3
+[Do not merge]Enable AzureMonitor logger and move to Antares version of Java,2019-01-18,Closed,3971,116,61,csproj ,8
+merging master into dev,2019-01-17,Merged,3969,4,49,,2
+temporarily disabling AzureMonitor logger,2019-01-16,Merged,3968,4,49,,2
+Update node worker to 1.0.1,2019-01-17,Merged,3967,2,2,,2
+Adding extensionsBundle config validation,2019-01-16,Closed,3956,114,4,cs ,4
+fix invoke url if routePrefix is an empty string. Closes #3953,2019-03-08,Closed,3954,4,0,,1
+porting ARM Auth functionality,2019-01-11,Merged,3941,274,9,csproj ,6
+[Do not merge]Testing flaky tests,2019-01-16,Closed,3940,118,77,jar json cs resx csproj ,13
+[Bug fix] Make sure running language worker processes tracked,2019-01-14,Merged,3938,23,6,,3
+Initialize Java language worker in placeholder mode,2019-01-16,Merged,3936,118,77,jar json cs resx csproj ,15
+Code cleanup/resolving minor issues,2019-01-10,Merged,3931,15,24,,6
+Updating SDK and Extensions.Http,2019-01-09,Merged,3928,9,9,cs ,5
+Fixing token valdation tests,2019-01-08,Merged,3926,6,13,,1
+Update PowerShell to build 52,2019-01-09,Merged,3924,1,1,,1
+fix typo,2019-01-16,Closed,3920,1,1,,1
+[pack] Changing web.config to allow Double Escaping,2019-01-08,Merged,3916,1,1,,1
+"[pack] .net core 2.2. Fixes  #3611, #3862",2019-01-08,Merged,3911,20,83,ps1 cs pubxml csproj xdt config ,12
+Log function execution events in linux,2019-02-20,Merged,3910,3,0,,2
+Fix NullReferenceException in Orphan() codepath,2019-01-16,Merged,3908,1,1,,1
+Populate ClaimsPrincipal when no auth key provided,2019-02-05,Merged,3904,38,9,cs ,3
+[porting to V1] Geometric key size progression during snapshotting. Fixes #3034.,2019-03-20,Merged,3890,50,12,,2
+Enabling instance function methods,2018-12-13,Merged,3887,71,1,,2
+moving WebJobs packages forward; implementing IOptionsFormatter,2019-06-13,Closed,3883,222,2,,7
+removing host.json schema from repo,2018-12-13,Merged,3882,5,313,md json ,2
+removing host.json schema from repo,2018-12-13,Merged,3881,4,334,md json ,2
+"Support ""-prerelease"" suffix for perf tests",2018-12-12,Merged,3879,1,1,,1
+[App Insights] adding support for APPINSIGHTS_QUICKPULSEAUTHAPIKEY,2018-12-11,Merged,3878,49,10,,3
+Do not Initialize language workers at application level,2018-12-11,Merged,3874,4,3,,3
+Do not Initialize Language workers at Application level,2018-12-11,Closed,3873,3,6,,2
+Shutdown placeholder language worker channels if not needed,2018-12-08,Merged,3867,243,215,json ,11
+Skip flaky tests,2018-12-08,Merged,3865,53,39,,1
+Changing package name from beta to prerelease for dev branch,2018-12-10,Merged,3864,1,1,,1
+Refactor RpcInitializationService and add unit tests,2018-12-06,Merged,3861,203,44,,11
+Check worker runtime before warming up worker channels,2018-12-06,Merged,3859,41,0,,2
+adding DiagnosticLogger for Azure Monitor,2018-12-11,Merged,3858,518,29,,12
+Reverting to host initialization exception,2018-12-05,Merged,3855,93,11,,3
+Reenabling StandbyMode tests (#3816),2018-12-07,Merged,3853,159,326,cs ,4
+Enabling buffering for all requests. Fixes #3765.,2018-12-12,Merged,3851,851,5,cs ,1
+Ensure Instance specialized on assignment failure,2018-12-05,Merged,3850,53,8,,3
+Adding logging to identify when shared assemblies are resolved from providers,2018-12-06,Merged,3849,17,10,,6
+Fix SecretManager log statements. Fixes #3834,2018-12-09,Merged,3843,15,14,,1
+Support GET for ping endpoint,2018-12-03,Merged,3842,15,6,,3
+Support GET for ping endpoint,2018-12-03,Merged,3841,10,3,,2
+Mark WebHookHandler [RequiresRunningHost] (#3825),2018-11-30,Merged,3840,59,9,,3
+Runtime language metrics,2018-12-04,Merged,3837,14,8,,2
+[pack] Updating the NuGet package versioning,2018-11-30,Merged,3836,12,12,ps1 ,2
+[pack] Update to use FastExpressionCompiler,2018-12-04,Closed,3833,2,17,csproj ,3
+enabling account feed for host nuget packages,2018-11-28,Closed,3831,4,1,,1
+[pack] Initialize Java language worker at webhost level,2018-12-06,Merged,3824,"1,206",614,cs csproj proto bat sh ,17
+Consume/Monitor new Sandbox counters/limits (#3797),2018-11-27,Merged,3823,91,7,,4
+Fixing the nuget pacakge versioning for tags,2018-11-27,Merged,3822,5,2,,1
+Skip StandbyManager integration tests until fixed,2018-11-27,Merged,3817,2,2,,1
+Use correct JObject.FromObject() API instead of new JObject(),2018-11-27,Merged,3815,1,1,,1
+Updating to Microsoft.Rest.ClientRuntime 2.3.17,2018-11-26,Merged,3808,10,10,config ,10
+Remove Node support for identities binding,2018-11-24,Merged,3807,2,79,json js csproj cs ,6
+Updates to dependency probing to use function deps file,2018-12-03,Merged,3803,"2,309",28,,4
+Ignore. Testing CI,2018-12-10,Closed,3802,130,82,cs ,9
+Consume/Monitor new Sandbox counters/limits (#3797),2018-11-27,Closed,3801,88,6,,3
+Fix portal log streaming.,2018-11-27,Merged,3799,1,10,,1
+Updating node worker to beta7,2018-11-20,Merged,3798,2,2,,2
+[pack] Key Vault secret repository,2019-03-11,Merged,3791,773,201,,6
+Strip query params with no value,2018-11-30,Merged,3789,25,2,,2
+adding new way to configure test services,2019-03-20,Closed,3787,113,13,,8
+updating nugets; using new ISdkVersionProvider,2018-11-16,Merged,3785,26,7,cs ,6
+Fixing Specialization bug in List API,2018-11-15,Merged,3783,71,26,,4
+[Do not merge]Prototype Java Language Worker Placeholder,2018-11-27,Closed,3782,374,121,js cs ,16
+Relaxing EF dependency restricion,2018-11-17,Merged,3780,0,4,,1
+Updating ASP.NET references,2018-11-16,Merged,3779,2,2,,2
+using new proxy nuget with fix for head requests,2018-11-27,Merged,3778,61,4,csx json cs ,6
+Update Java worker,2018-11-14,Merged,3777,2,2,,2
+[pack] WIP: Add PowerShell worker,2018-12-12,Closed,3771,8,3,csproj ,2
+Master merge,2018-11-13,Merged,3770,12,11,,4
+[pack] fixing broken metrics,2018-11-13,Merged,3769,12,11,,4
+Add InitializeWorkers_Fails_AddsFunctionErrors test,2018-11-12,Merged,3764,33,0,,1
+rolling back Extensions.Storage nuget version as it is not being updated,2018-11-09,Merged,3762,2,2,,2
+Geometric key size progression during snapshotting. Fixes #3034.,2018-12-13,Merged,3760,53,14,,2
+Update Java Worker to version 1.2.1,2018-11-09,Merged,3757,4,4,,3
+[pack] Executing performance tests on VM,2019-01-23,Merged,3753,444,233,yml ps1 cs gitignore json xml java csx js csproj ,21
+[pack] nuget update,2018-11-16,Closed,3752,2,3,,1
+Update Web.config to relax URL to file system mapping rules,2018-11-08,Merged,3750,1,1,,1
+Storage MaxConnectionsPerServer temporary workaround,2018-11-07,Merged,3749,58,0,,2
+Fix applicationHost for ANT79,2018-11-07,Merged,3746,8,8,,2
+new nugets for proxy timeout fix,2018-11-06,Merged,3742,2,2,,2
+new proxy nugets for timeout fix,2018-11-06,Closed,3739,2,2,,2
+Fixing Host Shutdown bug,2019-04-25,Closed,3732,86,4,,2
+HealthMonitor improvements (#2972),2018-11-05,Merged,3728,32,16,,8
+Enforce Functions Java when running in AppServiceEnv,2018-11-01,Merged,3724,4,15,csproj ,4
+Use Functions Java in AppServiceEnv,2018-11-01,Closed,3723,4,15,csproj ,4
+HealthMonitor improvements (#2972),2018-11-02,Closed,3706,131,41,,12
+Fix merge issue with SecretManager,2018-10-26,Merged,3705,1,16,,1
+Fixes for seabreeze,2019-04-11,Closed,3704,319,36,,5
+dev -> master merge,2018-10-24,Merged,3683,"3,030",346,yml ps1 props csproj cs ,15
+Update java worker to 1.2.0-beta01-SNAPSHOT,2018-10-24,Merged,3680,2,2,,2
+Add support for JAVA_OPTS,2018-10-24,Merged,3678,52,2,,2
+Override AppServiceEnv Java path if Java_Home is valid,2018-10-24,Merged,3677,35,0,,2
+Use beta6 node worker - fails better for low versions of node,2018-10-24,Merged,3671,2,2,,2
+updating nuget references,2018-10-24,Merged,3668,9,9,cs ,5
+re-enabling FunctionResultAggregator,2018-10-19,Merged,3632,86,4,,4
+Removing unused packages.config file,2018-10-17,Merged,3628,0,20,,1
+Enhancements to RID fallback logic to handle unknown RIDs,2018-10-18,Merged,3623,111,42,,4
+Dispose host secrets semaphore,2018-10-17,Merged,3617,4,3,,1
+Log zip download / extraction time,2018-10-15,Merged,3615,"1,876",94,cs ,12
+Add more logging to understand host secrets regeneration.,2018-10-19,Merged,3609,65,19,resx ,7
+adding user log counts,2018-10-18,Merged,3606,314,87,,13
+Updating ANCM to 2.1.0-a-oob-2-1-oob-17297,2018-10-12,Merged,3604,3,3,csproj ,2
+Throw error if there are no functions matching the language set by the runtime,2018-12-05,Merged,3599,95,13,,3
+Use absolute path for dotnet.exe in web.config. Fixes #3505.,2018-10-11,Merged,3591,1,1,,1
+Host keys race fix,2018-10-18,Merged,3590,48,35,,1
+Perf tests appveyor integration,2018-10-18,Merged,3588,375,159,yml cs csproj gitignore ,6
+Fixing console host project,2018-10-10,Merged,3583,12,4,,2
+Performing validation of FUNCTIONS_EXTENSION_VERSION when hosted,2018-10-10,Merged,3582,106,0,,3
+Updating package EULA link,2018-10-08,Merged,3575,1,1,,1
+Enable warnings as errors,2018-10-08,Merged,3571,71,4,cs ,10
+Updating SDK references,2018-10-05,Merged,3566,6,6,,4
+Throughput tests,2018-10-10,Merged,3563,"1,756",92,cs projitems shproj ,14
+System Logging Improvements,2018-10-08,Merged,3553,251,72,,12
+Adding HTTP trace logging (#2272),2018-10-02,Merged,3548,197,93,,7
+Update azure-functions-java-worker,2018-10-02,Merged,3547,2,2,,2
+Minor cleanup,2018-10-01,Merged,3542,0,8,,2
+Ensuring scope resolver uses a thread safe collection for child scopes,2018-10-01,Merged,3540,6,6,,1
+Fix proxies specialization issue (#3533),2018-10-03,Merged,3534,72,53,,7
+Make App Offline file management more robust,2018-09-26,Merged,3524,141,22,,12
+Ensure all app level unhandled exceptions are logged,2018-09-27,Merged,3515,145,34,,4
+Preventing null binding data values from flowing into language workers,2018-09-25,Merged,3514,10,7,cs ,3
+Add support for WEBSITE_RUN_FROM_PACKAGE (#3497),2018-09-22,Merged,3509,14,4,,3
+updating tests to latest releases,2018-10-03,Merged,3501,31,21,csproj ,6
+Host keys race fix,2018-09-21,Merged,3498,44,32,,1
+Proxy to local function will return 401 if function is not anonymous,2018-10-01,Merged,3490,68,12,json csx ,7
+Changing package copyright notice,2018-09-20,Merged,3488,1,1,,1
+Retargeting E2E to .NET Core 2.1,2018-10-03,Merged,3487,93,294,cs json ,7
+adding exception details to FileLogger,2018-09-19,Merged,3486,80,0,,2
+Add InvocationExceptions to function logger,2018-09-19,Closed,3482,18,11,,2
+Updating SDK and extension package references,2018-09-18,Merged,3480,9,9,,5
+Wiring up Development mode,2018-09-18,Merged,3479,8,2,,4
+Updating ASP.NET Core references,2018-09-18,Merged,3473,14,14,cs ,3
+Updating SDK and extension references,2018-09-18,Merged,3472,23,18,cs ,10
+Removing pre-release suffix,2018-09-18,Merged,3471,11,11,ps1 props csproj cs ,4
+Ensure directory exists before writing files.,2018-09-17,Merged,3470,17,3,,1
+Removing secret migration functionality,2018-09-18,Merged,3468,5,307,,6
+Ensure cached proxies metadata is reset on proxy changes,2018-09-17,Merged,3467,118,4,,2
+Small code cleanup,2018-09-17,Merged,3461,7,770,,3
+"Reserving ""runtime"" route",2018-09-17,Merged,3460,81,68,,3
+Fix offline state for function status api (#3457),2018-09-14,Closed,3459,116,26,,7
+Removing unnecessary logic to set environment variables,2018-09-14,Merged,3458,0,9,,1
+[pack] Suppressing external startup types when offline,2018-09-14,Merged,3456,17,3,,4
+Using wild card for metadataGenerator package,2018-11-14,Merged,3453,6,5,,2
+Updating host to absorb SDK API changes,2018-09-18,Closed,3452,8,1,,8
+Throw HostInitializationException if staring Grpc Service fails,2018-09-14,Merged,3451,35,11,,2
+Changing FunctionDescriptorProvider creation to avoid blocking calls in async paths,2018-09-14,Merged,3450,49,42,,7
+[pack] Updating the MetadateGenerator Package Version,2018-09-13,Merged,3448,2,2,,1
+[pack] Updating the MetadateGenerator Package Version,2018-09-13,Closed,3447,2,2,,1
+Removing fsx/F# interactive support,2018-09-13,Merged,3446,8,974,,3
+updating home page,2018-09-13,Merged,3445,10,4,,1
+Fixing metadata generator target file: copy relevant runtime binaries,2018-09-13,Merged,3443,2,1,,1
+App_Offline.htm file change notification fix,2018-09-12,Merged,3441,12,19,,1
+Removing legacy dashboard logging,2018-09-12,Merged,3438,0,1,,1
+Merge master to dev,2018-09-12,Merged,3436,1,0,,1
+[pack] Adding in-proc package,2018-09-13,Merged,3433,17,0,,1
+Http throttle defaulting (#2113),2018-09-17,Merged,3430,107,0,,3
+[pack] Remove unnecessary grpc binaries from site extension build.,2018-09-10,Merged,3427,21,8,,1
+Filter proxies when checking for initializing language workers,2018-09-10,Merged,3426,88,3,,2
+Cleaning up EndToEnd tests and Sample directories,2018-09-10,Merged,3425,881,"2,261",json csx js proj jar ts java cs ,92
+Updating SDK references and bumping version information,2018-09-11,Merged,3424,21,21,props csproj cs ,14
+Fixing async Node.js functions,2018-09-10,Merged,3423,2,2,,2
+Fixing VirtualFileSystem registration,2018-09-10,Merged,3422,7,6,,2
+Matching V1 request limits for in and out of proc scenarios,2018-09-07,Merged,3413,5,1,config ,2
+[pack] adding SystemLogger to WebHost; filtering based on allowed categories,2018-09-07,Merged,3412,252,169,cs ,12
+Update node worker to beta4-10081,2018-09-08,Merged,3407,2,2,,2
+Update Java Worker to 1.1.1-beta03,2018-09-07,Merged,3405,2,2,,2
+Apply DefaultFunctionTimeout if not dynamic,2018-09-07,Merged,3402,69,65,,3
+Reenable HostHealthMonitor (#3299),2018-09-06,Merged,3397,327,261,,5
+Handle properly if keys migration failed,2018-09-05,Closed,3395,64,7,,2
+Increase process start timeout,2018-09-06,Merged,3394,4,4,,1
+Use value provided in the appsetting for building worker provider,2018-09-06,Merged,3393,2,2,,2
+[AppInsights] disabling SnapshotCollector by default,2018-09-05,Merged,3388,5,7,,2
+Changing external dependency to eliminate reliance on external functions,2018-09-04,Merged,3383,1,1,,1
+Add POST action to admin/functions/{name}/keys,2018-12-04,Closed,3381,1,0,,1
+Fixing test issue introduced by optional route argument support fix,2018-09-04,Merged,3380,1,1,,1
+Ensure directory for test data exists before writing to it.,2018-09-01,Merged,3372,1,0,,1
+Allow defaultWorkerPath to be empty,2018-11-29,Merged,3369,38,12,,5
+Use empty array instead of uninitialized array,2018-09-07,Merged,3368,23,3,,2
+Adding ability to stop restart loop on fatal initialization failures. Updating language check to throw when in mixed mode,2018-09-05,Merged,3362,245,58,,10
+re-enabling standby end-to-end tests,2018-09-05,Merged,3354,344,263,,9
+Add logging for Linux AppService Containers,2018-10-02,Merged,3353,794,74,,5
+Support parameter binding to optional binding parameters,2018-08-30,Merged,3352,48,16,csx cs ,6
+Improving Function metadata API (#3303),2018-08-30,Merged,3351,247,74,,6
+Removing host id property from host.json,2018-09-10,Merged,3348,40,40,cs ,16
+Resetting root configuration on specialization,2018-08-29,Merged,3346,45,1,,2
+Fixing IHostIdProvider registration,2018-08-28,Merged,3344,4,0,,1
+Add version field to placeholder host.json,2018-08-29,Merged,3343,1,0,,1
+Removing Azure Storage assembly from the list of runtime assemblies,2018-08-28,Merged,3342,0,4,,1
+Modify the list/get function definition APIs to allow for client requested host wait,2018-08-30,Closed,3341,125,78,,3
+Do not Initialize language workers for dotnet functions,2018-08-28,Merged,3340,125,9,,3
+Updating SDK and extension references,2018-08-28,Merged,3339,9,9,,5
+Single instance of worker configs,2018-08-28,Merged,3338,9,4,,3
+Fixing HostIdProvider tests,2018-08-28,Merged,3337,49,9,projitems ,3
+Ensuring metadata generator is moved to 1.0.0 on existing projects,2018-08-27,Merged,3335,4,0,,1
+Set RootScriptPath on ScriptOptions when running WebHost locally,2018-08-27,Closed,3333,16,16,,1
+Registering WebHookProvider service,2018-08-27,Merged,3332,17,0,,2
+Fixing bad merge,2018-08-27,Merged,3331,1,1,,1
+Updating Metadata Generator package version,2018-08-27,Merged,3330,2,3,,1
+Stabilize tests,2018-08-26,Merged,3326,2,1,,1
+switching secret default location to Blob,2018-08-25,Merged,3325,15,11,,2
+Delay primary host coordinator lease check,2018-08-24,Merged,3324,1,1,,1
+Improving Extension WebHook URL,2018-08-24,Merged,3322,75,7,,3
+[pack] throwing exception if no version property in host.json does not equal '2.0',2018-08-24,Merged,3320,345,128,cs ,11
+Ensure SDK host ID provider is overridden by runtime,2018-08-24,Merged,3319,1,1,,1
+Updating warmup function to call into storage.,2018-08-24,Merged,3317,42,4,,1
+Adding missing initialization logs and logging tests,2018-08-24,Merged,3314,237,29,,3
+Fixes/updates to configuration schema,2018-08-23,Closed,3313,322,281,,1
+"Addressing TODOs, fixing configuration issues and tests",2018-08-23,Merged,3311,62,61,,9
+[regression]Fix WorkerConfig parsing,2018-08-23,Merged,3310,95,10,csproj ,5
+Fix HealthMonitor config,2018-08-22,Closed,3309,5,3,,3
+[pack] Zip up the crossgen symbols so they appear as build artifacts,2018-08-23,Merged,3307,24,1,,1
+Fix metadata generator so that extensions.json is included when publishing,2018-08-22,Merged,3306,7,0,,1
+moving common services to WebHost,2018-08-23,Merged,3304,390,221,,12
+[pack] Handling placeholder specialization,2018-08-22,Merged,3302,614,332,,11
+Reenable http throttles (#2945),2018-08-22,Merged,3301,548,226,cs csproj ,12
+Setting the configuration root name,2018-08-21,Merged,3298,18,0,,2
+Fixing middleware registration order,2018-08-21,Merged,3297,9,6,,2
+Updating HTTP extension and fixing HttpResponseMessage handling,2018-08-20,Merged,3295,61,3,json proj csx csproj cs ,7
+binding aggregator options; moving fileLoggingMode under 'logging',2018-08-23,Merged,3294,52,69,,5
+Update EventHub test,2018-08-23,Merged,3293,5,3,,1
+Package reference updates and cleanup,2018-08-20,Merged,3291,43,51,cs ,8
+Temporarily disabling EH test checking binding data. Issue introduced with last EH SDK update.,2018-08-19,Merged,3290,1,1,,1
+Setting default file logging mode,2018-08-19,Merged,3288,28,0,,2
+adding repository url to project,2018-08-20,Closed,3287,2,2,csproj ,2
+Removing old WebHooks references,2018-08-17,Merged,3285,0,"1,090",json csx ,5
+Adding missing default assembly reference for CSX compilation,2018-08-19,Merged,3283,1,0,,1
+adding DeferredLogger to pass logs from WebHost to JobHost,2019-03-20,Closed,3277,828,221,cs ,9
+Preventing startup loader from loading builtin extensions,2018-08-17,Merged,3276,92,5,,2
+Consolidating environment setting,2018-08-17,Merged,3275,33,18,,5
+Prevent built in extensions from being declared in extensions.json,2018-08-17,Merged,3274,18,1,,2
+Fixing keys controller to take an IOptions<ScriptApplicationHostOptions>,2018-08-16,Merged,3272,15,11,projitems ,8
+Ensure registered configuration builders are called at the end of the build process,2018-08-17,Merged,3271,10,10,,1
+Cold start data,2018-08-21,Merged,3270,57,38,,6
+App Offline support,2018-08-17,Merged,3269,579,71,,7
+[pack] Fix the private site extension builds,2018-08-16,Merged,3268,44,1,xdt ,2
+Addressing some pending TODOs,2018-08-17,Merged,3267,50,116,,9
+enforce single Language functions per function app,2018-08-25,Merged,3265,"1,541",805,js cs ,21
+Exposign DelayUntilHostReady (needed by CLI),2018-08-15,Merged,3264,1,1,,1
+enabling Application Insights; changing all Logging configuration,2018-08-15,Merged,3263,"1,079","1,117",csproj ,10
+Adding a service to manage proxy metadata creation.,2018-08-15,Merged,3260,226,136,,4
+Ensure metrics/diagnostics logs are collected,2018-08-15,Merged,3258,61,31,,8
+Updates to ScriptHostIdProvider,2018-08-14,Merged,3257,48,16,,2
+Updating SDK and extension references,2018-08-14,Merged,3255,31,27,csproj ,13
+Updating ScriptHostOptionsSetup to populate workers configuration. Enabled tests,2018-08-14,Merged,3253,324,344,cs ,11
+Re-enabling timeout tests,2018-08-13,Merged,3251,77,101,,2
+Consolidating ruleset files. Cleaning up warnings,2018-08-13,Merged,3250,35,103,ruleset csproj cs projitems ,11
+Re-enabling additional skipped tests,2018-08-13,Merged,3249,49,13,,8
+Re-enabling timer trigger,2018-08-11,Merged,3248,149,101,cs projitems ,13
+Fixing small bug with metadata generation,2018-08-10,Merged,3246,1,1,,1
+Removing obsolete extension load logic,2018-08-10,Merged,3243,15,232,,6
+Updating WebJobs SDK references and using updated APIs.,2018-08-10,Merged,3242,225,261,csproj ,14
+Extension metadata generation improvements,2018-08-10,Closed,3237,124,42,sln cs csproj ,8
+Update keys to camelCase and support a list of extensions,2018-08-14,Merged,3235,18,21,csproj ,12
+updating extensions nugets,2018-08-28,Merged,3234,102,94,config nuspec ,5
+Add support to configure java.exe by specifying full path,2018-08-14,Merged,3233,24,1,,2
+Revert 3141 revert211,2018-08-06,Closed,3226,9,9,,4
+Merge pull request #3199 from Azure/dev,2018-08-03,Merged,3225,254,84,cs csproj pubxml config ,12
+AppInsights on by default added 5 seconds delay in cold start,2018-08-02,Merged,3221,3,1,,1
+Adding invoke URL template to function metadata response,2018-08-02,Closed,3219,49,17,csproj ,10
+Fix test flake for FunctionLogging_Succeeds,2018-08-01,Merged,3217,3,8,,1
+Update CONTRIBUTING.md,2018-08-01,Merged,3215,7,7,,0
+Worker config updates to make path to jave.exe configurable,2018-08-01,Merged,3210,157,38,csproj ,8
+Skipping analyzers when compiling in release mode,2018-07-30,Merged,3208,11,3,,1
+test1,2018-07-30,Closed,3202,"9,920","2,542",config md sln yml ,4
+Adding invoke URL template to function metadata response,2018-08-02,Merged,3199,47,17,csproj ,9
+[WIP] Host offline support (#1521),2018-08-14,Closed,3196,150,42,cs ,12
+Normalize Key value in environment variables,2018-07-27,Closed,3195,1,1,,1
+Language worker process improvements,2018-08-14,Merged,3194,419,140,,10
+Updating .NET/ASP.NET package references,2018-07-27,Merged,3193,1,1,,1
+Updating the maxQueryString and maxUrl length for http requests,2018-07-25,Merged,3183,5,0,,1
+reworking function loggers to enable tracking of user log volume,2018-11-01,Closed,3180,351,188,,9
+Allow ServiceBus AutoComplete to be configured,2018-07-26,Merged,3179,117,52,csproj config nuspec cs ,11
+Merging dev to master,2018-07-24,Merged,3177,158,40,ps1 java jar cs csproj xdt ,12
+Normalize CharSet in Content-type header,2018-07-24,Merged,3173,80,0,,3
+Tactical fix to update JWT validation parameters after specialization,2018-07-24,Merged,3172,39,11,,1
+Defaulting many to be data type string[],2018-08-16,Closed,3170,10,8,cs ,3
+protecting TestLogger from collection modifications,2018-07-23,Merged,3169,21,3,,1
+Add net core http support for extension webhooks,2018-12-03,Closed,3165,74,15,,4
+Hosting/DI updates - incorporating changes from WebJobs SDK,2018-08-06,Merged,3163,"20,582","7,075",json cs csproj ,9
+update publish profile to core2.1,2018-07-26,Merged,3159,1,1,,1
+"Re-apply ""Upgrading .NET/ASP.NET references to 2.1.1 packages""",2018-07-27,Merged,3158,9,9,,4
+[pack] Updating ANCMV2 to 2.1.0-a-oob-2-1-oob-17035,2018-07-16,Merged,3149,3,3,csproj ,2
+Proxy fix for cold start (#3101),2018-07-13,Merged,3148,27,16,csproj ,3
+Disable ANCM stdout logging in XML transform file,2018-07-13,Merged,3147,1,1,,1
+Moving to EventGrid extension version 1.0.0 + fix flaky test,2018-07-13,Merged,3143,41,48,config nuspec cs ,16
+Update Java Worker,2018-07-18,Merged,3142,8,8,jar csproj ,4
+"Temporarily reverting ""Upgrading .NET/ASP.NET references to 2.1.1 packages""",2018-07-12,Merged,3141,9,9,,4
+Disable stdout. Fixes #3129,2018-07-12,Merged,3136,1,1,,1
+UploadFromFileAsync adds the byte order mark (BOM) unicode character,2018-07-12,Merged,3132,5,4,,2
+Fixing CompositeTraceWriter concurrency issue,2018-07-10,Merged,3123,33,4,,2
+Upgrading .NET/ASP.NET references to 2.1.1 packages,2018-07-10,Merged,3122,9,9,,4
+Adding a utility to round TimeSpan instances and using it in tests where rounding was performed,2018-07-10,Merged,3118,25,5,projitems ,4
+Fixing test logging consumption to avoid working against the live underlying collections,2018-07-09,Merged,3116,2,2,,2
+Fix flaky backoff test,2018-07-09,Merged,3115,4,1,,1
+Catch unhandled exceptions coming from background process logging,2018-07-06,Merged,3112,10,3,,1
+Fix casing in LanguageWorkerConstants Arguments,2018-07-06,Merged,3109,2,2,,2
+In-memory caching of compilation results,2018-12-03,Closed,3104,737,7,,6
+Update SDK version to 2.3.0-beta1-11376,2018-07-03,Merged,3103,51,51,config nuspec ,9
+Don't magically deserialize datetimes V1 Javascript,2018-07-03,Closed,3102,2,1,,1
+Use ANCM2 module only for function app,2018-07-06,Merged,3098,5,6,,1
+[pack] Update ANCM2 to fix payload for 5xx,2018-07-03,Merged,3097,3,3,csproj ,2
+Sliding window fix,2018-07-02,Closed,3096,34,2,,2
+SlidingWindow fix (#3093),2018-07-02,Merged,3095,34,2,,2
+Fix null ref in FunctionExecutor (#2785),2018-07-02,Merged,3094,507,159,csproj config nuspec cs ,9
+Adding function metadata validation for missing or  invalid bindings,2018-07-10,Merged,3085,54,0,,2
+Changing default sharing access mode in FileUtility.WriteAsync,2018-07-03,Merged,3079,1,1,,1
+Changing default sharing access mode in FileUtility.WriteAsync,2018-06-29,Merged,3078,1,1,,1
+Removing F# assemblies from the list of runtime restricted assemblies,2018-06-29,Merged,3072,0,29,,1
+Adding api to track inprogress installations,2018-07-13,Merged,3060,48,14,,2
+[pack] Change to blob storage repository,2018-07-07,Merged,3057,311,4,,7
+[Cosmos DB] Add Protocol parsing to host.json,2018-06-26,Merged,3051,35,21,csproj config nuspec cs ,13
+Updating FileWatcherEventSource to avoid publishing events after dis…,2018-07-31,Merged,3049,25,4,,2
+Move Java language worker to use GenericWorkerProvider,2018-06-25,Merged,3047,164,291,csproj ,11
+Ensure entry point path is added to probing paths collection when function assembly is loaded,2018-06-22,Merged,3045,1,1,,1
+Add Tests Against Node 8,2018-12-03,Closed,3044,8,3,ps1 ,2
+Register child process as soon as process starts,2018-06-25,Merged,3041,12,5,,1
+Enable NodeContentTests,2018-06-26,Merged,3037,14,174,js ,3
+[pack] x86/x64 for V2. Fixes #2909,2018-07-24,Merged,3036,62,18,csproj xdt ,5
+Use plain text for function secrets in Linux Containers,2018-06-21,Merged,3033,11,3,,1
+Do not ConvertStreamToValue if input stream is null,2018-06-22,Merged,3030,5,0,,1
+using new proxy nugets to fix log path on iOS,2018-06-20,Merged,3028,2,2,,2
+Updating WebJobs SDK references,2018-06-19,Merged,3027,11,11,,3
+Add a Dockerfile for building current HEAD,2018-07-18,Merged,3026,28,0,,1
+Fix host.json schema,2018-06-19,Merged,3025,29,29,,1
+Increasing node test version to v10,2018-06-18,Merged,3019,1,1,,1
+improving test logs,2018-06-18,Merged,3018,7,8,,2
+Fix regression: try to parse request body on all content-types,2018-06-18,Merged,3016,29,1,,2
+Disable Java Sample E2E Test,2018-06-15,Merged,3015,1,1,,1
+Fix flaky backoff tests,2018-06-18,Merged,3014,2,2,,1
+Enable stdout to fix acnm bug,2018-06-15,Merged,3013,3,3,xdt ,2
+"[DO NOT MERGE] Revert ""Add EnvironmentReadyCheckMiddleware"" to check test impact",2018-07-09,Closed,3012,7,44,,4
+Handling default context assembly resolution failures and delegating to the shared context when appropriate,2018-06-15,Merged,3011,29,4,,1
+update eventgrid extension to 1.0.0,2018-06-22,Merged,3010,11,10,config nuspec ,11
+Update Node and Java Language Workers,2018-06-15,Merged,3008,17,9,proto csproj ,3
+Add check for Java,2018-06-14,Merged,3007,20,1,,1
+Use TryGetValue to lookup worker channel,2018-06-14,Merged,3006,2,2,,1
+Reverting WEBSITE_CONFIGURATION_READY check,2018-06-14,Merged,3002,1,16,,6
+Add EnvironmentReadyCheckMiddleware,2018-06-14,Merged,3001,44,7,,4
+Add HttpTrigger-Java sample E2E test,2018-06-13,Merged,2994,68,20,java jar json cs ,6
+Update grpc,2018-06-12,Merged,2991,7,7,bat sh ,4
+Fix flaky timer flush test,2018-06-12,Merged,2988,3,6,,1
+Delay synctriggers until specialization is complete.,2018-06-14,Closed,2985,1,0,,1
+Reduce chance of sliding window test flaking out,2018-06-11,Merged,2983,18,6,,1
+Update check script to latest .Net Core 2.1,2018-06-11,Merged,2982,21,5,,1
+Updates to GenericWorkerProvider,2018-06-12,Merged,2975,412,378,cs csproj ,9
+Emit compilation errors on invocations (#2710),2018-06-12,Merged,2973,65,21,,3
+Moving Instance Manager tests to integration test suite,2018-06-08,Merged,2971,0,0,,1
+moving a test to use in-memory logs,2018-06-08,Merged,2970,19,9,,1
+Handle exceptions in GrpcService event stream subscriptions,2018-06-08,Merged,2966,43,39,,7
+Isolating StandbyMode tests,2018-06-07,Merged,2965,65,24,cs projitems ,14
+Fixing logic to ensure artifacts are published when [pack] is applied.,2018-06-07,Merged,2964,5,3,,1
+Reinitialize containers on restart,2018-06-13,Merged,2962,296,12,cs ,10
+Deleting unused build file,2018-06-07,Merged,2959,0,34,,1
+Fixes and enhancements to native dependencies resolution.,2018-06-07,Merged,2958,"3,188",25,csproj ,3
+[pack] ANCM 2.1 integration,2018-06-12,Merged,2956,73,46,cs csx csproj xdt ,6
+Gating host specialization on WEBSITE_CONFIGURATION_READY (#2867),2018-06-07,Closed,2953,28,8,,6
+Enhancements to runtime assembly match/binding behavior,2018-06-06,Merged,2951,"1,555",208,,3
+Upgrading to .NET Core 2.1,2018-06-05,Merged,2949,"1,109",41,yml props ,3
+Bypassing crossgen and artifact publishing for pull requests,2018-06-05,Merged,2939,15,6,ps1 ,2
+Test isolation,2018-06-05,Merged,2937,55,21,ps1 ,2
+Fixing flaky test,2018-06-04,Merged,2936,7,1,,1
+adding logs to test,2018-06-05,Merged,2935,1,1,,1
+[ANT 74] Gating host specialization on WEBSITE_CONFIGURATION_READY (#2867),2018-06-06,Merged,2934,26,8,,5
+max_jobs to the common section,2018-06-04,Merged,2933,3,2,,1
+Removing IsAuthDisabled dead code,2018-06-05,Merged,2932,2,30,,5
+Fixes to linux log parsing,2018-12-03,Closed,2931,66,2,,2
+Fixing flaky test,2018-06-01,Closed,2930,5,4,,1
+Fixing ToRpc conversion code,2018-06-01,Merged,2928,56,37,,2
+Using an empty Type Locator when initializing the host,2018-06-01,Closed,2927,31,2,,3
+"Revert ""Fix ToRpc parsing bug""",2018-06-01,Closed,2926,35,71,json ,3
+Disabling problematic Node E2E tests,2018-06-01,Closed,2925,7,7,,1
+Update Node Worker,2018-06-05,Merged,2923,20,14,cs js ,6
+Fix ToRpc parsing bug,2018-05-31,Merged,2918,71,35,json ,3
+Fix updating PATH for non-Windows platforms. Fixes #2916,2018-06-01,Merged,2917,6,5,,1
+Update to .NET Core 2.1 and enhancements to runtime assembly binding behavior,2018-06-07,Closed,2914,"3,243",284,config yml ps1 ,4
+Ensure exceptions logged for precompiled functions,2018-05-31,Merged,2913,143,168,cs csproj json ,9
+Enable Websockets in Function Runtime for extensions,2018-07-21,Closed,2906,194,36,json csx cs ,8
+delay restart/shutdown when the files are being copied,2018-09-12,Closed,2893,16,0,,1
+Accept default JSON formatting (#2891),2018-05-25,Merged,2892,7,8,,2
+Remove caching of CONSOLE_LOGGING_DISABLED.,2018-12-03,Closed,2889,4,9,,1
+fixing cosmos test failure,2018-05-30,Merged,2887,27,15,,4
+Ignore ssl errors for SyncTriggers if SCM_SKIP_SSL_VALIDATION is set,2018-05-22,Closed,2884,35,3,,3
+Adding logging to VirtualFileSystem,2018-05-22,Merged,2883,17,13,,2
+Add Function checks back to KeysController,2018-05-23,Merged,2882,110,15,,4
+Fixing registered extensions assembly loading,2018-05-21,Merged,2879,3,3,,2
+Fixing secrets retrieval bug (#2861),2018-05-21,Merged,2876,33,48,,4
+ExtensionConfigProvider discovery fix,2018-05-18,Merged,2868,1,6,,1
+Ignore ssl errors when SCM_SKIP_SSL_VALIDATION is set,2018-05-22,Merged,2865,35,3,,3
+Removing SettingsManager caching,2018-05-17,Merged,2858,111,117,,4
+Getting RID of custom RID resolution logic,2018-05-21,Merged,2857,3,28,,1
+usng new proxy nuget with backend url fixes,2018-05-22,Merged,2853,107,23,csproj config cs csx json ,12
+Ensuring extensions.json registered assemblies are loaded in shared context.,2018-05-15,Merged,2850,2,1,,1
+Updating WebJobs SDK references,2018-05-11,Merged,2839,10,10,,2
+Disabling flaky CosmosDB Node test. Tracking with #2837.,2018-05-11,Merged,2838,1,1,,1
+Runtime specific native assets resolution,2018-05-11,Merged,2834,23,7,csproj ,2
+Fix Host header and request scheme for non-appservice environments,2018-05-11,Merged,2833,122,0,json csx ,5
+In-proc support [DO NOT MERGE],2018-07-23,Closed,2831,73,45,cs csx csproj xdt config ,11
+Update java worker with new package name,2018-05-26,Merged,2829,54,136,md proto bat sh ,7
+Fixing test and compilation issue,2018-05-09,Merged,2822,1,2,,2
+Using HttpRequestMessage overload that will ensure content length is set,2018-05-09,Merged,2821,29,7,cs ,4
+Enhancements to assembly unification/resolution in FunctionAssemblyLoadContext,2018-05-09,Merged,2820,38,2,,2
+Console host fixes,2018-05-08,Merged,2819,42,13,,3
+Reenable console logging for sample host,2018-05-08,Merged,2818,88,1,,3
+Fixing/Reenabling more tests,2018-05-08,Merged,2814,117,179,csx ,12
+Add Breaking_Changes.md file to track breaking changes from v1 => v2 across repos,2018-12-03,Closed,2813,24,0,,0
+[DO Not merge]Testing build update to use 32-bit version of dotnet.exe,2018-09-12,Closed,2809,604,22,,1
+Fix ArmAuthenticationHandler decryption key priority,2018-05-08,Merged,2804,36,7,,4
+Reenabling 9 end to end tests (with fixes),2018-05-07,Merged,2802,37,61,json cs csproj ,9
+Fix Accessviolation on x86,2018-05-04,Merged,2799,1,1,,1
+Rename environment variable to set ConsoleLoggingMode,2018-05-07,Merged,2798,3,2,,3
+ScriptHostTest fixes,2018-05-04,Merged,2797,3,2,,1
+Change Blobs.CentralizedPoisonQueue default (#1106),2018-05-04,Merged,2794,3,5,,2
+Remove tests that install extensions,2018-05-04,Merged,2793,26,13,csproj ,9
+Assign validation and logging,2018-05-04,Closed,2789,147,24,,5
+Use ContainerEncyryptionKey for Authenticating internal requests.,2018-05-03,Merged,2787,102,17,,5
+Default host.json config when not present (#2553),2018-05-02,Merged,2784,92,44,json csproj ,5
+Cosmos DB ConnectionMode configuration,2018-05-18,Merged,2782,62,41,csproj config nuspec cs ,13
+Linux container specialization fix (#2718),2018-05-02,Merged,2777,290,202,,8
+Re-applying GRPC message limit increase change,2018-04-30,Merged,2764,763,142,gitignore cs csproj Grpc/azure-functions-language-worker-protobuf/LICENSE ,6
+"Revert ""Revert changes for setting grpc max message size (#2752)""",2018-04-27,Merged,2762,763,142,gitignore cs csproj Grpc/azure-functions-language-worker-protobuf/LICENSE ,6
+Reenabling CosmosDB tests,2018-04-27,Merged,2761,7,7,,4
+Revert changes for setting grpc max message size (#2752),2018-04-27,Merged,2756,142,763,gitignore proto cs csproj ,6
+Updating SDK and Extension references,2018-04-27,Merged,2755,10,10,,2
+Add Ubuntu to the appVeyor build matrix,2018-04-27,Merged,2754,59,42,yml ,1
+Warn user if two apps are sharing the same secrets. Fixes #2740,2018-04-27,Merged,2753,66,8,resx ,4
+Revert changes for setting grpc max message size,2018-04-27,Merged,2752,142,763,gitignore proto cs csproj ,6
+Addressing issues with flaky test in CI,2018-04-26,Merged,2751,22,14,,1
+Fix #1629 - default event hubs batch size is incorrect,2018-05-01,Merged,2748,81,26,,2
+Rename proto file under proper folder structure,2018-04-26,Merged,2745,6,6,csproj Grpc/azure-functions-language-worker-protobuf/LICENSE md proto bat sh ,8
+Add linux build CI to readme,2018-04-26,Merged,2744,5,5,,0
+Update java worker,2018-04-26,Merged,2743,2,2,,2
+ReadyToRun output extremely noisy on CI builds.,2018-04-26,Merged,2741,4,3,,1
+Warn user if two apps are sharing the same secrets.,2018-04-26,Merged,2740,48,4,resx ,4
+Update Java Language Worker,2018-04-25,Merged,2738,2,2,,2
+Implementing Linux Container specialization,2018-04-26,Closed,2736,229,41,,8
+Read storage connection in host.json for DurableFunctions,2018-04-26,Merged,2735,92,23,cs ,3
+Initial set of assembly isolation and resolution changes,2018-04-26,Merged,2734,826,511,props json cs ,13
+using new proxy nugets for backend url fixes,2018-05-08,Merged,2732,92,6,csx json cs ,6
+Fixing IConfiguration environment variable caching,2018-04-25,Merged,2728,148,201,,8
+Addressing previous PR comments,2018-04-24,Merged,2724,101,102,,7
+Updating assignment test method name to match refactored test name,2018-04-23,Merged,2723,2,2,,1
+Implementation of the ArmAuthenticationHandler.,2018-04-23,Merged,2715,297,26,,19
+Updating webjobs nuget,2018-04-20,Merged,2711,41,41,config nuspec ,8
+[v2] Populate function name in metrics logs,2018-04-19,Merged,2709,13,11,,4
+Update check script.,2018-06-11,Merged,2708,18,2,,1
+Fixing disposal issue uncovered by the default tracewriter changes,2018-04-19,Merged,2707,1,16,,2
+"Removing file tracing from when creating the default, initial trace w…",2018-04-19,Merged,2702,2,9,,1
+Updating to the latest patch of Microsoft.Rest.ClientRuntime,2018-04-18,Merged,2701,10,10,config ,10
+Populate FunctionName in metrics logs,2018-04-18,Merged,2699,16,12,,5
+Consume proto file repo and add enableContentNegotiation,2018-04-26,Merged,2696,702,247,csproj bat sh cs ,7
+Bypassing request authorization level check on proxy requests,2018-04-18,Merged,2695,15,3,,1
+Performance Improvements to FileTraceWriter,2018-04-19,Merged,2693,176,95,csproj ,2
+Easy auth integration,2018-10-26,Merged,2684,244,7,json csx js cs csproj ,13
+"Revert ""Removing legacy pre-compiled (raw assembly with invoker) model""",2018-04-17,Merged,2683,264,3,,6
+Fixing building issue by replacing ambiguous -o argument with -OutputDirectory,2018-04-12,Merged,2675,1,1,,1
+Adding 1.0 runtime lock Paket lock file,2018-04-12,Merged,2674,401,0,,0
+ISO datetime strings unexpectedly change in out of proc Http responses,2018-04-17,Merged,2673,5,1,,2
+Handle null uri for test data on function create,2018-04-13,Merged,2671,25,8,,2
+Initial round of assembly resolution and loading improvements.,2018-04-12,Closed,2666,640,431,cs ,12
+Fixing warnings. Setting warnings as errors to keep things clean moving forward.,2018-04-11,Merged,2664,64,44,cs ,15
+Changing utility method that resolves the subscription ID to avoid reliance on the static settings manager instance. Changing tests to pass a scoped instance,2018-04-11,Merged,2661,21,16,,4
+disposing of old LoggerFactory after applying config,2018-05-23,Closed,2657,0,0,,0
+disposing of original LoggerFactory after recreation,2018-04-19,Merged,2655,2,0,,1
+Add InstanceController for instance management calls,2018-04-23,Merged,2654,704,27,,6
+Increase default grpc max message size,2018-04-24,Merged,2651,435,267,cs ,13
+Restrict languages if Function_Language app setting is specified,2018-04-17,Merged,2646,338,191,,8
+Timeoutfixv1,2018-04-11,Merged,2642,6,1,,2
+initializing ScriptHost before adding it to _liveInstances collection,2018-04-19,Merged,2639,6,6,,1
+Ensure that timeout config is pushed to SDK in Dynamic sku.,2018-04-11,Merged,2637,6,1,,2
+Removing legacy pre-compiled (raw assembly with invoker) model,2018-04-11,Merged,2634,3,264,,6
+adding DiagnosticLogger for Azure Monitor,2018-12-03,Closed,2630,525,37,,10
+Fully shutdown host on function timeout,2018-05-09,Merged,2622,3,2,,1
+adding DiagnosticTraceWriter,2019-03-20,Closed,2615,588,67,,8
+SeaBreeze Logging Support,2018-04-03,Merged,2613,258,15,,12
+Partial Host Startup support for transient startup failures (#2497),2018-03-30,Closed,2606,136,78,config nuspec cs ,8
+Allow configuration of full worker debug address string,2018-04-03,Merged,2604,27,16,,5
+Fix Invoke handler to raise exception on error,2018-04-10,Merged,2603,59,49,,3
+Updating WebHost packaging,2018-04-02,Merged,2601,3,3,csproj ,2
+Twilio V2 Test,2018-03-29,Merged,2600,49,44,json fsx cs ,6
+Fixing issues with ScriptSettingsManager reset when the configuration factory returned a cached configuration instance,2018-03-29,Merged,2599,39,1,,2
+Bring latest Extension repo to Host. Change needed for Proxies.,2018-03-27,Merged,2593,11,8,cs ,3
+Merging dev into master,2018-03-24,Merged,2582,"12,927","7,134",xml sln yml ,3
+Implement sync triggers in the runtime,2018-04-20,Merged,2581,448,17,,7
+Twilio E2E tests,2018-03-29,Closed,2579,118,50,cs csx ,15
+Add ClaimsPrincipal binding to Functions,2018-04-16,Closed,2577,775,507,json csx js ,5
+Adding nuget fallback folder config,2018-03-23,Merged,2576,56,14,cs ,8
+pausing after installing extension in tests,2018-03-22,Merged,2575,3,0,,1
+updating AppVeyor build,2018-03-22,Merged,2574,28,7,ps1 props ,3
+Re-enabling ServiceBus tests,2018-03-21,Merged,2572,341,155,cs json csx ,13
+Fix #2205 - make sure assembly resolution handler can't throw (V1),2018-03-30,Merged,2568,63,5,,2
+Fix #2205 - make sure assembly resolution handler can't throw (V2),2018-03-31,Closed,2567,58,5,,2
+re-enabling Event Hubs tests; moving extensions tests to their own classes,2018-03-20,Merged,2564,317,261,cs ,12
+Fix #2363 - make lease timeout range check more robust (V2),2018-03-29,Merged,2562,16,2,,2
+Fix #2363 - make lease timeout range check more robust (V1),2018-03-29,Merged,2561,17,2,,2
+enabling cosmosdb node tests,2018-03-20,Merged,2560,9,9,cs ,5
+re-enabling Samples e2e tests,2018-03-16,Merged,2544,213,371,json js cs ,8
+Fix validation error message when parsing function.json (v1),2018-03-19,Merged,2543,5,5,,2
+add feature to run in single language mode,2018-04-06,Closed,2540,233,59,,9
+adding first wave of e2e tests,2018-03-16,Merged,2539,"2,938","1,234",,5
+Fix validation error message when parsing function.json (V2),2018-03-16,Merged,2536,5,5,,2
+Better error message on PrimaryHostCoordinator (V1),2018-03-15,Merged,2535,1,1,,1
+Avoid potential NullRef on a race condition.,2018-03-15,Merged,2534,1,1,,1
+fixing two more flaky tests,2018-03-15,Merged,2533,9,7,,2
+Better error message on PrimaryHostCoordinator (V2),2018-03-15,Merged,2531,1,1,,1
+cherry-picking test fixes from v1.x,2018-03-15,Merged,2528,191,100,cs ,5
+removing test filter,2018-03-15,Closed,2527,1,3,,1
+Re-enabling HttpBinding tests,2018-03-14,Merged,2524,25,173,,1
+Debug mode fix (#2520),2018-03-14,Merged,2523,38,10,csproj ,3
+Extract functionInvocationId from the scopeProperties,2018-03-13,Merged,2522,22,4,,3
+Handler TraceWriter fix (#2519),2018-03-13,Merged,2521,9,23,,2
+Moving to latest extension packages,2018-03-12,Merged,2509,121,121,config nuspec ,6
+improving StandbyMode test,2018-03-12,Merged,2508,7,9,,1
+Enabling scenarios tests,2018-03-12,Merged,2505,90,73,,13
+Tests are failing with weird file does not exist issues,2018-03-14,Closed,2503,5,2,,1
+updating Web.config redirects; adding regression test,2018-03-12,Merged,2500,144,213,,5
+improving Update/RenameAndRestart tests,2018-03-10,Merged,2498,110,72,,3
+ScriptHost initialization refactor,2018-03-13,Merged,2496,434,317,,2
+removing php install from v2 build,2018-03-07,Merged,2493,1,9,,1
+improving GetHostSecrets test,2018-03-07,Merged,2492,16,13,,5
+"New columns: HostInstanceId, FunctionInvocationId",2018-03-12,Merged,2489,507,417,,5
+Adding crossgen build,2018-03-22,Merged,2487,142,21,cs csproj ,3
+adding more test logging,2018-03-06,Merged,2486,9,4,,1
+Debugging test on Appveyor!,2018-03-07,Closed,2485,9,37,,1
+Update Java worker to Java1.1.0-beta2-10014,2018-03-23,Closed,2480,2,2,,2
+Ensure host check and wait during initialization. Fixes #2397,2018-03-03,Merged,2478,111,12,,7
+enabling most of App Insights E2E tests,2018-03-08,Merged,2476,200,153,cs ,8
+update eventGrid version,2018-02-27,Closed,2469,9,9,config nuspec ,9
+"Add new columns: ScriptHostInstanceId, FunctionInvocationId. Populate ActivityId for Http requests",2018-02-28,Merged,2467,599,453,,7
+updating appveyor.yml with max_jobs:1,2018-02-26,Merged,2464,1,0,,1
+Concurrency improvements for FileTraceWriter,2018-02-27,Merged,2460,237,108,,6
+Update Java worker to Java1.1.0-beta2-10014,2018-02-28,Merged,2459,2,2,,2
+Resolves #2444 - detailed traces and metrics for host init,2018-02-23,Merged,2455,62,24,,3
+Improvements to log file metadata prefixing,2018-02-27,Merged,2454,111,32,csproj ,10
+Removing packable flag to allow for self-contained deployments,2018-02-23,Merged,2453,2,1,,1
+Include FunctionName in log file prefix when available,2018-02-23,Closed,2452,22,7,,2
+Skip file watching in ReadOnly mode,2018-02-23,Merged,2451,18,11,,2
+Updating to sdk's for release,2018-02-23,Merged,2450,139,139,config nuspec ,4
+Updating to sdk prerelease 11229,2018-02-22,Closed,2449,45,45,config nuspec ,8
+Resolves #2444 - detailed traces and metrics for host init,2018-02-23,Closed,2445,63,27,,3
+Fixing coldstart logging issues (#2186),2018-02-22,Merged,2443,79,29,,3
+update EventGrid extension version,2018-02-23,Closed,2438,17,17,config nuspec ,9
+Add Functions.Binaries package,2018-02-21,Merged,2431,3,0,,1
+Run-From-Zip readonly file mode checks (#2230),2018-02-15,Merged,2428,20,12,,3
+Fix typo and fail hard if there is an error,2018-02-16,Merged,2427,2,2,,1
+Move Proxies to .Net Standard 2.0 for Functions V2.,2018-04-01,Merged,2425,726,254,cs ,6
+Deleted and revoked creds,2018-02-14,Merged,2424,0,4,,1
+"Add columns - FunctionInvocationId, ScriptHostInstanceId and HostId",2018-02-13,Closed,2418,346,131,,5
+re-enabling SystemLogger tests,2018-02-14,Merged,2416,97,47,,7
+Fix for specialization (#2392),2018-03-13,Merged,2415,14,11,,5
+improving disposed ScriptEventManager behavior; handling exceptions from FileWatcherEventSource,2018-02-12,Merged,2413,38,3,,2
+adding more checks to a runaway test,2018-02-10,Merged,2411,19,8,,1
+catching and logging more exceptions in tests,2018-02-10,Merged,2410,8,2,,1
+more logging for flaky test,2018-02-09,Merged,2409,7,3,,1
+updating e2e tests,2018-02-13,Merged,2406,22,14,csx csproj config ,6
+Proxy causes an infinite loop when the redirected URI is a targeted f…,2018-02-16,Merged,2403,42,1,json ,4
+Coldstart request logging,2018-02-08,Merged,2399,63,5,,7
+Changing httpRuntime targetFramework to 4.6.2,2018-02-07,Merged,2395,6,1,,1
+Tactical fix for specialization issue #2393,2018-02-07,Merged,2394,10,0,,3
+Fixing precompiled function discovery bug,2018-12-03,Closed,2389,128,84,config nuspec cs ,8
+move pragma warning disable logic to generate_protos script,2018-02-05,Merged,2384,43,13,bat sh ,3
+improving flaky test logging,2018-02-05,Merged,2380,32,13,,7
+add multipart support,2018-02-05,Merged,2379,6,4,,2
+change originalUrl to match v1.x format,2018-02-05,Merged,2378,9,3,js ,3
+Adding docker files,2018-02-27,Closed,2376,122,0,0/runtime/nanoserver-1709/amd64/Dockerfile 0/runtime/stretch/amd64/Dockerfile 0/runtime/stretch/arm32v7/Dockerfile ,4
+Updating httpRuntime target framework to 4.7.1,2018-02-01,Merged,2375,2,2,,1
+Increase querystring and url limits take 2,2018-02-01,Merged,2374,1,1,,1
+test improvements,2018-02-02,Merged,2370,171,122,cs ,10
+fixing appveyor.yml,2018-01-30,Merged,2369,1,2,,1
+upating appveyor.yml to support scheduled builds,2018-01-30,Merged,2368,6,0,,1
+Adding KeyConotroller integration tests,2018-03-20,Closed,2361,30,69,,20
+Updating EventGrid package reference,2018-01-26,Merged,2359,12,10,config nuspec ,9
+update eventGrid extension version,2018-01-26,Closed,2358,8,8,config ,8
+Unable to create keys with values for v2 runtime Functions. Fixes #2185,2018-01-26,Merged,2357,2,2,,1
+updating all WebJobs nugets,2018-01-25,Merged,2356,130,130,config nuspec ,4
+Disabling ASP.NET version header,2018-01-25,Merged,2355,1,1,,1
+Adding missing binding redirects to Web Host,2018-01-25,Merged,2354,12,0,,2
+adding aka.ms link for threshold errors,2018-02-02,Merged,2350,3,3,,2
+Disposal exception handling,2018-01-24,Closed,2348,26,29,,3
+"Revert ""Chance of getting 409 while renewing the primary host lock. F…",2018-01-23,Merged,2347,5,45,,2
+Ensure host started up on specialization timer,2018-01-23,Closed,2346,38,32,,9
+[WIP] Adds config driven language worker support,2018-01-31,Merged,2345,334,15,json ,11
+Rolling back to previous version of XUnit test runner,2018-01-23,Closed,2343,81,61,config ,4
+adding TraceLevel to file logs,2018-01-31,Closed,2342,0,0,,0
+adding aka.ms link for threshold errors,2018-01-24,Merged,2341,3,3,,2
+Update max querystring length,2018-01-23,Merged,2336,14,1,cs ,2
+Enable AdminController Tests. Fixes #2267,2018-02-07,Merged,2330,13,15,,1
+Switch from singleton to new ScriptSecretsManager,2018-01-18,Merged,2325,1,1,,1
+Fix warning messages,2018-01-18,Merged,2323,31,14,cs ,10
+Fixing Node memory leak (#2313),2018-01-17,Merged,2320,98,79,js ,2
+Add check for latest Visual Studio,2018-01-19,Merged,2314,13,0,,1
+[CosmosDB] Adding new Trigger attributes,2018-03-06,Merged,2306,44,36,config nuspec cs ,8
+Adds log warnrings for explicitly set host id in host.json,2018-01-12,Merged,2304,46,0,,2
+Adds contributor guide,2018-01-12,Merged,2303,102,0,,0
+Enable KeysController tests. Fixes #2268,2018-01-22,Merged,2293,29,19,,1
+Moves and removes previously disabled tests,2018-01-13,Merged,2292,65,310,,4
+Added WEBSITE_HOSTNAME to enable local http handlers from extensions,2018-02-02,Merged,2285,8,0,0/runtime/nanoserver-1709/amd64/Dockerfile 0/runtime/stretch/amd64/Dockerfile 0/runtime/stretch/arm32v7/Dockerfile ,4
+Enable service bus binding provider tests. Fixes #2265,2018-01-10,Closed,2284,61,6,csproj ,2
+Reenable FunctionInvokerBaseTests,2018-01-09,Merged,2282,50,88,projitems ,4
+Adding extensions metadata generator code to repo,2018-01-08,Merged,2281,574,0,cs csproj pubxml ,9
+Fix secrets snapshot test,2018-01-04,Merged,2278,6,2,,1
+Merge secrets related changes from V1,2018-01-04,Merged,2277,552,29,cs resx ,9
+updating WebJobs nugets,2018-01-05,Merged,2276,132,132,config nuspec ,4
+[ci skip] Add CodeTriage badge,2018-08-28,Closed,2274,3,1,,0
+Upgrading target framework to 4.7.1,2018-01-18,Merged,2254,"1,602","2,438",ps1 csproj config ,5
+Port timeout fix,2017-12-21,Merged,2245,29,18,cs ,5
+"Improvements to FunctionLogs and Sanitize method.  Addresses issues #2199, #2206, 2197 in V1",2017-12-20,Merged,2239,119,51,,5
+Fix Sanitize method,2017-12-20,Merged,2233,18,3,,2
+Ensure Default TraceWriter (#2186),2017-12-14,Merged,2228,108,3,,5
+Allow script to run off a SAS container,2017-12-18,Closed,2227,5,0,,2
+Add a background specialization monitor (#2201),2017-12-14,Closed,2225,96,82,,4
+Apply FunctionDescriptor to route DataTokens,2017-12-13,Merged,2222,159,93,cs csproj config ,12
+Fix timeout for direct load,2017-12-19,Merged,2221,57,41,config nuspec cs ,9
+Fix issue RemoveWorker to handle 304 and worker running after being unassigned,2017-12-14,Closed,2220,24,13,,5
+New exception columns,2017-12-15,Merged,2219,89,14,,4
+More detailed error message in test.,2017-12-14,Merged,2218,20,5,,1
+Update required Node version to 8.4.0,2017-12-12,Merged,2216,10,10,,1
+(2) Chance of getting 409 while renewing the primary host lock.,2018-01-11,Closed,2215,19,2,,3
+Private ref warning,2017-12-13,Merged,2214,166,7,cs csproj ,8
+Update to latest nuget packages,2017-12-14,Merged,2213,10,10,,2
+Add source and site instance information to secret files. Fixes #2094,2017-12-15,Merged,2207,50,11,,5
+Several proxy fixes as described in:,2017-12-14,Merged,2204,101,110,cs csproj config json ,11
+Chance of getting 409 while renewing the primary host lock.Fixes  #1864,2018-01-12,Merged,2202,45,5,,2
+removing internal usage of tracewriter,2017-12-19,Merged,2182,"1,653","2,904",cs ,8
+Improve resilience of secret file management. Fixes #2093,2018-01-03,Merged,2176,169,3,,2
+Fixing error message spelling error. Minor formatting fixes,2017-11-29,Merged,2172,8,8,,1
+"If a key is undecryptable, rename it, log it, regnerate it.",2018-01-03,Merged,2171,350,16,cs resx csproj ,12
+Updating SDK/Extensions and other dependencies. Revving version to beta2,2017-11-29,Merged,2168,34,39,csproj ,7
+HostHealthMonitor improvements / reactivation,2017-12-05,Merged,2156,763,366,cs ,6
+Chance of getting 409 while renewing the primary host lock. Fixes #1864,2017-11-22,Closed,2150,35,33,,1
+Enabling source link support,2017-11-22,Merged,2149,24,0,,1
+Host state tracking improvements,2017-11-20,Merged,2147,102,62,config nuspec cs ,10
+Adding special scale out header to 429 responses,2017-11-20,Closed,2142,7,1,,3
+Fixes to test run script,2017-11-17,Merged,2141,17,15,,1
+Fixing the host check timeout and middleware registration order,2017-11-18,Merged,2140,4,2,,2
+Loosen host running status check (#2114),2017-11-16,Merged,2137,64,33,csproj ,8
+"adding host.json schema for logger, aggregator, and applicationInsights",2017-11-15,Merged,2134,67,0,,1
+"Refactoring function execution flow, ensuring that disabled functions can only be invoked with admin credentials",2017-11-15,Merged,2132,169,91,,5
+Decreasing log level for some important logs,2017-11-15,Closed,2131,12,12,,3
+Changing configuration setup order so environment variables take precedence over app settings,2017-11-14,Merged,2123,2,2,,1
+join messages and adjust indexes for test,2017-11-16,Merged,2119,7,7,,1
+Proxy fixes for CRIs,2017-11-13,Merged,2118,274,189,config csproj cs json ,10
+synchronize sciptHostManager's run and stop,2017-11-08,Closed,2110,14,2,,4
+Isolation for placeholder mode files,2017-11-08,Closed,2109,0,0,,0
+lowering DefaultConnectionLimit,2017-11-07,Merged,2108,1,1,,1
+Update Microsoft.Azure.Functions.JavaWorker to 1.1.0-beta2-10009,2017-11-07,Merged,2107,2,2,,2
+lowering DefaultConnectionLimit,2017-11-07,Merged,2106,1,1,,1
+EventHubScriptBindingProvider should set the connection on the attribute,2017-11-13,Merged,2103,47,53,config nuspec cs ,8
+including RuntimeIdentifier when building extensions,2017-11-03,Merged,2101,32,4,,1
+Better handling of unknown bindings,2017-11-03,Merged,2097,27,4,,2
+"Fix byte array logic, content-type, and add tests",2017-11-16,Merged,2092,114,8,,4
+Support WEBSITE_AUTH_ENCRYPTION_KEY and fix SA warning,2017-11-15,Closed,2087,58,33,cs ,17
+Fix/content type raw response,2017-10-31,Merged,2080,30,4,,2
+Ensure console host dependencies are copied to output,2017-10-31,Merged,2079,1,0,,1
+expanding sanitizer; adding test,2017-10-30,Merged,2078,75,1,,2
+Sanitizing system logs,2017-10-30,Merged,2075,192,24,,8
+Updating proxy e2e tests,2017-10-25,Merged,2071,4,4,cs ,2
+Sanitizing system logs,2017-10-27,Merged,2068,131,29,csproj ,10
+Host specialization improvements,2017-10-25,Merged,2065,17,3,resx ,4
+Adds rawBody support to Node.js,2017-11-29,Closed,2064,43,20,cs csproj js ,7
+Integrate host health monitoring in startup path (#1999),2017-10-26,Closed,2063,218,147,csproj ,12
+Code cleanup and updating stylecop settings,2017-10-24,Merged,2061,169,145,csproj ,24
+Latest runtime updates break catch all proxy routes when pointing to …,2017-10-24,Merged,2060,182,13,json csx csproj ,8
+Disposal improvements for ScriptHost,2017-10-23,Closed,2058,133,78,,9
+Fixing race condition in host restart,2017-10-23,Merged,2051,14,5,,3
+Enable passing return values from non-C# functions.,2017-11-20,Merged,2049,72,14,cs ,5
+Adding Proxy binaries to Function's runtime,2017-10-31,Merged,2045,113,64,config nuspec cs ,15
+"Added ""worker"" to config resolution",2017-10-19,Merged,2043,88,1,projitems ,5
+Updating target framework for all projects and adding missing binding redirects,2017-10-19,Merged,2042,"2,005",445,proj sln yml cmd ps1 csproj ,8
+Remove IsDisabled and IsExcluded support in function.json,2017-11-22,Merged,2040,17,545,json fsx js ,12
+Updating project targets and binding redirects,2017-10-17,Closed,2039,"1,603",425,sln cmd csproj config ,5
+more LoggerFactory disposal improvements,2017-10-25,Merged,2035,28,4,,3
+Create a new host for the standalone runtime which has no dependency on Azure Storage,2017-10-23,Closed,2034,762,5,config cs json ,5
+Proxy names should follow the same naming restrictions as functions,2017-10-17,Merged,2033,85,22,,2
+Updating build configuration to build the v1.x branch,2017-10-13,Merged,2030,1,3,,1
+Adding build badge for v1.x branch,2017-10-13,Merged,2029,1,0,,0
+Updated extensions WebHook route to match admin controller.,2017-10-13,Merged,2028,1,1,,1
+Proxy names should follow the same naming restrictions as functions,2017-10-13,Merged,2025,85,22,,2
+Enhance tracing on file change path. Fixes #1898,2017-10-09,Merged,2008,26,21,,1
+Log value of FUNCTIONS_EXTENSION_VERSION on host start. Fixes #1835,2017-10-09,Merged,2007,5,3,,3
+Add function management APIs to the runtime,2018-03-14,Merged,2005,"2,178",87,,6
+Migrating from project.json to MSBuild model for CSX based package references,2017-10-07,Merged,2002,"1,913","2,330",csx json cs ,7
+Proxy E2E test fix,2017-10-06,Merged,2001,4,1,,1
+Apply default source only when not specified,2017-10-06,Merged,2000,29,1,,3
+Adding error handling for host/log endpoint,2017-10-05,Closed,1998,29,0,,2
+Adding Proxy E2E tests,2017-10-05,Merged,1997,149,0,cs csproj ,3
+Change runtime encryption to not use MachineKey.Protect,2017-10-05,Merged,1994,132,26,cs csproj ,8
+Making ICompilation 'Emit' path async,2017-10-03,Merged,1989,44,33,,15
+"Reorganized rpc, added comments",2017-10-02,Merged,1985,253,216,,12
+Always upload appveyor artifacts,2017-09-29,Merged,1984,5,5,,1
+Fixing path issues,2017-09-29,Merged,1982,11,11,,5
+Update maxUrlLength and allow url double escaping for Functions,2017-09-29,Merged,1980,2,2,,1
+Fix POCO array support,2017-09-29,Merged,1978,2,2,,1
+"Deleting unused samples, fixing tests",2017-09-29,Merged,1977,6,515,json bat psm1 psd1 ,10
+Improve binding error message,2017-09-29,Merged,1976,9,2,,1
+Revving SDK and Extension packages,2017-09-29,Merged,1975,139,139,config nuspec ,4
+"More PR feedback, general code and tests cleanup",2017-09-29,Merged,1974,147,"1,532",,15
+Fixing host specialization tracing,2017-09-28,Merged,1970,64,12,resx ,4
+Reverting F# Core update,2017-09-28,Merged,1965,22,20,csproj nuspec ,12
+PR Feedback. Test and general code cleanup,2017-09-28,Merged,1963,197,"3,306",json csx cs resx ,12
+Update to latest version of ProxyShim,2017-09-27,Merged,1962,8,12,config ,8
+Resolve #1867,2017-09-28,Merged,1960,12,3,,1
+"Changed WorkerConfig interface, improved java config",2017-09-29,Merged,1958,564,246,csproj ,13
+Do not send any content if root is pinged by scale controller,2017-09-27,Merged,1957,17,1,,2
+Test fixes,2017-09-25,Merged,1948,31,34,props cs csproj ,8
+Enable custom response headers in core,2017-09-25,Merged,1947,155,61,,5
+Update node to 1.0.0-beta1-10013,2017-09-23,Merged,1943,2,2,,2
+hacking in IConfiguration for debug opts,2017-09-23,Merged,1941,59,25,,4
+Added process registry based on platform,2017-09-23,Merged,1940,216,7,,6
+Proxy library is broken when route is to the root function app,2017-09-22,Merged,1938,30,48,csproj ,6
+Update java 1.1.0-beta1-20170921,2017-09-21,Merged,1937,2,2,,2
+Fixing HTTP response handling. Fixing response when result is not set,2017-09-21,Merged,1936,9,6,,3
+Updating F# compiler service,2017-09-29,Closed,1933,22,26,cs csproj config ,5
+"Http fix after for return value, updated java worker",2017-09-21,Merged,1930,14,7,cs csproj ,4
+Special casing consumption plan apps when setting package cache location on extension installation,2017-09-20,Merged,1929,16,13,,2
+Have Script use SDK's return value support.,2017-09-19,Merged,1926,217,209,,7
+Setting package cache location when installing extensions,2017-09-19,Merged,1925,7,0,,1
+.NET Core migration,2017-10-12,Merged,1923,"10,048","22,109",config playlist ,4
+Changes to startup service registrations,2017-09-18,Merged,1920,16,15,,2
+Add app insights logging to e2e test run,2017-09-19,Merged,1919,16,7,csproj ,2
+Fixing Application Insights tests,2017-09-17,Merged,1918,271,116,cs ,2
+Fix appveyor parsing issue,2017-09-17,Merged,1917,10,7,,1
+Add yml file to 1.x,2017-09-17,Merged,1916,35,0,,1
+Clean up yml install,2017-09-17,Merged,1915,11,29,cmd ,2
+update node 10012,2017-09-17,Merged,1914,8,2,,2
+Merging appropriate commits from `dev` to bring `core` current,2017-09-17,Merged,1913,148,35,cs ,11
+Fixing extensions JSON schema,2017-09-19,Closed,1912,"8,174","11,745",config proj sln yml ps1 targets props json csx jar ,18
+Fix null ref issue in StandbyManager,2017-09-15,Closed,1911,21,24,,3
+updating nugets to pull AppInsights fix,2017-09-15,Merged,1910,130,130,config nuspec ,4
+Fixing site extension name,2017-09-15,Merged,1909,2,2,,1
+Build packaging and enhancements,2017-09-15,Merged,1906,96,16,yml ps1 props cs csproj xdt xml ruleset ,12
+Porting extension authentication functionality,2017-09-15,Merged,1905,206,75,,7
+Suppress host restart for hostingstart.html,2017-09-14,Merged,1902,10,0,,1
+Updates to extension processing,2017-09-13,Merged,1901,9,7,cs ,3
+Update to latest Proxy.Client.Contract version,2017-09-13,Merged,1900,22,42,config cs ,10
+Update to latest Proxy.Client.Contract version,2017-09-13,Closed,1899,18,18,config ,8
+Updating FSharp.Core packages,2017-09-13,Merged,1897,35,35,csproj nuspec ,13
+Setting metering keyword to ensure ETW events are correctly emmitted,2017-09-12,Merged,1896,8,3,,1
+Ignore generated grpc code for core->dev checkout,2017-09-12,Merged,1895,3,0,,1
+Revert host restart on worker errors,2017-09-12,Merged,1894,29,55,,5
+dispose ILoggerFactory in ScriptHost,2017-09-13,Merged,1892,26,11,json ,3
+Remove lock for event errors,2017-09-12,Merged,1890,5,12,,1
+Updating Roslyn package references,2017-09-12,Merged,1889,54,34,nuspec csproj ,12
+Add feature flag for dynamic extension loading (#1878),2017-09-12,Merged,1888,319,256,,4
+Fixing HTTP route data binding,2017-09-11,Merged,1887,7,0,,1
+Have Script use SDK's return value support.,2017-10-05,Closed,1884,211,193,,7
+Fix clean for switching between core & 2.x,2017-09-08,Merged,1883,16,0,shproj targets ,10
+Standby mode updates,2017-09-12,Merged,1882,361,178,json csx csproj ,10
+Enabling authentication/authorization on function invocation,2017-09-08,Merged,1881,284,12,,12
+Simple script for checking dependencies,2017-09-08,Merged,1880,52,0,,1
+Strip expando functions,2017-10-21,Closed,1879,96,3,,2
+Setting ScriptHostManager state before ScriptHost disposal,2017-09-08,Merged,1876,3,0,,1
+Read APPSETTTING_JAVA_HOME before JAVA_HOME,2017-09-07,Closed,1875,6,3,cs ,2
+Fixing duplicate compilation logs (#1866),2017-09-06,Merged,1869,15,2,,2
+Update node to 6.11.2 (edge 6.11.3),2017-09-06,Merged,1868,12,10,nuspec csproj config cs ,5
+Referencing NetStandard.Library 2.0. Adjusting System.Net.Http redirects,2017-09-08,Merged,1863,26,18,csproj ,9
+Misc Out of proc work,2017-09-06,Merged,1860,134,"1,117",cs csproj ,7
+Add supports to load java_opts while starting jvm and resolve path issue,2017-09-02,Merged,1856,5,3,json ,2
+Fix for #1849,2017-08-30,Merged,1850,17,11,,2
+Enabling TransferRequestHandler for all request,2017-09-12,Merged,1848,1,1,,1
+removing duplicate Exception logging in ILogger,2017-08-30,Merged,1842,5,11,,2
+Enable test,2017-08-29,Merged,1841,1,2,,1
+Initial checkin for using Function Executor to call local functions,2017-10-05,Closed,1839,0,0,,0
+Change calls to Assembly.GetName() to use AssemblyNameCache,2017-08-26,Merged,1833,5,3,,3
+expose ILoggerFactoryBuilder to WebHostSettings; adding app insights http tests,2017-08-28,Merged,1831,507,190,json csx ,12
+updating all WebJobs nugets,2017-08-24,Merged,1828,130,130,config nuspec ,4
+Mapping the new attributes for Cosmos DB trigger,2017-08-24,Merged,1826,23,21,config nuspec cs ,12
+Fixing logging regression,2017-08-23,Merged,1823,17,11,,2
+Updating to latest data protection helper package,2017-08-22,Merged,1821,12,9,config ,6
+updating App Insights to 2.4 (and all other WebJobs packages),2017-08-22,Merged,1820,250,250,csproj nuspec ,4
+Metadata rename,2017-08-22,Merged,1818,5,5,,1
+Add configSource to function.json,2017-08-22,Merged,1817,4,0,,1
+Some test commit,2017-08-22,Closed,1816,1,0,,0
+Allow launching the nodejs worker with inspector,2017-08-22,Merged,1811,9,1,,3
+Merge branch 'master' into dev,2017-08-18,Merged,1809,48,36,config nuspec cs ,10
+disposing of test host,2017-08-18,Merged,1808,1,1,,1
+Setting AppVeyor tests to properly report failure,2017-08-18,Merged,1807,17,0,,1
+Port of hotfix from master.,2017-08-21,Closed,1804,6,0,,1
+Handle empty Dashboard connection string (#1799),2017-08-17,Merged,1803,25,23,cs csx ,6
+fixing BeginScope to support structured log payload,2017-08-21,Merged,1801,203,86,projitems ,5
+Updating some package versions,2017-08-15,Merged,1791,43,42,config nuspec ,6
+Tests also needs a reference to the event grid nuget package.,2017-08-15,Merged,1790,5,0,csproj config ,3
+Fix test,2017-08-15,Closed,1789,35,25,config nuspec cs ,13
+Two changes for hotfix,2017-08-15,Merged,1788,24,25,config nuspec cs ,12
+Fixing bug in method discovery,2017-08-14,Merged,1786,1,1,,1
+[Hotifx] Need to disable lazy loading by default,2017-08-15,Merged,1785,6,0,,1
+Out-of-proc host (Ready for review),2017-08-28,Merged,1784,"2,058",76,sln gitignore cs ,7
+Changes to support mac/linux,2017-08-15,Closed,1778,"2,731",201,cs csproj sln json gitignore proto ,7
+adding `cosmosDBTrigger` to the list of builtin providers,2017-08-11,Merged,1777,179,101,csproj ,9
+Update edge.js to 6.11.2,2017-08-11,Merged,1773,10,10,csproj config cs ,4
+Out of proc host,2017-08-10,Closed,1771,"3,150",201,csproj proj sln json gitignore proto ,8
+incorporationg new 'LogMetric' extension,2017-08-17,Merged,1769,458,528,config nuspec ,4
+Removing duplicate extensibility files,2017-08-10,Merged,1763,0,911,,5
+Adding missing assemblies to white list,2017-08-09,Merged,1760,3,1,,1
+Updated the error message when using a TimeSpan string,2017-08-31,Closed,1750,3,3,,2
+Gibraltarinfunctions,2017-08-18,Merged,1749,615,41,cs config ,14
+EasyAuth Support,2017-09-12,Closed,1747,464,69,bat json csx js cs ,17
+Still emit metrics even if there's no dashboard conneciton string,2017-08-02,Merged,1746,16,14,,2
+Updating web host package references,2017-08-01,Merged,1740,19,17,config ,2
+Improve error message for configurationSource. Fixes #1738,2017-09-07,Merged,1739,1,1,,1
+Updating eventing extension reference. Consolidating other extension references,2017-08-01,Merged,1737,110,104,config nuspec ,5
+Load binding extensions with direct load.,2017-07-31,Merged,1736,111,9,csproj ,4
+Test fixes,2017-07-29,Merged,1735,115,67,,3
+Give error on deleted Function.json,2017-07-29,Merged,1734,5,0,,1
+Updating WebJobs SDK and extension references,2017-07-29,Merged,1733,105,103,config nuspec ,4
+Adding eventing binding extension,2017-07-29,Merged,1730,17,1,config nuspec cs ,8
+Disabling automatic binding redirect generation.,2017-07-29,Closed,1728,4,0,,4
+Add test for web.config.,2017-07-28,Merged,1727,58,0,csproj ,2
+Additional binding redirect fixes,2017-07-28,Merged,1726,3,3,,3
+Isolating E2E test runs,2017-07-28,Merged,1725,35,1,cs ,13
+Streaming logs and diagnostic events,2017-07-29,Merged,1723,295,19,csproj ,12
+re-enabling ListenerError test with additional check,2017-07-27,Merged,1721,10,4,,2
+Script functions' input binding not writing to file,2017-09-07,Closed,1719,8,0,,1
+Allow direct Load webjobs dll,2017-07-28,Merged,1717,352,26,,5
+[Do not review; Testing AppVeyor] adding logging to failing test,2017-07-27,Closed,1713,10,4,,2
+Remove ScriptExtensibility project.,2017-07-26,Merged,1712,387,46,csproj config cs ,9
+Missing String case for extension binding marshaller.,2017-07-26,Merged,1710,10,0,,2
+Remove CreateUserTraceWriter from invoker path.,2017-07-26,Merged,1708,137,31,csproj ,11
+Call function with 'this' parameter if appropriate,2017-08-22,Closed,1707,26,0,,2
+Use new JobHost.CallAsync(string) overload.,2017-07-25,Merged,1706,50,56,config nuspec cs ,10
+[WIP][.Net Core] Out of proc host,2017-08-11,Closed,1703,"4,768","38,883",config proj ,4
+rename to bindingMetadatas to avoid confusion,2017-08-22,Closed,1696,5,5,,1
+Update to pull in latest Http nuget that supports return value bindings,2017-07-25,Merged,1694,35,24,csproj config cs ,12
+Fix flaky  ApplicationInsightsCSharpEndToEndTests  test.,2017-07-20,Merged,1692,18,4,,1
+Set minthreads on webhost start,2017-07-21,Merged,1688,21,0,,1
+Removing unnecessary app settings reinitialization,2017-07-19,Merged,1687,0,19,,1
+Fixing property name typo,2017-07-19,Merged,1686,31,1,,2
+Update SDK nuget packages to 2.10917,2017-07-19,Merged,1678,70,57,config nuspec ,10
+CosmosDB Trigger support,2017-07-28,Merged,1677,312,75,json csx config csproj nuspec ,9
+Updated WebJobs.Script nuspec dependencies,2017-07-12,Merged,1671,33,18,,1
+including ILogger logs in custom binding setup,2017-07-24,Merged,1670,72,69,,6
+Metric events should including time in binding,2017-07-21,Merged,1660,408,248,config nuspec cs ,10
+Authentication model for Extension WebHooks,2017-07-29,Merged,1659,243,152,csproj ,10
+Removing F# from warmup path,2017-07-05,Merged,1653,7,29,fsx csproj cs ,6
+Lazy load binding dlls,2017-07-26,Merged,1646,148,33,,2
+logging to ILogger on config error,2017-07-11,Merged,1645,79,3,json csproj ,4
+setting a DefaultConnectionLimit in dynamic sku,2017-06-29,Merged,1628,9,1,,3
+Additional tracing and retries on compiler errors,2017-06-30,Merged,1617,132,3,csproj ,7
+Decouple Script from Storage,2017-07-13,Merged,1615,483,565,config nuspec ,5
+Moving SecretsRepositoryTests to integration tests project,2017-06-22,Merged,1614,2,2,csproj ,3
+Use specific purpose when using machine key to avoid derived key caching on FE,2017-06-21,Merged,1613,4,2,,1
+Update issue template,2017-06-27,Merged,1592,68,4,,0
+updating all WebJobs nugets; absorbing changes,2017-06-07,Merged,1583,171,141,config nuspec ,7
+Fix for proper script invocation by path,2017-10-24,Closed,1580,4,21,,2
+Fix Http trigger disposal issue (#1537),2017-06-07,Closed,1575,120,146,csproj ,8
+ensuring Loggers are set up after host.json is parsed,2017-06-09,Merged,1573,286,33,csproj ,6
+Add data type and cardinality to function.json schema,2017-06-06,Merged,1572,8,0,,1
+Adding Admin host log endpoint (#1519),2017-06-02,Merged,1565,208,10,csproj ,6
+Fixing extension packaging in build project,2017-05-30,Merged,1553,5,3,,1
+WebJobs.FabricHost + Service,2017-06-08,Closed,1552,"5,400",114,sln xml ,13
+Moving AppVeyor tests command to a script,2017-05-27,Merged,1550,3,0,,1
+Initial ScaleManager implementation,2017-06-05,Merged,1549,"4,713",3,proj sln cmd cs ,6
+Fixing issue with project.json file name comparison,2017-05-26,Merged,1548,1,1,,1
+Moving to latest SDK version,2017-05-26,Merged,1547,140,140,config nuspec ,5
+First Application Insights E2E test,2017-06-09,Merged,1545,488,22,config ,13
+Changing NuGet client resolution and adding to runtime on build,2017-05-26,Merged,1542,36,46,cs ,3
+Logging host configuration on initialization,2017-05-26,Merged,1538,32,26,,2
+Small change to avoid log duplication when handling assembly changes,2017-05-26,Merged,1536,15,10,,1
+adding a test for HttpTriggers and disposed hosts,2017-05-25,Merged,1535,220,80,csproj ,7
+Fixing TypeScript compilation output path issue (#1520),2017-05-24,Merged,1532,328,145,,5
+Update Nuget for Bot and SDK.,2017-05-26,Closed,1531,69,132,csproj nuproj nuspec config ,10
+Add batchCheckpointFrequency to event hubs,2017-06-05,Merged,1530,18,0,cs ,3
+Fixing ILoggerFactory resolution,2017-05-22,Closed,1526,28,29,cs ,4
+Some minor refactorings,2017-05-19,Closed,1522,37,39,,5
+Moving to latest SDK package version,2017-05-18,Merged,1518,52,52,csproj config ,10
+adding e2e tests for ServiceBus connection exhaustion,2017-05-18,Merged,1517,151,5,json js csproj config ,7
+Fixing up binding redirects,2017-05-17,Merged,1516,2,2,,1
+Fixing issue with incorrectly scoped stopwatch,2017-05-16,Merged,1515,64,21,,2
+Support + tests for optional http string route params,2017-05-16,Merged,1511,105,80,js nuspec csproj config ,12
+Nested object binding support + test for Node.js HTTP functions,2017-05-13,Merged,1506,122,102,csproj config nuspec ,8
+Increasing maximum function timeout,2017-05-11,Merged,1502,4,4,,2
+Moving to latest SDK versions + adding HTTP binding tests,2017-05-11,Merged,1498,346,166,nuspec csproj config ,8
+"if type is bool, return its value",2017-05-11,Merged,1494,2,2,,1
+Modifying TestHelper to avoid timeouts when debugging,2017-05-05,Merged,1493,1,1,,1
+implementing IDisposable for various TraceWriters,2017-05-05,Closed,1492,0,0,,0
+IsAuth disabled fix (#1487),2017-05-05,Merged,1491,94,54,csproj ,6
+Consolidating file watchers,2017-05-11,Merged,1490,235,35,csproj ,13
+Implementing internal eventing support,2017-05-10,Merged,1489,377,67,nuspec cs ,13
+Updating to latest version of Bot extension,2017-05-05,Merged,1488,30,36,config nuspec cs ,11
+Merging and updating web.config redirects,2017-05-04,Merged,1485,32,0,,1
+Updating web.config to ensure we force redirects to runtime WebJobs assemblies,2017-05-04,Merged,1484,34,2,,1
+Ensuring original dictionary is not modified when returning master key,2017-05-04,Merged,1480,4,1,,1
+Exposing key resource APIs to retrieve individual keys,2017-05-04,Merged,1478,180,8,csproj ,6
+updating nuget packages,2017-05-03,Merged,1475,222,288,csproj config ,6
+Removed flaky promiseAfterDone test,2017-05-02,Merged,1473,0,35,js ,2
+Setting FunctionDirectory and FunctionName on context. Refactoring directory resolution,2017-05-01,Merged,1472,238,99,csproj ,13
+IsAuthDisabled refactoring,2017-05-02,Closed,1471,47,23,,8
+Set IsAuthDisabled to false in ControllerScenarioTestFixture,2017-05-01,Merged,1468,1,1,,1
+Setting function name and directory name on ExecutionContext,2017-05-01,Closed,1464,234,97,csproj ,14
+Honor IsAuthDisabled flag in HostStatus GET function.,2017-05-01,Merged,1463,75,2,csproj ,5
+Script directory fix,2017-05-01,Closed,1462,71,80,,9
+Tweaking flaky test,2017-04-27,Merged,1460,16,15,,1
+Fixing function signature type resolution,2017-04-26,Merged,1459,117,18,resx ,8
+Update nugets,2017-04-26,Merged,1458,137,200,csproj config ,6
+Removed usage of WriteEvent object[] overload,2017-05-01,Merged,1457,178,2,csproj ,2
+Adding invocation log E2E test,2017-04-25,Merged,1455,109,0,json csx csproj ,6
+Capture node stderr and stdout,2017-05-22,Closed,1453,192,31,csproj js ,14
+Bump minimum VS Version for C#7,2017-04-24,Merged,1450,3,3,,1
+adding FileLogger E2E tests; caching in FunctionTraceWriterFactory,2017-05-26,Merged,1449,438,331,,11
+Fixing Host ID initialization (ensuring it is set when FastLogger is created),2017-04-24,Merged,1448,123,73,csproj ,7
+application insights implementation,2017-04-21,Merged,1444,"1,391",253,config cs ,10
+updating webjobs nugets,2017-04-21,Merged,1438,957,167,csproj config ,5
+updating app.configs to remove build warnings,2017-04-20,Merged,1437,4,12,,2
+app insights,2017-04-21,Closed,1436,"1,851",363,csproj config ,5
+Implementing JavaScript compiler (transpiler) and TypeScript support,2017-04-25,Merged,1435,"1,214",150,xml sln json ts cs ,20
+Consuming new Http binding package,2017-04-20,Merged,1434,167,"1,655",config csproj nuspec ,17
+Http binding refactor (stage 1),2017-04-19,Merged,1433,358,355,config cs ,13
+Removing blocking code on NodeFunctionInvoker async path,2017-04-20,Merged,1432,15,14,,2
+Fixing issue with host ID trailing dash removal,2017-04-18,Merged,1430,11,12,,2
+Fixing function.json schema,2017-04-13,Merged,1405,17,17,,1
+Adding FunctionExecutionContext to extensibility,2017-04-13,Merged,1404,17,0,csproj ,2
+Flow request auth header in as binding data.,2017-04-18,Closed,1402,31,12,,3
+Update SDK and Extension nugets,2017-04-13,Merged,1399,168,133,csproj config ,7
+Adding a trace source to events emmited by the HTTP trace handler,2017-04-10,Merged,1395,25,4,,3
+Fix clean build from VS,2017-04-08,Merged,1392,5,0,,1
+Exposing unique slot name and changing host ID and metrics to use the new setting,2017-04-07,Merged,1391,70,8,csproj ,10
+Using alternate setting for blob key storage location,2017-04-10,Merged,1388,8,4,,2
+Tweaking Local mode HostId generation,2017-04-06,Merged,1385,15,14,,3
+updating docdb schema,2017-04-06,Merged,1382,4,0,,1
+Updated bot nuget,2017-04-06,Merged,1381,128,124,config nuspec cs ,8
+"Simplifying node initialization, avoiding locks and removing sync paths",2017-04-07,Merged,1380,59,35,csproj ,5
+Adding HostId defaulting for self host scenarios (#1297),2017-04-06,Merged,1378,106,31,cs ,10
+Simplifying trace source for error processing handler,2017-04-06,Merged,1377,1,4,,1
+"Upgrading StyleCop to Analyzer version, fixing some style issues",2017-04-06,Merged,1375,671,836,csproj ,2
+improving logging for FastLogger errors,2017-04-05,Merged,1374,105,46,csproj config cs ,12
+Adding JWT authentication filter to admin APIs,2017-04-05,Merged,1373,336,186,config csproj ,6
+Implementing Http throttle support (#1261),2017-04-06,Merged,1369,800,80,json cs csproj ,9
+Updating Roslyn packages to 2.0.0,2017-04-11,Merged,1367,423,366,config nuspec ,4
+Add service bus EntityType,2017-04-04,Merged,1355,79,1,csproj ,3
+Improve Mono portability,2017-03-30,Closed,1353,1,21,csproj ,4
+StorageAccountAttribute changes + new SDK version,2017-03-29,Merged,1350,147,146,csproj config ,7
+Bring-your-own-binding,2017-04-14,Merged,1349,507,350,csproj ,8
+Improvements to Node binding data handling,2017-03-27,Merged,1346,161,62,csproj config cs ,11
+Add content headers to script headers object,2017-03-30,Merged,1344,30,6,ps1 ,5
+Fixing bug in extension reference assembly resolution,2017-03-22,Closed,1341,59,48,,9
+Pulling in latest SDK + update binding data handling,2017-03-22,Merged,1337,187,223,nuspec csproj config ,7
+Fixing system secret persistence on creation. Ensuring created secrets run through writer,2017-03-22,Closed,1332,85,32,,3
+Timer function.json schema update,2017-03-20,Merged,1326,8,0,,1
+Update BindingData formatting to handle nested dictionaries,2017-03-21,Merged,1325,159,88,csproj config cs ,11
+Adding latency to execution logs,2017-03-18,Closed,1321,40,8,,4
+Enabling saving secrets to blob instead of file storage,2017-04-06,Merged,1320,588,121,csproj ,8
+Letting exceptions from SwaggerController flow so they're handled by the exception handler,2017-03-17,Merged,1316,26,69,resx ,4
+Additional exception stack formatting,2017-03-17,Merged,1315,14,3,,4
+pulling latest SDK and Extensions nugets; rolling DocDB nugets back,2017-03-16,Merged,1313,156,156,csproj config ,7
+DocDb: removing cardinality requirement,2017-03-16,Merged,1312,7,6,json ,2
+Adding request ID to error trace,2017-03-16,Merged,1310,17,9,,5
+Logging controller exceptions and formatting controller error responses,2017-03-15,Merged,1307,311,2,csproj ,10
+Adding HTTP pipeline logging for all controllers,2017-03-15,Closed,1306,258,45,csproj projitems ,14
+Refactoring AuthorizationLevelAttribute to split system level authorization with named keys,2017-03-14,Merged,1298,146,67,csproj ,4
+Remove functions from node binding values,2017-03-20,Merged,1293,107,16,js ,6
+Adding initial Host load check API support,2017-03-13,Closed,1291,406,24,csproj ,15
+Updating nuget.exe resolution in build project,2017-03-13,Merged,1290,1,1,,1
+Implementation of system level keys,2017-03-13,Merged,1289,438,123,cs ,9
+Removing ping endpoint and expanding host/status endpoint,2017-03-09,Merged,1287,71,54,,6
+Nuget update + Handle listener onstart exceptions,2017-03-10,Merged,1286,281,163,csproj config cs js ,13
+Making debug_sentinel touch more resilient (#1212),2017-03-09,Merged,1285,44,7,,2
+Adding swagger support,2017-03-15,Merged,1281,"2,279",2,,1
+update WebJobs; docdb query support,2017-03-08,Merged,1280,283,216,csproj config ,6
+Enable Key APIs for functions in error (#1253),2017-03-08,Closed,1279,186,14,csproj ,5
+Hailiu works,2017-03-09,Closed,1273,"2,039",235,csproj sln ,8
+Allow request content up to 100MB. Fixes #1161,2017-03-07,Merged,1271,6,1,,1
+Add null body handling for content headers,2017-03-07,Merged,1270,45,14,js ,3
+Adding anonymous host/ping API,2017-03-07,Merged,1269,98,9,,5
+Initial implementation of the E2E test infrastructure,2017-03-06,Merged,1256,960,0,cs json csx ,10
+Adding version information to all build artifacts,2017-03-02,Merged,1255,2,2,,1
+Fixing FunctionActivityTracker.Dispose(bool disposing) so that it can be called multiple times without throwing ObjectDisposedException,2017-02-28,Merged,1249,7,2,,1
+Fixing FunctionActivityTracker.Dispose(bool disposing) so that it can be called multiple times without throwing ObjectDisposedException exception,2017-02-28,Closed,1248,7,2,,1
+Moving extension ScriptBindingProvider implementations into Functions,2017-02-28,Closed,1242,"1,066",31,,3
+Reverting package updates,2017-02-27,Merged,1236,680,"1,044",config ,5
+Handle aggregate exceptions in ScriptHost,2017-02-24,Closed,1227,16,0,,1
+Adding support for custom C# http functions to be called by Gibraltar,2017-04-18,Closed,1224,"1,625",18,cs ,3
+Updating data protection package reference,2017-02-21,Merged,1221,6,6,config ,6
+Fixing issue causing deadlocks in AuthorizationLevelAttribute,2017-02-18,Merged,1215,155,26,projitems ,6
+remove template platform from function.json schema,2017-02-16,Merged,1205,1,2,,1
+Updating data protection package,2017-02-16,Merged,1201,6,6,config ,6
+Updating data protection package,2017-02-15,Closed,1200,4,4,config ,4
+Fix function.json schema for VS,2017-02-14,Merged,1199,225,512,,0
+Moving to latest core SDK + Bot packages,2017-02-10,Merged,1193,199,204,csproj config ,5
+fix bindings.res overwrite,2017-02-09,Merged,1190,69,38,cs ,3
+Revving to latest minor versions of dependencies,2017-02-08,Merged,1189,"1,059",669,config nuspec ,6
+Allow 'code' value to be specified via headers for WebHooks (#1098),2017-02-07,Closed,1187,121,0,csproj ,4
+Setting the log source for file watcher logs,2017-02-07,Merged,1186,15,8,,3
+Fixing host disposal issue (#1173),2017-02-07,Merged,1185,9,9,,1
+fix express api and return binding,2017-02-08,Closed,1183,48,2,js json csproj ,6
+Adding exponential backoff to error/retry (#1162),2017-02-02,Closed,1172,179,29,,9
+Shadow copy precompiled and shared assemblies/Shutdown on assembly changes,2017-02-06,Merged,1169,435,112,,8
+Move system logs to FunctionsSystemLogsEventSource,2017-02-01,Merged,1166,28,20,,1
+Handle duplicate query string parameters (#1154),2017-01-28,Merged,1159,129,29,bat csproj ,10
+Fixing ScriptHost SettingsManager bug,2017-01-27,Merged,1158,31,40,,5
+Handle json arrays for script languages,2017-01-30,Merged,1156,64,2,json php csproj ,5
+Emit function invocation latency events (#1030),2017-02-02,Closed,1155,391,62,,14
+Fix parsing of content-disposition header,2017-01-26,Merged,1153,18,1,,2
+Add function-level properties to json schema,2017-01-23,Merged,1145,13,1,,1
+Added Content directory to nuget package,2017-01-23,Merged,1142,42,9,csproj ps1 nuproj cs js ,10
+Added compilation error for async void functions,2017-01-19,Merged,1138,66,3,csproj ,6
+Allow long status code,2017-01-20,Merged,1136,100,7,,2
+Allowing relative script file references,2017-01-21,Merged,1132,251,104,json cs csproj config resx ,10
+Changes to get the method entrypoint from the resolved function signature,2017-01-19,Merged,1128,27,31,resx ,5
+Capture node stdout and stderr,2017-04-24,Closed,1126,60,4,cs ,3
+updating WebJobs nugets: move GetValue to GetValueAsync; consolidatin…,2017-01-18,Merged,1124,210,210,csproj config ,8
+Refactor to make function metadata read code publically accessible,2017-01-17,Closed,1117,49,29,,4
+"Revert ""Throw for non-manage rights ServiceBus triggers""",2017-01-14,Merged,1113,1,82,csproj ,6
+Change sb exception to host log,2017-01-13,Closed,1112,7,7,,2
+Adding C# compilation service tests to validate source encoding,2017-01-13,Merged,1111,60,4,csproj ,4
+Improve node function traces,2017-03-08,Closed,1109,53,30,cs ,5
+Updating AuthorizationLevelAttribute to make proper use of new secret manager async API,2017-01-11,Merged,1108,34,30,,3
+remove json serialization for fastlogger,2017-01-10,Merged,1104,12,6,,1
+Allow HTTP functions to be invoked at site root,2017-01-12,Closed,1102,31,46,csproj ,5
+Moving to latest WebJobs SDK packages + configure poison queue setting,2017-01-07,Merged,1099,97,61,csproj config cs ,12
+Abstracting secret repository,2017-01-07,Merged,1086,608,249,,7
+Throw for non-manage rights ServiceBus triggers,2017-01-13,Merged,1084,90,9,csproj ,9
+Host changes for azure-functions-cli,2017-01-20,Closed,1083,0,0,,0
+Restart host on function directory rename,2017-01-03,Merged,1075,135,35,js ,3
+[Do not merge] Reverting changes from commit 94d06603.,2017-01-03,Closed,1074,4,42,csproj ,4
+Add recursive search to GetModuleFilePaths so that modules can be maintained in folders.,2017-01-03,Closed,1072,738,729,,0
+schemastore updates,2016-12-22,Merged,1068,732,726,,0
+adding autoRenewTimeout to the host schema,2016-12-19,Merged,1062,8,1,,1
+Added various binding schemas,2016-12-19,Merged,1061,181,24,,1
+Updating function.json schema with additional bindings,2016-12-16,Merged,1060,243,7,json ,2
+Moving to latest core SDK and adding Queue VisibilityTimeout configur…,2016-12-16,Closed,1059,222,205,nuspec csproj ,5
+Add verbose warn and error log methods to node,2016-12-20,Merged,1058,64,10,cs ,5
+Added useful error messages for incorrect binding metadata,2016-12-20,Merged,1057,325,39,cs config csproj ,7
+Adding mobileTable and documentDb binding to functionJson Schema,2016-12-16,Merged,1056,107,3,,1
+Changes to flow the TraceWriter into the SecretManager,2016-12-16,Merged,1055,376,184,resx ,8
+Moving to WebHooks RTM packages,2016-12-14,Merged,1051,40,40,config ,6
+Fixing a few issues that were primarily impacting F#,2016-12-16,Merged,1049,53,80,,8
+"Added notification hub, twilio, and sendgrid schemas",2016-12-13,Merged,1047,116,2,,1
+Initial commit of JSON schema files,2016-12-13,Merged,1046,496,0,md json ,2
+Logging compilation errors in invocation path,2016-12-13,Merged,1045,98,33,,5
+Logging compilation errors in invocation path,2016-12-10,Closed,1042,80,28,,5
+Changes to private assembly loading. Fixes #953 and allows in place updates,2016-12-13,Merged,1041,42,4,csproj ,4
+Enhancements to file monitoring,2016-12-13,Merged,1037,486,38,csproj ,7
+Emit function invocation latency events (#1030),2016-12-14,Closed,1035,0,0,,0
+ServiceBus: exposing AutoRenewTimeout setting to host.json,2016-12-06,Merged,1031,6,0,,1
+Adding ability to run pre-compiled .NET assemblies,2016-12-13,Merged,1025,389,7,csproj ,15
+Fixing WebJobs assemblies binding redirects,2016-12-03,Merged,1022,4,4,,2
+Splitting EndToEnd tests out into their own project,2016-12-02,Merged,1018,"1,946","1,060",sln cs config ,29
+Removing custom DictionaryJsonConverter,2016-12-01,Merged,1016,42,170,csproj ,4
+Fixing ExpandoObject response serialization,2016-12-01,Closed,1015,0,0,,0
+Fixing bug with PlainTextMediaTypeFormatter,2016-12-01,Merged,1014,41,3,,2
+moved content tests,2016-12-05,Merged,1011,110,202,,0
+Adding handling for ExpandoObject to HttpBinding StringContent defaul…,2016-11-30,Merged,1008,87,49,,6
+Enable building and running on Mono/Mac,2017-01-13,Closed,1005,"9,247",197,xml sln sh cs ,13
+Refactor binding pipeline to allow type info to flow through,2016-11-29,Closed,1002,0,0,,0
+Improving temp file handling in F# compilation service,2016-11-29,Merged,1001,23,8,,2
+node case insensitive headers,2016-11-28,Merged,998,84,23,js ,4
+add node http content tests,2016-11-30,Merged,994,454,2,,0
+Fix typo in variable in PowerShellInvokerTests(),2016-11-28,Merged,990,4,4,,1
+fix header only / status only requests for express api,2016-11-25,Merged,979,45,13,cs ,3
+Use rule-based binding and self-describing SDK extensions.,2017-02-21,Closed,977,196,406,,4
+Adding flag to enable scripting languages to write a raw HTTP response,2016-11-22,Merged,968,93,11,js ,6
+Handling JObject XML serialization,2016-11-28,Closed,967,221,2,csproj js ,8
+Fixing FSharpCompilationService file checks,2016-11-22,Merged,964,41,4,csproj ,3
+Fixing issue preserving script encoding,2016-11-21,Merged,961,4,2,,1
+Avoid loading a number of assemblies on start,2016-11-21,Merged,956,31,30,,2
+WatchDirectories fix for Node.js (#954),2016-11-21,Merged,955,66,6,js cs ,6
+Ensuring SDK console writers don't output when using the CLI,2016-11-21,Merged,951,6,0,,1
+Tweaks to EventCreatedAt column and sample script cleanup,2016-11-21,Merged,947,47,140,cs json ,33
+Adding a CLI trace writer,2016-11-18,Merged,939,83,13,csproj ,6
+Fixing BindingData conversion bug,2016-11-17,Closed,938,33,21,,5
+Updating fix for #787,2016-11-16,Merged,937,6,3,,1
+Bug fix - Processing input binding that comes in as stream throws null reference exception,2016-11-16,Merged,933,87,1,json php csproj ,5
+Tracing additional information when NuGet restore fails,2016-11-16,Merged,928,16,4,,1
+Moving script host initialization to simplify reuse from CLI,2016-11-15,Merged,927,13,10,,2
+reducing host lease logs; adding debugging details on failure,2016-11-15,Merged,925,28,41,,2
+WIP: Adding Azure Functions Cli,2017-01-04,Closed,916,"3,143",81,xml nuspec cs csproj config ,14
+Fix header truncation issue (#913),2016-11-14,Closed,914,108,14,csproj ps1 ,10
+Change GetModuleFilePaths() to include a modules directory in root of Function App,2017-01-25,Closed,906,100,11,,2
+Fixing HTTP content negotiation for .NET,2016-11-10,Merged,905,50,18,csx ,3
+Fixing dynamic support for http binding,2016-11-10,Closed,904,126,4,json csx cs csproj ,12
+Enhancing Node HTTP conneg and response handling,2016-11-09,Merged,901,218,31,csproj ,9
+Avoid loading many unneeded assemblies on start,2016-11-09,Merged,895,11,1,,1
+"Moving version number to 1.0, and updating package dependencies",2016-11-08,Closed,894,207,207,nuspec csproj config ,7
+Address F# Assembly Resolution Issues,2016-11-15,Closed,893,292,48,json csx fsx ,19
+add failing F# nuget references test,2016-11-08,Closed,891,97,0,json fsx ,3
+"[WIP] [F#] Test CI (initially without ""full CI"" enabled)",2016-11-08,Closed,889,1,0,,0
+[WIP] [F#] add failing twilio test,2016-11-08,Closed,888,102,21,json csx fsx ,28
+Fixing issues with function target invalidation on return type changes,2016-11-08,Merged,886,118,69,,5
+Startup improvements for http function invocations,2016-11-08,Closed,884,121,52,csproj ,11
+Refactoring function value loader and invoker,2016-11-07,Merged,880,191,151,,3
+Add JArray case for binding;,2016-11-04,Closed,879,41,1,,2
+Update SDK to 10466,2016-11-04,Merged,876,33,33,csproj config ,12
+Fixing issue with $return handling for HTTP binding in .NET,2016-11-05,Merged,875,3,3,cs ,3
+Update nuget packages for SDK (to 10465) and Extension (to 10388) nug…,2016-11-03,Merged,874,104,104,csproj config ,7
+Nuget update,2016-11-03,Closed,873,103,103,csproj config ,7
+Added buffer support to Node,2016-11-29,Closed,871,178,64,js ,7
+Updating application and host id to use host name,2016-11-02,Merged,867,43,19,,6
+Performance optimizations in startup path,2016-11-02,Merged,864,101,75,,7
+Simplify Table binding to use ScriptBinding and leverage new SDK bind…,2016-11-04,Merged,858,84,353,,3
+Adding Bot output binding,2016-11-02,Merged,855,162,2,sln json csx js config csproj nuspec cs ,14
+Don't throw if no content for webhook,2016-10-31,Merged,853,29,5,js ,3
+Small code cleanup in secret serializer,2016-10-27,Merged,835,3,6,,1
+Moving some items into settings manager,2016-10-27,Merged,834,26,48,,7
+Fixing issue with function name processing,2016-10-27,Merged,833,47,4,,2
+Updating data protection package,2016-10-27,Merged,829,4,4,config ,4
+Registering provided instance of settings manager,2016-10-27,Merged,828,1,1,,1
+Removing feature flags for multikey and encryption support,2016-10-26,Merged,827,132,201,,3
+flattening errors before logging,2016-10-26,Closed,826,0,0,,0
+updating all nuget packages,2016-10-26,Merged,823,224,219,csproj config ,5
+updating extensions nugets to 10382,2016-10-26,Closed,821,62,62,config nuspec ,7
+Creating function default function secret if file does not exist,2016-10-26,Merged,818,13,5,,2
+Update SDK nuget to 10453,2016-10-25,Closed,816,38,36,csproj config cs ,13
+Update SDK nuget to 10453,2016-10-25,Closed,815,37,36,csproj config cs ,13
+Adding homepage,2016-10-26,Merged,813,355,9,html resx csproj ,9
+Changing default compilation optimization level to release,2016-10-25,Merged,812,98,8,csproj ,5
+Update to latest packages,2016-10-25,Merged,811,70,62,config nuspec cs ,7
+Switching tests to use the utility implementaion of BOM removal,2016-10-24,Merged,809,7,17,,4
+Mitigate flaky context.done tests,2016-10-24,Merged,808,12,39,js ,2
+Fixing encoding issue in C# compilation service,2016-10-22,Merged,797,41,2,,3
+Improving error handling in http route registration,2016-10-21,Closed,793,96,25,csproj ,7
+Ensuring host secrets are created on startup,2016-10-21,Merged,789,37,5,,4
+Fixing bug in optional route parameter binding,2016-10-20,Closed,786,56,15,cs ,3
+"[WIP] upgrade to FSharp.Compiler.Service 8.0.0, remove msbuild dependency",2016-10-24,Merged,785,7,6,cs csproj config ,4
+updating nugets,2016-10-19,Merged,783,103,103,csproj config ,6
+"When Http methods property is an empty array, disallow all methods",2016-10-19,Merged,782,39,9,,3
+Added expressjs style api for http responses,2016-10-27,Merged,781,277,9,js csproj json ,11
+Emitting metric events for binding type/direction usage,2016-10-19,Merged,780,98,4,csproj ,4
+Adding HostId to HostStatus endpoint,2016-10-19,Closed,779,15,2,,3
+Adding Microsoft.Azure.WebJobs.ServiceBus to built in assemblies,2016-10-18,Closed,772,1,0,,1
+First class FeatureFlags pattern,2016-10-18,Merged,771,73,19,csproj ,8
+Revving version to 0.7 and a few other fixes,2016-10-18,Closed,768,41,30,json csx cs js ,8
+Update to SDK 10442,2016-10-17,Merged,767,33,33,csproj config ,12
+Update SDK nuget references.,2016-10-17,Closed,766,36,40,csproj config cs ,14
+Added Settings Manager,2016-10-26,Merged,765,355,176,,10
+Adding test for IsRunning logic to return fast,2016-10-18,Merged,764,18,4,,3
+Addressing remaining http routing issues (#748),2016-10-15,Closed,763,422,80,json js csproj cs ,12
+Initializing script host at startup,2016-10-12,Merged,762,7,0,,1
+Implement Flush for Composed TraceWriters,2016-10-12,Merged,761,12,0,,2
+"Add entry point defaulting for ""index"" functions",2016-10-12,Closed,759,16,4,cmd js ,4
+Adding flag to toggle compilation optimization level (debug/release),2016-10-10,Merged,754,37,24,,4
+Fix duplicate System logging issue (#747),2016-10-06,Merged,750,79,33,,4
+Key management API,2016-10-11,Merged,749,"1,625",157,cs ,9
+Add HostVersion column to Functions log events,2016-11-15,Merged,745,20,20,,1
+No longer silently fail if kudu is not installed.,2016-10-05,Merged,744,7,2,,1
+Adding support for custom http routes,2016-10-05,Closed,743,"1,343",176,json csx js cs csproj ,14
+Cardinality Support for Bindings (#618),2016-10-02,Closed,735,175,41,json js cs csproj ,11
+Fixing F# private assembly references resolution,2016-09-30,Merged,734,113,13,csproj json fsx ,7
+System Metric Events,2016-09-30,Merged,730,869,263,csproj ,18
+(Hotfix) Fixing metrics event regression,2016-09-27,Closed,726,200,218,,6
+updating SendGrid to API v3; updating all extensions,2016-09-26,Merged,721,117,100,csx ps1 js csproj config nuspec ,10
+Fix for ServiceBus topic trigger issue,2016-09-23,Closed,717,127,1,json js cs ,4
+Fix invocation parameter ordering issue (#709),2016-09-22,Closed,715,85,6,,5
+Fixing compilation warning for $return bindings,2016-09-21,Merged,714,65,22,cs ,5
+Added promise sample,2016-09-22,Merged,711,65,1,json js ,3
+Do not restart site if a function properly handles a cancellationToken on timeout,2016-09-21,Merged,708,195,108,csproj config cs ,8
+Enhancing function and binding name validation,2016-09-19,Merged,707,62,7,,4
+Renaming/moving Debug sentinel file (#685),2016-09-19,Closed,706,26,22,,4
+Fix clone folder name in azure -> local flow,2016-09-19,Merged,705,0,0,,0
+Improve ResolveAfterDone flakiness,2016-09-19,Merged,704,3,5,js ,2
+Suppressing FS0988 + minor cleanup and optimizations.,2016-09-19,Merged,700,42,45,,2
+Reuse analyzers to fix memory leak,2016-09-17,Merged,697,5,3,,1
+Update file binding conversions to handle BOM characters (#687),2016-09-19,Closed,695,29,7,cs ,4
+Added mocha tests for node shim,2016-09-17,Merged,694,153,1,proj cmd csproj js ,6
+Secret/key encryption,2016-09-30,Merged,692,803,125,,11
+Moving environment/appsettting names to constants,2016-09-15,Merged,690,61,41,csproj ,15
+Support binding to return values,2016-09-15,Closed,689,416,172,csx fsx js cs ,28
+updating all WebJobs nugets,2016-09-14,Merged,684,103,103,csproj config ,7
+Optimizing simple task continuations to run synchronously,2016-09-14,Merged,680,7,7,,4
+Fixing duplicate compilation diagnostics,2016-09-14,Merged,679,19,3,,2
+Node scripts in content directory,2016-09-14,Merged,678,8,9,js cs csproj ,4
+Fix MediaType header parsing (#670),2016-09-14,Merged,676,8,2,js ,3
+renaming 'timeout' to 'functionTimeout' in host.json,2016-09-14,Merged,674,6,6,,2
+Allow node scripts to return promises,2016-09-15,Merged,673,146,2,cs json csproj ,6
+Adding System event tracing (#451),2016-09-14,Closed,672,515,97,ps1 json cs csproj ,11
+Move node scripts to module,2016-09-13,Merged,671,115,120,js csproj ,6
+Remove double brackets from node scripts,2016-09-12,Closed,666,51,40,js csproj ,5
+Workaround for Promise.resolve and process.nextTick edgejs issue,2016-09-12,Merged,664,32,8,cs ,4
+Azure Functions Cli,2016-11-12,Closed,663,"10,175",19,xml sln config cs ,6
+Adding multi key support,2016-09-28,Merged,662,"1,749",114,cs ,11
+only apply timeouts if running in Dynamic SKU,2016-09-09,Merged,661,140,52,,4
+Make WebHostResolver Disposable,2016-09-08,Merged,656,67,64,,6
+Fixing Host Status endpoint bug (#653),2016-09-08,Closed,654,76,13,,4
+[No need for review] -- Adding some more logging to a couple flaky tests,2016-09-08,Closed,651,20,13,,3
+Adding a first class ManualTrigger (addresses #628),2016-09-03,Merged,639,331,157,cs ,8
+Add ISSUE_TEMPLATE.md,2016-09-03,Closed,630,31,0,,0
+adding EventGenerator utility to log events to mds fixes #451,2016-09-01,Closed,622,103,0,csproj ,3
+Fix listening on multiple different consumer groups,2016-09-08,Closed,621,7,20,,1
+Adding F# to site warmup logic,2016-08-30,Closed,619,35,9,csx fsx csproj cs ,8
+Apply trace level filter in ConsoleTraceWriter,2016-08-29,Merged,615,58,0,csproj ,3
+Allow FileWatcher watch directories to be configured (#608),2016-08-26,Merged,613,129,26,csx json cs ,12
+HttpBinding improvements,2016-08-26,Closed,612,207,79,js cs ,7
+Automatic package restore,2016-08-29,Merged,610,"2,373",22,csproj config ,10
+Fixing Node value serialization issue (#520),2016-08-25,Closed,609,118,11,csproj ,5
+Updating extension packages and adding Twilio support,2016-08-25,Merged,607,128,67,config nuspec cs ,6
+Triggering require cache cleanup when function.json changes are made,2016-08-24,Merged,606,7,5,,1
+Normalize Node BindingData casing (#426),2016-08-24,Closed,605,129,29,js cs ,10
+Function Timeouts,2016-09-08,Merged,604,906,317,csproj config cs ,12
+Fixing ManualTrigger input (#602),2016-08-23,Merged,603,243,30,csproj json sh csx fsx js php ps1 py bat ,22
+Dynamic Debug Mode and throttled/conditional file logging,2016-08-23,Merged,598,422,126,cs csproj ,15
+Fixing TableBinding casing issue (#588),2016-08-19,Closed,593,22,8,js ,3
+Allowing EventHub options to be configured via host.json (#589),2016-08-19,Closed,590,133,117,cs csproj config ,7
+Fixing status version test,2016-08-16,Merged,582,5,2,,2
+Restricting compilation logging to primary instance,2016-08-19,Merged,581,403,74,,10
+Fixing content type issue on host status endpoint (#79),2016-08-16,Closed,580,76,57,csproj ,6
+First class F# support,2016-08-23,Merged,577,"2,173",172,sln json fsx ,11
+Integrate dev --> fsharp,2016-08-12,Merged,576,539,376,sln cs csproj config nuspec ,9
+Integrate dev --> fsharp,2016-08-12,Closed,575,"1,514",74,json fsx ,10
+Updating lock container name,2016-08-11,Merged,571,1,1,,1
+Adding a first class HttpBinding + binding data support,2016-08-15,Merged,568,885,186,csx js cs ,8
+Using a stable instance ID,2016-08-10,Merged,566,3,1,,1
+clear blob containers before tests,2016-08-09,Merged,565,28,8,,5
+Fixing Metrics bug in ScriptFunctionInvoker,2016-08-09,Merged,564,38,31,,1
+Fixing file logging issue,2016-08-15,Closed,560,28,4,ruleset ,4
+Fixing tests leaking host,2016-08-05,Closed,552,74,23,,3
+Fixes how proposed lease ID is created and other changes for role logic,2016-08-04,Closed,550,0,0,,0
+updating Extensions nugets to 10348,2016-08-04,Merged,549,54,54,config nuspec ,7
+Integrate dev --> fsharp,2016-08-03,Merged,547,98,12,csproj ,8
+simplifying version updates; allowing official build to update Assemb…,2016-08-03,Merged,546,43,47,cs ,6
+[WiP] Helping Don - PR just to trigger CI,2016-08-23,Closed,545,"2,163",153,sln json fsx ,11
+Improve F# support in fsharp branch,2016-08-12,Merged,544,995,415,config csproj cs ,10
+adding HostStatus tests,2016-08-03,Merged,542,72,4,csproj ,4
+Adding config option to enable/disable role detection,2016-08-02,Merged,536,26,8,,4
+Ensure reinitialize appSettings after standby mode,2016-07-29,Merged,535,28,0,,2
+host warmup support,2016-07-28,Merged,534,628,70,json csx ,8
+Adding process ID to log file names,2016-07-28,Merged,533,4,1,,1
+Host warmup support,2016-07-28,Merged,527,0,0,,0
+Implementing logic to identify primary host,2016-07-29,Merged,525,611,8,csproj ,6
+Updates to latest version of ApiHub SDK and extensions,2016-07-25,Merged,517,68,70,config nuspec ,6
+adding 'Version' to HostStatus,2016-07-25,Merged,508,13,0,,1
+Changing log file name format,2016-07-21,Merged,507,2,2,,1
+pulling newest Extensions nugets to fix MobileTable 'connection' bug,2016-07-20,Merged,506,82,75,csproj config nuspec ,8
+Formatting exception source to simplify assembly name output,2016-07-21,Merged,505,26,3,,3
+Testing PR,2016-07-18,Closed,503,1,1,,0
+porting 'ValidateNugetDependencies' target from Extension repo to ens…,2016-07-13,Merged,498,92,1,,1
+Removing our custom NameResolver and fixing rand-guid,2016-07-15,Closed,497,96,48,csproj json csx ,8
+making UpdateFileAndRestart test more resilient,2016-07-13,Merged,496,28,19,,1
+updating extensions and core packages to latest,2016-07-13,Merged,495,95,95,csproj config ,8
+Remove old metric ETW event from MetricsEventManager,2016-07-13,Closed,493,0,31,,3
+Enhancing the AF004 error description,2016-07-12,Merged,492,3,1,,1
+Including extension provider assembly in resolution process,2016-07-12,Merged,491,66,3,csproj ,4
+For Review Purposes (WIP): Custom Routes and YAML api support,2016-10-05,Closed,490,"1,078",98,json csx js csproj config ,11
+Fixing %rand-guid% binding (#487),2016-07-12,Closed,488,104,93,json js ,9
+workaround for nextTick issue in Edge,2016-07-12,Merged,486,37,2,cs ,3
+"Using the EntryPoint metadata property, updating logic in the resolver to use provided named method and match Node's implementation",2016-07-11,Merged,485,423,13,resx csproj ,8
+Supporting multiple Node function exports (addresses #459),2016-07-11,Closed,480,163,2,cs json csproj ,11
+Applying AppDomain policy in the assembly load process,2016-07-08,Merged,479,20,5,,2
+Azure Functions Cli,2016-09-09,Closed,477,"7,199",16,sln config cs ,6
+Changing function signature and depending APIs to work with a paramater abstraction and fixed issue where warning diagnostics were not logged when creating target,2016-07-08,Merged,475,180,55,csproj resx ,10
+Update to latest version of ApiHub SDK and Extensions.ApiHub,2016-07-06,Merged,473,62,62,config nuspec ,6
+Invoker work: Push remaining binding logic into the core SDK binding …,2016-07-05,Merged,471,142,186,csproj config cs ,11
+Fixing nested JSON binding bug (#412),2016-06-24,Closed,457,74,44,csproj ,7
+[WIP] Moving FunctionsController from Kudu to host. Adding WebJobs.Script.ConsoleHost CLI,2016-07-07,Closed,453,"5,883",35,config cs ,5
+Fixing URL Decoding Issue (#446),2016-06-21,Closed,450,41,7,,2
+Increasing timeout on EnsureHostRunning Handler,2016-06-21,Closed,447,41,7,,2
+Add the ability to exclude functions,2016-06-28,Closed,441,67,3,cs js csproj ,8
+Adding SendGrid binding extension,2016-06-21,Closed,440,184,86,json csx ps1 js csproj config cs ,13
+Fixing compilation error handling when reloading function,2016-06-15,Merged,439,139,7,csproj ,6
+Fixing style issues impacting build,2016-06-14,Merged,437,48,52,,4
+Cold start optimizations,2016-06-14,Merged,436,6,0,config ,2
+Cold start optimizations,2016-06-14,Closed,435,6,0,config ,2
+Binding Extensibility,2016-06-13,Closed,427,0,0,,0
+Moving trace to log output before throwing on error,2016-06-13,Closed,422,4,5,,2
+updating extensions dependencies to 10306,2016-06-10,Closed,420,75,75,config cs ,8
+Making binding name mandatory (remove defaulting rules),2016-06-02,Merged,419,313,137,json ps1 js ,35
+Remove AllowNameResolutionAttribute,2016-06-02,Merged,418,6,20,csproj ,6
+Support EventHub ConsumerGroups in Script,2016-06-01,Closed,414,10,1,,1
+Normalizing the ServiceBus binding to use byte[],2016-06-01,Closed,409,62,5,js cs ,4
+[DO NOT MERGE] Test PR for CI,2016-05-27,Closed,408,1,1,,0
+DocDB/MobileTable: fixing script binding parameters [#288],2016-05-27,Merged,406,89,21,json csx ,10
+Adding Microsoft.Azure.ApiHub.Sdk to shared assemblies,2016-05-27,Merged,404,1,0,,1
+Enforce CRON format for TimerTrigger (#400),2016-05-26,Merged,401,41,14,cs csproj ,8
+Fixing flaky/skipped blob trigger test (#386),2016-05-26,Merged,396,25,36,json csx csproj ,5
+Fixing flaky/skipped blob trigger test (#386),2016-05-26,Closed,395,221,90,json csx csproj ,11
+Fixing bug in log file purge logic (#393),2016-05-26,Closed,394,189,54,,7
+Fixing issue with compilation diagnostics,2016-05-25,Closed,391,2,1,,1
+Updating ApiHub Table bindings to support binding parameters,2016-05-25,Closed,390,142,89,config nuspec cs ,9
+Adding test build target,2016-05-24,Merged,388,5,2,,1
+Adding System.Configuration to default references,2016-05-24,Merged,387,1,0,,1
+Updating extensions nuget packages,2016-05-25,Closed,384,56,56,config ,6
+[NotificationHub]Add support to send native notifications,2016-05-25,Merged,382,73,1,json csx js csproj ,9
+Support for ApiHub tabular connectors.,2016-05-24,Closed,381,857,63,config nuspec cs ,7
+Purge old log files (#376),2016-05-23,Closed,380,260,20,csproj ,9
+Adding test categories,2016-05-25,Closed,370,19,3,,11
+- Add logging support to ApiHub SDK,2016-05-21,Merged,369,6,1,,2
+Updating build status links,2016-05-20,Merged,368,2,2,,0
+Move to latest SDK and Extensions packages,2016-05-20,Closed,367,553,334,,1
+"Implementing support for diagnostic analyzers and implementing the ""InvalidFileMetadataReferenceAnalyzer""",2016-05-24,Merged,365,135,5,csproj ,7
+Table output binding should preserve property Type (#342),2016-05-19,Closed,362,157,34,json js csproj ,7
+Reverting package updates,2016-05-17,Merged,359,78,83,config nuspec cs ,8
+Updating package references (upgrading/consolidating),2016-05-18,Closed,358,155,119,csproj ,4
+PowerShell Implementation,2016-06-02,Closed,357,"1,429",175,json psm1 psd1 ps1 csproj cs ,14
+Fixing issues assembly references from a shared location,2016-05-19,Merged,356,145,19,json csx csproj ,10
+Update to latest ApiHub SDK and add support for tracing.,2016-05-17,Closed,355,80,75,config nuspec cs ,8
+"Rename Source metadata property, clean up resolution logic (#351)",2016-05-17,Merged,352,186,60,,13
+Fixing Node Http trigger conversion issue (#346),2016-05-14,Closed,349,100,13,js ,3
+[Hotfix] Nicer UX when host.json is malformed,2016-05-13,Closed,348,40,2,json csproj ,4
+DataType support for non-strongly typed languages,2016-05-13,Merged,345,773,364,ps1 cs ,14
+[DO NOT MERGE] Testing CI,2016-05-06,Closed,339,1,0,,0
+Updating build badges,2016-05-06,Merged,338,4,1,,0
+Moving FastLogger registration to WebHost,2016-05-04,Closed,333,19,19,cs csproj config ,8
+Emitting 'InProgress' ETW event for short functions.,2016-05-04,Merged,331,6,6,,2
+Changes to abstract compilation services from C# invoker,2016-05-06,Merged,330,395,170,,6
+Emitting 'InProgress' ETW event for short functions.,2016-05-04,Closed,328,0,0,,0
+Setting maxRequestLength and fixing nuspec,2016-05-03,Merged,327,2,1,config ,2
+Another CLA test. Ignore!,2016-04-30,Closed,315,2,0,,0
+Incorporating code comments Mathew provided in the last PR,2016-04-29,Merged,314,104,91,,4
+Dummy commit to test CLA bot,2016-04-29,Closed,310,2,0,,0
+"Raising metric events to track individual function executions, refactoring MetricsEventManager and adding unit test cases",2016-04-28,Merged,306,589,57,,2
+Apply configured TraceLevel to file loggers (#201),2016-04-27,Merged,303,88,81,csproj config cs ,14
+Handling ReadWrite bindings in BlobBinding,2016-05-03,Merged,299,104,13,csproj ,14
+Allowing Node.js functions to access raw request body (#293),2016-04-25,Closed,297,17,7,js ,3
+Allowing Node.js functions to access raw request body (#293),2016-04-25,Closed,296,192,34,cs csproj ,16
+Raising metric events to track individual function executions,2016-04-27,Closed,295,0,0,,0
+[Tests] Add a cleanup hook before the ScriptHostManager is started.,2016-05-17,Closed,294,61,20,cs json ,6
+Latest SDKs plus code to support FileWatcherType for ApiHub file triggers.,2016-04-25,Merged,287,63,58,config cs ,7
+Adding Microsoft.ServiceBus as a shared assembly,2016-04-22,Merged,285,1,0,,1
+Don't create empty ImmutableArray only to create a builder from it,2016-06-02,Closed,284,2,2,,2
+Correct casing of file names,2016-04-22,Closed,283,2,2,,1
+Multi-Key support (addresses #270),2016-04-22,Closed,282,72,16,cs ,7
+updating extensions nuget packages,2016-04-21,Merged,280,48,48,config ,7
+[WIP] rough cut improved F# support,2016-07-29,Closed,279,"1,522",74,json fsx ,10
+Refactoring to reuse trigger parameter creation code,2016-04-21,Merged,278,31,59,,2
+Ensuring diagnostics compilation uses consistent optimization level,2016-04-20,Merged,277,4,4,,1
+Adding build badge,2016-04-20,Merged,276,3,0,,0
+DocDB: updating binding for partitioned collections,2016-04-20,Closed,275,0,0,,0
+Correctly setting the working directory when restoring NuGet packages.,2016-04-20,Merged,274,3,1,,1
+Extract Binding data from HTTP Requests,2016-04-21,Closed,273,67,146,,12
+updating sdk and extension package references,2016-04-20,Merged,272,16,3,,2
+Table binding fixes.,2016-04-19,Merged,271,223,45,,4
+Enhancing shared assembly load process,2016-04-20,Merged,268,224,9,json csx csproj cs resx ,14
+Correct casing of file names,2016-04-22,Closed,266,2,2,,1
+Fix CA errors.,2016-04-26,Closed,265,3,0,,3
+Setting PartitionKey and RowKey arguments to null if not set when creating TableAttribute,2016-04-15,Merged,262,4,1,,1
+Unify some NuGet package references,2016-04-14,Merged,259,6,6,,1
+Updating Script repo with latest ApiHub SDK,2016-04-14,Merged,257,90,81,json bat csx js csproj config cs ,19
+Updating Script repo with latest ApiHub SDK,2016-04-14,Closed,256,92,82,csproj config cs ,16
+Updates to latest version of ApiHub SDK as well as fixing the ApiHub bindings,2016-04-14,Closed,255,115,73,js csproj config cs ,18
+Adding InvocationId to FunctionStartedEvent,2016-04-13,Merged,253,8,4,,4
+Fixing issue with indirect private assembly resolution,2016-04-13,Merged,252,208,20,csproj config ,9
+Assembly Name + Namespace updates,2016-04-12,Merged,249,100,86,csproj config ,31
+File organization,2016-04-13,Closed,248,8,4,,4
+Renaming easyTable to mobileTable.,2016-04-15,Merged,246,130,131,sln json csx js csproj config cs ,15
+update extensions packages,2016-04-11,Merged,243,48,48,config ,7
+Handle duplicate context.done calls gracefully (#207),2016-04-11,Closed,242,111,30,js json csproj ,13
+Enhancing HTTP processing and supported binding types (C#),2016-04-12,Merged,235,198,46,json csx cs ,10
+Log Node.js global unhandled exceptions properly (#209),2016-04-09,Closed,232,208,32,csproj js ,8
+Mathewc dev,2016-04-07,Closed,231,160,39,csproj js ,6
+Changing log file purge strategy,2016-04-06,Closed,228,24,14,,2
+Package metadata compilation error,2016-04-06,Merged,227,571,22,csproj ,6
+Adding support for external script loading in C#,2016-04-06,Merged,225,66,12,csx json csproj ,8
+Purge log files,2016-04-04,Closed,217,91,8,,2
+Supporting IAsyncCollector across all script bindings,2016-04-04,Closed,216,439,99,js cs ,11
+Fixing assembly dependency resolution,2016-04-04,Merged,214,72,11,,3
+Moving to Edge.js version 5.9.1,2016-04-02,Closed,212,26,24,config ,2
+Invalid connection value fix (#183),2016-04-01,Merged,210,7,1,,1
+"Honor ""connection"" in Queue output binding",2016-04-01,Merged,206,9,1,,1
+"Honor ""connection"" in Queue output binding",2016-04-01,Closed,205,9,1,,1
+Fixing F# support (#202),2016-03-31,Closed,203,23,3,,1
+Adding multi-account support for ServiceBus bindings,2016-03-31,Closed,193,36,3,cs ,4
+Default Content-Type to application/json for JSON responses,2016-03-29,Merged,189,52,15,js cs ,7
+Adding System.IO and System.Threading.Tasks to the list of default imports,2016-03-29,Merged,187,2,0,,1
+Fixing Table input binding issue,2016-03-28,Closed,184,19,11,,2
+Implementing a simple check to limit the maximum number of functions loaded,2016-03-29,Closed,177,58,12,,3
+Logging an error message when a function has an invalid WebHook configuration,2016-03-26,Merged,176,6,1,,1
+Setting temporary host defaults,2016-03-25,Merged,171,12,5,,1
+Host level error handling improvements,2016-03-25,Closed,167,94,6,ruleset csproj ,5
+Fix to workaround a Roslyn issue leaking instances of the InteractiveAssemblyLoader,2016-03-25,Merged,166,5,1,,1
+Changing the NuGet package path,2016-03-25,Merged,163,24,3,,2
+Apihub changes,2016-04-11,Closed,161,443,13,json bat csx js csproj config cs ,16
+Fixing Blob trigger input conversion,2016-03-24,Closed,159,10,9,ruleset ,2
+adding DocDB and EasyTables input bindings,2016-03-24,Merged,156,237,74,config cs ,10
+Performing JSON -> object conversions for Javascript input bindings,2016-03-24,Closed,155,10,9,ruleset ,2
+ETW Events Per Function execution,2016-03-25,Closed,152,145,21,csproj ,4
+Fixing BlobTrigger bug,2016-03-24,Merged,150,9,13,,2
+"multi-connection support for NH, DocDB, EasyTables; updating extensio…",2016-03-23,Closed,149,0,0,,0
+Test fix: Update NotificationHub test,2016-03-23,Closed,148,39,12,,3
+Resetting content stream so functions can properly read it.,2016-03-23,Merged,147,5,0,,1
+Allow context.log to log objects (via util.inspect),2016-03-23,Closed,146,31,5,js ,4
+Add a new ETW event to collect analytics about functions,2016-03-24,Closed,145,126,12,csproj ,7
+Adding new Admin API to return last Host error,2016-03-23,Merged,144,126,30,csproj ,10
+"Disabled functions are now registered, but only invokable via admin API",2016-03-23,Closed,143,86,40,json js cs ,8
+Adding System.Collection.Immutable package reference to WebHost,2016-03-22,Merged,141,13,0,config ,2
+Updating function signature to recognize local types used in generic type arguments,2016-03-23,Merged,140,87,1,,2
+Adding assemblies to shared assemblies list,2016-03-22,Merged,138,3,1,,1
+Adding C# Generic WebHook sample,2016-03-22,Merged,137,46,2,json csx cs csproj ,6
+Remove IMetricsManager and use SDK logging hook.,2016-09-20,Closed,135,51,170,csproj ,14
+Creating site extension package,2016-03-21,Merged,134,25,0,xml ,2
+Making connection metadata consistent across bindings,2016-03-22,Closed,133,36,29,cs ,7
+Fixing issues with NuGet restore,2016-03-21,Merged,130,9,8,,2
+Adding multi-storage account support,2016-03-21,Closed,128,36,29,cs ,7
+Use new logging from Script.,2016-03-21,Closed,127,67,8,csproj config ,4
+Adding support for tracking aggregated metrics.,2016-03-18,Merged,126,164,2,csproj config ,4
+adding new easyTable config values; workaround for docdb resource picker,2016-03-23,Closed,125,30,3,,3
+Improvements to core error handling/reporting,2016-03-19,Closed,123,15,1,cs ,5
+[Do not merge-need to fix reference]Adding NotificationHub Scripting,2016-03-21,Closed,122,357,10,json csx js config csproj cs ,17
+Fixing IL generation,2016-03-19,Merged,121,330,21,csproj ,5
+Put d:\home\site\tools folder on the path. Fixes #119.,2016-03-18,Closed,120,38,0,,1
+Derive the host id from the site name,2016-03-17,Closed,115,15,5,,1
+File logging perf optimizations,2016-03-17,Closed,113,146,43,,9
+adding documentdb scripting,2016-03-17,Merged,112,395,28,json csx js csproj config cs ,16
+Passing cancellation token into the ScriptHost start call.,2016-03-16,Merged,111,2,2,,2
+Ensuring that the ScriptHost shuts down when the web application is shutting down,2016-03-16,Merged,106,1,0,,1
+Fixing HTTP Trigger sample argument name,2016-03-15,Merged,103,5,5,,3
+Adding support for tracking aggregated metrics.,2016-03-18,Closed,101,0,0,,0
+Fixing concurrency issue when generating C# function target.,2016-03-15,Merged,99,245,92,,2
+adding easytables,2016-03-16,Merged,98,783,106,json csx js config csproj nuproj ,11
+Refactoring/Fixing Script binding pipeline,2016-03-15,Closed,96,252,123,json bat sh fsx php ps1 py cs ,16
+Adding C# script reference to System.Net.Http.Formatting,2016-03-12,Merged,94,2,1,,1
+Adding Microsoft.CSharp default reference,2016-03-12,Merged,90,1,0,,1
+Adding metrics logging,2016-03-13,Closed,88,181,1,csproj ,13
+Enhancements to assembly resolution,2016-03-11,Merged,84,37,7,,1
+Ensuring that the ScriptHost is Disposed of in case of an exception in the run loop.,2016-03-11,Merged,80,101,7,csproj ,5
+Making all binding data available on context,2016-03-10,Merged,79,20,3,cs ,3
+Fixing bug in binding data access,2016-03-10,Merged,78,31,12,,1
+Fixing Blob bindings,2016-03-10,Merged,75,87,46,csx js cs ruleset ,8
+Initial implementation of C# binding arguments validation.,2016-03-10,Merged,74,113,37,cs ,6
+Node.js programming model changes,2016-03-09,Closed,70,167,103,cs ,15
+Allowing Admin authenticated requests to bypass WebHook auth pipeline,2016-03-08,Closed,69,198,49,cs csproj ,10
+Renaming HTTP 'key' query parameter to 'code',2016-03-08,Merged,68,8,8,,2
+Wrapping FileTraceWriter in a composite trace writer that is passed to the function.,2016-03-08,Merged,67,142,0,csproj ,6
+Making function level initialization error handling more robust,2016-03-08,Merged,66,287,143,csproj ,10
+Enhancing C# invoker to avoid unecessary host restarts.,2016-03-08,Merged,65,325,8,csproj ,8
+Fixing trigger name resolution in C# invoker,2016-03-07,Merged,63,4,3,,1
+Adding HttpMethod and Header support,2016-03-08,Closed,58,287,143,csproj ,10
+Fixing IL generation on out/ref parameter result assignment,2016-03-04,Merged,56,39,2,,2
+"Enabling StyleCop on all projects, and other minor cleanup",2016-03-04,Merged,54,515,102,StyleCop ,2
+Disposing of resources used by function invokers when host shuts down.,2016-03-04,Merged,52,34,1,,3
+Fixing broken build (remaining C# 6 features),2016-03-03,Merged,48,18,7,,1
+Fixing NuGet path resolution and initial function metadata (parameters) creation.,2016-03-03,Merged,45,61,42,,2
+Removing usage of C# 6 features,2016-03-02,Merged,43,39,27,cs ,10
+Metadata file format changes (function.json),2016-03-04,Closed,42,438,480,,14
+Gracefully Disable logging if not set.,2016-03-02,Closed,40,20,2,,2
+Making FileTraceWriter lock static to fix concurrency issues,2016-03-01,Merged,39,62,1,csproj ,3
+Moving binding temp file storage out of logs directory and into temp dir,2016-03-01,Merged,38,1,2,,1
+Generate host/function secrets if missing,2016-03-01,Merged,37,31,4,,2
+Generate host/function secrets if missing,2016-03-01,Closed,36,28,14,json cs ,5
+Adding C# language support,2016-03-02,Merged,32,"1,699",93,json csx csproj config cs ,16
+"Make host.json optional, and use a default host id from machine key",2016-02-25,Merged,29,27,6,,3
+Use constants + fix case comparison,2016-02-25,Merged,27,7,5,,2
+EventHub support in scripting.,2016-03-01,Closed,26,471,39,json js config cs csproj ,17
+Merging master changes into csharp and adding initial C# implementation,2016-02-25,Closed,25,"1,544",455,json csx cs csproj config nuspec ,17
+Initial implementation of C# support,2016-02-20,Closed,24,784,49,json csx csproj config cs ,16
+Allow running fsx scripts when there are spaces in the path to run.fsx.,2016-02-12,Closed,22,1,1,,1
+Faster restart,2016-02-12,Closed,8,202,20,json js csproj ,6
+Faster interactive experience,2016-02-04,Closed,7,137,97,,1

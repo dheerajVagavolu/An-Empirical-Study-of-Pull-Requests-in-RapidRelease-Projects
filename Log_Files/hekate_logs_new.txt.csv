@@ -1,0 +1,39 @@
+import sys for lines 17 and 34,2020-01-07,Merged,340,1,0,,1
+Some useful additions maybe?,2019-12-06,Closed,317,628,375,c ,4
+Feeling brave...,2019-12-06,Closed,316,617,367,,3
+removed double free,2020-01-07,Closed,302,0,1,,1
+heap: Fix calloc memset size,2020-01-07,Closed,301,2,2,,2
+heap: Prevent node chain collapse on free,2019-10-25,Merged,300,2,0,,2
+Setting minerva periodic training task ready,2019-08-19,Merged,280,1,1,,1
+Fix building with -C,2019-07-09,Merged,265,2,2,,1
+fix RCM key combo for AutoRCM disabled,2019-07-02,Closed,244,1,1,,1
+OFW 8.1.0 support,2019-06-29,Closed,229,70,12,h ,11
+[Tools] implement hash file generation on backup (#101),2019-05-19,Merged,216,64,14,,2
+[TSEC] Fix tsec timeout,2019-04-19,Merged,208,5,4,,1
+Added autoboot_list to README,2019-03-30,Merged,205,3,1,c ,1
+Add restart hekate menu entry,2019-01-23,Closed,177,8,0,,1
+Proper warmboot exploit implementation and documentation.,2018-12-17,Closed,170,56,35,h inl ,5
+Add warmboot patches for efuse checks,2018-12-16,Merged,166,52,8,h ,3
+Fine-tune dram configs,2018-12-16,Merged,165,28,26,,2
+Fix ipatch printing,2018-12-16,Merged,164,1,1,,1
+Fix ipatches backup on dumping,2018-12-15,Merged,162,5,5,,2
+Fix debug uart,2018-12-15,Merged,158,51,31,h ,5
+Auto HOS power off manual failsafe,2019-04-15,Closed,152,3,0,,1
+Turn off console if volume up,2018-12-02,Closed,151,3,0,,1
+Ignore hidden files when using wildcards.,2018-11-10,Merged,142,7,7,h ,5
+Ignore hidden files when using wildcards.,2018-11-09,Closed,140,7,7,h ,5
+"Add ""Silent"" auto full power off option",2018-09-30,Merged,125,26,18,c ,2
+just use normal arm-none-eabi toolchain,2018-09-24,Closed,121,115,87,c h modules/hekate_libsys_lp0/Makefile modules/simple_sample/Makefile rules/dkarm_compat ,11
+add ipatch dump,2018-09-10,Merged,107,391,0,,2
+Add partial 6.0.0 support,2018-09-18,Merged,95,24,4,,2
+Allow disabling built-in custom splash,2018-08-20,Closed,74,6,1,h c ,3
+Implement basic elfloader/module support,2018-08-07,Merged,66,"1,542",46,Makefile md h ,5
+Update README.md to document `atmosphere` option in hekate.ini,2018-08-06,Merged,63,1,0,,0
+"Better nogc patch, no longer causes 10s hang on bootup and wakeup",2018-08-05,Merged,62,4,4,,1
+Add KIP1 patching support (with 2 FS patches included),2018-07-29,Merged,51,"1,552","1,038",md c h ,3
+Allow dumping TSEC keys to sd card,2018-07-10,Merged,44,32,9,,1
+fix archive bit on all files except official Nintendo directory,2018-07-06,Merged,35,66,51,,1
+Fix issue with Atmosphere 4.x kernel patches,2018-07-02,Merged,26,4,4,,1
+Fusee patches,2018-07-01,Closed,9,331,0,c h ,4
+Merge upstream,2018-06-15,Merged,7,278,151,c ,7
+Add SVC verification disable on 5.x,2018-06-03,Closed,1,1,1,,1

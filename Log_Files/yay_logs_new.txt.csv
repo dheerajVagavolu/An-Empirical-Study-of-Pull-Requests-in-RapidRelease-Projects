@@ -1,0 +1,464 @@
+Add error handler on saveConfig,2020-01-12,Merged,1147,6,5,,1
+Fix cached abs not getting the latest version,2019-12-26,Merged,1136,7,7,mod sum ,3
+Fix completionrefreshtime option in man page,2019-12-05,Closed,1131,1,1,,1
+Add low priority option [v3],2019-11-22,Closed,1122,55,0,completions/fish completions/zsh 8 ,8
+Add low priority option [v2],2019-11-21,Closed,1121,56,0,completions/fish completions/zsh 8 ,8
+Add low priority option,2019-11-21,Closed,1120,72,0,completions/fish completions/zsh 8 ,8
+Hide warnings for ignored packages,2019-11-11,Merged,1115,22,4,,4
+Remove tar support,2019-11-11,Merged,1111,55,189,completions/fish 8 ,6
+Ignore errors while diffing,2019-11-03,Merged,1107,2,11,,1
+Remove -F in fish completion,2019-10-30,Merged,1106,8,8,,1
+Update completions for zsh and bash to pacman 5.2,2019-11-11,Merged,1102,62,48,completions/zsh ,2
+Add SudoBin and SudoFlags,2019-10-28,Merged,1101,36,2,8 ,5
+completions/fish: refine from pacman 5.2.0 and yay 9.4.2,2019-10-29,Merged,1100,197,184,,0
+completions/fish: inherit completions from pacman,2019-10-25,Closed,1099,100,186,,0
+completions/fish: update for pacman 5.2,2019-10-24,Merged,1088,8,11,,1
+Remove [testing] for Arm release,2019-10-23,Merged,1083,2,58,Makefile go conf ,4
+Clarfiy Out Of Date Message,2019-10-23,Merged,1082,1,1,,1
+Update documentation,2019-10-21,Merged,1079,36,0,8 ,2
+Bump version for release,2019-10-22,Merged,1078,4,4,go 8 ,3
+Update go-alpm for pacman-next,2019-10-22,Merged,1077,104,82,mod sum com/Jguer/go-alpm/Dockerfile com/Jguer/go-alpm/Makefile txt ,10
+Remove delta support for pacman 5.2.0,2019-10-21,Closed,1074,0,4,,1
+Test failing CI,2019-10-21,Closed,1073,0,0,,1
+Move yay code into cmd/,2019-10-21,Closed,1072,13,8,go mod ,29
+more selfexplaining upgrade process,2019-10-19,Merged,1071,1,1,,1
+more selfexplaining upgrade process,2019-10-19,Closed,1070,1,1,,1
+Move abs cloning to it's own directory,2019-10-21,Merged,1068,12,2,,3
+Support AURDEST,2019-10-21,Merged,1067,5,0,,1
+Refactor files,2019-10-16,Merged,1064,163,150,go ,8
+"Change ref name used in git to compute diff to ""AURUTILS_SEEN"".",2019-10-15,Merged,1062,6,4,,1
+Enforce lint in CI,2019-10-13,Merged,1061,192,68,Makefile go ,9
+Add --searchby,2019-10-13,Merged,1056,102,47,mod sum txt ,9
+"Have ""make build"" build be the default again",2019-10-10,Merged,1054,3,3,,1
+Re-add --batchinstall and fix dep issues,2019-10-16,Merged,1053,154,102,,5
+Fix Typos,2019-10-10,Merged,1052,2,2,go ,2
+FR #994: Implement proper diff display,2019-10-12,Merged,1049,62,9,,2
+Module types,2019-10-07,Merged,1048,637,489,,5
+Move completion to submodule,2019-10-05,Merged,1046,99,95,go ,5
+Upload yay releases using github-actions,2019-10-04,Merged,1045,9,3,sh ,2
+Fix order of variables in makefile,2019-10-04,Merged,1044,9,11,Makefile ,2
+"Revert ""Merge pull request #778 from Morganamilo/group-transactions""",2019-10-04,Merged,1043,76,143,,5
+Only remove VCS if the package was removed successfully,2019-10-05,Merged,1041,6,2,,1
+Use BuildDir instead of cacheHome to store PKGBUILDS with -G,2019-09-30,Merged,1035,3,3,,1
+Refactor makefile/docker/CI,2019-09-29,Merged,1034,172,137,yml Dockerfile Makefile sh go ,10
+Change depsolver to not use a preallocated slice to get make only deps.,2019-09-23,Merged,1030,1,1,,1
+Changes -G in ABS to use git and symlink result.,2019-09-20,Merged,1029,36,5,mod ,2
+Fix typo,2019-09-12,Closed,1020,1,1,,1
+Fix typos and completion array,2019-09-12,Merged,1017,4,4,8 ,2
+WIP: Atomic refactoring into modules.,2019-10-16,Closed,1010,"7,009","11,563",yml Dockerfile Makefile sh ,6
+Fix travis from tripping on go vet.,2019-08-24,Merged,1009,4,4,go ,3
+Add YAY=1 indicator flag to makepkg invocation,2019-08-25,Closed,1008,2,0,,1
+improved install instructions,2019-08-19,Closed,1003,8,0,,0
+Correct package range in error message,2019-07-31,Merged,1000,1,1,,1
+Avoid unnecessary conversion,2019-07-19,Merged,989,1,1,,1
+print: out-of-date format,2019-06-19,Merged,969,1,1,,1
+Use modules with gcc-go9.1,2019-09-18,Closed,967,0,2,,1
+Hide provider menu with --noprovides,2019-06-17,Merged,965,4,0,,1
+Fix typo,2019-06-17,Merged,964,2,2,,1
+Defer cleanAfter and removeMake,2019-06-16,Merged,961,23,28,go ,2
+Updated sudo check for -Rp #943,2019-05-18,Merged,952,3,0,,1
+FR #936: Adds config parameter for searching in package names only and not in descriptions,2019-10-28,Closed,948,181,12,completions/bash completions/fish completions/zsh 8 ,9
+Add SudoBin and SudoFlags,2019-10-28,Closed,942,34,2,8 ,5
+Fixups,2019-04-23,Merged,939,23,38,mod sum gitignore yml com/Jguer/go-alpm/LICENSE md c txt ,33
+Speedup git clone by setting clone depth,2019-04-14,Closed,935,1,1,,1
+Added --copyleft-only argument,2019-04-11,Closed,931,55,0,,4
+Added arm v7 build,2019-04-10,Merged,930,32,3,Dockerfile sh ,4
+"Fix #919, require explicit sort mode defined",2019-04-04,Merged,928,47,24,,3
+Update go-srcinfo,2019-04-01,Merged,927,8,5,sum go txt ,4
+"Revert ""Add SudoBin""",2019-03-29,Merged,923,2,31,8 ,5
+Fix #918. Get back in the groove,2019-03-29,Merged,922,2,2,,1
+Add SudoBin,2019-03-29,Merged,916,31,2,8 ,5
+Some more code improvements,2019-03-15,Merged,909,37,32,,6
+Fix function comments based on best practices from Effective Go,2019-03-13,Merged,908,1,1,,1
+Improve the man page's writing and fix typos.,2019-03-06,Merged,904,15,15,,1
+code improvements,2019-03-05,Merged,903,19,24,,3
+rewrite if-else to switch statement,2019-03-04,Merged,901,9,7,,2
+Update go-alpm,2019-03-05,Merged,899,7,2,sum go txt ,3
+remove unnecessary assignment,2019-03-02,Closed,897,2,3,,2
+remove unwanted space,2019-03-01,Merged,895,1,1,,1
+fix typo,2019-02-20,Merged,888,1,1,,1
+Update go-alpm,2019-02-14,Merged,886,36,39,mod sum txt ,11
+Why you shouldn't just rely on: git commit -a,2019-02-04,Merged,879,61,0,,2
+Update go-alpm,2019-02-04,Merged,878,364,365,mod sum ,10
+Fix typos in help menu,2019-02-03,Merged,876,2,2,,1
+Support -Sl,2019-01-26,Merged,873,55,6,8 mod ,3
+"Revert ""Merge pull request #767 from Morganamilo/merge-dep-pool-order""",2019-01-17,Merged,866,906,955,,1
+"add bash completion for -G,--getpkgbuild",2019-01-07,Merged,854,2,0,,1
+Match the query date/time to pacman. Fixes #831,2018-12-12,Merged,832,8,2,,1
+Readd gopath tweaks to function in makepkg. Only for gcc-go,2018-12-07,Merged,826,2,0,Makefile ,2
+Detect gccgo and give them their own flags. #824,2018-12-07,Merged,825,9,2,,1
+fix copy-paste error,2018-12-06,Merged,822,1,1,,1
+Fix tests broken in master,2018-12-03,Merged,819,6,68,go ,6
+"Fixed a comment in download.go, line 18",2018-12-02,Merged,817,1,1,,1
+Fix each iota not starting at 0,2018-11-29,Merged,815,4,0,,1
+Print errors on stderr,2018-11-21,Merged,799,56,54,,11
+Modified readme to show extra dependency,2018-10-30,Merged,791,1,0,,0
+Unexport consts. Make default a literal,2018-10-22,Merged,783,109,111,,7
+--noprovides now hides Yay's provider menu,2018-10-18,Merged,779,7,2,8 ,2
+Allow many aur packages to be installed at once.,2019-06-17,Merged,778,145,78,,6
+Handle libalpm callbacks when checking DB satisfiers for a package,2018-10-16,Merged,775,3,1,,1
+Follow --color= conventions from gnu coreutils,2018-10-17,Closed,771,"179,838",14,Makefile go com/mattn/go-isatty/LICENSE org/x/sys/AUTHORS org/x/sys/CONTRIBUTORS org/x/sys/LICENSE org/x/sys/PATENTS ,17
+Added a more verbose message when db.lck exists,2018-10-13,Merged,770,3,1,,1
+Add ask to accepted flags,2018-10-13,Merged,768,1,0,,1
+Merge dep pool order and rework inner conflicts,2018-10-18,Merged,767,951,906,,1
+Don't abort on inner conflicts,2018-10-10,Merged,766,20,8,,1
+Allow --print again,2018-10-09,Merged,764,1,1,,1
+Fix missing '-' in flags,2018-10-09,Merged,763,2,3,,1
+Use correct source protocol for VCS checks,2018-10-09,Merged,760,9,6,,2
+"Revert ""Don't show missing packages if they are ignored.  Closes #752""",2018-10-08,Merged,757,0,9,,1
+Don't show missing packages if they are ignored.  Closes #752,2018-10-07,Merged,756,9,0,,1
+Fix Typos,2018-10-03,Merged,744,3,3,go ,3
+Support color = auto,2018-09-27,Merged,739,11,2,,2
+Rework cleanafter,2018-10-04,Merged,738,57,25,completions/bash completions/fish completions/zsh 8 ,8
+Fix provider menu showing when it shouldn't,2018-09-25,Merged,732,10,1,,3
+Update issue template,2018-09-25,Merged,729,11,2,,0
+Fix -Qu to respect -q. Fixes #726,2018-09-24,Merged,727,10,2,,1
+Fix fish completions,2018-09-23,Merged,725,2,3,,1
+Accept --assume-installed,2018-09-23,Merged,724,1,0,,1
+Fixup Makefile,2018-09-23,Merged,723,2,4,,1
+Fix misleading word in man page and missing \n,2018-09-19,Merged,714,2,1,8 ,2
+Set SigLevel to 0,2018-09-19,Merged,712,7,6,,1
+Fix hard coded path,2018-09-15,Merged,709,1,1,,1
+Allow building with bmake and don't rebuild unnecessarily,2018-09-23,Closed,708,12,8,,1
+Specify canonical import path,2018-09-15,Closed,707,1,1,,1
+Fix build when go module is enabled,2018-09-15,Merged,706,1,1,,1
+Convert to go modules,2018-12-03,Merged,705,254,78,lock toml Makefile md mod sum yml gitignore txt ,9
+add path expansion for '~' in 'config.BuildDir',2018-09-14,Closed,703,4,0,,1
+Don't assume the go root,2018-09-07,Merged,693,0,1,,1
+Fix builddir defaulting to config instead of cache,2018-09-04,Merged,688,3,3,,1
+Expand env before making builddir,2018-09-04,Merged,687,4,6,,2
+Fixup some download bugs,2018-09-04,Merged,684,23,14,,3
+Fix depends sometimes being ordered incorrectly,2018-09-04,Merged,683,12,11,,2
+Use go-pacmanconf for config parsing,2018-09-10,Merged,682,"1,181",29,toml go conf ,8
+Allow running yay via sudo,2018-10-14,Closed,679,8,0,,1
+Expand environment variables in config,2018-09-01,Merged,678,38,4,,3
+Dont rm directories with -G unless using -f,2018-08-30,Merged,676,74,21,completions/bash completions/fish completions/zsh 8 ,7
+Fix typo in  README.md,2018-08-30,Merged,675,1,1,,0
+Update shell completion for --aururl,2018-08-30,Merged,674,477,476,completions/fish ,2
+Fix tests and document --aururl,2018-08-29,Merged,669,21,23,8 ,7
+Make hash an unsigned integer,2018-08-29,Merged,668,2,2,,1
+Remove the timeout warning for vcs checks,2018-08-28,Merged,666,0,1,,1
+Expand documentation for --devel,2018-08-28,Merged,665,12,1,,1
+"README grammar, spelling, rewording, organizing",2018-08-30,Merged,661,104,68,,0
+Fixed spelling errors,2018-08-20,Merged,648,10,10,,1
+Correctly set config.AURURL after parsing flags,2018-08-19,Merged,646,6,11,,3
+Add --aururl,2018-08-19,Merged,645,20,7,,5
+Update vendored dependencies,2018-08-18,Merged,644,18,15,go ,2
+Only print the clean number menu when needed,2018-08-18,Merged,643,21,6,,1
+skip build when package is up to date and --needed,2018-08-18,Merged,642,16,2,,1
+Use goroutines for fetching packages via -G,2018-08-18,Merged,641,99,97,go ,6
+Refactor install,2018-08-18,Merged,637,229,213,,2
+Remove redundant variable from makefile,2018-08-12,Merged,633,0,1,,1
+Add --needed config option,2018-08-09,Closed,630,14,0,8 ,3
+"Support = on long opts, not short opts",2018-08-08,Merged,628,4,8,,1
+Support the NO_COLOR environment variable,2018-08-28,Closed,626,1,1,,1
+Update bash completion,2018-08-23,Merged,625,23,28,,1
+Give an example of how to update only AUR packages,2018-08-05,Merged,624,4,0,,1
+Fix panic on invalid version strings,2018-08-05,Merged,622,4,0,,1
+Fix padding on time update,2018-08-04,Merged,620,5,5,,1
+Align version strings right,2018-09-15,Closed,619,7,6,,1
+Ensure AUR upgrades actually use the AUR,2018-08-03,Merged,618,2,5,,1
+"Add yay specific args, drop conflicting args",2018-08-05,Merged,615,13,8,8 ,3
+Refactor main,2018-08-15,Merged,614,110,163,,2
+Parallelize pkgbuild download and use MultiError,2018-08-09,Merged,613,139,69,,6
+Accept - and -- options,2018-08-02,Merged,612,1,0,,1
+Don't show .SRCINFO in diffs,2018-08-02,Merged,611,1,1,,1
+Error on unkown args,2018-08-02,Merged,610,310,220,,1
+Ensure devel packages exist when updating,2018-07-31,Merged,605,32,32,,1
+Add a link/shield to Go Report Card,2018-08-02,Closed,603,2,1,,0
+Use a `cleanup` function instead of `goto`,2018-08-02,Closed,602,79,105,,1
+Only minor changes,2018-08-02,Merged,601,139,151,,2
+Update completion,2018-07-30,Merged,600,9,1,completions/zsh ,2
+Remove unneeded variables,2018-07-30,Merged,599,22,24,,4
+Split stdin on new line,2018-07-30,Merged,598,8,14,,1
+Always pass PacmanConf to pacman,2018-07-28,Merged,596,22,21,,4
+Use no-progress when cloning packages,2018-07-28,Merged,595,1,1,,1
+Update man page and usage,2018-07-30,Merged,594,483,544,,1
+'Packages to cleanBuild?' prompt has misspellings,2018-07-29,Closed,593,2,2,,1
+Show alpm version with -V,2018-07-28,Merged,592,3,1,,1
+Add completions to fish for series 900,2018-07-27,Merged,591,11,3,,1
+Fixed typos and improved punctuation consistency in README,2018-07-25,Merged,588,8,7,,0
+Wrap -Sp,2018-07-25,Merged,587,8,4,,2
+Support Usage in pacman.conf,2018-08-02,Merged,585,254,72,go c ,11
+Rework completion,2018-07-26,Merged,584,73,75,,5
+Support --aur/--repo with -Sc,2018-07-24,Merged,583,13,3,,2
+Add extra fields to -Si[i],2018-07-24,Merged,582,19,1,go ,3
+Don't print nothing to do every time,2018-07-23,Merged,580,3,1,,1
+Refacotr continueTask(),2018-07-23,Merged,578,23,21,,4
+yay.8: typo in --nopgpfetch flag,2018-07-21,Merged,577,1,1,,1
+"Remove unused code, fix typo for -g flag",2018-07-21,Merged,576,10,71,,3
+"Add --{no,ask}removemake",2018-07-21,Merged,575,13,1,,3
+Wait for db.lck to become available before starting a db operation,2018-07-21,Merged,573,64,6,,2
+Abort ealy when there's conflicts with --noconfirm,2018-07-20,Merged,571,4,0,,1
+Fix devel updates,2018-07-20,Merged,570,8,2,,1
+Make output more similar to `pacman`s,2018-07-19,Merged,569,2,4,,1
+Show tar diffs as diffs instead of editing,2018-07-19,Merged,568,16,21,,1
+Refactor install,2018-07-19,Merged,567,228,306,,3
+Fixup FAQ and manpage typo,2018-07-19,Merged,566,10,3,8 ,1
+Add --makepkgconf,2018-07-24,Merged,562,12,0,,4
+Show .install files with pkgbuilds when editing,2018-07-19,Merged,559,22,10,,1
+Fix typo,2018-07-17,Merged,558,2,2,,1
+Update README for `--combinedupgrade` option,2018-07-17,Closed,557,7,0,,0
+Fix group installs for --nocombinedupgrade,2018-07-16,Merged,552,6,0,,1
+"Update readme, depreciate -Pu and -Pn",2018-07-17,Merged,550,15,21,go 8 ,2
+Show nothing to do message for nocombinedupgrade,2018-07-12,Merged,544,1,0,,1
+Add config option to enable or disable AUR completions,2018-07-26,Closed,539,53,14,,3
+Fix -Y and remove debug messages,2018-07-06,Merged,537,1,3,,1
+Properley seprate aur and repo targets.,2018-07-05,Merged,535,38,6,,1
+Support source URLs that contain ? again,2018-07-05,Merged,532,1,0,,1
+Support source URLs that contain ?,2018-07-04,Merged,531,2,0,,1
+Also remove -u when not doing combined upgrade,2018-07-04,Merged,530,8,0,,1
+Replace gopkgbuild with go-srcinfo,2018-07-16,Merged,528,791,"1,318",toml go com/Morganamilo/go-srcinfo/LICENSE ,9
+run pacman -Qk(k) as root,2018-07-02,Merged,526,3,0,,1
+Support commas in parserNumberMenu,2018-07-02,Merged,524,7,2,,2
+Add bash and zsh completion for new flags,2018-07-01,Merged,521,7,2,completions/bash completions/zsh ,3
+Fix invalid uppercasing in flags,2018-07-01,Merged,520,4,4,completions/fish ,2
+Add fish native pacman completions,2018-07-01,Merged,519,6,0,,1
+Document --[no]useask and --[no]combinedupgrade,2018-07-01,Merged,518,38,1,8 ,2
+Separate Pacman upgrade and AUR Upgrade by default,2018-06-30,Merged,516,115,40,,4
+Return when no packages are to be installed.,2018-06-23,Merged,507,4,0,,1
+Remove default usage of --ask,2018-06-24,Merged,504,38,13,,4
+Correctly handle AUR providers during noconfirm,2018-06-19,Merged,503,2,2,,1
+Include print in noopt,2018-06-19,Merged,501,1,1,,1
+Add missing editorflags,2018-06-19,Merged,500,1,0,,1
+Fix some fish completions. Fixes #498. Add missing flags,2018-06-19,Merged,499,33,18,,1
+Reset before editing,2018-06-12,Merged,489,16,6,,1
+Update bash and zsh completion,2018-06-12,Merged,488,24,5,completions/bash completions/zsh ,3
+Remove ShowDiffs from config struct,2018-06-11,Merged,487,0,1,,1
+Add flags for diff and upgrade to match the rest and document it all,2018-06-11,Merged,486,112,11,8 ,6
+Enable clean menu by default,2018-06-11,Merged,485,1,1,,1
+Correctly set op and ignore for repo only installs,2018-06-11,Merged,484,2,0,,1
+Pass to pacman when there's no AUR packages,2018-06-10,Merged,481,97,102,,1
+Rework editing and diff showing,2018-06-10,Merged,480,125,67,,3
+Fixed trivial typo,2018-06-10,Merged,479,1,1,,1
+Show diffs before merging,2018-06-10,Merged,478,77,45,,3
+Run yay as root but build as nobody,2018-09-04,Closed,476,116,4,,2
+Fix failing tests,2018-06-09,Merged,475,6,6,,1
+Print true pkgver when skipping build,2018-06-05,Merged,468,8,6,,1
+Fix file paths,2018-06-05,Merged,467,14,2,,1
+Tweek config and cache dir initialization,2018-06-04,Merged,462,19,16,,1
+Support --aur/--repo for -Ss and -Y,2018-06-04,Merged,461,63,25,,3
+Update docs,2018-06-04,Merged,459,105,38,go 8 ,4
+Use slices for targets instead of stringsets,2018-06-02,Merged,456,29,39,,5
+Don't show provider menu for targets during -Y,2018-06-02,Merged,455,18,25,,1
+Stop prepare running twice,2018-06-02,Merged,454,2,2,,1
+Disable git terminal prompt,2018-06-02,Merged,453,2,1,,2
+Support db prefix and --repo/--aur on -G,2018-06-01,Merged,449,86,28,,4
+Implement diffs for pkgbuild viewing.,2018-06-01,Merged,447,137,20,,5
+Add config option for pgp key fetching,2018-05-31,Merged,446,11,3,,3
+Support --aur and --repo flags,2018-05-31,Merged,445,56,24,,6
+Support any PKGDEST and PKGEXT,2018-05-31,Merged,444,35,63,,2
+Tweak -Si output,2018-05-30,Merged,442,22,16,,1
+5.1 vendor update,2018-05-28,Merged,432,15,21,go ,6
+Exit code 1 when packages are missing from -Si and -G,2018-05-28,Merged,431,9,1,,2
+all: remove unused parameters and results,2018-05-21,Closed,425,9,22,,3
+Document news and use build date over install date,2018-05-18,Merged,423,24,13,go ,3
+Only show new news when calling -Pw,2018-05-16,Merged,420,39,13,,2
+Implement new gopkgbuild Newer method,2018-05-15,Merged,419,13,27,go ,3
+Fixes #417,2018-05-15,Merged,418,31,23,,2
+Updated vendor dependencies,2018-05-13,Merged,415,2,2,go ,2
+Fix typos,2018-05-12,Merged,412,17,17,go ,5
+Fix typo --foreigne to --foreign,2018-05-12,Merged,411,1,1,,1
+Fix --ignore flag while skipping updates ammended,2018-05-11,Merged,410,7,4,,1
+Fix --ignore flag while skipping updates,2018-05-11,Merged,409,7,1,,1
+"Tweak readme, add install and contrib sections",2018-05-11,Merged,407,66,6,,0
+Add missing --ignorearch arg to makepkg call,2018-05-10,Merged,405,7,1,,1
+Lint,2018-05-10,Merged,403,2,2,,2
+Dependency system rewrite,2018-05-30,Merged,401,"1,239","1,123",,3
+Add EditorConfig file,2018-05-09,Closed,397,8,0,,1
+Print warnings about newer local packages then remote versions,2018-05-14,Merged,396,41,12,,1
+Print each out of date package at new line,2018-05-08,Closed,395,2,3,,1
+Implement c29a80 properly,2018-05-07,Merged,393,5,1,,1
+Fix -Sc sometimes cleaning split packages,2018-05-07,Merged,391,1,1,,1
+Refactor complex map types into their own type,2018-05-07,Merged,390,37,34,,4
+Print the descriptions of news item,2018-05-08,Merged,387,116,23,,2
+Add the feed to sync,2018-09-04,Closed,386,51,16,,4
+Get arch package news using --print --news,2018-05-06,Merged,385,63,2,completions/bash completions/fish completions/zsh ,5
+Use ISO 8601 date format (yyyy-mm-dd),2018-05-04,Merged,383,2,2,,1
+Add mised filepath.Join() calls,2018-05-03,Merged,380,1,1,,1
+Make upgrade output as table,2018-05-07,Merged,377,27,11,,2
+Fixes #373,2018-04-28,Merged,374,8,0,,1
+Fix warning by megacheck in parser,2018-04-27,Merged,372,6,2,,1
+Use megacheck to lint project,2018-04-27,Merged,371,15,22,,8
+Test arch-travis on yay,2019-03-29,Merged,370,33,0,sh ,2
+Fix typos,2018-04-23,Merged,367,16,16,completions/fish completions/zsh 8 go ,6
+Update man page and tweak usage,2018-04-23,Merged,366,26,4,8 ,2
+Prefix aur/ to aur updates,2018-04-17,Merged,362,1,1,,1
+Remove duplicate cmd.Run(),2018-04-17,Merged,361,0,5,,1
+Small fixups,2018-04-17,Merged,360,25,21,,9
+Remove test for formatKeysToImport(),2018-04-17,Merged,358,0,88,,1
+Add more tests for upgrade highlighting,2018-04-17,Merged,357,6,0,,1
+Use filepath.Join() for adding paths together,2018-04-17,Merged,356,27,27,,6
+Add support for -Sc,2018-04-17,Merged,355,184,11,go 8 ,6
+Dont bump pkgver() while downloading sources,2018-04-15,Merged,352,65,45,,4
+Support entering package name during askCleanEdit,2018-04-12,Merged,350,6,4,,1
+Lots of formatting tweaks,2018-04-12,Merged,349,149,112,,6
+Don't mark repo upgrades as deps during sysupgrade,2018-04-11,Merged,348,19,5,,2
+Support flags when using the editor,2018-04-09,Merged,345,38,25,,4
+add fish completions,2018-04-09,Merged,341,9,0,,1
+Update bash and zsh completion,2018-04-09,Merged,340,12,1,completions/zsh ,2
+Document fcf0ee34d17e20dc7cb99e8b6547f71c5ab522e4,2018-04-09,Merged,339,7,0,8 ,2
+Show pkgver during -Ss when package is out of date,2018-04-09,Merged,338,12,4,,1
+Update usage and man page for new flags,2018-04-06,Merged,332,48,0,8 ,2
+Fix number menu,2018-04-05,Merged,330,6,1,,1
+Highlight diff between old and new versions better,2018-04-09,Merged,329,128,42,,3
+Repect --answer* flags when --noconfirm is set,2018-04-04,Merged,328,4,12,,3
+Add flags for sort order and automating menu input,2018-04-04,Merged,327,92,35,,6
+Fix sysupgrade and extend help to work with other operators,2018-04-03,Merged,325,19,5,,2
+Don't abort during AUR search error,2018-04-03,Merged,322,13,8,,2
+Fix versioned dep checking,2018-04-03,Merged,320,28,6,,2
+Skip SRCINFOs that cannot be parsed during gendb,2018-04-03,Merged,318,22,3,,2
+Strip db prefix from request targets,2018-04-02,Merged,317,3,0,,1
+Try each search term against RPC if one fails,2018-04-02,Merged,315,18,3,,2
+Try alpmArch and any when looking for built pkgs.,2018-04-02,Merged,313,15,8,,1
+Fix missing -P in example.,2018-03-31,Merged,309,1,1,,1
+Default action (running yay without any args) is now to -Syu.,2018-03-31,Merged,308,23,24,,1
+Fix typo in man page,2018-03-31,Merged,304,1,1,,1
+Only pass needed upgrades to deptree,2018-04-02,Merged,302,50,43,,3
+Save provides seperatly from pkgnames,2018-03-30,Merged,301,76,17,,1
+Don't check versioning for devel packages,2018-03-29,Merged,300,18,6,,1
+Use git clone for pkgbuild downloading,2018-04-16,Closed,297,93,3,,5
+update shell completion,2018-03-28,Merged,296,9,2,completions/fish completions/zsh ,3
+Fix \n in man page.,2018-03-27,Merged,295,1,1,,1
+Update fish completion regarding GPG options,2018-03-27,Merged,294,2,0,,1
+Fix #292,2018-03-26,Merged,293,1,1,,1
+Sort upgrade menu by pacman.conf order.,2018-03-28,Merged,290,28,3,,1
+Add -Qu to the extended pacman options,2018-03-25,Merged,288,3,4,go ,2
+Suppress pacman error printing,2018-03-25,Merged,286,29,2,,3
+Handle db/name with --redownload and similar flags,2018-03-23,Merged,285,11,1,,1
+Do not depend on the Internet for keys_test.go,2018-03-23,Merged,284,"4,108",11,testdata/keys/11E521D646982372EB577A1F8F0871F202119294 ,2
+Fix zsh completions,2018-03-23,Merged,283,299,322,,0
+Support provides in -Si,2018-03-23,Merged,282,1,0,,1
+Improve makefile,2018-03-23,Merged,280,48,16,Makefile go ,3
+Add missing err check,2018-03-22,Merged,278,5,0,,1
+Separate gendb from install,2018-03-25,Merged,277,62,43,,5
+Fix nothing to do if upgrading only repo packages,2018-03-22,Merged,276,9,2,,1
+Recursively remove dependencies when using yay -Yc,2018-04-09,Merged,275,94,18,go ,5
+Add util.go and main.go,2018-03-22,Merged,273,358,389,,1
+Update version for close release,2018-03-22,Merged,272,332,306,bash-completion → completions/bash fish → completions/fish ,3
+Don't mark targets as dependencies,2018-03-22,Merged,271,3,4,,1
+More conflict checking,2018-03-22,Merged,269,375,51,,1
+Respect --color,2018-03-21,Merged,267,22,9,,3
+Extend aur support for -Qu,2018-03-21,Merged,266,41,12,,2
+Refactor and improve the upgrade menu,2018-03-22,Merged,265,96,107,,2
+Move repo install to after numbermenus,2018-03-21,Merged,264,43,46,,1
+Handle pkgbuilds with an unsupported arch,2018-03-19,Merged,260,93,81,,3
+Cleanup,2018-03-19,Merged,259,6,56,,5
+Be more exact when looking for cached packages,2018-03-19,Merged,258,15,3,,1
+Updates on PGP keys,2018-03-18,Merged,256,108,44,go 8 zsh-completion ,9
+Fix and improve version checking,2018-03-17,Merged,255,38,15,,2
+Fix updating of vsc packages,2018-03-17,Merged,254,11,5,,2
+Update vendored repositories,2018-03-16,Merged,252,137,12,c go ,5
+Implement the provider question  and imatate pacman,2018-03-20,Merged,251,129,41,,5
+Support db/name for groups,2018-03-16,Merged,250,14,6,,3
+Use a question callback for ignorepkg,2018-03-16,Merged,249,15,1,,3
+Check versioned deps during the dep fetching process,2018-03-17,Merged,247,91,10,,2
+Experimental Concurrent Source downloading,2018-04-21,Closed,246,11,6,,1
+Error when installing AUR packages as root,2018-03-14,Merged,244,3,0,,1
+Add --rebuild flag,2018-03-15,Merged,243,55,8,8 ,5
+Improve db/name system and add support for -Si,2018-03-13,Merged,242,25,4,,2
+Respect --ignore and --ignoregroup flags,2018-03-12,Merged,240,15,2,,2
+Ensure targets are never listed as make depends,2018-03-12,Merged,239,4,0,,1
+Add full support for reading from stdin,2018-03-12,Merged,238,10,0,,1
+Pass yay -Sl to pacman,2018-03-11,Merged,237,3,0,,1
+Fix -G for non split packages and support multilib,2018-03-11,Merged,236,9,3,,1
+Add support for db/name,2018-03-13,Merged,235,38,24,,4
+Update zsh completion,2018-03-11,Merged,234,16,0,,1
+Add new completions of yay,2018-03-11,Merged,233,16,0,,1
+Fix formatting on upgrade menu,2018-03-11,Merged,231,15,14,,2
+Add info for all files and directories that used,2018-03-11,Merged,230,40,4,,1
+Mention config files in the man page,2018-03-10,Merged,229,7,0,,1
+Use numbermenu for cleanBuilds and editPkgbuilds,2018-03-11,Merged,227,487,223,,1
+Use goroutinuies for devel updates,2018-03-13,Merged,225,68,25,,3
+Handle sudoloop flag,2018-03-08,Merged,223,4,0,,1
+Fix min(),2018-03-08,Merged,222,1,1,,1
+Fix for yay locking when querying AUR,2018-03-08,Merged,221,2,0,,1
+Add flags for all missing config options,2018-03-08,Merged,220,110,6,8 ,3
+Remove accidental debug string,2018-03-07,Merged,217,0,1,,1
+Add --save option,2018-03-07,Merged,216,22,14,8 ,3
+Add --mflags option to pass args to makepkg,2018-03-07,Merged,215,28,8,8 ,4
+Fix group installs,2018-03-07,Merged,214,3,3,,1
+Add GitBin and tweak defaults,2018-03-07,Merged,213,8,6,,2
+Set default config in the correct place,2018-03-07,Merged,212,2,1,,1
+Fix error when cacheHome does not exist,2018-03-07,Merged,210,43,28,,2
+Add support to skip pkgbuild downloads.,2018-03-07,Merged,208,51,23,8 ,4
+Use git ls-remote to track devel updates,2018-03-06,Merged,206,188,169,,5
+add missing options to bash. Closes #121.,2018-03-04,Merged,203,5,2,,1
+Zsh completion,2018-03-04,Merged,202,33,2,zsh-completion ,2
+Add missing space before devel update,2018-03-03,Merged,201,1,1,,1
+Fix Yay showing AUR prompts when it shouldnt,2018-03-03,Merged,199,1,0,,1
+"Add comments, spellchecking and formatting",2018-03-03,Merged,198,121,38,,4
+Improve printing,2018-03-02,Merged,196,122,174,,4
+Fix duplicate packages when printing dependencies,2018-03-01,Merged,195,16,2,,1
+Update manpage and usage,2018-03-01,Merged,193,51,33,8 ,3
+Correctly mark packages as dependencies,2018-03-01,Merged,192,64,9,,2
+Abort if editor does not return 0,2018-02-28,Merged,190,4,1,,1
+Create issue template,2018-02-28,Merged,189,12,0,,0
+Better dep checking on split packages,2018-02-28,Merged,187,34,34,,1
+Check for groups when creating the depTree,2018-02-27,Merged,186,6,0,,1
+Fix duplicate packages when printing dependencies,2018-02-27,Merged,184,2,2,,1
+Save the VSC info when install finishes.,2018-02-27,Merged,183,17,25,,4
+Fix tests,2018-02-27,Merged,180,4,5,,2
+Ask if yay should try to import missing PGP keys,2018-03-13,Merged,179,398,2,,3
+No longer split on space in getNameFromDep(),2018-02-22,Merged,177,1,1,,1
+Fix -G being unable to download split packages,2018-02-27,Merged,175,2,2,,1
+cmd: error on unknown command,2018-02-21,Closed,173,3,0,,1
+Fix handling of -- in parser,2018-02-20,Merged,171,6,0,,2
+upgrade: be consistent about no colors,2018-02-21,Merged,169,3,0,,1
+add config.String() to pretty print default config in valid json,2018-02-27,Merged,168,24,4,8 ,3
+"Remove unused code, prune dependencies, appease vet and gofmt",2018-02-27,Merged,167,7,"3,082",go gitignore md ,7
+Improvements to install algorithm,2018-02-27,Merged,164,416,337,,3
+Give error when failing to parse .SRCINFO,2018-02-18,Merged,160,12,11,,1
+"Fix passing incorrect flags during yay -Sy[s,i]",2018-02-18,Merged,157,3,0,,1
+Fix -Si failing when given a non existing package,2018-02-17,Merged,155,2,1,,1
+Improve conflict handling,2018-02-17,Merged,154,39,49,,1
+Hang on first sudo,2018-02-16,Merged,153,17,4,,1
+Improvements to install algorithm,2018-02-16,Merged,152,327,92,,2
+Added space before [Y/n] and [y/N] prompts.,2018-02-15,Merged,150,2,2,,1
+Fix not passing enough args to pacman,2018-02-15,Merged,149,4,7,,2
+Fix #138. Fix some display messages and eliminates secret sauce,2018-02-13,Merged,148,20,14,,5
+Make devel operations respect default branch,2018-02-13,Merged,144,170,17,,1
+"Revert ""Respect --noconfirm in config""",2018-02-09,Merged,143,0,6,,1
+Respect --noconfirm in config,2018-02-09,Merged,142,6,0,,1
+Re-add support for PacmanBin,2018-02-08,Merged,139,1,1,,1
+Prettify repository download messages,2018-02-06,Merged,136,35,34,,3
+s/PKGBuild/PKGBUILD,2018-02-05,Merged,133,4,4,go fish ,2
+Clone ABS/AUR Git repository instead of tarball,2018-04-10,Closed,130,47,61,go ,3
+Fix typos in code/comments,2018-02-05,Merged,129,14,14,,4
+Fixes #122 properly,2018-01-31,Merged,126,15,19,,3
+Filter out yay command line options,2018-01-31,Merged,124,8,0,,1
+add yay-git to the packages list,2018-01-31,Merged,118,1,1,,0
+Color print,2018-01-26,Merged,113,221,110,,4
+Fix install not listing all dependencies,2018-01-22,Merged,111,4,0,,1
+Fix numbermenu not working with new install alg,2018-01-22,Merged,107,7,1,,2
+Basic new Print option implementation,2018-01-20,Merged,106,471,456,go fish ,6
+New install algorithm,2018-01-20,Merged,105,507,222,,2
+Localizing yay!,2018-04-10,Closed,103,124,2,go ,4
+Count from 0 on upgrade prompt,2018-01-18,Merged,102,6,6,,1
+Fix makepkg not behaving correctly,2018-01-18,Merged,101,1,1,,1
+Small fix and manpage update.,2018-01-16,Merged,98,53,115,8 ,2
+Support for ranges when selecting packages,2018-01-18,Merged,97,200,43,,2
+Use go-alpm for ignorepkg/ignoregroup,2018-01-14,Merged,96,22,31,,1
+Fix formatting on -Si for aur packages,2018-01-13,Merged,94,11,6,,1
+Add missing --bottomup option,2018-01-13,Merged,93,2,0,,1
+fix query info with -Si,2018-01-18,Merged,92,14,9,,2
+"Revert ""Add missing --bottomup option""",2018-01-06,Merged,91,114,54,8 ,2
+Refactoring and rewriting the argument parsing system,2018-01-14,Merged,89,968,239,,1
+"Fix crash when package version is ""invalid""",2018-01-13,Merged,84,13,16,,1
+Count from 1 instead of 0 when searching packages,2018-01-06,Merged,83,12,12,,3
+Add missing --bottomup option,2018-01-06,Merged,82,54,114,8 ,2
+Using '-' doesn't raise an error,2017-11-28,Merged,68,1,1,,1
+Print VCS error details,2017-11-21,Merged,67,5,2,,1
+Prevent file corruption by truncating the files,2017-11-21,Merged,66,2,2,,2
+Add -V and -h for flag parsing,2017-11-12,Merged,63,5,1,,1
+Fix two typos in README.md,2017-10-17,Merged,55,2,3,,0
+Make default config file non-executable,2017-10-16,Merged,53,1,1,,1
+Resolve a few typos in documentation,2017-10-16,Merged,51,10,10,,3
+use Command.Dir in aur.PkgInstall; attempt to fix #32 #47,2017-10-02,Merged,48,4,8,,1
+Suffix BuildDir with uid to avoid perm problems,2017-09-05,Merged,44,6,1,,1
+Improved readme,2017-08-05,Merged,43,3,4,,0
+Fill default config before trying to unmarshal config file,2017-07-06,Merged,37,5,2,,1
+Dev,2017-07-03,Merged,33,"1,311","1,186",go ,1
+Fix TimeUpdate param usage,2017-06-23,Merged,31,2,2,,2
+[vcs/github] Use pkgName to search for saved package info,2017-06-14,Merged,28,3,3,,1
+Improve query list formatting,2017-05-21,Merged,22,7,7,,3

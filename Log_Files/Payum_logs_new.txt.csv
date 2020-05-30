@@ -1,0 +1,475 @@
+Add support for Stripe v6,2019-11-03,Closed,808,1,1,,1
+Missing comma,2019-07-09,Merged,807,1,1,,0
+Add Quickpay gateway,2019-02-11,Merged,795,1,0,,0
+doc(symfony): add guide to show how encrypt Gateway configurations in database,2019-03-06,Merged,794,155,1,,0
+doc(symfony): improve documentation for Gateway configuration in backend,2019-02-01,Merged,793,101,6,,0
+fix PayPal express checkout status action,2018-12-18,Merged,786,18,18,,2
+Extend throwable on exception interface,2019-01-05,Closed,785,1,1,,1
+Allow configure image and title for stripe checkout modal,2018-11-01,Closed,781,62,0,php ,5
+Moved to psr-4,2018-10-30,Merged,779,1,1,,1
+Update .travis.yml,2018-10-30,Merged,778,3,1,,1
+Use stable payum/core 1.5,2018-10-30,Merged,777,15,15,,15
+Mark tagged services as public in documentation,2018-09-20,Merged,775,4,0,,0
+#760 Fix verifying URI,2018-07-25,Closed,773,1,1,,1
+"Fix deprecation comments, use proper phpdoc #771",2018-07-25,Merged,772,13,13,,10
+"Improved spelling, punctuation and readability",2018-07-03,Closed,768,8,8,,0
+"Improved spelling, punctuation and readability",2018-07-03,Closed,767,4,4,,0
+add community gateway for PAYONE to docs,2018-06-11,Merged,763,1,0,,0
+adds conflict with league/uri-components: <1.7.1,2018-03-28,Merged,752,3,0,,1
+Add support for Subject authorization,2018-03-28,Merged,751,5,0,,1
+Fix service definition,2018-02-14,Merged,739,1,0,,0
+[Paypal Express Checkout nvp] Introduce the TransactionSearch paypal api endpoint,2018-02-07,Merged,735,287,0,,5
+Add service alternative to register the gateway,2018-01-23,Merged,733,9,1,,0
+[stripe] add create subscription action.,2018-01-03,Merged,731,89,0,,3
+use rawurldecode in HttpRequestVerifier,2018-01-04,Merged,730,81,3,,5
+"Drop PHP5, Symfony 2. Add Symfony 4. Upgrade phpunit",2017-12-22,Merged,726,990,785,md json php ,19
+Master is 1.5 now,2017-12-22,Merged,725,47,47,,17
+[payex] upd test wsdl link,2017-12-22,Merged,724,10,6,,3
+use league/uri 5,2017-12-22,Merged,723,15,25,json php ,7
+Change community gateway for Braintree,2017-12-06,Merged,720,1,1,,0
+allow league/uri 5,2017-12-14,Closed,718,1,1,,1
++ custom payment page how-to for symfony,2017-12-04,Merged,717,116,0,,0
+Update get-it-started.md,2017-11-06,Merged,708,4,0,,0
+Create overview,2017-12-22,Closed,702,27,0,,1
+Remove `suggests`,2017-10-22,Merged,701,0,9,,1
+Get the sample code running,2017-12-22,Closed,697,38,5,,0
+Some docs improvements,2017-10-20,Merged,695,15,18,,0
+Removed unused use referencing Sonata Admin Bundle,2017-10-23,Merged,690,0,1,,1
+Added refund and payout actions to offline gateway,2017-09-27,Merged,689,566,2,,7
+Fix broken links to omnipay gateways,2017-09-22,Merged,687,2,2,,0
+Update supported-gateways.md,2017-09-20,Merged,686,2,0,,0
+Missing variables,2017-09-11,Merged,681,4,0,,0
+integrate omnipay-v3-bridge,2017-09-01,Merged,680,24,0,php ,1
+Make Payum compatible with OmnipayBridge 2.0,2017-09-01,Closed,679,17,24,json php ,3
+"[Sofort] Fix status action and cover with tests, make docs correction",2017-08-06,Merged,672,201,5,php ,2
+Checkout: Automatically choose language,2017-07-17,Merged,668,2,1,,1
+Check that the gateway factory exists,2017-07-17,Merged,667,1,1,,1
+Minor gramatical changes,2017-06-21,Merged,665,5,5,,0
+Fix PayPal express checkout NVP Cancel action support scope,2017-06-21,Merged,664,109,107,,6
+Add new Uniteller gateway for ^1.4 version,2017-05-16,Merged,658,2,1,,0
+Update instant-payment-notification.md,2017-03-29,Merged,648,1,1,,0
+[be2bill] Add support of 3dSecure,2017-12-22,Merged,647,18,1,,3
+Upgrade 3rd party libs requirments,2017-03-28,Merged,646,9,9,,4
+Update examples.md,2017-03-28,Merged,645,5,5,,0
+[sofort] Add ability to disable notifications.,2017-03-27,Merged,644,279,2,php dist ,5
+Get rid of GatewayAwareAction class usages. Use interface+trait,2017-03-27,Merged,643,990,589,,17
+"[stripe] by providing the amount, stripe will validate CVC code",2017-06-09,Closed,642,1,1,,1
+[security] Add ability to crypt data stored to database,2017-03-24,Merged,641,719,6,php ,7
+Fix broken repo url,2017-03-22,Merged,640,1,1,,0
+Fix broken link.,2017-03-22,Merged,639,1,1,,0
+[klarna][checkout] Fix default uris options are not set correctly to c…,2017-03-22,Merged,638,2,2,,1
+Fixed scripts links,2017-03-22,Merged,637,5,5,,0
+"Fix config include, when create a capture url",2017-03-22,Merged,636,1,1,,0
+[Core] Create encrypting gateway configuration storage,2017-03-23,Closed,635,449,0,,1
+[Hotfix] catchReply on gateway execute method,2017-02-10,Closed,626,12,4,,2
+Feature/3dsecure be2bill,2017-03-28,Closed,625,19,1,,2
+code style fixes,2017-02-06,Merged,623,158,193,,34
+[docs]  Typo fixes and cleanup,2017-02-03,Merged,622,380,140,,0
+[docs] Put all docs in one place.,2017-02-02,Merged,621,"3,645",369,,0
+Fix comments starting with # are deprecated,2017-01-30,Merged,619,7,7,,1
+Add id property to PaymentToken Doctrine Entity,2017-03-22,Closed,618,8,0,,0
+Twig 2.x - compatibility,2017-01-30,Merged,617,1,1,,1
+Mark reversed payments failed,2016-12-29,Merged,611,20,0,,2
+Add STATUS_REVERSED,2016-12-29,Closed,610,74,0,,5
+Update CaptureAction.php,2016-12-28,Merged,608,1,0,,1
+Small typo-fix in Readme.md,2016-12-15,Merged,604,1,1,,0
+Doctrine storage example invalid path,2016-12-09,Merged,603,1,1,,0
+Restructure the project documentation,2017-02-02,Closed,602,0,0,,0
+php 5.3,2016-10-31,Closed,598,"1,882",560,php ,11
+Fix Stripe's CreateCustomerExtension and ConvertPaymentAction,2017-12-22,Closed,596,186,11,,7
+Add Stripe Refund Support,2016-10-18,Closed,595,194,0,,3
+Fix stripe CreateCustomer extension,2016-10-21,Closed,594,5,0,,2
+Remove guzzle.client from the gateway factory config,2016-10-04,Merged,593,0,2,,1
+Update AuthorizeAction.php,2016-10-01,Merged,592,2,1,,1
+Merchant,2016-09-28,Closed,589,6,0,,2
+MerchantESolutions,2016-09-28,Closed,588,3,0,,1
+Fix typo,2016-09-20,Merged,587,1,1,,0
+Paypal prohosted,2016-09-16,Merged,584,"2,314",3,php md ,7
+[stripe] error not detected in some cases.,2016-09-15,Merged,583,29,3,,2
+[stripe] add an action to get a credit card token from payment details.,2016-09-15,Merged,582,93,2,md ,3
+Paypal do void,2016-09-15,Merged,581,548,1,,7
+[security] Add createCancelToken method,2016-09-14,Merged,580,143,0,,3
+Adds DoVoid PayPal express NVP method as the gateway's Cancel action.,2016-09-15,Merged,579,699,1,,6
+[skeleton] Remove deprecated features from skeleton.,2016-09-12,Merged,578,37,29,,7
+Require payum/core 1.3 as minimum version.,2016-09-12,Merged,577,26,26,,13
+"Added some fixes, changed some of the english",2016-09-12,Merged,574,6,6,,0
+add perfectmoney gateway,2016-09-12,Merged,573,1,0,,0
+Remove duplicates from supported-gateways.md,2016-07-26,Merged,563,0,2,,0
+Made ApiAwareTrait interface tolerant,2016-07-13,Merged,560,22,2,,2
+Fix EntityManager connection closed issue.,2016-07-25,Closed,558,240,14,,4
+[paypal][masspay] Fix bugs.,2016-06-09,Merged,550,15,9,php md ,3
+some typos,2016-06-08,Merged,547,2,2,,0
+Added missing comma to example,2016-06-02,Merged,546,2,2,,0
+[twig] Postpone twig configuration and paths injection.,2016-05-31,Merged,545,28,19,,2
+Add property to class GetHttpRequest,2016-05-31,Closed,544,6,0,,1
+Fix stripe auto open,2016-05-24,Merged,543,1,1,,1
+Fixed default client creation issue for CurlAdapter,2016-06-01,Merged,542,85,18,php ,3
+Feature/paypal adaptive payments,2017-12-22,Closed,541,732,0,,7
+[registry] Improve DynamicRegistry,2016-05-04,Merged,538,379,44,,6
+1.2 to master,2016-04-29,Merged,537,23,1,php ,2
+[RFC] [Paypal] Add Pro Hosted Solution,2016-09-16,Merged,536,"2,268",0,,6
+Keep already created gateway instances,2016-04-20,Merged,530,59,3,,2
+[doc] how to contribute from sub repository.,2016-04-19,Merged,527,38,0,,0
+[paypal][rest] return the api context in the config closure,2016-04-17,Merged,526,1,1,,1
+[action] Add authorize payment action.,2016-04-15,Merged,525,312,0,,3
+fixed usage of PENDINGREASON (paymentinfo instead of paymentrequest),2016-04-11,Merged,523,4,4,,3
+Add EventDispatcherExtension doc,2016-04-11,Merged,522,56,0,,0
+Feature/paypal permissions token auth for expresscheckout,2017-12-22,Closed,521,933,42,json php ,6
+[paypal][rest] Fixes and cleanup,2016-03-30,Merged,520,61,61,,8
+Support for payments with OTP Hungary,2016-03-29,Merged,516,1,0,,0
+[payout] Added Payout model and a generic action for it.,2016-03-28,Merged,515,981,242,php ,7
+Payout foundation.,2016-03-25,Merged,512,197,39,php ,5
+[paypal] Masspay,2016-03-29,Merged,511,"1,821",219,dist php ,13
+Replace deprecated League\Url with League\Uri + My additions,2016-03-25,Merged,510,177,65,php ,4
+[POC][stripe] this check does not allow us to use directly posted credit c…,2016-04-30,Closed,509,0,0,,0
+[stripe] this check does not allow us to use directly posted credit card.,2016-03-25,Merged,508,36,11,,2
+[Symfony Bridge] Action for Symfony Templating Component,2016-03-25,Merged,507,126,0,php ,3
+Replace deprecated League\Url with League\Uri,2016-03-25,Merged,506,62,49,php ,8
+Using Httplug instead of Guzzle6,2016-03-25,Merged,505,310,178,md json php ,8
+[stripe] Subscription billing.,2016-03-24,Merged,504,657,41,md ,6
+[bridge][symfony] add obtain credit card action builder.,2016-03-18,Merged,501,99,0,,2
+Added parenthesis for method getTokenFactory,2016-03-17,Merged,500,1,1,,0
+[WIP] Add BankAccount,2016-03-29,Merged,497,267,5,,6
+[DOC] small doc fixes,2016-03-10,Merged,496,2,2,,0
+Allow Symfony 3 request stack,2016-03-09,Merged,495,59,13,,2
+[skeleton] [doc] Fix missing semicolon,2016-03-08,Merged,494,1,1,,0
+[stripe] charge stored card,2016-03-16,Merged,493,903,85,,9
+[spl] add get method to array object. with default option.,2016-03-04,Merged,492,11,0,,1
+[security] add ensure sensitive method. add __debugInfo to SensitiveValue obj.,2016-03-01,Merged,490,133,130,,5
+Fixes incomplete annotations of magic methods,2016-03-01,Merged,489,2,2,,2
+Update done-script.md,2016-02-25,Merged,483,3,3,,0
+Update get-it-started.md,2016-02-23,Merged,480,5,5,,0
+Add sofort gateway,2016-02-19,Merged,478,"1,466",13,json php yml ,18
+Sofort2,2016-02-18,Closed,477,"1,320",0,dist php yml ,10
+Add a Gitter chat badge to README.md,2016-02-17,Merged,476,2,0,,0
+[symfony] add some builders,2016-02-12,Merged,473,241,0,,6
+[twig] register payums template loader with required paths,2016-02-12,Merged,471,71,8,,5
+[builder] Allow create a gateway without explicit factory set. The core one is used.,2016-02-09,Merged,469,26,11,,2
+[bridge] add ContainerAwareCoreGatewayFactory.,2016-02-09,Merged,468,292,12,php ,8
+Fixed paypal status does not detect cancelled payments,2016-02-04,Merged,463,24,6,,2
+Updates stripe api to 3.6,2016-01-22,Merged,461,22,11,json php ,5
+Bump Stripe API to version 2.1.3,2016-01-19,Closed,460,1,1,,1
+Bump Stripe API to version 2.1.3 [WIP],2016-01-20,Closed,459,1,1,,1
+Add symfony 3.0 support,2016-01-20,Merged,458,188,217,json php ,9
+Add canceled status to offline payment,2016-01-14,Merged,456,25,0,,3
+"[builder] Add abiliry to pass gateway factory factory, as callable",2015-12-23,Merged,453,78,8,md ,2
+[creditcard] pass token so that actionUrl is set.,2015-12-18,Merged,449,6,2,,2
+Fixing a bug with replacing existing get params when settinv cancel u…,2015-12-17,Merged,448,75,1,,3
+Add Sofort gateway,2016-02-18,Closed,447,"2,197",114,json dist php ,12
+Fixing an issue with new payment status after paypal payment performi…,2015-12-16,Merged,446,27,0,,2
+[skeleton] to easy new extension development.,2015-12-14,Merged,445,498,0,src/Payum/Skeleton/LICENSE ,10
+Fixing an issue with marking paypal payment as canceled,2015-12-11,Merged,444,8,14,,2
+Improve serialize / unserialize when using FilesystemStrorage,2016-02-23,Closed,443,8,2,,1
+php7 support,2015-12-11,Merged,442,282,110,json php md ,15
+nice card form view.,2017-12-22,Closed,440,119,0,,1
+[security] Implement JsonSerializable interface of SensitiveValue.,2015-11-28,Merged,439,11,4,,4
+[symfony] Add phpunit bridge. fix deprecated warnings.,2015-11-27,Merged,438,72,56,php ,14
+[klarna] Add timeout tolerant fetch\create\update order.,2015-11-24,Merged,436,261,11,,7
+"Fixed ""Back to examples"" link",2015-11-13,Merged,432,8,8,,0
+Payum server fixes,2015-11-16,Merged,431,684,66,twig ,9
+[paypal][ec] add support of authorize operation,2015-11-10,Merged,430,"1,034",128,,5
+implemented DoCapture PayPal method,2015-11-09,Merged,429,266,0,,5
+Payum server fixes,2015-11-09,Merged,428,327,63,,6
+"Add capture null action, notify null action",2015-10-28,Merged,426,588,280,md ,6
+[exception] add suggestion on how to troubleshoot request not supported issues.,2015-10-24,Merged,425,149,18,md ,2
+[Gateway] Allow use of api and gateway in action's supports method,2015-10-23,Merged,422,108,67,md ,5
+[builder] auto register omnipay's factories.,2015-10-23,Merged,421,59,22,md ,3
+[paypal-ec] add support of order confirmation step.,2015-10-21,Merged,420,655,47,,7
+Docs update,2015-10-20,Merged,419,378,392,,0
+Fixed ajbdev/authorizenet-php-api deprecation,2015-10-20,Merged,417,3,3,,2
+Fixed typo,2015-09-28,Merged,414,2,2,,0
+Payum facade 2,2015-09-28,Merged,413,614,131,,0
+[facade] Configure token factory paths,2015-09-28,Merged,412,21,2,,1
+[registry] Add FallbackRegistry,2015-09-23,Merged,411,572,0,,1
+Payum facade. Simplify bootstrapping,2015-09-25,Merged,410,"1,356",397,php ,1
+[be2bill] Implement basic notify action.,2015-10-20,Merged,408,635,46,md ,6
+0.15,2015-09-10,Merged,406,2,0,,0
+Update supported-gateways.md,2015-09-10,Merged,405,2,0,,0
+Fix empty paypal description,2015-08-16,Merged,403,2,1,,1
+Pass model with obtain credit card request,2015-08-03,Merged,401,317,31,,12
+Do not use TLSv1 for NSS,2015-08-03,Merged,400,11,4,,1
+Do not use the Cipher List for NSS,2015-08-03,Merged,399,6,1,,1
+[paypal ec][api] Replace $request by $fields,2015-07-31,Merged,398,18,18,,1
+"fix composer deps, remove php 5.3.2 from sub components. fix travis.",2015-07-02,Merged,395,116,70,json php ,26
+Update 7-stripe-js-render-form.md,2015-06-21,Merged,394,2,2,,0
+Update 8-stripe-credit-card.md,2015-06-21,Merged,393,2,2,,0
+[http-client] Reuse PSR-7 add http client.,2015-06-23,Merged,392,746,494,md json php ,7
+update,2015-06-17,Closed,391,828,237,xml json php ,7
+psr-7_Api,2015-06-17,Closed,390,122,194,,7
+[Symfony Bridge][Extension] EventDispatcherExtension - compatible with new Extension API,2015-06-17,Merged,389,181,0,,4
+Fix: add UpdateRecurringPaymentProfileAction config on PaymentFactory.,2015-06-10,Merged,385,2,0,,1
+0.15,2015-06-10,Merged,384,231,2,php ,6
+0.14,2015-06-10,Merged,383,36,0,,0
+Add support on Paypal to update recurring payments profile using Upda…,2015-06-10,Merged,382,223,2,,6
+[symfony][bridge] fix compatibilty with sf2.7,2015-06-09,Merged,381,40,4,,4
+Added currency to checkout token template,2015-05-22,Merged,377,32,1,php ,2
+[klarna] use sandbox recurring base uri if sandbox mode.,2015-05-12,Merged,374,61,5,,3
+make some libraries non required,2015-05-04,Merged,371,49,8,json php ,7
+use Stripe js object after script load,2015-05-01,Merged,369,27,22,php ,3
+[factory] intr core gateway factory.,2015-05-01,Merged,368,444,654,,7
+Klarna Invoice Update,2015-05-05,Merged,367,312,0,,5
+RenderTemplate request additional parameters,2015-04-30,Merged,366,129,13,twig ,8
+[extension] Rework extension.,2015-04-26,Merged,364,804,"1,108",php ,3
+Klarna Re-send Invoice API - add actions to factory,2015-04-23,Merged,362,4,0,,1
+Cs Fix Klarna Re-send Invoice,2015-04-22,Merged,361,3,4,,3
+Klarna Re-send Invoice API,2015-04-22,Merged,360,487,0,,5
+[storage] Change findBy returned value. It must be an array of object. or empty.,2015-04-20,Merged,358,163,12,php ,13
+[doctrine][mongo] add a mapping for GatewayConfig.,2015-04-20,Merged,357,91,0,php ,3
+Test if method buildViolation exist and fallback to addViolation,2015-04-26,Merged,356,22,8,,1
+Iso4217 part2,2015-04-15,Merged,354,152,52,md ,10
+[model] Add ability to get ISO4217 info. add a request and action for that. Simply payment interface.,2015-04-14,Merged,351,293,37,json dist php xml ,15
+Klarna Credit Invoice,2015-04-10,Merged,350,247,9,,6
+[action] use Convert request instead of FillOrderDetails one.,2015-04-09,Merged,349,592,556,php ,6
+rename payment to gateway. part2.,2015-04-08,Merged,348,16,15,php ,6
+Rename payment to gateway.,2015-04-07,Merged,347,"2,784","3,007",dist json php ,7
+Move Validator from PayumBundle,2015-04-08,Merged,346,134,1,php ,4
+Klarna Return Amount,2015-04-06,Merged,345,276,0,,5
+[request] Add Convert request. deprecate FillOrderDetails one.,2015-04-03,Closed,344,127,0,,3
+[payum] introduce Gateway interfaces and classes. Deprecate payment ones.,2015-04-03,Merged,342,497,0,php ,19
+Fix GetHumanStatus implementation,2015-03-30,Merged,340,2,2,,1
+Add PDOStorage class,2017-12-22,Closed,339,161,0,,1
+Fix StorageRegistryInterface docblock,2015-03-27,Merged,338,1,3,,1
+Doc examples,2015-03-27,Merged,337,168,285,md src/Payum/AuthorizeNet/Aim/LICENSE src/Payum/Be2Bill/LICENSE src/Payum/Core/LICENSE ,4
+Doc examples,2015-03-27,Closed,336,168,285,md src/Payum/AuthorizeNet/Aim/LICENSE src/Payum/Be2Bill/LICENSE src/Payum/Core/LICENSE ,4
+Stripe direct,2015-03-24,Merged,334,216,19,php ,2
+[klarna-checkout] allow v2.0 SDK.,2015-03-24,Merged,333,4,4,php ,3
+Update StatusAction.php,2015-03-23,Merged,331,10,3,,1
+Improve stripe support,2017-12-22,Closed,330,233,2,,7
+[klarna] fixes.,2015-03-16,Merged,329,30,57,php ,7
+[klarna] add authorize recurring payment action.,2015-03-16,Merged,328,305,1,,3
+[order] add setter and getter for credit card on order.,2015-03-16,Merged,327,69,0,php ,3
+"[klarna-invoice] fix payment factory, always live cannot set sandbox mode",2015-03-13,Merged,326,1,1,,1
+[klarna] add support of klarna checkout recurring payments.,2015-03-13,Merged,325,18,1,,3
+Update obtain_checkout_token.html.twig,2015-03-12,Closed,324,1,1,,1
+* Add skeleton code for canceling recurring payments,2015-03-11,Merged,323,252,0,,3
+Add skeleton for canceling recurring payments,2015-03-11,Closed,321,250,0,,2
+Add php 7 to travis,2015-12-23,Closed,319,1,0,,1
+[security] token factory extension.,2015-02-13,Merged,314,439,147,md ,5
+Add Propel2 bridge,2015-02-13,Merged,313,514,1,json php xml md sql ,11
+Fix typo in offline docs,2015-02-11,Merged,312,3,3,,0
+[security] use composition of token factories. move some code to plain php bridge.,2015-02-10,Merged,311,"1,874","1,178",md ,7
+[Offline] if order details are set don't set it again,2015-02-06,Merged,310,4,1,,1
+[Authorize.NET] Update order fields name.,2015-02-02,Merged,308,9,9,,2
+Fix error in payment name,2015-01-28,Merged,307,1,1,,0
+Propel storage bridge,2015-02-02,Merged,306,344,0,gitignore php xml ,11
+[storage] Add `StorageInterface::findBy`,2015-01-15,Merged,304,105,8,php ,7
+Fix BOM at start of stream,2015-01-15,Closed,303,63,3,,2
+[registry] Payment factories registry,2015-01-11,Merged,302,201,176,php ,6
+[payment-factory] allow set default config to payment factory.,2015-01-08,Merged,301,645,17,,10
+Fixing some grammar,2015-01-08,Merged,300,14,16,,0
+Paypal request parameters should be lowercased,2015-01-03,Closed,298,4,4,,2
+[payment-factory] options lower case,2015-01-03,Merged,297,93,93,md ,10
+Paypal request parameters should be lowercased,2015-01-03,Closed,296,2,2,,1
+[payment-factory] allow set which actions\apis\extensions must be prepend .,2015-01-03,Merged,295,346,142,,7
+[Symfony Bridge][Extension] added EventDispatcherExtension.,2015-06-17,Merged,294,305,0,,6
+Fixed typo,2015-01-02,Merged,293,2,2,,0
+[twig] add createGenericPaths method to TwigFactory. add PayumSymfonyBridge namespace.,2014-12-31,Merged,292,36,7,,2
+[payment-factory] add factory name and title to the payment config.,2014-12-31,Merged,291,247,3,,24
+Payment config symfony form.,2015-01-19,Merged,290,"1,205",3,php ,6
+[payment-factory] return default options when call createConfig.,2014-12-29,Merged,289,249,21,,20
+Add redirecting animation,2017-12-22,Closed,288,66,1,,1
+[Paypal rest] updated payment factory.,2014-12-25,Merged,286,194,53,md ini ,3
+[symfony] Allow configure min max expiration years.,2014-12-24,Merged,285,39,2,,2
+[authorize.net] Amount must be decimal.,2014-12-24,Merged,284,4,3,,2
+[payment-factory] use composition instead of inheritance.,2014-12-20,Merged,280,"3,204","2,641",,9
+[payment-factory] intr PaymentFactoryInterface. simplify exist factories,2014-12-17,Merged,279,"1,055",893,php ,7
+"Pacnet, Skrill is not auto-registered with omni bridge",2014-12-15,Closed,278,0,2,,0
+[action] remove generic order action. impr execute same request with details action.,2014-12-15,Merged,277,250,280,,7
+[request] add getFirstModel method to Generic request.,2014-12-14,Merged,276,162,14,md ,3
+[request] add getFirstModel method to Generic request.,2014-12-14,Closed,275,140,2,,3
+[storage] Storage improvements.,2014-12-13,Merged,274,582,470,php ,7
+[action] backport generic order action from master.,2014-12-12,Merged,273,122,58,,12
+[klarna-checkout] Mark failed if error_code set in details.,2014-12-11,Merged,271,72,5,,2
+Adds PayPal Partner Code,2014-12-06,Closed,270,2,0,,2
+[payment] Introduce payment builder.,2014-12-24,Closed,268,281,40,,4
+WIP Token provider,2015-02-13,Closed,267,390,234,,6
+[action] add generic order action.,2014-11-25,Merged,254,71,59,,12
+Fixed small typo in doc files,2014-11-21,Merged,252,7,7,,0
+[action] add notify order action.,2014-11-20,Merged,249,182,7,,15
+[WIP][bitcoin] Add bitcoind support,2017-12-22,Closed,248,533,1,yml php md src/Payum/Bitcoind/LICENSE ,10
+[security] token factory should accept identificator.,2014-11-11,Merged,247,56,5,,3
+[request] allow get raw content of the request.,2014-11-10,Merged,246,9,1,,3
+[request] add cancel request.,2014-11-10,Merged,245,31,0,,2
+[stripe] description in template must have default val.,2014-11-10,Merged,244,1,1,,1
+Fixed typo in Buzz ClientFactory Test,2014-11-10,Merged,243,2,2,,1
+Fixed typo in be2bill doc,2014-11-09,Merged,242,1,1,,0
+First version of Payum Redsys,2014-11-25,Closed,241,630,0,,3
+[paypal-ec] Allow purchase order with custom details,2014-11-08,Merged,240,2,6,,2
+[paypal-ec] Allow purchase order with custom details,2014-11-08,Closed,239,2,6,,2
+Curl ssl fix for 012,2014-11-07,Merged,238,45,4,,3
+Curl switch to tls,2014-11-07,Merged,237,101,58,php ,7
+Added cURL Options for the PayPal Sandbox SSL 3.0 Vulnerability (POODLE),2014-11-07,Merged,235,16,2,,1
+[security] reuse league/url while generting tokens.,2014-11-06,Merged,234,115,35,php ,5
+[security] Some improvement to after url managing.,2014-11-05,Merged,232,177,16,,2
+[reply] add ability to set statusCode and headers.,2014-11-06,Merged,231,318,20,,7
+[payment] remove all addXXX methods from PaymentInterface.,2014-11-05,Merged,230,56,44,php ,4
+Paypal pro refactoring,2014-11-03,Merged,227,75,787,php ,4
+[omnipay] allow install omnipay bridge as a standalone package only.,2014-10-31,Merged,225,4,"1,248",json yml php src/Payum/OmnipayBridge/LICENSE ,8
+[omnipay-bridge] catch invalid credit card exception.,2014-10-31,Merged,224,15,5,,1
+add silex to the list of supported frameworks.,2014-10-30,Merged,223,2,1,,0
+Adding $refundPath and createRefundtoken to tokenFactory,2014-11-06,Merged,217,0,0,,0
+Correct typo (too many closing parentheses)),2014-10-18,Merged,215,1,1,,0
+0.11 to master,2014-10-17,Merged,214,21,8,,2
+[klarna-checkoout] set correctly orderid in notify action.,2014-10-17,Merged,213,20,7,,2
+[klarna-invoice] populate klarna from details must be inside try catch block.,2014-10-16,Merged,212,6,5,,3
+[bridge] Move convert reply to symfony response logic to bridge,2014-10-12,Merged,211,150,2,md ,2
+[bridge] Symfony credit card forms and obtain cc action move to bridge.,2014-10-12,Merged,210,681,8,json php ,4
+[doc] storages,2014-10-10,Merged,209,315,33,php ,2
+[order][paypal] set automatically notify url if factory present,2014-10-10,Merged,208,127,0,,2
+[klarna-checkout] Remove GlobalXXXConnector. Replace CaptureAction with ...,2014-10-08,Merged,207,315,693,php ,11
+[PoC][orders] Unified way to process payments,2014-10-09,Merged,204,"3,027","1,151",php ,5
+[request] ExecuteSameRequestWithModelDetails now do sub request for empty details too.,2014-10-03,Merged,203,723,380,dist php ,10
+"[PoC] Unified payment protocol, or other words Order model.",2014-10-03,Closed,202,230,0,,5
+"[payment] inject api and payment to action on execute,",2014-09-29,Merged,201,62,30,php ,2
+[paypal] the authorize token request should not be executed if set expre...,2014-09-29,Merged,200,31,2,,4
+[request] move ModelAwareInterface to model namepsace and SecurityInterf...,2014-09-28,Merged,199,98,66,php ,15
+[Paypal]  Correctly recognize refunded and authorized payments.,2014-09-29,Merged,198,91,11,,3
+0.11,2014-09-28,Merged,197,88,9,,3
+[paypal][ipn] do not update express checkout related info when session has expired.,2014-09-28,Merged,196,88,9,,3
+[poc][paypal] Built-in support of IPN notifications,2014-09-28,Closed,195,85,6,json ,3
+[klarna] add refund request support.,2014-09-25,Merged,193,208,2,,7
+code style fiexes.,2014-09-24,Merged,192,222,363,,17
+[request] GetStatus request Refactoring&Impr,2014-09-23,Merged,190,297,143,php ,6
+Remove secured requests. Introduce Generic request.,2014-09-23,Merged,189,233,536,php ,12
+[klarna] add CreditPartAction.,2014-09-23,Merged,188,360,0,,6
+[klarna] add CreditPartAction.,2014-09-23,Closed,187,360,0,,6
+[registry] Add support of doctrine proxy objects. Hotfix.,2014-09-15,Merged,183,60,3,,2
+Registry support doctrine proxies,2014-09-15,Closed,182,86,29,php ,15
+[omnipay] fix undefined offset 1 error. set holder name as first name al...,2014-09-15,Merged,181,2,5,,1
+[doc] fix typo in doc file name.,2014-09-12,Merged,180,0,0,,0
+Klarna fixes,2014-09-05,Merged,177,53,7,,4
+[klarna] add get it started doc.,2014-09-03,Merged,176,91,2,,0
+Spread the word,2014-08-23,Merged,174,26,26,,0
+Fix typos,2014-08-22,Merged,173,17,17,,3
+[Paypal] Adaptive payments,2016-03-25,Closed,172,758,3,yml ,11
+[WIP] Klarna Invoice.,2014-08-22,Merged,171,"3,155",1,dist php md yml ,9
+upgrade phpunut. use 4.x,2014-08-07,Merged,170,11,11,php ,11
+"[request] remove post fix Request, introduce Reply idea, should replace InteractiveRequest",2014-08-07,Merged,169,"1,795","2,061",json php ,6
+"[paypal ec][api] simplify api methods, constructor.",2014-07-31,Merged,168,387,872,php ,11
+[tests] remove fragile functional tests.,2014-07-30,Merged,167,1,"1,117",,3
+[request] add authorize request.,2014-08-20,Merged,166,549,23,php ,8
+"[doc] do better get it started. cleanup, simplify.",2014-07-30,Merged,165,174,108,,0
+More docs improvements,2014-07-29,Merged,164,1,2,,0
+Fix docs (removed methods),2014-07-29,Merged,163,2,2,,0
+Fix more missing variables,2014-07-28,Merged,159,3,3,,0
+Remove unneeded code,2014-07-28,Merged,158,0,2,,0
+Fixes in Paypal Express docs,2014-07-28,Merged,157,4,2,,0
+Fix typos in composer.json,2014-07-23,Merged,156,2,2,,2
+[http] add client ip and user agent to the get http request,2014-07-21,Merged,155,18,0,,3
+"[doctrine] rename column names in schema for array model, give a better name.",2014-07-21,Merged,154,10,8,xml php ,3
+[doctrine] column name `array` is reserved name in some databases.,2014-07-21,Merged,153,1,1,,1
+[doctrine] column name `array` is reserved name in some databases.,2014-07-21,Closed,152,1,1,,1
+"[request] revert changes in http requests, removed logic caused a regree...",2014-07-08,Merged,151,86,9,,3
+[request] remove deprecated requests.,2014-07-03,Merged,150,39,91,php ,21
+Http requests,2014-07-03,Merged,149,381,98,,9
+[WIP] use twig as a templating engine.,2014-07-03,Merged,148,480,127,php md twig ,8
+Add support of stripe.js and checkout,2014-07-09,Merged,147,"1,768",43,dist php md yml ,9
+[registry] Decouple StorageRegistry from payments removing name argument...,2014-06-16,Merged,146,170,530,php ,5
+"[POC][HTTP] use psr7 interfaces instead of buzz, suggest buzz as a default solution.",2015-09-25,Closed,145,3,1,,1
+propel storage bridge attempt,2015-01-19,Closed,144,0,0,,0
+[model] `CreditCardInterface` getters does not return `SensitiveValue` anymore,2014-05-30,Merged,142,59,59,php ,4
+[WIP][action] allow obtain credit card when capture,2014-06-03,Merged,141,"1,342",239,php ,5
+[model] rename credit card method cardholder to just hodler. use date ti...,2014-05-30,Merged,140,54,119,php ,3
+[request] add ObtainCreditCardRequest.,2014-05-29,Merged,139,85,0,,2
+[model] add credit card model.,2014-05-29,Merged,138,550,0,,2
+[security] add mask util. allows mask strings with diff options.,2014-05-28,Merged,137,88,0,php ,2
+Omnipay 2.0,2014-05-14,Merged,136,11,6,md ,2
+[paypal] Add DoReferenceTransaction call.,2014-05-13,Merged,135,314,0,,7
+POST redirect in capture action for Omnipay Bridge,2014-05-08,Merged,134,8,1,,1
+[request] add simple status request.,2014-05-01,Merged,133,412,11,md ,1
+[security] allow create notify token without model set.,2014-05-01,Merged,132,65,18,php ,4
+[paypal] Add CreateBillingAgreementAction and CreateBillingAgreementRequ...,2014-05-07,Merged,131,263,0,,7
+"[security] GenericTokenFactory did not handle afterPath correctly, when ...",2014-04-10,Merged,127,9,1,,1
+Token factory fix absolute url handling,2014-04-10,Closed,126,89,2,,3
+[request] move symfony's response interactive request to bridge.,2014-04-10,Merged,125,69,2,php ,4
+[paypal] set return\cancel url from secured capture request. if not set,2014-04-09,Merged,124,80,1,,2
+[paypal] Generic notify action.,2014-04-08,Merged,123,141,0,,3
+Move sf bundle stuff to bridge,2014-04-08,Merged,122,714,2,php ,4
+[security] TokenFactory accepts urls as targetPath and afterPath.,2014-04-07,Merged,121,158,3,,2
+Doc updates,2014-04-06,Merged,120,4,4,,0
+Fixing Notice: Undefined index: paid in ...,2014-04-03,Merged,112,2,2,,1
+Fixing Notice: Undefined index: paid in ...,2014-03-29,Closed,111,2,2,,1
+[Storage] add Zend table gateway storage,2014-03-12,Merged,108,174,3,php md ,4
+Added a Storage for Zend Table Gateway.,2014-03-12,Merged,106,134,0,,1
+Add Klarna Checkout.,2014-03-12,Merged,105,"2,638",67,LICENSE json dist php md ,15
+Be2bill validate hash,2014-01-18,Merged,104,81,2,,2
+Add a method to test a hash,2014-01-18,Closed,103,20,1,,1
+[doc] update list of supported payments.,2014-01-10,Merged,102,56,42,,0
+[0.8][registry] method registerStorageExtensions has to do things lazily.,2014-03-09,Merged,101,135,16,php ,3
+[doc] add be2bill on site payment to the list of supported,2013-12-27,Merged,100,2,1,,0
+[request] add request get http query parameters.,2013-12-25,Merged,99,21,0,,2
+[request] add post redirect url interactive request.,2013-12-18,Merged,98,177,2,,3
+[WIP] Be2bill onsite support,2013-12-26,Closed,97,0,0,,0
+[WIP] cleanups - do not merge,2013-12-11,Merged,95,1,11,,4
+[wip] remove authorizenet payment details model that is replaced with arrayobject in core,2013-12-11,Merged,94,17,"1,230",md php ,3
+Merge service libraries into one repository and use git tree split,2013-12-03,Merged,93,"21,899","1,158",json php yml ,6
+[WIP][doc] develop payment gateway on top of payum,2013-11-25,Merged,92,146,0,,0
+[security] Introduce token factory and generic token factory,2014-03-11,Merged,91,528,153,php ,4
+[security] improve token generator.,2013-11-23,Merged,90,45,12,,2
+[action] deprecate xxxDetailsAggregatedModelAction classes.,2013-11-22,Merged,89,198,0,,5
+[exception] impr message of request not supprted exception.,2013-11-19,Merged,88,178,54,,5
+[extension] add debug extension.,2013-11-19,Closed,87,156,0,,1
+[payment] add forcePrepend argument to Payment::addApi method.,2013-11-18,Merged,86,32,7,,3
+Add a Bitdeli Badge to README,2013-11-18,Closed,85,4,0,,0
+[0.6] Removed duplicate link,2013-11-17,Merged,84,1,2,,0
+[0.6][registry] Improve exception messages for getStorageForClass method...,2013-11-16,Merged,83,74,11,,2
+Removed duplicate link,2013-11-16,Merged,82,1,2,,0
+Fixed typos,2013-11-14,Merged,81,6,6,php ,3
+[storage] add identity map for filesystem storage.,2013-11-13,Merged,80,37,4,,2
+[security] introduce sensitive value object.,2013-11-14,Merged,79,375,12,xml php ,8
+[request] change meaning of capture request. add purchase request.,2014-09-29,Closed,77,123,0,php ,4
+Registry simply registring storage extensions,2013-11-11,Merged,75,267,15,php ,3
+[storage] get rid of is_a usage. it allows lower php version required.,2013-10-31,Merged,73,23,1,php ,2
+[POC][model] encrypt payment details,2016-02-19,Closed,72,98,1,php ,2
+0.6,2013-10-27,Merged,71,130,87,php ,19
+[doctrine] add functional tests for doctrine storage and mongo manager.,2013-10-27,Merged,70,153,1,,3
+[doctrine] add functional tests for doctrine storage and mongo manager.,2013-10-27,Closed,69,153,1,,3
+[storage] move identificator to model namespace.,2013-10-27,Merged,68,122,84,,18
+[model] Simle array model,2013-10-26,Merged,67,345,0,xml ,8
+[doctrine] remove deprecated bridge models. provide mapping for basic ones,2013-10-26,Merged,66,8,60,xml ,10
+0.6,2013-10-26,Merged,65,10,0,php ,2
+[doctrine] deprecate bridge models. provide mappings for basic ones,2013-10-26,Merged,64,6,0,,2
+0.6,2013-10-25,Merged,63,116,0,,0
+0.6 version change log.,2013-10-25,Merged,62,26,0,,0
+Changelog,2013-10-25,Merged,61,90,0,,0
+[WIP] Changelog,2013-10-25,Merged,60,0,0,,0
+[0.7] remove code deprecated earlier.,2013-10-25,Merged,59,2,634,md dist php xml ,9
+[doc] the architecture cleanups.,2013-10-23,Merged,58,164,131,,0
+[wip] serialized type,2016-02-19,Closed,57,1,56,php ,3
+[doc] cleanup docs. split payments chapter into two. remve faqs,2013-10-22,Merged,56,58,119,,0
+[WIP] Minor doc fix,2013-10-22,Merged,55,1,1,,0
+doc updates,2013-10-18,Merged,54,5,1,,0
+Update get-it-started.md,2013-10-14,Merged,53,22,15,,0
+some code styling - update Payment.php,2013-10-15,Merged,52,13,13,,1
+[request] add base status request.,2013-10-10,Merged,51,73,41,,4
+[mogno] remove workaround.,2013-10-10,Merged,50,57,22,xml ,4
+[security] allow set any details to token.,2013-10-05,Merged,49,28,16,,3
+[storage] better handling of id property in filesystem storage.,2013-10-02,Merged,48,85,12,php ,2
+[doctrine] mongo tests.,2013-10-01,Merged,47,205,10,json php xml ,12
+[doc] managing notifications,2013-10-01,Merged,46,109,3,,0
+Mongodb document and mapping added,2013-10-01,Closed,45,31,0,xml ,2
+Update get-it-started.md,2013-09-25,Merged,42,2,2,,0
+[WIP][doc] Use paypal in get it started,2013-09-20,Merged,41,126,30,,0
+some additions,2013-10-14,Merged,40,19,19,,0
+typo corrections,2013-09-17,Merged,39,4,4,,0
+[registry] add simple registry.,2013-09-16,Merged,38,183,7,,3
+[WIP] reorganize docs.,2013-09-16,Merged,37,575,469,,0
+[storage] schedule for update models set in requests.,2013-09-13,Merged,36,171,23,,2
+[security] Introduce security layer.,2013-09-09,Merged,35,"1,042",223,template php dist xml ,8
+[storage][extension] update model after last request is executed,2013-08-31,Merged,34,61,69,,2
+[storage][extension] update model on exception as well.,2013-08-30,Merged,33,37,43,,2
+[WIP] Storage find by identifier method,2013-08-30,Merged,32,"1,513",344,template json php ,4
+Log executed actions,2013-08-23,Merged,31,662,1,template json php ,4
+Addd psr logger extensions.,2013-08-22,Merged,30,418,5,template json php ,6
+[request] status request interface must extend model request interface,2013-08-03,Merged,29,11,11,,2
+[request] request for instant payment notifications.,2013-07-15,Merged,25,216,1,xml php ,5
+[request] request for instant payment notifications.,2013-07-09,Closed,24,210,0,,4
+"update doc, describe internals.",2013-06-03,Merged,22,508,24,,0
+introduce registry interface.,2013-05-31,Merged,21,150,2,,5
+[storage] Ensure models always is saved.,2013-05-15,Merged,20,191,90,php ,2
+[WIP][extension] ignore extension's exception while processing on exception.,2013-05-30,Closed,19,5,1,,1
+tokenized details,2013-05-09,Merged,18,253,17,xml ,11
+[storage] add identificator to find models.,2013-04-30,Merged,17,458,170,php ,5
+add payment registry interface.,2013-04-17,Merged,16,455,0,,3
+ability to set several APIs to the Payment instance.,2013-02-26,Merged,9,194,1,,7
+Added NullStorage,2013-02-12,Closed,1,105,2,,3

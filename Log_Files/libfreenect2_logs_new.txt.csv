@@ -1,0 +1,256 @@
+Add build script for Android,2019-03-02,Merged,1060,133,0,mk h ,5
+Add setting of LEDs,2019-01-08,Merged,1052,77,0,h hpp cpp ,4
+homebrew/versions formulae were migrated to hombrew-core,2018-12-05,Merged,1044,0,1,,0
+Fix contructor usage in C++98,2018-11-03,Merged,1036,7,9,,1
+Add exposure control of the color camera,2018-10-31,Merged,1033,281,0,h hpp cpp ,5
+Cuda9.0,2018-09-22,Closed,1022,46,2,txt xml ,2
+Pull forward build arguments hint required by downstream libs,2018-06-20,Closed,1003,7,0,,0
+Update FindTegraJPEG.cmake for 28.2 Linux4Tegra,2018-06-09,Merged,999,2,0,,1
+Add support for modern target-based CMake linking,2019-09-27,Closed,995,65,34,in ,1
+fix headline/anchor for MacOS instructions,2018-05-15,Merged,994,2,2,,0
+fix OSX RPATH handling,2018-04-22,Merged,982,4,0,,0
+add libusb_set_option for using usbdk on windows,2018-02-24,Closed,970,4,0,,1
+remove commands for building libusb usbdk dlls,2018-02-20,Merged,969,0,2,,2
+Are you earthdarkness from the gba,2017-12-21,Closed,949,95,0,,1
+Fix an error that std::bind is not a member of std in GCC7,2017-12-12,Closed,945,1,1,,1
+Freenect2Replay continued,2017-12-06,Merged,942,491,0,,1
+Freenect2ReplayDevice: API aligned with Freenect2Device,2017-12-06,Closed,937,577,0,,1
+fix memory leak in DumpDepthPacketProcessor,2017-11-25,Merged,934,4,0,,1
+add osx library path for brew install,2017-10-25,Merged,922,1,0,,1
+"Add compatibility for L4T 28.1, added make install for udev rules",2017-10-25,Closed,914,6,0,cmake ,1
+Changed MIN GL Version from 3 to 2,2017-09-16,Merged,903,1,1,,1
+Fixes memory leak in VT processor,2017-09-16,Merged,900,4,1,,1
+Fixed missing include,2017-08-06,Closed,882,48,4,aur/PKGBUILD h rules ,4
+fix the cmake conditional expression error,2017-06-27,Merged,859,2,2,,0
+Fix version check when trying to find freenect2 with find_package,2017-05-03,Merged,837,13,1,in ,2
+usb: Retry a few times with libusb_open(),2017-04-24,Merged,830,14,1,,1
+Update README.md,2017-03-31,Merged,819,1,1,,0
+typo preventing correct display of markdown,2017-03-23,Merged,815,1,1,,0
+Find libOpenCL with CUDA 8.0,2017-02-21,Closed,796,3,1,,1
+Turbojpeg is compiled with PIC on Linux,2016-12-26,Closed,768,4,0,,0
+Disable default copy and assignment constructors,2016-12-13,Merged,765,12,0,hpp ,3
+"Add serial to uri, fix for loop variable re-use",2016-12-05,Closed,762,11,4,,1
+implemented VideoStream::convertDepthToColorCoordinates (openni2),2016-12-05,Closed,760,53,19,hpp ,4
+Fix OpenNI2 enumeration softlocking sensors,2016-10-25,Merged,745,2,1,,1
+New depth packet processor,2016-11-02,Closed,742,"3,205",3,md cpp h ,3
+Added TegraJPEG supporting for TK1 L4T r21.5.,2016-10-21,Merged,739,2,0,,1
+Fixed typo in CUDA related part in the CMake file,2016-10-08,Merged,734,1,1,,0
+Optimize OpenGL depth packet processor image flipping,2016-09-12,Closed,716,0,0,,0
+Added gstjpeg sources also for L4T 24.1,2016-11-02,Closed,701,9,1,,1
+ubuntu 16.04,2016-10-31,Closed,690,"1,453",1,cu ,1
+Avoid overriding the PKG_CONFIG_PATH environment variable,2016-10-31,Merged,655,1,1,,1
+Implement non-default pipeline selection from OpenNI2 side.,2016-04-27,Closed,646,24,8,,2
+Add 5 seconds limit to the status 0x90000 checking loop,2016-03-13,Merged,614,5,1,,1
+Protonect: Add timeout arg for waitForNewFrame(),2016-03-13,Merged,612,5,1,,1
+Added options to Protonect - [UDP Streamer] and [Image recording to Disk],2017-12-19,Merged,602,"2,423",0,,0
+Reboot device,2016-02-29,Closed,597,228,86,cpp ,6
+Issue reboot command on Mac OS X,2016-02-28,Merged,594,7,1,,1
+10.8 compatibility,2016-02-24,Merged,592,1,11,,1
+Add -frames option to the Protonect,2016-02-22,Closed,585,14,2,,1
+Using 10.9 available API for VideoToolbox,2016-02-20,Merged,583,4,1,,1
+Opencl improvements,2016-02-21,Closed,579,367,265,cl ,2
+Create ISSUE_TEMPLATE.md,2016-02-21,Closed,577,11,0,,0
+Tegrajpeg and perf code,2016-02-18,Merged,576,594,31,md cmake cpp h in ,9
+Error when using C++11 std threading,2016-02-16,Merged,575,1,1,,1
+Delay start stream in OpenNI2 driver,2016-02-14,Merged,574,77,50,hpp ,9
+Fix CMake's UPPERCASE_FOUND package detection and resulting segfaults,2016-02-10,Merged,566,15,11,cpp ,5
+Add VA-API JPEG decoder again,2016-02-15,Merged,563,859,205,md cmake h ,4
+Some fixes to #365,2016-02-06,Closed,562,6,5,,2
+Add ability to disable RGB or depth stream,2016-02-06,Closed,557,96,21,h hpp ,5
+Usb error reporting,2016-02-06,Closed,556,200,207,h ,5
+Add a simple frame driver.,2017-12-06,Closed,555,177,0,cpp ,2
+Add accessors for the various depth tables.,2016-02-03,Merged,554,30,0,cpp ,2
+Add a dump depth processor.  Reactivate the RGB dump processor.,2016-02-03,Merged,551,129,15,hpp cpp ,6
+registration: Add depth-only methods,2016-02-04,Merged,549,79,5,cpp ,2
+Adding in CLI -help and -version options,2016-01-25,Merged,540,26,12,in ,2
+Release cleanup,2016-01-18,Merged,530,791,"2,537",,0
+Update libusb build script for msvc 2015,2016-01-07,Merged,526,0,2,,1
+OpenNI2 driver cleaned up,2016-01-25,Merged,523,"2,017",1,md cmake cpp ,2
+Usb troubleshooting docs,2016-01-04,Merged,521,14,4,cmake cpp ,3
+opengl: Lower version to 3.2 for older Mac OSX,2016-01-10,Merged,520,1,1,,1
+OpenNI2 driver,2016-01-04,Closed,518,"1,924",0,cmake md cpp ,2
+Plug memory leaks,2016-01-07,Closed,510,32,5,,9
+Preemptive API expansion,2015-12-17,Merged,507,39,17,cpp ,3
+Fix Memory Leak in Viewer.cpp,2015-12-17,Merged,499,3,0,,1
+Mostly usb fixes,2015-12-17,Merged,494,101,32,h hpp ,7
+Fix MSVC FTBFS,2015-12-03,Merged,490,1,22,hpp cpp ,5
+Viewer Scaling Fix,2015-12-04,Merged,486,42,9,h ,2
+registration.cpp merge fix,2015-11-27,Merged,484,2,2,,1
+Forward ABI compatibility of Frame,2015-11-27,Merged,479,13,3,,1
+API documentation,2015-11-28,Merged,477,563,134,css in ,2
+API cleanup/refactoring,2015-11-21,Merged,476,174,138,in h hpp cpp ,8
+Add some OpenCL instructions to README,2015-11-21,Merged,472,5,2,,0
+Update depth_packet_processor.cpp,2015-11-17,Merged,470,1,1,,1
+quick README fix,2015-11-17,Merged,469,1,0,,0
+Protonect Window Fix,2015-11-30,Closed,467,35,9,h ,2
+Feature/camera settings,2015-11-21,Merged,465,18,2,h cpp ,4
+Updating README to remove no-longer relevant section,2015-11-09,Merged,463,0,6,,0
+Add doxygen configuration and target to cmake,2015-11-06,Merged,450,13,16,Doxyfile ,1
+makes the map for storing the color offset for each depth pixel a function parameter in order to make the user decide the allocation policy,2015-11-27,Merged,441,5,4,cpp ,2
+fixes missing std::string include in libfreenect2.hpp,2015-10-22,Merged,440,1,0,,1
+removes unused memory allocation in the registration,2015-10-23,Closed,436,1,2,,1
+Fixes missing subpackets in OS X,2015-10-28,Merged,435,11,3,,1
+Assorted fixes and cleanup for 0.1,2015-11-06,Merged,429,"13,422",196,md cmake ,1
+Add teapot configuration file,2018-02-06,Closed,423,29,0,,1
+Simplifying decodePixelMeasurement,2016-01-25,Closed,405,17,49,,1
+Refactor processMeasurementTriple,2016-01-25,Closed,404,40,32,,1
+fixed tinythread include,2015-09-24,Closed,403,1,1,,1
+Get rid of CL_DEVICE_TYPE_CUSTOM,2015-09-24,Merged,402,1,4,,1
+"First prototype of computeCoordinates of point cloud, yet to be tested",2015-09-22,Merged,397,41,0,cpp ,2
+Fix GLFW setup on Mac OSX,2015-09-17,Merged,393,6,3,,1
+Check NULL filename in the custom logger,2015-09-15,Merged,391,3,2,,1
+PR #383 fixed,2015-09-12,Merged,385,20,14,cpp h ,3
+Fix class LogMessage link error in windows and compile error,2015-09-12,Closed,383,18,12,h cpp ,3
+Fix class LogMessage link error in windows and compile error,2015-09-11,Closed,382,6,3,h cpp ,2
+Add: Doxygen documentation comment for many of the classes.,2015-09-11,Merged,380,"2,795",66,cpp h hpp ,9
+Generate depth tables with camera parameters,2015-10-22,Merged,379,209,276,bin h hpp cpp ,6
+0.1 release build system restructuring,2015-09-24,Merged,376,211,653,txt md cmake bin ,10
+Fixes Windows compilation,2015-09-02,Merged,374,3,0,,3
+stdlib threading is only available for c++11,2015-09-12,Merged,372,3,1,,1
+Intel Mesa OpenGL bug fixes and cleanup,2015-09-10,Merged,368,260,390,cpp c ,4
+New VideoToolbox rgb packet processor,2016-02-06,Merged,365,268,13,md h in cpp ,4
+Logging refactoring continued,2015-09-04,Merged,364,776,531,cpp h ,5
+Update OpenCV docs,2015-08-19,Merged,362,4,66,txt ,0
+Removes opencv dependency,2015-08-18,Merged,361,897,110,cpp in h ,5
+Add postfix to have both debug and release libraries.,2015-08-18,Merged,360,6,0,,0
+Corrected handling of DEPENDS_DIR and extended description of it,2015-08-12,Merged,357,2,2,cmake ,1
+changed minimal opengl version to 3.1,2015-09-04,Closed,352,91,74,h cpp fs vs ,7
+Correct find_scrpipt for libusb,2015-08-06,Merged,351,8,2,,1
+Remove `roundf()` use from Registration,2015-07-28,Merged,345,3,3,,1
+Exit on opengl errors,2015-07-23,Merged,341,16,2,,1
+"Quick windows docs update, address #330",2015-07-23,Closed,339,2,2,,0
+Mac OS X docs update,2015-07-20,Merged,328,17,6,,0
+make sure data pointer in Frame object is 64-byte aligned,2015-07-16,Merged,326,12,3,,1
+fix opencl rebuild after config change,2015-07-15,Merged,324,2,1,,1
+Use newer OpenCL include path to save cl.hpp,2015-07-13,Merged,318,3,1,,1
+allow supplying an external Frame for the depth buffer,2015-07-14,Merged,317,4,4,cpp ,2
+fixed memory leak in openDevice,2015-07-09,Merged,315,11,2,cpp ,2
+rename examples/protonect to src,2015-08-18,Closed,314,6,6,cpp bin txt cmake in h hpp c cl fs vs ,66
+[RFC] refactor logging,2015-09-04,Closed,309,464,103,cpp h hpp ,11
+Raise required CMake version to 2.8.12,2015-06-26,Merged,308,1,1,,0
+OpenNI2 driver,2015-12-30,Closed,302,"3,151",0,txt md drivers/OpenNI2-Freenect2Driver/extern/OpenNI2 cpp hpp ,4
+Added comments for lib-names,2015-06-17,Merged,301,3,0,,1
+Extended name of libtubrojpeg for debian packaging,2015-06-17,Merged,300,1,1,,1
+Fix Ubuntu 14.04 installation issues,2015-06-17,Merged,299,3,3,sh ,1
+Various small fixes,2015-06-17,Merged,294,5,6,,3
+Build OpenCL program as soon as the OpenCL device is initialized,2015-07-09,Merged,293,59,18,,1
+"separate between static and shared libs, make it configureable",2015-09-02,Closed,292,49,21,cmake ,1
+Fix compile error in libfreenect2.h,2015-06-14,Merged,290,2,2,,1
+Added pkg-config file to support external library usages,2015-06-17,Merged,289,15,0,txt in ,2
+Create (mostly) static Protonect.exe on Windows,2015-08-25,Closed,284,65,16,cmake cpp ,5
+Link local libusb statically on Linux/Mac,2015-08-25,Closed,283,40,6,txt cmake ,2
+Copy DLLs for Protonect on Windows,2015-10-16,Closed,282,23,1,,0
+Documentation update,2015-06-09,Merged,279,72,5,,0
+Move loadBufferFromResources() to resource.h from OpenCL depth processor,2015-06-09,Merged,278,25,21,cpp ,3
+Add libusb as a path_suffixes - as libusb doesn't have a include folder.,2015-06-08,Merged,277,2,1,,1
+create static and shared library from same source build,2015-06-09,Merged,276,16,7,txt cpp ,2
+Fix transfer pool thread safety,2015-06-08,Merged,275,73,45,cpp ,3
+CMake cleanup,2015-06-08,Merged,274,142,165,cmake ,4
+Getting dependencies on windows.,2015-06-07,Merged,272,28,10,,0
+More modular solution for dependency installation,2015-06-07,Merged,271,46,25,md sh txt cmake ,6
+Added depends search path.,2015-06-07,Merged,270,11,10,,1
+Added default install path to glfw on windows,2015-06-07,Merged,269,7,2,,1
+add libusb directory to RPATH,2015-06-07,Merged,268,2,0,,0
+Better solution for dependency installation,2015-06-07,Closed,267,46,25,md sh txt cmake ,6
+Make install script abort on errors,2015-06-07,Merged,266,1,0,,1
+Quick documentation fix,2015-06-07,Merged,265,6,20,sh ,1
+fix GLFW3 conditional,2015-06-06,Merged,264,1,1,,0
+build static library libfreenect2.a as well,2015-06-08,Closed,263,5,0,,0
+build static library libfreenect2.a as well,2015-06-06,Closed,262,5,0,,0
+[WIB] Glviewer,2015-08-18,Closed,261,760,88,cpp in ,2
+Missing include and lib for default path on windows.,2015-06-06,Merged,260,2,2,,1
+search for libusb-1.0 instead of libusb,2015-06-05,Merged,259,1,1,cmake ,1
+Streamlined the JPEG and added environment to work on linux/mac too.,2015-06-04,Merged,257,2,21,,1
+Added filtering of shadowed color regions to registration,2015-06-14,Merged,253,108,35,h ,4
+Renamed contrib folder to rules,2015-05-22,Merged,241,0,0,,1
+add a brief (linux-centric) FAQ section,2015-05-22,Merged,240,33,7,,0
+add udev rules file by @wiedemeyer,2015-05-22,Merged,239,5,0,,1
+commented out unused variable from cpu_depth_packet_processor.cpp,2015-05-22,Merged,238,1,1,,1
+Extension of Protonect to allow selection of pipeline and device,2015-05-22,Merged,236,58,3,,1
+Updated error reporting messages,2015-05-13,Merged,227,11,11,,4
+add convenience method & sample code for registration,2015-05-12,Merged,226,61,7,h ,3
+Use cl_device_type for clGetDeviceInfo(CL_DEVICE_TYPE) instead of size_t...,2015-05-12,Merged,225,3,3,,1
+Fixed shebang for all the depends scripts,2015-05-07,Merged,224,5,5,,3
+Add CUDA depth processor,2016-02-14,Closed,222,"1,293",33,txt cpp h in hpp ,10
+Improve RGB and depth stream parsers,2015-05-20,Merged,221,112,59,hpp cpp ,9
+Handling race condition for pending_transfers_ and its iterators.,2015-06-08,Closed,212,16,0,cpp ,2
+Add VA-API JPEG decoder,2016-02-07,Closed,210,666,74,cpp h in hpp ,15
+Update build instructions for Windows with MSVC and OpenCL,2015-05-22,Closed,208,88,16,txt cmake ,1
+Fix FTBFS on ARM introduced in PR #103,2015-04-22,Merged,207,0,4,,2
+add basic Registration class,2015-03-27,Merged,190,218,0,hpp h cpp ,4
+fix for opencl implementation of the bilateral filter,2015-03-25,Merged,189,1,1,,1
+Added <limit> header missing and preventing compiling on Ubuntu 14.04.2,2015-03-27,Merged,180,2,0,,1
+Added automake to list of dependencies for Ubuntu 14.04,2015-03-10,Merged,179,1,1,,0
+Example code to stream video feeds to v4l using v4l2loopback,2015-03-31,Closed,177,"11,919",0,txt md cmake in ,5
+fixed OpenGLDepthPacketProcessor texture upload,2015-03-31,Merged,171,3,0,,1
+fixed char comparison warning,2015-03-27,Merged,170,1,1,,1
+test_opengl input data dump,2016-02-03,Closed,169,152,3,cpp ,2
+Make opencl processor compiling on newer linux nvidia CL version,2015-03-30,Merged,167,3,0,,1
+Remove the VS solution as it is outdated.,2015-04-01,Merged,166,2,327,sln filters vcxproj ,6
+fix typo in shell script variable,2015-02-11,Merged,162,2,2,,1
+added --dump option for exporting input data for test_opengl,2015-02-19,Closed,161,73,12,cpp h ,6
+add info about intrinsic structure,2015-02-09,Merged,158,33,6,cpp ,2
+remove OpenCV dependency,2015-06-23,Closed,151,241,91,cpp ,1
+updated libusb dependency,2015-02-10,Merged,149,1,27,patch ,2
+Added sequence in Frame,2015-05-21,Closed,148,13,1,cpp ,5
+Added timestamp support in Frame(but only Depth and IR),2015-02-26,Closed,147,16,1,hpp cpp ,7
+Fix for OpenCL depth packet processor ignoring min and max depth values from config.,2015-01-29,Merged,145,34,28,,1
+updated freenect2.cmake.in,2015-02-02,Merged,138,4,8,,1
+optional OpenGL dependency,2015-02-02,Merged,130,53,38,cpp in h ,6
+removed GLEW dependency and use OpenGL function loader generated with flextGL,2015-02-02,Merged,129,"2,234",297,txt cpp h c ,5
+fix for wrong define name: WITH_OPENCL_SUPPORT -> LIBFREENECT2_WITH_OPENCL_SUPPORT,2015-01-12,Merged,128,2,2,,1
+renamed global variable shutdown to protonect_shutdown,2015-01-12,Merged,127,5,5,,1
+Update README.md - Ubuntu Dependencies,2015-02-02,Merged,125,2,0,,0
+added posibility to select openCL device for depth processing and improved openCL device listing,2015-01-12,Merged,124,102,36,cpp ,4
+"Fix conflicting name of variable ""shutdown""",2015-01-12,Closed,121,341,5,txt xml ,3
+OpenCL fixes,2015-01-12,Merged,119,9,11,cpp ,2
+Fix openDevice idx,2015-01-12,Merged,113,1,1,,1
+test_opengl OSX fix,2015-03-27,Merged,111,3,0,,1
+Do not download cl.hpp if it exists,2014-11-20,Merged,104,2,1,,1
+generate header file with platform and build configuration macros,2015-01-12,Merged,103,100,69,txt cmake in h hpp ,11
+ignore generated resource file,2014-11-19,Merged,99,3,0,,1
+moved DataReceivedCallback from TransferPool to separate header,2014-11-19,Merged,98,55,15,cpp ,6
+added option to hide the debug window of OpenGLDepthPacketProcessor,2014-11-19,Merged,95,13,11,cpp ,5
+fix compilation without OpenCL support,2014-11-17,Merged,94,9,2,h cpp ,2
+protonect: added install target and use pkg-config to find dependancis,2014-11-19,Closed,90,39,16,h cpp ,5
+[WIB] Added methods to query for serialNumber and Camera parameters without starting device.,2015-06-13,Closed,82,72,1,,1
+added cmake option to enable c++11,2014-11-15,Merged,81,15,0,,0
+fix device identification,2014-11-01,Merged,80,4,4,,1
+Formatting README to Markdown format,2014-11-01,Merged,77,69,21,,0
+Added Ubuntu documentation,2014-11-01,Merged,76,25,0,,0
+A go at making the depth_packet_stream_parser better.,2015-05-05,Closed,75,74,105,hpp cpp ,6
+Rgb packet handling,2015-05-05,Closed,73,57,22,h cpp ,4
+Robust check for arrived color frame.,2015-05-21,Closed,72,39,25,,1
+Add timestamps to Frame data.,2015-05-21,Closed,71,18,1,hpp cpp ,8
+Added header files so they are visible in VS solution tree.,2015-05-22,Merged,70,26,5,,0
+Added a libfreenect2_api export macro - to apply __declspec(dllexport) i...,2015-01-12,Closed,69,53,12,hpp ,7
+Added FindLibrary files for various libraries,2015-06-03,Merged,68,234,60,txt cmake ,5
+Added include <algorithm> in ifdef WIN32 and VS2013,2014-11-01,Merged,67,12,5,cpp ,3
+Made a ifdef for packing data to work on windows also.,2014-11-15,Merged,66,50,10,cpp ,4
+opencl depth packet processor,2014-11-15,Merged,58,"1,241",37,txt cmake h cpp ,6
+SyncMultiFrameListener changes,2014-10-03,Merged,57,76,22,h cpp ,3
+CMAKE Headers in ADD_LIBRARY,2014-09-16,Closed,55,4,0,,0
+make install enabled,2014-11-15,Merged,52,31,0,in ,1
+Avoid linking problem with libturbojpeg by compiling it during installation of dependencies,2014-11-12,Closed,51,28,1,txt ,1
+FrameListener pullrequest,2014-09-28,Closed,48,18,5,h cpp ,3
+OpenCL based DepthPacketProcessor pullrequest,2014-09-28,Closed,47,959,5,h cpp ,2
+CMake based restructuring - enhanced for Linux,2014-08-20,Closed,43,"2,401",636,APACHE20 txt sln filters ,5
+Updated readme,2014-08-15,Merged,40,1,1,,0
+use pkg-config to find glfw libs,2014-11-12,Closed,39,5,6,,0
+make packet processing pipeline configurable,2014-10-03,Merged,38,313,61,h hpp cpp ,10
+Workaround for libusb_reset_device behaviour,2014-08-08,Merged,34,69,31,cpp ,2
+libjpeg_turbo fails to configure,2014-08-08,Merged,32,2,2,,1
+reimplement custom version of libusb_get_max_iso_packet_size,2014-08-17,Merged,30,77,9,txt h cpp ,4
+enhance device enumeration,2014-07-29,Merged,29,119,40,,2
+"renamed filter functions in GLSL shader code, fixes #27",2014-07-25,Merged,28,4,4,,2
+Mac OSX Fixes,2014-07-25,Merged,26,127,49,sh cmake hpp cpp ,8
+refactored Kinect v2 control command functions and implemented c++ api,2014-07-21,Merged,23,"1,961","1,045",,0
+explicitly link in pthread on Linux/MacOSX,2014-06-12,Merged,20,6,2,,1
+implemented DepthPacketProcessor using OpenGL shaders,2014-06-29,Merged,19,"2,767",136,txt cpp cmake h ,6
+implemented second filter stage in depth packet processor,2014-06-08,Merged,17,214,33,,1
+fixed segfault in DepthPacketStreamParser,2014-05-06,Merged,16,5,3,,1
+Removed boost thread dependency,2014-05-09,Merged,14,"1,182",29,cpp cmake h ,8
+initial draft for libfreenect2 api based on libfreenect api,2014-06-12,Merged,12,498,0,,0
+Initial working version of libfreenect2,2014-03-04,Merged,9,"3,342",876,sh patch bin examples/protonect/Makefile ,4
+fix KSendCommandReadResponse,2013-12-08,Closed,2,2,1,,1
+minor hotfixes for Linux support,2013-12-08,Merged,1,7,2,cpp h ,3

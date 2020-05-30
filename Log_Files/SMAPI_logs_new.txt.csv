@@ -1,0 +1,139 @@
+[SMAPI] Fix update marker file not being created,2020-01-13,Merged,691,2,0,,1
+Add French translations,2020-01-07,Closed,689,0,0,,0
+Add chest items changed event,2020-01-01,Merged,686,504,72,cs ,9
+[Log Parser] Fix parsing errors on content packs without authors,2019-12-27,Merged,684,2,2,,2
+[JSON Validator] Change 'log' to 'JSON file' on the JSON validator page,2019-12-26,Merged,683,1,1,,1
+Add portuguese translation,2019-12-25,Merged,682,3,0,,1
+Fixed the ring issue and flooring,2019-12-22,Merged,681,3,3,,1
+Add mate-terminal to the known-to-work terminals (fixes #676),2019-12-15,Merged,678,2,2,,1
+Add Russian translation,2019-12-03,Merged,672,3,0,,1
+add Chinese translation,2019-11-30,Merged,671,3,0,,1
+Prevent linux install failing with cryptic error,2019-12-03,Merged,670,3,0,,1
+Add alacritty support to unix-launcher.sh,2019-12-03,Merged,669,9,1,,1
+Add Turkish translation,2019-12-03,Merged,667,3,0,,1
+Correct README for translated language,2019-11-07,Merged,666,1,1,,0
+Add German translations,2019-11-02,Merged,664,3,0,,1
+Fix saving event doc typo,2019-09-14,Closed,659,1,1,,1
+[SMAPI.Web] Detect the client's platform and check the right log parser input accordingly,2019-08-31,Merged,658,62,14,cs cshtml ,4
+Added Content Patcher schema,2019-08-06,Merged,655,358,0,,1
+QoL fix for when multiple controllers are connected,2019-04-23,Closed,641,879,"3,173",targets md sh csproj ps1 ,6
+Reworked the unix launcher,2019-04-24,Closed,640,0,0,,0
+checkEventPrecondition crash fix,2019-04-15,Merged,637,88,2,csproj ,5
+Experimental Android support,2019-04-13,Closed,635,"148,645","16,840",dll json ,4
+adding termite support,2019-03-23,Merged,633,2,0,,1
+Pull latest changes (incl. 2.2.1),2019-03-18,Closed,629,0,0,,0
+Stop log messages from jumping around in hover edge case,2019-03-14,Merged,627,1,2,css ,2
+Add sections to the log parser,2019-03-10,Merged,626,87,4,cs cshtml css js ,6
+[Log Parser] Update info table in new suggested fixes section,2019-02-22,Merged,619,140,16,cs cshtml css ,4
+Make Log Parser Checkboxes + Show/Hide All Buttons Invisible Instead Of Hidden,2018-11-13,Merged,601,7,3,css ,2
+Made the unix launcher compatible with any shell,2018-11-15,Merged,600,6,6,,1
+Log Parser - Display author of content packs,2018-10-09,Merged,595,13,1,cshtml ,1
+Adding a --no-mods parameter,2018-08-11,Closed,578,13,2,,1
+Expand validation to respect CIL placeholders,2018-07-08,Merged,559,226,23,csproj ,5
+Linux-compatible scope resolution in validator,2018-07-07,Closed,558,177,2,,2
+Update readme.txt to work better with some text editors,2018-06-19,Merged,544,2,2,,0
+"Add version info to IModMetadata, Change update checks to consider preview versions",2018-06-19,Merged,543,114,8,csproj ,5
+[Console Commands] Add command finds item by name when there is exactly one exact match,2018-06-19,Merged,542,6,4,,1
+Add a docfx site. (docfx.json and generated site),2018-05-27,Closed,535,"87,724",0,,2
+Change konsole launch options for newer ncurses,2018-05-23,Merged,526,1,1,,1
+Fixed a game crash,2018-05-16,Closed,515,6,6,,1
+"Installer looks for more paths, also saves last user picked one",2018-07-27,Closed,512,193,24,,2
+Make pufferchick cool when user hovers over the download button,2018-04-25,Merged,477,13,3,png js ,3
+Log user input to logfile,2018-04-25,Merged,475,25,3,,2
+Add overload to the player_add console command to add items by name,2018-04-25,Merged,474,121,15,,2
+move `xterm` to top of terminal checking order,2018-03-06,Merged,456,2,2,,1
+Check if x-terminal-emulator is terminator,2018-01-20,Merged,425,9,1,sh ,1
+Fix terminator in unix-launcher simple way.,2018-01-02,Closed,420,1,1,,1
+If terminator found skip x-terminal-emulator and use custom launch.,2018-01-02,Closed,419,5,2,,1
+"ignore terminator when picking the shell, fixes #294",2018-01-02,Closed,418,2,1,,1
+Adding a date function,2017-11-26,Merged,390,6,0,,1
+Added code to suppress mouse clicks,2017-11-26,Merged,389,30,2,,1
+smapi.io log parser- Also close popups with mouse and escape key,2017-11-26,Merged,386,30,5,,1
+Improve performance of PrivateProperty,2017-10-25,Closed,370,16,10,,1
+Fix building SMAPI 1.x,2017-08-09,Merged,343,5,0,,2
+Adds a day of the week function to SDate,2017-08-01,Merged,339,31,1,,1
+SDate cannot handle the first day correctly w/o throwing an error,2017-07-17,Closed,331,3,3,,1
+Tweak debug deploy to respect stardewvalley.targets like ModBuildConfig,2017-07-07,Merged,319,6,0,,3
+To add operators to the SDate class,2017-06-18,Merged,307,195,0,csproj config ,4
+Add trainer commands: player_addwallpaper and player_addflooring,2017-06-03,Merged,301,27,0,,1
+Add ability to place comments in config.json files,2017-11-04,Closed,300,0,0,,0
+Added experimental .tbin support,2017-05-25,Merged,298,24,0,,1
+Added basic topological sort for mod dependencies (#285),2017-05-13,Merged,290,83,0,,1
+Fix Load<T> not calling event if asset doesn't exist,2017-03-10,Closed,246,6,1,,1
+Additions to TrainerMod,2017-03-01,Merged,242,25,14,,1
+typo,2017-02-27,Merged,241,1,1,,1
+Mac and Linux debug run works!  🙃,2017-02-11,Merged,234,4,2,,1
+"Corrected CurrentLocationChanged's ""NewLocation"" and ""PriorLocation"" …",2017-02-02,Merged,228,2,2,,1
+Fix TrainerMod not using crossplatform.targets,2017-01-15,Merged,214,2,52,csproj ,1
+Add a catch for DirectoryNotFoundException in ModHelper.ReadJsonFile …,2017-01-14,Merged,213,6,2,cs ,2
+Temp fix for Steam not launching SMAPI (Mac/Linux),2016-12-30,Closed,203,47,31,,1
+ReflectionHelper fixes for invalid cache entries and unintended exceptions.,2016-12-18,Merged,193,42,7,,1
+SMAPI installer is able to read SDV install path from registry key,2016-12-08,Merged,189,36,0,,1
+Rewrite and expand readme,2016-10-31,Merged,157,72,84,sln ,1
+Make SMAPI crossplatform,2016-10-30,Merged,153,232,261,,3
+Detect game path automatically (#126),2016-10-29,Merged,152,35,51,,2
+Adds an InnoSetup installer to smapi,2016-10-26,Closed,142,54,0,,1
+"Reverted to previous SGame class with minor changes for 1.1, updated …",2016-10-04,Merged,133,381,380,,1
+Some Semi-Big Changes,2016-05-30,Merged,118,290,134,png txt sln config cs xml ,28
+Update Item List - ObjectInformation.xnb [v1.07],2016-05-21,Merged,115,5,2,,0
+remove 'UpgradeLog',2016-04-07,Merged,104,0,0,,2
+Update README.md,2016-04-07,Merged,103,2,1,,0
+license change. GPL to LGPL.,2016-04-06,Merged,101,159,668,,0
+Crashfix minigame SDV 1.07,2016-04-05,Merged,100,2,11,,1
+i hate ticking versions i always forget,2016-04-04,Merged,98,1,1,,1
+graphics events for rendering,2016-04-04,Merged,97,48,0,,2
+Updated,2016-04-01,Merged,94,1,1,,1
+updated release to 0.39.6,2016-04-01,Merged,93,"2,858","1,023",config cs ,3
+moved back a function that probably was in the right place last time,2016-04-01,Merged,92,4,3,,1
+Added SDV and SMAPI version information at beginning of logfile,2016-03-31,Merged,89,2,0,,1
+ticks up version. changes build path to be just /bin/[debug|release],2016-03-30,Merged,87,7,6,csproj ,3
+Freeze fix when booting up Journey of the Prairie king,2016-03-30,Merged,86,2,2,,1
+made gui render events work when background is on,2016-03-30,Merged,85,2,0,,1
+change 'Mapping' to 'Modding'?,2016-03-29,Merged,84,1,1,,0
+small cleanup,2016-03-29,Merged,83,2,11,,1
+redoes some reflection and redoes the commenting of base.Draw().,2016-03-29,Merged,82,706,615,,1
+Correct fix for https://github.com/ClxS/SMAPI/issues/74,2016-04-01,Merged,81,4,4,,1
+i dont even know why that was there,2016-03-29,Merged,79,3,3,,1
+fixes obsolete draw event invocations,2016-03-29,Merged,78,5,2,,1
+Fixed issue #76: Logger would throw an exception when LogDir didn't exist.,2016-03-29,Merged,77,7,0,,1
+Added MenuClosed event which fires when the current menu is closed.,2016-03-28,Merged,72,28,0,,3
+logging,2016-03-27,Merged,71,10,5,,1
+updates,2016-03-27,Merged,70,46,25,,4
+lots of things,2016-03-27,Merged,69,"1,084",85,,10
+fixes bugs,2016-03-27,Merged,68,37,2,,3
+"logging things. not sure if ready for release build, testing for a bit.",2016-03-27,Merged,67,"1,636",988,cs ,5
+errors now tell you the dll that errored not the manifest,2016-03-23,Merged,63,5,4,,2
+sync branch,2016-03-23,Merged,61,90,415,cs ,5
+sync branch,2016-03-23,Closed,60,0,0,,0
+sync branch,2016-03-23,Closed,59,90,415,cs ,5
+readme,2016-03-23,Merged,58,2,3,,0
+0.39.1 inbound!,2016-03-23,Merged,57,85,417,,5
+config updates,2016-03-23,Merged,56,12,4,,1
+sync branch,2016-03-23,Merged,55,245,57,,3
+logging,2016-03-23,Merged,54,8,1,,3
+a lottttttttt,2016-03-23,Merged,53,237,56,,3
+merge master to release,2016-03-23,Merged,51,418,465,,6
+a lot,2016-03-23,Merged,50,418,465,,6
+update version number,2016-03-22,Merged,49,1,1,,1
+update version number,2016-03-22,Merged,48,1,1,,1
+rebase release to master,2016-03-22,Merged,47,2,2,,2
+Release,2016-03-22,Merged,46,2,2,,2
+update release branch to 0.38.5,2016-03-22,Merged,45,864,436,md cs xml ,7
+Updated release branch to 0.38.4,2016-03-22,Merged,44,0,0,,0
+logging refactors,2016-03-22,Merged,43,17,9,,2
+readme,2016-03-21,Merged,42,2,4,,0
+deprecation,2016-03-21,Merged,41,8,3,,3
+adds first tick update,2016-03-21,Merged,40,54,4,,4
+update readme,2016-03-21,Merged,39,2,2,,0
+adds some new events for the update loop,2016-03-21,Merged,38,89,0,,3
+forgot to merge for 38.1,2016-03-20,Merged,36,111,60,xml csproj config ,8
+tick version counter,2016-03-20,Merged,34,2,2,,1
+Manifest structure,2016-03-20,Merged,33,102,40,csproj json ,7
+Zoryn Returns,2016-03-20,Merged,32,567,403,cs ,3
+Perf improvements,2016-03-08,Merged,16,7,6,,2
+Use choose to select build location,2016-03-08,Merged,15,28,4,,2
+Main refactor,2016-03-06,Merged,9,157,166,,2
+Logging refactor,2016-03-06,Merged,4,403,370,,7
+#3 Sync,2016-03-03,Merged,3,"13,494",683,dll exe config cs ,8
+#2 Sync,2016-03-03,Merged,2,55,7,zip exe cs ,8
+#1 Sync Pull,2016-03-03,Merged,1,367,186,dll zip exe cs ,6

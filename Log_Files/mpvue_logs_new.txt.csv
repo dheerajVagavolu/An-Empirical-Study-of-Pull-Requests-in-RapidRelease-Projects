@@ -1,0 +1,93 @@
+Bump handlebars from 4.0.10 to 4.3.4,2019-12-28,Closed,1738,35,14,,1
+Fix comments typo,2019-08-09,Closed,1697,162,90,,9
+app lifecycle bug fixed,2019-08-05,Merged,1687,17,7,,4
+diff data,2019-07-31,Merged,1679,101,5,,3
+lifecycle refactor,2019-06-13,Merged,1638,246,88,,8
+将 2.0 版本对 1375 的修复同步到 1.x/lts (保留原作者提交记录),2019-05-09,Merged,1586,12,1,,1
+fix #1440,2019-06-13,Closed,1501,246,88,,8
+Hcq/dev,2019-03-19,Closed,1496,305,907,js ,2
+fix #1458,2019-03-13,Merged,1478,52,14,,7
+fix #1423,2019-02-28,Merged,1446,10,1,,1
+bugfix:  #1430,2019-02-27,Merged,1437,4,2,,1
+fix #1375,2019-02-25,Merged,1428,12,1,,1
+"bugfix: #1375, #1372",2019-02-19,Merged,1406,10,2,,1
+fix #1393,2019-02-18,Merged,1398,1,1,,1
+Feature/ttalipay,2019-02-18,Merged,1394,11,13,,2
+Update README.md,2019-02-14,Merged,1382,1,1,,0
+doc update: mpvue 2.0,2019-02-14,Merged,1377,5,14,,0
+Feature/ttalipay,2019-02-13,Merged,1374,"1,901","1,124",,1
+Fix/1305,2019-01-29,Merged,1362,11,6,,2
+增量更新diff算法bugfix,2019-01-29,Merged,1360,12,10,,3
+保护 componentInstance 可能不存在的情况,2019-05-29,Closed,1317,1,1,,1
+smartprograme support,2019-01-04,Merged,1310,"1,710",13,,7
+Docs,2018-12-26,Merged,1293,2,5,,0
+update: 更新合作小程序,2018-12-26,Merged,1292,26,2,,0
+slot基础上支持 slot-scope,2018-12-30,Closed,1283,728,111,,1
+一把梭增加 slot-scope 支持,2018-12-21,Closed,1281,472,34,json ,4
+指定 parser,2018-12-13,Closed,1257,2,2,,1
+_mpProps 和 _computedWatchers上的变量，使用者如果错误写入undefined可能引起微信报警，忽略这种赋值,2018-12-06,Closed,1245,6,2,,1
+mpvue 数据增量同步更新,2018-12-05,Merged,1241,433,18,,2
+修复this.arr.push(1) this.arr.concat([1]) 不能触发更新的bug,2018-12-05,Merged,1240,3,3,,1
+fix: 针对 swan 一些组件数据绑定使用特殊语法 {=value=} 进行适配,2018-11-29,Merged,1231,891,5,,0
+feat: cover-view子元素编译成cover-view,2020-01-13,Closed,1225,39,2,,4
+bump prettier,2018-11-14,Closed,1187,27,10,lock ,5
+Merge pull request #4 from Meituan-Dianping/develop,2018-11-14,Merged,1186,1,1,,1
+Hucq/code style,2018-11-12,Merged,1177,17,18,,3
+在渲染时使用新的diff算法来减少Vue组件更新引起的Page.setData的实际更新量，达到提升页面性能的目的,2018-11-12,Merged,1165,427,16,,2
+Dev/watch diff,2018-11-06,Closed,1164,"136,418","20,433",editorconfig eslintignore eslintrc flowconfig md gitignore ,6
+Feature/platform,2019-02-27,Closed,1154,"1,710",13,,7
+fix: slot data 缺失,2018-10-23,Merged,1121,1,1,,1
+修复 slot 问题,2018-10-23,Merged,1120,170,31,yml js ,6
+Update issue_template.yml,2018-10-22,Merged,1111,1,1,,1
+fix #1001,2018-10-31,Merged,1107,6,0,,1
+Dynamic slot name,2018-10-10,Merged,1088,71,12,,4
+支持 div[v-for] > slot[name] 动态slotname,2018-10-10,Closed,1087,30,6,,1
+第一个次fork,2018-09-20,Closed,1038,1,0,,0
+feat: 修改issue template格式，添加mpvue-bot配置,2018-08-17,Merged,901,80,19,yml ,2
+支持小程序原生自定义组件的双向数据绑定（v-model）,2018-09-14,Closed,892,15,2,,2
+支持小程序原生自定义组件的双向数据绑定,2018-08-15,Closed,889,20,4,js json ,3
+添加合作项目,2018-07-20,Merged,777,15,2,,0
+更新合作项目列表,2018-07-20,Closed,776,0,0,,0
+Develop,2018-07-05,Merged,721,7,0,,0
+Fix slot props fix #427,2019-06-12,Closed,701,3,3,,2
+添加微信自动拉入官方群说明,2018-06-29,Closed,688,2,0,,0
+Develop,2018-06-15,Merged,645,383,67,js json ,7
+fix: raw component props,2018-06-15,Merged,617,33,0,,1
+fix: 多个组件properties的监听bug,2018-06-15,Closed,592,5,4,,1
+fix: #429 表单元素存在子元素改为不闭合,2018-05-25,Merged,547,8,1,,2
+[fix] 解决具名slot编译成template丢失原标签的bug.,2018-06-15,Closed,539,42,13,,4
+fix: 组件的生命周期响应问题,2018-06-15,Merged,531,137,4,,5
+Navtivecomponent lifectyle hooks,2018-05-22,Closed,530,6,2,,2
+fix: 修复组件生命周期响应问题,2018-05-22,Closed,529,6,2,,2
+Develop,2018-05-19,Merged,508,111,16,json ,16
+fix: properties could be empty,2018-05-17,Merged,493,11,4,,1
+feat: support miniprogram native component properties,2018-05-17,Merged,490,42,1,,2
+core: 保留 Vue.js 运行时的错误提示,2018-06-15,Closed,488,17,24,,3
+"fix #427, #409, #387, #284",2018-05-19,Merged,459,3,3,,2
+"fix #427, #409",2018-05-12,Closed,458,3,3,,2
+new version 1.0.11,2018-05-04,Merged,418,121,116,json ,13
+fix #413,2018-05-04,Closed,414,1,0,,1
+fix: #197 修正 style 对象转换后的运算优先级,2018-05-04,Merged,391,8,3,,2
+1.0.10,2018-04-27,Merged,386,11,6,,3
+optimize: 代理函数增加返回值,2018-04-27,Merged,357,10,5,,3
+Bugfix error handlers,2018-04-27,Merged,345,1,1,,1
+Develop,2018-04-20,Merged,323,60,12,js lock ,8
+feat: 添加对 v-html 属性的支持,2018-04-20,Merged,318,15,1,,3
+fix: 打包插件兼容 Windows,2018-04-20,Merged,315,4,4,lock ,2
+fix: #149 恢复对组件 ref 的支持,2018-04-20,Merged,314,3,1,,1
+fix: #206 页面默认分享的问题,2018-04-20,Merged,295,2,3,,1
+fix: #279 页面实例引用错误,2018-04-20,Merged,281,2,2,,1
+Develop,2018-04-13,Merged,277,49,22,json ,8
+optimize: 事件处理函数不存在时输出提示,2018-04-12,Merged,259,5,0,,1
+Develop,2018-03-23,Merged,175,72,66,json ,7
+Develop,2018-03-20,Merged,143,84,42,json ,9
+fix: #87,2018-03-15,Merged,104,6,6,js ,3
+Update attrs.js,2018-03-15,Merged,90,19,9,,4
+Update attrs.js 禁止折行,2018-03-14,Closed,88,2,2,,1
+new version 1.0.3,2018-03-14,Merged,82,306,78,js ,3
+1.0.2,2018-03-13,Merged,76,67,133,js json ,6
+fix: components驼峰转小写的问题正则修复,2018-03-14,Closed,44,15,2,,3
+fix: vue core 版本跟随了 mpvue 版本号,2018-03-13,Merged,28,4,2,json ,2
+Develop,2018-03-09,Merged,25,91,25,json js ,8
+Fix components named,2018-03-09,Merged,24,46,15,js ,2
+Update README.md,2018-03-09,Merged,3,1,1,,0

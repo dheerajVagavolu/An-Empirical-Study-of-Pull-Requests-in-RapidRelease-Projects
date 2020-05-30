@@ -1,0 +1,904 @@
+Test: Fixtures update  certificates,2020-01-09,Closed,1153,160,47,key t ,5
+PATH-routing: url was not escaped correctly,2019-12-20,Merged,1150,88,2,lua t ,2
+Merge 3.7 CHANGELOG to master.,2019-12-16,Merged,1149,27,7,,0
+added {} to the regexp that matches the URI parameters,2019-12-18,Closed,1146,1,1,,1
+Openresty: Update base executor to custom Openresty package,2020-01-09,Merged,1145,466,95,md Makefile gateway/cpanfile ,3
+release: 3.7.0,2019-12-16,Merged,1144,6,1,,0
+http_proxy: set Host domain correctly,2020-01-10,Merged,1143,109,18,lua t ,5
+OIDC: Using caching to retrieve issuer configs.,2019-12-20,Merged,1141,235,21,lua t ,4
+Proxy: Format usage,2019-11-12,Merged,1140,47,37,,4
+Release 3.7-Stable CR2,2019-11-07,Merged,1138,43,1,lua t ,3
+Upstream: return error if the value given is cjson.null,2019-11-07,Merged,1136,40,1,lua t ,3
+Configuration: Lazy mode issue with SSL certificate.,2019-11-05,Merged,1135,4,1,lua ,1
+Release 3.7-CR1,2019-11-05,Merged,1134,96,5,lua json t ,7
+Policy: TLS termination changed name.,2019-11-04,Merged,1133,2,2,,1
+Build: Bump argparse version to 0.6.0,2019-11-04,Merged,1132,1,1,,1
+Return 404 to client if no upstream defined.,2019-11-04,Merged,1129,89,1,lua t ,4
+Feature: Add HTTP2 support.,2020-01-13,Merged,1128,655,32,gateway/Roverfile lock conf liquid lua json t ,15
+3.7 Beta-2 release,2019-10-18,Merged,1127,848,40,liquid lua json ,14
+Logging: adds usage statistic on log.,2019-10-16,Merged,1126,3,0,lua ,1
+Routing: Fix issues with invalid metric update on routing policy.,2019-10-17,Merged,1125,672,39,lua json ,12
+APIcast: Updated list of TLS protocols that are available.,2019-10-09,Merged,1124,1,1,,1
+Mapping Rule: Use unescaped rule,2019-10-15,Merged,1123,162,1,lua t ,5
+Routing Policy: Fix upstream selector base path,2019-10-02,Merged,1122,90,7,lua t ,5
+Routing: Fix query args on replace_path,2019-10-01,Merged,1121,106,41,lua t ,4
+Routing policy: Add a way to replace the path on routing policy,2019-09-19,Merged,1120,243,2,json lua t ,6
+Changelog: Update 3.6 items,2019-09-19,Merged,1119,16,2,json ,1
+3.6 stable,2019-09-16,Closed,1118,19,3,json lua ,2
+Release v3.6.0 stable,2019-09-16,Merged,1117,6,1,,0
+Logging: Added target host on logging policy.,2019-09-16,Merged,1116,55,13,lua t ,4
+RELEASE 3.7-beta1,2019-10-02,Merged,1115,504,58,lua json ,9
+S2I: Installed a new version if s2i version mismatch.,2019-09-12,Merged,1114,18,3,,1
+Policy: Rate-limit fix window exception,2019-09-12,Merged,1113,53,1,json lua t ,3
+Devel: set EDITOR to vi,2019-09-03,Merged,1112,1,0,,1
+Changelog: Fix typos,2019-08-30,Merged,1111,4,4,,0
+WIP: Test: Validate that nginx env vars are set correctly.,2019-08-27,Closed,1110,76,0,,1
+Tracing: Fix exception with OPENTRACING_FORWARD_HEADER parameter.,2019-08-29,Merged,1109,60,2,conf lua t ,3
+TLS termination policy,2019-08-29,Merged,1108,788,33,lua json ,3
+Liquid: Available context move to readwrite linked list.,2019-08-23,Merged,1107,63,1,lua t ,2
+Gateway: Add a option to enable keepalive-timeout,2019-09-04,Merged,1106,263,1,conf liquid lua t ,4
+[THREESCALE-3189] Add maintenance policy,2019-08-07,Merged,1105,350,0,json lua t ,5
+Routing Policy  enhancements,2019-09-09,Merged,1103,226,2,lua json t ,7
+release: 3.6.0-rc2,2019-07-25,Merged,1102,4,5,,0
+OAuth 2.0 MTLS policy,2019-08-29,Merged,1101,441,0,json lua ,4
+Yarn: Upgrade dependencies,2019-07-24,Merged,1100,20,20,,1
+Load service configs one by one lazily,2019-07-30,Merged,1099,280,42,lua ,2
+Backport: spec/resty/http_ng/backend/async_resty: fix ssl test,2019-07-19,Merged,1098,1,1,,1
+Disable profiling job temporarily,2019-07-19,Merged,1097,7,5,,1
+THREESCALE-3046: Fix policy jsonschema.,2019-07-22,Merged,1095,13,1,json ,1
+CHANGELOG: move policy order to correct version,2019-07-15,Merged,1094,4,1,,0
+Fix verify ssl test in async_resty,2019-07-15,Merged,1093,1,1,,1
+Simplify tostring() in resty resolver,2019-07-15,Merged,1092,1,3,,1
+CIRCLE: bump Openresty to 1.15.1 version.,2019-07-10,Merged,1091,1,1,,1
+Openshift: delete dnsmasq procces [THREESCALE-1555],2019-08-09,Merged,1090,2,8,s2i/bin/run ,1
+"Policy: logging add custom access log options (JSON, Service vars, NGX vars)",2019-07-24,Merged,1089,876,12,liquid json lua ,3
+[THREESCALE-2896] Allow to define order restrictions in policies,2019-07-08,Merged,1088,543,46,lua json ,36
+Merge 3.6-stable into master,2019-07-15,Merged,1086,5,2,lua ,1
+release: 3.6.0-rc1,2019-07-04,Merged,1085,5,2,lua ,1
+Bring changes in master to 3.6-stable,2019-07-04,Merged,1083,37,5,Makefile yml lua ,5
+Liquid: extended variables to liquid templating.,2019-06-28,Merged,1081,8,0,lua ,1
+Policy: HTTP proxy,2019-07-26,Merged,1080,414,5,lua json ,7
+release: 3.6.0-beta1,2019-06-19,Merged,1076,5,2,lua ,1
+jwt claim policy specs: stub ngx.say,2019-06-18,Merged,1075,4,3,,1
+"Yarn.lock, updgrade dependencies.",2019-06-18,Merged,1074,73,50,,1
+Test: Bump test apicast to 0.24,2019-06-18,Merged,1071,4,4,snapshot ,2
+JWT claim policy,2019-06-18,Merged,1070,"1,106",0,json lua ,3
+[THREESCALE-2338] Performance documentation,2019-06-13,Merged,1068,286,23,,0
+fix for make development failures - github issue #957,2019-06-19,Merged,1067,29,5,yml ,4
+"[THREESCALE-2755] Return ""auth failed"" instead of ""limits exceeded"" for disabled metrics",2019-06-12,Merged,1066,107,0,lua t ,3
+[THREESCALE-2775] [Policy] IP Check uses multiple x-forwarder-for headers.,2019-06-11,Merged,1065,83,0,lua t ,2
+Reset _G table to avoid invalid warning message.,2019-06-14,Merged,1064,5,1,,1
+Backend enpoint override description update,2019-06-18,Merged,1063,3,2,,0
+Document and test management API only with policies exposed,2019-06-06,Merged,1062,17,1,t ,1
+Bump markdown-link-check to version 3.7.3,2019-06-05,Merged,1060,229,194,,1
+[THREESCALE-2340] Make response codes compatible with reporting threads,2019-06-05,Merged,1058,70,14,lua t ,2
+[THREESCALE-1517] Retry policy,2019-06-06,Merged,1057,670,2,conf lua json ,11
+[TEST] Fix rate limit integration test.,2019-06-05,Merged,1056,48,72,,1
+CHANGELOG: add missing JIRA links,2019-06-03,Merged,1054,4,4,,0
+[WIP] TLS termination policy,2019-08-15,Closed,1053,411,33,json ,8
+Makefile: add lua_modules to PHONY,2019-05-29,Merged,1052,1,1,,1
+[THREESCALE-2590] Add matches operation to the Rate Limit policy,2019-05-29,Merged,1051,285,148,json ,1
+[THREESCALE-2194] Ensure locks are released on configuration_loader.,2019-06-06,Merged,1050,213,20,lua t ,6
+Bump Openresty to 1.15.8.1 version,2019-06-03,Merged,1049,56,47,md lua t pl ,7
+[docs] fix APICAST_HTTPS_VERIFY_DEPTH documentation,2019-05-24,Merged,1048,8,8,,0
+[Test] Luassert make sure to revert function if it is already mocked.,2019-05-30,Merged,1047,30,0,,2
+OpenResty 1.15.8.1 and Perl 5.28.1 compatibility,2019-05-21,Merged,1045,17,13,t ,2
+[THREESCALE-2540] Fix issues with uppercase upstreams.,2019-05-27,Merged,1044,66,3,lock lua t ,3
+CI Fixes,2019-05-20,Merged,1042,5,2,lua ,3
+[Test] Fix mocked functions.,2019-05-20,Closed,1041,22,0,,1
+policy/rate_limit: add more complex example to the README,2019-05-21,Merged,1040,73,1,,0
+[THREESCALE-2236] Add methods option on Keycloak policy.,2019-05-21,Merged,1039,339,21,lua json ,5
+Fix problem with context sharing between phases in batcher policy test,2019-05-14,Merged,1038,1,0,,1
+Workflow enhacements,2019-05-16,Merged,1037,15,5,script/prove ,2
+Delete duplicated entry in the CHANGELOG,2019-05-14,Merged,1036,0,1,,0
+[THREESCALE-1150] Add option to use only path-based routing,2019-05-14,Merged,1035,263,123,lua ,3
+[THREESCALE-2264] Obtain JWT client_id from different claim,2019-05-14,Merged,1034,162,2,lua t ,4
+Merge 3.5 stable,2019-05-09,Merged,1033,22,6,lua ,1
+Release 3.5.1,2019-05-08,Merged,1031,55,5,lua ,3
+Release 3.5.0,2019-05-07,Merged,1030,5,0,,0
+3scale batching policy: fix name in the logs,2019-05-03,Merged,1029,2,1,lua ,1
+[standalone] support for defining upstreams,2019-05-23,Merged,1028,424,146,gateway/cpanfile snapshot liquid ,6
+[THREESCALE-1692] Change schema of IP check policy so it renders correctly in the UI,2019-05-07,Merged,1026,19,1,json lua ,2
+[THREESCALE-2166] Add Upstream Connection policy,2019-05-07,Merged,1025,234,0,lua json t ,9
+Add service label on metrics,2019-05-13,Merged,1024,273,25,lua ,4
+Local chain: forward correct context in all the request phases,2019-04-30,Merged,1023,32,21,lua t ,4
+[config] add support to filter services by endpoint.,2019-04-30,Merged,1022,289,48,lua ,3
+[THREESCALE-2205] Fix incorrect connection reuse,2019-04-25,Merged,1021,46,1,lua ,2
+Polish descriptions in policy schemas,2019-04-24,Merged,1020,24,24,,11
+[make] Add dependencies helper message.,2019-04-24,Merged,1019,1,1,,1
+Add list of policies for each version,2019-04-24,Merged,1018,"4,222",0,,0
+Rename and clarify get_auth_params() method in the Service module,2019-04-09,Merged,1014,9,2,,1
+3.5 stable to master,2019-04-04,Merged,1012,194,140,liquid lua t crt key t/fixtures/CA/Makefile pl ,15
+3.5 stable to master,2019-04-04,Closed,1011,197,140,liquid lua t crt key t/fixtures/CA/Makefile pl ,15
+Prevent a crash in 3scale batcher on reports with missing credentials,2019-04-03,Merged,1009,46,17,,4
+[oidc] do not use`aud` JWT claim [THREESCALE-2263],2019-04-09,Merged,1007,18,12,md lua t ,5
+[nginx] allow configuring maximum client certificate chain length,2019-04-04,Merged,1006,197,140,liquid lua t crt key t/fixtures/CA/Makefile pl ,15
+[THREESCALE-1867] keycloak role check policy : fix inaccurate desc of client field,2019-04-01,Merged,1005,5,1,json ,1
+Release 3.5.0-rc1,2019-03-29,Merged,1000,5,2,lua ,1
+"OIDC: Set ""no_body"" option when authorizing against the 3scale backend",2019-03-20,Merged,998,127,25,lua t ,4
+[nginx] do not send openresty version [THREESCALE-1989],2019-03-19,Merged,997,5,0,liquid ,1
+README: fix Circle CI badge link,2019-03-15,Merged,996,1,1,,0
+release: 3.5.0-beta1,2019-03-12,Merged,994,5,2,lua ,1
+CHANGELOG: merge duplicated 'Added' section,2019-03-11,Merged,993,2,5,,0
+Fix CLI command to push policy schemas,2019-03-11,Merged,992,13,8,lua ,2
+clarifies description and removes references to endpoints,2019-05-16,Closed,991,3,3,,0
+[tls-validation] rename to TLS Client Certificate Validation,2019-03-01,Merged,990,2,2,,1
+added service id and service name headers when X-3scale-debug is used,2019-02-11,Merged,987,3,0,lua ,1
+"Add ""push_policy"" command to the CLI",2019-02-12,Merged,986,299,1,lua json ,8
+Ensure that the apicast post_action phase runs only if access runs,2019-01-23,Merged,985,228,61,lua t json ,7
+Routing policy: small improvements,2019-01-22,Merged,984,101,2,json lua t ,3
+Routing policy: allow to modify the Host header,2019-01-22,Merged,983,153,4,lua json t ,9
+Add ability to stop matching mapping rules when there's a match,2019-01-21,Merged,982,176,17,lua t ,5
+Routing policy: clarify that it needs to be before APIcast in the chain,2019-01-16,Merged,979,7,1,json ,1
+[THREESCALE-1781] Fix bug with proxied POST requests to HTTPS API backend via forward proxy,2019-01-16,Merged,978,116,14,lua t ,2
+Update README.md,2019-01-10,Merged,977,3,1,,0
+[THREESCALE-1709] Routing policy,2019-01-15,Merged,976,"2,599",0,,0
+"Add ""matches"" operation for conditions",2019-01-15,Merged,975,45,8,lua ,6
+Extract condition modules from the Conditional policy,2019-01-15,Merged,974,11,7,lua ,6
+fixed description in CORS policy.,2019-01-02,Merged,973,1,1,,1
+Merge 3.4 stable,2018-12-11,Merged,969,5,0,,0
+release: 3.4.0,2018-12-11,Merged,968,5,0,,0
+circleci: use already installed deps in the profiling task,2018-12-10,Merged,967,1,1,,1
+TLS Client Certificate validation policy [THREESCALE-1671],2019-01-25,Merged,966,"1,285",37,liquid json lua ,7
+[t] test that path routing works with HTTPS,2018-12-05,Merged,965,70,17,,1
+Extract the main APIcast nginx configuration into own file,2019-02-04,Merged,964,193,114,md lock liquid lua ,8
+[circleci] cleanup docker images,2018-12-03,Merged,963,20,5,,1
+CHANGELOG: put batcher fix for OIDC under the correct section,2018-11-28,Merged,962,4,1,,0
+"Retry auths when using the ""resty"" http ng backend",2018-11-28,Merged,961,33,0,lua ,2
+version: bump to 3.5.0-master,2018-11-21,Merged,960,1,1,,1
+Merge 3.4-stable to master,2018-11-21,Merged,959,161,41,json lua ,5
+Fix broken links in OpenShift doc,2018-11-21,Merged,958,2,2,,0
+Make 3scale batcher policy compatible with OIDC,2018-11-23,Merged,956,153,2,lua t ,3
+release: 3.4.0-rc2,2018-11-16,Merged,955,4,1,,0
+[THREESCALE-1547] Fix default creds policy,2018-11-16,Merged,954,157,40,json lua t ,6
+Merge master to 3.4-stable,2018-11-13,Merged,952,215,213,lua crt key pl file ,6
+release: 3.4.0-rc1,2018-11-13,Merged,951,5,2,lua ,1
+Renew expired certs in mutual ssl tests,2018-11-08,Merged,950,44,58,key pl file t ,5
+adds env vars deprecation notice to changelog,2018-11-06,Merged,949,3,0,,0
+Profiling CircleCI job,2018-12-04,Merged,948,192,1,lua json ,4
+Merge 3.4 stable,2018-11-05,Merged,947,4,1,,0
+Fix 'nil' being added to path when using proxy,2018-11-05,Merged,946,100,1,lua t ,2
+README revamp,2018-10-26,Merged,945,63,152,,0
+Merge 3.4 stable,2018-10-26,Closed,944,4,1,,0
+release: 3.4.0-beta1,2018-10-24,Merged,943,5,2,lua ,1
+[upstream] fix sending port in the Host header,2018-10-23,Merged,942,54,25,lua t ,7
+"[THREESCALE-1381] Label the conditional policy as ""Tech preview""",2018-10-23,Merged,941,1,1,,1
+[THREESCALE-1289] Fix error when loading a config with only some services using OIDC,2018-10-23,Merged,940,248,87,lua t ,5
+[THREESCALE-1430] Avoid trying to use path-based routing when using HTTPS,2018-10-22,Merged,938,412,177,lua ,3
+perf: replace varargs in hot paths to make the code jittable,2018-10-18,Merged,937,5,4,lua ,2
+Remove 'experimental' label from path routing,2018-10-18,Merged,936,3,3,lua ,1
+"[THREESCALE-1396] Fix ""allow"" mode of the caching policy",2018-10-17,Merged,934,52,5,lua t ,3
+CHANGELOG: add missing JIRA links in metrics issues,2018-10-16,Merged,933,2,2,,0
+Document exported Prometheus metrics,2018-10-16,Merged,931,15,0,,0
+Add Prometheus metric for request response times,2018-10-15,Merged,930,64,3,lua t ,3
+"Add ""Retry-After"" header",2018-10-10,Merged,929,133,11,lua t ,7
+Delete operation in headers policy,2018-10-08,Merged,928,369,13,json lua ,3
+Add missing semicolon in proxy SSL settings,2018-10-08,Merged,927,39,29,conf t ,2
+Standalone configuration,2019-02-14,Merged,926,"1,016",27,Makefile yml lock rockspec lua gateway/cpanfile snapshot liquid ,10
+Merge 3.3 stable,2018-10-05,Merged,925,13,1,,0
+release: 3.3.0,2018-10-05,Merged,924,13,1,,0
+README for the IP check policy,2018-10-08,Merged,923,92,1,,0
+Fix and clarify the description of APICAST_CONFIGURATION_CACHE,2018-10-04,Merged,921,6,4,,0
+Document all_proxy and no_proxy,2018-10-04,Merged,920,23,3,,0
+"Metrics: add the type of 3scale backend call (auth, authrep, report)",2018-10-04,Merged,919,236,137,lua ,4
+Add Prometheus metrics for the upstream,2018-10-03,Merged,918,150,1,lua t ,4
+metrics: rename backend_response to threescale_backend_response,2018-10-02,Merged,917,12,8,lua t ,2
+Merge 3.3 stable,2018-09-26,Merged,914,221,16,lua t json ,10
+Merge 3.3-stable,2018-09-26,Closed,913,221,16,lua t json ,10
+release: 3.3.0-cr2,2018-09-25,Merged,912,4,1,,0
+Handle properly configs with invalid Liquid templates,2018-09-25,Merged,911,217,15,lua t json ,10
+IP check policy,2018-10-01,Merged,907,763,2,gateway/Roverfile lock json lua ,7
+[upstream] support path in the upstream url,2018-09-26,Merged,905,172,18,lua t ,9
+Expose OIDC as standalone policy,2018-10-01,Merged,904,537,83,lua ,8
+Add Prometheus metrics for the 3scale batching policy,2018-09-19,Merged,902,146,8,lua t ,4
+Update to v3.4.0-master,2018-09-17,Merged,901,1,14,lua ,2
+Merge 3.3-stable into master,2018-09-14,Merged,900,179,12,json lua ,9
+release: 3.3.0-cr1,2018-09-14,Merged,899,5,2,lua ,1
+Improve policy descriptions,2018-09-14,Merged,898,7,6,,5
+Merge 3.3-stable into master,2018-09-14,Merged,897,572,56,md s2iignore conf lua json ,16
+[liquid] rendering template is idempotent and thread safe,2018-09-14,Merged,896,50,3,lua ,2
+Fix bug when using the liquid debug policy with a config that contains Liquid templates,2018-09-14,Merged,895,86,10,json lua t ,4
+Help debugging invalid OIDC configuration,2018-09-13,Merged,894,98,6,lua t ,5
+Fix error when loading a config with only some services using OIDC,2018-09-13,Merged,893,93,4,lua t ,2
+3.3-stable circleci improvements,2018-09-12,Merged,892,43,46,Makefile ,2
+Merge what's exposed by 'ngx_variable' in TemplateString:render(),2018-09-12,Merged,891,103,11,lua t ,8
+Expose HTTP method to liquid,2018-09-12,Merged,888,23,6,md lua ,3
+[nginx] fix passing SNI when connecting to 3scale [THREESCALE-1269],2018-09-06,Merged,887,90,16,s2iignore conf lua t crt ,8
+Clarify order or policies that run on the content phase,2018-09-06,Merged,886,15,1,json ,1
+Add a log message when token introspection finds that the token is not active,2018-09-05,Merged,881,4,0,t ,2
+Fix handling --pid and -s/--signal on the CLI,2018-09-06,Merged,880,11,0,lua ,1
+merge 3.3 stable to master,2018-09-05,Merged,879,250,3,lua t ,7
+[config] clarify difference between oidc objects by renaming them,2018-09-05,Merged,878,95,3,t ,4
+Take referrer filters into account in the auths cache,2018-09-05,Merged,877,155,0,lua t ,3
+merge 3.3 stable to master,2018-09-05,Merged,876,56,24,lua t ,8
+[t] test empty APICAST_LOG_LEVEL,2018-09-05,Merged,874,17,0,,1
+[spec] reset proxy settings between test runs,2018-09-05,Merged,873,16,3,,2
+[oidc] always get issuer/iss from the OIDC Discovery endpoint,2018-09-05,Merged,872,23,21,lua ,5
+Merge 3.3 stable,2018-09-04,Merged,871,4,3,gateway/bin/apicast ,1
+Merge JWT validation fix (#864) into 3.3-stable,2018-09-04,Merged,870,64,18,lua t ,7
+[circleci] improve build times,2018-09-04,Merged,869,41,44,Makefile ,2
+Add missing default value for errlog level,2018-09-04,Merged,868,6,2,gateway/bin/apicast ,1
+[circleci] parallelize prove job,2018-09-04,Merged,867,2,2,,1
+release: 3.3.0-beta2,2018-09-03,Merged,866,5,2,lua ,1
+[cli] do not crash when listing unaccessible directories,2018-09-03,Merged,865,8,1,lua ,1
+[oidc] JWT validation according to the RFC 7523,2018-09-04,Merged,864,67,18,lua t ,7
+release: 3.3.0-beta1,2018-08-31,Merged,863,5,2,lua ,1
+Merge 3.2.1,2018-08-31,Merged,862,13,1,,0
+Change the display name of some policies,2018-08-30,Merged,861,9,8,json ,8
+Metrics policy,2018-08-30,Merged,860,313,1,lua conf t ,11
+[spec] test OIDC Discovery content type with charset,2018-08-29,Merged,859,1,1,,1
+[cli] fix logging to syslog,2018-08-28,Merged,858,94,1,t ,3
+[cli] fix relative access/error log paths [THREESCALE-1090],2018-08-28,Merged,857,9,2,lua ,1
+Logging policy,2018-08-28,Merged,856,235,1,liquid json lua t ,6
+CircleCI 2.1 preview,2018-08-28,Merged,855,112,101,,1
+[policy_chain] skip invalid policy configurations,2018-08-27,Merged,854,95,5,lua t ,5
+[cli] console command,2018-08-24,Merged,853,33,0,lua ,2
+[OIDC] support JWK discovery through OIDC Discovery process,2018-08-28,Merged,850,"1,146",220,md lua ,3
+Liquid context debugging policy,2018-08-27,Merged,849,299,2,json lua t ,9
+Fix bug when downloading configs that contain Liquid (portal endpoint with path),2018-08-20,Merged,847,70,3,lua t ,2
+Fix bug when downloading configs that contain Liquid,2018-08-20,Merged,845,71,4,lua t ,2
+[count-inc] Add decrement logic to the incoming function,2018-09-14,Merged,843,167,4,lua ,3
+[rate-limit] Use shdict when redis_url is empty in the same way as redis_url is null.,2018-08-13,Merged,842,27,2,lua ,2
+[wip] OIDC Discovery override,2018-08-23,Closed,841,883,73,json lua ,5
+do not depend on /etc/resolv.conf,2018-08-20,Merged,840,6,30,t ,7
+Add conditions to rate-limit policy,2018-08-20,Merged,839,367,21,json lua ,3
+Document APICAST_OIDC_LOG_LEVEL env var,2018-08-14,Merged,837,8,0,,0
+[circleci] temporarily disable jobs that are not used,2018-08-06,Merged,836,0,7,,1
+[resty.http] http proxy supporrt for lua-resty-http,2018-08-07,Merged,835,792,23,gateway/cpanfile snapshot lua ,8
+[wip] http plugin prototype,2019-03-01,Closed,833,101,9,lua ,4
+rate limit policy: fix exclusiveMininum for 'conn' in schema,2018-08-02,Merged,832,2,1,json ,1
+Add docs for the rate-limit policy,2018-08-02,Merged,831,185,0,,0
+[make] cleanup dependencies targets,2018-08-21,Merged,829,10,8,md sh ,2
+"""Rewrite URL captures"" policy",2018-08-03,Merged,827,673,3,json lua ,7
+[rate-limit] Multi limits using the same type of limiter.,2018-08-03,Merged,825,87,3,lua t ,3
+CHANGELOG: add missing links to JIRA,2018-07-31,Merged,824,10,10,,0
+Allow to place the batcher policy after APIcast policy in the chain,2018-07-31,Merged,823,93,4,lua t ,3
+Oauth Custom Changes,2018-07-25,Closed,822,35,19,,2
+Add docs for the conditional policy,2018-07-24,Merged,820,140,1,,0
+Expose request headers in Liquid available context,2018-07-23,Merged,819,102,7,lua t ,4
+policy/url_rewriting: avoid assigning self.something in rewrite(),2018-07-23,Merged,818,3,3,lua ,1
+Set LOG_LEVEL param to required,2018-07-23,Merged,817,2,1,,1
+Upstream module,2018-07-24,Merged,816,606,250,conf lua ,6
+[dev] do not set timer_resolution in development mode,2018-07-20,Merged,815,23,6,liquid lua ,5
+JSON conditions for conditional policy,2018-07-19,Merged,814,446,87,json lua ,6
+"[openshift] replace ""docker"" with ""container""",2018-07-16,Merged,813,2,2,,1
+Conditional policy,2018-07-18,Merged,812,310,0,json lua t ,7
+[s2i] fix unbound variable on OpenShift 3.9 [THREESCALE-1138],2018-07-11,Merged,810,2,1,s2i/bin/assemble ,1
+[spec] fix random failure in resty.concurrent spec,2018-07-09,Merged,804,5,5,,1
+stub ngx.print in Keycloack scopes policy specs,2018-07-09,Merged,803,1,0,,1
+doc/policies: clarify available policies in each installation type,2018-07-09,Merged,802,24,4,,0
+policies doc: fix references to apicast-policy.json,2018-07-09,Merged,801,2,2,,0
+[resty.http_ng] use http/s proxy for backend and upstream connections,2018-08-22,Merged,800,912,63,conf lua ,6
+[busted] fix leaking tests,2018-07-04,Merged,799,161,66,lua ,9
+[circleci] install native apicast for profiling,2018-06-28,Merged,797,156,87,Makefile Vagrantfile sh ,7
+Run the GC after each TimerTask test,2018-06-28,Merged,796,16,0,,1
+[codeclimate] luacheck was released to the stable channel,2018-06-28,Merged,794,0,1,,1
+[luacheck] strip trailing whitespace,2018-06-27,Merged,793,20,20,,6
+[codeclimate] measure cyclomatic complexity,2018-06-27,Merged,792,2,0,,1
+TimerTask improvements,2018-06-27,Merged,791,26,29,lua ,2
+Workaround to make __gc work on tables,2018-06-26,Merged,790,222,0,lua ,2
+[example] update add-ssl example,2018-06-26,Merged,789,41,20,conf ,1
+[release] 3.2.1,2018-06-26,Merged,788,4,3,lua ,1
+Use TimerTask in the 3scale batcher policy,2018-07-02,Merged,786,240,189,lua ,6
+Add option to run immediately or wait 'interval' second in TimerTask.execute,2018-06-22,Merged,784,35,10,lua ,2
+[resty.concurrent] collection of modules for concurrent programming,2018-07-04,Merged,783,617,53,,6
+Add TimerTask,2018-06-22,Merged,782,238,2,lock rockspec lua ,5
+[rate-limit] add condition to the key,2018-07-11,Closed,781,511,13,lua json ,4
+Correct changelog,2018-06-21,Merged,780,1,1,,0
+[oidc] fix reporting to backend when using OIDC [THREESCALE-1080],2018-06-25,Merged,779,95,48,lua t ,2
+Fix recording JUnit and logs on CircleCI,2018-06-20,Merged,778,248,6,gitignore Makefile gateway/cpanfile snapshot ,5
+Make referrer policy compatible with async reporting threads option,2018-06-20,Merged,777,71,2,lua t ,2
+[utils] append the original error to the error string,2018-06-26,Merged,776,19,5,,2
+[proxy] refactor post_post action,2018-06-20,Merged,775,28,33,,2
+Fix reporting only 50% of calls to 3scale backend [THREESCALE-1080],2018-06-25,Merged,774,92,51,lua t ,2
+Keycloak Role check policy,2018-07-09,Merged,773,"1,382",0,json lua ,2
+init and init_worker phases called on all policies,2018-06-19,Merged,770,166,21,lua t ,9
+[busted] reload apicast.loader to prevent caching policies between tests,2018-06-15,Merged,769,57,3,,2
+[rate-limit] fix failure when shdict is missing,2018-06-15,Merged,768,30,2,,2
+[spec] improve rate limit spec,2018-06-15,Merged,767,84,57,,3
+[spec] do not replace ngx.shared entirely,2018-06-15,Merged,766,17,1,,1
+[spec] fix leaking url rewriting spec,2018-06-15,Merged,765,11,6,,1
+[wip] load .init* on all policies,2018-06-20,Closed,764,191,42,,6
+Remove some deprecated parameters and add a few extra,2018-06-15,Merged,763,5,12,,1
+[spec] unify style of rate limit policy test,2018-06-13,Merged,762,244,221,,1
+[rate-limit] extract redis shdict,2018-06-12,Merged,759,212,38,,3
+[resty] use forked resty.limit.count,2018-06-11,Merged,758,65,4,lua ,3
+Make 3scale batching policy compatible with the caching policy,2018-06-11,Merged,757,199,9,lua t ,4
+Caching policy to improve the description of the Caching Mode.,2018-06-08,Merged,756,6,6,,1
+"Token Introspection Policy to get client information from ""oidc_issuer_endpoint"".",2018-06-15,Merged,755,222,20,lua json ,4
+[dev] development docker container improvements,2018-06-08,Closed,754,50,29,Makefile yml sh ,4
+[github] change owner to core team,2018-06-07,Merged,752,2,2,,1
+[dev] development docker persistent environment using volumes,2018-06-11,Merged,751,36,47,gitignore Dockerfile-development Makefile yml ,5
+[brew] install OpenResty with OpenTracing support,2018-06-07,Merged,750,4,6,md ,1
+[circleci] allow codecov to fail,2018-06-06,Merged,749,5,2,,1
+[Refactor] 3scale batching policy: extract Transaction module,2018-06-06,Merged,748,90,51,,9
+[github] set up code owners,2018-06-06,Merged,747,5,0,,1
+[doc] document deprecated environment variables,2018-06-06,Merged,746,13,6,,0
+Make access_log location configurable,2018-06-04,Merged,743,12,1,liquid lua ,2
+release: 3.2.0,2018-06-04,Merged,742,7,2,lua ,1
+[THREESCALE-586] Default credentials policy,2018-06-04,Merged,741,622,1,json lua ,4
+CI improvements,2018-05-31,Merged,740,"1,002",83,yml gitignore ,4
+Fix invalid JSON in URL rewriting policy tests,2018-05-31,Merged,739,1,1,,1
+[t] update Test::APIcast,2018-05-31,Merged,737,1,1,,1
+Do not upgrade base image installed packages on development Dockerfile,2018-05-30,Merged,736,1,2,,1
+README: add badges,2018-05-30,Merged,735,7,2,,0
+OpenResty 1.13.6.2,2018-06-11,Merged,733,5,7,md Makefile lock lua ,4
+codecov: Ignore test files in coverage analysis,2018-05-30,Merged,732,5,0,,1
+[resty.resolver] handle invalid resolver,2018-05-31,Merged,730,55,26,lua ,3
+[t] generate luacov reports from t files,2018-05-30,Merged,729,87,3,Makefile conf script/luacov script/prove ,5
+Add 3scale referrer policy,2018-05-30,Merged,728,243,2,lua json t ,6
+[codecov] configure codecov,2018-05-29,Merged,727,3,0,,1
+Fixing add-SSL example to work with example in README,2018-05-29,Merged,726,3,3,conf ,1
+[ci] report unit test code coverage,2018-05-28,Merged,725,23,3,Makefile lua gateway/Roverfile lock ,5
+URL rewriting policy: Allow to modify query parameters,2018-05-29,Merged,724,819,2,json lua ,4
+Policy Development Documentation,2018-06-11,Merged,723,18,0,,0
+Fix typo in OPENTRACING parameters config,2018-05-24,Merged,722,4,4,,0
+policy/3scale_batcher: add missing log error level,2018-05-23,Merged,721,1,1,,1
+Rate Limit policy: allow templating using liquid,2018-06-01,Merged,719,279,10,lua json ,4
+Expose jwt in the policies context,2018-05-18,Merged,718,101,11,lua t ,4
+Fix example JSON config in the policies doc,2018-05-24,Merged,717,1,1,,0
+Headers policy: allow templating using liquid,2018-05-17,Merged,716,348,6,json lua ,5
+Fix flaky tests in the backend client,2018-05-17,Merged,715,87,81,,1
+Support special characters for mapping rule wildcards in url path,2018-06-15,Merged,714,22,1,lua ,2
+3scale batching policy: fix batching period assignment from config,2018-05-15,Merged,710,26,3,lua t ,4
+lua port of benchmark-ips,2018-05-30,Merged,707,507,0,,1
+[DON'T MERGE] CircleCI test,2018-06-06,Merged,706,10,0,,1
+CircleCI: Don't try to push docker images in PRs from forks,2018-06-06,Merged,705,10,0,,1
+Improve rate limit policy,2018-05-14,Merged,704,209,163,json lua ,2
+Rate Limit policy to take into account changes in the config,2018-06-15,Merged,703,33,15,lua t ,3
+[s2i] do not check ENV in run script,2018-05-11,Merged,702,4,16,s2i/bin/run ,1
+Master 3.2 stable,2018-05-11,Merged,701,10,4,lua ,1
+3.2 stable to master,2018-05-11,Closed,700,586,385,lua json ,3
+3.2.0 rc2,2018-05-11,Merged,699,586,385,lua json ,3
+Adapt rate limit policy example config to the new config schema,2018-05-11,Merged,698,20,18,,1
+examples/rate_limit: adapt to new config schema,2018-05-11,Closed,697,163,152,json ,4
+Adapt rate limit config schema to make it compatible with react-jsonschema-form,2018-05-11,Merged,696,312,307,json ,1
+[circle] run nightly build for master branch,2018-05-09,Merged,694,11,0,,1
+.s2i/bin/assemble: do not add expiry time to master images,2018-05-09,Merged,693,1,1,,1
+"[THREESCALE-845] ] Caching policy: specify ""none"" as default mode in schema",2018-05-09,Merged,691,3,1,json ,1
+[THREESCALE-852] Split upstream policy phases so it can match the original path,2018-05-09,Merged,690,210,56,json lua t ,4
+[THREESCALE-852] Add option in the upstream policy to match the original URI,2018-05-09,Closed,689,230,14,json lua t ,6
+[policy] run __gc metamethod when policies are garbage collected,2018-06-29,Merged,688,75,12,yml lua script/s2i ,7
+[dev] no sudo in script/test,2018-05-09,Merged,687,3,5,script/test ,2
+[doc] fix broken link,2018-04-30,Merged,686,1,1,,0
+3scale batcher policy,2018-05-09,Merged,685,"1,534",54,liquid lua json ,5
+Fix incorrect param value in the Echo policy,2018-04-26,Merged,684,33,1,json lua ,2
+Fix validation of policy configs in busted tests,2018-04-26,Merged,683,2,2,,1
+[cli] generate command to create scaffolding,2018-05-09,Merged,682,179,9,Makefile json lua t gateway/bin/apicast ,11
+Fix title of the token introspection and the rate limit policies in their manifests,2018-04-26,Merged,681,2,2,,2
+adds missing JIRAs and fixes typos/formatting,2018-04-24,Closed,680,11,11,,0
+Improve rate limit policy,2018-05-14,Closed,679,341,160,json lua ,2
+[release] v3.2.0-rc1,2018-04-24,Merged,678,30,27,lua ,1
+doc/policies: add example with order in the chain,2018-04-23,Merged,677,20,0,,0
+Policies descriptions improvements,2018-04-23,Merged,676,4,4,,1
+[THREESCALE-799] policy: document in schemas when the order in the chain matters,2018-04-23,Merged,675,13,3,json ,3
+Make caching policy work correctly when placed after apicast in the chain,2018-04-23,Merged,674,80,39,lua t ,3
+Fix bug in export() applied to policies in the local chain,2018-04-23,Merged,673,97,2,lua ,2
+[dev] start development from any s2i-openresty version,2018-05-01,Merged,670,21,8,Dockerfile-development Makefile ,3
+OpenTracing support,2018-04-30,Merged,669,186,9,md conf liquid json lua t ,9
+Cache policy description,2018-04-17,Merged,668,2,2,lua ,2
+Fix image tag in s2i-builder circle CI job,2018-04-13,Merged,666,2,1,,1
+Improve rate limit policy,2018-04-23,Merged,665,353,150,json ,2
+script/test: set redis host when running busted tests,2018-05-01,Merged,664,11,8,script/test ,2
+policy manifests: replace descriptions with titles in OneOfs,2018-04-04,Merged,663,17,11,json ,4
+[balancer] Don't force 80 to be the default if port is not provided,2018-04-23,Merged,662,101,31,lua t ,5
+release: v3.2.0-beta3,2018-03-20,Merged,661,4,3,lua ,1
+Require 'ljsonschema' only when the validation of schemas is enabled,2018-03-20,Merged,660,9,2,lua ,1
+release: v3.2.0-beta2,2018-03-20,Merged,659,8,5,lua ,1
+OIDC: verify typ is Bearer when included,2018-03-19,Merged,658,45,1,lua ,2
+Add option to never reload configuration when configuration loader is lazy,2018-04-23,Merged,657,24,8,lua ,3
+Add caching to the token introspection policy,2018-06-04,Merged,656,259,5,json lua ,5
+Require summary in policy manifests and add it to the ones that do not have one,2018-03-14,Merged,655,13,6,json ,6
+[doc] clarify how path routing works,2018-03-12,Merged,653,1,1,,0
+Allow setting cache loader = boot on staging and never reload the config [THREESCALE-756],2018-03-14,Merged,651,48,9,lock lua t ,6
+Dockerized dev env: ensure correct dependencies are used,2018-03-09,Merged,649,26,0,md script/test ,2
+Add rate limiting to the entire service policy.,2018-04-09,Merged,648,"1,412",0,lua liquid json ,5
+[upstream policy] use the default port (by scheme) for the upstream url,2018-04-03,Closed,647,23,2,lua ,2
+Validation for policy configurations,2018-03-07,Merged,646,230,39,gateway/Roverfile lock json lua ,16
+Token instrospection specs: make configuration conform with policy config schema,2018-03-05,Merged,645,5,5,,1
+Make sure all the policy configs used in specs are valid,2018-03-05,Merged,644,2,2,,2
+Document APICAST_WORKERS param,2018-03-12,Merged,642,132,127,,0
+Fix bug in URL rewriting policy that makes it ignore a field of its own manifest [THREESCALE-731],2018-03-02,Merged,641,36,20,lua t ,3
+Update README.md,2018-03-01,Merged,639,0,4,,0
+Update README and polices README to include dependency install step,2018-03-01,Merged,638,16,0,,0
+Adding .cache dir and .bash_history files to gitignore,2018-03-01,Merged,637,2,0,,1
+Avoid nameserver duplication,2018-03-01,Merged,636,39,2,lua t ,3
+Fix resolv.conf search parsing,2018-03-06,Merged,635,48,12,Makefile lua t ,4
+Fix busted lib broken links,2018-02-28,Merged,634,2,2,,0
+Add summary to policy manifests,2018-02-28,Merged,633,42,11,json ,9
+[make] run .t files in examples folder,2018-02-28,Merged,632,2,1,,1
+[rover] update liquid version,2018-02-28,Merged,631,1,1,,1
+[prometheus] exporter prototype,2018-02-28,Merged,629,117,18,lock rockspec liquid lua ,10
+Add more tests for the URL rewriting policy,2018-02-27,Merged,628,72,0,,1
+[circleci] enable incremental build of the builder image,2018-04-06,Merged,627,10,8,Makefile ,2
+[configuration] fix error when loading empty policy chain,2018-02-27,Merged,626,66,1,lua t ,3
+Reset ngx state on every test,2018-02-26,Merged,625,23,16,,4
+Add more tests for the upstream policy,2018-02-27,Merged,624,141,1,,2
+Support HTTPS and introduce ssl_certificate policy phase,2018-06-06,Merged,622,300,55,crt key liquid gateway/cpanfile snapshot lua ,14
+[t] cleanup integration tests with luassert,2018-02-22,Merged,621,46,257,,7
+Add more tests for the CORS policy,2018-02-22,Merged,620,112,2,t ,3
+Add token introspection feature as a policy. [THREESCALE-312],2018-03-01,Merged,619,554,0,lua json ,5
+Split resolv.conf in lines,2018-02-27,Merged,618,41,13,lua t ,3
+[t] use configuration fixtures,2018-02-22,Merged,616,22,21,json t ,4
+Add unit tests for the headers policy,2018-02-21,Merged,615,204,0,,1
+Stop using deprecated envs in Test::Nginx tests,2018-02-20,Merged,613,4,4,,2
+[THREESCALE-630] passthrough invalid HTTP headers,2018-02-20,Merged,612,75,12,conf liquid t ,4
+[release] prepare v3.2.0-beta1 release,2018-02-21,Merged,611,6,3,lua ,1
+[THREESCALE-328] Allow to set a client SSL cert for upstream,2018-02-20,Merged,610,308,14,json lock conf gateway/cpanfile lua t ,13
+APIcast policy registry fixes,2018-02-19,Merged,605,210,86,gateway/cpanfile json lua sh t ,16
+OpenID Connect policies,2018-06-06,Closed,604,253,0,lua ,3
+Dockerfile-development: update base image to v.1.13.6.1-rover6,2018-02-19,Merged,602,1,1,,1
+Add JSON manifest for APIcast policy,2018-02-19,Merged,601,11,1,json ,1
+[cli] detect number of available CPU shares from cgroups,2018-02-19,Merged,600,29,0,lua ,1
+[oidc] configure OIDC log level with APICAST_OIDC_LOG_LEVEL,2018-02-15,Merged,599,6,4,,1
+[cli] load openresty libraries when rover is active,2018-02-15,Merged,598,71,24,bin/cli gateway/bin/apicast gateway/bin/cli ,3
+Run each Test::Nginx test twice by default,2018-02-15,Merged,597,7,5,,8
+[sandbox] environment policies have the same env as policy loader,2018-02-15,Merged,596,277,257,lua ,2
+[cli] properly configure policy load paths,2018-02-14,Merged,595,21,9,,2
+[libexec] fix missing libexec when installed by luarocks,2018-02-14,Merged,594,2,2,gateway/libexec/run ,2
+[configuration] support passing configuration in Data URLs,2018-02-15,Merged,593,225,36,lua ,8
+Endpoint to fetch JSON manifests of policies,2018-02-14,Merged,592,275,0,gateway/cpanfile lua sh json t ,12
+Update Test::APIcast to v0.07,2018-02-13,Merged,591,2,2,gateway/cpanfile ,2
+[cli] decouple apicast environment and 3scale configuration channel,2018-02-14,Merged,590,123,36,Makefile yml conf lua gateway/cpanfile gateway/libexec/run t ,14
+Fix version in json schema of example policy,2018-02-13,Merged,589,1,1,,1
+[circleci] update s2i-openresty,2018-02-12,Merged,588,2,2,,1
+[bin] fix bin/apicast builtin policy path detection,2018-02-12,Merged,587,2,2,,1
+fix issues failing to load APIcast Cloud Hosted policies,2018-02-12,Merged,586,4,4,,3
+[bin] honour APICAST_LOG_LEVEL env,2018-02-09,Merged,585,5,0,gateway/bin/apicast ,1
+Rename policy specs to follow the convention defined for policies,2018-02-09,Merged,584,3,3,,5
+[s2i] update s2i-openresty,2018-02-07,Merged,582,2,2,,1
+[cli] allow changing policy load path,2018-02-09,Merged,581,260,33,json lua gateway/bin/apicast conf liquid ,12
+Extract MappingRulesMatcher and Usage modules,2018-02-07,Merged,580,330,48,lua ,6
+[policy] rename policy.lua to init.lua,2018-02-07,Merged,579,94,23,lua ,28
+cleanup spec and integration tests,2018-02-06,Merged,578,38,47,lua t ,5
+Fix tests that expect debug output without enabling the option,2018-02-06,Merged,577,25,3,lua t ,3
+[rover] update lockfile,2018-02-06,Merged,576,2,2,,1
+[s2i] update s2i image,2018-02-05,Merged,575,26,26,Dockerfile-development lock ,3
+Move mapping rule checking to MappingRule and add missing tests,2018-02-05,Merged,573,114,27,,3
+Extract MappingRule from Configuration,2018-02-02,Merged,571,115,66,lua ,2
+policy/cors: stop setting headers twice in preflight reqs,2018-02-01,Merged,570,5,4,lua ,1
+[policy] implement policy equality and tostring,2018-02-05,Merged,569,123,24,lua t ,4
+[busted] test runner improvements,2018-02-01,Merged,568,3,1,,1
+SOAP policy,2018-02-09,Merged,567,628,2,json lua ,5
+Sandbox policy loading,2018-02-06,Merged,566,353,5,lua ,7
+Add policy manifest and make existing schemas conform with it,2018-01-31,Merged,565,325,148,Makefile json ,11
+[wip] policy manifest and it's JSON schema,2018-01-26,Closed,564,76,0,json ,3
+[ci] lint JSON schema,2018-01-24,Merged,563,9,2,Makefile json ,3
+Add upstream policy,2018-01-25,Merged,562,466,0,lua json ,2
+[wip] Add maintenance mode policy,2019-08-06,Closed,561,192,0,json lua t ,4
+Add 'allow' mode in the caching policy,2018-01-22,Merged,558,190,11,lua json t ,4
+[proxy] split proxy:call() into rewrite and access phase,2018-01-31,Merged,556,42,114,lua ,4
+[cli] fix development config running inside docker,2018-01-18,Merged,555,3,7,Makefile lua ,2
+[cli] detect number of CPU cores,2018-01-18,Merged,554,11,2,lua ,3
+Test Executor.context(),2018-01-16,Merged,553,37,0,,1
+[wip][remote] fallback to loading all proxy configs,2018-01-16,Closed,552,8,1,,1
+[http_ng] improve performance,2018-08-30,Merged,551,21,14,,2
+fixes typos,2018-01-11,Merged,550,13,13,,0
+updates specific env var names to be more consistent with OS template…,2018-02-19,Merged,549,92,8,lua yml ,6
+[t] fix hanging test suite,2018-01-15,Merged,547,70,2,lua ,2
+Cache policy,2018-01-17,Merged,546,386,1,lua json ,5
+[libexec] improve path resolving,2018-01-18,Merged,544,24,8,gateway/libexec/run lua ,2
+[nginx] performance tuning nginx config,2018-01-16,Merged,543,23,7,conf liquid ,3
+Extract rejection reason in Proxy instead of CacheHandler,2018-01-05,Merged,541,38,51,lua ,4
+[vagrant] use fedora 26,2018-01-10,Merged,540,58,23,Makefile Vagrantfile gateway/bin/apicast gateway/cpanfile t ,5
+[policy] trigger post_action phase,2018-01-12,Merged,539,255,43,Vagrantfile conf lua t ,6
+[bin] fix loading apicast from luarocks,2018-01-10,Merged,538,19,7,gateway/bin/apicast liquid lua ,3
+Dockerfile-development: install cpan deps with cpanminus,2018-01-03,Merged,537,3,1,,1
+[loader] fix invalid deprecation message,2018-01-03,Merged,536,11,6,lua ,1
+introduce content phase,2018-01-18,Merged,535,122,28,conf lua t ,10
+clarifications on configuration cache,2017-12-21,Merged,534,3,3,,0
+[bin] add local src folder to load path,2018-01-03,Merged,533,23,5,gateway/bin/apicast lua ,2
+use apicast.loader to load policies,2017-12-21,Merged,532,38,13,md gateway/bin/apicast conf liquid lua ,11
+Make it possible to place url rewriting before apicast in the policy chain,2017-12-19,Merged,531,203,90,lua ,7
+Fix ldocs formatting in the CORS policy,2017-12-14,Merged,530,3,0,lua ,1
+Introduce URL rewriting policy [THREESCALE-296],2017-12-12,Merged,529,344,0,lua json t ,3
+[t] use Test::APIcast from CPAN,2017-12-20,Merged,528,57,349,md Makefile gateway/cpanfile pm ,6
+[bin] start apicast when installed with rover,2017-12-12,Merged,527,63,66,gateway/Makefile gateway/bin/apicast gateway/bin/apicast-lua ,3
+[rockspec] consolidate rockspecs,2017-12-11,Merged,526,15,26,gateway/Roverfile rockspec ,3
+[cli] load apicast loader,2017-12-11,Merged,525,3,0,lua ,1
+[make] expire quay images built from git branch,2018-04-09,Merged,524,34,3,Makefile s2i/bin/assemble s2i/bin/assemble-runtime ,4
+[rockspec] fix luarocks rockspec,2017-12-06,Merged,523,6,5,rockspec gateway/Makefile ,2
+Add JSON schemas for the policy configurations,2017-12-05,Merged,522,103,12,md gateway/bin/apicast liquid lua json pm ,20
+[bin] don't print warning when which/rover is not available,2017-12-05,Merged,521,2,1,gateway/bin/apicast ,1
+[cli] detect local rover installation,2017-12-01,Merged,519,8,0,gateway/bin/apicast ,1
+Update base image of development Dockerfile to use latest s2i-openresty,2017-11-30,Merged,518,12,30,script/test ,2
+[t] fix clashing tests on port 1953,2017-11-30,Merged,517,8,8,,2
+release v3.2.0-alpha2,2017-11-30,Merged,516,4,3,lua ,1
+Add missing changelog entries for policies included,2017-11-30,Merged,515,2,0,,0
+[circleci] fail on --ONLY flags in tests,2017-11-29,Merged,513,5,549,Makefile cpanfile ,3
+Add document that explains the new policies system,2017-11-30,Merged,512,181,0,,0
+[resty.resolver] support ipv6 resolvers,2017-11-30,Merged,511,119,10,bin/busted lua t ,4
+[nginx] define resolver directive in the config,2017-11-28,Merged,508,32,0,liquid lua ,3
+[t] rewrite config loading test using blackbox,2017-11-29,Merged,507,15,21,conf t ,2
+[circleci] parallelize Test::Nginx suite,2017-11-30,Merged,506,114,28,md Makefile liquid pm t ,11
+methods for policy chain manipulation,2017-11-28,Merged,505,118,43,lua ,4
+allow passing multiple environment configuration files,2017-11-28,Merged,504,239,99,lua ,4
+fix rover loading code,2017-11-28,Merged,503,7,2,gateway/bin/cli conf ,2
+improve documentation,2017-11-28,Merged,502,2,1,ld ,2
+[changelog] configure probot-changelog,2017-11-28,Merged,501,3,0,,1
+[ldoc] generate lua documentation,2017-11-27,Merged,500,11,14,gitignore Makefile ld ,5
+examples/configuration/echo: use full namespace in the apicast policy,2017-11-24,Merged,499,1,1,,1
+Delete 'ONLY' in cors test,2017-11-22,Merged,498,0,1,,1
+Add headers policy,2017-11-27,Merged,497,621,0,,1
+ability to configure policy chains globally,2017-11-29,Merged,496,69,4,lua conf ,4
+Use new namespacing in CORS to avoid deprecation messages,2017-11-21,Merged,494,8,7,t ,2
+Adapt Docker development env to namespace changes,2017-11-21,Merged,493,2,2,script/test ,2
+[cors] move cors policy after namespacing sources,2017-11-21,Merged,492,1,1,lua ,1
+Delete old CORS module example,2017-11-30,Merged,489,0,168,md conf lua ,4
+Convert existing CORS module into a policy,2017-11-21,Merged,487,248,0,t ,2
+namespace all apicast source code,2017-11-21,Merged,486,397,287,yml md Makefile conf lua bin/apicast bin/cli ld json s2i/bin/run s2i/environment s2iignore apicast/Makefile → gateway/Makefile apicast/Roverfile → gateway/Roverfile lock rockspec keep apicast/bin/apicast → gateway/bin/apicast apicast/bin/apicast-lua → gateway/bin/apicast-lua apicast/bin/cli → gateway/bin/cli crt liquid apicast/libexec/boot → gateway/libexec/boot apicast/libexec/keycloak → gateway/libexec/keycloak apicast/libexec/run → gateway/libexec/run gitkeep ,61
+Fix typo in dns resolver doc file name,2017-11-16,Merged,485,0,0,,0
+Enable the 'no_body' option when authorizing against 3scale backend,2017-11-15,Merged,483,87,20,lua t ,4
+release v3.2.0-alpha1 [THREESCALE-445],2017-11-14,Merged,482,7,3,lua ,3
+[THREESCALE-362] upgrade openresty to 1.13.6.1,2017-11-14,Merged,480,12,7,md Vagrantfile ,2
+merge 3.1-stable to master,2017-11-14,Merged,479,21,2,lua ,2
+[resty.resolver] try to resolve upstream peers,2017-11-15,Merged,478,54,0,lua pm t ,3
+merge 3.1-stable to master,2017-11-14,Closed,476,106,5,md conf lua t ,5
+Move performance doc to 'doc' dir,2017-11-08,Merged,475,0,0,,0
+blackbox tests using Test::Nginx,2017-11-16,Merged,474,215,8,liquid lua yml pm t ,7
+Treat ngx.req.get_post_args() errors,2017-11-08,Merged,473,72,2,t ,3
+[t] add DEBUG=1 to enable logging to stderr,2017-11-08,Merged,472,4,0,,1
+[cli] resolve files local to the current folder,2017-11-08,Merged,471,37,13,lua ,3
+[make] verify benchmark works with curl,2017-11-08,Merged,470,14,1,yml ,2
+[vagrant] update vagrant box,2017-11-08,Merged,469,21,3,Vagrantfile ,1
+[cli] enable controlling nginx master process,2017-11-08,Merged,468,7,1,,2
+[jit] tune luajit parameters,2017-11-07,Closed,467,5,1,conf ,2
+Stop numbering Test::Nginx test files,2017-11-06,Merged,466,0,0,,21
+Improve CircleCI benchmark job,2017-11-03,Merged,465,51,3,Makefile lua ,4
+Run benchmark on CircleCI,2017-11-02,Merged,464,24,0,,2
+[s2i] always pull runtime image,2017-11-02,Merged,463,1,1,,1
+[WIP] URL rewriting,2017-12-13,Closed,462,226,48,,4
+Add missing tests for the configuration parser module,2017-10-24,Merged,461,36,19,,2
+use new s2i-openresty with rover integration,2017-10-25,Merged,460,73,50,md Makefile Roverfile s2i/environment s2iignore apicast/Roverfile lock apicast/bin/apicast conf lua apicast/libexec/run t ,17
+Add missing unit tests for configuration_store,2017-10-23,Merged,459,146,24,,2
+[t] use one base class,2017-10-19,Merged,458,213,325,md lua t ,12
+fix failing master build,2017-10-19,Merged,457,5,3,,2
+use backend http client,2017-11-06,Merged,456,332,364,lua ,5
+Delete old custom 'limits exceeded' error example,2017-10-18,Merged,455,0,58,,1
+Make limits exceeded error configurable [THREESCALE-638],2017-10-17,Merged,453,303,26,conf lua json ,8
+use local lua-rover,2017-10-12,Merged,452,23,10,Makefile rockspec config ,4
+Pin base image version in the Dockerfile for development,2017-10-11,Merged,451,1,1,,1
+Policy chain - first version,2017-11-15,Merged,450,"1,043",135,lua ,10
+template nginx configuration with liquid,2017-11-06,Merged,449,561,225,md Makefile lock rockspec apicast/bin/apicast apicast/bin/cli conf ,7
+Make oauth tokens TTL configurable,2017-10-09,Merged,448,204,4,lua yml t ,3
+oauth/authorize: delete duplicated code in check_credentials(),2017-10-09,Merged,447,2,14,,1
+[example] Add example for custom error for exceeded usage limits,2017-10-11,Merged,446,58,0,,1
+install dependencies by lua-rover,2017-10-06,Merged,445,27,11,Makefile ,2
+[ci] enable junit,2017-10-06,Merged,444,28,11,yml ,2
+[circleci] fix missing ldoc,2017-10-04,Merged,443,2,1,,1
+use lua-rover,2017-10-04,Merged,442,34,0,Roverfile lock ,3
+[THREESCALE-377] Fix ready and live endpoints content types,2017-10-04,Merged,441,12,6,lua t ,2
+Don't pass the request headers to 3scale backend in native OAuth flow,2017-09-29,Merged,438,88,1,conf t ,2
+Fix inconsistent mapping rules matching in POST requests,2017-09-29,Merged,437,156,5,lua t ,2
+Set correct status code of the error on token store fail,2017-09-29,Merged,436,78,2,lua t ,2
+OIDC - Add support for logout and token revocation [THREESCALE-312],2018-02-28,Closed,435,247,3,,4
+Fix tests numbering,2017-09-27,Merged,434,17,17,,4
+Don't pass the request headers to 3scale backend for native OAuth flow,2017-09-29,Merged,433,86,1,conf t ,2
+[THREESCALE-360] fix loading configuration with null values,2017-09-26,Merged,432,9,1,,2
+Add dockerized development environment,2017-09-26,Merged,431,108,0,Makefile yml script/test ,4
+Fix dev and bash target dependencies in Makefile,2017-09-20,Merged,430,3,3,,1
+upgrade openresty,2017-09-15,Merged,428,8,2,md Makefile ,2
+[wip][example] lua-resty-auto-ssl,2017-09-15,Closed,426,156,0,gitignore examples/letsencrypt/Makefile md rockspec conf json lua ,10
+[ci] profiling,2017-09-15,Closed,425,27,0,gitignore Makefile sh ,4
+[docker] upgrade docker-compose format,2017-09-15,Merged,424,6,5,Makefile ,3
+[wip] redirect_url,2017-09-15,Closed,423,120,15,lua ,4
+[brew] add Brewfile,2017-09-14,Merged,422,4,0,,1
+[dnsmasq] don't forward domainless queries,2017-09-12,Merged,421,2,1,s2i/bin/run ,1
+[resty.resolver] properly cache queries with scope,2017-09-12,Merged,420,68,26,s2i/bin/run lua t ,6
+[resty.resolver] fix double empty search scope,2017-09-08,Merged,419,11,3,lua ,2
+[bin] improve busted runner,2017-09-01,Merged,418,35,5,luacheckrc md bin/busted lua ,4
+[remote_v2] don't crash when endpoint is missing,2017-09-01,Merged,417,23,2,lua ,2
+[example] update CORS example,2017-09-01,Merged,416,77,46,examples/cors/Dockerfile md lua ,4
+[module] do not print warnings if module was loaded,2017-09-01,Merged,415,6,1,lua ,1
+Example Dockerfile for apicast_cors.lua,2017-08-31,Merged,413,5,0,,1
+[circle] build git tags,2017-08-30,Merged,412,9,4,,1
+[circle] build git tags to quay,2017-08-30,Merged,411,4,1,,1
+[ngx] disable client_max_body_size,2017-08-30,Merged,410,2,0,conf ,1
+handle partial credentials,2017-08-30,Merged,409,111,20,lua t ,5
+[oidc] don't crash on empty issuer,2017-08-30,Merged,408,17,4,lua ,2
+[location.d] new extension block for location,2017-08-30,Merged,407,6,0,keep conf ,2
+[remote_v1] disable v1 API by default,2017-08-30,Merged,406,12,5,apicast/bin/apicast lua ,2
+[oidc] don't crash when config is missing,2017-08-30,Merged,405,16,11,lua t ,5
+[example] adds example for collecting response metrics,2018-06-14,Closed,404,136,0,lua conf ,2
+[changelog] update changelog for v3.1.0-beta2,2017-08-22,Merged,403,4,1,,0
+Fixing Fixing headline formatting.,2017-08-22,Merged,402,1,1,,0
+[remote_v2] ignore empty APICAST_SERVICES,2017-08-22,Merged,401,20,4,lua ,2
+[circle] try to build and push docker image,2017-08-14,Merged,400,28,14,md lua ,3
+[changelog] update for 3.1.0-beta1 release,2017-08-04,Merged,397,5,2,,0
+Backend authorization cache handlers,2017-08-07,Merged,396,360,48,md lua yml t ,8
+[remote_v2] do not try to load oidc when issuer is null,2017-07-21,Merged,394,3,3,,3
+replace symlink to s2i/run with real file,2017-07-21,Merged,393,41,42,s2i/bin/run apicast/bin/entrypoint ,4
+[CVE-2017-7512] reject empty client secret,2017-07-14,Merged,392,92,3,lua t ,4
+[CVE-2017-7512] reject empty client secret,2017-07-14,Merged,391,88,3,t ,4
+[busted] shuffle tests,2017-07-11,Merged,390,24,11,lua t ,8
+[cli] improve configuration handling,2017-07-07,Merged,389,28,3,apicast/bin/apicast lua ,2
+[remote_v2] limit number of services loaded from the API,2017-07-07,Merged,388,30,0,lua ,2
+[libexec] allow forwarding arguments to libexec/run,2017-07-07,Merged,387,1,1,,1
+extract lua-resty-env,2017-07-07,Merged,386,33,152,rockspec lua ld ,5
+run danger on travis,2017-07-04,Merged,385,3,32,Makefile ,3
+resty url improvements,2017-07-04,Merged,384,3,109,rockspec lua ,3
+Integrate CircleCI,2017-07-04,Merged,383,87,14,Makefile rockspec lua ,5
+OIDC Integration,2017-07-18,Merged,382,870,"1,004",Makefile rockspec conf lua ,9
+Fixed a typo in remote_v2_spec.lua,2017-07-04,Merged,381,1,1,,1
+.,2017-06-13,Closed,376,0,0,,0
+fixes typo to extract Redis port from REDIS_URL,2017-09-14,Merged,375,1,1,,1
+Add CORS example,2017-07-04,Merged,372,137,0,lua conf ,2
+[doc] Add a clarification for the deployment env variable,2017-05-30,Merged,371,6,1,,0
+Publish APIcast on Luarocks,2017-05-31,Merged,366,107,1,md rockspec apicast/Makefile apicast/bin/apicast apicast/bin/apicast-lua ,5
+redirects to login so that assets load correctly,2017-07-10,Closed,365,9,15,,2
+[danger] require changelog only when merging to master,2017-05-09,Merged,364,1,1,,1
+Fixes from review,2017-05-10,Merged,363,10,11,lua ,2
+describe module inheritance,2017-05-11,Merged,362,139,11,lua rockspec ,5
+[luarocks] update lua-resty-http and lua-resty-jwt,2017-05-05,Merged,361,3,2,rockspec ,1
+[module] print better errors when module loading fails,2017-05-05,Merged,360,83,8,lua t ,2
+OpenResty 1.11.2.3,2017-05-03,Merged,359,40,26,md lua rockspec t sh ,8
+Oauth2 extensions pili,2017-04-28,Merged,358,76,96,lua ,2
+Add HTTP Cache support to http_ng,2017-05-05,Merged,357,895,39,lua ,6
+Oauth2 extensions,2017-10-04,Closed,356,521,143,,0
+[example] Update volume paths for adding SSL,2017-04-26,Merged,355,1,1,,0
+[doc] use the correct name of the OpenShift secret,2017-04-06,Merged,353,3,3,,0
+[doc] use the correct name of the OpenShift secret,2017-04-06,Merged,352,3,3,,0
+[openshift] update apicast template,2017-04-04,Merged,351,4,12,,1
+[http] fix creating error responses,2017-04-04,Merged,350,105,11,lua ,6
+replace luacheck with codeclimate,2017-04-04,Merged,349,19,15,luacheckrc Makefile lua ,5
+Show more info on module load errors,2017-04-04,Merged,348,9,4,conf lua ,2
+Add examples folder to luacheck,2017-04-03,Merged,346,2,2,lua ,2
+[balancer] fix memory leak in round-robin balancer,2017-04-03,Merged,345,59,12,lua t ,2
+[proxy] remove unnecessary code and fix confusing comments,2017-03-29,Merged,344,2,4,lua ,1
+don't call post action for oauth routes,2017-03-29,Merged,343,127,23,lua ld ,5
+[configuration] normalize service hosts to lowercase,2017-03-29,Merged,342,14,2,lua ,2
+Store JWT in Auth cache with ttl,2017-03-29,Merged,341,82,7,lua ,5
+improve error logging when failing to download configuration,2017-03-28,Merged,340,77,22,lua ,13
+fix memory leak in post action,2017-03-28,Merged,339,3,0,lua ,1
+[configuration] don't return stale configuration when new one is available,2017-03-28,Merged,337,33,1,lua ,4
+[keycloak] Accept client credentials for token endpoint in Authorization header,2017-03-29,Merged,336,101,8,lua ,2
+bump openresty version,2017-03-23,Merged,334,2,2,Makefile ,2
+[luacheck] lock luacheck version,2017-03-22,Merged,333,1,1,,1
+[env] one way to control openssl peer verification,2017-03-27,Merged,332,"4,217",48,yml md Makefile s2i/environment s2iignore conf crt apicast/libexec/boot lua apicast/libexec/keycloak apicast/libexec/run json t ,27
+bump s2i-openresty build,2017-03-22,Merged,331,2,2,Makefile ,2
+[travis] build git tags and also push builder image,2017-03-22,Merged,330,3,3,,1
+[danger] disable danger-prose,2017-03-22,Merged,329,0,1,,1
+[example] improve s2i example with custom rockspec,2017-03-24,Merged,327,15,2,md rockspec ,2
+[remote_v2] test and fix lazy configuaration loader,2017-03-21,Merged,326,36,6,t ,2
+[remote_v2] fix boot loading configuration,2017-03-21,Merged,325,50,5,t ,2
+[dns] use both RESOLVER and resolver.conf,2017-03-21,Merged,324,72,10,lua t ,2
+[remote_v2] ability to load configuration from custom path,2017-03-21,Merged,323,90,1,lua ,3
+[dns] do not cache non existent records in dnsmasq,2017-03-20,Merged,318,2,1,apicast/bin/entrypoint ,1
+update readme with steps for openshift deployment option,2017-07-10,Closed,317,270,0,json ,1
+[proxy] fix accessing undefined variable,2017-03-20,Merged,316,90,11,md lua t ,5
+[examples] RH SSO readme updates,2017-03-20,Merged,315,32,27,,0
+use yarn to install markdown-link-check,2017-03-20,Merged,314,403,1,Makefile json ,3
+[configuration] fix locking of configuration loader,2017-03-20,Merged,313,24,7,lua t ,3
+fixes an incorrect reference to REDIS_URL parameter,2017-03-20,Merged,312,1,1,,0
+[resolver] remove parallel dns query,2017-03-17,Merged,311,2,37,lua ,1
+Some fixes / improvements for Keycloak integration,2017-03-20,Merged,310,77,55,lua ,6
+Fix the custom module example,2017-03-16,Merged,307,5,1,,1
+[configuration] print better error messages on loading,2017-03-16,Merged,306,15,8,lua t ,3
+cleanup openshift template,2017-03-15,Merged,305,47,49,,2
+Fix OAuth auth caching,2017-03-16,Merged,304,65,36,lua t ,2
+[redis] allow configuration via REDIS_URL,2017-03-15,Merged,303,110,10,conf lua script/redis ,6
+Avoid throwing an error when there is no cached proxy object,2017-03-14,Closed,302,1,1,,1
+Fix OAuth client example,2017-03-14,Merged,298,13,12,rb erb ,3
+[git] allow merge=union on the changelog file,2017-03-14,Merged,297,1,0,,1
+removed support for sending request logs,2017-03-14,Merged,296,10,177,md conf lua yml t ,6
+[backend] introduce backend client,2017-03-14,Merged,295,309,7,lua ld ,6
+[doc] Use headers for the parameter names for an easier reference,2017-03-14,Merged,294,88,76,,0
+[configuration] allow locking service configuration version,2017-03-14,Merged,293,37,1,lua ,2
+allow exposing more environment variables,2017-03-14,Merged,292,4,11,apicast/bin/apicast conf keep ,3
+option to drop post_action,2017-10-17,Merged,290,388,27,md conf lua yml ,8
+[configuration] per request configuration store,2017-03-09,Merged,289,183,120,Dangerfile conf lua ,7
+[changelog] updated changelog,2017-03-08,Merged,288,7,0,,0
+fix not reloading configuration,2017-03-08,Merged,287,27,5,,4
+[doc] improve management api documentation,2017-03-13,Merged,286,29,2,,0
+Add /healthz endpoint for health checks,2017-10-06,Merged,285,11,0,conf ,1
+Add support for RHSSO and OpenId Connect,2017-03-16,Merged,283,944,75,rockspec conf apicast/libexec/keycloak lua ,10
+[release] bump to 3.0.0-beta1,2017-03-03,Merged,281,10,0,,0
+"Revert ""[config] parallelize access to the v2 api""",2017-03-03,Merged,280,9,14,lua ,1
+[management] return ready status even with no services,2017-03-03,Merged,278,69,8,lua t ,6
+[example] show how to run echo.json api in docker,2017-03-02,Merged,277,47,0,,0
+[management] split management api,2017-03-02,Merged,276,217,22,md conf lua ld yml ,8
+[doc] management api is for debugging only,2017-03-02,Merged,275,10,5,md ,1
+[config] use LRU cache for configuration store,2017-02-24,Merged,274,98,86,md Makefile conf lua ,7
+[proxy] use only instance interface,2017-02-24,Merged,273,89,88,lua t ,7
+[config] parallelize access to the v2 api,2017-02-24,Merged,272,14,9,lua ,1
+DNS volume 2,2017-02-24,Merged,271,226,93,lua ,5
+Revamp configuration loading,2017-03-03,Merged,270,474,166,yml md Makefile apicast/bin/apicast apicast/bin/entrypoint conf lua ,9
+[echo] listen as a default server,2017-02-21,Merged,268,3,2,conf ,1
+[backend] extract correct host from the backend endpoint,2017-02-21,Merged,267,60,3,lua t ,2
+[configuraton] remove curl support,2017-02-21,Merged,266,10,61,md Dangerfile conf lua ,5
+[travis] use danger,2017-02-21,Merged,265,31,0,md Dangerfile Makefile ,3
+[changelog] update changelog,2017-02-17,Merged,264,10,0,,0
+performance tuning,2017-02-15,Merged,263,9,6,apicast/bin/apicast conf ,4
+[dns] fix the typo in the resolver and add test,2017-02-14,Merged,262,16,1,,2
+[remote_v2] return configuration for all available services,2017-02-13,Merged,261,7,5,,2
+Improve DNS resolver,2017-02-17,Merged,260,310,84,Makefile apicast/bin/entrypoint lua ,6
+[wip] newrelic support,2017-02-21,Closed,259,678,18,apicast/bin/apicast conf lua ,8
+Fix path routing and refactoring,2017-02-09,Merged,258,149,30,t ,6
+[WIP]Feature custom metric report,2017-07-10,Closed,257,56,6,lua ,3
+[WIP]add url rewriting feature if APICAST_URL_REWRITE ENV is passed,2017-07-10,Closed,256,23,1,lua ,2
+performance optimizations,2017-02-13,Merged,253,823,732,Vagrantfile conf lua ,7
+toolkit for performance profiling,2017-02-07,Merged,252,125,9,md Vagrantfile apicast/bin/apicast conf ,4
+[resty.resolver] do not allocate dns socket unless used,2017-02-07,Merged,251,21,9,lua ,1
+[changelog] bump to v3.0.0-alpha2,2017-02-06,Merged,250,3,0,,0
+[changelog] add backend endpoint override,2017-02-06,Merged,249,2,0,,0
+ability to override backend endpoint from the configuration,2017-02-06,Merged,248,132,108,Makefile conf lua md ,5
+[doc] add release documentation,2017-02-07,Merged,247,35,13,Makefile md ,2
+test documentation links,2017-01-31,Merged,245,16,10,Makefile md ,2
+[http_ng] fix edge case in host extraction,2017-01-27,Merged,244,11,1,,2
+statsd instrumentation,2017-02-21,Closed,242,105,1,lua ,3
+[balancer] extract select_peer method,2017-01-20,Merged,240,29,10,,2
+use latest s2i-openresty,2017-01-20,Merged,239,7,5,md Makefile sh ,4
+[make] wait for gateway to start when testing,2017-01-20,Merged,238,1,3,,1
+use resty-resolver everywhere,2017-01-24,Merged,237,104,38,s2i/bin/assemble apicast/bin/entrypoint conf lua ,9
+[user-agent] improve resiliency,2017-01-19,Merged,235,22,5,,2
+[configuration] extract confguration parser,2017-01-19,Merged,234,104,80,conf ,9
+[proxy] new proxy interface v0.1,2017-01-24,Merged,233,214,102,lua ,7
+[resty-env] introduce global environment object,2017-01-17,Merged,231,134,46,lua ,15
+[echo] echo api prints requests to the debug log,2017-01-18,Merged,227,43,7,lua json ,3
+[bin] fail with error message when openresty is not found,2017-01-17,Merged,226,3,3,,1
+[WIP] Troubleshooting doc,2017-10-04,Closed,225,75,0,,0
+release 3.0.0-alpha1,2017-01-16,Merged,223,11,8,lua ,3
+[configuration] fix duplicate host warning,2017-01-16,Merged,222,4,2,t ,2
+Fix test numbering,2017-01-13,Merged,221,1,1,,1
+Add state to client_data for returning back to client,2017-01-19,Merged,220,50,12,lua t ,3
+[RHAMP-41] ability to set Redis from the OpenShift Template,2017-01-13,Merged,218,28,17,,1
+fix X-3scale-Debug header by using Service Token,2017-01-13,Merged,217,76,16,lua t ,3
+send User-Agent with platform and system information,2017-01-11,Merged,214,218,16,Makefile conf lua bin/busted ,10
+[config] print warning when multiple services share host,2017-01-10,Merged,213,37,2,t ,3
+travis improvements,2017-01-10,Merged,212,14,5,sh ,2
+[changelog] add a changelog,2017-01-10,Merged,210,24,0,,0
+[doc] fix documentation after v2 branch removal,2017-01-10,Merged,209,23,26,yml ,3
+[doc] integrate tool to check broken links in the documentation,2017-01-10,Merged,208,10,2,Makefile md ,2
+[configuration] read config with absolute path,2017-01-09,Merged,206,24,2,,2
+[configuration] fix reloading on every request,2017-01-04,Merged,205,16,6,,2
+fix handling missing configuration,2017-01-04,Merged,204,4,1,lua ,2
+[config] extract credentials handling,2017-01-09,Merged,202,401,89,yml Makefile lua ,5
+[resty-http_authorization] library to parse HTTP Authorization,2017-01-04,Merged,201,120,0,,2
+[spec] properly reset test environment,2017-01-04,Merged,200,26,0,,3
+[make] fix check target,2017-01-04,Merged,199,5,10,lua ,3
+[configuration] split configuration module,2017-01-04,Merged,198,575,286,lua ,6
+[luacheck] fix make target and violations,2017-01-04,Merged,197,33,29,lua ,5
+[util] split stderr and stdout when executing external commands,2017-01-03,Merged,196,61,26,,3
+Remove comments,2017-01-03,Merged,195,7,24,conf lua ,2
+[openresty] upgrade to 1.11.2.2,2017-01-09,Merged,194,23,45,Makefile lua t sh ,8
+get config from the v2 api,2017-01-16,Merged,193,"1,444",7,md lua ,4
+Add a document listing all APIcast parameters,2017-01-10,Merged,192,120,0,,0
+[wip][hawkular] instrumentation,2017-02-21,Closed,191,127,6,lua ,5
+Fix apicast image name in README,2016-12-29,Merged,189,2,2,,0
+OpenShift docs little fixes,2016-12-28,Merged,187,10,7,,0
+Apicast OAuth docs,2017-01-02,Merged,186,58,0,,0
+improve after dry run through,2016-12-28,Merged,185,28,27,,0
+try to guess port from scheme when not provided,2016-12-31,Merged,184,187,62,t ,7
+update readme to use oc cluster up,2016-12-28,Merged,181,197,79,,0
+Explain to use make help,2016-12-06,Merged,177,18,13,Makefile md ,2
+Rename parameters name,2017-01-09,Closed,176,8,8,,1
+Perf improvement: Avoid unnecessary calls to regexpify() in configuration.lua,2016-12-02,Merged,171,2,1,,1
+Update README.md,2016-12-02,Merged,166,2,2,,0
+Refactor auth params extraction,2017-01-04,Closed,165,58,95,,2
+Remove unused OAuth location,2016-12-05,Merged,164,0,15,lua ,2
+Use Authorization: Bearer xyz header for calls using OAuth,2017-01-20,Merged,162,106,2,,1
+Oauth fixes,2016-11-29,Merged,160,11,4,lua t ,3
+Add Contributing guidelines,2016-11-29,Merged,159,108,3,,0
+Expose APICAST_RELOAD_CONFIG in Openshift template,2016-11-25,Merged,158,6,0,,1
+Change license file to have contents of Apache2.0 license,2016-11-25,Merged,156,216,21,NOTICE ,2
+avoids service token error and other getting started improvements,2016-11-25,Merged,155,8,8,,0
+Refactoring proposal,2016-11-29,Closed,154,24,0,,2
+OAuth examples,2017-01-02,Merged,153,"14,969",0,md dockerignore examples/oauth2/auth-server/Dockerfile examples/oauth2/auth-server/Gemfile lock rb ru ,7
+.mailmap: map authors to their names/addresses,2016-11-23,Merged,152,2,0,,1
+Oauth examples,2016-11-23,Closed,150,467,10,lua env-sample md dockerignore examples/oauth2/auth-server/Dockerfile examples/oauth2/auth-server/Gemfile lock rb ru erb ,13
+New Resource Owner Template Oauth Flow files - generalised,2016-12-05,Closed,148,490,85,,1
+DNS domain search,2016-11-24,Merged,147,167,26,lua ,5
+Add installation instructions for CentOS,2016-12-30,Merged,146,80,0,,0
+Update apicast.conf,2016-11-23,Closed,145,1,0,,1
+[example] s2i bunding customizations,2016-12-05,Merged,144,37,2,md json conf ,3
+Adds overview doc,2016-12-06,Merged,143,82,0,,0
+[apicast] include custom configuration for apicast,2016-12-05,Merged,141,87,2,conf lua md crt key ,6
+[example] customizing a module,2016-11-28,Merged,140,52,5,conf lua md ,5
+various changes to increase resiliency when network is down,2016-11-16,Merged,139,74,34,lua ,7
+[apicast] warn configuration reload is not for production,2016-11-14,Merged,137,1,1,,1
+Execute functionality that can be used in other modules in the rewrite phase,2016-11-14,Merged,135,61,8,,3
+add options to ease development,2016-11-14,Merged,134,8,2,conf lua ,3
+Add generic plugin to avoid duplicating code in custom plugins,2016-11-14,Closed,133,59,42,,2
+auto update interval,2016-11-14,Merged,131,55,1,apicast/bin/apicast conf lua ,4
+remove unused config,2016-11-10,Merged,130,0,8,,1
+fix oauth,2016-11-10,Merged,128,43,6,t ,2
+enable request logs,2016-11-10,Merged,127,298,8,conf lua yml t ,7
+Sort directives by execution order in apicast.conf,2016-11-10,Merged,125,8,8,lua ,4
+Avoid unnecessary calls to require() in module.lua,2016-11-08,Merged,123,9,0,,1
+Put balancer() logic of the apicast module in a separate & reusable module,2016-11-08,Merged,119,20,15,,2
+Remove unused param from authorize methods in the provider module,2016-11-03,Merged,118,6,6,,1
+simplify get_debug_value() in provider module,2016-11-03,Merged,117,1,5,,1
+Install docs,2016-11-02,Merged,116,5,4,Makefile ,2
+Fix OpenShift template PATH_ROUTING value,2016-10-27,Merged,115,1,1,,1
+tuning openshift,2016-10-27,Merged,114,33,11,lua yml ,5
+fixes related to caching,2016-10-27,Merged,113,21,5,,3
+ability to crash on missing configuration,2016-10-27,Merged,112,67,4,apicast/bin/apicast conf lua yml ,6
+[openshift] log level as parameter of the template,2016-10-27,Merged,111,5,0,,1
+cleanup,2016-10-25,Merged,110,0,1,,1
+run luacheck,2016-10-25,Merged,109,69,59,yml Makefile conf lua ,12
+introduce module system,2016-10-25,Merged,108,195,65,lua ,6
+balancer_by_lua,2016-10-25,Merged,107,"1,260",94,Makefile conf lua ,10
+[bin] drop luarocks,2016-10-18,Merged,106,1,5,apicast/bin/apicast ,2
+s2i runtime image,2016-10-18,Merged,105,41,25,s2i/bin/run sh → apicast/bin/entrypoint yml ,5
+[bin] follow symlinks,2016-10-14,Merged,103,7,5,,1
+[lua] make luarocks optional dependency,2016-10-14,Merged,102,4,4,conf apicast/libexec/boot bin/busted ,4
+[bin] do not depend on `which`,2016-10-14,Merged,101,4,4,,1
+OpenShift deployment guide for APIcast v2,2016-10-14,Merged,100,205,0,,0
+"Updated README, added some code comments and refactor",2016-10-12,Merged,97,184,22,lua json ,2
+Remove double encoding for config and set content-type,2016-10-11,Merged,96,62,13,t ,5
+Update MAINTAINERS,2016-10-10,Merged,95,1,0,,1
+do not crash on ampty APICAST_SERVICES env variable,2016-10-07,Merged,93,15,2,,2
+ability to use just subset of services,2016-10-06,Merged,92,150,3,conf lua yml t ,7
+micro optimizations,2016-10-06,Merged,91,130,61,t ,5
+[travis] fix image push after build,2016-10-03,Merged,89,2,2,,1
+rename to APIcast,2016-10-03,Merged,88,149,147,yml Makefile ,7
+[travis] don't build docker on pull requests,2016-09-28,Merged,87,3,3,,1
+[bin] update apicast binary and use it in docker,2016-09-28,Merged,86,134,22,Makefile s2i/bin/run apicast/bin/apicast sh lua bin/apicast snapshot ,9
+move all apicast files into a subfolder,2016-09-26,Merged,85,38,39,s2iignore Makefile s2i/bin/assemble rockspec conf sh libexec/boot → apicast/libexec/boot gitkeep lua yml t ,25
+Create build.md,2016-09-26,Merged,84,44,0,,0
+Cleanup the repo,2016-09-26,Merged,83,13,81,s2iignore Dockerfile script/wait-for ,4
+[test] use local dns server instead of external one,2016-09-22,Merged,82,38,5,,1
+run prove inside build docker,2016-09-23,Merged,81,50,21,Makefile t sh ,5
+[travis] archive build artifacts,2016-09-21,Merged,80,5,0,,1
+[make] release process in makefile,2016-09-20,Merged,79,11,3,Makefile ,2
+[management] allow deleting config,2016-09-20,Merged,78,52,4,t ,3
+"Added fallback in case /dev/stdout is not writable, due old docker version",2016-09-21,Merged,76,18,4,sh ,2
+Update ISSUE_TEMPLATE.md,2016-09-15,Merged,75,10,3,,0
+removed error_log output to stderr because docker bug in old releases,2016-09-15,Closed,74,1,1,,1
+OAuth2,2016-09-27,Merged,73,"1,055",18,conf lua ,4
+allow setting custom config through env variable,2016-09-13,Merged,72,54,5,lua t ,3
+experimental path based routing,2016-09-13,Merged,71,119,1,lua t ,3
+do not report to backend on no match,2016-09-13,Merged,70,5,3,t ,2
+Fix query params rules,2016-09-13,Merged,67,154,14,t ,3
+document benefits of v2,2016-09-12,Merged,66,25,0,,0
+reword readme to clarify it is not recommended for production use,2016-09-12,Merged,65,1,1,,0
+mention v2 is not for production use yet,2016-09-12,Merged,64,2,0,,0
+create custom config example,2016-09-12,Merged,62,34,0,conf ,1
+contributing guidelines,2016-09-12,Merged,61,290,3,conf json lua t ,5
+disable ssl validation,2016-09-12,Merged,60,8,2,,1
+extract port from host,2016-09-09,Merged,59,32,10,t ,3
+fix crash when using ngx.re in init_by_lua,2016-09-09,Merged,58,2,2,,2
+fix Host header passed to the api backend,2016-09-09,Merged,57,19,4,t ,4
+[readme] add openshift instructions,2016-09-09,Merged,56,12,5,,0
+fallback to curl when internal lua client does not work,2016-09-09,Merged,55,98,36,,2
+disabled ssl verification in lua for downloading config,2016-09-09,Merged,54,64,19,Makefile conf lua t ,8
+load configuration at boot time,2016-09-08,Merged,53,39,1,conf libexec/boot lua ,4
+[WIP] V2 template,2016-09-08,Merged,52,49,88,,2
+avoid trying to load THREESCALE_CONFIG_FILE when is empty,2016-09-08,Merged,50,13,1,,2
+Fix for incorrect http.d import causing resolver.conf not to be imported,2016-09-08,Merged,49,64,7,Makefile conf lua t ,7
+"entrypoint was failing on nslookup failure, this fixes the issue by shelling out the var",2016-09-07,Merged,46,8,4,yml sh ,3
+[travis] fix build & push,2016-09-07,Merged,45,1,0,,1
+publish v2 docker images automatically,2016-09-07,Merged,44,39,34,Makefile ,3
+Point to the correct build-image and use pull-policy always,2016-09-07,Merged,43,1,1,,1
+Config cleanup,2016-09-07,Merged,42,8,8,conf sh ,3
+Fix for permissions denied when creating /opt/app/client_body_temp,2016-09-07,Closed,40,4,1,,1
+[readme] improve readme for osx development,2016-09-07,Merged,39,15,0,,0
+[s2i] fix openshift permissions,2016-09-07,Merged,38,8,2,Makefile yml ,3
+"[v2] Fix for ""lua ssl certificate verify error""",2016-09-06,Merged,37,4,0,,1
+[s2i] use source to image,2016-09-06,Merged,34,27,4,Makefile sh ,4
+[docs] improve v2 documentation,2016-09-05,Merged,33,28,23,Makefile md yml sh lua ,5
+[rocks] split dev and production rocks,2016-09-05,Merged,32,136,22,Dockerfile Makefile rockspec conf yml script/wait-for lua t ,10
+[management] basic stub of management API,2016-09-05,Merged,31,184,16,md lua t ,4
+[config] offer customization,2016-09-05,Merged,30,2,0,gitkeep ,2
+[readme] mention development branch,2016-09-05,Merged,29,4,0,,0
+[docker] cleanup & test,2016-09-05,Merged,28,57,88,yml Dockerfile Makefile sh conf ,8
+[WIP] Install openresty using the official RPM's,2016-09-05,Merged,27,91,124,yml Dockerfile Makefile sh conf repo ,9
+[v2] test caching and backend parameters,2016-09-04,Merged,26,121,27,lua t ,4
+[v2] basic integration testing,2016-09-01,Merged,25,290,102,Makefile conf lua ,8
+[WIP] Data driven configuration,2016-08-31,Merged,24,"1,515",0,luacov yml Makefile rockspec bin/busted conf cpanfile ,9
+Update README.md,2016-08-02,Merged,20,1,1,,0
+"support arbitrary user-id, following openshift guidelines",2016-08-02,Merged,19,1,1,,1
+Set 127.0.0.1 as the resolver if there's no entry in /etc/resolv.conf,2016-07-15,Merged,18,12,9,,1
+fix unbound variable,2016-07-15,Merged,17,1,3,,1
+fix unbound variable,2016-07-15,Merged,16,2,7,,1
+Jmprusi/fix dns,2016-07-15,Merged,15,29,12,sh ,2
+fixing DNS issues in openshift,2016-07-14,Merged,14,14,1,sh ,2
+adding codeclimate related code,2016-07-12,Merged,13,10,0,,1
+Openshift 32 compatibility,2016-07-12,Merged,12,21,26,sh ,2
+using a quay.io/centos image instead of docker hub images to avoid bug described at https://access.redhat.com/solutions/2391221,2016-07-05,Merged,11,5,9,Dockerfile ,2
+Make the THREESCALE_ADMIN_URL placeholder that appears in the UI cons…,2016-05-17,Merged,10,2,2,md ,1
+replaced alpine docker image with centos,2016-05-17,Merged,9,16,25,Dockerfile sh ,3
+renamed THREESCALE_ENDPOINT with THREESCALE_ADMIN_URL,2016-05-16,Merged,7,7,7,md sh ,2
+Openshift support,2016-05-16,Merged,6,201,12,Dockerfile md sh ,3
+Auto Update,2016-03-22,Merged,2,96,16,md sh ,2
+updated readme,2016-03-15,Merged,1,8,2,,0

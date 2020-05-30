@@ -1,0 +1,2145 @@
+Fix name neupat,2020-01-13,Merged,3712,2,1,,1
+Remove duplicated field in json example,2020-01-13,Merged,3711,1,2,,1
+Fixed issue #3304,2020-01-10,Closed,3704,6,0,,1
+Fixup bug where name isnt maintained by align_measures,2020-01-10,Merged,3701,2,1,,2
+Pin pylint and astroid in requirements-dev.txt,2020-01-08,Merged,3699,2,3,,0
+[Stable] Bump version to prepare for release,2020-01-07,Merged,3697,2,2,py ,1
+[Stable] Fix bug where lo units were not being properly converted (#3597),2020-01-07,Merged,3696,51,41,,7
+Assemble meas levels validation,2020-01-09,Merged,3694,29,0,,2
+[Stable] Pin nbformat to 4.4.0 (#3691),2020-01-07,Merged,3693,1,0,,0
+Pin nbformat to 4.4.0,2020-01-06,Merged,3691,1,0,,0
+Update deprecated call to cmd_qubits in the rescheduler,2020-01-06,Merged,3687,2,2,,2
+[Stable] Replace scipy.kron with numpy.kron in quantum_initializer. (#3623),2020-01-06,Merged,3686,2,3,,1
+[Stable] Fixes issue 3607 (#3642),2020-01-07,Merged,3681,5,3,,1
+[Stable] Add one time warnings for dt and qubit_freq_est turn into properties,2020-01-07,Merged,3680,50,9,,2
+[Stable] Update melbourne gate map for new qubit (#3677),2020-01-04,Merged,3679,2,2,,1
+update melbourne gate map for new qubit,2020-01-04,Merged,3677,2,2,,1
+Fixed issue 3673,2020-01-09,Merged,3675,36,2,inc ,3
+Fix ``Operator.transpose`` for rectangular operators,2020-01-03,Merged,3672,12,10,,2
+Visualizers properly represent complex numbers,2020-01-05,Merged,3666,129,70,yaml ,3
+slight change to quaternion class constructors,2020-01-03,Merged,3664,60,23,,4
+Visualizers print physical qubits as integers,2020-01-02,Merged,3663,117,79,yaml png ,7
+Document `Bit.index` and `Bit.register`,2020-01-02,Merged,3662,20,0,,2
+Fix typo under qiskit directory,2020-01-09,Merged,3659,42,42,bat py json pyx yaml ,24
+Slack invitation link changed,2019-12-27,Merged,3655,1,1,,0
+Keeping randn in TwoQubitWeylDecomposition but seeded,2019-12-29,Merged,3653,9,2,,2
+"Revert ""remove randomness from two_qubit_decompose""",2019-12-26,Merged,3652,2,2,,1
+fix typo under test directory,2019-12-26,Merged,3651,29,29,ipynb ,18
+"fix typo under qiskit/circuit, qobj, quantum_info, and visualization",2019-12-24,Merged,3650,25,25,,14
+skip test_crosstalk_adaptive_scheduler when z3-solver not available,2019-12-23,Merged,3648,13,10,txt ,2
+fix typo under python/test,2019-12-23,Merged,3645,13,13,,4
+Inconsistencies in linefeed lines in mpl drawer corrected.,2020-01-05,Closed,3644,6,6,,1
+fix typo in release notes,2019-12-20,Merged,3643,7,7,,6
+Huge gaps between 'unitary' gates in mpl drawer corrected,2019-12-24,Merged,3642,5,3,,1
+Add missing quotes to issue templates,2019-12-19,Merged,3638,2,2,,0
+Make python 3.7 default in CI and remove duplicate job,2019-12-20,Merged,3636,8,12,,2
+Bump pylint version to unify across elements,2020-01-07,Merged,3635,79,80,txt py ,25
+output as first kwarg in circuit.draw,2019-12-20,Merged,3632,21,7,yaml ,2
+Add CouplingMap.draw method.,2019-12-19,Merged,3630,32,0,yaml ,2
+Remove quaternions from XYX synthesis algorithm,2019-12-31,Merged,3628,140,154,,1
+"Revert ""Allow giving jobs names via execute for IBMQ devices""",2019-12-17,Merged,3624,2,9,,1
+Replace scipy.kron with numpy.kron in quantum_initializer.,2019-12-17,Merged,3623,2,3,,1
+Allow giving jobs names via execute for IBMQ devices,2019-12-17,Merged,3622,9,2,,1
+reorganize passes directory,2020-01-09,Merged,3621,224,94,py pyx pxd ,58
+Coupling map constructors,2019-12-18,Merged,3618,90,0,yaml ,3
+Aer ibmq except import error 3613,2019-12-26,Closed,3616,16,9,yaml ,2
+Replace tabs with spaces in .json schemas,2019-12-13,Merged,3608,26,26,,2
+Update .mailmap,2019-12-19,Merged,3603,86,2,,1
+Add Crx and Cry gates,2019-12-18,Merged,3600,357,19,,8
+Fix bug where lo units were not being properly converted,2020-01-06,Merged,3597,51,41,,7
+Added one time warnings for dt and qubit_freq_est turning into properties,2019-12-13,Merged,3594,50,9,,2
+Corrected the error in the display of multi-letter subscript of a register,2019-12-31,Closed,3590,1,1,,1
+Bump version string post release,2019-12-10,Merged,3589,2,2,py ,1
+Fix bug where too many framechanges in table would cause plotting to fail,2019-12-10,Merged,3588,10,2,,2
+remove randomness from two_qubit_decompose,2019-12-23,Merged,3585,2,2,,1
+Add release notes for #3307.,2019-12-09,Merged,3584,7,0,,1
+One time dt/dtm unit conversion warning,2019-12-10,Merged,3583,9,0,,1
+Fix enum meas_return to_dict bug,2019-12-09,Merged,3582,113,55,,2
+Fix transpile to only check for max qubits if backend is not a simulator,2019-12-09,Merged,3578,24,2,,3
+Fix dynamic spacing for gate params in mpl circuit.draw(),2019-12-09,Merged,3575,16,8,,1
+Deprecate cmd def,2019-12-10,Merged,3573,60,47,yaml ,10
+Fix phase for controlled Rz,2019-12-09,Merged,3569,117,40,,3
+Fix Scheduler MemorySlot mapping (issue #2704),2019-12-08,Merged,3567,112,43,,3
+Decompose substitute_node only when gate width matches definition.,2019-12-09,Merged,3566,21,2,,4
+Issue templates: add labels,2019-12-18,Merged,3560,3,42,,0
+Updates to job monitor,2019-12-09,Merged,3559,23,10,,2
+"Revert ""Run BarrierBeforeFinalMeasurements pass regardless of property_set['is_swap_mapped']""",2019-12-05,Merged,3558,43,53,,5
+Use backend n_qubits to check if circuit can fit on device if coupling_map is None,2019-12-06,Merged,3557,164,7,yaml ,5
+Fix visuals for 1Q devices,2019-12-05,Merged,3556,110,95,,2
+Handle cregs in circuit_to_gate() converter,2019-12-06,Merged,3555,18,3,,2
+Support datetimes in backend monitor job history,2019-12-06,Merged,3554,6,1,,1
+Fix qobj json schema ref,2019-12-13,Merged,3553,1,1,,1
+Handle string parameters in circuit drawer,2019-12-05,Merged,3552,3,1,,2
+Scheduler release note,2019-12-05,Merged,3551,62,0,,1
+Cleanup CONTRIBUTING.md file,2019-12-05,Merged,3550,21,483,,0
+Prepare for 0.11.0 release,2019-12-10,Merged,3549,207,145,,34
+Replaced relative imports with absolute imports in visualization tests.,2019-12-12,Closed,3548,5,5,,5
+Remove implicit string cast of the snapshot label,2019-12-05,Merged,3544,4,8,yaml ,2
+Remove deprecated CXBase gate,2019-12-05,Merged,3543,10,54,yaml ,5
+Fix side effects of setting numpy.random.seed,2019-12-05,Merged,3541,67,10,yaml ,4
+Remove deprecated UBase gate,2019-12-03,Merged,3539,7,70,yaml ,4
+Make gate_map seaborn import occur at runtime,2019-12-04,Merged,3538,6,1,,1
+Fix parallel flags,2019-12-03,Merged,3537,2,2,,1
+Improve inverse function for ControlledGate class,2019-12-06,Merged,3534,44,0,,2
+Crosstalk adaptive gate scheduling pass,2019-12-22,Merged,3532,916,2,,1
+Add validation of backend memory support when executing with memory=True,2019-12-06,Merged,3528,14,0,yaml ,3
+Format pulse defaults,2019-12-10,Merged,3526,938,51,,3
+Fix control qubit channel bug in pulse backend configuration,2019-11-28,Merged,3524,2,6,,1
+Merge pull request #1 from Qiskit/master,2019-11-30,Closed,3521,0,0,,0
+add zxz decomposition,2019-12-13,Merged,3519,44,2,yaml ,3
+Fixed noise adaptive layout choosing 0 reliability cx,2019-11-30,Merged,3518,16,14,,1
+Setting a limit for CSPLayout,2019-12-16,Merged,3515,153,7,yaml ,3
+Add ability to get counts from statevectors and density matrices,2019-11-27,Merged,3514,179,6,,7
+A circuit without registers should have depth=0,2019-11-24,Merged,3513,10,0,,2
+Add Hellinger fidelity discrete probability measure.,2019-11-25,Merged,3510,133,0,,4
+Update error map colormap to cube helix,2019-11-27,Merged,3508,4,4,,1
+Remove top-level sympy imports from multi-control gates.,2019-11-25,Merged,3507,2,2,,2
+Revert auto-Parameter creation from param of type str.,2019-11-22,Merged,3506,2,2,,1
+Revert addition of p as alias for s gate on QuantumCircuit.,2019-11-28,Merged,3505,0,10,yaml ,2
+Add FakeRochester to mock backends.,2019-11-22,Merged,3504,94,3,json png ,8
+fix pulse channel indexing,2019-12-06,Merged,3501,6,9,,1
+Remove samples,2019-11-20,Closed,3500,859,50,py ,2
+Lexer,2019-11-20,Closed,3499,490,1,py ,8
+Issue #3496: empty filter bug for pulse.Schedule,2019-11-20,Merged,3498,43,4,,2
+docstring proofreading fixes,2019-12-26,Merged,3497,144,143,,10
+Refactor plot histogram,2019-11-20,Merged,3495,67,37,,1
+Remove Jupyter tools,2019-11-21,Closed,3494,0,"2,346",py ,3
+Use Enum for meas_level and meas_return,2019-12-06,Merged,3493,42,19,yaml ,8
+parser,2019-11-19,Closed,3492,336,0,,10
+Fix parallel_map for Python3.8 on Mac OSX,2019-12-02,Merged,3491,25,16,,2
+Gate parameters support mix of indexes and bits,2019-11-20,Merged,3490,14,1,,2
+Removing unused import modules from test_controlled_gate.py,2019-11-19,Merged,3487,1,7,,1
+Fixed issue #3476 by updating matplotlib.py,2019-12-10,Closed,3486,22,19,,1
+Fixed issue #3461 by updating matplotlib.py,2019-12-06,Merged,3484,2,2,,1
+fix pulse draw failures on channels_to_plot,2019-11-16,Merged,3483,7,7,png ,4
+"Revert ""Schedule: deprecate channels_to_plot parameter and use channels instead""",2019-11-16,Closed,3482,28,56,,4
+MergeAdjacentBarriers to first check if barriers are adjacent.,2019-12-06,Merged,3481,100,64,,3
+syncing qiskit/qasm/libs/qelib1.inc and qiskit/extensions/standard/cu3.py,2019-11-20,Merged,3479,8,4,inc ,3
+fake almaden enhancement,2019-11-15,Merged,3478,20,26,py ,3
+Docstrings updates for qiskit.transpiler.passes.[n-z],2019-11-15,Merged,3477,119,68,,14
+Use \frac for fractions of pi with latex drawer,2019-11-20,Merged,3474,24,6,,1
+Handle unicode parameters in latex circuit drawer,2019-11-20,Merged,3473,39,32,,1
+Converter examples added,2019-12-04,Merged,3470,76,0,,4
+add test for to_matrix method of standard gates,2019-11-27,Merged,3469,40,1,,1
+added release notes for controlled gate class (#2862).,2019-11-30,Merged,3465,31,2,py ,2
+Update visualization picheck to handle parameters,2019-11-14,Merged,3459,3,0,,1
+Deal with None as return from job.queue_position(),2019-11-15,Merged,3458,12,2,yaml ,3
+fix no IBMQ.backends(),2019-11-12,Merged,3456,6,5,,2
+replace q_if with control,2019-11-20,Merged,3455,175,169,,8
+Params in controlled gates,2019-11-12,Merged,3454,15,18,,3
+Create codeowners for scheduler,2019-11-11,Merged,3452,1,0,,1
+don't serialize private attributes,2019-11-21,Merged,3451,4,0,,1
+Added better shift method for timeslot collection,2019-11-20,Merged,3450,5,2,,1
+"Revert #3421 ""Set the scale parameter of QuantumCircuit.draw to a default 1""",2019-11-11,Merged,3449,1,1,,1
+Remove warning about units of dt,2019-11-11,Merged,3448,2,27,,2
+[Stable] Add python 3.5 pin for networkx,2019-11-11,Merged,3447,6,2,py ,1
+Result marginal counts,2019-11-21,Merged,3446,168,1,yaml ,6
+restructure mock backends and fix packaging of backend data,2019-11-12,Merged,3445,279,39,py json ,38
+controlled gate text drawer,2019-11-12,Merged,3442,121,8,,2
+Add argument to ignore framechange only channels for schedules drawing,2019-12-09,Merged,3441,41,10,png ,5
+a less noisy test_deprecated,2019-11-09,Merged,3439,4,5,,1
+Add mock function for qiskit.IBMQ,2019-11-12,Merged,3438,74,21,,3
+Removing U0Gate,2019-11-20,Merged,3431,21,128,yaml png txt ,10
+"TestTextWithLayout is using line_length, which is deprecated",2019-11-13,Merged,3430,1,1,,1
+Make ibmq imports for backend monitor at runtime,2019-11-07,Merged,3429,16,6,,1
+"Updates draw method scale parameter: SamplePulse, Schedule",2020-01-03,Merged,3424,96,32,yaml ,6
+Set the scale parameter of QuantumCircuit.draw to a default of 1,2019-11-09,Merged,3421,1,1,,1
+make zeroing of discrete pulses optional,2019-11-07,Merged,3419,24,12,,1
+Fix Schedule Plot reflecting duration of final schedule even if it is not plotted,2019-11-08,Merged,3418,6,1,,1
+Fix Scheduler MemorySlot mapping (issue #2704),2019-12-08,Closed,3415,114,15,,3
+Fix Scheduler MemSlots (Issue #2704),2019-11-06,Closed,3414,50,4,py txt ,6
+Bugfix/issue 3387 adding late gates,2019-11-15,Merged,3411,70,20,,2
+small apidocs fixes,2019-11-07,Merged,3396,15,15,,5
+Abby apidocs -- small docs fixes,2019-11-05,Closed,3395,10,17,,3
+Schedule: deprecate channels_to_plot parameter and use channels instead,2019-11-14,Merged,3394,56,28,,4
+"avoid hard set QISKIT_IN_PARALLEL, sometime can improve hundreds of times",2019-11-18,Closed,3390,37,47,,1
+Add overview of doc structure and process to contributing guide,2019-11-08,Merged,3389,110,1,,0
+Change benchmarks run in CI job,2019-11-07,Merged,3388,1,1,,1
+Docstrings updates for qiskit.transpiler.passes.[a-m],2019-11-04,Merged,3382,140,127,,11
+Fake Johannesburg device (20 qubit),2019-11-04,Merged,3381,1,1,,1
+Fixes bug in concurrence using ``eigh`` instead of ``eigvals`` for possibly non-hermitian matrices,2019-11-06,Merged,3376,16,23,,2
+"Extend pulse defaults (but keep logic that the cmd def was responsible for, separate)",2019-11-27,Closed,3373,632,217,,1
+Supress config warnings in visualization and jupyter tools,2019-11-11,Closed,3372,20,0,,3
+Disable QasmQobjInstruction validation during circuit assembly.,2019-10-31,Merged,3370,3,2,,2
+Allow bypassing validation during model instantiation,2019-10-31,Merged,3368,55,31,,2
+Deprecate backend config replacement,2019-11-11,Merged,3367,264,336,yaml ,9
+no more random in test_visualization,2019-11-01,Merged,3365,15,6,,1
+FullAncillaAllocation and EnlargeWithAncilla do not allow initial_layout at construction time,2019-11-01,Merged,3363,62,83,dot ,6
+pulse Schedule not filter,2019-11-06,Merged,3361,203,86,,2
+"[Stable] Collect2qBlocks, CommutationAnalysis to ignore parameterized gates.",2019-10-30,Merged,3358,41,4,yaml ,4
+[Stable] Fix broken release wheel jobs,2019-10-30,Merged,3357,6,3,,1
+Remove duplicated test jobs from travis,2019-10-30,Merged,3355,3,112,,1
+Fix matplotlib with wide parameters,2019-10-30,Merged,3354,29,9,,1
+Make gates display more width for params,2019-10-30,Closed,3353,1,1,,1
+Add mergify config,2019-10-29,Merged,3352,11,0,,1
+Remove auto-merge bot configuration file,2019-10-29,Merged,3351,0,24,,1
+Fix R gate in MPL drawer,2019-10-29,Merged,3349,5,1,,2
+Update auto-merge.yml,2019-10-29,Merged,3347,1,0,,1
+Stop setting basepython in base tox testenv,2019-10-29,Merged,3344,3,1,,1
+Add from_label to Operator class,2019-11-12,Merged,3342,58,0,,1
+Add R gate to standard gates,2019-10-29,Merged,3341,79,7,,4
+Add missing release notes for #3281.,2019-10-28,Merged,3340,9,0,,1
+release note for PR #3290,2019-10-29,Merged,3339,12,0,,1
+Reset python env for CI benchmarks to 3.5.,2019-10-28,Merged,3336,1,0,,1
+Docstrings updates for qiskit.transpiler.passes.mapping,2019-10-28,Merged,3332,211,231,,8
+[Stable] Pin networkx in constraints,2019-10-28,Merged,3331,9,8,txt ,2
+[Stable] Fix latex columns count,2019-10-29,Merged,3330,8,2,,1
+Fix plot_circuit_layout (#2945),2019-10-28,Merged,3329,1,3,,1
+Instruction is parameterized,2019-10-30,Merged,3328,29,16,yaml ,6
+yet another auto-merge configuration,2019-10-29,Merged,3326,14,36,,1
+Module-level docstrings for Terra,2019-11-06,Merged,3325,"1,070",437,rst ,27
+"Level 1 chooses between trival and dense layout selection, depending on the layout score",2019-12-30,Closed,3324,507,342,,3
+CouplingMap.distance was returning non-int,2019-10-27,Merged,3323,2,1,,2
+Update config file for auto-merge bot,2019-10-25,Merged,3322,7,0,,1
+Add layout score analysis pass,2019-11-01,Merged,3321,196,0,yaml ,4
+Add doc templates and make QuantumCircuit class example.,2019-10-25,Merged,3320,181,47,py txt ,9
+Pulse: improved error message for overlapping pulses; Fixes #2523,2019-11-20,Merged,3319,38,10,,3
+Remove deprecation message for TranspilerAccessError,2019-11-20,Merged,3318,1,10,,1
+add mock Burlington and allow htmlrep for FakeBackends,2019-10-28,Merged,3317,75,7,json ,6
+Fixed execute documentation,2019-11-13,Merged,3316,2,2,,1
+"fix zeroed_width issues, make default sampling midpoint",2019-11-06,Merged,3314,130,81,,1
+Add useful methods to PulseBackendConfiguration,2019-10-30,Merged,3309,402,146,yaml ,8
+Visualization documentation edits and examples added,2019-10-24,Merged,3308,305,16,,11
+Fix bug in align_acquires,2019-10-29,Merged,3307,67,24,,2
+Auto merge configuration,2019-10-25,Merged,3305,38,0,,1
+Update pull request template,2019-10-22,Merged,3301,5,4,,0
+Replace TimeslotCollection and Timeslot with simpler data structure,2020-01-07,Closed,3299,165,769,,5
+Add parametric pulses to Pulse!,2019-12-16,Closed,3298,"1,670",97,,5
+Remove buffer options in Pulse,2019-10-23,Merged,3297,62,70,yaml ,12
+Convert CRLF files to LF,2019-10-22,Merged,3295,154,154,inc ,3
+instruction.copy().params does not modify the original instance,2019-10-23,Merged,3292,31,0,,3
+Extend PulseDefaults,2019-11-27,Closed,3291,543,47,,1
+Parallel support for PassManager.run(),2019-10-28,Merged,3290,165,5,txt ,3
+"Collect2qBlocks, CommutationAnalysis to ignore parameterized gates.",2019-10-28,Merged,3288,32,4,,3
+A simpler pass manager,2019-10-23,Merged,3286,448,361,,1
+Removed the usage of trivial_flag as it can lead to single-qubit gates being omitted,2019-10-22,Merged,3285,38,22,,2
+Fix failing PassManager visualization tests,2019-10-21,Merged,3284,20,18,dot ,3
+Rewrite dag drawer to not use nxpd,2019-11-09,Merged,3280,53,26,py ,3
+Fix doc strings in DAGNode class,2019-10-18,Merged,3279,3,6,,1
+Stop setting explicit background color in plot_histogram(),2019-10-30,Merged,3277,0,1,,1
+Pin networkx in constraints,2019-10-17,Merged,3276,9,8,txt ,2
+Fix broken release wheel jobs,2019-10-17,Merged,3275,6,3,,1
+Better handling when empty instructions are unrolled or inverse,2019-10-18,Merged,3274,37,65,,4
+Run BarrierBeforeFinalMeasurements pass regardless of property_set['is_swap_mapped'],2019-11-14,Merged,3273,53,43,,5
+Update properties for FakeVigo.,2019-10-16,Merged,3272,1,62,py ,2
+Bump version string post release,2019-10-16,Merged,3271,2,2,py ,1
+Fix typo and retrigger wheel builds,2019-10-16,Closed,3270,51,48,,1
+fix tuple->Bit deprecation warning in latex drawer,2019-10-16,Merged,3269,2,4,,1
+Add python 3.8 support and deprecate python 3.5,2019-12-10,Merged,3268,97,6,txt py yaml ini ,10
+Update pip prior to installing aer,2019-10-15,Merged,3267,1,0,,1
+Update __qiskit_version__ call time,2019-10-15,Merged,3266,4,1,,1
+Prepare for the 0.10.0 release,2019-10-16,Merged,3262,13,0,yaml ,21
+Fix rst formatting for QuantumCircuit docstrings,2019-10-15,Merged,3261,173,142,,6
+Move barrier_before_final_measurements to 'passes' directory,2019-10-16,Merged,3260,2,2,,2
+Add class's __init__() docstring too,2019-11-01,Merged,3258,1,0,,1
+Add alias for cnot function to cx(),2019-10-25,Merged,3255,27,0,yaml ,5
+Add release notes for ion trap merge.,2019-10-14,Merged,3254,27,10,yaml ,2
+fix slight variation in format from rochester props,2019-10-14,Merged,3253,5,2,,1
+Update release note styling and wording,2019-10-14,Merged,3252,51,32,,12
+Speed up random circuit creation,2019-10-12,Merged,3249,11,5,,1
+Use numpy randint instead of choice for conditional,2019-10-11,Merged,3248,1,2,,1
+[Stable] Bump version number and update changelog for release,2019-10-11,Merged,3247,10,5,txt py ,1
+Fix latex drawer bit subscript for indexes >=10,2019-10-11,Merged,3245,1,1,,1
+Fix latex columns count,2019-10-27,Merged,3243,8,2,,1
+disable=invalid-name at line level instead of file level,2019-10-12,Merged,3242,104,147,,21
+small refactor of quantum_initializer,2019-10-27,Merged,3241,45,58,,3
+Deprecate passing in an ast node as a instruction parameter,2019-10-11,Merged,3240,25,3,yaml ,2
+Add linebreaks before docstring Args,2019-10-14,Merged,3236,99,58,,26
+Update plot_state_city to align labels,2019-10-28,Merged,3235,9,5,,1
+Unroller and Optimize1QGates to use single node substitution,2019-10-30,Merged,3233,69,58,,6
+fixed issue 3213 by updating name of exception class and files that i…,2019-10-09,Closed,3231,14,14,,6
+Bug fix for qubit visualization in Bloch sphere,2019-10-10,Merged,3230,2,2,,1
+More informative handling of serialization errors,2019-10-31,Merged,3228,22,7,,3
+update link to hello_quantum.py example,2019-10-10,Merged,3227,1,1,,0
+fix and add mock backend properties,2019-10-09,Merged,3226,361,8,json ,13
+Add dual of mpl mathtext syntax for latex drawer labels,2019-10-28,Merged,3224,103,13,yaml ,4
+TranspilerAccessError is deprecated in favor of TranspilerError,2019-10-24,Merged,3222,30,14,yaml ,4
+remove disable=invalid-name in test/python/test_dagcircuit.py,2019-10-08,Merged,3221,16,17,,1
+Deprecate qx_color_scheme(),2019-10-24,Merged,3220,11,0,yaml ,2
+Update docstring for circuit_drawer and QuantumCircuit.draw,2019-10-12,Merged,3219,301,149,,1
+Add support for partial results to Result class,2019-10-15,Merged,3217,29,19,yaml ,2
+Add initial support for working with ion-trap devices,2019-10-11,Merged,3214,235,0,,5
+Center z=0 plane in plot_state_city with consistent border,2019-10-27,Merged,3211,12,4,,1
+The exceptions QiskitError qiskit/circuit/* are being replaced by CircuitError (a QiskitError subclass),2019-10-22,Merged,3210,382,358,,8
+Add support for slicing and concatenation of PassManagers,2019-10-30,Merged,3209,272,1,yaml ,4
+Issue #373 - Rename QiskitBackendNotFoundError,2019-10-06,Closed,3208,14,14,,6
+[Stable] Finish deprecation for line_length and fold in style dict,2019-10-17,Closed,3200,24,68,py json yaml ,8
+Cleanup inst control usage from source tree,2019-10-07,Merged,3198,24,24,,7
+Add warning on jupyter imports if matplotlib isn't found,2019-10-09,Merged,3193,8,0,,1
+Add deprecation policy to CONTRIBUTING.md,2019-10-10,Merged,3191,119,0,,0
+Round of deprecation removal,2019-12-03,Merged,3190,51,554,yaml ,8
+Bump lint jobs to latest stable python version,2019-10-09,Merged,3189,3,3,py ,2
+deprecate instruction.control,2019-10-04,Merged,3188,40,16,yaml pickle ,14
+Module level documentation for qiskit.visualization,2019-10-14,Merged,3187,162,45,css rst py png txt ini ,11
+Fix aer name in transpiler_equivalence test,2019-10-04,Closed,3186,1,1,,1
+Correct warning check for proper BasicAer name,2019-10-02,Closed,3184,1,3,,1
+"Added tests for definitions of cswap, cu1, cu3, cx",2019-10-07,Merged,3182,32,0,,1
+Auto Scale PulseScheduler drawing,2019-10-24,Merged,3180,14,5,png ,6
+graphviz installation instructions,2019-11-04,Merged,3179,4,0,,1
+[WIP] Add new methods to BackendConfiguration,2019-10-23,Closed,3177,130,3,,1
+"DAG to circuit converter can use _append, should not copy registers.",2019-10-10,Merged,3176,4,23,,1
+Prevent Custom Multiqubit Gate Overlapping,2019-10-11,Merged,3174,9,12,,1
+Update CX direction pass to modify input DAG in-place.,2019-09-30,Merged,3173,83,29,,2
+Add flag to latex drawer to enable label passthrough,2019-10-08,Closed,3172,55,12,yaml ,4
+"[WIP] Fix inconsistency in matplotlib drawer, make box widths dynamic in mpl drawer",2019-10-30,Closed,3170,19,16,,1
+Fixed issue 2788 by updating qiskit/visualization/matplotlib.py,2019-09-28,Closed,3167,2,2,,1
+Remove broken docs link in CONTRIBUTING,2019-09-30,Closed,3166,1,3,,0
+Add version to BaseBackend,2019-10-02,Merged,3165,53,0,,2
+The timeslots argument in Command isn't used,2019-09-27,Merged,3163,0,2,,1
+Collect element version info only on first use and cache.,2019-09-27,Closed,3161,80,13,,3
+Added error messages to NoiseAdaptiveLayout and did some refactoring,2019-09-28,Merged,3160,30,18,,1
+average_data can be imported from qiskit.quantum_info.analysis,2019-10-15,Merged,3159,1,0,,1
+Speed up qiskit import by not using pip in version.py,2019-09-27,Merged,3158,9,41,,1
+Add import benchmark to travis benchmark job,2019-09-26,Merged,3157,1,1,,1
+Mostly remove sympy and deprecate sympy Instruction parameters,2019-10-23,Merged,3156,161,125,,11
+Modified rzz visualization in latex circuit drawer to match cu1,2019-09-30,Merged,3155,28,0,yaml ,2
+Move pulse utils to reschedule,2019-09-27,Merged,3154,184,139,,3
+rebase ion-trap branch,2019-09-26,Merged,3153,774,"1,512",md py ,10
+Add ability to remove bad cal edges from error_map,2019-11-10,Closed,3152,20,5,,1
+Replace TimeslotCollection and Timeslot with simpler data structure,2019-09-27,Closed,3151,165,769,,5
+Remove line in init which had been commented out,2019-09-26,Merged,3150,0,1,,1
+Add global Molmer-Sorenson gate,2019-10-01,Merged,3149,65,14,,4
+add negation support for Parameter. closes #3098.,2019-10-01,Merged,3148,31,2,,2
+Pulse clipping fix for Travis Osx,2019-10-01,Merged,3147,17,3,,1
+Add DAGCircuit.substitute_node for single node replacement.,2019-09-27,Merged,3145,230,3,,4
+Pulse clipping fix for Travis Osx,2019-09-25,Merged,3144,5,3,,1
+Add back travis config for unit tests,2019-10-28,Merged,3143,74,8,,1
+[Stable] Fix for #3106 gatefacecolor key on circuit diagrams (#3137),2019-09-25,Merged,3142,12,1,,1
+Add QV info to backend monitor and overview,2019-10-07,Merged,3141,34,17,,2
+"Do not unroll an Rx,Ry,Rxx circuit to U3,CX because of measure.",2019-09-24,Merged,3140,18,1,,2
+Remove superfluous reference to timeslots from assemble_schedules,2019-09-25,Merged,3139,1,1,,1
+Fix a syntax error in QuantumCircuit.mirror.,2019-09-24,Merged,3138,21,1,,2
+Fix for #3106 gatefacecolor key on circuit diagrams,2019-09-24,Merged,3137,12,1,,1
+Travis CI: The sudo: tag is deprecated on Travis,2019-09-24,Merged,3134,0,1,,1
+Added new methods to BackendProperties,2019-10-21,Merged,3131,423,49,json ,4
+fix measure unrolling,2019-09-23,Merged,3130,6,0,,1
+Add plot_qv_logo() visualization function,2019-09-26,Closed,3128,133,0,,2
+Fixed issue 3099 by removing try and except blocks in dag_visualtion,2019-10-22,Closed,3126,4,14,,1
+Rochester layout,2019-09-25,Merged,3125,15,0,,1
+The option fig.tight_layout is triggering warnings in some situations so it is being removed,2019-09-23,Merged,3123,0,5,,3
+Add partial transpiler support for targeting ion trap backends.,2019-09-20,Merged,3122,155,0,,3
+Merge master into ion-trap,2019-09-20,Merged,3120,"1,102",32,md py ,5
+Mølmer-Sørensen basis decomposer,2019-09-20,Closed,3119,"1,257",32,md py ,5
+One qubit Euler basis decomposer,2019-09-19,Merged,3115,343,11,,2
+new gates for ion backend,2019-09-18,Closed,3114,340,139,,9
+Add rxx gate and cnot to rxx decomposition,2019-09-19,Merged,3113,172,2,,6
+unroll to unitary gate if unitary is in basis,2020-01-09,Closed,3111,49,5,,2
+[WIP] Fix #3011: Matrix representation of a circuit enabled.,2019-10-30,Closed,3110,217,0,,2
+Remove changelog and document automated creation,2019-09-23,Merged,3109,63,"1,334",,0
+"""fold"" option unified across drawers",2019-10-04,Merged,3108,77,47,,4
+Deprecate allowing extra keys in circuit drawer style dict,2019-09-25,Merged,3105,66,53,yaml ,5
+Make DenseLayout noise aware,2019-10-03,Merged,3101,108,27,yaml ,4
+check casteable types in Layout,2019-09-24,Merged,3100,49,7,,4
+FIXUP from 3094,2019-09-13,Merged,3096,5,7,,4
+Pulse Refactor: Channels,2019-09-12,Merged,3094,39,42,py ,3
+Updated plot_state_hinton,2019-09-24,Merged,3093,8,7,,1
+Fix pulse drawer bug for truncating Acquire command,2019-09-18,Merged,3091,14,1,,2
+Extend pulse defaults,2019-10-21,Closed,3088,575,48,,1
+Updated plot_city,2019-10-10,Merged,3087,26,27,,1
+Move API docs for Terra into source,2019-09-30,Merged,3085,674,4,md yml docs/Makefile rst ,21
+Update marshmallow dependency to v3,2019-09-17,Merged,3084,104,138,,5
+[stable] Fixed classical registers drawing offset,2019-09-25,Merged,3081,5,2,py ,1
+fixes ParameterTable for instructions inserted more than once (closes #3014),2019-09-16,Merged,3079,23,28,,3
+Updated CHANGELOG.MD,2019-09-10,Merged,3078,17,18,,0
+Add pulse system info,2019-09-12,Closed,3075,865,4,,0
+display full job ID in job watcher,2019-09-08,Merged,3074,11,11,,1
+Set an explicit random hashseed for tests in CI,2019-09-05,Merged,3072,10,0,,1
+Added in custom unitary to qasm,2019-10-24,Merged,3069,136,1,,3
+Issue 2847 pad schedule TEST,2019-09-04,Closed,3068,195,42,py ,5
+Added tests for definitions of gates ccx and crz,2019-09-09,Merged,3065,17,0,py ,1
+Extend custom multiqubit gates over classical bits for mpl,2019-09-25,Merged,3062,7,4,,1
+Fix circuit drawing justification,2019-09-26,Merged,3061,332,86,yaml ,2
+add snapshot of real calibration data to mock backends,2019-09-17,Merged,3060,130,119,py json ,13
+fixing making plot_city look nicer,2019-09-03,Closed,3059,539,"1,050",,0
+Fixed classical registers drawing offset,2019-09-09,Merged,3057,2,2,,1
+[stable] deprecate Bit-tuple equality check,2019-08-30,Closed,3054,34,38,,4
+Add ax kwarg to matplotlib visualization functions,2019-10-08,Merged,3053,321,166,py ,5
+Fix barrier placement in latex visualization (#2918),2019-09-03,Merged,3052,2,38,,1
+Only close mpl figures in jupyter with inline backends,2019-09-09,Merged,3051,61,14,py yaml ,7
+Split mock backends and add new ones,2019-08-28,Merged,3050,"1,033",522,,6
+[Stable] Fix mpl conditional drawing (#3032),2019-09-17,Merged,3049,30,1,py png ,3
+Add memory_slots to pulse experimental header,2019-10-01,Merged,3048,42,4,yaml ,3
+[Stable] Make graphviz availability check at runtime (#3041),2019-08-26,Merged,3045,33,16,,2
+CSP layout selector,2019-11-12,Merged,3043,354,0,yaml ,4
+Draw barrier across multi-qubits correctly in latex (#2918),2019-09-25,Merged,3042,15,6,,1
+Make graphviz availability check at runtime,2019-08-26,Merged,3041,33,16,,2
+deprecate Bit-tuple equality check,2019-09-16,Merged,3040,47,38,py yaml ,5
+[Stable] Remove jsonschema cap (#3037),2019-08-26,Merged,3038,2,2,py ,1
+Remove jsonschema cap,2019-08-23,Merged,3037,2,2,py ,1
+Move delay inst release note for better organization,2019-08-23,Merged,3036,0,0,,1
+Remove deprecated schedule ops (deprecated 2 months),2019-08-26,Merged,3034,19,112,py yaml ,2
+Remove deprecated device specs (2 months ago),2019-08-26,Merged,3033,15,"1,392",py yaml ,6
+Fix mpl conditional drawing,2019-08-27,Merged,3032,30,1,py png ,3
+Bump version string post release,2019-08-22,Merged,3031,2,2,py ,1
+Add delay release note,2019-08-22,Merged,3029,16,0,,1
+remove cx_direction from O3 if symmetric,2019-08-22,Merged,3027,1,1,,1
+Add release notes for new user config features,2019-08-22,Merged,3026,16,0,,1
+Update changelog and prepare for 0.9,2019-08-22,Merged,3025,17,12,yaml ,2
+Add release note for plot_error_map,2019-08-21,Merged,3024,7,0,,1
+"if passmanager.draw(raw=true), do not create the png",2019-08-21,Merged,3022,10,6,,2
+Release notes for #3016,2019-08-21,Closed,3020,8,0,,1
+add release note for dag.draw(),2019-08-21,Merged,3019,9,0,,1
+add dag.draw() method,2019-08-21,Merged,3016,21,0,py ,1
+Run randomized testing and benchmarks in Azure,2019-09-25,Closed,3015,66,32,,2
+Deepcopy all but first instruction when broadcasting.,2019-08-21,Merged,3013,63,1,,3
+Remove log_level kwarg from transpile(),2019-08-21,Merged,3012,15,24,yaml ,2
+Build wheels for all platforms in azure pipelines,2019-09-09,Merged,3009,62,115,,3
+Passmanager.draw() in Jupyter notebooks,2019-08-19,Merged,3005,60,13,py ,3
+"Add new passmanager.replace(index, ...)  method",2019-10-05,Merged,3004,160,9,yaml ,4
+Allow for visualizing empty waveform,2019-08-20,Merged,3003,17,2,,1
+avoid falling back to Agg renderer,2019-08-25,Closed,3002,14,68,png ,4
+Over testing in test_gate_map,2019-08-24,Closed,3001,10,66,,1
+Update README.md,2019-08-18,Merged,2999,1,1,,0
+Fixes #2858 by checking all gates in the subinstruction for registers,2019-08-19,Merged,2998,18,5,,3
+Text drawer supports composite gates with both quantum and classical wires,2019-08-19,Merged,2997,167,37,,2
+Fix passing of kwargs to the compiler assembler,2019-08-17,Merged,2996,5,4,,2
+Issue 2848 improve schedule performance,2019-08-16,Merged,2995,254,104,py ,1
+Fixed issue 2822 by updating matplotlib drawer,2019-10-30,Closed,2994,2,2,,1
+"Add measure_all, measure_active, remove_final_measures methods",2019-10-04,Merged,2993,343,0,yaml ,5
+Latex drawer should allow spaces in custom instruction names,2019-08-16,Merged,2992,18,19,,1
+Small suggestions for initializer.py,2019-09-03,Closed,2990,49,22,,1
+Limit the set of tests run in appveyor,2019-08-15,Merged,2989,1,9,,1
+Explicitly set postscript mpl backend for gate map tests,2019-08-27,Closed,2987,6,0,,1
+faster job status checking in job watcher,2019-08-14,Merged,2986,3,3,,1
+Adjust deprecated bit access in latex drawer,2019-08-14,Merged,2985,3,3,,1
+Use nprocs concurrency for test running on macOS,2019-08-14,Merged,2981,1,1,,1
+Add appveyor config back for building windows wheels,2019-08-14,Merged,2979,85,0,,1
+Update dagcircuit docstrings for bit class arguments,2019-08-14,Merged,2978,15,12,,1
+Change warning class for Aer and IBMQ warning,2019-08-14,Merged,2977,2,2,,1
+Use TrivialLayout in optimization level 1,2019-08-13,Merged,2975,20,23,py ,3
+Use DenseLayout in optimization level 1,2019-08-13,Merged,2971,62,16,py ,3
+Make seaborn import work if it's not installed,2019-08-12,Merged,2966,6,1,,1
+Adds error_map plot,2019-08-21,Merged,2965,189,94,,3
+Rename circuit.diagGate to diag_gate,2019-08-13,Merged,2963,5,5,,4
+[WIP] CmdDef str and repr Fixes #2861,2019-10-01,Closed,2962,28,1,,1
+Documentation tweaks for qiskit.transpiler.misc,2019-08-14,Merged,2961,47,38,,2
+Barriers plot correctly over multiple registers in mpl,2019-08-09,Merged,2958,8,4,,1
+Fixed block collection with classical conditions in Collect2QBlocks,2019-08-12,Merged,2956,52,8,,2
+Make jupyter progressbar line magic,2019-08-14,Merged,2954,160,117,ipynb ,3
+Update test_backend_tools.ipynb,2019-08-15,Closed,2951,3,3,,1
+Update README.md,2019-08-09,Merged,2950,1,1,,0
+CI should run with mpl backend = ps,2019-08-27,Merged,2949,89,38,py png ,11
+Change Parameter equality from python id() to internal uuid().,2019-08-14,Merged,2947,114,2,py ,2
+"reduce space mpl circ takes, fix cH gate color, revert color scheme",2019-08-09,Merged,2946,17,15,,2
+Removed an image test output that shouldn't have been left in,2019-08-08,Merged,2943,0,0,,1
+Trim travis job configuration,2019-08-08,Merged,2942,4,62,,1
+Split out lint check job from python 3.5 tests,2019-08-08,Merged,2941,25,10,,1
+proj3d.mod to np.linalg.norm,2019-08-08,Merged,2939,5,3,,1
+Fix return code and lint in subunit_to_junit script,2019-08-08,Merged,2937,11,17,,1
+Use _append when args already converted and broadcast.,2019-09-25,Merged,2936,2,2,,1
+ConsolidateBlocks keeps classical conditions,2019-08-08,Merged,2934,18,2,,2
+Enhance appearance and correctness of Q-sphere visualization (Issue #2932),2019-08-12,Merged,2933,93,56,py txt ,2
+Fixed ConsolidateBlocks over multiple registers,2019-08-12,Merged,2931,26,7,,2
+No random in test_circuit_properties,2019-08-24,Merged,2930,6,13,,1
+Plot circuit layout test,2019-08-13,Merged,2929,37,16,png py ,6
+circuit.layout -> circuit._layout,2019-08-07,Merged,2928,8,8,,4
+Stage azure pipelines jobs and add test result aggregation,2019-08-07,Merged,2927,369,148,,1
+Ordered count_ops,2019-08-07,Merged,2926,18,38,py ,2
+Some formatting in CHANGELOG.md,2019-08-07,Merged,2925,16,16,,0
+replacing  self.assertTrue(numpy.allclose()) by numpy.assert_allclose in tests,2019-08-08,Merged,2924,99,135,,8
+Update the CONTRIBUTING.md file,2019-08-09,Merged,2923,245,169,,0
+Fix memory_slots number bug in pulse assembler,2019-08-07,Merged,2920,12,2,,2
+Add reno release notes for 0.9 release,2019-08-19,Merged,2919,777,6,yml yaml ,8
+Updated so that all DAG pred/succ functions return iterators,2019-08-14,Merged,2917,36,38,,3
+Faster Paulis to Matrix method,2019-08-21,Merged,2916,19,13,,1
+Remove git stestr usage from macOS jobs,2019-08-06,Merged,2915,0,1,,1
+Add isometry benchmarks to travis ci benchmark job,2019-08-06,Merged,2914,1,1,,1
+Added details on installing Qiskit Terra from Source,2019-08-06,Merged,2911,1,3,,0
+Add equiv method to Operator and Statevector classes,2019-08-06,Merged,2910,73,1,py ,5
+added n_qubit funtionality and test,2019-08-07,Merged,2909,40,0,,2
+Make azure pipeline steps fail on intermediate commands,2019-08-05,Merged,2905,21,11,py ,2
+instruction.repeat,2019-08-06,Merged,2901,260,0,,3
+Misc updates to docstrings for sphinx warnings,2019-08-05,Merged,2899,60,35,,3
+Add __init__ to test/randomized directory and fix missing import,2019-08-02,Merged,2898,16,1,,2
+ddt out of the /qiskit module,2019-08-02,Merged,2897,43,40,,5
+Add ddt as a setup.py optional dependency,2019-08-02,Closed,2895,2,1,,1
+Fix typo in comments.,2019-08-01,Merged,2894,2,2,,2
+Fix typo in comments.,2019-08-01,Closed,2893,2,2,,2
+Limit angles in randomize tests to +/- 10 pi.,2019-08-01,Merged,2892,7,8,,1
+Follow up to output_name parameter in transpiler,2019-08-06,Merged,2890,54,45,py ,3
+Add style and lint check to azure pipelines.,2019-08-01,Merged,2889,82,0,,1
+reset parallel flag when errors occur,2019-08-08,Merged,2886,10,5,,1
+Change schedule.union not to increase depth of schedule tree,2019-09-04,Merged,2885,28,3,,1
+Add helper function to convert channel str to channel object,2019-08-29,Closed,2884,77,2,,4
+Run CheckCXDirection and CXDirection only in case of asymmetric coupling map,2019-08-07,Merged,2883,98,12,,5
+Assemble schedule bug,2019-07-30,Merged,2882,2,2,,1
+Moved samplers module into pulse.pulse_lib.samplers,2019-08-13,Merged,2881,6,3,py ,5
+Add scheduling padding method,2019-09-06,Merged,2880,268,43,py yaml ,6
+fix bug in quantum states from_instruction,2019-07-30,Merged,2878,62,2,,4
+Misc updates to docstrings for sphinx warnings,2019-07-30,Merged,2877,84,67,,7
+Remove the ability to explicitly set the timeslots for a pulse instruction,2019-08-07,Merged,2875,4,16,py ,1
+Add pulse instruction and schedule equality testing,2019-08-14,Merged,2873,140,51,py ,10
+IBMQ account summary widget,2019-08-23,Closed,2872,148,0,,2
+Maintain sorted timeslots for performance,2019-08-16,Closed,2870,265,104,py ,1
+Add delay instruction,2019-08-20,Merged,2869,331,103,py ,6
+Import PI at init,2019-08-06,Closed,2865,3,0,,1
+remove docs folder,2019-07-25,Merged,2863,0,3,,0
+add ControlledGate class,2019-11-12,Merged,2862,"1,754",40,py ,7
+Fixed is complex function,2019-07-31,Closed,2859,1,1,,1
+Use DenseLayout in optimization_level=1 if not swap mapped.,2019-08-13,Closed,2852,57,3,,2
+Handle unitary width issue in matplotlib drawer,2019-07-23,Merged,2849,1,1,,1
+Improve performance of pulse.Schedule,2019-08-06,Closed,2848,81,65,,4
+Plot circuit layout on backend coupling map,2019-08-06,Merged,2844,74,2,,2
+Update examples for IBMQProvider 0.3 and api v2,2019-07-22,Merged,2843,35,35,,7
+Add warning on Aer and IBMQ ImportError,2019-08-13,Merged,2842,8,2,,1
+Add IBMQ cleanup to backend monitor test,2019-07-22,Merged,2841,7,4,,1
+Make latex image depth factor in name length,2019-08-02,Merged,2840,7,1,,1
+Validate input when setting the QuantumCircuit data attribute directly,2019-09-19,Merged,2838,583,15,py yaml ,3
+Shorter controlled-hadamard definition,2019-08-22,Merged,2837,58,27,py ,3
+config coupling map required by marshmallow,2019-07-23,Merged,2836,4,3,py ,2
+Infer number of memoryslots,2019-07-29,Merged,2835,27,13,py ,3
+Add more informative errors missing qubit and measurement los,2019-08-13,Merged,2833,175,23,py ,4
+update backend_overview.py with provider changes,2019-07-20,Merged,2828,4,1,,1
+"by default, do not broadcast parameters in instructions",2019-07-23,Merged,2825,25,25,,2
+Address performance regression caused by introduction of bit classes,2019-07-30,Merged,2824,6,3,pickle ,11
+Split _parse_run_args into 3 functions based on experiment type,2019-08-08,Merged,2823,79,43,,1
+Implementing circuit.qiskit_code(),2019-10-02,Closed,2819,215,3,,6
+"Use ""Courier New"" as monospaced font for text drawer.",2019-07-18,Merged,2816,6,5,,2
+MPL drawer displays whole label,2019-07-18,Merged,2815,51,9,png ,4
+Implementation of gate.sqrt(),2019-07-23,Closed,2813,72,0,,2
+Dagwidth part2 2564,2019-08-01,Merged,2812,52,18,py ,5
+float exponentiation for gates,2019-10-04,Merged,2811,212,0,,2
+Text and LaTex drawers do pi fractions now,2019-07-23,Merged,2808,266,155,py ,5
+Dagwidth part2 2564,2019-07-17,Closed,2807,17,18,py ,3
+"scipy>=1.0,<1.2",2019-07-16,Closed,2803,1,1,,0
+analyzation -> analysis,2019-07-16,Merged,2801,3,3,,4
+upper bound on angles in randomized tests,2019-07-20,Merged,2800,10,5,,1
+Clip pulse samples if within epsilon unit norm,2019-08-14,Merged,2796,111,8,py ,2
+Require explict loading of jupyter job watcher,2019-07-16,Merged,2795,31,19,,2
+Jupyter copyright,2019-07-22,Closed,2792,48,0,,2
+Jupyter version table and copyright,2019-08-06,Merged,2791,235,156,,4
+fix measure sampling bug in BasicAer,2019-07-15,Merged,2790,67,10,py ,2
+Specifying name for transpiler output(Issue #2745),2019-07-31,Merged,2789,154,9,,3
+Update CONTRIBUTING.md minor glitches,2019-07-15,Merged,2787,5,3,,0
+Conditional measure fixes,2019-08-01,Merged,2783,179,6,,6
+Use stdlib python logging for pass manager logging,2019-08-06,Merged,2782,61,68,,3
+Support for circuit.layout in the drawers (all of them),2019-08-13,Merged,2781,262,67,py ,4
+Tag benchmark failures in travis,2019-08-09,Merged,2776,3,1,py ,2
+return real value as FC phase,2019-07-17,Merged,2774,38,4,,2
+Monospace fonts in TextDrawing._repr_html_,2019-07-17,Merged,2769,8,2,,2
+Update kwargs and args docstring,2019-07-15,Merged,2768,6,6,,4
+Add automation for sdist pypi upload,2019-07-11,Merged,2767,8,0,,1
+Rename CmdDef to QasmToSchedDef,2019-08-13,Closed,2766,334,122,py ,5
+Support equality checks for Instructions with ndarray parameters.,2019-07-12,Merged,2765,29,4,,2
+Fixed ConsolidateBlocks to add the block in the correct place,2019-08-06,Merged,2764,191,23,,4
+Rename CmdDef to QasmToSchedDef,2019-07-10,Closed,2763,341,325,py ,3
+remove deprecated qi functions,2019-07-11,Merged,2761,4,46,,2
+Added tests for gate_map,2019-07-16,Merged,2759,105,3,py png ,6
+Correctly serialize complex numbers with a nonzero real part.,2019-07-19,Merged,2757,14,1,py ,2
+Fix phase of cu3 gate to be compatible with u3 gate definition,2019-07-20,Merged,2755,5,1,py ,2
+Fix bug in circuit to Operator/SuperOp conversion,2019-07-09,Merged,2754,64,11,,4
+Fix depth for barriers and snapshots,2019-07-08,Merged,2748,118,20,,2
+Fixed multi parameter bug,2019-07-08,Merged,2743,44,3,py ,2
+Fixed DAG.layers() to be deterministic,2019-07-10,Merged,2740,40,23,,2
+Saving circuit.layout after transpiling,2019-07-04,Merged,2736,31,3,,3
+Fix qasm_simulator measure sampling bug,2019-07-03,Merged,2735,25,2,py ,2
+Add new analysis pass CountOpsLongest to transpiler,2019-07-04,Merged,2734,202,0,py ,6
+Allow for np.integer as pulse duration,2019-07-04,Merged,2733,21,5,,3
+Adding pulse tests,2019-07-03,Merged,2730,71,1,,3
+Updated pass manager drawer test files,2019-07-05,Merged,2729,22,30,,2
+Unroll before noise adaptive layout,2019-07-04,Merged,2727,18,18,,2
+Adding hyperbolic secant pulse to pulse libraries,2019-07-03,Merged,2726,141,0,py ,4
+Add buffer to CmdDef from_defaults,2019-07-11,Merged,2725,10,4,py ,3
+Fix operator initialization from circuit,2019-07-02,Merged,2723,12,4,py ,3
+Assert manager,2019-07-01,Closed,2722,594,4,py txt dist-info/METADATA ,4
+Layout as circuit meta info,2019-07-04,Closed,2721,147,168,,16
+Fix text drawer DeprecationWarning,2019-07-01,Merged,2720,1,1,,1
+Remove IBMQ resetting from QiskitTestCase,2019-07-02,Merged,2719,1,6,,1
+[WIP] cache backend properties,2019-07-04,Closed,2717,6,4,,1
+Add specified channels to channel builder,2019-07-01,Merged,2716,6,3,,1
+New slack link in the README.md,2019-06-30,Merged,2714,1,1,,0
+adapt to Bit classes in visualizations,2019-07-11,Merged,2713,26,35,,2
+remove optimization_level=None from randomized tests,2019-07-11,Merged,2710,1,3,,1
+align lookahead swap with layout convention,2019-07-02,Merged,2709,20,26,pickle ,6
+add DAGCircuit.num_qbits() as a replacement for erroneous usage of DA…,2019-07-16,Merged,2708,20,2,,1
+"[stable] Remove LegacySwap, Remove default_pass_manager, Fix layout issues",2019-06-29,Closed,2706,155,552,,4
+Fix NumPy dot array alignment in KAK,2019-06-28,Merged,2705,15,15,,1
+Assert super class,2019-06-27,Closed,2701,550,4,txt dist-info/METADATA ,4
+"Add informative representation for Interval, Timeslot, and TimeslotCollection",2019-07-01,Merged,2700,17,0,,1
+[Stable] First rep time by default,2019-06-30,Merged,2699,1,1,,1
+First rep time by default,2019-06-27,Merged,2697,3,2,py ,1
+Remove tomography performance test,2019-06-26,Merged,2696,0,130,,1
+Allow command names to start with a capital letter,2019-06-27,Merged,2694,2,2,py ,1
+"Section ""Doc"" from CONTRIBUTING.md",2019-07-12,Merged,2693,10,11,,0
+add idle_wires option to drawers,2019-06-30,Merged,2692,149,42,py ,7
+Allow for functions defining pass_managers in transpile,2019-10-30,Closed,2689,76,5,,4
+Set up CI with Azure Pipelines to replace appveyor,2019-06-25,Merged,2687,71,102,,2
+Ops merge refactor tangential to #2678,2019-06-27,Merged,2685,64,45,,3
+Update default gate display color docs,2019-07-01,Merged,2684,28,8,,1
+"Issue #1346 - removed ""get"" from function names (except get_backend)",2019-06-25,Merged,2683,32,3,,2
+Updated PassManagerDrawer tests to use a static PassManager,2019-06-25,Merged,2677,197,236,,4
+Remove default_pass_manager_simulation in favor of level 1 default,2019-07-16,Merged,2676,20,68,,8
+Add Lauren as codeowner,2019-06-23,Merged,2673,1,1,,1
+"Remove LegacySwap, Remove default_pass_manager, Fix layout issues",2019-06-28,Merged,2672,133,561,py ,4
+Change Snapshot signature to match simulator.snapshot (#2592),2019-07-05,Merged,2671,30,15,py ,4
+Remove LegacySwap pass in favor of StochasticSwap,2019-06-21,Closed,2670,24,422,dot ,11
+do not commute conditional gates,2019-06-21,Merged,2669,18,0,py ,2
+Add a mailmap to qiskit-terra,2019-06-24,Merged,2666,78,0,,1
+deprecate u0 gate,2019-06-21,Merged,2665,5,0,py ,1
+never remove id gates,2019-06-20,Merged,2663,28,27,py ,9
+Capture and raise with stderr on minimal_ext_cmd failure.,2019-06-26,Merged,2662,7,4,,1
+Make pip error for version discovery non-fatal,2019-06-20,Merged,2661,4,1,,1
+[Stable] Fix log 0 error in noise adaptive layout,2019-06-20,Merged,2657,2,1,,1
+fix log 0 error in noise adaptive layout,2019-06-19,Merged,2656,2,1,,1
+Automated job tracking in Jupyter notebooks,2019-06-20,Merged,2653,457,101,,3
+Default to __version__ attribute for __qiskit_version__,2019-06-19,Merged,2652,27,1,,1
+[WIP] Try changing codepage in appveyor to fix character encoding,2019-06-26,Closed,2651,1,3,py ,2
+Basic pulse scheduler,2019-10-18,Merged,2650,832,5,,8
+CONTRIBUTING.Md: update test table and CLA,2019-06-18,Merged,2649,14,21,,0
+Reduce randomize testing timeouts in CI,2019-06-18,Merged,2648,6,3,txt py ,2
+Add 0.8.1 and 0.8.2 to CHANGELOG,2019-06-17,Merged,2643,45,1,,0
+checking parameters in CmdDef,2019-06-18,Merged,2642,70,3,,2
+[Stable] Bump version and prepare for 0.8.2 release,2019-06-14,Merged,2640,17,3,txt py ,2
+[Stable] Backport Ensure is_mergeable_with does not mutate TimeslotCollection,2019-06-14,Merged,2639,21,3,,2
+[Stable] Backport backend monitor fixes,2019-06-14,Merged,2637,72,45,,2
+Update backend overview,2019-06-14,Merged,2636,41,18,,1
+Backend monitor as backend HTML repr in Jupyter,2019-06-14,Merged,2634,120,16,,2
+"Run benchmarks in CI, resolve hypothesis errors",2019-06-20,Merged,2633,28,5,py ,2
+Fix cmd line backend monitor,2019-06-14,Merged,2632,24,14,,1
+Add diff-cover output when coverage is collected,2019-06-14,Merged,2631,3,0,,1
+More backend monitor updates,2019-06-13,Merged,2630,37,22,,1
+Fix CHANGELOG display errors,2019-06-13,Merged,2629,283,428,,0
+Add coverage badge to README,2019-06-13,Merged,2628,1,1,,0
+Ensure is_mergeable_with does not mutate TimeslotCollection,2019-06-14,Merged,2626,21,3,,2
+Add coverage collection to CI,2019-06-13,Merged,2625,6,1,,1
+One more fix for backend monitor,2019-06-12,Merged,2624,1,2,,1
+Brought pulse command naming in line with circuit Registers (#2593).,2019-06-17,Merged,2623,71,19,,7
+Allow for specifying device with element numbers,2019-07-02,Merged,2621,"1,468",12,,5
+Add randomized testing stage to travis,2019-06-17,Merged,2620,56,20,Makefile py ,3
+Add support for conditionals to disassembler,2019-06-12,Merged,2619,116,7,,2
+Allow for empty list in gates and basis_gates,2019-06-19,Merged,2618,2,4,,1
+Visualization test in a Travis cron job,2019-10-04,Closed,2614,134,72,md Makefile py png ,9
+Remove deprecated gates tests,2019-06-10,Merged,2613,0,105,,1
+get rid of 2q names from backend monitor code,2019-06-10,Merged,2611,9,6,,1
+fixing broken links,2019-06-10,Merged,2609,2,2,,0
+Fix blank Latex drawings,2019-06-10,Merged,2608,2,2,png ,2
+fix backend monitor multi-qubits,2019-06-09,Merged,2606,1,1,,1
+Introducing PassContext,2019-06-28,Closed,2601,115,48,,4
+Isometry decomposition code,2019-06-15,Merged,2600,"2,153",7,py ,4
+StochasticSwap on physical circuit,2019-06-21,Merged,2598,114,247,pickle ,3
+Add filtering methods to schedule,2019-06-14,Merged,2597,209,5,py ,2
+BasicSwap on physical circuit,2019-06-21,Merged,2590,95,179,pickle ,3
+Disable warnings output for LayoutDeprecatedTest,2019-06-07,Merged,2587,5,0,,1
+Handle AttributeError in create_from under device_specification.py,2019-06-13,Merged,2586,4,0,,1
+Fixed bug in input_state function in qft python example.,2019-06-10,Merged,2585,1,3,,1
+Issue #2194: Implement Operator + 0 and Operator + None,2019-06-29,Closed,2582,17,4,py ,4
+Add debug callback param to pass manager,2019-07-12,Merged,2579,244,42,,4
+Flexible type for Pauli construction,2019-06-07,Merged,2578,42,7,,2
+Fix deprecation warnings in LayoutTest,2019-06-05,Merged,2576,14,12,,1
+[WIP] Drop python 3.5,2019-06-29,Closed,2574,13,30,py ini ,5
+Ensure collect runs doesn't return an op with a condition,2019-06-06,Merged,2573,61,1,,2
+removing deprecated as_dict,2019-06-04,Merged,2569,5,5,,3
+[Stable] Upload wheels to pypi.org instead of test.pypi.org,2019-06-14,Merged,2568,0,3,,2
+remove ignore_preserves and ignore_requires from PassManager,2019-06-04,Merged,2565,90,157,py ,2
+"introduce ddt, test already-mapped circuits in the transpiler",2019-07-11,Merged,2563,113,71,txt ,3
+Make online tests default skip and opt-in,2019-06-07,Merged,2562,39,63,py ,2
+Upload wheels to pypi.org instead of test.pypi.org,2019-06-04,Merged,2561,0,3,,2
+Fix labeling of 2Q gate qubits on FakeBackends.,2019-06-03,Merged,2560,2,2,,1
+Add tests that run example python scripts,2019-06-17,Merged,2559,301,93,,11
+remove try/except in examples,2019-06-03,Merged,2557,233,257,,6
+deprecate qobj.as_dict,2019-06-03,Merged,2556,12,8,py ,6
+Adding the split_statevector_simulator to the available backends.,2019-07-11,Closed,2555,734,105,,1
+random_circuit function,2019-07-30,Merged,2553,193,57,py ,4
+Removed deprecated circuit._attach,2019-06-01,Merged,2552,0,4,,1
+Added utility function backend_get_qubit_params,2019-07-04,Closed,2551,43,0,,1
+Examples updated to use simplified inputs,2019-06-01,Merged,2548,105,131,,10
+Speed up test_synthesis and fix non-CNOT decompose,2019-05-31,Merged,2546,18,21,py ,3
+[WIP] Simplify KAK decomposition,2019-06-02,Closed,2545,93,0,,1
+Add randomized transpiler equivalence testing,2019-06-08,Merged,2544,295,28,txt ,2
+remove CompositeGate,2019-05-31,Merged,2543,3,156,py ,24
+remove deprecated DAG methods,2019-06-01,Merged,2542,4,253,,1
+"Do schema validation once at validator init, rather than at every use",2019-05-31,Merged,2540,2,5,,1
+KAK decomposition triggered only if basis gate count in a block is not equal to that of KAK,2019-06-26,Merged,2539,545,8,,5
+Add ParameterExpression class supporting basic Parameter math.,2019-08-08,Merged,2537,791,49,py ,6
+Docstring and style tweaks for qiskit.providers,2019-05-30,Merged,2536,30,48,,7
+FakePoughkeepsie in qiskit/test/mock.py,2019-05-31,Merged,2535,29,0,,1
+Check circuit widths before transpiling,2019-06-11,Merged,2534,26,1,,2
+Fix the failing pass manager visualization tests,2019-06-05,Merged,2533,249,20,dot png ,7
+[Stable] Determine row spacing properly,2019-05-31,Merged,2531,12,0,,1
+[Stable] Bump version and prepare for 0.8.1 release,2019-05-29,Merged,2530,11,4,txt py ,2
+Registers are lists,2019-08-26,Closed,2529,54,86,pickle ,19
+Fix CmdDef unittest,2019-05-29,Merged,2528,7,7,,2
+[Stable] Remove call to CXDirection if necessary,2019-05-29,Merged,2526,5,1,,1
+Improving legacy swapper performance,2019-06-21,Closed,2525,23,19,pickle ,16
+Pulse autoalign measures,2019-06-14,Merged,2524,304,3,,4
+Update pylint to 2.3,2019-05-28,Merged,2522,3,3,,0
+broadcast_arguments should work with arbitrary amount of arguments,2019-06-03,Merged,2520,50,13,,2
+Tests preset pass manager API,2019-07-12,Merged,2519,3,3,,1
+Add documentation to predecessor function,2019-07-11,Closed,2517,6,1,,1
+"Issue #1346 - removed ""get"" from function names (except get_backend)",2019-06-24,Closed,2516,104,30,,12
+Fix issue #2449 - Pulse figure not closed before return,2019-05-26,Merged,2515,1,0,,1
+Make tests with temp files run on CI,2019-06-05,Merged,2514,70,85,png ,3
+Remove pip install from Make.bat,2019-06-02,Merged,2513,0,1,,1
+Fixed issue #693 - increasing spacing of parameters in latex drawer,2019-06-09,Merged,2512,2,2,,1
+reverts PR #2474,2019-05-25,Merged,2511,4,37,,4
+Mocking of fake backends with several optimization levels,2019-05-27,Merged,2510,77,9,,2
+[Stable] optimization_level=0 without coupling map,2019-05-29,Merged,2509,34,1,,2
+[Stable] remove layout modification from stochastic swap,2019-05-28,Merged,2507,99,170,,1
+[Stable] Add missing changelog items for fixes in 0.8.1,2019-05-29,Merged,2506,24,0,,1
+MPL drawer to match IQX with IBM design colors,2019-08-08,Merged,2505,194,96,png ,7
+Avoid showing dupricated figure in pulse visualizer,2019-05-26,Closed,2502,18,6,,2
+Readme update,2019-05-28,Merged,2501,8,13,,0
+Fix unconditional pillow import,2019-05-24,Merged,2500,10,1,,1
+Revert the addition of the bit classes,2019-06-03,Closed,2499,358,908,py ,7
+Add dev version to version string,2019-06-12,Merged,2497,60,3,,2
+Fix graphviz check in pass manager visualization,2019-05-24,Merged,2495,8,3,,1
+Expression parser for parameters,2019-06-14,Merged,2493,536,142,,2
+"draw option: vertical_compression: 'high', 'medium', 'low'",2019-06-03,Merged,2492,71,24,py ,5
+"[Stable] For each Acquire, create only one AcquireInstruction with all qubits",2019-05-23,Merged,2485,39,36,,2
+"For each Acquire, create only one AcquireInstruction with all qubits",2019-05-22,Merged,2484,39,36,,2
+Drawing conditional gates,2019-05-22,Merged,2480,441,184,,1
+[Stable] Bug fix sample pulse name conflict in qobj assembly (#2431),2019-05-22,Merged,2478,32,6,,2
+Remove unused pypi.sh script,2019-05-23,Merged,2477,0,194,,1
+"Deprecating isinstance(qr[0], tuple)",2019-05-23,Merged,2474,36,1,,5
+removing deprecated bit access in visualization/matplotlib.py,2019-05-22,Merged,2473,5,5,,2
+"Deprecating isinstance(qr[0], tuple)",2019-05-22,Closed,2470,13,7,py ,4
+Fix for size mismatched in initializer instruction,2019-06-02,Merged,2469,24,0,,2
+Fix assertDictAlmostEqual docstring,2019-05-22,Merged,2465,3,1,,1
+detect duplicate register names,2019-05-21,Merged,2464,12,2,py ,3
+remove layout modification from stochastic swap,2019-05-25,Merged,2463,99,170,,1
+optimization_level=0 without coupling map,2019-05-25,Merged,2460,34,1,,2
+Improve style for Matplotlib circuit drawer,2019-05-21,Merged,2459,33,7,,2
+[Stable] Add framechange phase casting to float,2019-05-21,Merged,2458,7,5,,4
+Implementation of the Gray-Synth and Patel–Markov–Hayes algorithms,2019-07-01,Merged,2457,537,0,py ,2
+Allowing args to cmd def,2019-05-21,Merged,2456,24,11,,3
+Isometry,2019-06-08,Closed,2455,"2,011",2,,3
+remove transpiler readme,2019-05-19,Merged,2454,0,142,,0
+Make pylatexenc and pillow optional,2019-05-21,Merged,2451,33,7,py txt ,4
+A way to log which passes are run and how long they take,2019-06-03,Merged,2450,140,13,py ,3
+Remove VCR,2019-06-02,Merged,2448,57,"1,701",rst Makefile py ,5
+Introduces PassManager drawer,2019-05-23,Merged,2445,234,4,py png ,7
+Remove useless loggers,2019-05-17,Merged,2444,0,57,,17
+refactor commutation passes and add tests,2019-06-06,Merged,2442,455,172,,2
+Fix color reset on use of style dict,2019-05-16,Merged,2441,0,2,,1
+[Stable] Add cython files to manifest to enable sdist compilation,2019-05-21,Merged,2440,2,1,,1
+[Stable] make rep_times an integer and not a float,2019-05-16,Merged,2438,2,2,,2
+[Stable] Framechange instruction as_dict bug,2019-05-16,Merged,2437,49,2,,2
+Add cython files to manifest to enable sdist compilation,2019-05-16,Merged,2436,2,1,,1
+Pulse command type hinting,2019-06-26,Merged,2435,190,164,,6
+Remove call to CXDirection if necessary,2019-05-20,Merged,2434,5,1,,1
+Commutative analysis and cancellation refactored,2019-05-16,Closed,2433,"1,163",171,py orig ,65
+Add framechange phase casting to float.,2019-05-20,Merged,2432,7,5,,4
+Bug fix sample pulse name conflict in qobj assembly,2019-05-21,Merged,2431,32,6,,2
+Add pylintfileheader and configure to check for license header issues,2019-05-17,Merged,2430,5,1,txt ,1
+Add license header to several modules,2019-05-15,Merged,2428,74,7,,5
+Fixed mpl style by adding in the default style dict,2019-05-15,Merged,2427,2,2,,1
+"Update license header in several modules, 4",2019-05-16,Merged,2426,257,75,,19
+"Update license header in several modules, 3",2019-05-15,Merged,2425,311,96,,19
+"Update license header in several modules, 2",2019-05-15,Merged,2424,381,111,,20
+"Update license header in several modules, 1",2019-05-15,Merged,2423,180,55,,18
+Pylint disable by symbolic name,2019-05-15,Merged,2419,7,7,,2
+Remove python2-isms,2019-05-15,Merged,2418,16,16,,11
+make rep_times an integer and not a float,2019-05-16,Merged,2416,2,2,,2
+Introducing Qubits and Clbits classes,2019-05-21,Merged,2414,872,354,py ,7
+Framechange instruction as_dict bug,2019-05-16,Merged,2413,49,2,,2
+[Stable] Use pip install -U when installing twine,2019-05-14,Merged,2412,7,4,,2
+Revert pylint execution to non-parallel behaviour,2019-05-13,Merged,2403,1,1,,1
+Fix cycles in several modules,2019-05-12,Merged,2401,30,27,,14
+Address more pylint ignores,2019-05-11,Merged,2400,8,10,,4
+Remote deprecated qiskit.qiskiterror module,2019-05-13,Merged,2399,13,34,py ,13
+[Stable] Make assemble_schedule arguments non-optional,2019-05-11,Merged,2398,1,1,,1
+[Stable] Update expression math sanitization,2019-05-11,Merged,2397,15,1,,2
+Explicitly delete unused arguments,2019-05-18,Merged,2396,39,27,,19
+introduce qobj_name,2019-07-04,Closed,2395,141,71,,25
+Spelling fixes,2019-05-10,Merged,2392,120,119,,23
+Input type in qiskit.validation.exceptions.ModelValidationError,2019-05-11,Merged,2391,1,1,,1
+Fix cu1 column selection logic in latex drawer,2019-05-18,Merged,2389,22,11,,1
+remove qiskit.tools.logging,2019-05-10,Merged,2387,1,77,py ,2
+[Stable] Transpiler add passes that might be out of the default basis,2019-05-10,Merged,2386,7,3,,1
+[Stable] Preset passmanager should honor seed_transpiler,2019-05-10,Merged,2385,2,2,,2
+[Stable] fix level 0 check,2019-05-09,Merged,2384,1,1,,1
+[Stable] Add missing optimization level to transpile() docstring,2019-05-10,Merged,2383,1,0,,1
+[stable] Fix for 2378,2019-05-10,Merged,2382,3,3,txt ,1
+Fixing spacing in text circuit drawer,2019-05-10,Merged,2381,19,3,txt ,2
+Time to deprecate U and CX gates,2019-05-31,Merged,2380,26,31,py ,6
+ParameterVector object to simplify parameter list management,2019-05-17,Merged,2379,149,9,,5
+Update expression math sanitization,2019-05-10,Merged,2376,15,1,,2
+Update style for no-else-raise,2019-05-15,Merged,2374,18,20,,9
+fix 2339: run level 0 optimization level,2019-05-09,Merged,2370,1,1,,1
+Remove profile testing loader,2019-05-09,Merged,2368,0,30,Makefile py ini ,4
+Add missing optimization level to transpile() docstring,2019-05-09,Merged,2367,1,0,,1
+Add default optimization level to user config file,2019-05-25,Merged,2366,69,3,,3
+Remove useless pylint suppressions,2019-05-10,Merged,2365,34,103,,38
+Quantum state classes,2019-07-26,Merged,2364,"2,303","1,063",,5
+Preset passmanager should honor seed_transpiler,2019-05-09,Merged,2361,2,2,,2
+preset passmanager honors seed_transpiler,2019-05-08,Closed,2360,6,5,rst py ,5
+Move CONTRIBUTING.rst to top level,2019-06-07,Merged,2359,"1,749","1,632",,1
+Add stable branch policy to CONTRIBUTING.rst,2019-05-09,Merged,2358,40,0,,1
+Transpiler add passes that might be out of the default basis,2019-05-09,Merged,2357,7,3,,1
+Only attempt to transpile QuantumCircuit in execute,2019-05-08,Closed,2355,18,12,,1
+Make assemble_schedule arguments non-optional,2019-05-10,Merged,2351,1,1,,1
+[stable] DeprecationWarning message to replace qobj_to_circuit,2019-05-08,Merged,2350,1,1,,1
+Make colored circuits the default for mpl drawer,2019-05-08,Merged,2344,130,8,,5
+ast_to_dag support for opaque gates,2019-05-10,Merged,2343,61,60,,2
+add 'unitary' to BasicAer simulators,2019-06-28,Merged,2342,127,69,py ,6
+Reorganize pulse visualization code,2019-05-22,Merged,2340,699,644,,3
+Remove redefined-builtin ignores,2019-05-09,Merged,2338,2,10,py ,6
+Remove `qiskit.mapper` directory,2019-05-07,Merged,2337,17,180,pickle ,25
+default to mpl with text fallback for circuits,2019-07-15,Closed,2333,25,15,,2
+Match appveyor requirements install to travis,2019-05-07,Merged,2332,4,8,py ,2
+Add 'auto' mode to user config for circuit_drawer,2019-05-12,Merged,2331,28,2,,3
+Update pip (and it's dependencies) in CI,2019-05-06,Closed,2330,2,0,,2
+Remove the deprecated qiskit._util module,2019-05-07,Merged,2329,3,24,py ,2
+Better error message when Graphviz is not installed,2019-05-06,Merged,2328,51,3,,2
+Cleanup setup.py,2019-05-08,Merged,2327,8,10,,1
+Remove deprecated plot_state methods,2019-05-06,Merged,2325,5,102,py ,5
+"Revert ""DAG edge remover and detector (#1768)""",2019-05-07,Closed,2324,1,72,py ,3
+Rr circuit gen,2019-05-07,Closed,2323,"2,817",0,,1
+preset passmanagers do not run CXDirection if coupling map is symmentric,2019-05-13,Merged,2316,62,8,,7
+Allows CouplingMap.distance in non-zero coupling maps,2019-07-26,Closed,2315,12,7,,2
+skip backend monitor tests if no internet connection,2019-05-16,Merged,2305,5,0,,1
+Removing international language,2019-05-05,Merged,2302,2,"1,359",py ,4
+"removing deprecated code in transpile, assemble, execute and derivatives.",2019-05-05,Merged,2301,99,"2,138",py ,11
+Determine row spacing properly,2019-05-04,Merged,2299,12,0,,1
+Bump version string post release,2019-05-03,Merged,2298,2,2,py ,1
+Update CI post release,2019-05-03,Merged,2297,4,4,,2
+Install twine in wheel build jobs,2019-05-14,Merged,2292,7,4,,2
+Install twine in wheel build jobs,2019-05-03,Merged,2290,3,3,,2
+Register size type error (and casting when possible),2019-05-04,Merged,2288,41,13,,2
+assemble lo bug fix,2019-05-02,Merged,2287,8,6,,1
+Import transpile with import *,2019-05-16,Merged,2285,1,0,,1
+Update changelog to prepare for 0.8 release,2019-05-02,Merged,2283,30,1,,1
+Parameter expansion at QuantumCircuit.append level,2019-05-06,Merged,2282,337,282,,4
+Remove buffer from first pulse on channel,2019-05-02,Merged,2280,12,3,,2
+Pulse assembly bug,2019-05-02,Merged,2279,13,0,,1
+Add pyproject.toml to declare cython build requirement,2019-05-14,Merged,2278,8,1,py ,2
+Fix typo in QuantumChannel init,2019-05-02,Merged,2277,1,1,,1
+Enforce meas map at assembly,2019-05-02,Merged,2276,50,10,,5
+require scipy>=1.0 and return to scipy.stats.unitary_group for random_unitary(),2019-05-02,Merged,2275,7,18,py txt ,3
+schedule assembly bug.,2019-05-02,Merged,2274,17,17,,3
+Allow PassManager instances to be reused,2019-05-01,Merged,2272,143,7,,6
+Add parameter_map keyword arg to circuit_to_instruction,2019-05-01,Merged,2271,158,14,,6
+Fix typo in changelog,2019-05-01,Merged,2270,1,1,,1
+Bump version and prepare for 0.7.2 release,2019-05-01,Merged,2269,10,3,txt py ,2
+Update BackendConfiguration signature,2019-05-01,Merged,2268,4,6,,1
+generalize mpl_data in gate_maps,2019-05-01,Merged,2267,14,25,,1
+Define transpile optimization levels,2019-05-02,Merged,2266,641,88,,14
+Move schedule children attribute to private,2019-05-01,Merged,2265,21,21,,4
+Pulse command definition,2019-05-01,Merged,2263,887,122,,7
+Relax schema validation on backendconfiguration,2019-04-30,Merged,2258,9,3,py ,2
+qubits and clbits as properties,2019-04-30,Merged,2257,6,4,,3
+Examples update,2019-04-30,Merged,2256,123,61,,4
+Remove warning from qiskit._util and rely on a comment,2019-04-30,Merged,2255,5,5,py ,2
+Corrected drawing of rzz and cu1 for mpl,2019-04-30,Merged,2254,24,8,,1
+Handle edge case in text drawer line length logic,2019-05-02,Merged,2253,1,4,,1
+Add example for stochastic swap and use to verify wheels,2019-05-01,Merged,2251,110,3,py ,3
+Improve error message when unrolling parameterized CU1.,2019-04-30,Merged,2250,42,1,,2
+Copyrights,2019-04-30,Merged,2249,"3,700","1,110",Makefile py ,20
+Fixing the examples,2019-04-30,Closed,2248,0,0,,0
+Fix justifying on Latex boxes,2019-04-30,Merged,2247,13,14,,1
+Use pylatexenc utf8tolatex for gate names in latex drawer,2019-05-01,Merged,2246,27,13,txt ,2
+Add name collisions for parameterized circuits,2019-04-30,Merged,2245,25,5,,3
+Compiler api,2019-04-30,Merged,2244,354,277,,9
+Treat parameterized gates as opaque in Optimize1qGates,2019-04-29,Merged,2243,126,40,,9
+1q unitary decomposition,2019-04-29,Merged,2242,32,6,py ,5
+Refactor enhance schedule,2019-04-30,Merged,2241,92,41,,6
+mpl label only shows shorter parameters,2019-04-29,Merged,2239,6,2,,1
+text drawing unitary gates,2019-04-29,Merged,2238,60,1,,2
+Pulse channel buffers,2019-05-01,Merged,2237,150,66,,7
+Updated logic to fix mpl box sizes,2019-04-30,Merged,2236,1,1,,1
+Fixed issue with params changing type with mpl drawer,2019-04-29,Merged,2228,13,8,,1
+Rework los and lo_ranges for channels,2019-05-01,Merged,2226,307,342,,6
+Obtain a reduced coupling_map for a subgraph of a device,2019-05-02,Merged,2225,61,1,,2
+depreciate qcvv not showing,2019-05-01,Closed,2223,2,0,,1
+"move Layout and CouplingMap to transpiler, deprecate qiskit.mapper",2019-04-28,Merged,2222,587,512,py ,3
+Failure of ibmq provider no longer silent,2019-04-28,Closed,2217,4,5,txt ,1
+Pulse backend configuration,2019-04-30,Merged,2216,233,40,,5
+Instruction shallow copy,2019-04-26,Merged,2214,8,72,py ,4
+Openpulse drawer,2019-05-02,Merged,2213,"1,074",153,,8
+Reset before initializer and optimization to remove it when zero state,2019-04-29,Merged,2212,64,22,py ,7
+parallel pylint execution,2019-04-26,Merged,2211,7,11,Makefile py ,5
+Add parameterized circuits support in RunConfig and execute,2019-04-29,Merged,2210,221,42,,7
+(re)introduce consolidate blocks pass,2019-04-28,Merged,2209,256,0,,6
+Pass to remove diagonal gates before measurement,2019-04-27,Merged,2208,476,0,py ,5
+Text drawer draws nicer boxes (and allows to disable vertically compression),2019-04-26,Merged,2205,168,74,,2
+Parameterized circuits variable to parameter rename,2019-04-26,Merged,2204,53,50,pickle ,16
+Fixed plotting issues with mpl drawer,2019-05-17,Merged,2203,90,12,png ,3
+Remove aer provider tests,2019-04-30,Merged,2201,0,509,,5
+Update changelog for recent disassembler changes,2019-04-25,Merged,2200,6,0,,1
+Fix json schema for Qasm qobj snapshot,2019-04-25,Merged,2199,22,18,json ,4
+Operator and QuantumChannel classes can simulate circuits,2019-04-26,Merged,2198,933,253,,15
+Parameter class wraps sympy Symbol,2019-04-25,Merged,2196,65,144,,9
+Tidy up examples,2019-04-24,Merged,2191,17,13,,6
+Unroll to the given basis,2019-05-02,Closed,2188,53,7,,2
+Issue 2114 immutable schedules,2019-04-26,Merged,2186,976,611,py ,5
+"Fix quantumcircuit.size for (instr,qargs,cargs) format of self.data.",2019-04-24,Merged,2185,70,19,,2
+Add Job names to travis config,2019-04-23,Merged,2175,7,0,,1
+Update import path for MutableMapping in variabletable,2019-04-23,Merged,2174,1,1,,1
+Custom instruction assembly and circuit append,2019-04-27,Merged,2173,442,513,,10
+reduce circuit's tracked variable parameters upon assignment.,2019-04-23,Merged,2172,23,1,,3
+Deprecate DAGCircuit multi_graph access,2019-04-23,Merged,2170,134,105,,0
+Handle symbolic parameters in mpl circuit drawer,2019-04-23,Merged,2169,8,2,,1
+support to sympy symbols in text drawer,2019-04-23,Merged,2168,45,7,,2
+Fix Pulse naming issues,2019-04-27,Merged,2167,75,79,,14
+"interface to execute(), transpile() and assemble()",2019-04-26,Merged,2166,"1,064",811,py ,3
+change qobj format of unitary and snapshot,2019-04-21,Merged,2164,1,6,,1
+Preset passmanagers,2019-04-19,Merged,2163,115,62,pickle ,5
+Deprecate transpile_dag,2019-04-20,Merged,2161,154,122,,3
+Add assemble_circuits() to root namespace,2019-04-19,Merged,2159,1,0,,1
+allow non-sympy instruction params,2019-04-19,Merged,2158,4,1,,1
+"Layout is bijective dict only, transpile accomodates list and dict",2019-04-22,Merged,2157,452,364,py ,6
+Add compat shim for util module,2019-04-30,Merged,2154,18,0,,1
+remove consolidate blocks pass,2019-04-18,Merged,2153,1,265,py ,4
+Add tests for pulse schedule,2019-04-20,Merged,2150,188,64,,3
+Remove numeric passes from default set for parameterized circuits.,2019-04-19,Merged,2149,83,3,,5
+Handle opaque instructions and identity in qobj_to_circuits,2019-04-30,Merged,2147,45,16,,2
+Parameterized circuit documentation,2019-04-18,Merged,2146,50,19,py ,5
+Fix ibmqprovider version in CIs,2019-04-17,Merged,2143,2,2,,2
+Operator fixes and improvements,2019-04-18,Merged,2140,185,131,py ,8
+RemoveResetInZeroState pass,2019-04-17,Merged,2139,129,0,,3
+Fix qobj_to_circuits for circuits with initialize,2019-04-17,Merged,2138,14,0,,2
+Add dissasembler to dissassemble a compiled qobj,2019-04-24,Merged,2137,205,50,,4
+Add tests for Openpulse frontend common module,2019-04-18,Merged,2135,182,14,,3
+Collect2qBlocks and ConsolidateBlocks transpiler passes,2019-04-17,Merged,2134,625,104,rst py ,7
+Remove deepcopy usage from dag/circuit converters,2019-04-18,Merged,2132,69,8,,2
+Move transpiler tests,2019-04-19,Merged,2130,277,255,,1
+fix initializer internal names to always produce equivalent definition,2019-04-15,Merged,2129,17,5,,2
+__str__ and __repr__ for property set object,2019-04-16,Merged,2127,14,10,,2
+"Fix for #2125, bug in the multiQ text drawer",2019-04-15,Merged,2126,94,1,,2
+Add a few tests for quaternion. (#1384),2019-04-15,Merged,2123,78,1,,1
+Add user config file for local settings,2019-04-30,Merged,2122,207,8,py ,7
+Implement approximate KAK decomposition,2019-05-01,Merged,2121,771,427,py ,4
+Fix statevector silently dropping final measurements,2019-04-19,Merged,2120,30,4,,2
+"2q KAK in quantum_info.synthesis, and quantum_info.random",2019-04-16,Merged,2119,679,602,py ,3
+accept integers in gates and instructions,2019-04-22,Merged,2118,882,96,py ,12
+OpenPulse frontend - assembler module,2019-04-22,Merged,2115,"1,198",94,py ,6
+make representation method of Unitary object more public,2019-04-11,Merged,2113,41,35,,2
+set a default passmanager,2019-04-15,Merged,2112,31,57,,5
+Remove the notion of FencedPropertySet,2019-04-19,Closed,2111,7,32,py ,6
+single qubit circuits should not 'coupling_map = None',2019-04-19,Merged,2110,19,6,,2
+OpenPulse frontend - schedule module,2019-04-11,Merged,2108,499,131,,7
+Performance issue because optimizations-until-fixed-point approach,2019-04-10,Merged,2107,7,3,,1
+get_memory for pulse measurement level 0 and 1,2019-04-16,Merged,2106,329,56,,4
+Test to verify mpl draws an empty circuit empty,2019-04-10,Merged,2105,49,0,,1
+OpenPulse frontend - commands module rework,2019-04-09,Merged,2104,576,143,,7
+add parameterized circuits,2019-04-17,Merged,2103,297,26,pickle ,16
+Remove pulse defaults required parameters,2019-04-11,Merged,2101,11,15,py json ,3
+Fix typo in setuptools extras declaration,2019-04-08,Merged,2100,1,1,,1
+OpenPulse frontend - channels module,2019-04-08,Merged,2096,592,1,,5
+Remove underscore from tools and transpiler,2019-04-08,Merged,2095,4,4,pyx ,6
+swap_mapper as a pass,2019-04-10,Merged,2094,402,441,pickle ,10
+import unitary in quantum_info package,2019-04-08,Merged,2093,1,0,,1
+Noise-adaptive initial qubit layout pass,2019-04-06,Merged,2089,376,0,py ,4
+honor initial_layout if it makes the circuit compatible with coupling_map,2019-04-09,Merged,2088,124,109,py ,12
+Optimize gates up to fixed point in the default pipeline,2019-04-07,Merged,2086,35,7,,2
+Add meas_level to result schema,2019-04-07,Merged,2085,15,5,py json ,3
+Standard pulse library,2019-04-19,Merged,2084,928,0,py ,3
+Tranpiler fails nicely when initial layout does not matches the input circuit,2019-04-16,Merged,2082,28,1,,2
+Remove underscores from interactive visualization modules,2019-04-05,Merged,2081,12,12,,8
+Remove underscores from qiskit.qasm,2019-04-05,Merged,2080,162,194,,15
+PassManager.passes() returns the passes that had been added to the pass manager,2019-04-15,Merged,2079,110,2,py ,3
+Add Operator framework,2019-04-15,Merged,2078,"2,843","1,940",,2
+Remove `inplace` from QuantumChannel and Unitary,2019-04-05,Merged,2077,242,"2,472",,1
+apply initialize to register for backward compatibility,2019-04-08,Merged,2076,56,5,,2
+fix occasionally failing tests from non-unique Kraus conversion,2019-04-04,Merged,2075,8,8,,1
+test unrolling for all gates,2019-04-04,Merged,2072,138,4,,3
+Just use a list not split a string,2019-04-04,Merged,2071,1,1,,1
+Add custom gate support to mpl backend,2019-04-11,Merged,2070,109,8,,1
+fix sdg definition,2019-04-03,Merged,2069,1,1,,1
+Allow for bit string distance measures (Hamming dist) in plot_histogram,2019-04-03,Merged,2064,40,6,py ,2
+Cast int32s in swap mapper Cython code to uint32,2019-04-03,Merged,2063,6,6,,2
+fix numpy casting error with *=,2019-04-02,Merged,2062,3,3,,1
+Fixed mpl drawer output,2019-04-03,Merged,2061,28,43,,1
+"Remove underscore from quantum_info, providers",2019-04-03,Merged,2060,9,9,,7
+Allow for list of ints as layout,2019-04-03,Merged,2058,179,15,py ,6
+PulseQobj and Json Schema updates for pulse simulator,2019-04-27,Merged,2052,93,69,json ,9
+[WIP] Remove old swapper,2019-04-05,Closed,2051,28,460,,1
+Add ApplyLayout pass,2019-06-19,Merged,2050,187,1,,4
+Add custom gate support to latex circuit drawer,2019-04-08,Merged,2049,61,0,,1
+Remove requirement in qobj that instructions has at least 1 element,2019-03-30,Merged,2048,3,8,json ,5
+A Jupyter notebook toolbar button for auto importing main qiskit functionality,2019-04-13,Closed,2047,69,1,py yaml js ,4
+Refactor commutation analysis and barrier before measurements,2019-04-16,Merged,2045,460,88,,5
+Change behavior of functional pulse,2019-03-29,Merged,2043,173,170,py ,11
+Add analytic pulse function samplers,2019-04-16,Merged,2042,434,0,py ,4
+Updated get_layered_instructions() to remove blank layers,2019-03-29,Merged,2039,111,110,txt ,1
+Add quiet and output to job monitor to suppress or redirect status messages,2019-04-03,Merged,2037,22,10,,1
+Optimize import order of Qobj models,2019-03-27,Merged,2030,6,6,,3
+test_move_measurements no skipped,2019-03-28,Merged,2028,4,6,,1
+Add init to qiskit.qobj.models,2019-03-27,Merged,2027,8,0,,1
+Make test.python.compiler a package,2019-03-27,Merged,2025,39,29,,3
+remove_op_node is part of the DAG API,2019-04-04,Merged,2024,67,18,,7
+Extend and enlarge the the dag/layout with ancillas using the full coupling map,2019-04-07,Merged,2023,94,27,py ,4
+Return minimal bandwidth best layout,2019-04-04,Merged,2021,27,11,py ,4
+fixed_point in the same style as dag_fixed_point,2019-04-05,Merged,2019,24,35,,3
+QuantumCircuit.definitions is not used anymore,2019-03-26,Merged,2014,0,29,,1
+Remove underscore from several files,2019-03-25,Merged,2013,12,12,,13
+Gate cancellation transpiler pass based on commutation relations,2019-04-11,Merged,2012,275,38,py ,7
+Don't pass an empty RunConfig to assemble_circuits,2019-04-05,Merged,2011,34,2,,2
+Tests for dag.depth(),2019-03-29,Merged,2008,70,2,,2
+[WIP] Passes take DAG and property set as parameters,2019-04-05,Closed,2007,163,181,,19
+Node equality should be based on the internal id,2019-03-25,Merged,2006,124,74,,4
+"Optimize1qGates change node ""in-place""",2019-03-21,Merged,2005,35,6,,2
+Pulse autoname in p# format,2019-03-21,Closed,2003,898,158,,5
+Updated mpl drawer to use DAGNode,2019-03-25,Merged,2001,26,26,,1
+compare Instructions params,2019-03-21,Merged,2000,12,15,,3
+Updated apply_operation_front/back to return DAGNodes,2019-03-23,Merged,1998,13,12,,2
+Updated Aer references to BasicAer in README.md,2019-03-20,Merged,1995,2,2,,0
+Update QuantumCircuit properties,2019-04-16,Merged,1993,580,20,py ,2
+Layout has repr,2019-03-30,Merged,1992,34,1,,2
+Add qobj repr back,2019-03-20,Closed,1991,7,0,,1
+Tidyup CouplingMap and give it a repr,2019-03-25,Closed,1987,28,23,,4
+closes #1891,2019-03-19,Closed,1984,2,2,,0
+Reorganize qobj.validation for json schemas,2019-04-01,Merged,1983,48,45,,8
+Updated all the visualization code to use reverse_bits,2019-03-26,Merged,1982,27,29,,5
+MatplotlibDrawer: Fix gate parameter display,2019-03-19,Merged,1980,1,1,,1
+Added quiet= and to_err= to job monitor to suppress or redirect,2019-03-28,Closed,1979,21,10,,1
+Choose how to justify circuit with latex drawer,2019-04-10,Merged,1977,473,796,py ,2
+DAG fixed point pass,2019-03-26,Merged,1976,80,2,,5
+Adds method to list nodes on a wire,2019-03-25,Merged,1975,61,5,py ,6
+Support `None` for simulator backend coupling_map,2019-03-19,Merged,1974,6,2,,5
+Make test running concurrency dynamic based on nprocs,2019-04-05,Merged,1973,24,1,,1
+"text drawer ""modifies"" the circuit",2019-03-15,Merged,1972,1,0,,1
+Extend InstructionParameter for containers,2019-03-18,Merged,1970,157,9,,2
+Separate Qobj into PulseQobj and QASM Qobj,2019-03-27,Merged,1969,708,141,py ,4
+Removing pass instance cache,2019-03-21,Merged,1968,47,25,,4
+[Requires Aer 0.2] Backends have coupling_map and basis_gates properties,2019-04-30,Closed,1967,10,0,,1
+Text drawer for MultiQ Gates,2019-03-13,Merged,1962,45,23,py ,2
+Add arbitrary unitary gate,2019-04-04,Merged,1961,523,12,,3
+new rzz represetation in text visualization,2019-03-12,Merged,1960,15,8,py ,3
+Fix qobj.experiment.instructions.parameters serialization,2019-03-12,Merged,1959,97,37,,5
+Cleanup,2019-03-12,Merged,1958,0,75,,1
+remove commutation_transformation pass,2019-03-11,Merged,1956,0,76,,2
+Add qobj conditional support BasicAer,2019-03-11,Merged,1955,76,26,,1
+Remove underscore from filenames at qiskit.transpiler,2019-03-11,Merged,1954,29,29,,26
+simplify checks for adding instructions to circuit,2019-03-10,Merged,1947,31,127,,28
+Fix DAGCircuit.collect_runs(),2019-03-11,Merged,1944,37,14,py ,3
+fix rzz definition bug,2019-03-10,Merged,1940,2,1,py ,2
+generalize dag_to_circuit for custom instructions,2019-03-10,Merged,1938,20,16,,1
+use dag.node() in test_dagcircuit,2019-03-09,Merged,1917,8,8,,1
+DAG.nodes() to remove dag.multi_graph.nodes(),2019-03-09,Merged,1916,17,12,,4
+Quantum channels,2019-03-25,Merged,1915,"9,615",0,,3
+Build wheels automatically in CI environment,2019-04-24,Merged,1911,69,0,,2
+Spelling & grammar fixes in README,2019-03-08,Merged,1910,4,4,,0
+Move qobj implementation to models and schemas,2019-03-10,Merged,1909,275,366,py ,6
+Fix instruction inheritance issues,2019-03-10,Merged,1908,4,3,py ,2
+"Revert ""Fix instruction inheritance issues""",2019-03-06,Merged,1906,2,13,py ,2
+gitignoring cpp files created in cython folders under the passes folder,2019-03-06,Merged,1905,3,0,,1
+Remove executable flag from test files,2019-03-06,Merged,1904,0,0,,7
+[WIP] OpenPulse visualization,2019-04-26,Closed,1902,"2,163",7,,8
+[WIP] OpenPulse frontend,2019-04-08,Closed,1901,"1,016",23,,7
+Fix instruction inheritance issues,2019-03-06,Merged,1900,13,2,py ,2
+Fix instruction inheritance issues,2019-03-06,Closed,1899,146,12,rst txt py ,6
+Add function to get a DAG node given a node_id.,2019-03-07,Merged,1897,38,32,,14
+when run required passes the resulting dag is being ignored,2019-03-05,Merged,1895,1,1,,1
+Typo in error message,2019-03-05,Merged,1894,1,1,,1
+Addressed issue with instruction.py which prohibited inheritance of Q…,2019-03-06,Closed,1893,13,2,py ,2
+"""swap followed by measure"" optimization pass",2019-04-10,Merged,1890,207,0,py ,4
+ResourceEstimation AnalysisPass,2019-04-05,Merged,1889,485,2,py ,12
+Bump version and prepare for 0.7.1 release,2019-03-04,Merged,1886,9,3,txt py ,2
+Add __qiskit_version__ to list all package versions,2019-03-15,Merged,1885,41,0,py ,3
+deprecate qcvv package,2019-03-03,Merged,1884,14,0,py ,2
+Fix issue for transpile() around coupling_map kwarg,2019-03-15,Merged,1883,24,3,py ,3
+Add support for identity gate to latex drawer,2019-02-28,Merged,1880,5,1,,1
+"Revert ""DAG edge remover and detector""",2019-03-19,Merged,1879,0,71,py ,3
+Migrate visualization to top level namespace,2019-04-04,Merged,1878,97,82,py png txt ,35
+Installing PyGithub in the Appveyor environment,2019-02-28,Merged,1877,1,0,,1
+support for negative indices in registers,2019-03-11,Merged,1875,14,2,py ,3
+off-by-one in dag.collect_runs,2019-02-28,Merged,1873,4,4,,2
+add justify to circuit.draw() signature,2019-02-28,Merged,1872,8,2,,1
+Add constraints to pin pylint to known working version,2019-02-27,Merged,1868,6,3,txt ini ,2
+Fix city plots where bars are equal and not zero,2019-02-26,Merged,1867,23,12,,1
+Handle empty output in mpl circuit drawer,2019-03-03,Merged,1866,8,3,,1
+Simple Qobj repr,2019-02-26,Merged,1865,7,0,,1
+Two tests have a try-except that masquerades an error into a fail,2019-02-28,Merged,1864,4,9,,1
+Make all random seed values accessible and log them.,2019-03-29,Merged,1863,31,15,,4
+enlarge-with-ancilla pass should update the layout,2019-03-26,Merged,1862,13,3,,3
+"u1,u2 in terms of u3",2019-02-25,Merged,1861,4,4,,2
+Remove wigner plotting functions,2019-02-26,Merged,1860,3,263,py ,2
+fix BasicAer sampling bug (#1624),2019-03-04,Merged,1859,124,7,rst txt py ,4
+Changed average_data to accept observable input in matrix form,2019-03-02,Merged,1858,138,9,py ,4
+Adding random unitary,2019-02-25,Merged,1857,30,15,py txt ,4
+Compiler Redo,2019-03-11,Merged,1856,830,401,py ,8
+Do not need to set C++-11 for Windows,2019-02-24,Merged,1855,1,1,,1
+Basicaer renaming.,2019-02-23,Merged,1854,85,88,,11
+doc changes in unroll pass,2019-02-23,Merged,1853,1,3,,1
+Contributing.rst now points to main docs for installing from source,2019-02-23,Merged,1850,2,39,,1
+Text-drawing an empty circuit,2019-02-23,Merged,1849,10,1,,2
+Remove numpy max version cap,2019-02-22,Merged,1848,6,4,txt ,4
+tests in test_mapper.py moved to test_compiler.py,2019-02-22,Merged,1847,284,311,,1
+Add qiskit.test facilities for providers and backends,2019-02-25,Merged,1844,219,99,rst py ,12
+Revert #1806,2019-02-21,Merged,1843,53,2,,2
+Fix DeprecationWarnings in the tests,2019-02-22,Merged,1842,2,2,,2
+Add 'about' function giving information on local installation.,2019-04-04,Closed,1840,64,2,,2
+Add ability to create AbstractBackends,2019-02-20,Closed,1837,116,1,py ,5
+Meta testing should set seed_mapper for the mappers,2019-02-20,Merged,1836,6,1,,1
+Terra no longer depends on requests,2019-02-20,Merged,1835,0,4,py ,1
+25% faster DAG.add_wire,2019-02-20,Merged,1834,19,13,,1
+Allow QuantumCircuit.copy() to take a name,2019-02-19,Merged,1830,12,3,,1
+remove unitary_matrix.py,2019-02-20,Merged,1829,0,214,,4
+Center histogram labels with multiple executions,2019-02-19,Merged,1826,3,1,,1
+Fixing reporting URL for Travis,2019-02-19,Merged,1824,2,2,,1
+Remove qiskit.results._utils,2019-02-18,Merged,1821,0,61,,1
+wrong stack exchange link,2019-02-16,Merged,1819,1,1,,0
+"Remove qargs/cargs/circuit from instructions, in favor of circuit keeping context",2019-04-03,Merged,1816,"1,516","1,582",rst py ,5
+Introduces DAGNode for methods in DAGCircuit,2019-03-19,Merged,1815,828,551,py ,6
+fixes Instruction params getting nested list for reals,2019-02-14,Merged,1811,1,1,,1
+Addressed Issue #1721: Introduced a Gate for Global Phase adjustment,2019-02-16,Closed,1810,99,4,py ,3
+Remove underscore from qiskit.mapper files,2019-02-15,Merged,1809,6,6,,6
+"When new passes instances are created, they are not initialized",2019-02-22,Closed,1808,34,1,,3
+Small optimization in substitute_node_with_dag,2019-02-20,Merged,1806,1,1,,1
+deleted docs/ and move the contents to qiskit repository,2019-02-23,Closed,1805,0,"1,361",py rst ,3
+Require explicit definition of unroller basis,2019-02-23,Merged,1802,37,25,py ,6
+More determinism in tests,2019-02-14,Merged,1800,52,63,,7
+Draw text unitary matrix gate,2019-02-14,Merged,1799,34,1,,2
+Choose how to justify circuit with matplotlib drawer,2019-03-12,Merged,1797,214,229,,1
+Remove ibmq stage from travis,2019-02-12,Merged,1795,0,10,,1
+OpenPulse Command Group:,2019-03-05,Merged,1793,749,0,,7
+Fix #1791,2019-02-14,Merged,1792,3,3,,2
+Example suggested in #1750,2019-02-12,Closed,1790,158,0,,1
+1000x faster swap mapping and Cython build chain,2019-02-21,Merged,1789,686,194,rst py pyx pxd ,7
+Fixing capitalization in word BibTeX,2019-02-11,Merged,1788,1,1,,0
+Update the badge for travis-ci.com,2019-02-11,Merged,1787,2,2,,0
+Allow TextProgressBar to print to different handlers,2019-02-12,Merged,1786,13,6,py ,2
+Cleaning test output,2019-02-14,Merged,1784,18,2,,1
+Removing (most of) the cassettes,2019-02-11,Merged,1783,"1,357","17,978",test/cassettes/test_api_auth_token ,2
+No basis in DAG,2019-02-09,Merged,1781,24,"1,596",,3
+"Revert ""#1186: Improve tests for circuit drawers""",2019-02-08,Merged,1780,36,"1,531",test/python/tools/visualization/references/deep/latex test/python/tools/visualization/references/deep/latex_source png ,5
+a small optimization in parallel compilation cases,2019-02-08,Merged,1779,1,0,,1
+Conditionals must be updated to match schema,2019-04-10,Merged,1778,126,47,json ,5
+Changed set_qiskit_logger() so that the logging level can be configured,2019-02-08,Closed,1777,5,2,,2
+No more basis_gates as string,2019-02-08,Merged,1776,27,12,py ,4
+remove deprecation warnings after PR#1773,2019-02-06,Merged,1775,52,52,,16
+Add unitary matrix gate,2019-02-12,Merged,1774,239,13,,12
+Remove get_ prefix in DAGCircuit methods,2019-02-06,Merged,1773,46,3,,1
+honor Initial layout when coupling_map is present,2019-02-08,Merged,1771,90,16,py ,6
+Extend layout,2019-02-23,Merged,1770,144,0,,3
+DAG edge remover and detector,2019-02-27,Merged,1768,72,1,py ,3
+simplification of CheckMap pass and CheckCnotDirection introduction,2019-02-22,Merged,1767,279,273,,7
+Make a small tweak to readme,2019-02-05,Merged,1766,1,1,,0
+Revert removal of CompositeGate gate bindings,2019-02-15,Merged,1765,63,3,,30
+"Fix pulse defaults params, update schema test",2019-02-05,Merged,1764,13,18,,2
+Updated node_counter on DAG to return current number of nodes,2019-02-13,Merged,1763,44,26,py ,3
+Speed up barrier before final measurement pass,2019-02-08,Merged,1762,27,21,,3
+specify basepython in tox testenv,2019-02-04,Merged,1761,1,0,,1
+QASM dumper in DAG requires an edge map for the aliases parameter,2019-02-12,Closed,1759,3,7,,2
+Addressed Issue #1721: Introduced a Gate for Global Phase adjustment,2019-02-14,Closed,1758,87,2,py ,3
+"Add model for pulse ""defaults""",2019-02-05,Merged,1757,161,7,json ,5
+"Remove ""make doc"" target",2019-02-07,Merged,1756,2,27,Makefile ,2
+Correct order of instructions when loading OpenQASM,2019-02-05,Merged,1755,17,2,,2
+Replace Layout with numerical representation in StochasticSwap,2019-02-12,Closed,1754,150,16,,1
+Update CONTRIBUTING.rst,2019-02-04,Merged,1752,3,12,,1
+Adding support for 2-or-moreQ gates in the text drawer,2019-02-02,Merged,1748,23,5,,2
+Only copy Layout when needed,2019-02-02,Merged,1746,19,11,,1
+"Add ""make test_ci"" target for CIs, simplify ""make test""",2019-02-05,Merged,1745,14,8,yml Makefile ,3
+Remove unused Sphinx dependency from requirements-dev,2019-02-01,Merged,1744,0,4,,0
+Layout object simplification,2019-02-06,Merged,1740,129,84,,3
+Added in a copy method to QuantumCircuit,2019-02-02,Merged,1739,15,0,,2
+Remove sympy usage from optimize 1q gates pass,2019-02-14,Merged,1738,33,36,,2
+"XSwap passes: coupling map, the layout, and the dag should have all the same amount of qubits",2019-02-05,Merged,1737,73,7,,4
+1731 layout class takes up most of compile time,2019-01-31,Merged,1736,13,3,,2
+Update coupling distance and computing of random scalings in Stochastic mapper,2019-01-31,Merged,1735,18,11,,2
+Move purity function to quantum_information namespace,2019-01-31,Merged,1734,81,5,py ,5
+Reduce number of registers created in old swap_mapper,2019-01-31,Merged,1732,11,11,,1
+Remove old skips for hex return format,2019-01-31,Merged,1728,0,4,,1
+Fix range() usage on is_occupied check with barriers,2019-02-01,Merged,1727,4,4,,1
+Updating pyenv locally to reduce Travis time,2019-02-12,Merged,1726,26,18,,1
+Choose how to justify circuit with text drawer,2019-02-12,Merged,1725,616,270,py ,2
+Fix StochasticSwap mapper emitting 2q gates outside coupling map,2019-01-30,Merged,1722,33,4,,2
+Removed validation of open_pulse backend configuration parameters.,2019-01-25,Merged,1720,2,2,,1
+Fix for Matplotlib barriers not plotting correctly,2019-01-29,Merged,1718,11,4,py ,2
+Update BarrierBeforeFinalMeasures to preserve existing barriers,2019-01-30,Merged,1717,214,58,,4
+Remove compiled_circuit_qasm from Qobj header,2019-01-25,Merged,1715,4,19,py ,6
+Include BarrierBeforeFinalMeasurements in default transpile pipeline,2019-01-22,Merged,1705,80,14,py ,5
+Add warning for incorrect backend query and test to ensure correct ba…,2019-01-21,Closed,1704,28,1,,2
+Consistent gate order in visualizations,2019-01-31,Merged,1702,180,168,png txt ,5
+Remove ibmq provider from terra,2019-01-21,Merged,1700,60,"4,936",rst py ,6
+"Use strict marshmallow schemas, add custom exception",2019-01-18,Merged,1695,80,37,py ,9
+Issue #1691: Fixed a minor conda env bug in Makefile,2019-01-21,Merged,1693,5,4,Makefile ,2
+add pulse class to manage pulse envelope,2019-02-12,Closed,1692,302,0,py ,6
+Allow for lists in Qobj and Result schemas,2019-01-17,Closed,1690,16,2,,2
+Remove QISKitError (old capitalization),2019-01-17,Merged,1684,23,31,yml py ipynb ,11
+Remove state_fidelity() from tools.qi,2019-01-14,Merged,1681,3,27,py ,3
+"Remove Pauli v, w, and pauli_group() case arg as int",2019-01-15,Merged,1680,1,26,py ,2
+"Remove travis documentation deploy, other fixes",2019-01-14,Merged,1678,14,110,yml txt py sh ,4
+do not attempt to access old result of non-qobj device,2019-01-14,Merged,1674,1,2,,1
+Clean up test mock utils,2019-01-13,Merged,1673,677,711,,5
+Removing docs,2019-01-13,Merged,1672,3,"8,694",doc/Makefile html conf ,11
+Clean up unused code in setup.py,2019-01-12,Merged,1670,0,14,,1
+"gate_map and dag_drawer available, but raise at point of use",2019-01-12,Merged,1669,23,12,py ,4
+implement register list indexing and argument expansion for size 1 args,2019-02-08,Merged,1668,177,239,,7
+Fix register label in mpl conditional drawing,2019-01-13,Merged,1667,1,1,,1
+Remove couplingdict argument from CouplingMap,2019-01-15,Merged,1666,52,75,py ,6
+Change param to params throughout the code,2019-01-11,Merged,1665,245,244,py ,14
+Remove `transpile_dag()`'s `format` kwarg,2019-01-11,Merged,1664,4,12,py ,3
+Fix histogram ylimit for multiple executions,2019-01-11,Merged,1661,6,3,,1
+Remove deprecated result methods,2019-01-10,Merged,1659,1,190,py ,4
+Switch to travis addon for homebrew on osx jobs,2019-01-09,Merged,1657,7,4,,1
+Remove vqe performance test,2019-01-10,Merged,1656,0,326,py ,1
+Update marshmallow version in setup.py,2019-01-09,Merged,1654,1,1,,1
+bump marshmallow version requirement to 2.17.0,2019-01-08,Merged,1652,1,1,,0
+Update _matplolib code to be more consistent,2019-01-08,Merged,1651,11,12,,1
+Japanese version of 0.7 New Features and Changes,2019-01-08,Closed,1650,"1,579",0,,0
+Remove legacy C++ simulator code,2019-01-08,Merged,1644,23,"28,897",yml txt in bat Makefile ,5
+implement register slices.,2019-01-11,Merged,1643,452,356,py ,9
+Silence ChangedInMarshmallow3Warning warnings,2019-01-04,Merged,1642,17,11,,1
+remove typo in hadamard gate,2019-01-02,Merged,1640,0,6,,1
+Fix plot_histogram with number_to_keep,2019-01-02,Merged,1638,15,11,,1
+Circuits to qobj,2019-01-03,Merged,1629,291,765,py ,6
+remove test.python.common,2018-12-30,Merged,1628,201,296,,29
+Removed circuit.add,2018-12-30,Merged,1627,1,9,py ,2
+Test conditional dag and circuit,2018-12-30,Merged,1626,42,0,,1
+Tests,2018-12-30,Merged,1625,489,539,py ,9
+fix BasicAer sampling bug,2018-12-29,Merged,1624,10,5,py ,3
+Fixed typos and made consistent with the other elements,2018-12-29,Merged,1622,19,15,md ,1
+#1186: Improve tests for circuit drawers,2019-02-08,Merged,1617,"1,531",36,test/python/tools/visualization/references/deep/latex test/python/tools/visualization/references/deep/latex_source png ,5
+Move QiskitTestCase to qiskit.test,2018-12-28,Merged,1616,475,429,rst py ,5
+Remove legacy simulators,2018-12-28,Merged,1615,744,"4,043",rst py ,10
+Unroll 3-or-moreQ pass,2019-01-24,Merged,1614,115,4,py ,6
+Removing qiskit.wrapper,2018-12-27,Merged,1613,4,73,py ,4
+BasicMap bug when multiple quantum registers are involved,2019-01-21,Merged,1611,83,6,py ,4
+Resync documentation changes into master,2018-12-27,Merged,1609,15,15,,1
+A minor fix in a comment,2018-12-27,Merged,1608,1,1,,1
+Adding links to readme,2018-12-27,Merged,1607,1,1,,0
+Broken link,2018-12-27,Merged,1606,2,2,,0
+Handling Swap gates in CheckMap pass,2018-12-27,Merged,1604,186,13,,2
+Enlarge with ancilla pass,2019-01-22,Merged,1603,148,0,py ,4
+Restore qiskit.qiskiterror,2018-12-26,Merged,1602,23,0,py ,2
+"Making the readme format similar between Qiskit, Qiskit terra and Qiskit aer",2018-12-26,Merged,1601,4,10,,0
+"Update pylint to recent version, solve cyclic dependencies",2018-12-26,Merged,1600,340,342,py ,27
+Making clear difference between slack and stack,2018-12-24,Merged,1596,1,2,,0
+development cycle,2018-12-26,Merged,1595,8,8,,1
+Stable,2018-12-24,Closed,1594,54,74,md txt py ,6
+update doc in stable,2018-12-24,Merged,1593,14,14,,1
+Cleaning up doc (puting the changes in stable docs into master) (#1585),2018-12-24,Merged,1592,77,307,,2
+#1588: fix some Python warnings,2018-12-24,Closed,1589,27,34,,16
+#1586: avoid dependencies duplicity,2019-02-08,Closed,1587,3,15,py ,2
+Cleaning up doc,2018-12-23,Merged,1585,77,307,,2
+Update README.md,2018-12-23,Merged,1584,3,16,,0
+ENH: Adaptive job status check interval,2018-12-22,Merged,1581,34,8,,2
+Trivial layout as staticmethod,2019-01-12,Merged,1579,101,40,,8
+update pypi shield address,2018-12-21,Merged,1577,1,1,,0
+[WIP] Add subunit reporting from CI,2019-08-07,Closed,1576,37,0,sh ,2
+[WIP] Swap mapper to stochastic swap,2018-12-27,Closed,1574,64,557,,2
+Metatest for swap mappers,2019-02-19,Merged,1571,291,0,py ,10
+"""import matplotlib"" before ""import ipywidgets""",2018-12-24,Merged,1569,2,2,,2
+job_monitor uses text in notebook,2018-12-20,Merged,1568,14,11,,1
+"Remove deprecated functions, options, and behavior from circuit_drawer",2019-01-05,Merged,1567,46,167,py ,5
+Mark the start of 0.8.0 cycle,2018-12-19,Merged,1565,"3,067",531,,1
+Change seed access to .get,2018-12-19,Merged,1564,1,1,,1
+Documentation,2018-12-19,Merged,1562,"3,063",528,png ,10
+pip release: 0.7.0,2018-12-19,Closed,1561,"37,150","22,440",gitignore pylintrc conf yml ,6
+Fixing documentation TOC and migration guide,2018-12-19,Merged,1560,87,86,,0
+typo,2018-12-19,Merged,1559,1,1,,1
+chop small values in optimize_1q_gates,2018-12-19,Merged,1558,6,0,,1
+fix test caused by removing final measure,2018-12-19,Merged,1557,17,77,,4
+Fixup mappers,2018-12-19,Merged,1556,13,7,py ,6
+Fixes to stochastic_swap,2018-12-19,Merged,1555,152,11,py ,5
+Tweak the docstring for interactive flag on circuit draw,2018-12-19,Merged,1554,8,4,,2
+Add dag_drawer to visualization init,2018-12-18,Closed,1553,1,0,,1
+Remove remove_last_measurements fix from Lookahead mapper.,2018-12-19,Merged,1551,82,9,,2
+Remove the note in get_op_nodes,2018-12-19,Merged,1550,10,16,,3
+Skip test that fails due to ibmq_qasm_simulator bug,2018-12-18,Closed,1549,3,0,,1
+remove cx_direction and cx_cancellation,2018-12-19,Merged,1548,9,96,,3
+Add doc8 run to CI and lint checks for CHANGELOG.rst,2019-01-31,Closed,1547,11,3,rst Makefile txt ini ,4
+rename LookaheadMapper and BasicMapper to LookaheadSwap and BasicSwap,2018-12-18,Merged,1546,242,199,md py ,7
+Do not create dag when no passes scheduled,2018-12-18,Merged,1545,3,0,,1
+Coupling speedup,2018-12-19,Merged,1544,51,59,,2
+"Sphinx docstring cleanup, and include qiskit.tools",2018-12-18,Merged,1543,97,66,js py ,18
+Pass timeout to inner function in IBMQ job,2018-12-18,Merged,1542,3,1,py ,2
+Remove layout as an attribute of the DAG.,2018-12-18,Merged,1541,9,20,,2
+Fix plot_state_city issues,2018-12-18,Merged,1540,204,3,,1
+Barrier before final measurements pass,2018-12-18,Merged,1538,305,0,,5
+shallow view for computing coupling distance,2018-12-18,Merged,1537,1,1,,1
+Update plot_histogram for multiple counts,2018-12-18,Merged,1536,8,3,,1
+Trim qiskit/ top level files,2018-12-18,Merged,1535,10,28,,6
+Fix barrier placement in latex drawer,2018-12-18,Merged,1534,32,3,,1
+Enable monitor tests,2018-12-18,Merged,1533,18,3,,4
+Add job.qobj() methods,2018-12-18,Merged,1532,49,3,py ,5
+Renaming qiskit.backends to qiskit.providers,2018-12-17,Merged,1531,103,102,rst in cmake py md ,54
+Remove deepcopy usage from circuit_to_dag(),2018-12-18,Merged,1530,14,5,,1
+Update setup.py from requirements,2018-12-18,Merged,1527,18,18,py ,1
+Fix name conflict between text and Jupyter backend tools,2018-12-17,Merged,1526,2,2,,3
+Proposing a better name for Aer simulators features,2018-12-17,Merged,1525,1,1,,1
+Reducing number of warnings when filtering jobs,2018-12-17,Merged,1524,9,4,,1
+Renaming direction_mapper,2018-12-17,Merged,1522,20,20,,7
+Make a pass for the default stochastic mapper,2018-12-19,Merged,1520,978,0,,2
+MPL # pylint: disable=import-error,2018-12-16,Merged,1519,13,13,,6
+"Removing ""DeprecationWarning: Initializing a coupling object through a couplingdict is deprecated""",2018-12-18,Merged,1518,75,71,,11
+Renaming Simulators ot BasicSimulators to highlight the fact that the…,2018-12-16,Closed,1516,108,107,,18
+Make nxpd optional,2018-12-16,Merged,1515,7,3,txt ,2
+examples update,2018-12-16,Merged,1514,16,42,,8
+mention vc++ runtime as dependency,2018-12-16,Merged,1511,9,1,rst ,1
+PassManager can schedule passes at __init__ time,2018-12-16,Merged,1510,28,1,,2
+ipywidgets not needed by default,2018-12-16,Merged,1509,19,8,txt ipynb ,5
+passmanager method `add_passes` renamed to `append`,2018-12-16,Merged,1508,70,70,md ,3
+passmanager method `add_passes` renamed to `add`,2018-12-16,Closed,1507,70,70,md ,3
+require ipywidgets,2018-12-16,Closed,1506,1,0,,0
+New commutation passes,2018-12-19,Merged,1500,601,3,py ,6
+DenseLayout and TrivialLayout pass,2018-12-24,Merged,1499,442,193,md ,7
+Fixing warning,2018-12-15,Merged,1497,0,1,,1
+Measurements in the last layer,2018-12-18,Closed,1496,134,81,,9
+make backend arg optional in transpile,2018-12-14,Merged,1495,22,16,,1
+Renaming Simulators ot BasicAer to highlight the fact that they are not full-featured,2018-12-14,Merged,1494,108,107,,18
+Trying to import Aer provider and adding the Aer element as a feature,2018-12-14,Merged,1492,11,5,,2
+Review simulator warnings,2018-12-15,Merged,1491,12,29,,3
+small bug in header check,2018-12-14,Merged,1488,2,2,,1
+Decompose pass,2018-12-14,Merged,1487,174,59,,7
+Split `qiskit.backend.aer` simulators into Python built-in simulators and C++ legacy simulators,2018-12-14,Merged,1484,435,355,rst in cmake py ,20
+Fix/support old and new job,2018-12-13,Merged,1483,5,3,,1
+Restoring header fields in _reorder_bits,2018-12-13,Merged,1481,15,25,,3
+Added empty __init__.py to transpiler/passes/mapping,2018-12-13,Merged,1480,5,4,,4
+Bug in the direction mapper,2018-12-14,Merged,1479,55,17,,3
+"[WIP] Move everything in `qiskit` to `qiskit.terra` and adjust imports, paths and strings",2018-12-13,Closed,1477,"1,092","1,104",gitignore pylintrc txt in Makefile md cmake py ,15
+Reverse Reversebits,2018-12-13,Merged,1475,253,242,txt ,1
+Update interactive visuals docstrings to show that figsize is in units of pixels,2018-12-13,Merged,1474,7,7,,7
+Preventing non-qobj jobs from being retrieved.,2018-12-13,Merged,1473,28,4,,2
+Compile and monitor fix up,2018-12-12,Merged,1472,4,4,,5
+moving Aer,2018-12-13,Closed,1471,496,218,,8
+Update python simulators to match qiskit-aer simulator,2018-12-14,Merged,1469,631,382,,1
+add support for Qobj results in IBMQConnector,2018-12-12,Merged,1467,7,2,,2
+Removing _qiskiterror,2018-12-11,Merged,1466,44,48,,29
+Add plugin interface for external provider registration,2019-04-03,Closed,1465,54,0,txt ,3
+Increase mapper identity_wire_map size to coupling.size() (#1426).,2018-12-12,Merged,1464,17,28,,6
+ast to dag converter,2018-12-12,Merged,1463,463,628,py ,3
+[WIP] Meta testing mappers,2018-12-13,Closed,1462,71,1,,2
+Add title kwarg to plot_histogram(),2018-12-11,Merged,1459,5,1,,1
+Sanitize url in error and warnings,2018-12-11,Merged,1457,19,4,,1
+Update the changelog and add release notes for 0.7,2018-12-19,Merged,1456,429,116,,1
+Unroller pass,2018-12-12,Merged,1455,286,255,py ,22
+Allow different prep and meas qubits in process tomography,2018-12-10,Merged,1454,25,12,,1
+Fix label when drawing registers in mpl,2018-12-07,Merged,1450,4,4,,1
+Move aliased and deprecated functions to private,2018-12-07,Merged,1447,9,9,,3
+Stop building decomposition dag at instance creation,2019-04-03,Closed,1445,383,302,,7
+Fix deprecation warnings for abc on Python 3.7,2018-12-07,Merged,1444,2,2,,2
+Fix simulator instruction handling for qobj_to_circuit(),2018-12-06,Merged,1443,18,1,,2
+optimize_1q_gates pass,2018-12-16,Merged,1442,396,330,,4
+Fix parallel circuit names by appending process id if not main process,2018-12-07,Merged,1439,21,1,,2
+Fix progress bar spawning and make parallel tools easier to use,2018-12-15,Merged,1438,110,263,py ipynb ,12
+Recursively serialize numpy array in as_dict,2018-12-06,Merged,1436,3,3,,1
+check_map pass extension to check direction,2018-12-07,Merged,1433,75,13,,3
+Remove deepcopy usage in dag_to_circuit,2018-12-06,Merged,1431,37,16,,1
+check backend configuration in compile,2019-01-08,Closed,1430,19,6,py ,4
+Circuits,2018-12-05,Merged,1429,191,170,py ,29
+"Make to_dict and from_dict more discoverable, adjust converter tests",2018-12-05,Merged,1428,37,25,,3
+Use integers in properties.gates.qubits,2018-12-05,Merged,1427,3,3,json ,2
+setting max qubit in unitary,2018-12-05,Merged,1425,4,2,,1
+Add support to qobj_to_circuits for qobj without qasm,2018-12-06,Merged,1423,82,8,,2
+Direction mapper,2018-12-06,Merged,1422,248,1,,6
+Complete some deprecations,2018-12-05,Merged,1421,3,49,py ,3
+Update deprecation warning for state_fidelity,2018-12-04,Merged,1418,4,1,,1
+Fix small legend bug in plot_histogram,2018-12-04,Merged,1416,3,5,,1
+Update JSON unroller to output qobj-compliant conditionals for AER.,2019-01-30,Closed,1415,16,14,,1
+Make qasm_simulator always return valid results,2018-12-05,Merged,1414,19,2,,1
+Add meaningful default gates to Aer simulators,2018-12-05,Merged,1413,357,6,,4
+Remove some DeprecationWarnings in test suite,2018-12-04,Merged,1412,18,14,,2
+Update IBMQConnector to new endpoints,2018-12-10,Merged,1411,16,102,,1
+converters,2018-12-05,Merged,1410,309,249,,6
+"Remove hpc, deprecate skip_transpiler from compile/execute",2018-12-04,Merged,1409,57,94,py ,6
+Perform transpilation in parallel,2018-12-04,Merged,1406,35,127,,1
+Result postprocess,2018-12-05,Merged,1404,245,112,py ,6
+Scrolling when text draw in Jupyter output,2018-12-04,Merged,1403,5,2,,2
+Update BackendConfiguration: add max_experiments,2018-12-04,Merged,1402,6,1,json ,2
+Update backend.properties to None for simulators,2018-12-04,Merged,1401,20,120,py ,9
+Add default line length for jupyter,2018-12-04,Merged,1400,8,3,,2
+Simplifying the coupling map,2018-12-03,Merged,1398,225,273,,2
+Dags2circuit,2018-12-03,Merged,1397,186,142,py ,5
+typo emit,2018-12-01,Merged,1395,9,9,,1
+Fix parallel_map publishing for an input of len=1,2018-11-30,Merged,1394,32,52,py ipynb ,3
+Update specs with memory-related changes,2018-12-01,Merged,1391,46,2,json ,13
+"Update configuration.n_qubits model, disallow -1",2018-11-30,Merged,1388,1,3,,1
+update qobj examples,2018-11-30,Closed,1387,299,232,py ,4
+result.get_memory(),2018-12-05,Merged,1386,96,9,py ,7
+quick fix,2018-11-30,Merged,1385,37,49,,2
+Moving quaternions,2018-11-30,Merged,1383,55,41,,4
+Renaming QISKit to Qiskit,2018-12-02,Merged,1382,475,467,bat py ,15
+Adding a round feature,2018-11-30,Merged,1381,9,5,,1
+Update docs around Result.get_snapshot removal,2018-11-29,Merged,1380,4,2,py ,2
+Adding kwargs for backend,2018-11-29,Merged,1379,4,2,,1
+Removing snapshots,2018-11-29,Merged,1378,16,98,py ,6
+"Fix ""conditional"" for devices using old endpoints",2018-11-29,Merged,1377,51,30,,2
+Update docstring for Result.data(),2018-11-29,Merged,1375,28,19,,1
+Ensure local simulators pass the qobj headers,2018-12-03,Merged,1373,961,"1,086",,1
+Update documentacion TOC,2018-11-29,Merged,1371,51,5,py css js ,5
+Set n_qubits for Aer simulators to max supported by local memory.,2018-11-29,Merged,1369,16,15,,6
+More testing for DAG equivalence,2018-11-29,Merged,1368,27,5,,1
+Fix lint failure in test_dagcircuit.py,2018-11-28,Merged,1367,1,0,,1
+__eq__ in DAG,2018-11-28,Merged,1366,60,0,,2
+No qasm in testing extensions,2018-11-28,Merged,1363,380,434,,0
+Renaming get_data to data,2018-11-28,Merged,1362,30,14,,3
+Fix barrier placement in latex circuit drawer,2018-11-29,Merged,1361,22,2,,1
+"Use validated models for Result, update public API",2018-11-28,Merged,1360,499,978,py ,12
+Standardize visualization signatures and styling.,2018-12-03,Merged,1359,488,559,py ,2
+Removing average_data from results,2018-11-28,Merged,1351,85,108,,5
+Refactor shallow schema,2018-12-05,Merged,1350,777,504,py ,9
+Adding eq for instructions,2018-11-28,Merged,1349,124,5,,6
+Organize jupyter and visualization tests,2018-11-27,Merged,1347,4,4,png txt ,8
+Removing qobj2circuits from wrapper -- the wrapper folder is now obsolete and will remove after 0.7,2018-11-27,Merged,1345,40,30,,7
+Fix behavior for finding position from index,2018-11-27,Merged,1344,5,81,,1
+avoid qasm text in tests,2018-11-27,Merged,1341,137,250,qasm ,7
+Removing an empty file,2018-11-27,Merged,1339,0,0,,1
+fix middle measurements moving to the end,2018-11-27,Merged,1337,5,12,py ,3
+Fix _has_connection() call in visualization module,2018-11-26,Merged,1336,1,1,,1
+Fix conditional drawing in latex and mpl,2018-11-26,Merged,1334,32,21,,2
+Update backend.properties() to use BackendProperties,2018-11-27,Merged,1331,193,44,rst py ,12
+measure() clearer message for args types cohesion check,2018-11-26,Merged,1330,38,5,,3
+Move assignment of QuantumCircuit.measure to its class,2018-12-01,Closed,1329,3,5,,2
+Move assignment of QuantumCircuit.measure to its class,2018-11-25,Closed,1328,3,5,,2
+Updated schemas to fix n_qubits and results statevector and unitary l…,2018-11-27,Merged,1327,36,37,py ,8
+Small bug in slow TestBitReordering,2018-11-24,Merged,1326,8,8,,1
+New round of cassettes,2018-11-23,Merged,1325,"10,921","11,165",test/cassettes/test_api_auth_token ,2
+Fix test_ibmq_qobj simulator usage,2018-11-23,Merged,1324,1,1,,1
+Update backend.configuration() to use BackendConfiguration,2018-11-26,Merged,1323,263,171,py ,8
+IBMQJob init documentation fix,2018-11-23,Merged,1321,3,2,,1
+deprecate format option from transpiler,2018-11-23,Merged,1319,18,33,py ,3
+CheckMap analysis pass,2018-11-26,Merged,1317,174,0,,4
+Switch _get_instructions() function to use a circuit,2018-11-21,Merged,1316,37,30,,2
+"Revert ""Add debug logging to occasionally failing tests""",2018-11-21,Merged,1315,8,50,,3
+qasm bug order fix,2018-11-21,Merged,1314,3,3,,1
+Layout object,2018-11-23,Merged,1313,301,0,,3
+Add BaseBackend.provider() method,2018-11-21,Merged,1312,11,2,py ,2
+Fully deprecate `BaseProvider.available backends()`,2018-11-21,Merged,1311,10,40,py ,3
+Add debug logging to occasionally failing tests,2018-11-20,Merged,1309,51,9,,4
+Complete the deprecation of basis faster than originally planned,2018-11-20,Merged,1307,28,55,py ,3
+Remove .parameters() and .calibration() (now .properties()),2018-11-21,Merged,1305,130,256,py ,2
+Add setuptools extras for installing matplotlib,2018-11-21,Merged,1304,18,1,py ,2
+Remove local backend (Aer) fallback,2018-11-23,Merged,1303,199,201,py ,11
+Update backend.status() to use BackendStatus,2018-11-21,Merged,1301,53,57,py ,9
+[WIP] Enable efficient validation of models without adhoc solutions for container fields.,2018-11-20,Closed,1300,148,105,,4
+Korean translation for Terra README.md,2018-11-20,Merged,1297,62,103,,0
+WIP Qobj bug,2018-11-20,Closed,1296,15,1,,3
+overwrite argument for IBMQ.save_account,2018-11-19,Merged,1295,17,16,py ,5
+load qasm exampe,2018-11-19,Merged,1294,7,7,,1
+Fixing examples with new features,2018-11-19,Merged,1292,5,10,,2
+Pauli documentation change,2018-11-19,Merged,1291,1,1,,1
+Adding a test-suite for the PatternProperties validator,2018-11-20,Merged,1288,59,1,,1
+Introducing a TypedDict field enabling fine control on the format of keys and values,2018-11-21,Closed,1287,131,9,,4
+Update the changelog,2018-11-18,Merged,1286,39,3,,1
+circuit.properties(),2018-11-19,Merged,1285,82,4,py ,5
+Circuit order and register,2018-11-18,Merged,1284,348,60,,13
+Simplifying the readme,2018-11-17,Merged,1282,71,121,md ,1
+runtime matplotlib import,2018-11-17,Merged,1281,81,79,txt ,8
+Convert text drawer to use _utils.get_instructions(),2018-11-22,Merged,1280,310,362,,2
+[WIP] Support per-shot measurements + unified result postprocessing,2018-12-04,Closed,1279,854,824,,2
+Convert mpl drawer to use _utils.get_instructions(),2018-11-21,Merged,1278,26,42,,1
+Add models and schema for backend objects and Results,2018-11-16,Merged,1277,758,25,,5
+Covert latex drawer to use _utils.get_instructions(),2018-11-22,Merged,1276,106,136,,1
+Moving Pauli to quantum_info,2018-11-15,Merged,1271,28,26,,16
+Basic mapper pass,2018-12-10,Merged,1270,535,37,py md ,6
+Automate building of qiskit-tutorials to make doc,2019-01-15,Closed,1268,27,"3,287",doc/Makefile py ,3
+networkx 2.2 in setup and changelog,2018-11-14,Merged,1267,4,1,rst py ,3
+Update networkx to most recent stable minor version (#1264).,2018-11-13,Merged,1265,1,1,,0
+Add support for Qobj Results in IBMQConnector,2018-11-14,Closed,1263,6,1,,1
+Close figure before return in mpl circuit_drawer,2018-11-13,Merged,1261,1,0,,1
+Fix random_state from returning nan,2018-11-12,Merged,1258,4,1,py ,2
+"Replace os.errno with errno, linting",2018-11-13,Merged,1257,31,30,,1
+Commutation pass,2018-12-06,Closed,1256,910,3,py ,4
+Fixing pauli singles,2018-11-12,Merged,1255,8,5,,2
+Documenation changes,2018-11-14,Merged,1254,"3,786","1,031",,1
+remove debug print statement,2018-11-10,Merged,1252,0,1,,1
+Add auto-validated objects machinery,2018-11-14,Merged,1249,736,0,,2
+Fix links to languages in sphinx docs,2018-11-09,Merged,1248,3,3,,1
+Add hinton diagram to plot_state methods,2018-11-13,Merged,1246,72,0,,1
+Remove unused IBMQConnector functionality,2018-11-09,Merged,1240,3,293,,2
+Add step to appveyor process to cancel builds on PR update,2018-11-12,Merged,1239,9,0,,1
+[WIP] Switch to using tox in the CI environment,2019-01-31,Closed,1238,16,14,ini ,3
+Add transpiler pass for extension mapper,2019-07-23,Closed,1236,"2,825",0,,6
+Set fixed hash seed for travis jobs,2018-11-07,Closed,1234,4,4,,1
+Fix ibmq_connector tests for premium,2018-11-08,Merged,1232,15,4,,1
+Backend monitor and overview,2018-12-15,Merged,1231,"1,598",23,qiskit/backends/aer/qasm_simulator_cpp py ,4
+Unify the interface for plot_histogram and plot_state,2018-11-19,Merged,1229,275,66,,3
+Decrease test runner concurrency on travis,2018-11-08,Merged,1228,7,7,cmake ,3
+Fix unhandled exception in _has_connection() function,2018-11-07,Merged,1226,6,6,,1
+Always have mpl circuit_drawer output return a figure object,2018-11-07,Merged,1224,6,28,,2
+[WIP] Remove underscore prefix from files,2018-12-06,Closed,1222,112,112,,39
+Remove duplicated code from QasmSimulatorPy,2018-11-16,Merged,1218,5,94,,2
+Use nbconvert as a library in test_notebooks,2018-11-05,Merged,1217,26,18,py ,2
+Log stdout and stderr on test_notebook failure,2018-11-05,Closed,1216,13,11,,1
+Fixing AerJob::status() method to deal with Python's Future,2018-11-05,Merged,1215,7,2,py ,2
+Add fallback for when CPU count can't be determined,2018-11-09,Merged,1214,30,2,py ,3
+Dividing up circuits test,2018-11-06,Merged,1213,125,77,,4
+Refactor DAGCircuit and Unrollers,2018-12-01,Merged,1210,"2,195","1,930",rst py ,5
+"Split qarg, carg in QuantumCircuit and Instruction",2018-11-04,Merged,1209,170,184,,7
+circuit from qasm test update,2018-11-04,Merged,1208,45,173,,6
+removing old code,2018-11-04,Merged,1207,0,119,,1
+[Do not merge] This will break bug #1203,2018-11-05,Closed,1205,17,1,,1
+[DO NOT MERGE] Trying to understand bug #1203,2018-11-05,Closed,1204,20,0,,1
+Install qiskit in ci env,2019-01-08,Closed,1201,3,2,,2
+Text drawer's line_length defaults to shutil.get_terminal_size(),2018-11-07,Merged,1200,32,9,,4
+Text drawer's line_length defaults to shutil.get_terminal_size(),2018-11-02,Closed,1199,21,5,,3
+Copy IBMQuantumExperience 2.0.4 into terra,2018-11-06,Merged,1198,"1,451",141,rst py ,4
+Making quantum_info and the states,2018-11-03,Merged,1197,274,63,,11
+[WIP] channels package for quantum channels and CPTP maps,2019-03-08,Closed,1191,"2,095",0,,3
+Add register/instruction objects to dag nodes,2018-11-02,Merged,1189,153,148,py ,12
+Fix duplicated keys in backend_properties_schema,2018-11-02,Merged,1188,1,3,,1
+Visualization utility to get the operations directly from a DAG,2018-11-14,Merged,1187,133,19,,4
+Add tests to check that results act consistently for all backends,2018-12-04,Closed,1185,42,0,,1
+Remove tools/apps,2018-11-01,Merged,1184,1,"1,119",py ,3
+Text draw object with _repr_html_,2018-11-07,Merged,1181,85,44,,2
+Make plot barriers and reverse bits top level kwargs,2018-11-07,Merged,1180,93,32,,3
+Fix import for _text module in visualizer tests,2018-11-01,Merged,1178,1,1,,1
+Simple fix for the output from the text-based circuit drawer,2018-11-06,Closed,1176,10,4,,1
+Disable TestQObjectBasedIBMQJob tests,2018-11-01,Merged,1174,1,0,,1
+changing to circuits from dag in compile,2018-12-01,Closed,1173,0,0,,0
+Add constructor methods to build QuantumCircuits from QASM,2018-11-03,Merged,1172,135,15,,4
+A star mapper pass,2018-11-20,Closed,1169,"1,372",0,,3
+Enhance/pauli address #1142,2018-11-08,Merged,1166,828,371,,0
+Factor out qasm printing,2018-11-01,Merged,1159,112,353,,10
+"Convert S, Sdg, T, Tdg from CompositeGate to Gate",2018-11-01,Merged,1158,140,158,,25
+Test Jupyter functionality.,2018-11-02,Merged,1154,307,0,txt ipynb py ,3
+Remove asserts from codebase,2018-11-02,Merged,1153,87,61,,11
+Avoid circuilar imports on qiskit.unroll,2018-10-31,Merged,1152,32,24,,14
+Deprecate basis kwarg on circuit_drawer() function,2018-10-30,Merged,1151,16,3,py ,2
+Add lookahead swap mapper as pass to the transpiler.,2018-12-13,Merged,1141,436,12,py ,6
+Correcting typos throughout project,2018-10-26,Merged,1139,200,199,md py ,18
+New Cassettes,2018-10-26,Merged,1137,"9,916","11,922",,1
+update simulator readme for coherent errors,2018-10-25,Merged,1136,16,12,,0
+DAGBackend bug. Fixes #1040,2018-10-26,Merged,1135,8,8,,4
+Split compile,2018-10-28,Merged,1134,371,340,,13
+Update the doc template,2018-11-09,Merged,1133,956,74,conf py svg png ,9
+Remove finalstate snapshot added to qobj in statevector sim,2018-10-23,Merged,1132,6,0,,2
+Removing old wrapper commands,2018-10-24,Merged,1131,59,396,py ,4
+improve the sgn_prod in pauli,2018-10-22,Merged,1128,24,23,,1
+Fix a small typo in cpp qasm simulator README,2018-10-23,Merged,1127,1,1,,0
+Fix incorrect conda download link in install docs,2018-10-23,Merged,1126,1,1,,1
+Fix clifford simulator run for qobj,2018-11-02,Merged,1125,9,3,,1
+make backends return status according to spec,2018-10-25,Merged,1121,29,53,py ,5
+Stop overloading backend_name in statevector simluators,2018-10-17,Merged,1118,0,4,,2
+Publisher/Subscriber (with Broker) implementation,2018-11-07,Merged,1117,462,264,,5
+Add support for reversebits and plotbarriers for text drawer,2018-10-31,Merged,1115,270,49,,2
+fix snapshot insertion so qobj doesnt break when running statevector sim,2018-10-23,Merged,1113,4,2,,2
+Split out latex backend into a separate module,2018-10-24,Merged,1111,"1,060","1,011",,1
+Add documentation on the style input parameter,2018-10-22,Merged,1108,85,5,,1
+Updated Qobj tests,2018-10-23,Closed,1107,172,162,,1
+Split out matplotlib and qcstyle as separate modules,2018-10-16,Merged,1105,918,837,,0
+Use case insensitive URLs when matching premium,2018-10-15,Merged,1102,2,1,py ,2
+Respect reversed bit order for drawing barriers in latex,2018-10-16,Merged,1101,2,0,,1
+Respect plotbarrier style setting for latex circuit drawers,2018-10-16,Merged,1100,11,10,,2
+Fix slow compiling in parallel mode,2018-10-15,Merged,1097,7,11,,1
+Add filename kwarg to plot_bloch_vector(),2018-10-13,Merged,1096,76,26,py ,2
+Add documentation for graphviz external requirement,2018-10-16,Merged,1094,8,1,py ,2
+Better handling of Bloch sphere output,2018-10-12,Merged,1091,13,7,,2
+Start circuit count at zero,2018-10-11,Merged,1089,1,1,,1
+transpiler returns dag,2018-10-12,Merged,1086,10,4,,3
+Fix DeprecationWarning on collections.Hashable usage,2018-10-11,Merged,1085,1,1,,1
+Capture the stdout in some noisy tests,2018-10-25,Merged,1084,13,5,,2
+Avoid consuming results during `.retrieve_job()` and `.jobs()`,2018-10-11,Merged,1082,36,19,py txt ,4
+Rename python circuit_drawer() backend to mpl,2018-10-10,Merged,1080,8,8,,1
+Move jobs to cron and reduce PR test to the reference environment,2019-01-31,Closed,1074,21,1,,1
+Utility for reporting a CI failure as a GitHub issue.,2019-02-11,Merged,1071,141,0,txt py ,3
+Updated changelog and making Qiskit installable again.,2018-10-10,Merged,1069,10,2,py ,2
+Fix kwarg ordering on latex_source output for circuit_drawer(),2018-10-10,Merged,1061,7,4,,1
+This PR introduces a new transpilier architecture to support advance functionality.,2018-10-09,Merged,1060,"1,516",61,md ,5
+Adding DAG visualizer,2018-10-09,Merged,1059,202,97,txt ,4
+[WIP] More pythonic build system while waiting for Aer,2018-12-29,Closed,1056,"1,539",333,yml txt in ,3
+Unify circuit drawer methods,2018-10-09,Merged,1055,143,7,py ,2
+Text drawer,2018-10-11,Merged,1054,"1,441",48,py ,3
+Updated ibmq provider documentation (fixes #1050),2018-10-08,Merged,1053,2,2,,1
+Fix horizontal barrier offset before ccnot,2018-10-08,Merged,1051,24,0,py ,2
+issue #630 check if default object is a set,2018-10-08,Closed,1044,3,0,py ,2
+Clarify dagcircuit test,2018-10-06,Merged,1043,11,11,,1
+Fix dead link,2018-10-05,Merged,1039,1,1,,0
+Improve Chinese translation,2018-10-09,Merged,1038,88,115,,0
+pip release: 0.6.1,2018-10-05,Merged,1037,1,1,,0
+dag_drawer: add edge labels and better write register indexing,2018-10-06,Merged,1036,19,14,,1
+Add tox.ini to start using tox,2018-10-10,Merged,1035,39,0,,1
+let qobj schema validate openpulse,2018-10-04,Closed,1034,1,1,,1
+Add the setup.py back,2018-10-04,Merged,1033,1,4,cmake py ,3
+Fix parallel compilation in transpile.compile,2018-10-30,Closed,1032,102,55,,2
+fix seed type in result schema,2018-10-06,Merged,1031,6,2,,3
+Fix documentation deployment bug with paths,2018-10-04,Merged,1029,5,4,,1
+add test for bug fix of _matches_coupling_map,2018-10-06,Merged,1028,26,6,py ,2
+Doc updates (#1026),2018-10-04,Merged,1027,62,47,rst conf ,9
+Updates to the 0.6 documentation,2018-10-04,Merged,1026,62,47,rst conf ,9
+Stable 0.6,2018-10-04,Merged,1025,"36,350","13,073",rst md gitignore ,3
+make _matches_coupling_map check only multi qubit ops,2018-10-04,Merged,1024,4,3,,1
+small mistakes to readme,2018-10-04,Merged,1022,3,7,rst ,1
+Add suport for latex drawing simulator instruction,2018-11-19,Merged,1021,11,5,,3
+Handle simulator builtins in dag unroller,2018-10-09,Merged,1020,2,1,,1
+Readme,2018-10-03,Merged,1018,54,53,py ,1
+Skipping the `test_online_qasm_simulator_two_registers` intermitent test,2018-10-03,Merged,1017,4,0,,1
+Add proxy pass through test,2018-10-03,Merged,1014,20,4,,1
+Adding Qobject tests for simulators,2019-01-16,Closed,1013,242,129,,2
+clean up warnings from tests,2018-10-02,Merged,1011,17,15,,4
+Finalize 0.6,2018-10-03,Merged,1009,83,101,py ,7
+Guarantee order of registers in DAGCircuit,2018-10-02,Merged,1007,2,2,,1
+Fix intermittent linter warning in qcvv.tomography,2018-10-02,Merged,1006,3,3,,1
+Fix for 0.6 backend names in API,2018-10-02,Closed,1003,7,8,txt ,2
+Update vcr cassettes,2018-10-04,Merged,1002,"12,071","14,292",,1
+rework IBMQ account adminstration,2018-10-02,Merged,1000,259,216,md py ,9
+Fix IBMQ.get_backends and IBMQ.backends for new backend names,2018-10-02,Closed,999,20,8,,3
+Fix cpp simulator distribution,2018-10-02,Merged,998,9,8,in cmake ,3
+Remote Simulator Tests Update,2018-10-02,Merged,997,12,30,,2
+Fix master failing due to registration test,2018-10-01,Merged,991,4,2,,1
+matplotlib drawer - modify default styles heet,2018-10-02,Merged,989,2,3,,1
+Transpiler,2018-10-01,Closed,988,72,1,txt ,2
+expand qobj types for previous version too,2018-10-01,Merged,987,13,6,,3
+warning instead of error for double loading,2018-10-01,Merged,979,9,21,,3
+Examples,2018-10-01,Merged,977,330,441,py ,2
+Fix test_remote_simulator usage of providers,2018-09-30,Merged,976,5,6,,1
+Allow for monitoring job status in scripts,2018-11-08,Merged,975,292,97,py ,7
+Immediately set job magic status value,2018-09-30,Merged,974,1,0,,1
+Fix/aer provider names,2018-09-30,Merged,973,338,310,,9
+fixing issue template,2018-09-29,Merged,967,2,2,,0
+Make multiple load_account calls a warning no exception,2018-09-29,Closed,964,2,2,,1
+Fix depreciation warning when getting results from ibmqjob,2018-09-29,Merged,963,1,1,,1
+add filters to load_accounts,2018-09-29,Merged,962,22,15,py ,2
+Add remove_all_accounts() function to the ibmqprovider,2018-09-29,Merged,960,27,0,,2
+Add dag_drawer() visualizer,2018-09-28,Merged,955,72,1,txt ,2
+Remove mpl-3 restriction,2018-09-27,Merged,953,5,5,in py ,4
+Expand gates in circuit_drawer by default,2018-09-28,Closed,952,1,1,,1
+Added remote simulator Qobj tests,2018-09-29,Merged,950,243,0,,1
+Backend and registration revamp,2018-09-28,Merged,948,"1,430","1,108",md py ,6
+Force installing from wheels and cache the ccache dir,2018-09-26,Closed,947,4,1,,1
+Fix reversed width and height options in plot_histogram,2018-09-26,Merged,945,1,1,,1
+[WIP] Benchmarking framework,2018-09-26,Closed,944,504,1,md py ,3
+Fix barrier centering before measure on all qubits,2018-09-27,Merged,943,10,4,,1
+Fix number to keep in plot_histogram,2018-09-26,Merged,942,6,4,,1
+Fix depreciation warning in matplotlib circuit drawer,2018-09-26,Merged,941,1,1,,1
+Add latex barrier drawing to changelog,2018-09-28,Merged,937,4,0,py ,2
+Align job API with specification,2018-09-28,Merged,936,145,67,py ,7
+Fix setting parallel flag at init,2018-09-24,Merged,929,10,5,,3
+Fix setup.py dependencies,2018-09-21,Merged,924,4,3,in ,1
+Pinning to matplotlib < 3 to avoid incompatibility issues.,2018-09-20,Merged,921,1,1,,0
+New cassettes,2018-09-19,Merged,912,"11,815","19,201",,1
+Add draw() method to QuantumCircuit class,2018-11-15,Merged,911,74,14,py ,6
+Adjust conditional bitmask on reversed latex circuit,2018-09-21,Merged,910,39,3,,1
+Add statevector support and basic error checking to plot_state,2018-09-17,Merged,908,41,14,,2
+Comment nodes in AST,2019-02-11,Closed,906,113,12,,9
+Remove top level visualization imports,2018-09-14,Merged,903,0,8,,1
+DONT MERGE: Just for testing purposes,2018-09-13,Closed,900,256,81,txt ,4
+[WIP] Allow for registering multiple credentials,2018-09-21,Closed,899,571,443,py ,9
+Speedup python local_unitary_simulator by using Numpy.einsum,2018-09-14,Merged,893,162,105,,3
+Properly check if connection can be established for importing interactive visualizations,2018-09-13,Merged,892,32,10,py txt ,3
+Fix bug in Jupyter status magic,2018-09-13,Merged,891,3,1,,1
+Fix import of visualization tools,2018-09-12,Merged,890,9,7,,2
+Fix main __init__ py instruction order,2018-09-11,Merged,887,4,4,,1
+Generalization of schema validation and proper example test,2018-09-21,Merged,886,339,238,py ,3
+Visualization now support simulator extensions,2018-09-12,Merged,885,36,26,py png ,7
+Split qobj schema into core and backend specific.,2018-09-13,Merged,879,487,223,,2
+Add function that converts a qobj to QuantumCircuit,2018-09-09,Merged,877,54,1,py ,4
+Import commonly used visualizations by default,2018-09-08,Merged,874,11,1,,2
+Add missing support for missing option fields to plot_histogram,2018-09-17,Merged,873,31,5,,1
+Remove unused options from iplot_histogram docstring,2018-09-07,Closed,872,0,3,,1
+Replace backend.calibration & backend.parameters with backend.properties,2018-09-21,Merged,870,105,116,py json ,13
+Fix bloch labels,2018-09-06,Merged,869,1,1,,1
+Reintroduce the external addons through namespaces,2018-09-07,Merged,868,43,3,,4
+0.6 release notes,2018-09-11,Merged,867,144,41,Makefile cmake py ,11
+Conform iplot_histogram and plot_histogram,2018-09-07,Merged,866,126,36,py ,5
+import plot_bloch_vector at init,2018-09-06,Merged,863,1,0,,1
+Switch to iplot_state by default if env supports it,2018-09-05,Merged,862,13,1,txt ,1
+Add schema json files to sdist on package build,2018-09-04,Merged,860,1,0,,1
+Remove properties in job and backend APIs,2018-09-05,Merged,858,162,136,py ,15
+Merging redundant test files,2018-09-04,Merged,857,5,28,,2
+Updating casettes,2018-09-04,Merged,856,"7,292",867,test/cassettes/test_execute_one_circuit_simulator_online ,2
+"Fix dependencies: add jsonschema, remove vcrpy",2018-09-03,Merged,853,3,4,txt in ,2
+Fixing test test_multi_register_reordering,2018-09-03,Merged,849,1,1,,1
+Fix/q sphere black vectors,2018-08-31,Merged,845,1,1,,1
+Updated qobj schema with qelib1,2018-09-02,Merged,843,5,3,,2
+No printing to stdout during testing,2018-08-31,Merged,842,13,12,,2
+Update CODEOWNERS,2018-08-29,Merged,839,1,1,,1
+remove unnecessary pylint ignores,2018-09-03,Merged,838,113,123,,5
+fix license in 3 files,2018-08-29,Merged,836,11,40,,3
+Feature/updatedschemas,2018-08-30,Merged,826,"1,270",659,,1
+Transpiler to support advanced functionality,2018-10-09,Closed,824,"1,515",57,md ,5
+[WIP] Fixing tests depending on history,2018-08-24,Closed,821,74,108,py ,4
+[WIP] Tests relying on previous executions are failing,2018-08-24,Closed,820,73,107,py ,3
+removed quantum program from tomography module,2018-08-24,Merged,818,102,183,,1
+raise caught exception during job submission,2018-08-27,Merged,816,4,1,,1
+Removed example from result field from schema because it was out of date (fixes #814),2018-08-24,Merged,810,1,2,,1
+Update Code Owners,2018-08-21,Merged,809,3,2,,1
+Write pdflatex output to log file on compilation failure,2018-08-22,Merged,808,10,14,,1
+Issue 651: add schema validation before QObj jobs are sent,2018-09-03,Merged,807,"3,052","4,421",json ,11
+Updates to the schemas to fix changes in the spec (issue #801),2018-08-22,Merged,802,115,22,py ,7
+checks if flag is not empty before erroring,2018-08-21,Merged,799,1,1,,1
+fix for the table,2018-08-21,Merged,797,16,10,,1
+always set filter keyword of api's get_jobs method (fixes #793),2018-08-27,Merged,795,1,4,,1
+Make all executors threadpools,2018-08-20,Closed,794,1,5,,1
+Remove the test `test_simulator_online_size`,2018-08-20,Merged,790,0,20,,1
+temporary fix for multiple job-submitting process,2018-08-28,Closed,789,12,5,,1
+Updated  property Backend Configuration schema and example to reflect spec.,2018-08-21,Merged,788,18,20,,2
+Add option to reverse qubit order in matplotlib drawer,2018-08-20,Merged,786,234,194,,1
+Add tests to increase coverage in the qi module,2018-09-06,Merged,785,130,3,,2
+Add tests for qiskit.mapper._coupling module,2018-08-17,Merged,784,103,7,,2
+Tests revealed a couple of bugs in the codebase.,2018-08-16,Merged,781,13,15,,4
+Add test coverage for qcvv fitters,2018-09-18,Merged,779,102,0,,1
+Cleanup two_qubit_kak,2018-08-16,Merged,774,174,107,,1
+"Update Result, accepting the new schema and the old one",2018-09-03,Merged,773,567,219,py ,11
+Matplotlib circuit drawer conditional fix,2018-08-13,Merged,766,65,25,py ,2
+Include new interactive visualizations,2018-08-21,Merged,765,796,2,py ,6
+Add support for barriers to latex_drawer(),2018-09-03,Merged,764,21,6,,1
+Add option to reverse qubit order in latex drawer,2018-08-16,Merged,762,34,7,py ,2
+Fixed the random unitary generation from the Haar measure (#760),2018-08-09,Merged,760,3,2,py ,2
+[WIP] Swap mapper pass,2018-11-14,Closed,757,545,8,,5
+Changes to the snapshot command in the schema.,2018-08-13,Merged,741,25,147,py ,7
+Update to new Q network url format,2018-08-09,Merged,740,167,200,md py ,8
+Extending valid names recognized by the linter.,2018-08-10,Merged,739,"1,039","1,039",py ,6
+Fixed string formatting issue when `CouplingError` is raised,2018-08-22,Merged,738,32,2,,2
+Switch to stestr for test runner,2018-11-06,Merged,737,30,22,conf Makefile yml cmake txt py ini ,9
+Jupyter job status magic,2018-09-04,Merged,734,135,0,py ,3
+Let initial_layout be a list,2018-08-07,Closed,727,58,11,py ,4
+Add `n_qubits` to qobj.config and qobj.exp.config,2018-08-03,Merged,726,11,2,,2
+Retire Quantum Program,2018-08-27,Merged,724,767,"4,361",py ,3
+silence a warning in tests,2018-08-03,Merged,723,1,0,,1
+remove deprecation warning for shots=1,2018-08-03,Merged,722,0,16,,2
+Cleanup test suite a bit,2018-08-21,Closed,719,374,328,,5
+use block matrix to build matrix in pauli class for efficiency,2018-08-08,Closed,717,6,14,,1
+Update (Python SDK) to Terra in GitHub templates,2018-08-02,Merged,715,2,2,,0
+Fix depreciation warning from use of np.matrix,2018-08-02,Merged,714,10,12,,1
+submit qobj 1.0.0 to ibmq backends.,2018-09-14,Merged,713,253,84,txt in ,5
+IBM Q Travis integration,2018-08-02,Merged,712,53,192,md py ,6
+[WIP] IBM Q Travis integration,2018-08-01,Closed,711,46,253,py ,6
+support reapply method in composite gate,2018-08-02,Merged,710,6,1,py ,2
+Update Qobj to the latest schema changes,2018-08-02,Merged,709,61,76,py json ,14
+Compile split up for transpile passes,2018-08-10,Merged,705,226,150,,3
+"Removed # from snapshot, added copy function",2018-08-01,Merged,703,39,25,,12
+Parallel tools and compiling,2018-09-18,Merged,701,691,50,py ,6
+Fix error in tensor_index.hpp for 3+ qubit operations,2018-08-03,Merged,698,127,100,src/qasm-simulator-cpp/src/Makefile hpp ,4
+Save network interactions to allow tests to run offline,2018-08-20,Merged,697,"25,669",116,Makefile txt test/cassettes/test_aliases ,5
+Add tests for Qobj,2018-08-09,Merged,694,53,9,,1
+seeding remote executions to make deterministic HTTP requests,2018-08-02,Closed,692,6,8,,2
+Fix #674: Measurements before swap mapping,2018-07-30,Merged,691,319,7,py qasm ,5
+Testing non commercial backends accepts cancellation.,2018-08-03,Merged,690,53,70,txt py ,4
+Issue #662 - Added functions to check for C++ simulator availability,2018-08-02,Merged,689,52,81,py ,9
+Adding compiled QASM to the result,2018-08-04,Merged,688,76,6,py ,6
+Issue #657 - Refactor Jobs interface,2018-08-14,Merged,686,638,568,py ,4
+fix cswap definition bug,2018-07-26,Merged,685,3,15,py ,3
+Removing unnecessary uses of `from_dict` method.,2018-08-01,Merged,684,56,67,,8
+Parallel circuit compilation,2018-07-31,Closed,679,14,6,py ,2
+Update Qobj to the 1.0.0 schema,2018-07-27,Merged,677,128,77,py ,11
+Make double registration a warning not exception,2018-07-23,Merged,673,11,15,,2
+Update examples for v0.5,2018-07-25,Merged,672,91,408,py ,6
+Fix mocks in test_registration.py,2018-07-20,Merged,670,11,7,,1
+Update to Schemas,2018-07-24,Merged,668,162,50,,13
+Update the local python simulators to use Qobj,2018-07-24,Merged,667,164,183,py ,4
+update device display names in `backend.status`,2018-07-19,Merged,661,78,12,,4
+Update Readme to add back the License section,2018-07-17,Merged,660,0,1,,0
+Updates to sphinx documentation for 0.6,2018-07-18,Merged,659,168,100,cmake rst py ,10
+A more generic re expression,2018-07-17,Merged,658,1,1,,1
+Restoring OSX builds,2018-07-20,Merged,656,4,4,,1
+"Use Qobj schema in qiskit.qobj, add converter to old schema",2018-07-18,Merged,655,"1,664","1,695",,10
+Fixes final states for `get_status_job()` support,2018-07-13,Merged,646,61,29,py ,4
+Temporarily disable travis osx builds,2018-07-11,Merged,642,4,4,,1
+"Use get_status_job() in IBMQJob, bump 1.9.8",2018-07-11,Merged,641,11,3,py txt in ,4
+Adding Python 3.7 to appveyor matrix.,2018-07-13,Merged,640,5,10,,1
+Relying on IBM Quantum Experience to decide if a job is cancellable or not.,2018-07-23,Merged,639,34,30,,2
+fix bug with overlap data in the vector_engine,2018-08-22,Closed,637,5,5,,1
+Adding support for the new VALIDATING job state,2018-07-11,Merged,636,94,2,,3
+Fix test failing for sympy 1.2,2018-07-10,Merged,635,3,1,,1
+Update QISKit to Qiskit,2018-07-11,Merged,634,252,252,rst md yml txt doc/Makefile py ,6
+Remove contributors file in favor to GitHub contributors,2018-07-11,Merged,633,5,40,rst ,2
+Matplotlib circuit drawer margin adjust,2018-08-03,Merged,632,26,8,py ,2
+Add test_statevector_simulator_cpp.py,2018-07-18,Merged,631,46,0,,1
+Post 0.5.6 changelog,2018-07-06,Merged,629,15,1,,1
+Stable 0.5.6,2018-07-06,Merged,628,"1,398",539,yml md ,11
+Compile circuits in parallel,2018-07-24,Closed,627,757,147,py ,3
+Use quaternions in yzy to zyz transformation,2018-07-05,Merged,626,319,119,md py ,3
+Fix test_register_backend_name_conflicts,2018-07-04,Merged,624,23,12,,2
+Fix sphinx warnings and format,2018-07-04,Merged,622,28,26,,2
+Python3.7 compatibility,2018-07-05,Merged,620,39,3,txt ,1
+Update CHANGELOG.rst for 0.5.5,2018-07-02,Merged,619,19,2,,1
+Updated Bloch sphere,2018-07-05,Merged,618,639,52,py ,2
+Stable 0.5.5,2018-07-02,Merged,617,"4,876","2,257",pylintrc yml txt md in Makefile cmake py ,9
+remove QuantumJob,2018-07-03,Merged,616,1,132,py ,3
+Use fixed Python version on travis osx,2018-07-01,Merged,614,5,4,,1
+Fix Windows multiprocessing script errors,2018-07-03,Merged,613,2,1,py ,2
+Remove openquantum compiler,2018-07-01,Merged,610,1,27,py ,2
+"Replace backend ""available"" with ""operational""",2018-06-29,Merged,609,49,13,py ,11
+Rename repository to 'qiskit-terra',2018-07-02,Merged,606,91,90,yml md py ,15
+Skip on QE tests if QE is not configured,2018-08-20,Closed,603,1,1,,1
+Enable registration of add-on providers,2018-07-01,Merged,602,126,123,rst py ,8
+Bump IBMQuantumExperience dependency to 1.9.6,2018-06-28,Merged,600,3,2,txt in ,2
+Moving VERSION.txt to qiskit so it can be part of the wheel package,2018-06-27,Merged,598,4,4,in py ,2
+Adding german translation of doc files,2018-06-28,Merged,592,683,3,Makefile cmake py ,6
+Add QObj class,2018-07-11,Merged,589,519,193,py ,9
+Fix calibration parameters parsing,2018-06-21,Merged,587,1,1,,1
+advanced IBMQBackend.jobs() filtering,2018-06-29,Merged,585,105,3,py ,3
+Add unregister() via DefaultQISKitProvider changes,2018-06-27,Merged,584,258,60,py ,9
+Mr cmake improvements,2018-06-20,Closed,583,209,67,in py ,4
+Single source of version information (#581),2018-06-26,Merged,582,10,2,txt in py ,3
+probabilities_ket computation bugfix,2018-07-19,Merged,580,2,1,hpp ,2
+Matplotlib-based circuit drawer,2018-07-01,Merged,579,"1,778",700,md py ,4
+Introduce Transpiler & Refactor Compilation Flow,2018-06-27,Merged,578,463,219,,6
+remove defining basis in compile.,2018-06-18,Merged,577,5,6,,1
+"Least busy filter, improve backend filtering",2018-06-28,Merged,575,228,147,py ,11
+Add benchmark tools,2018-10-03,Closed,574,"1,488",0,md py ,6
+Fix initializer gate inversion,2018-06-20,Merged,573,6,2,py ,2
+Fixing undefined variable in docs related to getting results from real chips (backends),2018-06-16,Merged,571,2,2,,1
+[WIP] Implementation of the q_if method,2018-07-02,Closed,569,94,2,py ,15
+Avoid double registration of same provider/credentials,2018-06-29,Closed,568,24,2,py ,3
+Use display names of devices as qiskit backends,2018-07-06,Merged,566,235,75,py ,7
+Fix: Gate._qubit_coupling,2018-06-16,Merged,565,38,24,,3
+Remove upper bound on dependencies,2018-06-13,Merged,564,15,17,txt in ,2
+Replace QuantumJob with qobj dictionary,2018-06-21,Merged,563,118,190,,14
+fix skip_transpiler: do not remove gates,2018-06-16,Merged,562,4,1,py ,2
+Update matplotlib and networkx requirement upper bounds,2018-06-13,Closed,561,5,4,txt in ,2
+Complete pycodestyle for qiskit/tools,2018-06-11,Merged,560,16,15,py ,5
+Stable 0.5.4,2018-06-11,Merged,559,"2,157","4,458",md yml ,2
+Bump api version to 1.9.2,2018-06-11,Merged,558,2,2,in ,1
+Fix incorrect unrolling of t to tdg in CircuitBackend,2018-06-11,Merged,557,2,1,py ,2
+fix combining/extending of circuits with simulator instructions,2018-06-11,Merged,556,213,161,py ,7
+hide clifford simulator,2018-06-12,Merged,555,7,4,py ,2
+fix circuit_drawer for linux/mac,2018-06-11,Merged,554,4,4,,1
+Remove ProjectQ from qiskit-core,2018-06-12,Merged,553,26,475,py ,3
+Add CLA note in the contributing,2018-06-13,Merged,552,17,0,,1
+Consistent license across all the project,2018-06-08,Merged,550,957,"2,991",txt bat Makefile md py ,15
+[WIP] Making quantum optimisation and chemistry tutorials QISKit 0.5,2018-06-12,Closed,549,20,34,,1
+Update pull request and issue templates,2018-06-07,Merged,548,38,59,,0
+Improve user authentication handling,2018-07-20,Merged,547,759,97,default md py ,6
+fix issue with filename location on windows,2018-06-07,Merged,543,3,2,,1
+added my token,2018-06-05,Closed,536,1,1,,1
+Update changelog to the new format,2018-06-07,Merged,535,389,47,,1
+Fixed Bug (#511): removed _modifiers call from reapply,2018-06-05,Merged,534,2,2,,2
+Move wrapper `load_qasm_*` methods to a submodule,2018-06-11,Merged,533,77,18,py ,3
+Update issue templates,2018-06-04,Merged,531,101,31,,0
+Rename repository to 'qiskit-core',2018-06-05,Merged,530,65,65,yml md py in ,15
+Preserve i->i initial layout when coupling_map satisfied,2018-06-11,Merged,527,127,30,py ,7
+Convert LocalJob tests into unit-tests.,2018-06-06,Merged,526,137,170,,2
+Fix tests for IBM Q network backends,2018-05-30,Closed,525,58,26,,3
+Performance testing update,2018-08-24,Closed,524,65,78,py ,5
+"remove deepcopies from dagcircuit, and extra check on qasm()",2018-06-05,Merged,523,6,15,,1
+Fix hardcoded backend mapping tests,2018-06-04,Merged,521,17,10,,1
+Bug fix in the C++ simulator: density matrix and probabilities are sometimes erroneous,2018-05-30,Merged,518,16,6,json py ,3
+Stable 0.5.3,2018-05-29,Merged,517,556,220,md rst txt yml cmake py ,8
+Remove -march=native from compiler flags,2018-05-28,Merged,516,12,2,txt ,1
+Adding test suite for testing IBMQJob in isolation.,2018-06-21,Merged,515,435,18,,2
+Remove Sympy simulators for moving to new repository,2018-06-06,Merged,514,3,860,,3
+adding `load_qasm` and default `url` to wrapper,2018-05-28,Merged,512,239,27,,6
+"Replace ""QI Software Kit"" with ""QI Science Kit""",2018-05-26,Merged,510,8,8,py rst ,3
+Bump upper limits on requirements packages to next minor release number,2018-05-29,Merged,509,7,7,in ,1
+updated README.md for version >0.5.0,2018-05-25,Merged,508,8,9,,0
+fix deprecated name for ibmqx_hpc_qasm_simulator,2018-05-25,Merged,506,4,7,py ,1
+Add note to install docs about package downgrades.,2018-05-24,Merged,505,3,0,,1
+[WIP] Noise approximations for Amplitude Damping and Polarization,2018-06-06,Closed,504,0,0,,0
+Tune CODEOWNERS to prevent notifications,2018-05-24,Merged,502,18,19,,1
+get jobs from IBM Q backend,2018-06-20,Merged,501,428,190,,4
+Update code owners to allow automatic-reviews,2018-05-23,Merged,499,20,11,,1
+Move dev cycle to contributing,2018-05-23,Merged,497,94,65,md ,1
+Move code of conduct inside .github folder,2018-05-23,Merged,496,0,0,,0
+fix link to .github/CONTRIBUTING.rst,2018-05-23,Merged,495,1,1,,0
+Fix mapping error for multiple qregs raised in #492,2018-05-23,Merged,494,28,5,,2
+Stable,2018-05-22,Closed,493,4,2,py ,2
+Fix #479: Raise IndexError during Register.__getitem__,2018-05-24,Merged,491,32,23,,4
+"Rename camel_case_to_snake_case, uuids",2018-05-24,Merged,490,31,35,,8
+Fix potentially blocking local job test,2018-05-21,Merged,489,22,1,,1
+Stable 0.5.2,2018-05-21,Merged,488,616,332,rst yml txt md cmake ,6
+job cancellation improvements for hubs,2018-05-21,Merged,486,39,10,,2
+Changed deepcopy to copy in mapper,2018-05-25,Merged,485,5,6,,1
+Adapting to new online simulator names.,2018-05-18,Merged,484,22,64,,11
+Fixing test_mapping_correction parameters,2018-05-18,Merged,483,2,2,,1
+Fix compiler seed hardcoded to 13,2018-05-22,Merged,482,3,2,,1
+Fix #475 update state_tomography.py to use local_statevector_simulator,2018-05-21,Merged,481,1,1,,1
+Get named nodes removed unnecessary sorting,2018-06-22,Merged,480,28,13,,3
+"Fix Issue #469, Mapper error",2018-05-16,Merged,478,135,1,,2
+Pin pylint version to 1.8,2018-05-16,Merged,474,1,1,,0
+Update project structure to the new dev workflow,2018-05-16,Merged,473,37,39,rst md ,3
+Issue #471 : Permit API token to be passed by env var,2018-06-06,Closed,472,11,1,,1
+pip release: 0.5.1,2018-05-15,Merged,470,2,2,py ,1
+CMake improvements!,2018-05-15,Merged,468,130,60,rst cmake txt hpp dll lib ,17
+Adding get_unitrary,2018-05-17,Merged,466,31,10,,2
+Bug/async test,2018-05-16,Merged,465,258,155,,5
+renaming schemas,2018-06-01,Merged,464,21,23,py ,18
+change provider short name in wrapper.register to ibmq,2018-05-11,Merged,463,6,6,,3
+increase tolerance of cross simulation tests,2018-05-11,Merged,462,3,3,,1
+Fixing the examples in python,2018-05-11,Merged,461,41,38,,4
+Fix test_localjob.py and slowtests,2018-05-11,Merged,460,51,14,,3
+Compile signature,2018-05-11,Merged,459,99,136,,8
+Fix deprecation warnings,2018-05-11,Merged,458,513,202,json ,6
+dummy provider filter,2018-05-10,Merged,457,9,2,,1
+Adding `wheel` package to dev dependencies.,2018-05-08,Merged,455,2,1,,0
+pip release: 0.4.15,2018-05-07,Merged,454,5,3,py ,3
+v0.5 Changelog,2018-05-11,Merged,453,75,2,,1
+Add missing packages in setup.py.in,2018-05-07,Merged,451,2,19,,1
+Fix issue #444: feed list instead of str to JsonBackend(),2018-05-07,Merged,450,1,1,,1
+BUG: Fix Issue 445,2018-05-11,Merged,447,27,27,,1
+Documentation tweaks and release notes for 0.5,2018-05-11,Merged,446,385,260,rst ,3
+Fix bug # 409 and duplicate #433,2018-05-08,Merged,443,29,31,,2
+"Fix dictAlmostEqual comparisons, online travis tests, misc",2018-05-02,Merged,442,137,153,,9
+Fixed support for noises in the idle gate for the Clifford simulator,2018-05-02,Merged,440,2,2,,1
+Bump IBMQuantumExperience dependency to 1.9,2018-04-30,Merged,437,2,2,in ,1
+Remove shots from statevector simulators,2018-09-05,Closed,436,110,23,,4
+Simulator backends,2018-04-30,Merged,435,"2,306","1,247",py qasm ,16
+Transferred over new schemas,2018-05-11,Merged,434,"2,150",479,,3
+Reorder result bits from real devices,2018-05-03,Merged,430,191,1,py ,4
+[WIP] Improve handling of ProjectQ and Sympy backends,2018-04-30,Closed,429,"1,508",743,py qasm ,19
+Improve handling of ProjectQ and Sympy backends,2018-04-26,Closed,428,"1,343",739,py qasm ,19
+New Visual Studio Solution for C++ Sim + some crash fixes,2018-05-18,Closed,427,"1,134",3,sln res aps rc vcxproj filters user h txt ,12
+ENH: Use QuTiP Bloch vector in plot_bloch_vector,2018-07-02,Closed,423,652,50,,0
+Transpiler & refactoring compilation,2018-06-19,Closed,422,647,387,,3
+Simulator Interfaces,2018-04-29,Closed,421,"2,275","1,247",py qasm ,16
+"Backporting changes from stable-0.4.14 to master, manually.",2018-04-25,Merged,419,21,10,,3
+hotfix: basisGates,2018-04-18,Merged,418,13,1,,3
+"[WIP] Qobj class, schema validation, and update backends to accept qobj",2018-06-06,Closed,415,494,63,py ,5
+Circuit drawing improvement,2018-04-27,Merged,414,617,523,inc ,4
+[WIP] : QISKIT installer based on setuptools and Cython,2018-06-05,Closed,412,"4,983","2,618",gitignore yml txt bat ,4
+Compiling with skip_translation,2018-04-19,Merged,411,126,41,,4
+"Least busy filter, plus other tweaks to backends",2018-06-18,Closed,410,98,61,,11
+[WIP] Add operator-sum noise to the exact simulator,2018-06-05,Closed,408,0,0,,0
+Resyncing master stable,2018-04-17,Merged,407,36,68,,3
+rework jobs,2018-05-10,Merged,403,"1,280","1,106",,6
+remove extra barriers temporarily from compile,2018-04-16,Merged,402,0,17,,1
+Hotfix: remove extra barriers,2018-04-16,Closed,401,"26,669","17,162",yml txt in Makefile md cmake py ,8
+Reintroduce remote discovery during qp.set_api() and openquantumcompiler.dag2json(),2018-04-16,Merged,399,15,0,,2
+Serializable Qobj + Pass cpp/projectq simulator tests,2018-04-16,Merged,397,100,88,json ,13
+fixing up the backend in the example,2018-04-16,Merged,396,55,53,py ,3
+Backends expect string as names in the JSON qobj,2018-05-07,Merged,395,325,"1,159",,15
+Stable 0.4.12,2018-04-11,Merged,394,"6,747","1,654",txt md default ,2
+Stop JobProcessor from modifying input qobj,2018-04-11,Merged,392,0,1,,1
+use assertDictAlmostEqual in test_mapper,2018-04-09,Merged,390,8,4,,1
+Allow combining circuits with different unique registers,2018-04-10,Merged,389,136,30,,2
+[WIP] Unified Python Interfaces to Simulators,2018-04-22,Closed,388,"24,272","16,176",txt in Makefile md cmake rst py qasm ,17
+[WIP] Cython based building and linking of C++ simulator,2018-06-05,Closed,387,294,0,py pyx ,3
+C++ Simulator Refactor,2018-04-14,Merged,386,"23,352","15,741",yml txt in Makefile cmake py ,7
+Add qasm benchmark in test/qasm,2018-06-15,Closed,384,"40,609",0,py qasm ,4
+[WIP] Determine if a given number of qubits can be run locally,2018-09-24,Closed,383,169,0,,1
+Updated tests that compare random counts outcomes,2018-04-04,Merged,380,262,109,,6
+Update ProjectQ test to conform with recent changes,2018-04-01,Merged,379,4,46,,1
+DAGCircuit layers uses a shallow copy,2018-10-08,Merged,378,114,85,,2
+"Fix hub tests, add safety against empty hubs",2018-04-01,Merged,377,58,73,,2
+"Backend rework, adding compile and execute",2018-04-14,Merged,376,"3,363","1,466",in md yml cmake py ,6
+"Sync example and authors for translated README, docstrings",2018-04-04,Merged,375,93,79,py ,1
+Disable travis osx builds temporarily,2018-03-28,Merged,374,10,10,,1
+WIP Backend example,2018-03-28,Merged,372,111,73,py ,6
+DAGCircuit layer functions yield generators,2018-04-19,Merged,371,6,11,,2
+WIP: Use Pipfile instead of requirements.txt,2018-06-05,Closed,370,635,16,Pipfile ,2
+Support for QuantumRegister in gates supporing qubits,2018-05-03,Merged,369,"1,065",144,,13
+Improved circuit visualization,2018-03-28,Merged,368,387,221,,25
+Fix typo in docstring of noise method,2018-03-25,Merged,366,1,1,,1
+Fix cmake for Mac,2018-04-09,Closed,365,2,2,,0
+Create QConfig.py,2018-03-26,Closed,364,0,0,,0
+Resolves #262: add qiskit.backend methods...,2018-03-27,Merged,363,752,344,,7
+Travis and cmake improvements,2018-03-23,Merged,361,48,38,cmake ,2
+16 qubit entanglement.py,2018-03-25,Closed,360,205,0,,1
+Reorganize the contributors information,2018-03-25,Merged,359,39,12,py rst ,2
+Stable,2018-03-22,Closed,358,2,2,py ,1
+Clean up examples and README,2018-03-22,Merged,357,144,150,py ,6
+Fixes Issue #350: qiskit/__init__.py linting,2018-03-21,Merged,355,23,17,,3
+Improves markdown formatting and Python compiling issue,2018-03-21,Merged,353,22,24,,0
+[WIP] Simulator backends refactor,2018-04-06,Closed,351,"24,829","15,819",rst txt in Makefile md cmake py qasm ,15
+Do Python version check in init,2018-03-19,Merged,349,11,3,,1
+"Bump API version, fix check, _AssertNoLogsContext",2018-03-21,Merged,348,29,40,txt in ,3
+Fix mapper issue #342,2018-03-20,Merged,347,100,9,,5
+nicer default names for unnamed registers,2018-03-20,Merged,346,10,11,,2
+Clarified usage of qasm package in docstrings.,2018-03-19,Merged,341,12,2,,2
+"Simulator code optimizations, automatic testing, and Qiskit data structures",2018-09-02,Closed,339,"2,107",128,,1
+Improved circuit drawing,2018-03-26,Closed,338,"2,004",364,,4
+New Release: 0.4.11,2018-03-13,Merged,336,402,139,py in ,6
+Fixed circuit drawing,2018-03-13,Merged,333,27,13,in ,2
+Adding a portuguese translation,2018-06-05,Closed,331,191,1,,0
+Bump IBMQuantumExperience dependency version,2018-03-09,Merged,327,2,2,in ,1
+[WIP] Pass qobj to remote backends. Implement qobj validation.,2018-05-01,Closed,326,905,73,,8
+Stable 0.4.10,2018-03-06,Merged,323,"1,818",556,txt CODEOWNERS rst Makefile md cmake ,7
+Fix unclosed file during QASM parsing,2018-03-06,Merged,322,2,1,,1
+Stable 0.4.10,2018-03-06,Closed,321,"1,818",556,txt CODEOWNERS rst Makefile md cmake ,7
+[WIP] Build the C++ components as shared libraries,2018-06-05,Closed,320,316,157,pylintrc yml txt in cmake py ,8
+[WIP] Simulator backends refactoring,2018-03-20,Closed,319,"24,146","15,355",rst txt in cmake py ,7
+Fix bug with auto-generated CNOT coherent error matrix in C++ simulator,2018-03-05,Merged,318,198,165,src/qiskit-simulator/Makefile md src/qiskit-simulator/src/Makefile hpp ref ,6
+to_matrix and to_spmatrix methods for Pauli class,2018-03-09,Merged,317,50,17,,1
+Fix an async issue with timeouts,2018-03-06,Merged,315,194,60,,6
+the compilation output should not depend on the Python version,2018-03-09,Merged,313,36,77,txt in ,5
+"Extend Coupling class to allow for generation, saving and plotting of layouts/coupling maps",2018-03-22,Closed,312,703,0,,0
+Invalidate jobs_results if exception is raised,2018-03-05,Closed,310,13,5,,1
+supporting non-string identifiers,2018-03-15,Merged,308,"1,619",149,,4
+Issue #264: `__mklexer__` was not setting data.,2018-02-23,Merged,306,20,14,,4
+Adding a Chinese translation of README,2018-02-23,Merged,304,204,0,,0
+More tests for qiskit/tools/apps,2018-03-07,Merged,303,286,29,txt ,2
+Some CMake fixes,2018-02-16,Merged,298,21,22,txt ,1
+Coverage of the testsuite,2018-03-05,Merged,297,31,3,txt Makefile cmake ,3
+Fix installation issue with simulator compilation,2018-02-16,Merged,296,45,36,,1
+Circuit image plotter,2018-02-19,Merged,295,113,10,txt in ,4
+Sympy in dag,2018-02-16,Merged,294,15,29,,2
+test_simulator_online_size with assertLog,2018-02-15,Merged,293,5,3,,1
+Revise travis configuration (cmake+stages+deploy),2018-02-22,Merged,291,362,129,txt rst cmake in ,7
+Use simplified call of super allowed in python 3.,2018-02-13,Merged,288,61,62,,43
+Stable 0.4.9 cpp sim fix and cmake,2018-02-12,Merged,287,"2,176","2,221",pylintrc txt rst md in Makefile ,5
+Remove setuptools.setup mock,2018-02-12,Merged,286,67,11,txt ,3
+bug fix in pauli addressing,2018-02-15,Merged,285,2,2,,1
+bug fix in addressing pauli indices,2018-02-09,Closed,284,0,0,,0
+Fix static linking of the C++ Simulator,2018-02-08,Merged,282,38,11,in txt ,3
+updated state_fidelity convention,2018-02-08,Merged,280,29,17,,3
+Tweaks and fixes for CONTRIBUTING.rst,2018-02-06,Merged,279,57,38,,1
+Performance Benchmarks for Profiling,2018-02-15,Merged,277,480,11,txt ,2
+General noise simulation,2018-06-05,Closed,276,0,0,,0
+"Make qiskit.tools modules, with linting",2018-02-05,Merged,275,649,586,Makefile py ,5
+[WIP] CMake integration,2018-02-05,Merged,274,704,103,txt rst in md ,3
+WIP: Avoid going to QASM text unnecessarily,2018-03-28,Merged,273,"2,065",332,,8
+Fixes issue #271,2018-01-29,Merged,272,6,5,,1
+Fix display of code-blocks on .rst pages,2018-01-29,Merged,270,2,8,rst ,5
+Stable 0.4.7 fix cpp sim,2018-01-26,Merged,269,317,174,py md src/cpp-simulator/src/Makefile hpp json ref ,10
+Patch for cpp-simulator,2018-01-26,Closed,267,311,170,md hpp json ref ,6
+Upgrade QISKit depdencies,2018-01-22,Merged,261,80,79,py txt ,7
+Make compatible with NetworkX 2.0,2018-01-19,Closed,259,40,39,,4
+Asserts in Pauli tests,2018-01-20,Merged,258,129,55,,1
+Revise Sphinx installation instructions,2018-01-19,Merged,257,22,9,,1
+A few improvements for mapper,2018-01-19,Merged,256,4,3,,2
+"Test fixes: subtests, names, make clean",2018-01-26,Merged,255,478,477,py ,8
+Three undefined names,2018-01-17,Merged,254,2,2,,1
+Reintroduce AppVeyor integration,2018-01-15,Merged,252,1,5,,1
+Typos and removing the juypter notebook,2018-01-15,Merged,250,3,917,,0
+* Added support for Windows cpp simulator,2018-01-12,Merged,249,9,5,,3
+Add A* based mapper,2018-11-01,Closed,248,851,10,py qiskit/mapper/Makefile ,5
+fixing typo in readme,2018-01-11,Merged,245,3,3,,0
+readme fix,2018-01-11,Merged,243,90,27,py ,1
+Add a script to submit a QASM file to a backend,2018-08-09,Closed,242,150,0,,1
+Fix sphinx-doc.org link mistaken by github as a relative link,2018-01-10,Merged,241,2,2,,1
+"Revise dependencies, allow more recent versions",2018-01-09,Merged,238,23,22,py ,2
+Fix bug with process tomography reversing qubit preparation order,2018-01-09,Merged,237,73,78,,2
+Z -> X in name of projector in line 88,2018-01-11,Merged,232,1,1,,1
+Updating required version for IBMQuantumExperience,2018-01-05,Merged,231,2,2,py ,1
+Standardize u_base gate parameters (Fix #203),2018-01-05,Merged,230,11,14,,3
+Add change log for release 0.4.0.,2018-01-08,Merged,229,86,0,,3
+Documentation fixes and changes,2018-01-03,Merged,227,138,87,rst ,4
+Enable the linter in travis,2017-12-29,Merged,224,"6,766","6,188",pylintrc yml Makefile py ,6
+Potential solution for #205,2018-01-08,Closed,223,2,2,,2
+one more initializer test case,2017-12-28,Merged,222,30,2,,2
+Stochastic optimization of quantum programs,2018-08-15,Closed,220,"6,350",0,qiskit/tools/mcmc/README ,5
+Equivalence checkers,2018-08-09,Closed,219,"3,968",0,,1
+Equivalence checker with sympy backend,2017-12-24,Closed,218,"3,055",0,,1
+Sympy backends,2018-03-20,Merged,217,926,0,qasm ,3
+Added support for ibmqx_hpc_qasm_simulator backend:,2017-12-22,Merged,216,126,5,py ,5
+Revise the handling of the 401 license Exception,2017-12-22,Merged,215,6,1,,1
+Temporarily disable appveyor due to conda 4.4.0,2017-12-21,Merged,214,4,0,,1
+Issue #150: Created instance Random object for QASM simulator to ensu…,2017-12-26,Merged,212,5,3,,1
+catch deprecated basis specification,2017-12-21,Merged,211,5,0,,1
+New CompositeGate Class for Arbitrary Multi-Qubit Initialization (take 2),2017-12-26,Merged,210,873,2,,5
+Adding some quantum information functions to qi module,2017-12-26,Merged,209,355,110,,0
+Tomography module improvement,2017-12-26,Merged,208,922,454,,0
+[WIP] Small tweaks for IBM Q and upcoming release,2017-12-20,Merged,206,18,3,,2
+Fix typos in DEVELOPMENT_CYCLE.md,2017-12-17,Merged,202,5,6,,0
+use absolute path from setup.py path to read requirements file,2017-12-20,Closed,201,2,1,,1
+mapper issue,2017-12-19,Merged,200,3,0,,1
+cleaning the tests output,2017-12-14,Merged,199,14,12,,3
+The header for indicate the file format is not magic (neither the version is real),2018-01-12,Merged,198,33,25,,5
+Update contributions,2017-12-14,Merged,197,1,1,,1
+More use of sympy internally,2017-12-21,Merged,196,425,380,,19
+Add documentation for set_api with IBM Q features,2017-12-13,Merged,195,83,3,rst ,2
+Local C++ simulator,2018-01-08,Merged,194,"23,463",276,in Makefile rst py sh ,10
+Precedence issue 190,2017-12-13,Merged,193,16,40,,1
+Equivalence checker,2017-12-24,Closed,192,"1,041",0,qiskit/tools/equivalence_checker/README ,7
+sympy executor added & tested,2017-12-24,Closed,191,"41,131",0,,1
+Update example program in README to reflect result,2018-01-11,Closed,189,7,7,,0
+Added sym function to BinaryOp class,2017-12-12,Closed,187,15,0,,2
+sympy execution backend,2017-12-12,Closed,186,"40,601",0,qiskit/tools/sympy_executor/README ,5
+[WIP] return futures when doing run_async,2017-12-26,Closed,184,10,11,,3
+Support for a launch callback function,2017-12-26,Closed,183,55,18,,8
+Add destroy routines for registers and circuits,2017-12-08,Merged,182,121,0,,2
+"Add support for IBM Q hubs, groups and projects",2017-12-07,Merged,180,303,17,md rst py txt ,4
+Extension tests,2017-12-07,Merged,179,503,2,,2
+[test suite] No more logs in file. Logs on stderr on demand.,2017-12-12,Merged,178,41,11,py ,3
+DOC: README.md: Jupyter notebooks are,2017-12-06,Merged,176,1,1,,0
+Add appveyor integration,2017-12-05,Merged,175,50,3,py ,2
+Adding translated in Korean by native linguist,2017-12-08,Merged,174,153,2,,0
+CCNOT test,2017-12-05,Closed,173,55,0,,1
+minor revision in _dagbackend.py,2017-12-05,Closed,172,1,1,,1
+Mapper issue 159,2017-12-12,Merged,171,323,65,qasm ,10
+Piplining transpiler,2017-12-01,Closed,170,753,0,,9
+Issue 168 - Jobs timeouts are wrongly managed,2017-11-29,Merged,169,29,1,,2
+get rid of float in favor of sympy,2017-12-01,Merged,167,92,76,,8
+add tests for Pauli class,2017-11-29,Closed,166,40,5,,1
+get rid of float in favor of sympy,2017-11-28,Closed,165,95,76,,8
+Added test for equality and inequality operators,2017-11-28,Closed,164,637,473,,0
+One entry point for requirements,2017-11-27,Merged,163,3,10,,1
+Fix typos,2017-11-25,Merged,162,3,3,,0
+for Pauli multiplication adding Pauli vectors element-wise,2017-11-28,Merged,161,3,1,,1
+Overloading of comparison operator for pauli operator class.,2017-11-29,Merged,156,54,7,,3
+fix #154,2017-11-29,Merged,155,5,6,,1
+New CompositeGate Class for Arbitrary Multi-Qubit Initialization,2017-12-21,Closed,152,998,0,,2
+fix for #111,2017-11-17,Merged,151,150,46,py txt qasm ,6
+draw circuits in latex,2017-12-21,Merged,148,951,3,,1
+Use pylint to look for issues on every pull request,2017-11-15,Merged,147,9,5,yml py ,5
+Wigner function functionality: Fixed an error,2017-11-15,Merged,146,136,154,,1
+Spelling mistake correction,2017-11-14,Merged,145,1,1,,1
+[WIP] Introduce `Qobj` object and revise `Result`,2018-05-12,Closed,144,959,716,,3
+Minor revision of Japanese translation,2017-11-10,Merged,142,56,57,,6
+Minor Japanese documentation fixes,2017-11-09,Merged,141,51,44,html css_t sh ,9
+Added japanese doc for installation of QISKit,2017-11-08,Merged,140,436,9,Makefile doc/Makefile py rst ,9
+Issue 137 - QASM parser problems with multiuser environments,2017-11-03,Merged,139,18,7,,2
+add backend interface to ProjectQ C++ simulator,2017-12-20,Merged,138,533,39,,3
+Allow local IBMQuantumExperience packages on _check_ibmqe_version,2017-11-02,Merged,136,29,9,,1
+Add Wigner Function Functionality and Documentation.,2017-11-13,Merged,132,335,1,py ,2
+Linting and style fixes in several files,2017-10-25,Merged,131,427,366,,2
+[WIP] Sphinx documentation new theme,2017-12-26,Closed,130,"6,889",665,py less png ,10
+Added a doc explaning project's development cycle and branch model,2017-10-23,Merged,129,48,0,,0
+Fix raising on non-exception in Result.get_data(),2017-10-20,Merged,128,5,1,,1
+making sure that pauli_list_temp is a list of lists not tuple of tuples,2017-10-23,Merged,127,2,2,,1
+Code of Conduct!,2017-10-19,Merged,126,48,0,,0
+removing silent parameter from Q_program.execute,2017-10-18,Merged,125,2,5,,1
+Added a reconfigure qobj method to quantum program,2017-10-31,Merged,124,76,0,,2
+Optimization bug line breaking,2017-10-16,Merged,123,15,6,,1
+Line breaking bug fixed,2017-10-16,Closed,122,597,469,,0
+[WIP] Improvements to tomography and qi tools modules,2017-12-21,Closed,121,"1,045",559,,0
+fixed typo in iden.py,2017-10-17,Merged,119,1,1,,1
+Fix links in the qiskit.rst,2017-10-16,Merged,118,4,4,,1
+Added some rb fits,2017-10-13,Merged,117,73,8,,1
+Added a save/load feature to Result,2017-10-20,Merged,116,281,35,,2
+Check IBMQuantumExperience version at runtime,2017-10-25,Merged,115,117,37,rst bat Makefile py txt ,8
+abstract base class remote,2017-10-18,Merged,113,488,420,,5
+Tracking job ids given when running on remote backends,2017-10-19,Merged,112,40,11,,6
+Relax the default linter checks,2017-10-10,Merged,110,30,7,Makefile py ,20
+update coherence fitter,2017-10-06,Merged,109,2,2,,1
+Issue #88: use standard logging instead of print,2017-10-11,Merged,108,406,293,py ,4
+Linter fix,2017-10-06,Merged,107,23,23,,5
+Linting,2017-10-10,Merged,106,41,36,,2
+Fixing #81 in mapper,2017-10-17,Merged,105,3,10,,2
+New optimization functions,2017-10-11,Merged,104,588,469,,0
+Fixing the documentation and use of wait and timeout parameters in _quantumprogram,2017-10-03,Merged,103,13,13,,2
+"Fix link, style example, add PyPi badge on README",2017-10-03,Merged,102,3,2,,0
+Cherry-pick doc autodeployment commits from stable,2017-10-02,Merged,101,58,22,rst sh ,3
+Fixing some of the issues raised by lint (issue #90),2017-10-02,Merged,99,73,89,,7
+Added the ability to take a scan parameter (xval) with each circuit a…,2017-10-06,Merged,98,79,4,,3
+Fixed doc typo,2017-10-02,Merged,97,1,1,,0
+Backport the documentation changes from master to stable,2017-10-02,Merged,95,"1,807","1,234",md ,1
+Add autodeployment of sphinx docs to github pages,2017-10-02,Merged,94,182,1,tools sh py ,4
+Better error handling with backends,2017-10-02,Merged,93,266,213,py ,3
+Automatic deployment of documentation to qiskit.org,2017-09-29,Closed,92,"4,496","2,128",Makefile md ,2
+Issue #62: make AST nodes always Node subclasses,2017-10-02,Merged,91,193,47,qasm ,12
+"Contributing guide updated with ""Good first contribution"" section",2017-10-02,Merged,89,7,0,,1
+Add a new tool to generate random QASM circuits,2017-09-28,Merged,87,127,1,py ,2
+Issue 80 - Fix non-valid backend,2017-09-27,Merged,85,19,3,,2
+introduce abstract base class for backends,2017-10-04,Merged,84,495,372,py ,9
+Fix ids starting with reserved word tokenizing #82,2017-10-12,Merged,83,16,48,,1
+Fix basis gates,2017-09-21,Merged,79,14,8,,2
+Add Python 3.5 to travis.yml,2017-09-21,Merged,78,20,4,py ,2
+Tests: common functionality refactoring and cleanup,2017-09-27,Merged,77,424,397,test/python/qiskit ,6
+Fix basis gates,2017-09-21,Merged,76,3,3,,2
+user-friendly Qconfig,2017-10-17,Closed,74,67,1,,2
+Sphinx documentation revision,2017-09-25,Merged,72,433,170,rst py ,7
+pass qobj down to local simulator backends,2017-09-26,Merged,71,840,504,,3
+Issue 69 - Create parsetab.py autogenerated file in a temporary dir,2017-09-15,Merged,70,6,3,py ,2
+remove debugging code for forks,2017-09-14,Merged,68,0,19,,1
+"Declare version inside the qiskit module, fix sphinx warnings",2017-09-14,Merged,67,21,4,,3
+fix link,2017-09-12,Merged,66,1,4,,1
+Readme and Documentation update,2017-09-12,Merged,65,"1,405","1,222",,0
+Async jobs with executors,2017-09-14,Merged,63,"1,552",216,,2
+Updates IBMQuantumExperience imports because of last version changes,2017-09-09,Merged,61,4,3,,2
+First tests for the parser.,2017-09-08,Merged,60,62,0,py ,2
+inserted qiskit folder to tools import,2017-09-06,Merged,58,3,3,,1
+[WIP] Async Jobs,2017-09-06,Closed,56,514,225,,2
+Fix tools link,2017-09-01,Merged,55,0,0,,2
+Rethrow IBMQuantumExperience RegisterSizeError exception,2017-08-31,Merged,54,4,1,,1
+Issue 49 - Better offline support,2017-08-31,Merged,53,74,15,,2
+fixing tools import in branch r0.3,2017-08-31,Merged,52,6,6,tools ,7
+update import path of tools,2017-08-31,Closed,51,6,6,tools ,7
+backend register size limit exception,2017-08-30,Merged,50,13,11,,3
+quantum computing,2017-09-06,Closed,48,279,132,in sh py ,8
+Pip release: 0.3.4,2017-08-28,Merged,47,11,11,,3
+Faster exact energy calculation,2017-08-25,Merged,46,26,21,,1
+Faster exact energy calculation,2017-08-25,Closed,45,10,15,,2
+Pip support: Minor fixes,2017-08-24,Merged,44,5,5,sh py ,3
+Faster energy calculation for exact states,2017-08-24,Closed,43,8,14,,1
+Proofreading,2017-09-06,Closed,42,"2,494","2,474",py ,2
+"proofreading, edits, etc.",2017-08-24,Closed,41,"3,120","2,629",rst ipynb ,3
+fix skip test logic,2017-08-24,Merged,40,2,1,,1
+Fixing return values,2017-08-24,Merged,38,177,40,py ,4
+Fixes local tests in: test_quantumprogram.py,2017-08-23,Merged,37,5,10,,1
+Pip support,2017-08-23,Merged,35,246,8,txt py ,2
+R0.3,2017-08-20,Closed,34,190,162,,4
+Energy eval without writing H,2017-08-18,Merged,33,32,0,,1
+skip tests requiring token in travis pull request,2017-08-22,Merged,31,41,28,json ,2
+Issue 29 - New Make.bat script to support operating with Windows,2017-08-16,Merged,30,126,4,rst ,2
+qis1,2017-09-27,Closed,28,25,0,,1
+clean logging output,2017-08-10,Merged,26,0,8,,7
+fix bug in profiling,2017-08-10,Merged,25,198,162,,4
+Added tests and fixed bugs in tools.qi,2017-08-08,Merged,24,160,33,,2
+"Combine results, apply controlled gates and measure to whole registers",2017-08-08,Merged,23,169,43,,10
+Fixed measure and cgates to work on registers + bug fixes and tests for tools.qi,2017-08-08,Closed,22,270,70,,9
+fixes issue #17,2017-08-09,Merged,21,6,4,,1
+Python3.5,2017-08-10,Merged,20,42,29,,10
+more minor doc changes,2017-08-04,Merged,19,36,25,rst py ,3
+merge r0.3,2017-08-04,Merged,18,"10,687","6,205",gitignore yml CODEOWNERS rst Makefile default ,6
+Running a QX notebook using on IBM Data Science Experience,2017-08-04,Closed,16,603,0,,0
+fixing timeout bug when timeout is not a multiple of wait time,2017-07-29,Merged,15,1,1,,1
+Dsx notebook,2017-07-21,Closed,12,626,0,,0
+fixing typo. histogram of two hadamard,2017-08-04,Closed,9,46,87,,0
+"Update precise --> trusty, Python 2 and 3, flake8",2017-09-26,Closed,8,9,0,,1
+Updated section 5 of index.ipynb,2017-08-04,Closed,7,"20,441",10,ipynb ,2
+Adds a simple spin Wigner function calculator example,2017-10-25,Closed,3,180,0,,1

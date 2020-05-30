@@ -1,0 +1,275 @@
+Create main.py,2019-12-25,Closed,1354,4,0,,1
+Add example unit test and config for testing,2019-12-14,Merged,1343,249,2,yml txt rst py ini ,10
+edit_message: allow force_document,2019-11-23,Merged,1335,6,1,,1
+fix small typos,2019-11-10,Merged,1328,5,5,py ,5
+Fix RSA unpacking bug,2019-11-05,Merged,1324,1,1,,1
+Fix pin message not accepting Message objects,2019-11-04,Merged,1322,1,3,,1
+Fix MessageButton.click() with weird strings,2019-11-01,Merged,1315,1,1,,1
+Remove @ya from the valid usernames,2019-10-28,Merged,1306,1,1,,1
+Use channels.GetFullChannel instead of messages.getPeerDialogs,2019-10-27,Merged,1305,4,4,,1
+Ignore channel only permissions in megagroups (edit_admin),2019-10-11,Merged,1292,16,0,,2
+Remove check for InputPeerSelf in edit_admin,2019-09-29,Merged,1285,1,4,,1
+Fix kick_participant in channels,2019-09-28,Merged,1284,11,12,,1
+Patch 2,2019-09-24,Closed,1280,4,3,,3
+Add slowmode flood error,2019-09-24,Merged,1279,5,3,csv ,4
+Remove debug code from production,2019-09-21,Merged,1276,0,1,,1
+Update SCHEDULE_DATE_TOO_LATE and -503 description,2019-09-16,Merged,1266,3,2,,1
+Add new errors to the list,2019-09-10,Merged,1265,11,5,,2
+Add missing import,2019-08-25,Merged,1261,1,0,,1
+Add async support to upload file prgoress callback,2019-08-19,Merged,1259,3,1,,1
+Enable awaitable event builder func,2019-08-12,Closed,1255,23,16,,7
+Create Nix package expressions,2019-07-30,Merged,1246,"1,503",8,nix ,6
+Fix negative timestamp issue,2019-08-01,Merged,1241,27,12,,2
+Enhanced flow,2019-07-21,Closed,1239,6,3,,1
+Add login button,2019-07-17,Closed,1235,4,0,,1
+/ Command and Welcome message in bot,2019-07-17,Closed,1233,19,19,,1
+Add more description to rights related errors.,2019-07-10,Merged,1231,8,2,csv ,2
+Small fix for callbackquery,2019-07-10,Merged,1230,1,1,,1
+Improve Quart example,2019-08-01,Merged,1229,57,39,,1
+Check exist flush method,2019-07-09,Merged,1227,4,1,,1
+Create Н,2019-07-06,Closed,1223,1,0,,1
+Clean up code,2019-06-27,Closed,1214,0,"35,735",gitignore yaml LICENSE in rst svg txt readthedocs/Makefile ,7
+Add pattern to the callbackQuery event,2019-07-05,Merged,1212,48,22,,1
+Add a convenience method for editing admin rights and permissions,2019-07-05,Merged,1210,231,0,,1
+Add support for unparsing nested entities into HTML,2019-06-24,Merged,1209,23,11,,1
+Create telethon_and_quart,2019-06-27,Closed,1207,42,0,,1
+Create telethon_and_quart,2019-06-18,Closed,1206,42,0,,1
+Refactor libssl import path workarounds,2019-06-15,Merged,1202,43,30,,1
+Update errors.csv,2019-06-01,Merged,1196,4,1,,2
+Fix file_id error checking,2019-05-19,Merged,1189,1,1,,1
+Update faq.rst,2019-06-28,Closed,1186,2,0,,1
+Fix super() initialisation call for EventCommon,2019-05-12,Merged,1182,1,1,,1
+Added a convenience method for editing admin rights,2019-06-24,Closed,1178,65,1,csv ,2
+fixed stripped image downloads,2019-04-25,Merged,1165,19,1,,2
+Error Message Typo,2019-04-22,Closed,1162,1,1,,1
+Fix mtproxy dd-mode,2019-04-19,Merged,1157,1,1,,1
+Fix initial state returning by MemorySession.get_update_state,2019-04-14,Merged,1153,1,1,,1
+Fix RequestIter.__anext__ without __ainit__,2019-03-29,Merged,1142,3,3,,1
+PR to edit InlineBot Messages,2019-03-23,Closed,1136,3,3,,1
+Fixed missing unpacking variable,2019-03-12,Closed,1130,2,2,,1
+Implement different mtproto proxy protocols,2019-03-13,Merged,1126,316,145,,7
+ValueError fix for IOBase files,2019-03-01,Merged,1119,2,2,,1
+fix RequestIter.__next__ propagating StopAsyncIteration,2019-02-28,Merged,1117,4,1,,1
+Overhaul asynchronous generators,2019-02-27,Merged,1115,749,574,py ,1
+Fix connect method infinite await and double reconnection,2019-03-22,Closed,1112,14,7,,1
+add link of our official groups :octocat:,2019-03-02,Closed,1110,14,0,,1
+Fix login failure due to wrong argument name,2019-02-14,Merged,1109,3,3,,1
+Initial implementation of MTProxy connection support,2019-02-10,Merged,1107,77,24,,8
+Improve the support for account takeouts,2019-02-10,Merged,1106,154,52,,6
+Fix client proxy class for takeouts to access static members properly,2019-02-07,Merged,1105,4,1,,1
+Fix a couple of inconsistencies in the library interface,2019-02-06,Merged,1102,50,30,,5
+fixed that thumb is now thumbs,2019-02-02,Merged,1100,1,1,,1
+Add support Path-like thumb to _file_to_media,2019-01-22,Merged,1095,2,0,,1
+Remove lies,2019-01-21,Closed,1092,0,1,,1
+Make logger fully configurable,2019-01-11,Merged,1087,141,137,,7
+Add hide_via to InlineResult.click,2019-01-10,Merged,1084,6,1,,1
+redact [REDACTED],2019-01-06,Closed,1081,1,1,,1
+Extend new_algo.salt1 to fix edit_2fa,2018-12-24,Merged,1072,1,0,,1
+Fix caption default inconsistency,2018-12-20,Merged,1071,4,1,,1
+fix small typo,2018-12-21,Closed,1070,1,1,,1
+fix ConnectionHttp ssl socket wrap,2018-12-10,Merged,1064,3,3,,1
+Undefined name: Typo TelegramBareClient --> TelegramBaseClient,2018-11-24,Closed,1052,1,1,,1
+Made invalid inline mentions no longer work.,2018-11-24,Merged,1049,10,4,,1
+Fix for utils.get_peer not raising when passed an InputPeerSelf,2018-11-23,Merged,1046,6,1,,1
+Updated docs with info on using Telethon with Flask,2019-03-02,Closed,1040,24,0,,1
+Fix file cache when using MemorySession,2018-11-01,Merged,1033,1,1,,1
+Added retry_delay for connection,2018-10-28,Merged,1031,11,1,,2
+Allow access to result of EventBuilder's `func` predicate in event handler callbacks,2019-03-22,Closed,1028,17,5,,1
+Fixed rpcerror generation when error.has_captures,2018-10-21,Merged,1025,2,3,,1
+add mimetype for apk files,2018-10-10,Closed,1021,1,0,,1
+Add name mention formatting to HTML and Markdown,2018-10-04,Merged,1019,19,10,,2
+implement next_offset and allow empty results in answer(),2018-10-04,Merged,1017,13,5,,1
+Add full_sync module,2018-10-05,Merged,1016,162,1,,2
+add delete method for dialogs,2018-09-28,Merged,1014,12,1,,1
+asynciowrapper for sessions,2018-10-05,Merged,1013,49,28,py ,10
+Add method to resolve inline message IDs,2018-09-19,Merged,1005,21,0,,1
+Update telegram-client.rst,2018-09-19,Closed,987,1,1,,1
+"[Assistant] Add #spam, #offtopic, #help and link to suggestions",2018-09-03,Merged,981,40,3,,1
+Manually register ogg mimetype,2018-08-28,Merged,973,3,2,,1
+Fix for PR #965 'separate exceptions for multiple requests',2018-08-24,Merged,967,4,4,,2
+Separate exceptions for multiple requests,2018-08-24,Merged,965,43,4,,3
+Update chats.py,2018-08-21,Merged,962,5,2,,1
+Update chats.py,2018-08-21,Closed,961,7,3,,1
+Fix bug when blank authorization code passed after prompting registered telegram user,2018-10-05,Closed,956,4,1,,1
+Fix for #941,2018-08-06,Closed,942,23,19,,1
+Fix iter_participants is failing when _total is None,2018-08-04,Merged,936,2,1,,1
+simple floodwait fix,2018-10-05,Closed,913,7,4,,1
+remove empty except,2018-07-09,Merged,887,17,8,py ,4
+Implement HTTP(S) mode (closes #112),2018-07-08,Merged,883,71,1,,3
+fix: hachoir don't close files by itself,2018-06-29,Merged,875,21,23,,1
+Keyword arg instead positional for sign_in,2018-06-27,Merged,869,1,1,,1
+fixing get_entities_text with cls,2018-06-26,Merged,866,6,10,,1
+Make better,2018-06-26,Merged,863,4,9,,1
+Implement a mechanism to notify of connection failures,2018-06-17,Merged,852,44,3,,3
+Core rewrite,2018-06-14,Merged,843,"4,831","5,032",,2
+Adds new docs index for methods can be used as bots,2018-06-11,Merged,840,53,10,,1
+to_bytes() named argument 'length' removed (to work with PyPy),2018-06-04,Merged,834,1,1,,1
+New custom Message class,2018-06-02,Merged,830,750,367,py ,4
+Improved modular JS for the frontend of this thing,2018-05-24,Merged,813,37,30,py ,2
+AsyncIO remove filedescriptor on disconnect,2018-05-23,Closed,811,14,3,,3
+Better handling of video notes,2018-05-24,Merged,803,1,1,,1
+Cancel background tasks on disconnect,2018-04-23,Merged,783,9,0,,1
+Update SQLiteSession's docstring,2018-04-17,Merged,771,1,1,,1
+Added id property,2018-04-16,Closed,769,7,0,,1
+Tidy up the telethon-generator package,2018-04-15,Merged,766,"1,467","1,574",rst py telethon_generator/error_descriptions → telethon_generator/data/error_descriptions json html css svg js tl ,16
+Changing self._authorized property after log_out(),2018-04-14,Merged,765,1,0,,1
+add __repr__ method to TLObject,2018-04-11,Closed,756,3,0,,1
+Connection checks,2018-04-11,Closed,755,8,1,,1
+"Allow custom args, kwargs for event handlers",2018-10-05,Closed,753,8,13,,1
+Make TLObject picklable,2018-04-12,Merged,752,24,1,,1
+Make RPCError class picklable,2018-04-08,Merged,751,3,0,,1
+Docstrings fixes,2018-04-08,Merged,750,24,48,py ,5
+TelegramClient: allow the event handler decorator to work while the loop is running,2018-04-07,Merged,748,4,1,,1
+De-obfuscate get_input_entity,2018-04-03,Merged,738,9,8,,1
+Async iter through all dialogs in get_input_peer (#735),2018-04-04,Closed,736,3,3,,1
+Rename project to Garry,2018-03-31,Closed,732,342,342,in rst py html telethon_generator/error_descriptions → garry_generator/error_descriptions json tl readthedocs/Makefile ,68
+Add examples for edit_2fa(),2018-03-27,Merged,729,37,3,,1
+fix mismatch urls in the docs and docs author,2018-03-27,Merged,726,2,2,rst ,2
+Add edit_2FA function,2018-03-27,Merged,725,74,2,,1
+Changed events.NewMessage to accept a list of patterns instead of just one,2018-03-23,Closed,720,11,6,,1
+"minor tests cleanup, preparation for travis-ci",2018-03-24,Merged,717,109,90,,8
+"update ChatAction event pins and unpins, fixes #706",2018-03-21,Merged,715,17,7,,1
+little fix,2018-03-19,Merged,710,3,2,,1
+Fix forwarding messages to super-groups & channels.,2018-03-18,Merged,705,1,1,,1
+Add addon-style session dev instructions,2018-03-17,Merged,698,12,63,,1
+Redis session storage support,2018-03-14,Closed,696,360,73,txt py ,5
+Update README.rst,2018-03-24,Closed,694,14,2,,1
+Add Python type hints to attributes of TL types,2018-03-12,Merged,678,99,6,py ,3
+Update __init__.py,2018-03-24,Closed,668,1,1,,1
+fix get_participants,2018-03-03,Merged,662,6,6,,1
+Abstract Session class,2018-03-03,Merged,657,728,256,rst py ,5
+Capture match and add it to event,2018-02-28,Merged,654,8,2,,1
+Fix syntax error on Python3,2018-02-27,Merged,646,2,1,,1
+Implemented inline query handling,2018-07-26,Closed,645,99,2,,1
+Added .get_participants(...),2018-02-23,Merged,639,56,3,,1
+Update README.rst,2018-02-23,Closed,638,9,3,,1
+Add missing await to mention generation in _parse_message_text,2018-02-22,Merged,634,4,4,,1
+"Changes to documentation and ""Number of retries reached 0.""",2018-03-01,Merged,623,72,36,py ,10
+Stop propagation of updates,2018-02-27,Merged,622,59,1,py ,3
+Proxy connection fix,2018-02-20,Merged,621,9,0,,1
+Add pattern argument,2018-02-20,Merged,620,20,2,,1
+Fix update delete messages,2018-02-19,Closed,619,37,6,py ,4
+Add a pattern Argument,2018-02-19,Closed,616,42,7,py ,4
+Added !i for information to interactive telegram client,2018-02-23,Merged,614,22,17,,1
+Friendlier update handling through Events,2018-02-09,Merged,595,"1,138",90,,5
+Corrected info in Admin Permissions,2018-02-09,Merged,589,22,8,,1
+Add further Heroku instructions to session documentation,2018-02-06,Merged,588,21,3,,1
+Add further Heroku instructions to sessions documentation,2018-02-06,Closed,587,67,0,rst ,2
+Add Heroku instructions to sessions documentation,2018-02-06,Merged,586,49,0,rst ,2
+"Improve code exapmle in ""Doing stuff"" section",2018-03-01,Closed,583,20,3,,1
+Update PUSH register to layer 75,2018-01-31,Closed,572,2,2,,1
+Save session data when migrating from JSON,2018-01-31,Merged,570,1,0,,1
+fix a typo,2018-01-30,Merged,568,1,1,,1
+Force named parameters in the TelegramClient and fix typo,2018-02-20,Closed,566,21,27,,2
+"Adding batch_size and wait_time arguments to ""get_message_history"".",2018-01-27,Merged,565,23,4,,1
+fix: remove braces in ipv6,2018-01-26,Merged,561,1,6,,1
+Add HTML parse mode,2018-01-22,Merged,554,170,1,,2
+"Better, truly persistent file cache",2018-01-18,Merged,549,381,304,,1
+telegram client: fix infinite recursion in send_file,2018-01-17,Closed,548,1,1,,1
+added join method in TelegramClient,2018-01-13,Closed,539,10,0,,1
+"fix syntax error in README, use client.connect() instead of client.start()",2018-01-11,Closed,533,1,1,,1
+Added start([phone|bot_token]) convenience method to quickly connect and authorize.,2018-01-11,Merged,528,129,21,py ,3
+Update README.rst,2018-01-12,Merged,527,8,9,,3
+Fix channel check issue on send_read_acknowledge,2018-01-08,Merged,526,1,1,,1
+Some fixes & enhancements,2018-01-04,Merged,519,35,22,,2
+Use sqlite3 instead JSON for the session,2017-12-28,Merged,506,402,452,,2
+Remove reference to README.rst,2017-12-25,Merged,504,1,1,,1
+Update sessions.rst,2017-12-14,Merged,491,2,2,,1
+Auto pypi deploy,2018-07-26,Closed,483,14,0,,1
+More general Vector handling in results,2017-12-27,Closed,481,8,12,,1
+Fixes file downloading error,2017-12-27,Merged,462,2,0,,1
+Update mtproto_sender.py,2018-03-01,Closed,454,5,2,,1
+Update authenticator.py,2017-11-24,Merged,453,2,0,,1
+"Add readthedocs, transfer tutorials from wiki to there too",2017-11-21,Merged,448,"1,834",0,py rst ,4
+Reconnection fix in read/write and restore some acks,2017-11-14,Merged,434,70,12,,4
+More safe checking the state of connection,2017-11-12,Merged,427,1,1,,1
+"Added support of ipv6 address (boolean ""use_v6"" parameter in TelegramClient constructor)",2017-11-16,Merged,425,20,5,,3
+Proper offset calculation for markdown,2017-11-05,Merged,407,6,69,,1
+Add faster integer factorization,2017-11-03,Merged,403,35,61,,1
+Support markdown again (implements  #118),2017-10-30,Merged,396,310,5,,3
+Generate TL modules after installing package in development mode.,2018-07-26,Closed,391,8,0,,1
+"Replace old and broken example with new, friendlier code",2017-10-28,Merged,389,137,113,py ,3
+Remove old and outdated example,2017-10-26,Closed,388,0,113,,1
+Make pylint happy with print_updates,2017-10-26,Merged,387,11,10,,1
+Support running tests via setup.py.,2018-10-05,Closed,385,156,20,py cfg ini ,7
+Fix importing dependencies during installing.,2017-10-28,Merged,384,13,18,,4
+Add missing __init__.py to telethon_generator package.,2017-10-25,Merged,382,1,0,,1
+add get all participants functionality,2018-02-23,Closed,380,50,1,,1
+Remove comma,2017-10-24,Merged,376,1,1,,1
+Add example script to print out all updates,2017-10-24,Merged,375,45,0,,1
+Made update system for asyncio functional,2017-10-28,Merged,370,280,259,,3
+Fix: Resend requests on BadServerSalt and BadMsgNotification,2017-10-22,Merged,369,35,4,,2
+F-String removal,2017-10-20,Merged,366,10,16,,1
+No f strings,2017-10-20,Closed,365,18,16,,2
+Save new salt to session file,2017-10-20,Merged,362,1,0,,1
+Fixing python 3.4 compatibility support. issue #357,2017-10-24,Closed,359,31,24,,4
+Autoreconnect from _invoke fix,2017-10-19,Merged,356,1,4,,1
+My stupid mistake in clearing waiting objects,2017-10-18,Merged,353,1,1,,1
+Stupid mistake in release waiting objects on invoke,2017-10-18,Merged,352,1,1,,1
+Probably a mistake with LogOutRequest,2017-10-16,Merged,349,1,1,,1
+Fix parsing for constructors and not objects,2017-10-16,Merged,348,22,4,,2
+Fix vector regex in parser,2017-10-16,Merged,347,1,1,,1
+add exception,2017-10-16,Closed,340,4,1,,1
+add entities,2017-10-28,Closed,334,2,1,,1
+No returns the sent message,2017-10-13,Merged,331,2,2,,1
+fix #329,2017-10-14,Merged,330,2,2,,1
+Updated test for key generation via nonces,2017-10-11,Merged,323,6,6,,1
+Make VCard code slightly clearer and avoid bug with semicolons in names,2017-10-28,Merged,319,8,3,,1
+get_drafts() and a custom Draft class,2017-10-09,Merged,310,99,6,,3
+Moved delete_messages under send_message,2017-10-08,Closed,308,2,2,,1
+titlecase.com,2017-10-08,Closed,301,3,3,,1
+Added warning when adding an update_handler is added but no workers are alive,2017-10-07,Merged,300,4,0,,1
+Use a custom database for entities,2017-10-05,Merged,296,260,137,,2
+Rename last subclass_of_id to upper case,2017-10-02,Merged,285,1,1,,1
+"Designed Logo, added to README",2017-10-02,Merged,283,8,0,rst png xcf ,6
+Delete messages in TelegramClient,2017-10-02,Merged,282,52,8,,2
+Make find_user_or_chat work for message.id again,2017-10-01,Merged,281,9,5,,1
+Remove random 'f',2017-10-01,Merged,279,1,1,,1
+Several parallel connections and update workers,2017-09-30,Merged,277,460,434,,3
+Process messages without pts,2017-09-22,Merged,258,1,1,,1
+Catching WinError 10038,2017-09-21,Merged,254,1,1,,1
+fix issue  https://github.com/LonamiWebs/Telethon/issues/250,2017-09-19,Merged,253,1,1,,1
+Add new example usage code,2017-09-18,Merged,249,113,0,,1
+Add startup script for simple use,2017-09-14,Closed,247,1,0,,1
+New way to work with updates (#237),2017-09-08,Merged,238,165,86,,2
+Fixed username regex,2017-09-07,Merged,235,1,1,,1
+Handle RPCError MESSAGE_NOT_MODIFIED (400),2017-09-05,Merged,231,9,0,,1
+Add libssl interface for AES CTR,2018-02-16,Closed,223,85,15,,1
+Constantly read from the main TelegramClient's socket,2017-09-02,Merged,221,181,332,,2
+added restoring running updates thread on reconnection.,2017-08-31,Merged,217,10,2,,1
+Let .sign_in() call .send_code_request(),2017-08-31,Merged,216,23,18,py ,4
+Faster crypto by using libssl (#199),2017-08-19,Merged,204,90,1,,2
+Fixing log_out problems on mac os devices,2017-08-21,Merged,201,12,6,,1
+Fixing log_out problems on mac os devices,2017-08-18,Closed,200,12,6,,1
+Fix instance error,2017-08-06,Merged,186,1,1,,1
+Download_* now accepts  streams,2017-07-20,Merged,173,43,32,,1
+Added !hd command that dumps message history into file,2017-07-16,Closed,171,197,34,,1
+Json session support added in client initiation validation,2017-07-12,Closed,168,1,1,,1
+Fix setup.py failing on Python < 3.6,2017-06-24,Merged,143,1,1,,1
+Fix bugs related to temporary sessions,2017-06-18,Merged,136,10,10,,1
+fix amount of random bytes `b` should be in DH,2017-06-18,Merged,135,1,1,,1
+Support configuring SOCKS proxy in the example,2017-06-16,Merged,126,8,1,,1
+Code style: use enumerate()'s start parameter,2017-06-16,Merged,125,1,2,,1
+"(Fix) Reconnecting tcp, MTProto sessions, when they are broken",2017-06-16,Merged,123,9,1,,1
+Exclude empty first_name in get_display_name,2017-06-16,Merged,109,7,2,,1
+fix broken link in README,2017-06-13,Merged,108,1,1,,1
+(Fix) Fix api_id type mismatch,2017-06-12,Merged,107,1,1,,1
+(Add) Add to_dict() method,2017-06-12,Merged,106,26,0,,1
+Allow using lists and dicts for passing proxy settings,2017-06-05,Merged,99,6,3,py ,2
+"Enable printing of UTF-8, improvement for #70",2017-05-22,Merged,91,32,13,,1
+Raise an exception if recv() returned 0 bytes,2017-05-20,Merged,90,3,0,,1
+MtProtoSender: Fix crash on receiving unknown RPC results,2017-05-19,Merged,89,13,6,,4
+Serialize flag_indicator argument to flags:#,2017-05-13,Merged,80,3,0,,1
+TelegramClient fixes,2017-05-11,Merged,77,4,11,,1
+Small code fixes,2017-05-09,Merged,75,27,25,,3
+TelegramClient: Perform disconnection on class destruction,2017-05-06,Merged,74,5,1,,1
+TelegramClient.get_dialogs: Rename 'count' argument to 'limit',2017-05-05,Merged,72,4,3,,1
+Update binary_reader.py,2017-05-03,Merged,68,1,13,,1
+add a method to list update handlers,2017-03-28,Merged,40,3,0,,1
+add proxy support using PySocks,2017-03-20,Merged,37,35,8,py ,5
+Doc improvement and force reconnection,2017-03-10,Merged,33,7,3,py ,3
+added pings (fix #24),2017-02-19,Merged,25,34,11,,2
+Fixed download_document(),2017-01-19,Merged,18,1,1,,1
+Code-style improvements,2016-11-30,Merged,11,764,524,py ,6
+Update mtproto_sender.py,2016-10-12,Closed,9,19,5,,1
+Update tcp_transport.py,2016-10-09,Merged,8,2,2,,1

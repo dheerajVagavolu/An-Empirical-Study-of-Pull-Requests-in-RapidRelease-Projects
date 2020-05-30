@@ -1,0 +1,1499 @@
+Fixed some failing tests,2019-12-07,Merged,3019,2,0,,1
+Fixed PHP code syntax,2019-12-07,Merged,3018,3,8,php ,2
+Fixed an issue with default menu items,2019-12-06,Merged,3016,2,1,,1
+Update messages.lt.xlf,2019-12-06,Merged,3015,1,1,,1
+Fix an issue when no default menu is set in config,2019-12-06,Merged,3011,2,0,,1
+Fix compatibility with Symfony 4.4 & 5.0,2019-12-06,Merged,3010,8,3,,3
+Add `property` to PRE_UPDATE and POST_UPDATE events,2019-12-06,Merged,3006,2,2,,1
+Use ManagerRegistry interface from doctrine,2019-12-06,Merged,2999,4,4,,2
+Fix php74 accessarray offset,2019-11-15,Merged,2998,307,256,json rst dist php ,14
+[WIP] CI fix,2019-11-12,Closed,2994,30,135,,10
+Add unit tests for Authorization checker,2019-12-06,Merged,2992,91,0,,1
+Fix compat with Symfony 5.0,2019-11-08,Merged,2988,2,2,php ,2
+Row_attr option.,2019-11-03,Closed,2985,1,1,,1
+"Tweaked the ""confirm action"" feature of batch actions",2019-11-01,Merged,2979,66,21,php xlf twig yml ,15
+Updated file path to Symfony 4,2019-10-28,Closed,2976,1,1,,1
+Updated file location for Symfony 4,2019-10-28,Closed,2974,2,2,,1
+[Cleanup] Removing some useless docblock,2019-10-23,Merged,2972,4,31,,9
+Allow Symfony 5,2019-10-23,Merged,2970,225,194,json dist php ,9
+Tweaked an exception message,2019-10-19,Merged,2966,3,3,yml ,2
+Update EasyAdminBundle.cs.xlf,2019-10-18,Merged,2965,1,1,,1
+Added the docs for EasyAdmin 3,2019-10-19,Closed,2963,"2,364","61,875",,0
+form theme,2019-10-18,Merged,2962,6,4,,1
+add missing translation for continue,2019-10-16,Merged,2960,16,0,,2
+"Tweaked the ""confirm action"" feature of batch actions",2019-10-14,Merged,2959,53,22,xlf twig yml ,13
+Updated JavaScript dependencies,2019-10-11,Merged,2957,922,816,css js ttf eot woff2 woff ,23
+Custom Entity loading on associations,2019-10-15,Merged,2956,1,1,,1
+Updated Danish translations,2019-10-08,Merged,2952,108,4,,1
+Update EasyAdminBundle.cs.xlf,2019-09-30,Merged,2948,1,1,,1
+Update translations for security,2019-09-30,Merged,2947,6,0,,1
+Fixed some failing tests because of recent Doctrine changes,2019-09-30,Merged,2946,55,15,,9
+Missing list with item_permission,2019-09-30,Closed,2945,1,1,,1
+Fixed an undefined property in some edge cases,2019-09-26,Merged,2944,2,2,,1
+Added modal confirmation box for batch actions #2913,2019-10-13,Merged,2943,100,5,xlf twig yml ,7
+json pretty print,2019-09-19,Merged,2939,10,10,,2
+Make EasyAdmin 1.x incompatible with Symfony 5.x,2019-09-19,Merged,2937,3,0,,1
+Fixed the Treebuilder deprecation in 1.x branch,2019-09-17,Merged,2936,12,2,,1
+Added a command to allow migrating from EasyAdmin 2 to EasyAdmin 3,2019-09-19,Merged,2935,110,0,xml ,2
+Generate RTL styles automatically,2019-09-16,Merged,2932,187,43,js json css ,12
+Updated the Twig dependency,2019-09-14,Merged,2930,2,2,php ,2
+Fix: Check for the existence of a called action method,2019-09-12,Merged,2928,6,0,,1
+Make list.html.twig work with older versions of Twig,2019-09-14,Closed,2927,1,1,,1
+Add form_theme_only config option,2019-09-21,Merged,2926,37,5,php twig ,6
+Add and use alias for property_accessor in EasyAdminTwigExtension,2019-10-14,Closed,2925,2,1,,1
+Fixed a regression in the createOrmPaginator method,2019-09-10,Merged,2924,20,5,,1
+Allow to use other kinds of FontAwesome icons,2019-09-14,Merged,2923,16,1,css ,2
+Update EasyAdminBundle.gl.xlf,2019-09-07,Merged,2919,7,3,,1
+Update ViewConfigPass.php,2019-09-07,Merged,2915,2,2,,1
+Fix deprecation for using if tag on for tag,2019-09-07,Merged,2910,3,3,,1
+Brought back bootstrap breakpoints to the theme,2019-09-07,Merged,2909,1,5,css ,2
+enhancement getSubscribedServices(),2019-09-07,Merged,2908,2,2,,1
+Fix: Typo in Arabic,2019-09-07,Merged,2898,11,11,,1
+Fix: typo,2019-09-07,Merged,2897,5,5,rst yml ,5
+Filter translation fix,2019-09-07,Merged,2894,91,2,,22
+Make DateTimeFilterType compat with \DateTimeImmutable instances,2019-09-07,Merged,2893,1,1,,1
+Minor design tweaks for the file upload type,2019-08-10,Merged,2890,12,7,css ,2
+Scroll to the first error,2019-09-21,Closed,2888,6,0,,1
+add block for design js assets,2019-09-07,Merged,2887,6,3,,1
+[FileUploadType] Renaming duplicated files,2019-08-10,Merged,2885,31,11,rst php ,5
+Supporting multiple tab groups in form validation (fixes #2882),2019-08-10,Merged,2884,4,4,,2
+Supporting Doctrine Lifecycle Events in batch delete action (fixes #2881),2019-08-10,Merged,2883,9,9,,1
+Fixing bootstrap import (js) and old webpack config (fixes #2875),2019-08-10,Merged,2880,341,543,json css map ,9
+Fixed a wrong CSS style,2019-08-02,Merged,2879,3,4,css map js ,4
+Fixing inconsistent styles for fields with errors (introduced by me in #2870),2019-08-02,Merged,2877,14,29,css map js ,4
+Simplified some interface elements and translations,2019-08-01,Merged,2876,3,119,twig ,30
+Including TrixEditor styles into the editor preview,2019-07-31,Merged,2874,1,1,,1
+[UX] Implementing visual feedback for invalid form fields (fixes #2867),2019-07-29,Merged,2870,74,11,css map js twig ,6
+"Support for ""required"" tag attribute in EasyAdminAutocompleteType",2019-07-29,Merged,2869,1,0,,1
+Minor redesign for the form collections,2019-07-29,Merged,2868,23,34,css map js twig ,5
+[UX] Show the first nav tab item with errors,2019-07-26,Merged,2865,20,4,,2
+Verify validity for select and textarea inputs,2019-07-27,Merged,2864,19,6,twig ,5
+Fix CSS of the fileupload widget,2019-07-27,Merged,2863,5,7,php css map ,4
+portuguese translations for the filter component,2019-07-26,Merged,2861,90,0,,1
+Added docs for the new file upload type,2019-07-26,Merged,2860,78,3,php ,2
+add select all value in batch action,2019-09-07,Closed,2859,36,1,twig ,2
+Missed pull request -> delete,2019-07-22,Closed,2858,0,0,,0
+Show the file name in the Bootstrap custom file input,2019-07-23,Merged,2857,37,3,css map twig ,4
+Updated the PHP code syntax rules to match Symfony ones,2019-07-20,Merged,2855,582,582,php ,5
+Fixed a bug related to entities with id = 0,2019-07-20,Merged,2854,1,1,,1
+add translation domain to trans filter,2019-07-19,Merged,2853,3,3,,1
+Handle embedded doctrine entities,2019-07-20,Merged,2850,7,1,,1
+Remove manual initialization for collapse and dropdown,2019-07-15,Merged,2845,1,3,,2
+Allow to close flash messages,2019-07-14,Merged,2844,20,2,css map twig ,4
+Added support for append/prepend input groups,2019-07-16,Merged,2843,56,4,twig yml ,4
+Updated frontend dependencies to fix security issues,2019-07-13,Merged,2842,989,729,map js eot woff2 woff ttf svg ,24
+Fixed the aligning of expanded choice filters,2019-07-13,Merged,2841,8,2,css map ,3
+Fixed the default styling of the country flags in the show view,2019-07-13,Merged,2840,4,3,css map ,3
+[Doc] Fixed the table of contents of a chapter,2019-07-13,Merged,2839,2,2,,1
+"Don't display ""required"" markers in filter labels",2019-07-10,Merged,2837,6,2,css map ,3
+Add translation fr for 'is between',2019-07-09,Merged,2835,4,0,,1
+Don't hardcode the --color-primary CSS variable when unneeded,2019-07-10,Merged,2834,24,2,twig php ,4
+Add FileUploadType form type for easy file uploading,2019-07-20,Merged,2833,702,4,js php ,4
+Translate dates into user locale,2019-09-07,Closed,2831,384,41,php ,2
+Minor fix in the design of exception pages,2019-07-07,Merged,2830,2,1,,1
+Allow to configure permissions for show/edit/new,2019-07-08,Merged,2829,467,50,php xml xlf twig ,13
+Support choice_loader in 'choice' field type.,2019-07-08,Closed,2828,9,0,,1
+Made the paginator element compatible with Bootstrap component,2019-07-06,Merged,2827,61,27,scss css map twig php ,7
+update deprecated AdminController reference in docs,2019-07-06,Merged,2826,1,1,,1
+[Doc] simplify some docs thanks to the new options,2019-07-06,Merged,2825,23,30,,1
+fix(filters): test join columns only for single valued associations,2019-07-05,Merged,2824,10,8,,1
+feat(theme): add id to collections buttons add and remove,2019-07-05,Merged,2823,3,3,,1
+fix(composer): remove symfony/cache-contracts dependency,2019-07-05,Merged,2821,0,1,,1
+[Doc] Fix override template property type,2019-07-05,Merged,2820,1,3,,1
+Added some docs about the translation_domain option,2019-07-06,Merged,2817,40,1,php ,2
+feat(filters): only add placeholder for entity type if at least one join column is nullable,2019-07-03,Merged,2816,6,1,,1
+fix(translations): fix French filters translations,2019-07-03,Merged,2814,2,2,,1
+Fix text_editor and code_editor HTML input name,2019-07-03,Merged,2813,2,2,,1
+"Add security permissions to the ""list"" view",2019-07-06,Merged,2810,316,42,rst png php css map xlf twig yml ,14
+Add new NumericFilterType and support for between comparison,2019-07-02,Merged,2809,358,34,xml xlf twig yml ,11
+Updated RU & UK translations,2019-07-01,Merged,2808,172,0,,2
+Fix for collection widget,2019-07-09,Closed,2807,8,0,,1
+Allow to define security permissions for menu items,2019-07-01,Merged,2806,228,11,php xml twig yml ,10
+Allow to define the form type help message using the type_options config,2019-06-29,Closed,2805,13,1,php ,2
+Add missing translations for nl,2019-06-28,Merged,2804,124,0,,1
+Add ChoiceFilterType and other simplifications,2019-06-28,Merged,2800,476,359,,10
+Add support for unmapped filter fields,2019-06-26,Merged,2794,52,17,php yml ,4
+Added a new text editor form type based on Trix,2019-06-28,Closed,2792,165,4,js rst json php map ,12
+Add 'label.form.empty_value' in translation fr,2019-06-24,Merged,2791,4,0,,1
+[Doc] Improve the docs about configuring the logged user info,2019-06-23,Merged,2789,12,7,,1
+Added Turkish translations for filters,2019-06-23,Merged,2788,90,0,,1
+Removed the bootstrap-all files,2019-07-06,Closed,2787,58,192,scss css js rst map json ,18
+"Updated the design of the ""login form"" sample page",2019-06-23,Merged,2786,17,4,css map twig ,4
+list-search-show-configuration: fix doc typo,2019-06-21,Merged,2783,1,1,,1
+added italian translations,2019-06-21,Merged,2782,86,0,,1
+Fixed ArrayFilterType issue and add support for multiple => false,2019-06-21,Merged,2781,58,17,,2
+feat(filters): add French translations,2019-06-20,Merged,2780,86,0,,1
+Fixed typo in new.html.twig template,2019-06-19,Merged,2778,1,1,,1
+New Paginator based on Doctrine Pagination,2019-09-07,Closed,2777,151,33,php xml twig ,9
+Removed dead code and simplification,2019-06-19,Merged,2776,19,59,xml ,6
+Add tests for filtering classes,2019-06-18,Merged,2774,958,0,,7
+Translated the new filters feature into German,2019-06-17,Merged,2773,86,0,,1
+"Making ""easyadmin.filter.registry"" service as public.",2019-06-16,Merged,2772,2,2,,1
+Translated the new filters feature into Polish,2019-06-18,Merged,2771,86,0,,1
+Translated the new filters feature into Spanish,2019-06-16,Merged,2768,172,86,,2
+"Added a ""code"" form type",2019-06-26,Merged,2766,293,5,css js rst json php xml map ,12
+Excluding the filter type guesser from the form type guessers group,2019-06-16,Merged,2765,11,1,,2
+Tweaked the new filter system,2019-06-15,Closed,2764,200,182,php ,5
+"Added a new ""avatar"" type for datagrids",2019-06-15,Closed,2760,105,5,rst php css map twig ,10
+"Added a ""country"" type for datagrids",2019-06-15,Closed,2757,282,4,png rst php css map ,300
+Form tabs - handling css_class parameter for form tabs,2019-06-30,Merged,2756,1,1,,1
+Improving the filters system,2019-06-15,Merged,2755,859,406,php ,7
+Don't throw in PropertyAccessor when property doesn't exist,2019-06-15,Closed,2753,11,6,,1
+Finished the new feature to filter list/search results,2019-06-11,Merged,2751,628,176,rst php ,5
+Add DateTimeFilter to cover both types (time and date),2019-06-10,Closed,2750,29,12,,2
+fix(vich-uploader): fix widget display,2019-06-18,Merged,2749,18,6,twig ,2
+Create a custom cache pool based on system cache,2019-06-03,Closed,2747,11,14,php xml ,3
+Display error badges when using tabs in edit/new forms,2019-06-03,Closed,2746,83,2,,2
+Updated the form help messages for Bootstrap 4,2019-06-02,Merged,2745,8,8,css map twig php ,7
+Fixed the code syntax issues of all code,2019-06-01,Merged,2744,12,16,,11
+Fixed some minor issues in translation files,2019-06-01,Merged,2743,3,3,,3
+Updated the Travis config,2019-06-01,Closed,2742,16,18,json ,2
+Fixed the handling of the default search sorting,2019-06-01,Merged,2741,58,37,twig ,4
+Add support for list filters,2019-06-05,Merged,2740,"1,051",9,js php ,9
+Exclude the actions column from result highlighting,2019-05-30,Merged,2739,1,1,,1
+url_encode referer in delete_form instead of from callers,2019-05-29,Closed,2737,2,2,,2
+Fixed some issues in the docs,2019-05-29,Merged,2736,4,4,,1
+Fix tests deprecations,2019-05-27,Closed,2735,29,29,twig ,2
+Set correct Symfony requirements,2019-05-25,Merged,2733,4,2,,0
+Add optional batch response to AdminControllerTrait.php,2019-05-25,Merged,2732,5,2,,1
+Fixed passing invalid sorting parameters to search action,2019-05-25,Merged,2730,4,4,,1
+Improved the docs about FOS CKEditor integration,2019-05-25,Merged,2729,11,0,,1
+fix(form-theme): do not display empty collection block when the form is compound and its value is null,2019-05-25,Merged,2728,3,2,,1
+Use PSR-4 Twig namespace everywhere,2019-05-15,Merged,2726,13,11,,2
+Fix ExceptionListener @final deprecation,2019-05-14,Merged,2724,8,24,xml ,3
+Fix tests,2019-05-14,Merged,2723,160,317,,12
+Fix EventDispatcher::dispatch() argument order deprecation on Symfony 4.3,2019-05-14,Merged,2722,6,1,,1
+Custom label in `url` type fields inside show/list,2019-05-27,Closed,2721,30,2,twig ,2
+Downgrade of select2 to 4.0.5,2019-05-14,Merged,2720,118,138,css map js ,14
+Upgrade select2.,2019-05-10,Closed,2719,0,0,,0
+Replaced the spaceless tag by the apply tag,2019-05-25,Merged,2717,117,117,twig ,7
+Updated front-end dependencies,2019-05-04,Merged,2713,"2,234","1,204",css js json ,17
+Logout documentation,2019-05-04,Merged,2711,16,0,,1
+Trim whitespaces in tab header.,2019-05-04,Merged,2710,5,5,,1
+"Filled ""form.tab.error_badge_title"" translation in Polish language.",2019-05-04,Merged,2709,4,0,,1
+Show all FontAwesome icons with fixed width,2019-04-28,Closed,2707,35,35,php ,14
+Filled missing Lithuanian translations.,2019-04-25,Merged,2705,8,4,,1
+[Deprecated] use filter spaceless instead tag,2019-05-07,Closed,2704,22,22,twig ,5
+Fixed width for action icons in list view,2019-04-25,Merged,2700,6,6,php ,2
+Upgrade of Font Awesome to v5.8,2019-04-25,Merged,2699,"8,820","2,686",json css map woff woff2 ttf eot svg lock ,26
+Replaced `%entity_name%` with `%entity_label%` inside `x.page_title` …,2019-05-07,Merged,2698,145,145,,16
+fix(image-preview): support svg,2019-04-28,Merged,2697,1,0,,1
+fix(help-text): use form translation domain,2019-04-15,Merged,2693,2,2,,2
+Action templates,2019-06-01,Merged,2692,189,6,php twig yml ,14
+"Custom translation for ""Add item"" collection buttons",2019-09-19,Closed,2683,15,1,,1
+Added a note about required fields,2019-04-04,Closed,2681,7,0,,1
+Updated some outdated docs,2019-03-27,Merged,2679,4,20,,1
+Don't override the primary color definition with custom CSS,2019-03-27,Merged,2678,4,4,,1
+Added missing Italian translations,2019-03-25,Merged,2675,17,5,,1
+Missing paginator.results translation for Italian,2019-03-25,Merged,2674,4,0,,1
+Override function add dqlFilter in doc,2019-05-25,Merged,2668,2,2,,1
+Add german exception messages,2019-03-25,Closed,2666,22,0,,1
+Update height and padding for input,2019-04-04,Closed,2664,10,9,,4
+Update base.scss,2019-03-14,Closed,2663,1,1,,1
+Fix web and mobile fields,2019-03-26,Closed,2661,2,2,,2
+Add paginator.results translation to EasyAdminBundle.ru.xlf,2019-03-13,Closed,2660,4,0,,1
+Update select2.scss when form error,2019-05-30,Merged,2658,4,0,,1
+Fix Help text,2019-06-02,Closed,2657,7,15,css twig php ,6
+Update select2.scss,2019-03-14,Closed,2656,5,4,,1
+Remove duplicate .form-control,2019-03-13,Merged,2655,2,2,,1
+Add default sort configuration,2019-05-28,Closed,2651,12,2,,2
+Update AdminController to EasyAdminController,2019-03-25,Merged,2646,1,1,,1
+Fix some JavaScript issues for some special pages,2019-02-23,Merged,2644,25,16,,1
+Update for Turkish translations,2019-02-20,Closed,2638,12,0,,1
+"Added some common page templates (login form, content page, blank page)",2019-02-18,Closed,2636,608,6,rst css map xlf ,16
+Updated Bulgarian translation,2019-02-16,Closed,2634,35,1,,1
+Add box shadow and fixed column width for actions dropdown,2019-02-12,Merged,2629,5,4,css map twig ,4
+Improved how the help content is displayed,2019-02-10,Closed,2626,25,22,css map twig ,4
+Tweaks and docs for the new actions dropdown,2019-02-09,Closed,2625,83,12,rst css map twig php ,8
+"Fix namespace in ""New Base Controller"" section",2019-02-09,Merged,2623,2,2,,0
+Fix search action for `simple_array` type,2019-02-12,Closed,2622,1,1,,1
+Collapsible actions for rows in list/search,2019-02-07,Merged,2620,54,10,js php css map twig yml ,13
+Enable distinct element count in paginator for some cases,2019-02-05,Merged,2618,4,1,,1
+Restrict css selector for form-tabs to avoid overloading too much style,2019-02-05,Merged,2617,4,4,,1
+Allow to configure the information displayed for logged in users,2019-02-06,Merged,2615,166,13,rst php css map twig ,8
+"Deal with ""uuid"" postgres data type",2019-02-04,Merged,2611,1,1,,1
+Remove the menu backdrop element on click/toggle,2019-02-04,Merged,2609,9,4,,1
+Tweaks and improvements for the new batch actions,2019-02-04,Closed,2608,996,21,rst php css map xlf ,23
+Improving the use of Data-Transfer-Object on new/edit actions,2019-02-09,Merged,2607,191,6,twig yml ,7
+Fixed the way menu headers are displayed,2019-01-31,Merged,2606,12,5,css map ,3
+Disable distinct element count in paginator,2019-01-31,Merged,2605,4,1,,1
+Pass the full item/entity to the actions template,2019-01-31,Merged,2604,6,3,,3
+"Don't use ""absolute path"" for assets",2019-02-16,Merged,2603,81,81,css map json ,6
+Added support for case insensitive text search in PostgreSQL,2019-01-30,Merged,2602,2,1,,1
+Update configuration-reference.rst,2019-01-30,Closed,2601,0,2,,1
+WIP: Implement role-based security,2019-06-21,Closed,2600,307,35,xml twig ,12
+Customizing autocomplete results,2019-03-07,Closed,2598,104,33,twig yml ,13
+Improved test fixtures,2019-01-27,Merged,2596,8,"29,768",,7
+Fixed some edge cases in the new responsive layout,2019-01-25,Closed,2594,44,23,css map twig ,5
+Hide the content footer in show page,2019-01-24,Merged,2593,2,0,,1
+Sort entity on autocomplete action,2019-02-12,Closed,2592,25,4,php ,3
+Hide the content footer in edit/new pages,2019-01-23,Merged,2591,4,0,,2
+[1.x] Can add a key submit_label to override submit button default value,2019-02-09,Closed,2590,1,1,,1
+[master] Can add a key submit_label to override submit button default value,2019-01-23,Closed,2589,1,1,,1
+Add wrapper blocks and avoiding process blocks twice,2019-01-23,Merged,2585,6,8,,1
+Implemented a responsive layout,2019-01-23,Closed,2584,408,188,,5
+Update complex-dynamic-backends.rst,2019-01-23,Merged,2582,10,10,,1
+Introduce batch action feature,2019-02-02,Merged,2578,358,2,php xml css map ,9
+added missing translation pt paginator.results,2019-01-17,Merged,2576,5,1,,1
+Add pl translation user.exit_impersonation,2019-01-17,Merged,2574,4,0,,1
+Fix polish translation for search.page_title and paginator.results,2019-01-17,Merged,2571,2,2,,1
+Updated the docs to not frustrate newcomers,2019-01-10,Closed,2570,9,5,,1
+Update year in license file,2019-01-09,Merged,2569,1,1,,0
+Add missing 'nl' translation for key 'paginator.results',2019-01-09,Closed,2568,4,0,,1
+Route to the new controller,2019-01-09,Merged,2567,1,1,,1
+2563 Add missing pl translation for paginator.results,2019-01-09,Merged,2564,4,0,,1
+Button labels in <label> tag,2019-01-10,Closed,2561,19,12,css map twig ,6
+Minimum responsive behavior + collapsible sidebar,2019-01-21,Closed,2560,184,45,css js php map xlf ,32
+Add missing 'pl' translation for key 'paginator.results',2019-01-09,Closed,2558,4,0,,1
+Add missing 'cs' translation for key 'paginator.results',2019-01-09,Closed,2557,4,0,,1
+Fix doctrine filters documentation link,2018-12-23,Closed,2552,1,1,,1
+Improve the button styles,2018-12-22,Merged,2550,587,595,php css map twig yml ,13
+add custom blocks to header menu,2019-05-07,Merged,2549,14,12,,1
+Mention the Rector PHP set in the UPGRADE guide,2018-12-20,Merged,2545,7,0,,0
+Fixed UPGRADE-2.0.md about AdminController,2018-12-20,Merged,2544,2,2,,0
+Updated the docs for Symfony 4,2018-12-20,Merged,2542,2,2,,1
+install PHPUnit before running tests,2018-12-19,Merged,2541,1,0,,1
+Button style only from variables,2018-12-22,Closed,2538,209,282,php yml ,15
+fix PHP 5.3 compatibility,2018-12-19,Merged,2535,4,1,php ,2
+Always show the footer pagination,2018-12-19,Merged,2532,24,26,,1
+Do not override whole popover interface for user menu,2018-12-22,Closed,2531,28,25,twig ,2
+Remove numeric label for collection items by default,2018-12-22,Closed,2530,9,4,php ,2
+Allow embedded extended controller actions,2018-12-19,Merged,2529,0,4,,1
+Allow to disable labels for fields,2018-12-19,Merged,2526,149,32,php twig yml ,15
+Don't show broken images for optional images,2018-12-22,Closed,2525,11,6,,1
+Updated Select2 dependency to 4.0.6,2018-12-19,Merged,2524,69,65,css map js ,23
+Don't allow null values for fields which are nullable but required,2018-12-20,Closed,2523,2,1,,1
+"Improved the design of the ""no results"" search page",2018-12-15,Merged,2521,10,2,css map ,3
+Simplified the docs about customizing the backend design,2018-12-15,Closed,2516,150,237,,1
+Get rid of transchoice filters,2018-12-13,Closed,2515,8,30,twig php yml ,8
+Added some tests about custom templates and form views,2019-02-04,Merged,2514,22,0,,2
+Use the same button size classes as Bootstrap 4,2018-12-12,Merged,2513,5,5,css map twig ,4
+Fixed the use of HTML in help messages,2018-12-12,Merged,2512,3,3,php yml ,3
+Resolve missing controller deprecations,2018-12-11,Merged,2509,4,4,yml ,4
+Resolve transchoice deprecation warning,2018-12-11,Merged,2508,27,4,php ,2
+Missing FR translation,2018-12-11,Merged,2506,4,0,,1
+Limit the image width when using an image as the logo,2018-12-10,Merged,2505,6,3,css map ,3
+Apply datagrid hover on th,2018-12-11,Merged,2504,1,1,,1
+Add missing french translation,2018-12-10,Merged,2502,4,0,,1
+Do not restrict select2 to #main,2018-12-10,Merged,2499,1,1,,1
+Remove adminlte_options block,2018-12-10,Merged,2498,1,15,php ,2
+Use form help when available,2018-12-10,Merged,2497,2,2,,1
+Check user before displaying it,2018-12-10,Merged,2496,2,2,,1
+Added missing german translation for paginator.results,2018-12-08,Closed,2495,4,0,,1
+Added an UPGRADE guide to 2.x version,2018-12-07,Merged,2494,106,0,,0
+Allow for easier ajax usage of newAction,2019-02-09,Closed,2491,12,1,,1
+Deprecating AdminController in favor of EasyAdminController with AbstractController class,2018-12-07,Merged,2490,871,796,xml yml ,11
+Fix pluralization,2018-12-05,Merged,2489,1,1,,1
+Fixed an edge case that prevented translating the menu contents,2018-12-05,Closed,2487,3,2,,1
+PHP >= 5.3.0 compatibility in TemplateConfigPass,2018-12-05,Merged,2485,1,1,,1
+Minor simplification in DI config class,2018-12-04,Closed,2483,1,5,,1
+Fixed a config issue,2018-12-04,Merged,2482,2,2,,1
+Don't make ConfigPassInterface final,2018-12-04,Merged,2481,2,4,,1
+Use trans instead of deprecated transchoice,2018-12-04,Closed,2479,6,6,,5
+Minor improvements in DI classes,2018-12-03,Closed,2476,28,17,,2
+Fixed some issues found by PHPStan,2018-12-02,Closed,2475,25,20,,6
+Use Form Type classes everywhere,2018-12-02,Merged,2473,13,9,,3
+Don't extend from the deprecated Controller class,2018-12-06,Closed,2472,59,7,xml ,3
+Minor improvement in the exception listener,2018-12-02,Merged,2470,11,11,twig ,2
+Updated the exception listener,2018-12-02,Merged,2469,16,51,php css map twig ,5
+Removed some deprecations related to templates in tests,2018-12-01,Closed,2468,2,1,twig ,11
+Fixed some translation deprecations in tests,2018-12-01,Closed,2467,3,2,,3
+Removed the TreeBuilder deprecation,2018-12-01,Closed,2466,13,3,php ,2
+Removed more deprecated features from earlier Symfony versions,2018-12-01,Merged,2465,5,27,,1
+Make Controllers extend from the AbstractController,2018-12-01,Closed,2464,4,4,,2
+Removed the deprecated getName() method in form types,2018-12-01,Merged,2463,0,48,,6
+Simplified the Controller listener,2018-12-01,Merged,2462,4,13,yml ,2
+Simplified the DesignConfigPass class,2018-12-01,Closed,2461,2,17,xml ,3
+"Applied PHP-CS-Fixer and enabled the ""native_function_invocation"" rule",2018-12-01,Merged,2460,485,484,php ,6
+Fixed some issue found by Php Inspections (EA Ultimate),2018-12-01,Closed,2459,31,33,twig ,18
+Fixed issues found by SymfonyInsight,2018-12-01,Closed,2458,32,36,twig php ,3
+Added some missing instructions in a doc article,2018-12-01,Closed,2457,16,4,rst ,2
+"remove stray ""adm""",2018-11-30,Merged,2455,1,1,,1
+Strip HTML tags from flash messages,2018-11-29,Merged,2452,1,1,,1
+Fixed the handling of referer URLs in show view,2018-11-28,Merged,2448,1,2,,1
+Include the select2 i18n files,2018-11-28,Merged,2447,435,623,map js json ,24
+Fixed a FormTypeExtensionInterface deprecation,2018-11-28,Closed,2446,9,0,,1
+Maintain the selected menu when making an empty search,2018-11-28,Merged,2444,2,2,,1
+fixed menuIndex=0 menu don't display,2018-11-26,Closed,2440,3,3,,1
+Don't automatically escape flash messages,2018-11-29,Closed,2439,1,1,,1
+Final deprecations for 1.x version,2018-11-25,Closed,2438,34,14,php ,7
+Remove deprecated features and docs,2018-11-27,Closed,2436,228,"2,834",rst ,4
+Deprecated the feature to override templates by convention,2018-11-24,Merged,2435,25,1,php ,4
+Deprecated some options related to forms,2018-11-24,Merged,2434,28,1,php ,5
+Deprecated the form theme shortcuts,2018-11-24,Closed,2433,64,996,php yml ,7
+Updated the WYSIWYG tutorial to use FOS CKEditor,2018-11-24,Merged,2432,17,17,,1
+select2 css fix,2018-11-23,Merged,2429,5,0,,1
+"Bug fix, add |raw filter for help message",2018-11-21,Merged,2427,2,2,,1
+Prevent multiple form submissions when creating entities,2018-11-21,Closed,2425,12,0,,1
+Add support for searching by multiple nested associations,2018-11-21,Merged,2424,14,7,,1
+Added a new theme for EasyAdmin 2.x,2018-11-20,Closed,2415,"10,571","4,297",gitignore scss ,4
+Delete old issue template,2018-11-11,Merged,2414,0,10,,0
+Enabled the form type configurator for FOS CKEditor,2018-11-11,Closed,2410,5,0,,1
+Improved the performance of cache manager,2018-11-11,Closed,2409,8,4,,1
+Update .travis.yml,2018-11-03,Closed,2407,2,0,,1
+Fix context menu selection loss,2018-11-27,Merged,2405,1,1,,1
+Add a feature that introduce simple DTOs to EasyAdmin's workflow,2019-04-25,Closed,2403,"1,682",11,,2
+Add galician translation,2018-11-03,Merged,2400,229,0,,2
+Adding missing instruction to update the Kernel,2018-11-30,Closed,2394,13,0,,1
+Required font-size default,2018-11-11,Closed,2393,0,1,,1
+Allow pagerfanta 2,2018-11-03,Merged,2392,1,1,,1
+Require Symfony 4.1,2018-10-14,Merged,2390,25,25,,1
+Removed some deprecated features,2018-10-13,Merged,2389,1,"1,134",yml ,15
+Updated the docs for Symfony 4 + Flex + EasyAdmin 2.x,2018-10-13,Merged,2388,383,531,,3
+Make documentation more user friendly,2018-10-13,Closed,2387,14,0,,1
+Simplified the configuration management and processing,2018-10-13,Closed,2385,82,243,,7
+Added an option to customize the CSS class of menu items,2018-10-11,Merged,2383,65,4,php twig yml ,5
+Improved the vich_image_widget template,2018-10-09,Merged,2380,14,8,,1
+Fixed the order of update events in AJAX edits,2018-10-06,Merged,2379,3,3,,1
+Added some notes about routing and annotations,2018-10-06,Merged,2378,15,0,,2
+Updating DataCollector links,2018-10-06,Closed,2376,3,3,,1
+Make add new item javascript in collections use the correct prototype name.,2018-10-04,Merged,2375,3,3,,1
+Add default field for percent type. Fixes #2208.,2018-10-02,Merged,2374,7,0,twig ,2
+Fix missing default template for dateinterval type.,2018-10-01,Closed,2372,13,5,twig ,8
+Made tests green again in 1.x branch,2018-09-29,Closed,2371,379,33,php twig ,13
+Fixed the sorting of search results,2018-09-29,Merged,2370,2,2,,1
+Add check when to add easyadmin field variable to form views.,2018-09-29,Merged,2369,9,1,,1
+"Force ""list"" and ""show"" value to fallback to specified field template",2018-10-12,Closed,2368,129,0,yml ,9
+select2 4.0.5,2018-09-26,Closed,2367,91,69,,16
+Add missing translation domain for the help message of a managed entity.,2018-09-26,Closed,2366,1,1,,1
+Fixed errors on Travis CI servers,2018-09-22,Closed,2362,13,16,php ,5
+"close #2360 add fulltext title attribute in ""list-string-fields""",2018-09-22,Closed,2361,3,1,,1
+Replace VichUploader trans delete keys,2018-09-22,Closed,2358,2,2,,1
+Remove all references for glyphicons in stylesheet files.,2018-09-22,Merged,2357,6,6,,0
+[Feature] Fast search by id,2018-09-22,Closed,2355,8,0,,1
+Added path for Symfony Flex,2018-09-17,Closed,2354,3,2,,2
+"add support for tab, group, and section separators in view mode",2018-10-13,Closed,2353,118,13,,1
+Fix some typos in Ukrainian translations,2018-09-17,Merged,2351,6,6,,2
+Pass the $form to updateEntity and persistEntity,2018-09-17,Closed,2350,3,3,,1
+Now works with DEFERRED_EXPLICIT tracking policy,2018-09-19,Merged,2349,1,0,,1
+Fix sorting field detection for related attributes on table header in list view,2018-09-23,Merged,2345,1,1,,1
+Add check for search action - sort direction,2018-09-23,Merged,2343,4,0,,1
+Update Search action - Add sortDirection check,2018-08-31,Closed,2342,4,0,,1
+Adding a pagination,2018-09-26,Closed,2338,40,0,twig ,3
+add missing required packages,2018-08-24,Merged,2333,3,0,,1
+fix compatibility with PHP 5,2018-08-24,Merged,2331,0,7,json ,2
+Added serbian translation,2018-09-17,Closed,2324,237,0,,2
+add possibility to define (different) assets per entity,2018-09-19,Closed,2319,20,1,,1
+add css_class and icon_class to render_menu_item macro,2018-10-10,Closed,2318,2,2,,1
+Update Spanish translation,2018-08-10,Closed,2317,1,1,,1
+Changing the routes to config files,2018-09-19,Closed,2314,6,5,,1
+Fix undefined $name variable,2018-08-03,Merged,2313,2,2,,1
+Add warning button color,2018-08-10,Closed,2312,20,8,,1
+Allow installation of pagerfanta 2.0,2018-08-10,Merged,2309,1,1,,1
+Update actions-configuration.rst,2018-09-23,Closed,2302,1,1,,1
+Added exact error message,2018-08-10,Closed,2301,3,3,,1
+ship a forward compatible annotation route loader,2019-09-07,Closed,2300,397,172,json php ,10
+drop dependency on the doctrine/common package,2018-08-10,Merged,2299,17,3,php ,2
+use the Route annotation from the Routing component,2018-07-24,Merged,2298,2,4,php ,4
+fix compatibility with recent PHPUnit versions,2018-07-24,Merged,2297,21,6,,2
+fix deprecated code usages,2018-08-01,Merged,2288,31,13,yml ,7
+"Remove deprecations, fix #2279",2018-08-11,Closed,2287,10,33,php yml ,8
+Replace deprecated SensioFrameWorkBundle @Route annotation,2018-09-19,Closed,2284,8,20,yml ,5
+Fix #1968 [Bug] Add workaround for cache permissions dev environment,2018-07-10,Closed,2277,1,1,,1
+JSON encoding nested arrays avoids Twig Exception,2018-06-27,Closed,2275,1,1,,1
+Add FOSCKEditorBundle support,2018-09-19,Merged,2267,53,0,,2
+fixed handling of namespaced templates,2018-08-02,Merged,2262,32,11,,1
+[Bugfix] Caching config without property path,2018-10-11,Closed,2260,62,14,xml ,4
+[Bugfix] Depend on router instead of router.default,2018-06-12,Merged,2259,1,1,,1
+Fixed code syntax to make tests green again,2018-06-10,Merged,2258,2,3,,1
+Set the precise date of version release 1.16.4,2018-06-10,Merged,2256,1,1,,0
+Set the precise date of version release 1.16.4,2018-06-09,Closed,2255,"1,893","9,072",md php_cs json rst ,6
+Disable the linting of XLIFF files,2018-06-09,Merged,2254,2,1,,1
+Fixed code syntax issues,2018-06-09,Merged,2253,4,5,,3
+make use of the namespaced base test case class,2018-06-09,Merged,2251,15,7,,7
+use the Precise environment for PHP 5.3 only,2018-06-09,Merged,2250,1,1,,1
+save a lot of template exists checks,2018-06-10,Merged,2249,18,2,php ,2
+Fix edit and remove list actions #2241,2018-10-09,Merged,2242,1,1,,1
+Add friendsofsymfony/ckeditor-bundle support,2018-09-22,Closed,2239,7,0,,2
+update doc integration,2018-06-09,Closed,2237,1,1,,1
+#2203 Update the bootstrap form themes,2018-11-11,Closed,2236,133,214,php twig yml ,30
+Allow line break from translation in help message,2018-06-09,Merged,2235,1,1,,1
+Fix #1968 [Bug] Add workaround for cache permissions dev environment,2018-06-10,Closed,2234,5,0,,1
+Add help on checkbox/radio fields,2018-06-09,Closed,2232,4,0,,1
+fixed tabs translations,2018-06-09,Merged,2226,1,1,,1
+Show/Use entities depending on user's roles,2018-09-23,Closed,2218,85,4,xml ,4
+Controlling entities accessibility and menu items depending on user's roles,2018-05-02,Closed,2217,125,38,xml ,3
+Allow embeddables 1 x,2018-10-09,Closed,2209,25,3,,1
+"Replace `$isSortedByDoctrineAssociation` by a more precise method, as…",2018-04-24,Closed,2207,25,3,,1
+Allow embeddable in search,2018-04-23,Closed,2206,"1,889","8,593",md php_cs json rst php ,8
+Fix #2195 [Bug] Request-URI Too Large,2018-04-17,Merged,2201,2,1,,1
+[Doc] Added a note in the first backend chapter,2018-04-16,Merged,2197,1,0,,1
+Make form groups collapsible,2018-04-17,Merged,2193,17,1,twig ,2
+#1632 renderTemplate now supports custom render method,2018-09-26,Closed,2192,8,2,,1
+Add german translation for impersonate logout,2018-03-29,Merged,2188,4,0,,1
+fixed spelling mistake,2018-03-29,Closed,2183,1,1,,1
+"Removed the ""light"" color scheme",2018-06-09,Closed,2181,12,484,php ,3
+[Doc] fixed some issues in the VichUploader integration tutorial,2018-03-17,Merged,2180,9,1,,1
+Update your-first-backend.rst,2018-03-17,Closed,2179,3,3,,1
+Fix #2153 the way backend config is cached,2018-03-16,Closed,2178,1,1,,1
+"Deprecated the ""light"" color scheme",2018-03-16,Closed,2176,21,0,php ,3
+"Defined a default typography for the h1, h2, h3, ... headings",2018-03-16,Merged,2175,4,0,,1
+Use the HTML <time> element to display date and time related properties,2018-03-16,Merged,2174,4,4,,4
+"Strip HTML tags from text properties in ""list"" view by default",2018-03-16,Closed,2173,16,2,php ,3
+Minor tweaks to translation files,2018-03-15,Merged,2171,8,8,,6
+Update front deps,2018-03-17,Closed,2170,44,52,css twig ,10
+Added greek translation files,2018-03-15,Closed,2169,237,0,,2
+Allow to translate flash messages,2018-03-16,Merged,2168,1,1,,1
+Allow edit/add EntityType items managed by EasyAdmin,2018-12-15,Closed,2164,276,40,xml js twig ,12
+Create messages.fa.xlf,2018-03-14,Closed,2163,51,0,,1
+Add Persian Translation File,2018-03-14,Closed,2162,186,0,,1
+Updated the GitHub issue and PR templates,2018-03-12,Merged,2161,7,8,,0
+Fixed code syntax to make tests green again,2018-03-12,Merged,2160,16,16,,2
+Improve text for czech (cs) language in delete modal,2018-03-12,Closed,2159,1,1,,1
+Fix count collection after remove items,2018-03-17,Closed,2158,7,0,,1
+"Add dir=""rtl"" attribute to list tables when needed",2018-03-12,Merged,2156,3,3,,1
+Added tests and tweaked the new redirection logic,2018-03-12,Merged,2155,36,17,yml ,3
+Fix VichUploaderBundle example,2018-03-10,Merged,2152,1,1,,1
+2099: Redirect problems,2018-03-11,Closed,2150,38,10,,2
+Refactored some parts of the cache system,2018-03-09,Closed,2148,58,23,xml ,3
+Removed more deprecated methods,2018-03-08,Merged,2147,1,218,yml ,5
+"The ""Next Chapter"" link in book chapters",2018-03-08,Closed,2146,32,0,,8
+Continue 2134,2018-03-07,Closed,2142,171,34,yml ,7
+Redirect changes,2018-03-09,Closed,2141,63,8,xlf ,4
+Trigger a proper deprecaton notice when using the deprecated route name,2018-03-06,Merged,2139,4,0,,1
+Remove deprecated route,2018-03-06,Merged,2137,0,3,,1
+Added trigger_error for methods with prefix 'pre',2018-03-06,Closed,2134,28,0,,3
+"Added tests and docs for the new ""rel"" attribute feature",2018-03-04,Closed,2131,55,2,php yml ,3
+noreferrer option for external links from menu,2018-03-04,Closed,2130,10,1,twig ,2
+Replace Doctrine Cache dependency by Symfony Cache,2018-03-08,Closed,2128,226,229,php ,4
+Refactored the LegacyFormHelper into FormTypeHelper,2018-03-04,Closed,2127,65,70,,9
+Improvements found with PhpInspections and PhpStorm,2018-03-04,Closed,2125,10,14,,6
+Improved the use of list(),2018-03-03,Merged,2124,3,3,,2
+Always use mb_substr() and use PHP 7.1 negative offsets for strings,2018-03-03,Merged,2123,12,12,,8
+Switched to PHP short array notation,2018-03-03,Merged,2122,680,680,php ,7
+Switched to short array notation,2018-03-03,Closed,2121,689,689,php ,7
+Fix typehint doc,2018-03-03,Merged,2120,4,4,,1
+Unnecessary call arguments specification,2018-03-03,Merged,2119,2,2,,2
+Use new Twig namespace,2018-03-03,Merged,2118,16,13,,1
+Return value type is not compatible with declared.,2018-03-03,Merged,2117,2,2,,1
+'empty(...)' usage,2018-03-03,Merged,2116,1,1,,1
+Missing @throws tag(s),2018-03-03,Closed,2115,29,1,,11
+Using fully-qualified function calls is faster,2018-03-03,Merged,2114,49,49,,17
+'in_array(...)' misused,2018-03-03,Merged,2113,1,1,,1
+Null coalescing operator can be used,2018-03-03,Merged,2112,18,20,,8
+::class can be used,2018-03-03,Closed,2111,108,58,,9
+"Substr invokes additional memory allocation, which is not needed in the context. Strpos will do the same job, but without any overhead (it's just searching a string).",2018-03-03,Merged,2110,2,2,,1
+Remove unused method,2018-03-03,Merged,2109,0,16,,1
+Nested ternary operator should not be used.,2018-03-03,Merged,2108,4,7,,1
+Short syntax for applied operation,2018-03-03,Merged,2107,1,1,,1
+Remove form delete_empty legacy BC,2018-03-03,Merged,2106,2,5,,1
+Access modifiers shall be defined,2018-03-03,Merged,2105,25,25,,4
+"Method call uses 3 parameters, but method signature uses 2 parameters",2018-03-03,Merged,2104,1,1,,1
+Initialize AutoCompleteFields in collections on item-add,2018-03-03,Closed,2103,13,17,,0
+Added some Swedish translations,2018-03-01,Merged,2100,106,2,,1
+Update ControllerListener.php for performance,2018-03-02,Closed,2098,4,0,,1
+Removed the copyright notice from all files,2018-03-01,Merged,2097,1,892,php ,26
+Removed more legacy code,2018-03-01,Closed,2096,11,22,yml ,5
+Initialize Select2 in collections on item-add,2018-02-28,Merged,2094,10,4,,1
+Remove some legacy code related to PropertyAccessor,2018-02-28,Merged,2093,4,8,,1
+"Add linting in ""src"" and ""tests"" folders",2018-02-28,Closed,2091,5,0,,1
+Update the file paths shown in error messages to Symfony 4 dir struct…,2018-02-27,Merged,2090,2,2,,2
+Remove tests for Symfony versions previous to Symfony 4,2018-02-28,Merged,2088,0,"2,201",yml ,8
+Remove legacy BC,2018-02-27,Merged,2086,26,268,,6
+Remove the legacy PHP class aliases,2018-02-27,Merged,2085,1,836,php ,27
+Use lint:xliff command to validate translation files,2018-02-26,Merged,2083,16,"2,253",php ,2
+Fix contributors link,2018-02-26,Merged,2081,1,1,,1
+Update complex-dynamic-backends.rst,2018-02-25,Closed,2076,1,1,,1
+Updated tests and Travis config,2018-02-25,Closed,2075,369,543,json dist php ,11
+Removed the config of the Coveralls service,2018-02-24,Merged,2074,0,4,,1
+Removed AppVeyor service config,2018-02-24,Merged,2073,0,42,,1
+Bumped the minimum requirements and updated Travis config,2018-02-24,Closed,2072,34,120,json ,2
+Updated the vendor name in the docs and README,2018-02-24,Merged,2071,3,3,rst ,2
+Tweaked the new form tabs feature,2018-02-23,Merged,2070,32,24,php yml ,6
+fix a little typo in documentation,2018-02-23,Merged,2069,3,3,,1
+Allow to pass custom parameters to Twig templates,2018-02-23,Closed,2068,148,10,php twig yml ,7
+Preserve the custom query parameters,2018-02-21,Closed,2066,32,13,php yml ,5
+Allow to define the max_results option per entity,2018-02-20,Merged,2063,78,9,php twig yml ,7
+Added support for immutable date types,2018-02-19,Closed,2057,311,15,php twig ,13
+add missing IMG asset (adminlte),2018-02-13,Merged,2052,0,0,,1
+list.max_result available in entity configuration,2018-02-20,Closed,2048,4,2,,1
+Revert delete form,2018-02-10,Merged,2046,1,1,,1
+Allow to search by related entities fields,2018-02-10,Merged,2045,60,12,php yml ,5
+[Doc] Updated some article for Symfony 4,2018-02-06,Closed,2040,14,5,,1
+Fix form attribute collision in theme,2018-02-10,Merged,2037,2,2,,1
+Fix forced toggle colors,2018-02-05,Merged,2034,0,6,,1
+Add support for an array (result of pagination),2018-02-01,Merged,2031,1,1,,1
+Fix doc example,2018-02-09,Merged,2029,2,2,,1
+Improved Russian translation,2018-01-24,Merged,2022,3,3,,1
+Updated tests for PHP 7.2 and PHPUnit 6,2018-02-01,Closed,2021,14,14,yml ,12
+display NONE label on null associations,2018-01-24,Merged,2020,1,1,,1
+Add dynamicPreRender to avoid full overwrite of methods for just adding templating values,2018-02-23,Closed,2018,90,10,,1
+Add dynamicPreRender to avoid full overwrite of methods for just adding templating values,2018-01-23,Closed,2016,94,12,,2
+Update .travis.yml,2018-02-19,Closed,2014,4,0,,1
+Fix action url for delete form,2018-01-25,Merged,2010,1,1,,1
+Add missing russian translations for exceptions.,2018-01-23,Merged,2008,22,0,,1
+Added danish translations,2018-01-23,Merged,2006,233,0,,2
+Remove argument from EntityManager::flush call.,2018-01-16,Merged,2002,3,3,,1
+Bugfix: Call to a member function render() on null,2018-01-15,Merged,2001,1,3,,1
+Custom field templates in list/show always have top priority,2018-01-13,Closed,1998,73,68,twig yml ,4
+[Feature] Searching by related entities fields,2018-02-07,Closed,1991,17,4,,1
+"Added docs for the new persist, update and remove methods",2018-01-05,Merged,1987,40,22,,2
+Fixed a minor Symfony 3.4 deprecation in tests,2017-12-29,Closed,1984,22,5,yml ,3
+Move to 1.17.x branch alias,2017-12-29,Merged,1981,1,1,,1
+[minor] Fix two english errors in custom-actions.rst,2017-12-29,Merged,1975,2,2,,1
+Added missing Italian translations,2017-12-08,Merged,1967,30,0,,1
+Make the bundle work in read only file systems,2018-02-13,Closed,1965,23,8,xml ,3
+show.html.twig - Expand amount of blocks and add new CSS class,2018-01-10,Merged,1953,19,15,,1
+Add support for immutable date formats,2018-02-16,Closed,1941,41,5,,5
+Add lithuanian translation,2017-11-24,Merged,1940,229,0,,2
+Make specified template more important than resolved ones for properties,2018-01-13,Closed,1935,5,1,,1
+Test Symfony 4 components in Travis and AppVeyor,2017-11-24,Merged,1933,269,33,json xlf php ,7
+add a build job for Symfony 3.4,2017-11-18,Merged,1932,14,2,dist php xml ,6
+use most recent compatible dev versions,2017-11-18,Closed,1930,1,2,,1
+use most recent compatible dev versions,2017-11-18,Closed,1929,2,2,,1
+Added more tests for Symfony 4,2017-11-18,Closed,1928,44,35,json dist ,4
+fix arabic form errors translation,2017-11-18,Merged,1921,1,1,,1
+Fixed a missing translation when the action title is empty,2017-11-18,Merged,1920,3,1,twig ,2
+Fix renderer of the item actions,2017-11-09,Merged,1919,7,11,,1
+Do not overwrite global form_rest block,2017-11-08,Merged,1915,3,3,,1
+fix blank space in search query,2017-11-07,Merged,1914,3,2,,1
+Fixed a CSS issue in Firefox for boolean flip switches,2017-11-06,Merged,1912,5,0,,1
+Make action column in list view as small as possible,2017-11-06,Merged,1908,4,0,,1
+Simplified the README contents,2017-11-04,Merged,1907,8,105,,0
+Call preUpdate() method when editing entities via Ajax too,2017-11-04,Merged,1906,1,0,,1
+Reset the pagination when reordering the listing or search results,2017-11-03,Merged,1903,31,1,php ,2
+Typo on doc,2017-11-02,Merged,1901,1,1,,1
+Display boolean properties as toggles unless defined explicitly,2017-11-01,Merged,1900,19,0,,2
+"Translate the optional ""title"" attribute of actions",2017-11-01,Merged,1899,1,1,,1
+Added the styles for the missing template buttons,2017-11-01,Merged,1898,18,1,,1
+"Added a warning message about ""feature freeze"" for this bundle",2017-10-31,Merged,1896,10,0,,0
+Added form tabs,2018-02-23,Closed,1887,281,33,png php xlf ,9
+Improved the article about translating the backends,2017-10-25,Merged,1886,41,15,,1
+Show item actions for root EasyAdmin form only,2017-10-24,Merged,1885,11,7,,1
+Fix EntityType configurator,2017-10-24,Merged,1883,3,3,,1
+Using new namespace of the bundle,2017-10-23,Merged,1879,5,5,twig ,4
+(WIP) Use Webpack Encore to manage assets,2017-11-01,Closed,1878,"8,932",160,css scss js json eot woff2 ttf woff jpg ,13
+Improving form theme to customize EasyAdmin form only,2017-10-23,Merged,1876,45,39,,1
+Fixed the Doctrine ORM adapter used by the paginator,2017-10-20,Merged,1875,2,1,,1
+"Fixed boolean toggles when ""edit"" action is disabled",2017-10-20,Merged,1873,14,13,yml ,3
+"Fixed the custom sorting of the ""search"" view",2017-10-20,Closed,1872,26,10,twig yml ,4
+Removed the Twig::getName() deprecation,2017-10-23,Merged,1868,1,9,php ,2
+Add support for objects as the value of entity associations primary keys,2017-10-19,Merged,1866,2,1,,1
+Set default services visibilty,2017-10-18,Merged,1865,9,9,,1
+Update interface image link,2017-10-18,Merged,1864,1,1,,0
+Fix Symfony DataCollector deprecation for reset() method,2017-10-18,Merged,1863,19,0,,2
+Disable the profiler panel when there's no data,2017-10-18,Merged,1862,74,64,,1
+Sometimes backendConfig can be null,2017-10-17,Closed,1861,10,0,,1
+Allow to define a tooltip title for actions that don't display an icon,2017-10-17,Merged,1860,78,54,png twig php yml ,6
+Allow framework-extra-bundle 5.0,2017-10-16,Merged,1859,1,1,,1
+"Added a new ""file"" type for list/show views",2017-10-16,Merged,1857,177,11,php twig yml ,17
+Reword the documentation about integrating CKEditor,2017-10-14,Merged,1855,5,21,,1
+Make form fields optional by default Fix #1842,2017-10-14,Merged,1850,3,0,,1
+Enhance/field type options,2017-10-14,Closed,1849,6,9,,1
+Fix autocomplete form type,2017-10-14,Closed,1848,228,18,,4
+Fix 1842,2017-10-11,Closed,1847,6,9,,1
+Add throughput graph in Readme,2017-11-04,Closed,1840,2,0,,0
+Mention the screencast series from KnpU,2017-10-07,Merged,1839,6,0,,1
+Allow using short form types in the 'entry_type' of collections,2017-10-07,Merged,1838,6,0,,1
+Change cast from string to int on editAction for new boolean value,2017-10-14,Merged,1836,3,2,,1
+"Fixed ""undedined index: associationType"" error in autocomplete type",2017-10-04,Merged,1833,1,1,,1
+Improve the status code of EntityRemoveException,2017-10-03,Merged,1832,1,1,,1
+Fixed total count on list view when grouping data,2017-10-03,Merged,1829,1,1,,1
+removed a deprecation warning,2017-10-01,Merged,1827,1,1,,1
+Fix the overriding of the action configuration,2017-09-30,Closed,1826,106,31,yml ,3
+"Don't redirect to ""list"" action when it's disabled",2017-09-30,Closed,1825,31,3,yml ,3
+Improved some exception messages,2017-09-30,Merged,1824,2,2,,2
+Removed CSS stylesheets related to legacy browsers,2017-09-30,Merged,1822,0,5,,1
+Process EasyAdmin config only for actions related to EasyAdmin,2017-09-29,Closed,1821,45,27,twig ,3
+Allow to override the title of the list view,2017-09-27,Merged,1818,3,5,,1
+Added some docs about Customizing the Form Fields,2017-09-26,Closed,1816,50,0,,1
+Fix #1813,2017-10-02,Closed,1815,236,9,,2
+Improved performance of the Twig template locator,2017-09-27,Closed,1814,3,5,,1
+Updated namspace for AdminController,2017-09-29,Closed,1812,2,1,,1
+Update CONTRIBUTORS.md,2017-09-24,Merged,1811,33,5,,0
+Fixed a doc issue with % escaping in YAML files,2017-09-22,Merged,1810,4,1,,1
+[doc] Fix markdown link in Configuration Reference,2017-09-22,Merged,1809,1,1,,1
+Allow to customize the title of the Search view,2017-09-20,Closed,1807,51,21,twig yml ,9
+Updated the test matrix on Travis CI,2017-09-22,Merged,1806,5,6,,1
+Use ArgumentResolver for actions.,2017-10-21,Closed,1805,89,9,xml ,3
+"Set label and translation_domain to form, instead of manually render.",2017-09-22,Merged,1804,67,4,xml twig ,4
+Added a way to exit impersonation,2018-01-03,Merged,1802,13,0,twig ,3
+Croatian translation,2017-09-18,Merged,1801,229,0,,2
+Updated README with new 1.17 namespace,2017-09-18,Merged,1800,1,1,,0
+"Add support for the new ""json"" DBAL type",2017-09-18,Merged,1799,20,3,twig ,4
+Cast to string the PK for associations as well,2017-09-16,Merged,1798,2,1,,1
+Add a missing import statement in a tutorial,2017-09-16,Merged,1797,1,0,,1
+Fixed some issues in the DQL examples of the docs,2017-09-16,Merged,1796,3,3,,1
+New global configuration option,2018-01-03,Closed,1795,6,1,twig ,2
+Update vichuploaderbundle.rst,2017-09-16,Closed,1794,1,0,,1
+Doc: inveted quotes in some examples,2017-09-16,Closed,1793,2,2,,1
+Cast to string the PK for associations as well,2017-09-16,Closed,1791,2,1,,1
+Test against Symfony 3.3 for PHP 7.1,2017-09-16,Merged,1790,2,2,,1
+Update namespace to EasyCorp\*,2017-09-16,Closed,1787,"1,135",887,,2
+Update namespace to EasyCorp\*,2017-09-09,Closed,1786,"4,662",693,yml php json rst ,25
+Allow non scalar entities primary keys to be used for URL generation,2017-09-09,Merged,1784,67,2,yml ,5
+Changed the namespace to EasyCorp\*,2017-09-09,Closed,1781,"51,115",267,php ,34
+Type-guess all entity properties at compile time,2017-09-23,Merged,1780,155,127,,9
+Added a note about the translation service in the introductory tutorial,2017-09-02,Merged,1779,12,0,,1
+Improved the EntityRemoveException message,2017-09-02,Merged,1778,2,2,,2
+Polish translations for exception messages,2017-08-28,Merged,1768,21,0,,1
+Add french translation of exception messages,2017-08-28,Merged,1767,22,0,,1
+"Fix ""=="" sign in DQL",2017-08-28,Merged,1761,1,1,,1
+Allow 4.x of framework-extra-bundle branch to be installed,2017-08-28,Closed,1760,1,1,,1
+Make menu little more extensible,2017-08-28,Merged,1757,20,14,,1
+[PoC] Use native convention dir to overriding entities and fields templates,2018-02-19,Closed,1754,89,74,rst twig ,26
+Fix tests in local machine (OS platform issue),2017-08-10,Closed,1752,1,1,,1
+Improved how custom templates are looked for,2017-08-10,Closed,1748,85,"3,359",xml yml ,5
+Use the right HTTP status code for exceptions,2017-08-08,Closed,1745,7,5,,3
+Added a help note about getters/setters of virtual properties,2017-08-07,Merged,1742,24,6,,2
+Allowed to disable translations,2017-08-05,Merged,1740,15,6,php rst ,5
+"Append special form types (group, divider, section) to a form in edit and new views",2017-08-28,Merged,1739,3,1,,1
+EasyAdminRouter improvements,2017-09-22,Closed,1738,10,1,,1
+Fixed the tests for Symfony 2.3,2017-08-03,Closed,1736,23,11,,4
+Fix tests: remove templating config,2017-08-02,Merged,1733,3,5,yml ,3
+Fix autocomplete pagination,2017-08-02,Merged,1732,6,5,twig php ,3
+Add possibility to overwrite title at list like edit/new/show,2017-09-27,Closed,1717,3,5,,1
+Rename AdminController to EasyAdminController,2017-08-02,Closed,1716,753,734,,0
+Controller: Extract redirectToReferer to separate method,2017-08-02,Merged,1715,17,15,,1
+Allow to disable translation,2017-08-05,Closed,1712,1,1,,1
+Update ivoryckeditorbundle.rst,2017-08-02,Merged,1710,11,1,,1
+Fixed the format option for default fields,2017-07-15,Closed,1708,69,3,yml ,5
+[Translations] Fix `errors` key for Russian locale,2017-07-14,Merged,1705,1,1,,1
+Added a tip about custom namers in VichUploaderBundle,2017-08-05,Merged,1704,23,0,,1
+Improve the DataCollector code to not use the entire container,2017-07-12,Merged,1703,7,10,xml ,2
+Changed some methods from private to protected in the base controller,2017-07-11,Merged,1700,3,3,,1
+Increase/event extensibility,2017-06-30,Closed,1688,20,5,,1
+Extract instantiation ConfigPasses from ConfigManager to ServiceContainer,2017-07-11,Closed,1686,165,45,xml yml ,8
+Fix smallint & integer in Search/QueryBuilder,2017-07-07,Merged,1680,2,2,,1
+Allow substitute entity before persisting,2018-01-03,Closed,1679,38,6,,1
+Use translation_domain for form from itself.,2017-08-02,Closed,1678,4,2,,1
+EasyAdminRouter,2017-07-12,Merged,1677,237,7,xml ,5
+Update PT translation,2017-06-16,Merged,1670,26,0,,1
+Only display empty_collection when value is empty and iterable,2017-08-05,Merged,1666,4,2,,1
+Update sl translation,2017-06-16,Merged,1661,22,0,,1
+Added hungarian translations,2017-06-16,Merged,1659,231,0,,2
+Remove templating component usage,2017-07-07,Closed,1657,16,22,xml twig json ,5
+Merge repeated class attributes,2017-07-10,Merged,1656,1,1,,1
+don't allow toggle if edit is disabled,2017-05-29,Merged,1647,1,1,,1
+optional image suffix in twig for type “image”,2018-01-10,Closed,1644,8,0,php ,2
+Fix tweak with required labels,2017-06-16,Closed,1643,0,1,,1
+Added translations for admin exceptions in spanish,2017-05-29,Merged,1641,22,0,,1
+Allow using Symfony 4 components,2017-05-29,Merged,1639,15,15,,1
+Add symfony/templating dependency to fix test suite,2017-05-29,Merged,1636,1,0,,1
+Fix typo in documentation,2017-05-14,Merged,1633,1,1,,1
+[Doc] Updated the config reference,2017-05-08,Merged,1627,57,80,,1
+Don't use the deprecated addClassesToCompile() method,2017-05-08,Merged,1626,0,14,,1
+Request list filters,2017-05-10,Closed,1625,61,3,twig ,3
+Updated the installation instructions for Symfony Flex,2017-05-02,Merged,1615,7,4,,1
+add zh_CN transhlation,2017-05-02,Closed,1612,229,0,,2
+add a branch alias for the master branch,2017-04-25,Merged,1608,5,0,,1
+Improved the detection of primary key fields when selecting the template for them,2017-04-24,Merged,1607,3,2,,1
+Fixed some search conditions related to integers,2017-04-24,Merged,1606,2,2,,1
+[Doc] Always load the specific EasyAdmin controller,2017-04-23,Merged,1604,2,2,,2
+[Doc] Fixed a wrong doc link,2017-04-20,Merged,1602,1,1,,1
+[Doc] Preparing docs for Symfony Flex,2017-04-19,Merged,1601,20,6,,1
+Another round of doc fixes,2017-04-15,Merged,1598,23,23,,7
+Updated README because our docs are now hosted on symfony.com,2017-04-15,Closed,1597,4,34,,0
+another optional pagination with numbers other than words,2017-07-07,Closed,1596,68,0,,1
+fix readme doc links,2017-04-14,Merged,1595,21,19,,0
+Minor doc fixes,2017-04-13,Merged,1594,9,9,,3
+Add missing `fields` option in documentation,2017-04-13,Closed,1591,8,6,,0
+[Doc] Moved the documentation from Markdown to ReStructuredText,2017-04-13,Closed,1590,"5,721","5,552",,0
+[Doc] Updated the CKEditor + CKFinder example,2017-04-11,Merged,1588,5,3,,0
+Fix typo in CKFinder link,2017-04-11,Merged,1585,1,1,,0
+Improved the output of Composer in tests,2017-04-09,Merged,1584,1,1,,1
+Move code coverage analysis to a Travis CI cron job,2017-04-08,Closed,1583,4,4,,1
+Reorganize docs and updated README,2017-04-08,Closed,1582,163,169,,0
+"Added a small section about ""Integrating CKFinder""",2017-04-08,Merged,1581,36,0,,0
+Don't remove custom query parameters,2018-02-21,Closed,1574,13,13,php ,3
+Added a new easyadmin_logout_path() helper,2017-04-08,Closed,1571,27,7,twig php ,4
+[doc] missing parameter,2017-04-01,Merged,1564,2,2,,0
+Refactoring AdminController,2017-07-14,Closed,1563,24,12,,1
+Fixed typo,2017-03-28,Merged,1562,1,1,,1
+AdminController - change visibility into protected,2017-07-14,Closed,1561,2,2,,1
+"Show the ""sign out"" link in the user menu",2017-03-28,Closed,1560,232,10,twig php ,23
+Update Paginator - Fixes SQL Error,2017-03-27,Merged,1559,1,1,,1
+Add missing dependency,2017-03-26,Closed,1556,2,0,,1
+Update EasyAdminBundle.it.xlf,2017-03-23,Merged,1555,1,1,,1
+"Fix ""locale"" container parameter",2017-03-20,Merged,1551,7,1,,1
+Misc. fixes found using PHPStan static code analysis,2017-03-18,Merged,1547,9,15,,5
+Fixed issues when looking for big numbers on PostgreSQL,2017-03-18,Merged,1546,11,2,,1
+Fixed the search query builder when using UUIDs and PostgreSQL,2017-03-18,Closed,1545,13,12,,1
+FIX - #1505 - Testing UUID format for search or ommit the field,2017-03-18,Closed,1538,8,0,,1
+[Tests] Minor CS fixes and invalid namespace,2017-03-11,Closed,1537,1,4,,3
+Initialize dynamic autocomplete fields based on jQuery selectors,2018-02-19,Closed,1536,8,3,,1
+Removed glyphicons from the Bootstrap CSS file,2017-03-11,Merged,1533,2,2,,2
+Update EasyAdminBundle.tr.xlf,2017-03-05,Merged,1521,22,0,,1
+Let Doctrine Paginator figure out the best value for output walkers,2017-03-18,Closed,1515,18,12,php yml ,9
+Improve the error message when test fixtures fail,2017-02-02,Merged,1510,12,5,,2
+Add support for objects as the value of entity primary keys,2017-02-02,Merged,1509,4,2,,2
+Search for UUIDs only if search query is a UUID,2017-03-18,Closed,1505,1,1,,1
+Adding uk translations,2017-01-29,Merged,1501,203,0,,2
+Fixed Yaml deprecations in tests with duplicated Yaml keys,2017-01-28,Closed,1500,18,18,,1
+Added some tests to check that XLIFF files are valid,2017-01-28,Closed,1499,"2,251",0,,1
+Fix an issue with twig extension for virtual fields,2017-01-28,Merged,1496,4,4,,1
+Fixed some errors in the Finnish translation file,2017-01-23,Merged,1490,1,2,,1
+"Allow using HTML code in the labels of the ""show"" view",2017-01-21,Merged,1488,1,1,,1
+"Simplified the GitHub templates for issues, PRs and contributions",2017-01-21,Merged,1487,16,71,,0
+Reduced the code complexity of the EasyAdminTwigExtension,2017-01-21,Merged,1485,111,76,,1
+font awesome update from 4.5 to 4.7,2017-01-21,Merged,1484,"2,672",656,eot svg ttf woff woff2 css ,8
+Fixed a bunch of minor issues,2017-01-21,Closed,1483,116,7,,15
+Removed the file-based ROADMAP in favor of GitHub projects,2017-01-19,Merged,1481,0,48,,0
+"Allow to define the alignment of the contents in the ""list"" view",2017-01-21,Closed,1478,13,3,twig ,1
+Prevent sending empty DELETE forms,2017-01-19,Merged,1477,9,0,,2
+Use array syntax short,2017-01-17,Closed,1474,520,520,php ,7
+Translatable exception messages,2017-01-19,Closed,1473,208,67,xlf twig ,13
+Do not use addClassesToCompile() on PHP 7.0+,2017-01-13,Merged,1469,13,11,,1
+Typo in VichUploader doc parameter,2017-01-12,Merged,1468,1,1,,0
+Block robots from accessing the backend contents,2017-01-11,Merged,1466,1,0,,1
+Translated interface to Arabic and allowed RTL languages,2017-01-11,Merged,1464,340,3,md css xlf twig yml ,11
+Added (RTL) Right-to-Left Language Support and  Arabic translation for interface,2017-01-10,Closed,1458,0,0,,0
+Always get the form type using the LegacyFormHelper,2016-12-30,Merged,1456,4,7,,3
+Always use VarDumper to dump contents,2016-12-30,Closed,1455,5,11,,1
+Sort Composer packages automatically,2016-12-30,Merged,1454,6,3,,1
+Fix var-dumper deprecation,2016-12-29,Merged,1452,2,1,,1
+Change priority for processing config,2017-07-14,Closed,1451,2,2,,2
+Minor cleanup code,2016-12-27,Closed,1445,4,14,,3
+Added Finnish translation for interface,2016-12-26,Merged,1444,204,0,,2
+Added a test for the issue #1441,2016-12-23,Merged,1443,8,0,yml ,2
+update bulgarian translation,2016-12-23,Merged,1442,74,4,,1
+[Autocomplete Form Type] Show parent row block features,2016-12-23,Merged,1441,3,3,,1
+Allow to display a help message for entities,2017-01-10,Closed,1440,135,0,md twig yml ,5
+Run tests faster on Travis,2016-12-17,Closed,1436,11,9,php ,2
+Use Symfony mb_* polyfill for string functions,2016-12-17,Closed,1435,13,26,json ,6
+PostgresSQL uuid field dont have LOWER function,2016-12-17,Merged,1434,5,0,,1
+Improved Travis testing configuration,2016-12-17,Closed,1433,8,13,,1
+Added Twig 2.x support,2016-12-16,Closed,1432,1,2,,1
+Issue #1409 FIX,2017-01-18,Closed,1426,1,0,,1
+Update bootstrap_3_layout.html.twig,2017-01-18,Merged,1425,23,0,,1
+Make EntityRemoveException translatable,2017-01-16,Closed,1424,26,4,xlf twig ,5
+Don't show an error when __toString() is missing,2016-12-11,Closed,1423,0,143,yml ,5
+Test more PHP and Symfony versions on Travis,2016-12-10,Closed,1421,13,9,php ,2
+Fixed some tests,2016-12-10,Closed,1420,22,20,,4
+Try to fix PHPUnit issue with AppVeyor,2016-12-10,Merged,1419,2,5,,2
+Config for php cs fixer v2,2016-12-10,Merged,1418,268,254,php ,10
+Fixed some failing tests,2016-12-06,Merged,1417,4,4,,1
+[Doc] Don't use deprecated features in the docs,2016-12-06,Closed,1416,4,4,,0
+New bunch of contributors,2016-12-02,Merged,1413,39,0,,0
+Added some missing CSS classes for action links/buttons,2016-11-26,Merged,1411,10,1,php ,2
+Improved tests to avoid randomly failed tests on Travis and AppVeyor,2016-11-26,Closed,1410,13,3,yml ,2
+Don't check the __toString() requirement for fields of disabled views,2016-11-26,Merged,1407,4,2,,1
+Fixed some failing tests for Symfony 2.3,2016-11-24,Closed,1404,1,1,,1
+don't access view for forms used in custom views,2016-11-23,Merged,1403,1,1,,1
+Display a proper error message when a database item cannot be removed,2016-11-26,Merged,1397,34,2,,2
+Added some 'id' back to the 'list' template,2016-11-26,Closed,1396,2,2,,1
+Make sure that the sticky form actions display above anything else,2016-11-19,Closed,1395,1,286,yml ,144
+Fixed PHP CS issues,2016-11-18,Merged,1394,2,2,,2
+Avoid undefined index notice for custom action's forms,2016-11-18,Merged,1393,1,1,,1
+Allow to sort using Doctrine associations,2017-01-21,Closed,1392,120,8,md twig yml ,7
+fix wrong configuration label,2016-11-15,Merged,1390,2,2,,0
+fix TwigBridge dependency,2016-11-15,Merged,1388,1,1,,1
+Added option to sort joined entities,2016-11-21,Closed,1387,12,1,,1
+[Doc] Better explain how are associations displayed and how to configure them,2016-11-15,Closed,1385,5,2,,0
+[Doc] Better explain how to configure a custom controller,2016-11-13,Merged,1382,3,3,,0
+Fix Travis multiple env vars,2016-11-13,Merged,1379,9,5,,1
+Try to fix Travis CS-fixer,2016-11-13,Merged,1378,7,7,yml ,2
+Use legacy form helper inside AdminController,2016-11-13,Merged,1377,3,12,,1
+Avoid missing template errors for compound widgets,2016-11-19,Closed,1376,1,1,,1
+Updated the PHP-CS-Fixer config,2016-11-12,Closed,1375,7,2,yml ,2
+Doctrine associations should check 'disabled actions' config too,2016-11-13,Closed,1374,452,104,yml ,7
+Use https for linking symfony website,2016-11-11,Merged,1373,1,1,,0
+Use shields.io badges for Symfony versions support,2016-11-11,Merged,1372,1,1,,0
+Update gitattributes,2016-11-11,Closed,1369,3,1,,1
+children menu item can be merged under the same *ID*. useful when the easy_admin definition is splitted between several bundles,2017-01-29,Closed,1365,68,2,md ,1
+Display an error message when an entity doesn't define a __toString() method,2016-11-17,Closed,1364,146,4,yml ,8
+Remove Distribution bundle from requirement,2016-11-05,Merged,1362,0,1,,1
+Fixed small typo,2016-11-01,Merged,1356,1,1,,0
+Allow to define the default sorting of list/search views,2016-11-05,Closed,1355,303,17,md yml ,11
+Updated the Travis CI configuration,2016-10-25,Closed,1352,9,5,,1
+The layout should work when no _entity_config variable is defined,2016-10-25,Merged,1350,2,2,,1
+Use `%entity_label` instead of `%entity_name%` in doc examples,2016-10-24,Merged,1348,2,2,,0
+Allow to use a custom translation domain,2016-10-23,Closed,1347,262,25,md twig ,14
+Moved common test code to the Abstract Test Case class,2016-10-23,Closed,1346,65,368,,8
+"Allow actions to define their ""target"" HTML attribute",2016-10-23,Closed,1345,161,4,md twig yml ,9
+Allow to override individual form fields when using the special 'form' view,2016-10-29,Closed,1341,397,"1,528",md yml ,7
+Allow user to set class for form_group_class,2018-02-21,Closed,1339,1,1,,1
+Flash for custom actions,2016-10-19,Closed,1338,1,1,,1
+Added a note about how to override form fields,2016-10-18,Closed,1335,7,0,,0
+Prevent errors when the security bundle is not enabled,2016-10-16,Merged,1334,1,1,,1
+Security is a requirement for an admin,2016-10-17,Merged,1333,1,1,,1
+Add missing dep on twig-bundle,2016-10-16,Merged,1332,2,2,,1
+Allow to define page titles globally for all entities,2016-10-17,Merged,1330,145,5,md yml ,7
+Invalid URL to the Contributing Guide,2016-10-15,Merged,1329,1,1,,0
+Prevent error messages when installing an app and the DB doesn't exist,2016-10-15,Merged,1328,8,2,,1
+Fix the default format used when changing the property type,2016-10-14,Merged,1324,0,1,,1
+Fix missing birthday form type nullable handling,2016-10-13,Merged,1323,2,2,,2
+Horizontal reuse for `bootstrap_3_horizontal_layout.html.twig` template,2016-10-12,Merged,1322,1,1,,1
+call isSubmitted() before calling isValid(),2016-10-12,Merged,1321,3,3,,1
+Render the select2 widget in the same locale as the application,2016-10-14,Closed,1319,163,10,,22
+Add a .gitattributes config file,2016-10-10,Merged,1318,7,0,,1
+Allow to translate labels and help messages of form sections,2016-10-06,Merged,1317,3,3,,1
+Improved the tutorial about integrating FOSUserBundle,2016-10-06,Merged,1316,26,0,,0
+Update link for AdminController,2016-10-05,Merged,1315,1,1,,0
+Fixed Autocomplete feature in embedded forms,2016-10-12,Closed,1314,143,126,xml twig ,7
+Update 7-complex-dynamic-backends.md,2016-10-02,Merged,1310,1,1,,0
+global title config,2016-10-15,Closed,1303,43,4,md twig ,5
+Add missing italian translations,2016-09-18,Merged,1302,12,0,,1
+Avoid the same index multiple times in collections,2016-09-18,Merged,1301,5,1,,1
+Fixed syntax issues with PHP-CS-Fixer,2016-09-09,Merged,1295,42,18,,6
+Sections translate possibility,2016-10-05,Closed,1294,1,1,,1
+Update symlink docs for Symfony 3 console command,2016-09-08,Merged,1293,6,0,,0
+Update fosuserbundle-integration.md,2016-09-08,Merged,1291,8,1,,0
+Fix wrong title & broken link in config reference,2016-09-08,Merged,1285,2,2,,0
+Update de and ru translations,2016-09-08,Merged,1276,12,0,,2
+Update EasyAdminBundle.tr.xlf,2016-09-08,Closed,1274,5,1,,1
+DOCS: Uploading image files; Added missing updatedAt property in entity,2016-08-10,Merged,1267,6,0,,0
+custom translation domain & global titles,2016-09-18,Closed,1266,"1,537",30,md twig yml ,11
+Added a new tip about dyanmic item actions,2016-08-05,Merged,1264,39,0,,0
+Allow to use FrameworkExtraBundle 2.3 version,2016-08-05,Merged,1263,1,1,,1
+Fixed image assets links,2016-10-05,Closed,1260,6,5,json ,3
+Improve forms to use custom variables instead of field attributes,2016-08-01,Closed,1256,6,4,twig ,3
+Fixes Request usage,2016-07-30,Merged,1253,3,2,,0
+Improved templates to always include first the overridden templates,2016-10-06,Closed,1252,21,8,twig php ,6
+Allow to translate and display HTML contents in the form design elements,2016-07-19,Merged,1249,2,2,,1
+Add a class to show.remaining_items's <li>,2016-10-10,Closed,1248,1,1,,1
+Fix for transchoice in show.remaining_items,2016-07-18,Merged,1246,1,1,,1
+Slovenian translation update,2016-07-18,Merged,1245,19,15,,2
+Update EasyAdminBundle.fr.xlf,2016-07-13,Merged,1240,4,0,,1
+[lint] Change @AppBundle twig syntax to @App,2016-07-13,Merged,1239,9,9,yml ,6
+Fixed #1231 - Typos in translation,2016-07-12,Closed,1238,1,1,,1
+Form edit box title translation,2016-07-18,Closed,1236,1,1,,1
+Fix list.html.twig,2016-07-17,Merged,1235,1,1,,1
+Update EasyAdminBundle.pl.xlf,2016-07-12,Merged,1234,11,3,,1
+Update EasyAdminBundle.fr.xlf,2016-07-12,Merged,1233,1,1,,1
+Update EasyAdminBundle.fr.xlf,2016-07-10,Merged,1231,4,0,,1
+Fixed the composer.json dependencies on master branch,2016-07-06,Merged,1230,1,2,,1
+Fix HHVM testing on Travis CI,2016-07-08,Closed,1228,53,36,php ,20
+Updated link to controller customization,2016-07-01,Merged,1223,1,1,,0
+Add title block in list view,2016-07-05,Closed,1220,3,1,,1
+Select2 multiple languages support,2016-10-10,Closed,1219,161,2,,22
+[doc]Fix path of a file documentation,2016-06-26,Merged,1218,1,1,,0
+Slovenian translation update,2016-06-23,Merged,1216,4,0,,1
+Allow to create complex form layouts,2016-07-05,Closed,1214,"1,423",190,xml ,8
+Display the label of the autocomplete fields,2016-06-08,Merged,1208,1,4,,1
+Disable xdebug before running composer,2016-06-08,Closed,1207,2,1,,1
+"Fixed missing ""class"" option in docs",2016-06-08,Merged,1205,1,0,,0
+Added a new show.max_results config option,2016-07-07,Closed,1204,230,28,md xlf twig yml ,155
+Added some missing license information for third-party libraries,2016-06-07,Closed,1202,6,1,js ,1
+Fix route params in custom actions tutorial,2016-06-05,Merged,1201,4,4,,0
+Display the parent form label for autocomplete field,2016-06-02,Merged,1195,25,5,twig ,3
+[Improvement] Scrolling autocomplete results,2016-06-04,Merged,1194,60,27,xml js twig ,6
+Changed visibility of properties and methods from private to protected,2017-07-14,Closed,1191,20,20,,3
+Update Resources/translations/EasyAdminBundle.pl.xlf,2016-05-25,Merged,1188,13,1,,1
+Update EasyAdminBundle.fr.xlf,2016-05-26,Merged,1186,12,0,,1
+Allow to define a custom controller for each entity,2016-05-31,Closed,1185,"1,222",761,md xml ,5
+Fixed break autocomplete BC,2016-05-31,Merged,1178,5,0,,1
+[DOC] Typo in 2-design-configuration.md,2016-05-17,Merged,1175,1,1,,0
+"Tweaked the CSS classes applied to the ""list"" action by default",2016-05-17,Merged,1173,1,0,,1
+Defined new Twig blocks in the default templates,2016-05-17,Merged,1172,8,0,,2
+"Allowed to define a custom CSS class for fields in the ""list"" view",2016-05-14,Merged,1169,16,6,md twig yml ,4
+Allow to apply CSS classes to listing elements,2016-05-13,Closed,1167,4,2,twig ,2
+Improved the design of the menu to display long items,2016-05-10,Merged,1156,159,147,yml ,148
+"Add Portuguese translation for the ""Are you sure?"" message",2016-05-08,Merged,1153,4,0,,1
+Fixes for minor issues reported by Scrutinizer CI analysis,2016-05-07,Closed,1152,22,16,,11
+Fixed the highlighting of menu subitems,2016-05-07,Merged,1151,1,1,,1
+Fixed the label of autocomplete fields,2016-05-08,Closed,1149,6,4,,1
+Added a tip about Doctrine Filters,2016-05-07,Closed,1148,42,0,,0
+"Documented the ""sortable"" config option",2016-05-07,Closed,1147,7,0,,0
+Do not exclude more recent Doctrine Cache versions,2016-05-06,Merged,1146,1,1,,1
+Added the new @Event annotation,2016-05-06,Merged,1140,22,0,,1
+Redesigned the header of the layout,2016-05-08,Closed,1138,235,198,yml php ,150
+Minor fixes: #1130 and #1131,2016-05-03,Merged,1132,2,2,twig ,2
+Updated the design of the collapsed menu,2016-05-03,Closed,1127,233,202,js css twig yml ,156
+Search and ajax autocomplete for related entities are now case insensitive,2016-05-06,Closed,1125,4,2,,1
+Add missing form.are_you_sure turkish translation,2016-04-26,Merged,1112,4,0,,1
+Updated the behavior of empty searches,2016-04-26,Merged,1111,12,13,,2
+Move the configuration processing to a cache warmer,2016-04-28,Closed,1107,"43,800","118,288",,7
+Improved the behavior of the search engine when the query is empty,2016-04-24,Merged,1106,31,0,,2
+Fixed some wrong links in the docs,2016-04-20,Merged,1102,6,5,,0
+[doc] Removed a section deprecated by the new menu system,2016-04-19,Merged,1100,0,45,,0
+[doc] Fixed a wrong link,2016-04-19,Merged,1099,4,4,,0
+Improved the error styles for vich_image and vich_file form fields,2016-04-18,Closed,1094,11,1,,1
+Tweaked the new autocomplete form field,2016-04-20,Closed,1093,295,54,xml md js twig ,11
+Documented how to release new versions of this bundle,2016-04-16,Closed,1092,27,0,,0
+Typo fix,2016-04-15,Merged,1091,1,1,,0
+List: Changed the _global_actions var to a block,2016-04-15,Merged,1090,42,44,,1
+Reorganise docs about third-party bundles,2016-04-15,Merged,1086,7,4,,0
+Updated the tutorial about FOSRestBundle integration,2016-04-15,Merged,1085,8,10,,0
+Minor tweak for displaying associations,2016-06-07,Closed,1084,4,4,,1
+Update fosrestbundle-integration.md,2016-04-12,Closed,1083,2,3,,0
+Use badge instead of list for large collections,2016-04-12,Merged,1080,17,12,,1
+Added a note about defining custom entity options,2016-04-12,Merged,1079,44,3,,0
+[Issue #765] Update Dutch (nl) translations,2016-04-07,Merged,1075,24,0,,2
+Optimized the loading of web assets,2016-04-06,Closed,1073,216,67,css twig php ,7
+"Added new templates for emails, URLs and telephone numbers",2016-04-05,Closed,1072,67,0,md twig ,5
+Add an autocomplete field,2016-04-16,Merged,1071,540,125,xml md ,6
+Minor refactor for the custom CSS file,2016-04-03,Closed,1070,86,86,,0
+"Improved how the sticky form actions are displayed in ""dev"" environment",2016-04-03,Merged,1069,7,3,twig ,3
+sync German translation file,2016-04-03,Merged,1068,16,0,,1
+improved exception messages for invalid entities,2016-04-03,Merged,1067,26,3,yml ,4
+Add an autocomplete field,2016-04-04,Closed,1066,341,12,xml md twig ,8
+"Allow to translate the ""Are you sure?"" message showed in forms",2016-04-01,Closed,1062,14,2,twig ,5
+Removed a typehint which was too restrictive,2016-04-01,Closed,1061,5,4,,1
+Added a test to detect when entity classes don't exist,2016-04-01,Merged,1059,16,2,yml ,2
+Removed the _easyadmin_render_css route,2016-04-01,Closed,1058,95,31,twig md ,6
+error message for non-mapped configured entities,2016-03-31,Merged,1057,5,1,,1
+Show 'empty_label' when all the elements of a collection are removed,2016-04-04,Merged,1052,14,3,,1
+Insert empty label when all elements in collection are removed,2016-03-30,Closed,1049,14,3,,1
+Trigger jQuery event on item add/delete in CollectionType,2016-03-30,Merged,1048,3,1,,1
+Minor fixes suggested by Phpstorm inspections,2016-03-30,Closed,1047,74,47,twig ,18
+Improved the styles of the checkbox in vertical forms,2016-03-26,Merged,1042,6,0,,1
+Updated the list of classes to compile,2016-03-24,Closed,1039,4,3,,1
+Add a new `search_form` block in list,2016-03-24,Merged,1038,17,15,,1
+Fixed external menu routes to not include additional parameters,2016-03-24,Merged,1035,43,3,php yml ,5
+Update field_json_array.html.twig,2016-03-23,Merged,1033,11,1,,1
+Typo in tips&tricks doc,2016-03-23,Merged,1031,1,1,,0
+Fixed the template of the data collector,2016-03-23,Merged,1030,11,11,,1
+do not compile the bundle class,2016-03-23,Merged,1028,0,1,,1
+Sticky form actions with CSS,2016-03-23,Merged,1025,170,11,twig ,6
+Added a new tutorial about FOSUserBundle + EasyAdmin,2016-03-22,Closed,1024,93,0,,0
+Fixed a problem where the search engine returned all entities,2016-03-22,Closed,1023,1,25,,1
+Fixed wrong translation key (label vs name),2016-03-22,Closed,1019,1,1,,1
+Fix yaml example for assets,2016-03-19,Merged,1018,4,2,,0
+Refactored search and pagination,2016-03-21,Closed,1016,188,74,xml ,4
+"Fixed missing translation ""Delete""",2016-03-19,Merged,1014,1,1,,1
+Activate fetch join collection on Pagerfanta DoctrineORMAdapter,2016-03-17,Merged,1012,2,2,,1
+Fixed a very small typo,2016-03-17,Merged,1010,1,1,,1
+[DX] Support short form types for some popular third-party bundles,2016-03-17,Closed,1007,68,32,md ,1
+Small fixes on the documentation about date fields properties,2016-03-16,Merged,1006,2,2,,0
+Update the pt translations,2016-03-16,Merged,1005,71,1,,2
+Compile commonly used classes,2016-03-17,Merged,1003,13,1,,1
+Removed some deprecations,2016-03-16,Merged,1002,21,21,,6
+Fixed a wrong link in the documentation,2016-03-16,Merged,1001,2,4,,0
+Fix a small type in EasyAdminBundle.pt.xlf,2016-03-16,Merged,999,1,1,,1
+"Improved tests for the ""search"" view",2016-03-14,Merged,995,2,2,,1
+List action title bug,2016-03-14,Merged,994,1,1,,1
+Added tests for removing entities,2016-03-12,Closed,992,38,3,,1
+Added tests for the edit action (including edits via Ajax),2016-03-12,Closed,991,30,4,,3
+Update sl translations,2016-03-12,Merged,990,12,0,,1
+Improved code coverage for the editAction() method,2016-03-12,Merged,989,14,0,,1
+Initialize the database fixtures for every test,2016-03-12,Merged,988,17,1,,2
+Fix bug: link to the Symfony Security documentation.,2016-03-11,Merged,987,1,1,,0
+"Add a new ""dql_filter"" configuration option",2016-10-22,Closed,986,332,27,md yml ,12
+Improved the code coverage of the newAction() method,2016-03-12,Closed,985,14,0,,1
+Improved readability of the main configuration compiler pass,2016-03-12,Closed,984,30,16,,1
+String replace for string values,2016-03-11,Merged,983,3,1,,1
+Define templates for Issues and Pull Requests,2016-03-11,Merged,980,15,0,,0
+Try to fix AppVeyor issues,2016-03-10,Closed,978,26,16,,1
+Improve page titles for non-list views,2016-03-10,Closed,977,28,14,,5
+Always use the template configured by the entity property,2016-03-10,Merged,976,1,2,,1
+Minor update to the docs,2016-03-10,Closed,975,15,15,,0
+Added a mini-tutorial about FOSRestBundle and EasyAdmin integration,2016-03-10,Merged,973,35,0,,0
+Fixed some missing translations,2016-03-10,Closed,972,127,27,twig ,19
+Improved the way we deal with menu dividers,2016-03-09,Merged,971,44,11,twig yml ,4
+Fixed an issue with the navigation of the new docs,2016-03-07,Merged,970,2,2,,0
+Improved the promotional screenshot displayed in the README,2016-03-07,Merged,969,0,0,,1
+Allow empty sub-header li item,2016-03-07,Merged,967,5,2,,2
+Reorganized and updated the entire documentation,2016-03-07,Closed,966,"2,609","2,375",,0
+Sticky form actions with css,2016-03-22,Closed,964,160,1,twig ,6
+Setting the toggle navigation cookie for root path,2016-03-07,Merged,961,2,2,,1
+Updated Catalan translation,2016-03-04,Merged,960,7,7,,1
+[WIP] adding support for Symfony's built-in security features,2016-03-04,Closed,959,228,50,xml md twig ,10
+Redirect to referer if possible on new action,2016-03-02,Merged,956,5,1,,1
+Simplify integration with FOSRestBundle,2016-03-10,Closed,955,2,0,,1
+Allow to translate field labels,2016-03-02,Merged,950,8,0,,1
+display empty label when collection is empty,2016-02-29,Merged,949,40,22,,3
+Update EasyAdminBundle.tr.xlf,2016-02-29,Merged,942,5,1,,1
+"Fixed the styles of the global actions in the ""list"" view",2016-02-28,Closed,940,936,936,twig yml ,17
+Updated some translation id,2016-02-27,Merged,939,74,74,xlf twig ,26
+Fixed some minor translation issues,2016-02-27,Merged,938,6,7,,5
+"Fixed the translation of labels in the ""show"" view",2016-02-27,Merged,937,1,1,,1
+Fixed the Turkish paginator translations,2016-02-27,Merged,935,1,1,,1
+Allow to use any template path for custom fields templates,2016-02-28,Closed,934,33,62,md yml ,4
+Improved the styles of the associations,2016-02-27,Merged,932,9,1,,2
+Fixed the styles for some types of buttons,2016-02-27,Merged,930,21,2,,1
+Fixed the styles of the header and menu in responsive mode,2016-02-27,Merged,929,6,1,,1
+Fixed the styles of the responsive tables,2016-02-27,Merged,928,1,0,,1
+Allow to hide/show the new and search actions separately,2016-02-27,Merged,927,32,11,,2
+Fixed the way we handle entity names,2016-03-15,Closed,926,500,412,yml ,10
+Made EntityTypeConfigurator code more robust,2016-02-24,Merged,923,1,1,,1
+Improve the profiler when there is no entity,2016-02-25,Merged,922,3,3,,1
+Allow checkboxes to define a custom label in forms,2016-02-25,Merged,921,22,6,yml ,3
+Show the installed EasyAdmin version in the toolbar and profiler,2016-02-25,Closed,919,15,4,twig ,2
+Make the Symfony Debug toolbar look always nice,2016-02-24,Merged,918,9,0,,1
+"Fixed the ""Back to list"" link for associations",2016-02-24,Merged,917,3,3,,2
+#761: additional RU translations.,2016-02-23,Merged,914,70,0,,2
+Fix #910 - separate new action tag from search action form,2016-02-26,Closed,913,15,10,,2
+Updated the Travis configuration,2016-02-21,Closed,912,31,29,,1
+Add new github templates,2016-03-10,Closed,909,15,0,,0
+Misc. fixes for issues reported by Scrutinizer,2016-02-20,Closed,908,20,24,,2
+"Added a ""target"" option to specify the target attribute for the menu links",2016-02-20,Merged,907,204,7,md twig yml ,42
+Update EasyAdminBundle.tr.xlf,2016-02-17,Merged,902,8,0,,1
+Maintain the selected menu item after searching,2016-02-17,Merged,899,2,0,,1
+Allow to sort the search results,2016-02-17,Merged,898,22,7,md ,1
+Fix HTML page title for search,2016-02-16,Closed,894,1,1,,1
+Enabled checking the PHP code syntax,2016-02-14,Merged,890,2,3,,1
+Simplified a doc example,2016-02-13,Merged,889,1,1,,0
+Update messages.tr.xlf,2016-02-13,Merged,888,1,1,,1
+[Issue #878] Added support for external admin controllers,2016-06-06,Closed,883,66,1,,3
+Update 4-views-and-actions.md,2016-02-13,Closed,880,2,0,,0
+Maintained the menu item selected after pagination,2016-02-10,Merged,879,2,0,,1
+[WIP] Batch Actions,2016-03-26,Closed,876,640,1,xml ,8
+Improve installation instructions for Symfony 3,2016-02-10,Merged,874,8,0,,0
+Clarification on 1-installation.md,2016-02-08,Closed,873,5,0,,0
+Update 1-installation.md,2016-02-08,Closed,872,6,0,,0
+"Avoid displaying broken images in ""show"" view",2016-02-06,Merged,867,5,0,,1
+"Fixed the default label of the ""Show"" action in ""list"" view",2016-02-06,Merged,866,43,24,,1
+Fixed the list/search page title when it contains HTML tags,2016-02-06,Merged,863,1,3,,1
+Made form templates less error-prone,2016-02-05,Merged,859,2,2,,2
+Set the referer URL in the links displayed for associations,2016-02-04,Merged,855,1,1,,1
+Improved the default styles of VichUploaderFile form type,2016-02-04,Merged,854,22,9,,2
+Fixed form theme for inline checkboxes and radios,2016-02-03,Merged,848,2,2,,1
+Improve translation of labels (and docs),2016-01-30,Merged,847,94,26,twig ,1
+Added option to specify target attribute for link menus,2016-02-18,Closed,845,3,1,,1
+Updated Czech (cs) translations - closes #755,2016-01-28,Merged,843,70,0,,2
+Improved Bootstrap form theme for hidden fields,2016-01-28,Merged,841,1,1,,1
+Minor CSS fixes for <select> elements,2016-01-28,Merged,840,0,4,,1
+Fixes a date field margin error,2016-01-27,Merged,839,0,3,,1
+Misc. fixes detected by SensioLabsInsight and Scrutinizer CI,2016-01-25,Closed,837,14,17,,5
+Fixed issues reported by PHP-CS-Fixer,2016-01-25,Merged,836,6,13,,5
+Added a note for uploading files with VichUploaderBundle,2016-01-25,Merged,835,8,0,,0
+Enable PHP GC in tests,2016-01-25,Merged,833,1,1,,1
+Simplified the management of actions,2016-01-24,Closed,832,"8,869","3,380",twig ,8
+Made the navigation sidebar status persistent,2016-01-21,Merged,827,30,1,twig ,2
+Preserve actions order,2016-01-24,Closed,826,2,2,,1
+make navigation status sticky,2016-01-20,Closed,822,86,1,twig ,3
+Fixed some design issues for Select2 widgets,2016-01-19,Closed,821,6,0,,1
+Improved the integration of VichUploaderBundle,2016-01-19,Closed,819,125,21,js css twig php ,8
+"Improved the form theme for ""reset"" buttons",2016-01-19,Merged,818,11,0,,1
+Improved doc navigation,2016-01-19,Merged,817,86,62,,0
+"Improve how associations are displayed in the ""show"" view",2016-02-22,Merged,812,160,43,xml twig ,5
+"Fixed a ""undefined variable"" error in layout template",2016-01-17,Merged,811,1,1,,1
+Update Basque (eu) and Spanish (es) translations.,2016-01-16,Merged,803,64,2,,2
+Workaround for Select2 widgets width,2016-01-16,Merged,801,3,0,,1
+Updated Basque and Spanish translations.,2016-01-16,Closed,797,64,2,,2
+Fixed layout,2016-01-15,Merged,796,4,2,twig ,2
+Update EasyAdminBundle.pl.xlf,2016-01-14,Merged,792,1,1,,1
+Switch to AdminLTE2 template,2016-01-15,Closed,791,"3,214","3,645",md png gif otf eot ,26
+fixed toolbar icon height for SF < 2.8,2016-01-11,Merged,788,1,1,,1
+for issue #764 turkish translate,2016-01-10,Merged,785,16,0,,2
+Added a new feature to create custom menus,2016-01-17,Closed,784,"3,599",107,,6
+Added a new tutorial about formatting dates and numbers,2016-01-10,Closed,783,140,84,,0
+Update Slovenian translation,2016-01-09,Merged,782,59,1,,2
+Added a new tutorial about managing complex backends,2016-01-09,Closed,781,163,50,,0
+Fix deleting the last entity redirected to page -1,2016-01-08,Merged,780,1,1,,1
+Updated Catalan translations,2016-01-08,Merged,779,58,0,,2
+Multiple EM support.,2016-01-08,Merged,778,2,1,,1
+Allow to define entities configuration in different files,2016-01-08,Closed,777,102,8,md yml ,8
+Added a new trick to split backend config into several files,2016-01-07,Closed,774,53,0,,0
+Replace .theme-bootstrap_3_horizontal_layout by .form-horizontal,2016-01-07,Merged,773,4,4,,1
+Adding Romanian (RO) translation,2016-01-07,Merged,772,178,0,,2
+add missing German translations,2016-01-05,Merged,771,16,0,,2
+New bunch of contributors,2016-01-05,Merged,770,9,1,,0
+Update Italian (it) translations,2016-01-05,Closed,768,58,0,,2
+Improved the CONTRIBUTING guide with more Git information,2016-01-05,Closed,767,34,11,,0
+Added missing Polish translations,2016-01-05,Closed,766,58,0,,2
+Fixed a design issue when the user is anonymous,2016-01-04,Merged,752,5,3,,1
+Fixes #749,2016-01-04,Closed,751,18,4,twig ,5
+Fix event listener registered multiple times,2016-01-04,Merged,750,6,3,,3
+Add missing translation for DELETE button on modal,2016-01-04,Closed,745,13,1,twig ,4
+Doctine/common and PHP requirments problem,2016-01-05,Closed,744,2,2,,1
+Add missing string translation,2016-01-04,Closed,742,8,0,,2
+Tweak form attributes,2016-01-04,Closed,739,61,9,twig ,6
+Refactored the way configuration is managed,2016-01-03,Closed,738,"110,634","27,744",,2
+Typo in MD syntax,2016-01-02,Merged,737,2,1,,0
+Remove form themes css classes from <form> tag,2016-01-03,Merged,736,5,52,,3
+update year in the license,2016-01-01,Merged,731,1,1,,0
+Tweak normalizers,2016-01-01,Merged,730,10,13,,3
+Fixed the Doctrine metadata for virtual fields,2015-12-31,Merged,726,25,24,,1
+Tweaked the delete form template,2015-12-31,Merged,725,3,3,twig ,2
+Refactored the EasyAdminExtension DI extension,2015-12-31,Closed,724,865,666,,3
+Added a new tutorial about defining custom actions,2015-12-30,Merged,718,192,182,,0
+Added a new tutorial about translating the backend,2015-12-30,Merged,717,94,83,,0
+Added a new tutorial about integrating file uploading,2015-12-29,Closed,703,389,0,,0
+Allow to always use form theme shortcuts,2015-12-29,Closed,702,49,7,yml ,3
+Fix css class applied to form-group div by using block prefixes,2015-12-30,Merged,701,7,7,,2
+Fix virtual field should not have a default label,2015-12-28,Merged,697,1,2,,2
+Fixed #694,2015-12-29,Merged,695,4,0,,1
+Fix ExceptionListener: exception to log isn't necessarily a BaseException instance,2015-12-27,Merged,693,6,1,,1
+"""css_class"" should be used instead of ""class""",2015-12-30,Merged,692,"1,522","1,522",md twig yml ,7
+Allow to use a custom template for exception pages,2015-12-30,Closed,691,"5,138",4,xml yml ,8
+Allow delete in list view,2015-12-31,Closed,690,"1,626","1,562",twig yml ,10
+"Exclude by default some types of fields in the ""list"" view",2015-12-25,Merged,689,0,5,,1
+"Fixed an error that prevented associated entities from being linked in ""list"" view",2015-12-24,Merged,688,17,16,,1
+CS fixes,2015-12-24,Merged,687,6,5,,4
+Added CONTRIBUTION guideline,2015-12-24,Merged,686,96,0,,0
+Fix EntityTypeConfigurator,2015-12-23,Merged,685,1,1,,1
+Fix bootstrap btn css,2015-12-23,Merged,683,5,1,,1
+Fix cannot disable actions labels,2015-12-23,Merged,682,11,9,,4
+Create a new `getEntityFormOptions()` method,2015-12-31,Merged,678,19,3,,1
+Highlight required fields in forms,2015-12-23,Merged,677,9,0,,1
+"Improve CKEditor integration, Type configurators and tweaks",2015-12-22,Merged,676,463,105,,7
+Refactored the getFormTypeFqcn() method,2015-12-21,Merged,675,29,14,,2
+[EasyAdminFormType] Remove useless html attributes,2015-12-21,Merged,674,6,10,twig ,2
+Add a delete button for removing non-compound items from collection.,2015-12-23,Merged,673,38,22,,2
+"[Configurator] Explicitly use ""entity"" type for associations instead of guessing it later",2015-12-21,Merged,672,14,8,,4
+[EasyAdminFormType] Fix getFormTypeFqcn returns DateTimeType instead of EntityType,2015-12-21,Merged,671,42,3,,2
+"Boolean fields are displayed as ""flip switches"" by default",2015-12-21,Merged,669,2,2,,1
+CKEditor integration enhancements & Introduce type configurators,2015-12-21,Merged,668,443,106,,8
+Added a tutorial to integrate CKEditor,2015-12-21,Closed,666,148,0,png ,3
+Improve the integration of WYSIWYG CKEditor,2015-12-22,Closed,665,475,111,,8
+Remove form.html.twig view remains,2015-12-19,Merged,664,23,165,yml ,29
+Remove useless template,2015-12-18,Merged,663,0,0,,1
+Added a new tip about using a different locale in the backend,2015-12-18,Merged,658,29,0,,0
+Remove easyadmin.property_reflector from services,2015-12-17,Merged,649,0,2,,1
+Documented the new design.favicon option,2015-12-17,Closed,648,35,0,,0
+Add design.assets.favicon configuration,2015-12-16,Merged,646,795,1,twig yml ,38
+added CONTRIBUTION guideline,2015-12-23,Closed,644,68,0,,0
+EasyAdminFormType::getFormTypeFqcn fix,2015-12-15,Merged,643,9,5,,1
+Use more accurate checks for BC layers,2015-12-15,Merged,642,8,3,,2
+"Add ""psr/log"" to ""require-dev""",2015-12-15,Merged,641,1,0,,1
+Update french translations,2015-12-14,Merged,640,25,1,,1
+Enhance entity form type empty label (placeholder),2015-12-14,Merged,639,28,0,xlf ,3
+Fix PHPUnit output for Sf 2.3 deps,2015-12-13,Merged,638,4,0,,1
+Fixed more errors in the method that updates entity's properties,2015-12-13,Merged,637,2,2,,1
+"Removed a legacy usage of the ""isWritable"" property",2015-12-13,Closed,635,2,2,,1
+Improve the way we detect if custom methods are callable,2015-12-13,Merged,634,1,1,,1
+Added missing Dutch translations and improved some existing,2015-12-13,Merged,632,52,2,,2
+Fix route name admin to easyadmin,2015-12-13,Closed,631,1,1,,0
+Update layout to make override easier,2015-12-13,Closed,629,71,4,php yml ,8
+Catch the error Warning: call_user_func_array() when method is undefined,2015-12-13,Closed,628,8,2,,1
+Removed an unneeded test,2015-12-10,Merged,627,0,421,,1
+Use the PropertyAccessor component instead of our custom solution,2015-12-10,Closed,625,208,388,xml yml ,7
+update Travis configuration,2015-12-07,Closed,624,2,6,,1
+"Tweaked Travis CI configuration now that Symfony 2.8, 3.0 and PHP 7.0 are released",2015-12-09,Closed,623,8,9,,1
+Fix Travis issue with ChoiceView and wrong twig-bridge version,2015-12-08,Merged,622,1,1,,1
+Fix easyadmin dump not marked as safe and consistent EasyAdminDataCollector::dump,2015-12-09,Closed,621,13,9,twig ,2
+Use bitwise operators with bitflags,2015-12-09,Merged,620,2,3,,2
+TwigExtension: do not execute template parameters logic for TO_MANY associations,2015-12-09,Merged,619,3,3,,1
+Removed the promotional banner for Symfony Awards,2015-12-05,Merged,616,0,4,,0
+Add field_datetime_locale widget. Dispaly dates with Locale,2017-10-23,Closed,614,164,0,md twig yml ,25
+Move easyadmin_dump to collector instead of a Twig Extension,2015-11-29,Merged,609,33,34,twig ,3
+Improved the Profiler Panel contents,2015-11-29,Closed,608,61,4,php ,2
+Allow to set date/time form fields to null,2015-11-28,Closed,607,56,2,xlf twig ,6
+fixed bug #602 using easyadmin container,2015-11-26,Merged,604,2,2,,1
+Update sensio/distribution-bundle to accept v5.x,2015-11-26,Merged,600,1,1,,1
+Update contributors,2015-11-25,Merged,598,41,29,,0
+improving representation for collection,2016-01-17,Closed,595,5,1,,1
+Update CONTRIBUTORS.md,2015-11-24,Merged,594,1,0,,0
+Add Symfony Awards promotion,2015-11-24,Merged,593,4,0,,0
+Fix custom templates and overridden templates parameters,2015-11-24,Merged,591,1,13,,1
+Removed the ajaxEdit() method and changed the way boolean properties are toggled,2015-11-24,Closed,588,37,30,md ,1
+Removed the unused render404error() utility method,2015-11-22,Merged,587,12,20,md ,1
+Fixed AppVeyor issues,2015-11-22,Closed,586,25,27,,1
+Fixed a bug with properties that include underscores in their names,2015-11-22,Merged,585,0,3,,1
+Improve the design for empty collections,2015-11-21,Closed,584,19,6,,2
+"Added lots of missing templates for advanced Doctrine types (json_array, object, guid)",2015-11-21,Closed,583,421,0,xlf twig yml ,21
+"Fixed the name of the template associated with ""datetimetz"" field types",2015-11-21,Merged,582,0,0,,1
+add support to one-to-many and many-to-many doctrine association,2015-11-21,Closed,577,23,24,md ,3
+Configure the language of the <html> tag properly,2015-11-17,Closed,574,51,1,php yml ,4
+Test the bundle on Windows systems too,2015-11-13,Closed,571,37,0,,1
+Another round of teaks,2015-11-11,Merged,567,122,100,,6
+Sf3 support help,2015-11-10,Closed,566,72,16,xml ,8
+Guess required option using guessers,2015-11-10,Merged,565,58,3,xml ,4
+Allow the bundle to work with Symfony 3,2015-11-10,Merged,562,94,55,,7
+Add missing character to closing target tag,2015-11-09,Merged,561,1,1,,1
+Fix bad link_parameter for association template,2015-11-09,Merged,560,1,1,,1
+Remove listener from EasyAdminExtension,2015-11-07,Merged,556,22,11,xml ,5
+Fixed typehinting of the exception listener,2015-11-07,Closed,555,3,7,,2
+Simplified the handling of dynamic methods in the admin controller,2015-11-07,Closed,554,32,41,,1
+Fix wrong constant used in EventListener,2015-11-07,Closed,553,2,2,,1
+Tweaks for the new exception handler,2015-11-06,Closed,551,30,8,,3
+Stop swallow exceptions,2015-11-06,Merged,550,213,48,xml ,10
+Fix findCurrentItem exception,2015-11-06,Closed,549,2,2,,1
+Optimized pager count,2015-11-06,Merged,548,1,1,,1
+Improved the way associations are displayed/handled,2015-11-06,Closed,546,34,16,,1
+Extra events for Doctrine QueryBuilder manipulation,2015-11-08,Merged,545,62,16,,2
+Minor renaming to use the same names as Symfony,2015-11-05,Merged,544,4,4,,3
+Simplified the configuration of the exceptions,2015-11-07,Closed,543,151,214,,8
+Empty form fields should be properly displayed,2015-11-06,Merged,542,0,1,,1
+Minor changes,2015-11-05,Merged,540,14,12,,2
+Revamp the configuration reference,2015-11-26,Merged,538,503,85,,0
+Set required to false by default for checkboxes,2015-11-04,Merged,537,2,0,,1
+Add the whole config reference in the docs,2015-11-05,Closed,536,183,0,,0
+Send the right HTTP status code for each exception,2015-11-03,Merged,534,9,6,,1
+Fixed minor issues reported by Scrutinizer CI,2015-11-03,Merged,533,14,30,,3
+Fix ClassMetadata namespace,2015-11-03,Closed,532,11,12,,3
+Add Turkish translation,2015-11-03,Merged,531,162,0,,2
+use ClassMetadataInfo typehint instead of ClassMetadata,2015-11-03,Closed,530,3,3,,1
+Deprecated 'admin' route in favor of 'easyadmin',2015-11-02,Closed,529,56,42,md twig ,7
+Refactor the controller a bit to simplify it,2015-11-02,Closed,528,159,25,yml ,68
+Added all the missing PHPdoc information,2015-11-02,Closed,527,97,7,,18
+Easyadmin form extension & form themes. related #521,2015-11-02,Merged,523,2,1,,1
+Easyadmin form extension & form themes. related #521 and 174eeab8d0f7b14f0171e230fceb268c01fcc979,2015-11-01,Closed,522,26,8,,5
+Rename `Listener` to `EventListener` folder.,2015-11-01,Merged,519,10,16,xml ,5
+.travis: Tweak for php-cs-fix,2015-11-01,Merged,518,2,2,,1
+Twig 2.0 requires symfony/polyfill-mbstring,2015-11-01,Closed,517,1,1,,1
+Add php-cs-fixer task to travis,2015-11-01,Merged,516,7,0,,1
+form themes: don't explicitly call form.vars.x when not needed.,2015-10-30,Merged,514,12,12,,2
+Fix form actions row,2015-10-30,Merged,513,44,42,,1
+Easyadmin form extension & form themes,2015-11-01,Closed,512,260,121,xml twig ,8
+"Add the ""Add another item"" action for all collections",2015-11-01,Closed,507,30,25,,2
+CS fixer conf & fixes,2015-10-29,Merged,506,24,11,php_cs php ,9
+Fix tests autoloader require,2015-10-29,Merged,505,1,1,,1
+Collapse empty XML tags in service configuration file,2015-10-29,Merged,504,8,7,,1
+form.html.twig: remove unreachable statement,2015-11-01,Merged,503,2,6,,1
+EasyAdmin form type,2015-11-01,Merged,502,138,57,xml twig yml ,6
+Fix addanotheritem translation,2015-10-16,Closed,496,1,1,,1
+Bootstrap layout domain,2015-10-15,Closed,495,50,50,twig ,9
+Disable Select2 widget for date and time related dropdowns,2015-10-16,Closed,494,13,4,twig ,3
+Consider virtual fields as text-based fields if they don't set their type explicitly,2015-10-13,Closed,493,3,0,,1
+Reviewed and simplified the documentation,2015-10-13,Merged,489,111,149,,0
+Fix a bug with exceptions in the exception listener,2015-10-08,Closed,488,101,1,,3
+Fix and enhance `createEntityform`,2015-10-07,Closed,484,7,1,,1
+Added a note about the translation domains used to translate contents,2015-10-03,Merged,482,9,5,,0
+"Documented the new ""form_options"" option",2015-10-03,Closed,481,50,19,md yml ,6
+Improved the README contents,2015-10-03,Closed,480,30,30,,0
+"Added a new ""raw"" field type to show unescaped values",2015-10-03,Merged,478,306,27,md twig yml ,22
+[Travis] Speed up & really require only required dependencies,2015-10-08,Closed,477,76,7,json php ,3
+Fixed session less app,2015-10-02,Merged,476,1,1,,1
+skip intermediate PHP versions for PRs on Travis,2015-10-01,Merged,475,10,8,,1
+Speedup Travis builds by disabling Xdebug when possible,2015-10-01,Closed,474,5,4,,1
+"Make sure that custom field templates are always used, regardless of the property type",2015-10-01,Merged,473,6,1,,1
+Fixed the way we handle translation domains,2015-10-02,Closed,472,628,550,,9
+Retrieve the correct layout in error_page template,2015-09-30,Closed,471,5,1,,1
+Disabled code coverage on all versions except Sf 2.7 + PHP 5.6,2015-09-29,Merged,469,2,2,,1
+Fixed Symfony version comparison,2015-09-29,Closed,468,4,3,,1
+allow EasyAdminBundle to work with Twig 2.x,2015-09-29,Merged,467,4,1,json ,2
+German remove item translation,2015-09-29,Merged,466,4,0,,1
+"Replaced the deprecated ""sameas"" test by ""same as"" (requires Twig 1.14)",2015-09-27,Closed,463,4,4,json ,3
+"Update Bootstrap, jQuery and FontAwesome",2015-09-24,Closed,462,156,27,eot svg ttf woff woff2 js css ,10
+Fixed syntax issues reported by PHP CS Fixer,2015-09-27,Closed,458,31,33,,7
+"Removed some unused ""use"" statements",2015-09-15,Merged,457,0,3,,1
+Misc. minor fixes,2015-09-15,Merged,455,28,17,,2
+Updated Spanish translation,2015-09-13,Merged,454,12,0,,1
+synchronise the German translation,2015-09-11,Merged,453,38,0,,1
+Add support for properties defined using snake_case,2015-09-11,Closed,452,478,4,,3
+Feature 450: Add a link to remove entries of the collections,2015-09-13,Closed,451,28,1,twig ,3
+Fix 448: Translate the null label,2015-09-10,Closed,449,11,1,twig ,3
+Moved the detailed error pages from production to development,2015-09-11,Closed,447,44,105,twig ,14
+"Updated translations for the ""es"" locale",2015-09-10,Merged,446,26,0,,1
+Translated all the remaining labels and messages,2015-09-10,Closed,445,30,6,twig php ,5
+"Translated boolean labels when using ""toggle"" fields",2015-09-09,Closed,444,46,22,twig ,5
+Fix 442: Translate boolean labels,2015-09-09,Closed,443,22,1,twig ,3
+Fix 439: Use dispatch method in tweaked actions,2015-09-09,Closed,440,1,1,,1
+Require only needed dependencies,2015-09-15,Merged,438,43,24,json ,2
+Display the global form errors,2015-09-07,Merged,437,4,0,,1
+Fix 435: Display general errors of the form,2015-09-07,Closed,436,5,0,,1
+Fix 433: The form name was hard coded for the js used to add an item to a collection,2015-09-07,Closed,434,1,2,,1
+[WIP] require only needed dependencies,2015-09-15,Merged,432,16,2,,1
+Added support for flash messages,2015-09-03,Merged,430,150,0,twig yml ,29
+Field repeated,2015-10-05,Closed,429,104,14,md xlf twig ,4
+Improved search engine for numeric search queries,2015-09-03,Closed,428,15,9,,1
+Trigger events in the ajaxEdit() method to mimic edit() behavior,2015-09-02,Closed,426,8,1,php ,2
+Translate the error (and errors) label of forms,2015-09-01,Merged,425,26,11,twig ,5
+Update symfony dependencies to keep only used ones,2015-09-15,Closed,424,36,5,json ,2
+Custom configurator,2016-03-23,Closed,419,24,21,xml ,2
+Translate the error (and errors) label of forms,2015-09-01,Closed,417,19,9,twig ,3
+Automatic translation,2015-10-14,Closed,416,591,0,md xml yml ,54
+Add the translations for the field collection action,2015-09-01,Closed,415,17,1,twig ,3
+Add Configurator global cache capabilities & provide default APCu cache impl,2015-10-04,Closed,414,284,15,xml md yml ,21
+Added a toolbar panel + profiler to improve backend debugging,2015-08-31,Closed,413,286,0,xml twig ,5
+Logout button,2015-08-31,Closed,410,15,3,twig json ,5
+Add support for rendering flash messages in templates,2015-09-02,Closed,409,13,0,,3
+Dropdowns are now displayed with the Select2 library widget,2015-07-21,Closed,400,59,2,css twig php ,6
+Return a FormBuilder instead of a Form object.,2015-10-05,Closed,399,36,2,,1
+Allow to define custom field types and options on-the-fly,2015-07-20,Merged,394,378,47,xml md png twig ,13
+Renamed XLIFF file extensions from xliff to xlf,2015-07-14,Merged,393,0,0,,15
+Added a help note about the EasyAdminBundle translation domain,2015-07-14,Closed,391,36,2,,0
+Define FormType class instead of a classic `type`,2015-10-13,Closed,385,498,14,twig yml ,8
+Fixed minor issues reported by Scrutinizer,2015-07-07,Closed,382,6,6,,5
+Fixed the search engine for PostgreSQL databases,2015-07-14,Closed,381,21,0,,1
+Custom field data types & template vars,2015-07-14,Closed,379,163,30,xml md png twig ,13
+Fix labels css,2015-07-06,Merged,378,3,1,,1
+Allows field templates to be customized by field name,2015-07-14,Closed,377,19,12,,1
+Fixed the css_class option for forms,2015-07-06,Merged,375,32,38,,2
+added catalan translations file,2015-07-01,Merged,370,114,0,,1
+Improved the way errors/exceptions are displayed,2015-07-02,Closed,368,124,64,xml twig ,16
+Replaced underscores by dashes in the CSS class names,2015-06-16,Closed,362,85,37,md twig dist ,13
+Update sensio/distribution-bundle version,2015-06-13,Merged,360,1,1,,1
+Improved Dutch translation,2015-06-11,Merged,359,7,7,,1
+"Introduced a new ""disabled_actions"" option",2015-06-09,Closed,358,"1,162",131,md twig ,7
+Use real exceptions instead of rendering error pages with custom methods,2015-06-08,Closed,357,189,39,xml yml ,11
+Forgotten tip in the UPGRADE file,2015-06-04,Merged,354,10,0,,0
+Allow to override _request_parameters,2015-06-06,Closed,353,8,1,,1
+[Travis] update Symfony version,2015-06-05,Merged,351,1,1,,1
+fix option name in upgrade guide,2015-06-02,Merged,350,1,1,,0
+Fix whitespaces between actions in list view,2015-06-01,Merged,347,14,12,,1
+Workaround composer memory exhausted issue on travis with php 5.3,2015-05-30,Merged,346,1,0,,1
+Allow to use an empty string as the action name (to display only the icon),2015-05-30,Closed,345,143,2,png md yml ,6
+Change `admin` route to `easy_admin`,2015-11-02,Closed,342,32,31,md twig ,7
+Enabled translation of the form field help messages,2015-05-29,Closed,340,3,3,,3
+"Renamed ""class"" option to ""css_class""",2015-05-26,Merged,337,67,28,twig php yml ,5
+Reorganized functional tests,2015-05-21,Closed,334,870,263,php ,5
+[Menu] Fix menu for Safari browsers,2015-05-21,Merged,332,3,0,,1
+[Tests] Refactor WebTestCases in order to hold a client instance,2015-05-21,Closed,330,62,92,,6
+[Tests] Replicate easy admin demo routing when overriding controller,2015-05-21,Merged,328,5,11,yml ,3
+"Added support for setting form type options on parent form (edit, new, form levels)",2015-10-03,Closed,326,633,3,yml ,19
+Added support for setting form type options,2015-10-03,Closed,323,125,8,md yml ,4
+Fixed a problem when displaying the number of elements of Doctrine collections,2015-05-21,Merged,322,1,1,,1
+Made tests more robust and reduced code duplication,2015-05-20,Merged,321,74,84,,2
+Simplified the instructions to override the AdminController,2015-05-19,Merged,318,25,31,,0
+[Doc] Mention how to import routes when extending EasyAdminController,2015-05-19,Closed,317,29,0,,0
+Fix&lighten coveralls config,2015-05-19,Merged,315,3,4,json ,2
+Show better exception messages when occurring in admin,2015-06-29,Closed,313,270,25,xml twig ,10
+[Menu] Footer does not need to be positioned absolute,2015-05-18,Merged,312,1,4,,1
+[Menu] Fix bottom padding.,2015-05-18,Closed,310,1,1,,1
+[README.md] Add Coveralls badge,2015-05-17,Merged,308,1,0,,0
+Setup coveralls for code coverage,2015-05-17,Merged,307,12,2,json ,3
+"Added a bunch of functional tests and fixed a ""referer"" issue",2015-05-17,Closed,305,524,12,twig ,5
+Added: Field options configuration,2015-05-20,Closed,304,1,1,,1
+Added a new tip about how to define a custom dashboard for the backend,2015-05-16,Merged,303,38,0,,0
+Added an advanced responsive main menu,2015-05-16,Merged,302,38,3,twig ,4
+[Test] Simplify input / output dataprovider & ignore build directory,2015-05-14,Merged,301,2,11,php ,2
+cache the Composer cache directory on Travis,2015-05-14,Merged,300,4,0,,1
+Fixed an issue with virtual fields that don't correspond to a Doctrine entity,2015-05-13,Closed,298,69,10,md yml ,3
+[Doc] Typo,2015-05-12,Merged,295,1,1,,0
+Fix typos,2015-05-12,Merged,294,1,1,,0
+Fix typos,2015-05-12,Merged,293,1,1,,1
+Improve and finish the new documentation,2015-05-12,Closed,291,140,88,,0
+add back Travis job for lowest allowed deps,2015-05-15,Closed,288,27,25,yml php json ,5
+Allow to use entity.label and entity.name in any page title or button label,2015-05-10,Merged,287,9,9,php yml ,6
+Use camel cased entity names for AdminController overriding methods,2015-05-13,Closed,286,401,7,yml ,30
+[WIP] Documentation reorganization,2015-05-09,Closed,285,"1,826","1,866",,0
+Changed the way we assign entity names and labels,2015-05-08,Closed,284,230,675,yml ,23
+Allow to override any action easily,2015-05-08,Closed,283,237,83,,1
+Added an advanced responsive main menu,2015-05-16,Closed,282,10,3,twig ,2
+Return to the previous list/search page after editing/deleting/showing an entity,2015-05-07,Closed,280,44,16,md twig ,6
+Removed the hack that controlled the label of the special 'id' field,2015-05-06,Closed,277,42,4,twig yml ,5
+Use a better strategy to generate unique entity names,2015-05-06,Merged,276,139,23,yml ,12
+Highlight search terms in the search results listing,2015-05-06,Closed,274,24,1,twig ,3
+Allow to configure the fields used for the search query,2015-05-06,Merged,273,456,21,md yml ,28
+issue #266 - RFC Functional tests,2015-05-03,Closed,270,"1,877",21,,6
+Fixed typos,2015-05-01,Merged,269,5,5,,0
+Refactored the search logic to better use Doctrine expressions,2015-04-28,Merged,263,10,12,,1
+Fixed an issue with responsive tables and empty cells,2015-04-28,Merged,261,5,0,,1
+Added some advanced tests for the new template overriding mechanism,2015-04-27,Closed,259,"2,197",7,twig yml ,16
+Fixed issue in searching templates resources files,2015-04-27,Merged,256,2,2,,1
+Table header is rawable,2015-04-27,Merged,255,2,2,,1
+Form helper becomes 'rawable' to allow html inside,2015-04-27,Merged,254,2,2,,2
+Correct the link for overriding symfony controllers,2015-04-27,Merged,252,1,1,,0
+Fixed the search form query for non-text fields,2015-04-27,Closed,251,10,3,,1
+Fixed a minor visual glitch in the main menu,2015-04-25,Merged,249,3,0,,1
+Minor code fixes,2015-04-25,Merged,248,28,30,twig ,6
+Fixed the sorting of search results,2015-04-23,Merged,245,17,11,,2
+Allow to easily customize/override any backend element,2015-04-25,Merged,244,"4,831",422,md xml ,6
+Fix issue #240,2015-04-22,Closed,243,4,1,,1
+Avoid using HttpFoundation/Response as it isn't compatible with sf <2.4,2015-04-22,Merged,242,3,3,,1
+Updated header markup to follow Bootstrap best practices,2015-04-22,Closed,239,96,168,,1
+Added search form as a template for customizing and fixed an issue where ...,2015-04-25,Closed,236,16,6,,2
+Implemented advanced responsive tables for smartphones,2015-04-20,Closed,235,125,84,,2
+"Allow to customize the way the ""NULL"" label is shown",2015-04-25,Closed,234,155,1,yml ,49
+"Update the docs for more comprehension of the ""persist"" methods",2015-05-09,Closed,233,14,33,md ,1
+Configurable route linked in header logo,2015-04-18,Closed,231,16,1,md twig ,2
+Fixed an issue when custom actions override default actions without defining all their options,2015-04-18,Closed,230,425,32,yml ,8
+Improved the internal URL for the dynamic CSS file,2015-04-16,Merged,229,6,4,twig ,3
+Fixed the management of allowed and forbidden actions,2015-04-16,Merged,228,59,29,twig ,5
+Fix some design issues when header title is multiline,2015-05-13,Closed,226,24,7,,2
+Improve field configuration parsing,2015-04-15,Closed,225,24,58,md ,1
+"Allow easier override of the ""new"" action.",2015-04-14,Merged,223,13,2,,1
+Misc. fixes and tweaks,2015-04-14,Closed,219,11,7,twig ,4
+Simple permissions management using roles,2015-04-10,Closed,218,28,2,md twig ,2
+Added support for form_widget attributes,2015-05-20,Closed,217,4,2,,1
+"Added the new ""color_scheme"" option",2015-04-07,Closed,213,"1,070",501,md png twig ,15
+"Added the new ""brand_color"" design option",2015-04-04,Closed,212,"1,107",15,md png twig yml ,25
+Added the new form_theme design option and simplified forms,2015-04-02,Closed,211,"1,226",267,md png css twig ,7
+Added the new 'design -> theme' option,2015-03-31,Merged,210,255,1,md yml ,43
+"Introduced a new ""design"" global option",2015-03-31,Closed,209,"1,045",623,md twig yml ,3
+Enhance date & time choice widget by allowing null with one click,2015-11-28,Closed,207,58,14,css twig ,4
+Fix a bug when toggleing boolean values from list,2015-03-24,Merged,204,1,1,,1
+Added support for custom actions and full action customization,2015-03-28,Closed,202,"11,738",967,php ,2
+Fix translation for virtual fields label,2015-03-19,Merged,200,1,1,,1
+ParameterBag::getBoolean not compatible with sf < 2.6 versions,2015-03-18,Closed,199,1,1,,1
+Label for fields in edit and new views (checkbox for example),2015-03-18,Merged,197,2,2,,2
+Fixed unit tests for Configurator class,2015-03-16,Merged,193,34,5,yml ,3
+Allow to configure the actions for each entity,2015-03-16,Closed,192,178,75,md twig ,6
+"Don't allow to sort columns of one-to-many, many-to-one and many-to-many associations",2015-03-13,Closed,191,14,2,php twig ,3
+fix a typo by referring to css assets in layout.html.twig,2015-03-12,Merged,189,1,1,,1
+don't use deprecated Yaml component features,2015-03-12,Merged,188,2,2,,2
+install dependencies only once,2015-03-12,Merged,187,4,3,,1
+make tests pass by mocking the proper interface,2015-03-16,Closed,186,1,3,,1
+"Deprecated ""list_max_results"" and ""list_actions"" global options",2015-03-12,Merged,184,65,18,md twig ,3
+fix shell `if` syntax,2015-03-11,Merged,183,2,2,,1
+add Travis CI and SensioLabsInsight badges,2015-03-11,Merged,182,3,0,,0
+use the container-based infrastructure on Travis,2015-03-10,Closed,175,25,8,,1
+allow Travis to report results as fast as possible,2015-03-10,Merged,174,1,0,,1
+Brazilian translation,2015-03-10,Closed,173,108,0,,1
+Added nav blocks to layout to allow override when extending the layout,2015-03-10,Merged,172,6,0,,1
+Added the first unit tests of the bundle,2015-03-10,Closed,171,"1,176",28,yml php xml ,13
+Config enabled actions,2015-03-12,Closed,168,294,49,md xliff ,4
+Fix image type with absolute urls,2015-03-08,Merged,166,8,3,,1
+add bulgarian translation,2015-03-08,Merged,164,118,0,,1
+Improved the way we deal with field types in different actions,2015-03-08,Closed,162,232,88,md png gif ,5
+Improved the boolean flip switches,2015-03-07,Merged,161,9,17,twig ,2
+Add support for translating entity and property names,2015-03-07,Closed,160,61,11,md twig ,6
+Improved the way we inspect the getters/setters of properties,2015-03-07,Merged,159,148,69,xml twig ,9
+Fixed the way we handle the form field type,2015-03-07,Closed,158,24,20,md ,1
+[Doc] Fix type description for new/edit actions,2015-03-06,Merged,157,4,3,,0
+Added click-to-toggle for boolean columns,2015-03-07,Closed,155,179,9,js css twig ,6
+Fix search title (and other titles with html tags),2015-03-04,Merged,154,1,1,,1
+Allow to configure the titles and labels of the pages and UI elements,2015-03-05,Closed,153,"1,128",818,md ,1
+[WIP] Make config & entity handier,2015-03-10,Closed,152,39,15,twig ,5
+Allowed grouping entities for a 2-level tree in nav,2015-03-30,Closed,151,63,6,css twig ,4
+Updated german translation (was PR #148),2015-03-02,Closed,150,2,2,,1
+Split documentation into smaller chapters,2015-03-02,Closed,149,"1,397","1,198",,0
+German translation for EasyAdminBundle,2015-02-28,Merged,148,107,0,,1
+Force the locale used to translate the interface for easy admin routes.,2015-02-27,Closed,147,77,0,md xml ,4
+Fixed association view issue,2015-02-27,Merged,146,3,0,,1
+Hide menu scrollbar in favor of a shadow as indicator,2015-02-25,Merged,145,27,1,css twig ,3
+Make the main menu scroll on smaller devices,2015-02-25,Merged,144,0,0,,0
+Remove unnecessary fixed positioning of #header-security & only show scrollbar on hover,2015-02-25,Closed,143,4,13,,1
+Made the main menu scroll on smaller devices without js,2015-02-24,Merged,142,6,18,css twig ,3
+Made the main menu scroll on smaller devices,2015-02-24,Closed,141,25,5,css twig ,3
+Tweaked the titles of some pages,2015-02-24,Merged,140,3,3,,3
+"Use ""delete_empty"" option only if we're using Symfony 2.5.0 or higher",2015-02-24,Merged,139,4,1,,1
+Added the ability to create custom entity actions,2015-03-28,Closed,137,105,11,md ,2
+Added a new 'image' field type to display images in show/list actions,2015-02-22,Closed,136,117,5,md css ,3
+Fixed russian translation misprints,2015-02-22,Merged,135,3,3,,1
+Improved Russian language translation.,2015-02-17,Merged,132,3,3,,1
+Slovenian translation,2015-02-15,Merged,130,107,0,,1
+Better control of white spaces for the action links,2015-02-22,Merged,129,4,4,,4
+Czech language file.,2015-02-11,Merged,128,107,0,,1
+Fix layout issue when too many items.,2015-02-24,Closed,125,3,1,,1
+Italian translation,2015-02-11,Merged,123,107,0,,1
+Entities names & properties translation,2015-03-07,Closed,122,8,6,twig ,6
+Refactored all the code related to configuration,2015-02-06,Closed,120,249,238,,0
+WIP: Custom actions using routes,2015-03-28,Closed,119,8,0,twig ,3
+Added Swedish translation,2015-02-05,Merged,118,107,0,,1
+Added documentation about how to use custom DBAL types,2015-02-04,Closed,114,28,0,,0
+Improved date/number field formatting,2015-02-04,Closed,113,138,11,md ,4
+Minor tweaks to simplify the changes introduced in #110,2015-02-02,Closed,112,4,3,twig ,4
+Changed search fields (string types),2015-05-15,Closed,111,19,1,,1
+Changed navigator titles,2015-02-02,Merged,110,10,6,,2
+Improved configuration flexibility,2015-02-05,Closed,108,54,70,md ,1
+Improved the way associated entities are linked,2015-02-02,Closed,107,15,3,php ,2
+Add polish translation,2015-02-01,Merged,106,107,0,,1
+Fix documentation yaml examples for symfony/yaml component.,2015-02-01,Merged,104,18,21,,0
+Update EasyAdminExtension.php,2015-02-27,Closed,103,7,0,,1
+Update AdminController.php,2015-01-31,Closed,102,13,0,,1
+EntityManagers different than the default one are now supported,2015-01-31,Closed,99,9,7,xml json ,4
+Update AdminController.php,2015-05-15,Closed,98,14,0,,1
+Field contents now are only truncated for 'list' action,2015-01-31,Closed,97,67,7,twig php ,4
+Added new translation for basque language,2015-01-30,Closed,94,3,3,,1
+Implementing Beautify admin routes,2015-01-30,Closed,93,198,66,xml twig ,8
+Fixed the message for when there are no results for the query,2015-01-30,Merged,92,6,6,,6
+Improved the way errors are displayed in forms,2015-01-31,Merged,91,51,33,twig ,5
+Fix search with no result is failing (no transchoice),2015-01-29,Closed,90,5,1,,1
+Header menu links: reduce line-height,2015-01-29,Merged,88,2,2,,1
+DateTime format for display,2015-02-02,Merged,87,2,2,,1
+Set title on truncated text fields,2015-01-30,Closed,86,4,1,,1
+Improved the way 'virtual' fields are displayed and added more documentation about these fields,2015-01-29,Closed,85,50,11,php ,1
+Display virtual columns,2015-01-28,Merged,84,1,1,,1
+Feature #76 Translated new modal elements in french,2015-01-28,Merged,81,3,3,,1
+Allow entities with primary keys not named 'id',2015-01-28,Closed,80,47,32,md twig ,7
+Added a new section about ' Tips & Tricks' in the documentation,2015-01-27,Closed,78,58,0,,0
+Allow to configure show action fields,2015-01-27,Closed,77,93,18,md twig ,4
+Delete action now displays a modal window to confirm entity removal,2015-01-27,Closed,76,173,11,css xliff twig ,11
+"Edit the show action, configure fields and vizualize",2015-01-26,Closed,75,20,26,twig ,4
+Extend Forms with service,2015-01-30,Closed,74,7,0,,1
+[doc] fixes overriden methods visibility,2015-01-23,Merged,68,3,2,,0
+russian translation,2015-01-23,Merged,67,91,0,,1
+Dutch translations,2015-01-22,Merged,66,95,0,,1
+Allow to configure properties for each listing and form field,2015-01-25,Closed,64,"1,069",334,,1
+Added project dependencies in composer,2015-01-21,Merged,61,15,3,json ,2
+Loading bundle's js before configured js assets,2015-01-25,Closed,57,9,1,,3
+Fixed Twig extension issues,2015-01-20,Merged,55,20,14,,1
+Tweaked the scope of the list/edit/show/... methods,2015-01-19,Merged,54,6,6,,1
+Use the UrlGeneratorInterface instead of the Router implementation,2015-01-19,Merged,53,2,2,,1
+Fixed typo,2015-01-19,Merged,52,1,1,,1
+Added some PhpDoc for IDE-using developers,2015-01-19,Merged,47,148,5,,1
+"Added missing ""Search"" placeholder translation",2015-01-19,Merged,45,13,1,twig ,4
+Basque translations and typo error fix for spanish translation file,2015-01-19,Closed,44,91,0,,2
+Allow to have different entities with the same exact name,2015-01-18,Merged,42,10,0,,1
+Minor tweaks for listings,2015-01-18,Merged,41,14,4,twig php ,3
+Tweaked the original i18n translation files,2015-01-18,Merged,40,261,174,xlf ,4
+Improved the way entity fields are displayed in listings and forms,2015-01-18,Closed,39,220,119,xml css twig ,6
+Fixed a minor error in the documentation about customizing entity fields,2015-01-17,Merged,38,10,5,,0
+Display a custom error page when the requested entity doesn't exist.,2015-01-17,Merged,37,62,4,twig ,2
+quote characters used directly in a query,2015-01-20,Merged,32,2,0,,1
+don't fetch associated collections in pagination,2015-01-17,Merged,31,1,1,,1
+"update configuration definition, fixes #27",2015-01-17,Merged,30,2,2,,1
+"explicitly use query parameters, fixes #20",2015-01-17,Merged,29,15,15,,1
+update class properties,2015-01-17,Merged,28,7,2,,1
+Fix #16,2015-01-16,Merged,17,1,1,,1
+Translation of main backend messages EN+FR,2015-01-18,Closed,15,208,27,twig ,8
+use only valid sort directions,2015-01-16,Merged,14,6,2,,1
+add array type hints where possible,2015-01-16,Merged,13,15,15,,2
+remove unused variable,2015-01-16,Merged,12,1,1,,1
+Allow the user to use a string key in config,2015-01-16,Merged,6,4,4,,1
+[README] Avoid method usage when propertiesexist,2015-01-15,Closed,1,1,1,,0

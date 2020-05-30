@@ -1,0 +1,79 @@
+added some missing stylesheet and css for the dark themes,2019-12-11,Merged,95,47,3,cpp ,4
+hex converter and removing a not needed dialogBox for the time been.,2019-12-10,Merged,94,163,43,cpp h ui ,7
+[clean-up] removed duplicate packages from install-dependencies.sh,2019-11-28,Closed,93,76,2,cpp h ,5
+peer limiting [master_candidate base],2019-11-26,Merged,92,74,0,h ,4
+LuxGate fixes,2019-11-23,Merged,91,10,2,yml cmake am src/luxgate cpp h ,7
+SC & LSR drop down address fix and final touched for dark themes,2019-11-26,Merged,90,84,42,h ,6
+adding dark themes for lux,2019-11-20,Merged,89,"2,289",436,cpp h ,7
+"fixed auto selection of large inputs (1,000 LUX and up)",2019-11-22,Merged,87,214,41,h ,2
+peer limiting while syncing (limit removed after syncing is finished),2019-11-22,Merged,86,74,0,h ,4
+dark mode (master branch),2019-10-23,Closed,85,"2,716",558,cpp h ,6
+removed duplicated line,2019-11-10,Closed,84,0,7,,1
+Dark mode theme.,2019-10-02,Closed,82,"3,693",549,cpp h ,3
+update,2019-08-04,Closed,81,214,3,,2
+Post fork 533,2019-07-24,Merged,79,40,39,cpp ts ,4
+Travis builds fix,2019-07-12,Merged,78,4,1,include ,2
+[cleanup] removed an obsolete file,2019-11-10,Closed,77,0,2,qrc png ,3
+[cleanup] removed an obsolete file,2019-06-16,Closed,76,0,2,qrc ,2
+small clean up,2019-06-16,Merged,75,0,1,,1
+"[codebase] Merge lux/0.16 for txdb.cpp/h, moved wallet functions.",2019-05-06,Merged,74,399,303,,2
+[codebase] Prevent Univalue from triggering neverending warnings.,2019-05-06,Merged,73,"9,396","2,253",am include cpp ,4
+tidy up & fixes,2019-05-06,Merged,72,507,490,,1
+[codebase] Bring stake functions over from legacy codebase,2019-05-05,Merged,71,653,120,,0
+removed 30lux block reward between blocks 1000000 and 1000999,2019-05-02,Merged,70,0,2,,1
+"[wallet QT] added the ability to select the first 50/100/250 inputs and the ability to auto select any input under, over or equal to what a user inputs",2019-05-05,Merged,69,347,21,h ,2
+[wallet] fixed masternode column sizing issue in masternode manager's ui + other minor improvements,2019-05-05,Merged,68,68,42,cpp ,2
+"[wallet QT] fixed ""time till synced"" in syncing page",2019-05-05,Merged,67,9,10,cpp ,2
+"[wallet] fixed ""time till synced"" in syncing page",2019-04-27,Closed,66,8,10,cpp ,2
+[wallet] fixed masternode column sizing issue in masternode manager's ui + other minor improvements,2019-04-28,Closed,65,68,41,cpp ,2
+Qt: Fix masternode search lag,2019-04-23,Merged,64,21,16,h ,2
+prevent node on fork from affecting headers sync,2019-04-13,Closed,63,4,0,,1
+[MN]Input auto selector,2019-04-28,Closed,62,359,21,h ,2
+[coincontrol] auto selection of inputs,2019-04-11,Closed,61,373,22,h ,2
+[coincontrol] auto selection of inputs,2019-04-10,Closed,60,314,17,h ,2
+CoinControl: added auto selection of first 50/100/200/300 inputs,2019-04-12,Closed,59,177,2,h ui ,3
+CoinControl: added auto selection of first 50/100/200/300 inputs in coincontrol,2019-04-06,Closed,58,177,2,h ui ,3
+CoinControl: added auto selection of first 50/100/200/300 inputs,2019-04-06,Closed,57,165,2,h ui ,3
+added the ability to Selection the first 50/100/200/300 inputs in coincontrol,2019-04-05,Closed,56,134,2,h ui ,3
+Qt: active 1/0 to yes/no in masternode table,2019-04-06,Merged,55,1,1,,1
+1/0 to yes/no,2019-04-01,Closed,54,11,2,cpp ,2
+added deletion of Qtimer function on close,2019-04-01,Closed,53,13,5,h ,7
+Qt: MN tab update time changed from 1 to 20,2019-04-01,Closed,52,2,1,,1
+Qt: auto refresh of banned peers list,2019-04-01,Closed,51,9,4,,1
+added dynamic updating of banned peer list,2019-03-25,Closed,50,11,6,h ,3
+useless files removed and general clean up + updated copyright years,2019-03-20,Closed,49,892,143,contrib/debian/control contrib/debian/copyright sh yml doc/CHANGELOG doc/README txt ,9
+useless files removed and general clean up + updated copyright years,2019-03-19,Closed,48,892,143,contrib/debian/control contrib/debian/copyright sh yml doc/CHANGELOG doc/README txt ,9
+more useless files removed and general clean up,2019-03-16,Merged,47,0,1,cpp src/cpp-ethereum/refilltests h c ,6
+Master candidate,2019-03-16,Closed,46,0,1,cpp src/cpp-ethereum/refilltests h c ,6
+removing more useless files,2019-03-16,Closed,45,0,3,am empty json css c cpp ,8
+removing empty/useless files,2019-03-16,Merged,44,0,2,empty json css cpp ,6
+general glean up of a few empty/useless files,2019-03-16,Closed,43,222,38,contrib/macdeploy/macdeployqtplus py include ,5
+general glean up of a few empty/useless files,2019-03-15,Closed,42,0,23,empty json css cpp c ,8
+general glean up of a few empty/useless files,2019-03-15,Closed,41,0,23,empty json css cpp h c ,9
+general glean up of a few empty/useless files,2019-03-15,Closed,40,0,23,empty json css cpp h c ,10
+test build 005,2019-03-15,Closed,39,0,24,empty md css cpp src/cpp-ethereum/refilltests h c ,12
+test build 004,2019-03-15,Closed,38,0,3,empty md css c cpp ,7
+test 003,2019-03-15,Closed,37,0,3,empty md css cpp ,5
+build test 002,2019-03-15,Closed,36,0,1,empty css cpp ,5
+general cleaning of empty files,2019-03-15,Closed,35,0,0,empty ,3
+general glean up of a few empty/useless files,2019-03-15,Closed,34,2,36,contrib/debian/compat contrib/debian/source/format cert py empty json md css cpp src/cpp-ethereum/refilltests h c gitignore ,18
+general glean up of a few empty/useless files,2019-03-15,Closed,33,2,36,contrib/debian/compat contrib/debian/source/format cert py empty json md css cpp src/cpp-ethereum/refilltests h c gitignore ,18
+clean up of empty/useless files,2019-03-15,Closed,32,1,36,contrib/debian/compat contrib/debian/source/format cert py empty json md css cpp src/cpp-ethereum/refilltests h c gitignore ,18
+update seeds and script,2019-02-27,Merged,31,49,97,yml md py cpp h ,6
+optimization of banned address check and lighter header,2019-02-26,Closed,30,12,35,,2
+IGONRE,2019-02-26,Closed,29,0,933,,0
+IGNORE,2019-02-26,Closed,28,77,22,,11
+Pruning UX changes - without any conflicts,2019-02-03,Closed,24,22,2,,1
+Completely remove the trading tab and add a warning suppressor for broken QT functionality.,2019-01-24,Merged,23,14,"13,383",cpp h ,3
+Pruning - UX changes,2019-02-03,Closed,22,860,501,sh cpp h ,40
+disable balance polling during initial sync,2019-01-10,Merged,21,13,9,,1
+Docs: Update README.md,2019-02-22,Merged,19,5,5,,0
+sample,2018-11-14,Closed,18,3,0,sample2 sample3 sample4 sample5 sample6 ,6
+Upgrade Qt to 5.9.6,2018-10-09,Merged,16,281,68,m4 depends/Makefile mk ,12
+Trivial: fix qt staking tooltip typo 'anonimization' > 'anonymization',2018-08-28,Merged,11,7,7,ts ,6
+Update version.h,2018-08-06,Closed,8,3,3,,1
+okislitsin commits,2018-08-04,Merged,7,792,50,h json ,10
+web3api chainId and gettransactionreceipt,2018-08-04,Merged,6,575,20,h json ,11
+Fix travis build issues (jni/cflags/libs),2018-08-03,Merged,5,12,6,md ac am ,3
+Docs update after GitHub move,2018-07-27,Merged,2,31,31,,0
+Minor fix: path for the Ubuntu install is in /depends/,2018-07-27,Merged,1,1,1,,0

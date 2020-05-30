@@ -1,0 +1,271 @@
+Fix regression,2019-07-31,Merged,1889,25,16,,1
+Added CyberPanel password changing plugin,2019-07-31,Merged,1888,214,0,plugins/change-password-cyberpanel/LICENSE plugins/change-password-cyberpanel/README md plugins/change-password-cyberpanel/VERSION ,5
+Fix hide_x_mailer_header config option behaviour,2019-07-01,Merged,1878,2,0,,1
+plugin hmail-alias integration,2019-04-11,Closed,1862,136,0,plugins/hmail-aliases/README plugins/hmail-aliases/VERSION php ,4
+Added generic REST change password plugin,2019-03-27,Merged,1845,272,0,plugins/rest-change-password/README php plugins/rest-change-password/VERSION ,5
+Use `random_bytes` if available in postfix plugin,2019-03-27,Merged,1833,5,1,,1
+Content image max width size set to 100%,2019-03-27,Merged,1821,4,0,,1
+"[WIP] Fix non quoted LIST command, failing on brackets [label]/",2019-01-02,Closed,1818,8,1,,1
+Added missing 'LABEL_ALLOW_DRAFT_AUTOSAVE' and corrected small typo,2019-03-27,Closed,1810,2,1,,1
+ldap-contacts-suggestions: Allow anonymous ldap_bind(),2019-03-27,Merged,1804,16,9,plugins/ldap-contacts-suggestions/VERSION ,3
+auto-domain-grab use MX record for Host,2019-03-27,Merged,1802,20,4,,1
+Custom SQL password plugin - SQL injection vulnerability fix,2018-10-20,Merged,1791,45,8,,2
+Secured Data Folder,2018-12-28,Closed,1785,5,0,,1
+Vacation Message Update,2019-03-27,Closed,1774,2,2,html ,2
+Use random_bytes() in phpseclib/Crypt/Random.php,2019-03-27,Closed,1754,3,0,,1
+Czech translation,2019-03-27,Closed,1725,50,50,,1
+use default data directory if not defined in NextCloud config,2019-03-27,Merged,1719,1,1,,1
+"Added support to additional search field (defaults to ""uid"")",2019-03-27,Merged,1716,31,8,,2
+Allow anonymous bind to ldap for contact suggestion search.,2019-03-27,Closed,1702,2,3,,1
+Remove unused GuzzleHttp library.,2018-05-16,Merged,1691,0,"14,006",,3
+start tls and gecos,2019-03-27,Merged,1690,13,3,,2
+fixed wrong PL translation,2019-03-27,Closed,1662,2,2,,1
+Fix cs_CZ.yml BUTTON_REPLY_ALL typo,2019-03-27,Closed,1651,1,1,,1
+Fix localStorage check when embedded in iframe (firefox),2019-03-27,Merged,1648,8,1,,1
+Added MailEnable 'Junk E-mail' and 'Deleted Items' folders support.,2018-02-20,Merged,1636,4,0,,1
+Hotfix plugins/auto-domain-grab/index.php,2018-02-20,Merged,1634,8,2,,1
+Fixup switch statement in Cacher driver setup,2019-03-27,Closed,1633,31,24,,1
+Clean up dependencies in package.json,2018-02-20,Merged,1611,2,4,json ,2
+Add froxlor password change plugin,2018-02-20,Merged,1598,391,0,plugins/froxlor-change-password/LICENSE plugins/froxlor-change-password/README plugins/froxlor-change-password/VERSION ,5
+Create index for id_contact and prop_type on rainloop_ab_properties,2018-02-20,Merged,1588,2,1,,1
+Some improvement of CZech language,2018-02-20,Closed,1586,51,51,,1
+Add PostgreSQL to postfixadmin-change-password Plugin,2018-02-20,Merged,1584,52,15,plugins/postfixadmin-change-password/VERSION ,3
+Fix the case for 'Mime-Version',2018-02-20,Merged,1565,1,1,,1
+Add light favicons for use with dark browser themes.,2017-10-17,Merged,1538,0,0,png ,2
+Update Vesta Plugin,2018-02-20,Merged,1534,1,1,,1
+Fix Gravatar when e-mail address contains uppercase characters,2017-09-22,Merged,1513,1,1,,1
+Add change email account password plugin for Mail-in-a-Box,2018-02-20,Merged,1491,233,0,php plugins/mailinabox-change-password/README plugins/mailinabox-change-password/VERSION ,5
+Client certificates (with password authentication),2019-03-27,Merged,1488,"10,308","10,282",,3
+"Allow sieve filter to ""fileinto"" INBOX",2017-08-18,Merged,1487,7,1,php ,3
+Misspellings in error messages,2017-08-18,Merged,1475,12,12,,8
+Fixed managesieve plain login,2017-07-11,Merged,1468,1,2,,1
+Translation wrong. User and Domain got mixed up.,2017-06-26,Merged,1456,1,1,,1
+Create th_TH.yml,2018-02-20,Closed,1453,711,0,,0
+Update langs.yml,2017-06-14,Merged,1452,2,0,,1
+Fix permissions of built files.,2017-04-30,Merged,1415,1,1,,1
+Code of conduct proposal,2017-04-30,Merged,1414,74,0,,0
+Updated some strings,2018-02-20,Closed,1398,51,51,,1
+Updated/Changed some strings,2018-02-20,Closed,1397,35,35,,1
+BUTTON_SIGN_AND_ENCRYPT change 'and' for 'y',2017-04-08,Merged,1396,1,1,,1
+"Fixing #1284, conflict in headers creation when loading images in body message, ""Cannot modify header information - headers already sent""",2018-02-20,Merged,1375,6,4,,1
+Change password by custom SQL statement,2017-03-18,Merged,1374,300,0,php plugins/change-passwords-customsql/change-passwords-customsql/LICENSE plugins/change-passwords-customsql/change-passwords-customsql/README plugins/change-passwords-customsql/change-passwords-customsql/VERSION ,5
+Fix npm version numbers for Github packages,2017-03-13,Merged,1365,2,2,,1
+Improve button wrapping behavior,2017-02-27,Merged,1348,46,44,,1
+Improve composition on small screens,2017-02-25,Merged,1347,4,3,,1
+creation of plugin that handle paste multi row mail addresses into a …,2019-03-27,Merged,1342,54,0,plugins/contact-group-excel-paste/README plugins/contact-group-excel-paste/VERSION php js ,5
+Tell people how to debug JavaScript,2017-02-21,Merged,1341,14,0,,0
+Fix incorrect handling of multi-line Header,2017-01-23,Merged,1322,1,1,,1
+Add other missing {type} before hash,2017-01-14,Merged,1315,3,3,,1
+Add missing {PLAIN-MD5} before md5 hash,2017-01-10,Merged,1310,1,1,,1
+Create Debian Package,2017-04-30,Merged,1302,70,1,php ,2
+Update of Chinese translation.,2016-12-19,Closed,1291,159,159,,0
+mini update (el_GR),2017-02-03,Closed,1286,33,33,,1
+Fix PT-BR Typo,2017-02-03,Closed,1285,1,1,,1
+Adding info for Nextcloud support,2016-10-20,Merged,1224,19,10,build/owncloud/rainloop-app/VERSION xml ,3
+Adding Nextcloud,2016-10-20,Closed,1218,17,9,build/owncloud/rainloop-app/VERSION xml ,3
+Update tr_TR.yml,2017-02-03,Closed,1195,92,92,,0
+"Prevent owncloud Message ""App has no minimal version""",2016-07-23,Merged,1117,2,1,,1
+Add unsubscribe button,2016-07-17,Merged,1112,53,1,js php yml html ,9
+Web app manifest,2016-07-11,Merged,1101,19,1,html png json ,4
+Updated 2015 reference in about,2016-06-22,Merged,1083,1,1,,1
+ISPmail change password plugin,2016-06-14,Merged,1069,393,0,plugins/ispmail-change-password/LICENSE plugins/ispmail-change-password/README plugins/ispmail-change-password/VERSION ,5
+Minor typo in webmail -> settings -> security,2016-06-13,Merged,1066,1,1,,1
+Fix fr_FR translate error,2016-06-07,Closed,1057,2,2,,1
+fix czech translations,2016-05-11,Closed,1031,115,115,,0
+Added mailcow RainLoop plugin,2016-04-22,Merged,1004,264,0,php plugins/mailcow-change-password/README plugins/mailcow-change-password/VERSION ,5
+Revert decrypt button enabling + allow to select the sign key,2016-04-20,Merged,1001,129,37,yml html ,5
+Gpg key multiple addresses,2016-04-19,Merged,999,196,75,js less ,7
+Shrinkwrap to control dependency versions,2016-04-17,Merged,998,"4,625",0,,0
+Spanish Translation for Admin,2016-04-17,Closed,985,316,0,,1
+Replace SMTPS by ESMTP for gmail.com and yahoo.com,2016-03-24,Merged,982,6,6,,2
+Update fr_FR.yml,2016-02-24,Closed,963,1,1,,1
+Describe all options for ldap-change-password,2016-02-05,Merged,952,1,1,,1
+Add support for SHA256-CRYPT and SHA512-CRYPT crypt schemes #939,2016-01-30,Merged,948,10,1,,2
+Update en_US.yml,2016-02-24,Closed,937,1,0,,1
+Update en_GB.yml,2016-02-24,Closed,936,1,0,,1
+[ADD] pdo message mysql,2016-06-04,Closed,901,"1,425",0,,3
+Added Auto Domain Grabber Plug-in,2015-11-18,Merged,896,107,0,plugins/auto-domain-grab/README plugins/auto-domain-grab/VERSION php ,4
+Merge with elico rl,2015-11-11,Closed,890,"12,349",5,data/VERSION plugins/cas-login/LICENSE plugins/cas-login/README plugins/cas-login/VERSION php js ,9
+10389 rainloop account management,2015-11-11,Closed,889,"12,141",5,php ,2
+[add]php cas client,2015-11-09,Closed,884,"11,469",0,,3
+[begin] first commit,2015-11-02,Closed,878,455,7,gitignore jshintrc md LICENSE _MULTIPLY php jar build/owncloud/rainloop-app/VERSION xml css data/VERSION js less plugins/_depricated/convert-headers-styles/LICENSE plugins/_depricated/convert-headers-styles/README plugins/_depricated/convert-headers-styles/VERSION plugins/_depricated/recaptcha/LICENSE plugins/_depricated/recaptcha/README plugins/_depricated/recaptcha/VERSION ini html plugins/add-x-originating-ip-header/LICENSE plugins/add-x-originating-ip-header/README plugins/add-x-originating-ip-header/VERSION plugins/black-list/LICENSE plugins/black-list/README plugins/black-list/VERSION plugins/change-password-example/LICENSE plugins/change-password-example/VERSION plugins/change-smtp-ehlo-message/LICENSE plugins/change-smtp-ehlo-message/VERSION plugins/contacts-suggestions-example/LICENSE plugins/contacts-suggestions-example/VERSION plugins/cpanel-change-password/LICENSE plugins/cpanel-change-password/VERSION plugins/custom-auth-example/LICENSE plugins/custom-auth-example/VERSION plugins/custom-login-mapping/LICENSE plugins/custom-login-mapping/README plugins/custom-login-mapping/VERSION plugins/custom-settings-tab/LICENSE plugins/custom-settings-tab/VERSION plugins/custom-system-folders/LICENSE plugins/custom-system-folders/README plugins/custom-system-folders/VERSION plugins/demo-account/VERSION ,298
+Update no.ini,2015-10-23,Merged,864,13,13,,1
+Create no.ini,2015-10-12,Merged,850,323,0,,1
+Update no.ini,2015-09-16,Merged,835,238,238,,0
+Update no.ini,2015-09-15,Merged,834,3,3,,1
+updated hu.ini,2016-02-24,Closed,826,360,361,,0
+Fixes #693: findIdentityByMessage always selects the default identity,2015-08-15,Merged,801,5,2,,1
+Modified the postfixadmin-change-password plugin,2015-08-19,Merged,797,60,2,php ,3
+Updated Dutch translation (#467),2015-08-11,Merged,792,2,2,,1
+Update de.ini,2015-08-10,Merged,790,3,4,,1
+pt-br translation update,2015-08-06,Merged,788,8,8,,2
+Polish translation update,2015-08-06,Merged,787,2,2,,1
+Update pt-pt.ini,2015-08-06,Merged,786,2,2,,1
+Update no.ini,2015-07-28,Merged,778,122,122,,0
+Norwegian translation update,2015-09-15,Closed,777,301,301,,0
+Arabic language,2015-07-28,Merged,773,725,0,,0
+Updated Dutch translation (#467),2015-07-23,Merged,767,1,1,,1
+The text will be covered by a icons,2015-07-22,Closed,765,20,13,,1
+Use proper terminology,2015-07-07,Merged,752,1,1,,1
+Update fr.ini,2015-07-07,Merged,751,11,11,,1
+Add `ZipArchive::CREATE` flag for PHP 5.6,2015-07-07,Merged,749,1,1,,1
+Update pt-pt.ini,2015-07-06,Merged,744,1,1,,1
+Updated italian translation,2015-07-06,Merged,743,1,1,,1
+Polish translation update,2015-07-06,Merged,742,1,1,,1
+Update de.ini,2015-07-05,Merged,741,4,4,,1
+Update de.ini,2015-07-05,Merged,740,1,1,,1
+Added address parameter to vacation filter,2015-09-25,Closed,732,87,4,php html ini ,31
+Little extension to parse email list copied from excel,2016-05-22,Merged,700,53,0,plugins/excel-multirow-maillist-parser/README plugins/excel-multirow-maillist-parser/VERSION php js ,5
+Italian translation update and new admin translation,2015-05-24,Merged,691,350,28,,1
+Fix logic on date range search,2015-05-22,Merged,689,1,1,,1
+Break username and domain from login on last @ instead of first @,2015-05-21,Merged,683,2,2,,1
+Adds support for customization of name shown in upper right,2016-04-21,Closed,682,32,4,php html ,5
+update pt-br,2015-05-21,Merged,681,1,1,,1
+vpopmail change password plugin added,2015-05-20,Merged,679,321,0,plugins/vpopmail-change-password/LICENSE plugins/vpopmail-change-password/VERSION ,4
+vpopmail Change password plugin added,2015-05-20,Closed,678,1,0,,1
+Dutch admin 20150430,2015-05-20,Closed,677,324,4,,2
+fail2ban needs date in timestamp of log file entries to work properly,2015-05-18,Closed,675,2,2,,1
+Update lt.ini,2015-05-18,Merged,673,11,11,,1
+Update pt-pt.ini,2015-05-18,Merged,670,1,1,,1
+Polish translation update,2015-05-17,Merged,668,1,1,,1
+Update fr.ini,2015-05-17,Merged,666,2,2,,1
+Updated Dutch translation (#467),2015-05-15,Merged,660,2,2,,1
+Update de.ini,2015-05-13,Merged,655,2,2,,1
+Update pt-pt.ini,2015-05-13,Merged,654,2,2,,1
+Polish translation update,2015-05-13,Merged,653,2,2,,1
+Update pt-br.ini (#467),2015-05-13,Merged,652,8,8,,1
+Virtualmin Password Change Plugin,2015-05-04,Merged,628,362,0,plugins/virtualmin-change-password/README plugins/virtualmin-change-password/VERSION php ,5
+Updated Dutch translation (#467),2015-04-30,Merged,624,1,1,,1
+Updated german language file #467,2015-04-29,Merged,623,1,1,,1
+Polish translation update,2015-04-29,Merged,622,1,1,,1
+Fixed german translation,2015-04-28,Merged,619,16,16,,2
+Translation Update,2015-04-28,Merged,618,321,1,,2
+Ger lang update,2015-04-28,Merged,616,6,6,,1
+Update fr.ini,2015-04-28,Merged,615,8,8,,1
+Updated Dutch translation (#467),2015-04-28,Merged,614,8,8,,1
+missing translate and a fix,2015-04-28,Merged,612,2,2,,1
+Update pt-pt.ini,2015-04-27,Merged,610,6,6,,1
+Update pt-br.ini (#467),2015-04-27,Merged,609,6,6,,1
+Translated new strings,2015-04-26,Merged,608,7,7,,1
+Update polish translation,2015-04-26,Merged,607,6,6,,1
+Update pt-pt.ini,2015-04-24,Merged,605,3,3,,1
+Updated Dutch translation (#467),2015-04-23,Merged,600,7,7,,1
+Update pt-br.ini (#467),2015-04-22,Merged,599,3,3,,1
+Updated german language file (#467),2015-04-22,Merged,598,22,22,,1
+Update lt.ini,2015-04-22,Merged,597,4,4,,1
+Update polish translation,2015-04-22,Merged,596,3,3,,1
+pt-BR translation,2015-04-16,Merged,591,328,7,,2
+pt-BR translation,2015-04-16,Closed,590,0,0,,0
+Add a Gitter chat badge to README.md,2015-04-14,Merged,587,2,0,,0
+Vesta Control Panel Support,2015-04-14,Merged,586,223,0,plugins/vesta-change-password/README plugins/vesta-change-password/VERSION php ,5
+Added german translation to new language string,2015-04-04,Merged,574,1,1,,1
+Updated Dutch translation (#467),2015-03-31,Merged,566,2,2,,1
+Update pt-br.ini,2015-03-30,Merged,565,2,2,,1
+Polish translation updated,2015-03-30,Merged,564,2,2,,1
+Update pt-pt.ini,2015-03-30,Merged,563,2,2,,1
+dutch-update-20150330,2015-03-25,Merged,554,2,2,,1
+Updating fr.ini,2015-03-18,Merged,545,39,39,,1
+Update de.ini,2015-03-17,Merged,542,3,3,,1
+Update fr.ini,2015-03-17,Merged,539,94,94,,1
+Update polish translation,2015-03-17,Merged,538,3,3,,1
+Update pt-pt.ini,2015-03-17,Merged,537,4,4,,1
+Updated Dutch translation (#467),2015-03-17,Merged,536,3,3,,1
+Update pt-br.ini,2015-03-17,Merged,535,5,5,,1
+Update lt.ini,2015-03-17,Merged,534,2,2,,1
+Update lt.ini,2015-03-17,Merged,533,4,4,,1
+Update pt-br.ini,2015-03-16,Merged,530,4,4,,1
+Updated Dutch translation (#467),2015-03-15,Merged,529,4,4,,1
+Polish translation update,2015-03-14,Merged,528,4,4,,1
+Updated german language file,2015-03-14,Closed,527,3,3,,1
+Update de.ini,2015-03-14,Merged,526,4,4,,1
+Merge from RainLoop/rainloop-webmail master branch,2015-03-14,Closed,525,0,0,,0
+Update pt-pt.ini,2015-03-14,Merged,524,4,4,,1
+Add ability to use real own custom CSS for much better theming support,2016-05-22,Closed,521,1,0,,1
+Updated italian language,2015-02-25,Merged,506,18,18,,1
+Small translation fixes,2015-02-24,Merged,498,2,2,,1
+Updated Dutch translation (#467),2015-02-23,Merged,491,2,2,,1
+Update ru.ini,2015-02-23,Merged,490,86,85,,1
+Update pt-br.ini,2015-02-23,Merged,489,3,3,,1
+Update pl.ini,2015-02-22,Merged,487,6,6,,1
+Update pt-pt.ini,2015-02-22,Merged,486,4,4,,1
+Merge with RainLoop-master,2015-02-22,Closed,485,0,0,,0
+Updated German translation,2015-02-22,Merged,484,1,1,,1
+Update lt.ini,2015-02-22,Merged,483,2,2,,1
+Fixed grammatical and spelling errors; translated new strings,2015-02-21,Merged,480,116,116,,0
+Update lt.ini,2015-02-20,Merged,477,93,93,,1
+Updated Dutch translation (#467),2015-02-19,Merged,476,9,9,,1
+Update pt-br.ini,2015-02-18,Merged,475,77,77,,1
+Update polish translation,2015-02-18,Merged,474,15,15,,1
+Update pt-pt.ini,2015-02-18,Merged,473,6,6,,1
+Update pt.js,2015-02-18,Merged,471,8,8,,1
+Create pt-pt.js,2015-02-18,Closed,470,60,0,,1
+Update polish translation,2015-02-18,Merged,468,39,39,,1
+pt-pt.ini update,2015-02-17,Merged,465,406,406,,0
+Massive review of Italian translation:,2015-02-10,Merged,441,164,159,,0
+Polish language updated,2015-02-08,Merged,437,34,34,,1
+Updated german translation,2015-02-07,Merged,436,77,77,,1
+Small typo correction,2015-02-06,Merged,432,50,50,ini ,25
+Updated Dutch translation,2015-02-06,Merged,430,82,82,,1
+Update pt-br.ini,2015-01-16,Merged,415,2,2,,1
+Update include.php,2015-01-10,Closed,403,1,0,,1
+Merge pull request #1 from RainLoop/master,2015-01-09,Closed,402,0,0,,0
+Merge pull request #1 from RainLoop/master,2015-01-09,Closed,401,0,0,,0
+Merge pull request #1 from RainLoop/master,2015-01-08,Closed,400,0,0,,0
+Update pt-br.ini and create default.ini.dist,2015-01-04,Merged,399,44,24,php ini ,3
+Update MessageView.less,2014-12-05,Closed,385,1,1,,1
+Update hu.ini,2014-11-10,Merged,371,20,20,,1
+Added Plugin: Automatic Default Domain,2014-10-31,Closed,364,57,0,plugins/automatic-default-domain/README plugins/automatic-default-domain/VERSION php ,4
+fix parse name and filename,2014-10-24,Closed,359,26,16,,1
+Hash folder names in a case sensitive way. Solves issue 132.,2014-10-10,Closed,348,2,2,,1
+Update pt-br.ini,2014-10-07,Merged,340,164,159,,0
+Updated norwegian strings in no.ini,2014-10-04,Merged,338,245,246,,0
+Update pt-br.ini,2014-09-30,Merged,335,1,1,,1
+Update langs.ini,2014-09-29,Merged,334,3,0,,1
+Create lt.ini,2014-09-29,Merged,333,614,0,,0
+Add responsiveness for mobile devices,2014-09-19,Merged,321,172,1,html ,3
+i-mscp hosting control panel change password plugin,2015-02-03,Closed,300,217,0,plugins/imscp-change-password/README plugins/imscp-change-password/VERSION ,4
+Turkish translation,2014-08-30,Merged,299,609,0,,0
+modified:   rainloop/v/0.0.0/langs/nl.ini,2014-08-27,Merged,295,201,201,,0
+Added sql-change-password plugin,2014-12-15,Closed,277,256,0,php plugins/sql-change-password/VERSION ,4
+Logout SSO Fix: Missing path to RainLoop,2014-08-11,Closed,274,3,2,,1
+Automatic login with ownCloud user credentials,2014-08-10,Merged,273,259,152,build/owncloud/rainloop-app/VERSION php xml png js ,16
+Lang nl update 20140717,2014-07-18,Merged,236,116,116,,1
+Added switch to enable or disable the Reply Counter,2014-07-17,Closed,227,22,2,html ini ,7
+Update app.min.css,2014-07-03,Closed,225,1,1,,1
+Update app.css,2014-07-03,Closed,224,1,1,,1
+update ua.js,2014-07-03,Merged,223,30,31,,1
+Create Ukrainian translation,2014-07-02,Merged,222,605,0,,0
+Corrected Forward text,2014-06-27,Merged,216,2,2,,1
+Corrected date search in Dutch,2014-06-26,Merged,214,6,6,,1
+qq.com.ini,2014-06-03,Merged,181,7,0,,1
+Updated italian language,2014-05-23,Merged,174,125,124,,1
+Update fr.ini,2014-05-22,Merged,172,4,4,,1
+Better spanish translation,2014-05-14,Merged,165,27,27,,1
+Improve spanish translation,2014-05-14,Merged,164,187,187,,0
+Update zh-cn.ini,2014-05-13,Merged,162,97,97,,1
+Update nl.ini,2014-05-09,Merged,153,9,9,,1
+Update fr.ini,2014-05-05,Merged,148,12,12,,1
+Update hu.ini,2014-05-04,Merged,147,77,77,,1
+Update fr.ini,2014-05-01,Merged,146,106,106,,1
+Update hu.ini,2014-05-01,Merged,145,26,26,,1
+Update!,2014-04-16,Merged,137,15,15,,1
+Translated new strings and fix bug's,2014-02-22,Merged,95,93,94,,0
+Update #3,2014-02-17,Merged,89,60,60,,1
+Update #2,2014-02-17,Merged,87,62,62,,1
+Update #1,2014-02-07,Merged,68,15,15,,1
+Improved italian translation,2014-01-31,Merged,60,6,6,,1
+Added italian translation,2014-01-21,Merged,57,455,0,,0
+Update fr.ini,2014-01-21,Merged,55,3,3,,1
+Update fr.ini,2014-01-19,Merged,54,7,7,,1
+Update fr.ini,2014-01-07,Merged,45,15,15,,1
+Update fr.ini,2013-12-19,Merged,35,9,9,,1
+Update fr.ini,2013-12-18,Merged,34,5,5,,1
+Update fr.ini,2013-12-17,Merged,33,5,5,,1
+Update fr.ini,2013-12-06,Merged,25,6,6,,1
+Factorizing Validator.php,2013-11-27,Closed,19,12,35,,1
+Update fr.ini,2013-11-15,Merged,13,17,17,,1
+Update fr.ini,2013-10-29,Merged,7,12,12,,1
+add latvian language,2013-10-18,Merged,4,378,0,,2
+Optimizing extension checking,2013-10-16,Merged,3,7,13,,1
+Completing french translation,2013-10-16,Merged,2,28,28,,1
+broken docs link,2013-10-08,Merged,1,1,1,,0

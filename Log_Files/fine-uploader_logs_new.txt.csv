@@ -1,0 +1,370 @@
+try docfu 1.0.3 to hopefully fix smart_strong import error,2018-11-04,Merged,2068,1,1,,1
+Call target.onload() only when defined,2018-10-13,Merged,2056,1,1,,1
+feat(dnd.js): add dragEnter and dragLeave callbacks,2018-11-01,Merged,2037,13,0,jmd ,2
+Clarified that callbacks are FineUploader option.,2018-06-08,Merged,2014,8,0,,2
+consider Firefox when checking for Android Stock Browser,2018-10-27,Merged,2007,1,1,,1
+docs(s3): fix chunked upload v4,2018-04-26,Merged,2001,1,1,,1
+docs: fix Amazon S3 v4 signature guide,2018-04-24,Merged,1998,3,3,,1
+Hotfix/null guards,2018-04-10,Merged,1995,19,10,json ,6
+Merge master to release/6.0.0,2018-03-23,Merged,1984,"4,696","2,799",md gitignore yml LICENSE Makefile js ,10
+"refactor: use native JSON.parse, drops IE7 support",2018-10-03,Merged,1983,5,28,,7
+Fix reported path when file name also occurs in parent directory name(s),2018-03-02,Merged,1977,47,15,json ,4
+Fix for https://github.com/FineUploader/fine-uploader/issues/1172,2018-01-27,Merged,1964,97,2,json ,4
+fix(templating.js): reset caused duplicate template contents (#1945),2017-12-23,Merged,1958,6,0,,2
+bloburi param in doc now matches code,2017-11-18,Merged,1950,2,2,,1
+fix firefox drag area flickers,2017-11-18,Merged,1946,0,4,,1
+Feature/flexible upload support,2018-03-09,Merged,1939,"1,354",201,gitignore Makefile js ,7
+Double Thumbnail loading (#1936) Fix,2017-11-06,Closed,1937,1,0,,1
+Add serverside encryption headers as request params,2017-11-06,Merged,1933,4,0,jmd ,2
+Fixes #1930 documentation issue,2017-10-16,Merged,1932,5,5,,1
+flexible upload support,2017-11-08,Closed,1917,"1,318",198,gitignore Makefile js ,7
+Flexible upload workflow support,2017-09-12,Closed,1916,156,78,js json ,11
+fix(templating): correctly handle tables,2017-11-06,Merged,1903,144,8,,2
+Allow option to send chunking specific params as custom header params…,2017-11-06,Closed,1892,119,36,js ts jmd ,12
+Updated version number for next relaese,2017-07-27,Merged,1891,2,2,json ,2
+"Revert ""Updated Typescript to support canonical imports""",2017-07-26,Closed,1890,"2,540","2,757",,0
+fixed - removing console error target.onload() for while img preview,2017-09-20,Closed,1883,1,1,,1
+"remove redundant code, `fileId` is unused",2017-07-15,Closed,1874,1,2,,1
+refactor: it is not necessary include the UUID of the response JSON #1872,2017-06-30,Closed,1873,8,24,,1
+Fixed Drag'n'Drop for Firefox 54,2017-10-10,Closed,1871,5,5,,1
+Workaround / fix for multi-part upload to S3 fails on Edge >= 15 with 403 Forbidden,2017-06-27,Merged,1859,27,1,,3
+Minor spelling/method name correction,2017-05-28,Merged,1851,1,1,,1
+Fix extraButtons typescript define not correct,2017-05-31,Merged,1850,1,1,,1
+set default content-type for uploads,2017-11-06,Closed,1846,5,0,,1
+Updated Typescript to support canonical imports,2017-07-26,Merged,1840,"2,752","2,535",,0
+Added Polyfill for CustomEvent in IE >= 9,2017-11-08,Closed,1836,3,9,,1
+Update S3/Azure TypeScript definition file,2017-05-13,Merged,1830,10,10,,1
+corrected case of `client/commonJs`,2017-11-06,Merged,1828,1,1,,1
+Update mocha to the latest version 🚀,2017-05-24,Closed,1826,1,1,,1
+Update pica to the latest version 🚀,2017-05-24,Closed,1820,1,1,,1
+fix(dnd): ignore non-file drag'n'drop events,2017-11-08,Merged,1819,246,4,,2
+test(package): lock pica to v2.0.8,2017-04-14,Merged,1818,1,1,,1
+Update karma-spec-reporter to the latest version 🚀,2017-05-24,Closed,1816,1,1,,1
+Canned files: onStatusChange called too early,2017-04-06,Merged,1809,18,15,json ,4
+Update karma to the latest version 🚀,2017-05-24,Closed,1808,1,1,,1
+Add support for S3 SSE using own KMS key,2017-11-06,Closed,1803,157,2,,7
+Fix s3 pause/continue chunked multiple bug.,2017-11-08,Closed,1796,2,1,,2
+Added Open Collective to README.md and in npm postinstall,2017-05-24,Merged,1795,86,3,json ,1
+Update clean-css-cli to the latest version 🚀,2017-05-24,Closed,1793,1,1,,1
+Update karma-firefox-launcher to the latest version 🚀,2017-05-24,Closed,1789,1,1,,1
+Update uglify-js to the latest version 🚀,2017-05-24,Closed,1786,1,1,,1
+Update uglify-js to the latest version 🚀,2017-03-01,Merged,1783,1,1,,1
+Update uglify-js to the latest version 🚀,2017-03-01,Merged,1782,1,1,,1
+Update uglify-js to the latest version 🚀,2017-02-28,Merged,1781,1,1,,1
+Update uglify-js to the latest version 🚀,2017-02-28,Merged,1780,1,1,,1
+Docs/tag chooser,2017-02-25,Merged,1777,33,0,js html ,4
+Update karma-spec-reporter to the latest version 🚀,2017-02-24,Merged,1775,1,1,,1
+Update karma-spec-reporter to the latest version 🚀,2017-02-24,Merged,1774,1,1,,1
+Update karma-spec-reporter to the latest version 🚀,2017-02-24,Merged,1773,1,1,,1
+Update clean-css-cli to the latest version 🚀,2017-02-22,Merged,1771,1,1,,1
+Move docs generation to Travis & publish to docs.fineuploader.com repo,2017-02-22,Merged,1769,52,18,Makefile ,2
+Fixing itemLimit Validation in case extraButtons Option,2017-03-07,Closed,1766,"14,977",0,,0
+Fixing itemLimit Validation in case extraButtons Option,2017-02-22,Closed,1765,138,24,css js jmd json ,17
+Update karma to the latest version 🚀,2017-02-20,Merged,1762,1,1,,1
+Add missing return definition,2017-02-22,Merged,1759,1,1,,1
+Improve issue templates + move support back to issue tracker,2017-02-15,Merged,1754,51,35,github/PULL_REQUEST_TEMPLATE html ,2
+Update clean-css-cli to the latest version 🚀,2017-02-15,Merged,1753,1,1,,1
+feat(uploader*.api.js): addInitialFiles() accepts non-successful files.,2017-11-08,Closed,1751,70,12,jmd ,4
+feat(uploader.api.js) added `id` and `uuid` to `showConfirm()`,2017-11-08,Closed,1750,5,5,ts jmd ,4
+Update clean-css-cli to the latest version 🚀,2017-02-13,Merged,1749,1,1,,1
+chore(package): update clean-css-cli to version 4.0.5,2017-02-07,Merged,1746,1,1,,1
+Update clean-css-cli to the latest version 🚀,2017-02-07,Closed,1745,1,1,,1
+v6.0.0 progress,2017-11-08,Closed,1743,7,666,js ,6
+feature: adding setStatus to the public api list,2017-02-02,Closed,1739,196,17,js jmd ,4
+Feature/1711 remove file ref method,2017-01-30,Merged,1737,45,2,jmd json ,5
+Update karma to the latest version 🚀,2017-01-30,Merged,1736,1,1,,1
+chore(package): update clean-css to version 4.0.2,2017-01-28,Closed,1732,1,1,,1
+Update clean-css to the latest version 🚀,2017-01-28,Closed,1730,1,1,,1
+Allow custom error message in S3 signature response,2017-01-28,Merged,1724,65,1,jmd ,3
+Update clean-css to the latest version 🚀,2017-01-20,Merged,1723,1,1,,1
+Update karma to the latest version 🚀,2017-01-14,Merged,1721,1,1,,1
+Feature/typescript definitions,2017-02-13,Merged,1719,"3,493",1,,1
+handle 204 no content situation,2017-01-10,Closed,1714,1,1,,1
+Allow upload with empty file,2017-01-06,Merged,1710,64,4,jmd ,6
+Update dependencies to enable Greenkeeper 🌴,2016-12-30,Merged,1706,10,9,js json ,2
+S3 Signature on Worker,2017-11-08,Closed,1702,510,19,js jmd json ,9
+detect npm-path properly in cygwin (fixes windows build).,2017-02-13,Merged,1698,8,1,,1
+docs(02-setting_options-s3.jmd): Add comma to object literal,2016-11-26,Merged,1694,1,1,,1
+chore(Makefile): remove duplicate line,2016-12-11,Merged,1691,0,1,,1
+Adding typescript definition file,2017-01-13,Merged,1689,"3,406",0,,1
+Remove console.log on S3 Options page,2016-10-27,Merged,1681,0,1,,1
+Minor edit to fix invalid example code,2016-10-27,Merged,1679,3,3,,1
+a typo fix on the surplus quotation mark,2016-10-22,Merged,1677,2,2,,1
+Update docs for retry feature,2016-10-20,Merged,1675,1,1,,1
+Add adjustments to S3 module to allow for use with Google Cloud Storage buckets,2017-11-08,Closed,1674,9,1,,2
+Feature/903 allow empty file uploads,2017-01-07,Closed,1673,6,2,,2
+Reject the signing promises on failure.,2016-09-29,Merged,1666,9,0,,1
+Don't requeue uploads in the waiting queue.,2017-11-08,Closed,1665,5,1,,1
+Issue 1661 - CustomHeaders not set on delete feature,2016-09-08,Merged,1662,1,0,,1
+Docs/1646 better getting started,2016-08-22,Merged,1651,981,346,,2
+Docs/1646 better getting started,2016-08-22,Closed,1650,983,354,html ,3
+Build cleanup,2016-08-08,Merged,1635,575,"1,882",gitmodules jscsrc jshintignore jshintrc yml txt js ,7
+"Revert ""#1569 build cleanup""",2016-08-08,Merged,1634,"1,882",575,gitmodules jscsrc jshintignore jshintrc yml txt js ,7
+#1569 build cleanup,2016-08-08,Merged,1633,575,"1,882",gitmodules jscsrc jshintignore jshintrc yml txt js ,7
+Fix for invalid v4 signature w/ chunked file that contains non-ASCII characters in key,2016-09-22,Merged,1632,36,3,,4
+docs(features): Add S3 Transfer Acceleration to S3 feature,2016-07-28,Merged,1627,18,20,,1
+"Added ""content-length-range"" to s3/util.js",2017-11-08,Closed,1626,1,0,,1
+"Added ""content-length-range"" to s3/util.js",2016-07-25,Closed,1625,1,0,,1
+fix(image): Fixed a problem where image previews weren't being loaded,2016-07-08,Merged,1610,1,1,,1
+Allow a sasQuery to be specified for Azure to avoid the use of a signing endpoint,2017-11-08,Closed,1604,22,8,jmd ,3
+Allow a sasQuery to be specified for Azure to avoid the use of a signing endpoint,2016-06-26,Closed,1603,22,8,jmd ,3
+Added backtick to fix formatting,2016-06-27,Closed,1599,1,1,,1
+fix(session): Fixed a problem with the session requester cors request,2016-06-23,Merged,1598,1,1,,1
+Issue 1591 - Add support to send chunk info in JSON format with each …,2017-11-06,Closed,1597,38,2,,4
+Release/5.10.0,2016-06-16,Closed,1587,633,326,js ,8
+docs(scaling & thumbnails): 3rd-party scaling doc updates,2016-06-15,Merged,1586,14,14,,2
+Feature/1195 Allow pause of upload queue,2017-07-15,Closed,1585,143,2,,4
+Feature/1195 Pause Upload Queue,2016-06-13,Closed,1584,66,48,html jmd json ,26
+Allow an alternate library to be used to generate resized images,2016-06-15,Merged,1576,588,281,js ,10
+Fixed typos,2016-05-20,Merged,1575,45,45,html jmd ,25
+Update contributing section,2016-05-14,Merged,1573,27,4,,0
+Update site for 5.9.0 release.,2016-05-14,Merged,1572,107,"1,305",html_NEW ,2
+5.9.0,2016-05-14,Merged,1571,70,445,gitignore LICENSE json js html jmd ,11
+fix(build): node version is too old to run updated build,2016-05-11,Merged,1567,3,0,js json ,3
+site(features): Prepare for 5.8.0 release,2016-05-11,Merged,1566,8,8,html js ,3
+docs(README): gitter chat shield,2016-05-09,Merged,1565,2,0,,0
+CommonJS + AMD support,2016-05-11,Merged,1562,415,50,md jmd ,12
+docs(contributing): attempt to re-integrate clahub.com,2016-05-04,Merged,1561,2,30,github/PULL_REQUEST_TEMPLATE ,1
+Pass xhr object through error handlers,2016-04-26,Merged,1559,3,3,,1
+Microsoft Edge support,2016-04-25,Merged,1557,37,12,js jmd json ,8
+docs(delete file): clearer docs for proper callback use,2016-04-11,Merged,1554,3,17,js ,3
+Release/6.0.0,2016-04-05,Closed,1552,338,"1,217",md css ,3
+Adding S3 onSigningRequestComplete Event Callback,2017-11-08,Closed,1549,93,12,,7
+Remove eval() fallback for JSON parsing.,2016-02-16,Closed,1529,5,28,,7
+Remove eval() fallback for JSON parsing.,2016-02-16,Closed,1528,5,28,,7
+Allow access to chunk data.,2016-01-12,Closed,1516,139,96,,6
+Allow access to chunk data.,2016-01-12,Closed,1515,137,93,,6
+Allow access to chunk data.,2016-01-12,Closed,1514,135,93,,6
+Docs/few corrections,2015-12-15,Merged,1508,3,3,,2
+Docs/few corrections,2015-12-14,Closed,1507,3,3,,2
+Fix for #1479: Blobs uploaded via Azure module with uuid mode get .undefined extension if original filename has no extension,2015-10-08,Merged,1480,6,2,,1
+Hide retry button when status changes to UPLOAD_RETRYING instead of directly in hardcoded scenarios.,2015-08-28,Merged,1458,1,2,,1
+Remove moot `version` property from bower.json,2015-06-10,Closed,1423,0,1,,1
+Include built files in repo for bower.,2015-06-06,Closed,1420,"16,140",25,json js ,3
+Add unprefixed Azure request headers support,2015-07-06,Merged,1404,95,3,,2
+Create hey,2015-03-21,Closed,1389,2,0,,1
+Docs(options-UI): typos,2015-02-16,Merged,1370,1,1,,1
+Docs(options UI): missing T,2015-02-16,Closed,1369,1,1,,1
+typo..,2015-02-16,Merged,1368,1,1,,1
+Typos,2015-02-16,Merged,1366,2,2,,1
+Corrected typo,2015-02-07,Closed,1360,2,2,,1
+Fix file size approximation.,2015-01-21,Closed,1356,2,2,,1
+201 created as a succesfull post request response code,2015-01-21,Closed,1355,1,1,,1
+Reject all files which fail validation,2015-01-08,Closed,1345,1,1,,1
+Fixes containsNonSimpleHeaders,2017-11-08,Closed,1321,1,1,,1
+Fixes containsNonSimpleHeaders,2014-11-07,Closed,1319,"21,493","2,890",jscsrc yml ,3
+Typo though - through,2014-10-27,Merged,1317,1,1,,1
+Typo asssumes - assumes,2014-10-21,Merged,1316,1,1,,1
+*NOT READY* chore($build): Incorporate jscs,2014-09-26,Closed,1298,308,317,js ,14
+feat(client/js/*/uploader.basic.js): #1252 - Allow to change successEndpoint per upload,2014-11-10,Merged,1296,6,5,,3
+fixes bug where large amount of uploads races ahead of UI,2016-03-02,Closed,1288,2,2,,1
+Add unprefixed S3 request headers support,2015-11-10,Merged,1258,34,4,,1
+Add unprefixed S3 headers support,2014-07-24,Closed,1257,46,8,jmd ,2
+onProgress event should send the name parameter,2014-08-26,Closed,1255,2,0,json ,2
+onProgress event should send the name parameter,2014-07-17,Closed,1254,1,0,,1
+Allow drag and drop to work with other plugins.,2014-05-23,Closed,1215,1,5,,1
+Add possibility to override XHR error message,2014-05-13,Closed,1206,4,2,,1
+Develop,2014-03-25,Closed,1171,5,1,,1
+send size & mime_type to uploadSuccess endpoint.,2014-03-24,Closed,1170,2,0,,1
+dataTransfer.items truthy fix,2014-06-03,Closed,1166,5,1,,1
+Added X-CSRF-Token,2014-03-02,Closed,1151,1,0,,1
+Exception when creating a drag and drop zone for S3 uploader,2014-02-25,Merged,1132,1,2,,1
+Update documentation - files to be deleted can be fed in via session (ht...,2014-02-10,Closed,1109,1,2,,1
+"3 - IEC extensions and math, {size} field for messages, ""badExtensions"" for exclusion instead of inclusion",2014-02-27,Closed,1108,66,9,,2
+"Added: IEC extensions/math option, {size} for output messages, Bad extensions list to exclude specific instead of include specific",2014-01-23,Closed,1107,66,9,,2
+Better check if isEditFilenameEnabled,2014-01-21,Closed,1103,3,3,,1
+docs(api/options): Fix reversed value for multiple,2014-01-03,Closed,1087,1,1,,1
+"docs($customHeaders options): Clarify scope of request.customHeaders, and add a couple missing entries",2014-01-03,Merged,1086,7,1,,2
+Fix broken link to mozilla,2013-12-05,Closed,1066,1,1,,1
+2 - Support for nested dropzones,2013-12-27,Merged,1054,1,0,,1
+1 - Add an UploadedChunk event callback,2013-11-25,Closed,1028,13,1,,4
+fixed syntax error in sample code,2013-09-27,Closed,1007,1,1,,1
+Merge pull request #1 from Widen/master,2013-09-27,Closed,1006,0,0,,0
+feat(xhr): now support other success status code,2013-09-26,Closed,1005,2,2,,2
+feat(xhr): now support other success status code,2013-09-24,Closed,1004,3,3,,3
+feat(xhr): now support other success status code,2013-09-24,Closed,1003,3,3,,3
+Fix to iframe.xss.response to allow for document.body to be null,2013-09-19,Closed,1001,1,1,,1
+Typo.,2013-09-10,Closed,986,1,1,,1
+Update index.jmd,2013-09-03,Closed,981,1,1,,1
+Also escape [!'() which are escaped by Amazon,2013-08-30,Closed,978,1,1,,1
+Travis Should Deny This: Part 3 -- Return of the Branch,2013-06-15,Closed,884,"1,864","1,092",yml txt → LICENSE Makefile ,4
+Travis Should Deny This: Part 2,2013-06-15,Closed,883,"1,864","1,092",yml txt → LICENSE Makefile ,4
+Travis Should Deny This,2013-06-06,Closed,882,4,0,,0
+Test develop pr,2013-06-06,Closed,880,"1,864","1,092",yml txt → LICENSE Makefile ,4
+2 - Hide add button when itemLimit is reached,2013-07-09,Closed,858,12,0,,1
+"1 - fix for ""uploadStoredFiles""",2013-07-09,Closed,851,9,5,,1
+"fix for ""uploadStoredFiles"" to show ""noFilesError"" if there is no select...",2013-05-24,Closed,850,9,5,,1
+Small typo fixed,2013-05-14,Merged,842,1,1,,0
+Small typo fixed,2013-05-14,Closed,841,896,302,js ,2
+Small typo fixed,2013-05-14,Closed,839,1,1,,0
+Return correct uuid if file is persisted in cookie,2013-05-08,Closed,828,3,1,,1
+Return correct uuid if file is persisted in cookie,2013-05-07,Closed,827,532,219,js ,3
+Return correct uuid if file is persisted in cookie,2013-05-07,Closed,826,3,1,,1
+Update drag-and-drop.md,2013-05-04,Closed,823,1,1,,0
+Invalidate deleted file internal data structure,2013-05-10,Closed,821,4,0,,1
+check for styles.opacity being undefined in qq.css,2013-05-03,Merged,817,1,1,,1
+Invalidate deleted file internal data structure,2013-04-30,Closed,814,4,0,,1
+Update callbacks.md,2013-04-24,Closed,806,1,1,,0
+correct a typo in the drag & drop module documentation,2013-04-16,Closed,791,574,182,js ,2
+Add website analytics,2013-03-30,Merged,771,5,0,,1
+Added a new option to allow a customized parser function,2013-09-16,Closed,769,14,2,,3
+Fix cancel button reference loss when it's not a direct child,2013-04-19,Closed,768,1,1,,1
+workaround aggressive minification not playing ball with IE8,2013-04-01,Closed,763,2,1,,1
+Update qqFileUploader.php,2013-03-14,Merged,742,2,2,,1
+Erlang server side implementation,2013-03-12,Merged,739,668,0,server/erlang/fileserver/Makefile md conf html server/erlang/fileserver/rebar config src erl ,9
+Prevent non string in allowedextensions,2013-03-11,Closed,738,555,166,gradle js ,6
+Add original xhr object to onError callback.,2013-03-06,Closed,728,1,1,,1
+Update qqFileUploader.php,2013-03-03,Merged,717,1,1,,1
+Create mootools-1.2.1-core.js,2013-02-28,Closed,700,349,0,,0
+Windows-conditional Logic Added for Uploading,2013-03-02,Merged,699,10,3,,1
+Improved qq.obj2FormData method.,2013-04-01,Closed,697,59,67,,1
+Recognize browsers without file upload support,2013-04-01,Closed,695,37,8,,3
+Refactored django exaple,2013-03-02,Closed,694,63,20,,1
+onBeforeStart callback added to enable pre-flight processing,2013-04-01,Closed,692,34,3,,1
+Add AMD support,2013-04-01,Closed,690,29,5,js html ,7
+Update the Python Django example....,2013-03-02,Merged,689,239,38,gitignore py pyc htm ,11
+Trivial update to li3 controller code.,2013-02-19,Merged,684,1,1,,1
+Recognize browsers without file upload support,2013-02-22,Closed,682,37,8,,3
+Encode params if sent as body,2013-02-17,Closed,679,32,14,js ,2
+issue #671: onBeforeStart callback added,2013-02-22,Closed,677,31,3,,1
+Further fixes to chunked uploading,2013-02-15,Merged,675,4,5,,1
+Added a customFields options to qq.UploadHandlerForm.,2013-02-15,Closed,674,13,1,,2
+Update to PHP Server example,2013-01-30,Closed,642,16,13,md php ,2
+Update to PHP Server example,2013-01-30,Merged,641,1,1,,1
+Added example code for the Lithium (PHP) framework.,2013-02-04,Merged,638,75,0,md ,2
+Django and Tornadoweb examples,2013-01-31,Closed,636,194,0,py ,3
+Add getSuccessful method,2013-01-28,Closed,633,0,0,,0
+Fixing IE security issues,2013-01-25,Closed,627,9,2,,1
+Update server docs for custom properties in response,2013-01-25,Merged,625,2,0,,0
+add note about padding response for IE,2013-01-25,Merged,623,2,1,,0
+"IE ""friendly"" errors workaround",2013-01-25,Closed,622,15,8,js md ,3
+Fix create URL using request or deleteFile params,2013-01-25,Merged,620,8,5,,2
+Update server/php/qqFileUploader.php,2013-01-31,Closed,619,6,1,,1
+AMD support,2013-02-22,Closed,616,28,5,js html ,7
+AMD support,2013-01-23,Closed,615,39,10,js md html ,9
+add an AMD/require support to the jquery plugin,2013-01-23,Closed,612,26,3,js html ,7
+Error when using whitespace removal as minifier,2013-01-21,Closed,607,2,2,,1
+Additional PHP server-side example,2013-01-18,Closed,597,"1,051",0,,2
+#589 Show file sizes prior to upload,2013-01-25,Closed,596,12,2,gradle js ,3
+"Added ""delete"" functionality",2013-01-17,Closed,592,26,7,gradle css js ,5
+Re-enable the drag/drop functionality for non-multi upload when user drags more than 1 file,2013-01-10,Closed,576,1,0,,1
+C# example for ASP.NET MVC,2012-12-18,Merged,538,167,0,md config ,4
+Simple typo fix to readme,2012-12-16,Merged,537,1,1,,0
+#345 and #484,2012-12-17,Merged,532,31,10,,1
+Add ‘Features’ section,2012-12-11,Merged,528,57,3,html ,4
+Checks if $_SERVER['CONTENT_TYPE'] exists,2012-12-11,Merged,526,34,32,,1
+Issue #484,2012-12-13,Closed,523,223,203,,0
+Content-Type example for php.php #346,2012-12-13,Closed,522,204,203,,0
+Setter for upload name,2012-12-17,Closed,521,215,203,,0
+Move templates into HTML file(s),2013-09-16,Closed,517,22,0,,1
+Add 'Accept' header for XHR upload requests,2012-11-27,Closed,495,1,0,,1
+Ability to define hover and focus classes for UploadButton,2012-11-26,Merged,485,7,1,,1
+Ability to set classes for upload buttons,2012-11-24,Closed,483,7,1,,1
+Patch 1,2012-11-16,Closed,468,"4,353","2,016",xml gradle htm ,5
+File Uploader v3.0 Demo,2012-11-09,Merged,459,"4,677","1,792",css ,3
+3.0: please give ONLY xml response text to onComplete function,2012-11-06,Closed,454,"4,526","7,550",gradle htm ,4
+Give onComplete more response data,2012-11-05,Closed,452,1,1,,1
+Display an alert if no file is chosen to upload,2012-11-05,Closed,451,4,0,,1
+Update client/fileuploader.js,2012-11-05,Closed,449,1,1,,1
+Fixed typo,2012-11-05,Merged,448,1,1,,0
+Quick check for CONTENT_TYPE,2012-11-02,Closed,442,4,0,,1
+Change in default size-limit and make upload-path more flexible,2012-10-28,Merged,424,72,23,,1
+Some improvements in the server python_django,2012-10-24,Merged,423,15,"1,288",css ,3
+Refactor the code of python_django server,2012-10-23,Merged,421,53,66,pyc delete htm ,11
+Issue 417: https://github.com/valums/file-uploader/issues/417,2012-10-23,Merged,418,7,3,,1
+fileId as fileTemplate replaceable field.,2012-10-23,Closed,411,"1,639","1,638",,0
+Fix cancel handler,2012-10-18,Merged,409,4,0,,1
+Updated demo,2012-10-18,Merged,408,"1,544",60,html ,3
+ASP.Net MVC VB.Net example,2012-10-17,Merged,393,127,0,vb ,2
+Change in default size-limit and make upload-path more flexible,2012-10-15,Closed,369,192,142,,1
+One more correction to the Readme file,2012-10-01,Merged,368,1,1,,0
+Some readme corrections,2012-09-29,Merged,363,4,4,,0
+Enable sub-classes to customize file-handlers.,2012-10-22,Closed,362,11,2,,1
+Fixed the ColdFusion code so it works with IE.,2012-09-26,Merged,357,127,9,cfm txt ,4
+added support for localizing 'is' and 'are' strings,2012-09-26,Merged,353,1,2,,1
+Removed duplicate definition in README,2012-09-25,Merged,351,0,1,,0
+Parameter for behavior upon failed files,2012-09-28,Merged,350,7,6,,1
+"When uploading a list of files, filter only non-validated files",2012-09-24,Closed,341,0,0,,0
+"When uploading a list of files, filter only non-validated files",2012-09-21,Closed,340,"1,793",142,css ,2
+Django,2012-09-19,Merged,338,12,8,pyc htm ,7
+Upload progress internationalization and initialization fix.,2012-09-19,Closed,336,12,3,,1
+"When uploading file without extension, a dot is added to the file",2012-09-14,Merged,333,5,3,,1
+Allow CSS classes for buttonHover and buttonFocus to specified in options to FileUploader,2012-10-16,Closed,332,9,0,,1
+Added parameter to change uploaded filename,2012-09-28,Closed,329,11,3,,1
+This is caused by Array.indexOf is not supported by IE.,2012-09-12,Closed,325,2,2,,1
+Fixed uploading files with IE when multiple files mode enabled,2012-09-12,Closed,322,5,3,,1
+"When clear the _listElement, _storedFileIds need to be cleared at same time",2012-09-10,Merged,319,1,0,,1
+Updated Perl example to handle form-based uploads for older browsers,2012-09-09,Merged,318,15,2,,1
+file-uploader now tries to parse server response as JSON even if HTTP status code is not 200,2012-09-15,Merged,316,14,14,,1
+"Fix the multipart name issue when use option {encoding: ""multipart""}",2012-09-06,Merged,315,1,1,,1
+replace util.pump by is.pipe(os),2012-09-05,Merged,314,11,17,,1
+added getUploadName(),2012-09-04,Merged,306,9,1,,1
+setParams can take a function as argument,2012-09-12,Closed,303,5,1,,1
+Some visual changes. Tested in nearly all browsers.,2012-10-22,Closed,302,215,111,js ,2
+clearStoredFiles fails if listElement===null,2012-08-31,Merged,301,3,1,,1
+Fixed file upload in IE.,2012-08-28,Closed,294,"1,491","1,491",,0
+Correctly append protocol(/method) when building form tag. Fixes #292.,2012-08-28,Merged,293,1,1,,1
+application/json iframe fix,2012-09-12,Closed,286,3,3,,1
+Support for continuing a paused upload.,2012-09-04,Closed,285,8,3,,1
+Added a Node.JS server sample file with documentation in the header,2012-08-11,Merged,284,127,0,,1
+Fix for drag and drop - only files,2012-08-30,Closed,283,16,0,,1
+Small typo.,2012-08-11,Merged,281,1,1,,0
+onComplete signature fixed,2012-05-29,Closed,274,1,1,,1
+Added customHeader option for additional headers,2012-09-12,Closed,268,5,0,,1
+Add the ability to disable drag and drop temporarily,2012-09-12,Closed,263,3,1,,1
+"Fix Issue #254, allow to dispose() upload handler",2012-09-14,Closed,255,134,29,htm ,2
+Add an onError() callback,2012-08-11,Merged,253,7,3,md ,1
+jQuery UI support,2012-09-13,Closed,252,299,1,css ,2
+"added support for option {encoding: ""multipart""}",2012-09-13,Closed,244,34,5,,1
+Fixes a bug with uploader clickable area size in Safari 5 on MacOS.,2012-09-14,Closed,243,2,2,,1
+Fixes a bug with uploader clickable area size in Safari 5 on MacOS.,2012-02-01,Closed,242,3,1,,1
+Added Django csrf compatability,2012-09-13,Closed,240,40,0,py ,2
+Added an option to add extra dropzones,2012-09-13,Closed,236,45,14,css js ,3
+Added acceptFiles option for input element,2012-08-11,Merged,235,6,1,,1
+Fixed some issues when dragging files from outside of the browser,2012-08-11,Merged,234,45,26,,1
+Added extra file drop zones option,2011-12-15,Closed,228,27,5,,1
+Added an onUpload callback,2012-08-11,Merged,227,13,2,,1
+JSON.parse() instead of eval(),2012-09-13,Closed,223,2,2,,1
+Added a new option to the uploader - uploadButtonText,2012-08-11,Merged,222,16,4,,1
+Support multipart posts,2012-09-14,Closed,219,23,6,,1
+button label selector,2012-09-17,Closed,208,5,5,,1
+Added preSubmit callbacks to form and xhr.,2012-09-16,Closed,207,23,10,,1
+Set content-type,2013-03-09,Closed,206,1,1,,1
+"hi valums, I've add Rails controller example file for server, can you pull it?",2012-09-16,Closed,203,16,0,,1
+Adds the ability to change button/field labels on a per-uploader basis,2012-09-16,Closed,196,330,313,,0
+No-file error message and custom drop zones,2012-09-16,Closed,193,84,14,md ,1
+add closing tag,2012-09-16,Closed,189,1,0,,1
+bugfix for IE8,2011-10-29,Closed,186,1,1,,1
+Added configuration of the input name parameter.,2012-08-11,Merged,182,5,3,,1
+Identifying list items in callback,2012-09-04,Closed,178,1,0,,1
+Python Django Sample,2012-09-18,Merged,171,"1,572",0,pyc css ,11
+Added the ButtonFileUploader,2012-09-18,Closed,168,75,3,js ,2
+Provide file size to onSubmit and expose a cancel() method in the FileUploaderBasic class.,2012-09-22,Closed,157,9,5,,1
+The fileField attribute of the cffile -> upload tag is the name of the fi,2011-06-22,Closed,152,55,1,,1
+Rails 3 csrf protection header fix,2011-07-26,Closed,150,8,4,,1
+Adding xhr upload binary to _upload xhr function,2012-09-22,Closed,138,60,2,,1
+Fixes #127 & #80,2011-07-05,Closed,135,377,323,,0
+add translation to text strings,2012-09-22,Closed,132,20,6,,1
+add translation to text strings,2011-05-24,Closed,131,21,6,,1
+Add in a simple jQuery UI Wrapper,2012-09-18,Closed,123,60,4,js ,2
+Firefox and Chrome filesize property,2012-09-25,Closed,122,4,1,,1
+"autoUpload, dragDrop, onQueue event",2011-11-16,Closed,121,31,5,,1
+Auto-upload/drag&drop option,2012-09-22,Closed,116,31,5,,1
+Better allowedExtensions check,2013-01-06,Closed,111,3,3,,1
+Support Ruby on Rails CSRF protection in the iframe uploader.,2012-09-28,Closed,104,13,2,,1
+Capture filename on IE,2012-09-18,Closed,102,1,1,,1
+Added a jquery wrapper,2012-09-18,Closed,97,"1,265",0,,0
+Added onAllComplete,2012-09-22,Closed,94,32,18,,1
+Use .text() instead of innerHTML for getting JSON content from iframe,2011-01-12,Closed,93,1,1,,1
+Nodejs,2011-06-24,Closed,92,123,0,html js ,2
+Nodejs implementation,2011-01-08,Closed,91,88,0,html js ,2
+"Added a ""method"" option",2010-12-31,Closed,87,15,8,,1
+Added custom filename to php.php,2012-09-25,Closed,85,22,17,,1
+Fixes referencing this on callbacks,2012-10-13,Closed,76,3,3,,1
+Some small Server side PHP optimizations.,2012-09-22,Closed,68,9,7,,1
+Rails needs to see the accept text/javascript header,2010-10-18,Closed,45,1,0,,1
+fix Issue16,2010-09-07,Merged,34,102,50,htm ,2
+Enable / Disable multiple fileupload + option for min upload size,2010-09-07,Closed,30,15,2,,1
+Configurable filename var,2010-09-07,Closed,27,18,3,,1
+New parameter multipleFileUpload,2010-09-07,Closed,26,3,3,,1
+onProgress() option,2010-09-06,Closed,21,0,0,,0

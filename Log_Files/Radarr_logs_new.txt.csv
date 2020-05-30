@@ -1,0 +1,734 @@
+Fixed: 4 digit year for log lines,2020-01-12,Merged,4059,1,1,,1
+Fix NZB Finder categories,2020-01-10,Merged,4054,1,1,,1
+"Fix indexer seed options, Re-Enable Indexer Flags",2020-01-07,Merged,4039,144,22,cs ,16
+Add Radarr_Download_Client to OnDownload,2020-01-06,Merged,4034,1,0,,1
+Fixed: Always full build on branch builds,2020-01-05,Merged,4030,4,0,,1
+New: Squash Pre-Fork Sonarr Migrations,2020-01-10,Merged,4029,471,"5,120",,4
+Fixed: Regression setting file date,2020-01-05,Merged,4028,7,139,,3
+"Fixed: Build on Backend, Not Don’t Build If any Non Backend",2020-01-03,Merged,4026,16,16,,1
+Aphrodite language select,2020-01-03,Merged,4025,176,218,css ,7
+Fixed: Reverted a change that caused SQL error on Netimport,2020-01-03,Merged,4024,3,7,,2
+Treat any CF over FormatCutoff as being Cutoff met,2020-01-02,Merged,4021,128,71,,11
+Fixed: Correctly add parameters to migrations 36 and 154,2019-12-30,Merged,4017,5,0,,2
+Fixed: Don't Clean list movies if IMDB Match,2019-12-30,Merged,4016,414,11,,0
+Fixed: Handle 3 digit audio channels,2020-01-07,Merged,4002,53,19,,2
+New: Don't Run Unit/Integration/Analyze Back if no back end changes,2019-12-28,Merged,4001,80,12,,1
+Fix sentry project names,2019-12-23,Merged,4000,2,2,,1
+Fixed: File move uses rename not copy/delete in more cases,2019-12-25,Merged,3999,31,5,,3
+Update sentry DSN to self hosted,2019-12-23,Merged,3998,7,6,js cs ,3
+Fix Aphrodite formatting and apply stylecop rules,2019-12-28,Merged,3997,"8,695","7,958",gitignore cs props ,19
+Slim down mono test suite,2019-12-22,Merged,3996,7,19,,1
+Update NewznabRequestGenerator.cs,2019-12-22,Closed,3983,1,0,,1
+Fixed: Speedup UI during refresh,2020-01-04,Merged,3982,48,97,cs ,7
+Fixed: Error in epic fail handler if console input redirected,2019-12-19,Merged,3974,1,1,,1
+Fixed: Null exception on EnhanceMovieInfo,2019-12-19,Merged,3973,6,6,,1
+fix language debug,2019-12-19,Merged,3971,1,1,,1
+Swap Marr.Data for Dapper Mk. 2,2019-12-28,Merged,3968,"2,414","11,291",xml cs ,7
+Revert: Dapper Commits due to Join Issues,2019-12-18,Merged,3964,"11,381","2,134",cs ruleset targets ,6
+Fixed: Use Download Client name for grabbed history events,2019-12-19,Merged,3963,1,1,,1
+Fixed: Serialize flag enum as string also,2019-12-17,Merged,3962,1,18,,2
+WIP: Include Dolby Vision In HDR detection,2020-01-12,Closed,3959,36,3,,3
+Include Dolby Vision In HDR detection,2019-12-17,Closed,3953,13,4,,1
+New: Change Automation timeout to 3min,2019-12-15,Merged,3951,3,1,,1
+Revert: Geckodriver from 0.26.0 to 0.24.0,2019-12-15,Closed,3950,4,4,sh csproj ,3
+New: Aphrodite smart refresh,2019-12-17,Merged,3949,86,11,js cs ,15
+New: Trakt Auth per List,2019-12-15,Merged,3948,117,118,,8
+"Revert ""Fixed: .srt files in subfolders are not being imported""",2019-12-12,Merged,3945,12,30,,4
+Fix languages property,2019-12-15,Merged,3944,2,2,,2
+Fixed: Webpack worker loading with UrlBase,2019-12-11,Merged,3939,4,5,,3
+Fixed: Sonar failure on external forks,2019-12-10,Merged,3937,4,1,,1
+Fix typo in LogentriesCore.csproj,2019-12-10,Merged,3936,2,2,,1
+New: Update MonoTorrent from nuget,2020-01-09,Merged,3933,4,"4,241",,1
+Fixed: Poster/Overview checkbox in Movie Editor mode,2019-12-09,Merged,3932,8,4,,2
+download client settings: change strings to match Radarr,2019-12-08,Merged,3929,3,3,,3
+New: Hookup SonarCloud,2019-12-07,Merged,3927,116,81,csproj runsettings sh ,11
+Fixed: UI Search,2019-12-06,Merged,3924,1,1,,1
+New: Bump to .NET Core 3.1,2019-12-07,Merged,3923,136,142,sh json props csproj cs ,13
+New: UI Package Updates,2019-12-07,Merged,3920,"1,504","1,357",js json cs ,3
+New: Combine Solutions via Configurations,2019-12-05,Closed,3917,345,444,sln ,2
+FIXED: minimumAvailability spec for lists missing(was in develop),2019-12-04,Merged,3916,13,0,cs ,2
+New: Bump Version to V3 to please the masses,2019-12-05,Merged,3915,556,657,yml sh plist iss cs csproj ,33
+New: Replace Marr.Data with Dapper,2019-12-16,Merged,3911,"2,168","11,378",cs ruleset targets ,6
+need to be able to specify the intended minimumAvailability for the t…,2019-12-03,Closed,3906,124,109,cs ,2
+Added a EAC3 Atmos option,2019-12-10,Merged,3900,7,2,,2
+Add in last and in next filter types,2019-11-27,Closed,3894,16,0,,1
+Increase session expiry time,2019-12-02,Closed,3888,1,1,,1
+Fix: Typo in UI dropdown for time format,2019-11-24,Merged,3886,1,1,,1
+Update README.md,2019-11-16,Merged,3883,7,7,,0
+use isAvailable to determine if a movie isAvailable.,2019-11-16,Merged,3882,26,3,,3
+needed to add hasFile in the FooterConnector otherwise getting 0,2019-11-16,Merged,3881,18,3,,2
+Fixed: Cutoff Status and Filter on MovieIndex,2019-12-22,Closed,3880,84,36,cs ,4
+add this code back since it can vastly improve netimport performance,2019-11-16,Merged,3879,6,0,,1
+WIP: Trakt auth2,2019-12-15,Closed,3876,379,16,json ,6
+Fix: Aphrodite UI enhancements,2019-11-27,Merged,3873,"1,529","1,305",,7
+Fixed: TVDB references in RefreshMovieService.cs,2019-11-12,Merged,3871,2,2,,1
+Fixed: SSL certificate import,2019-11-07,Merged,3865,1,2,,1
+New: Option to send notification when a Health Check warning occurs,2019-11-05,Merged,3861,253,5,cs ,18
+Bump handlebars from 3.0.3 to 4.1.2,2019-11-09,Closed,3859,39,15,,2
+Fixed: Quality Parser and Augmenter Picks Wrong Quality,2019-11-02,Merged,3848,"1,091",613,,6
+Fixed: Added qBittorent state 'moving',2019-11-04,Merged,3847,2,1,,1
+WIP Fixed: Quality Parsed Incorrectly on Import,2019-10-31,Closed,3843,382,382,,7
+Auto blacklist failed torrents,2019-10-26,Closed,3841,"154,688","204,750",esprintrc gitattributes rc ,4
+URL encode test collection title,2020-01-12,Closed,3839,1,1,,1
+Added Discord notifications.,2019-11-13,Closed,3833,263,1,csproj ,8
+Fixed: open links in new tab on meta click,2019-11-04,Merged,3831,7,7,,1
+Add: Always Move Files When Importing,2019-10-20,Closed,3829,38,1,hbs ,5
+Aphrodite fix update,2019-10-16,Merged,3823,17,9,cs ,6
+Fixed: Replaced episode with movie in UpgradeSpecification,2019-10-11,Merged,3805,2,2,,1
+New: Add List and Discovery Pages,2019-10-06,Merged,3803,"3,659",24,,1
+New: Added links to wiki and examples from add/edit custom tags dialog,2019-11-24,Merged,3786,6,0,,1
+Fixed: link to the custom format examples,2019-10-24,Merged,3785,1,1,,1
+Fix RARBG URL Scheme,2019-09-15,Closed,3766,2,2,,2
+Fix RARBG URL Scheme,2019-12-10,Merged,3765,2,2,,2
+Fix MediaInfoFormatter: Unable to format audio channels using 'AudioC…,2019-11-30,Closed,3763,1,1,,1
+Fix InvalidOperationException,2019-09-24,Closed,3762,1,1,,1
+New: Port to .net Core 3.0,2019-10-16,Merged,3752,"5,766","26,983",gitignore ,2
+Changed: Regenerate package-lock.json for secondary package updates,2019-09-09,Merged,3750,"4,984","5,770",,0
+"New: Platform Updates, Socket Closure Workaround",2019-09-06,Merged,3746,"2,206",777,,9
+Radarr nancy kestrel,2019-09-09,Merged,3744,"1,837","22,965",yml ,2
+New: Convert to New CSProj Format,2019-09-04,Merged,3741,"18,759","18,441",yml xslt gitattributes gitmodules npmrc ,8
+New: Get Custom Formats Working in Aphrodite,2019-08-31,Merged,3732,"1,066",50,css ,7
+Set up CI with Azure Pipelines,2019-08-31,Closed,3730,370,109,cs csproj ,13
+Updated isoLanguages.cs,2019-08-29,Closed,3726,3,3,,2
+New: Added reposting groups as exclusions into CleanReleaseGroupRegex,2019-09-01,Merged,3720,11,1,,2
+New: Use MediaInfo on File Parsing,2019-08-25,Merged,3718,"1,070",671,,6
+Remove Nyaa (it's long dead).,2019-08-25,Closed,3716,40,237,csproj ,8
+update qBittorrent metaDL state,2019-09-01,Closed,3699,5,0,,1
+Fixed: Parse UHDRemux as Remux and not as WEB-DL,2019-09-01,Merged,3696,2,1,,2
+Parse UHDRemux as Remux and not as WEB-DL,2019-08-15,Closed,3695,2,1,,2
+New: Enable Sentry Analytics,2019-08-07,Merged,3669,698,"5,791",,1
+"Fix warning when QBittorrent torrents are in the ""Downloading Metadata"" state",2019-09-05,Closed,3656,1,0,,1
+Fixed: .srt files in subfolders are not being imported,2019-09-01,Merged,3647,30,12,,4
+Fixed: Net Import Causes DB error due to Duplicates,2019-11-21,Closed,3620,25,47,,1
+onGrab email update,2019-07-10,Closed,3613,4,1,,1
+TMDB: Added support for People Cast and People Crew lists,2019-12-22,Closed,3612,198,34,,5
+Fixed: Wanted Cutoff Page filters,2019-07-10,Merged,3611,48,13,,4
+Fixed: TMDB Failing due to missing response header,2019-09-01,Merged,3610,14,8,,1
+Update XbmcMetadata.cs,2019-07-16,Closed,3609,7,1,,1
+New: Movie Editor in Movie Index,2019-07-13,Merged,3606,823,962,css ,21
+Fixed: All integration tests and some code which was wrong.,2019-07-07,Merged,3604,105,77,cs csproj ,9
+"Fixed: When refreshing info about a movie, the alt titles should now correctly be deleted / updated, even from TMDB.",2019-07-07,Merged,3603,181,33,csproj ,7
+Add support for Ukrainian language.,2019-07-10,Merged,3594,10,1,,4
+Initial support to Brazilian Portuguese (pt-br),2019-09-03,Closed,3590,26,4,,5
+Authentication fix for Deluge v2,2019-06-21,Merged,3577,18,2,,1
+"Added UHD, X265, WEB-DL etc. to NZB Finder",2020-01-11,Merged,3568,1,1,,1
+Fixed: Movie Details Tab,2019-07-06,Merged,3564,"1,570",826,css ,11
+Allow RefreshMovieInterval to be set from the UI,2019-10-07,Closed,3546,45,3,hbs ,5
+Fix search for RARBG,2019-07-10,Merged,3544,9,3,,2
+Feature/tmdb collection support #3538,2019-12-22,Closed,3541,149,88,cs ,5
+Feature Request: Upgrade Custom Formats in Wanted #3246,2019-07-30,Closed,3535,42,22,cs ,4
+Allow RefreshMovieInterval to be set from the UI,2019-05-21,Closed,3520,35,5,hbs ,6
+Allow RefreshMovieInterval to be set from the UI,2019-05-10,Closed,3519,34,3,hbs ,5
+Allow RefreshMovieInterval to be set from the UI,2019-05-10,Closed,3518,28,2,hbs ,5
+added Watchlist and Favorites in the TMDB definitions,2019-12-22,Closed,3516,17,3,,3
+#3514 fix library shown as empty after filter returns no movies and page is refreshed,2019-05-30,Merged,3515,5,1,,2
+Fix bug copytoclipboard,2019-05-02,Merged,3495,91,58,,1
+Jwildman16 256logo 1,2019-05-02,Merged,3479,0,0,,1
+New: Added support for Gotify notifications,2019-05-02,Merged,3474,159,0,csproj ,6
+Update 256.png to include transparency,2019-04-10,Closed,3470,6,0,,1
+Fixed QBittorrent initial state paused,2019-03-23,Closed,3442,10,0,,1
+Update CustomFormatService.cs,2019-05-02,Merged,3432,2,2,,1
+Delete Empty Folders option,2019-05-25,Closed,3418,37,0,hbs ,5
+Solve ambiguous naming,2019-05-02,Merged,3417,1,1,,1
+Update README.md,2019-03-19,Merged,3409,1,1,,0
+Aphrodite,2019-02-25,Closed,3395,"96,956","146,223",esprintrc gitignore npmrc yarnrc md cake sh json ,8
+Changed: Adjust Max Slider Value for Qualities,2019-03-19,Merged,3393,2,2,hbs ,2
+Fixed: Support new feed url format IPTorrents,2019-03-19,Merged,3390,62,4,,2
+Fixed: Edition Tags Not Showing in UI,2019-03-19,Merged,3389,10,53,,8
+New: Support Krypton Kodi Unique Ids,2019-03-19,Merged,3388,13,0,,1
+Fixed: Cannot Add ITA or ITALIAN custom format,2019-02-24,Merged,3385,4,2,,2
+Fixed: Forced Subs not parsed by SubtitleLanguageRegex,2019-02-24,Merged,3384,3,1,,2
+Fixed: Error in unicode cleanup code removing most non-latin chars,2019-02-24,Merged,3383,1,1,,1
+Fixed: Word Boundary on Edition,2019-02-24,Merged,3382,7,4,,2
+New: Nzb Validation and Nzbget/SAB URLBase,2019-02-24,Merged,3380,458,82,nzb ,5
+Fix mis-classification of releases as being Czech,2019-02-24,Merged,3378,2,1,,2
+Match MBluray releases,2019-02-24,Merged,3358,7,1,,2
+Update for V2 of QBittorrent API,2019-09-05,Closed,3356,145,32,,2
+Update docker link in README,2019-01-31,Merged,3339,1,1,,0
+qBittorrent API V2 Support,2019-02-08,Closed,3328,14,13,,1
+Fixed: Prevent NullRef in CustomScript on Grab for Indexer,2019-02-18,Merged,3323,1,1,,1
+Fix emby library update,2019-02-18,Merged,3318,20,8,,3
+Added: Remote poster and fanart references to Kodi metadata file (#2837),2019-04-27,Merged,3302,27,4,,1
+Use subfolder inside recycle bin when deleting,2019-05-25,Closed,3300,39,21,,7
+Added support for forcedUP status,2018-12-30,Merged,3277,6,0,,1
+New: Add Radarr_Download_Id and Radarr_Download_Client to PP scripts,2019-05-02,Merged,3276,9,3,,3
+New: Use APIKey & APIUser for authenticating to PassThePopcorn.,2018-12-30,Merged,3264,73,18,csproj ,4
+Add UHD-BR-DISK Quality,2019-02-18,Closed,3259,13,4,,3
+Fixing Issue 840,2019-05-02,Merged,3233,33,3,hbs ,5
+Logo Update,2019-03-20,Closed,3231,215,155,svg icns csproj ico xml json html ,92
+Logo Update,2018-12-03,Closed,3230,215,155,svg icns csproj ico xml json html ,92
+"Fixed: A lot of memory issues, such as IDisposable leakage and leaking all the media covers.",2019-01-10,Merged,3227,"2,439","2,299",debian/rules ,2
+Add ability to unmonitor a movie after cutoff is met.,2018-12-06,Closed,3224,58,1,hbs ,5
+New: rTorrent - Don't start download automatically,2018-12-07,Merged,3222,48,15,,4
+Fixed: MediaInfo Unit Test Failing due to AudioAdditionalFeatures after MediaInfo update,2018-12-06,Merged,3221,2,2,,1
+"New: Remove Pre, postbot, xpost suffixes from release groups",2018-12-07,Merged,3220,7,3,,3
+New: Secure URLs for Links and Services,2018-12-07,Merged,3219,20,30,csproj js ,11
+Fixed: TitleThe doesn't handle separators,2019-02-11,Closed,3218,93,20,cs ,3
+Fixed: Bump default version to prevent update running from source,2018-12-07,Merged,3199,5,5,,2
+Read video 'BitRate_Nominal' if 'BitRate' is empty,2018-11-07,Merged,3144,4,0,,1
+Fallback to 'VideoCodec' if 'VideoFormat' is unavailable,2018-11-07,Merged,3142,8,7,js ,5
+Increase minimum/current media info schema revision,2018-10-31,Closed,3141,4,3,,3
+Improve model and UI handling for lists,2018-10-30,Merged,3133,3,5,,1
+"Skip movie search if movie was added as ""unmonitored""",2018-10-30,Merged,3131,1,0,,1
+Add tags support to NetImport (Lists),2019-05-02,Merged,3127,47,4,csproj js hbs ,10
+Pull request for issue #3122: Exclude the snap locations from the disk usage list,2018-10-30,Closed,3124,9,4,,2
+Fixes quality badge not being shown on bulk movie import,2018-10-30,Merged,3121,2,2,,1
+Don't return unmapped folders on rootfolder API call,2018-10-23,Merged,3116,27,1,,2
+Extra files stage2,2018-10-22,Closed,3113,12,15,hbs ,4
+Feature/rename folders,2018-10-22,Closed,3112,469,57,csproj ,13
+.,2018-10-22,Closed,3111,"15,456","8,855",yml gitattributes rc release gitignore name iml xml ,14
+"Tweak style of movie path template on ""bulk import movies"" screen",2018-10-30,Merged,3108,11,1,less ,2
+Trim filename from Kodi movie path before sending library scan request.,2018-10-30,Merged,3097,4,1,,1
+Fix renamer behavior,2019-04-17,Closed,3096,15,26,,1
+Add TMDB/IMDB url in Kodi metadata,2019-11-17,Merged,3095,125,116,,2
+Add support for Homebrew-installed mono,2018-10-20,Merged,3090,4,0,,1
+Include the URL to the TMDB page for the movie,2018-12-20,Closed,3059,3,0,,1
+Refactor MediaInfo tokens (fixes old tokens adds new stuff),2018-10-30,Merged,3058,"1,071",260,dylib cs ,6
+Allow directory to be parsed similar to past implementation,2018-10-15,Merged,3057,4,4,,1
+WIP: Fixes {MediaInfo VideoCodec} token,2018-09-26,Closed,3056,958,237,,4
+"Ignore ""special drives"" from System » Disk Space",2018-10-30,Merged,3050,183,6,csproj ,5
+Fixed class names on the 'add movies screen',2018-09-24,Merged,3047,3,3,less ,2
+Use proper cursor for text and linked labels,2018-09-24,Merged,3041,4,0,,1
+"Add ""Add Paused"" option to Deluge and Transmission",2018-09-18,Merged,3038,24,10,,5
+All-around small improvements,2018-09-18,Merged,3032,22,28,js hbs less ,21
+"[WIP] Additions to custom formats, such as rescanning old files.",2018-09-10,Merged,2949,"1,321","3,765",xml iml cs csproj ,14
+Add Czech Lang,2018-09-12,Merged,2948,15,4,,4
+Bigger quality slider size for larger file limits,2018-07-19,Closed,2907,1,1,,1
+Fixed: Debug log Series reference in QualityAllowedByProfile spec,2018-07-18,Merged,2899,1,1,,1
+Fixed: Multiple UI Fixes and Additions,2018-07-15,Merged,2894,711,861,hbs ,19
+Added: Adds unmonitored filter option in index and editor,2018-07-14,Merged,2888,19,1,,3
+Added: Monitor Toggle on Movies Editor Page,2018-07-14,Merged,2887,10,0,,1
+Added: Fallback to Bitrate_Nominal for MediaInfo,2018-09-12,Merged,2886,5,1,,1
+Fixed: .vtt files treated as subtitles,2018-07-18,Merged,2885,2,1,,1
+Fixed: multiline in table view,2018-07-15,Merged,2870,1,1,,1
+fixed issue #2813,2018-09-24,Closed,2847,37,3,,2
+"changed ""importing an episode"" to ""importing a movie file""",2018-07-08,Merged,2829,2,2,,2
+New: Added indexer flags to the list of environmental variables,2018-05-24,Merged,2801,1,0,,1
+Fixed: Don’t allow profile delete list,2018-05-21,Merged,2797,54,9,js ,3
+New: Purge alt titles on movie delete,2018-05-21,Merged,2796,21,17,,2
+New: mk3d file format,2018-09-18,Merged,2795,3,0,,2
+Fixed: Rare timing issue on first-use causing duplicate naming config,2018-05-24,Merged,2790,28,4,csproj ,3
+Fixed: Qbittorrent state and eta fixes,2018-05-21,Merged,2789,18,5,cs ,4
+Fixed: Omgwtfnzbs api categories search need to be fix,2018-05-07,Merged,2764,1,1,,1
+New: Use websockets to communicate with UI,2019-05-06,Closed,2729,"3,757","22,141",cs ,6
+Fixed: Register Growl as Radarr to avoid issues with Sonarr,2018-04-16,Merged,2715,2,3,,1
+Added: Setting for Colon Replacement Format,2018-04-16,Merged,2711,213,286,,12
+Added: Enable Download Client Priorities,2018-04-15,Merged,2699,242,53,,15
+"Add configurable setting for ""replace illegal characters"" behavior",2018-04-15,Closed,2696,507,380,cs csproj ,8
+"Fixed: Multiple Calendar Issues, Other UI Fixes",2018-03-28,Merged,2685,112,957,hbs less ,10
+Fixed: Add form param before submitting request,2018-03-26,Merged,2674,2,2,,1
+[WIP] Added: Ability to add custom formats (work similar to qualities),2018-08-05,Merged,2669,"12,770","4,277",yml gitattributes release name iml xml md ,12
+New: Setting for absolute maximum size for a release,2018-03-26,Merged,2662,220,66,csproj hbs ,9
+Fixed: Don't add category when removing torrent from qBittorrent,2018-03-22,Merged,2661,5,5,,1
+"Add configurable setting for ""replace illegal characters"" behavior",2018-04-03,Closed,2658,"5,627","5,518",,1
+Set category when adding torrent to qBittorrent,2018-03-19,Merged,2649,10,0,,1
+Added: Radarr now stores cookies for PTP beyond restarts.,2018-04-01,Merged,2643,"1,296",212,xml iml ,3
+Fixed: Misc Extra File Improvements,2018-04-01,Merged,2642,343,95,csproj ,11
+Add underscore to host part of URI regex,2018-03-22,Merged,2633,1,1,,1
+Fixed: Incorrect Kodi nfo date format,2018-03-05,Merged,2605,2,2,,1
+Fixed: Pin Cake and Addin Versions,2018-03-01,Merged,2590,19,9,cake ps1 config ,4
+Cleanup Series Code,2018-03-14,Merged,2589,"2,837","18,869",,8
+Fixed: Movies not getting unmonitored when folder gets deleted,2018-03-04,Merged,2588,1,6,,1
+changed: which event handler triggers movie search,2018-03-04,Merged,2587,1,1,,1
+Fixed: Multiple History Issues,2018-02-26,Merged,2571,33,269,,5
+Fixed: Poster sliding issues,2018-02-26,Merged,2570,8,8,hbs less ,3
+Parsing of resolution in TVRips,2018-02-22,Closed,2566,16,2,,2
+movie metadata links,2018-02-21,Merged,2562,34,31,less ,5
+Another Delete modal that needed the fix. Fixes #2537,2018-02-21,Merged,2560,4,2,,1
+osx app has bundle name of Sonarr,2018-02-20,Merged,2555,1,1,,1
+Bulk Impoprt - Remove sorting on Monitor/Profile,2018-02-20,Merged,2553,3,1,,1
+Wrap div in form-group. Fixes #2537,2018-02-20,Merged,2552,4,2,,1
+New: Device names for Join notifications,2018-02-19,Merged,2544,13,5,,2
+Fixed: Unable to execute custom scripts if IMDB ID is null,2018-02-19,Merged,2543,30,12,,2
+Fixed: Radarr Changes every file due to timezones,2018-02-18,Merged,2533,14,11,,1
+New: Same File Size MediaFile Specification,2018-02-18,Merged,2532,111,0,csproj ,4
+Fixed: Help icon not centered,2018-02-18,Merged,2531,1,0,,1
+Cleanup TV related code in API,2018-02-19,Merged,2530,444,"1,682",,6
+Cleanup Series Code from UI,2018-02-16,Merged,2525,9,"6,241",hbs ,12
+Add quotes around alternative titles,2018-02-15,Merged,2522,2,2,,1
+Backup improvements from Sonarr,2018-02-13,Merged,2513,84,20,csproj ,7
+Add Czech Language,2018-04-23,Closed,2512,14,6,,3
+New: Refactor Extra Files for Movies,2018-02-15,Merged,2506,"1,361","1,739",csproj ,5
+Fixed: XSS vulnerability in the navbar search.,2018-02-11,Merged,2505,3,1,,1
+Update NzbDrone references in FirewallAdapter.cs,2018-02-11,Merged,2504,3,3,,1
+Fixed: Integration Unit Tests,2018-02-13,Merged,2500,424,565,,8
+Fixed: StartNzbDroneService.cs unit test,2018-02-09,Merged,2499,2,2,,1
+successfully obtain tmdb auth v4 session id,2018-04-27,Closed,2498,149,34,js hbs ,5
+selectAll and deselectAll MovieEditor buttons,2018-02-09,Merged,2497,36,1,,1
+fix build problem on windows,2018-02-08,Merged,2493,3,3,,1
+punctuation replaced by space when parsing title,2018-02-15,Closed,2487,1,1,,1
+Added: Option to require indexer flags per indexer.,2018-02-01,Merged,2460,194,121,,11
+Look for changes to package.json before using old build cache,2018-01-26,Merged,2445,1,1,,1
+Apostrophe in movie titles cause indexer issues when searching for re…,2018-02-15,Closed,2425,2,0,,1
+Bring Diskstation up to date with sonarr.,2018-04-05,Merged,2420,295,152,cs ,8
+Update TMDbSettings.cs to allow OR separated Genre IDs Issue #2278,2018-01-11,Merged,2389,6,6,,1
+Scan flat files into database,2018-03-22,Closed,2380,196,67,cs csproj ,11
+Update HistoryDetailsLayoutTemplate.hbs,2017-12-21,Merged,2361,2,2,,1
+Customize Slack Channel,2017-12-04,Merged,2308,11,0,,3
+Added support for VF2 french tag.,2017-12-12,Merged,2291,2,1,,2
+Add preliminary support for seed ratio settings.,2018-03-18,Closed,2289,133,16,,16
+fixed moment.js deprecated zone and add functions,2017-11-16,Merged,2264,15,15,,8
+Extra data,2018-02-15,Closed,2262,897,121,,7
+Add separate naming tags for AudioLanguage and SubtitleLanguage,2017-12-12,Merged,2261,14,1,hbs ,2
+Attempt to fix #2218,2017-11-12,Merged,2258,46,21,cs ,5
+Fixes #2218.,2017-11-08,Merged,2254,12,4,cs ,3
+add sceneName to MovieFile API output,2017-11-10,Merged,2250,1,0,,1
+Notification Cleanup,2017-11-10,Merged,2240,243,"1,107",,5
+Add authentication to Webhook,2017-11-04,Closed,2236,27,2,,3
+Added subdir to the defined TempFolder that is user specific,2018-06-19,Closed,2233,2,2,,1
+fixed moment.js deprecated zone and add and lossless compression of images,2017-11-10,Merged,2232,8,8,png ,12
+Added FolderPath to the Movie Webhook,2017-11-10,Merged,2230,3,1,,2
+Add Download_Id to On Download/On Upgrade,2017-10-29,Merged,2229,16,7,,5
+Add Movie_Quality to onGrab,2017-10-28,Merged,2221,4,1,,1
+Update Webhook,2017-10-28,Merged,2220,207,179,,11
+Add message about adblockers preventing the log table from loading,2017-10-23,Merged,2213,4,0,,1
+Sabnzbd Update test cases and rename to MovieCategory,2017-10-23,Merged,2212,42,42,,3
+Nzbget Rename TvCategory references to MovieCategory,2017-10-23,Merged,2211,32,32,,5
+Update Webhook,2017-10-24,Closed,2210,325,289,cs ,6
+pull req.,2017-10-22,Closed,2208,125,32,csproj ,7
+Add IsUpgrade and related deleted file paths for CustomScript,2017-10-23,Merged,2205,6,0,,1
+Allow profiles to select release that contains MULTI tags,2018-02-15,Closed,2196,80,17,csproj hbs ,11
+uTorrent initial state feature,2017-10-23,Merged,2192,43,15,csproj ,6
+Change default port of qBittorrent download client config,2017-10-23,Merged,2187,1,1,,1
+Fix typo on margin-bottom property hotkeys.less,2017-10-15,Merged,2182,2,2,,1
+Fix jshint warnings in MoviesCollection.js,2017-10-15,Merged,2180,3,3,,1
+Remove redundant unit declaration on zero values,2017-10-15,Merged,2178,432,432,,2
+Add Jackett apikey to log cleanser,2017-10-15,Merged,2177,3,2,,2
+Initial state option for torrents added to qBittorrent,2017-10-15,Merged,2176,73,2,csproj ,5
+Adjust ambiguous date options,2017-10-11,Merged,2165,12,12,,1
+Simplify ical ProductId code since adding properties,2017-10-11,Merged,2164,4,3,,1
+Set a default name for Radarr.ics,2017-10-11,Merged,2163,11,5,,1
+Stop commented out code appearing in HTML source in various places,2017-10-11,Merged,2158,19,16,,6
+Fix alignment and buttons position of Trakt Auth,2017-10-09,Merged,2153,59,55,,1
+Add new codec HEVC with ID=5 for HDBits,2017-10-07,Merged,2146,2,1,,1
+Add GB as English language when fetching alternative titles,2018-03-11,Closed,2137,1,1,,1
+Fix icon not being hidden on Discover New Movies button in X-Small,2017-09-24,Merged,2114,17,5,,1
+Change message correct provider of search results,2017-09-24,Merged,2113,2,2,,1
+Convert backticks in package.sh,2017-09-24,Merged,2112,4,4,,1
+Port non-Windows platform detection changes + Case Insensitive fix for static resources on Windows,2018-03-18,Closed,2111,"1,118",469,,9
+Fix unclosed <span> tag on BulkImportViewTemplate.hbs,2017-09-24,Merged,2110,1,1,,1
+Add space in confirmation message,2017-09-20,Merged,2101,2,2,,1
+Font folder case fix,2017-09-21,Merged,2066,20,20,ttf woff less ,13
+Added Czech language,2017-10-23,Closed,2025,17,7,,4
+Final fixes for alt titles.,2017-08-27,Merged,2008,101,73,,9
+Make Min Availability tooltip hbs filename match naming format,2017-08-25,Merged,1997,0,0,,1
+Tweak NavbarLayoutTemplate.hbs,2017-09-10,Merged,1996,86,41,hbs ,2
+UI index.html template fix scripts being loaded after </body> tag,2017-09-10,Merged,1995,4,2,,1
+Add WOFF2 fonts for better performance in supported browsers,2017-09-10,Merged,1994,7,3,less ,5
+[wip] Fix UI cleanup regressions,2017-08-24,Closed,1993,8,8,js less ,4
+[wip] Switch quote styling in UI JS files,2017-08-24,Closed,1978,"8,892","8,892",,10
+Adjust Sonarr references to Radarr,2017-08-21,Merged,1977,33,33,,14
+Allow toolbar buttons to be full width on x-small and small breakpoints,2017-09-10,Merged,1972,16,3,less ,5
+New Fixes,2017-08-20,Merged,1970,96,63,,7
+Display breakpoint name in browser window in debug mode,2017-08-20,Merged,1968,49,7,js ,2
+Add a handler for MovieDeletedEvent so that the underlying files will…,2017-08-20,Merged,1966,12,1,,1
+"UI cleanup, fixes and consistency",2017-08-20,Merged,1959,"2,283","2,686",,15
+Hotfix for parser error when using `(year) name` folder,2017-08-18,Merged,1956,10,4,,2
+Indicate proper release types for docker image,2017-08-17,Merged,1953,1,1,,0
+Update appveyor builds url to exclude pull requests,2017-08-15,Merged,1946,1,1,,0
+Update docker nightly image reference,2017-08-15,Merged,1945,1,1,,0
+Fix missing icon preventing detailed info for validation errors from appearing,2017-08-15,Merged,1944,2,2,,1
+Add package-lock.json for npm 5,2017-08-15,Merged,1939,"4,190",0,,0
+Add deprecation warning about Drone Factory to front end,2017-08-15,Merged,1938,3,0,,1
+Fix mask-icon and other resources when UrlBase is in use,2017-08-13,Merged,1933,2,2,,1
+Slack/Mattermost notifications improvements from Sonarr,2017-08-13,Merged,1930,129,90,csproj ,5
+Fix FontAwesome font path,2017-08-13,Merged,1929,1,1,,1
+Update FontAwesome to 4.7.0,2017-08-13,Merged,1928,"3,117",577,less eot svg ttf woff woff2 ,13
+Adjust charset and various meta/link references in index.html and login.html,2017-08-13,Merged,1926,29,33,,2
+Adjust column sizes relative to size of dropdown values,2017-08-13,Merged,1923,3,3,,2
+"removed hebrew ISO, since english movies are still in english.",2017-08-13,Merged,1922,2,2,,1
+Fix additional jshint warnings for gulp,2017-08-12,Merged,1921,10,10,,3
+Fix minor issues on MoreInfoViewTemplate.hbs,2017-08-12,Merged,1916,24,23,,1
+Replace GitHub wiki references to Radarr's wiki paths,2017-08-12,Merged,1914,7,7,,5
+Fix hanging form-group div in Basic Naming Viewing Template,2017-08-11,Merged,1911,2,2,,1
+Added hebrew language,2017-08-11,Merged,1909,12,3,,4
+Run tests through powershell.,2017-08-10,Merged,1903,40,0,,1
+Fix for Migration,2017-08-10,Merged,1901,0,33,,1
+Alternative Titles v2,2017-08-09,Merged,1891,0,0,,0
+Alternative Titles.,2017-08-09,Merged,1890,"1,480",100,csproj ,10
+Fix task name of PreDB Sync task,2017-08-06,Merged,1875,2,2,,1
+Fix gulp jshint warnings,2017-08-12,Merged,1873,12,11,jshintrc js ,6
+Port fix from Sonarr for qBitTorrent 3.3.14 API change,2017-08-06,Merged,1872,39,18,,2
+Fix: Check for a Used Quality Profile before Deleting,2017-08-06,Merged,1870,11,11,,2
+Update Info.plist to avoid conflict with Sonarr,2017-07-16,Merged,1783,1,1,,1
+Relax SingleInstancePolicy when using a custom data directory,2017-07-16,Merged,1782,18,5,,2
+Minor error message tweak,2017-10-23,Merged,1778,34,28,cs less ,2
+Fix old Plex ValidationFailure message,2017-07-06,Merged,1770,1,1,,1
+Added: More detailed descriptions why a movie was not able to be mapped.,2017-06-18,Merged,1696,414,129,,9
+Added: Options to make parsing more lenient. (Adds support for some german and french releasegroups),2017-06-17,Merged,1692,269,90,xml name cs ,16
+Update Bootstrap Tags Input,2017-06-13,Merged,1674,57,67,js ,2
+Upgrade to Bootstrap 3.3.7,2017-06-13,Merged,1673,119,93,csslintrc less ,73
+Include CSS files in minification,2017-06-13,Merged,1672,7,3,html ,3
+Fixed error when processing manual import decisions,2017-06-13,Merged,1670,16,1,,2
+Twitter oAuth callback URL,2017-06-13,Merged,1669,3,2,,1
+Redirect calls missing URL Base,2017-06-13,Merged,1668,48,15,csproj ,3
+Remove redundant IE meta tag as we use http header instead,2017-06-11,Merged,1655,0,2,,2
+Use clean-css for minification,2017-06-11,Merged,1654,5,3,json ,2
+Follow 301 redirects when fetching torrents,2017-06-11,Merged,1653,8,4,,1
+Fixed: Ensure an API Key is set when starting Radarr,2017-06-11,Merged,1652,16,2,,1
+Parserfix for issue 1407 (second try),2017-06-17,Closed,1645,92,3,,3
+fix for #1407,2017-06-12,Closed,1637,160,60,,3
+"Add more list options, that are ""proxied through"" our api server.",2017-06-06,Merged,1627,478,137,,14
+cleans up release title before parsing,2017-06-06,Closed,1625,154,60,,2
+Allow minimum seeders to be set on a per indexer basis. Pulled from Sonarr Upstream,2017-06-12,Merged,1624,328,104,csproj ,11
+lossless compression of images saved 92KB,2017-06-04,Merged,1620,0,0,,59
+Fix being unable bulk import manually fixed duplicate movies,2017-05-25,Merged,1570,8,3,,1
+Encourage Torznab use with Jackett,2017-05-23,Merged,1559,5,11,cs ,3
+Added [Radarr] tag for Twitter Notifications,2017-06-05,Merged,1558,3,3,,1
+macOS chmod fix for Radarr executable file,2018-02-21,Closed,1548,6,6,,1
+MuiltVersion of movies,2017-05-22,Closed,1542,157,11,cs js hbs less ,13
+Chmod osx file as executable.,2017-05-17,Merged,1539,8,2,,1
+Add IMDB URL to notifications,2017-05-15,Merged,1531,4,2,,1
+Fixed design calendar css bug,2017-05-15,Merged,1527,2,0,css ,2
+Correct Program Name,2017-05-14,Merged,1524,1,1,,1
+Correct Program Name,2017-05-14,Merged,1523,1,1,,1
+"Update Kodi icon, could/should fix #1464",2017-05-06,Merged,1492,1,1,,1
+Fixed design issue when deleting - css bug,2017-05-11,Merged,1480,3,2,,1
+Fixed: Radarr UI Authentication cookie should be placed on path (UrlBase) instead of domain alone.,2017-04-30,Merged,1473,1,0,,1
+Fixed: Radarr not importing torrents in Vuze if the torrent already finished seeding and was stopped,2017-04-30,Merged,1471,18,10,,3
+Fixed: Incorrect imports with Vuze when torrent contains a single file.,2017-04-30,Merged,1470,35,3,,2
+Split downloadclientitem readonly logic up,2017-05-13,Closed,1469,237,145,,10
+"Added HDBits Category, Codec, and Medium Filtering Capability",2017-05-29,Merged,1458,130,53,hbs js ,7
+Tidy up layout of buttons on the Add Movies page for mobile/tablet,2017-04-28,Merged,1454,7,8,less ,2
+Added discovery tab based on tmdb recommendations.,2017-04-28,Merged,1450,157,11,cs js hbs less ,13
+Search 5 alternative titles as well,2017-06-05,Merged,1448,12,1,,1
+Rename Sonarr to Radarr,2017-04-26,Merged,1429,8,8,sh osx/Sonarr → osx/Radarr plist ,5
+Fix: A small bug fix for items loading as undefined in organize modal,2017-05-06,Merged,1424,1,2,,1
+"Added multiple new editions such as FanEdit, Anniversary and 2in1.",2017-04-19,Merged,1418,82,2,cs ,3
+[http://feathub.com/Radarr/Radarr/+42]Remove movie once the movie folder is removed,2018-03-26,Closed,1413,27,11,,4
+Change smtp.google.com to smtp.gmail.com,2017-04-18,Merged,1410,1,1,,1
+"Update Series reference to Movies, should fix #1399",2017-04-16,Merged,1402,1,1,,1
+Update to indexer flags.,2017-04-17,Merged,1388,424,132,json csproj ,9
+Indexer flags implementation.,2017-04-14,Merged,1377,73,7,js ,6
+Temporary fix for PTP approved and golden uploads on deluge.,2017-04-13,Closed,1373,2,2,,1
+[wip] Tmdb authentication with v4 API,2018-02-09,Closed,1368,170,35,js hbs ,5
+Remove items from trakt lists upon successful download/import,2018-04-27,Closed,1366,175,7,csproj ,21
+"Enable automatic renaming, according to naming scheme, of movie folder after creation of the movie.",2017-04-26,Merged,1349,469,57,csproj ,13
+Newznab default capabilities erroneously cached if indexer is unavailable,2017-04-08,Merged,1341,53,3,,2
+Fixed: Zero length file causes MediaInfo hanging in 100% cpu load.,2017-04-08,Merged,1340,6,1,,1
+SABnzbd 2.0 API compatibility,2017-04-08,Merged,1339,202,48,csproj ,8
+"Added Roman numerals parsing feature, replaced spots where hand-written mappings were used, some refactorings, added tests",2017-04-05,Merged,1310,"5,264",176,,0
+"Added ""Additional Parameters Field"" for Trakt RSS Feed",2017-04-04,Merged,1308,5,2,,2
+not sure why this was removed but this commit adds it back,2017-03-29,Merged,1284,4,0,,1
+Fixed: DownloadStation api client for DSM 5.x.,2017-03-26,Merged,1259,319,315,,4
+Merge pull request #1 from Radarr/develop,2017-03-19,Closed,1226,0,0,,0
+Clean up jsHint warnings,2017-03-19,Merged,1225,11,11,,7
+Added Roman Numerals for easy conversion when comparing titles with some refactorings in MovieRepository,2017-03-31,Closed,1217,"2,846",849,cs ,7
+New movie search,2017-03-18,Merged,1212,29,8,less ,5
+"Fix pending release service, HDBits, also the release deduper. Clean up housekeeping",2017-03-18,Merged,1211,56,58,,6
+Patch/onedr0p 3 16 17,2017-03-16,Merged,1200,22,5,js ,2
+Small changes to list sync,2017-03-15,Merged,1179,2,2,,1
+[wip] Update for Lists,2017-03-19,Closed,1178,157,33,,11
+Patch/onedr0p 3 14 17,2017-03-14,Merged,1171,87,235,,2
+Patch/onedr0p 3 13 17,2017-03-14,Merged,1166,169,142,json ,9
+Grammar check HelpText for CouchPotato lists,2017-03-12,Merged,1142,5,5,,1
+Add helptext for Jackett API key,2017-03-11,Merged,1121,2,2,,1
+Fixed: Parsing headers that have a trailing semi-colon,2017-03-11,Merged,1117,15,2,,2
+QOL changes to PTP logic,2017-03-10,Merged,1114,22,17,,2
+PreDB Integration,2017-03-10,Merged,1111,302,18,csproj ,10
+keep the current page the same after clicking Save,2017-03-11,Merged,1107,12,1,js ,3
+this needs to match with the property forclient mode,2017-03-10,Merged,1106,23,23,js ,4
+[wip] extrafiles / kodi metadata updates (need help),2018-02-15,Closed,1104,786,"1,351",Test/Metadata/Consumers/Roksbox/gitkeep Test/Metadata/Consumers/Wdtv/gitkeep csproj ,9
+incorrect check for imdbId prefix,2017-03-09,Merged,1097,1,1,,1
+refactor so that filteringExpressions are constructed in one place,2017-03-09,Merged,1096,59,83,js ,5
+"new filters were added, but they werent being handled via the API",2017-03-09,Merged,1095,1,8,,1
+allow larger trakt lists than 500,2017-03-09,Merged,1093,3,2,,1
+Update blacklist to work with movies,2017-03-09,Merged,1089,211,141,,5
+Restructeured readme and added new logo asset,2017-03-09,Merged,1088,36,26,md ,1
+Onedr0p/3 8 17,2017-03-09,Merged,1087,67,115,hbs ,11
+Add hotio's nightly docker image.,2017-03-08,Merged,1084,2,2,,0
+"Add Installation, Docker and Setup Guide to new Install section and add Feathub and Wiki to Support",2017-03-08,Merged,1083,10,1,,0
+Just want to get appveyor to build and see if something fails.,2017-03-09,Closed,1082,26,42,cs resx ,3
+[wip] add new buttons to movieEditor,2018-02-09,Closed,1076,55,4,hbs less ,3
+Fix regression for missing libgdiplus -- cleaner version,2017-03-09,Closed,1075,43,47,csproj ,5
+Added detect trailer specification to import decisions,2017-03-08,Closed,1074,160,1,csproj ,4
+Fix regression for missing libgdiplus,2017-03-09,Merged,1073,35,7,csproj ,7
+Update error to include Radarr instead of Sonarr,2017-03-08,Merged,1069,1,1,,1
+"Correct DownloadDescisionMaker to use ImdbId, and update the ui a little.",2017-03-07,Merged,1068,94,86,less ,8
+Ensure drone factory runs on its specificed interval,2017-03-08,Merged,1067,625,69,,7
+reverting a change made yesterday regarding sorting,2017-03-07,Merged,1062,3,3,,1
+oops -- this was a fix from the last merge - sorry,2017-03-07,Merged,1061,1,1,,1
+fix client mode fetching.. only setPageSize when necessary,2017-03-07,Merged,1060,11,10,js ,4
+Movie editor fix,2017-03-07,Closed,1056,31,8,js ,7
+URLEncode the string for searching,2017-03-07,Merged,1055,1,1,,1
+Addressing jshint warnings,2017-03-08,Merged,1050,61,89,,14
+Fix  a couple typos,2017-03-07,Merged,1049,3,3,,2
+Patch/onedr0p,2017-03-07,Merged,1048,130,114,,10
+Loads only request movie first into full collection. Should fix things.,2017-03-08,Merged,1046,20,0,js ,3
+Update wiki link for sorting and renaming,2017-03-07,Merged,1045,1,1,,1
+fixes sorting after adding movies,2017-03-06,Merged,1041,4,1,,1
+this seems to make it more stable,2017-03-06,Merged,1037,18,4,,1
+im not too sure why this fixes the problem,2017-03-06,Merged,1036,11,9,,1
+use href instead of hostname+port,2017-03-06,Merged,1031,14,8,,1
+Try to add year to release titles that have no year (foreign release groups),2017-03-05,Merged,1028,44,2,,2
+Delay profiles are no longer hidden under advanced settings,2017-03-05,Merged,1019,2,2,,1
+use http request builder (aided by onedrop),2017-03-05,Merged,1018,63,44,,2
+Exclusions fix,2017-03-05,Merged,1016,63,12,js hbs ,5
+Improve indexer health check messages,2017-03-05,Merged,1015,260,137,csproj ,8
+Clean RSS feed before detecting type,2017-03-05,Merged,1014,368,18,cs csproj ,8
+delete me,2017-03-05,Closed,1012,0,0,,0
+Patch/more updates,2017-03-04,Merged,1009,25,3,js ,3
+Patch/onedr0p 3 4 2017,2017-03-04,Merged,1006,85,67,csproj js hbs ,11
+Patch/onedr0p updates,2017-03-04,Merged,998,109,99,hbs js ,7
+"the movie was not being printed correctly, and i believe this",2017-03-03,Merged,996,5,2,,1
+respect the pageSize when initializing the layout,2017-03-04,Merged,994,7,3,,2
+clean up the fetching on loading of MovieEditor and MovieIndex once a…,2017-03-03,Merged,993,13,16,,3
+i dont know why i was doing this inside the for loop... It did not sc…,2017-03-03,Merged,992,8,9,,1
+use clone so that we only detect empty collection,2017-03-03,Merged,990,481,476,,0
+i believe these are old code that is not needed since pagination..,2017-03-03,Merged,988,3,3,,1
+"Default Wanted and Cutoff to be 50 movies per page, added filtering options to Cutoff and a Search all",2017-03-02,Merged,984,137,67,,4
+[Fix] filtering on Manual Import,2017-03-02,Merged,980,33,3,js ,5
+reset filters on save..,2017-03-02,Merged,975,7,0,,1
+revert some changes -- use FullCollection (maybe just for now),2017-03-02,Merged,974,558,536,,6
+Possible fix for Custom script,2017-03-02,Merged,973,8,5,,1
+Hotfix when importing movie,2017-03-02,Merged,971,11,6,,1
+Date added in Movie List & Possible Fix for Importing Movies.,2017-03-01,Merged,969,24,29,js hbs ,3
+Download station fixes,2017-03-01,Merged,968,46,10,,3
+just show imdbid or tmdbid for now in exclusions,2017-03-01,Merged,963,2,2,,1
+Movie index page stability,2017-03-01,Closed,960,0,0,,0
+Patch/galileo fixes,2017-03-01,Merged,951,5,4,,3
+Patch/updates onedr0p,2017-02-28,Merged,946,12,10,js hbs ,4
+#11 add Date Added to grid sort,2017-03-01,Closed,938,14,4,,1
+"Fixed problem with TMDb list when Year is null, Revert using UrlPathEncode on newznab requests",2017-02-28,Merged,937,38,50,,5
+Expose more information to the Webhook notification,2017-02-27,Merged,935,7,1,,1
+MovieIndexPage Stability + MovieEditor fix,2017-03-01,Merged,925,190,92,js hbs ,10
+added more filters to the movie editor,2017-02-26,Merged,905,28,0,,1
+Fix movie editor paging,2017-02-28,Closed,903,31,44,,5
+Fix/implement Webhook notifications,2017-02-26,Merged,901,79,39,csproj ,6
+Add remux 1080p and 2160p as qualities,2017-02-26,Merged,900,84,18,csproj ,6
+Update parsing french movies,2017-02-26,Merged,899,5,2,,2
+NZBGet delete:scan treated as failure,2017-02-26,Merged,898,9,13,,1
+fix the footer to show correct information and refresh when FullColle…,2017-02-25,Merged,893,71,64,,1
+Patch/updates,2017-02-25,Merged,887,143,34,,8
+Fix poster placeholder height on small screens,2017-02-25,Merged,883,1,1,,1
+Small UI fixes,2017-02-25,Merged,882,2,2,,2
+HDBits prefer/require internal release (#584),2017-02-25,Merged,881,71,32,csproj ,6
+Ignore Deleted Movies (#755),2017-02-25,Merged,879,11,0,,1
+Bug fixes,2017-02-24,Merged,874,201,970,,2
+Paging for movies :),2017-02-24,Merged,861,291,40,js ,9
+the Search All Missing button,2017-02-24,Merged,860,61,36,js ,6
+Cleanup min availability,2017-02-23,Merged,846,77,55,less js hbs ,7
+some minor cleanup + changed filter on wanted/missing,2017-02-23,Merged,845,12,19,js hbs ,4
+Add NZB Station for Synology,2017-02-22,Merged,841,"1,064",147,csproj ,13
+Patch/filter trakt,2017-02-22,Merged,838,37,13,,3
+Fixed all tests and even added some new ones :),2017-03-06,Merged,835,806,"1,099",cake cs csproj ,15
+Patch/bulk import tests,2017-02-22,Merged,833,122,49,csproj ,5
+"URL Encode for newznab query strings, closes #818",2017-02-20,Merged,819,1,1,,1
+Min availability,2017-02-23,Merged,816,446,81,csproj ,14
+Movie status improvement,2017-02-20,Closed,815,176,32,csproj js hbs ,11
+Rename Sonarr to Radarr in DownloadStation client,2017-02-20,Merged,812,5,5,,2
+Fixes error message for MovieExistsValidator to state the movie doesn't exist (#723),2017-02-19,Merged,808,1,1,,1
+Set PROWL application to Radarr (#770),2017-02-19,Merged,807,1,1,,1
+Update notification logos,2017-02-20,Merged,804,7,7,,5
+availability specification to prevent downloading before released,2017-02-19,Closed,801,69,1,csproj ,2
+Fixed: Slow loading root folders caused them to never appear,2017-02-19,Closed,799,9,6,,1
+Updates to DownloadStation client,2017-02-19,Closed,798,23,5,cs ,5
+[WIP] kitsu import,2017-06-06,Closed,788,328,4,csproj ,8
+Patch/bulk import qol,2017-02-21,Merged,785,121,46,js hbs ,9
+fully functional traktAuthentication,2017-03-05,Merged,778,227,34,cs js hbs ,8
+TMDb Lists should be working now :),2017-02-16,Merged,775,20,205,,21
+Roll back some code on Net Import,2017-02-16,Merged,772,29,11,,5
+Diskstation check outputpath settings,2017-02-16,Merged,768,75,51,,1
+"TMDb Filtering Options: Rating, Min Votes, Min Vote Ave, Original Language, TMDb Genre Ids (CSV).",2017-02-16,Merged,765,77,59,,3
+Patch/net import,2017-02-16,Closed,760,116,238,,22
+Small consistancy updates to PTP and AwesomeHD,2017-02-15,Merged,758,54,64,,2
+Patch/onedr0p,2017-02-15,Merged,757,33,42,dylib cs csproj ,14
+Handle download data diskstation,2017-02-14,Merged,744,7,10,,2
+Feature/tmdb list,2017-02-13,Merged,739,628,301,,6
+Add a downloaded column to movie editor.,2017-02-13,Merged,738,6,0,,1
+Clean up Trakt a little,2017-02-13,Merged,735,12,12,,4
+Update dl-clients,2017-02-13,Merged,732,35,109,,16
+fully functional implementation of trakt Authentication,2017-02-17,Closed,728,175,8,js hbs ,7
+NetImport - Do not allow TV Series / Mini-Series (works with IMDb) #699,2017-02-12,Merged,727,9,2,,1
+Fix Hardcoded .DKSubs.,2017-02-12,Merged,726,10,1,,2
+Add Synology Download Station,2017-02-13,Merged,725,"2,064",2,csproj ,6
+Patch/re add ghost migrations,2017-02-12,Merged,724,16,0,csproj ,2
+Increase timeout when waiting for rTorrent to finish adding torrent,2017-02-12,Merged,721,2,2,,1
+Patch/onedr0p,2017-02-12,Merged,716,177,150,,6
+search all missing movie works - missing tab only,2017-02-11,Merged,710,47,2,,1
+changed sort options to match UI,2017-02-11,Merged,707,5,1,,1
+Limit TMDb requests when importing via IMDBid,2017-02-11,Merged,703,13,1,,1
+Fixed Sorting In Wanted and Cutoff,2017-02-10,Merged,693,7,6,,2
+Pass at seeing if wanted -> cutoff works on linux now,2017-02-10,Merged,692,85,36,csproj ,4
+Small UI changes,2017-02-10,Merged,691,23,23,hbs ,12
+fix trakt links for movies (like sonarr for shows),2017-02-10,Merged,690,5,4,js ,5
+Add required GP flag for PTP,2017-02-10,Merged,688,17,8,,3
+Wanted & Missing,2017-02-10,Merged,687,165,55,cs js ,9
+* Make Missing/Wanted Load,2017-02-10,Merged,686,14,14,js ,2
+Fixes - MovieMissingModule failed while processing [MovieDownloadedEvent],2017-02-09,Merged,682,2,1,,1
+UI Enhancements for Manual Import,2017-02-09,Merged,681,10,0,,2
+"Fix ordering in PTP, should prefer GP releases",2017-02-08,Merged,667,30,10,,1
+Patch/onedr0p updates,2017-02-08,Merged,664,57,111,csproj ,4
+Make Movie Title and Status sortable on Wanted tab,2017-02-08,Merged,662,0,2,,1
+List sync with removal,2017-02-25,Merged,656,276,15,hbs js ,10
+Correct the Kickass migration,2017-02-07,Merged,649,14,0,,1
+Update notif list warning when importing from a list,2017-02-07,Merged,648,2,2,,1
+Wait 5 seconds before getting the next 35 movies from TMDb using X-RateLimit-Remaining,2017-02-07,Merged,647,12,1,,1
+"This is a quick fix to limit the amount of requests we make to trakt, since we are limited to 4 per second (10 per 40 seconds)",2017-02-07,Closed,642,9,1,,1
+Fix movies not showing up in Queue when downloading,2017-02-07,Merged,640,14,19,,2
+Fixed Movie link in history tab,2017-02-07,Merged,637,1,1,,1
+"Clean up download clients to use radarr as label, fix hoduken, and blackhole.",2017-02-07,Merged,635,28,20,,6
+"Use Movie Name-TmdbId for slug, update toUrlSlug",2017-02-06,Merged,629,3,3,,1
+Update SkyHook to use updated ToUrlSlug method,2017-02-06,Closed,628,3,1,,1
+"Removed Wombles and Kickass, updated torrentpotato and torznab",2017-02-06,Merged,625,47,848,csproj ,8
+Various ui text fixes,2017-02-06,Merged,620,5,5,hbs ,3
+Delay Profile: Fix for when preferred words is null.,2017-02-06,Merged,618,11,2,,1
+Trakt private list support,2017-02-12,Closed,605,174,7,js hbs ,8
+Fix ical ics feed file,2017-02-05,Merged,603,3,3,html ,2
+Delay Profile: Upgradable Check Fix,2017-02-05,Merged,598,13,7,,2
+Added 'Case Insensitive.' to preferred tags info to help-inline,2017-02-03,Merged,587,1,1,,1
+"feature: added netflix(via allflicks.net) support, disabled by default",2017-03-11,Closed,586,430,8,csproj ,8
+Bulk Import.,2017-02-08,Merged,583,924,20,csproj js hbs ,8
+"Added more options to trakt, popular movies, upcoming, anticipated etc..",2017-02-02,Merged,573,106,30,csproj ,6
+Add warning for docker users when switching branch,2017-02-01,Merged,571,5,1,,1
+"Add plain ""ES"" audioProfile.",2017-02-01,Merged,569,1,1,,1
+Use shorter format Profile string for DTS profiles.,2017-02-01,Merged,561,4,4,,1
+Use movieFile instead of episodeFile.,2017-02-01,Merged,560,5,5,,1
+Add expanded DTS audio codecs to FileNameBuilder and fix up Atmos TrueHD audioCodec string.,2017-02-01,Merged,559,24,1,,1
+Cutoff ui changes,2017-02-10,Closed,543,"1,772","1,647",cs js ,8
+add importfromlist abck,2017-01-30,Merged,532,21,0,,1
+Fix the filter modes on the movie list xD,2017-01-30,Merged,531,98,142,,1
+"updates to ptp, and using caching for cookie",2017-01-30,Merged,530,95,28,,4
+"Use username, password and passkey for passthepopcorn",2017-01-30,Merged,528,49,18,,2
+Patch/update qualities,2017-01-29,Merged,517,266,89,csproj ,9
+Set Drone Factory Interval default to 0,2017-01-29,Merged,515,1,1,,1
+Update validators and Naming,2017-01-29,Closed,506,11,2,,3
+"Added options for watched, and watchlist, and customlist to trakt",2017-01-29,Merged,504,50,7,csproj ,6
+Patch/net import changes,2017-01-28,Merged,500,8,4,js hbs ,4
+Update HDBits to work with Radarr,2017-01-28,Merged,499,26,10,,4
+Feature/net import,2017-01-28,Merged,497,"6,688",581,csproj ,10
+Add movie year to NotificationService,2017-01-28,Merged,496,2,1,,1
+Ensure the movie isn't delete when the folder isn't renamed,2017-01-28,Merged,491,3,1,,1
+Add movie year to NotificationService,2017-01-28,Merged,489,2,1,,1
+Rename existing folder,2017-01-28,Merged,488,75,8,js hbs ,9
+Fixed: Proper port validation for download clients and connections,2017-01-28,Merged,487,18,18,,14
+Notifications: Update Synology Indexer,2017-01-28,Merged,486,8,4,,1
+Allow Duplicate Preferred Words,2017-01-28,Merged,484,1,0,,1
+Kodi Update Fix: OldFiles -> OldMovieFiles,2017-01-27,Merged,483,1,1,,1
+More Notification Updates,2017-01-27,Merged,482,143,5,,9
+Assign moviefile object when calling download message.,2017-01-26,Merged,466,3,1,,2
+Remove mofilefile id for now,2017-01-26,Merged,464,1,1,,1
+Added option to specify preferred words in quality profile.,2017-01-27,Merged,462,154,80,csproj js hbs ,9
+Download Movie Quality & Formatting,2017-01-26,Merged,460,2,2,,1
+Update GeneralViewTemplate.hbs,2017-01-26,Merged,459,1,1,,1
+Change lang in UI to what profile / lang they choose when they add a …,2017-01-25,Merged,456,28,10,,4
+Custom Script Fix: Parse movie not episode,2017-01-25,Merged,454,1,11,,1
+only use internal for RSS Sync,2017-01-25,Merged,450,2,2,,2
+include only internal for AHD,2017-01-25,Merged,449,11,2,,2
+Fixes issue #447 (Notification Icon for Join),2017-01-25,Merged,448,1,1,,1
+fix new rss-sync threshold,2017-01-25,Merged,441,2,2,,1
+Notification Fixes/Updates,2017-01-25,Merged,435,90,9,,4
+"""fixed"" error message",2017-01-24,Merged,434,6,6,,1
+"Allow renaming of movies that don't have an ""Edition""",2017-01-24,Merged,432,4,1,,1
+update default sort order,2017-01-24,Merged,429,1,1,,1
+#292 - Allow longer threshold for RSS Sync,2017-01-24,Merged,428,4,4,hbs ,3
+Add year to search,2017-01-24,Merged,425,9,3,,1
+"Update to favicon section, according to",2017-01-24,Merged,416,160,32,xml ico json svg html ,48
+Add link to Activity -> History Tab,2017-01-24,Merged,408,3,5,,2
+Initial Notification Updates and Support,2017-01-24,Merged,401,269,70,,10
+Ui logos,2017-01-23,Merged,385,17,2,png svg html ,17
+Update UI logos,2017-01-22,Closed,384,17,2,png svg html ,17
+Add more filter options to movie list,2017-01-22,Merged,378,36,0,,2
+Optimized logo,2017-01-22,Merged,375,25,572,svg ,11
+Optimised Logos,2017-01-21,Closed,374,32,572,svg ,11
+search selected button in wanted tab works,2017-01-22,Merged,373,54,21,csproj js ,8
+"Add helptext to nzbget ""add paused"" settings.",2017-01-20,Merged,363,1,1,,1
+"adds 'Movie Title, The' filename option",2017-01-20,Merged,359,20,2,hbs ,3
+add year to search,2017-01-20,Merged,358,3,1,,1
+Fix issue with reimporting on movie fresh,2017-01-20,Merged,357,61,66,,6
+bug fix for 15 movie wanted tab limit,2017-01-19,Merged,352,10,6,,1
+Blacklisting should work now.,2017-01-19,Merged,350,46,13,csproj ,6
+Fix pushover priority values.,2017-01-18,Merged,337,1,1,,1
+Add IMDb ID to file naming,2017-01-18,Merged,336,13,1,hbs ,4
+"Turn off scene mapping task #329, update TaskManager to use 'DownloadedMovieScanCommand",2017-01-18,Merged,335,2,1,,1
+basic implementation of the wanted tab,2017-01-18,Merged,333,170,32,cs js less ,9
+"Revert ""Sonarr/sqlite updates""",2017-01-18,Merged,332,"2,282","5,818",dll pdb xml dylib csproj ,8
+Nzbgetaddpaused,2017-01-18,Merged,331,16,7,,4
+"Add ""Add Paused"" option for NZBGET downloader",2017-01-18,Closed,330,14,5,,3
+Sonarr/sqlite updates,2017-01-17,Merged,318,"6,497","2,961",dll pdb xml dylib csproj ,8
+Maybe this will solve the error Object reference not set to an instance of an object,2017-01-17,Merged,316,15,15,,1
+Fix for SkyHook ToUrlSlug,2017-01-17,Merged,312,3,3,,1
+Fix publish date for jackett #239,2017-01-17,Merged,308,11,4,,3
+"Fix: Issue #91 - ""Search All Missing"" wording",2017-01-17,Merged,307,3,3,,1
+I messed up and staged changes on wrong branch.,2017-01-16,Merged,291,"12,276","8,559",js hbs ,10
+Add Calendar Tab back. Fixes #32,2017-01-16,Merged,290,"12,274","8,557",js hbs ,8
+Added movie studio to movie details page (#262),2017-01-16,Merged,287,36,2,csproj hbs ,7
+Removed duplicate PublishDate,2017-01-16,Merged,286,2,3,,1
+Added trailer link to movie links (#255),2017-01-15,Merged,282,82,6,csproj hbs js less ,13
+Add support section to README,2017-01-15,Merged,281,11,4,,0
+Reworked README,2017-01-15,Merged,280,19,20,,0
+Reworked README,2017-01-15,Closed,279,23,23,,0
+Reworked README with badges,2017-01-15,Closed,278,20,23,,0
+Reworked README.md,2017-01-15,Closed,277,18,23,,0
+Update .gitignore and remove Thumbs.db files,2017-01-15,Merged,276,17,9,db ,4
+Move Travis builds to container-based infrastructure,2017-01-15,Merged,273,6,4,,1
+Update README.md,2017-01-14,Merged,271,31,31,,0
+Update README.md,2017-01-14,Merged,270,9,13,,0
+Update README.md,2017-01-14,Merged,266,6,3,,0
+Cleanup README,2017-01-14,Merged,265,35,31,,0
+Add in theaters to 1st coumn in movie list,2017-01-14,Merged,263,4,4,,1
+Simplify completed download service,2017-01-14,Merged,260,24,123,,1
+Fixed TitleSlug For Realz!,2017-01-14,Merged,258,104,15,csproj ,3
+Torpotato username regression,2017-01-14,Merged,257,9,0,,1
+Use DOGnzb name as the default rather than the URL,2017-01-14,Merged,250,1,1,,1
+Fixed: Parsing of SABnzbd develop version,2017-01-14,Merged,248,52,59,,1
+Add rss sync to awesome-hd,2017-01-14,Merged,247,11,4,,2
+Files tab is now present.,2017-01-14,Merged,245,392,13,csproj js hbs ,15
+"Revert ""Fix movie title slugs""",2017-01-13,Merged,244,20,125,csproj ,3
+Update Torznab to work with movies,2017-01-13,Merged,243,5,28,,2
+#236 #239 - Fixed user being needed & fixed age on torrentpotato,2017-01-13,Merged,241,13,5,,4
+Fix movie title slugs,2017-01-13,Merged,238,125,20,csproj ,3
+Add Filter Missing,2017-01-13,Merged,237,9,3,,2
+"awesomeHD indexer support - Clean up Deluge, Transmission, rTorrent, QBitTorrent - Fix Sorting Titles",2017-01-13,Merged,232,428,297,,9
+Queue Service should now work properly again.,2017-01-13,Merged,231,2,2,,1
+update movie monitor tooltip,2017-01-13,Merged,223,5,17,js ,2
+omgwtfnzbs: fixed parsing of GetInfoUrl and updated tests,2017-01-13,Merged,217,945,947,,0
+"improved categories, added Nzb-Tortuga as a preset",2017-01-12,Merged,208,4,3,,2
+Update UserAgentBuilder.cs,2017-01-12,Merged,202,3,3,,1
+Add UHD to default movie categories for newsnab providers,2017-01-12,Merged,199,1,1,,1
+trying to get plex working again round 2,2017-01-12,Closed,195,15,14,,2
+Changed Sonarr Branding to Radarr,2017-01-12,Merged,180,70,69,cs ,19
+Movies in list don't sort correctly #174,2017-01-12,Merged,177,50,4,csproj js ,4
+Problem with Avatar (2009) #168,2017-01-11,Merged,169,1,1,,1
+update plex movie libraries instead of series,2017-01-11,Merged,163,2,2,,1
+fix some spelling mistakes and update the newznab api 'imdbid',2017-01-11,Merged,160,10,10,,4
+aarch64 docker container added to readme.,2017-01-11,Merged,156,1,0,,0
+removed indexer Fanzub - site shutdown,2017-01-11,Merged,154,15,212,csproj ,7
+search imdbid for usenet indexers that support it,2017-01-11,Merged,148,9,22,,3
+Fix Manual Import & Drone Factory,2017-01-11,Merged,133,796,312,,2
+Add category 2035 to Newznab providers for WEB-DL search support. #123,2017-01-11,Merged,130,1,1,,1
+Fix transmission,2017-01-10,Merged,122,27,2,,2
+Update readme.md,2017-01-10,Merged,119,4,1,,0
+Update SystemLayout.js,2017-01-10,Merged,118,3,3,,1
+Fix Wombles for movies,2017-01-10,Merged,117,1,1,,1
+fix #108 - Links to IMDB not working when searching for movies,2017-01-10,Merged,111,1,1,,1
+"Fixes #104 - Backup/update fail Access to the path ""/tmp/nzbdrone_backup/config.xml"" is denied",2017-01-10,Merged,105,4,4,,2
+"When adding a movie, monitored toggle doesn't apply and always defaults to being monitored",2017-01-10,Merged,102,7,40,hbs ,2
+Replace Sonarr with Radarr in Test notification messages,2017-01-10,Merged,88,9,9,,9
+Remove some indexers and fixed HDBits,2017-01-09,Merged,79,58,"1,088",csproj ,8
+Fix HDBits,2017-01-09,Closed,78,13,73,,1
+Fix HDBits,2017-01-09,Closed,77,12,67,,1
+Fix HDBits,2017-01-09,Closed,76,12,72,,1
+Taking a pass at Library import and rename/organize,2017-01-09,Merged,74,869,101,csproj ,14
+update rss sync and fix search for omgwtfnzbs indexer,2017-01-09,Merged,70,7,2,,1
+Added PassThePopcorn indexer,2017-01-09,Merged,64,373,0,csproj ,7
+Change default branch in config.,2017-01-08,Merged,63,3,3,,2
+Change Sonarr / NzbDrone auto-updater stuff to Radarr.,2017-01-08,Merged,61,13,13,,4
+Physical release dates now are retreived and stored.,2017-01-08,Merged,59,81,3,csproj js ,8
+New Pre-Release Version With Auto Updater enabled,2017-01-08,Merged,51,2,1,,1
+Integrate AppVeyor and change assembly versioning,2017-01-08,Merged,50,529,0,yml cake ,3
+Harden parsing of imported movie titles,2017-01-08,Merged,48,4,1,,1
+Remove all .DS_Store files,2017-01-08,Merged,47,0,0,,3
+Potential fixes for adding an indexer.,2017-01-07,Merged,46,2,2,,1
+Enables the Import UI & parses movie titles which contain year,2017-01-07,Merged,45,37,6,js hbs ,4
+Update services url to fix auto-updater.,2017-01-07,Merged,40,3,4,,1
+First pass at Media Management,2017-01-07,Merged,38,466,142,csproj ,5
+dirty fix for rtorrent,2017-01-07,Merged,37,59,2,,2
+changed nzbs.org category for movies,2017-01-07,Merged,36,1,1,,1
+Instead of searching for imdbid (which jackett may or may not have depending on the tracker) search for a word instead.,2017-01-06,Merged,34,2,3,,1
+Update Logos,2017-01-05,Merged,28,572,240,svg ico ,20
+Fixes all usenet download clients.,2017-01-05,Merged,25,58,15,,6
+Better folder name.,2017-01-04,Merged,24,1,1,,1
+Fix newznab indexers and nzbget,2017-01-04,Merged,23,89,47,,7
+Replace colon in movie path.,2017-01-04,Merged,22,3,1,,1
+Fix template references and 'movie' strings,2017-01-02,Merged,12,16,16,js ,13

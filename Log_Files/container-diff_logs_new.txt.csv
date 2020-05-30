@@ -1,0 +1,206 @@
+Fixing integration tests.,2019-08-21,Merged,317,"84,463","2,007",diffLayerBase diffLayerModified diffModified md sh json ,9
+Fix RPM differ to to include release of version,2019-08-05,Merged,315,1,1,,1
+README: mention archlinux-specific instructions,2019-04-18,Merged,307,6,0,,0
+"version: Move vX.Y.Z to version.go so it works with `go get`, add git info",2019-04-01,Merged,304,27,12,go ,3
+"--help: List available analyzers, improve Usage line",2019-05-13,Merged,303,22,7,,3
+cut v0.15.0 release,2019-02-19,Merged,299,10,1,Makefile ,1
+Update deps,2019-02-19,Merged,298,"37,380","8,782",toml ,2
+Fix result switch while viewing with type history,2019-02-19,Merged,296,2,2,,1
+Use PKG-INFO and METADATA to infer package names in pip analysis,2019-02-01,Merged,292,105,43,json ,2
+Use top_level.txt when analyzing pip modules,2019-01-24,Merged,291,37,26,json ,3
+Strip colons from file path before creating cache dir,2019-01-24,Merged,290,2,1,,1
+Adding Github Action to run Container Diff,2019-01-16,Merged,286,133,1,md sh ,3
+Remove characters from cache path that are invalid on Windows,2019-02-01,Merged,285,11,3,,4
+cut v0.14.0,2018-12-19,Merged,280,13,1,Makefile ,1
+Enhancement - save to file,2018-12-12,Merged,279,87,49,,3
+Fixed concurrent map write in image diffing,2018-12-10,Merged,278,18,13,,1
+add -k arg for keeping the image filesystem owner,2019-05-15,Closed,277,19,10,,3
+Adding custom cache envar and command line argument,2018-11-26,Merged,274,97,6,,2
+Split lines prior to diffing,2018-11-02,Merged,272,2,2,,1
+"Move all image processing logic into utils, and expose publically",2018-10-31,Merged,270,178,166,,3
+Fix docker dep overrides,2018-10-30,Merged,269,70,30,toml go ,3
+Cut release v0.13.0,2018-10-30,Merged,268,6,1,Makefile ,1
+Update go-containerregistry to pick up docker API client negotiation,2018-10-30,Merged,267,"8,884","1,965",toml go com/containerd/continuity/LICENSE com/fsouza/go-dockerclient/AUTHORS ,11
+Change the default analysis type from apt to size,2018-10-18,Merged,266,2,2,go ,1
+Fix unintended variable shadowing,2018-10-17,Merged,263,1,1,,1
+Update changelog for v0.12.0 release,2018-10-02,Merged,262,12,0,,0
+Cut v0.12.0 release,2018-10-02,Merged,261,1,1,,1
+Fix deps,2018-10-01,Merged,260,"36,696","128,639",,1
+Add maintainers file and new issue template,2018-10-01,Merged,259,19,5,md MAINTAINERS ,2
+Add script to list all pull requests for each release,2018-10-01,Merged,258,"52,720",0,sh go com/golang/protobuf/AUTHORS com/golang/protobuf/CONTRIBUTORS com/golang/protobuf/LICENSE ,6
+Backfill changelog,2018-10-01,Merged,257,56,2,,0
+Add size analyzer,2018-10-01,Merged,256,492,16,go json ,9
+Fix destination path for clone in contrib guidance.,2018-08-13,Merged,255,1,1,,0
+Cut release for v0.12.0,2018-10-01,Closed,254,1,1,,1
+Fix local repo paths in contributor guidance.,2018-08-11,Closed,253,6,8,,0
+Add rpmlayer differ,2018-08-10,Merged,252,158,35,,3
+Handle error gracefully when we can't retrieve an image,2018-07-30,Merged,251,117,60,,6
+Layered analysis for single version packages,2018-07-23,Merged,248,279,17,,9
+Reuse cached filesystems for layers,2018-07-12,Merged,247,8,0,,1
+Cut v0.11.0 Release,2018-06-27,Merged,245,1,1,,1
+Try to use local rpm binary to query rpmdb,2018-06-26,Merged,244,74,2,,1
+cut v0.10.0 release,2018-06-13,Merged,243,1,1,,1
+Remove Bazel,2018-06-12,Merged,242,1,296,yml BUILD build WORKSPACE bazel bzl sh ,13
+Update go-containerregistry deps,2018-06-11,Merged,241,"33,321","12,688",toml bazel go ,13
+Do not overwrite the loaded tarball image,2018-06-13,Merged,240,1,3,,1
+sort labels for metadata diffing,2018-05-17,Merged,235,15,4,,2
+do not diff image sha or hostname in metadata,2018-05-16,Merged,234,1,5,json ,2
+Compare layers of images,2018-05-15,Merged,233,341,5,json ,8
+Add filesystem caching,2018-06-12,Merged,232,550,62,bazel go ,7
+Check if symlinks are the same during file system diffing,2018-05-10,Merged,231,27,2,,2
+Switch from containers/image to go-containerregistry,2018-05-14,Merged,229,"10,648","55,703",toml bazel go ,6
+rpm differ: use entrypoint for execution,2018-05-09,Merged,228,2,2,,1
+Add manifest type to scratch images,2018-04-20,Merged,226,4,1,,1
+Org rename,2018-04-17,Merged,225,82,82,BUILD md build Makefile bazel go ,27
+Fix bazel build,2018-04-17,Merged,224,2,0,,1
+Return empty mutable source for scratch images,2018-04-12,Merged,223,34,0,,1
+bump makefile for v0.9.0,2018-04-10,Merged,221,1,1,,1
+Update populateManifestAndConfig to work with docker registry images,2018-04-11,Merged,220,28,9,,1
+Sort maps before diffing to prevent flaky results,2018-04-05,Merged,219,14,4,json ,2
+Add all config fields to ConfigObject,2018-04-10,Merged,218,49,12,json ,2
+Don't append latest tag to tar path,2018-04-05,Merged,217,1,1,,1
+Sanitize filepaths in tar prepper,2018-04-04,Merged,216,7,6,,2
+Correctly handle case where no image source is parsed,2018-04-03,Merged,215,4,4,,4
+Add code of conduct,2018-03-22,Merged,213,92,0,,0
+Update year to 2018 in copyright boilerplate,2018-03-26,Merged,212,57,57,go py bzl sh ,56
+Add setup/build instructions to CONTRIBUTING.md,2018-04-02,Merged,211,33,7,,0
+Set/unset write bit on unwriteable directories when unpacking tars,2018-04-02,Merged,210,29,2,bazel go ,5
+Add metadata diffing,2018-03-27,Merged,209,139,9,json ,10
+Cleanup image source directory,2018-03-21,Merged,208,8,1,,4
+bump version to v0.8.0,2018-03-19,Merged,207,1,1,,1
+remote image: replace prefix before parsing,2018-03-19,Merged,206,2,1,,1
+Create default ImageSource if none is provided,2018-03-19,Merged,205,7,0,,1
+"Only replace image tag when retrieving image, and update source in prepper",2018-03-14,Merged,203,36,32,,5
+only append latest tag to image once,2018-03-14,Merged,202,80,17,go bazel ,6
+Add createdBy field to mutable source config history,2018-04-27,Closed,200,25,12,,2
+Extract hard links from tar,2018-03-09,Merged,199,"3,381",1,,1
+Make appendConfigHistory public,2018-03-07,Merged,198,4,4,,1
+Access mutable source config,2018-03-01,Merged,196,56,10,,2
+Save temporary layer in container-diff cache directory instead of /tmp directory,2018-02-28,Merged,195,3,2,,1
+Access and update mutable source env variables,2018-02-26,Merged,194,64,0,,2
+bump version to v0.7.0,2018-02-22,Merged,193,2,2,,1
+modifications to extract filesystem for kbuild,2018-02-15,Merged,191,98,27,,9
+Fix up mutable_source interface a bit more to make it usable from out…,2018-02-15,Merged,190,12,13,,3
+Fix some format string errors.,2018-02-08,Merged,188,3,3,,2
+Fix and re-enable the multi diff test,2018-02-01,Merged,187,59,47,json ,14
+Make integration tests actually run.,2018-01-31,Merged,185,57,32,go json ,4
+getPrepperForImage: strip prefixes prior to reference validation,2018-02-01,Closed,184,14,7,,1
+added Labels to the ConfigObject,2018-01-29,Merged,182,1,0,,1
+"Add a ""MutableSource"" type that allows for basic image modifications.",2018-02-13,Merged,180,390,38,bazel ,5
+Update containers/images.,2018-01-24,Merged,179,"3,091","20,183",lock toml bazel go gitignore Dockerfile md ,17
+Add missing line break to README,2018-01-21,Merged,177,1,0,,0
+Update rules_go.,2018-01-17,Merged,176,"2,403",289,WORKSPACE bazel ,20
+Add quiet flag to suppress stderr output,2018-01-17,Merged,175,63,7,bazel go ,8
+Refactor the caching and image unpacking.,2018-01-24,Merged,174,851,828,WORKSPACE bazel go ,11
+Add --format flag to customize output,2018-01-16,Merged,173,77,19,go ,4
+bump version to 0.6.2,2018-01-10,Merged,170,1,1,,1
+Don't retrieve user information when retrieving homedir for cache,2018-01-09,Merged,169,314,4,toml bazel go com/mitchellh/go-homedir/LICENSE md ,8
+cut version 0.6.1,2018-01-05,Merged,167,2,2,,1
+Switch to Dep,2017-12-27,Merged,165,"130,309","9,635",json Godeps/Readme ,2
+RPMAnalzyer: download absent `remote://` images,2018-01-10,Merged,164,97,4,bazel ,6
+util: simplify error creation,2017-12-19,Merged,163,9,9,,2
+Add the std. rpm flags for fast queries.,2017-12-12,Merged,161,1,1,,1
+README: add references to RPM support,2017-12-07,Merged,160,3,0,,0
+Fix some unpack errors encountered when diffing gcr.io/gcp-runtimes/u…,2017-12-04,Merged,159,21,5,,1
+test latest stable releases for go 1.8 and 1.9 in travis,2017-12-05,Merged,158,1,1,,1
+Search for Python version also in /usr/lib/python,2017-12-20,Merged,157,16,12,,2
+Add RubyGems Support,2018-12-04,Closed,156,216,12,go 0/file gemspec ,15
+Drop umask to 0 when writing files to disk,2017-11-30,Merged,155,5,0,,1
+Add maintainers file,2017-11-28,Merged,153,5,0,,1
+Fix some go vet errors.,2017-11-27,Merged,152,20,15,,7
+DOC: use -p with mkdir ~/bin since might exist already,2017-11-27,Merged,150,1,1,,0
+add rpm support,2017-12-05,Merged,149,"33,983",1,go ,2
+cut version v0.5.2,2017-11-25,Merged,148,1,1,,1
+Update README,2017-11-23,Merged,145,68,59,,0
+Bump version to v0.5.1,2017-11-20,Merged,142,1,1,,1
+Make the intermediate release targets .PRECIOUS.,2017-11-21,Merged,141,2,0,,1
+Specify default differ in docs,2017-11-21,Merged,140,4,2,,0
+Add note about referencing images by IDs in readme,2017-11-20,Merged,138,2,0,,0
+add image tag as latest if none given,2017-11-19,Merged,134,9,1,,1
+test(GetAnalyzers): add unit tests,2017-11-19,Merged,133,72,0,go ,2
+Update golang version and rules_go.,2017-11-07,Merged,131,165,41,WORKSPACE bazel ,42
+Add documentation on auth.,2017-11-01,Merged,130,7,0,,0
+Add a git hook and instructions.,2017-10-27,Merged,129,22,0,hack/hooks/pre-commit ,1
+Add release instructions.,2017-10-23,Merged,128,56,0,,0
+add a MAINTAINERS file,2017-10-23,Closed,127,69,0,,1
+Add a cloudbuild.yaml for tag releases.,2017-10-23,Merged,126,14,0,,1
+Add a cloudbuild.yaml trigger for container-diff releases.,2017-10-23,Merged,125,16,0,yaml ,2
+update readme,2017-10-19,Merged,124,37,0,,0
+Cleanup flag parsing.,2017-10-19,Merged,123,74,69,go bzl ,5
+retrieve a few more fields from the image config,2017-10-18,Merged,122,6,1,,1
+Diff within files,2017-10-19,Merged,121,127,5,,5
+Switch to dep.,2017-12-26,Closed,120,"99,139",427,Godeps/Readme ,2
+add layer caching,2017-10-20,Merged,118,246,6,go ,11
+Switch to logrus.,2017-10-14,Merged,117,111,"1,668",json WORKSPACE bazel go bzl ,16
+Switch to logrus.,2017-10-12,Closed,116,141,"1,670",json WORKSPACE bazel go bzl ,15
+update docs,2017-10-10,Merged,113,34,28,,0
+cut v0.5.0 release,2017-10-09,Merged,112,21,2,Makefile ,1
+add trace profiling,2017-10-10,Merged,111,351,0,json go yml com/pkg/profile/AUTHORS bazel com/pkg/profile/LICENSE md ,10
+"Use ""latest"" versions",2017-10-05,Merged,110,5,4,md ,1
+"add default python package directories, and support egg modules",2017-10-02,Merged,109,8,4,,1
+Unpack layers in memory instead of extracting to disk first.,2017-10-10,Merged,107,64,43,,4
+Unpack tars into tempdirs.,2017-10-02,Merged,106,17,18,,3
+Create a bazel rule for container diff,2017-10-03,Merged,104,71,0,,1
+WIP: adds a simple layer cache.,2017-10-20,Closed,102,104,4,go ,10
+remove ImagePrepper in favor of processing individual preppers directly,2017-09-22,Merged,101,154,228,Makefile go bazel ,10
+Remove docker dependency for local images,2017-09-21,Merged,100,452,44,bazel go ,11
+Handle the case where files appear in the tar before their directories.,2017-09-22,Merged,98,12,4,,1
+Remove Docker dependency for retrieving image filesystem,2017-09-21,Closed,97,577,156,go bazel ,9
+Only error if the git state is clean before we run gazelle.,2017-09-20,Merged,96,7,5,,1
+manually detect tar compression before attempting to unpack,2017-09-20,Merged,95,20,27,go sh ,3
+move image verification logic into preppers. replace string->prep map…,2017-09-20,Merged,94,86,90,,11
+Perform apt diffing by default.,2017-09-20,Merged,92,13,12,,3
+"refactor preppers to their own files, and consolidate util methods",2017-09-19,Merged,91,268,166,go ,4
+Add bazel builds for container-diff.,2017-09-19,Merged,90,"1,598",2,yml BUILD WORKSPACE bazel sh ,20
+Remove Docker dependency for retrieving image filesystem,2017-09-20,Closed,89,"45,272",257,go ,2
+Add rule to calculate checksums of binaries,2017-09-13,Merged,88,6,3,,1
+cut v0.4.1 release,2017-09-12,Merged,87,2,2,,1
+fix validation error for empty analyzer,2017-09-12,Merged,85,4,1,,1
+Export container-diff tar/fs util methods for vendoring,2017-09-13,Merged,84,588,561,,5
+"Add release rule, exe for windows",2017-09-12,Merged,82,11,3,,1
+updated cobra and switched some code to use Args concept,2017-09-12,Merged,81,444,320,go yml ,5
+remove extra boilerplate from main.go,2017-09-12,Merged,80,0,15,,1
+travis: add 1.x to go version,2017-12-04,Closed,78,2,1,,1
+Remove main binary,2017-09-10,Merged,77,0,0,,1
+"Run tests in parallel, dont use working dir",2017-09-06,Merged,75,10,9,,4
+Copy pasta error,2017-09-06,Merged,74,2,2,,1
+Remove fake sourceCtx,2017-09-06,Merged,73,3,22,,1
+Update containers/image.,2017-09-05,Merged,71,"16,992","9,896",go com/docker/docker-credential-helpers/LICENSE ,6
+Remove more reflect usage.,2017-09-02,Merged,70,32,14,,8
+Removed some duplicated code in analyzeimages and diffimages,2017-09-06,Merged,69,47,59,main ,3
+"Changed CLI to use --types flag, a comma separated list of desired an…",2017-09-06,Merged,68,78,115,go ,7
+Stop using reflect in image_prep_utils.,2017-09-01,Merged,67,"1,076","1,141",go ,2
+Switch diff names to underscores.,2017-08-31,Merged,66,0,0,,8
+Remove panic.,2017-08-31,Merged,65,1,1,,1
+fix cmd text for root container-diff command,2017-08-30,Merged,63,3,3,,1
+added boilerplate to all files and a check in the test .sh file,2017-09-05,Merged,61,989,4,txt py go ,8
+split container-diff into subcommands: analyze and diff,2017-08-30,Merged,60,299,205,md go ,5
+updated packages in vendor/ to fix container-diff not being able to be built on windows,2017-08-30,Merged,59,"4,386",33,go ,5
+Use go integration tests,2017-08-30,Merged,57,183,49,gitignore yml Makefile go txt ,6
+Always use docker client,2017-08-30,Merged,52,"14,311","2,512",md go ,3
+update installation instructions in README,2017-08-28,Merged,49,3,3,,0
+Add version command,2017-08-30,Merged,44,32,1,go ,3
+Makefile,2017-08-28,Merged,42,385,5,json Makefile org/bytefmt/LICENSE org/bytefmt/NOTICE md ,5
+Add standard open source license and CLA document,2017-08-25,Merged,41,225,0,LICENSE ,1
+Fixing default search for /etc/docker/certs.d by image library,2017-08-28,Merged,39,41,179,md go ,5
+Fixing package diff check,2017-08-22,Merged,38,23,41,go ,3
+Removing deferral of file closing during layer untarring,2017-08-22,Merged,37,1,1,,1
+Adding size sorting for package and file differs/analyzers,2017-08-23,Merged,36,"1,350",491,md go ,5
+add instructions for avoiding sudo when moving binary to path,2017-08-21,Merged,35,6,0,,0
+Enhances size output,2017-08-21,Merged,34,611,383,,6
+Fix download links,2017-08-23,Merged,32,3,3,,0
+Adding size info to file diff/analysis,2017-08-18,Merged,30,136,47,json ,9
+Changing 1.0 to 2.0 in all binary links,2017-08-18,Merged,27,3,3,,0
+Adding json processing example to ReadMe,2017-08-18,Merged,26,76,1,,0
+Adding known issue of etc/docker/certs documentation.,2017-08-17,Merged,23,3,0,,0
+Single image analysis,2017-08-18,Merged,20,"1,307",678,md ,1
+Removing now unnecessary processing,2017-08-16,Merged,19,0,49,py txt ,2
+Fixed images sourced from tars and IDs to have final filesystem,2017-08-16,Merged,18,204,291,json ,7
+"Save flag functional for cloud, ID, and tar",2017-08-16,Merged,17,12,4,,1
+Updating Readme,2017-08-16,Merged,16,29,27,,0
+Fixing build fail,2017-08-15,Closed,15,25,25,,2
+History integ tests,2017-08-11,Merged,14,142,78,txt json ,6
+Fix godeps.,2017-08-10,Merged,13,53,"17,372",com/Azure/go-ansiterm/LICENSE md go ,5
+Multi version generalization,2017-08-10,Merged,12,170,183,yml go json ,10
+Travis Test,2017-08-10,Closed,10,1,2,txt ,1
+Used env vars to search for packages in PYTHONPATH,2017-08-11,Merged,1,154,56,go 6/site-packages/file 6/notSitePackages/file dist-info/file 6/site-packages/packageone/file 6/site-packages/packagetwo/file py differs/testDirs/pipTests/pythonPathTests/pythonPath1/packageseven/file differs/testDirs/pipTests/pythonPathTests/pythonPath1/packagesix/file differs/testDirs/pipTests/pythonPathTests/pythonPath2/subdir/packagefive/file 7/site-packages/packageone/file 7/file 6/file differs/testDirs/pipTests2/pythonVersionTests/noLibLayer/usr/local/notLib/file differs/testDirs/pipTests2/pythonVersionTests/noPythonLayer/usr/local/lib/notPython/file json ,59

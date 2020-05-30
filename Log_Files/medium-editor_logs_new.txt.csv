@@ -1,0 +1,603 @@
+Ensure the focus stays in the editor after execAction for Firefox. #1496,2019-06-02,Merged,1497,6,0,,1
+Ensure paragraph is selected for firefox. #1455,2019-06-02,Merged,1495,14,0,,1
+Added list of options for the button,2018-11-01,Closed,1479,4,0,,0
+Modify method name in comment,2019-05-04,Merged,1471,1,1,,1
+Remove IE check,2018-04-17,Merged,1438,7,7,,1
+Cleanup after ordered/unordered list item removal,2018-04-17,Merged,1437,54,7,,2
+Cleanup after ordered/unordered list removal in Chrome,2018-04-16,Merged,1436,103,8,,2
+Fixed custom class option checkbox,2018-02-27,Merged,1423,2,2,,1
+fix null error on pastedPlain.split,2017-12-19,Merged,1397,4,0,,1
+Fix broken browser tests,2017-12-19,Merged,1396,25,2,,3
+Fix Jasmine Unit Test errors,2017-12-19,Merged,1385,17,15,,4
+Buttons are not properly aligned in toolbar,2018-01-21,Closed,1375,2,1,,1
+Do not check only for null targets or it will fail when it's undefined.,2017-09-28,Merged,1373,1,1,,1
+Bug fix for #1369,2017-09-13,Merged,1370,1,1,,1
+Update jsDelivr links,2017-09-05,Merged,1368,3,3,,1
+Update jsDelivr links,2017-09-05,Merged,1367,2,2,,0
+Update jsDelivr links,2017-09-05,Merged,1366,2,2,,0
+fix crash when 'extensions' in 'isElementDescendantOfExtension' is undefined,2017-12-10,Merged,1362,4,0,,1
+medium-editor-insert plugin css fixes on beagle theme,2017-08-16,Merged,1361,6,0,,1
+add noopener & noreferrer into targetBlank,2017-07-27,Merged,1355,17,0,,3
+Added undefined check and fallback in Paste extension,2017-07-28,Merged,1346,3,1,,1
+Add label-checkbox relation in CreateLink form #1275,2017-06-26,Merged,1340,2,2,,1
+remove src from bower ignored files,2017-05-09,Merged,1330,0,1,,1
+Update paste.js,2017-05-03,Closed,1327,4,0,,1
+Fix #1216 from previous PR #1217,2017-02-08,Merged,1293,62,5,,2
+Update README + Add simple dev server for running locally,2017-02-08,Merged,1292,18,4,js json ,2
+Adding new 'html' button from #1235,2017-02-07,Merged,1291,37,2,html js ,4
+Update gh pages,2017-02-05,Merged,1289,136,32,js svg html jade ,6
+Updated Readme,2017-01-26,Merged,1286,2,0,,0
+Fix PR 1203,2017-01-19,Merged,1280,3,1,,1
+WALKTHROUGH-BUTTON.md: Fix typo,2017-01-19,Merged,1279,2,2,md ,1
+Editing the documetation/read-me #1276,2017-01-26,Closed,1277,2,"8,523",css ,6
+Delete key,2017-01-02,Closed,1272,154,66,js ,5
+Save some CPU calculations,2017-01-19,Merged,1271,4,5,,1
+Demo Page: Adding links to all other demos,2017-01-19,Merged,1267,25,2,css ,3
+Fix broken carousel,2017-01-19,Merged,1264,3,1,,1
+Only add schemes to URLs with hostnames,2017-02-09,Merged,1258,76,10,,2
+Don't encode fragment as part of linkValidation,2017-02-05,Merged,1257,34,4,,2
+Fix for #1151,2016-11-24,Merged,1249,11,9,,1
+Update WALKTHROUGH docs,2016-11-04,Merged,1243,3,3,,0
+Fix-autolink Fixed problem of moving cursor when auto-linking,2017-01-19,Closed,1239,13,0,,1
+Eval html toolbutton,2017-02-06,Closed,1235,34,1,,3
+Removed obsolete code,2016-10-19,Closed,1233,1,1,,1
+Efficiency: Compile RegEx once,2016-10-11,Merged,1230,6,4,,1
+Fixes an issue where while a user is holding down delete and clicks around both in and out of the content editable the node is null.,2017-02-10,Closed,1225,7,2,,1
+fix #1221 commonJS/electron environment detection,2016-09-29,Merged,1223,1,1,,1
+support encoded urls,2016-09-21,Merged,1219,113,8,,2
+#1216 issue fix,2017-02-08,Closed,1217,135,77,,2
+Fix paste blur,2018-06-05,Closed,1213,36,7,,2
+Stops mouseout errors on hover over anchors,2017-02-10,Closed,1204,4,0,,1
+Check for this.anchorPreview when hiding,2017-01-19,Closed,1203,3,1,,1
+Fuseboard,2016-09-03,Merged,1198,4,1,html jade ,9
+Fix #1156 - placeholder text color in flat theme,2016-08-22,Merged,1192,1,1,,1
+Update landing page,2016-08-21,Merged,1189,94,29,pxm html css jade ,11
+Add new extensions to extensions README,2016-08-26,Merged,1188,12,4,,0
+remove first empty paragraph on backspace,2016-08-19,Merged,1187,27,0,,2
+update grunt-contrib-jasmine,2016-08-19,Merged,1185,1,1,,1
+Added Embed Button links to Readme.md,2016-08-19,Merged,1183,2,0,,0
+fixed iframe div,2016-08-22,Merged,1179,29,23,,1
+Added unwrapTags option to paste extension,2016-08-20,Merged,1177,47,9,js ,3
+Add option to disable tab key.,2017-02-28,Closed,1176,8,1,js ,1
+add external button example,2016-08-11,Merged,1175,2,0,,0
+"Fix #1173: When caret is at the end of Div and you press enter, create p not a Div",2017-02-08,Closed,1174,13,0,,1
+handle new google docs font weights,2016-08-04,Merged,1168,12,2,,2
+add regex to clean font tag provided by word / open office on paste,2016-08-20,Closed,1163,4,1,,1
+"when caret is at the end of blockquote and you press enter, create paragraph, not another blockquote",2016-07-30,Merged,1162,43,0,,2
+Fix #224 and #857 - toolbar in absolute container,2016-07-21,Merged,1152,193,18,js ,5
+add label[for] and input[id] for anchor form,2016-07-19,Closed,1147,12,12,,1
+add label[for] and input[id] for anchor form,2016-07-15,Closed,1146,12,12,,1
+fix anchor labels for targetCheckbox and customClassOption,2016-07-15,Closed,1144,6,4,,1
+Make linkValidation allow hash links,2016-07-20,Merged,1143,33,1,,2
+#1135 | Target Blank for Anchor tag not working properly,2016-07-07,Closed,1136,11,0,,1
+#1127 | Placeholder is visible when only empty table is in Editor.,2016-06-21,Merged,1128,7,1,,2
+#1123 Fixes issue with electron environment,2016-06-20,Merged,1125,2,1,,1
+Fixes for paste and placeholder extensions + add/remove element events,2016-06-20,Merged,1124,127,20,js ,7
+Improve documentation for toolbar.relativeContainer option,2016-06-14,Merged,1122,12,2,,0
+Fix slow CSS selector,2016-06-06,Merged,1115,12,5,scss ,4
+Fix test failure in Chrome 51,2016-06-06,Merged,1114,1,1,,1
+Fix #234 - Cursor rendering incorrectly in firefox,2016-06-17,Merged,1113,32,3,scss ,3
+Fix #1105 - Fix bug with anchor-preview when clicked,2016-06-02,Merged,1112,5,2,,2
+Support any extension preventing blur of editor (Fix #830),2016-06-02,Merged,1108,102,24,md ,5
+Changes at Package JSON,2016-06-01,Merged,1107,5,3,,1
+documented the showOnEmptyLink option,2016-06-01,Merged,1106,8,0,,0
+Fix #719 - Respect form.reset for textarea elements within forms,2016-06-01,Merged,1104,145,5,js ,3
+Add getContent method (Fix #492),2016-06-01,Merged,1103,43,4,js ,2
+Expose method for getting editor instance from an element,2016-05-31,Merged,1102,137,20,js ,4
+Allow preview to be shown on empty links,2016-05-26,Merged,1100,26,2,,2
+Fix #1098 - editablePaste not triggering on keyboard paste,2016-05-27,Merged,1099,79,1,,3
+Fix failures from new tests in IE & Edge,2016-05-21,Merged,1095,30,0,,1
+Deprecate some execAction and createLink options,2016-05-21,Merged,1094,46,0,,2
+Update API.md with more details about arguments,2016-05-21,Merged,1093,74,2,,0
+Fix null pointer during the cleanupElement event,2016-05-18,Merged,1089,3,1,,1
+Allow passing options to 'non-medium' commands,2016-05-21,Closed,1088,1,1,,1
+Ensure #869 is fixed,2016-05-17,Merged,1087,"1,045",2,,0
+execActionInternal should pass opt to document.execCommand if action …,2016-05-21,Merged,1086,74,26,,6
+Fix #942 - Expose method to check for changes to html,2016-05-07,Merged,1077,85,9,html js ,3
+fix typo,2016-04-22,Merged,1070,1,1,,0
+Add issue and PR templates,2016-04-18,Merged,1062,38,0,,0
+Fix #1057 - replace break-all with break-word,2016-04-14,Merged,1058,1,1,,1
+Fix #994 - Prevent Firefox NS_ERROR_FAILURE: on keyup,2016-04-10,Merged,1052,103,69,,2
+Fix #1047 - Add 'positionedToolbar' custom event,2016-04-12,Merged,1050,127,36,js ,4
+Support function chaining in event functions and allow multiple targets when adding event listeners,2016-04-08,Merged,1046,69,20,js ,3
+Fix IE CSS bugs,2016-04-08,Merged,1043,3,0,,1
+Add/remove elements to existing instance,2016-05-16,Merged,1038,861,155,html ,1
+Fix failing anchor test,2016-03-30,Merged,1033,22,6,,1
+Updated test - Made the diff between input and validUrl only spaces,2016-03-30,Closed,1030,1,1,,1
+Add directions for running external fork PRs in SauceLabs,2016-03-30,Merged,1029,34,10,json ,1
+merge yaw/medium-editor,2016-03-28,Merged,1026,2,2,,1
+Fix 1014 - Convert spaces to %20 in links if linkValidation is true for the anchor extension,2016-03-29,Merged,1025,39,3,js ,2
+Dynamic add elements,2016-04-01,Closed,1024,582,38,md html ,2
+Use innerHTML in Events.updateInput() function only once to improve performance,2016-03-25,Merged,1022,5,3,,1
+Fix #994 - Prevent Firefox NS_ERROR_FAILURE: on keyup,2016-04-10,Closed,1020,1,1,,1
+Update extensions on landing page,2016-03-24,Merged,1019,121,21,,0
+Adding clearSelection method to selection.js,2016-03-24,Merged,1018,40,0,,2
+Use function as keyboard command,2016-03-25,Merged,1017,40,1,,2
+Fix anchor showform,2016-03-20,Merged,1012,1,1,,1
+Fix anchor showform,2016-03-14,Closed,1011,50,11,js ,5
+Added support for multiple instances of contenteditable areas on the …,2016-03-10,Closed,1009,137,31,css js ,6
+Add Butter CMS,2016-03-08,Merged,1004,126,51,md js png html jade ,6
+Destroy ie autolinks,2016-03-08,Merged,1001,45,1,,2
+Update OS X to 10.11 in Sauce Labs,2016-02-27,Merged,996,5,2,,1
+Remove hardcoded inlined display style for anchor editor,2016-02-29,Merged,995,51,5,scss ,4
+Fix #992,2016-02-25,Merged,993,114,20,,4
+Integration for #990,2016-02-25,Closed,991,37,13,,2
+Fix for #985,2016-02-25,Merged,990,59,17,,2
+Documentation of placholder-option 'hideOnClick',2016-02-23,Merged,989,17,3,,0
+handle extra space when space already exists 🚧,2016-02-21,Merged,987,20,1,,2
+Fix #834 - Don't call formatblock when cursor is within block element,2016-02-23,Merged,986,54,9,,2
+core.clearSelection,2016-03-24,Closed,984,10,0,,1
+ImageDragging insert image at the end of dropping target,2016-02-18,Merged,981,6,1,,1
+Demo Page updates,2016-02-14,Merged,975,855,265,md ,1
+Fixed missing `editableInput` event on autolinking,2016-02-23,Merged,974,15,0,,2
+Better Paste Handling,2016-05-07,Merged,973,536,53,,2
+add instruction to disable file dragging all together,2016-02-12,Merged,971,12,0,,0
+fix for #939 🔨,2016-02-12,Merged,967,73,0,,4
+Don't add fileDragging extension is no file type is allowed. fixes #966,2016-02-11,Closed,965,7,19,,3
+Fix some bad image references in tests,2016-02-09,Merged,957,6,6,,3
+Edge Support: Fixes to medium-editor and test cases for Edge,2016-02-10,Merged,955,212,185,js ,3
+Deprecate util.getFirstTextNode,2016-02-03,Merged,954,33,1,,2
+"Update ""Who Is Using It""",2016-02-01,Merged,952,256,60,json js jpg png html jade ,28
+Fix typo,2016-01-31,Merged,951,2,2,,0
+handled enter event for empty h2/h3 tag 🔨,2016-01-31,Merged,950,40,1,,2
+Fix typo,2016-01-28,Merged,947,2,2,,0
+Fix for infinite loop AND gruntContribJasmine that errors out,2016-01-25,Merged,941,16,0,,2
+Pre clean replacements,2016-01-21,Merged,940,34,2,js ,2
+Fixed image insert event on file drag over,2016-02-18,Closed,938,15,21,json ,4
+Fix #935 - Fix a variety of issues related to selection imports/exports,2016-02-03,Merged,937,260,18,,4
+"Add ""Who Is Using It"" to landing page",2016-01-17,Merged,934,139,5,svg html jade less css ,14
+fixed issue 138,2016-01-17,Merged,933,10,2,,2
+break out of infinite loop in importSelection,2016-01-20,Closed,931,1,0,,1
+stickyTopOffset option added,2016-01-18,Merged,930,14,5,js ,1
+Update README.md,2015-12-21,Closed,913,7,0,,0
+single enter double enter [WIP]🚧,2016-04-12,Closed,912,157,9,js ,5
+Trim src when using the image toolbar button,2015-12-15,Merged,909,4,3,,2
+documented the process of releasing a new version 📃,2015-12-09,Merged,906,9,0,,0
+Fix issue with image-only selections,2015-12-15,Merged,904,364,37,,6
+WIP - removeAllRanges IE 11 bug,2016-02-18,Closed,902,16,8,,2
+Fix auto linking with comments,2015-12-14,Merged,900,20,1,,2
+Fix execFormatBlock for firefox when converting a blockquote to a p,2015-12-03,Merged,899,21,6,,1
+fixed failing test case on FF for blockquote ♨️,2015-12-03,Closed,898,12,1,,1
+Fix placeholder not paying attention to container padding and margins,2015-12-03,Merged,896,2,0,,1
+Add test for #887,2015-12-03,Merged,892,38,0,,1
+#886 - Cannot press space when i'm with the cursor at the end of line,2015-11-25,Merged,887,1,1,,1
+Use editableInput instead of input event for textarea syncing,2015-11-25,Merged,885,12,7,,1
+fixed 143 👊,2015-12-03,Merged,879,45,0,,3
+Link Validation - Allow More Schemes,2015-11-25,Merged,878,82,5,,2
+Updated checklink function to check if a link is a phone number,2015-11-18,Merged,877,26,2,,2
+Singleenterblockelement,2015-12-08,Closed,870,120,8,js ,4
+Fix table extension demo,2015-10-31,Merged,863,148,184,,1
+Return area,2015-10-30,Merged,862,23,1,,2
+Remove carriage returns,2015-11-03,Merged,859,60,60,,1
+Update CUSTOM-EVENTS.md,2015-10-30,Merged,858,2,2,,0
+Optional space,2015-10-29,Merged,855,79,1,js ,5
+adds missing comma into toolbar options literal for README,2015-10-27,Merged,854,1,2,,0
+Fix `performLinking` method description in auto-link.js,2015-10-19,Merged,847,22,7,,2
+Embed extension,2015-11-20,Closed,846,170,0,,3
+Font Name Extension,2015-10-30,Merged,845,351,0,,4
+disabled double enter issue on li tags,2015-10-13,Merged,843,21,2,,2
+New anchor preview option to show when toolbar is visible,2015-10-19,Merged,839,68,4,js ,2
+removed trailing white spaces from the link and undid the changes in dist files made in earlier commit,2015-10-12,Merged,838,39,2,,2
+Fix font-awesome.css link in demo/auto-link.html,2015-10-10,Merged,836,3,3,,3
+ImageCaption multiline issue in Firefox,2016-02-20,Closed,835,3,1,,1
+Issue 824 Remove leading and trailing whitespaces from links,2015-10-12,Closed,826,33,5,,4
+"Fix changing links on images for firefox, #803",2015-09-23,Merged,820,6,4,,2
+"Fix changing link on images, #803",2015-09-22,Merged,819,29,0,js ,3
+More autolink fixes,2015-09-21,Merged,817,118,17,,4
+Fix some breaks in isDescendant that were introduced by #792,2015-09-16,Merged,814,43,2,,2
+Fix #790 - Don't auto-link across multiple list-items,2015-09-13,Merged,811,68,24,js ,3
+"If disableDoubleReturn is true, prevents returns from caret position 0",2015-11-20,Closed,799,2,1,,1
+"If disableDoubleReturn is true, prevents returns from caret position 0",2015-09-01,Closed,798,2,1,,1
+Added toolbar-relative-container feature,2015-08-30,Merged,796,91,4,html js scss ,4
+Make util.isDescendant() more efficient when browser allows for it,2015-08-25,Merged,792,15,0,,1
+Fix #768 + Fix #783 + Simplify and Fix Placeholder Extension,2015-08-21,Merged,787,107,65,,6
+Handle backward compatibility with <= 5.4.0,2015-08-19,Merged,786,44,1,,2
+Fix auto-link within list items,2015-08-18,Merged,785,21,7,,2
+Fix #748 - Don't delete editor inside util.insertHTMLCommand,2015-08-18,Merged,784,38,4,,2
+Multiple medium instances cannot be used in a single page with textareas,2015-08-17,Merged,782,26,1,,2
+Fix #776 Remove Global Variables and References,2015-08-17,Merged,780,409,515,js md ,6
+Add MediumEditorMultiPlaceholders extension to extension examples,2015-08-13,Merged,778,2,0,,0
+Enable Saucelabs tests for Windows 10,2015-08-12,Merged,775,13,3,,1
+Fix clean paste,2015-08-11,Merged,772,61,24,,2
+Port #765 back to 4.12.x branch,2015-08-10,Merged,770,107,35,,4
+Placeholder text should only show when empty,2015-08-11,Closed,769,1,1,,1
+Added enter of emacs key bindings to handleKeydown,2015-08-10,Merged,766,108,2,,3
+Fix #732 - Fix issue with selection inside nested block elements,2015-08-10,Merged,765,102,35,,3
+"Fire editableInput only once, at the end of link creation",2015-08-07,Merged,763,182,107,,4
+Porting #761 back to v4.12.x branch,2015-08-10,Merged,762,100,11,,4
+Fix #757 Track beginning of paragraph in exportSelection,2015-08-10,Merged,761,63,11,,3
+Cleanup comment created by Chrome,2015-08-07,Merged,760,5,2,,1
+Fix anchor + selection inconsitencies in IE,2015-08-04,Merged,759,79,10,,4
+"Fix #757, issue where selection restored too large",2015-08-03,Merged,758,36,1,,2
+Recreate all attributes when using textarea,2015-08-02,Merged,756,18,19,,2
+"Fix for #754, issue with replacing the anchor that already has one",2015-08-03,Closed,755,1,0,,1
+Fix for #738 issue with importSelection after empty paragraphs,2015-08-02,Merged,753,21,2,,2
+Fix #751 - issue with finding anchor when clicking anchor button,2015-08-02,Merged,752,30,8,,2
+Ensure anchor target + class checkboxes are initialized correctly,2015-07-29,Merged,747,116,8,,3
+Cleanup only pasted elements,2015-07-29,Merged,746,23,29,,1
+Typo in keyboard-commands.js,2015-07-27,Merged,744,1,1,,1
+Typo,2015-07-23,Merged,741,1,1,,1
+Expose setContent method on medium,2015-07-21,Merged,736,87,9,js ,4
+Fix for custom extension not suppressing built in anchor preview,2015-07-20,Merged,735,12,2,,2
+Typo,2015-07-20,Merged,734,1,1,,1
+Documentation,2015-07-19,Merged,733,"2,278",6,,0
+Fixed typo in README.md,2015-07-16,Merged,729,1,1,,0
+keyboard commands alt key support,2015-07-16,Merged,727,90,11,js ,3
+Add code of conduct,2015-07-11,Merged,725,13,0,,0
+Disable drag-and-drop on MediumEditor (except for images),2015-07-06,Merged,723,179,34,scss ,11
+"Add Meteor.js support, http://meteor.com",2015-07-06,Closed,718,105,1,md json ,5
+Factor out importSelection + exportSelection into helper methods,2015-06-30,Merged,716,129,129,,2
+Fixes #713 adds target='_blank' for auto links if the option is set,2015-06-30,Merged,715,21,2,,3
+Fix for #666: Creating and removing nested lists by indenting/outdenting,2015-08-07,Closed,710,49,9,,3
+Prepare 4.12.6,2015-06-27,Merged,709,49,12,js ,6
+Fix allowMultiParagraphSelection option,2015-06-27,Merged,708,36,13,html js ,7
+Some Events Cleanup,2015-06-27,Merged,707,24,30,,2
+Make anchorPreview.positionPreview more reusable,2015-06-26,Merged,706,3,2,,1
+Ensure all extra attributes are removed on destroy,2015-06-25,Merged,703,15,0,,2
+Ensure div ids are unique when there are multiple textareas,2015-06-24,Merged,701,24,5,,2
+Creating a link should create only one anchor if possible,2015-06-26,Merged,700,271,109,,5
+update: add showToolbarDefaultAction,2015-06-19,Merged,698,12,0,,1
+Ignore all source files,2015-06-22,Merged,697,1,1,,1
+Changelog for the v5,2015-06-18,Merged,693,56,6,js ,2
+Add Upgrade-5.md,2015-06-17,Merged,691,146,0,,0
+Util cleanup,2015-06-17,Merged,690,73,49,,4
+Use nodeName instead of tagName + Fix busted code in toolbar,2015-06-16,Merged,688,54,47,,14
+Fix issue with block-containers assumptions for selection,2015-06-16,Merged,687,28,6,,3
+Auto-link: never import selection to focus on a BR or IMG,2015-06-15,Merged,686,56,3,,3
+Remove moot `version` property from bower.json,2015-06-12,Merged,683,0,1,,1
+Ability to disable a shortcut,2015-06-10,Merged,682,43,2,js ,2
+Fix broken keyboard shortcuts :disappointed:,2015-06-10,Merged,681,7,7,,4
+Use uppercase version of shortcut,2015-06-10,Merged,680,14,15,js ,5
+Create composer.json,2015-06-10,Closed,679,19,0,,1
+Auto link: fix bug when entering link at end of paragraph,2015-06-12,Merged,678,353,18,,6
+Custom Button Options + Deprecate Header Options,2015-06-10,Merged,677,356,132,html css ,11
+Add in a demo of the actual medium toolbar for experimenting/reference,2015-06-09,Closed,676,"19,397",0,,1
+Justify behaviour,2015-06-26,Merged,675,105,1,,2
+Update README to link to Wiki for options + API documentation,2015-06-09,Merged,674,70,26,js ,1
+Redesign Header Buttons,2015-06-09,Closed,671,130,111,css html ,4
+Expose button default config (replace MediumEditor.statics.ButtonsData),2015-06-05,Merged,670,131,8,,4
+Remove Unused Methods,2015-06-05,Merged,669,0,138,,4
+Fix updateOnEmptySelection option,2015-06-01,Merged,665,1,1,,1
+Convert Toolbar into an extension,2015-06-04,Merged,664,"1,333",750,js md html ,9
+Fix updateOnEmptySelection option,2015-06-01,Closed,663,1,1,,1
+Fix updateOnEmptySelection option,2015-06-02,Merged,662,1,1,,1
+CSS/SASS refactor,2015-06-05,Merged,660,439,414,scss ,17
+Upcoming v5,2015-06-17,Merged,658,296,207,js ,9
+CSS/SASS refactor,2015-06-01,Closed,656,439,414,scss ,17
+remove name of function.,2015-05-30,Merged,655,1,1,,1
+Make custom events not require 'registering' before triggering,2015-05-30,Merged,654,19,37,,3
+Don't execute button shortcut when shift key is pressed,2015-05-29,Merged,653,17,2,,2
+implement updateToolbar,2015-05-29,Merged,651,33,0,,3
+Better way to display medium-editor version on the demo page,2015-05-28,Merged,648,"2,683","1,063",css ,9
+Create Util.key to return key code from an event,2015-05-28,Merged,647,147,78,,8
+Global cleanup,2015-05-28,Merged,646,88,95,,12
+Ask users to not commit dist files,2015-05-28,Merged,645,2,2,,0
+Fix for spellcheck underlines after destroy,2015-05-29,Merged,643,5,0,,1
+destroy() for extensions,2015-05-28,Merged,641,171,20,,14
+provide toolbarUpdate event hook,2015-05-28,Closed,638,5,3,,1
+More bug-fixes for auto-link integration,2015-05-26,Merged,636,154,32,,3
+Fix issue where elements array is lost after destroy,2015-05-26,Merged,635,18,7,,2
+Create extension helper methods,2015-05-27,Merged,633,237,135,,4
+Pass document + window properties to each extension,2015-05-25,Merged,632,104,36,,8
+Deprecate .parent property of extensions,2015-05-24,Closed,631,73,72,js ,10
+Deprecate onShowToolbar + onHideToolbar options,2015-05-24,Merged,630,59,39,js ,5
+WIP – Cleanup & coverage,2015-05-26,Merged,629,389,84,,9
+Toolbar events,2015-05-23,Merged,628,96,23,,5
+Add an option to not remove the placeholder on click,2015-05-22,Merged,627,331,264,,4
+CDN Info,2015-05-22,Merged,626,9,0,,0
+Auto link fixes,2015-05-21,Merged,625,300,56,,2
+Fix line breaks on Safari,2015-05-23,Merged,624,19,1,,2
+Convert Placeholders to extension,2015-05-21,Merged,622,282,131,md ,1
+allow nested contenteditables,2015-05-20,Merged,621,85,10,js ,4
+DisableDoubleReturn now works inside a sentence,2015-05-20,Merged,620,142,25,,5
+Convert AnchorPreview to new style extension,2015-05-20,Merged,619,674,74,md ,1
+Convert anchor form options into nested options,2015-05-20,Merged,618,306,121,html js ,4
+Fix cursor position for list,2015-05-19,Merged,616,105,71,,6
+New-style base extensions for Buttons and Forms,2015-05-19,Merged,615,"1,492",255,,1
+New-style base extensions for Buttons and Forms,2015-05-19,Closed,614,"1,346",101,,1
+Fix pasting multi-paragraph plain text chunks when cleanPaste is enabled,2015-05-18,Merged,613,38,9,,4
+Do not display placeholder on empty list,2015-05-18,Merged,612,17,7,,4
+Update demo,2015-05-17,Merged,611,561,198,md css ,5
+Rename AutoLinker to AutoLink,2015-05-17,Merged,610,10,10,,4
+Various Extension Work,2015-05-17,Merged,609,830,772,css ,8
+Changed npm link,2015-05-15,Merged,606,1,1,,0
+Fix pasting multi-paragraph plain text chunks when cleanPaste is enabled,2015-05-18,Closed,604,51,14,json js ,7
+I tried to feature detect -> I failed :sob:,2015-05-13,Merged,603,5,102,,1
+Fix pasting multi-paragraph plain text chunks when cleanPaste is enabled,2015-05-13,Closed,602,60,9,,5
+Fix target _blank on Firefox,2015-05-13,Merged,600,93,39,,6
+Auto link support,2015-05-16,Merged,599,"1,209",50,md html css ,9
+Cleanup Test Cases,2015-05-11,Merged,598,488,628,,4
+Create custom 'oninput' event which works in all supported browsers!,2015-05-09,Merged,597,798,41,js ,2
+"Fix ""this.getAttribute is not a function"" error",2015-05-06,Merged,594,3,3,,1
+Create isMetaCtrlKey,2015-05-06,Merged,593,69,42,,8
+Add shortcut to insert a link,2015-05-01,Merged,589,55,5,,4
+Fix unwrap util,2015-04-30,Merged,588,18,7,,4
+Max width on anchor preview,2015-04-30,Merged,586,22,11,js scss ,7
+CHANGES.md: s/initilization/initialization,2015-04-29,Merged,584,1,1,,0
+Textarea Fixes: event handling + initialization time,2015-04-27,Merged,583,148,59,,4
+add export/import selection methods,2015-04-27,Merged,581,104,27,,4
+Extensions dir,2015-04-27,Merged,579,6,6,,5
+Update `input` documentation in README.md,2015-04-23,Merged,578,1,1,,0
+jscs,2015-04-23,Merged,577,517,381,jscsrc js ,3
+Fix typo in README,2015-04-21,Merged,573,2,2,,0
+Convert PasteHandler into an extension,2015-04-21,Merged,572,521,176,,7
+Speed up Travis build,2015-04-20,Merged,571,13,0,,1
+Use real link in anchor preview,2015-04-20,Merged,569,23,21,js scss ,7
+fix anchor preview,2015-04-22,Merged,568,84,11,,5
+Paste fixes,2015-04-20,Merged,567,72,29,,5
+Add spellcheck options to enable/disable native spellcheck,2015-04-19,Merged,566,33,12,js ,6
+Add titles to toolbar buttons,2015-04-18,Merged,565,27,6,,4
+Blur fixes,2015-04-14,Merged,557,187,97,,5
+Expose method of detaching custom event listeners + detach on destroy,2015-04-13,Merged,556,130,10,js ,5
+Fix Fontawesome in demo for HTTPS,2015-04-13,Merged,555,1,1,,1
+fix BC break warn for cleanPastedHTML option,2015-04-14,Merged,554,63,27,html js ,7
+Add custom editableInput event,2015-04-11,Closed,553,50,2,,4
+Making unwrapping of spans overridable during paste,2015-04-11,Closed,551,29,36,,5
+Expose 'blur' and 'focus' events,2015-04-11,Merged,550,421,323,html js ,10
+"When pasting text without linefeeds in FF, it was still wrapping text",2015-04-11,Merged,549,74,7,,3
+"Justify buttons should use style, not queryCommandState",2015-04-10,Merged,548,24,10,,4
+"scss default flag, gradient fixes, color and zindex variables",2015-04-10,Merged,547,72,61,scss ,10
+"tooling, precursor to arg-parsing tweak",2015-04-08,Merged,541,267,113,,4
+break out the button definitions into a file,2015-04-08,Merged,540,466,456,,1
+add an Extension thinger. nothing uses it yet.,2015-04-07,Merged,539,317,89,,6
+use forEach's 3rd arg. convert some eaches to somes,2015-04-07,Merged,538,43,44,,9
+Fix typo in README.md,2015-04-07,Merged,537,1,1,,0
+Paste options,2015-04-07,Merged,535,344,67,md css json ,6
+"Add textarea support, fixes #103",2015-04-05,Merged,533,110,3,css js scss ,8
+Fix toolbars behaviour after right-click,2015-04-10,Closed,532,1,1,,1
+Add pasteReplacements options for custom RegExps,2015-04-07,Closed,531,1,2,,1
+Fix pasteHTML call from cleanPaste: add base options to arguments,2015-04-07,Closed,530,2,2,,1
+"refs #524 - sync the working version with actual, management aside",2015-03-31,Merged,525,1,1,,1
+Workaround firefox test failure,2015-03-30,Merged,521,7,4,,1
+Add clean up options to pasteHTML,2015-03-29,Merged,518,89,26,,6
+"Util -> util, Selection -> selection (on MediumEditor)",2015-03-29,Merged,516,9,9,,5
+Exposeutility,2015-03-29,Merged,515,86,5,,9
+Jshint,2015-03-28,Merged,514,203,208,jshintrc js ,3
+[WIP] jshint,2015-03-28,Closed,513,97,90,jshintrc js json ,12
+Extension removeformat,2015-03-27,Merged,511,47,3,css js ,5
+improved fix for standardizeSelectionStart,2015-03-27,Merged,510,31,39,js ,5
+Fixes #507 - safari toolbar disappears,2015-03-27,Merged,509,47,43,,4
+Anchor form,2015-03-26,Merged,506,166,136,,2
+Fix formatting in CHANGES.md,2015-03-25,Merged,503,1,0,,0
+Fix saucelabs test failure,2015-03-24,Merged,502,39,19,js ,11
+Fix bug that happened when trying to click out of the contenteditable in Chrome,2015-03-24,Merged,500,51,19,js ,10
+Turn of saucelabs running on pull requests (for now),2015-03-21,Merged,495,7,2,json ,2
+Implements font sizing control,2015-04-20,Merged,494,639,10,md html ,4
+add figcaption exception in paragraphCreation,2015-04-20,Closed,491,1,1,,1
+Clean DOM after inserting lists,2015-03-21,Merged,489,189,26,css ,5
+Expose destroy/setup as aliases for deactivate/activate methods,2015-03-18,Merged,488,179,93,js ,11
+Add css for super/sub script tags,2015-03-17,Merged,487,16,1,scss ,3
+Move remaining internal methods out of MediumEditor object,2015-03-16,Merged,485,531,500,js ,1
+Correcting typo,2015-03-13,Merged,483,1,1,,0
+Microsoft word paste updates,2015-03-12,Merged,482,44,8,,4
+Reduce number of methods exposed externally + Introduce custom events and central event management,2015-03-14,Merged,481,"1,415","1,075",,9
+Factor anchor preview code out into anchor-preview.js,2015-03-10,Merged,478,665,420,md ,1
+Fire event,2015-03-06,Merged,477,133,67,,6
+Fire event,2015-03-06,Closed,475,94,46,,7
+Add tests to the image dragging option,2015-03-06,Merged,474,595,72,,3
+Increase code coverage,2015-03-05,Merged,473,539,180,,3
+Removed executable flags from non-executable files,2015-03-04,Merged,472,0,0,css js scss ,14
+Update core.js,2015-03-03,Merged,471,5,2,,1
+Factor out Toolbar into toolbar.js,2015-03-05,Merged,469,"1,415","1,253",,6
+Remove keepToolbarAlive flag,2015-03-02,Merged,468,36,121,,5
+Add table-extension back into code using new extensions,2015-03-01,Merged,467,261,28,html ,6
+Add a Gitter chat badge to README.md,2015-02-27,Merged,465,2,0,,0
+Fix bug in paste handling + increase paste coverage,2015-02-27,Merged,463,15,12,,4
+Use code from selection.js which is duplicated in core.js,2015-02-27,Merged,462,3,39,,1
+Re-enabled regression unit-test,2015-02-26,Merged,461,1,1,,1
+Uses MIT license,2015-02-26,Merged,460,38,7,md json ,3
+Test PR,2015-02-26,Closed,458,2,2,,0
+"Fix AMD ""Uncaught TypeError: undefined is not a function"" issue",2015-02-26,Merged,457,8,4,,1
+Account for 'full' actions when doing queryCommandState,2015-02-26,Merged,455,48,12,,4
+Saucelabs Test PR,2015-02-25,Closed,454,1,1,,0
+Fix css bug in linear-gradient,2015-02-25,Merged,453,17,17,scss ,9
+Attempt to fix ignored unit-tests,2015-02-26,Merged,452,17,37,,2
+MediumButton update,2015-02-26,Merged,451,5,2,,0
+99% coverage in extension-anchor.js,2015-02-24,Merged,450,31,0,,1
+Toolbar improvements,2015-02-24,Merged,449,202,111,html js ,7
+Fix break in checkSelection for static toolbars,2015-02-23,Merged,447,73,24,,4
+Fix multiParagraphs check + create test to cover code,2015-02-23,Merged,446,27,10,,4
+Make onHideToolbar and onShowToolbar be passed in as options,2015-02-23,Merged,445,37,40,,4
+Finish extension forms,2015-02-23,Merged,444,616,500,,0
+Configure coveralls,2015-02-23,Merged,443,41,89,md css json ,12
+Simplify blur check selection,2015-02-20,Merged,442,42,62,js ,5
+Clarify button terminology,2015-02-20,Merged,441,22,20,,4
+Cleanup unused code,2015-02-20,Merged,440,24,130,js ,10
+[WIP] Initial take on extracting the toolbar,2015-02-22,Closed,439,"1,216","1,097",,1
+fix removal of pasted paragraphs that contain br tags,2015-02-19,Merged,438,9,4,,4
+Simplify execAction and how buttons in the toolbar behave,2015-02-18,Merged,436,72,72,,4
+fix(shortcuts): let metaKey trigger shortcuts,2015-02-18,Merged,435,2,2,,2
+Add SauceLabs Configuration,2015-02-20,Merged,433,892,26,js md css json ,6
+feat: implement keyboard shortcuts for commands,2015-02-17,Merged,432,44,11,,4
+Toolbar fix,2015-02-17,Merged,431,8,7,,3
+Full content actions,2015-02-16,Merged,429,190,9,,4
+Break anchorForm out into extension-anchor.js,2015-02-15,Merged,428,494,370,,1
+Add a wrapper function to avoid global scope pollution,2015-02-15,Merged,427,54,42,css ,12
+RegExp with 'g' param maintain state - don't declare globally,2015-02-14,Merged,425,22,19,,1
+Concat,2015-02-13,Merged,423,"1,844","1,728",css ,2
+Improved selection storage,2015-02-12,Merged,422,230,82,,4
+Improved command detection,2015-02-12,Merged,416,128,7,,4
+Use regex to to handle cross-browser test failures,2015-02-10,Merged,415,9,10,,1
+Don't use styles for detecting underline + strikethrough,2015-02-10,Merged,414,3,11,,2
+fix 'imageDragging: false' option.,2015-02-09,Merged,413,1,1,,1
+Expose button data for use for other extensions,2015-02-10,Merged,411,12,3,,1
+update aria label so that setting secondHeader activates the toolbar but...,2015-02-09,Merged,410,10,3,,1
+Extension forms demo,2015-02-15,Closed,409,244,51,css html js ,7
+Added custom HTML extension.,2015-02-09,Merged,408,3,0,,0
+Added Markdown Editor Markdown extension.,2015-02-08,Merged,406,5,1,,0
+Introduce DefaultButton object for built-in buttons,2015-02-08,Merged,404,"1,239",443,,1
+Changed from number constants to named constants when checking key codes,2015-02-06,Merged,402,18,16,,1
+Fix showing and writing encoded links,2015-02-06,Merged,401,24,4,,2
+Elements within a contenteditable=false block should be outside the purview of cleanupSpans,2015-02-05,Merged,399,699,610,js json ,2
+Image drag&drop support,2015-02-05,Merged,397,99,1,js scss ,4
+Fix Browser Tests in Non-Webkit-based Browsers,2015-02-05,Merged,396,83,72,,7
+Fix a few issues with the standardizeSelectionStart option,2015-02-03,Merged,393,5,5,,1
+Fix bug in getSelectedParentElement + tests in browsers,2015-02-02,Merged,392,144,140,,7
+Fix: anchor preview position when use difftop.,2015-02-02,Closed,391,5,5,,1
+specify npm registry in package.json,2015-01-30,Merged,389,3,0,,1
+"nodeValue can be null, so make sure it exists before checking its length",2015-01-30,Merged,388,10,9,,1
+Fix some tests that were broken in browsers,2015-01-30,Merged,387,3,2,,2
+Added anchorInputCheckboxLabel as option to specify the Open in new window label,2015-01-30,Merged,384,8,3,js ,4
+"Protect header (h1, h2, etc) tags from common actions",2015-01-30,Merged,382,308,8,,4
+Update README.md,2015-01-29,Merged,381,15,2,,0
+Newlines were not being respected on content placeholders,2015-01-27,Merged,380,3,1,scss ,2
+Improve placeholders and elements,2015-01-27,Merged,378,49,53,,2
+Use correct references to 'document' and 'window',2015-01-27,Merged,377,27,27,,1
+Bugfix: off() doesn't remove any event listeners,2015-01-27,Merged,375,63,5,,2
+Bugfix: ignore delayed/throttled functions when editor disabled,2015-01-27,Merged,374,90,11,,3
+Add ARIA markup to improve screenreader navigation,2015-01-27,Merged,373,37,23,,2
+Standardize where in the DOM a range begins,2015-01-27,Merged,370,73,2,js ,2
+Support enabling/disabling checkSelection updates externally,2015-01-27,Merged,369,46,1,,2
+Extended extensions,2015-01-28,Merged,367,371,82,css ,3
+Throttle instead of debounce + don't attach to prototype,2015-01-16,Merged,365,93,45,,2
+Pass medium instance to calls to extension.getButton(),2015-01-16,Merged,364,1,1,,1
+add an optional onShowToolbar callback method,2015-01-16,Merged,363,26,2,js ,4
+Extension forms,2015-01-16,Closed,362,356,77,css ,3
+Standardize usage of setTimeout for UX delays vs debouncing vs deferring,2015-01-12,Merged,361,110,57,,1
+Handle ESC key in link editor,2015-01-12,Merged,360,5,0,,1
+Use this.on() for attaching all event handlers,2015-01-06,Merged,358,6,6,,1
+Update README with recently added options,2015-01-06,Merged,357,25,14,,0
+Support disabling placeholders,2015-01-06,Merged,352,38,5,,3
+Support disabling anchorForm,2015-01-06,Merged,351,45,11,,3
+Avoid grabbing selection on keypress when it's not being used,2015-01-06,Merged,350,2,1,,1
+Ensure medium ID's uniqueness,2015-01-06,Merged,348,27,4,,3
+support Japanese Kanji conversion,2015-01-12,Closed,347,22,6,,1
+Better handling of Japanese Kanji conversion,2014-12-17,Closed,346,31,5,,2
+Add optional 'onhidetoolbar' method,2015-01-06,Merged,345,21,3,,2
+allow toolbar button states to change when selection is collapsed,2015-01-06,Merged,344,23,3,,3
+Disable advanced css compression,2014-12-12,Merged,343,14,6,css ,5
+make plaintext paste work in IE,2014-12-12,Merged,342,53,7,,1
+Update medium-editor.js,2014-12-09,Merged,341,1,1,,1
+Hide placeholder on mouse click,2014-12-12,Merged,339,8,2,,1
+"Revert ""Update README.md""",2014-12-08,Merged,338,1,1,,0
+Few typos,2014-12-08,Merged,337,8,8,,0
+Update README.md,2014-12-05,Merged,336,1,1,,0
+Use textContent instead of innerText for FF compatibility,2014-12-05,Merged,334,3,3,,1
+Static toolbar,2014-11-26,Merged,331,455,53,css ,5
+Removing events during deactivate,2014-11-24,Merged,329,120,77,,3
+Using `options.elementsContainer` to calculate ID,2014-11-24,Merged,328,4,4,,1
+added strikethrough option in buttonLabels,2014-11-21,Merged,327,3,1,,1
+added custom doc and win functionality,2014-11-17,Merged,324,63,58,,1
+Added anonymous AMD/RequireJS support,2014-11-03,Merged,318,16,2,,1
+Removes .btn css import. Fixes #298,2014-10-31,Merged,316,1,35,scss ,4
+set target blank on anchor tags on clean if enabled,2014-10-23,Merged,314,19,9,,1
+fix bug this out scope,2014-10-21,Merged,313,1,1,,1
+Check editor element for data-disable-return on return,2014-10-13,Merged,311,17,8,,1
+Fix #308 by passing clipboard content through self.htmlEntities,2014-10-11,Merged,309,107,1,,2
+Added justify* buttons,2014-10-07,Merged,307,35,7,js ,1
+Scope findMatchingSelectionParent to current editor,2014-09-30,Merged,303,49,59,,1
+Add Browser Support,2014-09-26,Merged,300,5,1,,0
+Mimic input maxlength,2014-09-16,Closed,296,792,167,js json html css ,5
+Add anchorButton and anchorButtonClass options,2014-09-16,Merged,295,199,14,css js ,6
+added call to setToolbarPosition in showAnchorForm,2014-09-16,Merged,290,1,0,,1
+add http:// if no protocol is present.,2014-08-28,Closed,288,11,1,,1
+Static and Sticky Toolbar,2014-10-15,Closed,282,554,316,css ,7
+"Add ""Open in New Window?"" option to link form (+ other updates)",2014-08-24,Merged,280,227,55,css ,8
+Tab based indenting and outdenting for list structures,2014-08-24,Merged,279,27,1,,1
+Some bug fix,2014-08-08,Closed,271,290,84,,9
+"fixed js lint issue for #252, #158 fixes",2014-08-08,Closed,264,178,67,js ,3
+Development,2014-07-17,Closed,263,132,7,html js json ,5
+Fix hidden placeholder content override,2014-07-14,Merged,256,1,1,,1
+"#252, #158",2014-07-17,Closed,253,62,15,,1
+Pass editor instance to extensions,2014-06-24,Merged,249,184,4,html js ,5
+Code highlight and syntax fixes (some semicolons),2014-06-18,Merged,244,30,28,,0
+adding protocols to checkLinkFormat regex,2014-06-09,Merged,240,17,13,js ,4
+disable toolbar within inserts,2014-08-08,Merged,238,67,17,,1
+Start script to run the app from the command line,2014-05-31,Merged,236,2,1,,1
+Expose save-/restoreSelection(),2014-05-21,Merged,231,9,1,,1
+Allow customization of active/first/last button classes,2014-05-20,Merged,230,19,10,js ,2
+fix bug in create link,2014-05-20,Merged,228,24,1,,1
+show placeholder if you have only an empty blockquote,2014-05-08,Merged,226,3,1,,1
+"fix ""link bug on Firefox""",2014-05-07,Merged,222,23,1,,1
+"fix bug ""link bug on Firefox #220""",2014-05-05,Closed,221,23,1,,1
+"fix ""unlink bug on Firefox""",2014-05-07,Merged,219,45,3,,1
+[bower] Only include the minified script file,2014-05-02,Merged,217,1,1,,1
+fix the checking of data-disable-return attr in bindPaste,2014-04-29,Merged,216,3,3,,1
+Added disableEditing option,2014-04-28,Merged,213,6,2,js ,1
+"On paste, check for data-disable-return on element",2014-04-21,Merged,208,1,1,,1
+changes to the element list or element selector now take effect on reactivation,2014-04-17,Merged,205,15,5,,1
+change initialization methods so that alterations made to the element array during deactivation take effect on activation,2014-04-15,Closed,204,17,7,,1
+"fix ""Paste text in firefox add <br> and <p>""",2014-04-11,Merged,201,11,3,,1
+"fix ""Paste html code will be rendered to real DOM element""",2014-04-11,Merged,200,15,3,,1
+Fix html entity in anchorForm,2014-04-04,Merged,199,15,10,,1
+Adds a bugfix to ensure the toolbar is not undefined,2014-04-03,Merged,198,33,5,,2
+Add basic extension API to Medium Editor,2014-04-03,Merged,196,407,95,css ,2
+A check link option to append http:// to links,2014-04-01,Merged,193,45,6,js ,5
+cleanPastedHTML option to preserve formatting when copy/pasting in editor,2014-04-01,Merged,192,578,34,html ,4
+"remove anchor preview listeners on deactivate, issue #190",2014-04-01,Merged,191,21,11,,1
+Fixed IE9 element classList compatibility issue,2014-03-29,Closed,189,45,21,,1
+"Use jsbeautifier to enforce formatting, bump jslint version",2014-03-22,Merged,181,150,106,json ,6
+Extending selection to full lines and removing browser added formatting,2014-03-22,Closed,177,59,12,,1
+new option to support double return,2014-03-22,Merged,176,8,0,js ,1
+Don't show anchor preview for empty of # hrefs,2014-03-20,Merged,174,32,2,,1
+"Updated ""subscript"" toolbar button markup",2014-03-19,Merged,171,1,1,,1
+Add optional support for double return entered.,2014-03-20,Closed,169,17,3,,1
+No compass,2014-03-16,Merged,168,"1,005",171,md css ,2
+Add indent and outdent extra buttons,2014-03-13,Merged,166,23,9,html js ,2
+Allow initialisation with a single DOM node,2014-03-11,Merged,163,3,0,,1
+Fix anchor preview positioning (#159),2014-03-07,Merged,160,13,7,,1
+"Configuration for anchor preview delays, and placeholder fix",2014-03-06,Merged,157,67,21,js ,1
+Update to version 1.6,2014-03-05,Closed,156,30,99,js json ,5
+Check for e.defaultPrevented on 'paste',2014-03-05,Merged,155,3,3,,1
+fix for editing anchor after previewing,2014-02-28,Merged,154,56,4,,5
+Deactivated Medium Editor doesn't stop listening on paste events,2014-02-27,Merged,153,20,20,,1
+add a preview on hover to anchor tags,2014-02-25,Merged,152,446,16,,4
+Remove bindElementToolbarEvents(),2014-02-20,Merged,148,0,10,,1
+DRY / Base theme,2014-02-14,Merged,147,256,539,json css scss ,8
+DOC: Add section Capturing DOM changes in README,2014-02-12,Merged,144,14,0,,0
+Fixed filenames for main in bower.json,2014-02-09,Merged,141,2,2,,1
+Update medium-editor.scss,2014-01-22,Merged,133,1,0,,1
+Let’s you highlight some text and create the accompanying img tag,2014-01-21,Merged,131,11,1,,1
+Close i tag in buttonLabels,2014-01-14,Merged,128,3,3,,1
+Simple dist file update for clean grunt run,2013-12-26,Merged,120,1,1,,0
+Subscript closing tag typo.,2013-12-13,Merged,117,3,3,,1
+Added strikethrough support,2013-12-13,Merged,116,4,1,js ,1
+"disableReturn flag also disables return when holding shift, or alt",2013-12-10,Merged,115,1,1,,1
+Ability to set custom labels on buttons,2013-12-18,Merged,112,166,34,html css js ,3
+checkSelection shouldn't be passed an event argument,2013-12-08,Merged,110,4,4,,1
+bindSelect timeout var never being assigned,2013-12-08,Merged,109,1,1,,1
+Update docs to have correct diffTop default (-10),2013-12-08,Merged,108,1,1,,0
+Fixes removing placeholder after paste,2013-12-04,Merged,106,3,3,,1
+Added Highlight Feature,2013-12-18,Closed,105,30,1,js ,1
+Fugbix typos.,2013-12-03,Merged,104,2,2,,0
+Prevent CSS conflicts,2013-12-03,Merged,102,8,2,,0
+Code editing,2013-11-28,Closed,100,58,9,css html js scss ,7
+"@bamdadd, @OnesAndTwos : Returning the object when forcePlainText is set...",2013-11-28,Merged,99,3,3,,1
+Fix module syntax for CommonJS/Browserify,2013-11-27,Merged,98,4,4,,1
+"Add targetBlank option to allow created links to have target=""_blank"" set by default",2013-11-27,Merged,97,21,5,js ,4
+Feature/stringify,2013-11-27,Merged,94,94,9,js ,2
+Fix Toolbar binding button issue in multi-editor mode,2013-11-19,Merged,93,21,13,,1
+Feature/multieditor: Enable Multi Editor in the same (or many) instance.,2013-11-18,Merged,90,146,88,html js ,3
+Fix Problem with text selection ending outside the container div,2013-11-18,Closed,89,3,3,,1
+Fixes selection and disable toolbar behaviors,2013-11-18,Merged,86,93,21,,1
+fix data-disable-return not preventing paragraph creation,2013-11-13,Merged,85,3,3,,1
+Add a discreet gradient opacity on the toolbar for a best UX.,2013-11-08,Merged,82,16,3,html ,2
+waffle.io Badge,2013-11-07,Closed,80,1,0,,0
+Toolbar is moving when selection is changed.,2013-11-07,Merged,79,159,75,html js ,5
+Fix: prevent a way to open toolbar on a disabled toolbar editor,2013-11-07,Merged,78,6,3,,1
+Cool pop-upwards animation on active toolbar.,2013-11-06,Merged,76,149,5,css js ,3
+Add new option allowMultiParagraphSelection,2013-11-06,Merged,75,123,5,html js ,6
+new option: textOnly,2013-11-06,Closed,74,35,11,js ,4
+Prevent toolbar toggle when checkSelection() with `disableToolbar` option enabled,2013-11-06,Merged,73,22,3,,1
+Prevent toolbar toggle (on checkSelection) when toolbar is disabled,2013-11-05,Closed,72,3,3,,1
+Fixed issue on deactivation without enabled toolbar,2013-10-30,Merged,68,4,1,,1
+Enable custom buttons,2013-11-27,Closed,67,104,29,,1
+Typo README.md,2013-10-25,Merged,63,1,1,,0
+superscript and subscript buttons,2013-10-24,Merged,62,18,5,,1
+Add a Bitdeli Badge to README,2013-10-24,Merged,61,4,0,,0
+enable basic button set customization,2013-10-23,Merged,60,33,39,js ,3
+Added list support. Resolves #38,2013-10-24,Merged,59,7,1,,1
+"Changing ""Underline"" button to display ""U"" instead of ""S""",2013-10-13,Merged,58,3,3,,1
+"Export medium editor function, complete package.json",2013-10-08,Merged,56,11,2,js ,2
+Wrap pasted text in p elements,2013-10-08,Merged,55,15,3,,1
+Fixes toolbar positioning on edges,2013-10-03,Merged,46,11,2,,1
+Added feature updates and tests #41,2013-10-03,Merged,43,124,79,,3
+Fixes problem with toolbar position when selection is at the top of the screen,2013-09-30,Merged,37,36,16,scss ,2
+Fixed a typo,2013-09-26,Merged,35,2,2,,1
+"Don't rely on :last-child to style first/last element, as they may be hidden",2013-09-24,Merged,32,25,14,js scss ,3
+Fixes issue with initial positioning when some actions are disabled,2013-09-24,Merged,31,2,2,,1
+Allow optionally pass raw htmlelement,2013-09-23,Merged,28,3,3,,1
+fix link in readme.md,2013-09-20,Merged,22,1,1,,0
+Use public domain text in demo.,2013-09-20,Merged,21,4,6,,1
+Fix <shift+enter>,2013-09-20,Merged,18,1,1,,1
+waffle.io Badge,2013-07-11,Merged,8,1,0,,0

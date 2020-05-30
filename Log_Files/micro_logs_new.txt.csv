@@ -1,0 +1,264 @@
+Move Canary Note,2019-12-31,Merged,424,3,3,,0
+Add ZEIT Now Disclaimer,2019-11-29,Merged,421,2,0,,0
+Update README.md,2019-09-16,Merged,416,4,0,,0
+Remove usage of now from socket.io examples,2019-09-08,Closed,413,1,13,,0
+Bump `raw-body` version,2019-07-22,Merged,411,42,36,lock ,2
+Bump `raw-body` version,2019-07-22,Merged,410,52,31,lock ,2
+"Revert ""Bump `raw-body` version (#408)""",2019-07-22,Merged,409,36,42,lock ,2
+Bump `raw-body` version,2019-07-22,Merged,408,42,36,lock ,2
+Boot up http server in cli,2019-07-01,Merged,406,2,2,js ,2
+Add .d.ts for TypeScript compatibility,2019-05-13,Merged,401,18,1,json ,2
+Automatic publishing,2019-05-12,Merged,400,"4,119","1,126",Dockerfile ,2
+Add new programmatic usage,2019-05-11,Merged,399,18,10,js ,4
+Bring in is-stream,2019-05-02,Merged,397,47,3,json lock ,4
+Decrease install size,2019-05-02,Merged,396,33,65,md json lock ,5
+Decrease install size,2019-05-02,Merged,395,33,65,md json lock ,5
+Automatically set Content-Length 0 if 204 status,2019-05-08,Closed,389,4,0,,1
+Automatically set Content-Length 0 if 204 status,2019-02-25,Closed,387,15,0,,2
+Fix #369 - New Response Type,2019-07-22,Closed,383,"3,986","3,779",json gitignore Dockerfile md js ,7
+Typescript migration,2018-12-27,Closed,382,297,194,js json ts ,7
+remove unused argument for sendError,2018-12-12,Closed,381,5,5,js ,2
+convert getURL fn to more ergonomic one liner,2018-12-12,Merged,375,1,5,,1
+chore(examples/with-https): using destructuring,2018-09-14,Merged,372,2,6,,1
+Updated link to Spectrum,2018-08-09,Merged,370,1,1,→ LICENSE md ,1
+Listen to process.env.PORT || 3000,2018-12-12,Closed,367,1,1,,1
+Update dependencies to enable Greenkeeper 🌴,2018-05-29,Closed,365,25,10,md ,3
+Add badge to display install size,2018-05-29,Merged,362,1,0,,0
+errors: fix invalid socket title,2018-05-15,Merged,361,1,1,,0
+Added hint about the port to example,2018-05-15,Merged,358,1,1,,1
+Allow listening on multiple endpoints,2018-04-24,Merged,356,260,95,json ,4
+Move to CircleCI,2018-04-24,Merged,355,19,32,dockerignore Dockerfile json md lock ,6
+Added our linting setup,2018-04-24,Merged,354,"1,195","1,790",gitignore js ,6
+Add support for `--unix-socket`,2018-04-23,Merged,353,170,19,md lock ,2
+Remove unnecessary async/await from readme,2018-04-16,Closed,351,2,2,,0
+Avoid printing errors in test,2018-12-03,Closed,349,7,0,,1
+Update readme wording,2018-04-03,Merged,348,1,1,,0
+Splat listen() args to only specify host when supplied,2018-03-10,Merged,347,6,2,,1
+Create handler test file and test promise cases,2018-03-28,Merged,346,69,0,js ,6
+Create snapshot test for CLI help,2018-03-28,Merged,345,29,0,md snap ,2
+Remove unused var from with-graphql example,2018-02-14,Merged,342,1,1,,1
+Lint Socket.IO Example,2018-02-14,Merged,341,23,26,json ,2
+Create README file for https example,2018-02-14,Merged,340,27,0,,0
+[WIP] feat: support es6 module default export,2018-01-19,Merged,336,1,1,,1
+Make it possible to export a promise that will eventually be a function,2018-01-08,Merged,335,"4,422",17,,2
+Tim is at ZEIT!,2017-12-17,Merged,332,1,1,,0
+Update index.js,2017-12-02,Merged,330,1,1,,1
+Replace exponential operator with Math.pow as it causes errors,2017-11-20,Merged,328,1,1,,1
+detect error parameter instance type and console accordingly,2017-11-20,Merged,327,30,7,,2
+just testing,2017-11-10,Closed,324,1,0,,0
+Use `Number.isNaN` instead of `global.isNaN`,2017-11-03,Merged,322,4,3,,1
+Add port type and range validation to micro.,2017-11-02,Merged,320,23,1,md ,1
+Replace media-typer module with content-type,2017-10-20,Merged,316,3,3,json ,2
+Remove console logging error stacks,2017-11-20,Closed,315,0,35,,2
+ci: `.yml` file should be written in proper `.yml` syntax,2017-09-24,Closed,313,5,7,,1
+Don't recommend installing async-to-gen globally,2017-09-13,Merged,311,1,1,,0
+Bumped dependencies to the latest version,2017-09-12,Merged,310,369,263,,0
+Simplified `sendError` method,2017-09-07,Merged,307,2,7,,1
+HTTP `error` should be `status` code in `readme.md`,2017-08-26,Merged,303,1,1,,0
+Set encoding to utf-8 for JSON response,2017-09-12,Merged,302,10,1,,2
+Added support for abstract streams,2017-08-31,Merged,299,62,61,json ,3
+"Show hint, if error is about async on older Node.JS",2017-08-17,Merged,298,7,16,,1
+Fix-up example in `body parsing` section,2017-08-17,Merged,297,2,1,,0
+Close HTTP service in testing section safely,2017-08-08,Merged,293,1,0,,0
+Simplify bin flags,2017-08-01,Merged,291,5,3,,1
+Add graphql-request example,2017-08-01,Merged,288,63,0,js json ,2
+Minimize the core,2017-08-01,Merged,286,"9,043",515,js md ,5
+Drain current requests before exit,2017-07-21,Closed,284,1,2,,1
+Parse `PORT` environment variable as number,2017-07-05,Merged,277,1,1,,1
+Uppercase M for Micro,2017-06-26,Merged,274,6,6,,0
+Update nyc to the latest version 🚀,2017-06-02,Merged,270,1,1,,1
+Fix markdown header,2017-06-02,Merged,269,1,1,,0
+Update lint-staged to the latest version 🚀,2017-05-29,Merged,268,1,1,,1
+Update lint-staged to the latest version 🚀,2017-05-25,Merged,266,1,1,,1
+Update args to the latest version 🚀,2017-05-24,Merged,265,1,1,,1
+Added HTTPS example,2017-07-19,Merged,264,34,0,json ,2
+Add Related section,2017-05-19,Closed,263,4,0,,0
+Update lint-staged to the latest version 🚀,2017-05-17,Merged,261,1,1,,1
+Smaller bundle size,2017-07-19,Closed,260,60,119,json ,4
+Update clipboardy to the latest version 🚀,2017-05-13,Merged,259,1,1,,1
+Update args to the latest version 🚀,2017-05-12,Merged,258,1,1,,1
+Update args to the latest version 🚀,2017-05-09,Merged,257,1,1,,1
+Update request-promise to the latest version 🚀,2017-05-08,Merged,254,1,1,,1
+🐛 Export `micro` default,2017-05-06,Merged,253,1,0,,1
+Update nyc to the latest version 🚀,2017-05-06,Merged,252,1,1,,1
+Update boxen to the latest version 🚀,2017-05-06,Closed,251,1,1,,1
+Update prettier to the latest version 🚀,2017-05-06,Merged,249,1,1,,1
+Update prettier to the latest version 🚀,2017-05-02,Merged,247,1,1,,1
+Update async-to-gen to the latest version 🚀,2017-05-01,Merged,246,1,1,,1
+Update nyc to the latest version 🚀,2017-04-29,Merged,245,1,1,,1
+Update lint-staged to the latest version 🚀,2017-04-28,Merged,244,1,1,,1
+Update coveralls to the latest version 🚀,2017-04-28,Merged,243,1,1,,1
+Update args to the latest version 🚀,2017-04-25,Merged,242,1,1,,1
+Typedefinitions for the use with typescript,2017-04-25,Closed,241,22,1,json ,2
+Update clipboardy to the latest version 🚀,2017-04-24,Merged,240,1,1,,1
+Update prettier to the latest version 🚀,2017-04-19,Merged,238,1,1,,1
+Update prettier to the latest version 🚀,2017-04-19,Merged,237,1,1,,1
+Update prettier to the latest version 🚀,2017-04-14,Merged,233,1,1,,1
+Update prettier to the latest version 🚀,2017-04-13,Closed,232,1,1,,1
+Update args to the latest version 🚀,2017-04-13,Merged,231,1,1,,1
+Update test-listen to the latest version 🚀,2017-04-12,Merged,230,1,1,,1
+Update args to the latest version 🚀,2017-04-12,Merged,229,1,1,,1
+Fix server.listen error handling,2017-04-11,Merged,228,6,6,,1
+"Fix failed ""limit included in error"" test",2017-04-11,Merged,227,12,1,,1
+Replace detect-port with get-port,2017-04-11,Merged,226,3,3,json ,2
++ https://github.com/amio/awesome-micro,2017-04-11,Closed,223,4,0,,0
+Update eslint-config-prettier to the latest version 🚀,2017-04-11,Merged,222,1,1,,1
+Update ava to the latest version 🚀,2017-04-11,Closed,221,1,1,,1
+Update clipboardy to the latest version 🚀,2017-04-03,Merged,220,1,1,,1
+Reduce package size by 1MB,2017-05-14,Closed,219,398,476,json ,4
+Added chat-app example,2017-04-11,Merged,218,125,0,html js json ,4
+Update coveralls to the latest version 🚀,2017-03-30,Merged,217,1,1,,1
+Update args to the latest version 🚀,2017-03-29,Merged,215,1,1,,1
+Fix initial example and commas in readme,2017-03-29,Merged,214,1,1,,0
+Update nyc to the latest version 🚀,2017-03-29,Merged,211,1,1,,1
+Added `.buffer` and `.text` helpers,2017-03-27,Merged,210,301,43,md ,2
+Added `.buffer` and `.text` helpers,2017-03-27,Closed,209,71,21,md ,2
+Use text/plain as default content-type in .json,2017-03-27,Merged,208,14,1,,2
+Update xo to the latest version 🚀,2017-03-26,Merged,206,1,1,,1
+Update args to the latest version 🚀,2017-03-26,Merged,205,1,1,,1
+Test res.end is working without returned value,2017-03-25,Merged,204,13,1,,2
+Support handling query strings,2017-03-27,Closed,203,293,20,md ,2
+Update husky to the latest version 🚀,2017-03-25,Merged,202,2,2,,1
+Improve initial example in readme,2017-03-23,Merged,201,8,2,,0
+Port should be returned as number,2017-03-21,Merged,200,0,1,,1
+Fix content-type erasing on json and 💯 branch coverage,2017-03-21,Merged,199,142,2,,5
+Fix linting errors,2017-03-20,Merged,198,8,7,,2
+Update clipboardy to the latest version 🚀,2017-03-20,Merged,197,1,1,,1
+Update xo to the latest version 🚀,2017-03-18,Merged,195,1,1,,1
+Update detect-port to the latest version 🚀,2017-03-17,Merged,194,1,1,,1
+Update clipboardy to the latest version 🚀,2017-03-17,Merged,193,1,1,,1
+Update request-promise to the latest version 🚀,2017-03-16,Merged,192,1,1,,1
+💯 test coverage,2017-03-16,Merged,190,96,7,,3
+Support HEAD method,2017-03-19,Closed,189,54,2,,2
+Throwing in sync function should work,2017-03-16,Merged,188,17,3,,2
+Add coveralls.io badge,2017-03-16,Merged,187,5,0,json md ,2
+Add coverage results to gitignore,2017-03-16,Merged,186,4,0,,1
+😶 Silent mode,2017-03-14,Merged,185,4,3,,3
+Fix for #164 – status should not be ignored,2017-03-14,Merged,183,19,2,,2
+Add code coverage,2017-03-14,Merged,181,2,1,,1
+Undefined from fn should not hang request,2017-03-15,Merged,180,12,6,,2
+Null value from fn should cause one res.end call,2017-03-15,Merged,179,21,0,,2
+Simplify returnJSON function,2017-03-14,Merged,178,8,11,,1
+Remove redundant async/await in server.listen,2017-03-14,Merged,177,2,2,,1
+Update clipboardy to the latest version 🚀,2017-03-13,Merged,176,1,1,,1
+Update husky to the latest version 🚀,2017-03-13,Merged,175,1,1,,1
+Use clipboardy,2017-03-11,Merged,173,2,2,json ,2
+Export async function lib/index.js,2017-03-11,Merged,172,18,19,,1
+Allow numbers as responses.,2017-03-11,Merged,171,29,1,,2
+Update request to the latest version 🚀,2017-03-11,Merged,169,1,1,,1
+Convert port to number,2017-03-09,Merged,168,1,1,,1
+Update request to the latest version 🚀,2017-03-06,Merged,167,1,1,,1
+Update ip to the latest version 🚀,2017-03-04,Merged,166,1,1,,1
+Update husky to the latest version 🚀,2017-03-02,Merged,165,1,1,,1
+Add `status` fallback to error handling,2017-03-06,Merged,164,2,2,,1
+Remove bluebird.coroutine,2017-03-06,Merged,163,16,21,json ,2
+lazy load async-to-gen/register,2017-02-22,Merged,162,1,1,,1
+Update ava to the latest version 🚀,2017-02-18,Merged,161,1,1,,1
+Update update-notifier to the latest version 🚀,2017-02-18,Merged,160,1,1,,1
+Fix transpilation on Windows platform,2017-03-06,Closed,159,3,1,,1
+Fix transpilation on Windows platform,2017-02-14,Closed,158,3,1,,1
+Update update-notifier to the latest version 🚀,2017-02-13,Merged,157,1,1,,1
+[WIP] Convert to Bluebird,2017-02-23,Closed,154,248,186,json ,11
+Use bluebird instead of Q,2017-02-11,Merged,153,"3,613",5,json ,2
+Include whole entrypoint directory to be compiled,2017-02-11,Merged,152,2,1,,1
+Update args to the latest version 🚀,2017-02-10,Merged,151,1,1,,1
+Include lib and bin into async-to-gen compilation,2017-02-10,Closed,150,1,1,,1
+Allow async-to-gen register to be loaded more than once,2017-02-10,Closed,149,8,5,,2
+Fixed typo in README.md,2017-02-06,Merged,147,1,1,,0
+Remove unused xo rules,2017-02-05,Merged,146,12,18,json ,4
+Use test-listen to get the listening url,2017-02-05,Merged,144,69,76,js ,2
+Flatten send(),2017-02-05,Merged,143,42,39,,1
+Move getModule into it's own file,2017-02-05,Merged,142,25,25,json ,3
+Log error stack only in development,2017-02-04,Closed,141,1,1,,1
+Update ava to the latest version 🚀,2017-02-03,Merged,140,1,1,,1
+Describe about how to use native async/await on Node v7.x,2017-02-01,Merged,137,6,0,,0
+Return 204 No Content if value is null,2017-02-04,Closed,136,6,2,,1
+Remove greenkeeper email option,2017-01-30,Merged,135,0,3,,1
+Update async-to-gen to the latest version 🚀,2017-01-26,Merged,133,1,1,,1
+Added husky,2017-01-30,Merged,132,28,9,lock ,2
+Fix test example,2017-01-23,Merged,131,8,7,,0
+Add Greenkeeper badge 🌴,2017-01-23,Closed,130,2,0,,0
+Allow ``json`` to be called multiple times,2017-01-25,Merged,129,11,1,js ,1
+Add sourcemap support,2017-01-15,Merged,125,3,1,,1
+Don't log errors when testing,2017-01-09,Merged,124,4,1,,1
+Fallback to port 3000 when -p is empty,2017-01-08,Closed,123,7,1,,1
+Add full args to help,2017-01-06,Merged,122,3,3,,1
+support PORT environment variable,2017-01-06,Closed,120,7,1,bin/micro ,1
+Add method to parse plain text from request body,2017-03-11,Closed,118,101,8,js ,2
+Update raw-body to version 2.2.0 🚀,2017-01-03,Merged,117,1,1,,1
+Proposal: Add 'text' method for body parsing,2016-12-27,Closed,116,12,8,,1
+[WIP] Rewrite docs to include examples,2017-02-04,Merged,115,309,132,js json ,7
+Check if async is available before loading async-to-gen,2016-12-24,Merged,114,"3,673",4,bin/micro json ,2
+"Added didBoot(port, host)",2016-12-24,Closed,113,6,2,,1
+Update async-to-gen to version 1.3.0 🚀,2016-12-09,Merged,112,1,1,,1
+Update async-to-gen to version 1.2.0 🚀,2016-11-29,Merged,111,1,1,,1
+Update async-to-gen to version 1.1.5 🚀,2016-11-29,Closed,110,1,1,,1
+Update ava to version 0.17.0 🚀,2016-11-29,Merged,109,1,1,,1
+Fix README.md code examples 🔥,2016-10-26,Merged,108,2,2,,0
+Fix `built-in error handling` links,2016-11-29,Merged,107,2,2,,0
+Update xo to version 0.17.0 🚀,2016-10-11,Merged,106,1,1,,1
+Enable to set statusCode when returning value,2016-11-29,Merged,105,2,2,,1
+Visualises requests when in development.,2017-01-08,Closed,104,243,11,bin/micro js json ,4
+Deprecates `onError` and removes references from README.,2016-10-09,Merged,103,8,22,bin/micro js ,2
+Update async-to-gen to version 1.1.4 🚀,2016-10-07,Merged,101,1,1,,1
+Remove duplicated async-to-gen,2016-10-01,Merged,100,0,1,,1
+Allows micro cli to use custom onError.,2016-10-07,Merged,99,7,1,,1
+Update async-to-gen to version 1.1.3 🚀,2016-09-16,Merged,97,1,1,,1
+Update async-to-gen to version 1.1.2 🚀,2016-09-16,Merged,96,1,1,,1
+Update async-to-gen to version 1.1.1 🚀,2016-09-15,Merged,95,1,1,,1
+Update async-to-gen to version 1.1.1 🚀,2016-09-15,Closed,94,1,1,,1
+Update async-to-gen to version 1.1.0 🚀,2016-09-09,Merged,92,1,1,,1
+Update async-to-gen to version 1.0.6 🚀,2016-09-07,Merged,91,1,1,,1
+"Check for undefined values in return, too",2016-09-03,Merged,87,1,1,,1
+Allow custom Content-Type for Buffer/Stream returned from fn.,2016-09-02,Merged,86,8,2,,1
+README: sendError doc refers to send instead of sendError,2016-08-26,Merged,85,1,1,,0
+Update async-to-gen to version 1.0.5 🚀,2016-08-14,Merged,80,1,1,,1
+Update async-to-gen to version 1.0.4 🚀,2016-08-14,Closed,79,1,1,,1
+Bump async-to-gen to v1.0.3,2016-08-13,Merged,78,1,1,,1
+Update async-to-gen to version 1.0.3 🚀,2016-08-13,Merged,77,1,1,,1
+Fix dead link in README,2016-08-11,Merged,76,1,1,,0
+Update ava to version 0.16.0 🚀,2016-08-08,Merged,75,1,1,,1
+Update babel-preset-es2015 to version 6.13.2 🚀,2016-08-06,Merged,72,1,1,,1
+Add docs for `createError`,2016-08-05,Merged,71,17,0,,0
+Update babel-preset-es2015 to version 6.13.1 🚀,2016-08-05,Merged,70,1,1,,1
+Update babel-preset-es2015 to version 6.13.0 🚀,2016-08-05,Closed,69,1,1,,1
+Update eslint to version 3.2.2 🚀,2016-08-05,Merged,68,1,1,,1
+Update eslint to version 3.2.1 🚀,2016-08-05,Closed,67,1,1,,1
+Update request-promise to version 4.1.0 🚀,2016-07-31,Merged,66,1,1,,1
+Update eslint to version 3.2.0 🚀,2016-07-29,Merged,65,1,1,,1
+Update babel-plugin-transform-runtime to version 6.12.0 🚀,2016-07-27,Merged,63,1,1,,1
+Update all dependencies 🌴,2016-07-27,Merged,62,14,14,,1
+feat: include test directory for linting,2016-06-29,Merged,60,1,1,,1
+improve error handling on cli,2016-06-26,Merged,59,11,2,,1
+Use -H for host flag,2016-06-17,Merged,57,3,3,bin/micro ,1
+Document improvements (and reverting a package.json dependency move),2016-06-14,Merged,54,16,11,json ,1
+Transition from deprecated assertion methods,2016-06-12,Merged,53,24,24,,1
+Use `main` as entry point for application if file isn't passed as argument,2016-06-12,Merged,52,15,2,json ,2
+fixing issues preventing `micro` cli to work properly,2016-06-10,Merged,51,1,3,json ,2
+Add prepublish command to npm scripts,2016-06-09,Merged,49,1,0,,1
+Add buffer and stream support to `send`,2016-06-07,Merged,46,72,3,json js ,2
+Host arg,2016-06-06,Merged,44,15,2,bin/micro ,1
+Remove unneeded plugin from package.json,2016-06-04,Merged,42,0,1,,1
+Remove unneeded plugin from readme,2016-06-04,Merged,41,0,2,,0
+Added travis ci support for node 5 and 6,2016-06-03,Merged,39,2,0,,1
+Fix style for lint,2016-06-02,Merged,38,2,2,,1
+update micro-core and add tests for return,2016-05-19,Merged,35,85,1,json js ,2
+Switch to args and clean up,2016-06-09,Merged,34,48,93,yml md bin/micro js ,7
+License,2016-05-07,Merged,31,1,0,,1
+gulpfile: fix 0.12 tests - don't use arrow funcs,2016-05-06,Merged,30,3,1,,1
+Add main library to package.json,2016-05-06,Merged,29,1,0,,1
+fix a few typos in README,2016-05-06,Merged,27,8,8,,0
+Add watch functionality,2016-08-13,Closed,25,36,11,,0
+Use separate micro-serve module,2016-04-28,Merged,24,581,301,gitignore md ,2
+Make it asylum serve,2016-04-16,Closed,22,14,44,→ bin/asylum-serve json ,2
+Refer to zeit/test-listen instead of test/_listen,2016-04-28,Merged,21,1,1,,0
+Name of org has changed,2016-04-28,Closed,20,3,3,,1
+fix travis badge,2016-04-06,Closed,19,1,1,,0
+Add Github repo to package.json,2016-04-01,Merged,18,8,0,,1
+Optimize `JSON.stringify` performance in V8.,2016-02-28,Merged,14,9,1,,1
+Fixing code continuity error.,2016-02-01,Merged,7,1,2,,1
+Fix typo and minor corrections,2016-02-01,Merged,6,3,3,,0
+Add actual limit to 413 message,2016-01-30,Merged,4,1,1,,1
+Fix execution instructions,2016-01-31,Closed,3,1,1,,0
+Fix typo,2016-01-30,Merged,2,1,1,,0
+Pretty print JSON on development environments,2016-01-30,Merged,1,1,1,,1

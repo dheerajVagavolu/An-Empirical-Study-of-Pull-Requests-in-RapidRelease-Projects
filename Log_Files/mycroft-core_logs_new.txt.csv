@@ -1,0 +1,1590 @@
+Disable failing spanish datetime test,2020-01-13,Merged,2451,1,1,,1
+Add TTS tests,2020-01-13,Merged,2450,964,605,,12
+Add setting for padatious single_thread in mycroft.conf,2020-01-07,Merged,2448,9,5,py ,2
+Prepare for gTTS 2.1.0,2020-01-06,Merged,2447,1,1,,1
+Add self.root_dir to readthedocs documentation,2020-01-06,Merged,2446,3,0,,1
+Add test cases for the translate methods,2020-01-07,Merged,2443,76,0,list value template ,11
+Fix documentation mistake,2019-12-26,Merged,2441,1,1,,1
+The command to run unittests was wrong documented,2020-01-03,Merged,2440,1,1,,0
+Make venv-activate.sh compatible with sh and zsh,2020-01-03,Merged,2439,1,1,,1
+Bugfix/settings sync,2019-12-20,Merged,2433,27,3,,2
+clean up nice_duration handler,2019-12-18,Merged,2432,9,10,,1
+Switch to the messagebus client module,2019-12-16,Closed,2428,17,474,,4
+Fix typo in MycroftSkill documentation,2019-12-16,Merged,2427,1,1,,1
+Fix incorrect porcupine shutdown,2019-12-12,Merged,2424,2,2,,1
+Disregard DEBUG entry in CLI filter,2019-12-09,Merged,2421,3,2,,1
+Make sure hotword entry has phonemes and threshold,2019-12-09,Merged,2418,76,12,,2
+Workaround for gui connection,2019-12-07,Merged,2416,12,0,,1
+Fix --clean option of dev_setup.sh,2019-12-06,Merged,2414,1,1,,1
+"Fix extractnumber_en failure on ""%"" (#2110)",2019-12-07,Merged,2413,2,1,,2
+use default python version on redhat,2019-12-07,Merged,2412,1,1,,1
+Fallback to 'en-us' when resource fails,2019-12-05,Merged,2411,15,2,,1
+Upgrade msk to 0.3.14,2019-12-05,Merged,2410,1,1,,0
+Restore Ctrl+C exit of simple CLI,2019-12-03,Merged,2409,5,5,,2
+readd fedora installation,2019-11-30,Merged,2406,5,0,,1
+improve test runtime,2019-12-02,Merged,2405,7,9,,1
+Remove cryptography dependency,2019-12-04,Merged,2404,0,1,,0
+Fixing dev_setup.sh for Arch Linux,2019-12-05,Merged,2403,2,1,,1
+improve runtime,2019-11-29,Merged,2402,25,38,,1
+Add --clean option to dev_setup.sh,2019-12-03,Merged,2401,34,0,,1
+Fix broken test case on Python 3.8,2019-12-05,Merged,2400,13,5,py ,2
+Upgrade readthedocs build,2019-12-16,Merged,2399,21,4,py txt ,2
+Dina al bassam patch 1,2019-11-27,Closed,2398,"2,631",132,mycroft/client/speech/recognizer/model/ar-sa/hmm/README params mycroft/client/speech/recognizer/model/ar-sa/hmm/mdef mycroft/client/speech/recognizer/model/ar-sa/hmm/means mycroft/client/speech/recognizer/model/ar-sa/hmm/noisedict mycroft/client/speech/recognizer/model/ar-sa/hmm/sendump mycroft/client/speech/recognizer/model/ar-sa/hmm/transition_matrices mycroft/client/speech/recognizer/model/ar-sa/hmm/variances conf word dialog voc json txt ,42
+cleanup python2 unicode,2019-11-27,Merged,2396,246,283,,17
+Fix using of hotword structure for custom wakeword,2019-12-03,Merged,2395,11,8,,1
+Update adapt,2019-12-02,Merged,2394,1,1,,0
+Feature/geolocation api,2019-11-26,Merged,2393,34,9,,4
+Issue 2120 - Fallback to 'en-us' when resource loading fails,2019-12-05,Closed,2392,37,3,,2
+Upgrade requirements to eliminate Pytest warnings,2019-11-20,Merged,2391,2,2,,0
+Cleanup of package install section of dev_setup,2019-11-21,Merged,2390,60,30,,1
+Bugfix/audioservice mimetypes,2019-11-19,Merged,2389,9,0,,1
+Adding pulseaudio dependencies,2019-11-19,Merged,2388,2,2,,1
+add some more time idioms,2019-11-27,Merged,2386,114,99,,3
+Adds rudimentary Dutch parsing support,2019-11-15,Merged,2385,"1,925",6,,1
+Master,2019-11-13,Closed,2384,"1,925",6,,1
+Drop Python 3.4 support,2019-11-07,Merged,2381,2,7,txt ,1
+Bump pillow from 4.1.1 to 6.2.0,2019-11-04,Closed,2379,1,1,,0
+Use specific date in the past during the test,2019-11-01,Merged,2378,1,1,,1
+frames to read must be greater than 0,2019-11-01,Merged,2377,1,1,,1
+Fix Shutdown of removed skills,2019-11-07,Merged,2376,12,11,,1
+Fix reference leak when using bus.remove_all_listeners,2019-11-07,Merged,2375,51,2,,5
+Fallback to Mimic if launch of TTS fails,2019-10-29,Merged,2374,15,3,,1
+add *.log into gitignore,2019-10-29,Closed,2373,1,0,,1
+Speech client error handling,2019-10-31,Merged,2372,45,9,,3
+Speed up the send command,2019-10-29,Merged,2371,53,32,,3
+Stabilize skill settings download,2019-12-18,Merged,2370,108,37,txt ,4
+Feature/restart mic,2019-10-20,Merged,2368,48,5,,2
+"Added ""found_wakeword"" event to message bus",2019-11-11,Merged,2367,9,8,,2
+Send listen flag for special picroft case as well,2019-10-18,Merged,2366,1,1,,1
+Lock mic mute unmute,2019-10-20,Merged,2365,34,31,,1
+"BUGFIX parsing of ""this quarter of an hour""",2019-11-04,Merged,2364,0,2,,1
+Bug/listen arg,2019-10-10,Merged,2361,6,6,,3
+Bug/audio end missing arg,2019-10-10,Merged,2360,2,2,,1
+Make skill's logging visible in tester,2019-10-10,Merged,2359,6,0,,1
+make os_is_like handle multiple values,2019-10-21,Merged,2358,1,1,,1
+fix bug in isFractional_es and improve coverage,2019-10-14,Merged,2356,144,13,,2
+[WIP] Add test for CommonPlaySkill,2019-11-26,Closed,2355,45,0,,1
+Add missing __delitem__ method,2019-10-07,Merged,2354,10,0,,2
+Remove event before running event handler,2019-10-07,Merged,2353,1,1,,1
+Fixed some readme errors for #hacktoberfest,2019-10-11,Merged,2352,2,2,,0
+Send listen on last sentence of utterance,2019-10-08,Merged,2351,47,26,,2
+Mycroft AI,2019-10-10,Closed,2349,923,268,yml sh py ,5
+"Fix extractnumber_es, add extract_numbers_es",2019-10-04,Merged,2347,40,4,,3
+"fix bug, redundancy in parse_en; improve coverage",2019-10-07,Merged,2346,74,14,,2
+Feature/mic listen direct,2019-10-03,Merged,2345,79,67,,4
+Add support for KDE Neon,2019-11-20,Closed,2344,1,1,,1
+add default value to nice_number param,2019-10-04,Merged,2342,40,12,,12
+Fix clearing of once events,2019-10-01,Merged,2338,6,2,,2
+Remove duplicate load of skill settings,2019-10-03,Merged,2336,3,4,,1
+Fixes index error in parse_en.extract_datetime(),2019-09-30,Merged,2335,3,1,,2
+gitignore vscode workspace and html coverage data,2019-09-30,Merged,2334,2,0,,1
+Exception logging for AudioProducer,2019-09-30,Merged,2331,11,6,,1
+Nice duration fix,2019-10-02,Merged,2330,480,74,,0
+Remove ntp sync reboot,2019-09-25,Merged,2326,10,46,,1
+Fix TestSettings,2019-09-27,Merged,2325,4,4,,1
+Replace custom logger with logger instance,2019-12-12,Closed,2324,68,125,,5
+Catch inspect error in logger,2019-09-25,Merged,2323,17,12,,1
+Update version number in preparation for 19.08,2019-09-23,Merged,2321,2,2,,1
+Bugfixes/skills manifest,2019-09-20,Merged,2320,32,14,,6
+Stop settingmeta upload on skill shutdown,2019-09-19,Merged,2319,12,1,,2
+add 'affirmative' to yes vocab,2019-09-19,Merged,2318,1,0,,1
+Add muted state to mic_level for mic watchdog,2019-09-25,Merged,2317,15,10,,2
+Add a safety harness in skill_manager main loop,2019-09-18,Merged,2316,11,5,,1
+Fix 404 when first retreiving skill settings,2019-09-23,Closed,2315,27,6,,2
+Restructure to get skill_gid after startup,2019-09-18,Merged,2314,18,15,,3
+Apply skill uuid directly after reload from disk,2019-09-18,Merged,2313,17,12,,1
+settingsMeta API call to be issued without a device ID in the URL.,2019-09-18,Merged,2312,38,15,,2
+Catch all exceptions from upload device info,2019-09-17,Merged,2311,1,2,,1
+Fix import of mplayer,2019-10-16,Closed,2309,2,1,txt ,1
+Handle HTTP errors when updating device attributes,2019-09-16,Merged,2306,2,1,,1
+fix issue with false internet connection test,2019-09-17,Merged,2305,52,26,,1
+Add status queries to the skill process,2019-09-14,Merged,2304,27,1,,2
+bugfix/adapt munging,2019-09-13,Merged,2303,3,3,,1
+feat/ask_selection,2019-10-17,Merged,2302,76,11,py ,2
+Fix Caching Bug,2019-09-11,Merged,2301,1,1,,1
+Catch exceptions when reloading skills,2019-09-18,Merged,2299,14,4,,2
+Cycle through dialog files to avoid repeating the same line,2019-09-26,Merged,2297,29,0,,1
+Don't kill global events when shutting down skill,2019-09-10,Merged,2296,1,1,,1
+Add Yandex STT support,2019-09-30,Merged,2292,70,2,py ,2
+Make messagebus service respect loglevel,2019-09-06,Merged,2291,5,2,,2
+Add mycroft-config tool to manage config files,2019-09-10,Merged,2290,244,0,,1
+Add Yandex TTS support,2019-09-30,Merged,2289,101,2,py ,3
+Add Yandex TTS support,2019-09-04,Closed,2288,94,1,,2
+Refactor/skill settings split,2019-09-17,Merged,2287,815,757,,2
+Bugfix/mycroft skill,2019-09-02,Merged,2286,37,4,,4
+Feature/remove deprecated 19.08,2019-09-02,Merged,2285,53,108,,14
+Update skill-tester for 19.08 and add basic support for wait_for_response,2019-09-02,Merged,2284,327,187,,2
+Replace config properties to simpler instances,2019-09-26,Merged,2283,5,14,,3
+Enable support for pulseaudio ducking,2019-09-02,Merged,2282,95,154,conf ,2
+fix MycroftSkill registered_intents instance attribute,2019-08-31,Merged,2281,32,8,,2
+Upgrade msm to 0.8.3,2019-08-30,Merged,2280,1,1,,0
+Fix typo when unreferencing skill after failed load,2019-08-30,Merged,2279,1,1,,1
+Switch msm branch to 19.08,2019-08-30,Merged,2278,1,1,,1
+Feature/log merger,2019-08-30,Merged,2277,289,8,,3
+Force install if IS_TRAVIS,2019-08-27,Merged,2275,1,1,,1
+Switch all mock imports to unittest.mock imports,2019-08-27,Merged,2274,145,146,py ,4
+Send recording message after playing recording sound,2019-08-26,Merged,2273,3,2,,1
+Fix stacktrace on use of deprecated config member,2019-08-24,Merged,2271,1,1,,1
+re-order the skill process startup,2019-10-31,Closed,2270,24,58,,1
+if libjack package conflict detected - require user to review package changes,2019-08-23,Merged,2268,18,31,,1
+Feature/better no confirm listening,2019-08-22,Merged,2267,37,13,,1
+Bugfix/ prevent uninstall of WINE and other programs,2019-08-22,Merged,2266,30,8,,1
+Changes to MSM logic to improve performance.,2019-08-23,Merged,2265,255,107,,4
+Feature/boot performance,2019-08-21,Closed,2264,530,324,,3
+Fix reload_allowed check,2019-08-22,Merged,2263,10,2,,2
+Fix missing param when setting up MaryTTS and how it validates a conn…,2019-09-26,Merged,2262,4,4,,1
+Fix issue where skills fail during initialize(),2019-08-21,Merged,2260,27,18,,1
+Fix TypeError for number values in settings,2019-08-17,Merged,2258,1,1,,1
+Allow dnf to be used as pkg manager for Fedora #2255,2019-08-22,Merged,2257,1,1,,1
+Refactor MycroftSkill,2019-08-30,Merged,2256,"1,072",543,,4
+Bugfix/delete settings meta,2019-08-11,Merged,2254,107,57,,2
+Replace $IS_TRAVIS with builtin $CI,2019-09-26,Merged,2252,6,6,sh ,3
+Upgrade from pycodestyle to flake8,2019-11-19,Merged,2251,93,87,py txt ,9
+Move pairing check to the relevant stt backends,2019-08-13,Merged,2248,25,8,,2
+Bugfix/download precise,2019-08-20,Merged,2245,60,22,,2
+"Use ==/!= to compare str, bytes, and int literals",2019-08-07,Merged,2242,1,1,,1
+Undefined name: Except --> Exception,2019-08-07,Merged,2241,1,1,,1
+Refactor skill manager,2019-08-20,Merged,2237,"1,564",618,,4
+Allow startup if update attempt occurs,2019-08-12,Merged,2236,13,15,,1
+Handle removing unregistered intents,2019-07-31,Merged,2235,8,2,,1
+Some swedish additions,2019-08-02,Merged,2234,869,3,py ,3
+Small cleanup of the event scheduler,2019-07-26,Merged,2233,48,45,,1
+Limit creation attempts of msm-lock,2019-07-24,Merged,2231,11,1,,1
+Bugfix/message bus build url,2019-07-24,Merged,2230,50,3,,2
+tts_hash to an actual hash,2019-07-23,Merged,2228,1,1,,1
+Remove time based forced quick update,2019-08-21,Closed,2224,1,9,,1
+Split mycroft.skills.core,2019-07-26,Merged,2221,"1,874","1,768",,6
+Refactor skill service,2019-07-26,Merged,2220,260,163,,6
+Update msm to v0.7.9,2019-07-23,Merged,2218,1,1,,0
+Move quick skill update to after internet check,2019-07-19,Merged,2217,10,10,,2
+Check for terminals ability to display colours,2019-07-19,Merged,2216,9,6,,1
+Mention Personal Backend project in the readme,2019-07-19,Closed,2215,2,0,,0
+Refactor message bus,2019-07-19,Merged,2213,367,286,,9
+Trigger settings update on pairing complete,2019-07-15,Merged,2211,18,4,,1
+support ubuntu & mint (debian like) OS,2019-08-02,Merged,2209,10,3,,1
+OSes that are like ubuntu shall also use apt,2019-07-14,Closed,2208,1,1,,1
+Quickfix: readthedocs build,2019-07-18,Merged,2206,2,1,,1
+Add mycroft_mark_2pi to platforms needing ntp sync,2019-07-12,Merged,2203,1,1,,1
+Explain the config system used for the log level.,2019-07-11,Merged,2201,35,1,conf py ,4
+Master,2019-07-09,Closed,2199,0,0,,0
+Only report STT timing if transcription exists,2019-07-10,Merged,2198,5,5,,1
+Skills process startup speedup,2019-07-10,Merged,2197,47,20,txt ,3
+Add skill_id to skill handler timing report,2019-07-09,Merged,2196,2,1,,1
+Debian packaging,2019-07-11,Closed,2193,316,29,sh debian/changelog debian/compat debian/control debian/copyright debian/files debian/install debian/postinst debian/preinst txt debian/rules debian/source/format debian/substvars ,15
+Fetch CLI log path from config if available,2019-07-11,Merged,2192,9,5,,1
+"Recognize ""confirm[ed]"" as a word for ""yes""",2019-07-12,Merged,2190,3,1,,1
+Fix parsing dates in utterances that include non-month 'may',2019-07-08,Merged,2187,20,0,,2
+Resting screen handler name fix,2019-07-04,Merged,2185,19,4,,2
+'next {day}' to be 3-9 days in future,2019-07-13,Merged,2184,18,8,,2
+Feature/better listener update,2019-07-02,Merged,2183,23,4,,2
+Remove 'update' field from skills data,2019-07-01,Merged,2182,5,1,,1
+Make is_paired fail early if no uuid in identity,2019-07-29,Merged,2180,66,18,,2
+Feature/docs format parse,2019-07-01,Merged,2178,68,36,py ,8
+Remove incorrect settings meta upload disable flag,2019-07-01,Merged,2177,13,15,,1
+Lock cryptography version to 2.6.1,2019-06-28,Merged,2176,1,0,,0
+German spelling: May => Mai,2019-06-27,Merged,2174,1,1,,1
+Fix debian detection,2019-06-26,Merged,2173,1,1,,1
+Correct skill GID's for skills not in the marketplace,2019-07-01,Merged,2172,1,1,,0
+Read .voc files as lowercase,2019-06-26,Merged,2171,15,8,,2
+Add gui related messages to list of hidden messages,2019-06-20,Merged,2170,2,1,,1
+Allow setting loglevel for speech / voice service,2019-06-21,Merged,2169,2,1,,1
+Update pychromecast to 3.2.2,2019-06-26,Merged,2168,6,2,txt ,1
+"[Debian] Replace Python 2 packages by their Python 3 counterparts and remove doubled ""automake""",2019-06-25,Merged,2167,1,1,,1
+Update dev_setup.sh to use and benefit from bash double square bracket syntax,2019-06-25,Merged,2166,111,114,,0
+Feature/better os detection,2019-06-21,Merged,2165,16,6,,1
+Bugfix/metaclass,2019-06-14,Merged,2163,11,28,,3
+Limit travis branch builds to dev and master,2019-06-17,Merged,2162,5,0,,1
+Feature: Google Streaming STT,2019-06-14,Merged,2160,135,33,,1
+Allow setting loglevel for speech / voice service,2019-06-11,Closed,2159,2,1,,1
+Add mycroft.util.time.to_system(),2019-06-11,Merged,2158,15,0,,1
+Remove unused subprocess module,2019-06-11,Merged,2157,0,1,,1
+Remove abstractmethod for MycroftSkill.stop(),2019-06-10,Merged,2156,0,2,,1
+Improvement/schedule fractional seconds,2019-06-10,Merged,2154,48,37,,2
+Skill manifest upload checks,2019-06-11,Merged,2152,39,4,,2
+Make sure CLI help section shows everything,2019-06-20,Merged,2151,10,5,,1
+CommonIoT/state,2019-06-20,Merged,2150,123,13,,1
+Feature/streamingstt,2019-06-11,Merged,2149,162,24,,4
+Fix usage of mtd before assignment,2019-06-05,Merged,2145,2,1,,1
+Upgrade Adapt to v 0.3.3,2019-05-30,Merged,2142,1,1,,0
+Restored ability to store wakewords locally,2019-05-31,Merged,2141,43,15,conf ,2
+Skill settings cleanup,2019-06-05,Merged,2140,60,64,,2
+Issue-1491 -- Added support for the Porcupine wakeword engine,2019-12-12,Merged,2139,75,1,,1
+Add System QML support for HTML displays,2019-05-31,Merged,2138,211,9,py ,5
+Update msk to 0.3.13,2019-05-24,Merged,2137,1,1,,0
+Feature/msm 0.7.6,2019-05-23,Merged,2136,6,3,txt ,1
+Fix #2129: permission group tests against user,2019-05-23,Merged,2135,1,1,,1
+Pass the device id as part of the refresh sequence,2019-05-22,Merged,2134,2,1,,1
+Use SafeLoader to load settingsmeta yaml,2019-05-27,Merged,2133,1,1,,1
+Don't create skill settings for Padatious Service,2019-05-23,Merged,2132,10,5,,2
+"Revert ""Support chopping old audio via precise upgrade""",2019-05-22,Merged,2131,3,5,txt ,1
+Fix copy/paste error in chmod command,2019-05-22,Merged,2130,1,1,,1
+add the missing url parameter,2019-05-20,Closed,2128,2,2,,1
+Remove additional space after initials,2019-05-17,Merged,2126,5,0,,1
+Feature/pycodestyle,2019-05-15,Merged,2125,28,24,sh py scripts/pre-commit txt ,17
+Support chopping old audio via precise upgrade,2019-05-16,Merged,2124,5,3,txt ,1
+Feature/System_QML,2019-05-16,Merged,2121,132,4,py ,3
+Fix typo in mycroft.conf,2019-05-13,Merged,2119,1,1,,1
+Add delay on failure to upload skillsettingsmeta,2019-05-08,Merged,2116,17,3,,1
+Feature/pre_loaded_cache,2019-05-13,Merged,2115,190,1,py ,3
+GUI updates,2019-05-31,Merged,2114,20,9,,2
+Allow settingsmeta to be a yaml file,2019-05-13,Merged,2113,38,19,txt ,1
+Catch the new system.gui.user.interaction,2019-05-06,Closed,2112,3,2,,1
+Speak sayto bash pipes,2019-05-13,Merged,2111,9,3,bin/mycroft-speak ,2
+Add support for values,2019-05-07,Merged,2109,75,4,,1
+Merge pull request #1 from MycroftAI/dev,2019-04-30,Closed,2108,0,0,,0
+feature/enable sending qml ui over network,2019-05-13,Merged,2106,10,1,,1
+Feature/skill gid,2019-05-22,Merged,2104,268,232,py ,3
+Fix table formatting for docs display,2019-04-20,Merged,2103,10,8,,1
+restore bus on_message,2019-04-17,Merged,2101,1,0,,1
+Restore get_response method after skill test is done,2019-04-17,Merged,2100,22,5,,1
+Add trigger action,2019-04-16,Merged,2099,1,0,,1
+Change default listener in config,2019-04-16,Merged,2098,5,3,py ,2
+Feature/common qa skill test,2019-05-13,Merged,2097,23,14,,1
+CommonIOT/acknowledge,2019-04-16,Merged,2096,60,6,conf mp3 ,6
+Tidy up the readthedocs documentation,2019-04-19,Merged,2095,52,8,py sh ,4
+Fix chown in dev_setup when GROUP != USER,2019-04-17,Merged,2094,3,1,,1
+Fix infinitely adding pages to existing namespace,2019-04-11,Merged,2093,2,0,,1
+Restore settings polling to 1 minute interval,2019-04-10,Merged,2091,1,1,,1
+Fix bug with paused audio,2019-04-10,Merged,2090,30,7,,1
+"Remove ""stop_threshold""",2019-04-10,Merged,2089,13,17,json ,3
+Feature/audioservice list,2019-04-19,Merged,2088,23,1,,2
+Feature/skill gid restore,2019-04-08,Closed,2087,180,46,py txt ,6
+typo,2019-04-29,Merged,2086,1,1,,1
+Poll settings only every 5 minutes,2019-04-06,Merged,2084,1,1,,1
+Clean the skills.json before sending it up.,2019-04-06,Merged,2083,8,1,,1
+Reverts back to 19.2.2,2019-04-06,Merged,2082,40,183,py txt ,7
+Feature/blank metadata,2019-04-06,Closed,2080,20,37,,1
+Fix a couple of minor issues intruduced by skill_gid,2019-04-05,Merged,2079,3,3,,1
+Remove boilerplate info from blank settingsmeta,2019-04-05,Closed,2078,14,24,,1
+"Revert ""Remove reliance on hashed meta""",2019-04-05,Merged,2077,202,28,,1
+Remove reliance on hashed meta,2019-04-04,Merged,2076,28,202,,1
+Add missing license header,2019-04-02,Merged,2075,15,0,,1
+Feature/skillsmeta gid,2019-04-02,Merged,2074,168,40,py txt ,7
+Adapt: Run normalized also when raw matches None,2019-03-28,Merged,2073,9,12,,1
+separate the cache & avoid voice overlap,2019-03-28,Merged,2071,31,16,,3
+Set default log level to INFO,2019-04-22,Merged,2070,24,12,,2
+Update gTTS to 2.0.3,2019-03-28,Merged,2069,1,1,,0
+tonight remainder,2019-03-27,Merged,2068,29,11,,2
+Normalize utterances before intent handling,2019-03-28,Merged,2067,94,39,,3
+handling tonight in date & time extraction,2019-03-27,Merged,2066,25,11,,2
+"properly handling ""tonight""",2019-03-26,Closed,2065,25,11,,2
+Remove enum.auto,2019-03-24,Merged,2063,16,1,,1
+Add translations from the Timer skill,2019-03-25,Merged,2062,101,0,voc ,66
+Fix mimic 2 long sentences,2019-03-22,Merged,2061,53,41,,2
+Make precise sensitivity configurable,2019-03-22,Merged,2060,8,1,conf ,2
+Adjust and document Padatious loose fallback priority,2019-03-21,Merged,2059,34,9,,3
+Feature/non hard coded paths,2019-03-21,Merged,2058,27,4,,3
+Add the SkillGUI method send_event(),2019-03-27,Merged,2057,29,4,,2
+Mimic2 fallback overlaps sentences,2019-03-27,Closed,2055,17,6,,3
+Fix mixing of int/str in extract_datetime_* code,2019-12-19,Closed,2054,78,80,,9
+"Change default lang to None, not English",2019-03-14,Merged,2053,332,222,,6
+Send skill page info for all skills,2019-03-29,Closed,2052,85,6,txt ,1
+Feature/common io t updates,2019-03-14,Merged,2050,52,21,,1
+Remove skills directory link.,2019-03-11,Merged,2049,0,1,,1
+Made start_listening louder,2019-05-13,Closed,2047,306,31,py ,3
+Fix dialog check in skill tester,2019-03-13,Merged,2046,3,0,,1
+Fix simple audio backend pausing by voice,2019-03-08,Merged,2045,31,8,,1
+Add pause/resume to simple audio services,2019-03-08,Merged,2044,16,5,,1
+Bugfix for Mimic2 issues,2019-03-07,Merged,2043,76,111,,1
+"Mute the mic while playing the listening ""beep""",2019-03-07,Merged,2042,15,3,,1
+Set a default locale when running dev_setup.sh,2019-03-06,Merged,2041,3,0,,1
+Fix context handling in skill tester,2019-03-09,Merged,2040,1,1,,1
+feature/format_pt,2019-03-26,Merged,2039,598,113,,3
+Give Padatious high and low match passes,2019-03-06,Merged,2036,11,2,,1
+Ignore the 'skills' symlink,2019-03-05,Merged,2035,1,1,,1
+Initial spanish format functions,2019-03-04,Merged,2034,919,4,,2
+Add danish 2 - initial work to get danish to core,2019-03-04,Merged,2033,"1,971",4,dialog voc json txt py ,33
+added spanish translations for format.py,2019-03-03,Closed,2032,"1,107",264,bin/mycroft-mic-test py json ,7
+Improve user feedback during startup,2019-02-28,Merged,2031,9,1,py ,4
+Hide deprecated warning in certain cases,2019-02-28,Merged,2030,6,2,,1
+Typo in Common Query 'encolsure',2019-02-28,Merged,2029,1,1,,1
+Activate/deactivate visemes on command,2019-02-28,Merged,2028,10,0,,1
+"More subtle ""listening"" sound",2019-02-28,Merged,2027,0,0,,1
+Tweak CommonPlay scoring,2019-02-28,Merged,2026,23,6,,1
+Deprecate self.config in skills,2019-02-28,Merged,2025,14,44,py ,3
+Feature/threaded emitter for real,2019-02-28,Merged,2024,118,7,,5
+"date and time - for tonight, weekdays",2019-02-28,Merged,2023,29,1,,2
+Upgrade msm to 0.7.3,2019-02-27,Merged,2022,1,1,,0
+spanish translations for number's format,2019-03-03,Closed,2021,"1,147",0,pytest_cache_old/v/cache/nodeids ,2
+Refactor/19.02 removes,2019-02-28,Merged,2019,3,14,conf ,3
+Add default values to Message attributes,2019-02-26,Merged,2018,9,8,,3
+Try updating the system on boot when not paired,2019-02-26,Merged,2017,16,0,,1
+Wait for ntp sync complete message,2019-02-26,Merged,2016,2,2,,1
+Feature/common io t,2019-02-28,Merged,2015,334,1,py ,2
+Correct extract_duration doc and failure value,2019-02-25,Merged,2014,7,5,,1
+"Fix typo: ""excepected"" > ""expected""",2019-02-24,Merged,2013,1,1,,1
+Protect against failure to launch WAV/MP3,2019-03-15,Merged,2012,18,3,,1
+Improve debug logging,2019-02-22,Merged,2011,74,15,,2
+Fix bug in the mic-level meter,2019-02-22,Merged,2010,16,18,,1
+Fix behavior of MycroftSkills.voc_match(),2019-02-24,Merged,2009,67,21,voc ,5
+Feature/threaded emitter,2019-02-28,Merged,2008,11,13,txt ,3
+Let skill tester expand dialogs,2019-02-28,Merged,2007,53,36,,1
+remove compaitbility methods for installer skill,2019-02-25,Merged,2006,0,35,,1
+Support params for mycroft-mic-test,2019-02-20,Merged,2005,1,4,,1
+Tweak English extract_datetime() parsing,2019-02-20,Merged,2004,2,2,,1
+Update versions to 19.02,2019-02-28,Merged,2003,4,4,py ,2
+GUI Remove pages/namespaces,2019-02-28,Merged,2002,162,31,,2
+German New day formaters update,2019-02-19,Merged,2001,202,1,json py ,14
+Feature/remove old viseme system,2019-02-18,Merged,2000,28,59,,4
+Add (|) syntax to dialog files,2019-02-16,Merged,1999,18,1,,3
+Feature/update requirements,2019-02-28,Merged,1998,11,7,txt ,2
+Add mattermost badge to README.md,2019-02-15,Merged,1997,1,0,,0
+"Restore ""Upgrade msm to 0.7.2""",2019-02-15,Merged,1996,1,1,,0
+Clean up some exception handling in settings code,2019-02-18,Merged,1995,37,26,,3
+Install pep8 check as pre-commit hook,2019-03-27,Merged,1994,86,1,scripts/pre-commit ,2
+"Revert ""Upgrade msm to 0.7.2""",2019-02-14,Merged,1993,1,1,,0
+Load .voc and .rx as utf-8,2019-02-15,Merged,1992,3,3,,2
+Correcting a typo,2019-02-13,Merged,1991,1,1,,1
+Update parse_it.py to 18.8.12,2019-02-27,Merged,1990,"1,749","1,014",,0
+Pause at semicolon,2019-02-15,Merged,1989,1,1,,1
+New formatters:  nice_duration() and join_list(),2019-02-13,Merged,1988,181,1,word py ,13
+Fix#1986,2019-02-20,Closed,1987,5,2,,1
+Upgrade msm to 0.7.2,2019-02-13,Merged,1985,1,1,,0
+update format_it.py test_format_it.py,2019-02-11,Merged,1984,111,42,,2
+Issues-1982 - Add IAM authentication for Watson TTS,2019-02-27,Merged,1983,8,3,,1
+Feature/skill manager error checks,2019-02-28,Merged,1981,116,21,,3
+"Document ""save_utterance"" option",2019-02-11,Merged,1980,12,2,conf ,2
+Move sudo check to beginning of script,2019-02-03,Merged,1978,10,7,,1
+Feature/issue 1959,2019-02-13,Merged,1977,938,395,,1
+Update padatious and padaos,2019-02-14,Merged,1975,2,2,,0
+Fix registering fallback,2019-01-31,Merged,1974,1,1,,1
+Single viseme message,2019-01-31,Merged,1973,33,9,,3
+Add some additional info to audiotest,2019-01-31,Merged,1971,30,0,,1
+Add a decorator for simply adding resting screens,2019-01-31,Merged,1970,56,0,,1
+Allow running mycroft on embedded devices without sudo,2019-01-28,Merged,1969,17,8,,2
+initial work on danish.,2019-03-02,Closed,1968,"2,255",66,conf dialog voc json txt ,27
+Bugfix/issues 1962,2019-01-22,Merged,1966,16,18,,2
+Add alias to bash profile for easier starting and stopping.,2019-02-12,Closed,1965,6,0,,1
+GUI update number 6,2019-01-22,Merged,1964,327,241,,0
+Play on local audiobackends before trying remotes,2019-01-31,Merged,1963,26,11,,4
+Bugfix/speech stop,2019-01-31,Merged,1961,51,17,,3
+Open all dialog and skills files as utf8 encoded,2019-02-14,Closed,1960,8,8,,3
+dialog: Open template file as utf8 encoded,2019-01-18,Merged,1958,1,1,,1
+text_client.py: Don't throw exception on missing conf,2019-01-18,Merged,1957,0,1,,1
+Run queries in threads,2019-01-17,Merged,1956,7,0,,1
+"Revert ""Merge pull request #1889 from forslund/feature/threaded-emitter""",2019-01-17,Merged,1955,9,92,txt ,5
+Fix Ctrl+C handling in CLI,2019-01-17,Merged,1954,37,16,,1
+Set pep8-speaks line lenght limit to 79,2019-01-15,Merged,1953,1,1,,1
+Add python version option to dev_setup.sh,2019-01-31,Merged,1952,21,6,,1
+Testing rebase Feature/audio seek,2019-01-12,Closed,1949,107,0,,4
+"Remove depth=1, which breaks the dev_setup wizard",2019-01-11,Merged,1948,1,6,,0
+Remove inheritance from object,2019-01-11,Merged,1945,45,47,,26
+feature/audio seek,2019-01-12,Merged,1944,107,0,,4
+GUI Cleanup,2019-01-10,Merged,1939,44,67,,2
+Support selecting microphone by name,2019-01-08,Merged,1936,38,1,conf ,3
+Tweaks to start/stop scripts,2019-01-15,Merged,1935,77,30,bin/mycroft-start bin/mycroft-stop sh ,5
+Remove pyyaml,2019-01-07,Closed,1934,0,1,,0
+Remove pyyaml as a dependency,2019-01-07,Merged,1933,0,1,,0
+Upgrade pyyaml to address CVE-2017-18342,2019-01-07,Closed,1932,1,1,,0
+Use builtin cd for venv-activate.sh,2019-02-27,Merged,1931,1,1,,1
+dev_setup: Exit if pip installation fails.,2019-01-03,Merged,1930,6,1,,1
+patch for issue #1868,2019-01-14,Merged,1928,10,2,,1
+Bugfix/mimic2 negative numbers,2019-01-02,Merged,1927,23,19,,3
+CLI: Use language set in mycroft configuration,2019-01-31,Merged,1925,38,7,,2
+Improve setup and start-mycroft scripts,2018-12-31,Merged,1924,190,73,sh ,3
+GUI update,2018-12-30,Merged,1922,287,82,,2
+Feature/gui 2,2018-12-29,Closed,1921,280,74,,2
+Add basic barge-in functionality,2018-12-29,Merged,1920,24,4,conf ,3
+Adding swagger yaml file for the API calls that mycroft core does,2018-12-28,Merged,1919,976,0,,0
+Add option to skip mimic build in dev_setup.sh,2018-12-27,Merged,1918,10,1,,1
+Handle floats when checking year pronounciation,2018-12-27,Merged,1916,2,2,,1
+Store config in more human readable form,2018-12-26,Merged,1915,1,1,,1
+bugfix/issue-1913 fixed bug with new flag,2018-12-26,Merged,1914,17,13,,1
+italian translation minor update,2019-01-12,Merged,1912,744,186,py ,3
+Minor update to dialog,2018-12-29,Merged,1911,6,7,,1
+Italian minor update in res/text/it-it/,2018-12-17,Merged,1910,23,4,voc txt ,6
+Stop hotword engines when reloading,2018-12-20,Merged,1909,13,0,,2
+Bump msm to 0.6.3,2018-12-06,Merged,1907,1,1,,0
+Dev add nl nl,2019-01-16,Merged,1906,983,3,voc json txt py ,15
+Add python 3.7 python version to travis tests,2018-12-28,Merged,1905,5,0,,1
+"Added nl-nl voc, dialogs and formatter",2018-12-06,Closed,1904,579,3,voc json txt py ,15
+Handle invalid json when loading log level,2018-12-06,Merged,1903,5,2,,1
+Enclosure mark-1: Remove extra except.,2018-12-05,Merged,1902,1,1,,1
+Update padaos to better handle bad translations,2018-12-05,Merged,1901,1,1,,0
+Common query framework,2018-12-05,Merged,1900,146,0,,1
+First pass at the GUI infrastructure,2018-12-05,Merged,1899,"1,356",518,,3
+Handle failing refresh tokens,2018-12-05,Merged,1894,6,0,,1
+Feature/add hungarian language,2018-12-04,Merged,1893,974,0,voc json txt py ,24
+Feature/update requirements,2019-01-16,Closed,1891,11,7,txt ,2
+Update gtts modules to fix google tts,2018-12-05,Merged,1890,2,2,,0
+Run emitter using threadpool,2019-01-16,Merged,1889,92,9,txt ,5
+add changes to work with gui,2018-12-03,Closed,1888,35,6,,2
+Upgrade msk to 0.3.12,2018-11-21,Merged,1887,1,1,,0
+include skill_id in response,2018-11-21,Merged,1886,3,2,,1
+Feature/msm 0.6.2,2018-11-30,Merged,1885,96,100,txt ,1
+fix converse,2018-11-20,Merged,1884,40,23,,2
+handle unpronounceable huge numbers up to infinity,2019-06-11,Closed,1883,125,14,,2
+Solving issues with date_time*,2018-11-19,Closed,1882,46,0,voc txt ,21
+Catalan translation added,2018-11-19,Merged,1881,46,0,voc txt ,21
+Feature/pronounce ordinal numbers,2019-06-11,Closed,1880,260,166,,1
+Issue-1877 - fix ordinal followed by one,2018-11-26,Merged,1879,14,3,,2
+Fix/ordinal followed by one,2018-11-18,Closed,1878,8,1,,2
+"bugfix/utterance remainder, only replace complete words",2018-11-17,Merged,1873,3,1,,1
+Update api documentation,2018-11-16,Merged,1872,86,76,rst sh txt ,7
+Bugfix CPS Starting audio,2018-11-19,Merged,1871,11,8,,1
+improve datetime parsing,2018-11-17,Merged,1870,137,20,,2
+Update mycroft.conf,2018-11-13,Merged,1869,3,0,,1
+feature/extract multiple numbers from text,2018-11-19,Merged,1867,271,50,,5
+extract date time improvement/bugfix,2018-11-07,Merged,1866,18,5,,2
+Skilltester extension for Common Playback Skill functions,2018-11-16,Merged,1864,49,6,,1
+Update requirements.txt,2018-11-05,Merged,1862,1,1,,0
+Update MycroftSkill api documentation,2018-11-05,Merged,1861,45,8,md py txt ,3
+Fix issue listing uninstalled skills in skills.json,2018-10-26,Merged,1860,3,2,,1
+Feature/skill data upload,2018-10-26,Merged,1859,65,2,conf ,3
+Private,2018-10-24,Closed,1858,"2,780,619",364,,0
+Bugfix/audioservice invalid utterance,2018-10-23,Merged,1857,4,2,,2
+Feature/rhel,2018-10-19,Merged,1856,30,9,,1
+Add tests for commented dialogs and DialogLoader,2019-01-31,Merged,1853,56,3,dialog result ,6
+Add check separating centOS and Fedora,2018-10-19,Merged,1852,11,1,,1
+Unify badge style,2018-10-15,Merged,1849,1,1,,0
+Test: dialog component,2018-10-16,Merged,1848,103,0,json dialog result ,14
+Add support for comment lines in dialog files,2018-10-15,Merged,1847,13,11,,1
+Support detach_skill in padatious_service,2018-10-24,Merged,1846,15,2,,1
+Change regex string to raw string in remote_tts,2018-10-10,Merged,1845,1,1,,1
+"Add CommonPlaySkill, unifying search and control",2018-10-11,Merged,1843,182,0,,1
+Add module specific lang option to GoogleCloudStt,2018-10-10,Merged,1842,2,0,,1
+"Pronounce large numbers, Bugfix/ issue 1718",2018-10-09,Merged,1841,56,25,,3
+fall back tts function for connection errors,2018-10-10,Merged,1840,41,18,,3
+centos support,2018-10-10,Merged,1837,10,0,,1
+Cleanup of core.py,2018-10-10,Merged,1835,35,38,,1
+Replace hard coded data directory path in echo,2018-10-30,Merged,1834,1,1,,1
+Workaround for get-pip issue,2018-10-06,Merged,1833,1,1,,1
+Bugfix/honor log level in config #1728,2018-10-09,Merged,1832,55,34,,5
+Language error checking,2018-10-09,Merged,1831,11,1,,1
+Reorganizing to make button press more responsive (again),2018-10-03,Merged,1830,8,5,,2
+Make the combo lock handle multiple users,2018-10-01,Merged,1828,27,1,,1
+Fix date format for today/tomorrow/yesterday,2018-10-01,Merged,1827,12,9,,2
+Fix Ctrl+C and Ctrl+X in CLI,2018-09-30,Merged,1826,6,3,,2
+Add protection for naive skill authors,2018-10-01,Merged,1825,51,14,,3
+Load identity if no refresh token exists,2018-09-28,Merged,1821,7,0,,2
+Bugfix/identity lock,2018-09-28,Merged,1820,31,20,,2
+Reduce much of the noise in the logs,2018-09-28,Merged,1819,57,78,,4
+Use the phonetic_spellings.txt in Mimic2,2018-10-01,Merged,1818,9,0,py ,1
+Strip trailing blank lines,2018-09-27,Merged,1817,1,1,,1
+Order results from translate_namedvalues(),2018-09-26,Merged,1816,4,3,,1
+feature: allow adapt context across skills,2018-10-08,Merged,1815,67,9,,3
+Add ability to schedule event in seconds,2018-09-26,Merged,1813,22,13,,1
+"Add ""wait"" option to MycroftSkill.speak() and speak_dialog()",2018-09-26,Merged,1812,12,4,,1
+Fix now_utc() to return aware datetime,2018-09-26,Merged,1811,1,1,,1
+Check for a Precise model automatically for custom wake words,2018-09-26,Merged,1810,13,4,,2
+Fix test_setup issue in discover_test.py,2018-09-26,Merged,1809,1,1,,1
+Extract_datetime cleanup,2018-09-25,Merged,1808,20,13,,5
+pyyaml fix for Arch and Manjaro builds,2018-09-24,Merged,1807,1,1,,0
+Update gTTS-token module to fix google tts,2018-09-24,Merged,1806,1,1,,0
+Audioservice repeat,2018-09-24,Merged,1805,44,17,,8
+Feature/extract datetime update,2018-09-24,Merged,1804,183,111,,4
+Fix ambiguous time handling,2018-09-21,Closed,1803,28,11,,2
+Add locking when accessing the IdentityManager,2018-09-28,Merged,1801,120,20,txt ,3
+Update requirements and pip install,2018-09-25,Merged,1800,5,10,txt ,1
+Update packages for OpenSuse,2018-09-24,Merged,1799,1,1,,1
+Update Arch (pacman) install for Python 3,2018-09-18,Merged,1798,5,2,,1
+Fix incorrect escape sequences found by skill test,2018-09-24,Merged,1797,2,2,,2
+longer sequence generation for mimic2 service,2018-09-12,Merged,1795,59,41,,1
+Update padaos to 0.1.7,2018-09-13,Merged,1794,1,1,,0
+Allow multiple dialogs and responses,2018-09-12,Merged,1791,20,6,,1
+Fix chromecast audio backend,2018-09-10,Merged,1790,3,3,,1
+Workaround for adapt issue with context + one_of,2018-09-24,Merged,1789,20,0,,1
+Switch say/speak-to helper script names,2018-09-10,Merged,1788,2,2,bin/mycroft-speak ,2
+Test/test setup,2018-09-25,Merged,1786,40,4,,3
+Make audiotest wait until playback is complete,2018-09-09,Merged,1785,42,2,,1
+Unify the command line experience across platforms,2018-09-09,Merged,1784,386,29,bin/mycroft-help bin/mycroft-mic-test bin/mycroft-msk bin/mycroft-msm bin/mycroft-pip bin/mycroft-say-to bin/mycroft-skill-testrunner bin/mycroft-speak sh ,10
+Bugfix/skill loading remnants,2018-09-09,Merged,1783,17,8,,2
+Allow local model file in precise,2018-09-05,Merged,1782,11,3,conf ,2
+Skip mimic build by default when already built,2018-09-05,Merged,1781,9,10,,1
+Prepare version update to 18.8.0,2018-08-31,Merged,1779,2,2,,1
+Blacklist pianobar-skill,2018-08-30,Merged,1778,1,1,,1
+Fix Åkeisms in the code,2018-08-30,Merged,1777,3,3,,1
+Switch msm branch to 18.08,2018-08-30,Merged,1776,2,2,txt ,1
+Fix exception in exception handler,2018-08-29,Merged,1775,2,1,,1
+Bugfix/simple audioservice,2018-08-29,Merged,1774,20,16,,1
+Fix path in recent locale support,2018-08-29,Merged,1773,4,4,,3
+Issue 1475,2018-08-29,Merged,1772,2,2,,2
+Address Python 3 changes,2018-08-28,Merged,1770,2,2,,2
+Upgrade msk to 0.3.11,2018-08-28,Merged,1769,1,1,,0
+Remove trailing references to MycroftSkill.emitter,2018-08-28,Merged,1768,4,3,,2
+Move Mark-1 specific image code from api to mark-1 enclosure,2018-08-28,Merged,1767,165,137,,3
+Fix PEP8 issue created by accidental code merge,2018-08-27,Merged,1766,2,3,,1
+Fix voc_match_cache member,2018-08-27,Merged,1765,1,2,,1
+Unify vocab/regex/dialog under new 'locale' directory,2018-08-27,Merged,1764,218,164,,1
+Fix fudge-ups when replacing emitter/ws with bus,2018-08-27,Merged,1763,2,2,,1
+Bugfix/settingsmeta typecast,2018-08-24,Merged,1762,59,2,,1
+Feature/simple audio,2018-08-27,Merged,1761,90,168,conf ,7
+Separate enclosure api from enclosure client,2018-08-27,Merged,1760,102,109,,11
+Fix skills listing,2018-08-24,Merged,1759,40,20,,1
+Remove announcement parameter from get_response,2018-08-26,Merged,1758,8,15,,1
+Replace emitter/ws with bus,2018-08-22,Merged,1757,537,514,,8
+Remove deprecated extractnumber,2018-08-21,Merged,1756,287,310,,4
+Enhance tester output,2018-08-21,Merged,1755,30,16,,1
+Cleaning up logs,2018-09-28,Closed,1754,3,2,,2
+Add support for separate settings for test,2018-08-22,Merged,1753,34,0,,1
+Remove deprecated API.find*() methods,2018-08-19,Merged,1752,0,15,,1
+"fix for broken communication with Arduino,  added missing skill.error.dialog for language de-de",2018-09-03,Merged,1751,8,1,dialog ,2
+Fix removing scheduled events,2018-08-17,Merged,1750,9,7,,1
+restrict str.replace from doing a global string replacement,2018-08-16,Merged,1748,1,1,,1
+Add feature to install beta skills,2018-08-15,Merged,1747,24,0,,1
+Set default encoding in a cleaner way,2018-08-15,Merged,1745,5,12,,1
+Set the directory explicitly start-mycroft.sh scripts,2018-08-15,Merged,1744,3,2,,2
+Change to the supported wait_while_speaking(),2018-08-15,Merged,1743,2,2,,1
+Handle remove_all_listeners,2018-08-15,Merged,1742,3,0,,1
+Upgrade msm to 0.5.18,2018-08-15,Merged,1741,1,1,,0
+better pronounciation for 4 digit numbers,2018-08-15,Merged,1740,34,2,,2
+Feature/pronounce number dates,2018-08-15,Closed,1739,57,2,,2
+Fix CLI lockup; simple 'speak' support; help display,2018-08-15,Merged,1738,11,7,,1
+improved mimic2 to not speed talk on numbers,2018-08-15,Merged,1737,24,2,,1
+Upgrade padatious,2018-08-14,Merged,1734,1,1,,0
+Remove depreciated ScheduledSkill,2018-08-22,Merged,1731,0,597,,1
+Add retry limit for chromecast detection,2018-08-15,Merged,1729,1,1,,1
+Fix camel case splitting,2018-08-14,Merged,1727,10,2,,2
+Feature/__main__,2018-08-21,Merged,1725,320,260,,7
+added isSpeaking Signal,2018-08-15,Merged,1724,3,1,,1
+Use full path in function check-dependencies,2018-08-15,Closed,1722,1,1,,1
+remove isSpeaking signal on audio startup,2018-08-15,Merged,1721,2,1,,1
+Bugfix/write pho file,2018-08-15,Merged,1720,2,2,,2
+Add MycroftSkill.voc_match(),2018-08-25,Merged,1719,31,11,,1
+some vocab/dialog was added,2018-08-10,Merged,1717,10,0,voc ,4
+Better logging around why writing .PHO file fails.,2018-08-09,Merged,1716,2,2,,1
+Remove git locks when starting mycroft,2018-08-03,Merged,1715,7,3,,1
+Allow Padatious to override Adapt,2018-08-03,Merged,1713,16,5,,2
+start-mycroft.sh improvements (change log dir and exit 1 when out of date),2018-08-03,Merged,1712,27,22,py ,4
+Standardize,2018-08-02,Merged,1711,423,438,,4
+Do not enter python virtual env when inside Docker container,2018-08-01,Merged,1710,12,5,,1
+Upgrade padatious,2018-08-01,Merged,1709,1,1,,0
+Feature/mimic2 visemse,2018-08-02,Merged,1708,52,21,py ,2
+Add enclosure to the start/stop dev scripts,2018-07-27,Merged,1707,37,15,,2
+Immediately speak warning while Padatious trains,2018-07-27,Merged,1706,5,6,,1
+Fix named event scheduling/deleting,2018-07-30,Merged,1705,107,102,,4
+Fix CLI screen corruption,2018-07-30,Merged,1704,141,90,,0
+Check if only python3 is installed in start-mycroft.sh script,2018-07-27,Merged,1703,3,4,,1
+Replace static /opt/mycraft in prepare-msm.sh,2018-08-03,Merged,1700,1,1,,1
+Upgrade mycroft-authored dependencies,2018-07-24,Merged,1698,3,3,,0
+Replace python with python3 in start-mycroft.sh script,2018-07-23,Closed,1697,0,0,,0
+Fix updating padatious intents after intent reload,2018-07-19,Merged,1696,4,1,,1
+Allow reference dates with tzinfo,2018-07-19,Merged,1695,13,10,,1
+Mimic2,2018-07-18,Merged,1694,245,0,py ,3
+better time parse and fix date formatting #1681 + #1689,2018-07-18,Merged,1693,398,130,py ,7
+Make dialog loading more strict,2018-08-25,Merged,1692,7,7,,1
+Add new MycroftSkill.ask_yesno() method,2018-07-19,Merged,1690,63,6,py ,3
+Improve date-time formatting in English,2018-07-18,Closed,1689,3,3,,2
+Bugfix/unmunge,2018-07-19,Merged,1688,3,2,,1
+Clean up setup scripts,2018-07-18,Merged,1687,79,276,in py ,9
+padatious enable/disable,2018-07-14,Merged,1686,14,4,,2
+allow disabling intent in initialize,2018-07-14,Merged,1685,1,1,,1
+MAXCORES bug fix in dev_setup.sh,2018-07-16,Merged,1684,11,1,,1
+Improve the standalone skill tester,2018-07-19,Merged,1683,110,132,,4
+Add 'venv-activate.sh' script,2018-07-12,Merged,1682,30,0,,1
+"Enhance extract_datetime(), add time utilities",2018-07-18,Closed,1681,387,119,,6
+Remove stray lock.release(),2018-07-10,Merged,1680,2,2,,1
+Simpleaudioservice,2018-08-27,Closed,1679,271,2,conf json ,6
+Ogg123,2018-07-27,Merged,1678,149,2,conf json ,5
+Handle stop correctly in the audio service.,2018-07-10,Merged,1677,39,14,,7
+Fix crash during initial skill download,2018-07-06,Merged,1675,6,3,,1
+Fix extraction of 0 in extract_number(),2018-07-10,Merged,1673,7,1,,2
+Fix startup of audio-test,2018-07-18,Merged,1671,2,2,,1
+Bugfix/parse corrections,2018-07-02,Merged,1670,20,8,,3
+German formatting for Wolfram alpha skill responses in format_de.py,2018-07-19,Merged,1669,71,12,dialog txt py ,14
+Enhance the behavior of the Mark 1 button,2018-07-05,Merged,1668,29,17,,4
+"CLI Updates: Restore VT100 support, help, etc.",2018-07-12,Merged,1667,195,109,,0
+Upgrade msm,2018-06-28,Merged,1666,1,1,,0
+Python 3 fixes for xrange() and unicode,2018-08-28,Closed,1665,2,3,,2
+Try upgrading testing from PEP8 to flake8,2018-09-24,Closed,1664,6,0,,1
+feature/allow to pronounce ordinals and very small fractions,2018-07-10,Merged,1663,161,35,,3
+Upgrade Padaos,2018-06-27,Merged,1662,1,1,,0
+Update requests to bleeding edge,2018-07-04,Merged,1661,1,1,,0
+Lock padaos version,2018-06-25,Merged,1660,3,2,,0
+Bugfix mycroft-use github,2018-07-10,Merged,1659,78,60,,2
+Bugfix mycroft-use github,2018-06-25,Closed,1658,22,27,,1
+Refactor Precise engine and support engine timeouts,2018-07-06,Merged,1657,152,136,conf txt ,4
+Feature add query mic status,2018-06-27,Merged,1656,9,0,,1
+Master,2018-06-25,Closed,1655,0,0,,0
+govivace_stt,2018-06-27,Merged,1654,29,3,py ,2
+Feature/pronounce scientific,2018-07-31,Merged,1653,260,121,,2
+extract number scientific notation support,2019-06-11,Closed,1652,136,16,,4
+fix extract date,2018-06-26,Merged,1651,68,30,,2
+Play ogg,2018-07-09,Closed,1649,270,1,conf json ,7
+Update default config for skills,2018-07-19,Merged,1648,1,9,,1
+add support for numbers above 100 in pronounce_number_en,2018-07-31,Merged,1646,233,121,,2
+Moving wait_while_speaking to mycroft.audio.rst,2018-06-21,Merged,1645,6,4,,2
+improve extract_number_en,2018-06-18,Merged,1642,311,132,,1
+Upgrade Padatious,2018-06-20,Merged,1641,1,1,,0
+Use time.monotonic instead of monotonic module,2018-06-14,Merged,1637,4,7,txt ,2
+Upgrade msm and padatious,2018-06-13,Merged,1636,2,10,txt ,1
+Feature/nice date,2018-06-25,Merged,1635,843,1,,4
+German language support,2018-06-12,Merged,1634,"1,940",3,dialog txt py ,18
+Add security notice running Mycroft from desktops,2018-06-08,Merged,1633,7,0,,1
+Upgrade msk to 0.3.9,2018-06-08,Merged,1632,1,1,,0
+added German language support,2018-06-08,Closed,1631,"1,960",1,dialog txt py ,18
+Make use of the default config when testing.,2018-06-14,Merged,1630,136,160,,3
+Change wake word upload to https request,2018-06-07,Merged,1629,44,90,conf ,3
+Feature/pronounciations,2018-06-07,Merged,1628,6,3,py ,1
+Fix changed default socket timeout,2018-06-12,Merged,1627,6,4,,1
+Add msk,2018-06-05,Merged,1626,2,232,sh ,1
+Add AdaptIntent alias,2018-06-02,Merged,1625,9,2,,3
+Cleanup root,2018-06-07,Merged,1624,2,28,py sh ,2
+Don't fail in dev_setup.sh if mimic fails to check version,2018-06-01,Merged,1623,2,2,,1
+Fix missing attribute in error,2018-06-05,Merged,1622,1,1,,1
+Feature/padatious intent test,2018-06-01,Merged,1621,10,6,,1
+Make data optional in Message.reply(),2018-06-05,Merged,1620,2,1,,1
+Feature/fix skill tester launch,2018-06-01,Merged,1619,12,9,py ,2
+Add info when skill fails to load during tests,2018-10-15,Merged,1618,38,6,,1
+Fix wrong variable name,2018-06-01,Merged,1616,1,1,,1
+Fixed dev_setup.sh for dnf users for python3 update,2018-06-12,Merged,1615,1,1,,1
+Fix issues in skill tester,2018-05-29,Merged,1614,13,8,,4
+Check that web cache exists before loading it,2018-06-05,Merged,1613,2,1,,1
+Feature/skill commands,2018-06-22,Merged,1612,215,53,,4
+Skill control,2018-05-25,Closed,1611,106,10,,3
+Upgrade msm to 0.5.13,2018-05-24,Merged,1610,1,1,,0
+Use get_wch() to support unicode input,2018-06-06,Merged,1609,9,10,,1
+Fix chromecast quitting app on mycroft shutdown.,2018-05-24,Merged,1608,4,0,,1
+Fix bad city information in test,2018-05-23,Merged,1607,2,2,,1
+Re-add checking of dependencies when running start-mycroft.sh,2018-05-23,Merged,1606,12,1,,2
+Fixes for Python3 migration,2018-05-21,Merged,1604,7,11,,3
+Make retrying skill installation less frequent,2018-05-22,Merged,1601,18,12,,1
+Upgrade msm,2018-05-17,Merged,1600,1,1,,0
+Retry skill installation every 5 minutes if default skill install fails,2018-05-17,Merged,1599,23,11,,1
+Upgrade msm,2018-05-17,Merged,1598,1,1,,0
+Upgrade msm,2018-05-16,Merged,1597,1,1,,0
+Update msm,2018-05-15,Merged,1596,1,1,,0
+Log exception in skill settings and fix docstrings,2018-05-15,Merged,1595,8,11,,1
+Make scp upload quiet and reduce saved seconds,2018-05-15,Merged,1594,15,14,,1
+Update msm,2018-05-15,Merged,1593,1,1,,0
+Remove all references to /opt/mycroft/skills,2018-05-24,Merged,1592,55,36,conf sh ,10
+Stability improvements,2018-05-14,Merged,1591,8,5,,2
+Upgrade msm,2018-05-14,Merged,1590,1,1,,0
+Update msm version,2018-05-14,Merged,1589,1,1,,0
+Enforce integer for positions in mouth display,2018-05-14,Merged,1588,2,2,,1
+Fix not upgraded python packages,2018-05-11,Merged,1587,1,1,,1
+Make skill update interval configurable,2018-05-14,Merged,1586,7,4,py ,2
+Fix skill reloading when files in subdirectories change,2018-05-11,Merged,1585,11,11,,1
+Fix Padatious intents,2018-05-11,Closed,1584,1,1,,1
+Restore python-gobject-2-dev,2018-05-21,Closed,1583,1,1,,1
+Fix trying to make integer from skill-id,2018-05-11,Merged,1582,1,1,,1
+Bump enclosure version to 1.4.0,2018-05-11,Merged,1581,1,1,,0
+Make skill ids use skill folder,2018-05-11,Merged,1580,51,41,,5
+Update enclosure version to fetch new scripts,2018-05-11,Closed,1579,1,1,,0
+Upgrade msm,2018-05-10,Merged,1578,1,1,,0
+Add configuration values for msm,2018-05-10,Merged,1577,23,3,py ,2
+Upgrade msm,2018-05-10,Merged,1575,1,1,,0
+Change skill settings hash to use skill name,2018-05-09,Merged,1574,8,8,,1
+Cleanup skill loading and implement python msm,2018-05-09,Merged,1572,158,"1,081",,1
+added functions for the spanish parser,2018-09-24,Merged,1571,955,7,,0
+skiller.sh addition: settingsmeta.json.example creation,2018-05-07,Merged,1570,43,1,,1
+The BIG move to python3,2018-05-08,Merged,1568,103,161,yml sh msm/msm py ,13
+Feature add responsive voice tts,2018-07-04,Merged,1565,65,2,py ,3
+keep message context,2018-05-23,Merged,1563,15,15,,4
+Fix msm line numbers in results,2018-04-26,Merged,1562,6,5,,1
+Remove numbers before skill names when listing,2018-04-26,Closed,1561,1,1,,1
+Add versioning to msm,2018-04-26,Merged,1560,56,39,,1
+add try catch for failed remote fetch location,2018-04-26,Merged,1559,13,5,py ,2
+Fix google tts playing audio,2018-04-26,Merged,1558,1,2,,1
+Fixes #1554 Addition of Speech module as STT Engine,2018-05-02,Closed,1555,16,2,py txt ,2
+Typo in the Engine Options,2018-05-08,Merged,1552,1,1,,1
+Consistency,2018-06-11,Closed,1551,2,2,,1
+Add Microsoft NCSI as a backup to detect connection,2018-04-19,Merged,1546,34,10,,1
+Add SSML support for TTS,2018-04-19,Merged,1545,209,59,,9
+Feature/dev setup update,2018-04-18,Merged,1544,5,5,,2
+Fix websocket reconnect,2018-04-19,Merged,1543,11,7,,1
+Feature: Allow comments in voc and regex files,2018-04-16,Merged,1539,4,0,,1
+run time skills config changes,2018-07-19,Closed,1536,39,18,py ,2
+Change libfann to fann in Arch install.,2018-04-13,Merged,1535,5,5,,1
+Clean up the core method tests,2018-04-11,Merged,1532,44,101,,1
+Skill settings improvements,2018-04-12,Merged,1528,30,18,,2
+Feature/improved skill tester,2018-05-21,Merged,1527,867,161,sh py txt ,8
+Fix error code 20 when doing msm default,2018-04-06,Merged,1525,6,0,,1
+External enable/disable intent,2018-04-06,Merged,1524,62,15,,1
+Fix cancel_all_repeating_events(),2018-04-10,Merged,1523,2,1,,1
+Default skill config to empty dict,2018-04-05,Merged,1521,1,1,,1
+Feature/api etags,2018-04-05,Merged,1520,37,3,,1
+Shutdown improvements,2018-04-12,Merged,1519,203,149,,4
+Initial Spanish translation,2018-04-02,Merged,1515,34,0,voc txt ,19
+Fix install script for renamed module,2018-04-06,Merged,1514,1,1,,1
+Fix msm not updating skills causing it to never finish booting up,2018-03-29,Merged,1513,3,9,,1
+Re-enable spotify-skill.,2018-03-29,Merged,1512,1,1,,1
+Load the volume skill before updates,2018-03-29,Merged,1511,1,1,,1
+Fix deadlock,2018-03-29,Merged,1510,1,1,,1
+Wait for messagebus before emitting a message,2018-03-29,Merged,1509,18,16,,3
+Add proper messages when the backend replies incorrectly,2018-03-29,Merged,1508,70,38,dialog ,6
+Fix utterance_remainder for normalized keywords,2018-03-28,Merged,1507,1,1,,1
+Feature/vlc update,2018-07-18,Merged,1506,26,6,conf ,2
+Pulseaudio update,2019-02-11,Closed,1505,105,103,conf txt ,3
+honor skill update flag,2018-04-04,Closed,1504,18,13,,1
+Feature/mycroft deepspeech stt,2018-03-23,Merged,1503,23,7,,3
+AudioService - no old style class,2018-03-23,Merged,1502,1,1,,1
+bug: more robust utterance_remainder,2018-03-23,Merged,1501,1,1,,1
+Reduce audio service logging verbosity,2018-03-28,Merged,1500,16,35,,1
+Fix msm lock hanging forever,2018-03-22,Merged,1498,8,11,,1
+Simple log output change to prevent confusion,2018-03-22,Merged,1497,1,1,,1
+remove unused function in skill settings,2018-03-22,Merged,1496,0,11,,1
+Bugfix for 1494: opt_in not honored in intent,2018-03-21,Closed,1495,4,0,,1
+"allow google stt by default, using test key",2018-04-19,Closed,1493,2,0,,1
+"bugfix: honor ""active"" flag for audio backends",2018-03-22,Merged,1492,6,3,,3
+feature: audio backend mplayer,2018-03-27,Merged,1490,125,0,,1
+Feature: mpv audio backend,2019-12-08,Closed,1489,103,0,,1
+clean audio service shutdown,2018-03-22,Merged,1488,31,1,,2
+fix audio service previous,2018-03-18,Merged,1487,1,1,,1
+add missing pt-pt dialog files,2018-03-22,Merged,1486,39,0,dialog txt ,10
+Feature/repeating event safety,2018-03-28,Merged,1481,28,7,,2
+Blacklist spotify-skill,2018-03-14,Merged,1479,1,1,,1
+Slowing the skill setting poll to once every 5 min,2018-03-14,Merged,1477,2,2,,1
+Fix accessing non-existent attribute in except blocks,2018-03-14,Merged,1476,8,4,,2
+Reduce verbosity when skill settings fetch fails.,2018-03-11,Merged,1466,1,2,,1
+Bugfix/shutdown events,2018-03-07,Merged,1464,6,2,,2
+Fix error on wait_for_response timeout.,2018-03-29,Merged,1463,8,1,,1
+Change git clone command in getting started to reduce clone size,2018-03-09,Merged,1461,7,1,,0
+Fix local service crash when servers are down,2018-03-07,Merged,1459,7,7,,4
+Refactor handler argument calling,2018-03-08,Merged,1458,24,49,py ,2
+Add proper not loaded message,2018-03-01,Merged,1456,3,3,dialog ,2
+Train Padatious on mycroft.skills.initialized,2018-03-01,Merged,1455,13,7,,1
+Use function attributes for intent decorators,2018-03-01,Merged,1454,35,37,,1
+Msm update improvements,2018-03-19,Merged,1453,98,42,,1
+Call callback when remote settings are inited,2018-03-01,Merged,1452,6,4,,1
+Check for pairing before performing routine polling,2018-02-28,Merged,1451,13,5,,3
+Simplify version checking,2018-02-28,Merged,1450,7,20,,2
+Add message when skills are initialized,2018-02-27,Merged,1449,18,6,,1
+Fix platform comment in config,2018-02-27,Merged,1448,2,1,,1
+Fix audio service loading,2018-02-27,Merged,1447,2,0,,1
+"Remove redundant except (SystemExit, KeyboardInterrupt) clauses",2018-02-27,Merged,1446,1,17,,2
+improve output when no words are transcribed,2018-02-27,Merged,1445,4,1,,1
+only NTP sync on certain enclosures,2018-02-28,Merged,1444,6,2,,1
+Fix hash method to work with python3,2018-02-26,Closed,1443,4,1,,1
+Change precise executable to a folder,2018-02-26,Merged,1441,24,12,,1
+Intent service data v2,2018-02-24,Closed,1440,77,18,,1
+Improve docs within mycroft-conf,2018-02-23,Merged,1439,10,20,,1
+Make sure the cli locale is set to an UTF-8 type,2018-02-23,Merged,1438,9,1,,1
+issue #1083: limit history size to fix crash,2018-02-23,Merged,1436,3,0,,1
+Fix multiple triggering of repeating events,2018-02-27,Merged,1435,19,1,,1
+Bugfix/munging related issues,2018-02-23,Merged,1434,82,15,,3
+Wait while speaking in get_response,2018-02-23,Merged,1432,2,0,,1
+First cut at skill tester,2018-04-17,Closed,1431,622,105,,3
+Restore pyee 1.0.1,2018-02-16,Merged,1430,1,1,,0
+Bugfix/msm register installed default skills,2018-02-16,Merged,1429,4,2,,1
+Fix self parameter in decorator functions with single argument,2018-02-16,Merged,1428,1,1,,1
+Validate message before trying to demunge,2018-02-15,Merged,1427,5,3,,1
+Add default when for schedule_repeating_event(),2018-02-15,Merged,1426,7,2,,1
+Fix cancel_scheduled_event for non-repeating events by updateing pyee to v5.0.0,2018-02-15,Merged,1425,4,2,txt ,1
+Add interface to Mark 1 faceplate capabilities,2018-02-15,Merged,1424,47,0,,2
+wait_for_response method for synchronous messagebus communication,2018-02-15,Merged,1423,55,14,,3
+Make keywords per skill to fix overlapping keyword names,2018-02-15,Merged,1422,215,87,,2
+"Internal documentation, typos, remove misleading message",2018-02-15,Merged,1421,116,75,,6
+"Reduce CLI log clutter from settings,  etc",2018-02-15,Merged,1420,19,19,,2
+Issue-1375 - Fix and complete french translation,2018-02-15,Merged,1416,"2,306",88,dialog txt py ,18
+Setup python3,2018-02-15,Merged,1415,76,132,yml sh msm/msm py ,16
+Add Italian  nice_time() and pronounce_number(),2018-02-08,Merged,1413,336,4,,3
+Fix bug in nice_time() for times before noon,2018-02-08,Merged,1412,21,1,,2
+Upgrade pip version,2018-02-08,Merged,1410,2,2,,2
+Allow clients to target the replies from Mycroft,2019-02-18,Closed,1408,9,1,,2
+Italian Language translations and test,2018-02-08,Closed,1407,336,4,,3
+Libfann Arch Linux,2018-02-15,Merged,1406,8,1,,1
+Check that value exists before checking for change,2018-02-02,Merged,1404,4,1,,1
+Bug fix for skills erroring out when attempting to save.,2018-02-02,Merged,1401,1,1,,1
+Add format and parsing methods for swedish,2018-02-13,Merged,1400,959,0,,2
+Feature/jony0008 swedish,2018-02-01,Merged,1399,56,0,dialog txt ,32
+"modified identifier, add .mypy_cache to git ignore",2018-02-01,Merged,1397,2,1,py ,2
+Feature/jarbas skill loading messages,2018-01-31,Merged,1396,13,4,,1
+Add :skills command to list skills in cli,2018-02-01,Merged,1395,67,1,,2
+Feature/format time number,2018-01-31,Merged,1394,382,13,,3
+Feature/metrics classes,2018-02-01,Merged,1393,4,2,,2
+Skip skill update on startup if recent,2018-02-15,Merged,1392,57,11,conf py ,3
+German translation of dialog messages,2018-02-01,Closed,1390,"7,029","3,258",yml md sh py txt rst msm/msm ,6
+Italian language support : added some parse functions and created test_parse_it,2018-01-29,Merged,1389,"1,040",8,dialog txt ,5
+Run pip after any update to skills managed by msm.,2018-02-01,Merged,1388,1,0,,1
+Swedish translation,2018-02-01,Closed,1386,28,0,dialog txt ,16
+Italian language support : added some parse functions and created test_parse_it,2018-01-29,Closed,1384,"1,040",8,dialog txt ,5
+Add callback on settings change from backend,2018-01-25,Merged,1379,14,0,,1
+Ignore .files when checking for skill modification,2018-02-01,Merged,1378,2,1,,1
+fix msm install order,2018-01-25,Merged,1377,7,7,,1
+Restore captured text on cli exceptions,2018-01-25,Merged,1373,30,26,,1
+Add match_one fuzzymatching function,2018-02-01,Merged,1372,42,0,,2
+Tweak UI for NTP checking,2018-01-18,Merged,1371,21,14,dialog ,5
+Add support for deepspeech_server,2018-01-25,Merged,1370,24,3,py ,2
+Implement max-line to limit memory usage,2018-01-18,Merged,1369,38,14,,1
+Fix startup time-warp issue,2018-01-18,Merged,1368,57,15,dialog txt ,6
+Add message on track start,2018-02-07,Merged,1367,39,4,,5
+local Deep speech,2018-01-29,Closed,1366,128,2,py ,3
+is_remote_list check,2018-01-18,Merged,1365,17,3,,1
+Bugfix/scheduled event,2018-02-14,Merged,1364,126,18,,2
+translate italian functions for format.py and parse.py  based on pt_pt  job,2018-01-25,Merged,1363,462,0,,2
+Added installation for libfann for Arch Linux via yaourt and pacaur.,2018-02-03,Closed,1362,15,0,,1
+Fix Sphinx documentation,2018-01-15,Merged,1360,26,54,txt rst ,3
+Disable overflow exceptions when reading mic,2018-02-15,Merged,1359,18,5,,1
+Split the test_parse.py by language,2018-01-12,Merged,1356,335,287,,2
+Add support for installing on openSUSE,2018-03-28,Merged,1355,7,3,,2
+msm - Values from config,2018-05-23,Closed,1354,230,73,msm/msm ,4
+fixed settings disappearing on load,2018-01-08,Merged,1353,1,0,,1
+loaded skills bus messages,2018-01-31,Closed,1350,13,4,,1
+Restore send platform code,2018-01-08,Merged,1347,29,0,,1
+Update Speech recognition module to 3.8.1,2018-01-08,Merged,1346,1,1,,0
+Add model hash to wake word upload,2018-01-04,Merged,1345,26,15,,2
+Jarbasal auto update optional,2018-01-03,Merged,1344,9,2,py ,2
+Auto update optional,2018-01-03,Closed,1342,8,2,py ,2
+bugfix format utf-8 conversion error,2018-01-09,Closed,1339,33,32,,1
+Split format.py and parse.py per language,2018-01-08,Merged,1338,"2,448","2,327",,5
+feature insert italian get_gender() test,2018-01-09,Closed,1337,65,32,,1
+Update parse.py for lang it_it,2018-01-09,Closed,1336,117,34,,1
+feature : initial insert italian tests for nice_number,2018-01-09,Closed,1334,39,0,,1
+bugfix  minor correction on test_format file,2018-01-03,Merged,1333,3,3,,1
+feature add it-it support,2018-01-09,Closed,1332,56,0,,1
+feature start support italian language,2018-01-02,Merged,1331,19,0,,11
+Bump the required enclosure version to 1.3.0.,2017-12-22,Merged,1328,1,1,,0
+Bugfix/msm list,2017-12-22,Merged,1327,17,8,,1
+Create PULL_REQUEST_TEMPLATE.md,2018-01-03,Merged,1326,8,0,,0
+Create ISSUE_TEMPLATE.md,2018-01-08,Merged,1325,58,0,,0
+Create SUPPORT.md,2018-01-05,Merged,1324,28,0,,0
+Create CODE_OF_CONDUCT.md,2018-01-03,Merged,1323,46,0,,0
+Add pause in out-of-box speech,2017-12-22,Merged,1322,7,6,,1
+Fix ./start-mycroft.sh unittest,2017-12-22,Merged,1321,4,4,sh ,2
+Add oauth token endpoint to device api,2017-12-21,Merged,1320,30,0,,2
+Feature/time metrics,2018-01-09,Merged,1318,320,98,,4
+Bugfix/subscriber archs,2017-12-20,Merged,1317,26,15,,2
+fixed skill settings migration for web ui,2017-12-20,Merged,1316,23,2,,3
+Add new parse function fuzzy_match (take 2),2017-12-15,Merged,1315,21,0,,2
+Add message.utterance_remainder() method,2018-01-03,Merged,1314,31,13,,1
+Add MycroftSkill.translate_namedvalues(),2017-12-15,Merged,1313,38,0,,1
+Add new parse function fuzzy_match,2017-12-15,Closed,1312,55,35,,3
+Fix misspelling in a text resource,2017-12-15,Merged,1311,1,3,,2
+CLI: interpretation of VT100 keys was flipped,2017-12-15,Merged,1310,2,2,,1
+Add build essential to Debian dependencies,2017-12-18,Merged,1309,1,1,,1
+Add boot sequence visual indicators,2017-12-13,Merged,1308,15,1,txt ,1
+Minor fix of extract datetime,2017-12-19,Merged,1307,9,2,,2
+abstract enclosure,2018-08-27,Closed,1306,"1,204",804,,1
+Add platform type/build to info sent to register,2017-12-22,Merged,1305,29,0,,1
+Feature/overwritten settings,2017-12-13,Merged,1304,11,4,,2
+Fix bug in rendering data in __translate_file,2017-12-12,Merged,1303,1,1,,1
+fix _hack_check_for_duplicates,2017-12-13,Merged,1302,2,2,,1
+fix pt-pt unicode troubles,2017-12-12,Merged,1301,62,78,,2
+Protect against bad settingsmeta.json,2017-12-13,Merged,1300,17,7,,1
+Add CLI log clearing and other tweaks,2017-12-10,Merged,1299,13,2,,1
+Fix simple typo in switch to Github,2017-12-10,Merged,1298,1,1,,1
+Fix FANN dependency by locking to version,2017-12-08,Merged,1297,1,0,,0
+Bugfix/polling fixes,2017-12-09,Merged,1296,63,54,,1
+fixed identifier to be unique across all accounts,2017-12-08,Merged,1295,12,10,,1
+added missing variable fixes,2017-12-08,Merged,1294,11,3,,1
+Handle failure in _save_uuid,2017-12-08,Merged,1293,2,1,,1
+scripts/mycroft-use.sh broken  #1121,2017-12-12,Closed,1292,6,6,,1
+Fix lock around speech.,2017-12-07,Merged,1291,32,37,,1
+Global Sync for skill settings,2017-12-07,Merged,1290,268,97,,0
+Add lang as parameter to EnclosureReader,2017-12-07,Merged,1289,3,2,,1
+Add helper translate methods to MycroftSkill,2017-12-07,Merged,1288,73,10,,1
+Add phonetic spelling option to TTS engines,2018-01-03,Merged,1287,30,3,py ,1
+Tweaks for Command Line Interface (CLI),2017-12-07,Merged,1284,57,25,,1
+Fix the timing of isSpeaking signal,2017-12-06,Merged,1283,1,1,,1
+Improve skiller.sh,2017-12-07,Merged,1282,160,20,,1
+Modifications for wifi-setup rework,2017-12-06,Merged,1281,10,10,dialog ,2
+Add support for unnamed intents,2017-12-06,Merged,1280,13,7,,1
+Add mycroft.awoken message when listener is awoken,2017-12-06,Merged,1279,8,1,,2
+Add get_response method as a synchronous alternative to converse,2017-12-07,Merged,1278,143,9,voc ,6
+Add generated json files to gitignore,2017-12-02,Merged,1277,4,0,,1
+Fix skill metrics,2017-12-04,Merged,1276,3,3,,2
+Fix data field in msm messagebus messages.,2017-12-06,Merged,1275,4,4,,1
+Added a new feature to... nevermind,2018-07-31,Closed,1274,66,8,dialog ,3
+Attempt to allow CLI to display utf-8 encoded text.,2018-01-09,Merged,1273,25,14,,1
+Correct test coverage,2017-12-07,Merged,1272,3,0,,1
+Make reference leak detection more reliable,2017-12-07,Merged,1271,14,9,py ,2
+Allow spaces around key in dialog template file,2017-11-29,Merged,1266,9,1,,1
+allow phonemes in any lang,2017-11-29,Merged,1264,5,3,conf ,2
+Only emit start/stop messages for skill handlers by default (not all event handlers),2018-02-15,Merged,1263,37,31,,1
+ibm watson tts,2018-01-07,Merged,1261,66,3,,3
+bing tts,2018-01-09,Merged,1260,68,1,,2
+Python 2/3 compatibility,2017-12-18,Merged,1259,111,84,,11
+Handle ConnectionError when retrieving user id in MutableMicrophone,2017-11-24,Merged,1258,2,2,,1
+Added more utterances for misunderstood requests,2018-01-08,Closed,1257,4,2,,1
+Better support for creating distribution packages and having skills folders not at /opt/mycroft/skills,2018-05-24,Closed,1255,42,25,py conf ,4
+"Added section on proxy authentication config, partially resolves #1245",2017-11-24,Merged,1254,49,7,,0
+Fix handling of unicode strings in dialog renderer,2017-11-23,Merged,1253,1,2,,1
+Reduce unneccessary loading of configuration files,2017-11-23,Merged,1251,4,4,,1
+Fix viseme bug from PR #1242,2017-11-22,Merged,1250,3,2,,2
+Allow name-less label in settingmeta.json,2017-11-22,Merged,1249,3,1,,1
+Increase min wait time in wait_while_speaking(),2017-11-22,Merged,1248,2,3,,2
+Add general metrics reporting,2017-11-23,Merged,1247,54,4,,4
+Add 'mycroft.mic.listen' messagebus command,2017-11-22,Merged,1244,7,4,,1
+Fix dialog renderer,2017-11-21,Merged,1243,1,1,,1
+Improve mouth synchronization with speech,2017-11-21,Merged,1242,10,3,,3
+Translate German,2018-02-18,Closed,1240,0,0,,0
+Issue-1227 Fix arg =[] and ={},2017-11-23,Closed,1236,23,11,,6
+Remove pystache,2017-11-17,Merged,1235,4,3,txt ,1
+Enhance CLI and screen corruption fix,2017-11-18,Merged,1234,36,16,,1
+Better support for creating distribution packages and having skills folders not at /opt/mycroft/skills,2017-11-24,Closed,1231,41,25,py conf ,4
+Add send_email method to skills,2017-11-22,Merged,1230,42,0,,3
+bing + houndify stt,2018-01-09,Merged,1229,75,8,py ,3
+Add replacment for Google TTS via Google Cloud Speech API,2017-11-20,Merged,1226,52,1,py txt ,2
+Feature/local pocketsphinx STT,2018-05-07,Closed,1225,"589,654",15,,3
+Improve accuracy of metrics naming,2017-11-19,Merged,1223,11,4,,1
+Fix typo when enabling learn,2017-11-12,Merged,1219,1,1,,1
+Handle missing messagebus in a correct way,2017-11-23,Merged,1218,4,1,,1
+Remove all mycroft packages individually,2017-11-19,Merged,1217,17,1,,1
+Remove offensive spaces,2017-11-09,Merged,1216,11,11,,1
+MSM rerun of skill requirements.txt once per session,2017-11-09,Merged,1215,43,16,,1
+mycroft-use: Use autoremove when removing mycroft-mark-1 package,2017-11-09,Merged,1213,1,1,,1
+"Add ""all"" option to stop-mycroft.sh",2017-11-09,Merged,1212,4,2,,1
+Add optional skill announcement message,2017-11-09,Merged,1211,79,36,,3
+Feature/skip wake words,2018-05-07,Closed,1210,88,9,conf ,4
+Bugfix/fix speech listener reload 1208,2018-05-07,Closed,1209,74,9,,3
+Fix wake word record length,2017-11-09,Merged,1207,19,14,conf ,2
+Feature/keep transcriptions,2017-11-08,Closed,1206,0,0,,0
+Feature/keep transcriptions,2018-05-07,Closed,1205,85,0,,2
+Move session config from global scope,2017-11-09,Merged,1204,2,2,,1
+Minor improvements to the msm tool,2017-11-08,Merged,1201,111,1,,1
+Minor improvements to the msm tool,2017-11-07,Closed,1200,0,0,,0
+Precise Wake Word Listener,2017-11-09,Merged,1199,125,2,conf ,3
+Fix Padatious problems,2017-11-02,Merged,1198,8,5,txt ,2
+Feature/audioservice update,2017-11-22,Merged,1197,359,344,,0
+Configuration system corrections,2017-11-07,Merged,1196,9,2,,1
+Adding a stop() function to audioservice.py,2017-11-07,Merged,1195,4,0,,1
+Feature/status event scheduler,2017-11-02,Merged,1193,67,3,,2
+Removing default skill pip dependencies,2017-11-06,Merged,1192,2,11,,0
+Feature/neon gecko features,2017-11-01,Closed,1191,"754,648",52,py ,1
+Test/event scheduler,2017-11-07,Merged,1189,139,24,,2
+Add tests for creating pocketsphinx hotwords,2017-11-09,Merged,1188,167,4,,3
+Added remove_event skills/core.py,2017-11-01,Closed,1187,15,1,,1
+Inform user about skill installation at first start,2017-12-20,Closed,1185,34,3,py ,3
+Fix no-internet prompt,2017-10-28,Merged,1183,10,21,py ,5
+Add 'home' and 'home-test' to mycroft-use.sh,2017-11-07,Merged,1182,155,67,,1
+Remove Location as a default context word,2017-10-28,Merged,1181,1,1,,1
+Cleanup of CLI filters and logged messages,2017-10-28,Merged,1180,3,6,,3
+Fix for Configuration.get(),2017-10-28,Merged,1179,4,4,,2
+Fixes for startup when not paired,2017-10-28,Merged,1178,11,1,,2
+Fix PEP8 and unittest errors from PR 1049,2017-10-27,Merged,1177,171,173,,0
+Fix enclosure client broken by #1110,2017-10-27,Merged,1176,2,2,,1
+phonemes from string util,2018-10-02,Closed,1174,80,0,txt ,1
+Feature/subscription voice,2017-10-26,Merged,1173,115,28,,4
+Fall back to default wake word on invalid config,2017-10-21,Merged,1170,9,3,,2
+Add https support to audio service,2017-10-19,Merged,1169,12,8,,2
+Bugfix/issue 1141,2017-10-26,Merged,1168,25,10,,2
+Bugfix/stop speaking,2017-10-26,Merged,1167,67,44,,3
+Fix timeout of self.queue.get() in consumer,2017-10-17,Merged,1166,1,1,,1
+Return if audio is None in listener,2017-10-17,Merged,1165,3,0,,1
+Bugfix/stop speaking,2017-10-17,Closed,1164,67,44,,3
+Fix reloading skills system,2017-10-16,Merged,1162,6,12,,1
+Fix for install of MSM defaults,2017-10-16,Merged,1161,6,6,,1
+"Prevent the ""rolling eye"" syndrome - Issue #967",2017-10-17,Merged,1160,7,4,,1
+Add timeout to consumer queue get,2017-10-16,Merged,1159,4,4,,1
+"Fix cd syntax to avoid ""too many arguments"" error.",2017-10-26,Merged,1157,2,2,,1
+Issue #967 - eyes keep spinning on boot,2017-10-15,Merged,1156,10,9,,1
+Bugfix/block loading during install,2017-10-15,Merged,1155,22,13,,1
+added safety net for null values in get settings,2017-10-13,Merged,1154,6,5,,1
+"SkillManager, msm messagebus notifications",2017-10-13,Merged,1152,375,238,py dialog ,4
+improved skill settings,2017-10-13,Merged,1151,219,88,,2
+Add g++ to native dependencies,2017-10-26,Merged,1150,4,4,,1
+Fix Padatious Entities,2017-10-26,Merged,1149,2,2,txt ,1
+Updating version when device is update,2017-10-11,Merged,1147,14,1,,2
+Setup skill before installing in skill dir,2017-10-09,Closed,1143,6,4,,1
+Bugfix/stop speaking,2017-10-10,Merged,1142,12,23,,2
+Upgrade padatious to fix travis build,2017-10-06,Merged,1133,2,2,txt ,1
+Padatious fixes,2017-10-05,Merged,1132,4,4,txt ,1
+Add notifications when starting/stopping recording,2017-10-05,Merged,1130,9,0,,1
+Add DuckDuckGo as default skill,2017-10-11,Merged,1129,1,1,,1
+Change to Apache 2.0 license from GPLv3.0,2017-10-04,Merged,1128,"1,612","1,642",sh py ,14
+Use opt in value to record wake words,2017-10-03,Merged,1127,8,4,conf ,3
+typo fix,2017-10-12,Merged,1126,1,1,,0
+Upgrade Padatious to 0.3.2 which brings in entity support,2017-10-03,Merged,1125,88,24,txt entity ,4
+Chromecast quit current app before starting new playback,2017-10-27,Merged,1123,22,7,,1
+minor grep tweak,2017-10-12,Closed,1122,2,2,,1
+Fix log autocomplete,2017-10-07,Merged,1120,17,11,,1
+Fix configuration manager saving,2017-09-29,Merged,1119,2,2,,1
+Remove wifi setup,2017-09-29,Merged,1118,1,"1,397",py ,3
+Add workaround for inspect-decorator problem,2017-10-04,Merged,1117,7,0,,1
+Add flag to allow running dev_setup.sh as root,2017-09-27,Merged,1115,36,2,,1
+Bugfix/event scheduler,2017-09-28,Merged,1114,37,9,,2
+more TTS engines,2017-12-12,Closed,1112,505,33,,9
+Refactor/configuration,2017-10-26,Merged,1110,416,583,,9
+"fallback start, end, failure messages",2017-09-28,Merged,1108,22,4,,1
+Revamping the scripts used to start/stop Mycroft,2017-09-28,Merged,1107,296,246,screen ,3
+Make sure structure for wake word config entry exist before use,2017-09-28,Merged,1106,2,0,,1
+add SSML support for TTS,2018-04-18,Closed,1104,142,19,,11
+add amazon Polly TTS support,2017-09-23,Closed,1103,130,2,py ,3
+Added Alternate path for Virtual Wrapper Python,2017-09-28,Merged,1101,2,0,,1
+alter msm virtualenv handling to allow for docker/other installs.,2017-10-17,Closed,1099,45,49,,1
+Fix a small typo in msm/man/man1/msm.1 line 12,2017-09-27,Merged,1098,1,1,,1
+Remove wolframalpha as a required python library,2017-09-18,Merged,1097,0,1,,0
+Fix install from within Mycroft on Mark1/Picroft,2017-09-18,Merged,1096,17,12,,1
+Add new LOG class,2017-09-21,Merged,1095,536,491,,6
+Fix requirements installation,2017-09-18,Merged,1094,1,0,,0
+"Add 'msm remove', improve error handling and parsing",2017-09-18,Merged,1093,340,131,,1
+issue-1091 - Provide Dutch translations of dialog files,2017-09-28,Merged,1092,24,0,,12
+Replace Volume Intent invocation from enclosure with specific messages,2017-09-15,Merged,1089,4,6,,1
+Disable wake word upload by default,2017-09-15,Merged,1088,1,1,,1
+"Fix missing ""I am awake"" at wake up",2017-09-15,Merged,1087,9,4,,2
+Bugfix/hotword threshold,2017-09-15,Merged,1086,4,3,conf ,2
+Feature/jarbas priority skills,2017-09-15,Merged,1084,54,8,py ,2
+Detect OS in dev_setup.sh instead of using build_host_setup,2017-09-14,Merged,1082,29,123,,5
+CLI: Add find command and chat history sizing,2017-09-14,Merged,1081,107,33,,1
+Restore reconnect timer on ws on connect,2017-09-14,Merged,1080,2,0,,1
+Add messages for skill handler's starting/stopping,2017-09-14,Merged,1079,30,1,,1
+Make muted mic stay muted when stt is restarted,2017-09-14,Merged,1078,48,18,,3
+Update README.md,2017-09-14,Merged,1077,2,1,,0
+Make test_api slightly more robust,2017-09-14,Merged,1076,41,21,,2
+"Add ""audio"" service to start.sh help.",2017-09-14,Merged,1075,1,1,,1
+mycroft-use script for Mark 1 and picroft,2017-09-14,Merged,1073,222,0,,1
+Feature/check version,2017-09-15,Merged,1072,76,0,,3
+Add more safety around the context manager,2017-09-13,Merged,1071,36,10,,1
+"speak method improvements, mute and metadata",2018-10-02,Closed,1069,55,27,,2
+Bugfix/mute while speaking,2017-09-13,Merged,1068,31,14,,5
+Run requirements.sh when installing skills if exists,2017-10-20,Merged,1067,8,0,,1
+Fix links on README,2017-09-11,Merged,1066,2,1,,0
+Make skill id hash of skill directory,2017-09-12,Merged,1065,5,7,,2
+Reduce configuration loading in module scope,2017-09-13,Merged,1064,21,13,,5
+Test api/stt,2017-09-12,Merged,1063,402,0,,3
+Hotword factory,2017-09-15,Merged,1062,200,156,,4
+Centralize APIS section,2018-10-03,Closed,1061,8,0,py ,2
+Ignore enclosure.mouth.display message by default,2017-09-08,Merged,1060,1,1,,1
+fix root path import bug in hacked core files,2017-09-06,Closed,1059,4,3,,1
+Notification on dependency changes + Padatious upgrade,2017-09-07,Merged,1058,26,1,sh py txt ,4
+Mathematics from natural language support #1056,2017-09-08,Closed,1057,573,1,,0
+Allow any bitrate of audio to the MycroftSTT,2017-09-13,Merged,1054,7,3,txt ,1
+Fix send pairing utterance before loading skills,2017-09-13,Merged,1053,18,2,,1
+fixing typo,2017-09-03,Merged,1052,3,3,,1
+Pt-PT translation,2017-10-26,Merged,1049,"1,686",171,,1
+Fix msm from pulling back commits on another branch,2017-09-12,Merged,1048,7,2,,1
+intent_service is OBVIOUSLY not a package,2017-09-01,Merged,1047,0,1,,1
+Fix required package intent_service,2017-09-01,Merged,1046,1,1,,1
+Write settings dict to disk more frequently,2017-09-01,Merged,1043,12,8,,2
+Tame the mycroft.sh script,2017-09-01,Merged,1042,20,1,,1
+Fix errors during shutdown,2017-09-01,Merged,1041,80,64,,1
+Automatically find skill directory in __init__,2017-08-31,Merged,1040,6,2,,1
+Learning option for sharing wake word recordings,2017-09-15,Merged,1039,141,10,txt conf dialog mycroft/res/wakeword_rsa ,6
+"Minor CLI enhancements, mycroft-cli-client fix #1036",2017-08-31,Merged,1038,94,56,,0
+Bugfix/localization,2017-08-31,Merged,1035,9,3,,3
+Add portuguese translation to the dialogs,2017-09-15,Merged,1033,24,0,,10
+Add event scheduler,2017-09-12,Merged,1032,256,4,,3
+save utterances,2017-09-01,Merged,1029,16,11,,1
+Allow requests for STT from wave_file,2017-09-12,Closed,1028,53,7,,3
+Fix failure when using one_of in intents,2017-08-31,Merged,1026,15,1,,1
+Add sphinx documentation,2017-09-01,Merged,1024,263,1,doc/Makefile py rst txt ,8
+Add useful imports to mycroft and mycroft.util modules,2017-08-31,Merged,1023,12,1,,2
+Make mycroft-core.sh invocable from outside,2017-10-26,Merged,1021,14,1,,3
+Fix expect response for speak_dialog,2017-08-31,Merged,1020,1,2,,1
+Bugfix/issue 1014,2017-08-31,Merged,1018,15,2,,3
+enclosure base class,2017-12-29,Closed,1016,220,0,,1
+make message parameter on intent handler optional,2017-09-02,Merged,1015,14,2,,1
+Messagebus interface,2018-10-02,Closed,1013,73,0,,1
+Cleanup skills,2017-08-22,Merged,1012,167,71,,1
+Add french translation to the dialogs,2017-08-23,Merged,1011,22,0,,10
+Change instance of ConfigurationManager().get to ConfigurationManager…,2017-09-13,Merged,1010,2,2,,2
+Display Service,2018-10-02,Closed,1009,"1,170",2,conf py ,6
+Fix skill container,2017-08-21,Merged,1008,11,1,,2
+Move intent_service tests to correct directory,2017-08-22,Merged,1006,0,0,,1
+small fix,2017-08-21,Merged,1005,3,3,,2
+Test skills core,2017-08-31,Merged,1003,291,2,intent ,4
+Fix multiple reloads of skills at startup,2017-08-18,Merged,1002,24,9,,1
+Add fallback-aiml to defaults,2017-08-18,Merged,1000,4,2,txt ,1
+fixing issue 998,2017-08-18,Merged,999,1,1,,1
+Hot Word detection,2017-11-16,Closed,997,148,33,conf ,4
+Remove requrement to build Intents,2017-08-17,Merged,996,17,1,,1
+Add mycroft-core to virtualenv path,2017-08-17,Merged,992,19,3,,1
+Add subscription endpoint to DeviceApi,2017-08-15,Merged,991,19,0,,1
+Add class for handling downloads,2017-08-16,Merged,990,104,0,,1
+#984 -- no need to clone all mimic branches for the dev_setup,2017-08-14,Merged,988,1,1,,1
+Feature/issue 984 -- clone mimic branch with --depth=1,2017-08-14,Closed,985,19,9,,2
+Mimic cpu calc rebase by el-tocino,2017-08-17,Merged,983,15,13,,3
+Add handlers for lowering/restoring pulseaudio vol,2017-08-11,Merged,981,58,9,,1
+allow internal configuration changes,2017-08-22,Merged,980,32,7,,1
+Fix mute mycroft-voice,2017-08-09,Merged,979,1,1,,1
+Feature/easier fallback,2017-08-10,Merged,976,34,2,,1
+Fix double __init__ in MycroftSkill,2017-08-09,Merged,975,0,3,,1
+Add manual page for msm,2017-08-09,Merged,974,33,0,,1
+General cleanup of Mycroft Skill Manager (msm),2017-08-14,Merged,973,190,138,,1
+added actions to the help section of msm.,2017-08-09,Merged,972,7,3,,1
+Fixing wakeword save,2017-08-09,Merged,971,1,1,,1
+Fix message bus logging for audio service,2017-08-09,Merged,970,1,2,,1
+Build mimic with cores determined by memory calc,2017-08-08,Closed,965,25,18,msm/msm ,4
+Fix the logger fix,2017-08-03,Merged,964,1,1,,1
+Fix a missing logger which caused a crash,2017-08-03,Merged,963,4,1,,1
+Feature/display state manager,2017-08-03,Merged,962,10,5,,2
+Catch exceptions in user provided stop() method,2017-08-03,Merged,961,14,2,,1
+Make visime stream end together with audio,2017-08-09,Merged,959,7,3,,2
+Prevent unneeded mimic compilation in dev_setup.sh,2017-08-12,Merged,957,18,8,,1
+Commit headline -- not longer than this line (50),2017-08-02,Merged,956,1,0,,1
+Fix rebase issues introduced with audio subsystem,2017-08-02,Merged,954,15,10,,4
+fixed permissions for ipc file - display manager,2017-08-02,Merged,953,3,0,,1
+Adding commit template and dev_setup.sh support,2017-08-02,Merged,952,39,0,sh ,2
+Upgrade netifaces in requirements.txt to netifaces==0.10.6,2017-08-02,Merged,951,1,1,,0
+Restricting move version: mock==2.0.0,2017-08-02,Merged,949,1,1,,0
+Altered prepare-msm.sh to,2017-08-02,Merged,947,21,5,,1
+altered return codes for dupe/missing,2017-08-02,Merged,945,2,2,,1
+Remove volume parameter from default wav play cmd,2017-08-02,Merged,944,1,1,,1
+bugfix/issue-940 change LOGGER to logger,2017-08-01,Merged,941,1,1,,1
+Implement Padatious support (examples based intent parser),2017-08-17,Merged,939,187,26,md sh conf py txt ,10
+Add intent fallback system,2017-08-08,Merged,938,59,16,py conf ,6
+Intent context (including conversations),2017-08-16,Merged,934,244,2,,4
+Feature/skill configuration,2017-08-02,Merged,933,155,41,json ,5
+Updating build host script for pillow dependencies,2017-07-25,Closed,929,1,0,,1
+Add libjpeg-turbo package to build_host scripts,2017-07-25,Merged,928,9,4,,4
+converse method,2017-08-17,Merged,925,121,18,,3
+Fix filename for cache lookup,2017-07-19,Merged,921,1,1,,1
+Make expect response trigger when mycroft stops speaking,2017-07-19,Merged,920,10,4,,1
+Make skill name parameter optional.,2017-07-19,Merged,918,6,5,,1
+Creating installation script,2017-09-13,Closed,916,28,6,sh ,5
+#914 - Adding script to update the dev env,2017-07-14,Merged,915,12,0,,1
+"Adding code of conduct, editorconfig, and updating Contributing.md",2017-11-09,Closed,912,93,0,md ,1
+Making Readme.md more contributor friendly,2017-08-01,Merged,908,20,9,,0
+Issue 887 -- msm mk1 fix,2017-07-13,Merged,907,2,3,,1
+Hack to deal with a silly problem happening during upgrade of Mark 1,2017-07-11,Merged,903,43,2,,2
+Feature/issue 898 -- Create reboot handler for reboot on signal at start-up,2017-07-11,Closed,900,9,1,,1
+Add intent fallback system,2017-07-14,Merged,899,55,14,,4
+correcting a misspelling on  line 15,2017-07-09,Merged,897,1,1,,1
+Issue-895 - Adding uppercase support to wake words,2017-07-09,Merged,896,2,2,,1
+Check queue empty with self.queue.empty() instead of len(),2017-07-07,Merged,894,15,4,,1
+Move audio output start and end messages to TTS class,2017-07-07,Merged,892,48,38,,6
+Wait until playback thread is done before sending audio_output_end,2017-07-07,Closed,891,13,4,,2
+MSM default task should download default skill and update,2017-07-06,Merged,890,1,1,,1
+Fix model folder in manifest,2017-07-06,Merged,889,1,1,,1
+Fully fix wake up functionality,2017-07-06,Merged,888,5,2,,1
+Fix wake up test and formatting,2017-07-05,Merged,886,13,8,,3
+Test,2017-07-06,Closed,885,0,0,,0
+Ignore,2017-07-05,Closed,884,1,2,,1
+Ignore,2017-07-05,Closed,883,1,1,,1
+Issue#850 Check for mimic.,2017-07-06,Merged,882,23,4,,1
+Change logging level for missing dialog/vocab to debug,2017-07-05,Merged,881,2,2,,1
+Fix subprocess.call() issue and add error logging,2017-07-06,Merged,879,6,2,,1
+Kaldi STT,2017-07-13,Merged,878,27,2,py ,2
+Make Wake Word detection modular,2017-07-05,Merged,876,47,23,mycroft/client/speech/model/en-us/hmm/README → mycroft/client/speech/recognizer/model/en-us/hmm/README params mycroft/client/speech/model/en-us/hmm/mdef → mycroft/client/speech/recognizer/model/en-us/hmm/mdef mycroft/client/speech/model/en-us/hmm/means → mycroft/client/speech/recognizer/model/en-us/hmm/means mycroft/client/speech/model/en-us/hmm/noisedict → mycroft/client/speech/recognizer/model/en-us/hmm/noisedict mycroft/client/speech/model/en-us/hmm/sendump → mycroft/client/speech/recognizer/model/en-us/hmm/sendump mycroft/client/speech/model/en-us/hmm/transition_matrices → mycroft/client/speech/recognizer/model/en-us/hmm/transition_matrices mycroft/client/speech/model/en-us/hmm/variances → mycroft/client/speech/recognizer/model/en-us/hmm/variances ,15
+Fixes #874. start.sh now handles $WORKON_HOME,2017-07-03,Merged,875,6,1,,1
+#871 - Updating all skills,2017-07-06,Merged,873,15,4,,1
+#871 - Updating all skills,2017-06-30,Closed,872,2,4,,1
+Minor Typo Fixes,2017-07-02,Merged,870,2,2,,0
+Feature/amc comments,2017-06-30,Merged,869,72,0,,1
+Added ./mycroft.sh restart functionality,2017-06-30,Merged,868,11,0,,1
+Bugfix/issues 849 - fixes ./mycroft.sh restart,2017-06-30,Closed,867,568,3,sh ,1
+Adds the ExtractDateTime parse function from Christopher (plus relevant tests),2017-07-10,Merged,866,750,2,,0
+Feature/decorate intenthandlers,2017-07-05,Merged,865,34,3,,1
+Redoes 748: This add comments to document the message class,2017-06-30,Closed,864,70,6,py dialog ,3
+"Revert ""This add comments to document the message class""",2017-06-29,Merged,863,6,85,msm/msm py txt dialog ,10
+"Fix cd ""gotoskillsfolder"" swap in msm",2017-06-29,Closed,862,0,1,,1
+Fixed allow_timeout (used in out-of-the-box); and a wifi setup tweak,2017-06-29,Merged,861,2,2,,1
+External enable/disable intent,2018-04-06,Closed,860,62,15,,1
+Load Piority skills first,2017-09-15,Closed,858,37,7,py ,2
+Read Blacklisted skills from config,2017-06-30,Merged,857,6,2,py ,2
+#855 - MSM isn't returning when skill isn't founded,2017-06-30,Closed,856,2,2,,1
+Gregmccoy feature/issue 788,2017-06-29,Merged,854,11,0,,1
+feature/issue-852,2018-01-08,Closed,853,2,1,,1
+feature/issue-850,2018-01-09,Closed,851,6,3,,1
+Issue-685 - Using load_commented_json in log.py,2017-06-22,Merged,845,3,3,,1
+Check if settings have changed with simple hash,2017-06-23,Merged,844,44,3,,2
+mycroft-use script to switch builds,2017-09-14,Closed,841,118,0,,1
+Fix Skill tests,2017-08-17,Merged,840,330,88,txt py ,5
+Feature/display state manager,2017-07-22,Merged,838,380,4,,2
+Allow service to reload as intended,2017-06-26,Merged,837,63,5,txt ,4
+Improve mycroft.sh,2017-06-15,Merged,835,117,108,sh screen ,6
+Fix cli bugs,2017-06-20,Merged,833,29,14,,1
+Add Padatious install scripts,2017-06-14,Merged,830,44,0,,2
+Closes #801 - Refactor setup_base to use CORE_VERSION_STR,2017-07-07,Merged,829,2,2,,1
+Add local cache fallback for remote config.,2017-06-23,Merged,828,29,1,,1
+"Revert ""#801 Refactor setup_base.py to use new versioning method""",2017-06-13,Merged,826,2,3,,1
+#824 Change has_been_paired to load the current identity file,2017-06-13,Merged,825,8,2,,2
+Issue #822,2017-06-26,Merged,823,16,11,,1
+"Syntax, layout, and typo repairs.",2017-07-05,Merged,819,52,47,,0
+Check pairing after possible wakeword is detected,2017-06-13,Closed,818,1,3,,1
+Minor onboarding refinements,2017-06-13,Merged,817,137,63,,8
+doing german normalise and translate some basics,2018-01-08,Closed,814,235,1,dialog ,14
+msm updated for issue 807,2017-06-30,Merged,813,168,94,,1
+Bugfix 807,2017-06-08,Closed,812,"1,028",373,gitignore md msm/msm py ,6
+Feature/onboarding bug,2017-06-08,Merged,811,1,1,,1
+Added ability to display png images to the Mark I faceplate.,2017-06-28,Closed,809,183,1,txt ,2
+Changes to out-of-the-box experience,2017-06-07,Merged,808,151,67,,6
+#805 Removed unused dependencies from requirements.txt,2017-07-07,Merged,806,0,10,,0
+TTS playback thread,2017-07-06,Merged,804,206,88,,4
+#801 Refactor setup_base.py to use new versioning method,2017-06-13,Merged,802,3,2,,1
+Feature/install padatious,2017-06-14,Closed,800,44,0,,2
+Remove catching of KeyboardInterrupt from signal handler,2017-05-31,Merged,798,2,5,,1
+"#790  utterance source, speech metadata, speech targetting",2018-02-07,Closed,796,138,61,rst ,6
+Make wake word listener have length depending on number of phonemes,2017-05-30,Merged,794,7,4,conf ,2
+Adding Extraction of Numbers,2017-05-30,Merged,793,212,0,,2
+Issues 788 - Adding remove_all_listeners,2017-06-29,Closed,789,3,0,,1
+feature/issues-785,2017-05-25,Merged,786,188,0,,2
+Update CONTRIBUTING.md,2017-05-23,Merged,784,1,1,,0
+"converse, intent_parser, external shutdown/reload, priority and blacklist skills from config",2017-08-23,Closed,783,373,33,py ,3
+Use exit status of msm to determine install success,2017-05-23,Merged,782,28,6,dialog py ,3
+"Feature/issue 779 -- Change wifi setup password to ""12345678""",2017-05-22,Merged,780,3,3,dialog ,2
+adding in docker setup script,2017-06-26,Merged,775,28,0,,1
+"Update TTS, STT and listener when websettings are changed",2017-05-30,Merged,774,94,12,,5
+Add docker build script,2017-05-21,Closed,773,178,269,gitignore md sh msm/msm py conf ,13
+Hotfix/rebase master to 0.8.13,2017-05-20,Closed,770,"1,076",335,gitignore md msm/msm in py txt ,9
+Update Master to 0.8.13,2017-05-18,Closed,768,755,312,gitignore md sh msm/msm py txt ,12
+Converting last_internet_notification to a class instead of instance var,2017-05-18,Merged,766,4,3,,1
+SSH messages were misleading - no reboot is needed anymore,2017-05-18,Merged,765,2,2,,2
+User prompts to help the Mark 1 connect to the internet didn't always occur,2017-05-18,Merged,764,41,11,,1
+Cleaning up the MANIFEST file used for packaging,2017-05-16,Merged,763,3,6,,1
+Feature/rebase master to 0.8.12,2017-05-16,Merged,762,754,310,gitignore md msm/msm py txt ,11
+Cleaning up the MANIFEST file used for Debian packaging,2017-05-16,Closed,761,3,6,,1
+Wifi setup changes,2017-05-16,Merged,760,45,14,js dialog ,8
+Cleaning up the MANIFEST file used for Debian packaging,2017-05-16,Closed,759,47,19,py dialog ,8
+"converse, intent_parser, external shutdown/reload, priority and blacklist skills from config",2017-05-23,Closed,756,324,28,py ,3
+Remove ignoring SIG_CHLD,2017-05-22,Merged,754,0,9,,3
+This tests the messagebus for mycroft.,2017-07-02,Closed,752,159,2,msm/msm py dialog ,7
+Update pyOpenSSL version to 16.2.0,2017-05-18,Merged,751,1,1,,0
+Fix GoogleSTT,2017-05-18,Merged,750,1,1,,1
+This add comments to document the message class,2017-06-29,Merged,748,85,6,msm/msm py txt dialog ,10
+Changing how SSH is enabled.,2017-05-09,Merged,745,3,2,,1
+Support for Mark 1 SSH > BLOCK menu item,2017-05-09,Merged,744,31,9,dialog ,6
+Improved handling of button press,2017-05-08,Merged,743,28,8,,2
+Add support for switching tts and tts-settings,2017-05-22,Closed,742,445,299,gitignore md msm/msm py ,10
+Issues-740 Adding my-info.sh,2017-05-18,Merged,740,238,0,,1
+Restore the drawing of icons when showing weather.py,2017-05-08,Merged,738,45,4,,2
+Enable config updates for skills in container,2017-05-08,Merged,735,3,0,,1
+"Fixing demo mode, sending two events on message bus",2017-05-05,Merged,733,0,3,,1
+increases boot delay on reboot after ssh and reset,2017-05-05,Merged,732,2,2,,1
+Adding demo skill,2017-05-05,Merged,731,1,1,,1
+Adding a script to generate a skill,2017-05-22,Merged,730,35,0,,1
+Adding demo mode,2017-05-04,Merged,729,3,0,,1
+Fixes error with wpa_supplicant string,2017-05-04,Merged,728,31,31,,1
+#726 - Device api find is passing self to get,2017-05-04,Merged,727,3,3,,1
+Adding an update time feature once Mycroft is connected (NTP),2017-06-15,Closed,725,411,298,gitignore md msm/msm py ,10
+Added a watch dog script to check for mic activity,2018-07-09,Closed,724,162,22,py sh ,6
+i18n: Spanish normalize_es,2017-05-05,Merged,722,239,1,,2
+Feature/wifi reset,2017-05-03,Merged,720,47,36,,2
+Adding localization mechanism for strings embedded in mycroft-core code,2017-05-03,Merged,717,63,22,dialog ,5
+Renaming DeviceApi.find() to DeviceApi.get(),2017-05-03,Merged,716,63,3,,1
+Adding SSH enable option,2017-05-03,Merged,712,17,0,,2
+#706 - saying that isn't connected,2017-04-28,Merged,711,1,1,,1
+Update __init__.py,2017-04-28,Merged,710,1,0,,1
+#706 - fixing on raspberry msm,2017-04-27,Merged,709,1,4,py ,2
+Adds reset wifi feature to reset,2017-04-27,Merged,708,48,1,,3
+#706 - Using configuration to get msm bin,2017-04-27,Merged,707,6,4,py ,2
+Create build_host_setup_docker.sh,2017-05-21,Closed,704,206,269,gitignore md sh msm/msm py conf ,13
+Bugfix/issue 702,2017-04-27,Merged,703,38,4,,3
+Adds Singing as a default skill,2017-04-26,Merged,700,1,1,,1
+Coveralls Coverage with Travis,2017-04-26,Merged,698,61,222,gitignore md py wav git_keep ,17
+#696 - installing skills on connect,2017-04-25,Merged,697,40,13,py ,2
+"Fixed typo in skills/core.py -- ""loaded""",2017-04-24,Merged,694,1,1,,1
+#691 - adding setting per skill,2017-05-30,Merged,692,131,1,json ,4
+#688 - merge config files,2017-04-26,Merged,689,19,1,,1
+#686 - update skill should only update unchanged skills,2017-04-21,Merged,687,4,2,,1
+#683 - removing msm path configuration,2017-04-21,Merged,684,1,4,py ,2
+#680 - error in msm script,2017-05-01,Merged,682,1,1,,1
+Bugfix/issue 680: msm script error,2017-04-21,Closed,681,457,111,py mycroft/client/speech/model/en-us/hmm/README params mycroft/client/speech/model/en-us/hmm/mdef mycroft/client/speech/model/en-us/hmm/means mycroft/client/speech/model/en-us/hmm/noisedict mycroft/client/speech/model/en-us/hmm/sendump mycroft/client/speech/model/en-us/hmm/transition_matrices mycroft/client/speech/model/en-us/hmm/variances ,11
+Fix skill container.,2017-04-21,Merged,679,2,2,,1
+#671 - making auto load doesn't watch hidden folders changes,2017-04-20,Merged,677,22,3,,1
+#674 - Update audio accuracy test,2017-04-26,Merged,675,5,4,py sh ,3
+#671 - fixing auto load,2017-04-17,Merged,672,31,33,py ,4
+Attempt to reenable (most) of the unittests,2017-04-26,Merged,670,2,1,,1
+Drop rpmfusion from Fedora install script,2017-04-20,Merged,669,1,2,,1
+Drop rpmfusion from Fedora install script,2017-04-16,Closed,668,0,2,,1
+Issues-657 - replaced hardcoded fedora version,2017-04-20,Merged,667,1,1,,1
+Fix for issue #665.  Synching requirements.txt versions,2017-04-15,Merged,666,9,7,,0
+#663 - moving msm,2017-04-15,Merged,664,124,16,sh msm/msm ,5
+#661 - Auto installing msm on start.sh,2017-04-14,Merged,662,10,0,,1
+"Fix for issue #659, broken git install after recent changes",2017-04-14,Merged,660,53,18,py ,3
+#655 - i18n: spanish stt based on local pocketsphinx,2017-05-21,Closed,656,343,12,,2
+The configuration values were poorly documented.  See issue #653,2017-04-13,Merged,654,534,13,conf ,3
+change loading order,2017-04-11,Merged,652,11,2,,1
+Hotfix/rebase master to 0.8.8,2017-04-10,Merged,651,"1,577",167,yml md sh py ,11
+Several command line interface (CLI) improvements,2017-04-13,Merged,649,202,63,,1
+"Issues related to wake-up words and audio recording, including #595",2017-04-14,Merged,647,111,39,,2
+Fix PEP-8 issues in dev branch,2017-04-08,Merged,646,3,3,,3
+Update skill container to use Intent class,2017-04-08,Merged,645,6,7,,1
+Fix creation of /opt/mycroft/skills,2017-04-07,Merged,643,2,2,,1
+#478 - Adding toggle button on wifisetup,2017-04-14,Merged,642,29,8,png js ,3
+"corrected the ""stop"" process",2017-04-07,Merged,641,1,1,,1
+#636 - Removing reference to older skills folders,2017-04-07,Merged,639,57,65,conf ,5
+Code to prevent multiple instances of a service,2017-04-07,Merged,638,204,0,,4
+Prevent multiple Instances of service,2017-04-06,Closed,637,338,42,yml sh py conf dialog voc ,21
+#546 - Removing Skills from core and installing using msm,2017-04-07,Merged,635,45,"3,617",py mp3 dialog json voc ,26
+changed directory structure,2017-04-06,Closed,633,14,11,py sh screen in txt wav conf rx voc ,51
+build script for Solus,2017-10-16,Closed,632,22,0,sh dict ,4
+"#630 - Fixing SkillInstaller, using text to match instead of exit code",2017-04-03,Merged,631,21,7,py sh ,3
+Stop multi-sentence speech,2017-04-26,Merged,628,9,0,,1
+Bugfix/issue 624 - fix mimic_tts for unicode,2017-04-10,Merged,625,6,2,,2
+#621 - i18n: filter skill by supported language,2017-05-21,Closed,623,9,0,,1
+"improvement: issue-621, filter skills by supported language",2017-04-02,Closed,622,13,0,,2
+#594 - intent parsing inside skills,2017-05-15,Closed,620,85,41,,3
+#618 - Fixing volume skill,2017-03-31,Merged,619,5,3,,1
+Fix build_host_setup_debian.sh,2017-03-31,Merged,617,1,1,,1
+improvement proposal: allow to save records in file and no stt,2017-04-13,Closed,616,51,11,,4
+improvement: allow custom STT engines as plug-ins #612,2017-04-13,Closed,614,7,0,,1
+i18n: language codes are not always two word,2017-05-20,Merged,611,5,2,,1
+fix syntax error for Python 3,2017-06-28,Closed,604,21,21,py ,8
+"Revert ""Fixes Issue 588""",2017-03-30,Merged,603,5,6,,1
+"Revert ""Fixes Issue 588""",2017-03-30,Closed,602,5,6,,1
+Implementing WolframAlpha changes from issue #600,2017-03-31,Merged,601,13,6,,1
+Implementing audio cache feature in issue #598,2017-03-30,Merged,599,155,14,,3
+error in mic.py causes no phrase longer to 3 seconds can be used,2017-04-13,Closed,596,19,14,,1
+Fixes Issue 588,2017-03-29,Merged,591,6,5,,1
+Open listener thread and then check for network connection,2017-03-31,Merged,589,11,4,,2
+Bufix/issue 586,2017-03-20,Merged,587,2,2,,1
+Update readme for 3 build host setup scripts,2017-03-20,Merged,584,7,5,,0
+Update mimic to version 1.2.0.2,2017-03-18,Merged,582,1,1,,1
+Fetch all from mimic before updating,2017-03-20,Merged,580,4,1,,1
+"speech client, error in control of interval between calls to wakeup recognizer #577",2017-03-29,Merged,578,1,1,,1
+Add expect_response option to speak_methods,2017-03-20,Merged,576,11,4,,2
+i18n: create_wakeup_recognizer must be configurable,2017-03-20,Merged,575,5,5,,1
+Issues 568 - Fix dependencies to build latest mimic,2017-03-29,Merged,573,11,3,,3
+Update core.py,2017-03-29,Merged,572,3,0,,1
+Update build_host_setup_debian.sh,2017-03-15,Merged,569,1,0,,1
+#566 - Adding normalize import on wolfranalpha,2017-03-15,Merged,567,1,0,,1
+#560 - loading skills sorted,2017-03-14,Merged,563,3,2,,1
+Add functionality to remove and restore intents.,2017-03-30,Merged,558,26,3,,1
+Centralizing APIs in config file#540,2017-09-07,Closed,557,447,389,rst conf ,14
+load intent skill first #552,2017-03-14,Merged,550,16,1,,1
+added blacklist check to load_skill#551,2017-03-13,Merged,549,3,0,,1
+This implements CLI enhancements per issue #547,2017-03-13,Merged,548,328,36,,1
+Amcgee7 test,2018-01-09,Closed,544,221,4,txt ,4
+allow skills not to reload,2017-03-09,Merged,541,4,0,,3
+add converse method to allow skills to handle utterance,2017-05-15,Closed,539,110,7,,3
+Changes to record mycroft wake word when configured to do so.,2017-04-23,Merged,538,34,19,conf ,2
+Command line interface enhancements (#535),2017-02-27,Merged,536,413,27,,0
+#527 - skill to skill installation,2017-03-31,Merged,533,98,7,sh conf py dialog voc ,13
+Normalize text before intent parsing #530,2017-03-14,Merged,531,374,60,voc ,20
+Reduce max recording time #528,2017-02-24,Merged,529,1,1,,1
+#525 -- Updating Mimic version to 1.2.0,2017-02-27,Merged,526,16,7,sh ,3
+#521 - Skill auto reload,2017-02-24,Merged,524,77,17,,1
+Adds ./mycroft.sh start -d option that boots directly into the cli,2017-02-27,Merged,522,15,1,,1
+Changes to be committed:,2017-02-16,Merged,520,1,1,,1
+Pep8 issue515,2017-02-15,Merged,518,18,25,,8
+#516 - commenting out unit tests in .travis.yml,2017-02-15,Merged,517,2,2,,1
+Picroft wav fix,2017-02-15,Merged,514,18,2,py ,2
+Verbose skill logging,2017-02-15,Merged,513,4,0,,1
+"Refining new ""listening"" sound mechanism",2017-02-09,Merged,506,62,11,py conf wav ,5
+"Revert ""Refining new ""listening"" sound mechanism (#503)""",2017-02-09,Merged,505,11,61,conf wav ,4
+"Refining new ""listening"" sound mechanism (#503)",2017-02-09,Merged,504,61,11,conf wav ,4
+Add NATO Phonetic alphabet to Pairing skill,2017-02-09,Merged,502,18,2,,1
+#498 Automatically load data files,2017-02-10,Merged,499,17,43,,24
+#496 update adapt-parser to 0.3.0,2017-02-09,Merged,497,1,1,,0
+"CLI improvements, as per issue #493",2017-02-03,Merged,494,23,3,,1
+More Location integration for #487,2017-02-03,Merged,492,92,30,dialog ,8
+#490 - Build host setup script for RHEL7-based distros,2017-02-02,Closed,491,26,0,,1
+Issue483 third party,2017-02-02,Closed,489,20,2,,3
+#487 - Integrating location microservice with mycroft core,2017-02-01,Merged,488,60,7,conf dialog ,6
+468 - Fix tests,2017-06-28,Closed,486,105,48,py json ,15
+#484 - Fixing STT config initialization,2017-01-28,Merged,485,3,2,,1
+#479 - Shutdown all skills on process termination,2017-01-28,Merged,480,61,25,,5
+Merge branch 'prerelease-0.8.1',2017-01-25,Merged,477,0,0,,0
+Issue #460- Adds Phonetic Spelling to Pairing Skill,2017-02-09,Closed,476,11,1,,1
+#452 - Refresh token if request return unauthorized,2017-01-28,Merged,475,21,12,,1
+Fix silent mycroft when config lacks enclosure/platform,2017-01-23,Merged,474,1,1,,1
+Listen Confirmation Ding,2017-02-09,Merged,472,11,1,conf ,2
+Fixes issue #466,2017-01-20,Merged,467,16,4,,1
+Updating requests package in requirements.txt #464,2017-01-20,Merged,465,1,1,,0
+Fix related to issue #457,2017-01-20,Merged,463,1,1,,1
+Fixes issue #461,2017-01-20,Merged,462,1,1,,1
+Update build_host_setup_arch.sh,2017-01-20,Merged,459,1,1,,1
+I would like to re base and merge against master.,2017-01-19,Closed,458,26,10,,7
+gTTS version bump,2017-01-20,Merged,454,7,5,txt ,2
+Allow test to finsh immediately,2017-01-20,Merged,453,30,6,,4
+"#448 Update pip version, pip requirements, remove s3cmd, specify python2.7 in build_host_setup_debian.sh",2017-01-20,Closed,451,62,43,txt ,4
+#449 Added skill_container to mycroft-base-setup.py,2017-01-20,Merged,450,1,0,,1
+Adding support for Python3,2018-01-10,Closed,446,30,28,,14
+Issues 401 - Saying zero instead of oh,2017-01-03,Merged,443,3,1,,1
+#438 - Added KaldiSTT as a Speech to Text-Engine.,2017-07-15,Closed,440,55,10,,7
+Add pymimic tts backend,2018-04-05,Closed,439,201,1,py txt ,3
+Preparation for next mimic-release,2017-02-09,Merged,437,2,1,,1
+Preparation for next mimic release,2016-12-28,Closed,436,2,1,,1
+Fixes issue #434.  Developers working on both Cerberus and Home durin…,2016-12-28,Merged,435,103,7,py txt ,5
+Audio service,2017-08-01,Merged,433,"1,715",241,sh py ,3
+Issues-410 - Fixing 'install_pygtk.sh cd: too many arguments',2016-12-24,Merged,432,1,1,,1
+Issue #425 -- Integrate new Arduino update method ( Mark I enclosure no start at boot),2016-12-21,Merged,430,0,18,,1
+Issues 426 - TTS web socket is not initialized properly,2016-12-21,Closed,427,0,0,,0
+Issue #423  Register Me button in wifi-setup-client now points to home.mycroft.ai,2016-12-21,Merged,424,6,8,py html js ,5
+Update skills system to load from subfolders,2016-12-28,Merged,422,16,5,,2
+Issues #417 - Update to fix pep8 errors,2016-12-20,Merged,420,10,7,,5
+Hotfix/issues 416,2016-12-20,Closed,419,5,4,js conf ,3
+Fix for issue #416,2016-12-20,Merged,418,1,1,,1
+Issues 414 -- Dev script needs sudo for easy_install,2016-12-20,Closed,415,1,1,,1
+Added cli client entrypoint to mycroft-base-setup.py,2016-12-20,Merged,413,2,1,,1
+Issues-411 Alter websocket port and path in wifi-client setup Config.js,2016-12-20,Merged,412,1,1,,1
+issues 403 -- Changing to GPL Lesser Public License,2017-01-13,Closed,405,"2,264","3,984",py in ,5
+Issues 403 -- Changed License.md to GNU Lesser Public liscense; Replaced GPL v3 in …,2016-12-29,Closed,404,402,911,py ,20
+"Revert ""Update LICENSE.md""",2016-12-16,Merged,402,668,159,,0
+Update LICENSE.md,2016-12-15,Merged,400,159,668,,0
+Issues 397 - Fixing news skill,2016-12-15,Merged,398,8,4,,1
+Issues 395 - Creating configuration skill to sync tartarus,2016-12-15,Merged,396,106,67,conf py dialog voc json ,16
+Issues 391 - Sending core and enclosure version to tartarus,2016-12-09,Merged,392,45,1,,2
+Fix arch build.,2016-12-06,Merged,390,1,1,,1
+Bugfix/issues 343,2016-11-08,Merged,388,128,13,,4
+Fix NPR News Skill by regexing https to http,2016-12-15,Closed,387,4,1,,1
+Fixing NPR News Skill by regexing https to http,2016-10-24,Merged,386,4,1,,1
+Issues 383 - Adding limit parameter to Google STT Integration,2016-10-23,Merged,384,3,3,,2
+Issues 380 - Implement refresh token,2016-10-19,Merged,381,34,7,,2
+Bugfix/gtts version update speech impl fix,2017-06-28,Closed,378,12,6,py txt ,2
+#372 - dev_setup.sh ignores WORKON_HOME when VIRTUALENV_ROOT is unset,2017-01-28,Merged,376,6,1,,1
+Issue 372,2016-10-14,Closed,374,12,6,py txt ,2
+Wifi setup usability,2016-10-13,Merged,370,421,61,py ,1
+pymimic tts backend feedback,2016-12-30,Closed,367,166,1,py sh ,4
+Feature button behavior,2016-09-22,Merged,365,60,4,,6
+Networking fix: resolves #363,2017-03-14,Closed,364,55,47,,2
+Feature/issues 356,2016-09-19,Merged,362,978,19,py txt ,5
+Added executable bit to arch setup,2016-09-22,Merged,359,8,8,,2
+"Added viseme support for TTS, allowing enclosure to display visemes",2016-09-05,Merged,357,140,11,txt ,9
+Removed weather condition dialog,2016-09-01,Merged,355,0,16,dialog ,3
+Add setup script for arch linux,2016-08-31,Merged,348,26,0,,1
+Fixed issue #334 with a try: clause,2016-08-21,Merged,344,4,1,,1
+added mouth reset,2016-08-18,Merged,342,3,0,,1
+Fix wifi indication in speech client,2016-08-18,Merged,341,0,2,,1
+rm'd sudo from rm,2016-08-18,Merged,340,3,1,,1
+added eye spin to factory reset,2016-08-18,Merged,339,2,0,,1
+Factory reset,2016-08-18,Merged,338,6,0,,1
+changed animation for reboot,2016-08-18,Merged,337,5,2,,2
+added eye reset at bootup,2016-08-18,Merged,336,2,1,,1
+Eye shutdown,2016-08-18,Merged,335,20,0,,3
+Add support for duration_stretch to mimic_tts,2016-09-22,Merged,334,7,3,,1
+added eye reset when listener is created,2016-08-17,Merged,333,6,0,,3
+Stating PATH in the same subprocess call,2016-08-17,Merged,332,4,4,,1
+added the eye volume event,2016-08-17,Merged,331,1,0,,1
+Try setting PATH variable before sudo commands...,2016-08-17,Merged,330,2,0,,1
+I threw a lot of int casting in to fix type errors. Volume seems to …,2016-08-17,Merged,329,5,5,,1
+Add configurable volume levels (Fixes #303),2016-08-16,Merged,328,75,61,py ,2
+Add checks for wifi connection (Fixes #321),2016-08-16,Merged,327,51,23,,3
+Feature/rename build host setup,2016-08-16,Merged,326,0,0,,1
+Feature/break tts into smaller chunks,2016-08-16,Merged,325,6,1,,2
+Added support for power control through unit menu mode,2016-08-16,Merged,324,9,0,,1
+Issue #322 - Fix mycroft.sh logfile creation,2016-08-10,Merged,323,5,4,screen ,5
+Updated package list to match build_host_setup.sh,2016-08-04,Merged,319,2,0,,0
+Added flac to the list of installed packages,2016-08-02,Merged,316,1,0,,1
+Issue/dont compile pocketsphinx,2016-08-01,Merged,314,74,19,py txt ,3
+Refactored VolumeSkill to use configurable min and max,2016-08-16,Merged,313,75,60,py ,2
+Added white noise and dialog to hardware test,2016-07-29,Merged,312,16,6,,1
+Features/eye volume,2016-08-16,Merged,311,12,0,,3
+added build_host_setup script for fedora,2016-08-16,Merged,310,28,0,,1
+Added enclosure functionality for IP skill,2016-07-28,Merged,309,13,3,,1
+Issues #56 - Move TTS process killing to speech client,2016-07-28,Merged,308,6,1,,2
+Replace outdated mustache library,2016-07-28,Merged,307,3,3,txt ,1
+Fix install-pygtk to use new version of cairo,2016-07-28,Merged,306,2,1,,1
+Hardware test,2016-07-27,Merged,305,67,4,,2
+Issues #194 - Clean up Wolfram syntax,2016-07-28,Merged,302,15,9,dialog rx ,4
+Issues #259 - Move scripts out of root directory,2016-07-27,Merged,301,6,5,screen ,8
+The volume knob now plays a noise for feedback,2016-07-21,Merged,300,38,12,py wav dialog ,5
+Feature/remove build scripts,2016-07-21,Merged,298,0,599,sh ,8
+"Revert ""Issues #259 - Move scripts and config out of root directory""",2016-07-18,Merged,297,6,8,screen ,8
+Pyflakes - Fix unused imports,2016-07-18,Merged,296,4,8,,7
+Update test coverage to include loading vocab,2016-07-18,Merged,294,121,45,voc ,8
+only remove user on purge in postrm script,2016-07-15,Merged,293,4,6,,1
+Temp dict files now have generated names in /tmp/,2016-07-15,Merged,292,2,5,,1
+Fixed bug causing enclosure weather to occasionally not display,2016-07-15,Merged,291,1,1,,1
+Feature/use compiled ap voice,2016-07-15,Merged,290,4,4,ini flitevox sh ,5
+Make Mimic interface send phonemes on message bus,2016-09-23,Closed,289,68,10,ini ,9
+Moved generated dicts to temporary directory,2016-07-14,Merged,287,4,2,py ,2
+Removed  -j$CORES from install-mimic.sh,2016-07-15,Merged,286,2,2,,1
+Issues #259 - Move scripts and config out of root directory,2016-07-18,Merged,285,8,6,screen ,8
+Temporarily removing  from install-mimic.sh to avoid overwhelming bui…,2016-07-14,Closed,284,2,2,,1
+Issues #273 - Add case for when verb is 's,2016-07-14,Merged,283,3,1,,1
+Issue #279 - Added results property to skills,2017-02-27,Closed,281,14,0,,2
+Issues-279 - Added 'extras' system so skills can send more information.,2016-07-13,Closed,280,5,1,,1
+Add base media skill to blacklist  (Fixes #274),2016-07-08,Merged,275,1,1,,1
+Update load_data_files to load regex files (Fixes #256),2016-07-08,Merged,271,3,4,,5
+"Revert ""Feature/use compiled ap voice""",2016-07-07,Merged,270,4,4,ini flitevox sh ,5
+Feature/use compiled ap voice,2016-07-07,Merged,269,4,4,ini flitevox sh ,5
+Add media base class,2016-07-08,Merged,267,156,2,voc json ,8
+Add new listener config options- Fixes #260,2016-07-07,Merged,266,48,19,py dict ini wav ,9
+Issue-264 cairo url updated.,2016-07-08,Closed,265,1,1,,1
+Features/mouth stocks,2016-07-07,Merged,261,9,0,,1
+Add media skills,2016-07-09,Closed,257,956,2,ini py mycroft/skills/gmusic/dialog/en-us/currently_playing mycroft/skills/gmusic/dialog/en-us/listening_to git-keep ,9
+Issues/234: Weather display on faceplate,2016-07-12,Merged,255,95,2,txt ,4
+"Decreased ""wake up"" false positives - Fixes #189",2016-06-30,Merged,252,26,16,,4
+Added more tests to EnglishQuestionParser,2016-06-30,Merged,251,60,0,,1
+Added false positive audio accuracy test - Fixes #237,2016-07-06,Merged,249,125,33,,1
+Issues 247 - Make skill directory a positional argument,2016-06-29,Merged,248,1,1,,1
+Issues 238 - Philips Hue Skill,2016-12-20,Closed,240,634,0,,1
+WA skill will now search again if there is one `didyoumean` in the results,2016-06-27,Merged,236,72,27,dialog ,4
+"Added new compiled regex for ""what's"" in wolfram - Fixes #159",2016-06-28,Merged,235,43,0,,2
+adapt bump to 2.7,2016-06-24,Merged,233,1,1,,0
+Update scheduled skill formatting (Fixed #158),2016-06-24,Merged,231,50,1,,2
+Added timeout override to listener - fixes #224,2016-06-23,Merged,230,16,5,,1
+Added audio accuracy test,2016-06-23,Merged,229,125,0,sh ,2
+Speak skill,2016-06-23,Merged,228,68,0,json voc ,3
+Feature/deb packaging,2016-06-23,Merged,227,199,38,template txt ,9
+updated adapt to 0.2.6,2016-06-23,Merged,225,1,1,,0
+Issues 108 - Change regex to be localized,2016-06-28,Merged,222,147,55,rx ,25
+Noticed that FAQ/Common Errors section of README.md said that mycroft.…,2016-06-23,Merged,221,75,34,screen sh ,5
+Issues/122,2016-06-22,Merged,220,24,2,,3
+fixed enhancements to quickstart script,2016-06-22,Merged,217,33,4,,1
+enhanced the quick startup script,2016-06-22,Closed,216,30,4,,1
+Issue-212 Browser connections to messagebus,2016-06-24,Merged,215,3,0,,1
+Issues 209 - Keep user configuration by default,2016-06-23,Merged,211,17,10,,2
+Issues/122,2016-06-22,Merged,210,11,14,,3
+Issues 205 - Update Readme,2016-06-21,Merged,208,7,1,,0
+Added back session manager behavior from old listener,2016-06-23,Merged,207,12,2,,3
+Removed the 'I am searching for' message from Wolfram (Fixes #193),2016-06-28,Merged,206,12,12,dialog ,2
+Add #! to mycroft.sh,2016-06-21,Merged,204,2,0,,1
+Use pip for `build_host_setup.sh.,2016-06-23,Merged,203,2,1,,1
+Decreased false positives (Fixes #200),2016-06-29,Merged,202,3,2,,1
+Issues 198 - fix pairing skill,2016-06-20,Merged,199,3,3,,1
+Issues 180 - Add stock skill,2016-06-20,Merged,197,98,0,dialog json voc ,6
+"added pocketsphinx to requirements.txt, removed compilation from dev_…",2016-06-21,Closed,196,1,18,txt ,1
+Feature/fix pocketsphinx version,2016-06-20,Closed,195,136,40,template txt ,7
+dev_setup.sh now uses multiple cores (Fixes #156),2016-06-20,Merged,190,12,7,,3
+Issues 187 - Make Wolfram default to pod 2,2016-06-21,Merged,188,45,19,,2
+Issue/move flitevox and fix hardcoded location based on release number,2016-06-22,Closed,186,3,3,ini flitevox sh ,4
+Issues 86 - Add basic personal skill,2016-06-22,Merged,184,136,0,dialog json voc ,16
+Issues 145 - Add localized naptime dialog,2016-06-20,Merged,183,7,6,dialog ,2
+now using wildcard for logs directory,2016-06-20,Merged,181,1,3,,1
+Updated quick start command to reflect changes made to mycroft.sh,2016-06-19,Merged,177,1,1,,0
+Bugfix/issue 175,2016-06-20,Merged,176,3,0,,2
+"Revert ""Revert ""Listener improvements (Fixes #128)""""",2016-06-18,Merged,174,229,239,,4
+"Revert ""Listener improvements (Fixes #128)""",2016-06-18,Merged,173,239,229,,4
+Listener improvements (Fixes #128),2016-06-18,Merged,172,229,239,,4
+Issue/flitevox voice path,2016-06-17,Merged,171,1,1,,1
+Issues 160 - Fix IP formatting,2016-06-17,Merged,170,11,2,,1
+changes to default config location to be included in the manifest,2016-06-17,Merged,169,1,1,,1
+Feature/issue 161,2016-06-19,Merged,168,19,1,py ,3
+"Alan Pope voice runs by default, no idea what will happen when I pack…",2016-06-17,Merged,167,2,1,ini flitevox ,3
+Roku skill,2017-01-13,Closed,166,203,0,py dialog json voc txt ,21
+"Revert ""custom skills #161""",2016-06-17,Merged,164,4,16,py ,4
+custom skills #161,2016-06-17,Merged,163,16,4,py ,4
+Issue/161,2016-06-17,Closed,162,15,4,py ,4
+Features/encoder volume,2016-06-17,Merged,157,8,1,txt ,1
+Fix test runner so it only runs once.,2016-06-17,Merged,155,20,20,py ,3
+Issues 150 - Update Wolfram Alpha formatting,2016-06-17,Merged,152,26,2,,2
+update pypi version,2016-06-14,Merged,148,1,1,,0
+Easy startup script,2016-06-18,Merged,147,76,1,md screen sh ,5
+Issues 143 - Update Contributing.md,2016-06-14,Merged,144,4,4,,0
+Issues 63 - Update formatting for Wolfram,2016-06-14,Merged,141,7,7,,2
+now pulling adapt-parser-0.2.2 from pypi.python.org,2016-06-13,Merged,139,2,3,txt ,1
+#131 added if for situations where the host is empty,2016-06-20,Merged,132,30,4,py ,3
+"In one case, in dev_setup.sh, virtualenv was using python3.5, so now …",2016-06-13,Merged,130,2,2,,1
+Issues 94 - Add remaining intent unit tests,2016-06-10,Merged,129,35,0,,5
+added various simple commands and 1 custom command,2016-06-22,Closed,127,197,0,dialog voc ,13
+Issues 125 - Running test files without the need of 'test' suffix,2016-06-09,Merged,126,21,27,sh py ,5
+Issues 63 - Add more cases where Wolfram responds,2016-06-10,Merged,124,76,17,,2
+Issues 94 - Add intent unit tests for most skills,2016-06-09,Merged,120,93,2,voc py ,14
+Feature/nest skill,2016-06-16,Closed,119,110,0,py dialog json voc txt ,9
+Issues 116 Fix typo in ReadMe,2016-06-09,Merged,118,1,1,,0
+Issues 116 Fixes typo in README,2016-06-08,Closed,117,1,1,,0
+Fixing alarm.mp3 not being copied to the deb,2016-06-07,Merged,113,1,1,,1
+Issues 96 - Skill container should be able to load custom configuration,2016-06-09,Merged,112,392,221,,5
+Issues 63 - Add more cases where Wolfram responds,2016-06-09,Closed,110,222,29,in json voc py dialog ,31
+Feature/issues 86,2016-06-08,Merged,109,81,8,dialog json voc ,13
+Feature/issue 89,2016-06-07,Merged,106,7,2,dialog ,2
+"readme syntax fixes ""it also uses allows you to use""",2016-06-06,Merged,105,1,1,,0
+it is nice if the news skill responds with audio to the stop command,2016-06-06,Merged,104,4,0,dialog ,2
+Feature/hello world,2016-06-09,Closed,102,136,0,dialog voc ,5
+#99 added pdoc to requirements.txt,2016-06-04,Merged,100,1,0,,0
+Updated to include curl,2016-06-04,Merged,97,2,1,,1
+Issues 71 - Clean up unit test output,2016-06-09,Merged,95,2,2,,1
+MathSkill,2016-06-17,Closed,93,138,0,dialog json voc ,11
+Issues 58 - Fixing Cerberus URL pronunciation,2016-06-05,Merged,91,4,4,dialog ,4
+Issues 80 - Fix pep8 formatting,2016-06-02,Merged,88,5,2,,1
+Issues 86 - Add basic welcome skill,2016-06-02,Merged,87,51,0,dialog voc ,3
+Issue 2 - Added list of required packages,2016-06-01,Merged,82,22,0,,0
+Issues 76 - Fix changes to wikipedia skill so that tests pass,2016-06-01,Merged,81,2,3,voc ,2
+New Skill - Twitter,2016-06-13,Closed,80,97,3,ini py dialog voc txt ,10
+Issues 54 - Pairing code is not displayed when device is unpaired,2016-06-02,Closed,78,67,17,,4
+Issues 76 - Fix changes to wikipedia skill so that tests pass,2016-06-01,Merged,77,2,3,voc ,2
+Issues 73 - Add 'what does wikipedia say about' to wiki skill vocab,2016-06-01,Closed,76,2,2,voc ,2
+Suggestion: default config for skills running in skill container,2016-06-09,Closed,72,94,6,,3
+"More gracefully handle unexpected errors in listener, unit test mock …",2016-06-01,Merged,70,7,1,,2
+Explicitly install python-setuptools,2016-05-29,Closed,68,1,0,,1
+Issues 55 - Stopping skills by voice command,2016-05-28,Merged,67,53,0,voc ,2
+Issues 61 - Reducing silence threshold to ignore a sentence,2016-06-02,Closed,66,39,1,wav ,4
+Issues 64 - Removing undesirable thread from speak function,2016-06-01,Merged,65,5,15,,1
+Fix to Alarm Distortion,2016-05-27,Merged,62,5,7,py mp3 wav dialog ,5
+Bugfix/issues 18,2016-05-27,Merged,60,23,12,,11
+Fixed Missing License Headers on All Files.,2016-05-26,Merged,59,"1,317",10,,18
+Added the travis-ci build status badge to the README.md,2016-05-25,Merged,52,1,1,,0
+Feature/travis ci badge,2016-05-25,Closed,51,117,1,template sh ,6
+removed two unused imports from pairing script,2016-05-25,Merged,49,0,4,,1
+Add skill directory to path.,2016-05-26,Merged,47,2,0,,1
+Issues 14 - Listener Improvements and Fixes,2016-05-27,Merged,45,371,417,voc dict ,7
+Updating scripts and docs for dev environment setup.,2016-05-24,Merged,43,53,24,sh ,1
+Issue/pyflakes-owm,2016-05-24,Merged,42,2,3,,2
+Feature/alarm sound update,2016-05-23,Merged,41,3,0,wav ,1
+Media skills WIP (but quite functioning),2016-05-24,Closed,40,589,0,py mycroft/skills/local_music/dialog/en-us/currently_playing mycroft/skills/local_music/dialog/en-us/listening_to voc ,12
+"Use mimic as default TTS, updated mycroft/configuration/default.ini",2016-05-23,Merged,36,1,1,,1
+Added License to File Headers,2016-05-26,Closed,35,"1,387",0,,17
+Issues/mycroft 31 -- added native dependencies to build_setup.sh and README.md,2016-05-23,Merged,34,2,1,,0
+added pep8 to requirements.txt,2016-05-23,Merged,33,1,0,,0
+Testing travis-ci.,2016-05-23,Closed,27,1,0,,0
+Bugfix/issues 21,2016-05-22,Closed,26,2,1,,1
+Issue: duplicate-licence,2016-05-22,Merged,25,0,675,,0
+Install mimic in dev_setup.sh,2016-05-22,Merged,22,2,1,,1
+add .travis.yml,2016-05-20,Merged,20,15,0,,1
+Issues-4 - Fix pep8 errors.,2016-05-23,Merged,16,854,426,py ,5
+Added more information on device pairing,2016-05-21,Merged,15,8,2,,0
+Issues 1 - Wolfram Alpha Skill Not Responding,2016-05-20,Merged,13,1,1,,1

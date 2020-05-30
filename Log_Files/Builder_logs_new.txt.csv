@@ -1,0 +1,76 @@
+Fixes activation link not getting correct user #203,2019-02-06,Closed,204,1,1,,1
+Update the Starter command to handle base_paths with a space,2018-08-07,Merged,196,1,1,,1
+remove call for meta property,2018-06-06,Closed,195,1,1,,1
+Fixed the apply coupon issue in function,2018-06-06,Merged,193,1,1,,1
+Laravel Middleware Compliant parameters policy,2018-05-22,Merged,191,1,7,,1
+Create CODE_OF_CONDUCT.md,2018-03-30,Merged,187,46,0,,0
+Add a Gitter chat badge to README.md,2018-03-19,Closed,186,26,301,,0
+Update Bootstrap Layout,2018-03-30,Closed,178,2,2,,1
+Fixed invalid admin email address,2017-09-16,Merged,167,1,1,,0
+Fixed spelling mistake modify*,2017-09-16,Merged,165,1,1,,1
+Fixed spelling mistake,2017-09-16,Closed,164,1,1,,1
+Fix failing database factory tests,2017-09-20,Merged,163,1,10,,4
+Updated factory to factories,2017-07-31,Merged,160,1,1,,0
+Fixed a sentence in the README.md,2017-06-01,Merged,154,1,1,,0
+Use @example.com for the admin seed RFC 2606,2017-05-13,Merged,150,1,1,,1
+Update ActivityService.php,2017-04-20,Merged,147,1,1,,1
+Update Activity.php,2017-04-20,Merged,146,2,1,,1
+Update ActivityService.php,2017-04-20,Merged,144,2,2,,1
+Rename ActvityServiceProvider.php to ActivityServiceProvider.php,2017-04-20,Merged,143,0,0,,1
+Added activity commands registration,2017-04-20,Merged,142,2,0,,1
+Redirect user after login based on their role,2017-02-28,Merged,129,14,0,,1
+Fixing dynamic card fill-in per previous fix,2017-02-24,Merged,127,6,0,,1
+Removing credit card input name for security,2017-02-24,Merged,126,6,6,,1
+Billing form needs more specificity to not get triggered multiple times,2017-02-23,Merged,125,5,5,php ,2
+this way will be faster,2017-02-02,Closed,121,2,2,,1
+AppNamespaceDetectorTrait  to  DetectsApplicationNamespace,2017-01-25,Closed,118,2,2,,1
+renamed AppNamespaceDetectorTrait  to  DetectsApplicationNamespace,2017-01-25,Closed,117,2,2,,1
+Fix fillable array in UserMeta,2017-01-21,Merged,115,2,0,,1
+Add missing comma in install instructions,2016-12-14,Merged,109,1,1,,0
+"Allow isTeamAdmin to be called on all teams, not just teams the users…",2016-11-25,Merged,106,5,1,,1
+Change auth on team invite request to check if the user is team admin…,2016-11-25,Merged,105,6,2,,2
+Fix user seed call,2016-11-11,Merged,103,2,1,,1
+"Default gulpfile is generating app.js, not all.js",2016-10-29,Closed,97,2,2,,1
+avoid to recreate admin user if it already exists,2016-10-11,Merged,89,8,6,,1
+Removes recursion from User::hasRole,2016-09-30,Closed,84,4,7,,1
+Removed recursion in User::isTeamMember,2016-09-29,Merged,82,3,7,,1
+Instructions printed after running the starter,2016-09-23,Merged,81,2,2,,1
+"execute autoload,artisan command automatically",2016-10-11,Merged,76,12,4,,1
+Change laracogs:crud to crudmaker:new,2016-07-28,Merged,73,2,2,,0
+Improve readability of tests,2016-07-22,Closed,70,96,85,,6
+Make factory path configurable,2016-07-25,Closed,69,26,6,,3
+Add a Gitter chat badge to README.md,2016-07-21,Closed,67,18,12,,0
+WIP: Add migration path to config,2016-07-14,Merged,65,23,7,,2
+Applied fixes from StyleCI,2016-07-14,Merged,64,20,16,,1
+Added routes to Crud generation and added tests,2016-07-14,Merged,63,21,14,php ,1
+Applied fixes from StyleCI,2016-07-11,Merged,61,34,33,,9
+Fixed minor issue with edit pages and semantic,2016-07-11,Merged,60,7,2,php ,1
+Fixed minor issue with edit pages,2016-07-10,Closed,59,2,2,,0
+Applied fixes from StyleCI,2016-07-07,Merged,58,23,14,,5
+fix db transaction and ModelFactory Create,2016-07-07,Merged,57,2,1,,1
+fix duplicated contents in ModelFactory.php when execute `laracogs:starter` multiple times,2016-07-07,Closed,55,"1,504","1,058",yml md php ,5
+PureCSS framework,2016-07-04,Closed,52,"1,479",4,php js css map ,8
+Form patch,2016-06-30,Merged,51,1,1,,1
+Applied fixes from StyleCI,2016-06-27,Merged,50,43,43,,4
+Applied fixes from StyleCI,2016-06-25,Merged,49,10,11,,3
+Applied fixes from StyleCI,2016-06-25,Merged,48,11,11,,1
+Applied fixes from StyleCI,2016-06-25,Merged,47,53,48,,2
+Add dynamic and categorized test generation,2016-07-07,Merged,46,68,20,txt ,3
+Applied fixes from StyleCI,2016-06-24,Merged,45,483,415,,4
+Clean up the code a bit,2016-06-25,Closed,44,2,0,,1
+Make facades optional with a config setting,2016-06-24,Closed,43,11,2,,1
+Added name to UserTableSeeder,2016-06-22,Merged,42,1,0,,1
+Use model namespace when referring to models,2016-06-12,Merged,40,3,3,,0
+Fix storing controller in non existing directory,2016-06-12,Merged,39,2,0,,1
+Added ability to switch labels and values in makeSelects,2016-06-10,Closed,36,16,2,,1
+Updated php docs to match correct parameters,2016-06-09,Merged,35,5,7,,1
+Fixed Issue with saving user,2016-06-09,Merged,34,2,2,,1
+Fixed a couple of spelling mistakes in readme,2016-06-03,Merged,32,3,3,,0
+Add bcrypt to admin password into UsersSeedTable,2016-05-27,Merged,24,1,1,,1
+Fix spelling mistake in README.md,2016-05-26,Merged,23,1,1,,0
+Added composite primary key,2016-05-17,Closed,18,3,0,,1
+$id was never used.,2016-05-16,Merged,17,6,4,,1
+Add fields to tests,2016-05-13,Merged,14,24,0,,6
+Manually declared service field.,2016-05-13,Closed,13,2,0,,1
+Adding the ability to define the role and whether to send an email or not,2016-03-14,Merged,2,1,1,,1
+Adding the ability to define the role and whether to send an email or not,2016-03-14,Merged,1,13,7,,1

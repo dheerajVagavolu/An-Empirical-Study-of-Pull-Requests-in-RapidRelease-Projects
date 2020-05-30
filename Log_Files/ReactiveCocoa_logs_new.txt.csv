@@ -1,0 +1,1694 @@
+Update ReactiveSwift to 6.2.0.,2020-01-07,Merged,3696,14,13,Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift swift podspec ,8
+Work around an issue where NSButtonSpec test fails,2019-12-02,Closed,3694,6,0,,1
+Add support for Swift Package Manager,2019-12-10,Merged,3693,184,38,md resolved swift podspec ,4
+Preparation for Swift Package Manager,2019-11-20,Merged,3692,344,82,podspec pbxproj swift ,40
+Update Readme for 10.1.0,2020-01-07,Merged,3691,6,6,,0
+10.1.0 release,2019-09-26,Merged,3686,11,6,md podspec plist ,4
+Feature/reactive swift 6 1 0,2019-09-04,Closed,3683,8,7,Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift ,5
+Remove result,2019-08-06,Closed,3678,255,378,Cartfile resolved Carthage/Checkouts/ReactiveSwift swift pbxproj xcworkspacedata ,23
+Update dependencies for Xcode 11,2019-08-06,Merged,3677,10,9,Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift swift ,6
+Preliminary SwiftPM support for Apple platforms,2019-11-28,Closed,3676,430,73,resolved swift pbxproj ,38
+Add a binding target for the barTintColor of UINavigationBar,2019-06-20,Merged,3675,9,0,,1
+WatchKit additional reactive bindings,2019-05-15,Merged,3670,332,3,pbxproj swift ,15
+Allow for observable enum values,2019-04-30,Merged,3667,101,2,,2
+Update version in README to 9.0,2019-04-20,Merged,3666,2,2,,0
+10.0 release,2019-04-27,Merged,3665,14,12,swift-version md podspec pbxproj swift ,6
+Add Upgrade-Instructions,2019-04-19,Merged,3664,6,0,,0
+Remove references of Result from README.,2019-04-12,Merged,3663,3,6,,0
+Update to ReactiveSwift 6.0 and remove antitypical/Result,2019-04-17,Merged,3661,260,474,md Cartfile resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result swift podspec ,9
+9.0.0,2019-03-28,Merged,3656,4,2,podspec ,2
+[WIP] Removing Result in favor of Swift.Result,2019-04-11,Closed,3654,255,378,Cartfile resolved Carthage/Checkouts/ReactiveSwift swift pbxproj xcworkspacedata ,23
+Adopt Swift 4.2,2019-03-26,Merged,3650,81,85,podspec pbxproj swift ,14
+Update podspec to ReactiveSwift 5.0,2019-03-19,Merged,3648,3,3,podspec ,2
+"Fix warnings for deprecated methods, and pick up latest Quick & Nimble dependencies",2019-03-16,Merged,3647,64,37,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick pbxproj xcscheme swift ,16
+Update ReactiveSwift to 5.0,2019-03-15,Merged,3646,6,5,Cartfile resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result ,4
+Fix build configurations of ReactiveMapKit & tests.,2019-02-11,Merged,3642,61,65,,1
+Add bindings for `NSView.alphaValue`,2018-11-27,Merged,3636,18,2,swift ,2
+Add a little documentation for `NSView`'s bindings,2018-11-26,Merged,3635,1,0,,1
+`NSView` bindings,2018-11-26,Merged,3634,54,8,pbxproj swift ,3
+Update README.md,2018-11-01,Merged,3631,2,2,,0
+Change to latest method name,2018-10-21,Merged,3629,1,1,,0
+Split the ReactiveMapKit target up.,2018-10-14,Merged,3625,"1,211",213,md pbxproj xcscheme ,6
+Change 'impl' to optional,2018-10-06,Closed,3623,5,1,,1
+Add swift version to podspecs,2018-10-06,Merged,3622,3,0,podspec ,2
+Support Swift 4.2 version.,2019-03-26,Closed,3620,100,25,,6
+Convert to Swift 4.2.,2019-03-26,Closed,3618,81,81,private resolved Carthage/Checkouts/Nimble pbxproj swift ,14
+[CI] Use Xcode 9.4 image,2018-09-10,Merged,3617,10,10,yml pbxproj xcscheme ,8
+Binding targets for WKInterfaceLabel & WKInterfaceButton,2018-10-06,Merged,3616,76,0,podspec pbxproj swift ,4
+SignalProducer.take(duringLifetimeOf object: AnyObject) memory issue,2018-10-06,Merged,3615,1,1,,1
+Add public constructor for retrieves the lifetime of AnyObject.,2018-08-27,Merged,3614,125,70,pbxproj swift ,9
+Upgrade to ReactiveSwift 4.0.,2018-07-23,Merged,3610,8,8,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift podspec ,6
+Conform `Observer` to `BindingTargetProvider`,2018-07-17,Closed,3609,96,19,pbxproj swift ,3
+Update ReactiveCocoa.podspec [4.0.0-rc.2],2018-07-03,Merged,3607,1,1,,1
+Fix Xcode 10 compilation issue on optional IMP,2018-09-08,Closed,3606,7,7,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift swift ,5
+MapKit is not available on watchOS,2018-06-12,Merged,3604,47,44,xcscheme podspec swift ,9
+Xcode 10 support,2018-06-21,Merged,3601,5,5,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift ,4
+Fix for issue #3596.,2018-06-11,Merged,3600,39,0,,2
+Pick up the nimble matchers from ReactiveSwift,2018-06-04,Merged,3599,50,33,,1
+Update ReactiveSwift to 4.0.0-rc.1.,2018-06-04,Merged,3597,12,13,Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result podspec ,8
+Make UITextField and UITextView text and attributedText signals non-optional.,2019-03-26,Merged,3591,16,15,swift ,3
+support Cocoapods 1.5.0 static framework,2018-05-04,Merged,3590,4,2,podspec ,1
+UIApplication Reactive Extensions,2019-01-24,Merged,3589,16,0,pbxproj swift ,2
+UIViewController Reactive Extensions,2018-04-28,Merged,3588,168,0,pbxproj swift ,3
+Add UIBarButtonItem extensions,2018-07-17,Merged,3587,81,0,swift ,2
+Add UIResponder extension,2018-04-27,Merged,3585,52,2,pbxproj swift ,3
+Correct CHANGELOG refs at 7.2.0,2018-04-09,Merged,3584,1,1,,0
+Mitigate a regression in type inference.,2018-04-08,Merged,3583,1,1,,1
+Avoid flag override when intergrated with CocoaPods.,2018-04-06,Merged,3581,2,2,,2
+Append `objc` prefixes to all ObjC messaging placeholders.,2018-03-30,Merged,3580,23,19,swift ,2
+Add reactive extensions for all UINavigationItem properties,2018-04-05,Merged,3576,307,23,swift ,2
+RFC: Use Sourcery to generate BindingTargets for UIKit,2019-03-17,Closed,3573,849,163,pbxproj ,2
+Make CocoaTarget to public,2018-03-05,Closed,3572,14,11,swift ,3
+Reactive extension for MKLocalSearchRequest,2018-03-02,Merged,3571,32,0,swift ,2
+Handle forwarded selectors without any implementation.,2018-03-05,Merged,3570,107,274,pbxproj swift h m ,7
+More useful system keyboard event notification observing,2018-02-07,Merged,3566,211,5,swift ,2
+"Add showsCancelButton, textDidBeginEditing and ...EndEditing to UISearchBar",2018-02-01,Merged,3565,68,0,swift ,2
+[WIP] Swift 4.1,2018-06-12,Closed,3564,5,5,resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result ,4
+Update ReactiveSwift to 3.1.,2018-01-13,Merged,3561,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+Fix broken Swift 3.2 build.,2017-12-24,Merged,3556,16,2,md swift ,2
+Update ReactiveSwift to 3.1.0-rc.1.,2017-12-23,Merged,3555,9,7,Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift podspec ,5
+Remove no longer needed ‘try!’,2017-12-11,Merged,3554,2,3,,2
+[CI] Use Xcode 9.2 image,2017-12-09,Merged,3553,6,8,yml ,2
+Merge pull request #1 from ReactiveCocoa/master,2017-11-30,Closed,3550,0,0,,0
+Add extension for NSTextView,2017-11-30,Merged,3549,34,0,pbxproj swift ,2
+DynamicProperty of optional property,2017-11-24,Merged,3548,122,18,swift ,3
+Implement Property + SmartKeyPath,2017-11-21,Closed,3546,288,2,swift ,2
+"Make `Reactive#makeBindingTarget(…)` available on `AnyObject`, not just NSObject",2017-11-24,Merged,3545,117,2,swift ,2
+Readme: clarify section on ABI stability release.,2017-11-19,Merged,3544,1,1,,0
+Add tintColor BindingTarget for UIView and UIButton,2017-11-18,Merged,3542,24,0,swift ,3
+Update the podspec.,2017-11-17,Merged,3541,1,1,,1
+Update ReactiveSwift to 3.0.,2017-11-17,Merged,3539,5,3,Cartfile resolved Carthage/Checkouts/ReactiveSwift ,3
+Add 'placeholder' BindingTarget to UITextField,2017-11-12,Merged,3536,22,1,swift ,2
+Update ReactiveSwift to 3.0.0-rc.1.,2017-10-30,Merged,3533,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+UISearchBar bindings.,2017-10-30,Merged,3531,160,44,swift ,2
+Update ReactiveSwift to 3.0.0 alpha 1.,2017-10-20,Merged,3529,15,15,Cartfile resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result podspec swift ,8
+Update Quick and Nimble,2017-10-06,Merged,3527,6,6,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick ,4
+Swift 4 support + Update the Travis CI config.,2017-10-10,Merged,3526,204,188,yml md pbxproj swift ,9
+ReactiveMapKit.,2017-10-07,Merged,3524,732,43,md pbxproj xcscheme podspec plist swift ,11
+Unmute CocoaPods warnings.,2017-10-06,Merged,3518,1,1,,1
+Hotfix 6.0.2,2017-09-28,Merged,3517,3,1,,0
+Add `.swift-version` for CocoaPods.,2017-09-21,Merged,3516,1,0,,1
+Fix Xcode9 warning,2017-10-05,Closed,3515,0,3,,1
+Disable code coverage for the macOS target.,2017-09-16,Merged,3511,1,2,,1
+Update ReactiveSwift to 2.1.0 alpha 2.,2017-09-16,Merged,3510,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+iOS + tvOS: disable code coverage to fix app submission with Xcode 9,2017-09-16,Merged,3509,3,4,xcscheme ,2
+Update ReactiveSwift to 2.1.0 alpha 1.,2017-09-16,Merged,3508,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+Remove warning on Xcode 9 (copy #3186),2017-08-29,Closed,3506,11,2,,1
+Added cancelButtonClicked signal to UISearchBar,2017-08-29,Merged,3504,27,0,swift ,2
+Fix changelog formating,2017-08-16,Merged,3502,1,0,,0
+Update ReactiveSwift to 2.0.1.,2017-08-16,Merged,3501,2,2,Carthage/Checkouts/ReactiveSwift ,2
+[Xcode 9 beta 5] Fixed an issue causing infinite recursion in the Swift runtime.,2017-08-16,Merged,3498,4,2,md swift ,2
+adds title color reactive extension to UIButton,2018-08-29,Closed,3496,19,13,swift ,1
+Update ReactiveSwift to 2.0.0.,2017-07-21,Merged,3494,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+Update ReactiveSwift to 2.0.0-rc.3.,2017-07-12,Merged,3493,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+KVO with Smart Key Path.,2019-03-21,Merged,3491,719,0,pbxproj swift ,2
+Add Xcode 9 CI tests.,2017-07-08,Merged,3490,44,13,,1
+Reactive key path subscript.,2017-08-16,Merged,3489,89,1,pbxproj swift ,4
+Update ReactiveSwift to 2.0.0-rc.2.,2017-07-06,Merged,3486,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+Replace NSObject with NSObjectProtocol in extensions,2017-07-05,Merged,3484,7,7,,4
+Update ReactiveSwift to 2.0.0-rc.1.,2017-06-27,Merged,3483,48,40,resolved Carthage/Checkouts/ReactiveSwift podspec swift ,5
+Add scrollsToTop as a BindingTarget on UIScrollView,2017-06-28,Merged,3481,20,0,,2
+UIButton.reactive.pressed doesn't work on tvOS,2017-06-19,Merged,3480,25,5,,2
+Add ability to monitor selectedRange for UITextView,2017-06-14,Merged,3479,32,0,,2
+Make a KeyValueObservingSpec test work with any iteration count,2017-06-13,Merged,3478,1,1,,1
+`reactive(_:)` binding targets.,2017-06-13,Closed,3477,222,40,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result podspec pbxproj swift ,20
+Update the release roadmap.,2017-06-13,Merged,3476,9,12,,0
+"Update ReactiveSwift to 2.0.0 alpha 2, Result to 3.2.3, and Nimble to 7.0.1.",2017-06-12,Merged,3475,39,41,Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result podspec swift ,17
+UITextField text signal now reacts to `editingDidEndOnExit`.,2017-06-09,Merged,3474,27,3,,2
+Introduce `mapControlEvents`.,2017-06-09,Merged,3472,43,13,swift ,8
+Fix bad productName values,2017-08-18,Merged,3470,6,6,,1
+Introduce `take(duringLifetimeOf:)`.,2017-05-28,Merged,3466,131,0,pbxproj swift ,3
+Strip the value optionality of `DynamicProperty`.,2017-10-30,Merged,3461,296,45,swift ,4
+Improve Swift 3.0 compatibility.,2017-04-27,Merged,3460,58,29,,4
+"Fix iOS CI test, and add 32-bit iOS test.",2017-04-24,Merged,3459,1,1,,1
+Update .gitignore,2017-04-24,Merged,3458,9,0,,1
+Fixed a bridging issue in `KeyboardChangeContext`.,2017-04-24,Merged,3457,12,3,,2
+Reentrance support in `CocoaTarget.invoke`.,2017-06-04,Merged,3453,88,9,swift ,4
+New test cases for KVO.,2017-04-08,Merged,3449,85,0,,1
+"Fix CI by specifying valid, specific simulators",2017-04-06,Merged,3448,2,3,,1
+BindingTargets for UIFeedbackGenerator,2017-04-07,Merged,3447,62,0,swift ,5
+[gardening] Silence the warnings,2017-04-06,Merged,3446,54,43,pbxproj swift ,8
+BindingTarget for UIFeedbackGenerator & Co.,2017-04-05,Closed,3445,63,1,pbxproj swift ,6
+BindingTargets for UINavigationItem & UITabBarItem,2017-04-05,Merged,3444,183,0,swift ,5
+Continuous UITextField signals now react to all editing events.,2017-04-08,Merged,3442,21,11,,2
+Update the pod spec to silent deprecation warnings.,2017-04-05,Merged,3441,3,1,podspec ,2
+Update documentation,2017-04-04,Merged,3440,40,38,swift ,9
+Support for native Swift object values in `AnyObject` properties in RAC KVO API.,2017-04-08,Merged,3439,123,7,,3
+Tune down the interception perf tests.,2017-04-02,Merged,3437,1,1,,1
+Disable the MapView deallocation check for macOS.,2017-04-02,Merged,3436,6,0,,1
+Improve the interoperability of all ObjC swizzling activities in the framework.,2017-04-08,Merged,3435,600,43,swift ,6
+Fix mkmapview spec deallocation,2017-04-02,Closed,3434,4,4,,1
+Add spec to demonstrate NSButton inside NSStackView failure,2017-04-02,Merged,3433,40,0,,1
+Fixes NSButtonSpec failure,2017-04-02,Merged,3431,8,1,,1
+Refactoring for Swift 3.1.,2017-04-05,Closed,3428,62,16,,13
+Update dependencies & CI settings for Swift 3.1.,2017-03-30,Merged,3426,9,9,yml private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result ,7
+DelegateProxy bugfixes + test cases,2017-03-30,Merged,3425,237,11,swift ,3
+Revamped `DelegateProxy` for public API exposure.,2017-04-06,Closed,3420,87,30,,4
+Fixed Swift 3.1 compiler crashes for UIPickerView.swift and UISearchBar.swift,2017-03-28,Closed,3419,4,4,,2
+Fixed an occurrence of exception due to key path tail observers not being detached.,2017-03-25,Merged,3418,31,4,,2
+Animation for BindingTargets,2017-04-13,Closed,3417,117,0,swift ,2
+Merge pull request #1 from ReactiveCocoa/master,2017-03-20,Closed,3416,0,0,,0
+Allow specifying KVO options for `NSObject.reactive.values(forKeyPath:)`,2017-03-30,Merged,3413,353,242,swift ,7
+add UITextField set textColor Binding Target,2017-03-12,Merged,3410,16,0,,2
+Update Nimble to be built with Swift 3.1,2017-03-06,Merged,3408,4,12,private resolved Carthage/Checkouts/Nimble ,4
+Utilize `Lifetime.make()` from RAS 1.1,2017-03-04,Merged,3407,1,2,,1
+Fix a `SchedulerProtocol` usage warning,2017-03-01,Merged,3405,1,1,,1
+Update ReactiveSwift to 1.1.0.,2017-03-01,Merged,3404,6,6,resolved Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift podspec ,5
+Fix #selector usage in README,2017-02-09,Merged,3397,3,3,,0
+Correctly initialize the submodules,2017-02-19,Merged,3396,3,3,,3
+Add UIPickerView reactive extensions,2017-02-10,Merged,3395,210,0,swift ,4
+Hide the NSControl interception.,2017-03-28,Merged,3394,187,74,swift ,8
+Fix typo,2017-02-04,Merged,3391,2,2,,0
+Add `isSecureTextEntry` binding to UITextField.,2017-02-04,Merged,3390,16,0,,2
+Removed references to MapKit in iOS and macOS,2017-02-01,Closed,3389,0,8,,1
+Add some additional AppKit controls,2017-02-04,Merged,3388,253,2,swift h ,13
+Improved delegate interception for UISearchBar.,2017-02-05,Merged,3385,199,27,swift ,4
+Update README and Info.plist for 5.0 release,2017-01-16,Merged,3377,3,3,plist ,2
+Various documentation fixes,2017-01-13,Merged,3375,9,7,,0
+Add signal for selected NSMenuItems to NSPopUpButton,2017-01-13,Merged,3374,19,0,,2
+Mark `unsafeCocoaAction` as unavailable.,2017-01-12,Merged,3372,16,0,swift ,2
+Add pressed signal for NSButton,2017-01-13,Merged,3371,101,1,swift ,4
+Minor changes to the ObjC-to-Swift table in CHANGELOG.,2017-01-09,Merged,3369,6,6,,0
+Update ReactiveSwift to 1.0.0,2017-01-02,Merged,3363,3,3,Carthage/Checkouts/ReactiveSwift podspec ,3
+Bypass the message forwarding for common method signatures.,2017-01-27,Closed,3362,497,60,,0
+Update the README layout to match ReactiveSwift.,2016-12-31,Merged,3361,6,3,md ,4
+Mention the necessary import of ReactiveSwift,2016-12-21,Merged,3355,8,0,,0
+fixed typo,2016-12-21,Merged,3354,1,1,,1
+Fix NSPopUpButtonSpec for RAS 1.0.0-rc.1.,2016-12-17,Merged,3348,2,2,,1
+Will add a Property value for the isOn value,2016-12-16,Closed,3347,15,0,,1
+Bound the properties of `CocoaAction` to the main thread.,2016-12-17,Merged,3345,38,10,,2
+Update ReactiveSwift to 1.0.0-rc.1.,2016-12-16,Merged,3344,42,46,Cartfile resolved Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result podspec swift ,22
+Release Roadmap,2016-12-16,Merged,3343,28,0,,0
+Public `NSObject.makeBindingTarget`.,2016-12-18,Merged,3342,4,4,,1
+Add reactive UIScrollView,2016-12-18,Merged,3341,153,0,swift ,3
+Fix a typo,2016-12-15,Merged,3340,1,1,,1
+Add reactive NSPopUpButton,2016-12-17,Merged,3337,129,0,swift ,3
+Remove duplicate documentation thats already in ReactiveSwift,2016-12-11,Merged,3336,23,"1,290",,0
+Add reactive UISearchBar,2016-12-16,Merged,3335,137,2,swift ,3
+Fixed a `Lifetime` related KVO crash.,2016-12-22,Merged,3330,82,0,h m ,4
+Send the UIControl sender for each control event,2016-12-02,Merged,3324,20,24,,7
+Add valueChanged action to UISwitch,2016-12-17,Merged,3322,40,0,,2
+Add reactive refresh control.,2016-12-04,Merged,3321,132,5,swift ,4
+Add ReactiveCocoa specific documentation,2016-12-01,Merged,3320,106,2,,0
+Keyboard Frame Notification,2016-12-01,Merged,3319,104,4,resolved Carthage/Checkouts/ReactiveSwift podspec pbxproj swift ,7
+Update ReactiveSwift to 1.0.0-alpha.4.,2016-11-29,Merged,3318,4,4,resolved Carthage/Checkouts/ReactiveSwift podspec ,4
+Only build pushes to master and PRs on CI,2016-11-29,Merged,3317,3,0,,1
+Fix possible DynamicProperty crash when incorrect value is passed,2016-11-25,Closed,3313,7,1,,1
+Update Quick to v1.0.0,2016-11-25,Merged,3311,3,3,resolved Carthage/Checkouts/Quick ,3
+`values(forKeyPath:)` overload for NSManagedObject.,2017-04-13,Closed,3309,292,11,swift ,6
+Add attributedText binding target to UITextView and UITextField,2016-11-26,Merged,3307,169,35,,4
+"Sandboxes for macOS, iOS and tvOS.",2016-11-25,Merged,3305,142,3,swift xcplayground xcworkspacedata sh ,12
+ObjC object interception enhancements.,2016-12-25,Merged,3302,"1,950",429,pbxproj swift ,3
+Cleanup specs,2016-11-17,Merged,3299,46,20,,3
+Update changelog.,2016-11-17,Merged,3297,114,2,,0
+Update Travis CI config to use the Xcode 8.1 image.,2016-11-16,Merged,3296,1,1,,1
+Separate iOS-specific UIKit files into its own directory / group,2016-11-15,Merged,3295,13,6,pbxproj swift ,6
+Reactive uistepper,2016-11-14,Merged,3293,106,1,pbxproj swift ,4
+Make `UIStepper` value reactive,2016-11-12,Closed,3292,52,0,swift ,3
+Make `UISlider` great again,2016-11-13,Merged,3291,109,1,pbxproj swift ,4
+Update changelog.,2016-11-13,Merged,3290,156,21,,0
+Default binding source and target providers.,2017-01-13,Closed,3289,397,1,,13
+Make some MKMapView's properties reactive,2016-11-11,Merged,3288,135,0,swift ,3
+Selector interception with arguments.,2016-11-18,Closed,3286,"1,025",8,pbxproj swift h m ,5
+"Trigger signal for optional, unbacked protocol requirements.",2016-11-11,Closed,3285,40,4,m ,3
+Add binding targets for reloadData,2016-11-06,Merged,3284,335,8,swift ,9
+Updated Nimble to 5.1.1.,2016-11-05,Merged,3283,3,3,resolved Carthage/Checkouts/Nimble ,3
+[UIViewSpec] Consistently use `==` operator over `to(equal(...))`,2016-11-05,Merged,3282,3,3,,1
+"Adds the compatibility with libraries such as Aspects, jsPatch or wax…",2016-11-04,Closed,3280,13,7,,1
+Add reactive `image` and `title` to `UIBarItem`,2016-11-03,Merged,3278,35,0,,2
+Reactive constant,2016-11-04,Merged,3277,86,1,pbxproj swift ,4
+Make reactive `backgroundColor` for `UIView`,2016-11-03,Merged,3276,21,0,,2
+Refactor NSTextField and UITextView extensions,2016-11-02,Merged,3275,17,16,,2
+Fix indent,2016-11-02,Merged,3274,2,2,,1
+DynamicProperty.init should not accept nil value for `object`,2016-11-02,Merged,3273,2,2,,1
+Fixed a few typos in the readme.,2016-11-01,Merged,3272,4,4,,0
+Changed the method prefix and class suffix used for swizzling.,2016-11-02,Merged,3270,2,2,,1
+Add cross reference notes to UIKit text observation methods,2016-10-29,Merged,3267,10,0,,2
+Remove unused private variable in DynamicProperty,2016-10-27,Merged,3266,0,2,,1
+Fixed a bug which caused a deadlock in `trigger(for:)`.,2016-10-26,Merged,3265,111,27,swift ,6
+New Readme for 5.0,2016-11-01,Merged,3261,110,83,md ,1
+UIGestureRecognizer trigger,2016-11-06,Merged,3256,159,6,swift ,4
+Introduce `reactive.prepareForReuse` for reusable components.,2016-10-22,Merged,3255,161,0,swift ,5
+Master,2016-10-20,Closed,3253,"4,228","32,431",gitmodules swift-version yml md Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,12
+Use custom module map for the framework + Add podspec (#3219),2016-10-22,Merged,3252,65,21,podspec pbxproj swift modulemap ,7
+Update ReactiveSwift to 1.0.0-alpha.3,2016-10-19,Merged,3250,3,3,resolved Carthage/Checkouts/ReactiveSwift ,3
+DynamicProperty: don't expose signal setter,2016-10-18,Merged,3249,1,1,,1
+Fixing some broken links,2016-12-19,Closed,3245,214,4,Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result md ,4
+Update ObjC Bridging info in Readme,2016-10-09,Merged,3243,6,109,,0
+Update ReactiveSwift to 1.0.0-alpha.2,2016-10-08,Merged,3242,3,3,resolved Carthage/Checkouts/ReactiveSwift ,3
+Update DynamicProperty docs to remove AnyObject,2016-10-05,Merged,3236,2,2,,1
+Allow any type to be used with DynamicProperty,2016-10-05,Merged,3235,19,83,,3
+fix broken link to legacy documentation,2016-09-28,Merged,3226,1,1,,0
+[WIP] Add official podspec,2016-10-22,Closed,3219,35,0,podspec ,2
+Update ReactiveSwift to 1.0.0-alpha.1,2016-09-24,Merged,3216,4,4,Cartfile resolved Carthage/Checkouts/ReactiveSwift ,4
+Update Quick to v0.10.0,2016-09-24,Merged,3215,3,3,resolved Carthage/Checkouts/Quick ,3
+Cocoa extensions from Rex.,2016-10-20,Merged,3210,"2,324",207,resolved Carthage/Checkouts/ReactiveSwift pbxproj xcscheme swift ,12
+Update Nimble to v5.0.0,2016-09-22,Merged,3205,2,2,resolved ,2
+Specified commit of ReactiveSwift in Cartfile,2016-09-20,Merged,3202,27,27,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift swift ,11
+Add convenience `CocoaAction` initialiser for `Void` actions,2016-11-18,Closed,3200,20,2,,2
+Make `CocoaAction.init` generic over its `Action`,2016-09-21,Closed,3199,3,3,,1
+Remove invalid links after split up,2016-09-19,Merged,3198,0,2,,0
+Remove Instruments templates,2016-09-18,Merged,3195,0,14,md ,2
+Remove ReactiveObjC and ReactiveObjCBridge,2016-09-17,Merged,3194,0,"36,807",,1
+Adapting to latest changes in ReactiveSwift.,2016-09-17,Closed,3193,11,11,Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift swift ,6
+Switch Nimble to master and update dependencies,2016-09-14,Merged,3187,7,7,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result ,5
+Remove warning on XCode8 for #3183,2016-09-15,Merged,3186,16,7,,1
+Create ReactiveObjC.framework and ReactiveObjCBridge.framework,2016-09-17,Merged,3182,"6,402","2,336",resolved Carthage/Checkouts/Nimble pbxproj swift h ,15
+Depend on ReactiveSwift through Carthage,2016-09-11,Merged,3181,15,"21,484",yml Cartfile resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/ReactiveSwift Carthage/Checkouts/Result swift ,9
+[Legacy Code] UISearchBar+RACSignalSupport category,2016-09-17,Closed,3178,91,0,h m ,4
+New `flatMap` overload for flattening property of optional properties.,2016-09-09,Closed,3177,62,0,,2
+EventLogger now logs the `starting` SignalProducer event.,2016-09-09,Merged,3175,4,2,,2
+Fix Xcode 8 GM compatibility,2016-09-07,Merged,3171,11,11,Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift ,8
+Fix casing for enum values in markup,2016-09-05,Merged,3167,28,28,,4
+[Travis] Use Debug configuration for `carthage build` to reduce the build time,2016-09-05,Closed,3166,1,1,,1
+Switch back to Quick/Quick and Quick/Nimble,2016-09-03,Merged,3165,9,9,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick xcscheme ,6
+Changes to the `DynamicProperty` semantics.,2016-10-07,Closed,3162,56,42,,2
+Rewrite concat to start producers iteratively,2016-09-11,Closed,3161,88,71,,2
+Update xcconfigs,2016-08-28,Merged,3156,4,12,resolved Carthage/Checkouts/xcconfigs pbxproj m ,5
+Update Result to 3.0.0-alpha.4,2016-08-27,Merged,3154,24,17,Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result pbxproj ,8
+then should be available for NoError,2016-08-26,Merged,3149,53,0,,2
+Update tests for Xcode 8 b6,2016-08-22,Merged,3145,51,53,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift ,12
+Looping instead of recursive for flatten with .Concat,2016-09-11,Closed,3141,85,13,,2
+Fix the remaining build errors in ObjectiveCBridging.swift for Xcode 8 beta 6,2016-08-17,Merged,3139,12,135,,1
+Fix most compile errors wth Xcode 8ß6,2016-08-17,Merged,3138,92,88,resolved Carthage/Checkouts/Result swift ,9
+Create ReactiveSwift.framework,2016-09-11,Merged,3137,"3,208",955,Carthage/Checkouts/Result swift ,3
+Changes for Swift 3 beta 6,2016-08-22,Merged,3136,319,400,Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result swift ,14
+Update readme for removal of script/bootstrap,2016-08-15,Merged,3135,2,2,,0
+Generic ScopedDisposable,2016-08-15,Merged,3133,69,4,,2
+Add support for Swift Package Manager,2016-08-12,Merged,3132,41,0,swift-version yml swift Sources ,7
+Introduce the `BindingTarget` protocol.,2016-08-30,Merged,3131,528,428,swift ,3
+"added missing ""```"" to correct the format",2016-08-11,Merged,3130,1,0,,0
+Streamlining a bit the `Property.value` impl. of composed properties.,2016-08-24,Merged,3129,13,17,,1
+Updated the documentation of `ReplayState.observe`.,2016-08-10,Merged,3127,3,6,,1
+Update README for RAC 5 and Swift,2016-08-09,Merged,3125,3,3,,0
+Alter `Atomic.modify` to return the result of the supplied action.,2016-08-11,Merged,3123,117,92,,4
+Rename ignoreNil() to skipNil(),2016-08-10,Merged,3122,27,17,,8
+Changes to `DynamicProperty`.,2016-08-07,Closed,3121,221,167,,2
+Streamline the `replayLazily` implementation.,2016-08-10,Merged,3120,145,128,,2
+Decouple the deinitialization detection from `Lifetime`.,2016-08-11,Merged,3119,71,34,,3
+RAC 5.0 Migration Guide,2016-11-11,Merged,3118,81,4,,0
+Update Result to 3.0.0-alpha.2,2016-08-07,Merged,3114,4,4,Cartfile resolved Carthage/Checkouts/Result ,4
+Remove obsolete objc-build-scripts,2016-08-07,Merged,3113,0,402,script/bootstrap script/cibuild awk ,5
+Decoupled the deinitialization detection from `Lifetime`.,2016-08-07,Closed,3112,74,20,,3
+DynamicProperty initializer & semantics.,2016-08-07,Closed,3110,220,167,,2
+Fixes broken link,2016-08-05,Merged,3108,1,1,,0
+Introduce non-lazy replayed producers.,2016-08-05,Closed,3106,66,25,,6
+Update tests and playgrounds for Swift 3 Beta 4.,2016-08-04,Merged,3104,86,56,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift ,15
+Swift 3 beta 4 support,2016-08-04,Merged,3102,203,155,Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result swift ,17
+Merge `master` into `RAC5`.,2016-08-02,Merged,3101,"1,135",61,swift ,3
+SignalProducer.combineLatest: removed no longer necessary workaround,2016-07-29,Merged,3099,2,19,,1
+Update Quick to v0.9.3,2016-07-29,Merged,3098,3,3,resolved Carthage/Checkouts/Quick ,3
+Pre- and post-start hooks in `SignalProducer.on`.,2016-07-30,Merged,3097,43,4,,2
+Start SignalProducers in order as defined for combineLatest() and zip(),2016-07-29,Merged,3096,82,22,,2
+Remove ObjC API dependency in `DynamicProperty`.,2016-08-02,Merged,3087,711,17,swift ,2
+Update Quick back to Quick/Quick,2016-07-26,Merged,3086,4,4,private resolved Carthage/Checkouts/Quick ,4
+Signal and SignalProducer: added timeoutWithError overloads for NoError,2016-07-26,Merged,3085,66,0,,4
+Handle the case when throttle: previous date is newer than current da…,2016-07-31,Merged,3084,52,3,,4
+Melt `buffer` down.,2016-08-07,Closed,3082,143,130,,2
+[5.0] Static Dispatch for the lock of `Atomic`.,2016-07-26,Merged,3079,100,62,,2
+Fix the inconsistency of composed properties,2016-07-24,Merged,3078,244,24,,2
+"[5.0] Merge `Atomic` changes from `master`, and adopt Foundation's `Locking`.",2016-07-23,Merged,3077,62,41,,2
+[MutexType] Just extend NSRecursiveLock and remove RecursiveLock class,2016-07-22,Merged,3074,4,17,,2
+Fixes for Swift 3.0 beta 3,2016-08-03,Merged,3067,71,51,Carthage/Checkouts/Nimble Carthage/Checkouts/Quick pbxproj swift ,13
+Merge `master` into `RAC5`.,2016-07-18,Merged,3066,"2,473",872,swift xcplayground ,5
+Introduce the `BindingTarget` protocol.,2016-07-24,Closed,3062,281,242,swift ,2
+Update Result to 2.1.3,2016-07-17,Merged,3059,3,3,resolved Carthage/Checkouts/Result ,3
+[5.0] Merge CI-enabling configs from `swift2.3`.,2016-07-15,Merged,3057,2,2,,1
+Update the `SignalProducer` playground.,2016-07-12,Merged,3056,4,4,,1
+Drop `rac_values` in `DynamicProperty`.,2016-07-26,Closed,3054,256,39,swift ,6
+Drop `rac_values` in `DynamicProperty`.,2016-07-12,Closed,3053,52,22,,1
+Lifetime,2016-07-24,Closed,3052,194,9,swift ,6
+Added missing test to #3043,2016-07-08,Merged,3048,13,0,,1
+Generic `skip(until:)` and `take(until:)`.,2016-07-08,Closed,3047,6,6,,2
+Reuse Atomic in MutableProperty,2016-07-22,Merged,3046,77,50,,2
+Fix `SignalProducer(values: Value...)` signature to be distinguished from `SignalProducer(values: S)`,2016-07-08,Merged,3043,2,2,,1
+Fix the inconsistency of composed properties.,2016-07-23,Closed,3042,296,26,,1
+Makes composed properties safe.,2016-07-07,Closed,3041,293,215,,5
+Atomic value for PropertyType,2016-07-08,Closed,3033,143,58,,3
+Atomic value for PropertyType,2016-07-05,Closed,3032,146,64,,2
+Sandbox,2016-07-05,Merged,3031,26,0,xcplayground ,2
+Add Lifetime to enable observation of object deallocation in Swift,2016-07-29,Merged,3030,168,13,swift ,5
+Nullability Annotation for `RACCommand` and `RACSignal`.,2016-07-11,Closed,3029,49,53,h ,3
+Isolate unavailable APIs in 5.0.,2016-07-05,Merged,3028,154,410,pbxproj ,4
+Fix the indentation of the Playground sources.,2016-07-04,Closed,3025,868,851,,0
+Remove signal generator disposable.,2016-07-25,Closed,3024,109,184,,3
+"Unifying read-only properties, and making `PropertyProtocol` class bound.",2016-07-20,Merged,3023,252,192,,2
+Swift 3.0 Groundwork,2016-07-05,Closed,3022,"2,120","2,110",yml Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result swift ,9
+[5.0] Remove Disposable from Signal.,2016-07-02,Closed,3020,691,568,,5
+Remove SignalProducer.buffer usage in some specs,2016-07-01,Merged,3019,3,3,,1
+Correctly teardown MutableProperty binding when it is disposed.,2016-07-01,Merged,3018,16,12,,2
+[5.0] Property = ConstantProperty + AnyProperty,2016-07-02,Closed,3016,181,138,,1
+Deprecate SignalProducer.buffer(),2016-06-30,Merged,3015,1,0,,1
+Remove the last wrapper to runtime functions,2016-06-29,Merged,3012,1,53,m h ,4
+Deprecated startWithNext/observeNext and exposed only for Error == NoError. Added startWithResult/observeResult,2016-06-30,Merged,3011,236,36,,6
+Making Travis CI work (Swift 3),2016-06-28,Merged,3007,34,54,swift xcscheme sh ,6
+Support Swift 2.3,2016-07-15,Merged,3005,98,41,yml Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,9
+Swift 3.0 Travis CI test,2016-06-25,Closed,3004,49,15,script/build ,2
+Functional(ish) unit tests,2016-06-25,Merged,3002,485,451,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift pbxproj xcscheme m ,17
+[5.0] Swift 3.0 Groundwork,2016-07-11,Merged,3001,"3,499","3,248",gitmodules yml Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,10
+Swift 3.0 enablement.,2016-06-24,Merged,2999,942,993,yml Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result pbxproj swift ,13
+Update organization to ReactiveCocoa,2020-01-10,Closed,2998,1,1,,1
+Xcode markup documentation,2016-07-17,Merged,2995,"2,191",814,swift ,4
+Update RAC5 branch from master,2016-06-17,Merged,2993,50,13,resolved Carthage/Checkouts/Result swift ,7
+Add ObserverType,2016-06-17,Merged,2992,22,2,,1
+Fix TestScheduler not having correct `currentDate` while advancing,2016-06-18,Merged,2991,17,9,,3
+Introduce `withMutableValue`.,2016-06-18,Closed,2989,80,35,,8
+Update then() to forward interruptions on the original producer,2016-06-16,Merged,2987,24,7,,2
+Adopt `inout` parameter in `Atomic.modify`.,2016-06-16,Merged,2984,40,114,,4
+Update Result to 2.1.0,2016-06-14,Merged,2981,3,3,resolved Carthage/Checkouts/Result ,3
+Create ReactiveSwift and ReactiveSwiftTests targets,2016-08-16,Closed,2980,"2,046",226,Carthage/Checkouts/Quick pbxproj xcscheme ,6
+[WIP] ReactiveSwift target,2016-06-12,Closed,2979,966,"1,083",pbxproj xcscheme ,12
+Playground typo fixed,2016-06-11,Merged,2977,1,1,,1
+Flatten changes,2016-09-17,Closed,2976,78,3,,2
+Added flatten variants that operate on SequenceTypes,2016-06-18,Merged,2975,46,0,,2
+[Bugfix] Zipped producers do not complete when both sources are completed.,2016-06-10,Merged,2972,64,6,,2
+[Bugfix] Zipped producers should complete when both sources are completed.,2016-06-08,Closed,2970,3,3,,1
+fix typo,2016-06-08,Closed,2969,1,1,,0
+[5.0] Changes to producer- and signal-sourced `AnyProperty`s.,2016-06-10,Merged,2966,67,6,,2
+[5.0] Changes to producer- and signal-sourced `AnyProperty`s.,2016-06-07,Closed,2964,0,0,,0
+[Bugfix] Property composition operator.,2016-06-07,Merged,2963,10,4,,2
+Merge pull request #6 from ReactiveCocoa/master,2016-06-06,Closed,2962,0,0,,0
+Fix memory leak when binding MutablePropertyType to a producer,2016-06-09,Merged,2961,4,4,,1
+[5.0] Changes to the lifetime semantic of `Signal`.,2016-08-06,Merged,2959,248,86,swift ,1
+Playground: Correct description for materialize,2016-06-03,Merged,2957,9,9,,1
+Fix a typo in the documentation playground,2016-06-02,Merged,2955,2,2,,1
+Added suffix,2016-06-02,Merged,2954,58,3,,2
+Debounce,2016-06-02,Merged,2952,130,0,,3
+Avoid sending events after disposable have been disposed.,2016-09-17,Closed,2951,19,4,,1
+Update BasicOperators.md,2016-05-28,Merged,2947,1,1,,0
+Simplify Signal.combineLatestWith implementation a bit,2016-05-27,Merged,2944,10,12,,1
+Signal playground operators,2016-05-30,Merged,2943,134,2,,2
+Add `prefix(value:)`,2016-05-30,Merged,2941,28,0,,2
+Debounce,2016-05-31,Closed,2939,123,0,,3
+Playground SignalProducer Page fixes,2016-05-25,Merged,2938,21,16,,1
+Update Nimble,2016-05-25,Merged,2936,2,2,Carthage/Checkouts/Nimble ,2
+avoid signal retain in `bind`,2016-05-31,Merged,2935,25,21,,2
+Utilize Event.value getter,2016-05-24,Merged,2932,42,41,,1
+Make `merge` static methods of `Signal` and `SignalProducer` more generic,2016-05-23,Merged,2931,5,5,,1
+Playground build steps / typos / formatting,2016-05-24,Merged,2930,27,16,swift ,2
+add SignalProducer variadic init with values,2016-05-23,Merged,2928,6,0,,1
+add merge operator for SignalProducer,2016-05-23,Merged,2925,153,65,,3
+Property composition operators.,2016-06-05,Merged,2922,"1,092",53,,0
+Property composition and enhancements,2016-05-22,Closed,2921,"3,935",896,md swift ,2
+Add += operator variant for CompositeDisposable and ActionDisposable,2016-05-22,Merged,2920,14,5,,4
+Fix CI build,2016-05-21,Merged,2918,15,7,script/build sh ,3
+Optimize Signal.zipWith,2016-05-23,Merged,2917,38,35,,1
+Action tweaks,2016-05-22,Merged,2915,2,2,,1
+Factor out CocoaActionSpec.swift,2016-05-20,Merged,2914,95,81,swift ,3
+[UIScheduler] Don't rely on `NSThread.isMainThread()`,2016-05-28,Merged,2912,18,5,,1
+Property composition and enhancements,2016-05-22,Closed,2911,"1,201",231,swift ,2
+Break retain cycle with Action.unsafeCocoaAction,2016-05-19,Merged,2910,29,35,swift ,4
+[CocoaAction] Use private setter for some properties,2016-05-19,Merged,2908,4,10,,1
+Minor tweaks for SignalProducer.buffer(),2016-05-17,Merged,2905,20,16,,2
+Fix replayLazily lifetime,2016-05-17,Merged,2903,30,2,,2
+Validate playground,2016-05-20,Merged,2902,67,13,swift script/build sh ,4
+Fix link to CocoaAction,2016-05-15,Merged,2901,1,1,,0
+Reimplement SignalProducer.buffer() with a single Atomic,2016-05-17,Merged,2900,92,59,,2
+Make logging event types nested in a namespace type,2016-05-13,Merged,2897,22,19,,1
+Refactor EventLogger with protocol extension,2016-05-12,Merged,2895,40,34,,1
+Fix BasicOperators.md table of contents,2016-05-12,Merged,2893,4,3,,0
+Minor tweaks for Flatten.swift,2016-05-11,Merged,2892,18,8,,1
+fixed misrepresentation of throttle in README.md (Issue #2890),2016-05-18,Merged,2891,3,4,,0
+Make use of the return value of Atomic.modify in SignalType.zipWith,2016-05-09,Merged,2889,10,13,,1
+Allow DynamicProperty to be initialized with an optional object,2016-05-09,Merged,2888,2,2,,1
+`println()` should be `print()` in the documentation,2016-05-09,Merged,2887,7,7,,0
+Overloads for flatMap and flatten for Signals and SignalProducers with NoError,2016-05-11,Merged,2885,934,0,,1
+Add `uniqueValues` operator,2016-05-09,Merged,2884,94,0,,3
+CocoaAction separation,2016-05-13,Merged,2883,125,83,swift ,4
+Change void return types to using Void,2016-05-07,Merged,2881,92,92,,11
+[RFC] Add type-safe method lifting with weak reference semantics,2016-05-12,Closed,2880,572,42,swift ,5
+Resolved a couple of missing newlines that are contrary to the specified project coding conventions.,2016-05-12,Merged,2878,2,2,m ,2
+"Display playgrounds as rendered by default, so more people will grok RAC",2016-05-06,Merged,2874,1,1,,1
+Updated Contributing file,2016-05-06,Merged,2871,2,3,,0
+Make RACDelegateProxy public,2016-05-06,Merged,2869,9,0,h ,2
+Let's test ReactiveCocoa for tvOS 📺,2016-05-06,Merged,2868,346,3,,0
+[Travis] Let's test tvOS and build watchOS schemes,2016-05-06,Merged,2867,15,3,,1
+:fire: .Started case from SignalLoggingEvent,2016-05-05,Merged,2866,1,1,,1
+Style fixes for Playground,2016-05-06,Merged,2865,187,220,,1
+[Travis] Make builds a bit faster,2016-05-05,Merged,2864,2,0,,1
+[RAC 5.0] Tweaks for generic DynamicProperty,2016-05-05,Merged,2863,36,45,,4
+DynamicProperty operators tweaks,2016-05-05,Merged,2862,17,16,,2
+Try to avoid using `SignalProducer.buffer`,2016-05-04,Merged,2860,131,118,,2
+rac_notifications update redux,2016-05-05,Merged,2859,28,4,,2
+Inline liftRight in SignalProducer.takeUntil,2016-05-05,Merged,2858,19,1,,1
+RAC 5.0,2016-08-07,Merged,2857,"5,973","4,229",gitmodules yml Cartfile private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result md ,9
+rac_notifications update redux,2016-05-04,Closed,2854,107,8,resolved Carthage/Checkouts/Nimble swift ,6
+Add link to Basic Operators in `Signal` Playground,2016-05-03,Merged,2853,1,1,,1
+Make DynamicProperty generic and automatically support bridgeable value types,2016-05-04,Merged,2852,158,74,h m swift ,6
+Fix typo in EventLogger `functionName`,2016-05-03,Merged,2851,1,1,,1
+Playground subscription behaviour examples,2016-05-03,Merged,2850,52,1,,2
+playground: fix printing of tuples,2016-05-03,Merged,2849,3,3,,1
+Update playground,2016-05-03,Merged,2848,41,0,swift ,1
+Refactor modify using withValue,2016-05-02,Merged,2847,10,14,,2
+Avoid using `default` for switching `Event`,2016-05-02,Merged,2846,34,34,,6
+Fix memory leak in RACSubject,2016-05-02,Merged,2845,38,4,,2
+Minor improvements to BufferState.addValue,2016-05-02,Merged,2844,12,0,,1
+Debugging Documentation for binding to DynamicProperty,2016-04-29,Merged,2840,28,0,,0
+Debug operator,2016-05-02,Merged,2839,298,5,pbxproj swift ,4
+Make DynamicProperty generic and automatically support bridgeable value types,2016-05-04,Closed,2838,158,74,h m swift ,6
+Restore var binding,2016-04-28,Merged,2836,60,56,,3
+Extend `collect` with a count-based and a predicate-based version,2016-05-04,Merged,2835,506,11,,3
+Convinience Initializer,2016-04-28,Closed,2834,9,1,,1
+ActionType redux,2016-04-26,Merged,2828,30,1,,2
+Omit unnecessary `self`s for consistency,2016-04-26,Closed,2827,59,67,,3
+Use swap,2016-04-26,Merged,2826,1,1,,1
+Use syntactic sugar for Optional in SignalType.skipRepeats,2016-04-26,Merged,2819,4,4,,1
+accumulate values,2016-05-04,Closed,2817,28,0,,2
+Extract DynamicProperty into its own file,2016-04-22,Merged,2814,78,66,swift ,3
+Fix Assert,2016-04-22,Merged,2812,1,1,,1
+Use a plain class for dealloc signal instead of NSObject.rac_willDeallocSignal,2016-04-26,Merged,2811,7,12,,1
+extend CompositeDisposable with optional disposables sequence,2016-05-06,Merged,2806,7,1,,1
+Confusing unused line removed,2016-04-19,Merged,2804,0,1,,1
+Update xcconfigs,2016-04-17,Merged,2802,3,19,resolved Carthage/Checkouts/xcconfigs pbxproj ,4
+[Travis] `xcodebuild test -configuration Release ENABLE_TESTABILITY=YES`,2016-04-17,Merged,2801,7,1,,1
+Fix memory leak on `lift`,2016-04-26,Merged,2800,50,1,,2
+fix memory leak caused by unremoved disposable object,2016-04-15,Merged,2797,5,2,,1
+Swift Playground,2016-05-02,Merged,2795,798,0,,1
+Add sampleWith method,2016-04-30,Merged,2792,168,7,,4
+Backport -[RACSequence foldRightWithStart:reduce:] fix from #2777,2016-04-13,Merged,2791,195,117,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick xcscheme h m ,22
+expose RACDelegateProxy.h,2016-05-06,Closed,2789,5,2,Carthage/Checkouts/Quick pbxproj h ,4
+Add Property map operator,2016-05-01,Merged,2788,25,0,,2
+public RACDelegateProxy. h,2016-04-10,Closed,2783,3,0,h ,2
+dispose subscriber when completed,2016-05-02,Closed,2782,3,2,,1
+Inject side effect on next and failed,2016-04-06,Closed,2780,27,0,,2
+[Objective-C] Fix -[RACSequence foldRightWithStart:reduce:],2016-04-12,Merged,2777,25,9,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick h m ,7
+"Update Result, for Swift 2.2",2016-03-27,Merged,2771,3,3,resolved Carthage/Checkouts/Result ,3
+Add SignalProducer equivalents for UIKit RACSignal extensions,2016-04-19,Closed,2766,114,0,swift ,3
+Drop `SignalProducer.buffer(1)` in MutableProperty,2016-04-27,Merged,2764,77,16,,2
+fix compile error in xcode7.3,2016-03-22,Closed,2763,2,2,,1
+Swift 2.2 support,2016-03-24,Merged,2760,68,36,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift m ,19
+New Relic compatibility,2016-05-06,Closed,2759,8,3,,1
+fix leak on lifted sampleOn,2016-04-26,Closed,2758,39,1,,2
+Add a withCurrent option to timer,2016-04-20,Closed,2752,5,4,,1
+Add ScopedCompositeDisposable,2016-05-19,Closed,2750,70,0,,2
+Expand documentation on Atomics,2016-05-06,Closed,2749,24,19,,1
+rac_notifications shouldn't strongly capture the observed object,2016-05-04,Closed,2747,28,7,,2
+Fix MutableProperty deadlock,2016-04-27,Closed,2744,32,10,,2
+Update FrameworkOverview.md,2016-02-26,Closed,2741,1,1,,0
+Add inclusive `takeWhile` on `Signal` and `SignalProducer`,2016-05-17,Closed,2739,24,8,,4
+Replace increment operator ++ with += 1,2016-02-18,Merged,2732,2,2,,1
+Add variableTimer.,2016-03-08,Closed,2723,144,0,,2
+Remove unused Box.framework project reference,2016-02-12,Merged,2721,0,2,,1
+make skipRepeats not capture previous nexts,2016-02-18,Merged,2718,45,8,,2
+Clarify flatten works on both Signal & SignalProducer,2016-02-10,Merged,2717,2,2,,0
+Add `.uniqueValues` to SignalProducer,2016-05-09,Closed,2715,69,0,,3
+Add a public NoError typealias so that importing Result is not necessary to use NoError,2016-02-09,Closed,2711,4,0,,1
+Updated README,2016-02-02,Merged,2702,1,2,,0
+Signal lifetime: added test to verify that observe handlers are deallocated,2016-02-18,Merged,2701,61,0,,1
+Allow RACCommand to specify generic input type,2016-04-26,Merged,2696,16,16,m ,6
+"Update Result, use Result.NoError",2016-01-30,Merged,2695,6,28,resolved Carthage/Checkouts/Result pbxproj swift ,8
+Actually fix tvOS headers,2016-01-28,Merged,2689,15,13,,1
+CHANGELOG: RAC 4 section,2016-01-28,Merged,2688,68,101,,0
+Need to import both ReactiveCocoa and Result if using Carthage,2016-01-26,Merged,2680,1,0,,0
+Fixes some .flatten leaks,2016-01-25,Merged,2677,132,8,swift ,3
+Actually added several UIKit extensions to the tvOS target,2016-01-21,Merged,2673,18,0,,1
+Remove default capacity of SignalProducer.buffer() and SignalProducer.replayLazily(),2016-01-20,Merged,2672,75,75,,3
+Replace OSSpinLock with pthread_mutex,2016-05-16,Merged,2670,75,39,swift ,3
+Update Nimble to v3.1.0,2016-01-19,Merged,2669,4,4,resolved Carthage/Checkouts/Nimble m ,4
+Use Dispatch Semaphores in Atomic Instead of Spin Locks,2016-01-19,Closed,2667,3,3,,1
+Fixed @warn_unused_result message on SignalType.merge,2016-01-18,Merged,2666,1,1,,1
+README: added Swift version and compatible platforms,2016-01-16,Merged,2664,1,1,,0
+Property enhancements,2016-01-29,Closed,2659,159,57,,2
+Added missing UIKit extensions to tvOS target,2016-01-16,Merged,2651,20,0,,1
+"Update Documentation for QueueScheduler(:,name:)",2016-01-19,Merged,2650,2,2,,1
+Fix typo on BasicOperators.md,2016-01-11,Merged,2649,1,1,,0
+Added latestValues,2016-01-07,Closed,2647,24,0,,1
+PropertyType Composition,2016-01-26,Closed,2646,287,0,,2
+Update DesignGuidelines.md,2016-01-07,Merged,2645,1,1,,0
+Require that Disposable is a Class,2016-01-04,Merged,2641,1,1,,1
+Added SignalProducer.replayLazily for multicasting,2016-01-20,Merged,2639,317,2,,2
+Use O(1) additions to the BufferState class.,2016-05-05,Closed,2638,39,16,,1
+"Replace most Signal<T, E>.Observer typealias usages with plain Observer<T, E>",2016-02-13,Closed,2634,65,65,,7
+"Add no-argument form of combinePrevious(), where previous value is optional",2016-01-03,Closed,2632,47,0,,3
+Refactor `Atomic.value`,2015-12-21,Merged,2624,6,8,swift ,2
+Implement `PropertyType.signal`.,2016-01-03,Merged,2622,251,32,,2
+Minor code improvements,2015-12-17,Merged,2621,9,15,,3
+Typo in README.md,2015-12-17,Merged,2620,1,1,,0
+[Specs] Replace some Nimble matchers with equivalent operators,2015-12-16,Merged,2618,676,676,,4
+"Introduce Atomic's `modify`, `swap` and `withValue` to MutableProperty.",2015-12-20,Merged,2617,100,15,,3
+README: added note about watchOS and tvOS support,2015-12-15,Merged,2616,1,1,,0
+Updated deployment targets for tvOS and watchOS,2015-12-09,Merged,2606,8,0,,1
+Fix leak of signal with deallocated generator observer,2015-12-13,Merged,2603,230,141,swift ,3
+Tweak kerning of “ct” in the logo,2015-12-05,Merged,2602,4,4,svg ,9
+Add Support for Rethrowing in Atomic Closure Methods,2015-12-05,Merged,2601,8,9,,1
+[WIP] Add support for Swift Package Manager,2016-05-06,Closed,2599,207,155,swift xcworkspacedata pbxproj xcscheme plist h m d ,221
+Add Foundation imports to files that use Foundation,2015-12-05,Merged,2598,8,0,,5
+Remove var binding in functions and guards,2015-12-04,Merged,2597,108,81,,3
+Make Xcode configuration dependency public,2015-12-03,Closed,2594,1,1,private ,2
+Attempt to fix flakey test in travis,2015-12-03,Merged,2592,3,2,,1
+"Proposed Fix for Signal Lifetime (#2585, #2588)",2015-12-13,Closed,2591,283,125,swift ,2
+Add test cases and fix for #2515,2016-05-17,Closed,2589,70,51,,2
+Add test case for issue 2585,2015-12-07,Closed,2588,18,0,,1
+Update to recommended project settings for Xcode 7.1,2015-12-02,Merged,2587,8,8,xcscheme ,5
+"Fix ""Will never be executed"" warning",2015-12-02,Merged,2583,1,1,,1
+Flatten fixes,2015-12-15,Merged,2582,718,471,,1
+Make BufferState.addValue Slightly Quicker,2015-11-30,Merged,2580,3,2,,1
+Bag improvements,2015-11-30,Merged,2577,7,22,,1
+Add skipUntil operator,2015-11-30,Merged,2576,176,0,,4
+Add new logo & brand assets,2015-11-26,Merged,2574,32,5,md svg ,12
+Update Result to 1.0,2015-11-26,Merged,2573,3,3,resolved Carthage/Checkouts/Result ,3
+Moved `on` operator to Signal,2015-11-26,Merged,2572,65,27,,3
+Associative lift operators to fix synchronous sampleOn,2015-11-25,Merged,2571,47,5,,2
+Implement #2564: ActionType for protocol extension,2016-04-26,Closed,2570,21,1,,2
+Scope usage of private libextobjc headers,2015-12-09,Merged,2565,51,43,m h ,40
+Added a failing test to illustrate bug in SignalProducer.sampleOn(SignalProducer),2015-11-25,Closed,2560,14,0,,1
+Overload `<~` to automatically bridge values to Objective-C,2016-05-05,Merged,2551,51,0,,2
+"MutablePropertyType: added ""immutableView"" property",2015-12-04,Closed,2550,7,0,,1
+Implement `skipRepeats` for SignalType with optional value,2015-11-11,Closed,2549,102,0,,4
+Failing test with concat() + take(): incorrect or expected behavior?,2015-12-15,Closed,2548,28,0,,1
+Signal: changed class methods/properties to static,2015-11-10,Merged,2547,2,2,,1
+Re-enable continuous integration,2015-11-12,Merged,2545,99,4,xcscheme ,3
+Changed toRACSignal from free function to protocol extension,2015-11-10,Merged,2544,127,90,,2
+Added overloads for flatMap and flatten for Signals/Producers which can't emit errors,2016-05-09,Closed,2542,111,0,,2
+"Enable ""Require Only App-Extension-Safe API"" for RAC 2",2016-02-25,Closed,2536,5,5,resolved Carthage/Checkouts/xcconfigs ,3
+DynamicProperty: using fatalError instead of assert(false),2015-11-04,Merged,2534,1,1,,1
+Moved flatMapError to Signal,2015-11-03,Merged,2531,28,24,,2
+Implemented Signal.mergeSignals. Fixes #2487,2015-11-17,Merged,2526,80,1,,2
+"use #import, not @import",2015-10-30,Merged,2524,1,1,,1
+refactored and re-implemented combineLatest() to use a single OSSpinLock regardless of tuple size,2016-01-19,Closed,2521,"1,091",143,,0
+Don't sign framework for iOS simulator,2015-10-28,Merged,2520,12,0,,1
+Fix 2515 (deadlock in SignalProducer.buffer),2015-10-28,Closed,2519,46,49,,1
+Update Quick and Nimble,2015-10-27,Merged,2517,6,6,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick ,4
+Suffix test product names,2015-10-25,Merged,2512,32,14,xcscheme ,3
+Fix the test target bundle identifiers and names,2015-10-25,Merged,2511,16,6,,1
+Revert #2509,2015-10-25,Closed,2510,16,8,xcscheme ,3
+Hardcode the framework name to fix issues arising from #2398,2015-10-24,Merged,2509,4,8,xcscheme ,3
+Redirects,2015-10-23,Merged,2507,3,3,,0
+Event.Error → Event.Failed,2015-10-23,Merged,2505,257,254,,0
+Remove SWIFT_WHOLE_MODULE_OPTIMIZATION build setting,2015-10-23,Merged,2503,0,2,,1
+Re-added tvOS scheme,2015-10-23,Merged,2502,95,3,resolved Carthage/Checkouts/Result pbxproj xcscheme ,5
+Rename schemes to match with watchOS one,2015-10-23,Merged,2501,0,0,,2
+More changelog updates for alpha 2,2015-10-22,Merged,2500,18,0,,0
+Update docs for alpha 2,2015-10-22,Merged,2499,29,4,,0
+Fix explicit requirements of 'self.' by XCode7.1 Swift Compiler,2015-10-22,Closed,2496,1,1,,1
+Remove [at]testable from BagSpec,2015-10-22,Merged,2494,1,1,,1
+"Use Signal<Value, Error>.Observer typealias in SignalProducerType extension for consistency",2015-10-22,Merged,2493,3,3,,1
+"Added operations not, and, or to SignalProducerType",2015-10-22,Closed,2492,163,1,,2
+Make Bag and Atomic public,2015-10-20,Merged,2489,20,17,swift ,3
+Update Quick and Nimble,2015-10-20,Merged,2486,9,9,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick m ,5
+MutableCollectionProperty,2015-10-20,Closed,2485,604,0,,1
+Fix 2476: Rename PropertyOf to AnyProperty,2015-10-20,Merged,2484,18,14,swift ,3
+Update QueueScheduler deprecation warning.,2015-10-19,Merged,2483,2,2,,1
+Swift2,2015-10-20,Merged,2481,38,21,,0
+Update BasicOperators.md,2015-10-17,Merged,2477,39,36,,0
+Change `sink` to `observer`,2015-10-17,Merged,2475,17,17,,1
+Update `SignalProducerSpec` to the new `Observer` API,2015-10-17,Merged,2474,10,10,,1
+Add overloaded version of sampleOn that collects values.,2015-11-01,Closed,2472,95,4,,3
+Update Result to 0.4.5,2016-04-20,Closed,2466,3,3,resolved Carthage/Checkouts/Result ,3
+Update Result dependency,2015-10-13,Closed,2465,"4,743","2,544",yml md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,10
+Added support for using faster OSAtomicCompareAndSwap32,2016-05-02,Closed,2463,300,10,swift ,5
+added support for more Type flexible takeUntil and sampleOn,2015-10-13,Closed,2462,11,5,,3
+Don't sign framework for iOS simulator,2015-10-28,Closed,2452,12,0,,1
+Fixed infinite recursion in RACScheduler.schedule,2015-10-09,Merged,2450,41,1,,2
+flatten and flatMap are now possible for all 4 combinations of Signal+SignalProducer,2015-10-16,Merged,2449,133,1,,3
+"Kill ""sink"", reify ""Observer"", kill send* free functions",2015-10-16,Merged,2442,921,884,,0
+Signal.init: added @noescape annotation to generator,2015-10-03,Merged,2441,1,1,,1
+SignalProducer: added overloads to all operators for Signal,2015-10-16,Merged,2439,128,0,,2
+Reduce dependency on the `signal` property of `SignalType`,2015-10-02,Merged,2435,51,49,,3
+Fix -flatten: circular reference.,2015-10-02,Merged,2433,6,4,,1
+[WIP] willSet,2015-09-29,Closed,2432,48,5,,2
+Move `sendLock` into the initializer,2015-09-29,Merged,2428,7,7,,1
+Fixing Bag memory problem with Swift 2.1 (fixes #2417),2015-10-06,Merged,2421,37,19,swift ,3
+Fix build error with Xcode 7.1 beta 2,2015-09-25,Merged,2418,1,1,,1
+Add explicit type annotations to examples in Readme,2015-09-26,Merged,2413,10,10,,0
+Change `catch` to `flatMapError` in README,2015-09-23,Merged,2405,2,2,,0
+Explicitly set the PRODUCT_NAME to TARGET_NAME,2015-09-22,Merged,2398,4,8,,1
+Ensure that PRODUCT_NAME is set when used as a subproject,2015-09-22,Closed,2397,"4,927","2,666",yml md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,10
+Fix test failures reported in #2382,2015-09-21,Merged,2391,4,3,,1
+Debugging techniques document with a first practice described,2015-09-21,Merged,2389,39,0,,0
+Rename generic T and E params,2015-09-23,Merged,2388,257,254,swift ,5
+Publish optionalize() for signal/producer,2015-09-20,Closed,2387,12,7,,3
+Improvements on `Bag` and others,2016-04-28,Closed,2386,16,31,,3
+Moved flatMap into SignalProducerType extension.,2015-09-18,Merged,2380,38,40,,2
+Change `lift` signature for better code,2015-09-17,Merged,2378,7,7,,1
+Update Result to new newest beta,2015-09-16,Merged,2376,3,3,resolved Carthage/Checkouts/Result ,3
+README.md update. Changed old style of handling next even to a new one with startWithNext.,2015-09-16,Merged,2375,2,2,,0
+"Revert ""Update Result to new beta version""",2015-09-16,Merged,2373,3,3,resolved Carthage/Checkouts/Result ,3
+Update Result to new beta version,2015-09-16,Merged,2372,3,3,resolved Carthage/Checkouts/Result ,3
+Change `NoError` to an `enum`,2015-09-17,Merged,2370,14,38,,5
+[WIP] Restore Travis CI for Swift 2,2015-09-16,Closed,2369,11,0,,1
+[WIP] Restore Travis CI for Swift 2,2015-09-16,Closed,2368,"4,776","2,595",yml md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,10
+Fix `filter` operation,2015-09-16,Merged,2367,4,2,,1
+Remove indentations to match coding guidelines,2015-09-16,Closed,2366,58,58,,5
+Workaround to prevent NSError from losing its UserInfo in toRACSignal,2015-09-17,Merged,2363,83,18,,2
+Re-added tvOS scheme,2015-10-23,Closed,2361,82,2,resolved xcscheme ,3
+Event.Error → Event.Failed,2015-10-23,Closed,2360,250,249,,0
+Revert tvOS for now,2015-09-15,Merged,2359,3,83,resolved Carthage/Checkouts/Result xcscheme ,4
+Update changelog for v4 alpha,2015-09-15,Merged,2357,91,0,,0
+Use `if case let` instead of single-case `switch`es,2015-09-16,Merged,2354,61,92,,7
+Update FrameworkOverview.md,2015-09-14,Closed,2353,1,1,,0
+Added Signal.flatMap (cc #2315),2015-09-13,Merged,2352,13,0,,1
+[WIP] Readded travis.yml,2015-11-10,Closed,2351,297,3,,1
+Moved FlattenStrategy to Signal to re-enable flatten over signals of producers,2015-09-13,Merged,2350,315,314,,1
+[4.0] Rename `T` to `Value` and `E` to `Error`,2015-09-20,Closed,2349,246,249,,6
+Remove redundant import statements,2015-09-13,Merged,2347,2,11,,5
+Change @warn_unused_result message for blocking operators,2015-09-12,Merged,2345,4,4,,1
+Re-enabling Swift optimizations,2015-09-12,Merged,2342,0,1,,1
+Get swift2 branch in sync,2015-09-12,Merged,2341,109,625,m ,10
+"Revert ""Remove Objective-C API implementations deprecated in 2.0""",2015-09-12,Merged,2340,518,50,m ,14
+Removed including of NSURLConnection+RACSupport on watchOS target,2015-09-11,Merged,2339,6,9,h ,2
+Fix watchOS compilation due to NSURLConnection,2015-09-11,Closed,2337,30,32,,1
+Don't use KVO in RACCommand,2015-09-12,Merged,2334,55,103,,2
+Added support for Apple TV,2015-09-12,Merged,2333,499,10,private resolved Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs pbxproj xcscheme h ,8
+Remove Objective-C API implementations deprecated in 2.0,2015-09-11,Merged,2330,50,518,m ,14
+Don't lose the concatted disposable.,2015-09-09,Merged,2328,4,4,,1
+SignalProducer.merge: checking if event isTerminating outside of switch,2015-10-06,Closed,2320,5,11,,2
+Replace start/observe closure syntax with distinct functions,2015-09-08,Merged,2318,"1,026",659,,3
+[Swift 2] Upgrade Quick and Nimble dependencies,2015-09-04,Merged,2316,11,12,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift ,5
+Merge master into swift2 branch,2015-09-03,Merged,2310,19,17,swift ,4
+Shorten NSComparisonResult cases,2015-09-01,Merged,2307,3,3,,1
+modern swift fix,2015-09-06,Closed,2304,2,2,,2
+Use optional chaining in place of nil check,2015-08-30,Merged,2303,18,17,,1
+Use range based looping,2015-08-30,Merged,2299,2,2,,1
+[WIP/Feedback] Simplify/modernize QueueScheduler API,2015-09-21,Merged,2295,42,26,swift ,5
+Always use code signing for iOS target,2015-08-28,Merged,2292,4,4,,1
+Added Signal & SignalProducer silent feature,2015-09-06,Closed,2289,32,0,,2
+More updates for Xcode 7 beta 6,2015-08-25,Merged,2285,10,10,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift ,6
+xcode 7 beta 6 fix,2015-08-25,Merged,2284,1,1,,1
+Fix backticks in unsafeCocoaAction documentation,2015-08-24,Merged,2283,2,2,,1
+Fix a typo in DesignGuidelines.md: 'is is' to 'it is',2015-08-20,Merged,2272,1,1,,0
+Updates for Xcode 7 beta 5,2015-08-07,Merged,2248,4,7,swift ,3
+[README] Update installation instructions,2015-08-05,Merged,2242,6,3,,0
+Add bindings for properties with an optional type,2015-08-03,Closed,2240,23,0,,1
+Add Signal and SignalProducer bindings to properties with an optional type,2015-08-01,Closed,2239,9,0,,1
+Update more docs for Swift 2,2015-08-07,Merged,2236,336,528,,0
+Fix link in Design Guidelines,2015-07-30,Merged,2232,1,1,,0
+"Remove unused repack<A>() and repack<A, B>() from master",2015-07-29,Merged,2227,0,8,,1
+Fixed two minor typos in FrameworkOverview.md,2015-07-29,Merged,2226,2,2,,0
+[Swift 2] Upgrade Quick and Nimble dependencies,2015-07-28,Merged,2221,8,9,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick swift ,5
+[Swift 2] Fix preprocessor directive for iOS build,2015-07-28,Merged,2218,6,66,,0
+Remove DYLIB_INSTALL_NAME_BASE override from watchOS target,2015-07-24,Merged,2214,0,4,,1
+Add watchOS target (targets swift2 branch),2015-07-23,Merged,2209,603,40,private resolved Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs pbxproj xcscheme m h swift ,15
+Throttling is sending next within interval,2015-07-26,Closed,2208,29,9,,2
+Update README,2015-07-23,Merged,2207,1,2,,0
+Added framework for WatchOS,2015-07-23,Closed,2206,545,33,resolved Carthage/Checkouts/Result pbxproj xcscheme h swift ,11
+Updates for Xcode 7 beta 4,2015-07-23,Merged,2205,18,35,resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick xcscheme swift ,10
+[WIP] Memory corruption,2015-07-19,Closed,2194,13,0,,1
+propertyOf operator,2015-07-28,Merged,2192,68,17,,2
+Change scheduler on README,2015-07-19,Merged,2191,1,1,,0
+Swift 2,2015-10-22,Merged,2189,"6,069","3,421",yml md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,10
+Remove CocoaAction initializer that doesn't work,2015-07-19,Merged,2186,0,7,,1
+[WIP] propertyOf operator,2015-07-19,Closed,2185,25,0,,2
+New README,2015-07-18,Merged,2181,266,492,,0
+Objective-C bridging documentation (redux),2015-07-18,Merged,2177,97,0,,0
+Preliminary Obj-C Bridging Documentation,2015-07-16,Closed,2165,58,0,,0
+Swift2 – Use unnamed parameters for `combineLatest`s,2015-07-10,Closed,2163,17,17,,1
+Upgrade Nimble to v1.0.0,2015-07-11,Merged,2161,3,3,resolved Carthage/Checkouts/Nimble ,3
+Updates for Xcode 7 beta 3,2015-07-09,Merged,2158,0,6,,2
+[Travis] Switch to Xcode 6.4,2015-07-07,Merged,2155,1,1,,1
+Design Guidelines,2015-07-17,Merged,2152,571,42,,0
+Fix documentation for scan operator,2015-07-07,Merged,2151,1,1,,1
+Add ProducedSignal typealias in SignalProducer,2015-07-06,Merged,2148,2,0,,1
+Reduce property/buffer deadlocking,2015-07-07,Merged,2147,146,44,,3
+Replace shouldBeEnabled() with _enabled.value in Action.apply(),2015-07-04,Merged,2134,1,1,,1
+Refactor NSError creation to use message parameter of Result.static.error(),2015-07-04,Merged,2133,6,15,resolved Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs pbxproj swift ,6
+watchOS support,2015-07-23,Closed,2121,594,44,private resolved Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs pbxproj xcscheme m h swift ,18
+Add two macros named RACOnMainThread and RACCell.,2015-06-23,Closed,2120,132,1,m ,6
+Add @warn_unused_result annotations,2015-06-18,Merged,2111,116,1,swift ,2
+Add cocoaAction property to Action,2015-07-04,Merged,2104,14,7,,2
+Functions as observers,2015-06-14,Merged,2102,107,158,swift ,4
+Functions as observers,2015-06-14,Closed,2101,107,158,swift ,4
+Swift 2 - Use generic extensions for operators,2015-07-18,Merged,2099,"2,437","1,065",pbxproj swift ,3
+Merge master into swift-development,2015-06-10,Merged,2096,138,58,h ,24
+Merge master into swift-development,2015-06-10,Closed,2094,"11,606","1,886",md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,7
+Missed configuration (crash: dyld: Library not loaded: @rpath/libswiftCore.dylib).,2015-06-09,Closed,2090,4,0,,1
+[WIP] Swift 2 updates,2015-07-19,Closed,2088,"2,707","1,379",yml md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/Result ,9
+Add withLatestFrom,2015-06-09,Closed,2082,150,0,,4
+Add withLatestFrom,2015-06-08,Closed,2081,149,0,,4
+Make some typealiases public,2015-06-09,Merged,2080,6,6,,2
+Use disposables operator in the codebase,2015-06-09,Merged,2079,10,21,,5
+Update SignalProducer.buffer docs to reflect capacity behavior,2015-06-09,Merged,2076,11,9,,1
+Minor changes to Framework Overview,2015-06-09,Merged,2073,118,124,,0
+Moving framework overview out of legacy documentation folder,2015-06-05,Closed,2067,362,159,,0
+Add overload to |> operator so it kann be used with PropertyType,2015-06-06,Closed,2066,49,1,,2
+Put docs in their right place,2015-06-05,Merged,2064,362,159,,0
+Documentation: Basic Operators,2015-06-26,Merged,2063,387,5,,0
+Update framework overview for RAC3,2015-06-03,Merged,2062,159,142,,0
+Change void return types to using Void,2015-06-06,Closed,2059,59,59,,9
+Fix dropping signal bug on multithreading in SignalProducer.buffer(),2015-06-05,Merged,2058,4,4,,1
+Increase <~ operator precedence,2015-06-01,Merged,2055,3,1,,1
+Turn travis back on,2015-05-28,Merged,2052,12,1,m ,2
+Allow recursive gets of `MutableProperty.value` during changes,2015-05-28,Merged,2051,34,8,,2
+Remove manual `==` for FlattenStrategy enum,2015-05-27,Merged,2049,0,10,,1
+Disposal is immediate even when using observeOn,2015-05-27,Merged,2046,23,2,Carthage/Checkouts/Result swift ,3
+Disallow recursive signals,2015-05-26,Merged,2042,570,448,swift ,3
+Refactor switchToLatest to fix deadlock,2015-05-23,Merged,2041,56,45,,2
+Append disposables operator,2015-05-23,Merged,2040,13,1,,2
+NSNotificationCenter.rac_notifications returns a producer,2015-05-23,Merged,2039,51,6,swift ,3
+Unified events signal on Action,2015-05-23,Merged,2038,52,28,,3
+[WIP] Swift documentation updates,2015-05-23,Merged,2037,"1,873","1,196",,0
+Replace explicit currying syntax with functions returning functions,2015-05-22,Merged,2032,511,433,,0
+Fix order of Completed event in .Concat,2015-05-22,Merged,2029,3,2,,1
+Updates property spec to fix always-passing test,2015-05-21,Merged,2028,1,1,,1
+Add `DebugSinkOf`,2015-05-24,Merged,2021,49,7,swift ,4
+spelling/grammar fixes,2015-07-19,Closed,2020,2,2,,2
+Prevent infinite memory growth with .Concat,2015-05-18,Merged,2017,3,1,,1
+Documentation: Framework Overview,2015-06-03,Merged,2016,158,141,,0
+Allow QueueSchedulers to be named for debugging,2015-05-15,Merged,2011,7,12,,2
+Handle Interrupted events in promoteErrors,2015-05-15,Merged,2010,2,0,,1
+Don’t attempt to remove elements of empty queues.,2015-05-16,Merged,2009,1,1,,1
+Allows CocoaAction to be used in release builds.,2015-05-19,Merged,2008,8,4,swift ,2
+Fixed links to RACSignal and RACSequence,2015-05-14,Merged,2005,2,2,,0
+Replace NSRecursiveLock with Atomic for observers management in Signal,2015-05-19,Closed,2004,18,20,,1
+Enable app extension compatibility,2015-05-10,Merged,1992,1,1,,1
+Remove flatMap() for producer-of-producers,2015-05-14,Merged,1988,0,10,,1
+Adds Action example to CHANGELOG,2015-07-19,Closed,1985,41,0,,0
+Adds example of using MutableProperty,2015-07-19,Closed,1984,48,0,,0
+Drop Interrupted events from flattened inner signals,2015-05-07,Merged,1975,95,3,,2
+Finalize some class types,2015-05-07,Merged,1974,2,2,,2
+[Proposal] Loosen error constraint for Signal/SignalProducer/Action,2015-05-07,Closed,1970,70,26,,7
+Set Whole Module Optimization on,2015-05-07,Closed,1968,6,2,swift ,2
+Flatten operations for signal-of-producers,2015-05-06,Merged,1966,310,306,,1
+Add zip and combineLatest array operators,2015-05-16,Merged,1961,241,96,,3
+Update for Xcode 6.3,2015-05-05,Merged,1959,7,3,xcscheme ,3
+Minor improvements for 3.0 codebase,2015-05-03,Merged,1954,24,30,,7
+"@noescape for Signal/SignalProducer, fix memory corruption in times()",2015-05-01,Merged,1953,9,10,,2
+Fix comment,2015-05-03,Merged,1952,1,1,,1
+Minor refactorings in Disposable for more immutability,2015-05-05,Merged,1949,3,3,,1
+Proper check if ARC is enabled for the GCD,2015-05-03,Merged,1947,3,3,m ,2
+Guarantee to update refresh control on main thread,2015-05-08,Merged,1942,2,1,,1
+"selector is a type property, should be accessed from a type",2015-04-23,Merged,1934,1,1,,0
+Upgrade to the new Result type,2015-04-30,Merged,1933,110,90,Cartfile resolved Carthage/Checkouts/Box Carthage/Checkouts/LlamaKit Carthage/Checkouts/Result pbxproj xcworkspacedata swift ,13
+Issue #1868 RACDescription on non-NSObject objects,2015-05-21,Merged,1928,47,52,h ,24
+Optimize collect() performance and memory usage,2015-05-03,Merged,1926,12,1,,1
+"Use class name, not dynamicType",2015-05-03,Merged,1925,3,3,,1
+Use trailing closure syntax,2015-04-21,Merged,1924,4,4,,1
+Update Signal.pipe example,2015-04-20,Merged,1922,3,3,,0
+Update for Xcode 6.3,2015-04-20,Merged,1921,7,3,xcscheme ,3
+Buffer behaviour fixed according to #1916,2015-05-05,Merged,1918,41,5,,2
+Use multiple if-let unwrapping in skipRepeats,2015-04-20,Merged,1917,3,4,,1
+`PropertyTerminal` implementation,2015-04-21,Closed,1915,84,0,,2
+"Specify Release configuration for test build, fix some optimization issues",2015-04-20,Merged,1905,31,23,swift m ,4
+Add override of map for transforming signals with optional values,2015-04-20,Closed,1904,42,0,,2
+Uncurry combinePrevious,2015-04-17,Merged,1902,5,3,,1
+"Use for-in loop for a sequence, not use the generator directly",2015-04-16,Merged,1901,3,7,,3
+"Make ""next"" the trailing closure for Signal.observe() and SignalProducer.start()",2015-04-16,Merged,1900,44,6,,5
+Use multiple if-let unwrapping,2015-04-16,Merged,1898,4,5,,1
+Use static class properties,2015-04-16,Merged,1897,2,10,,2
+Workarounds for Swift runtime memory corruption,2015-05-06,Merged,1896,33,28,swift ,5
+Reduce boxing and unboxing,2015-04-15,Closed,1895,32,16,,3
+> Unannotated single-expression closures with non-Void return types can ...,2015-04-15,Merged,1894,2,4,,3
+Use @noescape for Atomic,2015-04-15,Merged,1893,4,4,,2
+Tuple crash fix,2015-04-13,Closed,1892,48,19,,2
+Setting APPLICATION_EXTENSION_API_ONLY to YES in iOS and Mac frameworks,2015-04-15,Merged,1891,3,3,resolved Carthage/Checkouts/xcconfigs ,3
+Rename join/joinMap to flatten/flatMap,2015-04-14,Merged,1886,35,33,swift ,3
+Overloaded skipRepeats for Array<T: Equatable>,2015-04-11,Closed,1885,28,0,,2
+fix ReactiveCocoa/ReactiveCocoa#1869 rac_valuesAndChangesForKeyPath does...,2015-05-24,Merged,1878,3,3,,1
+fix -take: vs recursive -sendNext:,2015-04-08,Merged,1877,35,3,,2
+MKAnnotationView prepare for reuse signal,2015-04-02,Merged,1866,69,0,h m ,4
+Ignore unhelpful warnings from -Wreceiver-is-weak in RACObserve,2015-03-30,Merged,1860,3,0,,1
+DynamicProperty Lifetime,2015-03-31,Merged,1857,41,1,,2
+Add ignoreNil for Signal,2015-03-30,Merged,1850,30,0,,2
+[WIP] Work around swift_getTupleTypeMetadata crash,2015-03-31,Closed,1847,48,19,,2
+3.0/Swift changelog,2015-04-12,Merged,1846,343,0,,0
+edit binding operator(<~) definition,2015-03-31,Merged,1845,1,1,,1
+"Signal<T, E:ErrorType> binds to DynamicProperty",2015-03-22,Closed,1844,2,2,,1
+Remove RACBacktrace,2015-03-22,Merged,1841,0,505,pbxproj h ,2
+Update gitignore for newer Carthage,2015-03-21,Merged,1840,4,8,gitmodules ,2
+Try to crash less,2015-03-21,Merged,1838,18,21,,3
+Don’t crash the compiler so much with default args,2015-03-21,Closed,1837,"8,330",231,gitmodules yml Cartfile private resolved Carthage/Checkouts/LlamaKit Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/xcconfigs md ,10
+Fixing throttle bug,2015-03-23,Merged,1834,3,2,,2
+Added versions of <~ to bind values of a Signal or SignalProducer into any T -> () function,2015-03-19,Closed,1833,87,0,,2
+add DependentType,2015-03-21,Merged,1832,10,4,,1
+Remove stale TODO,2015-03-17,Merged,1830,0,6,,1
+Tests for Signal,2015-03-17,Merged,1826,158,0,,1
+Add `+[RACSignal try:]` which wraps computations that may fail,2015-05-05,Merged,1825,86,0,h m ,4
+Enable test fixed by Swift 1.2b3,2015-03-13,Merged,1824,11,13,,2
+add defer to SignalProducer,2015-03-13,Closed,1822,8,0,,1
+add new operator(Signal.mapError) and tests,2015-03-10,Merged,1817,36,1,swift ,3
+tests for SignalProducer (only observer lifetime),2015-03-07,Closed,1813,71,3,,1
+Add Carthage compatibility badge to the README,2015-03-09,Merged,1811,2,2,md ,1
+Fix Swift bridging for KVO stuff,2015-03-06,Merged,1808,14,0,,2
+Remaining producer tests,2015-03-13,Merged,1802,497,27,,0
+tests for SignalProducer,2015-03-03,Closed,1799,82,31,m h swift ,6
+tests for SingnalProducer,2015-03-02,Closed,1798,"7,409",206,gitmodules Cartfile resolved Carthage/Checkouts/LlamaKit md pbxproj xcworkspacedata h m d pch ,206
+Rename `as` bridging functions to `to`,2015-03-01,Merged,1797,32,32,,4
+Tests for Action ↔︎ RACCommand bridging,2015-03-06,Merged,1796,95,5,,1
+Add promoteErrors operator to promote NoError signals/producers,2015-02-28,Merged,1792,15,0,,1
+Fix typo in README,2015-02-28,Merged,1791,1,1,,0
+Throttle (redux (redux)),2015-03-04,Merged,1790,133,2,,2
+Update FrameworkOverview.md,2015-02-23,Merged,1777,1,1,,0
+Update FrameworkOverview.md,2015-02-23,Merged,1776,2,2,,0
+Swift 1.2b3,2015-03-13,Merged,1775,157,120,Cartfile private resolved Carthage/Checkouts/LlamaKit Carthage/Checkouts/Nimble Carthage/Checkouts/Quick pbxproj h m swift ,16
+[WIP] Swift 1.2,2015-02-23,Closed,1774,"7,030",206,gitmodules Cartfile resolved Carthage/Checkouts/LlamaKit md pbxproj xcworkspacedata h m d pch ,206
+Some Signal tests,2015-03-01,Merged,1773,312,353,,0
+Replace merge/concat/latest with one join() operator,2015-02-28,Merged,1772,309,250,,1
+Unit tests for Objective-C bridging,2015-02-23,Merged,1771,84,7,,2
+Signal collect,2015-02-22,Merged,1770,63,3,,3
+UITextField -rac_textSignal and -rac_newTextChannel send values on all e...,2015-02-24,Merged,1767,6,6,m ,2
+Add `combineLatest` and `zip` over 2–10 signals or producers,2015-02-22,Merged,1763,287,7,,2
+Implemented retry for SignalProducer,2015-02-19,Merged,1761,56,7,,3
+Implemented times for SignalProducer,2015-02-18,Merged,1760,133,5,,2
+Implement switchToLatest and switchMap,2015-02-27,Merged,1759,163,13,,2
+allValues method for SignalProducer,2015-02-15,Closed,1758,47,0,,2
+merge and mergeMap for SignalProducers,2015-02-15,Merged,1757,127,11,,2
+timeoutWithError() swift implementation,2015-02-16,Merged,1756,71,3,,2
+concatMap for SignalProducers,2015-02-15,Merged,1755,6,1,,1
+Lift zipWith() and takeUntilReplacement() over producers,2015-02-14,Merged,1754,17,3,,1
+zipWith (redux),2015-02-14,Merged,1746,134,3,,2
+Add a DynamicProperty for KVC/KVO,2015-02-18,Merged,1745,132,3,,2
+Use DISPATCH_TIME_NOW-based timer for reschedule,2015-02-17,Closed,1744,2,1,,1
+Added library list that support ReactiveCocoa,2016-04-20,Closed,1743,43,0,,0
+Fix the issue:,2015-02-12,Closed,1742,9,1,h ,2
+[UPD] we really don't want to call description without debug,2015-02-11,Merged,1741,5,1,,1
+Implement try and tryMap for Signal,2015-02-12,Merged,1740,92,10,,2
+Swift zipWith() implementation,2015-02-14,Closed,1739,83,4,,2
+change iOS code signing identity for release builds to allow embedding the framework in your project,2015-02-09,Closed,1737,1,1,,1
+"[WIP] Automatically upload releases via Travis, recommend binary installation",2015-02-26,Closed,1736,17,23,md ,1
+Add an Interrupted event,2015-02-28,Merged,1735,412,246,,4
+Preserve overall order in -groupBy:transform:,2015-02-09,Merged,1734,29,2,,2
+Swift throttle redux,2015-02-27,Closed,1730,66,0,,1
+Implement throttle for Signal,2015-02-04,Closed,1729,67,1,,1
+implementations of <~ for producers and poperties,2015-02-08,Merged,1728,87,114,,2
+RFC: Overload operators for NoError,2015-02-04,Closed,1723,157,20,,3
+"Remove references to ""ReactiveCocoaFramework"" in README",2015-02-04,Merged,1722,5,15,,0
+Add then() SignalProducer,2015-02-09,Merged,1719,66,9,,2
+Implement stubbed takeWhile() tests,2015-02-08,Merged,1718,60,4,,2
+implemented takeWhile(),2015-02-03,Merged,1717,19,2,,1
+"Reimplement throttle out of map, delay, switchToLatest",2015-02-03,Closed,1716,9,52,,1
+"Fix, test, and refactor concat()",2015-02-09,Merged,1714,173,90,,2
+Synchronous SignalProducer functions,2015-02-09,Merged,1710,127,20,,3
+fixing memory leak issue #1691,2015-01-27,Merged,1707,3,1,,1
+added TestError,2015-01-26,Merged,1705,26,0,swift ,2
+Fix race condition in Signal.takeUntilReplacement(),2015-01-27,Merged,1704,5,9,,1
+Fix race condition in Signal.takeUntilReplacement(),2015-01-26,Closed,1703,"4,342",206,gitmodules Cartfile resolved Carthage/Checkouts/LlamaKit Carthage/Checkouts/xcconfigs md pbxproj xcworkspacedata h m d pch swift ,206
+Signal tests,2015-02-23,Merged,1702,940,44,,0
+SignalProducer tests,2015-02-19,Merged,1699,137,11,swift ,3
+Swift PropertySpec,2015-01-26,Merged,1698,169,20,,2
+New method for generating sequence iteratively,2015-01-25,Closed,1696,42,0,m ,3
+Bring back CocoaAction,2015-01-30,Merged,1695,167,12,,2
+Stub tests for the latest Swift APIs,2015-01-23,Merged,1694,685,0,swift ,4
+Add takeUntilReplacement to Signal,2015-01-21,Merged,1689,31,1,,1
+Implemented a handful of `Signal` operators,2015-01-26,Merged,1688,232,9,,2
+🔥 unused Identity and OptionalExtensions code,2015-01-19,Merged,1685,0,71,swift ,4
+Implement Action.apply,2015-01-20,Merged,1684,256,15,swift ,3
+Parameterize signals by the errors they send,2015-01-19,Merged,1683,199,206,,4
+++LlamaKit (redux),2015-01-18,Merged,1682,58,60,Cartfile resolved Carthage/Checkouts/LlamaKit Carthage/Checkouts/xcconfigs swift ,9
+++LlamaKit,2015-01-18,Closed,1681,55,57,resolved Carthage/Checkouts/LlamaKit swift ,7
+Pacify Xcode,2015-01-16,Merged,1680,10,9,resolved Carthage/Checkouts/xcconfigs pbxproj xcscheme ,6
+Backport RACQueueScheduler lldb/swift fixes,2015-01-16,Merged,1678,19,0,m ,2
+"2015, yo?",2015-01-08,Merged,1667,1,1,,0
+Refactor `tryMap` with `fromResult`,2015-01-06,Merged,1665,2,7,,1
+Travis improvements,2015-01-05,Merged,1664,7,5,,1
+Rename to SchedulerType and DateSchedulerType,2015-01-05,Merged,1663,16,16,,4
+Migrate to Carthage 0.5,2014-12-30,Merged,1658,19,15,Cartfile lock private resolved checkout/Nimble checkout/Quick checkout/xcconfigs Carthage/Checkouts/Nimble Carthage/Checkouts/Quick Carthage/Checkouts/xcconfigs pbxproj xcworkspacedata ,13
+Replace ColdSignal and HotSignal with SignalProducer and Signal,2015-01-18,Merged,1655,"1,421","5,855",swift ,2
+Add ColdSignal.try constructors for lazy operations,2015-01-08,Merged,1654,19,0,,1
+"Add `Result` overload for `try`, allow default errors to be specified",2015-01-06,Merged,1653,8,0,,1
+More ways to merge HotSignals; Update to carthage 0.4,2014-12-26,Merged,1648,93,18,gitmodules lock resolved checkout/Nimble checkout/xcconfigs checkout/LlamaKit → Carthage/Checkouts/LlamaKit Carthage/Checkouts/Nimble checkout/Quick → Carthage/Checkouts/Quick Carthage/Checkouts/xcconfigs pbxproj xcworkspacedata swift ,15
+Syntactic sugar for Event<T>,2015-01-05,Merged,1645,83,46,,5
+Bridge Action with RACCommand,2014-12-22,Merged,1639,42,0,,1
+Add combineLatest() and zip() over multiple signals,2014-12-22,Merged,1638,274,0,swift ,4
+Code style fix (space -> tab),2014-12-20,Merged,1637,1,1,,1
+Document Swift memory management,2014-12-22,Merged,1636,165,103,,2
+Replace MainScheduler with UIScheduler and QueueScheduler.mainQueueScheduler,2015-01-05,Merged,1635,114,49,,4
+"Improve Action class, add CocoaAction wrapper, remove all automatic scheduling",2014-12-17,Merged,1628,345,174,,2
+"KVO via singleton proxy, redux",2015-01-06,Merged,1627,347,6,h m ,4
+"Make file, function, and line properties internal",2014-12-16,Merged,1626,12,12,,4
+Update requirements to iOS 8.0 and OS X 10.8,2014-12-16,Merged,1625,1,1,,0
+Remove “Differences from Rx” document,2014-12-16,Merged,1623,1,60,,0
+Remove references to “subscribers” and “subscription” from Swift APIs,2014-12-16,Merged,1622,51,51,,4
+-deliverOnMainThread redux,2014-12-15,Merged,1618,159,41,m ,2
+Action tests,2014-12-16,Merged,1614,209,27,swift ,6
+ColdSignal tests,2014-12-12,Merged,1611,"1,447",3,,1
+Backport RACLiveSubscriber (redux),2016-05-10,Closed,1610,347,426,m h ,9
+Keep HotSignals alive for as long as their generators are,2014-12-19,Merged,1608,410,199,,2
+Remove mention of Slack chat room,2014-12-08,Merged,1604,0,5,,0
+Add zipWith to ColdSignal and HotSignal,2014-12-08,Merged,1603,176,0,swift ,5
+Replace CompositeDisposable.pruneDisposed with a removable “handle”,2014-12-08,Merged,1602,73,45,,3
+Refactor eventSink() function as Event.sink(),2014-12-08,Merged,1601,31,31,,1
+"Add <~ and <~! operators for binding properties, change `values` into a property",2014-12-08,Merged,1600,137,31,,5
+"Add mergeMap, switchMap, and concatMap",2014-12-08,Merged,1599,68,17,,2
+Log file/line/function of instantiation for signal debugging,2014-12-08,Merged,1598,191,20,,4
+Backport RACLiveSubscriber from aborted 3.0 branch.,2014-12-10,Merged,1597,347,426,m h ,9
+Use weak references in KVO observation,2014-12-05,Merged,1595,69,56,m ,8
+Disable nil check for disposable lifetime test,2014-12-01,Merged,1592,6,1,,1
+Refactor ColdSignal initialization and subscription APIs,2014-12-01,Merged,1590,465,368,,0
+Refactor HotSignal.pipe() so the sink keeps the signal alive,2014-12-01,Merged,1589,145,6,,2
+Update .gitmodules,2014-11-26,Merged,1585,1,1,,1
+Update LlamaKit,2014-11-26,Merged,1584,5,5,lock checkout/LlamaKit checkout/xcconfigs ,4
+Tests for the new HotSignal,2014-12-08,Merged,1581,703,18,swift ,2
+Update to the latest LlamaKit,2015-01-18,Closed,1579,3,3,swift ,2
+Use Carthage on swift-development,2014-11-21,Merged,1578,"1,558","1,529",gitmodules Cartfile lock checkout/LlamaKit checkout/Nimble checkout/Quick checkout/xcconfigs md External/LlamaKit External/Quick External/xcconfigs pbxproj xcworkspacedata ,13
+Use Carthage for submodule management,2014-11-21,Merged,1577,29,15,gitmodules Cartfile lock checkout/Nimble checkout/Quick checkout/xcconfigs External/Quick pbxproj xcworkspacedata m ,11
+Swift Development: fixes issue #1543,2014-11-24,Merged,1576,78,11,swift ,3
+Fix Swift bridging for RACQueueScheduler,2014-11-17,Merged,1573,19,0,m ,2
+Implemented enhancement to skipRepeats.,2014-11-11,Merged,1568,27,10,,2
+[WIP] Add a swift only framework.,2014-11-17,Closed,1558,192,1,h plist ,3
+Upgrade Quick,2014-11-05,Merged,1557,"1,640","1,627",xcworkspacedata m ,3
+change property type for dispatch_queue_t from strong to assign,2014-11-03,Closed,1554,1,1,,1
+Add HotSignal.groupByInterval(_:onScheduler:),2014-10-31,Closed,1552,27,0,,1
+Fix .replay(1) when only one value has been sent on the HotSignal,2014-11-05,Merged,1549,132,3,swift ,4
+Add ColdSignal.fromResult(),2014-10-25,Merged,1545,13,0,,1
+can not strongly retain dispatch_queue_t as it's not an object type,2014-12-08,Closed,1544,1,1,,1
+Don't fail first() when the take(1) completes,2014-10-24,Merged,1542,3,3,,1
+Fix on() not forwarding events,2014-10-24,Merged,1541,3,0,,1
+[Documentation] Update links to sources,2014-10-20,Merged,1536,39,39,,0
+Refocus the Swift API on hot vs. cold instead of Behaviors vs. Events,2014-10-23,Merged,1532,"1,796","2,661",swift ,3
+Group 3.0 sources on disk by language,2014-10-17,Merged,1531,33,33,h m d swift ,280
+Allow promises to resolve even after the promise itself deallocates,2014-10-13,Merged,1529,13,29,,1
+Bump iOS deployment target to 8.0,2014-10-07,Merged,1521,4,4,,1
+Add Producer.fromSequence(),2014-10-07,Merged,1518,17,0,,1
+Require a currentDate property for DateSchedulers,2014-10-06,Merged,1515,29,7,,4
+"Fixed compatibility with the Objective-C++ by wrapping all the umbrella header includes with the extern ""C""",2014-10-02,Closed,1513,9,0,,1
+Signal<T> tests,2014-10-12,Merged,1512,716,16,swift ,4
+Update Quick to restore unit testing functionality,2014-10-02,Merged,1511,1,1,,1
+[Legacy] Change -map: to not create an extra RACLiveSubscriber,2015-12-09,Closed,1507,176,119,md pbxproj xcscheme h m ,16
+[Legacy] Switch RACSignal primitives to map and flatten,2015-10-02,Closed,1506,166,113,md pbxproj xcscheme h m ,16
+Migrate from swiftz to LlamaKit,2014-09-28,Merged,1505,95,128,External/LlamaKit External/swiftz External/xcconfigs pbxproj xcworkspacedata swift ,15
+Fix retain cycle in -didSubscribeWithDisposable:,2014-09-23,Merged,1501,3,0,,1
+Use an unsafe self reference in -[RACSubscriber init],2014-09-22,Merged,1500,11,10,,1
+Independently lock disposing of RACLiveSubscriber,2014-09-18,Merged,1497,19,7,,1
+Use 10% of timer intervals as a default leeway for power efficiency,2014-09-09,Merged,1493,29,1,,2
+Scheduler tests,2014-09-28,Merged,1492,185,12,,2
+Add Promise.notify,2014-09-09,Merged,1491,30,18,,2
+Make all Disposables and Schedulers into classes,2014-09-07,Merged,1489,9,19,,3
+Fix: Crash on iOS5 in RacBacktrace #1321,2014-09-17,Merged,1481,1,1,,1
+Cherry pick 3.0 change to skip adding disposables that are already disposed,2014-08-30,Merged,1478,1,1,,1
+Fix issues with Beta 6,2014-08-25,Merged,1475,6,21,swift ,6
+[Legacy] Merge master in legacy,2015-10-02,Closed,1470,135,67,md pbxproj xcscheme h m pch external/expecta external/specta external/xcconfigs ,21
+Fix unused variable warning if assertions are disabled,2014-08-18,Merged,1469,2,0,,2
+[WIP] Xcode 6 Beta 5 Compatibility,2014-08-15,Closed,1468,2,2,External/Quick ,2
+Support UIBarButtonItem with UIButton customView,2014-08-25,Closed,1466,6,0,,1
+Don't use DEBUG for RACBacktrace,2014-08-21,Merged,1465,3,3,m ,3
+Add [UIAlertView rac_willDismissSignal].,2014-09-11,Merged,1461,39,0,m ,3
+Swift beta 5 compatibility,2014-08-11,Closed,1457,33,33,swift ,12
+Fix lack of thread safety in -[RACSerialDisposable disposable],2014-10-17,Merged,1456,64,68,,2
+Xcode 6 beta 5 compatibility,2014-08-11,Merged,1454,37,36,swift ,12
+subscribeErrorOrCompleted,2014-08-08,Closed,1453,13,0,m ,2
+Xcode 6 beta 5 compat,2014-08-08,Closed,1446,38,37,External/swiftz swift ,13
+Add errorHandler parameter to Producer.bindTo,2014-09-06,Merged,1445,9,4,,2
+Disallow chaining of Promise.start(),2014-09-06,Merged,1444,17,8,,2
+Add Producer.retry,2014-09-06,Merged,1443,44,0,,1
+Include EXTScope.h in ReactiveCocoa.h,2014-07-29,Merged,1436,1,0,,1
+Include RACEXTScope in ReactiveCocoa.h,2014-07-29,Closed,1435,1,0,,1
+Use UInt for skip/take/takeLast/buffer,2014-08-04,Closed,1430,18,14,,2
+Add References Badge to Readme,2014-07-28,Closed,1427,2,0,,0
+Added missing public init to MainScheduler,2014-07-30,Merged,1426,4,0,,1
+Deliver to UI,2014-12-15,Closed,1425,55,0,m ,2
+"Refactored, harder, for beta 4 compatibility",2014-07-23,Merged,1424,415,338,,5
+Audit Atomic usage,2014-07-23,Merged,1423,68,117,swift ,5
+Refactored for Swift beta 4 compatibility,2014-07-23,Closed,1422,270,270,,5
+Xcode 6 beta 4 compatibility,2014-07-23,Closed,1420,17,17,,10
+Changed backing keyword,2014-08-04,Closed,1417,6,14,,1
+Simplifying Producer and Consumer calls,2014-07-23,Closed,1416,114,0,,2
+"The disposable was not added, so it was never called (Swift beta 3)",2014-07-23,Closed,1415,12,8,,1
+For consideration. Increase speed of +combineLatest: by 60% by converting to a non-recursive implementation.,2014-12-08,Closed,1414,43,2,,1
+Xcode 6 support,2014-10-17,Merged,1413,"5,181","7,209",External/Quick External/xcconfigs pbxproj xcscheme xcworkspacedata plist h m d pch ,161
+Improve Signal's memory management,2014-07-23,Merged,1409,53,102,swift ,3
+Centralize errors for Swift,2014-07-23,Merged,1408,58,22,swift ,5
+[WIP] Swift unit tests,2014-09-06,Merged,1407,414,41,External/Quick pbxproj xcscheme xcworkspacedata swift ,9
+Add swiftz_core,2014-07-30,Merged,1406,131,172,External/swiftz pbxproj xcworkspacedata swift ,12
+NSNotificationCenter+RACSupport - send completed,2014-07-12,Closed,1404,1,0,,1
+Referencing the right class in the RACScheduler method deprecation message,2014-07-09,Merged,1401,1,1,,1
+Fixed replayLazily signal loses actual disposable context issue;,2014-07-07,Closed,1399,21,7,,2
+Lift with a signal of tuples of arguments.,2014-07-07,Merged,1398,28,14,m ,2
+"Move to specta/specta, specta/expecta, and XCTest",2014-06-27,Merged,1393,52,42,pbxproj xcscheme m pch external/expecta external/specta ,8
+Switched type equality to a function,2014-06-27,Closed,1390,43,44,swift ,4
+"Point more directly to the ""What to do"" part for Slack",2014-06-24,Merged,1388,1,1,,0
+Fix visibility of RACScheduler+Subclass.h,2014-06-23,Merged,1387,7,1,h ,2
+Put a @final on it,2014-06-20,Merged,1385,50,72,,6
+Type evidence,2014-06-20,Merged,1384,54,25,swift ,3
+The Great Swiftening (a.k.a. the new 3.0),2015-07-19,Merged,1382,"12,650","2,042",yml md Cartfile private resolved Carthage/Checkouts/Box Carthage/Checkouts/Nimble Carthage/Checkouts/Result Carthage/Checkouts/xcconfigs ,9
+Introduce Slack chat room.,2014-06-23,Merged,1381,4,0,,0
+Change -map: to not create an extra RACLiveSubscriber,2014-08-04,Closed,1377,37,54,m ,4
+Switch RACSignal primitives to map and flatten,2014-08-04,Closed,1376,32,45,m ,2
+Port updates to 2.x to 3.0,2014-06-16,Merged,1374,506,187,pbxproj h m ,8
+Fix Xcode 6 compile error,2014-06-05,Merged,1371,1,1,,1
+Add UITableViewHeaderFooterView... to main header,2014-05-27,Merged,1359,1,0,,1
+How to -retry: only matched error?,2014-06-10,Closed,1357,19,3,m ,2
+Make RACScheduler easier to subclass.,2014-06-09,Merged,1355,54,34,h m ,5
+Fix the link to the CocoaPods specs in the readme.,2014-05-27,Merged,1354,1,1,,0
+Fix +[RACDynamicSignal create:] name,2014-05-24,Merged,1353,1,1,,1
+bufferWithCount:skip: operation (+tests),2014-06-09,Closed,1351,204,0,m ,3
+Fix for -throttleDiscardingLatest:,2014-07-11,Closed,1349,78,4,m ,3
+Clarify our relationship with FRP,2014-05-20,Merged,1344,5,4,,0
+Fix typo,2014-05-18,Merged,1340,1,1,,0
+Code style fixes,2015-01-06,Merged,1337,33,32,,20
+Optimize -take: in case the count is 0,2014-08-25,Merged,1336,3,4,,1
+Simplify subscription on -subscribeOn:,2014-05-16,Merged,1328,1,7,,1
+CADisplayLink as signal,2014-06-10,Merged,1324,72,0,h m ,4
+Backport #1151 and #1154 from 3.0 branch,2014-06-14,Closed,1322,22,258,m ,5
+[WIP] Replace RACChannel and RACKVOChannel,2014-07-11,Closed,1316,236,284,h m ,6
+Remove RACUnit,2014-05-13,Merged,1315,108,115,m ,20
+Simplify disposable handling,2014-05-13,Closed,1314,134,54,,2
+Optimise RACObserve(),2014-05-14,Merged,1313,69,100,m ,5
+Update build scripts,2014-05-08,Merged,1312,2,16,,1
+ignore DerivenData,2014-05-09,Closed,1311,46,0,podspec ,2
+Add a RACObserveChanges which only fires if the value actually changes,2014-05-12,Closed,1310,13,0,,1
+"[RFC] Make subscribers more powerful, remove RACSubject and -subscribeNext:error:completed:",2014-07-11,Closed,1308,362,126,h m ,4
+Bump OS X deployment target to 10.8,2014-05-07,Merged,1307,13,72,m h ,10
+Backport -doDisposed:,2014-05-05,Closed,1300,110,8,m ,3
+Fix recursive scheduling with the immediate scheduler.,2014-05-05,Merged,1296,23,1,,2
+"Clean up imports, forward declarations",2014-05-01,Merged,1294,33,67,h ,37
+Use -subscribeSavingDisposable: within most signal operators,2014-04-30,Merged,1287,53,27,,1
+Fixes KVO bug described in issue #1280,2014-05-07,Merged,1281,77,5,,2
+Indexed variants of scanning and aggregating,2014-05-15,Merged,1278,121,20,m ,5
+Implement singleton RACKVOProxy,2014-12-15,Closed,1276,323,6,h m ,4
+++libextobjc,2014-04-23,Merged,1274,21,4,,1
+Third person singular present for comments in README,2014-04-23,Merged,1272,11,11,,0
+"Replace -objectAtIndex:, -objectForKey: with object subscripting",2014-04-23,Merged,1271,17,17,,8
+Backport reimplementation of -aggregate: from 3.0-development,2014-04-24,Merged,1270,13,21,,2
+Add import for UIRefreshControl+RACCommandSupport,2014-04-23,Merged,1269,1,0,,1
+Deprecate -bind:,2014-04-24,Merged,1260,235,299,,1
+Add `-[RACStream distinctWithPredicate:]`,2014-04-18,Closed,1259,73,3,m ,3
+Fix some typos,2014-04-18,Merged,1255,19,19,h ,3
+Add -zipWithIndex,2014-04-23,Closed,1254,35,1,m ,3
+Crash on set to nil.,2014-08-04,Closed,1252,14,0,,2
+Added RAC support for UIImagePickerController.,2014-05-21,Merged,1251,150,0,h m ,5
+Use a weak reference to recurse.,2014-04-22,Merged,1249,9,9,,1
+Replace uses of -bind:,2014-04-17,Closed,1247,93,20,m ,2
+Name subscribeSavingDisposable block parameter for autocompletion,2014-04-17,Merged,1244,2,1,h ,2
+Prevent -bind: from further subscriptions following synchronous error,2014-04-18,Merged,1242,53,0,,2
+Make 1.9.7 build under Xcode 5.1 with llvm 5.1.,2014-04-11,Closed,1237,13,7,pbxproj xcscheme ,4
+RACReduce(),2014-05-12,Closed,1234,346,3,m h ,3
+Add selected row channel support for UIPickerView,2014-05-13,Closed,1232,188,0,h m ,6
+Update project per Xcode 5.1,2014-04-07,Merged,1231,2,6,xcscheme ,2
+Applicative,2014-06-09,Merged,1228,60,0,m ,3
+Replace OSAtomicIncrement/Decrement32Barrier with OSAtomicAdd32Barrier,2014-04-03,Closed,1224,2,2,,1
+fixed a missing semicolon in the Readme,2014-04-03,Merged,1222,1,1,,0
+Fix typo in README,2014-03-27,Merged,1205,1,1,,0
+Mac static lib includes,2014-03-28,Merged,1204,12,0,,1
+Return nil if count is 0 in RACIndexSetSequence,2014-03-31,Merged,1203,22,1,,2
+Make the formatting of private headers more consistent,2014-03-25,Merged,1199,190,214,h ,15
+add RACDelegateProxy.h to public copy headers phase,2014-03-25,Closed,1198,2,0,,1
+Flatten dependencies,2014-03-25,Merged,1194,43,247,pbxproj xcscheme xcworkspacedata external/specta ,7
+Xcode 5.1,2014-03-20,Merged,1192,1,1,,1
+Clarify the use of the CI scripts,2014-03-20,Closed,1191,4,1,,0
+Retain object over -setValue:forKeyPath:,2014-03-25,Merged,1184,51,2,m ,6
+iOS Framework,2014-03-16,Closed,1175,102,1,,1
+Fix stack overflow when freeing long backtrace chains,2014-03-14,Merged,1169,40,10,,2
+Update BasicOperators.md,2014-12-08,Closed,1168,2,0,,0
+Add -[RACSignal merge:],2014-03-14,Merged,1167,89,0,m ,3
+Fix typo,2014-03-11,Merged,1165,1,1,,0
+Bump xcconfigs for Xc 5 backwards compatibility,2014-03-11,Merged,1164,1,1,,1
+minor correction,2014-03-04,Merged,1156,1,1,,1
+Updated design guidelines.,2014-03-13,Merged,1155,12,27,,0
+Remove automatic disposal on deallocation.,2014-03-13,Merged,1154,0,8,,2
+Removed use of deprecated API in RACKVOWrapperSpec.,2014-03-03,Merged,1153,8,8,m ,4
+Merge master,2014-03-03,Merged,1152,93,42,h m external/xcconfigs ,14
+Remove RACActiveSignals,2014-03-13,Merged,1151,23,249,m ,3
+Document the NSUserDefaults' channel's asynchronicity.,2014-03-03,Merged,1150,6,6,m ,2
+fix the framework error,2014-03-04,Closed,1149,41,3,,1
+Observe deallocation of `id<Protocol>` properties.,2014-03-01,Merged,1143,26,1,h ,3
+Consider a nil NSURLResponse to be an error,2014-02-26,Merged,1140,7,1,,1
+"2014, yo",2014-02-25,Merged,1138,1,1,,0
+Remove RACActiveSignals,2014-08-26,Merged,1135,32,243,,4
+Better rendering fix.,2014-02-25,Merged,1133,2,2,,0
+Signal name as thunk,2014-02-25,Closed,1132,314,97,m ,5
+Order of magnitude faster `map` and `filter`,2014-12-08,Closed,1130,469,9,m h ,6
+Fix the italics and fixed width text being nested wrong.,2014-02-24,Merged,1129,1,1,,0
+Subscribers retaining disposed disposables,2014-03-03,Merged,1128,39,7,h ,7
+Added a scheduler/synchronized-primitive: RACInOrderScheduler,2014-02-25,Closed,1120,275,0,h m ,5
+Change RAC_DEBUG_SIGNAL_NAMES into an environment variable,2014-02-17,Merged,1114,22,26,h m ,7
+Remove old demo app links,2014-02-11,Merged,1103,7,8,,0
+rac_textSignal should accommodate 'clear when editing begins',2014-02-12,Merged,1098,24,5,m ,3
+Added more info links.,2014-02-06,Merged,1095,5,1,,0
+Guard signal names with RAC_DEBUG_SIGNAL_NAMES.,2014-02-03,Merged,1086,3,3,m ,2
+Updated xcconfigs submodule to fix clang error on Xcode 5.1 due to deprecated linker flag,2014-02-03,Merged,1084,1,1,,1
+Mention asking questions in the README,2014-01-29,Merged,1082,2,0,,0
+Remove mentions of RACPromise in deprecation messages,2014-01-25,Merged,1080,6,7,h ,2
+"Revert ""Don’t optimise the tests""",2014-01-24,Merged,1078,2,1,,1
+Fixes issues when a second class swizzle takes place on an instance,2014-01-23,Merged,1077,39,19,m ,3
+Fix -methodSignatureForSelector: for dynamically subclassed classes,2014-01-23,Merged,1076,4,2,,2
+Remove deprecated methods and classes from unit tests,2014-01-24,Merged,1075,"4,262","6,393",m ,8
+Allow a nil starting value for -aggregateWithStart:reduce:,2014-01-23,Merged,1074,0,2,,1
+Re-use the same dealloc signal.,2014-01-22,Merged,1073,5,0,,1
+Remove the disposable from self and the observer when KVO observation is disposed of,2014-01-22,Merged,1072,5,1,,1
+Update README.md,2014-01-22,Closed,1071,2,2,,0
+Remove RACCommand.observationInfo override,2014-01-21,Merged,1070,0,5,,1
+Fixing RACDynamicSignal.h import,2014-01-20,Merged,1066,2,1,m ,2
+Remove inclusion of config.h,2014-01-16,Merged,1061,0,4,,1
+Signal selector class,2014-01-21,Merged,1058,72,0,,2
+Remove RACDelegateProxy from UITextView+RACSupport,2014-01-16,Merged,1053,28,37,m ,2
+Remove delegate proxy from UITextView category,2014-01-08,Closed,1051,19,43,m ,2
+Allow nil inner streams when flattening,2014-01-06,Merged,1045,19,7,h ,4
+Add UITableViewHeaderFooterView support,2014-01-06,Merged,1040,184,17,h m ,7
+Use -afterDelay:schedule: in -timeout:onScheduler:,2013-12-30,Merged,1039,5,8,,1
+Rename signal names in NSDictionary+RACSupport,2013-12-29,Merged,1038,2,2,,1
+Fix -retry: test,2013-12-27,Merged,1035,9,7,,1
+BREAKING: Stop tying KVO observation lifetime to self,2014-01-24,Merged,1034,215,255,h m ,3
+Better modeling for KVO collection changes,2014-01-24,Merged,1032,"1,854",16,h m ,11
+NSIndexSet.rac_sequence redux,2013-12-27,Merged,1031,238,0,h m ,7
+Add collection support for NSHashTable / NSMapTable,2014-01-06,Merged,1030,302,6,pbxproj h m ,6
+Improve NSUserDefaults support,2013-12-24,Merged,1028,42,15,m ,3
+Attempt to fix resurrection of dead objects in KVO signals,2013-12-27,Merged,1026,148,49,h m ,7
+Use block enumeration for collection support,2013-12-21,Closed,1025,9,9,,3
+Fix variable type in NSSet+RACSupport,2013-12-21,Merged,1024,1,1,,1
+Make NSUserDefaults+RACSupport.h more public,2013-12-20,Merged,1022,1,1,,1
+Make NSUserDefaults+RACSupport.h public,2013-12-20,Merged,1021,2,2,,1
+RACSequence addition added to NSIndexSet,2013-12-26,Closed,1019,216,0,h m ,7
+Add an extension to `NSUserDefaults` to create a channel for a key,2013-12-20,Merged,1018,214,0,h m ,5
+Replaced interval+take1+subscribeNext with afterDelay in bufferWithTime,2013-12-30,Merged,1011,3,6,,1
+Use `SEL` variable in RACSwizzleRespondsToSelector,2013-12-20,Merged,1010,1,1,,1
+Add -[RACSignal signalGenerator],2013-12-20,Merged,1009,34,2,m ,3
+Replace NSString.rac_signal with generic enumeration,2013-12-20,Merged,1008,37,25,m ,3
+Cherry-pick RAC 3.0's -flatten: into master,2013-12-17,Merged,1006,98,60,,2
+Added Coursera Class,2013-12-21,Merged,1005,2,0,,0
+RACSignalGenerator comment update,2013-12-14,Merged,1003,4,3,,1
+RACCommand-esque RACAction using RACSignalGenerator,2014-01-17,Merged,1001,"1,327",475,,0
+Another failing test case for reopened #988,2013-12-17,Merged,1000,37,4,,2
+Flatten last sync signal bug,2013-12-11,Closed,999,35,17,m external/expecta external/specta ,5
+Accept nil for -subscribe:,2013-12-11,Merged,998,48,38,h ,9
+RACAggregatingSignalGenerator,2013-12-13,Merged,997,420,70,h m ,8
+Remove RACPromise,2013-12-11,Merged,995,219,606,pbxproj ,1
+"Revert RACAction, use signal generators instead",2013-12-11,Merged,994,250,919,,0
+Updated bootstrap to search for xctool.sh,2013-12-11,Closed,991,3,1,script/bootstrap ,2
+Fix and failing test case for #988,2013-12-09,Merged,989,28,0,,2
+"[WIP] Replace channels with ""validated bindings""",2014-01-17,Closed,986,64,0,h m ,3
+Remove -[RACSignal promiseOnScheduler:],2013-12-09,Closed,985,58,85,h ,6
+Fix the ReactiveCocoa-Mac target headers,2013-12-05,Merged,983,12,2,,1
+Removed traces of RACExtensions since they're part of the core framework now.,2013-12-03,Merged,982,0,10,,0
+Fixed link to Foundation Support extensions,2013-12-03,Closed,981,1,1,,0
+Added RACSignal operator for extracting tuple elements,2013-12-05,Closed,980,30,0,m ,3
+API cleanup,2013-12-05,Merged,979,296,314,m h ,8
+Fix _Bool lifting test,2013-11-30,Merged,978,2,6,external/expecta external/specta ,3
+"RACQueuedSignalGenerator, class constructors instead of initializers",2013-12-09,Closed,967,371,30,h m ,9
+[ON HOLD] ReactiveCocoa 3.0,2014-06-19,Closed,966,"13,030","12,113",,0
+Implement -takeUntilReplacement: without subjects,2013-11-23,Merged,962,13,9,,1
+README.md updates and improvements.,2013-11-23,Merged,961,162,149,,0
+Add - [RACSignal skipUntil:] as opposite to - [RACSignal takeUntil:],2013-11-21,Closed,958,61,0,m ,3
+-[RACSignal takeUntilReplacement:],2013-11-25,Merged,957,184,0,m ,3
+Test disposal of upstream signals' disposables,2013-11-21,Closed,955,19,1,,1
+Promotes UICollectionViewCell category to UICollectionReusableView,2013-11-18,Merged,953,20,19,h m ,5
+Fix typos,2013-11-16,Closed,950,1,1,,0
+-bufferWithTime:scheduler: nil values regression.,2013-11-15,Merged,948,15,5,,2
+Remove RACValueTransformer.,2013-11-15,Merged,947,0,67,m h ,4
+Fix header visibility.,2013-11-15,Merged,946,11,29,,1
+Fix broken xcconfig references in CI,2013-11-14,Merged,942,27,7,script/cibuild ,2
+Assert that the result of a -flattenMap: block isn't nil,2013-11-17,Merged,941,4,1,,1
+xcconfigs++,2013-11-13,Merged,938,1,1,,1
+Signal generators,2013-11-25,Merged,936,435,79,pbxproj h m ,7
+Use xctool for CI,2013-11-11,Merged,933,301,37,md script/bootstrap script/cibuild awk ,5
+Behavior of -sample: before receiver sends a value,2013-11-11,Merged,932,5,1,m ,2
+Allow binding a signal other than command.enabled to the control's enabled,2013-11-15,Closed,931,31,9,m ,3
+Fix ARC Error,2013-11-09,Closed,929,1,18,,3
+Bump xcconfigs and objc-build-scripts for Xcode 5,2013-11-08,Closed,928,130,14,script/cibuild awk ,4
+Remove RunUnitTests scripts,2013-11-08,Merged,927,0,45,,1
+Fix to -rac_signalForSelector: properly implement -respondsToSelector: for optional method from a protocol,2013-11-12,Merged,926,38,3,h ,3
+Fixed typo in example.,2013-11-07,Merged,923,1,1,,0
+Disabling RACCommand at initialization time,2013-11-11,Merged,922,9,2,,2
+Fix bug where EXTRuntimeExtensions.h and EXTScope.h imports could reference wrong files in cocoapods,2013-11-08,Closed,921,2,2,,1
+Operator-based backpressure,2013-11-25,Merged,920,468,324,h ,1
++create: and a compound disposable on <RACSubscriber>,2013-11-18,Merged,917,883,"1,045",pbxproj m ,14
+[WIP] Move disposal responsibilities to <RACSubscriber>,2013-11-03,Closed,916,274,377,h ,16
+Deprecate RACSequence and RACStream,2013-11-06,Merged,915,"1,733","1,805",,0
+Replace RACCommand with RACAction,2013-11-06,Merged,910,"1,623",980,,0
+Correct example output in BasicOperators.md,2013-10-30,Merged,905,1,1,,0
+-shareWhileActive,2013-10-28,Merged,898,179,0,m ,3
+Remove stack depth counter in RACKVOChannel,2013-10-28,Merged,895,56,41,m ,4
+Implement -respondsToSelector: when using -rac_signalForSelector: on KVO'd target,2013-10-28,Merged,891,73,2,h ,4
+More efficient implementation of objectPassingTest and any on RACSequenc...,2013-10-23,Merged,888,4,16,,1
+Fix another analyzer false positive in RACSerialDisposable,2013-10-19,Merged,880,14,3,,1
+Allow nil for -[RACCompoundDisposable addDisposable:],2013-10-19,Merged,879,31,30,h m ,10
+"Remove implementations deprecated in 2.0, add RACDeprecated macro, deprecate RACBehaviorSubject",2013-10-22,Merged,878,80,493,h m ,12
+Replace multicasting and replaying with promises,2013-10-28,Merged,877,817,296,,0
+[WIP] Break commands down into simpler components,2013-10-31,Closed,874,260,21,m d h ,10
+UIRefreshControl command support,2013-10-21,Merged,873,163,0,h m ,4
+Core Location support,2013-10-18,Closed,872,238,0,h ,2
+Prevent static analyzer false positive,2013-10-15,Merged,867,3,2,,1
+Behavior of -bind: stopping,2013-10-15,Merged,865,74,1,,2
+"Fix leak in RACSerialDisposable, tighten up disposal and subscriber block releasing",2013-10-14,Merged,864,72,23,m ,6
+Break disposable reference cycle,2013-10-12,Closed,863,6,2,,1
+Static signal,2013-10-14,Closed,862,235,305,h m ,10
+Test connect race with semaphore and atomic flag,2013-10-16,Merged,861,6,15,,1
+Fix ownership race condition when swapping disposables,2013-10-14,Merged,859,14,10,,1
+Split primitive signal behaviors into separate classes,2013-10-11,Merged,858,586,216,h m ,8
+Fix multicast connect race,2013-10-16,Merged,856,42,13,,2
+Mapping values to errors / inverse of catchTo:,2013-10-16,Merged,855,176,0,m ,3
+Ui collection view cell additions,2013-10-07,Merged,846,147,1,h m ,4
+Add RACified NSURLConnection loading category,2013-10-03,Merged,841,142,0,h m json ,6
+Minor guidelines corrections,2013-09-30,Merged,835,6,4,,0
+"Optimize subscribers list, disposable usage in base signal operators",2013-09-30,Merged,830,55,55,m ,3
+Object inlining and instrumentation for RACCompoundDisposable,2013-09-30,Merged,829,130,31,pbxproj m d ,5
+Generalized -distinctUntilChanged to RACStream,2013-09-27,Merged,823,21,19,m ,4
+Document -initially: order,2013-09-28,Merged,822,23,0,,1
+OS X static library,2013-09-30,Merged,819,400,20,,0
+Give -initially: top-down composition,2013-09-25,Closed,818,23,4,,2
+Graduate RACExtensions,2013-09-25,Merged,817,76,45,h m ,11
+Fix RACObserve with protocols.,2013-09-24,Merged,816,1,1,,1
+Supply name to signal for selector,2013-09-24,Merged,815,2,1,,1
+Add signal for UIWebView loading.,2013-12-10,Closed,814,89,0,h m ,3
+Retract RACDelegateProxy from public,2013-09-23,Merged,813,0,3,h ,2
+Add an extra slash to header documentation comments,2013-09-23,Merged,812,"1,891","1,891",,11
+[WIP] 99% cold signals,2013-10-21,Closed,810,0,344,h m ,4
+[WIP] 99% cold signals,2013-11-23,Closed,809,0,344,h m ,4
+[WIP] Automatic backpressure for throttling producers,2013-10-25,Closed,808,432,62,h m ,10
+Show RAC log out in README example,2013-09-23,Merged,806,4,0,,0
+Use Test configuration for Test scheme,2013-09-23,Merged,803,1,1,,1
+Avail RACDelegateProxy to OS X,2013-09-23,Closed,799,7,1,h ,2
+Remove nil termination from -rac_liftSelector:withSignals:,2013-09-17,Closed,796,10,6,m ,4
+Gitignore ignores spotlight index files.,2013-09-28,Closed,794,1,0,,1
+Mapping with key paths,2013-09-16,Closed,792,21,0,m ,2
+DTrace probes and Instruments template for signal events,2013-09-23,Merged,791,99,3,tracetemplate pbxproj m h d ,7
+"Parse BOOL types separately, support block types",2013-09-14,Merged,790,100,43,h ,4
+Selector signal documentation clarification.,2013-09-23,Merged,787,28,2,m ,2
+-rac_signalForSelector: struct returning selectors support.,2013-09-23,Merged,784,129,0,h ,3
+Dealloc swizzling without recursion and rac_getImmediateInstanceMethod.,2013-09-06,Merged,782,13,21,,1
+Adding a link to Escape from Callback Hell,2013-09-09,Merged,778,1,0,,0
+Docsets for ReactiveCocoa,2013-09-01,Closed,777,"1,289",0,,1
+"class_replaceMethod is redundant, -dealloc is already replaced with new implementation",2013-08-30,Merged,776,0,1,,1
+Notice new superclass -dealloc implementations even after swizzling,2013-09-09,Merged,775,106,4,,2
+ReactiveCocoa swizzles dealloc in such a way that brokes swizzling of any other lib in some cases.,2013-08-30,Closed,774,20,4,,1
+import UIAlertView+RACSignalSupport.h in ReactiveCocoa.h,2013-08-25,Merged,764,1,0,,1
+Fixing compilation warning for missing long int casting.,2013-08-23,Merged,763,1,1,,1
+"Add names to lifted signals, update documentation, and other tweaks",2013-08-22,Merged,761,46,48,m ,5
+"-replayLazily behavior changes, -autoconnect refactoring",2013-08-20,Merged,759,86,21,h ,5
+Fix RACCommand.enabled only completing after the input signal does,2013-08-20,Merged,758,28,3,,2
+Reimplemented -switchToLatest redux,2013-08-20,Merged,757,33,37,,2
+oneOf: operator to merge differently typed signals,2013-08-20,Closed,756,126,0,m ,3
+Autorelease the backtrace instead of precise lifetiming it,2013-08-19,Merged,755,1,1,,1
+Reimplement -switchToLatest using existing operators,2013-08-19,Merged,754,9,40,,1
+Add quick setup guide to CONTRIBUTING notes for developers,2013-08-19,Closed,752,8,0,,0
+Avoid retain cycles between RACDelegateProxy and RACEventTrampoline,2013-08-19,Merged,751,12,6,,1
+Document that -rac_signalForDelegateMethod: requires the delegate to be set to nil before -dealloc,2013-08-20,Merged,750,4,0,,1
+"Multicast newActiveExecutionsSignal, remove re-entrant delivery",2013-08-20,Merged,749,193,212,h ,1
+Fix -rac_signalForSelector: doesn't invoke original method on previously KVO'd receiver,2013-08-15,Merged,748,12,3,,2
+Fix RACSignalSupport to reset delegate after dynamically adding methods,2013-08-13,Merged,745,15,9,,3
+Fix for RACBacktrace lifetime crash,2013-08-07,Merged,741,22,3,,2
+nil out the previous backtrace when a backtrace is deallocated,2013-08-07,Closed,738,22,0,,2
+Use a CFSet instead of NSSet for RACActiveSignals,2013-08-05,Merged,735,10,4,,1
+"Make commands less special, compose better",2013-08-17,Merged,733,878,706,pbxproj m ,2
+"Remove fishhook, disabling automatic iOS backtraces",2013-08-02,Merged,729,53,413,h m external/fishhook/LICENSE ,10
+Copy <NSFastEnumeration> argument to +merge:,2013-08-02,Merged,724,35,8,,2
+Disable Fishhook on iOS device builds,2013-08-02,Closed,721,15,8,m ,3
+Fix rac_liftSelector:withSignals: documentation to nil terminate,2013-07-30,Merged,720,1,1,,1
+Fix UIKit test host build settings for on device testing,2013-07-30,Merged,719,2,0,,1
+Fix RACSequence enumeration repeating forever,2013-07-29,Merged,717,28,4,,2
+RACTestScheduler,2013-07-30,Merged,716,509,30,pbxproj h ,3
+"Reimplement -catch: without subscribeForever, and add basic tests",2013-07-29,Merged,715,83,17,,2
+Refactor -flatten: to fix crash and use RACCompoundDisposable,2013-07-28,Merged,713,66,52,ReactiveCocoaFramework/ReactiveCocoa/libextobjc ,3
+Fix dangling pointers in -rac_valuesAndChangesForKeyPath:...,2013-07-26,Merged,712,20,2,,2
+Fix C string lifting test.,2013-07-24,Merged,710,4,3,,1
+Add fishhook,2013-07-25,Merged,709,413,53,h m external/fishhook/LICENSE ,10
+UIActionSheet tests redux,2013-07-23,Merged,707,40,0,m ,2
+Add support for lifting methods with no arguments.,2013-07-23,Closed,706,24,6,h ,4
+-[UITableViewCell rac_prepareForReuseSignal],2013-07-23,Merged,705,170,213,h m ,9
+Add RACSerialDisposable,2013-07-23,Merged,704,333,48,m h ,4
+Lock free management of active signals,2013-07-23,Merged,703,6,25,,1
+Lock free management of active signals Edit,2013-07-22,Closed,702,111,68,m h ,5
+Lock free management of active signals,2013-07-22,Closed,701,111,68,m h ,5
+"Reduce memory consumption, optimize zipping/combining",2013-07-23,Merged,699,102,67,m h ,5
+Add support for arbitrary types to NSInvocation (RACTypeParsing),2013-07-24,Merged,696,275,115,h m ,3
+"Remove property subjects, refactor bindings",2013-08-01,Merged,695,"1,148","1,466",,0
+Re-enable RACBacktrace collection within RAC,2013-07-20,Merged,694,17,7,m ,5
+Update documentation for 2.0 deprecations,2013-07-22,Merged,690,47,34,,0
+"Remove +switch:cases:, tweak +switch:cases:default: behavior",2013-07-22,Merged,689,178,225,h m ,5
+Proposal: Add operator to separate out signals for inner errors and inner completions,2013-07-23,Closed,687,94,0,m ,3
+Two-way bindings for UIKit classes,2013-08-07,Merged,686,560,145,pbxproj m h ,10
+Add -[RACSignal initially:],2013-07-22,Merged,685,50,0,h m ,3
+Use -rac_description on 2.0-development (redux),2013-07-19,Merged,684,14,7,,7
+Use -rac_description on master,2013-07-18,Merged,683,12,6,,6
+Add changelog for 2.0,2013-07-19,Merged,682,368,0,,0
+Use -rac_description to prevent unwieldly backtraces,2013-07-18,Closed,681,14,7,,7
+"Cleaner RACBacktrace retrieval, more documentation",2013-07-20,Merged,680,66,59,h m pch ,4
+Only observe weak properties for deallocation,2013-07-18,Merged,678,464,19,h m ,4
+Added RACSignal Boolean operators from #660,2013-07-23,Merged,676,71,0,m ,3
+Use thread safe KVO stack counter in RACObservablePropertySubject.,2013-07-18,Merged,671,94,13,,1
+Accept a placeholder nilValue for all bindings,2013-07-18,Merged,670,291,172,m h ,7
+Banish all apostrophes,2013-07-16,Merged,669,17,17,m ,9
+"Rename and clarify -mapPrevious…, rename all combine: parameters to reduce:",2013-07-16,Merged,667,140,74,h ,8
+"Use NSDates for scheduling, instead of dispatch_time_t",2013-07-16,Merged,664,72,60,h ,10
+Clarify completion documentation for -switchToLatest & +if:then:else:,2013-07-13,Merged,662,4,2,,1
+Add +switch:cases:,2013-07-15,Merged,658,284,0,h m ,6
+Correct +combineLatest: documentation regarding completion,2013-07-09,Merged,656,2,4,,1
+Proposal fix of issue #651,2013-07-06,Merged,652,25,0,,2
+Implement -concat as -flatten:1,2013-07-03,Merged,648,1,69,,1
+Added new -asynchronouslySubscribeNext:error:completed: test method,2013-07-02,Closed,643,117,20,m ,3
+Newcomers' guide,2013-07-03,Merged,642,42,41,,0
+Fixed default value in -asynchronousFirstOrDefault:success:error:,2013-07-02,Closed,641,22,1,,2
+Describe -do… and -subscribe… in Basic Operators document,2013-07-02,Merged,640,86,0,,0
+Test that -takeUntil: handles immediate signals correctly,2013-07-02,Merged,639,21,2,,1
+Wrap Cocoa Bindings with a RACBinding-based API,2013-07-06,Merged,638,484,35,h m ,6
+Use K&R style block types for improved type checking,2013-07-02,Merged,636,16,14,m ,5
+"Deprecate -sequenceMany:, rename -sequenceNext: to -then:",2013-07-02,Merged,635,43,48,m ,6
+Prevent observer from observing its own deallocation,2013-07-01,Merged,634,69,4,,2
+Extend the new KVO methods to support change dictionaries and deprecate the old ones.,2013-07-17,Merged,632,446,263,m ,3
+Rename -ignoreElements to -ignoreValues,2013-06-28,Merged,629,15,10,m ,5
+Add application target for iOS UIKit tests.,2013-06-28,Merged,626,940,11,m png h plist pch strings ,16
+Missing __autoreleasing in README: **error replaced with *__autoreleasing *error,2013-06-26,Closed,623,4,4,ReactiveCocoaFramework/ReactiveCocoa/libextobjc external/expecta external/specta ,3
+Remove -rac_liftBlock:withSignals*:,2013-06-25,Merged,620,7,139,m ,3
+ReactiveCocoa 2.0,2013-08-21,Merged,618,"11,419","4,785",md h ,2
+Rename -toProperty:onObject: to -setKeyPath:onObject:,2013-06-25,Merged,617,35,16,m ,10
+Deprecate -windowWithStart:close and -buffer:,2013-06-26,Merged,616,157,196,m ,2
+Diagram documentation,2013-08-21,Closed,614,10,0,png ,2
+Remove unnecessary imports,2013-06-23,Merged,613,2,32,,20
+Replace libextobjc submodule with a subtree,2013-06-25,Merged,612,"1,063",239,pbxproj h m pch ,35
+Add -[UIActionSheet rac_buttonClickedSignal],2013-06-28,Merged,611,160,11,h m ,9
+Refactor lifting methods to only accept signals,2013-06-24,Merged,609,140,529,m ,2
+-rac_signalForSelector:fromProtocol: & refactored UIKit signals,2013-06-26,Merged,608,575,372,pbxproj h m ,8
+Deprecate -[RACBinding bindTo:].,2013-06-21,Merged,605,43,24,m ,6
+Find appropriate selector without NSString allocation,2013-06-22,Merged,602,19,6,,1
+Add RACObserve as default KVO observation method.,2013-06-28,Merged,601,951,456,h ,4
+Added -throttle:valuesPassingTest:,2013-06-21,Merged,600,254,68,m ,3
+fix the wrong output of flattenMap,2013-06-18,Merged,593,1,1,,0
+Add RACCommand support to UIAlertView,2013-07-20,Merged,591,126,0,h m ,4
+-rac_signalForSelector: the third,2013-06-25,Merged,590,538,133,h m ,5
+Updates for Xdacted,2013-06-19,Merged,589,6,6,xcscheme ReactiveCocoaFramework/ReactiveCocoa/libextobjc external/expecta external/specta ,6
+Require a scheduler for all timer-based operators,2013-06-15,Merged,588,237,102,h ,8
+Deprecate -rac_addDeallocDisposable:,2013-06-14,Merged,586,80,114,m ,13
+Deprecate -rac_didDeallocSignal,2013-06-14,Merged,585,28,71,m ,3
+Move RACSubscriber class to a private header,2013-06-14,Merged,584,31,15,m h ,11
+Fix subscribers receiving events even after subscription disposal,2013-06-14,Merged,582,288,76,m h ,8
+Dealloc disposable improvements,2013-06-14,Merged,580,260,216,h m ,9
+Adding UIButton RACCommand support,2013-06-13,Closed,577,153,0,h m ,4
+Making RACEventTrampoline and RACDelegateProxy available in the iOS library,2013-06-12,Closed,576,6,0,h ,2
+Signal for selector using forwarding 2.0,2013-06-16,Closed,573,182,65,m ,5
+Added support for rac_signalForDelegateMethod on UITextField,2013-06-10,Closed,570,41,1,m ,4
+Changed -rac_addObserver:forKeyPath:options:block: to accept nil observer.,2013-06-10,Merged,569,21,4,,2
+Fix current scheduler,2013-06-08,Merged,566,12,35,h ,3
+Fix -concat dropping signals and not always disposing correctly,2013-06-08,Merged,565,83,14,,2
+What even is an iOS?,2013-06-08,Merged,564,2,0,,1
+Add the headers for iOS,2013-06-08,Merged,563,4,0,,1
+Further RACQueueScheduler changes,2013-06-08,Merged,562,45,24,m ,8
+Support RACQueueScheduler subclassing,2013-06-08,Merged,561,356,98,h m ,6
+Support RACQueueScheduler subclassing,2013-06-08,Closed,560,842,585,m ,2
+Added RACCommand support to UIButton.,2013-06-15,Merged,558,166,2,h m ,6
+Removed NSTask+RACSupport.,2013-06-06,Merged,556,0,209,m pbxproj ,3
+Deprecated let:,2013-06-15,Merged,555,12,4,m ,2
+Signal for selector using forwarding,2013-06-12,Closed,554,162,49,m ,4
+"Optimize KVO wrappers, signal lifetime, and RACCompoundDisposable",2013-06-04,Merged,553,131,102,h ,5
+Clean-up duplicate entries in ReactiveCocoaTests group,2013-06-01,Merged,552,0,6,,1
+Document sdk requirements and set iOS deployment target to 5.0,2013-06-01,Merged,551,8,4,pbxproj ,1
+Document sdk requirements and set iOS deployment target to 5.0,2013-06-01,Closed,550,31,12,pbxproj h m ,5
+Only run -rac_description in DEBUG builds,2013-05-31,Merged,549,10,3,m ,3
+Clarify -deliverOn: and -subscribeOn:,2013-05-30,Merged,543,12,4,,1
+Clarify -deliverOn: and -subscribeOn:,2013-05-30,Closed,542,12,4,,1
+Quote header search path in README,2013-05-30,Merged,541,1,1,,0
+Refactor RACCommand to work solely on the main thread,2013-05-30,Merged,540,158,76,h ,4
+Documentation warnings about retain cycles with RACAble,2013-05-30,Merged,539,19,6,,1
+Fix concurrency in provided rac_command properties,2013-05-30,Merged,538,44,19,,2
+Match old -addSignalBlock: behavior despite deprecation,2013-05-30,Merged,537,28,1,,1
+Deprecate some starts,2013-05-30,Merged,536,267,111,h m ,5
+Remove support for lifting char * args and return values,2013-05-29,Merged,535,11,63,m ,5
+Copy lifted NSString arguments before setting their C strings,2013-05-29,Closed,534,5,1,,1
+"Rename -addSignalBlock: to -addDeferredSignal:, hide errors from subscribers",2013-05-29,Merged,530,78,18,m ,3
+Remove pre-1.0 RACCommand deprecations,2013-05-29,Merged,529,0,39,m ,2
+Implemented -ignore stream operation to filter the specified value (including nil),2013-05-29,Merged,528,54,0,m ,4
+Extract duplicated code for management of event trampolines,2013-05-28,Merged,521,20,31,m ,5
+Tear down and recreate KVO observations on intermediate objects with RACObservablePropertySubject,2013-06-20,Closed,519,821,293,h m ,6
+Concretize the mechanism behind rac_textSignal,2013-05-24,Merged,517,2,1,,1
+Fixed typo: missing ^ between completed: and { in documentation,2013-05-24,Merged,512,1,1,,0
+iOS testing target,2013-05-28,Merged,510,459,73,xcscheme m pch script/cibuild ,10
+New operation on RACStream to filter out nil objects,2013-05-28,Closed,508,21,0,m ,3
+Avoid using copying property as a block value,2013-05-22,Merged,506,12,10,,1
+Added +once:,2013-05-28,Merged,501,132,0,m ,3
+Refactor -toArray using -collect and -first,2013-05-17,Merged,498,62,34,,2
+Adds -[UIGestureRecognizer rac_signalForGesture],2013-05-16,Closed,497,72,2,h m ,5
+Clarify -sequenceNext:'s documentation and implementation,2013-05-16,Merged,496,6,16,m ,2
+Fix stack clobbering in RACArraySequence fast enumeration,2013-05-14,Merged,494,25,5,,2
+Supports NSRange for NSInvocation -rac_returnValue,2013-05-14,Merged,491,29,3,m ,5
+Skip full -description for some values in stream names,2013-05-14,Merged,489,73,22,pbxproj h ,11
+Add NSObject -rac_signalForSelectorInvocation:,2013-05-14,Closed,488,346,0,m ,4
+Fix ushort type code parsing for -rac_returnValue,2013-05-12,Merged,485,1,1,,1
+Add supports const char * value for type parsing.,2013-05-12,Merged,484,38,0,h ,3
+fix type code parser for unsigned short,2013-05-11,Merged,483,2,2,,1
+Replace all NSAssert/NSParameterAssert with NSCAssert/NSCParameterAssert,2013-05-10,Merged,481,136,136,,22
+UIGestureRecognizer -rac_gestureSignal,2013-05-13,Merged,480,69,2,h m ,6
+supports NSRange value,2013-05-10,Merged,479,27,0,h ,3
+Added +schedulerWithQueue:name:,2013-05-09,Merged,478,60,0,m ,3
+Change assert in RACLiftAndCallBlock to NSCParameterAssert,2013-05-07,Merged,476,3,0,,1
+Added proxy object for AppKitBindings,2013-07-02,Closed,471,318,25,h m ,6
+RACObservablePropertySubject tries to update key path with nil intermediate values and fails.,2013-05-10,Merged,470,125,0,h m ,6
+Add jspahrsummers/objc-build-scripts,2013-05-06,Merged,467,138,3,xcscheme script/bootstrap script/cibuild awk ,5
+"Edited ""Basic Operators"" document",2013-05-06,Merged,466,277,0,,0
+Fix control's textsignal to react to stringValue's update,2013-05-03,Closed,465,7,3,,1
+Add best practices for making imperative code more FRP-like,2013-05-08,Merged,462,71,20,,0
+Horrible things to optimize the hell out of sequences,2013-05-02,Merged,461,263,71,m ,5
+RACTuple optimization,2013-05-01,Merged,460,139,11,m h ,5
+Make RACDelegateProxy.actualDelegate weak,2013-05-01,Merged,457,8,4,m ,2
+Added note about RACObservablePropertySubject's thread-safety.,2013-04-30,Merged,454,4,0,,1
+Use unsafe_unretained references for RACBind targets,2013-04-30,Merged,453,11,2,,1
+Add convenience methods that deliver and subscribe on the main thread,2013-04-27,Closed,450,16,0,m ,2
+"Sample code and output for basic operators, 2nd edition.",2013-04-23,Closed,447,188,0,,0
+Sample code and output for basic operators,2013-05-04,Closed,446,190,0,,0
+Only read RACAbleWithStart's initial value upon subscription,2013-04-23,Merged,442,58,12,m ,3
+Sets correct length for memmove() operation.,2013-04-21,Merged,440,1,1,,1
+Lift with arguments array,2013-05-06,Merged,438,350,58,m ,2
+Adding an iOS Unit Testing target referencing #405,2013-05-28,Merged,431,305,0,,1
++rac_signalWithChangesFor:keyPath:options:observer:,2013-04-12,Merged,426,330,92,h m ,5
+Added HOM version of RAC message lifting,2013-04-21,Merged,424,393,82,m ,4
+RACScheduledSubject,2013-04-15,Closed,417,150,0,h m ,5
+Fix text signal cycle,2013-04-03,Merged,416,81,69,h ,7
+Custom named scheduler,2013-04-01,Merged,409,10,2,m ,2
+Adding UIBarButtonItem RACCommand Support.,2013-04-09,Merged,406,87,0,h m ,4
+Updated libextobjc to get new configurations.,2013-03-28,Merged,402,1,1,,1
+Add method `-includePrevious:` for combining latest and previous values,2013-04-01,Closed,398,32,0,m ,2
+Unifying RAC convenience macros.,2013-04-01,Closed,397,54,169,m h ,8
+Update README to mention that iOS targets need -ObjC Linker Flag,2013-03-25,Merged,395,2,1,,0
+Less lulzy RAC-less parallel work example,2013-03-25,Merged,391,22,21,,0
+implemented forwarding of completed and error events to RACGroupedSignal when using -groupBy:,2013-03-23,Merged,390,54,0,,2
+Catch errors to empty,2013-03-25,Closed,388,24,1,,2
+Add convenience method for delayed schedule on RACScheduler,2013-03-25,Merged,386,10,0,m ,2
+Added -rac_signalForSelector:,2013-03-26,Merged,384,235,0,h m ,9
+Full KVO support of `RACAble...`,2013-04-12,Merged,383,2,1,,1
+Export NSObject+RACDeallocating.h,2013-03-18,Merged,382,5,2,h ,2
+Send complete on dealloc a RACEventTrampoline,2013-03-15,Merged,379,4,1,,1
+Add objectPassingTest,2013-03-16,Merged,377,42,0,m ,3
+Convinient signal for infinite signal termination.,2013-03-15,Merged,376,124,0,h m ,4
+Complete command signals on dealloc,2013-03-14,Merged,375,31,0,,2
+Hide RACCommand's subscriber behavior in a private RACSubject,2013-03-13,Merged,374,101,16,m pch ,6
+Fix -deliverOn: disposable growth,2013-03-12,Merged,372,7,17,,1
+Handle asynchronous blocks in -scheduleRecursiveBlock:,2013-03-12,Merged,370,65,15,,3
+Add -(BOOL)all: function,2013-03-13,Merged,368,38,0,m ,3
+Refactored Method Name of Interface,2013-03-11,Closed,367,"1,350","1,325",m ReactiveCocoa h ,19
+Replace NSNotificationCenter.default center with the source NSNotificationCenter,2013-03-11,Merged,366,1,1,,1
+"Move NSButton.rac_command to NSControl, add rac_textSignal",2013-03-11,Merged,363,324,82,h m ,11
+Added -execute:,2013-03-09,Merged,362,37,0,m ,3
+Fix -toProperty:onObject: disposal,2013-03-08,Merged,360,4,0,,1
+Folding Methods by aitskovi,2013-03-09,Merged,359,174,0,h ,5
+Never pass values across thread boundaries by reference,2013-03-07,Merged,358,11,13,,2
+Remove dealloc disposables if they're disposed of before dealloc,2013-03-07,Merged,357,34,15,m ,3
+Weakly reference the subscriber,2013-03-07,Merged,356,5,1,h ,2
+Fixing -switchToLatest not mirroring Rx.,2013-03-01,Merged,352,41,7,,2
+Add an errors signal to RACCommand,2013-02-27,Merged,351,103,14,m ,3
+-flattenLatest,2013-03-01,Closed,349,195,61,m ,3
+Fix thread safety of -[RACSignal concat:],2013-03-05,Merged,348,7,13,,1
+Add type information to the RAC() macro,2013-03-05,Merged,347,3,4,m ,2
+Change RACCommand's _itemsInFlight type to int32_t. Fixes armv7 alignment.,2013-02-21,Merged,346,3,3,,1
+Change RACPropertySubject to inherit +subject constructor.,2013-02-22,Merged,345,17,3,,2
+Demonstrate -flattenMap: effects in the documentation,2013-03-05,Merged,342,20,0,,1
+RAC() to the most descendant properties possible in the README,2013-03-05,Merged,341,2,2,,0
+Folding Methods,2013-03-07,Closed,338,159,0,h ,5
+Set usesTabs=1 for the pbxproj,2013-02-19,Merged,337,1,0,,1
+Make -[NSString rac_sequence] work with composed characters,2013-02-19,Merged,335,11,15,m ,3
+Methods for waiting asynchronously in unit tests,2013-03-05,Merged,334,197,26,h ,4
+Add -[RACSignal waitUntilCompleted:] for blocking until termination,2013-02-25,Merged,333,43,0,m ,3
+Documentation cleanup,2013-02-18,Merged,331,302,285,,0
+Add a section about indentation style,2013-02-18,Merged,330,59,0,,0
+Replace RACAsyncCommand example with an up-to-date one,2013-02-18,Merged,329,14,22,,0
+Added -not,2013-02-15,Merged,327,26,0,m ,3
+modification to support iOS 4.3,2013-02-14,Closed,326,79,59,m pbxproj ,14
+-toProperty:onObject: should dispose when the signal completes or errors,2013-02-12,Merged,323,25,5,,2
+Add README note on recursive submodules,2013-02-12,Merged,322,2,1,,0
+Fix some minor documentation errors and phrasing issues,2013-02-11,Merged,321,8,5,,0
+Fix lifetime of RACTupleUnpack() variables when captured in blocks,2013-02-11,Merged,320,24,7,m ,3
+Added note about archive builds.,2013-02-10,Merged,319,3,0,,0
+Refactor +zip: and +combineLatest: to depend on new primitives which take 2 at a time,2013-02-08,Merged,317,617,386,h ,7
+Note that the Design Guidelines assume RAC familiarity,2013-02-07,Merged,316,4,0,,0
+Link to the Documentation folder from the intro section,2013-02-07,Merged,315,4,0,,0
+RACCommand improvements,2013-02-07,Merged,312,292,73,m ,3
+RACSignal contract,2013-02-06,Merged,311,66,5,,0
+Describe good signal naming conventions,2013-02-06,Merged,310,30,0,,0
+RACSequence contract,2013-02-06,Merged,309,71,0,,0
+"""Implementing new operator"" guidelines",2013-02-05,Merged,307,148,0,,0
+Content for 'Side effects occur again for each subscription' guideline,2013-02-06,Merged,306,63,0,,0
+RACTuplePack(),2013-02-05,Merged,305,50,20,m ,3
+Add Design Guidelines and Overview docs,2013-02-06,Merged,304,"1,065",0,,0
+RACSignalCommand,2013-02-06,Closed,302,410,47,h m ,6
+Add Getting Started instructions to the README,2013-02-04,Merged,301,25,2,,0
+Change -bindTo: to not send unnecessary starting value.,2013-01-30,Merged,300,4,1,m ,2
+Disallow binding multiple signals to the same property,2013-01-30,Merged,299,29,0,m ,2
+"Remove demos, which will now be in their own repos",2013-01-30,Merged,298,2,"8,539",pbxproj xcworkspacedata xcscheme plist pch h m ,10
+Pass through names when using -logNext/Error/Completed,2013-01-29,Merged,295,6,6,,1
+-zip:reduce completion depends on order of zipped signals,2013-01-30,Merged,294,5,1,,2
+Rewrite the README to describe FRP and RAC in detail,2013-02-06,Merged,293,141,23,,0
+Fixed imports in RACExtensions.,2013-01-21,Merged,291,2,2,,2
+Fix KVO signal lifetime,2013-01-23,Merged,290,35,2,,2
+Lazy KVO signal,2013-01-16,Merged,289,319,191,h m ,5
+Initial prototype for #212,2013-03-09,Closed,288,222,8,h m ,6
+Fix dealloc swizzling for subclasses,2013-01-24,Merged,287,55,32,,2
+Fix -takeUntil: disposal,2013-01-14,Merged,286,14,12,,1
+Fix notification cycle,2013-01-14,Merged,284,282,98,h ,11
+Updated tests to new specta style,2013-01-14,Merged,283,263,101,h ,10
+Remove references to EXTConcreteProtocol and dependencies.,2013-01-10,Merged,282,0,23,h ,2
+Xcode++ and bumped specta and expecta and libextobjc,2013-01-10,Merged,281,5,5,ReactiveCocoaFramework/ReactiveCocoa/libextobjc external/expecta external/specta ,5
+Add -[RACSequence objectEnumerator].,2013-01-10,Merged,280,171,14,m ,4
+Autorelease the tails of dynamic sequences upon deallocation,2013-01-09,Merged,279,32,0,,2
+Optimize disposables,2013-01-09,Merged,278,99,47,,4
+Use a mutable set for -rac_addDeallocDisposable:,2013-01-09,Closed,277,7,3,,1
+Rename -switch > -switchToLatest,2013-01-09,Merged,276,7,7,m ,3
+Fix RACSequence unit tests not being run,2013-01-09,Merged,275,158,92,h ,6
+"Remove -bind:, subscribeForever(), and -scheduleRecursiveBlock: disposables when done",2013-01-09,Merged,274,124,34,m ,7
+Add -[NSEnumerator rac_signal].,2013-01-08,Closed,271,192,0,h m ,5
+Replace -asMaybes with -materialize/-dematerialize,2013-01-08,Merged,270,424,208,pbxproj h ,5
+-ignoreElements,2013-01-07,Merged,269,54,0,m ,3
+Refactor from-scratch signal operations to build on others instead,2013-01-07,Merged,268,141,66,m ,4
+Add -[NSEnumerator rac_sequence].,2013-01-07,Merged,266,81,1,h m ,6
+Document major differences from Rx,2013-01-08,Merged,265,85,0,h ,3
+Document memory management guidelines,2013-01-07,Merged,264,141,0,,0
+Use existing Copy Headers build phase for iOS,2013-01-07,Merged,263,124,274,h ReactiveCocoaFramework/ReactiveCocoa/libextobjc ,30
+Add -rac_sequence to RACTuple.,2013-01-06,Merged,262,21,2,m ,2
+Wrap -setNameWithFormat: in #ifdef DEBUG.,2013-01-06,Merged,261,11,12,h ,3
+Fix -flatten: cycle,2013-01-07,Merged,260,25,0,,2
+Fix +combineLatest: cycle,2013-01-07,Merged,259,41,21,,2
+Turn off building for the active arch only.,2013-01-04,Closed,255,2,0,,1
+Indicate that -takeUntil: sends completed,2013-01-04,Merged,253,5,1,,1
+Copy headers to the standard location in Xcode 4.3,2013-01-04,Merged,252,131,1,h ,2
+-replayLast,2013-01-04,Merged,251,22,5,m ,2
+Easier signal naming,2013-01-04,Merged,250,243,296,pbxproj ,10
+Replace +flatten: with +merge: in the README,2013-01-04,Merged,248,5,1,h ,1
+Fix -throttle: and -delay: for background threads,2013-01-04,Merged,246,364,147,h m ,12
+Fix a race when multicasting to a replay subject,2013-01-04,Merged,245,25,5,,2
+Eager sequences.,2013-01-02,Merged,241,148,3,h m ,8
+Add debug logging methods to RACSignal,2013-01-02,Merged,240,50,0,m ,2
+Rewrite -concat to avoid a recursive block,2013-01-02,Merged,237,40,34,,1
+Override implementations of -map: and -filter: in RACArraySequence.,2013-01-01,Closed,236,39,4,m ,3
+Replace connectable signals with multicast connections,2013-01-02,Merged,235,359,412,m ,2
+Fix race conditions in +interval: tests,2012-12-31,Merged,233,25,16,,1
+Added -squelch... methods to RACSignal.,2012-12-31,Closed,232,81,0,m ,3
+Fix documentation for -[RACStream flatten],2012-12-31,Merged,230,1,1,,1
+"Support multiple signals per subscriber, fix -concat",2012-12-31,Merged,229,333,157,h ,5
+"Describe RAC in terms of streams, not sequences",2012-12-28,Merged,227,1,1,,0
+"Automatically set stream, signal, and sequence names",2012-12-31,Merged,225,279,102,,11
+"Remove RACAsyncCommand, fix infinite spinner in GHAPIDemo",2012-12-31,Merged,223,68,218,m pbxproj ,6
+Added +[RACSignal interval:withLeeway:].,2012-12-27,Merged,222,95,32,m ,3
+Switch instances of NSArray in the API with <NSFastEnumeration>.,2012-12-25,Merged,219,86,47,h ,9
+"Fix backtrace logging with RACSchedulers, add unit tests",2012-12-31,Merged,218,186,10,xcscheme h m pch ,6
+Keep RACScheduler disposables around and include them in cleanup,2012-12-31,Merged,217,47,23,,4
+Compare and contrast RACTupleUnpack with the manual version,2012-12-31,Merged,216,8,4,,1
+Added -memoize,2013-01-01,Closed,214,60,0,m ,3
+"Improve -switch documentation and tests, add +if:then:else:",2012-12-31,Merged,213,167,14,m ,3
+Remove RACCollection,2012-12-31,Merged,211,0,233,h m ,4
+Fix RACTupleUnpack for recent Clang versions,2012-12-23,Merged,210,3,3,m ,2
+Changed +zip:reduce: semantics to forward errors immediately.,2012-12-24,Merged,209,90,78,,2
+Fix the use of schedulers in the README,2012-12-22,Merged,208,3,3,,0
+Fix lift cycle,2012-12-21,Merged,207,37,15,,2
+bufferWithTime restarts buffering when window closed,2013-01-02,Merged,206,68,8,,2
+Disallow errors in -toProperty:onObject:,2012-12-20,Merged,203,31,5,m ,2
+Remove delay from -invalidateGlobalRefIfNoNewSubscribersShowUp,2012-12-20,Merged,200,11,15,,1
+Enhance +[RACObjCRuntime findMethod:inProtocol:outMethod:] to find @required methods,2012-12-20,Merged,199,6,1,,1
+"Move <RACSignal> methods into the class, turn <RACStream> into a class",2012-12-20,Merged,198,662,702,h pbxproj ,9
+takeUntil triggers on completion,2012-12-18,Merged,197,20,5,,2
+"Improve -[RACSequence signalWithScheduler:], add -signal",2012-12-18,Merged,196,49,18,m ,3
+-description implementations for dynamically-resolved signals,2012-12-17,Merged,193,31,0,,2
+Support CoreGraphics structures for lifting,2012-12-17,Merged,189,76,6,m ,5
+RACTupleUnpack(),2012-12-12,Merged,185,144,0,h m ,4
+Ensure replay finishes before sending anything else,2012-12-11,Merged,184,58,13,,2
+Keep a local strong reference to the error so it escapes the queue's autorelease,2012-12-11,Merged,183,24,1,,2
+Memory management documentation for RACAble,2012-12-10,Merged,182,22,8,,1
+Better document +createSignal: disposable behavior,2012-12-15,Merged,181,17,7,,1
+Use id<RACSignal> instead of RACSignal *,2012-12-10,Merged,180,169,167,h ,14
+-keepLatestWithStart:combine:,2012-12-10,Merged,178,53,0,m ,3
+Remove RACCancelableSignal,2012-12-18,Merged,175,19,143,m pbxproj ,9
+Unit tests for NSNotificationCenter+RACSupport,2012-12-07,Merged,174,70,2,pbxproj ,3
+Remove +[NSFileManager rac_watchForEventsForFileAtURL:scheduler:],2012-12-07,Merged,172,0,222,m pbxproj ,4
+Added +[<RACStream> concat].,2012-12-05,Merged,170,27,0,m ,3
+"Remove problematic schedulers, add -scheduleRecursiveBlock:",2012-12-07,Merged,169,472,352,pbxproj h ,9
+Get rid of -first and -toArray,2012-12-06,Closed,168,89,170,m ,6
+"Improve RACCompoundDisposable, remove -bind: termination workaround",2012-12-05,Merged,167,38,44,,3
+Document that -sendError: can be given nil,2012-12-03,Merged,165,34,17,m ,2
+Attempt to document how signals and sequences invoke side effects,2012-12-03,Merged,164,42,11,,3
+Two-way binding.,2013-01-09,Merged,163,"1,252",58,h m ,9
+Add `-collect` method to RACSignal,2012-11-30,Merged,154,45,0,m ,3
+Combining any empty list of streams should return an empty stream,2012-11-30,Merged,153,43,13,h ,7
+"Use a prefix header for unit tests, instead of RACSpecs.h",2012-11-30,Merged,151,9,28,m pch ,21
+Scheduler improvements,2012-12-02,Closed,150,866,94,pbxproj h ,13
+Prefix methods in NSObject+RACAppKitBindings,2012-11-29,Merged,149,19,19,h ,4
+Unify RACSignal#toArray and RACSequence#array in RACStream#toArray,2012-11-29,Closed,148,47,39,m ,9
+"Fix RACSubscriber, RACReplaySubject thread safety; remove RACAsyncSubject",2012-11-29,Merged,147,630,399,pbxproj h ,7
+Fix zip reduce error forwarding.,2012-11-27,Merged,145,28,10,,2
+RACSignal's +zip:reduce: and +combineLatest:reduce: cannot handle duplicate signals.,2012-11-30,Merged,144,166,85,,4
+Refactor -bind: to safely support side effecting binds,2012-11-28,Merged,142,394,85,h ,6
+Disable ONLY_ACTIVE_ARCH on iOS Debug and Profile.,2012-11-27,Closed,139,2,0,,1
+Updated README to reflect the license change.,2012-11-26,Merged,137,1,1,,0
+Move more methods into <RACStream>,2012-11-28,Merged,135,285,216,h ,4
+Fix -[RACSequence bind:] to only evaluate the original sequence when needed,2012-11-26,Merged,134,89,22,h ,5
+Remove NSObject+RACFastEnumeration,2012-11-26,Merged,131,5,67,h m ,5
+Remove NSArray+RACExtensions,2012-11-26,Merged,130,0,92,h m ,4
+Added -sample:,2012-11-28,Merged,128,87,0,m ,3
+Refactored -[RACSequence bind:] into a recursive method,2012-11-23,Merged,124,39,27,,1
+Relicense ReactiveCocoa under the MIT license,2012-11-20,Merged,121,19,26,md ,1
++zip:reduce:,2012-11-21,Merged,120,359,0,h ,7
+Added <RACStream> implementation for NSArray.,2012-11-21,Closed,119,129,1,m pbxproj ,4
+Subscribable => Signal,2012-11-20,Merged,118,"1,520","1,577",h ,14
+"No more need for -all_load, use -ObjC instead",2012-11-20,Merged,117,5,11,,2
+Added CONTRIBUTING file,2012-11-15,Merged,116,23,6,,0
+Fix -scanWithStart:combine:,2012-11-15,Merged,115,4,5,m ,3
+Fix usage of +combineLatest:reduce: in GHAPIDemo,2012-11-12,Merged,114,2,11,,1
++zip:reduce:,2012-11-20,Closed,112,357,1,h ,7
+Added <RACStream> implementation for NSArray.,2012-11-20,Closed,110,110,0,h m ,4
+getReturnValue: always returns an __unsafe_unretained object,2012-11-06,Merged,104,1,1,,1
+-selectConst:,2012-11-05,Merged,103,30,0,m ,3
+-stashWithStart:stop:replayCount,2012-11-05,Closed,102,55,0,m ,2
+Subject to support producer-consumer pattern.,2012-11-05,Closed,101,213,0,h m ,4
+Lift,2012-11-20,Merged,98,574,260,h m ,6
+Better +combineLatest:reduce:,2012-11-04,Merged,97,368,26,m h ,7
+Fix KVO crash,2012-11-02,Merged,96,32,1,,2
+Better +interval: implementation,2012-11-03,Merged,95,41,21,m ,3
+"<RACStream> monad, RACSequence",2012-11-20,Merged,92,"2,340",422,pbxproj h ,18
+Always -sequenceNext: on completed,2012-11-01,Merged,91,53,1,,2
+-mergeConcurrent:,2012-10-29,Merged,88,319,81,m ,4
+Import EXTKeyPathCoding in the framework header,2012-10-16,Merged,86,8,4,xcscheme m h ,5
+Remove RAC_KEYPATH and RAC_KEYPATH_SELF in favor of @keypath,2012-10-16,Merged,85,46,33,m h ReactiveCocoaFramework/ReactiveCocoa/libextobjc ,12
+RACAsyncSubject should resend nil errors too,2012-10-15,Merged,84,28,1,,2
+Switch,2012-10-12,Merged,83,47,3,,2
+"Set all headers to have visibility of ""Project"" for the iOS static library",2012-10-11,Merged,81,69,3,,1
+iOS headers included properly,2012-10-10,Closed,80,88,9,,0
+Weak all the things,2012-10-09,Merged,79,10,10,pbxproj ,7
+Xcode 4.5 fixes,2012-10-09,Merged,78,3,7,,1
+Fix -autoconnect,2012-10-08,Merged,77,94,21,h m ,6
+Lots o' fixes,2012-10-08,Merged,76,171,56,,9
+Remove generators,2012-10-05,Merged,75,0,99,m ,3
+Fix generator race,2012-10-05,Closed,74,74,23,m ,3
+rac_performSelector:,2012-10-04,Merged,71,262,0,h m ,7
+Only capture backtrace addresses initially,2012-10-02,Merged,69,29,5,,1
+RACAsyncSubject should only send the last value if one was actually set,2012-10-01,Merged,68,36,19,,2
+Fix dangling pointer,2012-09-28,Merged,67,191,61,h m ,9
+`self` changed to `object` so that macro could be used inside blocks,2012-09-27,Closed,66,1,1,,1
+Derived assignment,2012-09-26,Merged,65,207,21,pbxproj h ,11
+-foldWithStart:combine:,2012-09-25,Merged,64,35,12,m ,3
+Fix minor typo in the README,2012-09-21,Merged,62,1,1,,0
+Moved NSFileManager category to the right directory,2012-09-21,Merged,61,6,6,m pbxproj ,3
+Fix merge concurrency,2012-09-20,Merged,60,10,5,,1
+Free categories,2012-09-18,Merged,59,10,99,m md pbxproj ,12
+Added an NSFileHandle method to watch the file for changes,2012-09-20,Merged,58,259,4,h m ,4
+Fixed RACAbleWithStart to work with non-object properties,2012-09-18,Merged,57,74,1,h m ,5
+Moved +command from RACAyncCommand to RACCommand,2012-09-18,Merged,56,8,8,m ,4
+Fix generator races,2012-09-11,Merged,55,47,25,m ,5
+"Send the first -distinctUntilChanged value, even if it's nil",2012-09-11,Merged,54,18,1,,2
+Fixed -distinctUntilChanged with nils.,2012-09-11,Merged,53,35,1,,2
+Added -sequenceMany:,2012-09-11,Merged,52,19,0,m ,2
+Brought back RACAbleWithStart,2012-09-06,Merged,51,12,0,,1
+Generators,2012-09-06,Merged,50,98,0,m ,3
+Refactored <RACSubscribable> into a concrete protocol,2012-09-06,Merged,49,183,202,pbxproj m h ,16
+Add missing calls to [super dealloc].,2012-09-04,Closed,47,3,0,,3
+RACCommand fixups,2012-09-04,Merged,46,242,200,m pbxproj ,7
+Don't clear the last values in +combineLatest:reduce:,2012-08-29,Merged,45,24,50,m ,3
+Add +combineLatest:,2012-08-28,Closed,44,163,2,m ,3
+Fix KVO subscribable teardown,2012-08-24,Merged,41,7,10,,3
+Fixes compiler error (OSAtomicOr32Barrier),2012-08-23,Merged,39,2,0,,1
+Disable RACBacktrace for Release builds,2012-08-22,Merged,38,10,2,h m ,2
+Added -doCompleted and changed -timeout: to timeout on a global queue,2012-08-21,Merged,37,29,8,m ,2
+More synchronization,2012-08-21,Merged,36,7,5,,2
+Fold <RACSubscribable> into RACSubscribable,2012-08-21,Closed,35,119,184,m h ,12
+Asynchronous backtraces!,2012-08-21,Merged,34,370,3,md pbxproj h ,3
+More synchronization,2012-08-20,Merged,33,14,18,,3
+Synchronize access around disposables,2012-08-20,Merged,32,12,7,,2
+Added non-ARC projects compatibility,2012-08-15,Merged,31,49,36,,4
+Remove unnecessary -performSelector: in NSObject+RACKVOWrapper,2012-08-08,Merged,30,1,3,,1
+Completely refactored NSObject+RACKVOWrapper,2012-08-08,Merged,29,217,139,h ,2
+Use NSCondition instead of a semaphore in -firstOrDefault:success:error:,2012-08-09,Merged,28,83,11,,2
+Added -rac_deriveProperty:from:,2012-08-03,Merged,25,10,0,m ,2
+Actually block in -[RACSubscribable firstOrDefault:success:error:] (usin...,2012-08-03,Merged,24,12,11,,1
+Better constructor types,2012-08-03,Merged,23,90,90,h ,24
+"Set up xcconfigs, added a Profile configuration",2012-08-03,Merged,22,184,52,pbxproj xcscheme ,3
+Update Specta and Expecta,2012-08-01,Merged,18,34,34,m external/expecta external/specta ,6
+Specify iOS target setting in ReactiveCocoaFramework to match that in RACiOSDemo,2012-07-09,Merged,16,2,0,,1
+Fixed a retain cycle in rac_whenAny,2012-06-08,Merged,9,2,1,,1
+Set SKIP_INSTALL to YES for ReactiveCocoa-iOS target.,2012-06-07,Merged,8,2,0,,1
+Fix Xcode 4.4 warnings.,2012-06-06,Merged,7,5,1,xcscheme ,3
+Add i386 to the VALID_ARCH list.,2012-05-24,Merged,6,2,2,,1
+Add rac_textSubscribable support to UITextView,2012-05-31,Merged,5,506,80,m xib ,4
+RACTuple: add support for modern object subscripting,2012-05-12,Merged,4,15,0,m ,2
+bug in cancelPreviousPerformBlock,2012-05-08,Merged,3,50,1,m ,3

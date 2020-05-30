@@ -1,0 +1,71 @@
+Next,2020-01-01,Merged,956,"65,335","48,399",py yml lock toml go ,9
+Fix #954,2019-12-16,Merged,955,22,0,,1
+Add %w to syntax for Errorf wrapping verb.,2019-11-23,Merged,951,1,1,,1
+Add `block` to template syntax definition,2019-11-20,Merged,950,1,1,,1
+Next,2019-10-22,Merged,948,"92,167","64,100",sublime-color-scheme md py ,9
+Next,2019-10-22,Closed,935,"92,166","64,099",sublime-color-scheme md py ,9
+Fix ANN 19.06.16.,2019-06-18,Merged,933,1,1,,1
+Fix crash from deleting keys while iterating over dict in hud_panel(),2019-02-10,Merged,913,1,1,,1
+partialy resolve issue #904 adding ParseComments to ImportsOnly,2019-01-13,Closed,907,1,1,,1
+Next,2018-11-28,Merged,890,"5,327","2,253",,1
+Fixed minor bug with formatting log message,2018-11-06,Closed,882,1,1,,1
+Improved Travis CI config,2018-11-06,Merged,879,15,2,,1
+README improvements,2018-11-06,Merged,878,22,39,,0
+fix pattern for x := 0 syntax,2018-09-28,Merged,867,1,1,,1
+Fix leading comment dot auto-completion trigger.,2018-09-28,Closed,865,5,1,,2
+Dev,2018-02-08,Merged,804,"305,390",61,py sublime-commands ,10
+Activating Open Collective,2018-01-29,Merged,803,94,2,,0
+ADD: Simple installation method,2017-12-12,Closed,796,4,0,,0
+Implemented an autocomplete_verbose setting prototype,2018-02-16,Closed,794,18,0,py ,3
+"implement ""autocomplete_suggest_imports""",2018-02-16,Closed,781,18,13,go ,3
+better gspalette gslint report and also fix runtime error,2018-04-19,Closed,780,13,13,,2
+Update username,2017-12-05,Merged,763,1,1,,0
+Update gocode from nsf/master to fix panic,2017-02-16,Merged,756,506,124,,6
+Fix a typo,2017-12-31,Merged,746,1,1,,0
+Bugfix: Fixes global name 'NAME' is not defined,2019-02-14,Closed,743,2,2,,1
+related to issue-732,2018-12-14,Closed,742,8,0,py ,2
+Use .goignore to make import_paths fast again,2019-01-15,Closed,701,30,2,,1
+Spelling correction,2016-08-21,Closed,698,1,1,,1
+add argument templates for fmt_cmd to fix Goimport and vendoring,2016-04-09,Closed,682,6,1,,1
+Update gocode and refactor m_gocode.,2018-02-18,Closed,595,902,477,,2
+Try to make go imports work as separated cmd.,2015-01-10,Closed,593,155,2,sublime-settings py go ,7
+Fixes #114 - Integrate GoRename command,2016-05-09,Closed,569,71,0,py ,2
+Fix typo in sh.py,2014-10-05,Merged,560,1,1,,1
+Fix a typo,2014-10-04,Closed,547,1,1,,0
+Changed the linter gutter dot color from grey to something more noticeable,2015-11-07,Closed,533,2,2,,1
+Update AUTHORS.md,2013-12-17,Merged,422,1,0,,0
+Testing enhancement,2014-10-06,Closed,414,108,19,sublime-settings py ,3
+Update GoSublime.sublime-settings,2013-11-23,Closed,411,2,1,,1
+? not supported in Windows -> 'go?' to 'go_default',2013-11-20,Closed,409,1,1,,1
+fix OSX keybindings (super+space doesn't work),2013-12-14,Merged,372,3,3,,1
+Documentation fixes,2013-09-07,Merged,356,49,48,,0
+fix python unicode length problem,2013-07-27,Merged,335,1,0,,1
+Confirm Sublime Text 3 support in Readme,2013-07-10,Merged,309,1,1,,0
+Update AUTHORS.md,2013-06-04,Merged,282,1,0,,0
+Fixed settings code block,2013-06-03,Merged,277,1,1,,0
+More minor enhancements,2013-05-07,Merged,248,41,4,json ,2
+Improved go syntax highlighting,2013-05-06,Merged,230,386,0,tmLanguage json ,2
+Fix attribution to me. :),2013-02-18,Merged,203,2,2,,0
+Fix GS_GOPATH support and multiple GOPATHs.,2012-11-15,Closed,148,41,14,,2
+Support %q in strings,2012-10-17,Merged,146,1,1,,1
+Update Default (OSX).sublime-keymap,2012-09-20,Merged,137,1,1,,1
+add modelines,2012-09-15,Merged,133,3,0,,1
+Minor cleanup,2012-09-15,Merged,130,8,13,,1
+add modelines,2012-09-09,Merged,129,6,0,,2
+add comment,2012-09-09,Merged,128,5,0,,1
+GOROOT should always be available on Windows,2012-09-08,Closed,125,10,0,,2
+add comments to env() and make minor edits to the function,2012-09-08,Merged,121,15,1,,1
+supress some commands if active view is not go source,2012-09-08,Merged,120,6,0,,1
+Local snippet for if err = nil,2012-09-08,Closed,104,1,0,,1
+Fix errors when starting SublimeText with a .go file open,2012-08-17,Closed,97,93,91,,1
+Updated the gslint to use go build instead of the no longer existing gotype.,2012-05-13,Closed,43,21,21,py ,2
+fix regex for current go tip,2012-04-22,Closed,41,3,2,,1
+"parse both ""go build"" error variants",2012-03-08,Closed,40,2,1,,1
+is broken for,2012-03-08,Closed,39,2,1,,1
+Fix OSX keymap,2012-02-25,Merged,35,6,0,,1
+Small fix for the dot completion key binding example,2011-10-11,Merged,15,30,30,example ,1
+Run gslint on all go files of same package (solves issue #10),2011-12-25,Closed,11,56,6,,1
+Added gomake build system,2011-09-14,Merged,9,21,2,example ,1
+You have to give gocode the full file name of the current file,2011-09-11,Merged,8,1,1,,1
+Daemon running fixes,2011-09-04,Closed,6,7,1,,2
+Kind of fixes issue #3,2011-09-03,Merged,5,3,1,,1

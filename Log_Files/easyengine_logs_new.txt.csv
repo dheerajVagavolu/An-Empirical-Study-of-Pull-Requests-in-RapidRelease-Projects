@@ -1,0 +1,348 @@
+Update packages and images,2020-01-06,Merged,1448,12,12,lock ,3
+Add extra and old docker images cleanup on update,2020-01-06,Merged,1447,14,0,,1
+Update packages and PHP images,2020-01-06,Merged,1446,17,15,lock ,3
+Update nginx image,2019-12-18,Merged,1444,16,1,php ,3
+Update phar to include zip templates,2019-12-18,Merged,1443,2,1,,1
+PHP 7.4 compatibility: update implode calls,2019-12-18,Merged,1442,3,2,,3
+Update migrations and img versions for PHP update,2019-12-17,Merged,1440,11,4,php ,3
+Fixed broken EasyEngine logo link,2019-07-01,Merged,1425,3,3,,0
+Add support for PHP 7.3,2019-03-28,Merged,1407,7,1,php ,2
+Fix migration of nginx-proxy container,2019-03-14,Merged,1406,8,4,php ,2
+Fix nginx-proxy container name in migration,2019-03-14,Merged,1405,6,1,,1
+Update migration pulling of images,2019-02-18,Merged,1395,6,5,,1
+Update symlink creation in volumes,2019-02-14,Merged,1392,7,2,,1
+Print stderr using error_log,2019-02-12,Merged,1391,1,1,,1
+Update nginx-proxy constant with container id,2019-01-31,Merged,1382,7,1,,2
+Add confirmation in cli update message,2019-01-24,Closed,1378,717,404,md VERSION sh json ,5
+Add log message to run EasyEngine updates safely,2019-01-15,Merged,1371,1,0,,1
+Add option for skipping forward slash in folder name sanitization,2019-01-15,Merged,1370,9,5,,1
+Add utility function to sanitize file and folder name,2019-01-15,Merged,1369,29,0,,1
+Add get_value_if_flag_isset to utils,2019-01-10,Merged,1366,29,0,,1
+Fix adding cloudflare dependency files to phar,2018-12-28,Merged,1360,1,0,,1
+Fix MacOS update command in warning and error,2018-12-28,Merged,1357,9,2,,1
+Feature: Zero downtime deploys.,2018-12-26,Merged,1353,158,19,,4
+Disable cli update for macOS,2018-12-13,Merged,1350,3,0,,1
+Update to nginx-proxy with default Mozilla-Modern profile,2018-12-13,Merged,1349,1,1,,1
+Move redirection template to site-command,2018-12-24,Merged,1347,0,20,,1
+Update docker requirement check,2018-12-12,Merged,1345,7,4,,1
+Add utility functions for download and unzip,2018-12-07,Merged,1338,38,0,,1
+redirection is not needed for https url,2018-12-05,Closed,1337,1,1,,1
+Add ralouphie/getallheaders in the phar,2018-12-03,Merged,1334,1,0,,1
+Update to rtBot user for phar deployment,2018-11-29,Merged,1328,2,2,,1
+Add log show command to display logs.,2018-11-29,Closed,1327,296,0,,2
+Update to directly use static class,2018-11-28,Merged,1326,1,9,,2
+Make correct help command example,2018-11-29,Merged,1325,4,4,,1
+Add resolve to locahost capability in curl utility,2018-11-28,Merged,1323,9,5,,1
+Remove global --prompt argument and respective code for same,2018-11-28,Merged,1320,0,160,,2
+Merge develop for v4.0.1,2018-11-23,Merged,1311,62,25,VERSION sh php ,4
+Update self-uninstall,2018-11-23,Merged,1310,24,16,php ,3
+Update checks and migration triggering,2018-11-23,Merged,1309,47,18,php ,3
+Correct download URL and add license badge,2018-11-23,Merged,1307,2,1,,0
+Add support for PHP 5.6,2018-11-21,Merged,1303,7,0,php ,3
+Force enable site in migrations,2018-11-20,Merged,1301,5,3,,2
+Fix init checks,2018-11-20,Merged,1300,5,5,,2
+Skip checks and migrations on 'ee help' and 'ee cli' commands,2018-11-20,Merged,1298,25,16,,1
+Update migrations functions,2018-11-19,Merged,1297,12,5,,2
+Add verbose output of image pulling,2018-11-19,Merged,1296,3,3,,1
+Check for minimum requirements,2018-11-19,Merged,1295,16,1,,1
+Merge pull request #1 from EasyEngine/develop-v4,2018-11-19,Closed,1289,0,0,,0
+Add support for macOS,2018-11-19,Merged,1288,51,9,,4
+Update EasyEngine header on migration and version changes,2018-11-16,Merged,1287,1,0,,1
+Fix nohttps in docker-compose generation,2018-11-13,Merged,1284,1,1,,1
+Update docker image versions,2018-11-13,Merged,1283,1,2,,1
+Fix process creation environment for cli update,2018-11-13,Merged,1282,1,1,,1
+Update Issue template for v4,2018-11-21,Merged,1278,4,4,,0
+Update Issue template for v4,2018-11-08,Closed,1277,1,3,,0
+Update base migrations class,2018-11-12,Merged,1269,20,4,,1
+Update migration triggering for nightly,2018-10-30,Merged,1267,11,5,,1
+Remove custom conf template,2018-10-30,Merged,1266,0,2,,1
+Add utility function to get values from config file,2018-10-29,Merged,1260,17,0,,1
+Add docker volume functions,2018-10-24,Merged,1259,61,0,,1
+Update containers related migrations.,2018-11-12,Merged,1256,749,170,,0
+Add 'type' column in migrations table and move db migrations path,2018-10-19,Merged,1255,76,10,php ,4
+Add docker-compose service check,2018-10-17,Merged,1246,15,0,,1
+Update ee-cron-scheduler with constant,2018-10-11,Merged,1243,7,7,,1
+Fix saving and getting boolean value in db,2018-10-10,Merged,1242,13,1,,1
+Change old column names with new ones,2018-10-05,Merged,1235,12,12,,1
+Make get and set methods in Option model static,2018-10-03,Merged,1234,2,2,,1
+Move get_curl_info to EE utils,2018-09-26,Merged,1232,29,0,,1
+Replace ee-nginx-proxy with EE_PROXY_TYPE constant,2018-09-25,Merged,1226,8,8,,2
+Fix migrations,2018-09-21,Merged,1224,159,41,,8
+Add auth_ips table,2018-09-21,Merged,1220,16,7,,2
+"Update UNIX paths of config,db,logs, and sites",2018-09-27,Merged,1219,31,28,sh php ,7
+Update README.md,2018-09-10,Closed,1216,1,1,,0
+Bump ee version and docker image version,2018-09-10,Merged,1215,3,3,json ,2
+Add template folder for site-types in phar,2018-09-10,Merged,1214,1,0,,1
+Bring if condition check outside the loop,2018-09-07,Merged,1211,5,3,,1
+Fix migration into individual package,2018-10-03,Merged,1209,203,296,php ,5
+Update composer with latest tagged repos,2018-09-06,Merged,1208,230,103,,1
+Move compatibility of site args to site-command,2018-09-06,Merged,1207,0,48,,1
+Update for obfuscation in log file,2018-09-06,Merged,1206,30,19,,2
+Add auth table,2018-09-04,Merged,1198,69,34,,4
+Move type routing to site-command,2018-08-30,Merged,1195,6,"2,563",php ,5
+WIP: Refactor for DB changes,2018-08-31,Closed,1194,86,63,,3
+Add vendor label in global network creation,2018-09-05,Merged,1192,1,1,,1
+Update docker-compose.yml and .travis.yml,2018-08-28,Merged,1191,7,1,mustache ,2
+Move global containers to docker-compose,2018-08-24,Merged,1187,118,37,mustache ,4
+Add OCSP stapling,2018-08-23,Merged,1186,12,20,,1
+Update travis ci for nightly,2018-08-23,Merged,1185,5,2,sh ,3
+Add specific json files to phar,2018-08-23,Merged,1182,10,0,,1
+"Add auth, admin-tools and mailhog command to composer",2018-08-22,Merged,1180,159,32,lock ,2
+Add enabled() function in site model,2018-08-22,Merged,1179,26,6,,2
+Add validation check,2018-08-22,Merged,1178,1,1,,1
+Fix bug caused in refactoring code syntax update,2018-08-21,Merged,1177,1,1,,1
+Update travis flow and composer,2018-08-20,Merged,1175,16,3,,1
+Add support for [BREAKING CHANGES] tag in travis-ci,2018-08-20,Closed,1173,105,8,sh ,4
+Fix assoc-arg updates to apply only when site is primary arg,2018-08-21,Merged,1172,40,37,,1
+Ssl wildcard all site types,2018-08-22,Merged,1171,220,92,,3
+Add support to independently version docker images,2018-08-21,Merged,1166,45,10,php ,4
+Add info for tab completions,2018-08-09,Merged,1164,18,0,,0
+Update site-utils to start specific site containers,2018-08-20,Merged,1163,4,3,,1
+Update name from folder to directory,2018-08-09,Closed,1162,4,4,php ,2
+Add full test suite running,2018-08-07,Merged,1160,18,2,sh ,3
+Fix multiple issues,2018-08-07,Merged,1158,136,3,lock php mustache ,5
+Update for v4.0.0-beta.5,2018-08-07,Merged,1157,"3,236",405,yml md VERSION sh json ,6
+Update to support wildcard letsencrypt post refactoring,2018-08-06,Merged,1155,14,6,,2
+Update site utils for postfix,2018-08-06,Merged,1152,38,0,,1
+Add .idea folder of phpstorm in gitignore,2018-08-06,Merged,1151,2,1,,1
+Update support for old syntax,2018-08-06,Merged,1150,9,11,,2
+Remove update tests,2018-08-03,Merged,1147,0,15,,1
+Remove extra assoc_arg deletion,2018-08-03,Merged,1146,3,1,,1
+Add site-wp-command to composer,2018-08-03,Merged,1145,109,69,,1
+Refactor db code,2018-08-20,Merged,1143,834,304,,4
+Add support for ee3 site creation parameters,2018-08-01,Merged,1142,28,13,,1
+Update debugging flow,2018-08-02,Merged,1140,131,92,php ,8
+Update minimum required php version,2018-08-01,Merged,1137,54,102,json lock php dist ,7
+Update support for packaging site command,2018-08-01,Merged,1135,"2,424",63,lock php ,6
+Container migration after update,2018-08-03,Merged,1134,378,5,,3
+add phar fix,2018-07-25,Merged,1133,1,1,,1
+Update for v4.0.0-beta.4,2018-07-23,Merged,1132,227,187,yml sh json lock php feature ,6
+Add cron table,2018-07-23,Merged,1129,30,1,,2
+Add cli self-uninstall command,2018-07-23,Merged,1127,63,6,feature ,3
+Fix docker-compse functions,2018-07-15,Merged,1126,4,9,,1
+Update support commands to be new cli versions.,2018-07-13,Merged,1124,4,4,,0
+Update db and docker functions for site serivces,2018-07-14,Merged,1122,49,18,,2
+Update tests,2018-07-14,Merged,1121,29,147,sh php feature ,4
+Update for v4.0.0-beta.3,2018-07-10,Merged,1115,872,193,VERSION json ,2
+Update install url to https,2018-07-10,Merged,1114,1,1,,0
+Update and make ensure_present_in_config generic,2018-07-10,Merged,1113,14,14,,1
+print stdout and stderr if param is passed,2018-07-10,Merged,1112,8,2,,1
+Fix migration by removing trailing comma,2018-07-10,Merged,1109,1,1,,1
+Update for letsencrypt,2018-07-10,Merged,1108,601,112,,1
+Fix site tests,2018-07-10,Merged,1107,11,9,feature ,3
+add compatibility to --le flag,2018-07-10,Merged,1106,5,4,,1
+Add global param for letsencrypt mail,2018-07-09,Merged,1104,7,0,,1
+Add function to take user input,2018-07-09,Merged,1103,16,0,,1
+Add initial migration code,2018-07-09,Merged,1097,208,50,,5
+Update README,2018-06-28,Merged,1095,23,125,,0
+Update EasyEngine v4.0.0-beta.2 release,2018-06-28,Merged,1094,853,408,VERSION sh json ,3
+Add db_port field while creating database,2018-06-28,Merged,1091,1,0,,1
+Add check-update command,2018-06-27,Merged,1089,66,0,,1
+Fix deprecated warning while disconnecting site.,2018-06-27,Merged,1087,1,1,,1
+Update readme for beta 2,2018-06-28,Merged,1086,101,10,,0
+Update composer files,2018-06-28,Merged,1085,87,47,lock ,2
+Throw error when wrong sitename is given from a site-root,2018-06-27,Merged,1081,6,2,,1
+Confirmed sudo at entrypoint,2018-06-21,Merged,1080,9,4,,2
+Fix deprecated warning in php7.2,2018-06-21,Merged,1079,1,1,,1
+Extend EE::launch to accomodate environment variables,2018-06-21,Merged,1075,51,10,,2
+Correct and port existing changes to behat v3,2018-06-27,Merged,1074,630,337,json ,1
+Remove extra constants,2018-06-15,Merged,1073,0,2,,1
+Fix update bug,2018-06-27,Merged,1070,2,1,,1
+Update travis to append nightly in develop-v4 version,2018-06-18,Merged,1068,7,0,,1
+Fix undefined index error,2018-06-12,Merged,1067,2,2,,1
+Update README,2018-06-12,Merged,1066,50,1,,0
+Add command examples to README,2018-06-12,Merged,1065,50,1,,0
+Update README for 4.0.0-beta.1,2018-06-12,Merged,1064,2,11,,0
+Remove MacOS install instructions,2018-06-12,Merged,1063,0,9,,0
+Remove MacOS install instructions,2018-06-12,Closed,1062,0,9,,0
+Update requirements in readme,2018-06-12,Merged,1061,1,1,,0
+Update lock for v4.0.0-beta.1,2018-06-11,Merged,1058,4,4,,1
+Update error message,2018-06-11,Merged,1057,2,2,,1
+Release version v4.0.0-beta.1,2018-06-11,Merged,1056,"1,115","2,407",github/ISSUE_TEMPLATE github/PULL_REQUEST_TEMPLATE yml VERSION bat sh json ,8
+Fix config directory issue,2018-06-11,Merged,1055,7,11,,1
+Remove unnecessary-flags from help,2018-06-11,Merged,1054,7,42,,3
+Change init_ee loading sequence,2018-06-11,Merged,1053,2,2,,1
+Allow only root users for now,2018-06-11,Merged,1052,42,14,sh php ,5
+Update composer json and lock,2018-06-11,Merged,1051,6,47,lock ,2
+WP-CLI flags compatibility and EEv3 flags backward compatibility,2018-06-11,Merged,1050,47,10,,4
+Add auto-sitename detection utils function,2018-06-11,Merged,1049,3,2,,1
+Fix and extend update function,2018-06-11,Merged,1048,18,1,,2
+Changed ee4 instances to ee,2018-06-08,Merged,1046,23,21,php ,4
+Fix template not getting included in site command,2018-06-08,Merged,1044,13,1,,1
+Update command,2018-06-08,Merged,1043,156,24,,2
+Switch from nginx-proxy to traefik,2018-06-08,Merged,1041,7,165,php mustache ,4
+Remove config files,2018-06-08,Merged,1040,1,"1,409",conf ini ,4
+Remove allow root flag,2018-06-06,Merged,1037,1,44,,3
+Updates for per site redis,2018-06-06,Merged,1025,68,17,php ,5
+Fix ERR_SSL_PROTOCOL_ERROR due to nginx ciphers suite,2018-06-15,Merged,1024,1,1,,1
+Add READMEs explaining every folder,2018-05-31,Merged,1017,39,183,bat mustache ,3
+Update v3.8.1,2018-05-30,Merged,1016,22,16,mustache py install ,6
+Replace deprecated urlretrieve() with request.urlopen(),2018-05-29,Merged,1014,3,1,,1
+[High importance] Variables.py indentation fix,2018-05-29,Merged,1012,1,1,,1
+Updates for v3.8.0,2018-05-29,Merged,1009,82,126,py ,3
+Update versions of EE packages,2018-05-28,Merged,1008,5,5,,3
+Update versions of EE packages,2018-05-28,Closed,1007,65,96,yml txt py mustache install ,19
+Add Ubuntu 18.04 (Bionic Beaver) support to EasyEngine v3,2018-05-28,Merged,1006,67,118,,3
+WIP: Add letsencrypt feature,2018-06-06,Merged,1005,7,2,,1
+Update for site info,2018-05-16,Merged,1003,114,68,,0
+v4 Documentation,2018-06-06,Merged,998,149,0,,0
+Redis caching for multi-site,2018-04-17,Merged,991,109,6,conf php ,6
+Update for site enable-disable feature,2018-04-17,Merged,990,59,23,php ,3
+Display docker error msg,2018-04-17,Merged,989,6,1,,1
+Remove letsencrypt from mail,2018-04-17,Merged,988,1,5,,1
+Add help flag compatiblity,2018-04-17,Merged,987,6,0,,1
+Add multi-site support,2018-04-16,Merged,986,86,151,example conf ini php ,15
+Add update feature,2018-04-16,Merged,985,53,278,,1
+Merge develop with v4,2018-04-11,Merged,984,21,35,,0
+Feature/update readme,2018-04-11,Merged,983,21,35,,0
+Merge develop to v4,2018-04-11,Merged,982,120,8,sh lock ,4
+Add CI build for docker images and update to wp-command,2018-04-11,Merged,981,11,5,lock ,2
+Update move builds to phar folder,2018-04-09,Merged,980,2,1,,1
+Setup travis-ci for phar building,2018-04-09,Merged,979,109,4,sh lock ,4
+Replace deprecated urlretrieve() with request.urlopen(),2018-05-28,Closed,976,64,93,yml txt mustache py install ,19
+WIP: Build from PR branch in travis,2018-08-03,Closed,974,3,2,,1
+Fix pymysql related error,2018-03-30,Merged,973,1,2,,1
+Fix tests,2018-03-30,Merged,972,0,8,,1
+Replace pymysql3 with PyMySQL package,2018-03-29,Merged,970,1,1,,1
+"All URI starting with /status, /ping, /pma, /adminer etc. are treated as special locations",2018-05-29,Merged,964,12,12,,2
+Use limit_req to address load-scripts/styles.php issue CVE-2018-6389,2018-08-03,Closed,959,44,12,,14
+"Revert ""Fixed errors in ee update command""",2018-01-18,Merged,953,2,2,,1
+Fixed errors in ee update command,2018-01-18,Merged,952,2,2,,1
+Remove redundant Yoast sitemap rules,2018-01-14,Merged,949,0,28,,2
+Update ee version to 3.7.5,2018-01-12,Merged,948,11,7,py install ,3
+Skip cache for more cart and sitemap plugins,2018-01-12,Merged,947,24,24,,12
+Corrected title markdown,2018-01-12,Merged,946,1,1,,0
+"Better fail-safe everyday at 00:00 ssl ""Lets Encrypt"" renewal time",2018-08-03,Closed,942,1,1,,1
+SSL Cron Lets encrypt FIX of priviledges and better secure time,2018-08-03,Closed,941,1,1,,1
+Cronfix,2017-11-20,Closed,940,1,1,,1
+Add Ubuntu 16.04 LTS in the compatible OS list,2018-01-14,Merged,938,1,1,,1
+Process.php,2018-03-13,Closed,928,"2,842",308,,4
+Class ee.php,2018-03-13,Closed,926,"2,783",246,,4
+Autoloadsplitter.php,2018-03-13,Closed,925,"1,891",149,,4
+Autoloader.php,2018-03-13,Closed,924,"1,858",149,,3
+Processrun.php,2018-03-13,Closed,923,"1,675",149,,2
+Package manager event subscriber.php,2018-03-13,Closed,922,"1,607",149,,2
+Filecache.php,2018-03-13,Closed,921,"1,555",149,,2
+Extractor.php,2018-03-13,Closed,920,"1,220",149,,2
+Exitexception.php,2018-03-13,Closed,919,"1,082",149,,2
+Composerio.php,2018-03-13,Closed,918,"1,077",149,,2
+Fix markdown in README,2018-03-13,Closed,917,2,2,,0
+Synopsisvalidator.php,2018-03-13,Closed,916,"1,038",149,,3
+Synopsisparser.php,2018-03-13,Closed,915,"1,036",147,,3
+Formatter.php,2018-03-13,Closed,914,"1,032",144,,3
+Docparser.php,2018-03-13,Closed,913,941,84,,3
+Completions.php,2018-03-13,Closed,912,877,83,,3
+Updated utils.php,2018-03-13,Closed,911,655,54,,3
+Updated commandfactory,2018-03-13,Closed,909,91,8,,1
+Updated synopsisparser.php,2018-03-13,Closed,908,4,3,,1
+Added Iterator folder,2018-03-13,Closed,907,108,0,,3
+update subcommand.php from wpcli 1.3.0,2018-03-13,Closed,906,246,20,php ,5
+remove obsolete functions and its calls from RootCommad.php,2018-03-13,Closed,904,1,18,,2
+File/docparser,2018-03-13,Closed,903,249,27,,2
+Updated configurator.php,2018-03-13,Closed,902,185,26,,2
+File/completions,2018-03-13,Closed,901,106,1,,2
+Updated base.php,2018-03-13,Closed,900,19,5,,1
+Added execution.php file,2018-03-13,Closed,899,84,0,,1
+add file CommandAddition.php from WPCLI 1.3,2018-03-13,Closed,898,58,0,,1
+update composite command,2018-03-13,Closed,897,30,5,,1
+Add new class from wp_cli 1.3.0,2018-03-13,Closed,896,348,5,,5
+Add check_proc_available function,2017-08-16,Closed,895,112,0,,4
+Fix Markdown!,2018-08-03,Closed,885,8,8,,0
+Update README.md,2018-08-03,Closed,884,2,2,,0
+Update README.md,2018-01-18,Merged,877,7,8,,0
+WIP : Feature/site update,2018-03-13,Closed,864,28,26,,2
+WIP: Add/clean opcache,2018-03-13,Closed,862,329,309,,1
+WIP: Fix/debug command,2018-03-13,Closed,861,740,477,,1
+WIP: Fix/info command,2017-03-30,Merged,860,319,313,,1
+add .woff2 file extension to locations,2017-03-29,Closed,859,2,2,,2
+WIP : Fix - PHP Notice,2017-03-30,Merged,856,6,6,,1
+Markdown fixes,2018-01-17,Merged,855,2,2,,0
+Markdown fixes,2017-03-22,Closed,854,3,3,,0
+Updating README to reflect correct instructions to get started with 4.0.0 branch,2018-01-18,Merged,853,3,3,,0
+fix global nginx debug,2017-03-19,Merged,831,80,23,,2
+Issue #814,2018-03-13,Closed,828,19,16,,3
+fixed 'ee_file_search_replace' when file not found,2017-01-24,Merged,826,7,2,,1
+fixed problems with 'ee stack install',2018-03-13,Closed,825,55,24,,2
+Unnecessary empty updates stopped which led to warnings and database connections,2017-03-19,Merged,824,10,9,,1
+Vagrantfile and Slack Notifications,2017-01-23,Merged,823,220,114,md Vagrantfile ,2
+fix to the git class to commit single directory,2017-01-24,Merged,822,3,0,,1
+Ported command 'ee secure',2017-03-23,Merged,821,48,1,,1
+Fix for Issue#819,2017-01-20,Closed,820,52,25,,4
+Fix to Issue#817,2017-01-20,Closed,818,20,11,,2
+Added error handling while listing sites,2017-01-25,Closed,816,6,2,,1
+fixed error while listing sites while no sites have been created,2017-01-20,Closed,815,29,17,,4
+Update install script.,2017-01-19,Merged,813,7,7,,1
+all in One,2018-01-12,Closed,809,50,44,txt mustache py install ,15
+Merge pull request #2 from EasyEngine/master,2016-11-04,Closed,793,0,0,,0
+Fix PHP log folder.,2018-08-03,Closed,790,16,16,,1
+Linux Mint support,2018-08-03,Closed,785,5,5,,1
+Better Lingo,2016-10-06,Closed,777,11,11,,1
+Update how W3TC minified CSS/JS is supported.,2018-08-03,Closed,774,6,6,,6
+Update ISSUE_TEMPLATE.md,2018-01-17,Merged,768,1,1,,0
+Update CONTRIBUTING.md,2016-09-15,Merged,766,0,2,,0
+Dynamic TLS Record,2016-07-01,Closed,747,24,219,py ,4
+Woocommerce: Cache shows cart items from other users,2016-07-01,Merged,745,24,24,,12
+Security and Performance Improvements,2018-08-03,Closed,744,6,2,,1
+Use 4096 bits Let's Encrypt certificate,2018-08-03,Closed,738,4,4,,1
+Harden HTTPS configuration,2018-08-03,Closed,737,3,0,,1
+Added 16.04 on line 11,2016-05-16,Merged,714,1,1,,0
+Use $http_host instead of $host for cache keys,2018-08-03,Closed,706,7,7,,7
+Fix #700,2016-04-13,Merged,701,2,2,install ,2
+Log warning for not renewing from 60 to 30,2016-04-13,Merged,686,1,1,,1
+Fix Redis config volatile-lru -> allkeys-lru,2016-03-15,Merged,684,5,5,,1
+Create ISSUE_TEMPLATE.md,2016-02-24,Merged,679,6,0,,0
+Fix redis/redis-hhvm templates - POST requests and URL should always go to php?,2016-02-15,Closed,678,2,2,,2
+updated the WordPress rademark in some strings,2016-02-02,Merged,675,14,14,,1
+Upgrade to php7.0,2016-01-27,Closed,666,897,213,txt md rc 8 py ,4
+Update ee.8,2016-01-27,Merged,653,1,1,,1
+error in help,2015-10-26,Merged,634,1,1,,1
+Update README.md,2015-09-21,Merged,616,8,5,,0
+added elementary os freya support,2015-09-05,Closed,612,7,7,,1
+add Linux Minx 17.1 Rebecca support,2015-07-19,Closed,586,2,2,,1
+typo fix,2015-11-03,Closed,582,1,1,,0
+Sync,2015-06-13,Closed,565,139,0,py conf ,5
+Merge pull request #2 from rtCamp/master,2015-05-17,Closed,547,0,0,,0
+Fix Typo.,2015-05-04,Merged,527,11,11,,11
+3.0.1 => 3.0.6?,2015-04-02,Merged,480,1,1,,0
+added two dummy plugins and ee plugin tutorial,2015-03-26,Closed,477,136,0,md conf ,5
+3.0.1->3.0.5,2015-03-26,Merged,475,1,1,,0
+Increasing server_names_hash_bucket_size,2015-05-06,Closed,450,1,0,,1
+Fixing no dbpass being passed to wp-cli,2015-02-19,Closed,434,2,2,,1
+Add dbhost to wp-config create function,2015-02-18,Merged,432,8,8,,1
+include more gzip types,2015-02-17,Merged,423,18,1,,1
+Update README.md,2015-01-27,Merged,396,1,1,,0
+updated vimbadmin version,2015-01-22,Merged,394,1,1,,1
+Cache only certain response codes,2015-01-21,Merged,393,1,1,,1
+Either add sudo or mention root is needed,2014-12-24,Merged,386,1,1,,0
+Corrected wrong version info,2014-11-19,Merged,360,1,1,,1
+Allow Raspbian to pass EE_LINUX_DISTRO check,2014-12-16,Closed,357,10,8,,1
+"Revert ""Typo in wpsc.conf""",2014-11-06,Merged,349,1,1,,1
+Added php tags on ee-config.php for --mysql install,2014-11-06,Merged,347,1,1,,1
+Fix robots.txt,2014-11-06,Merged,346,1,0,,1
+Fix robots.txt,2014-11-03,Closed,345,519,360,bin/easyengine bin/install d/ee conf sh ,15
+Typo in wpsc.conf,2014-11-06,Merged,331,1,1,,1
+Critical error during site deletion when using external MySQL host,2014-10-16,Merged,324,3,3,sh ,2
+Support for Akismet,2014-12-16,Closed,296,10,0,,1
+waffle.io Badge,2014-08-07,Merged,282,1,0,,0
+Optionally load MySQL root password from .my.cnf,2014-12-16,Closed,281,12,6,,1
+Replaced deprecated parameter,2014-06-13,Merged,271,2,2,usr/local/sbin/eeupdate ,2
+Fixes for security issue on admin tools site and bug on wpsc.conf,2014-06-11,Merged,263,2,1,conf ,2
+Valid running for mysql and cached WordPress installs (TONS faster),2014-06-25,Closed,260,14,13,,1
+Bug Fix for issue #173 and #181,2014-06-11,Closed,249,45,1,sh usr/local/sbin/easyengine ,3
+Bug fix for #173 and #181,2014-05-22,Closed,248,45,4,sh usr/local/sbin/easyengine ,3
+Allow deleting site without prompt,2014-05-14,Merged,239,42,4,,1
+input validation aat line no 1287 in usr/local/sbin/easyengine,2014-05-21,Closed,236,21,3,,1
+Don't caclulate swap if none exists,2014-05-05,Merged,225,8,3,,1
+Layout,2014-04-30,Closed,216,255,1,usr/local/sbin/easyengine → bin/easyengine sh d/ee conf 8 usr/share/easyengine/nginx/22222 → templates/nginx/22222 local ,47
+Add simple redirection for adminer,2014-04-21,Merged,198,5,0,,1
+Update fastcgi.conf,2014-03-18,Merged,155,1,1,,1
+Modified the config nginx templates files to use relative path,2014-03-18,Merged,153,65,32,usr/local/sbin/easyengine conf ,17
+Fixes issue #135,2014-02-28,Merged,137,5,0,,1
+Debian (my adapt) + MariaDB add to easyengine,2013-12-25,Closed,87,539,369,d/ee conf sh 8 ,4
+Changelog,2013-10-01,Closed,57,4,0,,0
+"Fixed ""/"" issue in domain",2013-09-10,Merged,53,2,2,,1
+Added Header,2013-08-30,Merged,49,1,0,,1
+Changed Wiki location,2013-08-29,Merged,43,2,2,,1
+Fix https://github.com/rtCamp/easyengine/issues/41,2013-08-08,Merged,42,10,2,,1
+Display Message While Setting Up WordPress,2013-07-10,Merged,24,2,1,,1
+Minor RegEx fix,2013-07-05,Merged,22,1,1,,1

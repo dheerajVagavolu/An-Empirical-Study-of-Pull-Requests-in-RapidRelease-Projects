@@ -1,0 +1,459 @@
+Doc typos,2019-10-09,Merged,946,11,11,,0
+Enable color output on windows,2019-03-04,Merged,928,72,9,go ,4
+Update dep-005.md,2019-03-05,Merged,927,5,5,,0
+Packs: update javascript to node:10,2019-03-05,Merged,924,1,1,,1
+Simplify brew install,2019-02-02,Merged,923,2,4,,0
+Update brew install to match azure/homebrew-draft,2018-12-21,Merged,918,1,1,,0
+Adding authentication to ImageBuild,2019-01-18,Merged,914,26,5,,3
+Improvement to the getting started doc,2018-12-14,Merged,911,1,1,,0
+feat(Makefile): add install target,2018-12-10,Merged,905,12,1,,1
+feat(*): add post up task type,2018-12-08,Merged,904,12,1,,2
+Adding new error code to separate local repo from installer errors,2018-12-17,Merged,903,4,2,,2
+Fix all warning from test-lint Makefile rule,2018-10-29,Merged,896,22,13,,6
+golint cosmetics: error strings should not end with punctuation,2019-01-24,Closed,888,0,0,,0
+"Fix golint warning: redundant if ...; err != nil check, just return error instead.",2018-10-26,Merged,887,1,5,,1
+Print error code when plugin exits with non-zero error,2019-07-15,Closed,886,2,2,,2
+Update chart labels to follow the new convention,2018-10-31,Closed,885,78,78,,26
+Packs: upgraded to jdk11,2018-10-22,Merged,881,4,4,packs/java/Dockerfile ,2
+Update CircleCI golang image to v1.11.1,2018-10-03,Closed,875,1,1,,1
+Update CircleCI Go version,2018-10-03,Merged,874,1,2,,1
+Add default Dockerfile name in builder,2018-10-03,Merged,872,5,0,,1
+feat(add): disable emoji flag,2018-10-05,Merged,871,368,54,,0
+Fix dead link to installation guide and update helm repository link,2018-10-03,Merged,870,3,3,,0
+Add quiet flag to up,2018-10-03,Merged,868,41,21,,2
+Add Scala pack and example,2019-05-01,Closed,864,207,0,properties scala dockerignore packs/scala/Dockerfile helmignore yaml txt tpl ,14
+Script for testing all examples,2018-09-13,Merged,863,18,0,,1
+Remove onbuild from docs,2018-09-27,Merged,862,2,2,,0
+ref(docs): change rc1 -> rc.1 and rc2 -> rc.2,2018-08-28,Merged,860,3,3,,0
+add v0.16.0 CHANGELOG,2018-08-27,Merged,859,22,0,,0
+"Gradle example app, migrated from example-java",2018-08-23,Merged,858,295,0,jar properties examples/example-gradle/gradlew bat java ,7
+Packs: corrected gradle docker image,2018-08-23,Merged,857,6,5,,1
+Fix create permissions,2018-10-22,Merged,851,46,24,go ,4
+Add skip push flag,2018-09-13,Merged,848,10,3,md ,1
+add --skip-image-push flag,2018-07-27,Closed,846,10,4,md ,1
+Allow $VARIABLES to exist in any task argument,2018-07-25,Merged,840,129,28,md ,4
+Updated gradle pack to java10,2018-07-30,Merged,838,2,2,,1
+Updated maven pack to java 10,2018-07-30,Merged,837,2,2,,1
+Avoid panic when using config set before draft init,2018-06-28,Merged,828,3,0,,1
+Adding example usage of set in draft.toml,2018-06-26,Merged,825,32,0,,0
+Using Dockerfile as default for dockerfile in draft.toml,2018-06-26,Merged,822,9,5,go ,7
+Reorder tasks and load during draft up,2018-06-13,Merged,813,14,13,,1
+Changed up.go to run pre-up tasks before any loading,2018-06-06,Closed,812,16,13,,1
+Command-line documentation for draft config set,2018-06-13,Merged,810,39,5,,3
+Bumped to dotnet Docker images to 2.1,2018-06-13,Merged,809,2,2,,1
+Adding link to Minikube,2018-06-01,Merged,802,1,1,,0
+add CONTRIBUTING.md,2018-06-26,Merged,801,75,33,,0
+Use non-onbuild base images in packs,2018-06-13,Merged,800,35,6,packs/go/Dockerfile packs/javascript/Dockerfile packs/python/Dockerfile packs/ruby/Dockerfile ,5
+remove spring example app,2018-06-26,Merged,799,0,475,jar properties examples/example-spring-boot/mvnw cmd ,5
+Fix wrong Dockerfile path when running draft up from another directory,2018-05-30,Merged,798,3,1,,1
+Low hanging fruit. Fixes #793. Add CONTRIBUTING.md guidelines.,2018-05-30,Closed,797,22,0,,0
+Updated getting started guide,2018-05-30,Merged,796,127,44,,0
+Add testing for chartname update from #790,2018-05-30,Merged,795,22,1,,1
+Updated getting-started.md,2018-05-30,Closed,794,127,44,,0
+WIP: Fix circle memory issues,2018-05-30,Merged,792,3,2,Makefile ,2
+add v0.15.0 CHANGELOG,2018-05-30,Merged,791,24,0,,0
+[Feature] use cwd for Chartname if appName not given,2018-05-30,Merged,790,7,0,,1
+chore(docs): add docs around draft init --config,2018-05-29,Merged,787,40,0,,0
+fix(release-checklist): sign commits,2018-05-25,Merged,785,3,3,,0
+Set ChartName to appName,2018-05-29,Merged,784,21,6,,4
+remove upx from hacking docs,2018-05-24,Merged,783,0,2,,0
+add kubernetes client auth plugins,2018-05-24,Merged,782,56,1,go ,2
+add erlang pack and example,2018-05-30,Merged,778,411,0,config lock src erl dockerignore packs/erlang/Dockerfile helmignore yaml txt tpl ,15
+update rjeczalik/notify dependency to address #774,2018-05-24,Merged,775,1,1,,1
+Implement image build arguments container builder,2018-05-26,Merged,772,45,19,go ,4
+Allow charts in other directories,2018-05-21,Merged,771,6,6,go ,1
+add link to Microsoft's Open Source Code of Conduct,2018-05-17,Merged,761,3,0,,0
+add Radu Matei as an Admiral of Draft,2018-05-16,Merged,760,1,0,,1
+use strings.TrimSuffix instead of strings.Replace,2018-05-16,Merged,758,17,6,,2
+Add Chocolatey and GoFish to the quickstart docs,2018-05-16,Merged,756,60,3,,0
+feat(docs): add examples and tutorials page,2018-05-16,Merged,755,6,1,,0
+bump helm to v2.9.0,2018-05-14,Merged,753,214,168,,0
+add appveyor.yml,2018-05-16,Merged,752,154,109,go ,17
+fix linter suggestion,2018-05-18,Merged,751,17,17,,1
+Changed to use JAR file with dependencies,2018-05-18,Merged,749,1,1,,1
+feat(docs): add quickstart guide & README,2018-05-14,Merged,744,42,0,,0
+ref(*): deep copy from draft pack to current dir,2018-05-14,Merged,741,84,1,txt md sh ,5
+ref(cmd/draft): add test for config flag on init,2018-05-14,Merged,737,77,8,toml ,4
+ref(docs): mv index.md to README.md for visibility,2018-05-14,Merged,736,0,0,,0
+ref(docs): update wait=true by default,2018-05-14,Merged,735,4,3,,0
+ref(README): make it easier to find install instru,2018-05-14,Merged,733,23,5,,0
+Docs: Dont allow pushing upstream,2018-05-11,Closed,731,2,1,,0
+Suppress colorization when it would result in escape sequence noise,2018-05-04,Merged,721,11,0,,1
+use strings.Replace instead of strings.Trim in getRegistryName,2018-05-03,Merged,718,13,1,,2
+fix init on windows,2018-05-30,Merged,717,9,3,,2
+Remove protobuf setup from Makefile,2018-04-30,Merged,711,0,9,sh ,2
+bump pack-repo to v0.4.2,2018-04-27,Merged,710,1,1,,1
+generate checksums for .zip files,2018-04-27,Merged,709,1,1,,1
+ref(docs): .draft/tasks.toml -> .draft-tasks.toml,2018-04-27,Merged,708,2,2,,0
+add v0.14.0 CHANGELOG,2018-04-27,Merged,706,42,0,,0
+drop setpgid to fix windows build,2018-04-26,Merged,703,0,1,,1
+docs for draft connect detach mode,2018-04-26,Merged,702,24,0,,0
+enable detaching from draft connect,2018-04-26,Merged,701,111,23,,3
+fixup inputs-digest,2018-04-26,Merged,699,1,1,,1
+fix(cmd/draft/up): fix panic when missing task file,2018-04-24,Merged,697,1,1,,1
+add windows canary binary to canary list,2018-04-26,Merged,693,5,1,Makefile md ,3
+add .dockerignore and .draft-tasks.toml to gitignore,2018-04-24,Merged,692,2,0,,1
+Add ACR Build support to Draft,2018-04-25,Merged,691,"5,341",272,toml go md ,5
+bump pack-repo to 0.4.1,2018-04-23,Merged,689,1,1,,1
+fixup builtin version,2018-04-23,Closed,686,1,1,,1
+ref(*): mv pkg/draft/local to pkg/local,2018-04-23,Merged,685,14,7,toml ,9
+bump pack-repo to 0.4.0,2018-04-23,Merged,683,2,2,,1
+Gopkg.toml: remove errors when running `dep ensure`,2018-04-19,Merged,680,1,40,toml ,2
+docs(dep-006): fix formatting,2018-04-18,Merged,678,2,2,,0
+docs(install): add short section on using DockerHub,2018-04-18,Merged,677,18,3,,0
+enable listing packs in pack repositories,2018-04-18,Merged,676,163,0,txt yaml ,7
+WIP: pull container builders into a separate package,2018-04-20,Closed,675,230,208,,1
+Support for custom image tags,2018-04-17,Merged,674,44,16,go ,4
+ref(packs): change default replicaCount to 1,2018-04-14,Merged,673,11,11,,11
+Fix Golang linter warning on comments in builder.go,2018-04-13,Merged,672,2,2,,1
+feat(cmd/draft): override default plugins and pack-repos,2018-04-19,Merged,670,98,6,,2
+Add Dockerfile and chart as environment,2018-04-20,Merged,669,66,25,md go ,9
+fixup calls to path.Join with filepath.Join,2018-04-12,Merged,668,5,6,,2
+docs(pkg/draft/local): add OverridePorts descript,2018-04-12,Merged,667,2,0,,1
+Avoid deleting any Helm app and add environment flag for delete,2018-04-12,Merged,666,15,9,,2
+Group build logs in directory for each app,2018-04-12,Merged,664,65,31,,5
+fix(client): avoid cloning map,2018-04-10,Merged,661,1,1,,1
+run plugin hooks using powershell in windows,2018-04-19,Merged,658,467,41,go yaml ,11
+inject plugin version into the plugin environment,2018-04-10,Merged,657,10,7,,2
+ref(pkg/draft): skip copying pack readme on create,2018-04-09,Merged,656,7,1,md ,2
+fix(cmd/draft): fix --pack flag,2018-04-10,Merged,654,90,2,txt yaml ,5
+ref(README): move description up,2018-04-09,Merged,651,2,3,,0
+fix broken link,2018-04-10,Merged,649,1,1,,0
+Dot 13: updated documentation,2018-04-06,Merged,647,38,28,,0
+fix up release checklist,2018-04-06,Merged,645,21,18,,0
+add tail support for draft logs,2018-04-05,Merged,643,67,9,toml go ,3
+"feat(*): run pre-up, post-deploy, and cleanup tasks in draft",2018-04-23,Merged,642,454,8,go toml md ,16
+remove unused HerokuLicenseName constant,2018-04-03,Merged,641,0,2,,1
+remove NOTICE and fix chart/ ref,2018-04-03,Merged,640,11,22,,11
+remove dead detect script,2018-04-03,Merged,639,0,10,,1
+write logs to file instead of buffer,2018-04-02,Merged,638,66,39,,4
+truncate config file on save,2018-04-01,Merged,637,1,2,,1
+Add --dry-run flag to draft connect,2018-04-02,Merged,634,7,0,,1
+Add --wait flag for connect,2018-03-30,Closed,633,0,0,,0
+ref(pkg/draft/pack): add to pack load err,2018-03-29,Merged,632,1,2,,1
+Remove references to draftd in cmd usage,2018-03-28,Merged,630,4,10,,2
+re-instate injecting the image pull secret into the namespace,2018-04-05,Merged,629,189,1,go ,3
+Fix inaccurate connection message order,2018-03-28,Merged,626,2,1,,1
+updating documentation to highlight the major changes in 0.12,2018-03-29,Merged,625,25,5,,0
+add v0.12.0 CHANGELOG,2018-03-28,Merged,623,25,0,,0
+Fix FindRepositories path issue on Windows,2018-03-27,Merged,622,1,1,,1
+delete storage for app on draft delete,2018-03-27,Merged,621,7,0,,1
+update inputs-digest,2018-03-27,Merged,619,1,1,,1
+Avoid panic for draft connect and logs when there is no build in logs,2018-03-27,Merged,617,5,1,,1
+Fix pack-repo add on Windows,2018-03-27,Merged,614,1,2,,1
+"Revert ""add vendor to `make clean`""",2018-03-26,Merged,609,0,1,,1
+chore(cmd/draft): update init description,2018-03-26,Merged,608,2,2,,1
+Add docs about draft connect,2018-03-26,Merged,606,183,7,,0
+chore(Gopkg.lock): format Gopkg.lock,2018-03-26,Closed,605,39,617,,0
+document container registry setup for Minikube and AKS,2018-03-27,Merged,603,31,25,,0
+Simplify draft logs cmd,2018-03-26,Merged,602,12,5,,1
+Auto connect for draft up,2018-03-26,Merged,600,75,30,toml yaml ,21
+Fix root command's pre run not being called,2018-03-23,Merged,599,2,1,,1
+remove draft-canary reference,2018-03-26,Merged,598,0,9,,0
+add cli/debug to Gopkg.lock,2018-03-26,Merged,597,2,1,,1
+add vendor to `make clean`,2018-03-26,Merged,596,1,0,,1
+mv chart charts,2018-03-26,Merged,595,0,0,yaml txt tpl ,7
+remove Heroku notices,2018-03-26,Merged,594,0,92,md com/Azure/draft/packs/go/NOTICE packs/csharp/NOTICE packs/go/NOTICE packs/gradle/NOTICE packs/java/NOTICE packs/javascript/NOTICE packs/php/NOTICE packs/python/NOTICE packs/ruby/NOTICE ,10
+document more on the Naive Bayesian Classifier,2018-03-26,Merged,592,1,1,,0
+make java pack accept any target output jarfile,2018-03-26,Merged,590,4,3,,1
+Wait for pod to be ready before connecting,2018-03-22,Merged,583,78,22,,3
+add manifest.Load(),2018-03-22,Merged,582,15,10,,2
+Add connection message every 5 minutes,2018-03-22,Merged,581,10,3,,1
+Add override-ports flag and use dashes instead of underscores in draft.toml,2018-03-19,Merged,580,49,34,toml md ,11
+use the sha256 hash algorithm,2018-03-19,Merged,579,3,3,,1
+Output CircleCI test results to a JUnit XML files,2018-03-22,Closed,577,9,1,sh ,2
+Initial prep work for custom tags for drafted docker images,2018-03-22,Closed,576,23,19,go ,3
+Add local port forwarding for draft connect,2018-03-19,Merged,575,231,16,,5
+add v0.11.0 CHANGELOG,2018-03-19,Merged,574,22,2,,0
+remove draftd,2018-03-22,Merged,573,"1,376","5,139",sh dockerignore draftignore Dockerfile lock toml ,7
+Fix for ipv6 lookup error,2018-03-14,Merged,572,2,2,,1
+draft history,2018-03-26,Merged,571,245,32,go pkg/storage/Makefile ,9
+prettify lockfile,2018-03-14,Merged,568,559,34,,0
+fix goimports,2018-03-14,Merged,567,15,7,,8
+Fix make rpc target by adding local protobuf include in vendor,2018-03-13,Merged,563,11,4,pkg/rpc/Makefile sh ,3
+short-circuit image build/push step when image exists,2018-03-23,Closed,562,17,9,,1
+Fix context passed to GetLogs,2018-03-12,Merged,561,3,3,,1
+add test for archiveSrc(),2018-03-14,Merged,560,23,0,pkg/build/testdata/simple/Dockerfile ,2
+print output to l.out,2018-03-13,Merged,559,1,1,,1
+use draft.toml's environment for `draft logs`,2018-03-16,Closed,558,21,12,,1
+add informational message to inspect the logs,2018-03-13,Merged,554,5,3,,1
+support git v2.16+,2018-03-26,Merged,552,8,4,,2
+copy all files and folders from pack dir,2018-05-14,Closed,551,740,194,NOTICE md go dockerignore cmd/draft/testdata/create/generated/simple-go-with-multiple-charts/another-folder/something cmd/draft/testdata/create/generated/simple-go-with-multiple-charts/charts/something yaml cmd/draft/testdata/create/src/simple-go-with-multiple-charts/another-folder/something cmd/draft/testdata/create/src/simple-go-with-multiple-charts/charts/something com/Azure/draft/packs/go/NOTICE packs/csharp/NOTICE packs/go/NOTICE packs/gradle/NOTICE packs/java/NOTICE packs/javascript/NOTICE packs/php/NOTICE packs/python/NOTICE packs/ruby/NOTICE ,28
+Support packs with multiple files and multiple chart folders - fixes …,2018-03-05,Closed,550,132,27,dockerignore cmd/draft/testdata/create/generated/empty/NOTICE cmd/draft/testdata/create/generated/html-but-actually-go/NOTICE cmd/draft/testdata/create/generated/simple-go-with-draftignore/NOTICE cmd/draft/testdata/create/generated/simple-go/NOTICE go ,13
+Draft Logs by BuildID,2018-02-28,Merged,539,474,112,,5
+Connect to every containerPort in pod,2018-02-14,Merged,537,63,26,,3
+"Add draft -p flag to specify local port, draft connect to beta",2018-03-20,Closed,536,617,137,toml yaml ,18
+correct readiness and liveness probe in draftd chart,2018-02-06,Merged,534,2,2,,1
+fix(512): pull draftd namespace from env,2018-02-06,Merged,533,12,1,,2
+Use the Debian based Docker image instead of the Alpine image,2018-02-06,Merged,531,4,4,packs/java/Dockerfile ,2
+fix(*): specify multiple insecure registries args,2018-02-05,Merged,529,4,2,go ,2
+Add draft connect --container/-c flag (#399),2018-02-07,Merged,528,115,80,,4
+java pack: `mvn` invocation should be non interactive (`--batch-mode`). Fix  #524,2018-02-05,Merged,525,1,1,,1
+[WIP] Add initial --container/-c flag for connect,2018-02-05,Closed,521,12,7,,3
+Add link to install.md in hacking guide,2018-01-26,Merged,520,1,0,,0
+add v0.10.0 CHANGELOG,2018-01-25,Merged,518,28,0,,0
+Update --insecure-registry CIDR range,2018-01-25,Merged,516,2,2,go ,2
+fix linting errors,2018-01-24,Merged,515,3,3,,1
+fix master (dependencies),2018-01-24,Merged,514,65,590,,0
+add rootCmd variable,2018-03-08,Merged,513,14,4,,2
+Fix make test-lint,2018-01-23,Merged,507,123,113,go ,14
+Fix e2e tests,2018-01-24,Merged,505,4,734,md sh tests/testdata/bad/dockerfile-build-failure/Dockerfile yaml gitkeep tests/testdata/bad/no-chart/Dockerfile helmignore txt tpl gitignore tests/testdata/good/example-dockerfile-http/Dockerfile ,18
+`draft init --driver` support,2018-03-21,Closed,500,239,35,,7
+select the most popular language found with a pack,2018-01-23,Merged,499,370,23,draftignore cmd/draft/testdata/create/generated/html-but-actually-go/Dockerfile helmignore yaml gitkeep txt tpl toml html ,17
+prettify lockfile,2018-01-16,Merged,497,561,35,,0
+install libffi-dev to compile pyOpenSSL,2018-01-12,Merged,496,2,2,,1
+install libssl-dev,2018-01-12,Merged,495,3,1,,1
+"Revert ""remove docker-in-docker container""",2018-01-23,Merged,494,30,10,go ,2
+install the latest 2.x release of azure-cli,2018-01-11,Merged,493,1,2,,1
+Add environment selection flag to connect command,2018-01-11,Merged,492,67,21,,6
+inprocess + configmaps storage for draftd,2018-01-23,Merged,491,850,1,,5
+chore(pkg/plugin): install exact version not canary,2018-01-10,Merged,490,2,7,,1
+added spring-boot example,2018-01-24,Merged,489,475,0,jar properties examples/example-spring-boot/mvnw cmd ,5
+ref(pkg/plugin): remove 'v' from pack-repo ver,2018-01-08,Merged,483,1,1,,1
+feat(cmd/draft): add draft init upgrade flag,2018-01-12,Merged,481,291,113,,5
+ignore common java work directories,2018-01-05,Merged,475,3,0,,1
+ref(cmd/draft): break up init for unit tests,2018-01-05,Merged,473,365,140,,4
+Clojure support,2018-01-23,Merged,463,198,0,clj dockerignore packs/clojure/Dockerfile helmignore yaml txt tpl ,13
+bump pack-repo to v0.3.1,2018-01-03,Merged,462,1,1,,1
+Rust support,2018-03-26,Merged,461,199,0,lock toml rs dockerignore packs/rust/Dockerfile helmignore yaml txt tpl ,13
+feat(cmd/draft): clarify plugin setup in init,2018-01-04,Merged,460,372,123,go ,4
+Added comment about filtering for language discovery,2018-02-28,Closed,458,13,0,,0
+Replace mention of packs.md with dep-003.md,2017-12-20,Merged,456,1,1,,0
+Fix broken URL for packs docs,2017-12-20,Merged,455,1,1,,0
+copy all files from pack dir,2018-04-05,Merged,453,86,27,go txt ,11
+add link to DEP 006,2018-01-04,Merged,452,2,0,,0
+feat/tls: enable draft/draftd TLS,2017-12-06,Merged,447,629,36,,3
+exit non-zero when building branches,2017-12-13,Merged,446,4,2,,2
+add v0.9.0 CHANGELOG,2017-12-13,Merged,445,20,0,,0
+fix chart/ rename,2017-12-13,Merged,444,3,3,md ,1
+fix examples dir,2017-11-29,Merged,442,0,79,txt csproj ,6
+Adding some clarifications about the requirements of the application.,2018-01-11,Closed,441,2,0,,0
+fix(glide): alias Sirupsen/logrus repo to github.com/sirupsen/logrus,2018-01-05,Merged,440,19,16,yaml ,2
+add rbac/namespacing docs,2017-11-29,Merged,439,145,0,,0
+Fix ruby example: Wrong port in app.rb,2017-11-18,Merged,435,1,1,,1
+remove docker-in-docker container,2017-11-17,Merged,434,10,30,go ,2
+Bump docker image to node 8.8 to support async etc,2017-11-01,Merged,425,1,1,,1
+use the name of the directory for `draft create`,2017-10-30,Merged,424,31,20,cs txt csproj yaml go xml java js json php py examples/ruby/Gemfile → examples/example-ruby/Gemfile lock rb ,17
+add tmp/ to default .dockerignore for Ruby,2017-10-30,Merged,423,1,0,,1
+Add 'http://' prefix to output message,2017-10-25,Closed,422,1,1,,1
+add --dry-run flag to `draft init`,2017-10-30,Merged,419,16,8,,1
+re-organize design documents as DEPs,2017-10-30,Merged,418,626,522,,0
+add v0.8.0 CHANGELOG,2017-10-30,Merged,417,23,0,,0
+fix dirty git tree state in circle builds,2017-10-20,Merged,416,1,0,,1
+Video: Deploying Draft on Azure Container Services,2017-10-30,Merged,415,6,0,,0
+purge release on delete,2017-10-20,Merged,414,2,1,,1
+"add ""bump the homebrew formula"" to the release checklist",2017-10-30,Merged,413,9,1,,0
+add another indentation level,2017-10-20,Merged,412,3,3,,1
+drop Windows support from install guide,2017-10-20,Merged,411,0,1,,0
+remove notes about amending commits on release branch,2017-10-19,Merged,409,2,16,,0
+bump az to 2.0.19,2017-10-19,Merged,408,1,1,,1
+use CircleCI's Workflow feature,2017-10-19,Merged,407,10,18,md ,1
+implement SymlinkWithFallback,2017-10-30,Merged,402,70,5,,5
+ref(draft): fix lint errors,2017-10-17,Merged,400,3,9,,3
+rename chart/ to charts/,2017-10-20,Merged,398,10,11,yaml txt tpl go gitkeep cmd/draft/testdata/create/generated/simple-go-with-chart/chart/something → cmd/draft/testdata/create/generated/simple-go-with-chart/charts/something cmd/draft/testdata/create/src/simple-go-with-chart/chart/something → cmd/draft/testdata/create/src/simple-go-with-chart/charts/something md ,105
+feat(*): add draft logs command,2017-10-17,Merged,394,145,16,,6
+switch default port to 3000 for Ruby apps,2017-10-13,Merged,391,3,3,yaml ,2
+add global flag `--draft-namespace`,2017-10-17,Merged,390,34,24,,5
+fix typo in ingress docs,2017-10-10,Merged,389,2,2,,0
+"add ""How to create and maintain a pack repository""",2017-10-17,Merged,388,24,0,,0
+"Revert ""do not log requests from kubernetes liveness/readiness probes""",2017-10-05,Merged,387,6,68,examples/ruby/Gemfile lock rb ,4
+replace glide with dep,2018-01-10,Merged,385,"7,500",817,yml gitignore ,4
+bump max rpc message size to 40 MB,2017-10-04,Merged,383,6,4,,1
+fix: return error was shadowed,2017-10-03,Merged,381,4,2,,1
+feat(cmd/draft): implement draft delete,2017-10-04,Merged,379,142,0,yaml ,5
+remove redundant/confusing default values in packs,2017-11-17,Merged,378,0,24,,12
+remove healthchecks from default packs,2017-10-05,Merged,377,180,269,,11
+bump ASP.NET to 2.0,2017-11-17,Merged,376,95,8,txt csproj packs/csharp/Dockerfile yaml ,5
+uninstall draftd on `draft init`,2017-10-05,Merged,373,25,43,,4
+build binary in PR runs,2017-10-05,Merged,372,14,1,yml ,3
+pin cobra version to last known version,2017-10-04,Closed,371,43,2,yaml ,2
+add asciicast,2017-09-27,Merged,365,2,0,,0
+[WIP] Add support for transparent GCR auth,2017-11-15,Closed,364,163,24,,3
+feat(cmd/draft): add flag to override draftd image,2017-09-27,Merged,360,85,51,,3
+fix git4go dependency,2017-09-22,Merged,351,6,15,yaml ,2
+Clarify how to configure the base domain,2017-09-21,Merged,349,2,1,,0
+rewrite `draft init` experience,2017-10-06,Merged,347,"1,018","2,777",go ,4
+add pack.toml for pack detection,2017-10-06,Closed,346,581,292,md toml dockerignore packs/javascript/Dockerfile → packs/nodejs/Dockerfile packs/javascript/NOTICE → packs/nodejs/NOTICE helmignore yaml txt tpl ,21
+add .draftignore,2017-09-27,Merged,345,4,0,,1
+port linguist's .gitattributes support to Go,2017-11-28,Merged,344,256,55,lock go ,2
+do not log requests from kubernetes liveness/readiness probes for python/ruby apps,2017-09-19,Merged,342,68,6,examples/ruby/Gemfile lock rb ,4
+add -yq to apt-get install,2017-09-18,Merged,339,1,1,,1
+add v0.7.0 CHANGELOG,2017-09-19,Merged,333,18,0,,0
+install pip,2017-09-15,Merged,332,1,0,,1
+add CircleCI build status logo,2017-09-18,Merged,331,1,1,,0
+fix DOCKER_USERNAME typo,2017-09-14,Merged,324,1,1,,1
+document `draft connect`,2017-09-13,Merged,323,74,176,,0
+Migrate to CircleCI,2017-09-13,Merged,322,154,130,yml Jenkinsfile go ,7
+make `make check-then-generate` the default,2017-09-13,Merged,321,3,7,,1
+use ./... with Go 1.9,2017-09-13,Closed,319,2,3,,1
+use test-unit target,2017-09-13,Merged,318,1,4,Makefile ,2
+ref(pkg/draft): remove ondraft val,2017-09-12,Merged,317,2,3,,2
+chore(*): add comments on public funcs for linter,2017-09-12,Merged,316,19,11,,5
+chore(docs): fix minikube dev instructions/cmds,2017-09-12,Merged,315,3,2,,0
+ref(draft): remove ingress requirement,2017-09-12,Merged,313,258,208,yaml ,16
+"Change imagePullPolicy on `draft init` canary deployments to ""Always""",2017-09-11,Merged,312,15,15,md ,1
+add homebrew install instructions for Draft,2017-09-13,Merged,311,13,1,,0
+ref(cmd/draft): make draft install errors pretty,2017-09-11,Merged,310,13,2,,1
+implement `draft pack-repo`,2017-09-07,Closed,307,738,11,,8
+ref(draft): isolate init steps,2017-09-11,Merged,305,31,7,,2
+ref(draft): add success and fail text on draft up,2017-09-01,Merged,301,2,2,,1
+feat(*): implement draft connect,2017-09-01,Merged,298,502,186,yaml ,16
+fix comment,2017-09-01,Merged,297,1,1,,1
+add PORT envvar to nodejs example,2017-09-01,Merged,291,1,1,json ,2
+introduce language aliases,2017-09-05,Merged,290,364,337,dockerignore packs/maven pom/Dockerfile → packs/java/Dockerfile packs/maven pom/NOTICE → packs/java/NOTICE helmignore yaml txt tpl ,14
+ref(server): isolate registry auth in file,2017-08-30,Merged,286,146,118,yaml go ,5
+WIP: implement draft logs,2017-10-16,Closed,283,238,43,proto ,5
+feat(cli-ux): add basic draft up ux,2017-08-25,Merged,282,331,58,lock yaml ,7
+remove registry org and image name from generated charts,2017-09-01,Merged,281,95,149,yaml go md ,28
+ref(docs): update minikube dev docs,2017-08-31,Merged,280,10,5,,0
+fix(rpc): bump max recv message size.,2017-08-22,Merged,276,7,1,,1
+update docs to use homebrew for minikube/helm/kubectl installs,2017-08-25,Merged,271,17,18,,0
+add v0.6.0 CHANGELOG,2017-08-22,Merged,270,23,0,,0
+bump to helm 2.6 compatibility,2017-11-03,Closed,269,214,203,,0
+ref(Makefile): add auto gen packs bindata condition,2017-08-16,Merged,267,7,1,,1
+fix some verbiage in draft design,2017-08-16,Merged,266,5,5,,0
+ref(pkg/draft): print cleaner errors,2017-08-16,Merged,263,11,5,,1
+rename c# to csharp,2017-08-16,Merged,262,279,272,cs txt csproj dockerignore packs/c#/Dockerfile → packs/csharp/Dockerfile packs/c#/NOTICE → packs/csharp/NOTICE helmignore yaml tpl ,15
+add newline between sentences for PHP app,2017-08-16,Merged,261,1,1,,1
+add documentation on setting up dnsmasq for Draft,2017-08-16,Merged,259,98,16,,0
+docs(contributing): add docs for minikube dev,2017-08-15,Merged,253,22,0,,0
+chore(pkg/draft): re-generate packs,2017-08-15,Merged,251,180,180,,0
+fix app context vals not being properly loaded,2017-08-15,Merged,249,51,1,,2
+ref(docs): update install doc,2017-08-10,Merged,246,25,24,,0
+use go fmt best practices for import statements,2017-08-14,Merged,245,9,21,,2
+remove package api since grpc support.,2017-08-14,Merged,244,0,619,,0
+feat(*): add plugin update cmd,2017-08-09,Merged,241,315,35,,9
+commit generated pack code,2017-08-03,Closed,240,194,194,,0
+"remove detect script from packs, replace with github/linguist",2017-08-14,Merged,239,809,"1,150",helmignore yaml gitkeep txt tpl md cs csproj js json php lock dockerignore packs/dotnetcore/Dockerfile → packs/c#/Dockerfile packs/dotnetcore/NOTICE → packs/c#/NOTICE packs/dotnetcore/detect packs/golang/Dockerfile → packs/go/Dockerfile packs/golang/NOTICE → packs/go/NOTICE packs/golang/detect packs/gradle/detect packs/node/Dockerfile → packs/javascript/Dockerfile packs/maven/NOTICE → packs/javascript/NOTICE packs/maven/Dockerfile → packs/maven pom/Dockerfile packs/node/NOTICE → packs/maven pom/NOTICE packs/maven/detect packs/node/detect packs/php/detect packs/ruby/detect ,85
+Draft gRPC,2017-08-09,Merged,237,"2,358",954,,5
+make charts generated by draft helm-compatible,2017-08-12,Merged,236,335,273,yaml txt tpl go gitkeep md ,45
+add PORT to application environments,2017-08-08,Merged,235,78,67,cmd/draft/testdata/create/generated/simple-go-with-draftignore/Dockerfile cmd/draft/testdata/create/generated/simple-go/Dockerfile packs/dotnetcore/Dockerfile packs/golang/Dockerfile packs/gradle/Dockerfile packs/maven/Dockerfile packs/node/Dockerfile packs/php/Dockerfile packs/python/Dockerfile packs/ruby/Dockerfile go ,12
+add ondraft value to chart,2017-08-08,Merged,234,4,2,md ,1
+remove video of Draft on ACS,2017-08-08,Merged,233,0,4,,0
+call make generate,2017-08-07,Merged,232,194,194,,0
+feat(cmd/draft): add plugin remove cmd,2017-07-28,Merged,231,131,5,,5
+chore(*): lock helm dependency version to 2.5.1,2017-07-26,Merged,230,2,2,,1
+feat(*): install remote and local plugins,2017-07-28,Merged,229,874,44,,4
+draft create creates draft.toml if necessary,2018-04-19,Closed,228,307,219,toml ,7
+fix draft up with set values in environment,2017-07-11,Merged,224,42,0,,2
+"Fix ""file perm denied error"" issue",2017-09-18,Closed,221,2,2,,0
+disable watch feature by default,2017-07-06,Merged,217,10,7,go ,5
+Build error and runtime errors with Java pack fixed,2017-07-11,Merged,216,195,195,,1
+Fixed Java pack Jar file error,2017-07-03,Closed,215,1,1,,1
+Adding prerun hook to lowercase application names,2018-01-06,Merged,212,65,0,,2
+attach os.Stdin to plugin's stdin,2017-07-06,Merged,208,5,3,,3
+rename --yes to --auto-accept,2017-07-06,Merged,204,5,5,,1
+add v0.5.1 CHANGELOG,2017-07-06,Merged,203,10,0,,0
+Add PORT env variable to the node pack Dockerfile,2017-09-18,Closed,196,93,92,yaml ,2
+Allow a custom base domain value in draft init,2017-08-14,Closed,194,9,1,,1
+Fix draft init --yes being ignored,2017-06-26,Merged,193,12,9,,1
+move hack/ scripts to scripts/,2017-06-26,Merged,190,0,0,,1
+Add swift support,2017-11-29,Merged,189,273,0,pins swift dockerignore packs/swift/Dockerfile helmignore yaml txt tpl ,13
+"alter project governance: remove bacongobbler as BDFL, add LGTM policy",2017-07-06,Merged,188,46,24,md → OWNERS ,1
+select storage driver as overlay,2017-06-26,Merged,187,6,0,go ,2
+add v0.5.0 CHANGELOG,2017-06-26,Merged,183,28,0,,0
+add insecure registry to dind,2017-06-23,Merged,180,4,0,go ,2
+lower replica count to 1,2017-06-22,Merged,179,2,2,go ,2
+trim whitespace from answer,2017-06-22,Merged,177,1,0,,1
+ref(cmd): add helpful msg on draft up error,2017-06-22,Merged,176,5,0,,1
+cast syscall.Stdin to an int,2017-06-22,Merged,173,5,3,,2
+run `go generate`,2017-06-22,Merged,172,476,194,,0
+add architecture description,2017-06-22,Merged,171,42,12,,0
+Differentiate between gradle and maven projects for Java,2017-06-22,Merged,170,170,5,packs/gradle/Dockerfile packs/java/NOTICE → packs/gradle/NOTICE helmignore yaml txt tpl packs/gradle/detect packs/java/Dockerfile → packs/maven/Dockerfile packs/maven/NOTICE packs/java/detect → packs/maven/detect ,23
+Using multi-stage to build the application with composer,2017-06-22,Merged,169,100,88,packs/php/Dockerfile ,2
+bump to helm v2.5.0,2017-06-21,Merged,166,18,53,go lock yaml ,3
+"reference 17.05.0-ce tag, rename container to dind",2017-06-21,Merged,165,18,18,go ,2
+fixup java pack,2017-06-21,Merged,164,87,87,,1
+Issue #150 Use docker-in-docker instead of mounting host docker,2017-06-20,Merged,163,23,13,go ,3
+Add .NET Core support,2017-06-20,Merged,159,608,76,txt csproj dockerignore packs/dotnetcore/Dockerfile packs/dotnetcore/NOTICE helmignore yaml tpl packs/dotnetcore/detect go ,15
+Add Windows support,2017-06-19,Merged,158,59,28,,6
+"taking charts to prod, add project scope",2017-06-16,Merged,156,28,4,,0
+Basic Swift pack with example,2017-08-31,Closed,155,534,73,swift dockerignore packs/swift/Dockerfile packs/swift/NOTICE helmignore yaml txt tpl packs/swift/detect ,14
+draft init rewrite,2017-06-21,Merged,154,297,246,yaml ,4
+Fix trivial typo,2017-06-15,Merged,153,1,1,,0
+add .draftignore to .gitignore,2017-06-14,Merged,151,1,0,,1
+Added description how to avoid custom DNS zone hosting record modific…,2017-06-13,Merged,149,2,1,,0
+.draftignore file support,2017-06-14,Merged,147,987,8,draftignore gitkeep cmd/draft/testdata/create/generated/empty/Dockerfile helmignore yaml txt tpl toml cmd/draft/testdata/create/generated/simple-go-with-chart/chart/something ,16
+Add watch e2e tests,2017-06-12,Merged,146,289,6,toml gitignore tests/testdata/watch/example-dockerfile-http/Dockerfile yaml tpl conf gitkeep tests/testdata/watch/example-dockerfile-http/rootfs/usr/share/nginx/html/README test tests/tools ,13
+E2e test fixes,2017-06-12,Merged,145,18,6,toml ,2
+fix(chart): use linux node selector on draftd deployment,2017-06-12,Merged,144,4,0,go ,2
+Using multi-stage to compile the application,2017-06-20,Merged,142,9,2,,1
+(WIP) Packs management,2017-09-13,Closed,141,358,16,,2
+"remove ""isTag"" logic from Jenkinsfile",2017-06-12,Merged,140,3,7,,1
+fix changelog typo,2017-06-09,Merged,139,1,1,,0
+add v0.4.0 CHANGELOG,2017-06-09,Merged,137,25,0,,0
+update release checklist,2017-06-14,Merged,136,21,3,md ,1
+run make generate,2017-06-09,Merged,134,13,13,,1
+implement `draft shipit`,2017-06-09,Closed,133,138,9,,4
+call make build,2017-06-09,Merged,132,83,83,,0
+move basedomain to rawVals,2017-06-09,Merged,130,5,7,,1
+revert commit 0b44f84,2017-06-09,Merged,128,0,6,,6
+add Michelle Noorali as an Admiral,2017-06-08,Merged,126,1,0,,0
+ref(draft/create): update app flag description,2017-06-08,Merged,125,1,1,,1
+ensure pull secret does get updated,2017-06-09,Merged,124,42,28,,1
+Add description of some field,2017-06-09,Merged,123,4,1,,0
+blindly check for .go files across the repository,2017-06-08,Merged,119,1,1,,1
+inform user when pack already exists,2017-06-08,Merged,118,18,9,,3
+fix unused --app flag on draft create,2017-06-08,Merged,117,4,0,,1
+Added instructions for Google Container Registry,2017-06-19,Closed,116,21,1,,0
+add codecov,2017-06-13,Merged,115,21,1,Jenkinsfile Makefile sh ,4
+add link to slack channel,2017-06-06,Merged,114,2,0,,0
+add video tutorial on draft,2017-06-06,Merged,113,4,0,,0
+fix(defaultpacks): set basedomain,2017-06-06,Merged,110,6,0,,6
+feat(packs): use go-bindata to pack builtin packs,2017-06-06,Merged,108,"3,056",938,Makefile go md dockerignore packs/golang/Dockerfile packs/golang/NOTICE helmignore yaml txt tpl packs/golang/detect packs/java/Dockerfile packs/java/NOTICE ,21
+(WIP) Added option to skip docker image push,2017-06-06,Closed,104,231,97,md ,2
+Added documentation on the steps needed to use minikube,2017-06-09,Merged,103,56,8,,0
+feat(packs): use go-bindata to pack builtin packs,2017-06-05,Closed,99,"3,049",932,Makefile go md dockerignore packs/golang/Dockerfile packs/golang/NOTICE helmignore yaml txt tpl packs/golang/detect packs/java/Dockerfile packs/java/NOTICE ,21
+fix(windows): Updated to docker version v17.05.0-ce with the needed dependencies,2017-06-02,Merged,93,27,16,lock yaml go ,4
+Adding a typescript pack,2017-12-05,Closed,92,574,97,json ts dockerignore packs/typescript/Dockerfile helmignore yaml txt tpl packs/typescript/detect ,15
+fix(nodejs): Fixing nodejs dockerfile to point to older version,2017-06-02,Merged,88,1,1,,1
+docs(install): adding Azure to token generation docs,2017-06-01,Merged,86,1,1,,0
+typo,2017-05-31,Merged,81,1,1,,0
+fix(install.md): encourage cloud-provided kubernetes clusters,2017-05-31,Merged,76,1,1,,0
+docs(install): minor fix,2017-05-31,Merged,75,1,1,,0
+docs(ingress): fix link to install guide,2017-05-31,Merged,74,2,2,,0
+docs(ingress): fix data column in dns table,2017-05-31,Merged,73,3,3,,0
+fix(packs/java): invoke java -jar correctly,2017-05-31,Merged,71,1,2,,1
+fix(examples/ruby): use sinatra,2017-05-31,Merged,70,21,43,lock rb go ,4
+fix(examples/nodejs): change to correct port + define node start,2017-05-31,Merged,69,9,1,json ,2
+fix(examples/php): add ending brace,2017-05-31,Merged,68,1,0,,1
+fix(docs): fix a few broken links,2017-05-31,Merged,67,4,4,,0
+Cleanup README and docs,2017-05-31,Merged,66,24,33,,0
+docs(*): documenting basedomain and ingress setup,2017-05-31,Merged,65,105,45,,0
+fix(examples/ruby): add proper Gemfile.lock scaffolding,2017-05-30,Merged,64,11,0,,1
+ref(README): clarify configuration instructions,2017-05-30,Merged,63,6,6,,0
+feat(Makefile): remove windows cross compilation target until #61 is fixed,2017-05-30,Merged,62,1,1,,1
+chore(docs): update README.md,2017-05-30,Merged,60,17,12,,0
+feat(draft): add -o/--dest flag,2017-06-01,Merged,59,27,12,,2
+fix(draft): wired client only and server only flags,2017-06-01,Merged,57,11,11,,1
+docs(README): add Azure CR,2017-05-30,Merged,56,1,1,,0
+fix bump to helm 2.4.1,2017-05-27,Merged,55,270,228,go ,4
+bump helm to v2.4.1,2017-05-27,Merged,54,256,223,go ,2
+remove --tiller-namespace feature flag,2017-05-16,Merged,53,11,20,,4
+stop building app when client closes connection,2017-05-15,Merged,52,73,49,,2
+change replicaCount to 3,2017-05-16,Merged,51,2,2,go ,2
+add v0.3.0 CHANGELOG,2017-05-10,Merged,50,26,0,,0
+fixup getting started guide,2017-05-10,Merged,48,14,14,py ,1
+docs(getting-started): update python pack filenames,2017-05-09,Merged,47,6,5,,0
+docs(README.md): clarify that Helm v2.3.1 is a prerequisite,2017-05-10,Merged,46,7,0,,0
+fix tagging logic,2017-05-09,Merged,44,1,1,,1
+feat(server): create docker pull secret in application namespace and append imagepullsecret to default service account.,2017-05-11,Merged,43,231,39,NOTICE go lock ,5
+fix `docker login`,2017-05-09,Merged,41,1,2,,1
+call out helm version,2017-05-09,Merged,40,1,1,,0
+feat(draft): add logo for Draft,2017-05-09,Merged,38,2,0,png ,1
+add Docker Hub credentials,2017-05-09,Merged,37,6,6,Makefile yaml go ,4
+publish binaries on tagged releases,2017-05-09,Merged,36,18,12,,1
+update build status link,2017-05-08,Merged,35,1,1,,0
+docs(changelog): clean up changelog,2017-05-08,Merged,29,14,15,,0
+docs(changelog): clean up changelog and add v0.3.0 notes.,2017-05-08,Closed,28,41,15,,0
+"fix(examples): ignore draft generated dockerfile, chart, and toml file from git.",2017-05-08,Merged,27,3,0,,1
+add codecov,2017-06-06,Closed,26,24,0,Jenkinsfile Makefile sh ,4
+"fix(examples): ignore draft generated dockerfile, chart, and toml file from git.",2017-05-08,Closed,25,3,0,,0
+docs(LICENSE): update license details,2017-05-08,Merged,24,1,1,,1
+docs(cmd): add copyright header to main files,2017-05-08,Merged,23,8,0,,2
+add code coverage,2017-05-08,Closed,22,24,0,,0
+Clean changelog and add v0.3.0 notes,2017-05-08,Closed,21,26,0,,0
+rename to Azure,2017-05-08,Merged,20,57,62,Makefile yaml go md lock sh mk ,9
+docs(THIRDPARTY): attribute third-party libraries used in draft,2017-05-08,Merged,19,76,4,md ,1
+run gomove,2017-05-08,Merged,18,34,34,,22
+docs(readme): fix link to license,2017-05-08,Closed,17,2,1,,0

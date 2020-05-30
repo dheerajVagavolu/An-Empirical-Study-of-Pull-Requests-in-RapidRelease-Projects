@@ -1,0 +1,95 @@
+Force update based on minimum version set by user,2018-10-13,Closed,202,28,3,m ,3
+Ability to reset skip version status.,2018-10-12,Closed,201,10,0,m ,2
+Add support to customizing bundle id for apps with development builds,2018-08-18,Closed,199,14,0,m ,3
+Fixed Russian localization,2018-06-11,Merged,197,0,0,,1
+Fixing up carthage support,2018-03-22,Merged,193,1,24,pbxproj ,2
+Fix implicitly self retain warnings,2018-03-08,Closed,192,6,6,,1
+Added custom app store URL property,2018-02-19,Closed,191,6,1,m ,2
+change the logic of daily and weekly,2017-12-12,Merged,187,2,2,,1
+Incorrect title,2017-11-22,Merged,185,1,1,m ,2
+Add Ukrainian localization,2017-10-20,Merged,183,11,0,h m ,4
+Silence Xcode 9 compiler warnings around param names.,2017-10-01,Closed,180,3,3,,1
+Update ja localization,2017-08-27,Merged,177,2,2,m ,2
+Fixed a dateFormatter issue,2017-06-19,Merged,172,1,0,,1
+Urdu Localisation Added,2017-06-16,Merged,171,11,0,h m ,4
+Urdu localization added,2017-06-13,Closed,170,11,0,m ,3
+Added Persian localization and tests.,2017-06-04,Merged,169,33,0,h m ,6
+Removed a leftover debug NSLog,2017-04-26,Merged,164,0,1,,1
+Add Delay on Presenting Prompt by Default,2017-04-09,Merged,160,61,11,h m ,4
+Repo Updates,2017-03-04,Merged,156,"2,137",748,png pbxproj xcscheme h m json storyboard plist HarpyExample/Podfile lock ,22
+Add links to badges,2017-01-19,Merged,153,1,1,,0
+Added Indonesian and Finnish localizations.,2016-11-27,Merged,149,56,1,podspec strings h m ,6
+Added Serbian localizations,2016-11-10,Merged,148,49,21,Gemfile lock podspec strings h m ,8
+Portuguese (brazil) locale fixes,2016-11-02,Merged,146,0,0,,1
+If Harpy not found new version or http request or etc... he just call new method,2016-07-27,Closed,142,36,12,m md ,2
+Fixed warnings that come up when opening AppStore link,2016-07-27,Merged,141,3,1,,1
+tintColor is now being properly set,2016-07-21,Merged,140,18,24,,1
+appID is now being properly set,2016-07-19,Merged,138,9,3,,1
+Bugfix/device os check,2016-07-14,Merged,136,4,4,m md ,2
+Version 4.0.0,2016-07-14,Merged,133,838,180,h ,2
+Merge pull request #1 from ArtSabintsev/master,2016-06-23,Closed,132,0,0,,0
+"Merging Updates on June 23,2016",2016-06-23,Closed,131,0,0,,0
+Bugfix/localization,2016-06-18,Merged,130,3,1,podspec strings ,4
+Deployment target check,2016-05-27,Closed,124,9,0,,1
+Fixed localization in case Harpy linked as Framework (using cocoapods),2016-05-24,Merged,122,2,2,,1
+Fix link to 'semantic versioning' page in README,2016-02-15,Merged,118,1,1,,0
+Carthage,2016-02-08,Merged,117,387,22,h md plist pbxproj ,5
+(more flexible solution) fixed: crash because of NSArray out of range,2016-01-02,Closed,116,26,19,m ,2
+add feature to support iOS 5-7,2015-12-24,Closed,115,128,23,md ,1
+fixed: crash because of NSArray out of range,2015-12-25,Closed,112,14,15,,1
+fixed: crash because of NSArray out of range,2015-12-23,Closed,111,14,15,,1
+fix crash related to version numbers with different lengths,2015-12-10,Merged,108,3,3,,1
+Issue with updating 3digit versions to 2digit,2015-10-22,Closed,104,12,4,,1
+"Fixed typographical error, changed availabe to available in README.",2015-09-30,Merged,102,1,1,,0
+Add a new method for check app version with a completion block,2015-10-05,Closed,100,12,0,m ,2
+"Translations: lv, ee",2015-08-12,Merged,99,33,1,h m ,5
+"make major,minor,patch version more flexible",2015-10-05,Closed,98,13,4,,1
+Added hungarian localization,2015-08-04,Merged,96,14,0,,1
+Fix a typo in README.md [ci skip],2015-07-25,Merged,93,35,35,,0
+Added ability to specify your own bundle file for localized strings,2015-06-28,Closed,90,18,4,m ,2
+add iOS6 support and optimize presentingViewController,2015-06-18,Closed,88,66,43,m ,2
+Added two new methods:,2015-05-30,Closed,87,74,11,m ,2
+Added Lithuanian translations,2015-04-20,Closed,83,16,0,h m ,3
+Added missing Polish const in Harpy.h file,2015-04-20,Merged,82,1,0,,1
+adopting modern Objective-C by using instancetype,2015-04-07,Closed,81,1,1,,1
+UIAlertViewDelegate change method called,2015-03-11,Closed,77,1,1,,1
+Adding Brazilian Portuguese and correcting European Portuguese to pt-PT,2015-03-08,Merged,76,4,2,h m ,4
+Adding Brazilian Portuguese localization and correcting European Portuguese,2015-03-05,Closed,75,4,2,h m ,4
+Adding Brazilian Portuguese localization and correcting European Portuguese,2015-03-05,Closed,74,19,17,h m ,4
+Add a note about testing,2015-01-13,Merged,70,3,0,,0
+Update Harpy.m,2015-01-14,Merged,69,1,2,,1
+Fix link to Siren,2015-01-09,Merged,67,1,1,,0
+Turkish language support,2015-01-09,Closed,66,48,46,h m ,4
+Added Hebrew localization,2014-12-20,Merged,64,0,0,,1
+Turkish localization,2014-12-14,Merged,63,14,0,,1
+Added support for Swedish,2014-11-14,Merged,62,2,0,h m ,3
+Update to ensure there is a version check,2014-10-28,Closed,58,1,1,,1
+"Introduce AlertTypeNone, enableDebug and forceAlert",2014-09-25,Merged,56,62,9,m md ,2
+Correct documentation on setXXXUpdateAlertType instead of setXXXAlertTyp...,2014-09-19,Merged,55,3,3,,0
+"Now supports different AlertTypes for major, minor and patch updates.",2014-07-22,Closed,53,37,1,m ,2
+Add delegate method for did finish checking without finding any new versions,2014-05-20,Closed,50,23,4,h m md ,3
+Update UIDevice+SupportedDevices.m,2014-04-04,Closed,47,1,1,,1
+Updated Slovenian localisation.,2014-01-06,Closed,43,0,0,,1
+Updated Slovenian localisation.,2014-01-03,Closed,42,0,0,,1
+Added Slovenian (sl) localization.,2013-12-19,Merged,40,0,0,,1
+Addeded the use of remote server as an option.,2014-01-03,Closed,38,103,42,m md ,2
+Change NSCalendarUnitDay to NSDayCalendarUnit,2013-10-15,Closed,37,1,1,,1
+Adds a new optional parameter to set the app name,2013-09-04,Merged,34,17,1,m md ,2
+Added country code property to enable country-specific lookup for iTunes,2013-06-10,Merged,30,19,2,m ,2
+Added property to set the template used to build the lookup URL.,2013-05-31,Closed,29,4,1,m ,2
+Fixed issue #24 (localization with cocoa pods),2013-05-15,Merged,28,1,1,,1
+Fixed problem with Cocoapods spec,2013-05-18,Closed,27,5,2,h m ,3
+Added Basque language support.,2013-05-07,Merged,26,2,1,md ,1
+Cocoapods fix,2013-05-02,Merged,23,25,2,h ,2
+Portuguese Localizable Strings,2013-04-22,Merged,22,0,0,,1
+Made Harpy localizable with minimal changes in your original code,2013-04-07,Closed,21,47,16,h strings ,4
+Singleton and Localization,2013-04-07,Merged,19,154,123,h ,12
+Method to set constants,2013-04-07,Closed,18,58,22,m ,2
+Add a translation mechanism,2013-04-07,Closed,16,125,28,h m ,8
+iOS 4.0 Compatibility,2013-02-14,Closed,13,127,102,h m Harpy/JSONKit ,4
+Permanent Ignore Support / Better version comparison,2013-02-14,Closed,12,93,14,h ,4
+Changed comparison to use NSNumericSearch,2013-01-30,Merged,7,10,8,,1
+"Added canOpenURL verification, NSLocalizedStringFromTable method for make translations easier and spanish translation",2013-04-07,Closed,6,68,12,m strings md ,6
+Fixed #3,2013-01-30,Merged,5,15,9,m ,2
+Don't check for updates for X days (default 14) from build date,2013-01-17,Merged,2,35,0,m ,2
+Fixes crash when app is not yet in the App Store,2012-12-01,Merged,1,15,6,,1

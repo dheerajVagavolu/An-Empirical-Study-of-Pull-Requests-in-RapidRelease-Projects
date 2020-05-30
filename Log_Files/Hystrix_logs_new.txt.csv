@@ -1,0 +1,746 @@
+Update thread pool properties,2019-09-03,Closed,1955,0,0,,0
+V.1.5.11,2019-07-17,Closed,1954,123,49,java ,14
+Updated metrics and updated thread pool metrics at runtime,2019-07-17,Closed,1948,41,19,,5
+Re initialise thread pools settings,2019-05-14,Closed,1937,165,49,java ,11
+Reinitialise thread pools,2019-04-04,Closed,1935,0,0,,0
+Update Hystrix Status,2018-11-19,Merged,1904,16,2,md ,1
+Enable publishing via travis,2018-11-16,Merged,1901,60,5,gradle sh ,5
+Disable test task on travis since the tests are flaky,2018-11-16,Merged,1900,1,1,,1
+Ignore flaky test,2018-11-10,Merged,1893,26,1,java ,9
+Ignore flaky test,2018-11-10,Closed,1892,6,0,,3
+Adding Diffblue Deeptest generated tests,2019-04-10,Closed,1866,203,0,,1
+Fix the misspelling in README.md,2019-06-02,Closed,1865,1,1,,0
+V1.5.x,2018-08-24,Closed,1843,13,10,,3
+Fix hystrix.command.default.metrics.rollingPercentile.enabled=false not working,2018-12-11,Closed,1840,194,57,,4
+Stabilize yet another test,2018-05-04,Merged,1797,6,2,,1
+Stabilize another test,2018-04-24,Merged,1786,27,52,,1
+Stabilize tests,2018-04-05,Merged,1785,68,32,java properties ,5
+Create a simple interface for the Hystrix aspects to allow JDK proxying,2018-03-20,Closed,1775,40,5,,3
+Fix race condition in HystrixSampleSseServlet for response writes,2018-04-26,Merged,1757,205,10,,2
+deprecated and move hystrix-dashboard to Netflix-skunkworks,2018-01-10,Merged,1749,23,"3,659",java gradle ,6
+Add fallbackDisabled metric,2017-10-14,Merged,1676,19,1,java ,4
+Develop.hujian.0809,2017-08-11,Closed,1656,104,3,xml java ,10
+Develop.hujian.0809,2017-08-09,Closed,1652,49,0,xml ,2
+Fixed bug where an unsubscription of a command in half-open state leaves circuit  permanently open,2017-07-06,Merged,1621,56,1,,3
+iss1600: Wrong hystrix event type for fallback missing,2017-07-03,Merged,1616,16,8,,2
+Updated Gradle to version 4.0,2017-07-03,Merged,1615,49,47,properties gradlew bat ,4
+Escape user entered input to avoid HTML injection. This fixes #1456,2017-06-14,Merged,1606,1,1,,1
+Issue 1603,2017-07-03,Merged,1605,143,1,,2
+Possibility to add custom root node for command and thread pool metrics,2017-06-11,Merged,1595,24,15,,4
+Possibility to add custom root node for command and thread pool metrics,2017-05-29,Closed,1594,24,15,,4
+throw IllegalStateException if request cache is not available when clearing,2017-05-31,Merged,1587,7,2,,1
+Get CodaHale metrics working by starting up the stream consumers,2017-05-16,Merged,1586,31,24,,2
+Fix incorrect return value in CodaHale metrics publisher of threadpool config,2017-05-16,Merged,1585,1,1,,1
+Added Javanica support for setting allowMaximumSizeToDivergeFromCoreSize in an annotation,2017-05-16,Merged,1584,11,2,,2
+Fix to permyriad calculation,2017-05-15,Merged,1576,1,1,,1
+Demonstrate using a Completable in HystrixObservableCommand.construct(),2017-05-09,Merged,1574,52,6,,1
+iss1545: don't get cause from HystrixBadRequestException if command t…,2017-05-09,Merged,1573,18,1,,2
+1565: Set maximumSize using @HystrixCommand annotation,2017-05-09,Merged,1572,10,0,,2
+Only create the HystrixContextRunnable for running the timeout fallback...,2017-05-08,Merged,1570,16,12,,2
+Made circuit-opening happen in background,2017-05-08,Merged,1568,172,78,,3
+Handle not wrapped exceptions same way as all other,2017-05-16,Merged,1567,69,32,,4
+Add exception-handling to interactions with servlet writers,2017-05-03,Merged,1561,9,5,,1
+bugfix/Fixing typo in fallback error message,2017-05-02,Merged,1556,1,1,,1
+Software Engg,2017-05-03,Closed,1555,"30,658","5,606",md txt gradle properties clj java ,8
+Fixed incorrect color of circuit status in dashboard,2017-04-27,Merged,1551,1,1,,1
+Support multiple circuit status for Hystrix Dashboard,2017-04-26,Merged,1547,5,1,,1
+Fixed a potential bug in metrics-event-stream-jaxrs,2017-04-19,Merged,1539,37,6,,6
+Move markCommandExecution after markEvent SUCCESS.,2017-04-19,Merged,1535,2,2,,1
+Move HealthCountsStream subscribe outside synchronized block,2017-04-07,Merged,1532,6,3,,1
+assert the circuitBreakerForceClosed property,2017-04-07,Merged,1531,1,0,,1
+Remove commons-collection from project,2017-04-07,Merged,1529,1,3,java ,2
+Remove last dependency on commons-collection,2017-04-05,Closed,1528,1,2,,1
+Update build.gradle,2017-04-07,Merged,1527,0,1,,1
+iss1403: Support @HystrixCommand for rx.Single and rx.Completable sim…,2017-05-09,Merged,1524,207,8,java ,6
+Fix typo in HystrixCommand.java,2017-03-24,Merged,1515,1,1,,1
+Fixing https://github.com/Netflix/Hystrix/issues/1508,2017-03-24,Merged,1513,50,2,,3
+Updating codahale metrics-core to 3.2.2,2017-03-24,Merged,1512,1,1,,1
+README: fix typo,2017-03-24,Merged,1507,1,1,,0
+Fixes #1478 : allow cleaner error propagation,2017-03-24,Merged,1503,36,1,,3
+delete unuseful code in HystrixConcurrencyStrategy,2017-03-20,Merged,1502,1,2,,1
+Upgrade servo to 0.10.1,2017-03-15,Merged,1498,1,1,,1
+Upgrade hystrix-servo-metrics-publisher to 0.10.0,2017-03-15,Closed,1497,1,1,,1
+hystrix-metrics-event-stream implementation using JAX-RS,2017-03-15,Merged,1495,"1,106",0,gradle java ,5
+Added exporting of rollingMaxConcurrentExecutionCount value.,2017-03-01,Merged,1489,7,0,,1
+Minor spelling fixes.,2017-03-01,Merged,1488,5,5,java ,1
+iss1446: Ready for review,2017-03-01,Merged,1482,477,28,java ,5
+iss1458: added sanity checker for the method that detects point cut t…,2017-03-01,Merged,1481,86,1,,2
+Just added example usage,2017-02-10,Merged,1475,5,1,,0
+Remove possible NPE,2017-02-07,Merged,1469,3,2,,1
+2.0.x,2017-02-07,Closed,1462,"3,096","5,766",gradle java ,3
+Add Javanica test for NotWrapped checked exception,2017-01-06,Merged,1453,33,3,,1
+Single method which ensures core less than equal to maximum,2016-12-21,Merged,1449,229,54,,7
+Remove dependency of hystrix-serialization on jackson-cbor by depreca…,2016-12-20,Merged,1448,14,225,java ,6
+Allow dynamic update to allow maximum size diverge from core size,2016-12-20,Merged,1447,67,38,,4
+Early unsubscribe hook test,2016-12-15,Merged,1445,82,1,,4
+Optimize server thread exit,2016-12-14,Merged,1444,5,11,,1
+Hystrix dashboard switch jetty to gretty,2016-12-14,Merged,1443,6,5,gradle ,1
+Fix #1430 by detecting case when client connect/disconnects before me…,2016-12-14,Merged,1442,9,0,,1
+Use Gretty for running hystrix-examples-webapp,2016-12-14,Merged,1441,5,4,gradle ,1
+Publish the value of the maximumSize property,2016-12-21,Closed,1439,21,0,,3
+Properly handle default values for allowMaximumSizeToDivergeFromCoreSize,2016-12-20,Merged,1435,10,11,,3
+Write to error log actual dynamicMaxPoolSize from properties if maxPo…,2016-11-21,Merged,1423,6,5,,1
+"When user has not opted in to letting core/maximum threadpools diverge, ensure dynamic updates to coreSize apply to both",2016-11-10,Merged,1419,6,0,,1
+Fix a little spell mistake in comments.,2016-11-08,Merged,1415,1,1,,1
+Allow exceptions without HystrixRuntimeException wrapper,2016-12-19,Merged,1414,214,14,,10
+Javanica/Support raiseHystrixExceptions for Observables,2016-12-06,Merged,1412,53,10,java ,2
+Removed bad import that snuck in,2016-11-01,Merged,1411,0,1,,1
+Fix typo in collapser options keyword name (from shared-fn to shard-fn),2016-10-31,Merged,1408,1,1,,1
+Clear the percentile snapshot whenever all buckets get cleared,2016-10-27,Merged,1407,3,0,,1
+Added unit test that demonstrates calling .retry() on an Observable produced by Hystrix does not result in deadlock,2016-10-27,Merged,1406,38,0,,1
+Fix comment in HystrixThreadPoolProperties,2016-10-26,Merged,1405,1,1,,1
+#1390 HystrixPlugins.getInstance() returns private instance,2016-10-25,Closed,1401,37,37,,1
+Add property to control maximum thread pool size,2016-10-20,Merged,1399,94,36,,8
+Add option to raise HystrixRuntimeException,2016-10-24,Merged,1397,211,9,,7
+"If command is unsubscribed before any work starts, just return Observable.never()",2016-10-19,Merged,1396,79,0,,3
+"iss:1387: Performance improvement in EnvUtils. Read ""weavingMode"" system property only one time.",2016-10-19,Merged,1393,9,3,,1
+iss1344: send fallback exception to client instead of primary command,2016-10-19,Merged,1389,202,12,,6
+Bump JMH gradle plugin to the latest version(0.3.1),2016-10-16,Merged,1385,1,1,,1
+Bump JMH to the latest version(1.15),2016-10-14,Merged,1382,1,1,,1
+Add jmh test when circuit opened,2016-10-12,Merged,1380,39,9,,1
+Cleaner error propagation in hystrix core.,2016-12-05,Closed,1379,6,0,,1
+Remove outdated comments regarding thread keep alive.,2016-10-07,Merged,1376,2,2,,2
+Remove cancelled work from the threadpool queue,2016-10-06,Merged,1375,35,6,,2
+Add threadPool maximumSize configuration,2016-10-05,Merged,1371,273,79,,6
+Upgrade jmh to 1.14.1,2016-09-28,Merged,1368,1,1,,1
+Upgrade to Gradle 3.1 / Nebula 3.4.0,2016-09-27,Merged,1365,35,60,properties ,16
+Fix backwards incompatibility for appengine,2016-09-26,Merged,1364,67,46,,3
+Filter out all thread pool objects from thread pool metric streams which have not executed a command,2016-09-26,Merged,1363,47,35,,2
+jmh test is more accurate when measuring the first command construction,2016-09-23,Merged,1360,1,1,,1
+Update PlatformSpecific to only detect App Engine Standard Environment,2016-09-21,Merged,1356,12,7,,4
+Upgrade to RxJava 1.2.0,2016-09-19,Merged,1353,1,1,,1
+Remove object-pooling from CachedValuesHistogram,2016-09-16,Merged,1351,2,22,,1
+iss1328: fix,2016-09-01,Merged,1341,599,35,java ,2
+Made the user-defined fallback calculation more general,2016-08-31,Merged,1340,44,25,,3
+Hystrix Dashboard Eureka integration improvements,2016-09-08,Merged,1336,97,47,html ,2
+Update readme to address jdk7+,2016-08-19,Closed,1324,1,1,,0
+Remove all ReactiveSocket modules - this should allow a build by JDK6/7,2016-08-18,Merged,1323,0,"1,443",java ,5
+Javanica: basic Observable Collapser support,2016-09-07,Merged,1320,111,44,java properties ,7
+Update nebula.netflixoss Gradle plugin from 3.2.3 to 3.3.0,2016-08-04,Merged,1310,1,1,,1
+Update HdrHistogram from 2.1.7 to 2.1.9,2016-08-04,Merged,1309,1,1,,1
+Update jmh from 1.11.2 -> 1.13,2016-08-05,Merged,1308,1,1,,1
+Update RxJava from 1.1.5 to 1.1.8,2016-08-04,Merged,1307,1,1,,1
+Update clojure,2016-08-04,Merged,1306,4,4,gradle ,2
+Update Gradle wrapper to 2.14,2016-08-04,Merged,1305,1,1,,1
+Make sure that metrics streams are multicast,2016-08-03,Merged,1304,229,40,,5
+Update RxNetty version which depends on netty 4.1.3.Final,2016-08-03,Merged,1303,1,1,,1
+Evaluate pr 1265,2016-08-03,Merged,1302,180,27,,4
+Scalar command terminates in on next,2016-08-03,Merged,1300,168,35,,8
+Using longer execution times for unsubscribe unit tests,2016-08-02,Merged,1299,17,27,,1
+Spell correction.,2016-08-02,Merged,1297,1,1,,0
+fix typo,2016-08-02,Merged,1295,1,1,,0
+Make sure thread-pools actually shutdown,2016-08-02,Merged,1294,8,7,,1
+Allow scalar commands (HystrixCommand) to set completion state on an onNext,2016-08-02,Closed,1279,152,29,,6
+Prevent duplicate arguments from getting into a single collapser RequestBatch,2016-07-13,Merged,1278,442,50,,5
+Made HystrixCollapser.toObservable lazy by wrapping all work in an Observable.defer,2016-07-11,Merged,1277,39,35,,1
+Moved all work performed in HystrixObservableCollapser.toObservable inside an Observable.defer to make it lazy,2016-07-11,Merged,1276,37,31,,1
+Lengthened wait period in shortCircuited HealthCounts unit test,2016-07-11,Merged,1275,1,1,,1
+Make AbstractCommand.toObservable lazy.,2016-07-10,Merged,1274,65,80,java ,5
+Corrected ignoreExceptions for Observable returning methods.,2016-07-13,Merged,1273,387,2,,4
+Fix race condition in HystrixThreadPoolKey.asKey method,2016-07-11,Merged,1271,128,116,java ,6
+Fix deprecations,2016-07-07,Merged,1270,8,8,,3
+Rework hystrix-data-stream module to just include serialization logic,2016-07-07,Merged,1269,4,4,java ,24
+Interrupt execution thread on HystrixCommand#queue()#cancel(true),2016-08-03,Merged,1265,180,27,,4
+Allow to configure threadPoolKey through HystrixObservableCommand.Setter,2016-07-06,Closed,1264,15,0,,1
+add toString()s to help debug custom HystrixPropertiesStrategys,2016-06-29,Merged,1261,15,3,,3
+iss993: added DefaultProperties annotation [ready for review],2016-07-06,Merged,1259,899,82,java ,6
+iss1177: change getMethod to recursively search in parent types,2016-06-27,Merged,1258,108,3,,3
+Introduce intermediate data streams module,2016-06-22,Merged,1255,528,850,java ,4
+Allow multiple consumers of sample data to only trigger work once,2016-06-22,Merged,1254,868,122,,7
+Fix issue #1251,2016-06-21,Merged,1253,1,4,,1
+Larger metric buckets in unit tests to allow for slower CI processing,2016-06-21,Merged,1250,69,68,,3
+Set the thread pool size only when the configuration is changed.,2016-06-17,Merged,1247,7,2,,1
+Move HystrixDashboardStream to hystrix-core,2016-06-14,Merged,1246,117,48,,4
+fix handling of invalid weavingMode property,2016-06-14,Merged,1244,5,4,,1
+Deflake unit tests,2016-06-14,Merged,1243,130,185,,7
+minor local variable 'caching' fixups,2016-06-12,Merged,1238,9,10,,3
+Deflake unit tests,2016-06-13,Closed,1237,90,68,,6
+ReactiveSocket metrics client/server,2016-06-12,Merged,1236,"2,398","1,146",java ,5
+Add demo that composes async command executions,2016-06-06,Merged,1235,199,0,,1
+"compare enums with ==, avoid chances of NPE",2016-06-06,Merged,1232,6,6,,3
+"make inner classes static where possible, and remove outer class refe…",2016-06-03,Merged,1231,4,4,,4
+remove dead Setter class,2016-06-03,Merged,1229,0,66,,1
+remove dead allocation of unused thunk,2016-05-31,Merged,1225,0,7,,1
+remove dead field defaultNameCache,2016-05-26,Merged,1224,0,7,,1
+Upgrade RxJava from 1.1.1 to 1.1.5,2016-05-26,Merged,1223,1,1,,1
+Perform Travis builds with Java8,2016-05-26,Merged,1222,1,1,,1
+"improve usages of ""its"" and ""it's""",2016-05-26,Merged,1221,5,5,,4
+"avoid map lookups, in loops",2016-05-26,Merged,1219,4,4,,1
+Fixing unsubscription races by modeling explicit FSMs for command and thread execution state,2016-05-25,Merged,1218,104,107,,2
+remove dead code around fetching execution collapse info,2016-05-25,Merged,1217,0,2,,1
+Fix Servo percentile calculation,2016-05-24,Merged,1215,34,4,,2
+use parameterized logging,2016-05-24,Merged,1213,34,34,,16
+fix logging contexts,2016-05-23,Merged,1212,6,8,,4
+ReactiveSocket metrics stream,2016-05-26,Merged,1211,"1,415",2,gradle java ,7
+"no need to fetch the method's parameter annotations, if there aren't any",2016-05-23,Merged,1210,1,1,,1
+Fixed thread-state cleanup to happen on unsubscribe or terminate,2016-05-19,Merged,1209,113,202,,2
+Wired up unsubscription for HystrixCollapsers and HystrixObservableCollapsers,2016-05-18,Merged,1208,"1,864",319,,5
+Different fix for concurrency count command metric,2016-05-16,Merged,1207,8,7,,2
+Added subscribeOn to HystrixObservableCommand in JMH test to make it async,2016-05-13,Merged,1206,1,2,,2
+Support unsubscription of HystrixCommands,2016-05-13,Merged,1204,"2,325","1,502",,9
+Add test cases for unsubscribe of Hystrix commands before terminal events,2016-05-05,Merged,1198,328,89,,3
+New Feature -- Eureka Integration to Hystrix Dashbaord,2016-07-13,Merged,1197,197,1,java xml html ,6
+improved tests readbility a bit,2016-05-02,Merged,1194,157,423,,0
+more tests using HystrixRequestContext rule,2016-05-02,Merged,1193,190,269,java ,4
+Added AbstractCollapser,2017-05-03,Closed,1192,499,720,,2
+2.0.x,2016-04-22,Closed,1191,"3,096","5,766",gradle java ,3
+"Modify Servo tag ""type"" -> ""class"" and ""instance"" -> ""id""",2016-04-20,Merged,1190,2,2,,1
+Upgrade Servo to 0.12.4,2016-04-20,Merged,1188,1,1,,1
+Removing unused methods for collapsingEnabled on HystrixCollapserProperties,2016-04-20,Merged,1187,0,10,,1
+migrating all hystrix-javanica tests to hystrix-junit,2016-04-20,Merged,1186,30,36,gradle java ,11
+migrating all hystrix-javanica tests to hystrix-junit,2016-04-20,Merged,1184,15,36,java ,11
+HystrixRequestContext junit rule,2016-04-19,Merged,1183,83,1,java ,4
+Deprecate getter and setter for unused collapsingEnabled property in Collapser Setter.,2016-04-20,Merged,1181,9,2,,1
+Cleanup execution hook,2016-04-14,Merged,1180,929,843,,2
+Failing test case when two requests with the same request argument are collapsed,2016-07-13,Merged,1176,35,0,,1
+Add AutoCloseable interface to HystrixRequestContext,2016-04-11,Merged,1175,1,1,,1
+Upgrade to Java8,2016-04-11,Merged,1172,"2,216","4,962",gradle java ,3
+Do all calculation of histogram values upfront.,2016-04-08,Merged,1171,32,60,,2
+Cleanup stream tests,2016-04-07,Merged,1170,114,113,,4
+"Use getExecutionException to handle timeout, short-circuit, etc... exceptions",2016-04-04,Merged,1169,5,5,java ,4
+"Use getExecutionException to handle timeout, short-circuit, etc... exceptions",2016-04-04,Closed,1168,63,45,md java ,11
+"Use getExecutionException to handle timeout, short-circuit, etc... ex…",2016-04-04,Merged,1167,5,5,java ,4
+"Remove release badge, as it doesn't track the actual highest release",2016-03-25,Merged,1160,0,1,,0
+HystrixMetricsPoller as a daemon thread,2016-03-23,Merged,1157,1,0,,1
+Hystrix Metrics Stream with Vertx,2016-03-21,Closed,1156,868,0,gradle ,1
+Removed methods and variables with unused annotation,2016-03-21,Merged,1154,1,23,,4
+Added logging to HystrixCircuitBreakerTest.testCircuitClosedAfterSuccess,2016-03-17,Merged,1152,2,0,,1
+Remove unused method,2016-03-17,Merged,1151,0,8,,1
+Make queue size of MetricJsonListener configurable,2016-03-16,Merged,1149,9,2,,1
+Proposal: HystrixRequestContext junit rule,2016-04-19,Merged,1147,83,1,java ,4
+Reducing latency to make sure we're not inducing timeouts,2016-03-12,Merged,1144,2,2,,1
+Add logging to CircuitBreaker unit test,2016-03-11,Merged,1143,1,0,,1
+Increasing time spent in commands in HealthCountsStreamTest,2016-03-11,Merged,1142,2,2,,1
+Increased the time spent in commands to ensure commands get rejected as expected,2016-03-11,Merged,1141,1,1,,1
+Increased time spent in command to allow concurrency check to work as expected,2016-03-11,Merged,1140,1,1,,1
+Increased batch command timeout in HystrixCollapserTest to accommodate Travis slowness,2016-03-11,Merged,1139,2,2,,1
+Made errors in hook unit tests easier to debug,2016-03-11,Merged,1138,19,11,,2
+Made unit test more lenient on timing to accommodate Travis slowness,2016-03-11,Merged,1137,1,1,,1
+Made latency check in unit test more lenient to account for Travis slowness,2016-03-11,Merged,1136,4,4,,1
+Increased timeout in HystrixRequestLogTest to accommodate Travis slowness,2016-03-11,Merged,1135,2,2,,1
+Increased timeout value in HystrixObservableCollapserTest to accommodate slow Travis,2016-03-11,Merged,1134,1,1,,1
+Increased the timeout value for commands to accommodate Travis slowness,2016-03-11,Merged,1133,2,2,,1
+Deflaked test of semaphore concurrency,2016-03-10,Merged,1132,1,1,,1
+Adjusted timing of cumulative thread pool counter stream test,2016-03-10,Merged,1131,2,2,,1
+Deflaked ThreadPool max-concurrency metrics tests,2016-03-10,Merged,1130,3,3,,1
+Reset command metrics in HystrixCollapserTest,2016-03-10,Merged,1129,1,0,,1
+Adding --info to Travis script step,2016-03-10,Merged,1128,3,0,,1
+Removing concurrency check from testRequestCacheWithSlowExecution,2016-03-10,Merged,1127,0,1,,1
+Make Travis run unit tests with --info flag,2016-03-10,Closed,1126,3,0,,1
+Added some logging to unit tests to help deflake them when running on CI,2016-03-10,Merged,1125,13,8,,3
+Turning down loglevels of metrics streams,2016-03-10,Merged,1124,5,5,,2
+"Making the HystrixTimeoutException instance per-command, not static",2016-03-07,Merged,1121,1,3,,1
+"Making the HystrixTimeoutException instance per-command, not static",2016-03-07,Merged,1120,1,3,,1
+"Revert ""Deprecate methods to retrieve userThreadLatency, and remove it from standard metrics being published""",2016-03-03,Merged,1118,95,11,,7
+Fix underscore.js URL,2016-03-03,Merged,1116,2,2,,2
+Fix a dead link in README.md,2016-03-03,Merged,1115,1,1,txt ,0
+#1109 Make queue size of MetricJsonListener configurable,2016-03-11,Merged,1114,18,13,,1
+Backport #1111 to 1.4.x,2016-02-29,Merged,1113,17,4,,2
+Upgrade Nebula OSS Plugin in 1.4.x branch,2016-02-29,Merged,1112,19,17,,1
+Made HystrixRequestContext Closeable,2016-02-29,Merged,1111,17,4,,2
+Upgrade 1.4.x to RxJava 1.1.1,2016-02-29,Merged,1110,1,1,,1
+Javanica HystrixRequestCacheManager should use the concurrency strategy from HystrixPlugins,2016-02-29,Merged,1108,2,2,,1
+Allow Hystrix  to be used as lambda,2016-06-22,Closed,1105,189,3,,9
+Delegate HystrixRequestCache check through concurrency strategy,2016-02-24,Merged,1102,13,11,,1
+Removed dashboard references to latencyTotal_mean,2016-02-16,Merged,1099,0,4,js ,2
+Special casing the 2 WAR artifacts to not have POMs rewritten,2016-02-11,Merged,1097,19,16,,1
+Upgrade to RxJava 1.1.1,2016-02-11,Merged,1096,1,1,,1
+Upgrade Nebula netflixoss plugin to 3.2.3,2016-02-11,Merged,1095,1,1,,1
+Upgrade netflixoss Nebula plugin to 3.2.2,2016-02-08,Merged,1094,1,1,,1
+Fixed NPE on request cache when HystrixRequestContext is not initialized,2016-02-08,Merged,1093,12,0,,2
+Updated Nebula plugin to 3.2.0 and Gradle to 2.10,2016-02-03,Merged,1084,2,2,properties ,2
+Make Archaius a soft dependency through reflection and improve plugin…,2016-02-11,Merged,1083,"1,164",69,,5
+Removed reference to wrapped HystrixBadRequestException in javanica docs,2016-02-03,Merged,1081,2,2,,0
+Allowed for variation in JSON ordering in unit test,2016-02-01,Merged,1080,7,3,,1
+Eliminated a dynamic property lookup from HystrixThreadPool,2016-02-01,Merged,1079,10,11,,1
+Move logic for deduplicating commands in a request from the JSON serialization to the model object,2016-01-30,Merged,1078,175,150,,2
+"Renaming thread pool max concurrency stream, for consistency",2016-01-30,Merged,1077,32,46,,5
+"Deprecate methods to retrieve userThreadLatency, and remove it from standard metrics being published",2016-01-29,Merged,1075,11,95,,7
+Modify output for requests stream,2016-01-29,Merged,1073,757,92,,1
+Remove requestId from request events JSON,2016-01-27,Merged,1072,0,3,,1
+Remove accidental import of sun.misc.Cache,2016-01-26,Merged,1071,0,1,,1
+Rename RequestEventsJsonStream  to HystrixRequestEventsJsonStream,2016-01-26,Merged,1070,15,7,,2
+Differentiate HystrixCommandKey passed into some unit tests in HystrixCommandTest,2016-01-26,Merged,1069,19,11,,1
+Decouple RequestEventsJsonStream from servlet,2016-01-26,Merged,1068,99,68,,2
+Decouple SSE servlets from the streams that produce JSON to allow alternate methods of consumption,2016-01-26,Merged,1067,320,178,,2
+Added PlatformSpecific class that can detect if it's running in AppEngine,2016-01-25,Merged,1066,134,34,,4
+Made HystrixCommandTest.testRejectedThreadWithFallbackFailure more repeatable,2016-01-25,Merged,1065,13,21,,1
+"Making metric references to enums lazy to prevent NoSuchFieldError, if possible",2016-01-25,Merged,1064,"1,264",177,,1
+Buffered request stream,2016-01-25,Merged,1061,"2,237",33,,1
+sample-based SSE streams for configuration/utilization,2016-01-25,Closed,1060,"1,823",0,,1
+Use separate key for SlowCacheableCommand in HystrixCommandTest and HystrixObservableCommandTest,2016-01-19,Merged,1056,3,1,,1
+Made HystrixCommandTest.testRejectedThreadWithFallback more deterministic,2016-01-18,Merged,1055,204,313,,2
+Modularized command constructor logic to make it easier to read,2016-01-18,Merged,1050,333,325,,1
+Cleanup unused imports from #1032,2016-01-13,Merged,1049,0,11,,3
+Hystrix metrics as streams,2016-01-14,Merged,1047,"10,571","1,134",java txt properties ,19
+Fix a comment which is a bit confusing,2016-01-12,Merged,1045,2,2,,1
+Better measurement of command execution,2016-01-12,Merged,1044,104,28,,1
+A couple approaches to fix HystrixObservableCollapser not producing values,2016-01-11,Merged,1043,167,103,,4
+Add thread-safety test to TryableSemaphoreActual,2016-01-07,Merged,1040,50,0,,1
+Make methods of Hystrix class thread-safe,2016-01-08,Merged,1039,370,18,,1
+Reduce map reads,2016-01-04,Merged,1036,52,7,java ,5
+Rename JMH tests for easier execution by regex,2016-01-04,Merged,1035,32,214,,3
+Remove SHORT-CIRCUITs from Health check calculation,2016-01-04,Merged,1034,19,3,,1
+Implementation for feature request #1013,2016-01-13,Merged,1032,185,13,,5
+Work towards 1.5,2016-01-12,Closed,1029,"8,371",718,java ,4
+Add a sleep to get a more deterministic unit test result,2015-12-29,Merged,1028,9,0,,1
+fix example-webapp port typo,2016-01-04,Merged,1027,1,1,,1
+Swapping out magnifying glass logos for properly-licensed images,2015-12-17,Merged,1019,0,0,,2
+Added threshold under which errorPercentage is kept at zero,2015-12-12,Closed,1017,61,1,,4
+Upgrade to RxJava 1.1.0,2015-12-08,Merged,1014,2,3,java ,2
+Stream metrics 1.5,2015-12-29,Closed,1010,"8,375",721,java ,4
+Upgrade to AspectJ 1.8.6 to fix Java8 build issue,2015-12-03,Merged,1009,1,1,,1
+Added AbstractCommand.getExecutionException to solve #998,2015-12-03,Merged,1008,139,20,,1
+Modify unit tests to assert on event counts and ordering instead of metrics gathered,2015-12-03,Merged,1007,830,"3,335",,8
+Added Cobertura plugin,2015-12-03,Merged,1006,37,30,properties ,2
+Upgrade to RxJava 1.0.17,2015-12-02,Merged,1005,1,1,,1
+Reduce number of trials of observable collapser test,2015-12-02,Merged,1004,1,1,,1
+Added AbstractCommand.getExecutionException to solve #998,2015-12-03,Closed,1003,158,30,,1
+"Reduce number of trails of long unit tests, to help CI turnaround time",2015-12-02,Merged,1002,2,2,,2
+Demonstrate circuit-breaker sleep window property does not get reset,2015-12-29,Closed,1001,29,6,,2
+Fixed Javadoc warning in HystrixNetworkAuditorEventListener,2015-12-02,Merged,1000,1,0,,1
+Upgrade javassist to 3.19+ in hystrix-network-auditor-agent,2015-12-02,Merged,999,1,1,,1
+Remove validation error message when adding a stream to monitor,2015-11-24,Merged,992,2,0,,1
+Made commands run concurrently in HystrixCommandTimeoutConcurrencyTesting,2015-11-20,Merged,990,52,16,,2
+Adding a test of concurrent HystrixObservableCollapsers running,2015-11-20,Merged,989,77,3,,1
+Threadpool metrics as stream,2015-12-05,Closed,986,"4,224","3,895",java ,4
+Command metrics modeled as a stream,2015-12-05,Closed,981,"3,934","3,845",java ,4
+upgrade to commons-collections 3.2.2,2015-11-15,Merged,978,1,1,,1
+Iss 948,2015-11-24,Merged,977,"1,666",814,gradle java ,5
+Prevent execution of run method when an onXXXStart hook throws an exception,2015-11-13,Merged,976,60,14,,2
+Reinstate the HystrixObservableCollapserTest stress test,2015-11-13,Merged,975,9,0,,1
+Mark servlet-api as 'provided' in generated POMs,2015-11-13,Merged,972,13,4,,1
+Added defaultSetter() methods to properties classes as a workaround for GROOVY-6286,2015-11-10,Merged,968,27,0,,3
+Upgrade gradle-extra-configurations-plugin,2015-11-10,Merged,965,1,1,,1
+Added call to HystrixPlugins.reset() in HystrixCommandTestWithCustomConcurrencyStrategy,2015-11-10,Merged,964,1,0,,1
+Splitting up some tests for (hopefully) repeatable CI success,2015-11-10,Merged,963,91,32,,1
+Javanica iss 929,2015-11-04,Merged,962,883,111,java ,5
+tag *command* as a HystrixCommand,2015-11-04,Merged,960,1,1,,1
+Enable Hystrix Dashboard to monitor multiple independent applications,2015-11-13,Merged,959,208,143,js html ,8
+Javanica iss 926,2015-10-27,Merged,957,"1,089",500,java ,7
+Upgrade JMH to 1.11.1 from 1.10.3,2015-10-21,Merged,956,1,1,,1
+Fix test assertions after fixes in #951,2015-10-21,Merged,954,12,24,,1
+Add unit tests for documenting what happens when custom concurrency plugin is used,2015-10-20,Merged,953,280,0,,1
+Add unit test for behavior of HystrixRequestCache without a HystrixRequestContext,2015-10-19,Merged,952,15,0,,1
+Push RequestContext tolerance into ConcurrencyStrategy,2015-10-21,Merged,951,76,41,,5
+Comment out small queue test cases to unblock CI until I understand how to properly fix them,2015-10-16,Merged,949,68,68,,1
+Upgrade RxNetty from 0.4.7 to 0.4.12,2015-10-16,Merged,947,1,1,,1
+Refactor HystrixYammerMetricsPublisherCommand to allow subclasses to be less-aware of metrics internals,2015-10-16,Merged,946,178,165,,2
+Javanica iss 907,2015-10-21,Merged,945,"2,186","1,235",gradle java txt properties ,11
+Fix generated pom,2015-10-15,Merged,944,17,3,properties ,2
+Fix metrics stream fallback emit,2015-10-14,Merged,942,166,10,,10
+Add fallback-missing outcome,2015-10-14,Merged,941,165,9,,10
+Forward port of #931,2015-10-14,Merged,940,332,"1,191",gradle ,5
+Forward port of #927,2015-10-14,Merged,939,296,"1,184",gradle ,5
+Forward port of #923,2015-10-14,Merged,938,295,"1,183",gradle ,5
+Forward port of #922,2015-10-14,Merged,937,294,"1,182",,4
+Forward port of #917,2015-10-14,Merged,936,294,"1,182",,4
+Revert metrics changes from #843,2015-10-14,Merged,935,180,"1,021",,3
+Dashboard: 2 listeners to same EventSource,2015-10-14,Merged,934,28,65,,1
+Make HystrixTimeoutException public so that user-defined execution methods may return it,2015-10-14,Merged,931,36,7,,2
+Support collapser metrics in HystrixMetricPublisher implementations,2015-10-14,Merged,930,26,0,,3
+Support collapser metrics in HystrixMetricPublisher implementations,2015-10-14,Merged,928,26,0,,3
+[hystrix-dashboard] isCircuitBreakerOpen is assumed to be a boolean,2015-10-14,Merged,927,1,1,,1
+changed HystrixThreadPool.getExecutor() return type,2016-01-14,Merged,925,5,3,,2
+fix(title-xss): escaping text acquired from parameters to avoid any xss attacks,2015-10-06,Merged,924,2,2,,1
+Upgrade to RxJava 1.0.14,2015-10-06,Merged,923,1,1,,1
+Add DEBUG tag to Servo rolling counter and made it a GaugeMetric,2015-10-06,Merged,922,1,1,,1
+fix(title-xss): escaping text acquired from parameters to avoid any xss attacks,2015-10-05,Merged,921,2,2,,1
+Fix for #918,2015-10-05,Merged,919,28,65,,1
+More extension-friendly HystrixServoMetricsPublisherCommand,2015-09-28,Merged,917,114,161,,2
+Unit tests around large threadpool/small queue scenario,2015-09-27,Merged,916,83,0,,1
+Adding a layer of abstraction to Servo integration for Hystrix command metrics that doesn't assume a specific implementation,2015-09-27,Merged,915,228,149,,2
+Only check the property value of isRequestCacheEnabled() once in HystrixObservableCollapser,2015-09-27,Merged,914,4,2,,1
+Forward port hystrix observable collapser example (#905),2015-09-27,Merged,913,349,0,,2
+Only check the property value of isRequestCacheEnabled() once in HystrixObservableCollapser,2015-09-27,Merged,912,4,2,,1
+Unit tests around large threadpool/small queue scenario,2015-09-26,Merged,911,83,0,,1
+Adding a layer of abstraction to Servo integration for Hystrix command metrics that doesn't assume a specific implementation,2015-09-26,Merged,910,228,149,,2
+observable collapser example,2015-09-23,Merged,905,349,0,,2
+Forward port #902 from 1.4.x,2015-09-21,Merged,904,24,16,,1
+Update unit tests for HystrixObservableCollapser to check HystrixRequestContext,2015-09-21,Merged,902,24,16,,1
+Remove commons-collections dependency. (Backport of #899),2015-09-17,Merged,900,2,5,java ,3
+Remove commons-collections dependency.,2015-09-16,Merged,899,2,5,java ,3
+Backport of #896,2015-09-14,Merged,897,1,1,,1
+Fix missing null check in HystrixCacheKeyGenerator.,2015-09-14,Merged,896,1,1,,1
+Allow multiple values per request-arg in a HystrixObservableCollapser,2015-09-10,Merged,893,728,197,,3
+Cache HystrixCommand.Setter over benchmark duration in MultiThreadedMetricsTest,2015-09-09,Merged,892,36,15,,1
+"Added requestContext to all JMH tests, so that command flow uses (and benchmarks) them",2015-09-09,Merged,891,25,0,,3
+Multiple responses per collapser arg,2015-09-10,Merged,890,728,197,,3
+RequestBatch can use unsafeSubscribe with an empty Subscriber instead of paying cost of subscribe(),2015-09-09,Merged,889,3,2,,1
+"In HystrixCollapser, only check if request cache is enabled once",2015-09-09,Merged,888,4,2,,1
+"In HystrixCollapser, only check if request cache is enabled once",2015-09-09,Merged,887,4,2,,1
+Only lookup if the request cache is enabled once per command invocation,2015-09-09,Merged,886,4,3,,1
+Only lookup if the request cache is enabled once per command invocation,2015-09-09,Merged,885,4,3,,1
+JMH benchmarks for collapsers in master,2015-09-09,Merged,884,395,0,,2
+Add jmh collapser benchmarks,2015-09-09,Merged,883,395,0,,2
+Allow multiple values per request-arg in a HystrixObservableCollapser,2015-09-09,Closed,881,722,196,,2
+Fixed #847 by adding BAD_REQUEST to the HystrixRequestLog,2015-08-25,Merged,877,107,55,,2
+Fixed #847 by adding BAD_REQUEST to the HystrixRequestLog,2015-08-25,Merged,876,107,55,,2
+apply osgi gradle plugin so the we can use javanica in a OSGi Enviroment,2015-08-14,Merged,861,2,0,,1
+apply osgi gradle plugin so the we can use javanica in a OSGi Enviroment,2015-08-13,Merged,859,2,0,,1
+Added missing license headers,2015-08-07,Merged,856,75,2,,5
+Constructor allocation,2015-08-07,Merged,855,206,9,java ,4
+Added Travis config so it can run in a container,2015-08-06,Merged,853,1,0,,1
+Merge fix 851,2015-08-06,Merged,852,1,1,,1
+Fix generated arglists,2015-08-06,Closed,851,1,1,,1
+"Added unit tests proving that request log, request caching and fallback work as expected when there is a class hierarchy of HystrixCommands",2015-08-05,Merged,849,172,0,,1
+Unit test demonstrating racy HystrixRequestLog,2015-08-06,Merged,848,80,7,,2
+Added threadpool config to HystrixObservableCommand,2015-08-04,Closed,844,28,0,,1
+Make hystrix metrics abstract,2015-08-07,Merged,843,"1,021",180,,3
+Fix typo in hystrixCommand.js method name,2015-07-23,Merged,839,2,2,,1
+Reinstated HystrixTest and added unit test for modifying semaphore count,2015-07-22,Merged,838,20,12,,1
+Upgrade to RxJava 1.0.13,2015-07-22,Merged,837,1,1,,1
+Add validation for rollingCountBadRequests,2015-07-22,Merged,830,10,0,,1
+Safely handle negative input on the delay input to metrics-stream,2015-06-21,Merged,826,1,1,,1
+Only allow bucket configuration to take effect on HystrixRollingNumber creation,2015-06-21,Merged,825,52,50,,7
+Make values for HystrixRollingPercentile bucket calculation only affect construction,2015-06-21,Merged,824,56,31,,5
+fix half hidden mean metric because of container height,2015-06-21,Merged,823,4,5,html ,4
+Modify logic to only check the dynamic maxQueueSize property on creation of a threadPool,2015-06-14,Merged,818,12,2,,2
+Upgrade to RxJava 1.0.12,2015-06-10,Merged,814,1,1,,1
+"On recoverable java.lang.Error, log something so that application owners are notified, even as Hystrix serves a fallback",2015-06-10,Merged,813,16,2,,2
+Fixed issue #811 :can't define overload functions in hystrix-clj.,2015-06-10,Merged,812,33,4,,2
+update readme to latest version,2015-06-05,Merged,808,3,3,,0
+Rollback the metrics refactoring,2015-05-31,Merged,804,449,377,java ,4
+Add jmh for rolling number and rolling max,2015-05-29,Merged,803,275,1,java ,3
+Remove all dynamic property lookups from HystrixRollingPercentile,2015-05-29,Merged,801,27,27,,2
+Add JMH benchmarks for HystrixRollingPercentile reads/writes,2015-05-24,Merged,800,156,0,,1
+"Unit test demonstrating unsafe usage of IntCountsHistogram on write path, and corresponding fix",2015-05-23,Merged,799,59,10,,2
+Move all reads of Histograms to a single-threaded path,2015-05-21,Merged,797,164,23,java ,4
+Monitoring stream when pressing the enter key,2015-05-15,Merged,794,8,1,,1
+Switching HystrixRollingNumber impl from LongAdder/LongMaxUpdater to AtomicLong,2015-05-29,Merged,791,63,98,,2
+HystrixMetricsStreamServlet rejects requests after servlet shutdown (fixes #786),2015-05-05,Merged,787,51,1,java ,3
+Update metrics to the latest version,2015-05-04,Merged,785,1,1,,1
+Upgrade RxJava to 1.0.10,2015-05-01,Merged,783,1,1,,1
+Shorten stress test of HystrixObservableCollapser from 1000 -> 100 to limit OOM problems,2015-04-30,Merged,781,1,1,,1
+More precise solution to #771,2015-04-30,Merged,780,99,42,,4
+Use HdrHistogram for latency percentile calculation,2015-04-29,Merged,779,62,161,java ,4
+Use more forks and less iterations/fork in JMH config,2015-04-29,Merged,778,2,2,,1
+Added Bad Request count to Hystrix dashboard,2015-04-29,Merged,776,16,1,html ,4
+Add HystrixCounters methods to return number of commands/threadpools/groups,2015-04-29,Merged,775,44,0,,4
+Added HystrixCounters to hold global metrics on Hystrix behavior,2015-04-29,Merged,774,59,28,,3
+Moved new threadPool metric to end of JSON for metrics stream,2015-04-28,Merged,773,1,1,,1
+Handle hook errors,2015-04-28,Merged,772,73,25,,1
+Circuit forced open by properties queried properly,2015-04-23,Merged,770,60,2,,2
+Add threadpool to hystrix-metrics-event-stream for each command,2015-04-23,Merged,769,52,7,,6
+Add multithreaded jmh benchmarks,2015-04-23,Merged,767,116,1,java ,2
+Upgrade RxJava to 1.0.9,2015-04-18,Merged,764,1,1,,1
+Upgraded Jackson from 1.x to 2.5.2 and split out HystrixMetricsPoller unit test,2015-04-18,Merged,763,105,81,java ,3
+set threads to daemon as per #759,2015-04-17,Merged,760,6,2,,2
+Updated the RxNetty based version of HystrixMetricsStreamHandler,2015-04-16,Merged,757,3,2,java ,2
+Fixed Javadoc for HystrixThreadPoolProperties.Setter,2015-04-15,Merged,756,281,239,,16
+Fixed Javadoc for HystrixThreadPoolProperties.Setter,2015-04-15,Merged,755,1,1,,1
+Only fire onFallbackStart/onFallbackError execution hooks if there is a user-supplied fallback,2015-04-13,Merged,754,199,102,,4
+Add timed-out metrics to dashboard for semaphore commands,2015-04-13,Merged,753,1,1,,1
+Added a first pass at jmh tests for hystrix-core,2015-04-11,Merged,750,223,0,java ,3
+Fix return value of HystrixCircuitBreakerImpl.isOpen when we lose the race to open a circuit,2015-04-08,Merged,748,4,3,,1
+Regenerate Javadoc for 1.4.4,2015-04-08,Merged,747,199,193,,30
+Better deprecation documentation for HystrixCommandProperties.Setter,2015-04-08,Merged,746,6,3,,1
+Updated Javadoc for Hystrix 1.4.4,2015-04-06,Merged,744,506,424,,18
+Update timeout javadoc,2015-04-06,Merged,743,7,1,,1
+Add ability to disable timeout per-command and wire it in,2015-04-06,Merged,742,80,3,,4
+Properly check for all unrecoverable types of errors,2015-04-06,Merged,741,3,3,,1
+Treat some java.lang.Errors as unrecoverable and immediately propagate,2015-04-06,Merged,739,219,183,,3
+Filter out thread pools from metrics stream that have had no commands executed on them,2015-04-01,Merged,738,8,2,,1
+BatchHystrixCommand has no sence and doesn't collapse requests #68,2015-04-06,Merged,735,389,334,java ,1
+Comment out flaky fallback rejection test,2015-03-27,Merged,732,78,78,,1
+Revert back to JDK6,2015-03-27,Merged,731,197,187,java ,22
+Add semaphore-rejected metric to commands in Hystrix dashboard,2015-03-26,Merged,728,3,0,,1
+Up the time before failure in HystrixCommandTest.testFallbackRejectionOccursWithLatentFallback,2015-03-25,Merged,727,1,1,,1
+Check if the request log is enabled before requiring the context is initialized.,2015-03-25,Merged,724,42,17,,2
+fixed AopUtils#getDeclaredMethod to look for method also in superclasses,2015-03-25,Merged,723,32,8,,2
+dummy change,2015-03-25,Closed,721,1,0,,0
+"Add a new interface, `DefaultRequestLogStrategy`, to disable requestLog for the concurrency strategy.",2015-03-25,Closed,718,11,2,,3
+Add error message to HTML when connecting to metrics source fails,2015-03-20,Merged,717,4,0,,1
+Make HystrixCommand.execute()/queue() and AbstractCommand.observe()/toObservable() nonfinal,2015-03-20,Merged,716,4,4,,2
+Use Archaius for Hystrix plugin setup,2015-03-25,Merged,711,39,35,,1
+"This fixes #709: JS error: ""isNan is not defined""",2015-03-09,Merged,710,1,1,,1
+Updated Javadoc for 1.4.0,2015-03-06,Merged,707,"28,548","43,760",,2
+Fix Javadoc generation and some Javadoc warnings,2015-03-06,Merged,706,32,38,java ,6
+Fix Javadoc warnings,2015-03-03,Merged,701,83,56,,22
+Example code for publishing to Graphite,2015-03-03,Merged,700,24,1,,0
+Missing execution event for FALLBACK_REJECTION,2015-02-24,Merged,697,45,1,,2
+Upgrade to RxJava 1.0.7,2015-02-23,Merged,696,1,1,,1
+Make HystrixCommandProperties backwards-compatible for classes which extend it,2015-02-23,Merged,694,6,1,,1
+"This fixes #692. If ratePerSecond is NaN, set errorThenVolume to -1",2015-02-23,Merged,693,1,2,,1
+Added a test with higher semaphore counts to detect raciness,2015-02-20,Merged,691,75,54,,2
+Reinstate and deprecate exception threading utility,2015-02-20,Merged,690,31,0,,2
+Added metrics for EMIT and FALLBACK_EMIT,2015-02-19,Merged,688,34,3,,8
+Added unit test for fallback rejection,2015-02-19,Merged,687,170,85,,2
+Partial progress on refactoring HystrixCommandTest to use FlexibleTestHystrixCommand,2015-02-18,Merged,686,156,302,,2
+Changes to hook API to make it more Observable-friendly,2015-02-18,Merged,683,"3,762","4,800",,3
+Add execution hook for cache hit,2015-02-14,Merged,681,199,102,,4
+Add command rejection metrics to HystrixThreadPoolMetrics,2015-02-14,Merged,680,72,0,,10
+Update CHANGELOG.md for 1.4.0-RC7,2015-02-13,Merged,679,36,0,,0
+Fix current concurrent execution count,2015-02-13,Merged,678,188,2,,2
+Add test to confirm that bad requests do not affect circuit breaker's computed error percentage,2015-02-13,Merged,676,20,0,,1
+Revert timeout property name change,2015-02-13,Merged,675,66,72,md ,10
+Thread interrupt only on timeout,2015-02-11,Merged,672,159,85,,4
+Don't pass on the Transfer-Encoding header when streaming,2015-03-25,Merged,671,4,1,,1
+Unit tests demonstrating problems with thread interruptions,2015-02-11,Merged,670,63,2,,2
+Added unit tests to demonstrate a non-blocking semaphore timeout,2015-02-11,Merged,669,17,5,,1
+Added a rolling max counter for command execution,2015-02-10,Merged,667,12,10,,5
+Added missing licenses,2015-02-10,Merged,666,892,6,java ,23
+Added comment to HystrixConcurrencyStrategy about non-idempotency of strategy application,2015-02-10,Merged,665,4,0,,1
+Favor timeout property that is not thread-specific. (execution.timeoutInMilliseconds),2015-02-10,Merged,664,81,63,md ,8
+Tie command property to thread interrupt,2015-02-10,Merged,647,346,66,,4
+Tie command property to thread interrupt,2015-02-07,Closed,646,256,8,,3
+Remove incorrect reference to async timeout,2015-02-06,Merged,645,0,2,,1
+Added RequestCollapser metrics to Yammer Metrics Publisher,2015-02-06,Merged,644,202,0,,1
+Stress-test HystrixObservableCollapser,2015-02-06,Merged,643,11,0,,2
+Deflaked HystrixObservableCommandTest.testRejectedViaSemaphoreIsolation,2015-02-06,Merged,642,19,3,,1
+Fix flakiness of testSemaphorePermitsInUse,2015-02-05,Merged,641,28,25,,2
+Both sync and async exceptions for hystrix observable cmd,2015-02-05,Merged,608,882,892,,1
+Upgrade RxJava from 1.0.4 -> 1.0.5,2015-02-04,Merged,607,1,1,,1
+Added 2 new HystrixEventTypes: EMIT and FALLBACK_EMIT,2015-02-04,Merged,604,274,85,,5
+Added metrics to HystrixObservableCollapser,2015-02-02,Merged,599,66,38,,2
+Fixed HystrixContextScheduler to conform with RxJava Worker contract,2015-02-02,Merged,596,125,38,,3
+Allow for thread interruption,2015-02-07,Closed,593,264,12,,2
+Style fixes,2015-01-28,Merged,583,47,88,,19
+Add nonblocking HystrixCommandTest.queue() unit tests back,2015-01-28,Merged,582,54,14,,1
+Add unit test that demonstrates non-blocking timeout for HystrixCommand.queue(),2015-01-28,Merged,580,24,0,,1
+Remove synchronous timeout,2015-01-28,Merged,579,12,181,,2
+Upgrade to Java7,2015-01-28,Merged,577,162,169,java ,22
+Add collapser metrics,2015-01-28,Merged,576,"1,555",376,,1
+Fix link to CHANGELOG.md in README.md,2015-01-27,Merged,573,1,1,,0
+Add bad request exception metrics,2015-01-27,Merged,572,98,11,,9
+Collapser metrics,2015-01-28,Closed,571,990,188,,2
+Build upgrade for 1.3.x branch,2015-01-26,Merged,570,103,603,codequality/HEADER properties jar ,12
+Commenting out the flaky HystrixTest and HystrixPluginsTest until someone has time to de-flake them,2015-01-25,Merged,567,14,14,,2
+Hard-coded group name when publishing CodaHale metrics fixed,2015-01-25,Merged,566,1,1,,1
+Build changes to nebula.netflixoss (Manual merge of #469),2015-01-22,Merged,562,101,614,gradle codequality/HEADER properties jar ,12
+Bump RxJava to 1.0.4,2015-01-21,Merged,534,2,2,,1
+Upgrade to RxJava 1.0.4,2015-01-21,Merged,533,2,2,,1
+Fix type in hystrix-clj,2015-01-20,Merged,532,1,1,,1
+Move onThreadStart execution hook after check that wrapping thread timed out,2015-01-20,Merged,531,2,2,,1
+Add shutdown hook for WebSphere and checkError() to detect disconnected client,2015-01-20,Merged,530,20,1,,1
+Demonstrate how to tell if a user-supplied getFallback() exists,2015-01-19,Closed,529,9,0,,1
+Creating a synthetic exception in the semaphore execution and short-circuited case,2015-01-19,Merged,528,8,15,,1
+Creating a synthetic exception in the semaphore execution and short-circuited case,2015-01-19,Merged,527,14,21,,3
+Port of #520 to master,2015-01-19,Merged,526,"3,369","1,792",,2
+Change calls from getExecutedCommands() to getAllExecutedCommands(),2015-01-19,Merged,524,37,36,,8
+Add comprehensive hook tests,2015-01-16,Merged,520,"1,571",850,,0
+Updated HystrixServoMetricsPublisher initalization of singleton,2015-01-16,Merged,516,13,1,,1
+Unit test demonstrating that a timeout does not fire properly when command.queue() is called with no blocking performed on the resulting Future,2015-01-28,Closed,515,23,0,,1
+"Added Javadoc after clarifying #510.  When a Hystrix thread executes,",2015-01-14,Merged,512,5,1,,1
+Matching hook orders from 1.3.x,2015-01-14,Merged,511,112,19,,6
+Backport of #327,2015-01-14,Merged,508,232,9,,0
+Fixed Clojure unit tests that failed with RxJava 1.0 (Backport from master),2015-01-14,Merged,507,3,3,,2
+Backport of #327 onto 1.3.x,2015-01-14,Closed,506,232,9,,0
+Iss380 javanica cache,2015-01-16,Merged,489,"1,911",169,java ,3
+Build changes to nebula.netflixoss,2015-01-22,Merged,469,101,614,gradle codequality/HEADER properties jar ,12
+Add more comprehensive set of unit tests for HystrixCommand and HystrixObservableCommand,2015-01-09,Merged,466,493,628,,2
+Handle an error during construction of a MetricsPoller more gracefully,2015-01-08,Merged,465,10,2,,1
+Fixing the resettability of HystrixMetricsPublisherFactory,2015-01-08,Merged,457,56,32,,6
+Bypass fallback/circuit breaker for BadRequestExceptions from ExecutionHook,2015-01-07,Merged,456,62,0,,2
+Add more unit tests for HystrixRequestLog to HystrixObservableCommandTest,2015-01-07,Merged,454,76,18,,1
+Resettable command and thread pool defaults,2015-01-07,Merged,453,38,0,,3
+Add the capability to reset HystrixPlugins and make Hystrix.reset() invoke it,2015-01-07,Merged,452,14,0,,2
+Removed ExceptionThreadingUtility.  Stack traces are not helpful in an event-loop world,2015-01-07,Merged,451,0,175,,3
+Added more comprehensive tests for HystrixObservableCommand.isResponseFromFallback(),2015-01-07,Merged,450,78,0,,1
+Move thread completion to end of chain,2015-01-07,Merged,449,32,36,,3
+Fixed HystrixThreadPool to always return true for isQueueSpaceAvailable() when size = 0 (the SynchronousQueue case),2015-01-06,Merged,447,2,3,,2
+Failing unit tests for timeouts on HystrixCommands not causing thread interruptions,2015-01-31,Closed,379,60,1,,2
+Unit tests for HystrixCommandExecutionHooks (Manual merge of #327),2014-12-27,Merged,378,187,13,,2
+Updated outdated class names in documentation.,2014-12-27,Merged,376,18,4,,0
+Updated outdated class names.,2014-12-19,Closed,375,16,2,,0
+Change RequestBatch logging from ERROR to DEBUG,2014-12-18,Merged,374,1,1,,1
+"defer the Creation of ISE, to when an exception needs to be created (Manual merge of #264)",2014-12-18,Merged,371,22,2,,2
+Add Javanica back - tests passing again,2014-12-18,Merged,370,1,1,,1
+Add Basic Auth to Hystrix Dash (Manual Merge of #336),2014-12-17,Merged,369,20,7,html ,3
+Added thread pool metrics back to execution flow,2014-12-17,Merged,367,71,0,,2
+Added support to get command start time in Nanos,2015-01-07,Merged,366,23,0,,2
+Fixed Javadoc suggesting incorrect addEventNotifier method in HystrixCommand.Setter,2014-12-15,Merged,365,1,2,,1
+Upgrade Servo to 0.7.5,2014-12-15,Merged,364,1,1,,1
+s/toBlockingObservable/toBlocking in hystrix-rxnetty-metrics-stream,2014-12-15,Merged,362,2,2,,1
+Race condition exists when constructing a HystrixThreadPool where the Th...,2014-12-15,Merged,361,109,10,,6
+Metrics expire after inactivity in milliseconds,2016-01-14,Closed,360,82,10,,3
+Got Javanica unit tests compiling (but failing),2014-12-15,Merged,359,22,20,gradle ,8
+Fixed Clojure unit tests that failed with RxJava 1.0,2014-12-15,Merged,358,3,3,,2
+Fixed Clojure unit tests,2014-12-15,Closed,357,4,30,,2
+Changes to support calculation wall-clock time taken by a set of hystrix commands,2014-12-19,Closed,356,633,12,,4
+Fixing a hystrix-examples compilation failure.,2014-12-11,Merged,353,2,2,,1
+1.3.x Allow for @HystrixCommand to be used on parameterized return type,2014-12-09,Merged,348,111,36,,3
+Allow for @HystrixCommand to be used on parameterized return type,2014-12-11,Merged,347,113,36,,3
+Upgrade to Gradle 1.12,2014-11-19,Merged,344,2,3,properties ,2
+Added 3 new constructors for common command setup,2014-12-11,Merged,343,55,1,,1
+Race condition when creating HystrixThreadPool,2014-12-11,Merged,340,5,14,,1
+getRollingCountThreadsExecuted() always returns 0 in master,2014-12-17,Merged,339,73,0,,2
+API Changes as per Design Review,2014-12-11,Merged,338,40,"7,722",,6
+Prevent memory overconsumption on timeouts longer than command execution time,2014-12-18,Closed,337,7,2,,1
+Dashboard: custom authorization header,2014-12-17,Merged,336,20,7,html ,3
+Fix for issue #332 (Hystrix Javanica Error Propagation does not work cor...,2014-11-11,Merged,334,517,81,java ,5
+allowing configuration of threadPoolProperties through @HystrixCommand annontation,2014-11-19,Merged,329,90,2,java ,5
+Hook execution sequence issue,2014-12-27,Closed,327,171,0,,0
+Added supports for setting threadPoolProperties through @HystrixCommand annotation,2014-11-09,Merged,326,90,2,java ,5
+HystrixAsyncCommand and HystrixObservableCommand,2014-09-25,Merged,318,"9,385","1,627",,11
+Add support for execution.isolation.semaphore.timeoutInMilliseconds,2014-09-22,Merged,316,35,2,,1
+RxJava 0.20 and Remove Deprecated Usage,2014-09-17,Merged,314,155,161,java ,7
+Add toObservable() to the common HystrixExecutable interface,2014-09-27,Closed,312,70,23,,6
+"Osgi-ify hystrix-core, hystrix-examples",2014-12-11,Merged,310,23,0,,2
+Avoid NPE when 'origin' parameter not present,2014-09-04,Merged,307,1,0,,1
+Removing deprecated RxJava usage,2014-09-03,Merged,305,28,28,gradle ,9
+Change the inner delimiter to make parsing easier,2014-12-11,Closed,304,5,5,,2
+Fix Premature Unsubscribe Bug,2014-08-27,Merged,296,16,2,,1
+Stabilize randomly failing tests,2014-08-27,Merged,294,34,0,,1
+Internalize internet dependencies from hystrix dashboard,2014-08-11,Merged,293,11,7,png html js ,6
+Remove surplus closing curly brackets at end of file,2014-08-08,Merged,292,15,18,,1
+String optimization for HystrixRequestLog,2014-08-08,Merged,291,27,16,,1
+Optimize object allocation for the string representation of executed com...,2014-07-29,Merged,288,28,18,,1
+Hystrix metrics streaming module for RxNetty.,2014-08-27,Merged,283,470,0,java ,4
+Codahale Metrics Filter configurable with Archaius,2014-08-27,Merged,281,182,0,java ,3
+Upgrade to codahale-metrics 3.0.2,2014-12-12,Closed,279,1,1,,1
+Race condition where the HystrixMetricsPublisherThreadPool isn't referencing the correct ThreadPoolExecutor instance,2014-12-15,Closed,270,109,11,,6
+implements TODO duplicate with error inside async Observables,2014-12-27,Closed,269,28,15,,1
+Add unregister methods for Hystrix plugins,2014-05-27,Closed,266,41,6,,2
+Update README.md,2014-06-09,Merged,265,1,1,,0
+"defer the Creation of ISE, to when an exception needs to be created",2014-12-18,Merged,264,22,2,,2
+Compilation fixes,2014-05-06,Merged,262,2,2,java ,2
+New signature for HystrixObservableCollapser,2014-05-06,Merged,261,190,168,,3
+RxJava 0.18.2,2014-05-05,Merged,260,1,1,,1
+Fix #257 with RxJava 0.18.2,2014-05-05,Merged,259,1,1,,1
+Skip CachedObservableOriginal when no getCacheKey(),2014-05-05,Merged,258,6,4,,1
+Fix Race Condition on Timeout,2014-05-05,Merged,256,135,78,,2
+Updated a img http link to https in the README.md,2014-05-05,Merged,255,1,1,,0
+Remove jsr305 Dependency,2014-04-30,Merged,254,35,51,java ,15
+Handling InterruptedExceptions in the HystrixMetricsStreamServlet,2014-05-05,Merged,253,4,0,,1
+Tripped CircuitBreaker Wouldn't Close Under Contention,2014-04-25,Merged,250,110,5,,3
+Tripped CircuitBreaker Wouldn't Close Under Contention,2014-04-25,Merged,249,111,5,,2
+RxJava 0.18 for Hystrix 1.3.15,2014-04-25,Merged,248,99,68,java ,9
+RxJava 0.18 for Hystrix 1.3.15,2014-04-25,Closed,247,98,67,java ,8
+RxJava 0.18,2014-04-25,Merged,246,102,69,gradle ,7
+HystrixObservableCollapser,2014-04-23,Merged,245,754,7,,1
+Fix for issue #241 (leaner error propagation in hystrix javanica),2014-04-15,Merged,244,82,25,java ,3
+Update servo to 0.6,2014-04-15,Merged,243,26,2,java ,2
+Fix for issue 241 (Cleaner error propagation in hystrix javanica),2014-04-15,Merged,242,82,25,java ,3
+Add missing reset for CommandExecutionHook in HystrixPlugins.UnitTest#re...,2014-04-15,Merged,240,19,0,,1
+Fix for Semaphore vs Thread Isolation Bug,2014-04-01,Merged,238,389,86,,3
+Added support for Request Cache and Reactive Execution,2014-04-01,Merged,230,"1,868","1,243",java ,3
+Added support for Request Cache and Reactive Execution,2014-04-01,Merged,229,"2,376","1,141",java ,2
+Upgrade 1.3.x to RxJava 0.17.1,2014-03-22,Merged,228,302,136,gradle java ,4
+"Added support for ""Request Cache"" feature, updated doc",2014-03-18,Closed,224,301,42,java ,6
+Future.cancel - Unit Test Fixes,2014-03-13,Merged,222,17,10,java ,3
+RxJava 0.17.1,2014-03-13,Merged,221,1,1,,1
+Restore HystrixContext* Constructors without ConcurrencyStrategy,2014-03-11,Merged,219,17,0,,3
+Hystrix 1.4 - Async/Non-Blocking,2014-03-11,Merged,218,"20,127","12,074",gradle java ,3
+"Added support for ""Reactive Execution"" and  ""Error Propagation""",2014-03-11,Merged,217,774,163,,9
+hystrix-javanica: initial commit,2014-03-06,Merged,216,"2,763",0,gradle java ,3
+hystrix-javanica: initial commit,2014-03-06,Closed,215,"2,763",0,gradle java ,3
+Context Wrapping,2014-03-05,Merged,214,25,1,java ,5
+BugFix: Timeout does not propagate request context,2014-03-05,Merged,213,187,25,,8
+Update Javassist version to 3.18.1-GA,2014-02-25,Merged,211,1,1,,1
+HystrixContextScheduler was not wrapping the Inner Scheduler,2014-02-07,Merged,210,1,1,,1
+Hystrix 1.4 - Async/Non-Blocking [Preview],2014-03-11,Merged,209,"20,097","11,889",gradle java ,3
+hystrix-contrib: hystrix-javanica (initial commit),2014-03-05,Closed,207,"1,504",0,gradle java ,4
+Demonstrates and fixes Issue #205,2014-02-07,Merged,206,59,0,,1
+"deploying hystrix dashboard on tomcat, SLF4J complains about a missing implementation",2014-03-05,Merged,204,1,1,,1
+Made HystrixTimer initialization thread-safe,2014-02-07,Merged,203,8,2,,1
+Add new module for publishing metrics to Coda Hale Metrics version 3,2014-03-05,Merged,199,568,1,gradle java ,2
+Bugfix: Root cause is no longer replaced in exceptions (Issue #195),2014-02-07,Closed,196,24,10,,1
+Do not overwrite user thread duration in case of timeouts,2013-11-05,Merged,194,11,8,,1
+Upgrade to metrics library v3.0.1,2014-03-05,Closed,193,572,0,gradle java ,2
+BugFix: ConcurrencyStrategy.wrapCallable was not being used on callbacks,2013-10-02,Merged,190,52,15,,3
+BugFix: Race condition between run() and timeout,2013-10-02,Merged,189,25,15,,1
+BugFix: Observable.observeOn Scheduler Lost RequestContext,2013-09-27,Merged,185,177,3,,4
+BugFix: queue() BadRequestException Handling on Cached Response,2013-09-27,Merged,184,50,5,,1
+Bugfix to HystrixBadRequestException handling,2013-09-27,Merged,183,2,3,,1
+Removing unused Legend component latent. Removed from html templates/css,2013-09-27,Merged,182,4,10,html ,4
+[hystrix-contrib/hystrix-clj] Making Command keys quantified by namespaces.,2013-09-27,Merged,181,2,2,,2
+RxJava 0.13,2013-09-12,Merged,179,28,25,java ,4
+Update Hystrix for breaking changes in RxJava 0.12,2013-09-12,Merged,177,121,117,gradle ,2
+Fix Exception vs Throwable typo,2013-08-20,Merged,173,2,2,,1
+Adding `observe` to Clojure adapter.,2013-08-12,Closed,171,26,1,,2
+Add rx support to hystrix-clj.,2013-08-12,Merged,170,115,2,,2
+Add RxJava Observable example,2013-08-03,Merged,169,66,0,,1
+Another Void response type unit test for collapser,2013-08-02,Merged,168,18,3,,1
+More specific assertion on fireAndForget error,2013-08-02,Merged,165,3,2,,1
+Support FireAndForget Collapsed Commands,2013-08-02,Merged,164,184,17,,2
+Upgrade to RxJava 0.10.0,2013-08-01,Merged,163,202,11,java ,3
+Fix regex so it includes more than one digit,2013-07-30,Merged,162,7,5,,1
+Merge Gradle template,2013-07-26,Merged,159,129,102,xml jar properties gradlew ,11
+Expose current HystrixCommand to fns,2013-07-26,Merged,158,48,4,,2
+Improve hystrix-clj docs.,2013-07-24,Merged,156,82,12,,1
+Reset Hystrix after tests have run.,2013-07-24,Merged,155,11,1,,1
+escape meta-characters to fix dashboard,2013-07-24,Merged,152,31,28,html ,4
+Version 1.3 - RxJava Observable Integration,2013-07-26,Merged,151,"2,643","1,686",gradle java ,7
+Allow getFallback to query failure states,2013-07-05,Merged,149,38,4,,1
+"for your consideration, HystrixProxyFactory",2014-03-05,Closed,148,250,0,,2
+Changed requestVariables in HystrixRequestContext to InheritableThreadLo...,2013-07-24,Closed,146,5,5,,1
+Updates HystrixCommand to expose an isCommandTimedOut() method.,2013-07-05,Closed,144,12,3,,1
+Change IDEA config to use COMPILE instead of PROVIDED,2013-05-17,Merged,142,11,10,,9
+Update clojuresque and remove test shutdown hack.,2013-05-17,Merged,141,1,11,clj ,2
+Fixed incorrect thread pool rate calculations in dashboard,2013-06-07,Merged,139,16,9,,1
+Add intellij idea and eclipse build config,2013-04-17,Merged,138,110,0,,6
+Limit scope of CurrentThreadExecutingCommand,2013-04-04,Merged,137,23,18,,1
+Fixed the mock stream,2013-04-04,Merged,136,0,0,,1
+Add `with-context` macro for conviently wrapping collapsers in thier own context,2013-04-04,Merged,135,21,16,,2
+Fix NoSuchElementException in Hystrix.endCurrentThreadExecutingCommand,2013-03-31,Merged,133,20,2,,1
+Mechanism for Auditing Network Access Not Isolated by Hystrix,2013-03-25,Merged,130,549,21,gradle java ,4
+Implement destroy() method for graceful shutdown of MetricsStreamServlet,2013-03-20,Merged,128,20,1,,1
+Fix NPE if Hystrix.reset() called when it's already shutdown,2013-03-06,Merged,126,7,1,,1
+Concurrent execution counter,2013-03-01,Merged,121,19,13,,2
+Fix for IllegalStateException on Thread Rejection with Response Caching,2013-02-28,Merged,120,215,22,,1
+github.com/Netflix/Hystrix/issues/118,2013-02-28,Merged,119,164,6,,1
+HystrixCollapser Refactor for Performance and Concurrency Bug Fixes,2013-02-27,Merged,114,443,422,,0
+More work on HystrixCollapser response not received bug,2013-02-23,Merged,112,129,20,,1
+Hystrix.reset() now shuts down the HystrixTimer,2013-02-22,Merged,111,84,8,,1
+Cleanup and :init-fn escape hatch,2013-02-21,Merged,110,79,24,,2
+stop using HystrixCollapser/reset-collapser,2013-02-15,Merged,108,1,9,,1
+Fix wiki links in README.md,2013-02-15,Merged,107,3,3,,0
+HystrixThreadPool shutdown methods,2013-02-15,Merged,106,161,13,,6
+IntelliJ IDEA and Eclipse build config,2013-02-15,Merged,105,55,9,,4
+improve clarity of javadoc for HystrixCommand.queue(),2013-02-14,Merged,104,6,3,,1
+Hystrix clj cleanup,2013-02-11,Merged,103,21,43,gradle clj ,3
+Experimental Clojure bindings for Hystrix,2013-02-08,Merged,99,984,0,gradle clj ,2
+Remove 'final' modifiers to allow mocking,2013-02-05,Merged,97,23,23,,2
+RequestLog: Reduce Chance of Memory Leak,2013-02-01,Merged,95,34,2,,1
+Force character encoding for event stream to utf-8,2013-02-01,Merged,94,1,1,,1
+issue #60 Dashboard: Hover for full name (when shortened with ellipsis),2013-01-29,Merged,93,7,3,,2
+handle null circuit breaker,2013-01-24,Merged,91,6,1,,1
+hystrix.stream holds connection open if no metrics,2013-01-09,Merged,86,22,13,,1
+Junit and eclipse,2013-01-09,Merged,84,92,64,,8
+ThreadPool stream should include reportingHosts,2013-01-09,Merged,83,2,0,,1
+IllegalStateException: Future Not Started,2013-01-08,Merged,81,16,1,,1
+Include more info when collapsed requests remain in queue,2013-01-08,Merged,79,4,0,,1
+Fix proxy stream flush bug,2013-01-07,Merged,77,5,2,,1
+New Properties (fallbacks and rolling percentile),2013-01-07,Merged,76,182,46,,3
+Make servlet-api a provided dependency,2013-01-07,Merged,73,1,1,,1
+Execution hooks,2013-01-07,Merged,71,"1,264",117,,6
+Unit tests,2013-01-02,Merged,67,221,8,,0
+Making provided scope transtive,2013-01-02,Merged,66,2,2,,1
+Fixed gitignore definition of build output directories,2013-01-01,Merged,65,1,4,,1
+"Added ""throws Exception"" to HystrixCommand run() method (Issue #63)",2012-12-29,Merged,64,2,1,,1
+applying js fixes to threadPool ui,2012-12-21,Merged,62,12,5,js ,3
+Request log with timeouts,2012-12-21,Merged,61,82,66,,2
+Dashboard js fix,2012-12-21,Merged,57,6,0,html ,2
+Plugin bootstrapping,2012-12-18,Merged,56,344,96,,1
+"Fixes for NEBULA-28, NEBULA-30, NEBULA-31",2012-12-15,Merged,52,17,15,gradle ,3
+"Merging in gradle-template, specifically provided",2012-12-14,Merged,51,21,23,,5
+Make javax.servlet-api a 'provided' dependency not 'compile',2012-12-14,Merged,50,2,2,,2
+Cleaner design by injecting listener into constructor.,2012-12-13,Merged,49,21,22,,2
+Fixing non-deterministic unit test,2012-12-13,Merged,48,1,1,,1
+Support pausing/resuming metrics poller,2012-12-13,Merged,47,142,11,,2
+Hystrix Dashboard,2012-12-11,Merged,44,"3,342",567,,2
+Fix the wrong percentile for latencyExecute_percentile_75 in the Servo publisher,2012-12-10,Merged,43,1,1,,1
+Added module to publish metrics to Yammer Metrics,2012-12-10,Merged,42,532,1,java ,3
+Migrate metrics stream from org.json.JSONObject to Jackson,2012-12-05,Merged,37,139,"1,164",java ,6
+example webapp showing how to use ...,2012-12-05,Merged,36,158,16,properties xml jsp java ,6
+Metrics event stream,2012-12-05,Merged,35,"1,220",265,gradle java ,3
+"Remove Servo dependency from core, move to submodule",2012-12-04,Merged,33,678,566,java ,3
+servo-event-stream module,2012-12-04,Merged,32,988,1,java ,4
+Executable demo,2012-11-30,Merged,31,932,3,gradle ,4
+Simplified access to HystrixCommandMetrics,2012-11-30,Merged,30,12,1,,1
+Thread pools lost custom names in opensource refactoring,2012-11-30,Merged,29,12,2,,1
+Initialize HealthCounts to non-null value.,2012-11-30,Merged,27,6,4,,2
+Default Collapser scope to REQUEST if using Setter,2012-11-29,Merged,23,1,1,,1
+Capture exception from run() and expose getter,2012-11-29,Merged,21,48,15,,1
+Logger error on fallback failure,2012-11-28,Merged,19,6,25,,2
+Documenting a RuntimeException,2012-11-28,Merged,18,22,5,,1
+href target so it opens from javadoc frame,2012-11-27,Merged,17,1,1,,1
+Change logger from info to debug for property changes,2012-11-27,Merged,16,5,5,,1
+Add link from Javadoc to hystrix-contrib/hystrix-request-servlet,2012-11-27,Merged,7,9,8,,1
+Update Readme Files for Modules,2012-11-25,Merged,6,77,0,,0
+Maven Central and binary download information.,2012-11-24,Merged,5,63,17,,0
+Contrib request context servlet filters,2012-11-24,Merged,4,328,1,md gradle java ,6
+Javadoc generation with custom doclet,2012-11-22,Merged,3,80,7,jar css ,4
+Design change to MetricsPublisher,2012-11-24,Closed,2,564,562,,2
+Javadocs and Comments,2012-11-22,Merged,1,2,4,,2

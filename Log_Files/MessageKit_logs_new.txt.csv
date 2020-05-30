@@ -1,0 +1,445 @@
+Adding property status to MessageType protocol,2019-09-30,Closed,1187,106,107,swift-version md Cartfile private resolved un~ pbxproj xcscheme lock Example/Podfile~ swift podspec ,17
+Fixed broken link in README,2019-10-03,Merged,1182,1,1,,0
+Added documentation on creating custom cells,2019-12-22,Merged,1167,82,0,,0
+Added delegate method for image tap action,2019-08-18,Closed,1165,43,18,swift ,3
+Typo,2019-08-09,Closed,1160,1,1,,0
+docs(CustomCells): Creating custom cells 📱,2019-08-20,Closed,1159,131,0,,0
+Update QuickStart.md,2019-10-29,Closed,1141,1,1,,0
+Fixes support for custom inputAccessoryView,2019-08-05,Closed,1140,18,7,swift ,3
+Update README,2019-07-13,Merged,1138,1,0,,0
+Fix implementation of sizeThatFits and improve implementation of intrinsicContentSize in MessageLabel,2019-08-05,Closed,1137,77,8,pbxproj swift ,3
+Fix text clipping caused by MessageSizeCalculator when textInsets are zero in MessageLabel,2019-08-05,Closed,1136,5,1,swift ,1
+Update README.md,2019-07-06,Merged,1127,1,0,,0
+Set the proper notification to invalidate layout.,2019-07-09,Merged,1126,6,2,swift ,1
+Fix orientation notification,2019-07-03,Closed,1125,86,108,swift-version md Cartfile private resolved un~ pbxproj xcscheme lock Example/Podfile~ swift podspec ,20
+Label padding,2019-06-30,Closed,1120,215,132,swift-version md Cartfile private resolved un~ pbxproj xcscheme lock Example/Podfile~ swift podspec ,20
+Add individual padding attributes for the cell and message labels,2019-07-01,Closed,1118,133,27,swift podspec md ,6
+Added missing property assignments in layoutCellTopLabel,2019-07-08,Merged,1117,5,0,swift ,1
+Add missing cellTopLabelAlignment to MessageSizeCalculator,2019-07-08,Merged,1113,5,0,swift ,1
+Fixes scrollToBottom method to properly handle calls made early in the view lifecycle,2019-07-08,Merged,1110,3,2,swift ,1
+Add support for audio seeking in AudioMessageCell,2019-08-05,Closed,1102,133,20,md swift ,14
+Fix: Content offset wrong after dismissing modal view controller,2019-12-22,Closed,1101,2,0,,1
+Fix a typo in CHANGELOG.md,2019-06-18,Merged,1099,1,1,,0
+Make messageLabelInsets(for message: MessageType) open so it can be overriden,2019-07-08,Closed,1098,3,1,swift ,1
+Support overriding multiple paragraph styles in MessageLabel,2019-08-05,Closed,1097,27,15,swift ,1
+Lazily initialize the MessageInputBar on MessagesViewController,2019-06-13,Merged,1092,6,1,swift ,1
+Add support for styling NSLinkAttribute with existing urlAttributes in MessageLabel,2019-07-01,Merged,1091,7,0,swift ,1
+Support for tapping NSTextAttachments in MessageLabel,2019-08-05,Closed,1090,24,1,swift ,3
+Add loading indicator to AudioMessageCell,2019-06-13,Merged,1084,18,4,lock swift ,2
+Pass back MessageLabel reference in MessageLabelDelegate methods,2019-08-05,Closed,1082,126,81,swift ,2
+Link README from quick start,2019-07-10,Merged,1073,12,18,,0
+Update README.md,2019-05-12,Merged,1069,1,0,,0
+added support for index in didTapAvatar,2019-04-23,Closed,1058,8,2,,4
+3.0.0 Version Release,2019-04-30,Merged,1040,"3,428","1,226",md Cartfile resolved un~ pbxproj xcscheme Example/Podfile ,22
+Update to Swift 5,2019-06-29,Merged,1039,88,109,swift-version md Cartfile private resolved un~ pbxproj xcscheme lock Example/Podfile~ swift podspec ,19
+Typing Indicator Support,2019-04-05,Merged,1038,753,83,swift podspec~ ,21
+fix #1020 the inputbar overlaps the last message,2019-04-05,Merged,1035,1,1,,1
+Revive carthage compatibility,2019-03-31,Merged,1027,38,32,resolved swift ,14
+Coredata integration with MessageKit,2019-04-01,Closed,1024,918,7,pbxproj Example/Podfile lock swift ,4
+3.0.0 Version Release [WIP],2019-04-05,Closed,1022,"2,964","1,191",md Cartfile resolved un~ pbxproj xcscheme Example/Podfile lock Example/Podfile~ swift ,19
+Add support for share contact message,2019-04-05,Merged,1013,374,24,md pbxproj lock swift ,13
+Update documentation for `MessageSizeCalculator.messageContainerSize(at:)',2019-03-24,Closed,1010,8,1,,1
+Fix url in changelog (ver 1.0.0),2019-03-24,Merged,1009,1,1,,0
+Fix documentation error within MessagesDataSource.swift,2019-03-24,Merged,1004,1,1,,1
+Added Formacar in used apps.,2019-03-24,Merged,1002,1,0,,0
+Added HopUp to apps using MK,2019-02-26,Merged,997,1,0,,0
+Adds AccessoryPosition parameter,2019-02-28,Merged,989,120,16,lock swift pbxproj ,11
+fixing reuse bug.,2019-02-21,Merged,986,17,3,swift ,1
+Update CFBundleShortVersionString,2019-02-24,Closed,982,1,1,,1
+Rename Folder Without Spaces,2019-03-25,Closed,981,3,3,swift ,2
+Updated README.md with manual installation steps 👻,2019-03-24,Merged,974,26,0,,0
+add getting started section to README,2018-12-20,Merged,955,7,0,,0
+Move handleTapGesture logic to MessageCollectionViewCell,2018-12-02,Merged,950,9,2,swift ,3
+Add Leading/Trailing padding to AvatarPosition,2018-12-20,Merged,944,21,6,swift ,4
+fix top layout constraint,2018-11-23,Closed,932,1,1,,1
+Move test to Quick/Nimble,2018-11-02,Merged,924,3,12,,2
+Removed repeated test,2018-11-06,Merged,923,0,819,,0
+Added a `didTapBackground(in:)` method to MessageCellDelegate. 👻,2018-12-03,Merged,922,17,1,swift ,2
+Enhancement/add another bottom label to the cell,2018-11-23,Merged,920,167,11,swift ,8
+Fix Code of Conduct link broken,2018-10-20,Merged,918,2,2,,0
+Fix CHANGELOG entry order,2018-10-17,Merged,914,9,8,,0
+"[DetectorType][MessageLabel] Add custom, mention and hashtag detector type 👻",2019-03-25,Merged,913,290,28,swift ,8
+[MessageLabel] Change privacy of properties and function to use allow…,2018-11-01,Merged,912,8,1,swift ,1
+Typing Indicator Support,2019-04-02,Closed,911,719,73,swift podspec~ pbxproj ,22
+Release MessageKit 2.0.0-beta1,2018-10-14,Merged,910,"2,510","2,714",swift-version md Cartfile resolved ,4
+"Make Sender a protocol, renamed SenderType",2019-02-19,Merged,909,215,95,pbxproj swift ,9
+"Adds WiseEyes to ""Apps using this library""",2018-10-13,Merged,907,1,0,,0
+Fix: Allow required initializator methods @ Views.,2018-10-14,Merged,905,50,20,swift ,7
+Example chat screens do not scroll to the bottom on new message insertion.,2018-10-10,Merged,899,2,13,,2
+allow dynamic avatar size per message size calculator,2018-10-16,Merged,898,9,9,,1
+Fix intrinsic content size for multi-line text inside MessageLabel,2019-03-25,Closed,897,3,1,,1
+[Accessoryview] fix,2018-10-12,Merged,893,7,5,,2
+Add support for audio messages.,2019-02-19,Merged,892,798,21,md resolved pbxproj lock swift ,11
+Fix UIButton highlight behaviour when contained by MessagesCollectionView,2019-02-21,Closed,890,0,1,,1
+fix intrinsic content size for MessageLabel,2018-10-05,Merged,889,11,0,swift ,2
+Swift 4.2,2018-09-30,Merged,883,148,147,swift-version md Cartfile resolved pbxproj xcscheme Example/Podfile lock swift ,17
+Dev,2018-09-28,Closed,881,19,17,lock podspec pbxproj xcscheme swift ,7
+update to swift 4.2,2018-09-29,Closed,880,256,164,pbxproj xcscheme lock swift plist ,11
+MessagesDataSource & MessagesLayoutDelegate methods for MessageType.custom,2018-10-26,Merged,879,42,5,swift ,5
+"Updating ""apps using this library""",2018-09-23,Merged,874,1,0,,0
+Updating FAQ with linkable sections.,2018-09-16,Merged,865,12,5,,0
+Update Swift version in podspec,2018-11-02,Closed,864,1,3,,1
+Fix scrollsToBottomOnKeybordBeginsEditing typo (development branch),2018-09-16,Merged,856,9,6,swift ,4
+Fix scrollsToBottomOnKeybordBeginsEditing typo,2018-09-12,Closed,855,6,6,,4
+Add didTapAccessoryView Delegate method and adjust layout,2018-10-13,Merged,834,133,25,lock swift pbxproj ,10
+Enhancement/init reusable view with coder,2018-09-15,Merged,832,13,1,swift ,2
+[BLOCKED] Release MessageKit v1.1.0,2018-10-14,Closed,818,"2,509","2,713",swift-version md Cartfile resolved ,4
+Add support for embedded NSLinks for .url DetectorType,2018-08-15,Merged,815,16,1,,1
+All-New ChatExample app,2018-08-22,Merged,803,"1,996",595,pbxproj xcscheme lock swift json jpg jpeg png ,40
+Keyboard inset fix to rule em all,2018-08-02,Closed,796,193,35,swift ,7
+Double the font size of emoji messages,2018-08-02,Merged,795,10,1,swift ,1
+Fix #569 and #789,2018-08-03,Merged,791,28,41,swift ,1
+Adjust contentInset for the keyboard frame properly,2018-08-07,Merged,787,80,19,swift ,2
+Update Code of Conduct link,2018-07-25,Merged,782,1,1,,0
+Typing Indicator Support,2019-03-01,Closed,776,653,27,pbxproj swift ,5
+Add a bit about positioning Avatars in FAQ,2018-07-19,Merged,772,23,0,,0
+Make initializer of CellSizeCalculator open,2018-07-16,Merged,765,2,0,,1
+Updated way to calculate the bottom content inset,2018-08-07,Closed,762,10,1,swift ,1
+Update faq for removing avatar,2018-06-30,Merged,745,13,2,,0
+Release 1.0.0,2018-06-27,Merged,742,5,1,podspec ,1
+Integrate MessageInputBar as a dependency,2018-09-17,Merged,732,59,"1,969",resolved pbxproj Example/Podfile lock swift podspec xcscheme ,18
+Release MessageKit 1.0.0-beta.2,2018-06-15,Merged,728,119,35,podspec swift ,8
+Relax MediaItem and LocationItem protocol set requirement,2018-06-13,Merged,727,11,6,swift ,2
+Setup stale to close issues,2018-06-13,Merged,726,35,0,,1
+Fixed MessageContentCell's subviews frame when size equal to .zero,2018-06-07,Merged,716,4,10,swift ,2
+Add customizable accessoryView besides messageContainer,2018-06-27,Merged,710,115,16,swift ,9
+Rewrite issue template to a HTML comment,2018-06-01,Merged,709,20,17,,0
+Fixed MessagesCollectionView's bottom inset when hardware keyboard is…,2018-06-01,Merged,707,46,24,swift ,3
+Make LabelAlignment initializer public,2018-05-29,Merged,705,10,0,swift ,1
+👻Fix avatar view layout and message top/bottom label insets,2018-06-06,Closed,699,213,11,swift ,6
+Added convenience method to set properties for all MessageSizeCalcula…,2018-05-23,Merged,697,74,3,swift ,1
+Update FAQ how to hide AvatarView,2018-05-05,Merged,675,5,5,,0
+Update VISION.md for networking/caching beliefs,2018-05-05,Merged,673,4,4,,0
+Fixed separator line height,2018-04-30,Merged,667,4,1,swift ,1
+MessageKit 1.0-beta,2018-05-03,Merged,666,"1,909","2,331",md ,1
+Issue 663: MessageLabel touch calculation,2018-04-26,Merged,664,2,3,,1
+Move LabelSize function into Extensions,2018-04-21,Closed,661,36,43,,3
+Add cellTopLabel and rename topLabel to messageTopLabel,2018-04-26,Merged,659,288,331,pbxproj lock swift ,3
+Renamed MessageData to MessageKind,2018-04-16,Merged,658,55,53,swift pbxproj ,14
+refacor avatarView,2018-06-13,Closed,656,245,269,pbxproj ,8
+Update syntax highlighting on Readme,2018-04-12,Merged,652,3,3,,0
+Reduce the number of calculation for label size,2018-04-14,Merged,649,3,14,,2
+Sync master and development,2018-04-11,Closed,647,121,39,plist podspec swift ,11
+Fixed wrong bubble size calculation in some fonts,2018-04-11,Merged,645,7,4,swift ,2
+Feature/custom view message cell,2018-04-10,Closed,641,315,33,plist podspec pbxproj swift ,10
+Fix ChatExample for SwiftLint,2018-04-09,Merged,638,75,51,pbxproj xcscheme lock swift ,13
+Update access control,2018-04-07,Merged,635,19,19,,3
+Fixed bubbleTailOutline of message bubble,2018-04-06,Merged,633,8,5,swift ,1
+update circleci,2018-04-06,Merged,631,35,5,pbxproj sh ,4
+Set comp mode to whole module,2018-04-11,Closed,630,152,134,swift-version md pbxproj plist lock podspec xcscheme ,10
+Release 0.13.3,2018-04-06,Merged,629,4,2,podspec ,1
+Rename MessageData to MessageKind and Swift 4.1,2018-04-11,Closed,627,96,159,pbxproj xcscheme plist lock swift ,8
+No Brown M&M's,2018-04-05,Merged,626,12,11,,0
+Only apply textColor for .text case of MessageData,2018-04-06,Merged,625,5,3,swift ,2
+Fix font invalid for attributedString,2018-04-06,Merged,623,36,2,plist swift ,5
+Make computed properties of MessagesCollectionViewFlowLayout public,2018-04-03,Merged,616,24,26,,1
+Refactor reusable view API to be section based,2018-04-03,Merged,615,95,344,swift pbxproj ,4
+Transform CellSizeCalculator from protocol to class,2018-03-31,Merged,611,17,15,swift ,3
+Make sizeCalculator lazy && fix access level,2018-03-30,Merged,607,75,75,md swift ,18
+Support custom CellSizeCalculator not restrict to MessageSizeCalculator,2018-03-30,Merged,606,2,2,,2
+Add explicit access level && some comments,2018-03-29,Merged,605,12,13,,3
+make calculator of layour open,2018-03-29,Merged,603,6,6,,1
+Remove the limitation of 1 cell to 1 section,2018-03-29,Merged,601,27,11,swift ,5
+Refactor the cell inheritance hierarchy,2018-03-28,Merged,596,322,207,pbxproj swift ,6
+Update Podspec for release 0.13.2,2018-03-27,Merged,594,3,1,podspec ,1
+Improve equality checking on layout attributes,2018-03-27,Merged,593,36,3,swift ,3
+Add hook to configure async media on cell,2018-03-27,Merged,592,31,0,swift ,2
+Add MediaItem protocol,2018-03-24,Merged,587,276,208,swift pbxproj ,7
+Stop sizing cellTopLabel and cellBottomLabel to fit,2018-03-24,Merged,580,139,181,swift pbxproj ,7
+Refactoring layout to use CellSizeCalculators,2018-03-24,Merged,579,802,794,swift ,2
+[Fix] Fixed separator setting line height,2018-04-30,Closed,578,1,1,,1
+Fix wrong separated components in messageInputBar,2018-03-21,Merged,577,44,15,swift ,1
+Sync master and development,2018-03-18,Closed,574,157,19,md swift ,7
+Updated ChatExample settings #362,2018-06-09,Closed,572,237,29,swift ,6
+Fixed SwiftLint warnings #554 Issue,2018-03-23,Merged,571,7,4,,5
+Fix #554 Issue,2018-03-18,Closed,570,250,37,swift ,7
+Fix issue #562,2018-06-01,Closed,568,8,14,,1
+update circleci config,2018-03-16,Merged,565,26,41,,1
+Fix cicleci,2018-03-16,Merged,564,0,0,,1
+Solves issue #559 ( https://github.com/MessageKit/MessageKit/issues/559 ),2018-03-15,Merged,563,1,0,,1
+[WIP] MessageKit 1.0 Staging Area,2018-04-11,Merged,555,"1,494","1,971",md pbxproj xcscheme lock swift ,7
+Solves issue #546 ( https://github.com/MessageKit/MessageKit/issues/5…,2018-03-06,Merged,551,4,4,,3
+CircleCI Integration,2018-03-05,Merged,547,6,1,md ,1
+Showcase to demostrate N cells in one section,2018-03-18,Closed,540,27,15,,12
+fix bubble outline border color,2018-02-24,Merged,539,1,1,,1
+[WIP] Restructure cell inheritance hieracrchy,2018-02-23,Merged,538,320,245,swift ,7
+[WIP] Refactoring MessagesDataSource,2018-02-23,Merged,537,401,367,pbxproj ,6
+Move delegate methods to allow override,2018-02-23,Merged,533,153,212,swift ,3
+Correct typos in CONTRIBUTING.md,2018-02-21,Merged,532,5,5,,0
+Fix wrong bubble image cache,2018-02-21,Merged,531,45,11,,2
+Add boolean flag to disable auto updating send button enabled state,2018-02-24,Merged,530,12,2,swift ,1
+Updated README to create contact section,2018-02-17,Merged,524,5,3,,0
+Enhancement/transit info detection,2018-03-04,Merged,520,48,1,swift ,5
+Document MediQuo application as a user of MessageKit,2018-02-13,Merged,516,2,0,,0
+Add in-memory caching for bubble outline images,2018-02-13,Merged,515,20,2,,2
+Added PrepareReuse override for MediaMessageCell,2018-02-03,Closed,507,8,0,,1
+MessagesCollectionViewFlowLayout refactor,2018-03-18,Closed,502,116,214,,9
+Add .custom(Any) case to MessageData,2018-02-03,Merged,498,36,23,swift ,4
+AutocompleteManager Plugin,2018-06-09,Closed,497,"1,038",15,swift pbxproj ,3
+[Documentation] MessagesDisplayDelegate.md,2018-01-30,Merged,496,2,0,,0
+Feature/text messages settings,2018-06-09,Closed,492,256,22,swift ,6
+Open up MessagesCollectionViewFlowLayout cell sizing API,2018-01-31,Merged,491,"1,012",720,lock pbxproj swift ,4
+Release 0.13.1,2018-01-26,Merged,486,20,5,podspec swift ,5
+Fix typo,2018-01-25,Merged,483,6,6,,5
+Fix messageInputBar sendButton not disabled in some situations,2018-01-25,Merged,475,14,2,swift ,3
+Remove unnecessary Avatar.playground,2018-01-19,Merged,472,0,42,swift jpg xcplayground xcworkspacedata ,5
+Fix Typos,2018-01-19,Merged,471,3,3,md ,1
+Optimize collectionView scroll behavior when abruptly stops scrolling,2018-01-25,Merged,470,5,2,swift ,1
+Fix message bubble tail orientation invalidation in iOS9,2018-01-19,Merged,469,6,1,swift ,1
+Add feature for async media image,2018-03-24,Closed,466,34,8,,7
+Version 0.13.0,2018-01-17,Merged,464,"1,096",312,pbxproj swift ,4
+Fix bubble backgroundColor deranged when swipe,2018-09-01,Closed,461,6,0,,1
+Split MessagesViewController functionality & add MessageKitError,2018-01-14,Merged,459,538,350,swift pbxproj ,5
+Feature/mock messages count settings,2018-01-14,Merged,458,217,1,swift ,5
+Fix message layout issue when sliding back controller,2018-01-11,Closed,455,4,0,swift ,1
+Fix message layout issue when sliding back controller,2018-01-11,Merged,454,4,5,swift ,1
+LocationMessageSnapshotOptions public,2018-01-11,Merged,452,44,13,,5
+Bugfix/location message snapshot options inaccessible,2018-01-10,Closed,451,142,89,xcscheme lock swift xcworkspacedata md podspec ,34
+Bugfix/location message snapshot options inaccessible,2018-01-09,Closed,450,152,89,pbxproj xcscheme lock swift xcworkspacedata podspec ,32
+Fixed wrong contentInset calculation when navigationBar is hidden,2018-01-14,Merged,444,10,4,swift ,1
+Cut release 0.12.1,2018-01-07,Merged,443,6,1,podspec ,1
+Bugfix/detectors attributes,2018-01-03,Merged,440,1,1,,1
+"Change Copyright to ""Copyright (c) 2017-2018 MessageKit""",2018-01-03,Merged,439,85,78,xcscheme lock swift xcworkspacedata md ,41
+Fix tests failure when last week is the last year,2018-01-02,Merged,437,7,1,,1
+Input Plugin Support [In Progress],2018-01-24,Closed,434,47,2,,2
+Add customizable accessoryView besides messageContainer,2018-01-27,Closed,432,145,26,swift ,9
+Add call to the super when cell prepare for reuse,2017-12-31,Merged,431,1,0,,1
+Fix LocationMessageCell reuse bug,2017-12-29,Merged,428,13,0,swift ,1
+Fix inputTextView layout issue when rotated,2018-01-01,Merged,426,3,2,,1
+Fixed iPhoneX messageInputBar transparent bottom area,2017-12-26,Merged,425,10,1,swift ,1
+Image Paste Support for InputTextView,2018-01-07,Merged,423,185,6,swift ,3
+Added copy support for message bubble,2018-01-11,Merged,422,115,1,swift ,2
+Move tap gesture from cell to collectionView,2017-12-21,Merged,417,23,9,swift ,2
+Add configureImageForAvatarView(::::) protocol to expose avatarView &…,2017-12-21,Merged,416,78,46,swift ,8
+Version 0.12.0,2017-12-18,Merged,415,"1,447",672,yml md private resolved Example/Podfile lock json png storyboard ,10
+Revert to old cell configure API and fix #407,2017-12-18,Merged,414,127,72,swift ,6
+Fix attributedText messageLabelFont bug,2017-12-18,Merged,412,13,4,swift ,2
+Revert change that attempts to sync MessageLabel properties,2017-12-17,Merged,410,55,71,,4
+Fix messageLabel text color not work,2017-12-17,Closed,409,1,1,,1
+Fix scroll to bottom instead of scroll to bottom bubble,2017-12-17,Merged,408,2,12,,1
+Resize imageMask instead of reapplying style,2017-12-16,Merged,406,17,7,,1
+Remove useless guard and fix issue #403,2017-12-15,Closed,405,0,4,,1
+Fix messageLabel layout issue,2017-12-15,Merged,401,30,36,,4
+Allow detector attributes to be set outside of cell,2017-12-16,Merged,397,91,55,swift ,5
+Fix scrollToBottom && remove scrollsToBottomOnFirstLayout,2017-12-12,Merged,395,81,33,swift pbxproj ,8
+Add MessageKit core team to README,2017-12-10,Merged,394,6,0,,0
+Fix constraits when padding changed,2017-12-09,Merged,393,1,0,,1
+Adjust messageInputBar's height when traitCollection changed,2017-12-10,Merged,392,23,7,,1
+Removing cell generic constraints,2017-12-11,Merged,391,188,189,lock swift ,7
+Update MessagesViewControllerSpec and add stubs,2017-12-08,Merged,390,211,139,swift ,5
+FIx example launch screen icon layout,2017-12-08,Merged,389,8,7,storyboard ,2
+Just handle notification we wanted,2017-12-08,Merged,388,3,3,,1
+Fix notification observer bug when change the keyboard style,2017-12-08,Merged,387,4,2,,1
+Add a contentView to make managing constraints easier,2017-12-10,Merged,386,98,79,lock swift ,3
+Add MessageLabel tests and stubs,2017-12-10,Merged,385,350,32,xcscheme swift ,8
+Input bar fixes continued,2017-12-08,Merged,384,7,7,,1
+Starting a FAQs page,2017-12-07,Merged,381,58,0,,0
+MessageInputBar Fixes,2017-12-07,Merged,380,171,73,json png swift ,4
+Optimize cell gesture handle logic,2017-12-07,Merged,379,41,102,,3
+Bug fix to the access level of MessageKitDateFormatter singleton 'sha…,2017-12-06,Merged,378,1,1,,1
+update Example podfile :path value,2017-12-06,Merged,377,7,7,,1
+Update FAQs.md,2017-12-04,Merged,375,1,1,,0
+Remove hack code in tests,2017-12-04,Merged,373,1,2,,1
+Update swiftlint conf to exclude unneeded sorces,2017-12-04,Merged,372,8,5,,1
+Version 0.11.0,2017-12-04,Merged,371,"1,098","1,078",lock swift podspec ,4
+Moving the test suite to Quick/Nimble,2017-12-07,Merged,368,163,38,yml private resolved pbxproj swift ,7
+Optimize DateFormatter to static variable,2017-12-02,Merged,367,11,4,,1
+Fix MessageInputBar bottomAnchor issue,2017-12-01,Merged,366,1,0,,1
+Improve wording in deprecation messages,2017-11-30,Merged,365,4,4,,1
+Add shouldCacheLayoutAttributes method,2017-12-02,Merged,364,19,1,swift ,2
+Remove different protocols for different MessageTypes,2017-11-30,Merged,363,245,353,lock swift pbxproj ,5
+Bottom anchor size,2017-11-30,Closed,361,80,52,swift ,1
+"Revert ""update""",2017-11-23,Merged,360,1,2,,1
+update,2017-11-23,Merged,359,2,1,,1
+Fix MessageInputBar bottomAnchor issue,2017-11-30,Merged,358,10,3,,1
+MessageLabel detectors off by default and configure method,2017-11-28,Merged,356,108,101,swift ,4
+Remove MessageLabel typing from CellTopLabel & CellBottomLabel / Origin Gardening,2017-11-28,Merged,355,225,308,swift ,1
+verticaleBounce always true,2017-11-14,Merged,352,3,1,,1
+MessageInputBar bottomAnchot Fix,2017-11-16,Merged,350,17,1,swift ,1
+Fix MessageInputBar translucent property,2017-11-14,Merged,348,6,11,swift ,1
+Bugfix/separator line,2017-11-13,Merged,347,2,1,,1
+Cut release v0.10.2,2017-11-12,Merged,346,9,1,podspec ,1
+Fix inputTextView calculation bug,2017-11-12,Closed,344,9,9,,1
+Fix pixelated initials in avatar,2017-11-11,Merged,343,6,2,swift ,1
+Fix crash for escaping block,2017-11-10,Merged,342,2,2,,1
+Fix MessageLabel address detection,2017-11-10,Merged,341,36,25,,1
+Fix to scroll when the height of the keyboard has changed,2017-12-17,Merged,340,25,10,,2
+Fix to scroll to bottom when the height of the keyboard has changed,2017-11-08,Closed,339,43,21,json storyboard swift ,33
+Change from closed to half-open range operator,2017-11-08,Merged,337,22,22,,2
+Refined Example App Icon,2017-11-08,Merged,335,42,21,json storyboard ,32
+Adjust top contentInset on iOS < 11,2017-11-12,Merged,334,20,0,swift ,1
+Fix keyboard not dismiss on iOS9,2017-11-07,Merged,333,1,1,,1
+Update MessageKit+Availability.swift,2017-11-07,Merged,332,0,41,,1
+Fix Keyboard not dismiss on iOS9,2017-11-07,Closed,330,219,76,,3
+Fix messagesCollection constraints bug on iOS9,2017-11-12,Closed,329,15,16,,2
+Fix bottom label origin bugs,2017-11-05,Merged,326,10,4,lock swift ,2
+Fix MessageInputBar layout issues && code optimize,2017-11-11,Merged,325,23,12,,10
+Refactoring MessageStyle to use CAShapeLayer,2018-03-23,Closed,324,292,129,swift ,5
+Refactor AvatarAlignment -> AvatarPosition,2017-11-07,Merged,322,203,176,swift pbxproj ,3
+Add a top InputStackView to MessageInputBar,2017-11-05,Merged,320,223,75,swift ,2
+Refactor `initals` to `initials`.,2017-11-02,Merged,315,23,17,swift ,5
+v0.10.1,2017-11-02,Merged,314,3,1,podspec ,1
+Bugfix/select menu button,2017-11-02,Merged,313,27,10,swift ,3
+Fix left、rightStackView layout issues,2017-11-01,Merged,311,3,3,,2
+Fix UITextView content size ambiguous issue,2017-11-01,Merged,310,20,5,swift ,1
+Add .top InputStackView and Docs,2017-10-31,Closed,305,208,66,,1
+Updated MessageIntermediateLayoutAttribute.swift,2017-10-31,Closed,303,0,1,,1
+[WIP] Fixing scroll to bottom,2017-12-11,Closed,301,14,4,,2
+[WIP] Rewriting MessageLabel,2017-11-01,Closed,299,436,316,,1
+Default frames based on device orrientation,2017-11-19,Closed,295,18,3,,2
+Add more badges to README - Closes #293,2017-10-27,Merged,294,23,2,,0
+Added example to changelog guidelines,2017-10-26,Merged,292,27,1,,0
+Vision copyedit,2017-10-26,Merged,290,4,4,,0
+Use HTML comments to clear up the PR template,2017-10-26,Merged,289,6,2,,0
+Adding method to remove cached attributes by message id.,2017-10-26,Merged,288,9,1,,1
+Enhancement/load more messages and maintain scroll position,2017-12-17,Merged,284,41,10,,2
+Provide an interface to access the avatarView in MessagesDataSource,2017-10-30,Closed,283,17,6,swift ,2
+v0.10.0,2017-10-26,Merged,282,"4,188",999,pbxproj lock swift json png storyboard ,22
+Misc/i phone x layout support,2017-10-24,Merged,280,62,20,swift ,3
+Misc/protocol addition,2017-11-07,Closed,279,72,15,pbxproj swift ,4
+fix issue #232 to stop calculating origins for UI elements with a .zero frame,2017-10-23,Closed,278,4,4,,1
+Adds some Xcode documentation,2017-10-24,Merged,277,396,15,swift ,11
+Styled up Example!!!,2017-10-24,Merged,276,140,105,swift json png storyboard ,22
+Documentation Updates,2017-10-22,Merged,275,178,67,,3
+MessageInputBar Items to a protocol InputItem,2017-10-23,Closed,274,264,176,pbxproj swift ,5
+New Classes: SeparatorLine & InputStackView,2017-10-21,Merged,273,189,40,pbxproj swift ,5
+Cleanup/message input bar,2017-10-21,Closed,272,"1,152",562,pbxproj ,4
+Fix a couple spelling errors in README,2017-10-20,Merged,271,2,2,,0
+Update QuickStart.md,2017-10-19,Merged,269,1,1,,0
+Changing MessagesViewController reference to MessageInputBar,2017-10-18,Merged,267,6,3,swift ,1
+iPhone X Support,2017-10-18,Merged,266,5,2,swift ,1
+Update the README.md for using swift 3,2017-10-18,Merged,264,18,0,,0
+Improve MessagesCollectionViewLayout performance,2017-10-22,Merged,263,753,438,pbxproj swift ,2
+Bug Fix for issue #260,2017-10-17,Merged,262,9,21,swift ,1
+Fixes ui call on non-main event,2017-10-14,Merged,258,3,1,,1
+Increase Unit Test coverage,2017-10-23,Merged,253,"2,389",173,orig swift ,4
+Adding transactional message cell,2017-10-10,Closed,252,7,1,,2
+Fixes #243 by deprecating addiontalTopContentInset,2017-10-12,Merged,250,31,13,lock swift ,5
+Adding test case for textColor when dataSource is nil,2017-10-10,Merged,249,6,0,,1
+Adding copy/paste support from MessagesViewController,2018-01-10,Closed,248,99,4,,2
+iPhone X Keyboard Issue,2017-10-18,Closed,247,130,67,,2
+Fix test failure after TextMessageDisplayDelegate refactoring,2017-10-10,Merged,245,1,1,,1
+"MessageInputBar Overhall -> Top UIStackView, Autocomplete and Attachment managers",2017-10-17,Closed,244,709,228,swift ,2
+[Fixed] Emoji 2x sizing bug,2017-10-06,Merged,241,8,5,,2
+Fixing input bar on iPhone X,2017-10-18,Closed,240,12,6,,3
+Fix MediaMessageCell’s off center play button,2017-10-06,Merged,239,5,2,swift ,1
+[Example] Fix warning from thread access on reload,2017-10-05,Closed,236,3,1,,1
+Update folder structure to represent groups,2017-10-05,Merged,235,221,218,lock swift podspec plist h ,55
+Fix #221 scroll to bottom is not working in sample app,2017-10-04,Merged,233,1,0,,1
+[Added] TextMessageDisplayDelegate,2017-10-05,Merged,230,51,15,swift ,4
+Update header/footer dequeueing for new reuseIdentifiers,2017-10-04,Merged,229,72,36,swift ,6
+Indentation Settings,2017-10-04,Merged,227,54,39,pbxproj swift ,13
+RFC: Remove all tab-indentation from the Source Files,2017-10-04,Merged,226,39,39,,11
+Simplify Cell/Header/Footer Class Registration,2017-10-04,Merged,225,59,33,swift ,10
+Organization & Lint Cleanup,2017-10-04,Merged,224,29,20,pbxproj ,4
+Update issue_template,2017-10-04,Merged,223,56,0,,0
+Add support for emoji-only messages,2017-10-04,Merged,222,53,14,swift ,7
+Fix typos on CONTRIBUTING.md,2017-10-03,Merged,220,2,2,,0
+Update the ChatExample app to use a random data generator,2017-10-03,Merged,219,172,75,,3
+[Added] additionalTopContentInset property,2017-10-03,Merged,218,11,0,swift ,1
+[Added] scrollsToBottomOnKeyboardDidBeginEditing property,2017-10-03,Merged,217,20,2,swift ,2
+Create issue_template.md,2017-10-03,Closed,216,26,0,,0
+- added open var scrollsToBottomOnFirstLayout,2017-10-02,Merged,213,15,2,swift ,2
+Update folder structure accordingly to Xcode groups,2017-10-05,Closed,212,41,33,png swift plist h ,67
+Added custom animation support for displaying map on location messages.,2017-10-02,Merged,210,35,2,swift ,3
+[WIP] [Fixed] iPhone X inputAccessoryView layout issue,2017-10-18,Closed,209,18,2,,2
+Allow padding to be set around MessageContainerView,2017-10-04,Merged,208,72,41,swift ,5
+[Fixed] Set extendedLayoutIncludesOpaqueBars to true by default,2017-10-02,Merged,204,3,0,swift ,1
+[Changed] Set configure to open for all MessagesCollectionViewCells,2017-10-02,Merged,200,6,2,swift ,2
+Feature: animate location message display,2017-10-01,Closed,199,904,166,png md ,2
+Allow MessageLabelDelegate to specify enabled data detectors,2017-10-04,Closed,197,9,4,,3
+Fix override keyword placement in function declaration,2017-09-30,Merged,196,31,25,swift ,12
+New swiftlint rule to manage proper placing of override keyword,2017-09-30,Closed,195,6,0,,1
+[WIP] Added a top UIStackView to MessageInputBar,2017-10-04,Closed,194,597,62,png swift ,12
+fix proposal for #180,2017-09-28,Merged,181,1,1,,1
+Update for PR #178,2017-09-28,Merged,179,4,0,,0
+A proper fix to the rendering bug from #128,2017-09-28,Merged,178,16,36,,3
+Modify protection level of UICollectionViewDataSource methods,2017-09-28,Merged,177,7,7,,1
+Issue #164: Setting avatars asynchronously,2017-09-30,Closed,176,13,3,,2
+Make header and footer view initializers public,2017-09-28,Merged,175,5,5,,3
+Fix scroll indicator inset,2017-09-28,Merged,174,6,1,,1
+Height Fix for MessageInputBar during paste,2017-09-28,Merged,173,47,10,swift ,2
+Issue #153 Update changelog prerelease headers,2017-09-26,Merged,170,14,14,,0
+Issue #129 : Removing intrinsic content size and using NSLayoutContra…,2017-09-28,Closed,169,23,24,,1
+[Added] UIEdgeInsets associated value to LabelAlignment,2017-09-26,Merged,166,82,38,swift ,5
+[Added] .custom case to MessageStyle enum,2017-09-26,Merged,163,13,2,swift ,3
+[Fix] Allow dynamic setting of messageLabelInsets #159,2017-09-25,Merged,162,40,15,lock swift ,4
+v0.9.0,2017-10-06,Merged,157,"1,744",589,md yml png ,3
+[WIP] Making copy feature using partial Collection view mechanism. Could no…,2017-10-09,Closed,155,88,11,lock swift ,4
+v0.8.2,2017-09-24,Merged,152,62,58,md pbxproj swift podspec ,11
+Swift 4 support,2017-09-24,Merged,151,56,56,swift podspec ,12
+LocationMessageDisplayDelegate to add custom annotations,2017-09-25,Merged,150,146,15,json png swift pbxproj ,11
+v0.8.1,2017-09-22,Merged,147,68,70,pbxproj xcscheme lock swift podspec ,7
+Fix broken image path for Carthage,2017-09-22,Merged,146,4,4,podspec swift ,3
+Closes #72 & #130,2017-09-21,Merged,141,1,0,,1
+v0.8.0,2017-09-22,Merged,140,"1,181",314,json png swift podspec ,8
+Add missing resources for Carthage,2017-09-21,Merged,139,30,88,md pbxproj lock podspec ,22
+New avatar view,2017-09-22,Merged,138,147,50,,2
+Avatar view fix,2017-09-19,Closed,137,96,14,pbxproj swift xctimeline ,7
+Bug fix/long message label issue72,2017-09-20,Closed,136,24,2,swift ,5
+Issue #129,2017-09-22,Closed,135,6,7,,2
+Bugfix/message input bar rendering,2017-09-16,Closed,128,8,2,,1
+Added Slack and iMessage setup code to Example project,2017-09-19,Merged,127,137,32,png swift ,6
+Supporting Media Messages,2017-09-21,Merged,126,773,175,pbxproj ,4
+Refactoring keyboard handling,2017-09-19,Merged,125,42,42,lock swift ,3
+Add Danger to CI,2017-10-05,Closed,119,27,7,Dangerfile Gemfile ,3
+Update example project to use CocoaPods,2017-09-11,Merged,118,235,69,,0
+Update MessageKit.podspec for v0.7.2,2017-09-11,Merged,115,1,1,,1
+Update path for images to fix issue where bubble images don't load,2017-09-11,Merged,114,1,1,,1
+Update CHANGELOG.md to 0.7.1,2017-09-11,Merged,113,4,0,,0
+Update assets to be included within the Podspec,2017-09-11,Merged,112,94,70,plist strings podspec pbxproj swift ,23
+[WIP] Avatar view fix,2017-09-21,Closed,111,96,14,pbxproj swift xctimeline ,7
+NSLayoutConstraint Usage Tweaks,2017-09-11,Merged,105,25,27,,3
+Possible fix for cut initials in avatar view.,2017-09-11,Closed,104,1,1,,1
+Add images for bubbles,2017-09-04,Merged,102,0,0,,18
+Add message bubble graphics,2017-09-04,Closed,101,0,0,,12
+A workaround solution for the render issue with MessageInputBar,2017-09-04,Merged,99,49,15,swift ,7
+v0.7.0,2017-09-10,Merged,98,"1,181",327,plist strings md pbxproj swift podspec ,24
+add updated logo,2017-09-06,Merged,97,1,1,md ,1
+MessageContainerView updates,2017-09-02,Merged,94,345,8,pbxproj ,4
+Update deployment target in MessageKit.podspec,2017-09-02,Merged,93,1,1,,1
+Fix side effect of inputAccessoryView rendering bug fix,2017-08-31,Merged,92,14,4,,3
+messagesCollectionView top constraint to superView,2017-08-29,Merged,90,6,6,,2
+"Bubble styles, and MessageContainerView updates",2017-09-02,Closed,88,416,129,swift ,3
+To solve issue #86,2017-08-29,Closed,87,22,18,,1
+Redone MessageInputBar and its related views,2017-08-29,Merged,84,"1,187",233,svg pbxproj json png swift xctimeline ,14
+Update MessageKit logo,2017-08-25,Merged,81,20,19,,1
+v0.6.0,2017-09-02,Merged,80,"1,398",448,md pbxproj json png swift xctimeline podspec ,16
+Update README with Carthage installation instructions,2017-08-25,Merged,79,7,0,,0
+Fixed spelling mistake in CONTRIBUTING.md,2017-08-18,Merged,76,1,1,,0
+Update the Slack Link,2017-08-18,Merged,75,6,1,,0
+Fix for Crash issue when no message #61,2017-08-16,Merged,73,1,1,,1
+v0.5.0,2017-08-25,Merged,70,978,119,md swift podspec ,4
+Fixed various links throughout the Readme. I also removed Getting Sta…,2017-08-15,Merged,68,6,7,,0
+Message text color2,2017-08-18,Merged,66,244,40,swift ,6
+Message Text Color Customization.,2017-08-14,Closed,65,479,119,svg md swift podspec ,6
+[WIP] [Example] Feature/attributed text bubble,2017-08-15,Closed,60,37,3,,3
+v0.4.0,2017-08-13,Merged,59,322,113,md swift podspec ,8
+Update README.,2017-08-12,Merged,58,59,13,,0
+Fixes #50,2017-08-11,Merged,55,43,15,,2
+Bug: Collection View Content Size Issue #33 is fixed.,2017-08-14,Merged,54,32,29,,1
+Bug: Collection View Content Size Issue #33 is fixed.,2017-08-10,Closed,53,32,29,,1
+V0.5.0,2017-08-10,Closed,52,9,0,,0
+Fixes #50,2017-08-10,Closed,51,33,5,,2
+Updates README with cocoapods instructions,2017-08-10,Merged,48,9,0,,0
+"Focusing on the ""why""",2017-08-10,Closed,47,8,2,,0
+Fix #41,2017-08-10,Merged,42,8,0,,1
+Avatar view struct,2017-08-08,Merged,39,233,297,json jpg storyboard swift ,7
+InputTextView,2017-08-08,Merged,32,119,4,swift ,3
+AvatarView,2017-08-06,Merged,31,254,65,swift pbxproj jpg xcplayground ,10
+v0.3.0,2017-08-10,Merged,30,859,472,pbxproj swift json jpg storyboard ,5
+Change send button UI and implemented disabled logic.,2017-08-05,Merged,29,10,1,,2
+Avatar,2017-08-05,Closed,27,328,140,swift pbxproj jpg xcplayground xctimeline ,9
+Avatar,2017-08-06,Closed,26,232,36,swift pbxproj jpg xcplayground xctimeline ,10
+v0.2.0,2017-08-05,Merged,25,790,339,md swift podspec ,8
+MessageInputBar TextView Improvement,2017-08-03,Closed,24,407,296,swift pbxproj ,9
+MessageInputBar improvement,2017-08-03,Closed,21,164,14,pbxproj ,6
+Fix for #19,2017-08-03,Closed,20,382,293,swift pbxproj ,9
+Code refactor to improve readability,2017-08-01,Closed,18,67,36,,7
+"Readme fix - I believe the ""in Swift"" was unnecessary.",2017-07-31,Merged,17,1,1,,0
+Fixes #13,2017-07-28,Merged,14,189,164,,3
+Add Code of Conduct,2017-07-27,Merged,11,40,0,,0
+Update VISION.md,2017-07-27,Merged,9,2,0,,0
+v0.1.0: Minor code changes.,2017-07-26,Closed,7,17,7,,3
+v0.1.0,2017-07-27,Merged,5,"1,636",259,swift json jpeg storyboard ,9
+Dump former MessageKit repo contents,2017-07-19,Merged,3,"1,726",697,gitignore md ,3

@@ -1,0 +1,156 @@
+Fixed 6 typo errors in the log.md files,2018-10-29,Merged,274,6,6,,0
+Update zone.md,2018-10-29,Merged,273,1,1,,0
+Update READMEs for the examples and fixed some grammatical errors in transport.md,2018-10-29,Merged,272,44,44,,0
+Made some fixes in transport-js-builtins.md,2018-10-29,Merged,271,25,25,,0
+fixed typos,2018-10-29,Merged,270,1,1,,0
+Fix small typos,2018-10-29,Merged,269,13,13,cpp ,1
+Change var to const in the README.md,2018-10-29,Merged,268,2,2,,0
+Fix some small typos,2018-10-29,Merged,267,10,10,js ,1
+Fix small typo,2018-10-22,Merged,266,3,3,,0
+Started sentence with 'A' instead of 'a'.,2018-10-22,Merged,264,11,11,,1
+Update README.md,2018-10-08,Merged,263,5,5,,0
+Fixed grammatical errors.,2018-10-08,Merged,262,3,3,,0
+Fix Markdown and grammar,2018-10-08,Merged,261,32,34,,0
+Add cmake-js dependency to package.json,2018-07-23,Merged,246,1,0,,1
+Samples to show napa's node worker could use core node modules and top npm modules.,2018-06-19,Merged,245,367,0,md html js json ,10
+clean macro NAPA_API and NAPA_BINDING_API,2018-06-05,Merged,244,9,19,,6
+remove dependencies of /src from headers,2018-06-05,Merged,243,151,121,cpp ,2
+remove --allow-native-syntax flag during worker initialization,2018-06-04,Merged,242,1,9,,1
+update npm dependencies,2018-06-04,Merged,241,5,5,,1
+Update minimum nodejs version to 10.2.1 and fix CI build,2018-05-31,Merged,240,10,180,md js txt h ,6
+use napajs@pre for tutorial examples,2018-05-24,Merged,239,5,5,,5
+fix and re-enable builtin type transportation,2018-05-09,Merged,235,43,6,h ts ,3
+Fix assert.ifError() usage in test,2018-05-19,Merged,233,1,1,,1
+Set 'this' reference to module.exports in module's top level code,2018-05-04,Merged,232,10,1,,1
+[ci skip] Update Napa.js to version 0.2.3,2018-05-02,Merged,230,1,1,,1
+Fix crash on some linux environment,2018-05-02,Merged,229,45,30,txt ,2
+fix build/test break introduced by v8 breaking change from node v10.x,2018-04-25,Merged,224,12,4,cpp ts ,4
+[ci skip] Update Napa.js to version 0.2.2,2018-04-20,Merged,222,1,1,,1
+Fix build: add missing header file,2018-04-20,Merged,221,1,0,,1
+Fix load() implementation of transportable object,2018-04-19,Merged,216,31,9,,3
+Update 3rd party library 'args' to latest version (7bf1700),2018-04-04,Merged,215,"2,991",876,,1
+Move macro NAPA_DEBUG to inc/napa/log.h,2018-04-03,Merged,213,16,28,cpp ,11
+Trival fix on transport doc,2018-04-03,Merged,212,1,1,,0
+Bugfix: make sure setting work idle happens after setup,2018-03-30,Merged,211,5,6,cpp ,3
+"Timers related function, set/clear Immediate/Timeout/Interval",2018-04-04,Merged,207,672,58,ts txt cpp proj ,8
+[ci skip] Update Napa.js to version 0.2.1,2018-03-12,Merged,206,1,1,,1
+Lock Node version on build matrix-(Ubuntu14.04),2018-03-12,Merged,205,16,5,,1
+Fix node version check,2018-03-12,Merged,204,6,3,json ,2
+Update function group `zone.broadcast`,2018-04-03,Merged,201,343,111,h ts ,6
+Optimize macro napa debug,2018-03-28,Merged,199,7,2,,1
+Set/Clear Immedidate/Timeout/Interval.,2018-03-13,Closed,198,0,0,,0
+Add Napa.js core modules development guideline,2018-03-07,Merged,191,57,0,,0
+Allow both .js and .ts files in /lib/core,2018-02-02,Merged,190,10,0,npmignore ,2
+Fix unittest build break in Clang,2018-02-02,Merged,189,3,2,,0
+Add encoding support on napa API,2018-05-15,Closed,188,278,36,cpp ,8
+[ci skip] Update Napa.js to version 0.2.0,2018-01-06,Merged,182,1,1,,1
+fix bug when transporting 'null',2018-01-05,Merged,181,4,2,,2
+Add an example that uses napa.sync.Lock,2018-01-05,Merged,179,124,1,json js ,4
+Fix anchor name in sync.md,2018-01-04,Merged,177,2,2,,0
+Update docs/api/transport.md about transporting JS built-in objects,2018-01-04,Merged,176,18,1,,0
+parallel quicksort example,2018-01-04,Merged,175,149,0,json js ,2
+[ci skip] Update Napa.js to version 0.1.8,2017-12-28,Merged,172,1,1,,1
+Minor fix (proposal),2018-01-04,Merged,171,2,2,,0
+Fixes Angular typo,2017-12-27,Merged,169,1,1,,0
+convert transport builtin types test to TypeScript,2017-12-23,Merged,168,230,262,js ,2
+Fix Node's version to 9.2.1 on CI build (Linux),2017-12-18,Merged,163,5,1,,1
+fix macro LOG when NAPA_LOG_DISABLED is set,2017-12-15,Merged,161,2,8,,1
+Fix test failure in sync-test,2017-12-29,Merged,160,37,34,,1
+Add file npm-debug.log to ignore list,2017-12-14,Merged,159,5,1,npmignore ,2
+Fix module loader crash on package.json that doesn't have 'main' property.,2017-12-28,Merged,156,22,13,ts ,4
+Fix string encoding in Napa,2017-12-29,Merged,153,196,32,cpp ts ,9
+transport JavaScript standard builtin objects,2017-12-20,Merged,151,"1,140",34,md h ts txt cpp ,6
+Fix a build warning in lock-wrap.cpp,2017-12-09,Merged,145,1,1,,1
+[ci skip] Update Napa.js to version 0.1.7,2017-11-29,Merged,142,1,1,,1
+Fix hanging promise when callback from Napa to Node,2017-11-29,Merged,141,33,21,,5
+[ci skip] Update Napa.js to version 0.1.6,2017-11-23,Merged,138,1,1,,1
+Support transporting JavaScript built-in types,2017-12-19,Closed,137,851,1,md ts cpp h ,5
+[CI matrix] Revert node version for LTS/current to latest,2017-11-22,Merged,136,3,25,,2
+removed additional commas in unordered-set template definition,2017-11-22,Merged,135,2,2,,1
+Disable incremental marking on Node > 8.4.0,2017-11-22,Merged,134,11,16,,1
+[ts] Fix cid decorator for transportable object definition,2017-11-21,Merged,133,12,17,,2
+dll::ThisLineLocation(): Remove UNC prefix '\\?\' if it presents,2017-11-21,Merged,132,13,0,,1
+[Feature] Introduce napa.sync.Lock for synchronization handling,2017-12-04,Merged,129,336,12,ts cpp h ,6
+Add cache for ModuleResolver,2017-11-13,Merged,128,174,3,h txt ,4
+Remove trailing semi-colon in macro definitions,2018-01-05,Merged,127,24,24,cpp h ,18
+Add the timer timeout resolution to 100ms in unittest,2017-11-09,Merged,126,6,6,,1
+Throw exception when node version is not supported,2017-11-09,Merged,125,43,11,js ,3
+fix exporting shared library funcitons for plus-number example,2017-11-07,Merged,122,8,11,h json ,2
+Fix napajs example module,2017-11-07,Merged,118,14,10,ts ,3
+[ci skip] Update Napa.js to version 0.1.5,2017-11-03,Merged,117,1,1,,1
+[ci skip] Add Node9.x to release CI matrix,2017-11-03,Merged,116,2,0,,2
+add node version checking and prompt,2017-11-03,Merged,115,12,0,,1
+Updated readme example to es6,2018-01-19,Closed,113,2,2,,0
+Fix build warning: ISO C++ forbids converting a string constant to ‘char*’,2017-11-03,Merged,112,6,6,cpp ,5
+Update CI matrix for Node.js versions,2017-11-03,Merged,111,20,16,,2
+napa embeded support for Linux,2017-11-08,Merged,110,266,34,txt js cpp json ,4
+Bugfix: Assertion failed: `workerId < _workers.size()`,2017-11-02,Merged,109,14,1,cpp ,4
+remove dup license in readme,2017-11-02,Merged,108,0,5,,0
+Add license in README and one contribute item,2017-10-30,Merged,105,6,0,,0
+Update Zone API Documentation Grammar,2017-10-26,Merged,101,16,16,,0
+Add FAQ to README and remove contact list.,2017-10-23,Merged,97,5,7,,0
+Add license in README and one contribute item,2017-10-22,Merged,91,6,0,,0
+Typo in README.md,2017-10-20,Merged,88,1,1,,0
+[ci skip] Update Napa.js to version 0.1.4,2017-10-19,Merged,86,1,1,,1
+Update zone.md to distinguish from zone in DART,2017-10-19,Merged,85,3,1,,0
+Fix typo in node API docs,2017-10-19,Merged,84,1,1,,0
+typo in readme,2017-10-19,Closed,82,1,1,,0
+Fix RPATH for shared library,2017-10-19,Merged,81,45,33,,0
+Unnest promises in fibonacci example.,2017-10-19,Merged,79,6,7,,1
+Update README.md,2017-10-18,Closed,78,1,58,,0
+(docs) api/node-api.md small typo,2017-10-19,Merged,75,1,1,,0
+docs(transport.md): correct link path,2017-10-19,Merged,73,1,1,,0
+(Admittedly Petty) Clean style in readme example,2017-10-19,Merged,71,1,3,,0
+Update store-test.ts,2017-10-19,Closed,69,1,1,,1
+Unnest promises in pi example,2017-10-18,Merged,68,3,4,,1
+Fix npmlog: log.warning to log.warn,2017-10-18,Merged,67,1,1,,1
+Export '__in_embed' switch,2017-09-25,Merged,64,8,3,,1
+[ci skip] Update Napa.js to version 0.1.3,2017-09-13,Merged,63,1,1,,1
+Allow to skip force prepare in installation process,2017-09-13,Merged,62,3,1,,1
+Add 'description' field in package.json,2017-08-30,Merged,61,1,0,,1
+[ci skip] Update Napa.js to version 0.1.2,2017-08-28,Merged,59,1,1,,1
+resolve napajs_inc/napajs_lib by build.paths,2017-08-30,Merged,57,155,212,gyp cpp json ts txt ,8
+fix lib path resolving in scripts/paths.js,2017-08-24,Merged,56,15,2,,1
+Update AppVeyor account in README,2017-08-24,Merged,54,1,1,,0
+Update comments in .travis.yml,2017-08-24,Merged,53,2,2,,1
+remove third-party dir in npmignore,2017-08-23,Merged,52,0,1,,1
+Format C++ sources files in project,2018-01-19,Closed,51,"1,979","1,982",,0
+expose build.paths to help resolve lib/inc/third-party of napajs,2017-08-22,Merged,50,"10,727",4,js txt ,2
+[ci skip] Update Napa.js to version 0.1.1,2017-08-22,Merged,49,1,1,,1
+Update Readme for prebuild,2017-08-22,Merged,48,2,19,,0
+Added a script for building napa in embed mode,2017-08-29,Merged,47,177,20,js txt cpp h ,7
+Fix install failure when fallback from fetch to build,2017-08-21,Merged,46,42,24,,1
+Update CI configuration to enable uploading pre-build binaries,2017-08-22,Closed,45,50,69,,2
+Update document for pre-build installation and increment package version,2017-08-21,Closed,44,2,1,json ,1
+Onboard clang-format,2018-05-16,Closed,43,"5,655","6,025",ts ,6
+Enable pre-build for napa.js,2017-08-18,Merged,41,115,22,txt json js ts napa ,7
+Polish zone.execute: transported function will inherit __dirname from caller.,2017-08-17,Merged,40,404,166,ts cpp h ,8
+Updated README to clear ambiguity in verbiage,2017-10-19,Closed,39,1,1,,0
+Formalize module development depending on 'napajs',2017-08-17,Merged,38,648,571,gitignore npmignore gyp proj ts json vcxproj cpp njsproj ,14
+Update CI build matrix for travis and appveyor,2017-08-10,Merged,35,80,21,yml md ,3
+Update README.md,2017-08-10,Merged,34,4,1,,0
+API tuning: two minor changes for usability.,2017-08-08,Merged,29,84,61,ts ,7
+Update package version,2017-08-07,Merged,28,1,1,,1
+Update Prerequisites section in README.md,2017-08-04,Merged,25,3,3,,0
+Add test generated files to .npmignore,2017-08-03,Closed,24,4,0,,1
+Release candidate for 0.1.0,2017-08-03,Merged,23,"1,261",733,npmignore yml md ts ,4
+Dev/alwang/spelling,2017-08-03,Merged,22,2,2,,2
+Dev/alwang/spelling,2017-08-03,Merged,21,88,88,ts js h ,11
+Tune package.json and published files.,2017-08-03,Merged,20,34,20,npmignore json ts ,6
+Fix 'benchmark' command line,2017-08-03,Closed,19,1,1,,1
+Polishing documentation,2017-08-02,Merged,18,499,575,md ,1
+Move storage lock from StoreWrap to Store,2017-08-02,Merged,17,27,29,h ,6
+Update Store API to add Enter() and Exit() method,2017-08-02,Closed,16,48,10,h ,4
+Update Store API to offer a post-process on Get() method,2017-08-02,Closed,15,31,27,h ,4
+Fix memory leak.,2017-08-02,Merged,14,75,39,ts cpp ,6
+Fix memory leak from TransportContextWrap - explicitly specify ownership.,2017-07-31,Closed,13,481,11,js json ,2
+napa store lock,2017-08-01,Closed,12,8,12,h ,3
+Update support versions for windows/visual studio 2017,2017-08-02,Merged,11,1,1,,0
+3 examples for tutorial,2017-07-31,Merged,10,470,0,js json ,4
+Update Readme.md,2017-07-26,Closed,9,12,12,,0
+Add link to wiki page,2017-07-25,Closed,8,6,16,,0
+Support Node.8.2.1 on Ubuntu.,2017-07-25,Merged,7,29,15,cpp ,14
+Create travis-ci build matrix,2017-07-26,Merged,6,28,17,json h ,3
+[CI] testing package and publish for travis-ci,2017-07-21,Closed,3,43,1,json ,2
+Fix build warnings,2017-07-20,Merged,2,3,3,cpp ,2
+Add travis-CI configuration for linux/gcc5.4/node6.x,2017-07-25,Closed,1,70,24,md json cpp h ,6

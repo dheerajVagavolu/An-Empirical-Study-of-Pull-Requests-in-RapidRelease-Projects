@@ -1,0 +1,340 @@
+Update GPLv3 image URL in GH pages,2017-04-18,Merged,927,1,1,,1
+call-out,2017-03-01,Closed,913,"1,870",742,yml gradle xml java ,10
+Fixing #852 - Removing duplicate icons on the map viewer and defaulti…,2017-01-14,Merged,906,118,84,,1
+Update translateable_strings.xml,2016-11-26,Closed,905,1,1,,1
+Import OCID data from cell_towers.csv,2017-01-14,Merged,894,520,49,,6
+Fix issue #888 NullPointerException by checking possible nulls.,2016-07-06,Merged,889,8,2,,1
+Merge pull request #1 from CellularPrivacy/development,2016-06-24,Closed,887,0,0,,0
+Merge pull request #1 from CellularPrivacy/development,2016-06-22,Closed,885,0,0,,0
+Merge pull request #868 from CellularPrivacy/development,2017-01-14,Closed,883,0,0,,0
+Fix #876,2016-05-25,Merged,878,239,129,xml ,2
+Fixed empty neighbor cells list detection,2016-05-09,Merged,874,31,19,xml ,2
+Unchaining WIP-Release v0.1.43-alpha,2016-05-01,Merged,868,"3,111","5,810",gradle xml sql db ,6
+Consistent spelling of neighboring to fix #865,2016-04-26,Merged,866,131,127,,10
+Unchaining WIP-Release v0.1.42-alpha,2016-04-03,Merged,834,"1,679","2,130",yml gradle xml java ,6
+Fix for crash when downloading OCID data in airplane mode,2016-04-03,Merged,833,1,1,,1
+SMS Detection fixup,2016-03-31,Merged,830,1,1,,1
+Fix issue when requesting an OpenCellId key.,2016-03-31,Merged,829,1,1,,1
+Feature/realm,2016-04-23,Merged,827,"2,394","5,611",gradle xml sql db ,6
+Use Lombok,2016-03-29,Merged,825,708,"1,635",java ,4
+MapFragment.loadEntries: Return null if not attached,2016-03-29,Merged,824,3,3,,1
+Check current cell against OCID after download,2016-03-26,Merged,823,89,15,xml ,8
+Fix #816,2016-03-25,Merged,821,3,3,,1
+Set targetSdk to 22 and use a white notification icon,2016-03-21,Merged,818,61,17,xml java ,6
+Unchaining WIP-Release v0.1.41-alpha,2016-03-13,Merged,815,"2,144","1,777",yml gradle xml java ,5
+Fix invalid LAC and CID values causing false alerts and adding trash to the database,2016-03-06,Closed,813,27,13,,3
+Rename java packages to lowercase,2016-03-06,Merged,812,391,388,xml java ,17
+Switch to IDLE when attack detection is turned off,2016-03-02,Merged,809,71,65,,1
+Display RAT in map marker details populated by DBi_bts,2016-02-29,Merged,807,18,7,,3
+Refactor RAT/Network Type into one place,2016-03-06,Merged,806,7,123,,4
+null-guard service before driving menu options,2016-02-28,Merged,805,39,2,,1
+Credits dialog bug fix,2016-02-28,Merged,804,89,70,xml ,2
+CellInfoFragment refresh button changed to swiperefreshlayout,2016-02-27,Merged,799,76,85,xml ,3
+Fixed #794,2016-02-27,Merged,798,5,5,,1
+783 all current cell details bugfix,2016-02-27,Merged,797,718,708,,4
+Recheck cell after OCID download,2016-03-25,Closed,793,20,0,,1
+Don't truncate MNC integer after 2 chars in OCID download,2016-02-26,Merged,792,2,2,,1
+Fix link to CONTRIBUTING,2016-02-26,Merged,791,2,2,,0
+Animated credits dialog,2016-02-26,Merged,787,48,4,xml ,2
+Added credits dialog animation file,2016-02-24,Closed,786,7,0,,1
+Animated credits dialog,2016-02-23,Closed,785,47,5,,1
+Unchaining WIP-Release v0.1.40.1-alpha,2016-02-21,Closed,780,7,4,md ,1
+Unchaining WIP-Release v0.1.40-alpha,2016-02-21,Merged,779,"1,444",587,gradle xml ,3
+UX refactoring,2016-02-21,Merged,776,"1,394",567,xml java ,11
+UX refactoring,2016-02-20,Closed,775,698,754,xml java ,6
+CellTowerMarker: Show PSC and RAT,2016-02-28,Merged,772,210,28,,7
+Unchaining WIP-Release v0.1.39.1-alpha,2016-02-16,Merged,770,792,728,xml AIMSICD/src/main/assets/CREDITS ,4
+Unchaining WIP-Release v0.1.39-alpha,2016-02-14,Merged,768,"1,582",735,yml gradle xml txt java ,9
+only try to encrypt the keystore when the vars are present,2016-02-14,Closed,767,1,1,,1
+"Store credits as a string resource, fixes #726",2016-02-15,Merged,766,243,269,java ,3
+Minor update to stop the app from crashing,2016-02-13,Merged,765,12,9,,1
+Italian Translation,2016-02-03,Closed,763,427,0,,0
+italian traslation,2016-02-01,Closed,762,429,2,,0
+"Revert ""Updating Russian""",2016-01-30,Merged,761,178,195,,0
+Updating Russian,2016-01-30,Merged,760,195,178,,0
+Fix display of Status Icon,2017-09-08,Closed,758,7,3,,1
+fix mixed content,2016-01-20,Closed,756,1,1,,1
+fix mixed content,2016-01-19,Closed,755,1,1,,1
+Clean up SIM information,2016-01-18,Merged,753,22,104,,1
+fix for issue #712,2016-01-12,Merged,748,73,5,xml ,3
+Correct SIM serial and IMSI information,2016-01-11,Merged,747,2,1,,1
+fix for issue #251,2016-01-11,Merged,744,162,9,xml ,6
+Resource naming-conventions,2016-01-08,Merged,743,6,6,xml ,11
+Restructure the main activity to use the material TabLayout,2017-09-08,Closed,742,113,184,xml java ,6
+AtCommand Fragment -> Activity,2016-01-06,Merged,738,20,24,java ,4
+Unchaining WIP-Release v0.1.38-alpha,2015-12-31,Merged,736,"1,594","5,376",gradle xml txt java AIMSICD/src/main/assets/CREDITS ,6
+Cleaning AIMSICDDbAdapter.java,2015-12-31,Merged,735,106,325,,0
+Merge pull request #687 from SecUpwN/development,2015-12-30,Merged,733,0,0,,0
+Calculate versionNames from git-tags,2016-02-21,Merged,730,8,3,,2
+First cleanup of Javadoc comments,2015-12-30,Merged,725,83,260,,14
+Fix #713,2015-12-29,Merged,719,1,0,,1
+Advanced privacy-aware bugsnag to fix #659,2017-09-08,Closed,714,6,0,java ,2
+Consistency for status names,2015-12-29,Merged,711,458,427,,6
+Have only one `android.intent.action.MAIN`,2015-12-25,Merged,710,0,1,,1
+simplify the credits view,2015-12-29,Merged,709,16,560,AIMSICD/src/main/assets/CREDITS java ,4
+Added Android Design Support Library for #258,2015-12-25,Closed,704,1,0,,1
+Tweak the About-Screen,2015-12-25,Merged,703,127,123,xml java ,4
+Grouped dependencies,2015-12-25,Merged,700,26,18,java ,2
+Disable proguard obfuscation,2015-12-24,Merged,699,1,1,,0
+Use a depencency injection,2015-12-24,Merged,697,395,404,java ,5
+compile with and against api 23,2015-12-21,Merged,696,5,5,gradle ,2
+remove Changelog Section from comments,2015-12-21,Merged,695,0,157,,26
+Removed OEM / Samsung Permissions to fix #690,2015-12-21,Merged,694,16,36,,1
+Use Checkstyle,2015-12-21,Merged,693,64,65,xml java ,10
+Unchaining WIP-Release v0.1.37-alpha,2015-12-14,Merged,687,"2,931","2,979",gitignore gradle txt java xml app/src/main/assets/CREDITS → AIMSICD/src/main/assets/CREDITS sql db csv ,11
+rename the `app` module to `AIMSICD`,2015-12-13,Merged,685,1,1,gradle txt java xml app/src/main/assets/CREDITS → AIMSICD/src/main/assets/CREDITS sql db csv png ,299
+remove all permission which are not used,2015-12-13,Merged,683,0,154,java ,2
+Deploy APK's to Github releases,2016-02-13,Merged,682,34,2,yml gradle enc ,4
+get OSMBonusPack via maven,2015-12-12,Merged,681,4,4,jar ,3
+build a system app too,2015-12-11,Merged,680,61,24,xml ,3
+Remove agilob from source code,2015-12-09,Closed,679,0,7,app/src/main/assets/CREDITS java ,2
+Improve the build-process,2015-12-09,Merged,676,25,60,java xml ,4
+remove the progressbar,2015-12-09,Merged,673,6,137,xml ,6
+Use a logging interface,2015-12-08,Merged,670,437,371,java ,6
+Fix some things which made me think WTF,2015-12-09,Merged,669,19,43,,2
+Fix app-crash,2015-12-08,Merged,668,1,0,,1
+Update proguard-rules.txt,2015-12-09,Merged,667,1,62,,0
+Fix some material design and appcompat issues,2015-12-08,Merged,665,183,314,java ,5
+README Improvements,2015-12-13,Merged,664,77,19,,0
+Delete split.rb,2015-12-08,Merged,663,0,9,,1
+Use OkHttp for HTTP requests,2015-12-07,Merged,660,128,162,txt java ,5
+Fix buildozer,2015-12-05,Merged,657,14,2,,1
+Don't run device-tests on travis,2015-12-05,Merged,656,1,31,,1
+A bit material design,2015-12-06,Merged,654,20,26,gradle java xml ,9
+improve the Version calculation,2015-12-03,Merged,652,5,45,xml ,3
+Delete activity_open_cell_id.xml,2015-12-03,Merged,651,0,6,,1
+Removed unnecessary access,2015-12-07,Merged,649,2,12,,1
+"PSC Validation, Showing invalid if saved value is out of range, using default PSC=666",2015-11-19,Merged,648,740,737,,0
+Versioning using GIT abbreviated commit ID,2015-11-25,Merged,647,7,3,xml ,3
+Update Gradle Wrapper to version 2.9,2015-11-19,Merged,646,5,9,properties gradlew ,3
+Add support for uploading exact BTS GPS locations draft,2015-12-09,Closed,645,75,4,,1
+Fix for calling msgLong on background thread (no looper.prepare),2015-11-19,Merged,644,14,10,,1
+Gradle build fixed,2015-11-18,Merged,643,4,0,txt ,1
+"Fixed duplicate location reports, Closes #614",2015-11-17,Merged,641,4,3,,1
+Cleaned up AIMSICDDbAdapter implementation,2015-11-19,Merged,640,729,733,,0
+Fixed #632 : StringIndexOutOfBoundsException,2015-11-17,Merged,639,95,101,,0
+Unchaining WIP-Release v0.1.36-alpha-build-00,2015-11-15,Merged,638,448,158,xml app/src/main/assets/CREDITS java ,4
+"Cleaned up SmsDetector.java implementation, related issues #615, #537",2015-11-20,Merged,635,306,386,,0
+RootShell library updated to version 1.3,2015-11-15,Merged,634,43,27,java ,5
+Example Code cleanup: DbViewerFragment,2015-11-15,Merged,633,41,55,,1
+"Fixed issue #629, Added Vibration preferences and controls where used",2015-11-15,Merged,631,113,26,xml ,6
+Update CREDITS,2015-10-09,Merged,623,1,2,,1
+Small corrections on french translations,2015-10-09,Merged,622,8,8,,1
+Recoded sms detection class,2015-09-25,Closed,619,241,357,java ,3
+Tiny mod to Sms Detection,2015-09-23,Closed,618,7,8,,1
+"Revert ""Merge new translations, &c?""",2015-09-20,Merged,617,83,643,xml db java ,9
+"Improve code quality - fix security and performance issues, better error handling",2015-09-20,Merged,613,"1,119","2,252",,3
+"Animate updates on ""Phone/SIM Details"" page, resolves #288",2015-09-20,Merged,612,189,67,xml java ,5
+"Merge new translations, &c?",2015-09-20,Merged,611,643,83,xml db java ,9
+Master,2015-08-07,Closed,603,0,0,,0
+"Revert ""Recheck cell after OCID download""",2015-08-04,Merged,598,3,14,java ,2
+Recheck cell after OCID download,2015-08-04,Merged,594,14,3,java ,2
+Unchaining WIP-Release v0.1.33-alpha-build-00,2015-08-02,Merged,593,"6,553","2,860",yml md gradle java xml db json ,7
+Refactoring string for type0 sms in aimsicd.db,2015-08-02,Merged,592,0,0,,1
+Refactor type0 detection string in db to make it shorter,2015-08-02,Closed,591,0,0,,1
+fixed issue #568,2015-08-01,Closed,587,7,5,,2
+Recheck cell after OCID download,2015-07-31,Closed,586,15,4,java ,2
+Fixes #581,2015-07-31,Merged,585,14,1,xml ,3
+Recheck cell after OCID download,2015-07-30,Closed,577,14,4,java ,2
+"fix order in navigation drawer, removed unused imports and attributes",2015-07-31,Merged,576,10,34,,2
+Fixing missing navigation items,2015-08-02,Merged,575,15,11,css ,3
+fixed issue 570,2015-07-26,Merged,572,23,23,java ,11
+Fixes Dbe UI layout and #525,2015-07-23,Merged,571,9,5,xml ,2
+Minor improvement to sms detection,2015-07-21,Merged,566,88,76,java ,8
+Moved/updated isExact for DBV,2015-07-20,Merged,565,27,8,,3
+Fixes OCID crash,2015-07-19,Merged,560,158,118,,2
+DB update raw query,2015-07-17,Merged,557,336,375,,1
+Removed unused imports,2015-07-16,Merged,554,0,12,,1
+Fixes Comments in CellTracker,2015-07-16,Merged,553,8,8,,1
+Moved Toast,2015-07-16,Merged,552,7,8,,1
+Fixes CellTracker RequestTask etc..,2015-07-16,Merged,551,127,84,,1
+Db Update,2015-07-13,Merged,547,"3,750","1,832",xml db json ,6
+Cleanup strings with extraneous byte sequence,2015-07-13,Closed,544,6,6,,1
+Unchaining WIP-Release v0.1.32-alpha-build-00,2015-07-12,Merged,542,382,357,md xml app/src/main/assets/CREDITS json java ,7
+revert PR #467,2015-07-11,Merged,541,82,177,,1
+Unchaining WIP-Release v0.1.31-alpha-build-00,2015-07-05,Merged,530,869,474,md gradle xml app/src/main/assets/CREDITS java ,6
+479 notification material design fixed # 2,2015-07-05,Closed,527,24,18,gradle java ,6
+479 notification material design,2015-07-03,Closed,526,572,591,,1
+Should fix #496,2015-07-03,Merged,524,2,2,java ,2
+Fix #325,2015-07-03,Merged,522,7,5,java ,2
+Increase build number after fixing OCID CSV parsing,2015-07-02,Merged,521,1,1,,1
+Repair OCIDCSV parsing,2015-07-02,Merged,518,12,1,,1
+Truncate location directly in LocationTracker,2015-07-02,Merged,516,37,13,,3
+Repair OCIDCSV parsing,2015-07-02,Closed,510,10,1,,1
+Added Buildozer Buildnumber to About View,2015-06-27,Merged,509,35,4,xml java ,5
+Added Buildozer Buildnumber to About View,2015-06-26,Closed,508,34,4,xml java ,5
+Update log calls to common TAGs for RilExecutors,2015-06-25,Merged,507,40,37,java ,4
+comment out leakcanary,2015-06-25,Merged,506,7,8,xml java ,3
+added toast cancel on new toast,2015-06-25,Merged,503,15,7,java ,3
+Increased build number,2015-06-24,Merged,502,2,2,,1
+Add singleton toaster,2015-06-24,Merged,501,121,52,,2
+Change context property in DrawerMenuAdapter,2015-06-23,Merged,500,5,5,java ,2
+Change help toast to long toast,2015-06-23,Merged,497,5,6,,1
+Unchaining WIP-Release v0.1.30-alpha-build-00,2015-06-21,Merged,494,"1,862",828,gradle java xml app/src/main/assets/CREDITS sql ,11
+Change LOGTAG to proper class name,2015-06-21,Merged,493,1,1,,1
+Fixes #484,2015-06-21,Merged,492,5,6,,1
+opencellid activity refactoring,2015-06-18,Merged,485,82,56,xml ,5
+OpenCellIdActivity refactoring,2015-06-18,Closed,482,87,70,xml ,7
+Update about_fragment.xml,2015-06-17,Closed,478,6,2,,1
+Removed unused imports,2015-06-17,Merged,477,95,127,java ,3
+Remove Copyright string,2015-06-17,Merged,476,1,4,,1
+Tentative fix for #470,2015-06-16,Merged,474,11,0,,1
+Stuff,2015-06-16,Closed,473,489,618,,4
+Fix compilation,2015-06-14,Merged,468,37,33,,2
+Read OCID cells from nogapps location too + map fix,2015-06-14,Merged,467,166,82,,1
+WIN DEATH when using Advanced User Settings,2015-06-13,Merged,465,2,2,,2
+Truncate GPS and make static reference to CSV path,2015-06-12,Merged,461,131,23,java ,4
+Fixed bug #434 plus some refactoring,2015-06-08,Merged,454,187,140,,2
+Refactoring,2015-06-07,Merged,451,126,158,,22
+French translation (ready to merge),2015-06-05,Merged,447,397,0,,0
+Switched CoverityScan analysis to branch development,2015-05-31,Merged,445,1,1,,1
+Unchaining WIP-Release v0.1.29-alpha-build-00,2015-05-31,Merged,444,"3,043",77,xml json java ,5
+WapPush Detection,2015-05-30,Merged,441,199,6,java xml ,7
+Few updates for sms detection,2015-05-28,Merged,440,102,58,xml ,7
+Unchaining WIP-Release v0.1.28-alpha-build-00,2015-05-24,Merged,437,261,133,xml app/src/main/assets/CREDITS java ,5
+SMS Detection Implementation,2015-05-25,Merged,436,"2,337",19,java ,7
+Table in database viewer will be loaded automatically without clicking on the button,2015-05-22,Merged,431,28,66,java ,6
+Added BTS map legend,2015-05-22,Merged,430,95,18,,4
+"Moves data to Android/, hides sensitive data from user",2015-05-22,Merged,429,85,38,java ,7
+Unchaining WIP-Release v0.1.27-alpha-build-00,2015-05-10,Merged,426,"1,132",549,gradle xml java ,4
+Fix #403,2015-05-10,Merged,425,22,39,,1
+repair,2015-05-08,Merged,422,2,3,,1
+The ability to erase the database of the menu has been implemented.,2015-05-06,Merged,418,193,99,java png ,8
+"Fixed bug with doubling (tripling, etc.) markers on the map",2015-05-05,Merged,414,13,1,java ,3
+compileSdkVersion and targetSdkVersion versions were increased,2015-05-04,Merged,413,3,3,,1
+Translation into Russian has been improved,2015-05-04,Merged,410,34,34,xml properties ,4
+Progress bar in the map has been added and etc,2015-05-03,Merged,409,786,179,java ,6
+Translation into Russian has been improved,2015-05-03,Merged,401,101,105,java png ,21
+Releasing WIP-Release v0.1.26-alpha-build-00,2015-05-01,Merged,399,"2,388","1,379",md gradle jar java xml app/src/main/assets/CREDITS ,6
+Translation into Russian has been started,2015-05-01,Merged,397,391,10,xml ,3
+bugfix in DB Viewer,2015-04-29,Merged,396,174,181,xml ,7
+descriptions of menu were improved,2015-04-28,Merged,395,92,158,java ,6
+"files of resources were renamed, 'about' fragment has been changed",2015-04-28,Merged,394,219,367,java ,14
+EVEN MORE STRINGS TO TRANSLATE,2015-04-26,Merged,393,48,64,xml ,4
+"moved more strings to xml files, read more...",2015-04-26,Merged,392,150,141,xml ,14
+Menu improved,2015-04-26,Merged,391,481,150,xml java ,7
+"The menu has been reordered (starting to a preferred layout), issue SecUpwN/Android-IMSI-Catcher-Detector#258",2015-04-25,Closed,389,27,13,,1
+Update README.md,2015-04-26,Merged,388,3,3,,0
+Progress bar doesn't overlap another window.,2015-04-24,Merged,387,32,19,java xml ,9
+fixes SecUpwN/Android-IMSI-Catcher-Detector#383,2015-04-24,Merged,386,1,1,,1
+Hide or clarify examples in EventLog and DB Viewer #380,2015-04-23,Merged,385,162,17,xml ,12
+Translations,2015-04-23,Merged,384,365,104,xml ,6
+Map Viewer UX issues #228,2015-04-21,Merged,381,3,3,jar xml java ,4
+progressbar changes,2015-04-21,Merged,379,50,14,xml ,3
+Images has been compressed,2015-04-21,Merged,378,70,3,png ,174
+Fixes #346,2015-04-18,Merged,377,172,274,,1
+Merging development into master for cleanup,2015-04-17,Merged,376,700,"6,436",md png jpg txt gif ,48
+Replaced .jar files by gradle dependencies where possible.,2015-04-17,Merged,375,4,1,jar ,4
+Added warning banner for #362,2015-04-17,Merged,372,18,17,,0
+Developer-Friendly README for #362,2015-04-05,Merged,363,47,140,,0
+Fixes #346 when Neighbouring cell code in CellTracker is impliment to this class.,2015-03-27,Merged,361,129,0,,1
+About redesign with new icons and cleaned up aboutfrag code.,2015-03-21,Closed,359,206,160,java ,31
+Update to Status text so its not wrapped to another line,2015-03-20,Merged,358,4,3,,1
+Minor update to Custom PopUp Class,2015-03-20,Merged,356,33,7,xml ,3
+About Page update & Custom PopUp Class,2015-03-19,Merged,355,317,18,java ,4
+About Page update & Custom PopUp Class,2015-03-19,Closed,354,383,60,xml java ,4
+About Page update & Custom PopUp Class,2015-03-18,Closed,353,437,152,java ,5
+WIP-Release v0.1.25-alpha-build-35,2015-03-13,Merged,351,0,0,,16
+WIP-Release v0.1.25-alpha-build-35,2015-03-13,Merged,350,772,115,gradle jar xml java ,7
+Update dev to include starwars like scrolling credits,2015-03-06,Merged,347,652,44,jar xml java ,5
+added a tab strip across the main screen,2015-03-13,Merged,345,46,24,xml ,4
+incremented database version,2015-03-05,Merged,344,1,1,,1
+"Revert ""CreditsRoll Initial Commit""",2015-03-05,Merged,343,6,225,java xml third_party/CreditsRoll ,7
+CreditsRoll Initial Commit,2015-03-04,Merged,342,225,6,java xml third_party/CreditsRoll ,7
+syncing development branch to master for last months changes,2015-03-05,Merged,339,"2,017",901,xml app/src/main/assets/CREDITS java ,5
+logging if no data available for upload + remove OCID_UPLOAD_PREF,2015-03-02,Merged,338,9,19,xml ,4
+Improved OCID upload,2015-02-28,Merged,335,62,46,png xml ,7
+Improved OCID upload,2015-02-27,Closed,334,327,469,png xml ,8
+OCID upload,2015-02-27,Closed,333,46,29,,3
+OCID: fix SU request spam,2015-02-23,Merged,332,1,5,,2
+"ATCoP: clean up, and remove shell command support",2015-02-23,Merged,331,54,48,,2
+Syncing master into development branch,2015-02-12,Merged,320,49,7,jpg png app/src/main/assets/CREDITS java ,8
+fix null-deref on unrooted-device exec failure,2015-02-11,Merged,319,4,4,,1
+re-syncing dev branch from recent master merge,2015-02-09,Merged,316,41,16,pdf java ,2
+Syncing with latest Development,2015-02-09,Merged,315,864,207,,1
+New EventLog Table,2015-02-09,Merged,314,296,63,,4
+Add debugging code to dump full sms in pdu format,2015-02-09,Merged,312,19,0,,1
+Missing bonuspack_bubble Error in logcat,2015-01-31,Merged,308,52,0,xml ,2
+Some UX Enhancements,2015-02-03,Closed,306,"1,090",286,xml java ,4
+Merging DevTest into Master,2015-01-28,Merged,305,387,134,xml ,3
+Some UX Enhancements,2015-01-28,Closed,304,648,241,,3
+Fix getprop for debug email,2015-01-27,Merged,302,62,14,,2
+Rotation handling and prevent crash on some devices,2015-01-22,Merged,296,51,32,java ,2
+Fixed Issue #246 - CellTracker.java not stop()ing correctly,2015-01-19,Merged,291,12,7,,2
+Fixed Issue #91,2015-01-19,Merged,289,34,3,,2
+Fix minor typos in CHANGELOG.md and CONTRIBUTING.md,2015-01-15,Merged,282,2,2,,0
+"quit() method found to be not needed, as the issue lied in onDestroy()",2015-01-15,Merged,281,1,20,,1
+Merge pull request #2 from SecUpwN/master,2015-01-13,Closed,279,0,0,,0
+"fixed default value for ""start on boot"" value",2015-01-11,Merged,277,4,3,xml ,2
+Multiple fixes for SignalStrengthTracker,2015-01-10,Merged,275,16,48,,2
+"Implemented map clustering, scale bar and compass",2015-01-10,Merged,274,138,74,jar java ,8
+Fix Issue #246,2015-01-09,Merged,271,29,4,,1
+From RootTools to RootShell,2015-01-08,Merged,265,"1,614","3,743",CREDITS SOURCES gradle java txt xml ,8
+MapViewer fixes for #228,2015-01-07,Merged,262,205,147,,4
+Implemented DB-viewer for signal strength measurements collected,2015-01-06,Merged,261,146,28,xml ,6
+Fixed NullPointerException when getActionBar() returns null #244,2014-12-31,Merged,249,3,1,,1
+Possible fix for missing signal strength in some cases,2014-12-31,Merged,248,9,1,,1
+Implemented signal strength monitor,2014-12-29,Merged,243,204,4,,5
+PR #229 rebase,2014-12-22,Merged,233,253,92,,7
+"Refactored Icon and Status status to dedicated classes, fixed random occuring app crash on map page and fixed jumping log window",2014-12-23,Merged,229,0,2,,1
+limited log output to 1000 lines to avoid hanging,2014-12-16,Merged,210,52,23,java ,5
+removed debug log to make logs smaller,2014-12-15,Merged,209,4,4,,3
+Added debugging screen,2014-12-08,Merged,197,317,74,java png ,12
+"Updated build for Android Studio v1.0/Gradle v2.2, implemented ""Request OCID key""",2014-12-07,Merged,196,426,72,xml gradle java ,11
+Disabled GAPI,2014-12-01,Merged,193,2,2,,1
+Some fixes for #168,2014-11-26,Merged,191,59,"435,817",txt java xml ,5
+Move ps auxww to before_install step,2014-11-20,Merged,183,2,2,,1
+fixed newly added apk naming code,2014-11-17,Merged,177,15,14,,1
+Final touches for release,2014-11-03,Merged,172,7,7,xml ,4
+updated version for release,2014-11-03,Merged,171,1,1,,1
+updated About screen,2014-11-01,Merged,170,272,214,,1
+Updates and Fixes for #166,2014-10-26,Merged,167,101,12,java png ,18
+Couple of fixes,2014-10-20,Merged,162,2,9,xml ,3
+Removed binary jar files and included RootTools source,2014-10-18,Merged,159,"5,112",6,jar txt xml java ,9
+fix database problems due to database connection not being handled corre...,2014-10-17,Merged,158,79,43,xml ,4
+Fix for crash of Cell Info on Android 4.2,2014-10-12,Merged,146,185,217,gradle java ,3
+fixed overlapping of AT Command Injector and About page,2014-10-06,Merged,144,26,7,,4
+Merge pull request #2 from SecUpwN/master,2014-11-17,Closed,142,0,0,,0
+Added a ViewPager to allow swiping of detail views for #116,2014-10-04,Merged,141,161,24,xml rb ,8
+Fix for https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/issues/136 and maybe https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/issues/135,2014-10-04,Merged,140,9,536,,0
+minor code cleanup,2014-09-30,Merged,134,35,45,,3
+Urgent fix for service not starting up correctly,2014-09-27,Merged,131,7,11,,2
+Service code cleanup,2014-09-27,Merged,129,"1,633","1,364",,4
+incremented version to 9,2014-09-26,Merged,127,1,1,,1
+"fixed bug, which terminates the service when AIMSICD is closed",2014-09-26,Merged,126,2,2,java ,2
+Battery saving and new map tiles,2014-09-26,Merged,125,149,47,,2
+Merge pull request #1 from SecUpwN/master,2014-09-24,Merged,123,0,0,,0
+Remove Google Play Services,2014-09-24,Merged,122,634,37,xml java old ,4
+Grabbing the latest code,2014-09-22,Merged,120,153,107,java ,10
+add abortOnError false - so that gradle build runs without a problem,2014-09-17,Merged,114,4,0,,1
+OpenCellID - User Specific API Key Support,2014-09-17,Merged,113,102,73,xml ,7
+Various,2014-09-15,Merged,112,355,703,jar xml java ,4
+Improved introduction,2014-09-09,Merged,110,1,1,,0
+Improved introduction,2014-09-08,Merged,109,1,1,,0
+Various Commits,2014-09-08,Merged,108,248,94,java ,5
+Added Adrian Dabrowski's paper (pre-print),2014-09-08,Closed,107,0,0,,1
+Poll the telephone manager for neighboring cell infos,2014-08-19,Merged,99,83,13,,1
+Merge pull request #1 from SecUpwN/master,2014-08-02,Merged,95,0,0,,0
+Silent Sms Update,2014-06-18,Merged,78,82,62,xml ,8
+Latest Icons,2014-06-15,Merged,76,0,0,,48
+"Neighbouring Cell Info, Ciphering Indicator & Initial About Dialog",2014-05-06,Merged,60,"1,512",85,java ,4
+SIM Methods Exception Handling,2014-05-03,Merged,57,39,13,java ,2
+derp: Really fix NPE,2014-05-03,Merged,56,2,2,,1
+"Default Icon Prefernce, Huge UI Update & NPE Fix",2014-05-03,Merged,55,837,570,,2
+"Cell Tracking Update, Disclaimer Acceptance, MapViewer Updates",2014-05-02,Merged,52,275,276,java ,4
+Update Default MCC Location listing,2014-04-27,Merged,48,14,2,,1
+"MapViewer, Actionbar fixes, Database Viewer UI & Fallback MCC Location",2014-04-27,Merged,47,484,40,csv java ,3
+Database Viewer,2014-04-25,Merged,45,694,1,java ,6
+Multiple updates see commit comments,2014-04-25,Merged,43,"1,194","1,734",xml ,2
+Unstaged change missed in last commit,2014-04-21,Merged,37,1,1,,1
+Multiple updates see commit comments,2014-04-20,Merged,36,"1,360",495,gradle java ,4
+"Gradle Update, Google Maps API v2 & Database Export",2014-04-11,Merged,28,892,880,xml mk gradle jar ,7
+Universal Compatibility Commit,2014-04-09,Merged,24,316,769,jar png ,11
+"Service, Boot Completed Receiver, TableView & Femtocatcher Additions",2014-04-08,Merged,21,"1,239",642,,1
+New Icons with new names!,2014-04-08,Merged,20,0,0,,27
+"Actionbar, Device Class rewrite, Notification and more",2014-04-06,Merged,14,885,574,jar png ,16
+Fresh New Icons for AIMSICD!,2014-04-02,Merged,10,0,0,,9
+Add Android.mk for CyanogenMod build,2014-04-01,Merged,8,37,0,,1
+Reduce target sdk version & code updates,2014-03-31,Merged,7,251,501,java ,5
+Initial Development Commit,2014-03-25,Merged,5,"4,026","1,096",xml jar png ,12
+Initial Development Commit,2014-03-10,Closed,4,"3,799",988,MERGESOURCE/RawPhone/assets/microcom java jar png ,13

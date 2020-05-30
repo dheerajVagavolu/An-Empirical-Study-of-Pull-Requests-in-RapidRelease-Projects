@@ -1,0 +1,1545 @@
+Added action_delayer and remove gamma correction control.,2020-01-02,Merged,5574,53,7,h ,5
+Add sensor extensions - fix playback and record issues,2020-01-01,Closed,5572,"2,928","20,480",cpp txt h rc md ,8
+Z16H - Compressed Depth format,2020-01-05,Merged,5564,"9,603",181,h cpp hpp sh patch ,13
+Fix motion and motion correction routines,2020-01-05,Merged,5534,98,87,h ,7
+.NET VideoStreamProfile.Clone added,2019-12-30,Merged,5529,65,0,,3
+suppress -Wpadantic in glad.c,2019-12-29,Merged,5526,8,2,md ,1
+fix recording crash,2019-12-25,Merged,5522,6,0,h ,2
+Fix extrinsics commutativity,2019-12-25,Merged,5521,10,4,,1
+Upgrade T265 firmware to 0.2.0.908,2020-01-07,Merged,5504,2,2,h ,1
+Added python constructor for region of interest,2019-12-29,Merged,5495,2,1,,1
+Add sensor extensions,2019-12-30,Merged,5468,443,16,hpp cpp cs js ,15
+Add sensor extensions,2019-12-17,Closed,5467,210,9,hpp cpp ,14
+Fix: realsense2-gl headers not installed,2019-12-29,Merged,5465,14,6,,0
+"CMake: unix_config, set CMAKE_POSITION_INDEPENDENT_CODE",2019-12-29,Merged,5444,3,2,,1
+"common: fw-update-helper, don't compare addresses",2019-12-29,Merged,5443,4,4,,1
+Typo removed,2019-12-10,Merged,5421,1,1,,1
+Map Preservation Fixes,2019-12-10,Merged,5415,2,1,cpp ,1
+rs-dnn-vino compilation fix for Linux,2019-12-09,Merged,5413,4,1,,1
+Some fixes to auto calibration,2019-12-09,Merged,5411,37,32,hpp cpp def ,4
+Promote recommended D400 firmware to 5.12.1.0,2019-12-08,Merged,5402,4,4,h ,1
+Merging master back to dev,2019-12-08,Merged,5400,572,89,gitignore h cs cpp ,34
+Fix xhci_build flags handling,2019-12-08,Merged,5399,10,7,,1
+Some updates to auto calibration,2019-12-08,Merged,5398,352,167,h ,2
+polling_device_watcher: fix race between construction and start,2019-12-30,Merged,5387,3,4,,1
+Warning fixes,2019-12-08,Merged,5386,7,6,h ,6
+fix openni2 wrapper convertDepthToColorCoordinates,2019-12-05,Merged,5380,16,2,h ,2
+Change default RGB resolution,2019-12-08,Merged,5377,20,7,cpp js ,4
+fix pipeline recording,2019-12-05,Merged,5375,6,0,h ,2
+Update tinyfiledialog to v3.4.1 and set map extension,2019-12-05,Merged,5370,"6,698","4,804",,1
+Roi fix,2019-12-03,Merged,5364,2,2,,2
+Add rs-dnn-vino sample,2019-12-08,Merged,5360,574,106,txt ,0
+Fix l500 resolutions,2019-12-02,Merged,5357,67,47,h ,12
+T2XX sample: new `ar-advanced` sample to show map import/export and get/set static node APIs.,2019-12-30,Merged,5356,552,0,md ,0
+ds5 default sync by timestamp,2019-12-02,Merged,5353,13,81,,1
+Version compatibility enhancement,2019-12-02,Merged,5352,56,5,xml txt cpp ,6
+Added API for depth auto calibration.,2019-12-02,Merged,5346,"1,251",463,h ,3
+Android add pipeline profile partial support,2019-12-02,Merged,5344,22,8,java ,4
+Add __version__ to python wrapper,2019-12-01,Merged,5337,1,0,,1
+Fix save_to_ply symbols in python,2019-12-01,Merged,5336,7,7,,1
+Fix a minor bug in sorting streams,2019-12-01,Merged,5334,3,3,,1
+fix global timestamp domain query crash,2019-12-01,Merged,5331,2,1,,1
+Update t265_rpy.py,2019-12-05,Merged,5325,2,2,,1
+T2xx sample: add import/export map and get/set static node to rs-ar-basic.cpp,2019-12-02,Closed,5322,112,20,,1
+Android multicam example,2019-11-26,Merged,5312,648,40,gitignore gradle wrappers/android/examples/multicam/gradlew bat pro xml ,7
+Fix for BUILD_WITH_CUDA option,2019-11-25,Merged,5311,21,15,txt cuh ,6
+UE4 wrapper 4.24 update and Linux build,2019-12-05,Merged,5306,572,89,gitignore h cs cpp ,34
+[test-PR] Add map import/export functionality to rs-ar-basic.cpp,2019-11-26,Closed,5301,"6,310","2,976",NOTICE h ,3
+UVC control transfer timeout,2019-11-21,Closed,5289,1,1,,1
+Openvino sample,2019-12-02,Merged,5283,"1,353",2,cpp md txt jpg ,4
+doc/t265: updated wheel odometry documentation,2019-11-20,Closed,5280,105,1,md ,2
+fix SR300 enumeration on linux,2019-11-20,Merged,5278,23,9,,5
+Typo fix,2019-11-19,Closed,5268,2,2,md ,1
+fix sources reflection in sensor,2019-11-21,Merged,5265,14,16,h ,2
+Update installation_osx.md,2019-12-30,Merged,5264,3,3,,0
+Add zero-order state toggle option,2019-11-21,Merged,5263,107,26,cpp cs m ,10
+minor changes to sensor refactoring,2019-11-21,Merged,5254,65,72,h ,13
+Wheeled Odometry Calibration Setup Examples,2019-11-21,Merged,5244,106,2,md ,2
+F416-RGB and LED controls,2019-11-18,Merged,5243,137,17,h ps1 cpp java ,15
+Upgrade T265 firmware to 0.2.0.879,2019-12-01,Merged,5234,2,2,,0
+Fix paragraph formatting,2019-11-12,Merged,5226,1,1,,0
+Replace libtm with direct communication with T265,2019-12-26,Merged,5213,"1,681","20,448",txt h rc cpp md hpp ,11
+Option to preserve T265 maps in memory for subsequent starts,2019-12-05,Merged,5208,36,3,cpp cs m js ,10
+Kernel patch adjustment for 4.4 branch,2019-11-10,Merged,5205,224,15,xml patch sh ,4
+Zero the high 32 bit of 64 bit imu timestamp.,2019-11-10,Merged,5204,4,0,h ,4
+Disable GLOBAL_TIME option,2019-11-07,Merged,5202,3,0,,3
+"Add new functions to Python wrapper, update some more documentation",2019-11-21,Merged,5200,88,32,cpp ,9
+"Alternative, possibly simpler approach for obtaining pitch, roll and …",2019-11-21,Merged,5198,18,16,py ,1
+Fix link in t265.md,2019-11-07,Merged,5190,1,1,,0
+Fix link in t265.md,2019-11-05,Closed,5189,1,1,,0
+UVC CMake options fix,2019-11-05,Merged,5180,6,5,txt ,1
+USB Host license,2019-11-07,Merged,5179,16,4,sh h ,3
+USB Host license,2019-11-04,Closed,5171,16,4,sh h ,3
+.NET Development,2019-11-21,Merged,5170,50,27,,9
+Upgrade T265 firmware to 0.2.0.857,2019-11-02,Merged,5169,8,2,h cpp ,2
+Hex formatting,2019-11-02,Merged,5157,5,5,cpp ,3
+update pyglet to 1.4.x,2019-12-30,Merged,5155,9,4,,1
+Upgrade T265 firmware to 0.2.0.841,2019-11-01,Closed,5133,2,30,cpp ,1
+Sensor refactoring,2019-11-15,Merged,5111,"4,294","2,635",h hpp cpp ,10
+PLY export,2019-11-12,Merged,5110,687,105,cpp ,7
+Full portChain in physical port info,2019-11-02,Merged,5109,5,1,,1
+Read the depth units from intrinsics.,2019-10-23,Merged,5106,4,5,,1
+On-chip calibration crash fix,2019-10-23,Merged,5077,9,2,,1
+rs-rosbag-inspector crash fix,2019-10-23,Merged,5066,1,0,,1
+Fix memory leak in hid sensor,2019-10-17,Merged,5065,2,0,h ,2
+T265 Mask API,2019-12-10,Closed,5061,776,16,txt hpp cpp ,2
+Upgrade T265 firmware to 0.1.0.508,2019-10-30,Closed,5060,2,2,,0
+Upgrade T265 Firmware to 0.1.0.508,2019-10-16,Closed,5059,44,28,md cpp hpp txt cs ,13
+Adding Support-Matrix and updating Jetson docs,2019-11-18,Merged,5053,102,11,jpg md ,6
+Raspbian buster - Cleanup,2019-10-23,Merged,5043,170,190,c cpp h ,8
+Fix default path bug in viewer,2019-10-10,Merged,5028,7,0,,1
+Raspbian Linux 10 Buster fix. (Kernel 4.19),2019-10-23,Merged,5025,63,58,c cpp h ,6
+Rename foreach to foreachRS,2019-10-15,Merged,4987,14,14,cpp ,6
+Fix min Z offset for disparity domain colorization mode,2019-10-23,Merged,4981,6,2,,2
+Rsusb backend,2019-11-03,Merged,4975,"3,920","18,546",cmake txt cpp h ,8
+DQT/Viewer metrics record fixes and improvements,2019-10-23,Merged,4967,25,12,h ,3
+Added wrappers/dlib/face example,2019-10-23,Merged,4966,700,15,md txt h ,3
+illustration for project,2019-10-17,Merged,4953,5,0,png ,1
+rs-ar-basic: fix extrinsic pose to camera transformation,2019-10-02,Merged,4945,7,11,cpp ,1
+Merge of 2.29 to master,2019-09-26,Merged,4941,550,158,txt h rules hpp xml ,14
+Notification category for Relocalization,2019-10-02,Merged,4936,14,1,cpp cs ,5
+Update doxygen of pose_sensor,2019-09-25,Merged,4927,44,59,h ,3
+Fixing Tare Calibration UI + Bump version,2019-09-25,Merged,4925,60,51,h cpp xml ,5
+libuvc: fix QW_TO_QUAD losing data due to 32-bit type,2019-10-16,Closed,4922,2,2,,1
+Fix WB control and generate UV-map test artifacts,2019-10-23,Merged,4914,230,6,hpp cpp txt ,4
+get_distance to verify user-provided pixel indexes.,2019-10-23,Merged,4910,2,0,,1
+Added to align sse support on distortion parameters and fixed bug on playback,2019-09-24,Merged,4909,3,1,,2
+"Remove ""not supported for rendering"" error",2019-10-23,Merged,4907,43,2,cpp ,3
+PLY options,2019-11-02,Closed,4906,505,97,h ,4
+Wheel odometry python sample,2019-10-23,Merged,4889,103,0,py ,2
+Fixing typo in readme.md,2019-09-23,Merged,4886,1,1,,0
+rsutil: functions to read/write binary files,2019-09-25,Closed,4870,78,0,,1
+On-Chip Calibration Adjustments,2019-09-16,Merged,4867,269,185,h ,3
+Added support on  RGB distortion.,2019-09-16,Merged,4866,13,1,,2
+Disable depth invalidation by default.,2019-09-16,Merged,4863,2,2,,1
+Fixing typo in align-depth2color.py,2019-09-12,Merged,4851,7,8,,1
+Android - ROI sensor added,2019-09-10,Merged,4836,87,1,java ,4
+Wheel odometry unit test fix,2019-09-16,Merged,4830,8,2,cpp ,1
+Update Firmware logger - added enums,2019-09-12,Merged,4826,139,12,h ,7
+Firmware update support,2019-09-25,Merged,4825,443,47,rules h txt ,17
+Make save_single_frameset more robust,2019-09-12,Merged,4809,43,9,cpp h ,3
+Minor Python Fixes,2019-09-16,Merged,4808,20,8,,5
+Version bump to 2.28,2019-09-03,Merged,4791,2,2,xml ,2
+Merge from Master to Development,2019-09-03,Merged,4790,0,0,,0
+Updated frame validator,2019-09-03,Merged,4788,244,84,h ,4
+Fix Jupyter notebooks,2019-09-03,Merged,4787,2,0,,1
+Disable default decimation for RGB sensors,2019-09-03,Merged,4786,8,2,hpp ,2
+Fix a potential out-of-order initialization for A-factor,2019-09-03,Merged,4785,14,10,cpp ,2
+Adjust branches for the kernel patches,2019-09-03,Merged,4774,15,9,patch ,26
+frame_queue can automatically keep frames for you,2019-09-12,Merged,4773,116,5,m cpp py ,5
+Fixing basic threading issues within on-chip calibration UI,2019-09-02,Merged,4772,86,42,h ,6
+Fix std::string error on VS2019,2019-08-31,Merged,4759,1,1,h ,2
+Fix deadlock on pipeline.stop() with playback device in realtime=false mode,2019-09-02,Merged,4758,"1,640","1,398",h cpp txt m ,11
+Merge of 2.27,2019-08-29,Merged,4757,"2,028",301,cpp txt h rc ,6
+Android stability,2019-09-03,Merged,4752,101,77,h ,3
+Python binding updates,2019-09-01,Merged,4749,"1,613","1,391",txt m cpp ,7
+Adding option to use Pre-Release firmware,2019-08-28,Merged,4746,186,73,txt h rc ,6
+T26x calibration write api bug fix,2019-08-28,Merged,4741,10,5,cpp ,3
+Enhance frame::get_timestamp() documentation,2019-08-27,Merged,4739,18,1,,1
+Fix legacy branch for kernels prior to v4.16,2019-08-27,Merged,4738,4,0,,1
+Merge from Master branch,2019-08-27,Merged,4737,3,1,,0
+Follow-up on the On-Chip Calibration,2019-08-27,Merged,4735,8,17,txt h ,5
+Adding Depth-Filter OpenCV example,2019-08-27,Merged,4733,790,7,h hpp xml def cpp txt json ,11
+android java example fix,2019-08-27,Merged,4731,6,2,md ,1
+Fix Ubuntu 32bit compilation,2019-08-27,Merged,4729,211,65,h cpp txt ,6
+Record and playback L500 data,2019-08-27,Merged,4727,241,57,h ,11
+Fix format-security warnings (again),2019-08-27,Merged,4721,13,13,cpp ,4
+Automatically set supported profiles in viewer,2019-11-21,Merged,4720,286,24,h ,2
+Upgrade T265 firmware to 0.1.0.279,2019-08-27,Merged,4717,30,30,txt ,2
+Viewer playback - enable step backwards,2019-08-27,Merged,4706,16,30,,1
+Android - GLFrame resource release,2019-08-22,Merged,4698,31,6,gradle ,8
+Merge from Master,2019-08-21,Merged,4697,4,0,h cpp ,2
+fix flickering in rs-multicam (should save previous frames for render…,2019-08-21,Merged,4692,3,3,,1
+Update python's readme.md,2019-08-22,Merged,4690,3,1,,0
+Revert a WA to handle extrinsic data externally,2019-08-21,Merged,4688,3,0,h ,2
+tm_sensor - doxygen doc of relocalization functions,2019-08-27,Merged,4685,40,0,,1
+Fix stbi build errors on static build,2019-08-21,Merged,4684,1,0,,1
+Android - fix crash on device release,2019-08-20,Merged,4683,2,2,java ,2
+Promote version to 2.26.0,2019-08-20,Merged,4679,3,3,xml ,2
+Android UVC backend - Out of memory error fix,2019-08-20,Merged,4678,860,122,java ,4
+Android Pointcloud,2019-08-20,Merged,4677,705,116,java ,4
+Frame Validator,2019-08-20,Merged,4675,137,0,cpp h ,4
+Promote T265 FW to version 0.1.0.242,2019-08-20,Merged,4673,2,2,,0
+Exposed depth offset,2019-08-20,Merged,4668,19,5,cpp ,5
+Sync Wrapper Options,2019-08-20,Merged,4666,129,2,js cpp h ,5
+D400 On-Chip Calibration,2019-08-20,Merged,4658,"2,695",838,,0
+Tm2 calibration write api,2019-08-27,Merged,4650,442,9,hpp def cpp ,7
+python: add _repr_ for motion_device_intrinsics,2019-08-15,Merged,4645,33,4,,1
+Fix links to Python T265 examples,2019-08-14,Merged,4638,3,3,,0
+Fix range for stream_index in filters.,2019-08-13,Merged,4631,1,1,,1
+Enable MJPEG,2019-08-20,Merged,4622,184,79,hpp cpp ,8
+Community Project: update realsense on cyber,2019-08-12,Merged,4620,1,0,,0
+Update Win7 INF driver,2019-08-12,Merged,4618,68,9,,1
+correct method syntax,2019-08-13,Merged,4616,1,1,,1
+Cross platform HID device (IMU),2019-08-19,Merged,4605,"1,145",420,cpp h ,7
+increase frame queue size for tm2,2019-08-12,Merged,4602,3,0,cpp ,2
+Added support for XVGA resolution and fixed enumaration of usb device of l500,2019-08-08,Merged,4599,20,6,,2
+rs-multicam bug fix,2019-08-12,Merged,4596,23,15,cpp ,1
+Fix IMU handling for D400 series,2019-08-13,Merged,4587,171,78,cpp ,7
+Android SR300 firmware update,2019-08-12,Merged,4583,6,6,java ,4
+lrs_options.cmake edit,2019-08-13,Merged,4582,1,5,txt ,1
+Merge master to dev,2019-08-05,Merged,4566,378,0,py png md JPG ,6
+DQT: fix plane and metric annotations when stream is paused,2019-08-04,Merged,4562,27,3,,2
+fix offline build errors,2019-08-04,Merged,4561,40,27,txt cpp h ,4
+Viewer - fix unresponsive UI on errors,2019-08-05,Merged,4560,51,25,h ,2
+Merge of 2.25 to master,2019-08-01,Merged,4548,"2,253",591,h cpp md ,3
+Add syncer support for sensor start method,2019-08-04,Merged,4546,3,0,,1
+rs-enumerate-devices robustness enhancement,2019-08-04,Merged,4545,11,5,,1
+Enalbe RGB undistort for certain modes,2019-08-01,Merged,4544,33,23,cpp ,5
+Updates to l500,2019-08-01,Merged,4541,32,11,h ,4
+Conform to ROS name convention,2019-08-04,Merged,4537,19,6,cpp ,2
+"Remove ""Depth Visualization"" tab under unrelated sensors in viewer",2019-08-04,Merged,4535,16,15,,1
+Add missing include to uvc_types,2019-08-01,Merged,4533,2,0,,1
+"Use full GPG Key IDs for installing in linux, since short ones may be…",2019-08-14,Merged,4531,1,1,,0
+Updates to zo and defaults stream of l500,2019-07-29,Merged,4520,81,175,h ,5
+Add t265 options to Python wrapper,2019-08-01,Merged,4511,3,0,,1
+Pose as extrinsics reference,2019-08-14,Merged,4507,23,3,cpp ,4
+Added Ethernet client server example code.,2019-08-04,Merged,4492,378,0,py png md JPG ,6
+Adding support for new calibration query command,2019-07-23,Merged,4478,68,4,h ,4
+SR300 RGB auto exposure ROI,2019-07-22,Merged,4472,14,1,cpp ,4
+T265: Add frame time metadata,2019-07-22,Merged,4448,20,1,,1
+T265 documentation update,2019-07-17,Merged,4438,64,50,,0
+Unsigned firmware update,2019-08-04,Merged,4433,801,104,h hpp ,7
+Android backend - Out of memory error fix,2019-08-20,Closed,4428,224,222,h txt ,5
+Tm2 timestamp domain,2019-07-11,Merged,4403,3,3,,1
+Update realsense_device_manager.py,2019-07-11,Merged,4402,45,47,,2
+Edit comments at realsense_device_manager.py,2019-07-11,Closed,4401,25,25,,1
+Smooth GlobalTimeStamp's corrections.,2019-11-21,Merged,4396,52,26,h ,2
+D465 IMU support,2019-07-11,Merged,4389,23,14,h ,2
+Change SR300 recommended firmware to 3.26.1.0,2019-07-09,Merged,4380,2,2,h ,1
+OpenCV Kinfu example dependency fix,2019-07-11,Merged,4377,5,0,,0
+update stb_image_write.h,2019-07-17,Merged,4367,679,106,,0
+logger - remove MaxLogFileSize,2019-07-05,Merged,4365,0,1,,1
+Udev-rules validation fix,2019-07-09,Merged,4360,1,0,,1
+Silence OpenGL deprecation warnings on macos 10.14,2019-07-10,Merged,4358,1,0,,1
+.,2019-07-01,Closed,4345,0,0,,0
+example: T265 apriltag detection on host,2019-07-11,Merged,4340,447,0,md ,0
+Add l500 controls,2019-07-29,Merged,4330,8,0,,1
+Easy-logging bug fix,2019-07-18,Merged,4329,6,0,cpp ,2
+tracking + depth sample,2019-07-11,Merged,4327,437,0,hpp cfg stl md ,3
+T265 Mapping/Relocalization/Jumping Options,2019-07-11,Merged,4321,164,101,h cpp txt ,2
+Android HF,2019-06-27,Merged,4317,14,21,,3
+Firmware Update robustness enhancement,2019-06-30,Merged,4314,1,0,,1
+Fix python readme,2019-07-05,Merged,4313,2,2,,0
+DFU lock detection,2019-07-05,Merged,4312,102,33,h java xml ,11
+Fix Windows 7 firmware update,2019-06-27,Merged,4310,5,24,,2
+Display FW Update option for D400 and SR300 only,2019-06-27,Merged,4309,24,21,h ,2
+Android camera app - firmware update,2019-06-27,Merged,4304,621,183,cpp xml java gradle ,17
+Realsense-viewer fix for firmware update,2019-06-26,Merged,4303,3,1,,1
+Add ability to open multiple devices from different processes (libtm and t265),2019-06-26,Closed,4301,"15,576","5,573",AUTHORS cmake txt NOTICE ,7
+FW Update polishing,2019-06-26,Merged,4299,43,39,,4
+Rebase hotfix,2019-06-26,Merged,4298,0,4,,1
+Pybackend compilation hotfix,2019-06-25,Merged,4287,1,1,,1
+Firmware Update integration with the Viewer,2019-06-26,Merged,4280,"11,722","4,932",AUTHORS cmake txt NOTICE ,4
+Added support on specific SN argument on fw-logger.,2019-07-28,Closed,4276,81,175,h ,5
+fixed inconsistent return type,2019-12-01,Merged,4275,1,1,,1
+Added Intrinsic camera information to JNI interface,2019-06-26,Merged,4273,45,15,xml java ,4
+Add software device python,2019-12-30,Closed,4269,558,39,hpp ,5
+Realsense-viewer: Fix variables name,2019-06-27,Merged,4268,3,3,,1
+Firmware update API and command line tool,2019-06-25,Merged,4267,"2,080",143,txt c h in rc rules ,14
+Kernel 4.18 support,2019-06-26,Merged,4265,"1,020",17,sh patch ,4
+Handle EBUSY as xu_query return type. Kernel 4.19+,2019-06-26,Merged,4264,19,19,cpp ,7
+Fixed bug on rs-terminal,2019-06-20,Merged,4251,19,10,,1
+Win7 backend enhancements,2019-08-19,Merged,4248,286,134,cpp ,11
+Handle disconnect events,2019-06-24,Merged,4246,94,83,cpp ,5
+doc: T265 extrinsics and origin explained,2019-06-19,Merged,4240,7,2,md ,2
+Android - dynamic USB read buffer size,2019-06-25,Merged,4237,49,105,java ,3
+F416 camera and LED controls,2019-11-05,Closed,4230,96,7,h ps1 cpp ,8
+Android l500 detection fix,2019-06-16,Merged,4219,46,8,java xml ,6
+Updates to Matlab and Python wrappers,2019-06-18,Merged,4208,92,22,m cpp ,9
+Update nodejs wrapper,2019-06-18,Merged,4203,25,12,gyp ,1
+Added intrinsics support for self calibration mode with resolution of…,2019-12-05,Closed,4182,17,5,,1
+Add a-factor APIs to the SDK wrappers,2019-06-06,Merged,4162,13,5,xml cs cpp ,5
+Merge updates from the Master branch,2019-06-06,Merged,4161,2,0,,2
+Updated RGB Extrinsic recovery procedure,2019-06-06,Merged,4160,158,106,cpp ,4
+Linux metadata retrofit for the supported SKUs,2019-06-06,Merged,4159,621,110,patch ,4
+T265: Fix error prints for get/set static nodes,2019-06-05,Merged,4152,17,1,,1
+"Change name of laser power to preset, enable sync mode in case of zero order, update l515 create matcher.",2019-06-06,Merged,4149,58,19,h cs ,13
+IMU metadata attributes,2019-06-03,Merged,4135,216,24,cpp ,8
+Link to build flags in build instructions,2019-06-03,Merged,4133,4,1,,0
+Kernel building needs bc,2019-06-11,Merged,4126,1,1,,1
+Merge pull request #1 from IntelRealSense/master,2019-05-31,Closed,4123,0,0,,0
+Quiet Static Node,2019-06-03,Merged,4122,5,5,,1
+Add frame timestamp attribute and USB descriptor for L500,2019-06-03,Merged,4119,12,0,,2
+android examples - release config,2019-06-03,Merged,4117,85,74,java gradle md ,6
+Quiet Static Node,2019-05-30,Merged,4109,6,5,,1
+Add disparity support to colorizer,2019-06-17,Merged,4101,319,179,h hpp ,5
+Advanced mode - add disparity modulation function control,2019-06-03,Merged,4100,132,7,hpp cpp def txt ,12
+CMake Fixes,2019-05-30,Merged,4094,6,13,,0
+Restore OpenMP Support (Fixes #4023),2019-05-29,Merged,4093,6,5,,2
+Warning Fixes,2019-06-11,Merged,4092,6,6,cpp ,5
+Updates to D435i calibration loss W/A flow,2019-06-04,Closed,4083,23,17,h ,7
+Add support in F416 and D465 cameras,2019-05-28,Merged,4078,75,20,cpp ,9
+Add support in D416 and D465 cameras,2019-05-27,Closed,4077,26,15,h ,8
+Add support in D416 and D465 cameras,2019-05-27,Closed,4076,26,15,h ,8
+globalTimeStamp - going to idle,2019-06-05,Merged,4073,126,43,cpp ,10
+Restore OpenMP Support,2019-05-28,Closed,4049,6,5,,2
+CMake and Warnings Fixes,2019-05-28,Closed,4037,16,22,h cpp ,7
+Android error handling fix,2019-05-28,Merged,4032,180,98,java gradle ,10
+Added some more checks to D435i extrinsics W/A,2019-05-26,Merged,4029,24,2,,1
+Use a more accurate quat2rot that doesn't leave the norm off by 6%,2019-05-30,Merged,4013,32,4,,1
+First pass at adding support for Python3.7,2019-06-03,Merged,4012,9,4,py ,2
+ros_reader: fix error converting camera distortion,2019-06-18,Merged,4010,14,1,,1
+Update t265_rpy.py,2019-05-30,Merged,4000,1,1,,1
+Add python docs to gh-pages,2019-05-19,Merged,3998,"38,329",0,buildinfo html ,4
+Adding Community example + merge from master,2019-05-21,Merged,3996,10,5,,0
+Add comprehensive documentation to Python via sphinx,2019-05-19,Merged,3993,723,547,hpp ,6
+T265 manual exposure,2019-06-03,Merged,3992,181,4,h md ,2
+Cancel the check of the algo version before reading the zero order point.,2019-05-15,Merged,3984,8,12,,2
+Add units transform processing block,2019-05-16,Merged,3982,275,1,hpp txt cpp def cs ,13
+Fix for D435i loosing RGB-depth extrinsic calibration after firmware update,2019-05-16,Merged,3976,117,1,cpp ,3
+Software device pipeline,2019-05-15,Merged,3972,11,3,js ,3
+Avoid problems with UNC paths and rc.exe,2019-05-15,Merged,3971,13,15,rc in ,2
+UE4 Wrapper Update,2019-05-15,Merged,3956,"1,816",354,cpp h cs ,13
+Added Hue style colorization and disparity domain colorization mode,2019-06-17,Merged,3955,179,7,cpp h cs ,4
+Example: Stereo from T265 images using OpenCV,2019-05-16,Merged,3951,272,0,py ,1
+Get Sensor from frame,2019-05-16,Merged,3933,111,25,hpp cpp def cs ,17
+Realsense2-gl cmake amendments,2019-05-19,Merged,3930,149,48,in txt ,8
+Make legacy librealsense compatible with recent kernel,2019-06-23,Merged,3929,11,1,,1
+Fix pybackend build,2019-05-06,Merged,3912,10,1,cpp ,2
+Version promotion to v2.22.0,2019-05-05,Merged,3910,13,3,xml md ,2
+Global Camera Time,2019-05-16,Merged,3909,483,23,md h txt ,10
+Promote T265 Firmware to 0.0.18.5715,2019-05-05,Merged,3907,2,2,,0
+Fix D435i IMU Extrinsics,2019-05-19,Merged,3902,21,54,h ,7
+Fix D435i IMU Extrinsics,2019-05-04,Closed,3901,8,48,h ,3
+Correct the order of multiplication in the extrinsic graph,2019-05-15,Merged,3900,1,1,,1
+Update for get_intrinsics and pick_l500_devices of L500,2019-05-05,Merged,3889,25,15,cpp ,3
+Fix T265 Pose attributes in record/playback scenarios,2019-05-05,Merged,3884,257,223,cpp h ,9
+Extend cv-helpers.hpp to handle RS2_FORMAT_DISPARITY32,2019-05-02,Merged,3883,4,0,,1
+RealSense Viewer notifies relocalizations,2019-05-02,Merged,3882,2,4,,2
+added simple recorder,2019-06-02,Merged,3875,179,0,md cpp ,1
+Android - add missing filters to Java API,2019-04-30,Merged,3869,773,11,gitignore gradle pro xml ,6
+Add finally to example code for pyrealsense,2019-05-15,Merged,3860,7,4,,0
+rs usb api and implementations added,2019-05-16,Merged,3828,"3,185","2,875",txt cpp h ,9
+C# wrapper(try 2): add PoseSensor to expose localization map and static node api,2019-05-05,Merged,3826,82,10,txt ,5
+C# wrapper: add PoseSensor to expose localization map and static node api,2019-04-23,Closed,3824,82,10,txt ,5
+Adding a depth viewer community example,2019-04-28,Merged,3820,1,0,,0
+data-collect: add T265 stream configuration example,2019-05-05,Merged,3819,11,1,,0
+Merge from Master to Dev,2019-04-22,Merged,3813,3,3,,0
+"Fixed typo line 82 ""cd protbuf""",2019-04-22,Merged,3810,1,1,,0
+L500 Intrinsic Extrinsic parameters,2019-04-22,Merged,3808,455,200,cpp h ,3
+Measure example fix,2019-04-21,Merged,3807,4,4,,1
+#3803 Removed the requirement of additional hid devices,2019-04-29,Merged,3804,2,0,,1
+Increase examples waiting time for first frame to 15 seconds,2019-04-21,Merged,3795,72,33,c cpp hpp ,13
+Added support for rgb metadata,2019-04-21,Merged,3791,124,26,h ,8
+libuvc: fix undefined behavior caused by capture-by-reference of local variable,2019-04-28,Merged,3783,1,1,,1
+Promote T265 Firrmware version selector to 5502,2019-04-17,Merged,3778,2,2,,0
+Matlab build adjustment for libtm restructure,2019-04-17,Merged,3777,6,6,,1
+Update t265.md: added odometry calibration information,2019-04-17,Merged,3775,47,1,,0
+Fix IMU timestamps precision,2019-04-16,Merged,3773,1,1,,1
+"android - add presets support, enable camera stream configuration",2019-04-18,Merged,3771,"2,486",513,cpp c ,6
+Added support for IMU in l500,2019-04-18,Merged,3763,308,121,h txt ,6
+Fix Alignment processing block,2019-04-17,Merged,3760,401,250,cpp ,3
+"matlab wrapper, ""elseif"" syntax correction",2019-04-18,Merged,3755,4,4,,2
+legacy: Compatibility fixes for recent Linux,2019-05-07,Closed,3749,8,8,h cpp ,3
+Development,2019-04-15,Closed,3748,362,355,md hpp ps1 cpp c ,8
+"[python] add pipeline.start(cfg, cb), handle gil properly everywhere",2019-04-21,Merged,3739,10,9,,1
+T265: Disable low power mode by default,2019-04-17,Merged,3736,3,3,,1
+Linux instructions update.,2019-04-11,Merged,3729,18,11,,0
+android - enable l500,2019-04-14,Merged,3727,59,63,c h java ,11
+Fix for HID timestamp trimming,2019-04-11,Merged,3726,14,17,h ,4
+Typo fix,2019-04-09,Merged,3719,9,5,hpp cpp py ,4
+W10 support,2019-04-15,Merged,3715,259,182,hpp cpp ,9
+WinOS Metadata Script: fix D435i PID for headless+module,2019-04-11,Merged,3702,5,3,,1
+libtm: interface updated to latest firmware,2019-04-07,Merged,3690,6,78,cpp ,6
+[Unity] Support linear color space,2019-04-29,Merged,3687,3,1,,1
+Merge of 2.20.0 to master,2019-04-04,Merged,3683,"8,176","3,368",h md txt jpg gif ,4
+Bump version to 2.20.0.,2019-04-04,Merged,3677,5,4,xml ,2
+Debian packages update routine  - updated,2019-04-04,Merged,3673,10,4,,0
+Promote T265 FW Tag; Minor SDK fixes,2019-04-04,Merged,3669,32,33,cpp cmake ,4
+Release GIL in pipeline::wait_for_frames(),2019-04-04,Merged,3666,1,1,,1
+Added support on error handling for L500 depth device,2019-04-02,Merged,3660,88,25,cpp h ,5
+GLSL Processing Blocks,2019-05-05,Merged,3654,"11,848","3,687",cmake ,10
+Include TM2 firmware directly,2019-04-16,Merged,3647,333,"1,399",,10
+Wheel odometry unit test fix up,2019-04-02,Merged,3646,3,5,,1
+Simplify udev-rules application,2019-04-03,Merged,3643,22,3,sh ,1
+Exit function after CUDA conversion,2019-04-03,Merged,3641,1,0,,1
+rs usb interface api and implementations added,2019-05-16,Closed,3639,"2,688","2,777",cpp h ,5
+[python] Pipeline callbacks,2019-04-04,Merged,3634,3,3,,1
+CMake improvements for Windows build,2019-04-29,Merged,3611,17,6,cmake ,2
+Updated apt-get dependencies : xorg-dev libgtk-3-dev libusb-1.0-0-dev,2019-04-01,Merged,3610,1,1,,0
+Merge of 2.19.2,2019-03-28,Merged,3609,"3,224","1,610",txt cpp md ,2
+Updated L500,2019-03-29,Merged,3603,829,504,patch cpp txt ,11
+C# Development,2019-04-02,Merged,3602,"5,934","2,516",txt cs ,3
+update Unity readme.md,2019-03-27,Merged,3600,5,13,,0
+Bump version to 2.19.2,2019-03-27,Merged,3598,2,2,xml ,2
+Basic AR example with T265,2019-04-03,Merged,3593,647,1,jpg gif md ,2
+Realsense viewer multicamera T265 support,2019-04-03,Merged,3591,259,292,,0
+android - fix fw version check on camera app,2019-03-27,Merged,3588,2,0,,1
+Development,2019-03-27,Closed,3585,"3,219","1,597",txt cpp md ,2
+[python] reorder enable_stream overload registration to fix overload registration,2019-03-25,Merged,3578,1,1,,1
+More edits to matlab code in wrapper,2019-03-25,Merged,3577,6,6,,3
+"Revert ""Adding better error messages when cannot resolve pipeline req…",2019-03-23,Merged,3573,24,106,cpp ,3
+[sample] roll-pitch-yaw from T265,2019-04-03,Merged,3571,51,0,,1
+Fixed rs-convert crash,2019-04-03,Merged,3564,8,4,,1
+T265 profile extrinsics,2019-04-03,Merged,3563,137,17,cpp ,9
+changed conditions order to avoid segfault,2019-03-20,Merged,3551,1,1,,1
+SDK Examples Enhancements (part 1 on N),2019-03-21,Merged,3548,"1,152",862,md ,0
+"android - device and device list added, fw version check added t the …",2019-03-20,Merged,3547,210,3,c java ,11
+Implements retrieving camera intrinsic parameters from T265,2019-04-03,Merged,3541,74,16,cpp ,7
+Use CASE(X) macro consistently across get_string() impls,2019-03-20,Merged,3539,10,10,,1
+unit-tests: separate wheel odometry unit test,2019-03-20,Merged,3535,86,21,,1
+T265: Add pose and image example for 200Hz pose + 30Hz images,2019-04-02,Merged,3522,190,0,md cpp ,1
+T265: Check that stream index is 1 or 2 and throw an error if not,2019-03-20,Merged,3521,3,0,,1
+T265: Log connection errors to the console,2019-03-25,Closed,3520,2,2,,1
+T265 query devices fix,2019-03-21,Merged,3515,483,504,hpp ,2
+Trajectory,2019-03-20,Merged,3513,868,1,md ,0
+Added support for motion_module for playback backward compatibility,2019-03-19,Merged,3512,12,0,h ,2
+"changed ""push pop"" to ""enqueue dequeue""",2019-03-19,Merged,3509,1,1,,1
+CMake and warning cleanups,2019-04-16,Merged,3507,183,891,,10
+Update distribution_linux.md,2019-03-19,Merged,3506,1,1,,0
+Fix typo in raspbian installation,2019-03-13,Merged,3484,1,1,,0
+Connected get_motion_intrinsics API to get parameters for T265,2019-03-17,Merged,3482,11,7,,1
+Add arguments for python threshold filter,2019-03-13,Merged,3478,3,1,,1
+Don't raise a hardware event for relocalizations,2019-03-13,Merged,3477,3,1,,1
+rs-enumerate enhancements,2019-03-19,Merged,3471,66,71,md cpp ,2
+Fixing USB2 detection bug,2019-03-19,Merged,3466,1,1,,1
+renaming of wheel odometry API: uses translational velocity (measurem…,2019-03-20,Merged,3462,38,74,hpp cpp json cs ,14
+[Python] Add CMake option to generate python documentation with Sphinx,2019-03-19,Merged,3459,317,2,txt rst in cpp ,7
+Updating IMU sensors reference,2019-03-13,Closed,3457,141,0,gif md ,2
+Trimming HID timestamps to 32bit,2019-03-19,Merged,3455,15,6,txt ,1
+T265 system timestamps,2019-03-20,Merged,3453,41,52,cpp ,3
+Add minor version to soname,2019-03-25,Merged,3449,2,2,,0
+2.19.1 -> Master,2019-03-10,Merged,3445,466,94,cpp rules txt md h xml ,7
+Bump version to 2.19.1,2019-03-09,Merged,3444,54,2,h xml ,2
+Master > Dev,2019-03-09,Merged,3443,13,6,,0
+wait for T265 to enumerate,2019-03-19,Closed,3439,5,2,,1
+Add pose-predict example,2019-03-09,Merged,3431,121,0,cpp ,1
+Update installation_osx.md,2019-03-09,Merged,3425,13,6,,0
+Added support for D430I,2019-03-09,Merged,3424,144,57,ps1 h ,9
+Kinfu example using default intrinsics,2019-03-07,Closed,3421,0,344,,1
+Adding D430i support for Linux,2019-03-09,Merged,3415,85,22,patch cpp ,14
+Work in progress on Mac OS support for the T265,2019-03-09,Merged,3399,62,13,h txt cpp ,10
+Merge of 2.19 to master,2019-03-05,Merged,3389,"32,842","9,436",cmake md ,3
+Disable hole_filling_filter by default.,2019-03-05,Merged,3388,3,0,,1
+Merge changes from master to development branch,2019-03-05,Merged,3382,115,12,h hpp xml sh def cpp py ,9
+Fixed bug on model-views - return Depth Visualization processing block.,2019-03-04,Merged,3368,5,0,,1
+Android - backend bug fixes and camera app new features,2019-03-05,Merged,3366,688,321,cpp h xml md java ,14
+T265 readme updates,2019-03-04,Merged,3359,188,125,,0
+Recommended Post-Processing,2019-02-28,Merged,3352,"4,541","2,130",h txt hpp ,8
+Update python-rs400-advanced-mode-example.py,2019-02-28,Merged,3347,1,1,,1
+API for adding software device into existing context,2019-03-05,Merged,3340,16,4,cpp h ,5
+add API function unload_tracking_module.,2019-03-02,Merged,3339,30,0,hpp def cpp ,5
+android - frame metadata support added,2019-03-02,Merged,3337,129,24,h c java ,13
+Libtm merge from release ww08 rc4,2019-02-26,Merged,3331,405,232,h cpp ,6
+Import/Export T265 localization map API,2019-03-05,Merged,3324,"1,205",174,h ,4
+Bug fixes,2019-03-04,Merged,3318,373,110,h hpp ,9
+android - listen to interrupts on the usb pipe thread by default,2019-02-24,Merged,3317,24,23,h ,5
+Merge Libtm PRQ version,2019-02-26,Closed,3300,205,19,cpp ,6
+C# & Unity Development,2019-02-21,Merged,3285,"13,141","5,745",cs ,7
+Added fstream dependency,2019-02-19,Merged,3280,1,0,,1
+Automated Standards Checking,2019-02-21,Merged,3265,490,135,md txt cpp sh h ,13
+Replace vec2mat with reshape #2,2019-02-15,Merged,3257,2,5,,0
+Pose example,2019-02-17,Merged,3255,133,24,h cpp md ,3
+Libuvc_installation - add script to facilitate libuvc backend,2019-02-12,Merged,3246,74,0,sh ,1
+v2.18.1,2019-02-07,Merged,3233,"2,020","1,184",png gif md txt hpp h ,9
+Fix calibration table initialization,2019-02-07,Merged,3228,2,0,,1
+Master -> Dev merge,2019-02-06,Merged,3216,2,1,,0
+CMake: Override zero-sized records,2019-02-04,Merged,3206,22,5,,0
+T265 info adjustments,2019-02-04,Merged,3203,7,6,,1
+Added Register Extrinsics method to C# wrapper,2019-02-06,Merged,3202,11,1,,2
+Patch IIO HID initialization,2019-02-04,Merged,3200,33,66,h ,2
+opencv: only use the C++ API,2019-02-06,Merged,3196,14,14,cpp h ,6
+Fix realsense viewer on macos,2019-02-03,Merged,3195,972,920,h ,2
+add realsense-ir-to-vaapi-h264 community example,2019-02-04,Merged,3194,2,1,,0
+Added Hardware Reset to .Net wrapper,2019-02-03,Merged,3192,12,6,cs ,1
+Fix libusb error C2001 on Visual C++,2019-02-03,Merged,3190,2,0,,0
+[Python] Add an explicit release function to frames,2019-02-04,Closed,3174,8,7,,1
+Changing IMU Table link and adding JSON writer,2019-02-04,Merged,3172,5,2,,1
+Simple Python example for T265 pose stream,2019-01-30,Merged,3162,73,77,cpp ,3
+IMU and Tracking sensors readme,2019-01-30,Merged,3161,122,0,gif md ,5
+Libtm fw compare,2019-02-03,Merged,3149,134,72,,0
+Markdown Images case sensitive,2019-01-30,Merged,3132,6,6,,0
+fixed bugs on 3D viewer,2019-01-28,Merged,3130,23,14,,1
+Fix emitter on/off required version,2019-01-30,Merged,3127,1,1,,1
+Merge v2.18.0,2019-01-22,Closed,3123,"114,857","9,837",cmake txt md ,4
+Merge from Master,2019-01-22,Merged,3120,181,12,,0
+Realsense-viewer: UX fixes,2019-01-22,Merged,3117,53,33,h ,2
+Update distribution_linux.md,2019-01-22,Merged,3115,13,12,,0
+Fix bug with depth scale before starting device,2019-01-30,Merged,3113,3,3,,1
+"[Python] Add dims=3 option to get_vertices/get_texture for (h,w,n) output format",2019-02-03,Merged,3111,12,0,,1
+Fix kernel patch flow,2019-01-20,Merged,3104,2,1,,1
+Viewer grid support,2019-01-21,Merged,3103,566,149,,0
+Fix build with OpenCV 4,2019-02-01,Closed,3091,10,6,cpp h ,6
+UX enhancements,2019-01-21,Merged,3089,"5,080",997,h ,4
+Enable librealsense on unrooted android devices,2019-02-19,Merged,3083,"11,523",469,md txt_ ,3
+Matlab get_extrinsics_to fix,2019-01-17,Merged,3081,1,1,,1
+Update Python's readme.md,2019-01-17,Merged,3079,3,2,,0
+"[Matlab] Fix ""Must be a Scalar"" and other validation errors",2019-01-21,Merged,3078,23,23,,8
+Fix a comparison-instead-of-assignment bug.,2019-01-16,Merged,3071,2,1,h ,2
+Update to definition of variable 'out' in align.m,2019-01-16,Merged,3069,1,1,,1
+D430 Alternating emitter (on/off) mode control,2019-01-20,Merged,3066,572,80,h ,9
+Pass ABI and STL settings to libusb CMake,2019-01-15,Merged,3061,3,0,,1
+Processing extensions prep-work,2019-02-13,Merged,3058,334,278,h ,4
+Adding threshold processing block,2019-01-16,Merged,3057,160,7,h hpp txt def ,8
+Adding YUY to RGB capabilities to public API as a processing block.,2019-01-16,Merged,3056,167,4,hpp cpp txt def ,9
+Extracting PointCloud-SSE out of pointcloud.cpp,2019-01-16,Merged,3055,390,260,cpp h ,3
+Extracting functionality out of rs.cpp into header files,2019-01-16,Merged,3054,95,84,def cpp ,4
+Motion Estimation,2019-01-30,Merged,3053,581,6,hpp h md ,2
+Changing filenames according to project convention,2019-01-15,Merged,3052,9,9,cpp h ,6
+Updating to GLFW 3.3,2019-01-15,Merged,3051,"102,791","5,550",h ,1
+Switch to use stable libusb version,2019-01-13,Merged,3049,1,1,,1
+Restructure the C# library,2019-01-21,Merged,3038,"3,029","2,596",txt ,1
+T265 udev rules update,2019-01-09,Merged,3035,1,0,,1
+Code of Conduct,2019-01-09,Merged,3034,77,0,,0
+"fix nite2 support, fix intrinsics",2019-01-20,Merged,3025,"1,391",7,cpp ,6
+D435i IMU calibration script,2019-01-21,Merged,3023,723,4,jpg JPG ,7
+Modify CMAKE files in order to build rs-pcl-color,2019-02-24,Merged,3017,39,39,,0
+Pose stream info,2019-01-09,Merged,3010,210,84,,1
+Libtm library merge from 479c,2019-01-09,Merged,3008,217,64,cpp ,7
+Development,2019-01-05,Closed,3006,1,1,,1
+Create installation_raspbian.md,2019-01-09,Merged,3005,168,0,,0
+Fix IMU Start-up delay on Linux,2019-01-14,Merged,2997,95,97,cpp h ,7
+Travis - enable testing on windows os,2019-01-06,Merged,2993,39,30,cpp ,2
+T265 serial number fix,2019-01-02,Merged,2990,1,1,,1
+Test new travis 2,2019-01-01,Closed,2989,37,112,,2
+Merge from master to dev,2018-12-31,Merged,2988,27,20,txt ,0
+Disable save_to_ply option - python 3.6 CI,2018-12-30,Merged,2986,2,2,,1
+Win7 compilation fix,2018-12-30,Merged,2985,10,2,cpp ,2
+Register SR300 PID:0x0B48,2018-12-30,Merged,2984,2,1,h ,2
+Motion extrinsic to produce identity rotation,2018-12-30,Merged,2983,32,4,h ,5
+Generate docs command update,2018-12-30,Merged,2978,2,1,,0
+D435i connect disconnect fix,2018-12-28,Merged,2973,51,17,h ,7
+Disable TM2 build as conflict with NCS1,2018-12-27,Merged,2970,7,0,,0
+Support for D435 intrinsic calibration,2018-12-30,Merged,2964,427,137,hpp h ,9
+fix openni multi-device support #2936,2018-12-28,Merged,2960,8,0,,1
+Motion module GUI updates,2018-12-26,Merged,2959,93,14,h cmake ,6
+Added D435i IMU sample to community contributions,2018-12-24,Merged,2956,2,0,,0
+"Fixed the ""must be a scalar"" issue",2019-01-20,Merged,2954,3,3,,1
+travis parallel build,2018-12-24,Merged,2953,103,114,,1
+wip,2018-12-23,Closed,2952,103,114,,1
+Fix box_dimensioner_multicam python example,2019-08-14,Merged,2949,16,17,,1
+Optional override for HID power management to prevent resume delays,2018-12-25,Merged,2943,60,2,rules cpp h ,5
+Windows hid gyro fix,2018-12-25,Merged,2940,44,29,txt cmake ,2
+frame iterator inherits from std::iterator,2018-12-20,Merged,2939,1,1,,1
+readme typo of published name of sensor information,2019-02-03,Merged,2919,1,1,,0
+add python support for motion_frame.,2018-12-30,Merged,2917,20,0,,1
+mf backend - exception when enable all streams,2018-12-20,Merged,2915,21,35,h ,2
+fix memory leak in mf backend,2018-12-17,Merged,2907,282,339,,1
+Mf memory leak kick appveyor,2018-12-16,Closed,2906,389,453,,2
+Kinfu example,2018-12-20,Merged,2903,580,2,hpp md gif ,2
+Fix MF backend memory leak,2018-12-17,Closed,2902,388,452,,1
+Fix build break with libstdc++ versioning enabled,2018-12-25,Merged,2900,0,12,,1
+Adding a new community project to the example README,2018-12-19,Merged,2898,1,0,,0
+Add Matlab project to Wrappers folder,2018-12-15,Merged,2883,1,0,,0
+Update readme.md,2018-12-11,Merged,2873,21,15,,0
+Update rodsep keys.,2018-12-11,Merged,2872,5,6,,1
+Call find_package(ament_cmake) after project().,2018-12-10,Merged,2867,6,2,xml ,1
+Fixing Accel data in Windows,2018-12-11,Merged,2864,38,9,,1
+Merge with libtm repo,2018-12-09,Merged,2863,258,109,cpp ,5
+Update CMakeLists.txt and dependencies.,2018-12-10,Closed,2861,5,2,xml ,1
+Allow unattended kernel patching,2018-12-06,Merged,2853,1,1,,1
+enable librealsense running on non-rooted Android phone,2019-01-23,Closed,2852,"30,246",0,gradle so jar pro java xml bag txt ,12
+fix race on playback device destruction,2018-12-11,Merged,2849,2,2,,1
+Set IMU extrinsic based on mechanical drawings,2018-12-06,Merged,2843,35,10,h ,4
+Added align and pointcloud tests,2019-01-06,Merged,2842,542,1,cpp ,1
+Added align and pointcloud tests,2018-12-04,Closed,2841,523,1,cpp ,1
+Use find_package (and the default library name) for GLFW,2018-12-10,Merged,2837,12,62,cmake txt ,2
+Export Processing blocks,2018-12-19,Merged,2830,409,29,h hpp cpp ,5
+Emitter On/Off,2018-12-09,Merged,2829,146,27,cpp ,11
+Find thread library to resolve linux compilation,2018-12-04,Merged,2824,39,5,md ,0
+c++ api - remove get_removed_devices method from event_information class,2018-12-04,Merged,2823,1,12,cpp ,2
+enable librealsense running on non-rooted Android phone,2018-12-06,Closed,2822,"29,654",0,txt third-party/libusb/AUTHORS third-party/libusb/Brewfile ,3
+Updated to Python3 format,2018-12-02,Merged,2817,24,24,,1
+Multicam in Unity lead to crash with post-processing filters (100% repro),2018-12-09,Merged,2810,78,34,md ,3
+Merge of 2.17.0 to master,2018-11-29,Merged,2805,"6,155","2,925",cpp h md txt ,6
+Add functionality to record software device extrinsics,2018-12-02,Merged,2804,13,2,h ,3
+Windows HID support - updates,2018-12-02,Merged,2803,43,276,cpp ,8
+Add tests for align processing block,2018-12-04,Closed,2800,141,0,cpp ,1
+Add tests for align processing block,2018-11-29,Closed,2799,"6,293","2,924",cpp h md txt ,6
+Update Matlab Wrapper for Processing Block API Update,2018-11-29,Merged,2793,52,34,cpp vcxproj filters h ,14
+Suppress IMU Calib warning,2018-11-28,Merged,2791,1,1,,1
+Community fixes,2018-11-29,Merged,2790,"1,152","1,154",cpp h xml ,12
+D435i windows IMU support,2018-11-28,Merged,2788,526,137,cpp ,10
+Added OpenNI into wrappers' CMakeLists,2018-11-28,Merged,2784,5,0,txt ,1
+Matlab: basic pointcloud demo,2018-11-28,Merged,2780,64,9,m md ,2
+Adjust IMU rates to spec,2018-11-28,Merged,2777,9,53,h txt ,3
+Realsense-viewer: autoi-disable syncer with motion sensors,2018-11-27,Merged,2776,37,42,h hpp txt ,22
+Refactoring data-collect tool to sensors API,2018-11-27,Merged,2775,578,189,h txt md ,3
+Pipeline callback api,2018-11-28,Merged,2773,"2,258","1,186",cpp md ,3
+box_dimensioner_multicam sample: Fix an incorrect IR image being returned from DeviceManager,2018-11-28,Merged,2766,9,2,→ NOTICE md py ,2
+add an Android wrapper,2019-12-05,Closed,2765,"2,948",1,→ NOTICE txt gitignore gradle so jar pro java xml bag ,13
+export include and libraries for ament build,2018-11-22,Merged,2760,6,1,,1
+export include and libraries for ament build,2018-11-22,Closed,2759,6,1,,1
+split processing block to processing_block(invoke) and filter(process),2018-11-21,Merged,2757,100,64,hpp ,3
+Split processing block class to processing block and filter,2018-11-21,Closed,2756,100,64,hpp ,3
+change catkin to ament_cmake for ros2 build,2018-11-21,Merged,2755,123,8,txt debian/postinst debian/udev xml ,4
+Adjust Viewer stream info for IMU stream info,2018-11-18,Merged,2739,19,6,h xml ,3
+Fix IMU timestamps patch for linux kernels,2018-11-15,Merged,2732,175,70,,4
+Fixing typo of openCV compilation commands,2018-11-15,Merged,2729,2,2,,0
+Correct errors in align.m (issue #2710),2018-11-15,Merged,2726,1,4,,1
+Move save_to_ply functionality to processing block,2018-11-21,Closed,2725,308,21,txt h hpp cpp ,9
+The viewer model will move to filters frameset instead of separated frames.,2018-11-15,Merged,2717,196,76,h hpp ,7
+Merge refactor cmake files,2018-11-15,Merged,2716,"1,409","1,736",,8
+OpenCV and Numpy Point cloud Software Renderer,2018-11-26,Merged,2709,825,0,,1
+Replace vec2mat with reshape,2018-11-15,Merged,2708,3,6,,1
+Added support for emitter on and off feature and the intrinsics not i…,2018-12-09,Merged,2699,196,31,h ,12
+add an Android example running on non-rooted Android phone,2018-11-23,Closed,2698,"1,443",0,gradle so jar pro java xml bag ,9
+"Pcl color readme fix, points to example image",2018-11-08,Merged,2696,6,11,cpp ,1
+add a comma to make logs more readable,2018-11-08,Merged,2695,1,1,,1
+Fix typo in sensor.cpp,2018-11-08,Closed,2694,5,4,cpp py ,2
+Use python3 style print,2018-11-08,Merged,2692,9,9,,1
+Use python3 style print,2018-11-07,Closed,2691,9,9,,1
+"[python] add apply_filters function, deal with align.process",2018-11-28,Merged,2690,42,37,,1
+Add Matlab to CMake,2018-11-08,Merged,2689,18,13,,0
+Added support in configuring recorder compression mode,2018-11-22,Merged,2687,328,278,hpp cpp ,9
+Fix Matlab wrapper search path,2018-11-08,Merged,2680,7,6,,1
+Python cv2 point cloud viewer,2018-11-08,Closed,2679,320,0,,1
+Update Easylogging++ dependency to v9.96.5,2018-11-07,Merged,2674,334,241,,0
+Add APIs to inject IMU and pose to software_device,2018-11-25,Merged,2673,726,291,hpp ,4
+Align processing block - CUDA implementation,2018-11-12,Merged,2670,"1,398",993,h ,1
+Fix D435i Frequences selection and idle power consumption,2018-11-06,Merged,2669,136,54,h patch ,11
+PCL color example added,2018-11-05,Merged,2668,386,1,md cpp ,1
+Fix missing header for major() and minor() functions,2018-11-04,Merged,2665,1,0,,1
+fix crash when playback bag file which caused by memory misalignment,2018-11-21,Merged,2659,1,1,,1
+Refresh the _depth_units when its changed.,2018-11-07,Merged,2655,38,3,h ,4
+Cancel zero copy for YUYV format.,2018-11-01,Merged,2653,1,1,,1
+Fix Openni2 build failed on linux (update to C99 standard),2018-11-07,Merged,2651,13,7,md h ,1
+Handle assertion on playback_device caused by race condition between the start of two,2018-11-01,Merged,2646,8,6,h ,4
+[matlab] update frameset.m to reflect mexfile,2018-11-01,Merged,2644,2,2,,1
+Handle assertion on playback,2018-10-30,Closed,2642,1,1,,1
+adding a key press to exit the image window,2018-11-01,Merged,2641,5,1,,1
+Merge 2.16.3 to master,2018-10-30,Merged,2640,52,42,txt h xml cpp ,15
+Fix more Matlab bugs,2018-10-30,Merged,2636,26,16,md m h ,3
+Tm2 proxy check CMAKE fix,2018-10-28,Merged,2628,14,1,,0
+Pointcloud resolution change,2018-10-28,Merged,2627,14,36,h ,9
+Pointcloud resolution change,2018-10-28,Closed,2626,14,36,h ,9
+Fix crash - Disable creating multiple tracking managers,2018-10-28,Merged,2625,20,2,h ,3
+Fix crash - Disable creating multiple tracking managers,2018-10-28,Closed,2624,22,2,h ,4
+add android wrapper,2018-10-29,Closed,2615,"6,261",0,h gitignore md gradle pro java xml ,8
+fix crash caused by memory misalignment,2018-10-30,Closed,2614,1,1,,1
+Development,2018-10-25,Merged,2608,"48,483","7,073",yml ,1
+Remove libtm logs to screen,2018-10-28,Merged,2606,1,1,,1
+Resolve matlab compilation,2018-10-25,Merged,2603,3,3,,1
+Merge of master to dev,2018-10-25,Merged,2602,3,4,,0
+Expose TM2-related flag to use local FW storage:,2018-10-25,Merged,2601,1,1,,1
+Disable platform camera for pipeline - will work only with intel cameras,2018-10-30,Merged,2600,8,8,h ,5
+Change cmake warnings to status messages in libtm library,2018-10-25,Merged,2599,42,42,cmake ,1
+Fixed thread safety issue in stop and start of playback_sensor,2018-10-25,Merged,2598,7,2,h ,2
+Realsense-viewer - disable sync by default,2018-10-25,Closed,2597,1,1,,1
+D435i Support,2018-10-25,Merged,2596,562,145,h rules hpp patch ,8
+Add T260 camera capability to librealsense,2018-10-24,Merged,2594,"20,304",244,yml cpp h ,4
+C# and unity,2018-10-24,Merged,2592,"5,727","6,237",cs ,3
+C# and unity,2018-10-24,Closed,2591,"27,369","6,509",cpp ,1
+add android wrapper,2018-10-26,Closed,2579,"6,314",1,h wrappers/android/Makefile md ,2
+viewer - avoid display stream select options,2018-10-22,Merged,2571,16,5,h ,2
+Update unity doc,2018-10-24,Merged,2561,"5,727","6,236",cs ,3
+C# and Unity wrappers,2018-10-24,Closed,2559,"5,670","6,190",cs ,3
+Add T260 camera capability to librealsense,2018-10-23,Closed,2548,"20,317",250,txt yml cpp h ,5
+Handle offset on UI when graphics driver is not updated,2018-10-21,Merged,2546,235,17,h txt ,8
+"Fixed bugs: DSO-9680, DSO-10411",2018-10-23,Merged,2545,126,40,h ,3
+Libtm support tmp,2018-10-22,Closed,2537,"22,587",226,txt cpp h ,5
+Integrate libtm source code,2018-10-15,Closed,2532,"22,565",225,txt cpp h ,6
+Fix processing blocks issues,2018-10-16,Merged,2528,146,94,h ,12
+IRSA v0.0.6 was released,2018-10-15,Closed,2527,5,3,cpp h ,2
+change message about frames coming in stop mode to INFO,2018-10-11,Merged,2513,1,1,,1
+RGB sensor auto-exposure region of interest,2018-10-22,Merged,2511,93,33,h cs ,6
+fix build error for Android-x86 target,2018-10-10,Closed,2505,1,1,,0
+Removed D2S and S2D,2018-10-08,Merged,2493,0,"1,239",md jpg ,1
+Fix typos in matlab wrapper,2018-10-25,Merged,2492,238,170,m ,10
+Python wrapper tweaks,2018-10-11,Merged,2491,35,14,,1
+Libuvc fixes,2018-10-11,Merged,2490,98,1,h py ,3
+Android example with V4L2-backend,2019-11-06,Closed,2489,"2,847",9,md txt gradle pro xml ,5
+Add DFU device to INF,2018-10-07,Merged,2477,36,0,md inf ,5
+Update INF to support DFU device,2018-10-04,Closed,2476,288,61,md sh cpp inf ,3
+rename foreach to foreachRS to avoid conflict with QT foreach macro,2019-05-29,Closed,2470,8,8,cpp ,3
+unity - copy specific dlls from the build folder to the unity folder,2018-10-07,Merged,2468,6,2,,0
+Added kernel patching scripts for OpenSuSE Leap 15.0 and Tumbleweed,2018-10-09,Merged,2467,411,0,,2
+Development,2018-10-07,Closed,2466,285,61,md sh cpp inf ,3
+Adding faces to exported PLY files,2018-10-07,Merged,2454,39,1,,1
+CI fixes,2018-10-03,Merged,2447,62,55,,2
+TM1 fixes,2018-10-11,Merged,2446,38,4,h ,3
+Merge of 2.16.1 to master,2018-09-25,Merged,2444,"1,723","31,585",cpp h cpp_ png md hpp ,9
+External libusb,2018-09-25,Merged,2442,21,6,md ,0
+Revert deleted patch for kernel 4.8,2018-09-25,Merged,2441,221,0,,1
+Documentation update,2018-09-24,Merged,2434,3,3,,0
+Refactoring Android build dependencies,2018-09-24,Merged,2432,120,"30,816",cpp h cc ,7
+fix crash caused by memory misalignment in function fill_usb_buffer,2018-09-25,Merged,2430,9,8,,1
+add log mechanism for Android port,2018-09-25,Merged,2429,46,3,cc ,1
+Two fixes related to android,2018-09-21,Merged,2423,147,147,,1
+Store button,2018-09-20,Merged,2421,23,5,h ,3
+Changed serial number according to  RS5-1848.,2018-09-20,Merged,2419,1,1,,1
+add log mechanism for Android port,2018-09-23,Closed,2417,46,3,cc ,1
+fix crash caused by memory misalignment in function fill_usb_buffer,2018-09-23,Closed,2416,9,8,,1
+Fix narrowing conversion error for osx clang,2018-09-20,Merged,2409,2,1,,1
+Remove win7 WDK dlls CMake copy on deleted files,2018-09-18,Merged,2403,5,10,,0
+Add missing WIN32 check,2018-09-17,Merged,2401,24,22,,0
+Pointed to a new web link for the broken MathWorks.com link for compi…,2018-09-16,Merged,2398,1,1,,0
+Add optional configuration in CMake for test-data location,2018-09-17,Merged,2388,11,7,,0
+Fix bug in ros_file_format.,2018-09-17,Merged,2377,11,11,,1
+add log mechanism for Android port,2018-09-21,Closed,2375,0,0,,0
+fix pointcloud map_to,2018-09-16,Merged,2371,92,57,h ,9
+first commit of the OpenNI2 wrapper by the Palo Alto Group,2018-10-07,Merged,2370,"4,031",0,txt md jpg ,6
+first commit of the UnrealEngine4 wrapper by the Palo Alto Group,2018-10-07,Merged,2369,"17,310",0,uasset umap wrappers/unrealengine4/LICENSE uplugin png ,12
+Merge of master to development,2018-09-06,Merged,2362,5,5,m cpp ,3
+Playback realtime fix,2018-09-17,Merged,2360,347,176,,3
+Solve bug on start stop stream with lib_uvc,2018-09-17,Merged,2359,102,71,h ,4
+Win7 support,2018-09-06,Merged,2358,153,125,inf dll ,3
+Avoiding compile errors due to removal of overator() in version 2.16,2018-09-05,Merged,2354,2,2,,2
+Update for function get_vertices in points.m file,2018-09-05,Merged,2349,2,2,,1
+Enable IR stream with win_usb backend.,2018-09-05,Merged,2347,31,55,h ,3
+update for function process in align.m file,2018-09-05,Merged,2346,2,2,,1
+Disable fisheye stream ZERO_COPY flow,2018-09-03,Merged,2344,1,1,,1
+Provide ccache build option,2018-09-21,Merged,2342,9,0,,0
+Video4Linux uvcvideo buffers overlow handling,2018-09-25,Merged,2341,372,90,sh ,5
+Addressing GitHub #2318 - Two instances of the same device in the Viewer,2018-09-03,Merged,2340,12,6,,1
+Addressing GitHub #2178 / DSO-10235 - playback twice,2018-09-03,Merged,2339,2,1,,1
+Fix template literals for error messages,2019-05-13,Merged,2337,3,3,,1
+Handle stop streaming and IR enumaration issues on lib_uvc (RS5-2042),2018-08-30,Merged,2328,27,5,,2
+Update readme.md,2018-08-29,Merged,2322,1,1,,0
+Merge of development to master,2018-08-27,Merged,2313,"8,155","1,820",txt cpp md cpp_ png hpp ,8
+Matlab colorizer example to use standard toolbox API,2018-08-27,Merged,2312,1,4,,1
+Change the log level to suppress the warning which critically affects…,2018-08-26,Merged,2309,2,2,,2
+"Added support for compressed depth format, streaming, and the uncompr…",2018-08-23,Closed,2302,"10,222","1,059",h cpp hpp ,19
+"Added support for compressed depth format, streaming, and the uncompr…",2018-08-23,Closed,2301,"10,222","1,059",h cpp hpp ,19
+Add AVX2-specific preprocessor guards,2018-08-26,Merged,2300,4,2,h ,3
+Fix the formatting of the viewer's picker display,2018-08-26,Merged,2298,1,1,,1
+L500 linux- added support on Confidence stream in kernel patches.,2018-08-23,Merged,2297,63,48,,3
+Fix bug - AWGT camera is not moving to idle state- Linux,2018-08-23,Merged,2293,3,0,,1
+disable hid devices enumeration on windows,2018-08-23,Merged,2291,33,22,h ,4
+Removing the creation of usb_interface in recreate_interface method,2018-08-22,Merged,2286,0,1,,1
+Android run fix,2018-08-22,Merged,2285,14,11,md cpp_ ,1
+Update docs,2018-08-22,Merged,2284,101,19,m cpp vcxproj md ,7
+Libuvc - fixed bug on start and stop stream,2018-08-22,Merged,2283,21,26,h ,3
+Fix bug - aligned point cloud is calculated incorrectly,2018-08-22,Merged,2282,1,1,,1
+Fix issue #2187 (Viewer playback crash),2018-08-21,Merged,2276,25,24,,2
+Kernel 4.16 Support,2018-08-27,Merged,2275,"1,458",248,sh patch ,5
+Implement changes discussed in PR#2154,2018-08-21,Merged,2274,27,11,,1
+Add generic project files to matlab directory,2018-08-20,Merged,2268,46,15,vcxproj ,2
+Csharp dll details,2018-08-21,Merged,2267,158,13,cs asset ,6
+Csharp dll details,2018-08-19,Closed,2266,"4,533",118,h hpp md cpp ,10
+Add function for projecting color to depth,2018-08-21,Merged,2265,180,2,txt bag cpp ,3
+"Fixed bug on align: added 4 BPP formats (RGBA, BGRA)",2018-08-19,Merged,2264,3,0,,1
+"Added a series of methods that transmits the index of a mapping, and not the end result",2018-08-19,Closed,2263,565,50,h ,2
+Detect incomplete device ids before crashing,2018-08-22,Merged,2256,10,3,h ,4
+Adding #ifdef RS2_USE_WINUSB_UVC_BACKEND to winusb_uvc.cpp,2018-08-16,Merged,2254,5,0,,1
+Adding WinUVC backend to pybackend,2018-08-16,Merged,2253,24,5,,0
+Linux Kernel  4.16  support - basic functionality,2018-08-27,Closed,2252,858,230,h ,4
+Add function for projecting color to depth,2018-08-16,Closed,2251,140,1,cpp ,2
+Add CAT file,2018-08-16,Closed,2250,0,0,,1
+Merge from master to dev,2018-08-15,Merged,2246,"6,253",39,cpp h inf dll ,5
+Processing blocks frameset support,2018-08-23,Merged,2245,"1,654","1,295",cpp hpp h ,12
+INF update,2018-08-15,Merged,2244,0,0,,1
+[Node.js] Add controls feature to set options,2018-08-16,Merged,2243,91,44,html ,4
+Add winusb_uvc backend support,2018-08-15,Merged,2239,"6,304","1,011",cpp h inf dll ,5
+[Node.js] Remove examples from cmake build,2018-08-14,Merged,2235,2,953,,0
+Public accessor for m_instance field of Sensor class,2018-08-14,Merged,2234,5,0,,1
+Added color to depth projection function,2018-08-15,Closed,2233,128,1,cpp ,2
+Add an additional option CMAKE_GENERATEOR_PLATFORM=x64 in the instruc…,2018-08-14,Merged,2228,1,1,,0
+Fixed typo in device model,2018-08-15,Merged,2222,3,3,h ,3
+Fix stream request for DQT,2018-08-09,Merged,2220,2,2,,1
+Fixed DSO-10232 Artifacts in Align.,2018-08-09,Merged,2217,27,10,h ,2
+[Node.js] Support two infrared streaming,2018-08-09,Merged,2213,92,40,cpp ,5
+Fix for compilation in Android Studio,2018-08-08,Merged,2211,393,388,,0
+[Viewer] Show <Set ROI> button only for sensors that are ROI type,2018-08-07,Merged,2208,1,1,,1
+Improving the tooltip in Viewer,2018-08-07,Closed,2207,1,1,,1
+Fix camera is not moving to Idle state in Linux OS,2018-08-07,Merged,2206,39,42,h ,2
+[Viewer] - Fix crash when saving Y16 snapshot,2018-08-07,Merged,2201,21,13,,1
+Use python3 style print,2018-08-05,Merged,2194,1,1,,1
+Android compilation fix,2018-08-05,Merged,2189,11,7,md cpp ,2
+Retrieving public key for debians repo behind firewall and proxy.,2018-08-05,Merged,2184,5,4,md ,1
+Include SSSE3 intrinsics unconditionally to fix compilation with CUDA.,2018-08-06,Merged,2177,6,4,,2
+[Node.js] Add infrared streaming,2018-08-01,Merged,2175,234,12,html wrappers/nodejs/examples/realsense_viewer/public/vue ,5
+[nodejs] Update test-sensor.js for getStreamProfiles method,2018-08-14,Merged,2174,30,7,,1
+Adding multi_pins_hid_device to PyBackend,2018-07-30,Merged,2166,15,5,,1
+More GitHub pages,2018-07-29,Merged,2165,359,56,json gif ,5
+Unity processing blocks,2018-08-06,Merged,2164,"4,312","1,251",meta prefab ,13
+Fixing download link generation,2018-07-28,Merged,2163,20,20,,5
+Setting-up GitHub pages for librealsense,2018-07-28,Merged,2162,"3,200",0,,1
+Enhancement of box_dimensioner_multicam python exemple,2018-08-07,Merged,2160,268,277,,0
+Enhancement of box_dimensioner_multicam python exemple,2018-07-27,Closed,2159,2,1,,1
+Multi-cam support in Unity wrapper,2018-11-21,Closed,2156,101,37,,7
+Adding Two Dimensional Data Protocols for python wrapper (vtx & tex),2018-08-27,Merged,2154,21,0,,1
+Change the description of RS2_FORMAT_DISPARITY16,2018-08-21,Merged,2152,1,1,,1
+[Node.js] Reset internal error among each native call,2018-07-27,Merged,2151,4,0,,1
+Document debians for bionic installation,2018-07-26,Merged,2146,17,14,,0
+Resolve unity conflicts,2018-07-25,Merged,2145,"1,079",552,,5
+Bug fixes and features for C# and Unity,2018-07-25,Merged,2144,"9,037","3,345",,5
+Unity processing blocks,2018-07-25,Merged,2142,"8,170","2,886",mat ,3
+Bump version,2018-07-25,Merged,2140,2,2,xml ,2
+[nodejs] update test-depthframe.js and test-videoframe.js,2018-08-14,Merged,2136,24,12,,2
+Multi-cam sync between Global Shutter devices,2018-07-25,Merged,2132,10,2,,2
+Adding intrinsics API,2018-07-24,Merged,2131,38,7,cpp ,6
+Don't return the platform camera using default Query Devices,2018-08-06,Merged,2130,77,27,h hpp cpp cs ,12
+change tag_profile to tag_profiles and move the tagging to sensor_base,2018-07-24,Merged,2128,26,38,cpp ,12
+Unity processing blocks,2018-07-25,Closed,2127,"7,855","2,812",mat ,2
+Box dimensioner multicam,2018-07-25,Merged,2119,"1,842",0,py ,2
+Merge from IntelRealSense/librealsense/master to abernste/librealsense/master,2018-07-22,Closed,2114,0,0,,0
+Merge pull request #4 from IntelRealSense/development,2018-07-22,Closed,2113,0,0,,0
+fix big in playback_sensor::get_stream_profiles,2018-07-22,Merged,2099,0,1,,1
+Wrapping Software Device for .NET,2018-08-07,Merged,2098,453,64,cs ,8
+PyPi upload scripts,2018-07-22,Merged,2091,157,5,rst py md txt ,5
+Created notebooks folder,2018-07-17,Merged,2080,15,1,ipynb ,1
+Removing unnessesary files,2018-07-17,Merged,2079,0,166,yml ,1
+Populating Jupyter Notebooks branch for the SDK,2018-07-17,Merged,2078,750,"64,882",md txt yml binder/postBuild ,3
+Documentation updates,2018-07-17,Merged,2077,2,2,,0
+2.14.0 release,2018-07-17,Merged,2076,"30,442","15,764",txt cpp h txt_ md ,5
+Update distribution_linux.md,2018-07-25,Merged,2072,1,1,,0
+fix lazy initialization of tagged profiles,2018-07-16,Closed,2070,2,1,,1
+unity - adjust folders structure to support unity package build,2018-07-16,Merged,2069,7,5,gitignore meta cs ,4
+Bump version to 2.14.0,2018-07-16,Merged,2068,3,3,xml ,2
+Unity Package Improvements,2018-07-16,Merged,2067,"26,536","14,476",,5
+Unity device listener,2018-07-16,Closed,2066,"29,818","15,747",txt cpp h txt_ md ,5
+L500 - read the timestamp from uvc header,2018-07-16,Merged,2065,126,4,ps1 cpp h ,5
+disable test - Pipeline record and playback,2018-07-15,Merged,2064,45,45,,1
+Unity wrapper,2018-07-16,Merged,2063,"26,615","14,476",,5
+Disable rec pb test,2018-07-15,Closed,2062,"3,008","1,225",txt cpp h txt_ md hpp ,6
+Not all Android phones have USB OTG capability,2018-07-15,Merged,2060,1,1,,0
+Added functionality of no throw wait_for_frame,2018-07-16,Merged,2055,225,3,cpp h hpp ,10
+Update CMakeLists.txt,2019-06-26,Closed,2051,1,0,,0
+Added functionality of no throw wait_for_frame,2018-07-13,Closed,2049,939,467,cpp h hpp ,8
+[Node.js] Add more restrictions for Sensor.open,2018-08-06,Merged,2046,2,1,,1
+Update rs400_advanced_mode.md,2018-07-11,Merged,2041,1,1,,0
+Performance optimization for Align post processing block,2018-07-16,Merged,2040,492,10,,0
+Libuvc multicamera,2018-07-12,Merged,2039,104,102,h ,3
+add Odroid XU4 4.14 kernel patch,2018-09-27,Merged,2035,192,0,,1
+Odroid build,2018-07-11,Closed,2034,"1,242",225,cpp txt_ ,2
+DQT - distance description documentation,2018-07-10,Merged,2030,8,1,md gif ,2
+[DSO-9795] fix pointcloud.destroy check return values.,2018-07-11,Merged,2028,2,1,,1
+[nodejs] Added supporting check before call frameMetadata method,2018-07-16,Merged,2027,12,6,,1
+[Node.js] Update packaging script to fix npm install error,2018-07-10,Merged,2026,2,1,,1
+Update points testcase,2018-07-11,Merged,2025,110,18,,1
+API description - continued,2018-07-10,Merged,2023,427,37,,0
+Fixing deadlock inside UVC backend,2018-07-11,Merged,2022,6,9,,1
+[Node.js] Add depth streaming to web based realsense-viewer,2018-07-09,Merged,2020,137,17,html ,4
+Fix error C3861 __cpuidex identifier not found,2018-07-08,Merged,2011,1,0,,1
+Refactor pipeline resolve,2018-07-12,Merged,2006,716,464,h hpp cpp ,6
+Refactor post processing frame metadata implementation,2018-07-09,Merged,2003,314,288,h hpp cpp ,4
+[Node.js] Bump version for 2.13.0,2018-07-05,Merged,2001,2,2,,2
+Fixed bug DSO-9680 - stop the rendering loop only if all the devices are not streaming.,2018-07-11,Merged,1995,27,4,h ,3
+[Node.js] Add new option and update comments,2018-07-04,Merged,1993,25,3,cpp ,3
+[Node.js] Initial implementaion of web based realsense-viewer,2018-07-04,Merged,1992,789,0,json ,2
+Added code origin link to depth quality tool documentation,2018-07-02,Merged,1987,1,0,,1
+change PGP ID to long ID,2018-07-10,Merged,1978,1,1,,0
+DQT-Converted the Plane Fit RMS error from mm to %,2018-07-02,Merged,1975,6,3,cpp ,2
+Generate unity package,2018-07-02,Merged,1974,56,44,md ,0
+Generate unity package,2018-06-28,Closed,1973,56,44,md ,0
+Added timestamp metadata to post processing frames,2018-07-03,Closed,1971,120,79,h ,6
+#1967: Fix asymmetry in rs2::event_information,2018-07-10,Merged,1968,34,5,md cpp ,2
+#1947 - Added dynamic method to get the RS library,2018-11-21,Closed,1964,294,0,lvproj vi txt lvlib dll ps1 ,98
+Isolate Cmake 3.8 to predefined modules,2018-07-02,Merged,1961,91,91,txt_ ,1
+Fixed bug -  Setting Depth Units in realsense_viewer fails,2018-07-02,Merged,1946,6,8,,1
+"fix - multistream resolve, stop searching streams after first match",2018-07-08,Closed,1943,14,8,,1
+Added support in metadata for post-processing frames,2018-06-21,Merged,1932,179,60,h ,8
+Added support for laser power control on l500,2018-06-21,Merged,1931,8,0,,2
+Added support in metadata for post-processing frames,2018-06-21,Closed,1929,"1,220",284,txt_ md cpp ,2
+[nodeje] Updated test-sensor.js to avoid unexpected errors,2018-07-03,Merged,1928,74,74,js ,2
+Update kernel patches for v4.13 due to Ubuntu promotions,2018-06-21,Merged,1927,566,84,patch ,4
+Fix typo in commands.,2018-06-21,Merged,1926,2,2,,0
+[Node.js] Fix the messy code of notification description,2018-06-21,Merged,1925,4,3,,1
+Fix D430 failure with rs-pointcloud and rs-capture,2018-06-21,Merged,1923,33,5,,3
+Inter-camera HW Sync control,2018-06-21,Merged,1922,111,8,h cs ,8
+Unity copy plugins on build,2018-06-21,Merged,1921,35,23,md meta ,1
+Unity depth only scenes,2018-06-21,Merged,1918,"4,500",266,meta ,2
+Unity depth only scenes,2018-06-20,Closed,1917,"5,107","1,171",cmake txt cpp h sh ,6
+[Node.js] Adding new frame_metadata types,2018-06-20,Merged,1916,294,5,cpp ,3
+Update rs_sensor.h,2018-06-20,Merged,1913,1,1,,1
+ZR300 is not supported but the SR300 [documentation],2018-06-20,Merged,1906,1,1,,0
+Update rs_sensor.h,2018-06-19,Closed,1901,1,1,,1
+[Python] Added read device from bag example,2018-06-15,Merged,1895,75,0,md ,1
+Load & Save settings fix,2018-06-15,Merged,1888,45,16,,1
+fix typo in std header,2018-06-15,Merged,1886,1,1,,0
+Save settings fix,2018-06-14,Closed,1883,45,16,,1
+Added support for new D400 metadata,2018-06-13,Merged,1881,163,33,cpp cs ,6
+Fix OpenCV Wrapper and Example,2018-06-13,Merged,1879,15,15,cpp ,4
+Development,2018-06-13,Closed,1878,166,94,sh cpp js json ,10
+[nodejs] Update test cases,2018-07-10,Merged,1876,87,70,,3
+Cuda for Jeston TX2,2018-06-21,Merged,1866,"1,048",231,txt_ cpp ,2
+[Node.js] Bump version for 2.12.0 release,2018-06-12,Merged,1865,2,2,,2
+Fix build for android.,2018-08-08,Closed,1853,9,5,cpp ,4
+Fix bug in kernel patch script for Ubuntu 18.04,2018-06-07,Merged,1848,1,1,,1
+Csharp cmake,2018-06-19,Merged,1847,140,778,sln ,2
+Streaming cpu high usage fix,2018-07-15,Closed,1844,2,2,,1
+Fix duplicated serial numbers on MacOS,2018-06-10,Merged,1841,5,5,,1
+"Unity point cloud, C# optimizations",2018-07-16,Closed,1840,"1,266","3,795",meta mat ,7
+[Node.js] Expose all native errors to Javascript world,2018-06-06,Merged,1839,29,14,cpp ,4
+[nodejs] Fix test-recorderdevice.js case issue,2018-06-06,Merged,1838,83,55,,1
+Changes required to run the patch on odroid 4.14 image,2018-06-13,Merged,1835,178,0,md sh ,2
+v2.12.0 merge to master,2018-06-05,Merged,1832,"11,293","4,999",txt ,0
+missing udev cause failing on rosbuildfirm,2018-06-10,Merged,1829,1,0,,1
+Rectify decimation filter/many-to-many operation mode,2018-06-04,Merged,1825,938,894,h ,4
+[Node.js] Make severity and category of NotificationEventObject strings,2018-06-04,Merged,1823,41,2,,2
+Fix test-sensor.js case bug,2018-06-06,Merged,1822,30,1,,1
+Fix CMake libusb include path variable,2018-06-13,Merged,1820,1,1,,1
+Fixed high CPU usage problem in the app's thread when polling frames,2018-06-10,Closed,1809,15,5,,1
+Update AndroidNativeSamples.md,2018-06-03,Merged,1808,2,2,,0
+Fix doxygen warnings,2018-06-03,Merged,1806,53,50,,10
+Document post-processing filters implementation,2018-05-31,Merged,1804,167,0,,0
+Post-processing filters documentation,2018-05-31,Closed,1803,"11,069","5,024",txt ,0
+Promote version to v2.12.0,2018-05-31,Merged,1802,3,3,xml ,2
+add segment of issues for mapping to Zendesk,2018-06-19,Merged,1800,1,0,,0
+Occlusion filter for Point cloud,2018-05-31,Merged,1797,99,77,cpp h ,6
+Development,2018-05-30,Closed,1796,"10,873","5,011",txt ,0
+Removing threading includes from C++ API,2018-05-31,Merged,1794,13,11,cpp hpp ,8
+Adding Depth from Stereo tutorial,2018-05-31,Merged,1792,139,0,,0
+Cpu high usage without streaming fix,2018-05-30,Merged,1791,29,13,h ,3
+Bug fix: The CPU usage is too high on Viewer,2018-05-29,Closed,1790,22,12,h ,2
+update doxygen file to generate documentation from external headers only,2018-05-29,Merged,1787,1,4,,1
+opencv Face-Detection example,2019-12-03,Closed,1786,"21,482",338,h md hpp ,7
+Replaced decimation filter implementation and added support for non-depth decimation,2018-05-29,Merged,1784,941,260,h ,3
+Roi sensor bug,2018-05-28,Merged,1782,25,23,cpp ,5
+D400 - Gain control switches off Auto-Exposure (Depth),2018-05-28,Merged,1780,122,8,h ,3
+depth-quality: fix to build librealsense without gui tools,2018-05-28,Merged,1772,4,3,txt ,0
+Development,2018-05-28,Closed,1771,448,289,txt ,0
+[Node.js] Bump version for 2.11.1 release,2018-05-25,Merged,1769,2,2,,2
+Fix a small markdown format error,2018-05-27,Merged,1768,2,1,,0
+Unity wrapper bug fix,2018-05-28,Merged,1765,"8,621","4,465",meta mat prefab ,6
+"Remove the extra '`' char in the TM1-specific bash script in ""/doc/installation.md",2018-05-25,Closed,1762,2,2,,0
+Replaced decimation filter implementation and added support for non-d…,2018-05-28,Closed,1759,919,234,,1
+Notification Enhancement,2018-05-28,Merged,1755,19,16,h ,2
+Update unit-tests data set download rules - cmake enhancement,2018-05-24,Merged,1754,51,2,,0
+[Node.js] Add HoleFillingFilter,2018-05-24,Merged,1752,40,0,cpp ,3
+Fw notifications,2018-05-23,Closed,1751,12,12,,1
+[Node.js] Update enum values,2018-05-23,Merged,1750,29,13,cpp ,3
+Prevent a hang in macOS when uvc_open2 call fails,2018-05-22,Closed,1749,2,1,,1
+Fix power management on stream interrupt,2018-05-23,Merged,1746,3,2,,2
+Remove the zero copy on sr300,2018-05-23,Merged,1744,2,2,,1
+add language field to issue template,2018-05-23,Merged,1742,1,1,,0
+Adding API description to two header files.,2018-07-10,Merged,1740,427,37,,0
+UI polish for the Viewer,2018-05-23,Merged,1738,267,223,,0
+Force RGB8 priority when ordering RS2_STREAM_COLOR profiles,2018-05-23,Merged,1737,4,2,,1
+[tools] rs-convert,2018-05-28,Merged,1736,756,1,hpp ,3
+Fixing issue #1692 for missing const in function.,2018-05-22,Merged,1726,2,2,,2
+Documentation updates,2018-05-17,Merged,1720,22,16,zip ,1
+Fw notifications,2018-05-17,Merged,1719,236,153,h ,3
+Fixed bug DSO-9276 - Hotplug doesn't work on Win10 RS3 with librealsense,2018-05-17,Merged,1718,17,1,,1
+Post-processing filter adjustment,2018-05-17,Merged,1717,7,7,xml cpp ,5
+Fix D5U supported streaming formats in Advanced Mode,2018-05-17,Merged,1716,1,1,,1
+Add missing streaming formats for D5U SKU,2018-05-17,Closed,1715,"1,256",397,h md ,2
+increase AWS download time to cope with network latencies,2018-05-17,Merged,1714,1,1,,0
+Unity bug fix,2018-06-03,Closed,1713,641,398,meta ,2
+"Fix rs-measure example to calculate the correct distance, add null pointer check",2018-05-17,Merged,1711,14,13,,2
+[Node.js] Fix FrameSet.getFrame() throwing exception issue,2018-05-17,Merged,1708,42,4,cpp ,3
+Support for 4.15 kernel,2018-05-17,Merged,1702,560,69,sh ,2
+Fixed bug DSO-9161 USB2-USB3 recognition is not working well on RS3,2018-05-16,Merged,1701,193,183,,0
+[Node.js] Update to latest node-glfw-3,2018-05-15,Merged,1699,12,10,,2
+Posted RealSense SDK 2.11.0 for LabVIEW (password: intel123),2018-05-15,Merged,1696,0,0,,1
+Added check on weak pointer,2018-05-15,Merged,1691,1,1,,1
+Fw notifications,2018-05-17,Closed,1690,236,153,h ,3
+[Node.js] Enable record/playback using pipeline,2018-05-15,Merged,1688,265,72,,1
+Fixing issue with post-processing blocks,2018-05-16,Merged,1681,20,8,,1
+Fw notifications,2018-05-13,Merged,1679,39,18,h ,4
+[Node.js] Add new camera info and notification categories,2018-05-11,Merged,1677,40,4,cpp ,3
+Adding usb_spec enum to pybackend,2018-05-08,Merged,1675,17,2,,1
+Minor changes regarding description of CameraOption and its values,2018-05-07,Merged,1669,20,3,,1
+Fix compile error when cross compile with arm,2018-05-28,Merged,1668,1,1,,0
+[Node.js] Fix incidental node.js CI test failure,2018-05-08,Merged,1666,17,9,,1
+Release 2.11.0 merge to master,2018-05-06,Merged,1661,"2,171",546,txt ,1
+Fix json load open dialog,2018-05-06,Merged,1660,37,43,h c ,11
+Merge from master to dev,2018-05-04,Merged,1652,25,7,md c xml ,2
+.NET Processing Example,2018-05-03,Merged,1650,612,72,h cpp sln cs csproj ,13
+Updated rs-depth.c,2018-05-03,Merged,1649,4,1,,1
+Firmware-Update notifications,2018-05-03,Merged,1648,156,25,h ,7
+Add USB3.2 descriptor type.,2018-05-03,Merged,1645,61,41,cpp ,5
+Holes filling processing block,2018-05-03,Merged,1644,662,482,txt cpp h hpp ,13
+Fixed bug DSO-9096 save the original resolution and use it to ROI calculation.,2018-05-02,Merged,1638,11,4,h ,2
+Unity fixes and optimizations,2018-05-28,Closed,1637,189,174,meta ,4
+Fixed bug DSO-8873 - Invalidate the options after set_option called.,2018-05-02,Merged,1636,10,2,h ,2
+Point cloud performance optimization,2018-05-02,Merged,1633,301,38,,0
+DQT - Z-accuracy metric pivot switched to ROI center,2018-04-30,Merged,1629,27,17,md vsdx png cpp ,4
+Add post-processing filters to python binding,2018-04-30,Merged,1627,34,18,cpp ,3
+Fixing a bug in PyBackend set_xu method,2018-04-29,Merged,1625,2,2,,1
+[Node.js] Add option value validity check,2018-05-02,Merged,1623,119,0,,2
+[Node.js] Add align object to the pool for gc,2018-04-28,Merged,1618,1,0,,1
+[Node.js] Fix getCameraInfo crash issue,2018-04-27,Merged,1617,16,6,cpp ,3
+Adding multi_pins_uvc_device to PyBackend,2018-04-29,Merged,1614,69,9,,1
+Rsunity,2018-05-28,Closed,1611,115,3,,3
+Fixed bug DSO-9243 - replace stream_profiles request with current device instance,2018-04-26,Merged,1605,17,1,h ,2
+Adding holes filling Left/Near/Far Neighbor methods,2018-04-29,Merged,1603,239,27,cpp h ,4
+Fixes compilation and installation when using Catkin,2018-05-03,Merged,1602,15,4,xml ,1
+[nodejs] Add test case for stream - streamToString,2018-05-08,Merged,1596,56,3,,1
+Compilation on ARM,2018-04-29,Merged,1595,9,5,,0
+[nodejs] Add test case for freameset,2018-05-08,Merged,1584,11,1,,1
+[nodejs] Add test case for points,2018-07-10,Closed,1583,110,18,,1
+Fixing LibRS installation fail on MacOS,2018-04-23,Merged,1581,1,0,,0
+typo,2018-04-19,Merged,1575,1,1,,0
+Merge of 2.10.4 into master,2018-04-18,Merged,1571,"7,300",545,txt md cpp ,3
+Playback repeat,2018-04-23,Merged,1566,40,7,h hpp cpp ,7
+Promote version to 2.10.4,2018-04-17,Closed,1560,2,2,xml ,2
+Merge contributions from Master,2018-04-17,Merged,1558,211,6,txt js ,2
+Adding preset for removing the IR pattern from left imager,2018-05-17,Merged,1557,76,6,cpp ,6
+DSO-8830 - update metadata documenting.,2018-04-16,Merged,1552,3,0,,0
+Adding units to the viewer (DSO-8966),2018-04-17,Merged,1551,4,4,,2
+Add support for conversions between C++ and Python time objects,2018-04-16,Merged,1550,3,0,,1
+Fixed bug DSO-8817 - enable loading json file in DQT.,2018-04-16,Merged,1549,53,12,h ,3
+Enabling work-around for async controls for libuvc,2018-04-17,Merged,1547,2,1,,1
+Post-processing filters rework and testing automation (DSO-8884),2018-04-17,Merged,1546,"5,477",85,txt cpp h ,9
+Resolving linux compilation issue (sensor-control),2018-04-15,Merged,1539,1,1,,0
+Resolve linux compilation issue (post-processing),2018-04-15,Merged,1538,1,1,,0
+Record example,2018-04-16,Merged,1533,557,12,md ,0
+Added start_record and stop_record.,2018-04-12,Merged,1524,303,109,h hpp ,4
+Dave's patches,2018-04-11,Merged,1522,56,4,cpp ,3
+Dave patches,2018-04-11,Merged,1520,56,4,cpp ,3
+[nodejs] Add test case for devicelist test,2018-04-11,Merged,1511,31,1,,1
+[nodejs] Add test cases for config test,2018-04-11,Merged,1510,141,3,,1
+Refactoring AVX code into a seperate compilation unit,2018-04-12,Merged,1507,315,238,cpp ,1
+Merge of 2.10.3 into master,2018-04-09,Merged,1505,"1,878",559,txt cpp h rules md hpp xml patch ps1 ,11
+[nodejs] Add test cases for roisensor,2018-04-13,Closed,1498,395,0,,1
+Compilation error for non-optimized builds,2018-04-12,Merged,1496,2,2,,1
+[Node.js] Update node.js package version for 2.10.3,2018-04-09,Merged,1495,2,2,,2
+[Node.js] Add new stream and camera_info type values,2018-04-08,Merged,1494,116,4,cpp ,3
+Merge from master to dev,2018-04-04,Merged,1479,1,0,,0
+Bug fix - DQT improper handling USB type requests,2018-04-04,Merged,1478,13,4,,2
+Linux driver stalls if a signal is received,2018-04-12,Merged,1476,20,3,,1
+Compilation error with -Wall in clang,2018-04-03,Merged,1475,1,1,,1
+Update rs400_support.md,2018-04-03,Merged,1474,9,9,,0
+libuvc fixes,2018-04-03,Merged,1473,111,42,,2
+Fixing ARM build,2018-04-03,Merged,1472,1,1,,1
+USB2 Support for D410/D415/D435,2018-04-03,Merged,1470,614,310,cpp h ,7
+Update patch-utils.sh,2018-04-02,Closed,1469,1,1,,1
+Update .travis.yml,2018-04-02,Merged,1468,1,1,,1
+[Node.js] Fix the ROI not working issue,2018-04-08,Merged,1461,51,10,cpp ,3
+[Node.js] Avoid playback test failure,2018-03-30,Merged,1460,6,3,,1
+Adding preliminary support for future L500 devices,2018-04-01,Merged,1456,795,176,cpp rules h patch ps1 ,9
+libuvc fixes,2018-04-03,Merged,1452,111,42,,2
+Development,2018-03-28,Closed,1451,154,11,,2
+[Node.js] Add new option value for auto exposure,2018-03-30,Merged,1444,16,0,cpp ,2
+Modify viewer pointcloud to render using quads,2018-05-31,Closed,1440,19,12,,1
+[Node.js] Fix typos of property name and types,2018-03-26,Merged,1436,10,11,,1
+[nodejs] Add test cases for pipelineprofile,2018-03-27,Merged,1434,144,0,,1
+several fixes for libuvc,2018-03-28,Closed,1427,111,42,cpp ,2
+Merge of 2.10.2 release to master,2018-03-22,Merged,1422,"3,008","1,795",cpp h depot_tools md PNG hpp ,14
+Optimizing the UX of inputing exact control values,2018-04-12,Merged,1421,"2,169",624,txt cpp h ,3
+Adding protection against missing OpenGL drivers,2018-03-22,Merged,1420,7,0,hpp ,3
+Fixing windows documentation,2018-03-22,Merged,1419,2,2,PNG ,1
+Development for .NET application.,2018-03-22,Closed,1416,"1,595",751,cpp h depot_tools md ,7
+Adding Fisheye auto-exposure converge step option,2018-03-22,Merged,1411,106,20,h cs ,11
+Support D410/415/435 with unique PID in USB2 Mode,2018-03-22,Closed,1409,362,91,rules patch ps1 h ,10
+Realign spatial filter definitions with reference design,2018-03-22,Merged,1408,18,20,,1
+Fixing an issue with bpp of software device,2018-03-21,Merged,1407,1,1,,1
+Protecting against Camera-Control / Video-Proc being NULL,2018-03-21,Merged,1406,35,23,h ,2
+Merge of master into dev,2018-03-21,Merged,1405,3,1,,0
+Realsense-viewer to display greyscale image instead of green,2018-03-21,Merged,1404,9,14,h ,4
+Complete parsing for FW Error reports,2018-03-21,Merged,1403,61,17,h ,3
+Enhance parsing for FW Error reports,2018-03-21,Closed,1402,61,17,h ,3
+Adding preliminary support for future L500 devices,2018-03-20,Closed,1398,707,114,cpp h rules hpp patch ps1 ,13
+Remove GIT Submodule,2018-03-20,Merged,1397,0,1,,1
+Adding preliminary support for future L500 devices,2018-03-20,Closed,1388,728,115,cpp h rules hpp patch ps1 ,13
+Simplify command given in the docs.,2018-03-19,Merged,1386,7,5,,0
+Add missing include for RGB_USING_AVX2,2018-03-19,Merged,1385,4,0,,1
+Add test cases for pipeline,2018-03-19,Merged,1378,167,10,,1
+[Node.js] Expose native error to Javascript,2018-03-22,Merged,1369,"1,279","1,001",,1
+Updating legacy macOS documentation to remove Homebrew installation instructions,2018-03-19,Merged,1368,1,13,,0
+Fix rs terminal,2018-03-19,Merged,1356,121,69,cpp ,1
+[nodejs] Add test cases for RecorderDevice,2018-03-13,Merged,1322,48,0,,1
+[nodejs] Use Promise.All to handle multi promise test cases,2018-03-12,Merged,1321,29,23,,1
+Merge from Master to Dev,2018-03-09,Merged,1313,18,42,h xml ,2
+[nodejs] Add test cases for sensor,2018-03-12,Merged,1312,186,3,,1
+Fix links to OpenCV exmaples in readme.md,2018-03-09,Merged,1311,4,4,,0
+[NET wrapper] depth<->disparity transform processing block,2018-03-19,Merged,1307,25,0,,2
+[Python] add get_infrared_frame to frameset,2018-03-08,Merged,1305,1,0,,1
+[Node.js] Make Pointcloud inherit from Options,2018-03-13,Merged,1304,79,4,cpp ,3
+Support USB2 PID for selected D400 SKUs,2018-03-08,Closed,1295,284,68,rules h sh patch ps1 ,11
+[Unity] Textured Point Cloud,2018-03-19,Merged,1293,163,99,unity ,5
+Software device fix,2018-03-19,Merged,1288,30,3,,3
+[nodejs] Update expected type of timestamp_domain to number,2018-03-06,Merged,1285,3,4,,3
+Align stream profile,2018-03-19,Merged,1278,68,4,h ,2
+Fixed bug DSO-8782,2018-03-07,Merged,1277,1,1,,1
+Add BUILD_WITH_STATIC_CRT option,2018-03-04,Merged,1262,24,18,,0
+Merge from master to dev,2018-03-01,Merged,1260,32,31,h ,1
+Version update to 2.10.1.,2018-03-01,Merged,1257,63,61,h xml ,2
+[Node.js] Add getInfraredFrame to FrameSet,2018-03-06,Merged,1256,124,23,json cpp ,4
+Fixed bug DSO-7775,2018-02-28,Merged,1249,6,1,,1
+Add support for UYUV for D4xx with global Shutter sensor,2018-03-01,Closed,1248,8,6,,4
+Bug fix - Post-processing filters to use mutexes,2018-03-05,Merged,1247,13,0,,3
+Fixes and enhancements to core classes,2018-02-28,Merged,1246,118,130,cpp h ,15
+Dynamic detection of AVX instead of a CMake flag,2018-03-19,Merged,1245,474,448,,0
+[Node.js] Add some minor new APIs,2018-02-28,Merged,1241,33,4,cpp ,3
+Development,2018-02-28,Closed,1239,"6,768",624,h depot_tools md hpp cpp sh ,9
+Pipeline playback repeat,2018-02-26,Merged,1234,31,1,h ,2
+Allowing to call load_json on a recording device,2018-02-27,Merged,1233,6,1,cpp ,2
+Changing realseance to librealseance in the python wrapper,2018-02-26,Merged,1226,1,1,,0
+[Node.js] Prepare for 2.10.0 release,2018-02-26,Merged,1224,8,4,json ,3
+[Node.js] Add file existence check,2018-02-24,Merged,1222,10,6,,1
+[Unity] Add ColorPointCloudGenerator Class,2018-05-29,Closed,1221,"3,638",12,,0
+[Node.js] Support npm installation on macos,2018-02-24,Merged,1218,88,6,gyp sh js ,4
+Add x86/x64 check during build of csharp wrapper,2018-03-21,Merged,1211,104,42,csproj md ,3
+Adding SIMD AVX2 instructions to unpack YUY2,2018-02-25,Merged,1209,343,100,,0
+[NET wrapper] AdvancedDevice fix,2018-02-22,Merged,1208,11,2,,1
+Pipeline streaming restart fix,2018-02-21,Merged,1205,1,1,,1
+Unity Improvements,2018-02-22,Merged,1204,"3,945",183,mat prefab ,3
+Update installation_osx.md,2018-03-01,Merged,1199,3,3,,0
+Add 848x480 as a fallback default,2018-02-19,Merged,1195,17,1,,1
+Fix software device to enable recording into ROS-bag,2018-02-21,Merged,1193,6,2,,1
+"[Csharp wrapper] pointcloud, points class Add",2018-02-17,Merged,1188,83,1,,3
+Enable actual FPS in metadata and use it in syncer.,2018-02-22,Merged,1185,324,63,depot_tools cpp ,9
+Clarify variable names in Sensor + nested classes,2018-02-15,Merged,1184,15,15,,1
+Kernel patches for 4.13,2018-02-17,Merged,1183,763,38,sh patch ,4
+"[Csharp wrapper] pointcloud, points class Add",2018-02-17,Closed,1182,80,3,cs ,4
+[Node.js] Fix build failure on macos,2018-02-18,Merged,1175,17,9,json ,3
+Default Accel format changed to XYZ32F,2018-02-12,Merged,1170,24,9,,2
+Post Process Filters added.,2018-02-12,Merged,1169,63,0,,1
+[Node.js] Add sensor control example,2018-02-23,Merged,1167,552,1,,2
+GCC internal compiler error on Python wrapper,2018-02-11,Merged,1166,2,2,,1
+Fix illegal RosBag keys by replacing spaces with underscores,2019-08-15,Closed,1161,18,14,,1
+[NET Wrapper] implement advanced mode and json configuration,2018-02-12,Merged,1158,43,3,,2
+[NET Wrapper] Fix sensor info,2018-02-11,Merged,1157,4,4,,1
+clarify distortion model coefficients order,2018-02-12,Merged,1155,2,2,,1
+[Node.js] Update readme,2018-02-12,Merged,1154,10,0,,0
+Bump Version to 2.10.0,2018-02-08,Merged,1152,3,3,xml ,2
+Fix stderr redirection in the patch script,2018-02-08,Merged,1151,6,5,,1
+Rosbag Inspector Readme,2018-02-08,Merged,1150,50,2,md h cpp ,4
+Enhancements and bug fixes in viewer,2018-02-08,Merged,1144,14,17,h ,2
+Compilation fix for tm2 device,2018-02-08,Merged,1142,3,3,,1
+OSX CI fix,2018-02-07,Closed,1141,3,1,,1
+Added USE_SYSTEM_LIBUSB flag to CMake file,2018-02-08,Merged,1139,40,11,txt md ,1
+[Python] Allow extrinsics and intrinsics creation and modification,2018-02-08,Merged,1138,73,33,,1
+TM1 calibration update,2018-02-07,Merged,1136,261,85,hpp cpp h ,6
+Fix illegal RosBag keys by replacing spaces with underscores,2018-02-09,Closed,1129,29,23,h ,1
+Fix glfw dep name and version,2018-02-22,Closed,1128,16,10,js json ,3
+Raw frame snapshot to use .raw extension instead of .bin,2018-02-06,Merged,1127,1,1,,1
+Fixed an issue with ColorCorrection parameters,2018-02-06,Merged,1125,4,2,,1
+Fix exceptions error building node module on macOS,2018-02-05,Merged,1123,14,0,,2
+Add rs2::frameset::get_infrared_frame(),2018-02-05,Merged,1122,18,0,,1
+Ignore duplicated advanced mode parameters,2018-02-04,Merged,1121,23,15,,1
+Handle syncer with high exposure value,2018-02-05,Closed,1120,254,51,h depot_tools ,9
+Python API additions,2018-02-04,Merged,1118,38,6,py cpp ,2
+Python free() bug,2018-02-05,Merged,1117,0,1,,1
+[Node.js] Add tracking module support based on recorded files,2018-02-02,Merged,1116,469,30,,0
+Fix compilation under Gentoo due to missing sys/sysmacros.h include.,2018-02-04,Merged,1114,1,2,,1
+Fixed memory leak issues,2018-02-05,Merged,1111,34,26,h ,9
+Update temporal filter/ holes filling mode,2018-02-04,Merged,1109,231,162,,0
+Post Processing Demo,2018-02-08,Merged,1108,829,29,hpp cpp ,2
+Correct linter.js internal behavior for win32 build,2018-02-04,Merged,1107,2,2,,1
+Occlusion filter for Pointcloud from RGB and Depth streams,2018-02-07,Merged,1104,428,161,,0
+Unity Integration,2018-02-01,Merged,1102,"4,927",9,csproj gitignore meta mat ,10
+Fixing rs-terminal device_id parameter,2018-01-31,Merged,1101,45,20,,2
+Align in .NET bug fix,2018-01-30,Merged,1100,1,0,,1
+Minor Version Fix,2018-01-30,Merged,1099,1,1,,1
+[Node.js] Update enum definitions,2018-01-31,Merged,1097,905,420,,0
+[nodejs] Update test cases based on node package 0.290.0 release,2018-01-30,Merged,1096,30,25,,9
+Update rs400_advanced_mode.md,2018-01-29,Merged,1093,322,43,,0
+Added backend timestamp to metadata fields.,2018-01-31,Merged,1092,30,13,cpp ,8
+Fixing signature for rs2_set_devices_changed_callback,2018-01-29,Merged,1088,7,1,cpp ,2
+Remove 0.5 pixel offset in UV-mapping,2018-01-29,Merged,1075,1,1,,1
+Warnings and bug fix in viewer,2018-01-29,Merged,1074,63,62,h hpp c ,10
+[Node.js] Add exportToPly method to Points class,2018-01-30,Merged,1073,48,0,cpp ,3
+-Wformat-security,2018-01-25,Merged,1071,4,4,cpp ,1
+Align refactoring,2018-01-24,Merged,1068,232,141,cpp ,2
+"Fixing several issues regarding depth scale ruler length, default resolution and default format",2018-01-24,Merged,1065,72,62,h ,3
+Updating GitHub Issue Template,2018-01-29,Merged,1063,22,7,,0
+[Node.js] Add disparity frame support,2018-01-25,Merged,1062,165,11,js cpp ,5
+Adding Projection Documentation,2018-01-23,Merged,1057,1,0,,0
+Added depth map scaling ruler to realsense-viewer tool,2018-01-23,Merged,1055,325,9,h ,2
+Add MacOS frameworks to fix build,2018-01-22,Merged,1054,12,0,,0
+Unified exposure units,2018-01-22,Merged,1052,19,3,,1
+Static analysis fixes,2018-01-24,Merged,1047,21,15,h hpp cpp ,10
+Update to Python README,2018-01-22,Merged,1046,35,9,,0
+Adding the rs-fw-logger tool to the executables destination folder,2018-01-21,Merged,1045,6,6,,0
+Matlab Wrapper Inital PR,2018-08-15,Merged,1038,"4,252",52,h hpp md cpp ,9
+Fixed merge issue,2018-01-18,Merged,1037,1,0,,1
+Fixed undesired exception throwing when preset file has no streams,2018-01-18,Merged,1036,18,19,,1
+Update package.xml,2018-01-18,Merged,1035,1,1,,1
+Presets Panel for RealSense Viewer,2018-01-18,Merged,1034,643,137,,0
+Ignoring power_line_frequency control when applying visual presets,2018-01-18,Merged,1033,2,1,,1
+Correction for Pull Request 1014,2018-01-18,Merged,1032,0,6,,1
+UV texture mapping to use rectified RGB rotation matrix,2018-01-18,Merged,1031,10,6,,2
+Update the visual presets of  D4XX cameras,2018-01-18,Merged,1029,480,121,cpp ,3
+Removed dependency of package Threads,2018-01-19,Merged,1026,0,3,,0
+Add description about linking frameworks in Xcode in installation_osx.md,2018-01-22,Closed,1025,4,0,,0
+Better Unit test failure message for enum test,2018-01-18,Merged,1024,6,1,,1
+Fix texture mapping in Viewer's 3D view when the device is disconnected,2018-01-18,Merged,1023,5,8,,1
+[nodejs] Update test-pipeline.js forcing to use watiForFrames(),2018-01-22,Merged,1022,8,5,,1
+Adding Software-Device,2018-01-18,Merged,1018,"1,702",373,def txt cpp hpp ,7
+Add netstandard2.0 support to C# wrapper,2018-02-22,Merged,1017,303,90,targets cs csproj ,10
+Adding frame.keep() API,2018-01-17,Merged,1015,78,19,h hpp cpp cs ,17
+Depth sensor snapshot to include raw data,2018-01-16,Merged,1014,116,32,h ,3
+Post Processing Demo,2018-02-01,Closed,1010,535,3,,0
+Addressing -Wsequence-point warnings,2018-01-13,Merged,1009,14,14,cpp c h hpp ,9
+Making sure all API headers are self-contained and adding such check …,2018-01-14,Merged,1008,39,5,h hpp sh ,7
+Adding Measure example,2018-01-18,Merged,1007,"1,532",520,h txt hpp ,4
+[Pyhton] Dynamic mapping of RS2 enums,2018-01-12,Merged,1005,97,172,h cpp ,7
+[Node.js] Prepare for 2.9.0 release to npmjs,2018-01-22,Merged,1004,28,34,json ,4
+Adding new recording for the D415,2018-01-12,Merged,1002,2,0,,0
+Improving the Linux CPU utilization issue in multi cameras streaming scenario,2018-01-11,Merged,1001,15,5,cpp h ,2
+Align patches flow to the latest Ubuntu convention,2018-01-12,Merged,998,19,12,patch ,4
+[Node.js] Remove getMotionIntrinsics from Sensor,2018-01-12,Merged,997,0,40,,2
+Python code refactoring [Manually Closed],2018-01-10,Closed,994,"18,858","3,851",cmake def txt h ,4
+D400 With Motion Module,2018-01-10,Merged,992,87,67,h ,4
+Changed scale factor for scaleAbs to display wider range of colors,2018-01-14,Merged,991,2,2,,2
+fixed no label error in wrappers/csharp/copy_dependencies.bat,2018-01-10,Merged,990,2,2,,1
+write CMake ConfigVersion file,2018-01-10,Merged,988,5,2,,0
+write CMake ConfigVersion file,2018-01-09,Closed,987,"2,899",331,def txt ,2
+[Node.js] Add marked 0.3.9 as dependency as security vulnerability workaround,2018-01-09,Merged,985,5,4,,2
+Remove repeated rs2_stream in comments,2018-01-09,Merged,984,2,2,,1
+Fixed false reset of sensors pointer in depth_stereo_sensor,2018-01-09,Merged,982,1,1,,1
+Added Android CI build to Travis,2018-01-08,Merged,978,12,4,md ,1
+Record UX Improvements,2018-01-08,Merged,977,960,310,cpp h hpp ,10
+Updating macOS installation documentation,2018-01-06,Merged,969,9,8,,0
+Holes Filling capability for the Spatial post-processing filter,2018-01-14,Closed,968,110,37,h ,10
+Adding Rosbag Inspector Tool,2018-01-06,Merged,967,"1,109",7,cpp txt ,5
+Added unit tests with bypass device,2018-01-15,Closed,966,"1,205",88,def txt cpp hpp ,5
+Hotfix for version 2.9.0. - streaming in release build,2018-01-02,Merged,964,2,1,,1
+Hotfix for version 2.9.0 - streaming in release build,2018-01-01,Closed,963,2,1,,1
+Adding support for tracking devices,2018-01-09,Merged,961,"16,014","3,534",def txt h ,3
+[nodejs] Added test cases for playback and recording feature.,2018-01-08,Merged,960,804,0,,1
+[Node.js] Add parameter checking for APIs,2018-01-02,Merged,959,673,601,,0
+Fixed bug on clean_inactive_streams of frame_number_composite_matcher.,2017-12-28,Merged,955,17,1,,1
+Update for pybackend and pyrealsense interfaces,2017-12-28,Merged,954,71,41,xml cpp ,4
+Tm2 integration,2017-12-28,Closed,953,"15,590","3,294",def txt ,2
+Fixes to the Mac OS recorder,2017-12-27,Merged,950,22,5,h ,3
+[Node.js] Fix issues found in UT,2017-12-29,Merged,948,34,27,,2
+Fixed infinite loop on viewer - loop until queue is empty and then render the last frame.,2017-12-26,Merged,945,106,60,h hpp ,8
+Rework of the Output panel in the Viewer,2017-12-26,Merged,944,84,130,h ,2
+Post-Processing filters in Disparity Domain,2017-12-28,Merged,943,"1,118",429,txt cpp h ,9
+Reference code for building on Android,2017-12-27,Merged,942,"33,182","1,768",txt h hpp md ,3
+"Reduce the queue size in pipeline to 1, to reduce latency.",2017-12-24,Merged,938,1,1,,1
+[nodejs] Add and update test cases.,2017-12-26,Merged,936,732,151,,4
+Development,2017-12-20,Closed,930,892,280,h md json ,5
+Adding Export to PLY to API,2017-12-24,Merged,928,197,127,def cpp h hpp ,7
+[Node.js] Add some missed API bindings and update ut cases,2017-12-20,Merged,926,820,242,,1
+fix issue with initialization list,2017-12-19,Closed,924,2,2,,1
+Allow removal of EasyLogging++ from the build,2017-12-20,Merged,922,39,3,cpp h ,2
+fix bug in interface,2017-12-24,Merged,920,2,2,,1
+Allow removal of EasyLogging++ from the build,2017-12-19,Closed,919,116,41,cpp h md ,4
+Adding first version of the .NET wrapper,2017-12-24,Merged,917,"3,909",12,md h ,9
+Use string literals for format strings,2017-12-17,Merged,915,6,6,,1
+Fix for issue #890  Stream matcher not found! stream=Depth,2017-12-15,Merged,911,0,3,,1
+[Node.js] Enable UT test on travis based on recorded data file,2018-01-10,Merged,908,7,0,,1
+Fixed bug on viewer - streams got stuck when playing all streams.,2017-12-15,Merged,907,65,28,h ,3
+Update RaspberryPi3.md,2017-12-14,Merged,905,1,1,,0
+Findrealsense2 CMake module and Getting Started sample,2017-12-10,Closed,897,223,0,txt PNG md cpp ,3
+Change to Issue template,2017-12-07,Merged,893,3,1,,0
+Added test cases for deviceHub and deviceList,2017-12-08,Merged,888,208,0,,2
+Post-processing filters. Support for D4m device,2017-12-07,Merged,887,"4,007","2,051",def txt ,3
+Adding metadata support for libuvc + change indent to +4,2017-12-06,Merged,884,"1,420","1,396",,1
+Libuvc adding  metadata support,2017-12-05,Closed,883,"1,590","1,417",,1
+[Node.js] Adding record & playback functionality of sensor data,2017-12-08,Merged,881,738,64,,0
+[Node.js] Fix some case issues found in release 0.282.0,2017-12-06,Merged,880,44,47,js ,10
+Support for alignment of any stream to depth,2017-12-05,Merged,878,249,160,hpp ,1
+[Node.js] Create build jobs according to processor count,2017-12-05,Merged,876,2,1,,1
+Updating python documentation,2017-12-01,Merged,871,6,7,,0
+[Node.js] Fix npm install error on node v9.2.0,2017-11-30,Merged,868,23,31,js sh cpp ,7
+[Node.js] Fix option undefined issue,2017-11-30,Merged,865,7,7,json ,3
+Basic PCL integration,2017-11-27,Merged,854,399,21,md ,0
+Better OpenCV integration,2017-11-26,Merged,853,"1,294",1,md hpp PNG cpp ,3
+Libuvc PU/XU controls,2017-11-25,Merged,852,174,25,h ,2
+Libuvc,2017-11-25,Closed,851,174,25,h ,2
+libuvc options,2017-11-25,Closed,850,587,25,cpp h hpp ,3
+Better OpenCV integration,2017-11-25,Closed,849,"1,294",1,md hpp PNG cpp ,3
+[Node.js] Add functionality of showing fps to examples,2017-11-23,Merged,843,41,0,json ,2
+[nodejs] Add test cases for align and config APIs,2017-11-23,Merged,842,263,0,,2
+Make nodejs test cases compatible with npm and local source,2017-11-23,Merged,841,114,11,json js ,12
+Fix travis issue of missing opengl dependency,2017-11-21,Merged,838,1,1,,1
+[Node.js] Add record and playback functionality for operations,2017-11-21,Merged,834,177,67,,1
+Removed W/O for bug DSO-7649,2017-11-20,Merged,833,1,13,,1
+Libuvc xu/pu implmenetation,2017-11-19,Closed,832,963,279,h rules md c hpp ,11
+Fix Python depth Tutorial,2017-11-25,Merged,830,7,6,md ,1
+Fix pyenv error in travis to avoid blocking pull request,2017-11-20,Merged,829,1,0,,1
+[Node.js] Fix npm install issue,2017-11-20,Merged,824,4,4,,1
+Depth Quality tool enhancements,2017-11-20,Merged,816,359,278,h ,6
+Spelling corrections,2017-11-14,Merged,811,11,11,h hpp ,9
+Fixed dropped frame issue of color streaming on Linux,2017-11-20,Merged,810,29,33,cpp ,11
+[Node.js] Add details of node.js installation to README.md,2017-11-15,Merged,809,14,4,,0
+Fix 3D viewer with syncer issue.,2017-11-15,Merged,808,388,213,,1
+Pybind support for options,2017-11-15,Merged,806,51,46,cpp ,2
+Libuvc - add support for options XU/PU,2017-11-25,Merged,804,174,25,h ,2
+Python Wrapper: Fixed inheritance issue in 'sensor' class,2017-11-11,Closed,801,20,14,,1
+[Node.js] Change FrameSet.at() to be based on FrameSet.getFrame(),2017-11-10,Merged,800,30,26,cpp ,2
+Python Wrapper: Fixed spelling issue,2017-11-12,Merged,797,1,1,,1
+Resolve identified issues in tools&demos,2017-11-09,Merged,795,55,15,h c hpp ,8
+[Node.js] Add Node.js version requirement in README.md,2017-11-10,Merged,794,8,1,,0
+Fix 3D viewer with syncer issue.,2017-11-09,Closed,790,0,0,,0
+[Python] Missing initializer for pointcloud,2017-11-09,Merged,789,3,2,,1
+Hotfix/shutdown,2017-11-09,Closed,788,"4,768,170","2,858",txt Makefile → _Makefile_deprecated_ cmake config/usb-R200-in config/usb-R200-in_udev debian/TODO ,6
+adding support for xu and pu options.,2017-11-09,Closed,787,165,25,h ,2
+Workaround for bug DSO-7649,2017-11-09,Merged,786,13,1,,1
+Viewer bug - when no monitors connected,2017-11-08,Merged,782,10,3,,1
+[Node.js] Add Options API to colorizer and new options,2017-11-09,Merged,781,251,83,,1
+Fixed bug DSO-6345 - DMFT,2017-11-08,Merged,778,54,34,h ,2
+Python binding for rs2::align,2017-11-04,Merged,776,114,10,md cpp ,6
+Added Raspberry Pi MD file,2017-11-03,Merged,773,61,20,md cpp h ,6
+Adding options to Processing Blocks,2017-11-01,Merged,772,890,475,,1
+Support USB2 RealSense SKUs,2017-11-01,Closed,771,32,20,cpp h ,6
+Add nodejs test cases for frameset class,2017-11-06,Merged,768,113,0,,1
+Update test cases due to latest APIs,2017-11-06,Merged,767,77,59,,9
+Added three examples above C API,2017-11-01,Merged,763,611,4,md c ,1
+Sensor api example,2017-11-01,Merged,762,771,2,hpp md ,1
+Added options to processing blocks,2017-11-01,Closed,758,301,197,hpp cpp ,6
+Providing Sample Data,2017-10-30,Merged,756,27,0,,0
+Modifications to the Depth Quality Tool,2017-10-30,Merged,755,205,153,md png PNG h cpp ,8
+Update readme.md,2017-10-30,Merged,753,1,1,,0
+Adding Mac OS support for SR300 and DS5 430,2017-10-29,Merged,752,199,281,,0
+Add support for SR300 + 430 in libuvc,2017-10-28,Closed,751,"2,911","1,711",txt cpp h md gif ,6
+Add and update APIs in node.js wrapper and fix some issues,2017-10-31,Merged,748,"1,828","1,561",,3
+make legacy devices explicit,2017-10-29,Merged,746,1,1,,0
+Reduce memory footprint by avoiding alloc/dealloc memory everytime wh…,2017-10-26,Merged,741,549,250,,5
+Modify project setting for MSVC:,2017-10-29,Merged,740,2,1,,0
+Readme update,2017-10-29,Merged,739,0,2,,0
+Pipeline tests and minor fix,2017-10-29,Merged,738,373,16,h ,2
+Opencv example update,2017-10-26,Merged,737,39,34,,0
+"Add test cases for nodejs classes depthSensor, frame and device",2017-10-25,Merged,736,357,0,,3
+Adding more information regarding the unit-tests,2017-10-25,Merged,735,20,6,,0
+Pipeline Bug fix,2017-10-24,Merged,734,5,3,cpp ,2
+Provide extrinsics calibration data in rs-enumerate-devices,2017-10-24,Merged,733,135,29,,1
+Python binding for RS400 Advanced Mode,2017-10-29,Merged,732,366,39,hpp cpp py ,4
+Fix src/concurrency.h by adding #include <functional> so that compiler errors no longer occur,2017-10-23,Merged,731,1,0,,1
+Pipeline behavior change - returned framesets will contain frames from all active streams,2017-10-22,Merged,727,233,116,md cpp hpp h xml ,8
+Update pipeline - will raise only full sets of frames.,2017-10-19,Closed,725,166,86,md cpp hpp h xml ,10
+Align example update,2017-10-25,Merged,724,160,70,md cpp ,2
+Fixed issues in device_hub,2017-10-19,Merged,723,27,30,h ,4
+Modify project setting for MSVC,2017-10-29,Closed,720,2,1,,0
+Adding D405 and SR300 recordings to CI's unit-tests suite,2017-10-25,Merged,719,816,698,txt cpp h ,5
+Fixed issues in Advanced Mode and rs_data_collect tool,2017-10-19,Merged,717,86,31,cpp hpp ,5
+Pipeline config bug fix,2017-10-19,Merged,716,150,16,,2
+Fixing the issue where Advanced Mode controls were not showing in the…,2017-10-18,Merged,714,2,1,,1
+Advanced Mode controls not showing in Depth Quality Tool,2017-10-17,Closed,713,2,1,,1
+Rectify device selection for the pipeline,2017-10-18,Merged,712,185,184,cpp h ,7
+Fix rs-data-collect tool,2017-10-16,Merged,711,10,7,,4
+Shiritbrook patch 1,2017-10-16,Merged,710,19,2,,0
+Bug fix when disconnecting camera while streaming,2017-10-16,Merged,709,6,3,,1
+Viewer device changes,2017-10-16,Merged,706,103,90,h ,4
+Added back syncer_processing_block,2017-10-16,Merged,705,28,8,,1
+Pipeline config bug,2017-10-15,Merged,703,14,5,cpp ,2
+Increase module version for node-glfw-3 which resolved texture leak i…,2017-10-13,Merged,702,906,4,,0
+Fix node.js addon crash issue caused by releasing frame multiple times,2017-10-12,Merged,700,59,76,cpp ,8
+Fix crash issues caused by releasing frames multiple times,2017-10-12,Closed,699,59,76,cpp ,8
+Fixing crashes in the viewer when switching between cameras,2017-10-10,Merged,697,42,11,h ,4
+Advanced mode controls bug,2017-10-10,Merged,696,5,1,,1
+[Node.js] Fix linter issue on Windows and linter errors,2017-10-10,Merged,695,20,18,,2
+"Handle unit-tests persistence, repeat-ability. Improve overall robustness",2017-10-10,Merged,694,554,462,cpp h ,7
+Depth quality tool touchups,2017-10-10,Merged,693,453,99,h txt ,4
+"Modifying the Viewer to display ""No Frames Received""",2017-10-09,Merged,692,3,3,,1
+Depth Quality: Connect/disconnect events & improvements,2017-10-09,Merged,691,217,105,h hpp ,7
+Release fixes,2017-10-08,Merged,690,82,22,h hpp cpp ,7
+[Node.js] Make examples work again with new API (with known crash issues),2017-10-08,Merged,689,101,50,cpp ,3
+API Calls Tracer,2017-10-09,Merged,687,547,276,,0
+Fix Depth Quality tool readme,2017-10-04,Merged,683,1,1,,0
+Update the Viewer UI to work properly on a MacBook,2017-10-04,Merged,682,22,14,h ,5
+Update Hand gesture preset,2017-10-03,Merged,681,1,0,,1
+Fixed disconnect/reconnect issue,2017-10-03,Merged,680,95,32,,2
+Depth Quality Tool Updates,2017-10-03,Merged,679,193,123,cpp h hpp ,15
+Preliminary OSX integration,2017-10-03,Merged,678,"9,314",44,txt ,1
+Sensor API fixes,2017-10-03,Merged,677,134,196,h hpp ,8
+Update readme.md,2017-10-03,Merged,676,4,4,,0
+Performance optimization,2017-10-02,Closed,675,174,36,h cpp c ,8
+Reorder wrappers folder,2017-10-02,Merged,674,7,2,,0
+Initial changes towards OSX compilation,2017-10-02,Merged,673,"15,543","10,043",,3
+Pipeline changes,2017-10-04,Merged,672,"2,253","1,178",def md cpp ,5
+RMS metric to Depth Quality Tool,2017-10-02,Merged,671,100,35,ps1 h ,8
+Cosmetic Changes and Bug Fixes,2017-10-03,Merged,670,331,133,h ,7
+Changes to the Viewer and Quality tools,2017-10-01,Merged,669,433,278,,1
+[Node.js] Use node8 for pkg,2017-10-02,Merged,668,1,1,,0
+[Node.js] Fix Windows dist example issue.,2017-09-30,Merged,666,44,159,gyp cmake ,2
+Some small bug fixes.,2017-10-01,Closed,664,28,2,h ,3
+Depth Quality tool - add FPS control,2017-09-29,Merged,663,184,146,h ,7
+[Node.js] Update of document,2017-09-29,Merged,660,39,9,json ,1
+Update readme.md,2017-09-26,Merged,658,1,1,,0
+Depth Quality Tool Documentation,2017-09-26,Merged,655,25,8,gif ,1
+Fix contribution file,2017-09-26,Merged,654,2,2,,0
+Removing the CLA,2017-09-25,Merged,653,4,32,,0
+Removing the CLA,2017-09-25,Merged,652,1,26,,0
+Depth quality tool,2017-09-25,Merged,651,"2,856","2,005",h ,3
+Python: OpenCV example + BufData fixes,2017-09-25,Merged,650,62,6,cpp md ,2
+Fixed bug on error handling - will be activated only when user regist…,2017-09-25,Merged,649,10,6,,4
+Fixed flickering in pointcloud example,2017-09-25,Merged,648,1,1,,1
+Pipeline updates,2017-09-25,Closed,647,375,382,cpp h hpp ,8
+Pipeline,2017-09-25,Closed,646,363,364,cpp h hpp ,8
+Pipeline updates.,2017-09-25,Closed,645,0,0,,0
+Subst README.md for npm package,2017-09-25,Merged,644,2,1,sh ,2
+Fix for DataCollect tool,2017-09-25,Merged,643,92,104,,1
+Update readme.md,2017-09-25,Merged,642,2,1,,0
+Update readme.md,2017-09-25,Closed,641,4,3,,0
+Update readme.md,2017-09-23,Merged,640,3,3,,0
+Update readme.md,2017-09-23,Merged,639,8,9,,0
+[Node.js] Examples: change git repo URL into npm package name,2017-09-22,Merged,638,6,713,,1
+[Node.js] Adapt the RC version change,2017-09-22,Merged,637,11,3,,2
+"[Node.js] Document update for jsdoc installation, and also fixing the example path",2017-09-22,Merged,636,7,1,,0
+Update readme.md,2017-09-23,Merged,635,4,4,,0
+[nodejs] Add dist support to package the examples.,2017-09-25,Merged,634,233,24,gyp cmake js json ,8
+[Node.js] Adapting the newest API change,2017-09-21,Merged,633,792,104,,3
+[Node.js] Adapt newest Pipeline Align PointCloud API changes,2017-09-21,Closed,631,64,104,cpp ,5
+[Node.js] Adapt newest API change,2017-09-21,Closed,630,66,104,cpp ,5
+To adapt the file name change of generated VS solution,2017-09-21,Merged,629,1,1,,1
+Update readme.md,2017-09-21,Merged,628,3,3,,0
+"Fixed crashes of capture, pointcloud and align examples",2017-09-21,Merged,627,124,42,h ,11
+Fixed scenario where draw_pointcloud called with null point,2017-09-19,Merged,626,3,0,,1
+(Resending PR604) Fix some sensor related bugs and update tests and samples,2017-09-19,Merged,625,145,40,cpp ,6
+[Node.js Wrapper] Adding dist scripts and other necessary files.,2017-09-19,Merged,624,409,3,json js md gyp bat sh ,7
+[nodejs] Re-enable linter.,2017-09-18,Merged,623,3,11,json ,3
+Fixed bug when loading file that is already loaded,2017-09-18,Merged,622,7,5,,1
+Some fixes for Ubuntu 14.04 installation instructions,2017-09-18,Merged,621,69,62,md ,0
+Recodable Options,2017-09-25,Merged,620,"1,268",633,h ,10
+(Resending PR604) Fix some sensor related bugs and update tests and samples,2017-09-18,Closed,619,145,40,cpp ,6
+Fix some sensor related bugs and update tests and samples,2017-09-18,Closed,618,145,40,cpp ,6
+Recording option changes [older dup],2017-09-18,Closed,617,"1,319",656,,10
+Some fixes for Ubuntu 14.04 installation,2017-09-17,Closed,616,16,9,md ,0
+Some bug fixes of record and playback unit tests,2017-09-14,Closed,614,"2,507","1,594",in txt yml cmake cpp h md ,7
+Some bug fixes of record and playback unit tests,2017-09-14,Closed,613,"1,598","1,592",in txt yml cmake cpp h md ,7
+Viewer improvements,2017-09-14,Merged,612,341,106,h ,6
+"Second fix of python version, keep python2.7",2017-09-14,Merged,611,2,4,,1
+Fix travis python2,2017-09-14,Closed,610,"448,469","49,095",gitignore yml AUTHORS cmake ,4
+Add test cases for nodejs wrapper,2017-09-19,Merged,609,787,13,,3
+Fix API architecture documentation,2017-09-14,Merged,608,15,29,,0
+Fix wrong python3 version.,2017-09-14,Merged,607,5,3,,1
+Fix wrong python3 version,2017-09-14,Closed,606,"448,469","49,095",gitignore yml AUTHORS cmake ,4
+Fix some sensor related bugs and update tests and samples,2017-09-19,Merged,604,145,40,cpp ,6
+Added Environment class and remove pipeline start with callback,2017-09-13,Closed,603,"1,499","1,508",def in txt cmake cpp h md ,8
+add Environment singleton class + remove pipeline start with calback,2017-09-13,Closed,602,"448,378","49,122",gitignore yml AUTHORS cmake ,4
+Adding dist scripts and other necessary files.,2017-09-18,Closed,601,409,3,json js md gyp bat sh ,7
+Adding align support and nodejs-align.js example,2017-09-12,Merged,600,"1,218",261,,2
+Align example documentation,2017-09-13,Merged,599,183,2,,0
+[nodejs] Add contribution to readme,2017-09-11,Merged,598,83,58,,0
+[nodejs] Add contribution part to readme.md,2017-09-11,Closed,597,"447,329","49,095",gitignore yml AUTHORS cmake ,4
+Python numpy compatibility,2017-09-10,Merged,596,10,1,md ,1
+Enable Node.js CI and update readme.md,2017-09-08,Merged,595,"2,782","1,215",txt md json gitignore jshintrc gyp ,6
+Adding node.js wrapper,2017-09-06,Merged,594,"20,694",0,md gyp ,2
+Adding documentation for Windows installer,2017-09-05,Merged,593,72,16,PNG ,10
+Work,2017-08-30,Closed,590,"4,177","2,965",def txt Makefile cmake config/usb-R200-in config/usb-R200-in_udev debian/TODO ,6
+Updating Multicam example documentation,2017-08-29,Merged,586,126,98,,0
+Enable Advanced Operations on PWG units,2017-08-27,Merged,585,12,1,,1
+Adding UI Scale Factor for 4K displays,2017-08-28,Merged,584,35,14,h ,5
+update installation Edit2,2017-08-27,Closed,582,0,0,,0
+Work,2017-08-26,Closed,581,113,0,,0
+Updating Linux distribution document,2017-08-25,Merged,579,5,3,,0
+Tutorials docs,2017-08-21,Merged,576,217,18,gif cpp ,2
+Fix FourCC parsing and matching logic for windows backend,2017-08-21,Merged,575,7,9,,1
+Adjust SR300 4CC codes for INVZ and INVI formats,2017-08-19,Merged,571,5,2,cpp ,2
+Remove uvcmodule check from Linux backend,2017-08-10,Merged,570,1,11,cpp ,2
+Modify the patched module signature for kernels 4.10+,2017-08-10,Merged,569,12,4,,2
+Update list of maintainers,2017-08-08,Merged,567,1,1,,1
+Hotfix/v4l2,2017-07-31,Closed,564,111,18,cpp h ,4
+Fixed Archlinux patch for 4.11.7 kernel.,2017-09-30,Merged,560,7,8,patch ,2
+Fixed table formatting,2017-07-18,Merged,550,1,1,,0
+Change the tag name of git in order to support the kernel version 4.8,2017-07-19,Closed,546,5,2,,1
+Hotfix/x1 uvc,2017-06-16,Closed,536,112,19,cpp h ,4
+Change fourcc codes of INVZ and INVI to Z16 and Y10 respectively,2017-06-15,Merged,535,68,66,cpp ,3
+Add pkg-config metadata support,2017-06-14,Merged,533,37,0,in ,1
+Add pkg-config metadata support,2017-06-14,Closed,531,37,0,in ,1
+Update patch-realsense-ubuntu-xenial.sh,2017-06-14,Merged,530,21,2,,1
+Update realsense-camera-formats_fc25.patch,2017-06-14,Merged,526,4,4,,1
+Change fourcc codes of INVZ and INVI to Z16 and Y10 respectively,2017-06-15,Closed,523,6,8,cpp ,2
+Added the linux-headers requirement for arch linux installations in the documentation.,2017-06-06,Merged,520,5,2,,0
+Hotfix/firmware reset,2017-06-01,Closed,518,9,1,cpp ,2
+Hotfix/armhf,2017-06-01,Closed,517,12,3,cpp h ,2
+Add more specific descriptions for Auto-range options for SR300 camera,2017-06-07,Merged,501,10,10,,1
+Update getting_started_with_openCV.md,2017-07-01,Merged,493,1,1,,0
+Add snap install instructions,2017-10-03,Merged,484,8,0,,0
+Replacing SolutionDir macro with relative paths,2017-04-03,Merged,470,8,8,,2
+Fix a non utf-8 character in types.h,2017-04-03,Merged,469,1,1,,1
+Add missing includes for <sys/time.h> and <functional>,2017-04-03,Merged,461,3,0,h ,3
+Updating Mac OS X documentation,2017-03-09,Merged,452,34,6,,0
+Updated the maintainers,2017-02-27,Merged,446,5,2,,1
+Check for uvcvideo existence via the /sys kernel filesystem,2017-08-09,Merged,442,4,13,,1
+Generate cmake package config files,2017-03-09,Merged,441,30,5,in ,1
+examples: control building of the graphical examples,2017-06-06,Merged,435,100,78,txt ,0
+scripts: removed bashisms.,2017-03-09,Merged,434,7,7,config/usb-R200-in_udev ,2
+Added patch script and patch file for fedora core 25.,2017-03-22,Merged,427,207,0,patch ,2
+Added patch and patching / uvcvideo module build script for Fedora 25.,2017-01-24,Closed,423,240,0,patch ,2
+Fix compiler flags for specific ABIs,2017-01-25,Merged,422,9,4,,0
+Fix build error on Ostro OS for ARM boards,2017-01-23,Closed,419,3,0,,0
+Fix architecture detection on RedHat/Fedora machines,2017-01-21,Closed,416,6,3,,0
+Bump ROS package version to 1.12.1,2017-01-11,Merged,412,1,1,,1
+need to add the intrinsics and extrinsics example,2017-01-12,Closed,411,"5,613",252,,1
+Update xcodeproj files,2017-09-30,Merged,408,36,36,,7
+Ros build fix,2017-01-11,Merged,404,6,2,,0
+Fix ROS Environment Check,2017-01-05,Merged,402,2,4,,0
+Fix Ubuntu 14.04 example link errors,2017-01-04,Closed,397,1,1,,0
+Refresh ld cache after installation of shared objects,2016-12-25,Merged,395,3,0,,0
+Fix detection of ROS build,2016-12-15,Closed,387,5,3,Makefile ,1
+cmake find_package support and build flavor options,2017-02-15,Closed,380,95,5,txt ,1
+Stop relying on the validity of error object passed to create_context,2016-11-29,Merged,378,3,2,,1
+patch corrected and tested with zsh and bash,2016-11-29,Merged,376,1,1,,1
+Add SONAME support for Linux.,2016-11-30,Merged,373,23,4,Makefile ,1
+Use dirname of script file to find patch file,2016-11-23,Merged,369,1,1,,1
+Update Rosdebian branch,2016-11-12,Merged,358,19,7,md ,0
+Fix the library location for ROS Debians,2016-11-12,Merged,357,18,6,,0
+Fixed path to patch file,2016-11-23,Closed,356,1,1,,1
+Master,2016-11-12,Closed,355,"24,947","6,569",yml AUTHORS cmake def ,5
+Bump ROS Version,2016-11-09,Merged,352,1,1,,1
+Update Rosdebian branch,2016-11-09,Merged,351,224,37,md h xml sh patch cpp ,13
+Change patch-arch.sh to executable,2016-11-23,Merged,350,0,0,,1
+Adding distortion model to demos,2016-11-13,Merged,349,13,1,,2
+Properly report the USB port as bus+port_path,2016-11-09,Merged,348,15,3,,1
+Highlighting of commands,2016-11-10,Merged,347,1,1,,0
+Some corrections,2016-11-09,Merged,346,12,12,h cpp ,8
+Fix to get_usb_port_id to handle devices connected through USB Hub,2016-11-09,Closed,345,9,3,,1
+Make docker detection more host distro independent,2016-11-04,Merged,342,4,4,,1
+Skip DKMS enablement when kernel is fully patched,2016-11-01,Merged,334,67,38,debian/prerm ,2
+Update patch for Arch Linux on 4.8.4,2016-11-04,Merged,332,175,1,patch ,2
+update instruction of V4L patch in installation.md,2016-11-03,Merged,331,17,16,,0
+Add ROS Issue Tracking to ROS Wiki,2016-10-25,Merged,329,2,1,,1
+Update the error message for Debian install,2016-10-21,Merged,325,3,10,,1
+Resolved warnings introduced with commit id e0578b30ac4ab8cc0096c7db6…,2016-10-19,Merged,322,4,0,c ,2
+GNU Install Directories For CMake,2016-10-16,Merged,316,8,5,,0
+GNU Install Directories For CMake,2016-10-14,Closed,315,31,11,md pbxproj cpp h c ,7
+Document librealsense releases,2016-10-16,Merged,314,20,1,png ,1
+Enable CMake build on Mac OSX by fixing libusb-1.0 library and include paths,2016-10-13,Merged,313,12,2,pbxproj cpp h c ,5
+Updating installation instructions to reference recommended Win8.1 patches,2016-10-04,Merged,307,2,0,,0
+Fix two trivial warnings,2016-10-04,Merged,306,1,2,,2
+Fix build environment for ROS build farm,2016-10-03,Merged,302,6,13,,0
+Test ROS Build Environment,2016-10-02,Merged,301,14,1,,0
+[cmake] add uninstall make target,2016-09-23,Merged,297,24,0,cmake ,1
+[cmake] add uninstall target,2016-09-23,Closed,296,24,0,cmake ,1
+Finish up CMake,2016-09-19,Merged,291,186,167,def txt vcxproj filters ,5
+Cmake rebase,2016-10-02,Merged,290,889,"1,059",yml cmake def ,4
+"Turn on stricter warnings, and fix existing warnings.",2016-09-15,Merged,288,68,63,h cpp ,13
+Enable compilation for non-SSE platforms,2016-09-13,Merged,285,13,0,,1
+"Fix init order, unused variable and signed/unsigned comparison warnings.",2016-09-09,Merged,279,17,17,cpp h ,6
+Moved error behavior out of header.,2016-09-08,Closed,278,41,14,hpp vcxproj filters cpp ,7
+Librealsense Cmake,2016-09-07,Closed,274,47,120,Makefile ,1
+Fixing couple of issues with SR300 and F200,2016-09-07,Merged,272,3,3,,2
+Updated README to reflect current ROS support,2016-09-08,Closed,259,384,33,def txt ,2
+adding couple of links to useful librealsense resources,2016-08-25,Merged,256,7,2,,0
+"Fixed missing ""."" before shell commands in the installation document",2016-08-24,Merged,253,2,2,,0
+Update the ROS package version,2016-08-23,Merged,251,1,1,,1
+Added patch compilation for Arch and Manjaro Linux.,2016-08-23,Merged,249,127,8,sh ,1
+Fixing R200 RAW10 format,2016-08-21,Merged,247,6,1,,1
+ROS Debian Package updates,2016-08-21,Merged,246,409,99,sh conf debian/install postinst → debian/postinst debian/prerm patch ,7
+Fixed set_control for Windows Build 1607,2016-08-17,Merged,245,2,1,,1
+minor changes for SR300 cameras,2016-08-11,Merged,240,61,305,hpp cpp ,4
+ROS Debian package updates,2016-08-07,Merged,236,190,0,udev ,4
+Fix data type for Auto Range Thresholds,2016-08-04,Merged,230,2,2,,1
+Fix to use ubuntu kernel repo instead of apt-get,2016-07-25,Merged,219,3,3,,1
+quick fix to the makefile adding dependency from o to headers,2016-07-24,Merged,217,7,1,,1
+fixing OSX build,2016-07-14,Merged,212,81,17,cpp ,2
+Improvements to the get_usb_hub method,2016-07-15,Merged,211,343,8,h ,4
+Remove 32-bit ARM flags from 64-bit build,2016-07-13,Merged,207,1,1,,1
+Arm64 Builds and warnings clean-up,2016-07-11,Merged,206,18,13,c cpp ,5
+"""make install"" should not rebuild librealsense.so",2016-07-14,Merged,200,10,12,,1
+Ignore inaccessible cameras during detection.,2016-07-14,Merged,199,6,1,,1
+"Added generic, non-SSSE3 colourspace conversion.",2016-07-07,Merged,198,145,2,cpp ,2
+Support for non-SSSE3 Platforms,2016-07-07,Closed,196,191,16,cpp ,4
+Add uninstall task to Makefile,2016-07-02,Merged,192,5,0,,1
+Add Missing Dependency for build,2016-06-29,Merged,188,2,0,,1
+Remove HTML Codes,2016-06-27,Merged,187,1,1,,1
+Remove non-ASCII characters,2016-06-27,Merged,186,1,1,,1
+Enable Debian Package Build for ROS,2016-06-27,Merged,182,70,0,xml ,1
+Fixed cpp-capture SIGSEGV,2016-06-20,Merged,178,1,1,,1
+Add cpp-tutorial-4-gles3-pointcloud.cpp,2016-06-16,Closed,168,769,0,,0
+Chromeos build fix,2016-06-16,Closed,165,7,6,,4
+Add .clang-format to keep coding style consistent.,2016-06-16,Closed,164,"3,234","2,991",md c cpp ,6
+Define the coding style.,2016-05-31,Closed,160,"9,420","8,827",md Makefile c ,5
+Update installation.md for Ubuntu 16.04,2016-05-26,Merged,154,5,3,,0
+Let multiple users share ownership over rs_context object,2016-05-22,Merged,145,34,13,h ,5
+Usb bus port,2016-05-19,Closed,143,54,5,cpp h hpp ,12
+Added support in cpp-config-ui example to validate changed camera opt…,2016-07-07,Closed,142,33,13,,1
+Modified rs_context singleton pattern to return instance,2016-05-22,Closed,141,10,18,h ,3
+Add rs_device_get_usb_port,2016-05-20,Merged,140,50,2,h hpp ,11
+Added CMake script to build librealsense and examples,2016-08-28,Merged,124,383,32,def txt ,2
+Fix wrong instructions for installation on 3.19 Kernel systems,2016-09-11,Merged,120,4,2,,0
+Specify depth parameter on git clone,2016-04-29,Closed,118,1,3,,1
+Casts to build with clang on OSX,2016-05-14,Closed,115,60,61,h ,5
+Reconnect,2016-04-19,Closed,114,684,218,h hpp vcxproj ,4
+Mark utility functions as inline,2016-04-21,Merged,113,2,2,,1
+Speed up align_image: OpenMP & tuning,2016-04-29,Merged,110,15,3,cpp ,3
+Changed the kernel install script to allow for easier kernel version updates.,2016-09-11,Closed,107,6,3,,1
+readme: include MinnowBoard as small-form factor,2016-04-11,Merged,106,1,0,,0
+Fedora kernel UVC driver patch script,2016-04-11,Merged,104,51,0,,1
+Updated documentation for video4linux backend,2016-04-09,Merged,102,8,5,sh ,1
+split pkg-config flags for USB in compile and link for building under…,2016-04-07,Closed,99,4,3,h ,2
+It wouldn't build without it on El Capitan...,2016-04-09,Closed,93,2,2,,0
+Added cross hairs for depth.,2016-03-29,Closed,92,42,13,,1
+Added note on upgrading distr.,2016-03-23,Merged,85,1,0,,0
+Added proper root permissions when needed,2016-03-21,Merged,76,8,8,,1
+Install headers on make install,2016-03-21,Merged,69,2,0,,1
+Fixing spurious 'FFFFFF' in serial numbers,2016-03-21,Merged,66,1,1,,1
+Ignore virtual video devices,2016-03-21,Merged,60,13,0,,1
+Dev,2016-02-24,Closed,42,684,218,h hpp vcxproj ,4
+Adding support for static linking,2016-03-02,Merged,37,20,0,md ,1
+Dev,2016-02-17,Closed,35,684,218,h hpp vcxproj ,4
+Dev,2016-02-17,Closed,34,684,218,h hpp vcxproj ,4
+"Removed unnecessary include, fixed warning",2016-03-02,Merged,20,1,2,,1
+Fixing the c and cpp flags for building on osx,2016-03-02,Merged,17,24,3,,1
+some variables in stb_easy_font.h needed to be declared static so mul…,2016-01-26,Closed,14,5,4,,1
+add depth->color upscaling algorithm (similar to libfreenect2),2016-03-02,Merged,9,20,2,,1

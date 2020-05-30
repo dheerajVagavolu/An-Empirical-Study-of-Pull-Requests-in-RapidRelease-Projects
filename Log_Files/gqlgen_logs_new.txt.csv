@@ -1,0 +1,421 @@
+fix: explicitly exclude trailing comma from link,2020-01-07,Merged,982,1,1,,0
+Add Link to Sample Project with GQLGen and Postgres,2020-01-06,Merged,974,1,0,,0
+Fix extra trimspace on nillable Unmarshals,2020-01-06,Merged,970,1,1,,1
+docs: typo in code on the getting start page,2020-01-06,Closed,967,2,2,,0
+fix apq status,2019-12-19,Closed,948,23,11,,2
+always return OperationContext for postpone process,2019-11-28,Merged,947,25,5,,3
+add skip_validation flag,2019-11-28,Merged,942,8,2,md ,2
+shortcut QualifyPackagePath in go module mode,2019-11-28,Merged,941,24,4,,2
+make model generation optional,2019-11-28,Merged,940,23,13,md ,2
+(docs) graph-gophers now supports Struct Field resolving,2019-11-26,Merged,939,1,1,,0
+modelgen hook docs fixed,2019-11-25,Merged,938,2,2,,0
+Don't crash when interface resolver returns a typed nil,2019-11-28,Merged,929,580,0,,1
+Bind to embedded interface,2019-11-11,Merged,927,746,72,graphql ,4
+various performance optimizations,2019-11-28,Closed,926,119,62,,9
+Update to gqlparser-1.2.0,2019-11-07,Merged,923,4,11,mod sum ,3
+Fixes #843: Bind to embedded struct method or field,2019-11-11,Merged,919,492,57,graphql ,5
+"docs: Fix typo in title of ""Resolvers""",2019-11-03,Merged,917,1,1,,0
+3->4 scalars,2019-11-03,Merged,916,1,1,,0
+fix #860 directive arg name keyword is not converted,2019-10-28,Merged,907,1,1,,1
+Minor Documentation Tweaks,2019-11-01,Merged,904,82,60,,0
+Add support for int64 IDs,2019-10-18,Merged,902,49,0,,2
+Update UniquenessKey for when Element is/isn't nullable (#896),2019-11-11,Merged,900,649,302,graphql ,8
+Fixes #898: Retain case of field overrides,2020-01-03,Closed,899,"3,186",10,yml graphql sum gotpl ,13
+Add possibility to hook into modelgen plugin,2019-11-11,Merged,897,139,16,go ,3
+Improve enum value (with vars) validation timing,2019-11-12,Merged,894,256,0,go ,7
+fix init not use custom schema filename,2019-10-14,Merged,889,1,0,,1
+Refactor handler package,2019-11-28,Merged,885,"8,394","9,145",go gotpl ,8
+Gracefully handle invalid types from invalid go packages,2019-09-30,Merged,883,56,10,,5
+Use autobinding in testserver,2019-09-30,Merged,882,40,100,go yml ,8
+Fixed broken GitHub link within the APQ page,2019-09-30,Merged,879,1,1,,0
+Fix websocket connections on test client,2019-09-25,Merged,877,2,5,,1
+Fix client global options,2019-09-24,Merged,875,14,1,,2
+Add config option to omit pointers to slice elements,2019-09-24,Merged,874,74,9,md ,3
+Allow prefixes when using autobind,2019-09-24,Merged,872,25,4,md yml ,2
+Call middleware and directives for subscriptions,2019-09-24,Merged,871,684,141,go gotpl graphql ,5
+Allow changing context in websocket init func,2019-09-24,Merged,870,82,30,go ,4
+fixes shareable link button in playground,2019-09-24,Merged,862,2,1,,1
+Refactor test client,2019-09-17,Merged,861,323,281,,4
+Hotfix/857,2019-09-17,Closed,859,40,1,,2
+Add support for additional headers in client,2019-09-11,Closed,858,40,1,,2
+Fix for nested fields backed by map or interface,2019-09-24,Merged,854,178,8,graphql ,8
+Added graphiql handler,2019-09-16,Closed,853,85,0,,1
+Apollo Federation MVP,2020-01-07,Merged,851,"2,100","1,595",,4
+Pool goroutines,2019-10-25,Closed,841,549,488,,1
+refactor unimplemented directive handling,2019-08-19,Merged,839,174,0,graphql go ,6
+fix directives return nil handling,2019-08-19,Merged,838,294,91,graphql go ,3
+Update directives.gotpl Fix for issue #785,2019-08-15,Closed,834,2,2,,1
+adding requestHeaders to the websocket client,2019-09-16,Closed,832,12,11,,3
+Fixed scalar reference documentation,2019-08-14,Merged,831,2,2,,0
+fix go syntax issue when field has 2 directives,2019-08-16,Merged,829,123,1,graphql go ,8
+introduce RequestContext#Validate and use it instead of NewRequestContext function,2019-09-24,Merged,828,82,44,,3
+Provide option to customize request parameter parsing,2019-11-11,Closed,826,271,192,,1
+Generated structs implements graphql interfaces,2019-08-09,Closed,823,345,76,gotpl ,4
+fix for windows infinite loop,2019-08-08,Merged,822,21,7,,4
+Fix config loading during gqlgen init,2019-08-08,Merged,821,9,7,,1
+send keepalive on init,2019-08-08,Merged,820,19,0,,3
+Fix directives returning nils from optional interfaces,2019-09-24,Merged,819,261,107,gotpl ,3
+add configure cache for the query,2019-10-01,Closed,818,49,33,,3
+Update cors.md to allow CORS for websockets,2019-08-07,Merged,816,11,2,,0
+Allow send first keep alive message instantly,2019-08-08,Closed,809,30,15,,2
+Use a batch loader example,2019-08-07,Closed,808,188,745,,3
+Fix doc,2019-08-07,Merged,807,1,1,,0
+enable-all linters on golangci-lint,2019-08-07,Merged,805,129,91,yml go ,16
+Documentation: getting-started edits,2019-08-07,Merged,801,4,4,,0
+Format import order using goimports,2019-08-07,Merged,797,2,1,,1
+Update GraphQL Reference Link,2019-08-07,Merged,795,3,3,,0
+Add Windows compatibility to ImportPathForDir,2019-08-08,Closed,788,3,1,,1
+"Add a missing ""Upload"" header",2019-08-07,Merged,784,1,0,,0
+Set default directives after parsing config,2019-07-11,Merged,781,13,11,,1
+fixed generating a description to golang comments for enum type,2019-07-08,Merged,780,95,1,go graphql ,4
+updates directive root structure,2019-08-08,Closed,776,8,4,,0
+Fix doc for how to use @goField directives forceResolver option,2019-07-02,Merged,771,1,1,,0
+Fix pointer returns from directive,2019-07-08,Merged,768,340,12,graphql go ,5
+fix field schema directives applied to roots,2019-06-27,Merged,764,321,173,graphql ,3
+Autobind models,2019-06-26,Merged,761,69,8,md yml ,5
+CircleCI workflows,2019-06-26,Merged,759,76,89,circleci/check-fmt circleci/check-generate circleci/check-integration circleci/check-linting yml Dockerfile sh ,9
+Update dataloaders.md,2019-06-26,Merged,758,11,8,,0
+generate field defenition and execute field directive,2019-06-26,Merged,756,"7,881","2,353",gotpl ,8
+fix globbing on windows,2019-06-24,Merged,755,32,16,yml ,6
+Add coveralls,2019-06-24,Merged,754,11,16,sh Dockerfile go ,4
+Allow disabling generation,2019-06-24,Closed,751,12,1,,2
+[websocket] Add a config to reject initial connection,2019-06-19,Merged,750,71,1,,3
+Fix: support configured resolver type in server and resolver plugins,2019-06-18,Closed,748,4,2,go ,3
+add Execute QUERY/MUTATION/SUBSCRIPTION Directives,2019-06-24,Merged,744,427,18,gotpl ,7
+Add middleware to intercept sendError,2019-06-16,Closed,742,89,18,go ,4
+Automatic Persisted Queries,2019-06-24,Merged,734,225,0,go ,2
+Add a plugin for configuring gqlgen via directives,2019-06-26,Merged,732,198,33,md yml graphql ,11
+resolvergen: use the resolver type as base name for dependent types,2019-06-24,Merged,728,167,3,gotpl ,3
+#726: Mark field as resolver with graphql directives,2019-06-18,Closed,727,18,3,go ,1
+added a missing close bracket,2019-05-23,Merged,724,1,1,,0
+resolve all pkg dependencies,2019-06-18,Merged,722,316,6,yml ,7
+[RFC] Split client.Post into client.NewRequest & client.Do,2019-05-31,Closed,720,38,14,,1
+Made choice of whether to use slice-of-struct-pointers vs slice-of-st…,2019-05-20,Closed,719,"4,878",0,,2
+"Updated Getting Started > ""Write the Resolvers"" section fixing #714",2019-05-20,Merged,718,2,2,,0
+added schema file globbing fixes #631,2019-06-12,Merged,717,92,6,yml graphql md ,6
+Add faq section,2019-05-16,Merged,713,67,0,,0
+Use pointers to structs inside slices,2019-05-15,Merged,710,584,436,,9
+make gqlgen generate 10x faster in some projects,2019-05-14,Merged,707,99,24,mod sum ,6
+Fix mapping object types onto go primitives,2019-05-15,Merged,706,656,1,,1
+Fix a data race when handling concurrent resolver errors,2019-05-14,Merged,705,"1,163",881,yml graphql ,4
+Fix typo,2019-05-11,Merged,704,2,2,,0
+Drop automatic conversion of IsZero to null,2019-05-09,Merged,702,493,116,gotpl ,4
+Use pointers when embedding structs in generated structs,2019-05-12,Merged,701,310,41,graphql ,5
+Fix interface casing,2019-05-09,Merged,700,172,1,graphql gotpl ,4
+Add GPU to common initials,2019-05-01,Closed,690,1,0,,1
+Enforce content type for POST requests,2019-05-08,Merged,689,63,9,,2
+Fix: omit deprecated fields when includeDeprecated=false,2019-05-01,Merged,687,15,1,,2
+Adds default custom scalar of interface{},2019-05-08,Merged,686,31,3,md ,2
+Better CollectFields performance,2019-04-17,Merged,680,145,140,go ,5
+Fix unset key and comment block at Gin recipe docs,2019-04-15,Merged,678,2,2,,0
+Add recipe to use gin.Context,2019-04-14,Merged,676,49,0,,0
+[WIP/Not Working] Add GraphQL Playground static files,2019-04-15,Closed,675,15,7,png css js ,4
+codegen/templates: allow templates to be passed in options instead of…,2019-04-15,Merged,673,67,25,,2
+Fix: complexity case selection,2019-05-08,Merged,668,417,219,gotpl ,3
+update README.md,2019-04-08,Merged,665,1,1,,0
+File upload,2019-05-08,Merged,655,"4,218",7,md yml ,2
+doc: fix mistake on introspection doc page,2019-04-01,Merged,654,1,1,,0
+add extra builtin types only when not defined,2019-04-03,Merged,652,1,1,,1
+Allow plugins to provide additional template funcs,2019-04-03,Merged,650,6,1,,1
+Fix Gin installation instruction,2019-03-21,Merged,644,1,1,,0
+Fix Mapping Custom Scalar to Slice,2019-03-31,Merged,637,115,3,yml graphql ,8
+Only Inject Builtin Scalars if Defined in Schema,2019-03-18,Merged,635,124,8,graphql md ,4
+Use graphql.String for types wrapping a basic string,2019-03-18,Merged,634,220,45,yml graphql ,8
+Fix Having Pointers to Union Types,2019-03-18,Merged,633,279,8,,4
+Move ambient imports into cmd package,2019-03-17,Merged,628,1,1,,1
+Handle colliding fields in complexity root gracefully,2019-03-14,Merged,622,867,470,gotpl graphql ,5
+Allow user to supply path to gqlerror,2019-03-14,Merged,620,22,1,,2
+Support returning nulls from slices,2019-03-14,Merged,619,572,10,graphql gotpl ,12
+Adds way to determine if a resolver is a function call or value,2019-03-13,Merged,618,"2,117","1,578",,1
+types.NewInterfaceType -> types.NewInterface,2019-03-13,Closed,617,2,2,,1
+Handle enum slices as directive parameter,2019-03-13,Closed,615,450,48,,2
+Adding entry for workshop,2019-03-12,Merged,614,1,0,,0
+Upgrade graphql-playground to 1.7.20,2019-03-12,Merged,613,2,2,,1
+Maps as changesets,2019-03-12,Merged,612,401,11,gotpl graphql ,6
+Bump gqlparser to 1.1.2,2019-03-12,Merged,611,5,11,sum go graphql ,4
+Allow configuring the complexity limit dynamically per request,2019-03-12,Merged,610,66,2,go ,3
+Add Gin recipe,2019-03-11,Merged,606,53,0,,0
+Fix default scalars,2019-03-11,Merged,605,109,6,graphql ,4
+Fix directives on args with custom type,2019-03-11,Merged,604,121,1,go graphql ,6
+quick fix #577 if we already  have a camel name,2019-03-11,Closed,599,22,0,,1
+"Fix mixed case name handling in ToGo, ToGoPrivate",2019-03-11,Merged,591,30,14,,4
+Fix autocasing modelgen bugs,2019-03-06,Merged,589,451,30,,0
+Fix default scalar implementation regression,2019-03-06,Merged,588,144,2,graphql ,6
+Fix for @deprecated directive not working,2019-03-06,Merged,584,75,6,graphql ,6
+Load the playground sources from HTTPS by default,2019-03-06,Merged,582,3,3,,1
+Take care about commonInitialisms in ToGo,2019-03-06,Merged,579,176,105,go ,3
+Update README.md,2019-03-04,Merged,576,1,1,,0
+v0.8.0,2019-03-04,Merged,574,"25,829","20,089",Dockerfile sh gitignore json md lock toml ,8
+Very rough first pass at plugin docs,2019-03-04,Merged,573,62,0,,0
+Handle non-existant directories when generating default package names,2019-03-04,Merged,572,335,302,go ,5
+Automatically bind to int32 and int64,2019-03-04,Merged,571,462,1,,1
+Workaround for using packages with vendored code,2019-03-04,Merged,570,36,15,,4
+Introduction Improvements,2019-03-04,Merged,569,108,59,html css ,2
+playground: secure CDN resources with Subresource Integrity,2019-03-04,Merged,568,12,6,,1
+Fix cli config getters,2019-03-04,Merged,565,2,2,,2
+Handling queries with partial path errors,2019-02-18,Closed,555,9,0,,1
+Recover from panics in unlikly places,2019-02-18,Merged,554,"1,425",12,gotpl ,4
+Update Getting Started for 0.8 and Go Modules,2019-02-18,Merged,553,342,91,md ,5
+Always return *Thing from resolvers for structs,2019-02-18,Merged,552,176,65,,14
+Improved Collect Fields API and Documentation,2019-02-18,Merged,551,149,2,go ,3
+Fix unstable external marshaler funcs with same name as type,2019-02-18,Merged,550,14,1,,1
+Adds support for go modules outside of GOPATH,2019-02-17,Closed,548,147,33,toml go md mod ,6
+Fix directives on fields with custom scalars,2019-02-18,Merged,544,83,1,go yml graphql ,6
+Add more validation checks on .yml config file,2019-02-18,Merged,542,55,11,yml ,6
+Allow underscore only fields and naming collisions to be aliased explicitly,2019-02-18,Merged,541,816,583,yml gotpl ,5
+Automatically convert IsZero to null,2019-02-09,Merged,540,248,2,graphql gotpl ,11
+Test for #484,2019-02-07,Merged,539,16,0,,1
+Test for #487,2019-02-07,Merged,538,142,0,graphql ,5
+Stub generation,2019-02-07,Merged,537,"1,302",951,gotpl ,3
+Fix typo in README,2019-02-09,Merged,535,3,3,,0
+Multiple bind types,2019-02-06,Merged,534,"17,062","17,125",gotpl ,4
+Fix set header to JSON earlier in GraphQL response,2019-02-05,Merged,532,6,1,,2
+Fix command for code generation,2019-02-05,Closed,531,1,1,,0
+Add websocket keepalive support,2019-02-05,Merged,530,91,17,go ,4
+Add websocket keepalive support,2019-02-05,Merged,529,96,18,,3
+Fix Todo Example Directive,2019-02-04,Merged,528,0,4,,1
+Union Fragment Bug Fix,2019-02-07,Merged,526,120,9,graphql ,9
+Stop GetResolverContext from panicking when missing,2019-02-04,Merged,525,22,7,,2
+Include OperationDefinition in RequestContext,2019-02-04,Closed,524,4,2,,2
+Shows: adjustments to submodule use,2019-02-04,Closed,522,485,46,mod sum go ,13
+Add support for go modules,2019-01-27,Merged,514,392,653,Dockerfile sh json lock toml ,7
+Do not try to bind method on input object,2019-02-09,Closed,509,6,1,,1
+Model plugin,2019-01-26,Merged,502,815,412,,7
+add `content-type: text/html` header to playground handler,2019-02-07,Merged,498,1,0,,1
+Small fixes,2019-01-14,Merged,497,28,9,,3
+bump version of graphql playground,2019-01-10,Closed,494,1,1,,1
+Return string,2019-01-09,Closed,493,323,225,md bin/release go ,12
+Unified merge pass,2019-01-12,Merged,492,"1,593","1,544",go yml ,5
+Add typhon support,2019-01-08,Closed,491,110,0,,1
+"Bind directly to AST types, instead of copying out random bits",2019-01-09,Merged,490,540,571,,10
+Refactor config,2019-01-07,Merged,488,629,545,,3
+add list of enums,2019-01-05,Merged,486,72,1,gotpl ,7
+Update config.md,2019-01-04,Merged,476,2,2,,0
+Update README.md,2018-12-12,Closed,471,2,2,,0
+Performance improvments,2018-12-10,Merged,465,751,888,go gotpl ,4
+Update getting-started.md,2018-12-02,Merged,461,1,1,,0
+add execute argument and input directive,2019-01-05,Merged,460,"2,872","1,040",gotpl ,9
+[WIP]add types int32/int64/float32/uint* to UnmarshalID and add test,2018-12-01,Closed,458,185,1,,2
+Fix deprecated fields,2018-11-28,Merged,455,294,126,toml go json js ,9
+Update gqlparser to latest,2018-11-28,Merged,454,6,3,toml ,2
+Add Deprecation Warning to Binary,2018-11-28,Merged,453,7,1,,1
+Fix typo in directives.md,2018-11-27,Merged,452,1,1,,0
+Refactor import handling,2018-11-28,Merged,450,543,408,,5
+Increase float precision,2018-11-28,Merged,449,24,2,,3
+Update to latest gqlparser,2018-11-26,Merged,448,5,5,go ,3
+Add config option to disable introspection,2018-11-28,Merged,447,261,77,gotpl md ,9
+Fix flakey goroutine test,2018-11-26,Merged,446,4,1,,1
+Remove graphqlgen link,2018-11-26,Merged,445,0,2,,0
+fix generate stubs sentence,2018-11-25,Merged,443,1,1,,0
+"Replaced ""encoding/json"" by ""github.com/json-iterator/go""",2018-11-24,Closed,441,22,12,go ,5
+Updated README: added another alternative for typescript,2018-11-26,Closed,440,1,1,,0
+Fix type binding validation for slices of pointers like []*foo,2018-11-26,Merged,439,28,2,,2
+Update README.md comparison with graph-gophers,2018-11-18,Merged,435,2,2,,0
+Tracer: fixed nil pointer issue,2018-11-16,Merged,434,1,0,,1
+apply go fmt ./...,2018-11-13,Merged,429,17,14,go ,6
+validate Input Object type must define one or more input fields,2018-11-13,Closed,428,20,3,,2
+Fix docs typo,2018-11-13,Merged,427,1,1,,0
+Switch to hosting docs on render.com,2018-11-12,Merged,425,1,10,md ,1
+accept an optional ctx parameter on model methods,2018-11-16,Merged,422,326,14,,2
+fix unexpected ctx variable capture on Tracing,2018-11-12,Merged,419,825,644,gotpl ,2
+Improve Getting Started Documentation — No Binary Approach,2018-11-28,Merged,416,127,75,gotpl md ,4
+add GetErrors to RequestContext,2018-11-03,Merged,411,80,0,,2
+Move tracing to contrib,2018-11-02,Merged,410,1,"3,083",go ,4
+Bump to the latest version of graphql-playground,2018-11-02,Merged,409,1,1,,1
+Use value type if default value,2018-11-01,Closed,406,6,0,,2
+add apollo-tracing support,2018-11-02,Merged,404,"2,900",119,,2
+copy complexity to RequestContext,2018-11-02,Merged,403,16,9,,3
+add Tracer for OpenCensus,2018-11-02,Merged,402,336,0,go ,5
+fix Circle CI test,2018-10-28,Merged,400,176,4,,1
+Run generate ./... and test ./... in circle,2018-10-25,Merged,396,2,2,,1
+add Type System Extension syntax example,2018-10-25,Merged,395,"2,492",0,go ,1
+Add Tracer layer,2018-10-25,Merged,392,"2,035",7,gotpl ,2
+Support multiple schemas,2018-10-21,Merged,389,143,80,gotpl codegen/testdata/cfg/outer codegen/testdata/cfg/subdir/inner md yml graphql ,22
+Resolver move into FieldMiddleware processing,2018-10-25,Closed,388,"11,522","7,292",gotpl ,3
+Close body after use,2018-10-07,Closed,373,1,0,,1
+Underscore on field name finder,2018-10-11,Merged,370,34,4,,3
+reverse errors and data order in response,2018-10-15,Merged,369,13,10,,2
+Don't let goimports guess import paths,2018-10-03,Merged,365,206,25,go ,18
+Add a stress test on query cache,2018-10-02,Merged,364,24,0,,1
+fix error docs,2018-10-02,Merged,362,2,3,,0
+"Revert ""Revert ""Generate typed interfaces for gql interfaces & unions""""",2018-10-02,Merged,361,55,33,go gotpl ,12
+"Revert ""Generate typed interfaces for gql interfaces & unions""",2018-10-02,Merged,360,33,55,go gotpl ,12
+Fix Issue With Argument Pointer Type,2018-10-02,Merged,359,144,66,graphql ,9
+Fix Embedded Pointer,2018-10-02,Merged,358,115,9,yml graphql ,5
+Plugin: ForceResolver,2018-12-05,Closed,354,272,23,gotpl yml graphql ,14
+Parent middleware generated contexts,2018-10-02,Merged,353,"1,250",511,gotpl ,3
+Added parsing of the websocket init message payload,2018-09-25,Merged,348,208,2,graphql md ,7
+Custom Directive Implementations,2018-09-20,Merged,347,267,16,gotpl ,7
+README.md: Updates `graphql-go/graphql` features.,2018-09-12,Merged,340,3,3,,0
+Fix gouroutine leak when using subscriptions,2018-09-13,Merged,339,174,5,gotpl graphql ,8
+Adds docs for how resolvers are bound,2018-09-12,Merged,338,224,0,,0
+Generate typed interfaces for gql interfaces & unions,2018-10-02,Merged,335,55,33,go gotpl ,12
+Support Extensions in Response,2018-09-17,Merged,334,128,67,gotpl ,15
+Refactor arg codegen,2018-09-06,Merged,331,"1,666","1,719",gotpl ,6
+Use built-in less than operator instead of strings.Compare,2018-09-03,Merged,330,5,9,,5
+Return context.Context from FieldMiddleware,2018-10-02,Closed,327,"1,022",991,gotpl ,3
+Add version const,2018-08-31,Merged,326,59,0,go ,4
+Only allow query operations on GET requests,2018-08-29,Merged,325,11,0,,2
+Add stub command,2019-01-30,Closed,323,529,259,,9
+Drop old cli flags,2018-08-28,Merged,322,67,141,go ,5
+Remove support for the old json typemap,2018-08-27,Merged,321,0,45,,3
+Description added to generated Model code,2018-08-28,Merged,320,34,10,gotpl ,14
+Add query cache,2018-08-26,Merged,318,60,11,go ,2
+use goroutine about processing each array elements,2018-08-28,Merged,316,"2,737",493,,1
+Query complexity calculation and limits,2018-08-31,Merged,315,"2,610",11,gotpl ,4
+Add obj to Directives,2018-08-24,Merged,314,567,579,gotpl ,11
+Validate gopath when running gqlgen,2018-08-23,Merged,312,116,46,,6
+fix mapstructure unit test error,2018-08-23,Merged,311,1,1,,1
+Remove 404s from sitemap,2018-08-23,Merged,310,14,0,xml ,1
+Add a PR template,2018-08-23,Merged,309,47,2,go ,1
+Finds fields by configurable struct tag,2018-08-27,Merged,308,143,16,md ,5
+Added args to introspection scheme directives.,2018-08-23,Merged,307,27,9,,1
+Put newline at end of `gqlgen init` output,2018-08-22,Merged,304,1,1,,1
+fix index generation,2018-08-22,Closed,302,246,246,,3
+add Result field to ResolverContext,2018-08-24,Merged,301,"1,644",394,gotpl ,4
+fix connection example,2018-08-21,Merged,300,1,1,,1
+Test gqlgen init on windows,2018-08-23,Merged,299,9,0,,1
+Nulls in required fields should cause errors and bubble,2018-08-22,Merged,298,"2,235",22,gotpl ,6
+Explicitly import ambient imports so dep doesn't prune them,2018-08-21,Merged,297,7,0,,1
+sort directives by name when gen,2018-08-21,Merged,296,8,1,,1
+Simplfy concurrent resolver logic,2018-08-21,Merged,294,"3,542","3,756",gotpl ,5
+Fix broken links in docs,2018-08-20,Merged,292,5,5,,0
+Fix for Trailing Slash in GOPATH,2018-08-15,Closed,291,1,1,,1
+Stop force resolver from picking up types from matching fields,2018-08-14,Merged,285,103,6,yml graphql ,9
+Speed up tests,2018-08-10,Merged,283,"2,649",239,go yml gitkeep yaml ,12
+Remove sleeps in tests,2018-08-10,Merged,282,32,61,go ,4
+Fix missing default args on types,2018-08-10,Merged,281,3,3,graphql ,2
+Integration tests,2018-08-09,Merged,279,"9,044",228,Dockerfile sh dockerignore editorconfig gitignore go babelrc graphqlconfig yaml ,21
+Fix Field Middlewares not Running for Subscriptions,2018-08-27,Closed,278,13,9,gotpl ,3
+Prevent executing queries on variable validation failures,2018-08-08,Merged,274,18,1,,4
+"stop pickup ""github.com/vektah/gqlgen/handler"" from GOPATH",2018-08-09,Merged,270,1,0,,1
+Authentication docs,2018-08-07,Merged,267,165,30,md html css ,4
+Make keyword decollision more lint friendly,2018-08-07,Merged,266,5,4,,2
+CORS docs,2018-08-06,Merged,264,68,10,html css js ,3
+Add logo to doc site,2018-08-06,Merged,263,210,38,svg ico css ,6
+Init Config Improvement,2018-08-07,Merged,260,25,24,,2
+Fix introspection api,2018-08-04,Merged,255,81,22,graphql ,13
+Fix typo in introduction docs,2018-08-03,Merged,254,1,1,,0
+Move doc site,2018-08-03,Merged,252,24,1,md ,1
+Rewrite import paths,2018-08-03,Merged,251,164,164,md go ,11
+Replace circleci with travis,2018-08-03,Closed,250,22,20,,2
+commit vendored gqlparser,2018-08-03,Closed,249,"7,168",1,json com/vektah/gqlparser/LICENSE go ,8
+use json.Decoder.UseNumber() when unmarshalling vars,2018-08-02,Merged,248,42,16,go ,7
+0.4.0 Release,2018-08-03,Merged,247,"7,184","10,557",gitignore lock md go ,7
+Fix introspection,2018-08-02,Merged,246,44,2,,3
+New feature docs,2018-08-02,Merged,245,158,128,md ,1
+Add implicit value to array coercion,2018-08-02,Merged,244,120,16,graphql ,5
+Make more golint free generated code,2018-08-02,Merged,241,204,23,yml graphql ,9
+Use fonts from golang styleguide,2018-08-01,Merged,240,74,12,css js ,4
+Directive args,2018-08-02,Merged,239,268,148,go gotpl ,12
+Add missing variable validation,2018-08-01,Merged,238,16,5,go ,4
+Add model field mapping,2018-08-01,Merged,237,"1,605",46,,6
+Generate server on running init,2018-08-01,Merged,236,123,2,gotpl ,7
+Generate resolver on init,2018-07-31,Merged,235,238,61,,7
+Fixing init command,2018-07-30,Merged,229,57,45,,4
+Update getting-started.md,2018-07-25,Merged,225,1,1,,0
+Implement FieldMiddleware Stack,2018-07-26,Merged,221,733,"1,787",gotpl ,6
+turn back -race option,2018-07-23,Merged,220,1,1,,1
+Remove old resolvers,2018-07-24,Merged,218,278,503,gotpl ,10
+Run Resolver Middleware For All Fields,2018-07-24,Merged,217,"3,290",331,gotpl ,4
+Bump gqlparser to get schema validation,2018-07-23,Merged,214,2,2,,1
+introduce gen & init subcommand,2018-07-23,Merged,210,341,124,go ,5
+Support @skip and @include directives,2018-07-23,Merged,208,225,91,go gotpl ,5
+Update gqlparser for validation locations,2018-07-19,Merged,206,3,3,go ,2
+Use original credential for query request in playground,2018-07-20,Merged,205,3,0,,1
+Use shared prelude,2018-07-19,Merged,204,59,162,go gotpl graphql ,19
+Announcement: 99designs is now sponsoring gqlgen,2018-07-19,Merged,203,8,0,,0
+Remove trailing Println,2018-07-18,Merged,201,0,1,,1
+Integrate gqlparser,2018-07-18,Merged,197,"1,254","9,024",gitignore lock go ,14
+Update playground version,2018-07-15,Merged,195,1,1,,1
+Fix multiline comments,2018-07-14,Merged,194,31,14,gotpl graphql ,7
+validate method return types,2018-07-14,Merged,193,328,430,,5
+Strict config,2018-07-14,Merged,192,8,1,yml ,3
+Support nullable list elements,2018-07-14,Merged,191,33,30,graphql ,9
+Allow forcing resolvers on generated types,2018-07-14,Merged,190,103,78,gotpl yml ,8
+Fix windows gopath issue,2018-07-13,Merged,188,162,43,yml go ,5
+Added include/skip directives support.,2018-07-13,Closed,187,264,109,gotpl ,5
+Error redux,2018-07-14,Merged,186,201,98,go ,7
+Allowing for resolvers to return multiple errors to errorbuilder,2018-07-12,Closed,183,37,2,,2
+Fix a bug custom scalar marshallers in external packages,2018-07-10,Merged,180,127,118,yml ,6
+Improve Output Filename and Package Handling,2018-07-10,Merged,179,71,57,,5
+Add docs for error handling,2018-07-12,Closed,177,51,15,go ,5
+Search for config,2018-07-08,Merged,176,142,28,yml gitkeep yaml md ,9
+gometalinter should cover all packages,2018-07-08,Merged,175,10,15,go ,3
+add resolver option support to field,2018-07-08,Merged,173,79,14,yml graphql ,8
+switch to .gqlgen.yml,2018-07-08,Merged,172,77,51,yml go json ,16
+add .idea/ to .gitignore,2018-07-06,Merged,171,2,0,,1
+Support interface unexported methods,2018-10-02,Closed,169,127,35,,7
+Validate at end,2018-07-05,Merged,166,41,19,go ,6
+Dont remove generated code,2018-07-05,Closed,165,26,20,,3
+support .gqlgen.yml,2018-07-05,Merged,163,205,82,toml go ,8
+Pregenerate interfaces,2018-07-05,Closed,160,92,23,gotpl ,8
+Dont skip model generation if there are enums defined,2018-07-01,Merged,159,1,1,,1
+Updated mutation to take correct argument,2018-07-01,Merged,157,4,4,,0
+Fix bug with multiple GOPATH full package name resolving,2018-06-29,Merged,151,35,0,,2
+Regenerate files for dataloader example for latest naming convention,2018-06-27,Closed,150,30,18,,3
+Improve import handling,2018-06-26,Merged,147,133,72,,10
+fix template error on generated defaults,2018-06-26,Merged,146,15,5,graphql ,4
+Update data.go,2018-06-18,Closed,140,1,1,,1
+Update generated headers to match convention.,2018-06-21,Merged,139,18,18,gotpl ,17
+fix example links,2018-06-18,Merged,137,1,1,,0
+fix GOPATH case mismatch issue,2018-06-21,Merged,136,3,1,,1
+add lint-friendly small interfaces option for resolvers,2018-06-26,Merged,134,463,22,gotpl ,3
+skip struct fields with incompatible types,2018-06-18,Merged,133,4,1,,1
+Added support for @include/@skip directives.,2018-07-13,Closed,130,"1,766",607,gitignore json lock toml md go ,7
+convert windows input path separators to slash,2018-06-06,Merged,127,3,3,,1
+Subscriptions Enhancements,2018-08-27,Closed,125,189,44,gotpl ,5
+Fix backtick escaping,2018-05-30,Merged,124,11,7,graphql ,4
+BC Break: Stop generating foreign keys in models,2018-05-30,Merged,123,18,34,json ,4
+Fix json string encoding,2018-06-04,Merged,122,118,8,graphql ,8
+Fixing panic when non array value is passed to array type,2018-05-29,Merged,120,19,3,,3
+Fix typo in url dataloaden,2018-05-15,Merged,113,1,1,,0
+1. fix bug: #110,2018-05-12,Merged,111,12,3,,2
+generate json tag to model field  by gql name.,2018-05-08,Merged,108,38,38,gotpl ,11
+Fix vendor normalization,2018-05-07,Merged,107,172,7,graphql json ,9
+Automatically add a _ suffix to reserved words,2018-05-03,Merged,105,119,7,,3
+Add a NewRequestContext method,2018-05-03,Merged,104,46,37,,4
+Default values for input unmarshalers,2018-04-28,Merged,97,257,10,gotpl ,10
+Refactor tests,2018-04-28,Merged,96,255,967,go ,13
+Custom error types,2018-04-28,Merged,95,"3,229",715,md go gotpl ,9
+updated custom error func,2018-04-26,Closed,94,44,16,,6
+Input type error handling,2018-04-26,Merged,93,378,228,go ,5
+Add parent opentracing span around root query/mutation/resolvers,2018-04-23,Merged,89,324,173,json go gotpl ,10
+fix package paths on windows,2018-04-18,Merged,87,3,3,,1
+Fix collectFields to handle aliased fields properly,2018-04-09,Merged,84,17,1,,2
+Add resolver middleware Add opentracing support,2018-04-06,Merged,77,885,146,lock go gotpl ,6
+Replace Invalid Characters in Package Name with an Underscore,2018-04-04,Merged,75,87,9,graphql json ,6
+Add support for custom enums,2018-04-01,Merged,72,110,22,graphql json ,11
+Allow generated models to go into their own package,2018-03-29,Merged,70,41,37,,4
+Support OPTIONS requests,2018-03-28,Merged,69,28,4,,2
+Use a raw string for schema,2018-03-28,Merged,67,346,22,gotpl ,7
+Generate enums,2018-03-28,Merged,66,247,35,gotpl ,8
+Make field selections available in context,2018-03-28,Merged,65,"2,195","1,271",gotpl ,6
+Fix vendored import paths in generated models,2018-03-26,Merged,64,166,75,,8
+Deal with import collisions better,2018-03-20,Merged,61,69,3,graphql json ,5
+Add map[string]interface{} escape hatch,2018-03-19,Merged,59,51,4,graphql json ,5
+Null input fields,2018-03-19,Merged,57,71,88,,4
+Getting started fixes,2018-03-18,Merged,56,70,56,md ,4
+Fix ptr unpacking in input fields,2018-03-18,Merged,55,76,3,graphql json ,5
+Docs,2018-03-17,Merged,53,720,401,gitignore md yml ,3
+Support embedding in models,2018-03-17,Merged,51,81,36,,3
+Don't generate value receivers for types that cant fit the interface,2018-03-17,Merged,50,252,24,gotpl ,8
+default to Query / Mutation / Subscription if no entry points are specified,2018-03-17,Merged,49,28,27,graphql ,12
+Retain orignal resolver error and support overriding error message,2018-03-22,Merged,45,372,38,go gotpl ,4
+generate interfaces,2018-02-28,Merged,37,132,71,gotpl ,10
+Only bind to types in the root package scope,2018-02-26,Merged,34,1,10,,1
+Allow unset arguments,2018-02-26,Merged,33,31,1,,2
+Customizable recover func,2018-02-26,Merged,31,355,88,gotpl ,4
+Fix complex input types,2018-02-25,Merged,30,845,8,gotpl ,5
+Split model generation into its own stage,2018-02-25,Merged,29,252,140,,5
+add default args,2018-02-25,Merged,28,136,16,gotpl graphql ,13
+Codegen cleanup,2018-02-22,Merged,20,"3,253","2,846",gotpl ,6
+Generate input models too,2018-02-22,Merged,19,112,42,go gotpl graphql json ,13
+Fix input array processing,2018-02-21,Merged,18,348,"1,153",gotpl ,8
+Better templates,2018-02-20,Merged,16,94,70,gitattributes gotpl go ,13
+Autogenerate models,2018-02-20,Merged,14,409,226,go ,4
+Automatically add type conversions around wrapped types,2018-02-19,Merged,13,145,74,graphql ,10
+Add support for subscriptions,2018-02-17,Merged,11,"3,273",413,go gitignore ,8
+User defined custom types,2018-02-16,Merged,10,"2,250","1,614",,5
+Cleanup schema binding code,2018-02-13,Merged,4,684,607,,5
+Fix typo in README,2018-02-12,Merged,2,1,1,,0

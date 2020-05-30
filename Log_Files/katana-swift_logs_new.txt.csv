@@ -1,0 +1,112 @@
+Modify access level of PartialStore init,2019-11-20,Merged,180,16,16,lock ,7
+[Feature] Swift Package Manager Integration,2019-11-05,Merged,178,35,1,swift md ,2
+Update CHANGELOG for 3.0.2,2019-09-05,Merged,177,3,0,,0
+Update .sling.yml to iphonesimulator12.2,2019-09-05,Merged,176,2,2,,1
+Move Promise “then” body outside the main thread,2019-09-04,Merged,175,4,4,,2
+fixed typos,2019-07-07,Merged,174,3,3,,0
+Update CHANGELOG for upcoming release 3.0.1,2019-05-08,Merged,173,8,1,,0
+Send update to listeners when the state is initialized,2019-05-08,Merged,172,69,38,swift Podfile lock ,9
+Add naming guidelines,2019-04-30,Merged,171,5,0,,0
+[Fix] Make SignpostLogger public,2019-02-06,Merged,170,1,1,,1
+[Docs] Fix readme,2019-02-06,Merged,169,3,4,,0
+[FEAT] Prepare for release,2019-01-03,Merged,168,"1,659","2,689",md podspec pbxproj xcscheme swift ,8
+Fix dispatch retry,2018-12-28,Merged,167,29,3,,2
+Fix dispatch Promise resolved even if sideEffects throws,2018-12-18,Merged,166,45,2,,2
+Fix ObserverInterceptor items executed more than once,2018-12-18,Merged,165,19,23,,2
+Experimental logger,2018-12-28,Merged,162,550,448,,0
+Feature/promise tests,2018-11-16,Closed,161,725,10,,10
+[PROPOSAL] enhanced app structuring,2018-11-06,Merged,159,5,4,,0
+[FIX] english,2018-10-30,Merged,158,22,21,,0
+Experimental guidelines changes proposal,2018-10-30,Merged,157,16,15,,0
+Release 2.0.0,2018-09-18,Closed,154,"13,586",280,html ,2
+Swift 4.2,2018-09-18,Merged,153,348,329,swift-version md Cakefile swift pbxproj xcscheme ,7
+Fix/comments,2018-08-25,Merged,152,45,53,,15
+Feature/action logger,2018-08-25,Merged,151,190,4,md ,8
+Add store initializer,2018-07-03,Merged,147,412,378,,0
+Fix/typos,2018-02-28,Merged,146,"1,972,109",354,html ,28
+Update documentation,2018-02-28,Merged,145,"1,972,108",353,,28
+Update docs,2018-02-27,Merged,144,"1,808,517","71,419",,28
+Move Assets dir under .github,2018-02-27,Merged,143,14,8,png md ,7
+Update UI section of readme,2018-02-27,Merged,142,13,7,md ,2
+Fix Tempura reference,2018-02-26,Merged,141,1,1,,0
+UI separation,2018-02-20,Merged,139,774,"18,683",Cakefile swift json ,9
+Fix `orderedViews`,2018-02-19,Closed,138,1,1,,1
+Update to Swift 4,2017-09-26,Merged,136,"1,412","1,327",swift ,3
+Update Cakefile,2018-02-19,Closed,135,"1,506","1,480",pbxproj xcscheme ,4
+Add retinaRound/retinaRounded methods to CGFloat and CGRect,2017-09-01,Closed,134,34,16,,1
+Expose Store dependencies as public,2017-07-31,Merged,132,1,1,,1
+Fix the removal of a listener of the state,2017-07-24,Merged,131,7,6,,1
+Add warning,2017-07-19,Closed,130,1,0,,1
+Fix `shouldUpdate` check,2017-07-18,Merged,129,4,2,,1
+Fix Connect Wrong Behaviour,2017-06-12,Merged,128,3,2,,1
+Remove performWithoutAnimation,2017-05-25,Merged,127,1,1,,1
+Add properties do `AnyNode`,2017-05-16,Merged,126,15,0,,2
+Fix Renderer’s `explore`,2017-05-15,Merged,125,8,8,,1
+Improves rendering performances,2017-05-11,Merged,124,315,271,xcscheme ,4
+Use XCake,2017-04-19,Merged,123,215,"2,732",Cakefile plist ,3
+Add Refs,2017-04-19,Merged,122,266,17,pbxproj ,6
+Refactor internal action management in store,2017-04-07,Merged,120,75,67,,2
+Fix Store Dispatch,2017-04-06,Merged,119,15,11,,2
+Fix store state dependencies,2017-04-05,Merged,117,3,2,,1
+Fix/store dispatch,2017-04-05,Merged,116,39,7,,2
+Fix Plastic top,2017-04-04,Merged,115,179,10,,2
+State Mock Feature,2017-04-08,Merged,114,302,12,swift ,5
+Fix typo in comment,2017-03-27,Merged,112,1,1,,1
+Fix Table Example,2017-02-24,Merged,110,2,2,,1
+Expose `borderColor` and `borderWidth` on Button,2017-02-16,Merged,109,18,0,,2
+Optional inouts,2017-02-15,Merged,108,"60,179",583,swift html ,3
+Side effects refactor,2017-02-07,Merged,107,117,126,,7
+Release 0.6.0,2017-01-27,Merged,104,564,335,pbxproj ,7
+Feature/new actions,2017-01-27,Merged,103,246,205,pbxproj ,9
+Make the ActionLinks init public,2017-01-17,Merged,102,8,1,,1
+Release 0.5.0,2017-01-13,Merged,100,845,34,swift ,5
+Feature/action linker,2017-01-13,Merged,98,725,0,swift ,5
+Make PlasticView scaleValue public,2017-01-09,Merged,97,1,1,,1
+Improve lifecycle api,2016-12-27,Merged,95,107,31,,3
+Develop,2016-12-24,Merged,94,"290,892","1,404",swift ,5
+Update swiftlint,2016-12-24,Merged,93,"1,829","1,349",swift ,6
+Feature/refactor middleware,2016-12-24,Merged,92,58,57,md ,5
+Random Int generation fix,2016-12-24,Merged,91,3,2,,2
+Lifecycle APIs,2016-12-24,Merged,90,278,4,swift ,4
+Update SyncAction.swift documentation,2016-12-13,Merged,88,1,1,,1
+Add fit method to PlastcView,2016-11-27,Merged,83,100,16,,2
+Possible Fix For #67 - Change referenceSize static var to func,2016-12-24,Closed,82,73,14,,6
+Add gradual adoption to README,2016-11-22,Merged,80,25,5,,0
+Fix Typo In Renaming,2016-11-22,Merged,78,2,2,,1
+DSL for PlasticView Anchors and Values,2016-11-28,Merged,76,312,413,,4
+Update missing code hightlight,2016-11-22,Merged,75,2,2,,0
+Katana for macOS,2016-11-28,Merged,74,"3,506",662,swift-version swift json plist storyboard ,15
+Add .idea to .gitignore,2016-11-21,Merged,73,1,0,,1
+Update documentation,2016-11-18,Merged,72,2,1,,1
+Move rename and fix header of Int+Katana.swift,2016-11-17,Merged,71,7,6,swift ,2
+Update Action.updateRenderer to be an instance method,2016-11-17,Merged,68,411,571,,11
+Fix the access to the renderer from every node,2016-11-16,Merged,65,17,16,,3
+HackerNews Client Demo,2016-12-24,Closed,64,"1,400",5,yml pbxproj xcworkspacedata swift json storyboard plist ,13
+Update to new swiftlint,2016-11-14,Merged,63,249,21,pbxproj xcscheme plist ,10
+Update README.md,2016-11-14,Merged,61,4,4,,0
+Minesweeper Demo,2016-11-14,Merged,60,"1,343",81,pbxproj xcworkspacedata swift json png storyboard plist ,13
+Add Xcode snippets,2016-11-13,Merged,58,136,0,codesnippet ,2
+Update README.md,2016-11-11,Merged,57,4,4,,0
+Add namespace for Katana Elements propertie structs,2016-11-11,Merged,56,218,211,,8
+Add CONTRIBUTING file,2016-11-11,Merged,55,76,0,,0
+Feature/animation demo,2016-11-11,Merged,53,"1,488",42,Examples/PokeAnimations/ATTRIBUTIONS ,2
+Feature/license,2016-11-09,Merged,50,244,238,pbxproj h ,25
+Fix #40,2016-11-09,Merged,49,99,1,,2
+Demo thecodinglove,2016-11-10,Merged,46,"1,827",2,yml ,2
+Node root and treeRoot confusion,2016-11-09,Merged,45,575,100,json plist ,7
+Refactor Animations,2016-11-10,Merged,38,"1,508",525,swift ,4
+Fix/proofread documentation,2016-11-08,Merged,37,63,63,,12
+Improve Node init,2016-11-04,Merged,32,47,14,,3
+Create README.md,2016-11-11,Merged,30,486,0,png json swift ,7
+Feature/documentation,2016-11-04,Merged,27,"2,062",174,swift ,3
+Fix/renaming,2016-11-04,Merged,23,349,335,xcscheme swift ,4
+Elements Reworking,2016-11-02,Merged,19,"1,090","2,623",h ,6
+Feature/new actions,2016-10-31,Merged,17,914,655,,7
+Fix/update bug,2016-10-27,Merged,14,15,23,,4
+Add animation,2016-08-26,Closed,8,130,53,swift ,4
+Feature animation,2016-08-26,Closed,7,"1,108","2,177",,3
+Feature grid,2016-08-23,Merged,5,552,1,pbxproj ,5
+Feature Table,2016-08-22,Merged,4,660,62,,4
+Katana storage integration,2016-08-22,Merged,3,304,78,pbxproj ,9
+Children refactor,2016-08-19,Merged,2,356,285,,5
+[WIP] Plastic Integration in Katana,2016-08-19,Merged,1,"2,760",149,,5

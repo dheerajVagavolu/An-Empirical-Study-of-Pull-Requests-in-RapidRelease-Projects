@@ -1,0 +1,386 @@
+Use full path for XcodeProj,2020-01-12,Merged,751,3,1,swift ,1
+Update to SwiftCLI 6.0,2020-01-05,Merged,749,38,63,resolved swift ,6
+#746 Add Organization Name in spec file,2020-01-06,Closed,747,12,2,,2
+Don't add framework dependency's directory to FRAMEWORK_SEARCH_PATHS if it is implicit,2020-01-12,Merged,744,5,2,swift ,1
+Replace projectReference.path as relativePath,2020-01-06,Merged,740,37,0,swift yml ,7
+Add option to generate only plist files,2020-01-07,Merged,739,7,0,swift ,1
+Adding two Xcodegen external examples,2019-12-02,Merged,734,2,1,,0
+Add support for language and region settings for target schemes,2019-12-04,Merged,728,32,3,swift ,3
+Fixed unnecessary dependencies related to SwiftPM,2019-11-27,Merged,726,6,10,swift pbxproj ,2
+Fix TestAction when debugEnabled: false,2019-11-23,Merged,725,22,1,swift ,2
+Add bundle dependency type,2019-12-12,Merged,723,677,12,swift ,3
+Fix localized *.intentdefinition have to be added to build source phases,2019-11-19,Merged,720,70,15,swift ,2
+Plist.path as Path,2019-11-24,Closed,719,13,10,swift ,4
+Update to XcodeProj 7.4,2019-11-10,Merged,715,19,24,swift pbxproj ,5
+Update to Swift 5.1,2019-11-10,Merged,714,192,261,md swift ,13
+Add dump command,2019-11-10,Merged,710,147,47,swift ,7
+Update to XcodeProj 7.3.0,2019-11-07,Merged,709,4,12,resolved swift ,2
+Disable Xcode 10.3 CI builds,2019-11-06,Merged,707,1,1,,1
+Fix crash on empty `${}` variable expansion,2019-11-06,Merged,706,2,2,,1
+Fix header phase for static frameworks,2019-11-06,Merged,705,4,3,swift ,3
+Improving variable expansion runtime,2019-11-06,Merged,704,110,55,swift ,9
+Fixing link directive on dependencies,2019-10-31,Merged,703,6,5,swift ,1
+Add missing onlyGenerateCoverageForSpecifiedTargets,2019-10-30,Merged,700,12,0,swift xcscheme ,11
+Restructure test targets,2019-10-27,Merged,698,54,10,swift ,18
+Fix macOS unit test target TEST_HOST,2019-10-24,Merged,696,274,1,swift plist ,3
+Add Base to knownRegions even if one doesn't exist,2019-10-29,Merged,694,8,2,swift pbxproj ,4
+[RFC] Fix crashlytics script,2019-10-22,Merged,690,1,1,,0
+Don't generate CFBundleExecutable for targets of type bundle,2019-10-22,Merged,689,56,18,swift ,3
+Support Static Frameworks for Carthage dependencies,2019-11-07,Merged,688,224,42,swift ,7
+Force checking SwiftFormat before merging,2019-11-10,Closed,686,5,1,swift ,2
+Add base localisation by default,2019-10-15,Merged,685,1,1,,1
+Resolve auto-generated INFOPLIST_FILE,2019-10-23,Merged,683,18,2,swift ,2
+[WIP] Spec generation,2019-12-04,Closed,682,384,4,,5
+Resolving relative paths with custom project destination,2019-10-22,Merged,681,56,9,swift ,5
+"Fix some resource files being placed to ""Recovered References"" group",2019-10-08,Merged,679,65,1,swift ,2
+Select suitable configs for auto-generated schemes,2019-10-06,Merged,673,47,2,swift ,2
+Scheme Templates,2019-10-08,Merged,672,245,61,swift ,6
+Fix tests in case-sensitive file system,2019-10-06,Merged,670,73,72,pbxproj json plist storyboard swift yml ,13
+Add .rcproject path to sources build phase,2019-10-02,Merged,669,3,1,swift ,1
+Update SwiftCLI,2019-10-06,Merged,667,8,25,resolved swift ,4
+Specify platform,2019-09-30,Merged,666,2,1,swift ,2
+Fix macOS unit test setting preset,2019-09-29,Merged,665,4,1,yml ,1
+Run github actions with multiple versions of xcode,2019-09-28,Merged,664,35,37,version pbxproj ,4
+Create less diffs in pbxproj,2019-09-28,Merged,663,647,167,yml swift pbxproj ,14
+Less Array() and more valueArray,2019-09-23,Merged,661,8,5,swift ,3
+Performance Tuning,2019-09-22,Merged,658,6,2,swift ,1
+Add `debugEnabled` option for run and test,2019-09-22,Merged,657,48,2,swift ,3
+Add option to gather code coverage for specific targets,2019-10-27,Merged,656,80,21,swift ,4
+Support External Target Reference,2019-10-27,Merged,655,550,43,swift ,8
+Add language and region options for scheme,2019-09-14,Merged,654,35,4,swift xcscheme yml ,4
+Expand template variable in Array of Any,2019-09-11,Merged,651,27,13,swift ,2
+Allow dylib extension for SDK linkage,2019-09-11,Merged,650,14,2,swift pbxproj yml ,4
+Add support for includes filter in target sources,2019-09-02,Merged,644,131,20,swift ,3
+Release 2.7.0,2019-09-01,Merged,642,106,110,Makefile swift ,15
+Remove CircleCI in favour of Github actions,2019-09-01,Merged,641,1,35,,2
+Add recursive glob support,2019-09-01,Merged,636,533,8,swift ,2
+Allow to link dylib into static library only when 'link' is true,2019-08-28,Merged,635,34,14,swift ,2
+Added new faq about Crashlytics(#633),2019-08-27,Merged,634,17,0,,0
+Ignore files with orig extension,2019-08-24,Merged,627,23,0,swift ,2
+Add github actions,2019-08-15,Merged,626,48,0,,1
+Support for Swift Packages,2019-09-27,Merged,624,"1,319",36,resolved swift ,6
+auto generate project by using post-checkout hook,2019-08-22,Closed,622,155,59,,5
+Add support for source groups,2019-11-20,Merged,621,172,27,swift ,3
+Support Swift Packages,2019-08-13,Closed,617,91,0,,2
+Add bundle dependency type and re-enable static library linking against frameworks,2019-12-03,Closed,616,879,20,swift pbxproj ,3
+Added custom group support for target sources (#478),2019-10-13,Closed,611,127,22,swift ,3
+Add support for custom groups in target sources,2019-07-22,Closed,607,311,14,swift ,3
+Update to XcodeProj 7.0.0,2019-06-26,Merged,604,"1,625","1,602",md resolved swift ,21
+Add additional spec for variable expension in combination with template attributes,2019-06-21,Merged,602,29,9,swift ,3
+Added disableMainThreadChecker to TargetScheme and Run/Test Actions,2019-08-31,Merged,601,74,14,swift xcscheme yml ,10
+Include unique file only once,2019-08-19,Merged,599,72,6,swift yml ,5
+Don't bundle `.pch` files as resources,2019-06-10,Merged,597,6,1,swift ,1
+Add environment variable expansion,2019-06-20,Merged,594,40,14,swift yml ,6
+Add support for customizing attributes on a target source file,2019-06-14,Merged,583,45,3,swift ,3
+Allow skipping tests in test targets,2019-05-22,Merged,582,19,4,swift ,3
+Change compatibilityVersion to Xcode 10.0,2019-06-14,Merged,581,8,5,swift pbxproj ,4
+Change compatibilityVersion to Xcode 10.0,2019-05-07,Closed,580,6,3,swift ,2
+Fix duplicate build scripts being generated when using target templates,2019-08-19,Closed,577,11,3,,1
+Fix watchOS Intents Extension support,2019-06-14,Merged,571,4,0,yml ,1
+support sdks with dylib extension,2019-09-11,Closed,564,1,0,,1
+Added support for custom framework root,2019-04-09,Merged,562,246,8,swift pbxproj yml ,7
+Fix Carthage dependencies for watchOS target,2019-04-09,Merged,558,28,19,swift pbxproj ,2
+Fix optional file sources,2019-04-05,Merged,557,32,6,swift ,2
+Update default settings to Xcode 10.2,2019-04-06,Merged,555,30,55,yml swift pbxproj xcscheme ,13
+Fixed flattening of relative paths (#525),2019-04-09,Merged,550,33,1,swift ,2
+Update to Swift 5,2019-03-31,Merged,549,28,391,md Makefile swift version Tests/Fixtures/TestProject/Mintfile pbxproj Tests/Fixtures/TestProject/SomeFile ,11
+Fix creating optional file,2019-03-29,Closed,547,5,5,,1
+Add ability to encode ProjectSpec to JSON,2019-04-22,Merged,545,791,40,swift ,8
+Fix order of file generation,2019-04-07,Merged,544,10,3,swift ,1
+Update Carthage framework lookup,2019-03-25,Merged,543,"1,148",298,swift ,5
+Fix included relative sources in mixed arrays,2019-03-24,Merged,542,22,5,swift yml ,3
+Fix multi-platform target templates,2019-03-24,Merged,541,54,0,swift ,2
+Fix relative paths in included target templates,2019-03-17,Merged,537,11,1,swift yml ,4
+Update to xcodeproj 6.7,2019-04-02,Merged,536,21,12,resolved swift ,5
+Fix excludes within included specs,2019-03-17,Merged,535,4,3,swift yml ,3
+Add support for nested templates,2019-03-17,Merged,534,143,2,swift ,2
+Add ability to define `templateAttributes` within a target,2019-03-17,Merged,533,197,20,swift ,5
+use link property in framework deps,2019-03-22,Merged,532,9,5,,1
+Fix CocoaPods spelling,2019-03-04,Merged,531,6,6,,0
+Feature: Add path support to Scheme.ExecutionAction,2019-04-06,Closed,530,60,37,swift ,6
+Fix error on missing optional sources,2019-02-28,Merged,527,8,1,swift yml ,2
+Compute relative paths to support sources outside a spec's directory,2019-02-26,Merged,524,137,9,swift ,6
+Add missingFiles option to skip checking for config file existence,2019-02-13,Merged,514,14,2,swift ,3
+Make multi platform targets parse deployment target per platform.,2019-03-14,Merged,510,11,0,swift ,2
+Fix fixtures building,2019-02-03,Merged,509,254,22,swift xcfilelist pbxproj ,5
+Add example code for build rules,2019-02-01,Merged,507,14,0,,0
+Adds ability to include related frameworks when using Carthage,2019-02-24,Merged,506,554,107,swift ,3
+Add createIntermediateGroups to TargetSource,2019-01-28,Merged,505,19,6,swift ,3
+Replace $target_name in target templates,2019-01-28,Merged,504,48,23,swift ,4
+Don't partial apply exact config matches,2019-01-28,Merged,503,21,5,swift ,2
+Refactor relative specs slightly,2019-01-28,Merged,502,113,106,,7
+Fixes a few broken links in the documentation files,2019-01-27,Merged,501,2,2,,0
+Adding input and output file lists to build script spec,2019-01-24,Merged,500,56,1,swift pbxproj yml ,5
+Update Xcode compatibility version,2019-01-27,Merged,497,15,4,swift pbxproj ,3
+Fix executable schemes,2019-01-24,Merged,496,215,1,swift pbxproj xcscheme yml ,5
+Fixes issue with sticker pack targets generating redundant compile sources phase,2019-01-20,Merged,492,318,17,json plist ,4
+Correct typo in docs,2019-01-15,Merged,490,1,1,,0
+Spec file relative directory expansion,2019-01-28,Merged,489,543,62,swift ,10
+Fix writing to a project path,2019-01-09,Merged,487,4,1,swift ,1
+Fixed bug occurs during generating empty directories,2019-01-08,Merged,486,39,32,,2
+Update Linkage to handle additional PBXProductType case from xcodeproj,2019-01-10,Merged,482,"2,581","2,577",resolved swift pbxproj xcscheme ,10
+Added an abbility to generate empty directories,2019-01-08,Merged,480,21,9,swift ,2
+⛳️ include xcconfig sample,2019-01-04,Closed,472,13,1,,0
+⛳️ swift for tensorflow example,2019-01-04,Merged,471,2,0,,0
+clarify naming of file,2019-01-04,Closed,469,1,1,,0
+Clarify exclude rules for Target Source Object,2019-01-04,Merged,468,1,1,,0
+Add option to run other project tests,2019-03-04,Closed,466,97,8,swift ,6
+Bug carthage dependencies with different platform,2019-01-26,Merged,465,25,1,swift ,2
+Add includeBridgingHeader option to generate BridgingHeader easily,2019-03-27,Closed,459,42,2,swift ,3
+Add mlmodel to compiled file extensions,2018-12-13,Merged,457,4,1,,2
+Allow static libraries to see external framework in search paths,2018-12-17,Merged,454,10,5,swift ,1
+Generate TEST_HOST,2018-12-16,Merged,452,37,7,swift pbxproj ,2
+Use process unique temporary so we don't get duplicate temporary path…,2018-11-30,Merged,450,2,1,swift ,1
+Add contributor widget,2018-11-26,Merged,448,3,1,,0
+Don't overwrite INFOPLIST_FILE setting with info path,2018-12-01,Merged,443,25,6,swift ,2
+Add .intentdefinition to sources by default,2018-11-23,Merged,442,34,6,swift ,2
+Add XcodeGenCLI,2018-11-11,Merged,437,204,139,resolved swift ,9
+Changes XPC Service package type to XPC!,2018-11-05,Merged,435,6,2,swift ,1
+Add TestTarget with parallelizable and randomExecutionOrder,2018-11-04,Merged,434,237,16,swift xcscheme yml ,8
+Automatically set project SDK root if there is only a single platform,2018-11-03,Merged,433,38,1,swift ,3
+Make Carthage dependencies listen to link,2018-11-02,Merged,432,8,25,swift pbxproj yml ,3
+Validate incorrect config settings definitions,2018-11-02,Merged,431,34,4,swift ,3
+Add sdk dependency type,2018-11-04,Merged,430,100,7,swift pbxproj yml ,9
+"Add ""sdkRoot"" option for Dependency",2018-11-02,Closed,429,14,1,,2
+Fix issue with legacy target fileref,2018-11-02,Merged,427,1,3,,1
+Update generated project defaults to xcode 10 and swift 4.2,2018-10-18,Merged,423,17,25,md swift pbxproj xcscheme ,11
+Fix multi platform targets and UUID conflicts,2018-10-18,Merged,422,113,92,swift ,4
+Use the provided TargetSource.headerVisibility,2018-10-08,Merged,419,1,0,,1
+Add performance tests,2018-10-08,Merged,418,240,3,,4
+Cache config/setting file misses too,2018-10-08,Merged,417,25,9,,1
+Improve performance of getCombinedBuildSettings,2018-10-08,Merged,416,21,26,,2
+Generate optional info plist and entitlements,2018-10-30,Merged,415,280,15,swift entitlements plist pbxproj yml ,11
+Remove iOS codesigning sdk restriction,2018-10-02,Merged,414,7,7,pbxproj ,2
+Improve fixture tests on CI,2018-09-29,Merged,413,"1,844",231,swift json storyboard plist Tests/Fixtures/TestProject/Cartfile resolved ,11
+Add caching,2018-12-18,Merged,412,471,9,swift ,6
+Add framework weak linking setting,2018-10-02,Merged,411,821,25,swift pbxproj yml ,6
+Make validation of Xcode projects optional,2018-09-26,Merged,410,4,2,,1
+Bump xcodeproj to 4.3.1,2018-09-19,Merged,404,4,4,swift ,2
+Allow specifying run script and copy files phase ordering,2018-11-08,Merged,402,125,76,swift pbxproj ,6
+Move Copy Headers phase to be before Compile Sources,2018-09-14,Merged,401,11,10,swift pbxproj ,2
+Fix for issue https://github.com/yonaskolb/XcodeGen/issues/392.,2018-09-19,Merged,394,28,5,,3
+Fix link typo in FAQ.md,2018-09-11,Merged,393,1,1,,0
+Set knownRegions to en by default. Fix for #389,2018-08-31,Merged,390,4,1,swift ,1
+Upgrade to xcodeproj 6,2018-10-14,Merged,388,"3,073","3,203",md resolved swift ,15
+Add setting preset for unit-test under macOS,2018-08-23,Merged,387,3,0,yml ,1
+Fix aggregate target dependencies with `transitivelyLinkDependencies`,2018-08-22,Merged,383,55,26,swift ,3
+Quote framework search paths,2018-08-22,Merged,382,10,7,swift pbxproj ,2
+Allow aggregateTargets to be dependencies,2018-08-19,Merged,381,48,32,swift ,4
+Fixes issue with wrong build phase for Metal files.,2018-08-17,Merged,380,3,1,,2
+Update CHANGELOG.md,2018-08-13,Merged,375,2,0,,0
+Add to `FRAMEWORK_SEARCH_PATHS` for `framework` dependencies,2018-08-15,Merged,373,420,31,swift ,1
+Add contributing document,2018-08-02,Merged,370,59,0,,0
+Update CHANGELOG.md,2018-08-02,Closed,369,2,0,,0
+Automatically copy XPC Services to correct location,2018-08-16,Merged,368,680,1,swift pbxproj plist xpc/Contents/MacOS/XPC Service xpc/Contents/_CodeSignature/CodeResources h m yml ,13
+Add additional params to archive action,2018-08-02,Merged,367,18,1,swift ,2
+Automatically copy Swift.h header for static libraries,2018-08-09,Merged,366,232,4,swift pbxproj yml ,4
+Automatically copy public headers for static libraries,2018-07-31,Merged,365,19,3,swift pbxproj ,2
+Improvements to determining the current version of a versioned CoreData model,2018-08-02,Merged,364,61,8,xccurrentversion xcdatamodel/contents pbxproj ,6
+Add directlyEmbedCarthageDependencies to Target,2018-07-31,Merged,361,96,62,swift pbxproj ,4
+Add names to non-generic Copy Files phases,2018-07-25,Merged,360,23,16,pbxproj ,2
+Default `SKIP_INSTALL` to `YES` for static libraries,2018-07-24,Merged,358,1,0,,1
+Change group sorting,2018-07-24,Merged,356,104,21,swift pbxproj yml ,6
+Add target templates,2018-07-24,Merged,355,193,23,swift xcscheme yml ,9
+Add aggregate targets,2018-07-24,Merged,354,534,149,swift ,7
+Add `requiresObjCLinking` to `Target`,2018-07-24,Merged,353,205,70,swift pbxproj yml ,4
+Improve linking for static library targets,2018-07-24,Merged,352,304,19,swift ,3
+Add showEnvVars to build scripts,2018-07-22,Merged,351,17,6,swift pbxproj ,4
+Add minimumXcodeGenVersion option,2018-08-02,Merged,349,54,6,Makefile swift ,8
+Parse xcodeVersion from yaml,2018-07-22,Merged,348,1,0,,1
+Fix compilerFlags incorrectly being set on non-sources build phases,2018-07-22,Merged,347,6,6,pbxproj ,2
+Automatically copy modulemap files into products directory,2018-07-31,Merged,346,46,14,swift modulemap pbxproj ,6
+Add support for Copy Files build phase,2018-07-31,Merged,345,169,22,swift h pbxproj yml ,7
+Set higher version .xcdatamodeld file as current,2018-07-18,Merged,341,3,3,,2
+Fix mint installations finding SettingPresets,2018-07-11,Merged,339,3,3,,1
+Rename and update xcodeproj,2018-07-06,Closed,337,28,28,swift ,26
+Default `transientlyLinkDependencies` to `false`,2018-07-05,Closed,336,5,15,swift pbxproj ,2
+Code sign all dependencies by default except executables,2018-07-04,Merged,333,14,13,pbxproj ,2
+"Fix typo ""transient"" -> ""transitive""",2018-07-03,Merged,332,25,25,swift ,4
+Fix launch action to not run frameworks,2018-07-01,Merged,328,11,4,xcscheme ,3
+Transitively embed dependencies,2018-07-02,Merged,327,315,8,swift pbxproj ,4
+Fix excluding directories that have sub-directories,2018-07-01,Merged,326,10,1,,2
+Code sign on copy,2018-06-27,Merged,324,828,21,json storyboard ,6
+Fix decoding dictionaries with dot keys,2018-06-26,Merged,323,32,3,swift xcscheme yml ,5
+🐛 📝 [Fix] a bug about install by mint in README.md,2018-06-25,Merged,322,20,19,,0
+Add support for cc source files,2018-06-10,Merged,317,1,1,,1
+Integrate XCTest with Spectre for nicer tests in Xcode,2018-06-08,Merged,316,"1,188","1,147",swift ,6
+Fix Xcode misspellings,2018-05-25,Merged,311,2,2,,0
+Support frameworks in source paths,2018-05-24,Merged,308,25,0,,3
+Always generate Sources build phase,2018-05-14,Merged,307,19,5,pbxproj ,3
+Add build rules,2018-05-24,Merged,306,183,1,swift pbxproj yml ,6
+Include package name in share dir for presets,2018-05-07,Merged,303,1,1,,1
+Fix schemes documentation example,2018-04-25,Merged,302,1,1,,0
+Apply targeted device family to only application target,2018-04-23,Closed,300,3,51,,6
+Remove testability flag from framework template,2018-04-23,Merged,299,0,25,pbxproj ,2
+Improve Carthage dependency lookup performance,2018-04-24,Merged,298,31,19,,2
+Fixed regression introduced in #289,2018-04-14,Merged,297,9,3,,1
+Remove file/product reference for legacy targets,2018-06-03,Merged,296,17,19,pbxproj ,2
+Support adding root files,2018-04-12,Merged,293,21,7,swift Tests/Fixtures/TestProject/Mintfile pbxproj Tests/Fixtures/TestProject/SomeFile yml ,5
+Fix folder in root with createIntermediateGroups,2018-04-11,Merged,291,1,1,,1
+Added workaround for brew & Xcode 9.3 compatibility,2018-04-11,Merged,289,19,0,,1
+Fixed build phase of `none` not being applied to folders,2018-04-06,Merged,288,8,1,,1
+Target Xcode 9.3,2018-04-09,Merged,284,20,7,swift pbxproj xcscheme ,7
+Update Yams to fix quoted values,2018-03-30,Merged,282,15,8,yml swift ,3
+Rename ProjectSpec to Project,2018-04-12,Merged,281,611,607,,3
+Target scheme pre and post actions,2018-03-30,Merged,280,96,17,swift ,5
+Automatically set DevelopmentTeam and ProvisioningStyle TargetAttributes,2018-03-27,Merged,277,36,7,swift ,3
+Add target.attributes,2018-03-27,Merged,276,44,24,swift pbxproj yml ,5
+Fix some typos & presentation in ProjectSpec doc,2018-03-27,Merged,274,22,3,,0
+Add LD_RUNPATH_SEARCH_PATHS to app-extension preset,2018-03-26,Merged,272,1,0,,1
+Upgrade to xcproj 4.2.0,2018-03-21,Merged,270,7,17,swift pbxproj ,4
+Add defaultConfigurationName to options,2018-03-19,Merged,269,37,2,swift ,6
+Add FAQ page with code signing help,2018-03-26,Merged,267,48,0,,0
+Allow allocation of LegacyTarget,2018-03-09,Merged,264,12,0,,1
+Rename ProjectSpec -> ProjectSpec.Project,2018-03-30,Closed,263,281,281,,5
+PrettierCI master Sync,2018-03-07,Closed,261,551,520,json ,5
+Fix env parsing,2018-03-02,Merged,259,31,5,,2
+Fix typo,2018-03-01,Merged,258,1,1,,0
+Only parse true and false as bools,2018-03-01,Closed,257,59,20,yml ,3
+Update carthage embedding,2018-03-01,Merged,256,69,24,pbxproj ,3
+Fix iMessage extension,2018-03-01,Merged,255,2,0,,1
+Fix shouldUseLaunchSchemeArgsEnv disabling logic,2018-02-28,Merged,254,10,2,,2
+Add TargetSource headerVisibility,2018-03-02,Merged,252,29,3,swift yml ,3
+Write project file atomically,2018-02-26,Merged,250,11,1,,1
+Generate code data models properly,2018-02-26,Merged,249,199,16,xcdatamodel/contents pbxproj ,8
+Fix mint installation not reading setting presets,2018-02-26,Merged,248,12,5,,1
+Binary archive install,2018-02-27,Merged,246,63,6,Makefile sh ,4
+Allow setting buildPhase on folders,2018-02-26,Merged,245,17,3,h pbxproj yml ,5
+Add carthageExecutablePath option,2018-02-24,Merged,244,17,3,swift pbxproj yml ,5
+Add parallelizeBuildables and buildImplicitDependencies flags to the …,2018-02-14,Merged,241,48,18,swift xcscheme yml ,6
+Adds support for schema variables,2018-02-26,Merged,239,191,15,resolved swift ,6
+sources.excludes wasn't applied for localisedDirectory such as Base.lproj,2018-03-02,Merged,238,45,25,DS_Store swift lproj/excluded-file Tests/Fixtures/TestProject/App_iOS/excluded-file Tests/Fixtures/TestProject/excluded-file yml ,10
+"Make scheme `config` optional, relying on defaults",2018-02-06,Merged,233,22,22,swift ,2
+Remove scheme diffs,2018-01-30,Merged,232,29,22,xcscheme ,6
+Add support for scheme pre-actions and post-actions,2018-01-30,Merged,231,162,14,swift yml ,6
+Fix handling of scheme target build type,2018-01-30,Closed,230,1,1,,1
+Fix scheme targets documentation,2018-01-30,Merged,229,1,1,,0
+Update to xcproj 4.0,2018-01-28,Merged,227,547,502,swift ,13
+Update PBXProjGenerator to embed frameworks also in test bundles and extensions,2018-01-30,Closed,225,64,2,pbxproj ,3
+Generate UI Test Target Attributes,2018-01-10,Merged,221,308,5,plist ,3
+Add new option for disabling validations,2018-01-06,Merged,220,30,5,swift xcconfig ,4
+Add Support for ResourceBundles,2018-07-02,Closed,219,109,16,pbxproj ,6
+Change default LD_RUNPATH_SEARCH_PATHS to string,2018-01-03,Merged,218,36,126,pbxproj ,7
+Filter out duplicate file references from sources build phase,2018-01-03,Merged,217,30,0,,2
+Stop validating missing configurations,2018-01-06,Closed,216,11,10,swift xcconfig ,4
+Write target product name,2017-12-27,Merged,213,9,0,pbxproj ,2
+Make file reference caching case insensitive,2017-12-27,Merged,212,4,4,,1
+Make the spec directory the default for --project argument,2017-12-27,Merged,211,3,3,swift ,1
+Move optional documentation,2017-12-27,Merged,209,1,2,,0
+Add TargetSource.buildPhase for overriding build phase,2017-12-26,Merged,206,147,8,swift ,4
+Add deployment target,2017-12-26,Merged,205,278,57,yml swift ,11
+Move icon preset settings,2017-12-22,Merged,204,5,47,pbxproj ,9
+Change Scheme.Build.targets spec,2017-12-26,Merged,203,39,52,swift ,2
+Schemes,2017-12-21,Merged,201,111,49,swift xcscheme ,5
+Allow missing files in sources,2017-12-21,Merged,200,17,2,swift ,3
+Fixed test/profile command line args not being passed,2017-12-21,Merged,199,2,0,,1
+Add Xcode version,2017-12-20,Merged,197,83,23,swift pbxproj xcscheme ,7
+Added support for testables in `Scheme`,2017-12-21,Merged,195,17,11,,2
+Scan for Info.plist lazily,2017-12-21,Merged,194,24,16,,1
+[WIP] Bump xcproj to 2.0,2018-01-25,Closed,191,171,210,resolved swift ,7
+Support indentation options from xcproj,2017-12-18,Merged,190,21,3,swift pbxproj yml ,5
+Remove unnecessary quote escaping.,2017-12-07,Merged,186,26,26,pbxproj ,2
+Update documentation about source exclusion,2017-12-20,Merged,185,5,0,,0
+Transform input spec path to absolute path,2017-12-07,Merged,184,1,1,,1
+Issue  #179. Add currentXcodeVersion as an option.,2017-12-20,Closed,182,16,13,pbxproj xcscheme ,5
+Add carthageCopyScript as an option.,2017-11-30,Closed,178,6,2,,2
+Resolves #173 - Shared breakpoints support,2020-01-06,Closed,177,340,6,resolved swift ,5
+Update Spec docs to show strings types as the keys for commandLineArg…,2017-11-30,Merged,176,2,2,,0
+Support Legacy Targets,2017-12-18,Merged,175,254,42,swift ,4
+Print version with -v too,2017-12-01,Merged,174,7,1,,1
+Add commandlineArguments to XcodeGenKit Scheme specifications,2017-11-28,Merged,172,92,28,resolved swift xcscheme yml ,8
+[WIP] Define the project in a Project.swift file,2017-12-02,Closed,171,27,0,,3
+Added support for codeCoverageEnabled flag in target schemes.,2017-11-24,Merged,170,28,15,resolved swift xcscheme yml ,7
+Add quiet option,2017-11-23,Merged,167,55,14,swift ,2
+Add implicit option to framework Dependency,2017-11-21,Merged,166,19,4,swift ,2
+Add implicit type to Dependency,2017-11-21,Closed,165,0,0,,0
+Add ProjectSpec product,2017-11-20,Merged,164,1,0,,1
+Fix TargetSource excludes tests.,2017-11-20,Merged,161,7,7,,2
+[WIP] Initial idea for testing SourceGenerator,2017-11-23,Closed,160,146,79,,4
+Updates for xcproj updates to PBXProj,2017-11-20,Merged,158,120,110,swift pbxproj ,8
+Add support for generating variant groups without Base.lproj,2017-11-15,Merged,157,25,7,pbxproj ,5
+Fix source generation in root directory,2017-11-15,Merged,156,1,1,,1
+Add ProjectSpec.options.developmentLanguage,2017-11-15,Merged,155,18,4,swift pbxproj ,4
+Make references more deterministic,2017-11-15,Merged,154,433,430,,3
+Add folder reference support,2017-11-15,Merged,151,167,83,swift ,3
+Don't generate empty build phases,2017-11-12,Merged,149,15,43,pbxproj ,2
+Add support for linking directly to bundle,2017-11-12,Merged,148,16,3,pbxproj text yml ,4
+Fix cyclical target dependencies,2017-11-12,Merged,147,21,4,,2
+Add TargetSource.name for renaming sources,2017-11-12,Merged,146,43,11,swift pbxproj yml ,5
+Fix groups,2017-11-12,Merged,144,691,483,,4
+"Fix duplicate sources in groups, fixes #141",2017-11-10,Merged,142,2,11,swift ,2
+Support paths directly to xcassets,2017-11-10,Merged,139,114,2,pbxproj yml swift ,6
+Support assembly files in sources,2017-11-07,Merged,138,1,1,,1
+Create topLevelGroup if not-cache hit. Fixes #129,2017-11-12,Closed,136,19,13,,1
+Add support for simple files excludes from sources #5.,2017-11-10,Merged,135,148,9,,4
+Add support for simple files excludes from sources #5.,2017-11-04,Closed,134,25,4,swift ,4
+Filegroups that subsume sources work again,2017-11-04,Merged,133,30,7,pbxproj yml ,4
+Correct documentation type of createIntermediateGroups,2017-11-03,Merged,131,1,1,,0
+Support precompiled bundle files,2017-11-12,Closed,128,45,12,pbxproj swift ,2
+Load json files directly with NSJSONSerialization if the spec path ha…,2017-11-03,Merged,127,65,1,swift ,3
+Fix localized files with same name,2017-11-03,Merged,126,129,38,stringsdict pbxproj swift ,6
+Interpret .c files as sources,2017-11-02,Merged,125,1,1,,1
+Support CompilerFlags in Sources,2017-11-03,Merged,121,60,38,yml swift md ,5
+Add .mm file as a source type,2017-11-01,Merged,120,1,1,,1
+Source options,2017-10-31,Merged,119,103,21,,5
+Don't add unnecessary headers build phase,2017-10-31,Merged,118,5,17,swift ,2
+Add spec validation tests,2017-10-29,Merged,117,116,36,,7
+Add support for JSON spec loading,2017-10-29,Closed,116,24,1,,1
+Fix invalid Products PBXFileReference structure,2018-01-21,Merged,115,18,9,pbxproj ,2
+Update to xcproj 1.2,2017-10-28,Merged,113,9,23,resolved swift ,5
+add support --version option,2017-10-27,Merged,112,3,1,,1
+Partial config matching,2017-10-26,Merged,111,24,4,md ,3
+Add option for not linking dependencies,2017-10-26,Merged,109,8,2,md ,2
+Optionally make intermediate filler groups,2017-11-02,Merged,108,70,9,pbxproj md ,4
+Fix duplicated carthage file references,2017-10-25,Merged,107,4,7,,1
+Support file sources,2017-11-01,Merged,106,50,13,pbxproj yml ,5
+Remove sourceExcludes,2017-10-25,Merged,105,1,5,,1
+Move basePath into ProjectSpec,2017-10-24,Merged,103,45,46,,9
+fix duplicate file reference,2017-10-23,Merged,102,3,3,,1
+Add settingPresets option,2017-10-23,Merged,101,46,7,md ,3
+Don't apply base project settings if config doesn't have a type,2017-10-22,Merged,100,10,2,,2
+Correct README --help argument,2017-10-18,Merged,99,1,1,,0
+Make build a PHONY task,2017-10-18,Merged,98,1,0,,1
+Strip XcodeGen after building,2017-10-18,Closed,97,1,0,,1
+Add support for copying Watch apps,2017-10-18,Merged,96,16,1,,1
+Allow copying of resource files from targets,2017-10-18,Merged,95,14,7,,2
+Exclude more file types from resources,2017-10-18,Merged,94,1,1,,1
+Fix dependency framework/library linking,2017-10-18,Merged,93,47,7,swift ,6
+Update to xcproj 0.4.0,2017-10-12,Merged,85,13,20,resolved swift ,4
+Add outputpaths to carthage copy-framewors script,2017-10-05,Merged,84,83,5,yml swift ,3
+Fix typo: dependancies => dependencies,2017-10-02,Merged,83,3,3,,1
+Always embed and link frameworks for macOS,2017-10-13,Merged,82,5,0,,1
+"Always embed frameworks for macOS, but provide link option for ObjC selector calls",2017-10-01,Closed,79,26,4,swift ,2
+"Remove CODE_SIGN_IDENTITY: """" from presets",2017-09-29,Closed,78,3,1,yml ,1
+Avoid overwriting xcconfig's value by preset's value,2017-11-03,Merged,77,34,0,,1
+No need carthage copy-frameworks for macOS app,2017-09-29,Merged,76,2,1,swift ,1
+Fix typo: dependancy => dependency,2017-09-29,Merged,75,11,11,,1
+Fixed wrong directory path for macOS,2017-09-29,Merged,74,15,7,swift ,2
+Add mint install instructions,2017-09-29,Merged,72,5,0,,0
+Fix localisation variant groups,2017-10-16,Merged,70,135,33,storyboard strings swift ,5
+Add replace syntax for Include,2017-09-25,Merged,68,40,4,swift md ,4
+Add bundleIdPrefix,2017-09-25,Merged,67,41,11,yml swift md ,6
+XCConfig files,2017-09-24,Merged,64,252,696,pbxproj ,4
+Disable sandbox when building XcodeGen for Homebrew,2017-09-23,Merged,63,2,2,md ,1
+WIP [cC]onfig => [cC]onfiguration,2017-09-29,Closed,60,249,236,yml swift ,5
+Upgrade to xcodeproj 0.1.2,2017-09-14,Merged,56,57,86,resolved swift ,4
+Fix the build issues when using the Xcode 9 GM.,2017-09-14,Closed,55,14,14,,3
+Change targets from list to map,2017-09-18,Merged,54,71,64,yml md swift ,8
+Upgrade to Swift 4,2017-09-14,Merged,52,126,77,pbxproj pins resolved swift ,8
+Filter out NSNull elements from the json dictionary.,2017-09-13,Merged,50,21,1,,1
+Add support to C and C++ files in ‘Compile sources’,2017-09-09,Merged,48,1,1,,1
+Product + Platform setting presets,2017-08-30,Merged,46,8,7,yml swift ,6
+Project attributes,2017-08-30,Merged,45,15,2,md ,2
+Project Spec includes,2017-08-30,Merged,44,111,23,yml md swift ,9
+"Fix """" not escaping in build scripts",2017-08-28,Merged,43,96,5,sh yml swift ,4
+Automatically find Info.plist,2017-08-27,Merged,40,12,0,,1
+Automatically generate carthage search paths,2017-08-27,Merged,38,48,26,md ,1
+Dependency embed options,2017-08-27,Merged,37,96,43,md ,5
+Generate multi platform targets,2017-08-26,Merged,35,118,5,md ,3
+Add option.carthageBuildPath,2017-08-25,Merged,34,107,16,md ,4
+Upgrade to xcodeproj 0.1.1,2017-08-25,Merged,33,133,109,pins swift ,5
+Add BuildScript.runOnlyWhenInstalling,2017-08-24,Merged,32,11,6,md ,3
+Correct the spelling of CocoaPods in README,2017-08-10,Merged,23,1,1,,0
+Add unit tests to target schemes,2017-08-03,Merged,21,432,60,xcscheme ,2
+Extension support,2017-08-03,Merged,19,75,50,swift ,3
+Run scripts,2017-08-02,Merged,17,292,20,sh yml swift ,7
+Homebrew support,2017-08-22,Merged,16,43,0,md ,1

@@ -1,0 +1,171 @@
+Bumping eugenmayer/unison image for native_osx too,2019-12-10,Merged,703,1,1,,1
+Unison needs to compile with ocaml 4.08.1,2019-12-03,Merged,700,7,4,,1
+Address issue #695,2019-11-23,Merged,698,1,1,,1
+Check the exit code of upgrade command and handle it appropriately,2019-11-23,Merged,693,7,3,,1
+Use ocaml 4.08.1 compiled Unison image,2019-11-02,Merged,689,1,1,,1
+Fix spelling mistakes,2019-10-08,Merged,682,5,5,,5
+Add troubleshooting docs for sync stopping,2019-08-23,Merged,672,76,47,md py rst ,6
+Added non-root installation path notes.,2019-07-26,Merged,669,19,0,,1
+Correct typo,2019-06-18,Merged,664,1,1,,1
+Update installation.rst,2019-04-22,Merged,657,3,1,,1
+[RST Doc] Fix mispelling,2019-04-05,Merged,656,1,1,,1
+remove leftover call to check_unison_image,2019-02-08,Merged,643,0,10,,1
+Fix rspec,2019-02-07,Merged,640,123,68,rb ,12
+Migrate wiki content to Read The Docs,2019-02-07,Merged,638,"2,462",0,docs/Makefile md png rst ,7
+allow to specific multiple time the sync_name when start,2019-02-25,Merged,637,9,2,,1
+brew is mac specific tools,2019-02-06,Merged,636,6,1,,1
+Fix logic for detecting brew unox installation,2019-02-05,Closed,634,10,3,,1
+WIP: Fix launching of docker-sync via Linux and WSL,2019-01-27,Merged,630,1,1,,1
+Fix exit-code,2018-11-28,Merged,622,2,2,,1
+Fixed regression of 9ffd23b,2018-10-02,Merged,606,1,1,,1
+Na wait for rsync daemon,2018-09-07,Merged,604,17,2,,1
+WIP: Provide the means to support 1-way synchronization of files from cont…,2019-02-06,Closed,602,197,1,,3
+Fix exception thrown on docker-sync stop with unison setup,2018-05-27,Merged,578,5,2,,1
+replaced &> /dev/null with 2>&1 > /dev/null,2018-05-14,Merged,577,3,3,,3
+Change image modification example,2018-03-28,Closed,563,4,4,,1
+Improve grammar,2018-03-16,Merged,549,13,13,,1
+setup native_osx and unisson to work with the same docker image,2018-03-14,Merged,544,21,5,,2
+Fix monit_enabled typo / docs mismatch,2018-03-14,Closed,543,1,1,,1
+Fix docker environment vars for unison strategy,2018-03-14,Merged,542,1,1,,1
+Foreground typo?,2018-03-07,Merged,535,1,1,,1
+Use Monit to auto restart if CPU usage high in Native OSX strategy,2018-01-24,Merged,521,18,0,rb ,2
+Fix typo.,2017-12-01,Merged,510,1,1,,1
+Fix Docker configuration detection in RSpec,2017-11-10,Merged,496,1,1,,1
+Update readme with d4m issue,2017-11-09,Closed,495,3,0,,0
+fix broken rspec,2017-11-08,Merged,490,4,4,,1
+Use pgrep for Docker for Mac detection,2018-03-11,Closed,487,2,2,,2
+"Fix sync config checks (unison, rsync, fswatch)",2017-11-01,Merged,484,4,3,,1
+Fix D4M edge strategy detection,2017-10-31,Merged,478,3,5,,2
+Fixing prefer dest,2018-03-11,Merged,475,6,5,,1
+Updating the stack start note,2017-10-20,Merged,474,1,1,,1
+Add native osx diagram,2017-10-23,Merged,465,0,1,png ,2
+Edit native_osx to support spaced directories.,2017-09-09,Merged,459,2,2,,1
+FreeBSD support using rsync mechanism,2017-09-11,Merged,458,49,2,rb ,7
+fix default host ip detection in non osx environment,2017-08-29,Merged,445,7,9,,1
+Added support for --sync-prefix to add to sync_name,2017-08-20,Closed,440,24,21,thor ,3
+unison volume mount destination,2017-07-16,Merged,433,1,1,,1
+Fix typo: enaugh -> enough.,2017-07-06,Merged,432,1,1,,1
+Print the current sync time along with the watcher's output,2017-07-06,Merged,431,15,38,rb ,5
+"Fix bug with unison with spaces in the ""prefer"" option",2017-07-06,Merged,426,3,3,,1
+Add integration tests,2017-07-11,Merged,422,381,58,rspec yml Gemfile lock md bin/console iml rb spec/fixtures/app_skeleton/Makefile c ,15
+Added .idea to .gitignore,2017-05-29,Closed,412,1,1,,1
+Fix link,2017-05-24,Merged,409,1,1,,1
+Add specs for dependencies,2017-05-29,Merged,407,700,19,rb ,16
+Change 'raise' to 'say_status' in native_osx.rb,2017-05-23,Merged,406,1,1,,1
+Fix typo related to overlays,2017-05-20,Merged,404,1,1,,1
+set max_attempt option in `@config_syncs` using value from `@config_global`,2017-05-20,Merged,403,8,1,,2
+Fix license in gemspec to be consistent with https://spdx.org/licenses/,2017-05-16,Merged,396,1,1,,1
+Release/0.4,2017-05-15,Merged,394,2,7,iml rb ,3
+Refactor preconditions,2017-05-15,Merged,391,393,508,rb ,17
+Fix a typo in operator passed to Hash#key?,2017-05-14,Merged,390,1,1,,1
+Add a development console,2017-05-13,Merged,389,25,2,lock bin/console gemspec ,4
+Fix RubyVersionMismatch error when using RVM,2017-05-11,Merged,381,6,1,,1
+Don't enforce update by default,2017-05-09,Closed,379,1,1,,1
+Wait for Unison to start before tailing its log,2017-05-07,Closed,362,22,1,,1
+Fix 'private method get_container_name' error in remotelogs watch strategy,2017-05-07,Merged,361,4,4,,1
+Fix typo in sync.thor,2017-05-07,Merged,359,1,1,,1
+Tweak: cleanup grammar,2017-05-05,Merged,352,2,2,,1
+Fix typos in deprecations warnings...,2017-05-05,Merged,338,3,3,,1
+Make preconditions more readable,2017-05-12,Closed,337,43,114,,2
+Delete idea folder,2017-05-02,Closed,327,0,124,,12
+raise error instead of failing silently when unison failed to start in time,2017-05-01,Merged,325,1,1,,1
+bugfix: undefined local variable or method `config_path' for #<Sync: **>,2017-05-01,Merged,324,1,1,,1
+Fix wrong link to upgrade guide,2017-04-27,Merged,315,1,1,,1
+bugfix: src should be expanded relative to where the config is found,2017-04-28,Merged,314,111,16,rb gitkeep ,7
+Remove unused install_pip method,2017-04-26,Closed,312,0,36,,1
+add sync strategy for native docker volume,2017-05-03,Merged,310,141,35,rb ,6
+bugfix: method_missing watch_fork on dummy & fswatch watch strategy,2017-04-26,Merged,309,11,0,,2
+bugfix on missing config_path when using fswatch as watch_strategy,2017-04-26,Merged,307,40,10,,7
+Add `max_attempt` options,2017-04-25,Merged,306,2,0,,1
+fix some typo,2017-04-25,Merged,303,4,4,,2
+"implemented precondition os based strategy, implemented brew being ma…",2017-04-24,Merged,301,418,162,VERSION gemspec iml rb ,9
+Refactor config loading process by turning config into a PORO instead of hash,2017-04-22,Merged,299,984,280,rspec Gemfile lock iml rb ,10
+Refactored pip install method and added watchdog installation to fix …,2017-04-13,Merged,295,65,16,iml rb ,3
+Return an error exit code when trying to stop a daemon which is not running,2017-04-13,Merged,294,2,3,,1
+Make docker-sync-daemon stop synchronously,2017-04-24,Merged,293,27,2,thor ,2
+add `max_attempt` options,2017-04-25,Merged,291,2,1,,1
+Updating precondition checks for unison-fsmonitor compatibility,2017-04-13,Closed,290,11,11,,2
+make name of env-file configureable,2017-03-20,Merged,274,9,3,,2
+Make 'dest' optional in sync configuration,2017-03-20,Merged,271,10,20,rb ,2
+fix: parameter config_string of interpolate_config_string,2017-03-13,Merged,270,1,1,,1
+Feature/inline configuration,2017-03-13,Merged,268,15,6,,2
+Show a warning rather than an error,2017-02-24,Merged,262,1,1,,1
+Print version even with no command (fixes #255),2017-02-22,Merged,261,13,24,,1
+Better handle an unclean stop of the daemon,2017-02-21,Merged,257,1,1,,1
+fix checking for 'default' as value for sync_prefer,2017-02-20,Merged,251,2,6,,1
+disable unison auto-detection in non osx environment,2017-02-21,Closed,250,16,6,,2
+Add docker-sync log task,2017-02-16,Merged,241,32,7,,1
+Mention the availability of daemon mode when starting in non-daemon mode (resolves #234),2017-02-15,Merged,240,7,1,,2
+docker-sync-daemon stub (resolves #235),2017-02-17,Closed,239,43,1,gemspec thor ,3
+'clean' now also removes the .docker-sync directory (resolves #232),2017-02-15,Merged,237,11,0,,1
+Rename log file to be .log (Resolves #233),2017-02-15,Merged,236,2,1,,1
+Be able to use environment variables in docker-sync.yml,2017-02-12,Merged,230,36,5,gemspec rb ,5
+"Add daemonize option to 'docker-sync start', closes #51, replaces #65",2017-02-14,Merged,229,102,69,gemspec rb thor ,5
+support passing & auto-translating prefer options to unison,2017-02-17,Merged,225,9,0,,1
+Update unison strategy to use -testserver instead of sleep,2017-02-14,Merged,224,12,2,,1
+Support arrays in compose file paths,2017-01-26,Merged,222,27,10,,1
+"Fix typo, condiguration => configuration",2017-01-17,Merged,215,1,1,,1
+Change docker-compose req to '~> 1.0.2' in gemspec,2016-12-15,Closed,197,1,1,,1
+Fix the 'compose-force-build' global option,2016-12-12,Merged,196,2,2,,1
+change error message on use of sync_group for unison strategy issue #193,2016-12-08,Merged,194,1,1,,1
+Preserve forward slash in sync src after expanding path,2016-12-01,Merged,188,8,3,,1
+Rsync single file,2016-12-02,Merged,179,16,2,,1
+Capitalize lowercased letter,2016-11-22,Merged,178,1,1,,1
+remove rsync trailing slash in command args,2016-11-15,Merged,173,2,2,rb ,2
+Add y/N choice message,2016-11-11,Merged,171,2,2,,2
+simplify check for new images,2016-11-07,Merged,168,34,19,,1
+Don't hardcode the path for sed - e.g. sed is in /bin on most Linux systems,2016-11-15,Merged,166,2,1,,1
+Fix typo in command output,2016-11-01,Merged,165,2,2,,2
+Capitalize Docker word,2016-10-15,Merged,158,4,4,,1
+Typo fixes,2016-10-05,Merged,154,3,3,,1
+configuration to pass --build flag to `docker-compose up`,2016-09-22,Merged,141,12,8,gemspec rb ,3
+Update README.md,2016-09-12,Merged,140,1,1,,0
+Support configuring rsync allowed hosts and copying symlinks,2016-10-04,Closed,139,14,2,rb ,2
+"do no longer use localhost, use 127.0.0.1 instead",2016-08-30,Merged,134,4,4,rb ,2
+Feature/unison better path ignore,2016-08-30,Merged,132,55,34,rb ,3
+fix container detection,2016-08-30,Merged,129,6,6,,3
+[TASK] Add GPL v3 license file,2016-08-20,Merged,123,674,0,,0
+[TASK] Unison: fix & improve documentation example,2016-08-30,Merged,122,18,2,,1
+[BUGFIX] Use sync_host_ip for docker run command,2016-08-20,Merged,121,1,1,,1
+Specify gemspec in Gemfile,2016-08-17,Merged,113,13,12,lock ,2
+[BUGFIX] Unison output not displayed on initial sync #109,2016-08-20,Merged,110,1,0,,1
+[BUGFIX #103] Unison reports too many roots,2016-08-09,Merged,104,1,1,,1
+"implemented upgrade checks hooks, inform user about the unison rename…",2016-08-09,Merged,102,72,1,thor ,3
+[TASK] Update warning message about unox,2016-08-09,Closed,101,1,1,,1
+[BUGFIX] Unison doesn't check for notify_terminal,2016-08-09,Merged,100,3,1,,1
+[BUGFIX] Missing unox requirement,2016-08-09,Merged,96,2,1,,1
+[BUGFIX] osx vanilla sed doesn't support the -r option,2016-08-09,Merged,95,1,1,,1
+[FEATURE #84] Pass the timezone of host as env var,2016-08-02,Merged,89,3,2,,3
+[BUGFIX #87] Container may fails to start,2016-08-02,Merged,88,6,7,,3
+remove unison-dualiside #78,2016-08-01,Merged,82,1,230,rb ,5
+"rename unison to unison-onesided, #75",2016-08-01,Merged,81,18,10,rb ,4
+"refactor Docker_Rsync to Docker_sync, will break scaffolding though!",2016-08-01,Merged,67,7,7,thor ,3
+"implemented cli-mode selection, important for dev but also when using…",2016-07-25,Merged,66,43,24,sh iml yml rb ,7
+"Add daemonize option to 'docker-sync start', closes #51",2017-02-12,Closed,65,71,67,gemspec thor ,3
+Unison dual-sync feature `unox` for efficient syncing and with user/id mapping,2016-08-02,Merged,64,351,13,txt yml rb ,8
+Add terminal-notifier in order to notify when synced,2016-07-21,Merged,63,22,1,Gemfile lock gemspec yml rb ,8
+[BUGFIX] Bad phrase about initial sync,2016-07-17,Merged,62,2,2,,2
+[FEATURE] Add project-name like -p option of docker-compose,2016-07-16,Closed,61,48,11,iml yml rb ,7
+Add a Gitter chat badge to README.md,2016-07-15,Merged,59,3,0,,0
+[TASK] Reduce unison verbosity and enable for dual,2016-07-15,Merged,58,2,2,,2
+[FEATURE] Start / wtop watch from sync_manager,2016-07-15,Merged,57,12,0,,1
+[BUGFIX] Relative path should be from config file,2016-07-15,Merged,55,1,1,,1
+[BUGFIX] strategy needs next version of unison,2016-07-15,Merged,54,1,1,,1
+"fix the symlink fix, since the filname of Thorfile",2016-07-15,Merged,52,2,0,bin/docker-sync-stack ,2
+Strategy unison-dualside with container events,2016-07-14,Merged,50,254,1,sh txt yml rb ,7
+Feature unison fsevents,2016-07-14,Closed,47,64,6,yml rb ,3
+[FEATURE] Watch only useful events,2016-07-13,Merged,46,2,0,,1
+[BUGFIX] #44 Fails whan docker-sync is symlinked,2016-07-13,Merged,45,7,4,bin/docker-sync-stack ,2
+Feature/new unison image based on alpine,2016-07-12,Merged,38,9,10,rb ,2
+Feature: compose stack support,2016-07-10,Merged,27,203,22,lock Thorfile VERSION bin/docker-sync bin/docker-sync-stack gemspec iml rb sh thor ,16
+[TASK] Unison Remove outdated warn about excludes,2016-07-10,Merged,22,0,1,,1
+Unison > option to map uid from host,2016-07-13,Closed,21,5,1,,1
+[FEATURE] unison > sync uid/gid numerically,2016-07-10,Closed,19,3,0,,1
+[FEATURE] Unison excludes,2016-07-10,Merged,18,1,2,,1
+Feature/container name suffix,2016-07-10,Merged,17,81,50,rb ,2
+Feature/update checker,2016-07-10,Merged,16,327,247,Gemfile lock md Thorfile bin/docker-sync gemspec iml rb thor version ,11
+[FEATURE #14] Adds more verbosity to unison,2016-07-10,Merged,15,1,0,,1
+Issue #11,2016-07-09,Merged,12,5,5,,1
+[BUGFIX #9] fails to start with verbose option,2016-07-09,Merged,10,5,5,,1
+[BUGFIX #4] Start fails with error,2016-07-09,Merged,7,2,0,,2
+[BUGFIX #4] Start fails with error,2016-07-09,Closed,6,2,0,,2

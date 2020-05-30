@@ -1,0 +1,156 @@
+Adding commit range feature via 'commit-to' and 'commit-from' options,2020-01-11,Merged,317,285,42,go mod sum json ,9
+adding docker push support again to Make and fixed a go vet nit,2019-12-24,Merged,313,45,40,Makefile go ,3
+Add support for PKCS8 key,2019-12-08,Merged,307,1,1,,1
+Limit leak len,2019-12-04,Merged,305,11,8,json ,3
+fix typo,2019-12-04,Merged,304,1,1,,0
+Adding baseurl flag to allow self-hosted GitLab/GitHub servers,2019-12-05,Merged,303,28,8,,4
+Update default whitelist to include gitleaks.toml,2019-11-30,Merged,302,2,2,,1
+Fix repo-config and file whitelist for AuditUncommitted function,2019-11-30,Merged,301,47,15,json ,2
+Updating generic credentials regex,2019-11-29,Closed,297,46,7,json ,5
+Update asymmetric private key regex,2019-11-30,Merged,296,3,3,,1
+Adding regex for SendGrid API keys,2019-11-30,Merged,295,5,0,,1
+travis env vars,2019-11-23,Closed,291,5,0,,1
+travis env vars,2019-11-23,Closed,290,5,0,,1
+"recover on panic in patch generation, full filepath for report, versi…",2019-11-23,Merged,289,75,48,,9
+Bump golang and alpine to latest,2019-11-17,Merged,287,5,7,Dockerfile mod ,3
+V3.0.1,2019-11-17,Merged,286,362,505,go ,4
+metadata sync,2019-11-15,Merged,285,5,0,,1
+V3,2019-11-14,Merged,281,"4,356","4,223",yml md Dockerfile ,3
+"feat/report-writer: supporting AWS S3 and syslog, and multiple report outputs",2019-11-10,Closed,278,258,51,Makefile md mod sum go ,5
+feat(repo-config): do not fail if no repo-config is available,2019-09-08,Merged,262,1,1,,1
+fix(repo-config): avoid SIGSEGV if there is no .gitleaks.toml,2019-09-08,Merged,261,1,1,,1
+fix(gitleaks.toml): LinkedIn had a Twitter tag,2019-08-14,Merged,249,4,4,go ,2
+Regex whitelist example in sample config,2019-08-02,Merged,246,3,0,,1
+Return exit code 1 when leaks are found,2019-08-01,Merged,244,7,1,,1
+constants.go(enhance): added an enhancement to include apikey without…,2019-07-16,Merged,241,1,1,,1
+Code cleaning,2019-07-10,Merged,240,239,195,sum go ,7
+Fix updating config from repo-config,2019-07-09,Merged,239,1,1,,1
+Multiple new features (see Description),2019-07-30,Closed,238,273,38,sum go ,7
+Implemented right way to scan for files in a commit (by using --commit),2019-07-09,Merged,236,78,0,,1
+Add new default rules,2019-06-18,Merged,231,268,15,go ,2
+Fixed Windows output to be consistent with Linux output (colors),2019-07-09,Merged,230,14,1,mod sum go ,4
+Adapt test message to run tests in Windows,2019-06-02,Merged,226,11,2,,1
+"Solved bug on error being overwritten and not passed to postAudit, closes #223",2019-06-02,Merged,224,22,13,,4
+Modify single commit audit,2019-05-28,Merged,222,17,10,,1
+Fix logging of repo paths,2019-05-06,Merged,204,2,2,,1
+Add more examples and improve README structure,2019-04-30,Merged,202,89,21,,0
+Update README - formatting fixes,2019-04-19,Merged,198,2,2,,0
+V2.0.0,2019-04-17,Merged,196,451,368,md Makefile toml go ,4
+Regex for AWS Secret Keys + minor fixes,2019-05-28,Closed,191,32,23,go ,2
+Bug/single commit,2019-03-30,Merged,190,11,5,go ,1
+Debt/breakout,2019-03-30,Merged,189,"1,502","366,838",md Dockerfile lock toml Makefile ,5
+Feature/gitlab token support,2019-08-01,Merged,184,23,1,go sum ,2
+Single commit,2019-02-07,Merged,179,"1,523",417,lock toml go yml v4/LICENSE ,7
+Fix for the github default regex,2019-01-14,Closed,176,1,1,,1
+"Revert ""Add support for scanning single branch""",2019-01-13,Merged,174,3,41,,3
+Repo config,2019-01-06,Merged,172,55,6,go ,3
+fix memory issue when writing json report (#168),2019-01-06,Merged,171,35,2,,1
+Fix typo in recovery message,2019-01-04,Merged,170,1,1,,1
+Add support for scanning single branch,2019-01-13,Merged,169,41,3,,3
+Adding Stripe API Regex,2018-12-27,Merged,166,3,0,,1
+Write report only when leaks are found,2018-12-27,Merged,165,4,0,,1
+fix file (#162) & line (#161) whitelist checks,2019-01-01,Merged,163,51,24,,2
+Reduce noise when running entropy checks,2018-12-10,Merged,159,106,44,go ,2
+Change redacted behaviour on the line information,2018-11-30,Merged,158,1,1,,1
+Add commit date to Github PRs checks,2018-11-30,Merged,157,1,0,,1
+Fix releases link in readme,2018-11-26,Merged,153,1,1,,0
+Fix Github PR checks error,2018-11-29,Merged,152,13,0,,2
+Add support for tokens,2018-11-18,Merged,151,24,2,go ,1
+Fix files whitelisting when checking Github PRs,2018-11-18,Merged,149,27,13,,2
+"bumping version, format, changelog, uhhhhhh, test... a single test",2018-11-13,Merged,148,22,11,go ,3
+fixing commit count,2018-11-08,Merged,147,31,13,go ,2
+Fix/first commit,2018-11-07,Merged,146,57,11,go ,2
+Remove break lines in commit messages,2018-11-06,Merged,145,1,1,,1
+readding default whitelist,2018-11-06,Merged,144,8,1,go ,1
+removing branch from report,2018-11-03,Merged,141,13,18,,2
+Feature/default all,2018-11-03,Merged,140,49,296,go ,1
+Add commit date to leaks,2018-10-28,Merged,135,17,11,,2
+Fix/threads,2018-10-28,Merged,134,42,30,go ,2
+fix slack token format,2018-10-27,Merged,133,2,2,go ,2
+Feature/default regex,2018-10-26,Merged,131,31,22,go ,2
+Add slack token,2018-10-26,Merged,130,3,0,,1
+Add PGP header,2018-10-26,Merged,129,3,0,,1
+Telegram bot API token,2018-10-26,Merged,128,3,0,,1
+fixing default ssh logic,2018-10-25,Merged,127,16,2,go ,1
+Fix/concurrency,2018-10-24,Merged,126,73,149,go ,2
+Fix typos in docs,2018-10-24,Merged,125,11,11,,0
+whitelist repo update,2018-10-23,Merged,123,29,12,go ,3
+entropy ranges,2018-10-22,Merged,122,128,14,go ,2
+Added Telegram Bot Token,2019-10-28,Closed,121,3,0,,1
+115 gitlab,2018-11-13,Merged,120,"18,592",7,lock toml md go yml ,7
+Feature/GitHub pr,2018-10-20,Merged,118,328,217,go ,2
+Update help option,2018-10-17,Merged,117,19,3,go ,1
+Documentation enhancements,2018-10-21,Merged,116,65,11,,0
+"report filetype enforcement, time to audit",2018-10-12,Merged,114,456,20,lock Makefile go gitignore yml com/hako/durafmt/LICENSE ,7
+Validate --report option,2018-10-13,Closed,113,31,1,go ,2
+look at prev commit too,2018-10-10,Merged,112,10,6,,2
+rm commit count log,2018-10-10,Merged,111,6,6,go ,1
+Depth,2018-10-10,Merged,109,48,46,go ,2
+Fix commit option,2018-10-09,Merged,108,10,0,,2
+Add option to check string entropy,2018-10-09,Merged,107,89,26,go ,2
+exclude fork,2018-10-07,Merged,106,19,2,go ,2
+Wlrepo,2018-10-07,Merged,105,88,10,go ,2
+Comments,2018-10-07,Merged,104,227,278,toml go ,2
+Resource fix,2018-10-04,Merged,103,1,1,,1
+Resource fix,2018-10-04,Merged,102,35,34,go ,2
+fixing audit repo bug,2018-10-02,Merged,101,36,6,go ,2
+Exitcode,2018-10-02,Merged,100,135,42,go ,2
+panic plan,2018-10-02,Merged,99,13,7,go ,1
+Max go,2018-10-02,Merged,98,214,25,Makefile go ,3
+Csv,2018-09-30,Merged,96,223,213,go ,1
+Single commit repo,2018-09-26,Merged,95,"27,520","3,825",lock toml go ,3
+Fix string formatting directive,2018-09-30,Closed,94,2,18,go ,2
+"test branch opt, bump changelog",2018-09-13,Merged,91,21,1,go ,2
+Fixes,2018-10-06,Closed,89,51,47,,2
+Added Support for branches,2018-09-12,Merged,88,16,0,,1
+Update description to reflect regex,2018-08-22,Merged,87,2,2,,1
+Patch err check,2018-08-11,Merged,86,16,3,go ,1
+GitHub Enterprise support + improved error handling. Fixes #84,2018-08-10,Merged,85,55,14,go ,2
+Update repo.go,2018-08-11,Closed,82,0,4,,1
+Opt version,2018-07-23,Merged,80,60,1,Makefile go ,2
+"Updating Makefile, making in-memory default, adding disk option",2018-07-21,Merged,78,41,40,md go ,3
+Twitter typo,2018-07-21,Merged,77,1,1,,1
+Update Go docker version,2018-07-21,Merged,76,1,1,,1
+Gitleaksv1,2018-07-21,Merged,75,"143,358","17,136",lock toml ,3
+Gitleaksv1,2018-07-18,Closed,74,"143,123","17,116",lock toml ,3
+Gitleaks Rewrite,2018-07-17,Closed,73,"1,403","197,299",Dockerfile lock toml ,4
+env vars strike again,2018-05-11,Merged,68,1,1,,1
+need docker service...whoops,2018-05-11,Merged,67,3,0,,1
+let travis handle docker builds,2018-05-11,Merged,66,20,5,,1
+Feature/build script,2018-03-12,Merged,61,82,83,sh go ,8
+external repo file support,2018-03-10,Merged,57,96,15,go ,5
+Deps,2018-03-05,Merged,56,"150,741",187,toml gitignore com/boltdb/bolt/LICENSE com/boltdb/bolt/Makefile ,5
+Feature/usability,2018-03-05,Merged,55,"1,006",550,go ,2
+Adding DSA key check to regex list,2018-03-04,Merged,54,1,0,,1
+Fix unintentional values in character classes,2018-03-02,Merged,53,4,4,,1
+Update Dockerfile,2018-03-01,Merged,51,5,18,,1
+Develop,2018-02-25,Merged,48,"45,208",206,lock toml go ,4
+Make stopwords lowercase,2018-02-25,Merged,47,4,2,,2
+Simplify the stopwords check,2018-02-25,Closed,46,2,3,,2
+#35 Add GCP service account key check: PKCS8,2018-02-25,Merged,45,1,0,,1
+Case insensitive regex matching,2018-02-25,Merged,42,5,5,,1
+Exit 1 if leaks found,2018-03-07,Closed,41,33,18,,2
+"fix typo of ""unknown""",2018-02-25,Merged,40,1,1,,1
+Since commit,2018-02-24,Merged,39,36,26,go ,2
+Add files via upload,2018-02-23,Closed,38,0,0,,1
+fix alignment of -e entropy flag,2018-05-13,Closed,36,1,1,,1
+reduce docker image size,2018-02-23,Merged,34,15,6,,1
+Conf yaml,2018-02-23,Merged,33,"9,804",95,toml go yml ,7
+Remove `|` characters from character classes,2018-02-25,Closed,32,8,7,,2
+"supporting private repos... again, removing go-git and deps",2018-02-22,Merged,31,2,"94,490",toml go com/jbenet/go-context/LICENSE gitignore yml txt ,7
+Update README.md,2018-02-22,Merged,29,3,3,,0
+Added pagination for users and orgs that have more than 30 repositories,2018-02-25,Closed,28,55,5,go ,3
+Added support for docker,2018-02-22,Merged,26,31,0,md ,1
+Use GOs flag package for command line parsing,2018-05-13,Closed,24,82,127,go ,3
+Scan local repos,2018-03-07,Closed,23,61,26,go ,3
+use go-git for cloning,2018-02-22,Merged,20,7,2,,1
+corrected mistake to match usage section,2018-02-20,Merged,17,1,1,,0
+Create LICENSE 📄,2018-02-20,Merged,16,674,0,,0
+Stopwords,2018-02-20,Merged,13,144,"2,002",toml md go ,6
+default conc limit too high... whoops,2018-02-19,Merged,12,8,1,,1
+Org user scan,2018-02-19,Merged,11,109,14,,3
+travis yaml,2018-02-17,Merged,10,9,0,md ,1
+Code cleanup and badges,2018-02-17,Merged,9,32,31,go ,5
+Generate the local repoName,2018-02-15,Merged,5,66,1,,2
+Lint Markdown and Go Dep,2018-02-09,Merged,3,"1,965",16,toml md gitignore txt go ,6
+Dev/concurrency,2018-02-03,Merged,1,160,164,,4

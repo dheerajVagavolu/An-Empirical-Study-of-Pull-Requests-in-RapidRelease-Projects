@@ -1,0 +1,372 @@
+Possibility to use another row columns (attributes) in rules,2019-12-13,Closed,2487,6,4,,2
+Add Events Import BeforeRead and AfterRead,2019-11-06,Closed,2443,338,27,php ,8
+Add Events Import BeforeRead and AfterRead,2019-11-05,Closed,2442,338,24,php ,8
+Patch 1,2019-11-04,Closed,2439,"1,700",21,,1
+Add brand new logo to the project,2019-10-31,Merged,2435,20,14,png ,1
+Do not error when trying to delete nonexistent temp file,2019-11-01,Merged,2434,4,0,,1
+Make export object public,2019-10-24,Merged,2422,1,1,,1
+Support for Laravel 6 job middleware,2019-10-24,Merged,2420,40,0,,4
+Events BeforeImport AfterImport getDelegate(),2019-10-25,Closed,2417,2,2,,2
+Limit WithProgressBar output to one per batch,2019-10-24,Merged,2414,11,8,,1
+Review the BeforeImport Behaviour + buildSheetImports function review.,2019-10-20,Closed,2411,130,3,,3
+Change File Type Detector,2019-10-25,Closed,2404,92,4,,1
+Refactor chunked queued exports from queries,2019-10-24,Merged,2402,27,169,php ,4
+import file with calculated value from an external file that doesn't exist don't crash,2019-10-10,Merged,2396,40,1,gitignore xls ,4
+Update ignored files in .gitattributes,2019-10-10,Merged,2395,1,2,,1
+Added `FromGenerator` support,2019-10-11,Merged,2394,65,0,,3
+Move beforeImport call up,2019-10-25,Closed,2389,2,2,,1
+Cleanup file creation to prevent wrong asserts,2019-10-10,Merged,2378,44,8,,2
+[2.1.x] Enabling Laravel 6,2019-09-18,Closed,2374,16,13,php ,4
+Add support for WithValidation with OnEachRow,2019-12-24,Merged,2371,80,16,,2
+Make installable on Laravel 6,2019-09-04,Merged,2353,1,1,,1
+Fix formatting of README,2019-09-04,Merged,2350,1,1,,0
+Header slug count,2019-09-16,Closed,2343,8,2,,1
+Update composer.json,2019-08-30,Closed,2340,1,2,,1
+Change local temporary file readStream method to fix issus with s3,2019-08-21,Closed,2325,1,1,,1
+Assert filepath by regex,2019-07-16,Merged,2279,82,4,,3
+Bugfix/remove support for import line ending,2019-06-21,Merged,2261,3,4,,1
+Ensure that opis always has the same security provider,2019-06-19,Merged,2257,18,1,php ,3
+4,2019-06-18,Closed,2256,763,764,php ,34
+Add original file extension to temporary filename,2019-06-19,Merged,2224,49,7,gitignore csv ,5
+fix spacing,2019-05-29,Merged,2213,4,4,,1
+Feat queue view export,2019-06-19,Merged,2203,216,3,,5
+Fix blank sheets from queue export (#1795),2019-05-08,Closed,2179,1,1,,1
+Update PHP documentation of Excel facade to match the Maatwebsite\Excel\Excel class methods,2019-04-27,Merged,2178,3,3,,1
+"Only open file in read-mode, because it's only going to be read.",2019-04-25,Merged,2175,2,2,,1
+Make download headers customizable,2019-04-17,Merged,2162,33,6,,5
+Fix storeExcel withHeading macro option,2019-04-15,Merged,2148,26,1,,2
+Add setting for cell caching + implemented a batch caching,2019-03-07,Merged,2084,939,81,,3
+Closure RowValidation,2019-02-23,Closed,2074,"3,524",427,yml json php ,5
+Shared disk,2019-02-25,Closed,2073,"1,064",717,,3
+Change address,2019-02-22,Merged,2067,3,3,,0
+Change address,2019-02-22,Merged,2066,2,2,,0
+Change address,2019-02-22,Merged,2065,3,3,,0
+Add support for remote temp file location for queued chunk reading,2019-02-22,Merged,2063,382,148,,5
+Allow passing of options to disk,2019-02-20,Merged,2060,20,14,,4
+Handle array of array returned from map function for queued exports,2019-02-14,Merged,2038,121,2,,3
+Import events with chunk reading,2019-04-25,Closed,2027,299,1,,8
+Check if row is array of array then add data accordingly. My case is …,2019-02-14,Closed,2026,7,1,,1
+Updated support for version 3.0 on readme,2019-01-30,Merged,2023,1,1,,0
+Skips on failure,2019-01-30,Merged,2014,357,42,,6
+Serialized quey eager loads,2019-01-25,Merged,2013,208,9,gitignore xlsx ,11
+This should fix #1904 - do not try to execute chunkRead job if spreadsh…,2019-01-25,Merged,2010,6,0,,1
+Add support for fake file to accept an UploadedFile object;,2019-01-25,Merged,2008,16,8,,1
+add exception for cases where a file extension is provided which is n…,2019-01-21,Closed,2005,52,1,,3
+Link to docs on com domain 21,2019-02-14,Closed,1950,"2,424","2,129",php ,2
+LE-21 Change laravel-excel.maatwebsite.nl to laravel-excel.maatwebsit…,2019-02-14,Closed,1949,13,13,yml ,1
+LE-21 Change laravel-excel.maatwebsite.nl to laravel-excel.maatwebsit…,2019-02-14,Closed,1948,15,15,yml ,1
+Don't alter the fetchMode,2019-01-21,Merged,1925,0,6,,1
+Fix heading not being exported when using  queue,2019-01-25,Closed,1922,5,2,,1
+allow type to be null,2019-01-25,Merged,1909,10,2,,2
+Made conditional sheets import possible,2019-01-30,Closed,1892,22,21,,12
+Fixed formulas calculation when reading files and using toArray or to…,2018-11-12,Merged,1884,7,4,,1
+Fix typo in ImportMakeCommand.php,2018-11-07,Merged,1877,2,2,,1
+TmpFile must have ext for tsv or more.,2019-01-30,Closed,1874,9,3,,1
+Add export disable formula pre-calculation support (fix #1803),2018-11-01,Merged,1866,10,0,,2
+"Add ""afterImport"" event to events.",2018-11-01,Merged,1855,82,3,,5
+Make database transaction optional,2018-10-22,Closed,1846,104,16,,3
+set ValueBinder in ReadChunk as needed,2018-10-14,Merged,1831,10,4,,2
+Add WithValidation Concern,2018-11-01,Merged,1830,827,67,,8
+Start the progress bar from $startRow,2018-10-12,Closed,1829,1,0,,1
+Specify versions for Illuminate/Support,2018-10-03,Merged,1815,1,1,,1
+Fixed typo,2018-10-03,Merged,1814,1,1,,0
+Update README.md,2018-10-03,Merged,1813,2,2,,0
+Update README.md,2018-09-20,Merged,1798,1,1,,0
+added ExtractHeadings concern,2018-09-26,Merged,1797,99,5,gitignore xlsx ,8
+Fix for export class path,2018-09-08,Merged,1784,1,1,,0
+Allow Laravel 5.7.x releases,2018-09-04,Merged,1780,4,4,,1
+Fix: NonEnglish garbled,2018-08-29,Merged,1774,7,1,,1
+use setDefaultValueBinder,2018-09-11,Merged,1755,11,1,,1
+WithCustomValueBinder  and MapsCsvSettings,2018-08-07,Merged,1750,172,48,,6
+Develop,2018-08-06,Closed,1749,797,46,php ,1
+update phpdoc block to avoid phpstan error,2018-08-05,Merged,1732,1,1,,1
+Update sheet-properties.md (#1),2018-07-10,Merged,1719,6,4,,0
+Handle array of array returned from map function. This is usefull for…,2018-07-05,Merged,1711,5,1,,1
+Modify doc export macroable example text for better understanding,2018-06-26,Merged,1702,10,4,,0
+Update extending.md,2018-06-07,Merged,1692,1,1,,0
+New concern with count,2018-06-12,Merged,1682,243,8,json md php ,10
+change database testing to sqlite,2018-05-25,Closed,1670,4,12,php ,2
+Added Auto size documentation,2018-05-24,Merged,1660,15,0,,0
+2.1,2018-05-09,Merged,1656,29,9,,2
+Improve doc examples adding namespaces,2018-05-03,Merged,1648,82,1,,0
+Set filename for the demo,2018-04-23,Merged,1632,1,1,,0
+Update installation.md,2018-04-07,Merged,1604,2,2,,0
+Add WithStrictNullComparisons Concern,2018-04-05,Merged,1600,82,5,php ,4
+Added missing bracket close to documentation,2018-04-04,Merged,1599,2,2,,0
+Adding withHeadings to DownloadCollection and StoreCollection,2018-04-03,Merged,1593,146,6,,4
+Fix csv.use_bom option doesn't take effect,2018-03-29,Merged,1592,1,0,,1
+[WIP] Fix Multiple Sheet Exports With Views,2018-04-03,Merged,1590,204,1,,4
+Edited documentation file extending.md,2018-03-27,Closed,1587,2,2,,0
+Edited documentation and Github templates for typos and grammar.,2018-03-23,Merged,1578,59,51,,0
+Laravel 5.5,2018-03-18,Merged,1572,33,34,md json php ,3
+Small updates to installation.md,2018-03-16,Merged,1568,3,3,,0
+Link on Contributing page,2018-03-14,Merged,1564,3,3,,0
+Documentation improvements for 3.0,2018-03-14,Merged,1563,19,19,,0
+fix type hinting,2018-03-09,Merged,1558,1,1,,1
+modified assertions to allow for a user supplied callback,2018-03-09,Merged,1557,192,44,,4
+Added ability to fake excel,2018-03-08,Merged,1555,84,6,,6
+ChunkedReadJob memory leak issue fix,2018-03-05,Merged,1545,1,1,,1
+Fixed typehint of object to generic,2018-02-27,Merged,1542,8,8,,3
+Using namespace to identify class inside facade,2018-02-08,Closed,1520,2,2,,1
+Update composer.json,2018-02-17,Closed,1517,1,1,,1
+phpexcel is deprecated Issue #1509,2018-02-17,Closed,1510,"1,313","1,196",,1
+change de phpexcel a phpspreadsheet,2018-01-30,Closed,1507,575,583,php ,4
+adding header not on first line,2018-01-30,Merged,1502,26,1,,2
+Simplify returns,2018-01-30,Merged,1491,3,6,,2
+fix for bug where count is used without variable being countable: #1465,2018-01-10,Merged,1469,1,1,,1
+Fix for bug where count is used without variable being countable: #1465,2018-01-10,Merged,1468,1,1,,1
+bugfix/ioc-container-bindings,2017-12-19,Merged,1462,4,2,,1
+Support for file streams,2017-12-19,Merged,1461,1,1,,1
+trim & lower before md5() will be better,2017-12-15,Merged,1458,5,1,,2
+Refactoring tests,2017-12-08,Merged,1454,49,49,,12
+remove duplicate style when merge cell,2018-02-25,Closed,1453,1,12,,1
+Test against PHP 7.2,2017-12-08,Merged,1448,1,0,,1
+Adds array to return type,2017-12-08,Merged,1445,1,1,,1
+Issue when version of laravel are less than 5.2,2018-02-05,Closed,1439,16,9,,1
+none,2017-11-13,Closed,1428,9,1,,1
+Changes to Document L5.5 Auto-Discovery,2017-11-15,Merged,1419,4,2,,0
+Updated to Mockery 1,2017-11-15,Merged,1418,1,1,,1
+Update phpoffice/phpexcel deps to upper version,2017-10-20,Merged,1390,1,1,,1
+Make sheet() function accept any callable not just functions,2017-10-10,Merged,1388,1,1,,1
+Fixed the typo for the return-type of `ignoreEmpty` method in the ann…,2017-09-30,Merged,1380,1,1,,1
+Add export macro to collection,2017-09-19,Merged,1351,11,0,,1
+Fix $sheet->with(['foo' => 'bar']) not passing data to view,2017-09-19,Merged,1344,20,0,,3
+Fix frequently error due to value starting with equal sign,2017-08-31,Closed,1318,7,1,,1
+Update installation.md,2017-08-16,Merged,1314,2,2,,0
+Update config.md,2017-08-16,Merged,1313,1,1,,0
+typo,2017-08-16,Merged,1310,1,1,,1
+Adding ext-zip to requirements,2017-07-26,Merged,1290,1,0,,1
+Adding orchestral/testbench 3.2/3.3/3.4/3.5 versions,2017-07-26,Merged,1289,1,1,,1
+$cell->setUrl($url);,2017-07-26,Merged,1288,31,16,,1
+Add delimiter as 4th parameter for chunk method,2018-02-25,Closed,1284,10,2,,1
+Throwing a LaravelExcelException when no active sheet,2017-07-26,Merged,1282,5,0,,1
+Fix to prevent blank spreadsheets,2018-02-05,Merged,1277,2,2,,1
+Catch invalid date value ErrorException and return NULL,2017-07-26,Merged,1269,9,2,,1
+Corrected default storage path,2017-07-11,Merged,1267,2,2,,0
+[Fix] Issue #1261 - insertImageBySrc URL Decode image path,2017-07-02,Merged,1262,4,4,,1
+Support Laravel 5.5,2017-07-26,Merged,1259,8,8,,1
+Change recommended mpdf version to 6.1,2017-06-29,Merged,1257,2,2,,0
+Create CODE_OF_CONDUCT.md,2017-06-24,Merged,1253,46,0,,0
+[Fix] Fixed HtmlReader to align images correctly when inserted using insertImageBySrc,2017-06-29,Merged,1252,3,3,,1
+Add heading getter/setter to RowCollection,2017-06-21,Merged,1247,27,1,,2
+Remove take from first(),2017-06-21,Merged,1246,1,1,,1
+Support Auto-Discovery,2017-06-15,Merged,1240,11,1,,1
+Update HtmlReader.php,2018-03-20,Closed,1184,11,0,,1
+Fix setSize doc,2017-04-23,Merged,1176,3,3,,0
+Add PHP 7.1 to build script,2017-04-17,Merged,1166,1,0,,1
+Example from docs is incorrect,2017-04-12,Merged,1164,2,5,,0
+Config utf-8 BOM for csv format,2017-04-17,Merged,1157,12,2,,2
+Enabling chunk file without header,2018-02-25,Merged,1154,2,2,,1
+Update README.md,2017-04-05,Closed,1153,1,1,,0
+Fix markdown syntax in README.md,2017-03-31,Merged,1145,1,1,,0
+XLSX extension missing,2017-03-28,Merged,1138,1,1,,1
+Update to ExcelParser,2017-03-27,Merged,1131,1,1,,1
+Check for valid file extension (for 1.3),2017-03-25,Closed,1130,365,112,md php ,8
+Check for valid file extension,2017-03-27,Merged,1129,90,2,,2
+#1097 - Fix array columns target,2017-03-24,Merged,1128,32,5,,1
+Update CellCollection.php,2017-04-04,Closed,1118,1,1,,1
+Refactoring source array parsing methods.,2017-03-23,Merged,1110,90,60,php ,2
+Import Excel with Boolean Values,2017-03-23,Closed,1106,628,508,json md php ,4
+#1097 - Limit reading columns in the file,2017-03-23,Merged,1099,250,27,php ,3
+Add setTextRotation to the CellWriter of v1.3,2017-02-28,Merged,1098,11,0,,1
+require jeremeamia/superclosure,2017-02-21,Merged,1092,1,0,,1
+Check if any sheets have been added,2017-02-10,Merged,1083,14,0,,2
+Support laravel 5.4,2017-01-20,Merged,1057,8,8,,1
+Preserve active sheet index when calling store(),2017-01-17,Merged,1052,6,0,,1
+Fix for issue #834 Can't Generate ods file,2017-03-13,Closed,1050,"3,028","2,848",md gitignore php_cs cache yml json ,6
+Fix missing method,2017-01-17,Merged,1049,8,8,,1
+Update ExcelParser.php,2017-01-09,Merged,1047,1,0,,1
+Array conversion: array() to [],2017-01-07,Merged,1040,279,279,,8
+Fix line_ending configuration call,2016-12-31,Merged,1039,1,1,,1
+Phpdoc updated.,2016-12-29,Merged,1037,2,2,,1
+Phpdoc updated.,2016-12-29,Merged,1036,2,1,,1
+fix bug of rowspan and colspan,2017-03-13,Closed,1028,"2,452","2,645",cache json ,3
+1020: Fixed Illegal Offset in HtmlReader.php,2016-12-12,Merged,1022,49,39,,1
+custom seperators veriable added,2017-04-04,Closed,1016,13,1,,2
+Solved problem with rowspan (#917),2018-02-25,Closed,1001,35,10,php ,3
+Improve Lumen Support,2016-12-09,Merged,993,106,78,,8
+Ability to set the active sheet index upon export,2016-11-30,Merged,987,12,0,,1
+column name could be empty,2016-11-12,Closed,985,4,1,,1
+"Fix borders for merged cell, for all write methods",2016-10-18,Merged,967,11,11,,1
+Update CellWriter.php,2016-10-15,Merged,963,1,1,,1
+Update css-to-inline-styles package to ~2.0,2016-10-15,Merged,959,4,12,php ,2
+Fix first column gets key 1 instead of 0,2016-09-26,Merged,946,25,11,,3
+Add option for defining job queue name on chunk(),2016-09-22,Merged,940,17,5,md php ,3
+Correct app alias from 'excel' to 'phpexcel',2016-09-15,Merged,932,1,1,,1
+jkjhjjkhjk  1.1,2016-09-01,Closed,915,7,7,,5
+Add .gitattributes file,2016-08-28,Merged,896,9,0,,1
+Removed interface deprecated in laravel 5.2,2016-08-28,Merged,894,1,2,,1
+Fixed double blockquote,2016-08-28,Merged,889,1,1,,0
+Fix heading generation when default overridden in settings.,2016-08-08,Merged,875,4,4,,1
+Update requirements for Laravel 5.3,2016-08-02,Merged,872,8,8,,1
+Fix heading generation,2016-08-02,Closed,871,4,4,,1
+Fix issue with objects used as array indices,2016-07-27,Merged,865,1,1,,1
+Add cell setValue method to docs,2016-07-27,Merged,864,1,0,,0
+set use bom for csv file,2016-07-09,Merged,844,10,1,,2
+"Add setTextIndent() method, updated documentation.",2016-06-28,Merged,829,14,5,php ,1
+Fix borders for merged cells,2016-06-23,Merged,818,11,0,,1
+Add getItems method,2016-06-01,Closed,811,9,0,,1
+[Fix] rowspan with colspan,2018-03-20,Closed,802,80,1,,1
+Update `Orchestra/TestBench` dependency for Laravel 5.2,2016-05-21,Closed,792,1,1,,1
+change documentation of cell vertical align value to center,2016-05-10,Merged,791,1,1,,0
+Use ::class notation in setup instructions,2016-05-02,Merged,776,2,2,,0
+Fix data being shifted when ignoreEmpty is set and cells in between o…,2017-04-04,Merged,769,5,4,,1
+Move TestCase.php to autoload-dev,2016-04-26,Merged,763,6,2,,1
+Use facade class instead of actual facade,2016-04-26,Merged,761,2,1,,1
+Update namespaces,2016-04-06,Merged,751,2,2,,1
+Update README.md with Laravel 5.2 instructions,2016-06-23,Merged,727,23,0,,0
+callback for config reader,2016-05-03,Merged,714,7,3,,2
+Support for text-indent value,2016-03-01,Merged,709,1,1,,1
+Added an explicit row manipulation methods,2016-03-01,Merged,708,47,11,,1
+Update readme,2016-01-21,Merged,660,1,1,,0
+Start index fix for no heading documents in chunk method.,2016-01-26,Closed,645,2,2,,1
+Fix for issue #584. Checking file permissions and existence separately.,2016-01-21,Merged,633,7,1,,1
+Allow usage on Laravel 5.2,2015-12-10,Closed,593,7,7,,1
+Merge pull request #591 from Maatwebsite/master,2015-10-26,Merged,592,0,0,,0
+Merge master,2015-10-26,Merged,591,11,11,,1
+Fixed dependencies,2015-10-26,Merged,590,11,11,,1
+2.0,2015-10-26,Merged,589,11,0,,1
+Merge 2.0 into master,2015-10-26,Merged,588,23,11,json ,1
+Set Text Rotation on cells,2015-10-20,Merged,581,11,0,,1
+Set Text Rotation on cells,2015-10-13,Closed,580,12,0,,1
+Lumen support,2015-10-20,Closed,576,237,0,,1
+2.0.8,2015-10-08,Merged,573,66,28,php ,5
+"Fix a problem with parsing empty rows, when ignoreEmpty() has been set",2015-10-05,Merged,567,25,15,,1
+Prevent an array issue,2015-10-05,Merged,566,1,6,,1
+"Fix a problem with parsing empty rows, when ignoreEmpty() has been set",2015-10-05,Closed,565,25,15,,1
+FIX: issue #456 allow_url_fopen for css import,2015-09-28,Merged,560,2,2,,1
+issue #456 allow_url_fopen for css import,2015-09-23,Closed,555,2,2,,1
+Check if Dom_PDF is defined,2015-09-10,Merged,544,3,1,,1
+Check if Dom_PDF is already defined,2015-09-10,Closed,543,24,12,json php ,2
+Check if DomPDf is already defined,2015-09-10,Closed,542,3,1,,1
+Check if DomPDf is already defined,2015-09-10,Closed,541,35,4,php ,2
+Prevent an array issue,2015-09-10,Closed,539,1,6,,1
+Prevent an array issue,2015-09-10,Closed,538,1,6,,1
+Allow to stop chunk import early,2015-09-10,Merged,531,35,4,php ,2
+Spelling: modication-> modification,2015-08-22,Merged,526,2,2,,0
+Add ability to unset row keys before export.,2015-08-22,Closed,525,15,0,,1
+2.0.7,2015-08-20,Merged,522,139,7,,11
+allow getting items in a row,2015-08-20,Closed,520,10,0,,1
+same field names #491,2015-08-05,Merged,501,34,1,,2
+same field names #491,2015-07-27,Closed,500,34,1,,2
+Laravel 5.1 compatibility,2015-07-27,Merged,487,7,7,,1
+Changed Laravel 4 to 5 in composer.json,2015-06-15,Closed,470,1,1,,1
+PHPExcel_Exception Row 2 is out of range,2015-06-12,Closed,467,"1,218",928,md json php ,3
+Use class name when determining import handler,2015-06-17,Merged,463,105,6,,9
+"Workaround for Row is out of range issue, fixes issue #437",2015-06-04,Merged,455,9,2,,2
+1.3 Branch - Ability to export as a string,2015-06-01,Merged,450,26,0,,1
+Ability to export as a string,2015-06-01,Merged,449,26,0,,1
+2.0.4,2015-05-02,Merged,424,31,31,php xls ,4
+Removed references setLineEnding.,2015-05-02,Closed,422,0,5,,1
+Remove references to unused lineEnding property for CSV Reader,2015-05-02,Merged,421,0,49,,3
+1.3,2015-05-01,Closed,420,297,62,php ,5
+Remove references to unused lineEnding property for CSV Reader,2015-05-02,Merged,419,1,51,,4
+Update composer.json to lock phpexcel,2015-05-01,Closed,418,1,1,,1
+Update ExcelServiceProvider.php,2015-04-29,Merged,414,5,4,,1
+fix array format for php 5.3,2015-04-29,Merged,413,1,1,,1
+2.0.3,2015-04-23,Merged,408,114,28,php ,6
+Add inline cell formatting to blade,2015-04-20,Merged,403,18,0,,1
+Add inline formatting to cells in blade,2015-04-20,Closed,402,19,1,,1
+Add inline formatting to cells in blade,2015-04-17,Closed,395,21,3,,1
+Add inline formatting to cells in blade,2015-04-17,Closed,393,19,1,,1
+Fix for issue 319,2015-04-20,Closed,390,8,8,,1
+"1.3 bugfix ""Autofilter must be set on a range of cells""",2015-03-27,Closed,383,206,4,php csv ,5
+2.0.2,2015-03-19,Merged,375,2,2,,1
+2.0.1,2015-02-16,Merged,352,192,2,php csv ,4
+New Feature: Custom formatting values,2015-02-16,Merged,350,177,0,php csv ,3
+1.3,2015-02-13,Closed,349,"1,010",819,md json php ,7
+Update HtmlReader.php,2015-02-14,Merged,344,1,1,,1
+Updated config/app.php path in README to Laravel 5,2015-02-11,Merged,340,2,2,,0
+fix #336,2015-02-05,Merged,337,2,4,,0
+2.0 (Laravel 5),2015-02-04,Merged,328,820,816,json php ,9
+Function to obtain Active Sheet Name,2015-01-30,Closed,317,9,0,,1
+Added ability to get heading not only from first row,2015-01-30,Closed,305,18,3,,2
+Fix bug for Laravel 4.0,2015-01-30,Closed,301,1,1,,1
+1.3.0,2015-01-30,Merged,297,314,206,php ,4
+v1.2.3,2014-12-16,Merged,294,197,39,md php ,7
+Fix warnings with latest PHPExcel develop version,2014-12-15,Merged,289,21,21,,1
+Fix  called undefined property 'sheet',2014-12-15,Merged,285,1,1,,1
+Make setDateColumns override existing date columns rather than supplemen...,2014-11-06,Merged,273,6,2,,1
+Make setDateColumns override existing date columns rather than supplemen...,2014-11-06,Closed,272,6,2,,1
+"Add PDF Support fixes #261 Note, chart output is not enabled",2014-10-17,Merged,264,25,7,php ,3
+Add import/export include charts for PHPExcel_Reader/Writer,2014-10-16,Merged,263,21,0,,4
+1.2.2,2014-10-08,Merged,254,468,68,md php ,8
+add missing border styles,2014-10-08,Merged,252,36,0,,1
+Transform short array syntax back to classic,2014-10-08,Merged,250,18,18,,7
+add missing border styles,2014-10-08,Closed,249,36,0,,1
+Transform short array syntax back to classic (Fixed - Maatwebsite:1.1),2014-10-07,Merged,248,7,7,,5
+Update ExcelFile.php,2014-10-06,Closed,245,2,2,,1
+Update HtmlReader.php,2014-10-06,Closed,244,2,2,,1
+Update LaravelExcelReader.php,2014-10-06,Closed,243,12,11,,1
+Update PHPExcel.php,2014-10-06,Closed,242,2,2,,1
+Update cache.php,2014-10-06,Closed,241,2,2,,1
+Update Excel.php,2014-10-06,Closed,240,6,6,,1
+Update ExcelServiceProvider.php,2014-10-06,Closed,239,2,2,,1
+Transform short array syntax back to classic (Fixed),2014-10-06,Closed,238,7,7,,5
+fix missing first row for each chunks,2014-10-01,Merged,231,86,8,csv xls xlsx ,6
+fix chunk skip first row in each group,2014-10-01,Closed,229,86,8,csv xls xlsx ,6
+PHP < 5.4,2014-09-23,Closed,224,2,2,,1
+1.2.1,2014-09-20,Merged,222,7,4,php ,1
+1.1.8,2014-09-19,Merged,221,245,246,,5
+Allow usage with laravel 5 too,2014-09-19,Closed,220,7,7,,1
+1.2,2014-09-19,Merged,214,"1,227",25,json php ,3
+1.1.7,2014-09-13,Merged,213,191,270,json php ,3
+Update composer.json,2014-09-13,Closed,212,18,17,,1
+1.1.6,2014-09-10,Merged,207,"1,362","1,143",json php ,3
+Backslash escape fix,2014-09-10,Merged,206,3,3,,1
+Fixed a variable name in code documentation,2014-09-08,Merged,204,3,3,,1
+Excruciatingly minor fixes,2014-07-11,Merged,175,4,4,,1
+correct adjustment,2014-07-11,Closed,174,2,2,,1
+1.1.5 - 2,2014-07-10,Merged,173,1,1,,0
+bump to 1.1.5,2014-07-10,Merged,172,1,1,,0
+1.1.5,2014-07-10,Merged,167,675,380,php ,5
+1.1.4,2014-06-22,Merged,158,539,286,,2
+v1.1.3,2014-06-17,Merged,156,17,15,php ,1
+Modified setBorder() in CellWriter.php,2014-06-17,Merged,155,12,14,,1
+Modified setBorder() in CellWriter.php,2014-06-17,Closed,154,12,14,,1
+v1.1.2,2014-06-15,Merged,151,159,20,php ,4
+1.1.1,2014-06-12,Merged,147,407,6,php ,3
+Change contribution details,2014-06-07,Merged,144,1,1,,0
+"Set default csv.enclosure config to a """,2014-06-06,Merged,143,3,3,,3
+Created package installer JSON config file,2014-06-06,Merged,141,11,0,,1
+Update some phpdocs,2014-05-27,Merged,129,30,25,,1
+v1.1.0,2014-06-07,Merged,106,"1,856",504,md json ,2
+v1.0.3,2014-05-19,Merged,105,5,4,php ,1
+"Fixes parsing of an ""Undefined Offset""",2014-05-19,Merged,104,2,2,,1
+Undefined Offset when parsing cells,2014-05-19,Closed,103,2,2,,1
+v1.0.2.1,2014-05-19,Merged,102,21,12,json ,1
+remove comma,2014-05-19,Merged,101,2,2,,0
+Update composer.json,2014-05-19,Merged,100,7,8,,1
+Update composer.json,2014-05-19,Closed,99,7,8,,1
+Re-added input encoding for ->load(),2014-05-19,Merged,98,37,7,php ,2
+v1.0.2 - bugfixes,2014-05-19,Merged,96,66,17,php ,3
+CellCollection extends ExcelCollection,2014-05-19,Merged,94,2,2,,1
+CellCollection extends ExcelCollection,2014-05-19,Closed,93,2,2,,1
+Fix method name typo,2014-05-19,Closed,84,2,2,,0
+Update changelog,2014-05-18,Merged,83,5,0,,0
+Edit readme version,2014-05-18,Merged,82,4,4,,0
+Set column width and row height bug fixes,2014-05-18,Merged,81,18,20,php ,9
+Fixed typos,2014-05-17,Merged,78,12,14,php ,8
+Fixed typos,2014-05-17,Closed,77,12,14,php ,8
+Unicode Support,2014-05-17,Closed,69,2,2,,1
+1.0.0 WIP,2014-05-17,Merged,67,"1,144",310,json ,1
+1.0.0 WIP,2014-04-28,Closed,66,"2,397","1,392",json ,1
+Update develop,2014-04-11,Merged,65,"1,513",227,json ,1
+Fixed syntax errors...,2014-04-11,Merged,64,2,2,,0
+Clarified how to arrange data for exporting,2014-04-11,Closed,63,3,3,,0
+minor coding fixes,2014-04-16,Merged,58,16,16,,1
+embolden column headers,2014-04-16,Closed,57,10,0,,1
+Laravel 4.2 compatibility,2014-04-16,Closed,55,2,2,,1
+Spelling and grammar,2014-03-20,Merged,45,2,2,,0
+Missing a ' at line 237,2014-03-17,Merged,43,1,1,,0
+Use \Str::slug to rename labels,2014-03-03,Merged,36,1,1,,1
+Feature: Can set input encoding when loading csv file,2014-02-15,Merged,31,4,1,,1
+Feature: Can set input encoding when loading csv file,2014-02-14,Closed,30,2,2,,1
+Fix for loadView() when Non Latin chars exist,2014-02-13,Merged,27,3,3,,2
+Changed $excel from protected to public.,2014-01-27,Merged,14,1,1,,1
++ Set the cell width of the columns,2014-01-27,Merged,13,76,0,,1
+Set cell borders,2014-01-24,Merged,11,163,0,,1
+++ Freeze or lock rows and columns ++,2014-01-23,Merged,8,20,1,,1
+"+ Autosize HTML columns, + Styling for HTML to XLS",2014-01-06,Merged,6,110,1,,1
++ Store to server,2013-12-27,Merged,4,42,14,md php ,2
+* Selecting columns fix,2013-11-17,Merged,1,49,41,php ,1

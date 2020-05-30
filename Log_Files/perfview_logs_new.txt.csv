@@ -1,0 +1,670 @@
+PerfViewJS Update,2020-01-08,Merged,1091,"11,179","10,597",cs ,3
+Increment the Product Version Numbers,2020-01-08,Merged,1090,2,2,,1
+Update ClrTraceEventParser with new assembly loader events,2020-01-08,Merged,1089,710,4,,0
+Update `tha` to `the` in the xml for GCEnd,2020-01-05,Merged,1088,1,1,,1
+Implement 'Merge and Zip All',2020-01-09,Merged,1086,35,0,cs ,2
+Remove unnecessary conditional write,2020-01-06,Merged,1085,1,5,,1
+Use a full size user mode session buffer to avoid lost GC events,2020-01-09,Merged,1083,5,3,,1
+Pad addresses and objectId events to 8 hex digits,2020-01-09,Merged,1082,"1,030","1,035",cs ,1
+Allows opt out nested activity id reducing,2020-01-07,Merged,1080,19,4,,3
+Improve handling of OutOfMemoryException,2020-01-09,Merged,1078,42,9,,3
+Simplify symbol resolution work for BTL files,2020-01-08,Merged,1076,142,109,,2
+Get Perfview.csproj building in VS2019 and F5,2019-11-26,Closed,1061,3,3,json ,2
+Increase PerfView and TraceEvent versions.,2019-11-21,Merged,1059,2,2,,1
+Avoid ArgumentNullException when HeapDump encounters a type with no name,2019-11-20,Merged,1055,1,1,,1
+Bump handlebars from 4.0.12 to 4.5.2 in /src/PerfViewJS/spa,2019-11-20,Merged,1053,4,4,,1
+Bump lodash.template from 4.4.0 to 4.5.0 in /src/PerfViewJS/spa,2019-11-20,Merged,1052,4,4,,1
+Bump mixin-deep from 1.3.1 to 1.3.2 in /src/PerfViewJS/spa,2019-11-20,Merged,1051,3,3,,1
+Bump eslint-utils from 1.3.1 to 1.4.3 in /src/PerfViewJS/spa,2019-11-20,Merged,1050,13,3,,1
+Fix IOStreamStreamReader to account for alignment padding,2019-11-20,Merged,1047,2,1,,1
+pause mode and compact/expand mechanisms,2019-11-14,Merged,1046,33,16,txt ,2
+Bump lodash from 4.17.11 to 4.17.15 in /src/PerfViewJS/spa,2019-11-14,Merged,1045,3,3,,1
+fix flamegraph exception with negative metrics,2019-11-20,Merged,1044,34,12,htm png ,4
+MethodDetails event processing,2019-11-07,Merged,1043,120,1,,1
+Update to the latest version,2019-10-31,Merged,1034,2,2,,0
+Fix Caching Issues in TraceCodeAddresses,2019-10-30,Merged,1030,37,11,cs ,2
+Increment PerfView and TraceEvent versions.,2019-10-29,Merged,1028,2,2,,1
+Parse EventPipe payloads for DiagnosticSourceEventSource events,2019-10-29,Merged,1027,350,71,,1
+Setting font-family from docs.microsoft.com on all .htm files,2019-10-29,Merged,1023,102,20,htm ,6
+Increase the version numbers for TraceEvent and PerfView.,2019-10-24,Merged,1022,2,2,,1
+Remove unnecessary warning suppressions,2019-10-24,Merged,1021,0,45,,22
+Fixed typo with .NGENPDB #1019,2019-10-20,Merged,1020,1,1,,1
+Add UDP info to ParsedPacket,2019-10-23,Merged,1018,20,0,,1
+Reduced allocations,2019-10-23,Merged,1015,50,17,csproj ,5
+Fix IndexOfSetBit for the case of a negative pow2 input parameter.,2019-10-17,Merged,1012,16,44,txt ,1
+Typos,2019-10-15,Merged,1008,10,10,,0
+Move the PacketCapture parser to TraceEvent,2019-10-17,Merged,1007,9,9,,1
+Fix handling of SegmentedList initial capacity,2019-10-15,Merged,1006,7,3,,1
+Fixes for Linux Perf_Events Traces,2019-08-29,Merged,995,50,4,,1
+Move PerfCollect to the PerfView Repo,2019-08-22,Merged,993,"1,944",0,,1
+Fix #991,2019-10-09,Merged,992,2,2,,1
+PayloadToken for .NET Core collected with dotnet-trace,2019-10-15,Merged,990,16,2,,1
+Increase package versions,2019-08-09,Merged,989,2,2,,1
+Switch Signing Certificates,2019-08-09,Merged,987,14,14,,13
+Update profiler to use Win10 SDK,2019-08-06,Merged,984,2,0,,2
+Support the 2 types of .NET Core 3.0 counters (Sum and Mean),2019-08-09,Merged,981,144,46,,1
+"add ""join all threads"" to the list of pre-defined GroupPats, implement Select Process Window for LTTng traces",2019-08-07,Merged,980,80,38,,2
+make sure that SymbolReader.Dispose closes all opened pdb files,2019-10-15,Merged,979,15,7,,3
+fix SpeedScope exporter bug,2019-07-30,Merged,977,48,2,,2
+FlameGraph zooming,2019-07-30,Merged,976,98,6,,1
+Update NetTrace format doc,2019-07-29,Merged,975,1,1,,0
+[WIP] Update CLRMD to version 1.1.37504,2019-07-25,Merged,973,8,40,cs ,3
+Update the MethodJitTailCallFailed event ID,2019-07-22,Merged,972,2,2,,1
+Fix typos memmory,2019-10-09,Merged,971,1,1,,1
+Fix Issue with Colons in Perf Counter Instance Names,2019-10-15,Merged,968,2,2,,1
+Add the CompilationVerbose keyword to CLRTraceEventParser,2019-07-15,Merged,966,4,0,,1
+Add managed memory views for EventPipe,2019-07-03,Merged,965,209,2,,1
+Bump the package version number,2019-07-01,Merged,964,2,2,,1
+Fix parsing of ETLX files larger than 2GB,2019-06-28,Merged,963,45,6,,4
+Update Package Versions,2019-06-27,Merged,960,44,25,yml csproj json ,5
+Update Package Versions,2019-06-27,Closed,959,44,25,yml csproj json ,5
+Update link to most recent version of PerfView in docs,2019-06-26,Merged,957,1,1,,0
+Add support to BPerf reader for symbols from a different file.,2019-10-09,Merged,955,385,59,,3
+Increment the PerfView and TraceEvent version numbers,2019-06-19,Merged,953,2,2,,1
+"Support NetTrace >4GB streams, Processor Numbers and a few bugs",2019-06-19,Merged,952,427,94,md ,6
+Cleanup ClrTraceEventParser.cs file generation,2019-10-15,Merged,950,51,22,,3
+Support for the Nettrace file format,2019-06-12,Merged,948,"1,545",185,,4
+[WIP] Take optimization tiers from the Linux perf trace and show them in the UI to see stacks separately for each code version (PerfView),2020-01-14,Closed,947,"1,043",189,,6
+Add WPF trace event parser,2019-05-29,Merged,943,"9,633",5,,0
+Makes CTRL+L keyboard shortcut discoverable in the menu and Tips,2019-06-11,Merged,937,13,1,cs htm ,3
+Update UsersGuide.htm,2019-05-09,Merged,936,4,4,,1
+Update UsersGuide.htm,2019-05-09,Merged,935,1,1,,1
+Update UsersGuide.htm,2019-05-09,Merged,934,1,1,,1
+Update UsersGuide.htm,2019-05-09,Merged,933,1,1,,1
+Fix a typo and stale link,2019-05-07,Merged,931,2,3,cs ,1
+Bump the Version Numbers,2019-05-06,Merged,930,2,2,,1
+Fix an issue caused by unexpected stop of trace sessions when TraceEventSession is just created and attached to check if a session is active.,2019-05-09,Merged,929,8,1,,1
+Update TraceEventProgrammersGuide.md,2019-05-02,Merged,926,1,1,,0
+Fix GC suspension parser to coexist with stack sampler,2019-05-21,Merged,925,28,3,,1
+Add BPerf Trace Log support to PerfView,2019-05-06,Merged,923,"4,767",2,,2
+Display error message when PerfView64 wrapper can't load PerfView.exe,2019-04-25,Merged,921,31,1,csproj manifest ,3
+Implement custom ETW module support,2019-04-24,Closed,920,76,5,,2
+Enable EventPipe streaming,2019-04-23,Merged,915,493,286,,2
+Add signing support for TraceParserGen,2019-04-09,Merged,911,9,1,,1
+Add R2RGetEntryPoint event to ClrTraceEventParser,2019-04-03,Merged,909,93,1,,1
+Small typos and other minor fixes.,2019-04-01,Merged,908,7,5,,4
+Fix official build break.,2019-04-01,Merged,907,14,0,,3
+Update the docs to refer to BufferSizeMB,2019-04-09,Merged,906,2,2,,1
+Fix bug where after relogging process IDs -1 on CSWITCHES.,2019-03-29,Merged,905,55,46,cs ,2
+Update logging of ngen PDB directory to pass the target directory,2019-03-29,Merged,904,1,1,,1
+The default buffer size has been changed,2019-03-29,Merged,902,1,1,,1
+Fix Nuspecs to use license intead of licenseUrl,2019-03-21,Merged,899,3,3,,3
+Move HeapDumpDll.csproj into its own directory.,2019-03-21,Merged,898,4,1,csproj ,2
+Minor reorganization of HeapDumpDLL.csproj to make uniform with others,2019-03-21,Merged,897,12,13,,1
+Fixes for support for showing types in the Net OS Heap Alloc view.,2019-03-20,Merged,896,184,140,,1
+Fix issue where activity paths were not being shown as paths.,2019-10-15,Merged,894,6,6,,1
+Fix broken HtmlJs link (renamed to PerfViewJs).,2019-03-29,Merged,892,2,2,md ,1
+s/CurrnetValue/CurrentValue/g,2019-03-08,Merged,891,1,1,,1
+Fix a formatError exception when parsing some Linux traces.,2019-03-06,Merged,890,37,13,,1
+Add configure to bypass assert dialogs,2019-03-01,Merged,888,4,0,,1
+Add package dependencies for TraceEvent NuGet pkg,2019-02-27,Closed,887,6,0,,1
+Fix support for building PerfView in Visual Studio 2019,2019-02-26,Merged,885,7,30,csproj ,2
+Some very small changes,2019-02-26,Merged,883,5,2,,4
+Merge pull request #6 from Microsoft/master,2019-02-23,Closed,882,0,0,,0
+Remove destructive behavior from copy,2019-02-22,Merged,881,0,14,,1
+Permit use of binary search with ranges,2019-02-22,Merged,880,27,7,,1
+Changes window ownership for better z-ordering,2019-02-14,Merged,877,1,2,,1
+Generate etwheapdump dll,2019-02-13,Merged,874,72,0,csproj ,2
+To avoid large allocations create SegmentedStreams and use in graph.,2019-02-14,Merged,872,322,21,cs ,5
+Enable user-defined path conversion,2019-02-14,Merged,871,13,4,,1
+Remove Span to avoid adding Memory.dll dependency,2019-02-06,Merged,870,78,62,cs csproj ,10
+Embed System.Memory and dependencies into PerfView,2019-02-05,Merged,869,21,0,,1
+Fix a bogus assert,2019-02-05,Merged,868,4,7,cs ,2
+Window Nano does not have a working EnumerateProviders API,2019-02-04,Merged,867,4,3,cs ,2
+Fold the building of the Memory DLLs (Needed for Visual Studio) into PerfView.sln,2019-01-24,Merged,861,42,52,,2
+Fix problem where classic ASP.NET activities nest when they should not.,2019-01-23,Merged,860,2,2,,2
+Fix bug where PerfView fails to launch.,2019-01-18,Merged,858,19,7,bat nuspec cs ,4
+track type of native allocations when available,2019-03-20,Merged,857,247,14,,2
+Added some logging and fix spelling.,2019-01-17,Merged,856,3,1,csproj ,2
+Small fixes,2019-01-16,Merged,854,13,8,,3
+Memory mapped streams,2019-01-23,Merged,851,861,181,cs csproj ,3
+Fix various typos in user guides,2019-01-15,Merged,849,203,203,,1
+Non-semantic refactoring changes in Graph.cs,2019-01-13,Merged,848,"1,084",46,,0
+Fix PerfView.exe download link text,2019-01-11,Merged,847,1,1,,0
+Minor fixes,2019-01-09,Merged,846,15,15,cs md ,4
+Code changes to enable use of Segmented Lists,2019-01-22,Merged,844,940,20,cs ,2
+Add PerfViewJS and delete bitrotted TraceEventAPIServer and HtmlJs,2019-01-07,Merged,843,"18,412","81,419",sln cs ,3
+SpeedScopeExporter,2019-01-18,Merged,842,763,1,xml ,3
+EventCounter data visualization,2019-01-11,Merged,841,339,1,cs csproj html htm ,5
+Upgrade CLRMD from 0.8.31-beta to 1.0.2,2019-01-04,Merged,840,104,22,cs csproj ,5
+Update CONTRIBUTING.md,2019-01-03,Closed,837,12,12,,0
+Updated all text files with grammar corrections and minor revisions,2019-01-03,Merged,836,161,161,,0
+Fix for TraceParserGen error,2019-01-02,Merged,834,18,6,,1
+Removing HeapDumpInterface,2019-01-01,Merged,833,1,226,csproj cs ,7
+Allow building the MemoryGraph and Utilities dlls.,2019-01-01,Merged,832,66,110,cs ,8
+Remove unused files.,2019-01-01,Merged,831,0,"102,783",,1
+Undoing change to licenseUrl element in TraceEvent.nuspec,2019-01-01,Merged,830,1,1,,1
+Add generic EventSource for start/stop activity tracking,2019-01-01,Merged,828,22,0,,1
+Added UI for the FocusProcess option,2019-01-07,Merged,824,84,4,cs htm ,3
+Add a userCommand NetPerfToJson,2019-02-04,Closed,822,103,0,,2
+Add focus process,2018-12-14,Merged,821,306,222,cs htm nuspec ,8
+Fix msbuild break on very clean source trees.,2018-12-14,Merged,820,8,0,,1
+Fix bug in a complex Self-describing ETW example,2018-12-13,Merged,818,13,14,cs ,3
+Use the OS support for TraceLogging ETW parsing,2018-12-14,Merged,817,0,236,,1
+Fix Missing Microsoft.Win32.Registry error on Desktop,2018-12-12,Merged,816,8,1,,1
+Fix missing nuget dependency (Microsoft.Win32.Registry),2018-12-14,Closed,815,5,2,,1
+Fix for Missing Microsoft.Win32.Registry error on Desktop,2018-12-14,Closed,813,9,2,,1
+Fix comment typos and add Syscall address support,2018-12-10,Merged,812,19,5,,2
+Add ReadyToRun Flags to Module and Method Events,2018-12-07,Merged,810,103,97,txt ,1
+Read cpu number only when it's available in Linux event,2018-12-03,Merged,807,7,3,,1
+Avoid using a reserved keyword for EventSource rundown.,2018-11-26,Merged,803,1,1,,1
+Typos,2018-11-24,Merged,800,12,12,,10
+"Fixes, including adding snupkg support for TraceEvent",2018-11-19,Merged,798,31,30,cpp cs csproj ,10
+determine which architecture a dump is without relying on exceptions,2019-10-15,Closed,795,142,8,,1
+Harmonize the license in the source and in the nuget packages.,2018-11-12,Merged,792,8,7,props nuspec ,5
+Revert artificial limitations in RecursionGuard,2019-10-16,Closed,785,8,32,,1
+Fix dll naming for linux,2018-11-11,Merged,781,1,1,,1
+Fixes,2018-11-01,Merged,778,58,43,cs ,5
+Fix invalid documentation comment syntax,2018-10-31,Merged,776,1,0,,1
+Fix assertion in ThreadSetNameTraceData,2018-10-31,Merged,775,1,1,,1
+Use file name instead of full path when output will appear in the current directory,2018-10-31,Merged,774,15,2,,1
+Fix non-working URL,2018-10-31,Closed,772,1,1,,1
+Fixing Very Fragmented Ephemeral condemn reason name and description,2018-12-17,Merged,768,1,1,,1
+Added text editor path variable option,2019-10-15,Closed,765,63,16,xaml htm ,5
+fix typos,2018-10-15,Merged,764,14,14,,0
+Guarentee TraceEvent.Process() and TraceEvent.Thread() are non-null,2018-10-10,Merged,763,113,85,cs txt ,5
+Spelling errors,2018-10-10,Merged,762,4,4,,0
+Fix typo sever in EmptySymbolPathDialog,2018-10-08,Merged,761,1,1,,1
+Fix Null Ref Exception,2018-10-08,Closed,760,3,0,,1
+Grouping: [group CLR/OS entries]: Added System.Xaml namespace to be grouped with WPF,2018-10-09,Merged,759,3,3,,3
+Add a feature to open new window based on parent window location.,2019-01-01,Merged,758,152,115,xaml ,26
+Added know issues of windows containers,2018-10-05,Merged,757,49,26,,1
+Added CTRL+L command to focus the Directory (HistoryComboBox).,2019-10-15,Closed,756,10,0,cs ,2
+Support IncompleteAsyncMethod (at least a bit).,2018-10-02,Merged,753,138,32,htm cs ,5
+Minor features.   See release notes for 2.0.27 for details.,2018-09-25,Merged,751,436,83,cs csproj ,4
+Add LowMemoryHostBlocking to GCReason,2018-10-02,Merged,750,1,0,,1
+Await time was dropped accidentally.,2018-09-19,Merged,749,8,2,,3
+Minor tweeks.,2018-09-17,Merged,748,8,7,cs csproj ,6
+Fixes in TraceLoadedDotNetRuntime.SetupCallback,2018-10-01,Merged,747,6,2,,1
+Updated docs about EventPipe,2018-09-13,Merged,746,70,2,,0
+Fix dev-time load failure loading KernelTraceControl.,2018-09-13,Merged,745,11,3,,2
+Small change in UsersGuide.htm,2018-09-17,Merged,744,1,1,,1
+Fixes lookup of system32 symbols in the unmerged case.,2018-09-11,Merged,743,17,13,,2
+Initial checkin if EventRegister code.,2018-09-10,Merged,740,"4,293",0,,1
+Added horizontal scrolling of PerfGrids,2018-12-16,Closed,739,824,298,cs ,2
+Update OSExtentions,2018-09-06,Merged,738,27,11,bat nuspec ,4
+OSExtensions fix for the PMCs,2018-09-05,Merged,737,0,0,,1
+Misc fixes,2018-09-04,Merged,736,98,48,cpp cs htm ,10
+Fix hasDotNetHeapDumps Initialization,2018-08-28,Merged,733,1,1,,1
+Enable Heap Snapshot Analysis via EventPipe,2018-08-28,Merged,732,20,4,,1
+fixed compile error:  error CS1566: Error reading resource '.\x86\Microsoft.Diagnostics.Runtime.dll',2018-09-04,Merged,731,1,1,,1
+Fix small typos in docs,2018-08-16,Merged,730,17,10,,1
+Add docs about Windows Containers,2018-08-16,Merged,729,202,974,,0
+Various changes,2018-08-16,Merged,728,"1,457",872,cpp ,2
+Ran format document on all files in the solution.,2018-08-15,Merged,727,"36,613","18,135",,1
+Fixing bug for Windows Container support,2018-08-14,Closed,726,1,1,,1
+Add //<autogenerated/> annotation in TraceParserGen,2018-08-06,Merged,720,1,0,,1
+TraceParserGen: fix GetTemplateNameForEvent for empty evnt fields,2018-08-06,Merged,712,1,1,,1
+Typo,2018-07-02,Merged,704,14,14,,6
+"Support .netperf.zip files, small fixes.",2018-06-20,Merged,701,64,19,cs htm ,6
+Fix bug in reading PerfView.xml files,2018-06-19,Merged,700,9,11,,1
+Add details about making SupportFiles Nuget packages,2018-06-11,Merged,697,42,15,cs htm ,2
+Use the latest support files versions,2018-06-09,Merged,696,2,2,,1
+Fix to last update to support Support Package Signing,2018-06-08,Merged,695,2,0,,1
+Delete file accidentally added,2018-06-08,Merged,694,0,"4,105",,0
+Update to support signing Nuget support packages,2018-06-08,Merged,693,31,25,bat nuspec csproj htm ,8
+Fix bug with native symbol resolution,2018-06-07,Merged,692,1,1,,1
+Short-circuit DynamicTraceEventParser::GetPayloadValueAt for arrays of bytes,2018-06-11,Merged,691,8,1,,1
+Make GotoSource work on *.netperf (Linux) traces and other fixes,2018-06-05,Merged,690,352,250,cs csproj ,5
+TraceEvent mods for relogging,2018-09-17,Merged,689,36,21,,3
+Small Updates,2018-05-31,Merged,688,55,60,,3
+Adding new overload for PerfView extensions,2018-05-31,Merged,687,18,2,,1
+Added Support for ThreadName,2018-05-26,Merged,685,226,107,cs ,2
+Fix an infinite loop in the StartStop Actitivities view,2018-05-22,Merged,684,22,8,cs ,3
+Fixed EventSources that use both manifest and self-describing events,2018-05-22,Merged,683,19,6,cs ,2
+Update official Release number,2018-05-18,Merged,682,1,1,,0
+Change default symbol cache location,2018-05-18,Merged,681,24,13,htm cs ,4
+Support for tiered compilation,2018-05-17,Merged,679,567,168,,1
+Merge symbol cache embedded in DiagSession to PerfView symbol cache.,2018-05-16,Merged,678,76,0,,1
+Update TraceEvent parsers to match CoreCLR manifest changes,2018-05-14,Merged,676,390,16,,3
+Update version number to 2.0.15,2018-05-14,Merged,675,2,2,,1
+Successfully added nuget package signing.,2018-05-14,Merged,674,1,1,,1
+Sign Packages attempt 11,2018-05-14,Merged,672,1,0,,1
+Signing Packages (Attempt 10),2018-05-14,Merged,671,"4,109",1,,1
+Sign Nuget packages (Attempt 9),2018-05-14,Merged,670,7,1,,1
+Sign Nuget Package (attempt 8),2018-05-14,Merged,669,34,15,,2
+Sign Nuget package (attempt 7),2018-05-14,Merged,668,2,0,,1
+Signing TraceEvent Nuget package attempt 7,2018-05-12,Merged,667,1,1,,1
+"signing Nuget package, attempt 6",2018-05-12,Merged,666,8,13,,1
+Put microbuild version back to .2,2018-05-11,Merged,665,1,1,,1
+5th attempt (getting close),2018-05-11,Merged,664,4,12,,1
+4th try at package signing.,2018-05-11,Merged,663,25,33,csproj ,2
+Third attempt at package signing.,2018-05-11,Merged,662,35,14,csproj ,2
+Second attempt at signing the nuget package.,2018-05-11,Merged,661,15,9,,1
+First Attempt at signing TraceEvent Package,2018-05-11,Merged,660,9,0,,1
+Update to Version 2.0.14,2018-05-03,Merged,658,2,2,,1
+"Removed Inc/Exc patterns from preset, replaced with comment",2018-05-08,Merged,657,20,47,cs htm ,5
+Fix default on Linux Reads,2018-05-03,Merged,655,1,1,,1
+Fixed preset renaming bug,2018-05-02,Merged,654,6,3,,1
+Fix assert,2018-05-02,Merged,653,4,4,,1
+Fix incorrect offset in an assert,2018-05-02,Merged,651,1,1,,1
+Fix stack association logic,2018-05-03,Merged,650,338,95,,1
+Delete all unmerged files in the GUI Delete command,2018-04-30,Merged,648,17,1,,2
+added mouse wheel zooming to the FrameGraphView,2019-10-15,Closed,645,42,26,cs xaml ,10
+Fix tests that were passing when they should not,2018-04-25,Merged,644,109,69,,6
+Fixed issue where PDBS for DLL were not found.,2018-04-24,Merged,640,67,26,txt ,4
+Fix problem with finding PDBs of some DLLs,2018-04-22,Closed,639,10,7,,3
+Two small GUI fixes,2018-04-11,Merged,637,12,2,,1
+Strip c# keywords from manifest task names,2018-04-21,Merged,634,38,8,,1
+Update link in downloading.md,2018-04-07,Merged,633,2,1,md ,1
+Update verrsion number to 2.0.12,2018-04-07,Merged,632,2,2,,1
+Add DLR support for TraceEvent dynamic properties,2018-06-13,Merged,630,62,2,cs csproj ,3
+Several small fixes,2018-04-02,Merged,627,98,50,cs ,4
+"Update ""how to build"" instructions in main README.md",2018-04-02,Merged,626,11,3,,0
+Fix PerfViewCollect Breaks,2018-04-03,Merged,625,28,48,csproj ,2
+"ContinueOnError, minor fixes",2018-03-29,Merged,621,60,13,props cs ,9
+Bypass getting assembly map on targeting .NetStandard 2.0,2018-03-28,Closed,620,2,2,,1
+Fix documentation,2018-03-24,Merged,619,6,5,png ,3
+Fixes an issue where sometimes native DLLs can't get their symbols re…,2018-03-22,Merged,618,35,10,,1
+Fix for DLL not found on Desktop for TraceEvent when collecting,2018-03-21,Merged,614,2,5,,1
+Small PerfView improvements,2018-03-21,Merged,613,60,23,,8
+Make TraceEvent have a specific build for Netstandard2.0,2018-03-21,Merged,612,54,40,nuspec csproj ,3
+Add CPU ONLY Thread Time if you don't have context switches.,2018-05-02,Merged,609,443,422,,1
+Add per generation color background in GC statistics page tables,2018-03-19,Merged,607,35,13,,1
+Remove cached etlx file and try again for netperf,2018-03-14,Merged,606,124,104,,0
+Event pipe cleanup,2018-03-14,Merged,603,46,44,md ,2
+Typos,2018-03-14,Merged,602,29,29,,19
+Bump to version number to 2.0.9 [nomerge],2018-03-14,Merged,601,2,2,,1
+Change fallback module name,2018-03-13,Merged,600,20,13,,1
+Migrate serviceprofiler changes 2,2018-03-19,Merged,599,104,83,,5
+Add Support for Nested Structs to EventPipe,2018-03-14,Merged,597,237,169,,1
+Migrate ServiceProfiler changes - baseline,2018-03-12,Merged,594,83,24,,7
+Added horizontal scroll for perfgrids,2018-09-07,Closed,592,"41,946","20,248",config sln md png ,5
+Added support for presets of grouping/folding,2018-05-02,Merged,590,750,2,cs ,2
+Update version numbers associated with publishing PerfView.,2018-03-05,Merged,589,3,3,props ,1
+Cleanup unused ifdefs,2018-03-03,Merged,588,35,57,props cs csproj ,9
+Trace parser manifest mods,2018-03-05,Closed,587,2,0,,1
+Add (unchecked (int)) to enum values greater than 32 bits),2018-03-05,Merged,586,13,1,,1
+Improved performance of drawing Flame Graph,2018-03-01,Merged,585,248,73,xaml ,3
+Add Docs for TraceEvent,2018-02-27,Merged,583,68,102,txt docx ,1
+Fix issue were orphaned kernel stack fragment given questionable user stack fragment,2019-10-15,Closed,581,82,59,,1
+Fix trace relogger ref,2018-02-26,Merged,580,13,13,props ,2
+Increase TraceEvent Package Version,2018-02-26,Merged,579,1,1,,1
+Fix problem fetching from some symbol servers.,2018-02-23,Merged,577,12,7,,1
+Pointer size fix,2018-03-05,Merged,576,22,6,,3
+Sql additions,2018-02-23,Merged,575,36,3,cs ,3
+Ptr size fix,2018-02-22,Closed,574,3,4,,3
+Consume TraceEvent.SupportFiles 1.0.13,2018-02-21,Merged,568,4,4,nuspec ,2
+Prepare to Update Microsoft.Diagnostics.Tracing.TraceEvent.SupportFiles Nuget Package,2018-02-20,Merged,566,29,2,nuspec csproj ,3
+TraceParserGen: fix provider opcodes loading,2018-02-22,Merged,565,1,1,,1
+Update version number,2018-02-15,Merged,564,1,1,,1
+User interface improvements for the CCW view for .NET Native,2018-03-05,Merged,563,395,355,,1
+Restrict .editorconfig to *.cs,2018-02-15,Merged,561,1,1,,1
+support Guids in Event Pipe metadata,2018-02-15,Merged,560,54,0,txt zip ,3
+Make rename rename all unmerged files.,2018-02-09,Merged,559,20,1,,1
+Fixed the ManifestData Event Pretty Printing,2018-02-08,Merged,557,119,83,txt ,1
+Allow Events to have too more fields than have been serialized.,2018-02-06,Merged,555,62,29,md props json cs ,4
+Fix a stack overflow in TransferInclusiveSamplesToList,2018-02-07,Merged,551,16,3,,1
+Some doc updates and minor fixes.,2018-02-01,Merged,550,20,13,props nuspec cs csproj ,6
+Event blocks,2018-02-01,Merged,546,544,204,cs md ,4
+Danlev1 dev/danlev/extension support for diagsessions,2018-06-24,Closed,544,43,2,,1
+Remove attempt to sign ETWClrProfiler.dll,2018-01-29,Merged,543,0,16,,1
+Sign etw clr profiler.1,2018-01-29,Merged,542,20,4,csproj ,2
+Sign EtwClrProfiler.,2018-01-29,Merged,541,16,0,,1
+Enable ETWClrProfiler signing,2018-02-08,Merged,540,69,11,vcxproj csproj md ,5
+Fixes to get signing working,2018-01-27,Merged,539,23,18,props cs ,5
+"Fix TraceEvent Deployment issues, sign more files",2018-01-27,Merged,538,58,91,csproj props cs ,9
+Added TraceEventSamples to code base.,2018-01-26,Merged,537,"3,231",0,cs ,3
+Add support for Blobs (that don't use forward refs) in FastSerialization,2018-01-26,Merged,536,48,11,,1
+Fix finalization race,2018-01-26,Merged,535,3,3,,1
+Changes for the next version of the EventPipe file format,2018-01-30,Closed,532,461,97,,0
+"add test to prove that old bug is gone, fixes #461",2018-01-26,Merged,531,47,18,,1
+remove old module name from the cache after update to new name,2018-01-23,Merged,530,9,5,txt ,2
+Reorganize event pipe,2018-01-22,Merged,528,618,681,cs ,5
+Event Pipe Developer Guide (docs),2018-01-17,Closed,526,106,0,,0
+[WIP] read pointer size from pipe file to get x86 working,2018-01-23,Closed,523,611,426,json ,6
+"enforce ""en-US"" culture for parsing-based tests which are based on ""en-US"" input data",2018-01-16,Merged,522,5,1,,2
+tell xunit to use method name as every test name instead of namespace.class.methodName,2018-01-16,Merged,521,24,0,json ,8
+Improved real time tracelog cleanup code a bit.,2018-01-27,Merged,519,21,17,,3
+Support SourceLink in Microsoft PDBs,2018-01-12,Merged,516,173,104,htm cs ,5
+Fix issue where some traces had CPU samples attributed to the wrong thread,2018-01-12,Merged,515,16,13,,1
+Improved real time Tracelog cleanup code a bit.,2018-01-13,Closed,514,22,18,,3
+Make TraceLog real time sessions handle exceptions well.,2018-01-10,Merged,513,5,3,,1
+Immediate ExpandAll,2018-01-10,Merged,512,57,39,,2
+Add a debugging method to dump arrays of bytes.,2018-01-10,Merged,511,14,0,,1
+Fix for intermittent failure in ObservableTests in debug builds,2018-01-10,Merged,510,3,1,,1
+Make Path Parsing logic work with slashes and backslashes.,2018-01-10,Merged,509,20,12,,4
+Change AddDispatch Hook to allow wrapping hooks,2018-01-09,Merged,508,30,43,,1
+Fix sporadic failures in UI testing,2018-01-10,Merged,507,4,3,,1
+Remove unused #If statements,2018-01-08,Merged,506,1,15,,1
+Update the version numbers for both TraceEvent and PerfView,2018-01-05,Merged,504,113,47,props csproj htm nuspec ,8
+Flame Graph,2018-01-08,Merged,502,288,8,cs csproj xaml ,6
+remove invalid xml comment which makes build fail,2018-01-05,Merged,501,0,1,,1
+Signing seems to work.  This is cleanup.,2018-01-05,Merged,500,16,28,bat nuspec csproj ,4
+More sign fixes,2018-01-05,Merged,499,34,18,,1
+More sign fixes.,2018-01-05,Merged,498,24,16,,2
+Another Signing fix,2018-01-05,Merged,497,1,1,,1
+More fixes for signing (turn on FastSerialization),2018-01-05,Merged,496,5,1,,2
+Signing fix,2018-01-05,Merged,495,3,1,,1
+fix build break in signing build,2018-01-05,Merged,494,7,3,csproj ,2
+Enable row color changes,2018-02-09,Merged,493,103,4,xaml ,6
+Fixes for build break when signing,2018-01-05,Merged,492,3,7,csproj ,2
+Make build do a delayed strong name sign if necessary,2018-01-05,Merged,491,33,4,csproj snk nuspec cs ,7
+Update version number and release notes,2018-01-03,Merged,490,13,3,htm ,2
+Bump ETLX version number,2018-01-03,Merged,489,1,1,,1
+Issue 476 expose jited methods,2018-01-10,Closed,488,8,0,,1
+Issue 399 Unhandled exception real time session,2018-01-10,Closed,487,27,5,,1
+Issue 485 index out of range exception,2018-01-10,Merged,486,44,41,,1
+Update to Latest,2018-01-03,Closed,484,"107,357","75,883",gitattributes gitignore config md sln ,5
+Fix crash when 'Drill Into' is used.,2018-01-03,Merged,483,42,26,,1
+Add source.AddProcessLifetimeLimits as a mechanism to reduce how much information that computers accumulate,2018-01-29,Merged,482,189,34,,1
+Added a Dispatch Hook to enable locking process thread and event filtering,2018-01-08,Merged,481,48,0,,1
+Properly account for the size of memory mapped files,2019-10-15,Closed,480,16,0,,1
+Consistently place the exclusive value columns before the inclusive value columns,2019-10-15,Closed,479,42,56,cs ,2
+Add support dotnetnative interop events for ccw ref counting views,2018-02-15,Merged,477,"1,348",5,xaml ,4
+Add Shift-Space shortcut to colapse nodes in tree view.,2017-12-21,Merged,475,26,0,xaml ,3
+Update spacing (acts as a test),2017-12-20,Merged,474,18,17,,3
+Changes to get signing working,2017-12-20,Merged,473,20,0,md csproj ,3
+Fix double dispatch for some events,2017-12-20,Merged,472,72,62,,6
+Updating IIS Stats View to show Activity and Thread time view both,2018-01-01,Merged,471,310,36,,0
+Fix bug where PerfView64 does not launch as a 64 bit app,2017-12-16,Merged,469,2,2,,1
+Fix build warnings,2017-12-15,Merged,468,15,14,,2
+Fix RuntimeInformation DLL loading issue,2017-12-15,Merged,467,19,2,csproj htm ,3
+Low priority,2017-12-14,Merged,466,290,184,cs ,5
+Added EditorConfig file to enforce spacing.,2017-12-14,Merged,465,5,0,,1
+Open on a Diagsession file to call Open on the contained Etl resource,2018-02-08,Closed,464,"141,972","89,781",gitattributes gitignore config md sln ,6
+Add support .net native interop CCW events,2017-12-22,Closed,462,"140,202","88,477",gitattributes gitignore config md sln ,6
+Ensure RegisteredEventParser does call into tdh.dll on non-Windows platforms,2017-12-14,Merged,460,41,37,,1
+Fix error when writing error to status bar,2017-12-05,Merged,459,6,2,,1
+Change comment to reflect the actual framework used,2017-12-01,Merged,458,1,1,,1
+Update OSExtensions to support Netstandard 1.6,2017-11-30,Merged,456,9,8,bat nuspec crypt csproj ,6
+Target netstandard1.6,2017-12-01,Merged,455,230,116,bat nuspec csproj cs ,15
+Give a clean error if runing 64 bit on old oses,2017-11-29,Merged,454,11,0,,1
+Add using statement to mange TraceLog disposal,2017-11-30,Merged,453,46,46,,1
+Three Minor fixes,2017-11-27,Merged,451,4,4,cs ,3
+Added Support for Portable PDBs.   PerfView will now open either kind of PDB,2017-12-01,Merged,450,"1,770","1,465",,6
+Make error text bold briefly in the status bar,2017-11-27,Merged,445,37,1,cs ,2
+"Make invalid data file error go to status bar, not pop exception dialog",2017-11-27,Merged,444,11,3,,1
+Add missing space to make header work,2017-11-20,Merged,443,1,1,,0
+Encode type name in Finalized Object Counts,2017-11-27,Merged,442,4,10,,1
+"Set filename from ""save as"" dialog",2017-11-27,Merged,441,1,0,,1
+Flame Graph,2018-01-05,Closed,440,"140,420","88,496",gitattributes gitignore config md sln ,6
+Fix typo in README.md,2017-11-16,Merged,439,1,1,,0
+Toggle column visiblity in PerfDataGrid,2017-12-14,Merged,438,137,0,xaml ,3
+Adding View Menu to toggle StackTrace columns,2017-11-10,Closed,437,38,4,xaml ,3
+Fix Linux NGEN/R2R symbols,2017-11-10,Merged,436,22,3,,1
+Fix logic that touches registry to be very robust,2017-11-09,Merged,435,109,80,cs htm ,3
+Clarify documentation for IncPats,2017-11-06,Merged,434,4,3,,1
+Improve debugging experience by omitting children from Node.ToString(),2017-11-06,Merged,432,28,19,,3
+Improve the performance of CallTreeNode.AllCallees,2017-11-06,Merged,429,7,3,,1
+Add PerfViewCollect to the solution,2017-11-03,Merged,428,9,9,csproj ,2
+Avoid using Assert.DoesNotContain due to performance problems,2017-11-03,Merged,427,1,1,,1
+Added the Gen 2 object Deaths view for 100K Sampling,2017-11-06,Merged,426,65,7,cs htm ,5
+Add a check box for TPL events,2017-11-02,Merged,425,37,14,xaml ,5
+Increase the default buffer size to 256MiB,2017-11-02,Merged,424,1,1,,1
+Default heap dump processing to all objects instead of a sampling,2019-10-15,Closed,423,2,19,,4
+Update to xunit 2.3.0,2017-11-02,Merged,422,15,13,csproj cs ,8
+Avoid loops in process parent.,2017-11-02,Merged,421,82,20,,2
+Fixing NRE in IIS Stats view and adding CLR exception details in failed requests view,2017-11-02,Merged,420,87,6,,1
+Remove unnecessary non-standard extension point dir.props,2017-11-02,Merged,419,13,28,props csproj ,8
+Create new thread objects when necessary to avoid assigning events to the wrong thread,2017-10-31,Merged,418,12,0,,1
+Update version number,2017-10-27,Merged,417,12,2,csproj htm ,3
+Update the DiagnosticHub DLLs,2017-10-27,Merged,416,43,12,props csproj bat nuspec ,11
+Support dynamic merge for DiagSession ETL files,2017-10-27,Merged,415,69,11,,1
+make Set Time Range work for single cell selection,2017-10-23,Merged,414,5,3,,1
+"docs: rename ""Metric/msec"" to ""Metric/Interval"" (as in UI) + mention what if the value is low",2017-10-23,Merged,413,4,4,,1
+Improve support for deeply-nested stacks,2017-10-20,Merged,411,189,65,,2
+Update TraceEvent's version number to 2.0,2017-10-16,Merged,408,6,6,csproj ,2
+Clarify when new console window is created.,2017-10-16,Merged,406,12,1,htm ,2
+Fix spelling of represents in a couple places,2017-10-16,Merged,405,3,3,cs ,2
+Enable UserCommands on Linux in PerfViewCollect,2017-10-16,Merged,403,"1,957","1,810",,2
+[WIP] Enable GCStats and JITStats on Linux in PerfViewCollect,2017-10-14,Closed,402,"1,914","1,771",,1
+"Fix for issue 166, (FormatException of Linux CPU Trace)",2017-10-10,Merged,400,102,52,,2
+Added PerfViewCollect non-gui perfView collector to build,2017-10-09,Merged,397,339,150,cs ,2
+Moves FetchSymbolsForProcess to be a user command.,2017-10-05,Merged,396,156,157,cs ,6
+Fixes for SysCall support in PerfView,2017-10-05,Merged,395,20,1,,4
+Added support for Windows Containers.,2017-09-29,Merged,393,118,87,csproj htm ,6
+Add updated tests data and remove DebugListenerBlock,2017-09-19,Merged,389,89,102,txt zip ,4
+Strip Function Offsets from Stack Frames,2017-09-19,Merged,388,20,0,,1
+Adding ASP.NET events to the IIS Parser to get a combined view,2017-09-22,Merged,386,121,11,,1
+Corrected MaxRet default value in documentation,2017-09-19,Merged,385,1,1,,1
+Remove the beep,2017-09-19,Merged,384,0,8,,2
+Enable TestIncludeItemOnCallerCalleeTabCallerAsync,2017-09-19,Merged,383,1,1,,1
+Remove TraceEventNativeMethods.ZeroMemory,2017-11-06,Merged,382,16,21,,6
+Add Keywords for the new IIS provider.,2017-09-06,Merged,381,14,0,,1
+Add test data for eventpipeeventinstance v2 objects,2017-09-06,Merged,380,49,0,txt zip ,2
+Make ZeroMemory portable to Linux,2017-09-05,Merged,379,8,2,,1
+missed out initializing the process Id in one place,2017-09-05,Merged,378,1,0,,1
+Enable Puneet's IIS parser by default,2017-08-31,Merged,376,50,38,cs ,3
+Cleaning up the IisTraceEventParser.cs to have the right opcode names,2017-08-31,Merged,374,"10,605","3,605",,1
+Support change from Guids to string names as EventProvider identifiers,2017-08-30,Merged,372,91,10,txt ,4
+Avoid multiple items with the same Link metadata,2017-08-31,Merged,371,6,19,,1
+Fix for failure (KernelTraceControl.dll load failure) during collection,2017-08-24,Merged,366,5,5,nuspec crypt csproj ,5
+Hide the support DLLs in the solution.,2017-08-24,Merged,364,27,0,,1
+Fix warning by initializing ErrorCode variable,2017-08-24,Merged,363,1,0,,1
+Copy native PerfViewSupport dlls to bin directory,2017-08-23,Merged,361,20,1,,1
+Fixes for TraceEvent .NET Core 2.0 support,2017-08-23,Merged,360,44,105,bat nuspec crypt csproj cs ,10
+Add NetStandard2.0 support (.NET Core) for the TraceEvent Nuget package,2017-08-23,Merged,359,58,17,cs bat nuspec ,7
+Disabled test tracked by #354,2017-08-22,Merged,358,1,1,,1
+Remove dependency on System.Diagnostics.Eventing.EventDescriptor,2017-08-22,Merged,357,22,12,,3
+UpdatePerfView needed to be changed to track changes in build,2017-08-17,Merged,353,1,1,exe ,2
+Fix native symbol lookup failure,2017-08-17,Merged,352,14,13,nuspec csproj cs ,6
+Fix Incorrect GCStats information when reading an ETL file directly,2017-08-17,Merged,351,6,5,,1
+Adding support for parsing and Analyzing IIS ETW events in Perfview,2017-08-22,Merged,350,"15,072",11,,0
+support for GCs under new condition and bug fix,2017-08-21,Merged,349,31,4,,2
+Fix debug launch for PerfView,2017-08-17,Merged,347,16,0,targets json ,3
+Update TraceEvent to include a .NET Standard 2.0 build,2017-08-23,Closed,345,107,7,csproj cs ,5
+Added TraceParserGen,2017-08-10,Merged,344,"5,750",1,,1
+typo,2017-08-05,Merged,342,1,1,,1
+Fix for missing callstacks in real time Tracelog sessions (issue 332),2017-08-08,Merged,341,21,6,,3
+Fix an incorrectly quoted key in .codecov.yml,2017-08-02,Merged,337,1,1,,1
+Ensure StatusBar.m_work is assigned before the work starts,2017-08-02,Merged,335,8,0,,1
+Enable remote desktop to the build worker,2017-08-02,Closed,334,1,1,,1
+Improved codecov reporting and performance,2017-08-02,Merged,333,33,4,,1
+Fix codecov upload error,2017-07-31,Merged,331,1,1,,1
+Fix warnings reported by the C++ build,2017-08-06,Merged,330,24,8,filters cpp ,5
+Doc update: Indicate how to log an issue about PerfVIew,2017-07-28,Merged,328,17,3,,0
+Get HtmlJS building again,2017-07-28,Merged,327,40,118,cs csproj xproj cmd json ,6
+Missing containsSelfDescribingMetadata in serialization,2017-07-26,Merged,323,3,1,,2
+Set Computers\TraceProcess.Start/EndRealitveMsec,2017-07-26,Merged,321,6,3,,1
+Move entire solution to new project system,2017-08-10,Merged,319,715,"11,825",sln yml csproj cs props vcxproj ,10
+Use the codecov uploader from NuGet,2017-07-21,Merged,318,3,3,sln yml ,3
+Fix handling of commands in tree views,2017-07-27,Merged,317,311,5,csproj cs xaml ,6
+Trace event.net core2.0,2017-08-23,Closed,315,196,236,csproj cs props xproj cmd json ,9
+Make The DataStart property public,2017-07-18,Merged,314,6,6,,1
+Fix LinuxPerfScriptEventParser when parsing timespamp event,2017-07-20,Merged,311,46,24,,3
+Add the OSExtentions DLL to the TraceEvent Nuget package,2017-07-13,Merged,306,2,0,,1
+Tell people how to build without using Visual Studio IDE.,2017-07-13,Merged,305,18,2,cmd ,1
+Adding support for parsing and Analyzing IIS ETW events in Perfview,2017-08-17,Closed,304,0,0,,0
+Update MethodLoadUnloadVerboseTraceData to reflect MethodLoadUnloadVerbose_V2 manifest,2017-07-12,Merged,303,107,102,txt ,1
+Fix Crossgen symbol lookup.,2017-07-10,Merged,302,4,4,,1
+HistoryDictionary: Replace manually sorted list with SortedDictionary,2017-07-12,Merged,298,10,1,,1
+Fix for issue ISR DPC times not decoded properly #234,2017-06-28,Merged,296,13,10,,1
+Support EventPipe,2017-08-22,Merged,294,"2,301",122,,3
+Fix build warnings related to use of experimental features,2017-06-18,Closed,293,81,0,,7
+Test hardening,2017-06-15,Merged,291,20,29,,2
+Allow passing /MaxDumpCountK=0 to dump all objects,2017-06-15,Merged,289,2,2,,1
+Fix errors related to multiple wrappers for the same object,2017-06-15,Merged,288,1,1,,1
+Avoid renaming handle fields during extraction,2017-06-15,Merged,287,1,1,,1
+Update title bar to show 64-bit process,2017-06-15,Merged,286,3,4,,1
+Support new SHA-256 source file hash type in DIA,2017-06-15,Merged,285,45,13,,2
+Fix flaky tests due to file access errors,2017-06-13,Merged,282,2,36,,7
+Several minor updates,2017-06-08,Merged,279,16,6,htm ,5
+Diag session fix,2017-06-07,Merged,278,59,37,config props bat ,8
+Remove the unnecessary TOSTRING_FTNS preprocessor directive,2017-06-08,Merged,275,0,8,,1
+Test utilities,2017-06-12,Merged,274,147,4,csproj cs config ,11
+Include Microsoft.Diagnostics.FastSerialization in the TraceEvent package,2017-07-13,Merged,273,17,1,nuspec ,2
+Remove the disabled Ctrl+C support,2017-06-05,Merged,272,1,56,,1
+Update FastSerialization to support a 'leaveOpen' parameter,2017-06-05,Merged,270,48,8,,2
+Use Func instead of custom comparison delegate in GrowableArray,2017-06-05,Merged,269,10,14,,3
+Enable Ctrl+C support,2017-06-05,Closed,267,16,15,,1
+Make static state immutable where possible,2017-06-05,Merged,265,298,298,,4
+Remove unnecessary static state,2017-06-05,Merged,264,9,17,,2
+Clarify static state variables,2017-06-04,Merged,263,16,4,,4
+Make TraceLog.s_skipCount an instance variable,2017-06-04,Merged,262,10,5,,1
+Fix race conditions due to static state in ComputerNameExists,2017-06-12,Merged,260,2,4,,1
+Enable /features:strict in C# projects,2017-06-04,Merged,259,15,1,cs ,14
+Enable two tests which are currently working,2017-06-04,Merged,258,4,4,,2
+Remember history of additional providers,2017-06-08,Merged,256,24,1,cs ,2
+Fix assertion handling during unit tests,2017-06-12,Merged,255,353,4,config csproj cs ,12
+Consolidate xunit,2017-06-03,Merged,254,62,65,csproj ,9
+Check syntax of XML comments during a build,2017-06-02,Merged,253,44,4,,4
+Update LibraryProvider to avoid loading a v2 CLR,2017-06-08,Merged,252,4,0,,1
+Remove has process events,2017-05-30,Merged,251,0,5,,1
+Assign some variables to suppress warning.,2017-05-30,Merged,250,2,2,,1
+Use new null propagation operator to invoke delegates,2017-05-30,Merged,248,39,81,,16
+Remove the /Finalizers switch,2017-05-29,Merged,247,7,28,xaml htm ,7
+Move OBSERVABLE_TESTS and DISPATCH_TESTS to proper tests,2017-05-29,Merged,244,"1,053",988,,5
+Add programmer guide,2017-05-28,Merged,243,923,2,,1
+Reduce the size of coverage reports sent to codecov,2017-05-26,Merged,240,3,3,,1
+Fix release build include paths to match Debug build,2017-05-24,Merged,239,3,1,,2
+Fix it so that clean installs of 2017 works,2017-05-24,Merged,238,4,2,,2
+Update the CLR FinalizableObject to include TypeName,2017-05-28,Merged,237,218,66,txt ,3
+Fix handling of start/stop times in other cultures,2017-05-29,Merged,236,704,53,yml csproj cs ,5
+Show LinuxTracing.Tests as a test project in Solution Explorer,2017-05-24,Merged,233,1,0,,1
+Remove old build scripts,2017-05-24,Merged,232,0,39,,2
+Remove reference to non-existent file,2017-05-24,Merged,231,0,1,,1
+Build TraceEvent NuGet package,2017-05-30,Merged,229,121,0,nuspec props cs csproj config ,6
+Simplify handling of processor architecture,2017-05-26,Merged,228,88,52,,8
+Fix build warnings,2017-05-29,Merged,227,45,20,csproj ,8
+Fix heap dump when running PerfView as a 64-bit process,2017-05-26,Merged,226,32,39,,2
+Use the CLR GCFinalizeObject event to report finalized object counts,2017-05-26,Closed,224,104,0,,1
+Fix artifact path for debug builds,2017-05-18,Merged,223,2,2,,1
+Faster testing,2017-05-18,Merged,222,213,199,txt ,1
+Change CommandToRun from a text box to a history text box,2017-05-17,Merged,221,29,2,cs ,2
+Use codecov.io for code coverage,2017-05-18,Merged,220,44,2,config md ,3
+Make text editor windows bigger by default.,2017-05-18,Merged,219,1,1,,1
+Fix non-deterministic error with OneStack test,2017-05-17,Merged,218,17,17,,2
+Use System.IO.Compression instead of duplicating it,2017-05-17,Closed,217,5,"4,254",csproj cs ,7
+switch mstest projects to use xunit,2017-05-17,Merged,216,87,50,cs csproj config ,6
+Fix some grammar and typos in documentation,2017-05-17,Merged,215,54,49,,0
+Simplify the logic associated binary Support Files,2017-05-16,Merged,210,109,275,sln vcxproj csproj config ,7
+Use codecov.io for code coverage,2017-05-16,Closed,209,44,4,config md ,3
+Fix null ref exception,2017-05-16,Merged,206,1,1,,1
+Set the SessionEndTime for real time sessions when Process() returns.,2017-05-16,Merged,205,7,2,exe ,3
+Make GeneralParsing test less OS dependent,2017-05-15,Merged,204,11,51,txt ,1
+Speed up HistoryDictionary,2017-05-15,Merged,203,23,2,,1
+Make tests work in all time zones,2017-05-15,Merged,202,333,327,txt ,1
+Added AppVeyor build configuration,2017-05-15,Merged,195,37,0,md yml ,2
+"Add PerfView64, a wrapper around PerfView",2017-05-11,Merged,194,188,25,cs config csproj ,10
+Improve the performance of user data lookups by changing from string to enum,2017-05-11,Closed,193,119,36,,4
+Improve the performance of opening the GCStats window,2017-05-30,Merged,192,18,15,,1
+Update test to help make updating a baseline file easy.,2017-05-10,Merged,191,21,2,,1
+Add Image Events to /GCCollectOnly,2017-05-09,Merged,187,15,3,htm ,4
+Unbreak debug build and tests,2017-05-09,Merged,186,58,96,cs txt ,2
+Trivial fixes,2017-05-09,Merged,185,11,9,,2
+Gather more details about .NET Versions for managed processes,2017-05-09,Merged,183,41,2,,2
+various bug fixes,2017-05-09,Merged,181,29,2,,2
+Preserve column sort order after symbol lookup,2017-05-07,Merged,180,17,0,,1
+Sort columns in descending order when they are first clicked,2017-05-07,Merged,179,11,0,,1
+Fix markdown headers to appear correctly on github,2017-05-05,Closed,177,11,11,,0
+Update to Visual Studio 2017,2017-05-10,Merged,176,"18,050","18,564",gitignore md sln ,3
+Updated release notes section,2017-03-22,Merged,169,61,0,,1
+Fixed bug in setting ServerGcHeapHistories switchSpan durations relative to GC pause duration,2017-03-21,Merged,168,3,2,,1
+Added missing ALPC stack trace settings,2017-05-06,Merged,158,25,2,,1
+Correct typo in ZippedETLReader.UnpackArchive(),2017-05-06,Merged,152,5,5,,5
+Fix small typos and consistency issues in CONTRIBUTING.md,2017-05-06,Merged,151,5,6,,0
+Make help text editors readonly,2016-12-06,Merged,148,3,1,,1
+EventCounter data visualization,2019-01-04,Closed,146,165,1,cs csproj ,5
+Simple mistakes and warnings,2016-11-21,Merged,145,28,78,,15
+Add trigger to stop collection on long BGC final pause,2016-11-19,Merged,144,47,2,,3
+Improve readability of GCStats and other views,2016-11-14,Merged,140,36,5,,2
+Set ProcessName for managed processes in Linux traces (eg. no kernel events to set it properly),2016-11-14,Merged,134,6,1,,1
+Add strongly typed TraceEvent for Microsoft-Windows-Kernel-Memory/MemInfo event,2016-10-19,Merged,131,160,65,,0
+Fix for #108 and similar code path,2016-10-19,Merged,130,3,2,,1
+Update the MemoryProcessMemInfoTraceData class so it can parse V2 of the event,2016-10-14,Merged,129,58,10,,2
+Minor Documentation Fix,2016-10-11,Merged,127,1,1,,1
+Removed code duplication,2016-09-29,Merged,126,3,6,,1
+Added NoWait option,2016-09-29,Closed,125,7,2,,3
+Refactor of the ETLStackBrowse\ZL -,2016-10-12,Closed,123,"1,485","1,380",cs ,5
+Added BGC events handling,2016-09-21,Merged,122,104,3,,2
+Show exception handling call stacks as a seperate activity,2016-09-21,Merged,120,12,0,,1
+Typo,2016-09-21,Merged,119,1,1,,0
+Fixed links,2016-09-21,Merged,118,2,2,,0
+Make it possible to modify payloads of events with ETWTraceEventSource,2016-10-13,Closed,114,196,92,csproj etl ,4
+Allow users to set PerfView temp cache cleanup time,2016-08-22,Merged,113,23,10,,2
+Final touch ups and fixes,2016-08-18,Merged,112,"10,130",208,json js ,8
+"Context menu, resolved symbols, top status bar, and resolved some search bugs",2016-08-15,Merged,111,145,47,html ,2
+PerfDataService V0.4,2016-08-11,Merged,110,"76,814","4,434",,1
+Show more useful .Net Core Avtivity details.,2016-08-11,Merged,109,78,1,,1
+Fix object allocation and process name in CTF,2016-07-07,Merged,107,362,535,,2
+More complex uses of Need* artitecture need to guard against redundant calls with the same source,2016-10-11,Merged,106,48,41,,2
+Moving PerfView on top of the new TraceProcess and TraceLoadedDotNetRuntime model.,2016-06-30,Merged,105,"2,154","7,925",,2
+Add an html based UI endpoint for TraceEventAPIServer,2016-06-28,Merged,104,"3,446",47,,8
+Naming updates (per conversation with Vance).,2016-06-27,Merged,103,299,233,,0
+PerfDataService (renamed from PerfViewService) halfway to creating an .etlx file,2016-06-24,Merged,100,"6,782","8,927",sln cs ,4
+Fix bug that occurs when there are no samples in a Linux trace,2016-06-23,Merged,99,6,1,,1
+"As a step towards the *Computer processing model, here is the Process…",2016-06-22,Merged,98,"4,780",0,,1
+Add TraceEvent API Server,2016-06-14,Merged,97,"1,641",0,dg cs ,9
+Merge PerfScript and LTTng file types so that they can be opened as a single file,2016-06-02,Merged,93,87,74,,2
+Remove temporary code to set process name,2016-06-01,Merged,92,0,8,,1
+Update LTTng support in perfview to current,2016-06-01,Merged,91,549,572,,5
+Update LTTng support in perfview to current,2016-06-01,Closed,90,691,556,,6
+Updated Runtime version checking logic in GCPerHeapHistory* to correc…,2016-06-01,Merged,89,836,473,csproj zip ,14
+Suppress warnings from ZIP library,2016-06-15,Closed,86,35,3,csproj ,2
+Go-to-source update,2016-07-01,Merged,84,193,141,,0
+Bugfix: Remove the extra leading '/' from ActivityPathString.,2016-05-09,Closed,83,4,3,,1
+test commit,2016-05-07,Merged,82,1,1,,0
+Fix stack overflow when a Process/DCStart event refers to a terminated process,2016-05-03,Merged,79,3,6,,2
+Add a None keyword option to ClrPrivateTraceEventParser,2016-04-25,Merged,77,1,0,,1
+Include file size and time stamp in cache file's hash code,2016-04-25,Merged,76,24,15,,1
+Merge TraceEvent changes from ServiceProfiler back to PerfView.,2016-05-02,Merged,75,147,25,csproj ,7
+Remove unnecessary call to GetFrameName in IsRecursiveTask,2016-04-27,Closed,74,0,1,,1
+Avoid boxing ints in GetCallStackWithActivityFrames,2016-04-27,Merged,73,1,1,,1
+Use StringComparison.Ordinal in UpdateTaskMarkerFrame,2016-04-27,Merged,72,1,1,,1
+Use ordinal comparison in IsRecursiveTask,2016-04-27,Merged,71,1,1,,1
+Reduce allocations in StartStopActivity.Name,2016-04-29,Merged,70,180,21,csproj ,4
+Reduce allocations in TraceActivity.Name,2016-04-29,Merged,69,135,5,cs ,3
+Use a speciailzied intern table for call-stack interning,2016-05-04,Merged,68,345,74,,1
+Eliminate delegate allocation in FindCallee,2016-04-19,Merged,67,1,1,,1
+Fix typos in STANDARDS.md,2016-04-19,Merged,66,19,20,,0
+Avoid boxing enum in DoneAddingSamples (Array.Sort),2016-04-19,Merged,65,1,1,,1
+Reduce allocations in StartStopActivity.Name,2016-04-21,Closed,63,183,24,cs csproj ,4
+Use unsafe in MaybeAnEventSource,2016-04-17,Merged,62,2,2,,1
+Reduce allocations in TraceActivity.Name,2016-04-21,Closed,61,138,8,csproj cs ,3
+Avoid allocation reading a Guid,2016-04-17,Merged,60,4,4,,1
+Optimize GetStackIndexForStackEvent,2016-04-17,Merged,59,43,32,,1
+Fixed loop in GetFormattedMessage and changed constants to prevent bit reuse,2016-04-16,Closed,57,8,6,,1
+Remove packages.config from PerfView project,2016-04-17,Merged,56,1,2,,1
+Fix typos in README,2016-04-13,Merged,55,8,7,,0
+Add ZippedETL.cs to files to build for TraceEvent project,2016-04-13,Merged,54,1,0,,1
+Add PayloadStringByName convenience function,2016-04-13,Merged,53,13,1,,1
+Ctf fixes for multiprocess and timestamps,2016-04-12,Merged,52,249,248,,1
+Eliminate (mostly) allocations in GetEventCounts,2016-04-13,Merged,51,91,60,,1
+Reduce allocations,2016-04-11,Merged,50,17,2,,2
+Use TraceEventRawReaders.ReadGuid in GetGuidAt,2016-04-11,Merged,49,1,11,,1
+TraceEvent fixes,2016-04-13,Closed,48,30,12,,2
+"Enable .trace.zip files, allow multiprocess traces",2016-04-11,Closed,47,243,248,,1
+Symbol resolution,2016-04-06,Merged,46,37,19,,5
+Avoid an infinite loop in the ActivityComputer.,2016-04-01,Merged,45,4,0,,1
+Add symbol resolution end-to-end,2016-03-25,Merged,43,"1,124",872,,1
+Support LTTng traces in PerfView,2016-03-24,Merged,42,"5,289","1,350",cs ,2
+Concurrent blocked time,2016-03-16,Closed,41,210,80,,2
+Bug fixes to DumpSerializedExceptions,2016-03-11,Merged,40,16,5,,4
+Buffer optimizations,2016-03-10,Merged,39,411,354,,1
+[WIP] Restructure,2016-03-04,Merged,38,"1,665",973,csproj zip ,9
+Supporting PrintSerializedExceptionFromProcessDump,2016-03-08,Merged,37,155,29,,3
+[WIP] Initial Symbol Mapping,2016-03-04,Merged,36,992,418,csproj zip ,8
+Fix bug in GetRelatedActivityID,2016-02-17,Merged,35,1,1,,1
+Add support for .diagsession symbol paths,2016-02-17,Merged,34,11,3,,1
+[WIP] Parser Concurrency,2016-03-04,Merged,31,606,315,,4
+[WIP] Polishing 1,2016-02-09,Merged,30,461,366,,3
+[WIP] Add thread time option to LinuxPerfScriptStackSource,2016-02-05,Merged,29,"6,066","6,036",,5
+[WIP] Parser Integration,2016-02-04,Merged,28,"9,812","7,990",cs ,4
+[WIP] Initial Parser Rework,2016-02-02,Closed,27,"3,609","1,810",cs ,4
+[WIP] PerfScript Parser to XML,2016-02-04,Merged,26,"4,216","1,789",cs ,4
+Add full name to inlinee name in JIT inlining stats,2016-01-18,Merged,25,2,2,,1
+[WIP] Initial PerfScript to XML,2016-01-26,Closed,24,"1,982",0,cs ,5
+TraceEventSession.Merge is unconditionally compressing the merged ETL…,2016-01-06,Merged,23,1,1,,1
+Remove the starting and ending quotes from the MainWindow's HisotoryCombobox,2015-12-28,Merged,22,11,1,,1
+Cells selected in the StackViewer but scrolled out of view should still be selected,2015-12-23,Merged,21,35,12,,3
+Fix selected cells issue in the StackViewer,2015-12-22,Closed,20,44,12,,4
+"Server GC Join analysis implementation - first stage, implemented for…",2015-11-19,Merged,19,432,30,,1
+Add recent new features to release notes,2015-12-23,Merged,18,4,0,,1
+Add finalizer tracking,2015-11-12,Merged,17,122,6,xaml htm ,8
+Add JIT Inlining support to PerfView,2015-11-12,Merged,16,172,48,cs xaml sln htm ,9
+Fix a build break in VS2015 due to the deprecation of stdext::hash_map,2015-10-22,Merged,15,14,10,vcxproj ,3
+Update PerfView to use ClrMD NuGet package,2015-11-11,Merged,14,24,"6,016",cs config dll pdb ,7
+Support ForceGC for .NET Native,2015-10-14,Merged,13,7,0,,1
+Changes for CodeSymbols event,2015-10-14,Merged,12,63,8,,2
+VersionRecognized should return true when V4_0 is true!,2015-08-04,Merged,11,1,1,,1
+Recursively search for scenario files,2015-06-22,Merged,10,1,1,,1
+Accommodating for the scenario where we are missing mark events,2015-06-22,Merged,9,23,0,,2
+Fixed a few things in the Pinning at GC time view,2015-06-17,Merged,8,11,4,,2
+Non-controversial edits,2015-05-07,Merged,7,11,11,,0
+Remove CAP GCStats dependency on ETLX,2015-05-02,Merged,6,7,7,,2
+Don't process context switch events in CAP GC processing / Added new Issues Format,2015-05-01,Merged,5,192,122,,0
+Add support for Project N type names in GCAllocationTick views.,2015-04-30,Merged,4,113,23,,3
+Add support for Project N type names in GC/AllocationTick views,2015-04-28,Closed,3,270,17,cs ,3
+Remove Build Artifacts,2015-04-08,Merged,2,5,1,txt dll exe ,3
+Initial Commit of PerfView,2015-04-03,Merged,1,"537,206",0,sln ,2

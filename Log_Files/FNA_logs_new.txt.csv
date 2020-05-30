@@ -1,0 +1,112 @@
+PipelineCache Optimization,2020-01-06,Merged,288,66,62,,1
+[WIP] New hashing method for PipelineCache,2020-01-06,Closed,286,86,146,,1
+Fixed exception when disposing MSAA RenderTargetCube,2020-01-05,Merged,285,1,1,,1
+Reorganize MouseState members to match XNA,2020-01-04,Merged,284,10,10,,1
+Fix high DPI for macOS initial window size,2019-12-26,Closed,282,7,5,,1
+Add FNA_PREFER_SDL2_BASE_PATH to prefer SDL's base path,2019-12-25,Merged,281,20,17,,1
+Removed allocations due to the lambda action .ctor,2019-12-19,Closed,279,590,552,,0
+Add RefreshRateEXT,2019-12-15,Closed,278,34,5,,3
+PipelineCache Refactor,2019-11-25,Merged,277,281,106,,0
+SDL2_FNAPlatform updates,2019-11-25,Merged,276,80,25,,1
+IGLDevice Updates,2019-11-24,Merged,275,40,21,,8
+"Remove Color(Color, alpha) constructors",2019-10-24,Merged,274,0,34,,1
+FNA.dll.config -> app.config,2019-10-01,Merged,273,4,8,Makefile config ,4
+Use dictionary for SpriteFont index lookups,2019-08-12,Merged,266,20,16,,2
+"Revert ""Added GetStorageRoot path for tvOS""",2019-07-19,Merged,264,0,14,,1
+Added GetStorageRoot path for tvOS,2019-07-17,Merged,263,14,0,,1
+Replace Queue<int> for sampler modification tracking with bool[],2019-07-15,Merged,262,26,18,,3
+Add missing generic type forwards to XNA ABI-compatibility libraries.,2019-07-12,Merged,259,2,0,,1
+Fix colorconverter incorrectly using floats in some places,2019-06-10,Merged,257,8,8,,1
+Updated Intellisense descriptions,2019-06-06,Merged,256,2,2,,1
+Invalidate FBOs at the start of each frame,2019-05-17,Closed,253,23,18,,1
+Implement MetalDevice,2020-01-12,Merged,252,"6,853",9,Makefile cs ,4
+Moved SetPresentationInterval into GLDevices,2019-04-15,Merged,251,86,46,,6
+Make VERBOSE_PIPELINECACHE more verbose,2019-04-05,Merged,249,36,4,,1
+Optimized and unified StateHash struct,2019-04-03,Merged,248,100,107,,1
+"Hash+Cache Rasterizer, DepthStencil, and Sampler States",2019-04-03,Merged,247,204,86,,4
+BlendState Hashing and Caching,2019-04-02,Merged,246,72,23,,2
+[WIP] Implement PipelineCache for Effect state changes,2019-04-23,Merged,245,574,264,Makefile ,3
+Use polling for TouchPanel.GetState + FingerIdEXT,2019-03-14,Merged,242,179,120,,4
+Fix ShowRuntimeError crash,2019-02-28,Merged,240,2,2,,1
+Clamp glPixelStorei alignment for texture uploads to 8 as demanded by the spec,2019-02-03,Merged,238,15,5,,3
+Fix struct uniforms,2019-02-01,Merged,237,27,15,,2
+(structs & pointers) Speed up sorting SpriteBatch modes by avoiding excessive copying of vertex information,2019-01-30,Merged,235,256,111,,0
+Speed up sorting SpriteBatch modes by avoiding excessive copying of vertex information,2019-01-27,Closed,234,294,122,,0
+[DNM] Workaround for MFi BigButton bug,2019-01-30,Closed,232,48,0,,1
+Sort indexes only.,2019-01-14,Closed,230,100,48,,1
+High DPI Support for iOS,2018-11-30,Merged,218,36,0,,1
+Fix for orientation distortion,2018-11-30,Merged,217,37,5,,3
+Orientation Support,2018-11-28,Merged,216,96,6,,3
+OnXACTNotification needs MonoPInvokeCallback attribute,2018-11-18,Merged,214,1,0,,1
+Endian-swap fmt header in SoundEffectReader for X360 content,2018-11-12,Merged,213,32,6,,1
+Added ability to compile effects at runtime from GLSL,2018-11-10,Closed,212,"7,717",2,,1
+Added msvcrt dllmap for iOS,2018-11-09,Merged,211,3,0,,1
+Refactoring of OpenGL devices,2018-11-07,Closed,210,226,874,,1
+FakeRWops delegate functions need MonoPInvokeCallback attribute,2018-11-05,Merged,209,5,0,,1
+More iOS fixes,2018-11-05,Merged,208,36,1,config cs ,6
+Texture from stream fix2,2018-11-02,Merged,207,1,1,,1
+Added rewind to the start of the stream at the Texture2D.FromStream,2018-11-01,Merged,206,5,0,,1
+CoreRT AOT support,2018-10-25,Closed,205,187,174,,1
+Add Touch Support,2018-10-25,Merged,204,920,17,cs ,5
+Replace IGLBuffer and the derived classes with GLBuffer struct to avo…,2018-06-28,Closed,187,282,544,,1
+Add missing keycodes,2018-06-30,Merged,186,3,1,,1
+Bartwe/gl buffer,2018-06-27,Closed,185,"2,980","9,471",csproj config Makefile README ,6
+Add SoundEffect NewSoundEffectPointerEXT comparable to Texture SetDat…,2018-06-27,Closed,184,92,33,,7
+Do not leak a string for every keypress.,2018-06-27,Merged,183,21,16,,1
+Add Texture2D.SetDataPointerEXT like on the VertexBuffer,2018-06-27,Merged,182,144,54,,6
+Fix misnamed property reference in Rectangle.Offset doc,2018-06-16,Merged,181,1,1,,1
+Fix Vector3 / operator docs,2018-06-02,Merged,179,1,1,,1
+Make parameters in operator overloads match,2018-06-01,Closed,178,16,16,,1
+Fix misnamed param documentation in Rectangle.Equals,2018-06-01,Merged,177,1,1,,1
+Fix MemoryStream buffer privacy ambiguity,2018-05-19,Merged,176,98,26,cs ,5
+Make threadsafe FrameworkDispatcher.EnqueueSoundEffectInstanceStop,2018-05-22,Closed,174,35,5,,2
+throw the actual error text inside OpenGLDevice for DEBUG_TYPE_ERROR_ARB,2018-05-13,Merged,173,2,2,,2
+Added IsUnclampedEXT property to SoundEffectInstance,2018-05-14,Closed,171,21,10,,1
+Use DeadSounds as a queue for sounds that need to be stopped.,2018-05-13,Closed,170,8,4,,1
+Add SetDataPointerEXT to VertexBuffer too,2018-05-10,Closed,169,19,0,,1
+Prevent propagating MediaPlayer's Volume property to already disposed Songs,2018-05-10,Merged,168,4,1,,1
+Fix TitleLocation.Path regression,2018-05-10,Closed,167,18,7,,1
+Allow .NET 4.0 projects to reference FNA.Core,2018-04-16,Merged,161,1,1,,1
+fix openbsd and freebsd library names,2018-04-07,Merged,160,8,4,,1
+Add volume keys to mappings,2018-03-28,Merged,159,7,1,,1
+Handle issue with memory stream internal array may have an _origin offset or might be larger than the memorystream itself,2018-03-07,Closed,155,12,8,,3
+"Allow calls to Apply3D(AudioListener[] listeners, AudioEmitter emitte…",2018-02-08,Merged,151,9,0,,1
+[WIP] Replace Audio implementation with FAudio,2018-09-10,Merged,148,"2,336","8,486",csproj config Makefile README lib/FAudio lib/OpenAL-CS lib/Vorbisfile-CS LICENSE ,10
+"Add internal fields to SpriteFont: lineSpacing, spacing",2017-12-05,Merged,143,27,4,,1
+ExternalReferenceReader.TargetType is null in XNA,2017-11-05,Merged,140,5,2,,2
+Fix wrong dimensions being passed to X360TexUtil,2017-11-05,Merged,139,9,3,,1
+Allow negative source width / height in SpriteBatch,2017-11-02,Merged,138,28,28,,1
+Xbox 360 DXT3 and DXT5 texture swappers fixed,2017-10-30,Merged,137,16,23,cs ,2
+Fix X360TexUtil fail if !SupportsS3tc and add (untested) X360 Dxt1 / Dxt5 swap,2017-10-29,Merged,136,202,32,,2
+Add ContentReader.platform internal field; Attempt to convert X360 Tex2Ds,2017-10-24,Merged,135,102,2,cs ,6
+Merge pull request #1 from FNA-XNA/master,2017-08-07,Closed,123,0,0,,0
+Fix typo in BoundingSphere.Contains(),2017-05-24,Merged,119,1,1,,1
+Add support for input of multiple character,2017-04-20,Merged,117,2,2,,1
+[VideoPlayer] Replace TheoraPlay with Theorafile,2017-03-22,Merged,111,235,303,csproj config Makefile ignore lib/TheoraPlay-CS lib/Theorafile cs ,10
+Adds file drop support.,2017-03-08,Closed,108,13,0,,2
+Rpc sound vs track,2017-02-03,Merged,102,37,15,,2
+Don't process a new play wave event if we are already stopping.,2016-12-30,Merged,100,5,1,,1
+Support random offset,2016-12-30,Closed,99,"1,269",850,,0
+Support repeating events,2016-12-30,Closed,98,"1,268",850,,0
+Event instances,2016-12-30,Closed,97,"1,239",850,,0
+Attack/Release RPC,2016-12-30,Merged,96,128,22,,3
+Fix issue with rpc track volumes.,2016-12-30,Closed,95,6,7,,1
+Event system and RPC enhancements,2016-12-30,Closed,94,"1,190",748,,1
+Add error checking for SetVariable flags,2016-12-20,Merged,93,15,0,,1
+Fix additive volume calculations. They should be in decibel space.,2016-12-17,Closed,92,21,11,,2
+Event types,2016-12-15,Merged,91,482,141,,1
+Fix clamping range to +/- 2 octaves.,2016-12-12,Closed,88,1,1,,1
+Address various XACT cue state inaccuracies,2016-12-13,Merged,85,13,8,,1
+Volume differences,2016-12-04,Closed,81,82,19,,3
+Doppler,2016-12-04,Closed,79,79,18,,2
+Fix various discovered pitch issues,2016-12-04,Merged,77,20,8,,2
+Pause resume subcategories,2016-11-24,Merged,75,12,0,,1
+Vector exact float equality,2016-11-01,Merged,67,24,18,,3
+Reduced some attachment array garbage generation in SetRenderTargets,2016-10-27,Closed,64,29,20,,3
+"Rectangle.Contains(ref Rectangle, out result) treats passed rectangle like a point",2016-08-25,Merged,56,2,2,,1
+Normalized* family of packed vectors does not work for negative values.,2016-08-25,Merged,55,38,28,,4
+Short2 and Short4 packing fix.,2016-08-08,Merged,50,4,4,,2
+Fixed invalid parameter order in Vector4.Hermite.,2016-07-14,Merged,41,2,2,,1
+Vector2.Transform(Quaternion) fix.,2016-07-14,Merged,40,5,6,,1
+Log any errors from mojoshader after calling MOJOSHADER_parseEffect.,2016-05-06,Closed,25,26,1,,1
+Fix for clearing a MediaQueue containing a disposed Song.,2016-03-17,Merged,19,6,3,,1

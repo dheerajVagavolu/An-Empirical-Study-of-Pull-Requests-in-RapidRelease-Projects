@@ -1,0 +1,272 @@
+Fix channel ID problem with multiple gateways (discord). Fixes #953,2020-01-09,Merged,977,9,19,,3
+Update to tengo v2,2020-01-09,Merged,976,"11,404","11,830",mod sum yml ,14
+Update dependencies,2020-01-09,Merged,975,"72,952","42,722",sum md go ,3
+Whatsapp media (jpeg/png/gif) bridging (rebase),2020-01-09,Merged,974,205,43,mod ,4
+move stripCustomoji logic to default Tengo script,2020-01-09,Merged,973,7,7,tengo ,3
+README: Add link to Ansible role for Matterbridge,2020-01-01,Merged,968,1,1,,0
+Return when we have only WebhookURL (mattermost). Fixes #954,2019-12-15,Merged,960,1,2,,1
+Update slack vendor to fix regression,2019-12-08,Merged,959,5,3,sum go txt ,3
+Update slack vendor to master,2019-12-07,Merged,958,263,60,sum yml go ,15
+Re-add binary to .gitignore,2019-11-25,Merged,951,2,0,,1
+Upgrade linter and travis to go1.13,2019-11-17,Merged,949,7,6,yml sh ,3
+Switch to new emoji library kyokomi/emoji,2019-11-17,Merged,948,"4,381","20,600",go mod sum com/matterbridge/emoji/LICENSE md ,7
+Update shazow/ssh-chat dependency,2019-11-17,Merged,947,"1,518",16,sum com/shazow/ssh-chat/NOTICE go com/shazow/ssh-chat/sshd/terminal/LICENSE ,8
+Update markdown parsing library to github.com/gomarkdown/markdown. Fixes (#927),2019-11-17,Merged,944,"8,282","47,873",mod sum gitignore gitpod yml txt ,6
+Use own slack fork to fix #937,2019-11-13,Merged,943,37,4,sum go txt ,6
+Update vendor,2019-10-26,Merged,932,"5,087","2,538",mod sum ,3
+Remove obsolete file upload links (discord). Fixes #908,2019-10-26,Merged,931,0,12,,1
+Convert slack bold/strike to correct markdown (slack). Fixes #918,2019-10-26,Merged,930,31,0,,2
+Add support for uploading application/x and audio/x (matrix). Fixes #925,2019-10-26,Merged,929,14,1,,1
+Update vendor matterbridge/gomatrix fork,2019-10-26,Merged,928,212,89,sum yml ,3
+Update gitlab.com/golang-commonmark/linkify vendor and use upstream again. Fixes #924,2019-10-26,Merged,926,15,11,sum yml go txt ,4
+Add support for receiving attachments (keybase),2019-11-01,Merged,923,27,4,,1
+Fix panic on WebhookURL only setting (mattermost). Closes #916,2019-10-03,Merged,917,5,0,,1
+discord: user typing messages,2019-10-03,Merged,914,24,1,,3
+slack: suppress unhandled HelloEvent message,2019-10-03,Merged,913,4,3,,2
+Specify correct GuildID on unknown user query.  Fixes #879,2019-09-15,Merged,894,4,4,,2
+RocketChat: add token support.,2019-09-13,Merged,892,8,0,sample ,2
+Do configuration validation on start-up. Fixes #888,2019-09-09,Merged,889,38,1,,4
+Update dependencies,2019-09-07,Merged,886,"24,318","16,607",sh mod ,3
+Update lrstanley/girc vendor,2019-09-07,Merged,884,420,101,sum go ,5
+Bail if incorrect Jid (xmpp). Fixes #869,2019-09-07,Merged,883,3,0,,1
+Replace bwmarrin/discordgo with matterbridge/discordgo,2019-08-26,Merged,878,74,7,sum go txt ,4
+Keybase Chat support,2019-08-26,Merged,877,"5,408",566,go mod sum sample com/keybase/go-keybase-chat-bot/LICENSE ,8
+Update Rhymen/go-whatsapp vendor,2019-08-26,Merged,876,509,40,sum md go ,5
+make getChannelIdTeam behave like GetChannelId for groups,2019-09-07,Merged,873,13,14,,1
+Support for webhook files in discord,2019-08-28,Merged,872,69,36,mod ,3
+Fix regression (discord). Closes #864,2019-07-29,Merged,866,1,1,,1
+Add support for discord category channels (discord),2019-07-15,Merged,863,54,23,sample ,3
+Fix #860: discord channel & category name clash,2019-07-14,Merged,861,24,6,,2
+Fix panic by checking slice bounds in handleEntities (telegram). Fixes #857,2019-07-08,Merged,858,9,3,,1
+Support webhook message deletions (discord),2019-07-08,Merged,853,53,9,,3
+Update vendor,2019-06-16,Merged,852,"71,442","6,856",sum md go ,12
+Support bulk deletions (discord),2019-06-16,Merged,851,22,0,,2
+Add .gitignore,2019-06-16,Merged,850,5,0,,1
+Add an option to skip the Mattermost server version check,2019-06-16,Merged,849,21,14,,4
+Fix regression in autojoining with legacy tokens (slack). Fixes #651,2019-06-13,Merged,848,18,2,,2
+Allow messages with timestamp (xmpp). Fixes #835,2019-06-13,Merged,847,1,1,,1
+Revert xmpp to orig behaviour. Closes #844,2019-06-13,Merged,846,1,1,,1
+Update github.com/Rhymen/go-whatsapp vendor. Fixes #843,2019-06-13,Merged,845,217,58,mod sum md ,9
+Fixing #835 and writing config.go and matterbridge.toml.sample entries,2019-07-29,Closed,839,13,2,sample ,3
+Fix go mod issue by removing whatsapp-ext,2019-06-02,Merged,838,34,"1,486",mod sum ,6
+Fix broken go.mod,2019-06-01,Closed,837,"71,983","8,886",mod sum matterbridge md ,4
+Xmpp stamp.is zero fixing issue #835,2019-06-02,Closed,836,134,78,,1
+"XMPP: verify TLS against JID domain, not the host.",2019-06-13,Merged,834,1,1,,1
+Merge upstream changes.,2019-05-28,Closed,833,1,1,,1
+Only forward user-typing messages if supported by protocol,2019-05-30,Merged,832,45,30,,2
+Clean-up XMPP handling code,2019-05-30,Merged,831,129,77,,1
+Disable user lookups on delete messages (slack),2019-04-23,Merged,812,11,11,,1
+Add lacking clean-up in Slack synchronisation,2019-04-23,Merged,811,5,4,,1
+Use upstream whatsapp again,2019-05-30,Merged,809,"2,145","1,257",mod sum gitignore com/Rhymen/go-whatsapp/LICENSE md proto ,13
+Per default don't strip IRC colors to IRC channels (tengo),2019-04-19,Closed,807,26,3,,4
+Add scripting (tengo) support for every outgoing message,2019-04-19,Merged,806,383,7,tengo ,5
+Add verbose IRC joins/parts (ident@host),2019-04-18,Merged,805,13,2,sample ,3
+Show IRC colors when bridging to IRC,2019-08-29,Closed,801,42,6,,14
+Add remotenickformat-zerowidth.tengo to contrib,2019-04-14,Merged,799,16,0,,1
+Add useraction support (rocketchat). Closes #772,2019-04-08,Merged,794,5,0,,1
+Add tengo support to RemoteNickFormat,2019-04-08,Merged,793,98,0,tengo sample ,4
+Update tengo vendor and load the stdlib. Fixes #789,2019-04-06,Merged,792,"7,008","1,292",mod sum com/d5/tengo/Makefile md ,6
+CI fixes and improvements,2019-04-04,Merged,780,74,61,yml sh ,5
+Ignore message_replied and hidden messages (slack). Fixes #709,2019-03-27,Merged,779,12,6,,1
+"telegram: bail if any vars are nil, not if all",2019-03-27,Merged,778,2,2,,1
+Look up #channel too (rocketchat). Fix #773,2019-03-24,Merged,775,1,1,,1
+fix double unlock,2019-03-21,Merged,771,0,1,,1
+Allow the # in rocketchat channels (backward compatible),2019-03-20,Merged,769,7,2,,1
+Fix regression for legacy slack by #766,2019-03-20,Merged,768,6,2,,1
+Fix race-condition in populateUser(),2019-03-20,Merged,767,38,12,,1
+Refactor channel and user management,2019-03-15,Merged,766,138,94,,3
+Force Slack link unfurling,2019-03-12,Merged,763,5,1,,1
+Split-out Slack user and channel management,2019-03-12,Merged,762,239,230,go ,3
+Check module files in CI run,2019-03-12,Merged,761,8,2,sum ,2
+Trim <p> and </p> tags (matrix). Closes #686,2019-03-02,Merged,753,8,1,go ,2
+Do not send duplicate messages (rocketchat). Fixes #745,2019-03-02,Merged,752,21,7,,2
+Need to specify /topic:mytopic for channel configuration (zulip).,2019-03-02,Merged,751,21,29,sample ,3
+Use whatsapp forks,2019-03-02,Merged,750,"1,857",796,mod sum gitignore com/matterbridge/go-whatsapp/LICENSE md proto ,23
+#747 Hotfix: websocket close,2019-03-02,Closed,749,1,1,,1
+Do not relay any bot messages (discord),2019-02-28,Merged,743,1,1,,1
+Handle file upload/download only once for each message,2019-02-27,Merged,742,5,1,,1
+Add MediaConvertWebPToPNG option (telegram).,2019-02-26,Merged,741,"4,317",0,go mod sum sample org/x/image/AUTHORS org/x/image/CONTRIBUTORS org/x/image/LICENSE org/x/image/PATENTS ,13
+Fail gracefully on incorrect human input. Fixes #739,2019-02-26,Merged,740,3,0,,1
+Print errors as string instead of %#v (discord),2019-02-26,Merged,738,4,4,,2
+Keep reconnecting until succeed (zulip),2019-02-26,Merged,737,7,5,,1
+Add support for URL in messageEntities (telegram). Fixes #735,2019-03-02,Merged,736,24,0,go ,2
+Do not send topic changes on connect (xmpp). Fixes #732,2019-02-23,Merged,733,20,1,,1
+Add scripting (tengo) support for every incoming message,2019-02-23,Merged,731,"14,201",0,go tengo mod sum sample com/d5/tengo/LICENSE ,17
+Support rewriting messages from relaybots using ExtractNicks. Fixes #466,2019-02-23,Merged,730,248,0,sample ,4
+Make all loggers derive from non-default instance (rebase),2019-02-23,Merged,728,"2,932",268,,5
+allow sending discriminator with Discord username,2019-02-22,Merged,726,9,1,sample ,3
+Support quits from irc correctly. Fixes #722,2019-02-17,Merged,724,21,1,,2
+Allow zulip bridge to specify topic per channel. Closes #701,2019-02-17,Merged,723,26,1,sample ,3
+Support join/leaves from discord. Closes #654,2019-02-17,Merged,721,56,0,,3
+Allow regexs in ignoreNicks. Closes #690,2019-02-17,Merged,720,45,45,sample ,3
+Detect html nicks in RemoteNickFormat (matrix). Fixes #696,2019-02-17,Merged,719,8,1,,1
+Upgrade to latest girc version,2019-02-16,Merged,718,171,188,mod sum ,9
+Send username when uploading video/images (matrix). Fixes #715,2019-02-16,Merged,717,6,0,,1
+Send notices on join/parts (matrix). Fixes #712,2019-02-16,Merged,716,9,0,,1
+WhatsApp support,2019-02-21,Merged,711,"24,187","3,456",go ,3
+Refactor and update RocketChat bridge,2019-02-15,Merged,707,"6,201",43,,2
+Clarify dev chat info,2019-02-05,Merged,700,1,1,,0
+Allow clients to bridge non-bot Discord users,2019-01-14,Merged,689,5,0,,1
+matrix: fix displaying usernames for plain text clients.,2019-01-09,Merged,685,1,1,,1
+Hint at thread replies when messages are unthreaded,2019-02-10,Merged,684,19,0,,3
+Slack: Mark edited messages with a pencil icon,2019-03-11,Closed,683,1,0,,1
+Discord: Mark edited webhook messages with a pencil icon,2019-03-11,Closed,682,18,4,,1
+Discord: Only require one webhook,2019-01-09,Merged,681,42,8,,1
+Improve error reporting on failure to join Discord,2019-01-07,Merged,680,15,1,,1
+Add initial support for getting ChannelMember info of all bridges,2019-01-18,Merged,678,189,21,,7
+xmpp.org #676,2019-01-06,Merged,677,1,1,,0
+Sshchat fixes,2019-01-05,Merged,675,6,3,,1
+Fix #668 strip lang in code fences sent to Slack,2019-01-04,Merged,673,7,0,,2
+Add support for markdown to HTML conversion (matrix). Closes #663,2019-01-06,Merged,670,"40,959",6,mod sum yml com/golang-commonmark/html/LICENSE md ,7
+Update pinned golangci-lint version,2018-12-30,Merged,666,1,1,,1
+Logging rewiring - derive from non-default root logger,2019-02-23,Closed,664,"2,930",266,,5
+Logging rewiring - Import linting,2018-12-26,Merged,662,42,43,,10
+SSHChat - fix connection logic and remove send bug,2018-12-26,Merged,661,28,13,,1
+Slack download issue,2018-12-19,Merged,656,8,2,,1
+Add wait option for populateUsers/Channels. Fixes #579,2018-12-15,Merged,653,16,10,,3
+Refactor sshchat bridge,2018-12-12,Merged,650,20,18,,1
+Refactor telegram bridge,2018-12-12,Merged,649,46,35,,2
+Refactor gateway,2018-12-12,Merged,648,435,237,,1
+Enable errcheck linter,2018-12-08,Merged,646,37,25,go ,7
+Enable gosec linter,2018-12-05,Merged,645,14,9,go ,5
+[slack] populate users on member channel join,2018-12-15,Merged,644,23,0,,2
+"[readme] Add FOSSRIT/infrastructure, alphabetically sort related project list",2018-12-04,Merged,643,5,4,,0
+Add lightweight Swagger API docs,2019-01-09,Closed,637,183,5,go png yaml ,3
+Move golangci-lint configuration to file,2018-12-05,Merged,635,221,7,yml go ,3
+Add note about slack/slack-legacy issues on threading,2018-12-03,Merged,634,2,0,,1
+Clean-up TravisCI config and add test coverage,2018-12-02,Merged,633,17,16,,1
+Split Discord bridge in multiple files,2018-12-07,Merged,632,412,257,,1
+Refactor steam bridge,2018-12-07,Merged,630,131,90,,2
+Refactor handleUploadFile (matrix),2018-12-03,Merged,629,46,37,,1
+Add support for mattermost threading,2019-01-09,Merged,627,12,11,,3
+Make slack-legacy change less restrictive,2018-12-02,Merged,626,3,8,,1
+[Slack] Threading breaks on complex gateways with multiple sub-protocols,2018-12-01,Closed,624,28,119,,4
+Refactor mattermost,2018-11-30,Merged,622,422,344,,1
+Tidy up fetching of config values,2018-11-30,Merged,616,6,12,,1
+Refactor matterclient,2018-11-29,Merged,613,848,783,,1
+Refactor irc handlers. Fix linting,2018-11-28,Merged,611,304,259,,1
+DRY out getChannelsByX functions to make codeclimate happy,2018-11-28,Merged,610,7,9,,1
+Refactor telegram handlers. Fix linting,2018-11-28,Merged,609,306,278,,2
+"Remove double "" from Discord gateway webhookurl=",2018-11-25,Merged,607,1,1,,1
+Make sure threaded files stay in thread (slack). Fixes #590,2018-11-25,Merged,606,13,4,,1
+Handle deleted/edited thread starting messages (slack). Fixes #600,2018-11-25,Merged,605,8,0,,2
+Add option to send RAW commands after connection (irc). Fixes #490,2018-11-25,Merged,604,16,0,sample ,3
+Add option to ignore failing bridge on start. Fixes #455,2018-11-25,Merged,603,38,2,sample ,3
+Extract bridgeMap into own package to improve testability,2018-11-30,Merged,601,43,34,,5
+Upgrade logrus / testify to stable versions,2018-11-18,Merged,598,"57,744","14,202",sum gitignore yml com/BurntSushi/toml/COMPATIBLE com/BurntSushi/toml/COPYING com/BurntSushi/toml/Makefile ,7
+Fix message threading (with tests),2018-11-17,Closed,597,58,25,,6
+Add protocol to msg.ID in cache,2018-11-19,Merged,596,20,25,,5
+Update nlopes/slack to 4.1-dev,2018-12-01,Merged,595,674,514,mod sum yml ,8
+[WIP] add base protocol concept to improve shared state between compatible bridge protocols,2018-11-17,Closed,594,6,2,,2
+Fix golint linter issues and enable it in CI,2018-11-15,Merged,593,147,145,go ,8
+Bugfixed regression in skip logic,2018-11-15,Merged,592,6,1,,1
+Fix and enable goimports linter,2018-11-15,Merged,591,7,9,go ,3
+#584 Fix IRC line splitting,2018-11-14,Merged,587,158,91,,5
+Make config.Config more unit-test friendly,2018-11-13,Merged,586,188,70,,4
+Sync channel topics over gateway (slack),2018-11-26,Merged,585,123,9,sample ,7
+Restore file comments coming from Slack,2018-11-12,Merged,583,25,29,,2
+#510 New Slack connection and forked legacy Slack bridge,2018-11-13,Merged,582,136,66,,4
+#579 Add Slack rate-limit handling,2018-11-10,Merged,581,138,55,,2
+Improved user_typing botname suggestion,2018-11-09,Merged,580,2,2,,1
+Improve README formatting (incl codeclimate badges),2018-11-09,Merged,578,72,42,gif ,1
+[Slack] Bugfix for file sharings (recursive upload spam),2018-11-14,Merged,575,24,13,,2
+Fix Slack edit usernames,2018-11-08,Merged,570,29,19,,2
+Do not join Slack channel without API access,2018-11-07,Merged,563,5,0,,1
+Clean up config loading,2018-11-07,Merged,561,18,22,,1
+Add ability to show when user is typing across Slack bridges,2018-11-08,Merged,559,55,3,sample ,5
+Hint at thread replies when messages are unthreaded,2019-01-10,Closed,557,61,10,,4
+Add a ping keepalive endpoint to API,2018-11-07,Merged,554,5,0,,1
+Crash with divide by zero error if message sent before API endpoint viewed,2018-11-05,Merged,552,4,1,sample ,2
+Add auto-generated Swagger API docs,2018-12-03,Closed,551,"42,514",19,md go sh ,4
+[API] respond with message on connect,2018-11-02,Merged,550,9,0,,2
+Use mainline gitter,2018-10-31,Closed,547,1,1,,1
+"When auto-loading envvars from viper config, remove hyphens",2018-11-03,Merged,545,1,1,,1
+Split up cookie token and personal token. Fixes #530,2018-10-26,Merged,540,29,10,,2
+Prevent Slack API rate-limit overflow,2018-11-01,Merged,539,35,0,,1
+CodeClimate test PR,2018-10-23,Closed,538,261,246,,1
+Add editorconfig support,2018-10-24,Closed,537,2,0,,1
+Slack bridge no longer POSTing username and avatar,2018-10-24,Merged,536,4,2,,1
+Refactor and clean-up handlers.,2018-11-07,Merged,533,245,212,,1
+Update Blackfriday dependency,2018-10-22,Merged,532,"2,532","2,287",mod sum yml md ,4
+Clean-up message send logic.,2018-10-22,Merged,531,94,87,,1
+Opportunistically preserve threading between Slack instances,2018-11-07,Merged,529,66,11,go sample ,5
+[WIP] Allow toml configuration to be parsed from remote/local URL,2018-11-07,Closed,525,125,13,sample ,4
+Clean-up user and channel information management,2018-10-16,Merged,521,99,72,,3
+Gateway test race fix.,2018-10-12,Merged,520,132,29,,1
+Code clean-up and strengthening,2018-10-12,Merged,519,243,172,,1
+Bump Go version in Travis CI,2018-10-12,Merged,518,3,5,sh go ,3
+Slack bridge file shuffle,2018-10-12,Merged,517,453,447,,1
+Allow origin CHANNEL to be used in RemoteNickFormat,2018-10-23,Merged,515,16,66,sample ,2
+[WIP] Add Google Translation ability,2018-11-17,Closed,512,"148,538","13,175",md go ,5
+Update of nlopes/slack dependency,2018-10-07,Merged,511,992,92,sum toml md lock go ,7
+various cleanups,2018-11-07,Merged,508,77,54,,11
+Test travis conf,2018-09-27,Closed,507,29,0,,1
+fix discord mentions cuttíng off all text after the mention,2018-09-29,Merged,506,1,1,,1
+Add Gateway's name to RemoteNickFormat,2018-10-07,Merged,501,2,1,,2
+fix Discord mentions by populating the nickMemberMap at connect,2018-09-17,Merged,498,19,1,,1
+Add Mattereddit to README.md,2018-09-01,Merged,493,2,1,,0
+Replace @... string with user mention if match found,2018-09-12,Merged,492,46,0,,1
+Stop numbers being stripped after non-color control codes,2018-07-11,Merged,465,1,1,,1
+Add channel password support for XMPP,2018-06-18,Merged,451,13,8,sample ,3
+Readme - link fix and minor clarification added.,2018-06-18,Merged,450,3,1,,0
+Add Title from attachment slack message,2018-06-13,Merged,446,4,1,,1
+Reconnect on quit 431,2018-06-09,Merged,445,69,54,,15
+Add config option MediaUploadPath,2018-06-08,Merged,443,87,38,sample ,4
+Add message correction support for XMPP,2018-05-29,Merged,437,17,3,,1
+Fix small regexp bug,2018-05-29,Merged,435,1,1,,1
+quick fix - prevent white or black IRC nickname foreground colors,2018-05-29,Merged,434,2,1,,1
+Fix issue #432 - Avatar spoofing from Slack with uppercase in nick,2018-05-26,Merged,433,1,1,,1
+Fix format string bug,2018-05-18,Merged,428,1,1,,1
+End IRC username formatting with a total formatting reset,2018-05-18,Merged,425,1,1,,1
+Solve light-on-light and dark-on-dark nickname colors problem,2018-06-14,Closed,424,55,2,sample ,2
+Colorize username sent to IRC using its crc32 IEEE checksum,2018-05-11,Merged,423,13,2,sample ,3
+Send attached files to XMPP in different message with OOB data and without body,2018-05-09,Merged,421,5,0,,1
+Send mediaserver link to Discord in Webhook mode,2018-04-17,Merged,405,6,0,,1
+Properly set Slack user who initiated slash command,2018-04-25,Merged,394,13,8,,1
+Strip markdown URLs with blank text,2018-03-22,Merged,392,11,6,,1
+Print list of valid team names when team not found,2018-03-15,Merged,390,5,1,,1
+Truncate messages sent to IRC based on byte count,2018-02-08,Merged,368,6,2,,1
+Add space between colon and URL for uploaded media,2018-02-01,Merged,360,4,4,,4
+Allow ShowJoinPart config to work for Slack bridges,2018-02-02,Closed,352,1,1,,1
+Enable Long Polling for Telegram. Reduces bandwidth consumption.,2018-01-29,Merged,350,3,1,,1
+Use cmosh/alpine-arm to build arm docker images,2018-01-27,Merged,347,1,1,,1
+Convert received IRC channel names to lowercase. Fixes #329,2018-01-06,Merged,330,1,1,,1
+allow matrix to send localpart of username,2017-12-08,Closed,312,2,0,,1
+Add support for bridging to individual steam chats.,2017-11-07,Merged,294,7,2,,1
+Slack <=> gitter bridge is confusing machine name with human-readable gitter channel name,2017-11-07,Merged,293,1,1,,1
+Add systemd service file,2017-11-03,Merged,291,11,0,,1
+Fix build on go1.9.2,2017-11-03,Closed,290,1,1,,1
+"Handle variables (@here, @channel, etc.) in Slack message",2017-11-03,Merged,288,14,0,,1
+Remove angle-brackets from urls coming out of slack,2017-10-26,Merged,287,1,1,,1
+Slack channels should be resolved to human-readable format (when piped into Telegram),2017-11-02,Merged,282,9,0,,1
+Fixed outdated sample config on slack channel format,2017-10-20,Merged,280,1,1,,1
+"[general] settings should be default, not total override (specifically RemoteNickFormat)",2017-10-20,Merged,279,3,3,sample ,2
+Use bot username if specified (slack). Closes #273,2017-10-12,Merged,275,3,0,,1
+remove comment about useAPI in sample configuration,2017-09-04,Merged,251,0,1,,1
+remove useAPI from sample configuration,2017-09-04,Merged,250,0,1,,1
+Added new file_ids parameter for Mattermost outgoing webhook,2017-08-16,Merged,240,1,0,,1
+Add UseUserName option (discord),2017-08-01,Merged,234,11,1,sample ,3
+Suppress parent message when child message is received,2017-07-17,Merged,218,1,1,,1
+Add webhook posting mode for discord.,2017-06-26,Merged,204,32,1,sample ,3
+remove second flag.Parse(),2017-06-14,Merged,196,0,1,,1
+Matterbridge as a linux systemd service,2017-11-03,Closed,176,123,0,d/matterbridge ,1
+Fix JoinChannel argument to use IRC channel key,2017-05-21,Merged,172,1,1,,1
+Add Compatibility for Cisco Jabber,2017-05-11,Merged,166,1,1,,1
+Add http.ProxyFromEnvironment to use default env var like in net/http…,2017-05-08,Merged,162,1,1,,1
+[TO CLOSE] Add http.ProxyFromEnvironment to use default env var like in net/http…,2017-05-04,Closed,157,1,1,,1
+Fix tls in xmpp by setting ServerName,2017-01-18,Merged,114,1,0,,1
+Handle SkipTLSVerify for XMPP client,2017-01-13,Merged,106,10,0,sample ,2
+Update matterbridge.toml.sample,2017-01-03,Merged,104,4,0,,1
+Telegram: add markdown,2017-01-06,Merged,103,63,3,,1
+Telegram: Fix the missing username,2016-12-17,Merged,102,1,1,,1
+Allow PrefixMessagesWithNick on Telegram,2016-12-17,Closed,93,6,1,,1
+Add SkipTLSVerify in xmpp,2017-01-13,Closed,81,1,0,,1
+Close open strings in matterbridge.conf.sample,2016-10-24,Merged,54,3,3,,1
+Gather all names before printing them.,2016-03-24,Closed,17,22,8,,1
+Add Freenode style NickServ-based authentication.,2016-03-21,Merged,16,26,13,,2
+Handle connects asynchroneously.,2016-03-21,Merged,15,24,13,,1
+Enable users take 2,2016-03-18,Merged,14,94,23,go sample ,3
+Enable !users command and add a table formatter,2016-03-18,Closed,13,55,2,go sample ,3
+Add config option to prefix messages (IRC->MM) with nick,2016-03-18,Merged,12,17,9,go sample ,3
+Add PASS support as per RFC1459,2016-01-28,Merged,8,4,0,,2
+Add authorization and parametrize nick names.,2016-02-18,Closed,2,19,3,sample ,3

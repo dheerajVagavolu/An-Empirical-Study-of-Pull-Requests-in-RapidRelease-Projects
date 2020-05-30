@@ -1,0 +1,218 @@
+Mesosphere: Implement KernelLdr (8.0.0+),2019-12-31,Merged,770,"3,843",50,s fusee/fusee-secondary/Makefile ld c h libraries/Makefile mk ,13
+pm: fix busy loop on <5.0.0 when processes exit,2019-12-13,Closed,761,14,1,hpp ,3
+loader: fix ECS after new-ipc rewrite,2019-12-13,Merged,760,37,12,,1
+Vapourware,2019-12-10,Merged,744,649,"1,103",Makefile h ini txt ips exosphere/Makefile exosphere/lp0fw/Makefile c fusee/fusee-secondary/Makefile s gitignore gitmodules gitrepo stratosphere/libstratosphere/LICENSE → libraries/LICENSE libraries/Makefile md mk ,48
+New IPC,2019-12-07,Merged,707,"24,504","20,919",ini h c stratosphere/Makefile ,9
+"Allow system, application and applet memory to be set manually",2019-11-14,Closed,697,42,5,cpp ,2
+dmnt_cheat_vm: Correct register Restore and ClearRegs behavior,2019-12-07,Merged,683,2,2,,1
+Changed reboot logic,2019-09-19,Closed,669,6,64,,1
+dmnt: refactor to use sts namespace,2019-09-18,Merged,665,"3,689","4,306",json cpp hpp ,4
+Implement support for 9.0.0.,2019-09-14,Merged,658,841,132,ips h md gitrepo c ,13
+Enable ccache,2019-07-21,Closed,634,48,14,exosphere/Makefile exosphere/lp0fw/Makefile exosphere/rebootstub/Makefile exosphere/sc7fw/Makefile fusee/fusee-primary/Makefile fusee/fusee-secondary/Makefile sept/sept-primary/Makefile sept/sept-secondary/Makefile sept/sept-secondary/key_derivation/Makefile stratosphere/ams_mitm/Makefile stratosphere/boot/Makefile stratosphere/creport/Makefile stratosphere/dmnt/Makefile stub/Makefile stratosphere/fatal/Makefile stratosphere/libstratosphere/Makefile stratosphere/loader/Makefile stratosphere/pm/Makefile stratosphere/ro/Makefile stratosphere/sm/Makefile stratosphere/spl/Makefile thermosphere/Makefile troposphere/reboot_to_payload/Makefile ,24
+Fatal: refactor into sts namespace.,2019-07-23,Merged,633,"2,068","1,818",json inc hpp ,5
+defaults: disable screenshot verification by capsrv,2019-07-17,Closed,630,4,1,,1
+creport: refactor to use sts:: namespace.,2019-07-15,Merged,628,"1,194","1,201",hpp ,2
+Fix compilation with latest libnx master,2019-07-08,Merged,625,2,2,,1
+Fix for 4.X units (new strato rework broke a method in spl),2019-07-01,Merged,616,95,93,,6
+pm: complete rewrite,2019-07-12,Merged,606,"2,758","2,205",hpp ,12
+loader: completely rewrite.,2019-06-28,Merged,603,"2,447","5,755",stratosphere/libstratosphere c ,3
+ro: refactor/rewrite into sts:: namespace,2019-06-24,Merged,598,"1,030","1,415",stratosphere/ro/Makefile cpp hpp ,8
+Refactor boot sysmodule to use sts::boot namespace.,2019-06-24,Merged,592,"5,522","6,851",,1
+spl: refactor into sts namespace,2019-06-22,Merged,587,"2,234","2,156",hpp ,5
+Completely re-write sm.,2019-06-22,Merged,585,"1,010",936,stratosphere/sm/Makefile cpp hpp ,7
+sept: use python2 in Makefile,2019-06-20,Closed,584,1,1,,1
+Implement support for 8.1.0,2019-06-19,Merged,577,"3,029",478,ips h c ,12
+Implement support for emummc.,2019-06-16,Merged,567,"24,612",486,h gitignore gitrepo json ,4
+fix usage of ctype macros,2019-06-15,Merged,564,13,13,,1
+Fix documentation for sept's python dependencies,2019-06-12,Merged,563,1,1,,0
+Help compilers with sept clarifications,2019-06-09,Closed,562,3,3,,0
+"dmnt:cht not loading cheats with long cheat names, even if they are just titles/credit",2019-09-17,Closed,561,6,4,,1
+bpcmitm_main: Add missing header guard,2019-06-04,Merged,555,2,7,,1
+I fixed some hbl setting issues in rnx,2019-06-04,Closed,552,56,1,hpp ,3
+Implement rnx and rnx_mitm stub in ams,2019-06-04,Closed,551,43,1,hpp ,3
+setsys_settings_items: Minor cleanup to string buffer management,2019-06-04,Merged,550,17,21,,1
+creport: Add 32 bits stack frames parsing support,2019-05-28,Merged,548,45,17,cpp ,2
+simple sd_save flag,2019-05-17,Merged,545,4,3,,1
+Allow pressing buttons on all controllers in loader (closes #541),2019-05-17,Merged,542,22,6,c ,4
+boot: fix the width of the text splash,2019-05-09,Merged,537,1,1,,1
+Boot: reimplement the boot sysmodule,2019-05-10,Merged,536,"10,803","2,671",fusee/fusee-secondary/Makefile ld s stratosphere/boot/Makefile json ,7
+Fix building on libnx master,2019-05-05,Merged,534,1,1,,1
+Implement PRODINFO blanking and redirection,2019-05-10,Closed,532,140,3,hpp ,3
+Reimplement the SPL sysmodule (closes #92),2019-04-26,Merged,528,"3,116",6,ld s c stratosphere/Makefile stratosphere/libstratosphere stratosphere/spl/Makefile cpp hpp ,9
+Uncomment fatal_auto_reboot_interval and set to 0,2019-04-23,Closed,521,3,2,,1
+Reimplement the ro sysmodule.,2019-04-22,Merged,520,"2,012",739,stratosphere/Makefile stratosphere/libstratosphere cpp hpp ,6
+Implement Auto Reboot Timer (#518),2019-04-22,Merged,519,16,1,cpp hpp ,4
+800 support,2019-04-20,Merged,513,335,99,h md c ,14
+More 2019 Copyrights,2019-04-08,Merged,503,13,13,,13
+Merge pull request #1 from Atmosphere-NX/master,2019-04-08,Closed,502,0,0,,0
+Update README.md,2019-04-07,Closed,501,2,2,,0
+ldr_map: Silence lingering initializer warning,2019-04-05,Merged,500,1,1,,1
+loader: Silence Wmissing-field-initializers warnings,2019-04-05,Merged,499,26,25,,11
+fs_mitm/fs_dir_utils: Amend logic error within IterateDirectoryRecursivelyInternal,2019-04-05,Merged,498,1,1,,1
+fatal_font: Add missing va_end() calls to PrintFormatLine() and PrintFormat(),2019-04-04,Merged,497,8,6,,1
+Add additional dependency information,2019-04-02,Merged,495,4,2,,0
+exosphere: Add new ConfigItem which allows the caller to retrieve the git commit hash.,2019-03-29,Merged,493,7,1,c h ,3
+BCT.md: Atmosphere -> Atmosphère for consistency with other docs.,2019-03-28,Merged,490,4,4,,0
+"Add info to set_mitm docs, clean up loader docs",2019-03-24,Merged,488,47,7,,0
+Fix spelling mistake,2019-03-21,Merged,483,1,1,,0
+Update BCT.md to bring it into the modern age.,2019-03-19,Merged,482,53,6,,0
+"Revert ""Update cheat docs with latest opcodes (#479)""",2019-03-16,Closed,481,5,54,,0
+Update cheat docs with latest opcodes,2019-03-16,Merged,479,54,5,,0
+fs_mitm: Fix mismatched new[] / delete,2019-03-08,Merged,389,16,15,hpp ,3
+Support for expanded NAND by roblâbla,2019-03-06,Closed,385,1,1,,1
+Allow multiple override keys,2019-06-04,Closed,383,126,80,,2
+Add logo credit.,2019-03-01,Closed,381,1,1,,0
+oops,2019-02-24,Closed,378,2,0,enc ,2
+Makefile tweaks,2019-02-24,Merged,376,4,3,sept/sept-secondary/Makefile ,2
+Fix sept-secondary build when using prebuild sept-secondary.enc,2019-02-23,Merged,371,1,0,,1
+Don't skip sept-secondary.bin when SEPT_ENC_PATH is set,2019-02-22,Closed,370,0,0,,0
+Allow the user to build with a prebuilt sept-secondary blob via a SEPT_ENC_PATH variable.,2019-02-22,Merged,365,4,0,,1
+sept_sign: Python 3 compat,2019-02-21,Merged,356,35,25,,2
+Create sept docs,2019-02-20,Closed,352,6,0,,0
+Copy new sept-primary.bin to out folder,2019-02-20,Closed,351,1,0,,1
+fix master kek source index,2019-02-16,Closed,346,2,2,,1
+[Fusee] Refactor Kernel patching,2019-02-13,Merged,343,114,83,,0
+Update readme.md reswitched website,2019-02-24,Merged,339,1,1,,0
+Add component subdirectories to root Makefile's .PHONY,2019-01-25,Merged,333,6,4,,1
+Better issue templates!,2019-01-22,Merged,324,84,21,,0
+Remove '=' file from the root of the repo,2019-01-13,Merged,323,0,0,,1
+loader: add 'override any app' feature,2019-01-09,Closed,321,10,4,cpp ,2
+loader/ECS: don't clear ECS on failure,2019-01-07,Merged,319,37,9,cpp hpp ,3
+loader: add 'override any app' feature,2019-01-09,Merged,317,10,4,cpp ,2
+devkitARM r50-3 buildfix,2018-12-28,Merged,313,2,1,,1
+devkitARM r50-2 buildfix.,2018-12-22,Merged,307,1,0,,1
+stratosphere/Makefile: change KIPS to MODULES,2018-12-21,Merged,306,3,5,,1
+sm: add permissive unregistration extension,2018-12-21,Closed,304,7,1,stratosphere/sm/Makefile cpp ,2
+sm: add query registrations extension,2019-01-20,Closed,302,95,1,cpp hpp ,5
+Add a way for users to identify where builds come from.,2018-12-02,Closed,287,66,3,fusee/fusee-primary/Makefile fusee/fusee-secondary/Makefile stratosphere/boot/Makefile stratosphere/creport/Makefile cpp stratosphere/fatal/Makefile stratosphere/fs_mitm/Makefile stratosphere/loader/Makefile stratosphere/pm/Makefile stratosphere/set_mitm/Makefile stratosphere/sm/Makefile thermosphere/Makefile ,15
+Implement basic BIS Protection routines.,2018-11-29,Merged,277,"1,012",49,hpp c h cpp ,5
+add docs for SetExternalContentSource,2018-11-19,Merged,270,14,0,,0
+Implement custom fatal sysmodule.,2018-11-29,Merged,266,"4,454",16,exosphere/Makefile fusee/fusee-primary/Makefile fusee/fusee-secondary/Makefile stratosphere/Makefile stratosphere/boot/Makefile stratosphere/creport/Makefile hpp cpp stratosphere/fatal/Makefile ,13
+Add build script for use with AppVeyor,2019-01-27,Closed,263,52,0,,1
+Update Changelog for 0.7.4,2018-11-10,Merged,261,20,0,,0
+atmosphere: finish adding set.mitm to dist target,2018-10-30,Closed,254,5,2,,1
+libstratosphere: Refactor everything.,2018-10-30,Merged,252,"3,935","2,734",stratosphere/Makefile json cpp hpp ,9
+Update Changelog for 0.7.3,2018-10-24,Merged,242,7,0,,0
+Update Documentation for 0.7.2,2018-10-24,Merged,240,99,23,,0
+Update fsmitm_utils.cpp,2018-10-19,Closed,234,13,13,,1
+Adding pattern matching functions,2019-01-27,Closed,227,184,0,h ,2
+loader: add SetExternalContentSource extension,2018-10-28,Merged,225,149,13,hpp ,9
+Make sure a title has fs mitm mods/files on the SD before enabling,2018-10-16,Closed,221,8,1,,1
+loader: add SetExtraMemory extension,2018-10-08,Closed,219,62,2,cpp hpp ,5
+Fix ProcesState enum field names,2018-10-16,Merged,218,7,7,,1
+pm: add AtmosphereGetCurrentLimitInfo command to pm:dmnt,2018-10-05,Merged,217,41,2,hpp ,4
+fix typo in thermosphere,2018-10-05,Merged,216,1,1,,1
+Use new npdm-json format,2018-10-31,Merged,215,659,522,,1
+Avoid using duplicate keys in NPDM,2018-09-28,Closed,211,108,108,,2
+Add Documentation,2018-10-05,Merged,210,287,0,,0
+Silenced boot from stage 2,2018-09-28,Merged,209,460,215,h ,9
+fusee: Fix a compiler warning,2018-09-18,Closed,205,1,1,,1
+Exosphere TODOs,2018-09-05,Merged,201,53,32,h ,2
+fusee-primary/sdram: Correct setting of the PMC DDR_PWR register,2018-08-25,Closed,200,1,1,,1
+fusee-primary: Fix always false conditional in xmemmove,2018-08-26,Merged,199,1,1,,1
+added unhandled case and preconditions when using svcWaitSynchronization,2018-09-08,Closed,197,40,3,,2
+[WIP] Awful (and not tested) Multi-User LFS support,2018-11-11,Closed,196,27,2,,1
+Change CondVar API to latest version,2018-09-09,Closed,193,18,21,,1
+Add creport.npdm to `all` rule for stratosphere/creport/Makefile,2018-08-11,Closed,186,1,1,,1
+make all (working) sysmodules compile,2018-08-03,Merged,183,1,1,,1
+fusee-secondary: Correct else-if condition in xmemmove(),2018-07-30,Merged,171,1,1,,1
+fusee-secondary/fs_dev: Correct uninitialized cast within fsdev_seek(),2018-07-30,Merged,170,1,1,,1
+Define wait() in fusee-primary/secondary,2018-07-29,Merged,169,14,0,,2
+stratosphere: Minor cleanup,2018-07-10,Merged,163,97,154,cpp ,16
+Fix issue with fusee-secondary 4.x kernel patches,2018-07-04,Merged,161,3,3,,1
+Stage 1 sdmmc.c update log levels,2018-07-04,Closed,158,43,30,,1
+Replace NAND by eMMC,2018-06-26,Merged,156,1,1,,1
+fusee: Allow declaring yourself knowledgeable via an environment variable,2018-07-20,Closed,153,4,0,,1
+point to ctcaer hekate instead of nwert bc. repo deleted,2018-06-26,Closed,152,1,1,,0
+fusée: Add 1.0.0 kernel patch definitions and add remaining missing hashes/offsets,2018-06-24,Closed,149,58,6,,1
+Fix a few issues in the secondary kernel_patches.c file,2018-06-18,Merged,147,3,3,,1
+Fix compilation,2018-06-18,Closed,146,2,2,,1
+fusee: Add 4.1.0 kernel patch definitions,2018-06-17,Merged,145,51,2,,1
+Modernize C++ usage,2018-06-19,Merged,144,348,369,cpp ,5
+"fusee: Add 3.0.0/3.0.1 kernel hash, corrected 4.x free_code_space_offset",2018-06-17,Merged,141,4,4,,1
+Rework sdmmc clocking configuration,2018-06-13,Merged,138,144,78,c ,4
+fusee: Run periodic autocal only on the uSD controller,2018-06-11,Merged,137,8,2,,2
+SM: Add compile-time option to put a lower bound on session limits,2018-06-10,Merged,136,13,1,cpp ,2
+Fix race conditions and misconfiguration in sdmmc,2018-06-10,Merged,134,82,48,,2
+PM: add GetProcessHandle command to pm:dmnt,2018-06-08,Merged,133,21,0,hpp ,2
+Add sdmmc_dump_regs function,2018-06-10,Merged,132,178,1,h ,4
+Add component overview to the readme,2018-06-07,Merged,131,11,0,,0
+PM: Remove magic numbers for flags and events to improve readability and understandability,2018-07-27,Merged,130,159,34,hpp ,3
+Turn on the display once the framebuffer is ready,2018-08-18,Closed,127,1,1,,1
+Make sdmmc autocalibration follow TRM procedure,2018-06-06,Merged,126,76,14,c ,4
+package2 verification and ini1 merging fixes,2018-06-04,Merged,125,7,6,c ,3
+snip,2018-06-04,Closed,123,1,1,,0
+Build fix,2018-06-03,Merged,122,1,1,,1
+fusee: Add kernel hash for 4.x,2018-06-04,Merged,121,2,2,,1
+Fix CCPLEX bringup and halt the BPMP once it's done booting.,2018-06-03,Merged,118,9,2,,2
+"Use ""final"" and ""override"" where appropriate",2018-06-03,Merged,117,67,67,,14
+Set SDMMC controller to SDR104 as a workaround,2018-06-04,Merged,114,4,2,,2
+figured this may be handy,2018-06-04,Closed,108,2,0,,0
+[stage2] Invert a few checks,2018-05-15,Merged,105,2,2,,2
+Fix ini.c for GCC 8,2018-05-14,Closed,103,6,30,,3
+Allow for untracked config.h,2018-07-13,Closed,97,8,0,c ,2
+Implement splash screen loading for fusee stage2,2018-07-13,Closed,95,63,18,bmp c h ,8
+boot: Use fsdevMountSdmc & fsdevUnmountAll,2018-05-09,Merged,94,2,2,,1
+Fix stage2_args_t mismatch,2018-05-11,Merged,93,2,5,h ,3
+boot: Fix usage of svcQueryIoMapping and building,2018-05-06,Merged,85,12,12,,1
+ldr: Fix printf format string for size_t,2018-05-09,Merged,84,2,2,,2
+ipc_templating: Avoid depending on order of evaluation,2018-05-05,Merged,83,9,3,,1
+fusee: fix sd carry over from stage 1 to 2,2018-05-05,Closed,80,4,4,,3
+Fix small issues in the stage2 loader,2018-05-03,Merged,78,9,7,,1
+Replace std::make_tuple with simpler syntax,2018-05-05,Merged,77,155,155,hpp ,6
+Stratosphère: Simplify some for loops,2018-05-03,Merged,76,12,12,,3
+Minor corrections in gpio.h and gpio.c,2018-05-04,Closed,75,12,16,h ,2
+Add UART register enumerators,2018-06-04,Merged,73,119,17,h ,2
+Create a Fusèe README.md,2018-04-27,Closed,72,4,0,,0
+Update Read-Me with information on sub projects.,2018-06-04,Closed,71,26,0,,0
+Update README.md,2018-04-27,Merged,70,2,2,,0
+CHECK struct for used MC registers,2018-06-04,Closed,69,340,61,,2
+"BisPartition_t was missing SAFE, meaning User and System were using wrong key_source",2018-04-25,Merged,68,4,5,h ,2
+ENUMs for APB Slave Security Enable registers,2018-04-25,Merged,67,88,9,h ,2
+fusee: Add tsec fw from 4.x,2018-04-24,Closed,65,480,2,,0
+Changed PACKAGE2_MAXVER_400_CURRENT to PACKAGE2_MAXVER_400_410.,2018-04-23,Merged,64,12,1,c gitignore ,3
+Rename set_core_entrypoint_and_context_id,2018-02-26,Merged,58,3,3,,2
+all: Make file-scope variables internally linked where applicable,2018-02-26,Merged,57,17,18,,8
+lock: Use stdatomic.h,2018-02-26,Merged,56,10,8,c ,2
+package2: Separate MAXVER and MINVER maximums from the version numbers,2018-02-26,Closed,55,9,5,h ,3
+fuse: simplify checks in fuse_get_reserved_odm and fuse_get_spare_bit,2018-02-26,Merged,54,9,11,,1
+se: Remove memset in se_perform_aes_block_operation,2018-02-26,Merged,53,3,4,,1
+mc: Remove dead code in get_carveout_by_id,2018-02-26,Merged,52,0,9,,1
+memory_map: Remove unnecessary const,2018-02-26,Merged,51,1,1,,1
+memory_map: Fix most compilation issues,2018-02-24,Merged,50,8,8,,1
+bootconfig/configitem: Fix includes and identifiers,2018-02-24,Merged,49,6,3,c ,2
+smc_user: Correct cache_flush to flush_dcache_range,2018-02-24,Merged,48,2,2,,1
+smc_user: Add missing gcm.h include,2018-02-24,Merged,47,1,0,,1
+se: Add missing string.h include,2018-02-24,Merged,46,2,1,,1
+timers: Fix identifier name in wait's spin-lock,2018-02-24,Merged,45,3,2,,2
+mmu: Remove phys_addr parameter from mmu_unmap_range,2018-02-23,Merged,44,1,1,,1
+i2c: Fix -Wmissing-prototypes warnings,2018-02-23,Merged,43,11,5,h ,2
+start.cold/warm: Correct MSR instructions,2018-02-23,Merged,42,2,2,,2
+start.cold/warm.s: Correct DSB instruction instances,2018-02-23,Merged,41,2,2,,2
+smc_api: Fix compilation issues,2018-02-23,Merged,40,7,3,,1
+sealedkeys: Fix compilation issues,2018-02-23,Merged,39,2,2,,1
+randomcache: Typo in randomcache_refill,2018-02-23,Merged,38,1,1,,1
+mc: fix invalid range comparison,2018-02-23,Merged,37,1,1,,1
+se: Fix compilation issues,2018-02-23,Merged,36,6,6,,1
+package2: Silence a -Wcomment warning,2018-02-23,Merged,35,1,1,,1
+package2: Correct -> to . in load_package2,2018-02-23,Merged,34,1,1,,1
+package2: Use assignment instead of memcpy in decrypt_and_validate_header,2018-02-23,Merged,33,1,1,,1
+package2: Fix buffer variable name in rsa2048_pss_verify,2018-02-23,Merged,32,1,1,,1
+package2: Fix loop index in decrypt_and_validate_header,2018-02-23,Merged,31,1,1,,1
+all: Use bool where applicable,2018-02-23,Merged,30,154,145,c ,8
+gcm: Convert source data to a uint8_t pointer before subscripting it in gcm_decrypt_key,2018-02-23,Merged,29,2,1,,1
+mmu: Pass missing tbl argument to mmu_map_page in mmu_map_page_range,2018-02-23,Merged,28,1,1,,1
+mmu: Fix compilation issues,2018-02-23,Merged,27,2,2,,1
+mmu: Convert bool to int,2018-02-23,Closed,26,19,19,,1
+cpu_context: Add missing include,2018-02-23,Merged,25,1,0,,1
+mmu: Fix loop index variable name in mmio_get_device_address,2018-02-23,Merged,24,1,1,,1
+mmu: Correct TCR_ORGN_WBWA define,2018-02-23,Closed,23,1,1,,1
+mmu: fix typo,2018-02-23,Merged,22,2,2,,1
+se: fix infinite loop in shift_left_xor_rb,2018-02-23,Merged,21,3,3,,1
+userpage: fix declarations,2018-02-23,Merged,20,2,2,,1
+package2: Correct variable name for new device key source,2018-02-23,Merged,19,2,2,,1
+masterkey: Add missing semicolon to mkey_vectors,2018-02-23,Merged,18,2,2,,1
+Add missing string.h includes,2018-02-23,Merged,17,6,0,,6
+smc_user: Fix syntax,2018-02-22,Merged,16,3,3,,1
+UART,2018-02-22,Merged,15,68,0,h ,2
+Improve french for Exosphère,2018-02-17,Merged,14,2,2,,0

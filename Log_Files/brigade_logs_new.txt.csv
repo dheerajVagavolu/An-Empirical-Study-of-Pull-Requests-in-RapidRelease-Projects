@@ -1,0 +1,557 @@
+docs(storage.md): update nfs instructions,2019-12-23,Merged,1047,62,51,,0
+ci(brigade.js): run tests before proceeding with a release,2019-12-06,Merged,1033,25,13,,1
+add optional title fields to build type,2019-11-26,Merged,1031,27,7,,4
+feat(*): parity for brigade.json defaults/fallbacks,2019-12-06,Merged,1030,214,43,json js ts md ,8
+ref(brigade-worker): remove yarn docs target,2019-11-20,Merged,1027,5,"1,001,458",bin/marked bin/typedoc bin/uglifyjs yarn-integrity brigade-worker/node_modules/@types/minimatch/LICENSE md ts json brigade-worker/node_modules/backbone/LICENSE js map ,11
+fix(brigade-worker): bump handlebars resolution to satisfy yarn audit,2019-11-14,Merged,1026,57,46,js ,3
+docs(): add linkerd setup example/instructions,2019-11-18,Merged,1025,131,1,png ,2
+"Revert ""take default command from image instead of controller""",2019-11-14,Merged,1023,12,9,brigade-worker/Dockerfile md ,5
+docs(ingress.md): update cert-manager install instructions/manifests,2019-11-14,Merged,1022,59,40,,0
+take default command from image instead of controller,2019-11-11,Merged,1019,9,12,brigade-worker/Dockerfile md ,5
+feat(*): enable passing brigade.json via brig run,2019-11-14,Merged,1017,184,46,js ts ,6
+document docker-in-docker,2019-11-06,Merged,1014,29,0,,0
+chore(brigade-worker): check in yarn/node_modules updates from master,2019-11-05,Merged,1013,"2,330","2,925",js ,3
+explain how to store brigade.js on a project or in a ConfigMap.,2019-11-06,Merged,1012,20,0,,0
+fix(brigade-worker): bump handlebars resolution per yarn audit,2019-11-05,Merged,1011,1,1,,1
+ref(brigade.js): remove master gate for check suite event,2019-11-06,Merged,1010,24,33,,1
+fix(README.md): update build badge URL,2019-11-04,Merged,1009,1,1,,0
+Adding support for ssh certificates.,2019-11-06,Merged,1008,64,20,go yarn-integrity ts lock md sh ,14
+fix(brigade.js): supply details URL to new Check(..),2019-11-04,Merged,1006,2,1,,1
+feat(project): enable complex secret values,2019-11-06,Merged,1005,22,13,,9
+Fix link to gateway documentation,2019-10-30,Merged,1004,1,1,,0
+Remove unused top-level node_modules directory,2019-10-29,Merged,1000,0,10,,1
+fix(brigade-worker): return no logs found if job canceled and pod undefined or pending,2019-10-28,Merged,998,16,4,,2
+Check message before logging it,2019-10-28,Merged,997,4,2,,1
+Add JSON output for brig X get and list commands,2019-10-29,Merged,996,85,28,,5
+Move brig README to docs page,2019-10-17,Merged,992,23,21,toml md ,2
+Add brig term command that starts Brigadeterm,2019-10-29,Merged,991,"37,792",3,toml go md png yml ,6
+chore(*): updates per v1.2.1 release,2019-10-11,Merged,990,11,11,json md ,2
+return to break outer for loop instead of inner select loop,2019-10-23,Merged,989,1,1,,1
+docs(install.md): mention value set for gateway install if LB,2019-09-30,Merged,988,6,5,,0
+fix(brigade-worker): add resolutions section to package.json,2019-09-30,Merged,987,"3,517","2,057",js ,3
+Restore pre-1.1.0 module resolution behavior for local dependencies,2019-10-10,Merged,986,36,12,,1
+docs(*): v1.2.0 release updates,2019-09-03,Merged,984,11,11,json md ,2
+fix(brigade-worker): ensure set -o pipefail is set if shell is /bin/bash,2019-08-29,Merged,982,40,3,md ,2
+chore(.gitignore): remove older github-gateway entry,2019-08-29,Merged,981,0,1,,1
+Cleanup: fix some typos in code comment,2019-08-21,Merged,978,3,3,,3
+add support for optional build-level cloneURL field,2019-08-12,Merged,975,44,10,yarn-integrity ts json lock ,10
+project_create.go： help message word correction,2019-08-12,Merged,974,1,1,,1
+fix(*): ensure all log lines to be fetched regardless of kubelet implementation,2019-10-10,Merged,972,14,3,,3
+more thorough custom worker documentation,2019-08-08,Merged,968,201,141,,0
+feat(brig): option to show logs from vcs-sidecar,2019-08-06,Merged,967,34,3,,4
+Add experimental volumes and volumeMounts properties to jobs,2019-08-08,Merged,966,569,145,brigade-worker/node_modules/@brigadecore/brigadier/LICENSE ts js json ,7
+brig project create: allow undefined storage classes,2019-08-07,Merged,965,33,4,,3
+brig project create: add support for specifying shared secret or leaving it undefined,2019-08-05,Merged,964,53,2,,1
+Initial test with the GitHub library from brigade-utils,2019-08-05,Merged,963,10,97,json ,2
+chore(LICENSE): update license to Apache 2.0 per CNCF,2019-08-06,Merged,962,208,24,go json md ,3
+Update worker packages to address vulnerabilities,2019-08-01,Merged,959,"328,056","370,167",bin/atob bin/escodegen bin/esgenerate bin/esparse bin/esvalidate bin/jison bin/jison-lex bin/js-yaml bin/semver yarn-integrity brigade-worker/node_modules/@brigadecore/brigadier/LICENSE md ts js json brigade-worker/node_modules/@kubernetes/client-node/LICENSE ,16
+ci(brigade.js): add e2e job,2019-10-29,Merged,955,59,16,json sh ,3
+Bump handlebars from 4.1.1 to 4.1.2 in /brigade-worker,2019-08-01,Closed,954,14,14,,1
+Fix image pull secrets not being set in NewProjectFromSecret,2019-07-26,Merged,953,6,0,,2
+Add resolution for NPM package lodash due to security vulnerability,2019-07-17,Merged,951,276,169,brigade-worker/node_modules/lodash/LICENSE md js ,10
+end to end testing for Brigade using kind,2019-07-19,Merged,950,318,2,md sh js yaml ,5
+feat(brig): achieve flag parity for rerun command (to run); add unit tests,2019-07-11,Merged,948,248,23,,4
+fix(main.go): remove double print of error message,2019-07-16,Merged,947,0,2,,1
+fix(brig): silence usage on errors by default for root command,2019-07-09,Merged,946,4,3,,1
+docs(scripting.md): add project-level config needed for docker setups,2019-07-10,Merged,945,8,0,,0
+added instructions to develop with kind,2019-06-20,Merged,937,33,3,md ,1
+fix(brigade-worker): ensure backwards compatibility for project name and repo name values,2019-06-19,Merged,936,14,14,ts ,4
+docs(*): v1.1.0 release updates,2019-06-18,Merged,935,11,13,json md ,2
+make sure version is set correctly for brig binaries,2019-06-11,Merged,933,1,1,,1
+feat(brigade.js): add handlers for issue_comment and check_run:rerequested events,2019-06-11,Merged,932,45,1,,1
+make devx more win-friendly,2019-07-31,Merged,929,33,7,md ,1
+emphasizing that job timeout is in milliseconds,2019-06-06,Merged,925,157,1,ts yarn-integrity ,2
+make runSuite() fail build when any job fails,2019-05-30,Merged,923,18,4,,1
+"fix: wrong `helm upgrade` usage in ""Installing Brigade""",2019-05-30,Merged,922,2,2,,0
+improve the build and release processes,2019-06-05,Merged,920,"5,311,575",479,,1
+fix(brigade-worker): uppercase BRIGADE_LOG_LEVEL val for deriving cor…,2019-05-21,Merged,915,2,1,,1
+Log unhandled rejection with error message,2019-06-04,Closed,914,1,0,,1
+[#840] add alias redirects to doc front matter,2019-05-09,Merged,912,115,2,,0
+[docs] make deploy previews use rel paths,2019-05-09,Merged,911,6,6,html ,3
+allow default worker command to also be set via env var,2019-05-17,Merged,910,5,1,,1
+allow global configuration of default storage classes,2019-05-11,Merged,908,155,3,ts ,7
+make worker command configurable globally with a controller flag,2019-05-09,Merged,906,9,4,,5
+[docs] Preview Environments tutorial,2019-06-12,Merged,903,433,4,,1
+fix(k8s.ts): extract error message for log/reject,2019-04-25,Merged,900,5,7,,1
+fix sorting on topics docs,2019-04-25,Merged,897,50,50,,1
+[docs] add anchor links for deep linking to section titles,2019-05-09,Merged,894,48,3,content json scss html ,6
+fix config.toml to include quickstart link,2019-04-16,Merged,893,13,8,,1
+brig project create templates,2019-06-10,Merged,892,561,319,,0
+correct storage link,2019-04-12,Merged,889,1,1,,0
+fix code links on scripting-scripting advanced,2019-04-11,Merged,885,26,22,,0
+brig check initial implementation,2019-04-12,Merged,881,118,0,,1
+fix config.toml to include quickstart link,2019-04-12,Closed,880,13,8,,1
+docs(ingress.md): fix manifest indent,2019-04-05,Merged,878,1,1,,0
+copy contributing info into docs/content and add nav link,2019-04-04,Merged,876,81,0,md ,1
+Add CNCF Community Code of Conduct,2019-04-04,Merged,875,1,1,,0
+Add license scan report and status,2019-04-04,Merged,874,5,0,,0
+Add In-Progress CII badge,2019-04-04,Merged,873,1,0,,0
+Missing [ in image link,2019-04-02,Merged,871,2,2,,0
+Use `module-alias` to improve module resolution in Brigade scripts,2019-04-18,Merged,870,58,123,js ts lock md ,7
+Eliminates a yarn race condition when installing brigade.json deps,2019-04-17,Merged,869,384,34,js ts ,3
+[docs] adds custom menu for docs,2019-04-01,Merged,865,171,62,html ,3
+[docs] add analytics,2019-05-09,Merged,864,32,4,json scss html ,5
+[docs](#840) fix image paths,2019-03-28,Merged,863,2,2,,0
+chore(brigade-worker): bump version to v1.0.0,2019-03-28,Merged,858,1,1,,1
+docs(*): bump version in docs to latest v1.0.0 release,2019-03-28,Merged,857,9,13,,0
+docs(CONTRIBUTING.md): add contributing doc; link from README,2019-03-28,Merged,855,73,10,,0
+chore(LICENSE): update license,2019-03-28,Merged,854,1,1,,1
+Added Generic Gateway quickstart,2019-04-06,Merged,851,329,158,,0
+chore(*): update image org to brigadecore,2019-03-26,Merged,850,180,334,Makefile md go json ts ,12
+ref(brigade.js): remove acr publishing,2019-03-28,Merged,849,6,39,,1
+Update links for brigadecore,2019-03-21,Merged,848,5,35,toml ,2
+Chore/brigadecore updates,2019-03-21,Merged,847,528,738,Makefile go ,26
+add types of Generic Gateway events on documentation,2019-03-15,Merged,845,7,4,,0
+Update package.json version for Brigade worker,2019-03-14,Merged,843,2,2,,1
+[docs] update netlify config,2019-03-08,Merged,837,1,1,,1
+[docs] fix internal doc links on index pages,2019-03-08,Merged,836,27,27,,0
+docs: update docs links,2019-03-08,Merged,833,5,5,,0
+docs: add lukepatrick as a code owner,2019-03-09,Merged,832,2,2,,1
+removing custom navigation from docs (#827),2019-03-13,Merged,831,16,126,,0
+docs(releasing.md): update brigade-charts section,2019-03-08,Merged,829,3,7,,0
+Add CODEOWNERS file as a record of core maintainers,2019-03-07,Merged,826,9,0,,1
+chore(*): update node dependencies,2019-03-01,Merged,825,"1,238","1,036",,1
+Update mocha^4.1.0,2019-02-26,Merged,822,966,95,,1
+Update mocha to ^v4.0.1 to update the debug and growl packages,2019-02-26,Merged,821,38,101,lock ,2
+Temporarily comment the ASCII Cinema URL as it is archived,2019-02-25,Merged,819,3,3,,0
+CloudEvents 0.2 support,2019-02-25,Merged,818,780,197,toml go json md ,5
+Fix service account regex test,2019-02-26,Merged,817,8,6,ts lock ,3
+Add a theme for Docs,2019-03-08,Merged,814,"6,110",221,yml md toml js yaml docs/topics/examples/simple-event/cron/Dockerfile → docs/content/examples/simple-event/cron/Dockerfile sh docs/topics/examples/workers/Dockerfile → docs/content/examples/workers/Dockerfile ,37
+Brigade gateways behind ingress with TLS,2019-02-25,Merged,813,228,0,md ,3
+StartTime instead of EndTime on `brig build list` AGE column,2019-02-20,Merged,812,5,5,,2
+Generic Gateway should not try and find a brigade.js file,2019-02-22,Merged,811,322,240,corrupt json md ,7
+fix regex matching on the service account,2019-02-13,Merged,809,1,1,,1
+[docs] mention that Generic Gateway supports only GitHub,2019-02-12,Closed,805,1,1,,0
+ref(github-gw): remove github-gateway in favor of brigade-github-app,2019-02-12,Merged,797,243,999,brigade-github-gateway/Dockerfile go sh png md ,8
+docs(*): update project docs to use brig as default,2019-01-31,Merged,794,137,164,,0
+docs(releasing.md): note Brigade Project chart as well,2019-01-31,Merged,793,5,4,,0
+docs(topics): add testing doc,2019-01-31,Merged,791,101,6,,0
+"docs(*): add releasing.md doc, bump strings in anticipation of v0.20.0",2019-01-29,Merged,790,47,7,json ,1
+Add index + navigation for Generic Gateway documentation,2019-01-29,Merged,788,9,3,,0
+Enable pretty import paths for local imports (from repo) in brigade.js,2019-02-06,Merged,787,176,82,md ,2
+"feat(Makefile,developers.md): add development-centric Makefile target…",2019-01-28,Merged,785,61,15,md ,1
+docs(topics/secrets): add remote store and K8s secret examples,2019-01-28,Merged,784,126,4,,0
+"docs(topics): remove older install.md, relocate nfs instructions to storage.md",2019-01-28,Merged,783,100,203,,0
+docs(topics): add navigation links,2019-01-25,Merged,782,76,1,,0
+fix LastBuild in ProjectBuildSummary,2019-01-28,Merged,781,92,34,,4
+fix(deps): add version constraints to Gopkg.toml,2019-01-19,Merged,779,39,15,toml go ,3
+[WIP] declarative pipelines,2019-01-18,Closed,776,"4,109",115,toml Makefile go yaml ,12
+StorageClass dropdown on brig project create,2019-01-16,Merged,772,100,25,,5
+quickstart enhancement,2019-01-16,Merged,769,132,46,,0
+added option to specify brigade.js path on project creation,2019-01-11,Merged,766,67,15,md ,4
+Generic Gateway cleanup,2019-01-28,Merged,762,597,12,Makefile go md brigade-generic-gateway/Dockerfile json corrupt ,10
+[WIP] Fix badly formatted test-javascript output for failing tests,2019-02-07,Closed,760,0,0,,0
+Use the job shell when starting the container,2019-01-07,Merged,759,31,9,,2
+Update TypeScript to 3.2.2 and add build target in CI,2019-01-07,Merged,758,17,6,json ts lock ,4
+add the ability to toggle usage of secretKeyRef in jobs,2019-01-10,Merged,753,91,14,ts ,8
+Allow setting the job service account,2019-02-12,Merged,752,328,9,,5
+Add link to Azure DevOps / VSTS gateway,2019-01-04,Merged,751,1,0,,0
+Update bacongobbler/browser to v1.1.0,2019-01-04,Merged,744,5,4,toml ,2
+small docs refactor,2019-01-04,Merged,743,4,1,,0
+brig: Add default namespace,2019-01-04,Merged,742,16,2,,1
+Add GitHub issue and PR templates,2019-01-04,Merged,738,27,0,,0
+fix linter errors,2018-12-28,Merged,737,41,40,,36
+fix linter issues,2018-12-28,Closed,736,43,42,toml go ,39
+replaced video links on docs index page,2018-12-28,Merged,734,2,2,,0
+minor fix on chart link,2018-12-28,Merged,733,1,1,,0
+Add a support & feedback section to the readme,2018-12-21,Merged,730,5,1,,0
+show job logs (#643),2019-01-03,Merged,728,65,5,md ,2
+allow configuring the service account in the helm chart,2018-12-18,Merged,727,43,14,,9
+Remove confusing green checkmark from getting started doc,2018-12-17,Merged,726,2,3,,0
+fix(brigade.js): add some fixes around publish/release,2018-12-17,Merged,725,7,5,,1
+added retry logic to sidecar,2018-12-14,Merged,723,27,3,,1
+ref(*): remove charts,2018-12-19,Merged,722,153,"1,587",md js helmignore yaml txt ,6
+Generic Webhook (#602),2019-01-09,Closed,721,471,51,md ,21
+fixed brig project create --replace,2018-12-14,Merged,720,99,5,,5
+ref(brigade.js): use GitHub App/Checks API,2018-12-14,Merged,717,287,210,,1
+ref(Makefile): switch to golangci for linting,2018-12-17,Merged,716,27,5,js yml ,3
+fix(charts/brigade-project): allow vcs-sidecar NONE,2019-01-03,Merged,715,155,46,ts ,5
+ref(charts): enable RBAC by default,2018-12-11,Merged,714,18,20,md ,1
+Add RBAC true value to quickstart,2018-12-10,Closed,712,2,1,,0
+Update invalid job name error message.,2018-12-17,Merged,709,1,1,,1
+chore(chart): update brigade 0.19.0 chart tgz/index.yaml,2018-12-06,Merged,708,41,41,yaml ,2
+fix(charts/brigade): add legacy label in for upgrades,2018-12-06,Merged,707,2,0,,2
+Add resources to worker and jobs,2018-12-06,Merged,704,463,25,ts ,6
+Brigade release v0.19.0,2018-12-06,Merged,702,304,44,lock yaml tgz md ,7
+fix for #601 and #612,2018-12-04,Merged,700,337,23,,1
+Modify vacuum.Run to not return the number of deleted builds,2018-11-30,Merged,699,47,37,,3
+Minor addition to dev documentation,2018-12-03,Merged,697,14,3,md ,1
+brig build delete BuildID and brig build delete-all ProjectID,2018-11-29,Merged,695,385,67,go md ,8
+Add resource limits to job,2018-11-21,Merged,693,100,41,md ,3
+ref(brigade-worker): don't supply a default ref,2018-11-14,Merged,690,1,1,,1
+fix(chart): update github api link in values.yaml,2018-12-17,Merged,688,1,1,,1
+feat(chart/controller): add enabled option for controller (enabled by default),2018-11-12,Merged,687,5,1,,3
+feat(controller): export NewWorkerPod,2018-11-14,Merged,686,13,15,,2
+Added job name length check in job constructor,2018-11-07,Merged,684,16,2,,2
+Added the length check in brigadier for job name,2018-11-07,Closed,683,4,0,,1
+"Fix golint warning: redundant if ...; err != nil check, just return error instead.",2018-10-26,Merged,682,1,4,,1
+Update chart labels to follow the new convention,2018-10-29,Merged,678,117,117,,14
+Added the licence block of readme,2019-01-09,Closed,676,3,0,,0
+docs(developers.md): add note on js bootstrap/test; add bootstrap-js make target,2018-10-22,Merged,675,31,1,md ,1
+feat(Makefile): add target to lint charts,2018-10-19,Merged,674,5,0,,1
+"ref(brigade.js): add dockerhub publish job, split up acrBuild",2018-11-16,Merged,673,93,30,,1
+ref(*): update brigade image repos,2018-12-17,Closed,672,38,36,js yaml docs/topics/examples/workers/Dockerfile md ,6
+docs(storage.md): add Azure File example,2018-10-24,Merged,671,18,0,,0
+Kubernetes error caused by Job.env{} empty var,2018-10-24,Merged,670,5,0,,1
+Configure liveness and readiness probes.,2019-01-09,Closed,665,18,2,,3
+docs(scripting_advanced.md): fix typos,2018-10-23,Merged,664,3,3,,0
+Reference asdf-brig in README,2018-10-19,Merged,663,3,1,,0
+ref(Makefile/brigade.js): append .exe to Windows binary at build stage,2018-10-15,Merged,660,5,5,js ,2
+Fix brig run file flag,2018-10-15,Merged,658,2,2,,0
+fix(brigade.js): change e.event to correct e.type,2018-10-10,Merged,657,2,3,,1
+WIP feat(*): switch to Debian Jessie-Slim,2018-10-24,Closed,656,18,18,brigade-controller/Dockerfile brigade-cr-gateway/Dockerfile brigade-github-gateway/Dockerfile brigade-vacuum/Dockerfile brigade-worker/Dockerfile git-sidecar/Dockerfile ,7
+"fix(*): address linting errors, add test-style to brigade build task",2018-10-11,Merged,655,24,20,js ,6
+fix(brigade.js): remove redundant/incorrect rootfs cp cmd destination,2018-10-09,Merged,654,1,1,,1
+Brigade release v0.18.0,2018-10-09,Merged,653,58,41,yaml tgz md ,6
+fix(charts): fix incorrect logic for default sidecar,2018-10-04,Merged,650,3,4,,1
+Update alpine images,2018-10-03,Merged,649,7,7,brigade-api/Dockerfile brigade-controller/Dockerfile brigade-cr-gateway/Dockerfile brigade-github-gateway/Dockerfile brigade-vacuum/Dockerfile git-sidecar/Dockerfile ,7
+Fix invalid_format for Git SSH Keys.,2018-10-04,Merged,647,1,1,,1
+fix(docs): add correct key for commit sha value,2018-10-19,Merged,644,16,8,,0
+docs(tutorial): misc fixes,2018-10-02,Merged,642,4,5,,0
+Test/brigade js,2018-10-03,Closed,640,28,3,,1
+fix(controller): allow read/write on sidecar volume,2018-09-27,Merged,639,0,1,,1
+fix(chart/project): do not override default in values.yaml,2018-09-27,Merged,637,1,1,,1
+Update developers.md,2018-09-14,Merged,631,3,3,,0
+fix(doc): broken code block in the topics/developers doc,2018-09-13,Merged,630,2,1,,0
+feat(lib): alternative destination for script runner logs,2018-09-20,Merged,629,18,14,,3
+add missing comma,2018-09-10,Merged,628,2,2,,1
+fix(worker): handle transient faults (#625),2018-09-28,Merged,626,67,25,,1
+feat(brig): `brig run` as a go library,2018-09-11,Merged,623,241,215,,2
+fix(prestart): don't call .toString() on an error,2018-09-10,Merged,621,1,1,,1
+Add brigade-exporter to related projects section on the readme,2018-09-05,Merged,620,8,7,,0
+fix BuildStorage in brigade worker to prevent crash when project load fails,2018-09-10,Merged,619,7,2,,1
+fix(*): add project default script to worker,2018-08-31,Merged,618,58,57,js yaml ,4
+fix: add defaultScriptName to chart,2018-08-31,Closed,617,5,0,yaml ,2
+fix: add brig exec as alias for brig run,2018-09-10,Merged,616,4,3,,1
+Add more info on kube-lego and cert-manager,2018-08-31,Merged,615,7,3,,0
+fix(docs): add git add . step before commit,2018-08-31,Merged,614,2,1,,0
+fix(git-sidecar): remove hard reset in sidecar,2018-08-27,Merged,610,0,3,,1
+chore(*): run make format,2018-08-23,Merged,608,67,65,,6
+feat(github-gateway): add endpoint for creating github webhook,2019-05-16,Closed,606,179,141,yaml ,7
+vacuum skips deleting currently running builds if skipRunningBuilds is true,2018-08-27,Merged,603,206,35,yaml ,4
+fix(brig): generate shared secret when none exists,2018-08-21,Merged,600,2,2,,1
+Re-use globalNamespace flag for brig dashboard,2018-08-17,Merged,599,3,5,,1
+use watch in worker for efficiency #592,2018-08-23,Merged,596,322,259,ts ,3
+refactor CORS settings,2019-01-09,Closed,594,59,13,,2
+add --verbose flag,2018-08-17,Merged,593,6,1,,1
+fix(brig): set a default sidecar,2018-08-13,Merged,591,6,3,js ,2
+fix(chart): set max builds to -1 by default,2018-08-13,Merged,589,2,2,,1
+feat(brig): add -f flag to rerun command,2018-08-13,Merged,588,16,1,,1
+WIP ref(worker): switch to @azure/brigadier,2019-01-04,Merged,585,325,"1,597",Makefile json ts ,6
+"fix(brigade, worker): fixing a few minor nits",2018-08-07,Merged,583,8,3,js ,2
+Fixed pip install link,2018-08-03,Merged,581,2,2,,0
+feat(brigade.js): Add link to Kashti,2018-08-03,Merged,580,2,1,,1
+fix(vacuum): set default max builds to -1,2018-08-03,Merged,579,29,21,,3
+docs(chore): add brigade svg logos,2018-08-03,Merged,578,195,0,png svg ,4
+fix(brig): fix stack trace on build list,2018-08-02,Merged,577,2,1,,1
+feat(brig): return JSON from 'brig project get',2018-07-25,Merged,573,2,2,,1
+feat(brig): list builds by project,2018-07-24,Merged,572,32,8,,2
+fix(apicache): prevent returning results from unsynced cache,2018-07-24,Merged,571,75,119,,12
+docs(topics): fix speelings of woords,2018-07-24,Merged,569,3,3,,0
+Adding project defaultSecret to the build event secret,2019-02-11,Closed,568,1,0,,1
+docs(javascript_advanced): create an advanced JS guide,2018-07-27,Merged,562,267,0,md ,5
+docs(scripting): explain how tasks work in a shell,2018-07-23,Merged,561,8,1,,0
+feat(brig): return JSON from 'brig project get',2018-07-24,Closed,560,829,43,toml md ,2
+fix(brigade.js): shorten the error message,2018-07-17,Merged,556,1,1,,1
+fix(style): change import formatting to satisfy goimport fails,2018-07-17,Merged,554,3,1,,1
+run go fmt on dashboard.go,2018-07-17,Merged,553,1,2,,1
+use select{} instead of for{},2018-07-16,Merged,552,1,1,,1
+Remove proxy to Brigade API from dashboard command,2018-07-19,Merged,551,2,12,,1
+fix(dep): ensure brigade does not vendor itself,2018-07-11,Merged,548,47,107,,1
+fix(brigade.js): add build ID for debugging broken builds.,2018-07-11,Merged,546,3,3,,1
+feat(brig): Add AGE to brig build list,2018-07-17,Merged,545,9,4,go js ,3
+Make service account creation conditional,2018-07-16,Merged,544,18,7,,6
+feat(brig): List builds by project (brig build list PROJECT),2018-07-24,Closed,541,701,8,,1
+Add docs on brigade.json,2018-07-10,Merged,539,80,4,,0
+Remove duplicate property in `Job` docs,2018-07-09,Merged,537,0,1,,0
+feat(brig): add -b/--background flag to brig run,2018-07-09,Merged,536,26,14,,1
+feat(brig): Interactive prompt for creating projects,2018-07-24,Merged,534,841,40,toml md ,2
+use kebab case for --kashti-namespace,2018-07-04,Merged,532,1,1,,1
+implement `brig dashboard`,2018-07-11,Merged,531,110,94,toml go ,4
+updated fallback script path to look for brigade.js instead of directory,2018-07-06,Merged,529,1,1,,1
+api(sorting): builds/jobs sort order,2018-07-05,Merged,526,22,1,,1
+chore(*): git ignore swp files,2018-06-27,Merged,525,1,0,swp ,2
+Add Swagger support to API,2018-07-11,Merged,524,565,158,toml go ,4
+feat(worker): allow setting storage and cache paths,2018-07-02,Merged,523,52,11,md ,3
+517: fix for job name error cause by mixed case job names,2018-06-26,Merged,522,1,1,,1
+Allow for customization of API and gateway paths,2018-06-26,Merged,514,15,3,yaml ,4
+docs(README) Point all docs links to azure.github.io/brigade,2018-06-15,Merged,513,4,4,,0
+feat(brig): add brig project delete,2018-06-23,Merged,512,164,12,toml go ,8
+docs(README) update main docs link,2018-06-14,Merged,510,2,2,,0
+docs(ux): navigation and installer help,2018-06-14,Merged,509,46,10,,0
+fix(storage): Improve storage layer for projects,2018-06-14,Merged,507,308,25,go ,6
+chore(deps): bump kubernetes,2018-06-14,Merged,505,35,135,toml ,2
+"fix(docs): Job imagePullSecrets is a string array, not string",2018-06-11,Merged,503,1,1,,0
+fix(github): rolebinding resources,2018-06-11,Merged,502,3,0,,1
+fix(worker): fix the precedence order,2018-06-01,Merged,496,4,3,,1
+Enable custom dependencies for the brigade worker,2018-06-01,Merged,494,87,1,js lock ,3
+Fix kubecontext variable on brig cli,2018-06-01,Merged,493,1,1,,1
+Add log follows on worker and job Storage API,2018-06-01,Merged,492,75,19,,5
+[WIP] Update the Node Kubernetes client to 0.2.1,2018-11-05,Closed,489,4,6,lock ,2
+Fix the check for data in prestart.js,2018-05-30,Merged,487,1,1,,1
+fix(controller): add an accepted label to builds after sync,2018-05-25,Merged,482,31,10,,2
+fix(apicache): fix test flake in apicache,2018-05-24,Merged,481,6,6,,1
+fix(README): Update README with current information,2018-05-24,Merged,479,3,4,,0
+fix(brig): add exe extension to Windows binary,2018-05-25,Merged,478,4,1,,1
+Add Job Annotations to Documentation,2018-05-24,Merged,475,1,0,,0
+feat(brig): add rerun command,2018-05-25,Merged,474,82,26,,6
+feat(*): add project option for fallback script,2018-05-25,Merged,467,84,131,js yaml ,12
+Rerun failed jobs,2018-05-22,Closed,466,"1,061",489,,1
+Docs update: `pull_request` fires `closed` event,2018-05-23,Merged,464,1,0,,0
+Remove az extension add for ACR build,2018-05-24,Merged,461,1,4,,1
+add link to Microsoft's Code of Conduct,2018-05-18,Merged,457,3,0,,0
+Feature: Configmap as scriptstore,2018-08-17,Closed,456,159,6,go yaml ,12
+Add resource limits,2018-05-15,Closed,455,"1,031",472,,1
+feat(controller): allow per-project image pull secrets for worker,2018-05-18,Merged,452,33,1,yaml ,4
+"fix(git-sidecar): when commit-ref is missing, use commit-id",2018-05-10,Merged,448,10,5,go ,3
+Improve brig api performance as seen in #433 by introducing caching,2018-05-10,Merged,446,742,17,,6
+feat(brig): Added decolorizer and --no-color for brig run,2018-04-27,Merged,442,86,1,,4
+"When base64 was removed, no escaping was done on any values.",2018-04-28,Merged,441,13,13,,1
+feat(brig): add kube-context flag,2018-04-26,Merged,440,36,23,,8
+Update dockerhub.md,2018-04-26,Merged,439,1,1,,0
+Fix code comment in api/build.go,2018-04-24,Merged,435,1,1,,1
+Use .stringData to avoid base64 encoding & decoding.,2018-04-18,Merged,432,20,19,,2
+Minor fix to script example,2018-04-18,Merged,431,1,1,,0
+fix(brigade.js): unmask the event object,2018-04-18,Merged,430,2,2,,1
+feat(worker): support passing args through jobs,2018-04-13,Merged,429,45,14,ts md ,5
+Document imageForcePull,2018-04-13,Merged,426,2,1,,0
+Add job annotations,2018-04-23,Merged,425,22,4,,4
+feat(brigade.js): Retrieve logs from Job run,2018-04-13,Merged,423,50,9,,5
+Link to PVC Access Mode Table,2018-04-12,Merged,422,8,4,,0
+fix(worker): allow jobs during error handler,2018-04-12,Merged,417,52,32,,7
+"fix(docs): Update ""timeout"" documentation",2018-04-05,Merged,416,1,1,,0
+feat(brig): Exit with error code if build fails,2018-09-25,Merged,415,79,4,,6
+feat(brig): Allow selection of log level to print (-l),2018-04-04,Merged,413,377,69,go ts ,8
+docs(README): add brigade-cron gateway,2018-04-03,Merged,412,1,0,,0
+feat(brigade.js): build docker images on tag event.,2018-04-26,Merged,410,94,13,,1
+feat(brig): add brig container,2018-04-02,Merged,409,15,5,Makefile brig/Dockerfile md ,3
+fix(worker): report error if job name is not DNS name,2018-03-28,Merged,405,12,9,,2
+consistent gateway service namespace for properties,2018-03-28,Merged,404,1,1,,1
+docs(README): added a few other gateways,2018-04-02,Merged,401,6,0,,0
+fix(api): prevent omitted api fields,2018-03-28,Merged,400,3,3,,1
+feat(brig): add progress meter to run output,2018-03-27,Merged,399,69,6,toml go ,3
+Add 'closed' as pull_request event,2018-03-27,Merged,398,9,1,go ,2
+fix(brigade.js): fix the brig build,2018-03-27,Merged,397,24,10,,1
+fix(worker): Allow secretKeyRef and configMapKeyRef as Job env vars,2018-04-03,Merged,396,104,30,md ,3
+Fix: ACI connector makes it work,2018-03-29,Merged,395,24,4,,3
+"Update README with related projects (kashti, brigadeterm)",2018-03-26,Merged,394,5,3,,0
+feat(brig): add 'brig build logs',2018-03-27,Merged,393,531,20,,6
+Add 'closed' as allowed pull_request event,2018-03-27,Closed,391,113,31,ts md go ,5
+Correct non-npm JS installation instructions in custom workers,2018-03-19,Merged,389,1,1,,0
+Remove hardcoded default namespace for proxy cmd,2018-03-19,Merged,388,5,3,,1
+ref(worker): use client-node,2018-03-19,Merged,383,42,7,ts lock ,4
+feat(worker): Allow jobs to pin to particular nodes by label,2018-03-16,Merged,382,42,0,,4
+fix(linters): apply formatting rules to tests,2018-03-16,Merged,381,651,602,ts ,3
+fix(gateway): syntax error,2018-03-16,Merged,380,1,1,,1
+fix(github-gateway): reduce status messages,2018-03-16,Merged,379,10,11,,1
+fix(brigade.js): update to use event.revision.commit,2018-03-16,Merged,378,1,1,,1
+ref(tests): remove generator from functional tests,2018-03-16,Merged,377,84,126,go ,3
+fix(brig): add verbose output for waiting,2018-03-16,Merged,375,2,0,,1
+chore(Makefile): refactor lint and format,2018-03-15,Merged,374,80,47,go ts json ,16
+fix(brig): Error fast if the project does not exist,2018-03-15,Merged,371,33,258,,1
+Update developers.md,2018-03-15,Merged,370,3,2,,0
+Update developers.md,2018-03-14,Merged,367,1,1,,0
+Make clone instructions more copy/paste-able,2018-03-14,Merged,365,8,5,,0
+Add the ability to set the commit and ref on brig run command,2018-03-14,Merged,363,10,5,,1
+set PATH,2018-03-13,Merged,360,5,3,,0
+ref(worker): move env var processing to the top,2018-03-16,Merged,358,48,10,,4
+"Rename ""brigade-gw"" to ""brigade-github-gw""",2018-03-12,Merged,357,8,8,,0
+Create worker with sa env,2018-03-12,Merged,356,16,15,ts ,3
+fix(cr): update cr gateway to use revision reference,2018-03-09,Merged,350,9,9,,1
+fix(chart): BREAKING set vcsSidecar tag to version,2018-03-12,Merged,349,11,4,,2
+"fix(worker) use sshKey for private repo, not brigadeSSHKey.",2018-03-09,Merged,348,1,1,,1
+Create the worker options on base64,2018-03-06,Merged,346,1,1,,1
+docs(install): document using NFS for volume storage,2018-03-06,Merged,344,105,2,,0
+Fix worker image name creation on controller,2018-03-05,Merged,343,203,130,,2
+docs(topics): Add document on customizing workers,2018-03-05,Merged,341,246,0,js md ,3
+ref(*): remove label for commit_id,2018-03-02,Merged,339,80,92,sh md go ,7
+docs(gateway): update gateway docs with revision object,2018-02-28,Merged,338,32,20,,0
+Only create service & RBAC for components when enabled,2018-02-27,Merged,337,8,0,,4
+Add brig proxy command to start tunnels to api and kashti,2018-03-07,Merged,333,238,0,,2
+charts/brigade: add job limits for vacuum,2018-02-27,Merged,332,2,0,,1
+charts/brigade: fix RBAC for use with admin cluster role,2018-02-27,Merged,331,8,2,,2
+chore(Makefile): remove unused dependencies from bootstrap,2018-02-27,Merged,329,11,21,,1
+charts/gateway: use enable flag on all resources,2018-03-05,Merged,328,4,4,,2
+docs(README): add build status image,2018-02-27,Merged,324,2,0,,0
+feat(brigade.js): send github notification on build,2018-02-15,Merged,321,28,3,,1
+fix(chart): fix broken for loop in brigade-project chart.,2018-02-14,Merged,317,1,3,,1
+fix(chart) bug from #292 this undid the values yaml of PR #276 Ref #2…,2018-02-14,Merged,316,6,0,,1
+Fix small typo,2018-02-14,Merged,315,1,1,,0
+"docs(install,developer): update installation info",2018-02-14,Merged,313,21,10,,0
+fix(worker): die on non-existent job image,2018-02-14,Merged,312,10,1,,1
+fix(chart): make worker service account configurable,2018-02-14,Merged,311,32,13,yaml ,8
+fix(github): support using GitHub Enterprise,2018-02-14,Merged,310,73,8,go ,6
+"fix(controller, worker): remove extra tsc",2018-02-13,Merged,309,111,6,json ts yaml ,6
+fix(worker): fix broken unit test,2018-02-12,Merged,308,1,1,,1
+feat(*): use git references rather than commit SHA,2018-02-15,Merged,307,679,370,,1
+fix(chart): turn vcsSidecar on by  default,2018-02-12,Merged,306,8,3,yaml ,2
+docs(examples) add minio project example,2018-02-12,Merged,302,1,0,,0
+fix(tests): revert list watcher changes,2018-02-09,Merged,300,26,12,,1
+feat(gateway): add support for default brigade script,2018-02-12,Merged,299,108,10,go ,9
+"feat(*): use typed secrets for projects, builds, and jobs",2018-02-07,Merged,298,23,37,ts yaml sh md ,8
+"Do not set the storage class to ""default"" by default ; Destroy Build Storage PVC on error",2018-02-12,Merged,296,15,9,,2
+added ingress for api service,2018-02-12,Merged,292,35,6,,2
+Fix typo in one of brigade chart templates,2018-02-07,Merged,291,1,1,,1
+fix(chart): add rbac for vacuum,2018-02-09,Merged,290,53,3,yaml ,3
+fix(*): fix style issues,2018-01-26,Merged,289,20,6,,6
+ref(chart): remove curly braces,2018-01-26,Merged,288,6,4,,2
+WIP feat(tests): add brigade target to run functional test in cluster,2019-01-09,Closed,286,42,1,go ,2
+feat(brig): build binaries at release,2018-02-15,Merged,285,78,3,js ,2
+feat(worker): make storage class for cache and build configurable,2018-01-26,Merged,284,43,6,yaml ,5
+Configurable Build Storage ; Initialize Submodules,2018-01-25,Merged,281,60,6,yaml md sh go ,11
+Docs: Fixed compatibility to Python 3,2018-01-24,Merged,278,10,3,,0
+feat(worker): Allow using a specific brigade-worker image per project,2018-02-14,Merged,277,285,44,go js ts yaml ,10
+feat(chart): Configurable liveness/readiness probes for api,2018-01-25,Merged,276,8,0,,2
+chore(gateway): Rename brigade-gateway to brigade-github-gateway,2018-01-25,Merged,275,11,11,Makefile brigade-gateway/Dockerfile → brigade-github-gateway/Dockerfile go sh tpl yaml md ,11
+fix(chart): the pod/log permission is needed on the worker's role,2018-01-19,Merged,274,2,1,yaml ,2
+Add pods/log resource to api role,2018-01-19,Merged,273,1,1,,1
+feat(worker): allow overriding of the job's service account.,2018-01-19,Merged,271,41,3,md ,4
+fix(vacuum): read the correct kube config,2018-01-17,Merged,267,13,1,yaml ,2
+fix(controller): Label worker pods with os=linux label.,2018-01-17,Merged,265,9,0,,2
+docs(brig): note to checkout a stable tag,2018-01-17,Merged,262,5,0,,0
+fix(brig): don't trim short git references,2018-01-10,Merged,261,5,1,,1
+feat(gateway): Support for two event types: deployment and deployment_status,2018-01-17,Merged,260,331,1,json ,4
+fix(git-sidecar): support branch names and tags,2018-01-10,Merged,257,80,0,sh ,3
+fix(cr-gateway): Remove GitHub API requirement from CR server.,2018-01-17,Merged,255,7,22,yaml go ,4
+fix(chart): fix ingress name and app label.,2018-01-09,Merged,252,3,3,,1
+docs(readme): Feedbacks on README for the brig command,2018-01-09,Merged,249,2,2,,0
+feat(brig): add -c/--commit flag to brig run,2018-01-08,Merged,248,15,10,,1
+add more example projects,2018-01-08,Merged,246,3,0,,0
+docs(scripting): add advanced events section,2018-01-10,Merged,245,217,0,md ,4
+fix(worker): fix the PVC name requested by the job,2018-01-09,Merged,244,2,2,,2
+feat(api): add /v1/build/{id}/log to get logs.,2018-01-08,Merged,243,382,66,,7
+Correct brigade_project#values.yml secrets,2017-12-21,Merged,239,2,2,,1
+Add default param to mountPath in docs,2017-12-21,Merged,238,1,1,,0
+Fix markdown for Kashti link,2017-12-21,Merged,237,1,1,,0
+fix(gateway): skip executing on branch deletion,2018-01-02,Merged,236,157,0,json ,3
+fix(worker): make cache name downcased,2018-01-02,Merged,235,4,2,,2
+fix(cr-gateway): support branch names with slashes,2018-01-04,Merged,233,60,10,md ,3
+Allow API and gateway to respect port values,2017-12-21,Merged,232,31,4,yaml ,4
+docs(gateways): add doc on creating Brigade gateways,2018-01-04,Merged,231,461,1,sh yaml ,4
+fix(git-sidecar): don't shallow clone repository,2018-01-09,Closed,230,1,1,,1
+feat(gatway): add support for Author Association,2018-02-27,Merged,226,569,53,go md yaml ,7
+Correct ports and path for CR documentation,2017-12-18,Merged,223,2,2,,0
+feat(vacuum): add brigade-vacuum,2017-12-19,Merged,222,563,3,Makefile brigade-vacuum/Dockerfile go ,6
+fix(worker): prevent creating a pvc when cache is disabled,2017-12-15,Merged,221,22,22,,1
+fix(worker): prevent logging an empty array,2017-12-14,Merged,219,2,2,,1
+feat(worker): add a prefixed logger,2017-12-13,Merged,218,65,37,,4
+feat(worker): add verbose error logging,2017-12-13,Merged,216,190,54,ts ,7
+docs(intro): require `brigadier` in examples.,2017-12-14,Merged,215,4,0,,0
+docs(scripting): Actually introduce `brig`,2017-12-11,Merged,214,3,0,,0
+docs(brig): Mention where the brigade source needs to be cloned,2017-12-11,Merged,213,1,1,,0
+tutorial03: Fix checkbox label,2017-12-11,Merged,212,1,1,,0
+docs(readme) Add link to Kashti.,2017-12-11,Merged,211,3,0,,0
+Spelling mistake,2017-12-11,Merged,210,1,1,,0
+docs(README): Link to index.md instead of /docs/,2017-12-11,Merged,209,1,1,,0
+fix(gateway): enforce build policy for forks,2017-12-11,Merged,208,57,68,,2
+Update brigade repo link,2018-01-26,Closed,207,1,1,,0
+chore(build-tools): add ts formatter and refactor build setup,2017-12-11,Merged,206,987,818,js ts ,4
+Add missing `run` command to `brig` scripting,2017-12-08,Merged,205,1,1,,0
+feat(gateway): support pull_request_review event,2017-12-06,Merged,204,454,5,,2
+feat(gateway): add pull_request:labeled and pull_request:unlabeled,2017-12-06,Merged,202,554,29,go ,2
+feat(gateway): add several new webhook events,2017-12-05,Merged,201,"1,161",50,go json ,3
+fix the fix for gateway selectors,2017-12-04,Merged,200,1,1,,1
+docs(values): add documentation on values.yaml,2017-12-06,Merged,199,204,0,,0
+differentiate between github and dockerhub gateways,2017-12-04,Merged,198,8,0,,4
+docs: fix typo,2017-12-02,Merged,196,1,1,,0
+docs(*): update gateway config information,2017-12-04,Merged,195,43,1,,0
+tests(webhook): more test coverage for webhooks,2017-12-01,Merged,194,83,7,,2
+fix(*): use alpine:3.7,2017-12-02,Merged,192,5,5,brigade-controller/Dockerfile brigade-cr-gateway/Dockerfile brigade-gateway/Dockerfile git-sidecar/Dockerfile ,5
+docs(javascript): document the JS api for enabling docker socket,2017-12-01,Merged,191,13,1,,0
+"fix(charts): add roles to services, deployments, pods",2017-12-01,Merged,190,13,0,,5
+fix(webhook): do not set ssh key in environment,2017-12-01,Merged,189,0,18,,1
+fix(worker): add regexp to validate job name,2017-12-01,Merged,188,39,2,md ,2
+fix(git-sidecar): add openssh back in,2017-12-01,Merged,187,1,0,,1
+fix(worker): print worker version in logs,2017-11-30,Merged,185,3,0,,1
+ref(*): name vcs-sidecar consistently across components,2017-11-30,Merged,184,2,2,ts ,2
+fix(gateway): correctly set default flag,2017-11-30,Merged,183,1,1,,1
+ref(cr): set default namespace for cr-gateway,2017-11-30,Merged,182,8,1,,1
+fix(brig): remove dead code,2017-11-29,Merged,181,2,3,,1
+ref(*): set flag defaults,2017-11-29,Merged,180,37,10,,3
+fix(api): improve performance of fetching builds,2017-11-29,Merged,179,34,8,,1
+feat(gateway): make forked pull-request builds optional,2017-11-30,Merged,178,55,43,yaml ,6
+fix: delete the dead link in the Github status payload,2017-11-30,Merged,171,3,14,,1
+Limit the clone depth at 50 to speed up builds,2017-11-27,Merged,170,1,1,,1
+fix(brig): wait for pod to start,2017-11-23,Merged,169,52,3,,1
+feat(worker): add the ability to configure the image pull policy of a job,2017-11-23,Merged,168,13,4,,3
+docs(design): explain why we use secrets instead of CRDs,2017-11-22,Merged,166,4,1,,0
+feat(worker): allow disabling privileged mode at project level,2017-11-22,Merged,164,33,2,yaml ,6
+fix(worker): fix PVC RBAC resource,2017-11-22,Merged,163,1,1,,1
+feat(api): list projects with latest builds,2017-11-21,Merged,160,27,0,,2
+set github status to pending after creating build secret,2017-11-21,Merged,159,2,10,,1
+Use alpine edge to get git@2.15.0,2017-11-21,Merged,158,1,1,,1
+fix(controller): set service account on worker pod,2017-11-17,Merged,156,2,0,,1
+allow host-mounted docker sockets in jobs,2017-11-21,Merged,154,114,2,yaml md ,6
+fix(tests)): accept environment vars for selftest.sh,2017-11-17,Merged,153,6,6,,1
+ref(*): remove unused field Worker.Commit,2017-11-17,Merged,152,2,8,,4
+fix(brigade.js): bump go v1.9,2017-11-17,Merged,151,1,1,,1
+fix(worker): stop after from firing when no hook was executed.,2017-11-17,Merged,150,10,1,,1
+docs(scripting): update brig command name,2017-11-17,Merged,147,12,12,,0
+docs(*): switch recommendation to helm repo,2017-11-17,Merged,146,39,16,,0
+fix(chart): fix if-checks and add if wrappers to all optional values,2017-11-17,Merged,145,5,3,,1
+fix(worker): wrong default image name.,2017-11-16,Merged,144,1,1,,1
+ref(Makefile): add build tag to integration tests,2017-11-16,Merged,143,13,11,go ,3
+fix(brigade-worker): fix type error when no sidecar is set,2017-11-16,Merged,142,4,1,,1
+fix reference to brigade-server-brigade-gw,2017-11-16,Merged,141,4,4,,0
+git mv chart/ charts/,2017-11-15,Merged,140,11,11,md helmignore yaml txt tpl ,19
+fix(git-sidecar): fetch remote SHA before checkout,2017-11-15,Merged,138,13,4,,1
+fix(chart): fix if-checks and add if wrappers to all optional values,2017-11-16,Closed,137,53,26,md ts helmignore yaml txt tpl sh go ,23
+fix(chart): add guard for vcs-sidecar,2017-11-14,Merged,136,2,0,,1
+fix(chart): fix project chart's missing sidecar value,2017-11-14,Closed,135,1,1,,1
+Update demo paths in docs,2017-11-14,Merged,134,3,3,,0
+Update documents with Client-only build instructions,2017-11-14,Merged,133,7,1,,0
+fix(Makefile): fix ldflags version,2017-11-14,Merged,129,1,1,,1
+"fix(api): show secret names, but not values",2017-11-14,Merged,128,16,3,,2
+Update rbac instructions,2017-11-13,Merged,124,1,1,,0
+fix(*): remove hard-coded image versions,2017-11-13,Merged,123,35,49,md go js brigade-gateway/Dockerfile yaml ,16
+"fix(api,controller,worker): use ULID for ID",2017-11-13,Merged,122,66,35,ts ,12
+fix(worker): mount docker socket when privileged=true,2017-11-20,Closed,117,29,0,,2
+Make runEach return JobResult of all Jobs,2017-11-09,Merged,116,27,16,md ,3
+fix(makefile): add CGO_ENABLED=0  for build-docker-bin,2017-11-09,Merged,115,3,3,,1
+fix(api): prevent exposing secrets on api,2017-11-09,Merged,114,36,5,,2
+fix brigade.js for dep,2017-11-07,Merged,112,2,2,,1
+Update location of brigade-project helm chart,2017-11-06,Merged,110,2,2,,0
+docs(README): fix examples in README,2017-11-06,Merged,109,20,35,,0
+ref(chart): move brigade-project to chart dir,2017-11-06,Merged,108,17,7,helmignore yaml txt md tgz ,8
+projects typo fix,2017-11-06,Merged,107,1,1,,0
+Add missing highlights to object names,2017-11-06,Merged,106,2,2,,0
+Typo fix,2017-11-06,Merged,105,1,1,,0
+"ref(*): delete dead code, source cleanup",2017-11-06,Merged,104,14,289,go ,11
+ref(chart): make chart smart about versions,2017-11-06,Merged,103,66,16,,7
+feat(cr-gateway): break container registry gw into separate binary,2017-11-29,Merged,99,388,29,Makefile brigade-cr-gateway/Dockerfile md go json js tpl yaml ,12
+fix(brig): remove default value for -f,2017-11-03,Merged,98,1,2,,1
+docs(brig): update Brig help text,2017-11-03,Merged,97,41,5,go ,1
+fix(brig): read the file,2017-11-03,Merged,96,6,1,,1
+fix(worker): fix error in unit test,2017-11-02,Merged,95,3,4,,1
+fix(tests): bump empty-testbed sha,2017-11-02,Merged,94,4,4,json go ,4
+fix(worker): use new schema for defining init containers,2017-11-02,Merged,93,1,6,,1
+change node:8 -> node:8-alpine,2017-11-06,Merged,92,1,1,,1
+move worker related setting to values,2017-11-03,Merged,91,58,28,yaml ,7
+fix(controller): fix typo in image name,2017-11-02,Merged,90,1,1,,1
+feat(*): switch to dep for go dependency management,2017-11-02,Merged,89,371,382,toml Makefile ,3
+chore(*): bump client-go to latest stable,2017-11-02,Merged,88,104,82,,8
+chore(charts): update charts to 0.3.0,2017-11-02,Merged,87,28,22,yaml tgz ,6
+fix(chart): set API svc default type to ClusterIP,2017-11-01,Merged,85,1,1,,1
+Update tutorial01.md,2017-11-01,Merged,83,1,1,,0
+Update install.md,2017-11-01,Merged,82,1,1,,0
+Update overview.md,2017-11-01,Merged,81,1,1,,0
+Update index.md,2017-11-01,Merged,80,1,1,,0
+docs(topics): add projects.md document,2017-11-01,Merged,78,209,3,,0
+fix(version): add doc block,2017-10-31,Merged,77,1,0,,1
+fix(brig): increase timeout for log streaming,2017-11-01,Merged,76,5,3,,1
+docs(topics): updated design,2017-10-31,Merged,75,218,165,,0
+docs(index): add related resources,2017-10-31,Merged,73,24,0,,0
+fix(version): use latest tag rather than current tag,2017-10-31,Merged,72,1,1,,1
+"feat(controller,worker): acid.js not required",2017-10-31,Merged,71,311,32,,2
+docs(topics): add storage document,2017-10-30,Merged,69,64,0,,0
+update brig cli build docs and dev guide,2017-10-30,Merged,68,9,1,,0
+fix(worker): disable shared storage by default,2017-10-30,Merged,67,19,9,js md ,4
+add support for gcp auth in brig command,2017-10-31,Merged,65,34,2,lock yaml ,3
+add pod rule for controler role,2017-10-27,Merged,64,3,0,,1
+Fix link to secrets.md,2017-10-26,Merged,63,2,2,,0
+Fix broken link in tutorial,2017-10-26,Merged,61,1,1,,0
+fix typos,2017-10-25,Merged,34,34,33,go yaml txt ts sh ,8
+ref(docs): update docs,2017-10-25,Merged,5,1,2,,0
+ref(docs): updating docs,2017-10-25,Merged,4,1,1,,0
+Fixing JS syntax error in README.md,2017-10-24,Merged,2,1,1,,0
+call glide up,2017-10-24,Merged,1,2,2,,1

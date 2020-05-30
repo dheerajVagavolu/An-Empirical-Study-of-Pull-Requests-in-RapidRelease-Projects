@@ -1,0 +1,356 @@
+Fix leak in ActivityRecyclerPool when EpoxyRecyclerView is created with a ContextWrapper,2020-01-10,Merged,906,15,2,,1
+Rename ResultCallack to ResultCallback in AsyncEpoxyDiffer,2020-01-07,Merged,899,7,7,,2
+Fix incorrect license attributes in POM file,2020-01-03,Merged,898,3,3,,1
+Release 3.9.0,2019-12-17,Merged,894,21,6,gradle properties ,3
+Vairavan add epoxy model layout view,2019-11-12,Closed,871,58,22,kt ,4
+Minor documentation and variable name updates.,2019-11-11,Merged,870,12,9,,5
+Remove executable bit from non-executable files,2019-11-11,Merged,864,0,0,md gradle properties xml pro java kt bat rb ,136
+Update ktlint and format with new rules,2019-11-04,Merged,861,51,64,,44
+Use same version for Mockito Core and Inline,2019-11-04,Merged,860,1,1,,1
+Remove .idea/ folder,2019-11-01,Merged,856,7,252,name xml ,10
+Update README.md to fix typo,2019-10-24,Merged,853,1,1,,0
+Update Gradle plugin and wrapper,2019-10-22,Merged,848,38,8,properties jar gradlew bat ,6
+Fix reading EpoxyDataBindingPattern enableDoNotHash value,2019-10-04,Merged,837,1,1,,1
+Move epoxy-modelfactory tests to their own module,2019-12-17,Merged,834,202,81,gitignore xml kt java ,8
+Make EpoxyRecyclerView.setItemSpacingPx() open,2019-10-21,Merged,829,1,1,,1
+3.8.0 release and tools update,2019-09-16,Merged,828,197,450,md gradle java kt ,16
+Fix for #818 - visibility tracking with recycling,2019-09-19,Closed,826,70,1,kt ,2
+Add support for Kotlin delegation via annotated interface properties,2019-08-22,Merged,812,52,0,,3
+Fix checked change crash and improve debug errors,2019-08-13,Merged,806,27,1,,2
+Fix item spacing decorator,2019-07-22,Closed,784,57,184,kt ,3
+Refactor EpoxyItemspacingDecorator getItemOffsets,2019-07-15,Closed,778,4,15,,1
+Remove extra space in Kotlin extensions,2019-07-19,Merged,777,1,1,,1
+Prepare for release 3.7.0,2019-07-01,Merged,776,4,26,md properties ,2
+Add a method to request visibility check externally,2019-06-27,Merged,775,13,0,,1
+Release 3.6.0,2019-06-18,Merged,768,5,1,properties ,1
+Fix model click listener crashing on nested model,2019-06-18,Merged,767,158,100,kt ,3
+Preloader system with glide extensions,2019-06-18,Merged,766,"1,919",50,xml gradle java ,6
+Release 3.5.1,2019-06-05,Merged,753,4,1,properties ,1
+Update kotlin to 1.3.31,2019-05-21,Merged,750,16,15,kt ,9
+Prepare for release 3.5.0,2019-05-14,Merged,744,5,1,properties ,1
+Convert EpoxyRecyclerView to Kotlin,2019-05-10,Merged,743,640,556,,1
+Prevent IllegalArgumentException during EpoxyVisibilityTracker child processing,2019-05-08,Merged,742,4,1,,1
+IllegalEpoxyUsage in EpoxyVisibilityTracker: Remove throws because nested visibility,2019-05-08,Merged,739,0,8,,1
+Fix type differentiate in default param support,2019-04-18,Merged,732,154,18,kt properties ,4
+Update reference of Butterknife plugin to latest version,2019-04-17,Merged,731,1,1,,0
+Release 3.4.1,2019-04-16,Merged,730,4,2,properties ,1
+Release 3.4.0,2019-04-12,Merged,728,8,1,properties ,1
+OnModelCheckedChangeListener,2019-04-10,Merged,725,585,45,xml kt ,9
+Extract ID generation methods to new public IdUtils class,2019-04-10,Merged,724,55,41,,2
+Support kotlin default parameters,2019-04-10,Merged,722,583,294,xml kt java ,11
+Reset controller state on failed model build,2019-04-02,Merged,720,18,1,,1
+Disabled the auto-detach behavior on Carousels by default.,2019-02-25,Merged,688,3,0,,1
+Prepare for release 3.3.0,2019-02-14,Merged,679,106,115,gradle kt java ,6
+Fix model group issues,2019-02-05,Merged,676,98,44,kt ,3
+Changed the section name for the timer class to be in the start method,2019-02-05,Merged,671,18,15,,4
+Add comment to assignment,2019-01-31,Merged,670,3,1,,1
+Prepare for release 3.2.0,2019-02-14,Closed,665,14,1,gradle properties ,3
+Add Ktlint to enforce kotlin style,2019-01-15,Merged,661,"2,242","1,829",MD gradle kt ,9
+Add missing nullable in EpoxyVisibilityTracker,2019-01-14,Merged,660,1,1,,1
+Enable recycling of views within groups,2019-01-22,Merged,657,655,409,gradle kt java ,4
+Synchronize paged epoxy controller,2019-01-22,Merged,656,111,22,kt properties ,7
+Get onSwipeProgressChanged callbacks on return to original item posit…,2019-01-12,Merged,654,0,4,,1
+Replace 'compile' with 'implementation' on README.,2018-12-31,Merged,649,1,1,,0
+Update documentation for Kotlin sample,2018-12-29,Merged,647,1,1,,1
+Add support for nested RecyclerView to EpoxyVisibilityTracker - Part 2,2019-01-14,Merged,633,391,30,xml ,3
+Added a getter method for `numViewsToShowOnScreen` in Carousel,2018-12-10,Merged,632,7,0,,1
+Prepare for release 3.1.0,2019-02-14,Closed,629,7,1,gradle properties ,3
+Return model class from model builder extension function,2019-07-02,Closed,628,4,2,,1
+Add support for nested RecyclerView to EpoxyVisibilityTracker - Part 1,2018-12-08,Merged,627,233,109,kt ,4
+Upgrade KotlinPoet 1.0.0,2019-01-03,Merged,624,5,5,kt ,2
+Wrong visibility when the view become not visible,2018-11-28,Merged,619,5,3,,1
+Remove sudo:false from travis config,2018-11-28,Merged,617,0,2,,1
+Fix paging sample,2018-11-21,Merged,615,5,7,,1
+Always null out modelInterceptorCallbacks after model build,2018-11-20,Merged,613,5,3,,1
+Prepare for release 3.0.0,2018-11-13,Merged,608,8,4,properties ,1
+Clean up and make sample work,2018-11-13,Merged,605,224,305,xml java kt ,7
+Upgrade to KotlinPoet 1.0.0-RC2,2018-11-10,Merged,604,6,11,kt ,3
+Preload and Preload sample,2019-06-17,Closed,593,"1,158",1,gitignore pro xml kt ,6
+Use robolectric qualifiers in EpoxyVisibilityTrackerTest to give more control on view's height,2018-10-22,Merged,590,14,4,,1
+Added method to clear model cache and force a model build (#583),2019-01-08,Merged,586,35,0,,3
+Prepare for 2.19.0 release,2018-10-18,Merged,582,8,1,properties ,1
+Follow-up for visibility tracking : adapter data changes,2018-10-17,Merged,575,449,54,,2
+Implements visibility events for EpoxyRecyclerView/EpoxyViewHolder.,2018-10-12,Merged,560,"8,717",332,java ,5
+Release 2.18.0,2018-09-26,Merged,550,23,5,gradle kt xml properties ,4
+Remove app_name,2018-09-20,Merged,543,3,23,,7
+compile -> implementation for recent Gradle support,2018-09-18,Merged,541,1,1,,0
+Add databinding option to not auto apply DoNotHash,2018-09-13,Merged,539,575,44,kt xml ,8
+Fix AsyncEpoxyController constructor to correctly use boolean setting,2018-09-11,Merged,537,1,1,,1
+make the padding parameter order the same as in the Android Framework,2018-10-18,Merged,536,28,28,,1
+Paged list controller,2018-09-21,Merged,533,797,89,kt ,4
+Prepare for release 2.17.0,2018-09-06,Merged,529,7,2,properties kt ,2
+Add support for setting the Padding via resource or directly in dp,2018-09-06,Merged,528,178,85,,1
+Update javapoet to 1.11.1,2018-09-05,Merged,527,1,1,,1
+Strip kotlin metadata annotation from generated classes,2018-09-05,Merged,523,13,2,kt ,2
+Reflect the annotations declared in constructor params,2018-09-05,Merged,519,144,4,kt ,4
+Release 2.16.4 with updated async handling,2018-08-29,Merged,512,18,31,java properties ,3
+Prepare for 2.16.3 release,2018-08-27,Merged,510,4,1,properties ,1
+Async improvements,2018-08-25,Merged,509,162,21,gradle java ,8
+Prepare for 2.16.2 release,2018-08-24,Merged,507,10,8,properties ,1
+Ability to check for pending model build,2018-08-24,Merged,506,56,3,,4
+Prepare for 2.16.1 release,2018-08-22,Merged,505,3,0,,0
+Fix thread check in model building async tests,2018-08-22,Merged,504,7,8,properties ,2
+Fallback to kotlin.Function + noinline,2018-08-23,Merged,501,52,24,gradle ,5
+Update readme for automatic latest version,2018-08-08,Merged,496,4,2,,0
+Prepare for 2.16.0 release,2018-08-08,Merged,493,10,5,java properties ,2
+Simplify the kotlin sample,2018-09-06,Merged,492,293,211,kt ,9
+[modelfactory] Make ModelProperties nullable,2018-08-02,Merged,489,19,4,kt ,3
+Add non-nullable annotation to EpoxyHolder.,2018-08-01,Merged,488,8,5,,5
+"[modelfactory] Enable grouped fields with different names, add support for long and @RawRes",2018-08-02,Merged,487,"1,014",201,kt ,6
+Properly suppress generated code deprecation,2018-07-30,Merged,485,1,1,,1
+Prepare for 2.15.0 release,2018-08-06,Merged,484,12,3,properties ,1
+Call onpre and post bind methods in super classes,2018-07-30,Merged,483,265,17,kt ,5
+Remove lambdas from tostring,2018-07-29,Merged,482,449,488,,1
+Remove allows backups from manifests,2018-07-28,Merged,481,7,8,,8
+more kotlin samples,2018-07-28,Merged,480,50,12,,1
+New kotlin samples,2018-07-28,Merged,479,138,0,kt ,4
+Fix generated kotlin,2018-07-28,Merged,478,819,769,gradle java kt ,13
+Add reference to Litho,2018-07-26,Merged,476,1,1,,0
+Prepare for 2.14.0 release,2018-06-28,Merged,460,6,3,properties ,1
+Fix generated ModelViewModel_ OnModelClickListener Setter's Annotations,2018-07-27,Merged,458,12,21,java ,11
+Prepare for 2.13.0 release,2018-06-19,Merged,453,18,14,java properties ,2
+Fix support for wildcards in private epoxyattributes,2018-06-18,Merged,451,2,52,,4
+Generate model factory methods,2018-06-27,Merged,450,"4,713",469,gradle properties xml java kt ,9
+Fix Generated Kotlin Extensions Don't Adhere to Constructor Nullability,2018-06-15,Merged,449,398,383,xml ,2
+Fix infinite loop in annotation processor,2018-06-14,Merged,447,25,3,kt java ,4
+Update README.md,2018-06-05,Merged,444,1,1,,0
+Androidx migration,2018-11-12,Merged,440,"1,053","1,217",yml md ,2
+Reduce memory,2018-06-19,Merged,433,24,3,,2
+Async diffing and model building,2018-08-07,Merged,425,"1,028",94,gradle ,2
+Prepare for 2.12.0 release,2018-04-18,Merged,424,14,3,properties ,1
+Improve public paris support,2018-04-18,Merged,422,605,164,gradle kt java ,20
+Update paged list,2018-04-17,Merged,421,140,64,gradle kt ,5
+Prepare for release 2.11.0,2018-04-08,Merged,419,9,3,properties ,1
+"Blacklist setLifecycleOwner method in databinding field parsing, fixes #412",2018-04-08,Merged,418,65,80,gradle java xml kt properties ,22
+remove lifecycleOwner setter from auto generated data binding models,2018-04-08,Closed,417,5,0,java ,2
+blacklist lifecycleOwner from generated models,2018-04-08,Closed,415,14,8,,1
+put setLifecycleOwner in blacklist,2018-04-02,Closed,413,1,1,,1
+make isBuildingModels public,2018-03-13,Merged,406,1,1,,1
+Prepare for 2.10.0 release,2018-03-07,Merged,404,7,3,properties ,1
+Use equals to compare styles,2018-02-25,Merged,403,68,26,,2
+#398 Custom generated view model suffix,2018-02-15,Merged,402,283,8,kt ,6
+Cyclic wrapping adapter,2018-02-25,Closed,401,144,0,,1
+Update paris style package,2018-02-14,Merged,399,2,2,properties ,2
+Prepare for 2.9.0 release,2018-01-30,Merged,395,11,3,properties ,1
+Allow EpoxyController settings to have global defaults,2018-01-30,Merged,394,192,4,,2
+Improve model click listener handling,2018-01-29,Merged,393,107,112,java kt ,8
+disable placeholders in paging example,2018-01-29,Merged,392,23,22,,1
+Add nonnull annotations to EpoxyModel,2018-01-29,Merged,391,798,688,,6
+Improve error message for inaccessible private fields,2018-01-19,Merged,388,6,2,java ,2
+Update wrapped click listener when model is rebound,2018-01-29,Closed,381,100,33,kt ,3
+Prepare release 2.8.0,2017-12-22,Merged,371,16,5,properties ,1
+Specify custom model group root with view id,2017-12-22,Merged,370,30,5,xml ,2
+Feature to customize carousel padding values individually and dynamically,2017-12-22,Merged,369,92,0,,1
+Clear adapter and view pool automatically from EpoxyRecyclerView,2017-12-21,Merged,368,211,17,,2
+Improve how view state is saved,2017-12-20,Merged,367,31,14,,4
+Several clean ups,2017-12-20,Merged,366,149,101,java kt ,8
+Add attribute for item spacing,2017-12-16,Merged,364,23,10,xml ,3
+Update Paging Library to alpha4,2018-01-25,Merged,360,19,18,kt ,4
+Fix carousel visibility settings,2017-12-12,Merged,356,40,4,,2
+Release 2.7.3,2017-11-21,Merged,348,7,3,properties ,1
+Fix binding diff with prop group,2017-11-21,Merged,347,717,673,gradle java kt ,5
+Enable Enable @ModelProp @TextProp and @CallbackProp with all options on field attribute,2017-12-20,Merged,343,"2,853",58,kt ,6
+Fix litho model compilation,2017-11-03,Merged,342,160,176,java ,7
+Add NonNull annotation to modelview generated setters,2017-11-01,Merged,340,472,404,kt ,3
+Release 2.7.2,2017-10-29,Merged,336,7,3,properties ,1
+Set up initial kotlin sample project,2017-10-28,Merged,335,481,11,kt java Processor gitignore pro xml ,15
+Release 2.7.1,2017-10-25,Merged,334,11,3,properties ,1
+Change requestDelayedModelBuild to extend delay on multiple calls,2017-10-24,Merged,332,79,43,,2
+Improve transformation of java types to kotlin for extensions,2017-10-23,Merged,331,220,13,kt ,4
+Make model group extendable,2017-10-22,Merged,330,1,1,,1
+Dont assume PagedList is a previous snapshot,2017-10-21,Merged,329,1,1,,1
+Refactor for package structure.,2018-05-29,Closed,326,216,137,,17
+Prepare for 2.7.0 release,2017-10-18,Merged,324,12,3,properties ,1
+Only use styleable view if layout not set,2017-10-17,Merged,323,14,12,kt ,4
+Improve handling of interfaces without props,2017-10-17,Merged,322,79,24,,5
+Generate model interfaces for interfaces on view,2017-10-17,Merged,321,478,121,java ,7
+Upgrade dependencies,2017-10-16,Merged,320,14,14,java kt ,4
+Databinding naming pattern support,2017-10-16,Merged,319,333,256,xml kt ,11
+Check for styleable views in normal models,2017-10-14,Merged,318,"2,102","2,072",kt ,4
+add support for get currently being displayed data,2017-10-16,Merged,317,21,0,,1
+Optimize model group partial binding,2017-10-14,Merged,316,55,16,,2
+Make generated models from views inherit constructors from base model,2017-10-14,Merged,315,249,257,java ,5
+Prepare for 2.6.0 release,2017-10-11,Merged,312,29,18,gradle xml java properties ,10
+Paris improvements,2017-10-10,Merged,310,35,22,kt gradle ,4
+Improve kotlin extensions,2017-10-10,Merged,309,122,23,gradle java kt ,10
+Do paris validations in background,2017-10-05,Merged,307,16,4,java ,4
+Paging EpoxyController,2017-10-10,Merged,306,883,41,java gitignore properties pro xml ,12
+Prepare for 2.5.1 release,2017-10-02,Merged,304,8,3,properties ,1
+Replace UnmodifiableList with java collection's.,2017-10-02,Merged,302,2,180,,2
+Block item click callback during item layout.,2017-10-03,Merged,301,18,5,,2
+EpoxyRecyclerView,2017-10-03,Merged,299,"2,529","1,063",java ,2
+Delay check for multiple recyclerview attachments,2017-09-25,Merged,298,31,8,,1
+Check if attribute is exact View.OnClickListener type not a subtype,2017-09-29,Merged,296,6,2,,1
+Update readme basic usage with new best practices,2017-09-24,Merged,295,35,15,,0
+Fix databinding wrong import,2017-09-23,Merged,294,238,164,xml java ,31
+Prepare for 2.5.0 release,2017-09-14,Merged,284,11,3,properties ,1
+Add paris style validation,2017-09-14,Merged,283,15,17,,1
+Allow ModelView usage without an xml layout,2017-09-13,Merged,282,674,38,,8
+Paris integration,2017-09-13,Merged,281,810,310,xml gradle kt ,9
+Include canvas in ItemTouchHelper swipe callback,2017-09-12,Merged,280,17,9,java ,4
+Generate kotlin extension functions for building models,2017-09-07,Merged,278,407,155,gradle java kt ,15
+Generate model builder interface,2017-09-04,Merged,277,452,764,kt ,2
+Prepare for 2.4.0 release,2017-09-04,Merged,276,16,3,properties ,1
+Fix model click listener setter name,2017-09-03,Merged,275,13,13,,5
+Fix ambiguity when setting null,2017-09-03,Merged,274,2,2,,1
+String resource default option for TextProp,2017-08-29,Merged,269,607,129,,6
+Add value param option to ModelProp for convenience,2017-09-03,Merged,268,95,1,,4
+Fix model group supporting  pre/post bind callbacks,2017-08-23,Merged,267,28,1,,1
+EpoxyTouchHelper improvements,2017-08-15,Merged,262,124,82,,2
+Prepare for 2.3.0 release,2017-08-16,Merged,261,11,4,properties ,1
+View annotation shortcuts,2017-08-15,Merged,260,"1,399",668,,5
+Allow access to model group holder on bind,2017-08-15,Merged,258,9,3,,1
+"Add helper to set up dragging and swiping, with example",2017-08-09,Merged,256,987,20,,4
+#254 Inherit annotations in epoxy model generated classes,2017-08-07,Merged,255,240,0,,6
+Expose root view on EpoxyModelGroup view holder,2017-07-31,Merged,251,13,4,,1
+Add method to move controller model,2017-07-31,Merged,250,142,108,,5
+readme typo,2017-07-28,Merged,247,1,1,,0
+Add touch helper callback wrapper,2017-07-29,Merged,246,177,0,,1
+New view annotation for hook after view bound,2017-07-14,Merged,242,419,6,kt ,9
+Initial conversion of annotation proccessor to Kotlin,2017-07-13,Merged,240,444,500,java kt ,9
+Prepare 2.2.0 release,2017-06-19,Merged,232,260,180,gradle java ,8
+Test the view annotations,2017-06-16,Merged,231,"6,721",188,java xml ,12
+Use proper bind super call for diff binding,2017-06-11,Merged,229,117,66,,8
+Generate long click overload setter on models,2017-06-11,Merged,228,422,141,,6
+Add multi string id,2017-06-10,Merged,227,269,0,,29
+Use view annotations to completely generate models,2017-06-10,Merged,222,"5,463",918,java ,8
+#215 Add DoNotUseInToString option to attributes,2017-05-22,Merged,221,260,1,,7
+#219 Fix recursive getter calls,2017-05-22,Merged,220,29,24,,5
+#198 Support inheriting @AutoModel models from super classes,2017-05-17,Merged,216,292,41,,8
+Prepare for 2.1.0 release,2017-05-10,Merged,213,9,3,,0
+[Databinding] Exclude variables without hash/equals from state,2017-05-09,Merged,211,407,316,java ,13
+Completely generate DataBinding models,2017-05-03,Merged,207,494,33,gradle ,10
+Fix annotation processor,2017-04-30,Merged,206,6,30,java gradle ,4
+Fix @AutoModel Model NPE crash with Proguard,2017-04-30,Merged,205,12,0,pro ,3
+More databinding foundation,2017-04-27,Merged,204,154,66,,9
+Initial support for Litho,2017-04-27,Merged,202,"1,063",517,gitignore properties pro xml java ,8
+Fix model type lookup breaking with custom types,2017-04-26,Merged,200,77,8,,4
+Option to implicitly add AutoModels,2017-04-24,Merged,194,637,196,,8
+Modify layout resource processing to support databinding layouts,2017-04-16,Merged,190,356,191,,6
+[WIP] Custom Change Animations,2017-10-14,Closed,189,"1,152",125,,2
+Databinding model,2017-04-16,Merged,188,"2,026",151,gitignore gradle properties pro xml ,19
+Improve model groups,2017-04-08,Merged,184,108,48,properties ,6
+State saving,2017-04-05,Merged,182,84,4,,3
+Fix model group saved state and update sample,2017-04-05,Merged,181,363,83,java json ,15
+Update readme,2017-04-04,Merged,180,8,6,properties ,1
+Option to delay model build by arbitrary amount,2017-04-04,Merged,179,31,4,,2
+Change epoxy controller diffing to use equals instead of hashCode,2017-04-04,Merged,178,249,143,,10
+Update sample,2017-04-04,Merged,177,40,9,,4
+Fix EpoxyModelGroup to allow nested view stubs and improve sample,2017-04-03,Merged,176,386,173,,5
+Update documentation,2017-04-01,Merged,174,705,469,java ,7
+Include previous model as payload in diffing,2017-04-01,Merged,173,685,97,,9
+Allow canceling pending build model on EpoxyController,2017-03-31,Merged,172,9,1,,1
+No post on first model build,2017-03-29,Merged,170,51,9,,3
+Remove unneeded check,2017-03-26,Merged,169,0,13,,1
+Fix hiding models in EpoxyAdapter,2017-03-23,Merged,167,83,19,xml properties ,9
+Change how model validation param is set,2017-03-23,Merged,166,243,351,java ,11
+2.0 release candidate 1,2017-03-22,Merged,162,260,38,xml ,17
+Add model usage validation in generated code,2017-03-21,Merged,161,"1,886",304,,3
+Fix Kotlin corner case with propery named is%s,2017-03-17,Merged,160,220,11,,5
+Add interceptor to EpoxyController to allow for adjusting models,2017-03-17,Merged,159,323,6,,4
+Better approach to model grouping,2017-03-17,Merged,158,55,92,xml ,6
+Update gradle wrapper task,2017-03-15,Merged,156,1,1,,1
+Refactor resource processing,2017-03-14,Merged,155,539,267,,3
+Qualify layout files in annotation processor,2017-03-16,Closed,154,68,14,,3
+Automatically assign view types for models with view,2017-03-12,Merged,153,322,64,,6
+Add programmatic view support,2017-03-11,Merged,151,324,185,,3
+Add logging in debug,2017-03-07,Merged,150,160,65,java properties ,7
+Update dependencies,2017-03-07,Merged,149,27,14,gradle properties ,5
+Change to EpoxyController and other improvements,2017-03-07,Merged,148,"1,825","1,629",gradle java ,7
+Reduce duplication of private getter/setter code,2017-03-07,Merged,147,50,91,,2
+Add ruby script to auto update processor test resources,2017-03-06,Merged,146,68,0,rb ,2
+Add clickedView as a param in the OnModelClickListener,2017-03-05,Merged,145,15,10,,5
+Allow to annotate private fields based on their getters and setters,2017-03-06,Merged,144,"1,442",62,,4
+Wrap models copy in unmodifiable list and add javadoc,2017-03-05,Merged,143,200,12,,3
+Validate usage of auto models,2017-03-05,Merged,142,280,111,,7
+Support  onBind/onUnbind listeners on generated models,2017-03-03,Merged,140,"3,125","1,037",,7
+Epoxy 2.0,2017-04-10,Merged,139,"13,426","2,526",md MD gradle ,4
+Fixed #137,2017-03-03,Closed,138,2,3,,2
+Add options array to EpoxyAttribute annotation,2017-03-03,Merged,136,371,33,,9
+Add model that groups other models,2017-03-02,Merged,134,355,0,xml ,4
+Add diffing adapter to 2.0 branch,2017-02-28,Merged,132,"2,937","1,099",,3
+Don't generate classes for models in other libraries,2017-02-17,Merged,131,26,15,,1
+Fix errors and add back autovalue check,2017-02-16,Merged,130,94,35,,4
+Write errors after generating classes,2017-02-16,Merged,129,121,110,,2
+Change config to be package based,2017-02-15,Merged,128,440,282,java ,6
+Allow more types in hashcode requirement,2017-02-15,Merged,127,103,12,,5
+Check for null in processor getMethodOnClass method,2017-02-15,Merged,126,3,0,,1
+Prepare for release 1.7.5,2017-02-21,Merged,125,47,15,java properties ,4
+Add library config options,2017-02-14,Merged,124,643,72,,3
+Add helpful information around AnnotationTypeMismatchException errors,2017-02-09,Merged,120,13,1,,1
+Look for default layout in parents if not specified,2017-02-11,Merged,119,668,1,,5
+Prepare for 1.6.2 release,2017-02-09,Merged,117,8,4,properties ,1
+Support layout resource annotations in library projects,2017-02-09,Merged,116,447,5,gradle java ,4
+Fix model callbacks to use holder for EpoxyModelWithHolder,2017-02-07,Merged,113,4,4,,2
+Prepare for 1.6.1 release,2017-02-08,Merged,112,19,4,properties ,1
+Update readme to reflect annotation changes,2017-02-06,Merged,111,47,28,md ,1
+Override EpoxyModelWithHolder callbacks to change param name,2017-02-06,Merged,110,23,8,,2
+Allow default layout res to be specified in class annotation,2017-02-06,Merged,109,282,42,java ,8
+Allow string ids,2017-02-03,Merged,107,304,0,,12
+Add instructions to README for avoiding memory leaks,2017-02-03,Merged,106,41,0,,0
+Generate model for abstract class if class annotation is present,2017-02-05,Merged,105,584,104,java ,3
+Add model callbacks for view attach/detach and fail to recycle,2017-02-02,Merged,104,53,0,,2
+Clarify unbind behavior in documentation,2017-02-02,Merged,103,12,3,java ,1
+Gradle cleanup,2017-01-28,Merged,101,9,43,java ,6
+#99 Correct varargs parameters,2017-01-27,Merged,100,308,8,,7
+remove apt dependency,2017-01-09,Merged,95,3,13,gradle ,2
+Add removeAllModels() to EpoxyAdapter,2017-01-07,Merged,94,32,0,,3
+Getting rid of layout method corner case,2016-12-29,Merged,91,44,57,,17
+Update README.md,2016-12-21,Closed,89,1,1,,0
+Cleanup after using actual names instead of paramN,2016-12-20,Merged,88,4,5,java ,2
+Use actual param names instead of generic paramN,2016-12-19,Merged,85,16,22,,3
+Fix README,2016-12-03,Merged,81,1,1,,0
+Prepare for 1.5.0 release,2016-11-23,Merged,79,12,4,properties ,1
+Add payload support to notifyModelChanged and onModelBound,2016-11-21,Merged,78,30,2,,2
+Update dependencies,2016-11-17,Merged,77,12,12,gradle ,3
+#70 Check for presence with hash=false,2016-11-04,Merged,75,71,39,,3
+Add better examples to [Epoxy - Sample],2017-02-01,Closed,73,138,4,xml java ,11
+#69 Generate reset method,2016-10-24,Merged,72,183,0,,19
+Fix processor to include attributes from super class models in other modules,2016-10-24,Merged,71,120,159,gradle pro gitignore md xml ,16
+#64 Add super call to toString,2016-10-19,Merged,68,17,17,,17
+Update gradle to 2.2.1,2016-10-16,Merged,66,1,1,,1
+#64 Generate toString method,2016-10-18,Merged,65,173,0,,17
+Prepare for 1.4.0 release,2016-10-16,Merged,63,12,4,properties ,1
+Add holder model constructors and improve error message,2016-10-13,Merged,62,14,3,,3
+#37 Look up for super methods,2016-10-12,Merged,59,140,131,,8
+#37 Same as method parameter name if only one parameter,2016-10-08,Merged,57,25,6,,3
+#37 Duplicate methods returning class type,2016-10-05,Merged,56,224,21,,5
+#48 Add setter boolean param to @EpoxyAttribute,2016-10-01,Merged,55,114,2,,6
+Simplify build.workaround-missing-resource.gradle,2016-10-01,Merged,54,1,24,,1
+Eli/annotation library fix,2016-09-27,Merged,53,168,24,java gitignore properties pro xml ,52
+Custom arraylist that reports model changes,2016-10-01,Merged,52,950,72,,3
+Gradle refactor issue#49,2016-09-29,Merged,51,112,50,jar properties gradlew bat ,12
+Add test for classes in different package,2016-09-25,Merged,50,90,33,,18
+Add class based annotation,2016-09-24,Merged,47,305,6,,8
+Ignore parents package private fields if parent is in a different package,2016-09-24,Merged,44,56,20,gradle java ,16
+Clean up DiffHelper class by creating a new helper class.,2016-09-21,Merged,42,419,91,java ,3
+#36 Don't generate setter for final @EpoxyAttribute fields,2016-09-17,Merged,41,103,15,,6
+Prepare for release 1.3.0,2016-09-17,Merged,39,10,5,properties ,1
+Update README.md for view holders,2016-09-16,Merged,38,66,1,,0
+[EpoxyModel] Use getLayout() method instead of layout field in toStri…,2016-09-15,Merged,35,2,3,gradle ,3
+Fix NPE in processor for annotations without targets,2016-09-14,Merged,33,131,7,java ,6
+Don't allow notifyDataSetChanged when diffing is enabled,2016-09-13,Merged,32,75,80,,4
+Remove object pools in differ,2016-09-12,Merged,31,28,71,java ,4
+Ensure list capacity before adding models,2016-09-12,Merged,30,4,1,,1
+Clean up differ test,2016-09-10,Merged,29,215,183,,0
+Support binding to a view holder,2016-09-12,Merged,28,119,17,java ,10
+Prepare for release 1.2.0,2016-09-09,Merged,24,23,2,properties ,1
+Fix differ test,2016-09-07,Merged,23,5,4,java ,2
+Use correct layout in EpoxyModel hashcode,2016-09-07,Merged,22,3,3,java ,2
+Add processor test instructions as javadoc,2016-09-02,Merged,21,4,0,,1
+Don't allow a model id to change after it has been added to an adapter,2016-09-02,Merged,19,52,3,java ,3
+Add position param to onModelBound method in EpoxyAdapter,2016-09-01,Merged,18,2,2,,1
+Test travis,2016-08-31,Closed,14,1,1,,0
+Update readme with hash=false annotation parameter,2016-08-31,Merged,13,3,0,,0
+Add an optional hash param to @EpoxyAttribute,2016-08-31,Merged,12,140,2,,6
+Bump gradle to 2.2.0-beta3,2016-08-29,Merged,11,1,1,,1
+Readme formatting and nits,2016-08-24,Merged,10,63,63,,0
+Add javadoc and improve readme,2016-08-24,Merged,9,106,14,java ,3
+Fix a couple typos in the README,2016-08-24,Merged,8,4,4,,0
+Add sample app,2016-08-24,Merged,7,576,84,md gradle properties java ,7
+"Update gradle info, and bump version to prepare for release",2016-08-24,Merged,6,40,10,gradle properties ,4
+Optimization to only check for insertions if list size changed,2016-08-23,Merged,5,31,9,,2
+"Fix diffing bugs, add option to use Diff Util",2016-08-23,Merged,4,237,88,gradle java ,4
+Add checkstyle,2016-08-19,Merged,3,389,243,xml ,2
+Add more helper methods to show models,2016-08-19,Merged,2,91,8,,2
+Add error check for inner classes in processor,2016-08-18,Merged,1,46,242,,19

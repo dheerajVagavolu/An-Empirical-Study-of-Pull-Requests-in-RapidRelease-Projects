@@ -1,0 +1,157 @@
+[Docs] Fix code block,2018-02-27,Merged,452,1,1,,0
+Workaround for outdated NodObjC dependency,2019-04-24,Closed,451,"15,316","7,946",,0
+Fix the link tag to match W3C convention,2018-02-02,Merged,445,1,1,,1
+cleanups and dependency updates,2019-03-25,Closed,438,930,636,js json ,5
+Fix/restore focus windows (select/escape),2017-12-11,Closed,436,4,0,,1
+Pass 'settings' object to plugins on initalize() and initializeAsync(),2018-02-02,Merged,433,24,19,,6
+Feature/allow transparency,2017-12-06,Closed,429,3,2,css ,2
+Change input upon selecting 'settings' from taskbar,2017-12-04,Merged,425,1,1,,1
+Restore focus to previous window on blur/hide (production only),2017-12-04,Merged,424,2,0,,1
+Fix/minor css issues,2017-12-04,Merged,421,3,3,,2
+Fix/dragging plus input,2017-12-01,Closed,419,43,5,css ,3
+add opt-in for statistics reporting,2017-12-04,Merged,415,33,13,,4
+Fix cerebro fail when no description provided for published plugin,2017-12-04,Merged,409,1,1,,1
+Set defaultValue from plugin for settings if user didn't set anything yet,2017-08-09,Merged,382,13,2,,2
+"Added section for ""Development"" plugins",2017-08-09,Merged,381,52,13,,4
+Debug jest mocking on windows CI,2017-08-09,Closed,380,"2,144",450,eslintrc js json npmignore ,12
+Fix plugin initialisation,2017-08-09,Merged,379,1,1,,1
+Update README.md,2017-08-02,Merged,373,2,2,,0
+Fix build,2017-08-03,Merged,372,5,5,lock ,2
+Fix desktop file validation bug in Ubuntu,2017-07-31,Merged,371,1,1,,1
+Activate launched applications,2017-07-28,Merged,370,1,1,,1
+Update packages,2017-07-17,Merged,364,968,"1,012",js json ,16
+Fix path to uglifyjs binary,2017-07-11,Merged,362,1,1,,1
+Fix hotkey binding input,2017-07-05,Merged,357,13,10,,1
+support for portable mode,2017-06-27,Merged,350,9,1,,1
+Use one donate message and updated tracking,2017-06-14,Merged,345,15,15,,6
+Always restore focus in previous app on Mac,2017-06-08,Merged,342,8,7,,2
+Fix no method error for `app.hide()` on Linux and Windows,2017-06-08,Merged,341,5,1,,1
+Refactor plugins structure and background processing,2017-06-07,Merged,338,82,123,png css ,38
+Ugly hack for main renderer/background race condition in plugin initialization,2017-06-07,Merged,337,3,1,,1
+Added status bar with plugins installation status,2017-06-06,Merged,336,99,6,css ,9
+Use uglifyjs instead of babili,2017-06-06,Merged,335,12,3,lock ,2
+Added 32 bit system as target,2017-06-06,Merged,334,8,1,,1
+Fix production build error,2017-06-06,Merged,332,10,46,json js lock ,4
+Remove lodash decorators and decorators babel plugin,2017-05-31,Merged,330,19,18,js json ,5
+Fix plugin updates watcher,2017-05-30,Merged,328,1,1,,1
+Added babili minification,2017-05-29,Merged,327,247,30,,1
+Feature/focus previous app,2017-05-29,Merged,326,5,4,,2
+Feature/auto launch,2017-05-29,Merged,325,99,333,json ,5
+Feature/removements,2017-05-29,Merged,322,49,238,css json ,10
+Small refactoring of autoupdated,2017-05-25,Merged,321,28,25,,3
+Feature/extract apps plugins to separate repos,2017-05-24,Merged,319,9,835,css ,12
+Move Icon components to cerebro-ui,2017-05-23,Merged,318,7,157,json lock ,12
+Update a few things,2017-05-23,Merged,317,583,304,eslintrc yml js json ,7
+Update package.json,2017-05-22,Merged,316,2,2,,1
+Feature/update to webpack2,2017-05-23,Merged,314,"1,336","1,877",js html ,6
+Feauture/extract files nav plugin,2017-05-17,Merged,312,12,833,,14
+Yandex translate moved to separate package,2017-05-16,Merged,311,1,537,css ,5
+Allow to use plugins with `default` key,2017-05-10,Merged,309,7,1,,1
+use yarn for installation on CI,2017-05-09,Merged,308,3,6,,2
+Extract cerebro ui components to separate package,2017-05-10,Merged,307,33,497,css ,12
+Swap languages on translate plugin,2017-05-09,Merged,306,68,9,css ,5
+Update electron and electron-builder,2017-05-19,Closed,304,591,381,yml js ,24
+Move openWeb plugin to separate repository,2017-05-09,Merged,302,2,741,css png ,14
+Remove maps plugin,2017-05-09,Merged,296,2,510,css png ,16
+Remove math and google,2017-05-09,Merged,295,1,322,css png json ,12
+Remove array component type,2017-04-25,Merged,289,0,2,,2
+Add settings docs,2017-04-12,Merged,283,51,0,,0
+Extract converter to separate repository,2017-04-26,Merged,278,0,641,,10
+Switch to SmartIcon in basic apps preview,2017-04-12,Merged,276,2,1,,1
+Only show unique binaries in search results,2017-05-09,Merged,273,4,2,,1
+Update a few devDeps,2017-04-25,Merged,271,640,587,,2
+[Linux] Add binary name support during app search,2017-04-06,Merged,268,8,1,,1
+"Commands whould be executed with NPM, not Yarn",2017-04-04,Closed,267,2,2,,0
+Update electron-rebuild to version 1.5.7,2017-04-04,Merged,266,152,541,,1
+Switch to electrons getFileIcon on windows,2017-04-03,Merged,265,13,8,json ,4
+Fix window not floating in Linux,2017-03-31,Merged,263,8,2,,1
+Add github templates,2017-03-21,Merged,259,28,0,,0
+Call fix-path,2017-03-21,Merged,258,23,25,js ,4
+Implement lightweight vim mode,2017-03-21,Merged,255,68,24,,3
+Added donate dialog + update electron,2017-03-21,Merged,254,111,62,json lock ,7
+Update boilerplate.md,2017-03-20,Merged,252,1,1,,0
+Store app selection counts internally and use them to sort results,2017-05-18,Merged,250,27,21,,1
+Make config.json nicely formatted,2017-03-20,Merged,247,5,5,,4
+Add `version` command,2017-03-17,Merged,244,53,2,,3
+Add reload plugin,2017-03-16,Merged,241,28,1,,2
+Feature/remove apps preview,2017-03-16,Closed,240,4,54,css ,9
+Reduce babel presets,2017-03-13,Merged,239,287,228,js ,11
+Revert babel presets config,2017-03-13,Merged,238,35,10,lock ,2
+Single Instance Application,2017-03-16,Merged,235,12,0,,1
+Move plugins list to Cerebro's Awesome List,2017-03-13,Merged,234,1,27,,0
+Added gitter chat to readme,2017-03-13,Merged,233,3,0,,0
+Fix typo in require memoizee,2017-03-13,Merged,232,1,1,,0
+Add plugin settings,2017-04-07,Merged,230,388,137,css ,15
+Install plugins: clearly,2017-03-09,Merged,228,1,1,,0
+Race condition: allow a second before trying to load the plugin,2017-03-09,Merged,219,21,18,,1
+Fix small typos in README.md,2017-03-09,Merged,216,5,5,,0
+Fix doc typo at search.js,2017-03-05,Merged,215,1,1,,1
+Add AQI plugin to README,2017-03-05,Merged,213,1,0,,0
+Split plugins into categories,2017-03-04,Merged,208,43,15,,1
+Fix plugin installation,2017-03-04,Merged,203,593,8,js ,2
+Added plugin to Readme,2017-03-02,Merged,199,1,0,,0
+Windows icons support,2017-03-20,Merged,198,244,4,json ,4
+Quit application when main window is closed,2017-03-01,Merged,197,2,0,,1
+Update styles.md,2017-03-01,Merged,196,1,1,,0
+Remove overriding font-family declaration in Settings,2017-03-01,Merged,195,0,1,,1
+Use NPM’s registry to search for plugins,2017-03-01,Merged,194,2,2,,1
+Move kill to macOS plugins.,2017-03-01,Merged,192,1,1,,0
+Fix plugins search,2017-03-01,Closed,191,1,1,,1
+Add github plugin,2017-02-28,Merged,189,1,0,,0
+Add NPM Plugin to the Readme,2017-02-28,Merged,186,1,0,,0
+Display Above Fullscreen Apps,2017-02-28,Merged,185,3,1,,1
+Add DuckDuckGo plugin to Readme.md,2017-02-27,Merged,178,1,0,,0
+Fix typo,2017-02-27,Merged,177,1,1,,0
+Do not raise global exception if machine-id is not found,2017-02-28,Merged,176,9,1,,1
+Save window position only when it's visible,2017-02-26,Merged,165,3,0,,1
+Add windows system plugin,2017-02-26,Merged,163,4,1,,0
+Updated README,2017-02-26,Merged,162,1,1,,0
+Feature/improve plugins,2017-02-26,Merged,157,342,320,,5
+Make Yarn the default,2017-02-24,Merged,148,"8,311",49,yml md ,2
+Add config file path to readme,2017-02-23,Merged,147,8,0,,0
+"Do not clean search input by cmd/ctrl+backspace,",2017-02-24,Merged,145,0,4,,1
+Fix/windows start,2017-02-24,Merged,144,3,1,,1
+Do not call `.startsWith` for undefined values of mdfind result line,2017-02-23,Merged,141,1,1,,1
+Add Indian rupee,2017-02-22,Merged,126,8,2,,1
+"Fix changing ""developer mode"" checkbox when tray icon is hidden",2017-02-11,Merged,114,3,1,,1
+Add devdocs plugin,2017-02-11,Merged,111,8,7,,0
+Add new stackoverflow plugin,2017-02-13,Merged,110,1,0,,0
+Globally fix $PATH env variable,2017-02-10,Merged,109,3,0,js ,2
+Use more stable approach for unarchiving plugins,2017-02-10,Merged,108,30,55,json ,3
+Add some plugins,2017-02-08,Merged,105,3,0,,0
+Hide empty preview and use all width for results in this case,2017-02-08,Merged,104,14,11,js ,4
+Fix macOS name,2017-02-07,Merged,103,4,4,,0
+Fix js error popup,2017-02-06,Merged,94,1,0,,1
+Use color image for tray on linux and windows,2017-02-04,Merged,87,10,1,ico png json ,4
+Currency converter: add ukrainian currency,2017-02-04,Merged,85,7,1,,1
+Added flag `clean on hide` to settings,2017-02-03,Merged,83,45,4,,4
+Support more languages in translate plugin,2017-02-03,Merged,82,121,2,,2
+Linking linux-commands plugin,2017-02-03,Closed,80,2,1,,0
+Improve window position and size,2017-02-04,Merged,78,87,5,js ,4
+Search apps by abbreviation,2017-02-02,Merged,76,51,3,,5
+"Allow reloading page, but do not allow navigation to other urls",2017-02-02,Merged,75,4,2,,1
+Hotkeys on windows and linux,2017-02-02,Merged,74,18,14,md ,4
+Update examples.md,2017-02-02,Merged,73,17,0,,0
+Update node-machine-id package,2017-02-02,Merged,72,1,1,,1
+Add backers and sponsors from Open Collective,2017-02-02,Merged,71,70,0,,0
+Open dev tools always in detached mode,2017-02-01,Merged,70,2,2,,1
+Open links from previews in default browser,2017-02-01,Merged,69,11,1,,1
+Change dev engines,2017-02-01,Merged,67,1,2,,1
+Search and launch apps on windows and linux,2017-02-02,Merged,62,297,4,css ,14
+Search applications on windows,2017-02-01,Closed,59,105,0,css ,5
+Exit mocha test suite after run,2017-01-30,Merged,55,1,0,,1
+Apps search fix,2017-01-30,Merged,54,47,1,json ,3
+Update gitignore file,2017-01-30,Merged,53,9,1,,1
+plugin cerebro-gkg (https://github.com/Kageetai/cerebro-gkg),2017-02-09,Merged,48,1,0,,0
+Use default config when config file is corrupted,2017-01-24,Merged,31,10,2,,1
+Removed build/icons to generate linux icons automatically,2017-01-24,Closed,30,1,1,png ,8
+Updates,2017-01-24,Merged,29,192,17,js json png ,17
+New icon and logo!,2017-01-20,Merged,28,2,2,png icns ico json ,20
+Added handler for cerebro:// protocol,2017-01-20,Merged,27,39,2,icns ico png nsh json ,18
+Feature/cerebro internal commands,2017-01-18,Merged,25,47,10,png css ,22
+Added development context menu,2017-01-22,Merged,23,105,81,,6
+Feature/windows and linux support,2017-01-17,Closed,21,0,0,,0
+Update readme,2017-01-14,Merged,13,12,4,,0
+Windows fixes,2017-01-14,Merged,12,34,17,,5
+Windows fix,2017-01-12,Merged,8,1,1,,1
+Added universal-analytics,2017-01-13,Closed,7,2,1,,1

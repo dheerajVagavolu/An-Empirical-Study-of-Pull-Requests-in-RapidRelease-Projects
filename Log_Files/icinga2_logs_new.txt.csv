@@ -1,0 +1,1429 @@
+CheckCommand ssl: s/-N/--sni/,2020-01-08,Merged,7741,1,1,,1
+cope with OS which don't fill in si_pid in siginfo,2020-01-08,Merged,7739,4,4,,1
+IcingaDB - Runtime updates: Use one pub/sub channel per config object type,2020-01-07,Merged,7738,35,36,,1
+Revert NotificationResult,2020-01-09,Merged,7737,37,183,cpp hpp txt ti ,16
+IcingaDB: suppress state sync until config sync finished,2020-01-08,Merged,7721,42,1,hpp ,4
+RedisConnection: replace std::shared_ptr<T> with Shared<T>::Ptr,2019-12-18,Merged,7717,14,12,hpp ,2
+RedisConnection: shorten log messages,2019-12-18,Merged,7716,5,1,,1
+Document RedisConnection,2019-12-18,Merged,7715,151,1,hpp ,2
+Boost Coroutines: Increase the default stack size from 64 to 256KB,2019-12-13,Merged,7713,4,1,,1
+JSON: Update to nlohmann/json 3.7.3,2019-12-13,Merged,7712,"12,571","10,102",,0
+IcingaDB: update icinga:nextupdate:* on Checkable#next_check changes,2019-12-10,Merged,7708,11,0,hpp ,2
+Fix notification scripts to stay compatible with Dash,2019-12-10,Merged,7706,16,62,,2
+IcingaDB history: Add cancelled_by & removed_by to downtime & comment history,2019-12-09,Merged,7702,5,2,,1
+Fix bash line continuation in mail-host-notification.sh,2019-12-09,Merged,7701,1,1,,1
+IcingaDB: don't hash hashes,2019-12-10,Merged,7700,59,29,hpp ,3
+Get rid of IcingaDB#CalculateCheckSum*(),2019-12-06,Merged,7699,21,62,hpp ,3
+Metrics: Always send '0' as value for thresholds,2019-12-06,Merged,7696,21,21,,5
+Refuse acking an already acked checkable,2019-12-09,Merged,7695,57,1,cpp ,4
+IcingaDB: Add timestamp to stats stream,2019-12-05,Merged,7694,1,0,,1
+IcingaDB: Remove unnecessary service_/host_ids,2019-12-05,Merged,7693,2,5,,1
+"IcingaDB: include consistent IDs, start time and end time in icinga:history:stream:{flapping,acknowledgement}",2019-12-10,Merged,7690,109,56,hpp ti ,10
+Fix open connections when agent waits for CA approval,2019-12-09,Merged,7686,2,0,,1
+Checkable#GetProblem(): consider PENDING not a problem,2019-12-03,Merged,7685,3,1,,1
+IcingaDB: update service state on Host#problem change,2019-12-04,Merged,7684,24,4,hpp ,4
+Documentation: Some small typo fixes,2019-12-03,Merged,7682,3,3,,0
+Improve error message for POST queries,2019-12-03,Merged,7681,2,1,,1
+IcingaDB#PublishStats(): make icinga:stats a stream,2019-12-03,Merged,7678,30,2,,1
+IcingaDB#SendAddedComment(): suppress ack comments,2019-12-02,Merged,7677,1,1,,1
+IcingaDB#GetStats(): add endpoint_id to IcingaApplication,2019-12-06,Merged,7676,9,0,,1
+IcingaDB: Remove unused checksums,2019-12-02,Merged,7674,0,44,,1
+IcingaApplication#StatsFunc(): tell whether the instance is_part_of_a_cluster,2019-12-02,Closed,7670,2,0,,1
+IcingaDB: Add notification recipients,2019-12-04,Merged,7669,25,1,,1
+Fix TLS context copies in ApiListener,2019-12-02,Merged,7668,4,8,,1
+IcingaDB: populate icinga:history:stream:acknowledgement,2019-12-05,Merged,7667,149,17,hpp ,11
+Docs: clarify CRITICAL vs. UNKNOWN,2019-12-02,Merged,7665,1,1,,0
+Docs: explicitly explain how to disable freshness checks,2019-12-02,Merged,7664,1,1,,0
+IcingaDB: populate icinga:nextupdate:*,2019-12-03,Merged,7662,136,55,hpp ,3
+RedisConnection: introduce extensible priorities,2019-12-03,Merged,7661,64,55,hpp ,5
+"IcingaDB: get rid of icinga:{subscription,event}*",2019-12-02,Merged,7660,0,144,hpp ,2
+Notification_history: Rename event_time to send_time,2019-11-27,Merged,7659,1,1,,1
+IcingaDB: always set *#host_id,2019-11-27,Merged,7657,29,20,,1
+"IcingaDB: don't always set icinga:config:*command:{argument,envvar}#value",2019-12-03,Merged,7656,18,2,,1
+CommentType: remove unused variants,2019-11-26,Merged,7655,0,2,,1
+Fix TLS context not being updated on signed certificate messages on agents,2019-11-27,Merged,7654,1,1,,1
+IcingaDB: don't always set Comment#expire_time,2019-12-02,Merged,7653,24,3,,1
+"IcingaDB#SendStatusUpdate(): don't always set icinga:history:stream:state#{,long_}output",2019-11-27,Merged,7652,13,17,,1
+IcingaDB#SendStatusUpdate(): avoid CheckResult::Ptr(nullptr)->GetCheckSource(),2019-11-26,Merged,7651,5,1,,1
+Fix notification scripts string comparison,2019-11-22,Merged,7647,2,2,,2
+/v1/actions/remove-comment: let users specify themselves,2019-11-26,Merged,7646,34,7,cpp hpp ti ,5
+/v1/actions/remove-downtime: let users specify themselves,2019-11-26,Merged,7645,19,2,cpp ti ,3
+IcingaDB: handle Redis restarts,2019-11-26,Merged,7643,49,23,hpp ,2
+IcingaDB: Update Redis port to use Icinga-Redis,2019-11-21,Merged,7641,4,4,conf ti ,2
+Docs: Update installation for RHEL/CentOS 8 and SLES 15,2019-11-20,Merged,7640,172,106,,0
+"DSL: Add get_template{,s}",2019-11-15,Merged,7632,108,0,cpp hpp ,2
+IcingaDB: Remove redundant last_{hard/soft}_state,2019-11-14,Merged,7626,2,7,,1
+IcingaDB: Fix state on unchecked objects,2019-11-11,Merged,7616,19,10,,1
+IcingaDB: Add user notification history,2019-11-08,Merged,7611,31,8,hpp ,2
+IcingaDB: avoid duplicates in icinga:history:stream:downtime,2019-11-12,Merged,7608,1,3,,1
+Main(): don't call Process::InitializeSpawnHelper(),2019-11-13,Merged,7606,0,2,,1
+"IcingaDB: correct icinga:history:stream:state#{,last_}soft_state and icinga:history:stream:notification#state for hosts",2019-11-04,Merged,7605,3,3,,1
+IcingaDB#SendStatusUpdate(): add icinga:history:stream:state#previous_soft_state,2019-11-04,Merged,7604,14,6,ti ,3
+Powershell example to validate the certificate,2019-11-07,Merged,7603,99,31,,0
+Add extended checks options to snmp-interface command template,2019-11-15,Merged,7602,6,0,conf ,1
+Add IcingaDB,2019-11-02,Merged,7601,"3,581",59,md conf cpp hpp ti ,7
+"I like to move it, move it",2019-10-31,Merged,7593,28,27,,1
+Docs: Add the link from object type joins to URL endpoints,2019-10-25,Merged,7591,2,1,,0
+Clarify the installation of EPEL repository on CentOS vs RHEL,2019-10-24,Merged,7589,10,2,,0
+Docs: Add upgrading notes for 2.11.x bugfix releases,2019-10-24,Merged,7588,23,0,,0
+Cluster Config Sync: Check the timestamp prior to config file checksums for changes,2019-10-22,Merged,7584,58,40,,1
+Minor doc fix,2019-10-22,Merged,7583,1,1,,0
+Align the docs with GitHub details on Zone Inception,2019-10-17,Merged,7578,56,14,,0
+MacroProcessor::ResolveArguments(): skip null argument values,2019-11-15,Merged,7567,2,0,,1
+doc typo: path to error.log,2019-10-08,Merged,7564,1,1,,0
+Performing a reload might result in zombie processes,2019-11-13,Closed,7561,85,8,hpp ,6
+Avoid syncing .authorititative marker received from < 2.11 parent nodes,2019-10-17,Merged,7552,4,0,,1
+DaemonUtility#ValidateConfigFiles(): re-try unknown zones once they may have become known,2019-10-31,Merged,7546,56,13,,1
+Zone#OnAllConfigLoaded(): warn on zones in zones,2019-11-02,Closed,7545,10,0,,1
+Avoid loading the authoritative marker for syncs at all cost,2019-10-17,Merged,7544,4,0,,1
+Docs: Fix URL for memcached ITL CheckCommand,2019-09-27,Merged,7543,4,2,,0
+"Config lexer: complain on EOF in heredocs, i.e. {{{abc<EOF>",2019-10-22,Merged,7541,4,0,,1
+Add file age check for Windows command definition,2019-12-03,Merged,7540,43,0,conf ,1
+Dependency#OnAllConfigLoaded(): don't link *this with the child if *this is going to be dropped,2019-09-25,Merged,7538,1,2,,1
+API /v1/config/stages 'activate' parameter,2019-11-15,Merged,7535,32,14,cpp hpp ,3
+Introduce Checkable#next_update,2019-09-25,Merged,7534,19,0,cpp hpp ti ,3
+WarnOnImplicitlySetGlobalVar(): warn only on sins inside actual DSL code,2019-09-25,Merged,7529,1,1,,1
+"API: Handle permission exceptions soon enough, returning 404",2019-11-15,Merged,7528,15,4,,1
+Improve error message/docs for command endpoints requiring a zone,2019-09-23,Merged,7527,12,3,cpp ,2
+"Docs: Add upgrading/troubleshooting details for repos, config sync, agents",2019-09-23,Merged,7526,199,7,,0
+Fix spelling error,2019-09-20,Merged,7518,1,1,,0
+Update README.md,2019-09-19,Closed,7508,1,1,,0
+CSR Auto-signing: Add debug logging for skipped signing,2019-09-18,Merged,7507,22,4,,1
+Docs: Update product URLs and missing bits,2019-09-17,Merged,7504,139,92,,0
+API: Add AES128-GCM-SHA256 compatible cipher for el6,2019-09-16,Merged,7503,3,3,ti ,1
+Docs: Update debugging instructions for 2.11,2019-09-16,Merged,7502,15,11,,0
+Docu fix,2019-09-13,Merged,7496,3,3,,0
+Revert: Always reset Boost beast buffer in HttpServerConnection#ProcessMessages #7476,2019-09-12,Merged,7495,5,4,,1
+Introduce IoEngine::SpawnCoroutine wrapping asio::spawn and Boost exceptions,2019-09-09,Merged,7491,92,13,cpp ,4
+Quality: Replace deprecated Boost IO service code,2019-09-09,Merged,7490,52,51,hpp ,18
+API: Avoid I/O on shutdown,2019-09-09,Merged,7487,41,19,,2
+Rewrite error handling in HttpServerConnection#EnsureValidHeaders(),2019-09-09,Merged,7486,18,24,,1
+Avoid the Defer-Disconnect destructor pattern with Boost.Coroutines,2019-09-09,Merged,7485,10,7,,3
+Windows: Workaround for MSVC stdlib and coroutines with Boost Beast calls,2019-09-09,Closed,7484,7,0,,1
+JsonRpcConnection: Don't swallow exceptions in Boost.Coroutine,2019-09-09,Merged,7483,21,12,,2
+Add summarized performance data to check_network,2019-09-09,Merged,7481,1,0,,1
+Dev Docs: Update Windows to Visual Studio 2019,2019-09-12,Merged,7480,172,131,,0
+Build: Add Powershell script for development config for building Windows debug packages,2019-09-06,Merged,7479,68,0,,1
+HttpServerConnection: Prefer error codes over Boost exceptions,2019-09-06,Merged,7477,48,37,,1
+Always reset Boost beast buffer in HttpServerConnection#ProcessMessages,2019-09-06,Merged,7476,4,0,,1
+Docs: Update Linux and Windows Dev instructions for 2.11,2019-09-02,Merged,7467,118,24,,0
+Docs: Update supported Windows agent versions,2019-08-30,Merged,7464,12,10,,0
+Docs: Prefer the Powershell commands on Windows,2019-08-30,Merged,7463,56,22,png ,1
+Metrics: Expose problem/handled counts for hosts/services,2019-08-30,Merged,7459,37,2,hpp ,4
+Config parser: introduce optional_newlines,2019-10-22,Merged,7458,24,42,,1
+Config parser: save some memory allocations,2019-10-17,Merged,7457,14,18,,1
+Allow HTTP requests only from localhost on WinNT,2019-09-09,Closed,7455,77,11,cpp ti ,3
+"Update docs: Fix online URL, cipher list",2019-08-28,Merged,7451,5,5,cpp ,3
+Windows binary: Also update the exe icon,2019-08-27,Merged,7450,0,0,,1
+DSL: warn on x=y if x is a global variable,2019-08-27,Merged,7449,55,1,cpp ,2
+check_nscp_api: read HTTP response via Boost.Beast,2019-08-27,Merged,7447,122,54,,1
+JsonRpcConnection#Disconnect(): unregister the connection ASAP,2019-08-28,Merged,7445,10,9,,1
+DSL: introduce x?y:z,2019-11-15,Merged,7442,58,0,yy ,1
+LegacyTimePeriod: support specifying seconds,2019-11-15,Merged,7439,68,73,,2
+Add check_uptime to ITL,2019-08-27,Merged,7437,44,0,conf ,1
+CMake: Fix LTO flags for shared linking,2019-08-27,Merged,7435,1,1,,0
+CMake: Fix CXX flags for AIX,2019-08-27,Merged,7434,1,1,,0
+Link against libatomic if building with Clang on Linux,2019-08-26,Closed,7433,1,2,,0
+ITL: Add sar-perf,2019-08-19,Merged,7428,34,1,conf ,1
+WIP,2019-08-16,Closed,7424,151,94,,0
+Fix and improve logging for runtime object sync,2019-08-15,Merged,7423,63,27,,3
+Correct current_concurrent_checks to actually running checks,2019-08-16,Merged,7422,12,3,hpp ,5
+Expose metric current_pending_callbacks,2019-08-15,Merged,7421,22,2,hpp ,4
+Docs: Add cluster message routing details,2019-08-14,Merged,7420,65,3,,0
+Fix object create/delete config object cluster loop (missing message origin),2019-08-14,Merged,7419,68,24,hpp ,7
+Fix minimum version parsing in the 'icinga' check,2019-08-14,Merged,7418,42,5,hpp txt ,4
+DSL: Add support for Lambda Closures ()use(x)=>x and ()use(x)=>{return x},2019-12-03,Merged,7417,53,5,yy ,1
+WIP Downtimes & Comment loop,2019-08-16,Closed,7411,30,14,hpp ,6
+"CMake: If target arch cannot be detected, don't throw an error",2019-08-12,Merged,7409,3,3,,0
+Docs: Add a note to icinga check about failed reload detection,2019-08-08,Merged,7406,1,1,,0
+Explicitly write the 1.x legacy attribute 'interval_length' for Livestatus,2019-08-07,Merged,7404,14,5,hpp ,5
+Enhance Agent best practices throughout the documentation,2019-08-07,Merged,7403,247,207,,0
+Fix missing stats for current_concurrent_checks via REST API,2019-08-06,Merged,7400,2,0,,1
+"Improve logging for downtime/ack events (add, remove, expire)",2019-08-06,Merged,7399,31,7,,3
+icinga2 daemon --close-stdio: keep console log open during first config validation,2019-08-07,Merged,7397,35,7,,1
+DB IDO: Fix upgrade script for 2.11.0 (drop index only if existing),2019-08-05,Merged,7396,82,27,sql ,1
+"Docs: Enhance Troubleshooting with TLS handshake, CSR signing, checks, notifications, cluster sync",2019-08-02,Merged,7392,320,40,,0
+"Cluster sync: Only sync valid UTF8 content (text config, no binaries)",2019-08-05,Merged,7391,29,3,cpp ,1
+Docs: Syncing binaries with the config sync are not supported,2019-08-02,Merged,7390,21,0,,0
+Fix name of 'timeperiods' livestatus table in doc,2019-08-02,Merged,7389,1,1,,0
+Revert schedule-downtime action time checks,2019-08-01,Merged,7385,0,10,,1
+Add missing options to 'nwc_health' ITL CheckCommand,2019-08-01,Merged,7383,10,0,conf ,1
+Refine the term 'TLS' instead of 'SSL',2019-08-01,Merged,7381,27,42,,0
+Windows agent: Enhance and update docs,2019-07-31,Merged,7379,"1,945",179,resx ,4
+Docs: Add Powershell Git integration for Windows dev environment,2019-07-31,Merged,7376,42,3,png ,1
+Windows Agent: Update icon,2019-07-30,Merged,7373,1,1,ico ,2
+Docs: Improve signing modes with preparation hints,2019-07-30,Merged,7371,24,1,,0
+Fix el7 not loading ECDHE cipher suites,2019-07-30,Merged,7369,8,0,,1
+"TLS Ciphers: Add compatibility suites for older agents (el7, Windows 2.10.x)",2019-07-30,Merged,7368,2,2,ti ,1
+Fix spelling errors.,2019-07-29,Merged,7365,2,2,cpp ,1
+Replace classic shared pointers to Expression and NamespaceValue with intrusive ones,2019-10-22,Merged,7364,183,103,hpp cpp yy ,12
+Replace some classic shared pointers with intrusive ones,2019-10-21,Merged,7360,186,79,cpp hpp ,15
+OpenTsdbWriter - Custom Tag Support,2019-11-15,Merged,7357,420,19,conf ,1
+InfluxdbWriter: clone less,2019-08-28,Merged,7356,15,10,,1
+Docs: Mention that Raspbian 4+ / Debian Buster is required,2019-07-23,Merged,7354,6,2,,0
+InfluxdbWriter: skip non-resolvable tags,2019-08-07,Merged,7353,3,1,,1
+Only include SSL_CTX_set_ecdh_auto for OpenSSL < 1.1.0,2019-07-23,Merged,7352,5,2,,1
+Docs: Better explanation of command arguments,2019-07-22,Merged,7348,328,129,,0
+Docs: Improve security chapters,2019-07-22,Merged,7347,11,2,,0
+DaemonCommand#Run(): set code page to UTF-8,2019-08-27,Merged,7346,7,1,,1
+ITL: Align plugins-contrib.d to PluginContribDir,2019-07-22,Merged,7345,17,17,,7
+Upgrading docs: Mention the doc changes,2019-07-20,Merged,7344,8,0,,0
+Docs: Update our About chapter,2019-07-20,Merged,7343,35,13,,0
+Docs: Enhance distributed monitoring chapter,2019-07-20,Merged,7342,867,528,md ,2
+Tests: _Exit() in main(),2019-07-23,Merged,7340,17,1,,1
+Docs: Rename 'custom attribute' to 'custom variable',2019-07-19,Merged,7339,395,375,,0
+"Docs: Getting Started -> Installation, Configuring Icinga 2 -> Configuration",2019-07-19,Merged,7338,103,103,,0
+Tests: Ensure that the IcingaApplication TP is stopped on exit,2019-07-23,Closed,7337,3,0,,1
+Docs: Add Ubuntu 18 dev playground,2019-07-18,Merged,7336,60,0,,0
+Shutdown timers cleanly on exit,2019-07-17,Merged,7331,3,0,,1
+Rework reload handling on *nix,2019-07-18,Merged,7320,661,170,txt cpp hpp ,3
+Docs: Add cipher analysis to troubleshooting docs,2019-07-15,Merged,7319,117,1,,0
+TLS: Ensure to specify options in one place,2019-07-15,Merged,7318,25,13,,1
+WIP: Tests: Checkresults should use non-paused objects,2019-07-17,Closed,7316,11,0,,1
+TLS: Fetch the cipher list and log them for debugging (OpenSSL 1.1.x),2019-07-12,Merged,7315,39,16,hpp ,4
+Docs: Update macOS dev environment,2019-07-12,Merged,7314,48,6,,0
+Docs: Update Windows build development environment,2019-07-12,Merged,7313,52,63,,0
+Document `no shared cipher` error,2019-07-12,Closed,7311,6,0,,0
+DB IDO: Fix possible crash with program status updates before IcingaApplication is loaded,2019-07-12,Merged,7310,12,7,,1
+Cluster Config Sync: Ensure that empty production environment is populated with new sync,2019-07-11,Closed,7306,35,12,,1
+Internal methods must update the 'command' key in the check result,2019-07-10,Merged,7305,22,7,,6
+Cluster config sync: Fix new files not being moved,2019-07-15,Merged,7303,72,30,,1
+"Rewrite tests for Timeperiods with Boost.DateTime and fix ""day -X"" specification",2019-07-10,Merged,7302,246,89,hpp ,2
+"Quality: Prefer BOOST_{,UN}LIKELY gcc optimizer macros over our own",2019-07-09,Merged,7300,2,10,,2
+CMake: Detect ARM target architecture and set required -latomic,2019-07-10,Merged,7299,48,0,,0
+Stash notifications until object authority has been updated once,2019-07-12,Merged,7297,114,16,ti hpp ,5
+Docs: Clarify on when a manual initial cluster sync is needed,2019-07-08,Merged,7295,11,1,,0
+doc: Add notes about the `instance_name` IDO field,2019-07-08,Merged,7294,3,2,,0
+Service: don't rely on the own host being already set during derivative state calculation,2019-07-08,Merged,7287,2,2,,1
+Cluster: Avoid checking for checksum length with internal files in use,2019-07-08,Merged,7283,1,5,,1
+Use SSL_CTX_set_ecdh_auto only if available,2019-07-04,Merged,7281,2,0,,1
+Docs: Fix example for cluster health dependency,2019-07-04,Merged,7279,2,2,,0
+Buildfix for Windows with non-unity builds,2019-07-03,Merged,7276,4,0,,1
+"Clarify ""Not set by default"" of config object attributes referring to a time period",2019-07-03,Merged,7275,4,4,,0
+Docs: Improve API clients; add Powershell example,2019-07-03,Merged,7273,192,93,png ,1
+Improve type logging for notifications,2019-07-17,Merged,7272,84,59,hpp txt ,10
+API: Improve error handling for 'schedule-downtime' action,2019-07-02,Merged,7271,10,0,,1
+Re-send suppressed notifications,2019-07-11,Merged,7270,321,16,cpp hpp ti ,5
+Add printer_health CheckCommand definition,2019-07-08,Merged,7268,213,0,conf ,1
+Add security issue URL to README/About in the docs,2019-06-28,Merged,7267,8,0,,0
+Fix out-of-bounds crash with Array#remove,2019-06-28,Merged,7266,3,0,,1
+Add memcached CheckCommand definition,2019-07-01,Merged,7264,78,1,conf ,1
+"Fix syntax (missing "")",2019-06-28,Merged,7262,1,1,,0
+"Avoid ""~Class() throw() = default;""",2019-07-02,Merged,7261,0,2,,2
+Spelling mistake corrected,2019-07-02,Closed,7260,1,1,,0
+Fix Path to staged files,2019-06-27,Merged,7259,1,1,,1
+Fix type in nanorc syntax file,2019-06-24,Merged,7252,1,1,,1
+Disable stack traces for WQ exceptions (used in config compiler),2019-06-24,Merged,7251,3,3,hpp ,2
+SSL Context: Explicitly load ECC ciphers on el7,2019-06-18,Merged,7248,3,0,,1
+Create SECURITY.md,2019-06-28,Closed,7245,10,0,,0
+Fix build errors with Boost v1.70,2019-06-18,Merged,7238,31,11,cpp ,6
+[WIP] Feature/notification rework,2019-08-29,Closed,7236,770,217,hpp ,6
+Docs: Add new runtime checkable attributes and explain severity in tech concepts,2019-06-06,Merged,7233,90,2,,0
+Doc: Add missing closing code tag,2019-06-05,Merged,7232,1,1,,0
+"Docs: Update technical concepts for TLS Network IO and Boost Asio, Beast and Coroutines",2019-06-05,Merged,7231,94,167,,0
+Avoid concurrent cluster config sync transactions,2019-06-05,Merged,7230,9,0,hpp ,2
+"Docs: Improve the service monitoring chapter (plugin API, new plugin, integration, etc.)",2019-06-05,Merged,7229,722,50,,0
+Docs: Mark include_zones as internal consumed functionality,2019-06-04,Merged,7224,8,0,,0
+Add check_logfiles to ITL,2019-07-12,Merged,7223,135,0,conf ,1
+Add check_logfiles plugin to ITL,2019-06-04,Closed,7222,152,0,conf ,1
+Improve error handling with network connections (Boost ASIO),2019-06-05,Merged,7220,19,9,,2
+API: Harden default cipher list,2019-06-05,Merged,7219,35,3,ti ,1
+API Actions: Add downtime for all host services (child objects),2019-06-06,Merged,7218,78,2,cpp ,1
+Provide the snmpv3_context option,2019-06-03,Merged,7216,5,0,conf ,1
+Docs: Fix typo,2019-06-03,Merged,7214,1,1,,0
+Docs: Add note about not to use director-global for own configuration,2019-06-04,Merged,7213,4,0,,0
+Require TLS 1.2 for Cluster & REST API,2019-06-03,Merged,7211,25,31,cpp ti ,3
+Quality: Replace deprecated get_io_service() with get_executor().context() for Boost ASIO,2019-05-29,Merged,7210,10,10,cpp ,5
+Close server connections and shutdown coroutines immediately on disconnect,2019-06-05,Merged,7209,34,13,hpp ,5
+Actually wait for running checks,2019-06-06,Merged,7208,2,2,,1
+CLI: Remove broken troubleshoot command,2019-05-28,Merged,7205,10,787,8 txt ,1
+Allow setting the SNMP version for check_iftraffic.pl,2019-06-03,Merged,7204,6,1,conf ,1
+Unify copyright headers,2019-05-27,Merged,7201,5,54,hpp ti ,4
+Docs: Replace 'training whitespaces' with 'trailing whitespaces',2019-05-27,Merged,7200,1,1,,0
+Docs: Add styleguide with development details,2019-05-24,Merged,7199,543,59,,0
+"Cleanup old code (HTTP, Cluster)",2019-05-29,Merged,7196,287,"2,562",hpp cpp ,3
+Remove double whitespaces for notifications log message,2019-06-19,Merged,7192,12,12,,2
+Disable program option guessing in check_service,2019-05-20,Merged,7190,4,2,,1
+Use --description instead of -d for check_service.exe,2019-05-20,Merged,7189,1,1,,1
+Fix wrong facility in GelfWriter log message,2019-05-17,Merged,7185,1,1,,1
+Strip '\r' in notification messages to avoid 'Content-Type: application/octet-stream',2019-06-05,Merged,7184,10,6,,2
+Fix System-V return codes according to LSB,2019-06-06,Merged,7183,4,3,,1
+Add check command for x509's host check,2019-05-16,Merged,7181,48,0,conf ,1
+"Revert ""CLI: Return non-zero on unknown sub commands""",2019-05-10,Merged,7180,3,11,,2
+Add new -r parameter for esxi_hardware command,2019-05-10,Merged,7179,8,2,conf ,1
+API: Automatically repair broken _api package,2019-05-10,Merged,7178,109,38,cpp hpp ,5
+"Docs: Use jo to format JSON body for API actions, esp. unix timestamps",2019-05-09,Merged,7175,33,0,,0
+Account for OpenSSL library evolution,2019-05-10,Merged,7172,31,9,,3
+Docs: Add Master-Master-Replication as option for mysql,2019-05-09,Merged,7171,4,2,,0
+"Docs: Improve distributed, features HA, reachability chapters",2019-05-08,Merged,7169,302,108,,0
+Fix deadlock in API config packages,2019-05-08,Merged,7168,50,13,hpp ,5
+cmake: Update MySQL autodetection to support MariaDB,2019-05-08,Merged,7166,7,1,,1
+Doc: Improve the development chapter,2019-05-09,Merged,7165,49,44,,0
+"Improve validation for times.{begin,end} in notification objects",2019-05-07,Merged,7164,30,0,hpp ,2
+DB IDO: Use cached reachable state,2019-05-07,Merged,7163,3,3,,2
+CLI: Return non-zero on unknown sub commands,2019-05-07,Merged,7162,11,3,,2
+CLI: Fix updates for NodeName/ZoneName constants,2019-05-07,Merged,7158,16,15,,2
+DB IDO: Do not deactivate objects during application reload/restart,2019-05-03,Merged,7157,30,2,hpp ,3
+Implement sleep CheckCommand,2019-05-24,Merged,7156,103,1,conf txt cpp hpp ,4
+use current frame scope for permission filter function calls,2019-05-03,Merged,7155,3,3,,1
+Lock all kind of Objects during serialization,2019-05-10,Merged,7154,6,1,,2
+Fix compiler warnings in Windows plugins,2019-04-30,Merged,7153,59,61,,5
+account for adjusted interface of mysql8,2019-04-30,Merged,7152,2,2,hpp ,2
+Documentation: add missing argument to chkconfig command.,2019-04-29,Merged,7151,1,1,,0
+Ensure that runtime created API objects survive a restart,2019-04-30,Merged,7150,295,9,cpp hpp ,4
+Add --cn parameter to 'api setup' CLI command allowing hostname overrides,2019-04-26,Merged,7148,27,16,cpp hpp ,2
+Update release procedure,2019-04-26,Merged,7146,34,261,py ,1
+Raise .NET target version to 4.6,2019-04-29,Merged,7145,36,25,config csproj cs md cmake ,5
+Use I/O engine in debug console CLI command,2019-05-22,Merged,7143,272,107,,0
+check_nscp_api: Rewrite using Boost ASIO and Beast,2019-05-23,Merged,7142,251,115,,0
+Add log message for log rotate; update docs,2019-04-24,Merged,7140,19,3,cpp ,1
+JsonRpcConnection: reduce log spam on disconnect,2019-04-23,Merged,7137,1,13,,1
+Use new I/O engine in ElasticsearchWriter,2019-04-23,Merged,7135,89,64,hpp ,2
+Use new I/O engine in InfluxdbWriter,2019-04-23,Merged,7134,117,55,cpp ,4
+Use new I/O engine in PkiUtility::FetchCert() and PkiUtility::RequestCertificate(),2019-04-23,Merged,7133,222,46,hpp ,9
+StreamLogger#BindStream(): set #m_FlushLogTimer only if needed,2019-04-24,Merged,7130,6,4,,1
+avoid incrementing Ptr which could be already be in destruction-phase,2019-04-24,Merged,7129,4,6,hpp ,3
+Re-write ObjectLock's implementation details,2019-04-23,Merged,7128,13,93,hpp ,4
+ApiListener#RotateLogFile(): don't overwrite previous log,2019-04-23,Merged,7127,20,17,,1
+ApiListener#ApiTimerHandler(): delete all replayed logs,2019-04-23,Merged,7126,8,0,,1
+Namespace: place ObjectLock in all methods,2019-04-26,Merged,7124,18,0,,1
+FilterUtility::EvaluateFilter(): ensure not to modify the global namespace,2019-04-16,Merged,7122,4,4,,1
+Fix that MaxConcurrentChecks constant is overridden from 'checker' feature,2019-04-17,Merged,7121,59,93,cpp hpp ti ,12
+Ignore synced config zones where no config item exists,2019-04-16,Merged,7120,18,0,,1
+Systemd: don't kill any running check plugins,2019-06-06,Merged,7118,1,0,,1
+Drop Checkable#reachable in favor of #last_reachable,2019-04-15,Merged,7116,0,9,hpp ti ,3
+Improve REST API docs,2019-04-12,Merged,7115,399,152,,0
+use dedicated permissions namespace for scriptframe in filterutility,2019-04-16,Merged,7113,4,2,,2
+Include host state in Service#handled and Service#severity,2019-04-17,Merged,7112,9,0,cpp ,3
+Improve code docs for cluster message routing conditions,2019-04-11,Merged,7109,44,30,hpp ,2
+Doc: command attribute can be a string,2019-04-11,Closed,7108,1,1,,0
+Replace self-written filesystem ops with boost.filesystem,2019-04-25,Merged,7102,66,343,cpp hpp ,7
+JsonRpcConnection: reduce log spam on disconnect,2019-04-09,Merged,7097,13,1,,1
+Expose derivative states via API,2019-04-09,Merged,7096,32,5,hpp ti ,7
+Docs: Update version specific changes for 2.11,2019-04-08,Merged,7093,74,104,,0
+Implement new event queue for ASIO consumers,2019-04-25,Merged,7088,401,94,,1
+HttpServerConnection: Log the user agent field for new requests too,2019-04-05,Merged,7087,3,1,,1
+Remove not needed inline code tag,2019-04-05,Merged,7085,1,1,,0
+WIP: Fix check_swap on x86,2019-04-05,Closed,7084,1,1,,1
+Troubleshooting docs: Add Windows agents without NodeName constant,2019-04-04,Merged,7082,27,0,,0
+Docs: Improve config object types chapter,2019-04-03,Merged,7080,"1,106","1,083",,0
+Build Windows with Visual Studio 2017,2019-04-05,Merged,7079,167,138,csproj yml cmake cpp ps1 ,7
+Deprecate ExternalCommandListener feature ('command') and adjust log warnings to the roadmap,2019-04-03,Merged,7078,37,7,cpp ,4
+Always update object authority & don't skip notifications in non-API setups,2019-04-03,Merged,7077,13,8,,2
+/v1/events: terminate on disconnect,2019-04-05,Merged,7076,111,58,hpp ,24
+"Impersonate as Icinga user, not root",2019-04-03,Merged,7074,22,5,cpp ,5
+"Improve docs for 2.11: Development, test snapshot packages & installation repos",2019-04-09,Merged,7073,420,222,,0
+Upgrading docs: Add Boost dependencies,2019-04-01,Merged,7072,25,12,,0
+Technical Concepts: Add config compiler references,2019-04-01,Merged,7071,9,0,,0
+"Fix logrotate ""Operation not permitted""",2019-07-08,Merged,7065,4,4,cmake ,1
+Add command `icingacli-elasticsearch` to ITL,2019-04-01,Merged,7064,52,0,conf ,1
+Improve DB IDO HA failover behaviour,2019-04-01,Merged,7062,146,43,hpp cpp ti ,5
+Document check_command may be a string,2019-04-01,Merged,7059,1,1,,0
+Document check_command may be a string,2019-03-28,Closed,7057,1,1,,0
+"Disable feature HA by default (InfluxDB, Graphite, Gelf, Elasticsearch, OpenTSDB, Perfdata)",2019-03-27,Merged,7052,16,15,ti ,6
+InfluxDB/Elasticsearch: Flush only if there's data in the buffer,2019-03-27,Merged,7051,8,4,,2
+Implement previous_state_change,2019-04-17,Merged,7050,6,0,ti ,2
+REST API Docs: Add Golang client code example,2019-03-26,Merged,7049,77,4,,0
+Update issue templates,2019-03-26,Merged,7047,60,0,,0
+"Document that `ca list` is not an inventory, add cleanup cycle",2019-03-25,Merged,7046,5,0,,0
+SELinux: add a boolean to allow execution of plugins via sudo,2019-03-25,Merged,7042,78,2,te ,1
+Unify *nix and WinNT CheckCommand#command handling,2019-12-03,Closed,7038,2,2,cpp ,1
+Fix incorrect title in API docs,2019-03-21,Merged,7037,19,19,,0
+DaemonCommand: don't fork() until CloseStdIO(),2019-07-18,Closed,7036,57,16,hpp ,3
+Elasticsearch: Change Content-Type header to 'application/x-ndjson' for bulk streams,2019-03-20,Merged,7035,7,1,cpp ,1
+Update NSClient++ to 0.5.2.39,2019-03-19,Merged,7034,4,4,,0
+Docs: Update supported package repos in Getting Started chapter,2019-03-19,Merged,7033,85,72,,0
+Backport Defer class for 2.10,2019-03-19,Merged,7032,46,0,,1
+Improve logging for parsing metrics in features,2019-03-19,Merged,7031,97,71,hpp ,8
+SELinux: add unreserved_port_type attribute to icinga2_port_t,2019-03-19,Merged,7030,4,1,,1
+Fix heading level in development chapter,2019-03-19,Merged,7028,1,1,,0
+Elasticsearch: Improve error handling/logging,2019-03-19,Merged,7027,10,7,,1
+"CLI: 'ca list' lists pending CSRs by default, add '--all' parameter",2019-05-10,Merged,7026,63,6,cpp ,1
+Update .gitignore,2019-03-18,Merged,7025,10,9,,1
+ElasticsearchWriter: don't leak sockets,2019-03-18,Merged,7020,3,0,,1
+Replace YAJL with nlohmann::json,2019-03-18,Merged,7019,"20,900","4,468",txt cmake md ,3
+Utility::ValidateUTF8(): use UTF8-CPP,2019-03-18,Merged,7014,"3,181",29,cmake cpp gitignore third-party/utf8cpp/LICENSE ,5
+Utility::ValidateUTF8(): reduce memory allocations,2019-03-15,Closed,7013,20,11,txt ,2
+LegacyTimePeriod::ProcessTimeRangeRaw(): support ranges across midnight,2019-06-06,Merged,7011,78,1,cpp txt ,2
+Use new I/O engine in CLI commands and features,2019-04-25,Closed,7010,534,157,hpp ,5
+Use C++11 atomics for our intrusive pointers,2019-04-02,Merged,7008,17,17,hpp ,2
+ApiListener: use Boost ASIO and coroutines for net I/O,2019-04-01,Merged,7005,"2,350",952,txt md cpp ,3
+Timer::TimerThreadProc(): use C++11 lambda instead of bind(),2019-04-24,Merged,7004,1,1,,1
+check_network -h: drop non-existent feature,2019-03-19,Merged,7002,0,5,,1
+Assignment operators doc: tell what the { } are for,2019-03-12,Merged,7001,1,1,,0
+Don't abuse goto for building simple loops,2019-04-03,Merged,7000,45,52,,2
+Suppress or fix compiler warnings,2019-03-18,Merged,6999,29,16,,11
+Unify documentation code formatting,2019-03-26,Merged,6998,"4,660","3,521",,0
+[WIP] Doc: correct default of ApiListener#bind_host,2019-03-07,Closed,6997,1,1,,0
+Typo and link fix,2019-03-06,Merged,6995,2,2,,0
+PkiUtility::NewCa(): just warn if the CA files already exist,2019-03-11,Merged,6991,1,1,,1
+InfluxdbWriter: don't leak sockets,2019-03-18,Merged,6990,8,1,cpp ,2
+ThreadPool: use the Boost ASIO thread pool under the hood,2019-04-25,Merged,6988,74,438,hpp ,6
+Cluster log replay fixes (#6932),2019-06-06,Closed,6984,81,50,hpp ,5
+Changed default storage regex,2019-02-27,Closed,6983,1,1,,0
+[WIP] Doc: add dependencies matrix,2019-03-11,Closed,6982,96,0,,0
+Doc: write systemd lower-case,2019-03-11,Merged,6979,20,20,,0
+"Doc: SLES 11 requires a newer boost version, too",2019-03-18,Merged,6978,1,1,,0
+Ignore failure of unit test base_utility/comparepasswords_issafe,2019-03-13,Merged,6977,1,1,,1
+Don't require OS headers to provide SO_REUSEPORT,2019-03-13,Merged,6976,2,2,,1
+Fix nested hostgroup example,2019-02-26,Merged,6975,1,1,,0
+Update to generic copyright header,2019-02-26,Merged,6974,767,"13,127",cs cmake contrib/GPLHeader py 8 sh cpp rc ,13
+Fix formatting in development docs,2019-02-25,Merged,6972,9,9,,0
+Activate downtimes before any checkable object,2019-02-25,Merged,6971,2,0,,1
+"Improve reload handling for features (metric & queue flush, activation priority)",2019-02-26,Merged,6970,223,88,cpp hpp ti ,10
+Secure ApiUser::GetByAuthHeader() against timing attacks,2019-02-25,Merged,6968,113,1,hpp txt ,4
+Add missing args for apache-status and fix a few typos,2019-02-22,Merged,6963,30,10,conf ,1
+Activate downtimes before any checkable object,2019-02-25,Closed,6960,2,0,,1
+Debug: Log calls to ConfigObject::Deactivate(),2019-02-19,Merged,6958,4,0,,1
+Escape pipe symbol in api documentation,2019-02-19,Merged,6956,10,10,,0
+Forward local log position if no messages in a replay log apply to an endpoint,2019-02-15,Closed,6954,8,0,,1
+Fix indent in configcompiler.cpp,2019-02-20,Merged,6953,2,1,,1
+Delete empty replay log files,2019-02-27,Closed,6952,14,1,,1
+1test,2019-02-15,Closed,6951,273,0,,1
+Create icinga 2,2019-02-15,Closed,6950,53,0,2 ,1
+Doc fix: update check_rbl parameter,2019-02-13,Merged,6949,1,1,,0
+Do not keep replay logs for endnodes that are not directly connected,2019-02-27,Closed,6946,7,0,,1
+Troubleshooting: Add notes on ephemeral port range blocking on Windows agents,2019-02-11,Merged,6944,30,0,,0
+Avoid duplicating non-zero count message replay messages in the debug log,2019-02-11,Merged,6943,4,3,,1
+Add timestamp to all messages sent out via JSON-RPC,2019-02-27,Closed,6941,5,0,,1
+Fix check_swap percentage calculation,2019-02-11,Merged,6940,4,1,,1
+Enhance notification logging,2019-02-08,Merged,6935,82,51,,3
+Raise required Boost version to 1.53,2019-02-11,Merged,6934,3,3,md ,0
+Doc: Add .NET 3.5 to the windows build stack,2019-02-04,Merged,6928,6,0,,0
+Feature/itl cloudera checks,2019-01-31,Merged,6926,94,0,conf ,1
+Fix check_swap formatting,2019-01-31,Merged,6925,1,1,,1
+Fix double to long conversions,2019-01-30,Merged,6924,7,0,cpp ,2
+Downtime::AddDowntime(): place Downtimes in the same zone as the origin ScheduledDowntimes,2019-01-29,Merged,6920,17,1,,1
+Add technical concept docs for our internal JSON-RPC API messages,2019-04-03,Merged,6918,786,8,,0
+Cluster: Delete object message should log that,2019-01-29,Merged,6917,4,4,,1
+Don't allow retry_interval <= 0,2019-01-30,Merged,6916,9,0,hpp ,2
+Ensure that programmer's don't pass <= 0 to localtime(),2019-04-02,Closed,6915,2,0,,1
+ClusterEvents::AcknowledgementSet event should forward 'persistent' attribute,2019-02-04,Merged,6914,1,0,,1
+Make the NSCP CheckDisk --exclude option available to Icinga 2,2019-01-29,Merged,6911,6,1,conf ,1
+Ensure all perfdata to be written,2019-02-11,Merged,6908,91,10,hpp ti ,10
+Use std::to_string for Convert::ToString(),2019-04-02,Closed,6904,18,2,hpp ,3
+TcpSocket#Bind(): also set SO_REUSEPORT,2019-02-04,Merged,6901,3,0,,1
+Use std::stol in Convert::ToLong(const String&),2019-04-02,Closed,6900,18,0,cpp ,2
+Log: Ensure not to pass negative values to localtime(),2019-01-24,Merged,6899,2,1,,1
+Validate Zone::GetLocalZone() before using,2019-01-25,Merged,6897,5,1,,1
+Notification#BeginExecuteNotification(): SetNextNotification() correctly,2019-02-22,Merged,6896,2,4,,1
+Fix checkresults from the future breaking checks,2019-02-08,Merged,6894,28,3,,1
+"Add new ""-us"" option to ipmi-sensor CheckCommand",2019-01-11,Merged,6893,5,0,conf ,1
+Added snmp_exclude option to manubulon snmp-storage check,2019-01-11,Merged,6890,6,0,conf ,1
+"Implement {Host,Service}#plugin_cache_dir",2019-01-16,Closed,6889,15,0,,2
+Don't run UpdateObjectAuthority for Comments and Downtimes,2019-01-16,Merged,6885,7,1,,1
+Allow Checkable#retry_interval to be 0,2019-01-16,Merged,6883,2,1,,1
+InfluxdbWriter#Stop(): flush buffer,2019-02-11,Merged,6882,9,0,hpp ,2
+Don't limit the backlog for listen(2),2019-03-15,Closed,6881,2,1,,1
+pki::RequestCertificate: handle missing certificate/CSR,2019-01-09,Merged,6880,9,0,,1
+Update copyright to generic header,2019-02-25,Closed,6878,729,728,cmake contrib/GPLHeader py sh cpp conf itl/hangman itl/itl itl/manubulon itl/nscp itl/plugins itl/plugins-contrib ,31
+HttpServerConnection#DataAvailableHandler(): reduce log spam,2019-01-07,Merged,6877,1,1,,1
+Add haproxy-status CheckCommand definition,2019-01-24,Merged,6865,69,0,conf ,1
+Add phpfpm-status CheckCommand definition,2018-12-23,Merged,6864,96,0,conf ,1
+Add hddtemp CheckCommand definition,2018-12-23,Merged,6863,81,0,conf ,1
+Add proxysql CheckCommand definition,2018-12-23,Merged,6862,83,0,conf ,1
+Add lmsensors CheckCommand definition,2019-01-24,Merged,6861,38,0,conf ,1
+WIP: ApiListener#ListenerThreadProc(): accept(2) ASAP,2019-01-08,Closed,6860,123,7,hpp cpp ,3
+Make string builder reusable,2019-02-04,Merged,6858,119,14,cpp hpp ,3
+Url#m_Query: preserve order,2019-02-11,Merged,6857,67,104,hpp ,5
+Make UnameHelper() efficient,2019-02-11,Merged,6854,18,22,,1
+Checkable: require zone to be set if command_endpoint is set,2019-02-04,Merged,6853,9,7,,1
+Add haproxy CheckCommand definition,2018-12-21,Merged,6852,58,0,conf ,1
+Fix ITL CheckCommand disk,2018-12-21,Merged,6850,6,0,conf ,1
+Add fail2ban CheckCommand definition,2019-01-24,Merged,6848,60,0,conf ,1
+Improve AppVeyor builds,2018-12-18,Merged,6843,10,1,ps1 ,2
+CheckResult#output: auto-sanitize UTF-8,2019-03-15,Closed,6831,7,1,,1
+API Event Streams: Add 'command' for Notification events,2018-12-17,Merged,6829,7,0,cpp ,1
+ApiListener#Stop(): wait for all requests to finish,2019-06-06,Closed,6827,56,3,hpp ,4
+Downtime#HasValidConfigOwner(): wait for ScheduledDowntimes,2018-12-18,Merged,6826,17,0,hpp ,3
+Document that retry_interval is only used after an active check result,2018-12-06,Merged,6825,2,2,,0
+ITL: Support --list argument to check_apt,2018-12-05,Merged,6823,5,0,conf ,1
+"service and host mail-notifications, add line-breaks to very long out…",2019-11-14,Merged,6822,48,8,,2
+Don't delete downtimes in satellite zones,2018-12-18,Merged,6821,6,1,ti ,2
+Only create downtimes from non-paused ScheduledDowntime objects in HA enabled cluster zones,2018-12-05,Merged,6820,10,2,,1
+"Enhance and unify development docs for debug, develop, package",2018-12-04,Merged,6819,"1,517",707,,0
+HttpServerConnection#DataAvailableHandler(): be aware of being called multiple times concurrently,2018-12-05,Merged,6817,5,1,,1
+ThreadPool#Stop(): discard non-processed queue items,2018-12-05,Merged,6815,1,0,,1
+Restore 'Connection: close' behaviour in HTTP responses,2018-12-04,Merged,6814,9,7,,2
+Implement TLS support for the GelfWriter feature,2019-05-24,Merged,6813,71,16,cpp hpp ti ,3
+WIP: Replace JSON library,2019-03-18,Closed,6812,"50,068",333,cmake cpp ,2
+Fix state conditions in check_memory and check_swap,2018-12-03,Merged,6811,22,17,hpp ,4
+HttpUtility::SendJsonBody(): auto-sanitize non-UTF-8 JSON,2019-03-15,Closed,6809,46,17,hpp ,3
+Remove redundand check for object existence on creation via API,2018-11-30,Merged,6808,0,5,,1
+Add lsyncd CheckCommand definition,2018-12-18,Merged,6806,37,0,conf ,1
+Add btrfs CheckCommand definition,2019-01-24,Merged,6803,60,0,conf ,1
+"Revert ""Remove Downtime objects w/o reference to ScheduledDowntime objects""",2018-12-05,Closed,6802,1,9,hpp ,2
+Add varnish CheckCommand definition,2018-12-05,Merged,6801,51,0,conf ,1
+Fix check_perfmon to support non-localized names,2018-11-29,Merged,6800,5,1,,1
+[Feature] Add restart option to icinga2 systemd unit on failure,2018-11-21,Closed,6792,1,0,,1
+Docs: Add a section for DB IDO Cleanup,2018-11-22,Merged,6791,24,0,,0
+DSL: Implement getenv(),2018-12-04,Merged,6786,45,16,cpp hpp ,7
+WIP: Relay cluster messages related to checkables to the responsible zones,2019-05-07,Closed,6782,3,0,,1
+ApiListener#RelayMessageOne(): fix wrong condition,2019-04-10,Closed,6781,1,1,,1
+"Make mail-{host,service}-notification.sh as POSIX-compliant as possible.",2019-01-24,Merged,6780,18,12,,2
+Doc fix: update apache section,2018-11-21,Merged,6776,5,5,,0
+"Add technical docs for the check scheduler (general, initial check, offsets)",2018-11-14,Merged,6775,190,0,,0
+Initialize ICINGA2_ERROR_LOG inside the systemd environment,2018-11-13,Merged,6773,1,0,,1
+Implement unit tests for Dictionary initializers,2018-11-13,Merged,6771,24,0,cpp ,1
+Fix deadlock in GraphiteWriter,2018-11-13,Merged,6770,3,1,hpp ,2
+fixes #6758,2018-11-09,Merged,6762,1,0,,1
+armhf: Apply workaround for timer tests with std::bind callbacks,2018-11-09,Merged,6760,6,6,,1
+Fix possible double free in StreamLogger::BindStream(),2018-11-09,Merged,6759,2,2,,1
+Fix that no_more_notifications gets reset when Recovery notifications are filtered away,2018-12-05,Merged,6757,10,0,,1
+ITL: Add repeat_key for check_nwc_health,2018-11-12,Merged,6756,2,0,,1
+Doc fix: documentation link for apt,2018-11-02,Merged,6751,1,1,,0
+#6749 Wrong operator on stride variable causing incorrect behaviour,2018-12-05,Merged,6750,1,1,,1
+Fix api setup to automatically create the conf.d directory,2019-02-11,Merged,6748,9,0,,1
+Add support for -q argument to Manubulon snmp-storage commmand,2018-11-05,Merged,6745,6,1,conf ,1
+Doc fix: error in example path.,2018-11-05,Merged,6743,1,1,,0
+DB IDO: Don't enqueue queries when the feature is paused (HA),2018-10-30,Merged,6740,57,0,,2
+Ensure that API/JSON-RPC messages in the same session are processed and not stalled,2018-10-29,Merged,6738,3,45,hpp ,6
+db ido: remove redundant mysql indexes,2019-04-29,Merged,6734,42,30,,2
+Doc: warn about not setting Comment#entry_time,2018-10-30,Merged,6733,2,1,,0
+Update Windows Agent with new design,2018-10-25,Merged,6732,0,0,bmp ,17
+Fix typo,2018-10-30,Merged,6731,1,1,,0
+Improve cluster config sync,2019-06-19,Merged,6727,917,195,cpp txt ,2
+Silence the debug log a bit for IDO events,2018-10-24,Merged,6726,0,43,,1
+"Enable HA for features: Elasticsearch, Gelf, Graphite, InfluxDB, OpenTSDB, Perfdata",2018-10-24,Merged,6725,289,61,cpp hpp ti ,3
+Improve docs about core dumps,2018-12-06,Closed,6724,19,4,,0
+Add notification result store/sync,2019-04-25,Merged,6722,183,37,cpp hpp txt ti ,16
+WIP: Send the local timestamp to the remote endpoint to view time differences,2019-07-09,Closed,6721,13,1,,1
+WIP: Store the application version for configured and directly connected endpoints,2019-04-10,Closed,6720,21,1,ti ,2
+Do not send 'finished reconnecting...' if failed,2018-10-24,Merged,6719,2,3,,1
+Call SSL_shutdown() at least twice,2018-10-24,Merged,6718,14,1,,1
+Improve error handling for invalid child_options for API downtime actions,2018-10-24,Merged,6717,9,4,,1
+Docs: Add package related changes to the upgrading docs,2018-10-23,Merged,6714,17,1,,0
+Fix typo,2018-10-23,Merged,6713,1,1,,1
+Fix the Icinga2 version check for versions with more than 5 characters,2018-10-29,Merged,6709,6,2,,1
+Docs: Alpine needs 'edge/main' repository too,2018-10-19,Merged,6708,1,0,,0
+Fix regression for wrong objects.cache path overwriting icinga2.debug file,2018-10-19,Merged,6707,2,1,,1
+Put newly configured already running ScheduledDowntime immediately in effect,2018-10-19,Merged,6704,140,19,hpp ,4
+Add GitHub release tag to README,2018-10-18,Merged,6701,1,0,,0
+Enhance the addon chapter in the docs,2018-10-18,Merged,6700,73,29,png ,5
+Update to https://icinga.com/,2018-10-18,Merged,6699,827,813,md NEWS cmake contrib/GPLHeader py ,7
+"Remove default environment, regression from e678fa1aa5",2018-10-17,Merged,6696,0,2,,1
+WIP: Don't allow to view/modify the ApiListener's ticket salt via REST API,2019-05-10,Closed,6693,4,1,cpp ,2
+Update release docs for Chocolatey,2018-10-16,Merged,6692,6,4,,0
+Add missing shutdown/program state dumps for SIGUSR2 reload handler,2018-10-16,Merged,6691,7,0,,1
+Extend 09-object-types.md with argument array,2018-10-16,Merged,6690,6,0,,0
+Fix regression with API permission filters and namespaces in v2.10,2018-10-15,Merged,6685,22,14,,1
+Fix spelling errors.,2018-10-15,Merged,6681,1,1,,1
+Initialize Configuration::InitRunDir for Windows and writing the PID file,2018-10-15,Merged,6679,4,1,,1
+Add a note to the docs on >2 endpoints in a zone,2018-10-12,Merged,6674,6,0,,0
+Update RELEASE docs,2018-10-12,Merged,6673,87,18,,0
+Extend upgrade docs,2018-10-12,Merged,6672,16,1,,0
+Add technical concepts for the config compiler and daemon CLI command,2018-10-11,Merged,6670,156,6,,0
+Don't throw an error when namespace indexers don't find a valid key,2018-10-11,Merged,6669,1,1,,1
+Enhance vim syntax highlighting for 2.10,2018-10-10,Merged,6668,193,65,,1
+Increase dependency recursion limit to 256,2018-10-24,Merged,6667,5,2,,1
+Make the two modes of check_http more obvious.,2018-10-10,Merged,6665,3,1,,0
+"Revert ""Initialize Socket Event Engine on application startup""",2018-10-09,Merged,6664,4,4,hpp ,2
+Silence config compiler logging for runtime created objects,2018-10-09,Merged,6663,10,5,hpp ,4
+Keep the HTTP server connection open until the stream is EOF,2018-10-24,Merged,6662,1,1,,1
+Cache the peer address in the HTTP server,2018-10-09,Merged,6661,14,4,hpp ,2
+Ensure that HTTP/1.0 or 'Connection: close' headers are properly disconnecting the client,2018-10-09,Merged,6658,7,3,,2
+Enable the HTTP request body debug log entry for release builds,2018-10-09,Merged,6657,1,2,,1
+Improve logging for disconnected HTTP clients,2018-10-09,Merged,6655,2,1,,1
+added csr request location and a little explanation,2018-10-10,Closed,6653,28,0,,0
+Fix check_memory thresholds in 'used' mode,2018-10-08,Merged,6652,5,1,,1
+Add 'used' feature to check_swap,2018-10-09,Merged,6651,43,26,conf cpp ,2
+node setup: always respect --accept-config and --accept-commands,2018-10-08,Merged,6647,12,6,,1
+Update ITL and Docs for memory-windows - show used,2018-10-08,Merged,6646,5,0,conf ,1
+Fix that check_timeout was used for Event/Notification commands too,2018-09-28,Merged,6643,15,10,hpp ,5
+Allow to override MaxConcurrentChecks constant,2018-09-28,Merged,6642,1,1,,1
+Explicitly close inherited FDs in Process::Run(),2018-09-28,Closed,6641,4,0,,1
+Ensure to _unlink before renaming replay log on Windows,2018-09-27,Merged,6639,7,0,,1
+Use a dynamic thread pool for API connections,2018-09-25,Merged,6633,30,5,hpp ,2
+Increase the cluster reconnect frequency to 10s,2018-09-25,Merged,6632,1,1,,1
+Initialize Socket Event Engine on application startup,2018-09-25,Merged,6630,4,4,hpp ,2
+Ensure to use UTC timestamps for IDO PgSQL cleanup queries,2018-09-17,Merged,6622,1,1,,1
+Remove unused timestamp function in DB IDO,2018-09-17,Merged,6621,0,21,hpp ,4
+Limit parallel TLS connections,2018-09-25,Closed,6619,59,6,hpp ,2
+Silence compiler warning for nice(),2018-09-17,Merged,6618,1,1,,1
+Add ApiListener#tls_handshake_timeout option,2018-09-17,Merged,6616,57,3,cpp hpp ti ,7
+Update distributed monitoring docs for 2.10,2018-09-13,Merged,6615,234,168,,0
+WIP: Limit parallel TLS connections,2018-09-13,Closed,6613,35,7,hpp ,2
+"Add ""TLS Network IO"" into technical concepts docs",2018-09-13,Merged,6610,195,0,,0
+Enhance development docs with GDB backtrace and thread list,2018-09-12,Merged,6607,14,1,,0
+Enhance contributing docs,2018-09-11,Merged,6606,23,20,,0
+Improve TLS handshake exception logging,2018-09-06,Merged,6602,8,6,hpp ,5
+Add doc for the config compiler,2018-10-17,Closed,6601,14,1,,0
+doc/09-object-types: states filter ignored for Acknowledgements,2018-09-06,Merged,6598,1,1,,0
+Add Fedora to development docs for debuginfo packages,2018-09-06,Merged,6597,4,0,,0
+Fix crash on API queries with Fedora 28 hardening and GCC 8,2018-09-11,Merged,6596,24,19,,1
+Allow to configure anonymous clients limit inside the ApiListener object,2018-09-06,Merged,6595,22,6,cpp ti ,3
+Replace Load Dependency with Load Priority,2019-06-05,Closed,6594,112,178,hpp ti ,15
+Fix static initializer priority for namespaces in LTO builds,2018-09-04,Merged,6591,22,4,cpp ,9
+Update workaround for custom vars,2018-09-04,Merged,6590,6,4,,0
+Fix using full path in prepare-dirs/safe-reload scripts,2018-09-04,Merged,6588,4,4,,2
+Fix non-unity builds on CentOS 7 with std::shared_ptr,2018-09-03,Merged,6586,1,0,,1
+Update PostgreSQL library path variable in INSTALL.md,2018-09-03,Merged,6583,1,1,,0
+Shuffle items before config validation,2018-09-04,Merged,6581,6,0,,1
+WIP: Merge adjacent downtime segments,2019-11-14,Closed,6579,177,20,hpp ,4
+Include api user configuration file during api setup,2019-02-11,Merged,6577,53,0,hpp ,3
+Move new downtime constants into the Icinga namespace,2018-09-03,Merged,6574,3,3,,1
+Fix operator precedence table,2018-09-11,Merged,6573,32,32,,0
+Add note about workaround for broken custom vars,2018-08-24,Merged,6572,16,0,,0
+Increase limit for simultaneously connected anonymous TLS clients,2018-08-23,Merged,6570,1,1,,1
+Ensure that config object types are committed in dependent load order,2018-09-04,Merged,6568,76,12,,1
+ApiListener: Dump the state file port detail as number,2018-08-22,Merged,6567,1,1,,1
+[Feature] Cloudera service health CheckCommand,2018-08-22,Merged,6563,88,1,txt conf ,1
+[Feature] Ceph health CheckCommand,2018-08-22,Merged,6561,64,0,conf ,1
+Ensure committing object types on load order,2018-08-22,Closed,6560,76,12,,1
+socket/apilistener: Use integer for service identification,2018-08-22,Closed,6558,12,12,hpp ,3
+windows: Allow suppression of extra actions in the MSI package,2018-08-22,Merged,6556,7,7,,1
+Overridden path constants not passed to config validation in /v1/config/stages API call,2018-09-28,Merged,6546,15,4,,1
+Remove #include for deprecated header file,2018-08-22,Merged,6544,1,1,,1
+Build fix for CentOS 7 and non-unity builds,2018-08-09,Merged,6539,1,0,,1
+SerializeStack::Push(): make == type-safe,2018-08-09,Closed,6538,1,1,,1
+Add child_options to ScheduledDowntime,2018-08-24,Merged,6532,95,11,cpp hpp ti ,6
+Expose Zone#all_parents via API,2018-08-09,Merged,6531,18,3,hpp ti ,4
+IDO/MySQL: avoid empty queries,2018-08-08,Merged,6530,4,3,,1
+WIP: Implement db_connect functionality,2018-08-08,Closed,6529,185,0,cpp hpp ,2
+Document default of User#enable_notifications,2018-08-07,Merged,6528,1,1,,0
+Acknowledgment notifications should only be send if problem notification has been send,2018-09-12,Merged,6527,46,2,cpp ,1
+icinga::PackObject(): shorten conversion to string,2018-08-07,Merged,6526,1,3,,1
+Implement references,2018-08-07,Merged,6521,251,0,txt cpp hpp yy ,6
+Reset terminal on erroneous console exit,2018-09-13,Merged,6519,13,0,hpp ,2
+Implement GetAllParents() with level support,2018-08-08,Closed,6518,29,6,hpp ti ,4
+Refactor environment for API connections,2018-08-10,Merged,6512,109,18,cpp txt hpp ti ,8
+ApiListener: Add support for dynamic port handling,2018-08-09,Merged,6511,104,28,cpp hpp ti ,5
+Update windows build scripts,2018-08-24,Merged,6510,111,54,yml ps1 ,6
+Implement support for namespaces,2018-08-24,Merged,6509,"2,043",675,cpp itl/hangman ,2
+Implement the Dictionary#clear script function,2018-08-02,Merged,6508,17,0,cpp ,1
+Improve path handling in cmake and daemon,2018-08-08,Merged,6506,616,763,txt md cmake ,4
+Fix clusterzonecheck if not connected,2018-08-01,Merged,6505,13,13,,1
+squashfs ignored,2018-08-02,Merged,6504,3,2,conf ,1
+Reduce the log level for missing env macros to debug,2018-10-08,Merged,6503,8,1,,1
+Update 17-language-reference.md,2018-08-24,Merged,6502,2,2,,0
+Update 03-monitoring-basics.md,2018-08-24,Merged,6501,1,1,,0
+Implemented `ca remove` cli command + documentation.,2019-06-07,Merged,6500,327,9,txt cpp hpp ,5
+Fix regression with MatchAny false conditions on match/regex/cidr_match,2018-07-27,Merged,6498,6,3,,1
+Improve error logging for match/regex/cidr_match functions and unsupported dictionary usage,2018-07-27,Merged,6497,15,3,,1
+Test PackObject,2018-07-27,Merged,6494,289,0,cpp ,1
+Feature/itl vmware health,2018-07-27,Merged,6491,8,0,conf ,1
+"Revert ""Implement support for the --env command-line argument""",2018-07-26,Merged,6490,27,211,cpp cmake hpp ,9
+Implement object packer for consistent hashing,2018-07-27,Merged,6489,304,0,cpp hpp ,2
+Fix typo with the CheckCommand cert,2018-07-27,Merged,6488,1,1,,0
+"Fix ""Discard"" message being warning",2018-07-26,Merged,6487,1,1,,1
+Modify windows check_update command to allow specifying thresholds.,2018-11-13,Merged,6480,45,33,conf cpp ,2
+SocketEvents: inherit from Stream,2018-11-12,Merged,6479,18,23,hpp ,6
+Reduced the log level for undefined macros to debug,2018-07-29,Closed,6478,701,294,md VERSION conf txt cpp ,6
+lib->compat->statusdatawriter: fix notifications_enabled,2018-07-26,Merged,6475,1,1,,1
+Make SocketEventDescriptor#LifesupportObject an Object::Ptr,2018-10-31,Closed,6472,1,1,,1
+Fix spelling errors.,2018-07-23,Merged,6470,11,11,h ,9
+Fix Windows Agent resize behavior,2018-08-22,Merged,6469,7,1,,2
+Start and stop the timer thread lazily,2018-07-23,Merged,6467,33,2,hpp ,2
+Fix debug build log entry for ConfigItem activation priority,2018-07-26,Merged,6458,1,1,,1
+Ensure that timer thread is initialized after Daemonize(),2018-07-19,Merged,6457,20,21,hpp te ,5
+Keep notes for immediately log flushing,2018-07-26,Merged,6456,5,0,,1
+Log something when the Filelogger has been started,2018-07-26,Merged,6455,3,0,,1
+"Daemonize(): reset the child process once, immediately",2018-09-05,Closed,6454,20,1,,1
+Fix initscripts,2018-07-18,Merged,6451,9,9,,3
+SELinux: allow systemd notify,2018-07-18,Merged,6444,2,1,,1
+Fix typo,2018-07-26,Merged,6440,1,1,,1
+"Revert ""Fix obsolete parameter in Systemd script""",2018-07-17,Merged,6439,2,2,,1
+Update tested Elasticsearch version,2018-07-16,Merged,6436,4,1,,0
+Add note on sysconfig shell variables for Systemd to the Upgrading docs,2018-07-16,Merged,6435,19,0,,0
+Docs: Fix typos in 03-monitoring-basics.md,2018-07-16,Merged,6433,1,1,,0
+Fix negative 'empty in' value in WorkQueue log message,2018-07-26,Merged,6430,2,1,,1
+Make HttpServerConnection#m_DataHandlerMutex a boost::recursive_mutex,2018-07-09,Merged,6429,4,3,hpp ,2
+Improve error message for serializing objects with recursive references,2018-08-03,Merged,6427,108,10,hpp ,3
+Update 'Upgrading to 2.9' docs,2018-07-04,Merged,6426,60,4,,0
+Fix missing next check update causing the scheduler to execute checks too often,2018-07-02,Merged,6423,27,2,,2
+Add support for using the 'in' operator for substring checks,2018-06-27,Closed,6416,24,10,cpp ,2
+Implement support for the --env command-line argument,2018-07-26,Merged,6414,211,27,cpp cmake hpp ,9
+Fix table in Livestatus Filters,2018-06-25,Merged,6413,1,1,,0
+Fix output formatting in windows plugins,2018-06-26,Merged,6412,24,4,hpp ,4
+Windows: Conform to the Plugin API spec for performance label quoting,2018-06-25,Merged,6411,28,27,,10
+Remove unused code,2018-07-27,Merged,6410,0,256,hpp ,2
+ObjectLock#Unlock(): don't reset m_Object->m_LockOwner too early,2018-07-26,Merged,6408,7,3,cpp ,2
+Fix wrong UOM in check_uptime windows plugin,2018-06-26,Merged,6407,50,9,hpp ,3
+"TcpSocket#Bind(): reuse socket addresses on Windows, too",2018-06-22,Merged,6405,0,2,,1
+Conform to RFC for CRLF in HTTP requests,2018-06-21,Merged,6403,3,3,,1
+Use SSL_pending() for remaining TLS stream data,2018-06-21,Merged,6402,20,1,,1
+Fix connection error handling in Elasticsearch and InfluxDB features,2018-06-21,Merged,6401,22,2,,2
+Enhance debug logging for check_nscp_api,2018-06-21,Merged,6400,12,3,,1
+Docs: Notification Troubleshooitng: Host/Service,2018-07-03,Closed,6398,13,0,,0
+TlsStream#IsEof(): fix false positive EOF indicator,2018-06-21,Merged,6397,1,1,,1
+Stream#ReadLine(): fix false positive buffer underflow indicator,2018-06-21,Merged,6393,7,19,,1
+Rewrite check_nscp_api and fix TLS stream/HTTP request problems,2018-06-21,Closed,6392,155,59,,3
+Docs: Fix icinga.com link,2018-06-19,Merged,6391,1,1,,0
+Docs: Update Windows wizard images,2018-06-19,Merged,6390,1,0,png ,4
+New ITL command nscp-local-tasksched,2018-06-27,Merged,6389,84,0,conf ,1
+Remove ApiUser password_hash functionality,2018-06-19,Merged,6387,8,298,cpp hpp txt ti ,7
+Fix that TimePeriod segments are not cleared on restart,2018-07-26,Merged,6386,3,1,,1
+Remove leftover for sysconfig file parsing,2018-06-19,Merged,6384,0,32,hpp ,3
+HttpRequest#ParseBody(): indicate success on complete body,2018-06-18,Merged,6383,3,3,,1
+Fix sysconfig not being handled correctly by sysvinit,2018-06-21,Merged,6381,22,2,,3
+Throw config error when using global zones as parent,2018-07-26,Merged,6379,3,0,,1
+Fix missing name for workqueue while creating runtime objects via API,2018-06-15,Merged,6377,2,0,,1
+some minor fixes in the flapping documentation,2018-06-15,Merged,6375,2,3,,0
+Docs: Add an additional note for VMWare timeouts on Ubuntu 16.04 LTS,2018-06-15,Merged,6374,2,0,,0
+Drop command template imports for versions < 2.6 in the docs,2018-06-15,Merged,6373,0,12,,0
+Remove the import of 'legacy-timeperiod' in the docs,2018-06-15,Merged,6372,89,101,,0
+ApiListener#NewClientHandlerInternal(): Explicitly close the TLS stream on any failure,2018-06-15,Merged,6371,4,0,,1
+Set correct utf-8 email subject header (RFC1342),2019-11-14,Merged,6369,9,7,,2
+Fix program option parsing,2018-06-15,Merged,6368,1,1,,1
+"Revert ""Fix Windows reload""",2018-06-14,Merged,6367,1,41,,2
+Fix ScheduledDowntimes replicating on restart,2018-06-08,Merged,6359,7,0,ti ,2
+Increase header size to 8KB for HTTP requests,2018-06-07,Merged,6357,10,2,cpp ,1
+Fix logging under systemd,2018-09-04,Merged,6356,55,26,cmake cpp ,3
+Fix reload on Windows,2018-06-12,Closed,6353,104,6,,3
+clarify the permision system of the api in the docs,2018-06-05,Merged,6350,4,2,,0
+Fix for catalogued locally databases. Fixes #6338,2018-06-28,Merged,6348,4,1,conf ,1
+SELinux: Allow notification plugins to read local users …,2018-06-04,Merged,6347,9,2,,1
+README: Fix broken community link,2018-05-30,Merged,6344,1,1,,0
+Fix that checks with command_endpoint don't return any check results,2018-06-07,Merged,6343,4,1,,1
+Fix unnecessary blank in log message,2018-05-25,Merged,6336,1,1,,1
+Fix $ipaddress6$ attribute name typo in the docs,2018-05-24,Merged,6330,1,1,,0
+Rework sysconfig file/startup environment,2018-06-05,Merged,6328,98,136,cmake cpp hpp ,8
+Use pseudo random bytes for RandomString,2018-09-13,Closed,6325,3,3,,1
+Ensure that password hash generation from OpenSSL is atomic,2018-05-23,Merged,6324,8,0,,1
+Update log message for skipped certificate renewal,2018-05-22,Merged,6321,2,2,,1
+Ensure that icinga_min_version parameter is optional,2018-05-18,Merged,6320,4,2,,1
+Add a note on Windows NSClient++ CPU checks to the docs,2018-05-18,Merged,6317,12,0,,0
+Fix wrong calculation of check_swap windows plugin,2018-09-27,Merged,6313,29,7,,1
+Bugfixing Timeperiods,2018-06-19,Merged,6311,3,1,,1
+Fix compiler warning in checkercomponent.ti,2018-05-16,Merged,6309,1,1,,1
+Update lsi-raid ITL command,2018-06-27,Merged,6308,103,6,conf ,1
+Adjust message for CheckResultReader deprecation,2018-05-15,Merged,6306,4,2,cpp ,1
+Introduce the 'Environment' variable,2018-05-15,Merged,6305,12,2,cpp ,3
+Fix for logrotate on error.log,2018-07-03,Closed,6303,1,2,,1
+Adjust deprecation removal for compat features,2018-05-14,Merged,6301,4,4,cpp ,2
+Change log level for failed event command execution,2018-05-11,Merged,6299,1,1,,1
+Execute event commands only on actively checked host/service objects in an HA zone,2018-05-11,Merged,6297,8,1,,1
+Deprecate compatlog feature,2018-05-09,Merged,6295,10,2,cpp ,2
+Ensure that group memberships on API object creation are unique,2018-05-09,Merged,6294,63,21,hpp txt ,8
+Fix problem with reminder notifications if the checkable is flapping,2018-05-17,Merged,6292,2,1,,1
+Fixed opentsdb metric name with colon chars,2018-05-22,Merged,6290,1,0,,1
+Update release documentation with git tag signing key configuration,2018-05-08,Merged,6289,14,6,,0
+Add support for config validation log timestamps,2018-05-03,Merged,6285,11,6,hpp ,4
+edit Icinga license info so that GitHub recognizes it,2018-05-03,Merged,6283,16,16,Exceptions md ,1
+"Revert ""Implement support for ECC certificates""",2018-05-03,Merged,6281,16,50,,1
+"Revert ""Implement support for ECC certificates""",2018-05-02,Closed,6280,19,53,,1
+Implement support for template strings,2019-05-10,Closed,6276,156,13,hpp ll yy ,7
+Bash completion/environment on startup,2018-07-03,Closed,6275,70,63,,1
+Enhance advanced topics with (scheduled) downtimes,2018-04-27,Merged,6271,54,30,png ,1
+Add activation priority for config object types,2018-05-04,Merged,6270,92,8,cpp hpp ll yy ,25
+Update docs to reflect required user* attributes for notification objects,2018-04-27,Merged,6267,4,3,,0
+"Enhance ""Getting Started"" chapter",2018-04-26,Merged,6264,466,301,,0
+ITL: Add default thresholds to windows check commands,2018-04-26,Merged,6263,17,8,conf ,1
+Enhance the environment variables chapter,2018-04-25,Merged,6262,44,6,,0
+"Revert ""fixup set rlimit stack failed condition""",2018-04-25,Merged,6260,19,20,,1
+Enhance release documentation,2018-04-24,Merged,6254,156,49,,0
+Doc: Add note for not fully supported Plugin collections,2018-04-24,Merged,6253,5,3,,0
+Add my gpg fingerprint to release docs,2018-04-23,Merged,6251,6,0,,0
+Fix typo,2018-04-23,Merged,6250,1,1,,1
+Remove '-n' option from check_swap,2018-04-23,Closed,6249,0,5,conf ,1
+Propagate Downtimes to Hosts: API/ExternalCommand,2019-11-14,Closed,6244,109,7,cpp hpp ,4
+Update PostgreSQL documentation,2018-04-25,Merged,6243,1,4,,0
+Fix Sysconfig file detection for Icinga 2 settings,2018-04-19,Merged,6241,22,5,cpp ,3
+Fix Windows check_memory rounding,2018-05-04,Merged,6239,2,2,,1
+Implement better way to check parameters in notification scripts,2018-05-03,Merged,6238,14,15,,2
+Add TLS support for DB IDO PostgreSQL feature,2018-04-24,Merged,6236,52,18,cpp ti hpp ,4
+Unbreak build against Boost 1.67,2018-04-16,Merged,6230,3,3,,3
+Don't use shell variables in sysconfig,2018-04-17,Merged,6229,5,5,,1
+Fix missing anchors in CLI commands chapter,2018-04-12,Merged,6227,2,2,,0
+Fix broken SELinux anchor in the documentation,2018-04-12,Merged,6226,1,1,,0
+Update volatile docs,2018-04-12,Merged,6224,19,16,,0
+Add support for Elasticsearch 6,2018-04-17,Merged,6219,14,10,cpp ,1
+attempt to fix issue #5277,2018-04-12,Merged,6218,5,6,,1
+Fix check behavior on restart,2018-04-17,Merged,6217,19,6,,4
+Unify zone name settings in node setup/wizard; add connection-less mode for node setup,2018-04-11,Merged,6209,290,114,,0
+Fix multiple parameter problems for check_nscp_api,2018-04-09,Merged,6207,26,4,hpp ,4
+Add ApplicationVersion built-in constant,2018-04-06,Merged,6206,3,0,cpp ,1
+API: Unify verbose error messages,2018-04-17,Merged,6205,191,79,cpp hpp ,8
+API: Check if objects exists and return proper error message,2018-04-06,Merged,6204,7,0,,1
+Add docs for script debugger and API filters,2018-04-05,Merged,6203,53,0,,0
+Use VERSION instead of icinga2.spec,2018-04-06,Merged,6202,10,31,md VERSION spec ,2
+Handle exceptions from X509Certificate2,2018-04-06,Merged,6201,6,3,,1
+Return 500 when no api action is successful,2018-04-06,Merged,6199,13,1,,1
+Deprecate Statusdatawriter,2018-04-05,Merged,6198,6,1,cpp ,1
+Add timeout for client console,2018-06-25,Closed,6197,12,2,,1
+Fix InfluxDB backslash escaping,2018-04-05,Merged,6196,11,0,,1
+Fix crash in remote api console,2018-04-05,Merged,6195,1,1,,1
+Elasticsearch/GELF: Add metric unit to performance data fields,2018-04-03,Merged,6194,6,0,,2
+GelfWriter: Fix crash on invalid performance data metrics,2018-04-03,Merged,6193,1,0,,1
+Elasticsearch: Fix crash with invalid performance data metrics,2018-04-03,Merged,6192,1,0,,1
+Remove Icinga Studio Screenshots,2018-03-29,Merged,6187,0,0,,2
+"[WIP] Add more options to pass a password to the ""icinga2 api user"" command",2018-07-03,Closed,6186,66,4,,1
+tests: Ensure IcingaApplication is initialized before adding config,2018-03-26,Merged,6181,95,25,cpp hpp ,4
+Doc: fixed wrong information about defaulting,2018-03-26,Merged,6180,1,1,,0
+Fix crash in api user command,2018-03-23,Merged,6179,5,6,,1
+Doc: Fix typo in API user creation example,2018-03-23,Merged,6177,1,1,,0
+hashed_password -> password_hash. Fixes #6175,2018-03-23,Merged,6176,1,1,,0
+Fix crash without CORS setting,2018-03-21,Merged,6174,1,1,,1
+Docs: Add a note to only query the NSClient++ API from the local Icinga 2 client,2018-03-21,Merged,6172,11,3,,0
+Update copyright of the Windows Agent to 2018,2018-03-21,Merged,6171,1,1,,1
+Add option to windows installer to add global zones,2018-04-03,Merged,6170,457,34,resx csproj ,4
+appveyor: Clean cache when updating appveyor.yml,2018-03-17,Merged,6169,1,1,,1
+Fix broken link in README,2018-03-15,Merged,6166,1,1,,0
+Fix reload handling by updating the PID file before process overtake,2018-04-03,Merged,6163,23,20,,2
+Replace std::vector:push_back calls with initializer list,2018-03-13,Merged,6160,4,16,,2
+Improve error handling for empty packages in /v1/config/packages,2018-03-13,Merged,6153,18,2,,2
+Fix ApiUser unit test,2018-03-06,Merged,6148,4,6,,1
+Fix incorrect argument type for JsonRpc::SendMessage,2018-03-06,Merged,6147,3,2,cpp ,3
+Ensure that SetCorked() works properly,2018-03-06,Merged,6146,22,10,,4
+Fix incorrect parameter name in the API documentation,2018-03-05,Merged,6145,3,3,,0
+Documentation for multiple notes url,2018-04-03,Closed,6143,13,0,,0
+itl/disk: Ignore overlay and netfs filesystems,2018-03-05,Merged,6139,19,3,conf ,1
+Add counter for current concurrent checks to Icinga check,2018-03-01,Merged,6136,2,0,,1
+Limit JSON RPC message size,2018-03-05,Merged,6135,32,10,hpp ,7
+Fix incorrect HTTP content length limits,2018-02-28,Merged,6134,28,20,cpp ,1
+Limit the number of HTTP/JSON-RPC requests we read in parallel,2018-02-28,Merged,6133,43,3,hpp ,6
+Fix HTTP parser crash/hang,2018-02-28,Merged,6132,17,8,hpp ,4
+Log which ticket was invalid on the master,2018-02-28,Merged,6131,1,1,,1
+Adding documentation for configurable global zones during setup,2018-02-28,Merged,6128,19,2,,0
+Require systemd headers,2018-02-28,Merged,6126,11,0,txt ,0
+Fix description of the NotificationComponent in notification.conf,2018-02-27,Merged,6125,1,1,,1
+fixup set rlimit stack failed condition,2018-03-21,Merged,6119,20,19,,1
+Fix Windows reload,2018-02-28,Merged,6116,41,1,,2
+Fix incorrect size of request limits,2018-02-23,Merged,6115,7,7,,1
+Fix typo in prepare-dirs,2018-02-23,Merged,6114,1,1,,1
+appveyor: Disable artifacts until we use them,2018-02-22,Merged,6113,7,4,,1
+Add Upgrading to Icinga 2.8.2 chapter,2018-02-22,Merged,6111,23,7,,0
+Implement support for optionally specifying the 'var' keyword in 'for' loops,2018-07-26,Merged,6110,26,19,yy ,1
+Add 'used' feature to check_memory,2018-02-21,Merged,6109,35,22,h ,2
+Allow MYSQL_LIB to be specified by ENV variable,2018-02-26,Merged,6107,2,0,,1
+Fix nullptr dereferences,2018-02-21,Merged,6104,103,47,hpp ,10
+HTTP Security fixes,2018-02-21,Merged,6103,381,218,cpp hpp ,7
+Fix typo in Apply for Rules documentation,2018-02-20,Merged,6102,2,2,,0
+Add word in operator documentation,2018-02-21,Merged,6101,1,1,,0
+Clean up CORS implementation,2018-03-19,Merged,6098,19,23,ti cpp ,2
+Fixed URL encoding for HOSTNAME and SERVICENAME in mail notification,2018-02-15,Merged,6090,24,2,,2
+Docs: Fix bracket in notification example,2018-02-14,Merged,6089,1,1,,0
+Upgrading: Make it more clear that the Director script is just an example,2018-02-12,Merged,6086,5,2,,0
+Fix crash with anonymous clients on certificate signing request and storing sent bytes,2018-02-09,Merged,6085,6,1,,1
+Fix wrong type logging in ConfigItem::Commit,2018-02-09,Merged,6083,7,6,,1
+Document the 'ignore_on_error' attribute for object creation,2018-02-06,Merged,6080,5,4,,0
+WIP: Implement AppVersion constant; add compare_version as global function,2018-04-06,Closed,6079,80,0,cpp hpp ,4
+Add more metrics and details to built-in 'random' check,2018-02-09,Merged,6078,15,4,,1
+Allow to pass raw performance data in 'process-check-result' API action,2018-02-06,Merged,6077,10,2,cpp ,1
+Explain how to register functions in the global scope,2018-02-06,Merged,6075,197,114,,0
+Fix the explanation of `types` and `states` for user objects,2018-02-05,Merged,6068,2,2,,0
+Improve Windows builds and testing,2018-02-13,Merged,6067,329,22,md yml txt cpp ps1 ,7
+Deprecate CheckResultReader,2018-02-05,Merged,6063,5,0,cpp ,1
+Remove the obsolete 'make-agent-config.py' script,2018-02-02,Merged,6062,0,68,,1
+Remove jenkins test scripts,2018-02-02,Merged,6061,0,"3,055",test sh ,4
+Remove Icinga development docker scripts,2018-02-02,Merged,6060,0,64,tools/docker/README tools/docker/clean tools/docker/docker/build tools/docker/run ,5
+Remove Icinga Studio,2018-02-02,Merged,6059,1,"3,295",md ,0
+Clean up the Icinga plugins a bit,2018-03-19,Merged,6058,"1,226","1,612",,0
+methods: Remove unused clrchecktask feature,2018-02-01,Merged,6055,0,308,txt cpp hpp ,3
+WIP: doc: Add Windows build instructions,2018-02-04,Closed,6053,101,0,,0
+Set FOLDER cmake property for the icingaloader target,2018-02-26,Merged,6051,5,0,,0
+Replace boost::algorithm::split calls with String::Split,2018-02-26,Merged,6050,0,1,,1
+"Move the ""passive"" check command to command-icinga.conf",2018-02-01,Merged,6045,18,18,conf ,2
+Implement support for frozen arrays and dictionaries,2018-01-31,Merged,6044,98,2,cpp hpp ,6
+WIP: Remove the ITL from the Icinga 2 code tree,2019-11-14,Closed,6042,56,"14,101",txt md conf ,2
+Improve location info for some error messages,2018-01-29,Merged,6039,3,3,,1
+Fix missing include for boost::split,2018-01-29,Merged,6038,1,0,,1
+Fix build error on Windows,2018-01-29,Merged,6037,2,0,,1
+Fix missing include,2018-01-27,Merged,6036,2,0,hpp ,2
+ITL by_ssh add -E parameter,2018-01-25,Merged,6034,20,15,conf ,1
+Implement support for user-defined post-creation validators/rules,2019-05-10,Closed,6030,292,1,txt ll yy cpp hpp ,8
+Remove duplicate semicolons,2018-01-24,Merged,6029,4,4,,4
+Fix flapping support for Windows,2018-02-09,Merged,6026,34,9,,1
+"Update default config and documentation for the ""library"" keyword",2018-01-22,Merged,6022,8,70,conf ,14
+Fix crash when running 'icinga2 console' without HOME environment variable,2018-01-29,Merged,6020,17,10,,1
+Remove build breaking include,2018-01-19,Merged,6017,0,4,,0
+"Check notification state filters for problems only, not for Custom, etc.",2018-03-19,Merged,6016,2,2,,1
+Fix whitespaces in CMakeLists files,2018-01-19,Merged,6015,181,180,,0
+Docs: Add IDO DB tuning tips,2018-01-18,Merged,6014,77,24,,0
+Move the endpoint list into a new line for the 'cluster' check,2018-01-18,Merged,6010,13,7,,1
+Build fix for ancient versions of GCC,2018-01-18,Merged,6009,4,4,hpp ,2
+Fix compatibility with CMake < 3.1,2018-01-18,Merged,6008,199,199,cpp hpp ,29
+Fix missing include,2018-01-18,Merged,6007,1,0,,1
+Fix wrong nscp-local include in the docs,2018-01-18,Merged,6006,1,1,,0
+Fix incorrect dependencies for mkunity targets,2018-01-18,Merged,6005,1,1,,0
+Add newline to COPYING to fix Github license detection,2018-01-17,Merged,6000,1,1,,1
+Build fix,2018-01-17,Merged,5999,2,4,,0
+Build all remaining libraries as object libraries,2018-01-17,Merged,5998,18,13,,0
+Use gcc-ar and gcc-ranlib when building with -flto,2018-01-17,Merged,5997,5,0,,0
+Add systemd watchdog and adjust reload behaviour,2018-01-21,Merged,5996,69,45,cmake md cpp hpp ,5
+Fix InfluxDB requests,2018-01-17,Merged,5995,8,0,,2
+InfluxDBWriter: Fix macro in template,2018-01-17,Merged,5994,1,1,,1
+Use CMake object libraries for our libs,2018-01-17,Merged,5993,101,111,,0
+Remove unused includes,2018-01-25,Merged,5992,98,208,hpp ,27
+"changelog.py: Adjust categories and labels: Enhancement, Bug, ITL, Documentation, Support",2018-01-16,Merged,5989,45,8,,1
+Fix concurrent checks limit while using command_endpoint,2018-02-06,Merged,5988,323,112,cpp hpp ti txt ,7
+Fix wrong schema constraint for fresh 2.8.0 installations,2018-01-16,Merged,5986,99,16,sql ,4
+Add query thresholds for the 'ido' check: Rate and pending queries,2018-01-16,Merged,5985,80,22,cpp ,1
+Fix missing static libraries for DB IDO,2018-01-15,Merged,5984,4,0,,0
+Use initializer lists for arrays and dictionaries,2018-01-16,Merged,5983,"1,683","1,741",hpp ,11
+SELinux: Allows icinga2_t to send sigkill to all domains it transitions to,2018-01-18,Merged,5982,2,1,te ,2
+SELinux: Add InfluxDB as example for services requiring `icinga2_can_connect_all`.,2018-02-15,Merged,5981,6,3,,0
+Explicitly pass 1 or 0 for notification filters in DB IDO,2018-01-17,Merged,5980,26,26,,3
+"Add quit, exit and help",2018-01-29,Merged,5979,15,4,,1
+Fix non-unity builds with the icinga check,2018-01-12,Merged,5974,2,0,,1
+Add 'ttl' support for check result freshness via REST API,2018-01-15,Merged,5973,23,3,cpp ti ,3
+Update 08-advanced-topics.md,2018-01-12,Merged,5972,1,1,,0
+Remove libdemo and libhello,2018-01-11,Merged,5971,0,371,cpp hpp ti ,5
+Allocate ConfigItemBuilder objects on the stack,2018-01-11,Merged,5970,69,69,hpp ,7
+Remove the WorkQueue::m_StatsMutex instance variable,2018-01-11,Merged,5969,1,6,hpp ,2
+Update the RingBuffer class to use a regular mutex instead of ObjectLock,2018-01-11,Merged,5968,24,9,hpp ,2
+Avoid accessing attributes for validators where not necessary,2018-01-11,Merged,5967,222,162,hpp ,24
+Avoid unnecessary casts in the JSON encoder,2018-01-11,Merged,5965,18,6,,1
+OpenTSDB writer - Fix function for escaping host tag chars.,2018-01-20,Merged,5964,1,1,,1
+Fix macro warning from the icinga check,2018-01-09,Merged,5961,2,0,,1
+API: Add 'pretty' parameter for beautified JSON response bodies,2018-01-09,Merged,5959,145,131,cpp hpp ,9
+Add minimum version check to the built-in icinga command,2018-01-09,Merged,5958,44,10,cpp hpp ,2
+Change a bunch more copyright headers for 2018,2018-01-09,Merged,5957,15,15,cpp hpp sql txt ,13
+Avoid mutex contention in the config parser,2018-01-08,Merged,5955,119,77,hpp ,3
+ITL: Add mongodb --authdb parameter support,2018-01-08,Merged,5954,5,0,conf ,1
+itl: Add command parameters for snmp-memory,2018-01-05,Merged,5951,12,0,conf ,1
+doc: Improve INSTALL documentation,2018-01-04,Merged,5948,181,118,,0
+Use clang-tidy to add some more C++11 features,2018-01-04,Merged,5946,"2,876","3,162",hpp h ,9
+Fix incorrect indentation for code generated by mkclass,2018-01-04,Merged,5945,1,1,,1
+Add the final keyword to classes,2018-01-04,Merged,5944,237,292,cpp ,42
+Fix incorrect ::Start call,2018-01-03,Merged,5943,2,2,,1
+Add some technical insights into the cluster-zone health check and log lag,2018-01-04,Merged,5942,58,0,,0
+Remove deprecated Chocolatey functions,2018-01-15,Merged,5940,16,24,,1
+Build fix for Debian wheezy,2018-01-03,Merged,5939,30,30,hpp ,20
+Remove inline methods and use explicit template instantiation to minimize the number of weak symbols,2018-01-03,Merged,5937,"1,111",838,cpp hpp ,4
+Clean up source lists in the CMakeLists.txt files,2018-01-03,Merged,5936,385,141,,0
+Implement support for precompiled headers,2018-01-29,Closed,5935,866,201,txt md cpp hpp ,13
+Add more include/library paths for MySQL and PostgreSQL,2018-01-03,Merged,5934,14,1,,2
+Change copyright headers for 2018,2018-01-02,Merged,5933,731,731,contrib/GPLHeader py cs sh cpp hpp spec conf itl/hangman itl/itl itl/manubulon itl/nscp itl/plugins itl/plugins-contrib ,32
+Fix copyright header in cli/troubleshootcommand.hpp,2018-01-03,Merged,5932,17,17,,1
+Improve detection for linker flags,2018-01-02,Merged,5931,51,7,,0
+Replace boost::function with std::function,2018-01-02,Merged,5930,3,4,cpp ,3
+Get rid of boost::assign::list_of in mkclass,2018-01-02,Merged,5929,3,4,,1
+Fix build problem with MSVC,2018-01-02,Merged,5928,5,4,,1
+Build libraries as static libraries,2018-01-03,Merged,5927,"1,364","1,024",cpp hpp ti ,9
+Fix a few race conditions,2018-06-28,Closed,5926,154,183,cpp ,9
+Fix missing variable name in ApiListener::Start,2018-01-02,Merged,5925,1,1,,1
+Fix link format in documentation,2018-01-01,Merged,5922,1,1,,0
+Add icingacli-director check to ITL,2018-01-05,Merged,5921,29,0,conf ,1
+Fix typo in SELinux documentation,2018-01-01,Merged,5918,1,1,,0
+Add 3rd party notifications scripts,2018-04-03,Closed,5917,495,0,sh ,1
+Fix for wrong attribute in ITL mongodb CheckCommand,2018-01-05,Merged,5914,13,2,,1
+Enhance http_certificate parameter documentation,2018-01-05,Merged,5913,1,1,,0
+Update ElasticsearchWriter docs for 5.x support only,2017-12-22,Merged,5911,1,1,,0
+WIP: Improve build times,2018-01-29,Closed,5909,"2,532","1,868",txt md cpp hpp ,8
+Windows plugin check_swap build fix,2017-12-24,Merged,5907,2,2,,2
+Add check_openmanage command to ITL.,2018-01-08,Merged,5906,149,0,conf ,1
+Cleanup CompatUtility class and features,2018-01-15,Merged,5903,"1,111","1,525",hpp ,4
+Add parameter --octetlength to snmp-storage command.,2018-01-05,Merged,5902,6,1,conf ,1
+Do not replace colons in plugin output,2017-12-21,Merged,5901,0,12,,1
+WIP: PluginPath as replacement for absolute paths,2019-11-14,Closed,5899,625,283,txt md cmake ,2
+Remove unnecessary inline statements,2017-12-20,Merged,5897,103,103,,8
+Remove string_iless,2017-12-20,Merged,5894,0,17,,1
+Whitespace fix,2017-12-20,Merged,5893,"2,969","2,985",hpp cpp ,5
+Enable installing the init scripts on Solaris,2017-12-20,Merged,5892,1,1,,0
+Update .gitignore,2017-12-20,Merged,5891,1,0,,1
+Fix for Notification Begin and End Times,2019-02-22,Closed,5890,141,27,hpp ti ,7
+execvpe: Fixup indention for readability,2017-12-20,Merged,5889,102,102,,1
+FindMySQL: Support mariadbclient implementation,2018-01-15,Merged,5888,25,4,cmake ,1
+Windows build fix,2017-12-20,Merged,5887,4,0,,1
+Workaround for GCC bug 61321,2017-12-20,Merged,5885,91,69,cpp ,9
+Added NSCP query method using NSCP's NRPEServer and its local check_nrpe.exe,2018-03-19,Closed,5883,200,6,png conf ,3
+Avoid unnecessary allocations,2017-12-18,Merged,5882,82,73,hpp ,5
+Fix package error message,2017-12-18,Merged,5881,1,0,,1
+Replace incorrect fclose() call with pclose(),2017-12-17,Merged,5872,2,1,,1
+Unit tests for the LegacyTimePeriod class,2017-12-20,Merged,5871,109,2,cpp ,1
+Use std::unique_ptr for Expression objects,2017-12-18,Merged,5868,384,616,,3
+Avoid generating cluster messages when the local instance doesn't have a parent/HA peer,2017-12-18,Closed,5867,22,10,hpp ,3
+Remove redundant FreeBSD from restart instructions and add openSUSE,2017-12-15,Merged,5866,6,18,,0
+Add missing initializer in Utility::NewUniqueID(),2017-12-15,Merged,5865,2,2,,1
+Add missing initdb to PostgreSQL documentation,2017-12-15,Merged,5864,3,0,,0
+Fix glob error handling,2017-12-14,Merged,5863,1,1,,1
+Replace a few more NULLs with nullptr,2017-12-14,Merged,5862,258,262,,3
+Fix incorrect memory access,2017-12-15,Merged,5861,6,1,,1
+Fix memory leaks in the unit tests,2017-12-14,Merged,5860,18,16,,1
+Travis: Add support for Coverity,2017-12-15,Merged,5858,28,8,,1
+Fix compiler warnings,2017-12-14,Merged,5857,320,296,cpp rc ,4
+Implement AppLocal deployment support for UCRT,2017-12-14,Merged,5856,3,16,cmake ,1
+Fix build problems with Visual Studio 2017,2017-12-14,Merged,5855,21,33,cpp hpp ,4
+changed LivestatusLogUtility::CreateLogCache log file select criteria,2018-04-30,Closed,5854,22,3,,1
+Fix missing space in check_service output,2017-12-14,Merged,5853,2,2,,1
+Fix check_service returning Warning instead of Critical,2017-12-14,Merged,5851,3,5,,1
+init script security fixes,2018-02-21,Merged,5850,363,128,md txt sh ,6
+Fix COPYING format,2017-12-13,Merged,5848,7,7,,1
+'icinga2 wizard node' creates another directory,2017-12-12,Closed,5847,1,1,,0
+Fix compiler warnings,2017-12-13,Merged,5846,3,1,,2
+Added documentation notes for Classic UI,2017-12-11,Closed,5845,20,0,,0
+Assign disk check to local node.,2017-12-18,Closed,5844,2,0,,1
+Fix newline terminator for bulk requests in ElasticsearchWriter,2017-12-07,Merged,5840,17,6,cpp ,1
+services.conf has also be moved to zones.d/global-templates/,2017-12-14,Merged,5838,1,1,,0
+Fixes permissions for cachedir,2017-12-14,Closed,5836,1,1,,1
+Fixes postgres schema upgrade path,2017-12-06,Merged,5835,1,1,,0
+fix formatting error,2017-12-05,Merged,5833,4,4,,0
+Correct path of node certificates,2017-12-03,Closed,5830,1,1,,0
+Replace StatsFunction with Function,2017-11-30,Merged,5827,24,87,cpp hpp ,4
+Implement support for async function calls,2019-01-11,Closed,5826,270,0,txt cpp hpp ti ,6
+Replace boost::assign::list_of with initializer lists,2017-11-30,Merged,5825,46,49,,19
+Replace a few Boost features with equivalent C++11 features,2017-11-30,Merged,5824,756,881,hpp ,20
+adjusted language precedence table,2017-12-14,Closed,5820,5,5,,0
+Avoid unnecessary allocations in the FunctionCallExpression class,2017-11-29,Merged,5819,2,0,,1
+Re-implement WrapFunction() using C++11 features,2017-11-29,Merged,5816,179,490,cpp hpp ,8
+Update NodeName/ZoneName constants with 'api setup',2017-12-07,Merged,5811,29,30,hpp ,6
+Raise required OpenSSL version to 1.0.1,2017-11-28,Merged,5809,1,1,,0
+Fix missing variable name which can lead to segfaults,2017-11-28,Merged,5808,6,6,,1
+Fix incorrect value for the Dictionary::type attribute,2017-11-27,Closed,5806,2,2,,1
+Add support for LD_LIBRARY_PATH env variable in oracle_health ITL CheckCommand,2017-12-20,Merged,5805,5,2,conf ,1
+Silence UpdateRepository message errors,2017-11-28,Merged,5804,4,3,,1
+Replace boost::bind/boost::function with std::bind/std::function,2017-11-29,Merged,5803,365,378,hpp ,11
+Fix error reporting for 'icinga2 console -r',2017-11-24,Merged,5796,17,8,hpp ,2
+ITL: Add check_rpc,2017-11-27,Merged,5792,57,0,conf ,1
+Fix Windows client requirements,2017-11-24,Closed,5791,1,0,,0
+Documentation fixes,2017-11-27,Merged,5790,2,2,,0
+ITL: Drop ssl_sni default setting,2017-11-24,Merged,5785,1,2,conf ,1
+Fix formatting in value types docs,2017-11-28,Merged,5783,2,2,,0
+Update Windows Client requirements for 2.8,2017-11-17,Merged,5773,9,6,cmake cpp ,2
+Release version 2.8.0,2017-11-16,Merged,5770,142,1,spec ,1
+Update .mailmap and AUTHORS,2017-11-16,Merged,5768,15,17,AUTHORS ,2
+Implement ability to make global zones configurable during node wizard/setup,2018-02-26,Closed,5767,132,5,,2
+Fix default configuration example for ElasticsearchWriter,2017-11-15,Merged,5765,1,1,,1
+Improve InfluxdbWriter performance,2017-12-12,Merged,5764,91,106,hpp ,2
+Fix wrong anchors in the documentation,2017-11-15,Merged,5761,4,4,,0
+Fix incorrect socket handling for the HTTP client,2017-12-08,Merged,5760,27,15,,2
+Make default getters and setters non-virtual,2017-11-27,Merged,5759,24,8,cpp hpp ,3
+Add documentation about automatic service restarts with systemd,2017-12-18,Merged,5757,18,0,,0
+Fix missing Accept header in troubleshooting docs,2017-11-14,Merged,5755,3,3,,0
+Improve documentation of cipher_list,2017-11-14,Merged,5754,9,1,,0
+Fix that RingBuffer does not get updated and add metrics about communication between endpoints,2017-12-12,Merged,5753,183,24,hpp ,14
+Add Noah Hilverling to .mailmap,2017-11-14,Merged,5752,1,0,,1
+Fix missing word in pin checks in a zone doc chapter,2017-11-13,Merged,5748,1,1,,0
+livestatus: custom variables return empty arrays instead of strings,2017-11-27,Merged,5746,45,45,,5
+Implement DummyCheckTask and move dummy into embedded in-memory checks,2017-11-27,Merged,5744,153,39,conf txt cpp hpp ,5
+Fix manual certificate creation chapter in the docs,2017-11-09,Merged,5741,45,24,,0
+Rename ElasticWriter to ElasticsearchWriter,2017-11-09,Merged,5739,84,84,conf txt ,1
+Update release docs,2017-11-13,Merged,5738,9,19,,0
+Remove spec file,2017-11-09,Merged,5736,1,709,,0
+Fix broken links inside the documentation,2017-11-09,Merged,5734,2,2,,0
+Make --perf-syntax also change short message,2017-11-28,Merged,5733,6,6,,1
+Fix flapping calculation and events,2017-11-08,Merged,5732,40,23,cpp hpp ti ,5
+Add missing trims to GetMasterHostPort and remove Convert.ToString from variables that are strings already,2017-11-09,Merged,5730,12,12,,1
+Correct node wizard output formatting,2017-11-27,Merged,5729,15,7,,1
+Fix check_service not working with names,2017-11-07,Merged,5728,1,1,,1
+Update upgrading documentation for 2.8,2017-11-08,Merged,5727,41,2,,0
+Use real UUIDs for Utility::NewUniqueID,2017-11-27,Merged,5725,4,22,cpp ,1
+Update Windows Wizard for 2.8 and new signing methods,2017-11-03,Merged,5719,313,317,cs ,1
+API: Fix http status codes,2017-11-27,Merged,5718,11,11,,1
+add order tags to disk check,2017-12-19,Merged,5717,3,0,,1
+add bogus zero reply in livestatus when aggregate and non matching filter,2017-11-27,Merged,5716,11,0,,1
+Hash API password and comparison,2018-02-21,Merged,5715,328,10,cpp hpp txt ti ,8
+rough fix for ServicesTable::AddColumns replacing LogTable::HostNameA…,2018-04-30,Closed,5711,4,3,,1
+Include default global zones during node wizard/setup,2017-10-31,Merged,5710,49,8,hpp ,4
+fixes minor typos in flapping detection documentation,2017-10-30,Merged,5709,4,4,,0
+Fixed grammar and spelling mistakes,2017-10-31,Merged,5708,145,148,,0
+Fix fork error handling,2017-10-24,Merged,5696,18,8,,1
+Enhance Security chapter for Distributed Monitoring documentation,2017-10-20,Merged,5695,19,0,,0
+Re-implement flapping,2017-10-24,Merged,5693,465,100,cpp hpp ti ,8
+Fixed doc formatting,2017-10-19,Merged,5691,1,1,,0
+Fixed typos and punctuation,2017-10-18,Merged,5688,71,71,,0
+Improve error message for unknown cluster message functions,2017-10-18,Merged,5687,4,3,,1
+Implement support for migrating certificates to /var/lib/icinga2/certs,2017-10-20,Merged,5682,216,48,conf ti hpp cpp ,6
+"Added missing ""-q"" parameter to check_ntp_peer",2017-11-02,Merged,5678,5,0,conf ,1
+Fix typo in threshold syntax documentation,2017-10-16,Merged,5677,1,1,,0
+Add pdv unit to influxdbwriter if not empty + doc,2017-11-27,Merged,5675,4,1,cpp ,1
+add itl snmp-service for manubulon plugin check_snmp_win.pl,2017-10-13,Merged,5672,58,0,conf ,1
+Enhance Monitoring Basics in the documentation,2017-10-11,Merged,5668,"1,896","1,210",,0
+Enhance documentation with more details on value types for object attributes,2017-10-10,Merged,5655,"1,396","1,127",,0
+add command parameter check_snmp_mem,2018-01-05,Closed,5654,12,0,conf ,1
+Docs: Fix default value for `snmp_nocrypt` for Manubulon CheckCommand definitions,2017-10-09,Merged,5653,6,6,,0
+Docs: Fix missing default value for cluster-zone checks,2017-10-09,Merged,5652,7,7,,0
+"Add command definition for ""check_snmp_win.pl""",2017-10-13,Closed,5651,38,0,,1
+Allow to disable thresholds for ipmi CheckCommand,2017-10-13,Merged,5647,5,0,conf ,1
+Fix debug builds on Apple Clang 9.0.0 (macOS High Sierra),2017-10-02,Merged,5643,3,0,,3
+Fix compiler warnings on macOS 10.13,2017-10-02,Merged,5641,0,4,,1
+ITL: Support weathermap data in snmp_interface CheckCommand,2017-10-12,Merged,5640,5,0,conf ,1
+Add support for check_address as default in database CheckCommand objects,2017-10-19,Merged,5638,44,30,conf ,1
+Fix unnecessary String() casts in InfluxdbWriter,2017-10-12,Merged,5637,18,18,,1
+Fix unique constraint matching for UPDATE downtime/comment runtime tables in DB IDO,2017-10-10,Merged,5636,4,4,,1
+"Fix match(), regex(), cidr_match() behaviour with MatchAll and empty arrays",2017-10-10,Merged,5635,9,0,,1
+Docs: Mention SELinux in Getting Started chapter,2017-09-29,Merged,5632,27,2,,0
+update address check for multiple commands,2017-09-29,Closed,5631,16,1,,1
+Add pdv unit to influxdbwriter #5627,2017-10-13,Closed,5630,"3,515","2,394",md py ,1
+Feature/influxdbwriter perf unit 5627,2017-09-28,Closed,5628,2,1,,1
+Fixed missing include statement in unit test,2017-10-02,Merged,5624,1,0,,1
+Ensure that the REST API config package/stage creation is atomic,2017-10-24,Merged,5620,29,12,hpp ,5
+Exit early in changelog.py if GitHub API fetch fails,2017-09-26,Merged,5619,12,4,,1
+Fix a build warning,2017-09-25,Merged,5616,1,1,,1
+Fixed missing include statement in unit tests,2017-09-25,Merged,5614,1,0,,1
+Improve documentation and systemd config on TaskMax,2017-09-29,Merged,5612,63,25,cmake conf ,2
+Command definition enhacements,2017-09-24,Closed,5609,5,1,,2
+Fix certificate paths for installers,2017-09-22,Merged,5608,4,3,cpp ,1
+Remove bottom-up client mode,2017-09-22,Merged,5606,497,"3,920",,0
+Remove the icinga2-classicui-package and update documentation,2017-09-22,Merged,5604,28,315,txt etc/icinga/README cfg cmake htpasswd ,4
+Add windows process elevation and log message if user does not have privileges to read/write files,2017-10-13,Merged,5602,139,7,hpp ,5
+Ensure that the cache directory always is set and add a note to upgrading docs,2017-09-22,Merged,5601,20,0,etc/initsystem/prepare-dirs ,1
+"changelog.py: Add ""backported"" to the list of ignored labels",2017-09-21,Merged,5599,3,1,,1
+Docs: Enhance certificate and configuration troubleshooting chapter,2017-09-20,Merged,5594,440,250,,0
+Docs: Add a note for upgrading to 2.7,2017-09-20,Merged,5593,9,0,,0
+Silence log level for configuration file updates,2017-09-20,Merged,5590,1,1,,1
+SyslogLogger: Implement option to set syslog facility,2017-09-20,Merged,5587,113,2,cpp hpp ti ,3
+Ensure that /var is created with proper permissions in prepare-dirs script,2017-09-22,Closed,5586,4,0,,1
+"Fix where clause for non-matching {downtime,comment}history IDO database updates",2017-09-20,Merged,5585,19,15,,1
+Docs: Add example for Windows service monitoring with check_nscp_api,2017-09-18,Merged,5583,32,0,,0
+Docs: Add firewall details for check_nscp_api,2017-09-18,Merged,5582,10,0,,0
+Fix possible race condition in ApiListener locking,2017-10-12,Merged,5581,10,6,hpp ,2
+"Implement new script functions: path_exists, glob and glob_recursive",2017-09-18,Merged,5580,110,0,cpp hpp ,2
+ITL: Re-Add ssl_sni attribute for check_tcp,2017-09-25,Merged,5578,4,0,,1
+Fixed downtime example in documentation,2017-09-18,Merged,5576,4,2,,0
+Don't use deprecated RSA_generate_key,2017-12-12,Closed,5574,29,8,,1
+Implement support for forwarding certificate signing requests in the cluster,2017-09-12,Merged,5571,"3,019",964,,0
+check_esxi_hardware.py with new --no-lcd parameter,2017-09-13,Merged,5570,6,0,conf ,1
+ElasticWriter: Add basic auth and TLS support for Elasticsearch behind an HTTP proxy,2017-09-12,Merged,5569,98,25,txt cpp hpp ti ,8
+Add documentation for multi-line plugin output for API actions,2017-11-02,Merged,5568,7,1,,0
+"Logs: Change config sync update to highlight an information, not an error",2017-09-08,Merged,5566,3,2,,1
+Add ElasticsearchWriter feature,2017-09-11,Merged,5564,767,290,conf txt ,1
+Implement additional logging for the JsonRpc class,2017-09-07,Merged,5563,40,0,,1
+remove -a option at mail notification,2017-11-02,Closed,5560,6,4,,2
+Exclude configfs from disk checks,2017-09-07,Merged,5559,2,2,conf ,1
+Don't sent scheme and hostname in request,2017-09-06,Merged,5558,12,10,hpp ,4
+Implement support for ECC certificates,2017-11-27,Merged,5555,51,17,,1
+Add subjectAltName extension for all non-CA certificates,2017-10-10,Merged,5554,2,2,,1
+Fix cli command used to enable debuglog feature on windows,2017-09-05,Merged,5549,1,1,,0
+Add optional reload parameter to config stage upload,2017-09-20,Merged,5547,24,13,cpp hpp ,3
+Add Edit button to Windows Setup Wizard,2017-10-16,Merged,5545,51,5,png ,5
+ITL: Correct arguments for ipmi-sensor CheckCommand,2017-09-05,Merged,5543,3,3,,1
+Fixed URL encoding for SERVICENAME,2018-02-15,Closed,5540,1,1,,1
+check_nscp_api: Allow arguments containing spaces,2017-09-18,Merged,5539,9,9,,1
+Fixed nscp-disk service example,2017-09-05,Merged,5536,1,1,,0
+"Implement get_services(host {name,object}) and add host object support for get_service()",2017-08-28,Merged,5534,76,6,cpp hpp ,2
+Change last hard state logic,2018-11-13,Closed,5533,3,1,,1
+Update checkable-check.cpp,2017-08-26,Closed,5532,3,1,,1
+Change two more loglines for checkables so checkable is quoted,2017-08-24,Merged,5529,2,2,,1
+Change loglines for checkables so checkable is quoted,2017-08-23,Merged,5528,2,2,,1
+"API: Add execution_{start,end} attribute to 'process-check-result' action",2017-08-22,Merged,5527,8,0,cpp ,1
+WIP: Fix Icinga ignoring updates with current timestamp,2017-09-08,Closed,5526,1,1,,1
+Reduce client disconnect frequency,2017-10-16,Closed,5525,4,2,,1
+Change FIFO::Optimize() frequency for large messages,2017-08-21,Merged,5524,1,1,,1
+Enhance client connect/sync logging and include bytes/zone in logs,2017-08-21,Merged,5523,48,17,,2
+Docs: Update freshness checks; add chapter for external check results,2017-08-18,Merged,5522,57,7,png ,1
+Updates the install dependencies for Debian 9 'stretch',2017-08-17,Merged,5516,1,1,,0
+Docs: Fix wrong parameter for ITL CheckCommand nscp_api,2017-08-15,Merged,5506,1,1,,0
+Fix TLS Race Connecting to InfluxDB,2017-08-17,Merged,5504,4,17,cpp hpp ti ,3
+Fix grouping for Livestatus queries with 'Stats',2017-08-14,Merged,5503,341,106,hpp ,10
+Fix duplicate variable in notification scripts,2017-08-14,Merged,5502,4,4,,2
+SELinux: fixes for 2.7.0,2017-08-14,Merged,5501,3,1,,1
+Process: Fix JSON parsing error on process helper crash,2017-08-14,Merged,5500,3,3,,1
+API: Fix requested attrs/joins/meta type errors in object query response,2017-08-15,Merged,5497,26,3,,1
+"Docs: Update examples for match/regex/cidr_match and mode for arrays (Match{All,Any})",2017-08-11,Merged,5496,81,39,,0
+Fix parameter order for AcknowledgeSvcProblem / AcknowledgeHostProblem / apiactions:AcknowledgeProblem,2017-09-05,Merged,5495,3,3,,2
+Docs: Add section for multiple template imports,2017-08-11,Merged,5494,50,0,,0
+"Update ""Getting Started"" documentation with Alpine Linux",2017-08-11,Merged,5491,113,10,,0
+Docs: Add instructions for Alpine Linux,2017-08-11,Closed,5490,109,10,,0
+Implement additional functions for printing values with LLDB/GDB,2017-08-10,Merged,5488,36,0,,1
+"Docs: Enhance Troubleshooting with nscp-local, check_source, wrong thresholds",2017-08-09,Merged,5487,126,0,,0
+Graphite: Remove deprecated legacy schema mode,2017-08-17,Merged,5486,39,158,cpp hpp ti ,3
+Ensure that expired/removed downtimes/comments are correctly updated in DB IDO,2017-11-07,Merged,5485,190,39,hpp cpp sql ,6
+Fix config validation for DB IDO categories 'DbCatEverything',2017-08-09,Merged,5483,1,1,,1
+Systemd: Add DefaultTasksMax=infinity to service file,2017-08-08,Merged,5477,8,1,cmake ,1
+Docs: Fix ITL chapter TOC; add introduction with mini TOC,2017-08-08,Merged,5476,36,15,,0
+Docs: Add a note on required configuration updates for new notification scripts in v2.7.0,2017-08-08,Merged,5475,48,1,,0
+Notification scripts - make HOSTADDRESS optional,2017-08-14,Merged,5474,74,18,conf sh ,3
+Make notification mails more readable. Remove redundancy and cruft.,2017-08-14,Merged,5468,9,11,,2
+DB IDO: Fix host's unreachable state in history tables,2017-08-07,Merged,5466,24,6,,1
+Update Icinga repository release rpm location,2017-08-07,Merged,5461,12,13,,0
+Add Changelog generation script for GitHub API,2017-08-03,Merged,5457,775,548,,0
+Change cluster check output,2017-11-03,Closed,5454,6,4,,1
+Update documentation for 2.7.0,2017-08-02,Merged,5448,23,241,,0
+Add CORS support and set response header 'Access-Control-Allow-Origin',2017-09-20,Merged,5443,81,20,ti cpp hpp ,4
+Add missing notification state filter to documentation,2017-07-27,Merged,5440,1,1,,0
+Add -d option to check_service,2017-08-07,Merged,5435,124,25,conf cpp h ,3
+Fix: update feature list help text,2017-07-27,Merged,5433,2,2,,1
+Add check_fortigate.pl Fortinet CheckCommand definition,2017-11-02,Closed,5432,114,0,conf ,1
+Add the ability to disable the conf.d inclusion through the node wizard,2018-05-08,Merged,5426,308,39,md cpp hpp ,4
+Fix formatting in API docs,2017-07-20,Merged,5425,2,2,,0
+Windows Plugins: Add new parameter to check_disk to show used space,2017-07-24,Merged,5421,98,37,conf cpp h ,3
+Feedback: Fix/API Eventshandler thread leak includes #5416,2018-04-18,Closed,5419,70,22,hpp ,5
+Fix for API crashing when stressing it (racecondition/deadlock)?,2017-09-18,Closed,5416,3,2,hpp ,2
+Resolve #5408 and #5148,2017-07-14,Closed,5415,13,12,hpp ,4
+Update docs for better compatibility with mkdocs,2017-07-13,Merged,5409,"1,437","1,437",,0
+itl: Add manubulon/check_snmp_env.pl as CheckCommand snmp-env,2017-08-15,Merged,5401,61,0,conf ,1
+Indent curl command,2017-07-20,Closed,5400,0,0,,0
+itl: add additional mssql_health arguments,2017-08-15,Merged,5394,127,42,conf ,1
+Fix typo in the documentation,2017-07-20,Merged,5393,1,1,,0
+Ensure the cache directory exists,2017-08-09,Merged,5392,5,0,etc/initsystem/prepare-dirs ,2
+Handle mis-detection with clang on RHEL/CentOS 7,2017-11-27,Merged,5388,6,0,,1
+Add missing options to snmp CheckCommand definition,2017-08-14,Merged,5387,15,0,conf ,1
+Remove default value for 'dns_query_type',2017-06-28,Merged,5384,0,1,,1
+Set shell prompt for commands to be #,2017-08-07,Merged,5379,8,8,,0
+Fixed warnings when using mkdocs,2017-06-29,Merged,5378,27,26,,1
+Parents who are non-active should not be rescheduled,2018-09-27,Merged,5375,7,2,,1
+"Make rlimits configurable by adding three variables: RLimitFiles, RLimitProcesses and RLimitStack",2017-06-23,Merged,5373,208,70,cpp hpp ,3
+"Update ITL CheckCommand description attribute, part 2",2017-06-21,Merged,5372,67,56,,2
+Fix Travis CI build,2017-06-20,Merged,5371,1,1,,0
+Rename ChangeLog to CHANGELOG.md,2017-06-20,Merged,5370,6,8,spec ,1
+Remove experimental redis feature before 2.7 release,2017-06-20,Merged,5369,1,"9,107",conf cpp ,2
+Fixed wrong node in documentation chapter Client/Satellite Linux Setup,2017-06-21,Merged,5366,1,1,,0
+Update package documentation for Debian Stretch,2017-06-19,Merged,5365,22,19,,0
+Update missing description attributes for ITL CheckCommand definitions,2017-06-20,Merged,5363,142,69,,2
+livestatus/minaggregator: Buildfix for Debian wheezy,2017-06-19,Merged,5360,1,0,,1
+Fixed missing closing bracket in CLI command pki new-cert.,2017-06-19,Merged,5359,1,1,,1
+Add documentation for securing mysql on Debian/Ubuntu.,2017-06-19,Merged,5358,2,1,,0
+Notification Scripts: Ensure that mail from address works on Debian/RHEL/SUSE (mailutils vs mailx),2017-06-16,Merged,5357,58,15,conf sh ,3
+Build fix for Debian Wheezy,2017-06-16,Merged,5356,2,0,,2
+Docs: Fix built-in template description and URLs,2017-06-16,Merged,5354,4,4,,0
+icinga2.spec: Cleanup and explicitely enable unity builds,2017-06-14,Closed,5351,6,5,,1
+Docs: Fix broken format for notes/tips in CLI command chapter,2017-06-13,Merged,5349,3,14,,0
+Implement support for handling exceptions in user scripts,2017-06-13,Merged,5348,72,5,cpp ll yy hpp ,5
+Improve ITL CheckCommand description attribute,2017-06-12,Merged,5347,895,224,,0
+Add ip4-or-ipv6 import to logstash ITL command,2017-06-12,Merged,5344,3,1,,1
+Add accept_cname to dns CheckCommand,2017-06-08,Merged,5339,6,0,conf ,1
+Support/2.6,2017-06-07,Closed,5337,"1,604",380,cmake ,1
+Docs: Fix formatting issues and broken URLs,2017-06-07,Merged,5336,16,20,,0
+Windows build fix for InfluxdbWriter,2017-06-07,Merged,5335,1,1,,1
+Update documentation for enhanced notification scripts,2017-06-16,Merged,5333,143,80,,0
+Notification Scripts: notification_type is always required,2017-06-07,Merged,5332,4,1,,1
+GelfWriter: Add 'check_command' to CHECK RESULT/* NOTIFICATION/STATE CHANGE messages,2017-06-06,Merged,5331,17,0,,1
+GraphiteWriter: Add 'connected' to stats; fix reconnect exceptions,2017-06-06,Merged,5330,8,6,hpp ,2
+GelfWriter: Use async work queue and add feature metric stats,2017-06-06,Merged,5329,182,38,hpp ,2
+Install the images directory containing the needed PNGs for the markd…,2017-06-06,Merged,5326,5,0,,0
+Fix phrasing in Getting Started chapter,2017-06-06,Merged,5324,1,1,,0
+zones.conf: Add global-templates & director-global by default,2017-06-02,Merged,5320,30,6,conf ,1
+Fix typo in INSTALL.md,2017-06-01,Merged,5317,1,1,,0
+Fix for stats min operator,2017-06-16,Merged,5316,5,2,,1
+Docs: Replace nagios-plugins by monitoring-plugins for Debian/Ubuntu,2017-06-02,Merged,5315,2,2,,0
+Document Common name (CN) in client setup,2017-06-01,Merged,5314,2,0,,0
+Fix for stats min operator,2017-06-01,Closed,5313,9,6,,1
+WIP: Update API event stream docs for type attributes,2017-10-09,Closed,5311,125,0,,0
+RPM: Disable SELinux policy hardlink,2017-05-31,Merged,5310,2,1,,1
+Docs: Replace the command pipe w/ the REST API as Icinga Web 2 requirement in 'Getting Started' chapter,2017-05-31,Merged,5309,29,32,png ,1
+Improve validation for attributes which must not be 'null',2017-05-30,Merged,5308,6,6,,5
+Config validation: don't tolerate Host.groups = null,2017-05-30,Closed,5307,10,0,hpp ,2
+Remove CentOS 5 from 'Getting started' docs,2017-05-30,Merged,5306,6,14,,0
+"command-plugins.conf: make ""by_ssh"" use host ssh_port by default",2017-08-15,Closed,5305,1,0,,1
+Update INSTALL.md for RPM builds,2017-05-30,Merged,5304,64,9,,0
+RPM: Fix builds on Amazon Linux,2017-05-31,Merged,5303,28,8,,1
+DEPRECATE icinga2-classicui-config package and config files,2017-05-29,Merged,5302,21,0,cfg cmake htpasswd spec ,5
+Fix compiler warnings,2017-05-29,Merged,5297,3,5,,2
+Fix missing apostrophe in notification log,2017-05-29,Merged,5295,1,1,,1
+Build fix for OpenSSL 0.9.8 and stack_st_X509_EXTENSION,2017-05-29,Merged,5292,2,1,,1
+Use workqueues in Graphite and InfluxDB features,2017-05-26,Merged,5287,136,130,hpp ti ,5
+Fix verbose mode in notifications scripts,2017-05-24,Merged,5286,2,2,,1
+Fix sysstat installation in troubleshooting docs,2017-05-24,Merged,5285,2,2,,0
+Add feature stats to 'icinga' check as performance data metrics,2017-05-23,Merged,5284,4,1,,1
+Revert LogstashWriter feature,2017-05-23,Merged,5283,276,631,conf txt cpp hpp ,4
+Implement WorkQueue metric stats and periodic logging,2017-05-23,Merged,5280,62,6,hpp ,2
+Docs: Add API query example for acknowledgements w/o expire time,2017-05-22,Merged,5279,27,0,,0
+Build fix for I2_LEAK_DEBUG,2017-05-22,Merged,5278,2,2,,1
+Add troubleshooting hints for cgroup fork errors,2017-05-19,Merged,5275,28,0,,0
+Add API & Cluster metric stats to /v1/status & icinga check incl. performance data,2017-05-24,Merged,5266,89,9,hpp ,6
+Move PerfdataValue() class into base library,2017-05-15,Merged,5265,36,33,cpp hpp ti ,24
+Implement new array match functionality,2017-05-16,Merged,5264,223,17,cpp hpp ,4
+Fix performance data processing in GelfWriter feature,2017-05-15,Merged,5262,30,26,,1
+Don't allow acknowledgement expire timestamps in the past,2017-05-15,Merged,5259,11,2,,2
+Fix clang compiler detection on Fedora and macOS,2017-09-28,Merged,5258,7,0,,0
+[needs upstream release] Add check_mailq -d argument for mailq_configdir,2017-12-19,Closed,5255,6,1,conf ,1
+Fix typo,2017-05-15,Closed,5253,1,1,,1
+travis: Update to trusty as CI environment,2017-05-12,Merged,5252,6,4,,1
+Fix cluster crash w/ config sync,2017-05-12,Merged,5249,19,2,hpp ,3
+Travis: Run config validation at the end,2017-05-11,Merged,5248,1,1,,1
+Add target object in cluster error messages to debug log,2017-05-11,Merged,5247,20,10,,1
+Add subjectAltName X509 ext for certificate requests,2017-05-11,Merged,5246,11,0,,1
+Fix that host downtimes might be triggered even if their state is Up,2017-05-11,Merged,5245,1,1,,1
+Add a PR review section to CONTRIBUTING.md,2017-05-11,Merged,5244,56,0,,0
+Fix that host downtimes might be triggered even if their state is Up,2017-05-11,Merged,5243,1,1,,1
+Allow expressions for the type in object/template declarations,2017-05-11,Merged,5242,72,71,yy hpp ,8
+Verbose InfluxDB Error Logging,2017-05-11,Merged,5241,41,0,hpp ,3
+Add NSCP API check plugin for NSClient++ HTTP API,2017-06-13,Merged,5239,549,52,md png spec ,3
+"Remove deprecated ""DbCat1 | DbCat2"" notation for DB IDO categories",2017-05-10,Merged,5238,16,25,cpp hpp ti ,3
+Docs: Add a note for Windows debuglog to the troubleshooting chapter,2017-05-09,Merged,5237,14,0,,0
+ITL: Add some missing arguments to ssl_cert,2017-05-09,Merged,5236,22,3,conf ,1
+InfluxdbWriter: Use a work queue for async message processing; add stats log/api,2017-05-05,Merged,5232,184,48,conf cpp ,2
+Report failure to kill check command after exceeding timeout,2017-10-13,Merged,5231,19,5,,1
+CMake: require a GCC version according to INSTALL.md,2017-05-12,Merged,5229,2,2,,0
+Allow to run Icinga as unprivileged user,2017-06-16,Closed,5228,80,68,cpp ,1
+feature/itl-vmware-esx-storage-path-standbyok,2017-05-09,Closed,5227,4,0,conf ,1
+RPM spec: don't enable features after an upgrade,2017-05-11,Closed,5226,7,4,,1
+Don't call mysql_error() after a failure of mysql_init(),2017-05-04,Merged,5225,1,1,,1
+WIP: ConfigObjectUtility::CreateObject(): ignore empty files,2017-09-06,Closed,5221,24,3,,1
+WIP: Implement Utility::RenameFile(),2017-09-06,Closed,5220,45,178,hpp ,16
+"Remove ""... is is ..."" in CONTRIBUTING.md",2017-05-03,Merged,5216,1,1,,0
+Implement Utility::MoveFile(),2017-05-03,Closed,5215,150,177,hpp ,9
+Add report mode to db2_health,2017-05-09,Merged,5210,6,1,conf ,1
+Add report mode to mssql_health,2017-05-09,Merged,5209,6,0,conf ,1
+DB IDO: Disable external command history by default,2017-04-28,Merged,5207,8,9,ti ,1
+Fix typo in Getting Started chapter,2017-04-28,Merged,5203,1,1,,0
+"Refined documentation for the ""update-windows"" check plugin",2017-04-26,Merged,5191,13,3,,0
+"Added information to the ""update-windows"" check documentation",2017-04-25,Closed,5190,10,3,,0
+RPM packaging updates,2017-05-03,Closed,5189,40,17,spec ,1
+Fix absolute include paths for windows,2017-04-26,Merged,5187,16,5,hpp ,2
+Doc/appendix: fix malformed markdown links,2017-04-28,Merged,5184,6,6,,0
+List SELinux packages required for building RPMs,2017-05-09,Merged,5181,8,0,,0
+Add missing object type to Apply Rules doc example,2017-04-20,Merged,5174,1,1,,0
+Enhance mail notifications scripts and add support for command line parameters,2017-05-10,Merged,5170,403,51,sh ,4
+Syntax error In Dependencies chapter,2017-04-12,Closed,5165,1,1,,0
+"ITL: Add CheckCommand ssl_cert, fix ssl attributes",2017-05-09,Merged,5164,312,70,conf ,1
+ITL documentation - disk-windows usage note with % thresholds,2017-04-12,Closed,5161,5,0,,0
+Changed dependency of selinux subpackage,2017-04-12,Merged,5153,2,2,,1
+Replace http:// links with https:// links where a secure website exists,2017-04-20,Closed,5151,27,27,hpp sql cpp ,17
+"Update documentation, change http:// links to https:// links where a website exists",2017-04-20,Closed,5149,53,53,,0
+Add more options to ldap CheckCommand,2017-04-20,Closed,5139,26,16,conf ,1
+Enhance event command docs with more examples on remote clients,2017-05-09,Merged,5136,278,17,,0
+manubulon requires exec permission on satellites & cpu/mem thres,2017-04-20,Closed,5130,41,24,conf ,1
+Improve systemd service file,2017-04-12,Merged,5127,1,1,,1
+Added support to NRPE v2 in NRPE CheckCommand,2017-04-20,Closed,5126,6,1,conf ,1
+Correct link to nscp documentation,2017-03-30,Closed,5104,1,1,,0
+RedisWriter: JSON-encode event once,2017-05-15,Closed,5099,354,167,hpp txt ,3
+"RedisWriter: publish CIB as a simple ""keepalive""",2017-03-29,Closed,5098,380,166,hpp txt ,3
+WIP: Execute initial checks immediately,2017-08-14,Closed,5089,5,2,,1
+Add LogstashWriter feature,2017-03-20,Merged,5085,738,102,conf txt cpp hpp ,4
+Add option to let parent downtimes suppress child notifications,2017-06-16,Closed,5079,16,0,ti ,2
+fix mitigation for nwc_health,2017-03-22,Closed,5075,2,2,conf ,1
+Fixed --details switch,2017-03-16,Closed,5074,4,4,,1
+Add additional arguments to mssql_health,2017-03-14,Closed,5063,17,0,conf ,1
+Fix missing documentation for mysql_socket attribute,2017-03-09,Merged,5056,1,0,,0
+Update command-plugins.conf to add querytype to 'dns',2017-03-06,Closed,5047,6,0,conf ,1
+API: Fix error code for invalid 'attrs' type for POST requests,2017-03-01,Merged,5044,9,1,,1
+Add link to upgrade documentation to log message,2017-05-09,Merged,5042,4,2,,2
+Fixed return code check in CRL loading (#5040).,2017-02-28,Closed,5041,1,1,,1
+Docs: Fix typo in Distributed Monitoring chapter,2017-02-24,Merged,5036,1,1,,0
+DB IDO: Fix actual_end_time update for non-triggered flexible downtimes,2017-02-24,Merged,5034,6,2,,1
+add --if-names option to check_interfaces,2017-02-28,Closed,5032,5,0,conf ,1
+"Docs: Fixes and enhancements for acks, comments and downtimes",2017-02-23,Merged,5031,61,16,,0
+Add an advanced example for apply rules to the docs,2017-02-23,Merged,5027,82,0,,0
+Fix notify/sticky parameter handling in 'acknowledge-problem' API action,2017-02-23,Merged,5026,5,5,cpp ,1
+"Fix IDO MySQL ""command out of sync"" error with lots of comments/downtimes upsert queries",2017-02-23,Merged,5025,84,1,,1
+"Added CheckCommand definitions for SMART, RAID controller and IPMI ping check",2017-03-09,Closed,5019,121,3,conf ,3
+Add fuse.gvfs-fuse-daemon to disk_exclude_type,2017-02-20,Closed,5016,2,2,conf ,1
+nwc_health_report attribute requires a value,2017-03-09,Closed,5015,3,3,conf ,1
+WIP: Make strings valid UTF-8 before JSON-encoding them,2017-10-09,Closed,5014,5,1,,1
+Adding a forgotten parameter in manubulon doc : snmp_v3_use_authprotocol,2017-02-16,Closed,5012,5,0,,0
+Allow to run CLI without root,2017-02-16,Closed,5009,9,9,,9
+WIP: Don't disconnect API clients (HTTP) automatically (after 10s),2017-09-25,Closed,5008,0,35,hpp ,2
+Add a log message for RedisWriter on start and stop.,2017-02-15,Closed,5006,12,0,hpp ,2
+Fix hostnames in docs for distriuted monitoring,2017-02-14,Closed,5001,16,16,,0
+change `dummy` CheckCommand. fixes #4987,2017-02-13,Closed,4993,16,5,,1
+"Added CheckCommand definitions for SMART, RAID controller and IPMI ping check",2017-02-21,Closed,4990,99,0,conf ,3
+Unify the JSON structures of responses…,2017-02-09,Closed,4988,3,8,,1
+Allow to use local mode of hpasm. fixes #4985,2017-03-10,Closed,4986,9,3,conf ,1
+Fix Check Output Parsing,2017-05-15,Closed,4970,20,12,,2
+ITL: check_icmp: add missing TTL attribute,2017-02-07,Closed,4964,3,1,conf ,1
+ITL: Add report option to shorten output for oracle_health CheckCommand,2017-02-07,Closed,4963,7,1,conf ,1
+WIP: Support for Windows Server Nano,2017-12-19,Closed,4957,46,14,cpp hpp ,3
+Fix persistent comments for Acknowledgements,2017-05-10,Merged,4956,55,34,cpp hpp ti ,13
+IDO compliance for MySQL 5.7,2017-01-27,Merged,4951,165,165,,0
+doc/6-distributed-monitoring.md: Fix typo,2017-01-27,Closed,4944,1,1,,0
+PerfData: Server Timeouts for InfluxDB Writer,2017-02-07,Closed,4941,16,4,cpp hpp ti ,3
+fix ssl cert check when SNI is used,2017-02-07,Closed,4936,3,0,conf ,1
+Use OpenSSL 1.1 binaries on Windows if available.,2017-04-06,Closed,4932,22,3,,0
+adds configfs to vars.disk_exclude_type,2017-02-02,Closed,4928,1,1,,1
+"FreeBSD's /dev/fd can either be inside devfs, or be of type fdescfs.",2017-02-07,Closed,124,1,1,,1
+ITL: Update ipmi CheckCommand attributes,2017-02-07,Closed,123,38,3,conf ,2
+Update event handler example for SSH,2017-05-10,Merged,122,10,31,,0
+give only warnings if feature is already disabled,2017-02-02,Closed,121,2,3,,1
+Add new parameter for check_http: -L: Wrap output in HTML link,2017-02-07,Closed,120,7,1,conf ,1
+Don't crash on large IPC control messages,2017-02-02,Closed,119,65,12,,1
+"WIP: Flapping: added doc, screenshot, and three bugfixes",2017-11-02,Closed,118,21,8,png cpp ,2
+Support --only-critical for check_apt,2017-02-16,Closed,117,5,0,conf ,1
+Update links to icinga repository,2017-01-10,Closed,116,19,18,,0
+Inverse Interface Switch for snmp-interface,2017-02-07,Closed,115,4,0,conf ,1
+Adding -A to snmp interfaces check,2017-02-07,Closed,114,4,0,,1
+fix template for pnp-hst,2016-12-05,Closed,113,1,1,,0
+Update: ITL: Add timeout option for mysql_health CheckCommand,2016-12-06,Closed,112,1,0,,0
+WIP: Increase limit for large scale/high performance,2017-06-21,Closed,111,2,2,,1
+Add possibility to set verbose parameter for check_http,2016-12-06,Closed,110,44,16,cpp ,3
+Add sudo option on check_mailq,2016-12-06,Closed,109,5,0,conf ,1
+ITL: Add timeout option for mysql_health CheckCommand,2016-12-06,Closed,108,4,0,,1
+Fix a typo in 11-cli-commands.md,2016-11-21,Closed,107,1,1,,0
+"Fix bad heading level for {commands,groups}.conf",2016-10-17,Closed,106,2,2,,0
+add concurrent_checks in CheckerComponent example config so it shows …,2016-12-06,Closed,105,3,1,,0
+Docs: fix typo,2016-09-30,Closed,104,1,1,,0
+Add an example of multi-parents configuration.,2016-09-30,Closed,103,28,0,,0
+Fixes a typo,2016-09-29,Closed,102,5,5,cpp ,1
+Radius CheckCommand,2016-09-29,Closed,101,70,0,conf ,1
+Upadate 10-icinga-template-library.md adding iostats,2016-09-01,Closed,100,20,0,,0
+add the checkCommand for check_iostats,2016-09-29,Closed,99,56,0,conf ,1
+Update 10-icinga-template-library.md,2016-09-01,Closed,98,4,4,,0
+Remove inode default values,2016-08-29,Closed,97,0,2,,1
+Fixes 12586 - Adds bool switch for procurve / HP memory,2016-08-29,Closed,96,5,0,conf ,1
+fix description of -a and -n for check_swap,2016-08-28,Closed,95,2,2,,1
+Detect logrotate not installed in /usr/sbin,2016-08-24,Closed,94,2,1,,0
+Docs: fix typo in Notification object,2016-08-19,Closed,93,1,1,,0
+changes to the documentation chapter 6,2016-08-20,Closed,92,23,7,,0
+Don't violate POSIX by ensuring that the argument to usleep(3) is less than 1000000,2016-08-10,Closed,91,5,1,,1
+Don't violate POSIX by ensuring that the argument to usleep(3) is less than 1000000,2016-08-10,Closed,90,5,1,,1
+Add vars for all check_swap args,2016-08-11,Closed,89,23,4,,1
+added the retries parameter to check_snmp command,2016-08-05,Closed,88,2,0,conf ,1
+Update command-plugins.conf,2016-08-01,Closed,87,4,1,,1
+Fixing wrong variable name,2016-06-27,Closed,86,29,29,,0
+Adding option to access ifName.,2016-06-27,Closed,85,5,0,conf ,1
+Update 6-object-types.md,2016-06-07,Closed,84,10,1,,0
+fix varios typos,2016-06-13,Closed,83,7,7,cpp ,1
+fix the formatting of `systemctl reload icinga2`,2016-06-06,Closed,82,1,0,,0
+Updated command definition and documentation for check_esxi_hardware,2016-06-06,Closed,81,6,0,conf ,1
+"Revert ""use HTTPS for debmon.org""",2016-05-17,Closed,80,0,0,,0
+use HTTPS for debmon.org,2016-05-17,Merged,79,2,2,,0
+fix typo in vim syntax highlighting,2016-04-19,Closed,78,1,1,,1
+Add SSL support to MySQL connections via IDO,2016-05-03,Closed,77,66,1,conf cpp ti ,4
+InfluxDB Writer,2016-05-03,Closed,76,617,2,conf txt ,1
+Re-add the 'su' directive to logrotate if supported,2016-03-29,Closed,75,18,2,cmake ,1
+implements the feature for making the supported ciphers configureable,2016-08-08,Closed,74,46,0,cpp hpp ti ,4
+Feature/feature api tls ciphers define 11063,2016-03-11,Closed,73,179,35,cpp hpp ,6
+"snmp: added the ""-e"" parameter to allow setting retries",2016-04-14,Closed,72,1,0,,1
+Implement exclude and include ability for timeranges,2016-05-21,Closed,71,35,1,cpp ti ,2
+Implement exclude and include ability for timeranges,2016-02-28,Closed,70,35,0,cpp ti ,2
+Added query option to check_postgres,2016-02-23,Closed,69,15,0,conf ,1
+Fix parsing of YYYY-MM-DD in LegacyTimePeriod::ParseTimeSpec,2016-02-10,Closed,68,9,4,,1
+Make check_source a varchar(255) column,2016-06-27,Closed,67,47,5,,4
+Add SSL support to MySQL connections via IDO,2016-05-03,Closed,66,60,0,conf cpp ti ,4
+Add SSL support to MySQL connections via IDO,2016-01-22,Closed,65,61,0,conf cpp ti ,4
+Reload logs after logrotate across distros,2016-01-21,Closed,64,1,5,,1
+Bug #10979,2016-01-18,Closed,63,3,1,conf ,1
+"#10975 - Add the exclude drive parameter for CheckCommand ""disk-windows""",2016-01-18,Closed,62,11,6,conf ,1
+Memory leaks,2016-01-15,Closed,61,3,1,,2
+Add network.target to unit file,2016-01-14,Closed,60,1,1,,1
+Update logrotate conf to supress stderr output,2016-01-21,Closed,59,1,1,,1
+Remove superfluous ifdef,2015-12-18,Closed,58,0,4,,1
+Add timeout to snmpv3 check,2016-01-14,Closed,57,3,0,conf ,1
+Allow overwriting expected answer of dns check,2016-12-06,Closed,56,4,1,,1
+doc/5-advanced-topics: add example how to use custom functions in attributes,2016-01-14,Closed,55,26,0,,0
+doc: minor typo fixes,2015-11-20,Closed,54,24,25,,0
+check_network fixed performance data,2016-01-11,Closed,53,2,2,,1
+Don't try to use --gc-sections on SunOS,2015-11-06,Closed,52,1,1,,0
+Make check apt command timeout configurable,2015-10-23,Closed,51,12,1,conf ,1
+Make check apt command timeout configurable,2015-10-22,Closed,50,13,1,conf ,1
+Update 3-monitoring-basics.md,2015-10-26,Closed,49,1,1,,0
+Add port configuration to snmp checks (Feature #10423),2015-10-21,Closed,48,2,0,conf ,1
+Add notes on FreeBSD setup,2015-10-08,Closed,47,47,1,,0
+Rather use SID for setting rights on $INSTALLDIR,2015-09-24,Closed,46,1,1,,0
+Update icinga2.te,2015-08-26,Closed,45,25,1,,1
+Update 3-monitoring-basics.md,2015-10-13,Closed,44,0,31,,0
+Issue 9858: Gelf module: exposed 'perfdata' fields and 'reachable' field for 'CHECK_RESULT' events,2015-12-18,Closed,43,43,0,cpp ti ,3
+snmpv3 CheckCommand section improved,2015-08-07,Closed,42,86,25,conf ,1
+"Added ""-r"" parameter to the check_load command for dividing the load averages by the number of CPUs.",2015-07-22,Closed,41,15,2,conf ,1
+Making the disk check only run on icinga node.,2015-07-08,Closed,40,2,0,,1
+9443 Added examples for dynamic notification apply rule,2015-07-08,Closed,39,45,1,,0
+Update 10-icinga2-client.md regarding update-config,2015-10-13,Closed,38,1,1,,0
+grammer fix in doc/3-monitoring-basics.md,2015-06-19,Closed,37,1,1,,0
+Typo fix.,2015-06-19,Closed,36,1,1,,0
+indent accept_config and accept_commands,2015-06-19,Closed,35,8,4,,2
+Update 22-appendix.md,2015-06-09,Closed,34,4,3,,0
+Removed seemingly unnecessary paths in spec,2015-05-19,Closed,33,0,2,,1
+Add Agent System Requirements to Docs 10-icinga2-client.md,2015-06-09,Closed,32,1,0,,0
+typo fix,2015-06-09,Closed,31,1,1,,0
+"Add ""ldap"" CheckCommand",2015-04-25,Closed,30,50,0,conf ,1
+Terminate string literals,2015-04-24,Closed,29,2,2,,1
+change user/service objDef order,2015-04-11,Closed,28,1,1,,1
+"Added possibility to set securityLevel, e.g. if using snmpv3 without enc...",2015-06-19,Closed,27,4,2,conf ,1
+update perf data host macros,2015-03-26,Closed,26,1,1,,0
+Update 7-configuring-icinga-2.md,2015-03-09,Closed,25,1,0,,0
+"ITL: Implement various options for the Snmp CheckCommand, including mib-list",2015-02-24,Closed,24,"23,935","15,603",AUTHORS txt ChangeLog md ,3
+"Add macro ""check_source"" for hosts and services to use them in notification mails",2015-01-25,Closed,23,8,0,cpp ,2
+Removed mail_from from check_ssmtp command.,2015-01-21,Merged,22,0,2,conf ,1
+get agent checks working inside an ha zone,2015-02-12,Closed,21,77,23,hpp ,3
+Fix rpmspec build for el7-like machines,2015-02-08,Closed,20,3,0,,1
+Fix failures for ido-mysql upgrades,2015-02-08,Closed,19,4,6,,2
+Fix group permission in prepare-dirs,2014-11-29,Closed,18,1,1,,1
+Adding missing command,2014-11-26,Closed,17,1,1,,0
+Fix Remote Client Documentation,2014-11-27,Closed,16,0,2,,0
+"Un-Bashify mail-{host,service}-notification.sh",2014-12-02,Closed,15,6,6,,2
+"Conditionally enable MySQL and PostgresSQL, add support for FreeBSD and DragonFlyBSD",2014-11-14,Closed,14,30,8,md cmake ,1
+"[#7338] Docs. Default command timeout is 60 seconds, not 5 minutes.",2014-10-11,Closed,13,3,3,,0
+Fix reading perfdata in compat/checkresultreader,2014-10-11,Closed,12,1,1,,1
+Make reload timeout configurable via command-line arg,2015-02-08,Closed,11,18,1,hpp ,3
+Fixing some config errors,2014-09-18,Closed,10,2,2,,1
+Fix/doc getting started service systemctl,2014-09-18,Closed,9,50,1,cpp ,1
+Further differentiation between service and systemctl,2014-09-18,Closed,8,17,5,cpp ,1
+Fix perfdata double value type formatting exported to graphite,2014-07-18,Closed,7,1,1,,1
+Added check_ide_smart command,2014-07-25,Closed,6,27,0,conf ,1
+Icinga spec fixes,2014-07-11,Closed,5,74,67,spec ,1
+Extend http CheckCommand to accept --expected http status return codes,2014-07-28,Closed,4,2,0,,1
+Adding ports to checks pop/imap/smtp and new check dig,2014-06-22,Closed,3,16,0,,1
+Add notes about certificate permission,2014-03-31,Closed,2,3,1,,0
+Add notes about certificate permission,2014-02-04,Closed,1,6,0,,0

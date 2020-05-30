@@ -1,0 +1,184 @@
+Merge pull request #1 from CRYTEK/release,2019-09-20,Closed,681,0,0,,0
+Stabilisation,2019-09-05,Closed,653,"1,412,897","502,999",json ,1
+!B (CryRender) Compilation fails for restrict on reference,2019-07-05,Closed,634,3,3,,1
+!B (Animation) Bad check for loading causing heap corruption,2019-06-21,Merged,631,1,3,,1
+!B (System) Logging frame ID on server without Renderer,2019-06-25,Merged,630,8,4,,1
+!T Ignore qpOASES warnings to build physics,2019-07-05,Closed,629,9,1,,1
+!B Several more memory bugs with undefined behavior,2019-07-05,Closed,628,13,10,,7
+!B (Networking) Dedicated server assert for existing sub-mtl shaders,2019-07-05,Closed,627,1,1,,1
+!F Improved comment syntax on XXX.cfg & .cryproject files,2019-07-05,Closed,626,47,35,py exe ,5
+!ER (CMake) (Alvaro D. Acosta) Replace `file(DOWNLOAD` by the `FetchContent` CMake module.,2019-07-05,Closed,624,14,17,md cmake ,2
+Replace `file(DOWNLOAD` by the `FetchContent` CMake module.,2019-06-11,Closed,623,12,15,cmake ,1
+Fix unordered_map call to lower_bound with find.,2019-05-29,Closed,621,1,1,,1
+!XI Integrating CL 1711615 !B (Sandbox) (CE-16303) Now Asset Browser …,2019-06-25,Closed,618,4,3,,1
+!BF Refactor of the python script that download the sdk,2019-05-06,Closed,616,116,0,,1
+Merge pull request #2 from CRYTEK/release,2019-03-24,Closed,610,0,0,,0
+!B (Renderer) AABB Tree not initialized,2019-07-05,Closed,600,5,0,,2
+Added Comments to `CSampleActorComponent`,2019-02-06,Merged,594,83,5,,1
+!B (Physics) Variable used before initialization,2019-07-05,Closed,590,1,1,,1
+!T (CMake) Updated AUTOMOC syntax,2019-07-05,Closed,587,4,3,,2
+!RF CMake version upgrade and improvement.,2019-07-05,Closed,584,"80,816","55,705",txt cmake dll exe conf 12/cmliblzma/COPYING in ,19
+!BT Extensive cleanup of common Warnings/Errors,2019-07-05,Closed,583,86,71,,20
+!B Removed hardcoded logging/monitoring/icon paths,2019-07-05,Closed,582,61,35,,14
+!B GetProjectFolder() returned wrong path,2019-07-05,Closed,581,6,11,,1
+!TF (Sandbox) FBX Management improvements,2019-07-05,Closed,580,103,37,cpp h cmake ,7
+!B (CrySystem) Removed m_lBaseTime adjustment and improved logging.,2019-07-05,Closed,579,7,7,,3
+!F Improved cry_select.exe setup,2019-06-15,Closed,569,126,18,h cmake bat ,7
+!F Improved comment syntax on XXX.cfg & .cryproject files,2019-06-15,Closed,568,148,46,cpp h cmake py exe ,12
+!AF Improved SDK handling,2019-06-15,Closed,567,325,15,txt cmake json exe py spec bat ,9
+!T Updated InstallEngine.bat pathing,2019-06-24,Merged,565,8,3,,1
+!FT (CMake) Updated VStudio debug-cli macro,2019-07-05,Closed,564,10,10,,1
+!F (CMake) Added option to build release RC in a debug-solution,2019-02-01,Merged,563,10,1,,1
+!FB Improved cry_cmake.exe,2019-06-15,Closed,561,189,45,py spec bat exe ,6
+!B (DefaultComponents) Matrix isn't orthonormal,2019-02-01,Merged,557,3,1,,1
+!B (Sandbox) Corrupt string error,2019-07-05,Closed,556,1,1,,1
+!B (Renderer) RenderNode invalid iterators,2019-07-05,Closed,555,4,5,,1
+!B Won't build - missing headers,2019-06-25,Merged,554,4,0,cpp ,2
+!B (Sandbox) Mannequin fragment viewer dying,2018-12-19,Merged,553,3,2,,1
+!B (Sandbox) Crash on exiting sandbox,2019-06-24,Closed,552,5,0,,1
+!B (Sandbox) Improper file monitoring fixed,2019-06-15,Closed,551,62,34,,14
+"!B (CMake) Missing RC commits, probably important?",2019-07-05,Closed,550,6,0,,1
+!BT (Networking) Syntax typo fix,2019-06-24,Merged,549,3,3,,1
+!B (Networking) Dedicated server assert for existing sub-mtl shaders,2019-02-01,Merged,548,1,1,,1
+!B Relative path not converted to absolute when -project passed,2019-06-15,Closed,547,6,11,,1
+!B (FMOD) No banks caused FMod to kill project on launch.,2018-12-17,Closed,546,6,3,,1
+!B (Sandbox) Switching from mannequin layout to default view crash,2018-12-19,Merged,545,1,1,,1
+!B (Renderer) Floating point error in camera plane frustrums.,2019-07-05,Closed,544,28,0,,1
+!B (Renderer) Shader reset did not clear reflected buffer,2019-01-31,Closed,543,4,0,,1
+"!B Fixed vsprintf ""unexpected input value""",2018-12-19,Merged,542,32,1,,2
+!B (Sandbox) Edits to get main-branch Sandbox built,2019-07-05,Closed,541,24,19,h ,12
+!B (RC) Fixed improper SZip library handling,2019-07-05,Closed,540,8,5,h ,1
+!B (Sample Templates) Fixed permanent turning animation,2018-12-19,Merged,539,3,3,,1
+Main,2018-11-22,Closed,535,"14,805","14,287",h ,23
+Improvement and refactoring of core Timer API and times,2019-07-05,Closed,517,"108,070","72,850",gitignore h cpp ,4
+Improvement and refactoring of core Timer API and times,2018-10-25,Closed,511,"30,404","16,797",cpp h ,12
+!BA Edits required to have working Main branch. Uses sample FPS project as simple base.,2018-11-15,Closed,510,"5,346",79,h cpp txt ,17
+Standardization and improvement of any Time API's/systems,2018-10-02,Closed,509,"240,365","209,815",gitignore cpp h ,4
+!BE (Sandbox) Fix transition editor only showing fragments on one scope,2018-11-15,Merged,505,1,1,,1
+!BE (3DEngine) Fix objects not correctly rendering when e_streamInsta…,2018-11-26,Closed,496,2,2,,1
+!F (Default Entities) Added physically based light values,2019-07-05,Closed,484,111,3,cpp ,5
+Remove GameObject dependency from CActionMap::ReleaseFilteredActions,2018-12-19,Merged,474,1,3,,1
+Stabilisation,2018-07-09,Closed,469,"1,016,587","385,084",json ,2
+!T (3DEngine) Fix typo in single line comments,2019-07-05,Closed,448,26,22,cryproject ,2
+"!FE (AlembicComponent) Play, Pause, Stop features.",2018-05-15,Merged,439,55,1,h ,2
+Pullrequests,2018-05-11,Closed,434,"1,013,551","394,376",json ,2
+Remove GameObject dependency from CActionMap::ReleaseFilteredActions,2018-07-19,Closed,433,1,3,,1
+!AF (Sandbox) Use Qt i18n solution in Sandbox,2018-06-27,Closed,428,382,0,qm bat ,56
+!AF (Sandbox) Qt i18n solution in Sandbox,2018-04-27,Closed,426,"1,029,542","400,466",json ,2
+"!FE (AlembicComponent) Play, Pause, Stop features.",2018-05-15,Closed,412,231,178,,1
+!AF(Sandbox) Sandbox multilanguage solution,2018-04-19,Closed,409,"24,038",0,qm ,2
+"!BORT (3dengine, RenderDll) Mesh stream cleanup",2019-04-25,Closed,366,"2,713","2,532",h ,5
+"!AFR (Cry3DEngine, ResourceCompiler) Mesh vertex reordering rework",2019-03-15,Closed,365,"1,516",300,h txt ,3
+!AFR (RenderDll) Depth bounds test,2019-04-25,Closed,359,"1,769",169,txt cpp ,5
+"!ATB (CMake, RenderDll) Added Windows 10 highest installed version SDK detection to CMake",2018-01-08,Closed,358,168,0,bat ,2
+"[Docs] - Crytek/CryEngine - README.md - minor tweaks (spelling, gramm…",2018-06-25,Closed,356,6,6,,0
+Added ability to queue an action,2018-04-01,Closed,348,10,0,,1
+!B (CryPhysics) Fix missing CryPhysX terrain collision in GameLauncher,2018-05-24,Closed,333,3,0,,1
+!B (CryPhysX) Fix shutdown issues,2017-11-16,Merged,332,21,16,h ,3
+Style changes,2017-11-03,Closed,325,278,288,,0
+Fix GetRandomUnitVector.,2019-06-24,Closed,316,3,6,,1
+Fix bError not properly handled when logging from non-main thread,2019-07-05,Closed,315,1,1,,1
+!AF (CMake) Allow for users to cleanly add/remove their game projects without modifying files from Tools/ directory in custom engine versions,2019-07-05,Closed,314,8,1,txt cmake ,2
+!T (CryPlugins) Fix a pair of misleading function names,2018-06-15,Closed,313,3,3,,2
+tweaking README.md - TYPOS & ToC,2017-10-05,Closed,309,13,7,,0
+!R (Physics) Upgrade CryPhysX to PhysX 3.4,2017-11-14,Closed,303,111,92,cpp h ,8
+!B (CryAnimation) Fix race-condition crash in PoseAlignerChain,2017-11-06,Merged,281,17,18,h ,2
+!BA (Vulkan) (CMake) Fix Vulkan Compilation,2018-03-24,Closed,274,2,0,,0
+!BA (Vulkan) (WAF) Fix Vulkan Compilation,2018-03-24,Closed,273,3,1,,1
+!T (3DEngine) Fix typo in listener name,2019-07-05,Closed,271,1,1,,1
+!T (Schematyc) Correct typo in log message,2018-07-10,Closed,270,1,1,,1
+fixed devision by zero DecalPassPs,2019-07-05,Closed,268,4,2,,1
+fix devision by zero,2017-08-29,Closed,267,"388,101","479,542",gitignore txt ,2
+RC_Job should also copy the schematyc entites,2017-08-28,Merged,265,1,1,,1
+RC_Job should also copy the schematyc entities,2017-08-28,Closed,264,928,333,h ,3
+we need a stable version,2017-11-01,Closed,263,"138,105","173,155",cpp h ,4
+!F (DefaultComponents) Add AgentType property for PathfindingComponent,2017-09-01,Closed,259,8,2,h ,2
+!T (git) Thank people in advance for pull requests.,2018-12-20,Closed,257,1,1,,0
+!B (CryEntitySystem) Use FragmentID when referring to fragments,2017-08-23,Merged,256,2,2,,1
+!R (CMake/CryRun) CMakeLists detection additions,2018-03-24,Closed,252,110,39,py ,2
+Test 3,2017-08-18,Closed,246,"78,690","132,574",cpp h txt ,11
+Test_4,2017-08-15,Merged,245,"1,321",724,inl h ,10
+Test_2,2017-08-18,Closed,244,799,"4,610",,3
+Test,2017-08-15,Closed,243,799,"4,610",,3
+!XE (GamePlugin) Missing code block added for registering user defined EntityComponents.,2018-04-02,Closed,241,257,179,,1
+create change to demo pull request,2017-08-14,Closed,239,3,0,,0
+!FE (cry_cmake) Added a check for SDKs and user prompts,2017-08-23,Merged,233,87,3,,1
+Update to TActionHandler so it will pass along the return value of th…,2017-08-11,Closed,230,1,1,,1
+!B (GameTemplates) Fix ReflectType on CBulletComponent,2017-08-09,Merged,229,4,4,,4
+!B (GameTemplates) Fix ReflectType on CBulletComponent in ThirdPerson…,2017-08-09,Merged,228,2,2,,1
+Readme,2017-08-07,Merged,223,2,0,,0
+Format change,2017-08-07,Closed,222,0,0,,0
+change markup of license.md,2017-08-07,Merged,221,75,75,,0
+Voxel,2017-08-11,Merged,218,"1,917","6,820",cpp ,5
+Introduced non-destructive means of adding additional projects to repository,2017-10-08,Closed,216,128,18,txt cmake ,3
+fixing minor issues,2017-08-21,Closed,196,5,8,,0
+Merge pull request #1 from CRYTEK-CRYENGINE/release,2017-08-01,Closed,195,0,0,,0
+"!BE (System) Translate x, y for mousewheel events",2017-07-31,Closed,194,8,0,,1
+fixing a couple of typos,2017-08-21,Merged,190,2,2,,0
+!R (CryPluginManager) Allow specifying (un)load priority.,2018-03-24,Closed,188,200,79,cpp ,7
+!TE (PluginManager) (uniflare) Unload plugins in FILO order for dependency.,2017-06-17,Closed,187,3,3,,1
+20170531,2017-06-17,Closed,184,"3,725","11,411",txt cpp h ,12
+!R (CMake/CryRun) CMakeLists detection additions,2017-08-21,Closed,183,95,24,py ,2
+!FE (CMake) (uniflare) Added (optional) module type tags.,2017-05-28,Closed,182,50,7,,1
+!FE (ProjectManager) (uniflare) Allow project file inside asset dir,2017-06-19,Closed,181,12,0,,1
+(Various) Exit crashes.,2017-08-11,Closed,180,9,6,cpp ,3
+(MonoRuntime) A Potential startup crash and exit crash.,2017-06-17,Closed,179,2,1,,1
+Fix wrong comparison & removed unnecessary loop,2017-05-06,Closed,173,1,10,h ,2
+!TE (CMake) (uniflare) Allow VS to locate CryCommon includes,2019-07-05,Closed,169,48,1,props in ,4
+make download_sdks.py executable,2017-05-17,Closed,168,0,0,py ,2
+make download_sdks.py executable,2017-03-27,Closed,167,2,"2,795",,1
+make download_sdks.py executable,2017-03-27,Closed,166,0,0,,1
+!B (CWE-688) (3DEngine) PVS-Studio: Function Call With Incorrect Variable,2017-06-17,Closed,164,1,1,,1
+!B (CWE-476) (Movie) PVS-Studio: NULL Pointer Dereference,2017-06-17,Closed,163,2,1,,1
+!B (CWE-571) (CryPlugins) PVS-Studio: Expression is Always True,2017-06-17,Closed,162,1,1,,1
+corrected misaligned bullet-points in LICENSE.md,2017-09-16,Closed,161,13,13,,0
+fixed header syntax in LICENSE.md,2017-08-09,Closed,160,14,14,,0
+!B (CWE-467) (3DEngine) PVS-Studio: sizeof () evaluates the size of a pointer,2017-06-17,Closed,159,1,1,,1
+!B (CWE-806) (3DEngine) buffer underflow fixed by PVS-Studio,2017-06-17,Closed,158,1,1,,1
+Extend DRS SpeakLine to use Context Variable,2018-06-15,Closed,144,28,5,h ,2
+!FE (PluginManager) (uniflare) Allow loading cryplugin.csv from game …,2017-05-20,Closed,133,15,1,,1
+merge from crytex-cryengine,2017-06-17,Closed,131,"3,725","11,411",txt cpp h ,12
+Stabilisation,2017-01-10,Closed,88,329,255,cpp h ,18
+Re-initialise camera vars in UnloadLevel in Cry3DEngine,2017-09-07,Closed,75,0,0,,0
+!B (Tools) Wwise SDK installation expects new directory structure.,2017-08-11,Closed,54,32,104,bat py ,2
+!B (System) Wrong warning missing thread configuration when only common configuration is defined.,2017-10-06,Merged,53,15,9,,1
+Limit editor framerate,2019-07-05,Closed,50,114,10,h cmake ,7
+Typos,2017-08-11,Merged,39,6,6,h ,5
+update,2016-11-29,Closed,38,"3,725","11,411",txt cpp h ,12
+!B (Tools) Wwise SDK installation expects new directory structure.,2016-12-17,Closed,37,32,104,bat py ,2
+!B (System) Wrong warning missing thread configuration when only common configuration is defined,2016-12-17,Closed,36,15,9,,1
+10-12,2017-06-17,Closed,35,"3,725","11,411",txt cpp h ,12
+Fix for locked head rotation in mp.,2017-06-17,Closed,34,6,1,,1
+Main,2016-09-24,Closed,33,"45,414","30,073",cpp ,3
+Fixing Asynchronous Time Warp on OSVR,2017-06-19,Closed,32,14,1,,1
+Fix shader input layout for DirectX 10+,2019-07-05,Closed,31,2,0,,1
+Main,2016-08-31,Closed,30,"155,119","163,403",cpp ,2
+Use cross-platform path separator for steam_api.h in CrySteamStats.h,2017-01-09,Closed,29,"223,346","216,375",,1
+Prevent segfault in DX12 renderer,2016-08-01,Closed,28,11,11,,1
+Update DeviceWrapper12.cpp,2017-01-09,Closed,27,"223,232","216,326",,1
+Three Mouse Position Nodes,2017-06-17,Closed,26,"5,875","12,720",txt cpp h ,10
+Multiple Camera rendering fixes,2017-06-17,Closed,25,"120,167","214,766",,1
+IFlashUI SendEvent variadic function,2017-06-17,Closed,24,"5,679","12,818",txt cpp h ,10
+Fix WAF configure failure if MSBUILD is at default location but VS at…,2017-03-30,Closed,23,"118,547","213,566",,1
+Fix heap corruption in physics IF deleting phys ents before 3D post r…,2016-09-27,Closed,22,"114,285","209,169",,1
+commented on SetTerrainElevation(),2016-08-31,Closed,21,9,1,,1
+error C4703,2016-08-31,Closed,20,2,2,,1
+extrection - > extraction,2016-06-12,Closed,19,1,1,,1
+Support lambdas in console commands,2017-01-09,Closed,18,"59,523","39,635",cpp ,2
+Fix console double paste issue,2017-06-17,Closed,17,"58,977","38,958",cpp ,2
+"Added null renderer checks to OpticsManager, FogVolumeRenderNode, and…",2017-06-17,Closed,16,"49,782","32,131",cpp ,3
+Fix case of dangling pointer use in RenderObject,2017-06-17,Closed,15,"45,414","30,073",cpp ,3
+Improved RayCast and RayCastCamera flow nodes.,2017-06-17,Closed,14,"49,686","32,078",cpp ,3
+Add 4 dpad buttons for MotionController,2016-06-05,Closed,13,57,20,h ,5
+fixed some typos,2016-06-12,Closed,12,21,21,,3
+"[BUGFIX][GNU/Linux] Compile errors, memory leaks ...",2017-06-17,Closed,11,"72,477","59,506",txt ,1
+(ActionMapManager) Forced controller device opt-in and added warning…,2017-06-17,Closed,10,"45,430","30,084",cpp ,3
+"Partial OS X Support - Engine launches and can run, no rendering (yet)",2017-06-17,Closed,9,"45,613","30,182",cpp ,3
+Zeph main,2016-05-25,Closed,8,40,11,cpp md ,2
+Rework road serialization to avoid full mesh regeneration in launcher,2016-09-29,Closed,7,"120,153","214,873",,1
+Fix new character instance processing ignoring full skeleton update,2016-09-27,Closed,6,"45,417","30,078",cpp ,3
+Fix manual seek usage in transition queue breaking animation events,2016-09-27,Closed,5,"45,416","30,073",cpp ,3
+CRYENGINE is,2016-05-25,Closed,4,1,1,,0
+Main-Daryl,2016-05-24,Closed,3,"42,778","19,731",txt cpp ,4
+Create LICENSE file,2016-05-24,Closed,2,198,0,,0
+Update README.md to explain what to do with SDKs.,2016-05-24,Merged,1,7,1,,0

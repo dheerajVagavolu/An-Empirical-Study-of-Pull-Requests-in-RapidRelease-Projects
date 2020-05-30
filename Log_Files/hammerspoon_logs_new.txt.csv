@@ -1,0 +1,722 @@
+Show images from chooser choices with their original colors,2020-01-11,Merged,2287,2,2,,2
+[DISCUSSION] Created FUNDING.yml,2020-01-08,Closed,2281,1,0,,1
+[READY] Added hs.relaunch(),2020-01-08,Merged,2279,14,0,,1
+[REVIEW] Added hs.random(),2019-12-23,Closed,2264,43,0,,1
+[REVIEW] Exposed cache controls to hs.http.doAsyncRequest/doRequest,2019-12-23,Merged,2263,33,9,,1
+[REVIEW] Added hs.window.timeout(),2019-12-23,Merged,2252,30,0,,1
+Added Homebrew install,2019-11-29,Merged,2247,4,0,,0
+[REVIEW] Added additional test globals to .luacheckrc,2019-11-29,Merged,2239,46,6,,1
+[REVIEW] adds hs.screen:setOrigin() method,2019-11-29,Merged,2237,71,8,lua ,3
+[REVIEW] Fixed crash in hs.application:getMenus(),2019-11-16,Closed,2233,17,12,,1
+Update itunes extension to support Catalina's Music app,2019-12-23,Merged,2232,7,2,,1
+[READY] Added an optional callback function to hs.image.imageFromURL,2019-11-01,Closed,2227,21,5,,1
+[READY] Added hs.plist.readString(),2019-12-23,Merged,2226,32,0,,1
+[NEED HELP] Fixed potential crash in hs.application:getMenuItems(),2019-11-07,Closed,2225,7,5,,1
+[NEED HELP] Disabled allowsVibrancy in hs.chooser,2019-11-16,Closed,2212,4,4,,4
+Updated to support Catalina Music.app,2019-12-23,Closed,2207,342,0,lua sh ,3
+[READY] Fixed potential crash in hs.chooser's cancel function,2019-10-03,Closed,2195,8,0,,1
+[REVIEW] Update build number before compile,2019-10-03,Merged,2191,15,9,plist ,2
+[READY] hs.updateAvailable() now returns the display version and build number,2019-09-22,Merged,2190,12,5,m ,3
+hs.expose: check for nil in windowUnfocused,2019-09-22,Merged,2184,5,2,,1
+[READY] Added hs.json.write() & hs.json.read(),2019-10-03,Merged,2182,115,0,,1
+"Fix hs.chooser placeholderText, minor fixes",2019-09-22,Merged,2181,12,17,,3
+[READY] Added hs.host.locale.localizedString(),2019-09-22,Merged,2174,61,8,,1
+[READY] Added ability to check for camera & microphone access,2019-09-22,Merged,2172,125,0,m ,2
+[READY] Fixed hs.fs.pathFromBookmark() from freezing when bookmarks are stale network shares,2019-09-22,Merged,2171,7,4,,1
+Update init.lua,2019-09-22,Closed,2168,1,1,,1
+[READY] add hs.bonjour module,2019-09-22,Merged,2165,"2,131",0,,0
+[READY] hs.doc speedify,2019-09-22,Closed,2159,"1,171",504,h m lua ,5
+[READY] Added hs.mouse.names(),2019-09-22,Merged,2158,32,0,,1
+remove check for docs.json file for IPC,2019-08-29,Closed,2156,3,11,,2
+[READY] skip unknown warnings during xcode10 build,2019-09-22,Merged,2155,2,0,,1
+[READY] Changed CFBundleVersion instances to CFBundleShortVersionString,2019-08-25,Merged,2153,3,2,sh ,2
+[READY] Added hs.mouse.count(),2019-08-25,Merged,2151,712,0,lua m txt ,3
+[READY] Updated hs.chooser documentation,2019-08-25,Merged,2150,2,1,,1
+[READY] Fixed various bugs in hs.uielement,2019-12-23,Merged,2149,7,5,,1
+[READY] Added hs.webview:isVisible(),2019-08-25,Merged,2148,22,0,,1
+[READY] Added hs.webview.toolbar.uniqueName(),2019-08-25,Merged,2147,18,0,,1
+Allow hs.eventtap.event.newMouseEvent() to accept mouseMoved,2019-09-22,Merged,2144,5,1,lua ,2
+[READY] Added hs.fs.pathToBookmark() & renamed hs.fs.pathFromBookmark(),2019-08-22,Merged,2143,19,12,,1
+[READY] Added `reload` parameter to `refreshChoicesCallback()`,2019-08-22,Merged,2142,9,3,,1
+fix error when triggering mouse event with modifier,2019-08-23,Merged,2140,2,2,lua ,2
+hs.task - check selfRef validity in stream callback,2019-08-21,Merged,2139,11,3,,1
+[READY] Convert hs.chooser into a non-activating NSPanel,2019-08-16,Merged,2138,11,11,h xib ,4
+Fix detached menus so they don't leave traces in menubar,2019-08-15,Merged,2133,76,41,m ,2
+Update init.lua,2019-08-15,Merged,2124,1,0,,1
+[NEED HELP] Make hs.chooser a non-activating NSPanel,2019-05-30,Closed,2094,12,12,h xib ,4
+[READY] Rework chooser ui,2019-05-04,Merged,2090,176,95,m h ,5
+[READY] Issue #2088 - Bug in hs.grid,2019-05-03,Merged,2089,2,2,,1
+Rework Prefs window to use AutoLayout,2019-05-03,Merged,2087,175,149,,0
+Target 10.12,2019-05-03,Merged,2086,"4,069","3,163",xcscheme h plist m ,8
+[READY] Issue #2067 - Made hs.chooser a non-activating NSPanel,2019-05-05,Closed,2083,11,9,h xib ,3
+[READY] Issue #2077 - nil error in hs.spoons,2019-05-04,Closed,2082,5,2,,1
+"Rigid following of stickler ""suggestions"" broke metatables for canvas elements",2019-04-11,Merged,2070,4,4,,1
+Fixed Typo in hs.webview.toolbar,2019-04-11,Merged,2066,1,1,,1
+"[WIP] Add support for hs.layout tables to include an options table, with initial options for respecting negative x/y co-ordinates as absolute screen co-ordinates. Closes #955",2019-08-15,Merged,2064,6,2,,1
+Fix some static analysis issues relating to hs.webview blocks not explicitly retaining self. # Requesting a pull to hammerspoon:master from cmsj:cleanup-application # # Write a message for this pull request. The first block # of text is the title and the rest is the description.,2019-04-01,Merged,2063,4,4,,1
+[READY] add toolbar support to hs.chooser,2019-05-04,Merged,2062,171,12,m ,6
+[READY] Issue #2020 - Fixed hs.json crash,2019-05-03,Merged,2061,17,16,,1
+[READY] Issue #2055 - Fixes hs.socket crash,2019-03-28,Merged,2060,26,20,,1
+[READY] hs.http post treat string body as data,2019-08-15,Merged,2059,19,11,,1
+[READY] Tangent Tweaks,2019-03-28,Merged,2051,5,7,,1
+[READY] Issue #2049 - hs.webview freezing,2019-03-28,Merged,2050,3,3,,1
+Fixed: `hs.builder.genComments` will now follow symlinked directories…,2019-03-28,Merged,2047,1,1,,1
+"In HSChooser's -hide, the error msg. should have ""didClose"", not ""willOpen""",2019-03-28,Merged,2045,1,1,,1
+"remove explicit -l""system"" args. from OTHER_LDFLAGS",2019-03-28,Merged,2044,3,3,,3
+configurable hs.hints icon alpha,2019-03-04,Merged,2035,19,13,m ,2
+Add some Spotify ID/URI functions,2019-01-30,Merged,2030,25,0,,1
+[READY] Add secure text prompt,2019-01-30,Merged,2027,14,3,,1
+[READY] Changes to hs.styledtext.loadFont,2019-01-30,Merged,2017,12,30,,1
+[READY] Tweak to hs.chooser,2019-01-05,Merged,2014,3,2,,1
+[READY] Cleanup _coresetup,2019-01-05,Merged,2013,30,23,,1
+[READY] Updated MIKMIDI to 1.7.0,2019-01-30,Closed,2009,"2,739","2,426",Podfile lock h m ,5
+Fix a typo,2018-12-27,Merged,2006,1,1,,1
+Add ForceToGray and InvertedPolarity to hs.screen,2018-12-27,Merged,2004,86,0,,1
+[READY] Issue #1572 - hs.fs.getPathFromBookmark,2018-12-27,Merged,2003,74,0,,1
+[READY] Issue #1598 - Changed hs.timer run mode,2018-12-27,Merged,2001,1,1,,1
+Fix focusWindowWest documentation typo,2018-12-27,Merged,1998,1,1,,1
+Issue #1986 - Fixes hs.webview Crash,2018-11-21,Merged,1988,20,20,,1
+Doc typo fix,2018-11-15,Merged,1985,1,1,,1
+Fix small issues/typos in docs,2018-12-08,Merged,1981,5,6,m ,4
+[READY] Issue #1876 - Updated refreshChoicesCallback() to take into account current query string,2019-08-22,Closed,1974,9,3,m ,3
+Cleanup extensions code,2018-10-31,Merged,1973,314,314,m c ,7
+Cleanup hs.expose,2018-10-31,Merged,1967,76,74,,1
+Cleanup hs.grid,2018-10-31,Merged,1966,20,20,,1
+wrap cstring->NSString shortcuts to prevent compile errors in Xcode 10,2018-10-16,Closed,1953,91,31,,2
+hs.midi docs: fix two nits,2018-10-16,Merged,1947,2,2,,1
+Issue #1941 - Removed Images.xcassets duplicate entries,2018-10-16,Closed,1943,2,4,,1
+Issue #1930 - Fixed hs.webview Crash,2018-10-16,Merged,1939,40,32,,1
+Issue #1926 - Fixed hs.task Crash,2018-10-16,Merged,1938,1,0,,1
+Fix typo in function name - resourcePath instead of resource_path,2018-10-16,Merged,1935,1,1,,1
+hs.webview Tweaks (Issue #1930),2018-09-05,Closed,1934,45,37,,1
+Tweaks to hs.tangent,2018-10-16,Merged,1933,44,35,,1
+hs.socket removed debugging,2018-09-05,Merged,1932,2,2,,1
+Updated Cocoa Pods,2018-10-16,Closed,1929,"1,826","1,846",Podfile lock framework/Versions/A/Crashlytics plist framework/submit framework/uploadDSYM Pods/Crashlytics/submit framework/Versions/A/Fabric Pods/Fabric/upload-symbols Pods/Fabric/uploadDSYM h m ,21
+Issue #1927 - hs.fs.dir() Documentation,2018-09-01,Merged,1928,16,5,,1
+Fixes hs.canvas & hs.image Memory Leaks,2018-10-16,Merged,1924,23,16,,2
+Removed hs.window.switcher from resources folder,2018-08-29,Merged,1920,0,2,,1
+Added links to @asmagill's templates,2018-10-16,Closed,1919,3,3,,0
+Added hs.styledtext.fontPath(),2018-10-16,Merged,1915,32,0,,1
+Fixed hs.dialog.alert in-line documentation,2018-10-16,Merged,1914,3,3,,1
+#1909 hs.inspect table bug,2019-01-30,Closed,1910,61,1,lua ,3
+Merge remote-tracking branch 'Hammerspoon/master',2018-07-19,Closed,1908,0,0,,0
+#1905 audiodevice watcher memory deallocation,2018-10-16,Merged,1906,1,0,,1
+Issue #1876 - Updated refreshChoicesCallback() to take into account current query string,2018-10-16,Merged,1903,13,7,m xib lua ,5
+Cleanup hs.styledtext,2018-07-08,Merged,1901,4,2,,1
+"Revert ""Cleanup hs.styledtext""",2018-07-07,Merged,1900,4,5,,1
+Cleanup hs.styledtext,2018-07-07,Merged,1890,5,4,,1
+*CL Addition* adds hs.styledtext.loadFont,2018-07-07,Merged,1885,45,0,,1
+*CL Addition* adds functions to get fonts by family name,2018-06-28,Merged,1882,132,20,m ,2
+Fixed bug in hs.chooser:refreshChoicesCallback(),2018-07-07,Merged,1880,3,0,,1
+Changed Hammerspoon's default notification style to an alert,2018-07-07,Merged,1879,2,0,,1
+Added hs.notify:alwaysShowAdditionalActions(),2018-07-07,Merged,1878,52,20,m ,2
+Added hs.styledtext.validFont(),2018-06-21,Merged,1875,26,0,,1
+"Add ""Dark Mode"" to hs.menubar (issue #1786)",2018-10-16,Merged,1874,27,5,,1
+Cleanup hs spoons,2018-06-18,Merged,1870,55,47,,1
+#1559 - Adds hs.image:colorAt(point),2018-06-14,Merged,1868,26,0,,1
+#1865 - Create Objects Above Fullscreen Windows,2018-07-07,Merged,1866,8,2,m ,3
+#1551 - Reduced hs.window.filter Console Messages,2018-06-13,Merged,1863,6,6,,1
+#1676 - Remove hs._TERMINATED,2018-06-13,Merged,1862,0,1,,1
+Cleanup hs.window,2018-10-16,Merged,1857,101,111,,3
+Cleanup hs.webview,2018-06-11,Merged,1856,6,6,,1
+Cleanup hs.watchable,2018-06-11,Merged,1855,4,11,,1
+Cleanup hs.utf8,2018-06-11,Merged,1854,3,6,,1
+Cleanup hs.uielement,2018-10-16,Merged,1853,1,1,,1
+Cleanup hs.tabs,2018-06-11,Merged,1852,14,15,,1
+Cleanup hs.styledtext,2018-06-11,Merged,1851,4,4,,1
+Cleanup hs.sqlite3,2018-06-11,Merged,1850,1,2,,1
+Cleanup hs.spotlight,2018-06-11,Merged,1849,2,2,,1
+Cleanup hs.spotify,2018-06-13,Merged,1848,4,4,,1
+Cleanup hs.spoons,2018-06-11,Merged,1847,3,3,,1
+Cleanup hs.socket,2018-06-11,Merged,1846,3,3,,1
+Cleanup hs.screen,2018-06-11,Merged,1845,3,3,,1
+Cleanup hs.redshift,2018-06-11,Merged,1844,1,1,,1
+Cleanup hs.network,2018-06-11,Merged,1843,8,8,,2
+Cleanup hs.mouse,2018-06-11,Merged,1842,8,11,,1
+Cleanup hs.mjomatic,2018-06-11,Merged,1841,4,4,,1
+Cleanup hs.milight,2018-06-11,Merged,1840,1,1,,1
+Cleanup hs.messages,2018-06-11,Merged,1839,1,1,,1
+Cleanup hs.location,2018-06-11,Merged,1838,11,11,,1
+Updated hs.tangent,2018-06-21,Merged,1837,"1,288","1,286",,1
+Cleanup cleanup-osascript,2018-06-07,Merged,1836,3,2,,1
+Cleanup cleanup-layout,2018-06-07,Merged,1835,3,4,,1
+Cleanup cleanup-itunes,2018-06-07,Merged,1834,1,1,,1
+Cleanup cleanup-ipc,2018-06-11,Merged,1833,20,20,,1
+Cleanup cleanup-image,2018-06-11,Merged,1832,0,4,,1
+Cleanup cleanup-httpserver,2018-06-11,Merged,1831,19,21,,2
+Cleanup cleanup-http,2018-06-07,Merged,1830,1,1,,1
+Cleanup cleanup-hotkey,2018-06-07,Merged,1829,5,5,,1
+Cleanup cleanup-host,2018-06-11,Merged,1828,2,3,,2
+Cleanup cleanup-hints,2018-06-07,Merged,1827,3,4,,1
+Cleanup cleanup-grid,2018-10-16,Closed,1826,20,19,,1
+Cleanup cleanup-geometry,2018-06-07,Merged,1825,1,2,,1
+Cleanup cleanup-fs,2018-06-07,Merged,1824,1,1,,1
+Cleanup cleanup-fnutils,2018-06-11,Merged,1823,4,4,,1
+Cleanup cleanup-expose,2018-10-16,Closed,1822,77,74,,1
+Cleanup cleanup-eventtap,2018-06-07,Merged,1821,4,4,,1
+Cleanup cleanup-drawing,2018-06-07,Merged,1820,9,12,,2
+Cleanup cleanup-doc,2018-06-11,Merged,1819,41,42,,4
+Cleanup cleanup-dialog,2018-06-07,Merged,1818,1,1,,1
+Cleanup cleanup-crash,2018-06-07,Merged,1817,1,2,,1
+Cleanup cleanup-coresetup,2018-06-07,Merged,1816,8,8,,1
+Cleanup cleanup-console,2018-06-07,Merged,1815,3,3,,1
+Cleanup cleanup-canvas,2018-06-07,Merged,1814,11,10,,1
+Cleanup cleanup-battery,2018-06-07,Merged,1813,2,5,,1
+Cleanup cleanup-audiodevice,2018-06-07,Merged,1812,1,4,,1
+Cleanup Application Extension,2018-06-07,Merged,1811,5,5,,1
+Cleanup hs.osascript,2018-06-07,Closed,1803,3,2,,1
+Add hs.hid.led to control LEDs on the keyboard,2019-07-09,Merged,1802,179,0,lua m ,4
+Better docs.,2018-06-07,Closed,1791,32,2,,0
+Cleanup hs.layout,2018-06-07,Closed,1778,3,4,,1
+Cleanup hs.itunes,2018-06-07,Closed,1777,1,1,,1
+Cleanup hs.ipc,2018-06-07,Closed,1776,20,20,,1
+Cleanup hs.image,2018-06-07,Closed,1775,0,4,,1
+Cleanup hs.httpserver,2018-06-07,Closed,1774,19,21,,2
+Cleanup hs.http,2018-06-07,Closed,1773,1,1,,1
+Cleanup hs.hotkey,2018-06-07,Closed,1771,5,5,,1
+Cleanup hs.host,2018-06-07,Closed,1770,2,3,,2
+Cleanup hs.hints,2018-06-07,Closed,1769,3,4,,1
+Cleanup hs.grid,2018-06-07,Closed,1768,20,19,,1
+Cleanup hs.geometry,2018-06-07,Closed,1767,1,2,,1
+Cleanup hs.fs,2018-06-07,Closed,1766,1,1,,1
+Cleanup hs.fnutils,2018-06-07,Closed,1765,4,4,,1
+Cleanup hs.expose,2018-06-07,Closed,1764,77,74,,1
+Cleanup hs.eventtap,2018-06-07,Closed,1763,4,4,,1
+Cleanup hs.drawing,2018-06-07,Closed,1762,9,12,,2
+Cleanup hs.doc,2018-06-07,Closed,1761,41,42,,4
+Cleanup hs.dialog,2018-06-07,Closed,1760,1,1,,1
+Cleanup hs.crash,2018-06-07,Closed,1759,1,2,,1
+Cleanup hs.console,2018-06-07,Closed,1758,3,3,,1
+Cleanup hs.canvas,2018-06-07,Closed,1757,11,10,,1
+Cleanup hs.battery,2018-06-07,Closed,1756,2,5,,1
+Cleanup hs.audiodevice,2018-06-07,Closed,1755,1,4,,1
+Cleanup hs.application,2018-06-07,Closed,1754,5,5,,1
+Cleanup hs._coresetup,2018-06-07,Closed,1753,8,8,,1
+Issue #1751 - Fixed Typos in `hs.menubar:isInMenuBar()`,2018-06-07,Closed,1752,2,2,,1
+Add hs.chooser.globalCallback and refactor hs.chooser to be able to support it,2018-06-21,Merged,1750,182,69,m lua ,4
+"Add Lua stack guarding functions to all C->Lua entrypoints, since they must have zero side-effects on the stack",2018-04-10,Merged,1733,282,35,m h ,10
+[READY] Updated MIKMIDI Framework,2018-04-03,Merged,1711,27,24,lock m h ,7
+[READY] Issue #1708 - Fixed callback bug in hs.tangent,2018-04-03,Merged,1709,313,17,,0
+[READY] Update .luacheckrc,2018-04-03,Merged,1707,16,2,,1
+[NEEDS REVIEW] Fixed Lua Lint Errors in Hammerspoon Extensions,2018-04-04,Closed,1702,402,427,,9
+Update .luacheckrc,2018-03-03,Merged,1701,1,1,,1
+importScriptFile now filters out a shebang if it's present  (closes #1696),2018-03-01,Merged,1699,2,0,,1
+Add Fade in/out duration to hs.alert,2018-03-01,Merged,1692,12,8,,1
+Updated MIKMIDI & Documentation Tweaks,2018-03-01,Merged,1685,"2,185","1,607",lock h json m ,20
+Feature/mikmidi fixes,2018-02-07,Closed,1677,"1,381",460,xcscheme plist sdef xib ,6
+"Switch LuaSkin initialisation to allow for setting the delegate extremely early - before Lua is bootstrapped, so we can always have a logging delegate available.",2018-02-03,Merged,1668,53,8,m ,5
+Fix up some static analysis issues found by Xcode,2018-01-31,Merged,1666,2,4,,3
+Tweaks to hs.hints,2018-01-31,Merged,1663,1,1,,1
+adding HID extension support to toggle and query capslock,2018-01-31,Merged,1661,423,0,xcsettings xcscheme ,3
+Fixed Documentation Formatting,2018-01-31,Merged,1659,4,2,,1
+Virtual midi,2018-01-15,Closed,1649,"1,416",353,xcsettings xcscheme plist sdef xib ,7
+[READY] Issues #1644 & #1636 - Adds support for Virtual MIDI Devices in hs.midi,2018-01-31,Merged,1648,363,88,,1
+[READY] Issues #1644 & #1636 - Adds support for Virtual MIDI Devices in hs.midi,2018-01-15,Closed,1645,"1,416",353,xcsettings xcscheme plist sdef xib ,7
+hs.keycodes - Fix input source switch failure in case of input method has the same bundle ID with parent,2018-03-03,Merged,1643,14,3,,1
+[READY] Issue #1636 - Updated hs.midi Documentation,2018-01-15,Closed,1637,11,4,m ,2
+[READY] Issue #1626 - hs.tangent - Add support for Tangent Panels & iPad App,2018-01-31,Merged,1633,"1,523",0,,1
+move webview load checks back to main thread,2018-01-14,Merged,1632,6,6,,1
+Issue #1422 - hs.midi Extension,2017-12-25,Closed,1629,"23,581",739,Podfile lock h ,125
+"Try switching NSData conversion options to basically not happening at all, in hs.socket",2017-12-27,Closed,1628,4,4,,1
+Add a default toolbar to hs.console. Closes #1475,2017-12-24,Merged,1625,19,0,,1
+Update .stickler.yml,2017-12-20,Merged,1622,1,0,,1
+Update documentation on interactive grid,2017-12-20,Merged,1621,26,1,,1
+Added hs.window.minimizedWindows() to quickly get all minimized windows,2017-12-11,Closed,1617,36,1,lua ,2
+Extended hs.osascript with functions to execute as/js from a file,2017-12-11,Closed,1616,54,1,lua ,2
+Enable Sticker-CI's luacheck and make a noop change to a Lua file to trigger it,2017-12-04,Closed,1613,3,0,lua ,2
+support hs.alert at top/bottom edge of screen,2017-11-22,Merged,1599,18,7,,2
+hs.styledtext -- adds 10.11 addition to NSParagraphStyle for tightening before truncation,2017-11-19,Merged,1597,11,12,m ,2
+[READY]: Issue #1422 - New hs.midi Extension,2017-12-25,Closed,1593,"24,753","1,055",xcsettings xcscheme plist sdef xib ,7
+add `noaction` command to hs.window.layout,2017-11-22,Merged,1589,21,8,,2
+Updated Credits,2017-10-25,Merged,1585,5,4,,0
+Updated License Date & Link,2017-10-25,Merged,1584,1,1,,1
+Fixed Typo,2017-10-16,Merged,1582,1,1,,1
+disable the dropping of default.profraw,2017-10-25,Merged,1579,4,3,,1
+Add new functions and methods to hs.notify,2017-11-19,Merged,1578,362,99,,1
+Fixed Typo,2017-10-10,Merged,1571,1,1,,1
+[READY]: Issue #1561 - hs.dialog improvements,2017-11-19,Merged,1570,32,13,,1
+Fixed Typo,2017-10-04,Merged,1565,1,1,,1
+Fix caffeinate.startScreensaver() to work under High Sierra,2017-10-04,Merged,1562,1,1,,1
+CL: *BugFix* wraps hs.reload so it doesn't crash when invoked through hs.ipc cli tool,2017-11-19,Merged,1556,10,1,,1
+[HELP NEEDED] Issue #1528 - Add hs.dialog.font,2019-05-08,Closed,1545,265,0,m ,2
+Add hs.urlevent.openURL(). Closes #1443,2017-09-15,Merged,1543,21,0,,1
+add KVO watcher for hs.settings,2017-09-15,Merged,1542,125,6,,1
+Add hs.mouse.scrollDirection(). Closes #1536,2017-09-15,Merged,1541,19,0,,1
+Lua skin additions per #1533,2017-09-15,Merged,1539,109,5,m ,2
+Add hs.streamdeck - full support for Elgato Stream Deck,2017-09-15,Merged,1532,"1,226",17,xcscheme h m extensions/streamdeck/LICENSE ,7
+allow hs.application:getMenuItems on a background thread,2017-09-15,Merged,1529,38,11,,1
+Issue #1528 - hs.dialog.font - Add Font Panel Support,2017-09-15,Merged,1527,"1,370",1,extensions/dialog/LICENSE ,2
+Issue #1324 - AppleScript should raise an error if Lua code has errors,2017-09-15,Merged,1526,71,12,m lua ,4
+adds hs.host.gpuVRAM,2017-09-04,Merged,1525,68,0,,1
+Fix setStreamingCallback name in docs and logs,2017-08-31,Merged,1523,5,5,,1
+Update documentation for hs.network.configuration:setLocation,2017-08-31,Merged,1521,4,3,,1
+Changed Lua copyright date from 2015 to 2017,2017-09-01,Merged,1518,2,2,,1
+"Issue #1321 - Support for Dark Windows in Console, Preferences & hs.webview",2017-09-06,Merged,1516,190,1,h lua lp ,12
+hs.fs.tag additions,2017-09-02,Merged,1515,611,19,,1
+hs.notify.warnAboutMissingFunctionTag can be a function,2017-08-31,Merged,1514,13,3,,1
+Add API for focusing OSX tabs,2017-08-31,Merged,1513,117,0,,1
+Fix double margin between windows when using grid,2017-08-18,Merged,1508,24,0,,1
+Issue #1227 - Initial Release of hs.dialog,2017-09-15,Merged,1504,"1,105",1,extensions/dialog/LICENSE ,2
+clean up missing other/middle click changes in hs.eventtap,2017-08-23,Merged,1495,42,15,lua ,2
+Bug fixes to ipc v2,2017-08-23,Merged,1491,6,5,lua ,2
+Blacklist Macafee reporter,2017-07-07,Merged,1483,1,1,,1
+base64.encode triggers tostring for non-string input,2017-07-17,Merged,1478,7,5,m ,2
+remove spoons/init.lua from Hammerspoon target,2017-07-02,Merged,1477,0,2,,1
+canvas: add percentage conversion fallback,2017-07-13,Merged,1459,11,1,,1
+Logging updates to LuaSkin,2017-08-23,Merged,1457,54,154,m ,5
+Documentation updates for mouse click events in drawing and canvas,2017-06-30,Merged,1445,5,0,,2
+adds hs.hotkey.assigned,2017-08-17,Merged,1444,118,2,m ,2
+hs.ipc v2,2017-07-17,Merged,1439,"1,566",425,c ,2
+Additions to hs.spoons for checking and configuring spoons,2017-05-22,Merged,1427,109,1,sh ,3
+Added concept of Spoon repositories and installation functions,2017-05-16,Closed,1420,375,0,,1
+Updated hs.task Documentation,2017-05-10,Closed,1419,3,0,,1
+Don't assume that we can always make a UTF8 string out of the HTTP re…,2017-05-10,Merged,1416,19,11,,1
+hs.patchwatcher: Pass event flags to a callback function in addition to changed files,2017-05-10,Merged,1412,71,3,,1
+adds hs.host.idleTime,2017-05-10,Merged,1410,65,0,,1
+Fix handling of parameters in hs.pasteboard.readString(),2017-05-10,Merged,1409,84,36,,1
+New hs.spoons module,2017-05-10,Closed,1405,"1,238",124,m lua lp ,5
+Fixes hs.pasteboard Documentation,2017-05-10,Merged,1398,2,2,,1
+hs.eventtap.event additions,2017-08-17,Merged,1396,397,94,,0
+Add otherMouse... events to hs.eventtap.event,2017-06-30,Closed,1386,6,0,,1
+Updated hs.application:selectMenuItem() Documentation,2017-05-02,Merged,1381,1,1,,1
+Allows an hs.canvas to accept drag-and-drops,2017-05-10,Merged,1379,139,2,m lp lua ,5
+Tweaks to build_docs.py,2017-06-30,Merged,1375,3,2,,1
+programmatically select searchfield for text input,2017-05-10,Merged,1374,59,7,m ,2
+add hs.image:encodeAsURLString,2017-05-10,Merged,1373,184,34,,1
+Push values for relocatable key codes only if translation succeeds,2017-04-25,Merged,1370,14,14,,1
+Add a root .editorconfig,2017-05-02,Merged,1369,13,0,,1
+adds in page search for hsdocs web pages for module details,2017-05-10,Merged,1367,300,26,lp ,5
+console is now fully themeable,2017-05-03,Merged,1363,145,21,m ,4
+Webview movement,2017-04-24,Merged,1359,114,2,lua ,3
+Added Shortcut to Trash Preferences,2017-05-22,Merged,1349,27,1,,1
+Refactor hs.doc and add support for Spoon bundles,2017-04-23,Closed,1347,854,"1,144",lua m lp ,9
+Added force option to hs.ipc.cliUninstall,2017-04-23,Closed,1344,6,4,,1
+Option to Disable Open Console when clicking Dock Icon,2017-04-19,Closed,1343,63,1,h lua ,7
+Release/1.0.0 beta.1,2017-04-18,Closed,1341,"1,129",983,xcsettings xcscheme plist sdef xib ,7
+Save Console Location - Issue #1338,2017-04-18,Merged,1340,3,1,,1
+Save Console Location - Issue #1338,2017-04-18,Closed,1339,"1,119",973,xcsettings xcscheme plist sdef xib ,7
+Fix the key name for kVK_ANSI_Quote in the kTISPropertyUnicodeKeyLayoutData fallback table,2017-04-18,Merged,1332,1,1,,1
+Make checking return value of hs.eventtap.event:getFlags() easier,2017-04-21,Merged,1327,86,1,h ,3
+Added Callback for when Text or Files are dropped onto the Hammerspoon Dock Icon,2017-04-11,Closed,1320,123,11,plist m h lua ,6
+hs.alert: handle multiple screens better,2017-04-12,Merged,1318,11,4,,1
+add hs.host.locale submodule,2017-04-13,Merged,1317,673,2,lua ,2
+Markdown tweaks,2017-04-11,Merged,1316,27,33,md ,1
+hs.urlevent Tweaks,2017-04-11,Merged,1312,10,7,m ,2
+Add AppleScript Dictionary to Hammerspoon,2017-04-12,Closed,1306,"1,514",896,xcsettings xcscheme h ,5
+add 10.12 images to hs.images.systemImageNames,2017-04-12,Merged,1302,302,59,,0
+Add modifier keycodes to hs.keycodes.map,2017-04-12,Merged,1301,15,1,m ,2
+add `willClose` to hs.webview navigation callback,2017-04-13,Merged,1299,161,38,h ,2
+add `interface` to hsminweb and hsdoc,2017-04-04,Merged,1297,86,14,,2
+Added hs.accessibilityStateCallback,2017-04-04,Merged,1288,33,0,h lua ,4
+Added hs.uploadCrashData(),2017-04-04,Closed,1286,22,0,,1
+add makeConstantsTable to luaskin builtin lua table `ls`,2017-04-02,Merged,1284,167,864,,5
+hs.noises use internal queue for internal callback,2017-04-02,Merged,1281,1,1,,1
+Feature/issue 10,2017-03-26,Closed,1273,"1,134",890,xcsettings xcscheme xib ,5
+"add support for color = { hex = ""#ffffff"" } to hs.drawing.color",2017-04-02,Merged,1272,40,8,m ,2
+Improve pasteboard management,2017-04-02,Merged,1266,90,9,m ,2
+Add methods to hs.chooser for user customization,2017-03-23,Merged,1264,85,0,m ,3
+Update VOX api,2017-03-14,Merged,1256,3,3,,1
+Adopt new Vox Applescript dictionary (fixes #1250),2017-03-14,Closed,1251,1,1,,1
+Enable scrolling with Ctrl-P/N/V and PageUp/PageDown in chooser,2017-03-23,Merged,1249,30,0,,2
+properly sample cpu ticks with `hs.host.cpuUsage`,2017-03-15,Merged,1246,172,83,,1
+#5 - hs.urlevent update,2017-02-23,Closed,1237,352,884,xcsettings xcscheme xib ,5
+hs.wifi.watcher: use old style notifications for CWInterface,2017-03-15,Merged,1225,144,79,,1
+Fix accessing nil hs.application:name,2017-03-15,Merged,1218,6,2,,1
+Match iTunes previous() method with expected behaviour.,2017-03-15,Merged,1217,1,1,,1
+Add getDuration() to itunes and spotify extensions.,2017-03-15,Merged,1213,45,3,,3
+added print table to core,2017-01-22,Closed,1203,46,0,,1
+Pass the menu item table to the item callback.,2017-03-15,Merged,1198,7,1,,1
+allow referencing of canvas element by id in lua code,2017-01-27,Merged,1195,22,7,,1
+fallback to ANSI Standard US Keyboard layout in map,2017-03-15,Merged,1194,65,2,,1
+Allow entries in hs.layout.apply to be functions,2017-03-14,Merged,1189,18,6,,1
+Change how keycodes are mapped,2017-01-26,Merged,1172,2,2,,1
+Alert with more style,2017-01-27,Merged,1167,50,21,m ,2
+Add JIS key codes,2017-01-26,Closed,1165,7,0,,1
+Let `hs.chooser` match macOS configured theme (light/dark),2016-12-26,Closed,1159,49,5,m ,3
+Start work enhancing API docs,2016-12-23,Closed,1157,848,465,Makefile lua txt scripts/docs/Gemfile lock md ,9
+[WIP] Replacement docstring processor,2017-01-06,Closed,1155,813,465,Makefile lua txt scripts/docs/Gemfile lock md ,9
+hs.chooser ensure correct types for choices keys during display and search,2016-12-24,Merged,1154,38,19,,2
+hs.webview and -999 errors,2016-12-24,Merged,1153,76,30,,2
+modernize hs.wifi and hs.wifi.watcher,2016-12-24,Merged,1152,510,191,m ,2
+Add hs.canvas,2016-12-24,Merged,1146,"6,638",0,h m ,3
+add ability to encode/decode NSKeyedArchiver,2016-12-24,Merged,1141,152,61,,1
+additions to hs.chooser,2016-12-24,Merged,1140,58,16,m ,5
+address some inconsistencies in hs.eventtap.event.newKeyEvent,2016-12-15,Merged,1139,48,9,lua ,2
+image additions,2016-12-15,Merged,1135,151,56,m ,2
+add hs.watchable per #1116,2016-12-15,Merged,1132,300,0,lua sh ,3
+Chooser cell type for choice with no subtext,2016-12-15,Merged,1129,72,29,,1
+Added the ability to add shadow to the webview windows,2016-12-11,Merged,1124,24,0,,1
+Add radius as a styling option for hs.alerts.,2016-12-09,Merged,1117,3,1,,1
+Luaskin table w call,2016-12-09,Merged,1108,54,0,m ,3
+Add 'hs.deezer',2016-12-11,Merged,1099,324,0,lua sh ,3
+Port LuaCocoa's ObjC exception handler and add hs.crash.throwObjCException() to test it,2016-11-29,Merged,1094,294,3,h m c ,6
+hs.spotlight module,2016-12-11,Merged,1090,"2,113",1,,1
+Add delay option on keyStroke function,2016-11-18,Closed,1085,32,12,,1
+Add hs.network.ping,2016-11-21,Merged,1084,"2,670",3,lua extensions/network/ping/LICENSE SimplePing h ,5
+hs.network.ping submodule,2016-11-15,Closed,1077,"2,619",3,lua extensions/network/ping/LICENSE SimplePing h ,5
+feat(LuaExtension): Extension for VOX,2016-11-14,Merged,1076,334,0,lua sh ,3
+hs.location.geocoder and region monitoring,2016-11-14,Merged,1075,"1,366",204,lua ,2
+`setMuted` now returns `true` on success,2016-11-07,Merged,1072,1,1,,1
+add hs.sharing module,2016-11-08,Merged,1071,"1,085",0,,1
+add :setLocation(),2016-11-14,Merged,1069,92,0,,1
+raw data read/write to pasteboard,2016-11-08,Merged,1067,203,8,,1
+nit,2016-11-02,Merged,1066,1,1,,1
+add :locations() to hs.network.configuration,2016-11-02,Merged,1065,37,0,,1
+add minimal style attrbutes to hs.alert,2016-11-08,Merged,1064,76,18,,1
+Fix hs.eventtap.event:setProperty can not take 64 bits value.,2016-10-26,Merged,1044,1,1,,1
+Support colour images as menubar icons.,2016-10-13,Merged,1038,10,5,m ,2
+hs.keycodes additions,2016-10-13,Merged,1033,129,77,,1
+JSON decode uses LuaSkin to create NSData,2016-10-13,Merged,1032,22,15,,1
+detect bad role type in is_window,2016-10-13,Merged,1031,60,19,,1
+make sure pasteboardItems isn't cleared between subsequent message calls,2016-10-13,Merged,1024,3,2,,1
+keycodes extension: add currentMethod(),2016-09-27,Merged,999,30,0,,1
+"Fix two hs.screen GC bugs - screen_gc wasn't actually releasing hs.screen userdata objects, screens_gc was expecting userdata even though it's a module level function",2016-09-28,Merged,998,1,4,,1
+fix hotkey.bind return value,2016-09-27,Merged,988,2,1,,1
+regressing uielement,2016-09-27,Merged,986,13,17,,1
+Console input field resizes properly in 10.12,2016-09-27,Merged,982,85,14,lua ,5
+Fixed typo in hs.notify.register,2016-09-09,Merged,981,1,1,,1
+hs.logger: add control over id display in logs,2016-08-29,Merged,968,27,2,,1
+add docs re credentials and sync requests,2016-08-27,Merged,967,16,0,m ,2
+network additions,2016-08-26,Merged,966,242,28,lua ,4
+add indefinite duration option to hs.alert,2016-08-26,Merged,964,144,476,,1
+Allow __call metatable backed module in hotkey binds,2016-08-27,Closed,962,23,7,,1
+URL escape the file URLs we create ourselves. Fixes #756,2016-08-23,Merged,952,1,0,,1
+Hints max title size,2016-08-23,Merged,942,11,2,,1
+Add module for mouth noise detection,2016-08-23,Merged,936,"1,038",0,pbxproj extensions/noises/LICENSE cpp ,4
+Color patterns,2016-07-16,Merged,931,48,24,lua ,4
+Console tweaks,2016-06-21,Merged,921,28,6,lua ,2
+[WIP] webview additions,2016-06-30,Merged,920,"5,318",637,lua ,3
+hs.menubar fix for issue #909,2016-06-02,Merged,910,5,1,,1
+client websockets in hs.http,2016-06-16,Merged,900,"8,098","1,268",Podfile lock h Pods/PocketSocket/LICENSE ,18
+add websocket capability to hs.httpserver,2016-05-20,Merged,896,126,15,,1
+release retained CFStringRef in imageFromMediaFile,2016-05-20,Merged,895,4,3,,1
+uielement and timer tweaks,2016-05-29,Merged,892,192,77,h lua ,19
+fix typo in redshift,2016-05-20,Merged,890,1,1,,1
+update spotify/itunes state constants after 1c11a0c,2016-05-20,Merged,877,6,6,,2
+Hammerspoon Documentation Web Server,2016-06-16,Merged,876,"10,318",47,h m lua ,4
+allow transparency in hs.webview,2016-04-22,Merged,874,31,2,,1
+add clippingRectangle to drawings,2016-04-22,Merged,872,152,6,m ,2
+tests for hs.uielement,2016-05-20,Merged,870,134,0,pbxproj lua ,3
+small windowswitcher tweaks as per #856,2016-04-18,Merged,869,5,4,,1
+allow hs.grid to use user-supplied frame (per screen),2016-04-15,Merged,866,52,9,,1
+work around circular dependency between application and window,2016-04-15,Merged,865,70,68,,2
+hs.notify - Small doc improvement,2016-04-15,Merged,864,6,0,,1
+add active screen watcher,2016-04-15,Merged,863,63,13,,1
+hs.wifi fix for #859,2016-04-15,Merged,862,52,6,,1
+resize console input field for history items,2016-04-14,Closed,860,5,2,,2
+Get path of hs.application objects,2016-04-14,Merged,858,162,3,pbxproj lua ,6
+add requestheaders to hs.httpserver callback,2016-04-08,Merged,852,156,18,,3
+"add window:centerOnScreen(), enhance window:moveToScreen(), add screen:localToAbsolute()",2016-04-05,Merged,850,92,28,,3
+add LS_TTYPEDTABLE to checkArgs:,2016-04-08,Merged,847,18,1,m ,2
+fix #845,2016-03-26,Merged,846,1,1,,1
+hs.speech updates,2016-03-24,Merged,844,69,205,,1
+[WIP] window.filter improvements,2016-03-17,Closed,839,191,74,,0
+[WIP] add attributedTitle support and priority positioning to hs.menubar,2016-03-22,Merged,838,448,13,m ,3
+Completed description info for hs.keycodes extension,2016-03-14,Merged,836,1,1,,1
+fix symbol resolution in hs cli,2016-03-10,Merged,828,4,0,,1
+add lua-stdlib,2017-03-15,Closed,826,"6,029",1,Makefile md lua ,4
+[WIP] luaTable mapping to NSObject support,2016-03-23,Merged,825,409,242,,1
+add ability to set identity image for notification,2016-03-09,Merged,824,69,0,m ,2
+Fix hs.notify.show() subTitle display,2016-03-07,Merged,822,157,150,,0
+add xcpretty to travis builds won't fail from sheer log size,2016-03-03,Merged,820,2,2,,1
+use assertIsAlmostEqual for audiodevice tests so they pass,2016-03-02,Merged,819,3,3,,1
+hs.fs tests and refactoring,2016-03-02,Closed,817,941,794,pbxproj lua ,3
+enable strict building for LuaSkin,2016-03-02,Closed,814,20,10,h m ,3
+[READY] update podfile and rerun pod install,2016-02-28,Closed,813,"2,258","1,469",framework/Versions/A/_CodeSignature/CodeResources framework/submit framework/uploadDSYM pbxproj h m Podfile lock markdown ,13
+[WIP] LuaSkin additions,2016-03-02,Merged,812,248,52,,1
+"Streamline Frameworks, Pods, and Build Settings",2016-02-28,Closed,811,"4,174","9,763",framework/Versions/A/_CodeSignature/CodeResources framework/submit framework/uploadDSYM pbxproj h m Podfile lock markdown ,14
+fix bugs in vimperator hint mode,2016-08-23,Merged,807,20,13,,1
+hs.osascript with NSAppleEventDescriptor parsing,2016-03-02,Merged,806,846,858,pbxproj lua ,6
+use hs.logger in LuaSkin log handling,2016-02-26,Merged,805,128,19,m lua ,3
+add imageFromMediaFile constructor to hs.image,2016-03-02,Merged,804,92,1,,1
+suppress excessive GNU statement expression warnings,2016-02-26,Closed,803,1,3,m ,4
+Allow floats when setting audio device volume.,2016-02-26,Closed,802,2,2,,1
+Interactive grid,2016-03-22,Merged,800,207,14,,1
+add CSS so markdown tables don't blow up inside of docstrings,2016-02-23,Merged,796,1,0,,1
+Add optional duration parameter to hs.alert.closeAll.,2016-02-16,Merged,795,26,6,,1
+add timeout argument to hs cli tool,2016-02-16,Merged,794,9,3,man ,2
+[READY] hs.socket,2016-03-03,Merged,791,"3,498",14,,1
+"Grid, add pure move; Closes #716",2016-02-16,Merged,787,14,4,,1
+add clickability for hs.tabs,2016-02-23,Merged,785,9,6,,1
+add some tests for hs.javascript,2016-02-08,Merged,780,128,0,pbxproj lua ,3
+Update CONTRIBUTING.md with helpful self-signing rebuild script,2016-02-08,Merged,778,27,0,,0
+add hs.network submodules,2016-02-16,Closed,773,"2,410",72,lua m ,7
+integerize args to os.time in hs.location sunrise/set calcs,2016-02-03,Merged,772,1,1,,1
+Reset accumulated data upon new http response in accordance with docs,2016-02-08,Merged,769,7,0,,1
+Fix some autocomplete annoyances,2016-02-08,Merged,768,15,6,lua ,2
+Autocomplete: Show nothing if nothing to show,2016-01-27,Merged,763,4,1,,1
+reset accumulated data upon new response in accordance with docs,2016-01-29,Closed,762,7,0,,1
+add hs.fs.fileUTI,2016-02-08,Merged,758,23,0,,1
+[WIP] add image names from #752,2016-02-08,Merged,757,640,25,,1
+Luaskin userdata struct abstraction,2017-01-06,Closed,747,349,176,m ,4
+[wip] hs.pasteboard additions,2016-01-25,Merged,744,538,62,,1
+hs.image updates,2016-01-25,Merged,743,102,45,,1
+hs.menubar updates,2016-01-25,Merged,742,150,19,m ,2
+hs.styledtext updates,2016-01-25,Merged,741,70,6,m ,2
+hs.sound updates,2016-01-25,Merged,740,399,265,,0
+fix nullPtr crash when attempting to set non-image to pasteboard as image,2016-01-18,Merged,733,4,3,,2
+LuaSkin updates missed in recent merge,2016-01-14,Merged,725,23,32,m ,2
+Add hs.chooser,2016-01-13,Closed,720,"3,058",776,xcscheme h m ,4
+"Add ""Run in Hammerspoon"" to OS X Services menu",2016-01-14,Closed,717,77,0,h m ,3
+[WIP] Lua skin error refactor plus713,2016-01-13,Closed,714,"1,284",786,m ,2
+"Add support for mapping userdata tags to NSObject subclasses, allowin…",2016-01-13,Closed,713,35,2,m ,3
+More event types for hs.caffeinate.watcher,2016-01-13,Merged,710,140,26,,1
+Fix documentation typos,2016-01-04,Merged,709,7,7,lua ,2
+[WIP] Lua skin error refactor,2016-01-13,Closed,705,"1,244",770,m ,2
+[READY] add hs.logger history stuff,2015-12-26,Merged,704,179,62,,2
+"[WIP] menubar, styledtext, image additions",2016-01-20,Closed,703,"1,173",340,lua ,2
+"[READY] (undocumented) additions to hs.spotify, hs.itunes",2015-12-22,Merged,702,53,17,,2
+Add support for hs.task tasks to run indefinitely,2015-12-23,Merged,701,164,5,m ,3
+"[READY] hs.window.switcher, hs.window.highlighter, various improvements",2016-03-23,Merged,700,"1,116",240,,1
+WIP hs.doc update,2015-12-25,Merged,696,10,1,,1
+hs.settings handle when 2nd arg to set is missing,2015-12-19,Merged,695,29,11,,1
+[WIP] Manual/automatic brightness/contrast control of external screens via ddcctl,2017-03-15,Closed,694,292,7,,1
+"Revert ""Revert ""[WIP] window.filter fixes/improvements""""",2015-12-15,Merged,692,233,85,,0
+"Revert ""[WIP] window.filter fixes/improvements""",2015-12-15,Merged,691,85,233,,0
+[READY] add hs.redshift,2015-12-21,Closed,688,438,16,,1
+[READY] setInput for hs.task,2015-12-25,Closed,686,86,1,,1
+[READY] Wifi,2015-12-15,Merged,685,639,14,,1
+[READY] hs.expose rewrite for better responsiveness (needs #678),2015-12-15,Merged,680,756,411,,0
+"[READY] add timer.doAt(), timer.delayed",2015-12-15,Merged,679,219,24,,1
+[WIP] window.filter fixes/improvements,2015-12-15,Merged,678,233,85,,0
+Reordered log message before the msg is deleted,2015-12-15,Merged,677,1,1,,1
+[READY] better arc for hs.drawing,2015-12-15,Merged,673,71,49,lua m ,3
+[READY] webview hands off unrecognized schemes to OS,2015-12-15,Merged,671,259,206,,0
+[READY] workaround for desktop window taking over after fnd_wnd:focus(),2015-12-15,Merged,670,18,2,,1
+[READY] adding speech synth and recognizer modules,2015-12-20,Merged,667,"2,161",1,m extensions/speech/LICENSE lua ,4
+hs.grid,2015-12-01,Merged,666,10,12,,1
+"fix #658, run through clang-format per #641",2015-11-28,Merged,660,"1,460","1,149",,0
+Slightly increase LuaSkin test coverage,2015-12-01,Merged,657,26,1,,2
+adding arc drawing type for partial circles,2015-11-26,Merged,656,186,18,m ,2
+add setCallback to task to allow replacing/disabling callback,2015-11-26,Merged,654,33,1,,1
+adding hs.console module,2015-11-28,Merged,653,636,1,,1
+fix crash on invalid utf8,2015-11-20,Merged,649,26,8,lua ,3
+added some methods to hs.task,2015-11-24,Merged,646,228,19,,0
+Add setImageContents to hs.pasteboard,2015-11-17,Closed,640,31,1,,2
+fix geometry.size(table); closes #637,2015-11-15,Merged,638,4,3,,2
+allow hs.pasteboard to get image contents,2015-11-04,Merged,627,24,1,m erb ,3
+styledtext fixes,2015-11-15,Merged,625,258,47,lua ,2
+Added hs.menubar:frame(),2015-11-10,Merged,624,42,0,m ,2
+Javascript from pull 451,2015-10-30,Merged,623,375,1,,0
+Multiple additions to the iTunes module,2015-10-30,Merged,622,85,3,,1
+WIP: hs.styledtext,2015-10-30,Merged,620,"3,794",483,h m ,3
+Tweaks to the layout module:,2015-11-10,Merged,614,7,2,,1
+Fix some errors found by clang analysis,2015-10-20,Merged,612,16,5,,5
+Added X11 web colors,2015-10-29,Closed,611,153,5,,1
+[READY] fix screen.find(id),2015-10-29,Closed,610,3,2,,2
+Multiple additions to the Spotify module,2015-10-16,Merged,607,87,5,,1
+hs.drawing.color,2015-10-29,Closed,602,772,151,h m lua ,4
+[READY] filter out desktop in window.allWindows(); add window.desktop(); improve docs,2015-10-12,Merged,598,116,139,,1
+add AX query exclusion,2015-10-08,Merged,594,5,2,,1
+Fix getColorWithDefaultFromStack. Closes #592,2015-10-08,Merged,593,4,4,,1
+added some image functions,2015-10-08,Closed,591,266,10,,1
+improve hs.expose,2015-10-08,Closed,590,219,219,,0
+Making windowHints allow non-standard windows,2015-10-08,Merged,588,21,6,,1
+add hs.grid.getCell to get the geometry rect of a grid cell,2016-08-23,Merged,585,29,0,,1
+[READY] add hs.logger.getLogLevel,2015-10-08,Merged,583,59,27,,6
+allow user setable init file location,2015-10-08,Closed,582,3,0,,1
+[READY] hs.screen and hs.window,2015-10-08,Merged,574,181,168,,4
+allow points in geometry.inside(),2015-09-30,Merged,571,1,1,,1
+non-activating panel instead of windows for drawing holders,2015-09-30,Closed,567,6,4,,1
+change from NSWindow to NSPanel,2015-09-25,Merged,566,79,21,h ,2
+[READY] grid improvements,2015-09-30,Merged,564,216,322,,0
+"[READY] fix screen edge stickiness, hs.geometry fixes, add window:sendToBack()",2015-09-30,Merged,563,120,36,,4
+LuaSkin error on redefinition of conversion helpers,2015-09-21,Merged,561,48,14,m ,2
+Add custom window title comparison to hs.layout.apply().,2015-09-14,Closed,551,14,4,,1
+[READY] hs.window.layout (needs #563),2015-09-30,Merged,550,"2,096",569,,1
+Luaskin enhancements,2015-09-14,Merged,549,676,265,,1
+Fixed bug that prevents hammerspoon from changing the layout of windows.,2015-09-11,Closed,546,2,2,,1
+[READY] small improvements for hs.window,2015-09-24,Closed,545,131,67,,1
+WIP - hs.webview,2015-09-24,Merged,544,"3,184",4,m lua ,5
+WIP - hs.webview,2015-09-09,Closed,542,"1,724",1,,1
+"[READY] fixes and improvements, preparation for hs.window.layout",2015-09-09,Closed,540,292,127,lua ,3
+Add window title pattern matching to hs.layout.apply().,2015-09-07,Closed,538,3,3,,1
+[WIP] hs.webview - show web pages as hammerspoon objects,2015-09-09,Closed,537,"2,659",756,Podfile lock markdown h m ,24
+"[READY] setup.lua, hs.inspect, hs.window",2015-12-21,Closed,536,339,295,xcworkspacedata lua ,3
+hs.drawing:setLevel() and hs.drawing.windowLevels,2015-09-05,Merged,531,153,40,m ,2
+Added release as a no-op for backwards compatibility,2015-08-29,Merged,527,51,2,m ,2
+WIP: Adding chaining for methods and __tostring for userdata to remaining modules,2015-08-29,Merged,522,241,32,,12
+"ipc and hs now deal in raw CFData, not UTF8 based CFString",2015-08-27,Merged,519,202,142,m c lua ,4
+[READY] windowfilter -> window.filter,2015-08-28,Closed,513,299,221,,1
+[WIP] NSObject->Lua conversion in LuaSkin,2015-09-12,Closed,512,651,264,,1
+"[READY] improve window, application",2015-09-02,Closed,511,393,247,,5
+WIP hs.notify updates,2015-08-27,Merged,509,817,460,,1
+(do not) add hs.moses,2015-08-28,Closed,503,"1,803",1,lua ,2
+[READY] add multiple windows mode for hs.grid.show,2015-08-28,Closed,502,67,26,,1
+[READY] add hs.screen.find (needs #471),2015-08-28,Closed,501,146,90,,1
+Add argument type checker to LuaSkin,2015-09-02,Merged,500,89,1,m ,5
+stop timer on error in lua callback unless flag set in new,2015-08-15,Merged,498,16,3,,1
+[WIP] Add luaskin reference support,2015-08-15,Merged,496,688,680,h ,5
+focusedWindow->frontmostWindow in hs.grid,2015-08-15,Merged,492,26,33,,2
+[feedback?] hs.func,2015-08-16,Closed,488,797,0,,0
+[WIP] Switch module registration to LuaSkin's helper functions,2015-08-15,Merged,487,309,477,lua ,13
+catch NSRangeException on setTextStyle when text is the empty string,2015-08-09,Merged,481,22,2,,1
+Convert almost all uses of lua_pcall to LuaSkin's protectedCallAndTraceback,2015-08-12,Merged,480,194,255,m ,8
+add hs.drawing.setTextStyle,2015-08-09,Merged,479,214,6,h ,2
+Update checker,2015-08-09,Merged,476,77,0,,1
+"add lvl, terminate parameters to hs.showError()",2015-08-08,Merged,473,11,3,,1
+[READY] hs.geometry overhaul,2015-08-28,Closed,471,593,332,,1
+Extensions in xcode,2015-08-07,Merged,468,"11,386","1,211",pbxproj xcscheme m Makefile extensions/application/Makefile extensions/battery/Makefile sh extensions/caffeinate/Makefile extensions/doc/Makefile ,16
+Mouse,2015-08-05,Closed,466,66,34,m ,2
+add new shorthands for delayed and repeated functions,2015-08-05,Closed,465,143,1,m ,2
+"add screen.primaryScreen(), .screenPositions(), :position()",2015-08-07,Merged,464,98,36,,1
+Improve windowfilter,2015-08-08,Merged,461,151,90,,0
+Image with context from ascii,2015-08-04,Merged,460,217,79,h ,4
+hs.host additions,2015-08-04,Merged,459,75,1,,2
+Updates to allow core to edit application Preferences from lua (console),2015-08-04,Merged,458,159,37,lua ,3
+add hs.logger.defaultLogLevel variable,2015-08-04,Closed,457,37,26,,1
+improve window.focusWindow.. and window.windowsTo.. methods,2015-08-07,Merged,456,323,83,,1
+fix iterations in fnutils,2015-08-07,Merged,455,162,87,,1
+Documentation improvements,2015-08-01,Closed,453,24,13,erb ,3
+hs.drawing.setClickCallback supports up and down mouse events,2015-08-01,Closed,452,116,10,,1
+add javascript for automation extension based on hs.applescript,2015-10-30,Merged,451,157,0,lua m ,3
+allow querying hs.grid.ui values; closes #446,2015-08-01,Closed,449,1,1,,1
+hs.image: add _eq for testing if 2 userdata objects refer to the same NSImage,2015-07-31,Merged,447,14,6,,1
+small windowfilter fixes,2015-07-31,Merged,445,82,76,,1
+"extend grid hints to 10x10, closes #426. improve docs",2015-07-31,Merged,444,45,25,,1
+popupMenu can handle clickCallback functions,2015-07-31,Merged,443,53,14,,1
+Userdata __tostring methods for application and window,2015-07-31,Merged,442,75,1,,3
+snapshotForID,2015-07-30,Merged,439,54,20,,1
+"Remove unused udhandlers, they are mostly cargo culted and unused.",2015-07-31,Merged,438,0,227,,6
+[READY] add hs.expose (needs #513),2015-08-28,Closed,436,683,0,,0
+add support for creating pop-up menus,2015-07-30,Merged,435,195,32,,1
+developmental file changes,2015-07-30,Merged,434,11,3,Makefile h ,3
+Add support for scroll wheel,2015-07-30,Merged,433,76,1,lua ,2
+clarify animationDuration usage,2015-07-30,Merged,432,6,2,,1
+[hs.grid] Increase grid size limit to 100x100,2015-07-30,Merged,431,1,1,,1
+Utf8,2015-07-30,Merged,430,29,1,,1
+guard against animationDuration not being a number. closes #428,2015-07-28,Merged,429,3,4,,1
+add hs.host.operatingSystemVersion and hs.host.operatingSystemVersionString,2015-07-28,Merged,427,138,5,,1
+hide grid when switching spaces,2015-07-26,Merged,424,3,0,,1
+Update internal.m,2015-07-25,Merged,423,3,3,,1
+Grid fixes,2015-07-25,Merged,422,71,22,,1
+remove C portion of hs.utf8 since it is a duplicate of lua's utf8 and…,2015-07-25,Merged,421,109,387,lua ,2
+add pasteboardTypes and contentTypes,2015-07-25,Merged,420,49,4,,1
+Revamp of hs.doc and help.  Includes lua docs,2015-07-24,Merged,414,658,201,extensions/doc/Makefile ,2
+Imageplaying,2015-07-24,Merged,413,37,25,h m ,4
+add hs.grid.toggleShow,2015-07-22,Merged,410,22,4,,1
+[READY] Hotkey nesting,2015-09-14,Merged,409,353,113,,1
+hs.grid.adjustWidth wasn't correctly renamed,2015-07-16,Merged,402,1,1,,1
+Add a Gitter chat badge to README.md,2015-07-14,Closed,399,2,0,,0
+hs.menubar uses hs.image for setIcon,2015-07-14,Merged,396,35,13,m ,2
+fix gc issue where stop() called during gc could result in crash,2015-07-14,Merged,395,7,5,m ,2
+add __tostring methods to result tables for easier use in console,2015-07-13,Merged,393,62,7,m ,3
+hs.image module,2015-07-13,Merged,392,435,2,h lua ,3
+add capslock  and _raw to the checkKeyboardModifiers function,2015-07-13,Merged,390,19,15,,1
+add hs.drawing.imageFromWindowID,2015-07-13,Closed,388,95,0,,1
+[WIP] add optional alert to hs.hotkey.bind,2015-09-24,Closed,386,54,39,,2
+support builtin system images with hs.drawing.image,2015-07-13,Closed,384,92,4,m ,3
+new drawing placement features,2015-07-10,Merged,381,265,3,m ,2
+eventtap updates,2015-07-10,Merged,377,434,120,,0
+Add hs.windowfilter,2015-07-30,Merged,374,"1,323",0,,0
+Add windowtracker extension,2015-09-25,Closed,372,197,0,lua ,2
+Add docs.scss to documentation generation,2015-07-07,Merged,371,656,0,,1
+add overall key to cpuUsage,2015-07-07,Merged,368,20,14,,1
+add high precision hs.timer.time,2015-07-07,Merged,367,21,0,,1
+fix missing pid in uiwatcher (part 2),2015-07-04,Merged,366,1,1,,1
+improved hs.grid,2015-07-20,Closed,361,669,162,,0
+Hotkey fixes,2015-07-02,Merged,360,4,3,m ,2
+Make hs.screen:toEast etc stricter and more sensible,2015-07-07,Merged,359,52,10,,1
+add vmStat and cpuUsage to hs.host,2015-07-01,Merged,357,179,1,m ,2
+remove metatable from hint when closing hint object,2015-07-01,Merged,356,2,0,,1
+Fix chained actions on hs.window,2015-07-10,Closed,354,194,168,lua ,2
+Add HTML Entity decoding to http and fix utf doc typo,2015-07-01,Merged,353,320,1,,1
+tweaks to codepointToUTF8 to make it more useful than simply a differ…,2015-06-29,Merged,350,88,54,,1
+clarified return object for hs.timer.doAfter,2015-06-27,Merged,349,4,1,,1
+Migrate from Lua cocoapod to using LuaSkin.framework,2015-07-08,Merged,348,"15,333",766,pbxproj xcworkspacedata xcscheme m h ,8
+Add hs.delayed,2015-06-26,Closed,347,354,0,,2
+Add hs.logger,2015-06-29,Merged,346,193,0,,1
+Convert lots of places from lua_Number to lua_Integer,2015-06-30,Merged,344,145,139,m ,8
+additional functions to hs.fnutils,2015-06-25,Merged,343,99,1,,1
+uielement_eq checks that it's really working with userdata,2015-06-25,Merged,342,11,3,,1
+Add some basic application bundle info to Hammerspoons lua environment,2015-06-25,Merged,340,48,0,,1
+Utf8 53,2015-06-23,Merged,335,143,96,→ extensions/utf8/LICENSE extensions/utf8_53/Makefile → extensions/utf8/Makefile lua m ,4
+lua 5.3 is much pickier about number types and implicit conversions,2015-06-21,Merged,331,24,24,,1
+"in hs.utf8_53, detect lua 5.3 for bitwise operations",2015-06-21,Merged,330,33,14,,1
+add fontlist query functions,2015-06-21,Merged,329,111,0,,1
+added hs.execute,2015-06-21,Merged,327,30,0,,1
+added new functions to hs.fnutils,2015-06-21,Merged,326,86,4,,1
+"updated to 5.3.1, plus more",2015-06-21,Merged,324,198,15,m ,2
+catch failure to create eventtap b/c of accesibility being off,2015-06-21,Merged,318,374,252,,0
+Add hs.spaces.watcher for detecting space changes,2015-06-15,Merged,316,202,0,lua m ,4
+"add setFrame, setTopLeft, setSize to hs.drawing",2015-06-13,Merged,314,102,0,,1
+hs.ipc: forgot to add quotes for other os.execute lines,2015-06-10,Merged,311,4,4,,1
+hs.ipc cli support: fix for volumes with spaces,2015-06-08,Merged,308,6,6,,1
+Add hs.tabs module,2015-06-12,Closed,300,217,0,lua ,2
+Fixed misnamed event name in hs.uielement documentation,2015-05-25,Merged,299,1,1,,1
+Better documentation for hs.grid,2015-06-15,Closed,296,44,15,,1
+hints title enhancements,2015-07-30,Closed,286,30,2,,1
+HTTP extension for Hammerspoon,2015-05-13,Closed,285,310,0,m ,2
+Update CREDITS.md,2015-05-01,Merged,284,1,0,,0
+allow external readonly access to MJLuaState,2015-05-01,Merged,283,6,0,,1
+Add the grille extension,2015-07-31,Closed,282,184,0,,1
+Add the window.fluent extension,2015-06-29,Merged,280,778,0,,0
+Add winter extension,2015-04-28,Closed,279,541,0,,0
+Improve documentation on uielement.watcher,2015-04-28,Merged,278,1,1,,1
+Add hs.drawing:setTextFont() for changing the font of an hs.drawing.text object,2015-04-25,Merged,273,33,1,,1
+[WIP] Workspace / Region modules,2015-07-30,Closed,265,669,167,lua extensions/mjomatic/LICENSE → extensions/region/LICENSE ,5
+Modal key repeat function.,2015-04-09,Merged,263,18,4,,1
+"Correct the naming of hs.screen:getGamma(), hs.screen:restoreGamma(), and hs.screen:setGamma() in the documentation",2015-04-06,Merged,261,3,3,,1
+Mjomatic refactor into Windowgram,2015-04-16,Closed,260,214,157,lua extensions/mjomatic/LICENSE → extensions/windowgram/LICENSE ,4
+grid: increase window size in all occasions,2015-04-03,Merged,259,12,2,,1
+Improve hs.hints: Fix bugs and add window title feature,2015-04-03,Merged,256,39,7,m ,2
+Remove alerts from playback controls for iTunes and Spotify,2015-03-18,Merged,244,0,8,,2
+"add ""windows"" parameter to hints.windowHints",2015-03-01,Merged,236,5,2,,1
+"Wrap require() in such a way that we can get Crashlytics logs listing the C libraries loaded, and their on-disk paths",2015-03-09,Merged,234,38,3,m ,3
+Update hs.drawing to include basic rectangles,2015-02-25,Merged,230,96,0,,1
+rewrite isWindow and push_element to use a common internal fn for checking the window status of an element,2015-02-11,Merged,216,30,11,m ,2
+define hs.mouse.setAbsolutePosition,2015-02-04,Merged,212,2,2,,1
+Don't leave an extra copy of app lying around,2015-02-02,Closed,198,1,1,,1
+Fixing vimperator enhancement,2015-01-18,Merged,196,3,7,,1
+Slight enhancement to the vimperator option,2015-01-16,Merged,192,11,2,,1
+Reimagined hs.notify,2015-01-16,Merged,191,629,66,lua ,2
+"Fix hs.keycodes library creation, so the callbacklib __gc is actually called",2015-01-21,Merged,190,7,6,,1
+Add LICENSE to uielement extension,2015-01-11,Merged,188,21,0,,1
+Changing how app list is populated for hints,2015-01-11,Closed,186,1,1,,1
+make hs.alert callable,2015-01-06,Merged,185,5,0,m ,2
+Window button refactoring,2015-01-08,Merged,182,23,27,,1
+add isMainThread function to hs.crash,2015-01-06,Merged,177,37,0,,2
+fix hintChars documentation,2015-01-03,Merged,172,1,1,,1
+hs.application.frontmostApplication,2014-12-31,Merged,169,36,23,,1
+Implement vimperator-style hints,2014-12-30,Merged,165,86,42,,1
+Add uielement extension with watcher capability for applications and windows,2014-12-30,Merged,162,496,55,m ,3
+Add an application object parameter to watcher callback,2014-12-22,Merged,161,13,7,,1
+re-add cocoapod build result to linked libraries (fixes link error),2014-12-22,Closed,160,12,2,,1
+re-add meta gc function to hs.application.watcher to clear handler indices,2014-12-16,Merged,159,14,0,,1
+add hs.application.watcher to watch application events,2014-12-16,Merged,158,321,0,lua m ,3
+rename win:toggleFullscreen to win:toggleFullScreen,2014-12-14,Merged,157,2,2,,1
+add window:ensureIsInScreenBounds,2014-12-14,Merged,156,20,0,,1
+add window:moveToScreen(),2014-12-10,Merged,153,17,0,,1
+"Automated testing, fixes #14",2014-12-10,Merged,152,282,0,plist lua pbxproj xcscheme ,5
+Switch to camel case APIs,2014-11-20,Merged,134,504,502,m lua ,6
+add ~/.hammerspoon to package.path,2014-11-14,Merged,128,4,0,,1
+location with distance and callback,2014-11-10,Merged,127,88,5,m ,2
+addresses https://github.com/Hammerspoon/hammerspoon/issues/104,2014-11-07,Merged,126,5,4,,1
+better test for cli install,2014-11-05,Merged,124,69,36,,1
+eventtap,2014-11-03,Merged,118,780,0,,1
+hs.sound,2014-11-03,Merged,117,435,0,,1
+hs.spaces,2014-12-29,Closed,114,150,0,m h ,3
+hs.dockicon module,2014-10-29,Merged,113,81,0,m ,2
+typos and removed links to Mjolnir,2014-10-29,Merged,112,3,11,,6
+hs.pasteboard module,2014-10-29,Merged,111,82,0,lua m ,3
+hs.timer module,2014-10-29,Merged,110,238,0,lua m ,3
+hs.pathwatcher module,2014-10-29,Merged,109,221,0,lua m ,3
+hs.battery and hs.battery.watcher module,2014-10-29,Merged,108,520,0,extensions/battery/Makefile lua m ,4
+base64,2014-10-28,Merged,107,119,0,lua m ,3
+utf8_53,2014-10-28,Merged,106,381,0,extensions/utf8_53/Makefile lua m ,4
+add screenwatcher to screen,2014-10-28,Merged,105,212,0,lua m ,3
+Candidate patch for #94,2014-10-27,Merged,95,969,18,rtf m lua h extensions/fs/LICENSE ,9
+added more debug flags and fixed an error,2014-10-27,Merged,91,43,4,,1
+Hotkey.modal,2014-10-27,Merged,90,64,0,,1
+Doc and json,2014-10-23,Merged,85,565,0,extensions/doc/Makefile lua extensions/json/LICENSE extensions/json/Makefile ,6
+Ipc and settings,2014-10-23,Merged,84,958,0,extensions/ipc/Makefile extensions/ipc/cli/Makefile c man ,5
+"try again with json, doc, settings, ipc",2014-10-23,Closed,75,"1,523",0,extensions/doc/Makefile lua extensions/ipc/LICENSE extensions/ipc/Makefile ,5
+"doc, json, ipc, and settings",2014-10-21,Closed,73,"1,593",0,extensions/doc/Makefile lua extensions/ipc/LICENSE ,4
+bug fixes,2014-10-17,Closed,41,2,1,m ,2
+Build extensions with makefiles,2014-10-15,Merged,32,102,25,gitignore m Makefile sh h ,32
+Bring ARC back for building extensions,2014-10-15,Merged,30,315,195,md m extensions/application/LICENSE extensions/audiodevice/LICENSE extensions/brightness/LICENSE sh extensions/fnutils/LICENSE extensions/geometry/LICENSE ,8
+Add third party mods,2014-10-14,Merged,28,"1,358","1,701",,3
+Rename project from Mjolnir to Hammerspoon,2014-10-14,Merged,23,598,858,md pbxproj xcworkspacedata xccheckout xib rtf plist pch m json png h lua ,48
+Sparkle,2014-10-13,Merged,21,35,839,,1
+Drop in-tree lua in favour of Cocoapods,2014-10-13,Merged,19,"2,222",194,pbxproj h Podfile lock hpp Pods/Sparkle/LICENSE plist dSYM/Contents/Resources/DWARF/Sparkle framework/Headers framework/Resources framework/Sparkle ,41
+[WIP] Mods inside,2014-10-13,Merged,18,63,30,pbxproj m lua gitignore rockspec h sh md ,45

@@ -1,0 +1,806 @@
+expose TCP lifo runtime config via log,2020-01-13,Merged,1271,6,0,,1
+Fix/kube multicolor traffic switch,2020-01-13,Merged,1267,269,25,,6
+Forward headers from webhook filter responses,2020-01-07,Merged,1261,96,26,go ,4
+fix two small issues in redis usage by cluster*Ratelimit filters,2020-01-06,Merged,1260,16,11,sum go ,3
+"Fix: CPU hot busyloop by setting a default timeout to 30s, if not set",2019-12-19,Merged,1259,9,1,,1
+list was no rendered correctly,2019-12-17,Merged,1257,2,0,,0
+Remove excplict set of GOPROXY,2019-12-13,Merged,1256,18,19,,1
+implement skipper httpclient and use it in all auth filters,2019-12-16,Merged,1255,541,230,,1
+enhance opentracing support in auth filters,2019-12-16,Merged,1254,651,206,md ,8
+Added new filter backendIsProxy,2019-12-04,Merged,1252,220,8,go ,6
+Added option to disable HTTP keepalives,2019-11-28,Merged,1251,20,0,md ,3
+close unused route and group lifo queues,2019-11-28,Merged,1250,27,1,,2
+document security consideration,2019-11-24,Merged,1248,16,0,,0
+improve error messages for the tracingTag filter tests,2019-11-11,Merged,1247,2,2,,1
+add tracingTag filter,2019-11-11,Merged,1246,114,0,go ,3
+doc: fix operations toc,2019-11-10,Merged,1245,25,26,,0
+create result.csv on bench run by report.lua used in wrk,2019-11-06,Merged,1244,35,1,lua ,2
+fix docker command run,2019-11-06,Merged,1243,1,1,,1
+automate changelog for GH release,2019-11-05,Merged,1242,13,1,,1
+Experiment/queue listener,2019-11-05,Merged,1241,"2,165",6,md ,3
+fix bug when having at least 3 prepend filters,2019-10-31,Merged,1239,39,2,,2
+doc: add redirectTo https example,2019-10-25,Merged,1236,9,3,,0
+add major and minor from a fixed VERSION file,2019-10-24,Merged,1235,8,13,VERSION yaml ,3
+show example yaml files and add a how to deploy all of these files,2019-10-24,Merged,1234,401,266,,8
+"Allowed origin header should be a single value, not a list",2019-10-23,Merged,1232,33,2,,2
+Move config code to own package,2019-10-22,Merged,1231,18,18,yaml ,17
+Fix flaky tests,2019-10-18,Merged,1229,14,0,,1
+doc fix typo,2019-10-17,Merged,1228,1,1,,0
+Allow wildcard name collision,2019-10-30,Merged,1227,502,640,,2
+use the version and commit hash in each build output,2019-10-22,Merged,1225,38,6,,1
+improve config.yaml documentation,2019-10-15,Merged,1223,13,0,,0
+remove reporting deprecated filter from startup,2019-10-22,Merged,1221,0,1,,1
+Feature to include additional data to the access log,2019-10-14,Merged,1220,32,6,,6
+trim origin markers after evaluated,2019-10-10,Merged,1219,164,2,,3
+Clarify that flowIds must be of a certain format to be reusable,2019-10-09,Merged,1218,10,2,go ,1
+set origin markers only when there were any changes to the routes,2019-10-14,Merged,1216,124,8,,2
+set the go.mod go version to the automatically applied one,2019-10-09,Merged,1215,1,1,,1
+update go version in go.mod,2019-10-08,Merged,1214,1,1,,1
+update security reporting mechanism,2019-10-07,Merged,1213,8,1,,0
+updated security reporting mechanism,2019-10-07,Closed,1212,2,1,,0
+keep the trailing slash in the path for regexp matching,2019-10-08,Merged,1211,84,37,,3
+Using YAML configuration file to pass args for skipper binary,2019-10-14,Merged,1205,"1,565",902,,3
+Fix broken link in docs,2019-10-02,Merged,1204,1,1,,0
+Add regex example for modPath,2019-10-02,Merged,1203,1,0,,0
+Note that inlineContent filter is special,2019-10-02,Merged,1202,3,0,,0
+Fix links to dataclients docs,2019-10-02,Merged,1201,4,4,,0
+"fix conflict between Path(""/**"") and PathSubtree(""/"")",2019-10-09,Merged,1200,773,36,,2
+logging auth errors,2019-10-01,Merged,1199,239,92,,3
+set origin markers only when there were any changes to the routes,2019-09-30,Merged,1197,28,14,,1
+add more unit test coverage for scheduler filters,2019-09-30,Merged,1196,170,12,,1
+increase cluster ratelimit coverage report,2019-09-25,Merged,1194,100,1,go ,2
+delete routes only on ENOEXIST when using file watching,2019-09-22,Merged,1193,1,1,,1
+monitor route creation time,2019-10-15,Merged,1192,16,15,,3
+monitor route creation time,2019-09-18,Merged,1191,42,31,,2
+add logging for route creation time,2019-09-18,Merged,1190,19,3,,1
+small doc fixes,2019-09-16,Merged,1189,9,5,,0
+fix route creation time,2019-09-12,Merged,1188,10,9,,2
+doc: add missing annotation and some minor fixes in docs,2019-09-12,Merged,1186,12,9,md ,1
+fix warning on multiple lifo filters,2019-09-11,Merged,1185,1,2,,1
+Update owning team for skipper in zappr,2019-09-10,Closed,1183,1,1,,1
+Use Errorf when port defition is wrong,2019-09-06,Merged,1181,1,1,,1
+use fixed version of staticcheck for Go1.13,2019-09-04,Merged,1179,3,3,,1
+Feature/routegroup crd transform,2019-09-04,Closed,1178,448,203,,1
+Feature/routegroup crd transform,2019-09-04,Merged,1177,337,111,,1
+Feature/routegroup crd transform,2019-09-04,Merged,1176,316,17,,2
+Update skipper build for Go 1.13,2019-09-04,Merged,1175,16,23,Makefile go mod sum ,5
+Feature/routegroup crd transform,2019-09-03,Closed,1174,394,0,,4
+initial stubs for the CRD client,2019-09-03,Merged,1173,95,0,,3
+fix: allow ratelimiting for shunt routes,2019-08-30,Merged,1171,94,5,,2
+feat: Update baggageItemToTag filter name,2019-08-29,Merged,1168,4,4,go ,1
+fix issues identified in a workshop,2019-08-29,Merged,1166,13,4,,0
+Refactor lifo,2019-09-02,Merged,1165,592,182,md ,1
+Fix link to auth tutorial,2019-08-28,Merged,1164,1,1,,0
+Add support for tags in jaeger tracing implementation,2019-08-27,Merged,1163,185,4,,2
+feat: Add baggageItemToTag filter,2019-08-26,Merged,1160,218,6,go ,4
+refactor kube data client,2019-08-28,Merged,1155,241,181,,0
+benchmark tokeninfo client baseline cost,2019-08-15,Merged,1154,205,39,eskip sh ,7
+"Add JWTPayloadAllKVRegexp, JWTPayloadAnyKVRegexp",2019-08-13,Merged,1153,374,208,go ,1
+add option to provide a metrics backend instance (#1151),2019-08-13,Merged,1152,9,1,,1
+dummy PR,2019-08-05,Closed,1150,1,0,,1
+monitor route creation time,2019-08-30,Merged,1149,527,32,md ,10
+update apiVersion to apps/v1,2019-08-01,Merged,1148,3,3,,0
+fix doc build and wire egress to reference section,2019-07-31,Merged,1147,1,0,,1
+Docs/egress features,2019-07-31,Merged,1146,162,0,svg md ,2
+recognize api monitoring tag,2019-08-12,Merged,1144,182,87,go ,1
+fix credentials poll should not be 0 for library users,2019-07-31,Merged,1143,39,16,go ,3
+Build/improve performance,2019-07-29,Merged,1142,24,23,,1
+fix ineffassign in throttle filter,2019-07-26,Merged,1141,1,1,,1
+make docs more clear and add links from reference to tutorial,2019-07-26,Merged,1138,18,4,,0
+Reduce delay to when throttle type is bandwidth,2019-07-26,Closed,1136,12,0,,3
+handle string on list flags when called on nil,2019-07-25,Merged,1135,12,0,,3
+do retries only if the request is retrieable,2019-07-26,Merged,1132,53,1,,2
+add route id to filter context,2019-07-19,Closed,1127,10,0,,5
+add listflag parser,2019-07-17,Merged,1126,224,245,,6
+Feature/secrets from files,2019-07-26,Merged,1125,714,12,mod ,6
+add armv7 and armv8 docker containers to release process,2019-07-12,Merged,1123,8,1,,1
+fix shell var needs double $ to access,2019-07-11,Merged,1122,1,1,,1
+fix upload flag,2019-07-11,Merged,1121,1,1,,1
+"fix bash syntax missing ""done""",2019-07-11,Merged,1120,1,1,,1
+fix release version var,2019-07-11,Merged,1119,3,3,,1
+Apiusagemonitoring context,2019-07-19,Closed,1118,155,77,,4
+Release/automate git tag and release,2019-07-11,Merged,1117,15,40,yaml packaging/Makefile ,3
+differentiate error from backend and error during roundtrip,2019-07-11,Merged,1116,1,0,,1
+Fix/build release,2019-07-10,Merged,1114,7,6,,1
+Add the missing new line Cron predicate documentation,2019-07-10,Merged,1113,1,0,,0
+add create flag for log output files,2019-07-09,Merged,1112,1,1,,1
+"Add ""Cron"" pred. that supports cron-like expressions to match routes",2019-07-09,Merged,1111,178,0,mod sum go ,5
+Docs/path predicates details,2019-07-08,Merged,1110,72,31,,0
+refactor OIDC filters enc/dec handling into secrets module,2019-07-10,Merged,1108,327,101,,2
+build armv7 and armv8 containers and binary releases to GH,2019-07-08,Merged,1107,58,2,yaml packaging/Makefile ,3
+fix format check to be as strict as format,2019-06-26,Merged,1106,3,3,go ,2
+fix: benchmark startup,2019-06-25,Merged,1105,2,1,,1
+fix chunked transfer-encoding,2019-06-25,Merged,1104,10,9,,2
+go mod tidy and update dependencies,2019-07-04,Merged,1101,196,178,,1
+clarify ratelimit fitler docs,2019-06-21,Merged,1100,6,5,,0
+feature: unverifiedAuditLog filter with varargs,2019-06-21,Merged,1099,39,29,,2
+support ingress with service type ExternalName,2019-06-20,Merged,1098,88,18,,3
+Add roundtrip start/end span logs,2019-06-20,Merged,1097,2,0,,1
+fix: use path from request chain (#1094),2019-06-19,Merged,1095,130,60,,3
+Set secure directive if request is receive on https,2019-06-17,Merged,1093,7,4,,1
+refactor error vars in proxy to be constants,2019-06-17,Merged,1092,34,16,mod sum go ,4
+fix upgrade headers for kubectl exec,2019-06-14,Merged,1091,1,6,,1
+Fix/rfc patch path,2019-06-11,Merged,1088,400,0,md ,8
+Fix span event name,2019-06-07,Merged,1087,1,1,,1
+fix stuck lifo() -> done() notifications,2019-06-07,Merged,1086,12,12,,2
+"initialization order, metrics",2019-06-06,Merged,1084,186,54,,4
+fix leftovers from comments,2019-06-03,Merged,1081,3,4,go ,1
+Remove X-Zalando-team from open source skipper,2019-05-31,Closed,1080,0,1,,1
+fix source from last predicate,2019-06-03,Merged,1078,88,81,,3
+add init flags to pass certificates files to connect with backend,2019-06-03,Merged,1077,33,0,,1
+tuple client ratelimit,2019-06-01,Merged,1075,370,37,go ,2
+fix JWTPayloadAnyKV should have multi key assignment similar to token*AnyKV filters,2019-05-31,Merged,1073,279,42,,1
+remove dependency,2019-05-28,Merged,1072,0,3,sum ,2
+add lb annotation to ingress user docs,2019-05-28,Merged,1071,37,3,,0
+Enrich forwardToken filter,2019-06-03,Merged,1070,85,10,go ,2
+MID-855: Enrich forwardToken filter with masking abilities,2019-05-27,Closed,1069,536,154,md ,3
+Add missing opentracing related flags,2019-05-25,Merged,1067,5,0,,1
+Add options to reduce the payload shipped per request,2019-05-24,Merged,1066,456,142,,1
+Drop `skipper.route` tag to reduce the size of the messages shipped,2019-05-22,Merged,1064,0,1,,1
+add config options grpc max buffer and min/max report times,2019-05-22,Merged,1062,269,18,,2
+Log important events emitted by LightStep tracer,2019-05-21,Merged,1061,24,1,,1
+tokenin*AnyKV filters should be able to check same keys,2019-05-22,Merged,1058,53,18,go ,6
+add more operations documentation including tutorial for starters,2019-05-27,Merged,1057,174,2,md yml ,4
+Fix/lifo self healing,2019-05-14,Merged,1054,18,10,,3
+remove log output in tests (#1045),2019-05-13,Merged,1052,0,1,,1
+fix #1049: fix potential nil dereference,2019-05-09,Merged,1050,11,7,,1
+feat: provide the first stack trace on filter panic (#1045),2019-05-10,Merged,1047,64,8,,3
+add tag= parameter for lightstep plugin,2019-05-14,Merged,1046,14,0,,1
+Set URL from Host and TLS in dynamic backend,2019-04-30,Merged,1042,72,1,go ,2
+limit number of inflight requests per route,2019-04-17,Closed,1038,14,2,go ,4
+Differentiate authentication and authorization issues in response codes,2019-04-17,Merged,1037,47,17,go ,3
+enhance opentracing,2019-04-15,Merged,1031,14,2,,1
+"lifo filters, concept",2019-05-03,Merged,1030,"1,016",40,go ,3
+chore(api-usage-monitoring filter): remove deprecated parameter (#949),2019-04-24,Merged,1029,18,9,,2
+Update authclient.go,2019-04-24,Merged,1027,427,15,go ,3
+increase codecoverage to 80% required by silver cii bestpractices,2019-04-10,Merged,1025,608,4,go ,6
+Skipper subtree generation when already present,2019-10-30,Closed,1023,5,1,,1
+define key roles and cleanup maintainers file,2019-04-07,Merged,1022,18,4,MAINTAINERS ,1
+Little update to the readme file concerning eskip check,2019-04-04,Merged,1020,2,0,,0
+fix memory spike in east west route creation,2019-04-04,Merged,1019,72,61,,1
+doc: fix A/B example as mentioned by @fpozzobon,2019-04-01,Merged,1017,2,2,,0
+use hostname from host header,2019-04-01,Merged,1016,11,1,,1
+Feature/lb algorithms,2019-04-02,Merged,1015,442,84,,2
+Make unverifiedAuditLog configurable,2019-04-01,Merged,1008,90,22,go ,2
+A / B test example,2019-04-01,Closed,1007,1,1,,0
+default filters as routing.PreProcessors,2019-03-23,Merged,1003,270,11,,8
+Stop being graceful on SIGINT,2019-03-21,Merged,1001,1,1,,1
+Formatting and cleanup of Ingress comparison docs,2019-03-23,Merged,999,91,112,,0
+fix close-idle-conns-period flag,2019-03-21,Merged,998,60,64,md ,5
+Update travis config to use Go 1.12.x,2019-03-19,Merged,996,1,1,,1
+Log access filter,2019-03-19,Closed,995,43,20,,4
+Create issue templates,2019-03-20,Merged,994,44,0,,0
+Add tests for HTTP Upgrade.,2019-03-19,Merged,993,156,29,,2
+Doc/comparision with other ingress ctl,2019-03-16,Merged,989,129,2,,0
+Fix/graceful shutdown,2019-03-13,Merged,988,133,1,,3
+Support loadbalancing routes for HTTP Upgrade handling.,2019-03-11,Merged,986,31,11,,2
+OIDC filter enhancements and tutorial,2019-03-21,Merged,985,129,33,go ,2
+feat: add cache for retry after value,2019-03-27,Closed,984,"1,000",232,go svg md mod sum ,7
+k8s dataclient default filter config via config map,2019-04-03,Merged,983,274,2,md ,3
+Feature/redis based cluster ratelimit,2019-03-13,Merged,981,"1,132",244,go yaml svg md ,6
+fix: reduced memory allocations for east-west-route creation (#979),2019-03-05,Merged,980,73,76,,2
+k8s dataclient default filter config via config map,2019-03-07,Closed,977,261,38,,4
+doc fix rbac,2019-02-28,Merged,975,8,8,,0
+Fix/cluster ratelimits with central sharded redis,2019-03-03,Closed,974,217,159,sum go ,3
+fix: protect concurrent map access in apimonitoring (#968),2019-02-28,Merged,973,32,13,,3
+968 fix unprotected map access in monitoring,2019-02-28,Closed,972,32,38,,3
+sync.Map to protect `metricPrefixedPerClient` against concurrent calls,2019-02-26,Closed,971,7,10,,2
+shortcheck: run with -race,2019-03-11,Merged,970,602,415,go ,5
+fix(apiusagemonitoring): add doc entry about no-op filter in case of invalid config,2019-02-25,Merged,967,2,1,,0
+Create noop filter in case of invalid monitoring filter config,2019-02-25,Merged,966,44,55,,3
+Fix rendering of filter docs and add a little more description,2019-02-22,Merged,963,7,1,,0
+Fix/cluster ratelimits,2019-03-05,Closed,961,210,69,sum go eskip ,9
+Fix ingress_controller.md  ClusterRole not enough settings.,2019-02-20,Merged,959,2,1,,0
+drop not required comment,2019-02-24,Merged,958,0,1,,1
+fix support listener not ready,2019-02-19,Merged,957,5,1,,1
+Use native Mkdocs page references,2019-02-19,Merged,955,38,37,yml ,1
+Warning against multiple Ingresses,2019-02-15,Merged,954,44,0,,0
+"use Debugf instead of Debug, since the message uses formatting",2019-02-14,Merged,953,1,1,,1
+kubernetes: fetch endpoints/services once,2019-02-17,Merged,951,472,394,,2
+API usage monitoring filter improvements,2019-02-13,Merged,950,286,252,md ,3
+fix non rfc compliant websocket requests,2019-02-08,Merged,947,2,1,,1
+Build/check gosec,2019-05-09,Merged,946,29,4,yaml go ,6
+fix #943 clientRatelimit was registered,2019-02-07,Merged,944,32,8,,3
+safe memory space and simplify code,2019-02-05,Merged,941,57,51,mod sum go ,5
+"silver cii badge - coc, contributing",2019-02-04,Merged,940,91,3,,0
+refactor loadbalancer to be a single route,2019-02-05,Merged,938,"1,471","1,538",,1
+Make proxy client TLS work with skipper.Options,2019-01-30,Merged,937,1,0,,1
+Add command line flags for all etcd options,2019-01-30,Merged,936,37,4,,2
+provide documentation on etcd usage,2019-01-31,Merged,934,114,2,,0
+fix static check for type switch,2019-01-25,Merged,932,11,9,,1
+Expose ClientTLS in skipper options for passing client TLS settings,2019-01-24,Merged,928,15,1,,2
+Expose ClientTLS in skipper options for passing client TLS settings,2019-01-21,Closed,927,15,1,,2
+Expose ClientTLS in skipper options for passing client TLS settings,2019-01-21,Closed,926,15,1,,2
+Access log disable filter,2019-01-24,Merged,925,307,92,go ,5
+Remove useless JSON and String serialisation,2019-01-19,Merged,922,0,52,,4
+Test/idle connection,2019-01-22,Merged,921,172,5,inc eskip sh ,6
+Full TLS Config for proxy server in skipper options,2019-01-18,Merged,919,10,3,,1
+feature: support requests forwarding,2019-01-28,Merged,918,656,116,md ,7
+Full TLS Config for proxy server in skipper options,2019-01-18,Closed,917,10,3,,1
+Add files via upload,2019-01-17,Closed,916,981,974,,0
+add passing cii badge,2019-01-16,Merged,915,1,0,,0
+fix clusterRatelimit with more than one ratelimit instance,2019-01-25,Merged,913,323,106,go ,2
+test dco,2019-01-13,Closed,907,173,2,,2
+add PATCH method to not confuse users,2019-01-09,Merged,902,1,1,,0
+fixed several,2019-01-07,Merged,900,1,1,,0
+fix indentation level of oidc filters,2019-01-06,Merged,899,4,4,,0
+fix findings from staticcheck,2019-01-07,Merged,897,247,549,go yaml ,14
+Added opentracing spans to calls to tokeninfo and tokenintrospection endpoints,2019-01-07,Merged,896,50,11,,3
+feature: derive default application from api usage monitoring filter configuration (#888),2019-01-03,Merged,895,132,64,go ,4
+add explanation of the path handling for custom routes,2019-01-02,Merged,894,8,0,,0
+docs: Fix the Host predicate regex example,2019-01-02,Merged,893,3,3,,0
+Fix the Host predicate regex example,2018-12-30,Closed,892,3,3,,0
+Fix Docker command example,2018-12-30,Merged,891,1,1,,0
+Added parent span to context so that it can be used in filters,2019-01-02,Merged,890,48,26,,7
+doc fix #824,2018-12-30,Merged,889,6,2,,0
+enhance tracing,2018-12-20,Merged,887,36,10,,2
+fix ratelimit filter header configuration,2018-12-21,Merged,886,25,1,,2
+doc fix ingress-multi-routes,2018-12-21,Merged,885,30,0,,0
+static swarm,2018-12-17,Merged,884,99,6,mod sum ,8
+doc: fix ratelimit tutorial,2018-12-18,Merged,883,5,3,,0
+858 added flowid,2018-12-14,Merged,882,3,0,,1
+858 added flowid,2018-12-13,Closed,881,3,0,,1
+Fix a small typo in the docs,2018-12-13,Merged,880,1,1,,0
+Update readme to install skipper,2019-07-19,Closed,878,7,1,,0
+This bug was fixed and there is no need for the hack anymore,2018-12-11,Merged,877,0,4,,1
+Update readme with mac-specific info on tests,2018-12-11,Merged,876,3,0,,0
+fix swarm/clusterClient reatlimit integration,2018-12-11,Merged,875,167,65,mod sum ,7
+docs add how to create redirects in ingress usage,2018-12-10,Merged,874,69,0,,0
+docs: fix build,2018-12-05,Merged,872,2,2,,0
+add missing available in http.Transport timeouts,2018-12-03,Merged,870,107,62,,3
+add possibility to set east west domain,2018-12-10,Merged,869,109,10,md ,4
+Doc/fix build example,2018-12-04,Merged,865,83,4,,0
+fix: client timeouts should be counted as 499 errors,2018-11-28,Merged,864,64,1,,2
+add lb test proxy bench,2018-11-26,Merged,862,47,0,eskip ,2
+Add OpenTracing spans to filter req/resp,2019-04-12,Closed,860,26,0,,1
+skptesting fix,2018-11-22,Merged,859,13,1,sh inc ,3
+preserve only the span not the entire context of the incoming request,2018-11-21,Merged,857,4,1,,1
+Clearer JSON Serialization?,2019-01-18,Closed,855,14,20,,3
+Fix kubernetes rule name hashing,2018-11-22,Merged,854,363,355,,2
+fix doc pipeline and add east-west to TOC,2018-11-13,Merged,849,1,2,yml ,2
+doc: fix TOC and links,2018-11-13,Merged,848,70,57,,0
+fixing html escape sequences in code renderings,2018-11-13,Merged,847,390,320,,0
+last step was missing to deploy on merge to master,2018-11-13,Merged,846,2,0,,1
+fix some comments in the docs,2018-11-13,Merged,845,2,2,,0
+API Usage Monitoring: Client Metrics,2018-11-14,Merged,844,"1,633",448,md ,3
+docs rebuild,2018-11-13,Merged,843,336,233,md ico svg ,4
+API Usage Monitoring: Client Metrics,2018-11-12,Closed,842,"1,607",445,md ,3
+east-west svc-to-svc communication in kubernetes,2018-11-13,Merged,841,841,31,,2
+replace the usage of X-Forwarded-Port for HTTPS redirects in Kubernetes,2018-11-07,Merged,840,62,42,,2
+wait for first routes loaded before starting the listener,2018-11-06,Merged,837,125,4,,4
+add conference talk,2018-11-06,Merged,836,9,1,,0
+fix typo in tutorial,2018-11-04,Merged,834,1,1,,0
+Fix/disable audit log in experimental upgrade,2018-11-02,Merged,833,186,60,,5
+Doc/tutorial,2018-11-02,Merged,832,890,3,md ,3
+apiUsageMonitoring: Accept '/' in path pattern variable parts,2018-10-31,Merged,830,262,131,,3
+Updated Docker section,2018-10-29,Merged,829,16,0,,0
+fix typo retrieable -> retrievable,2018-10-29,Merged,826,1,1,,1
+Activate compatibility defaults on Prometheus metrics,2018-10-29,Merged,823,2,0,,1
+Fix links to predicates,2018-10-24,Merged,821,5,5,,0
+API Monitoring Filter: MVP,2018-10-30,Merged,818,"1,496",32,go md ,5
+Fix filter documentation (bullet lists),2018-10-09,Merged,816,5,0,,0
+Add link to zalando tech blog,2018-10-09,Merged,815,4,0,,0
+doc auditLog filter,2018-10-04,Merged,813,13,1,,0
+fix dropRequestHeaders in kubernetes should be applied before user filters,2018-10-04,Merged,812,5,5,,2
+Fix introspection token key,2018-10-03,Merged,811,8,9,,3
+Fix logging regression after #752,2018-09-25,Merged,806,78,18,,4
+Revert/logging filter,2018-09-25,Closed,803,150,467,md ,8
+Feature/configurable http redirect code in kubernetes,2018-09-20,Merged,799,801,65,,1
+Filter for fowarding tokeninfo and token introspection results.,2018-09-17,Merged,793,390,1,go ,4
+Add doc for using debugger.,2018-09-17,Merged,792,44,0,,0
+Added CDP build step for publishing docs.,2018-09-14,Closed,790,17,0,yml ,2
+Deprecate accessLogDisabled in favor of disableAccessLog and enableAccessLog filters,2018-09-18,Merged,789,149,20,go ,8
+godoc link,2018-09-13,Merged,788,1,1,,0
+Doc/gh release,2018-09-13,Merged,787,20,18,,0
+Retry After Header,2018-09-12,Merged,786,146,50,mod sum ,8
+Docs/restructure tree,2018-09-13,Merged,785,153,135,yml ,1
+fix: add go modules to all tasks,2018-09-11,Merged,784,14,14,go md ,2
+Update prometheus library,2018-09-11,Merged,783,4,9,sum go ,3
+Avoid re-calculation of `count-1` in the response filter loop,2018-09-10,Merged,782,2,3,,1
+Switch back to upstream of github.com/opentracing/opentracing-go,2018-09-10,Merged,780,3,3,sum ,2
+Proposal: build opentracing tracers into main binary,2018-09-10,Merged,779,35,174,yaml opentracingplugin/LICENSE opentracingplugin/Makefile md go packaging/Makefile ,12
+fix comment that I missed in the forst PR,2018-09-07,Merged,778,2,2,,0
+Correctly build skipper binary for lightstep image,2018-09-07,Merged,777,2,2,,1
+doc known skipper users,2018-09-07,Merged,776,10,0,,0
+change connection-reset-by-peer handling to be not retried,2018-09-07,Merged,775,4,6,,1
+fix opentracing wireformat,2018-09-07,Merged,774,4,0,sum ,2
+Fix/build,2018-09-05,Merged,772,21,15,mod sum ,3
+fix build to create non dirty containers,2018-09-05,Merged,771,1,0,,1
+Speedup CI buildtime,2018-09-04,Merged,770,17,26,sh ,2
+handle connection reset by peer,2018-09-05,Merged,769,11,2,,1
+Go1.11 modules enabled tracer build,2018-09-04,Merged,766,509,16,Makefile yaml mod sum opentracingplugin/LICENSE opentracingplugin/Makefile md go ,10
+Use Go 1.11 modules,2018-09-02,Merged,764,161,184,Makefile yaml lock mod sum alpine packaging/Makefile ,9
+Build lightstep image based on alpine,2018-09-01,Merged,762,38,15,alpine lightstep packaging/Makefile ,4
+Build the lightstep image with ubuntu base image.,2018-08-31,Merged,761,8,5,packaging/Makefile ,2
+simplfiy as suggested,2018-08-30,Merged,760,1,7,sh ,2
+add queryToHeader filter,2018-08-29,Merged,759,162,0,go ,3
+Added dockerfile for building skipper with lightstep integration.,2018-08-29,Merged,758,53,6,yaml lightstep packaging/Makefile sh ,5
+Added dockerfile for building skipper with lightstep integration. [WIP],2018-08-29,Closed,757,48,4,yaml lightstep packaging/Makefile sh ,5
+add RequestContext(ctx context.Context) to filtercontext,2019-07-19,Closed,756,97,33,,8
+fix preserveHost filter documentation,2018-08-28,Merged,755,7,3,,0
+feat: Add headerToQuery filter #748,2018-08-28,Merged,754,111,0,go ,3
+developer doc: how to build a filter,2018-08-29,Merged,753,421,0,,0
+Feature/access log filter,2018-09-05,Merged,752,338,150,md ,10
+implment a simple webhook,2018-08-29,Merged,747,278,5,md ,7
+Fix docs about PathRegexp,2018-08-21,Merged,746,4,4,,0
+feature: openIDConnect authcode flow,2018-12-18,Merged,743,"1,073",3,md ,5
+Simplify CDP build with golang overlay,2018-08-16,Merged,742,18,43,,1
+cache authclient per tokeninfoURL,2018-08-16,Merged,740,32,4,,2
+doc: fix link and build of mkdocs,2018-08-12,Merged,738,0,0,,0
+add request and response counters for http versions,2018-08-13,Merged,736,2,0,,1
+Fix Metrics interface,2018-08-01,Merged,733,6,0,,2
+Fix Gauges not exposed,2018-07-31,Closed,732,6,0,,2
+#709 Fix typo for innkeeper,2018-07-31,Merged,731,7,7,yml go ,2
+add docs about the route matching mechanism,2018-07-31,Merged,730,57,0,,0
+Update ingress-controller.md,2018-07-30,Merged,729,3,4,,0
+docs add oauth timeout,2018-07-27,Merged,727,10,3,md ,2
+Adds Gauges to metrics,2018-07-30,Merged,726,52,0,,5
+docs: link plugins and vendoring problem,2018-07-26,Merged,725,5,0,,0
+add setQuery(string) #723,2018-07-25,Merged,724,34,5,,2
+Add -histogram-metric-buckets option,2018-07-25,Merged,722,52,2,,4
+fix kube dataclient: custom-routes should set path according to ingress,2018-08-01,Merged,720,336,43,,2
+docs: fix custom-routes and add auth to ingress use docs,2018-07-26,Merged,718,65,22,,0
+fix #714 ingress backends same svc name but different ports,2018-07-23,Merged,717,97,1,,2
+removing old TODO item: kubernetes LB + custom filters,2018-07-23,Merged,716,0,3,,1
+Improve the routing table information documentation,2018-07-23,Merged,715,8,0,,0
+Update readme.md,2018-07-23,Merged,712,3,171,,0
+Fix custom routes for multiple hosts,2018-07-24,Merged,711,15,4,,2
+add predicates to match based on jwt content,2018-07-22,Merged,710,431,0,go ,1
+client closed request should not be reported as 5xx,2018-07-19,Merged,708,13,11,,1
+Add flag for Oauth request timeout,2018-07-27,Merged,707,227,57,,3
+fix invalid connection header issue reported via slack channel,2018-07-04,Merged,699,4,0,,1
+doc: add filter documentation for tokeninfo filter,2018-07-03,Merged,698,66,0,,0
+typo in godoc,2018-07-03,Merged,697,1,1,,1
+use 308 in Kubernetes HTTPS redirect instead of 301,2018-06-29,Merged,695,1,1,,1
+don't add annotation filters to LB decision routes,2018-06-28,Merged,694,133,3,,2
+use go1.10.x in travis,2018-06-28,Merged,693,1,1,,1
+Added ID of the matching route to open tracing span,2018-06-28,Merged,692,1,0,,1
+Fix Header and HeaderRegexp examples,2018-06-25,Merged,690,3,3,,0
+Support for Limiting Ingress Lookups to a Single Namespace,2018-06-25,Merged,688,61,3,md ,4
+Testing/export test tracer,2018-06-21,Merged,684,219,161,,2
+sort routing table output on support endpoint,2018-06-15,Merged,681,5,0,,1
+Fix broken link,2018-06-15,Closed,680,1,1,,0
+prevent multiple load balancer groups to match,2018-06-15,Merged,679,62,7,,2
+"wire in missing connection, timeout parameters",2018-06-13,Merged,678,15,10,,1
+do less route updates,2018-06-14,Merged,676,19,0,,1
+include the response streaming duration in the proxy span,2018-06-12,Merged,675,174,21,,5
+refactor tracing tests,2018-06-11,Merged,673,166,152,,1
+move the traffic predicate to the decision route,2018-06-11,Merged,672,181,9,,2
+fix tokeninfo filters,2018-06-08,Merged,670,1,1,,1
+fix proper nouns,2018-06-08,Merged,669,29,29,,0
+#32 Check if file exists and log a warning,2018-10-10,Merged,668,17,1,,1
+provide path modes for Kubernetes ingress paths,2018-06-08,Merged,667,626,43,,2
+document teardown strategy for applications,2018-06-06,Merged,666,77,4,yml ,1
+fix #654 - return gw timeout,2018-06-06,Merged,665,12,0,,1
+group command line options,2018-06-03,Merged,663,309,259,,0
+create filter for setting custom span name for distributed tracing,2018-06-01,Merged,661,254,36,,5
+teardown background process,2018-05-30,Merged,659,99,8,,2
+fix goroutine leak in kubernetes dataclient,2018-05-29,Merged,658,10,2,,1
+Add internal ip whitelist option to healthcheck to be appended to the default,2018-06-03,Merged,657,27,2,,3
+return proxyError after retry of a loadbalanced route,2018-05-28,Merged,656,4,4,,3
+Improve trace tags in ingress and proxy spans,2018-05-28,Merged,655,19,8,,1
+Resolved #650 Kubernetes quickstart with Helm chart,2018-05-27,Merged,651,45,0,,0
+set timeouts to kubernetes api access,2018-05-15,Merged,649,15,6,,1
+enhance kubernetes ingress deployment docs,2018-05-15,Merged,648,40,11,,0
+Update readme.md,2018-05-14,Merged,646,16,15,,0
+add ignore-trailing-slash as skipper cmd arg,2018-05-12,Merged,645,4,1,,1
+Fix/unverified auditlog base64 encoding,2018-05-08,Merged,641,1,1,,1
+fix prepared wrong garbage in unverified auditlog,2018-05-03,Merged,639,24,1,,2
+Feature/oauth2 token introspection RFC7662,2018-08-13,Merged,638,"1,566",397,md ,2
+unverifiedAuditLog - fix #631,2018-05-02,Merged,637,167,22,,6
+Document how to deploy with enabled RBAC,2018-05-07,Merged,636,120,2,,0
+enhance filters doc,2018-04-27,Merged,635,9,0,,0
+doc: add predicates documentation,2018-04-27,Merged,634,349,0,yml ,1
+doc: multiple skipper deployments,2018-04-27,Merged,632,31,0,,0
+run the plugin compilation for the coverprofile and benchmark tasks,2018-04-18,Merged,627,2,2,,1
+[WIP] Filter docs,2018-04-27,Merged,626,563,24,,0
+Allow multiple certs,2018-04-16,Merged,622,26,4,,2
+Fix balancer route update,2018-04-16,Merged,620,183,48,,3
+Doc: Add slack channel,2018-04-14,Merged,619,2,0,,0
+Fix/unnecessary healthcheck updates,2018-04-14,Merged,618,47,7,,3
+fix etcd auth header test,2018-04-14,Merged,617,39,21,,1
+add a concurrent test case with multple routes,2018-04-14,Merged,616,133,3,,1
+do not leak decision header to backends,2018-04-12,Merged,615,22,5,,4
+Fix wrong error message for Static filter,2018-04-10,Merged,611,1,1,,1
+document inlineContent filter in ingress-usage,2018-04-09,Merged,609,19,0,,0
+Add basic auth,2018-04-06,Merged,607,79,12,,2
+Add documentation for `compress()` to usage,2018-03-29,Merged,605,8,0,,0
+fix formatting,2018-03-28,Merged,604,1,1,,1
+doc(doc.go) fix hello world code example,2018-03-28,Merged,603,10,6,,1
+fix typo in ingress docs,2018-03-28,Merged,602,1,1,,0
+fix build,2018-03-27,Merged,601,1,0,,1
+plugins dir does not exist,2018-03-27,Closed,600,1,0,,1
+prevent startup failure when default plugin dir is missing,2018-03-27,Merged,599,8,1,,3
+"Multi plugins, plugin .conf filles",2018-04-18,Merged,598,617,87,Makefile go ,9
+Multi plugins,2018-03-26,Closed,597,456,64,Makefile go ,7
+[WIP] Add 'Retry-After' header,2018-09-12,Closed,596,130,16,lock yaml ,7
+Add cors origin filter.,2018-03-25,Merged,595,148,0,,4
+fix flaky tests relying on etcdtest,2018-03-21,Merged,594,93,6,,4
+Swarm ratelimiter,2018-10-23,Merged,593,"4,606",111,md ,3
+"load dataclients, filters and predicates from plugins",2018-03-26,Merged,592,500,14,go md yml ,4
+more tracing details,2018-03-21,Merged,591,19,0,,1
+Conn refused is bad gateway,2018-03-20,Merged,590,10,6,,3
+File watch,2018-03-26,Merged,588,496,52,eskip ,7
+remove concurrent test specs from https redirect test,2018-03-18,Merged,587,56,22,,1
+fixing routing config recovery after differential update errors,2018-03-18,Merged,586,73,5,go ,4
+Fix: empty group when no target endpoints + fix: id formatting for default backends with target endpoints + small improvements,2018-03-16,Merged,582,301,126,,1
+Add annotation for specifying custom routes on ingress,2018-03-17,Merged,581,161,16,md ,4
+fix test timeout in kubernetes http redirect,2018-03-15,Merged,580,3,2,,1
+docs videos tab,2018-03-16,Merged,579,19,0,yml ,1
+Using regex delimiter fails in character list in eskip #134,2018-03-15,Merged,578,66,4,,2
+Support legacy predicates in generic list,2018-03-15,Merged,576,464,0,,1
+"fix formatting, use -s switch",2018-03-13,Merged,575,16,16,,1
+initial tests that are based on the filesystem,2019-07-19,Closed,574,722,48,go ,3
+implementing the -indent option #270,2018-03-09,Merged,573,67,40,,6
+Expose default port 9090 in the Dockerfile,2018-03-08,Merged,572,2,0,,1
+Using regex delimiter fails in character list in eskip #134,2018-03-08,Closed,571,67,4,,2
+Fix/groupsize check in lb filter,2018-03-07,Merged,570,22,4,,2
+Feature/add migration path for metrics,2018-03-08,Merged,569,266,67,,4
+implementing the -indent option #270,2018-03-08,Closed,568,65,41,,6
+"fix dataclient part of the ""no endpoints"" problem",2018-03-09,Merged,567,224,48,,2
+Doc/architecture,2018-03-08,Merged,565,66,2,md ,2
+fix endpoint.Targets() to filter selected targets also by ports,2018-03-05,Merged,564,135,6,,3
+[doc] add modPath,2018-03-01,Merged,561,6,0,,0
+Remove hop headers,2018-03-02,Merged,558,134,10,,3
+computeBackendWeights: avoid rounding issues,2018-02-27,Merged,555,86,8,,2
+Fixed eskip examples to use camelCase,2018-02-13,Merged,553,10,10,,0
+document ingress-controller deployment,2018-02-13,Merged,552,52,14,md ,2
+Docs - kubernetes service types supported and oneline proxy,2018-02-07,Merged,550,25,1,,0
+Docs/k8s ingress-controller deployment,2018-02-05,Merged,548,2,2,,0
+split docs,2018-02-05,Merged,547,834,660,,0
+Fix tee test typo.,2018-01-23,Merged,545,1,1,,1
+Add scaled images,2018-01-19,Merged,543,1,1,md ,2
+Fix sample demo-ing.yaml,2018-01-17,Merged,541,2,2,,0
+Docs/operations,2018-01-19,Merged,540,357,0,yml ,1
+Conn handling,2018-01-15,Merged,538,275,132,,0
+all: drop underscore if param or receiver is unused,2018-01-09,Merged,537,17,16,,6
+LoadBalancer feature,2018-02-26,Merged,536,"2,569",515,go ,4
+Source predicate can be by passed in AWS,2018-01-17,Merged,533,285,63,,4
+Scripts docs,2018-01-04,Merged,530,234,0,yml ,1
+serve's body= parameter accepts a table,2018-01-04,Merged,529,26,19,yaml go ,3
+"[lua] add body=""string"" to ctx.serve()",2018-01-03,Merged,527,13,0,,1
+Improve error logs for invalid routes,2018-01-02,Merged,526,1,1,,1
+all: simplifications,2018-01-02,Merged,524,11,15,,7
+LUA Scripting,2017-12-28,Merged,522,910,3,lock md ,3
+proxy: simplify satisfying an interface,2017-12-28,Merged,521,7,19,,1
+all: fix typos,2017-12-28,Merged,520,19,19,md ,10
+Doc/kube use cases,2017-12-28,Merged,519,141,7,,0
+document use cases A/B test and auth header based rate limits,2017-12-22,Merged,518,135,7,,0
+uncenter skipper figure,2017-12-20,Merged,517,1,2,,0
+recover skipper image,2017-12-20,Merged,516,0,0,,3
+all: gofmt -s,2017-12-22,Merged,515,79,79,go ,13
+"eskip, filters: use `fmt.Errorf` directly",2017-12-18,Merged,514,3,4,,2
+routing: Replace for loop with expansion in append,2017-12-18,Merged,513,1,3,,1
+doc IP whitelisting,2017-12-14,Merged,510,30,12,,0
+Minor fixes for prometheus metrics,2017-12-07,Merged,509,7,7,,4
+Enable eskip to handle OAuth when working with etcd,2017-12-14,Merged,508,63,29,,11
+Prometheus metrics,2017-12-06,Merged,507,"2,244",947,lock yaml ,3
+re-add our logo..,2017-11-30,Merged,506,0,0,,1
+doc plugins and opentracing,2017-11-30,Merged,505,5,1,go ,1
+show how to run skipper using the routes file,2017-11-27,Merged,503,5,0,,0
+Remove unnecessary quotes from app name in the doc,2017-11-27,Merged,502,2,2,,0
+(WIP) add methods DecCounter & GetOrRegister,2017-11-27,Closed,501,0,0,,0
+fix build for osx/win,2017-11-27,Merged,498,7,1,,1
+add more links and docs,2017-11-21,Merged,497,48,13,,0
+Added initial MkDocs structure,2017-11-21,Merged,496,11,0,md yml ,2
+Fix link to docs,2017-11-20,Merged,495,1,1,,0
+initial docs,2017-11-20,Merged,494,574,1,,0
+fix naming of new functions,2017-11-19,Merged,493,1,1,,1
+Properly log the state of the circuits breakers.,2017-11-19,Merged,492,8,26,,2
+header copy filters,2017-11-13,Merged,488,376,0,,3
+Ordering bug,2017-11-09,Merged,484,194,21,,2
+Increase etcd index if delete the route root,2017-11-09,Merged,483,3,0,,1
+intro guides in readme,2017-11-05,Merged,481,229,8,,0
+create a filter for inline content,2017-11-02,Merged,480,249,0,,4
+create a data client for inline routes,2017-11-02,Merged,479,208,0,,5
+Feature/service ratelimit,2017-11-01,Merged,478,363,24,lock yaml ,9
+try to fix godoc formatting,2017-10-30,Merged,477,3,1,,1
+Kubernetes - shadow traffic,2017-10-30,Merged,476,23,0,,1
+changes readme.md to enable users,2017-10-30,Merged,475,23,5,,0
+set predicates using ingress annotation,2017-10-24,Merged,472,140,24,,2
+create a flag to disable detailed route update logging,2017-10-23,Merged,469,162,4,,6
+set arbitrary skipper filters from ingress annotation,2017-10-22,Merged,468,84,11,,2
+function for parsing predicates individually,2017-10-22,Merged,467,102,24,,2
+set arbitrary skipper filters from ingress annotation,2017-10-22,Closed,466,378,51,,4
+Fix route printing,2017-10-20,Merged,462,294,40,,2
+use latest go version in travis builds,2017-10-18,Merged,461,1,1,,1
+Update readme.md,2017-10-18,Merged,460,4,0,,0
+Allow using an exponentially decaying sample for histograms,2017-10-16,Merged,456,35,4,,3
+fix metrics timing issue in metrics test check,2017-10-16,Merged,455,43,16,,1
+rate limit support in ingress,2017-10-15,Merged,453,152,16,,2
+compatibility fix to the public builtin.Redirect() function,2017-10-13,Merged,452,7,3,,1
+add metrics for backend 5xx,2017-10-13,Merged,451,9,0,,2
+Allow non-TTY applications to execute eskip commands,2017-10-13,Merged,450,8,7,,2
+Add redirectToLower filter for case-insensitive redirects,2017-10-13,Merged,448,139,33,,3
+Fix broken markdown links in CONTRIBUTING.md,2017-10-10,Merged,447,12,12,,0
+Add combined filter processing metrics,2017-10-10,Merged,446,17,13,,1
+Add visualization Tree built from pathmux,2017-10-06,Merged,445,334,8,,3
+Provide access to backend metrics from filters,2017-10-06,Closed,444,81,27,,4
+Check length of flag.Args() to ensure the were parsed correctly,2017-10-05,Merged,442,5,0,,1
+show package ratelimit docs,2017-10-01,Merged,441,0,1,,1
+Create catchall per host instead of per ingress,2017-09-30,Merged,440,29,24,,2
+Document rate limiters,2017-09-27,Merged,439,94,0,md ,1
+Remove catchAll route for kube ingress,2017-09-30,Closed,437,1,88,,2
+set default tracer to noop,2017-09-20,Merged,435,1,1,,1
+ratelimit support via args,2017-09-22,Merged,434,"1,031",14,,5
+Add opentracing to skipper,2017-09-19,Merged,433,456,15,go lock yaml ,10
+add combined metrics for backend latency and response streaming,2017-09-15,Merged,431,32,12,,3
+Accept integers in programmatically created filter/predicate arguments. #296,2018-12-11,Closed,430,82,15,y ,9
+make route based metrics optional,2017-09-06,Merged,429,181,59,,3
+add community to readme,2017-09-04,Merged,427,9,0,,0
+Make default HTTP status configurable,2017-09-01,Merged,425,129,3,,7
+update dependencies,2017-08-15,Merged,417,8,5,,1
+remove outdated examples,2017-08-15,Closed,416,1,85,,1
+"add Makefile target ""lint""",2017-08-15,Merged,415,4,0,Makefile ,2
+Treat network errors as transient and defer updating routes,2017-08-10,Merged,410,32,28,lock yaml ,4
+Error early when apiserver is unreachable,2017-08-09,Merged,409,29,27,,2
+Routes count,2017-08-09,Merged,405,115,34,,2
+Reduce branding,2017-08-09,Merged,404,116,28,,3
+fix tests,2017-08-08,Merged,403,3,9,go ,2
+preserve incoming content length settings,2017-08-08,Merged,401,84,0,,2
+Small README edits,2017-08-08,Merged,397,7,9,,0
+Kubernetes ingress - health check handling change,2017-08-07,Merged,396,2,11,,1
+add an additional new line to the pretty printing separator,2017-08-08,Merged,393,24,7,,3
+add option to strip query strings from request URIs in the access logs,2018-06-19,Merged,392,123,26,,5
+Readme update,2017-08-04,Merged,391,48,28,,0
+Fix typo in Kubernetes data client,2017-08-04,Merged,389,2,2,,1
+fix typo,2017-08-04,Closed,388,2,2,,1
+remove rx copying from route lookup,2017-08-03,Merged,387,2,6,,1
+use shared compiled regular expressions,2017-08-02,Merged,385,237,74,,5
+Provide option to collect custom metrics inside filters,2017-09-04,Merged,384,75,2,,6
+Fix subtree conflict,2017-07-31,Merged,383,287,21,,3
+remove unnecessary logs for 404 route lookup failures,2017-07-28,Merged,381,49,13,,2
+fix benchmark scripts,2017-07-25,Merged,380,12,6,sh inc md ,5
+Fixing typo in enableBreakersUsage description,2017-07-25,Merged,379,1,1,,1
+use proper netmasks for private subnets,2017-07-20,Merged,378,2,2,,1
+Fix metrics endpoint,2017-07-18,Merged,374,4,0,,1
+Add internal tests for routing package,2017-07-18,Merged,373,86,2,yaml go ,3
+add vendoring check,2017-07-18,Merged,372,7,2,,1
+add dependency which was not added in the PR,2017-07-18,Merged,371,6,3,yaml ,2
+provide a shortcut flag to enable breakers without global settings,2017-07-20,Merged,370,13,1,,3
+reference the Kubernetes route source,2017-07-13,Merged,369,6,0,,1
+Add X-Flow-Id to the access logs,2017-07-12,Merged,368,32,14,,2
+raw migration of the skoap code to skipper,2018-04-27,Merged,367,"1,157",21,,3
+List current rules,2017-07-13,Merged,364,475,101,,7
+Circuit breaker,2017-07-13,Merged,362,"2,843",89,,3
+Move pathmux,2017-06-30,Merged,361,916,2,pathmux/LICENSE pathmux/Makefile md ,3
+replace godeps with glide,2017-06-29,Merged,359,101,52,json Godeps/Readme Makefile lock yaml ,6
+Add flag for logs in json format #326,2017-06-27,Merged,357,51,13,,4
+add license to the readme for compliance,2017-06-26,Merged,356,16,0,,0
+fix eskip patch append,2017-06-23,Merged,354,1,1,,1
+provide deps for coverage generator,2017-06-20,Merged,350,3,3,,1
+"fix license badge, provide coverage for sub packages",2017-06-20,Merged,349,23,5,Makefile md ,2
+Create SECURITY.md,2017-06-20,Merged,347,1,0,,0
+make Zappr compliant,2017-06-19,Merged,345,8,7,,1
+build with CDP,2017-06-19,Merged,344,42,0,,1
+consistency fix for metrics keys,2017-06-19,Merged,343,1,1,,1
+use metrics keys only from known hosts and methods,2017-06-13,Merged,342,31,2,,3
+update the logrus dependency,2017-06-17,Merged,340,23,23,go ,19
+Add ca-certificates to Docker image,2017-06-02,Closed,338,1,0,,1
+Updating docs with loopback info,2017-05-29,Merged,337,13,5,md ,3
+flag for ignoring the ingress class,2017-06-06,Merged,336,76,17,,4
+small documentation related fixes,2017-05-26,Merged,335,5,4,,2
+Add support for kubernetes.io/ingress.class annotation,2017-05-26,Merged,334,206,2,,4
+add illustrator source and svg for skipper logo,2017-05-25,Closed,333,"2,244",0,,0
+Tiny eskip doc update for loopback,2017-05-23,Merged,332,2,1,,1
+Loop backend,2017-05-22,Merged,331,"1,030",359,,3
+Implement traffic switching in kubernetes dataclient,2017-05-19,Merged,330,537,83,,2
+Fix eskip usage text for -innkeeper-url,2017-05-18,Merged,329,1,1,,1
+Proxy refactor,2017-05-22,Merged,327,463,311,,2
+refresh github travis token,2017-05-12,Merged,325,1,1,,1
+remove failing docker build,2017-05-11,Merged,323,0,3,,1
+update travis github key,2017-05-11,Merged,322,1,1,,1
+Added timeout option for tee filter,2017-05-11,Merged,321,37,13,,1
+implement traffic switching based on internal code,2017-05-08,Merged,319,871,1,,2
+tee filter does not follow redirects if user prefers so,2017-05-08,Merged,318,127,17,,3
+Fix escaping when unmarshal json,2017-04-21,Closed,317,7,1,,1
+silence the command expression for the format check in the Makefile,2017-04-19,Merged,316,1,1,,1
+bump go version in travis builds,2017-04-19,Merged,315,1,1,,1
+Etcd install script,2017-04-19,Merged,314,24,11,sh ,2
+Install etcd in Travis,2017-04-19,Closed,313,19,1,sh ,2
+Implement caching for kubernetes service endpoints,2017-04-18,Closed,312,23,6,,1
+Implement caching for kubernetes service endpoints,2017-04-19,Merged,311,74,6,,2
+add missing an,2017-04-13,Merged,310,1,1,,0
+add a small section kube ingress,2017-04-13,Merged,309,8,1,,0
+use a select for the signal in the goroutine from which the routing calls Load*,2017-04-06,Merged,307,153,2,,2
+add sigterm handler to change the return value for kubernetes,2017-04-06,Closed,306,18,2,,1
+Add '^' to start of path when getting them from kubernetes,2017-04-05,Merged,305,1,1,,1
+fix-backend-host-metrics,2017-03-24,Merged,303,8,7,,1
+Wire backend host metrics,2017-03-21,Merged,302,8,0,,2
+tee filter fixes,2017-03-16,Merged,300,120,17,,2
+packaging in a clean directory does not work,2017-03-13,Merged,299,1,1,,1
+HTTP->HTTPS redirect for Kubernetes,2017-03-13,Merged,297,236,21,,5
+remove unnecessary defer,2017-03-15,Merged,295,1,1,,1
+avoid copying unknown fields for the tee() request,2017-03-09,Merged,294,62,27,,2
+Unit tests for kubernetes client related functions,2017-03-07,Merged,293,473,54,,2
+patch for stdlib profile path handling,2017-03-06,Merged,292,6,6,,2
+expose profile info,2017-03-06,Merged,291,33,6,,5
+Get rid of kubectl proxy in skipper,2017-03-07,Merged,290,245,53,,2
+remove Raffo from maintainers list,2017-03-03,Merged,289,0,1,,1
+Support HTTPS requests in the Docker image,2017-06-07,Merged,288,5,4,packaging/Makefile md ,2
+try to fix ci build,2017-02-28,Closed,285,1,1,,1
+Automatic docker on release,2017-02-27,Merged,281,9,8,packaging/Makefile ,2
+automatically create docker images on releases,2017-02-23,Merged,280,24,17,packaging/Makefile ,2
+set the default command to skipper,2017-02-22,Merged,279,2,0,,1
+"set the body to nil for outgoing requests, when the content length is zero",2017-02-22,Merged,277,94,2,,2
+go vet fix: check error before using response,2017-02-22,Merged,276,6,2,,1
+Prototype for watching files & directories for routes,2018-03-26,Closed,275,370,12,,1
+Updating link to packaging readme,2017-02-17,Merged,273,1,1,,0
+Add filters and predicates from debug listener,2017-02-03,Merged,267,32,15,,2
+add prefix to error messages where it was missing,2017-02-06,Merged,266,7,7,go ,4
+Configure Zappr,2017-02-02,Closed,265,24,0,,1
+add prefix to error messages where it was missing,2017-02-02,Closed,264,7,7,go ,4
+Adding zappr config file,2017-02-02,Merged,262,8,0,,1
+Changed handling of transient kube apiserver errors,2017-01-27,Merged,261,0,55,,2
+fix versioning variable,2017-01-27,Merged,259,3,3,,1
+Introducing sem ver,2017-01-27,Merged,258,186,19,Makefile go ,6
+first draft of fswatch on the routes file,2018-03-26,Closed,257,84,23,,3
+Flowid generators interface,2017-01-20,Closed,256,57,35,,6
+go vet fixes,2017-01-20,Merged,255,69,31,go ,11
+refactored flowid to support having custom generators,2017-01-20,Merged,253,474,178,,3
+Service unavailable error,2017-01-16,Merged,247,36,4,,2
+Basic per backend host metrics,2017-01-20,Merged,245,22,10,,2
+Setting Content-Type header to application/json in debug,2016-12-16,Merged,238,3,0,,1
+Kube client,2016-12-15,Merged,236,465,9,,2
+log level in cli options,2016-12-12,Merged,234,10,0,,1
+"change dockerfile: support eskip and skipper, change to alpine base image",2016-12-09,Merged,233,57,13,dockerignore packaging/Dockerfile packaging/Makefile md ,4
+Kube client - kubernetes flag in the skipper command,2016-12-08,Merged,232,6,3,,2
+Non-existence predicate for query parameters,2016-12-08,Closed,231,182,1,,3
+Kube client,2016-12-08,Merged,229,"1,149",16,,1
+Go formatting,2016-12-05,Merged,228,5,5,,3
+fix the documentation of the diag filters:,2016-11-28,Merged,226,3,3,,1
+fix query param predicate documentation,2016-11-22,Merged,224,4,4,,1
+Eskip json,2016-11-23,Merged,223,243,21,,7
+Decimal printing,2016-11-21,Merged,221,46,2,,2
+force decimal notation in printin numbers,2016-11-11,Closed,220,46,2,,2
+Added a check for repeating route ids to `eskip check`,2016-11-09,Merged,219,31,2,,2
+bump travis go version,2016-11-06,Merged,218,1,1,,1
+create metrics for total serve time per host and route,2016-11-08,Merged,217,296,8,,3
+Added support for basic auth,2016-10-26,Merged,216,172,0,filters/auth/testdata/htpasswd ,5
+Added support for transformation with path params,2016-12-04,Merged,215,387,10,,6
+export redirect logic as a standalone function,2016-10-25,Merged,214,14,12,,1
+rename tee to follow conventions,2016-11-06,Merged,213,39,17,,5
+update tee filter docs,2016-10-17,Merged,212,16,9,,1
+Replace ReplaceAll with ReplaceAllString,2016-10-10,Merged,211,11,4,,2
+Set path filter,2016-10-10,Merged,210,160,60,,4
+Pathsubtree,2016-10-10,Merged,209,"2,354",88,,4
+Fix error handling on failed tee requests,2016-10-05,Merged,207,3,1,,1
+Tee filter,2016-09-10,Merged,206,394,0,,3
+#203 Share TLSClientConfig with upgrade protocol proxy,2016-09-02,Merged,204,21,26,,2
+Add replicateTo filter. Which can be used for shadow backends,2016-09-06,Closed,201,225,0,,3
+Priority trees,2016-08-30,Closed,200,321,74,,5
+Add Weights to predicates,2016-08-19,Closed,197,26,1,,6
+Query,2016-08-12,Merged,196,253,1,,3
+Glob standard in docs,2016-08-11,Merged,195,4,16,,1
+apply cookie predicate,2016-08-12,Merged,193,7,1,,1
+Close current body,2016-08-30,Merged,192,12,7,,2
+add warning to the docker readme,2016-08-12,Merged,190,4,0,,0
+Fixing tests by improving resource handling,2016-08-15,Merged,189,859,643,,10
+fix go formatting,2016-08-06,Merged,187,1,1,,1
+remove notifications from travis file,2016-08-06,Merged,186,0,4,,1
+create cookie predicate,2016-08-09,Merged,185,166,0,,2
+doc: Update Contributing.md,2016-07-29,Merged,183,40,7,,0
+Diag refactor,2016-08-14,Merged,181,67,23,,2
+Added pretty print functionality,2016-08-09,Merged,180,101,8,,5
+Disable the keep alive for innkeeper connections,2016-07-08,Merged,177,2,1,,1
+Flush in compress(),2016-07-08,Merged,176,117,1,,2
+Diagnostics tools - Network throttling,2016-07-14,Merged,174,962,0,,2
+Innkeeper,2016-07-05,Merged,173,275,160,,1
+accept innkeeper update action,2016-06-23,Merged,172,17,8,sh ,3
+Innkeeper,2016-06-22,Merged,171,289,548,,1
+Fixed error handling in applyPredicates,2016-06-21,Merged,170,6,1,,2
+fix command line flags in benchmark scripts,2016-06-19,Merged,168,2,2,,1
+Feature handle upgrade requests,2016-06-20,Merged,167,440,29,,3
+Dockerize,2016-06-16,Merged,166,39,0,md ,1
+Connection pooling,2016-06-07,Merged,164,560,177,,11
+Local Benchmarking,2016-06-06,Merged,163,502,102,eskip inc skptesting/cpu conf ,9
+Create CONTRIBUTING.md,2016-06-04,Merged,162,12,0,,0
+Compression,2016-06-02,Merged,161,"1,034",158,,2
+Compression,2016-05-30,Closed,160,"1,667",19,,2
+Extract delayed,2016-05-30,Merged,158,385,96,,3
+Simplify static filter,2016-05-25,Merged,156,41,92,,1
+fix race condition in listener tests,2016-05-19,Merged,152,78,18,,1
+Implemented TLS support,2016-05-18,Merged,150,195,13,crt key ,5
+Added write flag to log file,2016-05-02,Merged,147,1,1,,1
+Predicates that allow temporary routes. Between predicate makes the r…,2016-04-29,Merged,146,510,1,go ,2
+test,2016-04-22,Closed,145,1,0,,1
+disable time sensitive test,2016-04-22,Merged,144,5,1,,2
+fix developer installation in readme,2016-04-23,Merged,143,1,0,,0
+less return arguments in matchPathTree,2016-04-21,Merged,142,13,14,,2
+update pathmux godep entry,2016-04-21,Merged,141,8,4,go ,2
+Update go version,2016-04-21,Merged,140,76,37,json go ,7
+provide an option to set custom data clients,2016-04-21,Merged,139,7,1,,1
+Debug doc fieldnames,2016-04-13,Merged,138,3,3,,1
+update readme to show the full size mascot,2016-04-11,Merged,137,2,2,,0
+Debug endpoint,2016-04-11,Merged,136,622,100,,4
+add served set for new shunting,2016-04-07,Merged,135,4,4,,2
+Fix matcher,2016-04-21,Merged,133,66,14,,3
+Small fix to filtertest mocks,2016-04-23,Merged,131,1,0,,1
+test for #116,2016-04-19,Closed,130,35,0,,1
+#124: add enpoints rotation tests,2016-03-14,Merged,129,101,0,,1
+Path params,2016-03-14,Closed,128,234,29,,9
+Eskip patch filters,2016-06-07,Merged,127,405,204,,4
+Adding badges,2016-03-11,Merged,126,2,0,,0
+Added requested host to the access log,2016-03-10,Merged,125,25,20,,2
+client try endpoints optimization,2016-03-14,Merged,123,22,21,,1
+simple endpointErrors to string convertation,2016-03-10,Merged,122,17,6,,2
+Upgrade static,2016-03-08,Merged,121,319,28,,2
+Status filter,2016-03-08,Merged,120,88,0,,4
+Header filters,2016-03-08,Merged,119,347,110,,3
+Etcd authorization header,2016-03-06,Closed,118,"17,224","2,374",gitignore yml json Godeps/Readme LICENSE MAINTAINERS go ,8
+add test proxy,2016-03-03,Merged,117,22,2,,2
+re-enable real numbers for innkeeper,2016-03-03,Merged,115,20,85,,4
+extend innkeeper marshaling with custom predicates,2016-03-03,Merged,114,164,16,,4
+Documentation updates,2016-02-23,Merged,113,131,103,,2
+Update readme.md,2016-02-24,Merged,112,29,36,,0
+Update LICENSE,2016-02-18,Merged,111,4,199,,1
+Update the Innkeeper client to support other errors and status codes,2016-02-10,Merged,109,11,7,,2
+Source predicate,2016-02-10,Merged,108,308,0,,5
+Upgrade redirect header to new proxy,2016-02-22,Merged,107,158,142,,4
+Add some useful metrics,2016-02-08,Merged,106,60,0,,3
+Update readme.md,2016-02-01,Merged,104,1,2,,0
+Use the standard header for innkeeper authorization,2016-02-02,Merged,103,8,3,,2
+add insecure flag for eskip connections,2016-02-02,Merged,102,63,18,,8
+fix etcd timeout when etcd host in proxy mode,2016-02-01,Merged,101,37,5,,4
+Update README URLs based on HTTP redirects,2016-02-01,Merged,100,1,1,,0
+"Host header: revert default, support preserveHost",2016-01-21,Merged,95,484,37,,9
+Etcd client,2016-01-21,Merged,94,560,185,go ,5
+fine tune deprected filter shunting,2016-01-15,Merged,93,27,24,,1
+Deprecated Served() and now branding errors,2016-01-15,Merged,92,21,13,,2
+Added possibility to break the filter chain,2016-01-15,Merged,91,155,62,go ,6
+Custom predicates,2016-01-21,Merged,90,784,309,,2
+Eskip lexer refactor,2016-01-14,Merged,88,327,202,,0
+add x-forwarded-for override for access log remote addr value,2015-12-11,Merged,79,25,2,,2
+Always set the Host header from the original request by default,2015-12-08,Merged,78,1,1,,1
+fix header setting in the header filter,2015-12-11,Closed,77,94,3,,3
+Add innkeeper cli,2016-01-04,Merged,76,"1,185",325,,5
+Route settings log,2015-12-06,Merged,75,7,4,,2
+update godep file with zal repo,2015-12-04,Merged,74,1,286,,1
+Added Godeps,2015-12-04,Merged,73,323,0,json Godeps/Readme ,3
+fix lexer to trim comments in last position,2015-12-04,Merged,72,8,1,,2
+Fixed the bug in the metrics and switched to the UniformSample,2015-12-03,Merged,70,47,25,,3
+Innkeeper integration,2015-12-04,Merged,68,311,288,,1
+Refactored metrics to improve performance,2015-12-01,Merged,67,51,62,,3
+introduce atomic for the matcher (routing table) pointer,2015-12-01,Merged,66,17,24,,1
+Logging and monitoring,2015-11-20,Merged,60,"1,392",82,go ,8
+Added backend url to the filter context,2015-11-19,Merged,59,10,1,,3
+"Logging: cli flags, tests and documentation. Metrics: documentation.",2015-11-18,Merged,55,510,83,,7
+Logging options flags,2015-11-17,Closed,54,378,59,,6
+documentation fixes,2015-11-17,Merged,53,23,28,,9
+Access log,2015-11-13,Merged,52,165,125,,8
+Update readme.md,2016-02-01,Merged,51,7,7,,0
+Update readme.md,2015-11-11,Merged,50,12,10,,0
+Application and Access log - initial version,2015-11-11,Merged,48,180,14,,8
+Add travis integration,2015-11-11,Merged,47,76,2,go md ,5
+Monitoring support,2015-11-10,Merged,46,22,14,,4
+remove default etcd dataclient,2015-11-09,Merged,44,7,3,,1
+add monitoring info to the constructed filter instances,2015-11-10,Merged,43,22,14,,4
+add monitoring info to the constructed filter instances,2015-11-09,Closed,42,22,14,,4
+Fix quickstart doc,2015-11-09,Merged,41,1,9,md ,1
+fix quickstart instruction in the readme,2015-11-08,Merged,39,2,2,md ,1
+preserving original request and response,2015-11-06,Merged,38,210,40,,9
+review fixes,2015-10-30,Merged,36,2,1,,2
+Eskip tool,2015-10-30,Merged,35,"2,383",136,,2
+Release cleanup review,2015-10-27,Merged,34,"7,037","4,204",MAINTAINERS go ,5
+documentation,2015-10-27,Merged,28,"2,756","1,223",MAINTAINERS go ,3
+Update the readme to include Innkeeper,2015-10-23,Merged,27,1,3,,0
+Release cleanup,2015-10-19,Merged,26,565,17,,4
+more flexible location settings for the redirect filter,2015-10-19,Merged,24,150,12,,3
+Feature #18 add x flow,2015-10-19,Merged,23,391,1,,5
+make header matching case sensitive,2015-10-19,Merged,22,48,14,,3
+Release cleanup master merge,2015-10-14,Merged,20,15,0,,2
+client polling fixes,2015-10-16,Merged,19,13,5,,4
+Release cleanup,2015-10-12,Merged,17,843,246,,5
+Added some basic branding (X-Powered-By and Server headers),2015-10-12,Merged,16,15,0,,2
+Release cleanup data client,2015-10-07,Merged,13,"1,616","1,401",,6
+Strip query,2015-10-07,Merged,12,176,0,,3
+Release cleanup,2015-10-05,Merged,11,"3,340","1,815",,2
+Priority route,2015-10-03,Merged,10,229,56,,4
+Release cleanup,2015-10-03,Merged,9,"1,015","1,947",,5
+Innkeeper data client,2015-10-02,Merged,7,"1,521",41,go ,5
+Added state bag to filter context,2015-09-15,Merged,6,25,8,go ,7
+create redirect filter,2015-09-08,Merged,5,78,1,,4
+Replace mailgun,2015-09-08,Merged,4,"1,929",164,md ,6
+remove temporary disabling of connection pooling,2015-08-21,Merged,3,1,3,,1
+added ability to load routes from local file,2015-08-21,Merged,2,52,6,,3
+Update readme.md,2015-08-06,Merged,1,8,4,,0

@@ -1,0 +1,105 @@
+Add ; to the end of the Linux UnrealEnginePython.Build.cs pythonHome …,2019-11-27,Merged,811,1,1,,1
+Add remove_component_from_blueprint,2019-06-30,Merged,747,33,0,h ,3
+Adding edgraph functions reconstruct_node() and remove_node(),2019-06-18,Merged,741,127,0,h ,3
+Updates for UE4.22.,2019-06-06,Merged,732,5,1,h cpp ,3
+Split PythonHouseKeeper,2019-03-14,Merged,692,309,286,,1
+fixed 4.19 build,2019-03-14,Merged,691,3,0,,1
+Add break_all_links() and get_linked_to(),2019-03-12,Merged,688,40,0,,1
+Add support for unbind_event,2019-02-19,Merged,676,82,2,h ,7
+look for python in alternate custom location,2018-12-23,Merged,631,5,0,,1
+Adds version checking before calling TCHAR_TO_WCHAR,2018-12-13,Merged,628,8,0,,2
+Add backwards compatibility macro for TCHAR_TO_WCHAR.,2018-12-23,Merged,627,9,0,,1
+Use C++ conformant “_fileno” instead of “fileno”.,2018-12-12,Merged,625,3,3,,1
+Restore Windows stdio flags after Python initialisation.,2018-12-12,Merged,624,21,0,,1
+Added TCHAR_TO_WCHAR to fix issue 602,2018-12-12,Merged,623,2,2,,2
+added get_static_mesh_bounds method,2018-12-06,Merged,620,21,3,h ,3
+Fixed division bug in FVector,2018-12-12,Merged,619,20,1,,1
+added FVector2D wrapper,2018-12-12,Merged,618,421,1,,1
+added support for FBoxSphereBounds,2018-12-05,Closed,597,238,2,h ,5
+add support for native types like FVector in method params,2018-11-28,Merged,595,220,63,h ,10
+Fix PythonFunction for 4.19,2018-09-13,Merged,533,10,6,,1
+"pyactor add  function ""set_actor_hidden_in_game""",2018-08-13,Merged,504,31,0,h ,3
+py_ue_sequencer_import_fbx_transform support 4.20,2018-08-04,Merged,493,88,11,,1
+Fix sequencer example based on change since 4.18,2018-06-24,Merged,448,5,4,,1
+Fix misnamed method in Subclassing API docs,2018-06-12,Merged,436,1,1,,0
+Fix Unreal 4.18 compilation,2018-05-31,Merged,425,4,0,,1
+fix rename asset definition,2018-05-29,Merged,424,9,11,,1
+"Apply (char *) to static strings, exclude TSharedRef<IPlugin>plugin f…",2018-05-17,Merged,413,13,12,cs ,5
+FSlowTask support,2018-05-03,Merged,408,240,0,h py ,4
+Fix the name of the .h file to modify to enable threading,2018-04-30,Merged,406,1,1,,0
+Script to generate pyi stubs.,2018-05-01,Merged,405,152,0,,1
+Add additional search paths for python modules,2018-05-01,Merged,404,60,17,h ,3
+Allow Class objects to be assigned to Properties that take a UObject,2018-04-30,Merged,399,8,0,,1
+Add graph_add_node_dynamic_cast,2018-04-27,Merged,396,57,0,h ,3
+fixed typo in UEPyFRandomStream.cpp,2018-04-23,Merged,385,1,1,,1
+"Fixed typo, Bulding -> Building",2018-04-22,Merged,383,1,1,,0
+Fix packaging issue for 4.19,2018-04-24,Closed,382,89,62,cpp ,38
+"Added ""set static switch parameter"" for material instance",2018-08-05,Merged,365,69,0,h ,3
+updated PlottingGraphWithMatplotlibAndUnrealEnginePython.md,2018-11-28,Merged,357,2,2,py ,1
+Fixed warning Definition to PublicDefinition in build.cs,2018-11-07,Closed,355,0,0,,0
+Fixed all 4.19 warnings.,2018-03-17,Closed,351,6,4,cs ,2
+Update Material_API.md,2018-03-08,Merged,342,2,2,,0
+Fixed logging message for garbage collect delegates.,2018-03-08,Merged,331,1,1,,1
+Add new geters for fbx curve key,2018-02-27,Merged,328,106,0,,1
+Add global support for Struct Ref + other minor features,2018-02-21,Closed,322,856,403,h ,10
+Added extra info on create_material_instance,2018-02-16,Merged,318,7,0,,0
+"Add PyCalllable_Check_Extended macro to guard against ""callable"" uscr…",2018-02-10,Merged,308,37,33,h ,12
+"Major Slate extensions: SPythonListView, better declarative Slate Support, etc",2018-02-09,Merged,307,"2,550",407,cpp h ,15
+Update PythonConsole.md,2018-02-10,Merged,306,8,10,,0
+Adding documentation for transactions with attribute/property modifications,2018-02-06,Merged,303,33,0,,0
+Extending SPythonWidget & SPythonListView for fully featured listviews in python,2018-02-09,Closed,267,"2,550",407,cpp h ,15
+Added the rest of the documentation,2017-11-07,Merged,256,50,0,,0
+Typo in create_unique_connection_name,2017-11-07,Merged,255,1,1,,1
+Fix debug print type overflow,2017-11-04,Merged,252,1,1,,1
+[Minor] Fix FLinearColor expectations for various draw_ functions,2017-10-13,Closed,238,8,8,,1
+streaming_level.LoadedLevel returned None,2017-10-03,Merged,235,3,2,,1
+Fixed a compilation error in UE-4.17,2017-09-07,Merged,224,1,1,,1
+Added LevelSequenceEditor as Plugin dependency per new 4.17 requirements,2017-08-24,Merged,218,38,32,,1
+UE4 Editor shutdown crash fix,2017-07-28,Merged,199,5,0,,1
+Added end_play to cleanup python resources correctly.,2017-07-13,Merged,193,22,0,h ,2
+PythonComponent: Added function to return MAP strings.,2017-07-02,Merged,189,57,0,h ,2
+Changed the include lines to handle new file names,2017-06-20,Merged,184,14,14,,7
+Exposing attributes to SVectorInputBox,2017-06-13,Merged,176,26,6,uplugin ,3
+Missing include header + ability to find_object scoped to current game world,2017-06-09,Merged,175,28,3,cpp ,5
+Enabling FToolBarBuilder to be manually instantiated,2017-05-30,Merged,171,14,6,cpp ,4
+Build issues were missing header references and wrong storage class,2017-05-25,Closed,169,5,2,h ,5
+Created a 'write_audio_to_buffer' function.,2017-05-09,Merged,166,31,0,h ,3
+Added create_uobject method.,2017-05-07,Closed,165,35,0,h ,3
+Update YourFirstAutomatedPipeline.md,2017-04-25,Merged,151,10,2,,0
+Moves *.cpp files from Public to Private.,2017-04-12,Merged,147,0,0,,9
+Fixes issue with passing 2 args to FindPossessableObjectId,2017-04-12,Closed,146,1,1,,1
+Fixes issue with PyFARFilter not initializing correctly.,2017-04-12,Merged,144,1,1,,1
+Machina.widmo.working,2017-08-28,Closed,137,55,51,cs ,5
+fixed #129 engine crash,2017-03-20,Merged,132,6,1,,0
+Update README.md,2017-03-01,Merged,126,4,4,,0
+added PythonEditor Module,2017-02-23,Merged,125,"3,340",2,png cpp h ,13
+Fixed the build on linux python2.7,2017-02-20,Merged,124,16,16,,1
+Updated README to discuss get_py_proxy,2017-01-15,Merged,105,35,0,,0
+Fix Mac compilation,2016-11-28,Merged,82,5,1,,2
+Fix Python compiling issue with editor,2016-11-28,Merged,80,9,6,cs ,3
+Add flag to return FAssetData,2016-11-18,Merged,78,176,3,h ,6
+Adds anim_sequence_get_skeleton,2016-11-18,Merged,77,33,0,h ,4
+Allows a package to also call save_package.,2016-11-14,Merged,76,5,2,,1
+Fixes pygilstate compiler errors for Python < 3.,2016-11-08,Merged,72,6,4,h ,2
+Add new functions to support creating and updating material instances,2016-11-18,Closed,70,319,28,cpp h ,5
+added and fixed functions,2016-10-31,Merged,69,83,8,h ,3
+added vector function length_squared,2016-10-31,Merged,67,28,0,,1
+added physics function add_force,2016-10-23,Merged,61,46,0,h ,3
+"added physics functions add_impulse, add_angular_impulse",2016-10-22,Merged,60,92,0,h ,3
+Add physics function set_physics_angular_velocity and Update contributors,2016-10-20,Merged,58,47,0,cpp h ,4
+Fixes for macOS build,2016-10-22,Merged,57,13,13,,2
+Refactors get_asset_import_data to return list of dicts.,2016-10-22,Merged,56,10,7,,1
+Adds back missing header declaration.,2016-10-19,Merged,54,1,0,,1
+added physics function get_physics_angular_velocity,2016-10-18,Merged,53,29,0,h ,3
+added physics function add_torque,2016-10-17,Merged,50,47,1,h ,3
+Adds new methods.,2016-10-18,Merged,49,96,5,h ,7
+Adds in check for PyString when running python27,2016-10-14,Merged,48,29,14,h ,9
+Updates contributors list.,2016-10-13,Merged,46,1,1,,1
+Adds FARfilter support,2016-10-13,Merged,43,391,0,h ,3
+Adds A Basic Python Commandlet.,2016-10-14,Merged,40,104,1,h ,3
+Adds Support for FTicker,2016-09-17,Closed,14,122,1,h ,5
+Python 2.7 Compatibility and Additional Tweaks.,2016-09-19,Closed,13,145,34,cs h py ,7
+Update PythonConsole.md,2016-09-01,Merged,11,1,1,,0
+"Fix folder name in the ""Installation on MacOSX"" documentation",2016-08-28,Merged,9,1,1,,0
+Fix path to plugin binaries on MacOSX,2016-08-12,Merged,3,1,1,,0
+Add upgrade on MacOS docs to README,2016-08-10,Merged,2,20,0,,0

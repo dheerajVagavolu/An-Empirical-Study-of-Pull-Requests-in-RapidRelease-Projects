@@ -1,0 +1,103 @@
+replace optional force unwrapping with more safe way,2020-01-02,Merged,653,6,7,,1
+Update CI to use current iOS sdk,2019-12-11,Merged,648,27,3,,1
+ref #623 - add SwiftUI example,2019-12-12,Closed,635,340,7,swift json png jpg ,25
+HeroContext Crash Fix,2019-11-17,Merged,634,15,8,,1
+README.md Linting,2019-10-30,Merged,632,18,14,,0
+Add codecov config,2019-10-31,Merged,631,45,3,md ,2
+CODEOWNERS and auto_assign.yml,2019-10-29,Merged,630,36,0,yml ,2
+GitHub Action - Test/Build PRs,2019-10-29,Merged,627,78,4,xcscheme ,3
+Docs - Fix URLs in Jazzy config,2019-10-29,Closed,626,"1,088","1,085",podspec html ,6
+GitHub Action - Rebase command,2019-11-24,Merged,625,16,0,,1
+CI - GitHub actions for test/build,2019-10-29,Merged,622,12,0,plist ,2
+CI/CD/Shell tools,2019-12-12,Merged,621,"1,143",0,yml mk awk ,5
+[Release] 1.5.0,2019-10-29,Merged,620,"63,355",935,yaml swift-version md swift json png storyboard plist podspec ,14
+Remove access modifier warnings,2019-10-08,Merged,616,72,70,,5
+Get rid from many warnings,2019-07-10,Closed,607,49,47,xcscheme swift ,10
+Remove Swift files from framework bundle products,2019-10-21,Merged,592,0,8,,1
+Fix undesired navigation / tab bar controller state,2019-10-09,Closed,578,17,2,,2
+Use more minimal import,2019-10-21,Merged,560,1,1,,1
+Update Collection 2.0,2018-10-25,Merged,553,191,157,,2
+Add issue template,2018-10-14,Merged,546,37,0,,0
+Use custom snapshot for views that implements HeroCustomSnapshotView,2018-12-27,Merged,541,14,1,swift ,1
+[Release] Hero 1.4.0 with Swift 4.2 support,2018-10-14,Merged,534,286,165,md swift podspec pbxproj xcscheme lock ,11
+Move installation instructions to README.,2018-09-15,Merged,533,63,51,,0
+Hero 1.3.1 and new CHANGELOG,2018-09-11,Merged,528,32,2,podspec plist ,2
+Hidden subviews not taken in account in optimized snapshot type,2018-12-27,Merged,521,6,1,swift ,1
+Keep using default navigation animation direction with RTL languages,2018-12-27,Merged,520,45,2,swift ,3
+Dont store strong references to Navigation and TabBarController delegates,2018-08-29,Merged,516,2,2,,1
+Hidden subviews not taken into account in optimized snapshot type,2018-08-28,Closed,513,11,3,,2
+Updates to swift 4.2. Fixes many linting warnings,2018-09-16,Closed,490,171,150,pbxproj xcscheme ,11
+fix safeArea transition with flicker in iPhone x,2018-06-05,Closed,471,14,5,,1
+[Core] Providing completion for very basic handlers,2018-06-06,Merged,456,4,4,,1
+Fixed Shadow Issues,2018-04-27,Merged,440,13,1,,1
+Update for Xcode 9.3 and Swift 4.1,2018-04-12,Merged,439,17,9,xcscheme plist swift ,5
+Added previous delegate calls for UINavigationController,2018-04-27,Merged,430,12,0,,1
+Update README.zh-cn.md,2018-03-23,Merged,429,12,12,,0
+copy image view resizing filter to snapshot,2018-03-23,Merged,428,3,0,,1
+Add UIView+Hero.swift and UIViewController+Hero.swift to public headers,2018-03-23,Merged,425,8,0,,1
+TabBarController.selectedViewController issue,2018-02-23,Merged,407,1,1,,1
+Add type hinting to CascadeDirection comperator,2018-02-23,Merged,403,26,6,,1
+Fix small typo on City Guide Example,2018-02-23,Merged,398,1,1,,1
+Forward didShow and willShow to previousNavigationDelegate,2018-02-15,Closed,397,9,0,,1
+Fix debug plugin to respect iPhone X safe insets,2018-01-31,Merged,375,11,5,,1
+Prevents UITabBarController animation from being fired multiple times,2018-01-31,Merged,373,3,0,,1
+Make tvOS Shared to be detected by Carthage,2018-01-31,Merged,370,82,0,,1
+* cg+hero refactoring,2018-01-11,Merged,369,51,49,,1
+PR to https://github.com/lkzhao/Hero/issues/348,2018-01-31,Merged,367,429,227,swift ,8
+Improve @objc usage for objective-c usage/Xamarin bindings,2019-11-23,Closed,355,191,167,,4
+Fix a crash force unwrap.,2017-11-25,Merged,335,6,2,,1
+"Changes observeForProgressUpdate protection level to public, instead of internal",2017-11-19,Merged,329,1,1,,1
+Use context's final frame for destination,2017-11-22,Merged,327,5,1,,1
+Clarify UsageGuide instructions and fix grammar,2017-11-05,Merged,311,10,14,,0
+"Fix minor spelling and grammar, and clarify some sentences",2017-10-25,Merged,308,7,7,,0
+Fix overlay layer animation bug,2017-10-25,Merged,304,1,1,,1
+[Project] Fix for swift 4,2017-10-16,Closed,298,9,7,swift ,2
+Fixed typo,2017-10-25,Merged,296,3,3,md ,2
+Remove warning on Xcode9 && Swift4.,2017-10-25,Merged,291,3,3,,1
+Swift 4 Package compatibility,2017-10-25,Merged,284,16,6,,6
+hotfix flashing navigation controller transitions (iOS11),2017-09-27,Merged,276,1,1,,1
+Updated for Swift4,2017-09-13,Merged,264,3,3,,1
+Fixes Issue #209 - Views with transforms applied transitioning properly,2017-07-10,Closed,210,"14,346","6,203",swift-version yml storyboard swift ,7
+Just fixed some warnings,2017-04-24,Merged,194,24,39,,7
+Fix spring modifier document,2017-04-24,Merged,183,1,1,,1
+Create autoReverse function in HeroDefaultAnimationType enum.,2017-04-24,Merged,178,149,63,,1
+Create the enum function for auto reverse when presenting or pushing a VC,2017-04-06,Closed,177,149,63,,1
+Creates reverseMode feature. Solves issue # 174,2017-04-06,Closed,175,149,63,,1
+Fix HeroTabBarAnimation would black view crash if switch tabs quickly,2017-04-24,Merged,173,10,0,,1
+ReverseMode Feature,2017-04-04,Closed,172,82,0,,2
+Forward navigation delegate methods to previous navigation delegate,2017-07-02,Closed,170,"14,228","6,203",swift-version yml storyboard swift ,7
+Added heroEnabled property on view,2017-04-06,Merged,169,16,2,,1
+"Fixed deserialization of ""selectBy""",2017-03-22,Merged,158,1,1,,1
+Add in recursive clean up for IgnoreSubviewModifiersPreprocessor.,2017-03-22,Merged,156,10,9,,1
+Indent,2017-03-22,Merged,142,17,17,,1
+"Fix ""Empty Count"" error of swiftlint",2017-03-11,Merged,141,23,21,,11
+fix warning 'M_PI is deprecated' in Swift 3.1,2017-03-10,Merged,136,6,6,,2
+Force non fade transition + fixes,2017-03-04,Merged,129,53,38,,5
+Added large_tuple to list of disabled SwiftLint rules,2017-02-23,Merged,115,1,0,,1
+Support overlay modifier in string modifiers,2017-02-15,Merged,93,6,0,,1
+Added Default Animation,2017-02-11,Merged,83,574,107,,1
+preliminary Over full screen support,2017-02-10,Merged,78,405,160,json storyboard swift ,6
+Add tvOS target,2017-02-07,Merged,71,731,13,xcscheme swift json ,22
+Insert one whitespace after colon and before opening brace,2017-02-04,Merged,66,90,90,,7
+Compile error - missing import,2017-01-24,Merged,57,2,0,,1
+SwiftLint integration and code style improvements,2017-01-19,Merged,52,821,689,pbxproj swift ,9
+Delegate issue fix,2017-01-19,Merged,49,2,2,,1
+Fixed issue where Hero misplaces original delegates,2017-01-18,Merged,46,44,2,,1
+Fix typos,2017-01-16,Merged,43,2,2,,0
+Fixed didEndAnimating calling,2017-01-14,Merged,41,15,15,,1
+Some improvement on code quality,2017-01-16,Merged,39,66,61,,11
+Refactoring source code,2017-01-10,Merged,33,59,62,,1
+fix heroReplaceViewController when there are no parent view controller,2017-01-09,Merged,30,5,5,,1
+Removed duplicated case for zPosition modifier,2017-01-08,Merged,28,0,4,,1
+Swift Package Manager support,2017-01-15,Merged,23,150,111,podspec swift ,23
+Fix UIStackView Layout issue during transition,2017-01-07,Merged,22,20,6,,2
+Refactor HeroModifiers into a swift enum,2017-01-07,Merged,20,"1,058",810,pbxproj storyboard ,3
+Temp fix for stack view,2017-01-06,Merged,18,17,1,,2
+Fix imageView animation for bounds change,2017-01-06,Merged,16,110,19,json jpg storyboard swift ,15
+Adding Modifier Composition API,2017-01-04,Closed,15,196,2,swift ,4
+Fixed typos,2017-01-04,Merged,13,3,3,md ,1
+Code refactoring,2017-01-04,Closed,12,"1,800","1,796",,3
+Fix small typo in Readme,2017-01-03,Merged,6,2,2,,0
+Easier access for other devs,2017-01-07,Merged,5,110,101,,1
+Update README.md,2017-01-02,Merged,4,1,1,,0
+XCode ➡️Xcode,2017-01-02,Merged,3,1,1,,0

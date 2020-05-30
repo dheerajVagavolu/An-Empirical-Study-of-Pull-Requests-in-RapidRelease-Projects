@@ -1,0 +1,2450 @@
+Test PR,2020-01-13,Closed,5549,1,1,,0
+Exception data as strings instead of type and datetime,2020-01-08,Merged,5548,21,4,,2
+Update Particular.Packaging in release-7.2,2019-12-17,Merged,5547,8,6,csproj ,8
+Update Particular.Packaging in release-7.1,2019-12-17,Merged,5546,9,7,csproj ,9
+Update Particular.Packaging in master,2019-12-17,Merged,5545,9,7,csproj ,8
+Add test for TransportInfrastructure in settings,2019-12-13,Merged,5542,47,0,,1
+Include assembly file version in startup diagnostics,2019-12-11,Merged,5541,8,11,,2
+Remove mention of obsoleted AsA_Publisher role,2019-12-02,Merged,5539,2,2,,1
+Fix return value description for DeduplicateMessage,2019-11-28,Merged,5535,1,1,,1
+Remove duplicate assignment,2019-11-22,Merged,5533,0,1,,1
+Add host creator to make endpoint creator more clean,2019-11-22,Merged,5532,164,161,,6
+Split larger components with partials,2019-11-22,Merged,5531,612,557,,2
+Don't use PipelineSettings after PipelineComponent.Initialize,2019-11-22,Merged,5530,5,10,,3
+Move installer to the host,2019-11-22,Merged,5529,112,135,,7
+Allow behavior registration via PipelineComponent,2019-11-22,Closed,5528,23,12,,3
+Move hosting initialisation out of the endpoint creator,2019-11-21,Merged,5527,36,11,,6
+Adjust RoutingComponent,2019-11-21,Merged,5526,121,97,,8
+Receive settings fixes,2019-11-21,Merged,5525,7,3,,2
+Split component class into partial classes,2019-11-22,Closed,5524,242,219,,1
+Pass queue bindings via transport seam,2019-11-21,Merged,5523,40,34,,6
+Do not register behaviors that are not needed for read only endpoint,2019-11-22,Merged,5521,20,18,,1
+Only add diagnostics if it's not a read-only endpoint,2019-11-21,Merged,5520,2,2,,1
+Convert ReceiveComponent to be used with multi-staged model,2019-11-20,Merged,5519,359,231,,7
+Remove transport component,2019-11-21,Merged,5518,221,289,,5
+Align hosting to new phased config model,2019-11-19,Merged,5516,182,143,,7
+Register terminators when using migration-mode on send-only endpoints,2019-11-20,Merged,5515,55,0,,2
+Create RootContext outside of PipelineComponent,2019-11-19,Merged,5514,36,51,,7
+New phased approach to component init,2019-11-19,Merged,5513,115,96,,7
+[WIP] Initialize ReceiveComponent before FeatureConfigurationContext,2019-11-19,Closed,5512,9,9,,1
+Create receive pipeline in component,2019-11-19,Merged,5511,11,14,,4
+Use recoverability notifications for acceptance tests,2019-11-18,Merged,5510,66,83,,8
+Make container part of hosting,2019-11-18,Merged,5508,111,180,,5
+Move Sending feature logic to TransportComponent,2019-11-18,Merged,5507,69,79,,5
+Move StorageInitializer feature into MessageDrivenSubscriptions feature,2019-11-18,Merged,5506,48,39,cs ,4
+Move AutoCorrelationFeature into Sagas feature,2019-11-15,Closed,5505,23,15,,3
+Move ReplyAddressFeature into RoutingComponent,2019-11-15,Merged,5504,59,33,,4
+Remove shared notifications infrastructure,2019-11-15,Merged,5503,211,240,,14
+Update approval file,2019-11-14,Merged,5502,1,1,,0
+Format readme,2019-11-14,Closed,5501,7,7,,0
+Remove use of NUnit explicit attribute,2019-11-14,Closed,5500,4,3,xml ,3
+Fix master build,2019-11-14,Merged,5499,6,9,,4
+Move RegisterHandlersInOrder feature into ReceiveComponent,2019-11-14,Merged,5498,134,122,,5
+Obsolete removed OutgoingPipelineFeature,2019-11-14,Merged,5497,20,0,,1
+fix inspection,2019-11-13,Merged,5496,0,1,,1
+Create send pipelines in SendComponent,2019-11-14,Merged,5495,180,156,,4
+Move list of scanned types to hosting component,2019-11-14,Merged,5494,187,129,,6
+Move Receive feature to ReceiveComponent,2019-11-13,Merged,5493,158,118,,9
+Move critical error into hosting component,2019-11-13,Merged,5492,24,24,,5
+Only allow builder access when starting,2019-11-12,Merged,5491,80,62,,7
+Rework routing component,2019-11-12,Merged,5490,87,52,,5
+Only allow builder access when starting,2019-11-12,Closed,5489,82,57,xml ,8
+Support C# 8 nullable reference types for interface messages,2019-11-15,Merged,5488,41,83,csproj dll ,4
+Rework pipeline component,2019-11-11,Merged,5487,56,65,,8
+Introduce SendComponent,2019-11-13,Merged,5486,108,135,,6
+Move queue bindings into the transport component,2019-11-11,Merged,5485,73,65,,6
+Move queue bindings into the transport component,2019-11-10,Closed,5484,71,64,,6
+Move startup diagnostics feature to hosting component,2019-11-11,Merged,5483,147,77,,7
+Add transport component,2019-11-09,Merged,5482,145,95,,8
+WIP: Use get custom attributes data,2019-11-14,Closed,5481,30,73,csproj dll ,4
+add failing test for dodgy nullable attribute,2019-11-14,Closed,5480,13,0,csproj dll ,3
+Add a basic hosting component,2019-11-08,Merged,5479,241,178,cs ,8
+Better align receive component with guidelines,2019-11-08,Merged,5478,67,57,,3
+Switch to static factory method for installation component,2019-11-08,Merged,5476,79,32,,4
+Seting LangVersion to 7.3,2019-10-29,Merged,5474,1,1,,1
+Setting LangVersion to 7.3,2019-10-29,Merged,5473,1,1,,1
+Setting LangVersion to 7.3,2019-10-30,Merged,5472,2,2,,1
+Seting LangVersion to 7.3,2019-10-29,Closed,5471,5,0,,1
+Seting LangVersion to 7.3,2019-10-29,Closed,5470,5,0,,1
+Dont ignore IsCancellationRequested in Analyzer,2019-10-29,Merged,5468,4,0,,1
+Make When_handling_concurrent_messages compatible with NHibernate,2019-10-23,Merged,5466,6,6,,1
+Fix leanringtransport directory check,2019-10-17,Merged,5462,3,4,,1
+Improve persistence check to throw when both persistences are enabled and different,2019-10-16,Merged,5460,40,6,,2
+Avoid exceptions when key already exists,2019-10-15,Merged,5457,6,6,,2
+Cleanup persister use in tests,2019-10-27,Merged,5456,54,39,,7
+Fix DisablePublishing,2019-10-11,Merged,5455,37,17,,3
+[Spike] Move notifications to components,2019-11-14,Closed,5454,169,231,,14
+Give user defined licenses precedence,2019-10-14,Merged,5453,9,4,,2
+Clarify PreStartupCheck XML documentation,2019-10-09,Merged,5452,10,4,,2
+Fix other redundant newlines,2019-10-09,Merged,5451,199,32,cs ,5
+Prevent forwarding header manipulations to leak into main pipeline,2019-10-09,Merged,5450,94,1,,2
+Task-based notifications API,2019-10-10,Merged,5449,354,37,txt ,7
+Add Installation component,2019-10-25,Merged,5448,90,57,,2
+Fix redundant new lines in log,2019-10-04,Merged,5446,2,2,,1
+Add additional exception information,2019-10-04,Merged,5445,83,4,,3
+Remove internal behaviors from the DI,2019-10-04,Merged,5444,8,16,cs ,1
+Make ReceiveComponent.Start async,2019-10-04,Merged,5443,13,11,,4
+Check for saga correlation property for null to avoid NullReferenceException,2019-10-04,Merged,5442,69,0,,2
+Adjust names of the PipelineComponent lifecycle methods,2019-10-02,Merged,5441,19,14,,3
+Throw better exceptions when subscribing/unsubscribing on send-only endpoints,2019-10-03,Merged,5440,188,20,,11
+Invoke PreStartupChecks in transport tests,2019-10-03,Merged,5439,25,2,cs ,3
+Lock settings outside feature component,2019-10-01,Merged,5438,2,4,,2
+Add additional log information when handlers fail,2019-10-03,Merged,5437,88,50,,6
+Document SendOptions,2019-10-01,Merged,5436,19,1,,6
+Add check to verify if outbox and sagas use same persistence,2019-10-03,Merged,5435,92,31,,4
+Align behavior names,2019-10-03,Merged,5434,52,52,cs ,25
+Add ContextBag to ErrorContext,2019-10-03,Merged,5433,56,0,cs ,2
+Log debug statement when publishing without subscribers with message-driven transport,2019-10-03,Merged,5432,39,1,,2
+Expose native message ID on the IncomingMessage,2019-10-01,Merged,5431,56,1,cs ,2
+Allow disabling publish functionality,2019-10-02,Merged,5430,154,13,txt ,5
+Add test to document transport dependency on feature state,2019-09-30,Merged,5429,94,0,,3
+Encapsulate feature related code into a FeatureComponent,2019-09-30,Merged,5427,96,81,,10
+Introduce InitializeFrom on FeatureInfo,2019-09-24,Merged,5426,18,7,,1
+Use a factory method for the feature setup context,2019-09-24,Merged,5425,61,34,,8
+Make MessageHandlerRegistry configurable,2019-09-25,Merged,5424,112,1,,2
+Stop using DI to get access to the RecoverabilityExecutorFactory,2019-09-24,Merged,5422,246,201,cs ,4
+Cleanup routing component,2019-09-19,Merged,5421,19,26,,2
+Remove leftover generic type parameter from subscription migration mode APIs,2019-09-11,Merged,5419,6,6,cs ,1
+Switch to beta,2019-09-10,Merged,5418,1,1,,1
+Update testing packages,2019-09-10,Merged,5417,18,18,,7
+Log as warning when publishing a non IEvent message,2019-09-09,Merged,5416,1,1,,1
+"Move to ""startable"" instead of ""configured""",2019-09-09,Merged,5414,52,66,txt ,10
+Add subscription migration mode feature,2019-09-11,Merged,5413,692,1,txt ,7
+Fix resharper inspections to comply with the 2019.2.2 runner,2019-08-30,Merged,5412,3,2,,3
+Add new API that allows usage of an externally managed container,2019-09-10,Merged,5411,849,299,,8
+Switch to release flow,2019-08-12,Merged,5409,"1,822","1,149",md yml ps1 targets ,4
+Update to PublicApiGenerator 9.3,2019-08-05,Merged,5408,254,254,,0
+Add new transport configuration API,2019-08-21,Closed,5406,15,1,cs ,1
+ReceiveComponent cleanup,2019-08-06,Closed,5404,83,71,,7
+Improve best practice validation exception message,2019-07-09,Merged,5403,8,8,,2
+Improve log message in AssertIsValidForPubSub,2019-07-09,Merged,5402,2,2,,1
+Expose MessageId on DelayedRetryMessage,2019-07-02,Merged,5401,35,0,cs ,2
+Mapping an interface containing an attribute that has a nullable property fails,2019-10-11,Merged,5400,31,0,,1
+[SPIKE] DI constraint spike,2019-08-30,Closed,5399,559,297,,5
+Hotfix 7.1.10 to develop,2019-06-21,Merged,5397,75,41,,3
+Memory leak in InMemoryGatewayDeduplication results in OutOfMemoryException,2019-06-21,Merged,5396,75,41,,3
+Hotfix 7.1.10,2019-06-21,Merged,5395,75,41,,3
+Add configuration API for In memory gateway deduplication persistence,2019-07-02,Merged,5394,54,3,txt ,5
+Add acceptance test that tests Saga and Outbox together,2019-06-11,Merged,5392,134,0,,1
+Done delegate should accept outContextType,2019-05-23,Merged,5389,2,5,,1
+Done delegate should accept outContextType,2019-05-23,Closed,5388,2,5,,1
+Using callbacks to reply with Int or Enums is broken,2019-05-21,Merged,5387,78,1,,2
+Merge Hotfix 7.1.9 back to develop,2019-05-21,Merged,5386,78,1,,2
+Using callbacks to reply with Int or Enums is broken,2019-05-21,Merged,5385,78,1,,2
+Fix namespace of test,2019-05-17,Merged,5384,2,2,,1
+Allow downstreams to support Int and Enum replies,2019-05-20,Merged,5383,78,1,,2
+Remove unnecessary self-registration of InitializableEndpoint,2019-05-16,Merged,5381,1,2,,1
+Remove DefaultScheduler from DI and replace handler with behavior,2019-05-16,Merged,5380,104,65,,5
+Add approvals for DI registrations,2019-05-17,Merged,5379,156,70,txt csproj ,5
+Clean up pipeline invocation,2019-08-06,Merged,5378,173,169,,14
+Correct summary for HasLicenseExpired,2019-05-08,Merged,5376,2,2,,1
+Merge hotfix 7.1.8 back to develop,2019-05-08,Merged,5374,329,33,,11
+Interface messages created with IMessageCreator can't be routed,2019-05-09,Merged,5373,383,86,csproj config ,9
+Interface messages created with IMessageCreator can't be routed,2019-05-08,Merged,5372,329,33,,11
+Removed link to CLA signing,2019-05-07,Merged,5371,1,2,,0
+Add struct support to the XML Serializer,2019-05-29,Merged,5369,127,16,,4
+[WIP]Throw if structs are used as message contracts,2019-04-30,Closed,5368,16,0,,2
+Stop using DI to access the message mapper,2019-04-26,Merged,5367,49,32,,15
+LearningTransport subscriptions comment amended,2019-04-24,Merged,5366,2,2,,1
+Interface messages created with IMessageCreator can't be routed,2019-04-29,Merged,5363,329,33,,11
+Remove empty entries from AppDomain platform assemblies scanning; fixes #5361,2019-04-12,Closed,5362,1,1,,1
+Replace GitFlowVersion with GitVersionInformation,2019-08-12,Closed,5360,21,43,,8
+[WIP]Sending pre-created interface message fails,2019-04-17,Closed,5359,193,2,,3
+Make sure transports invoke critical error if recoverability fails,2019-04-15,Merged,5358,48,14,,4
+Merge hotfix 7.1.7 into develop,2019-04-01,Merged,5354,12,1,,1
+Add header manipulation transport tests,2019-04-16,Merged,5353,113,0,,2
+Package updates,2019-04-01,Merged,5352,20,20,xml sln ,9
+Catch exceptions in BuildDefaultDiagnosticsWriter,2019-03-29,Merged,5351,12,1,,1
+MSMQ Transport results in unnecessary IO when reading from empty queues due to very short timeout value,2019-03-28,Merged,5350,29,10,targets ,9
+Delete CODEOWNERS,2019-03-22,Merged,5347,0,2,,1
+Clean up GenerateImplementationFor error messages,2019-04-01,Merged,5346,18,3,,2
+Delete MAINTAINERS.md,2019-03-21,Merged,5345,0,43,,0
+Catch exceptions in BuildDefaultDiagnosticsWriter,2019-03-28,Closed,5344,12,1,,1
+Remove packaging from the project,2019-03-19,Merged,5343,0,20,,1
+Always process messages that have handlers regardless of conventions,2019-03-19,Merged,5342,76,24,txt ,6
+[WIP] Making HandleCurrentMessageLater obsolete,2019-03-18,Closed,5341,2,0,,1
+Only fail test on StackOverflowExceptions,2019-09-11,Merged,5340,11,3,,1
+Obsoleting HandleCurrentMessageLater in the Testing Fake,2019-03-18,Closed,5339,18,4,csproj cs ,3
+Miscellaneous project file cleanup,2019-03-11,Merged,5336,8,8,,6
+SimpleJson usage cleanup,2019-03-18,Merged,5330,7,4,,3
+Copy headers because they are exposed on the scenario context which lives longer than the endpoint,2019-03-11,Merged,5329,26,15,,13
+Add discard as an option for custom recoverability policies,2019-03-19,Merged,5327,69,1,cs ,4
+add UnrecoverableException,2019-04-03,Closed,5326,34,0,,2
+Delete design-guidelines.md,2019-02-07,Merged,5324,0,213,,0
+Fix assembly scanner test,2019-01-10,Merged,5320,10,5,,1
+Update development tooling,2019-01-09,Merged,5316,268,155,csproj config cs ,14
+Update development tooling,2019-01-09,Merged,5315,257,139,csproj config cs ,11
+Update development tooling,2018-12-18,Merged,5314,27,27,,9
+Update development tooling,2018-12-18,Merged,5313,27,27,,9
+Update development tooling,2018-12-18,Merged,5312,23,30,,8
+Merge Hotfix 7.1.6 back to develop,2018-12-11,Merged,5310,86,49,,2
+Learning transport throws exceptions when there are competing consumers,2018-12-10,Merged,5309,86,49,,2
+Smarter convention that discovers either solution file or .learningtransport directory,2018-12-07,Merged,5308,14,6,,1
+Merge Hotfix 7.1.5 back to develop,2018-12-04,Merged,5307,91,5,,4
+Enabling installers cause endpoints to fail during startup when the container used is immutable,2018-12-04,Merged,5306,91,5,,4
+Enabling installers cause endpoints to fail during startup when the container used is immutable,2018-12-04,Merged,5304,91,5,,4
+"Fix Timebox extension, TimeSpan.MaxValue is too big for Task.Delay",2018-12-03,Merged,5303,1,1,,1
+Apply all container registrations before first resolve,2018-12-04,Merged,5301,91,5,,4
+Guard against exceptions in Learning transport that can happen due to competing consumer starting,2018-12-05,Closed,5299,86,49,,2
+Add test to confirm recursive types can be built,2018-11-26,Merged,5297,16,0,,1
+[WIP] Improve license status logs,2018-11-16,Closed,5292,291,14,csproj ,4
+Improve license warnings,2018-11-19,Merged,5290,291,14,csproj ,4
+Update test packages,2018-11-02,Merged,5289,18,18,,7
+redundant null check,2018-11-01,Merged,5288,1,2,,1
+Replace URL in init.ps1,2018-10-23,Merged,5285,1,1,,1
+Fix support-6.4 build,2018-10-15,Merged,5284,72,120,cs config ,20
+Simplify timebox extension method,2018-11-26,Merged,5283,11,33,,1
+ignore false positives,2018-10-12,Merged,5282,13,0,,3
+Fix code inspection errors,2018-10-12,Merged,5281,54,102,,25
+Update workaround comment to point to new issue,2018-10-11,Merged,5280,1,1,,1
+Typo in test name,2018-10-09,Merged,5278,1,1,,1
+Remove unneeded workaround,2018-10-10,Closed,5277,0,6,,1
+DirectoryBasedTransaction should retry directory move,2018-09-20,Merged,5271,33,4,,2
+Merge hotfix 7.1.4 into develop,2018-09-12,Merged,5268,319,53,,4
+When using the explicit registration API only the last registered mutator is invoked,2018-09-10,Merged,5267,316,50,csproj ,6
+Merge hotfix 7.1.2 into develop,2018-09-10,Merged,5266,12,0,,2
+When using the explicit registration API only the last registered mutator is invoked,2018-09-10,Merged,5265,316,50,csproj ,6
+When using the explicit registration API only the last registered mutator is invoked,2018-09-10,Merged,5264,322,62,,5
+When using the explicit registration API only the last registered mutator is invoked,2018-09-10,Merged,5262,319,53,,4
+Invoke all mutators registered using the explicit registration API,2018-09-06,Merged,5259,316,45,,5
+Merge hotfix 7.1.3 into develop,2018-09-10,Merged,5255,21,2,,2
+Hotfix 6.5.3,2018-08-30,Merged,5254,9,2,,2
+Hotfix 7.1.3,2018-08-30,Merged,5253,9,2,,2
+Hotfix 7.1.3,2018-08-30,Merged,5252,9,2,,2
+Merge hotfix 7.1.2 into develop,2018-08-30,Merged,5251,12,0,,2
+Hotfix 6.5.2,2018-08-29,Merged,5250,12,0,,2
+Hotfix 7.1.2,2018-08-29,Merged,5249,12,0,,2
+Merge Hotfix 7.1.1 into develop,2018-08-28,Merged,5248,11,0,csproj sln ,3
+Remove SettingsHolder.Set with Action overload,2018-08-28,Closed,5246,0,12,cs ,1
+Hotfix 6.5.1,2018-08-28,Merged,5245,30,20,csproj config ,15
+Hotfix 7.1.1,2018-08-28,Merged,5244,11,0,csproj sln ,3
+Merge Release 7.1 into develop,2018-08-23,Merged,5243,7,7,cs ,7
+Target .NET Core 2.1 in test projects,2018-08-23,Merged,5242,7,7,cs ,7
+Release 6.5,2018-08-23,Merged,5241,"1,034",20,cs csproj ,4
+Release 7.1,2018-08-23,Merged,5240,"8,238",497,props cs csproj ,9
+Package updates,2018-08-20,Merged,5238,24,19,csproj txt ,9
+Add log entry for configured audit queue,2018-08-17,Merged,5237,5,0,,1
+Remove line break to avoid empty lines in log file,2018-08-20,Merged,5236,2,2,,1
+Allow SendOptions with delayed delivery constraints to be reused,2018-08-20,Merged,5235,91,10,,4
+Deprecate redundant overloads for Set and SetDefault,2018-08-16,Merged,5233,17,0,cs ,1
+Queue length check,2018-08-16,Merged,5232,31,5,,2
+Log incoming message information with handlers processing it,2018-08-17,Merged,5230,41,3,,2
+Add a generic Set and SetDefault to SettingsHolder,2018-08-14,Merged,5228,63,39,txt ,23
+Add TimeoutManager migration mode,2018-08-16,Merged,5227,7,1,,1
+Reduce dictionary lookups for control message header,2018-08-13,Merged,5226,2,1,,1
+Use concurrent collections to avoid race conditions in acceptance test,2018-08-13,Merged,5225,4,2,,2
+Package updates,2018-07-19,Merged,5217,49,90,cs txt config ,17
+Async when condition for ATT framework,2018-07-23,Merged,5213,22,8,,2
+Async done condition for ATT framework,2018-07-19,Merged,5212,11,6,,2
+Enable data contract support,2018-07-19,Closed,5211,1,1,,1
+Clarify MessageType equality behavior,2018-07-26,Merged,5210,3,2,,1
+Use version-agnostic define constants,2018-07-11,Merged,5202,25,32,,15
+Align test name with new behavior,2018-06-20,Merged,5197,6,6,,2
+Fix autosubscribe acceptance test by checking for the correct log level,2018-06-18,Merged,5194,1,1,,1
+AutoSubscribe warnings on Core V6.x,2018-06-19,Merged,5193,159,18,csproj txt ,6
+Autosubscribe warnings,2018-06-18,Merged,5192,161,14,txt ,5
+Update DotSettings file,2018-06-12,Merged,5190,6,0,,1
+Fix MapPath exception for diagnostics path,2018-07-16,Merged,5189,25,5,,3
+Backport async analyzer,2018-06-13,Merged,5188,874,1,cs ,4
+[WIP] Test to trigger build,2018-06-06,Closed,5186,1,0,,0
+Add UniformSession API to analyzer,2018-05-29,Merged,5177,200,1,,5
+Refactor AwaitOrCaptureTasksAnalyzer.Analyze(),2018-05-28,Merged,5175,10,16,,1
+[WIP] refactor AwaitOrCaptureTasksAnalyzer.Analyze(),2018-05-28,Closed,5174,5,16,,1
+Avoid querying semantic model when possible,2018-05-25,Merged,5173,35,6,,2
+[WIP] Async analyzer testing,2018-05-28,Closed,5171,22,1,csproj ,3
+Remove arity from filter criteria,2018-05-24,Merged,5170,5,18,,2
+XML serializer's type initialization is vulnerable to concurrency,2018-05-23,Merged,5168,128,61,cs ,5
+XML serializer's type initialization is vulnerable to concurrency,2018-05-17,Merged,5166,124,45,cs ,5
+Include analyzer in core package,2018-05-22,Merged,5165,28,25,csproj sln ,6
+optimize analyzer,2018-05-22,Merged,5163,26,8,,1
+Make XmlSerializerCache initialization threadsafe for 6.x,2018-05-17,Merged,5162,124,45,cs ,5
+[WIP] Analyzer perf test,2018-05-24,Closed,5161,90,8,csproj ,3
+Fix xml serializer problem with recursive arrays,2018-05-16,Merged,5157,26,16,,2
+Async analyzer,2018-06-07,Merged,5155,875,11,csproj cs ,5
+Release 7.0,2018-05-07,Merged,5153,"18,339","32,640",md yml txt dll nuspec config ,10
+Update ApprovalTests reporter for .NET Core,2018-05-08,Merged,5152,1,1,,1
+[WIP] Xml serialization cache racecondition v6,2018-05-04,Closed,5150,46,10,,3
+remove applicative header comments,2018-05-08,Merged,5149,10,6,cs ,1
+Update ConfigureEndpointLearningTransport.cs,2018-04-18,Merged,5146,3,1,,1
+Remove assumption about temp folder on Windows,2018-04-13,Closed,5145,1,14,,1
+[WIP] Sender side unobtrusive,2018-07-11,Closed,5143,130,0,cs ,2
+SimpleJson fails with DateTime used as Dictionary key,2018-08-20,Merged,5141,100,1,,2
+Update GitVersionWorkaround.targets for VS 2017 15.6,2018-04-06,Merged,5140,2,11,,1
+Ensure ColoredConsoleLogger doesn't crash process when terminal is lost,2018-04-06,Merged,5139,3,2,,1
+Add net-object-deep-copyto readme,2018-04-05,Merged,5138,6,0,,0
+Add tests to check that the inmem saga perister handles basic types,2018-03-29,Merged,5137,229,0,,1
+Update Particular.Licensing.Sources to 2.0.0,2018-03-29,Merged,5136,1,1,,1
+Remove dependency guidelines,2018-03-28,Merged,5135,0,58,,0
+License location fixed,2018-03-28,Merged,5134,1,1,,0
+Remove SimpleJson usage from in-memory saga persistence,2018-03-29,Merged,5132,145,3,,3
+simpleJson improvements,2018-03-28,Merged,5131,270,20,,2
+Always register all handled message types in the meta data registry,2018-03-21,Merged,5130,123,50,,4
+Upgrade PublicApiGenerator 7.0.0,2018-03-10,Merged,5127,3,16,csproj ,2
+Ignore a flaky test Should_raise_FinishedMessageProcessing_event,2018-03-08,Merged,5126,1,0,,1
+Update ApprovalTests to 3.0.14,2018-03-07,Closed,5125,17,5,cs ,2
+Make XmlSerializerCache initialization threadsafe,2018-03-26,Merged,5123,99,29,,4
+[WIP] Update dependency guidelines,2018-03-28,Closed,5113,59,59,,0
+Start and stop transport infrastructure on transport tests,2018-08-16,Merged,5110,12,7,,1
+Update contents of the maintainers docs,2018-01-10,Merged,5104,9,10,,0
+Exclude test convention enforcement for shipped tests,2018-01-03,Merged,5097,3,3,,3
+Add InMemory persistence tests,2017-12-19,Merged,5096,338,11,csproj ,8
+[Spike] Acceptance testing transport,2017-12-14,Closed,5095,244,12,,6
+Fix NUnit dependency,2017-12-04,Merged,5091,1,2,,2
+Log license warnings with the license manager,2017-11-27,Merged,5087,1,1,,1
+Mark all fields in behaviors as readonly,2017-11-27,Merged,5086,68,79,,34
+ObjectDisposedException when trying to load saga finder,2017-11-23,Merged,5085,2,5,,1
+ObjectDisposedException when trying to load saga finder,2017-11-23,Closed,5084,2,5,,1
+Remove vulnerable field in SagaPersistenceBehavior,2017-11-23,Merged,5083,2,5,,1
+Teach assembly scanner to find assemblies referenced from NuGet packages,2017-12-05,Merged,5081,90,0,csproj ,3
+Source link update,2017-11-20,Merged,5080,4,4,,2
+Test libs update,2017-11-21,Closed,5079,10,10,,5
+Upgrade public api generator,2017-11-27,Merged,5078,"2,784",39,txt csproj ,7
+Replace Terrajobst.PlatformCompat.Analyzers with Microsoft.DotNet.Analyzers.Compatibility,2017-11-27,Merged,5077,2,31,cs ,14
+Messages are sent as non-durable if outbox is enabled on Version 5,2017-11-15,Merged,5073,133,1,cs DotSettings ,5
+Make TestApprover immune to shadow copying,2017-11-16,Merged,5072,2,11,,1
+Using FastExpressionCompiler to compile the pipeline expression tree,2018-08-13,Merged,5071,"3,803",10,txt cs ,2
+Expose the diagnostics entries,2017-11-03,Merged,5068,30,3,cs ,1
+remove redundant state machine,2017-11-16,Merged,5066,2,2,,1
+fix minor finder typo,2017-11-16,Merged,5063,2,2,,2
+Explicitly specify receiving diagnostic properties,2017-10-31,Merged,5062,17,1,,1
+[WIP] Spike xml interface serialization fix,2018-01-15,Closed,5059,45,1,,4
+Fix file name of TestApprover class,2017-10-26,Merged,5058,0,0,,1
+Replace TransportInfrastructure with toTransportAddress Func in RoutingComponent.Initialize,2017-10-27,Merged,5057,4,4,,2
+Installing .NET Framework 4.7.1 can cause an endpoint to fail to start,2017-10-26,Merged,5056,43,10,txt csproj ,7
+Installing .NET Framework 4.7.1 can cause an endpoint to fail to start,2017-10-26,Merged,5055,44,12,txt csproj ,8
+Installing .NET Framework 4.7.1 can cause an endpoint to fail to start,2017-10-26,Merged,5054,44,12,txt csproj ,8
+Update dependencies,2017-10-25,Merged,5051,5,5,,2
+Tweak wording of error message,2017-10-25,Merged,5049,2,2,,2
+Use .txt ending on the diagnostics file,2017-10-24,Merged,5048,2,2,,2
+Do not allow a custom local address for send only endpoints,2017-10-23,Merged,5045,21,2,,3
+enable workaround for other framework versions,2017-10-20,Merged,5041,2,2,,2
+Diagnostics tweaks,2017-10-24,Merged,5039,117,102,cs ,10
+Add container diagnostics,2017-10-19,Merged,5038,23,1,,1
+Avoid array allocation in writing log,2017-10-25,Closed,5037,470,5,txt ,2
+Add TransportSendInfrastructure.PreStartupCheck to test,2017-10-18,Merged,5036,14,7,,2
+Add more hosting/environment related diagnostics,2017-10-19,Merged,5035,25,2,,1
+Add message diagnostics,2017-10-19,Merged,5034,82,71,,10
+Emit persistence diagnostics,2017-10-19,Merged,5033,12,1,,2
+Add tests to verify startup sequence,2017-10-18,Merged,5032,127,10,,6
+Add endpoint diagnostics,2017-10-19,Merged,5031,10,1,,1
+Update contributing doc,2017-10-17,Merged,5030,7,0,,0
+Fix queue creation logic,2017-10-16,Merged,5028,136,12,,7
+Add serializer diagnostics,2017-10-16,Merged,5027,27,3,,2
+[SPIKE] Message session,2017-11-03,Closed,5026,618,369,csproj ,5
+Make sure File.Move leaves an unlocked file behind,2017-10-13,Merged,5025,56,31,,5
+Add transport diagnostics,2017-10-13,Merged,5024,24,13,,1
+Add audit diagnostics section,2017-10-12,Merged,5022,6,0,,1
+Mark flaky test as NonParallelizable,2017-10-12,Merged,5021,8,0,,2
+[WIP]Add nservicebus version to diagnostics output,2017-10-17,Closed,5020,211,153,,9
+Ensure test fails on diagnostic exceptions,2017-10-12,Merged,5019,7,0,,1
+Add recoverability diagnostics section,2017-10-13,Merged,5018,24,11,,1
+Update obsolete wording to be clearer,2017-10-13,Merged,5017,62,56,cs ,1
+PublicApiGenerator update,2017-10-10,Merged,5016,1,1,,1
+[WIP]Endpoint startup diagnostics,2017-10-17,Closed,5015,102,49,,12
+Feature startup diagnostics,2017-10-11,Merged,5014,4,80,,5
+API that returns struct instead of tryget,2017-10-10,Merged,5013,82,108,txt ,7
+Introduce receive component,2017-10-18,Merged,5011,633,382,,10
+remove jetbrains annotations,2017-10-07,Merged,5010,11,"1,051",,11
+Prefer local functions over lambdas in hot paths,2017-10-09,Closed,5009,1,0,,0
+minor getattribute changes,2017-10-09,Merged,5008,25,25,,6
+New license dialog URL,2017-10-09,Merged,5005,31,10,,1
+Introduce startup diagnostics,2017-10-11,Merged,5004,427,88,txt ,14
+HandleCurrentMessageLater causes message loss when using Outbox,2017-10-04,Merged,5003,76,0,csproj ,3
+HandleCurrentMessageLater causes message loss when using Outbox,2017-10-04,Merged,5002,76,0,csproj ,3
+Move to Particular.Packaging,2017-10-04,Merged,5001,52,65,targets csproj sln ,11
+Minor code cleanup,2017-10-03,Merged,5000,4,3,,1
+Add missing docs back,2017-10-03,Merged,4999,3,0,,1
+HandleCurrentMessageLater causes message loss when using Outbox,2017-10-04,Merged,4998,76,0,csproj ,3
+Use a TryGet style API for conversation ids instead,2017-10-03,Merged,4997,203,100,txt ,5
+Guidance for invoking user provided delegates,2017-10-03,Merged,4996,13,0,,0
+throw better error when id generation fails,2017-10-03,Merged,4995,21,4,,1
+Change default critical error behavior to keep on retrying,2017-10-03,Merged,4994,4,4,,2
+Allow conversation id generation to be controlled,2017-10-12,Merged,4992,313,12,txt ,7
+Remove handle current message later,2017-10-03,Merged,4991,74,230,txt ,7
+Add default constructor to DataBusProperty,2017-10-03,Merged,4990,8,0,cs ,1
+Delayed delivery checks,2017-10-02,Merged,4989,32,4,,2
+Select destination using transport agnostic criteria,2017-09-29,Merged,4988,2,1,,1
+Partial requires,2017-09-29,Merged,4987,2,1,,1
+[SPIKE] Asynclocal test context,2017-10-10,Closed,4986,138,83,csproj ,8
+Use new mutator api instead of DI,2017-10-02,Merged,4985,122,114,,11
+Splitting feature setup into configuration and activation phase,2017-09-28,Closed,4984,58,28,,7
+Avoid race condition due to async critical error action,2017-09-27,Merged,4981,1,1,,1
+Retain order when deduplicating message types,2017-09-28,Merged,4980,8,2,,1
+Add obsolete for RegisterStep.IsEnabled,2017-09-27,Closed,4979,23,1,cs ,2
+Prevent message mutators to be provided via the internal container,2017-09-27,Closed,4978,103,1,,2
+Remove RegisterStep.IsEnabled,2017-09-26,Merged,4977,14,28,cs csproj ,8
+Move StorageType to root namespace,2017-09-27,Merged,4976,14,24,txt ,11
+Add EditorBrowsable attribute to ContainSagaData,2017-09-26,Merged,4975,8,0,,2
+Remove DistributionStrategy compatibility layer,2017-09-25,Merged,4974,16,32,txt ,6
+Remove property injection from DataBusInitializer,2017-09-25,Merged,4973,8,4,,1
+remove RijndaelKeyIdentifier header,2017-09-26,Merged,4971,0,6,cs ,1
+Change to unix-compatible environment variable name,2017-09-25,Merged,4970,1,1,,1
+Partial revert of TTBR test changes,2017-09-22,Merged,4969,10,10,,7
+Update Fody plugins,2017-09-22,Merged,4967,2,2,,1
+Update SourceLink to 2.3.0,2017-09-22,Merged,4966,4,4,,2
+Update Particular.Licensing.Sources to 1.0.0,2017-09-22,Merged,4965,1,1,,1
+Do not enable installers when running in debug mode,2017-09-20,Merged,4964,21,97,txt ,5
+speed up some tests,2017-09-19,Merged,4963,23,24,,14
+Always try to get a connection string,2017-09-17,Merged,4962,3,10,,2
+Move approval files to ApprovalFiles folder,2017-09-17,Merged,4960,38,12,txt ,6
+Add back a few safe MSMQ obsoletes,2017-09-18,Closed,4959,50,0,cs ,1
+Lambda constructors added in version 5.2.23 break containers that select the greediest constructor,2017-09-15,Merged,4958,15,29,,3
+Remove msmq obsolete messages,2017-09-15,Merged,4957,0,282,cs ,1
+SubscriberReturnAddress can be case sensitive since it is changed according to the transports address translation rules,2017-09-18,Merged,4956,46,23,,12
+obsolete DisableInstallers and remove debug installer logic,2017-09-14,Closed,4954,16,66,txt ,4
+remove release filter on reporter config,2017-09-14,Merged,4953,1,5,,1
+[SPIKE]New explicit host API,2017-10-09,Closed,4952,312,1,csproj cs sln ,6
+remove value tuple,2017-09-15,Merged,4950,13,12,csproj ,4
+Connection string tweaks,2017-09-14,Merged,4949,29,17,,2
+minor spelling fixes,2017-09-08,Merged,4947,4,4,,4
+Update GitVersion yml,2017-09-07,Merged,4946,2,2,,1
+Add proper obsoletes after moving msmq into separate package,2017-09-06,Merged,4945,283,0,cs ,1
+Csharp71,2017-09-06,Merged,4944,336,674,cs ,21
+Turn on generate package on build,2017-09-07,Merged,4942,1,1,,1
+Configure logger for transport tests,2017-09-01,Merged,4941,118,0,,2
+Log when learning transport starts to poll,2017-09-01,Merged,4940,2,0,,1
+[WIP] Add logging to Transport Tests,2017-08-31,Closed,4939,16,4,,2
+Logging improvements,2017-09-01,Merged,4938,28,18,,6
+Update for NetStandard inspections,2017-08-29,Merged,4937,1,1,,1
+Remove usage of scaleout config,2017-08-29,Merged,4936,1,3,,1
+Cleanup of acceptance tests,2017-10-05,Merged,4935,143,105,,8
+simplify header structure for dependencies,2017-08-29,Merged,4934,12,11,,0
+Support custom logger for acceptance tests,2017-08-29,Merged,4933,5,8,,4
+"Remove ""NServiceBus.AcceptanceTests"" namespace assumption",2017-08-28,Merged,4932,1,1,,1
+Dependency guidelines,2017-08-29,Merged,4930,56,0,,0
+Prepare for beta release,2017-08-24,Merged,4929,1,1,,1
+Remove WithConfig,2017-08-24,Merged,4927,4,23,,2
+More logging to better debug file locked issue,2017-08-22,Merged,4926,21,19,,3
+add class constraint to sagadata,2017-09-19,Merged,4923,40,42,cs ,10
+Test refactorings,2017-08-18,Merged,4921,7,8,,3
+Write output to TestContext instead to the console,2017-08-22,Merged,4920,40,38,cs ,6
+[WIP] Fix failing code inspections by disabling them,2017-08-17,Closed,4919,4,0,,2
+Merge 6.4 into develop,2017-08-18,Merged,4918,220,16,txt ,6
+Release 6.4,2017-08-17,Merged,4917,225,18,csproj txt ,7
+[WIP] Add TeamCity.VSTest.TestAdapter,2017-09-13,Closed,4915,4,0,,4
+Disable installers,2017-08-15,Merged,4914,211,11,csproj txt ,6
+Hotfix 6.3.6,2017-08-14,Closed,4913,40,29,,3
+Hotfix 6.3.5,2017-08-14,Closed,4912,70,2,,2
+Update to stable System packages,2017-08-14,Merged,4911,8,8,sln ,6
+CustomFinder that starts a saga throws exception,2017-08-11,Merged,4910,40,29,,3
+CustomFinder that starts a saga throws exception,2017-08-11,Merged,4909,40,29,,3
+CustomFinder that starts a saga throws exception,2017-08-11,Merged,4908,40,29,,3
+MessageType of interface events is incorrectly changed during outgoing processing,2017-08-11,Merged,4907,71,2,cs ,3
+MessageType of interface events is incorrectly changed during outgoing processing,2017-08-11,Merged,4906,71,2,cs ,3
+MessageType of interface events is incorrectly changed during outgoing processing,2017-08-11,Merged,4905,71,2,cs ,3
+Suppress compat shim warning on a per-package basis,2017-08-14,Merged,4901,3,3,,1
+Fix proxy message updates,2017-08-10,Merged,4900,71,2,cs ,3
+TimeoutPersisterReceiver may not increment re-poll interval when timeouts are pushed,2017-08-15,Merged,4899,207,47,cs ,4
+AutoSubscribe subscribes concurrently,2017-08-14,Merged,4898,14,7,,1
+Verify saga correlation property against current value,2017-08-11,Merged,4896,40,29,,3
+Adjust license source ordering,2017-08-10,Merged,4895,7,2,csproj ,2
+Work around reference assembly packaging issue,2017-08-11,Merged,4894,5,0,,1
+[WIP] Fix proxy message updates,2017-08-10,Closed,4892,71,2,cs ,3
+Remove app config connection string API,2017-08-25,Merged,4891,99,16,txt csproj ,5
+Acceptance test review,2017-08-14,Merged,4890,120,84,,6
+Remove ConfigurationErrorsException usage,2017-08-08,Merged,4889,6,10,,4
+Remove ConfigurationErrorsException usage,2017-08-07,Closed,4887,9,8,csproj ,5
+Remove binding redirects,2017-08-07,Merged,4886,0,8,dll ,3
+Delete acknowledgements.txt,2017-08-07,Merged,4885,0,12,,0
+Target .NET Standard 2.0 instead,2017-08-07,Merged,4884,13,10,cs ,6
+prevents SerializationException with GetSection,2017-08-03,Merged,4883,4,1,,1
+Clean up license sources,2017-08-09,Merged,4882,24,33,csproj ,3
+Package updates,2017-08-01,Merged,4881,7,7,sln ,6
+Using Task.Yield before MessageQueue.Send results in a performance improvement,2017-07-31,Closed,4880,2,0,,1
+Add codeowners file,2017-08-02,Merged,4879,2,0,,1
+[Withdrawn] Add wait to timeout poller,2017-08-10,Closed,4877,200,46,cs ,4
+Update NUnit.ApplicationDomain to 11.0.0,2017-07-28,Merged,4876,2,2,,1
+[SPIKE] Avoid array allocation in writing log,2017-08-18,Closed,4872,410,5,txt ,2
+exclude LightInject from weaving,2017-07-26,Merged,4871,3,4,csproj ,3
+Simplify AssemblyValidator by using AssemblyName,2017-07-26,Merged,4870,11,48,csproj ,2
+[WIP] Do not use string interpolation and wrap arguments with ticks,2017-08-23,Closed,4869,45,0,md ,1
+New licensing experience,2017-08-02,Merged,4868,115,782,,3
+Add test for building lists of objects,2017-07-24,Merged,4867,10,0,,1
+test with no valuetuple,2017-08-02,Closed,4866,13,12,csproj ,4
+Updates to acceptance tests,2017-07-25,Merged,4865,28,134,,7
+Improve the exception message on how to resolve the issue,2017-07-24,Merged,4864,1,1,,1
+Misc cleanup,2017-07-20,Merged,4863,2,12,exe exclude ,2
+Add SourceLink support,2017-07-20,Merged,4862,11,1,,2
+Get Non-windows platforms working,2017-07-21,Merged,4861,208,91,cs csproj ,15
+Move AttachCausationHeadersBehavior into IOutgoingLogicalMessage stage,2017-07-19,Merged,4859,12,15,,2
+Do not dispose multiple times,2017-07-18,Merged,4858,16,1,,1
+Use official extension point to add PDBs,2017-07-18,Merged,4857,3,7,,1
+Remove System.Web dependency by using reflection,2017-07-19,Merged,4856,35,17,csproj ,3
+[SPIKE] Introduce RouteToThisEndpointStrategy to remove builder usage,2017-09-29,Closed,4855,54,9,,5
+Remove obsolete outbox att,2017-07-17,Merged,4854,1,40,,2
+remove some redundant variables,2017-07-17,Merged,4852,20,41,,13
+make log dir consistent,2017-07-16,Closed,4851,1,57,csproj ,3
+Remove dtc warning,2017-07-18,Merged,4850,0,44,cs ,2
+Validate assembly file before attempting to load it,2017-07-19,Merged,4849,162,261,dll ,7
+[WIP] Container fix,2017-07-27,Closed,4848,310,3,csproj ,5
+[SPIKE] Spike raw dispatch pipeline,2017-09-29,Closed,4847,266,113,,7
+Remove need to call ToArray() in case when an array is already passed,2017-07-17,Merged,4846,2,1,,1
+[WIP] Reproduce disposable bug,2017-07-17,Closed,4845,260,3,,4
+Use RegisterMessageMutator API,2017-07-14,Merged,4844,1,1,,1
+Cleanup receive feature,2017-07-18,Merged,4843,71,80,,6
+Avoid duplicate service registrations,2017-07-12,Merged,4842,10,7,,1
+Alternate ScanAssemblyAndDependencies implementation,2017-07-14,Merged,4840,71,77,dll ,4
+Change develop release tag to alpharelease,2017-07-11,Merged,4839,1,1,,1
+Goodbye Newtonsoft.Json,2017-07-12,Merged,4836,67,"1,392",txt ,5
+[WIP] LightInject resolve over container to use implicit scope,2017-07-17,Closed,4835,183,2,,2
+Using PerLogicalCallContextScopeManagerProvider instead of default per thread scope provider,2017-07-11,Merged,4834,15,6,,1
+[SPIKE] Fix container API,2017-07-27,Closed,4832,138,282,txt ,6
+Replace Newtonsoft.Json usage with SimpleJson,2017-07-11,Merged,4831,"2,194",26,cs csproj ,6
+Replace P/Invoke with managed equivalent,2017-07-12,Merged,4829,7,6,,1
+Mentioning light inject in readme,2017-07-07,Merged,4828,5,6,,0
+Add IResolver for UoW floating,2017-07-11,Closed,4827,189,5,txt ,8
+Removed no longer used property injection code,2017-07-05,Merged,4826,0,10,,1
+LightInject as default container,2017-07-06,Merged,4825,"8,338",197,csproj ,5
+Scan AppDomain assemblies by default,2017-07-05,Merged,4823,19,11,,7
+[WIP] DryIoc,2017-07-07,Closed,4822,"13,308",2,,5
+Ensure PDBs are included in package,2017-06-30,Merged,4821,11,16,csproj ,3
+Intercepting timeout messages on the testable pipeline context,2017-07-05,Merged,4820,63,1,,2
+misc cleanup of project files,2017-06-30,Merged,4819,5,11,,3
+Remove usages of Assembly.ReflectionOnlyLoad,2017-07-14,Merged,4818,234,261,dll ,12
+.NET Core 2.0 Preview 2 changes,2017-06-28,Merged,4817,38,27,targets csproj sln ,9
+point NuGet project url to docs,2017-06-28,Closed,4816,1,1,,1
+Fix the build action for the source packages,2017-06-28,Merged,4815,19,15,,4
+Use conventions to translate endpoint address,2017-06-26,Merged,4814,2,1,,1
+Fix case of hardcoded queue name,2017-06-26,Merged,4813,1,1,,1
+Use TTBR delivery constraint & custom header in learning transport,2017-06-22,Merged,4810,28,15,,3
+No longer using Assert outside of unit test thread,2017-06-22,Merged,4809,17,11,,5
+Avoid null ref in XContainerJsonConverter,2017-06-22,Merged,4808,42,6,,2
+Move license form into NServiceBus.Licensing namespace,2017-06-22,Merged,4803,22,19,,4
+[WIP] SPIKE - Header Encoder,2017-06-22,Closed,4802,319,44,,1
+Exclude self verification tests from source ATT nuget,2017-06-22,Closed,4800,3,3,cs ,2
+Build .NET Core 2.0 target on Windows,2017-06-27,Merged,4799,278,316,nuspec props csproj cs ,13
+Update Particular.Licensing.Sources to 1.0.0-alpha0001,2017-06-15,Merged,4798,1,1,,1
+Acceptance tests 11,2017-06-20,Merged,4797,39,17,,5
+Enable parallel acceptance tests,2017-06-15,Merged,4796,12,4,,3
+Remove unused ElevateChecker class,2017-06-08,Merged,4795,0,16,,1
+"Document ""Production ready by default"" design principle",2017-06-14,Merged,4793,7,1,,0
+Poison message in MSMQ fails to be sent to remote error queue and is retried indefinitely,2017-06-07,Merged,4791,50,4,csproj ,4
+Poison message in MSMQ fails to be sent to remote error queue and is retried indefinitely,2017-06-07,Merged,4790,3,3,,1
+Poison message in MSMQ fails to be sent to remote error queue and is retried indefinitely,2017-06-07,Merged,4789,3,3,,1
+Poison message in MSMQ fails to be sent to remote error queue and is retried indefinitely,2017-06-07,Merged,4788,3,3,,1
+Poison message in MSMQ fails to be sent to remote error queue and is retried indefinitely,2017-06-07,Merged,4787,6,6,,1
+Remove system.web usage from EndpointConfiguration,2017-06-07,Merged,4786,1,6,,1
+Remove encryption section from README,2017-06-05,Merged,4785,0,4,,0
+MSMQ requires error queue configuration for send-only endpoints,2017-06-07,Merged,4784,47,1,csproj ,3
+[WIP]Spike parallel testruns,2017-06-14,Closed,4783,46,66,sln ,13
+Update Particular.Licensing.Sources to 0.1.62,2017-06-06,Merged,4782,1,1,,1
+[WIP][DO NOT MERGE] Dispatch diagnostic tracing,2017-06-14,Closed,4781,89,3,,7
+Use AsyncLocal for ContextAppender,2017-06-09,Merged,4780,65,38,,6
+Remove exclusion of x64 assemblies from x86 process when scanning,2017-06-07,Merged,4779,1,68,cs dll sln ,5
+Update to Newtonsoft.Json 10,2017-06-02,Merged,4778,9,10,cs ,3
+Create proxy assembly with .NET Core compatible API,2017-06-01,Merged,4777,1,5,,1
+Circular references causes the assembly scanner to crash,2017-06-01,Merged,4776,43,0,csproj dll md DotSettings ,7
+Circular references causes the assembly scanner to crash,2017-06-01,Merged,4775,43,0,csproj dll md ,6
+Hotfix 6.3.3 merge to develop,2017-06-01,Merged,4774,42,3,dll md ,5
+Make scanner handle circular references,2017-06-01,Closed,4773,44,1,csproj dll md ,6
+Circular references causes the assembly scanner to crash,2017-06-01,Merged,4772,44,1,csproj dll md ,6
+Handle circular references when assembly scanning,2017-06-01,Closed,4770,21,0,csproj dll ,6
+Typos,2017-06-06,Merged,4768,118,81,txt ,16
+Clean up audit,2017-05-31,Closed,4767,3,7,,2
+Remove no longer relevant tests,2017-05-31,Merged,4766,0,184,,2
+Typo,2017-06-01,Closed,4765,3,3,,1
+Expose audit expiration setting,2017-05-31,Merged,4764,60,17,txt ,4
+shorten saga name,2017-05-31,Merged,4763,6,6,,1
+Merge master back into develop,2017-05-30,Merged,4761,56,13,,3
+Remove x86 tests,2017-06-02,Closed,4760,1,61,cs dll sln ,4
+Remove System.Web,2017-06-07,Closed,4759,2,62,csproj ,4
+acceptance tests review,2017-06-02,Merged,4758,68,124,,6
+[WIP]Remove ref to System.Configuration,2017-05-30,Closed,4757,0,1,,1
+MessageMapper does not call default constructor,2017-05-30,Merged,4756,70,19,,5
+MessageMapper does not call default constructor,2017-05-30,Merged,4755,70,19,,5
+MessageMapper does not call default constructor,2017-05-30,Merged,4754,70,19,,5
+Hotfix 6.3.2,2017-05-30,Merged,4753,56,13,,3
+MessageMapper does not call default constructor,2017-05-30,Merged,4752,56,13,,3
+Initialize message types when calling CreateInstance,2017-05-29,Closed,4751,56,12,,3
+[WIP] use ILRepack instead of ILMerge,2017-06-28,Closed,4749,8,9,exe exclude ,3
+Fix comments for better spelling/grammar,2017-05-25,Merged,4748,23,24,,14
+typos,2017-05-25,Merged,4747,47,46,,28
+Remove MSMQ,2017-05-29,Merged,4746,49,"8,924",csproj txt ,8
+Remove legacy retries satellite,2017-05-29,Merged,4745,17,137,cs ,5
+[Repro] Repro for container UoW bug,2017-06-14,Closed,4743,101,0,csproj ,2
+Make transport configuration mandatory,2017-05-24,Merged,4742,11,44,,7
+Remove registry based config of audit or error queue,2017-05-30,Merged,4741,3,102,,3
+obsolete DisableLegacyRetriesSatellite,2017-05-24,Closed,4737,5,0,cs ,1
+Acceptance tests review 9,2017-05-23,Merged,4736,12,221,cs ,21
+Fix spelling mistake,2017-05-23,Merged,4734,63,63,txt csproj ,28
+Test that correlation id flows when replying to originator,2017-05-23,Merged,4732,113,102,csproj ,3
+Rename of wire compat test repo,2017-05-23,Merged,4731,2,2,,0
+prefered > preferred,2017-05-23,Merged,4730,10,10,cs ,1
+New project system,2017-05-24,Merged,4729,266,"4,102",nuspec config cs csproj ,9
+Update Particular.Licensing.Sources to 0.1.61,2017-05-23,Closed,4728,5,55,targets csproj config ,4
+Merge hotfix-6.3.1 into develop,2017-05-19,Merged,4726,36,13,,3
+Handle concurrency for dispatches,2017-05-19,Closed,4725,12,3,,2
+Learning transport dispatch can fail to dispatch multiple messages,2017-05-19,Merged,4723,15,6,,2
+Handle file locked issues,2017-05-19,Merged,4722,21,7,,3
+Add acceptance tests to verify special character handling in timeout storages,2017-05-23,Merged,4721,182,1,csproj ,3
+Learning transport can deadlock under load,2017-05-19,Merged,4719,21,7,,3
+test unicode chars in headers for outbox,2017-05-23,Merged,4718,117,0,cs ,2
+Add transport test to verify unicode characters in message headers,2017-05-23,Merged,4717,42,0,cs ,2
+Update to version 7,2017-05-22,Merged,4716,874,"11,533",cs csproj ,9
+Remove incorrect default value in method summary,2017-05-16,Merged,4714,3,5,,1
+[WIP] Sketch of an NSB orchestration,2017-05-16,Closed,4713,226,33,cs ,13
+Run learning transport with concurrency 1 by default,2017-05-16,Merged,4712,16,2,,4
+Remove MEM from routing exception messages,2017-05-15,Merged,4707,2,2,,2
+Small cleanup in the Learning Saga Persistence,2017-05-12,Merged,4704,6,8,,4
+Acceptance refactoring,2017-05-15,Merged,4702,262,10,csproj ,8
+Switch to queue to avoid races in test,2017-05-12,Merged,4700,4,4,,1
+Remove circuit breaker from learning transports,2017-05-15,Merged,4699,46,51,,1
+Print log entries when acceptance test fails,2017-05-12,Merged,4697,19,19,,3
+Lock saga file to avoid corruption,2017-05-16,Merged,4696,56,108,cs ,10
+[WIP] investigate flaky test,2017-05-12,Closed,4695,18,7,,2
+remove Redundant Todo,2017-05-12,Merged,4694,1,2,,1
+Cleanup learning persistence,2017-05-12,Closed,4693,17,15,,5
+Remove unreachable code from StartableEndpoint.,2017-05-11,Merged,4692,0,20,,1
+Use isolated names for error endpoints,2017-05-11,Merged,4691,17,14,,5
+Centralize directory creation,2017-05-11,Merged,4690,68,36,,5
+Make learning transport disable legacy retries,2017-05-11,Merged,4689,2,0,,1
+remove msmq from acc tests,2017-05-11,Closed,4688,0,85,cs csproj ,3
+Fix long running conversation id acceptance test,2017-05-11,Merged,4687,79,47,csproj ,3
+add missing guards,2017-05-10,Merged,4685,153,23,,16
+Update VS Solution version,2017-05-10,Merged,4684,2,2,,1
+Removing DataContractSerializer from Learning Saga Persister,2017-05-10,Merged,4682,37,33,,3
+More acceptance test reviews,2017-05-10,Merged,4681,22,106,csproj ,9
+Make sure exceptions when reading file triggers CircuitBreaker,2017-05-11,Merged,4680,167,105,,7
+Expose the context get that takes a string key,2017-05-22,Merged,4679,27,16,cs ,2
+Add special character saga correlation property acceptance test,2017-05-10,Merged,4678,89,0,cs ,2
+Enforce message size limit,2017-05-10,Merged,4677,129,11,csproj txt ,9
+Do not use method groups,2017-05-08,Merged,4676,4,3,DotSettings ,4
+Update Particular.CodeRules package,2017-05-06,Merged,4674,14,8,cs config ,6
+Missing await /return task made the test flaky,2017-05-05,Merged,4673,2,3,,1
+throw better exception on invalid paths in learning transport,2017-05-05,Merged,4672,50,6,cs ,7
+Update PR merge policy,2017-05-05,Merged,4671,3,0,,0
+Fix exception reporting,2017-05-04,Merged,4670,1,1,,1
+Cleanup bodies for processed messages,2017-05-05,Merged,4669,24,10,,2
+Wait for the expired message poller to stop,2017-05-05,Merged,4668,34,24,,3
+Fix outbox acceptance test,2017-05-04,Merged,4667,3,18,,1
+User defined conversation id's are overwritten,2017-05-08,Merged,4666,179,24,csproj ,4
+remove the requirement to store the body path in the metadata,2017-05-04,Merged,4663,12,15,,2
+remove some redundant stuff,2017-05-05,Merged,4662,3,13,csproj ,3
+Learning transport review/cleanup,2017-05-08,Merged,4661,143,129,txt csproj ,11
+Use a delay for the learning transport submanager retries,2017-05-03,Merged,4659,4,4,,1
+Fix FeatureStartupTask documentation,2017-05-03,Merged,4658,2,4,,1
+fix message order issue in Should_not_invoke_handler_for_a_duplicate_…,2017-05-03,Merged,4656,1,1,,1
+Handle concurrent subscribe/unubscribe for the learning transports,2017-05-03,Merged,4655,53,9,,1
+Cleanup of the att tests,2017-05-03,Merged,4654,12,1,,1
+Fix att done condition check,2017-05-03,Merged,4653,1,1,,1
+pretty print learning transport headers,2017-05-03,Merged,4652,50,5,txt cs ,3
+Learning Transport: distinguish between message body and message metadata txt files,2017-05-03,Merged,4651,2,2,,1
+[WIP] Check for endpoint queue to see if its compliant for MSMQ format name length limit,2017-05-30,Closed,4650,55,2,csproj ,5
+Stop using base class in test to avoid reusing endpoint names,2017-05-03,Merged,4649,321,159,cs ,3
+Remove code to detect unobtrusive messages used by handlers,2017-09-18,Merged,4648,1,29,,1
+Acceptance test refactoring,2017-05-02,Merged,4647,18,15,csproj ,5
+Add basic tx recovery for the learning transport,2017-05-04,Merged,4646,81,14,,2
+Add contentFiles section to source packages,2017-05-03,Merged,4645,16,2,,4
+Update logging entry for TimeToBeReceivedOnForwardedMessages,2017-05-04,Merged,4644,8,8,,1
+Fix reading large text files,2017-05-01,Merged,4643,36,14,cs ,4
+Improve acceptance testing exceptions,2017-05-03,Merged,4642,9,5,,5
+Fix core reference for VS2017,2017-04-26,Closed,4641,4,4,,1
+Skip exe files from scanning when excluded,2017-04-26,Merged,4640,67,4,,2
+Convert acceptance to unit test,2017-04-26,Merged,4639,60,129,csproj ,5
+[WIP] Update fody,2017-05-23,Closed,4638,9,9,config ,2
+Stabilize struct conventions,2017-04-24,Merged,4637,15,14,cs ,1
+"Default error queue name to ""error""",2017-04-27,Merged,4636,257,173,cs ,7
+Reproduce scanner issue where messages can't be detected during scanning,2017-05-05,Merged,4635,69,7,,1
+Use original exception as inner exception,2017-04-20,Merged,4631,2,1,,1
+Add notes to indicate that C# 7 is acceptable and VS 2017 is required,2017-04-20,Merged,4629,7,1,,0
+Decouple MSMQ tests from AcceptanceTests project,2017-04-20,Merged,4628,240,20,csproj ,19
+Fixed concurrency issue in one of the ATs,2017-04-19,Merged,4627,5,4,,1
+Cleanup: MSMQ unit tests should delete the queues that it creates.,2017-04-21,Merged,4626,78,97,,6
+Remove file stream from dev transport,2017-04-19,Closed,4625,20,32,,1
+add exception to debug log in ContextAppender,2017-04-18,Merged,4624,3,4,,1
+Reorder checks to check against null first,2017-04-13,Merged,4623,1,1,,1
+[WIP]Spike optional message conventions,2017-04-20,Closed,4622,201,63,csproj ,12
+Move error throwing behavior into EndpointRunner,2017-04-20,Merged,4621,61,70,cs ,13
+Fix typo in OutgoingSendContext,2017-04-12,Merged,4619,3,3,,1
+do not generate message id when creating options,2017-04-12,Merged,4618,290,121,csproj ,9
+MessageID is reused when reusing SendOptions,2017-04-12,Merged,4617,290,121,csproj ,9
+MessageID is reused when reusing SendOptions,2017-04-12,Merged,4616,290,121,csproj ,9
+Make the message mapper discover types at runtime,2017-04-21,Merged,4615,98,6,cs ,5
+Hotfix 6.2.1,2017-04-12,Merged,4614,290,121,csproj ,9
+[WIP] Do not reuse message id when reusing SendOptions,2017-04-12,Closed,4612,67,0,csproj ,2
+Update .gitattributes from repo standards,2017-04-11,Merged,4609,1,6,,1
+Refactoring of acceptance tests,2017-04-25,Merged,4607,476,136,cs ,7
+[WIP]Make the message mapper handle new types added at runtime,2017-04-13,Closed,4606,137,9,cs ,5
+Condition and code was inverted,2017-04-10,Merged,4605,5,5,,1
+Remove unused method,2017-04-07,Closed,4604,1,7,,1
+Support assemblies inlined via Costura,2017-04-20,Merged,4603,38,19,,2
+Provide cleanup hook in ATT Framework.,2017-04-19,Merged,4602,98,155,cs ,7
+Generate release date automatically,2017-04-07,Merged,4600,56,8,cs csproj ,4
+Switch from property to factory method in TestSuiteConstraints,2017-04-07,Merged,4599,7,18,,3
+Fix transaction configuration for acceptance test,2017-04-05,Merged,4595,1,1,,1
+Warn for queue permissions for everyone and anonymous only if access rights are set to allow,2017-04-12,Merged,4594,132,70,,5
+Add possibility to run custom components inside the AT framework,2017-04-20,Merged,4593,220,120,cs ,9
+Update NUnit,2017-04-03,Merged,4591,33,41,csproj config ,15
+ReceivePipelineCompleted not called when handler throws,2017-03-30,Closed,4590,26,0,,1
+Remove leftover deployment stuff,2017-03-30,Merged,4589,0,105,,2
+Update license code to latest source package,2017-04-20,Merged,4588,542,306,,9
+Fix release date attribute,2017-03-29,Merged,4587,1,1,,1
+Update development dependencies,2017-03-29,Merged,4586,36,36,config ,12
+[WIP]Full scan when conventions are in use,2017-04-21,Closed,4584,90,38,,5
+Merge release-6.2 into develop again,2017-03-29,Merged,4583,1,1,,1
+Merge Release 6.2 into develop,2017-03-28,Merged,4582,17,13,cs ,2
+Rename ContextBag ctor param back to original name,2017-03-28,Merged,4581,6,6,cs ,1
+"rename MessageContext param back to ""context"" and fix obsolete",2017-03-28,Merged,4579,11,7,cs ,1
+Release 6.2,2017-03-28,Merged,4578,"6,830","4,137",yml cs csproj ,5
+use fullname on saga message mapping exception,2017-04-03,Merged,4577,8,14,,2
+[WIP] Assembly scanner incorrectly excludes unobtrusive message,2017-04-03,Closed,4576,71,7,,2
+Hotfix 6.0.7,2017-03-24,Merged,4575,155,6,cs ,10
+Hotfix 6.1.4,2017-03-24,Merged,4574,155,6,cs ,10
+Merge Publish|Reply|SubscribeOptions into current ContextBag not parent one,2017-03-24,Merged,4572,155,6,cs ,10
+Remove default value,2017-03-23,Merged,4571,1,1,,1
+Align AssemblyScanner config API with API design guidelines,2017-03-22,Closed,4569,3,6,cs ,1
+Migrate design guidelines from platdev,2017-03-28,Merged,4565,160,1,,0
+make AssemblyScannerConfigurationExtensions return a config instance,2017-03-23,Merged,4564,5,9,cs ,2
+remove saga v2,2017-03-23,Merged,4563,2,249,cs txt DotSettings ,7
+Update obsolete message for perf counters to reflect new namespace,2017-03-23,Merged,4562,28,28,cs ,5
+Remove incorrect assertions from transport test,2017-03-22,Merged,4561,1,5,,1
+More acceptance test cleanup,2017-04-03,Merged,4560,79,160,csproj ,8
+Log level FATAL is written as ERROR (v5.2),2017-03-21,Closed,4559,2,2,,1
+Incorrect log level for FATAL,2017-03-21,Merged,4558,2,2,,1
+WIP: cache subscriptions,2017-03-21,Closed,4557,131,14,cs csproj ,8
+Fix DataBusProperty.HasValue behavior,2017-03-17,Merged,4555,1,5,,1
+Config api design guidelines,2017-03-22,Merged,4552,51,5,,0
+More refactoring of acceptance tests,2017-03-14,Merged,4551,40,38,csproj ,19
+Learning transport,2017-05-02,Merged,4550,"1,159",271,cs csproj ,11
+Obsolete MsmqSubscriptionStorageConfig,2017-03-16,Merged,4548,87,89,cs csproj ,8
+SagaV2,2017-03-15,Merged,4546,248,0,cs txt ,6
+make ReceiveStatisticsPerformanceCounters obsolete,2017-03-14,Merged,4545,7,0,cs ,1
+Remove SendOnly from EndpointConfigurationBuilder,2017-03-09,Merged,4543,10,22,,6
+Remove unsupported best practices tests,2017-03-09,Merged,4542,0,90,csproj ,3
+Obsolete IProvideConfiguration,2017-03-08,Merged,4539,73,38,cs txt ,18
+More updates from the ATT review,2017-03-08,Merged,4538,149,50,csproj ,17
+Remove ATT repeat infrastructure,2017-03-09,Merged,4537,65,559,csproj ,7
+Obsolete performance counter features,2017-03-09,Merged,4535,67,10,txt ,9
+Add TreatAsErrorFromVersion attribute,2017-03-07,Merged,4534,22,9,cs ,2
+Obsolete MessageEndpointMappings,2017-03-08,Merged,4533,92,24,txt ,10
+Refactoring Basic ATTs to be in proper locations,2017-03-06,Merged,4531,146,121,,20
+[WIP] Obsolete IConfigurationSources,2017-03-08,Closed,4530,51,193,csproj txt ,13
+Remove AddMapping att API,2017-03-07,Merged,4529,370,249,,16
+Remove audit configuration API in acceptance testing framework,2017-03-02,Merged,4528,60,89,,14
+Using a custom failure manager to avoid problem of removing FailedQ header,2017-03-30,Closed,4527,113,3,cs ,4
+"MSMQ: When configuring a remote error queue, the endpoint logs an INFO log instead of a WARN log",2017-03-06,Merged,4524,95,8,csproj ,4
+Obsolete with WARN MessageForwardingInCaseOfFaultConfig,2017-03-02,Merged,4523,21,15,txt ,6
+MessageContext inherits from IExtendable,2017-03-06,Merged,4522,32,24,txt ,9
+DistributionContext implements IExtendable,2017-03-02,Merged,4521,9,9,cs ,1
+Fix TimeSpan check,2017-03-01,Merged,4520,1,1,,1
+Warn about logging config section removal.,2017-03-02,Merged,4519,22,9,txt ,3
+Small internal refactoring on RoutingToDispatchConnector,2017-03-02,Merged,4518,28,20,,1
+Validate configured audit ttbr,2017-03-06,Merged,4515,17,16,,4
+Only invoke saga type indicated by NServiceBus.SagaType header if present,2017-03-02,Merged,4514,152,7,cs ,4
+Add ConfigureTransport att extension,2017-03-01,Merged,4513,34,42,csproj ,23
+Obsolete audit config properties,2017-03-02,Merged,4512,52,25,txt ,6
+Add machine mapping API for MSMQ,2017-03-02,Closed,4510,52,0,csproj cs ,3
+Expose notification event for receive pipeline completed,2017-03-03,Merged,4509,158,32,cs txt ,9
+Isolate receive statistic perf counters in separate feature,2017-02-28,Merged,4507,55,29,csproj cs ,3
+Warn on use of TimeToBeReceivedOnForwardedMessages,2017-02-27,Merged,4506,23,6,,1
+[WIP] test for Dev-Saga-Persister,2017-02-28,Closed,4505,114,0,csproj ,2
+Move acceptance tests,2017-02-27,Merged,4504,50,48,csproj ,29
+Limiting concurrency on Subscriber1,2017-02-24,Merged,4503,11,3,,1
+Provide code first api to configure external TM,2017-02-28,Merged,4499,160,3,csproj txt ,6
+Fix default behavior to throw exceptions,2017-02-23,Merged,4498,2,2,,1
+New mutator API,2017-03-06,Merged,4497,216,141,csproj txt ,26
+Introduce a zero install saga persister for learning and demos,2017-05-09,Merged,4496,676,26,csproj txt ,11
+Remove Serializers RunDescriptors,2017-02-23,Merged,4495,52,90,csproj ,7
+[WIP]Msgdriven pubsub uniquely addressable,2017-03-01,Closed,4494,250,14,cs txt ,9
+UnicastPublishRouter no longer uses LINQ in SelectDestinationsForEachEndpoint,2017-02-23,Merged,4491,36,20,,1
+[WIP]Adds a new pipeline stage in order to be able to implement UoW on top of SynchronizedStorageSession.,2017-02-22,Closed,4490,310,45,csproj txt ,8
+Remove AllOutboxCapableStorages,2017-02-22,Merged,4489,73,83,csproj ,13
+Better name for the DLQ override,2017-02-20,Merged,4488,11,11,cs ,6
+Remove Transports.Default repeat configurations in att,2017-02-17,Merged,4487,140,195,,11
+SubscriptionRouter no longer uses SelectMany to save one Func allocation,2017-02-20,Merged,4486,29,99,csproj ,5
+Allow AppDomain assemblies to be scanned,2017-02-23,Merged,4485,232,31,cs ,5
+Remove unnecessary enumeration and ToArray in UnicastReplyRouterConnector,2017-02-17,Merged,4484,1,8,,1
+Moved the send routing code back to a single class,2017-02-16,Merged,4483,296,419,cs ,3
+Add acceptance tests for RouteReply... options,2017-02-15,Merged,4482,297,0,cs ,4
+add generic overload for AddUnrecoverableException,2017-02-15,Merged,4481,12,0,cs ,1
+Unrecoverable exceptions,2017-02-15,Merged,4479,250,12,csproj txt ,11
+Hotfix 6.1.3,2017-02-14,Merged,4477,76,71,,9
+Sender Side Distribution for RouteToThisEndpoint,2017-02-17,Merged,4474,832,437,csproj ,4
+Create releasing document,2017-02-13,Merged,4470,3,0,,0
+Make saga id generation pluggable,2017-03-03,Merged,4468,215,14,cs txt ,10
+Breaking change on DistributionStrategy,2017-02-09,Closed,4467,29,38,txt ,10
+Mutator behaviors cache the outcome of the builder call and will no longer call it if no mutators were returned,2017-02-10,Merged,4466,76,71,,9
+Avoid obsolete satellite API,2017-02-09,Merged,4465,0,1,,1
+Spelling error in tooltip text,2017-02-07,Merged,4462,2,2,,1
+Context-aware distribution strategy,2017-02-14,Merged,4461,282,41,cs txt ,9
+Default DLQ off for MSMQ messages with TTBR set,2017-02-13,Merged,4460,232,38,cs csproj ,8
+tidy solution folders,2017-02-03,Merged,4459,9,3,,1
+Move encryption acceptance tests to core tests,2017-02-03,Merged,4458,15,15,csproj ,7
+Remove transport related Repeats from the acceptance testing framework,2017-02-09,Merged,4455,486,534,cs ,14
+[WIP]Spike pulling perf counters out,2017-02-10,Closed,4453,855,3,,9
+No longer require persistence to be configured,2017-01-31,Merged,4449,1,8,,1
+Clarify the license.md location,2017-01-30,Merged,4447,5,1,,0
+Add obsolete warning to property encryption APIs,2017-02-13,Merged,4444,178,21,txt ,8
+Remove EncryptedValue usage from XmlMessageSerializer,2017-01-27,Merged,4442,0,5,,1
+Double opt-in for outbox is no longer needed,2017-01-24,Merged,4440,76,52,csproj txt ,7
+Prevent debugging timeouts on all endpoint activities,2017-01-25,Merged,4439,3,1,,1
+Adjust start slice after successful dispatch,2017-01-25,Merged,4438,55,5,,2
+Acceptance testing,2017-01-24,Merged,4437,6,4,,3
+Disable ATT test timeouts when debugger is attached,2017-01-20,Merged,4435,6,3,,1
+Disable ATT test timeouts when debugger is attached,2017-01-20,Closed,4434,7,3,,1
+Log failed messages in acceptance tests,2017-01-20,Merged,4433,5,1,,2
+Register publishers for ATTs that were missed out,2017-01-24,Closed,4432,16,16,,5
+Update Janitor to 1.2.2,2017-01-18,Merged,4430,3,5,csproj config ,3
+Skip weaving the timeoutPollerTask,2017-01-18,Merged,4429,2,0,,1
+Remove ActiveRunner class from AcceptanceTesting,2017-01-18,Merged,4428,12,26,cs ,3
+Hotfix 6.0.6,2017-01-17,Merged,4425,164,93,csproj ,6
+Hotfix 6.1.2,2017-01-17,Merged,4424,181,115,csproj ,7
+Add TestCase to transport test,2017-01-17,Merged,4423,6,3,,1
+Repro issue with infinite loop if enlistment throws,2017-01-05,Merged,4418,8,2,,1
+Move failure info clearing for more consistency,2017-01-16,Merged,4417,181,115,csproj ,7
+[WIP] Different instances invoked when saga has handlers for both base and specific message type,2017-02-21,Closed,4416,224,12,cs ,5
+Added logging when PurgeOnStartup is performed,2016-12-22,Merged,4412,5,0,,1
+Add smoke test guidance to MAINTAINERS.md,2016-12-20,Merged,4409,8,0,,0
+Make ActiveSagaInstance ctor public,2016-12-19,Merged,4408,5,1,cs ,1
+[WIP] InMemoryPersistence DTC enlistments,2017-01-17,Closed,4406,88,0,cs ,2
+Reuse of incoming message as saga timeout message causes duplicate handler invocations,2016-12-19,Merged,4405,167,24,cs ,7
+Bring hotfix 6.1.1 changes into develop,2016-12-19,Closed,4404,174,27,cs ,10
+Switching DateTime.Now to DateTime.UtcNow,2016-12-16,Merged,4403,9,9,,1
+Reuse of incoming message as saga timeout message causes duplicate handler invocations,2016-12-16,Merged,4401,167,24,cs ,7
+Add isolated dispatch on failure test,2016-12-22,Merged,4400,48,2,cs ,3
+Reuse of incoming message as saga timeout message causes duplicate handler invocations,2016-12-16,Merged,4399,167,24,cs ,7
+Fixing randomly failing log assertion,2016-12-15,Merged,4398,4,4,,1
+Only invoke timeout handler if message is a saga timeout,2016-12-15,Closed,4396,344,369,csproj cs txt config ,12
+Add test to project file,2016-12-15,Merged,4395,1,0,,1
+[WIP] InMemory saga persister fails in when there is no tx to enlist in,2016-12-15,Closed,4394,5,1,,1
+InMemorySagaPerister allocates less for saga with fields of simple types.,2016-12-16,Merged,4390,93,5,cs ,3
+Bump develop to 6.2,2016-12-12,Merged,4388,1,1,,1
+Release 6.1.0,2016-12-12,Merged,4386,7,3,cs ,4
+Rename test to shorten path,2016-12-09,Merged,4385,2,2,cs ,2
+Remove no longer required ExpectFailedMessages extension,2016-12-08,Merged,4384,0,22,cs ,2
+Fix msmq acceptance tests to use IConfigureEndpointTestExecution,2016-12-09,Merged,4383,127,286,csproj ,16
+Hotfix 6.0.4,2016-12-05,Merged,4381,142,29,cs ,4
+Hotfix 5.2.21,2016-12-05,Merged,4380,139,25,cs DotSettings ,5
+Preserve DateTimeOffset timezone information when deserializing,2016-12-05,Merged,4379,142,29,cs ,4
+Fixing assertions for When_serializing_a_message,2016-12-05,Merged,4378,4,0,,1
+Release 6.1.0,2016-12-12,Merged,4377,"5,697","2,212",yml nuspec ps1 cs csproj ,12
+improve AddSatelliteReceiver obsolete,2016-12-05,Merged,4375,6,2,cs ,1
+Preserve DateTimeOffset timezone information when deserializing,2016-12-05,Merged,4374,139,25,cs DotSettings ,5
+Features marked as implicitly used,2016-12-02,Merged,4373,2,0,,1
+Timeout storage unavailable optimizations,2016-12-02,Merged,4372,13,8,,2
+Don't change MSMQ permissions on existing queues,2016-12-02,Merged,4371,474,43,csproj config cs ,9
+Hotfix 6.0.3,2016-12-02,Merged,4370,284,47,csproj ,5
+[WIP] Don't change MSMQ permissions on existing queues,2016-12-01,Closed,4369,"3,689","4,647",cs ,9
+Clean Endpoint shutdown,2016-12-02,Merged,4368,470,46,csproj ,7
+Preserve DateTimeOffset timezone information when deserializing,2016-12-02,Merged,4367,138,29,cs ,4
+Don't change MSMQ permissions on existing queues,2016-12-01,Merged,4366,284,47,csproj ,5
+Throw exception when resolving custom pipelines,2016-12-01,Merged,4364,2,2,,1
+Acceptance tests start and stop improvements,2016-12-01,Merged,4362,99,71,cs ,4
+Make sender-side distribution APIs public,2016-12-01,Merged,4359,19,3,cs ,2
+Hotfix 6.0.2,2016-11-30,Merged,4357,550,29,csproj ,8
+[Spike] Transport component,2016-12-12,Closed,4356,435,392,cs txt ,12
+merge 6.0.1 into develop,2016-11-30,Merged,4352,793,126,,12
+Ready message backport,2016-11-29,Closed,4351,793,126,,12
+Release hotfix 6.0.2,2016-11-29,Merged,4350,550,28,csproj ,8
+Rename testing helper classes,2016-11-28,Merged,4348,92,92,csproj ,11
+Fix exception assert in When_satellite_txmode_does_not_match_endpoints_txmode,2016-11-28,Merged,4347,2,2,,1
+Hotfix 6.0.1,2016-11-28,Merged,4346,791,124,,11
+make saga datas public,2016-11-30,Merged,4345,20,7,,4
+Msmq subscriptions are not persisted when transactional queues are in use,2016-11-29,Merged,4343,550,28,csproj ,8
+ScenarioRunner automatically unpacks exceptions for single runs and throws the actual exception,2016-11-28,Merged,4342,60,96,cs ,21
+Enforcing satellite transaction mode to be the same as the endpoint,2016-11-28,Merged,4341,104,1,cs txt ,4
+[SPIKE] Raw endpoints that can even benefit from recoverability,2016-11-30,Closed,4339,118,3,cs ,6
+[SPIKE] UnicastSubscriberTable - updated,2016-11-28,Merged,4337,30,33,,1
+correct mapping on When_receiving_multiple_timeouts,2016-11-25,Merged,4335,3,3,,1
+spelling fix,2016-11-24,Merged,4334,4,4,,1
+Moves When_overriding_local_address into correct namespace,2016-11-24,Merged,4333,7,11,,1
+[Spike] Quick spike for InMemoryStorage session access,2016-11-24,Closed,4330,120,11,txt ,5
+Ready message worker proposal,2016-11-28,Merged,4329,791,124,,11
+[SPIKE] Quick spike for InMemoryStorage session access,2016-11-24,Closed,4328,94,11,txt ,5
+Fix worker ready message when error,2016-11-25,Closed,4327,321,0,csproj ,6
+[WIP] Fix worker ready message when error,2016-11-24,Closed,4326,324,3,cs csproj ,7
+[SPIKE] Raw endpoints,2016-11-30,Closed,4317,"2,144",30,cs ,9
+[SPIKE] UnicastSubscriberTable,2016-12-15,Closed,4316,712,496,csproj cs ,6
+Saga finder acceptance tests,2016-11-24,Merged,4315,41,69,cs ,5
+Use TestDirectory in tests,2016-11-22,Merged,4314,44,75,csproj ,16
+Refactor publish subscribe features,2016-12-12,Closed,4313,704,599,cs csproj ,10
+Api approval async methods,2016-12-14,Merged,4312,3,15,cs csproj config ,3
+[SPIKE] Split the routing into logical and physical,2016-12-05,Closed,4311,"1,011",745,csproj cs ,2
+Inlined the msmq create/open code to allows us to dispose properly,2016-11-22,Merged,4310,174,121,csproj ,6
+Adjust error message to match timeout value,2016-11-21,Merged,4309,3,2,,1
+Remove IsDefaultFlag from outbound transport,2016-11-21,Merged,4308,1,8,,2
+[Spike] Reduced replaceable unicast pubsub,2016-12-12,Closed,4307,560,451,,1
+Increase When timeout to 60s,2016-11-18,Merged,4306,1,1,,1
+Make routing infrastructure a core component,2017-01-16,Merged,4305,239,195,cs ,14
+Anonymous permissions added to existing MSMQ queues,2016-12-01,Merged,4304,383,181,csproj ,8
+Remove MessageDrivenPubSubRouting() API for ATT,2016-11-17,Merged,4303,25,57,csproj ,9
+Faster InMemorySagaPersister,2016-11-23,Merged,4300,411,222,csproj ,9
+Ignore flaky test for now,2016-11-15,Merged,4299,1,0,,1
+[WIP] Spike new feature dependency api,2016-11-21,Closed,4294,177,53,csproj ,15
+[WIP] Update performance of InMemorySagaPersister,2016-11-16,Closed,4290,376,90,csproj ,9
+Adding acceptance tests for unsubscribe,2016-11-15,Merged,4289,275,0,cs ,3
+[Spike] Replaceable unicast pubsub,2016-11-22,Closed,4287,518,450,,1
+Fixed bad missing performance counters error message,2016-11-14,Merged,4286,1,1,,1
+[Spike] Expose feature components via properties,2016-11-21,Closed,4284,43,33,,5
+make ScheduledTask public,2016-11-09,Merged,4283,30,5,cs ,2
+Add configuration for TimeoutManager concurrency settings,2016-11-14,Merged,4282,74,6,cs csproj ,4
+Report first-time install metric to Particular when a user installs NServiceBus,2016-11-17,Merged,4280,55,34,,1
+Fix InMemorySagaPersister tests,2016-11-07,Merged,4279,23,17,,1
+[WIP] Changes allowing wiring dispatcher directly to pump,2016-12-05,Closed,4274,55,35,cs ,4
+Update to PublicApiGenerator 5.0,2016-11-21,Merged,4273,94,143,cs ,2
+"Using http client one time only, replaced async void with task returning and ignore",2016-11-03,Merged,4271,13,12,,1
+[SPIKE] Allow custom routing connectors with sample,2016-12-05,Closed,4267,"1,227",37,csproj config xml ,12
+Track already processed assemblies in Assembly Scanner,2016-11-28,Merged,4265,37,25,,2
+Fix assembly scanner tests,2016-11-02,Merged,4263,76,106,cs csproj ,4
+[WIP] Incorporating first time usage metric.,2016-11-07,Closed,4262,114,47,ps1 cs csproj ,6
+Encapsulate pubsub,2016-11-07,Merged,4261,88,54,csproj ,7
+Fix test to use correct class name for mappingFilePath,2016-10-28,Merged,4258,1,1,,1
+Bringing the assembly scanning logic under test,2016-11-02,Merged,4257,278,52,cs csproj dll ,6
+Assembly scanning minors,2016-10-28,Merged,4256,38,146,csproj ,8
+"Revert ""Assembly scanning cleanup & improvements""",2016-10-28,Merged,4255,159,83,csproj ,8
+Optimize behaviors that call BuildAll by skipping logic if nothing is registered,2016-10-28,Merged,4253,248,28,,7
+Switching from ElapsedTicks to Elapsed.Ticks on stopwatch,2016-10-27,Merged,4251,2,2,,1
+Allocations,2016-11-01,Merged,4250,7,0,,0
+Make processing statistics not vulnerable to server time changes,2016-10-26,Merged,4249,4,1,,1
+Split timeout dispatcher test based on tx level,2016-11-02,Merged,4248,194,31,csproj ,9
+Provide pubsub metadata to acceptance tests,2016-11-15,Merged,4246,303,244,csproj ,10
+[SPIKE] Allows native routing for sends,2016-12-15,Closed,4245,127,62,cs ,7
+Assembly scanning cleanup & improvements,2016-10-27,Merged,4243,83,159,csproj ,8
+Remove ObsoleteEx attribute from DisableLegacyRetriesSatellite,2016-10-22,Merged,4242,0,6,cs ,1
+ATT Publisher that are required to be accessible by ASB,2016-10-27,Merged,4239,6,7,,3
+Update nUnit dependency in nuspecs,2016-10-20,Merged,4234,3,3,,3
+Add obsolete warning for SetCorrelationId,2016-10-24,Merged,4233,33,1,txt ,2
+Move subscription behaviors to TransportReceive stage to avoid InsertBefore,2016-10-19,Merged,4232,17,33,,5
+[SPIKE] MSMQ use raw byte segments from the message without copying,2016-11-23,Closed,4231,348,59,csproj ,16
+Direct retrieval of a message body.,2016-10-19,Closed,4229,55,549,csproj ,4
+ReceiveStrategy.TryProcessMessage now uses the body stream and the messageId only,2016-10-17,Merged,4228,7,7,,5
+[SPIKE] Byte buffering for received messages for MSMQ,2016-11-07,Closed,4227,800,37,csproj ,15
+expose Definition on SerializationExtensions<T>,2016-10-17,Closed,4226,27,6,cs ,3
+Use a consistent lifecyle for testing,2016-10-17,Merged,4224,2,2,,1
+Pass satellite runtime settings to satellite receiver,2016-10-31,Merged,4222,15,7,,2
+Throw exception on ambiguous configuration providers,2016-10-17,Merged,4220,69,5,csproj ,3
+Verify correct transaction scope sharing,2016-10-14,Merged,4219,37,0,cs ,2
+Support ReceiveOnly transaction mode with MSMQ,2016-10-17,Merged,4218,315,21,cs ,10
+Unit test names,2016-10-12,Merged,4217,1,0,,0
+Hotfix-5.2.19,2016-10-12,Merged,4216,6,1,,1
+Do not swallow timeout exceptions in Acceptance Tests,2016-10-11,Merged,4212,17,20,,2
+make acceptance test messages public,2016-10-10,Merged,4202,65,54,,33
+Remove running section from readme,2016-10-07,Merged,4198,0,3,,0
+"[WIP] Change settings key from  ""TypesToScan"" to ""AvailableTypes"".",2016-10-18,Closed,4197,6,8,,3
+Cleaned up summary of PersistenceExtensions and TransportExtensions,2016-10-06,Merged,4196,3,3,,2
+CombGuid now using DateTime.UtcNow to resolve DST ordering issues,2016-10-06,Merged,4195,10,5,,1
+Avoid allocating a complete copy of the message on every failure unless it is necessary,2016-10-06,Merged,4193,6,10,,1
+Hotfix-5.2.18,2016-10-07,Merged,4192,63,76,,4
+Release 6.0.0,2016-10-05,Merged,4191,"78,926","53,644",yml yaml sln config cs csproj ,12
+Disabled SLR as per the test intention,2016-10-06,Merged,4190,2,2,,1
+MSMQ Message Pump Improvements,2016-10-05,Closed,4189,64,76,,4
+[WIP] Spike - Remove interface message support,2017-01-23,Closed,4187,198,"2,074",,15
+Hotfix 5.2.17,2016-10-04,Merged,4186,376,306,cs ,6
+Remove [Serializable] attribute from test messages,2016-10-03,Merged,4184,123,159,,29
+InMemory saga persister creates duplicate saga instances,2016-10-04,Merged,4182,283,289,cs ,3
+Remove subscription versioning for MSMQ and InMemory subscriptions,2016-10-03,Merged,4177,93,17,cs DotSettings ,5
+Fix saga and timeout ATs,2016-10-21,Merged,4176,14,12,,2
+Use endpoints logical address to generate performance counters,2016-09-28,Merged,4173,8,7,,2
+Remove subscription versioning for MSMQ and InMemory subscriptions,2016-09-28,Merged,4172,58,6,csproj ,4
+Fix spelling error in log statement,2016-09-26,Merged,4160,2,2,,1
+Fix Msmq persistence,2016-09-27,Merged,4155,293,209,csproj ,6
+InMemory saga persister creates duplicate saga instances,2016-09-28,Merged,4149,174,10,cs ,3
+Licensing wording for better clarity,2016-09-29,Merged,4146,21,31,,3
+Add test to verify unscubribe using scaled out publishers,2016-09-19,Merged,4142,99,10,cs ,4
+Provide a more helpful exception message,2016-09-29,Merged,4141,8,1,,1
+Url change for license expiration,2016-09-21,Merged,4140,51,7,,3
+[WIP] Api Approval must not include internal interfaces,2016-11-04,Closed,4139,9,6,cs ,1
+Removed unnecessary await in InvokeHandlerTerminator,2016-09-16,Merged,4138,4,5,,1
+Cleanup dead code,2016-09-16,Merged,4137,1,82,csproj ,6
+Allow MEM entries to overwrite each other,2016-09-15,Closed,4136,1,1,,1
+[WIP] Use endpoint instance data for publishing.,2016-09-19,Closed,4135,53,91,txt csproj ,15
+Only map message properties and field for interface messages,2016-09-22,Merged,4133,762,158,,1
+Fix MSMQ subscription storage,2016-09-19,Closed,4131,154,103,csproj ,4
+Remove false tests and incorrect comments about spring,2016-09-14,Merged,4130,0,42,,3
+Fix local autosubscribe,2016-09-13,Merged,4128,113,17,csproj ,4
+remove personal voice from exception messages,2016-09-12,Merged,4127,10,10,,7
+[WIP] Call behaviors with target methods.,2016-09-12,Closed,4126,2,2,,1
+Behavior chain improvements,2016-09-13,Merged,4125,902,475,,15
+Add missing node property,2016-09-08,Merged,4124,10,0,cs ,1
+Fix external timeout manager support,2016-09-12,Merged,4122,79,14,csproj ,3
+Avoid exceptions when FileName not set on FileLoadException,2016-09-09,Merged,4121,1,1,,1
+satellitePipelineExecutor to SatellitePipelineExecutor,2016-09-06,Merged,4117,1,1,cs ,2
+Add EndpointInstances in fake message pump setup,2016-09-02,Merged,4115,3,1,,1
+Split the test into two classes.,2016-09-09,Merged,4114,83,49,cs ,3
+Create MAINTAINERS.md,2016-09-13,Merged,4112,32,0,,0
+[SPIKE] MessageMapper exception,2016-09-22,Closed,4108,224,33,,3
+[WIP] Changes LogicalAddress to class again.,2016-09-13,Closed,4106,42,9,cs csproj ,5
+[WIP] Refactored logical address to not depend so much on EndpointInstance,2016-09-01,Closed,4105,108,41,cs ,4
+Fixing When_subscribing_to_multiple_publishers test,2016-08-31,Merged,4104,2,1,,1
+Fixing mentioning of bus in best practices validation,2016-08-31,Merged,4102,9,14,,2
+GitVersionConfig rename,2016-08-30,Merged,4100,0,0,,1
+Removed unused satellite context,2016-08-30,Merged,4099,0,74,csproj cs ,6
+Better obsoletes for ISatellite,2016-08-30,Merged,4098,8,6,cs ,2
+Not relying on GetAvailableTypes for message endpoint mapping,2016-08-30,Merged,4097,32,7,,3
+[WIP] Message mapper needs to lazy initialize message types not found during scanning,2016-09-13,Closed,4096,79,0,cs ,2
+XmlSerializer with unobtrusive messages should propagate properties of message,2016-08-29,Merged,4095,319,201,cs ,3
+Bump original date and release date to 2016-09-01,2016-08-29,Merged,4094,2,2,cs ,1
+Updated to latest GitVersionTask v3,2016-08-30,Merged,4093,20,18,csproj config ,13
+"Default concurrency to max(2,LogicalProcessorCount)",2016-08-29,Merged,4092,41,6,csproj cs ,3
+Add route config validation,2016-08-29,Merged,4090,693,83,csproj txt ,12
+Make the extension api for routing be based on settings,2016-08-24,Merged,4088,33,116,txt csproj ,5
+Handling message inheritence when subscribing,2016-08-30,Merged,4084,565,190,cs ,7
+remove ReturnToSourceQueue InternalsVisibleTo,2016-08-29,Merged,4082,1,3,cs ,1
+Legacy timeouts support,2016-08-26,Merged,4081,142,1,csproj txt ,4
+Pay more attention to cancellationToken around timeout polling and dispatch,2016-08-22,Merged,4079,13,7,,2
+Changed DistributionPolicy to accept factory methods.,2016-08-22,Closed,4076,190,178,txt ,6
+Verify that headers are preserved on forwarded messages,2016-08-22,Merged,4073,88,7,csproj ,3
+Improve ToUtcDateTime performance,2016-09-13,Merged,4070,145,3,csproj ,3
+Distinct distribution strategies between sends and publishes,2016-08-24,Merged,4069,160,155,txt csproj ,7
+Set invariant culture in core tests,2016-08-17,Merged,4068,17,1,csproj ,3
+Optimize MessageMetadataRegistry,2016-08-24,Merged,4066,28,3,,1
+Router refactoring,2016-08-18,Merged,4065,238,386,txt ,8
+Queue override via endpoint instance property,2016-08-24,Merged,4064,192,70,cs txt ,9
+Assert on exception messages using invariant culture,2016-08-17,Closed,4063,31,3,csproj ,4
+Use class instead of interface in the multi version test,2016-08-17,Merged,4062,8,5,,1
+Set serializer to XML explictly to support multi inherited interface,2016-08-16,Closed,4061,23,11,,1
+[WIP] Json serializer fails to deserialize interface messages,2016-08-29,Closed,4060,23,11,,1
+Disable delayed retries in test to make the count correct,2016-08-16,Merged,4059,11,24,,1
+Minor changes to routing related api docs,2016-08-15,Merged,4057,10,18,,4
+Verify failing feature startup tasks stop endpoint startup,2016-08-15,Merged,4056,55,2,csproj ,3
+ATT for subscribing to multiple publishers,2016-08-15,Merged,4055,97,16,csproj ,4
+Default transport test timeouts to 30s,2016-08-15,Merged,4054,2,2,,1
+Logging refactoring,2016-08-16,Merged,4053,231,383,txt cs ,5
+Convert nondurable delivery test to transport test,2016-08-15,Merged,4052,65,66,cs ,5
+Put transport transaction in the context for satellites,2016-08-12,Merged,4050,33,8,,5
+Rename OverrideInputQueueName back to OverrideLocalAddress,2016-08-12,Merged,4049,6,19,txt ,5
+Fixed MessageEndpointMapping interpretation to honor the proper ordering,2016-08-12,Merged,4046,160,13,cs ,5
+Serialization tests used context classes instead of passing values in messages,2016-08-12,Merged,4045,57,56,,3
+Rename acceptance test,2016-08-11,Merged,4043,1,1,csproj ,2
+Made Scheduled tasks dictionary private,2016-08-11,Merged,4042,33,33,,3
+No dynamic routing. No async routing.,2016-08-16,Merged,4041,"1,296","1,069",cs ,10
+Set the transport transaction scope as top-level,2016-08-10,Merged,4038,2,2,,2
+Set the transport transaction scope as top-level,2016-08-10,Closed,4037,2,2,,2
+"Replaced usages of Pipeline.Register(string, type, string)",2016-08-11,Merged,4035,54,63,,23
+Improve exception on ambiguous deserializers,2016-08-09,Merged,4033,72,25,,3
+Instance mapping renamings,2016-08-09,Merged,4032,64,65,csproj cs xsd ,16
+Fix unobtrusive assembly routing,2016-08-10,Merged,4030,292,38,cs txt ,6
+MessageMetadataRegistry GetMessageMetadata with strings registers type if it matches the message conventions,2016-08-11,Merged,4029,92,17,csproj ,3
+"Added acceptance test for unobtrusive sending, publishing and replying with proxy",2016-08-11,Merged,4028,284,3,csproj ,5
+Verify databus still works with unobtrusive mode,2016-08-09,Merged,4027,102,18,csproj ,3
+missing frameworkAssemblies for NServiceBus.AcceptanceTests.Sources,2016-08-08,Merged,4026,2,0,,1
+Make index threadsafe,2016-08-05,Merged,4024,4,3,,1
+NonDurableMessages do not work with unobtrusive mode in v6,2016-08-08,Merged,4023,103,32,csproj ,5
+[WIP] Removed dynamic instance registration,2016-08-11,Closed,4021,135,248,txt ,9
+[WIP] No dynamic publisher registrations,2016-08-11,Closed,4020,634,578,txt csproj ,5
+Removed dynamic routes. Added route priorities to allow for overriding.,2016-08-11,Closed,4019,275,193,cs csproj ,5
+Don't query TimeoutPersisterReceiver in tight loop when ingesting timeouts,2016-08-15,Merged,4016,1,1,,1
+Remove LINQ in SubscriptionRouter,2016-08-04,Merged,4014,7,10,,1
+Refactor UnicastPublishRouter,2016-08-05,Merged,4013,13,40,,3
+Distribution strategy refactoring,2016-08-09,Merged,4011,39,43,cs ,8
+Remove unnecessary collection,2016-08-05,Merged,4010,2,8,,1
+Serialize connector remove linq,2016-08-04,Merged,4009,47,55,csproj ,7
+Reduced DeserializeLogicalMessagesConnector to one last linq statement,2016-08-04,Merged,4008,26,12,,1
+Removed unnecessary ToList and Any from LoadHandlersConnector,2016-08-04,Merged,4007,2,3,,1
+move from FLR/SLR to Immediate/Delayed,2016-08-08,Merged,4004,574,502,csproj ,7
+Split LogicalAddress and EndpointInstance,2016-08-09,Closed,4003,137,186,txt csproj ,10
+Extract endpoint config settings,2016-08-02,Merged,4002,46,48,cs csproj ,4
+[WIP] Finder with base message,2016-11-07,Closed,4001,373,21,cs txt ,5
+Throwing when explicitly configured instance mapping file is missing,2016-08-02,Merged,3999,52,7,csproj ,3
+Remove AllInstancesDistributionStrategy,2016-08-02,Merged,3997,0,128,cs txt ,4
+Saga Base Class mapping,2016-08-09,Merged,3996,111,18,cs ,4
+Select transport for TransportTests based on available TransportDefinitions,2016-08-02,Merged,3993,52,11,cs ,3
+"fixed typo: ""reverability"" -> ""recoverability""",2016-07-29,Merged,3992,1,1,,1
+Property encryption does not work with unobtrusive mode,2016-08-03,Merged,3991,219,130,csproj txt ,5
+TimeToBeReceived does not work with unobtrusive mode,2016-08-03,Merged,3988,225,41,cs ,6
+Single route for commands,2016-08-04,Merged,3987,177,99,csproj cs ,5
+better obsolete for .scaleout(),2016-08-04,Closed,3985,11,7,cs ,1
+Reduce contention on UnfinishedFailedMessages dictionary,2016-07-28,Merged,3984,5,2,,1
+Incoming and outgoing transport mutator contexts indiciate message has changed although there was no change,2016-07-28,Merged,3983,314,9,,6
+Fix command route inheritance,2016-08-03,Merged,3982,178,172,cs csproj ,10
+Making the transport transaction an explicit concept on the dispatcher,2016-07-28,Merged,3981,65,78,txt ,22
+[SPIKE] Setting of error queue is exposed on recoverability settings,2016-08-08,Closed,3980,82,93,,18
+Subscription route inheritance,2016-08-02,Merged,3979,5,23,,2
+Add missing xml comment on TestableIncomingPhysicalMessageContext,2016-07-27,Merged,3978,3,0,,1
+Reduce RouteTo overloads in UnicastRoutingTable,2016-08-02,Merged,3977,25,53,cs ,4
+Make machine property key lowercase,2016-07-27,Merged,3976,2,2,,2
+Check endpoint name for invalid @ characters,2016-07-26,Merged,3974,44,2,csproj ,3
+[WIP] Single instance round robin distribution strategy is not fair,2016-07-26,Closed,3971,39,1,,1
+Alternative override of local address,2016-08-02,Merged,3970,156,268,txt csproj ,11
+Override local address - alternative,2016-07-25,Closed,3969,"12,204","7,394",nuspec cs csproj ,8
+Change LogicalAddress to LocalAddress,2016-08-03,Closed,3968,269,281,txt ,10
+Log changes to instance mapping file,2016-07-27,Merged,3967,55,11,xsd ,4
+DelegateHolder should be a class,2016-07-25,Merged,3966,2,2,,1
+Making RecoverabilityConfig a class,2016-07-25,Merged,3965,48,14,cs ,6
+Structs which violate the recommended best practices need to get approved,2016-08-19,Merged,3963,193,11,txt cs ,4
+Make LogicalAddress a struct,2016-08-02,Merged,3962,3,3,cs ,1
+ExtendableOptions sets the message id header.,2016-07-27,Merged,3961,22,8,,3
+Unicast router optimizations,2016-07-22,Merged,3960,28,18,cs ,4
+Incoming message body can only be updated from the core,2016-07-27,Merged,3959,19,19,cs ,4
+Fixed misleading obsolete for ISatellite,2016-07-22,Merged,3958,4,4,cs ,1
+Transport Test changes after transport maintainers feedback,2016-07-27,Merged,3957,145,28,cs csproj ,7
+Removing the stream from MessageContext and ErrorContext,2016-07-28,Merged,3956,105,127,cs ,8
+Route to endpoint instance,2016-07-22,Merged,3955,264,166,csproj cs ,4
+Add subscription behavior acceptance test,2016-07-26,Merged,3954,73,3,cs ,3
+[SPIKE] Pipe poison messages through recoverability,2016-07-25,Closed,3953,79,85,,11
+RegisterPublisherFor* methods replaced with simple RegisterPublisher,2016-07-21,Merged,3952,35,36,txt ,6
+Replace Task.Run in MessagePump,2016-07-22,Merged,3951,31,22,,2
+fix filename for MsmqFailureInfoStorage,2016-07-19,Merged,3950,1,1,cs ,2
+Fix async send in transport tests when sending during error handling,2016-07-19,Merged,3949,36,33,,4
+Replaced GetAvailableTypes().Where(Conventions.IsMessageType) with MessageMetadataRegistry,2016-07-22,Merged,3948,55,47,,11
+Transport tests stop message pump,2016-07-19,Merged,3946,1,0,,1
+[WIP] Fix polymorphic routing,2016-07-28,Closed,3943,677,230,cs txt ,4
+[Spike] Remove RouteToAddress,2016-07-28,Closed,3942,131,253,txt ,12
+Recoverability custom error queue,2016-07-19,Merged,3941,"1,271",867,csproj ,13
+Detect modifications to MessageId header via message mutators and throw,2016-07-27,Closed,3940,129,6,cs csproj ,8
+Recoverability override,2016-07-19,Closed,3939,"1,009",830,csproj ,12
+Avoid assembly get types,2016-07-20,Merged,3938,280,218,csproj cs ,4
+remove redundant conditional,2016-07-14,Merged,3937,0,6,,1
+Add some missing guards,2016-07-27,Merged,3936,120,43,,5
+[WIP] Make argument tests mandatory,2016-07-14,Closed,3935,"10,582","6,331",nuspec cs csproj ,8
+Remove redundant explicit tests,2016-07-14,Merged,3934,1,205,csproj ,7
+removing legacy stacktrace support from failure headers,2016-07-14,Merged,3933,3,38,,2
+TimeoutsChunk uses array for timeouts and timeouts is a struct to reduce garbage,2016-07-14,Merged,3932,14,17,txt ,6
+[Spike] Remove IUnicastRoute,2016-07-20,Closed,3931,190,673,txt csproj ,11
+Recoverabiltiy use custom type for exception passing,2016-07-13,Closed,3929,236,183,txt ,10
+Settings per serializer,2016-07-21,Merged,3928,279,29,cs ,7
+Verify arguments for routing configuration,2016-07-15,Merged,3927,168,2,cs ,5
+Set correct message types when using proxy interfaces,2016-07-12,Merged,3926,185,26,csproj ,5
+Attempt to fix in-memory saga persistence,2016-07-14,Merged,3925,39,36,,2
+Avoid async calls in UnicastRoutingTable,2016-07-14,Merged,3924,41,31,cs ,5
+Enables extension points for additional deserializers,2016-07-14,Merged,3923,64,15,txt ,2
+Remove unneeded async keyword from test,2016-07-11,Merged,3920,3,4,,1
+Publisher cleanup,2016-07-13,Merged,3918,284,50,csproj cs ,3
+Excluding Performance/MessageDurability from NServiceBus.AcceptanceTest package,2016-07-20,Merged,3917,67,60,cs csproj ,33
+[WIP] Remove unnecessary explicit tests,2016-07-14,Closed,3916,99,248,csproj ,6
+remove redundant Rhino.Mocks package,2016-07-08,Merged,3913,0,5,config exclude ,3
+[WIP] Rename publishers.AddDynamic to publishers.Add,2016-08-09,Closed,3912,10,10,cs ,3
+Allow assembly and namespace based routing,2016-07-13,Merged,3905,195,2,txt csproj ,5
+Make routing configurations chainable,2016-07-06,Closed,3904,26,12,cs ,3
+PendingTransportOperations and OutboxMessage use array instead of IEnumerable or IList,2016-07-06,Merged,3903,43,47,txt ,7
+Moved the pipeline invocation runtime concern away from the startable endpoint,2016-07-08,Closed,3901,129,49,csproj ,9
+Auto enable instance mapping,2016-07-06,Merged,3900,481,166,csproj cs ,7
+[WIP] Auto enable instance mapping,2016-07-01,Closed,3899,"7,422","4,934",nuspec cs csproj ,9
+Align register publisher API,2016-07-08,Merged,3898,81,54,txt ,9
+add argument checks for file routing,2016-07-03,Merged,3896,16,0,,1
+[WIP] - spike - Headers performance spike,2016-07-14,Closed,3895,383,4,csproj config ,4
+Remove abstract modifier from ScenarioContext,2016-06-30,Merged,3894,20,83,,17
+Replaced IEnumerable<DeliveryConstraint> with List<DeliveryConstraint> on the transport seam,2016-07-05,Merged,3893,61,53,cs ,9
+New recoverability mechanism,2016-07-12,Merged,3892,"3,024","2,301",cs ,17
+[WIP] AT Pubsub to self broken with purge on startup,2016-09-13,Closed,3891,80,0,cs ,2
+Attempt to fix When_TimeToBeReceived_set_and_native_receivetransaction,2016-06-30,Merged,3890,12,7,,2
+Temporarely disable When_TimeToBeReceived_set_and_native_receivetransaction,2016-06-30,Merged,3889,1,0,,1
+Avoiding allocations with Task.ContinueWith by opting-in for delegate caching,2016-06-30,Merged,3888,5,4,,1
+Incorrect logger type,2016-06-29,Merged,3887,2,2,,1
+Better obsoletes for storage type persistence extension,2016-06-30,Merged,3886,7,3,cs ,1
+Properly obsoleting Bus property on Saga base class,2016-06-30,Merged,3885,14,0,cs ,1
+Replace string concatenation with string interpolation,2016-06-29,Merged,3881,16,16,,3
+Rename ScaleOut().InstanceDiscriminator() API,2016-07-01,Merged,3880,65,78,txt csproj ,14
+[WIP] Adding onError Func to the transport seam,2016-07-06,Closed,3879,"1,310",289,txt csproj ,13
+Optimize Message handler registry hot path,2016-07-06,Merged,3878,44,29,cs ,1
+Replace string concatenation with interpolation,2016-06-28,Closed,3876,16,16,,3
+Avoid multiple enumerations,2016-06-24,Merged,3874,5,5,,2
+Use Length or Count instead of Count(),2016-06-27,Merged,3873,3,3,,3
+[WIP]On error func for satellites,2016-06-28,Closed,3870,98,57,txt ,6
+Fixing failed message tracking in ATT,2016-06-23,Merged,3869,6,12,,1
+Consistently using RuntimeEnvironment class to get the current machine name,2016-06-27,Merged,3868,14,9,,6
+Fixed file instance mapping to be available when running FSTs.,2016-06-28,Merged,3867,68,54,,4
+Fix for #3854 unhandled exception in SubscriptionManager Threadpool task.,2016-07-11,Closed,3866,10,8,,1
+WIP: Hotfix 5.2.15,2016-06-22,Closed,3865,"3,252","4,270",cs ,9
+"Throw when saga handles message, but message is unmapped+uncorrelated",2016-06-27,Merged,3864,147,9,cs ,3
+Recoverability action executor,2016-06-28,Merged,3863,481,314,csproj ,4
+Validate that handlers don't use message session,2016-06-27,Merged,3862,197,15,csproj ,5
+[WIP] Prevent handlers from using IMessageSession,2016-06-22,Closed,3861,167,77,txt csproj ,8
+[WIP] Prevent handlers to use message session,2016-06-22,Closed,3860,"5,310","3,839",nuspec cs csproj ,9
+Fix XmlSerializer config,2016-07-06,Merged,3859,419,33,csproj ,7
+Added an acceptance test for event sender-side distribution,2016-06-27,Merged,3857,130,0,cs ,2
+Release 6.0.0,2016-06-22,Closed,3856,"4,762","3,276",nuspec cs csproj ,10
+"Merging Flr, slr and error into single recoverability behaviors",2016-06-29,Merged,3851,591,484,,3
+Remove fault context,2016-06-22,Merged,3850,143,378,cs csproj ,4
+Scope UoW should handle default tx mode to be used,2016-06-22,Merged,3848,60,2,csproj ,4
+Copy headers when auditing.,2016-06-20,Merged,3843,2,1,,1
+Added AT for UoW components in the pipeline,2016-06-22,Merged,3842,120,0,cs ,2
+Some acceptance testing refactorings,2016-06-22,Merged,3841,71,153,,4
+Routing-in-transport-config,2016-07-01,Merged,3840,170,133,txt csproj ,9
+Subscription authorizer scoping,2016-06-16,Merged,3838,36,49,csproj cs ,3
+PerformanceMonitorUsersInstaller info message,2016-06-15,Merged,3836,2,2,,1
+Tracking unhandled failed messages before endpoint shutdown.,2016-06-21,Merged,3835,60,35,,6
+Add GetOrCreate to SettingsHolder,2016-06-16,Merged,3834,28,62,txt ,6
+add more parameters to custom retry policy,2016-06-17,Merged,3832,97,66,txt csproj ,9
+Made routing-related types public.,2016-06-14,Closed,3830,116,81,cs csproj ,12
+Enable code first slr/flr configuration,2016-06-17,Merged,3828,237,318,csproj ,31
+[WIP] Recoverability cleanup,2016-06-13,Closed,3827,352,298,,27
+MsmqUtilities lazy load headerSerializer,2016-06-29,Closed,3826,11,3,,1
+Distribution strategy per endpoint singleton,2016-06-15,Merged,3825,60,55,csproj cs ,5
+SyncOMatic update,2016-06-13,Merged,3823,2,1,,1
+add NonDurableDelivery to msmq supported delivery constraints,2016-06-15,Merged,3819,121,22,csproj ,11
+SyncOMatic update,2016-06-09,Merged,3818,8,4,DotSettings config ,3
+Singleton distribution strategies.,2016-06-13,Closed,3817,169,81,cs txt csproj ,13
+Routing pub/sub redesign,2016-06-15,Merged,3816,180,111,cs txt ,13
+Configure distribution strategy per endpoint,2016-06-13,Merged,3815,143,71,txt csproj ,14
+Merge retries and error queue into a single recoverability feature,2016-06-20,Merged,3814,406,396,,28
+Fixes the saga finder test,2016-06-09,Merged,3813,9,4,,1
+Expose error and audit queues,2016-06-09,Merged,3812,79,10,cs csproj ,7
+Move RunInstallers to Initialize,2016-06-08,Merged,3810,25,31,,2
+File routing xml schema,2016-06-08,Merged,3809,101,36,csproj xsd ,6
+Add single instance Add overload to EndpointInstances,2016-06-07,Merged,3806,20,13,cs ,1
+AT to verify pubsub using auto subscriptions.,2016-06-16,Closed,3805,79,0,cs ,2
+Refactor FindInstances query,2016-06-06,Merged,3804,63,25,,2
+Reduced DI footprint of the routing feature.,2016-06-08,Merged,3803,62,42,,1
+Remove endpoint name,2016-06-03,Merged,3802,132,241,txt ,8
+Fixing problem with subscribing to host-qualified subscriber address.,2016-06-02,Merged,3801,80,1,csproj ,3
+Fixed routing UTs to execute fast. Saving 40 seconds on each run.,2016-06-03,Merged,3800,9,6,,1
+Simplified satellite seam,2016-06-22,Merged,3797,247,186,cs txt ,5
+[WIP] Simplified satellite seam,2016-06-01,Closed,3796,"2,706","1,749",cs ,13
+Fix IV used in encryption unit test,2016-06-03,Merged,3795,28,17,,2
+Prevent HasSupportFor from throwing when SendOnly endpoint,2016-06-02,Merged,3793,25,2,cs ,3
+[WIP]Provide on error func to transports,2016-07-01,Closed,3792,836,451,csproj ,7
+Obsolete wellknownsteps,2016-06-03,Merged,3791,358,612,cs ,3
+Cannot set error queue on a remote server for MSMQ,2016-06-03,Merged,3788,29,4,csproj ,3
+Fix flaky encryption test,2016-05-30,Merged,3786,14,4,,1
+Improve obsolete message for SetMessageHeader,2016-06-01,Merged,3784,6,6,cs ,1
+Add nunit test VS test runner setting to project files,2016-05-29,Merged,3783,7,1,sln ,3
+Filter out abstract saga classes,2016-05-30,Merged,3782,13,4,,2
+Rename extentions to extensions,2016-05-30,Merged,3781,290,103,cs csproj ,10
+[WIP] Transport seam where transports deal with recoverability actions,2016-06-09,Closed,3780,124,38,,3
+Reduce routing hot path evaluations,2016-05-31,Merged,3777,33,12,,2
+remove UnicastRouter from DI,2016-05-25,Merged,3775,0,1,,1
+Fix untyped DependsOn,2016-06-01,Merged,3774,220,12,csproj ,5
+Remove redundant EndpointName parameters from instance configuration,2016-06-02,Merged,3773,55,33,txt ,8
+A couple async spots that don't need a state machine,2016-05-23,Closed,3769,6,7,,2
+Fix logging race condition,2016-05-27,Merged,3768,53,29,,4
+Improve endpoint api,2016-05-24,Closed,3767,175,266,txt ,9
+Improve endpoint api,2016-05-23,Closed,3766,"1,638","1,324",cs ,15
+[WIP] SLA Monitoring: a fixed circular array buffer,2016-07-18,Closed,3762,"1,959","1,306",csproj ,8
+Reprode failing dtc commit error handling,2016-06-09,Closed,3761,93,0,cs ,2
+In memory storage adapter cleanup,2016-05-20,Merged,3760,1,32,,2
+Throw when saga contains no mappings,2016-05-24,Merged,3756,239,49,txt ,9
+Minimize enumerations and allocations in SLA breach calculations,2016-05-20,Merged,3754,19,21,,1
+Fix flaky Outbox storage unit test,2016-05-19,Merged,3753,4,1,,1
+Fix round robin distribution,2016-05-23,Merged,3752,270,67,csproj cs ,8
+remove unnecessary null check for WindowsIdentity.GetCurrent(),2016-05-18,Merged,3747,0,4,,1
+[WIP] Reduced the DI footprint (usages of ConfigureComponent) of the routing feature,2016-06-03,Closed,3746,"1,538",605,csproj ,8
+Acceptance test logging improvements.,2016-06-03,Merged,3745,92,70,csproj ,10
+Use separate routers for unicast sends and publishes,2016-05-19,Merged,3744,205,84,cs ,8
+Make SLA performance counter accurate,2016-05-23,Merged,3742,167,200,csproj ,5
+swallow and log when log file purging fails,2016-05-17,Merged,3741,15,2,,1
+[WIP] Refactor routing,2016-06-02,Closed,3740,889,463,csproj ,10
+FeatureDiagnosticData: Spelling of DependenciesAreMet,2016-05-17,Merged,3736,4,4,,3
+Make critical time counter accurate,2016-05-17,Merged,3735,128,119,csproj ,8
+Remove default TestExecutionTimeout value from RunSettings,2016-05-04,Merged,3728,31,37,,5
+Task casting cleanup,2016-05-18,Closed,3727,22,8,,4
+Cleanup,2016-05-02,Merged,3724,46,43,,26
+Nunit update,2016-05-18,Merged,3722,42,40,cs config ,22
+Use behavior instead of notifications to capture failed messages,2016-05-04,Merged,3716,41,29,,3
+Fix flaky Acceptance Tests,2016-04-29,Merged,3712,6,12,,3
+Cache value instead of repeatedly calling Environment.MachineName,2016-04-28,Merged,3710,3,1,,1
+Timeout dispatch tests: flakiness fixed,2016-04-27,Merged,3709,64,25,,1
+Fixing test for SLR when FLR is disabled.,2016-04-29,Closed,3707,3,2,,1
+Fixing `when_message_is_moved_to_error_queue` test,2016-04-27,Merged,3706,4,4,,1
+return task where possible,2016-04-27,Merged,3705,152,150,,27
+DependsOn uses full type name of features,2016-05-19,Merged,3701,72,10,txt csproj ,6
+Update Fody.Janitor to resolve IDisposable[] issues,2016-04-22,Merged,3700,4,4,csproj config ,3
+Using EnvironmentHelper consistently in persistence and transport descriptor,2016-04-20,Merged,3697,2,2,,2
+Removed ScenarioContext.Exception checks in Done conditions,2016-04-21,Merged,3696,18,8,,7
+Move responsibility for error queue and fault exception headers into fault context,2016-04-20,Merged,3694,103,52,cs csproj ,14
+update to repos standards,2016-04-19,Merged,3693,166,182,txt ,34
+[WIP] - Let FaultContext track the error queue and set failure headers.,2016-04-19,Closed,3688,105,38,csproj ,12
+Moved responsibility to wrap receive in Task.Run into the receive strategy for MSMQ,2016-04-16,Closed,3685,108,95,,4
+Reduced task scheduling to dispose cancellation token source,2016-04-21,Merged,3684,29,24,,1
+Catching up on release branch with develop,2016-04-16,Merged,3683,356,162,cs ,5
+Document required steps to run ATT locally,2016-04-18,Closed,3682,7,0,,0
+support structs in json,2016-04-27,Closed,3681,72,2,csproj ,4
+Verify that a satellite can send out message by forking into the routing stage,2016-04-21,Closed,3680,119,0,cs txt ,3
+Timeout dispatch tests: potentially flaky assert fixed,2016-04-27,Merged,3676,64,25,,1
+Fixing slr and errors race condition,2016-04-12,Merged,3675,55,5,,4
+Fixing slr and errors race condition,2016-04-12,Closed,3674,411,167,cs ,5
+Fixing slr and errors race condition,2016-04-12,Closed,3673,343,242,cs csproj config ,6
+[WIP]Timeout manager should use default isolation for transports supporting atomic sends with receive,2016-04-12,Closed,3672,289,238,,0
+update obsoleteEx,2016-04-11,Merged,3669,288,237,,0
+Moving Fake tests from NServicebus.Testing to core tests,2016-04-08,Merged,3668,192,1,csproj ,3
+Removed copyright year,2016-04-08,Merged,3667,1,1,,1
+Add TestableMessageSession and TestableEndpointInstance,2016-04-07,Merged,3666,157,1,csproj ,7
+Added missing xml docs to Testing.Fakes,2016-04-07,Merged,3665,11,3,cs ,2
+Better tests for recoverability,2016-04-11,Merged,3664,164,161,cs ,5
+Encryption service tests,2016-04-07,Merged,3663,50,45,,1
+Made fake implementations partial,2016-04-05,Merged,3662,75,82,csproj ,25
+Testing logger factory which allows to log to a text writer,2016-04-06,Merged,3661,232,0,csproj ,5
+Converting core tests to use testable fake implementations,2016-04-07,Merged,3658,335,974,,7
+Introduced TimeoutManagerRoutingStrategy to properly route to the timeout manager,2016-04-05,Merged,3655,232,74,cs ,4
+Removing leftover BusConfiguration reference from Exception Message,2016-03-31,Merged,3654,2,2,,2
+Testing.Fakes cleanup,2016-03-31,Merged,3646,62,59,cs ,27
+expose Notifications on EndpointConfiguration,2016-03-30,Merged,3644,18,21,txt ,11
+Updated the obsolete message,2016-03-30,Merged,3643,4,3,cs ,1
+Allow creating IDispatchContext from a ForkConnector.,2016-03-30,Merged,3641,1,0,,1
+Minor fixes to usages of RoutingStrategy and AddressTag,2016-03-30,Merged,3640,51,7,cs ,5
+acceptance tests code reformat,2016-03-30,Merged,3639,"2,190","2,044",,5
+Making the ctor of ConventionsBuilder public,2016-03-29,Merged,3637,12,3,cs ,1
+a typo in the public enum's comment (DependencyLifecycle),2016-03-28,Merged,3636,1,1,,1
+Moved obsoleted methods from BusConfig to EndpointConfig,2016-03-25,Merged,3633,29,26,cs ,2
+Exclude Persistence tests from source package,2016-03-28,Merged,3632,1,1,,1
+Remove incorrect gateway storage check and test,2016-03-28,Merged,3631,0,61,cs ,3
+Adding missing base classes to acpt tests,2016-03-24,Merged,3630,9,7,,6
+Testing.Fakes source-only package,2016-03-30,Merged,3629,"1,282",0,cs csproj DotSettings ,6
+Fix acceptance tests,2016-03-24,Merged,3628,65,47,csproj ,12
+Made msmq transport infrastructure internal,2016-03-24,Merged,3627,5,97,cs ,4
+Notifications can now be accessed from endpoint config calls,2016-03-23,Merged,3626,3,2,,2
+Added missing repeat clause to two outbox tests,2016-03-22,Merged,3624,18,17,,2
+Internalized `Endpoint.Prepare`,2016-03-23,Merged,3623,3,37,txt csproj ,5
+Added missing base class to one of the tests.,2016-03-22,Merged,3622,1,1,,1
+Rename BusNotifications to Notifications,2016-03-22,Merged,3620,53,42,txt csproj ,17
+Allow default serializer to be changed,2016-03-23,Merged,3617,8,6,,1
+Remove shared instance of completable synch storage session,2016-03-22,Merged,3615,7,1,,2
+SLR and Faults should not commit transactions,2016-04-07,Merged,3614,"1,393",294,cs ,4
+Remove startables from EndpointConfiguration to check ramifications,2016-03-29,Merged,3611,487,"1,091",,4
+Make MessageHandler constructor public,2016-03-22,Merged,3610,2,1,cs ,1
+Make LogicalMessage ctor public,2016-03-22,Merged,3609,181,31,csproj txt ,14
+Force XML in mutator test & mutate body in test,2016-03-17,Merged,3608,11,7,csproj ,2
+ActiveSagaInstance enhancements,2016-03-18,Merged,3607,44,11,cs ,3
+[WIP] Shutdown delegate registry,2016-03-17,Closed,3606,165,7,cs csproj ,10
+Remove IIncomingLogicalMessageContext.MessageHandled property,2016-03-17,Closed,3605,1,10,cs ,3
+Making MasterNodeConfig obsolete,2016-03-17,Merged,3604,19,23,cs csproj ,4
+Do not autosubscribe unless there is routing info when using unicast transports,2016-03-21,Merged,3603,87,35,csproj ,6
+Remove error notifications from timeout recoverability behavior,2016-03-17,Merged,3602,0,136,csproj ,6
+Guard against the correct parameter,2016-03-16,Merged,3599,1,1,,1
+Endpoint name mandatory constructor parameter on EndpointConfiguration,2016-03-18,Merged,3597,58,271,csproj txt ,17
+Utility methods for safe queue opening,2016-04-04,Merged,3595,179,150,cs ,6
+Add fallback for missing ISynchronizedStorage,2016-03-17,Merged,3594,269,88,csproj ,5
+Throw an exception if a feature requires a specific storage type and the persistence doesn't support it,2016-03-24,Merged,3591,290,2,cs ,14
+Fix ConfigurationTimeoutExtensions file name,2016-03-14,Merged,3586,1,1,csproj ,2
+Passing headers to apply of routing strategy in RouteDeferredMessageToTimeoutManagerBehavior,2016-03-15,Merged,3585,2,2,,1
+VersionedSagaEntity uses public field instead of property,2016-03-14,Merged,3584,5,5,,1
+AdjustedNServiceBus.AcceptanceTesting nuspec,2016-03-15,Merged,3580,2,2,,1
+Fix replacing behaviors,2016-03-16,Merged,3579,322,47,csproj txt ,9
+Start and stop TransportInfrastructure,2016-03-24,Merged,3578,69,6,cs ,5
+Fix wire compatibility for v6,2016-03-15,Merged,3576,255,16,csproj ,10
+IManageMessageFailures` extension now obsolete message,2016-03-11,Merged,3575,4,2,cs ,1
+Null check for common user Task methods,2016-03-11,Merged,3570,524,17,cs ,7
+Adding a pipeline completed event,2016-03-15,Merged,3568,501,306,csproj ,10
+added 2 convenience methods on readonly settings,2016-03-16,Closed,3567,80,0,cs ,3
+[WIP] Calculate critical time and time to breach SLA after all outgoing operations have completed,2016-04-15,Closed,3566,356,533,csproj ,10
+Removed assumption that reconfiguring child containers should throw,2016-03-11,Merged,3561,0,14,,1
+Fixed `When_receiving_messages_already_dispatched` test,2016-03-08,Merged,3560,107,78,cs ,3
+[WIP] Send options,2016-03-18,Closed,3559,189,6,,5
+Replaced WeakKeyDictionary with ConditionalWeakTable,2016-03-11,Merged,3557,49,505,cs ,3
+Removed IDictionary usage from paths called in messaging pipeline to reduce boxing costs,2016-03-04,Merged,3556,17,30,cs csproj ,7
+Use implicit namespace declarations,2016-03-04,Merged,3555,2,2,,1
+Cleanup folder T to U,2016-03-04,Merged,3554,"1,051",986,,10
+Cleanup folder P to S,2016-03-04,Merged,3553,"1,861","1,784",cs ,14
+Cleanup folder E to O,2016-03-04,Merged,3552,715,674,,8
+Cleanup folders A to D,2016-03-04,Merged,3551,325,314,,19
+remove redundant language,2016-03-04,Merged,3550,201,196,txt ,19
+`PendingTransportOperations` should be thread-safe,2016-03-05,Merged,3546,14,7,,2
+Split When_multi_subscribing_to_a_polymorphic_event test into two focused tests,2016-03-03,Merged,3543,133,31,cs ,3
+Make MessageMapper threadsafe,2016-03-03,Merged,3541,214,111,csproj ,3
+Fix timeout poller behavior when pushing timeouts locally,2016-03-04,Closed,3540,64,67,,8
+Reordered parameters of AddSatellitePipeline,2016-03-02,Merged,3538,10,10,cs ,2
+Remove an obsolete R# annotation attribute,2016-03-01,Merged,3537,0,8,,1
+Moving sent time and nsb version headers out of the ctor of `OutgoingMessage`,2016-03-03,Merged,3536,109,64,csproj ,8
+[WIP] Data from IncomingMessage is accessed over the context only.,2016-03-01,Closed,3529,292,252,,13
+Use fake transport to verify uow startup check,2016-03-01,Merged,3528,59,55,csproj ,4
+Removed the Msmq `RunDescriptor`,2016-02-29,Merged,3527,16,10,,2
+[WIP] Native pub/sub support in MSMQ transport,2016-04-15,Closed,3525,498,24,txt csproj ,7
+Moving msmq specific acpt tests to separate project,2016-02-29,Merged,3523,532,148,cs csproj ,8
+Updating ReSharper annotations,2016-02-28,Merged,3522,993,906,,1
+Passing correct event type as message type when publishing interface messages,2016-02-29,Merged,3521,50,36,txt ,9
+Improve exceptions when saga messages are mapped improperly,2016-02-29,Merged,3520,45,9,,3
+Hotfix-5.2.15,2016-03-04,Closed,3518,51,40,csproj config ,7
+Removed the v6 incompatible subscribe messages,2016-03-01,Merged,3517,107,143,cs txt ,11
+Disabled outbox in satellites by giving them their own connector.,2016-03-02,Merged,3516,69,7,cs csproj ,9
+update Fody to get clean build,2016-03-05,Closed,3515,11,9,config ,2
+ConfigureTestExecution is no longer managed over the endpoint configuration,2016-02-29,Merged,3514,528,402,csproj ,8
+TimeSent on audit messages now contains the time the original message was sent,2016-03-01,Merged,3513,196,30,cs ,7
+Removal of obsolete Object builder folders to prevent accidental releases,2016-03-15,Closed,3511,2,"4,164",csproj ,7
+Reduce error output from satellite retry behavior,2016-02-25,Merged,3510,4,4,,1
+[WIP] Unify route to,2016-03-17,Closed,3509,194,323,txt ,17
+Add warning when not using max bits for encryption,2016-02-24,Merged,3507,8,0,,1
+Make satellite listen address fully customizable,2016-02-24,Merged,3506,20,0,cs ,1
+update references,2016-02-23,Merged,3504,37,34,config ,4
+Reading ATT related environment variables from 2 scopes,2016-02-24,Merged,3503,20,2,cs ,4
+Test execution time too short and makes test flaky,2016-02-23,Merged,3502,4,4,,4
+Removed remaining performance test traces,2016-02-23,Merged,3501,0,27,,1
+Add warning when not using max bits for encryption,2016-02-24,Closed,3498,8,0,,1
+[WIP] Adds cancellation token support to IQueryTimeouts,2016-03-01,Closed,3497,17,12,txt ,6
+Master,2016-02-21,Closed,3492,"3,231","4,253",cs ,9
+Adding JetBrains Rider (.NET IDE) specific files to .gitignore,2016-02-22,Merged,3491,5,1,,1
+Fixed When_publishing_to_scaled_out_subscribers_on_multicast_transports test,2016-02-22,Merged,3489,19,0,,2
+Adding GetDestination extension method for sendoptions,2016-02-19,Merged,3488,37,0,cs ,2
+"Revert ""Adding GetDestination extension method for sendoptions""",2016-02-18,Merged,3487,0,37,cs ,2
+Adding GetDestination extension method for sendoptions,2016-02-18,Merged,3484,37,0,cs ,2
+Sending ready messages to Distributor is no longer fire & forget,2016-02-18,Merged,3483,10,10,,2
+Properly setting ProcessedAt,2016-02-23,Merged,3482,16,21,,5
+Stopping pipeline collections concurrently,2016-02-18,Closed,3481,2,3,,1
+Mutator alignment,2016-02-23,Merged,3478,87,57,txt ,16
+Adjusting obsolets for the transport definition change,2016-02-22,Merged,3477,81,75,csproj cs ,4
+Invoke handlers that return a null task,2016-02-17,Closed,3475,7,1,,1
+Introduced a AT transport group that supports atomic send and receive,2016-02-23,Merged,3474,9,1,,2
+Getters for SendOption extensions,2016-02-24,Merged,3473,592,20,cs csproj ,6
+Obsolete configuration of explicit property values for instances resolved from the container,2016-03-30,Merged,3467,295,413,csproj ,6
+add getters for SendOption extensions,2016-02-16,Merged,3465,197,46,cs csproj ,7
+"Stop FeatureStartupTasks concurrently, closes #3448",2016-02-13,Merged,3463,8,10,,1
+Stop pipelines concurrently,2016-02-13,Merged,3462,8,6,,1
+No longer register Conventions on container,2016-02-12,Merged,3461,65,71,,9
+Msmq now uses the correct transport transaction,2016-02-15,Merged,3460,23,12,,2
+Split the `When_distributing_event` test,2016-02-17,Merged,3459,217,312,cs ,3
+Renamed some routing APIs to better express their unicast character.,2016-03-22,Merged,3457,199,186,txt ,8
+When registering a singleton the properties don't need to be autowired.,2016-02-12,Merged,3456,1,14,,2
+No longer nesting using in Instance_per_uow_components_should_yield_different_instances_between,2016-02-12,Merged,3455,9,5,,1
+[Withdrawn] Fix RetryPolicy called multiple times,2016-02-18,Closed,3453,192,28,csproj config ,9
+Removed tests which no longer test valid assumptions of the containers,2016-02-12,Merged,3449,0,133,cs ,4
+Making the factory method for serializer public,2016-02-10,Merged,3444,8,8,txt ,5
+Obsoleting ConfigureTransport,2016-02-15,Merged,3442,14,0,cs ,1
+Simplify processing by improving handling of null values,2016-02-10,Merged,3441,15,12,,4
+Obsoleting unused distributor config properties from UnicastBusConfig,2016-02-10,Merged,3438,23,0,cs ,2
+Removed `RegisterConnector` from `PipelineSettings`,2016-02-08,Merged,3435,23,34,,7
+CodeRule for detecting missing ConfigureAwaits,2016-02-08,Merged,3434,6,1,config ,2
+SettingsHolder can be cleared,2016-02-22,Merged,3433,76,2,csproj cs ,6
+Renamed IBusContext to IPipelineContext,2016-02-08,Merged,3432,77,77,cs ,3
+SettingsHolder now implements IDisposable,2016-02-17,Closed,3428,24,2,cs ,1
+obsolete UnicastBusConfig.ForwardReceivedMessagesTo,2016-02-08,Merged,3427,65,20,txt csproj ,7
+[Spike] Spiked a quick attempt,2016-02-05,Closed,3422,299,259,txt csproj ,15
+add CustomRetryPolicy tests,2016-02-05,Merged,3421,210,0,cs ,3
+Reduced msmq surface area,2016-02-05,Merged,3420,43,59,cs csproj ,9
+obsolete TransportConfig.MaximumConcurrencyLevel setting,2016-02-08,Merged,3418,8,53,csproj txt ,4
+Redesigned container tests for new core assumptions,2016-02-10,Merged,3416,189,93,cs ,5
+minor renamings,2016-02-04,Merged,3415,4,4,csproj txt ,3
+Renaming IBusSession to IMessageSession,2016-02-07,Merged,3414,553,552,,26
+Renamed BusConfiguration to EndpointConfiguration,2016-02-04,Merged,3413,353,351,csproj ,18
+Making context.Trace thread safe,2016-02-04,Closed,3410,4,2,,1
+throw from notimplemented  from HasSupportFor,2016-02-08,Merged,3409,1,1,,1
+remove custom MsmqLabelGenerator delegate,2016-02-04,Merged,3408,9,24,csproj cs ,5
+Enable retries for concurrency exceptions,2016-02-03,Merged,3407,1,0,,1
+Prepare for NUnit 3 upgrade,2016-02-04,Merged,3405,119,173,,16
+[WIP] Upgrade to Nunit 3.0,2016-02-17,Closed,3404,155,205,cs csproj config ,17
+Update Fody and plugins,2016-02-03,Merged,3403,17,12,csproj config ,3
+Upgrade to latest Json.NET,2016-02-04,Merged,3402,54,44,cs config ,4
+Removed Subscribe and Unsubscribe from bus context,2016-02-04,Merged,3400,0,73,cs ,2
+Delayed delivery,2016-02-04,Merged,3397,122,136,csproj txt ,13
+Removed some dead code.,2016-02-02,Merged,3396,0,1,,1
+move to func for SubscriptionAuthorizer,2016-02-02,Merged,3394,13,25,cs csproj ,6
+"`MessageIntent.Publish` for `UnicastPublishRouterConnector`, fixes #3344",2016-02-01,Merged,3390,335,1,cs ,6
+fix DoNotDeliverBefore,2016-02-02,Merged,3385,8,8,,1
+Dispose the cancellation token source in the async timer,2016-01-29,Merged,3383,1,0,,1
+MakeCanonicalName get settings bag.,2016-01-30,Closed,3382,5,7,cs ,3
+Hotfix 4.7.12,2016-01-28,Merged,3381,247,51,csproj ,5
+Moving messages with MSMQ to the error queue with `TimeToBeReceived` causes the endpoint to shutdown,2016-01-28,Merged,3380,247,51,csproj ,5
+Hotfix 5.0.11,2016-01-28,Merged,3379,246,55,csproj ,5
+Moving messages with MSMQ to the error queue with `TimeToBeReceived` causes the endpoint to shutdown,2016-01-28,Merged,3378,246,55,csproj ,5
+Hotfix 5.1.9,2016-01-28,Merged,3377,228,49,csproj ,6
+Moving messages with MSMQ to the error queue with `TimeToBeReceived` causes the endpoint to shutdown,2016-01-28,Merged,3376,228,49,csproj ,6
+Read group names from the OS rather than hard-code en-US versions (in tests),2016-01-28,Merged,3375,6,2,,1
+Callbacks using routing with shared receiver in core.,2016-02-15,Merged,3374,919,409,csproj ,16
+Hotfix 5.2.14,2016-01-28,Merged,3372,227,48,csproj ,6
+Moving messages with MSMQ to the error queue with `TimeToBeReceived` causes the endpoint to shutdown,2016-01-28,Merged,3371,227,48,csproj ,6
+Timeout circuit breaker bug fix v6,2016-01-29,Merged,3368,306,48,csproj ,4
+Reset TTBR before error queue and retries queue,2016-01-28,Closed,3367,227,48,csproj ,6
+Exclude uow tests from the source package,2016-01-27,Merged,3366,5,5,,1
+Added check to ensure that dependency graph is acyclic,2016-01-27,Merged,3364,74,0,,2
+remove SatelliteBehavior,2016-02-09,Merged,3361,3,17,cs csproj ,5
+Aligned UnicastTransportOperations and MulticastTransportOperations with TransportOperation,2016-01-28,Merged,3357,21,30,cs ,9
+Folding IBusSession interface into IEndpointInstance,2016-01-27,Merged,3356,59,74,txt csproj ,14
+[WIP] Unit of Work for bus session,2016-03-23,Closed,3355,554,53,csproj ,16
+Use hardcoded true to avoid culture issues,2016-01-25,Merged,3353,2,2,,1
+Outbox now honors TTBR,2016-01-25,Merged,3351,151,5,cs ,4
+move to single message type subscription,2016-01-21,Merged,3346,79,93,txt ,6
+Removed builder access from encryption service factory,2016-01-26,Merged,3339,44,30,txt ,6
+Task optimizations,2016-01-17,Merged,3338,226,228,,15
+TM now handles its own recoverability,2016-02-09,Merged,3337,923,42,,3
+Removed IDisposable and double null check in BusNotifications,2016-01-17,Merged,3336,20,35,cs ,2
+Removed Container binding of FeaturesReport and made it internal,2016-01-20,Merged,3335,3,68,cs ,4
+ExpiredTimeoutsPoller tests,2016-01-18,Merged,3334,209,55,csproj ,8
+Better obsolete for removal of throttling check,2016-01-16,Merged,3333,14,9,,1
+IPipelineTerminator made internal,2016-01-15,Merged,3332,3,4,cs ,1
+DefaultRetryPolicyTests.ShouldCapTheRetryMaxTimeTo24Hours occasionally fails,2016-01-15,Merged,3331,17,5,,2
+[WIP] Moving MSMQ into its own project,2016-03-23,Closed,3327,"1,504",183,cs csproj txt ,10
+Refactoring Audit Pipeline to delete AuditContextExtensions.cs,2016-01-14,Merged,3326,28,34,cs csproj ,4
+Check that saga find type matches the actual saga Type,2016-01-14,Merged,3324,65,14,,3
+NServiceBus.Pipeline namespace,2016-01-26,Merged,3319,240,387,txt ,39
+[WIP] Include generic Type parameter as part of Find Saga meta data,2016-01-28,Closed,3312,90,142,,24
+Refactored serialization feature to be aligned with transport,2016-02-02,Merged,3310,315,606,txt csproj ,4
+added missing context extensions,2016-01-11,Merged,3309,20,2,cs ,3
+Separate transport factories from static settings,2016-02-16,Merged,3308,604,501,,8
+remove unused DispatchContext.Replace operation,2016-01-08,Merged,3307,1,7,,1
+obsolete TransportConfig.MaximumMessageThroughputPerSecond,2016-01-14,Merged,3306,13,0,cs ,2
+Change XMLSerialization behavior to conform to XML standard,2016-01-25,Merged,3305,207,3,cs ,4
+Clarified the IBus obsolete message.,2016-01-07,Merged,3303,2,3,cs ,1
+"Cleanup RunningEndpointInstance, rename context in StageConnector",2016-01-07,Merged,3302,10,10,cs ,3
+make IBehaviorContext implementations private again,2016-01-08,Merged,3301,236,639,cs csproj ,10
+Increasing TTL for acceptance tests,2016-01-07,Merged,3297,44,4,,2
+register handler in InstancePerCall scope,2016-01-28,Closed,3296,83,1,csproj ,3
+add common interface to Unicast- and MulticastTransportOperation,2016-01-08,Merged,3295,37,4,csproj cs ,4
+Need to specify different error queue,2016-01-06,Merged,3294,11,2,,1
+The default installer wire up works only if a type has not been registered already,2016-01-07,Closed,3293,8,2,,1
+Deduplicate transport level destination,2016-01-07,Merged,3288,173,4,cs txt ,7
+InMemory escalated transactions throw exception via Rollback,2016-01-06,Merged,3287,101,4,cs ,4
+Removed AutoSubscribePlainMessages as settings option,2016-01-25,Merged,3284,17,66,txt ,4
+delete IntegrationTests,2016-01-04,Merged,3283,0,"2,844",config cs csproj ,9
+[WIP] move over to delegates for notifications,2016-02-25,Closed,3282,644,623,cs ,7
+expose TestContext on EndpointConfigurationBuilder,2016-01-04,Merged,3280,22,24,,9
+Move over to error context,2016-01-04,Merged,3279,124,34,txt csproj ,10
+Always Stop even when scenario throws,2016-01-04,Merged,3277,7,7,,1
+Fix .NET casing in core nuspec,2015-12-29,Merged,3276,2,2,,1
+flatten slr tests,2015-12-28,Merged,3273,306,135,cs ,4
+reduce timespans to speed up tests,2015-12-28,Merged,3272,56,24,,16
+[WIP] Add support for routing to satellites with new routing API,2016-01-07,Closed,3271,70,16,,4
+centralized pubsub may need MEM,2016-01-27,Merged,3266,2,1,,1
+Test only works for transports w/o native deferral,2015-12-19,Merged,3264,4,3,,1
+Refactoring AcceptanceTesting ScenarioConfigSource more meaningful expcetion,2015-12-18,Merged,3263,5,0,,1
+StageForkConnectors and ForkConnectors,2016-01-06,Merged,3262,474,325,cs ,9
+Removed unnecessary await in RoutingToDispatchConnector,2015-12-18,Merged,3261,3,3,,1
+"Split SagaPersistenceBehavior into LoadSagaBehavior and PersistSagaBehavior, inlined InvokeSagaNotFound",2016-01-25,Closed,3260,111,133,cs ,6
+excluded faketransport based test from source package,2015-12-18,Merged,3259,9,9,cs csproj ,5
+tests supported by message-driven subscription transports only,2015-12-18,Merged,3257,18,17,,1
+Add context to EndpointBehavior.CustomConfig,2016-01-06,Closed,3255,34,13,,3
+Abort receives using cancellation token,2016-01-14,Merged,3254,137,135,cs csproj ,9
+change context parameter in CustomConfig strongly to TContext,2015-12-17,Merged,3252,2,2,,1
+Final cleanup of the transaction config,2016-01-18,Merged,3249,592,212,cs ,9
+Add context to CustomConfig call,2015-12-17,Merged,3245,10,3,,3
+Remove type casting from dispatch interface,2015-12-18,Merged,3243,404,190,txt csproj ,9
+[SPIKE] Proposal CancellationTokenSource for pipeline cancellation,2015-12-18,Closed,3242,47,34,csproj ,16
+Adding RelatedTo and ConversationId header to audit message.,2016-01-05,Merged,3240,503,41,csproj txt ,4
+Reverted back to using EndpointName in the context of routing.,2015-12-17,Merged,3239,224,226,txt ,12
+Fix flaky test & tests that rely on FakeTransport,2015-12-29,Closed,3235,10,7,,3
+these tests are specific to faketransport,2015-12-15,Closed,3234,7,4,,2
+Enforce Behavior with interface for contexts,2015-12-16,Merged,3233,429,166,,2
+Use nameof where possible,2015-12-14,Merged,3224,259,259,,16
+Behavior contexts are public,2015-12-14,Merged,3222,"1,667","1,136",,18
+MessageProcessingAbortedExcepton made public,2015-12-17,Closed,3220,31,2,cs ,2
+add internal class namespace convention,2015-12-14,Merged,3218,567,741,txt ,19
+Change Transport/Configurer classes to require interface.,2015-12-14,Merged,3215,74,55,cs ,7
+Use the correct error queue,2015-12-14,Merged,3212,109,2,csproj ,4
+Add context to CustomConfig call,2015-12-16,Closed,3211,0,0,,0
+Passing critical error into init,2015-12-11,Merged,3207,19,19,txt ,10
+[WIP] Micro endpoints,2016-02-01,Closed,3206,330,5,cs ,7
+Allow transports other than MSMQ to cleanup after ATTs,2015-12-13,Merged,3203,59,21,csproj ,5
+CustomConfig with scenario context,2015-12-10,Closed,3201,"2,853","4,200",cs ,9
+"Cleanup ATs even if they fail to avoid creating orphan DBs, etc.",2015-12-11,Merged,3200,4,2,,1
+Instance resolution made async.,2015-12-18,Merged,3199,128,83,cs ,10
+differentiate BusContext and BusSession,2015-12-15,Merged,3198,570,263,,19
+Log all publishes at debug level,2015-12-11,Merged,3196,32,1,,2
+XML file based routing,2015-12-16,Merged,3195,842,552,csproj ,11
+Test specific to message based subscription transports,2015-12-10,Merged,3191,4,3,,1
+Missing `ConfigureAwait(false)`,2015-12-09,Merged,3188,9,9,,6
+More intuitive API to configure transaction levels,2015-12-14,Merged,3187,330,306,csproj ,22
+aligned incoming logical and physical contexts,2015-12-09,Merged,3185,90,90,txt csproj ,23
+Subscriber should override Equals and GetHashCode,2015-12-09,Closed,3182,42,0,,1
+Delivery constraint extensions bug,2015-12-09,Merged,3181,73,1,csproj ,3
+Remove do not wrap handlers in tx scope,2015-12-10,Merged,3180,100,106,csproj txt ,10
+Log all publishes,2015-12-10,Closed,3178,491,420,csproj ,8
+Minor tweaks to storage adapter API,2016-02-02,Merged,3177,50,19,cs ,4
+move notifications to bus config,2016-01-04,Closed,3175,809,613,csproj ,12
+SubscriptionBehavior to register with InsertBeforeIfExists,2015-12-08,Merged,3174,1,1,,1
+Removed the `Transactions.Enabled` setting,2015-12-08,Merged,3173,48,40,cs ,8
+Removed the Transactions.SuppressDistributedTransactions settings key,2015-12-08,Merged,3172,14,20,txt ,5
+Cleaned up routing APIs,2015-12-10,Merged,3171,313,312,txt ,5
+[WIP] Remove SynchronizedStorageSession Cast and missing 'I',2016-02-29,Closed,3170,62,58,txt csproj ,22
+remove obosolete OnStart and OnStop methods from FeatureStartupTask,2015-12-14,Merged,3168,79,37,txt ,17
+Refactor local address & address translation,2016-01-05,Merged,3167,179,123,csproj txt ,13
+replaced observables with events,2015-12-06,Merged,3166,62,293,cs csproj config txt ,16
+make UOW async,2015-12-04,Merged,3165,43,25,txt ,5
+moved INeedInitialization ctor unit test to acceptance tests,2015-12-04,Closed,3164,39,67,csproj ,3
+add naming convention,2015-12-14,Closed,3162,389,398,txt ,39
+remove ContentType backwards compat,2015-12-03,Merged,3160,115,52,csproj ,7
+Minor tweaks to routing,2015-12-02,Merged,3159,13,10,,2
+Make init method on IPushMessages async,2015-12-09,Merged,3158,10,6,txt ,5
+Removed RunningEndpointInstance registration from the container.,2015-12-02,Merged,3157,1,26,cs ,4
+cache and only scan concrete type in endpoint init,2015-12-02,Merged,3156,77,40,,1
+fail acceptance test when when-condition fails.,2015-12-11,Merged,3155,119,74,csproj ,4
+Removing TryGetRootContext and getting the incoming message directly,2015-12-04,Merged,3154,20,48,,5
+replace recursion with while loop,2015-12-01,Merged,3153,10,12,,1
+Sharing transaction info via generic dictionary instead of types,2015-12-02,Merged,3152,25,58,csproj cs ,8
+clean up obsoletes,2015-12-02,Merged,3151,69,556,,0
+introduce interfaces for behavior context,2015-12-07,Merged,3148,906,810,txt ,16
+remove Task.Run since stop is async,2015-12-01,Merged,3147,6,9,,1
+move mapper init to ConfigureSerialization,2015-12-01,Merged,3146,97,13,cs ,4
+use delegate for critical error,2015-12-01,Merged,3145,32,12,cs csproj ,5
+Changed the instance resolution policy to default to single instance,2015-12-03,Merged,3143,30,17,,3
+serialize RunningEndpointInstance.Stop calls,2015-12-11,Merged,3142,67,11,cs ,3
+AT for broadcast + slight API rename,2015-11-30,Merged,3141,141,13,cs txt ,4
+Routing - transport address changes required by SQLTransport,2015-11-30,Merged,3138,22,34,txt ,7
+StartupTasks are registered on the FeatureConfigurationContext,2015-11-30,Merged,3137,288,226,txt ,12
+replace recursion with while loop,2015-11-27,Merged,3136,14,16,,1
+Renamed back INeedToInstallSomething and IWantToRunBeforeConfigurationIsFinalized,2015-11-27,Merged,3135,14,44,txt csproj ,11
+Hotfix 4.7.10,2015-12-03,Merged,3134,1,5,,1
+Cleaned-up transport definition,2015-12-02,Merged,3133,363,282,txt ,9
+Changed endpoint creation to better represent the V5 model,2015-11-27,Merged,3132,18,9,txt ,2
+Bringing back ISendOnlyBus,2015-11-27,Merged,3131,11,0,cs ,1
+Async all the way for dynamic route rules.,2015-11-30,Merged,3127,51,39,cs ,8
+remove OutgoingPhysicalToRoutingConnector.State,2015-11-28,Merged,3123,300,262,cs csproj ,10
+Configure msmq only when needed,2015-11-26,Merged,3121,3,1,,1
+Bring back MSMQ persistence,2015-11-27,Merged,3120,821,110,csproj txt ,6
+Remove PipelineInfo from Behavior,2015-12-18,Merged,3118,211,289,cs csproj ,8
+Throwing a meaningful exception when implementing INeedInitialization,2015-12-03,Merged,3115,47,0,csproj ,4
+Hotfix 3.3.18,2015-12-03,Merged,3112,1,5,,1
+Hotfix 5.1.7,2015-12-03,Merged,3111,22,19,,2
+Hotfix 5.0.9,2015-12-03,Merged,3110,23,20,,2
+Hotfix 5.2.11,2015-12-03,Merged,3109,190,117,,6
+Hotfix 4.7.10,2015-11-27,Closed,3108,1,5,,1
+Fix for #3091 on v3.3.x,2015-11-24,Closed,3107,1,5,,1
+Removed state from unit of work behavior,2015-11-25,Merged,3106,4,5,,1
+fix default CriticalError handling,2015-11-25,Merged,3105,178,82,csproj txt ,9
+better subscription Authorizer,2015-11-24,Merged,3104,320,44,cs txt ,7
+Removed unnecessary state in EncryptionMutator to fix multi threading issues,2015-11-23,Merged,3102,11,7,,2
+CriticalError supports async callbacks,2015-11-22,Merged,3101,34,42,txt ,6
+Make pipelines explicit,2016-01-06,Closed,3099,736,304,cs csproj ,4
+[Spike] use interfaces for behavior contexts,2015-12-03,Closed,3098,776,626,txt ,22
+Passing context to encryption service to solve issue #3091,2015-12-15,Closed,3097,192,118,,6
+ReadyMessageSender no longer uses GetAwaiter().GetResult(),2015-11-19,Merged,3096,4,5,,1
+remove remaining async suffix,2015-11-19,Merged,3095,189,190,,23
+Removed PipelineNotifications,2015-11-20,Merged,3089,33,235,cs csproj ,8
+No longer capture context in closure of BehaviorChain,2015-11-17,Merged,3088,3,6,,1
+Finalizing top level API revamp,2015-11-24,Merged,3087,77,71,txt ,11
+[Spike] Handler context testing spike,2015-11-30,Closed,3086,"1,341",467,cs csproj ,8
+SchedulerAPI is async,2015-11-20,Merged,3085,94,114,txt csproj dll ,11
+Fixing when_base_event_from_2_publishers ac test,2015-11-13,Merged,3084,3,74,,2
+Removed Async postfix from handler context,2015-11-18,Merged,3083,441,443,,32
+removed Get<IncomingMessage>() usages from IncomingContext,2015-11-20,Merged,3081,32,23,cs ,10
+Queue creation is async and executed in parallel.,2015-11-18,Merged,3080,37,34,txt ,5
+Using OperationCancelledException instead of MessageProcessingAbortedException,2015-11-18,Closed,3078,12,21,csproj ,7
+removed Get<IncomingMessage>() usages from IncomingContext,2015-11-13,Closed,3075,40,24,cs ,12
+Msmq specific acceptance tests are now in a subfolder,2015-11-11,Merged,3073,26,44,cs csproj ,8
+MessageHandlerContext in pipeline,2015-11-12,Merged,3072,775,696,txt ,16
+Obsoleting the WinIdName header,2015-11-09,Merged,3071,96,127,cs csproj ,4
+public api has to indicate that stop method is async,2015-11-09,Merged,3069,6,6,txt ,5
+cause a rollback when timeout already removed,2015-11-18,Merged,3068,60,3,,3
+Remove perf tests,2015-11-09,Merged,3067,2,"1,253",csproj ,6
+InMemoryOutboxTransaction behaves like a transaction,2015-11-09,Merged,3066,85,10,,4
+Encryption service hotfix port to v6,2016-02-24,Merged,3063,"1,413",657,csproj txt ,6
+Fix for broken mulitqueue transaction test,2015-11-05,Merged,3062,6,3,,2
+Removed TaskContinuationOptions.LongRunning in the MessagePump,2015-11-05,Merged,3061,2,1,,1
+[Spike] Reduced DI for FeatureStartupTask,2015-11-27,Closed,3060,305,134,txt ,11
+Remove IBuilder from FeatureConfigurationContext,2015-11-04,Merged,3058,28,14,txt ,2
+More transport message fixes,2015-11-24,Merged,3056,59,63,cs ,1
+Better obsolete message for TransportMessage.Body,2015-11-03,Merged,3055,3,3,cs ,1
+Passing context directly instead of `IBusInterface`,2015-11-05,Merged,3053,221,169,txt ,17
+Refactor acceptance test exception handling,2015-11-03,Merged,3051,294,150,cs ,21
+Make context explicit v2,2015-11-09,Merged,3049,"1,762","2,360",cs ,11
+WIP: Dont use child builder,2015-11-20,Closed,3048,6,14,csproj ,7
+update to .net 452,2015-10-28,Merged,3046,17,17,csproj txt cs ,11
+Fix bug for SLR and moving to error queue causing side effects.,2015-10-28,Closed,3045,409,86,cs ,5
+Hotfix 5.2.10 Remove support for transactional MSMQ with TimeToBeReceived(TTBR),2015-11-19,Merged,3042,344,7,csproj ,11
+Hotfix-5.1.6 Remove support for transactional MSMQ with TimeToBeReceived(TTBR),2015-11-19,Merged,3040,342,5,csproj ,12
+Single correlation id for sagas,2015-11-04,Merged,3039,518,594,csproj cs ,10
+Hotfix 5.0.8 - Remove support for transactional MSMQ with TimeToBeReceived(TTBR),2015-11-19,Merged,3038,341,4,csproj ,12
+Hotfix 4.7.9 - Remove support for transactional MSMQ with TimeToBeReceived(TTBR),2015-11-19,Merged,3037,334,6,csproj ,12
+Make context explicit,2015-11-09,Closed,3036,547,950,,8
+WIP - Throw on transactional Msmq send with TTBR set. V5,2015-10-27,Closed,3035,133,5,csproj ,6
+Tracking receiveTasks earlier in MessagePump,2015-10-26,Merged,3034,5,6,,1
+[WIP] Making sure slr and faults do not cause side effects,2016-03-23,Closed,3031,"1,119",635,csproj ,11
+Split handler context,2015-10-27,Merged,3030,474,147,txt ,9
+Require sagas to have at least one start message,2015-10-24,Merged,3029,219,71,cs ,8
+[WIP] introduce saga context,2015-10-23,Closed,3027,417,260,,13
+Sender-side distribution of events,2015-11-17,Merged,3026,"1,141",505,cs ,5
+Bye bye configure transport,2015-10-23,Merged,3025,737,422,csproj ,11
+Synchronized storage made explicit,2015-11-23,Merged,3024,724,197,txt ,7
+extend message handler context,2015-10-22,Merged,3022,305,28,csproj txt ,10
+[Demo] Multi transport concept,2015-11-20,Closed,3021,"2,176",513,,4
+Remove statics from LicenseManager,2015-10-19,Merged,3020,69,72,,4
+Circuitbreaker for timeout storage connectivity is using the wrong default,2015-10-21,Merged,3014,153,2,cs ,5
+Circuitbreaker for timeout storage connectivity is using the wrong default,2015-10-16,Merged,3013,153,2,cs ,5
+Setting correlated property values automatically,2015-10-27,Merged,3012,387,260,cs ,8
+Pass corr props and values to persister,2015-10-16,Merged,3011,101,86,txt ,12
+Rijndael encryption service: Possible data corruption when using rotating encryption keys v3.3.x,2015-10-21,Merged,3010,707,161,csproj ,5
+prevent timeout message loss when not using DTC,2015-10-16,Merged,3009,38,1,,2
+[Obsolete] Old Hotfix 3.3.16 PR,2015-10-15,Closed,3008,0,0,,0
+Correlated saga properties must have a value,2015-10-16,Merged,3007,150,40,cs ,10
+Make NServiceBus handlers code context aware,2015-10-20,Merged,3006,"1,243","1,384",,14
+Pass read/write context to the outbox,2015-10-14,Merged,3005,57,55,txt ,5
+Passing the metamodel to the `ISagaPersister.Store`,2015-10-14,Merged,3004,253,194,csproj cs ,10
+prevent timeout message loss when not using DTC,2015-10-14,Closed,3002,654,111,gitignore cs csproj ,9
+Rijndael encryption service: Possible data corruption when using rotating encryption keys v4.7.x,2015-10-21,Merged,3001,694,126,,3
+Rijndael encryption service: Possible data corruption when using rotating encryption keys v5.0.x,2015-10-21,Merged,3000,975,"3,429",cs csproj ,7
+Rijndael encryption service: Possible data corruption when using rotating encryption keys v5.1.x,2015-10-21,Merged,2999,972,138,csproj ,5
+Rijndael encryption service: Possible data corruption when using rotating encryption keys v5.2.x,2015-10-21,Merged,2998,988,149,cs ,7
+Hotfix 5.2.9,2015-10-13,Closed,2997,"1,785",167,config cs ,8
+Fix timeout dispatching for v6,2015-10-16,Merged,2996,224,109,cs csproj ,7
+Prevent saga correlation properties to be modified,2015-10-14,Merged,2995,139,34,cs ,6
+SyncOMatic update,2015-10-13,Merged,2993,244,75,gitignore ,2
+Pass non readonly context to persisters and transports,2015-10-13,Merged,2992,350,303,txt csproj ,10
+prevent timeout message loss when not using DTC,2015-10-14,Closed,2991,657,104,gitignore cs csproj ,9
+prevent timeout message loss when not using DTC,2015-10-14,Closed,2990,632,111,gitignore cs csproj ,9
+SyncOMatic update,2015-10-13,Merged,2989,223,50,gitignore ,2
+SyncOMatic update,2015-10-13,Merged,2988,198,53,gitignore ,2
+[WIP] Cleanup transaction settings,2015-12-13,Closed,2987,160,217,csproj txt ,12
+prevent timeout message loss when not using DTC,2015-10-15,Closed,2986,738,111,gitignore cs csproj ,10
+Introduced `TransactionSupport` for the transport seam,2015-10-12,Merged,2985,239,315,csproj txt ,9
+SyncOMatic update,2015-10-12,Merged,2984,265,22,gitignore ,2
+Added send-via capability,2015-12-17,Closed,2980,"1,004",63,csproj ,4
+Clean up bus config and startup,2015-10-30,Closed,2979,"1,199","1,057",cs ,9
+Removing redundant ns qualifiers,2015-11-23,Closed,2978,"2,116","2,019",,6
+Making the push context more explicit,2015-10-13,Merged,2976,171,96,csproj cs ,9
+Bye bye registering BehaviorContextStacker in the container,2015-10-08,Merged,2975,28,36,,6
+[Spike]Funky town mutators that's operating on stream instead of byte arrays,2016-01-28,Closed,2974,222,111,csproj ,9
+Moved the setting of identity header to the host feature,2015-11-09,Closed,2973,66,44,csproj ,6
+WIP:remove type recursion,2015-10-08,Closed,2971,0,29,,1
+prevent timeout message loss when not using DTC,2015-10-08,Merged,2970,861,7,cs ,5
+Hotfix 5.2.8: Prevent timeout message loss when not using DTC,2015-10-07,Closed,2969,854,6,cs ,5
+prevent timeout message loss when not using DTC,2015-10-07,Merged,2968,"1,207",537,gitignore cs ,3
+SyncOMatic update,2015-10-07,Merged,2967,236,26,gitignore ,2
+remove binary and bson from the core,2015-10-07,Merged,2965,346,954,txt csproj ,4
+Log an error for expired licenses,2015-10-08,Merged,2964,88,51,csproj ,6
+prevent timeout message loss when not using DTC,2015-10-07,Merged,2963,"1,161",981,gitignore cs ,4
+Merge hotfix 5.2.7 to dev,2015-10-06,Merged,2962,19,1,,2
+Added better obsoletes,2015-10-06,Merged,2961,601,196,,0
+merge hotfix 5.2.7 to master,2015-10-06,Merged,2960,19,879,,2
+SyncOMatic update,2015-10-06,Merged,2959,130,87,gitignore ,2
+2956 exception message too large,2015-10-06,Merged,2958,149,88,gitignore cs ,4
+prevent timeout message loss when not using DTC,2015-10-08,Merged,2957,"1,399","1,427",gitignore cs ,4
+Only pass the context to the different storages,2015-10-06,Merged,2954,237,356,txt ,8
+SyncOMatic update,2015-10-05,Merged,2952,242,19,gitignore ,2
+[WIP] Development transport,2016-11-07,Closed,2950,"16,599","8,903",nuspec cs csproj ,8
+Introduced a explicit outbox transaction,2015-10-05,Merged,2949,137,67,txt csproj ,8
+Allows disabling main message processing feature.,2015-10-06,Closed,2948,91,3,cs txt ,5
+Removed TransportMessage in favor of IncomingMessage and OutgoingMessage,2015-10-08,Merged,2946,405,447,,3
+When_receiving_that_completes_the_saga makes assumptions,2015-10-02,Merged,2945,1,0,,1
+Fixing correlation in When_doing_request_response_between_sagas,2015-10-02,Merged,2944,1,1,,1
+[WIP] prevent timeout message loss when not using DTC,2015-10-06,Closed,2943,"1,162",980,gitignore cs ,3
+[WIP] Transport message RIP,2015-10-09,Closed,2942,"2,023","1,865",csproj ,8
+"Whens are executed after the endpoint is started, removed Given in fa…",2015-10-01,Merged,2940,280,339,cs ,8
+Added explicit `When` condition,2015-10-01,Merged,2939,35,1,,1
+SyncOMatic update,2015-09-30,Merged,2938,3,2,,1
+SyncOMatic update,2015-09-30,Merged,2937,127,51,gitignore ,2
+Clean up DelayedDelivery feature,2015-11-17,Closed,2934,245,263,csproj ,34
+Fixed obsoletion message on TransportMessage,2015-10-01,Merged,2932,3,3,cs ,1
+SyncOMatic update,2015-09-28,Merged,2930,236,19,gitignore ,2
+prevent timeout message loss when not using DTC,2015-10-02,Merged,2929,"1,464",93,gitignore csproj cs ,6
+"Remove EndpointName property, closes #2927",2015-09-28,Merged,2928,0,3,,1
+Removed awaits where possible,2015-09-28,Merged,2925,9,12,,2
+prevent timeout message loss when not using DTC,2015-10-02,Merged,2924,"1,490",94,gitignore csproj cs ,6
+IStartableBus is async,2015-09-25,Merged,2923,47,14,txt csproj ,8
+INeedToInstallSomething is async,2015-09-23,Merged,2922,25,17,cs ,6
+Refactor direct routing,2015-10-08,Merged,2921,"1,842","1,267",,8
+Better obsoletes for RequestTimeout and ReplyToOriginator,2015-09-23,Merged,2920,185,94,txt csproj ,10
+No longer assume that the `UnicastBusConfig` is present,2015-09-23,Merged,2919,6,5,,3
+Circuit breaker async,2015-09-23,Merged,2918,16,21,,6
+DefaultScheduler uses `Task.Run` + minor cleanups,2015-09-22,Merged,2917,5,7,,2
+Removed `IQuerySubscriptions`,2015-09-23,Merged,2916,23,43,txt csproj ,8
+Saga async,2015-09-22,Merged,2915,38,46,txt ,9
+Batching of outgoing operations,2015-10-02,Merged,2912,"2,240","2,482",csproj ,10
+SyncOMatic update,2015-09-18,Merged,2911,157,81,gitignore ,2
+Made the consistency guarantees an enum,2015-09-21,Merged,2910,47,87,txt csproj ,12
+prevent timeout message loss when not using DTC,2015-09-22,Merged,2909,820,165,gitignore csproj cs ,8
+SyncOMatic update,2015-09-17,Merged,2908,2,16,,1
+Pipeline is async,2015-09-22,Merged,2907,927,548,cs ,9
+Pipeline invocation is async,2015-09-17,Merged,2906,50,50,,12
+Obsoletes,2015-09-17,Merged,2905,74,0,cs csproj ,3
+Batched dispatching,2015-09-18,Merged,2904,131,75,txt csproj ,16
+Fixed flaky When_receiving_messages_already_dispatched ATT,2015-09-16,Merged,2903,1,1,,1
+Convert IBus.Subscribe and IBus.Unsubscribe to Async,2015-09-17,Merged,2902,151,120,,18
+Fix losing messages if timeout dispatch fails.,2015-10-02,Closed,2901,162,1,cs DotSettings ,4
+Fix timeout dispatching v5,2015-09-15,Closed,2900,132,1,cs ,3
+Fix timeout dispatching v5,2015-09-15,Closed,2899,852,237,csproj cs ,7
+add SimulatedException for acceptance tests,2015-09-15,Merged,2898,72,71,cs ,20
+Send local async,2015-09-17,Merged,2897,469,"1,060",,22
+IBus.Reply is async,2015-09-15,Merged,2896,99,59,txt csproj ,19
+IBus.ForwardCurrentMessageTo is async,2015-09-16,Merged,2894,14,13,txt ,6
+IBus.HandleCurrentMessageLater is async,2015-09-16,Merged,2893,19,17,txt ,9
+IDispatchMessages is async,2015-09-16,Merged,2892,41,27,txt ,16
+ISendOnlyBus.Publish is async,2015-09-15,Merged,2891,139,128,txt ,22
+Made ISendOnlyBus.Send async,2015-09-17,Closed,2890,199,394,,24
+fix timeout dispatching,2015-10-02,Closed,2889,252,25,csproj txt ,8
+"Guarantee uniqueness for saga entity declaring classes as well, for NH",2015-09-11,Merged,2888,22,17,,6
+make IHandleMessages async,2015-09-12,Merged,2887,671,342,,13
+Pass consistency guarantees to the dispatcher,2015-09-16,Merged,2884,236,190,cs txt ,15
+make timeout handler async,2015-09-11,Merged,2883,358,290,txt csproj ,10
+MessagePump receive in parallel and await pending receives,2015-09-12,Merged,2882,39,9,,3
+Custom registrations from within a step not needed anymore,2015-09-14,Merged,2881,7,53,cs ,5
+reverting message body when dispatching to SLR,2015-09-10,Merged,2880,27,8,,4
+Spring now supports those scenarios if you have at least 6.0,2015-09-10,Merged,2878,0,8,,2
+Converting DataBus to async,2015-09-10,Merged,2877,51,46,txt ,9
+Using TaskEx where possible,2015-09-10,Merged,2876,8,9,,5
+cleanup saga namespaces,2015-09-10,Merged,2875,186,239,,32
+made IFindSagas and SagaFinder async,2015-09-10,Merged,2874,49,38,txt ,12
+IHandleSagaNotFound is async,2015-09-10,Merged,2873,21,12,txt ,8
+Allow users to override the hostid before MD5 is used,2015-09-10,Closed,2872,174,103,csproj ,9
+Wrap handlers in transaction scope is now a separate feature,2015-09-10,Merged,2871,65,52,cs csproj ,7
+Made the transport seam async,2015-09-09,Merged,2870,21,14,txt ,8
+OutboxStorage is async,2015-09-09,Merged,2867,66,70,txt ,6
+Gateway message deduplication is async,2015-09-09,Merged,2866,7,5,cs ,2
+SubscriptionStorage and Query Subscriptions async,2015-09-09,Merged,2865,44,25,txt ,8
+Wired routing for sends and publishes,2015-09-25,Merged,2864,386,746,csproj ,4
+ISagaPersister is now async,2015-09-09,Merged,2863,133,110,cs ,8
+make timeout interfaces async,2015-09-10,Merged,2862,298,353,txt ,3
+Cleanup and Configuration phase of ATTs is async as well,2015-09-08,Merged,2860,36,26,,8
+Async acceptance testing framework,2015-09-07,Merged,2858,"1,959","1,210",,7
+More att framework improvements,2015-09-04,Merged,2857,16,30,,3
+give all mutators a context,2015-09-06,Merged,2856,231,171,txt ,7
+add failing test for json event publish,2015-12-01,Closed,2854,78,0,cs ,2
+ATT Framework Improvements,2015-09-03,Merged,2851,37,61,,2
+IWantToRunWhenTheBusStartsAndStops Stop() method made async,2015-09-16,Closed,2849,58,31,txt ,19
+IWantToRunWhenTheBusStartsAndStops Start() method made async,2015-09-17,Merged,2846,493,200,csproj ,13
+You can't clear timeouts when there's no TimeoutManager,2015-09-10,Merged,2834,159,19,csproj ,9
+respect binding redirects when checking for reference NSB,2015-08-31,Merged,2831,34,3,cs csproj dll ,6
+Fix ignored exceptions,2015-09-03,Merged,2830,333,128,csproj ,8
+New seam where the transport just executes the pipe as messages come in,2015-09-09,Merged,2828,"1,341","1,986",csproj ,12
+log the original exception in ScenarioContext,2015-08-27,Merged,2827,15,29,,4
+dont validate system messages for reply and send,2015-08-27,Merged,2826,18,9,,2
+WIP: Best practice refactor,2015-08-27,Merged,2825,114,13,cs ,4
+Less info logging,2015-08-31,Merged,2824,10,17,,7
+XmlSerializer now serializes properties of `object` type properly,2015-08-26,Merged,2823,62,20,cs ,5
+Fixes a bug introduced in v6 where mutators couldn't change the message,2015-08-25,Merged,2822,88,4,csproj ,3
+Merge hotfix 5.2.5 to develop,2015-10-21,Merged,2821,133,277,,2
+make ScenarioContext.Logs threadsafe,2015-08-24,Merged,2820,6,9,,3
+Make address-related concepts explicit,2015-09-14,Merged,2818,"1,055",496,csproj ,16
+Fix culture dependent tests,2015-08-24,Merged,2816,72,150,,8
+Acceptance test sagas/entities need unique names,2015-08-20,Merged,2814,148,121,cs ,12
+Make sure a Saga entity in acceptance tests always has virtual members,2015-08-18,Merged,2812,42,0,cs ,2
+NHibernate doesn't appreciate these missing virtual keywords,2015-08-17,Merged,2811,3,3,,2
+SettingsExtensions should not try to instantiate abstract classes,2015-10-09,Closed,2810,2,1,,1
+fix memory leak in FLR with competing consumers,2015-08-25,Merged,2807,277,194,csproj ,4
+Flowing the pipeline context to the timeout storages,2015-08-18,Merged,2806,185,450,csproj ,10
+SagaId passed into persister is no longer restricted to be a Guid,2015-11-02,Closed,2805,26,31,cs ,11
+Introduced SubscriptionStorageOptions,2015-08-14,Merged,2804,105,54,txt csproj ,13
+Making context bag mandatory and exposed as readonly,2015-08-14,Merged,2803,32,28,cs ,10
+Timeout persistence options,2015-08-14,Merged,2802,226,172,cs ,3
+Satellite terminator,2015-08-13,Merged,2801,15,33,cs ,4
+Introduced OutboxStorageOptions,2015-08-12,Merged,2800,60,29,txt csproj ,8
+Interface for readonly context bag,2015-08-13,Merged,2799,40,11,txt csproj ,6
+Issues fixed for 5.2.5,2015-08-13,Closed,2798,69,27,cs ,3
+XmlSerializer now serializes properties of `object` type properly,2015-08-16,Merged,2796,69,27,cs ,3
+Configure mapping for Saga acceptance tests,2015-08-14,Merged,2795,165,78,cs ,11
+Saga persister options,2015-08-11,Merged,2794,293,182,cs txt ,10
+Support for additional deserializers,2015-08-27,Merged,2793,516,110,csproj txt ,6
+Configure pipelines using features,2015-11-17,Closed,2792,401,120,txt ,9
+"Make SagaMetadata CorrelationProps distinct, validate other assumptions",2015-08-05,Merged,2791,238,143,cs ,9
+Correct unit test names for generic handlers,2015-07-31,Merged,2790,2,2,,1
+Internal guard improvements,2015-07-30,Merged,2789,394,388,,16
+Expose SagaMetadata as built by TypeBasedSagaMetaModel,2015-07-31,Merged,2788,324,322,csproj cs ,6
+"Added a case that removes ""at lambda_method"" from clean stack trace when asserting",2015-07-30,Merged,2786,4,1,,1
+Replace IWantQueuesCreated with registrations via QueueBindings settings object,2015-07-28,Merged,2785,83,166,cs csproj ,17
+Exitus `UnicastBus`,2015-07-31,Merged,2784,506,264,txt csproj ,9
+Log message when queue has everyone/anonymous logon permissions,2015-07-29,Merged,2782,413,36,csproj ,10
+No more app domains in ATT framework,2015-07-28,Merged,2781,283,442,csproj ,7
+Upgrade to Net 4.5.1 and enabling TransactionScopeAsyncFlow,2015-07-15,Merged,2770,81,81,nuspec cs ,25
+dont create redundant queues in AT,2015-06-30,Merged,2769,53,19,,16
+Pipelines for subscribe and unsubscribe,2015-08-13,Merged,2768,"1,287","1,099",csproj ,8
+Moves setting of the reply to address to a behavior,2015-06-29,Merged,2765,142,141,txt csproj ,9
+remove remaining host concepts,2015-06-27,Merged,2763,37,117,cs csproj ,6
+Merge the options with the outgoing context,2015-06-28,Merged,2761,"1,240",786,,12
+also log fatals,2015-06-25,Merged,2760,8,2,,1
+Expose notifications on config,2015-06-25,Closed,2759,136,66,csproj ,25
+Remove sendlocal options,2015-06-24,Merged,2758,87,255,txt csproj ,15
+remove powershell helpers,2015-06-18,Merged,2756,0,680,ps1 cs ,8
+Removed ThreadLocal in BehaviorContextStacker,2015-06-24,Merged,2753,82,86,txt csproj ,17
+SyncOMatic update,2015-06-12,Merged,2749,89,65,gitignore DotSettings ,3
+WIP Validate doco,2015-06-05,Closed,2747,394,366,csproj config ,8
+fix race condition in acceptance tests,2015-06-03,Merged,2746,14,12,,1
+WIP: Add msmq label convention,2015-06-08,Closed,2745,341,4,csproj txt ,7
+Allow headers to be set from outgoing mutators,2015-06-02,Merged,2743,155,50,txt csproj ,13
+[SPIKE] Pipeline async invoke,2015-09-28,Closed,2741,657,393,,8
+Error queue config,2015-05-28,Merged,2740,138,21,csproj txt ,5
+Enforce best practice of not postponing messages combined with TTBR set.,2015-05-22,Merged,2739,54,0,,3
+Routing strategies,2015-06-24,Merged,2737,"5,535","3,063",,14
+Auditconfig,2015-05-25,Merged,2736,196,61,csproj txt ,7
+Move towards a more composite approach for the options and outgoing contexts,2015-05-25,Merged,2735,646,420,csproj ,15
+Separate IOutboxStorage into IStoreOutboxMessages and IDeduplicateMessages,2015-11-20,Closed,2734,68,36,cs csproj ,11
+Introducing reply options,2015-05-13,Merged,2733,117,91,txt csproj ,10
+Introducing `TransportDeferOptions`,2015-05-08,Merged,2732,117,68,cs csproj ,9
+[WIP] Callback cancelable,2015-05-07,Merged,2730,"1,355",221,csproj txt ,11
+Removed SendContext in favour of Task{TResponse},2015-05-06,Merged,2729,20,47,csproj ,8
+Allow users to override the hostid before MD5 is used,2015-05-07,Merged,2728,175,102,csproj ,9
+Invalid cast exception thrown from message mutator,2015-11-09,Closed,2727,97,5,csproj ,3
+Cleaning up and covering the best practices with tests,2015-05-06,Merged,2726,500,122,csproj txt ,7
+Introducing PublishOptions to allow users to extend the publish api,2015-04-30,Merged,2720,386,155,csproj txt ,4
+[WIP] Making address explicit,2015-04-27,Closed,2719,860,780,cs ,2
+Redesign pipelines,2015-05-08,Merged,2718,879,837,txt ,2
+Adding transport publish options,2015-04-27,Merged,2715,500,421,txt ,7
+Make OutboxSettings extensible for code only APIs,2015-07-15,Merged,2712,49,12,csproj cs ,5
+Allow to specify assembly scanner to scan nested folder,2015-05-12,Merged,2711,54,3,cs csproj dll ,5
+New message best practice for deferring messages,2015-06-26,Closed,2709,35,0,,3
+[WIP] Message handling contexts,2015-10-23,Closed,2705,"2,983",384,,6
+add missing ExtensionAttribute,2015-04-21,Merged,2704,23,1,cs csproj ,4
+Hotfix 4.3.10,2015-03-27,Merged,2698,32,24,cs ,2
+Saga metadata a first level concept,2015-04-08,Merged,2693,389,337,txt csproj ,21
+use streamwriter for XML,2015-03-26,Merged,2691,66,63,,3
+Improved synchronous Request/Response,2015-04-30,Merged,2689,"2,127",958,cs csproj config ,11
+better argument validation,2015-03-23,Merged,2686,583,123,csproj ,10
+Introducing a SendContext,2015-03-19,Closed,2684,"3,454","1,089",,14
+Marked commonly used interfaces as implicitely used,2015-04-10,Closed,2679,966,3,csproj ,13
+"Introducing a ""outgoing message"" to improve the seam towards the transport",2015-03-12,Merged,2678,389,303,,9
+IWantToRunWhenConfigurationIsComplete obsoleted,2015-03-06,Merged,2677,31,18,sln ,6
+No longer use IWantToRunWhenConfigurationIsComplete in the core,2015-03-05,Merged,2676,58,66,csproj ,6
+FeatureStartupTasks are not invoked for send only endpoint,2015-03-04,Merged,2675,112,26,csproj ,7
+Update to .NET 4.5.1 and support thread change operations inside handlers.,2015-07-03,Closed,2673,56,47,cs config ,26
+Reduce our memory footprint,2015-03-05,Merged,2671,93,83,,4
+Assembly scanning now allows additive exclusions,2015-03-18,Merged,2670,487,836,cs config sln ,14
+[WIP] Handler context,2015-10-22,Closed,2669,"9,762",597,,7
+Changed callback code to use tasks,2015-03-09,Merged,2667,87,97,csproj ,7
+Introducing ReceivedMessage to make the transport seam more explicit,2015-03-03,Merged,2665,548,176,csproj ,11
+Remove `Address` class in favour of more explicit transport specific implementations,2015-02-26,Merged,2664,692,798,,20
+Made the setting up of endpoint global header more explicit at config time.,2015-03-09,Merged,2663,36,84,csproj ,13
+Misleading debug message logged for Unicast on endpoint shutdown,2015-02-19,Closed,2657,1,1,,0
+custom finder support for unique properties,2015-03-18,Merged,2656,340,194,cs txt ,2
+vNext ready,2015-02-18,Merged,2655,112,"2,878",cs ,19
+fix InMemorySagaPersister throws null reference for null property,2015-02-13,Merged,2653,116,27,cs ,5
+Add a Gitter chat badge to README.md,2015-03-11,Closed,2650,2,0,,0
+Xml serializer refactoring part II,2015-02-20,Merged,2648,117,115,,3
+Refactoring XMLMessageSerializer,2015-02-09,Merged,2647,"1,459","1,321",,1
+Include loaded AppDomain assemblies,2015-03-05,Closed,2646,17,46,,10
+Configuring invalid combinations of persistence and storage types causes endpoint to fail at startup,2015-02-09,Merged,2644,58,10,cs ,7
+Use ConcurrentDictionary for TypeToNameLookup,2015-02-09,Merged,2642,38,37,,2
+[WIP] Scheduler API broken when EP scaled out (issue #2639),2015-01-31,Merged,2641,192,3,DotSettings ,6
+Skip properties and fields that cannot be set by EncryptionMessageMutator,2015-02-02,Merged,2640,62,1,csproj ,3
+Add Data to exception headers,2015-01-26,Merged,2631,47,0,,2
+IHandleSagaNotFound fires multiple times for a message that targets multiple sagas,2015-01-27,Merged,2629,289,24,cs ,7
+Enable Send only endpoints to publish messages,2015-01-27,Merged,2626,154,28,csproj ,5
+AcceptanceTesting: Add ExcludeTypesFromNamespace,2015-04-10,Closed,2625,14,1,,3
+"When setting an individual storage type persistence, all storage persistence types are overridden",2015-01-27,Merged,2623,147,26,cs ,8
+ForwardReceivedMessagesToQueueCreator can be created using any supported container,2015-08-20,Merged,2621,70,28,cs ,4
+AcceptanceTesting: AppConfig on Behaviour DSL + AppDomain ConfigFile,2015-01-07,Merged,2617,9,6,,2
+AcceptanceTesting: Enable domain data config,2015-02-03,Closed,2615,14,0,,2
+Support inheritance-based sagas of +1 generic args,2015-01-29,Merged,2613,46,1,,2
+Added explicit API for property injection for IHandleMessages<T>,2015-01-09,Merged,2603,110,0,csproj ,5
+Extending pipeline to transport,2015-02-20,Merged,2601,"8,102","6,864",,6
+Accessing list of scanned types returns nulls for types that could not be scanned,2015-01-29,Merged,2591,3,2,,2
+Added Persistence extensibility per storage type,2014-12-05,Merged,2587,213,42,csproj ,11
+delay logging dir resolution,2014-11-25,Merged,2576,142,74,csproj ,5
+Added support for individualizing endpoint queue names when Scaling-Out,2014-11-25,Merged,2571,238,17,cs ,11
+Changed link to class from the core to copy,2014-11-17,Merged,2569,22,3,csproj ,2
+Dynamic routing,2015-09-28,Closed,2565,"2,228",280,csproj ,10
+SyncOMatic update,2014-11-07,Merged,2562,121,3,gitignore json DotSettings config ,6
+INeedToInstallSomething code documentation,2014-11-06,Merged,2560,0,1,,1
+SyncOMatic update,2014-11-05,Merged,2559,105,0,,2
+Adding an explicit configuration API for users to set the host identifier,2014-11-07,Merged,2558,339,57,csproj ,8
+split concrete type generation out of MessageMapper,2014-11-06,Merged,2557,242,227,,1
+Throw an exception when callbacks are used in SendOnly mode,2014-11-05,Merged,2556,85,20,csproj ,6
+SyncOMatic update,2014-10-29,Merged,2546,112,2,gitignore json config ,5
+SyncOMatic update,2014-10-29,Merged,2545,112,2,gitignore json config ,5
+SyncOMatic update,2014-10-29,Merged,2543,112,2,gitignore json config ,5
+SyncOMatic update,2014-10-29,Merged,2542,113,5,gitignore json config ,5
+test,2014-10-29,Closed,2541,1,0,,1
+SyncOMatic update,2014-10-29,Merged,2536,114,4,gitignore json config ,5
+SyncOMatic update,2014-10-28,Merged,2535,114,4,gitignore json config ,5
+SyncOMatic update,2014-10-28,Merged,2534,4,4,,2
+SyncOMatic update,2014-10-27,Merged,2533,218,5,gitignore json ,4
+SyncOMatic update,2014-10-27,Closed,2532,241,5,gitignore json ,4
+WIP - Made host info configurable,2014-11-06,Closed,2529,49,26,csproj ,4
+Reply from SagaNotFound V4,2014-10-24,Closed,2523,101,0,cs ,2
+add When_reply_from_a_finder,2014-10-24,Merged,2522,85,0,cs ,2
+Fixing bug in distributor not notified about worker ready when handling message of to SLR,2014-10-24,Closed,2520,318,15,csproj ,4
+Suppress saganotfound for timeouts,2014-10-22,Merged,2516,106,2,cs sln ,4
+Implementation of DataBus definition,2014-10-23,Merged,2513,767,182,csproj ,5
+Common ISagaPersister tests,2015-11-20,Closed,2511,730,4,csproj cs ,8
+Moved RetryPolicy check to FaultManager,2014-10-21,Merged,2509,214,159,csproj ,5
+Correct defaults for suppressing the ambient tx,2014-10-24,Merged,2506,88,35,cs ,5
+"Modified MessageHasBeenSentToErrorQueue stream data to not include a typed exception since we do not have it all the time, fixes #2503",2014-10-22,Closed,2504,110,13,,6
+"Added way to override MSMQ TimeToReachQueue setting, fixes #2103",2014-10-20,Merged,2500,28,7,,3
+better QueueNotFoundException handling,2014-10-19,Merged,2499,17,29,,2
+Obsolete Saga.RequestTimeout(Action<TTimeoutMessageType>),2014-10-19,Merged,2498,15,0,,1
+load successful types from ReflectionTypeLoadException,2014-10-19,Merged,2497,3,2,,1
+make staticOutgoingHeaders a ConcurrentDictionary,2014-10-19,Merged,2496,1,1,,1
+Prevent saga id to be changed,2014-10-19,Merged,2495,117,1,cs ,4
+use WindowsIdentity.GetCurrent for header,2014-10-24,Merged,2494,11,3,,1
+Use the delegate builder to avoid reflection in the databus,2014-10-22,Merged,2493,25,8,csproj ,5
+make ThroughputLimiter disposable,2014-10-18,Merged,2492,10,1,,1
+improve performance of InMemoryTimeoutPersister,2014-10-22,Merged,2487,69,23,,1
+"Added ability to specify time to wait before raising critical time for timeout outages, fixes #1228",2014-10-17,Merged,2484,29,3,cs ,4
+"Added support to register custom serializers, fixes #2464",2014-10-17,Merged,2483,218,13,csproj ,13
+Change callback so they fire on replies only,2014-10-22,Merged,2480,102,2,csproj ,4
+Performance counter can hang,2014-10-22,Merged,2474,60,66,,11
+Adding a new Rx BusNotifications API,2014-10-16,Merged,2473,596,68,cs config ,7
+Failure to convert to TransportMessage should result in ErrorQueue,2014-10-29,Merged,2472,374,103,csproj ,10
+Better exception when performance counter instance name limit is reached,2014-10-14,Merged,2467,10,2,,2
+"Added support to register custom serializers, fixes #2464",2014-10-17,Closed,2465,"1,826","6,237",config dll pdb nupkg nuspec ps1 ,14
+allow retries when handler throws SerializationException,2014-10-15,Merged,2462,124,10,csproj ,9
+Introduced the concept of ErrorSubscribers,2014-10-15,Closed,2455,537,77,cs config ,8
+"Expose set headers in downstream handlers, fixes #529",2014-10-03,Merged,2438,5,6,,2
+Use Exception.ToString in headers,2014-10-03,Merged,2436,115,13,cs ,3
+Extended IManagedMessageFailures to include numberOfAttempts,2014-10-03,Merged,2434,69,29,,3
+InMemorySagaPersister overwrites changes with stale data,2015-02-09,Closed,2433,18,1,,1
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-02,Merged,2430,2,1,,1
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-02,Merged,2429,2,1,,1
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-02,Merged,2428,2,1,,1
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-02,Merged,2427,2,1,,1
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-02,Merged,2426,2,1,,1
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-02,Merged,2424,439,4,config cs ,8
+Fix polarity error causing timeouts not to be periodically cleaned up,2014-10-03,Merged,2423,2,1,,1
+Fixing polarity error causing timeouts to get skipped,2014-10-01,Merged,2422,11,11,,1
+Fix timeouts not firing,2015-02-09,Closed,2419,13,19,,1
+Metamodel for sagas,2014-10-23,Merged,2416,"1,614","1,490",cs ,11
+Acceptance test improvements,2014-09-26,Merged,2411,105,126,csproj ,10
+InMemorySubscriptionStorage: Fixed thread safety and performance issues,2015-02-09,Merged,2405,17,22,,1
+"* Add acceptance tests for the various combinations of Handler, MessageM...",2014-09-19,Closed,2398,"2,098",445,cs ,5
+Added a wrapper for the IAuditMessages,2014-09-17,Merged,2396,27,8,,3
+Split containers to separate repos,2014-09-16,Merged,2391,43,"2,365",cs sln xml ,10
+Removed the msmq queuename shortening,2014-09-16,Merged,2387,68,101,csproj ,28
+Shortening folder names for acceptance tests,2014-09-15,Merged,2386,323,322,cs ,23
+remove DefaultRetryPolicy,2014-09-15,Merged,2382,96,95,cs ,7
+remove CommonObjectBuilder.Synchronized,2014-09-15,Merged,2380,30,88,csproj ,4
+Remove stack trace tweaks v5,2014-09-15,Merged,2379,"1,172",294,,3
+Issue2356,2014-09-14,Closed,2370,39,1,cs ,3
+remove stack trace tweaks,2014-09-18,Closed,2362,"2,098",445,cs ,5
+Paket,2014-09-20,Closed,2361,"2,143",336,cmd dependencies lock config csproj references ,17
+remove stack trace hack,2014-09-10,Closed,2355,50,164,cs csproj ,13
+Hotfix 4.6.5,2014-09-10,Merged,2354,550,50,targets dll config cs ,21
+Fixed obsolete warning replacement to use BusConfiguration instead of Configure.With(),2014-09-05,Merged,2351,118,149,,13
+Set local address a different way to avoid race condition,2014-09-04,Merged,2350,5,5,,1
+"Suffix the builders with ""Builder""",2014-09-07,Merged,2349,8,8,csproj ,8
+Internalize serializers,2014-09-04,Closed,2345,22,119,csproj ,11
+Fix for slow debugging when using castle windsor: #1989,2014-08-28,Closed,2337,2,5,,1
+Introduce ISendOnlyBus,2014-08-29,Closed,2335,150,129,csproj ,6
+add sendonly AcceptanceTests,2014-08-29,Merged,2334,314,37,csproj ,7
+remove usages of address,2014-10-02,Closed,2331,636,535,,28
+Remove configure.createbus,2014-08-22,Merged,2324,610,615,,24
+dont include types in NSB in message conventions,2014-08-21,Merged,2322,99,14,csproj snk ,7
+Add multi encryption key support,2014-08-20,Merged,2321,651,11,cs csproj ,7
+Configure.With now take an instance of the configuration builder,2014-08-22,Merged,2320,221,196,,14
+less fluent conventions,2014-08-19,Merged,2317,72,192,,7
+Verify keys are not too similar,2014-08-18,Merged,2315,53,21,,2
+Created a endpoint template for publishers,2014-08-15,Merged,2314,94,54,csproj ,18
+add multi decryption key support,2014-08-15,Merged,2311,680,6,csproj ,4
+Added more tests to show the details of #2018,2014-08-14,Merged,2310,109,25,,1
+Trace subscriber list for message driven pubsub,2014-08-14,Merged,2309,56,2,,3
+Trace subscriber list for message driven pubsub,2014-08-14,Closed,2308,"6,875","4,031",ps1 config cs ,16
+A different option to expose fine tune customizations,2014-08-15,Merged,2307,544,435,,22
+Remove fluent from ConfigurationBuilder,2014-08-14,Merged,2305,94,131,,12
+move over to extending the SerializationDefinition,2014-08-14,Closed,2304,207,141,cs ,9
+Add multiple encryption key support,2014-08-14,Merged,2303,698,41,csproj ,5
+"Support to create instances of interface for Saga testing, fixes #2249",2014-08-13,Merged,2302,46,0,csproj ,3
+"When an event is derived from multiple interfaces that don't have a hierarchy, only handlers for the first interface are called",2014-12-10,Merged,2301,336,18,cs ,5
+Finishing off ConfigurationBuilder changes,2014-08-12,Merged,2299,223,213,,21
+Processing started/ended is now available on the pipeline.,2014-08-12,Merged,2297,30,20,,4
+Moved SendOnly mode to ConfigurationBuilder,2014-08-10,Merged,2295,37,8,,5
+Moved the feature prereq checks to run after the setting has been locked...,2014-08-13,Merged,2294,26,21,,2
+Added Encoding extension point to JsonMessageSerializer,2014-08-14,Closed,2293,103,3,cs ,6
+Use persistence,2014-08-12,Merged,2292,388,609,csproj ,17
+Moved UseTransport to use ConfigurationBuilder,2014-08-08,Merged,2291,200,216,csproj ,15
+split sla from critical time,2014-08-07,Merged,2289,706,397,csproj ,6
+Move Outbox and Transaction to ConfigurationBuilder,2014-08-06,Merged,2283,265,92,cs ,14
+move DurableMessaging to a configbuilder extension,2014-08-06,Merged,2281,126,123,csproj ,9
+Simplify the handle ordering API,2015-07-22,Merged,2280,84,100,txt ,12
+Moved Performance monotoring and SLA to be a ConfigurationBuilder exension,2014-08-06,Closed,2279,344,186,cs ,12
+Made MessageForwardingInCaseOfFault a feature,2014-08-06,Merged,2276,89,87,csproj ,9
+remove func for endpoint name,2014-08-05,Merged,2275,10,37,,2
+instance EndpointHelper,2014-08-05,Merged,2274,74,57,,3
+Removed the check for callbacks with id == correlation id to avoid mem leaks,2014-08-15,Merged,2273,1,1,,1
+Moved InMemoryFaultManagement to ConfigurationBuilder,2014-08-05,Merged,2271,42,12,csproj ,8
+Converted EncryptionService to be a ConfigurationBuilder exension,2014-08-05,Merged,2270,582,192,csproj ,7
+Move profiles to host,2014-08-05,Merged,2269,434,56,cs csproj config ,14
+Moved WcfManager and WcfServiceHost to the host,2014-08-05,Merged,2267,5,7,cs ,5
+Moved Configure.EnableInstallers to ConfigurationBuilder.EnableInstallers,2014-08-05,Merged,2266,58,20,csproj ,10
+move DoNotCreateQueues to config builder,2014-08-05,Merged,2264,52,12,csproj ,5
+make purging a config builder ext,2014-08-05,Merged,2262,105,41,csproj ,8
+Move roles into host,2014-08-04,Merged,2260,58,450,csproj ,8
+make fileshare feature use configuration builder,2014-08-04,Merged,2256,157,25,csproj ,12
+make CriticalError a feature,2014-08-04,Merged,2253,280,86,cs csproj ,13
+Make sure MsmqWorkerAvailabilityManager is thread safe on .NET 4 in NSB 3.3.9,2014-08-01,Merged,2250,29,21,,1
+Hotfix 4.6.3: Prompter response to timeouts in some cases,2014-07-17,Merged,2236,57,24,,2
+Don't lose timeouts,2014-07-17,Merged,2235,61,25,,2
+Fixes #2133: Stop losing timeouts,2014-07-15,Merged,2234,333,61,cs ,2
+quarantine endpoint attributes,2014-08-14,Closed,2231,62,6,csproj ,8
+"If index is stale we may miss timeouts, fixes #2133",2014-07-15,Closed,2228,361,58,cs ,2
+Ensuring users use the new builder pattern when configuring the bus when using our host,2014-07-14,Merged,2225,58,2,csproj ,4
+remove IStartableBus,2014-07-15,Closed,2224,56,29,csproj ,11
+Remove statics from Address class,2014-08-19,Merged,2218,"1,010",815,cs ,10
+Refactoring & minor changes,2014-07-08,Closed,2212,74,48,,4
+Diagnostic support for the message processing pipeline,2014-12-01,Merged,2211,299,72,csproj ,8
+Turned on warn as error for xmldoc and started fixing the errors,2014-06-29,Merged,2210,574,102,,23
+Enabled xmldoc as error for the testing library,2014-06-29,Merged,2209,55,47,cs ,7
+Xmldoc testing,2014-06-29,Closed,2208,241,156,,6
+File based persitence for development time,2015-09-28,Closed,2204,237,0,cs ,6
+Feature prereqs now requires a reason to enable better diagnostics,2014-06-29,Merged,2198,187,110,,6
+Refactoring WellKnownBehavior to be be typed,2014-06-28,Merged,2197,283,179,csproj ,17
+Container extensions,2014-06-25,Merged,2196,349,35,csproj ,14
+Removing the gateway since its now a separate nuget.,2014-06-24,Merged,2194,69,"3,574",,3
+Make Scheduler API instance based,2014-06-25,Merged,2192,123,73,csproj ,13
+finish removing MessageModule,2014-06-24,Merged,2190,2,168,cs ,5
+Added better obsolete for the removed static Configure.Features,2014-06-23,Merged,2188,114,117,,13
+Configuration time,2014-06-19,Merged,2187,234,228,,1
+Moved the AuditInvokedSaga behavior to the Saga persistence behavior.,2014-06-18,Merged,2185,21,46,csproj ,6
+Improved persistence config,2014-06-18,Merged,2184,455,133,csproj ,12
+ReplyToAddress is now a header to avoid leaning on the transports to transfer them explicitly,2014-06-17,Merged,2181,60,15,,7
+Obsoleted the IWantToRunBeforeConfiguration api since its no longer needed,2014-06-16,Merged,2180,27,57,csproj ,8
+Obsoleting the IFinalizeConfiguration interface in favor of features,2014-06-16,Merged,2178,107,113,csproj ,5
+Conventions refactor,2014-06-11,Merged,2177,698,482,,13
+Introducing .UseSerialization<T> so that we can guide users better,2014-06-11,Merged,2174,195,108,csproj ,16
+Pipeline Registrations cleanup,2014-06-17,Merged,2173,188,110,csproj ,20
+WIP - Moved the saga related behavior registration to the saga feature,2014-06-10,Closed,2172,50,19,,12
+Stopped requiring the timeout id to be set by the persister,2014-08-19,Closed,2170,62,93,,11
+install refactor,2014-06-06,Merged,2165,208,268,csproj ,11
+Hotfix 4.6.2: Avoid skipping timeouts with the RavenDB persister,2014-07-15,Closed,2162,333,61,cs ,2
+A few improvements to Outbox,2014-06-03,Merged,2160,101,2,cs ,2
+Better use of new constraints,2014-06-02,Merged,2152,25,30,,8
+Adding outbox cleanup support for the inmemory persister,2014-06-03,Closed,2151,233,50,csproj ,11
+Add support for mapping Sagas to message expressions,2014-06-18,Merged,2143,121,32,cs ,8
+Improved sendonly,2014-08-22,Closed,2141,214,152,,9
+Converting the databus to a feature to try out the new feature api,2014-05-30,Merged,2140,82,67,csproj ,10
+log warning if incorrect logging/config order,2014-06-01,Closed,2139,253,335,,5
+Saga mapping,2014-05-29,Merged,2138,304,145,cs ,14
+remove some uses of config.instance,2014-06-01,Closed,2130,557,513,cs ,18
+New feature api,2014-05-28,Merged,2129,"1,729","4,430",,17
+SyncOMatic update,2014-05-26,Merged,2127,51,25,targets exe dll DotSettings ,12
+remove StackTracePreserver,2014-05-24,Merged,2126,32,71,csproj ,9
+Merge branch 'hotfix-4.6.1',2014-05-22,Closed,2125,0,0,,0
+Pass delivery options to the transport,2014-05-23,Merged,2124,795,434,cs ,13
+RavenSagaPersister warning on load by non-unique,2014-05-25,Closed,2122,4,0,,1
+Split NLog and Log4net into own repos and add sensible logging defaults,2014-05-23,Merged,2120,"1,098","2,063",,1
+make subscriptions a behavior,2014-05-19,Merged,2117,236,"1,046",,13
+Merge the core,2014-05-18,Merged,2115,64,374,config csproj cs sln ,67
+Spike to use pipeline to configure the bus,2015-04-10,Closed,2114,265,61,csproj ,12
+Pipeline new registration API,2014-05-18,Merged,2110,905,650,csproj ,7
+update to 4.5,2014-05-16,Merged,2107,115,43,csproj cs config ,22
+Incoming/Outgoing pipeline,2014-05-14,Merged,2100,393,456,,17
+Closes #2067,2014-08-11,Closed,2087,85,21,cs ,3
+Issue 1893,2014-04-28,Merged,2066,134,7,cs ,3
+Assembly scanner improvements,2014-04-29,Merged,2065,127,59,,4
+Prevent exception from being thrown when selecting assemblies to scan.,2014-04-12,Closed,2054,20,4,,1
+Address,2014-04-23,Closed,2052,631,379,csproj ,24
+MutateIncomingMessages and MutateOutgoingMessages not honouring replacement of instance,2014-04-11,Merged,2050,216,29,csproj ,10
+Null reference when replying from Saga not found handler,2014-04-11,Merged,2046,101,1,cs ,3
+Can't test Saga without parameter-less ctor,2014-04-07,Closed,2043,2,2,,2
+Removed dead Testing.Handler code,2014-05-07,Merged,2041,0,4,,1
+Distributor restart causes dropping of available workers,2014-03-27,Closed,2034,28,10,,1
+Adding a new project for development only powershells,2014-03-25,Merged,2027,654,4,ps1 config cs ,9
+Platform licensing,2014-03-21,Merged,2022,248,"2,256",pdb dll targets nuspec config csproj cs xml ,24
+SyncOMatic update,2014-03-19,Closed,2013,8,43,pdb dll targets ,13
+"Remove the warning when a 4.x endpoint receives an event from a 3.x pub, when the event is an interface.",2014-04-29,Merged,2012,60,31,,2
+check Threshold  for String.Empty,2014-03-13,Merged,2009,15,14,,1
+Store and reset SynchronizationContext,2014-03-20,Merged,2008,17,7,,1
+Removed throttling / falling back to basic licensing mode when license expires,2014-03-10,Merged,1998,17,27,resx ,4
+Fix typo 'make sure' was repeated,2014-03-07,Merged,1997,1,3,,1
+SyncOMatic update,2014-03-05,Merged,1996,11,47,dll pdb targets exe cmd cs csproj config xml sql ,300
+Implement new license behavior. Fixes #1993,2014-03-06,Merged,1994,117,72,csproj ,13
+Update ScheduledTask.cs,2014-03-13,Closed,1990,3,2,,1
+SyncOMatic update,2014-03-02,Closed,1987,10,46,pdb targets exe dll cmd cs csproj config xml sql ,300
+SyncOMatic update,2014-03-02,Closed,1986,9,46,dll pdb targets exe cmd cs csproj config xml sql ,300
+SyncOMatic update,2014-03-02,Closed,1978,9,47,dll pdb targets exe cmd cs csproj config xml sql ,300
+Saga.ReplyToOriginator sets the wrong MessageIntent,2015-06-11,Closed,1974,119,1,cs ,4
+Use a Func<> instead of Expression when mapping message to saga. #943,2014-05-31,Closed,1959,59,27,,8
+Do not configure logging if already configured.,2014-05-23,Closed,1948,14,0,,4
+Abort the startup if we encounter a assembly scanning error,2014-03-10,Merged,1937,54,49,,5
+Added DisplayInstanceIdentifier to HostInformation,2014-01-30,Merged,1932,85,73,csproj ,6
+Relates to #1925,2014-01-29,Merged,1927,17,3,,2
+Turned on AggressivelyCacheFor in GetSubscriberAddressesForMessage.,2014-04-16,Closed,1922,4,2,,1
+Issue JsonMessageSerializerBase - TypeNameHandling.None,2015-10-27,Closed,1916,49,21,,2
+Capture host specific information and make it accessible,2014-01-23,Merged,1913,173,8,csproj ,12
+Fixes #1909 -  NServiceBus fails to shut down if `IWantToRunWhenBusStartsAndStops.Start` throws,2014-07-09,Closed,1911,41,50,,1
+Fixes #1900 - Gateway unable to receive large messages from slow sites due to transaction rollback,2014-01-16,Merged,1904,41,28,csproj ,5
+reduce Dict lookups,2014-01-20,Merged,1899,244,154,,17
+Clear MSMQ connection cache,2014-01-14,Merged,1897,3,1,,2
+Dispose of stream only once,2014-01-12,Merged,1895,1,6,,1
+Fixes #1827 - SingleCallChannelReceiver doesn't work with unity,2014-03-21,Merged,1894,9,4,,2
+clean up gateway headers,2014-01-15,Merged,1890,238,247,csproj ,6
+Improve output of ReturnToSourceQueue error messages,2014-07-09,Closed,1858,13,1,,1
+Feature pipeline config,2013-12-17,Merged,1856,526,119,csproj ,18
+Added audit queue exclusion configuration,2014-06-06,Closed,1854,292,3,csproj ,12
+Testing of Bus.Defer,2014-01-28,Merged,1848,184,0,,5
+remove test InMemoryDataBus classes,2013-12-15,Merged,1846,1,105,csproj ,4
+Fix for #1832,2013-12-09,Closed,1833,71,2,,2
+delay loading of license,2013-12-05,Merged,1831,19,26,csproj ,4
+[WIP] Raven missing methods btw 2.0 and 2.5,2013-12-12,Closed,1830,97,12,csproj config ,4
+Test that show issue #1827,2014-05-31,Merged,1829,13,0,,1
+split extract and execute messages,2013-12-02,Merged,1824,231,106,csproj ,5
+Check for royalty free license expiry,2013-12-02,Merged,1823,1,1,,1
+Add ability to toggle message validation checks,2013-12-02,Closed,1817,17,3,,1
+ncrunch cannot build licenseinstaller,2013-12-11,Merged,1814,1,1,,1
+Get building with NCrunch,2013-11-28,Closed,1808,5,3,,2
+Setting Up NServiceBus Registry Entries,2013-11-28,Merged,1807,6,3,,1
+add behaviour list manipulation,2013-12-11,Closed,1802,563,154,cs csproj ,17
+WIP - Non dtc operations,2014-05-06,Closed,1795,771,1,snk cs ,8
+Added a failing acceptance test for #1753,2013-12-12,Closed,1794,114,0,cs ,2
+Header cleanup,2013-11-26,Merged,1792,825,540,cs csproj ,9
+StubBus SendToSites implementation calls wrong ProcessInvocation,2013-11-22,Merged,1789,1,1,,1
+Set auto correlated saga properties automatically on incoming messages,2014-10-03,Closed,1781,391,57,csproj cs ,6
+Drop GetGenericArguments() output checks against null,2013-11-22,Merged,1775,57,53,,5
+Master branch (4.2.0) doesn't build from source,2013-11-12,Merged,1772,1,1,,1
+Trim potential trailing forward slashes from Xml namespaces,2013-11-11,Merged,1770,34,16,,3
+issue #1737 NullReferenceException MessageMapper,2013-11-17,Merged,1768,140,2,csproj ,3
+if control message dont deserialize,2013-11-11,Merged,1760,11,1,DotSettings ,2
+Simplify license,2013-11-11,Merged,1754,"1,351","3,187",dll pdb cs xml ,15
+Outgoing pipelines,2013-11-11,Merged,1750,"1,066",701,csproj ,7
+DTC install fails on Win 2003 R2 x64 SP2 from x86 process,2013-11-08,Merged,1747,7,9,,2
+Performance improvements EncryptionMessageMutator,2013-11-09,Merged,1745,279,90,cs ,6
+Support disconnecting workers from a running distributor,2013-11-27,Merged,1743,"1,555",195,csproj cs ,17
+Introducing Sub pipelines for logical messages and message handlers,2013-11-08,Merged,1741,545,462,csproj ,16
+Updated windows registry key in init.ps1 powershell script.,2013-11-09,Closed,1734,2,2,,1
+Master,2013-11-05,Closed,1733,0,0,,0
+Introduce SendOptions and SendOptionLocal to make IBus send API clear and concise,2015-04-13,Merged,1730,"2,255","1,931",,10
+Fixes #1683 - Gateway logs ProtocolViolationException error in response to HTTP HEAD requests,2013-10-23,Merged,1695,7,0,,1
+Checking to see if HKCU key exists. Fixes #1685,2013-10-22,Merged,1692,30,13,,1
+Implemented AOP capabilities into the handlers. I order to be able to ke...,2013-10-25,Closed,1686,327,140,csproj ,7
+Throughtput limiter changes,2013-11-10,Merged,1667,274,110,pdb dll csproj cs ,12
+remove impersonation,2013-10-14,Merged,1664,64,26,csproj ,7
+Fixes issue 1661 - NinjectObjectBuilder.ConfigureProperty not handling multiple configs for same property,2014-05-31,Merged,1662,21,0,,3
+Base event subscribe,2013-10-17,Closed,1654,263,95,cs ,9
+Multiple logical publishers for the same event,2013-11-28,Merged,1653,774,255,csproj ,5
+Performance improvements EncryptionMessageMutator,2013-11-07,Closed,1632,151,11,csproj ,6
+Improved pipeline for incoming messages,2013-10-28,Merged,1614,"2,241",978,DotSettings cs ,15
+Issue 1596 message send failure,2014-02-11,Closed,1612,"1,599","1,494",csproj ,5
+Audit spike,2013-10-04,Merged,1611,156,113,csproj ,7
+Expanding message registration exception message as it is a little misleading,2013-10-25,Merged,1598,1,1,,1
+Re-enable the forwarding feature,2013-09-30,Merged,1592,123,98,csproj ,8
+If a Satellite fails to start the whole endpoint is considered faulty and shutsdown,2013-09-30,Merged,1587,33,33,,4
+Master,2013-09-25,Closed,1585,121,14,cs ,5
+Fix 1536,2013-09-27,Closed,1582,3,0,,2
+Introducing a way to control lock modes when using the NHibernate saga persister,2013-09-22,Merged,1568,96,23,config csproj cs sln ,11
+Dont delete perf counters on install,2013-09-23,Merged,1566,160,52,cs ,6
+Issue 1558,2013-09-19,Merged,1562,27,7,,1
+"Publisher not publishing derived events for classes, fixes #1558",2013-09-19,Closed,1559,27,7,,1
+Issue 1496 raven db license,2013-09-17,Merged,1553,30,6,xml ,2
+support 2.0.3 and 2.5 of raven for user permissions,2013-09-17,Merged,1551,43,1,,1
+Fixes #1536,2013-09-24,Closed,1541,2,44,cs ,3
+Fixes #1528,2013-09-13,Merged,1535,12,6,,2
+Fixes #1528,2013-09-12,Closed,1534,13,6,,2
+pass username to installers,2013-09-14,Merged,1533,10,2,,3
+Address,2013-09-11,Closed,1526,631,379,csproj ,24
+Improved assembly scanner that skips irrelevant files,2013-09-27,Merged,1524,"1,185",399,cs csproj config ,12
+"NServiceBus. Used product version in URL launched at the end, updated metada info that is visible in Control Panel.",2013-09-16,Merged,1519,97,902,,0
+Solves issue 1512,2013-10-03,Merged,1517,14,13,,1
+SecondLevelRetries.Disabled does not reflect when feature has been disabled,2013-09-16,Merged,1510,32,26,,2
+Update TransportReceiverFailedMessageMonitor.cs,2013-09-06,Merged,1508,3,3,,1
+fix dispose in object builders,2013-09-06,Merged,1505,932,272,targets xml csproj config ,11
+Fixes #1503 - SecondLevelRetriesProcessor is always started regardless of feature being disabled,2013-09-06,Closed,1504,11,1,,2
+ExpectSendToSites & ExpectNotSendToSites,2013-09-02,Merged,1495,87,0,,4
+Unit Tests fail with ConfigurationErrorsException,2013-08-30,Merged,1492,2,1,,1
+Extract unit of work runner,2013-10-03,Closed,1490,245,31,cs ,5
+Add Configure.Component overload,2013-08-26,Merged,1476,11,0,,1
+Load message handlers,2013-10-03,Closed,1451,1,0,,1
+"Use DISM for installing MSMQ on newer OS, fixes #1437",2013-09-05,Merged,1439,13,44,,1
+Add ReturnToSourceQueue script for Sql Server,2013-08-14,Merged,1434,55,0,,1
+add diff connections for diff purposes,2013-08-15,Merged,1423,62,31,,10
+Sending from SendOnly through Gateway throws NullReferenceException,2013-08-19,Closed,1414,112,5,csproj ,5
+Request/Response over Gateway fails to correlate,2013-08-12,Merged,1413,159,13,csproj ,3
+Obsolete batch,2013-08-15,Merged,1412,370,63,,3
+Fix for 1407,2013-08-09,Merged,1410,14,2,,3
+Disable gateway,2013-08-08,Merged,1403,6,2,,1
+Ability to specify a explicit reply url for the gateway  #1371,2014-10-18,Closed,1401,72,7,cs ,7
+Audit as a feature and disabling audit via code initialization,2013-09-04,Merged,1399,871,324,csproj config ,18
+Made visibility timeout for messages the same as the configured value,2013-11-10,Closed,1397,2,2,,1
+NHibernate gateway deduplication fails on large messages,2013-08-06,Merged,1392,1,1,,1
+Use Configure.GetConfigSection<T> for Gateway like other IProvideConfig<T>,2013-08-07,Merged,1384,3,3,,3
+use waitforexit combined with kill,2013-08-06,Merged,1375,2,5,,1
+Wait for exit,2013-08-01,Closed,1374,"1,807","26,613",csproj exe Config targets config ,26
+UnicastBus.Defer should not have any time related logic,2014-05-13,Closed,1363,47,25,,5
+Dont throw when we cant find the process to kill,2013-07-31,Merged,1355,83,21,csproj ,4
+Use an overridable abstraction for Time instead of DateTime.UtcNow,2013-07-30,Closed,1353,155,50,csproj ,20
+Only implicitly create exchanges for types being published. Limit queue ...,2013-08-13,Merged,1352,24,8,,5
+Time simulation feature,2013-07-27,Closed,1351,"1,879","26,639",csproj Config exe targets config ,21
+add OriginatingEndPointVersion header,2014-02-11,Closed,1348,27,4,csproj ,5
+Deferred send,2013-11-10,Closed,1347,158,4,csproj ,5
+Add NServiceBus.Powershell on nuget,2013-07-23,Merged,1331,21,0,,1
+Added locking logic to AzureMessageQueueReceiver.GetMessage to resolve failure to get messages from queue.,2013-07-22,Closed,1312,35,10,,1
+Add httplistener permissions installer,2013-07-23,Merged,1301,178,24,csproj ,8
+ConfigureMapping: throw for deep nested properties,2013-07-10,Merged,1297,97,165,cs ,5
+Shutdown race condition,2013-07-10,Merged,1295,129,51,csproj bat ,4
+Issue 1277,2013-07-02,Merged,1287,280,78,csproj ,6
+throw if sagainterfaces cannot be mapped to messages,2013-07-12,Merged,1280,123,8,cs ,4
+Allow multiple implementations of IConfigureLoggingForProfile,2013-07-02,Merged,1278,610,62,,2
+Preserve body for SLR/Error and audit queues,2013-06-28,Merged,1276,342,12,csproj ,7
+Portcheck and and azure samples,2013-06-24,Merged,1257,6,3,ps1 ,3
+Add SQLite/Interop.dll's to exclusions.,2013-07-01,Merged,1255,5,1,,1
+Making sure that the correlation id is handled in a backwards compatible way,2013-06-21,Merged,1252,121,43,cs ,8
+add ravenuserinstaller,2013-06-21,Merged,1251,214,15,dll csproj ,7
+High Critical Time reported when a deferred message arrives.,2014-12-16,Merged,1250,93,16,cs ,6
+Only update CorrId header if it isn't already populated,2013-06-20,Closed,1248,5,2,,1
+fixes issue #790 (Poco IAmStartedByMessages fails to start a saga),2013-06-30,Closed,1247,135,17,csproj cs ,8
+Update AzureHost IntegrationTest to include all configuration to make azure deployments straightforward,2013-06-19,Closed,1246,12,30,csdef cs config csproj ,8
+Develop,2013-06-19,Closed,1242,"365,505","245,772",gitignore cs csproj ,5
+Added support for more OSs when installing MSMQ,2013-06-18,Merged,1241,100,48,,1
+AzureMessageQueueReceiver and JsonMessageSerializer do not correctly deserialize MessageWrapper,2013-06-19,Closed,1238,1,1,,1
+Making gateway an IAdvancedSatellite,2013-06-07,Merged,1230,32,2,cs ,3
+Making gateway an IAdvancedSatellite,2013-06-07,Closed,1226,34,3,cs ,3
+Adding update lock to saga reads,2013-07-25,Closed,1225,3,1,,1
+#718 - Remove the gateway ACK call,2013-06-05,Merged,1223,281,134,cs csproj sql ,16
+Stop writing Raven port from main (NSB) installer.,2013-06-04,Merged,1222,2,6,,1
+#718 - Remove the gateway ACK call,2013-06-02,Merged,1219,77,21,cs csproj ,11
+Using new custom action to set trial date.,2013-05-30,Merged,1213,4,2,,1
+latest changes.,2013-05-30,Merged,1212,4,3,,1
+Updates in resources.,2013-05-29,Merged,1207,3,3,png ,3
+Updates ico and png. Removed Studio installer.,2013-05-27,Merged,1205,19,24,,0
+More Performance Acceptance Tests,2013-05-27,Merged,1204,74,1,,2
+Feature/develop/config cmdlets,2013-05-23,Merged,1201,160,0,csproj txt ,5
+Develop,2013-05-20,Merged,1194,5,3,,1
+Fixes #718 - Remove the gateway ACK call,2013-05-28,Closed,1189,681,66,cs csproj ,14
+Added logging to explain why an exception is being thrown,2013-06-17,Closed,1187,8,1,,1
+"Further fixes for IdForCorrelation, MessageId and CorrelationId",2013-05-17,Merged,1181,66,114,csproj ,13
+Use proper ActiveMQ Retries,2013-05-15,Merged,1176,1,1,,1
+Develop,2013-05-15,Merged,1175,4,4,,1
+Removing IdForCorrelation,2013-05-15,Closed,1173,98,58,csproj ,22
+Fixes#1065 - added ChannelType attribute to gateway,2013-05-11,Merged,1169,24,1,csproj ,4
+Replaced hard coded path in AzureConfigurationSource.,2013-05-13,Merged,1168,1,1,,1
+Removed virtual property on TransportDefinition,2013-05-04,Merged,1158,187,8,,6
+Develop,2013-05-03,Merged,1156,5,2,,1
+Updates on NServiceBus core project,2013-05-01,Merged,1149,20,994,,0
+"ActiveMQ Native transaction with FLR fixed, closes #1099",2013-05-02,Closed,1146,118,72,csproj ,11
+Fixing issue 1138,2013-04-30,Merged,1145,8,2,,2
+Fixed Memoryleak in the ActiveMQ NMS library,2013-04-30,Merged,1144,0,0,pdb ,2
+Fixing issue 1138,2013-04-30,Closed,1143,127,121,,2
+Fixing issue 1138,2013-04-30,Closed,1141,127,121,,2
+Fixing Windsor singleton registration issue (#1136),2013-04-30,Merged,1140,23,1,,2
+fixing issue #1136 and adding support for Windows ServiceBus 1.0,2013-04-30,Closed,1139,0,0,,0
+Honor routing topology being used in RabbitMQMessageSender,2013-04-29,Merged,1132,53,5,,5
+Correct error message to reference IHandleMessages,2013-04-23,Merged,1131,1,1,,1
+help.txt - correct default service name example,2013-04-23,Merged,1130,2,2,,0
+Implement convention based routing on RabbitMQ transport,2013-04-19,Closed,1125,249,36,csproj ,8
+Register all interfaces for func with Unity,2013-04-18,Merged,1122,30,3,,2
+Add cluster support to RabbitMQ transport,2013-04-23,Closed,1118,"1,533",240,DotSettings cs txt ,5
+Fixed a typo in the contribution.md,2013-04-13,Closed,1109,"195,462","268,249",gitignore cs csproj ,6
+Scheduler fix,2013-04-12,Closed,1108,25,12,csproj ,5
+add missing space to log message,2013-04-12,Merged,1107,1,1,,1
+IHandleAnyProfile and grammar change,2013-04-11,Merged,1105,13,1,csproj ,3
+Add overloads that take actions when testing sagas.,2013-04-23,Merged,1100,165,1,,2
+Add a null check to address a crash when TimeoutManager is re...,2013-04-10,Closed,1097,3,0,,1
+Small Improvements,2013-04-12,Merged,1088,20,3,cs ,4
+Added Performance tests,2013-03-28,Merged,1082,773,58,,1
+Added TestExecutionTimeout as an optional parameter for AcceptanceTest Run,2013-03-25,Merged,1075,41,9,,6
+Added execution timeout as a parameter that be set in the scenario conte...,2013-03-25,Closed,1074,8,1,,2
+Fix bios name warning,2013-03-21,Merged,1071,2,2,,1
+ActiveMQ NMSType is now set to FullTypeName instead of FullyQualifiedAss...,2013-03-21,Merged,1068,37,5,,2
+Changed VitrualTopic to include namespace to avoid name clashes,2013-03-26,Merged,1067,2,2,,2
+Added capability to omit raw xml wrapping with property name,2013-03-19,Merged,1062,107,3,,3
+Allow specifying handlers order without using First<T>,2013-04-23,Closed,1061,10,0,,1
+make Order.Types public,2013-03-16,Merged,1056,1,1,,1
+better error message for an unmapped message type,2013-03-16,Merged,1055,44,6,cs ,3
+Added new ActiveMQ.NMS client,2013-03-12,Merged,1048,0,0,pdb ,2
+SQL Server Transport Push instead of Pull,2013-09-16,Closed,1044,504,9,csproj ,4
+Allow specifying handlers order without using First<T>,2013-03-18,Closed,1038,10,0,,1
+Refactor endpoint type determination for Windows Host,2013-03-26,Closed,1033,557,128,cs config csproj DotSettings ,7
+Add an overload for Test.Initialze() that takes IEnumerable<Assembly>.,2013-02-28,Merged,1031,11,0,,1
+Do not open an NHibernate session until the saga persister needs it,2013-02-28,Merged,1026,35,74,csproj ,8
+Ensure all logger names begin with NServiceBus,2013-02-27,Merged,1022,31,31,,31
+Handler invocation cache,2013-02-28,Merged,1019,310,38,cs ,4
+Fixed issue #1012 - Transaction failures with NHibernate TimeoutStorage,2013-02-25,Merged,1013,1,0,,1
+Fixed a problem with a transaction rollback when timeout entity not found,2013-02-23,Closed,1007,1,0,,1
+Endpoint name not used when specifying Raven connection string with Url only,2013-02-26,Merged,1003,12,6,,2
+Endpoint name not used when specifying Raven connection string with Url only,2013-02-22,Closed,1000,13,7,,2
+Replaced Apache.NMS.ActiveMQ assembly by custom build,2013-02-26,Merged,992,769,51,csproj config dll pdb ,17
+Proper disposal of MD5CryptoServiceProvider,2013-02-20,Merged,989,38,28,,3
+Using defer and delete command data to delete saga unique identity. Fixe...,2013-02-17,Merged,985,3,1,,1
+Added saga timeout integration test,2013-02-13,Merged,974,163,0,cs ,2
+update Obsolete,2013-02-12,Merged,971,107,105,csproj config cs dll pdb ,18
+Fixed that Raven sessions were not disposed.,2013-02-12,Closed,970,29,7,,2
+Added Missing file,2013-02-11,Merged,967,179,2,,2
+Added some saga integration tests,2013-02-11,Merged,966,3,2,csproj ,2
+Fix for issue #949,2013-02-11,Closed,964,50,0,csproj ,3
+Fixed Transaction handling of ActiveMQ,2013-02-11,Merged,961,"1,472",777,,2
+exit instead of break??,2013-02-04,Merged,941,1,1,,1
+Support for NLog LogManager.Configuration,2013-02-04,Merged,940,169,125,,8
+Remove TimeoutMessage,2013-02-04,Merged,938,11,520,csproj cs ,12
+Added XSD for configuration file,2013-07-10,Closed,935,785,0,,0
+fix for issue #879,2013-01-29,Merged,924,24,24,,1
+Use correct setting for none transactional ActiveMQ configuration,2013-02-04,Merged,922,567,30,csproj ,10
+Improved performance of AMQ for SupressDTC and Volatile bus configurations,2013-01-25,Merged,916,317,448,csproj ps1 ,10
+Develop,2013-01-23,Merged,911,648,75,,11
+Make DataBus serializer overridable,2013-01-23,Closed,910,68,50,,4
+Added ControlMessageDecoder and Encoder for ActiveMQ,2013-01-12,Merged,888,272,15,csproj ,9
+Implemented IPublishMessages and IHandleSubscriptions for ActiveMQ transport,2013-01-10,Merged,885,462,360,config ,5
+Databus working with ActiveMQ,2013-01-10,Merged,876,754,116,config csproj ,10
+Added support for Xml Embedding into xml serialized messages. Closes #87...,2013-01-17,Closed,872,378,30,csproj ,9
+fix up comments in DateTimeExtensions,2013-01-09,Merged,868,6,6,,1
+Return if error queue already set,2013-01-09,Merged,867,4,0,,1
+Set error queue in code,2013-01-08,Closed,865,"168,275","252,636",gitignore Config exe targets md sln ,9
+Added .OnMessage<TMessage>(TMessage) to remove noise of forced message id during testing,2013-01-10,Merged,864,70,4,config cs csproj ,6
+Added .OnMessage<TMessage>(TMessage) to remove noise of forced message id during testing,2013-01-08,Closed,863,"168,331","252,637",gitignore Config exe targets md sln ,9
+Added .OnMessage<TMessage>(TMessage) to remove noise of forced message id during testing,2013-01-06,Closed,862,658,617,,1
+UnicastBus consequently uses MessageMapper for type name retrieval,2012-12-31,Merged,854,17,19,,2
+"ActiveMq Defer, Sagas, Timeout, Notifications and Scheduling running",2012-12-31,Merged,852,385,27,config csproj ,13
+Modules: A proposal for NServiceBus 5,2013-04-30,Closed,845,911,"1,368",cs csproj config sln ,10
+better obsolete doco for ConfigureComponent,2012-12-28,Closed,844,4,2,cs dll pdb ,12
+better obsolete doco for ConfigureComponent,2012-12-25,Closed,842,"165,820","252,507",gitignore Config exe targets md sln ,9
+"ActiveMq Defer, Sagas, Timeout, Notifications and Scheduling running",2012-12-30,Closed,841,"1,280",340,config csproj ,13
+Various AMQ improvments,2012-12-21,Merged,837,328,128,csproj ,5
+Handler.OnMessage now retrows inner exception in case of TargetException,2012-12-18,Merged,825,9,2,,1
+Check for XmlIgnore *before* throwing that a type is not allowed,2013-01-02,Closed,819,493,468,,1
+Added purging support for ActiveMQ,2012-12-07,Merged,802,165,39,csproj ,12
+distributor when running on same machines with workers,2013-01-02,Closed,796,0,1,,1
+Fixes#716,2012-11-26,Closed,727,20,15,,1
+Fixes #723,2012-11-27,Closed,725,181,1,,2
+Fixes #709,2012-11-23,Closed,724,144,6,csproj ,3
+Adding a queue creator for on-premise service bus support; Helps with is...,2013-04-30,Closed,717,67,1,csproj ,3
+UnicastBus.DispatchMessageToHandlersBasedOnType can result in information loss with the created TransportMessageHandlingFailedException,2012-11-26,Closed,712,7,18,,1
+Fixes #709,2012-11-01,Closed,710,325,7,csproj ,5
+Fixes #702,2012-11-26,Closed,708,59,49,,1
+Fixes #671,2012-12-10,Closed,707,127,21,cs ,4
+Fixes #671 - @ develop branch,2012-10-18,Closed,706,759,610,cs ,3
+Fixes #671,2012-10-18,Closed,705,759,610,cs ,3
+NRE on IEnumerable<T> members with null elements,2012-10-09,Merged,690,43,2,cs ,3
+NRE on IEnumerable<T> members with null elements,2012-10-09,Closed,689,"1,126","1,087",cs ,2
+Fix broken proj refs,2012-11-26,Closed,680,4,4,config ,3
+Local build script parametrizable,2012-09-20,Merged,659,6,3,,1
+Preserve exception stacktrace on failing messages,2012-09-20,Closed,658,7,1,,1
+Expanding registration options to work with Tasks,2012-11-23,Closed,645,59,26,,2
+Latest,2012-09-11,Closed,644,14,5,,1
+Fix compiler warning,2012-09-04,Closed,632,1,3,,1
+Bug fix for WIndsorObjectBuilder.ConfigureProperty method.,2012-09-04,Closed,624,16,1,,2
+Fixes #618,2012-08-28,Closed,619,1,1,,1
+Gateway channel receiver throws ArgumentException when DataReceivedOnChannel called within ambient transaction,2012-10-22,Closed,606,1,1,,1
+Fixes #599,2012-08-21,Closed,600,2,1,,1
+Mugen Injection Object Builder,2012-08-21,Closed,587,485,66,cs csproj ,4
+Fix #562: Create fluent configuration for .DisableGateway(),2012-12-06,Closed,563,175,144,,1
+Fix serializer initialization with Spring container and Azure,2013-02-11,Closed,561,48,2,csproj ,6
+#551 Added signing to NServiceBus.Testing assembly,2012-07-26,Merged,553,2,0,,1
+Using Release method for Castle Container,2012-07-25,Closed,543,149,0,,15
+I have fixed an issue with sagas in the NServiceBus.Testing project,2012-07-18,Closed,539,44,11,,2
+Removed NewActivationPropertyInjectStrategy,2012-07-17,Closed,535,7,99,csproj ,3
+Dont error when cant create queue on remote machine.,2012-07-16,Closed,523,10,1,,1
+Using SynchronizationContext.Post instead of Send which does not block c...,2012-06-26,Closed,500,1,1,,1
+Run profile handlers in order of profile list,2013-07-15,Merged,460,145,42,,2
+Fixed issue #458,2012-06-13,Closed,459,1,1,,1
+Make obsolete consistent,2012-06-01,Merged,438,58,22,cs csproj config dll pdb targets ,22
+Make obsolete consistent,2012-06-01,Closed,437,436,223,config cs ps1 csproj ,30
+Fix for #366: Upgrade to NHibernate 3.3.0.4000,2012-05-16,Merged,381,46,46,dll pdb config ,44
+Port fix for #133 from 2.5 to 3.0,2012-05-16,Merged,379,264,3,csproj ,4
+Core only nuget packages for private feeds,2012-09-06,Closed,331,48,1,,1
+Script for building local prerelease packages,2012-05-16,Merged,330,13,0,,1
+Local package script,2012-04-30,Closed,329,"3,143",948,csproj ,7
+Core only nuget packages for private feeds,2012-04-30,Closed,328,"3,176",948,csproj ,7
+Fix for AzureSagas sample logic,2012-04-12,Closed,292,1,0,,1
+Automatically configure NHibernate UnitOfWork when configuring saga persister,2012-04-11,Merged,284,40,3,csproj ,5
+Please find sagas faster by eliminating unnecessary Query (with WaitForNonStaleResults),2012-05-03,Closed,268,64,1,,1
+Allow more powerful expressions with AllAssemblies,2012-06-13,Merged,265,433,70,csproj cs ,7
+Timeout handling issues,2012-03-26,Closed,245,728,614,,3
+Overriding Raven DB Persistence in a profile handler not working,2012-07-19,Closed,244,16,14,,2
+Fixed a test with array of strings. Added array of datetimes,2012-03-22,Merged,234,11,1,,2
+Map array of ints and array of strings as serializable properties in the nhibernate saga persister,2012-03-22,Merged,233,51,8,csproj ,5
+Prevent erroneous Pub/Sub warning messages.,2012-03-21,Closed,231,3,2,,1
+Modified TimeoutRunner to execute on a background thread,2012-03-11,Merged,211,1,0,,1
+Hint how to fix NinjectObjectBuilder,2012-03-05,Closed,204,1,1,,1
+Fix to saga testing,2012-02-20,Merged,199,1,1,,1
+"When exiting a unit of work, first check for the existance of a session before saving changes",2012-02-20,Merged,198,7,1,,2
+Added ExpectNotSend and ExpectNotSendLocal to test DSL,2012-02-11,Merged,193,194,18,,3
+NHMessageModule: Don't call rollback in HandleError() since it is called outside the transaction,2012-02-01,Merged,189,9,3,,1
+Fix issues with Manufacturing OrderSaga test,2012-02-20,Closed,185,32,45,,3
+Fix issues with Manufacturing OrderSaga test,2012-02-20,Closed,180,32,45,,3
+Modifications to NServiceBus.Testing.Helper.cs (discovered when writing tests for a Saga),2012-01-17,Closed,178,18,31,,1
+JSON Optimization,2012-01-02,Merged,173,7,6,,1
+Turn off indentation in the json serializer,2012-01-01,Merged,172,1,1,,1
+Fixed raven saga persister so that it can correctly find the saga data document by id,2011-12-24,Merged,171,1,3,,1
+Force the log4net dependency to version 1.2.10,2011-12-22,Closed,170,2,2,,1
+Transaction isolation set on bus is not honored in NH transaction in UoW (2.5),2011-12-16,Merged,167,38,27,,1
+Transaction isolation set on bus is not honored in NH transaction in UoW (3.0),2011-12-16,Merged,166,27,1,,1
+Improvements to the Json serializer,2011-12-15,Merged,165,244,232,csproj ,3
+UnitOfWorkManager.End must be called inside the transaction scope,2011-11-21,Merged,159,55,52,,2
+RavenSagaPersister can now retrieve saga-entities by Id,2011-11-15,Closed,157,1,2,,2
+Exclusion of Raven types should be more specific,2011-11-14,Closed,155,1,1,,1
+CastleWindsorObjectBuilder now can build components registered after first call of build,2011-11-11,Merged,154,51,67,,6
+Minor fixes to NHibernate subscription storage,2011-11-10,Merged,152,6,2,,2
+Duplicate Identity Exception,2011-11-20,Closed,139,14,5,,1
+Fix for issue #131,2011-10-10,Merged,137,179,131,cs ,3
+A workaround for bug #133,2011-12-19,Merged,134,266,2,csproj ,4
+Added ToString method to WireEncryptedString,2011-10-04,Closed,132,9,0,,1
+V2.5 issue 128,2011-09-26,Merged,129,4,2,,1
+"Update to Azure and AppFabric SDK 1.5, nuget to latest",2011-09-15,Merged,126,"7,462",65,dll xml ,10
+start powershell script with execution policy RemotedSigned,2011-08-12,Merged,111,5,5,,3
+Fix for Issue#96,2011-08-07,Merged,101,4,1,,1
+Issue #98 addressed by changes in this branch,2011-12-09,Closed,99,86,7,csproj ,10
+Issue 95,2011-08-06,Merged,96,11,4,,1
+add lock to inmemory persisters,2011-07-18,Merged,89,24,11,,1
+NinjectObjectBuilder child container binding traversal,2011-07-06,Merged,87,3,2,,1
+updating the master solution file's project references for the host --> the 4 hosting projects,2011-07-06,Merged,84,689,668,,0
+V2.5 Incorrect deserialization of whitespaces,2011-07-07,Merged,82,31,16,,2
+Fix bug in InMemoryPersister issues #19,2011-06-20,Merged,77,2,1,,1
+Tuple support for XMLSerializer,2012-07-10,Merged,76,"1,259",258,csproj cs ,11
+Always use an NH transaction even if ambient transaction exists (2.5),2011-06-15,Merged,58,34,24,,1
+Always use an NH transaction even if ambient transaction exists,2011-06-15,Merged,57,40,30,,1
+Upgraded Castle Builder to use latest version of Castle,2011-06-04,Merged,56,"10,517","9,354",pdb xml csproj cs ,14
+Installer chokes with the StructureMapBuilder plugging INeedToInitializeSomething into itself,2011-05-30,Merged,54,1,1,,1
+Fix emptylist serializing,2011-06-11,Merged,48,97,25,,2
+Timeoutmanager utc fix,2011-07-29,Closed,47,3,3,,1
+Added testing methods to saga,2011-05-26,Merged,46,22,0,,1
+Testing additions,2011-05-26,Merged,45,71,0,,3
+Timeoutmanager utc fix,2011-05-25,Closed,44,2,2,,1
+Use upgrade lock when fetching saga from db to get blocking behavior,2011-06-15,Closed,42,2,1,,1
+Create overload OnMessage on Handler in Testing framework(now with fix lineending),2011-06-15,Closed,41,29,7,,2
+Create overload OnMessage on Handler in Testing framework,2011-05-18,Closed,40,499,477,,0
+Fixed bug in NinjectObjectBuilder,2011-05-18,Closed,39,"5,151","5,145",xml cs ,5
+Fix: Exception got thrown when deserializing an array with whitespace between the childnodes.,2011-05-10,Merged,38,95,0,cs ,3
+V2.5,2011-04-26,Merged,34,39,4,,2
+V2.5,2011-04-20,Closed,33,"28,275","8,424",sln bat suo cs csproj config ,14
+NServiceBus.Testing.Handler.ExpectNotPublish,2011-04-26,Merged,30,193,2,,3
+RavenDb Saga persistence & subscription storage,2011-04-13,Merged,29,"193,321",0,dll pdb xml XML ,55
+Upgraded Windsor to 2.5.3,2011-07-20,Closed,28,"12,787","11,639",pdb xml csproj cs ,16
+Included ninject object builder in build,2011-03-16,Merged,27,13,0,,1
+Second try ninject object builder,2011-02-18,Merged,26,"5,671",20,dll pdb ,2
+Changed to use HttpRuntime.BinDirectory for the scanning of assemblies when using WithWeb(),2011-03-10,Merged,25,4,4,,2
+Ninject Object Builder,2011-02-17,Closed,22,"5,806",141,dll pdb ,2
+exclude abstract types when searching for IConfigureThisEndpoint,2011-01-28,Closed,20,15,8,,2
+NHibernate sub. storage leaks connections,2011-03-10,Merged,18,14,7,,1
+Updating Azure SDK libraries to 1.3,2011-01-22,Merged,17,"16,173","15,721",csproj ,2
+"Updated NHibernate URL in acknowledgements text file. Also, terminated all URLs with forward slash for consistency.",2010-12-09,Merged,12,3,3,,0
+MessageMapper now populates custom attributes on derived instances,2010-11-20,Closed,10,51,2,,2
+"Saga autopersistence, added schema property to TableNameAttribute",2010-11-20,Merged,9,16,5,,4

@@ -1,0 +1,439 @@
+Add Nested Types support to Swagger Generator,2019-11-04,Merged,1488,169,21,,3
+tests: Remove workaround for SR-11012,2019-09-17,Merged,1486,3,11,,1
+fix: Correctly register Codable routes with trailing `:id`,2019-09-06,Merged,1485,242,118,,3
+fix: Correctly register Codable routes with trailing `:id`,2019-09-06,Merged,1484,242,118,,3
+Move to public the `SwaggerDocument` object of the router.,2019-09-17,Merged,1483,44,5,,3
+feat: Ability to limit request size and connection count,2019-10-09,Merged,1481,441,54,,7
+chore: Generate API docs for Kitura 2.8,2019-08-13,Merged,1479,"1,878",126,,4
+add ios availability,2019-08-01,Merged,1475,3,3,,1
+ci: Enable xcode11 build,2019-07-17,Merged,1474,4,5,,1
+Cherry-pick of Swift 5.1 support (#1466) for Kitura 2.7,2019-07-08,Merged,1472,34,13,swift ,7
+Remove BluePic from Kitura landing page,2019-07-04,Merged,1471,3,3,,1
+"ci: Update Travis for 2.6 branch, replace dev with 5.0.1",2019-07-02,Merged,1469,3,3,,1
+A convenience API to create and add cookies.,2019-08-02,Merged,1468,212,36,swift ,3
+Swift 5.1 support,2019-06-26,Merged,1466,34,13,swift ,7
+Add a StaticFileServer option to fallback to the index page,2019-08-01,Merged,1464,107,4,,3
+feat: Define a Kitura.logTo() function for logging via swift-log,2019-06-06,Merged,1460,57,10,,5
+Add option to only listen on one address,2019-06-04,Merged,1453,42,34,,7
+docs: Clarify that Date encoding must precede route registration for Swagger,2019-05-20,Merged,1451,"2,718","2,382",swift html ,6
+Ensure StaticFileServer tests pass when edited dependency,2019-05-14,Merged,1449,30,5,,1
+ci: Update to Swift 5.0.1,2019-04-29,Merged,1446,5,5,yml ,2
+"Revert ""Use KituraNIO 1 on Swift 4 (#1442)""",2019-04-18,Merged,1443,3,27,,3
+Use KituraNIO 1 on Swift 4,2019-04-17,Merged,1442,27,3,,3
+Update/add font content types,2019-04-16,Merged,1441,1,1,,0
+Add the NIO switch to the 4.x.x Package.swift files,2019-04-12,Closed,1440,27,3,,3
+Require TypeDecoder 1.3 on Swift 4.0 and 4.1,2019-04-04,Merged,1439,2,2,,2
+Update to Swift 5,2019-04-04,Merged,1436,75,38,yml swift ,9
+Enable all tests on Linux,2019-04-26,Merged,1435,91,106,,24
+Support Unix domain sockets,2019-04-04,Merged,1434,311,45,swift ,6
+Enable Kitura to exit with a non-zero exit code,2019-05-20,Merged,1430,110,2,,2
+Maintain CI testing for 14.04,2019-04-01,Merged,1429,3,3,,1
+tests: Remove force-unwraps,2019-03-21,Merged,1426,8,4,,1
+ci: Update to Swift 4.2.3,2019-03-19,Merged,1424,4,4,yml ,2
+add ios availability,2019-03-27,Closed,1421,5,3,,1
+Bug fixes for SwaggerGenerator,2019-03-18,Merged,1420,458,47,,3
+[2.6] fix: Remove hashvalue for swift >= 4.2 (#1400),2019-03-01,Merged,1410,15,6,,1
+Use ephemeral ports for FastCGI testing,2019-02-11,Merged,1406,1,2,,1
+Fix crash when empty MediaType is passed in request (#1404),2019-02-11,Merged,1405,6,1,,2
+Fix crash when empty MediaType is passed in request,2019-02-11,Merged,1404,6,1,,2
+Update to Swift 4.2.2 and official Docker images,2019-02-14,Merged,1403,15,13,yml ,2
+perf: Remove NSString from Accepts and cookies,2019-03-06,Merged,1402,51,12,,2
+perf: Avoid NSString functions in query params,2019-02-13,Merged,1401,51,17,,2
+fix: Remove hashvalue for swift >= 4.2,2019-02-19,Merged,1400,15,6,,1
+backport: install libressl when building with Kitura-NIO(macOS),2019-02-04,Closed,1399,1,1,,1
+Use ephemeral ports for FastCGI testing,2019-01-31,Merged,1396,1,2,,1
+Use UTF8View to create Data,2019-02-05,Merged,1395,12,28,,4
+Avoid copy in RouterResponse.send(str),2019-01-29,Merged,1394,6,7,,1
+Consistent ordering for OpenAPI document elements,2019-01-25,Merged,1393,20,5,,1
+macos: install libressl when building with Kitura-NIO,2019-01-21,Merged,1391,1,1,,1
+[DO NOT MERGE] Default to Kitura-NIO for networking,2019-04-04,Closed,1390,17,17,swift ,5
+Log error in StaticFIleServer init if passed a non-directory path,2019-01-22,Merged,1389,18,1,,1
+Update API documentation for Kitura 2.6,2019-01-07,Merged,1383,"1,568","1,502",,4
+tests: Use ephemeral ports in Kitura tests,2019-01-10,Merged,1382,28,17,yml swift ,4
+Maintain the URL query when static file server redirects,2019-05-23,Merged,1381,43,7,,4
+fix: Support TLS in OpenAPI specification (#1378),2018-12-14,Merged,1380,13,19,,3
+Fix: Add locking for Kitura servers (#1377),2018-12-14,Merged,1379,9,0,,1
+fix: Support TLS in OpenAPI specification,2018-12-14,Merged,1378,13,19,,3
+Fix: Add locking for Kitura servers,2018-12-13,Merged,1377,9,0,,1
+Remove dictionary mapping in tests,2018-12-10,Merged,1376,8,14,,2
+Build against Swift 5,2019-01-11,Merged,1374,32,47,swift ,7
+Handle optional query parameters correctly with typesafe middlewares,2018-11-29,Merged,1373,465,2,,1
+Use an optimal way to get the UTF8 length,2018-11-28,Merged,1369,1,1,,1
+Cache URLParser objects for reuse,2018-12-05,Closed,1358,4,1,,1
+Update to Swift 4.2.1,2018-11-13,Merged,1357,1,2,yml ,2
+fix: StaticFileServer request path extraction (#1353),2018-11-06,Merged,1355,39,1,html ,3
+Add Ubuntu 18.04 and OpenSSL 1.1 to Travis,2018-11-07,Merged,1354,12,13,sh ,2
+[Fix] StaticFileServer request path extraction,2018-11-05,Merged,1353,39,1,html ,3
+Feat: Make request/response decoder/encoder public,2018-11-21,Closed,1351,59,5,,3
+Made TypeSafeMiddleware initialize first in codable routes,2018-12-18,Merged,1350,266,252,,0
+Test: CustomCoder test compares dates instead of Strings,2018-11-15,Merged,1349,18,4,,1
+fix: Correct swagger generation for routes returning an id,2019-02-14,Merged,1347,220,94,,0
+Document standard Kitura responses in generated swagger,2019-02-13,Merged,1346,72,30,,2
+FileResourceServer must be explicitly enabled when initializing Router,2018-10-15,Merged,1344,21,9,,2
+Don't enable FileResourceServer if handlers exist on the router.,2018-10-03,Closed,1343,16,10,,2
+Update to full Swift 4.2 mode,2018-09-28,Merged,1340,126,11,yml swift ,5
+Improve logging for SwaggerGenerator,2018-10-11,Merged,1339,110,82,,1
+Support Swift 4.2,2018-09-27,Merged,1338,6,6,swift ,2
+Support array response types in generated swagger,2018-09-18,Merged,1335,381,248,,5
+Handle optional query parameters correctly with typesafe middlewares,2018-09-19,Merged,1334,465,2,,1
+Fix: Implemented Conditional GET using etags,2018-12-13,Merged,1333,9,4,,2
+fix: Ensure input types are modelled by SwaggerGenerator,2018-09-12,Merged,1331,32,13,,1
+Docs: Add docs for Top level classes,2018-09-17,Merged,1330,272,190,,2
+updated router and routerRequest docs,2018-09-11,Merged,1327,928,610,,4
+Update API documentation,2018-08-31,Merged,1326,"3,904",272,html ,10
+Allow users to switch to using the NIO port of KituraNet,2018-08-30,Merged,1324,59,10,swift sh ,4
+Quieten noisy debug message in Swagger generator,2018-08-16,Merged,1323,1,1,,1
+Swagger generation code tidyup,2018-08-16,Merged,1322,181,176,,1
+Support for query parameters in generated swagger,2018-08-16,Merged,1321,765,152,,3
+Refactor swagger generation tests,2018-08-16,Merged,1320,427,514,,0
+perf: only call addCookies() if there are cookies,2018-08-15,Merged,1319,4,1,,1
+[kitura-nio]Allow pfx files on Darwin,2018-08-13,Merged,1318,12,7,yml swift ,4
+Improve type handling for id params in generated swagger,2018-08-14,Merged,1316,308,126,,0
+Changed redirect test to local redirect,2018-08-07,Merged,1315,13,4,,1
+Content type,2018-08-24,Merged,1314,270,0,,3
+Add optional String function to allow passing nil Strings,2018-08-08,Merged,1313,72,0,,2
+Codable parameter inconsistency changes,2018-10-17,Merged,1310,112,22,,3
+feat: Add Content-Type to custom encoder/decoder,2018-08-30,Merged,1309,577,112,,4
+[WIP]Allow users to opt for KituraNIO,2018-08-19,Closed,1308,194,7,,22
+Update Kitura landing page,2018-07-23,Merged,1305,230,356,svg html ico ,9
+Query params support for swagger,2018-08-28,Closed,1304,"1,363",650,,1
+Fix a false failure with IPv6,2018-07-03,Merged,1303,1,1,,1
+Fix broken link on the docs badge,2018-06-26,Merged,1300,1,1,,0
+update: Swift 4.1.2 as default and newer Swift 4.2 Travis builds,2018-06-25,Merged,1299,6,6,yml ,2
+feat: Public TypeAliases,2018-08-28,Closed,1297,132,0,,3
+Update the SSL/TLS doc link,2018-06-05,Merged,1296,1,1,,1
+Add Xcode 10 beta to CI,2018-08-16,Merged,1295,2,2,,1
+id type now set to string or integer,2018-08-28,Closed,1294,308,126,,0
+Swagger: don't report HTTPS support,2018-06-05,Merged,1293,2,3,,2
+fix: added escaping to result closure,2018-06-01,Merged,1292,30,30,,1
+Swagger: register type-safe middleware routes,2018-06-01,Merged,1291,39,0,,1
+Swagger: handle models with only optional properties,2018-05-31,Merged,1290,55,16,,3
+Swagger: improve TypeDecoder failure handling,2018-05-31,Merged,1289,39,25,,1
+Update Swift 4.2 snapshot,2018-05-30,Merged,1288,2,2,,1
+Remove unnecessary function parameters,2018-05-30,Merged,1287,22,130,,3
+Update Jazzy documentation,2018-06-01,Merged,1286,"9,832","2,117",,2
+Allow Codable success responses with no data,2018-05-30,Merged,1285,79,11,,2
+feat: Add optional QueryParams in closure for  get and delete,2018-05-30,Merged,1284,190,2,,2
+fix: remove trailing Whitespace,2018-05-30,Merged,1283,168,187,,0
+Update KituraContracts to 1.0.0,2018-05-30,Merged,1282,1,1,,1
+generate swagger,2018-05-30,Merged,1281,"1,736",2,,3
+Disable SSL verification using PKCS#12-formatted certificates,2018-06-01,Closed,1280,56,56,sh ,26
+Disabled SSL verification using PKCS#12-formatted certificates,2018-05-25,Closed,1279,56,56,sh ,26
+Serve internal resources using FileResourceServer ensuring path is standardized.,2018-05-23,Merged,1278,171,130,,2
+Serve internal resources using FileResourceServer ensuring path is standardized.,2018-05-22,Merged,1277,169,130,,4
+Serve internal resources using FileResourceServer ensuring path is standardized.,2018-05-22,Merged,1276,167,130,,3
+Serve internal resources using FileResourceServer ensuring path is standardized.,2018-05-22,Merged,1275,169,134,,2
+Type safe middleware,2018-05-29,Merged,1274,"2,704",10,,4
+Serve internal resources using FileResourceServer ensuring path is standardized.,2018-05-22,Merged,1273,169,134,,2
+Issue.843 option2 kitura 2.3,2018-05-21,Merged,1272,171,135,swift ,3
+Ensure all routes are processed,2018-05-21,Closed,1270,101,114,,3
+"Revert ""Relax Codable Router type requirements""",2018-05-16,Merged,1269,55,189,,1
+Add type safe rendering methods,2018-05-21,Merged,1268,287,10,,4
+Typealias RequestError to avoid KituraContracts import,2018-05-11,Merged,1267,89,0,,3
+Update to Swift 4.1.1,2018-05-09,Merged,1266,2,2,yml ,2
+Custom success status codes for Tuple return types,2018-05-01,Merged,1264,15,3,,2
+Add a swift 4.2 build to the CI,2018-05-23,Merged,1263,8,0,,1
+Fix: URLEncoded forms treat empty string as nil,2018-05-04,Closed,1262,20,2,,2
+update bodyparser docs example,2018-05-01,Merged,1260,34,7,,1
+Add a userInfo property to RouterResponse,2018-05-09,Merged,1259,39,1,,3
+Add asRaw to ParsedBody,2018-04-30,Merged,1258,13,1,,2
+Raw if no content,2018-05-01,Closed,1257,48,13,,3
+Send JSON decoding error messages to clients in codable routes,2018-05-15,Merged,1256,220,2,,6
+Make `RouterResponse.request` public so it can be used in extensions,2018-04-25,Closed,1255,1,1,,1
+Allow POST success status codes besides 201 (CREATED),2018-05-01,Merged,1254,48,4,,2
+Implementation of CodableResultClosure with QueryParameters,2018-05-03,Merged,1253,70,3,,2
+Update to Kitura-net 2.1.0 and relax minor constraint,2018-04-17,Merged,1252,14,15,swift ,2
+Update Router Templating API docs,2018-04-17,Merged,1250,12,3,,1
+Refresh jazzy doc,2018-04-17,Merged,1248,"1,037",627,,5
+Move mergeParam docs under init(),2018-04-17,Merged,1246,24,23,,1
+fix: make StaticFileServer open class,2018-04-17,Merged,1245,2,2,,1
+Move mergeParameters docs to correct location,2018-04-13,Closed,1243,575,243,html ,6
+Relax Codable Router type requirements,2018-05-10,Merged,1242,189,55,,1
+Swift 4.1,2018-04-12,Merged,1240,5,4,yml ,3
+Allow [String: [String]] dictionaries to be resultant of parsing URL-encoded strings,2018-05-03,Merged,1238,157,22,,7
+Store URL encoded key-value pairs as [String: [String]],2018-05-03,Closed,1237,21,20,,7
+CodableRouterDelegate with custom coding options,2018-04-03,Closed,1236,180,22,,3
+Url encoded forms,2018-03-13,Merged,1234,11,18,,2
+Fix for failure to call callbacks leading to memory leaks,2018-03-20,Merged,1232,8,1,,2
+Update index.html to reference Swift-Kuery-ORM,2018-03-06,Merged,1231,2,2,,1
+Support Swift 4.1,2018-03-06,Merged,1230,14,6,swift ,2
+feat: add route for Url encoded forms,2018-03-20,Merged,1228,73,7,,4
+fix: Map ORM errors to internalServerError,2018-03-02,Merged,1227,2,0,,1
+Fix: badge in README to macOS from OS X,2018-03-02,Merged,1225,1,1,,0
+Update SSLConfig API doc,2018-03-01,Merged,1224,"1,995","1,375",html ,2
+feat: Add codable identifier arrays,2018-03-20,Merged,1223,155,11,,3
+Refactor CodableRouter to ease code reuse,2018-02-28,Merged,1222,274,340,,0
+Custom JSONEncoder for Router,2018-03-19,Closed,1221,73,13,,3
+calculateExtension now appends path extension using URL.appendingPath…,2018-02-09,Merged,1220,5,7,,1
+Allow POST success status codes besides 201 (CREATED),2018-03-14,Closed,1218,10,8,,1
+Bridge KituraNet.HTTPStatusCode,2018-03-16,Merged,1217,"2,127",70,swift html ,11
+Convert raw routing query parameters to QueryParam object,2018-05-08,Merged,1215,34,4,,2
+Add RequestError body codable,2018-02-21,Merged,1214,673,495,,3
+revert recent breaking changes to send,2018-01-27,Merged,1213,55,32,,4
+Updates to Contributions.MD and Templates,2018-01-29,Merged,1211,90,20,,0
+Fixing bug for multiple parameter handlers,2018-01-25,Merged,1210,81,1,,2
+Added documentation comment related to HTTPStatusCode,2018-04-17,Closed,1208,1,0,,1
+API docs changes,2018-02-20,Merged,1206,324,152,swift ,11
+Fix compile error on Swift 4.0.0,2017-12-20,Merged,1202,6,1,,1
+Revert and redo warning fix,2017-12-19,Closed,1201,0,0,,0
+Print error logs before callback,2018-01-10,Merged,1199,5,0,,1
+Update to swift 403,2018-01-09,Merged,1198,3,3,yml ,3
+update Jazzy docs,2018-01-29,Merged,1195,448,187,swift ,3
+Change codable deletes to return noContent,2017-12-12,Merged,1193,4,4,,2
+Kitura Evolution #0002 & #0003,2018-01-09,Merged,1190,755,314,,4
+Issue.488 - Updating Kitura Docs,2018-05-01,Closed,1189,"2,176",968,swift ,7
+Finalizing Range Requests implementation,2017-12-12,Merged,1187,287,38,,5
+Improve BodyParser API documentation,2017-11-20,Merged,1186,477,171,html ,9
+updated kitura-net version and addressed compilation warnings in test…,2017-11-18,Merged,1185,6,6,,4
+Uses Kitura-net 2.0.0,2017-11-17,Closed,1184,1,1,,1
+Adding Slack image for the Kitura server landing page,2017-11-16,Merged,1180,0,0,,1
+Updated server landing index.html page to reference latest code and tutorials,2017-11-15,Merged,1179,27,19,png ,2
+Add NOTICES file for use of range-parser in RangeHeader.swift,2017-11-17,Merged,1178,26,0,,0
+Migrate to swift 4.0.2,2017-11-16,Merged,1177,22,22,yml swift ,13
+Allow non-array Codables in get without id,2017-11-17,Merged,1176,122,33,,2
+Enable one test for range requests,2017-11-13,Merged,1175,2,3,,1
+Added array support to query params.,2017-11-13,Merged,1174,59,3,,2
+Update isContentTypeJson method,2017-11-10,Merged,1173,8,8,,2
+Rebranding docs,2017-11-06,Merged,1168,2,2,,1
+Remove Swift 3.1.1 Support,2017-10-26,Closed,1167,253,882,pins swift ,11
+feat: allow POST request to return an Id via Location header,2017-10-26,Merged,1166,108,1,,2
+Expose allowPortReuse as a configuration option (#1158),2017-10-25,Merged,1165,9,2,,1
+Add and use simple path join function,2017-10-26,Merged,1164,42,8,,2
+Adds additional Codable Apis,2017-10-25,Merged,1163,55,53,,4
+Expose document root dir used by StaticFileServer,2017-10-26,Merged,1162,10,4,,2
+Implement Range Requests,2017-11-06,Merged,1161,643,11,,5
+Changes Body Parser to hold [String: Any] json obejcts,2017-10-17,Merged,1160,8,4,,3
+Expose allowPortReuse as a configuration option,2017-10-24,Merged,1158,9,2,,1
+Remove SwiftyJSON Dependency,2017-10-13,Merged,1157,733,212,,3
+Updates travis to swift 4.0 Release,2017-10-09,Closed,1155,3,3,,1
+Swift 4,2017-09-14,Merged,1153,312,168,swift sh ,10
+Allow max Keep-Alive requests to be configurable,2017-09-14,Merged,1148,6,1,,1
+Return predictable result for identical parameters for accepts(header:types),2017-08-22,Merged,1145,17,14,,1
+Add Travis,2017-08-17,Merged,1142,31,8,yml swift ,5
+"Add parameter, URLParameterParser, and RequestContext tests",2017-08-16,Merged,1141,95,3,swift ,3
+Add support for accessing files when running Kitura on iOS,2017-08-15,Merged,1139,19,2,,2
+Add Swift 4 env var to Travis,2017-08-07,Merged,1137,4,4,yml ,2
+Fix broken link to TODO sample,2017-07-21,Merged,1129,1,1,,1
+Add Xcode9 and update to 6-29 snapshot on travis #1121,2017-07-05,Merged,1126,7,7,,1
+Swift 4 fixes and add travis builds,2017-06-27,Merged,1124,14,16,yml swift sh ,5
+Swift 4 support and add travis builds,2017-06-27,Closed,1123,77,54,sh swift ,11
+Implement setting template engines for sub-routers,2017-06-26,Merged,1120,213,28,,6
+added calling setRootPaths on template engines when viewsPath changes,2017-06-13,Merged,1119,26,1,,2
+take default template engine extension in consideration for passing templateName,2017-06-13,Merged,1118,1,1,,1
+Added calling new Kitura-TemplateEngine methods,2017-06-08,Merged,1112,5,16,,2
+Clarify what type of password required for SSL config on macOS. Make …,2017-07-25,Merged,1108,1,1,,1
+NSRegularExpression Typealias change,2017-05-31,Merged,1107,18,32,,5
+Eliminate swift lint errors,2017-05-16,Merged,1101,133,146,swift ,7
+Serve static content,2017-04-30,Merged,1089,5,5,,1
+#1075 Add travis ubuntu 16.04 build,2017-04-25,Merged,1084,20,6,sh ,2
+IBM-Swift/Kitura#1076 added options parameter to RouterRespon…,2017-04-20,Merged,1078,"4,050","5,638",html ,5
+#1069 Replace port 8090 with 8080,2017-04-19,Merged,1077,4,4,vagrantfile ,2
+Cleanup some code,2017-04-17,Merged,1072,12,10,,3
+Fix jazzy doc HTML for mergeParameters; re-generate jazzy docs,2017-04-13,Merged,1068,139,114,html ,23
+#1056 - Add test for Linux vs Mac same test count. Randomize Linux test run order.,2017-04-11,Merged,1066,130,18,,5
+Set statusCode on invokedSend,2017-04-05,Merged,1058,46,2,,2
+Change the way server startup failure is forced to use illegal ports.,2017-04-02,Merged,1054,14,26,,1
+Add a check for Kitura being under .build/checkouts,2017-04-03,Merged,1053,23,11,,2
+Swift 3.1 build updates,2017-03-28,Merged,1046,16,5,yml pins swift ,5
+Test large gets and posts on SSL and non-SSL,2017-03-28,Merged,1044,78,5,,2
+Conditional Swift 3.1 support,2017-03-16,Merged,1035,70,59,,7
+IBM-Swift/Kitura#1016 Add unregister Bool parameter to Kitura.stop(),2017-03-08,Merged,1028,304,144,html ,16
+Unify query string parsing for 'RouterRequest' and 'BodyParser',2017-03-03,Merged,1026,54,41,,3
+Add new APIs for sending JSON that don't involve SwiftyJSON.JSON,2017-03-08,Merged,1025,435,67,html ,10
+Add support for Range HTTP request header on static content,2017-11-13,Closed,1020,363,10,,2
+Make sure Response is closed at deinit in case router handlers do not call end() or next(),2017-02-15,Merged,1010,83,27,,2
+Initialize Log.logger once across all tests,2017-02-07,Merged,998,5,1,,1
+#982 #962 Avoid forced unwrapping in tests and tests with/without SSL,2017-01-26,Merged,987,246,235,,5
+Enable Template Engines to take an optional options parameter,2017-01-25,Closed,977,142,6,,3
+"If the pattern is a simple String, do a String compare and not ReguarExpresion match",2017-01-23,Merged,975,103,29,,3
+State guards for RouterResponse end() and send() functions and use SSL tests,2017-01-26,Merged,973,188,144,,8
+Refactor unit tests to permit stored properties in common test scaffolding,2017-01-17,Merged,971,162,41,pem pfx ,18
+Allow developer to point static file server to system root. (#936),2017-01-17,Merged,969,5,1,,2
+Update vagrantfile to Swift 3.0.2,2017-01-17,Merged,968,4,4,,1
+IBM-Swift/Kitura#962 Fix SSLService crashes and refactor and add tests,2017-01-17,Closed,964,286,53,pem pfx ,12
+Implementation of Issue 958,2017-01-09,Merged,961,83,3,,2
+Remove use of String.CompareOptions.regularExpression because of memory leak,2017-01-08,Merged,956,12,2,,1
+"IBM-Swift/Kitura#951 Remove regex for matching accept headers, fix wrong specs ...",2017-01-05,Merged,954,89,21,,3
+Updated Ray Wenderlich official Swift Style Guide Link. Removed Swift…,2017-01-03,Merged,953,1,1,,0
+Updated link for Swift 3 Style Guidelines,2017-01-02,Closed,952,1,1,,0
+Improve test coverage for Kitura,2016-12-27,Merged,949,212,11,,9
+Remove dummy content type handling code on Linux,2016-12-25,Merged,946,0,45,,1
+Issue 942: Lazy parsedURL for better performance,2016-12-22,Merged,943,24,13,,5
+Update to 1.4 of TemplateEngine,2016-12-21,Merged,941,1,1,,1
+Customized Swift@IBM standard .swiftlint.yml file and fixed issues to achieve 0 violations,2017-01-05,Merged,934,277,326,swift ,12
+"Added test case for uncovered FileResourceServer code, and made minor fixes to FileResourceServer",2016-12-14,Merged,931,15,4,,2
+Add server tests for Kitura.swift,2016-12-14,Merged,929,142,16,,4
+Added RawBodyParser for BodyParser default parsing method (#908).,2016-12-13,Merged,927,66,3,,3
+Break request/response retain cycle. Intended to help #879,2016-12-11,Merged,926,14,2,,1
+Remove .gitmodules,2016-12-09,Merged,925,0,0,,1
+Parameterize parameters to Package-Builder,2016-12-08,Merged,920,1,1,,1
+Added 2 new TemplateEngine tests,2016-12-13,Merged,919,50,13,,3
+Added test for isContentType(),2016-12-06,Merged,913,28,11,,1
+Add test case for template engine functions in Router.swift,2016-12-06,Merged,912,87,1,,2
+Eliminate potential reference loops within RouterResponse lifecycle functions,2016-12-06,Merged,911,17,0,,1
+Reduce conditional nesting in RouterRequest.queryParameters,2016-12-06,Merged,910,17,17,,1
+Deprecate urlComponents because of memory leak and compute it when needed,2016-12-14,Merged,904,38,26,,5
+IBM-Swift/Kitura#883 Rewrite cookie parsing implementation,2016-12-15,Merged,899,94,96,,3
+Remove submodule,2016-12-01,Merged,896,1,36,yml Makefile Package-Builder ,4
+Expose cipher suite for SSL handshake,2016-12-01,Merged,890,6,6,,1
+URL query parameters parsing. Subscript for request body.,2018-01-11,Closed,889,"1,647",16,,3
+Add call site line number to XCTestExpectation description and…,2016-11-29,Merged,887,26,17,swift ,2
+"Attempt to fix #879: Once we've called the lifecycle methods, clear t…",2016-12-06,Closed,886,3,0,,1
+Added codecov and codebeat badges to README,2016-12-05,Merged,884,3,0,md ,1
+Adjusted send(json:) to log a warning if conversion fails.,2016-11-29,Merged,882,3,1,,1
+"Removed ""Newline character at the end of the file"" from Code Conventions document",2016-11-24,Merged,881,0,1,,0
+IBM-Swift/Kitura#872,2016-11-27,Merged,880,55,2,html ,5
+Decode percent encoded string parameters,2016-11-25,Merged,878,131,29,,4
+Modified MultiPartBodyParser so that it reads a filename if present,2016-11-21,Merged,871,12,4,,3
+Issue865,2016-11-18,Merged,867,9,20,,1
+IBM-Swift/Kitura#863 simplified code in KituraTest.swift,2016-11-17,Closed,864,14,22,,1
+Include full URL in RouterRequest and deprecate url Strings and URLParser in favour of URLComponents,2016-11-29,Merged,859,54,58,,6
+Fix issue with allowPartialMatch,2016-11-23,Merged,850,782,38,,3
+Router .parameter method implementation,2016-11-16,Merged,849,287,12,swift ,7
+IBM-Swift/Kitura#254 updated according to swift3 branch,2016-11-14,Merged,847,1,2,,0
+"IBM-Swift/Kitura#837 Fix issue with mounting on ""/""",2016-11-14,Merged,845,213,94,,2
+IBM-Swift/Kitura#836 Switch out deprecated server.listen calls and re…,2016-11-10,Merged,844,20,4,,1
+Add mergeParams support and more unit tests https://github.com/IBM-Sw…,2016-11-09,Merged,838,261,19,,5
+Update to Swift 3.0.1,2016-11-03,Merged,834,4,4,swift ,2
+Added back the ignore = all for the gitmodule file,2016-11-04,Merged,831,1,0,,1
+"Added favicon for static resources, web browsers on Linux intermittently cannot find favicon",2016-11-01,Merged,826,1,0,ico ,2
+Easier access to ParsedBody elements,2016-11-01,Merged,825,83,32,,2
+Use server listener in test cases,2016-11-16,Merged,824,20,9,,1
+Removed the $TRAVIS_BRANCH from the travis file,2016-10-28,Merged,819,1,1,,1
+Issue 811,2016-10-25,Merged,815,28,18,,2
+Avoid converting JSON serialized Data to String and back to Data again.,2016-10-13,Merged,807,7,3,,1
+Added import Foundation,2016-10-07,Closed,800,2,0,,0
+IBM-Swift/Kitura#782 Add @discardableResult,2016-10-03,Merged,787,1,0,,1
+fix 404 link for fast-cgi in README.md,2016-10-03,Merged,777,1,1,,0
+Remove HTTP.statusCodes,2016-09-26,Merged,771,1,3,,1
+Automatically submitted PR for migration to 1.0.0,2016-09-22,Merged,770,2,2,,1
+Add link to documentation and update list of samples,2016-09-22,Merged,769,20,5,html ,2
+Automatically submitted PR for updated generated API documentation for 1.0.0,2016-09-22,Merged,768,"1,180",236,,11
+Issue741,2016-09-21,Merged,765,105,14,,4
+Convert from String to UTF-8 without a Data struct,2016-09-21,Merged,763,7,2,,1
+Support SSL,2016-09-20,Merged,760,87,3,,2
+Issue738,2016-09-21,Merged,759,56,6,,2
+PR for testing - not to be merged - returned to original version,2016-09-19,Closed,757,880,194,md Makefile swift sh ,5
+PR for testing - not to be merged,2016-09-19,Closed,756,883,197,md Makefile swift sh ,5
+PR for testing - not to be merged,2016-09-19,Closed,755,883,197,md Makefile swift sh ,5
+"Issue 739, added script to generate verb tests, and its generated test. Changed Router.elements to internal",2016-09-19,Merged,753,880,194,md Makefile swift sh ,5
+README: Clarify Optionality of adding Logger,2016-09-22,Closed,752,4,2,,0
+Automatically submitted PR for updated generated API documentation for 0.32.0,2016-09-18,Merged,751,114,136,,22
+Automatically submitted PR for updated generated API documentation for 0.32.0,2016-09-18,Closed,750,114,136,,22
+Automatically submitted PR for migration to 0.32.0,2016-09-18,Closed,749,114,136,,22
+PR for migration to 0.32.0,2016-09-15,Merged,742,2,2,,1
+IBM-Swift/Kitura#739 Add tests,2016-09-18,Merged,740,152,4,,2
+Update HeadersIndex typealias to match change in Kitura-net,2016-09-22,Closed,737,1,1,,1
+Renaming KITURA_CI_BUILD_SCRIPTS_DIR to BUILDER_SCRIPTS_DIR,2016-09-14,Merged,735,1,1,,1
+Remove dependency on Kitura-sys,2016-09-12,Merged,733,2,5,,4
+IBM-Swift/Kitura#137 Integrate codecov.io,2016-09-29,Closed,730,63,4,md swift sh ,4
+Automatically submitted PR for migration to 0.30.0,2016-09-08,Merged,728,7,7,swift md html vagrantfile ,5
+Swiftlint autocorrect,2016-09-06,Merged,723,124,180,swift ,18
+Issue 714,2016-09-06,Merged,721,181,4,html ,4
+Fix Kitura Header tests,2016-09-05,Merged,720,7,7,,1
+Update the API documentation for Kitura,2016-09-05,Merged,719,"20,024","2,046",sh swift ,8
+URL query parameters parsing,2016-11-29,Closed,707,93,56,swift ,8
+Automatically submitted PR for migration to 0.28.0,2016-08-29,Merged,704,14,33,md vagrantfile ,2
+Migration 0823,2016-08-28,Merged,702,161,196,swift sh ,9
+Reformatting code with swiftlint autocorrect,2016-09-05,Closed,700,124,180,swift ,18
+Update .travis.yml to support newer Swift snapshots,2016-08-24,Merged,698,2,2,,1
+Issue 654: Add Kitura.start() and Kitura.stop() and use in KituraTest,2016-08-23,Merged,696,37,9,,2
+Updated the helium logger version in README,2016-08-19,Merged,694,1,1,,0
+URL matching fix for middleware,2016-08-15,Merged,688,190,147,swift ,4
+Automatically submitted PR for migration to 0.26.0,2016-08-11,Merged,684,2,2,,1
+Automatically submitted PR for migration to 0.26.0,2016-08-11,Closed,683,1,1,,1
+Updated Vagrant to 6/20,2016-08-09,Merged,677,2,2,,1
+IBM-Swift/#581 Now able to get port number,2016-08-17,Merged,676,12,0,swift ,2
+Renamed the Kitura-Build repo to Package-Builder,2016-08-11,Merged,674,11,13,yml Kitura-Build Makefile Package-Builder md ,5
+Migration 0725,2016-08-08,Merged,671,168,356,swift md ,12
+Making sure we get the latest code from Kitura-Build,2016-08-08,Merged,670,2,5,Makefile ,2
+Making sure we get the latest code from Kitura-Build,2016-08-04,Closed,669,3,9,Makefile ,2
+IBM-Swift/Kitura#662 Added a logger to the tests,2016-08-01,Merged,665,61,2,,8
+Simplifying the travis file,2016-08-01,Merged,660,1,4,,1
+Improved the directions for installing libDispatch,2016-07-29,Merged,659,11,2,,0
+Fixes #657 so that the instructions are to create an executable,2016-07-29,Merged,658,1,1,,0
+Issue 254,2016-07-26,Merged,637,17,2,,0
+Issue 254,2016-07-25,Closed,636,"1,003",2,,0
+Cleanup for API doc generation,2016-07-22,Merged,630,212,461,,9
+Change test to be unambiguous,2016-07-18,Merged,622,1,1,,1
+Enabled FastCGI Support in Kitura,2016-07-20,Merged,619,159,1,swift ,1
+Enabled FastCGI Support in Kitura,2016-07-17,Closed,618,49,1,swift ,1
+IBM-Swift/Kitura#611,2016-07-28,Merged,613,278,137,txt Makefile swift sh ,5
+IBM-Swift/Kitura#611,2016-07-15,Merged,612,357,228,txt Makefile swift sh ,4
+Search backwards for period in filename. Fixes #605,2016-07-15,Merged,610,25,1,,2
+Migration 0620,2016-07-15,Merged,609,436,131,yml Kitura-Build swift md ,11
+IBM-Swift/Kitura#505 added Lifecycle struct and a variable,2016-07-14,Merged,608,19,15,,1
+Issue 505,2016-07-14,Merged,607,248,292,,4
+Issue 588,2016-07-19,Merged,603,90,6,,3
+Add JSONP support,2016-07-13,Merged,602,201,1,,3
+IBM-Swift/Kitura#577 in BodyParser check if body is already parsed,2016-07-13,Merged,601,50,17,,2
+Change Kitura branch in vagrantfile to master,2016-07-06,Merged,591,1,1,,1
+Forward port on Docker host to the container,2016-07-05,Merged,584,2,2,,0
+IBM-Swift/Kitura#417 Exploit the new waitOnListeners API in KituraNet.HTTPServer,2016-07-05,Merged,583,2,2,,2
+Refactored Kitura-Net HTTPServerDelegate to ServerDelegate,2016-07-10,Merged,582,4,4,,3
+Improve Linux unit testing using Docker,2016-07-04,Merged,575,5,0,,1
+MultiPartBodyParser using extension NSData.components,2016-07-06,Merged,573,123,80,,2
+MultiPartBodyParser Refactor,2016-06-30,Closed,560,128,80,,2
+Revise tutorial to include HeliumLogger package addition.,2016-06-25,Closed,559,13,0,,0
+Added the HeliumLogger package description in the Logging step,2016-06-28,Merged,556,11,0,,0
+0606 migration,2016-06-22,Merged,546,10,10,swift vagrantfile ,2
+Add JSONP support,2016-06-30,Closed,533,201,1,,3
+IBM-Swift/Kitura#528 changes for 06-06 swift snapshot migration,2016-06-21,Closed,532,8,6,,1
+Removed unused imports,2016-06-14,Merged,531,0,32,,14
+Update dependency on Kitura-TemplateEngine,2016-06-22,Closed,527,1,1,,1
+Migrated to 05-31 swift snapshot,2016-06-21,Merged,526,27,6,,5
+IBM-Swift/Kitura#524 Added response end hook,2016-06-09,Merged,525,8,8,,1
+0509 migration,2016-06-03,Merged,511,64,32,swift md vagrantfile ,11
+Improvement for issue #483 - ignore multipart unsupported headers,2016-06-21,Merged,502,77,24,,3
+Fix for issue #474 + unit test,2016-05-31,Merged,501,47,1,,2
+Fix for issue #474,2016-05-29,Closed,500,7,1,,1
+replace git submodule init/update with clone --recursive,2016-05-27,Merged,495,1,1,,0
+API cleanup,2016-06-06,Merged,490,121,153,,5
+Fix for issue #474 - Content-Type with parameters,2016-05-29,Closed,488,7,1,,1
+Subdomains property for RouterRequest,2016-05-26,Merged,485,103,5,,2
+Parameter method for Router,2016-05-26,Closed,480,236,11,,7
+Fixed KituraTemplateEngine import error in Xcode,2016-05-18,Closed,471,5,0,,1
+camelCase enums based on Swift 3 proposal 36 guidance,2016-05-11,Merged,465,194,227,,13
+Issue 419,2016-05-11,Merged,464,125,35,,4
+Fixed import statement for 'Kitura_TemplateEngine',2016-05-11,Closed,460,1,1,,1
+Changing to the latest minor version of Kitura in the tutorial.,2016-05-10,Merged,458,3,3,,0
+Readme update,2016-05-07,Merged,452,2,2,,0
+updates sample code in readme,2016-05-06,Closed,451,2,0,,0
+Link method for RouterResponse,2016-05-10,Merged,440,109,15,,2
+"Update ""Developing Kitura applications"" part",2016-05-04,Merged,426,2,2,,0
+"Moved code to separate files, removed force unwrap",2016-05-02,Merged,424,119,58,,9
+removed breaks from switch cases for issue no: #384,2016-04-28,Merged,420,0,28,,1
+Headers refactor,2016-05-16,Merged,415,120,149,,6
+Fixed swiftlint issues that could be autocorrected,2016-04-24,Merged,413,223,254,,1
+"Removed force unwrap, changed if statements to guard, removed default nil assignment",2016-04-29,Merged,405,121,110,,1
+"Made RouterElement a struct, moved Cookies to new file",2016-04-20,Closed,376,70,51,,3
+Changed 'Server' to 'server' in README,2016-04-14,Closed,364,2,2,,0
+Added ServerInfo and Server response header,2016-04-14,Closed,352,36,0,,2
+Added expectations to server request test cases,2016-04-12,Merged,349,129,70,,5
+3 24 migration,2016-04-04,Merged,345,377,190,md ,3
+Implement #294 Subrouters and fixes bug #333,2016-04-04,Merged,335,289,26,,4
+Router methods grouping for same route,2016-04-07,Closed,334,724,2,,1
+Change parse logic In accordance with open close principle,2016-04-19,Merged,318,107,61,,2
+Bug fix: BodyParser.parse contentType argument is nil.,2016-03-23,Closed,316,1,1,,1
+Made some Ruby code style fixes in vagrantfile,2016-03-21,Merged,289,13,13,,1
+Update to README for issue #281,2016-03-15,Closed,282,2,2,,0
+Fixed Kitura-router version in the Usage,2016-03-14,Merged,275,1,1,,0
+codebeat badge,2016-04-14,Closed,235,1,0,,0
+fix typo,2016-03-04,Closed,227,1,1,,0
+Update README.md,2016-03-04,Closed,225,1,1,,0
+README clarity,2016-03-04,Merged,221,1,1,,0
+Include build tools and dispatch dependencies,2016-03-04,Merged,219,2,2,,0
+fix typo,2016-03-02,Closed,210,1,1,,0
+Update README,2016-03-01,Closed,187,4,8,,0
+Fix Makefile,2016-02-26,Closed,180,1,1,,1
+Code quality badge,2016-03-11,Closed,174,1,0,,0
+Fix vagrant provisioning by running as unprivileged user,2016-03-08,Merged,173,1,1,,1
+Update README.md,2016-02-25,Merged,163,1,1,,0
+Improve portability,2016-02-26,Closed,162,2,2,,2
+Develop,2016-02-24,Closed,160,6,5,md ,1
+Update README.md,2016-02-24,Closed,157,1,1,,0
+Improve portability,2016-02-25,Closed,154,2,2,,2
+Update README.md – multiple brew commands,2016-02-23,Merged,146,1,1,,0
+Kitura-webserver,2016-02-23,Closed,143,333,0,multipleos md svg jpg vagrantfile ,10
+Code formatting in README,2016-02-22,Merged,136,1,1,,0
+Add a Gitter chat badge to README.md,2016-02-22,Closed,133,2,0,,0

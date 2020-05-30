@@ -1,0 +1,543 @@
+Correct parameter for Label.edit,2020-01-12,Merged,1350,2,2,txt ,1
+Added nested teams and parent (address issue#1337),2020-01-12,Merged,1348,48,0,txt ,2
+Add configuration for Read the Docs,2020-01-11,Merged,1347,14,0,,1
+Fix all but one sphinx warnings,2020-01-11,Merged,1346,14,16,py ,5
+doc: example of Pull Request creation,2020-01-11,Merged,1344,18,0,,1
+Fix PyPI wheel deployment,2019-12-29,Merged,1330,1,1,,1
+Drop Python 2 support,2020-01-06,Merged,1329,434,"1,158",md rst py ,6
+Run black and isort to prepare for release,2019-12-29,Merged,1328,43,23,,5
+Allow sha=None for InputGitTreeElement,2019-12-28,Merged,1327,28,3,txt ,2
+Remove API preview parameter,2019-12-28,Merged,1325,0,7,,2
+Update link to GitHub Enterprise in README,2019-12-27,Merged,1324,1,1,,0
+Cleanup travis config,2019-12-21,Merged,1322,3,7,,1
+Add support for update branch,2019-12-12,Merged,1317,35,0,txt ,3
+Refactor Logging tests,2019-12-11,Merged,1315,150,39,,2
+Fix class used returning pull request comments,2019-11-30,Merged,1307,1,1,,1
+Support for create_fork,2019-11-28,Merged,1306,31,0,txt ,2
+Adopt black as code formatter,2019-12-10,Merged,1303,"9,281","3,440",cfg md py ,3
+Support github timeline events (GH-422).,2019-12-28,Merged,1302,285,2,txt ,5
+Use Repository.get_contents() in tests,2019-11-26,Merged,1301,3,3,,2
+Allow GithubObject.update() to be passed headers,2019-11-26,Merged,1300,24,1,txt ,3
+Correct URL for assignees on PRs,2019-11-25,Merged,1296,4,4,txt ,1
+Fix Branch's push restriction API,2019-11-22,Merged,1290,190,10,txt ,2
+Deprecate Repository.get_dir_contents(),2019-11-14,Merged,1285,20,25,,1
+Apply some polish to manage.sh,2019-11-11,Merged,1284,4,3,,1
+Use inclusive ordered comparison for 'parameterized' requirement,2019-11-25,Merged,1281,2,2,txt ,1
+Add Python 3.8 to classifiers list,2019-11-06,Merged,1280,3,1,py ,2
+Correct API for NamedUser.get_organization_membership,2019-10-31,Merged,1277,52,6,txt ,3
+Create repositories,2019-10-27,Closed,1275,135,0,txt ,2
+Correct header check for 2FA required,2019-10-25,Merged,1274,15,2,txt ,3
+Use replay framework for Issue142 test,2019-10-25,Merged,1271,14,4,txt ,1
+Skip Issue142 test if no connection to GitHub,2019-10-25,Closed,1269,12,0,,1
+Check if the version is empty in manage.sh,2019-10-22,Merged,1268,4,0,,1
+"Encode content for {create,update}_file",2019-10-22,Merged,1267,7,7,,2
+Sync httpretty version requirement with setup.py,2019-10-24,Merged,1265,1,1,,0
+Fix change log format,2019-10-19,Merged,1263,2,0,,1
+Bump httpretty to be a greater or equal to,2019-10-18,Merged,1262,1,1,,1
+add delete project and projectColumn,2019-12-23,Closed,1261,39,0,,2
+Raise branch not found exception as unknown object,2019-10-25,Closed,1259,5,5,,1
+Add new issue example,2019-10-15,Merged,1256,10,0,,1
+Handle unicode strings when recording responses (#1253),2019-10-23,Merged,1254,150,23,txt ,4
+Expand Topic class and add test coverage,2019-11-04,Merged,1252,178,6,txt ,4
+Specify scope of flake8 to reduce runtime,2019-10-11,Closed,1251,1,1,,1
+Stop ignoring unused imports and remove them,2019-10-19,Merged,1250,206,109,py ,11
+Add support for team discussions (#1246),2019-10-31,Merged,1249,284,0,txt ,4
+Add six to install_requires,2019-10-08,Merged,1245,2,1,,1
+Add assignee removal/addition support to PRs,2019-10-22,Merged,1241,72,1,txt ,2
+Fix 1009,2019-10-04,Closed,1240,44,69,,2
+Implemented user organization membership. Added test case.,2019-10-03,Merged,1237,243,0,txt ,4
+Support non-default URLs in GithubIntegration,2019-09-25,Merged,1229,15,4,,2
+Cleanup try/except import in PaginatedList,2019-09-25,Merged,1228,1,4,,1
+Add an IncompletableObject exception,2019-09-23,Merged,1227,14,0,,3
+Fix redundant int checks,2019-09-23,Merged,1226,2,2,,1
+Update changes.rst,2019-09-18,Merged,1223,3,0,,1
+Add 'author_association' to 'PullRequest',2019-11-13,Closed,1216,11,0,,1
+Tiens,2019-09-05,Closed,1215,423,8,py ,1
+Support custom base_url for get_installation,2019-09-25,Closed,1214,1,1,,1
+fix topics attribute always return None,2019-11-08,Closed,1212,18,2,txt ,2
+Fix bug in repository create new file example PyGithub#1210,2019-09-02,Merged,1211,1,1,,1
+Personaltoken,2019-08-21,Closed,1198,312,8,py ,4
+Add support to vulnerability alert and automated security fixes APIs,2019-08-08,Merged,1195,268,2,txt ,2
+Drop use of assertEquals,2019-08-13,Merged,1194,11,11,,2
+Remove more Python version specific code,2019-08-28,Merged,1193,44,94,,9
+Delete Legacy submodule,2019-08-06,Merged,1192,15,157,,2
+Remove some uses of atLeastPython3,2019-08-05,Merged,1191,6,22,,3
+Fix directories for coverage in Travis,2019-08-05,Merged,1190,1,1,,1
+Switch to using six,2019-08-05,Merged,1189,850,629,py ,4
+Label API: pass custom media type in the Accept header,2019-10-13,Closed,1188,70,63,txt ,4
+Update Repository.update_file() docstring,2019-08-04,Merged,1186,1,1,,1
+Fix PR review creation.,2019-08-09,Merged,1184,3,1,,2
+Correct return type of MainClass.get_organizations,2019-07-23,Merged,1179,1,1,,1
+Fix URL encoding in GithubObject:__complete,2019-10-20,Closed,1178,22,1,,2
+release 1.43.8,2019-07-20,Closed,1174,22,1,py ,2
+Add support to vulnerability alert and automated security fixes APIs,2019-08-07,Closed,1173,"1,173",818,yml rst py ,7
+Fix small issues for Python 3 compatibility.,2019-09-19,Closed,1171,8,4,,3
+Code review bodies are optional in some cases.,2019-09-20,Merged,1169,68,3,,3
+Jump from notifications to related PRs/issues.,2019-09-22,Merged,1168,146,0,txt ,4
+Move a portion of github module to use six,2019-08-05,Closed,1167,107,88,,2
+Fix bug in recursive repository contents example,2019-07-12,Merged,1166,1,1,,1
+Add cryptography to test-requirements.txt,2019-07-20,Merged,1165,2,1,,0
+Run flake8 in Travis,2019-08-05,Merged,1163,18,16,yml py ,10
+Silence most flake8 warnings,2019-07-03,Merged,1162,48,48,,12
+Silence more flake8 errors,2019-07-02,Merged,1160,22,14,,13
+Add Repository methods for pending invitations,2019-07-03,Merged,1159,76,0,txt ,2
+Use assertRaises in other exception test in Retry,2019-07-02,Closed,1158,4,6,,1
+Add invitee and inviter to Invitation,2019-07-02,Merged,1156,51,0,txt ,3
+Do not import directly into Retry tests,2019-06-27,Merged,1155,5,7,,1
+Adds `get_issue_events` to `PullRequest` object,2019-07-03,Merged,1154,29,0,txt ,2
+Clean up a lot of pyflakes warnings,2019-07-02,Merged,1153,13,71,,36
+Allow name to be specified for upload_asset,2019-06-24,Merged,1151,58,4,,2
+Fixed #1147 Missing support for license attribute in Repository,2019-11-01,Closed,1148,17,1,,2
+Fix assertion in add_to_members,2019-06-21,Merged,1146,4,4,,1
+Add new Organization.get_team_by_slug method,2019-06-20,Merged,1144,29,1,txt ,2
+Add support for the preview of the Vulnerability Alert APIs,2019-07-30,Closed,1141,112,1,txt ,3
+Add sorting capability to Organization.get_repos(),2019-06-20,Merged,1139,24,1,txt ,2
+GithubIntegration: enable getting installation,2019-06-20,Merged,1135,80,0,,2
+Add two factor attributes on organizations,2019-07-03,Merged,1132,12,0,,2
+Support list with protected branches only,2019-09-01,Closed,1129,9,3,,1
+Add description field when creating a new team,2019-05-23,Merged,1125,9,4,txt ,2
+Update Repository.rst,2019-06-27,Merged,1118,1,1,,1
+Wrap more of the Github project API,2019-07-09,Closed,1111,134,0,,3
+fixes #1106 for GitHub Enterprise API,2019-05-03,Merged,1110,5,1,,1
+issue: add lock/unlock,2019-05-06,Merged,1107,75,1,txt ,3
+Delete brach associated with pr,2019-08-24,Closed,1104,20,2,,2
+Request API preview when asking for labels,2019-07-03,Closed,1102,4,2,,1
+Fix permissions (no exec bit) for data and python modules (without shebang) files,2019-06-28,Closed,1099,0,0,txt ,7
+Add List pending organization invites,2019-06-27,Closed,1094,18,1,,2
+Add support for custom base_url in GithubIntegration class,2019-06-20,Merged,1093,5,2,,1
+Add code coverage,2019-04-15,Merged,1090,6,1,md ,1
+Use non-deprecated path for creating GitHub App access tokens,2019-04-10,Merged,1086,3,3,,2
+Add ability to create new git releases,2019-04-03,Closed,1079,40,0,,1
+add get-a-single-comment call,2019-04-02,Closed,1076,14,0,,1
+Add url parameter to include anonymous contributors in get_contributors(),2019-04-05,Merged,1075,8,2,,1
+add since and before to get_notifications,2019-03-29,Merged,1074,9,2,,1
+Add feature for get repo from another user,2019-03-29,Closed,1071,13,0,,1
+Handle a path of / in Repository.get_contents(),2019-05-22,Merged,1070,20,2,txt ,2
+provide option to extend expiration of jwt token,2019-03-29,Merged,1068,6,3,,1
+Run pyupgrade across the project,2019-03-29,Merged,1067,3,3,,3
+Add testing and document support for Python 3.7,2019-03-18,Closed,1066,3,0,py ,2
+[fix] the default vaule of 'PullRequest.create_review'`s commit param,2019-03-13,Merged,1058,6,3,,1
+Add new dismiss() method on PullRequestReview,2019-02-28,Merged,1053,40,0,txt ,2
+Update link/description in docs of project using PyGithub,2019-02-13,Merged,1043,1,1,,1
+Fix get_access_token(),2019-02-14,Merged,1042,130,12,,4
+fixed: comment of ProjectColumn.create_card,2019-02-12,Merged,1041,1,1,,1
+Fix Organization.add_to_members() role passing,2019-02-12,Merged,1039,10,10,txt ,1
+[WIP] Replace broken edit_user|team_push_restrictions with full implementation of the API,2019-11-16,Closed,1038,59,6,,1
+PyGithub Organization Example docs,2019-04-21,Closed,1034,48,0,,1
+Fixed File.last_modified attribute,2019-06-10,Closed,1032,8,1,,1
+Updated setup.py to exclude tests,2019-04-16,Merged,1031,192,197,md py txt ,77
+add has_organization_projects and has_repository_projects,2019-10-19,Closed,1029,22,0,,1
+Travis CI: Add Python 3.7 to the testing,2019-03-29,Merged,1028,8,6,py ,2
+Add six to requirements.txt and setup.py,2019-04-01,Closed,1027,4,2,py ,1
+01 is a syntax error in Python 3,2019-04-01,Closed,1026,1,1,,1
+Old style exceptions --> new style for Python 3,2019-04-01,Closed,1025,2,2,,2
+Use print() function in both Python 2 and Python 3,2019-04-01,Closed,1024,9,6,,3
+PUT /orgs/:org/memberships/:username requires role parameter to be in the body,2019-04-08,Closed,1022,2,2,,1
+added method to get all user's invitations,2019-06-04,Closed,1020,14,0,,1
+Add assignee addition/removal support for Pull Requests,2019-04-08,Closed,1016,44,69,,2
+Allow unicode type in PullRequest.create_review,2019-04-08,Closed,1013,1,1,,1
+fix request got an unexpected keyword argument body,2019-01-18,Merged,1012,11,9,,1
+No longer blindly mask JSON parsing errors,2019-03-31,Closed,1008,27,18,txt ,3
+Add missing import to PullRequest,2019-01-04,Merged,1007,16,0,txt ,2
+Question: Topics Preview on search repositories,2019-03-16,Closed,1005,4,1,,1
+add: create project column card route,2019-01-18,Merged,1003,126,1,txt ,2
+Adding communications Retry functionality into requests via urllib3 retry object.,2019-04-05,Merged,1002,309,26,py txt ,4
+user.node_id missing,2019-01-10,Merged,1001,28,3,txt ,4
+Drop httplib for requests to finish work of #664,2018-12-20,Merged,998,15,21,,1
+[WIP] Supporting the nested teams preview API (vnd.github.hellcat-preview+json),2019-07-24,Closed,996,179,30,,4
+"Add ""create repository project"" and ""create project column"" methods",2018-12-20,Merged,995,95,14,txt ,4
+get_user() method returns AuthenticatedUser(login=None) although the user is authenticated,2018-12-21,Closed,994,1,0,,1
+Adding support for pending team invitations,2019-06-28,Merged,993,155,0,txt ,5
+Replaced calls to str with calls to unicode,2019-04-08,Closed,990,1,1,,1
+Fix variable shadows a python builtin,2019-02-03,Closed,980,6,6,,1
+Fix bugs in default args,2019-02-03,Closed,979,10,5,,4
+Eval is unsafe,2019-02-03,Closed,978,3,2,,1
+Traffic Endpoints Support,2018-12-05,Merged,977,646,5,py ,4
+added raw_data to dict response example,2019-02-11,Closed,975,9,0,,1
+Change type of GitRelease.author to NamedUser,2018-11-25,Merged,969,6,3,,2
+Fix Python 3 compatibility,2019-02-03,Closed,967,"1,206",825,,3
+Add transfer support,2019-05-13,Closed,966,47,3,py ,4
+Travis CI: Add flake8 tests for syntax errors and undefined names,2019-04-01,Closed,964,6,0,,1
+Use total_count from data in PaginatedList,2018-11-23,Merged,963,21,2,txt ,2
+get_issues documentation for state,2018-11-20,Merged,961,1,1,,1
+Add a Topic object to cover search_topics,2018-11-13,Merged,959,87,4,,3
+Handle 304s in `get_file_contents`,2019-03-17,Closed,957,38,5,,3
+Improved docstring for raw_data and raw_headers properties #144,2018-12-02,Closed,956,5,0,,1
+Implemented user organization membership,2019-01-18,Closed,954,91,0,,2
+Update README.md,2018-10-31,Closed,953,0,1,,0
+raise BadCredentialException when using Github enterprise,2019-01-01,Closed,950,3,3,,1
+Add find organization installations API,2019-03-10,Closed,949,28,0,txt ,2
+Add support for JWT authentication,2018-10-31,Merged,948,44,6,py txt ,5
+Add methods to add and remove repos from installation,2019-03-10,Closed,947,102,0,txt ,2
+Added missing params to constructor when reversed,2018-10-26,Merged,946,99,1,txt ,3
+Fix unable to trigger RateLimitExceededException.,2018-10-23,Merged,943,80,1,txt ,2
+Added support for required signatures on protected branches,2018-10-22,Merged,939,77,0,txt ,3
+Ability to filter repository collaborators,2018-10-21,Merged,938,87,2,py ,4
+Add some examples for Branch,2018-10-18,Merged,936,53,1,,2
+Update Repository.rst,2018-10-17,Merged,935,1,1,,1
+Mark notification as read,2018-10-18,Merged,932,166,0,py txt ,8
+Add a trailing slash to URL when updating or deleting a file (tests fixed),2018-10-17,Merged,931,112,23,py txt ,5
+Example: Listen for New Events with PyGithub and Pyramid,2018-10-16,Merged,930,121,1,,2
+Added better error handling when the server returns a 5XX status code,2019-02-15,Closed,928,8,0,,2
+Example to show How to get Commit Date,2018-10-11,Merged,927,12,1,,1
+Add highlight search to search_code function,2018-10-10,Merged,925,39,3,txt ,5
+removing requirements.txt in favor of pipenv conf files,2018-12-17,Closed,924,207,5,lock txt ,2
+adding suspended_at property to NamedUser,2018-10-08,Merged,922,14,1,txt ,2
+Improve __repr__ method of Milestone class,2018-10-08,Merged,921,2,2,,2
+New use examples,2018-10-08,Merged,920,103,1,,3
+Add examples for searching repositories (#874),2018-10-08,Merged,918,32,1,,1
+Add examples for Repository as per #874,2018-10-06,Merged,917,41,1,,1
+Fix handling of 301 redirects,2018-10-04,Merged,916,28,1,txt ,2
+get repos missing params for authenticated users,2018-10-04,Merged,915,12,4,txt ,2
+Gists with since,2018-10-03,Merged,914,107,8,txt ,6
+Prevent .netrc from overwriting Auth header,2019-08-22,Closed,910,203,0,py txt ,4
+Line comments are not posted in create_review(),2018-09-26,Merged,909,2,0,,1
+Prepare redirect url,2018-10-04,Closed,908,11,1,,1
+Fix Repository.edit,2018-09-16,Merged,904,3,3,,1
+Expand nature of rate limit changes in 1.43,2018-09-18,Merged,902,3,0,,1
+Cache fetch responses,2018-11-27,Closed,901,768,1,txt ,6
+Adding migration api wrapper,2018-12-21,Merged,899,564,3,,8
+Fix unable to trigger RateLimitExceededException.,2018-10-11,Closed,898,30,1,txt ,2
+Fix unable to trigger RateLimitExceededException.,2018-09-06,Closed,897,1,1,,1
+Feature: Search By Topics,2018-09-06,Merged,893,58,0,txt ,2
+Feature: Search By Topics,2018-09-03,Closed,892,0,0,,0
+Add missing backticks to Branch Protection docs,2018-08-28,Merged,889,4,4,,1
+Add support for required approving review count,2018-08-28,Merged,888,79,27,txt ,4
+Improve Branch Protection function docstrings,2018-08-28,Merged,887,8,0,,1
+examples/Login.rst,2018-08-27,Closed,883,15,0,,1
+Change MainClass.get_repo default laziness,2018-08-27,Merged,882,40,38,,9
+Implement Repository.get_collaborator_permission,2018-08-27,Merged,881,48,0,txt ,2
+Implement Organization.invite_user,2018-08-28,Merged,880,143,0,txt ,3
+Switch remaining try/except tests to assertRaises,2018-08-24,Merged,879,33,68,,2
+Add a trailing slash to URL when updating or deleting a file.,2018-10-17,Closed,878,9,9,,2
+Two fixes related to redirect,2019-01-22,Closed,876,21,9,,1
+Add Pull Request Examples,2018-08-23,Merged,875,29,1,,2
+Remove custom swamp-thing-preview header,2018-08-21,Merged,873,5,7,txt ,2
+Remove Repository.get_protected_branch,2018-08-20,Merged,871,0,13,,1
+Fix unicode output printing in logging,2018-08-17,Closed,868,5,1,,1
+"Revert ""Remove NamedUser.contributions (#774)""",2018-08-15,Merged,865,12,1,,2
+Fix token auth recording so playback can work on Travis,2019-03-22,Closed,861,16,6,txt ,2
+Adding communications Retry functionality into requests via urllib3 retry object.,2019-04-05,Closed,860,22,8,,2
+Add allow_redirects option,2018-08-19,Merged,858,2,2,,1
+Adding new attributes to IssueEvent,2018-08-24,Merged,857,"1,044",40,,4
+Add support for projects,2018-09-11,Merged,854,989,25,py ,4
+Remove bulky test data from distribution,2018-07-20,Closed,849,0,3,,1
+Add missing arguments to Repository.edit,2018-07-15,Merged,844,21,4,txt ,2
+Adding archival support for Repository.edit,2018-07-12,Merged,843,5,1,,1
+Add missing properties to Repository,2018-07-13,Merged,842,59,10,txt ,4
+Allow editing of Team descriptions,2018-07-10,Merged,839,11,4,txt ,2
+Add description to Organizations,2018-07-10,Merged,838,25,6,txt ,2
+github/stale: use a stale label,2018-07-11,Merged,837,2,2,,1
+Add tag_name and target_commitish arguments to GitRelease.update_release,2018-07-10,Merged,834,16,2,,1
+Add support for getting / replacing topics (#634),2018-07-06,Merged,832,69,0,txt ,2
+Unit test 809,2018-09-11,Closed,827,29,1,,2
+GitRelease methods documentation,2018-06-20,Merged,821,17,2,,2
+Calcuate totalCount without iterating PaginatedList,2018-07-08,Merged,820,23,7,txt ,1
+Fix incorrect formatting in docstrings,2018-06-11,Merged,816,13,9,,6
+"Adding project name into ""Projects using PyGithub""",2018-06-11,Merged,815,1,0,,1
+Add check-in to projects using PyGithub,2018-06-12,Merged,814,1,0,,1
+add Dismiss PR Reviews functionality,2018-08-07,Closed,809,21,1,,1
+Add remove_membership() method to Teams class,2018-06-19,Merged,807,29,0,txt ,2
+Retry50x,2018-06-22,Closed,803,47,32,txt ,3
+Add tests for mergeable state,2018-05-23,Merged,801,75,0,,1
+Fix return value in the docs,2018-08-25,Closed,799,1,1,,1
+Fix Team.description,2018-05-21,Merged,797,1,1,,1
+Test Framework improvement,2018-06-23,Merged,795,23,5,,1
+add Github.runtime_rack attribute,2018-08-29,Closed,794,28,0,txt ,3
+increase default timeout to be > github request timeout,2018-05-21,Merged,793,4,1,,1
+Handle HTTP 202 HEAD&GET with a retry,2018-06-22,Merged,791,64,67,txt ,3
+Update Branch Protection to current GitHub API,2018-08-15,Merged,790,"1,311",332,,6
+[WIP] Add all branch protection features,2018-05-14,Closed,789,36,6,,1
+Include target_commitish in GitRelease,2018-05-21,Merged,788,12,0,,2
+Fix Content-Length invalid headers exception,2018-05-17,Merged,787,2,2,txt ,1
+adding has_projects to repository,2018-07-13,Closed,785,16,1,,1
+add repository merge attributes,2018-07-13,Closed,784,64,1,,2
+"Repository attributes: allow_merge_commit, allow_rebase_merge, allow_squash_merge",2018-05-05,Closed,783,47,1,,1
+Use TestCase.assertRaises(),2018-08-15,Merged,782,55,92,,4
+Refactor Repository.get_protected_branch,2018-08-10,Closed,776,8,11,,2
+Branch protection methods no longer require loki,2018-04-30,Merged,775,38,40,txt ,1
+Remove NamedUser.contributions,2018-04-30,Merged,774,1,12,,2
+Documentation for using Pull Request API,2018-07-27,Closed,772,52,0,,1
+Fix github API requests after asset upload,2018-06-22,Merged,771,32,26,txt ,2
+Fix github API requests after asset upload,2018-04-25,Closed,768,6,5,txt ,1
+Correct Repository.get_git_tree recursive use,2018-04-25,Merged,767,5,4,txt ,2
+Correct docstring for set_labels,2018-04-23,Merged,766,2,2,,2
+Re-work PullRequest reviewer request,2018-04-23,Merged,765,134,142,txt ,5
+Add support for team privacy,2018-04-20,Merged,763,23,6,txt ,2
+Establish basis for examples,2018-07-27,Closed,762,175,0,,1
+Correct PullRequest.get_reviewer_requests() rtype,2018-04-19,Merged,761,1,1,,1
+PullRequest review methods no longer need black cats,2018-04-19,Merged,760,6,9,txt ,1
+Add verify option for to requests wrapper,2018-04-26,Merged,758,10,5,,2
+Make use of issue_url in PullRequest,2018-04-17,Merged,755,4,4,,1
+PullRequest labels should use Issues URL,2018-04-17,Merged,754,37,37,txt ,2
+Team description added to Team.py,2018-04-17,Merged,753,11,0,,1
+Support labels for PullRequests,2018-04-16,Merged,752,444,1,,2
+Add get_organizations(),2018-04-12,Merged,748,45,0,txt ,2
+Add documentation to github.Repository.Repository.create_git_release(),2018-04-10,Merged,747,10,0,,1
+documentation: clarify semantics of get_comments,2018-04-07,Merged,743,1,0,,1
+Add add_to_members() and remove_from_membership(),2018-04-09,Merged,741,194,17,txt ,2
+Labels API: support description,2018-03-29,Merged,738,37,13,txt ,4
+Get a repo from another owner,2018-04-04,Closed,737,3,2,,1
+Sort the Github Objects,2018-03-25,Merged,735,1,1,,1
+Implement License API,2018-04-06,Merged,734,315,0,txt ,7
+Support recording test data from behind proxies,2018-08-15,Closed,732,12,3,,1
+Add url attribute to PullRequestReview object,2018-03-16,Merged,731,11,0,,1
+Add hook support for organizations,2018-03-12,Merged,729,215,0,txt ,2
+Add a Gitter chat badge to README.md,2018-03-09,Merged,728,1,0,,0
+Finished search_commits PR,2018-03-09,Merged,727,55,1,,1
+"Add organization add_membership, remove_membersip and get_invitations…",2018-04-09,Closed,726,50,0,,2
+Collaborator site admin,2018-03-06,Merged,719,12,0,,2
+Add PullRequestComment.in_reply_to_id,2018-04-06,Merged,718,11,0,,1
+Fix add_to_watched for AuthenticatedUser,2018-03-03,Merged,716,24,23,,1
+Enforce the Host Header When Using Proxies,2018-04-14,Closed,709,"1,076","1,074",txt ,2
+Add __eq__ and __hash__ to NamedUser,2018-02-21,Merged,706,34,0,txt ,2
+Fix PY3 compatibility,2018-06-30,Closed,705,792,753,,7
+make datetime objects timezone aware using UTC timezone (+tests),2018-09-14,Closed,704,119,76,,14
+Add maintainer can modify flag to create pull request,2018-02-15,Merged,703,10,5,txt ,2
+Add team privacy parameter to create team,2018-04-06,Merged,702,7,4,txt ,2
+Fix typo in Design.md,2018-02-13,Merged,701,1,1,,0
+Add collaborator permission,2018-02-07,Merged,699,10,2,,1
+Method create_milestone now uses datetime object,2018-02-07,Merged,698,6,3,,1
+Add CodeTriage badge to pygithub/pygithub,2018-02-06,Closed,697,1,0,,0
+Update Team.py to get members with role filter,2018-06-20,Closed,695,8,2,,1
+Add a member to an organization given a NamedUser,2018-09-14,Closed,692,18,0,,1
+"Remove the default ""null"" input send during GET request",2018-02-01,Merged,691,931,931,txt ,2
+Updated github.PullRequestReviewerRequest,2018-01-27,Merged,690,4,3,,2
+make created_at/published_at attrs available for Release objects,2018-01-26,Merged,689,25,0,,2
+Add installation instructions to README,2018-01-05,Merged,682,7,0,,0
+Use Python 3 syntax in README,2018-01-05,Merged,681,1,1,,0
+Add committer/author to Repository.delete_file,2018-01-16,Merged,678,19,3,,1
+Add new params for /users/:user/repos,2018-01-16,Merged,677,43,43,,30
+Add permissions field to NamedUser,2018-01-16,Merged,676,20,3,txt ,2
+Traffic objects,2018-09-14,Closed,675,147,0,,2
+Drop support for EOL Python 2.5-2.6 and 3.2-3.3,2017-12-21,Merged,674,29,53,py txt ,9
+Source Import API,2018-03-21,Merged,673,423,0,,3
+Add Reactions feature,2017-12-15,Merged,671,483,2,,11
+PullRequest: add support for getting a single review's comments.,2018-03-21,Merged,670,15,1,,1
+Add ping_url and ping to Hook,2017-12-10,Merged,669,36,1,txt ,2
+Adding unit test for tree attribute of GitCommit,2017-12-10,Merged,668,1,0,,1
+[Documentation] Create instance from token,2017-12-08,Merged,667,10,1,rst ,1
+Use 'requests' instead of 'httplib',2018-04-17,Merged,664,84,28,txt ,3
+Added option to create review for Pull request,2018-03-20,Merged,662,69,5,txt ,2
+Add Repository.archived property,2017-12-10,Merged,657,11,0,,1
+Add support for access level for organization repo,2018-02-08,Closed,655,12,1,,1
+Add support for access level for organization repo,2017-10-31,Closed,654,12,1,,1
+Update api calls to loki-preview,2018-02-20,Closed,651,41,22,py txt ,2
+Add support for the Github API search/commits endpoint,2018-03-09,Closed,648,54,0,,1
+Fix JWT encoding with Python3,2017-10-19,Closed,647,5,1,,1
+Remove broken downloads badge,2017-11-27,Merged,644,0,1,,0
+Add Python 3.6,2017-11-22,Merged,643,3,1,py ,2
+ENH: Added role parameter to Team.add_membership method,2018-02-07,Merged,638,20,6,txt ,2
+TST: add_membership testcase,2018-02-07,Merged,637,11,0,py ,1
+Add support for getting and replacing topics on a repository,2018-07-11,Closed,635,53,0,txt ,2
+Fix GithubIntegration in Python3,2017-11-27,Merged,633,12,4,yml py ,3
+Add support for changing PR head commit,2018-01-16,Merged,632,15,2,,1
+Added Issue.as_pull_request() and PullReqest.as_issue(),2018-03-26,Merged,630,136,0,txt ,4
+Branch protection update; due to github API v3 change.,2017-09-13,Closed,628,44,44,txt ,1
+Added target_commitish option to Repository.create_git_release(),2018-03-15,Merged,625,105,1,txt ,3
+Added missing parameters for repo creation,2017-11-27,Merged,623,64,11,,4
+Fix creating/updating binary files on Python 3,2017-11-27,Merged,621,8,4,,1
+Updated references in introduction.rst,2017-11-22,Merged,618,2,2,,1
+adding test file,2017-08-09,Closed,615,0,0,,0
+Handle spaces and other special characters in /contents API,2017-11-22,Merged,614,5,5,,1
+Add method to get latest release of a repository,2018-01-16,Merged,609,48,0,,2
+[WP] Add projects support,2018-03-10,Closed,607,221,7,,3
+added role parameter to add_membership function,2018-02-14,Closed,602,7,2,,1
+Fix encoded_input null assignment to produce valid json format,2018-09-14,Closed,599,895,895,txt ,3
+add methods to create and delete reviewer requests,2018-04-23,Closed,598,28,1,,1
+fix: totalCount always returns None,2018-07-05,Closed,596,10,5,,1
+fixing date format for milestone creation,2018-02-06,Merged,593,2,2,txt ,1
+Get organization from the team,2018-03-10,Merged,590,14,1,txt ,2
+Add closed_at property to GET /repos/:owner/:repo/milestones,2018-09-14,Closed,587,12,0,,2
+"Add ""since"" param to PR review comments get",2018-03-21,Merged,577,7,2,,1
+Add invite to organization,2018-02-20,Closed,574,127,0,txt ,3
+Add invite_to_organization to Organization,2017-05-05,Closed,573,108,2,py txt ,4
+add read_only attribute to Deploy Keys,2017-12-08,Merged,570,18,4,txt ,2
+Allow editing of base attribute for pull requests,2018-03-21,Closed,569,8,3,txt ,2
+Set optional proxy per client object,2018-09-14,Closed,568,6,4,,2
+resolved spaces in directory name in path,2018-09-14,Closed,567,4,1,,1
+Add 'submitted at' to PullRequestReview,2017-11-23,Merged,565,14,0,,2
+Add NamedUser permissions attribute for Repository.get_collaborators(),2018-03-21,Closed,562,10,0,,1
+"add ""integration"" install option with minimal docs",2017-07-10,Merged,557,7,1,py ,2
+Update requirements to match the latest pyjwt switch,2017-03-28,Merged,544,1,1,,0
+Add Support for Pull Request Reviews feature,2017-03-25,Merged,538,372,0,txt ,6
+Add support for permission parameter when adding collaborators,2018-02-07,Closed,537,9,2,,1
+API outside collaborators,2018-04-19,Merged,533,117,0,txt ,2
+[docs] warn about using threads,2017-02-25,Closed,532,4,0,,1
+Fix hashing in python3,2019-07-15,Closed,531,3,0,,1
+Update the RepositoryKey class,2018-03-21,Merged,530,33,68,txt ,1
+Import missing exception,2017-07-10,Merged,529,1,1,,1
+Added capablity to customize branch protection settings,2018-07-20,Closed,527,144,0,txt ,2
+Add ability to access github Release Asset API.,2017-11-27,Merged,525,733,8,py ,5
+Add release asset APIs,2017-02-09,Closed,524,728,8,py ,6
+Add ability to access github Release Asset APIs.,2017-02-08,Closed,523,728,8,py ,6
+"added tarball_url, zipball_url, prerelease and draft property",2018-03-21,Merged,522,44,0,,2
+Added missing support for specifying permission when adding collaborator to a repo owned by an organization,2017-10-31,Closed,520,9,2,,1
+adding support for the integrations installation endpoint,2017-02-01,Merged,519,97,8,,3
+Correct stable version in documentation,2017-02-01,Merged,518,1,1,,1
+Accepting 'assignees' parameter for method create_issue(),2017-01-17,Closed,513,5,1,,1
+FC,2017-01-02,Closed,511,1,0,,0
+FC,2017-01-02,Closed,510,1,0,,0
+Fix README instructions,2016-12-20,Merged,506,0,1,,0
+Add source import,2018-03-21,Closed,505,24,0,,1
+Add details of repo type for get_repos documentation,2017-01-17,Merged,500,1,1,,1
+An easier to see link to the documentation in response to issue #480.,2016-12-28,Merged,499,4,0,,0
+Support HTTP 302 redirect in Organization.has_in_members,2017-01-19,Merged,498,74,0,txt ,3
+Add permissions parameter to add_to_collaborators,2017-01-31,Closed,497,9,2,,1
+Support getting the Latest release,2018-03-21,Closed,496,11,0,,1
+Encode GithubObject repr values in utf-8,2016-11-30,Merged,495,54,1,txt ,3
+Added support for subscribers_count,2016-11-28,Merged,492,11,0,,1
+Support team membership roles,2018-03-17,Merged,491,9,3,,1
+Teams API: support description & privacy fields,2018-04-14,Closed,490,40,2,,2
+Fix a bug cause gistfile.content None.,2018-08-15,Merged,486,1,1,,1
+add html_url to GitRelease,2016-10-29,Merged,479,13,0,,2
+Removed unused imports,2016-10-17,Merged,476,0,3,,1
+Fix typo in a constant,2016-10-16,Merged,475,2,2,,2
+Fix changelog formatting glitch,2016-10-16,Merged,474,1,1,,1
+adding target_commitish parameter to methods for creating a release,2018-03-21,Closed,473,171,3,txt ,3
+Don't modify original requestHeaders in Requester.__log(),2018-06-23,Closed,471,2,0,,1
+Support multiple assignees on Issue & PullRequest,2017-01-17,Merged,469,128,16,txt ,5
+Add support for read_only keys.,2017-12-08,Closed,467,18,2,txt ,2
+Issue assignees,2016-10-05,Merged,466,7,3,txt ,2
+Add info,2018-06-23,Closed,463,1,0,,1
+Fix diffrerent case,2016-09-29,Merged,462,1,1,,1
+Now following PEP8 code style in whole code base,2017-03-29,Closed,461,"2,717","1,374",,1
+"Replace deprecated ""permission"" with ""privacy"" in create_team.",2016-09-24,Closed,460,8,8,txt ,2
+fix repository,2017-01-17,Merged,458,3,1,,1
+DOC: remove easy_install suggestion; update links,2016-09-17,Merged,455,6,5,,1
+Add ability to set permission for team repo,2016-09-17,Merged,454,42,0,txt ,2
+Add fields,2018-09-14,Closed,453,22,0,,1
+Add release datetime fields,2016-09-16,Closed,452,23,1,,2
+Fix status check,2016-09-17,Merged,451,1,1,,1
+GitHub integrations support,2017-01-27,Merged,449,165,3,txt ,4
+Support directories in repo.get_contents,2016-10-05,Merged,448,22,0,txt ,2
+Nicer __repr__ for GithubObjects,2016-09-11,Merged,445,322,1,,34
+first pass at enforcement_level -> include_admins,2018-09-14,Closed,444,64,52,txt ,2
+Properly handle HTTP Proxy authentication with Python 3,2016-08-30,Merged,442,4,1,,1
+Fix small typo,2016-08-14,Merged,438,1,1,,1
+Releases based on travis,2016-08-11,Merged,437,21,66,sh py ,3
+"change file content encoding to support unicode(like chinese), py2",2016-08-10,Merged,436,4,0,,1
+Implement __len__ on the PaginatedList,2018-07-08,Closed,433,15,1,,2
+Patch issue 358 status context,2016-07-27,Merged,428,12,1,txt ,2
+"Adding ""since"" param to Issue.get_comments()",2016-07-21,Merged,426,21,2,txt ,2
+Changed default laziness of get_repo() to False,2018-08-27,Closed,425,1,1,,1
+added add_to_members to organization,2018-04-09,Closed,424,17,0,,1
+"changed ""permission"" to ""privacy"" in create_team",2018-09-14,Closed,421,8,2,,1
+Update doc url,2016-07-12,Merged,420,308,155,py ,27
+fix a couple typos to be clearer,2016-07-08,Merged,419,7,3,,0
+"Adding ""squash"" commits to single commit merge option",2018-03-17,Closed,418,61,34,txt ,5
+Document how one gets an AuthenticatedUser object,2016-07-05,Merged,417,2,0,,1
+Milestone `due_on` Time format fix,2016-08-24,Closed,414,1,1,,1
+fix wrong expectance on requestJsonAndCheck() returning {} if no data,2016-06-30,Merged,413,5,5,,1
+Add previous_filename property to File,2016-06-28,Merged,412,10,0,,1
+added get_orgs() to MainClass.py,2018-04-12,Closed,407,18,0,,1
+Follow redirects in the case of a 301 status code,2016-06-28,Merged,403,4,0,,1
+Added support to consider No proxy settings,2018-09-14,Closed,400,168,1,,3
+fix datetime format for milestone due date,2018-07-05,Closed,397,0,1,,0
+Fix for pickling exception when deserializing GithubException.,2016-04-05,Merged,395,6,0,,2
+add_to_collaborators: add permission param,2018-03-22,Closed,393,8,4,,1
+Add support for deleting git refs,2018-03-07,Closed,389,18,0,,2
+add params to NamedUser.get_starred,2018-03-22,Closed,386,16,3,,1
+add support for the head parameter in Repository.get_pulls,2016-02-02,Merged,384,5,1,,1
+Replace httplib with requests,2018-04-17,Closed,383,40,8,,3
+Add ability to check combined status.,2016-01-26,Merged,382,195,0,,4
+Expose target_commitish parameter,2018-03-21,Closed,381,4,2,,1
+Implement repo content create/update/delete file API,2016-07-18,Merged,379,228,7,py txt ,2
+Handle rate limit: retry after requested delay,2018-06-22,Closed,378,12,2,,1
+Don't merge,2016-01-11,Closed,375,1,0,,0
+Add branch protection endpoint,2016-01-07,Merged,372,394,2,txt ,3
+adds update_content function,2016-01-04,Closed,369,66,0,txt ,2
+Add travis button on README.,2015-12-16,Merged,365,3,0,,1
+fix misspelling: https://github.com/PyGithub/PyGithub/issues/363,2015-12-16,Merged,364,1,1,,1
+Add read-only Releases API with Assets,2018-03-22,Closed,361,545,36,,1
+"Add support for the ""base"" parameter in the repository get_pulls() method.",2015-11-30,Merged,360,5,1,,1
+Added support to get the latest public events on github,2018-03-22,Closed,359,19,0,,1
+Note explicit support for Python 3.5,2016-12-22,Merged,357,2,0,,1
+add support for the direction parameter in Repository.get_pulls,2015-11-17,Merged,355,6,1,,1
+Add creator to get_issues,2015-11-09,Merged,354,9,1,,1
+Updating doc link for Github Commit Statuses,2015-11-03,Merged,352,1,1,,1
+Add repo.get_stargazers_with_dates(),2015-10-14,Merged,347,126,0,txt ,2
+Thread headers through PaginatedList,2015-10-14,Merged,346,8,4,,1
+"Support for ""permissions"" and ""privacy"". Changed ""members"" to ""memberships""",2015-10-10,Closed,344,27,3,,3
+support long integers in get_repo,2015-10-03,Merged,343,2,2,,1
+"Don't try to parse ""data"" if it's None",2015-09-25,Closed,342,9,7,,1
+"Don't try to parse ""data"" if it's None",2015-09-25,Closed,341,9,7,,1
+Fixes #339 by allowing strings in the labels list.,2015-09-16,Merged,340,42,2,txt ,2
+README: Remove searching maintainer note,2015-09-08,Closed,337,0,6,,1
+Fixing https://github.com/PyGithub/PyGithub/issues/335.,2015-08-27,Merged,336,3,0,,1
+Add support for filter/role options in Organization.get_members(),2015-08-18,Merged,334,15,2,,1
+Add support for getting latest release information.,2018-03-21,Closed,333,80,0,,2
+Bugfix in issue.remove_from_labels,2016-01-11,Closed,327,22,19,,2
+Documentation: add git-gifi usage to list of projects using PyGithub,2015-07-13,Merged,326,1,0,,1
+Added update_content function to update a file,2016-07-18,Closed,316,104,1,txt ,3
+Freshen master with changes from develop,2015-05-08,Merged,315,677,26,rst py ,13
+Add add_membership to Team,2015-04-27,Closed,313,12,0,,1
+Add support for releases,2015-05-07,Merged,312,511,5,py txt ,5
+Add support for releases,2015-05-07,Merged,312,511,5,py txt ,5
+Connect through a proxy with authentication,2015-04-15,Merged,309,20,1,,1
+Fixed documentation link,2015-05-08,Merged,308,1,1,,1
+Support recording tests when using an OAuth token,2015-03-27,Merged,307,15,1,py ,3
+Add support to create Repository objects lazily in MainClass.,2015-04-02,Merged,305,111,15,txt ,2
+fixed small typo,2015-03-08,Merged,301,1,1,,1
+"Fix broken links under ""What's next?""",2015-03-03,Merged,296,2,2,,1
+Fix paginated list handling of 204 No Content,2015-03-03,Merged,295,14,1,py txt ,3
+Allow access to preview versions of the server-side API,2015-03-18,Merged,294,7,3,,2
+doc: add github-icalendar to list of projects using pygithub,2015-03-04,Merged,293,1,0,,1
+Added sort option to get_pulls.,2015-03-03,Merged,292,4,1,,1
+Change InputGitAuthor to reflect that time is an optional parameter.,2015-03-18,Merged,290,10,4,py ,2
+Add optional context when creating a status for a commit,2015-03-03,Merged,289,6,2,py ,2
+Remove URL scheme assertion.,2015-03-03,Merged,288,0,1,,1
+Add team membership add call,2015-03-18,Merged,284,12,0,,1
+Added MANIFEST.in,2014-10-08,Merged,277,3,1,py ,2
+Capitalization of the 2FA OTP request header,2014-09-28,Merged,275,1,1,,1
+Enable automated testing on Python 3.4,2014-07-10,Merged,255,1,0,,1
+Add oauth authentication,2018-03-21,Closed,254,126,0,txt ,3
+documentation typos,2014-05-27,Merged,249,2,2,,1
+v3 changes gist.user to gist.owner,2014-05-04,Closed,247,6,6,,1
+Implement support for getting repo by id,2014-05-04,Merged,246,19,4,txt ,2
+Change quote to quote_plus and avoid double-escaping some problematic characters.,2014-03-16,Merged,237,5,5,,1
+"Add support for repository, user, issue code search",2014-03-03,Merged,224,191,10,,4
+Add users/starred (GET),2014-03-02,Closed,223,18,1,,1
+fix typos,2014-01-14,Merged,221,3,3,,1
+Added onetime_password to create_authorization,2013-12-24,Closed,220,19,5,,3
+Can now specify assignee as a string,2013-12-24,Merged,218,288,20,txt ,4
+Add /user/teams (GET),2013-12-16,Merged,213,12,0,,1
+Added 'stargazers_count' property to Repository,2013-12-16,Merged,212,11,0,,1
+Added 'stargazers_count' property to Repository,2013-12-04,Closed,211,11,0,,1
+Add initial version of getemojis,2013-12-16,Merged,209,26,0,txt ,2
+Add Conditional Request and Data Persistence Support Alternative Solution,2013-09-06,Closed,193,"1,669",45,py ,9
+Refactor: add response header field to GithubObject,2013-08-22,Merged,192,487,148,py ,8
+Add Conditional Request and Data Persistence Support,2013-08-22,Closed,189,272,10,py ,8
+"Adding since, until parameters to Repository.getCommits()",2013-08-19,Closed,187,9,1,,1
+Minor enhancements to rate limiting information,2013-08-19,Merged,186,42,3,txt ,3
+Minor enhancements to rate limiting information,2013-08-06,Closed,185,42,3,txt ,3
+Allow reverse pagination,2013-08-21,Merged,184,122,7,txt ,2
+Handle github api response that isn't valid json,2013-08-20,Closed,182,4,1,,1
+Populates Issue's repository from URL when not in response.,2013-08-19,Merged,181,17,1,txt ,2
+"Automatic rety, empty repo handling and updated arguments for get_commits",2013-12-16,Closed,179,69,6,txt ,5
+bugfix: using custom per_page in repo.get_comments,2013-06-19,Merged,176,12,2,,2
+Support http 302 redirect responses in get_dir_contents,2013-06-18,Closed,174,10,0,,1
+Replace doc url,2013-06-13,Merged,171,15,15,,15
+Add html_url attribute to comments.,2013-05-31,Merged,170,24,0,,2
+Updates api reference url in docstrings for repository keys,2013-05-22,Merged,167,3,3,,1
+Add default user agent,2013-04-25,Merged,161,6,4,,3
+Notification API,2013-03-19,Merged,148,238,0,txt ,3
+this fixes #108,2013-03-16,Closed,147,402,114,rst py ,6
+get_repo modification to allow access to repository objects not owned by logged in user,2013-01-29,Closed,135,10,3,,1
+Fix failing get_page function,2013-01-29,Closed,133,1,1,,1
+Fixed Issue #123: Repository.get_contents does not accept ref=branch,2012-12-25,Closed,124,6,2,,1
+Update AuthenticatedUser.get_repo to accept a full repo path,2012-12-21,Closed,121,10,0,,1
+typo in ReadMe.md,2012-11-14,Merged,114,1,1,,0
+Allow for using OAuth id and secret to increase rate limit,2012-11-19,Closed,112,16,36,,3
+Add 'assignee' attribute to PullRequest,2012-11-03,Merged,111,9,0,,1
+Add encoding comment to source files,2012-11-03,Merged,110,216,0,,66
+Fix failures due to % in markup.,2012-09-27,Closed,100,1,0,,1
+Use Python logging to log raw requests,2012-09-25,Closed,88,167,33,yml md py txt ,44
+Support clearing of issue milestone and assignee,2012-09-11,Closed,74,4,4,,1
+Add timeout option,2012-09-05,Merged,62,7,5,py ,2
+Allows connection to GitHub Enterprise installs on local URLs,2012-08-04,Merged,57,81,58,,4
+[Issue] Replace label _identity with name,2012-06-28,Closed,50,2,2,,1
+Just a small patch to make PyGithub compatible with Python 2.5,2012-06-20,Merged,47,5,1,,1
+Pull request to be merged by PyGithub with a custom commit message,2012-05-29,Merged,39,95,31,,12
+Creation of a pull request from an issue is not covered by integration tests,2012-05-27,Merged,32,0,0,,0
+Title edited by PyGithub,2012-05-27,Merged,31,511,384,,6

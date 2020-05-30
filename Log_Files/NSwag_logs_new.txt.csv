@@ -1,0 +1,656 @@
+Release v13.2.1,2020-01-13,Merged,2620,334,257,csproj nuspec cs liquid ,17
+Add template for Client method annotations,2020-01-11,Merged,2616,6,0,,3
+Bump Microsoft.AspNetCore.All to 2.2.8,2020-01-09,Merged,2611,1,1,,1
+Add partial methods to allow changes prior to deserialization,2020-01-11,Merged,2607,49,8,liquid ,5
+missed .data property i.e the ArrayBuffer,2020-01-07,Merged,2606,2,2,,1
+Using culture invariant versions of ToUpper and ToLower while generating operation names,2019-12-26,Merged,2594,4,4,,2
+Release v13.2.0,2019-12-18,Merged,2588,887,215,bat json csproj nuspec targets cs html js liquid ,25
+Restoring special-case handling of text/plain (`IsPlainText`) responses.,2019-12-18,Merged,2587,10,0,,1
+.Net core 3.1,2019-12-16,Merged,2567,510,7,cs csproj nuspec props exe md js json ,17
+Fix Swagger UI empty Path #2510 (#2517),2019-12-16,Merged,2561,1,1,,1
+Nswag.AspNet.Owin PKCE support (SwaggerUi3) & Updated SwaggerUI js files …,2019-12-03,Merged,2546,4,3,js ,3
+Release v13.1.6,2019-11-22,Merged,2543,353,276,md json csproj cs nuspec ,13
+allow angular http request to send withCredentials,2019-11-21,Merged,2538,76,7,liquid csproj xaml ,7
+Release v13.1.5,2019-11-13,Merged,2523,26,26,nuspec targets json cs ,25
+Release v13.1.4,2019-11-13,Merged,2520,"1,721","1,401",csproj nuspec targets html js css cs props ,30
+Fix Swagger UI empty Path #2510,2019-12-03,Merged,2517,4,2,,2
+ParameterDateFormat support,2019-11-12,Merged,2507,138,19,liquid nswag json xaml ,17
+Use string.Empty rather than null as the default response text when throwing exceptions,2019-11-04,Merged,2505,1,1,,1
+Update NSwag.ApiDescription.Client.targets,2019-11-04,Merged,2504,2,2,,1
+Add Default Parameters For C# Controllers,2019-11-12,Merged,2484,2,2,,1
+NSwag.AspNetCore support PKCE,2019-11-04,Merged,2480,42,22,html js css ,8
+Use 3.0 GA packages from Microsoft,2019-10-17,Merged,2457,13,15,csproj props targets json ,5
+Release v13.1.3,2019-10-10,Merged,2454,"1,018",578,yml json csproj nuspec cs ,25
+Add BasePath override config option for C# Controller,2019-10-08,Merged,2439,104,1,cs xaml ,6
+Release v13.1.2,2019-09-27,Merged,2433,100,88,csproj nuspec cs ,28
+Release v13.1.1,2019-09-27,Merged,2430,149,117,json csproj nuspec cs ,27
+Release v13.1.0,2019-09-26,Merged,2427,614,280,bat json csproj nuspec cs ,21
+Fixed inverted logic in nswag new,2019-09-15,Merged,2406,2,2,,1
+Use OpenApiTagAttribute of class to set tags for those methods where such attribute is not set explicitly,2019-10-08,Merged,2381,232,1,cs sln ,5
+Return FileResult type for binary response if an AspNetCore controller is generated,2020-01-13,Merged,2376,15,0,,1
+Release v13.0.6,2019-08-22,Merged,2369,463,282,csproj nuspec js css cs ,19
+Bring release up to date with master,2019-08-22,Closed,2368,241,100,nuspec js css cs liquid xaml ,34
+swagger bundle files updated from latest swagger-ui bundle,2019-08-22,Merged,2364,78,28,css ,4
+Added global alias for System in C# generation,2019-08-16,Merged,2356,41,0,liquid ,2
+Release v13.0.5,2019-08-16,Merged,2355,471,391,json csproj cs nuspec props targets ,22
+Move to Preview 7 version of Microsoft.Extensions.ApiDescription.* packages,2019-08-16,Merged,2354,56,41,nuspec props targets csproj json wixproj ,9
+[WIP] Add OpenApiBodyParameterAttribute,2019-12-05,Closed,2353,45,0,csproj ,2
+Added System.Uri.EscapeDataString for parameter names in query string,2019-08-02,Merged,2338,6,6,,1
+#2319 Parent parameter references should be resolved before consolidating duplicates in operation parameters,2019-07-30,Merged,2334,2,4,,1
+Use ExceptionDescription in TypeScript client,2019-07-31,Merged,2321,2,2,,1
+Fix throwException formatting in generated Typescript clients,2019-07-19,Merged,2315,3,3,,1
+Fixed processing of Summary and Description fields of OpenApiOperation,2019-07-31,Merged,2310,70,17,,2
+Make global scope names optional,2019-07-10,Merged,2305,17,7,,2
+Generate property as virtual,2019-07-05,Closed,2300,137,19,csproj ,7
+Release v13.0.4,2019-07-05,Merged,2298,186,133,exe json csproj nuspec cs ,22
+Fix default implementation of TransformToExternalPath,2019-07-05,Merged,2296,1,3,,1
+Fix default implementation of TransformToExternalPath,2019-07-05,Closed,2295,1,3,,1
+Fix JsonExceptionFilterAttribute,2019-07-03,Merged,2292,6,2,,2
+Update GitHub URLs,2019-07-02,Merged,2286,24,24,csproj nuspec ,23
+"Ensure axios returns request headers, use responseType: blob for files",2019-07-30,Merged,2284,10,6,,3
+Use embedded license for NuGet packages,2019-07-02,Merged,2283,17,17,nuspec ,17
+Add repository metadata to NuGet packages,2019-07-02,Merged,2282,31,0,nuspec ,17
+Release v13.0.3,2019-06-28,Merged,2277,821,622,json csproj cs ,14
+added security schema info into the operation generation model,2019-06-28,Merged,2267,8,2,,2
+Added `IncludeOpenAPIAnalyzers` flag to the produced NuGet package,2019-06-25,Closed,2261,8,0,props ,2
+Release v13.0.2,2019-06-21,Merged,2255,501,268,csproj nuspec cs ,16
+Enabling better binary file handling for ASPNetCore,2019-06-20,Merged,2253,132,3,,2
+Make Binary Body type configurable,2019-06-20,Closed,2241,17,1,xaml ,4
+Release v13.0.1,2019-06-13,Merged,2235,213,199,json csproj nuspec liquid cs config ,27
+Release v13,2019-06-11,Merged,2229,"9,810","8,616",md yml bat ,3
+Use new Microsoft.Extensions.ApiDescription.Server package,2019-06-27,Merged,2226,541,389,csproj cs nuspec ,13
+Support IsFile for Axios,2019-06-10,Merged,2224,9,0,,2
+Change default of DefaultResponseReferenceTypeNullHandling to NotNull,2019-06-10,Merged,2215,374,293,json cs ,14
+Execute `dotnet-nswag.dll` with `--roll-forward-on-no-candidate-fx 2`,2019-06-06,Merged,2214,4,5,targets ,2
+Added an extendable template above the C# controller class,2019-06-06,Merged,2212,3,0,,2
+2 new extension points for Client.Class.liquid,2019-06-06,Merged,2207,7,0,liquid ,4
+TS injection and baseUrl fixes,2019-06-06,Merged,2204,4,4,,1
+Add an extendable template above the method of a controller.,2019-05-31,Merged,2198,4,1,,2
+"Automatically handle proxy routes, paths and headers",2019-06-03,Merged,2196,125,47,csproj sln cs dcproj conf ,11
+Roll forward on console tools,2019-05-31,Closed,2195,3,2,,1
+v13: Renamings and refactorings,2019-05-26,Merged,2191,"6,038","5,820",bat csproj nswag json nuspec cs ,14
+Release v12.3.1,2019-05-21,Merged,2187,84,85,json csproj nuspec cs ,26
+Release v12.3.0,2019-05-21,Merged,2182,627,460,bat json csproj nuspec targets cs ,17
+AssemblyLoader to handle exceptions during directory enumeration,2019-05-20,Merged,2179,9,1,,1
+Use latest NJS and Namotion.Reflection (v13),2019-05-24,Merged,2178,676,854,cs ,7
+Fix 'UseSwagger()' generating swagger failed when using 'swaggerToCSh…,2019-05-16,Merged,2174,1,1,,1
+Improve error message on version incompatibility,2019-05-15,Merged,2172,1,1,,1
+added multiple clients from first tag and operation id generator,2019-05-15,Merged,2169,51,1,,3
+Fix #2158 by not initializing Security collection in Operation,2019-05-09,Merged,2159,1,1,,1
+Release v12.2.5 (NJsonSchema v9.13.37),2019-05-03,Merged,2152,284,191,json csproj nuspec cs config ,27
+Align with new Microsoft.Extensions.ApiDescription.Client package,2019-05-06,Merged,2148,53,102,nuspec targets sln ,5
+Release v12.2.4,2019-04-26,Merged,2144,385,226,csproj nuspec cs ,16
+C# Controller Generator : GenerateDtoTypes is not took into account,2019-04-25,Merged,2142,50,12,,3
+Release v12.2.3,2019-04-23,Merged,2136,87,58,nuspec json cs ,26
+Release v12.2.2,2019-04-23,Merged,2134,327,162,csproj nuspec ,12
+Release v12.2.1,2019-04-23,Merged,2133,71,69,csproj nuspec html js css map ,14
+Feature/adds ability to host on different urls,2019-04-25,Merged,2130,61,25,,4
+Release v12.2.0,2019-04-21,Merged,2128,803,"1,570",csproj nuspec cs html ,19
+Improved binary body parameter handling,2019-04-16,Merged,2112,171,17,csproj liquid ,10
+keep exception stack trace,2019-04-12,Closed,2106,2,2,,1
+Improve swagger middlewares for extensibility,2019-04-12,Merged,2105,50,27,,2
+"Improve IsXmlBodyParameter, IsBinaryBodyParameter and SwaggerRespons.IsBinary()",2019-04-12,Merged,2104,17,7,,3
+Update to latest ASP.NET Core versions (CLI),2019-04-12,Merged,2096,12,12,,3
+Add AspNetCoreOperationSecurityScopeProcessor,2019-04-12,Merged,2090,86,0,,1
+Allow mime types that contain parameters to be identified as non binary,2019-04-03,Merged,2081,1,1,,1
+Release v12.1.0 (with patch),2019-04-02,Merged,2073,30,36,,1
+Patches/fix gen,2019-04-02,Merged,2072,30,36,,1
+Release v12.1.0,2019-04-02,Merged,2070,882,290,json csproj nuspec ,12
+v12.1.0,2019-04-02,Merged,2069,235,129,csproj nuspec ,21
+Fix overwriting global consumes and produces sections,2019-04-02,Merged,2067,246,130,,7
+Use controller name from ApiExplorer instead of custom logic for AspNetCoreToSwaggerGenerator,2019-04-02,Merged,2066,51,1,,4
+Add ControllerTarget setting and CSharpControllerTarget enum,2019-03-31,Merged,2064,64,27,xaml ,10
+[Typescript] ICloneable interface,2019-04-01,Closed,2063,8,0,liquid ,2
+Release v12.0.20,2019-03-30,Merged,2062,304,35,nuspec cs sln json ,26
+Allow detection of application/vnd.*+json as Json response,2019-03-30,Merged,2061,32,2,,2
+Release v12.0.19,2019-03-29,Merged,2060,256,194,csproj nuspec cs liquid ,27
+Avoid fallback type name when title is available,2019-03-29,Merged,2059,8,5,,2
+Fix generation date parameters using form data,2019-03-28,Merged,2057,2,0,,1
+Release v12.0.18,2019-03-24,Merged,2044,531,271,csproj nuspec cs ,18
+Add .NET Core 3.0 support,2019-09-26,Merged,2041,476,139,json csproj cs ,15
+Release v12.0.17,2019-03-20,Merged,2035,199,192,csproj nuspec liquid cs config ,26
+Support header parameters for CSharp controller code generation,2019-05-16,Merged,2033,487,327,csproj cs ,13
+Make call to UpdateJsonSerializerSettings conditional on HasBaseClass,2019-03-20,Merged,2030,1,1,,1
+Release v12.0.16,2019-03-19,Merged,2029,"1,516","1,372",csproj nuspec cs ,17
+Don't call UpdateJsonSerializerSettings in csharp template if not present,2019-03-19,Merged,2027,2,0,,1
+Disable eslint in generated typescript clients,2019-03-18,Merged,2025,1,0,,1
+TS: Support for url encoded requests,2019-03-21,Merged,2022,316,26,liquid ,9
+Release v12.0.15,2019-03-04,Merged,1994,442,292,md json csproj nuspec png js ,11
+changed body to data for axios template,2019-02-27,Merged,1988,1,1,,1
+Async Stream-based JSON serialization,2019-06-10,Merged,1976,92,42,liquid ,6
+Operation generation mode from first tag and path segments,2019-04-02,Merged,1973,173,0,csproj ,5
+"#1955 C# Web API Controller : Generator does not handle ""required"" fi…",2019-04-23,Merged,1965,205,56,,3
+Release v12.0.14,2019-02-14,Merged,1958,887,196,csproj config ,7
+No file response for 204,2019-02-18,Closed,1957,0,0,,0
+#1776 Omit brackets in operation names,2019-02-13,Merged,1954,19,2,,2
+Prevent empty link and script tags when custom CSS or custom JS not s…,2019-02-12,Merged,1948,39,10,cs ,5
+Mac compatibility,2019-02-10,Merged,1946,8,8,,1
+Add support for Axios,2019-02-14,Merged,1945,203,6,csproj liquid ,10
+Add support for custom CSS and JavaScript in the Swagger UI,2019-02-07,Merged,1943,15,1,cs ,5
+Support to ASP.Net Core ActionResult Type on controller generator,2019-04-02,Merged,1942,104,2,xaml ,7
+add a sample project for OWIN Middleware,2019-02-07,Merged,1927,434,0,csproj config ,7
+Release v12.0.13,2019-01-25,Merged,1925,347,274,json csproj nuspec targets cs ,22
+No FileResponse for 204 status code,2019-01-23,Merged,1902,245,229,csproj cs ,16
+Rename NSwag.MSBuild.CodeGeneration to NSwag.ApiDescription.Design,2019-01-18,Merged,1898,6,6,nuspec targets sln ,4
+Adds OperationSecurityScopeProcessor to NSwag.Sample.NETCore20.,2019-01-18,Merged,1894,4,2,,1
+Release v12.0.12,2019-01-16,Merged,1889,333,293,csproj cs ,23
+Release v12.0.11,2019-01-09,Merged,1877,416,199,json csproj cs liquid ,22
+Path param with model binder attribute,2019-01-08,Merged,1872,57,2,,3
+Add content type to file parameters;,2019-01-08,Merged,1871,20,3,,2
+Release v12.0.10,2019-01-03,Merged,1865,192,192,csproj config ,22
+Add tests for #1851,2018-12-28,Closed,1853,72,0,,1
+"Improve generation of ""consumes"" in ASP.NET Core, closes #420",2019-03-18,Merged,1849,178,30,ts cs ,22
+Release v12.0.9,2018-12-20,Merged,1846,227,213,csproj cs liquid ,23
+Release v12.0.8,2018-12-19,Merged,1839,240,207,csproj cs config ,24
+v12.0.8,2018-12-19,Merged,1838,240,207,csproj cs config ,24
+Remove unnecessary comment for pragma warning disable,2018-12-19,Merged,1832,1,1,,1
+Activating Open Collective,2019-01-08,Merged,1831,33,1,,0
+Release v12.0.7,2018-12-13,Merged,1827,225,179,csproj config ,22
+Release v12.0.6,2018-12-12,Merged,1820,118,53,csproj cs nuspec js json ,24
+Readme for npmjs.com: adding .net core 2.2 support,2018-12-11,Merged,1813,11,3,,0
+Fix for .net core 2.2 support in npm package,2018-12-11,Merged,1812,3,3,,1
+Release v12.0.5,2018-12-07,Merged,1804,"2,977",295,bat json csproj cs liquid ,26
+Use string in SwaggerPathItem instead of enum,2019-01-09,Merged,1802,30,46,,11
+Add .Net Core 2.2 support to readme,2018-12-06,Merged,1801,1,1,,0
+Add .Net Core 2.2 Support,2018-12-06,Merged,1799,"2,883",219,json csproj cs ,13
+Release v12.0.4,2018-11-30,Merged,1787,218,82,cs liquid ,18
+handle plain response,2018-11-29,Merged,1786,102,0,liquid ,4
+Release v12.0.3,2018-11-27,Merged,1775,88,88,csproj cs ,25
+Release v12.0.2: Fix configs,2018-11-27,Merged,1774,8,4,nswag ,7
+Release v12.0.2,2018-11-27,Merged,1773,312,182,json csproj cs config ,24
+Test for #1653,2019-02-19,Merged,1768,140,40,cs ,2
+Release v12.0.1,2018-11-26,Merged,1767,206,222,json csproj html cs ,23
+Use ReDoc v2 on AspNet.Owin (#1657),2018-11-22,Merged,1764,5,5,,1
+Correct the docs for AddOpenApiDocument(...),2018-11-21,Merged,1762,1,1,,1
+Improvements to service extensions.,2018-11-30,Merged,1755,37,2,,1
+Release v12.0.0,2018-11-16,Merged,1747,"3,618","3,056",md bat dockerignore cs Nginx/Dockerfile json csproj sln ,11
+v12,2018-11-16,Merged,1743,255,254,csproj ,20
+fixed #1737 template update,2018-11-15,Merged,1741,2,2,,1
+Add support for x-www-form-urlencoded (CSharp),2018-11-15,Merged,1739,74,11,liquid ,3
+Failing unit test for #1737,2018-11-15,Closed,1738,45,0,,1
+Remove global.json,2018-11-14,Merged,1736,13,6,config json ,3
+Add TransformToExternalPath setting,2018-11-12,Merged,1728,664,165,dockerignore cs Nginx/Dockerfile json csproj sln dcproj yml ,13
+Change default settings,2018-11-06,Merged,1719,41,27,js ,10
+Use AddOpenApiDocument/AddSwaggerDocument directly on services,2018-11-05,Merged,1714,133,147,,6
+[C# Client] Boolean query parameters are now lowercase,2018-11-02,Merged,1711,4,1,,1
+Rename TagSorter -> TagsSorter to match what swagger-ui needs.  #1707,2018-11-01,Merged,1708,5,11,cs ,3
+Only generate the blobToText and throwException if it is needed,2018-11-05,Merged,1705,10,4,liquid ,2
+"Add ApiGroupNames setting, remove ApiVersionProcessor and improve api versioning",2018-11-02,Merged,1701,67,26,csproj xaml ,13
+Upgrade ASP.NET Core dependencies (x64/x86),2018-11-05,Merged,1696,8,1,,3
+Quick fix: Correct typo in `NSwag.Sample.NETCore20.Startup`,2018-10-26,Merged,1688,1,1,,1
+Add `IDocumentProvider` service and its implementation,2018-10-26,Merged,1678,643,278,cs ,5
+Add `IDocumentProvider` service and its implementation (2),2018-10-23,Closed,1677,498,270,cs ,6
+Migrate to use Xunit,2018-11-01,Merged,1669,476,957,cs ,5
+Add NSwag.MSBuild.CodeGeneration package,2018-11-27,Merged,1659,127,0,nuspec targets sln ,4
+Add `IDocumentProvider` service and its implementation,2018-10-26,Closed,1658,"1,227",70,cs ,4
+Use ReDoc v2 on AspNet.Owin,2018-10-10,Merged,1657,5,5,,1
+"Add CreateWebHostBuilderMethod & AspNetCoreEnvironment setting, implement UseDocumentProvider & DocumentName",2018-11-02,Merged,1655,358,208,,6
+Owin SwaggerMiddleware IIS issue with SwaggerUI and Application folder,2018-10-03,Closed,1647,0,0,,0
+Release v11.20.1,2018-10-02,Merged,1644,74,50,cs nuspec json xaml ,30
+Release v11.20.0,2018-09-29,Merged,1639,"1,278","117,071",bat nswag json csproj cs ,11
+v11.20.0,2018-09-28,Merged,1638,83,83,csproj cs ,25
+"RxJS: Import from only if needed, closes #1533",2018-09-28,Merged,1637,1,1,,1
+"Integrate new NJS version: Fixes for OpenAPI, improve allOf inheritance",2018-09-26,Merged,1631,475,317,json csproj config cs liquid ,24
+Update README.md,2018-09-22,Merged,1627,1,1,,0
+Use versioned api explorer when available,2018-09-26,Merged,1622,89,17,cs ,5
+Added more Swagger UI 3 display settings,2018-09-24,Merged,1621,37,1,cs ,2
+Use ReDoc v2,2018-09-20,Merged,1619,5,5,,1
+[WIP] Added missing nuget and removed the version number,2018-09-21,Closed,1617,10,1,csproj ,3
+C# Client: Enhance exception message with status and response,2018-09-21,Merged,1612,2,2,,1
+Release v11.19.2,2018-09-14,Merged,1609,456,328,csproj cs config liquid ,21
+[WIP] Switch to api explorer based required parameter handling,2018-09-20,Closed,1608,38,40,,6
+Optional/required parameters: Use RequireParametersWithoutDefault fallback setting and API Explorer,2018-09-20,Merged,1606,169,42,xaml ,10
+Use IPropertyNameGenerator to determine property names of complex que…,2018-09-11,Merged,1592,150,9,liquid ,4
+Release v11.19.1,2018-09-07,Merged,1586,891,524,csproj cs ,27
+Release v11.19.0,2018-09-05,Merged,1575,"1,397",770,bat cs nswag json ps1 csproj ,14
+Various fixes,2018-08-31,Merged,1569,557,341,,10
+Add local nuget repository as refPaths,2018-08-30,Merged,1561,41,22,cs json xaml ,9
+[WIP] Revert query parameter required handling,2018-08-28,Merged,1558,69,37,,5
+Release v11.18.7,2018-08-25,Merged,1552,529,115,cs config ,16
+Adds support for ExportTypes.,2018-08-20,Merged,1543,468,88,config cs ,11
+"Fixes ""return null"" problem in issue #1509.",2018-08-17,Merged,1542,2,2,,1
+Perform exact request path matching for UI index,2018-08-20,Merged,1540,2,2,,2
+Release v11.18.6,2018-08-15,Merged,1538,36,28,liquid cs nuspec json ,25
+Fixes #1536,2018-08-15,Merged,1537,3,1,,1
+Clears schemes if no host should be used. Fixes #1517.,2018-08-11,Merged,1534,10,4,,1
+Release v11.18.5,2018-08-10,Merged,1532,190,41,liquid cs nuspec json ,30
+Changed instances of @(Reference) to @(ReferencePath),2018-08-10,Merged,1531,2,2,,2
+Release v11.18.4,2018-08-09,Merged,1528,29,27,nuspec json cs ,28
+Release v11.18.3,2018-08-08,Merged,1522,922,688,config ,22
+Use ApiParameterDescription.IsRequired from API Explorer with fallback,2018-08-09,Merged,1521,113,5,,5
+Release v11.18.2,2018-08-06,Merged,1511,42,35,nuspec json cs ,25
+Release v11.18.1,2018-08-03,Merged,1505,335,236,sln cs json csproj config liquid ,24
+Treat explicit parameters as string,2018-08-02,Merged,1501,71,8,,3
+allow both build and buildCrossTargeting.,2018-08-01,Merged,1498,19,18,props ,2
+Update package,2018-07-30,Merged,1494,1,1,,1
+Release v11.18.0,2018-07-30,Merged,1493,854,443,json csproj config liquid ,18
+remove extra parentheses,2018-07-26,Merged,1482,1,1,,1
+Fixes bug where incorrect c# code generated for DeepObject parameters…,2018-07-26,Merged,1474,202,157,cs ,2
+"Use yaml and json resolver, update NJS",2018-07-23,Closed,1470,171,82,config cs ,18
+Overload for FromJsonAsync with JsonReferenceResolver factory support,2018-07-23,Merged,1462,397,84,csproj config cs json yaml ,23
+Release v11.17.21,2018-07-13,Merged,1461,141,29,cs liquid nuspec json ,30
+Release v11.17.20,2018-07-11,Merged,1457,308,130,map config cs liquid ,31
+Remove double space,2018-07-11,Merged,1456,2,2,,1
+"Add title, description and version to C# controller template model",2018-07-11,Merged,1455,9,0,,1
+Add support for using swagger `operationId` property as route name in `RouteAttribute`s of generated controllers,2018-07-13,Merged,1454,118,6,liquid xaml ,8
+Ensure status code is correctly set for default response,2018-07-06,Merged,1441,154,3,,2
+Fixup license headers,2018-07-04,Merged,1434,24,9,,3
+[WIP] Add LowercaseUrls support (ASP.NET Core),2018-08-03,Closed,1433,71,4,,4
+Release v11.17.19,2018-07-02,Merged,1431,197,82,cs nuspec json ,28
+[WIP] Add ISwaggerGeneratorSettingsFactory support,2018-08-31,Merged,1430,647,333,,8
+Release v11.17.18,2018-06-28,Merged,1426,163,148,config liquid cs ,24
+Release v11.17.17,2018-06-26,Merged,1417,412,130,config cs ,22
+Release v11.17.16,2018-06-22,Merged,1414,295,174,csproj html cs config ,22
+Fix return type generation for nested Task<ActionResult<T>> types,2018-06-19,Merged,1396,1,3,,1
+[WIP] Add extension data to document and operations,2018-09-05,Merged,1391,193,2,csproj ,6
+Remove unnecessary enumerations,2018-06-17,Merged,1390,111,57,json htm ,4
+Improve .NET Core 2.1 sample,2018-06-17,Merged,1385,104,43,json ,2
+Release v11.17.14,2018-06-14,Merged,1384,108,98,csproj config ,24
+Release v11.17.14,2018-06-13,Merged,1381,"2,855",251,cs json csproj nswag ,13
+Updated and more efficient Schema Version detection,2018-06-13,Merged,1380,50,6,,2
+Updates for Version Detection & Addition of Bearer Authentication,2018-06-13,Closed,1379,35,2,,3
+Write file only if there were changes,2018-06-08,Merged,1371,9,3,,1
+Release v11.17.13,2018-06-06,Merged,1368,38,33,csproj nuspec json wixproj cs ,26
+Release v11.17.12,2018-05-29,Merged,1352,89,89,config ,22
+Release v11.17.11,2018-05-28,Merged,1350,30,31,cs nuspec json ,26
+Release v11.17.10,2018-05-24,Merged,1346,131,108,config cs liquid ,20
+Use TestServer to generate spec from ASP.NET Core assemblies,2018-06-08,Merged,1343,88,25,csproj sln ,10
+Adds support for deep objects in query parameters.,2018-06-11,Merged,1342,121,0,cs ,4
+Use BaseDirectory to look for DLLs in AspNetCoreToSwaggerCommand,2018-05-22,Merged,1340,8,1,,1
+Add .NET Standard 1.6 to NSwag.ConsoleCore/Launcher,2018-05-22,Closed,1339,10,3,cs ,3
+"Fix C# Web API Controller generator template when ""wrapResponses"": true",2018-05-21,Merged,1335,1,1,,1
+Release v11.17.9,2018-05-18,Merged,1332,33,31,html liquid nuspec json cs ,29
+Release v11.17.7,2018-05-18,Merged,1331,433,219,cs html ,15
+Add support for Angular 6 Singleton Provider (non-test),2018-05-18,Merged,1330,26,4,liquid ,4
+Add support for RxJs 6,2018-05-18,Merged,1329,279,135,,6
+Release v11.17.6,2018-05-16,Merged,1325,"2,612",146,csproj cs ,21
+Release v11.17.5,2018-05-14,Merged,1320,38,27,cs nuspec props json ,27
+NSwagExe_Core20 broken in 11.7.4,2018-05-14,Merged,1319,2,2,,1
+Release v11.17.4,2018-05-11,Merged,1317,96,55,bat json csproj cs nuspec props js ,29
+[WIP] Add .NET Core 2.1 (NetCore21) runtime,2018-05-11,Merged,1316,44,28,json cs csproj nuspec props js wixproj cmd ,11
+Fixes null ref exception when generating 3.0 clients with request bodies,2018-05-01,Merged,1308,1,1,,1
+Release v11.17.3,2018-04-27,Merged,1306,326,327,csproj config liquid ,18
+CSharp generator - check for null response content.,2018-04-20,Merged,1293,6,6,,2
+Release v11.17.2,2018-04-20,Merged,1292,127,105,cs config ,22
+Include controller type when searching for version,2018-04-19,Merged,1289,1,0,,1
+Release v11.17.1,2018-04-19,Merged,1286,230,258,csproj config cs ,16
+Fix TS request url generation,2018-04-16,Merged,1276,2,2,,1
+Release v11.17.0,2018-04-07,Merged,1264,"2,282","1,290",csproj cs config liquid ,20
+Var substitution fix,2018-04-03,Closed,1254,9,3,,1
+Allow variables to contain backslashes,2018-04-03,Merged,1252,4,4,,1
+"Revert to use object literal instead of Headers (TS, fetch)",2018-03-26,Merged,1239,2,2,,1
+Release v11.16.1,2018-03-24,Merged,1237,643,205,html js map css cs config ,33
+Move command entry points to NSwag.Commands,2018-03-26,Merged,1236,14,28,sln csproj ,5
+Release v11.16.0,2018-03-21,Merged,1229,"5,313","1,807",json csproj cs ,6
+Add ASP.NET Core 2.1 sample,2018-03-18,Merged,1223,"2,965",331,cs csproj ,4
+Improved exception handling in middlewares,2018-03-12,Merged,1219,65,20,,5
+Release v11.15.4,2018-03-04,Merged,1212,584,319,cs config liquid ,16
+Do not call UpdateJsonSerializerSettings if method does not exists.,2018-02-28,Closed,1208,2,0,,1
+Added explicit conversion from byte[] to Base64 string,2018-02-23,Merged,1206,4,0,,1
+Bugfix/1075,2018-02-15,Merged,1194,70,8,liquid ,3
+Release v11.15.3,2018-02-14,Merged,1192,24,24,cs nuspec json ,24
+Release v11.15.2,2018-02-13,Merged,1191,208,198,config cs ,22
+Release v11.15.1,2018-02-12,Merged,1186,215,191,cs config liquid ,19
+Release v11.15.0,2018-02-11,Merged,1182,363,249,csproj cs ,9
+Release v11.14.1,2018-02-08,Merged,1181,36,34,cs nuspec json ,24
+Fixed samples,2018-02-07,Merged,1180,164,164,config cs ,17
+Release v11.14.0,2018-02-07,Merged,1178,"8,449",478,bat csproj cs config ,15
+Remove NSwag.AspNetCore.Launcher dependency from NSwag.ConsoleCore,2018-02-07,Merged,1176,16,3,cs csproj ,3
+Release v11.13.2,2018-02-05,Merged,1174,236,186,cs config ,17
+Release v11.13.2,2018-02-01,Merged,1169,170,112,config cs ,20
+Release v11.13.1,2018-01-26,Merged,1155,24,24,cs nuspec json ,24
+Release v11.13.0,2018-01-25,Merged,1153,"2,605",638,csproj html js map css cs ,16
+Set swagger parameter defaults when generating partial controllers,2018-03-19,Merged,1147,179,15,csproj liquid ,8
+Separate Logic Between Required and Optional Headers for Null Checking and Throwing Exceptions,2018-01-08,Merged,1131,13,4,,1
+Fix for Empty Http Request Headers When the Value for the Header Is Null,2018-01-05,Merged,1126,4,2,,1
+Introduce AspNetCoreSwaggerMiddleware,2018-01-05,Merged,1118,741,6,csproj ,6
+Release v11.12.16,2017-12-22,Merged,1112,120,124,cs config liquid ,13
+Release v11.12.15,2017-12-21,Merged,1109,89,89,config liquid ,22
+Fixed unit test,2017-12-20,Merged,1107,1,1,,1
+Release v11.12.14,2017-12-20,Merged,1106,451,247,html cs config liquid ,18
+Release v11.12.13,2017-12-13,Merged,1100,94,94,config ,20
+Release v11.12.12,2017-12-11,Merged,1099,470,404,config ,13
+Release v11.12.11,2017-12-08,Merged,1096,528,426,html cs config liquid ,22
+Expand environment variables when using configuration file,2017-12-10,Closed,1094,6,2,,1
+Fixed unit test for AngularTest,2017-12-06,Merged,1092,1,1,,1
+We forgot to do this cast,2017-12-04,Merged,1089,2,2,,1
+Release v11.12.10,2017-12-01,Merged,1085,312,330,csproj config cs liquid ,15
+fixed method generation with WrapResponse #1079,2017-11-30,Merged,1080,2,3,,1
+Move npm to engines in packages.json,2017-11-23,Merged,1073,1,1,,1
+Problems to recollet errors in HttpClientModule Angular 4.3+,2017-11-27,Merged,1071,8,8,,4
+Release v11.12.9,2017-11-16,Merged,1066,75,75,cs json ,20
+Release v11.12.8,2017-11-14,Merged,1065,298,235,config cs ,16
+Recognize use of Microsoft.AspNetCore.Mvc.FromFormAttribute,2017-11-10,Merged,1055,37,1,,3
+Release v11.12.7,2017-11-08,Merged,1053,153,96,cs liquid ,22
+Release v11.12.6,2017-11-08,Merged,1051,180,180,config ,22
+Release v11.12.5,2017-11-08,Merged,1050,91,91,cs ,18
+Release v11.12.4,2017-11-07,Merged,1049,74,71,cs nuspec json ,24
+Release v11.12.3,2017-11-07,Merged,1047,147,147,config ,22
+Add support for aspnetcore2swagger command,2018-01-05,Merged,1046,"1,104",7,cs ,3
+Fixed package versions,2017-11-06,Merged,1045,3,3,json ,3
+Release v11.12.2,2017-11-06,Merged,1044,157,157,config liquid ,18
+Release v11.12.1,2017-11-06,Merged,1041,39,35,snk nuspec json ,30
+Release v11.12.0,2017-11-06,Merged,1040,"4,500","22,361",png csproj cs config ,12
+WIP aspnetcore2swaggercommand,2017-12-15,Closed,1034,844,2,csproj targets ,6
+Refactored NSwag.SwaggerGeneration.AspNetCore,2017-11-01,Merged,1028,151,259,csproj nuspec snk config ,21
+Release v11.11.3,2017-10-28,Merged,1027,319,181,config cs liquid ,20
+Release v11.11.2,2017-10-26,Merged,1022,399,461,config cs ,14
+Release v11.11.1,2017-10-25,Merged,1018,"2,562",563,cs config ,15
+"Introduce seperator for StringArrayConverter, Fixes #1013",2017-10-25,Merged,1014,13,3,xaml ,2
+Release v11.11.0,2017-10-19,Merged,1005,241,204,config cs tt ,18
+Release v11.10.0,2017-10-17,Merged,1003,"1,299",622,css html ,6
+Fix compilation issues of generated Angular client,2017-10-17,Merged,1002,5,5,tt ,2
+"Allow environment variables in search path, assemblies",2017-10-13,Merged,996,1,0,,1
+WIP Initial work for NSwag.SwaggerGenerator.AspNetCore,2017-10-31,Merged,994,"2,062",224,csproj ,6
+Release v11.9.3,2017-10-12,Merged,993,203,181,config cs ,21
+Release v11.9.2,2017-10-11,Merged,989,"2,921","1,417",config cs ,19
+Release v11.9.1,2017-10-09,Merged,985,809,544,cs config tt ,22
+WIP Custom CSharp single client class operation name generator.,2017-10-27,Merged,978,129,0,,4
+Release v11.9.0,2017-10-03,Merged,975,273,166,config cs ,18
+Fix #972 Response references are not resolved,2017-10-03,Closed,973,118,1,csproj ,3
+Release v11.8.3,2017-09-28,Merged,969,33,27,cs nuspec json ,21
+"v11.8.2, fix: Save document with relative paths",2017-09-26,Merged,965,20,20,cs nuspec json ,20
+Release v11.8.1 (with fix),2017-09-25,Merged,964,3,5,,2
+Release v11.8.1,2017-09-25,Merged,963,32,19,cs nuspec json ,20
+Release v11.8.0,2017-09-25,Merged,962,"2,169","1,785",csproj cs ,6
+Use full/core command line binaries in NSwagStudio and fallback #953,2017-09-21,Merged,960,"1,021",523,csproj cs ,7
+Fix #956 NSwag.Npm: the package requires npm ^3.10.8,2017-09-21,Merged,957,2,2,,1
+Release v11.7.2,2017-09-15,Merged,951,"118,240",967,cs ,5
+Add UseSwaggerReDoc() and UseSwaggerUi3(),2017-09-13,Merged,944,"117,610",410,csproj ,4
+Release v11.7.1,2017-09-11,Merged,940,21,21,nuspec json cs ,21
+Fixed versions,2017-09-11,Merged,939,10,10,,10
+Release v11.7.0,2017-09-11,Merged,938,552,"2,906",csproj cs config ,18
+Refactoring (v11.7.0),2017-09-11,Merged,937,417,449,config cs ,21
+Update SwaggerToCSharpGeneratorSettings.cs,2017-09-11,Closed,930,2,2,,1
+Release v11.6.1,2017-09-05,Merged,921,24,24,csproj nuspec props json cs ,22
+Release v11.6.0,2017-09-04,Merged,919,"3,545","1,749",bat exe csproj cs ,10
+Fix issue with .net core 2.0 with wrong folder structure,2017-08-31,Merged,915,1,1,,1
+Improved CI build,2017-08-31,Merged,914,"1,397",15,bat exe json nuspec props ,8
+Release v11.5.1,2017-08-29,Merged,910,"2,414",71,csproj nuspec json ,20
+Release v11.5.0,2017-08-29,Merged,907,"2,484","1,529",md bat csproj cs config ,16
+Added CancellationToken to web api controller,2017-08-25,Merged,906,395,126,csproj ,5
+Release v11.4.3,2017-08-24,Merged,903,756,318,cs tt ,18
+Release v11.4.2,2017-08-23,Merged,900,266,88,config ,21
+Release v11.4.1,2017-08-23,Merged,896,38,34,cs tt nuspec json ,23
+Add WrapResponses to Angular client,2017-08-25,Merged,894,184,"2,000",cs tt ,7
+Release v11.4.0,2017-08-22,Merged,893,"6,793","6,203",json csproj cs config ,18
+Release v9.4.7,2017-08-22,Closed,892,922,368,json cs csproj ,15
+Add support for .NET Core 2.0,2017-08-16,Merged,888,33,22,json csproj config js ,12
+delete legacy file global.json,2017-08-16,Merged,886,0,6,,1
+SwaggerToCSharpWebApiControllerGenerator - add attributes on routes problem #870,2017-08-16,Closed,885,140,7,csproj tt ,8
+Optional generation of abstract WebAPI controllers,2017-08-16,Merged,884,478,96,csproj ,5
+Release v11.3.5,2017-08-14,Merged,882,"3,157","1,220",bat csproj config cs ,13
+"Added support for --x86 (NPM, MSBuild, NSwagStudio)",2017-08-10,Merged,876,355,110,csproj nuspec props md js sln ,6
+Use TransferRequestHandler instead of runAllManagedModulesForAllRequests,2017-08-09,Merged,874,2,1,,1
+Added OutputType directive to NSwag.ConsoleCore,2017-07-19,Merged,851,1,0,,1
+Release v11.3.3,2017-07-15,Merged,847,"1,385",809,config ,21
+Release v11.3.2,2017-07-14,Merged,846,269,273,csproj ,8
+Release v11.3.1,2017-07-13,Merged,844,730,549,csproj config cs ,16
+Release v11.3.0,2017-07-10,Merged,840,"5,165","1,117",csproj config cs ,12
+Unified and customizable JSON serialization settings,2017-07-03,Merged,827,72,21,tt nswag xaml ,7
+Add support for changing default date/time parameter formatting,2017-06-29,Merged,826,24,6,tt xaml ,5
+Exclude url test,2017-06-28,Merged,824,1,1,,1
+Release v11.2.0,2017-06-28,Merged,823,"31,484",709,cs config ,13
+Fix clients encoding parameter values into URIs using current culture,2017-06-25,Merged,819,701,135,tt ,4
+Release v11.1.2,2017-06-20,Merged,809,202,106,config cs ,16
+Release v11.1.1,2017-06-18,Merged,803,960,842,csproj cs config ,17
+Release v11.1.0,2017-06-15,Merged,796,"1,359","1,676",exe csproj cs ,11
+Release v11,2017-06-13,Merged,793,"139,656","12,440",bat csproj cs config ,9
+Fix exception when using custom route attributes,2017-06-07,Merged,784,181,18,,4
+Follow class hierarchy when locating RouteAttributes,2017-06-07,Merged,783,85,5,cs ,3
+Bugfixes for when Model.WrapResponses is enabled,2017-06-04,Merged,779,8,4,,1
+Release v10.6,2017-04-25,Merged,739,526,340,csproj config ,21
+Release v10.5,2017-04-21,Merged,735,376,330,csproj tt ,23
+Release v10.4,2017-04-20,Merged,732,320,296,csproj config ,23
+Release v10.3,2017-04-19,Merged,729,"2,319","2,313",csproj config ,23
+Release v10.2,2017-04-18,Merged,728,"1,815","1,556",csproj ,11
+Correctly serialize readonly properties,2017-04-12,Merged,718,115,71,csproj ,4
+Release v10.1,2017-04-10,Merged,714,287,283,cs csproj tt ,13
+Fix ignoring parameters,2017-04-10,Merged,713,2,2,,1
+Release v10.0,2017-04-07,Merged,708,"10,444","8,063",md cs csproj ,6
+Typescript type improvements,2017-03-30,Merged,698,"3,747","2,971",tt ,4
+Fix SwaggerDocument.BasePath when MiddlewareBasePath is null,2017-03-21,Merged,689,2,2,,2
+Addressing several routing issues.,2017-03-20,Merged,683,205,45,csproj js map ,12
+Release v9.12,2017-03-16,Merged,681,468,285,json cs csproj config ,23
+Release v9.11,2017-03-14,Merged,677,"2,275","1,775",cs csproj config xproj json ,22
+Add NSwagDir property to the project properties,2017-03-13,Merged,673,2,1,,1
+TypeScript response code handling bug,2017-03-13,Closed,667,236,159,csproj ,2
+Added the HttpClientType property which allow you to control the type of the HttpClient.,2017-03-12,Merged,666,126,22,tt ,6
+Release v9.10,2017-03-09,Merged,663,285,229,cs tt ,17
+Release v9.9,2017-03-07,Merged,659,545,553,csproj config json ,28
+Fix external reference to jsonschema ($ref with path to another file),2017-03-09,Closed,658,3,1,,1
+Release v9.8,2017-03-06,Merged,654,607,539,json tt ,15
+Release v9.7,2017-03-03,Merged,648,"11,718","19,666",md png vsdx bat csproj cs ,7
+Added support for all Web API routing conventions.,2017-03-01,Merged,645,10,4,,1
+Adds support for custom HttpParameterBinders and Type Mapped primitives.,2017-02-28,Merged,636,361,93,cs ,2
+Use DynamicApis.HttpGetAsync to resolve encoding issues,2017-02-27,Closed,635,39,44,,1
+Update TS tools and settings,2017-02-27,Merged,632,529,338,js map json ts ,10
+Add TypeScript compilation with strict compilation options,2017-02-26,Merged,630,"1,988","10,302",cs tt ,5
+Fix Angular 2 compiler errors from #615,2017-02-26,Merged,629,42,25,tt ts ,6
+Added support for Web API custom parameter binders of complex types.,2017-02-26,Closed,628,559,265,cs config ts ,5
+Fix TypeScript compiler errors in #615,2017-02-26,Closed,627,"4,803","4,786",config ,2
+Release v9.6,2017-02-24,Merged,626,"8,607","7,844",cs csproj html config ,9
+Extended SwaggerUI Owin settings to support configuring the Swagger UI,2017-02-24,Merged,623,167,146,cs ,4
+Specify text/binary types explicitly,2017-02-23,Closed,618,156,5,,1
+NSwag/NSwag#604: Clean trailing [?&] characters in URL,2017-02-21,Merged,610,240,80,tt ts ,4
+Optimize string manipulation,2017-02-24,Merged,607,536,501,,1
+Restore setter for `TypeScriptGeneratorSettings`,2017-02-20,Closed,606,1,1,,1
+Release v9.5,2017-02-16,Merged,601,38,43,json nuspec xaml ,31
+Release v9.4,2017-02-16,Merged,599,"1,274",779,json ,13
+Release v9.3,2017-02-15,Merged,597,"3,225","2,539",cs csproj config json ,18
+Fetch typescript fixes,2017-02-13,Merged,588,5,5,,2
+Release v9.2,2017-02-09,Merged,582,918,893,json ,12
+Release v9.1,2017-02-09,Merged,580,605,593,csproj config json ,16
+Improved controller response generation,2017-02-12,Merged,578,173,69,,1
+Release v9.0,2017-02-08,Merged,576,"21,476","17,237",cs csproj config json ,17
+Create response object webapi,2017-02-08,Merged,572,244,204,csproj ,8
+Replace try/finally with using.,2017-01-31,Closed,552,363,382,,0
+Added inline delegate-configuration for settings,2017-01-31,Merged,550,59,0,,1
+Added inline delegate-configuration settings,2017-01-30,Closed,549,1,27,,1
+Update OperationParameterProcessor.cs,2017-02-10,Closed,547,8,2,,1
+Release v8.8,2017-01-22,Merged,534,"6,203","3,182",csproj config json ,17
+Fixed an issue of failing to identify a path-parameter embedded in a …,2017-01-18,Merged,530,71,7,,2
+Fixed an issue of failing to identify a path-parameter embedded in a …,2017-01-18,Closed,529,114,19,,2
+export keyword for module and namespace blocks in FileTemplate.tt for TypeScript.,2017-01-15,Closed,526,3,3,,1
+Release v8.6,2017-01-12,Merged,519,715,396,cs csproj config json ,18
+"added ""*"" support for ClassNames",2017-01-12,Merged,517,19,1,,3
+Release v8.5,2017-01-05,Merged,507,316,197,cs csproj config json ,30
+Release v8.4,2017-01-04,Merged,505,"1,825",657,json tt ,13
+Fix a bug and temporary solve the issue,2017-01-03,Merged,499,113,114,tt ,2
+Release v8.3,2016-12-30,Merged,498,"1,877","1,048",csproj config json ,19
+"""title"" field in camel case name is not ignored",2016-12-28,Merged,496,2,1,,1
+Enable binding a complex object array to webapi 2,2016-12-29,Merged,493,12,2,tt ,2
+Fixed issue where parameter from Parent did not get merged down in…,2016-12-25,Merged,490,76,1,,2
+Release v8.2,2016-12-23,Merged,489,"4,378","3,977",csproj config json ,19
+Merged vNext,2016-12-23,Merged,488,995,883,cs config ,12
+Release v8.1,2016-12-14,Merged,478,"2,413","2,412",csproj config json ,23
+Release v8.0,2016-12-08,Merged,472,"10,138","5,696",md cs csproj config snk json ,17
+NSwag.AspNetCore is now signed with a strong name.,2016-12-08,Merged,471,2,1,json ,2
+Merged vNext,2016-11-30,Merged,461,"1,322","1,290",csproj config cs ,15
+Remove space between colon and `disable` in `tslint: disable`,2016-11-30,Merged,460,3,3,tt ,2
+Reapply changes from #453,2016-11-27,Merged,454,"1,365","1,710",tt ,2
+Add missing property and trivial style changes,2016-11-27,Closed,453,"1,249","1,457",tt ,2
+Fixed UI again,2016-11-25,Merged,452,1,0,,1
+Release v7.7,2016-11-25,Merged,451,30,132,xaml csproj ,10
+v7.7,2016-11-25,Merged,449,"1,107","24,081",,2
+Release v7.6,2016-11-23,Merged,445,538,349,csproj config json ,31
+Release v7.5,2016-11-22,Merged,440,33,33,json csproj config nuspec ,29
+Release v7.4,2016-11-22,Merged,438,182,126,csproj config json ,32
+Release v7.3,2016-11-21,Merged,434,"1,659","1,566",csproj config json ,17
+Merge v7.3,2016-11-21,Merged,433,"1,659","1,566",csproj config json ,17
+Release v7.2,2016-11-20,Merged,431,"4,901","4,741",png vsdx cs json csproj ,16
+Explicitly allow undefined as type of jsonParseReviver,2016-11-21,Closed,423,8,8,tt ,6
+Add NullHandling parameter to AssemblyTypeToSwaggerCommandBase,2016-11-16,Closed,421,7,0,,1
+Release v7.1,2016-11-14,Merged,417,734,"9,789",md png vsdx cs css js ,10
+Release v7.0,2016-11-08,Merged,410,"3,590","2,758",md png vsdx bat exe csproj cs ,18
+Add Aurelia to list of frameworks supported in README.md,2016-11-02,Merged,402,1,1,,0
+Release v6.21,2016-11-02,Merged,401,"3,346","2,342",md bat exe cs csproj config json ,20
+Added jsonParseReviver to Angular2 template (TS),2016-11-02,Merged,400,289,238,tt csproj ,7
+Add date reviver to fetch (#62),2016-11-02,Merged,399,185,182,,0
+Release v6.20,2016-10-31,Merged,397,17,14,json nuspec ,15
+Release v6.19,2016-10-31,Merged,396,69,69,csproj config json nuspec ,33
+Release v6.18,2016-10-31,Merged,393,134,130,csproj config json ,27
+Release v6.17,2016-10-29,Merged,388,"1,655",462,csproj config json ,16
+Fix argument name to match property name,2016-10-29,Merged,386,1,1,,1
+fixed AngularJS client; promise not correctly resolved for unsuccessful response code,2016-10-26,Merged,384,81,39,tt ,2
+Release v6.16,2016-10-25,Merged,383,892,820,csproj config json ,13
+Release v6.15,2016-10-21,Merged,380,181,183,csproj config json ,27
+Release v6.14,2016-10-20,Merged,378,979,942,csproj config json ,14
+Release v6.13,2016-10-18,Merged,376,"1,651","1,381",csproj snk cs html config json ,17
+Release v6.12,2016-10-13,Merged,367,"1,747","1,711",csproj config json ,7
+bug in AngularJS client generation,2016-10-13,Merged,363,2,2,tt ,2
+bug in AngularJS client generation,2016-10-13,Closed,362,2,2,tt ,2
+Release v6.11,2016-10-12,Merged,357,392,150,cs json ,22
+added using System.Collections.Generic as rsuter requested,2016-10-12,Merged,355,17,0,,3
+"added ExtensionData attribute to cater vendor extensions for Info, SecurityScheme and Tag object",2016-10-12,Closed,354,17,0,,3
+Release v6.10,2016-10-11,Merged,353,45,47,json ts nuspec ,25
+Release v6.9,2016-10-11,Merged,352,148,122,csproj config json ,27
+Release v6.8,2016-10-11,Merged,351,142,32,json csproj nuspec config ,23
+Release v6.7,2016-10-11,Merged,349,395,324,cs csproj config json tt ,20
+Don't generate FileParameter class in C# client if not necessary.,2016-10-10,Merged,347,51,31,tt ,3
+Removed unnecessary Owin dependency,2016-10-09,Merged,346,0,10,config ,2
+Release v6.6,2016-10-07,Merged,344,235,148,csproj config json tt ,16
+Adding Extension Data to SwaggerOperation to represent Swagger Extens…,2016-10-06,Merged,342,4,0,,1
+Release v6.5,2016-10-05,Merged,339,199,154,csproj config json ,18
+Release v6.4,2016-10-05,Merged,335,822,612,csproj config json ,18
+Release v6.3,2016-10-04,Merged,331,15,14,json nuspec ,14
+Release v6.2,2016-10-03,Merged,330,23,19,json nuspec ,15
+Release v6.1,2016-10-03,Merged,329,58,50,cs json nuspec ,19
+Another fix for .NET Core,2016-10-03,Merged,327,114,216,config cs json ,13
+Fix for v6.0,2016-10-03,Merged,326,156,150,config cs json ,15
+Release v6.0,2016-10-03,Merged,325,"14,716","7,610",gitignore md cs csproj nuspec config ,7
+Pull Request - Pulling Extension Data,2016-09-30,Merged,322,141,1,,2
+Remove body when for fetch with GET/HEAD (TS),2016-09-29,Merged,317,88,61,,1
+Changed RequestOptionsArgs to RequestInit for fetch (TS),2016-09-28,Merged,314,5,5,tt ,2
+Merge let/const,2016-09-20,Merged,299,"4,427",535,tt ,5
+Exception handling,2016-09-20,Merged,298,"4,411","2,728",config cs tt ,13
+Addition of UseHttpRequestMessageCreationMethod option,2016-09-20,Merged,297,369,331,tt js map ,14
+Master,2016-09-20,Merged,295,"1,249","1,249",tt ,4
+Release v5.6,2016-09-08,Merged,285,"8,667",826,csproj config ,10
+Release v5.5,2016-09-06,Merged,270,"10,237",125,cs csproj config json tt ,23
+Release v5.4,2016-09-02,Merged,267,"13,020","3,591",csproj css png html js ,14
+Release v5.3,2016-08-29,Merged,261,"3,373","2,853",cs csproj config json ,17
+Fix query without params for all,2016-08-25,Merged,258,"2,481","2,412",tt csproj ,10
+FIx getAll for AngularJS,2016-08-25,Merged,257,183,166,,0
+Client classes in FileTemplateModel,2016-08-24,Merged,255,10,5,,2
+Model for TypeScript file template,2016-08-23,Merged,251,82,27,csproj ,3
+RequestBodyGenerator goes public,2016-08-23,Merged,250,7,2,,1
+Make model public,2016-08-22,Merged,249,548,9,,2
+Release v5.2,2016-08-19,Merged,248,75,75,csproj config json nuspec ,30
+Release v5.1,2016-08-19,Merged,246,485,66,json csproj ,16
+Release v5.0,2016-08-18,Merged,244,"1,735","1,617",cs csproj config json ,15
+Template factory,2016-08-18,Merged,243,"1,426","1,426",cs config ,13
+Assembly loader fix,2016-08-16,Merged,235,48,18,sln ,3
+Added wildcard support,2016-08-12,Merged,232,146,122,cs ,7
+Release v4.3,2016-08-09,Merged,229,65,65,cs csproj config json nuspec ,30
+Release v4.2,2016-08-04,Merged,227,137,116,cs csproj config json ,22
+Release v4.1,2016-08-03,Merged,226,200,202,csproj config json tt ,16
+Release v4.0,2016-08-02,Merged,224,"8,578",596,csproj js config ,9
+Release v3.30,2016-07-26,Merged,221,318,218,json csproj tt ,10
+Release v3.29,2016-07-24,Merged,218,203,185,cs csproj config json nuspec ,29
+Chocolatey package feature merge,2016-07-19,Merged,217,135,"1,532",gitignore md nuspec exe bat ps1 sln cs ,11
+Release v3.28,2016-07-18,Merged,216,"1,297","1,187",csproj config json tt ,15
+Release v3.27,2016-07-17,Merged,213,898,942,csproj json xproj sln ,24
+Release v3.26,2016-07-15,Merged,212,911,897,csproj config json nuspec ,31
+Release v3.25,2016-07-15,Merged,211,"23,284","29,116",csproj ,5
+"Improved nullable parameter handling (CS), v3.24",2016-07-14,Merged,206,16,16,json tt nuspec ,14
+Added pragma (CS),2016-07-13,Merged,205,15,13,tt ,2
+Release v3.23,2016-07-13,Merged,204,"2,133","1,493",cs json tt ,6
+Release v3.22,2016-07-12,Merged,199,35,23,bat json nuspec xaml ,18
+Release v3.21,2016-07-11,Merged,198,"1,171","1,201",cs csproj config json nuspec ,32
+Release v3.20,2016-07-11,Merged,197,"1,786","1,921",csproj config json ,17
+Improved nuspecs,2016-07-05,Merged,195,49,37,cs json ,5
+Release v3.19,2016-07-05,Merged,194,931,890,csproj config json ,22
+Release v3.18,2016-07-05,Merged,191,909,865,csproj config json ,22
+Create empty response when using ResponseType attribute with void,2016-07-04,Closed,190,9,7,,1
+Release v3.17,2016-07-03,Merged,187,799,724,cs json ,15
+Release v3.16,2016-07-01,Merged,186,"2,537","1,891",cs json tt ,6
+Add Cake addin to tool list in README,2016-06-29,Merged,184,1,0,,0
+Release v3.15,2016-06-29,Merged,183,31,25,json nuspec ,15
+Release v3.14,2016-06-28,Merged,182,"3,408","2,900",cs nuspec json sln ,14
+"Fixed middlewares, v3.13",2016-06-27,Merged,180,41,41,json nuspec ,18
+Release v3.12,2016-06-27,Merged,179,"1,136",966,csproj config json tt ,23
+Added DateTimeType setting to UI and cmd line (TS),2016-06-24,Merged,178,23,0,xaml ,3
+Release v3.11,2016-06-24,Merged,177,"3,242","2,833",cs csproj config ,11
+Release v3.10,2016-06-17,Merged,174,787,785,csproj config json tt nuspec ,31
+Release v3.9,2016-06-17,Merged,173,788,787,csproj config bat json nuspec ,33
+Release v3.8,2016-06-17,Merged,171,820,816,md cs csproj config bat json tt ,27
+Release v3.7,2016-06-16,Merged,168,"1,440",672,cs csproj config json ,22
+Fixed solution,2016-06-16,Merged,167,66,40,json sln ,4
+Release v3.6,2016-06-16,Merged,166,"1,194","5,456",md cs csproj config json ,10
+Release v3.5,2016-06-16,Merged,165,845,775,cs csproj nuspec css ttf gif png ico html js map ,51
+Release v3.4,2016-06-15,Merged,164,"77,699",795,cs config xproj ,21
+Fixed refs,2016-06-11,Merged,162,578,566,,1
+Release v3.3,2016-06-11,Merged,161,"1,027",953,csproj config nuspec ,26
+Fix,2016-06-10,Merged,160,567,572,sln ,2
+Release v3.2,2016-06-10,Merged,159,789,787,csproj config tt nuspec ,24
+"Updated NJsonSchema, v3.1",2016-06-09,Merged,158,767,767,csproj config nuspec ,26
+Release v3.0,2016-06-08,Merged,157,"1,177","1,052",csproj config tt ,18
+"Updated NJsonSchema, v2.45",2016-06-03,Merged,154,772,772,csproj config nuspec ,26
+Release v2.45,2016-06-03,Merged,153,834,828,csproj config tt ,16
+"Improved cmd line (no console output when writing to file), v2.44",2016-06-03,Merged,151,610,599,nuspec ,16
+Fixed unit tests,2016-06-02,Merged,150,6,6,,3
+Release v2.43,2016-06-02,Merged,149,779,775,csproj config nuspec ,28
+Release v2.42,2016-06-02,Merged,148,778,776,csproj config nuspec ,27
+Release v2.41,2016-05-31,Merged,147,"2,157","1,701",cs csproj config tt ,16
+Release v2.40,2016-05-29,Merged,144,566,566,cs tt csproj nuspec ,14
+Release v2.39,2016-05-29,Merged,143,875,873,nuspec ,18
+Release v2.38,2016-05-28,Merged,142,"2,047","1,998",csproj config tt ,10
+Release v2.37,2016-05-25,Merged,137,889,868,cs csproj config ,14
+Release v2.36,2016-05-24,Merged,136,653,638,nuspec ,14
+Release v2.35,2016-05-24,Merged,135,"2,307","1,932",cs csproj config ,13
+Fixed path and required handling,2016-05-22,Merged,134,581,597,,3
+Release v2.34,2016-05-22,Merged,133,945,801,,6
+Release v2.33,2016-05-21,Merged,132,661,611,cs csproj config nuspec ,16
+Added NSwag.MSBuild,2016-05-20,Merged,131,627,573,nuspec targets exe bat sln cs ,6
+Issue #78 - Creating output directory if it doesn't exist.,2016-05-20,Merged,130,6,0,,1
+Issue #70 - Added NuSpec file for NSwag Console.,2016-05-21,Closed,129,26,1,nuspec cs ,3
+Release v2.32,2016-05-20,Merged,127,942,802,csproj config ,13
+Release v2.31,2016-05-20,Merged,126,718,354,cs csproj config tt ,19
+Add a Gitter chat badge to README.md,2016-05-20,Closed,125,2,0,,0
+Fixed xml doc,2016-05-19,Merged,123,264,610,,1
+Release v2.30,2016-05-19,Merged,122,657,591,csproj ,13
+Release v2.29,2016-05-19,Merged,121,684,629,cs ,13
+Release v2.28,2016-05-19,Merged,119,12,10,,10
+Release v2.27,2016-05-18,Merged,117,10,11,,10
+Release v2.26,2016-05-18,Merged,116,1,0,,1
+Release v2.26,2016-05-18,Merged,115,"1,434","1,434",tt ,19
+Release v2.25,2016-05-17,Merged,113,599,599,tt ,16
+Release v2.24,2016-05-17,Merged,112,930,895,csproj config ,12
+Release v2.23,2016-05-15,Merged,106,"2,107","2,122",cs csproj ,22
+Release v2.22,2016-05-14,Merged,105,983,815,cs csproj config tt ,18
+Release v2.21,2016-05-12,Merged,104,593,601,csproj ,21
+Fixed reference,2016-05-12,Merged,103,1,1,,1
+Release v2.20,2016-05-12,Merged,102,785,772,csproj config ,24
+Added xml gen,2016-05-12,Merged,101,581,574,cs ,2
+Added description,2016-05-11,Merged,100,1,1,,1
+Added description,2016-05-11,Merged,99,1,1,,1
+Release v2.19,2016-05-11,Merged,98,"11,416","2,205",metrop cs csproj nuspec ,12
+Release v2.19,2016-05-11,Merged,97,"11,403","2,210",metrop cs csproj nuspec ,12
+Release v2.18 (2),2016-05-06,Merged,93,3,3,,1
+Release v2.18,2016-05-06,Merged,92,527,447,csproj txt ,17
+Release v2.17,2016-05-06,Merged,91,776,783,csproj config txt ,24
+Release v2.16,2016-05-04,Merged,85,818,"1,016",wxs csproj ,14
+Release v2.15,2016-05-03,Merged,84,911,858,csproj config ,25
+Release v2.14,2016-05-02,Merged,81,848,783,csproj config txt ,20
+Release v2.13,2016-05-01,Merged,77,819,778,csproj config ,24
+Release v2.12,2016-04-29,Merged,74,852,816,csproj config ,22
+Release v2.11,2016-04-26,Merged,72,604,591,wxs ,11
+Release v2.10,2016-04-24,Merged,68,"1,050",823,csproj config txt sln ,23
+Release v2.9,2016-04-22,Merged,67,788,740,csproj config nswag ,26
+Release v2.8,2016-04-21,Merged,66,146,149,txt ,8
+Release v2.7,2016-04-20,Merged,64,"2,444","2,439",nuspec cs csproj config ,6
+Merge from Master,2016-04-15,Closed,59,0,0,,0
+Release v2.6,2016-04-12,Merged,58,899,852,cs config ,14
+Add a Bitdeli Badge to README,2016-04-10,Merged,57,4,0,,0
+"Updated NJsonSchema, v2.5",2016-04-06,Merged,56,"1,107","1,107",csproj config ,19
+Release v2.4,2016-04-06,Merged,55,752,752,cs csproj config ,22
+Release v2.2 (correct),2016-03-25,Merged,54,1,1,,0
+Release v2.2,2016-03-25,Merged,53,14,14,cs txt xaml ,12
+Release v2.1,2016-03-25,Merged,52,24,17,txt ,9
+Release v2.0,2016-03-25,Merged,50,"1,243","1,014",cs csproj config ,12
+can now resolve dll dependencies outside of webapi assembly folder,2016-03-10,Merged,46,101,22,,3
+Fixed crash when no Controllers are specified as arguments.,2016-03-03,Merged,43,3,3,,1
+fixed conditional usging text instead number,2016-02-10,Merged,38,2,2,,0
+Add client seting,2016-02-10,Closed,34,111,14,txt csproj ,2
+Change the <operation.HttpMethod> to <operation.HttpMethodUpper>,2016-01-29,Merged,32,1,1,,0

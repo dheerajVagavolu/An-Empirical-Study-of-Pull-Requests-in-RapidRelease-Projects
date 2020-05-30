@@ -1,0 +1,287 @@
+update README and demo app to Sync v6,2020-01-08,Merged,573,"3,981",111,iOSDemo/Cartfile resolved version plist dSYM/Contents/Resources/DWARF/Alamofire framework/Alamofire ,8
+Checking that the context that is being rest for a disposable context is indeed a disposable context,2019-12-13,Merged,571,17,11,podspec ,2
+"Fix warnings, update targets",2019-04-17,Merged,560,35,31,m podspec ,5
+Xcode 10.2 & Swift 5,2019-04-16,Merged,559,70,72,pbxproj xcscheme swift ,11
+add optional operations argument,2019-01-27,Merged,554,3,2,,1
+Support for date format with milliseconds but no Z terminator,2019-01-16,Merged,553,17,0,swift ,2
+[#453] - To-many ordered relationship crash,2019-01-28,Merged,552,176,20,swift json ,7
+Misordering when doing a disjoint sync of many to many objects,2019-01-08,Merged,550,141,4,swift json xcdatamodel/contents ,7
+Misordering when doing a disjoint sync of many to many objects,2019-01-07,Closed,549,138,5,swift json xcdatamodel/contents ,7
+Deep mapping more than one level + Unit test,2018-11-13,Merged,544,138,25,swift json xcdatamodel/contents ,5
+issue of duplicated object with the same id,2018-10-10,Closed,542,23,9,swift ,2
+Update Carthage dependencies on iOSDemo,2018-10-06,Merged,541,254,31,dSYM/Contents/Resources/DWARF/Alamofire framework/Alamofire plist dSYM/Contents/Resources/DWARF/Networking h swiftdoc swiftmodule modulemap framework/Networking dSYM/Contents/Resources/DWARF/Sync framework/Sync ,26
+Xcode 10,2018-10-06,Merged,539,42,42,pbxproj swift ,4
+Added support for Swift 4.2 / Xcode 10 to iOSDemo,2018-10-06,Merged,538,52,126,version dSYM/Contents/Resources/DWARF/Alamofire framework/Alamofire h plist swiftdoc swiftmodule dSYM/Contents/Resources/DWARF/Networking framework/Networking dSYM/Contents/Resources/DWARF/Sync swift framework/Sync ,43
+Add support for deciseconds,2018-09-17,Merged,536,24,1,swift ,2
+Fix for date with centiseconds,2018-09-13,Merged,533,16,0,swift ,2
+CocoaPods test,2018-08-24,Closed,529,"6,748",5,lock pbxproj md ,4
+Rollback extended operations,2018-08-23,Merged,527,2,151,,3
+Tests for 524,2018-08-24,Closed,525,128,1,json xcdatamodel/contents swift ,4
+Remove commented isTesting,2018-07-24,Merged,522,18,19,,1
+Deep maping more than one level,2018-11-13,Closed,519,41,25,,1
+Fix CircleCI baby one more time,2018-07-20,Merged,518,40,21,swift ,4
+Update Circle,2018-07-20,Closed,517,1,1,,1
+Add a Gitter chat badge to README.md,2018-07-20,Closed,516,118,208,,0
+CircleCI 2,2018-07-20,Closed,512,17,3,,2
+UUID and URI Core Data type support,2018-06-09,Merged,511,138,41,m swift xcdatamodel/contents ,9
+NSDateParser containing upto micro second is mapped upto micro seconds precision in core data,2018-06-06,Merged,506,28,0,swift ,2
+Update journaling mode,2018-05-09,Merged,494,2,2,yml ,2
+Update CircleCI,2018-04-17,Closed,493,22,2,Scanfile ,3
+Nested json keys on relationships work,2018-07-21,Merged,489,41,25,,1
+fixes issue 482 flattened keys not exporting in nested format properly.,2018-04-15,Merged,485,77,1,m swift xcdatamodel/contents ,4
+Fix/480,2018-03-08,Merged,481,104,1,swift json xcdatamodel/contents ,5
+Fix 476,2018-02-10,Merged,477,108,12,xcscheme swift json xcdatamodel/contents ,6
+Annotate background context,2018-02-01,Merged,473,8,0,,1
+Add support for UUID inserting and exporting,2018-02-01,Merged,472,7,0,,1
+Fix/double primary keys,2018-01-31,Merged,471,423,39,pbxproj swift json xcdatamodel/contents ,15
+Fix double primary keys #447,2018-01-29,Closed,470,249,27,swift json xcdatamodel/contents ,13
+Create CODE_OF_CONDUCT.md,2018-01-30,Merged,468,46,0,,0
+Fix crash in to-many relationship,2018-01-31,Merged,467,16,12,,1
+Bug 457,2018-01-30,Merged,459,120,6,swift json xcdatamodel/contents ,7
+jimijon tests,2017-12-16,Merged,458,87,16,json xcdatamodel/contents swift ,7
+Boolean ignored issue 449,2017-12-03,Closed,455,60,0,json xcdatamodel/contents swift ,4
+Added test for issue 449.,2017-11-23,Merged,452,52,0,json xcdatamodel/contents swift ,4
+Failing test for #447,2018-01-28,Closed,448,80,0,json xcdatamodel/contents swift ,4
+Sync 438,2018-01-30,Closed,446,127,0,json xcdatamodel/contents swift ,4
+Add local JSON sync to demo,2017-11-07,Merged,445,251,"3,198",pbxproj framework/Alamofire ,3
+Rename project,2017-11-07,Merged,444,28,28,xcworkspacedata xcscheme ,9
+Remove demo project,2017-11-06,Merged,443,0,517,xcscheme swift json storyboard plist ,10
+Help for 440,2017-11-03,Closed,441,20,13,xcdatamodel/contents json ,3
+Fix completion returning after each store is dropped,2017-11-02,Merged,439,4,3,,1
+#366: Fix operation is never marked as finished,2017-10-24,Merged,435,3,3,,1
+#412: Verify crash for missing primary key in relationship,2017-10-24,Merged,434,75,6,json xcdatamodel/contents swift ,5
+Feature: Extend operation options,2018-01-30,Merged,433,643,2,swift json xcdatamodel/contents ,24
+Add test to reproduce issue 431,2017-10-30,Closed,432,112,0,json xcdatamodel/contents swift ,5
+Update Sync.swift,2017-10-18,Merged,430,1,0,,1
+Swift 4,2017-09-20,Merged,424,949,62,xcscheme ,7
+Rollback to old way of restoring persistent store,2017-09-20,Merged,423,3,16,,1
+Activating Open Collective,2017-09-08,Merged,421,71,1,,0
+Don’t delete childs in many to many relationship,2017-08-10,Merged,418,89,9,swift json ,5
+Add deep mapping support for to-one relationships,2017-08-10,Merged,416,189,7,swift json ,6
+Add compatibleSync method for DataStack.,2017-07-30,Closed,410,37,0,,1
+Objective-C support for Sync.changes methods.,2017-06-26,Merged,407,77,0,swift ,2
+iOS 8 support,2017-04-19,Merged,397,50,12,plist swift podspec ,4
+Simplify file naming,2017-03-26,Merged,394,575,497,md h m swift ,16
+Rename hyp_dictionary to export,2017-03-26,Merged,393,437,4,swift h m ,4
+Rename hyper.valueTransformer to sync.valueTransformer,2017-03-25,Merged,392,23,6,m md swift xcdatamodel/contents ,7
+Rename hyper.nonExportable to sync.nonExportable,2017-03-25,Merged,391,35,15,h m swift xcdatamodel/contents ,8
+Rename hyper.isPrimaryKey to sync.isPrimaryKey,2017-03-21,Merged,390,67,54,h m swift xcdatamodel/contents ,17
+Rename hyper.remoteKey to sync.remoteKey,2017-03-21,Merged,388,295,63,md h m swift xcdatamodel/contents json ,19
+Update docs,2017-03-20,Merged,386,52,60,,2
+Add deep mapping support for to-many relationships,2017-03-20,Merged,385,92,6,swift json xccurrentversion xcdatamodel/contents ,6
+Add DataFilter tests,2017-03-20,Merged,384,49,16,,1
+Improve filter performance,2017-03-20,Merged,383,39,14,,2
+Better docs,2017-03-26,Merged,382,297,197,,0
+Improve sync helpers,2017-03-17,Merged,381,614,253,,1
+More renaming,2017-03-16,Merged,380,0,0,h m ,10
+Major renaming,2017-03-16,Merged,379,"1,984","1,984",md swift ,2
+"Optimizing how inserts, deletes, and updates are calculated.",2017-03-20,Closed,378,10,15,,1
+Remove ALL the dependencies,2017-03-16,Merged,370,"5,200","2,466",resolved plist dSYM/Contents/Resources/DWARF/DATAStack framework/DATAStack framework/Headers framework/Modules framework/Resources framework/Versions/A/DATAStack h swiftdoc swiftmodule modulemap ,14
+Test 367,2017-10-30,Closed,369,40,0,xcdatamodel/contents swift ,3
+"Revert ""Example of 356""",2017-02-06,Merged,365,0,96,json xccurrentversion xcdatamodel/contents swift ,5
+Example of 356,2017-02-06,Merged,364,96,0,json xccurrentversion xcdatamodel/contents swift ,5
+Create circle.yml,2017-02-04,Merged,363,29,30,xcscheme yml ,3
+Save Error when Sync is used as NSOperation,2017-04-19,Closed,352,7,0,,1
+Fix 271,2016-12-12,Closed,351,80,2,json xcdatamodel/contents swift ,4
+Fix 277,2016-12-12,Merged,350,119,11,swift json xcdatamodel/contents ,5
+Fix/339,2016-12-12,Closed,349,476,0,json xccurrentversion ,3
+Fix/347 duplicates,2017-10-30,Closed,348,78,0,json xcdatamodel/contents swift ,4
+Use result to avoid double optional,2016-12-10,Merged,346,142,13,swift ,4
+Improve NSPersistentContainer extension methods,2016-12-10,Merged,345,160,6,,4
+Add as NSPersistentContainer extension,2016-12-10,Merged,343,47,0,,2
+Improve with generics,2016-12-03,Merged,342,37,28,xcdatamodel/contents ,6
+Feature: fetch,2016-12-03,Merged,341,60,21,swift ,3
+Remove first assumption from helper methods,2016-12-03,Merged,340,28,17,,1
+Added test for commit 3ca82a0,2016-12-03,Merged,338,72,0,json xcdatamodel/contents swift ,4
+Fix/265,2016-12-03,Merged,337,123,27,swift json xccurrentversion xcdatamodel/contents ,9
+Add helper method for update,2016-12-01,Merged,335,83,0,swift ,3
+Changed a few completions for throws,2016-12-01,Merged,334,59,72,,2
+Remove helper methods,2016-12-01,Merged,333,23,66,,3
+Feature/helper methods,2016-11-30,Merged,332,184,0,swift ,4
+Reuse generic method for NSOperation,2016-11-30,Merged,331,75,92,swift ,5
+Allow setting the operations when using an NSPersistentContainer (#329),2016-11-30,Merged,330,20,2,,1
+Allow setting the operations when using an NSPersistentContainer,2016-11-30,Merged,329,21,3,,2
+Fix/327,2016-11-28,Merged,328,158,105,swift json xcdatamodel/contents ,8
+Added changes JSON filtering into DATAFilter class changes method (#316),2017-07-30,Closed,325,14,0,,1
+Fixes #320,2016-11-26,Merged,324,97,16,framework/Versions/A/DATAStack swiftmodule dSYM/Contents/Resources/DWARF/SYNCPropertyMapper framework/Versions/A/SYNCPropertyMapper framework/DATAStack framework/SYNCPropertyMapper pbxproj swift json xcdatamodel/contents ,25
+Added failing test for #320 sync one-to-one with null #322,2016-11-12,Merged,323,86,0,json xcdatamodel/contents swift ,5
+Added failing test for #320 sync one-to-one with null,2016-11-12,Closed,322,86,0,json xcdatamodel/contents swift ,5
+Improved test on fix/#233,2016-11-11,Merged,319,37,12,json xcdatamodel/contents swift ,6
+Fix #233,2016-11-24,Merged,318,154,19,swift json xcdatamodel/contents ,7
+Added test case for #233,2016-11-11,Merged,317,110,18,json xcdatamodel/contents swift ,5
+Added changes JSON filtering into DATAFilter class changes method,2016-11-13,Merged,316,14,0,,1
+Added changes JSON filtering into static method changes of DATAFilter…,2016-11-09,Closed,315,12,0,,1
+Add demo,2016-11-06,Closed,314,30,12,swift json ,3
+Add simple demo project,2016-11-06,Merged,313,575,"12,202",dSYM/Contents/Resources/DWARF/DATAStack framework/Versions/A/DATAStack bcsymbolmap ,8
+Feature/persistency container,2016-10-27,Merged,309,83,19,swift ,3
+Intercept inserted JSON,2016-10-26,Merged,308,71,11,swift ,3
+Updated Operation visibility,2016-10-24,Merged,307,4,4,,1
+Add a Gitter chat badge to README.md,2016-10-23,Merged,306,2,0,,0
+Improve interface,2016-10-23,Merged,305,134,357,swift ,6
+Fix Travis for Carthage,2016-10-23,Merged,304,"1,217",18,yml plist dSYM/Contents/Resources/DWARF/SYNCPropertyMapper framework/Headers framework/Modules framework/PrivateHeaders framework/Resources framework/SYNCPropertyMapper h modulemap framework/Versions/A/SYNCPropertyMapper framework/Versions/Current ,20
+Carthage,2016-10-23,Merged,303,"12,886",864,yml Cartfile resolved plist dSYM/Contents/Resources/DWARF/DATAStack framework/DATAStack framework/Headers framework/Modules framework/Resources framework/Versions/A/DATAStack h swiftdoc swiftmodule modulemap ,16
+Use generated files,2016-10-01,Merged,296,4,29,m xcdatamodel/contents h ,5
+Reduce dependencies,2016-10-01,Merged,295,"1,300",577,lock swift podspec xcdatamodel/contents ,8
+Fixed a bug in sync_toManyRelationship referencing the wrong entity.,2016-09-26,Merged,293,3,3,,1
+Verify: Bug 283 (Swift 2.3),2016-09-24,Closed,292,64,2,json xccurrentversion xcdatamodel/contents swift ,5
+Fix: Bug 283,2016-09-26,Merged,291,198,41,pbxproj lock swift json xccurrentversion xcdatamodel/contents ,11
+Verify: Bug 280,2016-09-26,Merged,290,97,5,swift json xccurrentversion xcdatamodel/contents ,6
+Fix travis,2016-09-24,Merged,289,2,2,,1
+Firebase format and context save,2017-07-30,Closed,288,"2,042",737,md pbxproj png Podfile lock ,6
+Fix #283 (Swift 2.3),2016-09-26,Closed,287,2,2,podspec ,2
+Verify: Bug 285,2016-09-26,Closed,286,72,3,xcscheme swift json xcdatamodel/contents ,6
+Swift 3,2016-09-14,Merged,279,445,449,lock md swift ,4
+Minor refactor,2016-08-26,Merged,267,5,14,,1
+Fix bug 225,2016-08-26,Merged,266,241,15,swift json xccurrentversion xcdatamodel/contents ,8
+Fix: Bug 239,2016-08-25,Merged,264,81,1,swift json xcdatamodel/contents ,5
+Fix failing tests,2016-08-25,Merged,263,5,1,,1
+Fix/camelcase to one relationships,2016-08-25,Merged,262,103,16,swift json xcdatamodel/contents xccurrentversion ,8
+Fix: bug 254,2016-08-23,Merged,259,91,21,swift json xcdatamodel/contents ,6
+Fix: bug 257,2016-08-23,Merged,258,97,3,swift json xcdatamodel/contents ,5
+Update DATAFilter dependency,2016-08-01,Merged,251,12,12,podspec ,2
+Add an additional initializer for the NSOperation API,2016-07-31,Merged,250,27,6,,1
+Add note about performance to FAQ,2016-07-31,Merged,249,10,0,,0
+Fix: failing tests,2016-07-31,Closed,248,60,68,lock swift podspec ,6
+Improve finished call back in operations,2016-07-28,Merged,247,19,9,swift ,2
+[WIP] Add two way sync,2016-10-23,Closed,246,12,46,Podfile lock swift ,4
+Implement comment fetch in tests,2016-07-26,Closed,245,55,8,swift xcdatamodel/contents ,5
+Update Sync for updated DATAFilter (DATAFilter v0.11),2016-07-22,Merged,242,16,18,,3
+Sync parents for relationships in superentities,2016-08-25,Closed,239,92,1,swift json xcdatamodel/contents ,6
+Swift 3,2016-09-11,Closed,236,435,427,xcscheme Podfile lock md swift ,6
+Add unit test for calling insert multiple times for the same data source,2016-06-23,Merged,235,23,0,,1
+Allow to set operations when using specific context,2016-06-20,Merged,231,1,1,,1
+[WIP] Fix: bug 225,2016-08-26,Closed,229,306,13,json xccurrentversion xcdatamodel/contents ,10
+Add basic support for operation types,2016-05-24,Merged,223,216,41,md swift ,3
+Improve simplified workflows in README,2016-05-17,Merged,221,18,1,,0
+cleaning up id only many to many using null,2016-05-17,Merged,220,161,116,json ,3
+Improve: Bug 157 coverage,2016-05-17,Merged,219,102,45,swift json xcdatamodel/contents ,9
+Add support for multiple IDs relationships,2016-05-17,Merged,218,657,6,swift xccurrentversion xcdatamodel/contents ,5
+Cancellable Sync,2016-05-16,Merged,216,121,1,,2
+Improve handling of ID only relationships,2016-05-16,Merged,215,102,7,swift json xccurrentversion xcdatamodel/contents ,7
+Update pods,2016-05-15,Merged,214,14,14,podspec ,2
+Only save context when changes happen,2016-05-15,Merged,213,6,4,,1
+"Remove ""performance"" improvement",2016-05-15,Merged,212,7,15,swift podspec ,4
+Feature: test importing 13000 items,2016-05-15,Closed,211,"67,567",3,plist ,3
+Reduce context saves by many to many relationships,2016-05-15,Merged,210,24,37,lock swift podspec json ,7
+Continue remoteID renaming,2016-05-11,Merged,209,42,38,lock md swift podspec ,6
+Move to CocoaPods 1.0,2016-05-11,Merged,208,33,29,Podfile lock ,3
+Add support to use id as primary key,2016-05-10,Merged,207,64,6,lock podspec json xccurrentversion xcdatamodel/contents swift ,7
+Migrate to DATAStack 5.0.0,2016-05-06,Merged,206,37,40,swift podspec ,4
+"Add ""How to map relationships that don't have remote IDs?"" to FAQ",2016-05-05,Merged,205,5,0,,0
+Fix bug 202,2016-05-02,Merged,203,97,11,lock swift json xccurrentversion xcdatamodel/contents ,8
+Clean up forced unwrapped optionals,2016-04-19,Merged,201,46,10,swift ,5
+Update HYPPropertyMapper dependency that contains camelcase support,2016-04-09,Merged,199,84,13,lock podspec json xccurrentversion xcdatamodel/contents swift ,7
+Update mapper dependency,2016-03-31,Merged,196,48,7,Podfile lock podspec swift ,5
+Update for Swift 2.2,2016-03-27,Merged,195,7,6,xcscheme swift podspec ,4
+Issue 184,2016-03-23,Closed,194,143,8,json xccurrentversion xcdatamodel/contents swift ,7
+Implement issue 192,2016-03-18,Closed,193,170,0,json xccurrentversion xcdatamodel/contents swift ,5
+Clean up implementation,2016-03-18,Merged,191,465,489,,7
+Modernize implementation.,2016-03-17,Merged,190,307,309,xcscheme swift ,4
+Add commented preprocessing implementation,2017-07-30,Closed,189,10,2,,1
+Add example of doing Bug 185,2016-03-14,Closed,188,138,8,swift json xcdatamodel/contents ,5
+Clean up pr 179,2016-03-04,Merged,187,40,41,,3
+Update DATAStack,2016-03-04,Merged,186,1,1,,1
+Fix typos in Readme,2016-02-18,Merged,181,2,2,,0
+Issue 179. Updated relationship syncing to use the current relationsh…,2016-03-04,Merged,180,122,25,swift json xcdatamodel/contents xcworkspacedata ,7
+Add support for ID matching relationships with custom keys,2016-02-09,Merged,178,125,56,pbxproj swift json xcdatamodel/contents xccurrentversion ,8
+Improve handling of to-many relationships in ordered sets,2016-01-25,Merged,176,67,4,swift xccurrentversion xcdatamodel/contents ,5
+"Addresses CoreData exception, when working with to-many, ordered rela…",2016-01-25,Closed,175,1,1,,1
+"NSMutableSet changed to NSMutableOrderedSet to support to-many, order…",2016-01-25,Closed,174,13,"5,425",xccurrentversion json storyboard png plist md ,11
+Improve documentation,2016-01-22,Merged,173,120,22,swift ,5
+Migrate NSEntityDescription extension,2016-01-22,Merged,172,28,40,m swift ,4
+Migrate: tests,2016-01-21,Merged,171,504,783,,1
+Improve even more type safety,2016-01-21,Merged,170,41,29,,4
+Fix: Improve safe typing,2016-01-21,Merged,169,255,514,h swift m ,6
+Modified AppNet Example to use Alamofire,2016-01-21,Merged,167,48,17,Podfile ,2
+Document converting a NSManagedObject into JSON,2016-01-17,Merged,166,10,5,,0
+Example on using ObjectMapper with Sync,2016-01-17,Closed,165,84,0,,0
+Skip changes if incoming change doesn't change things,2016-01-14,Merged,163,62,11,h m swift ,5
+"Correct the code snippet in the ""Sync"" section",2015-12-17,Merged,160,1,1,,0
+Improve change notifications,2015-12-13,Merged,155,30,24,,2
+Refactor: AppNet example,2015-12-13,Merged,154,72,47,json pbxproj ,5
+Add relationship mapping to README,2015-12-11,Merged,150,66,0,,0
+Fixed typo in uniquing example,2015-12-10,Merged,149,1,1,,0
+Feature: Sync relationships using id,2015-11-28,Merged,148,139,59,m json xcdatamodel/contents ,6
+Added feature to sync relationships with only ID,2015-11-25,Merged,147,29,0,,1
+Small grammar fixes for README.md,2015-11-05,Merged,136,9,9,,0
+Migrate DATAStack 4.0.0,2015-10-25,Merged,135,"1,316","1,275",yml swift xccurrentversion xcdatamodel/contents json storyboard png plist md ,15
+Reintroduce: predicate preprocessing,2015-10-08,Merged,128,411,168,m lock ,9
+Fix: bug #125,2015-10-05,Merged,126,326,12,pbxproj xcscheme json xccurrentversion xcdatamodel/contents ,6
+[Demo purposes]: Patient,2015-09-30,Merged,123,150,6,pbxproj json xccurrentversion xcdatamodel/contents m ,6
+Add FAQ about logging,2015-09-24,Merged,122,16,35,md m ,2
+Improve usage of predicate,2015-09-15,Merged,120,70,0,,2
+Add FAQ,2015-09-24,Merged,118,73,1,md m ,2
+[WIP] Fix: issues after turning on in memory store,2015-08-16,Closed,117,7,2,,2
+Fixes bug with many-to-many relationships,2015-08-15,Merged,115,266,42,m lock pbxproj json xccurrentversion xcdatamodel/contents ,10
+[WIP] Test compatibility with SwiftRecord,2015-07-30,Closed,105,102,8,lock pbxproj swift h ,5
+Add refresh control to AppNet Example,2015-05-20,Merged,104,8,0,,1
+[WIP] add falling test for many-to-one sync,2015-05-26,Closed,102,70,1,json xcdatamodel/contents m ,4
+Add parentComment to Comment entity,2015-05-10,Merged,100,5,4,,1
+Add comment about remote employees,2015-05-10,Merged,99,1,1,,0
+Reformat tests to use their synchronous power,2015-05-10,Merged,98,240,254,,1
+Cleanup fetching and count,2015-05-08,Merged,97,163,193,,0
+Unique child objects are not Synced correctly,2015-05-10,Merged,96,94,20,pbxproj json xcdatamodel/contents ,5
+Fix: recursive sync,2015-05-09,Merged,95,157,27,h m pbxproj json xcdatamodel/contents ,10
+Improve tests,2015-05-06,Merged,94,18,6,m ,2
+Add nullability marks,2015-04-27,Closed,92,14,9,lock h ,3
+Fix: SQLite mode errors,2015-04-27,Merged,91,50,37,,3
+Fix: bug 84,2015-04-24,Merged,90,112,1,json xccurrentversion xcdatamodel/contents m ,5
+Add table of contents and other minor improvements,2015-04-24,Merged,88,41,12,,0
+Fix: Bug many to many with custom keys in both entities,2015-04-24,Merged,85,123,5,pbxproj xccurrentversion xcdatamodel/contents m json ,6
+Refactor NSManagedObject category,2015-04-21,Merged,83,147,138,m ,4
+Use NSEntityDescription-SYNCPrimaryKey pod,2015-04-21,Merged,81,12,89,m podspec Tests/Podfile lock pbxproj ,8
+Add primary key requirement,2015-04-21,Merged,80,4,0,,0
+Improve: split dependencies,2015-04-19,Merged,78,195,151,m ,5
+Add a Gitter chat badge to README.md,2015-04-19,Merged,77,2,0,,0
+Add code coverage,2015-04-18,Merged,76,12,7,pbxproj ,3
+Improve/split models in tests,2015-04-18,Merged,75,433,284,pbxproj xccurrentversion xcdatamodel/contents ,4
+Bug: many-to-many with custom primary key in both entities,2015-04-18,Closed,74,104,67,lock pbxproj xcdatamodel/contents json ,7
+Improve one-to-one relationships mapping,2015-04-18,Merged,72,55,14,xcdatamodel/contents json ,4
+Expose some utility methods so that they can be used by anybody,2015-04-17,Merged,71,16,8,m ,2
+Make it so the relationships name are correctly converted to the corresponding JSON name,2015-04-17,Merged,70,46,7,xcdatamodel/contents json ,4
+Update DesignerNews Demo,2015-04-15,Merged,69,17,19,lock ,3
+Update README.md,2015-04-14,Merged,67,1,2,,0
+Add to README how to filter synced elements,2015-04-14,Merged,65,16,0,,0
+Sync 1.0.1,2015-04-14,Merged,61,15,15,podspec ,4
+Improve: custom primary key and custom mapping,2015-04-14,Merged,60,110,60,pbxproj xcdatamodel/contents json ,9
+update local and remote key handling for entities,2015-04-13,Merged,59,30,15,,1
+Add change log file.,2015-04-13,Closed,57,217,0,,0
+Update Example images to show language,2015-04-13,Merged,55,2,2,md ,4
+Update examples,2015-04-13,Merged,54,56,67,swift lock ,6
+Add Swift interface to README,2015-04-13,Merged,53,12,0,,0
+Update LICENSE,2015-04-12,Merged,52,3,1,,0
+Rewrite: Swift,2015-05-26,Closed,50,762,498,pbxproj swift h Examples/AppNet/Podfile lock m Examples/DesignerNews/Podfile md png ,12
+Refactor: clean up,2015-04-06,Merged,48,24,24,,1
+Code style improvements,2015-04-06,Merged,47,65,49,,1
+Refactor,2015-04-06,Merged,46,64,54,,3
+Refactor AppNet demo in Swift,2015-04-05,Merged,44,11,15,,2
+Feature: AppNet example in Swift!,2015-04-05,Merged,43,732,0,xcworkspacedata ,3
+Custom remote keys To One relationships,2015-04-04,Merged,41,104,65,m pbxproj xcdatamodel/contents json ,7
+Improve/api method names,2015-04-02,Merged,40,305,303,md h ,4
+Improve user info naming consistency,2015-04-02,Merged,39,4,4,xcdatamodel/contents ,2
+Custom mapping relationships,2015-04-01,Merged,36,64,13,m lock pbxproj xcdatamodel/contents json ,8
+Improve/designer news demo,2015-03-30,Merged,34,27,120,h m lock ,7
+Feature: custom primary keys,2015-03-30,Merged,33,232,13,m pbxproj xcdatamodel/contents json ,7
+Improve: Core Data comments,2015-04-04,Merged,32,791,195,h m xcdatamodel/contents ,11
+Improve/designer news example,2015-03-27,Merged,29,228,19,m h xcdatamodel/contents ,14
+Fix broken links in README,2015-03-25,Merged,28,2,2,,0
+Fix broken links in README,2015-03-25,Closed,27,2,2,,0
+Refactor and minor improvements,2015-03-22,Merged,25,309,215,h m xib xcdatamodel/contents ,8
+DesignerNews demo,2015-03-22,Merged,24,"2,623","4,615",m h podspec md ,14
+Improve: Update pods,2015-03-19,Merged,22,55,"5,626",yml md podspec lock h ,5
+relationship entity name fix,2015-03-19,Merged,20,46,7,pbxproj xcdatamodel/contents json ,5
+Set parent relationship only if they have the same type,2015-03-03,Merged,18,"2,016","1,904",lock ,4
+Improve contribution guidelines,2015-03-03,Merged,17,2,2,,0
+Persist when processing finishes,2015-02-17,Merged,13,17,14,h m ,3
+"Update DATAStack, Migrate DATASource",2015-02-12,Merged,12,"4,378","4,455",m Example/Podfile lock md Example/Pods/ANDYFetchedResultsTableDataSource/LICENSE → Example/Pods/DATASource/LICENSE ,8
+Migration: DATAStack and remoteID,2015-02-09,Merged,11,"4,587","4,658",m xcdatamodel/contents Example/Podfile lock md ,12
+Add versions to dependencies,2015-02-01,Merged,10,4,4,,1
+Migrate: ANDYDataManager to ANDYDataStack,2015-02-01,Merged,9,"4,558","4,650",m Example/Podfile lock ,8
+typo,2014-12-14,Merged,8,1,1,,0
+Feature/many to one,2014-11-15,Merged,7,152,11,xcdatamodel/contents json pbxproj ,5
+Feature/update with date mapping,2014-11-10,Merged,6,"1,744","1,662",m json lock md h ,8
+Feature many to may,2014-11-09,Merged,5,206,35,m json pbxproj ,5
+Test logo,2014-11-08,Merged,4,1,1,md ,1
+Renaming,2014-11-08,Merged,3,218,224,md m ,2
+Improve/relationships,2014-11-04,Merged,2,"3,066","1,335",m pbxproj Demo/Podfile lock podspec md h ,10
+Feature/relationships,2014-11-03,Merged,1,"1,711","2,595",m json ,7

@@ -1,0 +1,777 @@
+Don't put the encoding type if there is no channel,2020-01-13,Closed,1275,59,4,,3
+Avoid sending PaymentSecret/MPP in Init,2020-01-10,Merged,1273,41,2,,2
+Restore missing 'db.close()' methods,2020-01-10,Merged,1272,30,10,,12
+Disable Trampoline-MPP to non-Phoenix recipients,2020-01-08,Merged,1271,9,17,,2
+Fix Outpoint JSON serialization,2020-01-08,Merged,1270,15,5,,2
+More consistency in sending messages during sync,2020-01-07,Merged,1268,18,12,,1
+Remove mockito from switchboard tests,2020-01-07,Merged,1267,32,76,,2
+Remove repeated code,2019-12-24,Merged,1265,21,32,,2
+Added some instructions for TOR auth,2019-12-24,Merged,1262,8,1,,0
+Improve CommandSend type,2019-12-18,Merged,1260,51,47,,7
+Update Maven (3.6.3),2019-12-17,Merged,1259,6,6,Dockerfile ,2
+Flat features,2020-01-09,Merged,1253,525,383,scala ,6
+Allow Peer.Connect messages to force reconnection to remote.,2019-12-11,Closed,1251,16,14,,2
+Better randomization of reconnection delay,2019-12-11,Merged,1250,11,5,,2
+MPP: don't retry if failure comes from final recipient,2019-12-11,Merged,1246,20,7,,3
+Add HasHtlcIdCommand,2019-12-11,Merged,1245,87,100,scala ,15
+Add a configurable time-out to onchain fee provider requests,2019-12-09,Merged,1244,38,10,scala ,7
+Fix MPP flaky test,2019-12-09,Merged,1243,0,2,,1
+Minor: missing log category in peer,2019-12-11,Merged,1241,3,1,,1
+Register: ShortChannelId can change because of re-orgs,2019-12-06,Closed,1237,7,2,,1
+Added blank lines to minimize conflicts,2019-12-06,Merged,1236,54,1,,2
+Set `akka.loglevel` to `DEBUG`,2019-12-06,Merged,1235,1,1,,1
+Fix outgoing payments order in payments overview,2019-12-04,Merged,1232,46,30,,2
+"Minor: ignore ""disconnecting"" message in Channel",2019-12-10,Merged,1231,3,0,,1
+Fix onion codec test,2019-12-02,Merged,1229,1,1,,1
+Handle chain re-org in balance computation,2019-12-02,Merged,1228,42,9,,6
+Added a 'category' in logs,2019-12-04,Merged,1227,298,137,,9
+Extended doHandle to other messages in MultiPartHandler,2019-11-29,Merged,1226,6,6,,1
+High level payments overview method,2019-12-02,Merged,1225,264,37,,4
+Fix MPP post-restart HTLC clean-up,2019-11-28,Merged,1224,333,240,,5
+Akka remote backups,2019-12-05,Closed,1223,172,44,conf scala ,9
+Avoid incoherent payment request features.,2019-11-29,Merged,1222,84,53,,6
+add networkstats API call to allow display of network stats,2019-11-22,Merged,1221,56,2,eclair-node/src/test/resources/api/networkstats ,5
+Relay Trampoline payments,2019-12-18,Merged,1220,"1,967",528,,10
+MPP routing improvements,2019-11-21,Merged,1219,166,66,,3
+Improved tracing of single/multi-part payments,2019-11-22,Merged,1218,112,22,conf ,5
+PaymentLifecycle should tell the router to ignore route prefix,2019-11-18,Merged,1217,8,6,,2
+Check TLS version support in ElectrumClient,2019-11-18,Merged,1216,6,1,,1
+Refactor: move channel relaying to a ChannelRelayer actor.,2019-11-14,Merged,1215,516,428,,9
+Hosted channels,2019-12-10,Closed,1214,"3,428",633,conf scala ,8
+Update invoice test vectors,2019-11-14,Merged,1213,10,8,,1
+Rework truncated integers codecs,2019-12-02,Merged,1212,154,104,,3
+Ignore NPE in tests,2019-11-14,Merged,1211,1,1,,1
+Add trampoline onion support,2019-11-14,Merged,1209,"1,642",744,scala ,7
+Fixed race condition in payment handler init,2019-11-13,Merged,1208,3,2,,1
+Fixed composition of receive handlers,2019-11-13,Merged,1207,429,359,,1
+Payment Request: speed up node id computation,2019-11-14,Merged,1203,4,5,xml ,2
+Multi part payments refactor,2019-12-04,Closed,1202,"3,050",827,scala ,9
+More logging for LocalPaymentHandler,2019-11-08,Closed,1201,4,1,,1
+Add synchronization when locking database connection,2019-12-12,Merged,1200,27,9,,2
+Minor: fixed format in exception message,2019-11-05,Merged,1199,1,1,,1
+[WIP] Status by external,2019-11-09,Closed,1198,6,2,,2
+More metrics,2019-11-04,Merged,1196,57,24,,8
+Add 'getnewaddress' API,2019-11-04,Merged,1190,13,0,,2
+add networkstats API call to allow display of network stats,2019-11-22,Closed,1189,56,2,eclair-node/src/test/resources/api/networkstats ,5
+Fix /allupdates API,2019-11-18,Merged,1187,54,20,,2
+Rework payment handling,2019-11-07,Merged,1183,253,142,scala ,9
+Fix codecov unknown tag,2019-10-23,Merged,1181,0,2,,1
+Fix ignored duplicate amounts in htlc-value-in-flight,2019-10-22,Merged,1180,26,9,,3
+Support pruned bitcoind,2019-12-04,Closed,1178,873,246,scala ,3
+Release 0.3.2,2019-10-15,Merged,1177,4,4,,4
+Refactor Upstream/Origin,2019-10-22,Merged,1176,197,190,,4
+Check configuration for obsolete keys in startup,2019-10-15,Merged,1175,23,1,,2
+Release 0.3.2,2019-10-15,Closed,1174,4,4,,4
+Update assisted channels,2019-10-14,Merged,1172,66,1,,2
+High level call aggregating payments,2019-11-28,Closed,1169,266,88,,4
+[WIP] Remove txindex requirement for bitcoind backend,2019-10-16,Closed,1168,25,28,,2
+[WIP] Use gettxout to fetch unspent transaction outputs,2019-10-08,Closed,1167,33,16,,3
+Use guava to compute CRC32C checksums,2019-10-07,Merged,1166,16,5,,2
+Activate extended channel range queries,2019-10-07,Merged,1165,26,25,scala ,4
+Value in flight fix,2019-10-21,Closed,1163,21,5,,3
+Update android branch,2019-10-08,Merged,1162,"10,871","6,163",md Dockerfile eclair-core/eclair-cli ,5
+Add execution time limit,2019-10-03,Merged,1161,2,0,,1
+Update netty dependency to 4.1.32,2019-10-03,Merged,1160,7,2,scala ,2
+Sqlite: use TEXT type for strings,2019-10-14,Merged,1159,54,9,,3
+Upgrade new unit tests to bitcoin 0.18.1 API,2019-10-03,Merged,1157,2,4,,1
+Extend funding key path to 256 bits,2019-10-02,Merged,1154,99,8,,4
+Multi part payments,2019-11-12,Merged,1153,"3,256",971,scala ,8
+Commitments: take HTLC fee into account,2019-09-30,Merged,1152,76,18,,4
+Update funding pubkey path generation,2019-10-01,Closed,1151,166,79,,4
+HTTP API: add type hints for payment status,2019-10-01,Merged,1150,247,97,eclair-node/src/test/resources/api/received-expired eclair-node/src/test/resources/api/received-pending eclair-node/src/test/resources/api/received-success eclair-node/src/test/resources/api/sent-failed eclair-node/src/test/resources/api/sent-pending eclair-node/src/test/resources/api/sent-success ,8
+Electrum: improve coin selection (fixes #1146),2019-10-02,Merged,1149,129,47,,3
+Use bitcoin 0.18.1 in the test,2019-10-03,Merged,1148,88,96,scala ,6
+Fix and expand channel keypath,2019-09-25,Merged,1147,11,3,,2
+Port the API service to spray.io for ease of testing,2019-10-02,Closed,1145,268,"1,067",scala ,11
+Improve error handling for /sendtoroute,2019-09-20,Merged,1142,26,4,,2
+Update string to match on bitcoind while it's indexing,2019-09-18,Merged,1138,6,1,,2
+Sphinx: accept invalid downstream errors,2019-09-18,Merged,1137,37,6,,3
+Drop support for Java 8,2019-09-16,Merged,1135,3,5,xml ,1
+Add codecov integration to semaphore CI,2019-09-12,Merged,1134,30,26,,3
+Better handling of bitcoind failures,2019-09-17,Closed,1132,53,2,scala ,3
+Halt on fatal validation errors,2019-09-10,Closed,1131,30,2,,3
+Payment lifecycle refactoring,2019-09-20,Merged,1130,"1,299",760,,5
+Don't hardcode the channel version,2019-09-06,Merged,1129,40,36,,8
+Check funds in millisatoshi when sending/receiving an HTLC,2019-09-06,Merged,1128,27,15,,2
+Removed Globals class,2019-09-11,Merged,1127,429,419,,9
+Add monitoring with Kamon (disabled by default),2019-09-06,Merged,1126,452,190,scala ,10
+Add Semaphore CI,2019-09-05,Merged,1125,23,0,,1
+Made sync params configurable,2019-09-05,Merged,1124,34,28,scala ,6
+Update docker build,2019-09-04,Merged,1123,4,5,,1
+Store channel data on restore,2019-10-14,Closed,1122,4,4,,1
+Implement Bolt 11 invoice feature bits,2019-09-04,Merged,1121,63,36,,2
+Fix maven mirror,2019-09-03,Merged,1120,3,3,,1
+Update docker build,2019-09-04,Closed,1119,4,5,,1
+Api: reject expired invoices,2019-09-04,Merged,1117,62,40,,4
+Router computes network stats,2019-09-06,Merged,1116,317,156,scala ,4
+Fix build,2019-09-02,Merged,1115,3,3,,1
+Finish tests by fulfilling htlcs,2019-08-30,Closed,1114,129,68,,1
+Make tests run in parallel,2019-09-11,Merged,1112,20,19,scala xml ,14
+Use Long to back the UInt64 type,2019-09-04,Merged,1109,66,42,,5
+Channel range queries: send back node announcements,2019-08-26,Merged,1108,284,100,scala ,5
+Fix regression in `Commitments.availableForSend`,2019-08-30,Merged,1107,376,7,,2
+Bolt4: remove final_expiry_too_soon error message,2019-09-02,Merged,1106,127,57,,8
+Use unsigned comparison for 'maxHtlcValueInFlightMsat',2019-08-29,Merged,1105,29,14,,9
+Typed cltv expiry,2019-08-26,Merged,1104,"1,405","1,299",,5
+Add more numeric utilities to MilliSatoshi,2019-08-29,Merged,1103,"1,799","1,616",,4
+Move http APIs to subproject eclair-node,2019-08-30,Merged,1102,263,113,scala ,8
+Route computation: fix fee check,2019-08-20,Merged,1101,42,8,,3
+Add API call to get general network statistics,2019-09-18,Closed,1100,110,10,,3
+Client side paymentId,2019-09-20,Closed,1099,62,23,,6
+Derive channel keys from the channel funding pubkey,2019-09-23,Merged,1097,345,122,,3
+Use MilliSatoshi to type 'maxHtlcValueInFlightMsat',2019-08-22,Closed,1096,89,38,,15
+Derive channel keys from the channel funding pubkey,2019-08-09,Closed,1093,0,0,,0
+Documentation update,2019-07-31,Merged,1092,84,45,,0
+Update list of commands in eclair-cli help,2019-07-29,Merged,1091,4,3,,1
+Use correct cost comparison when evaluating candidate channels,2019-07-26,Merged,1090,47,6,,2
+Publish transactions during transitions,2019-08-26,Merged,1089,46,56,,1
+Typed amounts,2019-08-07,Merged,1088,"1,420","1,307",scala ,5
+Activate support for variable-length onion,2019-09-05,Merged,1087,873,406,scala ,6
+Deterministic channel keypath,2019-08-26,Closed,1086,903,243,,7
+Check if remote funder can handle an updated commit fee when sending HTLC,2019-09-23,Merged,1084,51,14,,3
+Configurable transaction confirmation target,2019-07-25,Merged,1083,354,161,scala ,9
+Made using/storing/sending consistent,2019-07-24,Merged,1082,51,40,,0
+Handle fees increases when channel is OFFLINE,2019-09-20,Merged,1080,140,39,scala ,7
+Handle fulfill not acked upstream,2019-07-23,Merged,1079,316,97,scala ,6
+Setup: disable bitcoind sync when regtest,2019-07-16,Closed,1077,3,3,,1
+Switch varint codec to big-endian.,2019-07-15,Merged,1075,44,62,,3
+Store failure messages for outgoing payments,2019-09-20,Closed,1074,112,52,,4
+Replace traits by bitfield for ChannelVersion,2019-07-15,Merged,1073,16,13,,4
+Extended Queries: use TLV format for optional data,2019-08-22,Merged,1072,509,191,,8
+add in utility script to startup a regtest Network,2019-07-15,Closed,1071,227,0,,2
+Add fee info to GetSentInfo,2019-09-20,Closed,1070,69,38,,4
+TLV improvements and full spec compatibility,2019-07-11,Merged,1069,342,134,,4
+Electrum: update checkpoints,2019-07-09,Merged,1067,"2,290","1,968",,0
+Configurable fee target,2019-07-20,Closed,1066,197,89,scala ,8
+Add a few improvements to tlv.,2019-07-08,Merged,1065,49,17,,2
+Use a `RelayResult` class instead of an `Either`,2019-07-04,Merged,1064,33,22,,2
+Add eclair-cli to eclair's docker image,2019-07-05,Merged,1063,13,0,md ,1
+Set version to 0.3.2-SNAPSHOT,2019-07-04,Merged,1062,4,4,,4
+Set version to v0.3.1,2019-07-03,Merged,1061,4,4,,4
+Added a channel version to `Commitments` object,2019-07-12,Merged,1059,46,13,,7
+Enhance bitcoind checks during startup,2019-07-02,Merged,1058,6,4,,1
+Reject payments for expired invoices,2019-07-03,Merged,1057,33,3,,4
+Make Bitcoin Core bind on localhost in tests,2019-07-02,Merged,1056,7,3,conf ,3
+Update link for recommended JDK,2019-07-01,Merged,1054,1,1,,0
+Add more data to `usablebalances` API method,2019-07-02,Merged,1053,59,18,eclair-core/src/test/resources/api/usablebalances ,7
+Add more data to `usablebalances` API method,2019-06-26,Closed,1052,18,9,,2
+Strict linting,2019-07-02,Closed,1051,66,62,,27
+Added more memory for scoverage,2019-07-02,Merged,1050,5,0,,1
+Store more payment info for sent payments,2019-09-20,Closed,1048,208,68,,6
+Handle unknown fields in network announcements,2019-07-08,Merged,1047,292,222,,6
+Remove old APIs,2019-06-24,Merged,1046,6,479,conf scala ,2
+Add TLV and TLV stream codec support,2019-07-02,Merged,1045,741,362,,8
+getsentinfo returns timestamps in millis,2019-06-24,Merged,1044,4,4,,0
+Minor fixes,2019-06-19,Merged,1043,7,3,conf ,3
+Ack unhandled lightning messages,2019-06-20,Merged,1042,11,0,,1
+"Connect immediately on restart, then wait",2019-07-03,Merged,1040,185,76,scala ,9
+Electrum: add data to TxIdFromPosResponse.,2019-06-17,Merged,1038,7,11,,2
+Removed cached codec,2019-06-14,Merged,1036,2,59,,3
+Electrum: add id_from_pos,2019-06-14,Merged,1035,56,16,,2
+Close the channel if the funding tx never confirms,2019-07-03,Merged,1034,599,277,,6
+Output txid and serialized tx in transaction json serializer,2019-06-13,Merged,1033,18,4,,2
+Wrap all routes in toStrictEntity,2019-07-09,Merged,1032,164,158,,0
+Clean pending htlcs db,2019-06-13,Merged,1027,161,20,,8
+Deterministic channel keypath,2019-07-22,Closed,1026,904,248,,4
+Actor params: small refactoring,2019-06-12,Closed,1025,16,12,,3
+Add feeThresholdSat and maxFeePct parameters to payments API,2019-06-11,Merged,1023,72,52,,4
+Electrum: update server list,2019-06-03,Merged,1022,11,332,,0
+Correctly decode requests without multipliers,2019-06-14,Merged,1020,7,0,,2
+Initialize global feerate with default from conf,2019-06-03,Merged,1019,13,8,,1
+Removed `PaymentRequest.MAX_AMOUNT`,2019-05-28,Merged,1018,1,11,,3
+Close channel if funding tx times out,2019-06-11,Merged,1016,2,5,,3
+Smarter restore logic for closing channels,2019-06-12,Merged,1015,349,38,,3
+Use compact encoding for signatures (64 bytes) instead of DER,2019-06-14,Merged,1014,554,601,,8
+Make `htlc-reaper` a top-level actor,2019-05-21,Merged,1013,1,1,,1
+Set `handleCommandError` to `WARN`,2019-05-27,Merged,1012,1,1,,1
+Smarter relay logic,2019-06-03,Merged,1011,220,136,,2
+Electrum:  consistently retrieve wallet transactions,2019-05-23,Merged,1010,303,86,scala ,5
+Peer reconnection address from node announcements,2019-06-11,Merged,1009,249,59,,10
+Use 64B representation instead of DER for sigs,2019-05-24,Closed,1008,245,258,,10
+Increase Service and EclairImpl test coverage,2019-05-20,Merged,1004,176,116,scala ,3
+Merge master into Android,2019-05-21,Merged,1002,"2,598","1,139",Dockerfile md bash-completion eclair-core/eclair-cli xml conf scala ,9
+Improved test coverage of `io` package,2019-05-10,Merged,996,85,9,,2
+Recovery tool,2019-10-29,Closed,995,485,9,,7
+Release v0.3,2019-05-10,Merged,994,22,4,,4
+Updated license header,2019-05-09,Merged,992,346,250,scala ,57
+Restrict scope of the code coverage report,2019-05-09,Merged,991,5,1,,1
+Set tcp client timeout to 20s,2019-05-09,Merged,990,1,1,,1
+"Set default chain to ""mainnet""",2019-05-09,Merged,989,13,38,conf ,1
+Accept `commit_sig` without changes,2019-05-09,Merged,988,9,4,,2
+Use bitcoind fee estimator first,2019-05-09,Merged,987,3,3,scala ,2
+Replace UnknownPaymentHash/IncorrectPaymentAmount with IncorrectOrUnknownPaymentDetails,2019-05-09,Merged,984,12,12,,6
+Update bash autocompletition for eclair-cli,2019-05-09,Merged,983,5,5,eclair-core/eclair-cli ,2
+Add bot support for code coverage (codecov),2019-05-09,Merged,982,19,1,md xml ,3
+Wireshark dissector support,2019-05-09,Merged,981,43,8,xml ,3
+Use proper closing type in `ChannelClosed` event,2019-05-09,Merged,977,16,7,,3
+Variable-length onion payloads,2019-07-23,Merged,976,"1,195",694,,5
+Fixed overflow issue with max duration,2019-04-30,Merged,975,18,12,,3
+[WIP] Add logging of database timings,2019-09-06,Closed,974,36,10,,2
+Extended Queries: use TLV format for optional data,2019-08-22,Closed,972,"6,408","4,397",md xml ,2
+Various fix and improvements in time/timestamp handling,2019-04-26,Merged,971,63,61,,9
+API: support query /channel info by short channel id,2019-04-26,Merged,969,89,67,,3
+Rename `eclair.bak` to `eclair.sqlite.bak`,2019-04-25,Merged,968,7,7,conf scala ,2
+Fix flaky test in PaymentLifecycleSpec,2019-04-25,Merged,967,17,13,,2
+Do not print the stacktrace on stderr when there is an error at boot,2019-04-25,Merged,966,6,4,,2
+API: optionally use a user supplied preimage when creating invoices,2019-05-17,Merged,965,35,13,,6
+Electrum: make debug logs shorter,2019-04-24,Merged,964,3,1,,1
+ElectrumWallet should not send ready if syncing,2019-04-24,Merged,963,1,2,,1
+Add `balances` API endpoint,2019-06-26,Merged,962,64,27,,8
+Fixed concurrency issue in `IndexedObservableList`,2019-04-25,Merged,961,7,0,,1
+Backup: explicitely specify move options,2019-04-23,Merged,960,21,8,scala ,3
+Update readme with bitcoin 0.17 instructions,2019-04-23,Merged,958,1,6,,0
+resolve hostname ip in docker level,2019-04-21,Closed,957,18,3,sh ,2
+Fix Dockerfile Maven Sha checksum,2019-04-19,Merged,956,1,1,,1
+Add channel errors in audit db,2019-04-19,Merged,955,133,53,,6
+Sync whitelist,2019-08-29,Merged,954,53,18,scala ,5
+Electrum: do not persist transaction locks,2019-04-17,Merged,953,63,36,,2
+Send to route,2019-05-20,Merged,952,132,18,,10
+Live channel database backup,2019-04-19,Merged,951,157,8,xml conf scala ,7
+Smarter strategy for sending `channel_update`s,2019-04-29,Merged,950,236,101,,9
+Print stack trace when crashing during boot sequence,2019-04-24,Merged,949,7,8,,6
+"Set `MAX_BUFFERED` to 1,000,000",2019-04-19,Merged,948,1,1,,1
+Multipart payments,2019-04-26,Closed,946,116,70,,5
+Better handling of closed channels,2019-04-24,Merged,944,103,36,,5
+Channel: Log additional data,2019-04-24,Merged,943,4,2,,2
+BOLT11 numeric tagged field padding,2019-04-16,Closed,940,30,14,,2
+Enrich test for internal eclair API implementation (fr.acinq.eclair.Eclair.scala),2019-05-09,Merged,938,94,6,,1
+API: fix fee rate conversion,2019-04-09,Merged,936,49,2,,3
+Expose the websocket over HTTP GET,2019-04-10,Merged,934,10,10,,2
+Make electrum tests pass on windows,2019-04-04,Merged,932,7,5,,3
+Set max payment attempts from configuration,2019-04-15,Merged,931,44,41,scala ,11
+Electrum: update client name,2019-04-03,Merged,930,5,2,,2
+Minor API fixes,2019-04-02,Merged,929,11,14,,2
+Added a timeout for channel open request,2019-04-18,Merged,928,305,258,,3
+Added simple plugin support,2019-04-19,Merged,927,54,3,xml scala ,3
+Fix eclair-cli to work with equal sign in arguments,2019-04-03,Merged,926,9,19,,1
+Add random delay to rebroadcast,2019-04-01,Merged,925,17,3,,1
+Electrum: fixes and improvements,2019-03-29,Merged,924,52,27,scala ,4
+Rollback funding tx if disconnected in WAIT_FOR_FUNDING_SIGNED,2019-03-30,Merged,923,22,2,,3
+Upgrade scala library target on travis: 2.11.12,2019-03-28,Merged,922,1,1,,1
+Implement wumbo,2019-10-16,Closed,921,105,41,,12
+Set version to 0.3-SNAPSHOT,2019-03-28,Merged,920,4,4,,4
+Rename 'toRemoteNodeId' to 'nodeId' in /channels API,2019-03-27,Merged,919,6,5,,1
+Fix the broken link to old API documentation,2019-03-26,Merged,918,8,9,,0
+[WIP] API: New documentation,2019-03-26,Closed,917,"5,815",841,bash-completion eot svg ttf woff woff2 png ,8
+Check `WatchSpent` in constant time,2019-03-25,Merged,916,115,20,,2
+Don't send updates if no filter has been set,2019-03-25,Merged,912,10,9,,2
+Rework database initialization,2019-03-25,Merged,911,114,109,,14
+Remove unused param 'randomize' from SendPayment command,2019-03-22,Merged,910,3,4,,3
+Improve unit tests,2019-03-22,Merged,908,36,32,,5
+Use bitcoin-lib 0.11 which embeds libsecp256k1,2019-03-25,Merged,907,44,42,md Dockerfile scala xml ,9
+Deal with channels with fees=0 when computing a route,2019-03-26,Merged,905,88,4,,3
+Ensure the cost function in path-finding is monotonic,2019-03-20,Merged,904,31,1,,2
+Rework router data structures,2019-08-28,Merged,902,486,401,,7
+"Minor fixes (dependencies, unit tests)",2019-03-15,Merged,901,2,2,xml ,2
+Disable route randomization by default,2019-03-19,Closed,900,1,1,,1
+Extended queries optional,2019-08-28,Merged,899,"1,311",366,scala ,4
+Replace `BinaryData` by `scodec.bits.ByteVector`,2019-03-14,Merged,896,"2,570","2,708",,6
+Rework route params,2019-03-13,Merged,895,14,13,,5
+API: replace JSON-RPC by named parameters,2019-03-26,Merged,894,"1,334",842,bash-completion ,1
+Better error logs for socks5 proxy,2019-03-12,Merged,893,24,4,,2
+Better logic for sending `channel_updates`,2019-03-18,Merged,888,59,12,xml ,3
+Support option_simplified_commitment,2019-09-10,Closed,887,"1,073",402,scala ,4
+NetworkDb: remove stale channels in batch,2019-03-12,Merged,886,56,26,,4
+Add a proper payments database,2019-04-16,Merged,885,"1,263",567,conf scala ,9
+Send events when HTLCs settle on-chain,2019-04-03,Merged,884,183,25,,8
+Electrum: use current change address as channel closing address,2019-03-06,Closed,883,40,1,,3
+Improve instructions in the readme.,2019-03-01,Closed,881,1,0,,0
+Set default `to-remote-delay-blocks` to 720,2019-02-25,Merged,879,14,3,scala ,2
+Use ypub prefix for Electrum xpub,2019-02-21,Merged,875,3,4,,2
+Electrum fixes,2019-02-19,Merged,873,56,21,,5
+Actively clean the routing table in payment lifecycle,2019-02-18,Closed,872,19,9,,1
+Fixed computation of available balance,2019-02-18,Merged,868,3,2,,2
+Extended API for fine-grained payment tracking,2019-04-15,Closed,867,549,140,,2
+Faster gui startup,2019-02-14,Merged,863,124,63,,6
+Support all-uppercase payment requests,2019-02-12,Merged,862,10,3,,2
+Update bitcoin-lib to 0.9.19,2019-02-12,Merged,861,1,1,,1
+Fix discrepancy between config keys,2019-02-12,Merged,860,2,2,,2
+Make sure the path-finding algorithm can't use a channel twice in a route,2019-02-12,Merged,857,27,17,,2
+Reimplemented BOLT 11 with scodec,2019-02-11,Merged,856,332,581,scala ,3
+Increased max-to-local-delay-blocks to 2016,2019-02-08,Merged,853,1,1,,1
+Update jeromq dependency,2019-02-21,Merged,852,4,4,scala ,2
+Allow to disable route randomization,2019-02-05,Merged,851,24,16,scala ,7
+Always select direct channel if there is one to the target,2019-02-05,Merged,850,7,4,,2
+Improve Electrum start-up time,2019-02-08,Merged,848,331,126,,8
+Use OpenJDK 11 as default JDK,2019-02-21,Merged,846,34,22,md xml scala ,5
+Parametric route search,2019-02-11,Merged,844,307,205,scala ,4
+[WIP] Use a single link to represent multiple channels between two nodes,2019-01-31,Closed,843,40,28,,2
+Optional route randomization,2019-01-30,Merged,842,15,14,,3
+Optional route randomization,2019-01-30,Closed,841,60,46,scala ,2
+Stop disconnected peer when it has no channels,2019-02-08,Merged,840,70,48,,5
+Proper handling of gossiped channels being spent,2019-01-31,Merged,838,72,81,,8
+Set timestamp filter lower bound to current time,2019-01-28,Merged,837,5,2,,1
+Replace initialization futures Future[Boolean] by Future[Done],2019-01-29,Merged,836,21,16,,4
+Ignore reconnections requests to the same peer with the same address,2019-01-29,Merged,835,19,9,,1
+ChannelSelectionSpec: use akka.event.NoLogging,2019-01-23,Merged,834,2,3,,1
+Fix flaky test in IntegrationSpec,2019-01-22,Merged,832,9,4,,1
+Impose a max length of 32 bytes on UTF-8 encoded aliases,2019-01-17,Merged,828,57,1,,2
+Add balance and channel lifecycle events to the audit db,2019-02-08,Merged,827,126,11,,7
+Upgrade to bitcoin 0.17.1,2019-03-19,Merged,826,92,57,scala conf sh ,10
+Electrum: improve error handling,2019-01-17,Merged,825,42,24,,2
+Routing heuristics,2019-02-22,Merged,821,430,186,scala ,7
+[WIP] JDK10/11 compatiblity: use Scala 2.11.12,2019-01-31,Closed,820,2,1,,1
+Fix findroute documentation,2019-01-16,Merged,817,7,3,scala eclair-core/src/test/resources/api/help ,2
+Fix  `short_channel_id` parsing and add RPC API test,2019-01-11,Merged,815,325,3,scala eclair-core/src/test/resources/api/close eclair-core/src/test/resources/api/getinfo eclair-core/src/test/resources/api/help eclair-core/src/test/resources/api/peers ,10
+Compute the k-shortest routes,2019-01-17,Merged,813,295,56,,2
+Update bash completion,2019-01-18,Merged,811,1,1,,1
+Monitoring of Eventbus and Gauges on Channels/Nodes,2019-09-06,Closed,809,293,11,scala ,8
+WIP - Database Performance Monitoring,2019-09-06,Closed,806,245,10,scala ,9
+Allow access to audit of transactions from API,2019-01-17,Closed,805,54,0,scala ,4
+Add more details to `checkpayment` API call,2019-04-12,Closed,802,24,4,eclair-core/src/test/resources/api/help ,4
+GUI Improvements,2019-01-14,Merged,801,311,192,scala css fxml ,5
+Add JSON serializer for PaymentRequest,2019-01-17,Merged,798,27,5,scala eclair-core/src/test/resources/api/help ,4
+Compute routes backward,2019-01-11,Merged,797,290,82,scala ,4
+Limit CLTV value to 2016,2019-01-03,Merged,795,9,2,,3
+Use BOLT specific formatting for short channel id,2019-01-02,Merged,793,8,1,,2
+Fire together wire together,2019-01-17,Closed,792,229,79,,5
+Take channel age and capacity into account when calculating an edge weight,2019-01-17,Closed,791,93,36,,9
+Tweak parameters to optimize ElectrumClient connections,2018-12-20,Merged,788,7,0,,1
+Cleaned up mainnet electrum servers list,2018-12-18,Merged,786,0,94,,1
+Relay to channel with lowest possible balance,2019-01-21,Merged,784,131,20,scala ,7
+NioEventLoopGroup is shared with all clients in ElectrumClient,2018-12-14,Merged,783,5,3,,1
+Make ping less aggressive,2019-01-11,Merged,782,47,20,scala ,4
+Add exclusive locks to channels sqlite db,2019-01-03,Merged,781,40,1,,14
+Routing: use custom implementation for the shortest path algorithm and the graph,2018-12-20,Merged,779,798,272,scala ,3
+Optional per-node features in conf,2018-12-12,Merged,778,26,2,scala ,4
+"Electrum: download, verify and store headers",2019-01-11,Merged,776,"5,371",252,scala ,5
+Use netty to connect to Electrum servers,2018-12-11,Merged,774,267,195,scala ,2
+[WIP] Routing improvements,2018-12-12,Closed,771,947,152,scala ,2
+Wait for Router to be initialized,2018-12-04,Merged,769,12,4,scala ,3
+Make maxHtlcValueInFlight checks directional,2018-12-12,Merged,768,7,7,,1
+Watch future remote commit on restore,2018-11-23,Merged,766,3,1,,1
+Update connection-level features at reconnection,2018-12-12,Merged,765,65,31,,7
+Switch sttp backend async-http-client -> okhttp,2018-11-23,Merged,764,10,9,scala ,5
+Disable local channels below reserve,2019-01-03,Merged,763,57,6,,5
+Auto probing of local channels,2019-01-18,Merged,762,110,15,scala ,8
+Disconnect peer after a timeout when waiting for revocation,2018-12-07,Merged,761,85,4,scala ,5
+Detect broken HTLC links at startup,2019-01-04,Merged,757,183,28,,4
+Disconnect peer if it does not reply to our Ping messages,2018-11-20,Merged,755,175,110,,0
+Relay fail messages *after* they are cross-signed,2019-01-02,Merged,754,309,171,,3
+Fail outgoing messages if peer is not communicating,2018-11-15,Closed,753,0,0,,0
+Updated readme.md,2018-11-13,Merged,750,5,2,eclair-core/eclair-cli ,1
+Reject received payments where PaymentRequest Expiry Tag time has been exceeded.,2018-11-15,Merged,749,129,84,,7
+Handle on-chain refund events for HTLCs,2019-01-05,Closed,747,397,91,,3
+Update Android branch,2018-10-25,Merged,746,"4,439","4,328",md Dockerfile eclair-core/eclair-cli xml scala ,6
+Add payment hash to `HtlcTimeoutTx` in backwards compatible way,2018-11-22,Closed,744,183,82,,1
+Use different ZMQ block and tx subscriptions,2018-10-25,Merged,743,16,9,conf scala ,4
+Always add 1 block to the `finalCltvExpiry`,2018-10-23,Merged,742,4,4,,2
+Fix encoding of FinalIncorrectHtlcAmount error message,2018-10-19,Merged,740,1,1,,1
+Support for custom Electrum server,2018-10-23,Merged,739,18,9,,1
+Add `htlcMaximumMsat` field to `ChannelUpdate` message,2018-10-19,Merged,738,172,130,,6
+Support for Tor onion services,2019-02-08,Merged,736,"1,746",160,xml conf scala ,4
+Add instructions for Bitcoin Core 0.17.0 [ci skip],2018-10-15,Merged,732,32,4,,0
+Simplify bitcoind version check,2018-10-11,Merged,731,2,2,,1
+Update scalatest and remove junit runner,2018-10-11,Merged,728,"3,703","4,031",md Dockerfile xml scala ,23
+Only persist htlcs above remote's `dust_limit`,2018-10-15,Merged,724,60,9,,6
+Fixed regression caused by 7a4f175,2018-09-24,Merged,722,24,3,,3
+Logging: use a rolling file appender,2018-09-24,Merged,721,10,4,xml ,2
+Use sttp lib instead of akka-http-client,2018-10-25,Merged,720,71,91,scala ,15
+Handle update relay fee in OFFLINE state,2018-09-24,Merged,719,54,5,,5
+Improved eclair-cli,2018-09-24,Merged,718,3,5,,1
+Fix handling of born again channels,2018-09-20,Merged,717,46,12,,2
+"Fix handling of ""born again"" channels",2018-09-20,Closed,716,564,71,scala ,6
+Tests: use bitcoind 0.16.3,2018-09-20,Merged,715,10,10,scala ,2
+Clean channels with unexisting funding tx,2019-03-06,Merged,714,382,29,,4
+Fixed regression in rebroadcast,2018-09-19,Merged,713,145,152,,7
+Routing sync fixes,2018-09-19,Merged,712,51,18,,2
+Make `publishTransaction` idempotent,2018-09-20,Merged,711,137,6,,3
+Improve integration tests,2018-09-18,Merged,710,12,2,scala ,3
+Replace `update_fee` in commitments,2018-09-20,Merged,709,31,2,,2
+Ignore 'origin htlc not found' in CLOSING,2018-09-20,Merged,708,25,9,,1
+Set default `max-htlc-value-in-flight-msat` to 50mBTC,2018-09-18,Merged,707,1,1,,1
+Remember pruned channels,2018-09-17,Merged,706,83,116,,5
+Ignore bad announcements sent by peers,2018-09-17,Merged,705,290,128,,4
+Correctly handle multiple channel_range_replies,2018-09-17,Merged,704,95,115,,4
+"ShortChannelId: use block height, tx index, output index explicitely",2018-09-17,Closed,702,32,33,,7
+Added `LocalCommitConfirmed` event,2018-09-17,Merged,701,15,6,,3
+Switched commitment log level to info (minor),2018-09-12,Merged,700,9,12,xml ,3
+Added catch-all handler for local commit (minor),2018-09-12,Merged,699,5,1,,1
+Handle overriden htlcs in remote close scenario,2018-09-12,Merged,697,50,11,,3
+Improve startup error handling,2018-09-17,Merged,696,31,12,,2
+Extend API and websocket,2019-02-14,Closed,694,916,195,scala ,6
+Multiple fixes in payment lifecycle,2018-09-11,Merged,693,161,27,,6
+Fixed htlc absolute expiry checks,2018-09-03,Merged,687,9,69,,3
+Removed max body size in http client,2018-08-31,Merged,686,17,25,conf ,3
+Mention Docker in our build instructions (fixes #669),2018-09-03,Merged,685,10,2,,0
+"Add a ""smooth"" fee provider",2018-08-30,Merged,684,92,5,scala ,5
+Add an issue template,2018-08-27,Merged,683,19,0,,0
+Support for bitcoin 0.17.x,2018-10-11,Closed,682,131,81,xml scala conf ,9
+Add logging customisation info,2018-08-30,Merged,680,8,0,,0
+Add `htlcMaximumMsat` field to `ChannelUpdate` message,2018-10-17,Closed,679,128,111,,5
+Fixed some logs and added `ChannelPersisted` event,2018-08-15,Merged,674,21,3,scala ,4
+Send `query_short_channel_ids` sequentially,2018-08-15,Merged,672,36,8,,2
+Correctly process payment requests with amounts without multiplers,2018-09-20,Closed,670,7,0,,2
+Handle unknown remote commit in recovery logic,2018-08-10,Merged,667,181,59,,4
+Get full blocks when looking for spending tx,2018-08-03,Merged,666,4,3,,1
+Send an event when an error occurs in a channel,2018-07-18,Merged,663,40,53,,2
+Fail unsigned outgoing htlcs at CLOSING,2018-07-31,Merged,660,65,2,,4
+Use user-provided fee rate for funding tx,2018-08-27,Merged,658,16,13,,4
+[WIP] Update code to build with Scala 2.12,2018-07-23,Closed,657,25,20,xml ,10
+"Use ""unsigned long"" comparison for short channel ids",2018-07-16,Merged,656,9,1,,2
+Keep track of sent/received/relayed payments and relay/network fees,2018-07-25,Merged,654,591,67,eclair-core/eclair-cli scala ,8
+Cleanup internal Eclair API,2019-03-27,Closed,653,519,172,,3
+Clean up implicit execution contexts and allow ActorSystem to be pass…,2018-07-16,Merged,652,31,22,,7
+Fixed default min_final_cltv_expiry value,2018-07-09,Merged,650,2,2,,1
+Relay payments to preferred channels,2018-07-09,Merged,648,259,130,,5
+Router: prune channel that our peer does not have,2018-07-13,Merged,647,163,25,,4
+Implement 'listpayment' RPC api,2018-09-10,Closed,646,282,2,scala eclair-core/src/test/resources/api/getinfo eclair-core/src/test/resources/api/help eclair-core/src/test/resources/api/peers ,7
+Added context to logs,2018-07-02,Merged,638,127,30,xml ,9
+Generate payment request with extra routing information,2018-06-26,Merged,637,27,9,,3
+Fix scala.NotImplementedError when public-ips config parameter contains invalid values,2018-06-26,Merged,635,5,4,,3
+Check when relay fee is insufficient,2018-06-19,Merged,634,24,1,,2
+"WIP: Adding hikari connection pool, release db connections back to pool af…",2019-09-23,Closed,633,552,178,conf scala ,12
+Adding ability to set expiry when creating a new invoice,2018-06-19,Merged,632,22,7,eclair-core/eclair-cli scala ,5
+Routing: remove final CLTV expiry check on outgoing HTLCs,2018-06-14,Merged,627,2,19,,3
+Add api call to update channel relay fees updatefee,2018-06-19,Merged,620,114,40,scala fxml ,7
+add in api calls to allow async sends. Fixes #615,2018-09-12,Closed,619,79,49,scala ,3
+Add missing BOLT 2 checks (fixes #613),2018-06-18,Merged,618,158,43,,4
+Fix Bitcoin JSON RPC client's rounding errors,2018-07-24,Merged,616,188,28,,6
+Replace mvn install with mvn clean install,2018-06-07,Closed,614,4,4,,0
+Inform clients about incoming payments via websocket connection,2018-05-30,Merged,610,29,2,,2
+"Update electrum testnet server list, and fix flaky client pool tests",2018-05-25,Merged,609,37,17,scala ,3
+Set a minimum feerate-per-kw of 253 (fixes #602),2018-05-30,Merged,608,237,74,scala ,7
+Filter out non-spendable outputs from bitcoind 'listunspent' call during setup,2018-05-22,Merged,605,5,1,,1
+Fix maven version to 3.3.9 in docker build,2018-05-22,Merged,604,4,4,,1
+Set version to 0.2-beta3,2018-05-18,Closed,601,4,4,,4
+Electrum wallet: fix balance computation issue,2018-05-18,Merged,600,6,1,,1
+Enforce min feerate per byte on regtest,2018-05-18,Merged,595,1,1,,1
+Inform clients about incoming payments via websocket connection,2018-05-30,Closed,594,28,2,,2
+Update Sphinx test vectors,2018-05-18,Merged,593,10,9,,1
+Electrum: add wallet and watcher tests (via Docker),2018-06-27,Merged,592,349,432,xml scala ,5
+Increase startup timeout,2018-05-18,Merged,590,2,1,conf ,2
+Fixed conversion: 1 BTC = 1e8 satoshis,2018-05-04,Merged,589,2,2,,1
+Cache serialized network announcements,2018-05-04,Merged,588,60,3,,4
+Check if closing tx is known before handling it,2018-05-04,Merged,587,4,4,,1
+Electrum wallet: export xpub,2018-05-04,Merged,586,40,14,,3
+Fixed \ instead of / in docker commands (acinq/eclair),2018-05-04,Merged,584,2,2,,0
+[WIP] Use latest fast sync scheme,2018-05-04,Closed,583,334,202,xml conf scala ,14
+Update bitcoin-lib to 0.9.17,2018-05-03,Merged,582,4,4,xml ,3
+Use fallbackAddress tag,2018-05-04,Merged,581,1,0,,1
+Add configurable min funding satoshis limit,2018-05-03,Merged,580,12,8,scala ,6
+Remove utxo lock when call to `signrawtransaction` fails,2018-05-04,Merged,579,113,31,conf ,3
+Adds minor improvements to find route API,2018-05-09,Closed,576,24,12,,3
+Retrieve and store feerate in satoshi/kB (instead of satoshi/byte),2018-04-30,Merged,574,121,104,scala ,11
+Add json serializers for `NodeAddress` type,2018-04-23,Merged,570,45,8,,3
+Update local `node_announcement` on startup,2018-04-17,Merged,564,6,2,,1
+Log feerates returned by fee providers,2018-05-04,Closed,561,35,15,,5
+Refactor Transactions methods,2018-04-23,Closed,560,128,162,,2
+Handle IPv4-mapped/tor2/tor3 addresses,2018-04-16,Merged,559,114,37,,6
+Update docker link,2018-04-13,Merged,557,1,1,,0
+Add server address in ElectrumReady object,2018-05-30,Merged,556,26,23,,5
+Correctly extract `pubkeyScript` from witness data,2018-04-11,Merged,555,46,1,,2
+Resolve Electrum server address only when connecting,2018-04-10,Merged,554,3,3,,1
+Support signing multiple similar/identical HTLCs,2018-04-11,Merged,553,177,54,,3
+Send `channel_update` once every 7 days instead of every day,2018-04-03,Merged,532,1,1,,1
+Accept bech32 addresses,2018-04-03,Merged,531,117,32,conf ,8
+Enforce a minimum fee rate,2018-04-03,Merged,530,120,103,scala ,13
+Electrum: fix signature bug,2018-03-29,Merged,524,1,1,,1
+Use bitcoin-lib 0.16,2018-03-28,Merged,519,1,1,,1
+Extend penalty to stealing HTLC outputs,2018-03-28,Merged,517,544,156,,3
+Upgrade to bitcoin-lib 0.9.15,2018-03-27,Merged,516,3,3,xml ,2
+Added json serializers to handle payment failures,2018-03-27,Merged,515,25,9,,2
+Upgrade to Bitcoin Core 0.16,2018-03-26,Merged,514,40,61,xml scala conf ,8
+Add support for mainnet,2018-03-28,Merged,513,484,103,json ,1
+Updated dependencies,2018-03-26,Merged,512,4,4,,2
+Update Funding tx id value in GUI when funding is signed,2018-03-28,Merged,511,8,1,,1
+Fixed race condition in `ElectrumClient`,2018-03-24,Merged,509,3,2,,1
+Use `lnbcrt` prefix for regtest,2018-03-23,Merged,508,13,12,,1
+Cleanup some TODOs,2018-03-23,Merged,507,27,39,,11
+Electrum: add a `send all balance` method,2018-03-23,Merged,506,68,8,,3
+Initial version of audit logger,2018-07-25,Closed,505,"1,750",296,conf scala ,5
+Add json serializers to the API,2018-03-23,Merged,504,24,21,,4
+Use a pool of Electrum servers,2018-03-23,Merged,500,367,116,,2
+Added a 1s delay when API password check fails,2018-03-23,Merged,498,99,96,,2
+Added copyright notice to all files,2018-03-21,Merged,497,"3,372",19,xml scala ,20
+Track version of each logical database,2018-03-23,Merged,495,41,3,,6
+Set a configurable `maxPaymentFee` as safety,2018-03-22,Merged,493,116,64,scala ,11
+Update link to latest release,2018-03-20,Merged,492,2,2,,0
+build: Specify that we need at least 1.8u161 to build,2018-03-20,Merged,491,1,1,,0
+Specify that we need JRE 1.8u161 or newer,2018-03-20,Closed,490,1,1,,0
+Simplified blacklisting of nodes in case of payment failures,2018-03-19,Merged,489,21,20,,4
+Proper cleanup of private channels,2018-03-19,Merged,488,50,7,,2
+Close channel on `BITCOIN_FUNDING_PUBLISH_FAILED`,2018-03-19,Merged,487,10,4,,3
+Added back pressure on TCP writes to Electrum client,2018-03-21,Merged,485,57,4,,2
+Future timeouts should not be handled as failures in frontend,2018-03-15,Merged,484,63,52,conf xml ,6
+Better handling of force-closing of channels,2018-03-15,Merged,483,139,51,scala ,8
+Use default seed for electrum if none is provided,2018-03-15,Merged,482,4,6,,1
+Restore node id key path,2018-03-14,Merged,481,72,54,,10
+"Created a type for short channel id, and other minor improvements",2018-03-13,Merged,480,344,392,scala ,11
+Addition of API calls checkinvoice and findroute,2018-03-24,Merged,475,38,3,scala ,2
+Use bitgo API v2 to get network fees,2018-03-02,Merged,473,14,7,,3
+Fixed bug in ignored channel computation,2018-03-02,Merged,472,65,13,,3
+Added check on `to_self_delay` parameter,2018-03-02,Merged,470,50,20,scala ,8
+Proper management of expiry-related errors,2018-03-01,Merged,469,211,165,,9
+Update README to work with Bitcoin Core 0.16+,2018-03-02,Merged,468,9,4,,0
+Publish a `ChannelSignatureSent` for each outgoing commitment sig,2018-03-01,Merged,467,6,0,,2
+Made `PaymentSucceeded.amountMsat` include fee,2018-02-28,Merged,466,4,4,,4
+Prune on rebroadcast,2018-03-01,Merged,464,53,19,,1
+Reworked routing algorithm,2018-03-01,Merged,461,297,121,,4
+Improvements & fixes,2018-02-27,Merged,459,368,275,scala ,3
+Prune on `initial_routing_sync`,2018-02-26,Merged,455,293,383,,1
+Improve initial routing sync,2018-07-12,Merged,453,740,147,scala ,6
+Minor fixes,2018-02-20,Merged,452,71,54,scala ,8
+Better data structures,2018-02-20,Merged,451,48,42,,14
+How to fix javax.net.ssl.SSLHandshakeException during the build process,2018-03-20,Closed,450,18,0,,0
+Removed bitcoinj support,2018-02-20,Merged,447,17,"1,355",conf scala ,7
+bash completion script for eclair-cli,2018-02-22,Merged,443,39,0,,1
+Ignore 'tx already in block chain' errors when publishing a tx,2018-02-16,Merged,441,6,6,,1
+Improved queuing of `initial_routing_sync` requests,2018-02-16,Merged,440,36,16,,2
+Replaced `LoggingFSM` -> `FSM`,2018-02-16,Merged,439,12,23,conf ,5
+Add detailed message to remote failures,2018-02-27,Merged,431,60,40,css fxml ,8
+Don't send duplicate messages to channels,2018-02-12,Merged,430,10,10,,1
+Batch requests to bitcoind json-rpc api,2018-02-07,Merged,429,194,119,,8
+Added an optional seed to Setup,2018-02-01,Merged,424,34,45,,6
+Better closing tx management,2018-02-26,Merged,423,179,105,,7
+Use TCP pull mode,2018-02-16,Merged,422,421,325,,9
+Store channel funding txid with announcements db,2018-02-06,Merged,421,65,35,,9
+[WIP] Faster routing table sync with bucket counters,2018-02-23,Closed,420,"5,558",9,scala ,6
+Fix typos,2018-01-29,Merged,417,78,78,md scala ,11
+Add channel fees and capacity to Channel GUI,2018-02-12,Merged,416,174,120,scala fxml ,11
+Invalidate ports below 0 and above 65535,2018-02-06,Merged,412,32,43,,2
+Data loss protection,2018-02-23,Merged,410,326,61,scala ,4
+Update Readme to elaborate on p2sh error after alpha 9.0 download,2018-02-05,Closed,407,1,1,,0
+TCPException message error should be defined,2018-02-12,Merged,401,4,3,,2
+add closeall command,2018-02-05,Closed,400,8,0,,1
+Various GUI Improvements,2018-01-23,Merged,396,457,238,conf scala fxml css ,6
+Updated README.me,2018-01-29,Merged,395,2,0,,0
+Added quotes to sample parameter value in README.md,2018-01-29,Merged,394,1,1,,0
+Always check `maxAttempts` counter when receiving unparseable errors,2018-01-22,Merged,391,32,12,,2
+Explicitely ack all relayed messages,2018-02-16,Merged,390,450,262,,4
+Fix a comment,2018-01-21,Merged,386,1,1,,1
+Fix 'filename too long' compilation error on encrypted file systems,2018-01-22,Merged,385,2,0,,1
+Add getinfo to API help,2018-01-21,Merged,383,1,0,,1
+Make eclair-cli executable,2018-01-20,Merged,382,0,0,,1
+Fix some comments,2018-01-21,Closed,381,4,4,scala ,2
+Include payment preimage in PaymentSent event,2018-01-22,Merged,374,35,5,fxml ,5
+Improve key management,2018-03-01,Merged,372,435,250,,2
+"Updated username, password and port in readme",2018-01-18,Merged,371,2,2,,0
+Remove api.user,2018-01-15,Merged,370,2,3,scala ,1
+Indicate that wallet mode is needed before exiting,2018-01-16,Merged,368,4,0,,1
+Handle ipv6 addresses,2018-01-11,Merged,367,248,141,fxml ,8
+Fix encoding of failure messages (fixes #363),2018-01-11,Merged,366,26,15,,2
+Fix memory leak and reduce overall memory usage,2018-01-11,Merged,365,567,404,,3
+Update README.md,2018-01-08,Merged,361,1,1,,0
+Limit the max TCP packet size to the longest lightning message,2018-02-16,Closed,360,23,1,scala ,2
+Handle mutual close in state `DATA_WAIT_FOR_FUNDING_CONFIRMED`,2018-09-25,Closed,358,"4,940",650,LICENSE xml conf scala ,10
+Fixed eclair-cli,2018-01-11,Merged,354,380,265,eclair-core/eclair-cli conf scala ,3
+Use same username/password in all examples.,2017-12-28,Closed,350,5,3,,0
+Don't blacklist recipient's peer,2018-01-22,Closed,345,2,2,,1
+Make payment request expiry configurable,2018-01-22,Merged,341,54,16,scala ,8
+Data loss protection,2018-01-26,Closed,333,150,45,scala ,8
+Adding link to https://explorer.acinq.co,2017-12-23,Merged,331,1,0,,0
+[GUI] Various gui fixes,2017-12-22,Merged,327,206,61,fxml scala ,11
+Electrum Wallet: Send ready notification when reconnected,2017-12-22,Merged,324,124,25,,3
+Pre-validation announcements pruning,2017-12-22,Merged,323,97,56,,6
+Improve JSON RPC API error handling,2017-12-22,Merged,322,195,105,eclair-core/eclair-cli scala ,2
+Electrum: Use actual tx weight when estimating fees (see #303),2017-12-22,Merged,321,204,70,,4
+Improve logs,2017-12-22,Merged,320,218,173,,8
+Faster search of spending tx when using bitcoind,2017-12-22,Merged,319,25,32,,3
+Reworked peer management,2017-12-22,Merged,316,370,261,eclair-core/eclair-cli scala ,6
+Add an API method to check if a payment request has been paid,2017-12-22,Merged,312,191,18,,9
+Clarify that `datadir`=`.eclair` in README,2017-12-21,Merged,309,3,3,,0
+Upgrade to bitcoin-lib 0.9.14,2017-12-20,Merged,304,45,39,,13
+Use the correct `toSelfDelay` when claiming funds,2017-12-20,Merged,296,13,13,,2
+Add a custom json serializer for `OutPoint`,2017-12-18,Merged,291,45,3,,3
+Rework `channel_update` management,2017-12-22,Merged,284,470,202,,5
+Put `Sphinx.parse*` function in `Try` blocks,2017-12-15,Merged,283,104,59,,6
+Added more methods in API,2017-12-15,Merged,281,50,31,scala ,7
+Assisted route handling,2017-12-20,Merged,279,119,141,,9
+BOLT11: Implement change in r field,2017-12-13,Merged,277,28,17,,4
+Catch `channel` errors in `relayer`,2017-12-12,Merged,276,54,37,,5
+Handle corner case when relaying to an unknown channel,2017-12-12,Merged,275,33,8,,2
+Cleaned up README and moved instructions to the Wiki,2018-03-05,Closed,274,56,142,,0
+Assisted route handling,2017-12-14,Closed,273,0,0,,0
+readme typo correction,2017-12-09,Closed,269,1,1,,0
+[GUI] Default unit should be milliBTC,2017-12-11,Merged,268,76,29,scala ,6
+Reduce default fees,2017-12-08,Merged,267,3,8,xml ,2
+[Gui] Centralize units labels from CoinUtils values,2017-12-07,Merged,261,6,18,scala ,4
+Removed default values for commitid in pom,2017-12-06,Merged,258,2,5,xml ,2
+Remove testnet.hsmiths.com from testnet electrum servers,2017-12-06,Merged,257,0,4,,1
+Entrypoint for dockerfile and documentation to setup the eclair.conf,2017-12-08,Merged,256,26,2,md ,1
+Docker support with repeatable builds,2017-12-05,Merged,255,73,33,Dockerfile xml ,6
+Add test on signing a single `Updatefee` with no other updates,2017-12-04,Merged,254,30,0,scala ,2
+Unified cltv expiry type to Long,2017-12-04,Merged,253,5,5,,3
+Move akka configuration to eclair-node application.conf,2017-12-04,Merged,252,17,17,,2
+Docker support with repeatable builds,2017-12-05,Closed,251,68,0,Dockerfile ,2
+Maven command to build eclair-node only,2017-12-01,Merged,250,7,3,,0
+Disable dust limit checks on regtest and testnet,2017-12-01,Merged,249,22,9,,5
+Rework mutual closing,2017-12-06,Merged,247,380,200,,4
+Handling optional amount in a Payment Request,2017-11-30,Merged,241,286,155,scala css fxml ,10
+Added more checks on `open`/`accept` messages,2017-11-29,Merged,240,129,38,scala fxml ,10
+[WIP] Shrink README and add detailed help to the Wiki,2017-12-04,Closed,239,259,0,,0
+Minor improvements for the CLI,2017-11-27,Merged,238,6,3,,1
+Added bitgo fee provider,2017-11-27,Merged,237,124,2,,3
+Basic data loss protection,2017-12-24,Closed,235,153,43,scala ,8
+Fix concurrent spends with Electrum,2017-11-29,Merged,233,14,4,,1
+Use tx-output pubkeyscript as hint for electrum watcher,2017-11-27,Merged,232,1,1,,1
+Removed bitcoin-core parent-tx hack,2017-11-27,Merged,231,209,221,,2
+Correctly translates and relay channels errors,2017-12-06,Merged,230,357,240,scala ,6
+Check that all UTXOS are p2sh on testnet,2017-11-27,Merged,228,126,55,scala ,6
+Bolt 11: ignore unknown tags (fixes #206),2017-11-24,Merged,226,35,3,,2
+bitcoin rpc client: queue requests locally,2017-11-22,Merged,223,29,7,,1
+Reformat + optimized imports,2017-11-21,Merged,222,589,452,json scala ,24
+bitcoin rpc client: increase the number of concurrent requests,2017-11-22,Closed,221,1,1,,1
+Fix doc for api call `connect`/`open`,2017-11-21,Merged,220,4,4,scala ,1
+Prune stale network announcements,2017-11-21,Merged,219,192,80,,5
+Delay `announcement_signatures` when received early,2017-11-17,Merged,217,71,23,,3
+Improved fees management,2017-11-21,Merged,216,376,119,scala ,10
+[Android] Support for electrumx API,2017-11-21,Merged,214,"5,503","1,899",xml json conf scala ,9
+Use a separate `htlc_key` to sign 2nd stage htlc txs,2017-11-17,Merged,213,153,127,,5
+[README] Added help for options syntax,2017-11-14,Merged,212,4,2,conf ,1
+Bitcoin wallet: lock utxos used by funding transactions,2017-11-10,Merged,211,9,5,,1
+Use `min_final_cltv_expiry` included in payment request (if any),2017-11-10,Merged,210,12,4,,3
+Support for electrumx API,2017-11-21,Merged,208,"2,688",393,conf scala ,9
+Handle remote `error` in `SYNCING` state,2017-11-14,Merged,205,2,0,,1
+Rework channel closing logic,2017-11-14,Merged,204,460,238,,6
+BOLT 11: add an optional 'minimum htlc expiry' tag,2017-11-06,Merged,202,66,20,,5
+Always store channel state when a revocation is received,2017-10-30,Merged,201,2,2,,1
+Add primary key to channel_updates table,2017-10-30,Merged,199,12,3,,4
+Support building payments with extra hops,2017-11-07,Merged,198,110,28,,9
+Have channels subscribe to blockchain events at creation,2017-10-30,Merged,195,9,4,,1
+Better handle big routing table,2017-11-14,Merged,194,78,12,,4
+[WIP] Better handle big routing table,2017-10-24,Closed,193,78,12,,4
+Improved performance of Android router,2017-10-24,Merged,192,14,21,,1
+payment request: encode expiry as a varlen unsigned long,2017-10-25,Merged,188,58,17,,2
+Support multiple hops in RoutingInfoTag,2017-10-23,Merged,185,42,16,,2
+[WIP] [Android] Switch to electrumx API,2017-11-15,Closed,184,"2,366","1,477",xml json scala ,7
+Rework preimage handling,2017-11-14,Merged,183,698,643,,10
+Store state when receiving a `CommitSig` in state SHUTDOWN,2017-10-17,Merged,181,1,1,,1
+Base checks in `sendAdd` on the *last* sent sig,2017-10-17,Merged,180,24,2,,2
+Added a check amount>dust on `ClaimDelayedOutputTx`,2017-10-11,Merged,177,100,67,,2
+Reworked handling of `shutdown` messages,2017-10-11,Merged,176,235,103,,1
+Added ACK-based TCP write back-pressure,2017-10-11,Merged,174,71,15,,3
+Added an integration test on revoked tx handling,2017-10-03,Merged,172,62,6,,2
+Handle `update_fail_malformed_htlc` in payment FSM,2017-09-25,Merged,170,141,21,,7
+Re-send htlc/sigs after `funding_locked`,2017-09-22,Merged,169,40,14,,2
+Process `update_fail_malformed_htlc` properly,2017-09-22,Merged,168,24,10,,2
+back to 0.2-SNAPHOT,2017-09-20,Merged,166,9,6,,4
+Minor fixes,2017-09-13,Merged,163,150,146,,3
+Skip `Wallet.isRelevant` when bitcoinj is used as a watcher,2017-09-12,Merged,162,2,1,xml ,2
+Sphinx: fix version byte,2017-09-12,Merged,161,2,2,,2
+Set a hard-coded timestamp for bitcoinj watched scripts,2017-09-11,Merged,160,4,1,,1
+Now requiring spv nodes to be Segwit-compatible,2017-09-08,Merged,159,28,16,,5
+Replaced sqlite result iterators by lists,2017-09-08,Merged,158,29,24,,7
+Make Integration tests work in macos,2017-09-12,Merged,157,14,0,,1
+Better handling of connection lifecycle in Peer,2017-09-08,Merged,155,19,17,,2
+Temporarily exclude channels from routes,2017-09-08,Merged,154,85,35,scala ,8
+(gui) Remove millisatoshis part from milli-bitcoin amounts,2017-09-07,Merged,153,21,5,,2
+Add an experimental SPV mode with bitcoinj,2017-09-07,Merged,152,"2,099",786,xml conf scala ,7
+Fix byte order of chain hash,2017-09-06,Merged,151,53,52,,10
+Switch to java environment variables instead of command line options,2017-08-30,Merged,149,63,95,scala xml ,5
+Added a compatibility check with DB files when booting application,2017-08-28,Merged,148,27,1,,3
+Fix 'match may not be exhaustive' warning,2017-08-28,Closed,147,10,2,scala ,1
+"Add chain hash to gossip messages, increase max error message size",2017-08-28,Merged,145,92,73,,6
+Use Sqlite as local database,2017-08-29,Merged,143,492,200,scala ,11
+Use logback's MDC to display channelId in logs,2017-08-25,Merged,142,33,4,xml ,4
+Renamed javafx module to `eclair-node-gui` and updated binaries name,2017-08-23,Merged,137,63,44,xml bmp ico css png fxml scala ,51
+Fix node announcement encoding (see #124),2017-08-23,Merged,136,4,1,,1
+Add API method to accept requests with custom amount,2017-08-25,Merged,135,10,2,scala ,1
+(API) Added an `allchannels` API method to expose all known channels,2017-08-23,Merged,133,11,6,scala ,1
+Update bitcoin-lib dependency to 0.9.13,2017-08-23,Merged,132,1,1,,1
+Replace getinfo with getnetworkinfo,2017-08-24,Merged,131,2,2,,2
+Improved Configuration section in README,2017-08-16,Merged,129,4,2,,0
+Reorder features fields to match the BOLTS,2017-08-23,Merged,127,12,12,,4
+Improved reconnection logic and fuzzy tests,2017-08-10,Merged,123,178,145,xml ,7
+Bugfix: regression in init,2017-08-23,Merged,120,83,30,,4
+(gui) Fix direction icons in the list of the known channels in network,2017-08-17,Merged,119,30,20,scala ,2
+Bugfixes and minor improvements,2017-07-26,Merged,117,363,351,eclair-core/eclair-cli scala ,3
+Add description to receive in help menu,2017-07-22,Merged,114,1,1,,1
+Update with description to receive method,2017-07-22,Merged,113,1,1,,0
+Parse `max_htlc_value_in_flight_msat` as an unsigned long,2017-07-17,Merged,109,134,53,,13
+Reproduced and fixed issue with different dust limits,2017-07-17,Merged,108,3,3,,2
+Simplified computation of closing fee,2017-07-17,Merged,107,22,11,,2
+Added support for multiple external ip in node announcements,2017-07-17,Merged,106,21,18,scala ,9
+Implement state-counter retransmission,2017-07-17,Merged,105,"1,184","1,055",,4
+Fix `update_add_htlc` encoding,2017-07-12,Merged,104,61,59,,6
+Added support for BOLT 11 payment request,2017-07-12,Merged,102,"1,057",177,,4
+Interpret feature bits as per rfc PR 156-169-178,2017-07-11,Merged,101,140,109,scala ,7
+api: add a simple getinfo method,2017-06-27,Merged,100,9,2,scala ,2
+use 8 bytes for msat amounts,2017-06-27,Merged,99,11,11,,3
+Use an exponential backoff timeout for connection retry,2017-06-27,Merged,96,29,27,,2
+upgade to bitcoin-lib 0.9.11,2017-06-09,Merged,95,12,13,xml ,6
+Minor tweaks,2017-06-08,Merged,94,44,38,,9
+Replaced java serialization by scodec,2017-06-08,Merged,92,495,163,,11
+Separate code into modules,2017-06-06,Merged,91,713,356,→ eclair-core/eclair-cli xml conf scala ,6
+Added support for `channel_disabled` flag and updated failure codes,2017-06-02,Merged,90,462,185,fxml scala ,10
+Added validation checks on CMD_UPDATE_ADD.payment hash,2017-05-16,Merged,86,42,9,,3
+Channel id switch,2017-05-12,Merged,85,53,35,,2
+Can check a payment request status,2017-07-28,Closed,84,33,0,,3
+Use hash of block #0 as chain hash,2017-04-28,Merged,83,13,6,,1
+Make router not broadcast announcements back to sender,2017-04-28,Merged,82,26,28,,3
+Bugfixes and small improvements,2017-04-28,Merged,81,52,46,,8
+Combine sigs in a more conscise way,2017-04-28,Merged,80,1,5,,1
+Fixed type cast issue with `peers` rpc service,2017-04-26,Merged,79,14,14,scala ,3
+Client must die when transport dies,2017-04-25,Merged,78,8,1,,2
+funding: remove redundant address test,2017-04-25,Merged,77,2,2,,1
+BOLT4: update Sphinx to match the latest specs,2017-04-24,Merged,76,230,279,,3
+BOLT 4: use proper cipher stream for reply messages,2017-04-20,Merged,75,46,20,xml ,11
+Validity of remote final script is not checked when a Shutdown was already sent,2017-04-20,Merged,74,19,3,,3
+HTLCs in remote commit tx are not taken into account upon receiving Shutdown,2017-04-19,Merged,73,1,1,,1
+New PaymentRequest object + HTLC verification,2017-04-20,Merged,72,183,82,scala ,8
+Better router/channel exception handling,2017-04-20,Merged,71,147,108,,2
+LocalParams should not include maxFeerateMismatch,2017-04-12,Merged,70,11,14,,6
+wire: add chainHash field to open message,2017-04-20,Merged,69,32,18,,8
+(GUI) Added an option in the GUI to open a simple connection to a node,2017-04-11,Merged,68,97,53,css scala ,10
+Added tests for state WAIT_FOR_FUNDING_PARENT,2017-04-11,Merged,67,80,9,,4
+Fatal error messages are now sent to stderr in headless mode,2017-04-11,Merged,66,9,6,,2
+Made transport actor a FSM instead of a LoggingFSM (minor),2017-04-11,Merged,65,2,2,,1
+Automatic reconnection,2017-04-11,Merged,64,18,20,fxml scala ,7
+PaymentRequest are generated in LocalPaymentHandler,2017-04-11,Merged,63,97,51,,10
+make max-feerate-mismatch configurable and set default value to 500%,2017-04-11,Merged,62,61,41,scala ,12
+Fix travis,2017-04-10,Merged,61,84,24,,2
+Setting watches when restoring in CLOSING state,2017-04-11,Merged,60,3,3,,1
+mitigate testnet malleability attacks,2017-04-06,Merged,59,259,115,scala ,7
+Added gitter badge,2017-04-05,Merged,58,1,0,,0
+ZMQ connection monitoring,2017-04-05,Merged,57,389,254,css fxml scala ,11
+add ping and pong messages,2017-04-05,Merged,56,56,6,scala ,7
+Emphasized and shortened message in notifications,2017-04-04,Merged,55,54,62,css fxml scala ,9
+fix fuzzy test,2017-04-04,Merged,54,33,13,,1
+Batch channel validation  in the router,2017-04-04,Merged,53,371,185,scala ,8
+Wip gui activity,2017-03-31,Merged,52,353,309,png fxml scala ,8
+Added integration tests on htlc relaying in on-chain scenarios,2017-03-31,Merged,51,762,559,xml conf scala ,5
+use CPFP to create our funding tx,2017-03-31,Merged,50,65,60,scala ,9
+Added warning for openJDK in README.md,2017-03-31,Merged,48,4,2,,0
+Use chain getblockchaininfo.chain to infer the magic value,2017-03-28,Merged,45,11,15,scala ,3
+Automated retry of payments,2017-03-27,Merged,44,356,243,,7
+Access to version/commit id at runtime,2017-03-27,Merged,42,89,27,xml fxml scala ,7
+Update README.md,2017-03-22,Closed,41,1,1,,0
+Wip readme,2017-03-21,Merged,40,22,12,md ,2
+(gui) fix issue with initial size of modals in ubuntu,2017-03-21,Merged,39,5,5,,4
+bolt 3 fixes,2017-03-21,Merged,38,4,4,,1
+Fixed how we interpret feature bits,2017-03-21,Merged,37,34,52,scala ,5
+BOLT 3: fix computation of obscured tx number,2017-03-21,Merged,36,16,9,,4
+Wip rpc,2017-03-21,Merged,35,31,23,fxml scala ,4
+Fixed non-compliant wire messages,2017-03-20,Merged,34,29,53,,10
+Wip gui wording,2017-03-20,Merged,33,18,19,scala ,4
+Wip readme,2017-03-17,Merged,32,67,70,,0
+Added a supervision strategy to all actors,2017-03-17,Merged,31,72,29,,10
+BOLT 4: propagate htlc failures upstream,2017-03-17,Merged,30,909,250,,5
+Added support for UpdateFee,2017-03-16,Merged,29,745,266,,7
+Switch to 32B channel-id,2017-03-10,Merged,28,79,67,,8
+Implemented long channel-id + delayed announcements,2017-03-06,Merged,27,410,510,,10
+"persist peers, router and channels data",2017-02-28,Merged,26,701,121,scala ,5
+Refactored fee calculation (added trim functions),2017-02-13,Merged,25,74,59,,4
+Close channel when an htlc times out in either commitment tx,2017-02-07,Merged,24,75,5,,4
+use improved private/public key types from bitcoin-lib 0.9.9,2017-01-20,Merged,23,374,291,,5
+Bolt3 -> Bolts,2017-01-16,Closed,22,"1,722","1,525",scala ,4
+Wip Alternateroute,2016-09-07,Merged,20,431,213,scala ,11
+travis: run interoperability test with lightnind,2016-09-01,Merged,19,72,41,conf eclair-node/src/test/resources/binaries/linux64/bitcoin-cli eclair-node/src/test/resources/binaries/linux64/bitcoind eclair-node/src/test/resources/binaries/linux64/lightning-cli eclair-node/src/test/resources/binaries/linux64/lightningd scala sh ,8
+Interoperability with c-lightning,2016-08-26,Merged,18,213,163,conf scala ,6
+IRC Watcher,2016-08-26,Merged,17,158,94,,10
+Peerwatcher,2016-08-26,Merged,16,397,180,xml scala ,7
+Wip uniclose txdb,2016-07-20,Merged,15,556,493,,5
+Wip-scalapbc,2016-07-13,Merged,14,43,67,lightning-types/generate bat xml lightning-types/protoc-gen-scala ,8
+compatibility with lightningd,2016-07-07,Merged,13,164,38,proto ,11
+Merge wip-bolt2 into master,2016-06-30,Merged,12,"4,219","2,359",md eclair-demo/eclair-cli xml script expected ,12
+create a specific data stucture for commitment data,2016-06-07,Merged,11,350,477,,0
+Added 'send' macro in test scenario,2016-05-31,Merged,10,114,207,scala script expected bak ,14
+Wip bolt2 nakamoto,2016-05-27,Merged,9,20,36,proto ,5
+Replaced 'find' by 'collect',2016-05-26,Merged,8,38,55,,3
+merge wip-bolt2-pm into wip-bolt2,2016-05-25,Merged,7,"1,838",913,expected ,18
+bolt2 protocol implementation that stores everything,2016-05-25,Merged,6,292,246,,5
+Replaced spray by akka-http,2016-04-29,Merged,5,28,40,scala proto ,6
+Added complete add/fulfill test and fixed various related bugs,2016-04-29,Merged,4,37,14,,3
+Mocking bitcoinclient instead of blockchain watcher in tests,2016-04-28,Merged,3,328,139,,3
+"random nodeid, commit and final keys",2016-02-24,Merged,2,10,6,,3
+Remove WatchConfirmedBasedOnOutputs and simplify flow,2016-02-24,Merged,1,82,41,,3

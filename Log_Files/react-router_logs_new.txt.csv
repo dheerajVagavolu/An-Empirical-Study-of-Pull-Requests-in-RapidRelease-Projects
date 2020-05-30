@@ -1,0 +1,1827 @@
+[Docs] withRouter API imported from react-router-dom,2020-01-08,Closed,7097,1,1,,0
+Link: Add caveat doc about invariant,2019-12-25,Closed,7078,1,1,,0
+explain same component in multiple routes,2019-12-10,Merged,7061,2,0,,0
+docs(hashrouter): correction on link example,2019-11-27,Closed,7052,1,1,,0
+Fixes link on web quick start docs.,2019-11-21,Closed,7042,1,1,,0
+Added a note about how to redirect when using hooks,2019-11-17,Closed,7037,12,0,,0
+Add third party animated transitions example,2019-11-16,Closed,7035,184,0,,2
+fix(docs): fix broken link to primary components guide,2019-11-18,Merged,7034,1,1,,0
+fix: website build (update packages),2019-11-18,Merged,7025,850,125,json ,2
+add more detail to useRouteMatch hook documentation,2019-10-24,Merged,7009,10,0,,0
+Add URL leading to `useRouteMatch` hook API,2019-12-30,Closed,7007,1,1,,0
+Make react-router exports explicit,2019-10-22,Merged,7002,37,14,,2
+fix typo in examples: change useRouterMatch to useRouteMatch,2019-10-10,Merged,6988,2,2,,0
+release a deprecated react-router-dom,2019-10-09,Closed,6984,"3,136",18,,1
+deprecate react-router & react-router-dom and lock on version 4.4.0,2019-10-09,Closed,6983,234,74,,1
+Update hooks.md,2019-10-08,Merged,6977,2,2,,0
+Update examples and docs to use hooks API,2019-10-08,Merged,6976,"1,045",774,md ,1
+Updated examples to fix breaking layout,2019-10-07,Merged,6975,11,2,,0
+Update quick-start.md,2019-10-05,Closed,6970,6,2,,0
+Centralize jest + babel configs,2019-10-15,Merged,6967,557,883,json babelrc ,14
+Use JSX for code block,2019-10-03,Merged,6966,2,2,,0
+Fix code example in testing guide,2019-10-03,Merged,6963,1,1,,0
+v3: fix React version detection for lifecycle renaming,2019-10-03,Merged,6961,2,2,,2
+Fix recursive example,2019-10-02,Merged,6957,1,1,,1
+Remove extra space before the ellipsis,2019-10-01,Merged,6956,1,1,,0
+Fix documentation for nested routing,2019-10-01,Merged,6952,3,9,,0
+pass routing props to children of <Route />,2019-10-01,Closed,6951,35,1,,2
+typo: useMatch -> useRouteMatch,2019-09-29,Merged,6948,2,2,js ,1
+fix regression to allow for empty-string paths,2019-09-27,Merged,6942,18,1,,2
+fix(useParams): fix issue with useParams reading from null object,2019-09-27,Merged,6940,23,1,,2
+ADD: status of feature `to function`,2019-09-26,Closed,6933,1,0,,0
+add useRouter hook,2019-09-24,Closed,6925,79,17,js ,5
+Centralize jest + babel config at repo root,2019-10-15,Merged,6922,469,915,json babelrc ,17
+Fix typo in docs for location API,2019-09-14,Merged,6916,1,1,,0
+Clarifying documentation <Redirect> exact & strict,2019-09-13,Merged,6915,20,1,,0
+"Use forwardRef on Link, NavLink",2019-09-13,Merged,6914,208,102,,4
+use getDerivedStateFromProps instead of componentWillReceiveProps,2019-09-11,Merged,6907,19,8,,0
+docs: Fix missing comma in docs/api/location.md,2019-09-11,Merged,6904,1,1,,0
+remove clever example in testing guide,2019-09-19,Merged,6903,96,101,,0
+Fix quick-start guide: nested route doesn't work,2019-09-04,Closed,6895,1,1,,0
+docs: fix typo in docs/guides/code-splitting.md,2019-08-28,Merged,6887,1,1,,0
+Link - add element shape for innerRef,2019-08-27,Merged,6886,6,2,,1
+Make to prop for Links optional,2019-08-22,Closed,6884,13,9,,1
+react-router-v3: Add UNSAFE_ prefixes to deprecated lifecycle methods,2019-08-23,Merged,6883,48,18,json lock ,4
+Improve documentation readability for matchPath,2019-08-08,Merged,6867,13,11,,0
+add script for linting,2019-08-07,Closed,6864,20,0,js ,2
+NavLink - pass currentLocation to isActive prop (#6862),2019-09-10,Merged,6863,17,3,,2
+Add linting to react router native,2019-08-05,Closed,6859,"1,108",174,,1
+add linting to travis build,2019-08-05,Closed,6857,9,0,,1
+export default renderToStringStrict,2019-08-04,Merged,6856,1,1,,1
+Fix a description mistake in the `Route.md`,2019-08-02,Merged,6853,1,1,,0
+Add support `toLocation` to <NavLink /> method isActive,2019-07-27,Closed,6847,45,21,md js ,3
+docs: Fix links to reactjs docs,2019-07-25,Merged,6841,6,6,,0
+Update Link.md,2019-07-23,Merged,6837,1,1,,0
+build: add sourcemaps,2019-07-10,Merged,6823,63,15,js ,6
+Update CONTRIBUTING.md,2019-07-03,Merged,6816,4,2,,0
+"Add useRouter(), useParams() and useLocation() hooks",2019-07-03,Closed,6812,479,16,md js ,4
+matchPath() accepts an array of paths as 2nd argument,2019-06-25,Merged,6809,35,25,md js ,4
+docs: update scroll-restoration code example,2019-06-24,Merged,6807,1,1,,0
+Support react 16.6 for react-router v3,2019-06-25,Merged,6806,94,19,json lock ,5
+Remove basename before pushing internal links,2019-06-18,Merged,6798,16,5,,3
+Update Route.md,2019-06-16,Merged,6792,7,5,,0
+Added on to the support comment.,2019-06-15,Merged,6788,3,1,,1
+add hooks option to scroll restoration docs,2019-06-02,Merged,6762,14,0,,0
+Small code change in matchPath.md,2019-05-31,Merged,6761,2,2,,0
+esModule: false fix read only TypeError in exports,2019-05-29,Merged,6758,3,3,,3
+export explicitly from react-dom to avoid cjs __esModule read only prop,2019-05-28,Closed,6757,24,2,,2
+Rename __RouterContext to __FOR_INTERNAL_USE_ONLY__,2019-09-17,Closed,6753,68,145,js ,7
+Updated some devDependencies to fix audit warnings,2019-05-11,Merged,6741,"22,345","20,544",,2
+Fix build on windows.,2019-05-11,Merged,6740,57,25,json ,7
+Replace onClick event listener,2019-05-09,Closed,6736,64,11,,2
+remove mini-create-react-context,2019-04-21,Closed,6716,34,62,json ,4
+matchPath: Fixed exception thrown if `path` is undefined,2019-04-20,Merged,6715,10,0,,2
+change status to statusCode,2019-04-19,Closed,6712,2,2,,0
+prevent reload of page if an error occurs in onClick event handler,2019-04-20,Merged,6711,61,19,js ,4
+use huskyrc file,2019-04-16,Merged,6706,92,45,json ,3
+Update matchPath docs,2019-04-14,Merged,6703,31,0,,0
+Add a default value for context in StaticRouter.navigateTo,2019-04-09,Merged,6698,1,1,,1
+Switch to mini-create-router-context,2019-04-07,Merged,6692,47,104,js ,5
+add noMatchedParams prop to Redirect,2019-04-06,Closed,6691,55,11,md js ,3
+call createLocation on 'to' regardless of type,2019-04-06,Merged,6690,36,5,,2
+withRouter: Directly use RouterContext instead of Route.,2019-04-03,Merged,6685,36,29,js ,3
+Pin create-react-context to 0.2.2,2019-04-01,Merged,6682,7,7,,2
+fix(react-router): Allow string and object refs in withRouter,2019-05-15,Merged,6680,5,1,,1
+Fix website internal links not prepended with public path,2019-04-09,Merged,6678,37,48,js ,4
+fix: set DisplayName correctly for Named Context,2019-03-29,Merged,6677,2,2,,1
+Document Redirect sensitive prop.,2019-03-29,Merged,6676,4,0,,0
+Fixed maximum update depth exceeded caused by Redirect.,2019-04-02,Merged,6674,36,2,,2
+Update Jest and react-router-native dev deps,2019-03-26,Merged,6668,"15,163","8,579",,3
+Implemented Match component.,2019-06-12,Closed,6666,508,36,js ,3
+Added onKeyPress handler to Link.,2019-03-24,Closed,6664,130,0,,2
+Wrote event handling tests for Link.,2019-03-24,Merged,6663,95,2,,1
+"Removing ""update blocking"" content",2019-05-15,Merged,6652,110,353,js ,1
+Example references deprecated API,2019-03-19,Merged,6646,2,2,,0
+Use Lerna file specifiers,2019-04-03,Closed,6644,"27,248","58,077",json ,3
+Activating Open Collective,2019-09-17,Closed,6637,38,3,json ,1
+Fix undefined Element #6610,2019-03-13,Closed,6624,156,27,js ,9
+Don't override path in NavLink component. Fixes #6613,2019-05-16,Merged,6623,99,29,js ,4
+Basic support of partial <Route /> paths (with passing tests),2019-06-12,Closed,6618,0,0,,0
+Fix typo in comment,2019-03-06,Merged,6615,1,1,,0
+"Adds missing ""const"" keyword to Element",2019-03-02,Merged,6609,1,1,,1
+Polyfill Element for Node,2019-03-03,Merged,6607,2,0,,1
+Fixes offset for sample code,2019-03-01,Merged,6606,1,1,,1
+change from ariaCurrent to aria-current,2019-02-25,Merged,6599,1,1,,0
+add note about promise in `getComponent`,2019-02-19,Merged,6586,4,1,,0
+"Proposal: link recibe a function as ""to"" prop",2019-02-11,Closed,6579,5,1,,1
+Refactor `renderRoutes` to use `matchRoutes`,2019-09-17,Closed,6577,27,19,,1
+Add support for exact route matching in `matchRoutes`,2019-09-17,Closed,6575,80,20,js ,3
+Fixing Acceptable <Route> Prop Type in Docs,2019-02-01,Closed,6572,2,6,,0
+Added RefObject as valid Link innerRef,2019-01-31,Merged,6567,45,8,md js ,3
+Modify Route.js __DEV__ Route.propTypes path to oneOfType().isRequired,2019-01-18,Closed,6551,1,1,,1
+Fix typo in animation snippet,2019-01-18,Merged,6550,1,1,,0
+Replace react-loadable with loadable-components,2019-01-10,Merged,6541,12,26,,0
+Changes referenced preset to @babel/preset-react,2019-01-09,Merged,6538,3,2,,0
+NavLink.propTypes should extend Link.propTypes,2019-01-08,Merged,6518,8,8,js ,2
+refactor: change computedMatch to match,2018-12-05,Closed,6503,"9,960","9,960",js ,6
+Convert Link to function component,2019-02-22,Closed,6489,175,56,js ,3
+Fix withRouter components being considered forwardRef types,2018-11-24,Merged,6487,14,4,json ,3
+Implement CodeSandbox for the examples,2019-03-22,Merged,6482,256,213,,5
+Make RouterContext treeshakeable,2018-11-25,Merged,6479,18,15,js ,2
+"Remove ""hacking"" section from CONTRIBUTING.md",2018-11-14,Merged,6478,13,5,,0
+Convert components to functions,2019-02-22,Closed,6474,195,177,js ,7
+Update scroll-restoration.md,2018-11-13,Merged,6472,1,1,,0
+Update CHANGES.md,2018-11-11,Merged,6470,1,1,,0
+Docs improvement,2018-11-11,Merged,6469,1,1,,0
+fixed glitch in doc #6426,2018-11-14,Merged,6468,2,1,,1
+"Make Link and NavLink components accept ""to"" property as a function #2",2019-05-23,Closed,6467,161,22,js ,8
+Make react-router-dom treeshakable,2018-11-08,Merged,6465,143,30,js ,4
+upgrade husky package,2018-11-12,Merged,6463,150,15,,2
+Add <Link component> prop,2019-06-13,Merged,6462,93,68,js ,3
+[docs] Update create-react-app link,2018-11-06,Merged,6457,1,1,,0
+Add useFocus() hook to react-router-dom,2019-07-03,Closed,6454,544,15,,0
+Add useRouter hook for React 16.7+,2019-03-19,Closed,6453,73,17,json ,6
+Native > Support Text as component,2019-09-17,Closed,6451,7,1,,1
+Add <Focus> component to react-router-dom,2019-07-03,Closed,6449,594,12,md js ,2
+Issue 6426,2018-11-09,Closed,6448,88,46,,1
+Update react-is to 16.6,2018-11-21,Merged,6447,5,5,,2
+Fix import of react-is,2018-10-31,Closed,6446,1,1,,1
+Replace dev expressions,2018-10-31,Merged,6444,184,70,js ,8
+Remove unused import (example directory),2018-10-31,Merged,6441,5,11,,5
+Document generatePath function,2018-10-30,Merged,6437,29,1,js ,1
+Remove unused imports,2018-10-30,Merged,6436,1,10,,1
+"Removed the ""Anywhere"" button from Home Page",2018-10-30,Merged,6432,0,3,,1
+Simplify the Quick Start examples,2019-09-17,Closed,6431,14,38,,0
+Added async render to Route component,2018-10-28,Closed,6429,"14,131","10,402",,0
+Upgrade Jest and switch to jest-circus,2018-10-27,Merged,6427,"12,067","11,761",js ,2
+Refactor variables naming,2018-10-24,Merged,6421,4,4,,2
+Added react-is to validate the proptype for Route's component.,2018-10-26,Merged,6417,72,289,,2
+Align properties,2018-10-23,Merged,6416,3,3,,0
+Added warnAboutDeprecatedCJSRequire.js in package.json,2018-10-22,Merged,6415,1,0,,1
+Improve Initial Docs Experience,2018-10-25,Merged,6410,83,52,js ,2
+docs: change example from componentWillReceiveProps to componentDidUpdate,2018-10-22,Merged,6408,3,3,,0
+Refactor - Link.js -  {...props} to {...rest},2018-10-21,Merged,6406,4,3,,1
+Upgrade babel and add babel runtime,2018-10-20,Merged,6401,"8,392","4,799",babelrc js ,4
+Reduce bundle size by making dependencies external,2018-10-17,Merged,6400,74,169,js ,6
+Update Redux Notes to add missing HOC info,2018-10-16,Closed,6397,8,0,,0
+Build with multi configs and fix esm entry point,2018-10-15,Merged,6395,"25,483","15,807",,1
+Added failing test check for Route and forwardRef,2018-10-15,Closed,6384,31,0,,1
+Match component created for issue #6362,2019-02-22,Closed,6383,453,1,,3
+Update react-router-native Quickstart Guide,2018-10-05,Merged,6377,2,2,,0
+Change match.url to match.path for nested routes,2018-10-04,Merged,6372,2,2,,1
+Add example to docs for working with url parameters.,2018-10-15,Merged,6370,90,1,json ,4
+Update Animated library to latest version (supports React 16) (fixes #6058),2018-10-09,Merged,6369,16,"3,148",,5
+Update Babel plugin name,2018-09-30,Merged,6360,7,7,,0
+Update blocked-updates.md,2018-09-21,Merged,6345,6,4,,0
+Fix typo in Migration guide for v2/v3 -> v4,2018-09-20,Merged,6343,1,1,,0
+Deprecated lifecycles,2018-09-25,Closed,6341,629,532,js ,2
+[v3] Access <Link>s underlying node via `innerRef`,2018-09-18,Merged,6340,43,4,js ,2
+add matchPath to NavLink,2019-09-17,Closed,6336,20,1,js ,1
+Fix <Route component /> type,2018-10-25,Closed,6327,38,1,json ,3
+Update history example in FAQ,2018-09-07,Closed,6324,4,2,,0
+Correct the false `UpdateBlocker` in docs,2018-09-04,Merged,6321,27,26,,0
+React-Dom/Link Use React.PureComponent to avoid re-render,2018-08-31,Closed,6316,1,1,,1
+Docs - Replace use of deprecated lifecycle methods with the methods r…,2018-09-19,Closed,6313,164,156,,0
+Add UNSAFE to near deprecate lifeCycles,2018-08-30,Closed,6311,14,14,,10
+Support for relative path routes,2019-02-22,Closed,6307,156,5,,4
+"Added support for using ""onBeforeUnload"" to prompt on external nav.",2018-08-25,Closed,6305,26,2,js ,1
+Used named imports for react-router in react-router-config,2018-08-23,Merged,6291,2,4,,2
+Revert namespaced history import,2018-08-10,Merged,6288,1,1,,1
+Reduce number of StrictMode warnings,2018-10-12,Closed,6287,253,15,,18
+Default to NOT_FOUND when match.params.id is bogus,2018-08-09,Closed,6284,3,1,,1
+[Redirect] don't import entire history module,2018-08-05,Merged,6278,10,4,js ,5
+Update readme for Redux users,2018-08-01,Merged,6274,11,12,,0
+Removal of React 16.3 unsafe lifecycles,2018-09-25,Closed,6256,16,9,,1
+update header with react training content,2018-09-20,Closed,6255,9,1,,1
+renderRoutes should render subroutes,2018-07-10,Closed,6246,16,9,,1
+renderRoutes render subroutes,2018-07-10,Closed,6245,16,9,,1
+Updating docs for NavLink with possible values for aria-current,2018-07-04,Merged,6238,15,0,,0
+Simplified SSR preload example,2019-09-17,Closed,6232,208,0,md json js ,6
+Basic support of partial <Route /> paths.,2019-04-07,Closed,6223,159,6,,4
+Added preFetch example for react-router-config,2018-06-24,Closed,6222,"8,480",0,json ico txt js scss ,13
+remove component not used,2018-06-22,Merged,6220,0,2,,1
+Added support for render method in react-router-config,2018-06-22,Merged,6217,24,3,,2
+wrap text in a Link with a Text element,2018-06-19,Merged,6214,1,1,,0
+Update Link.md,2018-06-19,Closed,6213,2,1,,0
+"Run tests against source, CJS, and UMD builds",2018-10-31,Merged,6209,118,7,json ,10
+Updated migrating doc from v2/v3 to v4,2018-06-08,Merged,6198,21,1,,0
+Declare warning as a dependency instead of devDep,2018-06-06,Closed,6186,"1,726","1,727",,0
+"test(core): add failing test to generatePath, see #6171",2018-05-25,Merged,6172,13,1,,2
+fix #6168,2018-05-23,Merged,6169,9,9,,0
+Adjusted `Route`'s PropTypes to accept a regular expression,2018-10-15,Closed,6165,66,46,js ,2
+Enabling url params support in PrivateRoute (Documentation Auth),2018-05-19,Closed,6162,13,17,,1
+Add `updateOnLocationChange` (alternative update-blocker breaker),2018-11-29,Closed,6159,"2,662","14,448",json ,3
+"Link should work with target=""_self""",2018-10-15,Merged,6138,1,1,,1
+Update Link.md,2018-05-06,Merged,6133,2,2,,0
+Update README.md,2018-05-03,Merged,6127,3,3,,0
+"Fix for Issue #6109 - aria-current has incorrect value ""true""",2018-05-08,Merged,6118,5,5,,2
+Change `path-to-regexp` references to ^1.7.0,2018-04-29,Merged,6117,7,7,,0
+Embiggen the large breakpoint,2018-04-24,Merged,6107,1,1,,1
+Introducing new <Link /> prop - `allowModifiedKeys`,2018-04-24,Closed,6106,400,"9,661",,2
+Add sideEffects: false to react-router-dom package.json,2018-04-11,Merged,6082,5,0,,5
+sick sentance,2018-04-06,Closed,6069,1,1,,0
+Update CONTRIBUTING.md,2018-04-03,Merged,6061,41,2,,0
+Fix typo,2018-03-21,Merged,6030,1,1,,0
+Typo: wrong const name in docs,2018-03-20,Closed,6026,1,1,,0
+Routes with 'children' prop are still rendered inside a Switch,2018-03-18,Closed,6022,24,22,,1
+Fix history api changes in react-router-redux,2018-03-26,Merged,6014,59,30,,7
+Update match.md,2018-03-06,Merged,6003,1,1,,0
+update: translate packages/react-router-redux/README.md &  packages/react-router-redux/README-en.md,2018-03-02,Closed,5993,"1,227","9,077",LICENSE md ,2
+update: packages/react-router-dom/docs/guides/quick-start.md to Chinese,2018-03-02,Closed,5992,901,"9,018",LICENSE md ,2
+react-router-redux adds assertHistory,2018-03-02,Closed,5991,38,0,js ,3
+update: translate api/Switch.md && guides/redux.md into Chinese,2018-03-02,Closed,5990,794,"8,916",LICENSE md ,2
+Working example for react-router-redux 5,2018-03-01,Closed,5986,92,0,,1
+update: translate packages/react-router/docs/api/Redirect.md && packages/react-router/docs/guides/philosophy.md into Chinese,2018-03-01,Closed,5985,497,79,LICENSE md json js sh enc ,8
+Add the ability to pass in an existing React element,2018-03-01,Closed,5984,25,1,,2
+Correction for <Redirect /> Web documentation,2018-02-27,Closed,5976,1,1,,0
+Note on accessing location.state in Redirect docs,2018-03-04,Merged,5966,2,0,,0
+Reimplement tests from #5142,2018-02-22,Merged,5965,43,0,,1
+Fix pathless route's match when parent is null,2018-02-22,Merged,5964,128,22,js ,7
+withRouter now uses children so that Component is always rendered,2018-02-22,Closed,5963,15,1,,2
+Basic support for in-url args,2018-02-19,Closed,5956,230,26,json ,5
+Don't hard-code version in ISSUE_TEMPLATE,2018-02-18,Merged,5952,2,1,,0
+Fix documentation for Route's sensitive attribute,2018-02-13,Merged,5942,2,1,,0
+Prompt doc: add example message returns true,2018-02-12,Merged,5940,1,1,,0
+StaticRouter: retain location.state [WiP],2018-03-30,Closed,5935,3,2,,1
+Stripped the query strings from pathname before matching against path,2018-02-09,Closed,5934,34,1,,2
+stripped the query strings from pathname before matching against path,2018-02-09,Closed,5933,34,1,,2
+[Proposal | WiP] Redirect: add addContext prop,2018-02-09,Closed,5930,8,2,,1
+Update animation.md,2018-02-06,Merged,5926,1,1,,0
+nested Route with relative path support,2018-02-06,Closed,5925,8,4,,2
+fix confused names of presentational and container components in react-router-redux examples,2018-02-05,Closed,5922,15,15,,2
+"Revert ""Fix non-functional links to routers""",2018-01-29,Merged,5913,2,2,,0
+Fix non-functional links to routers,2018-01-29,Merged,5911,2,2,,0
+Use new Context API in React 16.3,2018-09-20,Merged,5908,"12,858",986,js ,6
+"fix: Route propTypes, path like array of strings",2018-01-27,Closed,5905,1,1,,1
+componentDidMount does not take prevProps as an argument,2018-01-27,Merged,5903,1,1,,0
+Enable flag in Switch children,2018-01-26,Closed,5902,246,65,js ,4
+Allow to pass render prop in config,2018-03-30,Closed,5894,52,42,js ,1
+Add precondition function & onPreconditionFailed callback on route co…,2018-01-24,Closed,5893,53,3,,2
+Support fragments in <Switch />,2018-03-30,Closed,5892,154,16,,2
+add support for an array of paths in <Route> and matchPath,2018-10-15,Merged,5889,146,23,js ,4
+pretty-quick v1.2.2,2018-01-18,Merged,5884,4,4,,2
+Update `req.url` to be `req.path`,2018-01-16,Merged,5880,1,1,,0
+Install the package by yarn.,2018-01-16,Closed,5877,5,0,,0
+Run prettier on commit,2018-01-13,Merged,5868,490,205,,0
+Warn of possible tooling loss on upgrade,2018-01-10,Merged,5858,2,0,,0
+Support for Routing with Access Restriction,2018-01-10,Closed,5857,10,6,,1
+Move to PureComponent,2018-01-08,Closed,5849,12,12,,10
+Re-add website react-motion dep,2018-01-06,Merged,5845,117,"8,939",,0
+Markup JSX in docs,2018-01-05,Merged,5839,118,119,,0
+Document v3 <Redirect> query string behavior,2018-01-05,Merged,5837,22,1,,0
+Add a very cool use case to the examples,2018-01-04,Closed,5835,138,0,,2
+Update Copyright Year,2018-01-03,Merged,5829,1,1,,1
+Fix small typo,2018-01-01,Merged,5822,1,1,,0
+Example with regex in path,2017-12-27,Merged,5815,14,0,,1
+Bring back documentation on Link DOM props,2017-12-18,Merged,5799,5,0,,0
+"Add invariant for missing ""to"" property",2018-01-05,Merged,5792,27,3,,2
+[FIX]: Allow other middlewares to dispatch routerActions on init,2017-12-14,Merged,5790,31,3,,2
+[FIX]: Redirect on mount issue,2017-12-12,Merged,5786,21,6,,2
+react-router-redux: update propTypes,2017-12-08,Merged,5777,1,1,,1
+Update PrivateRoute in AuthExample to handle a passed in render prop,2017-12-01,Closed,5768,11,11,,1
+Allow customising the render of a Switch component,2019-09-17,Closed,5766,10,5,,1
+Add Switch location argument to renderRoutes,2017-11-25,Merged,5752,34,3,js ,2
+"Fix ""exact match"" test & remove unnecessary check",2017-11-22,Merged,5749,"4,054","7,061",,2
+[BUG-FIX]: createMatchSelector isExact,2017-11-22,Merged,5748,19,1,,2
+Grammar fix on philosophy page,2017-11-21,Merged,5744,1,1,,0
+Listen history in componentWillMount,2017-11-21,Closed,5742,0,4,,1
+Add 'exact' & 'strict' props to redirect api doc.,2017-11-17,Merged,5737,8,0,,0
+Change `history.location.state` to `object`,2017-11-15,Merged,5732,1,1,,0
+Changed prop type of Route component,2017-11-14,Closed,5729,4,1,,1
+Update website to Webpack v3,2018-01-05,Merged,5725,"3,515","1,610",,4
+Use history.createLocation in <StaticRouter>,2018-03-14,Merged,5722,116,87,,2
+Hoist dependencies = smaller react-router-dom UMD,2017-11-13,Merged,5720,"3,290","4,839",js ,2
+Fixes bad package-lock file,2017-11-11,Merged,5719,"1,372","2,435",,0
+Added server-side rendering example to new React Router Redux package,2018-06-06,Closed,5714,196,2,js ,4
+Add 'action' to the react-router-redux LOCATION_CHANGE payload,2017-11-09,Closed,5713,2,2,,1
+Remove single child restriction for <Router>,2018-09-21,Closed,5712,7,7,,2
+added a much needed comma!,2017-11-09,Merged,5711,1,1,,0
+fix small typo,2017-11-07,Merged,5695,1,1,,0
+Pass propeties from `Route` to children,2017-11-06,Closed,5693,2,2,,1
+Use one import declaration per package,2017-11-06,Closed,5692,3,5,,1
+Updated react-transition-group and changed Animation.js example,2017-11-06,Merged,5691,18,16,json ,2
+Adds default name attribute to Link and NavLink components to improve accessibility,2017-11-03,Closed,5685,"1,527","4,721",js ,4
+fix: wrong path of require,2017-11-02,Merged,5681,1,1,,1
+Version 3: Added peerDependency support for React 16.0.0,2017-11-02,Merged,5679,1,1,,1
+Fix link to location.md in <Switch> documentation,2017-11-01,Merged,5676,1,1,,0
+V3,2017-10-31,Closed,5674,"10,308","1,576",gitignore md js ,14
+add namespaces to react-router-redux,2017-10-27,Closed,5664,337,103,,4
+Expose generatePath,2017-11-08,Merged,5661,6,0,json ,4
+Remove history methods from render of Link,2017-10-24,Closed,5656,16,10,,1
+react-router-redux/createMatchSelector: handle null case when router state is not yet initialized,2017-10-24,Merged,5653,8,2,,2
+add history action to LOCATION_CHANGE payload,2017-10-23,Closed,5652,2,2,,1
+Improvements to react-router-redux examples,2017-11-10,Merged,5647,113,104,,2
+Add selectors to files,2017-10-19,Merged,5638,1,0,,1
+Update Switch.md,2017-10-18,Closed,5635,2,0,,0
+Adding a switch with nested routes,2017-11-07,Closed,5634,70,0,json ,3
+[README] remove install instruction for history,2017-10-16,Closed,5624,0,1,,0
+enable onUnmatch prop on Router,2017-10-14,Closed,5618,20,8,,3
+Added server-side rendering example to new React Router Redux package,2017-11-10,Closed,5614,160,39,,0
+Deprecate <Route exact>,2018-03-26,Closed,5612,791,"4,646",,1
+Root route remains always active,2017-10-07,Closed,5600,49,0,,1
+Escape NavLink path to allow special characters in path.  Fixes #5584,2017-10-06,Merged,5596,40,20,,2
+Allow string or object for <NavLink>s className prop,2017-10-05,Closed,5594,1,1,,1
+Document Route sensitive option,2017-10-05,Merged,5592,14,0,,0
+Use named import of 'history' module to fix #5576.,2017-11-13,Merged,5589,11,7,,7
+Wrap examples in create-react-app apps,2019-09-17,Closed,5586,237,31,json html js css ,24
+Allow onClick interpret as a bool type,2017-10-03,Closed,5585,4,1,,1
+Upgrade hoist-non-react-statics,2017-09-27,Merged,5570,4,4,lock ,2
+Updated import statement for mathPath and withRouter in -dom and -native,2017-09-27,Closed,5569,236,4,,0
+Update react-router-redux readme to reflect versioning situation.,2017-09-26,Merged,5560,6,1,,0
+Adds a note & link to Redux blocked updates,2017-10-03,Merged,5552,18,0,,0
+Add action to payload of LOCATION_CHANGE,2017-09-21,Closed,5547,2,2,,1
+Store the last history action,2017-09-22,Closed,5545,10,3,,2
+react-router-redux useful selectors,2017-09-22,Merged,5543,95,0,,3
+fixed brace to curly brace in link wrapper example,2017-09-20,Merged,5541,2,2,,0
+Adding documentation to react-router-dom and fixing repo link,2017-09-19,Closed,5537,2,2,json ,1
+Proposal: non-blocking updates refactor,2017-09-22,Closed,5534,91,382,,4
+Update scroll-restoration.md,2017-09-17,Merged,5532,1,1,,0
+there is a typo,2017-09-15,Merged,5530,1,1,,0
+Ignore the website in CI,2017-09-28,Merged,5529,29,2,json js ,4
+Use yarn to manage dependencies,2017-09-18,Closed,5527,"8,274","36,866",yarnrc json ,3
+<Switch> transition example,2017-11-10,Merged,5516,"1,034",326,,1
+Update docs and example to use BackButton,2017-09-12,Merged,5513,31,31,js ,2
+Add basic working examples to react-router-redux,2017-10-03,Merged,5512,155,0,,2
+React 16 support,2017-09-12,Closed,5511,99,61,js json lock ,9
+V3 react 16,2017-09-12,Closed,5510,"1,792","1,576",gitignore md js ,12
+fix: remove aria-current from navLink when inactive,2017-11-13,Merged,5508,48,4,,2
+Use `match.path` for nested routes.,2017-09-11,Merged,5506,2,2,,0
+Switch: wrap matched route with `render` or `component` passed to `Switch` if any,2019-09-17,Closed,5505,12,4,,1
+Use Jest projects for testing,2018-10-15,Closed,5502,"4,720","3,321",,2
+Added component property to NavLink,2017-09-15,Closed,5497,53,2,js ,2
+Update history dependencies to match with react-router,2017-09-01,Closed,5490,1,1,,1
+"Fix <Link to=""string"">",2017-10-03,Merged,5489,21,3,,2
+Updated doc for Route#render,2017-08-30,Closed,5481,1,1,,0
+path-to-regexp v2.0.0,2017-11-07,Closed,5470,18,944,,7
+Fixing misleading comment,2017-08-26,Merged,5468,1,1,,1
+fix various types in glossary,2017-08-26,Merged,5466,11,10,,0
+Update rollup config/deps,2017-08-22,Merged,5454,"2,465","3,161",js ,3
+Improve component prop possible values in <Route /> docs,2017-08-30,Closed,5452,12,2,,0
+Implementing PrivateRoute,2017-08-20,Closed,5445,27,0,,3
+use `prop` instead of `attribute`,2017-08-20,Merged,5444,1,1,,0
+Update code splitting docs to use react-loadable.,2017-08-21,Merged,5443,58,111,,0
+Fix memory and static router links on website,2017-08-18,Merged,5441,2,2,,0
+Case sensitive routes,2017-08-18,Merged,5438,29,7,,4
+Allow `ConnectedRouter` to accept arbitrary router,2017-08-15,Closed,5431,4,2,,1
+Prevent remount component on routes with the same component,2017-08-21,Merged,5430,74,3,js json ,3
+Update animation.md,2017-08-07,Merged,5417,1,1,,0
+server-rendering.md – Data loading example,2017-08-04,Closed,5413,10,14,,0
+Add 'replace' property to Link (backport from RR4),2017-08-03,Closed,5407,47,3,js ,2
+Route must passed props to children when using component render method,2017-08-02,Closed,5402,31,2,,2
+support null computedMatch prop,2017-08-01,Closed,5394,1,1,,1
+Accept array of strings in route path,2018-01-12,Closed,5393,35,2,,3
+loader and modules cant be resoloved issues in `react-router-website`,2017-08-03,Closed,5389,10,1,,1
+Make withRouter HOC stateful to allow refs,2017-07-28,Closed,5382,36,12,,2
+Correct Link location property description in docs,2017-07-26,Merged,5374,8,8,,0
+Update Link API docs,2017-07-25,Merged,5372,11,3,,0
+"Make Link and NavLink components accept ""to"" property as a function",2019-06-12,Merged,5368,164,31,md js ,6
+skip pushing to history when location matches link (#5362),2017-07-21,Closed,5363,9,0,,2
+Adds failing test cases for Issue 5296,2019-09-17,Closed,5359,236,9,,2
+Reveal lack of empty to prop in v4 Link in migration guide,2017-07-19,Merged,5358,33,0,,0
+clarify docs about conditions when withRouter updates,2017-07-19,Merged,5357,13,3,,0
+Link - Prevent default href behaviour even if onClick has an error (avoid weird SPA errors),2019-04-21,Closed,5352,18,16,,1
+Bump hoist-non-react-statics,2017-07-16,Merged,5347,1,1,,1
+Remove babel-loader devDeps,2017-07-16,Merged,5346,0,3,,3
+(Don't Merge) Expect ReactRouterDOM as global in react-router-config UMD,2019-04-03,Closed,5344,8,3,json ,4
+Switch builds to Rollup,2017-07-15,Merged,5343,238,196,babelrc json js ,18
+Added a migration section on PatternUtils,2017-07-14,Merged,5340,27,0,,0
+Update migrating.md,2017-07-14,Merged,5337,6,0,,0
+Add install note to react-router README,2017-07-11,Merged,5327,3,0,,0
+Fix ConnectedRouter not passing router.staticContext,2017-07-13,Closed,5323,66,2,js snap ,3
+Update MemoryRouter.js,2017-07-06,Closed,5316,1,1,,1
+Typo,2017-07-05,Merged,5312,1,1,,1
+Add braces to single statement ifs,2017-06-30,Closed,5300,6,3,,1
+docs(location): fix switch link,2017-06-30,Merged,5299,1,1,,0
+Another generic back button,2017-07-05,Merged,5295,6,5,json ,3
+Accessing <Link>'s underlying node via `innerRef`,2017-06-28,Merged,5294,31,2,js ,2
+Makes RR3 documentation headings and links more descriptive,2017-06-27,Merged,5288,4,2,,0
+Add notes on how to migrate from using IndexRedirect,2017-06-26,Merged,5283,22,0,,0
+DeepLinking - Return null if this.props.children is undefined,2017-06-23,Merged,5278,1,1,,1
+Make to prop on Link optional again,2017-07-13,Closed,5271,50,1,js ,2
+Solve conflict for multi <Redirect />,2017-06-22,Closed,5270,4,0,,1
+react-router-config: adds test that covers decoding of params,2017-06-21,Closed,5268,13,0,,1
+Fix <Switch> documentation,2017-06-19,Merged,5259,2,3,,0
+Mistakes with `PureComponent`,2017-06-15,Closed,5250,1,1,,0
+Link - catch errors thrown by onClick function,2017-06-14,Closed,5246,7,2,,1
+Update react-router-redux version on README,2017-06-14,Merged,5244,1,1,,0
+Update matchRoutes API description,2017-06-14,Merged,5243,2,2,,0
+[FAQ] How to access history outside of components,2017-06-13,Merged,5239,35,0,,0
+[FAQ] Pass props to component rendered by <Route>,2017-06-13,Merged,5238,17,1,,0
+Doc change PropTypes => prop-types,2017-06-13,Merged,5235,2,1,,0
+Do not include trailing `/` in url if it's not included in path,2019-12-27,Closed,5226,11,1,,1
+Fix a minor syntax issue in the Readme,2017-06-05,Merged,5211,1,1,,0
+Added Redirect with parameters,2017-09-29,Merged,5209,125,4,js ,3
+V3,2017-06-05,Closed,5208,"1,630","1,514",gitignore md js ,16
+Updated history subscription in ConnectedRouter,2017-06-03,Merged,5203,4,1,,1
+Make header links work on site & github,2017-07-13,Merged,5200,2,2,,1
+Fix links in API documentation,2017-06-02,Merged,5197,4,4,,0
+Fix link to route component in docs,2017-06-01,Merged,5194,1,1,,0
+Add example for StaticRouter (sync from DefinitelyTyped),2017-06-08,Merged,5192,77,0,,2
+Fix typos in ModalGallery example comments,2017-06-01,Merged,5191,3,3,,1
+fix typo in loadDashboard #5179,2017-05-27,Merged,5180,1,1,,0
+upgrade to Webpack 2.6.1,2017-07-15,Closed,5176,15,15,js ,6
+typo,2017-05-25,Merged,5171,1,1,,0
+Redirect on props update (#5003),2017-08-23,Merged,5162,156,2,,2
+Issue #5114 warn about history prop in Router-derived components,2017-06-21,Merged,5151,90,0,,8
+super tiny copy change,2017-05-20,Merged,5147,1,1,,0
+NavLink should render child components wrapped by withRouter #5141,2018-02-22,Closed,5142,39,2,,2
+"react-router-config - renderRoutes(routes, otherProps = {})",2017-07-23,Merged,5137,68,29,js ,2
+"Updates documentation of Switch, NavLink, Route",2017-05-18,Merged,5136,26,5,,0
+Fix link to Huge Apps example in Doc,2017-05-17,Merged,5133,1,1,,0
+Refactor <Link /> component,2017-05-17,Closed,5128,2,2,,1
+added npm install history package,2017-05-15,Merged,5120,1,0,,0
+NavLink className update,2017-05-12,Merged,5109,1,1,,1
+small typo fix,2017-05-12,Merged,5104,1,1,,0
+Fix typo? I think?,2017-05-11,Closed,5100,1,1,,1
+Use direct import to react-router.,2017-08-02,Merged,5095,38,13,json ,14
+Generic back button,2017-07-05,Closed,5094,6,6,json ,3
+Change BackAndroid to BackHandler,2017-05-11,Merged,5093,4,4,json ,2
+[docs] Fix typo in code-splitting example,2017-05-10,Merged,5092,1,1,,0
+router blocking,2017-05-09,Closed,5089,7,1,,2
+Make the Docs link stand out a little bit more,2017-05-09,Merged,5087,1,1,,0
+Add query string parsing guide,2017-11-10,Closed,5085,62,0,js ,1
+Fix render() exception when module not yet loaded; pass router props …,2017-05-07,Merged,5082,5,5,,0
+Fix minor code highlighting bug,2017-05-05,Merged,5075,1,1,,0
+switch to new api,2017-05-04,Merged,5071,2,2,,1
+update readme to clarify pathname,2017-10-03,Merged,5066,8,4,,0
+Added api docs for react-router-redux,2017-05-12,Closed,5050,44,0,,0
+add externals config for prop-types?,2017-07-15,Closed,5045,12,0,,2
+Added note on use of withRouter in Scroll Restoration doc,2017-04-25,Merged,5032,1,1,,0
+[Website] Add documentation title header,2017-10-03,Closed,5028,9,1,,1
+Use jest-matchers for assertions instead of expect,2017-07-14,Closed,5027,80,70,json ,12
+TransitionGroup has moved into another package,2017-04-24,Merged,5024,5,5,json ,2
+Reminds to Watch for routing changes,2017-04-24,Closed,5023,24,9,,0
+Basic migration guide,2017-05-03,Merged,5021,143,0,,0
+Updating README to explain how to change route.,2017-04-24,Closed,5020,23,8,,0
+Fix broken links,2017-04-24,Merged,5019,2,2,,0
+Update Route.md,2017-04-21,Merged,5008,1,1,,0
+Clarify setRouteLeaveHook() and child routes,2017-04-20,Merged,5007,2,0,,0
+updates `withRouter` docs to describe all injected props.,2017-04-19,Merged,5001,13,1,,0
+Only dispatch initial LOCATION_CHANGE event once per store in ConnectedRouter,2017-04-18,Closed,4993,7,1,,1
+Update RouteConfiguration.md,2017-04-17,Merged,4981,1,1,,0
+Fix react-router alt text,2017-04-17,Merged,4978,1,1,,0
+Update docs sample code to avoid side effects in render(),2017-10-03,Closed,4974,32,15,,0
+"Easily ""Passing Props"" from Route to its Component",2017-04-13,Closed,4967,1,1,,1
+"Updates documentation of withRouter, missing ')'",2017-04-13,Merged,4965,1,1,,0
+Typo,2017-04-13,Merged,4963,1,1,,0
+[react-router@3] ES6 Classes everywhere. HOC on ContextUtils,2017-04-12,Closed,4957,384,229,,4
+bump version for prop-types update,2017-04-11,Closed,4953,5,5,,5
+Update README's react-router-redux version badge,2017-04-10,Merged,4948,1,1,,0
+Fix server side async hooks,2017-04-10,Merged,4941,160,99,,3
+Explicit error on <Route> outside <Router>,2017-07-14,Merged,4939,75,5,json ,9
+Fix linter errors,2017-04-09,Merged,4935,8,8,eslintrc json ,4
+Fix deprecation warnings for react >= 15.5.0,2017-04-08,Closed,4934,102,51,json eslintrc ,43
+Migrate from the deprecated React.propTypes to the prop-types package,2017-04-09,Merged,4933,88,43,json ,47
+Add a Note about leaveHooks to the docs,2017-04-07,Merged,4930,3,0,,0
+Add a basic components guide,2017-10-03,Merged,4926,115,0,js ,1
+Add location property to NavLink,2017-04-11,Merged,4918,24,0,,2
+Update quick-start.md,2017-04-05,Merged,4911,22,23,,0
+"Fixed syntax error, missing comma",2017-04-03,Merged,4901,1,1,,0
+Extending `path` PropType in Route component to accept also RegExp,2017-04-02,Closed,4900,8,1,,1
+Provide 4.0 test case in ISSUE_TEMPLATE.md,2017-04-02,Merged,4898,1,1,,0
+Add a FAQ,2017-04-11,Merged,4896,76,0,,0
+Just testing jest test times,2017-04-04,Closed,4884,8,374,js ,7
+Minor typo fix in the explanation,2017-03-31,Merged,4883,1,1,,0
+feature(react-router-config): add `extras` to renderRoutes,2017-03-31,Closed,4881,15,7,,1
+Fix typo in quick-start guide,2017-03-30,Merged,4878,1,1,,0
+Expand on why not to use inline <Route component>,2017-03-30,Merged,4877,1,1,,0
+Fix linting errors,2017-04-09,Closed,4876,1,1,,2
+<Route> can contain multi-paths,2017-03-29,Closed,4867,26,2,js ,1
+Passthrough `style` prop inside `<Switch />` component,2017-03-29,Closed,4861,2,2,,1
+Use <Route location> in react-router-config example,2017-03-28,Merged,4858,16,31,,0
+Fix webpack-related anonymous function issue,2017-03-28,Merged,4857,1,1,,1
+[native] <Link> doesn't pass own props to child component,2017-04-11,Merged,4854,1,1,,1
+Fix wrong URL for `matchPath`,2017-03-28,Merged,4851,1,1,,0
+More specific <Redirect from> description,2017-03-27,Merged,4849,3,1,,0
+Fix headers in contributing.md,2017-03-26,Merged,4839,4,4,,0
+Improve withRouter,2017-04-11,Merged,4838,104,7,js json ,3
+Fix example in README.md,2017-03-24,Merged,4835,6,4,,0
+Fix link to React Router Config,2017-03-23,Merged,4827,1,1,,0
+Add exact and strict support to renderRoutes,2017-03-24,Merged,4826,353,1,,3
+Add type for match doc,2017-03-23,Merged,4822,1,1,,0
+Fix table layout in api-doc Route/exact example,2017-03-23,Merged,4821,1,1,,0
+Return null if this.props.children is undefined,2017-03-23,Merged,4818,1,1,,1
+fix(config/renderRoutes): add missing props,2017-03-23,Closed,4817,13,5,,1
+react-router-native/Link improvements,2017-07-05,Merged,4816,101,9,json ,3
+react-router-config: passes exact and strict to Route in renderRoutes,2017-03-22,Closed,4809,9,3,,1
+Expand on <StaticRouter context> documentation,2017-03-21,Merged,4798,18,1,,0
+Fix typo,2017-03-21,Merged,4796,1,1,,0
+Add links directly to Doc Site in Readme,2017-03-21,Merged,4792,3,3,,0
+"docs(react-router-redux): create working example, based on others",2017-03-20,Closed,4788,71,30,,0
+fix typo,2017-03-20,Merged,4784,1,1,,1
+V5.0.1,2017-03-20,Closed,4783,"1,903",205,js ,5
+Fix for space added to NavLink className.,2017-04-11,Merged,4782,11,11,,2
+Minor typo fix,2017-03-19,Merged,4780,1,1,,0
+Link to API Docs instead of GitHub in README,2017-03-20,Closed,4776,3,3,,0
+Fixed typo in native animation docs,2017-03-18,Merged,4775,2,2,,0
+Removes ConnectedRouter in favor of dispatching in middleware,2017-03-17,Closed,4772,43,144,js ,5
+Specify proper basename format in docs,2017-03-16,Merged,4765,3,3,,0
+Refactor `ConnectedRouter` to listen to history directly,2017-03-15,Closed,4758,48,15,,1
+Add blocked updates guide to website,2017-03-23,Merged,4757,90,22,md ,3
+Add history to the repo,2017-07-13,Closed,4755,"3,956",0,md ,1
+fix typo in history object example code,2017-03-14,Merged,4754,1,1,,0
+Update babel for babel-loader,2017-03-14,Merged,4748,3,3,,0
+Handle non-element Switch children,2017-03-14,Merged,4746,19,1,,2
+Update code-splitting.md,2017-03-14,Closed,4737,22,0,,0
+ConnectedRouter can render without children.,2017-03-14,Merged,4733,23,9,snap ,3
+Remove unneded state and setState calls from Route,2017-03-14,Closed,4730,7,12,,1
+[react-router-config] add `exact` handling for renderRoutes,2017-03-27,Closed,4728,9,3,,1
+Fix guide docs scrolling,2017-03-14,Merged,4724,1,1,,1
+Adds a simple nested routes example with match.path usage,2017-03-12,Closed,4721,77,0,,2
+Add links to 2.x and 3.x documentation versions,2017-03-13,Merged,4719,4,0,,0
+Make react-router-redux work with time travelling,2018-06-06,Closed,4717,124,11,json ,4
+Support Preact in react-router-redux/ConnectedRouter,2017-03-13,Merged,4712,29,1,snap json ,4
+Fixes duplicate loadAbout import within code splitting docs.,2017-03-13,Merged,4710,1,1,,0
+missing files in package.json,2017-03-13,Merged,4709,3,1,,1
+aria-current in NavLink #4707,2017-07-05,Merged,4708,6,2,,1
+Add missing `@next` version to the install command,2017-03-13,Merged,4706,1,1,,0
+Fix pathless route's match when parent is null,2018-02-22,Closed,4704,117,13,js ,7
+Switch Lerna to yarn mode,2017-03-11,Merged,4703,596,4,yml json ,4
+Fix readme oversight,2017-03-11,Merged,4702,4,4,,0
+space in history docs,2017-03-11,Merged,4692,1,1,,0
+Provide the correct URL to react-router-redux in the README.md,2017-03-11,Merged,4691,1,1,,0
+Fix Router Config docs link,2017-03-10,Merged,4689,1,1,,0
+Fix Redux docs link,2017-03-10,Merged,4688,1,1,,0
+Tweak blocked updates guide,2017-03-10,Merged,4687,25,10,,0
+Adding documentation to explain blocking updates using withRouter,2017-03-14,Merged,4684,11,0,,0
+Fix setRouteLeaveHook example,2017-03-10,Closed,4679,1,1,,0
+"Native Quick Start, Link Documentation, and Examples",2017-03-10,Merged,4678,"1,139",20,js ,1
+"Update docs, tests, changes with NavLink's default activeClassName",2017-03-09,Merged,4670,121,33,js ,1
+Redux Integration,2017-03-10,Merged,4668,"4,318",1,babelrc eslintrc gitignore md js ,8
+Provide location object to <FakeBrowser>,2017-03-08,Merged,4667,14,11,,1
+Bring back <Route> render prop warnings,2017-03-08,Merged,4666,19,0,,1
+Group context under context.router,2017-03-08,Merged,4659,136,64,,13
+Fix strict dependencies,2017-03-07,Merged,4657,2,2,,2
+Renamed route context variable to react_router_route,2017-03-07,Closed,4655,27,27,,5
+Add modal gallery to list of examples,2017-03-07,Merged,4654,5,0,,1
+Add guide for dealing with sCU,2017-03-06,Merged,4644,97,0,,0
+Pathless <Route> inherits parent match,2017-03-06,Merged,4643,44,5,,5
+Mutate context.route,2017-03-05,Closed,4633,195,12,js json ,6
+Add default activeClassName to NavLink,2017-03-08,Merged,4623,4,0,,1
+"Note v2, v3 api docs",2017-03-02,Merged,4617,1,1,,0
+Remove failing auth.login() call.,2017-02-28,Closed,4610,0,1,,1
+Fix outdated export name for `matchPath` in docs,2017-02-25,Closed,4599,1,1,,1
+remove subscriptions,2017-02-28,Closed,4598,36,250,,6
+Fix incorrect Route warnings,2017-02-24,Closed,4597,2,2,,1
+Reuse components in Switch,2017-02-23,Merged,4592,38,7,,2
+Add context.route.location,2017-03-03,Merged,4589,302,38,,7
+fix logic on controlled/uncontrolled Route and Switch test,2017-02-23,Merged,4583,2,2,,2
+Add root match to context.router,2017-02-26,Merged,4581,102,5,,2
+do not persist location after the app restart,2017-02-24,Merged,4575,6,54,,1
+do not persist location after the app restart,2017-02-22,Closed,4574,41,54,,1
+Remove some warnings emitted during tests,2017-02-21,Merged,4569,2,2,,2
+Import warning,2017-02-21,Merged,4568,4,1,json ,3
+<Route/> DX improvements,2017-02-20,Closed,4550,117,5,js ,2
+blackslash -> backslash,2017-02-18,Merged,4549,1,1,,0
+Document <Redirect> in a <Switch>,2017-02-18,Merged,4547,26,2,,0
+Support <Redirect> in <Switch>,2017-02-17,Merged,4546,47,2,,3
+Add block to StaticRouter's history,2017-02-17,Merged,4544,22,1,,2
+Support partial <Route> paths,2019-07-03,Closed,4539,"3,832","3,698",,4
+[WiP] Support relative paths in routes,2017-02-16,Closed,4536,9,2,,1
+Fix createBrowserHistory in documentation.,2017-02-14,Merged,4531,1,1,,0
+fix fake browser,2017-02-14,Closed,4529,1,1,,1
+Pass state to StaticRouter from Redirect,2017-02-14,Closed,4528,27,2,,3
+Ignore `node_modules` for the root and react-router-website folders,2017-02-12,Merged,4517,2,0,,2
+Switch children should only be Routes,2017-02-11,Merged,4514,1,1,,0
+Update API.md to mention routes as part of injected props,2017-02-10,Merged,4509,3,0,,0
+move propTypes declaration,2017-02-13,Merged,4505,15,13,,1
+Add NavLink to docs,2017-02-09,Merged,4500,61,0,js ,1
+Pass to prop to NavLink's isActive function,2017-03-08,Closed,4499,20,3,js ,2
+Require to prop on Link,2017-02-09,Merged,4492,1,1,,1
+Remove react-router as webpack external,2017-02-08,Merged,4487,0,6,,1
+Remove extra StaticRouter createHref leading slash,2017-02-07,Merged,4484,24,1,,2
+changed native <Link to> to support objects,2017-02-07,Merged,4483,4,1,,1
+Only nullify empty children array,2017-02-07,Merged,4475,52,1,,2
+point to RocketPuppy/history,2017-02-06,Closed,4474,1,1,,1
+Add missing commas in imports in installation docs,2017-02-06,Merged,4472,3,3,,0
+Add react(-native) as devDeps,2017-02-05,Closed,4470,2,0,,1
+Fix match.params typo.,2017-02-04,Merged,4466,1,1,,0
+Exporting matchPattern,2017-02-06,Closed,4461,1,1,,1
+Relative <Link> and <Redirect> using resolveLocation,2017-10-13,Closed,4459,471,29,json ,9
+build es modules in es directory,2017-02-04,Merged,4458,2,2,,2
+NavLink exact & strict tests,2017-02-04,Merged,4454,68,5,,1
+Update description of strict,2017-02-07,Merged,4453,24,13,,0
+<Link> -- replace state instead of pushing to history when location does not change,2017-02-13,Closed,4452,111,6,,2
+Warn when `Router` is given >1 children,2017-02-05,Merged,4450,56,0,,2
+Fix undefined value because of wrong destructuring,2017-02-05,Merged,4449,9,8,,1
+Use boolean strings for cache keys,2017-02-04,Merged,4448,19,1,,2
+fix scripts on windows,2017-02-04,Merged,4447,6,4,,2
+add npm-debug.log to .gitignore,2017-02-04,Merged,4446,1,0,,1
+Hoist devDeps with Lerna,2017-02-02,Closed,4442,4,2,,2
+Tiny grammar/spelling fix in v4 readme,2017-02-02,Merged,4440,1,1,,0
+Hoist devDeps with Lerna,2017-02-01,Merged,4436,11,10,,4
+Route Testing Example,2017-02-05,Closed,4435,145,0,js ,3
+Add ES build to react-router and react-router-dom (#4425),2017-02-03,Merged,4432,50,16,babelrc js json ,22
+Undo changes from PR #4420,2017-02-01,Merged,4430,2,2,js ,4
+Fix typo in installation documentation,2017-02-01,Merged,4429,1,1,,0
+Add installation refference,2017-02-01,Merged,4427,6,0,,0
+Preact support: Check for empty array children,2017-02-01,Merged,4423,21,1,,2
+NavLink tests,2017-02-01,Merged,4421,110,7,,1
+TravisCI build fails with error,2017-02-01,Merged,4420,0,0,,2
+"Allow initialIndex, initialIndex in NativeRouter",2017-02-01,Merged,4415,12,2,,1
+Typo reat => react,2017-01-31,Merged,4412,2,2,,0
+Add a fallback font for Monaco,2017-01-31,Merged,4408,2,2,,1
+Fix type of initialIndex,2017-01-31,Merged,4405,1,1,,0
+Fix NavLink location variable,2017-01-31,Merged,4403,2,2,,1
+Account for children being an empty array,2017-02-01,Closed,4402,1,0,,1
+[v4] Update README.md api and example doc links,2017-01-30,Merged,4392,2,2,,0
+Add missing package.json files for react-router-dom,2017-01-30,Merged,4391,9,0,,1
+Fix missing StaticRouter,2017-01-30,Merged,4389,1,2,,1
+Remove references to Link hash/query/state props,2017-01-27,Merged,4377,0,8,,1
+Prompt beforeUnload (#4272),2019-09-17,Closed,4372,116,0,js json ,6
+Example huge-apps utilizing ES6 import/export [Webpack2 Required],2017-02-13,Closed,4369,102,89,json ,26
+Add missing dependencies,2017-01-23,Closed,4363,2,0,,2
+Prompt beforeUnload (#4272),2017-01-26,Closed,4359,451,236,json md ,10
+Add <Route strict>,2017-01-24,Merged,4357,109,10,,2
+Relative <Route> and <Link>,2017-02-04,Closed,4355,533,26,,7
+Updated History Error Message,2017-01-12,Merged,4334,3,3,,1
+Update Route's children docs,2017-01-12,Merged,4333,12,12,,0
+expose a Route's match through HOCs,2017-01-18,Merged,4332,165,55,,10
+Update docs after change to history and match props,2017-01-11,Merged,4331,49,10,,0
+bug(hashHistory): example of failing test,2016-12-24,Closed,4303,16,0,,2
+Adds action to Match component props,2017-01-11,Closed,4298,174,14,,3
+bugfix #4292,2016-12-19,Merged,4295,17,0,,2
+fix createBrowserHistory API call,2016-12-12,Merged,4271,2,2,,1
+fix start script,2016-12-07,Merged,4260,1,1,,1
+Added hint for Apache virtual host configuration,2016-12-07,Closed,4257,11,0,,0
+Adding typescript typings,2016-12-05,Closed,4250,267,2,json ts ,4
+Fix Link component conflicting with Angular router,2016-12-05,Closed,4247,50,4,,2
+Make Routers history prop required,2016-12-01,Closed,4234,1,1,,1
+v4 Fix FakeBrowser address bar (was broken due to jsxstyle),2016-11-27,Merged,4224,12,10,,1
+Add shared history example,2017-02-13,Closed,4223,68,15,,5
+v4 Cleanup examples,2016-11-27,Merged,4222,4,4,,2
+Fix broken links. Add Newsletter signup. Fix missing keys,2016-11-25,Merged,4217,96,6,,6
+fix(Link): 'to' maybe undefined,2016-11-25,Merged,4216,1,1,,1
+[fixed] fix react-router's (v0.13.6) problem of calling PropTypes directly,2016-11-23,Closed,4213,"5,821","2,900",md json js ,6
+Add support for escaped parentheses in <Route path>,2017-01-11,Merged,4202,59,2,js ,3
+adding route to withRouter,2016-12-05,Closed,4200,2,2,,1
+v4 Context API Docs,2017-01-11,Closed,4194,20,0,,0
+Improve explanation about `exactly` prop,2016-11-16,Merged,4188,3,3,,0
+decodeURI on pathname,2017-01-11,Closed,4160,9,1,,2
+Accept array as pattern,2016-11-08,Closed,4159,4,1,,1
+[useless],2016-11-08,Closed,4155,"6,039","14,939",eslintignore eslintrc gitignore npmignore yml md ,6
+Fix faulty createHashHistory path,2016-11-07,Closed,4151,1,1,,0
+Update ConfirmingNavigation.md,2016-11-07,Closed,4149,2,0,,0
+Fix index routes inside async pathless routes,2016-11-07,Merged,4147,57,19,,2
+Failing test for Miss passing unexpected location,2017-01-11,Closed,4146,38,0,,1
+Remove LocationUtils tests,2016-11-06,Closed,4145,0,198,,1
+Add children prop feature in <Miss>,2017-01-11,Closed,4140,103,3,,2
+fix(Link): More strict matching,2017-01-11,Closed,4133,28,2,,2
+Render <Miss> component when added after first render pass,2016-11-05,Closed,4128,51,1,,2
+Prevent transitions for external links,2016-11-01,Closed,4126,36,3,,2
+Spec for Malformed URI Handling in Match Function,2016-11-01,Closed,4125,7,0,,1
+Pass transition hook's arguments correctly,2016-11-01,Merged,4123,22,5,,2
+Resolve relative paths,2017-01-11,Closed,4122,343,6,,6
+V4 fix Link Component,2016-10-31,Closed,4121,1,0,,1
+Fix bug with encoded urls,2016-10-31,Closed,4120,3,2,,1
+matchPattern tests,2017-01-06,Closed,4118,140,0,,1
+Failing <MatchGroup /> Tests,2016-11-05,Closed,4112,37,0,,1
+Add addon-controlled to redux integration section,2016-10-27,Closed,4111,4,3,,0
+preserve location.key only if it was present in the original input object,2017-01-11,Closed,4109,9,5,,2
+go back to using is-equal again,2017-01-11,Closed,4107,14,26,,1
+Coerce query params to string - alternate solution,2017-01-11,Closed,4106,29,4,,3
+Add key to LocationUtils tests,2016-11-05,Closed,4103,22,0,,1
+Update StaticRouter tests,2016-11-05,Closed,4102,24,125,,1
+Improve expectDeepEquality helper function,2016-10-27,Closed,4100,5,2,,1
+Coerce query params to string,2017-01-11,Closed,4099,37,1,,2
+Use strict equality (comparison with `===`),2016-10-27,Closed,4098,1,1,,1
+Remove warning about this being the `next` branch,2016-10-25,Merged,4091,0,1,,0
+Use Link outside of a router,2016-10-24,Closed,4088,104,1,md ,2
+LocationUtils tests,2016-10-23,Merged,4085,198,0,,1
+Dont repeat full object names where possible,2016-10-24,Closed,4083,32,30,,1
+Export dummy proptypes for production.,2016-10-24,Closed,4079,58,45,,1
+Make website mobile-friendly,2016-10-20,Merged,4077,1,0,,1
+update history version check  v3,2016-10-19,Closed,4073,4,4,,1
+Un-elide App component details in example,2016-10-19,Closed,4072,7,1,,0
+ServerRouter basename prop,2016-10-21,Merged,4070,15,1,md ,1
+[WIP] manage location through MatchProvider,2016-11-05,Closed,4067,301,166,,6
+Fix Link {...rest} overwriting used properties like onClick,2016-10-20,Merged,4066,63,3,,2
+Don't try do decode `undefined`,2016-10-19,Closed,4065,1,1,,1
+Don't pass `'undefined'` for missing optional parameters,2016-10-26,Merged,4064,19,1,,2
+feat: cancel pending enter/change hooks on location change,2016-10-25,Merged,4063,108,10,json ,3
+Fix blockTransitions not returning teardown function,2016-10-17,Merged,4058,21,3,,2
+Clean task fails silently,2016-10-18,Merged,4057,3,0,,1
+Adding a better sample with ES6 on README.MD,2016-10-15,Closed,4052,67,0,,0
+docs(website): updated the website address,2016-10-15,Merged,4050,1,1,,1
+Failing test for <Miss /> with 'Blocker' component,2017-01-11,Closed,4047,46,3,,1
+withRouter higher order component,2017-01-11,Closed,4044,194,0,json ,4
+Update quick-start.md,2016-10-13,Merged,4040,1,1,,0
+Fix scripts on windows,2016-10-13,Merged,4038,31,2,json js ,3
+Fix scripts on windows,2016-10-12,Closed,4037,"5,431","14,960",eslintrc gitignore npmignore yml md ,5
+Cleanup build,2016-10-12,Closed,4034,8,3,json ,2
+feat: render misses on first pass,2016-10-11,Closed,4028,88,33,,5
+provided HashRouter with own createHref implementation,2016-10-13,Merged,4024,75,0,,2
+Merge remote-tracking branch 'reactjs/master',2016-10-10,Closed,4020,0,0,,0
+Add missing space,2016-10-08,Merged,4015,1,1,,1
+Prevent replace prop from being passed to <a ... />,2016-10-07,Merged,4011,1,0,,1
+[DO NOT MERGE] Add test for transition to with basename,2017-01-11,Closed,4008,61,0,,1
+Fix computeChangedRoutes to not erroneously include onEnter/onLeave …,2016-10-07,Closed,4007,58,3,,2
+feat: cache matchers with simple cache,2016-10-11,Merged,4004,77,3,,3
+pathIsActive to support trailing slash,2016-10-06,Closed,4003,1,1,,1
+pathIsActive to support trailing slash,2016-10-06,Closed,4002,1,1,,1
+fix: <Match exactly> takes parent into account,2016-10-06,Merged,4001,42,1,,2
+don't incude a trailing slash in the href for pathname='/' if the basename is not empty,2016-10-06,Merged,4000,24,3,,2
+decode path params,2016-10-06,Merged,3991,12,1,,2
+Pass extra props provided to match to component,2016-10-03,Closed,3990,2,2,,1
+Links apathetic to active don't subscribe (#3985),2016-10-13,Merged,3986,89,15,,2
+Update history to version 4.2.1 🚀,2016-09-30,Closed,3981,1,1,,1
+Fix ambiguous Miss component not rendering (#3957),2016-10-03,Merged,3980,49,6,,2
+Update history to version 4.3.0 🚀,2016-09-30,Closed,3979,1,1,,1
+Fixed active class issue for root router #3975,2016-09-30,Closed,3977,1,0,,1
+Fix doc links to history,2016-09-29,Merged,3973,5,5,,0
+V4,2016-09-28,Closed,3964,"4,997","14,961",eslintrc gitignore npmignore yml md ,5
+Initialize noMatchesInContext in Miss state with correct value,2016-09-27,Closed,3959,1,1,,1
+Update babel-eslint to version 7.0.0 🚀,2016-09-27,Closed,3955,1,1,,1
+Update mocha to version 3.1.0 🚀,2016-09-27,Closed,3953,1,1,,1
+Fix nested exactly,2016-10-06,Closed,3939,1,1,,1
+Update cross-env to version 3.0.0 🚀,2016-09-25,Closed,3937,1,1,,1
+Simplify StaticRouter render().,2016-09-28,Closed,3933,1,2,,1
+Fix non-exact match of pattern with trailing slash.,2016-10-06,Merged,3923,91,15,,2
+Update FAQ to clarify where v4 examples are located,2016-09-20,Merged,3920,2,0,,0
+Fix auth sample login route,2016-09-20,Merged,3918,1,1,,1
+Fixed Invariant Violation with multiple routes in V4,2016-09-20,Closed,3917,27,1,,2
+Add <Link replace> and <Redirect push>,2016-10-06,Merged,3912,133,19,md ,3
+Add propTypes export (#3898),2016-09-19,Merged,3910,3,0,,1
+Typo,2016-09-18,Merged,3897,1,1,,0
+"Allow <Link> to be used outside of Router, add warning",2016-10-02,Closed,3896,15,10,,1
+update history version check,2016-09-17,Merged,3888,5,4,,1
+Fix typo,2016-09-16,Merged,3883,1,1,,0
+feat: make Link accept function as children,2016-09-16,Merged,3881,113,0,md ,4
+Fix typo,2016-09-16,Merged,3878,1,1,,0
+Update history to version 4.2.0 🚀,2016-09-16,Closed,3871,1,1,,1
+Update history to version 4.1.0 🚀,2016-09-15,Closed,3864,1,1,,1
+Fix basename support,2016-09-16,Merged,3858,34,1,,4
+Update eslint-plugin-react to version 6.2.2 🚀,2016-09-16,Closed,3855,738,"2,344",gitignore md js ,6
+Add Router content wrapper,2016-09-14,Merged,3849,21,19,,0
+Remove unused imports in example,2016-09-14,Merged,3845,0,2,,1
+Pass basename to StaticRouter for createHref,2016-09-14,Closed,3843,7,1,,3
+Removed unused Redirect module from RouteConfig example,2016-09-14,Merged,3842,0,1,,1
+Small phrasing change,2016-09-14,Merged,3838,1,1,,0
+typo in auth.js example,2016-09-14,Closed,3834,20,1,md js ,2
+Update README.md,2016-09-14,Merged,3833,1,1,,0
+fix histories docs,2016-09-14,Closed,3831,2,2,,0
+JS Comments → JSX Comments,2016-09-16,Closed,3830,32,28,,0
+Add dom element to render App to,2016-09-14,Merged,3829,1,1,,0
+Add details for running locally,2016-09-14,Merged,3828,4,3,,1
+Update URLs,2016-09-13,Merged,3827,2,2,,0
+this.parent does not updated on match change at MatchProvider.,2016-09-13,Merged,3825,52,2,,2
+fixing pathame->pathname typo in docs,2016-09-13,Merged,3824,2,2,,0
+Fix ReferenceError in ServerRouter,2016-09-13,Merged,3823,1,1,,1
+Failing test to demonstrate problem with multiple children,2016-09-14,Closed,3822,46,38,md ,3
+Update to use render(),2016-09-13,Merged,3821,1,1,,0
+Explicitly export createServerRenderContext,2016-09-13,Merged,3820,3,0,,1
+rename `Miss` inline component to `NoMatch`,2016-09-13,Merged,3819,1,1,,0
+Fix ServerRouter import statement on website,2016-09-13,Merged,3818,1,1,,0
+Update all dependencies 🌴,2016-09-13,Closed,3816,7,7,,1
+Update quick-start.md unpkg link,2016-09-13,Merged,3815,1,1,,0
+Add overflow in docs to tell Firefox to constrain to parent's size (v4),2016-09-13,Merged,3814,1,1,,1
+Fix the website link to the GitHub Repo,2016-09-13,Closed,3813,1,1,,0
+fix history docs,2016-09-13,Closed,3811,4,4,,0
+Corrected misleading routeParams docs comment.,2016-09-13,Merged,3810,1,1,,0
+Fix redirects,2016-09-13,Merged,3808,3,7,,2
+Update README.md,2016-09-12,Closed,3804,2,2,,0
+"Add Support for ""Blank"" Link components.",2016-09-09,Merged,3803,46,1,js ,2
+Replace jsx with js to correctly highlight code,2016-09-08,Merged,3801,1,1,,0
+Use replace instead of transitionTo for redirects,2016-09-08,Merged,3799,1,1,,1
+Remove broken link in API doc,2016-09-07,Merged,3798,1,1,,0
+Improve syntax highlighting in docs,2016-09-07,Merged,3794,122,122,,0
+add module entry point for webpack v2 #3788,2016-09-28,Closed,3789,1,0,,1
+Fix broken link to location descriptor reference,2016-09-05,Merged,3787,4,4,,0
+Removes deprecated replaceState with replace in the routeConfig readme,2016-09-03,Closed,3786,1,1,,0
+Replaces npmcdn to upkg in README,2016-09-03,Merged,3785,2,2,,0
+Discard optional paren history based on params evaluation,2016-09-28,Merged,3782,159,3,,2
+Add not found route to huge apps example,2016-09-01,Closed,3781,15,1,,2
+Feature/link-replace,2016-08-27,Closed,3763,95,2,js ,2
+add reference to react-router-scroll to the docs,2016-09-28,Closed,3762,1,1,,0
+Support nested relative Match patterns,2016-08-30,Merged,3759,171,114,,8
+Update docs and changelog for release [ci skip],2016-08-20,Merged,3746,33,5,,0
+Fix the withRef mess,2016-08-19,Merged,3740,69,54,,2
+Docs guides index fix,2016-08-18,Merged,3737,14,11,,0
+Adding support to get the component instance that withRouter HOC wraps,2016-08-19,Merged,3735,30,2,,2
+Fix auth-with-shared-route example,2016-08-19,Merged,3732,9,9,,9
+Allow a router prop to take priority over context prop.,2016-08-16,Merged,3729,24,1,,2
+Readme: Add root path to Route component,2016-08-15,Merged,3724,1,1,,0
+Add Promise support to async route functions,2016-08-15,Merged,3719,75,3,json ,7
+Warn on invalid middlewares,2016-08-16,Merged,3717,29,2,,2
+Update README.md to clarify versioning scheme vs versions,2016-08-09,Merged,3716,1,1,,0
+Make code work on Node 4,2016-08-09,Merged,3715,2,2,,1
+Revert to npm-friendly syntax setting in README [ci skip],2016-08-06,Merged,3708,2,2,,0
+"add ""ref"" support to JSX route definitions",2016-08-05,Closed,3705,54,5,js ,2
+Update Babel config,2016-08-09,Merged,3703,32,21,eslintrc json js ,5
+Switch to babel-plugin-istanbul,2016-08-04,Merged,3701,13,13,js json ,4
+Update .gitignore,2016-08-02,Merged,3698,1,4,,1
+Improve copyediting on createMemoryHistory docs,2016-08-02,Merged,3696,1,1,,0
+add note about possible use case for memoryHistory,2016-08-02,Merged,3693,1,1,,0
+Add docs for function to on <Link>,2016-07-30,Merged,3687,18,1,,0
+Fix lint issue in test against new ESLint,2016-07-29,Merged,3686,16,16,json ,2
+Use only Codecov for coverage,2016-07-29,Merged,3685,7,11,md js json ,3
+Run CI against new React release,2016-07-29,Merged,3684,4,4,,1
+Tweak goBack docs a bit,2016-07-28,Merged,3681,13,5,,0
+Fix handling of patterns that are method names,2016-07-29,Merged,3680,12,2,,3
+Fix BrowserStack config,2016-07-29,Merged,3678,7,15,,1
+Add instruction on navigating back to previous page,2016-07-28,Merged,3674,2,1,,0
+Improve syntax highlighting in docs,2016-07-27,Merged,3673,124,124,,0
+Add module entry point for webpack 2,2016-07-26,Merged,3672,1,0,,1
+Move the ES modules build where it belongs,2016-07-26,Merged,3670,3,3,,1
+Add support for function to,2016-07-26,Merged,3669,56,6,,2
+Clean up cruft in tests,2016-07-26,Merged,3668,173,212,,0
+Add an example on how to use the onEnter callback,2016-07-22,Merged,3660,22,0,,0
+"Feature-flagged conditional routes, externalContext proposal",2016-07-21,Closed,3656,13,12,,3
+Lifecycle events order correction,2016-07-20,Closed,3654,2,2,,0
+Updates links to old docs in README,2016-07-19,Merged,3650,1,1,,0
+Update CoC version,2016-07-19,Merged,3649,52,29,,0
+Support history v3,2016-07-19,Merged,3647,53,53,json ,6
+Remove deprecated propTypes,2016-07-19,Merged,3646,0,4,,1
+Fix extra props on <Link> in 0.13 branch,2016-07-18,Merged,3645,6,0,,1
+Fix links to history repo,2016-07-14,Merged,3639,5,5,,0
+Update helpers for warning messages,2016-07-15,Merged,3638,19,13,,2
+Fix my mistakes in test setup,2016-07-14,Merged,3637,34,46,js json ,5
+Fix when the <Link> onClick invariant runs,2016-07-15,Merged,3636,12,20,,1
+Add prevState to onLeave hooks,2016-07-07,Merged,3616,16,11,js ,3
+Remove docs on absolute paths,2016-07-07,Merged,3615,3,5,,0
+Fix basename in examples better,2016-07-05,Merged,3610,41,35,,17
+Fix setting basename in examples,2016-07-05,Merged,3609,76,44,html ,30
+Fix issues with unknown props in docs and examples,2016-07-05,Merged,3608,16,15,js ,1
+Support React v15 on legacy v0.13 branch,2016-07-13,Merged,3607,85,72,,8
+[change] add onEnter callback parameters to inject props on container.,2016-07-04,Closed,3605,53,12,,4
+Remove more deprecations,2016-07-03,Merged,3603,11,133,js ,4
+Update dependencies,2016-07-02,Merged,3600,41,39,js json ,6
+add getWrappedInstance to withRouter.js,2016-07-01,Closed,3596,4,1,,1
+[HOLD OFF ON MERGING] Deprecate routeParams,2016-08-02,Closed,3593,46,4,js ,2
+Update docs,2016-06-30,Merged,3592,16,22,,0
+Don't check propTypes ahead of time,2016-06-30,Merged,3591,1,19,,1
+pushed state information added,2016-06-30,Closed,3590,2,0,,0
+adding java servlet configuration to server configuration,2016-06-30,Closed,3589,9,0,,0
+Update LICENSE.md,2016-06-29,Merged,3587,1,1,,0
+fix typo,2016-06-27,Closed,3579,1,1,,0
+Add missing deprecated marker for <Router> props,2016-06-25,Merged,3576,5,5,,0
+Add warning to link.js,2016-06-24,Merged,3572,6,0,,1
+Throw instead of silently failing with history v3,2016-06-23,Merged,3571,14,0,,1
+Put location on partialNextState,2016-06-23,Merged,3569,34,13,,2
+use es2015 object shorthand in examples,2016-06-21,Merged,3563,2,2,,2
+Fix remaining issues with #3556,2016-06-21,Merged,3561,159,151,js ,5
+Make `params` available to getChildRoutes providers,2016-06-21,Merged,3556,84,35,js ,7
+Refactor getRouteParams in getRouteParams.js,2016-06-16,Merged,3544,3,8,,1
+update Link.js,2016-06-13,Closed,3537,3,1,,1
+Mention react-router-optimize transform in docs to minimize bundle,2016-06-12,Closed,3534,2,0,,0
+Remove add-module-exports babel plugin,2016-06-10,Closed,3530,1,3,json ,2
+Fix #3528: document.body is a bad idea,2016-06-10,Merged,3529,1,1,,0
+Update API.md,2016-06-06,Closed,3519,1,1,,0
+Define presentational components as stateless functional components,2016-06-04,Merged,3510,293,414,,3
+Failed test for isActive,2016-06-02,Closed,3506,18,0,,1
+Browserify production build is not optimized by default,2016-06-04,Merged,3503,7,1,,1
+Enhancing the onClick event object,2016-05-31,Closed,3502,6,2,,1
+add routes and params to location,2016-05-29,Closed,3500,2,0,,1
+import ES6 module in more proper way,2016-05-23,Merged,3492,1,1,,1
+Fix setRouteLeaveHook references in docs,2016-05-23,Merged,3489,16,4,js ,1
+Add router to props for route components,2016-05-31,Merged,3486,18,1,js ,2
+Attempting to make `props.params` a well-behaved immutable,2016-05-20,Closed,3483,69,2,,2
+Enable Multiple Routes to same component,2016-05-18,Closed,3478,25,1,,2
+Fix typo,2016-05-18,Merged,3471,1,1,,1
+Fix typos,2016-05-16,Merged,3468,2,2,,1
+Missing word in upgrade guide,2016-05-16,Merged,3467,1,1,,0
+Update to API.md,2016-05-16,Closed,3465,2,2,,0
+Support async behavior in setRouteLeaveHook,2016-05-14,Closed,3461,70,17,js ,2
+Add redirecting to async rendering example,2016-05-21,Closed,3460,20,4,,0
+Add link to withRouter HoC in ConfirmingNavigation docs,2016-05-13,Merged,3456,2,0,,0
+Don't crash on invalid uri query parameters.,2016-05-17,Merged,3453,25,7,,3
+Fix html structure for examples index.html,2016-05-11,Merged,3452,26,21,,1
+fix 0.13.x docs link,2016-05-10,Merged,3450,1,1,,0
+Update router state properties directly,2016-05-09,Merged,3446,18,9,json ,5
+Pass params and location as props in withRouter(),2016-05-09,Merged,3444,18,3,js ,2
+Make withRouter() update inside static containers,2016-05-09,Merged,3443,39,2,json ,5
+Attach current location and params to context.router,2016-05-09,Merged,3442,54,27,,6
+Implement ContextUtils as mixins,2016-05-09,Merged,3440,45,57,,3
+Remove remaining deprecations,2016-05-07,Merged,3435,5,401,js ,3
+Fixes to ContextSubscriber,2016-05-07,Merged,3434,32,20,,1
+Easy Doc navigation,2016-05-07,Closed,3433,20,1,,0
+Add routerLink HoC,2016-05-05,Closed,3431,214,84,js ,4
+Make <Link> work with static containers (take two),2016-05-06,Merged,3430,170,3,,4
+Make <Link> work with static containers,2016-05-05,Closed,3429,183,35,,4
+"Replace ""CommonJS models"" with ""CommonJS modules"" in docs",2016-05-03,Merged,3428,1,1,,0
+Add version caveats for scroll-behavior docs,2016-05-05,Merged,3427,17,18,,0
+We're not actually using stage-0,2016-05-02,Merged,3420,3,3,json ,2
+Fix example in README.md,2016-04-30,Merged,3419,1,1,,0
+Fix example in README.md,2016-04-30,Closed,3418,1,1,,0
+updated MIT license,2016-04-29,Closed,3416,3,0,,0
+Basename + IndexRedirect not working well together,2016-04-29,Closed,3415,21,0,,1
+Fix ToC link,2016-04-29,Merged,3414,1,1,,0
+Remove section about ES modules and tree-shaking,2016-04-29,Merged,3410,4,22,,0
+Tweak extra props middleware documentation,2016-04-28,Merged,3405,40,10,,0
+"Add ""target"" as an optional prop to Link module",2016-04-27,Merged,3397,2,1,,1
+Add section on isActive to troubleshooting guide,2016-04-27,Merged,3396,33,6,,0
+Typo fix,2016-04-27,Merged,3395,1,1,,0
+Make `match` set the location as history entry when creating new memory history object,2016-04-27,Closed,3394,1,1,,1
+Add example to `Changes to `this.context`,2016-04-27,Closed,3392,26,0,,0
+Add additional props passing method,2016-04-28,Merged,3389,6,0,,0
+[DO NOT MERGE] Use lazily-initialized shims for history singletons,2016-04-27,Closed,3388,41,5,,3
+Fix example for withRouter,2016-04-26,Merged,3386,1,1,,0
+Make scripts runnable on Windows,2016-04-25,Merged,3383,8,7,,1
+Added Tim Dorr to authors,2016-04-25,Closed,3380,2,1,,1
+isActive array parameter handling,2016-04-28,Closed,3377,46,3,,1
+Update Histories.md,2016-04-23,Closed,3371,2,0,,0
+Added semicolon to static propType in testing doc,2016-04-22,Closed,3369,1,1,,0
+Documentation change,2016-04-22,Merged,3368,1,1,,0
+stage-0 belongs after es2015,2016-04-22,Merged,3367,3,3,,1
+Upgrade to Babel 6,2016-04-21,Merged,3362,75,58,js json ,5
+Set up peer dependency on React,2016-04-20,Merged,3361,3,0,,1
+Update glossary to properly document greedy string matching,2016-04-21,Merged,3360,1,0,,0
+wip: Link doesn't render `href` w/out context,2016-04-19,Closed,3356,21,0,,1
+Add withRouter HoC,2016-04-21,Merged,3352,369,335,js ,3
+Clarify contextTypes docs,2016-04-18,Merged,3351,28,14,,0
+Clean up exported PropTypes,2016-04-18,Merged,3349,119,63,js ,17
+Remove getComponent deprecations,2016-04-18,Closed,3348,1,53,,2
+Expanded API docs for `context.router`,2016-04-18,Merged,3346,42,1,,0
+Expanded API docs for `context.router`,2016-04-18,Closed,3345,42,1,,0
+Restore default PropTypes export (fixes #3342),2016-04-18,Closed,3344,4,1,,1
+[3.0] Remove deprecations.,2016-04-21,Merged,3340,41,"1,575",,8
+Tweak project-level copy a bit,2016-04-18,Merged,3337,9,12,json ,1
+Improve instructions for users of ES modules,2016-04-16,Merged,3335,9,1,,0
+Move ES module build back to es6/,2016-04-16,Merged,3334,5,5,json ,2
+Don't use Object.assign,2016-04-15,Merged,3331,26,24,,1
+Change up componentName,2016-04-15,Closed,3330,9,2,,1
+Added dummycheck,2016-04-15,Closed,3328,15,2,,1
+added applyRouterMiddleware,2016-04-16,Merged,3327,184,1,js ,3
+[DO NOT MERGE] Deprecate nested routes with absolute paths,2016-08-02,Closed,3319,34,12,,4
+Fix references to PropTypes.router,2016-04-15,Closed,3318,3,3,,0
+Update package.json,2016-04-14,Merged,3315,1,1,,1
+Check for exact path match before checking routes,2016-04-14,Merged,3313,61,46,,2
+Fix PropType in ConfirmNavigation quide,2016-04-14,Closed,3311,1,1,,0
+Properly continue match after pathless routes,2016-04-14,Merged,3308,20,2,,2
+Fix this in getComponent and getComponents,2016-04-14,Merged,3306,17,3,js ,2
+Remove workaround for npm bug with history,2016-04-14,Merged,3302,0,10,,1
+Fix typo in v2.2.0 upgrade guide.,2016-04-13,Merged,3301,1,1,,0
+Call getComponent with nextState instead of location,2016-04-13,Merged,3298,119,40,js ,14
+Do not include deprecation code in production builds,2016-04-13,Merged,3296,40,25,,1
+Move ES module build to es/,2016-04-13,Merged,3295,5,5,json ,2
+Removed unnecessary className on Link,2016-04-13,Merged,3288,10,2,,2
+"Support trailing slashes, not extraneous ones",2016-04-12,Merged,3285,172,44,,7
+Optional Params on isActive,2016-04-14,Closed,3284,13,0,,1
+"Revert ""Support trailing slashes, not extraneous ones""",2016-04-11,Merged,3280,41,141,,5
+Add order hints to lifecycle hook docs,2016-04-11,Merged,3278,10,10,,0
+Fixes to PropTypes,2016-04-11,Closed,3274,6,3,,2
+imported 'createClass' so we don't have to use React.createClass,2016-04-09,Closed,3269,17,17,,8
+Update basename example,2016-04-08,Merged,3267,1,1,,0
+Bump React dev dep,2016-04-07,Merged,3261,4,4,,1
+Minor change to CSS + Change from false to !true,2016-04-07,Closed,3258,52,48,js ,21
+Update Histories.md,2016-04-06,Merged,3257,1,1,,0
+Don't unnecessarily kill test suite on missing warnings,2016-04-06,Merged,3255,9,5,,1
+Update README.md to have information about ES6,2016-04-06,Closed,3254,10,0,,0
+Final Picky fix with ES6,2016-04-06,Merged,3253,29,30,,7
+Picky fix on ES6 syntax,2016-04-06,Merged,3252,32,32,,16
+"Adds example to show ""page not found"" implementation",2016-04-12,Merged,3251,63,0,js ,3
+Bump dependencies,2016-04-05,Merged,3250,33,33,,1
+Add example for async auth with querystring params,2016-04-12,Merged,3248,113,0,html ,3
+Document lack of support for relative links,2016-04-05,Merged,3247,1,1,,0
+[DO NOT MERGE] Deprecate routes with nested absolute paths,2016-04-15,Closed,3246,65,37,,4
+Only warn once for deprecations,2016-04-05,Merged,3245,18,0,,2
+Assert on specific warnings in tests,2016-04-05,Merged,3244,81,73,js ,12
+Update documentation on when to use hash history,2016-04-04,Merged,3242,3,1,,0
+"Update section ""Should I use hashHistory?""",2016-04-04,Closed,3240,3,1,,0
+Updated jest example in testing.md,2016-04-03,Merged,3239,8,10,,0
+Update troubleshooting guide,2016-04-01,Merged,3236,38,11,,0
+Don't need to include source in distribution,2016-03-29,Merged,3229,0,1,,1
+Show Scroll Behavior upgrade example.,2016-03-30,Merged,3223,18,0,,0
+Improve docs for useRouterHistory,2016-03-24,Merged,3222,46,0,,0
+Updated PropTypes,2016-04-12,Merged,3218,28,17,js ,3
+Speed up pattern matching,2016-03-22,Merged,3217,22,33,,2
+Document new onChange hook,2016-03-21,Merged,3214,9,1,,0
+Add UMD module with developer warnings,2016-03-21,Merged,3213,1,1,,1
+Fix hasOwnProperty error on activeClassName for query string link,2016-03-19,Closed,3208,1,1,,1
+Fix calls to hasOwnProperty,2016-03-19,Merged,3206,24,18,,7
+Docs: add list of exported PropTypes,2016-03-18,Merged,3203,8,1,,0
+fix(isActive): fix `b.hasOwnProperty is not a function`,2016-03-18,Closed,3201,2,2,,1
+Add location descriptor caveat to Link to API docs,2016-03-18,Merged,3198,2,1,,0
+enable walking up route hierarchy to trigger onEnter,2016-03-18,Closed,3197,35,1,,2
+Update absolute path example in route config guide,2016-03-21,Merged,3196,16,13,,0
+Update DynamicRouting.md,2016-03-17,Merged,3195,1,1,,0
+Update API docs for Link#to,2016-03-18,Merged,3191,11,5,,0
+Update decoupling UI from URL pattern,2016-03-11,Merged,3178,33,28,,0
+initial commit for new react router docs,2016-03-18,Closed,3173,"8,716",10,yml html gitkeep ,9
+Fix changelog,2016-03-11,Merged,3171,12,9,,0
+Transition bug,2016-03-10,Merged,3166,64,5,js ,2
+Drop installing from GitHub,2016-03-08,Merged,3164,1,30,json ,2
+"Support trailing slashes, not extraneous ones",2016-04-01,Merged,3158,141,41,,5
+Fixed bad link in docs,2016-03-07,Merged,3157,1,1,,0
+Expand isActive API docs,2016-03-07,Merged,3156,4,0,,0
+Improve redirect docs,2016-03-07,Merged,3155,43,28,,0
+[docs] add explicit example on how to redirect using plain routes,2016-03-05,Merged,3153,13,0,,0
+[Doc] add example IndexLink for query params,2016-03-07,Closed,3152,1,0,,1
+Updating Confirming Navigation docs with info about ES6 API.,2016-03-03,Closed,3142,2,0,,0
+Improved IndexRedirect documentation,2016-03-01,Merged,3137,12,1,,0
+Cover param matching in isActive,2016-03-01,Merged,3135,14,0,,1
+Fix isActive with route parameters.,2016-03-01,Closed,3134,15,2,,2
+Add continuous back,2016-02-29,Closed,3130,16,1,,1
+Add docs for the Link prop `onlyActiveOnIndex`,2016-02-27,Merged,3126,5,2,,0
+Add useBeforeUnload by default.,2016-02-25,Closed,3118,7,1,,2
+Update createRouterHistory.js,2016-02-23,Closed,3115,1,1,,1
+"List recommended solution first, clarify motivation on why its necessary",2016-02-24,Merged,3114,14,13,,0
+[added] onChange route hook,2016-03-21,Merged,3108,131,45,,4
+Don't tear down leave hooks when not leaving,2016-02-22,Merged,3107,55,16,,2
+[PoC] Use Express-style path matching,2016-03-13,Closed,3105,222,332,,4
+"Added condition property to do extra tests on route params, etc.",2016-08-02,Closed,3098,323,72,,3
+Update issue_template.md,2016-02-17,Closed,3093,7,8,,0
+Ensure match creates consistent histories,2016-02-18,Closed,3089,26,17,,2
+Fix broken links in documentation,2016-02-11,Merged,3065,7,7,,0
+Fix Index Routes guide urls,2016-02-10,Merged,3060,2,2,,0
+Fixed paths in docs/README,2016-02-10,Merged,3058,12,12,,0
+Fix relative paths in table of contents which was throwing a 404,2016-02-10,Closed,3057,12,12,,0
+Add back basename support in match(),2016-02-10,Merged,3054,12,1,,2
+Prevent infinite warning loops.,2016-02-04,Merged,3031,15,15,,16
+Use history v2 final,2016-02-04,Merged,3030,1,1,,1
+update query param Link to,2016-02-04,Closed,3028,1,1,,1
+Add back singleton example and add a blurb about them in SSR docs.,2016-02-04,Merged,3027,20,3,,0
+additional info about onUpdate() documentation,2016-02-10,Closed,3018,2,1,,0
+Update v2.0.0 Upgrade Documentation - stringifyQueryString -> stringifyQuery,2016-02-02,Merged,3014,1,1,,0
+docs(example): fix module name,2016-02-02,Merged,3012,1,1,,0
+Fix grammar on introduction,2016-02-02,Merged,3011,1,1,,0
+Update Introduction.md,2016-02-01,Closed,3010,1,1,,0
+Update Introduction.md,2016-02-01,Closed,3009,1,1,,0
+Remove misleading example from upgrade guide,2016-01-28,Merged,2992,2,11,,0
+[WIP]: Adds warning if route is unreachable,2016-04-21,Closed,2987,133,3,,3
+Fix initial routing state after match,2016-01-24,Closed,2966,87,44,js ,4
+Fix initial routing state after match,2016-01-27,Merged,2965,95,46,js ,4
+[README.md] Add --save to install command,2016-01-23,Merged,2962,1,1,,0
+Don't need to double-add ChromeCi in Karma,2016-01-22,Merged,2958,3,3,,1
+Troubleshooting information about this.context.router,2016-01-21,Merged,2951,8,0,,0
+docs: Add unreachable routes troubleshooting,2016-01-20,Merged,2946,18,0,,0
+Transition hooks swallow basename (failing test),2016-02-03,Merged,2936,42,1,,1
+Update docs,2016-01-18,Merged,2931,178,105,,0
+Update v2.0.0.md - fix doc error,2016-01-18,Merged,2926,1,1,,0
+Unwind recursion in loopAsync when possible,2016-01-18,Merged,2923,58,13,,2
+Fix handling of Link location descriptors,2016-01-18,Merged,2921,48,15,,2
+Update CHANGES,2016-01-16,Merged,2915,29,8,,0
+Option to use router.replace in Link,2016-01-16,Closed,2914,47,3,js ,2
+Remove unused execStepsWithDelay,2016-01-15,Merged,2911,0,15,,1
+Use history.createLocation where possible,2016-02-03,Merged,2910,3,6,json ,3
+Remove default Router export,2016-01-14,Merged,2906,0,2,,1
+Add apache rewrite example,2016-01-14,Merged,2905,10,0,,0
+Bump history dependency to include deprecations,2016-01-14,Merged,2904,1,1,,1
+Do not include histories in index.js,2016-01-14,Closed,2903,16,18,js ,1
+Remove unnecessary DevTools warning,2016-01-14,Closed,2902,0,2,,0
+Fix typo in 2.0.0 upgrade guide,2016-01-14,Merged,2900,1,1,,0
+Clarify updating testing setup from 0.x to 1.x,2016-01-13,Merged,2896,2,2,,0
+"Typo in readme: ""stategy"" -> ""strategy""",2016-01-12,Merged,2888,1,1,,0
+Improve support for server rendering async routes,2016-01-13,Merged,2883,74,15,,3
+Tell users what's going on in postinstall,2016-01-13,Merged,2880,24,7,json ,2
+Added confirmation popup to example,2016-01-09,Closed,2875,1,1,,0
+Fix typo 'router' to 'history' in v2.0.0 upgrade guide,2016-01-08,Merged,2872,1,1,,0
+Add link to details explaining what is '_k' in v1.0.0 Upgrade Guide,2016-01-08,Closed,2871,1,1,,0
+Update our tested browsers,2016-01-07,Merged,2869,25,16,js ,2
+"Rename ""confirming navigation"" example",2016-01-07,Merged,2868,8,8,html ,3
+Add client/server rendering coherency tests,2016-01-11,Closed,2864,107,0,,1
+setRouteLeaveHook over setLeaveHook,2016-01-06,Merged,2858,1,1,,0
+Use location descriptor in onEnter redirect,2016-01-07,Merged,2855,69,39,js ,7
+Update glossary for some new terms,2016-01-06,Merged,2854,38,28,,0
+Update examples for props.router removal,2016-01-06,Merged,2852,12,3,,2
+Add deprecated RoutingContext export to index,2016-01-06,Merged,2851,1,0,,1
+Update app.js,2016-01-06,Merged,2850,1,1,,1
+Updates docs for custom query parsing in V2,2016-01-04,Merged,2843,3,2,,0
+fix server-rendering docs inconsistency,2016-01-04,Closed,2837,2,2,,0
+Give some guidance for 404 with catch-all routes,2016-01-04,Merged,2835,3,0,,0
+clarify path style of routercontext.push,2016-01-04,Closed,2831,4,0,,0
+Fix link to context.router in API documentation,2016-01-03,Merged,2826,1,1,,0
+Update history dependency,2016-01-03,Merged,2824,2,2,,1
+add warning for new replaceState location param,2016-01-02,Merged,2822,1,1,,1
+API docs: Fixes several TOC links.,2016-01-02,Merged,2816,6,6,,0
+"Fix ""Confirming Navigation"" link",2016-01-01,Merged,2815,1,1,,0
+Add passing custom histories to match,2016-01-01,Merged,2813,19,3,,2
+Fix v2 example for Navigating in Route Components,2016-01-01,Merged,2811,7,8,,0
+Update pinterest example,2015-12-31,Merged,2810,1,1,,1
+Small fix for the transitions example for 2.0,2015-12-31,Merged,2809,4,1,,1
+Upgrade Guide Correction for Custom Histories,2015-12-31,Merged,2806,3,2,,0
+Also build with fail-on-warning flag,2015-12-31,Merged,2804,3,0,,1
+Make deprecated properties non-enumerable,2015-12-31,Merged,2803,4,3,,1
+Added lacking import of IndexRoute in docs introduction section.,2015-12-31,Merged,2797,1,1,,0
+Update links to tiny.cc,2015-12-31,Merged,2796,13,11,,9
+Export createMemoryHistory,2015-12-31,Merged,2792,1,0,,1
+Add a memory history,2015-12-30,Closed,2790,5,0,,2
+"Revert ""Remove history npm workaround""",2015-12-30,Merged,2789,10,0,,1
+Update v2.0.0.md,2015-12-30,Merged,2786,1,1,,0
+Expose needed functionality in UMD build,2016-01-01,Merged,2778,1,0,,1
+Add activeTitle on Link,2015-12-26,Closed,2766,46,1,js ,2
+Update ServerRendering.md RoutingContext,2015-12-23,Closed,2761,3,3,,0
+Displays component name instead of component title in breadcrumb example,2015-12-21,Closed,2757,1,1,,1
+Remove history npm workaround,2015-12-21,Merged,2756,0,10,,1
+Minor fixes for CHANGES,2015-12-21,Merged,2755,43,15,,0
+Styling nit on lifecycle docs,2015-12-21,Merged,2754,4,4,,0
+update lifecycle doc,2015-12-21,Merged,2753,1,1,,0
+addRouteLeaveHook -> setRouteLeaveHook,2015-12-21,Merged,2752,19,12,js ,7
+Remove shared root example,2015-12-20,Merged,2751,0,1,,1
+fix server rendering example to reference RoutingContext,2015-12-20,Closed,2750,3,3,,0
+Updated RouterContext to RoutingContext,2015-12-20,Closed,2749,3,3,,0
+Tear down route leave hooks upon leaving route,2015-12-20,Merged,2748,96,39,,2
+Use history version without deprecation warnings,2015-12-19,Merged,2746,3,3,,1
+[wip] decouple route matching from useRoutes,2015-12-20,Merged,2743,"2,255",866,html ,15
+1.0.x,2015-12-16,Closed,2727,8,3,json sh ,2
+Elaborate more on RouteHandler -> cloneElement,2015-12-15,Merged,2724,25,7,,0
+Describe case when <RouteHandler {...this.props}/>,2015-12-15,Closed,2723,13,0,,0
+Updates the server rendering docs,2015-12-15,Closed,2722,2,2,,0
+Reference `latest` branch in docs and example links in README,2015-12-14,Merged,2717,1,1,,0
+update peerDependency history to 0.16,2015-12-13,Closed,2711,1,1,,1
+Switch back to a caret range for history,2015-12-17,Merged,2702,11,4,js json ,4
+simplify the Tab example a bit,2015-12-09,Merged,2694,7,7,,0
+Updates tab example to allow for IndexLink as appropriate.,2015-12-09,Merged,2692,8,5,,0
+Render user information when under user route,2015-12-09,Merged,2689,1,0,,1
+Fix the docs for match,2015-12-09,Merged,2683,11,13,js ,1
+Drop the use of createLocation,2015-12-09,Closed,2680,92,31,js ,5
+Explicitly take path instead of location for match,2015-12-08,Closed,2676,52,22,js ,2
+Roll back API changes ahead of interim release,2015-12-08,Closed,2674,195,530,md js ,5
+Fix routing mixin example for deeply nested comp,2015-12-08,Merged,2672,1,1,,0
+tweaked example in NavigatingOutsideOfComponents,2015-12-08,Merged,2671,1,1,,0
+Use history v1.15.x API for createHref,2015-12-07,Merged,2667,6,6,json ,2
+RoutingContext should be RouterContext in server test,2015-12-08,Merged,2666,1,1,,1
+Don't blacklist es7 class properties,2015-12-07,Merged,2664,0,3,,1
+Fix isActive-test,2015-12-07,Merged,2660,3,3,json ,2
+Update <Link> to just call push,2015-12-07,Merged,2659,105,11,,2
+Update <Link> to just call push,2015-12-06,Closed,2658,105,9,,2
+Update babel-eslint dependency,2015-12-06,Merged,2656,1,1,,1
+Add more functions from history to context.router,2015-12-08,Merged,2655,64,12,,2
+Update Introduction.md,2015-12-06,Closed,2654,1,1,,0
+Update Introduction.md,2015-12-06,Closed,2653,3,0,,0
+Rename RoutingContext -> RouterContext,2015-12-06,Merged,2651,159,135,js ,4
+"Add <Router render> prop, remove <Router RoutingContext>",2015-12-06,Merged,2649,38,90,js ,4
+1.1 context.router,2015-12-06,Merged,2647,369,9,md js ,5
+Compiled,2015-12-04,Closed,2645,"2,358",20,js ,7
+Clean up histories guide a bit,2015-12-04,Merged,2643,19,3,,0
+Update Histories.md,2015-12-04,Closed,2642,19,0,,0
+Add bower.json,2015-12-03,Closed,2635,29,0,,1
+Small fix in API.md,2015-12-03,Merged,2634,1,1,,0
+Remove getQueryParams(),2015-12-03,Merged,2633,1,2,,0
+Explain arguments to `match` callback (in API docs for `match`).,2015-12-02,Closed,2630,8,1,,0
+Explain arguments to `match` callback.,2015-12-02,Closed,2629,7,0,,0
+Fix getIndexRoute docs,2015-12-02,Merged,2627,32,14,,0
+add a Note and example how to actually return the expected definition for a getIndexRoute callback,2015-12-01,Closed,2623,6,0,,0
+Hash documentation update concerning scroll management.,2015-11-30,Merged,2615,2,0,,0
+Update history and imports in test code,2015-11-30,Closed,2613,10,10,json ,10
+Update RouteConfiguration.md,2015-11-30,Closed,2612,5,5,,0
+add docs for onlyActiveOnIndex,2015-11-30,Closed,2610,3,0,,0
+Link docs: add an example of how to stop propagation,2015-11-28,Closed,2608,11,0,,0
+Update huge-apps example,2015-11-26,Merged,2599,34,28,,14
+Fixes RouteHandler migration suggestion,2015-11-26,Closed,2597,4,1,,0
+expose router state in the `onUpdate` hook,2015-11-24,Closed,2594,31,4,js json ,4
+Warn on attempting to change <Router routes>,2015-11-26,Merged,2581,6,0,,1
+Add listenRoutes to useRoutes,2015-12-02,Closed,2580,16,2,js ,2
+Update a few missing things in CHANGES,2015-11-20,Merged,2579,6,0,,0
+Clarify getIndexRoute example,2015-11-19,Merged,2573,1,1,,0
+Allow createRoutesFromReactChildren to return an array,2015-11-26,Closed,2566,38,2,,2
+Fix using this before super,2015-11-17,Merged,2563,2,1,,1
+Fixed some static properties which were declared with an equal sign.,2015-11-17,Closed,2562,8,8,,3
+add replace props to link,2015-11-17,Closed,2558,2,2,,1
+add 'replace' as props to <Link>,2015-11-17,Closed,2557,4,2,,1
+"Revert ""Pass route state to onUpdate callback""",2015-11-13,Merged,2548,7,36,js ,2
+Pass key on named components to createElement,2015-11-18,Merged,2545,58,23,,2
+Run the server rendering test against Node,2015-11-20,Merged,2544,4,1,js ,2
+Remove static properties for ie8 compatibility,2015-11-17,Merged,2540,175,165,js ,7
+"Revert ""Point to v1.0.0 docs instead of master docs""",2015-11-12,Merged,2539,2,2,,1
+Fix build configs,2015-11-13,Merged,2535,6,4,json js ,3
+Fix usage of coverage reporters in Karma,2015-11-13,Merged,2534,21,5,,1
+Adding support for escaped parentheses in Route Paths,2015-11-12,Closed,2533,43,2,js ,3
+Clean output directory before transpiling,2015-11-13,Merged,2531,2,1,,1
+Add ES6 module build,2015-11-20,Merged,2530,9,4,md json ,2
+Point to v1.0.0 docs instead of master docs,2015-11-12,Merged,2529,2,2,,1
+Fix typo in docs,2015-11-12,Closed,2528,2,2,,0
+typo fix,2015-11-12,Merged,2527,1,1,,0
+Clarify isRequired and cloneElement note,2015-11-11,Merged,2526,6,1,,0
+add a jsnext:main so we can distribute ES6 modules,2015-11-11,Closed,2523,7,1,json ,1
+Add higher-order component connectHistory(),2015-11-11,Closed,2518,77,0,,3
+Add back housekeeping updates,2015-11-12,Closed,2517,133,104,js json ,4
+Use decodeURIComponent for window.location.search,2015-11-10,Closed,2516,1,3,,1
+fix 404 on upgrade guide,2015-11-10,Merged,2515,1,1,,0
+fix 404 on upgrade guide,2015-11-10,Closed,2514,1,1,,0
+Explain the updated animation example,2015-11-10,Merged,2508,8,0,,1
+Pass route state to onUpdate callback,2015-11-11,Merged,2507,36,7,js ,2
+Fix upgrade guide links,2015-11-09,Merged,2506,2,3,,0
+Add back upgrade guide,2015-11-09,Closed,2505,"1,160",0,,0
+explain what `this` refers to in `onEnter` hooks,2015-11-09,Merged,2501,1,1,,0
+Update badges on README,2015-11-07,Merged,2494,17,6,js ,1
+Point to scroll-behavior for scroll behaviors,2015-11-07,Merged,2493,12,5,,0
+Housekeeping updates,2015-11-07,Merged,2492,170,142,js json ,6
+Fix typo in ConfirmingNavigation.md,2015-11-06,Merged,2487,1,1,,0
+Prefer React.createClass over react-mixin,2015-11-05,Merged,2482,1,14,,0
+Use whitelist instead of blacklist for packaging,2015-11-05,Merged,2479,7,6,json ,2
+[fixed] Docs for named/multiple components,2015-11-05,Closed,2475,13,14,,0
+[removed] Remove unused DOMUtils,2015-11-05,Merged,2473,0,60,,1
+[WIP-PoC] [added] useScrollToTopBehavior,2015-11-05,Closed,2471,77,0,,2
+Fix prop types on route components,2015-11-04,Merged,2470,4,4,,2
+Fix v0.13.5 changelog,2015-11-04,Merged,2465,1,2,,0
+Improve coverage,2015-11-04,Merged,2464,141,0,,3
+Fix huge apps example,2015-11-02,Closed,2455,4,4,,1
+Fix animations examples,2015-11-02,Merged,2454,61,11,json ,3
+Use dev-expression Babel plugin,2015-11-02,Merged,2451,5,1,json ,2
+[added] url parameter rules,2015-11-05,Closed,2442,590,41,js html ,3
+[removed] Remove deprecated handler prop on Route,2015-11-01,Merged,2439,1,18,,1
+Add istanbul ignore pragmas,2015-10-31,Merged,2435,10,0,,7
+[fixed] Index routes with extraneous slashes,2015-11-03,Merged,2434,225,27,,6
+"Add an ""Importing"" section to the upgrade guide",2015-10-31,Merged,2433,18,0,,0
+Add more route matching tests,2015-10-31,Merged,2428,88,2,,2
+isActive for dynamic index routes,2015-10-30,Merged,2425,47,10,,2
+Add callback to onEnter entry in API docs,2015-10-30,Merged,2423,3,1,,0
+[fixed] Match routes piece-by-piece,2015-10-30,Merged,2421,107,47,,3
+fix small typo in readme,2015-10-30,Merged,2420,1,1,,0
+update ServerRendering docs with proper match signature,2015-10-29,Closed,2416,1,1,,0
+Update ComponentLifecycle docs,2015-10-29,Merged,2410,5,5,,0
+Fix semver range for React dev dependency,2015-10-29,Merged,2409,2,2,,1
+Change file extension in example,2015-10-29,Merged,2408,1,1,,0
+[wip] URL matching rules,2015-11-02,Closed,2402,335,28,html ,5
+[added] Greedy splat (**),2015-10-28,Merged,2401,58,4,js ,5
+[changed] Query changes aren't route changes,2015-10-28,Merged,2400,3,11,,2
+Point users away from issue tracker for support,2015-10-27,Merged,2396,4,1,,0
+0 13 x,2015-10-27,Closed,2389,"2,916","2,815",md json js ,7
+[added] Handle undefined query values in isActive,2015-10-28,Merged,2386,42,4,js ,2
+Fix Express deprecated usage warning,2015-10-26,Merged,2385,3,3,,0
+[added] Support custom RoutingContext on Router,2015-11-03,Merged,2383,107,2,,2
+Update docs,2015-10-25,Merged,2377,1,1,,0
+[wip][added] Routing middlewares,2015-10-26,Closed,2376,167,58,,4
+Document confirming navigation with ES6 classes,2015-10-24,Merged,2372,15,0,,0
+Consolidate test ESLint overrides,2015-10-23,Merged,2371,8,25,js ,19
+Fixed spacing for consistency,2015-10-23,Merged,2367,1,1,,0
+[removed] params from RoutingContext child context,2015-10-23,Merged,2363,4,7,,2
+Add a license file,2015-10-27,Merged,2359,21,0,,1
+Update React.render to ReactDOM.render for 1.0,2015-10-23,Merged,2357,6,6,,0
+Add Code Coverage,2015-10-24,Merged,2356,31,13,yml md js json ,4
+[WIP] Warn if routes are unreachable,2015-11-06,Closed,2351,99,2,,3
+Fix missing semicolon in nginx configuration snippet,2015-10-22,Merged,2350,1,1,,0
+Fix getIndexRoute example in DynamicRouting.md,2015-10-22,Merged,2343,3,1,,0
+[added] params on RoutingContext child context,2015-10-21,Merged,2336,30,5,,2
+handle nested IndexRoute in path-less route,2015-10-21,Merged,2330,56,2,,2
+Add note re: propTypes + React.cloneElement in upgrade guide,2015-10-20,Merged,2327,2,0,,0
+Add getQueryParams() -> location.query to upgrade guide,2015-10-20,Merged,2325,14,12,,0
+"Added disable instructions regarding ""?_k"" bit",2015-10-21,Merged,2322,2,0,,0
+Introduction change to explain nesting using JSX.,2015-10-21,Merged,2320,12,2,,0
+Update Introduction.md,2015-10-20,Merged,2318,6,4,,0
+Fix broken link in API doc,2015-10-19,Merged,2316,1,1,,0
+Added a UMD example,2015-10-19,Merged,2315,7,1,,0
+Add auth-with-shared-root example,2015-10-21,Merged,2309,351,0,html ,14
+[changed] Preventing transition from onClick,2015-10-18,Merged,2307,41,7,js ,2
+Added new ReactDOM method,2015-10-16,Closed,2298,2,1,,0
+Updated example in readme to use ReactDOM.render,2015-10-16,Merged,2289,2,1,,0
+Document getIndexRoute,2015-10-15,Merged,2287,21,2,,0
+Link to the full examples in README,2015-10-15,Merged,2279,1,1,,0
+Updated testing docs for 1.x,2015-10-14,Merged,2270,136,0,,0
+fixed deps for animation and nested animation examples,2015-10-14,Merged,2269,3,3,json ,3
+Update `history` peer dep to `^1.12.0`,2015-10-14,Merged,2268,1,1,,1
+Clean up docs,2015-10-15,Closed,2264,687,674,,0
+Make 0.13.x compatible with React 0.14,2015-10-14,Merged,2262,79,18,json ,12
+[added] Peer dependency on history package,2015-10-13,Merged,2258,10,3,js json ,2
+[fixed] Don't match empty routes for isActive,2015-10-11,Merged,2237,43,7,,2
+[added] Ability to specify element tagName prop for Link component,2015-10-11,Closed,2236,22,2,,2
+Scroll element referenced by hash into view on Link click,2015-10-15,Closed,2233,11,0,,2
+Add test for index links on dynamic routes.,2015-10-30,Closed,2229,100,0,,1
+Scroll element referenced by hash into view on Link click,2015-10-09,Closed,2225,6,0,,1
+Fix the hash prop on Links,2015-10-09,Merged,2224,17,7,,2
+"Revert ""[Docs] Add path syntax example""",2015-10-09,Merged,2223,0,1,,0
+Don't ship all the build scripts,2015-10-09,Merged,2222,2,1,js json ,3
+[Docs] Add path syntax example,2015-10-09,Merged,2214,1,0,,0
+"Revert ""Update ServerRendering.md""",2015-10-08,Merged,2210,1,3,,0
+"Added qs, deep-equal as dependencies",2015-10-08,Closed,2209,2,0,,1
+Update qs version,2015-10-08,Closed,2204,3,2,,1
+Update ServerRendering.md,2015-10-08,Closed,2203,3,2,,0
+Update ServerRendering.md,2015-10-08,Closed,2202,2,1,,0
+"Ability to open links in new window/tab, using target=""_blank""",2015-10-09,Merged,2193,8,0,,1
+Update ServerRendering.md,2015-10-08,Merged,2192,3,1,,0
+update examples for react 0.14.0,2015-10-08,Merged,2191,39,28,json ,13
+update react to v0.14.0,2015-10-08,Merged,2190,85,70,,7
+update react to v0.14.0,2015-10-07,Closed,2189,84,69,,7
+Update README.md to help new users install v1,2015-10-07,Merged,2184,1,1,,0
+update activeClassName definition,2015-10-07,Merged,2183,2,2,,1
+Add Node.js v0.12 and v4 to Travis config,2015-10-07,Merged,2181,2,0,,1
+Update RouteUtils.js,2015-10-06,Closed,2179,3,1,,1
+Add state support to match(),2015-10-08,Closed,2175,2,1,,1
+Update for history createLocation deprecation,2015-10-05,Merged,2170,21,17,json ,4
+Update server rendering docs,2015-10-05,Merged,2169,5,4,,0
+Fix typo: <Links>s to <Link>s,2015-10-04,Merged,2160,1,1,,0
+Add example config for nginx with browserHistory,2015-10-06,Merged,2157,11,0,,0
+Update UPGRADE_GUIDE.md,2015-10-06,Merged,2155,2,2,,0
+Breadcrumbs example,2015-10-22,Merged,2151,120,0,js html ,4
+Add isActive test with a custom parse/stringify function,2015-10-06,Merged,2138,62,6,json ,3
+Call transition hooks when query changes for useQueries,2015-10-06,Merged,2137,26,2,,2
+Docs shortcuts,2015-09-29,Merged,2130,10,0,,0
+Update UPGRADE_GUIDE.md,2015-09-29,Merged,2127,4,0,,0
+[fixed] IndexLink is active,2015-10-07,Closed,2113,87,30,,2
+Clarify available State information in context,2015-10-07,Merged,2110,17,2,,0
+modified test for IndexRoute and IndexLink nesting,2015-10-07,Closed,2079,85,22,,1
+fix failing tests,2015-09-25,Closed,2069,3,2,,1
+Fixed <Link> example,2015-09-23,Merged,2060,1,1,,0
+Upgrade guide,2015-09-23,Merged,2058,6,4,,0
+Fix the way Router is imported from the CDN,2015-09-22,Closed,2046,1,1,,0
+Fixed typo in link.,2015-09-22,Merged,2042,1,1,,0
+This is the 2000th commit.,2015-09-22,Closed,2041,6,3,,1
+Dependency inject React.,2015-10-12,Closed,2031,"1,140",947,,4
+"[added] Support <Redirect to=""relative/path"">",2015-10-06,Merged,2030,58,7,,2
+Single-page API docs refactor,2015-09-18,Merged,2012,712,787,,0
+Update Introduction.md,2015-09-18,Merged,2009,1,1,,0
+dry up auth-flow example code,2015-09-18,Merged,2000,1,1,,1
+Remove unused QueryUtils,2015-09-18,Merged,1998,0,10,json ,2
+"Remove dead ""Recipes"" link from docs/README.md",2015-09-17,Merged,1997,0,1,,0
+Found the missing Link,2015-09-17,Merged,1993,1,1,,0
+add qs to package.json,2015-09-17,Merged,1985,1,0,,1
+[fixed] Update state to nextState after running RouteHook,2015-09-26,Closed,1983,4,6,,1
+Fix comment about router being built on rackt/history,2015-09-16,Merged,1980,1,1,,0
+Fixed link on ReadMe,2015-09-16,Merged,1978,1,1,,0
+Update activeClassName docs,2015-09-16,Merged,1975,2,2,,0
+[added] IndexRedirect,2015-10-06,Closed,1971,97,61,html js ,6
+Add link to guides w/ table of contents,2015-09-15,Merged,1964,10,2,,0
+Create table of contents for 0.13.x docs,2015-09-15,Merged,1959,34,3,,0
+failing test case,2015-09-25,Merged,1957,81,0,,1
+Fix deep index links,2015-09-15,Closed,1956,144,0,,2
+"remove repeated ""loose=all""",2015-09-15,Merged,1948,1,1,,1
+Add auth-with-shared-root example,2015-10-18,Closed,1947,0,0,,0
+Docs: Move `isActive` to docs for `History` mixin,2015-09-15,Merged,1946,36,38,,0
+Add failing test case for query params on server,2015-10-28,Closed,1944,17,1,,1
+1.0.0-rc1 Documentation for DynamicRouting incorrect #1927,2015-09-14,Merged,1935,1,1,,0
+Updating README.md,2015-09-14,Merged,1934,4,4,,0
+Troubleshooting instructions for NW.js and the history,2015-09-14,Closed,1932,30,0,,0
+Added instructions for NW.js usage,2015-09-14,Closed,1929,6,0,,0
+Fix and add some documentation about query params,2015-09-14,Merged,1928,3,1,,0
+Correct RedirectFunction signature in Glossary,2015-09-14,Merged,1925,1,1,,0
+Fix error in auth-flow example,2015-09-14,Merged,1916,4,3,,1
+add comment showing the unrolled loop of the huge-apps Router,2015-09-13,Merged,1912,45,0,,1
+Fix minor typo,2015-09-12,Merged,1902,2,2,,0
+Docs Typo,2015-09-12,Closed,1901,1,1,,0
+Fixed missing import for Link,2015-09-12,Merged,1900,1,1,,0
+Add an example of animating both parent and nested routes – Rewritten for 1.0,2015-09-12,Merged,1899,153,0,css js ,4
+Fix typo in upgrade guide,2015-09-12,Merged,1896,2,2,,0
+Update Documentation to make migration easier.,2015-09-12,Merged,1894,36,0,,0
+Removing semicolons,2015-09-12,Merged,1892,43,43,,0
+Add missing IndexLink to exports,2015-09-12,Merged,1890,1,0,,1
+Grammar fixes in upgrade guide,2015-09-12,Merged,1889,6,6,,0
+Minor fixes to docs,2015-09-12,Merged,1887,47,42,,0
+Docs update on getComponents,2015-09-12,Merged,1886,7,7,,0
+Allow async route getters return a reactElement,2015-09-11,Closed,1882,51,2,,2
+Docs: fix broken Server Rendering page link,2015-09-11,Merged,1879,1,1,,0
+"quit wrapping `history`, make it the official API",2015-09-11,Merged,1878,102,140,js ,13
+"Changed to ReactDOM, and added Navigation example",2015-09-11,Closed,1876,39,12,,0
+"Spelling correction, pefect -> perfect",2015-09-11,Closed,1872,1,1,,1
+added a test for nested routes,2015-09-11,Merged,1871,21,0,,1
+Fix broken links in docs,2015-09-10,Merged,1863,2,2,,0
+fix failing tests - RE: Map(),2015-09-09,Merged,1862,1,0,,1
+fix failing tests - RE: Map(),2015-09-09,Merged,1861,1,0,,1
+Upgrade karma to 0.13.9 in the 0.13.x branch,2015-09-09,Merged,1856,1,1,,1
+fix typo,2015-09-09,Merged,1853,1,1,,0
+Export RoutingContext,2015-09-09,Merged,1852,1,0,,1
+Add failing tests for route matching with hash,2015-09-11,Merged,1851,21,0,,1
+Add failing tests for optional param groups,2015-09-11,Closed,1850,16,0,,1
+Exercise history.isActive() in server rendering test,2015-09-11,Closed,1849,4,3,,1
+"Added decorator conversion for mixins, included meetup browser example (RR + Redux)",2015-09-10,Closed,1848,"1,256",0,editorconfig eslintrc gitignore md js ,7
+Fix typos in docs,2015-09-08,Merged,1846,5,5,,0
+"fix isActive, makes the root URL active only if it is a parent route",2015-09-09,Merged,1842,30,0,,2
+Add redirect using IndexRoute example,2015-09-11,Closed,1837,56,0,js ,3
+Link: listen to history for active state changes,2015-09-05,Merged,1821,83,2,,2
+fix minor typo,2015-09-05,Merged,1819,2,2,html ,1
+allow Route to use plain route,2015-09-05,Closed,1817,24,2,,1
+[fixed] #1148 regex for detecting trailing slashes,2015-09-11,Merged,1816,9,1,,2
+fix import PropTypes got undefined bug,2015-09-05,Merged,1812,10,0,,1
+"[added] Added decorator conversion for mixins, included Navigation example",2015-09-11,Closed,1811,"1,751",966,,0
+Add missing super() call,2015-09-05,Merged,1804,2,0,,1
+typo,2015-09-05,Closed,1803,2,2,,0
+Export createRoutes instead of createRoutesFromReactChildren,2015-09-05,Merged,1792,1,1,,1
+correct router -> history in comment,2015-09-05,Merged,1787,1,1,,1
+Parameterized getComponents method,2015-09-11,Closed,1776,176,7,md js ,4
+Clarify relative redirects,2015-09-05,Merged,1773,2,2,,0
+Add super() call before using this in auth-flow example,2015-09-05,Closed,1768,2,0,,1
+Fix typos,2015-09-05,Closed,1761,2,2,,1
+fix typos in docs,2015-09-08,Closed,1745,"5,943","1,277",,0
+Add innerComponent ref to return value of Router,2015-08-23,Closed,1744,1,1,,1
+Add support for redirects in plain routes,2015-09-10,Closed,1736,34,4,,1
+"Modular API — separate history listening, route matching, and component rendering",2015-08-31,Closed,1728,727,248,,6
+Add test verifying multiple URL encoded characters are decoded successfully,2015-09-05,Merged,1727,10,0,,1
+Move react to dependencies,2015-08-17,Closed,1725,1,1,,1
+Separate router logic from rendering logic,2015-08-18,Closed,1724,391,262,,3
+Separate router logic from rendering logic,2015-08-17,Closed,1719,392,262,,3
+Correcting Optional Route Parameter Syntax,2015-09-11,Closed,1718,2,2,,0
+Fix typo in Route example,2015-09-11,Merged,1716,3,3,,3
+Pass state to getComponents,2015-09-11,Closed,1700,15,16,js ,11
+Fix broken link to API docs.,2015-08-26,Merged,1681,1,1,,0
+Fixed onEnter callback on JSX routes,2015-09-05,Closed,1680,3,2,,1
+1.0 TransitionHook docs describe wrong param for routerWillLeave,2015-09-11,Closed,1668,3,3,,0
+Fixing invalid EcmaScript 2015 code.,2015-08-10,Closed,1666,9,18,,2
+[fixed #1441] isActive false positive when URL not finished,2015-08-10,Closed,1651,19,8,,1
+Update link to new official repository for React-Router Bootstrap,2015-08-10,Merged,1650,1,1,,0
+[fixed]this is not allowed before super() - error when running examples- fixed,2015-08-10,Closed,1647,3,1,,1
+Fix missing history attribute on the client side.,2015-09-11,Closed,1641,1,1,,0
+Add recommended rules to eslint.,2015-09-11,Closed,1640,1,0,,1
+Remove obsolete examples,2015-08-10,Closed,1634,0,69,,0
+Fix typos in the readme example,2015-07-30,Merged,1633,1,1,,0
+Pass state to getComponents of Route,2015-08-11,Closed,1627,415,246,,0
+Update 0 Overview.md,2015-07-30,Merged,1620,1,1,,0
+add test demoing nested default route possible issues,2015-07-25,Closed,1602,96,3,,1
+Initial migration doc for 0.13 -> 1.0,2015-09-11,Closed,1601,137,0,,0
+[fixed] Update README to 0.13 syntax,2015-07-30,Closed,1590,41,45,,0
+avoid unnecessary work,2015-09-11,Closed,1582,5,0,,1
+Change query default to empty object,2015-08-10,Closed,1581,2,2,,2
+Fix typo in README example,2015-07-30,Closed,1576,1,1,,0
+fix: typo in DefaultRoute section,2015-07-16,Merged,1557,1,1,,1
+Fix typo,2015-07-16,Merged,1552,1,1,,0
+Trigger click if button argument is undefined,2015-09-11,Closed,1534,2,2,,2
+update to warning@^2.0.0,2015-07-16,Merged,1527,1,1,,1
+fix missing router error in Link,2015-08-10,Closed,1516,1,1,,1
+Link custom tag,2015-09-11,Closed,1507,3,1,,1
+[added] Make router run work client side when given history class instance,2015-09-11,Closed,1490,21,0,,1
+Specifically include this.props.children in App component in readme,2015-09-09,Closed,1482,11,1,,0
+Tiny typo fix,2015-07-13,Merged,1480,1,1,,0
+Correct spelling (its/it's) in Advanced Usage,2015-07-05,Closed,1478,3,3,,0
+"It's, its', its.",2015-07-10,Merged,1477,9,9,,0
+Show the stack trace of the original error intercepted during Transition.,2015-08-10,Closed,1471,2,2,,1
+Fixes false positives in Link isActive checks,2015-07-29,Closed,1465,104,11,,4
+Fix SSR when using BrowserHistory,2015-08-26,Closed,1463,72,109,,0
+Clean up docs (grammar and code style),2015-09-11,Closed,1462,64,19,js ,1
+there's a link down there in them thar hills,2015-06-30,Closed,1453,1,1,,0
+WIP: Path matching guide,2015-09-11,Closed,1451,46,0,,0
+[fixed] correctly updates the window scroll position,2015-06-30,Merged,1449,2,4,,2
+fix document error about how to call HashHistory,2015-06-30,Closed,1445,3,3,,0
+Fixed link to entry point an package.json,2015-06-29,Closed,1432,1,1,,1
+Fix typo,2015-06-29,Merged,1431,1,1,,0
+History singletons,2015-06-30,Merged,1429,44,45,js ,18
+DOCS: Declaring history outside of render,2015-06-27,Closed,1426,12,5,,0
+Removed parentheses after `new Hashhistory`,2015-06-26,Merged,1421,5,5,js ,2
+Added link to huge-app example,2015-06-30,Closed,1417,1,1,,0
+Removed reference to indexComponent in README.md,2015-06-27,Merged,1416,1,1,,0
+Docs: link for huge apps,2015-06-30,Merged,1404,1,1,,0
+"Move transitionTo, replaceWith to history",2015-06-24,Closed,1400,41,25,,3
+fixed typo.,2015-06-24,Closed,1395,1,1,,1
+Fixed unterminated JSX,2015-06-24,Closed,1394,2,2,,1
+Fixed typo,2015-06-23,Merged,1387,1,1,,0
+Fix Router.handleAbort call misspell,2015-06-24,Merged,1382,1,1,,1
+Fix errors in examples,2015-06-24,Merged,1381,2,3,,2
+Update 0 Overview.md,2015-06-24,Merged,1380,1,1,,0
+Update Histories,2015-07-16,Merged,1376,344,201,,4
+[fixed] examples/async-data,2015-06-24,Closed,1371,1,1,,1
+Update Histories,2015-06-20,Closed,1363,218,144,,4
+fixed dead links,2015-06-19,Merged,1359,3,3,,1
+Add tests for incorrect onEnter/onLeave Redirect behavior,2015-09-11,Closed,1356,43,0,,1
+Add failing test for <Link> on HashHistory,2015-06-19,Merged,1355,18,0,,1
+Evaluate if prevLocation is null,2015-06-19,Closed,1354,6,0,,1
+Docs: Add Link import to first example,2015-06-18,Merged,1349,1,1,,0
+Pass instance of HashHistory to Router,2015-06-18,Merged,1346,1,1,,1
+Some doc changes for server side rendering in 1.0.0-beta2,2015-06-18,Merged,1345,3,2,,0
+Use detachEvent in old IE,2015-06-18,Merged,1342,2,2,,2
+fix docs history={HashHistory},2015-06-18,Merged,1339,3,3,,0
+Add 'new' to HashHistory instantiation,2015-06-18,Closed,1338,2,3,,0
+Quick fix to Passing Props to Children example,2015-06-18,Merged,1336,1,1,,1
+update README example to match changes.,2015-06-17,Closed,1334,2,3,,0
+added failing test for TransitionHook on not selectively calling routerWillLeave,2015-09-11,Closed,1328,83,0,,1
+Remove access to router when it might not be there,2015-06-16,Closed,1324,5,5,,1
+[changed] Export history classes,2015-06-17,Merged,1323,14,14,js ,5
+remove babelrc from npm package,2015-06-17,Merged,1320,1,1,,1
+"If query is a string, parse it first.",2015-06-16,Closed,1312,7,3,,1
+Fixed incomplete edits,2015-06-18,Merged,1311,7,7,js ,2
+Remove Unwanted Brackets in line 17 and 18,2015-06-16,Merged,1307,2,2,,0
+Fix tiny spelling error in readme,2015-06-16,Merged,1306,1,1,,0
+Update Route.js,2015-06-15,Merged,1305,1,0,,1
+change to RootRoute.indexRoute,2015-06-15,Merged,1304,1,1,,1
+minor typo fix,2015-06-15,Merged,1297,1,2,,0
+Adding momentum scrolling for iOS on Main div in website,2015-06-14,Merged,1296,1,0,,1
+[fixed] Link module adds an extra space to className,2015-06-19,Merged,1295,46,2,,2
+childRoute -> childRoutes,2015-06-12,Merged,1294,1,1,,0
+fix overview guide link in README.md,2015-06-12,Merged,1293,1,1,,0
+Consistent usage of `Router`,2015-06-12,Merged,1292,1,1,,0
+Fix typo,2015-06-12,Closed,1289,1,1,,0
+Remove moot `version` property from bower.json,2015-06-12,Merged,1283,0,1,,1
+Fix a minor typo,2015-06-11,Closed,1282,1,1,,0
+Update Route.md,2015-06-12,Closed,1280,1,1,,0
+added transition state,2015-06-12,Closed,1273,88,35,js ,10
+[added] Router#transitionToMixin and Router#replaceWithMixin,2015-09-11,Closed,1270,263,0,,3
+Update TestLocation.js,2015-06-12,Closed,1268,3,0,,1
+Run path components through encode/decodeURIComponent,2015-06-19,Closed,1265,7,7,,3
+Make auth-flow example work again,2015-06-12,Closed,1263,18,21,,1
+Remove duplicate `query` section,2015-06-12,Closed,1261,2,6,,0
+fix camo's size in README.md,2015-06-12,Merged,1260,1,1,,0
+fix camo's size in README.md,2015-06-04,Closed,1259,1,1,,0
+[fixed] Support qs 3.x #1249,2015-08-10,Closed,1250,"2,557","2,482",,0
+"Allow ""null"" and ""undefined"" in routes",2015-06-02,Closed,1245,16,0,,2
+[added] decorators wrapping existing mixins #1173,2015-06-13,Closed,1243,71,0,,3
+Add missing font-family fallback for monospaced headers,2015-06-12,Merged,1240,1,1,,1
+Catch-up,2015-05-30,Closed,1239,76,36,,6
+Fix few typos in Link documentation,2015-05-27,Merged,1234,2,4,,0
+Add an example of animating both parent and nested routes,2015-09-11,Closed,1226,154,0,css js ,4
+Change react-router-bootstrap to its new location,2015-05-27,Merged,1224,1,1,,0
+Fix a typo in documentation,2015-05-27,Merged,1223,2,2,,0
+Fixes #1218 - font-family declaration misspelling,2015-05-27,Merged,1219,1,1,,1
+Update package.json for steal.js support,2015-09-11,Closed,1217,4,1,,1
+[1.0] Add ability to provide custom `render` methods on routes.,2015-05-24,Closed,1215,96,7,,2
+Set react to v0.14.0-alpha2,2015-06-12,Closed,1214,287,245,,0
+(WIP) Record and restore scroll positions,2015-05-27,Closed,1211,120,136,,12
+getDOMNode() has been deprecated. Use React.findDOMNode() instead.,2015-06-14,Merged,1208,3,3,,1
+Minor docs fix - update anchor for Transition,2015-06-12,Closed,1204,1,1,,0
+export PropTypes,2015-05-17,Merged,1198,3,0,,1
+Document Link param functionality,2015-05-17,Merged,1191,3,0,,0
+[fixed] added `path` prop to the `createChildRouteHandler` method in the `RouteHandler` component.,2015-06-12,Closed,1181,285,213,,0
+Update NotFoundRoute.md,2015-05-17,Merged,1179,1,1,,0
+"Fix css to signal that the component can be removed from the DOM, rem…",2015-06-12,Merged,1177,1,1,,1
+Typo fix,2015-05-09,Merged,1174,1,1,,0
+Fixed grammar,2015-05-09,Merged,1171,1,1,,1
+Fixed bad link,2015-05-09,Merged,1170,1,1,,0
+[fixes] Case where isActive threw an error on empty routes,2015-06-13,Closed,1169,10,1,,2
+Make PathUtils recognize query and splat values containing newlines,2015-06-19,Closed,1166,17,2,,2
+Add *Mixin alias to mixins,2015-05-09,Closed,1163,2,2,,1
+"Rewrite, version 1.0",2015-06-12,Merged,1158,"3,668","4,000",md ,1
+Update Router Overview.md,2015-06-12,Closed,1153,18,6,,0
+Avoid use of ES6 class getter to fix IE8,2015-05-17,Closed,1143,1,4,,1
+transition.notFound() feature,2015-05-17,Closed,1137,255,0,js ,4
+fixed the auth-flow example by inserting super() in the constructors and...,2015-06-12,Closed,1127,5,3,js ,1
+Support for plugins,2015-05-27,Closed,1122,78,10,,4
+Update overview.md,2015-05-17,Merged,1113,1,1,,0
+Fixing web pack warnings,2015-05-17,Closed,1108,2,0,,1
+Fix error in documentation example code,2015-06-12,Closed,1101,2,2,,0
+Fix typo in context wrapper,2015-04-17,Closed,1089,1,1,,1
+Fix typo in ContentWrapper.,2015-05-17,Closed,1086,1,1,,1
+updated readme for flux action creator workarounds,2015-05-27,Merged,1084,2,2,,0
+Avoid using getters as they can't be properly es5-shimmed for IE8,2015-05-14,Closed,1072,2,4,,1
+Add missing Redirect import.,2015-05-17,Merged,1071,1,0,,0
+add `routeDepth` into `stubRouterContext` method,2015-04-12,Merged,1068,6,2,,0
+Update License,2015-05-17,Merged,1049,1,1,,1
+Use CSSTransitionGroup from React.addons,2015-06-12,Closed,1043,2,2,,1
+[changed] Update overview.md,2015-05-27,Merged,1037,2,2,,0
+Dispatch even if path has not changed & normalize Locations,2015-06-20,Closed,1031,76,36,,6
+add method for checking if a route is the terminal active route,2015-06-13,Closed,1023,43,0,js ,2
+Router state getters (`router.getCurrent*`) expose internal state values to mutation,2015-06-12,Closed,1018,75,3,,2
+Fix links in docs/guides/overview.md,2015-03-26,Merged,1016,2,2,,0
+Make requireAuth more ES6ish.,2015-03-26,Merged,1015,6,11,,1
+[DOCS FIX] correct object type for childContextTypes on the testing guide,2015-05-27,Closed,1014,1,1,,0
+add example: autonav,2015-09-11,Closed,1013,95,0,html ,3
+Add a Gitter chat badge to README.md,2015-05-17,Closed,1009,3,1,,0
+"[fixed] ""Something is calling a React component directly"" warning",2015-05-27,Closed,1007,2,2,,2
+[added] Added support for Route meta data,2015-03-27,Closed,1002,15,3,,3
+DON'T MERGE: Router on props,2015-05-17,Closed,1000,5,3,,2
+- Removed tags caused by Git,2015-03-24,Closed,999,0,8,,0
+Remove diffs in docs and update contexts in examples,2015-03-24,Merged,998,15,23,js ,9
+Removing note on upcoming support for React 0.13. Current version 0.13.1 supports React 0.13,2015-03-23,Merged,990,0,8,,0
+"Improving doc. ContextType should be func, not object.",2015-03-23,Merged,987,3,5,,0
+Fix bad reference to Path,2015-03-24,Closed,985,1,1,,1
+Transition hooks error handling,2015-09-11,Closed,981,20,14,,1
+Update PathUtils.js,2015-03-24,Merged,980,2,2,,2
+[added] router.goBackOrTransitionTo(),2015-06-18,Closed,977,118,4,js ,2
+Correct method names in RouterContext docs,2015-03-21,Merged,976,6,6,,0
+[added] Router.runSync,2015-05-26,Closed,973,69,0,,3
+Feedback on how you will fetch data when URL path changes (using Contact example),2015-03-20,Closed,972,47,21,,2
+HashLocation should encodeURI in ensureSlash,2015-06-19,Closed,968,20,1,,2
+Cleanup CSS in Animation Example,2015-03-21,Merged,965,2,6,,1
+fix transition.redirect() with Router.HashLocation,2015-03-21,Merged,962,2,1,,1
+fixed the owner/parent warning issue,2015-03-21,Closed,959,11,3,,2
+fix Path.withQuery,2015-03-21,Closed,957,8,3,json ,3
+[fixed] Deprecation warnings in examples.,2015-03-21,Closed,956,18,18,,9
+Added TestLocation to the list of exports,2015-03-21,Merged,955,1,0,,1
+Fixes React Router with 0.13.0,2015-03-20,Closed,948,50,31,json ,9
+0.13 [fix] Broken transition tests,2015-03-11,Closed,945,4,4,,2
+0.13 [fix] Deprecation warning with contexts,2015-03-11,Closed,944,6,6,,2
+0.13 [change] Switch react classSet with classnames package,2015-03-11,Closed,943,4,2,json ,2
+0.13 support: [fix] Remove deprecation with Component.type,2015-03-11,Closed,942,6,6,,1
+Route params documentation,2015-03-21,Closed,941,21,0,,0
+fix missing/unclear example,2015-03-21,Merged,940,2,0,,0
+"Empty query string (""/?"") causes route match to fail",2015-03-21,Merged,937,10,1,,2
+small docs typo,2015-03-21,Merged,936,1,1,,0
+Minor fix in example: remove unused argument,2015-03-10,Merged,933,2,2,,1
+[fixed] broken async example,2015-03-21,Closed,932,1,1,,1
+Update flux guide to remove mixin-based example,2015-03-06,Closed,919,6,6,,0
+Fix breaking url on Location api doc,2015-03-06,Merged,917,1,1,,0
+Filtered routes by criteria,2015-03-21,Closed,915,175,2,js ,4
+Use `Router` instead of `this` now that autobinding is off,2015-03-20,Closed,909,27,27,,1
+Also support React 0.13.0-rc2,2015-03-04,Merged,906,2,2,,1
+Disambiguate gratitude toward ember,2015-03-13,Closed,898,1,1,,0
+Use build files for npm package,2015-03-01,Closed,893,545,482,,6
+"fixed animation example, use this.context",2015-03-21,Closed,891,6,6,,1
+clarify warning message,2015-03-25,Merged,889,1,1,,1
+Improve React 0.13 compatibility,2015-02-26,Merged,879,3,3,,2
+Let us try out react 0.13!,2015-02-26,Closed,877,1,1,,1
+Use query params instead of statics to communicate the next transition,2015-02-25,Merged,861,8,12,,1
+"Update doc for Navigation api , goback method. Following up on #408",2015-02-26,Merged,855,7,1,,0
+[added] router.runSync(path),2015-03-20,Closed,848,76,19,,2
+"Improved core primitives, programmatic configuration",2015-02-17,Merged,845,496,279,,2
+Session history tracking,2015-06-15,Closed,843,213,23,,6
+Bring back dist to NPM,2015-02-16,Closed,840,0,1,,1
+[fixed] allow a StaticLocation to be passed directly when creating a router,2015-02-14,Merged,836,4,3,,1
+[added] Link activeStyle property,2015-02-13,Merged,834,80,6,js ,2
+[fixed] routehandler nonchild error msg,2015-06-12,Closed,831,18,0,,2
+Fixes bug with goBack not returning a boolean.,2015-02-13,Closed,830,1,1,,1
+[fixed] Use more correct children invariant,2015-02-13,Merged,829,2,2,,1
+Support additional state that is not in the URL,2015-06-12,Closed,828,55,46,,10
+[fixed] Docs Update,2015-03-21,Merged,827,12,14,,0
+[changed] Change Navigation to return the result of goBack(),2015-02-13,Merged,825,1,1,,1
+"Remove info about ""transition.wait""",2015-02-11,Merged,819,0,4,,0
+[added] wraptag property for Link,2015-02-12,Closed,816,52,5,,2
+UMD Wrapper,2015-02-10,Merged,807,822,789,,0
+[fixed] Allow special characters in query,2015-02-17,Merged,805,5,1,,2
+nother tiny s/its/it's change,2015-02-09,Merged,802,2,2,,0
+tiny fixes for readme,2015-02-09,Merged,801,4,4,,0
+[added] I added the ability to define Routes in the static section of the handler,2015-06-15,Closed,798,36,1,,3
+Added documentation for skipping dynamic segment transition optimization,2015-02-09,Merged,796,27,1,,0
+added default handler to routes,2015-02-10,Closed,794,48,2,,2
+UMD Wrapper,2015-02-10,Closed,791,0,0,,0
+Add npm-debug.log to gitignore,2015-02-07,Merged,788,1,0,,1
+[fixed] Clean up mounted route component on unmount so we don't leak references,2015-02-10,Merged,783,4,0,,1
+[added] `replace` prop on `Link` component to use `replaceWith()` over `transitionTo()` navigation method,2015-02-06,Closed,780,55,3,js ,2
+"[fixed] Reset mountedComponents array when routing, to avoid leaking component references if the mount depth decreases.",2015-02-06,Closed,778,1,0,,1
+Fixed some grammatical errors,2015-02-05,Closed,777,2,2,,0
+Doc update Navigation example,2015-02-05,Merged,775,6,4,,0
+[fixed] Double slash in href when parent route has optional trailing sla...,2015-02-06,Merged,774,7,1,,2
+"Make link's ""to="" prop optional",2015-06-15,Closed,773,42,4,js ,2
+Test makePath with optional trailing slash (failing test),2015-02-06,Closed,771,1,1,,1
+Add another workaround for Flux circular deps issue,2015-02-04,Merged,769,62,1,,0
+change way of composing for readability and maintenance,2015-02-04,Merged,766,5,2,,0
+Added componentDidMount for clarity,2015-02-02,Merged,756,1,2,,0
+Fixing doc erroneous line typo,2015-02-02,Merged,754,0,1,,0
+Added componentDid(Un)Mount for clarity,2015-02-01,Closed,749,1,2,,0
+Resolve routes docs,2015-02-02,Closed,746,24,14,,0
+[added] node_modules to gitignore,2015-02-02,Merged,733,1,0,,1
+Update overview.md,2015-01-26,Merged,728,1,1,,0
+Fix examples to reflect index move to modules,2015-01-25,Merged,723,1,1,,1
+Option to not use array indices in query string,2015-01-25,Closed,721,26,5,,2
+Add missing dependencies in docs/overview.md.,2015-01-24,Merged,718,2,1,,0
+[fixed] Ignore falsy routes,2015-01-20,Merged,712,16,2,,2
+explicit source of variables in overview.md,2015-01-20,Merged,711,3,0,,0
+[changed] Don't restore scroll position on Forward,2015-01-26,Merged,708,1,1,,1
+Fixed typo in server rendering example,2015-01-24,Merged,706,1,1,,0
+Capitalize `node.buffer`-option,2015-01-24,Merged,704,1,1,,1
+"Revert ""[fixed] Path.withQuery strips query if query is empty""",2015-01-16,Merged,694,1,5,,2
+Add testlocation to exported API,2015-01-24,Closed,686,1,0,,1
+Update overview.md,2015-01-15,Merged,680,1,1,,0
+Ignore stale transitions,2015-01-09,Merged,667,121,3,,2
+Fix server side error in supportsHistory(),2015-01-05,Closed,662,4,0,,1
+Replace when.js with promises in example app,2015-01-16,Merged,661,7,7,,1
+[added] router.replaceRoutes(children),2015-01-15,Merged,658,29,9,,1
+Add documentation for <Route ignoreScrollBehavior>,2015-01-07,Merged,657,8,0,,0
+"Remove transition.wait, use callbacks instead",2014-12-31,Merged,654,65,102,js json ,7
+Added a note about the library being available on the CDN,2014-12-29,Merged,649,2,0,,0
+Documentation typo,2014-12-28,Merged,646,1,1,,0
+Doc fixes,2014-12-28,Merged,645,5,2,,0
+Renamed script to scripts,2014-12-24,Closed,641,1,1,,0
+Adds node_modules to .gitignore,2014-12-23,Closed,640,1,0,,1
+Try to use replaceState to verify history API.,2015-06-15,Closed,635,9,1,,1
+failing test for willTransitionFrom,2015-01-16,Merged,632,68,1,,2
+Correct typographical error,2014-12-20,Merged,630,1,1,,0
+Webpack everything,2014-12-19,Merged,626,"4,055","3,681",,0
+Promote envify to dependencies and add browserify transform config for it,2014-12-19,Closed,625,7,2,,1
+Examples: Minor code changes to address warnings.,2014-12-23,Merged,618,11,7,,3
+Get scroll pos in a more portable way.,2014-12-15,Closed,607,2,2,,1
+RFC: router.stop() and router.setOptions(),2014-12-29,Closed,606,113,27,,3
+Added a property 'hashbangEnabled' to enable the use of hashtag.,2014-12-13,Closed,602,11,7,,1
+[fixed] Path.withQuery strips query if query is empty,2015-01-16,Merged,599,5,1,,2
+Allow transition hooks access to a context object you can specify when you create the router.,2015-06-15,Closed,590,68,4,js ,4
+pass req.url instead of req.path,2014-12-11,Merged,588,2,2,,0
+[fixed] supportsHistory false negatives on WP 8.1,2014-12-15,Closed,587,3,1,,1
+Update Link.md,2014-12-11,Merged,568,1,1,,0
+Fix typo in RouteHandler.md,2014-12-15,Merged,566,1,1,,0
+Update homepage in package.json,2014-12-15,Closed,563,1,1,,1
+"`Messages` write to `Message`, will case an error",2014-12-04,Closed,560,6,6,,0
+Moving most of RouteHandler component to a RouteHandler mixin,2014-12-15,Closed,559,47,36,js ,3
+Allow stripping of error messages and warnings in production,2015-01-09,Closed,556,43,43,,8
+[fixed] URL hash consistency across browsers,2014-12-02,Merged,555,49,2,,2
+Adding tests for context passing,2014-12-15,Closed,549,47,36,js ,3
+Make router work in strict mode.,2014-12-01,Merged,533,2,2,,1
+"Added state.action,  state.matches -> state.routes",2014-11-27,Merged,529,5,1,,0
+Record scroll position in dispatch to support alternative batch strategies,2014-11-26,Merged,524,30,19,,2
+Add ignoreScrollBehavior to new API,2014-11-26,Merged,522,218,112,,5
+Fix async-data example link,2014-11-26,Merged,520,1,1,,0
+Fix a broken link to example,2014-11-26,Closed,519,1,1,,0
+Fix history location double encode,2014-11-25,Closed,515,2,2,,1
+Update links in docs,2014-11-24,Merged,506,13,11,,0
+[fixed] Now execute willTransition* hooks even if only query part was changed,2014-12-15,Merged,499,50,1,,2
+Update overview.md,2014-11-22,Merged,497,1,0,,0
+[added] Fast touch clicks,2014-11-23,Closed,495,69,2,,2
+Minor typo: onError,2014-11-23,Closed,494,1,1,,0
+Fix typo in upgrade guide.,2014-11-22,Merged,493,1,1,,0
+[add] direct getters for getParams and getQuery,2014-11-22,Closed,489,16,6,,1
+[fixed] Don't record scroll position when replacing route,2014-11-26,Closed,481,7,4,,2
+[fixed] Abort pending transition if user navigates away,2014-11-27,Merged,480,585,8,,0
+[fixed] Fix transition.abort() by checking transition.isAborted,2014-11-23,Closed,478,3,1,,1
+[changed] Skip scroll update if only query has changed,2014-11-26,Closed,477,31,7,,2
+Fix trailing comma so react-router will work in terrible IE environments,2014-11-23,Closed,474,1,1,,1
+Fix route transition hooks not firing when used without JSX,2014-12-15,Closed,459,17,4,,1
+Wrap components in factories before calling them,2014-11-06,Closed,450,7,4,,4
+Use `react/lib/Object.assign` instead of `react/lib/merge` and `react/lib/copyProperties`,2014-10-31,Merged,444,13,13,,6
+Fixes #436,2014-10-30,Merged,438,2,2,,1
+React 0.12,2014-10-30,Closed,435,8,7,json ,3
+Support for React 0.12,2014-10-30,Closed,434,5,6,,2
+Update overview.md,2014-10-30,Closed,424,13,12,,0
+Update overview.md to use proper react syntax,2014-10-20,Closed,418,1,1,,0
+always recompute _currentPath when PathStore.setup is called,2014-11-23,Closed,414,20,6,,2
+Call updateScrollPosition for the first time as well,2014-10-13,Merged,398,7,3,,2
+[added] getAsyncProps for route handlers,2014-10-21,Closed,396,429,109,,4
+[fixed] Added support for building URLs with optional parameters,2014-10-13,Merged,395,68,7,,3
+use webpack-dev-server from node_modules not global,2014-10-12,Merged,390,1,1,,1
+Added NotFoundRoute to CommonJS Guide code snippet,2014-10-11,Merged,389,1,0,,0
+[added] <Route ignoreScrollBehavior /> to opt out of scroll behavior for itself and descendants,2014-10-15,Merged,388,108,5,,3
+Trigger state change using componentDidMount/Update instead of setState ...,2014-10-11,Merged,385,28,22,,1
+Fix redirect and fire onChange when rendering for the first time,2014-10-10,Merged,384,19,7,,2
+[added] ServerRendering.matchRoutes,2014-10-30,Closed,382,50,1,,2
+Cleaning out trailing whitespace,2014-10-30,Closed,376,7,7,js ,4
+[fixed] React dependency,2014-10-09,Closed,375,0,1,,1
+[added] <Routes handlerProps = {…} >,2014-10-16,Closed,374,60,3,,2
+Add package.json configuration for JSPM support,2014-10-09,Closed,373,7,1,,1
+Fix scrollBehavior='none' on path update,2014-10-08,Merged,370,9,3,,2
+WIP: add failing test for params with encoded chars,2015-02-24,Closed,367,9,0,,1
+[fixed] encoded ampersands in query params,2014-10-08,Merged,366,5,1,,2
+Removed trailing comma,2014-10-06,Merged,362,1,1,,1
+Remove unnecessary param in master-detail example,2014-10-06,Merged,356,1,1,,1
+Add test case for encoded ampersand in query,2014-10-07,Closed,355,4,0,,1
+Fix <Link> params in simple-master-detail example,2014-10-05,Merged,354,1,1,,1
+[added] RouteHandler `activeRoute`,2014-10-07,Closed,352,6,0,js ,1
+[added] RouteLookup::getActiveRoutes,2014-10-07,Closed,351,22,0,js ,2
+[fixed] transitioning to paths with .,2014-10-07,Merged,347,10,3,,2
+[fixed] Workaround render errors being swallowed by AsyncState,2014-10-06,Closed,345,6,3,,1
+[fixed] Corrected CONTRIBUTING.md by replacing 'script' path with 'scripts',2014-10-04,Merged,344,3,3,,0
+Fixed jsx syntax in documentation,2014-10-03,Closed,342,2,2,,0
+Update CONTRIBUTING.md,2014-10-05,Merged,341,3,3,,0
+Remove RouteStore,2014-10-04,Merged,335,"2,208","1,895",DS_Store ,6
+[added] ability to set params/query in Redirect,2014-10-08,Merged,333,84,3,js ,3
+Avoid dispatch in the middle of location action dispatch,2014-10-05,Closed,332,41,6,,1
+[added] onPathChange on <Routes> to watch path changes,2014-09-29,Closed,331,31,0,,2
+Remove remaining preserveScrollPosition definitions,2014-10-03,Merged,330,2,11,,2
+Add .DS_Store and node_modules to .gitignore,2014-10-05,Merged,328,0,0,,1
+"[changed] Remove preserveScrollPosition, add scrollStrategy",2014-09-29,Merged,326,315,136,js ,7
+RFC: Making *Locations full-fledged Action Creators,2014-09-28,Closed,325,118,125,,8
+added <ReplaceWith /> and <TransitionTo /> components,2014-10-05,Closed,322,82,0,,3
+fix path for scripts directory in README.md,2014-09-29,Merged,321,1,1,,0
+Routes now unregisters children in componentWillUnmount,2014-09-30,Closed,320,38,0,,3
+[fixed] Document the name prop passed to RouteHandlers,2014-10-03,Merged,315,4,0,,0
+Passes actual props to rendered Route.,2014-11-23,Closed,314,11,1,,1
+Add CommonJS Info to Overview,2014-10-05,Merged,303,12,0,,0
+"Allow any React component to act as a Link, not just <a>",2014-09-19,Closed,298,9,1,js ,1
+[added] failing unit test when using transitionTo with a dot in the path,2014-10-05,Closed,296,7,0,,1
+Allow Redirect to routes with params,2014-10-05,Closed,294,3,3,,1
+[fixed] Properly cast active params and query before comparing.,2014-09-17,Merged,293,7,7,,2
+[Added] Tests for optional dynamic segments,2014-09-29,Closed,290,26,0,,1
+[changed] Transition retry uses replaceWith instead of transitionTo,2014-09-18,Merged,287,2,2,,1
+Add note about unknown sideeffect,2014-09-16,Closed,284,1,1,,0
+Update app.js,2014-09-12,Merged,281,1,1,,1
+upgrade flux to version 2.0.1,2014-09-11,Merged,280,1,1,,1
+[fixed] syntax error in documentation overview,2014-09-13,Merged,272,2,2,,0
+[changed] #259 support dots in named params,2014-09-03,Merged,260,25,1,,2
+Remove ActiveStore,2014-09-02,Closed,258,236,208,,6
+Improve karma conf,2014-09-01,Merged,255,4,14,json ,2
+[fixed] Window scrolling,2014-08-29,Merged,249,162,80,json ,15
+Fix makePath crash due to variable mixup,2014-08-29,Closed,248,1,1,,1
+[changed] paths to inherit parents,2014-08-29,Closed,245,33,5,,5
+"Added OnClick to reserved link property, fixes #238",2014-08-28,Merged,239,1,0,,1
+[fixed] Using HashLocation without a preceeding /,2014-08-28,Merged,237,26,10,,1
+Add <NotFoundRoute>,2014-08-27,Closed,235,118,13,,5
+fix typo in docs about dymanic segments params,2014-08-26,Merged,232,1,1,,0
+[changed] `<Link/>`s to take params property,2014-08-26,Merged,231,68,32,js ,6
+[changed] handler keys to be optional,2014-08-26,Merged,229,114,22,js ,4
+Add missing package.json fields,2014-08-26,Merged,227,9,0,,1
+Allow infinite ActiveState change listeners.,2014-08-22,Closed,222,2,0,,1
+Support for ? in paths,2014-08-27,Closed,214,122,106,json ,4
+README: fixed library name,2014-08-18,Merged,213,2,2,,0
+Trivial missing comma in RouteStore,2014-08-18,Merged,212,1,1,,1
+[added] manually choose the key of a Handler,2014-08-14,Closed,203,7,2,,2
+Fixed minor typos on react-router / docs / guides / overview.md,2014-08-14,Closed,202,2,2,,0
+Fixed #193 by allowing nested arrays of routes,2014-08-14,Closed,201,14,1,,1
+[added] <DefaultRoute> component,2014-08-14,Merged,200,226,107,,8
+Minor typos,2014-08-09,Merged,185,3,4,,0
+Add name to redirect route,2014-08-08,Merged,182,1,0,,1
+[added] Router.renderRoutesToString,2014-10-10,Closed,181,429,12,js ,10
+[added] onClick handler to <Link />,2014-08-08,Merged,178,21,3,js ,1
+Merge props passed to Link #170,2014-08-07,Merged,175,12,1,js ,1
+[added] Link to react-router-bootstrap related module in readme,2014-08-07,Merged,174,2,2,,0
+[added] stopPropagation prop to <Link />,2014-08-07,Closed,173,13,1,js ,1
+[added] <Redirect/> component,2014-08-07,Merged,172,77,0,md ,4
+[added] pluggable history implementations,2014-08-13,Closed,169,317,139,,9
+Extracted LinkMixin from Link,2014-08-06,Closed,168,150,79,,4
+Changing function param doesn't do nothin,2014-08-04,Closed,165,2,2,,1
+[fixed] Navigation to root URL can fail,2014-08-04,Merged,163,27,3,,2
+[changed] handlers receive route name,2014-08-06,Merged,157,0,1,,1
+[changed] location of public modules,2014-08-06,Merged,156,46,33,md json script/build ,23
+"[added] onActiveStateChange, onCancelledTransition, onTransitionError Routes props",2014-08-14,Merged,152,212,101,,3
+Fix infinite loop in RouteStore.unregisterRoute method,2014-07-30,Closed,148,1,1,,1
+update examples to be easier to play with,2014-07-29,Merged,145,119,52,css js html ,26
+[docs] `routeName` or `routeNameOrPath` in Router interface?,2014-07-28,Merged,137,1,1,,0
+Fix ActiveState example in docs,2014-07-28,Merged,134,1,1,,0
+[added] preserveScrollPosition Route/Routes props,2014-08-07,Merged,129,38,4,js ,2
+Fixing error in updated example,2014-07-27,Merged,127,1,0,,0
+[changed] fallback to window.location for history,2014-07-27,Merged,126,27,2,,1
+[added] Router.AsyncState mixin,2014-07-27,Merged,125,187,0,,5
+[fixed] alt click on Link should count as modified,2014-07-27,Merged,124,2,2,,1
+eslint cleanup; trailing comma fix for IE,2014-07-25,Merged,122,23,5,js ,2
+Fix middle click on Links,2014-07-27,Closed,120,5,1,,1
+Separate <Routes> component from <Route> spec,2014-07-26,Closed,118,570,485,html ,10
+readme typo,2014-07-24,Merged,114,1,1,,0
+Add params prop to link component,2014-07-24,Closed,109,9,5,js ,1
+Add note about required version for the example,2014-07-23,Closed,106,3,1,,0
+Correct a copy/paste mistake in examples/auth-flow,2014-07-22,Merged,104,1,1,,1
+Improving tests for URLStore,2014-07-22,Merged,100,37,1,,1
+activeRoute actually needs to support multiple children.,2014-07-18,Merged,95,3,2,,1
+activeRoute needs to support multiple children and needs to always return a function.,2014-07-18,Closed,94,2,2,,1
+turn activeRoute into a function that returns null when no child routes are active,2014-07-18,Merged,93,4,4,,2
+[changed] README to make use of activeRoute clearer in JSX.,2014-07-18,Merged,92,10,9,,0
+indicate the default for `location`,2014-07-18,Merged,91,1,1,,0
+[changed] activeRoute can render with props and children.,2014-07-18,Merged,90,27,25,js ,11
+[fixed] checks for class instead of components,2014-07-14,Merged,81,2,2,,2
+Make history push idempotent,2014-07-27,Closed,79,5,0,,1
+Alternative to window.addEventListener for IE 8,2014-07-03,Merged,71,11,3,,1
+Support for IE8. Alternative to window.addEventListener and reload page after transitionTo,2014-07-02,Closed,69,6,1,,1
+Add router import to clarify where static methods are found in 0.2,2014-07-14,Merged,68,5,1,,0
+Add Constrainable mixin,2014-07-02,Closed,67,275,1,html ,6
+Update package.json,2014-07-01,Merged,64,5,2,,1
+Remove period from set of path splitting characters,2014-07-02,Closed,63,7,1,,2
+[fixed] injectParams invariant should not throw on values that coerce to false.,2014-06-28,Merged,55,5,1,,2
+Update active state when changing props,2014-06-28,Merged,54,8,0,,1
+Reserve className param,2014-06-27,Merged,53,1,0,,1
+Parameter constraints,2015-10-15,Closed,52,77,6,,3
+Set displayName for nicer debugging,2014-06-27,Merged,51,2,0,,2
+Explain how route nesting works with an example,2014-06-25,Merged,48,12,0,,0
+moved react to peer deps,2014-07-02,Merged,44,6,3,,1
+Use the bundle-loader to implement an AsyncReactComponent,2014-06-23,Merged,41,12,14,,3
+Route component,2014-06-24,Merged,40,"1,096","1,136",js ,3
+Usage fixes,2014-06-20,Merged,37,2,2,,0
+renderComponentToString(),2014-06-20,Closed,36,59,0,,2
+Update README.md,2014-06-19,Merged,32,1,1,,0
+Pass static props to top-level route,2014-06-18,Closed,29,26,5,,2
+Fix reference to uppercase files,2014-06-12,Merged,25,3,3,,1
+Include query string when retrieving window path,2014-06-11,Merged,23,1,1,,1
+README: change arg name of constructor signature,2014-06-08,Merged,19,2,2,,0
+Examples ReactRouter.replaceWith() causing error.,2014-06-05,Closed,14,3,3,,2
+Add initial docs,2014-05-28,Merged,12,75,2,,0
+Initial pass at data fetching,2014-06-20,Closed,11,95,1,html json ,3
+Support async code loading again,2014-05-27,Merged,10,29,18,html js json ,12
+Support webpack,2014-05-28,Closed,1,122,60,html json ,13

@@ -1,0 +1,1364 @@
+Revert a change in AgentPluginManger that started to fail at system level,2020-01-13,Merged,2727,56,22,cs ,2
+Fixed to specify bash instead of script,2020-01-13,Closed,2726,10,0,cmd ,2
+Fixing bug with GitHub OAuth tokens,2020-01-10,Merged,2722,11,2,,1
+Adding ContainerResource.MapDockerSocket,2020-01-10,Merged,2714,8,4,,2
+Fix some flaky environment tests,2020-01-08,Merged,2710,183,127,,4
+Minor tweaks to release and self update processes,2020-01-07,Merged,2709,9,7,sh ,2
+Fixed bug when attempting to checkout when running on a container,2020-01-06,Merged,2708,4,3,,1
+Updated self-update to remove symlinks even if they are marked read-only,2020-01-02,Merged,2703,2,2,,1
+Removed assertion causing issue described by FEEDBACKTICKET 1649233,2020-01-10,Merged,2702,17,24,,1
+Refactored to remove stringly-typed bindings from AgentPluginManager,2020-01-08,Merged,2701,128,207,,2
+Added unit tests for ServiceControlManager to attempt to root cause i…,2020-01-07,Merged,2700,103,6,,2
+Always checkout git repo by commit for a PR if SHA is present,2019-12-30,Merged,2699,7,2,,1
+Updated to honor http_proxy environment variable.,2020-01-08,Merged,2698,11,4,,1
+Updates to release process automation,2020-01-06,Merged,2696,65,20,,2
+Initial pass at getting code coverage flow working,2020-01-07,Merged,2692,430,157,cs runsettings ,8
+Fixing checkout displayname for deployment jobs,2019-12-18,Merged,2691,3,1,,1
+Fixing unfortunate collision of two distjoint PR merges,2019-12-18,Merged,2690,2,1,,1
+Users/jtpetty/cherry pick 2560 to m163,2019-12-18,Merged,2689,52,8,cs src/agentversion ,2
+Removed code related to local runner concept,2020-01-07,Merged,2687,28,"1,318",cs ,3
+Fixed to set detectedRHEL6 in all cases. Fixes #2678,2019-12-18,Merged,2685,1,1,,1
+Updated versions of node to pick up security fixes,2019-12-30,Merged,2684,2,2,,1
+Update to the release process.,2019-12-19,Merged,2682,80,24,src/agentversion sh ,2
+Ability for the agent to clone cross org Azure repos,2019-12-16,Merged,2676,27,30,,1
+Setting test summary as task variables instead of environment variables.,2019-12-13,Merged,2675,27,8,src/agentversion ,3
+Fixed multiple bugs caused by changes to support step targets #2646,2019-12-18,Merged,2673,154,48,json ,14
+Updated to clean up taskkey file at the end of the job,2019-12-13,Merged,2672,22,0,,1
+Fixing issue 2660,2019-12-12,Merged,2671,8,5,,3
+Updated ARM build timeout,2019-12-12,Merged,2670,1,0,,1
+remove two obsolete checks that block operation on Windows IoT Core,2019-12-13,Merged,2664,2,12,,2
+Enable using server workspaces for TFVC pipelines,2019-12-17,Merged,2663,25,2,,4
+Updated to use a different method to extract username given user id,2019-12-13,Merged,2662,1,1,,1
+Updated to add URI escaped versions of secrets to the secret masker,2019-12-13,Merged,2659,23,11,,1
+Updated to mingit version 2.24.0.2,2019-12-13,Merged,2657,3,2,,1
+Initial stab at generating some integration files we need to further …,2019-12-11,Merged,2656,118,6,ps1 sh js ,5
+Fix issue with downloading build artifacts from releases,2019-12-06,Merged,2654,14,12,,2
+Update to try and fix GetEnvironmentVariable() test flakiness,2019-12-06,Merged,2653,19,12,,1
+Set up 162 Release,2019-12-05,Merged,2652,21,13,src/agentversion ,1
+Guard against potential null object referenced by issue 11902 in task repo,2019-12-05,Merged,2651,1,0,,1
+Fix dotnet scripts.,2019-12-05,Merged,2650,16,15,cs ,2
+Fixed variable expansion for container targets #2646,2019-12-05,Merged,2649,72,58,ps1 sh ,4
+Improve error messages,2019-12-09,Merged,2647,21,12,sh json ,4
+Updated to not allow processing of worker commands embedded in git co…,2019-12-05,Merged,2645,147,38,ps1 sh ,7
+Adding command to publish test run summary to evidence store,2019-12-09,Merged,2644,359,21,,5
+Fix download fileshare artifacts,2019-12-04,Merged,2643,5,5,,3
+Add build number output variable,2019-12-05,Merged,2642,8,2,,1
+Read only variables,2019-12-17,Merged,2641,342,18,props ,4
+Update to guard against potential NPE,2019-12-04,Merged,2640,21,9,,3
+Load proxy bypass list during agent configuration,2019-12-02,Merged,2638,24,17,,1
+Do not sign debug builds,2019-12-04,Merged,2636,2,0,,1
+Fix string literal project name in the DPA V2 task,2019-12-02,Merged,2635,30,4,,1
+Cherry pick fix to 2.161.1,2019-11-27,Merged,2634,7,6,cs src/agentversion ,2
+A customer reported an issue of a NPE when initializing secret masker,2019-11-27,Merged,2633,1,1,,1
+Minor tweaks to update scripts to make things consistent,2019-12-05,Merged,2631,15,17,cs ,3
+Remove references to the commit message,2019-11-22,Merged,2627,3,5,,2
+Throw a nice error when we can't start the tar process,2019-11-22,Merged,2625,24,4,,2
+Fix publishing,2019-11-21,Merged,2624,5,4,,1
+React to nested artifacts,2019-11-21,Merged,2623,5,4,,1
+Update netcore package version,2019-11-21,Merged,2622,1,1,,1
+Allow signing to pass,2019-11-21,Merged,2621,1,1,template ,2
+Allow signing to pass,2019-11-21,Merged,2620,1,1,template ,2
+Release agent,2019-11-20,Merged,2618,13,18,src/agentversion ,1
+Use .NET Core 2.1.13,2019-12-09,Merged,2616,2,2,sh ,2
+Make running containers on Windows 1909 work,2019-11-26,Merged,2614,13,2,,2
+run as serviceaccount fix for environment vm scenario,2019-11-15,Merged,2607,2,2,,1
+Add a warning in the post job cache task when the fingerprint is different,2019-11-18,Merged,2606,10,1,,3
+Avoiding a null ref thrown by MakeRelative.,2019-11-14,Merged,2605,6,2,cs src/agentversion ,2
+Add support for step targets,2019-11-26,Merged,2604,339,55,,10
+Avoiding a null ref thrown by MakeRelative.,2019-11-14,Merged,2603,6,2,cs src/agentversion ,2
+Avoiding a null ref thrown by MakeRelative.,2019-11-14,Merged,2602,4,1,,1
+never report things called SYSTEM_ACCESSTOKEN as capabilities,2019-11-26,Merged,2601,5,0,,1
+"Revert ""Fully deprecate legacy powershell handler""",2019-11-14,Merged,2600,1,14,,3
+remove supposed future work,2019-11-14,Merged,2596,0,4,,0
+Fully deprecate legacy powershell handler,2019-11-13,Merged,2594,14,1,,3
+temporary redirect pages,2019-11-12,Merged,2592,9,0,,0
+Remove command Line in Telemetry,2019-11-12,Merged,2590,3,7,,2
+Added CommandRestrictionPolicy infrastructure,2019-11-13,Merged,2587,167,124,,6
+Remove some deprecated docs,2019-11-08,Merged,2585,8,166,,0
+Converted code coverage commands to new pattern,2019-11-07,Merged,2584,26,57,json ,12
+Added some debug logging for message to worker issues,2019-11-08,Merged,2583,16,7,,1
+First steps towards cross-platform build,2019-11-11,Merged,2581,410,572,,3
+Converted task command extension to new pattern,2019-11-07,Merged,2579,191,149,json ,15
+Minor spelling and grammar corrections,2019-11-07,Merged,2578,24,24,,2
+Updated to add a quote-trimmed version of a secret to the masker as well,2019-11-05,Merged,2577,12,1,,1
+Removed some dead code in prep for converting these command extensions,2019-11-05,Merged,2574,1,23,,2
+Converted plugin internal commands to use new pattern,2019-11-07,Merged,2573,16,25,json ,2
+Convert artifact command extension to new format,2019-11-05,Merged,2572,47,57,json ,10
+Optional task signature verification,2019-12-05,Merged,2571,380,39,ps1 ,7
+Convert build commands to new pattern,2019-11-07,Merged,2568,44,57,json ,12
+Converted TelemetryCommandExtension to new pattern,2019-11-04,Merged,2566,19,55,json ,13
+Fix the issue with parsing definition name,2019-11-04,Merged,2563,30,10,,2
+Small fixes to multi-repo checkout scenario,2019-11-04,Merged,2562,280,56,json ,3
+Updated mock ExecutionContext to output warnings to console,2019-11-04,Merged,2561,37,21,,2
+[PipelineArtifactPluginV2] Add support of minimumBuildStatus property,2019-11-05,Merged,2560,36,5,,1
+Prep work for Step Targets,2019-11-05,Merged,2559,194,188,,10
+Clean up of more garbage characters and removed some unneeded using statements,2019-10-31,Merged,2558,124,216,,3
+don't trigger PRs on doc-only changes,2019-10-30,Merged,2557,8,0,,1
+Remove #ifs from test code,2019-10-31,Merged,2556,161,161,,6
+Strip off :rw if user specifies that instead of :ro,2019-10-30,Merged,2554,36,18,,2
+Release 160,2019-10-29,Merged,2553,17,10,src/agentversion ,1
+Fixed to not error out on null source volume path,2019-10-29,Merged,2551,162,88,ps1 ,5
+Banish the #if,2019-10-30,Merged,2549,354,307,,8
+Users/tafadnav/agentc pdefaulttar,2019-12-02,Closed,2548,176,100,ps1 ,5
+Add an option to reduce checkout verbosity,2019-10-28,Merged,2547,49,12,json ,8
+zap gremlins,2019-10-26,Merged,2546,164,164,,44
+Refactoring and adjusting tracking configs for multi-repo,2019-10-31,Merged,2545,"1,358",619,,5
+test,2019-10-25,Closed,2544,24,0,,1
+Added required Microsoft header,2019-10-25,Merged,2543,"1,347",0,,57
+add note about security bugs,2019-10-24,Merged,2541,6,0,,0
+fix retrieval of ImageVersion environment variable,2019-10-24,Merged,2539,4,1,,1
+Make tarring default for Pipeline Caching and modifying Display to Info from Warning for Save Cache,2019-10-29,Merged,2535,3,3,,1
+Cleans up #ifs in Agent.Plugins,2019-10-22,Merged,2533,154,112,,5
+add a welcome banner at config time,2019-10-21,Merged,2531,18,0,,1
+First pass to refactor how task commands are specified [NEEDS MORE TESTING],2019-10-25,Merged,2530,199,72,json ,13
+Cleanup of Agent.Worker #ifs,2019-10-23,Merged,2529,334,284,,5
+Minor cleanup of some duplicate code,2019-10-21,Merged,2528,48,33,,4
+Fix null ref with new env var,2019-10-18,Merged,2526,1,2,,1
+Fix to remove hardcoded instanceId,2019-10-18,Merged,2524,1,1,,1
+Update outputvariable.md,2019-12-09,Closed,2522,1,1,,0
+[CP] Ignore fileshare artifacts in the DPA V1 task,2019-10-17,Merged,2520,0,11,,1
+[CP] Ignore fileshare artifacts in the DPA V1 task,2019-10-17,Closed,2519,0,11,,1
+Ignore fileshare artifacts in the DPA V1 task,2019-10-17,Merged,2518,0,11,,1
+Making 's' the root for multi-repo checkout,2019-10-21,Merged,2517,138,59,,5
+Updated to remove task level variables so that the previous tasks var…,2019-10-31,Merged,2516,305,222,,0
+"Typos, licensing for hosted images",2019-10-18,Merged,2515,3,3,,0
+Release m159.1,2019-10-16,Merged,2514,2,1,src/agentversion ,1
+Remove #ifs from Agent.Listener,2019-10-17,Merged,2511,251,214,,11
+Add retry for create artifact async function m159 cherry pick,2019-10-16,Merged,2509,49,30,,9
+Add retry for createArtifactAsyncFunction m158 redo,2019-10-11,Merged,2508,78,35,ps1 sh ,11
+Users/jahsu/add retry for create artifact async function m158 cherry pick,2019-10-16,Closed,2507,414,70,,7
+"Revert ""Update agentversion (#2505)""",2019-10-11,Merged,2506,1,2,src/agentversion ,1
+Update agentversion,2019-10-11,Merged,2505,2,1,src/agentversion ,1
+Users/vijayma/byos,2019-10-14,Merged,2504,52,82,png ,2
+Updated to better support running Linux Docker Containers on Mac OS X and Windows Hosts,2019-10-30,Merged,2502,466,237,,3
+Log when a process is exited abnormally,2019-10-16,Merged,2501,1,0,,1
+Release 159,2019-10-10,Merged,2498,11,6,src/agentversion ,1
+Add retry handler for the CreateArtifactAsync function,2019-10-11,Merged,2495,49,30,,9
+Use DirectorySeparatorChar in git path,2019-10-16,Merged,2492,22,22,,2
+RunningOn<OS> helpers,2019-10-10,Merged,2489,31,16,,11
+Remove #ifs from MS.VS.Services.Agent assembly,2019-10-10,Merged,2488,"1,365","1,302",,2
+Support for multi-repo scenarios,2019-10-16,Merged,2485,586,61,,5
+Random clean up,2019-10-08,Merged,2484,40,105,,21
+Update clientcert.md,2019-10-09,Merged,2483,1,1,,0
+remove OS #ifs from ProcessInvoker,2019-10-08,Merged,2482,391,331,cs ,5
+Update auth.md,2019-10-03,Merged,2481,30,18,,0
+Add a PlatformUtil for determining OS/arch at runtime,2019-10-03,Merged,2478,315,241,,7
+Moving ContainerInfo to Agent.Sdk,2019-10-21,Merged,2476,141,46,,15
+Adding Container structure test JSON output result reader for publishing the container structure test results,2019-10-09,Closed,2472,103,1,src/agentversion ,3
+Adding support to configure the VM against environment,2019-10-04,Merged,2471,496,16,,4
+Add a layer diagram,2019-09-25,Merged,2470,440,0,,0
+Updated to expose exception when getting env variable,2019-09-25,Merged,2468,1,0,,1
+vss-api-netcore version upgrade which contains the long path fix,2019-09-24,Merged,2467,1,1,,1
+Enable collection of code coverage,2019-09-25,Merged,2466,2,2,proj ,2
+Updated URLs to refer to current repo URL,2019-09-24,Merged,2465,37,37,,0
+Changing -1 to int.MaxValue to see if it fixes flaky test,2019-09-24,Merged,2464,5,1,,2
+Add more agent info to Initialize job logs,2019-09-30,Merged,2462,15,0,json ,3
+Updated the Add-DotNetFrameworkCapabilities to detect newer .NET Fram…,2019-09-24,Merged,2461,5,1,,1
+Display inner exception on Task Download,2019-09-17,Merged,2456,3,0,,1
+Fixing the tar download issue in Linux,2019-09-19,Merged,2452,55,53,ps1 sh ,3
+Updated to work on VSCode,2019-09-13,Merged,2451,1,0,,1
+Port of PR #2449 to 157,2019-10-09,Closed,2450,14,11,src/agentversion ,4
+Using TFS FeatureAvailabilityClient and error handling in results.publish command,2019-09-12,Merged,2449,13,10,,3
+Adding Container structure test JSON output result reader for publishing the container structure test results,2019-09-24,Merged,2447,102,0,,2
+add trace for enviornment vm configuration,2019-09-11,Merged,2444,23,14,json ,4
+Adding Telemetry for FileShare(UNC Path),2019-09-19,Merged,2442,369,45,,6
+Release for 2.158,2019-09-10,Merged,2440,5,8,src/agentversion ,1
+Added logging on associating a pipeline artifact,2019-10-09,Merged,2436,9,0,,2
+Update to investigate OS X error in CI,2019-09-12,Merged,2434,8,0,,1
+update environmetserver to use vm resource client api's,2019-09-10,Merged,2433,78,29,,5
+Consuming PublishTestResults library in TestResults Publish command,2019-10-03,Merged,2430,"1,357","1,014",,8
+Changing vss-api-netcore version to 0.5.131-private,2019-09-09,Merged,2428,9,11,cs ,9
+Fix missing job source for pipeline artifacts,2019-09-09,Merged,2427,22,2,,3
+Disable console writing in testing,2019-09-06,Merged,2426,4,2,sh ,3
+Adding check and show error message in on-prem scenario,2019-09-09,Merged,2425,15,1,json ,3
+handle pipeline artifact on-prem scenario,2019-09-05,Closed,2424,667,102,,7
+Updated for m157 release,2019-09-05,Merged,2423,9,7,src/agentversion ,1
+Users/jopetty/m157 release,2019-09-05,Closed,2422,29,14,cs json src/agentversion ,4
+[M156] Telemetry addition in PublishTestResults,2019-09-05,Merged,2419,74,12,,2
+Updated to support Xamarin detection with VS2019,2019-09-04,Merged,2418,19,13,,1
+Telemetry addition in PublishTestResults,2019-09-04,Merged,2414,74,12,,2
+Modifying the process working directory location for tarring.,2019-09-04,Merged,2411,75,31,,1
+Updated to include task version in message to download,2019-09-04,Merged,2409,12,12,json ,12
+Updated to print to console a message if an error was sent to trace log,2019-09-04,Merged,2408,20,7,json ,3
+Telemetry addition for PublishTestResults vso command,2019-08-30,Closed,2407,74,0,,2
+Adding UNC path feature to Pipeline Artifact Task + Adding DPA V2 task Telemetry,2019-09-05,Merged,2406,654,103,,7
+Adding DownloadFromWhichBuild information to DPA V1 and V2,2019-08-26,Merged,2405,7,1,,2
+Telemetry addition for PublishTestResults vso command,2019-08-26,Closed,2404,52,0,,1
+Creating a directory for download tar,2019-08-22,Merged,2401,3,0,,1
+future-proof AZP_CACHING_CONTENT_FORMAT,2019-10-15,Merged,2400,33,22,,4
+Updated to support windows-style paths for container volume mounting,2019-08-15,Merged,2391,34,15,,2
+"Revert ""Updated to support windows-style paths for container volume mounting""",2019-08-14,Closed,2389,41,75,,2
+Updated to support windows-style paths for container volume mounting,2019-08-13,Merged,2388,75,41,,2
+Add UNC (File Share) support in the Pipeline Artifact Tasks,2019-08-26,Closed,2385,387,106,cs ,10
+Output pipeline id,2019-08-27,Closed,2384,3,0,,1
+Fix Download Pipeline Artifact task not using the triggering build,2019-09-09,Merged,2381,80,48,,2
+Set RuntimeIdentifier in dev.sh,2019-10-09,Closed,2380,3,3,,1
+Adding some parameters in start monitor to be passed to process telemetry,2019-08-23,Merged,2377,20,6,,2
+Update list of supported Linux OSes from .NET Core's,2019-08-06,Merged,2376,7,5,,0
+Improve logging around cache key/fingerprint calculation,2019-08-16,Merged,2375,134,46,,3
+fix save cache condition,2019-09-24,Closed,2374,11,7,,2
+Using TCM TestResultsHttpClient in the agent command to publish test results.,2019-08-08,Merged,2371,32,3,,1
+Improving error message for non valid paths.,2019-08-06,Closed,2370,2,1,,1
+Adding tarring support for Pipeline Cache,2019-08-20,Merged,2369,348,46,Config cs ,9
+use right tf policy.dll path.,2019-07-29,Merged,2364,1,1,,1
+fix v1 compat,2019-07-26,Merged,2362,12,9,cs ,9
+use file.exists for old format,2019-07-25,Closed,2360,48,12,,4
+Use Azure Artifacts for nugetvssprivate,2019-07-24,Merged,2359,1,1,,1
+Pipeline Caching CacheBeta 1.0 agent changes,2019-07-25,Merged,2358,952,83,cs ,5
+Use ArtifactHttpClientFactory to generate dedupStoreClient that includes ArtifactHttpRetryHandler,2019-07-24,Merged,2357,18,18,,4
+Bumping vss-api-netcore version to 0.5.127-private for the DPAproxy fix,2019-07-19,Closed,2354,7,7,,7
+passthrough parameters to listener exe,2019-07-18,Merged,2353,6,3,,1
+Allow testing of pre-release agent zip in hosted pools,2019-07-16,Closed,2351,37,8,,2
+Getting the latest successful build instead of latest in DPA,2019-07-16,Merged,2350,4,4,,2
+Make it so tests are runnable from VS Code,2019-09-11,Merged,2348,90,355,csproj ,5
+Simplified Boolean Logic,2019-07-10,Closed,2344,1,1,,1
+Add fallback keys to caching,2019-07-23,Closed,2340,933,84,cs ,5
+Powershell Agent should subscribe to force completed events,2019-07-10,Closed,2339,12,1,,1
+Expand env of containers,2019-07-02,Merged,2335,23,0,,2
+Create package.sh,2019-10-09,Closed,2333,190,0,yml ,2
+Add retries for fetching github artifact details.,2019-06-26,Merged,2324,22,1,,1
+Changes to connect to process monitor endpoint even if socket adress …,2019-06-30,Closed,2323,2,2,,1
+Fix #2321: Fix attachment path.,2019-06-26,Closed,2322,2,0,,1
+Support combined Cache task,2019-07-03,Merged,2320,32,47,,5
+Changes to connect to process monitor endpoint even if socket adress for agent communication endpoint is not set,2019-06-25,Merged,2319,2,2,,1
+Report last time build/release directory times as UTC time,2019-06-30,Merged,2318,2,2,,2
+add binding redirect to vstshost in order to support newer version vstsom,2019-06-21,Merged,2317,1,1,,1
+use same version vstsom with vstshost.,2019-07-16,Merged,2314,30,12,sh cmd ,9
+Reading Environment variables and passing in RunContext,2019-06-20,Merged,2313,106,6,,6
+Adaptive delay during automatic update,2019-06-19,Merged,2312,31,14,,1
+Added lineNumber while appending timeline record feed,2019-06-18,Merged,2310,23,22,cs ,10
+Added lineNumber while appending timeline record feed,2019-06-18,Closed,2309,24,22,cs ,10
+Modifying SaveCache task to not upload files if the fingerprint exists.,2019-06-20,Merged,2308,18,0,,1
+Use default values in telemetry records if not available.,2019-06-15,Merged,2303,4,3,,1
+Recursively clean and reset git submodules,2019-06-17,Merged,2302,14,14,,4
+[Port to M153]: Convert loginserver url to lowercase for ACR,2019-06-14,Merged,2300,4,0,,1
+Convert loginserver url to lowercase for ACR,2019-06-14,Merged,2299,4,0,,1
+Warn user of buggy Git LFS version if installed,2019-06-14,Merged,2297,12,0,json ,2
+Update input names from build to pipeline,2019-06-13,Merged,2296,25,25,,1
+Agentdir fix permissions,2019-12-16,Closed,2294,5,0,,1
+Calculate artifact size for pipeline artifacts,2019-06-17,Merged,2289,9,12,cs ,9
+Increase and make configurable dedup parallelism,2019-06-12,Merged,2284,22,5,,3
+Fix shallow fetch by commit for two scenarios,2019-06-04,Merged,2283,118,59,ps1 ,2
+Update download path so that it's relative to workingDirectory for DPA V2 task,2019-06-08,Merged,2282,45,29,cs ,14
+speedup build process,2019-06-18,Merged,2281,25,10,proj ,2
+Improve rendering of notes,2019-05-29,Merged,2280,3,2,,0
+Create publish pipeline artifact v1 task in agent,2019-06-07,Merged,2279,100,1,json ,4
+add jobId as source for artifacts,2019-05-30,Merged,2278,21,13,,7
+relax constrain plugin task id/version has to match.,2019-05-27,Merged,2275,34,68,,8
+Capture telemetry from PA/PC tasks,2019-06-06,Merged,2274,332,144,cs ,14
+Fix multi-line env var logging in `containerHandlerInvoker`,2019-05-25,Merged,2273,1,1,,1
+Adding Pipeline Info In NoConfig runs,2019-06-14,Merged,2269,290,38,cs ,11
+Consider `svcNamePattern` when calculating final service name length,2019-05-22,Merged,2268,18,5,,2
+Limit calculated agent service name to 80 characters,2019-05-22,Merged,2266,17,0,,2
+Create registry sub key if not exists,2019-05-21,Merged,2265,26,4,,1
+1. Stop serializing 3 EstablishVssConnection calls to speed up time t…,2019-11-11,Merged,2264,15,6,,2
+Fix running as systemd service when agent name contains spaces,2019-05-25,Merged,2263,3,3,,1
+Update pipeline cache agent code which reflects on scoping logic,2019-05-24,Merged,2259,12,12,cs ,9
+Calculate artifact size for build (file container) artifacts,2019-05-29,Merged,2258,56,23,,3
+[do not merge] experiment: try .NET Core 3.0,2019-05-16,Closed,2255,8,8,sh ,8
+Users/savenkat/dock container m151,2019-05-22,Closed,2254,18,3,,1
+Adding URI scheme to loginServer,2019-05-17,Merged,2253,4,1,,1
+consume 0.5.114 vss-api-core,2019-05-16,Merged,2252,9,8,cs ,9
+Update pipeline cache agent code which reflects on scoping logic,2019-05-17,Closed,2251,12,12,cs ,9
+React to Git 2.20 fetch tag update behavior change,2019-05-14,Merged,2250,12,3,,1
+Adding support for ACR based dockerRegistry endpoint,2019-05-14,Merged,2247,15,3,,1
+Adding code for download pipeline artifact task version 1.1.2 and 1.1.3,2019-05-02,Merged,2239,14,0,,2
+Add code to support DownloadPipelineArtifact task version 1.1.3,2019-05-01,Merged,2238,7,0,,2
+Add code to support DownloadPipelineArtifact task version 1.1.3,2019-04-30,Closed,2237,679,666,,0
+Add code to support DownloadPipelineArtifact task version 1.1.3,2019-04-30,Merged,2236,8,1,,2
+Adding new class to Plugin manager,2019-04-30,Merged,2234,2,1,,1
+Creating class for download pipeline artifact task version 1_1_2,2019-04-30,Merged,2233,7,0,,2
+Releases/m150 hotfix to revert https://github.com/Microsoft/azure-pipelines-tasks/pull/10215/files,2019-04-29,Merged,2232,6,0,,1
+Update nuget package @Test Result Parser,2019-04-26,Merged,2230,2,2,,2
+Add PoolName to agent service name,2019-04-26,Merged,2229,16,13,,5
+Update Test result parser,2019-04-26,Closed,2227,3,3,,2
+Prefer logging HelpUrl property over HelpMarkDown,2019-04-26,Merged,2226,3,1,,2
+Update default artifact names,2019-05-25,Merged,2225,42,10,,2
+Fix Result publisher warning for empty results file.,2019-04-21,Merged,2222,51,36,json ,2
+use LogCallback instead of IAdalLogCallback.,2019-04-17,Merged,2219,23,32,cs ,2
+Changing vss-api-netcore version to 0.5.103-private (#2215),2019-04-15,Merged,2216,7,7,,7
+Changing vss-api-netcore version to 0.5.103-private,2019-04-15,Merged,2215,7,7,,7
+Implement shallow fetch by commit,2019-04-16,Merged,2211,100,10,,5
+Download Build Artifacts - FCS via Pipeline Artifacts,2019-05-15,Merged,2210,658,12,cs ,6
+Change variable downloadPath to targetPath - to match Task's json cha…,2019-04-11,Merged,2208,82,38,,4
+svcsystemd.md: fix spelling of 'systemd',2019-04-10,Merged,2206,4,4,,0
+Change variable downloadPath to targetPath - to match Task's json change,2019-04-10,Merged,2205,54,41,,4
+Turn the git maintenance error message into a warning,2019-04-05,Merged,2201,5,1,,1
+Fixed timeout issue for onprem where telemetry from test result parser was causing the build to wait,2019-04-09,Closed,2200,70,8,,2
+Prepend workaround to dotnet issue to ps setup script,2019-04-08,Merged,2197,1,1,,1
+Scrub PII data from the job request message in the diag log,2019-04-02,Merged,2196,154,1,,4
+[wip] problem matchers,2019-10-09,Closed,2195,"1,887",63,,1
+Spike on downloading FCS via the PA task.,2019-05-09,Closed,2193,135,4,,1
+Fixed multi pipeline artifact download.,2019-03-29,Merged,2192,44,43,,2
+Fixing issue with DownloadArtifact using project Id,2019-03-26,Merged,2188,33,2,,2
+Fix issue with jenkins download because of redirection.,2019-03-27,Merged,2186,2,2,,1
+Pipeline caching plugins,2019-04-17,Merged,2184,324,1,,7
+Retry agent update download on failure,2019-03-26,Merged,2183,85,18,,2
+using container job for ARM/Redhat6,2019-03-25,Merged,2182,178,4,images/arm/Dockerfile images/centos6/Dockerfile ,4
+Fix publishing results in Batch (#2151),2019-03-22,Merged,2181,162,2,,4
+Added agent version and repo name to telemetry,2019-03-22,Merged,2180,20,0,,2
+Validate minimum required docker version based on docker engine API version instead of docker version.,2019-03-18,Merged,2173,10,10,json ,3
+Validate minimum required docker version based on docker engine API version instead of docker version.,2019-03-18,Merged,2172,10,10,json ,3
+Add build number and definition to usage query in logs when throttled,2019-03-18,Merged,2170,20,4,json ,2
+Introducing Pipeline.Worspace variable as per the spec. The physical …,2019-03-26,Merged,2169,6,0,,2
+Connect to monitor on hosted pools,2019-03-25,Merged,2168,158,17,,8
+Consume MinGit 2.21,2019-03-15,Merged,2166,2,2,,1
+Validate minimum required docker version based on docker engine API version instead of docker version.,2019-03-18,Merged,2165,12,12,json ,3
+Enable AzureRM compatibility mode,2019-03-15,Merged,2162,1,0,,1
+add component detection for PRs,2019-03-25,Merged,2161,24,0,,3
+"[M149] Revert ""Bump up bundled node 6 version to 6.16.0 (#2111)""",2019-03-13,Merged,2159,1,1,,1
+Prepare 2.148.1 release,2019-03-13,Merged,2158,2,3,sh src/agentversion ,2
+"Revert ""Bump up bundled node 6 version to 6.16.0 (#2111)""",2019-03-13,Closed,2157,1,1,,1
+"Revert ""Bump up bundled node 6 version to 6.16.0 (#2111)""",2019-03-13,Merged,2156,1,1,,1
+allow submodules: false in checkout task.,2019-03-15,Merged,2153,9,1,,1
+Fix publishing results in Batch,2019-03-12,Merged,2151,162,2,,4
+Agent service rename,2019-03-08,Merged,2147,4,4,cs ,3
+Updated test result parser package with some minor changes,2019-03-08,Merged,2146,2,2,,2
+BugFix1467468 Failing PTR on failed tests does not work with multiple result files,2019-03-08,Merged,2144,53,2,,2
+Allow AgentService.js to run agent interactively,2019-03-09,Merged,2143,14,8,,1
+run docker without sudo,2019-03-09,Merged,2142,69,4,json ,2
+Auto Publish Test Files Plugin,2019-03-15,Merged,2141,"1,683",28,cs ,8
+grant directory permission to auto logon account.,2019-03-07,Merged,2139,88,65,,3
+add code sign validation step into release yaml.,2019-03-06,Merged,2136,26,2,,1
+always disable git prompt.,2019-03-05,Merged,2135,7,0,,1
+Allow user set repository relative local path,2019-03-05,Merged,2132,678,28,,6
+Configure oom_score_adj for linux platforms,2019-03-11,Merged,2131,293,7,cs ,3
+mark repository as ready after checkout ran.,2019-03-02,Closed,2130,231,10,,14
+fix error/warning issues count.,2019-02-28,Merged,2129,75,2,,2
+Update vsts api package,2019-03-05,Merged,2128,10,10,cs ,8
+Target branch for single agent flow in Vstest Task,2019-03-26,Merged,2126,30,1,,4
+Users/jahsu/multi download pipeline artifact v2,2019-03-11,Merged,2125,29,29,cs ,8
+Allow users to override artifacts directory,2019-02-25,Merged,2123,14,7,,2
+fix ResolvePathForStepHost,2019-02-28,Merged,2121,7,11,,2
+enable run once agent.,2019-02-28,Merged,2119,463,15,cmd sh ,6
+fix type error for the new netcore package,2019-03-05,Closed,2115,10,10,cs ,8
+dev.sh fixups,2019-02-19,Merged,2114,40,50,,2
+Added definition id to telemetry,2019-02-19,Merged,2113,5,0,,1
+add variables to env.sh for RedHat SCL git - fixes #1999,2019-02-19,Merged,2112,2,0,,1
+Bump up bundled node 6 version to 6.16.0,2019-02-16,Merged,2111,1,1,,1
+add note about keychain password,2019-02-15,Merged,2110,2,0,,1
+Fixed initialize happening twice for each parser,2019-02-15,Merged,2108,18,2,,3
+Consolidate agent version declarations into one place,2019-02-15,Merged,2107,42,41,cs src/agentversion sh ,22
+best effort on reset vssconnection.,2019-02-15,Merged,2105,60,14,,1
+Added a pre processor to the test result log plugin,2019-02-14,Merged,2104,167,5,,6
+merge checkout options,2019-02-15,Merged,2102,360,35,,2
+Telemetry for test result parser plugin,2019-02-13,Merged,2099,618,197,cs ,8
+Allow user set repository relative local path,2019-03-02,Closed,2095,364,1,,4
+process invoker close STDIN after finish redirect first line by default.,2019-02-11,Merged,2094,185,2,,5
+Add more logging to L0 test,2019-02-07,Closed,2093,10,0,,1
+Adding CTest XML Support in PublishTestResults,2019-02-08,Merged,2092,"1,034",0,,2
+added the 5 sec time out for http request,2019-02-07,Merged,2091,1,0,,1
+upload agent diag log as part of system.diagnostic=true.,2019-02-07,Merged,2089,53,1,,1
+Don't fail if chcp not found,2019-02-06,Merged,2087,26,19,,1
+Fixed empty lines not flowing to log plugins,2019-02-05,Merged,2083,53,7,,4
+Add support for recognizing env variables according to list of regex,2019-02-04,Closed,2081,13,0,,1
+altered updateRelease API with updateReleaseResource API in updateReleaseName command,2019-02-01,Merged,2078,15,10,cs json ,9
+Download pipeline artifact V1 and multi pipeline artifact download,2019-02-12,Closed,2077,412,31,,4
+altered updateRelease API with updateReleaseResource API in updateReeaseName command,2019-01-31,Closed,2074,15,10,cs json ,9
+Added multi download support to pipeline artifacts,2019-01-30,Merged,2072,175,80,,3
+Multi download for pipeline artifacts,2019-01-28,Closed,2071,413,31,,4
+add subscription id telemetry,2019-02-07,Merged,2070,34,0,,1
+fix null ref in process invoker.,2019-01-30,Merged,2069,11,4,,1
+Refresh VssConnection on request renew failure to avoid affinity with server.,2019-01-30,Merged,2067,573,141,,5
+Integrate Log Parser with master,2019-02-06,Merged,2066,"1,136",2,csproj cs ,9
+Redirecting CC data to TFS/TCM depending on FF,2019-01-25,Merged,2064,62,15,,6
+RHEL6 Agent support,2019-02-13,Merged,2063,204,39,md json csproj cs ,10
+Typo Fix,2019-01-18,Merged,2061,1,1,,0
+removed `which` as a dependency,2019-01-15,Merged,2055,3,3,,0
+Update Variables.cs,2019-01-14,Merged,2054,5,13,,1
+Elastic private agent pools,2019-10-09,Merged,2053,122,8,,0
+consume latest vss-api-core package.,2019-01-15,Merged,2050,14,14,,7
+name changes and grammar,2019-01-10,Merged,2044,12,12,,0
+Add TF_BUILD to container environment,2019-01-07,Merged,2040,1,0,,1
+adding pipeline.ResourcesDirectory variable,2019-01-24,Closed,2038,15,0,,4
+Respect Docker HEALTHCHECK(s) when starting sidecar containers,2019-01-07,Merged,2037,33,0,,1
+Changed file share mode for attachment upload,2019-01-03,Merged,2035,3,3,,1
+Fix DotnetsdkDownloadScriptL0 to point to official location,2019-01-02,Merged,2031,4,4,,1
+Use native chunker library when available,2019-01-15,Closed,2029,21,7,,7
+Renaming Az.Profile to Az.Accounts as a reaction to Az Module name ch…,2018-12-27,Merged,2028,5,5,,1
+Bug fix for junit xml by phpunit as no name in testsuite - Failed to publish results,2019-01-02,Merged,2025,37,1,,2
+Small typo,2018-12-19,Merged,2024,1,1,,1
+Don't change code page on Windows Server < 1709,2018-12-18,Merged,2022,15,6,,1
+Don't change code page on Windows Server < 1709,2018-12-18,Merged,2021,15,6,,1
+Retry incase of failures in git checkout,2018-12-17,Merged,2019,2,81,,4
+Fix naming for Azure Pipelines YAML files,2019-06-25,Closed,2017,0,0,,0
+Download Pipeline Artifact plugin V1,2019-01-23,Merged,2014,310,24,,5
+Inherit console handler in processHandler,2018-12-12,Merged,2012,2,0,,1
+make task failure non fatal when hierarchy limit reached port m144,2018-12-12,Merged,2009,112,8,json ,4
+Failing PublishTestResults task on failed test outcome,2018-12-11,Merged,2007,229,0,json ,3
+fix capability scan for VS2019.,2018-12-12,Merged,2005,96,17,psm1 sh ,7
+Add some L0 tests to exercise the Node Handler get folder name logic,2019-01-15,Merged,2001,198,8,,2
+make task failure non fatal when hierarchy limit reached.,2018-12-11,Merged,2000,112,8,json ,4
+Users/dakale/sidecar containers,2018-12-14,Merged,1998,611,183,cs ,6
+await on node.js execution,2018-11-29,Merged,1996,4,0,,1
+Agent log plugin,2019-01-22,Merged,1994,"1,746",243,md cs ,3
+Updating to the latest client dlls,2018-11-29,Merged,1992,7,7,,7
+Update installdependencies.sh,2018-11-28,Merged,1991,23,3,,1
+Implemented OAuth Access Token support,2019-10-16,Closed,1989,145,12,cs json ,11
+update design doc.,2018-11-29,Merged,1987,109,18,png xml ,2
+Populate AzurePS demand if Az module is installed on Agent machine,2018-11-27,Merged,1984,12,11,,1
+Grammar in warning for ##vso in a commit message,2018-11-25,Merged,1983,1,1,,1
+allow the container to bring its own Node.js,2018-11-21,Merged,1979,94,10,cs ,5
+Fix for Nested TestSuite in JunitResultReader,2018-11-28,Merged,1978,48,1,,2
+let container job handle prepend path correctly.,2018-11-29,Merged,1977,47,9,template ,3
+Removing a redundant comment which shows up in the logs for JUnit Parsing,2018-11-16,Merged,1976,0,1,,1
+Set code page to 65001 (UTF8),2018-12-06,Merged,1975,102,32,,11
+Add agent support for the Node v10 runtime,2018-11-28,Merged,1972,82,18,sh ,7
+Agent changes to use HTTP 1.1 on Linux and OSX,2018-11-20,Merged,1970,59,17,cs ,20
+alpine container support,2018-11-21,Closed,1968,81,10,cs ,5
+Change signing cert to be SHA256 only.,2018-11-09,Merged,1927,5,64,ps1 ,2
+add retry for task zip download.,2018-11-26,Merged,1926,239,64,json ,3
+Enable AAD device auth flow for configure agent.,2019-02-05,Merged,1924,158,1,json ,6
+Add Oauth2 for Github source provider,2018-11-08,Closed,1923,2,0,,1
+Merge from Microsoft:master,2018-11-06,Closed,1922,8,8,json ,3
+Feature/agent config for ui testing,2018-11-03,Closed,1920,"2,072",368,,3
+fix pinvoke for NtQueryInformationProcess (process env read).,2018-11-02,Merged,1919,104,6,cs ,5
+Azure DevOps Server 2019 RC2 localization.,2018-11-01,Merged,1918,971,820,,9
+release 2.142.0 agent.,2018-10-31,Merged,1917,20,10,csproj cs ,7
+"keep tracking created containers, best effort clean them up.",2018-11-21,Merged,1915,42,23,,2
+fix ##debug escaping issue for container.,2018-10-30,Merged,1908,2,2,template ,2
+Add component governance.,2019-03-06,Closed,1907,6,0,,1
+Removed the empty directory check for Publish Pipeline Artifact,2018-10-24,Merged,1905,0,5,,1
+fix null ref caused by build.syncsource=false.,2018-11-17,Merged,1904,8,1,json ,2
+"allow GIT_TRACE, use GIT_LFS_SKIP_SMUDGE.",2018-10-29,Merged,1901,46,52,,2
+ignore STDERR for docker CLI.,2018-10-29,Merged,1900,3,11,,1
+sign Dotnet.Glob.dll,2018-10-19,Merged,1899,2,0,,1
+show callstack only on system.debug=true.,2018-10-19,Merged,1896,2,1,,1
+use more unique container name.,2018-10-12,Merged,1888,1,2,,1
+Add a link to the Resource Utilization page whenever builds get throttled,2018-10-13,Merged,1886,30,6,json ,3
+Publish sub test result attachments.,2018-10-12,Merged,1883,177,36,,3
+Adding logic for handling an agent oauth token being revoked,2018-10-10,Merged,1881,142,125,cs ,9
+Allow run.sh to be run as root,2018-10-09,Merged,1878,1,1,,1
+Users/tihuang/teejavadoc,2018-10-08,Merged,1873,8,2,,0
+Add glob refs to agent,2018-10-05,Closed,1870,1,0,,1
+consume dotnet 2.1.5,2018-10-05,Merged,1868,1,1,,1
+Authenticode sign scripts packaged with agent.,2018-10-09,Merged,1866,110,2,proj ,2
+Handle empty LaunchAgents folder correctly on MacOS,2018-10-03,Merged,1864,1,1,,1
+"inherit system.culture in plugin.host, use UTF-8 as STDOUT encoding.",2018-10-05,Merged,1861,13,2,,2
+Replace VSTS with Azure Pipelines,2018-10-01,Merged,1860,1,1,,0
+Users/mats/arm64,2018-09-28,Closed,1859,17,6,,2
+add agent name to container displayname.,2018-10-01,Merged,1858,2,1,,1
+fix container image name when use private docker registry.,2018-10-02,Merged,1857,4,5,,2
+switched to `jobs` syntax for CI,2018-09-28,Merged,1856,30,30,,2
+handle ##vso[task.complete done=true;],2018-10-01,Merged,1853,48,9,,3
+Update docs to mention Win x86 and Linux ARM support,2018-09-27,Merged,1852,26,20,,0
+Replacing colon character from attachment file names,2018-09-27,Merged,1847,36,2,,2
+Set service name correctly when using Azure Pipelines urls,2018-09-26,Merged,1846,12,1,,1
+Add Dotnet Core capability detection,2019-10-16,Merged,1845,1,0,,1
+"consume dotnet core 2.1, add win-x86 and linux-arm agent.",2018-09-21,Merged,1844,760,211,,1
+Correct English grammar,2018-09-20,Merged,1835,27,27,,0
+Changing start and complete time according to sql time range,2018-09-20,Merged,1832,39,0,,2
+fix use docker image from ACR.,2018-09-20,Merged,1831,4,3,,1
+Throw appropriate exception in case Git or Git LFS could not be found,2019-10-16,Merged,1825,11,3,,1
+envosx: various Homebrew/macOS updates.,2018-09-12,Merged,1823,11,13,,0
+remove all the preview docs,2018-09-21,Merged,1822,5,"2,055",,0
+initial agent rebrand,2018-09-11,Merged,1821,9,9,,0
+Create new target for aka.ms/yamlauthz,2018-09-06,Merged,1810,17,0,,0
+fix null ref when building fork PR.,2018-09-05,Merged,1808,1,1,,1
+Fixing time span input to be valid values,2018-09-11,Merged,1801,33,2,,2
+"Add ***NO_CI***, [skip ci]"", and ""[ci skip]""",2018-08-27,Closed,1792,71,1,cs ,7
+agent JIT/CLR warmup.,2018-08-27,Merged,1790,49,0,,3
+Users/tihuang/linuxpreviewpool,2018-08-26,Merged,1788,2,2,,2
+update sdk install script.,2018-08-26,Merged,1787,22,5,sh ,2
+fix TFVC_BUILDAGENT_POLICYPATH not set in getsource plugins.,2018-08-26,Merged,1786,2,2,,1
+Users/tihuang/backto20,2018-08-26,Merged,1785,47,46,sh cs ,12
+Rename BuildDrop to PipelineArtifact (2/3),2018-09-06,Merged,1784,46,46,cs json ,12
+fix permission issue on launch agent.pluginhost,2018-08-26,Merged,1782,1,0,,1
+populate repository endpoint for legacy powershell handler.,2018-08-26,Merged,1780,98,8,,4
+add more perf counter.,2018-08-16,Merged,1769,14,5,,7
+Clarify that path filters are supported only for VSTS Git,2018-10-15,Closed,1765,1,1,,0
+Clarify Windows Server 2016 install prereqs,2018-08-13,Merged,1762,1,1,,0
+update dependency install script to handle ubuntu 1804 and fedora 27.,2018-08-10,Merged,1759,18,6,,1
+use UTF8 for sending STDIN to agent plugin host.,2018-08-10,Merged,1758,7,1,,2
+consume latest vss package.,2018-08-10,Merged,1756,7,7,,7
+add perf counter for each task.,2018-08-10,Merged,1755,12,0,,1
+delete unused code.,2018-08-10,Merged,1754,4,19,,3
+Add an example a customer asked about,2018-11-26,Closed,1753,11,1,,0
+Fixing invalid startdate for test run being sent from Publish test results task,2018-08-10,Merged,1752,52,5,,4
+consume latest vss-api package.,2018-08-08,Merged,1750,7,7,,7
+add 3 times retry to git fetch.,2018-08-08,Merged,1747,55,4,json ,4
+Users/tihuang/dockerimprove,2018-08-08,Merged,1745,74,5,,2
+Update envlinux.md,2018-08-01,Merged,1741,2,2,,0
+Fixing NullRefExceptions: Adding null propogation in TestRunPublisher.cs,2018-07-30,Merged,1736,3,3,,1
+support perf data collection inside agent/worker process.,2018-07-25,Merged,1731,55,0,,7
+fix git version requirment for VSTS build/release job.,2018-07-24,Merged,1725,144,40,,7
+fix download repository artifact in Release.,2018-07-21,Merged,1722,9,9,,6
+Adding capability to split the publish command resultsfile property using vertical bar(|) as separator,2018-10-16,Closed,1721,58,4,,2
+Rename account to organization,2018-07-25,Merged,1719,1,1,,1
+fix case sensitivity,2018-07-19,Merged,1716,3,3,,1
+Allow config.sh to run as root.,2018-07-27,Closed,1713,1,1,,1
+release 2.138.0 agent.,2018-07-18,Merged,1712,8,14,cs ,1
+Remove local run,2018-07-16,Merged,1706,0,34,json ,2
+handle variables and file path for container.,2018-07-18,Merged,1704,206,188,,10
+Linux ARM (Raspberry Pi) support,2018-10-08,Closed,1703,18,4,sh cs ,4
+git clean -ffdx instead of -fdx.,2018-07-18,Merged,1702,70,22,,4
+trx parsing for hierarchical results,2018-07-16,Merged,1697,753,86,,8
+Add a sentence to the intro; fix some grammar,2018-07-10,Merged,1694,11,11,,0
+using different auth type for github repository.,2018-07-10,Merged,1693,43,4,,3
+Split template docs,2018-07-10,Merged,1692,325,301,,0
+rename strategy to execution,2018-07-09,Merged,1690,8,6,,0
+fix repository endpoint lookup logic.,2018-07-09,Merged,1689,4,4,,3
+split phase strategy docs,2018-07-09,Merged,1688,20,11,,0
+job docs,2018-10-04,Closed,1685,180,196,,0
+Split phase docs,2018-07-09,Merged,1684,345,523,,0
+update yaml variables docs,2018-07-07,Merged,1679,147,99,,0
+Publish test results to VSTS CI,2018-07-06,Merged,1670,17,1,,2
+consume latest vss-api package,2018-07-06,Merged,1668,31,30,cs ,16
+remove command plugin for ##command.,2018-07-05,Merged,1667,1,7,,1
+consume dotnet core 2.1,2018-08-16,Merged,1663,46,47,sh cs ,12
+Users/mizho/dropplugins,2018-07-06,Merged,1654,284,153,,3
+skip task if system restrict secrets.,2018-06-29,Merged,1653,27,8,cs ,10
+print to the log output when a workspace mapping fails,2018-06-28,Merged,1652,31,8,json ,3
+update to use Hosted Ubuntu 1604 pool,2018-07-03,Merged,1650,4,4,,2
+Add assets.json to release assets,2018-06-28,Merged,1644,34,1,json ,2
+Update systemd.svc.sh.template,2018-06-28,Merged,1643,6,0,,1
+ignore STDERR from tf.exe when query workspaces.,2018-06-28,Merged,1642,2,1,,1
+more yaml docs to solve common friction; begin reorganization for sim…,2018-06-24,Merged,1640,440,425,,0
+Document that phase: is required under phases:,2018-06-24,Merged,1639,2,1,,0
+DateTime support in expressions,2019-10-09,Closed,1638,98,0,,0
+Using TestRunSystem while creating the TestRun,2018-06-28,Merged,1637,196,3,,3
+Update systemd.svc.sh.template,2018-06-21,Merged,1635,1,1,,1
+trace RequestId and PlanId for jobRequestMessage.,2018-06-19,Merged,1632,11,3,sh ,2
+Fix for zipslip vulnerability.,2018-06-18,Merged,1628,13,3,json ,2
+update message for handler not support.,2018-06-28,Merged,1626,7,2,json ,2
+start using repository resource.,2018-07-05,Merged,1623,515,439,,5
+Intellisence -> intellisense,2018-06-13,Merged,1621,1,1,,0
+docker requirement check,2018-06-12,Merged,1619,45,1,cs json ,3
+Users/tihuang/removedup,2018-06-12,Merged,1616,"2,016","3,330",cs ,12
+Reading NUnit attachments in Publish Test Result Task.,2018-06-06,Merged,1609,90,3,,1
+Udating RREADME to use new badge url format,2018-06-05,Merged,1608,3,3,,0
+consume latest version vss-api-netcore pkg.,2018-06-03,Merged,1598,11,11,,7
+bump git version to include security patch.,2018-06-09,Merged,1597,1,1,,1
+Update the vswhere search to locate partial installations of VS 15,2018-06-06,Closed,1596,4,4,,1
+Fixing test failures because of change in dotnet install scripts,2018-06-01,Merged,1595,14,0,sh ,2
+Shallow submodule fetch,2018-06-11,Merged,1594,18,10,,5
+Added additional outcome in the trx reader,2018-06-01,Merged,1588,8,4,sh ,3
+Reading owner attribute from junit xml And not using context owner as test case owner,2018-05-30,Merged,1587,47,1,,2
+consume latest version of TEE,2018-05-30,Merged,1586,1,1,,1
+Clarify 'displayName' vs. 'name' in docs,2018-06-28,Merged,1579,3,0,,0
+Handling duplicate attachments upload scenario while running using mu…,2018-05-30,Merged,1578,8,11,,1
+fix regression for tfvc gated check-in.,2018-05-22,Merged,1573,1,1,,1
+vNext agent requires an update of .NET Framework,2018-05-21,Merged,1570,2,0,,0
+fix task input path resolve cuased by extra java env.,2018-05-15,Merged,1561,24,7,,2
+Also populate java in case user only has jdk installed,2018-05-15,Merged,1560,4,0,,1
+Update dotnet-install.sh to fix build,2018-05-14,Merged,1558,6,7,,1
+read plugin handler from task.json,2018-05-04,Merged,1546,108,159,,5
+Added support for recursively checking out sub-modules for Git and GitHub artifacts.,2018-05-12,Merged,1544,16,4,,4
+use project name instead of GUID,2018-05-01,Merged,1539,3,3,,0
+out of proc agent system plugins,2018-05-04,Merged,1537,"8,347",28,cs ,4
+"consume latest vss-api package, update newtonsoft to 10.0.3.",2018-04-27,Merged,1535,92,18,cs ,10
+print to the log output when a workspace mapping fails,2018-06-28,Closed,1534,16,9,json ,2
+avoid exta rest call to TaskDefinition endpoint.,2018-04-27,Merged,1533,17,7,,2
+Update triggers for resource types,2019-10-09,Closed,1532,79,0,,0
+fix null ref in ContainerInfo constructor.,2018-04-25,Merged,1527,1,1,,1
+Conditional expression support in source clean parameter.,2018-06-24,Closed,1524,85,6,,4
+YAML - OAuth token usage: Give better example for backwards compatibility and do not encourage the usage of Write-Host,2018-06-24,Closed,1523,5,5,,0
+Add support for upload/download Drop artifact type to Artifact commands,2018-07-07,Closed,1519,161,5,cs json ,3
+Rename tfsgit -> git,2018-04-24,Merged,1517,4,4,,0
+Phase templates,2018-05-11,Merged,1516,44,1,,0
+Changing to allow root to run config.sh,2018-07-27,Merged,1514,1,1,,1
+log unhandled worker process exception back to server.,2018-04-17,Merged,1512,75,3,,2
+only validate mult-line value for secret variable.,2018-04-17,Merged,1511,24,18,,1
+remove shallow lock file,2018-04-16,Merged,1510,16,1,,1
+BugFix: Started displaying a warning when the envrionment variable value's size exceeds the maximum supported size of 32K characters.,2018-05-03,Merged,1508,18,3,json ,3
+handle RM/TFS AT/AT mismatch.,2018-04-13,Merged,1507,52,18,sh ,4
+adding system.tfsserverurl back.,2018-04-11,Merged,1499,9,3,,1
+Determine service type base on connectiondata,2018-04-06,Merged,1491,195,78,cs ,9
+console lines per record.,2018-04-06,Merged,1490,81,47,,3
+adding counter expressions spec,2018-12-19,Closed,1489,81,0,,0
+Fix YAML sample to use -equals,2018-04-03,Merged,1488,3,3,,0
+Users/tihuang/latestpackage,2018-04-02,Merged,1486,76,13,cs ,6
+added serviceEndpoint conversion in customArtifact,2018-04-02,Merged,1485,68,7,,1
+Users/pranpati/custom artifact se contract conversion,2018-04-02,Closed,1484,76,13,cs ,6
+replace jobname with jobdisplayname.,2018-04-02,Merged,1483,6,6,,3
+Fix error introduced in #1477,2018-03-28,Merged,1478,1,1,,1
+Resolves #1476 Delete .proxybypass file when uninstalling agent,2018-03-28,Merged,1477,7,0,,1
+Fixing Nunit3Result reader: added missing check to update platform only when there's valid build,2018-03-27,Merged,1473,36,2,,2
+use secret masker from WebApi.,2018-03-30,Merged,1470,59,679,,11
+General cleanup of the GitHub issue template,2018-03-20,Merged,1467,15,19,,0
+log expression info trace to job output.,2018-04-05,Merged,1463,98,"3,823",,8
+read additional environment variable from .env (Windows Agent Service),2018-03-23,Merged,1462,17,4,sh ,2
+set service to delayed auto start on Windows.,2018-03-23,Merged,1461,57,19,json ,2
+Users/pranpati/release artifact cleanup,2018-03-29,Merged,1460,377,31,,5
+Update 'target' to 'queue',2018-03-17,Merged,1456,3,3,,0
+Users/tihuang/latestwebapi,2018-03-15,Merged,1453,115,117,cs ,11
+Added missing resource strings,2018-03-14,Merged,1450,8,4,json ,2
+run git prune as part of repository mantainence job,2018-03-12,Merged,1447,17,0,,2
+throw error on multiline secret.,2018-03-12,Merged,1446,30,3,json ,2
+Added debugging log line,2018-03-08,Merged,1445,65,56,json ,2
+Users/tihuang/yamlcontainerv2,2018-03-22,Merged,1444,"1,484","1,111",cs ,9
+handback,2018-03-07,Merged,1443,96,97,,1
+pr triggers doc,2019-10-09,Closed,1442,44,3,,0
+yaml container doc (container per phase),2018-04-10,Closed,1438,98,0,,0
+yaml template docs,2018-04-10,Merged,1436,402,0,,0
+added support for update release name command,2018-03-13,Merged,1432,104,0,,4
+Publish artifacts syntax,2019-10-09,Closed,1431,44,0,,0
+YAML directory,2019-10-09,Closed,1430,67,0,,0
+Update scripts.,2018-02-23,Merged,1429,42,20,sh ,2
+Handback.,2018-02-23,Merged,1428,"2,199","2,052",,9
+yaml triggers doc,2018-02-23,Merged,1426,59,11,,0
+Override prefergitfrompath-Value by env-var,2018-03-16,Merged,1424,9,6,,2
+Fix process lookup ID to be a new guid,2018-02-09,Merged,1407,10,11,cs ,3
+Increasing github client timeout to 100 seconds,2018-02-08,Merged,1403,7,1,,1
+Typos fixed.,2018-02-08,Merged,1402,3,3,,0
+mysql capability added,2018-12-17,Closed,1401,38,0,ps1 ,2
+Users/tihuang/ymalcontainer [NOT READY],2018-04-02,Closed,1400,"1,408",650,cs ,18
+Feature/autologonconfigureunconfigure,2018-02-02,Closed,1394,"4,902","2,610",md csproj ,4
+Introducing stages and stage types to support CD,2019-10-09,Closed,1391,350,0,,0
+Switch verbiage from process to pipeline. Add link to variables doc,2018-01-29,Merged,1390,9,11,,0
+add log file line number to Issue data.,2018-01-30,Merged,1389,44,22,,3
+stop redirect TMP to agent.tempdirectory by default.,2018-01-29,Merged,1388,4,9,,1
+Ignore UnzuthorizedAccess exception in Which.,2018-06-28,Closed,1385,31,4,,1
+yaml container doc,2018-03-05,Closed,1384,127,0,,0
+yaml triggers doc,2019-10-09,Closed,1383,108,11,,0
+use SChannel for git during get source.,2018-01-23,Merged,1377,304,90,,6
+enable process clean by default,2018-01-23,Merged,1372,179,224,,6
+Fix spelling typos,2018-01-17,Merged,1371,4,4,,2
+document oauth token,2018-01-12,Merged,1367,25,4,,0
+Users/tihuang/skipcapabilities,2018-01-17,Merged,1366,25,12,,4
+skip most of the web console lines for last run.,2018-01-10,Merged,1364,11,0,,1
+Ordered test support in trx reader,2018-01-09,Merged,1362,70,10,,1
+Ordered test support in trx reader,2018-01-08,Merged,1361,70,10,,1
+'say' is a common alias for 'out-speech',2018-01-08,Closed,1360,14,14,,1
+fix cancellation race condition.,2018-01-23,Merged,1352,9,0,,1
+update agent auth doc.,2018-01-03,Merged,1351,15,11,md ps1 sh ,5
+extending url list for Hosted test environments,2018-01-02,Merged,1350,2,1,,1
+Fixed issue where autologon was not working with .\username,2017-12-22,Merged,1343,34,0,,2
+Update Xamarin.Android capability on macOS,2017-12-21,Merged,1342,3,1,,1
+update dotnet sdk install script.,2017-12-21,Merged,1340,50,26,ps1 sh ,3
+"Before printing the variables in the log, masking release requestefor…",2018-01-15,Closed,1339,29,11,,4
+consume latest vss-api,2017-12-21,Merged,1338,4,4,,4
+fix client cert in RM,2017-12-14,Merged,1331,8,15,,2
+Update yamlgettingstarted.md,2018-06-24,Merged,1329,2,2,,0
+Adding minor fix where any failure call to publish telemetry should be ignored,2017-12-12,Merged,1324,50,23,ps1 sh ,3
+Fix SqlPackage capability search,2017-12-14,Merged,1323,1,1,,1
+add fix for proxy within release,2017-12-14,Closed,1321,10,6,,2
+Publish results task optimization when merge test result is opted.,2019-10-10,Closed,1320,164,65,,3
+scope extraheader for git lfs to only the repo url,2017-12-05,Merged,1316,2,1,,1
+Phase context examples,2017-11-30,Merged,1312,101,30,,0
+Log pool name to diagnostic logs.,2019-04-13,Closed,1309,28,8,cs ,3
+fix compat issue for legacyPShost on yaml.,2017-11-27,Merged,1308,33,22,cs ,2
+Add $psversiontable output to Diagnostic Logs,2017-11-20,Merged,1296,40,6,,1
+bump git to 2.14.3,2017-11-14,Merged,1295,1,1,,1
+doc updates,2017-11-13,Merged,1293,31,18,,0
+process clean improve.,2017-11-14,Merged,1292,494,68,,7
+Fix artifacts to be downloaded by agent.,2017-11-13,Merged,1289,2,2,,1
+only hook up server certificate validator base on request. corefx wil…,2017-11-07,Merged,1285,3,22,,3
+enable batching while publishing test resuts from result files,2017-11-07,Merged,1283,40,24,,1
+Updated the help and command string for add deployment group tags,2017-11-07,Merged,1282,4,4,,1
+Update proxyconfig.md,2017-11-06,Merged,1280,1,1,,0
+use .credential_store file as backup for Windows Credential Store.,2017-11-05,Merged,1278,159,43,csproj ,3
+Update yamlgettingstarted-phases.md,2017-11-03,Merged,1277,49,1,,0
+update yaml docs,2017-11-02,Merged,1276,167,21,,0
+allow agent ignore any ssl error,2017-11-03,Merged,1274,119,28,cs ,11
+more small improvements.,2017-10-30,Merged,1272,11,5,cs ,7
+Fix download artifacts message,2017-11-01,Merged,1271,95,29,json ,2
+retries...,2018-01-23,Closed,1268,141,50,,5
+Add acceptUntrustedCerts processing to Lfs Fetch and Submodule Update,2017-10-25,Merged,1265,6,0,,1
+random backoff during GetMessage retry.,2017-10-26,Merged,1264,19,4,json ,2
+stop package back comapt node 5.,2017-10-24,Merged,1263,4,19,sh ,4
+Removing unused code coverage enable command,2017-10-24,Merged,1258,4,"5,215",,2
+Fixing handling of command failures,2017-10-23,Merged,1257,47,6,json ,4
+Support acceptUntrustedCerts option in the endpoint Data,2017-10-23,Merged,1256,12,0,,1
+"Revert ""Handling Command failures""",2017-10-20,Merged,1255,6,42,json ,4
+Xamarin 8 changed version file to version.txt,2017-10-20,Merged,1254,8,4,,1
+not require password for client certificate.,2017-10-18,Merged,1253,116,70,,4
+Handling Command failures,2017-10-20,Merged,1252,42,6,json ,4
+"Revert ""replace oauth endpoint url (#1133)""",2017-10-18,Merged,1250,4,42,,2
+git-repack on maintenance job,2017-10-20,Merged,1249,301,9,,5
+fix oauth url for On-Prem TFS.,2017-10-18,Merged,1248,16,30,,2
+make use of targets controller for deployment group agent,2017-10-20,Merged,1242,46,45,,4
+consume latest vss-api-package,2017-10-12,Merged,1241,6,6,cs ,5
+rebuild top-level tracking file on corruption.,2017-10-11,Merged,1239,21,2,,1
+Fix StandardErrorPath logging to stdout.log,2017-10-09,Merged,1233,2,2,,1
+Added support to configure the agent against deployment pool,2017-10-11,Merged,1230,171,33,json ,9
+changing strings for autologon related operations,2017-10-05,Merged,1226,3,3,,1
+Diagnostic Logs,2017-10-25,Merged,1224,355,31,cs ,11
+Fix typo,2017-09-27,Merged,1221,1,1,,0
+consume dotnet core 2.0,2017-10-25,Merged,1219,867,409,md csproj ,3
+Check path for maven capability,2017-09-22,Merged,1218,6,1,,1
+Minor fix. Moving the log to the correct place.,2017-09-20,Merged,1215,1,1,,2
+Changing console error attachment name as per requirement,2017-09-19,Merged,1214,1,1,,1
+Adding GitHub Enterprise as a source provider,2017-09-18,Merged,1212,18,45,,2
+Fix yes-no prompt for ja-JP,2017-09-20,Merged,1211,23,16,sh json ,3
+Users/dsinghal/bugfixes1,2017-09-20,Merged,1210,1,1,,1
+Users/ersciple/m124tf,2017-09-12,Merged,1205,3,3,sh ,2
+Adding support for logs for Nunit and Xunit. Removing spaces from console output file name.,2017-09-12,Merged,1202,77,3,,6
+vsts.me is a DevFabric domain,2017-09-08,Merged,1200,2,1,,2
+try apply proxy only when proxy configured.,2017-09-07,Merged,1199,51,51,,2
+Taking in CR comments in setendpoint command,2017-09-08,Merged,1198,7,2,,1
+BugFix 1024672: remove timeout on downloading of files.,2017-09-07,Merged,1197,1,12,json ,4
+Check for build tags case insensitively.,2017-09-06,Merged,1196,1,1,,1
+Users/tihuang/clientcertdoc,2017-09-06,Merged,1192,125,0,,0
+"Revert ""Correctly detect mono's MSBuild""",2017-09-05,Merged,1191,1,7,,1
+create keychain under agent root.,2017-09-05,Merged,1189,299,77,,0
+Enabling publishing of standard error for failed test results.,2017-09-07,Merged,1188,125,3,,5
+Add Service Fabric Capabilities,2017-12-07,Closed,1187,36,0,,1
+Updated ps to detect version 4.7 of .net,2017-10-01,Merged,1185,7,2,ps1 ,2
+string handback,2017-09-01,Merged,1184,"2,080","1,945",,9
+Update install scripts.,2017-09-05,Merged,1183,31,12,sh cs ,3
+Create setendpoint command,2017-09-01,Merged,1182,269,0,json ,3
+allow user inside container sudo without password.,2017-09-21,Merged,1181,117,12,json ,4
+Correctly detect mono's MSBuild,2017-09-05,Merged,1180,2,1,,1
+Correctly detect mono's MSBuild,2017-09-05,Merged,1179,7,1,,1
+Users/tihuang/cherrypicks,2017-08-31,Merged,1178,"1,960",860,sh json ,11
+proxy support in legacy PS handler,2017-08-31,Merged,1177,143,32,cs ps1 ,12
+Added Meteor PowerShell and Nix capability.,2017-10-20,Closed,1176,2,0,ps1 ,2
+Added Docker PowerShell and Nix capability.,2017-10-20,Merged,1175,2,0,ps1 ,2
+Fix minor grammar,2017-08-29,Merged,1171,3,3,,1
+Adding tests for AttachmentROOTfix,2017-08-28,Merged,1168,36,7,,2
+Fixing robocopy failure when  build contain '/' as prefix in artifact name,2017-08-28,Merged,1166,1,0,,1
+Add message that granting permissions takes time.,2017-08-25,Merged,1162,2,0,json ,2
+Set domain to current machine when not explicit.,2017-08-24,Merged,1161,1,0,,1
+Update envwin.md,2017-08-23,Closed,1160,2,0,,0
+Add unescaping of closing bracket.,2017-08-22,Merged,1157,6,5,,2
+Bugfix - removing the code to take backup of keys.,2017-09-05,Merged,1156,39,98,,3
+In Progress: Features/vsts pi,2019-10-09,Closed,1152,"6,050",5,json sh ,5
+Users/tihuang/fixtfslfs,2017-08-29,Merged,1151,179,62,,1
+small bug fix,2017-08-23,Merged,1150,27,29,,3
+Fixing initialization of the attachment root folder to pick from the TRX folder,2017-08-28,Merged,1149,14,2,,1
+Setting release work directory variable.,2017-08-21,Closed,1148,7,3,,2
+Users/stfrance/add cmake windows capability,2017-08-16,Merged,1147,3,2,,2
+Users/tihuang/clientcert,2017-10-03,Merged,1143,640,31,cs ,4
+2.120.2,2017-08-14,Merged,1139,1,1,,1
+Bump git version,2017-08-14,Merged,1138,1,1,,1
+Users/ersciple/m122git,2017-08-14,Closed,1137,"1,959",859,json ,10
+Update Xamarin capability provider to work with VS 2017,2017-08-23,Merged,1135,16,1,,1
+replace oauth endpoint url,2017-08-23,Merged,1133,42,4,,2
+Users/stfrance/add containerfetch timeout envvar,2017-10-03,Closed,1132,14,2,json ,3
+combine target and execution,2017-08-11,Merged,1131,626,303,cs ,7
+Add quotes to agent service install path.,2017-08-10,Merged,1130,1,1,,1
+Update windows tracing documentation,2017-08-23,Closed,1129,23,9,,0
+Fix checking TCM File size limit,2017-08-10,Merged,1128,21,13,json ,2
+fix bug validating max parameter threshold,2017-08-09,Merged,1126,67,10,,3
+BugFix 1048014: Ensured build belongs to linked BD,2017-08-09,Merged,1123,54,7,json ,3
+Users/ersciple/m121res,2017-08-10,Merged,1121,"4,038","2,740",,0
+Test output redirect,2017-08-09,Merged,1118,83,75,cs ,15
+m121 vstsom,2017-08-03,Merged,1116,2,2,,1
+make troubleshooting debug value more clear,2017-08-03,Merged,1114,2,2,,0
+Update projects to build for Linux ARM w/ .NET 2.0,2017-08-03,Merged,1113,158,10,vsts-agent-base-armv7hf agent-armv7hf csproj cs ,7
+Fix prepend path issue,2017-08-02,Merged,1112,3,1,,1
+Users/tihuang/proxyargs,2017-08-05,Merged,1111,801,35,,2
+Prevent credentials caching on the agent's machine,2017-08-02,Closed,1110,1,0,,1
+Do not cache SVN credentials on agent machine,2017-08-02,Merged,1109,2,1,,1
+Add buildtest to bash.,2017-08-02,Merged,1107,1,0,,1
+User correct class name for tracing in ServiceIdentityCredential.cs.,2017-08-02,Merged,1106,2,2,,1
+subcommands,2017-08-07,Merged,1105,672,427,,2
+Rename ManualInteractive to Manual,2017-07-31,Merged,1104,6,6,,3
+Added capability to detect the sql package in VS 17,2017-07-31,Merged,1098,59,26,,1
+chore: cleanup ISSUE_TEMPLATE Markdown,2017-07-25,Merged,1096,11,11,,0
+Users/lukillgo/savestate,2017-07-25,Closed,1095,196,18,,6
+Pass wildcard itemspec to scorch to handle builds without a root mapping,2019-10-09,Closed,1092,3,9,,1
+command line consistency,2017-07-28,Merged,1086,22,22,json ,5
+"Revert ""Result code to be used for task failures to diagnose using er…",2017-07-20,Merged,1085,3,9,,2
+run git submodule sync before submodule update,2017-07-21,Merged,1084,32,6,,4
+local run source provider,2017-07-19,Merged,1083,206,32,sh ,4
+create user account with a duplicate UID,2017-07-20,Merged,1082,2,2,,1
+enable auto logon as config option.,2017-07-18,Merged,1081,6,9,,2
+Users/tihuang/proxydoc,2017-07-20,Merged,1080,36,0,,0
+Script tasks tweaks,2017-07-18,Merged,1079,4,2,cs ,1
+Validate task ref format in yaml parser,2017-07-13,Merged,1077,15,9,,1
+Fixing typo in log message,2017-07-13,Merged,1075,2,2,,1
+Detect Xamarin Android in VS 2017,2017-08-23,Closed,1074,19,1,,1
+not respect cancellation token for testing task endpoint.,2017-07-18,Merged,1072,11,11,,2
+Users/ersciple/m120cleanup,2017-07-11,Merged,1071,5,5,cmd ,2
+yaml docs,2017-07-10,Merged,1070,423,38,md ,1
+agent.os,2017-07-11,Merged,1069,46,19,cmd sh ,8
+doc: fix markdown headers in proxyconfig,2017-07-10,Merged,1068,2,2,,0
+YAML,2017-07-07,Merged,1066,"6,218",22,yaml ,3
+add .proxybypass file to support bypass proxy.,2017-07-11,Merged,1065,88,9,,9
+adding help text for autologon option.,2017-07-18,Merged,1063,84,70,json ,6
+Fixing JenkinsArtifact download. Using artifact url to check if build…,2017-07-10,Closed,1062,1,1,,1
+VSS API,2017-07-06,Merged,1060,5,5,cs ,5
+reduce the frequency for publish web console line.,2017-07-11,Merged,1059,17,2,,1
+polish auto logon around loc string and agent startup type.,2017-07-07,Merged,1057,58,51,,7
+Bump client om version,2017-07-06,Merged,1056,13,7,sh json ,3
+make use of UpdateDeploymentMachines instead of UpdateDeploymentMachi…,2017-07-06,Merged,1055,25,29,,3
+enaure scheme://host:port follow what user typed.,2017-07-07,Merged,1052,10,24,,2
+bump agent version for tfs2017u2RTM.,2017-06-29,Merged,1051,186,100,ps1 ,2
+doc for task author to use output variable feature.,2017-06-28,Merged,1047,80,6,sh ,1
+download rollback jenkins commits,2017-06-30,Merged,1042,8,8,json ,3
+temp,2017-06-28,Closed,1041,1,1,,0
+allow associate arbitrary artifact to build.,2017-06-27,Merged,1040,19,18,json ,2
+ensure not fetch submodule on git fetch.,2017-06-27,Merged,1039,5,5,,1
+use last modify time instead of file creation time to validate upgrad…,2017-06-29,Merged,1036,6,5,,1
+Date parsing should assume UTC date time style,2017-09-14,Merged,1035,25,22,,5
+fix typo in class name.,2017-06-23,Merged,1034,24,33,,6
+doc for run task in docker,2017-06-28,Merged,1033,78,0,,0
+change the way we crash AgentService.exe,2017-06-29,Closed,1032,4,12,,1
+mount parent folder of system.defaultworkingdirectory.,2017-06-22,Merged,1031,2,2,,2
+Result code to be used for task failures to diagnose using error codes,2017-06-22,Merged,1028,9,3,,2
+remove variable with empty name.,2017-06-22,Merged,1027,33,3,,2
+Only add referenced secure files,2017-06-20,Merged,1026,81,32,,6
+log issue on agent shutdown and os shutdown,2017-06-21,Merged,1025,263,150,,5
+ignore GIT_TRACE during get source,2017-06-20,Merged,1024,74,23,ps1 sh ,3
+Add task environment,2017-07-06,Merged,1023,31,5,,4
+Adding few more exception types as user failure during downloading artifacts,2017-06-22,Merged,1022,77,66,json ,5
+skip docker check.,2017-06-15,Merged,1021,3,2,,2
+increase agent worker ipc timeout by env.,2017-06-15,Merged,1020,13,3,,1
+Fixed failing Jenkins test,2017-06-16,Merged,1019,42,42,,1
+ensure release.ArtifactsWorkingFolder existing.,2017-06-13,Merged,1018,10,3,ps1 sh ,3
+Robocopy based download related fixes,2017-06-14,Closed,1017,1,1,,1
+Robocopy based download related fixes,2017-06-13,Closed,1016,1,1,,1
+Fix for robocopy based download in RM,2017-06-14,Closed,1015,1,1,,1
+find 15.2 VS,2017-06-13,Merged,1014,5,8,,1
+Fixed ReleaseJobExtension compilation,2017-06-13,Merged,1013,4,2,,1
+Adding telemetry command extension to Agent,2017-06-19,Merged,1012,351,1,json ,6
+Forming commits url if its git repo for Jenkins commits,2017-06-14,Merged,1011,122,8,,2
+consume latest vss-api-package.,2017-06-13,Merged,1009,15,13,cs ,11
+Fixing robocopy based download for scenario where build definition  name contains space,2017-06-14,Merged,1008,1,1,,1
+Downloading Jenkins commits when the job runs and uploading to RM ser…,2017-06-08,Merged,1006,650,84,,4
+run task in docker container,2017-06-14,Merged,1005,593,89,,2
+Tasks should not get all endpoints,2017-06-05,Merged,1004,69,5,,5
+do not fallback to WindowsCredential when use FederatedCredential,2017-06-02,Merged,1002,112,73,ps1 sh ,4
+Added config help for Deployment Group,2017-06-01,Merged,1000,24,11,,1
+Loc handback,2017-05-30,Merged,999,"1,065",694,,9
+Agent upgrade issue - The time taken by upgrade logic to execute,2017-06-26,Closed,998,2,2,,1
+Enabling PublishBuildArtifact task in RM file share scenerio,2017-05-30,Merged,997,189,105,ps1 ,2
+VS build tools,2017-05-30,Merged,994,23,1,,1
+fix vsts-task-lib,2017-05-30,Merged,993,89,1,,1
+Enabling PublishBuildArtifact task in RM file share scenerio,2017-05-26,Merged,992,13,1,json ,2
+Users/sunkum/EnablingPublishBATaskInRM,2017-05-25,Closed,991,110,2,json ,4
+Specified which Java installation to use,2018-10-08,Closed,989,1,1,,0
+Removing locks and minor refactoring,2017-05-24,Merged,988,93,112,json ,4
+Users/sunkum/RmRobocopyBasedDownload,2017-05-23,Merged,986,97,1,json ,3
+Feature/autologonconfigureunconfigure,2017-07-05,Merged,985,"1,675",99,,4
+listen on VSS-HTTP trace event.,2017-05-23,Merged,982,85,2,,1
+update agent to m117 version of vss-api-netcore,2017-05-23,Merged,981,7,5,cs ,7
+Users/dsinghal/update,2017-07-07,Closed,980,63,8,json template ,6
+Interactive session capability,2017-07-07,Closed,978,"2,072",368,,3
+Minor bug fixes,2017-05-18,Merged,977,40,35,json ,4
+remove extra hostcontext.dispose(),2017-05-18,Merged,974,19,11,ps1 ,2
+get lfs log on lfs fetch failure.,2017-05-12,Merged,967,14,2,,3
+Unconfigure() changes,2017-05-18,Merged,965,815,269,,1
+add alternate auth type doc,2017-05-12,Merged,964,5,2,,1
+Env var cmdline help,2017-05-09,Merged,962,6,0,,1
+Supports args as env vars,2017-05-09,Merged,961,150,10,,3
+Remove --no-warnings,2017-05-08,Merged,959,1,18,,1
+Failing release if jenkins builds does not exists.,2017-05-08,Merged,958,22,0,json ,2
+Node 6,2017-05-08,Merged,957,36,13,sh ,4
+git lfs install --local instead of --global,2017-05-09,Merged,954,24,6,,2
+enforce proxy config,2017-05-09,Merged,953,273,194,,9
+add ExecutionContext's public variable when run git.exe,2017-05-08,Merged,952,25,32,,1
+Users dsinghal iagent,2017-05-10,Merged,951,"1,669",348,,4
+If there is no artifact found to download adding an issue instead of …,2017-05-05,Merged,950,12,7,json ,4
+not pass -c http.extraheader to lfs fetch.,2017-05-04,Merged,949,3,1,,1
+Added support for Bitbucket source provider,2017-05-04,Merged,948,34,0,,2
+Delete start___.md,2017-05-07,Merged,947,0,171,,0
+Adding test for for null endpoint auth parameter,2017-04-28,Merged,942,4,0,,1
+Add logs for download artifact slowness,2017-05-19,Merged,941,101,36,,13
+Consume the deployment group controller,2017-05-02,Merged,939,268,190,cs ,2
+Ensuring duration can never be less than zero,2017-04-24,Merged,934,29,3,,2
+Switch to vswhere.exe,2017-04-24,Merged,933,28,160,ps1 ,4
+TEE XML output issue,2017-04-23,Merged,932,23,9,,1
+fix race condition in timeine update process queue.,2017-04-21,Merged,926,16,2,,2
+Hosted build agent TFVC issue,2017-04-14,Merged,922,57,11,,7
+robust fix,2017-04-14,Merged,921,113,14,,7
+Update README.md,2017-04-12,Merged,920,1,1,,0
+Use const instead of hardcoded value,2017-04-11,Merged,916,1,1,,1
+Fix null ref exception in CC commands,2017-04-10,Merged,914,25,8,,1
+file.openread instead of file.open,2017-04-12,Merged,913,9,5,ps1 ,3
+fix prejob postjob hooks.,2017-04-07,Merged,911,52,1,,2
+update failure message for fileshare.,2017-04-07,Merged,907,3,2,json ,2
+fix arg null exception.,2017-04-06,Merged,906,12,10,sh ,2
+Users/tihuang/outputvar,2017-06-15,Merged,905,165,229,,8
+Users/tihuang/diskusage,2017-04-14,Merged,900,48,15,cs json ,3
+EventSource creation warning during Windows service config.,2017-04-06,Merged,897,59,15,sh ,4
+PowershellExeHandler clear error variable,2017-04-03,Merged,896,1,1,,1
+Remove keyword-regex in lexical analyzer,2017-04-03,Merged,895,37,2,,1
+Prevent TFS 2015 on Win,2017-04-04,Merged,894,27,10,json ,3
+update agent to m115 version of vss-api-netcore,2017-04-02,Merged,893,7,6,csproj cs ,7
+Update README.md,2017-03-31,Merged,892,1,0,,0
+redirect stderr to stdout in upgrade script.,2017-03-31,Merged,889,2,2,,1
+option for submodule checkout recursive.,2017-04-03,Merged,887,20,7,,3
+rename toolcache to toolsdirectory.,2017-03-22,Merged,875,5,5,,2
+Users/tihuang/docker,2017-03-22,Closed,874,330,11,,5
+add agent.tempdir variable,2017-03-22,Merged,870,27,40,,3
+Fix projectId for fetching build artifact.,2017-03-24,Merged,868,5,0,,1
+fix cancel in get message long pull.,2017-03-22,Merged,863,19,22,,5
+package 7zip in agent externals.,2017-03-22,Closed,860,1,0,,1
+##vso[task.prependpath] command,2017-03-14,Merged,857,60,14,,9
+Variables template,2017-03-14,Merged,856,262,20,md cs ,4
+Machine group to Deployment Group rename,2017-03-16,Merged,855,220,92,,8
+Deserialization markdown cleanup,2017-03-13,Merged,854,145,111,,0
+Change runtime sku requirement to .NET 4.5,2017-03-13,Merged,853,1,1,,1
+Deserialization markdown updates,2017-03-13,Merged,852,304,40,,0
+Updated windows prerequisites,2017-03-13,Closed,851,7,1,,0
+save task intra state for wrapper task,2017-03-13,Merged,850,490,90,,7
+Failed() and Canceled(),2017-03-10,Merged,849,292,49,,3
+Add phases and granular templating,2017-03-10,Merged,848,"2,324","1,107",cs ,6
+Users/madhurig/securefiles,2017-03-09,Merged,845,33,0,,4
+sort environment variables.,2017-03-09,Merged,841,8,6,,2
+Updated the vss-api-netcore to consume the latest controller changes …,2017-03-09,Merged,840,28,28,cs ,7
+update dotnet sdk to 1.0,2017-03-07,Merged,839,4,4,sh ,2
+steprunner cancellation tweak,2017-03-07,Closed,836,25,36,,1
+runner changes,2017-03-10,Merged,835,"1,069",530,,3
+update dotnet-install.sh,2017-03-06,Merged,834,10,1,,1
+Support deserializing all task properties.,2017-03-04,Merged,832,100,182,cs ,5
+Document run local and task caching,2017-03-04,Merged,831,32,3,,0
+Convert yaml to job messages and download tasks,2017-03-03,Merged,830,483,11,yaml ,3
+support cancellation timeout.,2017-03-06,Merged,829,30,16,,1
+Users/tihuang/overwritetemp,2017-03-13,Merged,828,151,10,,5
+JSON escape for mustache encoding instead of HTML,2017-03-02,Merged,827,13,8,,2
+2.114.0 and consume new web api,2017-03-02,Merged,826,6,6,cs ,6
+Users/tihuang/preposttask,2017-03-06,Merged,825,260,127,,6
+Override TEMP,2017-03-02,Closed,824,130,9,,5
+update Windows System Pre-requisites,2017-03-01,Merged,823,1,1,,0
+Restructured step hooks. Added VSBuild yaml template.,2017-03-01,Merged,822,305,109,,3
+Users/tihuang/lfsimprove,2017-03-01,Merged,821,30,1,sh ,4
+Expression validation,2017-02-28,Merged,820,366,35,,3
+Example to add additional variables and override step group,2017-02-27,Merged,816,303,171,,1
+Do not require new plan ver for condition,2017-02-24,Merged,815,12,24,,7
+Partial unshelve,2017-02-24,Closed,812,87,103,,4
+update contribute.md and troubleshooting.md,2017-02-23,Merged,811,20,89,,0
+trace http traffic into agent diag log,2017-02-23,Merged,809,55,1,,1
+c,2017-02-22,Closed,807,4,0,,1
+report update state to server during self-update,2017-03-01,Merged,806,104,36,cs json ,8
+Additional git options in RM,2017-02-28,Merged,799,45,5,,6
+Run on cancel,2017-03-06,Merged,798,132,69,,6
+Supported named value extensions,2017-02-18,Merged,796,476,258,cs ,2
+fix auto upgrade failure on non-windows platforms.,2017-02-21,Merged,795,1,1,,1
+Fix error message for - publish build artifacts does not work in release,2017-03-09,Merged,794,46,15,json ,15
+Job directories md,2017-02-12,Merged,793,155,0,,0
+Update conditions md,2017-02-10,Merged,791,88,79,,0
+print task's handlers,2017-02-21,Merged,790,2,8,json ,2
+Rename Machine group to Deployment group - Stage 1,2017-02-14,Merged,786,3,1,,2
+Added script job extention.,2017-02-27,Merged,785,131,1,,3
+adding AzureGuestAgent capability provider for windows,2017-02-14,Merged,784,5,0,ps1 ,2
+Conditions,2017-02-12,Merged,779,"3,605",279,,7
+revert duplicated code in RM JobExtention,2017-02-01,Merged,775,43,810,,5
+stop logging job level issue on cancellation.,2017-01-30,Merged,771,4,4,,1
+download dotnet sdk in dev script.,2017-02-01,Closed,768,"1,160",0,,1
+fix path resolution for build flow in pipeline for git artifacts.,2017-01-24,Merged,766,44,0,,1
+only check endpoints with repositoryId in it's data dictionary for pr…,2017-01-19,Merged,764,1,1,,1
+only check endpoints with repositoryId in it's data dictionary for pr…,2017-01-19,Merged,763,1,1,,1
+Loc,2017-01-19,Merged,762,34,34,,5
+support clean options for pipeline,2017-01-19,Merged,761,22,22,,5
+Initial changes for Artifact command extensions,2017-02-17,Closed,760,229,38,json ,4
+"Correction for ""AddMachineGroupTagsFlagDescription"" text",2017-01-19,Merged,757,1,1,,1
+ArtifactCommandExtension changes,2017-02-17,Closed,756,229,38,json ,4
+"Revert ""support clean options for pipeline""",2017-01-13,Merged,752,21,22,,5
+support clean options for pipeline,2017-01-13,Merged,748,22,21,,5
+Users/ersciple/m111condition (WIP - will move to somewhere else),2017-01-12,Closed,746,"1,668",1,,1
+Additional artifact features for git in RM,2017-01-10,Merged,745,764,41,,5
+Also check for Visual Studio for Mac for Xamarin.iOS,2017-01-06,Merged,744,4,1,,1
+Drain queues before raising job completed event,2017-01-06,Merged,742,41,28,,4
+Race condition deleting files,2017-01-03,Merged,740,13,7,,2
+Preserve timestamp on file share artifacts,2019-10-09,Closed,739,27,5,,4
+Loc strings,2016-12-27,Merged,736,"3,482","3,196",,9
+2.111.0,2016-12-22,Merged,731,1,1,,1
+Pass creds to tf add on Win,2016-12-21,Merged,729,1,1,,1
+Comment intermittently failing tests,2016-12-16,Merged,721,3,1,,1
+Fix config.sh to keep arguments with spaces intact,2017-01-11,Merged,718,2,2,,1
+Check return code when acquiring externals,2016-12-07,Merged,715,15,12,,1
+"If agent is configured as deployment agent, default service account f…",2016-12-16,Merged,714,74,2,json ,4
+BugFix 711301: Downloading artifact fails with System.IO.IOException,2016-12-09,Merged,712,131,58,,9
+Adding ConditionalTask support in agent.,2016-12-13,Closed,711,587,47,json ,7
+Better error when git not in PATH,2016-12-05,Merged,710,59,4,,3
+Update client OM to M108,2016-12-05,Merged,709,2,2,,1
+Fix: Bug 730629: Download artifacts failed due to Git checkout failure in …,2016-12-13,Merged,702,81,2,,4
+Bug fixes on the RM file share artifact,2016-11-30,Merged,699,14,7,,3
+Adding agent version in RM CI events.,2016-12-13,Merged,696,69,18,json ,3
+submodule update --recursive,2017-02-23,Merged,690,3,22,,3
+update to netcore app 1.1,2017-02-13,Merged,689,"1,414",465,csproj json ,7
+"mask secret in capability, not crash agent on log retention failure",2016-11-21,Merged,687,13,2,,2
+"Removing the explicit createdirectory call in release extension, this…",2016-11-21,Merged,685,4,10,json ,2
+Fix: Bug 697325: Downloading Jenkins artifacts does not support self-signed certificates,2016-11-17,Merged,684,42,26,,2
+Error message improvement when trying to download fileshare artifact …,2016-11-15,Merged,681,9,0,json ,3
+update the task status when its skipped,2016-11-19,Merged,679,140,22,json ,5
+Added support to configure the machine group tags for agent,2016-11-21,Merged,678,249,15,json ,7
+Create miantainjob.md,2017-02-14,Closed,675,90,0,,0
+always set port for git proxy uri.,2016-11-09,Merged,672,19,6,,1
+fix null ref in post build cleanup.,2016-11-01,Merged,668,7,2,,1
+Pass jwt to tf add,2016-10-28,Merged,664,1,1,,1
+FC upload file metadata creation,2016-10-28,Closed,663,28,0,,1
+replace space with underscore for secret variable as well.,2016-10-27,Merged,661,1,1,,1
+support basic auth to configure agent.,2016-10-27,Merged,660,20,15,,1
+Adding task.order variable,2016-10-27,Closed,658,11,0,,3
+Replacing space with underscore as it was in the old agent,2016-10-26,Merged,656,1,1,,1
+GC,2017-02-13,Merged,655,241,2,json ,6
+Client OM,2016-10-24,Merged,654,2,2,,1
+Changes in Agent.Worker to send Job OutputVariables as part of JobCompletedEvent,2016-12-02,Merged,653,180,9,,8
+Add ability for agent to send job status to TCP Socket,2016-10-26,Merged,652,124,10,,7
+"Post agent configuration as machine group agent, instead of saving th…",2016-10-19,Merged,651,9,8,,3
+Addding DeploymentJobExtension,2016-10-17,Merged,650,10,2,,3
+Print folder ownership info for workfolder,2017-03-01,Closed,649,473,40,json ,8
+Build folder clean options,2016-10-21,Merged,648,81,27,,2
+JobPrepareValidator,2016-10-15,Closed,647,71,1,,4
+Loading Release Job Extension for Deployment host type,2016-10-17,Closed,646,13,7,,6
+fix getcredentialembeddedurl(),2016-10-13,Merged,643,71,3,,2
+bump vss-api version.,2016-10-14,Merged,640,4,4,,4
+1) Validate .NET 4.6. 2) Early validate PowerShell 3.0 and .NET 4.5.,2016-10-18,Merged,639,291,34,json ps1 ,7
+Validate .NET 4.6,2016-10-11,Merged,638,297,41,json ps1 ,7
+Escape single quotes twice for target script in ps3 handler.,2016-10-11,Merged,637,2,2,,1
+Update client OM,2016-10-18,Merged,636,2,2,,1
+skip sync source,2016-10-14,Merged,635,37,96,ch ,36
+Update client OM,2016-10-11,Merged,634,2,2,,1
+Clean last saved checkin metadata,2016-10-18,Merged,633,96,8,,4
+Clean last saved checkin metadata,2016-10-10,Merged,632,96,8,,4
+print task info in log.,2016-10-11,Merged,631,21,0,,2
+nunit3 results reader,2016-11-08,Merged,629,284,40,json ,3
+Unescape TFVC URL,2016-10-06,Merged,626,59,5,,3
+Updated the vss-api-netcore package version to 0.5.27-private,2016-10-07,Merged,625,4,4,,4
+VSTest capability,2016-10-17,Merged,623,1,1,,1
+VSTest capability,2016-10-03,Merged,621,1,1,,1
+Git shallow fetch,2016-10-05,Merged,620,282,14,json ,5
+auth header for github repo,2016-09-30,Merged,619,133,54,,2
+port fix to dev15rc2 branch,2016-09-28,Merged,617,540,140,,5
+undo pending changes for tfvc shelveset build.,2016-09-27,Merged,615,82,2,,1
+Update envwin.md to give better guidance,2016-10-04,Closed,611,2,2,,0
+fixes,2016-09-23,Merged,609,5,9,,2
+"bug fix around logging commands and serverurl variable, use 2.10 min-…",2016-09-23,Merged,608,28,14,sh ,4
+Update envredhat.md,2016-09-22,Merged,607,1,1,,0
+fixes,2016-09-23,Merged,606,28,14,sh ,4
+Users/chshrikh/machine group,2016-09-22,Merged,605,657,38,,2
+Getting correct TfsServerUrl for RM service,2016-09-22,Closed,603,12,2,,1
+Add Docker containerization of the agent.,2016-10-06,Closed,600,780,0,sh docker/auto/Dockerfile 2/Dockerfile 1/Dockerfile png template version ,14
+proxy part2,2016-09-26,Merged,599,442,132,,9
+machine group agent config,2016-09-22,Closed,598,798,53,,2
+Adding Capability to configure the agent for machine group (RI rmmaster2 to master),2016-09-16,Merged,597,799,53,,2
+"Updated the ""vss-api-netcore"" package to consume machine group contro…",2016-09-16,Merged,596,168,139,json ,5
+Trace improve,2016-09-13,Merged,593,236,159,json ,10
+crate agent package not base on download url. (#587),2016-09-08,Merged,590,11,1,,1
+crate agent package not base on download url.,2016-09-08,Merged,587,11,1,,1
+bump agent version to 105.6,2016-09-07,Merged,586,1,1,,1
+"fix usage message, need admin to unconfig windows service agent. (#584)",2016-09-07,Merged,585,8,1,json ,2
+"fix usage message, need admin to unconfig windows service agent.",2016-09-07,Merged,584,8,1,json ,2
+agent bug fixes. (#574),2016-09-07,Merged,583,263,312,,1
+VS 15,2016-09-07,Merged,580,220,4,psm1 ,4
+up front cmdline input validation. (#563),2016-09-07,Merged,578,135,8,json ,7
+Client OM,2016-09-06,Merged,576,2,2,,1
+Client OM,2016-09-06,Merged,575,2,2,,1
+bug fixes,2016-09-07,Merged,574,263,312,,1
+VS 15 capability,2016-09-06,Merged,573,220,4,psm1 ,4
+send job notification after first request renew. (#568),2016-09-01,Merged,569,5,2,,2
+send job notification after first request renew.,2016-09-01,Merged,568,4,1,,1
+Revert git version.,2016-09-07,Closed,567,1,1,,1
+task download reliability.,2016-09-06,Merged,566,11,6,,2
+fix back compat. (#564),2016-08-31,Merged,565,29,27,,2
+fix back compat.,2016-08-31,Merged,564,28,26,,1
+up front cmdline input validation.,2016-09-06,Merged,563,124,2,json ,5
+Add AWS CLI capabilities,2017-02-17,Closed,562,4,0,,1
+Update loc usage strings.,2016-08-30,Merged,561,531,477,,1
+usage clean up (#523),2016-08-30,Merged,560,86,123,json ,6
+Port fixes to Dev15RC2,2016-08-29,Merged,557,11,5,sh ,2
+conditional ignore platform pinning for legacy PS handler. (#553),2016-08-29,Merged,555,16,2,,3
+conditional ignore platform pinning for legacy PS handler.,2016-08-29,Merged,553,16,2,,3
+Port fixes to Dev15RC2,2016-08-29,Merged,552,9,12,csproj ,3
+Adjust detection logic for Xamarin.Android,2016-08-29,Merged,550,2,2,,1
+task execution condition. [prototype],2016-08-29,Closed,548,195,6,cs ,5
+Win svc should target 4.5,2016-08-29,Merged,547,2,2,,1
+Loc strings.,2016-08-29,Merged,545,"1,873","1,855",,9
+set back compat system.TeamFoundationServerUri,2016-08-29,Merged,543,5,8,,1
+Updated the config.cmd and run.cmd to unlock the dlls and exe from 'e…,2016-08-24,Merged,538,2,2,,2
+Updated the documentation for pre reqs on windows machine,2016-08-24,Merged,537,2,2,,0
+Added command to unblock the dlls from external\vstshost folder,2016-08-24,Closed,534,2,2,,2
+fix race condition in process invoker.,2016-08-24,Merged,533,13,1,,1
+Cyclical variable null ref.,2016-08-24,Merged,531,67,3,,2
+port part of config fix,2016-08-23,Merged,527,52,14,json ,4
+Bump externals. Bump version.,2016-08-23,Merged,526,2,2,sh ,2
+Revert e1a2b5c0,2016-08-23,Merged,525,409,464,,6
+TFVC local workspaces.,2016-08-22,Merged,524,6,12,,3
+usage clean up,2016-08-30,Merged,523,86,123,json ,6
+support pending outcome in trx,2016-08-23,Merged,521,48,5,,2
+TFVC ignore case for local path.,2016-08-22,Merged,520,2,2,,1
+fix infinite loop during attend config.,2016-08-25,Merged,518,389,463,,2
+Add mkdir as part of .NET core install instructions,2016-08-26,Merged,517,4,0,,0
+Consume M104 OM.,2016-08-19,Merged,515,2,2,,1
+Users/chshrikh/config mgr test fix,2016-08-18,Merged,514,48,25,,1
+Users/tihuang/configcancel,2016-08-19,Merged,511,465,411,,6
+Validate directory permissions.,2016-08-17,Merged,510,134,6,json ,6
+chunk level retry for file container upload.,2016-08-16,Merged,509,21,8,cs ,6
+Modify Ant build files which lies under current build file folder only,2016-08-17,Merged,508,121,17,,4
+Users/chshrikh/config deployment agnt,2016-09-02,Merged,506,796,63,,2
+Users/chshrikh/config deployment agnt,2016-08-16,Closed,505,318,40,,2
+Fix typo in /etc/bashrc,2016-08-12,Merged,498,1,1,,0
+Fix typo in /etc/bashrc,2016-08-12,Merged,497,1,1,,0
+Adding UT's for release job extension,2016-08-26,Merged,496,174,8,,3
+git clean -fdx and git reset --hard for submodules.,2016-08-12,Merged,495,54,10,,3
+doc for agent proxy config.,2016-08-11,Merged,494,50,0,sh ,1
+Update Ubuntu install pre-requisites,2016-08-17,Merged,493,7,1,,0
+save serverurl return from server.,2016-08-11,Merged,492,135,6,json ,8
+Port changes for result readers and add unit tests,2016-08-17,Merged,490,737,107,,3
+trim double quotes around filepath input on Windows.,2016-08-05,Merged,486,4,0,,1
+support auth proxy.,2016-08-10,Merged,484,164,60,json ,13
+add missing work arg help message.,2016-08-05,Merged,482,7,4,,1
+stop running job while stop agent.,2016-08-05,Merged,479,27,7,,3
+TFVC unit tests.,2016-08-04,Merged,478,777,155,,1
+file container trace.,2016-08-07,Merged,477,246,74,cs ,2
+fix tfvcartifact download,2016-08-03,Merged,476,4,2,,1
+Set NuGet.exe to version 3.4.3,2016-08-03,Merged,475,1,2,,1
+"fix name/type missing timerecord creation bug, delete .credential/.ag…",2016-08-02,Merged,473,16,1,,1
+Fix for tfsvc artifact,2016-08-03,Merged,471,4,2,,1
+Git encoding.,2016-08-01,Merged,465,30,3,,1
+Fixing test failure.,2016-07-30,Merged,464,1,1,,1
+Bump version to 2.104.1,2016-07-28,Merged,460,1,1,,1
+Update .NET full OM.,2016-07-28,Merged,459,2,2,,1
+TFVC logging.,2016-07-28,Merged,453,125,68,,2
+sha256 checksum,2017-02-17,Closed,452,8,0,,1
+"Update NuGet.exe, add CredentialProvider.TeamBuild.exe (Dev15RC1)",2016-07-28,Merged,451,2,1,,1
+Ported RM related changes,2016-07-27,Merged,450,"1,590",24,cs ,10
+Variable names.,2016-07-27,Merged,443,83,64,,6
+determine .net framework version based on version range.,2016-07-25,Merged,442,7,11,,1
+adding a warning if RM extension downloads an empty artifact.,2016-08-03,Merged,440,12,4,,4
+Users/kasubram/emptyartifactwarning,2016-07-25,Closed,439,21,17,json ,4
+better error message on file container upload failure.,2016-07-25,Merged,437,19,1,json ,2
+Agent update improve,2016-07-28,Merged,434,602,215,resx ,12
+Improve build artifact download.,2016-07-26,Merged,433,"1,303",12,,6
+making log issue command work with rm extension,2016-07-22,Merged,432,3,2,,1
+Fix scorch.,2016-07-21,Merged,431,1,4,,2
+Bump version to 104.0,2016-07-21,Merged,430,1,1,,1
+Resolve the path containing wildcards in filePath task input,2016-07-21,Merged,429,4,2,,1
+Scorch issue when no root mapping.,2016-07-21,Merged,427,19,3,sh json ,4
+always try to remove any auth header before git fetch from git config.,2016-07-21,Merged,425,54,17,json ,3
+"Update NuGet.exe, add CredentialProvider.TeamBuild.exe",2016-08-02,Closed,423,2,1,,1
+Adding support for downloading release artifact extensions (build and source repo),2016-07-22,Merged,421,284,10,cs ,11
+Making the agent upload log to RM correctly incase of any appfabric d…,2016-07-22,Merged,418,2,2,,1
+Fixed Issue in linking test results in release platform,2016-07-19,Merged,416,3,1,,1
+force cancel running worker when agent hit non-retryable exception.,2016-07-19,Merged,415,19,1,,1
+remove extra loc strings.,2016-07-18,Merged,413,72,24,json ,3
+Add the SVN cpability definition,2016-07-18,Merged,411,2,0,ps1 ,2
+Match TF.exe output encoding.,2016-07-18,Merged,408,57,23,,4
+Match TF.exe output encoding.,2016-07-18,Closed,407,49,22,,4
+Fix exit code check.,2016-07-18,Merged,406,1,1,,1
+Output encoding.,2016-07-18,Merged,405,112,71,,3
+Bump version to 2.103.1.,2016-07-14,Merged,401,1,1,,1
+falling back to the release definition name if definitionId is null,2016-07-19,Merged,400,20,6,,3
+fix for index html files for cc tab,2016-07-14,Merged,399,91,2,json ,4
+Repo ID variable.,2016-07-14,Merged,397,8,2,,1
+TFVC hosted agent fix.,2016-07-14,Merged,396,105,15,,4
+Allow users to use installed git and option to control credentials on their own [IN PROGRESS],2016-07-18,Merged,392,270,402,,2
+throw nonretryable exception on .net 4.5 not found.,2016-07-12,Merged,390,26,2,,4
+Removing whitespace in docs,2016-07-13,Closed,387,50,50,,0
+Users/tihuang/servicefix [UNTESTED],2016-07-12,Merged,386,170,22,json ,4
+add ubuntu 16.04,2016-07-12,Merged,385,2,1,,0
+Bug invoking cp (from dev.sh) on OSX,2016-07-11,Merged,382,1,1,,1
+Encoding issue.,2016-07-11,Merged,378,77,6,json sh ,3
+simplify task timeout logic.,2016-07-10,Merged,377,23,34,,3
+Add message indicating how to reconfigure the agent,2016-07-08,Merged,376,1,1,,1
+"use timeout instead of ping for sleep, remove vshost.exe for AgentSer…",2016-07-08,Merged,372,7,1,csproj ,2
+fix for Bug 565487: Consider clock time for reporting duration while …,2016-07-18,Merged,371,61,17,json ,2
+Net Framework 4.5 prereq validation.,2016-07-08,Merged,370,109,79,json ps1 ,6
+Log message when downloading task.,2016-07-08,Merged,369,52,48,json ,2
+Fixing NUnit Ignored tests publishing,2016-07-04,Merged,364,11,2,,2
+Move tf.exe to OM dir.,2016-07-07,Merged,363,495,470,,5
+bug fixes,2016-07-02,Merged,362,76,75,cmd ,6
+Correct a message for artifact upload,2016-07-01,Merged,361,2,2,,1
+Fix AzurePS capability.,2016-07-01,Merged,360,23,4,,1
+Reparse point chain.,2016-07-01,Merged,359,96,22,,2
+Replace the link for PAT creation,2016-06-30,Merged,358,2,2,,0
+replace endpoint's url and system connection url with config url base.,2016-07-01,Merged,357,51,8,,3
+test agent connection during agent config.,2016-07-05,Merged,356,96,68,json ,5
+Delete reparse point directory bug.,2016-06-30,Merged,355,64,1,sh ,3
+Fix Error un Add-AzurePS capabilities detection,2016-07-01,Closed,354,1,1,,1
+Adding user-agent to azure powershell calls from azure powershell han…,2016-07-06,Closed,352,7,1,,1
+print out supported handlers.,2016-06-30,Merged,350,8,2,json ,2
+expand handler's execution section with ExecutionContext.Variable.,2016-06-29,Merged,347,2,10,,4
+Adding support for tfgit and tfvc as artifact source,2016-07-15,Merged,344,654,62,,9
+Users/tasoni/port c chub changes,2016-07-06,Merged,343,129,2,json html ,7
+release should work even if work directory doesnt exist.,2016-06-29,Merged,342,41,14,,2
+reduce noise ##[debug] traing around process ##vso command.,2016-06-27,Merged,338,10,9,json ,2
+Update legacy SDK package,2016-06-27,Merged,337,1,1,,1
+Enabled Task Timeout.,2016-06-27,Merged,336,2,4,,1
+set http retry and http timeout through env.,2016-06-27,Merged,335,119,90,cs ,4
+consume latest dotnet corefx,2016-06-28,Merged,329,250,263,json ,19
+Release 2.102.1 Doc Updates,2016-06-23,Merged,328,271,27,,0
+Unblock DLLs in Agent.ServerOMDirectory.,2016-06-23,Merged,325,46,5,,2
+fix ps script path space escape during capability scan.,2016-06-22,Merged,323,2,2,,1
+Linux cancellation,2016-06-23,Merged,322,105,43,json ,8
+fix build break.,2016-06-21,Merged,320,8,1,,1
+Update nixsvc.md,2016-06-21,Closed,319,1,1,,0
+write registry only when config as windows service.,2016-06-21,Merged,318,71,75,,4
+adding github artifact support for release extension,2016-06-23,Merged,316,349,26,,14
+Process Invoker Cancellation flow for windows,2016-06-21,Merged,314,316,39,,1
+Added sudo to svc.sh install,2016-06-20,Closed,312,1,1,,0
+Removing the hash logic in working directory of release,2016-06-24,Merged,307,249,65,,9
+Create ISSUE_TEMPLATE.md,2016-06-17,Merged,305,13,0,,0
+remove SessionCreate from plist,2016-06-15,Merged,301,0,2,,1
+agent fix,2016-06-15,Merged,298,242,48,,7
+PowerShell stderr option.,2016-06-16,Merged,296,28,3,,2
+Fiddler instructions,2016-06-14,Merged,295,4,3,,0
+fix generated upgrade bash script.,2016-06-13,Merged,294,4,1,,1
+fix process invoker break on OSX.,2016-06-13,Merged,293,0,1,,1
+Web proxy variable and default creds.,2016-06-13,Merged,292,10,7,sh ,2
+"env, path, service dot files casing",2016-06-12,Merged,289,23,13,sh ,4
+2.102.0 Doc Updates,2016-06-14,Merged,287,132,53,png ,1
+Address process invoker perf degradation,2016-06-13,Merged,284,265,157,,16
+Fixing issue where a cancelled job would not notify pipe is was finished,2016-06-11,Merged,283,9,7,,1
+fix patching service name for systemd service,2016-06-10,Merged,282,1,0,,1
+"Run dev.sh from any path, it should build the agent",2016-06-20,Merged,281,7,2,,1
+Do not follow junction points; encoding consistency; string fallback.,2016-06-10,Merged,280,298,75,,2
+unix cfg split no need for sudo,2016-06-10,Merged,279,66,665,,2
+delete RSA key file when doing unconfig.,2016-06-09,Merged,276,3,1,,1
+Externals reliability.,2016-06-09,Merged,274,7,4,,2
+Change key file format to raw bytes when encrypted,2016-06-09,Merged,272,2,2,,1
+add limited support for authenticated proxies using default credentials,2016-06-13,Closed,271,4,1,,1
+Fix windows key store for running as a service,2016-06-08,Merged,270,101,113,json ,5
+The version of OS X El Capitan is 10.11 not 11.11,2016-06-08,Merged,269,2,2,,0
+more agent fixes,2016-06-08,Merged,267,32,28,sh ,9
+Remove invariant from accepted languages.,2016-06-08,Merged,266,17,5,,6
+"fix ##vso command tracing, more fix for windows service config.",2016-06-07,Merged,264,20,5,,3
+NuGet 3.4.3.,2016-06-07,Merged,261,1,1,,1
+fix unconfig flow,2016-06-07,Merged,260,30,15,cs json cmd sh ,9
+some small fixes.,2016-06-07,Merged,259,11,11,json ,5
+Getting port number from messageUri,2016-06-07,Merged,258,27,2,,1
+add endpoint data and auth details,2016-06-07,Merged,257,24,1,,1
+"Revert ""Changed downloads to use intermediate partial file and cache node.js download.""",2016-06-06,Merged,256,216,66,,1
+Fix bug detecting extension.,2016-06-06,Merged,255,70,215,,1
+fix backspace on read secret from console.,2016-06-06,Merged,250,1,1,,1
+TF.exe cleanup.,2016-06-06,Merged,248,110,64,sh ,5
+Changed downloads to use intermediate partial file and cache node.js download.,2016-06-06,Merged,247,66,216,,1
+Workaround for bad error from CoreCLR when sudo does not have execute…,2016-06-04,Closed,246,24,0,,2
+bump vss-api to .19,2016-06-06,Merged,245,16,11,cs ,6
+fix build break,2016-06-03,Merged,244,7,1,,1
+Adding job notification through named pipe,2016-06-03,Merged,243,108,7,,7
+handle SIGTERM on linux and fix run as a service on linux,2016-06-08,Merged,242,73,10,json ,10
+Fix broken build.,2016-06-03,Merged,241,1,1,,1
+Fix TEE for no-common-root-map issue.,2016-06-03,Merged,240,67,22,,4
+Add task.uploadfile command support,2016-06-08,Merged,234,44,12,json ,2
+add proxy support,2016-06-07,Merged,233,58,0,,4
+Remove NODE_ENV=production env var so npm behaves consistently on all platforms,2016-06-06,Merged,231,1,3,cs ,2
+Resource strings fallback.,2016-06-02,Merged,230,15,6,,2
+update docs with min Windows version and dev dependency on VS2015.,2016-06-03,Merged,228,4,2,,0
+more tracing for file upload.,2016-06-01,Merged,227,13,1,json ,2
+Adding ServiceIdentity credential type,2016-06-03,Merged,226,51,2,,3
+fix dev.sh to fail on failure.,2016-06-01,Merged,224,2,2,,1
+Implemented task timeout,2016-06-09,Merged,222,63,11,json ,4
+handle tee config folder location on OS X,2016-05-31,Merged,219,13,0,,1
+use more recent corefx library and .Net Core CLI,2016-05-31,Merged,216,83,87,json sh ,5
+Switch TEE to JWT.,2016-05-31,Merged,214,2,2,sh ,2
+Users/bryanmac/svcenv,2016-05-29,Merged,211,74,15,cs sh ,5
+push secrets into env for node/ps3 handler.,2016-06-03,Merged,207,163,139,,1
+"fix git warning ""templates not found..""",2016-05-26,Merged,206,18,0,,1
+update docs,2016-05-25,Merged,202,6,10,,0
+set working folder to system.defaultworkingdirectory for node handler.,2016-05-25,Merged,201,80,157,,5
+stop create session retry on vssunauthorizedexception.,2016-05-25,Merged,200,8,4,json ,3
+update vstshost,2016-05-25,Merged,198,1,1,,1
+fix resolve path contains wildcard in filepath type task input.,2016-05-24,Merged,197,5,4,,1
+Update vs.md,2016-05-25,Merged,196,14,5,,0
+strong name signing windows service .exe,2016-05-24,Merged,195,4,0,snk ,2
+Improving download artifact logging upon failure,2016-05-25,Merged,191,26,3,json ,3
+TF.exe,2016-06-02,Merged,190,926,412,,1
+Improve error handling for config and unconfig agent.,2016-05-24,Merged,189,90,57,sh template json ,10
+Add execute bit to tf.,2016-05-24,Merged,187,4,0,,1
+package signing.,2016-05-20,Merged,180,4,4,sh ,2
+Fix Git folder path,2016-05-20,Merged,178,37,10,sh ,2
+add support for GIT download on unix,2016-05-18,Merged,174,81,21,,1
+remove git package for OSX,2016-05-17,Merged,172,4,3,,1
+package git for osx and linux,2016-05-17,Merged,167,17,10,sh ,2
+Implement unconfigure,2016-05-20,Merged,166,192,18,json cmd sh ,11
+"fix console hanging, always flush log, vstsagent_trace env.",2016-05-13,Merged,162,51,84,,5
+fix windows service stop to be a clean exit,2016-05-13,Merged,161,45,6,,1
+Fix illegal chars in path bug in process handler.,2016-05-13,Merged,160,50,20,,2
+Unblock files.,2016-05-13,Merged,159,7,3,,1
+Invoke PS consistently.,2016-05-13,Merged,158,3,4,sh ,3
+update docs with info about git on redhat,2016-05-12,Merged,157,4,1,,0
+Fix windows service not working with local service,2016-05-12,Merged,156,13,6,,3
+fix tool capabilities (xcode),2016-05-12,Merged,155,1,1,,1
+Port enable code coverage command,2016-05-17,Merged,154,"6,256",33,,2
+Git,2016-05-12,Merged,153,519,247,,1
+Fix nostart.,2016-05-10,Merged,149,6,5,,1
+add portable git to externals.,2016-05-10,Merged,146,9,7,,1
+"implement ""svc.sh"" script to install, start, stop, uninstall linux se…",2016-05-12,Merged,144,492,126,,5
+Windows capabilities.,2016-05-10,Merged,143,"1,816",529,,3
+fix for service stop on OS X,2016-05-10,Merged,140,8,1,,1
+add development environment instructions for red hat 7.2,2016-05-06,Merged,137,22,1,png ,1
+OSX svc .Path and customization support,2016-05-06,Merged,136,62,7,template sh txt ,4
+fix for cancellation honoring and compat issue,2016-05-12,Merged,135,244,176,,2
+incremental download external tools.,2016-05-06,Merged,133,22,22,,1
+add runtime for Red Hat 7.2,2016-05-05,Merged,132,4,0,,4
+Logging download failure as telemetry from RM extension,2016-05-06,Merged,131,38,6,json ,3
+Added publish code coverage command,2016-05-09,Merged,129,"1,707",1,,2
+"print error on stderr, if agent was deleted on the server",2016-05-11,Merged,126,7,0,json ,2
+fix l0 test.,2016-05-04,Merged,123,10,3,,1
+add runtime inforamtion to useragent.,2016-05-04,Merged,122,4,1,,1
+download internal tools from azure container.,2016-05-04,Merged,120,71,36,,1
+Preload Path env variable for OSX service,2016-05-04,Merged,118,3,1,,2
+Fix service stop to be a clean exit on OSX and Linux.,2016-05-03,Merged,117,6,2,template cs ,3
+Adding SVN support,2016-05-04,Merged,115,932,6,,1
+diag log paging and retention,2016-05-04,Merged,114,233,90,,3
+Precursor to Windows capabilities,2016-05-04,Merged,113,323,210,,3
+message logging fixes for publish test results command,2016-05-03,Merged,112,99,76,json ,3
+Adding SVN support (preview),2016-05-03,Closed,108,925,5,,0
+Store the PATH environment variable,2016-04-28,Merged,99,13,12,template ,3
+Add OAuth credential support to the agent,2016-06-03,Merged,97,435,57,,6
+Recalculate variable expansion.,2016-04-28,Merged,96,393,175,,2
+Minor tracing improvements and fix test deadlock.,2016-04-28,Merged,95,40,10,,6
+Compat Legacy PS handler,2016-05-10,Merged,94,598,31,,5
+Add OAuth credential support to the agent,2016-04-28,Closed,93,432,60,,6
+Fixing the workingdirectory to be the root of the agent in svc config…,2016-04-28,Merged,92,3,2,template ,3
+"Fix for ""Task download must work when name resolution differs on platforms""",2016-05-04,Merged,90,44,6,,1
+Add missing references to fix Win10 build,2016-04-26,Merged,89,4,1,,2
+Update Constants.cs,2016-04-26,Merged,88,3,3,,1
+"Write message on console for message queue start, stop, failure and improve error handling",2016-04-26,Merged,87,104,33,json ,4
+"fix for ""Do not mask user name""",2016-04-26,Merged,85,2,4,,2
+Adding task server to give preference to task url than tfs url.,2016-04-25,Merged,83,137,58,template ,11
+Fix EP casing.,2016-04-23,Merged,82,1,2,,1
+Fix EP casing.,2016-04-23,Closed,81,0,1,,1
+agent return code,2016-04-26,Merged,79,105,46,,3
+Fix repo endpoint ID.,2016-04-21,Merged,74,16,8,,1
+Add missing variables.,2016-04-21,Merged,73,40,10,,6
+"fix sporadic test failure on IPC test, if running on slow machine",2016-04-21,Merged,71,2,2,,1
+Add publish test results command,2016-04-27,Merged,70,"4,356",3,,2
+Remove extra slash.,2016-04-20,Merged,69,1,1,,1
+Null check for working dir.,2016-04-19,Merged,67,2,2,,2
+upgrade dev instructions to use dotnet SDK 2416,2016-04-20,Merged,66,17,8,,0
+Using packaged node to start the linux service,2016-04-20,Merged,65,59,3,json template ,7
+Windows handlers.,2016-04-19,Merged,64,998,134,,6
+Fix 2015 RTM and Update 1 compat bug.,2016-04-18,Merged,63,6,7,,2
+Restore shelveset metadata and cleanup loc strings.,2016-04-18,Merged,62,260,25,json ,4
+Secret masker for agent and command settings.,2016-04-18,Merged,61,"1,351",726,,2
+Host trace listener tweaks.,2016-04-18,Merged,60,104,8,,5
+TEE EULA. Prompt fixes. Still E2E testing...,2016-04-14,Merged,59,831,325,,6
+Taking en-US as default locale if current locale folde is not found,2016-04-13,Merged,57,8,4,,1
+make jobdispatcher awaitable,2016-04-19,Merged,54,359,367,,1
+Cleanup.,2016-04-11,Merged,52,132,106,json ,13
+TEE gated.,2016-04-11,Merged,51,176,33,,4
+Add NTLM auth support for the config stage,2016-04-14,Merged,50,218,38,json ,11
+RM extension changes,2016-04-14,Merged,48,"1,341",5,cs ,9
+Ready for merge :) - Users/ersciple/m99tee,2016-04-09,Merged,47,862,58,,4
+agent self-update,2016-04-22,Merged,45,593,55,,2
+Fix unit test.,2016-03-31,Merged,44,60,59,,2
+L0 tests for GitSourceProvider,2016-04-01,Merged,43,819,421,,1
+Minor changes in capabilities,2016-03-30,Merged,42,20,24,,4
+Fixing dev.sh to build windows agent service correctly.,2016-03-30,Merged,41,16,0,,1
+Reverting script changes which was building agent.service,2016-03-29,Merged,40,0,25,,1
+Not running agent interactively if its configured as runasservice,2016-03-31,Merged,39,74,13,json ,5
+Users/ersciple/m98secret,2016-03-31,Merged,38,541,219,,5
+Add Build ##vso commands,2016-03-29,Merged,37,693,58,,7
+Expand filepath type task inputs,2016-03-28,Merged,36,132,2,json ,9
+"add capabilities, which exist in XPLAT agent",2016-03-30,Merged,35,583,116,,3
+Associate/Upload artifact,2016-03-27,Merged,34,812,45,cs ,2
+fix an issue with CTRL-C killing the worker process on OSX and Linux,2016-03-23,Merged,33,3,0,,1
+"implement exit flows: ""Cancel"" button from the UI and ""Ctrl-C"" from the console",2016-03-23,Merged,32,665,523,,2
+1) Fixed variable null ref 2) Mask json escaped secret 3) Moved build…,2016-03-22,Merged,31,156,21,,4
+Users/tihuang/fixtest,2016-03-21,Merged,30,5,1,,1
+WindowsService implementation changes,2016-03-29,Merged,29,"1,650",125,,4
+Variable recurison and directory delete helper,2016-03-22,Merged,28,985,309,,6
+cleanup some todos.,2016-03-22,Merged,27,99,175,,3
+Users/ersciple/m98unittests,2016-03-18,Merged,26,611,95,json ,12
+git source provider (Draft),2016-03-21,Merged,25,"1,345",149,cs ,4
+mask secrets from trace and log.,2016-03-17,Merged,24,806,136,,10
+Use node from externals.,2016-03-16,Merged,23,12,4,,3
+Using SUDO_USER instead of getlogin_r as this may fail if there is no…,2016-03-17,Merged,22,60,16,json ,3
+packagenode,2016-03-16,Merged,21,106,1,sh ,3
+Commands - Draft Two,2016-03-17,Merged,20,"1,030",34,,6
+fix: not to start service if service configuration has failed.,2016-03-15,Merged,19,11,8,,5
+improve TrackingManager test to work in mixed Linux/Windows dev enviroment,2016-03-15,Merged,18,0,0,,0
+Task handler.,2016-03-15,Merged,17,"1,769",795,,6
+"Implement PageLogger, hook it into the ExecutionContext and write tests",2016-03-14,Merged,16,212,25,,4
+print out ##[section] on execution start and complete.,2016-03-12,Merged,15,29,26,,2
+Renew lock,2016-03-16,Merged,14,369,64,cs ,5
+linux service changes using nodejs,2016-03-15,Merged,13,606,44,,4
+add timeouts in IPC communication between agent.listener and agent.worker process,2016-03-14,Merged,12,36,11,,3
+add more TaskManager tests,2016-03-14,Merged,11,206,45,,1
+Build folder tests.,2016-03-13,Merged,10,551,32,,4
+Move tests.,2016-03-10,Merged,9,81,104,,22
+Fix build.,2016-03-10,Merged,8,0,8,,1
+Minor script fixes,2016-03-10,Closed,7,7,6,sh ,4
+Feature/coreclrver,2016-03-09,Merged,6,49,19,json sh ,5
+RunAsService initial changes,2016-03-09,Merged,5,456,48,,6
+Fix busted test.,2016-03-07,Merged,4,248,222,,1
+JobServerQ,2016-03-11,Merged,3,971,169,,2
+Feature/taskmanager,2016-03-09,Merged,2,379,15,cs ,8
+"Loc, test class organization, various...",2016-03-10,Merged,1,596,340,,5

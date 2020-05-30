@@ -1,0 +1,95 @@
+Add SetFocus and SetParentHWND Gui macros,2019-09-21,Closed,1984,13,1,,1
+Tab icon quality fix (#1072),2019-09-21,Closed,1973,23,22,h ,2
+Add Keyboard Input Grouping status item,2019-09-21,Closed,1949,19,0,h ,2
+"Changed the config name for the ""Create New Window"" hotkey to Multi.NewWnd",2019-09-22,Closed,1944,0,0,,0
+Fixed several invalid strings,2019-09-21,Closed,1936,7,7,,1
+Update ConEmu.l10n,2019-05-04,Closed,1906,"5,442","3,383",,0
+Update ConEmu.l10n,2019-05-02,Closed,1905,"5,442","3,383",,0
+ConEmu/ConEmu.l10n Add Japanese,2019-03-23,Closed,1866,"1,371",58,,0
+gh-1795: Unexpected ConEmu activation on monitor change.,2019-02-26,Merged,1820,1,1,,1
+Case insensitive check for no branch,2019-01-08,Closed,1799,1,1,,1
+Add support for generating VS2019 tasks,2018-12-11,Merged,1774,1,0,,1
+Add a new option to auto-trim single lines.,2018-08-15,Merged,1677,42,2,cpp h ,8
+Improve Size & Pos UI; use max buffer height by default,2018-06-16,Merged,1604,9,9,,3
+[WSL] Use user's default login shell,2018-06-16,Merged,1587,1,1,,1
+"gh-1534: Fix being unable to select text with mouse if scroll bar show set to ""Always""",2018-04-29,Closed,1536,2,6,,1
+"Fix ""Far Manager -> Panel Views -> Max. Zoom combo box"" assertion",2017-11-22,Merged,1328,3,1,,3
+Added support for setting background image from GuiMacro,2017-11-27,Closed,1317,13,0,,1
+When GetConsoleKeyboardLayoutName not implemented stop calling it,2017-11-07,Closed,1303,10,1,,1
+Update ConEmu.l10n,2017-09-21,Closed,1255,23,17,,1
+NetOnly flag for RunAs feature,2017-07-06,Closed,1173,62,11,rc h ,7
+gh-1149: fix Win10 buffer overrun,2017-05-27,Merged,1151,3,3,,1
+Support PerMonitorV2 DPI awareness for Windows 10 Creators Update,2017-11-07,Closed,1102,8,5,,3
+Provided .editorconfig to simplify formatting,2017-04-11,Closed,1101,22,0,,1
+Bugfixes v15,2017-11-07,Closed,1080,30,16,cpp h ,7
+Commented out an assertion that always fails,2018-06-16,Closed,1075,1,1,,1
+Fix typos v5,2017-03-14,Closed,1066,54,54,cpp ,28
+Remove stray semicolons,2017-03-14,Closed,1064,652,652,h ,16
+"Fix Far1 ""edit console output"" empty output",2017-03-15,Closed,1063,2,2,,2
+Bugfixes v13,2017-02-27,Closed,1052,"1,163",297,l10n h cpp vcxproj filters ,7
+Patch ansicolors24bit.ps1 for wsl,2017-02-27,Closed,1032,7,3,,1
+Better handling of per-monitor DPI changes,2017-11-07,Closed,1014,104,17,h ,5
+Update Chinese translation. Add shell icons for registered files.,2016-09-11,Closed,771,649,623,,0
+Bugfixes v12,2016-09-14,Closed,711,9,0,,1
+Remove dots in New console... because it is an immediate action without dialog,2018-03-20,Closed,701,2,2,,1
+WinPosSize: fix changing size without changing position,2016-05-13,Closed,673,1,1,,1
+Text flow to next line broken when ESC]9;8; is used #563,2016-04-19,Closed,650,1,1,,1
+Update chinese translation.,2016-04-28,Closed,643,27,11,,1
+gh-614: Handle commas as decimal separators,2016-04-12,Closed,616,8,7,h ,3
+Update chinese translation.(160327),2016-03-27,Closed,609,342,285,,0
+Fix VS2015 Release build,2016-04-12,Closed,596,48,18,vcxproj filters ,7
+Update chinese translation.(160316),2016-03-16,Closed,583,10,3,,1
+Update chinese translation.(160308),2016-03-08,Merged,568,13,0,,1
+Bugfixes v11,2016-02-26,Closed,558,26,16,h ,12
+Update chinese translation. (160215),2016-02-15,Merged,545,31,14,,1
+fix typos v4,2016-02-14,Closed,543,20,20,rc h cpp ,7
+Chinese translation.(160213),2016-02-13,Closed,541,"1,151",0,,0
+Bugfixes v10,2016-02-11,Closed,528,29,27,h ,22
+fix some problem when use chinese char,2016-02-13,Closed,520,107,9,,2
+ConEmu.Core: Missing CmdInit.cmd,2015-12-24,Closed,485,2,0,,1
+Implementing recent decisions on the Nuget:,2015-12-22,Closed,482,124,2,gitignore Targets nuspec cmd ,5
+Nuget org,2015-12-22,Merged,480,24,6,Targets nuspec cmd ,4
+Nuget Package for Nuget.org,2015-12-22,Closed,477,569,76,ps1 Targets nuspec cmd cpp h ,9
+Bugfixes v9,2015-12-12,Closed,462,97,97,xml rc2 cpp h ,15
+CTaskBarGhost: Fix virtual console offset when using captionless mode.,2015-12-22,Closed,461,8,0,,1
+Bugfixes,2015-11-28,Closed,440,31,27,cpp h ,18
+Bugfixes,2015-11-27,Closed,434,13,5,h ,9
+fix typos,2015-11-27,Closed,433,29,29,h ,13
+Bugfixes,2015-11-23,Closed,432,44,34,sln h ,20
+Update README.md,2015-11-03,Merged,405,1,2,,0
+Support for specifying index of a non-default icon in the file,2015-10-18,Closed,378,18,3,,1
+Support for wide font names in TTF files set with the /fontfile switch,2015-11-23,Closed,358,11,21,,1
+fix typos,2015-10-07,Merged,342,56,56,,5
+Updated build instructions,2015-10-17,Closed,330,2,2,,0
+Bugfixes,2015-09-13,Merged,316,4,4,,4
+Bugfixes,2015-08-27,Closed,281,11,1,,3
+Bugfixes,2015-08-16,Closed,269,3,1,h ,3
+Update old Google Code references in files to new GitHub URLs,2015-08-12,Closed,264,114,114,txt html ans ,3
+GitShowBranch.cmd: prevent broken expansion in repository check,2015-08-10,Closed,260,2,2,,1
+Bugfixes,2015-08-09,Closed,257,97,51,,16
+Bugfixes,2015-06-18,Closed,188,26,0,h ,9
+Correct typo.,2015-06-11,Merged,185,1,1,,1
+Fix dates in Whats New file,2015-06-11,Merged,184,2,2,,0
+added a static analysis config,2015-11-27,Closed,157,232,0,,2
+Fixed typo,2015-05-11,Closed,140,1,1,,1
+In settings Main/Tabs/TabButton with value Max/restore pane was not read...,2015-05-06,Merged,110,1,1,,1
+Update README.md,2015-04-06,Merged,92,10,10,,0
+Fix grammar error.,2015-03-23,Closed,75,3,3,,0
+"""cd"" to focused Explorer window's directory path",2015-03-19,Closed,73,127,0,rc2 h ,8
+Problems with Vim in Windows cmd,2015-03-13,Closed,70,78,0,cpp ,1
+Fix hDbg opening in ConsoleMain.cpp,2015-02-21,Closed,60,1,1,,1
+Fixed couple of bugs in clink integration,2015-01-11,Closed,48,93,65,cpp ,3
+Default task 'Git bash' should have a nice looking (default) icon,2014-12-23,Closed,44,6,1,,1
+Fix errors,2014-12-04,Closed,39,27,15,h ,14
+Fix typos in Settings dialog,2014-11-25,Closed,35,2,2,,1
+Fix warnings,2014-11-12,Closed,33,17,2,h ,11
+Fix warnings,2014-11-10,Closed,32,5,1,cpp ,3
+Fix typos,2014-11-10,Closed,31,46,46,cpp h ,11
+Fix warnings,2014-11-08,Closed,30,10,8,,6
+Fix coverity warnings,2014-11-08,Closed,29,27,0,,10
+Fix typos,2014-11-04,Closed,27,83,83,,9
+Fix Coverity warnings,2014-11-04,Closed,26,45,8,,13
+fix minor warnings,2014-11-04,Closed,24,3,2,h ,3
+Added Tomorrow color schemes,2014-07-08,Closed,14,30,0,,1
+Fit background text width,2013-11-18,Merged,2,27,14,,1
+[ConEmuBg] Fit background text width,2013-11-18,Closed,1,23,14,,1

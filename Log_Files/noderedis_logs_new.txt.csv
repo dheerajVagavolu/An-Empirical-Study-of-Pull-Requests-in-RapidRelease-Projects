@@ -1,0 +1,491 @@
+Fix typo,2019-07-08,Closed,1435,1,1,,0
+bump redis-parser,2019-05-10,Closed,1433,1,1,,1
+removing use of function.prototype.apply which internally uses queuin…,2019-04-26,Closed,1431,2,2,,1
+Added timestamp to debug traces,2019-05-07,Merged,1426,4,2,,2
+Update to recent redis-commands,2019-05-07,Merged,1425,1,1,,1
+test: Fix typo in assertEquals message,2019-02-05,Merged,1408,4,4,,3
+Fix build failure,2019-02-05,Closed,1404,1,1,,1
+Fix typo in createClient.js,2018-12-28,Merged,1403,1,1,,1
+Add delay option for socket.setKeepAlive,2018-12-04,Merged,1396,6,1,js ,1
+Added 'NOACK' to xreadgroup call,2018-11-15,Merged,1388,2,2,,1
+add a simple streams example,2018-11-12,Merged,1386,47,0,,1
+Dependency Bump,2018-12-25,Closed,1381,1,1,,1
+Update README.md,2018-10-10,Closed,1380,7,3,,0
+bump redis-commands and redis-parser,2018-10-14,Closed,1379,2,2,,1
+Avoid distributing unnecessary development files,2018-08-23,Merged,1370,3,0,,1
+Update client.quit definition in README.md to include callback,2018-08-10,Merged,1368,1,1,,0
+fix incorrect code for eslint rules,2019-02-06,Merged,1367,93,92,,8
+Remove clientError handler,2019-02-07,Merged,1361,0,6,,1
+Clarify reconnecting delay,2018-06-21,Merged,1356,1,1,,0
+fixed typo in readme example,2018-06-14,Closed,1353,1,1,,0
+Added documentation for REDIS optimistic lock system.,2018-06-13,Merged,1352,122,0,,0
+[tests] fix broken utils tests,2018-05-22,Merged,1342,12,5,,1
+Adapt Alibaba Cloud kvstore,2018-05-22,Merged,1341,1,1,,1
+Simpler bluebird promisifyAll usage,2018-05-22,Merged,1332,1,2,,0
+Fix travis ci testing,2018-04-03,Merged,1325,9,3,js ,2
+Update readme to reflect usage of .add_command,2018-03-28,Merged,1323,1,1,,0
+fix: client duplicate function now allows db param to be passed,2018-02-23,Merged,1311,4,1,,2
+Updated README for syntax highlighting,2018-02-19,Merged,1307,33,29,,0
+Performance Increase - Minor,2018-05-22,Merged,1304,4,4,json ,4
+readme update: Native Promises with util.promisify,2018-01-09,Merged,1284,25,1,,0
+Add promisify example for node.js 8,2017-11-08,Closed,1283,9,0,,0
+feat: add support for rediss protocol in url,2018-01-09,Merged,1282,36,7,js ,2
+remove unused var in readme example,2017-08-30,Merged,1271,1,1,,0
+Export commands list,2018-01-09,Closed,1266,2,0,,1
+"Fix ""therefor"" vs. ""therefore"" typo in README.md",2017-07-18,Merged,1259,1,1,,0
+Don't assume port_arg is a string,2017-07-20,Merged,1258,3,2,,1
+:memo: fix typo: To / Too,2017-07-14,Merged,1255,1,1,,0
+Fixing documentation typo,2017-07-07,Merged,1253,1,1,,0
+Improve style of menu,2017-06-21,Merged,1246,8,0,,1
+quick expire example,2017-04-27,Merged,1229,16,5,,0
+Fix typos in Readme,2017-04-18,Merged,1227,3,3,,0
+Fix error code in the readme,2017-04-03,Merged,1221,1,1,,0
+change `times_connected` to `attempt` in the `retry_strategy`,2017-03-18,Merged,1215,1,1,,0
+Minor grammar fix,2017-03-18,Merged,1213,1,1,,1
+Generalise monitor_regex,2017-03-14,Merged,1211,1,1,,1
+Fix option param null bug,2017-03-11,Merged,1204,1,1,,1
+Repurpose retry_strategy + add connection_strategy,2017-04-25,Closed,1201,112,43,md js ,3
+Support retry after flush,2017-10-31,Closed,1200,57,4,md js ,3
+Add a Codacy badge to README.md,2017-02-01,Closed,1195,1,0,,0
+fix #1193,2017-03-11,Closed,1194,38,62,,1
+error: uncaughtException: Cannot read property 'callback' of undefined #1037,2016-12-11,Closed,1177,1,1,,1
+enabled adding abritary commands,2017-08-01,Closed,1173,55,9,,3
+Update retry_strategy example,2016-11-14,Merged,1171,1,1,,0
+Check options.error,2016-11-25,Merged,1168,1,1,,0
+chore(package): update mocha to version 3.1.2,2017-02-22,Merged,1167,1,1,,1
+Fix domain and camelCase bug,2016-10-31,Merged,1166,34,6,js ,5
+Update dependencies to enable Greenkeeper 🌴,2016-10-31,Closed,1165,2,2,,1
+Update eslint to version 3.9.0 🚀,2016-10-30,Closed,1164,1,1,,1
+Update eslint to version 3.8.1 🚀,2016-10-20,Closed,1160,1,1,,1
+Update eslint to version 3.8.0 🚀,2016-10-20,Closed,1158,1,1,,1
+Update mocha to version 3.1.1 🚀,2016-10-20,Closed,1156,1,1,,1
+Update eslint to version 3.7.1 🚀,2016-10-09,Closed,1154,1,1,,1
+metrics@0.1.10 breaks build ⚠️,2016-10-09,Closed,1153,1,1,,1
+Update mocha to version 3.1.0 🚀,2016-10-09,Closed,1149,1,1,,1
+Update eslint to version 3.6.1 🚀,2016-10-09,Closed,1148,1,1,,1
+Update eslint to version 3.6.0 🚀,2016-10-09,Closed,1146,1,1,,1
+Update nyc to version 8.3.0 🚀,2016-09-16,Merged,1143,1,1,,1
+coveralls@2.11.13 breaks build 🚨,2016-09-16,Closed,1142,1,1,,1
+Update eslint to version 3.5.0 🚀,2016-09-16,Closed,1140,1,1,,1
+bluebird@3.4.5 breaks build 🚨,2016-09-16,Closed,1137,1,1,,1
+Update eslint to version 3.4.0 🚀,2016-09-16,Closed,1135,1,1,,1
+bluebird@3.4.3 breaks build 🚨,2016-09-16,Closed,1134,1,1,,1
+Update README.md,2016-09-16,Closed,1131,1,1,,0
+Update eslint to version 3.3.1 🚀,2016-09-16,Closed,1129,1,1,,1
+Update nyc to version 8.1.0 🚀,2016-09-16,Closed,1127,1,1,,1
+Update nyc to version 8.0.0 🚀,2016-09-16,Closed,1126,1,1,,1
+Update eslint to version 3.3.0 🚀,2016-09-16,Closed,1124,1,1,,1
+Update mocha to version 3.0.2 🚀,2016-09-16,Closed,1123,1,1,,1
+Update mocha to version 3.0.1 🚀,2016-09-16,Closed,1121,1,1,,1
+Update eslint to version 3.2.2 🚀,2016-09-16,Closed,1119,1,1,,1
+Update eslint to version 3.2.1 🚀,2016-09-16,Closed,1118,1,1,,1
+Update mocha to version 3.0.0 🚀,2016-09-16,Closed,1117,1,1,,1
+Update eslint to version 3.2.0 🚀,2016-09-16,Closed,1116,1,1,,1
+Update eslint to version 3.1.1 🚀,2016-07-21,Closed,1109,1,1,,1
+Update eslint to version 3.1.0 🚀,2016-07-21,Closed,1107,1,1,,1
+Convert snake_case options to camelCase before sending into tls || net (FIXES #1103),2016-10-31,Closed,1104,10,2,,1
+Update nyc to version 7.0.0 🚀,2016-07-15,Merged,1100,1,1,,1
+Update eslint to version 3.0.1 🚀,2016-07-15,Closed,1099,1,1,,1
+Update eslint to version 3.0.0 🚀,2016-07-04,Closed,1098,1,1,,1
+eslint@2.13.1 breaks build 🚨,2016-06-26,Closed,1091,1,1,,1
+eslint@2.13.0 breaks build 🚨,2016-06-26,Closed,1090,1,1,,1
+nyc@6.6.0 breaks build 🚨,2016-06-16,Closed,1088,1,1,,1
+Noting in docs that retry_max_delay and connect_timeout are deprecated,2016-06-16,Merged,1087,2,2,,0
+Ensure synthetic function names conform to naming requirements,2016-06-01,Merged,1076,3,2,,1
+V.2.6.0 proposal,2016-06-01,Merged,1074,706,508,md js ,3
+eslint@2.11.1 breaks build ⚠️,2016-06-01,Closed,1072,1,1,,1
+Update redis-parser to version 2.0.0 🚀,2016-05-28,Closed,1071,1,1,,1
+eslint@2.11.0 breaks build ⚠️,2016-05-28,Closed,1069,1,1,,1
+mocha@2.5.2 breaks build ⚠️,2016-05-28,Closed,1068,1,1,,1
+mocha@2.5.1 breaks build ⚠️,2016-05-28,Closed,1067,1,1,,1
+mocha@2.5.0 breaks build ⚠️,2016-05-28,Closed,1066,1,1,,1
+bluebird@3.4.0 breaks build ⚠️,2016-05-18,Closed,1064,1,1,,1
+link build badge to master branch,2016-05-17,Merged,1063,1,1,,0
+eslint@2.10.1 breaks build ⚠️,2016-05-18,Closed,1061,1,1,,1
+eslint@2.10.0 breaks build ⚠️,2016-05-18,Closed,1060,1,1,,1
+nyc@6.4.4 breaks build ⚠️,2016-05-18,Closed,1057,1,1,,1
+nyc@6.4.3 breaks build ⚠️,2016-05-18,Closed,1056,1,1,,1
+Do you mean snake_case instead of snack_case?,2016-05-04,Merged,1055,1,1,,0
+if statement fix,2016-06-02,Closed,1054,1,1,,1
+nyc@6.4.2 breaks build ⚠️,2016-05-03,Closed,1052,1,1,,1
+nyc@6.4.1 breaks build ⚠️,2016-05-03,Closed,1051,1,1,,1
+v.2.6.0-2 release proposal,2016-04-29,Merged,1041,"1,914",616,js ,1
+Add backticks and quotes where appropriate in README.md,2016-06-02,Closed,1038,29,29,,0
+Readme updates,2016-04-21,Closed,1036,31,46,,0
+Fixed function name case,2016-04-12,Closed,1032,1,1,,1
+Noting in documentation when client.duplicate() might be used,2016-10-31,Merged,1031,27,0,,0
+eslint@2.5.3 breaks build 🚨,2016-03-29,Closed,1023,1,1,,1
+Add string_numbers option to handle very big numbers,2016-03-27,Merged,1021,63,90,js json ,6
+[WIP] Remove unnecessary skip,2016-05-28,Closed,1020,0,9,,3
+Replace jshint with eslint and add lots of rules,2016-03-26,Merged,1019,"1,621","1,551",eslintrc jshintrc js ,16
+Docu,2016-03-26,Merged,1018,5,3,js ,1
+Pubsub,2016-03-26,Merged,1017,517,167,,0
+Calling quit should always close the connection,2016-03-27,Merged,1016,114,5,js ,4
+Redis 2.4 support,2016-03-16,Merged,1010,54,13,,3
+Fix monitor mode,2016-03-25,Merged,1006,150,81,js ,3
+nyc@6.1.1 breaks build ⚠️,2016-03-15,Closed,1002,1,1,,1
+Update README.md,2016-03-07,Merged,999,1,1,,0
+2.5,2016-03-07,Merged,998,"1,988","1,156",md js ,2
+Update nyc to version 6.0.0 🚀,2016-03-07,Merged,997,1,1,,1
+add support for json,2016-03-15,Closed,995,478,0,js ,3
+coveralls@2.11.8 breaks build ⚠️,2016-02-28,Closed,990,1,1,,1
+bluebird@3.3.3 breaks build ⚠️,2016-02-28,Closed,988,1,1,,1
+bluebird@3.3.2 breaks build ⚠️,2016-02-28,Closed,987,1,1,,1
+Updating the test filename and description to match the command under test,2016-03-07,Closed,982,1,1,,1
+bluebird@3.3.1 breaks build ⚠️,2016-02-24,Closed,981,1,1,,1
+redis-commands@1.1.0 breaks build ⚠️,2016-02-10,Closed,978,1,1,,1
+nyc@5.6.0 breaks build ⚠️,2016-02-10,Closed,977,1,1,,1
+bluebird@3.2.2 breaks build ⚠️,2016-02-10,Closed,976,1,1,,1
+bluebird@3.2.1 breaks build ⚠️,2016-02-10,Closed,974,1,1,,1
+bluebird@3.2.0 breaks build ⚠️,2016-02-10,Closed,973,1,1,,1
+Update SCAN example code,2016-02-10,Merged,972,21,8,,1
+mocha@2.4.4 breaks build ⚠️,2016-02-10,Closed,970,1,1,,1
+mocha@2.4.3 breaks build ⚠️,2016-02-10,Closed,969,1,1,,1
+mocha@2.4.2 breaks build ⚠️,2016-02-10,Closed,968,1,1,,1
+mocha@2.4.1 breaks build ⚠️,2016-02-10,Closed,967,1,1,,1
+bluebird@3.1.5 breaks build ⚠️,2016-02-10,Closed,966,1,1,,1
+redis-parser@1.1.0 breaks build ⚠️,2016-02-10,Closed,965,1,1,,1
+nyc@5.5.0 breaks build ⚠️,2016-01-26,Closed,963,1,1,,1
+bluebird@3.1.3 breaks build ⚠️,2016-01-26,Closed,962,1,1,,1
+bluebird@3.1.4 breaks build ⚠️,2016-01-26,Closed,961,1,1,,1
+bluebird@3.1.2 breaks build ⚠️,2016-01-26,Closed,960,1,1,,1
+Adds config variable `enable_offline_queue_until_first_ready`,2016-01-20,Closed,956,45,1,js ,2
+Fix the port number in Readme to 6379 instead of 6370,2016-01-18,Merged,955,1,1,,0
+jshint@2.9.1 breaks build 🚨,2016-01-20,Closed,953,1,1,,1
+"Fix regression, bring back socket support, fixes #950",2016-03-10,Closed,951,45,16,js ,2
+Fix typo in README,2016-01-07,Merged,948,1,1,,0
+nyc@5.3.0 breaks build 🚨,2016-01-07,Closed,946,1,1,,1
+New stuff,2016-01-03,Merged,943,499,370,yml md ,2
+upgrade to nyc@5.2.0 (which has several fixes for Windows),2016-01-03,Merged,942,4,4,,1
+Update nyc to version 5.1.1 🚀,2015-12-31,Merged,939,1,1,,1
+bluebird@3.1.1 breaks build 🚨,2015-12-28,Closed,935,1,1,,1
+Update nyc to version 5.0.1 🚀,2015-12-16,Closed,934,1,1,,1
+Update nyc to version 5.0.0 🚀,2015-12-16,Closed,931,1,1,,1
+Update nyc to version 4.0.1 🚀,2015-11-30,Merged,929,1,1,,1
+Update nyc to version 4.0.0 🚀,2015-11-30,Closed,928,1,1,,1
+"emit event ""ready"" when disable_resubscribing is true",2015-11-27,Merged,925,1,0,,1
+mocha@2.3.4 breaks build ⚠️,2015-11-17,Closed,920,1,1,,1
+coveralls@2.11.4 breaks build 🚨,2015-11-06,Closed,917,1,1,,1
+bluebird@3.0.3 breaks build 🚨,2015-11-02,Closed,914,1,1,,1
+Fix return_buffers in pub/sub mode,2015-10-30,Merged,912,55,3,,2
+chore(package): update dependencies,2015-10-29,Merged,910,1,1,,1
+ignore if info command is not available on server,2015-10-29,Closed,909,10,3,,1
+Fixing bug where constructor was not using the options object to set …,2015-10-29,Closed,908,2,2,,1
+Testing in AppVeyor,2015-10-28,Merged,907,2,2,,1
+Add consolidation part to the readme,2015-10-27,Merged,904,11,1,,0
+Fix and simplify parser,2015-10-27,Merged,903,16,34,js ,2
+Stuff,2015-10-28,Closed,901,537,320,md js ,2
+Fix parsing huge replies by JavascriptReplyParser,2015-11-08,Closed,900,25,25,json ,2
+Add support for TLS connections,2015-11-23,Closed,894,452,56,js gitignore cert key template ,6
+Fix some minor issues and add more tests,2015-10-17,Merged,891,619,391,js ,1
+Add rename_commands option,2015-10-10,Merged,887,135,5,js conf ,3
+Fix parser,2015-10-10,Merged,886,19,18,js ,3
+node_redis on speed,2015-10-12,Merged,878,"1,102",285,,0
+Small fix to allow bundling.,2015-10-04,Closed,877,4,1,,1
+a couple tweaks to get the test suite running on my old MacBook,2015-10-05,Merged,876,37,38,,2
+Batch and atomicBatch functionality,2015-10-12,Closed,868,121,2,,1
+Remove very old benchmark files,2015-09-19,Merged,862,0,384,benches/stress/pubsub/run benches/stress/rpushblpop/run benches/stress/speed/00 benches/stress/speed/plot png ,18
+Remove unnecessary line from example,2015-09-18,Merged,861,0,1,,0
+Add redis error codes to the errors,2015-09-19,Merged,858,33,6,,5
+[WIP] Fix Command Queue Stack Error in PUBSUB mode,2016-03-25,Closed,857,150,7,,3
+Fixed typo in README.md,2015-09-18,Merged,856,1,1,,0
+Improve server keyspace info in .server_info,2015-09-17,Merged,855,24,6,,2
+Fix memory leak. See #723 and thx to @rahar,2015-09-17,Merged,854,21,21,,2
+Remove bad .eval implementation,2015-09-17,Merged,853,20,41,,2
+Parser fix,2015-09-19,Merged,852,80,130,,21
+trigger `connect`&`ready` event even the client is ready,2016-01-03,Closed,851,103,1,js ,2
+Fix commands not being rejected after calling .quit as reported in #791,2015-09-16,Merged,850,81,29,,11
+Add some convenience redis environments,2015-10-06,Closed,849,32,12,,2
+Fix auth callback being called more than once,2015-09-17,Merged,848,23,16,,2
+Check that the password is from type string,2015-09-16,Merged,847,37,3,,2
+Improve js parser,2015-09-16,Merged,846,15,46,,1
+Flush queue when .end() is called,2015-09-24,Closed,845,3,0,,1
+Changelog v.2.0.0,2015-09-21,Merged,844,172,176,,0
+Reduce the reauthenticate timeout to 333ms,2015-09-16,Merged,843,4,4,,1
+Small speedup: do not call data.toString() on debug messages,2015-09-14,Merged,842,18,18,,1
+Add .command_used to errors thrown by the parser,2015-09-15,Merged,841,37,9,,3
+This fixes two TODOs in combination with exec,2015-09-16,Merged,840,72,74,,1
+Let v8 inline instead of doing in manually,2015-09-15,Merged,839,19,27,js ,2
+Consistent commands arguments,2015-09-16,Merged,838,332,87,js ,11
+retrofit tests so that they work on Windows,2015-09-14,Merged,837,200,135,yml json js ,12
+Do not wrap errors into other errors.,2015-09-12,Merged,836,4,4,,2
+Remove send_command safety checks,2015-09-16,Merged,835,56,29,,2
+Test against node 4.0.x on Travis,2015-09-12,Merged,834,1,0,,1
+support enabling password in redis …,2015-10-24,Closed,831,226,36,js ,2
+Implement redis connection broken mode,2015-09-16,Merged,829,243,82,md js ,5
+Fix multi error handling,2015-09-17,Merged,826,80,22,js ,4
+Remove event emitters from the parsers,2015-09-12,Merged,825,8,39,,4
+Remove async dependency,2015-09-12,Merged,824,24,47,js ,4
+Revert to old behavior,2015-09-14,Merged,823,7,10,,1
+Accept hmset being used without a callback. Closes #694,2015-09-04,Merged,822,37,1,,2
+a couple small additions to the readme,2015-09-04,Merged,820,6,1,,0
+minor tweaks to how we spawn tests in #815,2015-09-12,Merged,819,180,98,,6
+[WIP] Fix returning buffers not working,2015-09-21,Closed,818,2,1,,1
+Tiny speedup by removing command.toLowerCase(),2015-09-12,Merged,817,44,45,js ,34
+Remove try_callback,2015-09-14,Merged,816,58,89,,6
+Improve code coverage by adding tests and removing unnecessary code,2015-09-04,Closed,815,168,95,js ,6
+Update commands list and remove unecessary code,2015-09-12,Merged,814,45,30,js ,3
+Remove dead code,2015-09-02,Merged,813,1,8,,2
+Update readme,2015-09-02,Merged,812,55,101,,0
+"Add ""debug"" instead of using different indidivudal styles for debugging",2015-09-02,Merged,811,60,160,js ,3
+Remove some old stuff that is not needed anymore,2015-09-02,Merged,809,13,26,,4
+Refactor the test suite and remove duplicated code,2015-09-02,Merged,808,68,459,,17
+Add jshint and fix some tests,2015-09-12,Merged,807,370,340,jshintignore jshintrc yml js json ,15
+make sure we give @raydog credit in the changelog.md,2015-08-31,Merged,805,1,0,,0
+update changelog for v1.0.0 release,2015-08-30,Merged,804,7,1,,0
+Remove redundant check,2015-08-30,Merged,802,1,1,,1
+had descriptions of tests swapped around,2015-08-29,Merged,801,3,4,,1
+upgrade hiredis so that tests work on newest iojs,2015-08-30,Merged,800,10,2,json ,2
+Run single command multis without a multi,2015-09-01,Closed,799,25,0,,1
+added test for psubscribe,2015-08-17,Merged,796,14,0,,1
+porting tests from hand-rolled artisinal test-suite to mocha,2015-08-15,Merged,793,"4,869","2,467",json js ,6
+Make it possible to test node_redis in a Docker environment,2015-07-25,Merged,788,15,13,,1
+Rewrite createClient. Fixes #651,2015-07-22,Merged,786,14,35,,1
+use strict,2015-08-06,Merged,785,130,62,,35
+Clarify createClient in README as per #781 and other comments,2015-07-16,Merged,783,7,7,,0
+Clarify createClient in README as per #781,2015-07-16,Closed,782,8,7,,0
+I think it would be cool if we added a logo to this organization,2015-08-15,Closed,779,10,0,,0
+had a typo in the coverage badge,2015-07-12,Merged,777,1,1,,0
+"various fixes to tests, along with groundwork for adding travis and coveralls support",2015-07-12,Merged,776,103,38,yml md js json sh ,8
+Added example of a Redis SCAN command,2015-07-12,Merged,775,36,0,,1
+"Small improvements (performance, ensure valid constructor usage)",2015-07-22,Closed,772,11,13,,3
+A little optimization in a function if the client is closing.,2015-08-29,Merged,764,2,2,,1
+Update index.js,2015-09-04,Merged,761,1,1,,1
+adds coverage reporting using nyc bin,2015-07-11,Merged,758,6,2,json ,2
+Allow garbage collection of processed queue items,2015-09-04,Merged,752,4,1,,1
+Return Error object for errors in reply to EXEC,2015-09-13,Closed,751,23,0,,2
+"Issue #512 send_command(""monitoring"") is doomed to fail",2015-08-27,Merged,749,23,1,,2
+Use a Standard-Compliant License Identifier,2015-07-11,Merged,746,1,0,,1
+Update changelog.md typo handlign -> handling,2015-08-29,Merged,736,1,1,,0
+Support createClient from url,2015-04-05,Closed,734,24,4,md js ,3
+Fix for multi/exec logic with detect_buffers enabled,2015-07-12,Merged,733,109,5,,2
+Add option to return es6 Map from hgetall,2015-09-08,Closed,730,59,3,js ,2
+Implemented early event handlers,2015-11-23,Closed,729,24,8,,1
+Update package.json,2015-07-12,Closed,726,1,0,,1
+Feature: Emit an event when the maximum number of connection attempts has been reached,2015-09-16,Closed,724,2,2,,1
+Fixed memory leaks on reconnect,2015-09-17,Closed,723,18,14,,1
+Channel names with spaces + test,2015-07-22,Closed,721,25,1,,2
+Channel names with spaces + test,2015-03-02,Closed,720,26,1,,2
+FWD_ERRORS_1 keeps listening,2015-03-01,Merged,719,13,2,,1
+Add a Gitter chat badge to README.md,2015-08-16,Closed,718,2,0,,0
+Fixed missing word in README.md,2015-02-25,Merged,716,1,1,,0
+Add TLS Support,2015-10-28,Closed,710,232,13,md js crt pem template ,6
+Removed unnecessary indentations and added some js syntax highlighting,2015-09-02,Merged,706,165,150,,0
+Fetch new list of commands,2015-09-12,Closed,702,8,1,,1
+Added ability to log redis commands and their replies,2015-10-04,Closed,701,6,0,js ,1
+hmset can be called without function callback,2015-09-04,Closed,694,2,1,js ,2
+Fix for channel names with spaces,2015-09-18,Closed,692,2,1,,1
+"Fix Command Queue Stack Error #577, #603",2016-03-26,Closed,685,27,8,json ,3
+Make the hiredis documentation less important.,2015-07-12,Closed,681,13,10,,0
+add support for disable_flush option,2015-09-16,Closed,675,23,21,,1
+Fixes: offline_queue and option max_attempts don't work together as expected #280,2015-09-16,Closed,671,9,3,,1
+Fixed a typo,2015-02-17,Closed,669,1,1,,0
+fixed createclient error when args are undefined,2015-07-23,Closed,665,2,1,,1
+added URL support to createClient,2015-07-12,Merged,658,32,2,,2
+#655: only output errors if I ask,2015-09-04,Closed,656,7,2,,1
+Update changelog.md: fixed a typo: handlign -> handling,2015-09-02,Closed,653,1,1,,0
+Add socket_connect_timeout option.,2015-10-29,Closed,652,20,0,js ,1
+Attach command_obj to return error,2015-09-15,Closed,649,1,0,,1
+Add more chaining to RedisClient,2015-09-04,Closed,647,37,7,,1
+Fix error message relating to connection family,2014-08-11,Closed,644,1,1,,1
+Improve the support of unix socket,2014-08-09,Merged,642,105,52,js ,2
+Fixed wrong replies for multi.hgetall,2014-11-01,Closed,640,2,0,,1
+Fix connection issues in 0.11.0 release,2014-08-09,Closed,639,22,12,,1
+adding Unix Domain Socket support,2014-08-09,Closed,638,15,11,,1
+Fixed a typo,2014-09-25,Closed,637,1,1,,0
+Sending Arrays in Redis Multi Commands,2015-09-14,Closed,634,25,1,,2
+Refactor to_array,2015-09-02,Closed,626,1,8,,1
+Do not destroy ability to use unix socket,2014-08-09,Closed,625,10,4,,1
+Make a new socket on reconnect,2014-07-11,Merged,622,11,6,,1
+Emitting error event when connection permanently goes down,2015-09-15,Closed,615,9,1,js ,1
+Improve the validation of auth_pass,2015-09-16,Closed,613,1,1,,1
+Add full IPv6 redis connection capability in a full IPv6 network,2014-07-11,Merged,612,64,6,js ,2
+Improving server_info,2015-09-17,Closed,610,23,2,,2
+add specific event type,2014-07-09,Closed,604,1,0,,1
+"Don't bind to domain, it prevents callbacks from execution",2014-08-14,Closed,602,2,20,,1
+fixed RedisClient.prototype.end not clear this.retry_timer,2014-07-11,Merged,596,8,0,,1
+Added rethrowing of callback errors when there is no domain active on a new stack,2014-07-11,Closed,593,10,6,js ,3
+update commands support 2.8.9,2015-09-02,Closed,590,9,1,,1
+Fix dangerous test that can cause tests to give false success,2014-05-18,Merged,588,4,3,,1
+reply_to_object function is broken for binary keys,2014-05-18,Merged,584,16,1,,2
+Regenerate commands.js for redis 2.8.9.,2014-05-22,Merged,578,9,1,,1
+Check that `process.domain` still exists,2014-07-11,Merged,575,5,2,,1
+Ignore errors after .end() is called instead of causing an uncaught exception,2015-09-15,Closed,572,8,0,,1
+param socket_keepalive to set keep-alive on socket,2014-07-11,Merged,570,5,0,js ,1
+fix #537 hmset do not save null field,2016-01-03,Closed,560,1,0,,1
+"If there's an error in SELECT and there's no callback, emit the error.",2014-02-20,Merged,557,12,0,,2
+Handle undefined redis_version,2014-02-18,Merged,556,5,3,,1
+Failing send_command faster when there's no connection,2014-02-07,Closed,549,5,0,,1
+Fix typos,2015-09-20,Closed,548,7,9,,0
+update copyright year,2015-09-02,Closed,546,1,1,,0
+Fix TypeError: Cannot call method 'toString' of null,2015-09-30,Closed,541,2,2,,1
+Add code property to redis errors,2015-09-19,Closed,538,9,1,,1
+Refactoring for slight performance improvement,2015-09-28,Closed,535,88,74,,1
+added check for null or undefined to last argument in each command in th...,2015-09-08,Closed,534,6,2,,1
+removing flush_and_error from on_error handler,2015-09-16,Closed,533,0,2,,1
+Regenerate commands.js to match redis 2.8.0.,2013-12-15,Merged,531,8,2,,1
+Make retry vars still hold in an authrization failer,2013-12-15,Merged,528,3,2,,1
+Add support for TLS,2015-10-19,Closed,527,224,8,js gitignore crt pem template ,6
+Added .travis.yml,2015-09-02,Closed,518,9,0,,1
+Provided test for the pull request #471,2015-08-07,Closed,517,86,8,,3
+Issue #262: updated RedisClient.prototype.hmset to accept string or numeric keys...,2013-11-23,Merged,515,21,3,,2
+Update index.js,2015-09-24,Closed,511,2,0,,1
+fix reconnection error when call client.end(),2015-09-10,Closed,506,1,0,,1
+Make EVAL work without callback,2015-09-04,Closed,502,6,1,,2
+Add an option to handle renamed commands,2015-10-10,Closed,499,18,2,,1
+typo already,2013-10-14,Merged,498,1,1,,0
+README for unix domain socket connection.,2013-10-11,Merged,497,19,0,,0
+"When handling the ""error reply"" event from the parser, we now bubble up ...",2013-10-03,Closed,482,5,1,,1
+Added option to disable resubscribing on reconnect,2015-10-02,Closed,472,53,8,,2
+Fix for multi operations with detect_buffers enabled,2015-09-08,Closed,471,19,10,,2
+Make retry_max_delay option work correctly when retry_backoff becomes greater than one,2013-10-03,Closed,470,2,2,,1
+String is not an error,2013-10-03,Closed,465,6,3,,1
+add enable_persistent_queue option,2015-09-16,Closed,463,19,11,js ,1
+Fix TypeError when handling multi exception,2013-11-23,Merged,457,0,1,,1
+[fix] remove try catch wrapping around the callback thats passed in by the module user,2015-09-14,Closed,456,2,14,,1
+Implemented unref option,2013-10-03,Closed,446,25,0,,3
+Auth_pass should be part of options,2013-07-24,Merged,441,4,0,js ,1
+Bug with monitor,2013-10-02,Closed,440,1,0,,1
+Oscillating reconnection intervals when retry_max_delay option set.,2015-09-16,Closed,438,26,19,js json ,3
+Modification to RedisClient.prototype.do_auth,2013-05-21,Merged,434,4,0,,1
+Flexible connections for sentinel support,2016-04-26,Closed,429,52,12,,1
+"Export utils and commands to share (with sentinel client, or others)",2015-09-24,Closed,428,131,86,,4
+Protect connection retries from application exceptions,2013-05-05,Merged,426,14,2,,1
+fix unescaped exception in Multi.exec,2013-04-27,Merged,424,26,5,js ,2
+"Refer to ""pub/sub"" mode as ""subscriber"" mode instead",2013-04-14,Merged,421,6,6,js ,1
+fix fwd errors test for node >= 0.9.1,2013-04-08,Merged,414,3,2,,1
+only execute callback when callback exists,2013-04-27,Merged,409,3,1,,2
+fix empty unsub/punsub TypeError calling toString on null,2013-04-27,Merged,408,50,4,,2
+Support to expand args when array on srem command too (was working only with sadd). Noticed on #404,2013-04-19,Merged,407,26,4,,2
+Sentinel Command,2015-01-29,Closed,406,1,0,,1
+"Add docu for options: max_attempts, connect_timeout",2013-03-17,Merged,405,4,0,,0
+need not send message to server when set undefined value,2013-03-17,Merged,403,10,0,,2
+Enable client command,2013-03-15,Merged,401,41,4,,2
+Add retry_max_delay option,2013-03-17,Merged,396,34,2,js ,2
+Connecting to unexisting ip hangs up forever,2015-10-29,Closed,394,27,22,,1
+Fix for subscribing to large messages,2015-10-17,Closed,384,104,90,,2
+Parser Fix Bundle,2013-03-10,Closed,382,117,17,,2
+Fix for first run fail of slowlog test,2013-02-24,Closed,381,12,11,,1
+Fix for Slowlog test.,2013-02-20,Closed,380,295,250,,0
+"Fix ""this"" reference for parser_module",2013-02-20,Closed,379,1,1,,1
+Fix tests to support changes in Redis 2.6.5+,2013-02-24,Closed,378,51,19,,1
+Don't swallow exceptions in javascript parser,2013-02-17,Closed,372,9,4,,1
+Lua scripts as commands,2015-09-02,Closed,371,152,1,js ,2
+EVAL: paramaters as an array support,2013-02-24,Closed,368,20,1,,3
+SCRIPT command corrections,2013-02-24,Closed,366,1,4,,1
+Support commands consisting of multiple words,2013-02-24,Closed,363,23,1,js ,2
+Enough reconnection retry before flushing out offline queue,2015-09-16,Closed,362,11,2,,1
+Javascript parser swallows errors thrown in command callback,2013-03-12,Closed,361,17,4,,2
+Don't pop the command queue when PubSub messages are received,2013-02-24,Closed,360,49,3,,2
+"trap exceptions from the parser, but not ones thrown by event handlers",2013-02-18,Closed,357,37,21,,1
+don't dequeue the command queue if a message or pmessage is received,2013-01-01,Closed,356,8,4,,1
+Make return_buffers work with channel names.,2015-09-21,Closed,354,3,3,,1
+Send offline queue in pub sub mode,2012-12-19,Closed,352,7,1,,1
+Trigger ready event in pub/sub mode when no subscribe related commands issued before,2012-12-19,Closed,351,5,1,,1
+Fixed an unexpected exception bug when reconnecting in pub/sub mode if selected_db is not null,2013-03-27,Merged,350,28,2,,2
+Unexpected exception when reconnecting in pub/sub mode if selected_db is not null,2012-12-19,Closed,349,5,0,,1
+Command queue error after pubsub,2015-09-18,Closed,347,2,0,,1
+Unexpected exception when reconnecting in pub/sub mode if selected_db is not null,2012-12-19,Closed,346,12,1,,1
+Something to generalize accepted types,2013-02-24,Closed,345,11,2,,2
+hmget breaks on null values if used with detect_buffers,2013-03-16,Closed,344,12,1,,2
+Fix for issue 342,2012-12-24,Closed,343,8,4,,1
+fix keys test for redis 2.6 (issue 290),2013-02-18,Closed,340,17,8,,1
+call toString() method when the type of the value is number in hmset,2015-09-04,Closed,338,3,0,,1
+FIX for issue #285: Allow number and boolean as well as strings.,2015-09-02,Closed,335,1,1,,1
+Incorrect offset setting in the new js parser,2012-11-27,Closed,334,1,2,,1
+Dont' assume SET ordering in tests,2013-02-18,Closed,326,6,6,,1
+Revert eval caching,2012-11-02,Closed,318,0,30,,1
+Make return_buffers work with ints,2012-11-02,Merged,317,35,7,,2
+Removed usage of undefined variable current_retry_delay,2012-11-02,Merged,312,4,4,,1
+add support for 0.8+ domains,2013-10-17,Merged,310,35,3,,2
+Updated 'parser' option from old value 'javascript' to new value 'faster',2012-11-02,Closed,308,1,1,,0
+Buffer write improved,2015-08-18,Closed,305,29,32,json ,2
+fixed RedisClient.prototype.end(),2012-11-02,Merged,303,1,0,,1
+Revert eval caching,2012-10-27,Closed,299,0,28,,1
+Test for slowlog,2013-02-18,Closed,295,15,0,,1
+Fix for subscribing to large messages,2015-09-29,Closed,284,58,55,,2
+Fix cases where the offset is out of range (javascript parser),2012-09-22,Closed,277,13,3,,1
+Consolidate special hash helpers across client + multi client.,2015-08-18,Closed,276,227,84,js ,1
+rewind mechanism #273,2012-09-22,Closed,275,11,1,,1
+Test for #267,2012-09-11,Merged,270,22,5,,2
+fix for issue #267,2012-09-11,Merged,269,13,3,,1
+package.json: remove optional hiredis dep,2012-09-11,Merged,266,2,7,,1
+Add support for array of args in new eval,2012-10-08,Closed,257,14,13,,1
+fixes #218 by expanding last argument array only for sadd command,2012-08-17,Closed,254,5,6,,1
+"eval tries evalsha first, then falls back on original eval",2012-08-23,Closed,253,122,61,,2
+This fixes the reconnect failure when in pub/sub mode,2012-08-08,Closed,250,4,0,,1
+a generally faster javascript parser,2012-09-11,Merged,242,231,272,,0
+PUB/SUB reconnect does not work.,2012-07-13,Closed,241,92,1,,2
+Moving some logic that should fix the idle event,2012-07-06,Closed,237,14,4,,2
+"Hi! I fixed some calls to ""sys"" for you!",2012-06-28,Closed,232,1,1,,1
+remove debug,2012-06-22,Closed,231,65,33,js ,2
+Added option to disable offline queue,2012-07-06,Closed,214,54,4,js ,2
+PUB/SUB reconnect does not work.,2012-07-06,Closed,210,267,61,js tests/stress/pubsub/run → benches/stress/pubsub/run tests/stress/rpushblpop/run → benches/stress/rpushblpop/run tests/stress/speed/00 → benches/stress/speed/00 tests/stress/speed/plot → benches/stress/speed/plot png ,16
+Mention the extremely useful `select` command in the README,2012-04-25,Closed,207,10,0,,0
+"remove duplicate ""take either""",2012-04-23,Merged,206,1,1,,0
+Fix invalid package.json formatting,2012-04-23,Closed,203,2,1,json ,2
+Lua scripts as commands,2012-07-26,Closed,195,200,34,md ,1
+Removed reference to individual `args` argument,2012-04-27,Closed,192,1,2,,0
+Pub sub mode fix,2012-04-30,Merged,190,17,1,json ,3
+Add comma to package.json,2012-04-23,Closed,189,1,1,,1
+index.js perf: remove .forEach in Multi.prototype.exec,2012-04-28,Merged,188,0,0,,0
+"fix #186, multi/exec callback error",2013-06-27,Closed,187,5,1,,1
+Fix invalid JSON in package.json,2012-04-23,Closed,185,1,1,,1
+error handling with multi / exec,2013-03-16,Closed,184,25,15,json ,2
+How to correctly auth to server; what error to look for if you're doing it wrong; emit Error objects not string,2012-03-06,Merged,183,8,4,js ,1
+send_command() patch,2013-02-18,Closed,181,13,5,,1
+Propose to change hiredis dependency,2012-04-26,Closed,180,10,5,,1
+Small scope fix in init parser.,2012-04-28,Closed,175,1,1,,1
+Fix a bug in pubsub.,2012-04-30,Closed,171,22,1,json ,3
+Fix package.json.,2012-04-23,Closed,170,1,1,,1
+"Fixed #168, package.json syntax error. as reported by @skylamer",2012-02-10,Closed,169,1,1,,1
+List hiredis as an optional dependency.,2012-02-03,Merged,167,3,0,,1
+Fix for [GH-165] - createClient to properly assign parser_module,2012-04-30,Merged,166,1,1,,1
+Fixed an issue with detect_buffers set to true for an hgetall request in multi,2013-03-16,Closed,156,12,4,,1
+sys x util - the logic only uses util on 0.3.x,2011-11-07,Closed,149,3,4,,2
+Support for retrieving data as Buffer on a per command basis,2011-11-16,Merged,148,72,1,js ,1
+Improved 'sys' deprecation support and backwards compatibility with `util`,2011-11-15,Merged,147,0,0,,0
+added sort example,2011-11-14,Merged,146,17,0,,1
+"After a connection error, selected db, if it was set, is not restored",2011-11-14,Merged,142,32,2,,1
+Fix bad reference to 'this',2011-11-10,Merged,141,1,1,,1
+Fix: Hiredis parser traps pubsub event exceptions,2011-11-14,Merged,139,52,9,,2
+added ability to pass undefined instead of callback,2011-11-15,Merged,136,20,4,,2
+fix error handling; call command callbacks on error,2012-07-26,Closed,132,6,6,,1
+fix for current_retry_delay calculation. simple one line change.,2011-11-17,Closed,131,1,1,,1
+Fix handling of double quotes in MONITOR output,2011-09-21,Closed,124,5,4,,1
+Bug when calling quit(),2011-07-30,Merged,122,6,3,,1
+commodity exports.Multi,2011-07-06,Merged,120,2,0,,1
+SlowBuffer support,2011-07-06,Merged,119,3,3,,1
+urgent: fix for drain event,2011-07-06,Merged,118,283,1,tests/stress/pubsub/run tests/stress/rpushblpop/run tests/stress/speed/00 tests/stress/speed/plot png ,12
+"Allow ""publish"" command in pub/sub mode",2011-06-29,Closed,117,2,0,,1
+"The 'somehow' in 'This list needs to be updated, and perhaps auto-updated somehow'",2011-06-13,Merged,107,167,23,,3
+There is a bug with authentication (please see the commit comment). It should be fixed now.,2011-06-30,Merged,101,38,10,,1
+Fixed a bug with return_reply being called and command_queue being erroneously shifted,2012-07-26,Closed,95,8,2,,1
+Load commands for node_redis in dynamically on first run.,2011-04-02,Closed,80,126,37,,2
+support for brpoplpush command,2011-04-22,Closed,79,1,1,,1
+Connection safeguards,2011-11-17,Closed,78,31,1,,1
+Fix for bug where you can't save an object with arrays AND buffers,2011-03-15,Closed,59,12,1,,2
+update readme,2011-02-11,Closed,58,1,1,,0
+Added support for new BIT-related commands.,2011-01-22,Closed,53,2,0,,1
+Bench fix,2010-11-30,Closed,41,131,214,,2
+Partial fix for null multi bulk response,2010-12-01,Closed,38,30,16,,2
+PSUBSCRIBE example,2010-10-02,Closed,29,33,0,,1
+parsing .multi().hgetall() result to object,2010-10-02,Merged,28,36,8,,2
+Trying to imporbe error handling.,2010-09-30,Merged,24,10,6,,1
+more bug fixes and tests,2010-09-28,Merged,23,24,5,,2
+Found the bug.  Was sending arg.length not Buffer.byteLength(arg),2010-09-28,Merged,22,24,5,,2
+Features/multi,2010-09-24,Merged,17,62,59,,2
+connect was ignoring the host argument,2010-09-23,Merged,16,1,1,,1
+Connection fixes,2010-09-21,Merged,14,15,3,,3
+Bugs/hgetall null,2010-09-20,Merged,13,11,1,,2
+Retry loop fix,2010-09-19,Merged,12,4,1,,1
+Zero length,2010-09-19,Merged,11,6,3,,1
+Benchmarks,2010-09-19,Merged,10,116,106,,3
+Remove log,2010-09-18,Merged,9,3,1,,1
+Bugs/multibulk zero null,2010-09-18,Merged,8,2,2,,2
+Hsetnx,2010-09-17,Merged,7,1,1,,1
+Tests,2010-09-17,Merged,6,15,13,,1
+Bugs/empty keys,2010-09-17,Merged,5,12,0,,2
+Features/hash object,2010-09-17,Merged,4,16,8,,2
+Client close,2010-09-17,Merged,3,5,0,,1
+Queue fixes,2010-09-17,Merged,2,5,3,,1

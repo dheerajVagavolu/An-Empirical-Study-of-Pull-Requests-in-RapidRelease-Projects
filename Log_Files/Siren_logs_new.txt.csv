@@ -1,0 +1,122 @@
+Potential fix for unblocking the UI in iOS 13,2019-10-12,Merged,314,17,13,,1
+Fix left-over window bug after dismissing alert,2019-10-03,Closed,310,2,2,,1
+Xcode 11 / iOS 13 / Swift 5.1 Support,2019-09-15,Merged,306,73,39,yml swift podspec ,8
+Reword misspell words,2019-08-18,Merged,301,12,12,,6
+Fix for comparing current version with app store of same version,2019-07-02,Closed,291,6,3,,1
+Fixed same version bug found in #288,2019-05-15,Merged,289,"4,240","5,811",swift plist html ,6
+Added wail with provided newer version,2019-05-10,Closed,286,174,96,swift ,2
+Fixed issue with date offset calculations due to time zone,2019-04-17,Merged,284,7,5,,1
+Update SwiftPM manifest file,2019-04-03,Merged,281,13,2,md ,1
+Swift 5 Implementation and Architecture Changes,2019-03-28,Merged,279,"4,604",846,pbxproj ,2
+Fix missing imports,2019-03-11,Merged,273,2,2,,2
+"review zh-Hans, zh-Hant i18n strings.",2019-03-01,Closed,271,0,0,,2
+FIX a conditional statement for the skip action.,2019-02-09,Merged,270,1,1,,1
+add `hinting` static rules configuration,2019-02-02,Merged,269,10,5,,1
+Manual version check and alert presentation,2019-02-02,Merged,268,"3,932",314,swift html ,6
+[ADD] case in rules manager to prevent alert presenting,2019-02-01,Closed,266,5,0,,1
+Removed shouldPerformVersionCheckOnSubsequentLaunch userdefault to fi…,2019-01-11,Merged,264,"16,818","2,635",swift html ,5
+Update Siren.swift,2018-12-20,Merged,254,2,1,,1
+Siren 4.0.0,2018-12-27,Merged,250,"28,872","3,425",ruby-version yml ,2
+Removed print statement from UserDefaults getter,2018-11-09,Merged,247,0,1,,1
+"Add an enum `SirenEitherType` to adjust the type of value for key ""tr…",2018-10-29,Closed,240,42,2,,3
+Fix trackId type change from Int to String,2018-10-26,Closed,239,2,2,,2
+Force update based on minimum version set by user,2018-10-13,Closed,236,32,6,,3
+Force update based on minimum version set by user,2018-10-12,Closed,235,32,6,,3
+Force update based on minimum version set by user,2018-10-12,Closed,234,31,0,,3
+Further refactoring for Swift 4.2,2018-09-28,Merged,231,584,329,pbxproj swift lock ,10
+Converted SirenAlertMessaging strings to type of NSAttributedString,2018-09-22,Merged,228,59,55,lock md podspec ,6
+Swift 4.2 compatibility,2018-08-03,Closed,222,3,3,swift ,2
+Update Siren.swift,2018-07-28,Closed,220,1,0,,1
+Update German localisation,2018-07-24,Merged,218,0,0,,1
+Use method introduced in iOS 10 for opening URLs with UIApplication,2018-07-02,Merged,216,5,1,,1
+Localized title,2018-06-07,Merged,214,11,5,,3
+SirenDelegate Enhancements,2018-04-28,Merged,210,79,47,md swift ,5
+HTTPS when supported,2018-04-27,Merged,209,17,17,md swift ,2
+HTTPS when supported,2018-04-27,Closed,208,32,32,md swift html ,17
+Added check function that allow to pass custom check performing frequency in days,2018-04-23,Closed,205,20,6,,1
+Changed pt-BR text to be less aggressive.,2018-03-12,Merged,201,1,1,,1
+Check if the return data contains any results,2018-03-11,Merged,200,9,0,,2
+Override Siren's Default Copy/Messaging in UIAlertController/UIAlertActionSheet,2017-12-08,Merged,187,78,8,swift ,4
+"Annoying alerts everytime app is switched to foreground from background even after clicking ""Next Time"" button in the alert",2017-11-27,Closed,185,8,1,,1
+"Annoying alerts everytime app is switched to foreground from background even after clicking ""Next Time"" button in the alert",2017-11-23,Closed,184,8,1,,1
+Fix Arabic localization.,2017-11-22,Merged,182,2,2,strings ,2
+Update README with phased rollout options,2017-11-17,Merged,181,6,2,,0
+Add import UIKit for compilation as static framework.,2017-11-09,Merged,179,2,0,,2
+New Function: Alert for Appstore release notes,2017-11-08,Closed,178,100,4,strings ,5
+'characters' is deprecated in Swift 4,2017-10-21,Merged,176,2,2,,1
+Add Ukrainian localization,2017-10-20,Merged,175,18,0,strings ,3
+Add update type information to custom alert delegate function,2017-10-11,Merged,171,47,5,,3
+Resolve accessibility issues,2017-09-13,Merged,162,4,4,,1
+fix: sirenDidFailVersionCheck default implementation,2017-09-13,Closed,160,1,1,,1
+Update ja localization,2017-08-27,Merged,159,2,2,strings ,2
+Revert Xcode9 changes on swift3 branch,2017-08-07,Closed,158,45,23,xcscheme swift ,5
+Added SirenLog. Removed assertionFailures on default implementations …,2017-08-05,Merged,157,61,25,swift ,4
+"[Bug fix] set ""en_US_POSIX"" as the locale of the date formatter",2017-06-19,Merged,150,1,0,,1
+Swift 4 and Xcode 9 Support,2017-09-13,Merged,147,471,444,yml md podspec pbxproj xcscheme swift xib storyboard json plist ,13
+Swift3.x,2017-06-04,Closed,145,332,260,strings ,7
+Persian localization added.,2017-06-04,Merged,144,54,0,strings ,5
+Czech language support added,2017-05-29,Merged,143,1,0,swift ,2
+Update pt-BR localization,2017-04-26,Merged,140,0,0,,1
+Fixed Enum cases typo,2017-04-20,Merged,139,7,7,,0
+2.0.0,2017-04-08,Merged,136,371,277,md podspec pbxproj swift ,4
+Added SirenDateExtension. Improved app safety.,2017-03-22,Merged,134,35,30,swift ,3
+Split code into separate files,2017-03-18,Merged,131,138,92,pbxproj swift ,6
+Swifiter Codebase,2017-03-04,Merged,128,"7,275",43,Gemfile lock md podspec swift ,7
+Repo Improvements,2017-03-03,Merged,127,"2,272",785,DS_Store pbxproj xcscheme plist h ,6
+Added issue template,2017-02-28,Merged,124,11,0,,0
+URL request cached response fixed,2017-02-03,Merged,122,1,1,,1
+Add links to badges,2017-01-19,Merged,118,2,2,,0
+translate README.md into Chinese,2017-01-17,Merged,116,236,1,,0
+Multiple Alert Bugfix + More,2017-01-14,Merged,114,117,217,pbxproj xcscheme swift ,6
+Update README.md with Swift 3 syntax in Setup section,2016-12-15,Merged,109,3,3,,0
+It prevents the proposed update due to the cache,2016-12-09,Merged,107,4,1,,1
+Add Norwegian language,2016-12-09,Merged,106,33,0,swift strings ,3
+support OS X,2017-02-28,Closed,105,96,9,swift ,2
+"Add translations in Greek (el), Finnish (fi), and Indonesian (id)",2016-11-27,Merged,103,68,2,DS_Store swift strings ,5
+Support for Greek Language,2016-11-14,Merged,101,32,0,swift strings ,4
+Support of Greek Language,2016-11-11,Closed,100,"2,212","2,197",Gemfile lock LICENSE swift ,4
+Delegate for latest version installed and check for how long current app has been released,2016-11-14,Merged,99,34,4,,1
+Add Serbian (Cyrillic & Latin) localization,2016-11-10,Merged,98,36,0,strings ,4
+"Use CFBundleDisplayName when available, and keep application status bar style",2016-11-10,Merged,97,11,3,,1
+Bugfix/url components,2016-10-04,Closed,93,4,6,,1
+Fixes #89,2016-09-27,Merged,90,5,5,,1
+Alternative App Store support.,2016-09-08,Closed,87,35,6,,1
+Continuing influence - doc updates,2016-08-14,Merged,84,1,0,,0
+Fix typo,2016-08-13,Merged,83,0,0,,1
+Swift 2.3 Support,2017-03-18,Closed,81,44,15,xcscheme xib swift ,5
+"Update name from ""Harpy"" to ""Siren""",2016-08-05,Merged,80,1,1,,0
+Swift2.3,2016-08-06,Closed,79,10,1,swift ,2
+Add Vietnamese localization,2016-07-27,Merged,78,18,0,strings ,3
+Siren 1.0.0 WIP (Swift 3 Support),2016-09-12,Merged,75,351,341,pbxproj xcscheme swift xib ,5
+croatianLocalization: Added Croatian Localization,2016-06-24,Merged,73,14,0,,1
+Bugifx/fix crash for new apps,2016-06-18,Merged,72,14,9,md pbxproj podspec swift ,4
+"Fixed error on apps on under development, not submitted to AppStore",2016-06-18,Merged,71,1,1,,1
+Adding Tests,2016-06-18,Merged,68,842,41,pbxproj xcscheme swift xib plist ,5
+Minor changes after PR 63,2016-05-24,Merged,64,4,9,podspec swift ,2
+Issue with version checking algorithm,2016-05-24,Merged,63,9,11,,1
+Work in Progress for v0.8.0,2016-04-27,Merged,56,70,82,pbxproj swift podspec ,4
+Change SirenDelegate from @objc protocol to swift protocol,2016-04-27,Merged,55,25,14,,1
+Allow (optional) bundleID instead of (required) AppID,2016-04-27,Merged,54,47,10,swift ,1
+Allow bundleID instead of AppID,2016-04-22,Closed,52,72,24,swift ,1
+Slight Refactor,2016-03-28,Merged,49,241,151,pbxproj swift xib storyboard podspec ,5
+Adding delegate method to capture error and no update scenarios,2016-03-28,Closed,48,10,0,,1
+Exposed currentAppStoreVersion,2016-03-16,Merged,47,7,3,swift ,2
+remove semicolon,2016-03-10,Merged,46,1,1,,1
+New delegate method to send new app store version and app name for a custom UI,2016-03-16,Closed,45,25,10,swift ,1
+Initial attempt at adding Carthage support,2016-02-08,Merged,42,399,12,pbxproj ,1
+Fix daysSinceLastVersionCheckDate,2016-01-23,Merged,40,1,1,,1
+Add return value in README,2015-12-20,Merged,38,2,0,,0
+Added Armenian language support (hy),2015-11-10,Merged,37,1,0,swift ,2
+Added Malay language support (ms_MS),2015-11-05,Merged,36,15,0,swift ,2
+Support Enterprise Distribution,2015-11-05,Closed,35,218,24,plist podspec ,4
+Swift 2.0 Updates,2015-09-09,Merged,29,185,141,pbxproj swift xib storyboard plist podspec ,6
+check nil of updaterWindow on func hideWindow,2015-09-09,Closed,27,4,2,,1
+Search in the correct bundle for resource bundle.,2015-06-28,Merged,22,1,1,,1
+Adds updateAlertType support for apps using only major and minor numb…,2015-06-01,Merged,21,27,9,swift ,2
+Adding a second UIWindow to display the UIAlertController.,2015-05-05,Merged,18,27,15,,2
+mark API interfaces as public to enable access through a .framework,2015-04-01,Merged,15,14,14,,1
+Added Polish language support,2015-03-02,Merged,10,1,0,swift ,2
+Simplify split function,2015-02-24,Merged,8,2,2,,1
+Fixes crash with nil iTunesURL,2015-01-29,Merged,7,3,3,swift ,2
+Fixes issue #3,2015-01-21,Closed,4,7,1,,1
+Fixes crash if no App Store versions are available,2015-01-13,Merged,2,12,12,swift ,2

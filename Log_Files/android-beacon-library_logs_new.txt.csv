@@ -1,0 +1,251 @@
+Samsung devices stop scanning when screen is off,2020-01-03,Closed,936,1,1,,1
+"Don't force bluetooth on, don't reset bluetooth when devices are paired",2019-11-07,Closed,931,7,1,,1
+Use bootstrap background with range notifier,2019-12-02,Closed,921,94,26,,7
+Gradle 5 Upgrade,2019-07-05,Merged,900,28,75,gradle properties ,5
+Fix crash on job stop,2019-07-09,Merged,896,212,200,java ,1
+typo,2019-06-11,Merged,894,1,1,,0
+catch NPE in BluetoothMedic#runScanTest,2019-06-05,Merged,893,4,1,,1
+Fix IllegalArgumentException from ending user switch watching,2019-07-09,Merged,891,8,1,java ,1
+Protect against NPE on failed restore of ScanState,2019-07-09,Merged,890,112,85,java ,1
+Fix thread leak with 0 regions and settings applied,2019-07-09,Merged,888,57,90,java ,2
+Prevent crash on alarms going off with a different user active,2019-05-29,Merged,886,31,2,,1
+Fix thread leak caused by scheduling ScanJob when no consumers bound,2019-05-29,Merged,885,6,3,java ,1
+[android-beacon-library] Fix #881 Background Monitoring using RegionB…,2019-05-23,Closed,882,1,1,,1
+Move ScanJob startup work to non-UI thread in case of state restore hang,2019-05-29,Merged,878,58,50,,1
+Migrate library to Android X,2019-11-14,Merged,874,77,68,properties java ,26
+WIP: Use hardware filters for faster exit detections,2019-05-29,Closed,869,511,53,java ,5
+Only apply Samsung-specific non-empty scan filters when the screen is off,2019-05-23,Merged,855,4,1,,1
+Cancel scheduled jobs when setEnableScheduledJobs(false) is called,2019-04-04,Merged,847,3,0,,1
+Fix failed callbacks by registering local broadcast receiver earlier,2019-03-18,Merged,842,7,1,java ,2
+Fix buildscript for release builds and upload to jcenter,2019-03-07,Merged,829,4,4,,2
+Fix crash on scanning as foreground service,2019-02-10,Merged,828,10,2,java ,1
+Fix RegionBootstrap broken default consructors,2019-02-10,Merged,827,2,39,,1
+ScanHelper Moving NPE exception above RuntimeException,2019-02-10,Merged,824,12,2,java ,1
+Change RegionBootstrap method signature and separate the context from…,2019-02-10,Merged,821,98,13,,1
+Organize the build script,2019-01-11,Merged,811,176,178,gradle properties java xml json ,114
+Bump version Gradle to 4.10.3 and Robolectric to 4.1,2019-01-09,Merged,805,111,142,gradle properties java ,15
+Properly cleanup service after shutdown,2018-12-22,Merged,804,5,1,java ,1
+Sample,2018-12-20,Closed,803,"3,241","3,292",gitignore NOTICE gradle xml java ,7
+Crash fix: bluetoothCrashResolver is used only in versions before Lollipop,2018-12-11,Closed,799,3,1,,1
+Fix broken Samsung screen off scans on 8.1+,2018-12-11,Merged,798,22,5,java ,1
+Fixed null pointer from un-instantiated BluetoothCrashResolver use in…,2018-12-03,Merged,790,3,1,,1
+Fix thread leak,2018-11-28,Merged,785,34,2,java ,3
+Fix #780: NullPointerException on startScan(),2018-11-22,Merged,782,10,6,,1
+Fix 2.15.2 download link,2018-11-15,Merged,776,1,1,,0
+Protect against a NPE on iteration of regions,2019-04-19,Merged,770,9,4,java ,1
+disable BluetoothCrashResolver if Android version is 5.0 or higher,2018-11-22,Merged,768,6,2,java ,1
+Make service stopping more reliable,2018-11-22,Merged,767,12,3,java ,3
+Fix NPE on cycled le scanner,2018-11-10,Merged,766,48,17,java ,3
+Fix bug preventing callbacks after unbind/bind when using scan jobs.,2018-11-22,Merged,765,6,3,gradle java ,3
+Prepare for release 2.15.2,2018-10-17,Merged,753,1,1,,0
+Adding auto-generated CircleCI 2.0 config file,2018-10-10,Merged,752,31,0,,1
+Re-enable BeaconSimulator,2018-10-17,Merged,751,33,212,gradle java ,4
+Prevent OutOfMemoryError Crash on Android 8,2018-10-17,Merged,750,17,4,java ,2
+Fix leaked NotificationProcessor in ScanJobsScheduler,2018-10-08,Merged,748,4,0,,1
+Allow starting foreground service at boot,2018-10-10,Merged,746,14,3,java ,1
+Fix duplicate raging/monitoring callbacks,2018-10-03,Merged,745,6,0,java ,1
+Catch of exception thrown by Android stopping scan,2018-09-01,Merged,724,4,0,java ,1
+Replace deprecated compile in README,2018-08-13,Merged,722,1,1,,0
+Fix Android 8 crashing apps on background monitoring/ranging data delivery,2018-09-01,Merged,720,20,5,java ,3
+Fix NPE on RangedBeacon per #638,2018-09-01,Merged,716,22,19,java ,1
+Prepare for 2.15 release,2018-07-04,Merged,709,1,1,,0
+Fix crash parsing malformed Eddystone-URL packet,2018-06-13,Merged,703,22,1,java ,2
+Cancel schedule jobs after last consumer unbound,2018-07-05,Merged,702,18,3,java ,2
+"Invert conditional logic for logging ""disable ScanJob"" warning",2018-06-11,Merged,700,1,1,,1
+Use scan filters only with 8.1,2018-06-11,Merged,693,16,6,gradle yml java ,3
+Prepare for 2.14 release,2018-05-17,Merged,687,1,1,,0
+Adds connectable property to BeaconTransmitter,2018-05-10,Merged,683,33,15,java ,2
+Add warning about setting short scan periods on Android 8,2018-05-16,Merged,677,6,0,java ,1
+Fix runtime crashes reported from the field.,2018-05-16,Merged,675,33,16,java ,1
+add warning about disabling scan jobs on Android 8+,2018-05-17,Merged,674,12,1,java ,1
+Allow beacon service to run as foreground service,2018-07-04,Merged,663,126,9,java ,2
+Fix flawed logic on BeaconManager#isBound,2018-03-14,Merged,655,4,2,,1
+Fix crash from incorrect metadata name,2018-03-06,Merged,653,9,1,xml ,1
+Fix javadoc generation,2018-05-16,Merged,651,21,2,gradle ,1
+Prepare for release 2.13,2018-03-05,Merged,649,5,1,,0
+Configurable scan job ids,2018-02-23,Merged,645,109,9,xml java ,3
+Add Bluetooth Medic,2018-02-23,Merged,644,609,3,gradle xml java ,3
+Fix CHANGELOG.md,2018-01-18,Merged,640,1,1,,0
+Allow scans with screen off on Android 8.1,2018-01-04,Merged,637,18,0,java ,2
+Prepare for 2.12.4 release,2017-12-16,Merged,634,1,1,,0
+Minor refactor and annotation updates,2017-12-16,Merged,631,72,50,,3
+Improve `Beacon` data copy,2017-12-16,Merged,630,266,43,java ,4
+Preserve RSSI expiration  on ranged beacon commit,2017-12-12,Merged,629,17,1,java ,2
+Fix NPE on extra beacon data tracker,2017-12-13,Merged,626,8,4,java ,1
+Fix missing runningAverageRssi values,2017-12-13,Merged,621,64,1,yml java ,6
+Fix NPE on process background detection due to race condition,2017-12-13,Closed,617,14,7,java ,1
+Fix performance problems caused by Identifier#toHexString,2017-11-06,Merged,615,30,11,gradle yml properties java ,5
+Prepare for release 2.12.3,2017-10-14,Merged,608,3,1,,0
+Continuous Scanning While in Foreground on Android 8,2017-10-17,Merged,607,37,14,,2
+Fix isAnyConsumerBound method,2018-03-06,Closed,600,1,1,,1
+Protect against NPE on process util process check,2017-10-14,Merged,598,9,3,java ,1
+Fix ConcurrentModificationException on RegionState,2017-09-21,Merged,588,22,7,java ,3
+Fix CME in ModelSpecificDistanceCalculator,2017-09-21,Merged,584,29,8,java ,4
+Fix ConcurrentModificationException starting passive scan on Android 8,2017-09-21,Merged,578,9,1,java ,1
+Prepare for 2.12.2 release,2017-08-31,Merged,576,8,1,,0
+Prepare for 2.12.2 release,2017-08-30,Closed,575,8,1,,0
+Fix stack overflow caused by scanPeriod of 0s,2017-08-29,Merged,572,15,4,java ,1
+Suppress file not found on scan state deserialize,2017-08-29,Merged,570,8,3,java ,1
+Prevent scanning being left on after unbind,2017-08-29,Merged,569,45,9,java ,2
+Fix javadocs/source classifiers in publish script,2017-08-29,Merged,566,2,2,,1
+Prepare for 2.12.1 release,2017-08-17,Merged,565,3,4,,0
+Fix NPE in ScanJob on Android O while bluetooth is turned off,2017-08-16,Merged,562,5,2,,1
+Fix bugs with  nonzero foreground betweenScanPeriod,2017-08-16,Merged,558,30,7,java ,1
+Prepare for 2.12 release,2017-08-07,Merged,557,9,8,gradle properties ,2
+Fixed getRunningAverageRssi Beacon class method,2017-07-07,Merged,536,14,3,,1
+Android O Background Scanning - Android O API Changes,2017-07-05,Merged,533,82,28,yml properties java ,8
+Prepare for 2.11 release,2017-06-28,Merged,532,3,1,,0
+Refactor away `mScanDeferredBefore` flag,2017-06-28,Merged,530,46,52,,1
+Allow forcing long scans on Android N,2017-06-23,Merged,529,69,3,java ,2
+Fix Google Play manifest validation errors,2017-06-23,Merged,527,3,1,xml ,1
+Fix `RunningAverageRssiFilter.setSampleExpirationMilliseconds`,2017-06-13,Merged,523,31,9,gradle java ,4
+Restart scanning after bluetooth is off,2017-06-13,Merged,519,3,0,java ,1
+Misc minor fixes,2017-06-05,Merged,516,458,100,gradle java ,2
+Log more specific error message on scan failure,2017-05-25,Merged,515,33,2,,1
+Scan documentation update and stop scan bug fix,2017-06-08,Merged,513,124,27,,3
+Fix documentation problems on markdown,2017-05-12,Merged,510,23,23,,0
+fix nullpointer bug,2017-05-13,Merged,508,3,2,,1
+Fix failure to stop scans,2017-05-13,Merged,507,18,3,java ,2
+Minor updates,2017-05-24,Merged,501,25,14,,2
+Ensure singleton object creation thread safety,2017-04-17,Merged,494,74,23,java ,4
+Eliminate extra scan stop call,2017-04-11,Merged,493,2,4,,1
+Don't start scanning service if BLE unsupported,2017-04-17,Merged,492,35,25,,1
+Don't restart scanning if device detects duplicate advertisements per scan,2017-04-21,Merged,491,157,19,java ,4
+Try to prevent crash due to `DeadObjectException`,2017-04-08,Merged,490,12,3,,1
+Fix intermittent scans,2017-04-10,Merged,489,6,5,java ,1
+Add changelog to project root,2017-04-03,Merged,487,198,0,,0
+Update build,2017-04-07,Merged,486,15,51,yml properties iml ,4
+Include support annotations,2017-04-03,Merged,485,1,0,,1
+Android O Background Scanning,2017-08-07,Merged,484,"1,857",444,gradle yml properties xml java ,6
+Format/code cleanup,2017-03-27,Merged,482,27,38,java ,9
+Add support for running service in a separate process,2017-05-05,Merged,479,900,260,java ,2
+Fix stackoverflow crash when starting/stopping scanning,2017-04-08,Closed,476,35,19,,3
+Fix power saver crash,2017-04-11,Merged,475,1,1,,1
+Issue460/FixedMisspelledMethods,2016-11-30,Merged,461,58,41,,1
+Access persisted monitors,2016-11-25,Merged,456,19,18,,2
+Don't start or stop scans if bluetooth state is off,2016-11-22,Merged,452,22,0,,1
+Protect against SecurityException crashes caused by Samsung Knox,2016-11-16,Merged,444,124,94,,2
+Fix crash on startup for devices without BLE,2016-10-20,Closed,438,22,4,,3
+Avoid Qark flagging vulnerabilities by creating explicit intents,2016-09-30,Closed,437,2,5,,2
+Fix link error to eddystone code samples in documentation.md,2016-09-29,Merged,436,1,1,,0
+No Monitoring information after killing an application built with the minify mode,2016-11-13,Merged,432,9,6,,4
+Start and stop BLE scans from a background thread to prevent blocking the UI (issue #136),2016-10-20,Merged,430,104,44,,4
+add circle.yml for circle ci,2016-09-05,Merged,427,7,0,,1
+MonitoringState preservation improvement,2016-09-04,Merged,426,12,0,,1
+Project update,2016-09-05,Closed,425,2,3,,1
+Provide proguard rules for library users.,2016-09-05,Merged,424,7,0,pro ,2
+Avoid spurious entry/exit events on Android N,2016-08-26,Merged,419,29,9,java ,3
+Fix malformed JSON in EidResolver.java,2016-07-27,Merged,407,1,1,,1
+Region state persistence improvements,2016-07-25,Merged,405,281,48,,5
+Fix Eddystone transmissions to meet spec,2016-07-21,Merged,401,5,3,,1
+Remove SDK Plugin no longer compatible with latest Gradle plugin,2016-06-24,Merged,394,1,3,,1
+Add Multiple Notifiers Support (Range and Monitor),2016-06-24,Merged,392,153,27,,3
+Better support for custom beacons with extra data advertisement packets,2016-06-24,Merged,387,182,31,,4
+Add distance calculations for the Moto X 2nd gen XT1092,2016-06-24,Merged,386,20,0,,2
+Fix 143 potential context leak,2016-06-03,Merged,381,1,1,,1
+Update BeaconParser.java,2016-05-02,Merged,377,1,1,,1
+Missing log arguments due to typo error,2016-04-29,Merged,375,1,1,,1
+Fix BeaconParser bug: Unable to parse Long data type correctly,2016-05-03,Merged,373,37,1,,2
+add & remove region from RegionBootstrap,2016-04-26,Merged,369,44,0,,1
+add & remove region in regionboostrap,2016-04-25,Closed,368,40,0,,1
+Don't check for location permission on SDK < 23 before scan start,2016-04-18,Merged,365,1,1,,1
+Add support for pre-Eddystone UriBeacon layout,2016-03-29,Merged,358,23,0,,2
+Adjust the BackgroundPowerSaver so it accepts any context,2016-03-17,Merged,355,7,12,,1
+When I was in,2016-03-17,Closed,353,946,308,gradle xml java ,5
+Beacon service multiple bind,2016-02-08,Merged,340,42,33,,1
+Use realtime clock for scanning intervals and timers,2016-02-08,Merged,339,45,37,,8
+Popular Android library badge,2016-02-06,Closed,336,2,0,,0
+Track parser identifier in both BeaconParser and Beacon,2016-01-25,Merged,333,67,17,,4
+Add distance caluclation for Moto X Pro,2015-12-28,Merged,330,32,0,java ,3
+Add utility to access raw Eddystone-TLM bytes,2016-02-08,Merged,328,156,8,,4
+Check the location permission before a Bluetoth scan,2015-12-18,Merged,327,13,1,,1
+Fix crash on comparison overrun,2015-12-20,Merged,324,18,0,,2
+Stopping and starting monitoring disables scans,2015-11-17,Merged,317,1,1,,1
+Service improvements,2016-02-08,Merged,315,311,110,,4
+Fast background detection for Eddystone,2015-11-12,Merged,314,58,4,,3
+Fix cancelling wakeup alarm,2015-11-06,Merged,312,1,2,,1
+Add proper indentation for code snippet.,2015-10-11,Merged,299,11,11,,0
+Only request ACCESS_COARSE_LOCATION permission on M,2015-10-04,Merged,296,1,1,,1
+Fix region matching with fewer ids,2015-09-30,Merged,295,35,5,java ,5
+Android 6.0 Changes,2015-09-29,Merged,293,13,9,java ,2
+Use CopyOnWriteArrayList for beacon parser list,2015-09-23,Merged,290,4,7,java ,2
+Access static BeaconManager.getInstanceForApplication via class refer…,2015-09-23,Merged,286,28,28,,12
+Access static RunningAverageRssiFilter.setSampleExpirationMillisecond…,2015-09-17,Merged,285,2,2,,1
+make the region exit time configurable,2015-09-15,Merged,283,27,3,,2
+Add callback allowing processing of scanned non-Beacon BLE devices,2015-11-12,Merged,267,67,5,,3
+Generalized URL compressor to handle upper-case URL components properly,2015-08-12,Merged,263,50,3,,2
+Add mac address to Region,2015-08-26,Merged,254,108,1,,2
+Fix crash when region has more identifiers than beacon,2015-08-26,Merged,252,9,1,,2
+"Fix NPE in Beacon.hashCode(), along with some optimizations",2015-07-23,Merged,249,27,47,,3
+"Parse ""0"" as an integer identifier",2015-07-22,Merged,247,7,1,,2
+Bugfix concurrent modification exception,2015-07-22,Merged,245,70,18,,2
+Moving to robolectric 3.0,2015-07-22,Closed,244,46,53,java ,21
+Eddystone url transmitter support,2015-07-21,Merged,243,398,125,,1
+Enable EddystoneTtransmission,2015-07-16,Merged,239,142,9,,5
+No need of new object creation in checking method,2015-07-22,Merged,238,1,3,,1
+Correct PDU length calculation and protect against overruns,2015-07-13,Merged,236,150,31,,4
+Detect various AltBeacon manufacturers in the foreground,2015-07-10,Merged,235,30,4,,3
+Make parser more tolerant per #229,2015-07-06,Merged,230,94,45,,3
+Better corrupted packet protection,2015-07-05,Merged,224,141,100,,3
+Catch NPE when starting/stopping scanning.  Android issue #160503,2015-07-05,Merged,220,18,48,,1
+Fixes for testCompile issue,2015-07-13,Closed,218,1,3,,1
+use a private executor to avoid starving the default queue,2015-07-05,Merged,217,76,4,,2
+Protect Against NPE in Iteration,2015-07-05,Merged,215,8,5,,1
+"backgroundMode-> false after stopping service, so it starts back up in foreground mode",2015-07-05,Merged,214,4,0,,1
+Cosmetic changes,2015-06-10,Merged,210,24,24,,6
+Attempt to fix NPE on Galaxy Note 4 5.0.1,2015-06-18,Merged,200,16,3,,1
+Fix stackoverflow from re-wrapping collections,2015-06-01,Merged,199,40,4,,2
+Avoid 500 alarm limit by rescheduling alarms,2015-05-19,Merged,189,22,12,,1
+check for null on getBeaconAdapter,2015-05-19,Merged,188,5,1,,1
+Cosmetic changes,2015-05-18,Merged,183,59,61,,14
+Cosmetic changes only,2015-05-18,Merged,182,8,8,,0
+Merge pull request #1 from AltBeacon/master,2015-05-15,Closed,180,0,0,,0
+Fix bug where scanning does not stop when ranging stops.,2015-05-16,Merged,178,9,13,,2
+Fix broken wakeup timer preventing service restart,2015-05-16,Merged,177,1,1,,1
+Add Multiple Notifiers Support (Range and Monitor). Add Region Notifiers...,2017-03-31,Closed,171,637,258,,1
+Format code,2015-04-15,Merged,167,648,639,,1
+catch exception if ble is off when stopping advertising,2015-04-07,Merged,159,6,1,,1
+cut log spam by logging bluetooth off at debug level,2015-04-05,Merged,156,2,2,,1
+"Various improvements to Identifier, including UUID awareness",2015-04-05,Merged,153,153,57,,2
+Protect against NPE in a race condition,2015-04-04,Merged,146,4,2,,1
+Allow beacon transmission on Motorola devices,2015-03-05,Merged,135,25,12,,1
+Suppress ModelSpecificDistanceCalculator error,2015-02-22,Merged,129,5,0,,1
+Changes for #113 and #114,2015-04-05,Merged,128,299,92,,6
+Fix links to sample projects.,2015-02-17,Merged,126,2,2,,0
+fix concurrency exception when multiple consumer bound on start,2015-03-05,Merged,123,34,30,,1
+fixed ConcurrentModificationException on BeaconManager,2015-02-12,Merged,118,3,4,,1
+fixed ConcurrentModificationException on BeaconManager,2015-02-12,Closed,117,7,4,,1
+Bug Fix,2015-02-04,Closed,109,6,1,,1
+Fix links to Android classes in Javadoc,2015-02-02,Merged,104,2,3,,1
+Changed Identifier class to work with a byte array instead of a String,2015-02-03,Merged,103,285,128,,2
+Changed Region to become immutable.,2015-02-01,Merged,98,48,58,,3
+Updated to use bintray plugin 1.0,2015-01-19,Merged,94,17,57,,3
+Also execute other AsyncTask in ThreadPool,2015-01-19,Merged,92,19,38,,2
+Explain uses-feature element to filter devices without Bluetooth LE,2015-01-18,Merged,91,38,1,,0
+Fix AsyncTask blocking beacon parsing,2015-01-17,Merged,89,5,1,,1
+Update logging,2015-02-03,Merged,87,"1,749",555,java ,3
+Added skipping artifactory publishes from snap-ci,2015-01-17,Merged,86,7,0,,1
+Add tar task,2015-01-18,Merged,85,43,18,classpath project prefs retain properties scripts/bundle-eclipse ,11
+removed unused properties,2015-01-13,Merged,82,0,3,,1
+Added build status image.,2015-01-12,Merged,80,2,0,,0
+changed bintrayUser to bintrayUsername,2015-01-12,Merged,79,4,4,,1
+Don't export services in AndroidManifest,2015-01-11,Merged,77,4,3,,1
+Split old implementation and new implementation for CycledLeScanner,2015-01-13,Merged,76,284,241,,1
+Added docs for loading depenedency with jcenter,2015-01-08,Merged,75,26,2,,0
+Fixed bintray user name,2015-01-08,Merged,74,1,1,,1
+Fixed ignoring of http redirection limit,2015-01-11,Merged,70,7,5,,2
+Added ability to do all publishing from gradle,2015-01-11,Merged,69,57,0,,2
+Added tasks to be able to publish to bintray and artifactory,2015-01-03,Merged,67,128,12,gradle properties ,8
+Updated Build,2014-12-31,Merged,66,52,175,properties dist xml java ,6
+Android model distance calcs,2014-09-04,Merged,31,157,21,json properties ,8
+Update samples.md,2014-09-01,Merged,28,2,2,,0
+upgrade build tools,2014-08-23,Merged,23,98,24,scripts/bundle-eclipse java ,10
+"Bumped gradle version, gradle plugin, robolectric.B",2014-08-26,Closed,15,91,17,properties java ,10
+Fixed typo in Ranging Example Code,2014-08-16,Merged,14,1,1,,0
+Deserializing a region should get back null identifiers as-is,2014-08-12,Merged,11,15,9,,4
+"Update documentation, getAccuracy is now getDistance",2014-08-12,Merged,8,2,2,,2
+Simplify BackroundPowerSaver,2014-08-01,Merged,7,58,96,,3
+Zero index identifiers,2014-07-31,Merged,6,107,29,scripts/bundle-eclipse project java ,9
+Switched artifacts to be lowercase,2014-07-31,Merged,5,13,13,scripts/bundle-eclipse project ,4
+Silence BeaconParser debug log unless BeaconManager.debug is enabled,2014-07-31,Merged,4,59,70,,6
+Move background launching and power saving into open source library,2014-07-28,Merged,3,430,50,java ,9

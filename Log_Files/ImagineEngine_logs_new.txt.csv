@@ -1,0 +1,123 @@
+Migrate macOS + tvOS targets to Swift 5.0,2019-05-06,Merged,189,15,11,md ,1
+Updating Hashable support to Swift 5 format on InstanceHashable.swift,2019-04-12,Merged,188,18,16,pbxproj xcscheme swift ,8
+Animation: Support specifying a texture scale,2019-01-19,Merged,187,3,1,,1
+Update project for Xcode 10 and Swift 4.2,2018-11-07,Merged,185,27,31,yml pbxproj swift ,7
+Actor: Rework contact management to support edge-to-edge contacts,2018-08-18,Merged,183,49,30,,4
+Fix README.md typo,2018-08-06,Merged,182,1,1,,0
+"Introduce Node type, an open base class for all scene objects",2018-04-23,Merged,180,166,161,swift ,5
+Generalize layer transformation code,2018-04-21,Merged,179,69,44,swift ,9
+Use compiler-generated Hashable implementations,2018-04-21,Merged,178,5,79,yml swift ,7
+Event: Fix Bad Access crash when using Swift 4.1,2018-04-20,Merged,177,12,8,,1
+Update project for Xcode 9.3 and Swift 4.1,2018-03-31,Merged,173,18,12,plist xcscheme ,5
+Block: Add background color,2018-03-16,Merged,171,10,0,,2
+SpriteSheet: Add convenience API for initializing with a column/row count,2018-03-11,Merged,170,12,0,,2
+Introduce sprite sheet slicing,2018-03-10,Merged,168,221,24,swift ,5
+Add Flappy Bird clone,2018-02-03,Closed,165,"7,432",0,xcworkspacedata swift json png storyboard ttf ,31
+Add Xcode template,2018-01-26,Merged,159,151,0,md swift xctemplate/Podfile png plist ,7
+Actor: Re-arrange methods that are part of public API,2018-01-26,Merged,158,19,17,,1
+Issue153 - make Label conform to scalable,2018-01-19,Merged,157,42,2,,3
+Issue152,2018-01-26,Merged,156,31,2,,4
+add isInContact API methods for an Actor.,2018-01-21,Merged,155,55,0,,2
+Block macos fix,2018-01-17,Merged,148,49,19,,1
+Actor: Enable setting a corner radius,2018-01-13,Merged,147,2,0,,1
+Multiple lines support for Label,2018-01-14,Merged,145,9,0,,2
+Scene: Re-activate grid after reset,2018-01-12,Merged,144,17,0,,2
+Enable Label to support multiple lines of text [issue 142],2018-01-12,Closed,143,2,0,,1
+Update Logo,2018-01-10,Merged,138,1,1,md ,1
+Update README.md,2018-01-09,Merged,137,1,1,,0
+Add fastlane to ImagineEngine for automated tests,2018-01-09,Merged,136,49,43,sh Gemfile fastlane/Fastfile md ,4
+Add Gemfile.lock to .gitignore,2018-01-09,Merged,135,1,0,,1
+Fixed actor  collision handling when actor moves between grid tiles,2018-01-09,Merged,134,32,1,,2
+Grid: Handle activation of scene objects when added,2018-01-05,Merged,133,18,14,,2
+Camera: Add ‘clicked’ event,2018-01-05,Merged,131,60,15,,6
+Refactor deactivation code to make it more predictable,2018-01-05,Merged,130,53,50,,5
+Camera: Use scene resize event instead of custom property,2018-01-05,Merged,129,19,15,,2
+Scene: Add resized event,2018-01-05,Merged,128,29,9,,3
+Grid: Handle activation & deactivation,2018-01-05,Merged,127,33,21,,2
+Block: Add convenience initializer that takes a single texture,2018-01-04,Merged,126,12,2,,1
+Scene: Fix actors/labels incorrectly returned for a given point,2018-01-04,Merged,125,40,2,,2
+Label: Add support for observing clicks,2018-01-04,Merged,124,193,88,swift ,8
+CI: Migrate from Buddybuild to Travis CI,2018-01-02,Merged,123,15,2,sh ,2
+Label: Add support for plugins,2017-12-30,Merged,122,51,1,,2
+Animation: Support animating with JPG textures,2017-12-19,Merged,121,48,4,,2
+Label: Add API for setting a horizontal alignment mode,2017-12-09,Merged,120,40,0,,2
+Camera: Add-resize-event,2017-11-30,Merged,115,21,0,,3
+Actor: Add support for shadows,2017-11-30,Merged,114,75,0,swift ,5
+Grid: Fix bug causing actors in groups always participating in collisions,2017-11-30,Merged,113,37,6,,2
+Actor: Added rotated event,2017-11-29,Merged,112,27,1,,3
+Fixed issue that sometimes caused extra collision event,2017-11-29,Merged,111,33,0,,2
+Camera: Add resize event,2017-11-30,Closed,110,17,0,,1
+Fixed actors colliding with themselves,2017-11-28,Merged,107,26,0,,2
+Animation: Fixed bug when using mulitline sprite sheets on macOS.,2017-11-27,Merged,104,6,0,,1
+add resize event for camera,2017-11-30,Closed,101,23,1,,3
+Asteroid blaster tutorial: Update for removed any block event,2017-11-20,Merged,99,10,5,md ,1
+Camera: add moved event to observe changes in position of camera,2017-11-18,Merged,97,49,0,swift ,4
+Scene: Add events for when an actor is added or removed,2017-11-18,Merged,96,20,0,,3
+Timeline: Improve performance by reducing needs for mutations,2017-11-18,Merged,95,108,16,,3
+"Collision detection: Activate lazily, make more thorough & remove 'any' events",2017-11-18,Merged,94,172,31,,5
+Timeline: Enable setting a repeat mode when using the repeat API,2017-11-17,Merged,93,49,6,,3
+Added new function addLayer to SceneObject,2017-11-17,Merged,92,22,3,,5
+Docs: Add guide for custom events,2017-11-17,Merged,91,70,2,,0
+EventCollection: Enable custom events to be created with a subject type,2017-11-17,Merged,89,26,2,,2
+CI: Add Danger warnings for merge commits & missing tests,2017-11-17,Merged,87,10,0,,1
+Fixed strange behaviour when repeating RotateAction with a delta,2017-11-16,Merged,84,25,0,,2
+CI: Display a welcoming message to new contributors,2017-11-15,Merged,83,7,0,,1
+CI: Display a welcoming message to new contributors,2017-11-15,Closed,82,3,0,,1
+[TEST] Test CI failure for macOS + tvOS,2017-11-13,Closed,80,6,4,sh ,2
+CI: Use xcpretty with pipefail,2017-11-14,Merged,79,25,18,,1
+Add observation when an actor is added to a scene.,2017-11-18,Closed,78,2,0,,1
+Add multiple objects to a scene at once,2017-11-14,Merged,77,66,0,,2
+CI: Use xcpretty to format xcodebuild output,2017-11-12,Merged,76,21,4,sh ,2
+SwiftLint: Enable most rules + fix codebase to match,2017-11-12,Merged,75,125,92,swift ,15
+[TEST] Test Danger integration,2017-11-12,Closed,74,1,0,,1
+Uses scaled images on tests,2017-11-17,Merged,73,17,5,,1
+Adds errorMode to TextureManager for Debug Mode.,2017-11-28,Merged,72,129,1,swift ,5
+CI: Add Danger,2017-11-12,Merged,71,22,0,Gemfile sh ,3
+Add observation when an actor is added to a scene.,2017-11-12,Closed,70,2,0,,1
+Grid: taking an actor's scale into account when evaluating actor scene constraint,2017-11-11,Merged,69,13,4,,2
+ActionToken: Support passing a weak-referenced object to ‘then’ closure,2017-11-11,Merged,67,45,0,,2
+Timeline: Support passing a weak-referenced object to closures,2017-11-11,Merged,66,83,19,,3
+Scene: Render initial background color,2017-11-11,Merged,64,1,0,,1
+Scene: Toggle plugin activation when reset,2017-11-11,Merged,62,11,2,,3
+Warren lamb patch 1,2017-11-11,Merged,60,26,2,,3
+update background color of scene to black.,2017-11-10,Merged,59,5,4,,2
+Add plugin retrieval to Pluggable.,2017-11-10,Merged,58,42,0,,6
+Scene: Deactivate objects directly when resetting,2017-11-08,Merged,56,8,11,,2
+Add SceneObject protocol and use it to reduce deactivation code duplication,2017-11-08,Merged,54,107,24,swift ,9
+Add ZIndexed protocol and use it to reduce z-index code duplication,2017-11-08,Merged,52,42,23,swift ,7
+Plugins: Add API for removing all plugins of a type,2017-11-07,Merged,51,49,0,,6
+ActionPerformer: Add convenience API to repeat an action,2017-11-07,Merged,50,40,0,,2
+[TEST] SwiftLint on CI,2017-11-05,Closed,48,7,0,,1
+CI: Install SwiftLint,2017-11-05,Closed,47,7,0,,1
+Actor: Remove use of defer to trigger property observers,2017-11-03,Merged,46,6,9,,1
+Actor: Adapt rect according to scale,2017-11-03,Merged,45,17,11,,2
+TextureManager: Add support for assigning a scene-wide name prefix,2017-11-03,Merged,44,26,1,,2
+Actor/Animation: Add convenience initializer that takes a texture name,2017-11-03,Merged,43,17,5,,3
+Scene: Add safe area insets API,2017-11-02,Merged,42,103,8,swift ,11
+Remove test images from tvOS framework target,2017-11-02,Merged,41,0,4,,1
+Plugins: Return existing instance when adding a plugin,2017-11-02,Merged,40,150,40,swift ,8
+Modernize lazy var declarations,2017-11-01,Merged,39,3,3,,3
+Add SwiftLint,2017-11-05,Merged,38,73,0,pbxproj ,2
+Implement JPG-based textures support,2017-11-01,Merged,35,249,55,swift ,4
+Add Code of Conduct,2017-10-29,Merged,34,77,0,,0
+Add support for tvOS,2017-10-29,Merged,32,549,33,xcscheme swift sh ,6
+Implement remembering texture scale fallbacks,2017-10-28,Merged,31,106,55,swift ,8
+Documentation: Add 2nd tutorial,2017-10-28,Merged,30,345,3,swift png xcplayground xcworkspacedata ,15
+Action: Fix action chain cancellation bug,2017-10-28,Merged,29,51,0,,2
+Use scale to calculate rect for collision detection,2017-10-28,Merged,28,37,12,,2
+Actor: Combine move events & remove duplicates,2017-10-27,Merged,27,58,40,,4
+Camera: Enable constraining to scene,2017-10-27,Merged,26,84,10,,3
+Action: Fix race condition when chaining multiple actions,2017-10-27,Merged,25,116,29,swift ,6
+Animation: Fix missing identifier when using a sprite sheet,2017-10-27,Merged,24,15,0,,2
+Actor: Add ‘willMove’ event,2017-10-27,Merged,23,32,1,,3
+Scene: Adjust click points for macOS + camera position,2017-10-27,Merged,22,145,15,swift ,8
+Block: Add support for sprite sheets,2017-10-27,Merged,21,149,31,,1
+Asteroid Blaster tutorial: Create an asteroid every 2 seconds,2017-10-26,Merged,17,4,4,md ,1
+Implement fallback to lower scale textures if exact match can't be found,2017-10-26,Merged,15,33,1,swift ,3
+Add support for sprite sheet-based animations,2017-10-26,Merged,13,177,21,swift ,6
+Actor: Compute rect manually,2017-10-22,Merged,8,22,3,,2
+Mac: Run game on the main thread,2017-10-22,Merged,7,2,4,,1
+Documentation: Add first tutorial,2017-10-21,Merged,6,407,0,swift png xcplayground xcworkspacedata ,22
+Actor: Render first animation frame directly,2017-10-21,Merged,5,68,2,,3
+Actor: Pick smallest delta when moving away from block,2017-10-21,Merged,4,32,14,,2
+Very basic macOS support,2017-10-22,Merged,3,795,12,xcscheme swift ,12

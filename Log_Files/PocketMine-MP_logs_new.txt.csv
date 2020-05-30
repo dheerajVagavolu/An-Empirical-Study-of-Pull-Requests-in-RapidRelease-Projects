@@ -1,0 +1,747 @@
+It Was Supported Source Code,2020-01-06,Closed,3271,2,0,,1
+changed the execution sequence of the getCurrentWindow() function,2020-01-06,Closed,3268,1,1,,1
+Add comment to make what setDuration for effect is in more obvious,2019-12-29,Closed,3256,2,0,,1
+Living: Remove Action not present in vanilla,2019-12-21,Closed,3253,1,4,,1
+Remove usages of empty(),2019-12-19,Merged,3251,60,44,,19
+Test,2019-12-17,Closed,3248,2,24,,0
+PlayerAuthInputPacket: Fix assigning variable in static context,2019-12-17,Closed,3247,1,1,,1
+add GameRules const,2019-12-15,Closed,3240,60,0,,1
+add GameRules const,2019-12-14,Closed,3239,60,0,,1
+add GameRules const,2019-12-14,Closed,3238,65,0,,3
+Bump protocol version to 389,2019-12-10,Closed,3220,3,3,,1
+Fix water in blocks like chest or stairs,2019-12-25,Closed,3217,21,4,,2
+Update license headers to pmmp.io domain,2019-12-03,Closed,3198,966,966,,43
+FIx possible grammar error,2019-11-22,Closed,3194,1,1,,0
+bump phpstan to level 2 to see what catches fire,2019-12-01,Closed,3193,1,1,,1
+!spam,2019-11-14,Closed,3190,"46,607",461,php ,7
+[4.0.0] Moved SetTitlePacket usage to NetworkSession,2019-11-09,Merged,3186,31,7,,2
+[4.0.0] Moved some stuff to network namespace,2019-11-09,Closed,3185,160,76,,7
+!spam,2019-11-07,Closed,3184,"46,644",477,php ,6
+Update to 1.13,2019-12-06,Merged,3183,"1,975",293,,6
+!spam,2019-11-06,Closed,3181,"46,174",464,php ,8
+Plugin::getLogger() interface no longer depends on PluginLogger,2019-10-24,Merged,3160,4,4,,2
+Updated BossEventPacket comments,2019-10-20,Merged,3155,2,2,,1
+Isolate TransferServerCommand from not operators,2019-10-20,Closed,3154,4,0,,1
+Added encode/decode for some packets,2019-10-14,Merged,3145,131,4,,4
+Slow Falling Effect,2019-10-03,Closed,3134,2,0,,1
+EventPacket: Added some missing constants,2019-10-02,Merged,3132,5,0,,1
+Fixed decoding form responses with double commas inside quotes,2019-10-01,Merged,3131,22,8,,1
+!spam,2019-09-24,Closed,3126,"21,975","1,612",md build/preprocessor php ,3
+!spam,2019-09-20,Closed,3124,33,4,,4
+Improve bucket API,2019-10-04,Merged,3123,7,0,,1
+InstantEnchantParticle: add Color into constructor,2019-09-23,Merged,3118,8,1,,1
+!spam,2019-09-08,Closed,3117,1,1,,1
+Add doc for unknown field of CommandParameter,2019-09-18,Merged,3115,4,4,,2
+Cauldron added for Pocketmine.,2019-08-27,Closed,3109,43,0,,1
+!spam,2019-08-22,Closed,3103,1,94,,1
+added missing setText method for Sign block,2019-08-17,Closed,3100,9,2,,1
+Scoreboard added,2019-08-14,Closed,3097,240,0,,4
+Fix grammatical error in support.yml,2019-08-13,Merged,3095,1,1,,1
+Link to StackOverflow in README,2019-09-23,Merged,3084,2,1,,0
+Experimental/partial chunk saves,2019-08-07,Merged,3078,81,50,,6
+remove name change case when looking for an offline player,2019-10-04,Closed,3073,0,1,,1
+Load Doxygen Mathjax from https to prevent unsafe scripts error,2019-07-26,Merged,3058,1,1,,1
+Item: fix for setCustomName,2019-07-19,Merged,3049,1,1,,1
+Add test for item's display properties' persistence after deserialization,2019-07-19,Merged,3047,15,0,,1
+"doxygen: sort more things, for our sanity",2019-07-19,Merged,3045,2,2,,1
+doxygen: set HIDE_IN_BODY_DOCS = yes,2019-07-19,Merged,3044,1,1,,1
+Avoid useless loop into plugin description,2019-07-18,Closed,3042,1,3,,1
+Fix loadbefore sometimes not working,2019-07-17,Merged,3040,1,1,,1
+Implement saving and loading nametag property 'alwaysVisible',2019-09-16,Closed,3039,9,1,,1
+"MetadataProperties: id, data => static runtime id",2019-07-19,Closed,3007,1,1,,1
+Fixed decoding entries in SetScorePacket,2019-07-09,Closed,3000,1,0,,1
+Fixed BlockPlaceEvent firing when the block can't be placed.,2019-07-19,Closed,2998,37,13,,3
+Destroy EffectManager,2019-07-06,Merged,2993,1,0,,1
+Make DragonEgg::teleport public,2019-07-03,Merged,2992,1,1,,1
+Feature/constants animate boat,2019-07-03,Closed,2991,2,0,,1
+Fix Entity::isNameTagAlwaysVisible() was returning the wrong value,2019-07-02,Merged,2990,1,1,,1
+Created math-related methods which return Vector3 instances from Position objects,2019-07-03,Closed,2989,44,0,,1
+!spam,2019-06-24,Closed,2983,1,0,,0
+!spam,2019-06-24,Closed,2982,1,0,,0
+Implemented ChestPairEvent,2019-09-16,Closed,2980,85,2,,2
+"Add Level->getTimeOfDay(), closes #2908",2019-06-22,Merged,2979,11,2,,2
+Fixed setDisplayName() method,2019-06-21,Closed,2978,5,2,,2
+ChunkSerializer: added deserialize method,2019-06-19,Closed,2970,53,1,,1
+Write PID into lock file,2019-06-13,Closed,2962,10,2,,1
+!spam,2019-06-04,Closed,2953,"30,064","26,642",gitmodules yml json ,4
+"Randomize the order of plugins retrieved from disk, fixes #2945",2019-05-31,Merged,2948,6,5,,1
+Removed PluginLoader (resolves #2834),2019-07-31,Closed,2946,581,522,lock php ,5
+!spam,2019-05-20,Closed,2929,"13,874",295,md zip php ,7
+Fix for Server::hasOfflinePlayerData,2019-05-12,Merged,2919,1,0,,1
+DefaultPermissions: Fix typo in whitelist permissions description,2019-05-12,Merged,2918,2,2,,1
+TimeCommand: Fix commands.time.query message,2019-05-12,Merged,2917,1,1,,1
+First shot renaming Level -> World,2019-05-07,Merged,2907,"1,648","1,629",php ,2
+Changed ignoreCancelled opt-in to handleCancelled opt-in,2019-05-27,Merged,2906,17,18,,3
+Implement a locking variable to circumvent a infinite regression,2019-05-03,Merged,2901,8,0,,1
+Implement anvil destorying torches whilst falling down,2019-07-19,Closed,2900,180,11,,6
+Rename add(Sub)Title to send(Sub)Title. Fixes #2896,2019-05-01,Closed,2899,3,3,,1
+Rename add(Sub)Title to send(Sub)Title. Deprecate old methods,2019-05-01,Closed,2898,42,8,,3
+Stable backports,2019-04-26,Merged,2884,105,77,sh ,13
+!spam,2019-04-24,Closed,2880,22,3,,3
+Client-side scripting support,2019-04-16,Closed,2871,270,3,,8
+Added server.lock into .gitignore,2019-04-13,Closed,2868,1,0,,1
+Acquire exclusive lock on <datadir>/server.lock to avoid data corruption,2019-04-08,Merged,2858,8,0,,1
+Update SplashPotion.php,2019-04-05,Closed,2857,1,1,,1
+Changed block and item IDs to Chinese numerals,2019-04-01,Closed,2852,"1,145","1,145",,0
+Call BlockTeleportEvent when dragon egg teleports,2019-04-14,Merged,2840,67,1,,2
+Added ChestPairEvent,2019-04-28,Closed,2833,76,2,,2
+"Allow script plugins without the manifest, resolves #2815",2019-12-15,Closed,2827,42,8,,1
+AvailableCommandsPacket: Updated the argument type constants for 1.10,2019-03-22,Closed,2824,7,7,,1
+Remove /reload,2019-03-22,Merged,2823,0,93,,3
+!spam,2019-03-21,Closed,2822,"17,319","15,246",yml gitmodules json ,4
+AvailableCommandsPacket: Updated the ARG_TYPE constants,2019-03-18,Closed,2817,11,8,,1
+Implement device info methods,2019-04-13,Closed,2812,69,2,,3
+Flatten wall_banner and wall_sign into single blocks,2019-03-08,Merged,2798,71,143,,8
+Update PlayerRespawnEvent.php,2019-03-05,Merged,2797,1,1,,1
+Implemented plugin loading whitelist/blacklist by config file,2019-03-24,Merged,2783,131,4,yml php ,5
+Fix bonemeal count not reduced by CocoaBlock,2019-02-18,Merged,2773,5,0,,1
+ItemEntity: introduce controls for despawn timers,2019-03-10,Merged,2769,44,7,,1
+Fixed PaintingItem exception after interacting,2019-02-17,Closed,2768,3,3,,1
+Allow to create custom entities,2019-02-14,Closed,2759,4,3,,1
+Added getPath() in Config.php,2019-02-14,Merged,2758,9,0,,1
+Fix a crash and unnecessary packet sending,2019-02-15,Closed,2756,4,2,,1
+Add getter and setter for item entity age,2019-03-10,Closed,2753,22,2,,1
+Allow gamemode string in server.properties,2019-10-04,Closed,2752,2,2,,1
+Track UPnP port forwarding,2019-06-27,Closed,2751,6,1,,1
+Calculate server uptime correctly,2019-02-13,Closed,2750,18,2,,3
+Verify command command input before passing to Server::getOfflinePlayer(),2019-02-13,Closed,2749,10,0,,3
+Improvements for Splash Potion,2019-02-16,Closed,2744,1,1,,1
+Fix function readStateFromWorld()'s unloaded terrain problems,2019-02-04,Closed,2735,594,302,,3
+Resolve problems with player inventory when canceling ProjectileLaunchEvent,2019-02-14,Closed,2734,517,284,,4
+Hack for client side regeneration,2019-01-31,Merged,2722,3,1,,1
+Fixed internal IP detection,2019-01-29,Merged,2711,38,5,,3
+make addMotion more comfortable,2019-01-27,Closed,2697,1,1,,1
+ResourcePacksSessionHandler: Fixed a possible crash,2019-01-16,Closed,2669,4,4,,1
+Added Dockerfile,2019-02-17,Merged,2668,44,0,,1
+Player: Experimental new movement processing system,2019-09-16,Closed,2646,79,49,,1
+Allow plugins to disable background generation,2018-12-28,Merged,2613,6,1,,1
+Cancelable ClosureTask,2019-03-02,Closed,2596,6,3,,1
+Moved DefaultPermissions declarations to resources/permissions.yml,2019-02-20,Closed,2594,155,89,php ,2
+Use 2 spaces in all YAML files for consistency,2019-01-24,Closed,2593,175,171,yml ,3
+Backport usage of SetLocalPlayerAsInitializedPacket to 3.4,2018-12-13,Merged,2558,14,8,,2
+"Introduce a ""block write-batch"" concept",2018-12-29,Merged,2555,175,23,,5
+Liquid: Add events to allow controlling flow and fusion,2018-12-04,Merged,2547,17,9,,1
+Remove useless PermissionAttachmentInfo class,2018-12-05,Closed,2545,8,92,,5
+Force minimum uptime to be >= 120 seconds if the server crashes,2018-11-25,Merged,2534,6,0,,1
+Add language option to server.properties,2018-11-30,Merged,2531,32,30,yml ,3
+Exploit PHP copy-on-write behaviour to reduce chunk memory usage by 20-40%,2018-11-17,Merged,2527,27,4,,2
+Fixed registerEvents() throwing exceptions on candidate event handler…,2019-03-29,Closed,2526,7,10,,2
+"Remove EventExecutor, event handlers now use closures internally",2018-11-13,Merged,2525,23,113,,5
+Return Item instance for enchant related functions,2018-11-13,Merged,2523,17,4,,1
+!spam,2018-11-05,Closed,2517,108,"3,765",md ,1
+!spam,2018-11-05,Closed,2516,38,"3,826",md ,1
+Changed PermissibleBase to trait to remove boilerplate,2019-07-03,Closed,2511,34,147,,3
+Eliminate the obsolete `pocketmine` subdirectory,2019-07-30,Closed,2509,5,5,php ,300
+Added PermissibleTrait,2018-11-02,Closed,2508,85,105,,3
+"Marked some classes final, made their protected fields private",2018-12-29,Closed,2507,28,28,,12
+!spam,2018-10-29,Closed,2500,"25,823","6,959",md gitignore yml sh ,5
+Door: Prevent placement above height limit.,2018-12-29,Closed,2498,1,1,,1
+Added a ClosureTask implementation for easier task scheduling,2018-11-04,Merged,2497,71,0,,2
+Fix #2436,2018-10-29,Merged,2496,1,4,,1
+Remove support for source-code installations from start.* scripts,2018-11-04,Merged,2495,3,11,ps1 sh ,3
+Improve async task collection algorithm,2018-10-25,Merged,2493,63,92,,2
+SubChunk: implement branchless read/write for nibble arrays,2018-10-22,Merged,2489,23,45,,1
+Create Barrier Block...,2018-10-16,Closed,2481,55,2,,4
+Revamp MetadataStore API,2018-10-12,Merged,2477,75,89,,5
+Torch: Fix placement issues closes #2453,2018-10-12,Merged,2474,19,7,,1
+PluginManager: Stop catching exceptions thrown by event handlers,2018-10-05,Merged,2472,1,12,,1
+adding scoreboardapi,2018-10-03,Closed,2471,376,298,,0
+Allow fire make flame arrows,2018-09-30,Closed,2468,0,3,,1
+memory leak fix,2018-09-27,Closed,2464,1,1,,1
+Fix Generator->getSpawn() not being used,2018-09-26,Closed,2463,16,0,,1
+Add missing corner checks for Stair BB calculation,2018-09-24,Closed,2456,37,13,,1
+Remove runtime usages of Block->meta in code,2018-09-21,Closed,2448,"2,251","2,076",,7
+MainLogger::logException() now logs inducing exceptions,2020-01-09,Closed,2447,40,10,,2
+Added Dark Oak Tree,2018-09-17,Closed,2444,34,2,,3
+Added PluginCommandSender,2019-12-15,Closed,2443,196,83,,5
+Level: Bail on trying to unload a level during level tick,2018-09-22,Merged,2435,16,2,,1
+Docusaurus,2018-09-13,Closed,2433,"9,919",0,md js ,2
+Leaves: Replace a big mess of code with something nice and simple,2018-09-13,Merged,2432,9,44,,1
+Added an event for handling duplicate logins,2018-09-12,Merged,2430,77,3,,2
+Level: Batch light updates at the end of the tick to amortize CPU cost,2018-09-12,Merged,2429,33,10,,1
+Strip anti flight out of the core,2018-09-12,Merged,2428,8,44,,2
+able to bypass that checks block's Id in Level::useItemOn(),2018-09-03,Closed,2425,5,4,,1
+Leashing Implement,2018-09-01,Closed,2422,"32,209","14,793",md gitignore yml sh json ,6
+Player: Tighten validity checks for addWindow(),2018-09-01,Merged,2419,15,1,,1
+Implemented rail connectivity,2018-09-10,Merged,2414,347,32,,5
+Fixed crash on join game,2018-08-29,Closed,2412,5,31,,7
+PocketMine support everything !,2018-08-29,Closed,2409,1,1,,1
+Mcpe 1.6 master,2018-08-28,Closed,2407,333,49,,14
+Refactor FormattedCommandAlias,2018-12-26,Closed,2402,12,74,,1
+Change air tank regeneration to match UA,2018-08-22,Merged,2396,32,17,,1
+Enable ANSI support for git bash,2018-09-07,Closed,2393,1,1,,1
+PacketPool: Fixed empty packet handling,2018-08-21,Closed,2392,6,1,,1
+Tile: Be explicit about not calling Tile::createNBT(),2018-08-19,Merged,2388,3,0,,1
+Config: Properly prevent keys getting transformed into bools,2018-08-19,Closed,2386,72,1,,2
+Added a hack for MC W10 form JSON empty strings bug,2018-08-19,Merged,2383,31,1,,1
+Infinite delay for ItemEntity,2018-08-16,Closed,2382,1,1,,1
+PluginManager: Add warnings when a plugin declares useless minor/patc…,2019-04-12,Closed,2381,71,22,,1
+A Primer for Mobs,2018-08-17,Closed,2377,894,2,,20
+"Added CommandEvent, deprecated (Remote)?ServerCommandEvent",2018-08-19,Merged,2376,90,2,,5
+Removed useless strtolower calls,2018-08-13,Closed,2371,20,8,,2
+Fireworks,2019-10-04,Closed,2370,319,2,,5
+Chicken passive,2018-08-09,Closed,2365,"35,708","20,114",gitignore gitmodules yml sh json lock ,7
+Add the chicken passive,2018-08-09,Closed,2364,"35,685","20,114",gitignore gitmodules yml sh json lock ,7
+Added experimental support for ZOPFLI chunk compression,2019-03-01,Closed,2362,39,1,yml ,4
+Kill entity runtime NBT,2018-08-14,Merged,2361,224,210,,3
+Network buffering,2018-08-13,Merged,2358,225,87,,6
+Player Entity Interaction,2018-08-05,Closed,2352,131,1,,4
+Fixed a important information,2018-07-31,Closed,2347,3,3,,1
+Implement Command Parameters,2018-07-30,Closed,2345,173,63,,7
+Implemented network encryption,2018-07-31,Merged,2343,556,176,json lock php ,7
+fix #1551 Slowness Effect levels >= 7 do not reset FOV when removed,2018-07-29,Closed,2342,5,2,,1
+Allow entities to override createBaseNBT,2018-07-30,Closed,2340,30,9,,2
+Implement setting score tag,2018-07-30,Closed,2338,14,0,,1
+PluginManager: Fix patch level check.,2018-07-27,Closed,2336,1,1,,1
+MainLogger: Implemented log spam protection,2019-01-23,Closed,2334,34,10,,1
+Mob-AI Implement,2018-07-26,Closed,2333,"44,478","33,420",php ,3
+Permissions management cleanup,2018-07-26,Merged,2332,308,148,,7
+Added ItemDamageEvent,2018-09-07,Closed,2330,129,4,,3
+add implements in OfflinePlayer,2018-07-25,Closed,2329,2,1,,1
+Remove $handlerList from PlayerExperienceChangeEvent,2018-07-25,Closed,2328,0,1,,1
+Added DATA_FLAG_SHOW_TRIDENT_ROPE,2018-07-24,Closed,2325,1,1,,1
+Move Internet-related functions from Utils into their own class,2018-07-25,Merged,2324,211,117,,7
+Clear the title bar when the server shutdown.,2018-08-07,Closed,2323,3,1,,1
+Implemented player entity interaction,2018-08-03,Closed,2322,0,0,,0
+Player: Separate disconnection logic into disconnect() API method,2018-08-06,Closed,2318,97,85,,4
+Fix for timings command,2018-07-30,Closed,2317,23,16,,1
+PluginBase: Do not fill defaults from resources/config.yml,2018-08-07,Merged,2316,0,4,,1
+"Config: Clean up error handling, throw exceptions instead of returning false",2018-07-21,Merged,2314,64,97,,1
+able to change attackTick,2018-08-07,Closed,2310,24,1,,2
+"Forms API, part 2: Implementation",2018-11-11,Closed,2308,"1,245",0,,4
+Chat improvements (#2288),2018-07-16,Closed,2306,13,0,,1
+Remove async config save,2018-07-12,Merged,2298,5,12,,2
+Added LOCK_EX flag for async save,2018-07-11,Closed,2297,1,1,,1
+MCPE 1.5,2018-07-17,Closed,2296,306,49,,7
+PluginManager: Allow @ignoreCancelled annotation on event handlers to…,2018-07-12,Merged,2294,15,1,,1
+PluginManager: Skip methods not declared by instanceof Listener when registering handlers,2018-07-10,Merged,2293,1,1,,1
+Listener: Add documentation on functionality,2018-07-12,Merged,2292,31,0,,1
+Level: Make spawn protection non-dependent on op count,2018-07-12,Merged,2290,1,1,,1
+API additions to Player::kick() and PlayerKickEvent,2018-07-09,Closed,2289,11,2,,2
+PluginBase: Automatically save default config if it doesn't exist,2018-07-12,Merged,2285,3,1,,1
+Automatically create plugin data directories,2018-07-21,Merged,2284,4,3,,2
+"Fixed double chest inventory desync issues, closes #2261",2018-07-05,Merged,2279,13,4,,2
+Fixed a bug where CursorInventory was not cleared after death,2018-07-12,Closed,2274,9,1,,1
+Remove a whole bunch of crap from the `Plugin` public interface,2018-06-29,Merged,2268,14,62,,3
+reorganize and optimize start.sh,2018-06-29,Merged,2267,8,11,,1
+Implemented Infinity enchantment,2018-06-23,Merged,2259,10,1,,2
+Implemented Thorns enchantment,2018-06-23,Merged,2258,30,5,,2
+Implemented Mending enchantment,2018-07-06,Merged,2257,40,4,,3
+Update TextFormat.php,2018-06-20,Closed,2253,24,24,,1
+Added plugin_data folder to GitIgnore,2018-06-15,Merged,2243,1,0,,1
+Added a pocketmine.yml kill switch for development builds,2018-06-12,Closed,2235,19,6,src/pocketmine/lang/locale yml sh ,5
+Add a Code of Conduct,2018-06-19,Closed,2233,46,0,,0
+Remove double use of spl_object_hash,2018-06-09,Merged,2226,1,1,,1
+add jenkins badge to README.md,2018-06-09,Closed,2225,4,1,,0
+Update README.md,2018-06-05,Closed,2221,1,1,,0
+"add Trident,mobs",2018-06-01,Closed,2218,564,1,,3
+"add Mobs,Trident",2018-06-01,Closed,2217,565,1,,3
+Adding Player::getDeviceOS() function,2019-07-19,Closed,2216,16,0,,1
+!spam,2018-05-30,Closed,2214,13,0,,1
+Scheduler nuke,2018-06-04,Merged,2213,153,230,,9
+Aquatic 25%,2018-05-28,Closed,2212,735,103,,2
+Aquatic 25%,2018-05-28,Closed,2211,802,103,,2
+Aquatic 25%,2018-05-28,Closed,2210,803,103,,2
+Item: quick implementation for Totem,2018-05-23,Closed,2198,122,4,,5
+Fix a grammar error in Player,2018-05-20,Merged,2197,1,1,,1
+Added new IDs,2018-05-20,Closed,2194,15,3,,2
+PluginBase::getResources() returns associative array,2018-06-11,Merged,2193,3,2,,1
+Added Conduit Power effect,2018-08-06,Closed,2192,3,1,,2
+Players can now swim correctly,2019-07-19,Closed,2191,90,6,src/pocketmine/lang/locale tests/plugins/PocketMine-DevTools tests/plugins/PocketMine-TesterPlugin ,6
+Remove implicit chunk autoloading,2019-01-30,Closed,2189,61,48,,4
+Change global variable to local,2018-05-16,Closed,2181,3,3,,1
+Circle ci,2018-05-14,Closed,2180,58,10,yml ,4
+Player: changeSkin() remove unnecessary parameters.,2018-05-11,Closed,2179,2,4,,2
+Fix DoubleSlab block name,2018-05-09,Merged,2177,1,1,,1
+"Implemented an InventoryEventProcessor, fixes #1986",2018-06-09,Merged,2176,159,43,,11
+Allow threads to signal the server to wake it up during tick sleeps,2018-05-09,Merged,2171,109,35,lock php ,6
+Implementation of trade,2019-07-19,Closed,2166,437,2,,6
+Implemented @notHandler annotation for event handlers - skip register…,2018-05-04,Merged,2164,3,0,,1
+Skip method if Listener declares method with undefined argument type,2018-05-01,Merged,2162,13,1,,1
+Allow command description and usage to depend on sender and time,2018-07-06,Closed,2158,29,5,,4
+Add files via upload,2018-04-26,Closed,2157,9,0,,1
+Implementation of xp command,2018-04-21,Closed,2151,107,1,,3
+Fix Player DisplayName,2018-04-08,Closed,2145,1,1,,1
+Human: Add support for 128x128 skins in isValidSkin(),2018-04-07,Merged,2140,1,1,,1
+Add /daylock and /alwaysday,2018-06-08,Closed,2131,78,30,,4
+Fix deprecated event message,2018-03-30,Merged,2127,1,1,,1
+Ignore plugin folder name contains (dot) phar,2018-04-09,Closed,2125,4,0,,1
+Implement Player -> Entity interaction,2018-08-06,Closed,2124,123,1,,3
+Added support 128x128 skin for last beta build,2018-03-27,Merged,2123,1,1,,1
+Fixed #2110,2018-03-21,Closed,2111,1,1,,1
+Implemented fire spread,2019-07-19,Closed,2107,342,125,,9
+AxisAlignedBB: added epsilon for floating-point comparison,2018-03-14,Merged,2101,6,4,,1
+Asynchronous events: Phase I,2018-06-07,Closed,2096,197,0,,3
+Added getRandomTickedBlocks() function,2018-03-10,Merged,2089,4,0,,1
+Paintings,2018-03-07,Merged,2073,538,95,,2
+Fixed player can eat cake in creative mode,2018-03-13,Closed,2070,1,1,,1
+Allow Command::getPermissionMessage() to return null,2018-02-24,Merged,2057,2,2,,1
+Added hasEffects() function,2018-02-24,Merged,2054,8,0,,1
+More features,2018-02-23,Closed,2053,55,89,yml ,5
+Expose plugin.yml contents to plugins with PluginDescription::getMap(),2018-02-19,Merged,2043,8,0,,1
+Bouncy blocks,2018-02-19,Closed,2036,225,24,tests/plugins/PocketMine-DevTools tests/plugins/PocketMine-TesterPlugin tests/preprocessor ,12
+Forms,2018-02-17,Closed,2030,"6,838","9,510",gitignore yml json ,3
+"add slime block and make some blocks bouncy(Bed,SlimeBlock) + add EntityBounceOnBlockEvent",2018-02-15,Closed,2023,220,5,tests/plugins/PocketMine-DevTools tests/plugins/PocketMine-TesterPlugin tests/preprocessor ,12
+Player: fix respawning after rage-quit on death,2018-02-13,Merged,2017,51,45,,2
+Sami documentation generator,2019-01-23,Closed,2007,50,0,twig yml ,3
+Don't use static function,2018-02-09,Closed,2002,1,1,,1
+Bump v1.2.10,2018-02-08,Closed,1997,3,3,,1
+Update for the 1.2.10,2018-02-07,Closed,1996,3,3,,1
+x,2018-02-03,Closed,1991,"5,592","8,204",gitignore yml json ,3
+Added Living::getEntityLookingAt() method,2018-02-06,Closed,1984,36,1,,1
+MainLogger: Do output to console on the logger thread itself,2018-05-04,Closed,1983,26,8,,2
+Added xboxUserId to updatePlayerListData() for display your xbox live profile,2018-02-08,Merged,1982,6,5,,2
+Implemented API versioning checks as described in #1769,2018-02-01,Closed,1978,2,2,,1
+Generator: Add typehint,2018-01-27,Closed,1975,2,2,,1
+Update ProtocolInfo.php,2018-01-26,Closed,1966,2,2,,1
+Fixed armor not dropping,2018-01-24,Merged,1962,7,1,,2
+Added Event->finallyCancelled,2018-11-13,Closed,1961,35,0,,2
+!spam,2018-01-23,Closed,1960,9,9,,1
+BaseInventory: Better getContents function,2018-01-23,Closed,1959,12,9,,1
+Inventory: Split up armor and player inventory,2018-01-23,Merged,1957,198,235,,5
+Revert composer,2018-01-23,Closed,1956,"9,334",129,json lock php src/pocketmine/lang/locale ,9
+"Fix projectiles throwing errors on launching, fix #1942",2018-01-20,Merged,1943,1,1,,1
+Vector3::setComponents() and override changes/removal,2018-01-19,Merged,1936,1,15,,2
+NetworkBinaryStream: Fixed putVector3ObjNullable function argument,2018-01-18,Closed,1935,1,1,,1
+Implemented Elytra,2018-01-18,Closed,1934,126,3,,5
+Arrow class: No need to import Item class with other name,2018-01-17,Merged,1932,2,2,,1
+"Add API methods: Entity::isInvisible(), Entity::setInvisible()",2018-01-17,Merged,1930,10,2,,2
+Implemented critical hits,2018-02-19,Merged,1929,15,0,,2
+Implemented splash potions,2018-01-15,Closed,1921,259,7,,6
+Added some sounds,2018-01-15,Closed,1920,14,6,,4
+Update README.md,2018-01-15,Closed,1919,1,1,,0
+Fix TNT#ignite fuse,2018-01-14,Merged,1917,1,1,,1
+Ice: Don't create water when broken with silk touch tool,2018-01-14,Closed,1914,5,1,,1
+Enchantment->setLevel for old api users,2018-01-13,Closed,1913,11,0,,1
+Enchantment: Implement Silk Touch,2018-01-14,Merged,1912,94,2,,19
+"PlayerTeleportEvent, PlayerWorldTeleportEvent",2018-01-11,Closed,1908,130,1,,3
+"Fix block cache not getting counted correctly, fix #1903",2018-01-12,Closed,1906,1,1,,1
+Anvil : Add getVariantBitmask,2018-01-11,Closed,1901,5,7,,1
+Implemented Ender Pearls,2018-03-09,Closed,1897,187,1,,6
+Level: Implemented asynchronous chunk I/O,2018-07-16,Closed,1895,"1,180",751,,2
+Fixed INT32_MIN,2018-01-07,Closed,1891,1,1,,1
+!spam,2018-01-06,Closed,1888,92,85,,2
+Forms api,2018-01-06,Closed,1887,"1,402",1,,3
+Re-implemented block ray tracing,2018-01-10,Merged,1885,141,382,,3
+Block bounding boxes,2018-09-23,Closed,1880,46,21,,13
+"Refactored entity metadata handling into its own class, with type-saf…",2018-01-20,Merged,1876,364,108,,2
+Create LICENSE.md,2018-01-02,Closed,1873,21,0,,0
+Fixed Player::sleepOn,2018-01-02,Closed,1871,1,1,,1
+Add CompoundTag support to Entity::DATA_TYPE_SLOT,2018-01-20,Closed,1870,2,1,,1
+LevelProviders refactor,2018-01-02,Merged,1864,85,364,,4
+Fixed beds drop in creative when the bottom is broken,2018-01-03,Closed,1862,9,1,,1
+Implement MinecraftSound,2018-01-20,Closed,1846,61,0,,1
+Fixed FlowerPot Problem,2017-12-23,Closed,1844,3,1,,1
+Fixed Block/Item Problem,2017-12-23,Closed,1843,2,2,,1
+"Fix direction checking for player interactions, close #983",2017-12-23,Merged,1842,5,6,,1
+Implement armor damage protection enchantments,2018-01-24,Merged,1839,162,4,,5
+Implemented TextFormat::colorize(),2017-12-30,Merged,1837,12,0,,1
+Add EOF newlines where missing (bulk),2017-12-20,Merged,1836,600,600,,57
+Implement colorize,2017-12-20,Closed,1835,15,4,,1
+Fixed wrong execution PlayerPreLoginEvent close #1831,2017-12-22,Merged,1833,7,7,,1
+Added a getEntry() to BanList,2017-12-21,Merged,1830,12,1,,1
+Fixed type,2017-12-17,Closed,1827,1,1,,1
+change word,2017-12-17,Closed,1826,2,2,,1
+Enchantment: Split up enchantment type data and enchantment instance data,2017-12-21,Merged,1825,96,38,,4
+Level: Manage block cache appropriately when loading/unloading/replac…,2017-12-16,Merged,1823,41,32,,1
+Changed Effect colours to use Color objects instead of arrays,2017-12-14,Merged,1814,35,37,,2
+PluginManager: Altered regex to allow @ignoreCancelled without a value,2017-12-31,Closed,1799,9,5,,1
+Added the EXECUTE priority.,2018-11-13,Closed,1798,24,12,,2
+Consumables refactor,2017-12-23,Merged,1796,113,306,,6
+Tools refactor,2017-12-13,Merged,1795,901,"1,545",,11
+Removed Cancellable interface,2018-04-14,Closed,1794,265,168,,16
+Automatically handle all subclass events,2018-03-20,Merged,1792,167,326,,15
+Match Entity::DATA_FLAG_ONFIRE behaviour with vanilla MCPE,2017-12-09,Closed,1782,26,8,,4
+add UUID ban/unban,2017-12-17,Closed,1777,63,6,,4
+NBT streams refactor,2017-12-30,Merged,1775,606,344,,9
+Fixed broken logic in EntityEffectEvents,2017-12-03,Merged,1768,20,15,,2
+Conversion of FullChunkDataPacket into chunk class.,2017-12-03,Closed,1766,17,0,,1
+Update README.md,2017-12-03,Closed,1762,1,1,,0
+Update start.cmd,2017-12-03,Closed,1761,1,1,,1
+Make Living::addEffect() return bool,2017-12-01,Merged,1755,6,2,,1
+Liquids refactor,2017-12-04,Merged,1753,220,195,,2
+sadasd,2017-11-28,Closed,1752,"1,389",1,,3
+Implement XP,2018-01-05,Merged,1561,523,16,,5
+Delete start.ps1,2017-11-20,Closed,1558,0,45,,1
+Fixed setMaxAirSupplyTicks(),2017-11-19,Merged,1555,1,1,,1
+Some changes to messages,2017-11-19,Merged,1552,2,2,,2
+SIGKILL should be a string,2017-11-15,Closed,1546,1,1,,1
+Fixed save player data after PlayerQuitEvent,2017-11-15,Merged,1544,5,5,,1
+Fix having nested onSubmit returning Forms not working,2017-11-13,Closed,1540,3,2,,1
+Prismarine Metadata fix,2017-11-12,Closed,1538,5,5,,1
+Fix health overflow after calling setMaxHealth(),2017-11-18,Closed,1524,3,0,,1
+Entity IDs,2017-11-06,Closed,1522,123,0,,1
+Cosmetically improve UUID::equals(),2017-11-04,Merged,1517,1,1,,1
+migrate to new CompoundTag API,2017-11-10,Merged,1515,305,370,,5
+Add FoodRestore to RawPorkchop back,2017-10-29,Closed,1510,9,1,,1
+add customui api,2017-10-26,Closed,1506,"1,093",0,,6
+Implemented Config->removeNested(),2017-10-30,Merged,1499,20,0,,1
+Fix EntityEat events.,2017-10-24,Closed,1498,16,11,,4
+Cancel PlayerInteractEvent automatically on left-click block when spa…,2017-11-03,Merged,1492,7,1,,2
+Lil’ bit of cleanup...,2017-10-23,Closed,1491,3,3,,0
+Fixed misuse of kill() and close() when deleting entities,2017-11-04,Merged,1490,27,13,,10
+A little translation,2017-10-23,Merged,1489,1,1,,1
+Fixed items not removed when put in the lava and refactored Block::get() on FallingSand,2017-10-23,Merged,1485,3,1,,2
+Forms API,2018-04-14,Closed,1476,"1,402",1,,3
+Fix error related server wizard,2017-10-18,Closed,1474,5,1,,2
+Implemented throwing eggs,2017-10-19,Closed,1473,82,2,,3
+Added new API methods in CompoundTag to allow developers to stay sane,2017-10-14,Merged,1469,286,0,,1
+Renamed swapPage to swapPages and cleaned up page pushing.,2017-10-23,Closed,1468,7,6,,2
+Add potions and splash potions,2017-10-13,Closed,1466,626,2,,5
+Add ability to unregister a command completely,2017-10-13,Merged,1464,17,0,,1
+Fix for explosions not removing tiles,2017-10-13,Merged,1463,24,1,,1
+Implement ender chest,2017-11-22,Merged,1462,260,1,,7
+added a hacky pocketmine.yml auto updater,2018-04-14,Closed,1461,288,163,yml ,2
+Modified misleading comment,2017-10-09,Merged,1455,1,1,,1
+Peaceful difficulty allows PvP,2017-10-08,Merged,1453,1,1,,1
+Added API to allow flagging an entity not to be saved to disk when it…,2017-10-11,Merged,1452,55,20,,6
+Implemented Doors,2017-10-07,Closed,1451,674,6,,4
+Fix coloured message,2017-10-01,Closed,1437,2,2,,2
+Fixed typo on ProjectileItem class.,2017-09-30,Merged,1431,8,8,,1
+"New skin API, add support for custom capes & custom geometry",2017-09-29,Merged,1416,302,120,,5
+"Fix #145, take 2 (slab placement in half gaps doesn't work)",2017-10-01,Merged,1411,19,6,,3
+Adding writable and written books.,2017-10-08,Merged,1397,525,8,,3
+Addition of Coarse Dirt,2017-09-23,Merged,1396,9,1,,2
+Refactored API compatibility checking code into its own method,2017-09-24,Merged,1394,37,30,,1
+Implemented FloatingTextParticle as an entity,2018-01-24,Closed,1393,126,0,,4
+Make use of awesome new pack() codes for floats,2017-09-14,Merged,1390,9,9,tests/preprocessor ,2
+Quoted command args & allow playernames with spaces,2017-09-15,Merged,1383,2,2,,2
+Location cleanup,2017-09-12,Merged,1380,1,4,,1
+Added capability to dump AsyncWorkers' memory,2017-09-14,Merged,1379,141,14,yml ,4
+Spam,2017-09-10,Closed,1375,"26,296","20,340",,14
+Update Grass.php,2017-09-09,Closed,1368,4,0,,1
+Overrides add function to return an object of the same class,2017-09-10,Closed,1367,30,0,,2
+Update Vector3,2017-09-08,Closed,1365,15,0,,1
+Improve anti-fly,2017-09-07,Closed,1361,20,13,,1
+players spawn in the middle of the block,2017-09-10,Closed,1353,1,1,,1
+oops wrong button,2017-09-02,Closed,1345,26,487,LICENSE ,1
+Fix error on Chunk::getTile(),2017-09-02,Closed,1344,2,2,,1
+Fixed plugins with unknown dependencies saying they have circular dep…,2017-09-04,Merged,1342,2,1,,1
+Fix Endless cake bug,2017-08-31,Closed,1338,1,1,,1
+1337,2017-08-29,Closed,1337,1,1,,1
+fixed entity movement leak,2017-08-29,Closed,1336,0,11,,1
+Disallow large-chests from opening when a non-transparent block is above,2017-09-01,Closed,1334,7,9,,1
+Remove leftover Level::Y_MASK mess,2017-08-28,Closed,1332,2,2,,1
+"Basic implementation of banners, including API to modify them with ease.",2017-11-15,Merged,1331,719,3,,3
+PHP 7.2,2017-08-31,Closed,1328,22,14,php tests/plugins/PocketMine-DevTools tests/plugins/PocketMine-TesterPlugin ,7
+"Added explicit AsyncTask->storeLocal(), removed AsyncTask->__construct() object storage",2017-09-10,Merged,1322,68,36,tests/plugins/PocketMine-TesterPlugin ,3
+"Fix errors on AxisAlignedBB, caused by null $x,y,z",2017-08-26,Closed,1321,3,0,,1
+ServerScheduler::scheduleAsyncTask() returns the worker used,2017-08-29,Merged,1312,8,6,,2
+Mcpe 1.2,2017-08-24,Closed,1311,"27,897","9,058",,15
+Remove Entity->length,2017-08-23,Merged,1310,3,14,,10
+Fix server MOTD showing on the wrong server in server list,2017-08-22,Closed,1306,1,1,,1
+"Added basic support for blocks with multiple AABBs, fixed stairs",2017-10-12,Merged,1303,123,115,,5
+Move block registration to its own class,2017-08-20,Merged,1302,560,482,,3
+Added 'Help',2017-08-19,Closed,1301,2,2,,1
+Implement Stained glass and stained glass pane,2017-08-18,Merged,1298,84,2,,3
+Fix some type errors on custom ExplodePacket use,2017-08-19,Merged,1297,2,2,,1
+Fix some type errors,2017-08-17,Closed,1296,1,1,,1
+Add PlayerExperienceChangeEvent,2017-08-08,Closed,1282,97,2,,2
+Remove InventoryType,2017-08-07,Closed,1277,115,264,,10
+Try fix permission command,2017-08-06,Closed,1276,16,15,,1
+Update gameMode.changed,2017-08-05,Closed,1273,2,2,,1
+"Add Vector2::setComponents, Vector2::getComponents, Vector3::getComponents",2017-07-30,Closed,1260,30,0,,2
+Tile NBT usage enhancements,2017-08-06,Merged,1259,109,167,,7
+Added precision and mode arguments to Vector3::round(),2017-08-04,Merged,1256,4,2,,1
+Fix enchantment typo,2017-07-28,Closed,1253,1,1,,1
+w,2017-07-28,Closed,1252,257,8,php cmd ,10
+"Added new events for network interface handling, close #1232",2017-09-06,Merged,1250,191,9,,8
+Added capability to specify compatible protocol versions in plugin.yml,2017-09-01,Merged,1247,32,1,php ,3
+Update PluginDescription.php,2017-07-22,Closed,1231,1,1,,1
+Add PlayerJumpEvent,2017-07-22,Merged,1223,49,0,,2
+Return the dropped item entity when using Level->dropItem to be able to further manipulate it,2017-07-20,Merged,1222,4,0,,1
+"Fix errors due to Block::$x, $y, $z being null",2017-07-16,Closed,1213,1,0,,1
+V1.0.0,2017-07-15,Closed,1210,45,2,yml ,3
+Fix floating text disappearing bug,2017-09-21,Closed,1205,10,11,,1
+setText now nullable instead of overwriting with empty lines,2017-09-01,Merged,1204,23,4,,1
+Improve usability of Sign API,2017-07-19,Merged,1202,43,0,,2
+Moar typehints,2017-07-15,Merged,1200,879,741,,4
+Changes username validation regex,2017-07-13,Closed,1196,1,1,,1
+fixing getTile,2017-07-12,Closed,1195,1,1,,1
+Fix #1193,2017-07-12,Merged,1194,2,2,,1
+Fix BossEventPacket,2017-07-11,Closed,1191,5,1,,1
+Ignore Hotbar Slots with Air,2017-07-11,Closed,1188,7,0,,1
+Fix Permission commands,2017-07-10,Closed,1186,2,0,,1
+Update Block.php,2017-07-09,Closed,1184,1,0,,1
+Create NetherWartBlock,2017-07-09,Closed,1182,58,0,,1
+Merge changes from master,2017-07-08,Closed,1181,258,269,,18
+Stop timing out players before they can join,2017-07-03,Closed,1160,1,3,,1
+Fixed chunks not loading when respawning and some minor spawn sequence cleanup,2017-07-05,Merged,1153,54,122,,3
+Allow spaces in player's username,2017-09-12,Closed,1152,1,1,,1
+Coloured Beds,2017-06-29,Closed,1151,38,4,,2
+Fix drop item behaviour make compatible with pc version,2017-07-04,Closed,1147,11,1,,1
+Added API method to allow changing /help page sizes for CommandSenders,2017-07-13,Merged,1144,42,5,,4
+facepalm,2017-06-25,Closed,1137,1,1,,1
+Ability to customize ID when registering Items,2017-06-22,Closed,1127,4,3,,1
+Made Item->setLore() fluent,2017-06-23,Merged,1120,7,0,,1
+Changed CompoundTag access,2017-10-08,Closed,1119,592,642,,8
+Removed useless confusing array indices in CompoundTag constructors,2017-06-20,Merged,1116,111,112,,12
+Fixes MCPE syntax checked command parameters being ordered wrongly,2017-07-07,Closed,1115,36,2,,1
+Added missing fields to server name for ping responses,2017-07-04,Merged,1114,29,8,,3
+Set a default value 0 for tick counter,2017-06-17,Merged,1108,1,1,,1
+Fix #1071,2017-06-16,Closed,1098,1,1,,1
+Fix Spectator Orygen Decreasing + Spectator Item Dropping,2017-09-10,Closed,1090,9,0,,2
+Added missing sounds,2017-09-10,Closed,1064,32,3,,6
+Fix missing typecast,2017-06-10,Closed,1059,2,2,,2
+Merge from master repo.,2017-06-10,Closed,1051,"14,095",109,md php src/pocketmine/lang/locale ini ,7
+Fix #1046,2017-06-09,Merged,1047,1,0,,1
+Create PocketMine.php,2017-06-09,Closed,1044,2,2,,1
+Added Plugins section to the issue template,2017-06-08,Merged,1034,8,0,,0
+Fixed DevTools getting disabled when a plugin throws an exception dur…,2017-06-07,Merged,1025,13,8,,1
+Add Entity::isPlayer() and CommandSender::isPlayer() function,2017-06-05,Closed,1013,55,61,,18
+lol,2017-06-04,Closed,1002,169,8,,6
+Strict type all the things,2017-06-08,Merged,993,"1,986",261,,8
+Drop support for 32 bit systems/PHP,2017-06-10,Merged,984,132,345,php ,3
+Fixed type of empty ListTags and removed some undefined behaviour,2017-06-03,Merged,974,7,7,,1
+"Added asVector3(), asPosition() and asLocation()",2017-06-07,Closed,973,37,0,,4
+Binary strict types,2017-06-03,Merged,969,234,114,,6
+TAG_Byte should always be signed,2017-06-02,Merged,962,3,3,,2
+Added addLore() method,2017-05-31,Closed,959,15,0,,1
+Eid not zero,2017-05-30,Closed,958,11,3,,2
+More use of Event->call(),2017-06-02,Merged,957,24,27,,8
+Remove damage variable in Entity->knockBack,2017-05-29,Closed,952,2,2,,1
+Create/update/fix endrod,2017-05-30,Closed,949,150,2,ps1 sh ,7
+Update core for PHP 7.1,2017-07-21,Closed,948,16,8,php ,4
+Added an easier function to quickly get an OfflinePlayer object from a Player object,2017-05-27,Closed,947,10,0,,1
+DragonEgg and Elytra,2017-05-27,Closed,946,87,0,,6
+Remove unneeded foreach loop in Human::getDrops(),2017-05-30,Merged,941,1,8,,1
+Add EndRod,2017-05-28,Closed,940,108,0,,2
+"Fix Button placement, enhance breaking logic",2017-05-28,Closed,939,248,82,,9
+Add Server::broadcastTitle(),2017-05-25,Merged,932,30,0,,1
+Be more clear about ProtocolInfo being automatically generated and ad…,2017-05-21,Merged,931,17,5,,1
+Update ProtocolInfo.php,2017-05-20,Closed,930,2,2,,1
+Improve checks for Position::equals() and Location::equals(),2017-07-04,Merged,929,13,0,,2
+Fixed AsyncTask memory leaks,2017-05-17,Merged,922,27,2,php tests/plugins/PocketMine-TesterPlugin sh ,5
+"Added PlayerDataSaveEvent, resolved #487",2017-05-29,Merged,920,101,20,,4
+Fixed undefined offset when retrieving something from the thread store that doesn't exist,2017-05-22,Merged,919,1,1,,1
+Added short-hand Event->call() for easier event calling,2017-09-14,Closed,916,71,76,,10
+"Removed masks for Y coordinates, throw exception for block hash Y out of bounds, fixed #914",2017-06-21,Merged,915,105,36,,6
+Fix issue with colored message on some languages,2017-05-15,Merged,910,2,2,,2
+Doors,2017-05-09,Closed,905,465,0,,8
+Added basic fire spread implementation,2017-05-09,Closed,904,921,708,,2
+"Added ""extensions"" attribute in plugin.yml with version checking",2017-05-15,Merged,903,64,1,,2
+Fixed #852,2017-05-08,Closed,901,5,1,,1
+"Fix falling blocks destroyed by grass, close #897",2017-05-23,Closed,899,2,3,,1
+Use json_decode for effects data,2017-05-08,Merged,898,16,10,,1
+Kick the player who's tryna login with the username!,2017-05-07,Closed,895,2,2,,1
+Added addEnchant() function,2017-05-05,Closed,890,16,3,,1
+Call PlayerInteractEvent (ItemFrameDropItemPacket),2017-05-05,Merged,887,7,0,,1
+"Reduced deltas for player movement, significantly smoother player movement and rotation",2017-05-05,Merged,883,1,2,,1
+Implement difficulty per-world,2017-09-26,Merged,878,132,50,,9
+Revert 1 master,2017-04-24,Closed,866,2,38,php ,1
+"Typehint and document more events, obseletes #864",2017-04-24,Closed,865,90,42,,9
+Return class specification,2017-04-25,Closed,864,4,2,,1
+Fixed semicolon typo,2017-04-22,Closed,861,1,1,,1
+"Fix ""Creating default object from empty value""",2017-04-20,Merged,858,1,1,,1
+"Throw an exception before calling base entity constructor if skin is not set or invalid, close #835",2017-04-24,Merged,855,25,5,,2
+Player can no longer interact with anything during spectator mode,2017-05-06,Closed,854,25,9,,1
+Remove redundant null check in PluginCommand,2017-04-19,Merged,853,1,1,,1
+Merge pull request #1 from pmmp/master,2017-04-18,Closed,850,0,0,,0
+Merge pull request #1 from pmmp/master,2017-04-18,Closed,849,0,0,,0
+Fixes #835,2017-04-19,Closed,847,15,2,,1
+"Optimized spawn code, also gets rid of a misleading variable name.",2017-04-18,Closed,846,1,3,,1
+Create PULL_REQUEST_TEMPLATE.md,2017-04-18,Merged,845,35,0,,0
+Added title command and API for resetting title duration,2017-04-27,Closed,844,121,2,,4
+Remove movement hack,2017-04-17,Closed,842,0,4,,1
+Update to 1.0.6,2017-04-16,Closed,838,4,4,,1
+"Better cURL API, use async in timings",2017-04-25,Merged,834,185,73,,3
+Fix PopSound giving failed click sound.,2017-04-15,Merged,829,1,1,,1
+"Effect level is used for mathematics rather than amplifier, Close #412",2017-05-05,Closed,826,33,26,,6
+Fix #823,2017-04-14,Merged,825,1,1,,1
+Major improvements in program performance,2017-04-13,Closed,824,1,1,,1
+Improved cURL functions,2017-04-15,Closed,822,85,43,,1
+Address #816,2017-04-13,Merged,817,5,5,,4
+"Added getName() for trees, obsoletes #485.",2017-05-22,Closed,815,51,5,,4
+Visibility keyword before final or abstract keyword.,2017-04-13,Merged,814,37,37,,17
+Merge master into api3/network,2017-04-10,Merged,812,141,32,,9
+Actually use iusername instead of repeatedly lowercasing player names,2017-04-10,Merged,811,7,7,,1
+Fix typo in explosion,2017-04-10,Merged,700,1,1,,1
+Allow custom JSON pretty print options,2017-04-09,Merged,524,65,1,,1
+Removed misleading outdated documentation,2017-04-05,Merged,519,1,3,,1
+Update Config.php for supporting Chinese character encode??,2017-04-06,Closed,517,1,1,,1
+Add Glitter Link,2017-04-05,Closed,515,1,0,,0
+Add and fix some enchantment functions.,2017-05-03,Closed,512,70,29,,1
+Timings are now done with a AsyncTask.,2017-04-16,Closed,509,88,32,,3
+How does nobody update the server to 1.0.5?,2017-04-01,Closed,505,4,4,,1
+Create pocketmine_eng.yml,2017-04-01,Closed,503,198,0,,1
+Add method to get client device model,2017-04-01,Closed,500,11,2,tests/plugins/PocketMine-DevTools ,3
+Fixed double gc_enable call,2017-04-03,Merged,492,0,1,,1
+"Added a getName() function for Trees, added a little more documentation.",2017-04-11,Closed,485,74,29,,13
+Fix Fishing Rod,2017-03-29,Closed,476,163,77,php ,15
+Fix Fishing Rod,2017-03-29,Closed,475,6,5,,2
+Set forceMovement to null when player is closed.,2017-03-29,Merged,472,1,0,,1
+"Don't use stdClass for nbt, add temporary magic methods.",2017-03-29,Closed,468,35,14,,2
+Fixed block update recursion issues,2017-04-01,Merged,464,67,19,,4
+Fixed 2 errors that bugged NetBeans IDE,2017-03-25,Closed,461,2,2,,2
+Added basic weather functionality,2017-08-31,Closed,460,574,8,,6
+Throw an exception when something attempts to serialize Server,2017-03-25,Merged,459,9,0,,1
+Block light bug fixes,2017-03-24,Merged,454,53,4,,5
+Added Permissions to bypass spawn protection (#440),2017-03-25,Merged,451,6,5,,2
+Added pocketmine.yml option to disable the title ticker,2017-03-24,Merged,447,13,5,yml ,2
+Add ender pearl,2017-03-22,Closed,446,121,0,,5
+Fixed hunger not saving,2017-03-18,Merged,439,6,0,,1
+Fix client-side death bug,2017-03-20,Merged,438,0,9,,1
+"Auto update checks are now asynchronous, improves startup time",2017-03-17,Merged,433,144,36,,2
+Small docs fix,2017-03-16,Merged,432,1,1,,1
+Stop skipping stack frames,2017-03-19,Merged,425,7,10,,4
+Added detection for recursive server aliases,2017-03-13,Merged,424,13,1,src/pocketmine/lang/locale ,2
+Added support for commands to have names/aliases containing spaces,2017-03-13,Merged,422,31,14,,1
+Update README.md,2017-03-13,Closed,421,1,53,,0
+"Use entity IDs in EntityDamageByEntityEvents, fixed memory leaks related to PvP/PvE/PvM",2017-03-13,Merged,418,63,17,,8
+Create ClientboundMapItemDataPacket.php,2017-03-07,Closed,404,123,0,,1
+Correction of continuation of color.,2017-03-06,Closed,401,1,1,,1
+Add fireball item and partial functionality,2017-03-06,Closed,400,48,1,,3
+Hotbar/inventory bugfixes,2017-03-09,Merged,399,172,113,,3
+Fixed missing permission registration in in #355,2017-03-05,Merged,396,2,1,,1
+Added safety checks for region file validity,2017-04-27,Merged,393,130,10,,4
+Dev,2017-02-27,Closed,386,475,347,php ,16
+Simplified Vector3::getOppositeSide(),2017-03-05,Merged,377,13,16,,1
+Throw exception when attempting to save a non-generated chunk,2017-02-21,Merged,367,14,6,,3
+Use parse_ini_file instead of home-grown solution,2017-02-19,Merged,366,2,23,src/pocketmine/lang/locale ,2
+Add TransferCommand.php,2017-02-16,Closed,363,42,0,,1
+Added exception throws when an error occurs during Utils::getURL() or…,2017-03-16,Merged,357,20,8,,2
+Added API for transferring players to other servers,2017-03-04,Merged,355,152,1,src/pocketmine/lang/locale ,5
+add block and Item support,2017-02-11,Closed,349,"4,978",228,,3
+Added some very useless functions for easier scale changing of entities.,2017-02-11,Merged,348,15,1,,1
+Fixed wrong temperature and temperature -> rainfall,2017-02-11,Merged,347,2,2,,1
+Weather - WIP,2017-05-24,Closed,335,374,2,,6
+Added ability to use config as array,2017-02-09,Closed,334,41,1,,1
+Added Elytra Wings to game,2017-02-07,Closed,333,39,1,,4
+Added extra data sent by client in 1.0.3,2017-02-07,Closed,331,39,1,,1
+Phar link is now working,2017-02-06,Closed,330,1,1,,0
+closed - weather,2017-02-07,Closed,329,272,0,,4
+"Fixed half-trees on chunk boundaries, possibly fixed #265",2017-02-09,Merged,328,5,1,,1
+Update the generator for better lands generator !,2017-02-05,Closed,327,43,10,,1
+Fixed the awful debug > 1 confusion,2017-02-04,Closed,325,7,9,yml ,3
+"Fixed ""Too many open files""",2017-02-04,Merged,324,2,0,,1
+Added support for Composer,2017-09-10,Merged,323,90,4,yml json lock php sh ,8
+Sea Lantern Lighting,2017-02-02,Merged,316,2,2,,1
+Remove shutdown after memory dump.,2017-02-03,Merged,310,1,3,,1
+New Crowdin translations,2017-01-31,Closed,309,101,985,,3
+New Crowdin translations,2017-01-31,Merged,308,"9,429",0,,1
+Absorbtion 4 for God Apples.,2017-01-28,Merged,305,2,2,,1
+Re-implemented chunk sending,2017-03-02,Merged,304,99,58,yml ,4
+Address #302,2017-06-08,Closed,303,10,7,,1
+Stop the server sending blank messages to players,2017-01-28,Closed,301,10,8,,1
+Skip ticks when server is under heavy load,2017-06-08,Closed,300,9,3,,1
+Fixes #295,2017-01-27,Merged,299,12,3,,1
+Fixed wrong commit parsing on non-default branches,2017-01-27,Closed,297,9,1,,1
+Litle optimization,2017-01-25,Closed,290,7,3,,1
+"Anti-cheat fixes, settings and API",2017-01-25,Merged,287,121,16,yml tests/plugins/PocketMine-DevTools ,7
+Workaround for chat duplication. TODO: Revert this,2017-01-20,Merged,274,20,9,,1
+Fix the damn movement checks,2017-01-17,Closed,270,22,17,tests/preprocessor ,4
+"Added CraftingDataPacket cache, reduced lag spikes on player join",2017-01-23,Merged,269,55,23,,3
+Added a hack for multiworld chunk bug,2017-01-17,Merged,263,10,1,,1
+"Fixed double chest tile memory leak on shutdown, close #256",2017-01-15,Merged,261,8,1,,1
+Fix most movement-check false-positives and many position bugs,2017-01-20,Merged,259,22,17,tests/preprocessor ,4
+Fixed file headers,2017-01-13,Merged,255,"2,027","2,027",,16
+Remove all movement checks except travelling into un-generated chunk,2017-01-09,Closed,243,10,27,,1
+Better guards against Positions leaking unloaded Level objects,2017-01-09,Merged,241,46,4,,3
+Added Windows PowerShell start script with loop capability,2017-01-09,Merged,240,40,0,,1
+Fixes sendHeldItem to stop crashes when executing.,2017-01-07,Merged,234,3,3,,2
+Remove movement checks,2017-01-13,Closed,233,10,27,,1
+Better README and contribution guidelines,2017-01-03,Merged,226,110,148,,0
+MobHeads are stackable to 64,2017-01-02,Closed,225,1,5,,1
+Kick on ban.,2016-12-31,Closed,217,10,7,,2
+1.0,2016-12-30,Closed,215,5,5,,1
+1.0,2016-12-30,Closed,214,6,6,,1
+Add 0.16 blocks/items,2016-12-29,Merged,210,224,11,,9
+Fix instabreak anti-cheat false positive on obsidian broken,2016-12-28,Merged,209,1,1,,1
+Fix duplicated chat messages,2017-01-20,Closed,206,9,0,,1
+New event packets,2016-12-25,Closed,205,8,1,,1
+PHP7 updates,2017-05-15,Closed,202,320,295,,19
+Fix blocklight near y0,2016-12-23,Merged,201,2,0,,1
+MemoryManager: Fix sprint too less arguments if $from contains %x,2016-12-23,Merged,199,1,1,,1
+Report CPU and tick usage accurately using averages,2016-12-22,Merged,195,14,21,,2
+Bump API 2.1.0,2016-12-21,Closed,193,1,1,,1
+"Fixed effect amplifier overflow crash, close #147",2016-12-27,Merged,191,12,3,,3
+PHP 7 updates.,2016-12-23,Closed,189,0,0,,0
+Fix deepEquals() crash when tag check is specified and only one item …,2016-12-21,Merged,188,1,1,,1
+Some PHP7 updates,2016-12-21,Closed,186,42,42,,1
+mcpe 1.0 chunkskylight,2016-12-29,Merged,183,13,11,,1
+1.0.0,2016-12-20,Closed,180,344,114,,9
+Added support for API alpha/beta/whatever suffixes,2016-12-19,Merged,177,20,10,,1
+ScriptPluginLoader: Fix only use first doc comment.,2016-12-17,Closed,172,1,1,,1
+"Re-implemented CommandReader, fixed CommandReader hanging on shutdown, close #25",2017-01-07,Merged,171,127,42,src/spl ,3
+"Increase ladder bounding box to 3/16, fix kicked for flying when sneaking on ladders",2016-12-15,Merged,168,1,1,,1
+0.16 isp (PhpStorm inspections),2016-12-15,Merged,166,49,41,,22
+Update IDs for compatibility + 0.16,2016-12-14,Closed,164,61,40,,2
+Fix for getArray() [NBT],2016-12-12,Merged,163,2,1,,1
+Deprecate Minecraft game version constants in the `pocketmine` root namespace,2016-12-19,Merged,161,16,4,,4
+Sky light implementation,2017-04-18,Closed,160,197,13,,4
+"Added ability to force literal gamemode checks for Player->isSurvival(), Player->isCreative() and Player->isAdventure()",2016-12-12,Merged,155,40,10,,1
+"Fix trailing slashes in MOTD breaks server list, close #153",2016-12-27,Merged,154,1,1,,1
+Added BatchBlockUpdateEvent and made updateAround() use it,2016-12-06,Closed,151,107,26,,3
+Fix #143,2016-12-06,Merged,150,2,2,,1
+Deprecated and renamed Level::getName() to Level::getSavedName(),2016-12-20,Closed,148,34,22,,9
+Entity Effect Events,2016-12-06,Merged,141,142,3,,4
+Clean up unused files,2016-12-04,Merged,140,0,59,,2
+Update .travis.yml,2016-12-03,Closed,139,3,2,,1
+Fix ./command detection by old plugins,2016-12-03,Merged,138,7,2,,1
+Updated CONTRIBUTING.md about cosmetic pull requests,2016-12-07,Closed,137,11,0,,0
+Remove Twitter Link,2016-12-02,Merged,136,0,2,,0
+Fix #133,2016-12-09,Merged,134,18,0,,2
+Fixed clicking on fire to extinguish it,2016-11-30,Merged,132,1,0,,1
+More ??,2016-11-30,Merged,131,23,24,,15
+Improved varint write performance,2016-11-26,Merged,126,11,15,,1
+Removed outdated GUI submodule,2016-11-25,Merged,125,0,5,src/pocketmine/gui ,2
+Fix ServerKiller and make it less useless,2016-11-24,Merged,122,4,4,,2
+Remove circular dependency between Item and NBT modules,2016-11-25,Merged,121,68,64,,7
+Removed the Plugin Repo link,2016-11-22,Closed,120,0,2,,0
+Update links to .io,2016-11-21,Merged,117,6,6,,0
+Speed up region file creation by only using ftruncate().,2016-11-23,Merged,116,2,14,,1
+Fix teleport command not accepting /tp 0 0 0,2016-11-16,Closed,109,0,1,,1
+Might fix #104,2016-12-17,Merged,106,22,5,,1
+Add client translations for Bed,2017-02-15,Closed,103,4,3,,1
+Add new forum link,2016-11-13,Merged,102,1,1,,0
+fix crash at server stop when RCON is enable,2016-11-13,Merged,101,1,1,,1
+Added AsyncTask progress update API,2016-11-19,Merged,100,104,9,,3
+Disallow scheduling the same AsyncTask instance more than once,2016-11-19,Closed,99,6,0,,1
+"Safer anvil section requests, fix ""top-of-the-map"" spawn position crash",2016-11-16,Closed,96,24,24,,2
+Make /timings command more verbose about errors,2016-11-10,Merged,95,9,1,,1
+Obsoletes #41,2016-11-06,Closed,87,"1,918",782,,9
+Partial fix for #83,2017-02-15,Merged,86,2,2,,1
+Create ResourcePackChunkRequestPacket.php,2016-11-05,Closed,81,40,0,,1
+Add new ResourcePack Packets,2016-11-05,Closed,80,47,0,,1
+Particles,2016-11-12,Merged,79,79,40,,4
+Remove extra cases,2016-11-04,Closed,78,0,2,,1
+Critical error upon missing submodules,2016-11-06,Merged,77,42,18,,2
+"Fix double permission recalculation on op status change, fixes double…",2016-11-04,Merged,75,0,1,,1
+Added whisper,2016-11-20,Merged,73,14,0,,2
+Fixed bugs related to #24 such as getName() on null,2016-11-09,Merged,70,93,7,,3
+Fixed detection of system PHP binaries,2016-10-31,Merged,67,1,1,,1
+Added Punctuation,2016-10-29,Closed,63,1,1,,1
+Typographical Error Fixes,2016-10-29,Closed,62,3,3,,1
+add sea lantern,2016-10-28,Closed,58,119,17,json ,7
+0.16 particle protocols.,2016-10-27,Closed,57,35,33,,1
+Improved action check for InteractPacket,2016-10-27,Merged,55,1,1,,1
+New PMMP HomePage,2016-10-26,Closed,53,1,1,,0
+Fix Kor Language(kor - locale),2016-12-01,Closed,51,12,12,,1
+Remove useless statement,2016-10-23,Merged,50,0,4,,1
+"Multiple Things, Read Description",2016-10-23,Closed,48,47,23,github/ISSUE_TEMPLATE github/PULL_REQUEST_TEMPLATE ,2
+Dev 0.16/blocks,2016-10-22,Closed,46,"3,195",762,,9
+"Update to 0.16 (1.6.1dev, API 2.1.0)",2016-10-30,Merged,42,"5,344","1,460",,9
+PhpStorm inspections,2016-11-06,Closed,41,53,45,,25
+Extra action on use of cURL in main thread,2017-02-03,Closed,40,83,3,yml ,4
+Remove useless submodule (unused),2016-10-20,Merged,39,0,4,tests/TesterPlugin ,2
+"Fix --disable-readline command-line option does not work, close #34",2016-10-18,Merged,35,3,5,,1
+Fixed #32,2016-10-19,Merged,33,9,1,,1
+Removed unneeded vars - fixed logical condition,2016-10-18,Merged,29,3,7,,1
+Moved the default mcr/mca worlds' spawn in the center of the r.0.0.mc* region file,2016-10-21,Merged,28,2,2,,1
+Removed some not needed code. Moved the default mcr/mca worlds' spawn in the center of the r.0.0.mc* region file,2016-10-16,Closed,27,5,9,,2
+Update Skeleton.php,2016-10-11,Closed,17,30,0,,1
+Updated CONTRIBUTING.md,2016-10-08,Merged,15,50,30,,0
+Added options to disable saving <player>.dat,2016-10-07,Merged,14,32,20,yml ,2
+Bump to 0.15.10,2016-10-05,Closed,13,3,3,,2
+Added options to load plugins of incompatible APIs,2016-11-02,Closed,12,58,10,yml ,2
+PhpStorm automated formatting,2016-10-03,Merged,11,265,263,,8
+Fixed some lines indented with 4 spaces rather than tabs,2016-10-02,Merged,10,238,238,,19
+Imports rearrangement,2016-10-02,Merged,9,42,199,,44
+Update IntArrayTag.php,2016-10-02,Merged,8,1,2,,1
+Fixed kicked for flying when walking on lily pads,2016-10-03,Merged,7,6,17,,2
+Use \pocketmine\Thread::getThreadName() directly instead of doing it manually,2016-10-01,Merged,6,1,1,,1
+Typo fix in fetching timezone from web,2016-10-01,Merged,5,1,1,,1
+Fixed RawChicken::getAdditionalEffects sometimes returns void,2016-10-01,Merged,4,1,3,,1
+Use of Utils::getRandomBytes(16),2016-10-01,Merged,3,1,1,,1
+Better time ticking and sync,2016-10-02,Merged,2,1,8,,1
+Builtin thread-local object storage for AsyncTask,2016-11-06,Merged,1,101,1,,3

@@ -1,0 +1,20 @@
+update CHANGELOG,2019-12-10,Merged,418,174,173,,0
+Update cJSON_Utils.c to avoid ‘CJSON_DOUBLE_PRECIION’ undeclared,2019-12-09,Merged,417,1,1,,1
+fix memory leak mentioned in issue 414,2019-12-05,Merged,415,1,0,,1
+Added blank lines in Readme.md,2019-11-29,Merged,413,14,0,,0
+fix issue#327,2019-12-06,Merged,412,21,1,,1
+Fixed different argument between declaration and definition,2019-11-19,Merged,408,7,7,,1
+fix make failed in mac os,2019-11-02,Merged,405,1,1,,1
+CMake: add uninstall target,2019-10-29,Merged,402,30,0,cmake ,1
+fix rmdir error,2019-10-29,Merged,401,6,3,,1
+OSS-Fuzz: build with $CXX,2019-10-22,Merged,400,9,2,sh ,2
+ossfuzz.sh: fix permission bits,2019-10-22,Merged,398,0,0,,1
+CMakeLists.txt improvements,2019-11-19,Closed,397,4,4,,0
+initialize variables in print_number,2019-10-19,Merged,396,2,2,,1
+Add const qualifier to cJSON_CreateStringArray,2019-10-20,Merged,395,2,2,h ,2
+Fix typos in REAM.md file,2019-10-08,Merged,392,3,3,,0
+"Revert ""Replace strcpy with strncpy, sprintf with snprintf""",2019-09-24,Merged,389,18,25,,1
+"Replace strcpy with strncpy, sprintf with snprintf",2019-09-21,Merged,388,25,18,,1
+Correct typo error in cJSON.h,2019-08-28,Merged,386,1,1,,1
+eliminate warning when compiling cJSON,2019-08-28,Merged,384,6,6,,1
+Fixed 1 missing dependency in Makefile,2019-09-11,Merged,380,1,1,,1

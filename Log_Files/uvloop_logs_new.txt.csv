@@ -1,0 +1,110 @@
+run `test_shutdown_timeout_handler_not_set` in aio,2019-10-29,Merged,297,0,4,,1
+Fix KeyboardInterrupt handling logic.,2019-10-29,Merged,296,146,95,pxd pyx ,5
+fix missing data on EOF in flushing,2019-10-28,Merged,294,47,71,pxd pyx ,3
+A few cleanups,2019-10-25,Merged,292,26,11,pyx h pxd ,5
+Avoid double connecting to remote_addr for datagram transports,2019-10-25,Merged,291,24,2,pyx ,2
+fix None _shutdown_timeout_handle issue,2019-10-25,Merged,290,52,2,pyx ,2
+Fix #259: handle large timeouts in loop.call_later(),2019-10-25,Merged,289,34,2,pyx ,2
+Fix #259: handle large timeouts in loop.call_later(),2019-10-24,Closed,288,34,2,pyx ,2
+Sleep,2019-10-24,Closed,287,35,3,pyx vendor/libuv ,3
+Handle unix sockets in UDP,2019-10-25,Merged,286,94,7,pyx h pxd ,4
+Bump libuv to v1.33.1,2019-10-24,Closed,285,1,1,,1
+Fix uvloop to run on 3.8,2019-10-24,Merged,284,491,846,yml py ,6
+test only for uvloop freeze #268,2019-10-23,Closed,283,109,0,,1
+Test reproduces #269,2019-10-24,Closed,282,35,0,,1
+Prefer PROTOCOL_TLS than PROTOCOL_SSLv23,2019-10-22,Merged,281,18,5,,4
+fix test_renegotiation,2019-10-21,Merged,280,2,2,,1
+Update Cython for 3.8 compatibility,2019-10-24,Closed,275,1,1,,0
+Fixes #269,2019-10-24,Closed,271,6,0,,1
+Restore wakeup_fd if it was updated in _recv_signals_start,2019-10-24,Merged,270,53,5,pyx ,2
+Fix - freeze when reading stdout from external process,2019-10-25,Merged,268,140,11,pyx h pxd ,5
+add app state check,2019-08-24,Merged,263,78,8,pxd pyx ,3
+Don't log OSError in transports,2019-07-18,Merged,258,3,10,pxi ,4
+sys.set_coroutine_wrapper is removed in Python 3.8,2019-06-13,Merged,253,2,2,,1
+enforce TLS<1.3 for SSL renegotiation tests,2019-05-07,Merged,249,4,0,,1
+Fix memory leak related to call_later() and call_at(),2019-03-20,Merged,240,75,19,pxd pyx ,3
+Start using high-performance uv_udp_t handle again,2019-04-16,Merged,238,632,255,pxd ,2
+Fix SSL memory leak,2019-03-17,Merged,237,67,0,pyx ,2
+Round delay in call_later(),2019-03-18,Merged,236,14,1,pyx ,2
+Upgrade to libuv v1.27.0.,2019-03-17,Closed,235,1,1,,1
+Make Server an asynchronous context manager (fixes: #221),2019-03-17,Merged,234,18,7,pyx ,2
+fix compilation warnings on older Python versions,2019-03-17,Merged,232,3,3,,1
+Use travis homebrew add-on to speed up OS X builds,2019-02-26,Closed,230,10,7,yml ,2
+Enforce consistent code style with flake8,2019-02-16,Merged,229,208,146,flake8 py pyx ,17
+Upgrade to libuv v1.26.0.,2019-02-13,Merged,226,69,13,pyx h vendor/libuv ,5
+Fix ref cycles in callback handles,2019-02-11,Merged,225,20,23,,2
+Implement Server.start_serving() and related APIs,2019-02-16,Merged,224,231,86,pxd pyx pxi ,11
+Fixes #220 sslproto memory issue,2019-02-11,Merged,222,79,2,pyx ,2
+Update test SSL certificate and key to 3072 bit (fixes: #217),2019-01-09,Merged,218,70,27,,2
+Don't use non-existent UDPTransport._address attribute (fixes: #207),2019-01-09,Merged,216,14,1,pyx ,2
+Improve UDPTransport.sendto address validation (fixes: #214),2019-01-08,Merged,215,25,13,pyx ,2
+Add downloads badge to README.rst,2019-01-11,Merged,209,4,0,,1
+Use new PyOS_BeforeFork and PyOS_AfterFork_* 3.7 APIs when available,2018-10-30,Merged,206,33,17,h pxd ,4
+backlog should be passed to create_unix_server,2018-10-30,Merged,205,1,1,,1
+"Don't raise ""requires a DNS lookup"" error on Unix Domain Socket",2018-10-18,Merged,204,22,2,pyx ,2
+Fix segfault and make SSL transport creation lazy,2018-10-12,Merged,203,57,20,pyx pxd ,4
+Fix use of PyContext* APIs in 3.7.1,2018-10-02,Merged,202,50,37,h pxd ,4
+"Fix #195, Don't log ssl.CertificateError",2018-10-10,Merged,199,10,9,pxi ,4
+Fix sslproto crash and test issues,2018-10-01,Merged,198,36,12,pyx ,2
+Fix a memory leak related to contextvars support.,2018-08-07,Merged,192,40,2,pyx ,2
+Fix contextvars.Context.copy memory leak.,2018-08-07,Closed,191,10,0,pyx ,2
+Allow UDP to have tp_clear,2018-08-02,Merged,190,0,4,,3
+Bump libuv from v1.20.3 to v1.22.0,2018-08-02,Merged,189,1,1,,1
+Bump Cython to 0.28.4,2018-08-02,Merged,188,2,2,,0
+Fix process handles leak when uv_spawn() fails,2018-08-02,Merged,187,65,3,py pxd pyx ,3
+Close any open FDs if spawn fails,2018-08-02,Merged,186,38,28,pxd ,3
+Fix #180: Server unable to shutdown while persistent connections exist,2018-08-01,Merged,181,64,11,pyx ,2
+Add python 3.7 on CI,2018-07-04,Closed,179,17,1,,1
+Fix EOF for buffered app protocol,2018-07-04,Merged,177,57,1,pyx ,2
+Rewrite sslproto.py,2018-09-18,Merged,176,"1,593",505,py ,1
+Add _run_once to be consistent with asyncio,2018-06-26,Closed,174,5,1,,1
+Fix race between future cancellation and remove_reader|writer,2018-06-22,Merged,173,185,39,pxd pyx ,5
+Fix #169: asyncio.base_futures.InvalidStateError: invalid state,2018-06-22,Closed,170,40,4,pyx ,2
+Implement loop.start_tls(),2018-06-04,Merged,165,462,36,,1
+A bunch of SSL bugfixes,2018-06-01,Merged,162,372,90,pxd pyx ,6
+"POC UVloop tracing, support for DNS traces and create Task traces",2018-06-21,Closed,160,274,3,pyx h pxd ,10
+Add support for BufferedProtocol,2018-06-01,Merged,159,349,47,pxd pyx ,5
+Cythonize asyncio's sslproto.py,2018-05-26,Merged,157,719,8,py pyx pxi ,6
+Prohibit adding a signal handler for SIGCHLD,2018-05-25,Merged,156,130,70,py pxi pxd pyx ,6
+Implement PEP 567 support (contextvars) for Python 3.7,2018-05-25,Merged,155,249,27,pxd pyx h ,6
+Make signals processing more reliable,2018-05-25,Merged,154,48,19,pyx ,2
+Fix sock_connect() to resolve addresses for correct socket family,2018-05-25,Closed,153,20,1,pyx ,2
+Cleanup process finalization logic.,2018-05-25,Merged,152,34,26,pxd pyx ,5
+Fix subprocess.close() to let its processes die gracefully,2018-05-25,Merged,151,67,3,pyx pxd ,4
+Allow file objects to be passed to loop.subprocess* functions.,2018-05-24,Merged,150,59,7,pyx ,2
+Support for PY37 without contextvars.,2018-05-23,Merged,149,123,117,pxi ,7
+Convert Future-returning loop methods to coroutines.,2018-05-23,Merged,148,32,22,pyx ,4
+Replace asyncio.coroutines.debug_wrapper with CoroWrapper,2018-05-23,Closed,147,2,2,pyx ,2
+"POC UVloop tracing, support for DNS traces",2018-05-22,Closed,144,332,105,yml py ,7
+Support for PY37 without contextvars,2018-05-23,Closed,138,195,104,yml py ,9
+Removed use of asyncio.coroutines.debug_wrapper,2018-04-18,Closed,127,30,20,pyx ,2
+Test against 3.7-dev,2018-04-18,Closed,124,7,0,,1
+Fix macOS Travis,2017-11-29,Merged,119,0,3,,1
+Make Transport.resume_reading() and pause_reading() idempotent. Add is_reading().,2017-11-17,Merged,117,17,11,pyx ,2
+wip,2017-11-17,Closed,116,1,1,,1
+Allow for cross-compile of libuv,2017-11-13,Merged,114,5,1,,1
+fix variable spelling,2017-11-10,Merged,113,1,1,,1
+move remove_done_callback to finally block to fix RuntimeError('Event loop stopped before Future completed'),2017-11-10,Merged,106,16,1,pyx ,2
+correct spelling mistake,2017-11-10,Merged,105,1,1,,1
+accept objects with .fileno() methods as reader/writer,2017-11-10,Closed,101,36,0,pyx ,2
+Fix docs to simplify venv creation procedure,2017-11-10,Merged,96,1,3,,1
+Link with pthread,2017-11-10,Merged,87,2,0,,1
+Adding appveyor configuration.,2017-11-10,Closed,86,14,0,,1
+Fix running of setup.py test with recent setuptools.,2017-03-30,Merged,84,26,12,py ,3
+Address argument now has correct help message,2017-02-11,Merged,78,1,1,,1
+Support DragonFlyBSD,2017-02-06,Merged,77,1,1,,1
+Fixes broken image on PyPi entry,2016-10-24,Closed,58,1,1,,1
+setup.py: add missing space after '-fPIC' for ARCHFLAGS,2016-09-14,Merged,53,1,1,,1
+Include kstat lib for solaris,2016-08-24,Closed,49,2,0,,1
+Fix typo in create_datagram_endpoint,2016-08-24,Merged,46,1,1,,1
+makefile: support the python binary being called something else,2016-07-05,Closed,38,13,10,,1
+Correctly handle local_addr in create_connection,2016-05-29,Closed,30,4,4,,1
+Build manylinux1_x86_64 wheel,2016-08-10,Closed,27,16,1,,1
+Allow dynamic linking to system libuv,2016-05-09,Closed,22,28,9,pxd ,2
+add comments to loop module,2016-05-09,Closed,21,262,0,,0
+add docs,2016-05-09,Closed,19,337,3,Makefile rst py txt pyx ,12
+test code cleanups,2016-05-08,Closed,18,34,16,,11
+add docs,2016-05-08,Closed,17,"1,127",84,in Makefile rst docs/Makefile ,9
+unit test cleanups,2016-05-07,Merged,16,38,73,,10
+fix port value mismatch in create_server,2016-05-04,Closed,8,28,0,pyx ,2
+Introduce uvloop.new_event_loop(),2016-04-12,Merged,5,10,9,,4

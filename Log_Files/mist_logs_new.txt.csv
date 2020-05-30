@@ -1,0 +1,377 @@
+fix #550,2019-10-07,Merged,551,2,5,,1
+docs: mention scala2.12 distros,2019-08-15,Merged,549,20,2,,0
+Error handing fixes,2019-07-24,Merged,547,52,33,py scala ,10
+Complete doobie migration,2019-04-01,Merged,542,414,533,groovy scala sbt conf ,7
+Doobie integration,2019-03-04,Merged,541,630,19,sbt sql conf scala ,11
+Fix #538,2019-02-14,Merged,540,2,2,,1
+[feature/aws_setup] Fix dependency on default VPC and avoid recreating ingress rule.,2018-11-29,Merged,532,15,11,,1
+fix worker jar url for cluster mode,2018-11-12,Merged,529,74,8,,3
+"Prepare to Spark 2.4.0, scala 2.12 support",2018-11-08,Merged,527,154,65,conf groovy scala sbt ,10
+aws emr preview - docs,2018-10-01,Merged,524,62,0,md ,1
+manual starter - …,2018-09-21,Merged,522,2,1,,1
+job cancellation,2018-09-21,Merged,521,63,15,,2
+job execution - fix error message building,2018-09-21,Merged,520,3,7,,1
+JobActor - suppress ConnectionTerminated messages,2018-09-21,Merged,519,100,2,,3
+http - fix put method handler for function update,2018-09-20,Merged,518,38,2,,2
+Fix/info provider startup fix,2018-09-17,Merged,517,26,14,,2
+Fix/spark context init,2018-09-09,Merged,516,89,68,scala sbt ,11
+networking - separate binding host and public host,2018-09-06,Merged,515,72,55,scala sbt ,7
+fix enableHiveSupport for spark 2.3.0+,2018-08-29,Merged,514,8,2,,2
+exclusive worker mode as default,2018-08-23,Merged,513,121,29,conf scala ,3
+restart function info provider process,2018-08-18,Merged,512,106,7,,2
+docker - remove libmesos.so,2018-08-16,Merged,511,0,3,,1
+mqtt - enable auto reconnect,2018-08-16,Merged,510,1,0,,1
+Fix #501 - provide full stack traces from job invocation errors,2018-07-26,Merged,508,6,3,,1
+Chore/delete methods,2018-07-26,Merged,507,285,170,scala ,9
+library- add encoder for List,2018-07-26,Merged,506,1,0,,1
+Update icons,2018-07-24,Merged,505,0,0,,12
+Fix #503 - handle DELETE /v2/api/jobs/{id},2018-07-19,Merged,504,14,1,,2
+Added some fields to ws initialized event,2018-07-09,Merged,500,5,5,,4
+arg with default value shouldn't ignore input value with invalid type,2018-06-21,Merged,497,11,4,,2
+Fix -  remote logs stream closes during `finalize` of AppenderSkeleton,2018-06-21,Merged,496,1,1,,1
+Feature/expose job timeouts,2018-06-20,Merged,495,135,50,scala ,11
+Feature/pagination resp,2018-06-19,Merged,494,224,180,scala ,5
+add cancelling status/event,2018-06-19,Merged,493,107,61,,9
+fix codec to write boolean false value,2018-06-13,Merged,492,1,0,,1
+fix worker termination,2018-05-24,Merged,491,4,0,,2
+"upgrade sbt, implement python publishing",2018-05-24,Merged,490,64,39,md py sbt scala properties sbt/sbt jar version ,9
+Fix/library complete,2018-05-23,Merged,489,962,530,,0
+context config parsing - support old version format,2018-05-21,Merged,488,54,20,,4
+Python dsl documentation,2018-05-18,Merged,487,188,31,md sbt ,10
+Chore/library fixes 1.0.0,2018-05-23,Merged,486,"5,272","3,732",png md ,9
+Fix/broken context handling,2018-05-05,Merged,484,467,292,conf ,6
+Fix/manual mode fixes,2018-04-30,Merged,483,487,301,,6
+fix #472 - build spark submit with correctly parsed runOptions,2018-04-27,Merged,482,33,5,scala ,3
+Scala library improvements,2018-04-30,Merged,481,"3,002","2,871",java scala ,11
+[WIP] New python API,2018-05-17,Closed,476,814,205,py ,8
+increase default max-frame-size to match master config,2018-04-16,Merged,475,2,0,,1
+fix max-content-length property name,2018-04-03,Merged,474,1,1,,1
+docs - network configuration + worker runners,2018-03-28,Merged,471,69,8,md sbt ,2
+show raw spark version in status response,2018-03-28,Merged,470,2,5,,1
+Fix/cancel job await completion,2018-03-28,Merged,469,267,228,sbt scala ,11
+fix spelling,2018-03-22,Merged,466,1,1,,0
+Close #444: add mesos support into the docker images,2018-03-22,Merged,465,14,6,,1
+http api - handle /,2018-03-23,Merged,464,19,2,,1
+mesos library for docker distr,2018-03-22,Closed,463,2,1,,1
+Feature/spark logs appender,2018-03-22,Merged,462,210,44,,8
+python - support for spark.pyspark configuration,2018-03-22,Merged,461,14,2,,1
+Feature/worker runners fixes,2018-03-22,Merged,460,"1,084","1,004",yml Jenkinsfile bin/mist-worker conf properties sh py scala ,11
+Feature/shared worker pool,2018-03-19,Merged,459,411,159,,4
+fix - provide agrument for worker directory configuration,2018-03-06,Merged,455,5,2,,1
+override streaming context stop method; force user to not stop sp con…,2018-03-05,Merged,454,28,2,,4
+prepend ctx name to worker id,2018-03-05,Merged,453,1,1,,1
+return missing initialized event for async interfaces,2018-03-05,Merged,452,19,7,,3
+Fix broken Kafka client,2018-03-01,Merged,447,1,1,,1
+Fix/worker directory,2018-03-02,Merged,446,83,91,,11
+"readme - roadmap 1.0.0, link to quick start",2018-02-27,Merged,443,5,5,,0
+docs - fix pom dependencies,2018-02-27,Merged,442,76,18,,0
+fix shared connector shutdown,2018-02-26,Merged,434,24,8,,4
+fix #431,2018-02-23,Merged,433,3,3,,1
+Fix job cancellation - respond with correct job details,2018-02-22,Merged,429,130,81,scala ,11
+Fix/job evt logging,2018-02-21,Merged,428,137,71,,11
+Fix/job evt logging,2018-02-21,Closed,427,"3,744","2,478",sbt conf ,10
+Fix/rewrite cluster complete,2018-02-21,Merged,426,710,148,,6
+Fix/restart conn logic,2018-02-20,Merged,425,194,53,,3
+Chore/fix event streamer,2018-02-15,Merged,421,28,14,,5
+fail remaining job when worker is unreachable [WIP],2018-02-15,Merged,420,5,3,,2
+Fix log store flow,2018-02-14,Merged,419,54,32,properties ,5
+getting started - cluster setup warning (see #415),2018-02-12,Merged,417,3,0,,0
+Wip - rewrite cluster,2018-02-22,Merged,416,"4,366","2,484",sbt conf ,10
+log4j dep for master,2018-02-09,Merged,412,1,1,,1
+parsing spark conf - unescape keys,2018-02-09,Merged,411,35,14,,2
+Chore/remove job resolver,2018-02-08,Merged,410,14,441,sbt scala ,9
+fix jenkins build,2018-02-07,Merged,409,1,1,,1
+Chore/artifact downloader content length,2018-02-08,Merged,408,58,34,conf ,13
+update testcontainers,2018-02-06,Merged,406,3,5,sbt ,4
+Chore/rename refactor [WIP],2018-02-06,Merged,405,"1,024","1,071",→ bin/mist-function-info-provider md py scala ,7
+"Handle fatal errors from jobs loading, validation",2018-01-30,Merged,403,176,94,,6
+Job info provider remove copy logic.,2018-01-26,Merged,402,107,105,,7
+Jobs Log writing: resume store flow in case when error happened,2018-01-25,Merged,401,31,4,,3
+Docs/getting started,2018-02-06,Merged,400,391,210,webm md ,2
+remove caching of changeable endpoint settings,2018-01-25,Merged,399,43,46,,5
+Rework integration tests + several fixes,2018-01-24,Merged,398,491,730,py conf json properties scala ,19
+added metrics to status page,2018-01-23,Merged,397,101,9,,3
+Minor fix for endpoints list,2018-01-23,Merged,396,51,5,,2
+Fix/master java opts,2018-01-19,Merged,395,12,13,conf ,3
+Several fixes,2018-01-19,Merged,394,131,140,properties sh scala conf ,10
+Fix #386: detect release using git describe,2018-01-16,Merged,390,25,22,,1
+Feature/ws keep alive msg,2018-01-15,Merged,389,33,13,scala ,9
+Chore/args tests complete,2018-01-15,Merged,388,3,0,,2
+Chore/default args,2018-01-15,Merged,387,13,14,,4
+Bunch of fixes around akka,2018-01-12,Merged,385,123,79,sbt ,14
+Latest akka,2018-01-12,Closed,384,111,76,scala sbt ,18
+Lib - fix for nested case classes in arg,2018-01-12,Merged,383,204,192,,4
+Feature/ws filter logs flag,2018-01-12,Merged,382,49,17,,4
+"Fix long arg extraction from int value, same as #377",2017-12-27,Merged,380,10,2,,2
+worker - force shutdown node if cluster problems happens,2017-12-27,Merged,379,12,4,,1
+Ignore content-type for json parsing,2017-12-26,Merged,378,36,221,,5
+fix argument extraction,2017-12-26,Merged,377,48,45,,4
+job response - prevent sending unseralizable MapLike,2017-12-22,Merged,372,42,19,,3
+Fix #370 - fix info key building,2017-12-21,Merged,371,1,1,,1
+Add a Gitter chat badge to README.md,2017-12-20,Merged,369,2,0,,0
+Feature/jekill docs,2017-12-20,Merged,368,207,310,md png ,3
+Prepare to rc,2017-12-18,Merged,366,62,536,Jenkinsfile conf md java scala ,8
+Shade shapeless,2017-12-15,Merged,365,26,73,sbt ,11
+added force flag to forcibly update entities.,2017-12-13,Merged,364,76,24,,3
+Feature/job info cache,2017-12-14,Merged,363,548,271,conf ,11
+Feature/library docs,2017-12-05,Merged,360,661,252,md ,2
+MistJob -> MistFn,2017-11-29,Merged,359,189,219,scala ,19
+library - build args from case class,2017-11-29,Merged,357,689,477,scala ,10
+Feature/job tags streaming support,2017-11-23,Merged,354,292,240,,23
+Feature/job def tags [WIP],2017-11-22,Closed,352,57,38,,14
+default arguments types - add boolean,2017-11-22,Merged,351,86,5,,8
+Fix/java arg validate,2017-11-22,Merged,349,170,43,,5
+improve withargs,2017-11-18,Merged,347,34,72,,13
+Library - WithArgs should support childs from ArgDef,2017-11-17,Merged,346,48,15,,3
+Feature/arg def validation,2017-11-17,Merged,345,237,129,,7
+Fix/new api examples docs,2017-11-08,Merged,342,545,326,java scala ,14
+delegate method of job def to job instance,2017-11-08,Merged,341,9,8,,1
+Feature/ret val,2017-11-08,Merged,340,216,67,scala ,8
+Remove SparkML examples (moved to Hydroserving),2017-11-02,Merged,337,10,"1,760",scala ,12
+bump ui version,2017-11-01,Merged,335,1,1,,1
+fix issue when python job uploaded remotely and local path in worker …,2017-11-01,Merged,334,1,1,,1
+Fix #327 - obtain spark ui address using public method for spark 2+,2017-10-25,Merged,329,15,0,,2
+Fix/new library api hive example,2017-10-24,Merged,326,488,261,conf scala ,9
+Feature/ts job info loader,2017-10-20,Merged,324,"1,489",349,bin/mist-job-info-provider scala conf ,7
+Fix/new api scala withargs,2017-10-19,Merged,323,154,15,sbt ,6
+New library api [WIP],2017-12-15,Merged,322,"6,039",989,yml Jenkinsfile bin/mist-job-info-provider conf ,7
+Feature/cli,2017-10-12,Merged,320,4,565,md conf scala ,7
+Master server stopping - fix resulting Future building,2017-10-02,Merged,319,39,12,scala ,2
+Chore/http create config method,2017-10-02,Merged,318,50,72,,2
+Master start/stop refactoring,2017-09-29,Merged,315,351,335,scala ,8
+chore/master server polish,2017-09-29,Merged,313,348,321,scala ,8
+Chore/jenkins fix,2017-09-17,Merged,311,10,3,,1
+chore/worker detailed info,2017-09-16,Merged,310,113,23,,9
+Added tests result collector,2017-09-15,Merged,309,5,1,,1
+Chore/fix int test,2017-09-15,Merged,308,329,232,scala ,6
+Chore/worker detailed info,2017-09-14,Merged,307,108,9,scala ,12
+Feature/artifact loader polish,2017-09-10,Merged,305,629,367,scala sbt conf ,19
+Fix #303: enforce worker process to stop,2017-09-07,Merged,304,1,1,,1
+Story/nd mist,2017-09-06,Closed,301,1,0,,1
+Fix log stream failure during processing a huge amount of log requests,2017-09-06,Merged,299,2,23,,2
+Update configuration.md,2017-09-06,Merged,298,3,3,,0
+update ui to 1.1.5,2017-09-05,Merged,296,1,1,,1
+Master/worker projects splitting,2017-10-02,Merged,295,"2,524","1,497",bin/mist-master bin/mist-worker conf py json scala ,27
+Feature/artifact loader,2017-09-04,Closed,292,"1,046",220,scala conf ,11
+Status route for http,2017-08-28,Merged,291,99,6,sbt scala ,6
+Hotfix - master worker hosts configuration,2017-08-28,Merged,290,4,2,,3
+remove class header,2017-08-25,Merged,288,0,3,,1
+examples - update spark-ml-serving,2017-08-25,Merged,287,3,2,sbt ,2
+select run mode based on job`s class,2017-08-24,Merged,286,21,10,,1
+Feature/context worker mode option,2017-08-23,Merged,285,123,52,conf scala ,9
+migrate ml examples on new api/ui,2017-08-23,Merged,284,112,"3,338",,24
+Fixes for jenkins/travis,2017-08-21,Merged,283,6,2,Jenkinsfile ,2
+close #278: increase verbosity for jobs events,2017-08-21,Merged,282,25,11,,4
+Close #265,2017-08-21,Merged,280,93,32,,12
+fix #264: add fallback default value for context creation api method;,2017-08-17,Merged,279,82,8,,6
+Fix #276: increase http.server.timeout to 10 minutes,2017-08-21,Merged,277,1,0,,1
+Run job force - fix `failed future case`,2017-08-16,Merged,275,2,0,,1
+Fix #273 - Master config resolution,2017-08-16,Merged,274,3,3,scala ,2
+fix: #262 added exception handling before cors header is added,2017-08-16,Merged,272,8,1,,1
+Fix/worker logging,2017-08-16,Merged,271,36,2,properties scala ,4
+Remoting - max frame size,2017-08-16,Merged,269,2,0,,2
+fix: handle not existing job log file,2017-08-16,Merged,267,82,42,,2
+dev run api,2017-08-16,Merged,266,353,96,,9
+Update README.md,2017-08-14,Closed,261,1,1,,0
+Chore/worker args,2017-08-11,Merged,260,221,176,py scala sbt ,54
+ws api - change paths,2017-08-10,Merged,259,9,13,,2
+worker initialization timeout - fix timeout calculation,2017-08-04,Merged,258,22,17,,2
+fix: mist job runner selection by local filename,2017-08-04,Merged,257,2,2,,1
+Feature/endpoints contexts api,2017-08-04,Merged,256,"1,836",943,scala conf ,7
+added more parameters in ManualWorkerRunner,2017-08-11,Merged,254,240,176,py scala sbt ,53
+Feature/worker init timeout,2017-08-03,Merged,253,45,10,scala ,10
+Fix/missing run options,2017-08-02,Merged,252,84,11,scala ,4
+New library api - prototype,2017-10-17,Closed,251,419,13,scala sbt ,9
+Fix/jenkins repos,2017-07-31,Merged,250,3,1,,1
+add job arguments validation at master.,2017-08-03,Merged,249,137,37,,5
+Fix/ui rm as submodule,2017-07-25,Merged,247,114,69,gitmodules yml Jenkinsfile bin/mist-master md sbt scala conf ui ,12
+Shade scopt.244,2017-07-24,Merged,245,5,5,,2
+Examples of running mist job from python,2017-07-20,Merged,242,131,17,scala ,10
+ui - use https url for git submodule,2017-07-18,Merged,241,1,3,yml Jenkinsfile ,3
+Fix/ctx config parsing,2017-07-18,Merged,240,62,6,scala ,2
+New ui,2017-07-14,Merged,239,58,"1,180",yml Jenkinsfile sbt conf css ico png html js scala ,12
+For 0.12.3,2017-07-11,Merged,237,979,668,bin/mist-worker conf sh md sbt ,7
+Fix/ws path,2017-07-08,Merged,236,4,4,scala ,2
+http - status filter for jobs,2017-07-05,Merged,235,108,65,scala ,11
+Fix - jobs recovering,2017-06-29,Merged,234,33,81,,4
+Fix - jobs recovering,2017-06-29,Closed,233,625,889,bin/mist-master conf sh ,4
+apiv2 - change path for running job method,2017-06-29,Merged,232,6,6,scala ,2
+Fix/apiv2 change run job path,2017-06-29,Closed,231,490,775,bin/mist-master conf sh ,4
+Fix/cli start job,2017-06-29,Merged,230,108,39,,5
+Update docs,2017-06-29,Merged,229,628,892,bin/mist-master conf sh ,4
+fix - combine api routes in right way,2017-06-26,Merged,228,8,5,,3
+Fix/worker restart,2017-06-24,Merged,227,8,3,scala ,4
+Feature/jobs logging,2017-06-23,Merged,226,996,609,scala ,13
+Use spark classloaders,2017-06-14,Merged,221,43,3,scala ,3
+"cleanup repo, delete useless things",2017-06-06,Merged,219,260,"1,035",,10
+New API,2017-06-06,Merged,217,"2,544","2,163",sh md sbt conf scala ,10
+Minor docs update,2017-06-01,Merged,214,66,49,,0
+Minor docs update,2017-06-01,Closed,213,"1,981","2,008",bin/mist-worker sh sbt conf scala ,10
+Fix #204: set up Thread.contextClassloader before running scala job,2017-06-01,Merged,212,6,2,,2
+return spark version postfix into library name,2017-05-30,Merged,211,8,8,sbt ,2
+change default http to 2004,2017-05-30,Merged,210,16,38,conf sbt ,4
+fix #207 - remove versions classifiers for examples jar,2017-05-30,Merged,209,9,6,sbt ,3
+Changed rest-api invocation in .js,2017-05-30,Merged,208,1,1,,0
+Feature/static publishing,2017-05-29,Merged,205,9,0,,1
+Job should be submitted only once,2017-05-23,Merged,203,32,3,,3
+Readme update - Kafka support,2017-05-22,Merged,201,2,2,,0
+Save order of arguments for scala jobs. See #198,2017-05-19,Merged,200,38,4,,3
+Feature/package tar,2017-05-23,Merged,199,605,617,bin/mist-cli bin/mist-master ,3
+"Local ML tests, Vector fixes, Tree-like structures setters fixes",2017-05-19,Merged,197,853,193,scala ,10
+ui - change api path to relative,2017-05-17,Closed,196,17,15,,0
+Ci/modules refactor,2017-05-12,Merged,193,513,611,scala ,23
+Jenkins test,2017-05-02,Merged,191,66,43,,1
+fix worker test,2017-05-02,Merged,190,5,2,,1
+Fix/ml examples,2017-04-25,Merged,189,87,63,crc mist-lib-spark2/src/test/resources/models/word2vec/metadata/_SUCCESS mist-lib-spark2/src/test/resources/models/word2vec/metadata/part-00000 mist-lib-spark2/src/test/resources/models/word2vec/stages/0_w2v_cab50a34cce6/data/_SUCCESS parquet mist-lib-spark2/src/test/resources/models/word2vec/stages/0_w2v_cab50a34cce6/metadata/_SUCCESS mist-lib-spark2/src/test/resources/models/word2vec/stages/0_w2v_cab50a34cce6/metadata/part-00000 ,25
+Fix/ml examples,2017-04-26,Merged,188,242,240,scala ,15
+"ml local - fix local loading, initial test for local models",2017-04-24,Merged,185,460,"1,417",properties ,13
+reload router configuration,2017-04-24,Merged,184,27,12,,3
+import fix in examples-spark2,2017-04-22,Merged,183,1,1,,1
+"docker image name ""io.hydrosphere/mist:version-$sparkVersion""",2017-04-19,Merged,181,5,2,,1
+jenkins - publish releases only for tags,2017-04-19,Merged,180,12,17,,1
+mistconfig - resolve typesafe config,2017-04-19,Merged,179,2,2,,1
+Fix job recovery - result should be published into source,2017-04-19,Merged,178,157,68,,8
+Prepare to 0.11.0,2017-04-18,Merged,176,"7,686","5,330",yml Dockerfile Jenkinsfile md bin/mist conf ,9
+[WIP] Feature/ml models,2017-04-21,Merged,175,"1,460",284,md scala ,5
+Refactoring of ML and new tests,2017-03-28,Merged,174,"1,774","1,180",md scala ,15
+Extract mist library,2017-04-14,Closed,170,"5,944","4,109",md bin/mist conf ,9
+Fix Jenkinsfile,2017-03-15,Merged,167,5,3,,1
+Send HTTP response when request is timed out,2017-03-15,Merged,166,7,6,,1
+Fix run button for firefox,2017-03-14,Merged,165,5,1,,2
+Fix class loader for getResources in static http serving,2017-03-14,Merged,164,15,12,,3
+Run mist from sbt,2017-03-10,Merged,161,263,189,md sbt scala ,4
+Update ClusterManager.scala,2017-03-01,Closed,158,0,2,,1
+downtime worker after stopping all jobs,2017-04-25,Closed,157,1,0,,1
+[WIP] Spark ML LocalModel implementation.,2017-03-14,Merged,156,"3,281",388,yml Jenkinsfile md conf ,5
+Run tests on the jenkins slaves,2017-03-01,Merged,155,70,68,Jenkinsfile ,2
+Added more information about jobs and workers,2017-05-30,Closed,154,39,9,,1
+Mist Config reloadable on the fly,2017-03-01,Merged,153,44,34,,3
+Make MistConfig reloadable on the fly,2017-02-22,Closed,151,174,103,html js ,18
+remove workers after kill -9,2017-02-13,Merged,150,26,0,,2
+Maven job resolver,2017-03-01,Merged,149,244,7,scala ,6
+Readme wording fix,2017-02-09,Merged,146,4,4,,0
+Fix LogisticRegressionModel,2017-02-08,Merged,145,44,16,,1
+Downtime workers before stopping,2017-02-10,Merged,144,181,64,conf scala ,5
+change version,2017-02-02,Merged,140,13,5,md conf sbt ,3
+Feature/unwrap dostuff arguments,2017-02-02,Merged,139,853,"12,439",md conf sbt py ,7
+Chore/spark 2 1,2017-02-02,Merged,138,62,15,md conf ,5
+Experimental,2017-02-02,Merged,137,4,4,,1
+Chore/tests review,2017-01-27,Merged,130,158,441,scala ,7
+mist,2017-01-20,Merged,129,12,12,,0
+real-time,2017-01-20,Merged,128,7,7,,0
+reactive,2017-01-20,Merged,127,13,13,,0
+hydrospher mist,2017-01-20,Closed,126,15,15,,0
+Link typo,2017-01-18,Merged,125,1,1,,0
+reviewed creation and stop streamong jobs,2017-01-19,Merged,124,131,16,py scala conf ,16
+Filter columns in LocalData,2017-01-11,Merged,123,7,3,,2
+Mist UI,2017-01-11,Merged,122,"11,102",279,html ,2
+Chore/getting started guide,2017-01-05,Merged,120,599,31,conf ,2
+Feature/web,2016-12-30,Merged,117,703,0,scala js ico png html json ,8
+Feature/web,2016-12-30,Closed,116,"1,491",0,js ico png html json ,7
+Feature/model optimisation,2016-12-30,Merged,115,"1,416",389,conf sh sbt scala py ,13
+"refactoring CLI, refactoring Tests, refactoring Internal REST",2016-12-30,Merged,114,422,351,md scala properties ,8
+internal rest,2016-12-23,Merged,113,420,73,scala conf ,8
+fix Jenkins CLI timeout,2016-12-21,Merged,112,1,1,,1
+Remove unused volumes,2016-12-21,Merged,111,3,0,,1
+MQTT different publish-subscribe topic,2016-12-21,Merged,110,2,2,,1
+Chore/simple text search,2016-12-21,Merged,109,58,0,,2
+Ic/jenkins,2016-12-19,Merged,108,127,46,Jenkinsfile sbt scala ,5
+Feature/cli,2016-12-19,Closed,107,770,119,conf scala ,8
+Chore/readme update,2016-12-21,Merged,106,171,18,md conf sbt ,3
+workers default,2016-11-30,Merged,103,1,1,,1
+checkout version,2016-11-29,Merged,100,11,9,md sbt conf ,5
+Feature/manual worker running,2016-11-29,Merged,99,63,47,bin/mist conf sh scala ,8
+checkout version,2016-11-22,Merged,95,16,10,md sbt conf ,4
+checkout version,2016-11-22,Merged,94,3,2,,2
+refactoring,2016-11-22,Merged,92,7,10,,1
+Feature/cli,2016-12-21,Merged,91,930,169,Jenkinsfile bin/mist conf scala sbt ,9
+examples package default version,2016-11-21,Merged,90,1,1,,1
+Chore/scalastyle,2016-11-11,Merged,89,73,43,sbt scala ,24
+checkout version to 0.6.3,2016-11-07,Merged,88,12,6,md sbt conf ,3
+Feature/map for publish,2016-11-07,Merged,87,28,20,,3
+Default --parameters for mist start job,2016-11-07,Merged,86,1,0,,1
+Bugfix/restificated external,2016-11-07,Merged,85,41,41,scala conf ,5
+checkout version to v0.6.2,2016-11-03,Merged,84,10,6,md sbt conf ,3
+Feature/router for cli,2016-11-03,Merged,83,46,23,conf scala ,8
+Fix job running via CLI,2016-11-03,Merged,82,1,3,,1
+checkout version,2016-11-02,Merged,81,13,9,md sbt conf ,3
+Spark-submit running options,2016-11-02,Merged,80,46,20,sh conf scala ,5
+fix context conf,2016-11-02,Merged,79,13,13,,3
+cleaning configs,2016-11-01,Merged,78,6,4,,5
+reactive readme update,2016-10-29,Merged,77,13,3,,0
+update changelog,2016-10-28,Merged,76,1,0,,1
+Readme change and checkout version,2016-10-28,Merged,75,94,10,md sbt conf ,3
+Feature/py publisher mqtt,2016-10-28,Merged,74,136,29,sbt scala conf ,14
+Streaming,2016-10-28,Merged,73,864,214,Dockerfile md bin/mist conf sh ,6
+Chore/big refactoring,2016-10-19,Merged,72,"1,932","1,693",yml CHANGELOG Dockerfile md Vagrantfile bin/mist ,6
+mist version changed to 0.5.0,2016-10-19,Merged,71,3,3,conf ,2
+Chore/readmechange spark master refactoring,2016-10-19,Merged,70,6,8,,0
+Chore/feature sparkmaster,2016-10-19,Merged,69,28,28,scala ,11
+hdfs job test,2016-10-19,Closed,68,10,3,,1
+Chore/tests,2016-10-11,Merged,67,132,9,scala ,10
+fix test reference.conf,2016-10-06,Closed,66,4,4,,1
+change conf file dev mode,2016-10-01,Merged,65,1,1,,0
+"word ""lern"" spelled wrong.",2016-11-02,Closed,64,1,1,,0
+added missing link to sample code from tutorial,2016-11-02,Closed,63,1,1,,0
+Mist jobs from HDFS,2016-09-22,Merged,62,92,325,conf scala ,9
+"add ""master"" to mist.sh command line instructions",2016-11-02,Closed,61,1,1,,0
+update instructions to point to mist config file,2016-10-28,Closed,60,1,1,,0
+update to point to Mist install instructions,2016-11-02,Closed,59,1,1,,0
+SparkSession hive enabled in conf,2016-09-30,Closed,58,27,5,scala ,3
+code-examples.md update,2016-09-21,Merged,57,100,8,,0
+Create killmist.sh,2016-09-18,Closed,56,10,0,sh ,2
+remove unnecessary files,2016-09-18,Merged,55,0,"77,119",dbb log pid xml~ ,6
+remove unnecessary files,2016-09-18,Merged,54,0,"77,119",,1
+Create killmist.sh,2016-09-18,Merged,53,10,0,sh ,2
+Leonid133 patch 1,2016-09-14,Merged,52,"79,090",3,dbb sh log pid pyc xml~ scala txt ,9
+Update reference.conf,2016-09-10,Merged,51,5,4,conf ,2
+bugfix Master.scala Recovery false in config,2016-09-10,Merged,50,8,10,scala ,2
+Readmechange,2016-09-08,Merged,49,10,0,,0
+Http Response content-type application/json,2016-09-08,Merged,48,38,32,scala ,2
+Docker,2016-09-01,Merged,47,98,48,Dockerfile conf sh ,4
+readme ref,2016-09-01,Merged,46,454,449,,1
+v0.4.0,2016-08-18,Merged,45,3,3,conf ,2
+"Update libDependency mapdb, slf4j-api",2016-08-18,Merged,44,2,2,,1
+Readmechange,2016-08-18,Merged,43,169,23,LICENSE md ,2
+v0.3.0,2016-08-17,Merged,42,4,3,,0
+Tests,2016-08-18,Merged,41,645,158,md sbt scala py properties xml ,13
+Spark 2.0.0 SparkSession maintance,2016-08-05,Closed,40,702,78,sbt scala py properties xml ,9
+Logger,2016-07-28,Merged,39,337,84,conf properties xml sbt ,10
+mqtt dependency version checkout to 1.1.0,2016-07-28,Merged,38,4,7,scala ,3
+Feature/cluster b chery pick,2016-07-22,Merged,37,"2,436","1,115",yml md Vagrantfile conf ,7
+Feature/cluster b2,2016-07-15,Closed,36,"4,536",1,yml LICENSE ,3
+Feature/cluster b5,2016-07-15,Merged,35,0,0,,0
+Ref Mqtt on Actors,2016-05-21,Merged,34,263,187,,3
+Fixed typos,2016-05-21,Merged,33,18,12,,0
+Update README.md,2016-05-20,Merged,32,66,1,,0
+Update README.md,2016-05-20,Merged,31,11,1,,0
+BugFix mqtt bad json,2016-05-20,Merged,30,22,12,conf ,4
+Walker proofread Mist README,2016-05-16,Merged,29,21,21,,0
+Recovery review,2016-05-16,Merged,28,378,529,conf sbt scala ,5
+Addtests fixtravis,2016-05-10,Closed,27,199,460,conf sbt scala ,9
+Addtests,2016-04-29,Closed,26,185,333,jar sbt scala ,11
+Update README.md,2016-04-27,Merged,25,1,1,,0
+Readme1,2016-04-27,Merged,24,2,2,,0
+Persist Job state for self healing,2016-04-27,Merged,23,283,20,sbt scala ,12
+"Revert ""Update README.md""",2016-04-26,Merged,22,1,1,,0
+Update README.md,2016-04-27,Closed,21,1,1,,0
+Update README.md,2016-04-26,Merged,20,1,1,,0
+documentation fixes maven and scala version,2016-04-18,Merged,19,12,11,,0
+documentation fixes maven and scala version,2016-04-18,Merged,18,12,11,,0
+documentation-version-fix,2016-04-15,Merged,17,2,2,,0
+Fix MQTT tests,2016-04-15,Merged,16,189,193,sbt scala ,4
+Minor styling fixes,2016-04-15,Merged,15,4,4,,0
+"add test Disposable context, Constants",2016-04-14,Merged,14,49,8,conf ,4
+Settings for SparkConf,2016-04-11,Merged,13,29,10,scala ,3
+travis fix,2016-04-07,Merged,12,97,71,conf scala ,37
+R and travis,2016-04-07,Merged,11,264,16,md conf ,3
+Cosmetic Documentation updates,2016-04-07,Merged,10,24,22,,0
+Added tests for all,2016-04-04,Merged,9,"1,097",6,scala sbt conf json ,19
+Addtests,2016-04-04,Closed,8,"1,097",6,scala sbt conf json ,19
+rename lymph to mist,2016-03-15,Merged,7,150,150,sbt scala conf ,16
+python mainteance,2016-03-15,Merged,6,431,88,scala ,9
+python mainteance,2016-03-14,Closed,5,354,27,scala ,6
+Simplepython ref1,2016-03-11,Closed,4,346,19,scala ,8
+Simplepython ref1,2016-02-26,Closed,3,244,13,scala ,8
+Future job request actor exception,2016-02-23,Closed,2,189,6,pyc scala ,6
+simplepython,2016-02-23,Closed,1,178,0,pyc scala ,4

@@ -1,0 +1,65 @@
+Xcode11,2019-11-12,Merged,368,90,23,podspec pbxproj storyboard ,5
+Swift Package Manager Support,2019-11-12,Closed,363,33,0,,1
+Darkmode support,2019-08-06,Closed,343,30,22,storyboard swift ,3
+Add support for Swift Package Manager,2019-08-06,Closed,342,25,0,,1
+add ability to change drawer state to .closed by swipe to bottom,2019-03-19,Closed,321,24,0,,1
+Fix/prepare feedback,2019-03-26,Closed,320,6,2,,1
+Fix/mask,2019-02-18,Merged,309,7,1,,1
+Make rawValue public,2019-02-16,Merged,305,20,3,,1
+*Crashes* Make sure that feedback generator is being called on main thread,2019-01-22,Closed,304,7,6,,1
+Fixing drawer mask via issue #284,2019-01-21,Closed,303,7,1,,1
+Support transparency for primary content container,2018-11-18,Closed,293,4,3,,1
+Add an optional tap to toggle behavior,2018-11-19,Closed,289,22,5,,1
+update: syntax for swift 4.2,2018-10-09,Closed,274,67,67,,0
+allow adjusting shadow offset,2018-10-09,Merged,273,11,0,,1
+Use pulleySafeAreaInsets adapter everywhere,2018-10-05,Merged,270,7,30,,1
+Change all of public properties and methods to open,2018-10-04,Closed,269,50,50,,0
+"Revert ""Merging Swift 4.2 Update into Master""",2018-09-20,Merged,264,39,38,swift ,3
+Merging Swift 4.2 Update into Master,2018-09-20,Merged,263,38,39,swift ,3
+Update for Xcode 10,2018-09-20,Merged,262,239,72,pbxproj swift storyboard ,8
+Adding new feature to provide spacing around the drawer.,2018-10-09,Closed,256,44,9,,2
+"Support more corner positions, unified panelInsets, better safe area support.",2018-08-29,Merged,251,65,51,,5
+Add cornerPlacement property,2018-08-29,Merged,250,26,1,,1
+Create swift 4.2 support,2018-08-04,Merged,242,30,34,swift ,3
+Fix a bug where the drawer distance delegate method would initially be the incorrect distance,2018-08-03,Merged,240,6,1,,1
+Fix issue #235,2018-07-31,Closed,236,3,2,,1
+Specify default collapsed and partial reveal heights,2018-07-25,Closed,231,53,62,,3
+Remove deprecated callback,2018-07-06,Merged,225,10,6,,1
+Custom Masking,2018-08-29,Merged,224,143,13,swift ,4
+Change xcconfig to pod_target_xcconfig in podspec,2018-07-24,Closed,216,1,1,,1
+Remove duplicate PulleyPosition rawValue,2018-06-15,Merged,215,2,2,,1
+Added helper member for accessing PulleyViewController from any UIViewController,2018-04-29,Merged,191,49,44,swift ,5
+Add swift target,2018-04-02,Merged,186,1,0,,1
+Split panelInset variable into left and top components.,2018-02-08,Merged,150,15,5,,1
+Code cleanup,2017-12-13,Merged,137,13,18,,3
+Allow subclasses to implement PulleyDrawerViewControllerDelegate,2017-12-07,Closed,125,6,6,,1
+Add missing Swift syntax highlighting in README,2017-11-30,Merged,123,6,8,,0
+Fix issues with background dimming on iPhone X,2017-11-14,Merged,111,51,19,,2
+[Fix #101] Add missing UIKit import,2017-10-26,Merged,102,1,1,,1
+Added support for TabBar in iOS10: It is now possible to add the Pull…,2017-10-26,Merged,99,10,1,,1
+Mask the background dimming view behind the drawer so the drawer itself is not darkened,2017-10-26,Merged,98,49,0,,1
+Amend drawerScrollView to respect safeAreInset in Landscape mode,2017-10-14,Merged,93,6,2,,1
+Fixing podspec to work with new Xcode 9 build system,2017-10-05,Merged,87,1,1,,1
+Swift 4 / iOS 11 SDK / Safe areas,2017-09-25,Merged,81,289,143,podspec pbxproj swift ,4
+Make `canCancelContentTouches` configurable,2017-09-25,Closed,79,18,2,,1
+Make `delaysContentTouches` configurable,2017-09-25,Merged,76,4,1,,1
+Feature/use constraints,2017-08-26,Merged,70,39,13,swift ,3
+support nested PulleyViewControllers,2017-08-11,Merged,61,79,23,swift storyboard ,5
+[WIP] Fix transition animation layout issue,2017-07-13,Merged,56,21,21,,1
+Add allowsUserDrawerPositionChange property to PulleyViewController,2017-05-22,Merged,49,19,3,,1
+Add visibleDrawerHeight property to PulleyViewController,2017-05-22,Merged,48,9,0,,1
+Add optional completion handlers for all animations that occur,2017-04-27,Merged,44,28,7,,1
+Update syntax to Xcode 8.3 / Swift 3.1,2017-04-15,Merged,40,2,2,,1
+Allow container view to be embedded in navVC,2017-03-24,Closed,36,11,3,,1
+Added a Pulley framework to support Carthage,2017-02-17,Merged,32,286,42,xcscheme ,2
+Updated view controller containment calls according to Apple’s Documentation,2016-12-30,Merged,30,4,0,,1
+Fixed minor protection level issue,2016-10-26,Merged,19,1,1,,1
+Swift 2.2 Updated,2016-10-03,Merged,18,193,29,,1
+Dimming View tap recogniser not firing drawer position,2016-09-28,Closed,17,1,4,,1
+Add closed position,2016-10-26,Merged,16,6,1,,1
+Fix crash,2016-09-27,Merged,15,2,2,,1
+Feature/supported drawer stops,2016-09-27,Merged,14,139,25,md ,2
+Allow inheritance of PulleyViewController,2016-09-21,Merged,10,7,7,,1
+Merge Swift 3 support.,2016-09-10,Merged,6,304,257,pbxproj swift ,4
+Update for Xcode8b6 version of Swift 3.0,2016-08-30,Merged,3,17,17,,1
+fixed the author in the podspec,2016-07-14,Closed,1,1,1,,1
